@@ -25,7 +25,7 @@ namespace Aspose.PSD.Examples.Aspose.Conversion
         {
             // The path to the documents directory.
             string dataDir = "Your Document Directory";
-            string outputFolder = RunExamples.GetDataDir_Output(); ;
+            string outputFolder = "Your Output Directory"; ;
 
             //ExStart:SettingforReplacingMissingFonts
 

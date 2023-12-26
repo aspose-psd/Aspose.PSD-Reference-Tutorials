@@ -24,7 +24,7 @@ namespace Aspose.PSD.Examples.Aspose.LayerEffects
         {
             // The path to the documents directory.
             string SourceDir = "Your Document Directory";
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string OutputDir = "Your Output Directory";
 
             //ExStart:RenderingOfGradientOverlayEffect
             //ExSummary:The following example demonstrates how Aspose.PSD can render the Gradient Overlay Layer Effect 

@@ -25,7 +25,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
         {
             // The path to the documents directory.
             string baseDir = "Your Document Directory";
-            string outputDir = RunExamples.GetDataDir_Output();
+            string outputDir = "Your Output Directory";
             
             //ExStart:SupportShadowEffectOpacity
             //ExSummary:The following code demonstrates using the Opacity property of DropShadowEffect.

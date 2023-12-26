@@ -23,7 +23,7 @@ namespace Aspose.PSD.Examples.Aspose.LayerResources
         {
             // The path to the documents directory.
             string SourceDir = "Your Document Directory";
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string OutputDir = "Your Output Directory";
 
             //ExStart:SupportForBlwhResource
             const string ActualPropertyValueIsWrongMessage = "Expected property value is not equal to actual value";

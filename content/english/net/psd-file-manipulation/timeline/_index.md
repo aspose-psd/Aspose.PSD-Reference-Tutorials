@@ -25,7 +25,7 @@ namespace Aspose.PSD.Examples.Aspose.Animation
         {
             // The path to the documents directory.
             string baseDir = "Your Document Directory";
-            string outputDir = RunExamples.GetDataDir_Output();
+            string outputDir = "Your Output Directory";
             
             //ExStart:SupportOfTimeLine
             //ExSummary:The Timeline class gives a high-level ability to manipulate the timeline of PsdImage, like changing frame delay or editing layer state on a specific frame.

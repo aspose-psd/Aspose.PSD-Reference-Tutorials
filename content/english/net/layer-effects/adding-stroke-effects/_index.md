@@ -25,7 +25,7 @@ namespace Aspose.PSD.Examples.Aspose.LayerEffects
         public static void Run()
         {
             string SourceDir = "Your Document Directory";
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string OutputDir = "Your Output Directory";
 
             //ExStart:AddStrokeEffect
             //ExSummary:This example demonstrates the ability to add the stroke effect with different types of fill like Color, Gradient or Pattern.

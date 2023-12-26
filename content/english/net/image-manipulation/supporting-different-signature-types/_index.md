@@ -20,7 +20,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
         public static void Run()
         {
             string baseFolder = "Your Document Directory";
-            string outputFolder = RunExamples.GetDataDir_Output();
+            string outputFolder = "Your Output Directory";
 
             //ExStart:SupportOfMeSaSignature
             //ExSummary:The next code example demonstrates ability to correct load and save PSD files with resources with MeSa signature.

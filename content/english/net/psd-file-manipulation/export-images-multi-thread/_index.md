@@ -19,7 +19,7 @@ namespace Aspose.PSD.Examples.Aspose.Conversion
         public static void Run()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Output();
+            string dataDir = "Your Output Directory";
 
             //ExStart:ExportImagesinMultiThreadEnv
 

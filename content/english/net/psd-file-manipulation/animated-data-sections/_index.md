@@ -26,7 +26,7 @@ namespace Aspose.PSD.Examples.Aspose.Animation
         {
             // The path to the documents directory.
             string baseDir = "Your Document Directory";
-            string outputDir = RunExamples.GetDataDir_Output();
+            string outputDir = "Your Output Directory";
             
             //ExStart:SupportOfAnimatedDataSection
             //ExSummary:The following code demonstrates how to set/update delay time in the timeline frame of animated data.

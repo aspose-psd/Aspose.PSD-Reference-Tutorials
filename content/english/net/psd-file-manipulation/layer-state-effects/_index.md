@@ -24,7 +24,7 @@ namespace Aspose.PSD.Examples.Aspose.Animation
         {
             // The path to the documents directory.
             string baseDir = "Your Document Directory";
-            string outputDir = RunExamples.GetDataDir_Output();
+            string outputDir = "Your Output Directory";
 
             //ExStart:SupportOfLayerStateEffects
             //ExSummary:The following code demonstrates support of effects in Timeline frames.

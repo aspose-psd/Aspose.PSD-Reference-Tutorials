@@ -24,7 +24,7 @@ namespace Aspose.PSD.Examples.Aspose.Conversion
         {
             // The path to the documents directory.
             string SourceDir = "Your Document Directory";
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string OutputDir = "Your Output Directory";
 
             //ExStart:1
             string sourceFile = SourceDir + @"text_ethalon_different_colors.psd";

@@ -24,7 +24,7 @@ namespace Aspose.PSD.Examples.Aspose.Animation
         {
             // The path to the documents directory.
             string baseDir = "Your Document Directory";
-            string outputDir = RunExamples.GetDataDir_Output();
+            string outputDir = "Your Output Directory";
 
             //ExStart:SupportOfPsdImageTimelineProperty
             //ExSummary:The following code demonstrates a new approach to work with the Timeline.

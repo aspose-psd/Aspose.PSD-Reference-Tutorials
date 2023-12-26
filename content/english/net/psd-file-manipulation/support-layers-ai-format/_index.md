@@ -23,7 +23,7 @@ namespace Aspose.PSD.Examples.Aspose.Ai
         public static void Run()
         {
             string dataDir = RunExamples.GetDataDir_AI();
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string OutputDir = "Your Output Directory";
 
             //ExStart
             //ExSummary:The following example demonstrates support of layers in AI format files.

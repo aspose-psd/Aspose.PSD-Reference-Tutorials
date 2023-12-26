@@ -25,7 +25,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
         {
             // The path to the documents directory.
             string dataDir = "Your Document Directory";
-            string outputFolder = RunExamples.GetDataDir_Output();
+            string outputFolder = "Your Output Directory";
 
             //ExStart:FontReplacement
 

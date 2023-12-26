@@ -23,7 +23,7 @@ namespace Aspose.PSD.Examples.Aspose.GlobalResources
         {
             // The path to the documents directory.
             string SourceDir = "Your Document Directory";
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string OutputDir = "Your Output Directory";
 
             //ExStart:SupportOfBackgroundColorResource
             //ExSummary:The following example demonstrates the support of BackgroundColorResource resource.
