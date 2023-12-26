@@ -1,7 +1,7 @@
 {
-  "name": "aspose-ocr-api-references",
+  "name": "aspose-psd-api-references",
   "version": "1.0.0",
-  "description": "Aspose.ocr API References.",
+  "description": "Aspose.psd API References.",
   "main": "none.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
