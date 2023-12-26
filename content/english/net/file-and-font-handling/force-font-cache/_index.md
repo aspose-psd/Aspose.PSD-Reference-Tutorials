@@ -21,7 +21,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
         public static void Run()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_PSD();
+            string dataDir = "Your Document Directory";
 
             //ExStart:ForceFontCache
             // The path to the documents directory.

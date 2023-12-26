@@ -24,7 +24,7 @@ namespace Aspose.PSD.Examples.Aspose.LayerEffects
     {
         public static void Run()
         {
-            string SourceDir = RunExamples.GetDataDir_PSD();
+            string SourceDir = "Your Document Directory";
             string OutputDir = RunExamples.GetDataDir_Output();
 
             //ExStart:AddStrokeEffect

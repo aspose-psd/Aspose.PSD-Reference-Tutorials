@@ -25,7 +25,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingImages
         public static void Run()
         {
             // The path to the documents directory.
-            string SourceDir = RunExamples.GetDataDir_PSD();
+            string SourceDir = "Your Document Directory";
             string OutputDir = RunExamples.GetDataDir_Output();
 
             //ExStart:AddGradientEffects

@@ -22,7 +22,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
     {
         public static void Run()
         {
-            string baseFolder = RunExamples.GetDataDir_PSD();
+            string baseFolder = "Your Document Directory";
 
             //ExStart:SupportOfObArAndUnFlSignatures
             //ExSummary:The following code demonstrates the support of the ObAr and UnFl signatures.

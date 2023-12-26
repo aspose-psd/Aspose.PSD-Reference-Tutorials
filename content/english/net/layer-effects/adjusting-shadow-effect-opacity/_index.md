@@ -24,7 +24,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
         public static void Run()
         {
             // The path to the documents directory.
-            string baseDir = RunExamples.GetDataDir_PSD();
+            string baseDir = "Your Document Directory";
             string outputDir = RunExamples.GetDataDir_Output();
             
             //ExStart:SupportShadowEffectOpacity

@@ -20,7 +20,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingImages
         public static void Run()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_PSD();
+            string dataDir = "Your Document Directory";
 
             //ExStart:DrawingArc
             // Create an instance of BmpOptions and set its various properties

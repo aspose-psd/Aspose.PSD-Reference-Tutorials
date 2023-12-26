@@ -26,7 +26,7 @@ namespace Aspose.PSD.Examples.Aspose.LayerEffects
         public static void Run()
         {
             // The path to the documents directory.
-            string SourceDir = RunExamples.GetDataDir_PSD();
+            string SourceDir = "Your Document Directory";
             string OutputDir = RunExamples.GetDataDir_Output();
 
             //ExStart            

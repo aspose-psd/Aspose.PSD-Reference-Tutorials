@@ -20,7 +20,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
     {
         public static void Run()
         {
-            string dataDir = RunExamples.GetDataDir_PSD();
+            string dataDir = "Your Document Directory";
             //ExStart:AddEffectAtRunTime
 
             // Add color overlay layer effect at runtime

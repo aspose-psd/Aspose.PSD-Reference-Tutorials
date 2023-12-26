@@ -23,7 +23,7 @@ namespace Aspose.PSD.Examples.Aspose.Animation
         public static void Run()
         {
             // The path to the documents directory.
-            string baseDir = RunExamples.GetDataDir_PSD();
+            string baseDir = "Your Document Directory";
             string outputDir = RunExamples.GetDataDir_Output();
 
             //ExStart:SupportOfLayerStateEffects

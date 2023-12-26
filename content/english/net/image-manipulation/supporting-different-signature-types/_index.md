@@ -19,7 +19,7 @@ namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
     {
         public static void Run()
         {
-            string baseFolder = RunExamples.GetDataDir_PSD();
+            string baseFolder = "Your Document Directory";
             string outputFolder = RunExamples.GetDataDir_Output();
 
             //ExStart:SupportOfMeSaSignature
