@@ -1,6 +1,6 @@
 ---
 title: Cropping PSD Files when Converting to PNG in Aspose.PSD for .NET
-linktitle: Cropping PSD Files when Converting to PNG in Aspose.PSD for .NET
+linktitle: Cropping PSD Files when Converting to PNG
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

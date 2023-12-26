@@ -1,6 +1,6 @@
 ---
 title: Implementing Contrast Adjustment in Aspose.PSD for .NET
-linktitle: Implementing Contrast Adjustment in Aspose.PSD for .NET
+linktitle: Implementing Contrast Adjustment
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Handling Animated Data Sections in Aspose.PSD for .NET
-linktitle: Handling Animated Data Sections in Aspose.PSD for .NET
+linktitle: Handling Animated Data Sections
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

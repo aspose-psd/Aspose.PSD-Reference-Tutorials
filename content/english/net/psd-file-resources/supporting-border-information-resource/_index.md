@@ -1,6 +1,6 @@
 ---
 title: Supporting Border Information Resource in Aspose.PSD for .NET
-linktitle: Supporting Border Information Resource in Aspose.PSD for .NET
+linktitle: Supporting Border Information Resource
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

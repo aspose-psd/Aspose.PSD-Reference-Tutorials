@@ -1,6 +1,6 @@
 ---
 title: Adding Stroke Effects to Layers in Aspose.PSD for .NET
-linktitle: Adding Stroke Effects to Layers in Aspose.PSD for .NET
+linktitle: Adding Stroke Effects to Layers
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

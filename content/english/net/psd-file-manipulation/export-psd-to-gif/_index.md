@@ -1,6 +1,6 @@
 ---
 title: Exporting PSD Images to GIF Format in Aspose.PSD for .NET
-linktitle: Exporting PSD Images to GIF Format in Aspose.PSD for .NET
+linktitle: Exporting PSD Images to GIF Format
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

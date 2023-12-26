@@ -1,6 +1,6 @@
 ---
 title: Creating XMP Metadata in Aspose.PSD for .NET
-linktitle: Creating XMP Metadata in Aspose.PSD for .NET
+linktitle: Creating XMP Metadata
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

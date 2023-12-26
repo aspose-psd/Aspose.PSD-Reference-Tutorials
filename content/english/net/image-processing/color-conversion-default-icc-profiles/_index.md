@@ -1,6 +1,6 @@
 ---
 title: Color Conversion using Default and ICC Profiles in Aspose.PSD for .NET
-linktitle: Color Conversion using Default and ICC Profiles in Aspose.PSD for .NET
+linktitle: Color Conversion using Default and ICC Profiles
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

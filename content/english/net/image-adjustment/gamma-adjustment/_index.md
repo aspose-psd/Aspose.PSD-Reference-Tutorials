@@ -1,6 +1,6 @@
 ---
 title: Implementing Gamma Adjustment in Aspose.PSD for .NET
-linktitle: Implementing Gamma Adjustment in Aspose.PSD for .NET
+linktitle: Implementing Gamma Adjustment
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Setting for Replacing Missing Fonts in Aspose.PSD for .NET
-linktitle: Setting for Replacing Missing Fonts in Aspose.PSD for .NET
+linktitle: Setting for Replacing Missing Fonts
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

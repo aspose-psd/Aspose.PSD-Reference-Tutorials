@@ -1,6 +1,6 @@
 ---
 title: Binarization Techniques in Aspose.PSD for .NET
-linktitle: Binarization Techniques in Aspose.PSD for .NET
+linktitle: Binarization Techniques
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

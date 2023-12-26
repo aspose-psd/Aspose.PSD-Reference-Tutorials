@@ -1,6 +1,6 @@
 ---
 title: Simple Resizing of Images in Aspose.PSD for .NET
-linktitle: Simple Resizing of Images in Aspose.PSD for .NET
+linktitle: Simple Resizing of Images
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

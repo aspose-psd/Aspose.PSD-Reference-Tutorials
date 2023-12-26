@@ -1,6 +1,6 @@
 ---
 title: Adding Pattern Effects to Images in Aspose.PSD for .NET
-linktitle: Adding Pattern Effects to Images in Aspose.PSD for .NET
+linktitle: Adding Pattern Effects to Images
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

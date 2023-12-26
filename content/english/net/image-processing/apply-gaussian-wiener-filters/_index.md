@@ -1,6 +1,6 @@
 ---
 title: Applying Gaussian and Wiener Filters in Aspose.PSD for .NET
-linktitle: Applying Gaussian and Wiener Filters in Aspose.PSD for .NET
+linktitle: Applying Gaussian and Wiener Filters
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

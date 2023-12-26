@@ -1,6 +1,6 @@
 ---
 title: Applying Color Balance Adjustment in Aspose.PSD for .NET
-linktitle: Applying Color Balance Adjustment in Aspose.PSD for .NET
+linktitle: Applying Color Balance Adjustment
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

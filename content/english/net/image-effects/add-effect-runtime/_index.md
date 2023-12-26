@@ -1,6 +1,6 @@
 ---
 title: Adding Effects at Runtime in Aspose.PSD for .NET
-linktitle: Adding Effects at Runtime in Aspose.PSD for .NET
+linktitle: Adding Effects at Runtime
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

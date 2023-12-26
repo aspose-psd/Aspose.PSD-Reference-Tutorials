@@ -1,6 +1,6 @@
 ---
 title: Creating Images Using Stream in Aspose.PSD for .NET
-linktitle: Creating Images Using Stream in Aspose.PSD for .NET
+linktitle: Creating Images Using Stream
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

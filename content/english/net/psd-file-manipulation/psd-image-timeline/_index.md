@@ -1,6 +1,6 @@
 ---
 title: Handling PSD Image Timeline in Aspose.PSD for .NET
-linktitle: Handling PSD Image Timeline in Aspose.PSD for .NET
+linktitle: Handling PSD Image Timeline
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

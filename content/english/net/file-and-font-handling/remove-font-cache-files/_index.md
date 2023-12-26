@@ -1,6 +1,6 @@
 ---
 title: Removing Font Cache Files in Aspose.PSD for .NET
-linktitle: Removing Font Cache Files in Aspose.PSD for .NET
+linktitle: Removing Font Cache Files
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

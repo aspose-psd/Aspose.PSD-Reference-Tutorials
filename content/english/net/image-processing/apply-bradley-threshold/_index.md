@@ -1,6 +1,6 @@
 ---
 title: Applying Bradley Threshold in Aspose.PSD for .NET
-linktitle: Applying Bradley Threshold in Aspose.PSD for .NET
+linktitle: Applying Bradley Threshold
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

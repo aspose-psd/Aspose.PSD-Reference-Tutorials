@@ -1,6 +1,6 @@
 ---
 title: Creative Drawing using Graphics in Aspose.PSD for .NET
-linktitle: Creative Drawing using Graphics in Aspose.PSD for .NET
+linktitle: Creative Drawing using Graphics
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

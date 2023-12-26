@@ -1,6 +1,6 @@
 ---
 title: Forcing Font Cache in Aspose.PSD for .NET
-linktitle: Forcing Font Cache in Aspose.PSD for .NET
+linktitle: Forcing Font Cache
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

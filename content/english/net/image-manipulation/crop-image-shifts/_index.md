@@ -1,6 +1,6 @@
 ---
 title: Cropping Images by Shifts in Aspose.PSD for .NET
-linktitle: Cropping Images by Shifts in Aspose.PSD for .NET
+linktitle: Cropping Images by Shifts
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

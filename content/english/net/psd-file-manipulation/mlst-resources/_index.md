@@ -1,6 +1,6 @@
 ---
 title: Handling MLST Resources in Aspose.PSD for .NET
-linktitle: Handling MLST Resources in Aspose.PSD for .NET
+linktitle: Handling MLST Resources
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Implementing Brightness Adjustment in Aspose.PSD for .NET
-linktitle: Implementing Brightness Adjustment in Aspose.PSD for .NET
+linktitle: Implementing Brightness Adjustment
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

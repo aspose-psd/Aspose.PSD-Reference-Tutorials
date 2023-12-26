@@ -1,6 +1,6 @@
 ---
 title: Constructing Rectangles in Aspose.PSD for .NET
-linktitle: Constructing Rectangles in Aspose.PSD for .NET
+linktitle: Constructing Rectangles
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

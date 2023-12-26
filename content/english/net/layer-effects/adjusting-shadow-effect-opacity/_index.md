@@ -1,6 +1,6 @@
 ---
 title: Adjusting Shadow Effect Opacity in Aspose.PSD for .NET
-linktitle: Adjusting Shadow Effect Opacity in Aspose.PSD for .NET
+linktitle: Adjusting Shadow Effect Opacity
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

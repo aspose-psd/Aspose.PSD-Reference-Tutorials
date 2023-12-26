@@ -1,6 +1,6 @@
 ---
 title: Rendering Drop Shadow Effect in Aspose.PSD for .NET
-linktitle: Rendering Drop Shadow Effect in Aspose.PSD for .NET
+linktitle: Rendering Drop Shadow Effect
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

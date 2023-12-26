@@ -1,6 +1,6 @@
 ---
 title: Adding Gradient Effects to Images in Aspose.PSD for .NET
-linktitle: Adding Gradient Effects to Images in Aspose.PSD for .NET
+linktitle: Adding Gradient Effects to Images
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

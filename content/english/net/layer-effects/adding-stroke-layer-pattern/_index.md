@@ -1,6 +1,6 @@
 ---
 title: Adding Stroke Layer with Pattern in Aspose.PSD for .NET
-linktitle: Adding Stroke Layer with Pattern in Aspose.PSD for .NET
+linktitle: Adding Stroke Layer with Pattern
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

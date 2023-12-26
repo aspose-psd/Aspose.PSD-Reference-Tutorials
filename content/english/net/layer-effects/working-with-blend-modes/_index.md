@@ -1,6 +1,6 @@
 ---
 title: Working with Blend Modes in Aspose.PSD for .NET
-linktitle: Working with Blend Modes in Aspose.PSD for .NET
+linktitle: Working with Blend Modes
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

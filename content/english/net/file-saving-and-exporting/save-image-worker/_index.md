@@ -1,6 +1,6 @@
 ---
 title: Working with Save Image Worker in Aspose.PSD for .NET
-linktitle: Working with Save Image Worker in Aspose.PSD for .NET
+linktitle: Working with Save Image Worker
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

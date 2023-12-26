@@ -1,6 +1,6 @@
 ---
 title: Supporting Outer Glow Effect in Aspose.PSD for .NET
-linktitle: Supporting Outer Glow Effect in Aspose.PSD for .NET
+linktitle: Supporting Outer Glow Effect
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

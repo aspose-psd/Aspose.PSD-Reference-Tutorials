@@ -1,6 +1,6 @@
 ---
 title: Working with Layer State Effects in Aspose.PSD for .NET
-linktitle: Working with Layer State Effects in Aspose.PSD for .NET
+linktitle: Working with Layer State Effects
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Supporting Working Path Resource in Aspose.PSD for .NET
-linktitle: Supporting Working Path Resource in Aspose.PSD for .NET
+linktitle: Supporting Working Path Resource
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

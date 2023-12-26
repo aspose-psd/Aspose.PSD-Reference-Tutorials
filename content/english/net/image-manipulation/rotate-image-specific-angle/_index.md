@@ -1,6 +1,6 @@
 ---
 title: Rotating an Image on a Specific Angle in Aspose.PSD for .NET
-linktitle: Rotating an Image on a Specific Angle in Aspose.PSD for .NET
+linktitle: Rotating an Image on a Specific Angle
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

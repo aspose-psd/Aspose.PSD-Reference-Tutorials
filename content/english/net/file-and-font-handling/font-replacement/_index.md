@@ -1,6 +1,6 @@
 ---
 title: Font Replacement in Aspose.PSD for .NET
-linktitle: Font Replacement in Aspose.PSD for .NET
+linktitle: Font Replacement
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Supporting Black and White (Blwh) Resource in Aspose.PSD for .NET
-linktitle: Supporting Black and White (Blwh) Resource in Aspose.PSD for .NET
+linktitle: Supporting Black and White (Blwh) Resource
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

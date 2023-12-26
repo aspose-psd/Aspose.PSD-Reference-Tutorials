@@ -1,6 +1,6 @@
 ---
 title: Supporting Shadow Effects in Aspose.PSD for .NET
-linktitle: Supporting Shadow Effects in Aspose.PSD for .NET
+linktitle: Supporting Shadow Effects
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

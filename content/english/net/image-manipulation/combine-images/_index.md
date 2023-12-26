@@ -1,6 +1,6 @@
 ---
 title: Combining Images in Aspose.PSD for .NET
-linktitle: Combining Images in Aspose.PSD for .NET
+linktitle: Combining Images
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Rotating an Image in Aspose.PSD for .NET
-linktitle: Rotating an Image in Aspose.PSD for .NET
+linktitle: Rotating an Image
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Rendering Gradient Overlay Effect in Aspose.PSD for .NET
-linktitle: Rendering Gradient Overlay Effect in Aspose.PSD for .NET
+linktitle: Rendering Gradient Overlay Effect
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Drawing Lines Effectively in Aspose.PSD for .NET
-linktitle: Drawing Lines Effectively in Aspose.PSD for .NET
+linktitle: Drawing Lines Effectively
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

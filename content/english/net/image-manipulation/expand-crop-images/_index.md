@@ -1,6 +1,6 @@
 ---
 title: Expanding and Cropping Images in Aspose.PSD for .NET
-linktitle: Expanding and Cropping Images in Aspose.PSD for .NET
+linktitle: Expanding and Cropping Images
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

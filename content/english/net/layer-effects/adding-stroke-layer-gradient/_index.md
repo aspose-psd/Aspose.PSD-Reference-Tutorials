@@ -1,6 +1,6 @@
 ---
 title: Adding Stroke Layer with Gradient in Aspose.PSD for .NET
-linktitle: Adding Stroke Layer with Gradient in Aspose.PSD for .NET
+linktitle: Adding Stroke Layer with Gradient
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

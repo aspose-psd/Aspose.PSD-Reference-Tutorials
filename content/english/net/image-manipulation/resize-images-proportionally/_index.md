@@ -1,6 +1,6 @@
 ---
 title: Resizing Images Proportionally in Aspose.PSD for .NET
-linktitle: Resizing Images Proportionally in Aspose.PSD for .NET
+linktitle: Resizing Images Proportionally
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

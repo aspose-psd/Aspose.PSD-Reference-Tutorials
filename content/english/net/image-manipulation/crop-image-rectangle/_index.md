@@ -1,6 +1,6 @@
 ---
 title: Cropping Images by Rectangle in Aspose.PSD for .NET
-linktitle: Cropping Images by Rectangle in Aspose.PSD for .NET
+linktitle: Cropping Images by Rectangle
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

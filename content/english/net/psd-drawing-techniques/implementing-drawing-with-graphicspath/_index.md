@@ -1,6 +1,6 @@
 ---
 title: Implementing Drawing with GraphicsPath in Aspose.PSD for .NET
-linktitle: Implementing Drawing with GraphicsPath in Aspose.PSD for .NET
+linktitle: Implementing Drawing with GraphicsPath
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Creating Images by Setting Path in Aspose.PSD for .NET
-linktitle: Creating Images by Setting Path in Aspose.PSD for .NET
+linktitle: Creating Images by Setting Path
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

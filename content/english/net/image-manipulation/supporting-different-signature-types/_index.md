@@ -1,6 +1,6 @@
 ---
 title: Supporting Different Signature Types in Aspose.PSD for .NET
-linktitle: Supporting Different Signature Types in Aspose.PSD for .NET
+linktitle: Supporting Different Signature Types
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

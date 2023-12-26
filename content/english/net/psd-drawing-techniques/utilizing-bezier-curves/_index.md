@@ -1,6 +1,6 @@
 ---
 title: Utilizing Bezier Curves in Aspose.PSD for .NET
-linktitle: Utilizing Bezier Curves in Aspose.PSD for .NET
+linktitle: Utilizing Bezier Curves
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

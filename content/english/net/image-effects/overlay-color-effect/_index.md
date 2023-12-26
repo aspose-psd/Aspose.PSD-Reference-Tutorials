@@ -1,6 +1,6 @@
 ---
 title: Overlaying Color Effects on Images in Aspose.PSD for .NET
-linktitle: Overlaying Color Effects on Images in Aspose.PSD for .NET
+linktitle: Overlaying Color Effects on Images
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

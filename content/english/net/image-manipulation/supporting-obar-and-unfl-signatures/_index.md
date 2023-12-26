@@ -1,6 +1,6 @@
 ---
 title: Supporting ObAr and UnFl Signatures in Aspose.PSD for .NET
-linktitle: Supporting ObAr and UnFl Signatures in Aspose.PSD for .NET
+linktitle: Supporting ObAr and UnFl Signatures
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

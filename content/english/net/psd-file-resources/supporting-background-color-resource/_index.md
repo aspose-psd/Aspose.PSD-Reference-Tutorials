@@ -1,6 +1,6 @@
 ---
 title: Supporting Background Color Resource in Aspose.PSD for .NET
-linktitle: Supporting Background Color Resource in Aspose.PSD for .NET
+linktitle: Supporting Background Color Resource
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Mastering Core Drawing Features in Aspose.PSD for .NET
-linktitle: Mastering Core Drawing Features in Aspose.PSD for .NET
+linktitle: Mastering Core Drawing Features
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

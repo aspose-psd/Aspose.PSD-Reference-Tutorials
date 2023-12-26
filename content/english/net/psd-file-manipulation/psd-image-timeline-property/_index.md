@@ -1,6 +1,6 @@
 ---
 title: PSD Image Timeline Property in Aspose.PSD for .NET
-linktitle: PSD Image Timeline Property in Aspose.PSD for .NET
+linktitle: PSD Image Timeline Property
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

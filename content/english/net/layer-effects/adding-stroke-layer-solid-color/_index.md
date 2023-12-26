@@ -1,6 +1,6 @@
 ---
 title: Adding Stroke Layer with Solid Color in Aspose.PSD for .NET
-linktitle: Adding Stroke Layer with Solid Color in Aspose.PSD for .NET
+linktitle: Adding Stroke Layer with Solid Color
 second_title: Aspose.PSD .NET API
 description: 
 type: docs

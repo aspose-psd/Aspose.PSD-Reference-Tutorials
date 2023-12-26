@@ -1,6 +1,6 @@
 ---
 title: Verifying Image Transparency in Aspose.PSD for .NET
-linktitle: Verifying Image Transparency in Aspose.PSD for .NET
+linktitle: Verifying Image Transparency
 second_title: Aspose.PSD .NET API
 description: 
 type: docs
