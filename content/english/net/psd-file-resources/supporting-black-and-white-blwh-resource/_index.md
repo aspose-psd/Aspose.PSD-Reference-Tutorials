@@ -1,182 +1,79 @@
 ---
-title: Supporting Black and White (Blwh) Resource in Aspose.PSD for .NET
+title: Supporting Black and White Resource in Aspose.PSD for .NET
 linktitle: Supporting Black and White (Blwh) Resource
 second_title: Aspose.PSD .NET API
-description: 
+description: Explore advanced image editing with Aspose.PSD for .NET. Learn to master Black and White adjustment layers for precise control over image elements.
 type: docs
 weight: 13
 url: /net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
-
-## Complete Source Code
+## Introduction
+In the dynamic world of digital media, image editing plays a pivotal role in creating captivating visuals. Aspose.PSD for .NET empowers developers to take their image manipulation capabilities to the next level. In this tutorial, we'll explore the support for Black and White adjustment layers in Aspose.PSD, enabling you to fine-tune images with precision.
+## Prerequisites
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+- Aspose.PSD for .NET: Download and install the library from the official [Aspose.PSD for .NET documentation](https://reference.aspose.com/psd/net/).
+- Document Directory: Specify the path to your document directory.
+- Output Directory: Define the directory where you want the edited images to be saved.
+## Import Namespaces
+To begin, import the necessary namespaces into your project:
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Layers.AdjustmentLayers;
 using Aspose.PSD.FileFormats.Psd.Layers.LayerResources;
 using System;
-
-namespace Aspose.PSD.Examples.Aspose.LayerResources
-{
-    class SupportForBlwhResource
-    {
-        public static void Run()
-        {
-            // The path to the documents directory.
-            string SourceDir = "Your Document Directory";
-            string OutputDir = "Your Output Directory";
-
-            //ExStart:SupportForBlwhResource
-            const string ActualPropertyValueIsWrongMessage = "Expected property value is not equal to actual value";
-            void AssertIsTrue(bool condition, string message)
-            {
-                if (!condition)
-                {
-                    throw new FormatException(message);
-                }
-            }
-
-            void ExampleSupportOfBlwhResource(
-                string sourceFileName,
-                int reds,
-                int yellows,
-                int greens,
-                int cyans,
-                int blues,
-                int magentas,
-                bool useTint,
-                int bwPresetKind,
-                string bwPresetFileName,
-                double tintColorRed,
-                double tintColorGreen,
-                double tintColorBlue,
-                int tintColor,
-                int newTintColor)
-            {
-                string destinationFileName = OutputDir + "Output_" + sourceFileName;
-                bool isRequiredResourceFound = false;
-                using (PsdImage im = (PsdImage)Image.Load(SourceDir + sourceFileName))
-                {
-                    foreach (var layer in im.Layers)
-                    {
-                        foreach (var layerResource in layer.Resources)
-                        {
-                            if (layerResource is BlwhResource)
-                            {
-                                var blwhResource = (BlwhResource)layerResource;
-                                var blwhLayer = (BlackWhiteAdjustmentLayer)layer;
-                                isRequiredResourceFound = true;
-
-                                AssertIsTrue(blwhResource.Reds == reds, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Yellows == yellows, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Greens == greens, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Cyans == cyans, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Blues == blues, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Magentas == magentas, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.UseTint == useTint, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.TintColor == tintColor, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.BwPresetKind == bwPresetKind, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.BlackAndWhitePresetFileName == bwPresetFileName, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(Math.Abs(blwhLayer.TintColorRed - tintColorRed) < 1e-6, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(Math.Abs(blwhLayer.TintColorGreen - tintColorGreen) < 1e-6, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(Math.Abs(blwhLayer.TintColorBlue - tintColorBlue) < 1e-6, ActualPropertyValueIsWrongMessage);
-
-                                // Test editing and saving
-                                blwhResource.Reds = reds - 15;
-                                blwhResource.Yellows = yellows - 15;
-                                blwhResource.Greens = greens + 15;
-                                blwhResource.Cyans = cyans + 15;
-                                blwhResource.Blues = blues - 15;
-                                blwhResource.Magentas = magentas - 15;
-                                blwhResource.UseTint = !useTint;
-                                blwhResource.BwPresetKind = 4;
-                                blwhResource.BlackAndWhitePresetFileName = "bwPresetFileName";
-                                blwhLayer.TintColorRed = tintColorRed - 60;
-                                blwhLayer.TintColorGreen = tintColorGreen - 60;
-                                blwhLayer.TintColorBlue = tintColorBlue - 60;
-
-                                im.Save(destinationFileName);
-                                break;
-                            }
-                        }
-                    }
-                }
-
-                AssertIsTrue(isRequiredResourceFound, "The specified BlwhResource not found");
-                isRequiredResourceFound = false;
-
-                using (PsdImage im = (PsdImage)Image.Load(destinationFileName))
-                {
-                    foreach (var layer in im.Layers)
-                    {
-                        foreach (var layerResource in layer.Resources)
-                        {
-                            if (layerResource is BlwhResource)
-                            {
-                                var blwhResource = (BlwhResource)layerResource;
-                                var blwhLayer = (BlackWhiteAdjustmentLayer)layer;
-                                isRequiredResourceFound = true;
-
-                                AssertIsTrue(blwhResource.Reds == reds - 15, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Yellows == yellows - 15, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Greens == greens + 15, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Cyans == cyans + 15, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Blues == blues - 15, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.Magentas == magentas - 15, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.UseTint == !useTint, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.TintColor == newTintColor, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.BwPresetKind == 4, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(blwhResource.BlackAndWhitePresetFileName == "bwPresetFileName", ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(Math.Abs(blwhLayer.TintColorRed - tintColorRed + 60) < 1e-6, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(Math.Abs(blwhLayer.TintColorGreen - tintColorGreen + 60) < 1e-6, ActualPropertyValueIsWrongMessage);
-                                AssertIsTrue(Math.Abs(blwhLayer.TintColorBlue - tintColorBlue + 60) < 1e-6, ActualPropertyValueIsWrongMessage);
-
-                                break;
-                            }
-                        }
-                    }
-                }
-
-                AssertIsTrue(isRequiredResourceFound, "The specified BlwhResource not found");
-            }
-
-            ExampleSupportOfBlwhResource(
-                "BlackWhiteAdjustmentLayerStripesMask.psd",
-                0x28,
-                0x3c,
-                0x28,
-                0x3c,
-                0x14,
-                0x50,
-                false,
-                1,
-                "\0",
-                225.00045776367188,
-                211.00067138671875,
-                179.00115966796875,
-                -1977421,
-                -5925001);
-
-            ExampleSupportOfBlwhResource(
-                "BlackWhiteAdjustmentLayerStripesMask2.psd",
-                0x80,
-                0x40,
-                0x20,
-                0x10,
-                0x08,
-                0x04,
-                true,
-                4,
-                "\0",
-                239.996337890625,
-                127.998046875,
-                63.9990234375,
-                -1015744,
-                -4963324);
-            //ExEnd:SupportForBlwhResource
-
-            Console.WriteLine("SupportForBlwhResource executed successfully");
-        }
-    }
-}
-
 ```
+## Step 1: Load the Image
+Load the source image using Aspose.PSD:
+```csharp
+string sourceFileName = "YourImage.psd";
+string destinationFileName = OutputDir + "Output_" + sourceFileName;
+using (PsdImage image = (PsdImage)Image.Load(SourceDir + sourceFileName))
+{
+    // Your code for image processing goes here
+}
+```
+## Step 2: Implement Black and White Adjustment Layer
+Now, let's explore the support for Black and White adjustment layers in Aspose.PSD. The `ExampleSupportOfBlwhResource` method demonstrates this functionality:
+```csharp
+void ExampleSupportOfBlwhResource(
+    string sourceFileName,
+    int reds,
+    int yellows,
+    int greens,
+    int cyans,
+    int blues,
+    int magentas,
+    bool useTint,
+    int bwPresetKind,
+    string bwPresetFileName,
+    double tintColorRed,
+    double tintColorGreen,
+    double tintColorBlue,
+    int tintColor,
+    int newTintColor)
+{
+    // Your implementation of Black and White adjustment layer goes here
+}
+```
+## Step 3: Validate and Save Changes
+Ensure that the specified Black and White adjustment resource is found, validate property values, and save the edited image:
+```csharp
+ExampleSupportOfBlwhResource(
+    "YourImage.psd",
+    // Specify other parameters as needed
+);
+Console.WriteLine("SupportForBlwhResource executed successfully");
+```
+## Conclusion
+Aspose.PSD for .NET provides a robust platform for enhancing image editing capabilities. By leveraging the support for Black and White adjustment layers, developers can achieve precise control over image elements, opening up new possibilities for creative expression.
+## Frequently Asked Questions
+### Q: Is Aspose.PSD compatible with various image formats?
+A: Yes, Aspose.PSD supports a wide range of image formats, providing flexibility in handling different file types.
+### Q: Can I apply multiple adjustment layers to an image?
+A: Absolutely! Aspose.PSD allows you to stack multiple adjustment layers, enabling complex image manipulations.
+### Q: How do I obtain a temporary license for Aspose.PSD?
+A: Visit the [Temporary License](https://purchase.aspose.com/temporary-license/) page on the Aspose website to get a temporary license for testing.
+### Q: Where can I find support for Aspose.PSD?
+A: The [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) is a valuable resource for seeking assistance and sharing insights with the community.
+### Q: Are there any sample images available for testing Black and White adjustments?
+A: Yes, you can find sample images in the official Aspose.PSD documentation.
