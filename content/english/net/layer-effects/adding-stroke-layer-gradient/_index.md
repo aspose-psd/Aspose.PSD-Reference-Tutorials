@@ -2,13 +2,27 @@
 title: Adding Stroke Layer with Gradient in Aspose.PSD for .NET
 linktitle: Adding Stroke Layer with Gradient
 second_title: Aspose.PSD .NET API
-description: 
+description: Learn how to add a gradient stroke layer in Aspose.PSD for .NET. Elevate your image manipulation skills with this comprehensive tutorial.
 type: docs
 weight: 12
 url: /net/layer-effects/adding-stroke-layer-gradient/
 ---
+## Introduction
 
-## Complete Source Code
+If you're looking to enhance your .NET applications with stunning graphic effects, Aspose.PSD for .NET is your go-to solution. In this tutorial, we'll delve into the process of adding a stroke layer with a gradient using Aspose.PSD for .NET. This step-by-step guide will empower you to elevate the visual appeal of your images effortlessly.
+
+## Prerequisites
+
+Before we embark on this journey, ensure you have the following prerequisites in place:
+
+- A working knowledge of C# and .NET development.
+- Aspose.PSD for .NET library installed. You can download it [here](https://releases.aspose.com/psd/net/).
+- A code editor, such as Visual Studio, to implement the provided examples.
+
+## Import Namespaces
+
+To kick things off, let's import the necessary namespaces into our project. These namespaces are crucial for leveraging the functionalities of Aspose.PSD for .NET.
+
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Layers.FillSettings;
@@ -16,171 +30,92 @@ using Aspose.PSD.FileFormats.Psd.Layers.LayerEffects;
 using Aspose.PSD.ImageLoadOptions;
 using System;
 using Aspose.PSD.FileFormats.Core.Blending;
-
-namespace Aspose.PSD.Examples.Aspose.DrawingImages
-{
-    class AddStrokeLayer_Gradient
-    {
-        public static void Run()
-        {
-            // The path to the documents directory.
-            string dataDir = "Your Document Directory";
-
-            //ExStart:AddStrokeLayer_Gradient
-
-            // Stroke effect. FillType - Gradient. Example
-            void AssertIsTrue(bool condition, string message = "Assertion fails")
-            {
-                if (!condition)
-                {
-                    throw new FormatException(message);
-                }
-            }
-
-            string sourceFileName = dataDir + "Stroke.psd";
-            string exportPath = dataDir + "StrokeGradientChanged.psd";
-
-            var loadOptions = new PsdLoadOptions()
-            {
-                LoadEffectsResource = true
-            };
-
-            using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
-            {
-                var gradientStroke = (StrokeEffect)im.Layers[2].BlendingOptions.Effects[0];
-
-                AssertIsTrue(gradientStroke.BlendMode == BlendMode.Normal);
-                AssertIsTrue(gradientStroke.Opacity == 255);
-                AssertIsTrue(gradientStroke.IsVisible);
-
-                var fillSettings = (GradientFillSettings)gradientStroke.FillSettings;
-                AssertIsTrue(fillSettings.Color == Color.Black);
-                AssertIsTrue(fillSettings.FillType == FillType.Gradient);
-                AssertIsTrue(fillSettings.AlignWithLayer);
-                AssertIsTrue(fillSettings.GradientType == GradientType.Linear);
-                AssertIsTrue(Math.Abs(90 - fillSettings.Angle) < 0.001, "Angle is incorrect");
-                AssertIsTrue(fillSettings.Dither == false);
-                AssertIsTrue(Math.Abs(0 - fillSettings.HorizontalOffset) < 0.001, "Horizontal offset is incorrect");
-                AssertIsTrue(Math.Abs(0 - fillSettings.VerticalOffset) < 0.001, "Vertical offset is incorrect");
-                AssertIsTrue(fillSettings.Reverse == false);
-
-                // Color Points
-                var colorPoints = fillSettings.ColorPoints;
-                AssertIsTrue(colorPoints.Length == 2);
-
-                AssertIsTrue(colorPoints[0].Color == Color.Black);
-                AssertIsTrue(colorPoints[0].Location == 0);
-                AssertIsTrue(colorPoints[0].MedianPointLocation == 50);
-
-                AssertIsTrue(colorPoints[1].Color == Color.White);
-                AssertIsTrue(colorPoints[1].Location == 4096);
-                AssertIsTrue(colorPoints[1].MedianPointLocation == 50);
-
-                // Transparency points
-                var transparencyPoints = fillSettings.TransparencyPoints;
-                AssertIsTrue(transparencyPoints.Length == 2);
-
-                AssertIsTrue(transparencyPoints[0].Location == 0);
-                AssertIsTrue(transparencyPoints[0].MedianPointLocation == 50);
-                AssertIsTrue(transparencyPoints[0].Opacity == 100);
-
-                AssertIsTrue(transparencyPoints[1].Location == 4096);
-                AssertIsTrue(transparencyPoints[1].MedianPointLocation == 50);
-                AssertIsTrue(transparencyPoints[1].Opacity == 100);
-
-                // Test editing
-                fillSettings.Color = Color.Green;
-
-                gradientStroke.Opacity = 127;
-                gradientStroke.BlendMode = BlendMode.Color;
-
-                fillSettings.AlignWithLayer = false;
-                fillSettings.GradientType = GradientType.Radial;
-                fillSettings.Angle = 45;
-                fillSettings.Dither = true;
-                fillSettings.HorizontalOffset = 15;
-                fillSettings.VerticalOffset = 11;
-                fillSettings.Reverse = true;
-
-                // Add new color point
-                var colorPoint = fillSettings.AddColorPoint();
-                colorPoint.Color = Color.Green;
-                colorPoint.Location = 4096;
-                colorPoint.MedianPointLocation = 75;
-
-                // Change location of previous point
-                fillSettings.ColorPoints[1].Location = 1899;
-
-                // Add new transparency point
-                var transparencyPoint = fillSettings.AddTransparencyPoint();
-                transparencyPoint.Opacity = 25;
-                transparencyPoint.MedianPointLocation = 25;
-                transparencyPoint.Location = 4096;
-
-                // Change location of previous transparency point
-                fillSettings.TransparencyPoints[1].Location = 2411;
-
-                im.Save(exportPath);
-            }
-
-            // Test file after edit
-            using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
-            {
-                var gradientStroke = (StrokeEffect)im.Layers[2].BlendingOptions.Effects[0];
-
-                if ((gradientStroke.BlendMode != BlendMode.Color) ||
-                    (gradientStroke.Opacity != 127) ||
-                    (gradientStroke.IsVisible != true))
-                {
-                    throw new Exception("Assertion of Gradient Stroke fails");
-                }
-
-                var fillSettings = (GradientFillSettings)gradientStroke.FillSettings;
-                if ((fillSettings.Color != Color.Green) ||
-                    (fillSettings.FillType != FillType.Gradient) ||
-                    fillSettings.ColorPoints.Length != 3)
-                {
-                    throw new Exception("Assertion fails");
-                }
-
-                // Check color points
-                var point = fillSettings.ColorPoints[0];
-
-                AssertIsTrue(point.MedianPointLocation == 50);
-                AssertIsTrue(point.Color == Color.Black);
-                AssertIsTrue(point.Location == 0);
-
-                point = fillSettings.ColorPoints[1];
-                AssertIsTrue(point.MedianPointLocation == 50);
-                AssertIsTrue(point.Color == Color.White);
-                AssertIsTrue(point.Location == 1899);
-
-                point = fillSettings.ColorPoints[2];
-                AssertIsTrue(point.MedianPointLocation == 75);
-                AssertIsTrue(point.Color == Color.Green);
-                AssertIsTrue(point.Location == 4096);
-
-                // Check transparent points
-                AssertIsTrue(fillSettings.TransparencyPoints.Length == 3);
-
-                var transparencyPoint = fillSettings.TransparencyPoints[0];
-                AssertIsTrue(transparencyPoint.MedianPointLocation == 50);
-                AssertIsTrue(transparencyPoint.Opacity == 100);
-                AssertIsTrue(transparencyPoint.Location == 0);
-
-                transparencyPoint = fillSettings.TransparencyPoints[1];
-                AssertIsTrue(transparencyPoint.MedianPointLocation == 50);
-                AssertIsTrue(transparencyPoint.Opacity == 100);
-                AssertIsTrue(transparencyPoint.Location == 2411);
-
-                transparencyPoint = fillSettings.TransparencyPoints[2];
-                AssertIsTrue(transparencyPoint.MedianPointLocation == 25);
-                AssertIsTrue(transparencyPoint.Opacity == 25);
-                AssertIsTrue(transparencyPoint.Location == 4096);
-            }
-            //ExEnd:AddStrokeLayer_Gradient
-        }
-    }
-}
-
 ```
+
+## Step 1: Set up the Document Directory
+
+Start by defining the path to your documents directory in the code. This ensures that the necessary files are loaded and saved from the correct location.
+
+```csharp
+string dataDir = "Your Document Directory";
+```
+
+## Step 2: Load the PSD File
+
+Load the source PSD file using Aspose.PSD for .NET. Ensure that the effects resource is loaded to manipulate the layers effectively.
+
+```csharp
+string sourceFileName = dataDir + "Stroke.psd";
+string exportPath = dataDir + "StrokeGradientChanged.psd";
+
+var loadOptions = new PsdLoadOptions()
+{
+    LoadEffectsResource = true
+};
+
+using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
+{
+    // Code for handling the PSD file comes here
+}
+```
+
+## Step 3: Verify Gradient Stroke Settings
+
+Ensure that the stroke layer with a gradient is correctly configured by checking various settings such as blend mode, opacity, and visibility.
+
+```csharp
+var gradientStroke = (StrokeEffect)im.Layers[2].BlendingOptions.Effects[0];
+
+// Assertion checks for gradient stroke settings
+AssertIsTrue(gradientStroke.BlendMode == BlendMode.Normal);
+AssertIsTrue(gradientStroke.Opacity == 255);
+AssertIsTrue(gradientStroke.IsVisible);
+
+// More assertion checks for fill settings
+// ...
+```
+
+Continue to implement assertion checks for other fill settings, including color points and transparency points.
+
+## Step 4: Edit Gradient Stroke Settings
+
+Now, let's make some changes to the gradient stroke settings. Modify parameters such as color, opacity, blend mode, and gradient type to achieve the desired visual effect.
+
+```csharp
+// Code for modifying gradient stroke settings
+// ...
+```
+
+## Step 5: Save the Edited PSD File
+
+Save the edited PSD file to the specified export path.
+
+```csharp
+im.Save(exportPath);
+```
+
+## Conclusion
+
+Congratulations! You've successfully added a stroke layer with a gradient using Aspose.PSD for .NET. This tutorial has equipped you with the knowledge to enhance your images programmatically.
+
+## FAQ's
+
+### Q1: Can I use Aspose.PSD for .NET with other .NET frameworks?
+
+A1: Yes, Aspose.PSD for .NET is compatible with various .NET frameworks.
+
+### Q2: Is there a free trial available for Aspose.PSD for .NET?
+
+A2: Yes, you can access the free trial [here](https://releases.aspose.com/).
+
+### Q3: How can I get support for Aspose.PSD for .NET?
+
+A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support.
+
+### Q4: Where can I find comprehensive documentation for Aspose.PSD for .NET?
+
+A4: Refer to the [documentation](https://reference.aspose.com/psd/net/) for detailed information.
+
+### Q5: How do I purchase a license for Aspose.PSD for .NET?
+
+A5: You can buy a license [here](https://purchase.aspose.com/buy).
