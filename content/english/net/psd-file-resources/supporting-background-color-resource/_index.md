@@ -67,14 +67,25 @@ Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ```
 ## Conclusion
 Congratulations! You've successfully manipulated the BackgroundColorResource in your PSD image using Aspose.PSD for .NET. This is just the beginning of what you can achieve with this powerful library.
-## FAQs
-### Is Aspose.PSD compatible with all PSD versions?
-Aspose.PSD supports a wide range of PSD versions, ensuring compatibility with most files.
-### Can I use Aspose.PSD for commercial projects?
-Yes, you can use Aspose.PSD in both commercial and non-commercial projects. Check the [purchase page](https://purchase.aspose.com/buy) for licensing details.
-### How can I get support for Aspose.PSD?
-Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support or explore premium support options.
-### Is there a free trial available?
-Yes, you can get a free trial from [here](https://releases.aspose.com/).
-### How to obtain a temporary license?
-Follow the steps on the [temporary license page](https://purchase.aspose.com/temporary-license/).
+
+## FAQ's
+
+### Q1: Is Aspose.PSD compatible with all PSD versions?
+
+A1: Aspose.PSD supports a wide range of PSD versions, ensuring compatibility with most files.
+
+### Q2: Can I use Aspose.PSD for commercial projects?
+
+A2: Yes, you can use Aspose.PSD in both commercial and non-commercial projects. Check the [purchase page](https://purchase.aspose.com/buy) for licensing details.
+
+### Q3: How can I get support for Aspose.PSD?
+
+A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support or explore premium support options.
+
+### Q4: Is there a free trial available?
+
+A4: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+
+### Q5: How to obtain a temporary license?
+
+A5: Follow the steps on the [temporary license page](https://purchase.aspose.com/temporary-license/).

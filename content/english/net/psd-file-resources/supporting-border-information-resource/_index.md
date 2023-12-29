@@ -11,7 +11,7 @@ url: /net/psd-file-resources/supporting-border-information-resource/
 Welcome to our step-by-step guide on utilizing the Border Information Resource feature in Aspose.PSD for .NET. In this tutorial, we'll walk you through the process of working with Border Information Resources using Aspose.PSD, a powerful .NET imaging library. Whether you're a seasoned developer or just starting, this tutorial aims to provide clarity on incorporating Border Information Resources seamlessly into your projects.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following:
-- Aspose.PSD for .NET: Ensure you have the Aspose.PSD library installed. You can download it from the [official Aspose.PSD website](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Ensure you have the Aspose.PSD library installed. You can download it from the [Aspose.PSD website](https://releases.aspose.com/psd/net/).
 - .NET Development Environment: Set up your .NET development environment with Visual Studio or any other preferred IDE.
 ## Import Namespaces
 In your code, make sure to import the necessary namespaces to work with Aspose.PSD:
@@ -65,15 +65,27 @@ Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ```
 By following these steps, you can seamlessly integrate the Border Information Resource feature into your Aspose.PSD for .NET project.
 ## Conclusion
+
 Congratulations! You've successfully learned how to use Border Information Resources with Aspose.PSD for .NET. Experiment with different parameters and explore the extensive capabilities of this library to enhance your imaging projects.
-## Frequently Asked Questions
-### Q: Can I use Aspose.PSD for .NET with other .NET frameworks?
-Yes, Aspose.PSD for .NET is compatible with various .NET frameworks.
-### Q: Where can I find more documentation?
-Refer to the [official Aspose.PSD documentation](https://reference.aspose.com/psd/net/) for detailed information.
-### Q: Is there a free trial available?
-Yes, you can access the free trial [here](https://releases.aspose.com/).
-### Q: How can I get support?
-Visit the [Aspose.PSD support forum](https://forum.aspose.com/c/psd/34) for assistance.
-### Q: Are temporary licenses available?
-Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/temporary-license/).
+
+## FAQ's
+
+### Q1: Can I use Aspose.PSD for .NET with other .NET frameworks?
+
+A1: Yes, Aspose.PSD for .NET is compatible with various .NET frameworks.
+
+### Q2: Where can I find more documentation?
+
+A2: Refer to the [Aspose.PSD documentation](https://reference.aspose.com/psd/net/) for detailed information.
+
+### Q3: Is there a free trial available?
+
+A3: Yes, you can access the free trial [here](https://releases.aspose.com/).
+
+### Q4: How can I get support?
+
+A4: Visit the [Aspose.PSD support forum](https://forum.aspose.com/c/psd/34) for assistance.
+
+### Q5: Are temporary licenses available?
+
+A5: Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/temporary-license/).

@@ -64,15 +64,27 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 }
 ```
 ## Conclusion
+
 Congratulations! You've successfully mastered the use of 'WorkingPathResource' in Aspose.PSD for .NET. This feature elevates your image processing capabilities, ensuring precision and efficiency in your projects.
-## FAQs
-### Q: Where can I find the documentation for Aspose.PSD for .NET?
-A: Explore the comprehensive documentation [here](https://reference.aspose.com/psd/net/).
-### Q: How can I download Aspose.PSD for .NET?
-A: Download the library [here](https://releases.aspose.com/psd/net/).
-### Q: Is there a free trial available?
-A: Yes, you can access the free trial [here](https://releases.aspose.com/).
-### Q: Where can I get support for Aspose.PSD for .NET?
-A: Seek support on the [Aspose.PSD forums](https://forum.aspose.com/c/psd/34).
-### Q: Need a temporary license?
-A: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+## FAQ's
+
+### Q1: Where can I find the documentation for Aspose.PSD for .NET?
+
+A1: Explore the comprehensive documentation [here](https://reference.aspose.com/psd/net/).
+
+### Q2: How can I download Aspose.PSD for .NET?
+
+A2: Download the library [here](https://releases.aspose.com/psd/net/).
+
+### Q3: Is there a free trial available?
+
+A3: Yes, you can access the free trial [here](https://releases.aspose.com/).
+
+### Q4: Where can I get support for Aspose.PSD for .NET?
+
+A4: Seek support on the [Aspose.PSD forums](https://forum.aspose.com/c/psd/34).
+
+### Q5: Need a temporary license?
+
+A5 Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).

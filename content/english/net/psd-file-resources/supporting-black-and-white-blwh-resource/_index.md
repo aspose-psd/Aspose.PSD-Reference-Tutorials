@@ -11,7 +11,7 @@ url: /net/psd-file-resources/supporting-black-and-white-blwh-resource/
 In the dynamic world of digital media, image editing plays a pivotal role in creating captivating visuals. Aspose.PSD for .NET empowers developers to take their image manipulation capabilities to the next level. In this tutorial, we'll explore the support for Black and White adjustment layers in Aspose.PSD, enabling you to fine-tune images with precision.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.PSD for .NET: Download and install the library from the official [Aspose.PSD for .NET documentation](https://reference.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Download and install the library from the [Aspose.PSD for .NET documentation](https://reference.aspose.com/psd/net/).
 - Document Directory: Specify the path to your document directory.
 - Output Directory: Define the directory where you want the edited images to be saved.
 ## Import Namespaces
@@ -65,15 +65,27 @@ ExampleSupportOfBlwhResource(
 Console.WriteLine("SupportForBlwhResource executed successfully");
 ```
 ## Conclusion
+
 Aspose.PSD for .NET provides a robust platform for enhancing image editing capabilities. By leveraging the support for Black and White adjustment layers, developers can achieve precise control over image elements, opening up new possibilities for creative expression.
-## Frequently Asked Questions
-### Q: Is Aspose.PSD compatible with various image formats?
-A: Yes, Aspose.PSD supports a wide range of image formats, providing flexibility in handling different file types.
-### Q: Can I apply multiple adjustment layers to an image?
-A: Absolutely! Aspose.PSD allows you to stack multiple adjustment layers, enabling complex image manipulations.
-### Q: How do I obtain a temporary license for Aspose.PSD?
-A: Visit the [Temporary License](https://purchase.aspose.com/temporary-license/) page on the Aspose website to get a temporary license for testing.
-### Q: Where can I find support for Aspose.PSD?
-A: The [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) is a valuable resource for seeking assistance and sharing insights with the community.
-### Q: Are there any sample images available for testing Black and White adjustments?
-A: Yes, you can find sample images in the official Aspose.PSD documentation.
+
+## FAQ's
+
+### Q1: Is Aspose.PSD compatible with various image formats?
+
+A1: Yes, Aspose.PSD supports a wide range of image formats, providing flexibility in handling different file types.
+
+### Q2: Can I apply multiple adjustment layers to an image?
+
+A2: Absolutely! Aspose.PSD allows you to stack multiple adjustment layers, enabling complex image manipulations.
+
+### Q3: How do I obtain a temporary license for Aspose.PSD?
+
+A3: Visit the [Temporary License](https://purchase.aspose.com/temporary-license/) page on the Aspose website to get a temporary license for testing.
+
+### Q4: Where can I find support for Aspose.PSD?
+
+A4: The [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) is a valuable resource for seeking assistance and sharing insights with the community.
+
+### Q5: Are there any sample images available for testing Black and White adjustments?
+
+A5: Yes, you can find sample images in the Aspose.PSD documentation.
