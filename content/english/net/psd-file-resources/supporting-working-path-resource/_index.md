@@ -87,4 +87,4 @@ A4: Seek support on the [Aspose.PSD forums](https://forum.aspose.com/c/psd/34).
 
 ### Q5: Need a temporary license?
 
-A5 Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
