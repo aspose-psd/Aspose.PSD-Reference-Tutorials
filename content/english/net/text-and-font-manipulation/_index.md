@@ -2,7 +2,7 @@
 title: Text and Font Manipulation
 linktitle: Text and Font Manipulation
 second_title: Aspose.PSD .NET API
-description: Maximize your .NET applications with Aspose.PSD for .NET tutorials! Learn rendering text in vibrant colors and seamlessly replace missing fonts. Elevate your design game effortlessly.
+description: Maximize your .NET applications with Aspose.PSD for .NET tutorials! Learn rendering text in vibrant colors and seamlessly replace missing fonts.
 type: docs
 weight: 22
 url: /net/text-and-font-manipulation/
