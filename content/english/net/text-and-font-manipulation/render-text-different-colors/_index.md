@@ -52,15 +52,27 @@ Save the processed image to the specified destination:
 psdImage.Save(destName, pngOptions);
 ```
 ## Conclusion
+
 Congratulations! You've successfully rendered text with different colors in text layers using Aspose.PSD for .NET. This powerful capability opens up a world of possibilities for manipulating and enhancing PSD files programmatically.
-## Frequently Asked Questions
-### 1. Can I use Aspose.PSD for .NET with any .NET application?
-Yes, Aspose.PSD for .NET is designed to work seamlessly with any .NET application, providing flexibility and ease of integration.
-### 2. Is there a free trial available for Aspose.PSD for .NET?
-Yes, you can explore Aspose.PSD for .NET with a free trial. Download it [here](https://releases.aspose.com/).
-### 3. Where can I find documentation for Aspose.PSD for .NET?
-Detailed documentation is available [here](https://reference.aspose.com/psd/net/) to help you understand and implement various features of Aspose.PSD for .NET.
-### 4. How can I get support for Aspose.PSD for .NET?
-For any queries or assistance, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to connect with the community and support team.
-### 5. Are temporary licenses available for Aspose.PSD for .NET?
-Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+
+## FAQ's
+
+### Q1: Can I use Aspose.PSD for .NET with any .NET application?
+
+A1: Yes, Aspose.PSD for .NET is designed to work seamlessly with any .NET application, providing flexibility and ease of integration.
+
+### Q2: Is there a free trial available for Aspose.PSD for .NET?
+
+A2: Yes, you can explore Aspose.PSD for .NET with a free trial. Download it [here](https://releases.aspose.com/).
+
+### Q3: Where can I find documentation for Aspose.PSD for .NET?
+
+A3: Detailed documentation is available [here](https://reference.aspose.com/psd/net/) to help you understand and implement various features of Aspose.PSD for .NET.
+
+### Q4: How can I get support for Aspose.PSD for .NET?
+
+A4: For any queries or assistance, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to connect with the community and support team.
+
+### Q5: Are temporary licenses available for Aspose.PSD for .NET?
+
+A5: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
