@@ -11,7 +11,7 @@ url: /net/psd-file-manipulation/layer-state-effects/
 Welcome to our comprehensive tutorial on working with Layer State Effects in Aspose.PSD for .NET. Layer State Effects play a crucial role in enhancing the visual appeal of your images by adding effects to different layers. In this guide, we will walk you through the process of utilizing Aspose.PSD for .NET to harness the power of Layer State Effects efficiently.
 ## Prerequisites
 Before diving into the tutorial, ensure that you have the following prerequisites in place:
-- Aspose.PSD for .NET: Make sure you have the library installed. You can download it from the official [Aspose.PSD for .NET releases page](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Make sure you have the library installed. You can download it from the [Aspose.PSD for .NET releases page](https://releases.aspose.com/psd/net/).
 - Document Directory: Set up a directory where your PSD files are stored.
 - Output Directory: Create a directory where the modified PSD files will be saved.
 Now, let's proceed with the step-by-step guide.

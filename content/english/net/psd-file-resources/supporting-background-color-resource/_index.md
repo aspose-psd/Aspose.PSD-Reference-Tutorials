@@ -12,7 +12,7 @@ Unlock the full potential of Aspose.PSD for .NET as we delve into a comprehensiv
 ## Prerequisites
 Before we embark on this journey, ensure you have the following prerequisites in place:
 - Visual Studio: Make sure you have Visual Studio installed on your machine.
-- Aspose.PSD for .NET: Download and install the Aspose.PSD for .NET library from the [official releases](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Download and install the Aspose.PSD for .NET library from the [releases](https://releases.aspose.com/psd/net/).
 ## Import Namespaces
 In your Visual Studio project, start by importing the necessary namespaces:
 ```csharp

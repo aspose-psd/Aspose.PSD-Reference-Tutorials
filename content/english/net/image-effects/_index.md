@@ -12,15 +12,15 @@ url: /net/image-effects/
 
 Explore the realm of captivating image effects with our comprehensive tutorials on Aspose.PSD for .NET. Whether you're a seasoned developer or just diving into the world of image processing, our step-by-step guides will empower you to add, overlay, and render effects effortlessly.
 
-### Adding Effects at Runtime in Aspose.PSD for .NET
+## Adding Effects at Runtime in Aspose.PSD for .NET
 
 Dive into the fascinating world of dynamic image enhancements using Aspose.PSD for .NET. Our tutorial walks you through the process, making it easy to [add effects at runtime](./add-effect-runtime/). Unleash the potential of your images with just a few lines of code. Learn the tricks to enhance your application's visual appeal and user experience seamlessly.
 
-### Overlaying Color Effects on Images in Aspose.PSD for .NET
+## Overlaying Color Effects on Images in Aspose.PSD for .NET
 
 Embark on a magical journey with Aspose.PSD for .NET as we guide you through [overlaying color effects on images](./overlay-color-effect/). Elevate your projects by adding a splash of vibrancy and creativity. Our tutorial simplifies the complex, allowing you to effortlessly integrate color overlays into your image processing tasks. Uncover the secrets to making your visuals truly stand out.
 
-### Rendering Drop Shadow Effect in Aspose.PSD for .NET
+## Rendering Drop Shadow Effect in Aspose.PSD for .NET
 
 Master the art of creating captivating drop shadow effects using Aspose.PSD for .NET. Our tutorial unveils the power of this versatile library, enabling you to [render shadows](./render-drop-shadow/) that add depth and dimension to your images. Delve into the intricacies of drop shadow effects and learn how to apply them seamlessly in your projects. Elevate your design game with Aspose.PSD for .NET.
 
