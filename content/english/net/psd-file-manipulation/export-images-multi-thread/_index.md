@@ -2,7 +2,7 @@
 title: Exporting Images in Multi-Threaded Environment with Aspose.PSD for .NET
 linktitle: Exporting Images in Multi-Threaded Environment with Aspose.PSD for .NET
 second_title: Aspose.PSD .NET API
-description: Enhance .NET image processing with Aspose.PSD: Export images in a multi-threaded environment. Boost performance and efficiency effortlessly.
+description: Enhance .NET image processing with Aspose.PSD. Export images in a multi-threaded environment. Boost performance and efficiency effortlessly.
 type: docs
 weight: 20
 url: /net/psd-file-manipulation/export-images-multi-thread/
