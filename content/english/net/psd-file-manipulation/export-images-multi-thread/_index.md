@@ -18,12 +18,13 @@ Before diving into the tutorial, ensure that you have the following prerequisite
 To begin, import the necessary namespaces in your .NET project. These namespaces provide access to the Aspose.PSD functionalities.
 ```csharp
 using Aspose.PSD.ImageOptions;
-// The path to the documents directory.
-string dataDir = "Your Output Directory";
+
 ```
 ## Step 1: Create Image Data Path
 Define the path for the PSD file that will be processed.
 ```csharp
+// The path to the documents directory.
+string dataDir = "Your Output Directory";
 string imageDataPath = dataDir + @"sample.psd";
 ```
 ## Step 2: Create PSD Options

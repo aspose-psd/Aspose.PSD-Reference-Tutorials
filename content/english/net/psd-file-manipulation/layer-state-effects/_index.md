@@ -61,7 +61,7 @@ psdImage.Save(outputFile);
 
 Congratulations! You have successfully worked with Layer State Effects in Aspose.PSD for .NET. Experiment with different effects to enhance the visual appeal of your PSD files.
 
-## Frequently Asked Questions
+## FAQ's
 
 ### Q1: How can I download Aspose.PSD for .NET?
 
