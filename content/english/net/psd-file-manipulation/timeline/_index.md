@@ -11,7 +11,7 @@ url: /net/psd-file-manipulation/timeline/
 In the dynamic world of graphic design and image manipulation, the ability to control and manipulate the timeline of images is crucial. Aspose.PSD for .NET provides a powerful solution with its Timeline class. This high-level feature enables users to make changes to the timeline of PsdImage, such as altering frame delay, editing layer states on specific frames, and more.
 ## Prerequisites
 Before diving into the exciting possibilities that the Timeline class offers, make sure you have the following prerequisites in place:
-- Aspose.PSD for .NET Library: Ensure that you have the Aspose.PSD for .NET library installed. You can download it from the [official Aspose.PSD for .NET documentation](https://reference.aspose.com/psd/net/).
+- Aspose.PSD for .NET Library: Ensure that you have the Aspose.PSD for .NET library installed. You can download it from the [Aspose.PSD for .NET documentation](https://reference.aspose.com/psd/net/).
 - Document and Output Directories: Define the paths for your document and output directories in the code. Adjust the `baseDir` and `outputDir` variables according to your project structure.
 Now, let's explore how to utilize the Timeline class step by step.
 ## Import Namespaces
@@ -84,15 +84,27 @@ Finally, clean up by deleting the temporary output file:
 File.Delete(outputPsd);
 ```
 ## Conclusion
+
 In conclusion, the Timeline class in Aspose.PSD for .NET empowers developers to have granular control over the timeline of PSD images. Through a series of simple steps, you can manipulate frame properties, layer states, and more, opening up a realm of creative possibilities.
-## FAQs
-### Is Aspose.PSD for .NET suitable for beginners?
-Absolutely! Aspose.PSD for .NET provides a user-friendly interface and comprehensive documentation, making it accessible for both beginners and seasoned developers.
-### Can I apply timeline changes to GIF images?
-The Timeline class is specifically designed for PSD images. For GIF manipulation, refer to Aspose.GIF for .NET.
-### Where can I find additional support or discuss issues?
-Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and issue discussions.
-### How can I obtain a temporary license for Aspose.PSD for .NET?
-Acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
-### What are the key benefits of using Aspose.PSD for .NET?
-Aspose.PSD for .NET offers advanced image processing capabilities, PSD file manipulation, and high-performance rendering.
+
+## FAQ's
+
+### Q1: Is Aspose.PSD for .NET suitable for beginners?
+
+A1: Absolutely! Aspose.PSD for .NET provides a user-friendly interface and comprehensive documentation, making it accessible for both beginners and seasoned developers.
+
+### Q2: Can I apply timeline changes to GIF images?
+
+A2: The Timeline class is specifically designed for PSD images. For GIF manipulation, refer to Aspose.GIF for .NET.
+
+### Q3: Where can I find additional support or discuss issues?
+
+A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and issue discussions.
+
+### Q4: How can I obtain a temporary license for Aspose.PSD for .NET?
+
+A4: Acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: What are the key benefits of using Aspose.PSD for .NET?
+
+A5: Aspose.PSD for .NET offers advanced image processing capabilities, PSD file manipulation, and high-performance rendering.

@@ -11,7 +11,7 @@ url: /net/psd-file-manipulation/mlst-resources/
 Welcome to the in-depth tutorial on handling MLST (Multiple Layer States) Resources in Aspose.PSD for .NET. Aspose.PSD for .NET is a powerful library that provides extensive capabilities for working with Photoshop files. In this tutorial, we'll focus on the support of MLST Resources, offering a low-level mechanism to manipulate layer states efficiently.
 ## Prerequisites
 Before we delve into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.PSD for .NET Library: Ensure you have the library installed. If not, you can download it from the official [Aspose.PSD for .NET download page](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET Library: Ensure you have the library installed. If not, you can download it from the [Aspose.PSD for .NET download page](https://releases.aspose.com/psd/net/).
 - Document and Output Directories: Set up your document directory (`baseDir`) and output directory (`outputDir`) in the provided code.
 ## Import Namespaces
 In your .NET project, include the necessary namespaces to work with Aspose.PSD:
@@ -62,15 +62,27 @@ File.Delete(outputPsd);
 Console.WriteLine("SupportOfMlstResource executed successfully");
 ```
 ## Conclusion
+
 Congratulations! You have successfully learned how to handle MLST Resources in Aspose.PSD for .NET. This feature provides a robust mechanism to manipulate layer states in Photoshop files programmatically.
-## Frequently Asked Questions
-### Q: Can I use Aspose.PSD for .NET to work with PSD files created in different Photoshop versions?
-A: Yes, Aspose.PSD for .NET supports PSD files created in various Photoshop versions.
-### Q: Is there a free trial available for Aspose.PSD for .NET?
-A: Yes, you can download a free trial from the [official releases page](https://releases.aspose.com/).
-### Q: Where can I find detailed documentation for Aspose.PSD for .NET?
-A: The documentation is available [here](https://reference.aspose.com/psd/net/).
-### Q: How can I get support for Aspose.PSD for .NET?
-A: Visit the [Aspose.PSD forums](https://forum.aspose.com/c/psd/34) for community support.
-### Q: How do I purchase a license for Aspose.PSD for .NET?
-A: You can buy a license [here](https://purchase.aspose.com/buy).
+
+## FAQ's
+
+### Q1: Can I use Aspose.PSD for .NET to work with PSD files created in different Photoshop versions?
+
+A1: Yes, Aspose.PSD for .NET supports PSD files created in various Photoshop versions.
+
+### Q2: Is there a free trial available for Aspose.PSD for .NET?
+
+A2: Yes, you can download a free trial from the [releases page](https://releases.aspose.com/).
+
+### Q3: Where can I find detailed documentation for Aspose.PSD for .NET?
+
+A3: The documentation is available [here](https://reference.aspose.com/psd/net/).
+
+### Q4: How can I get support for Aspose.PSD for .NET?
+
+A4: Visit the [Aspose.PSD forums](https://forum.aspose.com/c/psd/34) for community support.
+
+### Q5: How do I purchase a license for Aspose.PSD for .NET?
+
+A5: You can buy a license [here](https://purchase.aspose.com/buy).

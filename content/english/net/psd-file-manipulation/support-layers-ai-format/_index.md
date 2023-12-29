@@ -13,7 +13,7 @@ Welcome to our step-by-step guide on leveraging Aspose.PSD for .NET to handle su
 Aspose.PSD for .NET is a powerful library that enables developers to manipulate and process Adobe Photoshop files, including AI (Adobe Illustrator) format. In this tutorial, we'll focus on supporting layers in AI files, showcasing how to extract valuable information from each layer.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following:
-1. Aspose.PSD for .NET Library: Download and install the library from the [official Aspose.PSD website](https://releases.aspose.com/psd/net/).
+1. Aspose.PSD for .NET Library: Download and install the library from the [Aspose.PSD website](https://releases.aspose.com/psd/net/).
 2. Development Environment: Ensure you have a working .NET development environment, including Visual Studio.
 3. Sample AI File: Download the sample AI file, "form_8_2l3_7.ai," from [this link](Your-Download-Link).
 ## Import Namespaces
@@ -61,15 +61,27 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 ```
 Repeat these steps for other layers as needed.
 ## Conclusion
+
 Congratulations! You've successfully learned how to work with supporting layers in AI format using Aspose.PSD for .NET. Explore the library's extensive features and documentation [here](https://reference.aspose.com/psd/net/).
-## FAQs
-### Is Aspose.PSD compatible with the latest .NET framework?
-Yes, Aspose.PSD is compatible with the latest .NET framework versions.
-### Can I manipulate text layers in AI files using Aspose.PSD?
-Yes, Aspose.PSD provides functionality to work with text layers in AI files.
-### Where can I find more tutorials and examples for Aspose.PSD?
-Visit the [official Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for tutorials, examples, and community support.
-### How can I obtain a temporary license for Aspose.PSD?
-Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
-### What image formats are supported for saving by Aspose.PSD?
-Aspose.PSD supports various formats, including PSD, PNG, JPEG, and more.
+
+## FAQ's
+
+### Q1: Is Aspose.PSD compatible with the latest .NET framework?
+
+A1: Yes, Aspose.PSD is compatible with the latest .NET framework versions.
+
+### Q2: Can I manipulate text layers in AI files using Aspose.PSD?
+
+A2: Yes, Aspose.PSD provides functionality to work with text layers in AI files.
+
+### Q3: Where can I find more tutorials and examples for Aspose.PSD?
+
+A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for tutorials, examples, and community support.
+
+### Q4: How can I obtain a temporary license for Aspose.PSD?
+
+A4: Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: What image formats are supported for saving by Aspose.PSD?
+
+A5: Aspose.PSD supports various formats, including PSD, PNG, JPEG, and more.

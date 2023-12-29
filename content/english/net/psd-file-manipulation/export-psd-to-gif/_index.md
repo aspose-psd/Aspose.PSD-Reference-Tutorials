@@ -47,14 +47,24 @@ File.Delete(outputGif);
 Perform any necessary cleanup, such as deleting temporary files.
 ## Conclusion
 Congratulations! You've successfully exported a PSD image to GIF format using Aspose.PSD for .NET. This capability opens up new possibilities for handling PSD images in your .NET applications.
-## FAQs
-### 1. Is Aspose.PSD for .NET suitable for handling animated PSDs?
-Yes, Aspose.PSD for .NET supports the export of animated PSDs to various formats, including GIF.
-### 2. Where can I find comprehensive documentation for Aspose.PSD for .NET?
-Refer to the [official documentation](https://reference.aspose.com/psd/net/) for detailed information and examples.
-### 3. How can I obtain a temporary license for Aspose.PSD for .NET?
-Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for testing purposes.
-### 4. What support options are available for Aspose.PSD for .NET?
-Explore the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
-### 5. Where can I purchase Aspose.PSD for .NET?
-To purchase the library, visit the [official purchase page](https://purchase.aspose.com/buy).
+## FAQ's
+
+### Q1: Is Aspose.PSD for .NET suitable for handling animated PSDs?
+
+A1: Yes, Aspose.PSD for .NET supports the export of animated PSDs to various formats, including GIF.
+
+### Q2: Where can I find comprehensive documentation for Aspose.PSD for .NET?
+
+A2: Refer to the [documentation](https://reference.aspose.com/psd/net/) for detailed information and examples.
+
+### Q3: How can I obtain a temporary license for Aspose.PSD for .NET?
+
+A3: Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for testing purposes.
+
+### Q4: What support options are available for Aspose.PSD for .NET?
+
+A4: Explore the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
+
+### Q5: Where can I purchase Aspose.PSD for .NET?
+
+A5: To purchase the library, visit the [purchase page](https://purchase.aspose.com/buy).

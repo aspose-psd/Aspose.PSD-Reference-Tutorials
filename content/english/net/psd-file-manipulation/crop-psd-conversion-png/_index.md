@@ -11,7 +11,7 @@ url: /net/psd-file-manipulation/crop-psd-conversion-png/
 In the realm of .NET development, manipulating and converting images is a common task. Aspose.PSD for .NET provides a powerful set of tools to streamline this process. One frequent requirement is cropping PSD files before converting them to PNG. In this step-by-step tutorial, we'll delve into the process using Aspose.PSD for .NET.
 ## Prerequisites
 Before we embark on this journey, ensure you have the following:
-- Aspose.PSD for .NET Library: Download and install the library from the official [Aspose.PSD for .NET Documentation](https://reference.aspose.com/psd/net/).
+- Aspose.PSD for .NET Library: Download and install the library from the [Aspose.PSD for .NET Documentation](https://reference.aspose.com/psd/net/).
 - Sample PSD File: Have a PSD file ready for experimentation. If you don't have one, you can use the sample provided in the tutorial.
 - .NET Environment: Make sure you have a working .NET development environment set up.
 - Document Directory: Specify the path to your document directory in the code.
@@ -53,15 +53,27 @@ string destName = dataDir + @"export.png";
 image.Save(destName, pngOptions);
 ```
 ## Conclusion
+
 Congratulations! You've successfully learned how to crop PSD files when converting them to PNG using Aspose.PSD for .NET. This capability can be invaluable in various image processing scenarios.
-## Frequently Asked Questions
-### Can I use this library in a commercial project?
-Yes, Aspose.PSD for .NET is available for commercial use. Refer to [Aspose.PSD Licensing](https://purchase.aspose.com/buy) for details.
-### Is there a free trial available?
-Absolutely! You can explore a free trial version [here](https://releases.aspose.com/).
-### Where can I find support for Aspose.PSD for .NET?
-Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for any assistance or queries.
-### How do I obtain a temporary license?
-If you need a temporary license, you can get one [here](https://purchase.aspose.com/temporary-license/).
-### Are there any examples or tutorials available in the documentation?
-Yes, you can find comprehensive documentation and examples [here](https://reference.aspose.com/psd/net/).
+
+## FAQ's
+
+### Q1: Can I use this library in a commercial project?
+
+A1: Yes, Aspose.PSD for .NET is available for commercial use. Refer to [Aspose.PSD Licensing](https://purchase.aspose.com/buy) for details.
+
+### Q2: Is there a free trial available?
+
+A2: Absolutely! You can explore a free trial version [here](https://releases.aspose.com/).
+
+### Q3: Where can I find support for Aspose.PSD for .NET?
+
+A3: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for any assistance or queries.
+
+### Q4: How do I obtain a temporary license?
+
+A4: If you need a temporary license, you can get one [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Are there any examples or tutorials available in the documentation?
+
+A5: Yes, you can find comprehensive documentation and examples [here](https://reference.aspose.com/psd/net/).

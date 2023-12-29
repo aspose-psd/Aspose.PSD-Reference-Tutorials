@@ -59,15 +59,24 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
 ## Conclusion
 Congratulations! You've successfully navigated through the intricacies of handling PSD image timelines using Aspose.PSD for .NET. This tutorial empowers you to add frames, switch between them, and save your edited image effortlessly.
-## Frequently Asked Questions
- (FAQs)
-### Can I use Aspose.PSD for .NET with other programming languages?
-No, Aspose.PSD is specifically designed for .NET applications.
-### Is a license required for using Aspose.PSD?
-Yes, you need a valid license. Get it [here](https://purchase.aspose.com/buy).
-### Can I try Aspose.PSD for free before purchasing a license?
-Yes, you can access the free trial [here](https://releases.aspose.com/).
-### Where can I find detailed documentation for Aspose.PSD?
-Refer to the official documentation [here](https://reference.aspose.com/psd/net/).
-### Need assistance or have questions?
-Visit the Aspose.PSD community forum [here](https://forum.aspose.com/c/psd/34).
+## FAQ's
+
+### Q1: Can I use Aspose.PSD for .NET with other programming languages?
+
+A1: No, Aspose.PSD is specifically designed for .NET applications.
+
+### Q2: Is a license required for using Aspose.PSD?
+
+A2: Yes, you need a valid license. Get it [here](https://purchase.aspose.com/buy).
+
+### Q3: Can I try Aspose.PSD for free before purchasing a license?
+
+A3: Yes, you can access the free trial [here](https://releases.aspose.com/).
+
+### Q4: Where can I find detailed documentation for Aspose.PSD?
+
+A4: Refer to the documentation [here](https://reference.aspose.com/psd/net/).
+
+### Q5: Need assistance or have questions?
+
+A5: Visit the Aspose.PSD community forum [here](https://forum.aspose.com/c/psd/34).

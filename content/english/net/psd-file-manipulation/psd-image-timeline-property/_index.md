@@ -26,6 +26,7 @@ using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Layers.Animation;
 ```
 ## Step-by-Step Guide: Working with PSD Image Timeline Property
+
 ## Step 1: Load PSD Image
 ```csharp
 string sourceFile = Path.Combine(baseDir, "4_animated.psd");
@@ -60,15 +61,27 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
 This step-by-step guide provides a glimpse into the seamless integration of the PSD Image Timeline Property into your .NET projects using Aspose.PSD.
 ## Conclusion
+
 Aspose.PSD for .NET empowers developers to unlock the full potential of PSD images. The PSD Image Timeline Property adds a layer of dynamism to your projects, offering creative possibilities in image manipulation.
-## FAQs
+
+## FAQ's
+
 ### Q1: Can I use Aspose.PSD for .NET with other .NET frameworks?
-Yes, Aspose.PSD for .NET is compatible with various .NET frameworks, ensuring flexibility in your development environment.
+
+A1: Yes, Aspose.PSD for .NET is compatible with various .NET frameworks, ensuring flexibility in your development environment.
+
 ### Q2: Is there a trial version available before purchasing?
-Certainly! You can explore the capabilities of Aspose.PSD for .NET with a free trial [here](https://releases.aspose.com/).
+
+A2: Certainly! You can explore the capabilities of Aspose.PSD for .NET with a free trial [here](https://releases.aspose.com/).
+
 ### Q3: How can I get support for Aspose.PSD for .NET?
-For any queries or assistance, visit the Aspose.PSD community forum [here](https://forum.aspose.com/c/psd/34).
+
+A3: For any queries or assistance, visit the Aspose.PSD community forum [here](https://forum.aspose.com/c/psd/34).
+
 ### Q4: Are temporary licenses available for Aspose.PSD for .NET?
-Yes, you can obtain temporary licenses for Aspose.PSD for .NET [here](https://purchase.aspose.com/temporary-license/).
+
+A4: Yes, you can obtain temporary licenses for Aspose.PSD for .NET [here](https://purchase.aspose.com/temporary-license/).
+
 ### Q5: Where can I find detailed documentation for Aspose.PSD for .NET?
-Explore the comprehensive documentation [here](https://reference.aspose.com/psd/net/).
+
+A5: Explore the comprehensive documentation [here](https://reference.aspose.com/psd/net/).

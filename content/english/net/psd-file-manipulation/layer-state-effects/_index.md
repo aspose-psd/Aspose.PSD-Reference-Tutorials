@@ -58,15 +58,27 @@ string outputFile = Path.Combine(outputDir, "output.psd");
 psdImage.Save(outputFile);
 ```
 ## Conclusion
+
 Congratulations! You have successfully worked with Layer State Effects in Aspose.PSD for .NET. Experiment with different effects to enhance the visual appeal of your PSD files.
+
 ## Frequently Asked Questions
-### How can I download Aspose.PSD for .NET?
-Visit the official [Aspose.PSD for .NET releases page](https://releases.aspose.com/psd/net/) to download the library.
-### Where can I find the documentation for Aspose.PSD for .NET?
-Refer to the detailed documentation [here](https://reference.aspose.com/psd/net/).
-### Is there a free trial available?
-Yes, you can explore a free trial [here](https://releases.aspose.com/).
-### How do I get a temporary license?
-Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
-### Need support or have questions?
-Join the [Aspose.PSD community forum](https://forum.aspose.com/c/psd/34) for assistance.
+
+### Q1: How can I download Aspose.PSD for .NET?
+
+A1: Visit the [Aspose.PSD for .NET releases page](https://releases.aspose.com/psd/net/) to download the library.
+
+### Q2: Where can I find the documentation for Aspose.PSD for .NET?
+
+A2: Refer to the detailed documentation [here](https://reference.aspose.com/psd/net/).
+
+### A3: Is there a free trial available?
+
+A3: Yes, you can explore a free trial [here](https://releases.aspose.com/).
+
+### Q4: How do I get a temporary license?
+
+A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Need support or have questions?
+
+A5: Join the [Aspose.PSD community forum](https://forum.aspose.com/c/psd/34) for assistance.
