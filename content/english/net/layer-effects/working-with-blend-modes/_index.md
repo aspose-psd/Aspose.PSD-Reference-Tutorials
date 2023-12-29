@@ -24,7 +24,7 @@ Before we get started, make sure you have the following prerequisites in place:
 Begin by importing the necessary namespaces into your project. This ensures that you have access to the Aspose.PSD classes and methods required for working with blend modes.
 
 ```csharp
-using Aspose.PSD;
+using Aspose.PSD.FileFormats.Png;
 using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.ImageOptions;
 ```
@@ -102,77 +102,3 @@ A4: Absolutely! Blend modes can be combined with other Aspose.PSD features for a
 ### Q5: Is there a community forum for Aspose.PSD support?
 
 A5: Yes, you can find support and connect with other users on the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
-
-
-
-## Complete Source Code
-```csharp
-using Aspose.PSD.FileFormats.Png;
-using Aspose.PSD.FileFormats.Psd;
-using Aspose.PSD.ImageOptions;
-
-namespace Aspose.PSD.Examples.Aspose.DrawingAndFormattingImages
-{
-    class SupportBlendModes
-    {
-
-public static void Run()
-{
-	// The path to the documents directory.
-	string dataDir = "Your Document Directory";
-
-	//ExStart:SupportBlendModes
-	var files = new string[]
-{
-   "Normal",
-   "Dissolve",
-   "Darken",
-   "Multiply",
-   "ColorBurn",
-   "LinearBurn",
-   "DarkerColor",
-   "Lighten",
-   "Screen",
-   "ColorDodge",
-   "LinearDodgeAdd",
-   "LightenColor",
-   "Overlay",
-   "SoftLight",
-   "HardLight",
-   "VividLight",
-   "LinearLight",
-   "PinLight",
-   "HardMix",
-   "Difference",
-   "Exclusion",
-   "Subtract",
-   "Divide",
-	"Hue",
-   "Saturation",
-	"Color",
-   "Luminosity",
-	};
-
-	foreach (var fileName in files)
-	{
-
-		using (var im = (PsdImage)Image.Load(dataDir + fileName + ".psd"))
-		{
-			// Export to PNG
-			var saveOptions = new PngOptions();
-			saveOptions.ColorType = PngColorType.TruecolorWithAlpha;
-			var pngExportPath100 = "BlendMode" + fileName + "_Test100.png";
-			im.Save(pngExportPath100, saveOptions);
-
-			// Set opacity 50%
-			im.Layers[1].Opacity = 127;
-			var pngExportPath50 = "BlendMode" + fileName + "_Test50.png";
-			im.Save(pngExportPath50, saveOptions);
-		}
-	}
-}
-//ExEnd:SupportBlendModes
-
-    }
-}
-```
