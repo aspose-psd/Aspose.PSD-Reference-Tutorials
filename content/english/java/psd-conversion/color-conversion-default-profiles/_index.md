@@ -18,7 +18,7 @@ url: /java/psd-conversion/color-conversion-default-profiles/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Color;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -34,7 +34,7 @@ public class ColorConversionUsingDefaultProfiles {
      public static void main(String[] args) throws FileNotFoundException
     {
        //ExStart:ColorConversionUsingDefaultProfiles
-       String dataDir = Utils.getDataDir(ColorConversionUsingDefaultProfiles.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        PsdImage image = new PsdImage(500, 500);
        // Fill image data.

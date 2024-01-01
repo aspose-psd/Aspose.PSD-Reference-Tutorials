@@ -15,7 +15,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.ResizeType;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 
@@ -25,7 +25,7 @@ public class ImplementBicubicResampler {
     public static void main(String[] args) 
     {
        //ExStart:ImplementBicubicResampler
-       String dataDir = Utils.getDataDir(ImplementBicubicResampler.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String filePath = dataDir + "sample_bicubic.psd";
        String destNameCubicConvolution = dataDir + "ResamplerCubicConvolutionStripes_after.psd";

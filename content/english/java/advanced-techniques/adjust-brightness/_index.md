@@ -19,7 +19,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -33,7 +33,7 @@ public class AdjustingBrightness {
     public static void main(String[] args) 
     {
        //ExStart:AdjustingBrightness
-       String dataDir = Utils.getDataDir(AdjustingBrightness.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
         String sourceFile = dataDir + "sample.psd";
         String destName = dataDir + "AdjustBrightness_out.tiff";

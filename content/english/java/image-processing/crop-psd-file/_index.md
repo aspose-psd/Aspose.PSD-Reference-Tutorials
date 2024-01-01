@@ -20,7 +20,7 @@ package com.aspose.psd.examples.Conversion;
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
@@ -35,7 +35,7 @@ public class CropPSDFile {
      public static void main(String[] args) 
     {
        //ExStart:CropPSDFile
-       String dataDir = Utils.getDataDir(CropPSDFile.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        // Implement correct Crop method for PSD files.
         String sourceFileName = dataDir + "1.psd";

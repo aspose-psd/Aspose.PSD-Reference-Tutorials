@@ -18,7 +18,7 @@ url: /java/advanced-techniques/settings-replacing-missing-fonts/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
@@ -33,7 +33,7 @@ public class SettingForReplacingMissingFonts
     public static void main(String[] args)
     {
        //ExStart:SettingForReplacingMissingFonts
-       String dataDir = Utils.getDataDir(SettingForReplacingMissingFonts.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "result.png";

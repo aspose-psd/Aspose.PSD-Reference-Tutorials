@@ -19,7 +19,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.OpenTypeFontsCache;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import java.io.Console;
 import java.util.concurrent.TimeUnit;
@@ -32,7 +32,7 @@ public class ForceFontCache {
     public static void main(String[] args) throws InterruptedException 
     {
        //ExStart:ForceFontCache
-     String dataDir = Utils.getDataDir(ForceFontCache.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      
      PsdImage image = (PsdImage)Image.load(dataDir+"sample.psd");
      image.save(dataDir+"NoFont.psd");

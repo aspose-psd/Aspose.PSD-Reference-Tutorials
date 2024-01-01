@@ -19,7 +19,7 @@ package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imagefilters.filteroptions.MotionWienerFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 
@@ -31,7 +31,7 @@ public class ApplyMotionWienerFilters {
     public static void main(String[] args) 
     {
        //ExStart:ApplyMotionWienerFilters
-       String dataDir = Utils.getDataDir(ApplyMotionWienerFilters.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "motion_filter_out.gif";

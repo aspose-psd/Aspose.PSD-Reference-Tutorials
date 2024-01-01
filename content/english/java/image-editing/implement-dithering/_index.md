@@ -19,7 +19,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.DitheringMethod;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 
@@ -29,7 +29,7 @@ public class DitheringForRasterImages
     public static void main(String[] args) 
     {
        //ExStart:DitheringForRasterImages
-     String dataDir = Utils.getDataDir(DitheringForRasterImages.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      String sourceFile = dataDir + "sample.psd";
      String destName = dataDir + "SampleImage_out.bmp";
 

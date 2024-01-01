@@ -20,7 +20,7 @@ package com.aspose.psd.examples.Conversion;
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.PngOptions;
 
 /**
@@ -32,7 +32,7 @@ public class CroppingPSDWhenConvertingToPNG {
     public static void main(String[] args) 
     {
        //ExStart:CroppingPSDWhenConvertingToPNG
-       String dataDir = Utils.getDataDir(ColorConversionUsingICCProfiles.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        String srcPath = dataDir + "sample.psd";
        String destName = dataDir + "export.png";

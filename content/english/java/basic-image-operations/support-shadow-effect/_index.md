@@ -19,8 +19,8 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
+
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.layereffects.DropShadowEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
@@ -33,7 +33,7 @@ public class SupportShadowEffect {
     public static void main(String[] args)  
     {
        //ExStart:SupportShadowEffect
-       String dataDir = Utils.getDataDir(SupportShadowEffect.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String sourceFileName = dataDir+"Shadow.psd";
         String psdPathAfterChange = dataDir+"ShadowChanged.psd";

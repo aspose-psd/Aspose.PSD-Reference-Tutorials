@@ -18,7 +18,7 @@ url: /java/advanced-techniques/support-interrupt-monitor/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
+
 import static com.aspose.psd.examples.Utils.Utils.getDateTime;
 import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.multithreading.InterruptMonitor;
@@ -33,7 +33,7 @@ public class SupportForInterruptMonitor {
     public static void main(String[] args) throws InterruptedException
     {
        //ExStart:SupportForInterruptMonitor
-       String dataDir = Utils.getDataDir(SupportForInterruptMonitor.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        
             ImageOptionsBase saveOptions = new PngOptions();

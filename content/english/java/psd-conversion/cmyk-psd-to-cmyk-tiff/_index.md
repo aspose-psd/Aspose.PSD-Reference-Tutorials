@@ -18,7 +18,7 @@ url: /java/psd-conversion/cmyk-psd-to-cmyk-tiff/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
 
@@ -31,7 +31,7 @@ public class CMYKPSDtoCMYKTiff {
     public static void main(String[] args) 
     {
        //ExStart:CMYKPSDtoCMYKTiff
-       String dataDir = Utils.getDataDir(CMYKPSDtoCMYKTiff.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "output.tiff";

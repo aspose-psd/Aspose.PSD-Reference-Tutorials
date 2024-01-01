@@ -20,7 +20,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.JpegOptions;
 
 /**
@@ -32,7 +32,7 @@ public class RotatingAnImageOnASpecificAngle
     public static void main(String[] args)  
     {
        //ExStart:RotatingAnImageOnASpecificAngle
-       String dataDir = Utils.getDataDir(RotatingAnImageOnASpecificAngle.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "RotatingImageOnSpecificAngle_out.jpg";

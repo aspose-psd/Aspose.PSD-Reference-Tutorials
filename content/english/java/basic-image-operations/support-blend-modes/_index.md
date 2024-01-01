@@ -18,7 +18,7 @@ url: /java/basic-image-operations/support-blend-modes/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -32,7 +32,7 @@ public class SupportBlendModes {
      public static void main(String[] args)  
     {
        //ExStart:SupportBlendModes
-       String dataDir = Utils.getDataDir(SupportBlendModes.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        //ExStart:SupportBlendModes
 	String[] files = new String[]

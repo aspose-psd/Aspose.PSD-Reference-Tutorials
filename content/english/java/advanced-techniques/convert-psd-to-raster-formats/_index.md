@@ -18,7 +18,7 @@ url: /java/advanced-techniques/convert-psd-to-raster-formats/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.BmpOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 import com.aspose.psd.imageoptions.Jpeg2000Options;
@@ -35,7 +35,7 @@ public class PSDToRasterImageFormats {
     public static void main(String[] args)
     {
        //ExStart:PSDToRasterImageFormats
-       String dataDir = Utils.getDataDir(PSDToRasterImageFormats.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        String srcPath = dataDir + "sample.psd";
        String destName = dataDir+ "export";

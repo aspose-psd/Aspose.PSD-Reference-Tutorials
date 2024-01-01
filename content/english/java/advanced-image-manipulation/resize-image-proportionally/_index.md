@@ -18,7 +18,7 @@ url: /java/advanced-image-manipulation/resize-image-proportionally/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.PngOptions;
 
 /**
@@ -30,7 +30,7 @@ public class ResizeImageProportionally {
     public static void main(String[] args)  
     {
        //ExStart:ResizeImageProportionally
-     String dataDir = Utils.getDataDir(ResizeImageProportionally.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      
      String sourceFile = dataDir + "sample.psd";
      String destName = dataDir + "SimpleResizeImageProportionally_out.png";

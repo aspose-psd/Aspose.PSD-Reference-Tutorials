@@ -18,7 +18,7 @@ url: /java/image-processing/bradley-thresholding/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 
@@ -31,7 +31,7 @@ public class BradleyThreshold
      public static void main(String[] args) 
     {
        //ExStart:BradleyThreshold
-       String dataDir = Utils.getDataDir(BradleyThreshold.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "binarized_out.png";
        

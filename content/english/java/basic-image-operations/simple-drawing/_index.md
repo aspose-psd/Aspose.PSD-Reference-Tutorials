@@ -17,7 +17,7 @@ import com.aspose.psd.Graphics;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 
@@ -31,7 +31,7 @@ public class SimpleDrawing
     public static void main(String[] args)
     {
         //ExStart:SimpleDrawing
-        String outputDir = Utils.GetDataDir_Output();
+        String outputDir = "Your Document Directory";
 
         String outPsdFilePath = outputDir + "output.psd";
 

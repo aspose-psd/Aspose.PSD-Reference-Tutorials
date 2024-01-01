@@ -19,7 +19,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.layereffects.ColorOverlayEffect;
@@ -34,7 +34,7 @@ public class AddEffectAtRunTime {
     public static void main(String[] args) 
     {
        //ExStart:AddEffectAtRunTime
-       String dataDir = Utils.getDataDir(AddEffectAtRunTime.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
         String sourceFileName =dataDir+"ThreeRegularLayers.psd";
         String exportPath = dataDir+"ThreeRegularLayersChanged.psd";

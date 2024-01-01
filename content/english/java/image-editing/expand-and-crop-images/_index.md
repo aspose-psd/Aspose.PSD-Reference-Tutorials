@@ -20,7 +20,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.JpegOptions;
 
 /**
@@ -32,7 +32,7 @@ public class ExpandAndCropImages {
     public static void main(String[] args) 
     {
        //ExStart:ExpandAndCropImages
-     String dataDir = Utils.getDataDir(ExpandAndCropImages.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      
      String sourceFile = dataDir + "example1.psd";
      String destName = dataDir + "jpeg_out.jpg";

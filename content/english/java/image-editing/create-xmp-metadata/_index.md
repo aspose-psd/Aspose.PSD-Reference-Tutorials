@@ -18,7 +18,7 @@ url: /java/image-editing/create-xmp-metadata/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.system.io.MemoryStream;
 import com.aspose.psd.xmp.XmpHeaderPi;
@@ -34,7 +34,7 @@ public class CreateXMPMetadata {
     public static void main(String[] args) 
     {
        //ExStart:CreateXMPMetadata
-       String dataDir = Utils.getDataDir(CreateXMPMetadata.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        // Specify the size of image by defining a Rectangle 
 		Rectangle rect = new Rectangle(0, 0, 100, 200);

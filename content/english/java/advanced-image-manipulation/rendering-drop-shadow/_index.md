@@ -18,12 +18,12 @@ url: /java/advanced-image-manipulation/rendering-drop-shadow/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.layereffects.DropShadowEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.Color;
-import com.aspose.psd.examples.Utils.Assert;
+
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
 
@@ -36,7 +36,7 @@ public class RenderingDropShadow {
     public static void main(String[] args)  
     {
        //ExStart:RenderingDropShadow
-     String dataDir = Utils.getDataDir(RenderingDropShadow.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      
      String sourceFileName = dataDir+ "Shadow.psd";
      String pngExportPath = dataDir+"Shadowchanged1.png";

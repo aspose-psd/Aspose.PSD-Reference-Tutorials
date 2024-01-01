@@ -18,7 +18,7 @@ url: /java/advanced-image-manipulation/replace-fonts/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -31,7 +31,7 @@ public class FontReplacement {
     public static void main(String[] args) 
     {
        //ExStart:FontReplacement
-     String dataDir = Utils.getDataDir(FontReplacement.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      
      // Load an image in an instance of image and setting default replacement font.
      PsdLoadOptions psdLoadOptions = new PsdLoadOptions(); 

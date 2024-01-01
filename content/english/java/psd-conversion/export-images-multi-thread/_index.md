@@ -21,7 +21,7 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.StreamSource;
 import com.aspose.psd.system.io.FileStream;
@@ -39,7 +39,7 @@ public class ExportImagesinMultiThreadEnv {
     {
         
        //ExStart:ExportImagesinMultiThreadEnv
-       String dataDir = Utils.getDataDir(ExportImagesinMultiThreadEnv.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        String imageDataPath = dataDir + "sample.psd";
         try {

@@ -19,7 +19,7 @@ package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterCachedImage;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.JpegOptions;
 import java.io.FileNotFoundException;
 
@@ -32,7 +32,7 @@ public class GrayScaling {
      public static void main(String[] args) 
     {
        //ExStart:GrayScaling
-       String dataDir = Utils.getDataDir(GrayScaling.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
         String sourceFile = dataDir + "sample.psd";
         String destName = dataDir +"Grayscaling_out.jpg";

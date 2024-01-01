@@ -19,7 +19,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imagefilters.filteroptions.GaussianBlurFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 
@@ -31,7 +31,7 @@ public class BlurAnImage {
     public static void main(String[] args) 
     {
        //ExStart:BlurAnImage
-       String dataDir = Utils.getDataDir(BlurAnImage.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "BlurAnImage_out.gif";

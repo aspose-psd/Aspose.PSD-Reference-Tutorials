@@ -18,7 +18,7 @@ url: /java/basic-image-operations/verify-image-transparency/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 
 /**
@@ -30,7 +30,7 @@ public class VerifyImageTransparency {
     public static void main(String[] args)  
     {
        //ExStart:VerifyImageTransparency
-       String dataDir = Utils.getDataDir(VerifyImageTransparency.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir +"sample.psd";
        String destName = dataDir + "AdjustBrightness_out.tiff";

@@ -19,8 +19,8 @@ package com.aspose.psd.examples.DrawingImages;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
+
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -36,7 +36,7 @@ public class AddGradientEffects
     public static void main(String[] args)
     {
         //ExStart:AddGradientEffects
-        String dataDir = Utils.getDataDir(AddGradientEffects.class) + "DrawingImages/";
+        String dataDir = "Your Document Directory";
 
         // Gradient overlay effect. Example
         String sourceFileName = dataDir + "GradientOverlay.psd";

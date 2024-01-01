@@ -20,7 +20,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 
@@ -32,7 +32,7 @@ public class CombiningImages {
     public static void main(String[] args) 
     {
        //ExStart:CombiningImages
-       String dataDir = Utils.getDataDir(CombiningImages.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        // Create an instance of PsdOptions and set its various properties
        PsdOptions imageOptions = new PsdOptions();

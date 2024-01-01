@@ -18,7 +18,7 @@ url: /java/image-editing/create-image-by-setting-path/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.CompressionMethod;
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
@@ -32,7 +32,7 @@ public class CreatingBySettingPath
     public static void main(String[] args) 
     {
        //ExStart:CreatingBySettingPath
-       String dataDir = Utils.getDataDir(CreatingBySettingPath.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        String desName = dataDir + "CreatingAnImageBySettingPath_out.psd";
        // Creates an instance of PsdOptions and set its various properties
         PsdOptions psdOptions = new PsdOptions();

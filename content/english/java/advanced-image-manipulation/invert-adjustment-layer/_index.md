@@ -14,7 +14,7 @@ url: /java/advanced-image-manipulation/invert-adjustment-layer/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 
 
@@ -23,7 +23,7 @@ public class InvertAdjustmentLayer {
     public static void main(String[] args) 
     {
        //ExStart:InvertAdjustmentLayer
-       String dataDir = Utils.getDataDir(InvertAdjustmentLayer.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String filePath = dataDir + "InvertStripes_before.psd";
        String outputPath = dataDir +  "InvertStripes_after.psd";

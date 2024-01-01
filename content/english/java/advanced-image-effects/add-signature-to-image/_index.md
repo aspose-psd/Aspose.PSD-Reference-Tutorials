@@ -21,7 +21,7 @@ import com.aspose.psd.Graphics;
 import static com.aspose.psd.GraphicsUnit.Point;
 import com.aspose.psd.Image;
 import com.aspose.psd.Point;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.PngOptions;
 
 /**
@@ -32,7 +32,7 @@ public class AddSignatureToImage {
     public static void main(String[] args) 
     {
        //ExStart:AddSignatureToImage
-       String dataDir = Utils.getDataDir(AddSignatureToImage.class) + "DrawingImages/";
+       String dataDir = "Your Document Directory";
        
        // Create an instance of Image and load the primary image
        Image canvas = Image.load(dataDir + "layers.psd");

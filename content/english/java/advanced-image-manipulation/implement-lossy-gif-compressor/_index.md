@@ -18,7 +18,7 @@ url: /java/advanced-image-manipulation/implement-lossy-gif-compressor/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.GifOptions;
 
 /**
@@ -30,7 +30,7 @@ public class ImplementLossyGIFCompressor {
     public static void main(String[] args) throws InterruptedException 
     {
        //ExStart:ImplementLossyGIFCompressor
-     String dataDir = Utils.getDataDir(ImplementLossyGIFCompressor.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
     
       String sourceFile = dataDir + "sample.psd";
       String destName = dataDir + "anim_lossy-200.gif";

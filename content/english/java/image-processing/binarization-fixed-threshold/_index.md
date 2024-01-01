@@ -19,7 +19,7 @@ package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterCachedImage;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.JpegOptions;
 
 /**
@@ -31,7 +31,7 @@ public class BinarizationWithFixedThreshold {
     public static void main(String[] args) 
     {
        //ExStart:BinarizationWithFixedThreshold
-       String dataDir = Utils.getDataDir(BinarizationWithFixedThreshold.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";

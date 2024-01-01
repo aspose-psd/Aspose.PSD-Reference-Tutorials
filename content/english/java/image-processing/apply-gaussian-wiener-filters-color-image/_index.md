@@ -19,7 +19,7 @@ package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imagefilters.filteroptions.GaussWienerFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 
@@ -31,7 +31,7 @@ public class ApplyGausWienerFiltersForColorImage {
     public static void main(String[] args) 
     {
        //ExStart:ApplyGausWienerFiltersForColorImage
-       String dataDir = Utils.getDataDir(ApplyGausWienerFiltersForColorImage.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "gauss_wiener_color_out.gif";
        

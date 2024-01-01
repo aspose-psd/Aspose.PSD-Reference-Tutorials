@@ -18,7 +18,7 @@ url: /java/advanced-techniques/save-images-to-stream/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 
@@ -34,7 +34,7 @@ public class SavingToStream
     public static void main(String[] args) throws FileNotFoundException
     {
        //ExStart:SavingToStream
-       String dataDir = Utils.getDataDir(SavingToStream.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        
 

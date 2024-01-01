@@ -18,7 +18,7 @@ url: /java/advanced-techniques/synchronize-root/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.StreamContainer;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.system.io.MemoryStream;
 
 
@@ -28,7 +28,7 @@ public class SyncRoot {
     public static void main(String[] args)
     {
        //ExStart:SyncRoot
-       String dataDir = Utils.getDataDir(SyncRoot.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
        
         // Create an instance of Stream container class and assign memory stream object.

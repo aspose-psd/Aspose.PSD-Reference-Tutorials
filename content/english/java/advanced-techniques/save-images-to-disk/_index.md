@@ -18,7 +18,7 @@ url: /java/advanced-techniques/save-images-to-disk/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 
@@ -31,7 +31,7 @@ public class SavingToDisk
     public static void main(String[] args)
     {
        //ExStart:SavingToDisk
-       String dataDir = Utils.getDataDir(SavingToDisk.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "result.png";
 

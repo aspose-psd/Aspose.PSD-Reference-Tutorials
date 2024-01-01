@@ -19,7 +19,7 @@ package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.RotateFlipType;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.JpegOptions;
 
 /**
@@ -31,7 +31,7 @@ public class RotatingAnImage
     public static void main(String[] args)  
     {
        //ExStart:RotatingAnImage
-       String dataDir = Utils.getDataDir(RotatingAnImage.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "RotatingAnImage_out.jpg";

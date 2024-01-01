@@ -18,7 +18,7 @@ url: /java/advanced-techniques/loading-images-from-stream/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.system.io.FileMode;
@@ -37,7 +37,7 @@ public class LoadingFromStream {
     public static void main(String[] args) throws FileNotFoundException
     {
        //ExStart:LoadingFromStream
-       String dataDir = Utils.getDataDir(LoadingFromStream.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
         String sourceFile = dataDir + "sample.psd";
         String destName = dataDir + "result.png";

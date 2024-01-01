@@ -19,7 +19,7 @@ package com.aspose.psd.examples.DrawingImages;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -33,7 +33,7 @@ public class AddNewRegularLayerToPSD {
     public static void main(String[] args) 
     {
        //ExStart:AddNewRegularLayerToPSD
-       String dataDir = Utils.getDataDir(AddNewRegularLayerToPSD.class) + "DrawingImages/";
+       String dataDir = "Your Document Directory";
        
       // Make ability to add the newly generated regular layer to PsdImage
         String sourceFileName = dataDir + "OneLayer.psd";

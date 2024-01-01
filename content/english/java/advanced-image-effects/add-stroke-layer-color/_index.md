@@ -19,8 +19,8 @@ package com.aspose.psd.examples.DrawingImages;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
+
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.ColorFillSettings;
@@ -36,7 +36,7 @@ public class AddStrokeLayerColor
     public static void main(String[] args)
     {
         //ExStart:AddStrokeLayerColor
-        String dataDir = Utils.getDataDir(AddStrokeLayerColor.class) + "DrawingImages/";
+        String dataDir = "Your Document Directory";
 
         // Stroke effect. FillType - Color. Example
         String sourceFileName = dataDir + "Stroke.psd";

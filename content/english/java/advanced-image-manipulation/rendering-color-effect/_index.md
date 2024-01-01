@@ -18,7 +18,7 @@ url: /java/advanced-image-manipulation/rendering-color-effect/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.layereffects.ColorOverlayEffect;
@@ -34,7 +34,7 @@ public class RenderingColorEffect {
     public static void main(String[] args) throws InterruptedException 
     {
        //ExStart:RenderingColorEffect
-     String dataDir = Utils.getDataDir(RenderingColorEffect.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      
      
     String sourceFileName = dataDir+"ColorOverlay.psd";

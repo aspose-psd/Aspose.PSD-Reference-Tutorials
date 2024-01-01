@@ -13,7 +13,7 @@ url: /java/advanced-techniques/render-text-different-colors/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
@@ -23,8 +23,8 @@ import com.aspose.psd.imageoptions.PngOptions;
 public class RenderTextWithDifferentColorsInTextLayer {
     public static void main(String[] args) {
         //ExStart:1
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Document Directory";
+        String outputDir = "Your Document Directory";
 
         String targetFilePath = sourceDir + "text_ethalon_different_colors.psd";
         String resultFilePath = outputDir + "RenderTextWithDifferentColorsInTextLayer_out.png";

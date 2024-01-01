@@ -18,7 +18,7 @@ url: /java/psd-conversion/gif-image-layers-to-tiff/
 package com.aspose.psd.examples.Conversion;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
@@ -34,7 +34,7 @@ public class GIFImageLayersToTIFF {
      public static void main(String[] args)
     {
        //ExStart:GIFImageLayersToTIFF
-       String dataDir = Utils.getDataDir(GIFImageLayersToTIFF.class) + "Conversion/";
+       String dataDir = "Your Document Directory";
        
         String sourceFile = dataDir + "sample.psd";
         

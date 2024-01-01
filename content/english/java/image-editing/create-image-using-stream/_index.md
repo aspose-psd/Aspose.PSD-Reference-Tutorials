@@ -18,7 +18,7 @@ url: /java/image-editing/create-image-using-stream/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.BmpOptions;
 import com.aspose.psd.sources.FileCreateSource;
 import com.aspose.psd.sources.StreamSource;
@@ -33,7 +33,7 @@ public class CreatingUsingStream {
     public static void main(String[] args) 
     {
        //ExStart:CreatingUsingStream
-     String dataDir = Utils.getDataDir(CreatingUsingStream.class) + "DrawingAndFormattingImages/";
+     String dataDir = "Your Document Directory";
      String desName = dataDir + "CreatingImageUsingStream_out.bmp";
     // Creates an instance of BmpOptions and set its various properties
     BmpOptions ImageOptions = new BmpOptions();

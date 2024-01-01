@@ -18,7 +18,7 @@ url: /java/basic-image-operations/simple-resizing/
 package com.aspose.psd.examples.DrawingAndFormattingImages;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
+
 import com.aspose.psd.imageoptions.JpegOptions;
 
 /**
@@ -30,7 +30,7 @@ public class SimpleResizing {
     public static void main(String[] args)  
     {
        //ExStart:SimpleResizing
-       String dataDir = Utils.getDataDir(SimpleResizing.class) + "DrawingAndFormattingImages/";
+       String dataDir = "Your Document Directory";
        
        String sourceFile = dataDir + "sample.psd";
        String destName = dataDir + "SimpleResizing_out.jpg";
