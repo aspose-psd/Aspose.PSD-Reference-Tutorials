@@ -2,7 +2,7 @@
 title: PSD Conversion
 linktitle: PSD Conversion
 second_title: Aspose.PSD Java API
-description: Supercharge your Java image processing with Aspose.PSD! Learn to convert CMYK PSD to CMYK TIFF, master color conversion, crop PSD files, and more. Elevate your app's capabilities effortlessly.
+description: Supercharge your Java image processing with Aspose.PSD! Learn to convert CMYK PSD to CMYK TIFF, master color conversion, crop PSD files, and more. 
 type: docs
 weight: 21
 url: /java/psd-conversion/
