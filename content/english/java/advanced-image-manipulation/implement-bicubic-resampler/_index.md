@@ -26,8 +26,6 @@ Before diving into the implementation, ensure that you have the following prereq
 To begin, import the necessary packages into your Java project. This includes the Aspose.PSD library and any other dependencies required for your project.
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.ResizeType;
 

@@ -26,8 +26,6 @@ Now, let's proceed to the exciting part!
 Start by importing the necessary packages into your Java project. This step ensures that you have access to the Aspose.PSD functionalities in your code.
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.Image;
 
 import com.aspose.psd.fileformats.png.PngColorType;

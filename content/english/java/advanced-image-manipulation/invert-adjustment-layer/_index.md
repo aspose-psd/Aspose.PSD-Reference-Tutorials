@@ -26,8 +26,6 @@ Now, let's get started with the implementation.
 Begin by importing the necessary packages in your Java application. These packages are essential for working with Aspose.PSD functionalities.
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 
 import com.aspose.psd.fileformats.psd.PsdImage;

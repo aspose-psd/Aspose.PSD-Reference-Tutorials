@@ -23,8 +23,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 Start by importing the necessary packages into your Java project. This step ensures that you have access to the Aspose.PSD functionalities in your code. Add the following lines at the beginning of your Java file:
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterCachedImage;
 

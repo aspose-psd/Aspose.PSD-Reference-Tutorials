@@ -29,8 +29,6 @@ Prepare a sample image (e.g., "sample.psd") that you want to rotate. Place it in
 Now, let's import the necessary packages to get started with the image rotation process:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;

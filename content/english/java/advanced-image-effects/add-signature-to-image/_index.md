@@ -104,7 +104,7 @@ A5: Yes, you can get a [free trial](https://releases.aspose.com/) to explore the
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.DrawingImages;
+
 
 import com.aspose.psd.Graphics;
 import static com.aspose.psd.GraphicsUnit.Point;

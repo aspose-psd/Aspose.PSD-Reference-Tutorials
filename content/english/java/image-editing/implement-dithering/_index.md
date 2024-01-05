@@ -24,8 +24,6 @@ Before diving into the implementation, ensure you have the following:
 In your Java project, import the necessary Aspose.PSD packages:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.DitheringMethod;
 import com.aspose.psd.Image;
 

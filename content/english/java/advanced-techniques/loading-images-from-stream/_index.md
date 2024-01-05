@@ -23,8 +23,6 @@ Before diving into the tutorial, make sure you have the following prerequisites:
 To get started, import the necessary packages into your Java project. These packages include:
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.Image;
 
 import com.aspose.psd.fileformats.psd.PsdImage;

@@ -28,8 +28,6 @@ Now that you have everything set up, let's proceed to import the required packag
 In your Java project, import the necessary Aspose.PSD packages to kickstart the image processing magic:
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 

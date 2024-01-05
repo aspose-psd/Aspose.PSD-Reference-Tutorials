@@ -26,8 +26,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 Start by importing the necessary packages to leverage the capabilities of Aspose.PSD:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RotateFlipType;
 

@@ -23,8 +23,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 To get started, import the necessary packages into your Java project. These packages are essential for working with Aspose.PSD functionalities. Include the following lines at the beginning of your Java file:
 
 ```java
-package com.aspose.psd.examples.DrawingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 

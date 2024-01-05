@@ -23,8 +23,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 To get started, import the necessary packages into your Java project. Include the following code at the beginning of your Java file:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Pen;

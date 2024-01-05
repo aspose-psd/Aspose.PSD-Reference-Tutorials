@@ -23,8 +23,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 Ensure that you've imported the necessary packages to leverage Aspose.PSD functionalities in your Java application. Use the following code snippet as a guide:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 

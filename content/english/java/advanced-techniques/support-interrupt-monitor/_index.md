@@ -24,8 +24,6 @@ Before diving into the intricacies of Interrupt Monitor usage, ensure you have t
 Start by importing the necessary packages into your Java project. This ensures that you have access to the Aspose.PSD functionalities.
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.ImageOptionsBase;
 
 import static com.aspose.psd.examples.Utils.Utils.getDateTime;

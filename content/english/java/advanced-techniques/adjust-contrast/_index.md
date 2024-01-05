@@ -23,8 +23,6 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 To get started, you need to import the necessary packages into your Java project. Add the following lines to your code:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 
