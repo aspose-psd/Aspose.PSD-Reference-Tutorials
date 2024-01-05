@@ -52,7 +52,7 @@ Laden Sie das PSD-Bild, geben Sie den Schwellenwert an, wenden Sie den Bradley-S
 // Laden Sie ein Bild
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Schwellenwert definieren
+    //Schwellenwert definieren
     double threshold = 0.15;
 
     // Rufen Sie die BinarizeBradley-Methode auf und übergeben Sie den Schwellenwert als Parameter

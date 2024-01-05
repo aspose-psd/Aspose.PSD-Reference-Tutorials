@@ -15,7 +15,7 @@ url: /ar/net/layer-effects/adding-stroke-effects/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Aspose.PSD لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف .NET[موقع إلكتروني](https://releases.aspose.com/psd/net/).
+- Aspose.PSD لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف .NET[موقع إلكتروني](https://releases.aspose.com/psd/net/).
 
 - دليل المستندات: قم بإعداد دليل يحتوي على مستند PSD الذي تريد تطبيق تأثيرات الحدود عليه.
 

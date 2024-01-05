@@ -17,7 +17,7 @@ Sblocca il potenziale delle tue immagini padroneggiando l'effetto di sovrapposiz
 
 Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
--  Libreria Aspose.PSD: scarica e installa la libreria Aspose.PSD dal file[sito web](https://releases.aspose.com/psd/net/).
+- Libreria Aspose.PSD: scarica e installa la libreria Aspose.PSD dal file[sito web](https://releases.aspose.com/psd/net/).
 
 - Directory dei documenti: imposta una directory per i tuoi documenti in cui puoi archiviare i file di origine e di output.
 

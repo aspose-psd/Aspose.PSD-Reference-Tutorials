@@ -26,7 +26,7 @@ Sind Sie bereit, Ihre Zeichenfähigkeiten mit Aspose.PSD für .NET auf die näch
 
 ## Elliptische Formen mit Aspose.PSD für .NET erstellen
 
- Lernen Sie die Kunst des Zeichnens elliptischer Formen in .NET-Anwendungen mit Aspose.PSD. Unsere Schritt-für-Schritt-Anleitung mit Codebeispielen stellt sicher, dass Sie mühelos atemberaubende Grafiken erstellen können. Beginnen Sie noch heute![Tutorial zu elliptischen Formen](./creating-elliptical-shapes/)
+ Lernen Sie die Kunst des Zeichnens elliptischer Formen in .NET-Anwendungen mit Aspose.PSD. Unsere Schritt-für-Schritt-Anleitung mit Codebeispielen stellt sicher, dass Sie mühelos beeindruckende Grafiken erstellen können. Beginnen Sie noch heute![Tutorial zu elliptischen Formen](./creating-elliptical-shapes/)
 
 ## Effektives Zeichnen von Linien in Aspose.PSD für .NET
 

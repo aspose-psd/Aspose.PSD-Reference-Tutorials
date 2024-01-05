@@ -9,13 +9,13 @@ url: /zh/net/image-processing/apply-gaussian-wiener-filters/
 ---
 ## 介绍
 
-在使用 .NET 进行图像处理的领域中，Aspose.PSD 作为一个功能强大的工具包脱颖而出，使开发人员能够轻松操作图像。一项特别有用的功能是高斯和维纳滤波器的应用。这些滤镜在提高图像质量、减少噪音和确保最佳视觉吸引力方面发挥着至关重要的作用。
+在使用 .NET 进行图像处理的领域中，Aspose.PSD 作为功能强大的工具包脱颖而出，使开发人员能够轻松操作图像。一项特别有用的功能是高斯和维纳滤波器的应用。这些滤镜在提高图像质量、减少噪音和确保最佳视觉吸引力方面发挥着至关重要的作用。
 
 ## 先决条件
 
 在深入研究高斯和维纳滤波器与 Aspose.PSD 的应用之前，请确保您具备以下先决条件：
 
-1.  Aspose.PSD for .NET：从以下位置下载并安装该库[Aspose.PSD for .NET 文档](https://reference.aspose.com/psd/net/).
+1. Aspose.PSD for .NET：从以下位置下载并安装该库[Aspose.PSD for .NET 文档](https://reference.aspose.com/psd/net/).
 
 2. 示例图像：准备 PSD 格式的示例图像以进行实验。您可以在 Aspose.PSD 文档中找到示例图像。
 
@@ -59,7 +59,7 @@ if (rasterImage == null)
 }
 ```
 
-## 步骤 3：创建高斯和维纳滤波器选项
+## 第 3 步：创建高斯和维纳滤波器选项
 
 创建一个实例`GaussWienerFilterOptions`类，指定半径大小和平滑值：
 

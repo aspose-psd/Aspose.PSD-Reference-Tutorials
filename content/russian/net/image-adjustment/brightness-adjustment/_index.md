@@ -17,7 +17,7 @@ url: /ru/net/image-adjustment/brightness-adjustment/
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
 
--  Библиотека Aspose.PSD для .NET: загрузите и установите библиотеку Aspose.PSD для .NET с сайта[ссылка для скачивания](https://releases.aspose.com/psd/net/).
+-  Библиотека Aspose.PSD для .NET: Загрузите и установите библиотеку Aspose.PSD для .NET с сайта[ссылка для скачивания](https://releases.aspose.com/psd/net/).
 
 -  Каталог документов: создайте каталог для хранения файлов PSD и обновите`dataDir` переменная в предоставленном фрагменте кода с путем к каталогу вашего документа.
 
@@ -40,7 +40,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 string sourceFile = dataDir + @"sample.psd";
 
-//Загрузите PSD-файл с помощью Aspose.PSD.
+// Загрузите PSD-файл с помощью Aspose.PSD.
 using (var image = (PsdImage)Image.Load(sourceFile))
 {
     // Ваш код для дальнейших действий находится здесь

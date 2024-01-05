@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin ol
 
 - .NET geliştirmeyle ilgili temel bilgiler.
 - Makinenizde Visual Studio yüklü.
--  .NET kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/psd/net/).
+- .NET kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/psd/net/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -129,4 +129,4 @@ A2: Kesinlikle! Aspose.PSD for .NET ticari bir üründür, lisans satın alarak 
 
 ### S5: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
- A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34)yardım istemek ve toplulukla bağlantı kurmak.
+ A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) yardım istemek ve toplulukla bağlantı kurmak.

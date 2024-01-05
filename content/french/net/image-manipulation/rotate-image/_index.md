@@ -63,7 +63,7 @@ Dans ce didacticiel, nous avons exploré les bases de la rotation d'images à l'
 
 ### Q1 : Puis-je faire pivoter les images selon un angle personnalisé à l’aide d’Aspose.PSD ?
 
-Oui, Aspose.PSD vous permet de spécifier un angle de rotation personnalisé. Remplacez simplement le`RotateFlipType.Rotate270FlipNone` alignez-vous avec l’angle de rotation souhaité.
+ Oui, Aspose.PSD vous permet de spécifier un angle de rotation personnalisé. Remplacez simplement le`RotateFlipType.Rotate270FlipNone` alignez-vous avec l’angle de rotation souhaité.
 
 ### Q2 : Aspose.PSD est-il compatible avec différents formats d’image ?
 

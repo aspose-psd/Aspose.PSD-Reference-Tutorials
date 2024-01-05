@@ -38,7 +38,7 @@ using Aspose.PSD.ImageOptions;
 // المسار إلى دليل المستندات.
 string dataDir = "Your Document Directory";
 
-//تحميل الصورة الصاخبة
+// تحميل الصورة الصاخبة
 string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + @"median_test_denoise_out.gif";
 
@@ -86,7 +86,7 @@ image.Save(destName, new GifOptions());
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
-ج3: نعم، يمكنك استكشاف ميزات Aspose.PSD عن طريق الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف ميزات Aspose.PSD عن طريق الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني العثور على الدعم المجتمعي لـ Aspose.PSD؟
 

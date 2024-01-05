@@ -15,7 +15,7 @@ Aspose.PSD för .NET tillhandahåller en robust uppsättning funktioner för bil
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
--  Aspose.PSD för .NET: Ladda ner och installera biblioteket från[här](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET: Ladda ner och installera biblioteket från[här](https://releases.aspose.com/psd/net/).
 - Din dokumentkatalog: Skapa en katalog för att lagra dina käll- och utdatafiler.
 
 ## Importera namnområden
@@ -85,7 +85,7 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika .NET-ramverk, inklusive .N
 
 ### F2: Var kan jag hitta omfattande dokumentation för Aspose.PSD för .NET?
 
- S2: Du kan hänvisa till dokumentationen[här](https://reference.aspose.com/psd/net/) för detaljerad information och kodexempel.
+ S2: Du kan hänvisa till dokumentationen[här](https://reference.aspose.com/psd/net/)för detaljerad information och kodexempel.
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 

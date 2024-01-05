@@ -38,7 +38,7 @@ Ladda först den brusiga bilden från källfilen. Se till att du ersätter "Din 
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
 
-//Ladda den brusiga bilden
+// Ladda den brusiga bilden
 string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + @"median_test_denoise_out.gif";
 
@@ -86,7 +86,7 @@ S2: Du kan implementera try-catch-block för att hantera undantag som kan uppst�
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
-S3: Ja, du kan utforska funktionerna i Aspose.PSD genom att få en gratis provperiod från[här](https://releases.aspose.com/).
+ S3: Ja, du kan utforska funktionerna i Aspose.PSD genom att få en gratis provperiod från[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta communitysupport för Aspose.PSD?
 

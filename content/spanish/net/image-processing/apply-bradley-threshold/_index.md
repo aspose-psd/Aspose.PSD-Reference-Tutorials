@@ -52,7 +52,7 @@ Cargue la imagen PSD, especifique el valor de umbral, aplique el umbral de Bradl
 // Cargar una imagen
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Definir valor umbral
+    //Definir valor umbral
     double threshold = 0.15;
 
     // Llame al método BinarizeBradley y pase el valor umbral como parámetro

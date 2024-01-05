@@ -17,7 +17,7 @@ Libérez le potentiel de vos images en maîtrisant l’effet de superposition de
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
--  Bibliothèque Aspose.PSD : téléchargez et installez la bibliothèque Aspose.PSD à partir du[site web](https://releases.aspose.com/psd/net/).
+- Bibliothèque Aspose.PSD : téléchargez et installez la bibliothèque Aspose.PSD à partir du[site web](https://releases.aspose.com/psd/net/).
 
 - Répertoire de documents : configurez un répertoire pour vos documents dans lequel vous pouvez stocker vos fichiers source et de sortie.
 

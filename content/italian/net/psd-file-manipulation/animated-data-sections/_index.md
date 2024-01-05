@@ -12,7 +12,7 @@ Benvenuti nella nostra guida completa sulla gestione delle sezioni di dati anima
 ## Prerequisiti
 Prima di immergerci nel tutorial, assicurati di avere i seguenti prerequisiti:
 - Conoscenza base di programmazione C# e .NET.
--  Aspose.PSD per .NET installato. Se non lo hai ancora installato, puoi scaricarlo da[Qui](https://releases.aspose.com/psd/net/).
+- Aspose.PSD per .NET installato. Se non lo hai ancora installato, puoi scaricarlo da[Qui](https://releases.aspose.com/psd/net/).
 - Un editor di codice come Visual Studio per un'implementazione senza soluzione di continuità.
 ## Importa spazi dei nomi
 Nel tuo codice C#, assicurati di importare gli spazi dei nomi necessari per lavorare con Aspose.PSD:

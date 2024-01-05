@@ -15,7 +15,7 @@ Bienvenido al mundo de Aspose.PSD para .NET, una poderosa biblioteca que permite
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Aspose.PSD para la biblioteca .NET: asegúrese de tener la biblioteca instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD para la biblioteca .NET: asegúrese de tener la biblioteca instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/psd/net/).
 
 -  Directorios de documentos y resultados: configure directorios para su documento PSD y el resultado deseado. Modificar el`baseFolder` y`outputFolder` variables del ejemplo en consecuencia.
 

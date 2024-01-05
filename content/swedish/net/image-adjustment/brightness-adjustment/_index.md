@@ -23,7 +23,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att komma åt Aspose.PSD-funktionaliteten. Lägg till följande namnrymder i din kod:
+ditt .NET-projekt, inkludera de nödvändiga namnområdena för att komma åt Aspose.PSD-funktionaliteten. Lägg till följande namnrymder i din kod:
 
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
@@ -40,7 +40,7 @@ Låt oss nu dela upp exemplet i flera steg:
 string dataDir = "Your Document Directory";
 string sourceFile = dataDir + @"sample.psd";
 
-//Ladda PSD-filen med Aspose.PSD
+// Ladda PSD-filen med Aspose.PSD
 using (var image = (PsdImage)Image.Load(sourceFile))
 {
     // Din kod för ytterligare steg finns här

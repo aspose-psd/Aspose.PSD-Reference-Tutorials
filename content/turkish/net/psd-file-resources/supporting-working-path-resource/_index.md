@@ -8,7 +8,7 @@ weight: 12
 url: /tr/net/psd-file-resources/supporting-working-path-resource/
 ---
 ## giriiş
-Görüntü işlemeyle çalışan bir .NET geliştiricisiyseniz Aspose.PSD for .NET sizin için çözümdür. Bu eğitimde Aspose.PSD'deki 'WorkingPathResource' kaynağının gücünden yararlanmaya derinlemesine bakacağız. Bu önemli özellik, Kırpma işleminin hassasiyetini artırarak görsellerinizin tam olarak gerektiği gibi uyarlanmasını sağlar.
+Görüntü işlemeyle çalışan bir .NET geliştiricisiyseniz Aspose.PSD for .NET sizin için çözümdür. Bu eğitimde Aspose.PSD'deki 'WorkingPathResource' kaynağının gücünden yararlanmaya derinlemesine bakacağız. Bu çok önemli özellik, Kırpma işleminin hassasiyetini artırarak görsellerinizin tam olarak gerektiği gibi uyarlanmasını sağlar.
 ## Önkoşullar
 Bu yolculuğa çıkmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - C# ve .NET geliştirme konusunda temel bilgiler.
@@ -41,7 +41,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
     WorkingPathResource workingPathResource = null;
     // ... (WorkingPathResource'u kontrol etmeye devam edin)
     
-    // Kırpın ve kaydedin.
+    //Kırpın ve kaydedin.
     psdImage.Crop(0, 500, 0, 200);
     psdImage.Save(outputFile);
 }

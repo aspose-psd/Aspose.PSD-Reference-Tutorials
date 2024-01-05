@@ -63,7 +63,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### س1: هل يمكنني تدوير الصور بزاوية مخصصة باستخدام Aspose.PSD؟
 
-نعم، يتيح لك Aspose.PSD تحديد زاوية مخصصة للتدوير. ببساطة استبدل`RotateFlipType.Rotate270FlipNone` يتماشى مع زاوية الدوران المطلوبة.
+ نعم، يتيح لك Aspose.PSD تحديد زاوية مخصصة للتدوير. ببساطة استبدل`RotateFlipType.Rotate270FlipNone` يتماشى مع زاوية الدوران المطلوبة.
 
 ### س2: هل Aspose.PSD متوافق مع تنسيقات الصور المختلفة؟
 

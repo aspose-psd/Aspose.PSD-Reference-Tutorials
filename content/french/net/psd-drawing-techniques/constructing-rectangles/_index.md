@@ -9,7 +9,7 @@ url: /fr/net/psd-drawing-techniques/constructing-rectangles/
 ---
 ## Introduction
 
-Dans le domaine dynamique du développement .NET, Aspose.PSD se distingue comme un outil puissant pour gérer la manipulation d'images. Ce didacticiel se concentre sur une tâche fondamentale : la construction de rectangles à l'aide d'Aspose.PSD pour .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce guide étape par étape vous guidera tout au long du processus, en vous assurant de bien comprendre chaque concept.
+Dans le domaine dynamique du développement .NET, Aspose.PSD se distingue comme un outil puissant pour gérer la manipulation d'images. Ce didacticiel se concentre sur une tâche fondamentale : la construction de rectangles à l'aide d'Aspose.PSD pour .NET. Que vous soyez un développeur chevronné ou débutant, ce guide étape par étape vous guidera tout au long du processus, en vous assurant de bien comprendre chaque concept.
 
 ## Conditions préalables
 
@@ -81,7 +81,7 @@ A1 : Oui, Aspose.PSD est conçu pour fonctionner avec divers environnements .N
 
 ### Q2 : Puis-je utiliser Aspose.PSD pour des projets commerciaux sans licence ?
 
-R2 : Non, une licence valide est requise pour une utilisation commerciale. Obtenez votre permis[ici](https://purchase.aspose.com/buy).
+ R2 : Non, une licence valide est requise pour une utilisation commerciale. Obtenez votre permis[ici](https://purchase.aspose.com/buy).
 
 ### Q3 : Comment puis-je demander de l'aide ou partager mes expériences avec Aspose.PSD ?
 

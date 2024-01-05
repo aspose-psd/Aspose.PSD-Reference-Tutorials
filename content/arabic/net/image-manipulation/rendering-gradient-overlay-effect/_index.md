@@ -17,7 +17,7 @@ url: /ar/net/image-manipulation/rendering-gradient-overlay-effect/
 
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
--  مكتبة Aspose.PSD: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف[موقع إلكتروني](https://releases.aspose.com/psd/net/).
+- مكتبة Aspose.PSD: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف[موقع إلكتروني](https://releases.aspose.com/psd/net/).
 
 - دليل المستندات: قم بإعداد دليل لمستنداتك حيث يمكنك تخزين ملفات المصدر والإخراج.
 

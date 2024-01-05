@@ -70,7 +70,7 @@ Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 
 ## الأسئلة الشائعة
 
-### س1: هل يمكنني استخدام Aspose.PSD لـ .NET مع أطر عمل .NET الأخرى؟
+### س1: هل يمكنني استخدام Aspose.PSD لـ .NET مع أطر عمل .NET أخرى؟
 
 A1: نعم، Aspose.PSD لـ .NET متوافق مع أطر عمل .NET المختلفة.
 

@@ -11,7 +11,7 @@ url: /tr/net/psd-file-manipulation/mlst-resources/
 Aspose.PSD for .NET'te MLST (Çok Katmanlı Durumlar) Kaynaklarının işlenmesine ilişkin ayrıntılı eğitime hoş geldiniz. Aspose.PSD for .NET, Photoshop dosyalarıyla çalışmak için kapsamlı yetenekler sağlayan güçlü bir kitaplıktır. Bu öğreticide, katman durumlarını verimli bir şekilde yönetmek için düşük düzeyli bir mekanizma sunan MLST Kaynaklarının desteğine odaklanacağız.
 ## Önkoşullar
 Eğiticiye geçmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-- Aspose.PSD for .NET Library: Kütüphanenin kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Aspose.PSD for .NET indirme sayfası](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET Library: Kütüphanenin kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Aspose.PSD for .NET indirme sayfası](https://releases.aspose.com/psd/net/).
 - Belge ve Çıktı Dizinleri: Belge dizininizi ayarlayın (`baseDir`) ve çıktı dizini (`outputDir`) sağlanan kodda.
 ## Ad Alanlarını İçe Aktar
 .NET projenize Aspose.PSD ile çalışmak için gerekli ad alanlarını ekleyin:
@@ -67,7 +67,7 @@ Tebrikler! Aspose.PSD for .NET'te MLST Kaynaklarını nasıl kullanacağınızı
 
 ## SSS'ler
 
-### S1: Aspose.PSD for .NET'i farklı Photoshop sürümlerinde oluşturulan PSD dosyalarıyla çalışmak için kullanabilir miyim?
+### S1: Aspose.PSD for .NET'i farklı Photoshop sürümlerinde oluşturulmuş PSD dosyalarıyla çalışmak için kullanabilir miyim?
 
 Cevap1: Evet, Aspose.PSD for .NET, çeşitli Photoshop sürümlerinde oluşturulan PSD dosyalarını destekler.
 
@@ -77,7 +77,7 @@ Cevap1: Evet, Aspose.PSD for .NET, çeşitli Photoshop sürümlerinde oluşturul
 
 ### S3: Aspose.PSD for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 
- A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
+A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 

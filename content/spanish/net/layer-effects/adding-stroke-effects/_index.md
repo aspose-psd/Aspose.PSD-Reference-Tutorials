@@ -15,7 +15,7 @@ Bienvenido a este tutorial paso a paso sobre cómo agregar efectos de trazo a ca
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
--  Aspose.PSD para .NET: descargue e instale la biblioteca Aspose.PSD desde[sitio web](https://releases.aspose.com/psd/net/).
+- Aspose.PSD para .NET: descargue e instale la biblioteca Aspose.PSD desde[sitio web](https://releases.aspose.com/psd/net/).
 
 - Directorio de documentos: prepare un directorio que contenga el documento PSD al que desea aplicar efectos de trazo.
 

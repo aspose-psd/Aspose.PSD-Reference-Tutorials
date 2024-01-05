@@ -15,7 +15,7 @@ Aspose.PSD for .NET هي مكتبة قوية تمكن المطورين من ال
 قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 1.  Aspose.PSD لـ .NET Library: قم بتنزيل المكتبة وتثبيتها من ملف .NET Library[موقع Aspose.PSD](https://releases.aspose.com/psd/net/).
 2. بيئة التطوير: تأكد من أن لديك بيئة تطوير .NET عاملة، بما في ذلك Visual Studio.
-3.  نموذج ملف AI: قم بتنزيل نموذج ملف AI، "form_8_2l3_7.ai،" من[هذا الرابط](Your-Download-Link).
+3. نموذج ملف AI: قم بتنزيل نموذج ملف AI، "form_8_2l3_7.ai،" من[هذا الرابط](Your-Download-Link).
 ## استيراد مساحات الأسماء
 للبدء، قم باستيراد مساحات الأسماء الضرورية في مشروع .NET الخاص بك:
 ```csharp
@@ -62,7 +62,7 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 كرر هذه الخطوات للطبقات الأخرى حسب الحاجة.
 ## خاتمة
 
- تهانينا! لقد تعلمت بنجاح كيفية العمل مع الطبقات الداعمة بتنسيق AI باستخدام Aspose.PSD لـ .NET. استكشف الميزات والوثائق الشاملة للمكتبة[هنا](https://reference.aspose.com/psd/net/).
+تهانينا! لقد تعلمت بنجاح كيفية العمل مع الطبقات الداعمة بتنسيق AI باستخدام Aspose.PSD لـ .NET. استكشف الميزات والوثائق الشاملة للمكتبة[هنا](https://reference.aspose.com/psd/net/).
 
 ## الأسئلة الشائعة
 

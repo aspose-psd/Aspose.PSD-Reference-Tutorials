@@ -50,7 +50,7 @@ Maîtrisez Aspose.PSD pour les principales fonctionnalités de dessin de .NET av
 ### [Dessiner des arcs avec Aspose.PSD pour .NET](./drawing-arcs/)
 Explorez la puissance d'Aspose.PSD pour .NET pour dessiner des arcs sans effort. Suivez notre didacticiel étape par étape pour obtenir des graphismes époustouflants dans vos applications.
 ### [Utilisation des courbes de Bézier dans Aspose.PSD pour .NET](./utilizing-bezier-curves/)
-Libérez la puissance des courbes de Bézier dans Aspose.PSD pour .NET ! Apprenez étape par étape avec ce tutoriel. Élevez votre jeu de conception graphique dès aujourd’hui.
+Libérez la puissance des courbes de Bézier dans Aspose.PSD pour .NET ! Apprenez étape par étape avec ce tutoriel. Élevez votre jeu de conception graphique dès aujourd'hui.
 ### [Création de formes elliptiques avec Aspose.PSD pour .NET](./creating-elliptical-shapes/)
 Apprenez à dessiner des formes elliptiques dans .NET à l'aide d'Aspose.PSD. Guide étape par étape avec des exemples de code. Créez des graphismes époustouflants sans effort.
 ### [Tracer des lignes efficacement dans Aspose.PSD pour .NET](./drawing-lines-effectively/)

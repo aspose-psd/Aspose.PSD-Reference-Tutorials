@@ -2,7 +2,7 @@
 title: Lägga till strokeeffekter till lager i Aspose.PSD för .NET
 linktitle: Lägga till streckeffekter till lager
 second_title: Aspose.PSD .NET API
-description: Förbättra bildens estetik med Aspose.PSD för .NET. Lär dig lägga till slageffekter steg för steg. Ladda ner, köp eller prova den kostnadsfria testversionen nu.
+description: Förbättra bildens estetik med Aspose.PSD för .NET. Lär dig att lägga till slageffekter steg för steg. Ladda ner, köp eller prova den kostnadsfria testversionen nu.
 type: docs
 weight: 10
 url: /sv/net/layer-effects/adding-stroke-effects/
@@ -15,7 +15,7 @@ Välkommen till denna steg-för-steg handledning om att lägga till streckeffekt
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
--  Aspose.PSD för .NET: Ladda ner och installera Aspose.PSD-biblioteket från[hemsida](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET: Ladda ner och installera Aspose.PSD-biblioteket från[hemsida](https://releases.aspose.com/psd/net/).
 
 - Dokumentkatalog: Förbered en katalog som innehåller det PSD-dokument som du vill använda streckeffekter på.
 
@@ -25,7 +25,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-ditt .NET-projekt, inkludera de nödvändiga namnområdena för att utnyttja Aspose.PSD-funktionaliteten:
+I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att utnyttja Aspose.PSD-funktionaliteten:
 
 ```csharp
 using System;
@@ -74,7 +74,7 @@ colorFillSettings.Color = Color.Green;
 ## Steg 4: Mittposition
 
 ```csharp
-// Lägger till färgfyllning, vid position Center
+// Lägger till färgfyllning vid position Center
 strokeEffect = psdImage.Layers[3].BlendingOptions.AddStroke(FillType.Color);
 strokeEffect.Size = 7;
 strokeEffect.Position = StrokePosition.Center;
@@ -98,7 +98,7 @@ S1: Ja, du kan rikta in dig på specifika lager genom att justera lagerindexet i
 
 A2: Absolut! Aspose.PSD är designad för att sömlöst integreras med de senaste .NET-ramverken.
 
-### F3: Hur kan jag anpassa streckfärgen?
+### F3: Hur kan jag anpassa linjefärgen?
 
  A3: Ändra helt enkelt`Color` egenskapen i koden för att uppnå önskad linjefärg.
 

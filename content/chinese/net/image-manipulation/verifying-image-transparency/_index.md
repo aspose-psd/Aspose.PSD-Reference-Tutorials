@@ -90,4 +90,4 @@ A1：是的，Aspose.PSD 与最新的.NET 框架兼容。
 
 ### Q5：我可以在购买前免费试用Aspose.PSD吗？
 
- A5：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+A5：是的，您可以探索免费试用[这里](https://releases.aspose.com/).

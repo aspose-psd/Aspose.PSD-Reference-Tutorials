@@ -52,7 +52,7 @@ PSD görüntüsünü yükleyin, eşik değerini belirtin, Bradley Eşiğini uygu
 // Bir resim yükle
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Eşik değerini tanımlayın
+    //Eşik değerini tanımlayın
     double threshold = 0.15;
 
     // BinarizeBradley yöntemini çağırın ve eşik değerini parametre olarak iletin

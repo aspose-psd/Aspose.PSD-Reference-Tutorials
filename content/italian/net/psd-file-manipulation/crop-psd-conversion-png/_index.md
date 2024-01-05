@@ -38,7 +38,7 @@ Rectangle cropRectangle = new Rectangle(0, 0, 350, 450);
 ```
 ## Passaggio 3: ritaglia l'immagine
 ```csharp
-//Chiama il metodo crop della classe Image e passa l'istanza della classe rettangolo
+// Chiama il metodo crop della classe Image e passa l'istanza della classe rettangolo
 image.Crop(cropRectangle);
 ```
 ## Passaggio 4: specificare le opzioni PNG

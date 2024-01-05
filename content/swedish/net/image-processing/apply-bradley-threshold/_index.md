@@ -52,7 +52,7 @@ Ladda PSD-bilden, ange tröskelvärdet, använd Bradley-tröskeln och spara utda
 // Ladda en bild
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Definiera tröskelvärde
+    //Definiera tröskelvärde
     double threshold = 0.15;
 
     // Anrop BinarizeBradley-metoden och skicka tröskelvärdet som en parameter

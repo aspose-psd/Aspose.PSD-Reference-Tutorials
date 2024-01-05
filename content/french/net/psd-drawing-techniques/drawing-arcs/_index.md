@@ -15,7 +15,7 @@ Bienvenue dans notre didacticiel complet sur le dessin d'arcs à l'aide d'Aspose
 
 Avant de plonger dans le monde passionnant du dessin d’arcs, assurez-vous d’avoir les conditions préalables suivantes en place :
 
--  Aspose.PSD pour la bibliothèque .NET : téléchargez et installez la bibliothèque Aspose.PSD à partir du[lien de téléchargement](https://releases.aspose.com/psd/net/).
+- Aspose.PSD pour la bibliothèque .NET : téléchargez et installez la bibliothèque Aspose.PSD à partir du[lien de téléchargement](https://releases.aspose.com/psd/net/).
 
 -  Répertoire de documents : créez un répertoire pour stocker vos documents et remplacez-le`"Your Document Directory"` dans le code fourni avec le chemin réel.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Actual Document Directory";
 
 ## Étape 2 : dessiner un arc
 
- Créer une instance de`BmpOptions`et définir ses propriétés, y compris`BitsPerPixel`.
+ Créer une instance de`BmpOptions` et définir ses propriétés, y compris`BitsPerPixel`.
 
 ```csharp
 BmpOptions saveOptions = new BmpOptions();

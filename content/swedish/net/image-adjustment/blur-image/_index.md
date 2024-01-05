@@ -47,7 +47,7 @@ string sourceFile = dataDir + @"sample.psd";
 // Ladda en befintlig bild i en instans av RasterImage-klassen
 using (var image = Image.Load(sourceFile))
 {
-    //Fortsätt till nästa steg inom detta block
+    // Fortsätt till nästa steg inom detta block
 }
 ```
 
@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Steg 4: Använd Gaussian Blur Filter
+## Steg 4: Applicera Gaussian Blur Filter
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));

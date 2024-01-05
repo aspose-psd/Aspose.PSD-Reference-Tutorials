@@ -17,7 +17,7 @@ Bevor wir in den schrittweisen Prozess eintauchen, stellen Sie sicher, dass die 
 
 1.  Aspose.PSD für .NET-Bibliothek: Laden Sie die Aspose.PSD für .NET-Bibliothek herunter und installieren Sie sie. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/psd/net/).
 
-2. Dokumentverzeichnis: Richten Sie ein Verzeichnis ein, in dem Ihre Quell- und Zieldateien gespeichert werden. Ersetzen Sie „Ihr Dokumentverzeichnis“ im bereitgestellten Code durch den Pfad zu diesem Verzeichnis.
+2. Dokumentverzeichnis: Richten Sie ein Verzeichnis ein, in dem Ihre Quell- und Zieldateien gespeichert werden. Ersetzen Sie „Ihr Dokumentenverzeichnis“ im bereitgestellten Code durch den Pfad zu diesem Verzeichnis.
 
 Nachdem wir nun alle Voraussetzungen erfüllt haben, fahren wir mit der Implementierung fort.
 

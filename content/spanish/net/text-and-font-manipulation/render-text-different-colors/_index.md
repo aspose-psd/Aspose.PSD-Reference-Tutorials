@@ -67,7 +67,7 @@ R1: Sí, Aspose.PSD para .NET está diseñado para funcionar perfectamente con c
 
 ### P3: ¿Dónde puedo encontrar documentación para Aspose.PSD para .NET?
 
- A3: La documentación detallada está disponible[aquí](https://reference.aspose.com/psd/net/)para ayudarle a comprender e implementar varias características de Aspose.PSD para .NET.
+ A3: La documentación detallada está disponible[aquí](https://reference.aspose.com/psd/net/) para ayudarle a comprender e implementar varias funciones de Aspose.PSD para .NET.
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 

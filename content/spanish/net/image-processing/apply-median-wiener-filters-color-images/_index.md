@@ -38,7 +38,7 @@ Primero, cargue la imagen ruidosa desde el archivo fuente. Asegúrese de reempla
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
 
-//Cargar la imagen ruidosa
+// Cargar la imagen ruidosa
 string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + @"median_test_denoise_out.gif";
 
@@ -86,7 +86,7 @@ R2: Puede implementar bloques try-catch para manejar las excepciones que pueden 
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
-R3: Sí, puede explorar las funciones de Aspose.PSD obteniendo una prueba gratuita de[aquí](https://releases.aspose.com/).
+ R3: Sí, puede explorar las funciones de Aspose.PSD obteniendo una prueba gratuita de[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo encontrar soporte comunitario para Aspose.PSD?
 

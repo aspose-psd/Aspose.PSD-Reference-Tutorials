@@ -41,7 +41,7 @@ Laden Sie das Beispielbild mit dem folgenden Code:
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 string sourceFile = dataDir + @"example1.psd";
 
-//Laden Sie das Bild
+// Laden Sie das Bild
 using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 {
     // Zusätzlicher Code für die Bildverarbeitung wird hier eingefügt

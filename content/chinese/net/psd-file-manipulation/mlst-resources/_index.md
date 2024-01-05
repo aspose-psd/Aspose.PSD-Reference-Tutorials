@@ -11,7 +11,7 @@ url: /zh/net/psd-file-manipulation/mlst-resources/
 欢迎来到有关在 Aspose.PSD for .NET 中处理 MLST（多层状态）资源的深入教程。 Aspose.PSD for .NET 是一个功能强大的库，提供了处理 Photoshop 文件的广泛功能。在本教程中，我们将重点关注 MLST 资源的支持，提供有效操作层状态的低级机制。
 ## 先决条件
 在我们深入研究本教程之前，请确保您具备以下先决条件：
-- Aspose.PSD for .NET Library：确保您已安装该库。如果没有，您可以从以下位置下载[Aspose.PSD for .NET 下载页面](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET Library：确保您已安装该库。如果没有，您可以从以下位置下载[Aspose.PSD for .NET 下载页面](https://releases.aspose.com/psd/net/).
 - 文档和输出目录：设置文档目录（`baseDir`）和输出目录（`outputDir`）在提供的代码中。
 ## 导入命名空间
 在您的 .NET 项目中，包含使用 Aspose.PSD 所需的命名空间：

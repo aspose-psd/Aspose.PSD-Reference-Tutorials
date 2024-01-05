@@ -76,7 +76,7 @@ Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 
 ### س2: هل يمكنني استخدام Aspose.PSD للمشاريع التجارية؟
 
- ج2: نعم، يمكنك استخدام Aspose.PSD في كل من المشاريع التجارية وغير التجارية. افحص ال[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+ج2: نعم، يمكنك استخدام Aspose.PSD في كل من المشاريع التجارية وغير التجارية. افحص ال[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
 
 ### س3: كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
 

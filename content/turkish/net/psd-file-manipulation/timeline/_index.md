@@ -30,7 +30,7 @@ Belirtilen kaynak dosyadan PSD görüntüsünü yükleyerek başlayın. Kaynak d
 string sourceFile = Path.Combine(baseDir, "image1219.psd");
 using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // Daha sonraki işlemler için kodunuz buraya gelecek
+    //Daha sonraki işlemler için kodunuz buraya gelecek
 }
 ```
 ## 2. Adım: Zaman Çizelgesi'ne erişin

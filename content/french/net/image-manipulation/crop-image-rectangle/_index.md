@@ -52,7 +52,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     {
         rasterImage.CacheData();
     }
-    //Votre code pour les étapes suivantes va ici
+    // Votre code pour les étapes suivantes va ici
 }
 //ExEnd : Recadrage par rectangle
 ```
@@ -93,7 +93,7 @@ En conclusion, maîtriser l'art du recadrage d'images par rectangle à l'aide d'
 
 ### Q1 : Aspose.PSD pour .NET est-il compatible avec tous les formats d'image ?
 
-R1 : Oui, Aspose.PSD pour .NET prend en charge un large éventail de formats, notamment JPEG, PNG, SVG, TIFF, BMP, GIF, PSD et Jpeg2000.
+R1 : Oui, Aspose.PSD pour .NET prend en charge un large éventail de formats, notamment JPEG, PNG, SVG, TIFF, BMP, GIF, PSD et Jpeg2000.
 
 ### Q2 : Puis-je appliquer plusieurs opérations de recadrage à la même image ?
 
@@ -109,4 +109,4 @@ A3 : Aspose.PSD pour .NET est conçu pour gérer des images de différentes tail
 
 ### Q5 : Où puis-je trouver une assistance ou une assistance supplémentaire ?
 
- A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour se connecter avec la communauté et chercher du soutien.
+ A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34)pour se connecter avec la communauté et chercher du soutien.

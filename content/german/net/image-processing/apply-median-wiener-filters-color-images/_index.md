@@ -38,7 +38,7 @@ Laden Sie zunächst das verrauschte Bild aus der Quelldatei. Stellen Sie sicher,
 // Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "Your Document Directory";
 
-//Laden Sie das verrauschte Bild
+// Laden Sie das verrauschte Bild
 string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + @"median_test_denoise_out.gif";
 
@@ -86,7 +86,7 @@ A2: Sie können Try-Catch-Blöcke implementieren, um Ausnahmen zu behandeln, die
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.PSD für .NET?
 
-A3: Ja, Sie können die Funktionen von Aspose.PSD erkunden, indem Sie eine kostenlose Testversion von erhalten[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können die Funktionen von Aspose.PSD erkunden, indem Sie eine kostenlose Testversion von erhalten[Hier](https://releases.aspose.com/).
 
 ### F4: Wo finde ich Community-Unterstützung für Aspose.PSD?
 

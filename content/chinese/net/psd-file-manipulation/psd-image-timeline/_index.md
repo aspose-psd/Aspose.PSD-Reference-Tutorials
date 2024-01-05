@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.PSD for .NET 中处理 PSD 图像时间轴
-linktitle: 处理 PSD 图像时间线
+linktitle: 处理 PSD 图像时间轴
 second_title: Aspose.PSD .NET API
 description: 学习使用 Aspose.PSD for .NET 轻松处理 PSD 图像时间线。添加框架、无缝切换并增强您的图像编辑技能。
 type: docs
@@ -8,7 +8,7 @@ weight: 17
 url: /zh/net/psd-file-manipulation/psd-image-timeline/
 ---
 ## 介绍
-在图像处理的动态世界中，Aspose.PSD for .NET 作为一个强大的工具包脱颖而出，为处理 PSD 图像时间线提供了强大的解决方案。无论您是经验丰富的开发人员还是编码爱好者，本教程都将指导您完成利用 Aspose.PSD 轻松操作图像时间线的过程。
+在图像处理的动态世界中，Aspose.PSD for .NET 作为一个强大的工具包脱颖而出，为处理 PSD 图像时间线提供了强大的解决方案。无论您是经验丰富的开发人员还是编码爱好者，本教程都将指导您完成利用 Aspose.PSD 轻松操作图像时间轴的过程。
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下先决条件：
 - C# 和 .NET 框架的基础知识。

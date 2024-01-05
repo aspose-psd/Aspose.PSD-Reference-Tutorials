@@ -81,7 +81,7 @@ var guid = Guid.NewGuid();
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//Проверьте и обновите свойства обводки
+// Проверьте и обновите свойства обводки
 // ...
 
 // Обновите непрозрачность и режим наложения.
@@ -135,7 +135,7 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 
 ### Вопрос 3: Есть ли образцы PSD-файлов для тестирования?
 
-A3: Вы можете найти образцы PSD-файлов в документации.[здесь](https://reference.aspose.com/psd/net/).
+ A3: Вы можете найти образцы PSD-файлов в документации.[здесь](https://reference.aspose.com/psd/net/).
 
 ### Вопрос 4: Подходит ли Aspose.PSD для пакетной обработки PSD-файлов?
 

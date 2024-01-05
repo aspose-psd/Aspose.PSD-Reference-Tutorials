@@ -22,7 +22,7 @@ using Aspose.PSD.ImageOptions;
 ## 1. Adım: Projenizi Kurun
 Yeni bir .NET projesi oluşturun veya tercih ettiğiniz IDE'de mevcut bir projeyi açın.
 ## Adım 2: Aspose.PSD Kitaplığını Ekle
-Projenize Aspose.PSD kütüphanesine bir referans ekleyin. Bunu kütüphaneyi indirerek yapabilirsiniz.[Aspose.PSD indirme sayfası](https://releases.aspose.com/psd/net/).
+ Projenize Aspose.PSD kütüphanesine bir referans ekleyin. Bunu kütüphaneyi indirerek yapabilirsiniz.[Aspose.PSD indirme sayfası](https://releases.aspose.com/psd/net/).
 ## Adım 3: Aspose.PSD'yi başlatın
 Kodunuzda, PSD dosyasını yükleyerek Aspose.PSD'yi başlatın:
 ```csharp
@@ -63,7 +63,7 @@ Cevap1: Evet, Aspose.PSD, en yeni .NET çerçeveleriyle uyumluluğun sağlanmas�
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
-Cevap3: Evet, Aspose.PSD'yi ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Burada](https://releases.aspose.com/).
+ Cevap3: Evet, Aspose.PSD'yi ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD desteğini nerede bulabilirim?
 

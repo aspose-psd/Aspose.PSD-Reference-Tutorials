@@ -21,7 +21,7 @@ Innan du dyker in i handledningen, se till att du har följande på plats:
 
 - Grundläggande kunskaper om C#: Denna handledning förutsätter en grundläggande förståelse för programmeringsspråket C#.
 
--  Dokumentkatalog: Definiera sökvägen till din dokumentkatalog i`dataDir` variabel.
+- Dokumentkatalog: Definiera sökvägen till din dokumentkatalog i`dataDir` variabel.
 
 ## Importera namnområden
 

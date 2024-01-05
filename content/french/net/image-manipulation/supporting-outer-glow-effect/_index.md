@@ -77,7 +77,7 @@ string outputPng = Path.Combine(outputDir, "output261.png");
 image.Save(outputPng, new PngOptions());
 ```
 
-## Étape 6 : Nettoyer
+## Étape 6 : Nettoyer
 
 ```csharp
 File.Delete(outputPng);

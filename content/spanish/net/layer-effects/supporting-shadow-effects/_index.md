@@ -45,7 +45,7 @@ var loadOptions = new PsdLoadOptions()
 
 using (var image = (PsdImage)Image.Load(sourceFileName, loadOptions))
 {
-    // Su código para pasos adicionales va aquí
+    // Su código para seguir los pasos va aquí
 }
 ```
 
@@ -92,7 +92,7 @@ En conclusión, Aspose.PSD para .NET ofrece una solución sólida para manejar e
 
 ### P1: ¿Puedo aplicar varios efectos de sombra a una sola capa?
 
-R1: Sí, puedes aplicar múltiples efectos de sombra manipulando el`Effects` colección de la capa deseada.
+ R1: Sí, puedes aplicar múltiples efectos de sombra manipulando el`Effects` colección de la capa deseada.
 
 ### P2: ¿Aspose.PSD para .NET es compatible con los últimos formatos de archivos PSD?
 

@@ -81,7 +81,7 @@ A1: Ja, Aspose.PSD ist für die Zusammenarbeit mit verschiedenen .NET-Umgebungen
 
 ### F2: Kann ich Aspose.PSD für kommerzielle Projekte ohne Lizenz verwenden?
 
-A2: Nein, für die kommerzielle Nutzung ist eine gültige Lizenz erforderlich. Besorgen Sie sich Ihre Lizenz[Hier](https://purchase.aspose.com/buy).
+ A2: Nein, für die kommerzielle Nutzung ist eine gültige Lizenz erforderlich. Besorgen Sie sich Ihre Lizenz[Hier](https://purchase.aspose.com/buy).
 
 ### F3: Wie kann ich Hilfe suchen oder meine Erfahrungen mit Aspose.PSD teilen?
 

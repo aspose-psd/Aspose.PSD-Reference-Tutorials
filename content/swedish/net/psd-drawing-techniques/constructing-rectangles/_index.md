@@ -81,7 +81,7 @@ S1: Ja, Aspose.PSD är designad för att fungera med olika .NET-miljöer, vilket
 
 ### F2: Kan jag använda Aspose.PSD för kommersiella projekt utan licens?
 
-S2: Nej, en giltig licens krävs för kommersiellt bruk. Skaffa din licens[här](https://purchase.aspose.com/buy).
+ S2: Nej, en giltig licens krävs för kommersiellt bruk. Skaffa din licens[här](https://purchase.aspose.com/buy).
 
 ### F3: Hur kan jag söka hjälp eller dela mina erfarenheter av Aspose.PSD?
 

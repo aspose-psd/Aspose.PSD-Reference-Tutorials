@@ -38,7 +38,7 @@ Rectangle cropRectangle = new Rectangle(0, 0, 350, 450);
 ```
 ## 3. Adım: Görüntüyü Kırpın
 ```csharp
-//Image sınıfının kırpma yöntemini çağırın ve dikdörtgen sınıfı örneğini iletin
+// Image sınıfının kırpma yöntemini çağırın ve dikdörtgen sınıfı örneğini iletin
 image.Crop(cropRectangle);
 ```
 ## Adım 4: PNG Seçeneklerini Belirleyin

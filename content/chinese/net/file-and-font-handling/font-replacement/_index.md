@@ -15,7 +15,7 @@ url: /zh/net/file-and-font-handling/font-replacement/
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
--  Aspose.PSD for .NET：确保您已安装 Aspose.PSD 库。你可以下载它[这里](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET：确保您已安装 Aspose.PSD 库。你可以下载它[这里](https://releases.aspose.com/psd/net/).
 
 - .NET 环境：在您的计算机上设置一个有效的 .NET 开发环境。
 

@@ -55,7 +55,7 @@ using (Image image = Image.Load(sourceFile))
 ## Étape 3 : mettre en cache l'image
 
 ```csharp
-	// Convertissez l'image sur RasterCachedImage et vérifiez si l'image est mise en cache
+	//Convertissez l'image sur RasterCachedImage et vérifiez si l'image est mise en cache
 	RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 	if (!rasterCachedImage.IsCached)
 	{
@@ -91,7 +91,7 @@ A1 : Oui, Aspose.PSD est conçu pour fonctionner de manière transparente avec t
 
 ### Q2 : Puis-je appliquer la binarisation à plusieurs images simultanément ?
 
-A2 : Absolument, vous pouvez parcourir une collection d’images et appliquer la binarisation à chacune d’elles.
+A2 : Absolument, vous pouvez parcourir une collection d’images et appliquer la binarisation à chacune d’elles.
 
 ### Q3 : Quelle est l’importance de la mise en cache de l’image ?
 
@@ -103,4 +103,4 @@ A3 : La mise en cache améliore les performances en stockant les données d'ima
 
 ### Q5 : Existe-t-il une version d’essai disponible pour Aspose.PSD ?
 
- A5 : Oui, vous pouvez accéder au[essai gratuit](https://releases.aspose.com/) pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.
+ A5 : Oui, vous pouvez accéder au[essai gratuit](https://releases.aspose.com/)pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.

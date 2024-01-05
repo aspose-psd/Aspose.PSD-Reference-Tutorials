@@ -48,7 +48,7 @@ string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + "result.png";
 ```
 
- Qui,`sourceFile`è il percorso del file PSD che desideri elaborare e`destName` è il percorso di destinazione dell'immagine risultante.
+ Qui,`sourceFile` è il percorso del file PSD che desideri elaborare e`destName` è il percorso di destinazione dell'immagine risultante.
 
 ## Passaggio 3: carica e salva l'immagine
 
@@ -77,7 +77,7 @@ A1: Sì, Aspose.PSD supporta una varietà di formati di immagine, garantendo fle
 
 ### Q2: È disponibile una versione di prova?
 
-A2: Certamente! Puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+ A2: Certamente! Puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q3: Dove posso trovare supporto per Aspose.PSD per .NET?
 

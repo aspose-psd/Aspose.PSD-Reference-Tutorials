@@ -52,7 +52,7 @@ Carica l'immagine PSD, specifica il valore di soglia, applica la soglia Bradley 
 // Carica un'immagine
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Definire il valore di soglia
+    //Definire il valore di soglia
     double threshold = 0.15;
 
     // Chiama il metodo BinarizeBradley e passa il valore di soglia come parametro

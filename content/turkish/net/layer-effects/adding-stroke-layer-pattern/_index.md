@@ -81,7 +81,7 @@ Kontur katmanına erişin ve özelliklerini güncelleyin:
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//Kontur özelliklerini kontrol etme ve güncelleme
+// Kontur özelliklerini kontrol etme ve güncelleme
 // ...
 
 // Opaklığı ve karışım modunu güncelleyin
@@ -135,7 +135,7 @@ Cevap1: Evet, Aspose.PSD for .NET, Visual Studio'nun çeşitli sürümleriyle uy
 
 ### S3: Test için kullanılabilecek örnek PSD dosyaları var mı?
 
-Cevap 3: Örnek PSD dosyalarını belgelerde bulabilirsiniz.[Burada](https://reference.aspose.com/psd/net/).
+ Cevap 3: Örnek PSD dosyalarını belgelerde bulabilirsiniz.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S4: Aspose.PSD, PSD dosyalarının toplu işlenmesi için uygun mudur?
 

@@ -15,7 +15,7 @@ Benvenuti in questo tutorial passo passo sull'aggiunta di effetti tratto ai live
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
--  Aspose.PSD per .NET: scarica e installa la libreria Aspose.PSD da[sito web](https://releases.aspose.com/psd/net/).
+- Aspose.PSD per .NET: scarica e installa la libreria Aspose.PSD da[sito web](https://releases.aspose.com/psd/net/).
 
 - Directory dei documenti: prepara una directory contenente il documento PSD a cui desideri applicare gli effetti del tratto.
 

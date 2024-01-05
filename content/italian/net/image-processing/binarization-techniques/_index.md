@@ -55,7 +55,7 @@ using (Image image = Image.Load(sourceFile))
 ## Passaggio 3: memorizzare nella cache l'immagine
 
 ```csharp
-	// Trasmetti l'immagine a RasterCachedImage e controlla se l'immagine è memorizzata nella cache
+	//Trasmetti l'immagine a RasterCachedImage e controlla se l'immagine è memorizzata nella cache
 	RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 	if (!rasterCachedImage.IsCached)
 	{
@@ -103,4 +103,4 @@ R3: La memorizzazione nella cache migliora le prestazioni archiviando i dati del
 
 ### Q5: È disponibile una versione di prova per Aspose.PSD?
 
- A5: Sì, puoi accedere a[prova gratuita](https://releases.aspose.com/) per esplorare le funzionalità di Aspose.PSD prima di effettuare un acquisto.
+ A5: Sì, puoi accedere a[prova gratuita](https://releases.aspose.com/)per esplorare le funzionalità di Aspose.PSD prima di effettuare un acquisto.

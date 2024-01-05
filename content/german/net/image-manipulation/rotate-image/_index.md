@@ -63,7 +63,7 @@ In diesem Tutorial haben wir die Grundlagen des Drehens von Bildern mit Aspose.P
 
 ### F1: Kann ich Bilder mit Aspose.PSD um einen benutzerdefinierten Winkel drehen?
 
-Ja, mit Aspose.PSD können Sie einen benutzerdefinierten Winkel für die Drehung angeben. Ersetzen Sie einfach die`RotateFlipType.Rotate270FlipNone` Linie mit Ihrem gewünschten Drehwinkel.
+ Ja, mit Aspose.PSD können Sie einen benutzerdefinierten Winkel für die Drehung angeben. Ersetzen Sie einfach die`RotateFlipType.Rotate270FlipNone` Linie mit Ihrem gewünschten Drehwinkel.
 
 ### F2: Ist Aspose.PSD mit verschiedenen Bildformaten kompatibel?
 

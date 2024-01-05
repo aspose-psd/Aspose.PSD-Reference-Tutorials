@@ -92,7 +92,7 @@ Zusammenfassend bietet Aspose.PSD für .NET eine robuste Lösung für den Umgang
 
 ### F1: Kann ich mehrere Schatteneffekte auf eine einzelne Ebene anwenden?
 
-A1: Ja, Sie können mehrere Schatteneffekte anwenden, indem Sie die bearbeiten`Effects` Sammlung der gewünschten Ebene.
+ A1: Ja, Sie können mehrere Schatteneffekte anwenden, indem Sie die bearbeiten`Effects` Sammlung der gewünschten Ebene.
 
 ### F2: Ist Aspose.PSD für .NET mit den neuesten PSD-Dateiformaten kompatibel?
 

@@ -75,7 +75,7 @@ image.Save(dataDir + "DrawingUsingGraphicsPath_output.psd");
 Console.WriteLine("Processing completed successfully.");
 ```
 
-In diesem letzten Schritt zeichnen wir den Pfad mithilfe der DrawPath-Methode mit einer angegebenen Stiftfarbe. Darüber hinaus erstellen wir einen HatchBrush, legen seine Eigenschaften fest und verwenden ihn zum Füllen des Pfads. Abschließend speichern wir das verarbeitete Bild.
+In diesem letzten Schritt zeichnen wir den Pfad mithilfe der DrawPath-Methode mit einer angegebenen Stiftfarbe. Darüber hinaus erstellen wir einen HatchBrush, legen seine Eigenschaften fest und verwenden ihn zum Füllen des Pfads. Abschließend speichern wir das bearbeitete Bild.
 
 ## Abschluss
 

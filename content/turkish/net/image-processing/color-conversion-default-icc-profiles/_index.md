@@ -41,7 +41,7 @@ string dataDir = RunExamples.GetDataDir_ModifyingAndConvertingImages();
 // Yeni bir Resim oluşturun.
 using (PsdImage image = new PsdImage(500, 500))
 {
-    // Görüntü verilerini doldurun.
+    //Görüntü verilerini doldurun.
     // ... (Görüntü verilerini doldurma kodu)
     // Yeni oluşturulan pikselleri kaydedin.
     image.SaveArgb32Pixels(image.Bounds, pixels);

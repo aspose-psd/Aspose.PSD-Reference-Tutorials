@@ -15,7 +15,7 @@ Aspose.PSD for .NET, geliştiricilerin AI (Adobe Illustrator) formatı da dahil 
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1.  Aspose.PSD for .NET Library: Kitaplığı şuradan indirip yükleyin:[Aspose.PSD web sitesi](https://releases.aspose.com/psd/net/).
 2. Geliştirme Ortamı: Visual Studio dahil, çalışan bir .NET geliştirme ortamına sahip olduğunuzdan emin olun.
-3.  Örnek AI Dosyası: "form_8_2l3_7.ai" adlı örnek AI dosyasını şu adresten indirin:[bu bağlantı](Your-Download-Link).
+3. Örnek AI Dosyası: "form_8_2l3_7.ai" adlı örnek AI dosyasını şu adresten indirin:[bu bağlantı](Your-Download-Link).
 ## Ad Alanlarını İçe Aktar
 Başlamak için .NET projenize gerekli ad alanlarını içe aktarın:
 ```csharp
@@ -62,7 +62,7 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 Gerektiğinde diğer katmanlar için bu adımları tekrarlayın.
 ## Çözüm
 
- Tebrikler! Aspose.PSD for .NET kullanarak AI formatındaki destekleyici katmanlarla nasıl çalışılacağını başarıyla öğrendiniz. Kitaplığın kapsamlı özelliklerini ve belgelerini keşfedin[Burada](https://reference.aspose.com/psd/net/).
+Tebrikler! Aspose.PSD for .NET kullanarak AI formatındaki destekleyici katmanlarla nasıl çalışılacağını başarıyla öğrendiniz. Kitaplığın kapsamlı özelliklerini ve belgelerini keşfedin[Burada](https://reference.aspose.com/psd/net/).
 
 ## SSS'ler
 

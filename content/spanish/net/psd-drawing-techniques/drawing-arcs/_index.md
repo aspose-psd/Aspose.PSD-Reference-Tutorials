@@ -15,7 +15,7 @@ url: /es/net/psd-drawing-techniques/drawing-arcs/
 
 Antes de sumergirnos en el apasionante mundo del dibujo de arcos, asegúrese de cumplir con los siguientes requisitos previos:
 
--  Aspose.PSD para la biblioteca .NET: descargue e instale la biblioteca Aspose.PSD desde[enlace de descarga](https://releases.aspose.com/psd/net/).
+- Aspose.PSD para la biblioteca .NET: descargue e instale la biblioteca Aspose.PSD desde[enlace de descarga](https://releases.aspose.com/psd/net/).
 
 -  Directorio de documentos: configure un directorio para almacenar sus documentos y reemplazarlos`"Your Document Directory"` en el código proporcionado con la ruta real.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Actual Document Directory";
 
 ## Paso 2: dibujar un arco
 
- Crear una instancia de`BmpOptions` establecer sus propiedades, incluyendo`BitsPerPixel`.
+ Crear una instancia de`BmpOptions` y establecer sus propiedades, incluyendo`BitsPerPixel`.
 
 ```csharp
 BmpOptions saveOptions = new BmpOptions();

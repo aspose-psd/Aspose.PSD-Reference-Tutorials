@@ -42,7 +42,7 @@ using System.IO;
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 
-// Укажите размер изображения, определив прямоугольник.
+//Укажите размер изображения, определив прямоугольник.
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 

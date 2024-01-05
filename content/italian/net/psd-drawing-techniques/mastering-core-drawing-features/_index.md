@@ -51,7 +51,7 @@ Carica un'immagine PSD esistente nella tua applicazione utilizzando il seguente 
 string dataDir = "Your Document Directory";
 string loadpath = dataDir + "sample.psd";
 
-// Crea un'istanza di Image
+// Crea un'istanza di Immagine
 using (PsdImage image = new PsdImage(loadpath))
 {
     // Il tuo codice qui...
@@ -81,13 +81,13 @@ image.SaveArgb32Pixels(new Rectangle(0, 0, 100, 10), pixels);
 Salva l'immagine modificata in un formato di file BMP:
 
 ```csharp
-//esportare l'immagine nel formato file bmp.
+// esportare l'immagine nel formato file bmp.
 image.Save(outpath, new BmpOptions());
 ```
 
 ## Conclusione
 
-Congratulazioni! Hai imparato le funzionalità di disegno principali di Aspose.PSD per .NET. Questo tutorial ti ha fornito le competenze per manipolare facilmente le immagini utilizzando Aspose.PSD. Sperimenta diversi scenari per migliorare le tue capacità di elaborazione delle immagini.
+Congratulazioni! Hai imparato le funzionalità di disegno principali di Aspose.PSD per .NET. Questo tutorial ti ha fornito le competenze per manipolare le immagini con facilità utilizzando Aspose.PSD. Sperimenta diversi scenari per migliorare le tue capacità di elaborazione delle immagini.
 
 ## Domande frequenti
 

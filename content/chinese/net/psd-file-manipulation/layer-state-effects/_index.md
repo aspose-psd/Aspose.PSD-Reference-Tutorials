@@ -69,7 +69,7 @@ psdImage.Save(outputFile);
 
 ### Q2：在哪里可以找到 Aspose.PSD for .NET 的文档？
 
-A2：参考详细文档[这里](https://reference.aspose.com/psd/net/).
+ A2：参考详细文档[这里](https://reference.aspose.com/psd/net/).
 
 ### A3: 有免费试用吗？
 

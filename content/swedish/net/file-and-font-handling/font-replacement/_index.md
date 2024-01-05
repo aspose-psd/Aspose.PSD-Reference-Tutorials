@@ -15,7 +15,7 @@ Inom .NET-utvecklingsområdet framstår Aspose.PSD som ett kraftfullt verktyg f�
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
--  Aspose.PSD för .NET: Se till att du har Aspose.PSD-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET: Se till att du har Aspose.PSD-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/psd/net/).
 
 - .NET-miljö: Ha en fungerande .NET-utvecklingsmiljö inställd på din dator.
 

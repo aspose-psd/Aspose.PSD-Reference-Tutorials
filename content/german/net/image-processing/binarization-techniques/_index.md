@@ -55,7 +55,7 @@ using (Image image = Image.Load(sourceFile))
 ## Schritt 3: Zwischenspeichern des Bildes
 
 ```csharp
-	// Wandeln Sie das Bild in RasterCachedImage um und prüfen Sie, ob das Bild zwischengespeichert ist
+	//Wandeln Sie das Bild in RasterCachedImage um und prüfen Sie, ob das Bild zwischengespeichert ist
 	RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 	if (!rasterCachedImage.IsCached)
 	{
@@ -103,4 +103,4 @@ A3: Caching verbessert die Leistung, indem Bilddaten im Speicher gespeichert wer
 
 ### F5: Gibt es eine Testversion für Aspose.PSD?
 
- A5: Ja, Sie können darauf zugreifen[Kostenlose Testphase](https://releases.aspose.com/) um die Funktionen von Aspose.PSD zu erkunden, bevor Sie einen Kauf tätigen.
+ A5: Ja, Sie können darauf zugreifen[Kostenlose Testphase](https://releases.aspose.com/)um die Funktionen von Aspose.PSD zu erkunden, bevor Sie einen Kauf tätigen.

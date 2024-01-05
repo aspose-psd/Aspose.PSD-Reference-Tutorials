@@ -15,7 +15,7 @@ url: /zh/net/image-manipulation/supporting-different-signature-types/
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
-- Aspose.PSD for .NET Library：确保您已安装该库。您可以从以下位置下载：[这里](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET Library：确保您已安装该库。您可以从以下位置下载：[这里](https://releases.aspose.com/psd/net/).
 
 - 文档和输出目录：为 PSD 文档和所需输出设置目录。修改`baseFolder`和`outputFolder`示例中相应的变量。
 
@@ -70,7 +70,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### Q3：有免费试用吗？
 
-A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 
 ### Q4：需要支持或有疑问吗？
 

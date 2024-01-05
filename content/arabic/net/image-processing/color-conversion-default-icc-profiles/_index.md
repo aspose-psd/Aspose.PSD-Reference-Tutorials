@@ -41,7 +41,7 @@ string dataDir = RunExamples.GetDataDir_ModifyingAndConvertingImages();
 // إنشاء صورة جديدة.
 using (PsdImage image = new PsdImage(500, 500))
 {
-    // تعبئة بيانات الصورة.
+    //تعبئة بيانات الصورة.
     // ... (كود تعبئة بيانات الصورة)
     // احفظ وحدات البكسل التي تم إنشاؤها حديثًا.
     image.SaveArgb32Pixels(image.Bounds, pixels);

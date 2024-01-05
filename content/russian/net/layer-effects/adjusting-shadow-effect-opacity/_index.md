@@ -36,7 +36,7 @@ using Aspose.PSD.ImageOptions;
 
 ## Шаг 1. Загрузите PSD-файл
 
-Начните с загрузки PSD-файла с помощью`Image.Load` метод:
+ Начните с загрузки PSD-файла с помощью`Image.Load` метод:
 
 ```csharp
 string inputFile = Path.Combine(baseDir, "input.psd");

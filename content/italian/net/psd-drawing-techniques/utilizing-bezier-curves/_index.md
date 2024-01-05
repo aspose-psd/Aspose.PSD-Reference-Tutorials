@@ -13,7 +13,7 @@ Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente strumento
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di avere quanto segue:
+Prima di immergerti nel tutorial, assicurati di avere a disposizione quanto segue:
 
 -  Aspose.PSD per .NET: assicurati di avere la libreria Aspose.PSD installata. In caso contrario, puoi scaricarlo da[pagina di download](https://releases.aspose.com/psd/net/).
 
@@ -21,7 +21,7 @@ Prima di immergerti nel tutorial, assicurati di avere quanto segue:
 
 - Conoscenza di base di C#: questo tutorial presuppone una conoscenza di base del linguaggio di programmazione C#.
 
--  Directory dei documenti: definisci il percorso della directory dei documenti nel file`dataDir` variabile.
+- Directory dei documenti: definisci il percorso della directory dei documenti nel file`dataDir` variabile.
 
 ## Importa spazi dei nomi
 

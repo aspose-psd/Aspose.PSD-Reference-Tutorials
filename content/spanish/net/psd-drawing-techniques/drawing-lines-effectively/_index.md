@@ -79,7 +79,7 @@ Dibuja dos líneas diagonales de puntos con un bolígrafo azul especificando las
 ## Paso 5: dibujar líneas continuas
 
 ```csharp
-    //Dibuje una línea continua de cuatro especificando el objeto Pluma que tenga Pincel sólido con color rojo y estructuras de dos puntos.
+    // Dibuje una línea continua de cuatro especificando el objeto Pluma que tenga Pincel sólido con color rojo y estructuras de dos puntos.
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

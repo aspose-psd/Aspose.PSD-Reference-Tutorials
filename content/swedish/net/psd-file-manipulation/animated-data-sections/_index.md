@@ -12,7 +12,7 @@ Välkommen till vår omfattande guide om hantering av animerade datasektioner i 
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar:
 - Grundläggande kunskaper i C# och .NET programmering.
--  Aspose.PSD för .NET installerat. Om du inte har installerat det ännu kan du ladda ner det från[här](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET installerat. Om du inte har installerat det ännu kan du ladda ner det från[här](https://releases.aspose.com/psd/net/).
 - En kodredigerare som Visual Studio för sömlös implementering.
 ## Importera namnområden
 Se till att du importerar de nödvändiga namnrymden i din C#-kod för att arbeta med Aspose.PSD:

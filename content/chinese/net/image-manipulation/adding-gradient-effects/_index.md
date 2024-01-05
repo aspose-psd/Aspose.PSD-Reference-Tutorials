@@ -139,11 +139,11 @@ A2：Aspose.PSD for .NET支持各种图像文件格式，包括PSD、PNG、JPEG�
 
 ### Q3：Aspose.PSD for .NET 有试用版吗？
 
-A3：是的，您可以通过下载免费试用版来探索 Aspose.PSD for .NET 的功能[这里](https://releases.aspose.com/).
+ A3：是的，您可以通过下载免费试用版来探索 Aspose.PSD for .NET 的功能[这里](https://releases.aspose.com/).
 
 ### 问题 4：如何获得 Aspose.PSD for .NET 支持？
 
-A4：如需任何帮助或疑问，请访问[Aspose.PSD for .NET 支持论坛](https://forum.aspose.com/c/psd/34).
+ A4：如需任何帮助或疑问，请访问[Aspose.PSD for .NET 支持论坛](https://forum.aspose.com/c/psd/34).
 
 ### Q5：哪里可以购买 Aspose.PSD for .NET？
 

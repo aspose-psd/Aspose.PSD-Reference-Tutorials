@@ -38,7 +38,7 @@ Rectangle cropRectangle = new Rectangle(0, 0, 350, 450);
 ```
 ## Steg 3: Beskär bilden
 ```csharp
-//Anropa beskärningsmetoden för klassen Image och skicka instansen rektangelklassen
+// Anropa beskärningsmetoden för klassen Image och skicka instansen rektangelklassen
 image.Crop(cropRectangle);
 ```
 ## Steg 4: Ange PNG-alternativ

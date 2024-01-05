@@ -41,7 +41,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
     WorkingPathResource workingPathResource = null;
     // ... (continuez à vérifier WorkingPathResource)
     
-    // Recadrez et enregistrez.
+    //Recadrez et enregistrez.
     psdImage.Crop(0, 500, 0, 200);
     psdImage.Save(outputFile);
 }

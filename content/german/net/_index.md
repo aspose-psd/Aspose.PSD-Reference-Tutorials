@@ -14,7 +14,7 @@ Nutzen Sie das volle Potenzial von Aspose.PSD für .NET mit unseren umfassenden 
 
 ### [Bildverarbeitung](./image-processing/)
 
-Verbessern Sie mühelos die Bildqualität mit Aspose.PSD für .NET-Tutorials. Tauchen Sie ein in Techniken wie Gauß- und Wiener-Filter, Farbkonvertierung, Binarisierung und mehr. Verwandeln Sie gewöhnliche Bilder mit unseren detaillierten Tutorials in atemberaubende visuelle Meisterwerke.
+Verbessern Sie mühelos die Bildqualität mit Aspose.PSD für .NET-Tutorials. Tauchen Sie ein in Techniken wie Gauß- und Wiener-Filter, Farbkonvertierung, Binärisierung und mehr. Verwandeln Sie gewöhnliche Bilder mit unseren detaillierten Tutorials in atemberaubende visuelle Meisterwerke.
 
 ## Meistern Sie die Manipulation von PSD-Dateien
 

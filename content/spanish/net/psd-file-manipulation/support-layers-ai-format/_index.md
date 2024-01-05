@@ -15,7 +15,7 @@ Aspose.PSD para .NET es una potente biblioteca que permite a los desarrolladores
 Antes de sumergirnos en el tutorial, asegúrese de tener lo siguiente:
 1.  Aspose.PSD para la biblioteca .NET: descargue e instale la biblioteca desde[Sitio web de Aspose.PSD](https://releases.aspose.com/psd/net/).
 2. Entorno de desarrollo: asegúrese de tener un entorno de desarrollo .NET que funcione, incluido Visual Studio.
-3.  Archivo AI de muestra: descargue el archivo AI de muestra, "form_8_2l3_7.ai", desde[este enlace](Your-Download-Link).
+3. Archivo AI de muestra: descargue el archivo AI de muestra, "form_8_2l3_7.ai", desde[este enlace](Your-Download-Link).
 ## Importar espacios de nombres
 Para comenzar, importe los espacios de nombres necesarios en su proyecto .NET:
 ```csharp
@@ -62,7 +62,7 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 Repita estos pasos para otras capas según sea necesario.
 ## Conclusión
 
- ¡Felicidades! Ha aprendido con éxito cómo trabajar con capas de soporte en formato AI usando Aspose.PSD para .NET. Explore las amplias funciones y documentación de la biblioteca[aquí](https://reference.aspose.com/psd/net/).
+¡Felicidades! Ha aprendido con éxito cómo trabajar con capas de soporte en formato AI usando Aspose.PSD para .NET. Explore las amplias funciones y documentación de la biblioteca[aquí](https://reference.aspose.com/psd/net/).
 
 ## Preguntas frecuentes
 

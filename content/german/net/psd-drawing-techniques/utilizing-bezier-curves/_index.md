@@ -21,7 +21,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Folgendes vorhande
 
 - Grundkenntnisse von C#: Dieses Tutorial setzt grundlegende Kenntnisse der Programmiersprache C# voraus.
 
--  Dokumentenverzeichnis: Definieren Sie den Pfad zu Ihrem Dokumentenverzeichnis im`dataDir` Variable.
+- Dokumentenverzeichnis: Definieren Sie den Pfad zu Ihrem Dokumentenverzeichnis im`dataDir` Variable.
 
 ## Namespaces importieren
 

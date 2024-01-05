@@ -81,7 +81,7 @@ C1: Evet, Aspose.PSD, çeşitli .NET ortamlarıyla çalışacak ve farklı platf
 
 ### S2: Aspose.PSD'yi ticari projeler için lisanssız kullanabilir miyim?
 
-Cevap2: Hayır, ticari kullanım için geçerli bir lisans gereklidir. Lisansınızı alın[Burada](https://purchase.aspose.com/buy).
+ Cevap2: Hayır, ticari kullanım için geçerli bir lisans gereklidir. Lisansınızı alın[Burada](https://purchase.aspose.com/buy).
 
 ### S3: Aspose.PSD ile nasıl yardım isteyebilirim veya deneyimlerimi paylaşabilirim?
 

@@ -69,7 +69,7 @@ psdImage.Save(outputFile);
 
 ### Вопрос 2. Где я могу найти документацию по Aspose.PSD для .NET?
 
-A2: обратитесь к подробной документации.[здесь](https://reference.aspose.com/psd/net/).
+ A2: обратитесь к подробной документации.[здесь](https://reference.aspose.com/psd/net/).
 
 ### A3: Есть ли бесплатная пробная версия?
 

@@ -81,7 +81,7 @@ Greifen Sie auf die Strichebene zu und aktualisieren Sie ihre Eigenschaften:
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//Stricheigenschaften prüfen und aktualisieren
+// Stricheigenschaften prüfen und aktualisieren
 // ...
 
 // Deckkraft und Mischmodus aktualisieren
@@ -135,7 +135,7 @@ A1: Ja, Aspose.PSD für .NET ist mit verschiedenen Versionen von Visual Studio k
 
 ### F3: Gibt es Beispiel-PSD-Dateien zum Testen?
 
-A3: Beispiel-PSD-Dateien finden Sie in der Dokumentation[Hier](https://reference.aspose.com/psd/net/).
+ A3: Beispiel-PSD-Dateien finden Sie in der Dokumentation[Hier](https://reference.aspose.com/psd/net/).
 
 ### F4: Ist Aspose.PSD für die Stapelverarbeitung von PSD-Dateien geeignet?
 

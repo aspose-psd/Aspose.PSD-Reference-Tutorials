@@ -17,7 +17,7 @@ url: /zh/net/file-saving-and-exporting/save-images-to-stream/
 
 1. Visual Studio：确保您的系统上安装了 Visual Studio。
 
-2. Aspose.PSD for .NET：下载并安装 Aspose.PSD 库。你可以找到下载链接[这里](https://releases.aspose.com/psd/net/).
+2.  Aspose.PSD for .NET：下载并安装 Aspose.PSD 库。你可以找到下载链接[这里](https://releases.aspose.com/psd/net/).
 
 3. 示例 PSD 文件：准备好示例 PSD 文件以供测试。如果您没有，您可以使用任何可用于您目的的 PSD 文件。
 
@@ -82,7 +82,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### Q3：有免费试用吗？
 
-A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/)在购买前探索 Aspose.PSD 的功能。
+ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/)在购买前探索 Aspose.PSD 的功能。
 
 ### Q4：如何获得临时驾照？
 

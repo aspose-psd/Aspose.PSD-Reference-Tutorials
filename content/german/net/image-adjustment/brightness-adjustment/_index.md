@@ -40,7 +40,7 @@ Lassen Sie uns das Beispiel nun in mehrere Schritte unterteilen:
 string dataDir = "Your Document Directory";
 string sourceFile = dataDir + @"sample.psd";
 
-//Laden Sie die PSD-Datei mit Aspose.PSD
+// Laden Sie die PSD-Datei mit Aspose.PSD
 using (var image = (PsdImage)Image.Load(sourceFile))
 {
     // Ihr Code für weitere Schritte finden Sie hier

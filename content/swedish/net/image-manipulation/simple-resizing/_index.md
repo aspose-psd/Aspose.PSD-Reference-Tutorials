@@ -9,7 +9,7 @@ url: /sv/net/image-manipulation/simple-resizing/
 ---
 ## Introduktion
 
-den dynamiska sfären av .NET-utveckling är det en vanlig nödvändighet att manipulera bilder. Aspose.PSD för .NET kommer till undsättning med sina kraftfulla funktioner, vilket ger en sömlös upplevelse för bildstorleksändring. I den här handledningen kommer vi att fördjupa oss i den enkla men avgörande processen att ändra storlek på bilder med Aspose.PSD för .NET. Spänn upp dig när vi ger oss ut på en resa för att förbättra dina färdigheter i bildbehandling.
+I den dynamiska sfären av .NET-utveckling är det en vanlig nödvändighet att manipulera bilder. Aspose.PSD för .NET kommer till undsättning med sina kraftfulla funktioner, vilket ger en sömlös upplevelse för bildstorleksändring. I den här handledningen kommer vi att fördjupa oss i den enkla men avgörande processen att ändra storlek på bilder med Aspose.PSD för .NET. Spänn upp dig när vi ger oss ut på en resa för att förbättra dina färdigheter i bildbehandling.
 
 ## Förutsättningar
 

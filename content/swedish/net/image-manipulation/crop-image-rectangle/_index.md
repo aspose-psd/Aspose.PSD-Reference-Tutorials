@@ -52,7 +52,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     {
         rasterImage.CacheData();
     }
-    //Din kod för efterföljande steg kommer här
+    // Din kod för efterföljande steg kommer här
 }
 //ExEnd:CroppingbyRectangle
 ```
@@ -109,4 +109,4 @@ S3: Aspose.PSD för .NET är utformad för att hantera bilder av olika storlekar
 
 ### F5: Var kan jag hitta ytterligare stöd eller hjälp?
 
- A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) att få kontakt med samhället och söka stöd.
+ A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34)att få kontakt med samhället och söka stöd.

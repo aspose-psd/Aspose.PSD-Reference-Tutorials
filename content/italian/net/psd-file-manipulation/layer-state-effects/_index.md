@@ -69,7 +69,7 @@ Congratulazioni! Hai lavorato con successo con gli effetti dello stato del livel
 
 ### Q2: dove posso trovare la documentazione per Aspose.PSD per .NET?
 
-A2: Fare riferimento alla documentazione dettagliata[Qui](https://reference.aspose.com/psd/net/).
+ A2: Fare riferimento alla documentazione dettagliata[Qui](https://reference.aspose.com/psd/net/).
 
 ### A3: È disponibile una prova gratuita?
 

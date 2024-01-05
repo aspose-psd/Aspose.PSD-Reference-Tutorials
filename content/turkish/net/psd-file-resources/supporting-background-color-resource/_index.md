@@ -38,7 +38,7 @@ using (var image = (PsdImage)Image.Load(sourceFilePath))
 }
 ```
 ## 3. ArkaplanRenkKaynak Desteği
-Bu örnekte, ArkaplanRenkResource'un desteğine odaklanacağız. Bu kaynak arka plan rengini değiştirmenize olanak tanır. 
+Bu örnekte, ArkaplanRenkResource'un desteğine odaklanacağız. Bu kaynak arka plan rengini değiştirmenize olanak sağlar. 
 ```csharp
 //ExStart:SupportOfBackgroundColorResource
 string sourceFilePath = Path.Combine(SourceDir, "BackgroundColorResourceInput.psd");
@@ -76,7 +76,7 @@ Cevap1: Aspose.PSD, birçok dosyayla uyumluluğu garantileyen çok çeşitli PSD
 
 ### S2: Aspose.PSD'yi ticari projeler için kullanabilir miyim?
 
- Cevap2: Evet, Aspose.PSD'yi hem ticari hem de ticari olmayan projelerde kullanabilirsiniz. Kontrol edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+Cevap2: Evet, Aspose.PSD'yi hem ticari hem de ticari olmayan projelerde kullanabilirsiniz. Kontrol edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
 
 ### S3: Aspose.PSD için nasıl destek alabilirim?
 

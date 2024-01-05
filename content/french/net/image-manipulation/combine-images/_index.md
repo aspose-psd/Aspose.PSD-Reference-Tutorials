@@ -94,9 +94,9 @@ A1 : Oui, Aspose.PSD est compatible avec toutes les versions de .NET, garantissa
 
 ### Q2 : Puis-je utiliser Aspose.PSD à des fins commerciales ?
 
- A2 : Oui, Aspose.PSD peut être utilisé à des fins personnelles et commerciales. Vérifiez les détails de la licence[ici](https://purchase.aspose.com/buy).
+A2 : Oui, Aspose.PSD peut être utilisé à des fins personnelles et commerciales. Vérifiez les détails de la licence[ici](https://purchase.aspose.com/buy).
 
-### Q3 : Comment puis-je obtenir de l'assistance pour Aspose.PSD ?
+### Q3 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
 
  A3 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien de la communauté ou envisagez d’acheter un plan de soutien.
 
@@ -106,4 +106,4 @@ A1 : Oui, Aspose.PSD est compatible avec toutes les versions de .NET, garantissa
 
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

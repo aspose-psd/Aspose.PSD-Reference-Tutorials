@@ -15,7 +15,7 @@ Bienvenue dans notre guide complet sur la création de formes elliptiques à l'a
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
--  Aspose.PSD pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.PSD est installée dans votre projet .NET. Vous pouvez le télécharger depuis le[Aspose.PSD pour la documentation .NET](https://reference.aspose.com/psd/net/).
+- Aspose.PSD pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.PSD est installée dans votre projet .NET. Vous pouvez le télécharger depuis le[Aspose.PSD pour la documentation .NET](https://reference.aspose.com/psd/net/).
 
 - Environnement .NET : ce didacticiel suppose que vous possédez une connaissance pratique du framework .NET.
 
@@ -38,7 +38,7 @@ Maintenant, décomposons le processus de création de formes elliptiques en plus
 string dataDir = "Your Document Directory";
 ```
 
-## Étape 2 : Créer une instance de BmpOptions
+## Étape 2 : créer une instance de BmpOptions
 
 ```csharp
 // Créez une instance de BmpOptions et définissez ses différentes propriétés
@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## Étape 5 : dessiner une forme d'ellipse continue
 
 ```csharp
-    // Dessinez une forme d'ellipse continue en spécifiant l'objet Stylo ayant un pinceau solide de couleur bleue et un rectangle environnant.
+    //Dessinez une forme d'ellipse continue en spécifiant l'objet Stylo ayant un pinceau solide de couleur bleue et un rectangle environnant.
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // Exportez l'image au format de fichier bmp.

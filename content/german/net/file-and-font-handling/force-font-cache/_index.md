@@ -15,7 +15,7 @@ Aspose.PSD für .NET bietet leistungsstarke Tools für die Arbeit mit PSD-Dateie
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
--  Aspose.PSD für .NET: Laden Sie die Aspose.PSD-Bibliothek von herunter und installieren Sie sie[Release-Seite](https://releases.aspose.com/psd/net/).
+- Aspose.PSD für .NET: Laden Sie die Aspose.PSD-Bibliothek von herunter und installieren Sie sie[Release-Seite](https://releases.aspose.com/psd/net/).
 
 - Dokumentverzeichnis: Richten Sie ein Verzeichnis zum Speichern Ihrer PSD-Dateien ein und ersetzen Sie „Ihr Dokumentverzeichnis“ in den Codefragmenten durch den tatsächlichen Pfad.
 

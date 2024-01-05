@@ -94,7 +94,7 @@ image.Save();
 
 ### س2: هل يمكنني استخدام Aspose.PSD لأغراض تجارية؟
 
- ج2: نعم، يمكن استخدام Aspose.PSD للأغراض الشخصية والتجارية. التحقق من تفاصيل الترخيص[هنا](https://purchase.aspose.com/buy).
+ج2: نعم، يمكن استخدام Aspose.PSD للأغراض الشخصية والتجارية. التحقق من تفاصيل الترخيص[هنا](https://purchase.aspose.com/buy).
 
 ### س3: كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
 
@@ -106,4 +106,4 @@ image.Save();
 
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
- ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

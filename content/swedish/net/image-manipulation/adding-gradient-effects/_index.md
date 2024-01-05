@@ -63,7 +63,7 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
     // Färgpunkter
     // ...
 
-    // Transparenspunkter
+    //Transparenspunkter
     // ...
 }
 ```
@@ -90,7 +90,7 @@ settings.Reverse = true;
 // Lägg till ny färgpunkt
 // ...
 
-//Ändra plats för föregående punkt
+// Ändra plats för föregående punkt
 // ...
 
 // Lägg till ny transparenspunkt
@@ -139,7 +139,7 @@ S2: Aspose.PSD för .NET stöder olika bildfilformat, inklusive PSD, PNG, JPEG, 
 
 ### F3: Finns det en testversion tillgänglig för Aspose.PSD för .NET?
 
-S3: Ja, du kan utforska funktionerna hos Aspose.PSD för .NET genom att ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
+ S3: Ja, du kan utforska funktionerna hos Aspose.PSD för .NET genom att ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 

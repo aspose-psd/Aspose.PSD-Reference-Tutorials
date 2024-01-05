@@ -30,7 +30,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.Animation;
 string sourceFile = Path.Combine(baseDir, "image1219.psd");
 using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // Здесь находится ваш код для дальнейших операций
+    //Здесь находится ваш код для дальнейших операций
 }
 ```
 ## Шаг 2. Доступ к временной шкале

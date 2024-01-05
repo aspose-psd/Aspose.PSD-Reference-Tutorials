@@ -15,7 +15,7 @@ url: /ar/net/psd-drawing-techniques/drawing-arcs/
 
 قبل أن نغوص في عالم رسم الأقواس المثير، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Aspose.PSD لمكتبة .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف .NET[رابط التحميل](https://releases.aspose.com/psd/net/).
+- Aspose.PSD لمكتبة .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف .NET[رابط التحميل](https://releases.aspose.com/psd/net/).
 
 -  دليل المستندات: قم بإعداد دليل لتخزين مستنداتك واستبدالها`"Your Document Directory"` في الكود المقدم مع المسار الفعلي.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Actual Document Directory";
 
 ## الخطوة 2: رسم قوس
 
- إنشاء مثيل ل`BmpOptions`وتعيين خصائصه بما في ذلك`BitsPerPixel`.
+ إنشاء مثيل ل`BmpOptions` وتعيين خصائصه بما في ذلك`BitsPerPixel`.
 
 ```csharp
 BmpOptions saveOptions = new BmpOptions();

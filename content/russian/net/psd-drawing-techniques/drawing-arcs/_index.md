@@ -15,7 +15,7 @@ url: /ru/net/psd-drawing-techniques/drawing-arcs/
 
 Прежде чем мы погрузимся в захватывающий мир рисования дуг, убедитесь, что у вас есть следующие предварительные условия:
 
--  Aspose.PSD для библиотеки .NET: загрузите и установите библиотеку Aspose.PSD с сайта[ссылка для скачивания](https://releases.aspose.com/psd/net/).
+- Aspose.PSD для библиотеки .NET: загрузите и установите библиотеку Aspose.PSD с сайта[ссылка для скачивания](https://releases.aspose.com/psd/net/).
 
 -  Каталог документов: создайте каталог для хранения ваших документов и замените`"Your Document Directory"` в предоставленном коде с фактическим путем.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Actual Document Directory";
 
 ## Шаг 2: Рисование дуги
 
- Создайте экземпляр`BmpOptions`и установить его свойства, в том числе`BitsPerPixel`.
+ Создайте экземпляр`BmpOptions` и установить его свойства, в том числе`BitsPerPixel`.
 
 ```csharp
 BmpOptions saveOptions = new BmpOptions();

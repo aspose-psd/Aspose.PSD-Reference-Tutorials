@@ -31,3 +31,17 @@ Estos son enlaces a algunos recursos útiles:
 - [Recursos de archivos PSD](./net/psd-file-resources/)
 
 
+## Aspose.PSD para tutoriales de Java
+{{% alert color="primary" %}}
+¡Embárcate en un viaje creativo con Aspose.PSD para Java! Nuestros completos tutoriales cubren todo, desde dominar los filtros avanzados de procesamiento de imágenes hasta descubrir los secretos de la conversión PSD y explorar las complejidades del diseño gráfico. Mejore sus habilidades paso a paso, ya sea que esté profundizando en la magia de la edición de imágenes, la manipulación avanzada o las operaciones fundamentales de diseño gráfico. Aspose.PSD le permite dar vida a sus visiones creativas, haciendo que el procesamiento de imágenes Java sea una experiencia emocionante y gratificante. ¡Sumérgete en nuestros tutoriales, explora las posibilidades y libera todo tu potencial en el mundo del diseño gráfico y la manipulación de imágenes!
+{{% /alert %}}
+
+Estos son enlaces a algunos recursos útiles:
+
+- [Procesamiento de imágenes](./java/image-processing/)
+- [Conversión PSD](./java/psd-conversion/)
+- [Técnicas avanzadas](./java/advanced-techniques/)
+- [Edición de imagen](./java/image-editing/)
+- [Manipulación avanzada de imágenes](./java/advanced-image-manipulation/)
+- [Operaciones básicas de imagen](./java/basic-image-operations/)
+- [Efectos de imagen avanzados](./java/advanced-image-effects/)

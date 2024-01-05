@@ -11,7 +11,7 @@ url: /fr/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 Dans le monde dynamique des médias numériques, l’édition d’images joue un rôle central dans la création de visuels captivants. Aspose.PSD pour .NET permet aux développeurs de faire passer leurs capacités de manipulation d'images au niveau supérieur. Dans ce didacticiel, nous explorerons la prise en charge des calques de réglage noir et blanc dans Aspose.PSD, vous permettant d'affiner les images avec précision.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
--  Aspose.PSD pour .NET : téléchargez et installez la bibliothèque à partir du[Aspose.PSD pour la documentation .NET](https://reference.aspose.com/psd/net/).
+- Aspose.PSD pour .NET : téléchargez et installez la bibliothèque à partir du[Aspose.PSD pour la documentation .NET](https://reference.aspose.com/psd/net/).
 - Répertoire de documents : spécifiez le chemin d'accès à votre répertoire de documents.
 - Répertoire de sortie : définissez le répertoire dans lequel vous souhaitez que les images modifiées soient enregistrées.
 ## Importer des espaces de noms
@@ -84,7 +84,7 @@ A2 : Absolument ! Aspose.PSD vous permet d'empiler plusieurs calques de réglage
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD ?
 
- A4 : Le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34)est une ressource précieuse pour rechercher de l’aide et partager des informations avec la communauté.
+ A4 : Le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) est une ressource précieuse pour rechercher de l’aide et partager des informations avec la communauté.
 
 ### Q5 : Existe-t-il des exemples d’images disponibles pour tester les réglages du noir et blanc ?
 

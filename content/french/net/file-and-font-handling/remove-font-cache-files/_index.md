@@ -2,7 +2,7 @@
 title: Suppression des fichiers de cache de polices dans Aspose.PSD pour .NET
 linktitle: Suppression des fichiers de cache de polices
 second_title: API Aspose.PSD.NET
-description: Optimisez Aspose.PSD pour les performances .NET en supprimant les fichiers de cache de polices. Suivez notre guide étape par étape pour une exécution transparente.
+description: Optimisez Aspose.PSD pour les performances .NET en supprimant les fichiers de cache de polices. Suivez notre guide étape par étape pour une exécution fluide.
 type: docs
 weight: 15
 url: /fr/net/file-and-font-handling/remove-font-cache-files/

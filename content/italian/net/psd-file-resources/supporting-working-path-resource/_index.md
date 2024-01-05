@@ -41,7 +41,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
     WorkingPathResource workingPathResource = null;
     // ... (continua a verificare la WorkingPathResource)
     
-    // Ritaglia e salva.
+    //Ritaglia e salva.
     psdImage.Crop(0, 500, 0, 200);
     psdImage.Save(outputFile);
 }

@@ -15,7 +15,7 @@ Willkommen zu unserem umfassenden Leitfaden zum Erstellen elliptischer Formen mi
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.PSD für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.PSD-Bibliothek in Ihrem .NET-Projekt installiert ist. Sie können es hier herunterladen[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
+- Aspose.PSD für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.PSD-Bibliothek in Ihrem .NET-Projekt installiert ist. Sie können es hier herunterladen[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
 
 - .NET-Umgebung: In diesem Tutorial wird davon ausgegangen, dass Sie über praktische Kenntnisse des .NET-Frameworks verfügen.
 
@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## Schritt 5: Zeichnen Sie eine kontinuierliche Ellipsenform
 
 ```csharp
-    // Zeichnen Sie eine kontinuierliche Ellipsenform, indem Sie das Stiftobjekt mit einem durchgehenden Pinsel mit blauer Farbe und einem umgebenden Rechteck angeben
+    //Zeichnen Sie eine kontinuierliche Ellipsenform, indem Sie das Stiftobjekt mit einem durchgehenden Pinsel mit blauer Farbe und einem umgebenden Rechteck angeben
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // Bild in das BMP-Dateiformat exportieren.

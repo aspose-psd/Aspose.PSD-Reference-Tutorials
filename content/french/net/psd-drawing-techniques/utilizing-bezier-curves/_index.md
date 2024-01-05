@@ -21,7 +21,7 @@ Avant de plonger dans le didacticiel, assurez-vous d'avoir mis en place les él�
 
 - Connaissance de base de C# : ce didacticiel suppose une compréhension de base du langage de programmation C#.
 
--  Répertoire de documents : définissez le chemin d'accès à votre répertoire de documents dans le`dataDir` variable.
+- Répertoire de documents : définissez le chemin d'accès à votre répertoire de documents dans le`dataDir` variable.
 
 ## Importer des espaces de noms
 

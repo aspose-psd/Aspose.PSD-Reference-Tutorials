@@ -79,7 +79,7 @@ Koordinatları belirterek mavi kalemle iki noktalı çapraz çizgi çizin.
 ## Adım 5: Sürekli Çizgiler Çizme
 
 ```csharp
-    //Kırmızı renkli ve iki nokta yapısına sahip Solid Brush'a sahip Pen nesnesini belirterek dört sürekli çizgi çizin
+    // Kırmızı renkli ve iki nokta yapısına sahip Solid Brush'a sahip Pen nesnesini belirterek dört sürekli çizgi çizin
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

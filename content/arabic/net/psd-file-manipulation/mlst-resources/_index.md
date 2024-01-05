@@ -11,7 +11,7 @@ url: /ar/net/psd-file-manipulation/mlst-resources/
 مرحبًا بك في البرنامج التعليمي المتعمق حول التعامل مع موارد MLST (حالات الطبقات المتعددة) في Aspose.PSD لـ .NET. Aspose.PSD for .NET هي مكتبة قوية توفر إمكانات واسعة النطاق للعمل مع ملفات Photoshop. في هذا البرنامج التعليمي، سنركز على دعم موارد MLST، مما يوفر آلية منخفضة المستوى لمعالجة حالات الطبقة بكفاءة.
 ## المتطلبات الأساسية
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- Aspose.PSD لمكتبة .NET: تأكد من تثبيت المكتبة. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[صفحة تنزيل Aspose.PSD لـ .NET](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD لمكتبة .NET: تأكد من تثبيت المكتبة. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[صفحة تنزيل Aspose.PSD لـ .NET](https://releases.aspose.com/psd/net/).
 - أدلة المستندات والمخرجات: قم بإعداد دليل المستندات الخاص بك (`baseDir`) ودليل الإخراج (`outputDir`) في الكود المقدم.
 ## استيراد مساحات الأسماء
 في مشروع .NET الخاص بك، قم بتضمين مساحات الأسماء الضرورية للعمل مع Aspose.PSD:
@@ -77,7 +77,7 @@ Console.WriteLine("SupportOfMlstResource executed successfully");
 
 ### س3: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD لـ .NET؟
 
- ج3: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).
+ج3: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 

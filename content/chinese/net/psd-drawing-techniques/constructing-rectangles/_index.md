@@ -9,7 +9,7 @@ url: /zh/net/psd-drawing-techniques/constructing-rectangles/
 ---
 ## 介绍
 
-在 .NET 开发的动态领域中，Aspose.PSD 作为处理图像操作的强大工具脱颖而出。本教程重点关注一项基本任务：使用 Aspose.PSD for .NET 构造矩形。无论您是经验丰富的开发人员还是新手，本分步指南都将引导您完成整个过程，确保您彻底掌握每个概念。
+在 .NET 开发的动态领域中，Aspose.PSD 作为处理图像操作的强大工具脱颖而出。本教程重点关注一项基本任务：使用 Aspose.PSD for .NET 构建矩形。无论您是经验丰富的开发人员还是新手，本分步指南都将引导您完成整个过程，确保您彻底掌握每个概念。
 
 ## 先决条件
 
@@ -81,7 +81,7 @@ A1：是的，Aspose.PSD 旨在与各种 .NET 环境配合使用，确保跨不�
 
 ### Q2：我可以在没有许可证的情况下将Aspose.PSD用于商业项目吗？
 
-A2：不需要，商业用途需要有效的许可证。获得您的许可证[这里](https://purchase.aspose.com/buy).
+ A2：不需要，商业用途需要有效的许可证。获得您的许可证[这里](https://purchase.aspose.com/buy).
 
 ### Q3：我如何寻求帮助或分享我使用 Aspose.PSD 的经验？
 

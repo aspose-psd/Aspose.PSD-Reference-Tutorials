@@ -2,7 +2,7 @@
 title: Dominar los efectos de estado de capa en Aspose.PSD para .NET
 linktitle: Trabajar con efectos de estado de capa
 second_title: API Aspose.PSD .NET
-description: Aprenda a utilizar los efectos de estado de capa en Aspose.PSD para .NET. Mejore sus archivos PSD con Sombra paralela, Superposición de degradado y más. Guía tutorial fácil.
+description: Aprenda a utilizar los efectos de estado de capa en Aspose.PSD para .NET. Mejore sus archivos PSD con Sombra paralela, Superposición de degradado y más. Guía tutorial sencilla.
 type: docs
 weight: 13
 url: /es/net/psd-file-manipulation/layer-state-effects/
@@ -69,7 +69,7 @@ psdImage.Save(outputFile);
 
 ### P2: ¿Dónde puedo encontrar la documentación de Aspose.PSD para .NET?
 
-A2: consulte la documentación detallada[aquí](https://reference.aspose.com/psd/net/).
+ A2: consulte la documentación detallada[aquí](https://reference.aspose.com/psd/net/).
 
 ### R3: ¿Hay una prueba gratuita disponible?
 

@@ -15,13 +15,13 @@ Välkommen till världen av Aspose.PSD för .NET, ett kraftfullt bibliotek som g
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-- Aspose.PSD för .NET Library: Se till att du har biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD för .NET Library: Se till att du har biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/psd/net/).
 
 -  Dokument- och utdatakataloger: Ställ in kataloger för ditt PSD-dokument och önskad utdata. Ändra`baseFolder` och`outputFolder` variabler i exemplet i enlighet därmed.
 
 ## Importera namnområden
 
-I ditt .NET-projekt, se till att importera de nödvändiga namnrymden för Aspose.PSD:
+ditt .NET-projekt, se till att importera de nödvändiga namnrymden för Aspose.PSD:
 
 ```csharp
 using System;

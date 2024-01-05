@@ -15,7 +15,7 @@ url: /zh/net/psd-drawing-techniques/creating-elliptical-shapes/
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
--  Aspose.PSD for .NET 库：确保您的 .NET 项目中安装了 Aspose.PSD 库。您可以从[Aspose.PSD for .NET 文档](https://reference.aspose.com/psd/net/).
+- Aspose.PSD for .NET 库：确保您的 .NET 项目中安装了 Aspose.PSD 库。您可以从[Aspose.PSD for .NET 文档](https://reference.aspose.com/psd/net/).
 
 - .NET 环境：本教程假设您具有 .NET 框架的应用知识。
 
@@ -88,7 +88,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### Q2：如何下载 Aspose.PSD for .NET？
 
- A2：您可以从发布页面下载它[这里](https://releases.aspose.com/psd/net/).
+ A2：您可以从发布页面下载[这里](https://releases.aspose.com/psd/net/).
 
 ### Q3：有免费试用吗？
 

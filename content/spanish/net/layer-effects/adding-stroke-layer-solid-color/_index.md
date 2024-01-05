@@ -17,7 +17,7 @@ Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisito
 
 - Conocimientos básicos de desarrollo .NET.
 - Visual Studio instalado en su máquina.
--  Aspose.PSD para la biblioteca .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/psd/net/).
+- Aspose.PSD para la biblioteca .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/psd/net/).
 
 ## Importar espacios de nombres
 
@@ -129,4 +129,4 @@ R2: ¡Absolutamente! Aspose.PSD para .NET es un producto comercial y puede utili
 
 ### P5: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 
- A5: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34)para buscar ayuda y conectarse con la comunidad.
+ A5: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para buscar ayuda y conectarse con la comunidad.

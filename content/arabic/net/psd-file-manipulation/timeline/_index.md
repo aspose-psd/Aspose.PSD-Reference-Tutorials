@@ -30,7 +30,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.Animation;
 string sourceFile = Path.Combine(baseDir, "image1219.psd");
 using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // الكود الخاص بك لمزيد من العمليات يذهب هنا
+    //الكود الخاص بك لمزيد من العمليات يذهب هنا
 }
 ```
 ## الخطوة 2: الوصول إلى الجدول الزمني

@@ -15,7 +15,7 @@ Nel campo dell'elaborazione delle immagini utilizzando .NET, Aspose.PSD si disti
 
 Prima di approfondire l'applicazione dei filtri gaussiani e Wiener con Aspose.PSD, assicurati di disporre dei seguenti prerequisiti:
 
-1.  Aspose.PSD per .NET: scarica e installa la libreria da[Aspose.PSD per la documentazione .NET](https://reference.aspose.com/psd/net/).
+1. Aspose.PSD per .NET: scarica e installa la libreria da[Aspose.PSD per la documentazione .NET](https://reference.aspose.com/psd/net/).
 
 2. Immagine campione: prepara un'immagine campione in formato PSD per la sperimentazione. È possibile trovare immagini di esempio nella documentazione Aspose.PSD.
 

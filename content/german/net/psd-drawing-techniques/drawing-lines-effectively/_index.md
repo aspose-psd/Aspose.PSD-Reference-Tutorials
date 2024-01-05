@@ -79,7 +79,7 @@ Zeichnen Sie mit einem blauen Stift zwei gepunktete diagonale Linien, indem Sie 
 ## Schritt 5: Durchgehende Linien zeichnen
 
 ```csharp
-    //Zeichnen Sie eine vier durchgehende Linie, indem Sie das Stiftobjekt mit einem festen Pinsel mit roter Farbe und zwei Punktstrukturen angeben
+    // Zeichnen Sie eine vier durchgehende Linie, indem Sie das Stiftobjekt mit einem festen Pinsel mit roter Farbe und zwei Punktstrukturen angeben
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

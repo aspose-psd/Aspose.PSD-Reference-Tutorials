@@ -15,7 +15,7 @@ När det gäller bildbehandling med .NET framstår Aspose.PSD som en kraftfull v
 
 Innan du fördjupar dig i tillämpningen av Gauss- och Wiener-filter med Aspose.PSD, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.PSD för .NET: Ladda ner och installera biblioteket från[Aspose.PSD för .NET-dokumentation](https://reference.aspose.com/psd/net/).
+1. Aspose.PSD för .NET: Ladda ner och installera biblioteket från[Aspose.PSD för .NET-dokumentation](https://reference.aspose.com/psd/net/).
 
 2. Provbild: Förbered en provbild i PSD-format för experiment. Du kan hitta exempelbilder i Aspose.PSD-dokumentationen.
 

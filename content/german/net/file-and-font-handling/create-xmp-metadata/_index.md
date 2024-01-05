@@ -42,7 +42,7 @@ Lassen Sie uns nun den Prozess der Erstellung von XMP-Metadaten in eine Reihe um
 // Der Pfad zum Dokumentenverzeichnis.
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 
-// Geben Sie die Größe des Bildes an, indem Sie ein Rechteck definieren
+//Geben Sie die Größe des Bildes an, indem Sie ein Rechteck definieren
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 

@@ -30,7 +30,7 @@ Commencez par charger l'image PSD à partir du fichier source spécifié. Assure
 string sourceFile = Path.Combine(baseDir, "image1219.psd");
 using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // Votre code pour d'autres opérations va ici
+    //Votre code pour d'autres opérations va ici
 }
 ```
 ## Étape 2 : accéder à la chronologie

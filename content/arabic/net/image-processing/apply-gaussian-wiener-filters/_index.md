@@ -15,7 +15,7 @@ url: /ar/net/image-processing/apply-gaussian-wiener-filters/
 
 قبل الخوض في تطبيق مرشحات Gaussian وWiener باستخدام Aspose.PSD، تأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.PSD لـ .NET: قم بتنزيل المكتبة وتثبيتها من ملف[Aspose.PSD لوثائق .NET](https://reference.aspose.com/psd/net/).
+1. Aspose.PSD لـ .NET: قم بتنزيل المكتبة وتثبيتها من ملف[Aspose.PSD لوثائق .NET](https://reference.aspose.com/psd/net/).
 
 2. صورة عينة: قم بإعداد صورة عينة بتنسيق PSD للتجريب. يمكنك العثور على نماذج الصور في وثائق Aspose.PSD.
 

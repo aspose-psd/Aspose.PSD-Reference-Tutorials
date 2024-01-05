@@ -81,7 +81,7 @@ var guid = Guid.NewGuid();
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//فحص وتحديث خصائص السكتة الدماغية
+// فحص وتحديث خصائص السكتة الدماغية
 // ...
 
 // تحديث العتامة ووضع المزج
@@ -135,7 +135,7 @@ A1: نعم، Aspose.PSD لـ .NET متوافق مع إصدارات مختلفة 
 
 ### س3: هل هناك أي نماذج لملفات PSD متاحة للاختبار؟
 
-ج3: يمكنك العثور على نماذج لملفات PSD في الوثائق[هنا](https://reference.aspose.com/psd/net/).
+ ج3: يمكنك العثور على نماذج لملفات PSD في الوثائق[هنا](https://reference.aspose.com/psd/net/).
 
 ### س 4: هل Aspose.PSD مناسب للمعالجة المجمعة لملفات PSD؟
 

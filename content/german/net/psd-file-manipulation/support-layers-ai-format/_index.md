@@ -15,7 +15,7 @@ Aspose.PSD für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern erm
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 1.  Aspose.PSD für .NET-Bibliothek: Laden Sie die Bibliothek von herunter und installieren Sie sie[Aspose.PSD-Website](https://releases.aspose.com/psd/net/).
 2. Entwicklungsumgebung: Stellen Sie sicher, dass Sie über eine funktionierende .NET-Entwicklungsumgebung, einschließlich Visual Studio, verfügen.
-3.  Beispiel-AI-Datei: Laden Sie die Beispiel-AI-Datei „form_8_2l3_7.ai“ herunter von[dieser Link](Your-Download-Link).
+3. Beispiel-AI-Datei: Laden Sie die Beispiel-AI-Datei „form_8_2l3_7.ai“ herunter von[dieser Link](Your-Download-Link).
 ## Namespaces importieren
 Importieren Sie zunächst die erforderlichen Namespaces in Ihr .NET-Projekt:
 ```csharp
@@ -62,7 +62,7 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 Wiederholen Sie diese Schritte nach Bedarf für andere Ebenen.
 ## Abschluss
 
- Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.PSD für .NET mit unterstützenden Ebenen im AI-Format arbeiten. Entdecken Sie die umfangreichen Funktionen und Dokumentationen der Bibliothek[Hier](https://reference.aspose.com/psd/net/).
+Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.PSD für .NET mit unterstützenden Ebenen im AI-Format arbeiten. Entdecken Sie die umfangreichen Funktionen und Dokumentationen der Bibliothek[Hier](https://reference.aspose.com/psd/net/).
 
 ## FAQs
 

@@ -15,7 +15,7 @@ Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Hinzufügen von Strichef
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.PSD für .NET: Laden Sie die Aspose.PSD-Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/psd/net/).
+- Aspose.PSD für .NET: Laden Sie die Aspose.PSD-Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/psd/net/).
 
 - Dokumentverzeichnis: Bereiten Sie ein Verzeichnis mit dem PSD-Dokument vor, auf das Sie Stricheffekte anwenden möchten.
 

@@ -38,7 +38,7 @@ Rectangle cropRectangle = new Rectangle(0, 0, 350, 450);
 ```
 ## Schritt 3: Beschneiden Sie das Bild
 ```csharp
-//Rufen Sie die Crop-Methode der Image-Klasse auf und übergeben Sie die Instanz der Rechteckklasse
+// Rufen Sie die Crop-Methode der Image-Klasse auf und übergeben Sie die Instanz der Rechteckklasse
 image.Crop(cropRectangle);
 ```
 ## Schritt 4: Geben Sie PNG-Optionen an

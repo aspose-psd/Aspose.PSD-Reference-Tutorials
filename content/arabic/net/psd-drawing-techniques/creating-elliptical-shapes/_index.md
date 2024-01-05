@@ -15,7 +15,7 @@ url: /ar/net/psd-drawing-techniques/creating-elliptical-shapes/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Aspose.PSD لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.PSD في مشروع .NET الخاص بك. يمكنك تنزيله من[Aspose.PSD لتوثيق .NET](https://reference.aspose.com/psd/net/).
+- Aspose.PSD لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.PSD في مشروع .NET الخاص بك. يمكنك تنزيله من[Aspose.PSD لتوثيق .NET](https://reference.aspose.com/psd/net/).
 
 - بيئة .NET: يفترض هذا البرنامج التعليمي أن لديك معرفة عملية بإطار عمل .NET.
 
@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## الخطوة 5: ارسم شكلًا بيضاويًا مستمرًا
 
 ```csharp
-    // ارسم شكلًا بيضاويًا مستمرًا عن طريق تحديد كائن القلم الذي يحتوي على فرشاة صلبة ذات لون أزرق ومستطيل محيط به
+    //ارسم شكلًا بيضاويًا مستمرًا عن طريق تحديد كائن القلم الذي يحتوي على فرشاة صلبة ذات لون أزرق ومستطيل محيط به
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // تصدير الصورة إلى تنسيق ملف bmp.

@@ -40,7 +40,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 string sourceFile = dataDir + @"sample.psd";
 
-//Aspose.PSD'yi kullanarak PSD dosyasını yükleyin
+// Aspose.PSD'yi kullanarak PSD dosyasını yükleyin
 using (var image = (PsdImage)Image.Load(sourceFile))
 {
     // Daha sonraki adımlara ilişkin kodunuz buraya gelecek

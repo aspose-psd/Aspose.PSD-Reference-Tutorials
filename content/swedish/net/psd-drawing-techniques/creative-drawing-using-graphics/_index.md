@@ -40,7 +40,7 @@ using (PsdImage image = new PsdImage(500, 500))
 }
 ```
 
-det här steget initierar vi en ny PsdImage med en bredd och höjd på 500 pixlar.
+I det här steget initierar vi en ny PsdImage med en bredd och höjd på 500 pixlar.
 
 ## Steg 2: Initiera grafik
 

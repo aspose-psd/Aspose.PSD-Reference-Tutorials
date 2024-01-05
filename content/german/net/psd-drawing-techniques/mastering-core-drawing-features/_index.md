@@ -81,7 +81,7 @@ image.SaveArgb32Pixels(new Rectangle(0, 0, 100, 10), pixels);
 Speichern Sie das geänderte Bild im BMP-Dateiformat:
 
 ```csharp
-//Bild in das BMP-Dateiformat exportieren.
+// Bild in das BMP-Dateiformat exportieren.
 image.Save(outpath, new BmpOptions());
 ```
 

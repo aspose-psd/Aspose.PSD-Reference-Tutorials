@@ -51,7 +51,7 @@ string destName = dataDir + @"Grayscaling_out.jpg";
 
 using (Image image = Image.Load(sourceFile))
 {
-    //Ytterligare kod kommer att läggas till i nästa steg.
+    // Ytterligare kod kommer att läggas till i nästa steg.
 }
 ```
 

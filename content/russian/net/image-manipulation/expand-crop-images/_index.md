@@ -41,7 +41,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 string sourceFile = dataDir + @"example1.psd";
 
-//Загрузите изображение
+// Загрузите изображение
 using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 {
     // Здесь будет размещен дополнительный код для обработки изображений

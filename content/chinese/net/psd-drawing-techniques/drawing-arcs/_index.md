@@ -15,7 +15,7 @@ url: /zh/net/psd-drawing-techniques/drawing-arcs/
 
 在我们深入了解绘制弧线的激动人心的世界之前，请确保您具备以下先决条件：
 
--  Aspose.PSD for .NET 库：从以下位置下载并安装 Aspose.PSD 库：[下载链接](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET 库：从以下位置下载并安装 Aspose.PSD 库：[下载链接](https://releases.aspose.com/psd/net/).
 
 - 文档目录：设置一个目录来存放你的文档，并替换`"Your Document Directory"`在提供的代码中使用实际路径。
 

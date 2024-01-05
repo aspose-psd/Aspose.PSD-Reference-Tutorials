@@ -41,7 +41,7 @@ string dataDir = RunExamples.GetDataDir_ModifyingAndConvertingImages();
 // Skapa en ny bild.
 using (PsdImage image = new PsdImage(500, 500))
 {
-    // Fyll bilddata.
+    //Fyll bilddata.
     // ... (Kod för att fylla bilddata)
     // Spara de nyskapade pixlarna.
     image.SaveArgb32Pixels(image.Bounds, pixels);
@@ -78,7 +78,7 @@ Slutligen sparar vi bilden med de uppdaterade färgprofilerna, som visar upp ski
 
 ## Slutsats
 
-den här handledningen utforskade vi processen för färgkonvertering med standard- och ICC-profiler i Aspose.PSD för .NET. Att förstå och implementera färgkonvertering är avgörande för att få korrekta och visuellt tilltalande bilder i dina .NET-applikationer.
+I den här handledningen utforskade vi processen för färgkonvertering med standard- och ICC-profiler i Aspose.PSD för .NET. Att förstå och implementera färgkonvertering är avgörande för att få korrekta och visuellt tilltalande bilder i dina .NET-applikationer.
 
 ## FAQ's
 

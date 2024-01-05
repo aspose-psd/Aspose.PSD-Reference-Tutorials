@@ -17,7 +17,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden 
 
 - Grundkenntnisse der .NET-Entwicklung.
 - Visual Studio ist auf Ihrem Computer installiert.
--  Aspose.PSD für .NET-Bibliothek. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/psd/net/).
+- Aspose.PSD für .NET-Bibliothek. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/psd/net/).
 
 ## Namespaces importieren
 
@@ -129,4 +129,4 @@ A2: Auf jeden Fall! Aspose.PSD für .NET ist ein kommerzielles Produkt und Sie k
 
 ### F5: Wie erhalte ich Unterstützung für Aspose.PSD für .NET?
 
- A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34)um Hilfe zu suchen und mit der Gemeinschaft in Kontakt zu treten.
+ A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) um Hilfe zu suchen und mit der Gemeinschaft in Kontakt zu treten.

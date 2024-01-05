@@ -86,7 +86,7 @@ A2：您可以实现try-catch块来处理使用Aspose.PSD进行图像处理期�
 
 ### Q3：Aspose.PSD for .NET 是否有免费试用版？
 
-A3：是的，您可以通过获取免费试用版来探索 Aspose.PSD 的功能[这里](https://releases.aspose.com/).
+ A3：是的，您可以通过获取免费试用版来探索 Aspose.PSD 的功能[这里](https://releases.aspose.com/).
 
 ### Q4：在哪里可以找到 Aspose.PSD 的社区支持？
 
@@ -94,4 +94,4 @@ A3：是的，您可以通过获取免费试用版来探索 Aspose.PSD 的功能
 
 ### Q5：如何获得Aspose.PSD的临时许可证？
 
- A5：您可以从以下地点获得临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+A5：您可以从以下地点获得临时许可证：[这里](https://purchase.aspose.com/temporary-license/).

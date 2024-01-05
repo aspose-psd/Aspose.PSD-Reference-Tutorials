@@ -22,7 +22,7 @@ using Aspose.PSD.ImageOptions;
 ## Шаг 1. Настройте свой проект
 Создайте новый проект .NET или откройте существующий в предпочитаемой вами IDE.
 ## Шаг 2. Подключите библиотеку Aspose.PSD
-Добавьте ссылку на библиотеку Aspose.PSD в свой проект. Вы можете сделать это, скачав библиотеку с сайта[Страница загрузки Aspose.PSD](https://releases.aspose.com/psd/net/).
+ Добавьте ссылку на библиотеку Aspose.PSD в свой проект. Вы можете сделать это, скачав библиотеку с сайта[Страница загрузки Aspose.PSD](https://releases.aspose.com/psd/net/).
 ## Шаг 3: Инициализируйте Aspose.PSD
 В своем коде инициализируйте Aspose.PSD, загрузив PSD-файл:
 ```csharp
@@ -63,7 +63,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 
 ### В3: Есть ли бесплатная пробная версия?
 
-О3: Да, вы можете изучить Aspose.PSD с помощью бесплатной пробной версии. Загрузить[здесь](https://releases.aspose.com/).
+ О3: Да, вы можете изучить Aspose.PSD с помощью бесплатной пробной версии. Загрузить[здесь](https://releases.aspose.com/).
 
 ### Вопрос 4: Где я могу найти поддержку Aspose.PSD?
 

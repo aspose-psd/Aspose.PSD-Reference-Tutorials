@@ -17,7 +17,7 @@ url: /zh/net/image-manipulation/rendering-gradient-overlay-effect/
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
--  Aspose.PSD 库：从以下位置下载并安装 Aspose.PSD 库：[网站](https://releases.aspose.com/psd/net/).
+- Aspose.PSD 库：从以下位置下载并安装 Aspose.PSD 库：[网站](https://releases.aspose.com/psd/net/).
 
 - 文档目录：为您的文档设置一个目录，您可以在其中存储源文件和输出文件。
 

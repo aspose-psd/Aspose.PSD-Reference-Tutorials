@@ -63,7 +63,7 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
     // Points de couleur
     // ...
 
-    // Points de transparence
+    //Points de transparence
     // ...
 }
 ```
@@ -90,7 +90,7 @@ settings.Reverse = true;
 // Ajouter un nouveau point de couleur
 // ...
 
-//Changer l'emplacement du point précédent
+// Changer l'emplacement du point précédent
 // ...
 
 // Ajouter un nouveau point de transparence
@@ -139,7 +139,7 @@ A2 : Aspose.PSD pour .NET prend en charge divers formats de fichiers image, nota
 
 ### Q3 : Existe-t-il une version d’essai disponible pour Aspose.PSD pour .NET ?
 
-A3 : Oui, vous pouvez explorer les capacités d'Aspose.PSD pour .NET en téléchargeant la version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez explorer les capacités d'Aspose.PSD pour .NET en téléchargeant la version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 

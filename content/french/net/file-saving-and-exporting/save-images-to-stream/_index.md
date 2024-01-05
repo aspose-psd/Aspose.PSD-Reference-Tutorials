@@ -17,7 +17,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre système.
 
-2. Aspose.PSD pour .NET : téléchargez et installez la bibliothèque Aspose.PSD. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/psd/net/).
+2.  Aspose.PSD pour .NET : téléchargez et installez la bibliothèque Aspose.PSD. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/psd/net/).
 
 3. Exemple de fichier PSD : préparez un exemple de fichier PSD pour le test. Si vous n'en avez pas, vous pouvez utiliser n'importe quel fichier PSD disponible pour vos besoins.
 
@@ -76,13 +76,13 @@ Toutes nos félicitations! Vous avez appris avec succès comment enregistrer des
 
  A1 : Oui, Aspose.PSD prend en charge divers formats d'image, notamment PSD, PNG, JPEG, etc. Consultez la documentation[ici](https://reference.aspose.com/psd/net/) pour une liste complète.
 
-### Q2 : Comment puis-je obtenir de l'assistance pour Aspose.PSD ?
+### Q2 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
 
  A2 : Visitez le forum d'assistance Aspose.PSD[ici](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide et du soutien communautaire.
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/) pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.
+ A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/)pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.
 
 ### Q4 : Comment puis-je obtenir une licence temporaire ?
 

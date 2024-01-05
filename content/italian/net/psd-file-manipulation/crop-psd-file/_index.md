@@ -22,7 +22,7 @@ using Aspose.PSD.ImageOptions;
 ## Passaggio 1: imposta il tuo progetto
 Crea un nuovo progetto .NET o aprine uno esistente nel tuo IDE preferito.
 ## Passaggio 2: includi la libreria Aspose.PSD
-Aggiungi un riferimento alla libreria Aspose.PSD nel tuo progetto. Puoi farlo scaricando la libreria dal file[Pagina di download di Aspose.PSD](https://releases.aspose.com/psd/net/).
+ Aggiungi un riferimento alla libreria Aspose.PSD nel tuo progetto. Puoi farlo scaricando la libreria dal file[Pagina di download di Aspose.PSD](https://releases.aspose.com/psd/net/).
 ## Passaggio 3: inizializzare Aspose.PSD
 Nel tuo codice, inizializza Aspose.PSD caricando il file PSD:
 ```csharp
@@ -63,7 +63,7 @@ A1: Sì, Aspose.PSD viene regolarmente aggiornato per garantire la compatibilit�
 
 ### Q3: È disponibile una prova gratuita?
 
-A3: Sì, puoi esplorare Aspose.PSD con una prova gratuita. Scaricalo[Qui](https://releases.aspose.com/).
+ A3: Sì, puoi esplorare Aspose.PSD con una prova gratuita. Scaricalo[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso trovare supporto per Aspose.PSD?
 

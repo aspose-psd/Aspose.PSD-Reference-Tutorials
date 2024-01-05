@@ -15,7 +15,7 @@ Benvenuti nel mondo di Aspose.PSD per .NET, una potente libreria che consente ag
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-- Aspose.PSD per .NET Library: assicurati di avere la libreria installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD per .NET Library: assicurati di avere la libreria installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/psd/net/).
 
 -  Directory di documenti e output: imposta le directory per il tuo documento PSD e l'output desiderato. Modifica il`baseFolder` E`outputFolder` variabili nell'esempio di conseguenza.
 

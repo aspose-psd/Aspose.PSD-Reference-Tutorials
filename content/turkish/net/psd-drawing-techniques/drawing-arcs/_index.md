@@ -15,7 +15,7 @@ Aspose.PSD for .NET kullanarak yay çizmeye ilişkin kapsamlı eğitimimize hoş
 
 Yay çizmenin heyecan verici dünyasına dalmadan önce, aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
--  Aspose.PSD for .NET Kütüphanesi: Aspose.PSD kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET Kütüphanesi: Aspose.PSD kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/psd/net/).
 
 -  Belge Dizini: Belgelerinizi saklamak için bir dizin ayarlayın ve değiştirin`"Your Document Directory"` sağlanan kodda gerçek yolu belirtin.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Actual Document Directory";
 
 ## Adım 2: Yay Çizimi
 
- Bir örneğini oluşturun`BmpOptions`ve aşağıdakiler de dahil olmak üzere özelliklerini ayarlayın:`BitsPerPixel`.
+ Bir örneğini oluşturun`BmpOptions` ve aşağıdakiler de dahil olmak üzere özelliklerini ayarlayın:`BitsPerPixel`.
 
 ```csharp
 BmpOptions saveOptions = new BmpOptions();

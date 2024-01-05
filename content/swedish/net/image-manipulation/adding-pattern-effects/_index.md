@@ -9,7 +9,7 @@ url: /sv/net/image-manipulation/adding-pattern-effects/
 ---
 ## Introduktion
 
-Att förbättra bilder med mönstereffekter kan ge en ny dimension till dina mönster. Aspose.PSD för .NET ger en kraftfull lösning för att sömlöst lägga till mönsteröverlägg till bilder, så att du kan skapa visuellt fantastisk grafik. Denna steg-för-steg handledning guidar dig genom processen att lägga till mönstereffekter med Aspose.PSD för .NET.
+Att förbättra bilder med mönstereffekter kan ge en ny dimension till dina mönster. Aspose.PSD för .NET tillhandahåller en kraftfull lösning för att sömlöst lägga till mönsteröverlägg till bilder, så att du kan skapa visuellt fantastisk grafik. Denna steg-för-steg handledning guidar dig genom processen att lägga till mönstereffekter med Aspose.PSD för .NET.
 
 ## Förutsättningar
 
@@ -21,7 +21,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-ditt C#-projekt, importera de nödvändiga namnrymden för att utnyttja funktionerna i Aspose.PSD för .NET:
+I ditt C#-projekt, importera de nödvändiga namnrymden för att utnyttja funktionerna i Aspose.PSD för .NET:
 
 ```csharp
 using Aspose.PSD.FileFormats.Psd;

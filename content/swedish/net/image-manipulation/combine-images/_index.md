@@ -94,7 +94,7 @@ S1: Ja, Aspose.PSD är kompatibel med alla versioner av .NET, vilket säkerstäl
 
 ### F2: Kan jag använda Aspose.PSD för kommersiella ändamål?
 
- S2: Ja, Aspose.PSD kan användas för både personliga och kommersiella ändamål. Kontrollera licensinformationen[här](https://purchase.aspose.com/buy).
+S2: Ja, Aspose.PSD kan användas för både personliga och kommersiella ändamål. Kontrollera licensinformationen[här](https://purchase.aspose.com/buy).
 
 ### F3: Hur får jag support för Aspose.PSD?
 
@@ -106,4 +106,4 @@ S1: Ja, Aspose.PSD är kompatibel med alla versioner av .NET, vilket säkerstäl
 
 ### F5: Kan jag få en tillfällig licens för Aspose.PSD?
 
- A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

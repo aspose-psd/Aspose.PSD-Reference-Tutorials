@@ -81,7 +81,7 @@ Få åtkomst till strecklagret och uppdatera dess egenskaper:
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//Kontrollera och uppdatera slagegenskaper
+// Kontrollera och uppdatera slagegenskaper
 // ...
 
 // Uppdatera opacitet och blandningsläge
@@ -135,7 +135,7 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika versioner av Visual Studio
 
 ### F3: Finns det några exempel på PSD-filer tillgängliga för testning?
 
-S3: Du kan hitta exempel på PSD-filer i dokumentationen[här](https://reference.aspose.com/psd/net/).
+ S3: Du kan hitta exempel på PSD-filer i dokumentationen[här](https://reference.aspose.com/psd/net/).
 
 ### F4: Är Aspose.PSD lämplig för batchbearbetning av PSD-filer?
 

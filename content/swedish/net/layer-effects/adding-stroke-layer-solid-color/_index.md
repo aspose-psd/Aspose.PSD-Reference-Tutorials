@@ -17,7 +17,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 - Grundläggande kunskap om .NET-utveckling.
 - Visual Studio installerat på din dator.
--  Aspose.PSD för .NET-bibliotek. Du kan ladda ner den från[hemsida](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET-bibliotek. Du kan ladda ner den från[hemsida](https://releases.aspose.com/psd/net/).
 
 ## Importera namnområden
 
@@ -129,4 +129,4 @@ A2: Absolut! Aspose.PSD för .NET är en kommersiell produkt, och du kan använd
 
 ### F5: Hur kan jag få support för Aspose.PSD för .NET?
 
- A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34)att söka hjälp och få kontakt med samhället.
+ A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) att söka hjälp och få kontakt med samhället.

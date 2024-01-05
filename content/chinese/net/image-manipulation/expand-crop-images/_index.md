@@ -93,7 +93,7 @@ A1：是的，Aspose.PSD 支持多种图像格式，包括 JPEG、PNG、GIF 等�
 
 ### Q4：如何获得Aspose.PSD的临时许可证？
 
- A4：您可以从以下地点获得临时许可证：[Aspose.PSD临时许可证](https://purchase.aspose.com/temporary-license/).
+A4：您可以从以下地点获得临时许可证：[Aspose.PSD临时许可证](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：哪里可以购买 Aspose.PSD for .NET？
 

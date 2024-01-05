@@ -12,7 +12,7 @@ Bienvenue dans notre guide complet sur la gestion des sections de données anim�
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous de disposer des prérequis suivants :
 - Connaissance de base de la programmation C# et .NET.
--  Aspose.PSD pour .NET installé. Si vous ne l'avez pas encore installé, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/psd/net/).
+- Aspose.PSD pour .NET installé. Si vous ne l'avez pas encore installé, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/psd/net/).
 - Un éditeur de code tel que Visual Studio pour une implémentation transparente.
 ## Importer des espaces de noms
 Dans votre code C#, assurez-vous d'importer les espaces de noms nécessaires pour travailler avec Aspose.PSD :

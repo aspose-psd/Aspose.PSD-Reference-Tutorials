@@ -37,7 +37,7 @@ Aspose.PSD for .NET eğitimleriyle görüntü işleme bir sanat formuna dönüş
 ### [Aspose.PSD for .NET'te Gaussian ve Wiener Filtrelerini Uygulama](./apply-gaussian-wiener-filters/)
 Aspose.PSD for .NET ile görüntü kalitesini zahmetsizce geliştirin. Gürültü azaltma ve optimum görsel çekicilik için Gaussian ve Wiener filtrelerini uygulayın.
 ### [Aspose.PSD for .NET ile Renkli Görüntülere Medyan ve Wiener Filtreleri Uygulama](./apply-median-wiener-filters-color-images/)
-Aspose.PSD for .NET ile Medyan ve Wiener Filtrelerini kullanarak renkli görüntüleri geliştirin ve gürültüsünü giderin. Kusursuz görüntü işleme için adım adım kılavuz.
+Aspose.PSD for .NET ile Medyan ve Wiener Filtrelerini kullanarak renkli görüntüleri geliştirin ve gürültüsünü giderin. Sorunsuz görüntü işleme için adım adım kılavuz.
 ### [Aspose.PSD for .NET'te İkilileştirme Teknikleri](./binarization-techniques/)
 Aspose.PSD for .NET'teki gelişmiş ikilileştirme tekniklerini keşfedin. BinarizationWithFixedThreshold yöntemini kullanarak renkli görüntüleri ikili formata kolaylıkla dönüştürün.
 ### [Aspose.PSD for .NET'te Varsayılan ve ICC Profillerini Kullanarak Renk Dönüştürme](./color-conversion-default-icc-profiles/)
