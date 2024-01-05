@@ -1,6 +1,6 @@
 ---
 title: Add Gradient Effects in Aspose.PSD for Java
-linktitle: Add Gradient Effects in Aspose.PSD for Java
+linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 description: Enhance your Java images with stunning gradient effects using Aspose.PSD. Follow our step-by-step guide for seamless integration.
 type: docs

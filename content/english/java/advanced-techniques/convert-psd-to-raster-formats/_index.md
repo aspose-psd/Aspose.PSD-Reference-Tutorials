@@ -1,6 +1,6 @@
 ---
 title: Convert PSD to Raster Image Formats with Aspose.PSD for Java
-linktitle: Convert PSD to Raster Image Formats with Aspose.PSD for Java
+linktitle: Convert PSD to Raster Image Formats
 second_title: Aspose.PSD Java API
 description: Effortlessly convert PSD files to raster images using Aspose.PSD for Java. Explore step-by-step guidance, versatile export options, and seamless integration.
 type: docs

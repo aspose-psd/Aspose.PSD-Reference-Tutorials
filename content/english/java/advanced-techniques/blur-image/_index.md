@@ -1,6 +1,6 @@
 ---
 title: Blur an Image using Aspose.PSD for Java
-linktitle: Blur an Image using Aspose.PSD for Java
+linktitle: Blur an Image
 second_title: Aspose.PSD Java API
 description: Learn to blur images in Java with Aspose.PSD. Follow our step-by-step guide for professional results.
 type: docs

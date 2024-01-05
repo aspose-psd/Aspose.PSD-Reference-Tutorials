@@ -1,6 +1,6 @@
 ---
 title: Binarization with Otsu Threshold in Aspose.PSD for Java
-linktitle: Binarization with Otsu Threshold in Aspose.PSD for Java
+linktitle: Binarization with Otsu Threshold
 second_title: Aspose.PSD Java API
 description: Explore Binarization with Otsu Threshold in Aspose.PSD for Java. A powerful image segmentation technique.
 type: docs

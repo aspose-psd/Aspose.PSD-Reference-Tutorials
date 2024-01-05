@@ -1,6 +1,6 @@
 ---
 title: Settings for Replacing Missing Fonts in Aspose.PSD for Java
-linktitle: Settings for Replacing Missing Fonts in Aspose.PSD for Java
+linktitle: Settings for Replacing Missing Fonts
 second_title: Aspose.PSD Java API
 description: Explore a comprehensive guide on replacing missing fonts in Aspose.PSD for Java. Elevate your image design with seamless font management.
 type: docs

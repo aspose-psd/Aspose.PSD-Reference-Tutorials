@@ -1,6 +1,6 @@
 ---
 title: Replace Fonts in Aspose.PSD for Java
-linktitle: Replace Fonts in Aspose.PSD for Java
+linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 description: Learn how to replace fonts in images using Aspose.PSD for Java. Follow our step-by-step guide for efficient font manipulation.
 type: docs

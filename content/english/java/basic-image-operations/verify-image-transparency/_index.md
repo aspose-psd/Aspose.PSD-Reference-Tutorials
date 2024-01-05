@@ -1,6 +1,6 @@
 ---
 title: Verify Image Transparency with Aspose.PSD for Java
-linktitle: Verify Image Transparency with Aspose.PSD for Java
+linktitle: Verify Image Transparency
 second_title: Aspose.PSD Java API
 description: Explore image transparency verification with Aspose.PSD for Java. Easy integration, detailed documentation, and excellent community support.
 type: docs

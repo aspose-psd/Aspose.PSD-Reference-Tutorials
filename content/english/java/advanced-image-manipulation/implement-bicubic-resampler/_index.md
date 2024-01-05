@@ -1,6 +1,6 @@
 ---
 title: Implement Bicubic Resampler in Aspose.PSD for Java
-linktitle: Implement Bicubic Resampler in Aspose.PSD for Java
+linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 description: Enhance Java image resizing with Aspose.PSD for Java Bicubic Resampler. Follow our step-by-step guide for superior results.
 type: docs

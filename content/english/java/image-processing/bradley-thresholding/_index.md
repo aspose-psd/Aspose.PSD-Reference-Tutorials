@@ -1,6 +1,6 @@
 ---
 title: Bradley Thresholding in Aspose.PSD for Java
-linktitle: Bradley Thresholding in Aspose.PSD for Java
+linktitle: Bradley Thresholding
 second_title: Aspose.PSD Java API
 description: Enhance image quality with Bradley Thresholding in Aspose.PSD for Java. Follow our step-by-step guide for effective image binarization.
 type: docs

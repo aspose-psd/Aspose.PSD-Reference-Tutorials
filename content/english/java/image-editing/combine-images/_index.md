@@ -1,6 +1,6 @@
 ---
 title: Combine Images using Aspose.PSD for Java
-linktitle: Combine Images using Aspose.PSD for Java
+linktitle: Combine Images
 second_title: Aspose.PSD Java API
 description: Learn how to merge images in Java with Aspose.PSD. Follow our step-by-step guide for seamless image combination.
 type: docs

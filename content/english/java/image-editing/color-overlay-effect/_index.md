@@ -1,6 +1,6 @@
 ---
 title: Apply Color Overlay Effect in Aspose.PSD for Java
-linktitle: Apply Color Overlay Effect in Aspose.PSD for Java
+linktitle: Apply Color Overlay Effect
 second_title: Aspose.PSD Java API
 description: Discover the magic of Color Overlay Effects in Aspose.PSD for Java. Elevate your image editing game with this step-by-step guide.
 type: docs

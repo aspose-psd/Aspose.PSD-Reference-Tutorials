@@ -1,6 +1,6 @@
 ---
 title: Mastering Color Conversion Tutorial - Aspose.PSD for Java
-linktitle: Color Conversion using Default Profiles in Aspose.PSD for Java
+linktitle: Color Conversion using Default Profiles
 second_title: Aspose.PSD Java API
 description: Enhance Java image processing with Aspose.PSD! Learn color conversion using default profiles for vibrant, customized images. Explore now!
 type: docs

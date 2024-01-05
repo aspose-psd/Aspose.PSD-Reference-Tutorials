@@ -1,6 +1,6 @@
 ---
 title: Synchronize Root using Aspose.PSD for Java
-linktitle: Synchronize Root using Aspose.PSD for Java
+linktitle: Synchronize Root
 second_title: Aspose.PSD Java API
 description: Learn how to synchronize root using Aspose.PSD for Java. Follow our step-by-step guide for efficient Java stream operations.
 type: docs

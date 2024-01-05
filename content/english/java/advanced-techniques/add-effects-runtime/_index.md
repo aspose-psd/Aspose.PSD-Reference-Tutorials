@@ -1,6 +1,6 @@
 ---
 title: Add Effects at Runtime with Aspose.PSD for Java
-linktitle: Add Effects at Runtime with Aspose.PSD for Java
+linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
 description: Explore the seamless integration of Aspose.PSD for Java to dynamically add captivating effects to images. Elevate your Java development with this intuitive tutorial.
 type: docs

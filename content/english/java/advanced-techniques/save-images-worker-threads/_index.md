@@ -1,6 +1,6 @@
 ---
 title: Save Images using Worker Threads with Aspose.PSD for Java
-linktitle: Save Images using Worker Threads with Aspose.PSD for Java
+linktitle: Save Images using Worker Threads
 second_title: Aspose.PSD Java API
 description: Explore multi threaded image processing in Java with Aspose.PSD. Learn to save images efficiently using worker threads.
 type: docs

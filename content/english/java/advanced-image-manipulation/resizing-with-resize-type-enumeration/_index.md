@@ -1,6 +1,6 @@
 ---
 title: Resizing with Resize Type Enumeration in Aspose.PSD for Java
-linktitle: Resizing with Resize Type Enumeration in Aspose.PSD for Java
+linktitle: Resizing with Resize Type Enumeration
 second_title: Aspose.PSD Java API
 description: Master image resizing in Java with Aspose.PSD. Step-by-step guide using Resize Type Enumeration. 
 type: docs

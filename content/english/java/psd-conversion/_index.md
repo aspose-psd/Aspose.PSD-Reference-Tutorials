@@ -20,13 +20,13 @@ Take your Java image processing to the next level by mastering color conversion 
 ## Color Conversion using ICC Profiles
 Delve into the world of seamless color conversion using ICC profiles in Aspose.PSD for Java. Achieve accuracy and vibrancy in your images effortlessly, as we walk you through the intricacies of this advanced feature. Elevate your image processing game with precision and finesse. Learn more [here](./color-conversion-icc-profiles/).
 
-## Cropping PSD when Converting to PNG with Aspose.PSD for Java
+## Cropping PSD when Converting to PNG
 Learn the art of cropping PSD files and converting them to PNG using Aspose.PSD for Java. Enhance your Java applications with efficient image processing techniques that save time and resources. Follow our step-by-step guide [here](./cropping-psd-converting-png/) to master this essential skill.
 
-## Export Images in Multi-Threaded Environment with Aspose.PSD for Java
+## Export Images in Multi-Threaded Environment
 Unleash the power of Aspose.PSD for Java in exporting images in a multi-threaded environment. Elevate your application's capabilities and efficiency with our comprehensive tutorial. Explore the nuances of multi-threaded image exporting to optimize your Java projects. Find the details [here](./export-images-multi-thread/).
 
-## Convert GIF Image Layers to TIFF with Aspose.PSD for Java
+## Convert GIF Image Layers to TIFF
 Effortlessly convert GIF image layers to TIFF format in Java using Aspose.PSD. Our step-by-step guide ensures a seamless integration process. Follow the tutorial [here](./gif-image-layers-to-tiff/) to enhance your image processing capabilities and achieve superior results in your Java applications.
 
 Ready to embark on a journey of Java image processing mastery? Explore these tutorials and witness the transformation of your projects with Aspose.PSD. Elevate your capabilities and create visually stunning applications effortlessly. 

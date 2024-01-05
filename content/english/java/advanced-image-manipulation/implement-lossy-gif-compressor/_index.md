@@ -1,6 +1,6 @@
 ---
 title: Implement Lossy GIF Compressor in Aspose.PSD for Java
-linktitle: Implement Lossy GIF Compressor in Aspose.PSD for Java
+linktitle: Implement Lossy GIF Compressor
 second_title: Aspose.PSD Java API
 description: Optimize your web images seamlessly with Aspose.PSD for Java's Lossy GIF Compressor. Follow our step-by-step guide for efficient implementation. 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Perform Simple Drawing with Aspose.PSD for Java
-linktitle: Perform Simple Drawing with Aspose.PSD for Java
+linktitle: Perform Simple Drawing
 second_title: Aspose.PSD Java API
 description: Learn how to draw shapes in PSD files using Aspose.PSD for Java. This step-by-step guide covers creating, adding layers, and drawing with code examples.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Convert GIF Layers to TIFF Tutorial - Aspose.PSD for Java
-linktitle: Convert GIF Image Layers to TIFF with Aspose.PSD for Java
+linktitle: Convert GIF Image Layers to TIFF
 second_title: Aspose.PSD Java API
 description: Effortlessly convert GIF image layers to TIFF format in Java using Aspose.PSD. Follow our step-by-step guide for seamless integration.
 type: docs

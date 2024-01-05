@@ -1,6 +1,6 @@
 ---
 title: Cropping PSD when Converting to PNG with Aspose.PSD for Java
-linktitle: Cropping PSD when Converting to PNG with Aspose.PSD for Java
+linktitle: Cropping PSD when Converting to PNG
 second_title: Aspose.PSD Java API
 description: Learn how to crop PSD files and convert them to PNG using Aspose.PSD for Java. Enhance your Java applications with efficient image processing.
 type: docs

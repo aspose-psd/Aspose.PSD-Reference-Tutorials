@@ -1,6 +1,6 @@
 ---
 title: Support Blend Modes in Aspose.PSD for Java
-linktitle: Support Blend Modes in Aspose.PSD for Java
+linktitle: Support Blend Modes
 second_title: Aspose.PSD Java API
 description: Enhance image processing in Java with Aspose.PSD. Learn to leverage blend modes for stunning effects.
 type: docs

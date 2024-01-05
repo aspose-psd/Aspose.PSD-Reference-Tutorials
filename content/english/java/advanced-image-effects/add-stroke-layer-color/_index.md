@@ -1,6 +1,6 @@
 ---
 title: Add Stroke Layer Color in Aspose.PSD for Java
-linktitle: Add Stroke Layer Color in Aspose.PSD for Java
+linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 description: Explore the power of Aspose.PSD for Java with our step-by-step guide on adding stroke layer color. Elevate your graphic designs effortlessly.
 type: docs

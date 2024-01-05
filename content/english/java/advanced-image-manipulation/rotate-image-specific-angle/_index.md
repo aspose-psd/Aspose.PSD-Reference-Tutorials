@@ -1,6 +1,6 @@
 ---
 title: Rotate an Image on a Specific Angle with Aspose.PSD for Java
-linktitle: Rotate an Image on a Specific Angle with Aspose.PSD for Java
+linktitle: Rotate an Image on a Specific Angle
 second_title: Aspose.PSD Java API
 description: Explore image rotation in Java with Aspose.PSD for Java. Rotate images effortlessly on specific angles.
 type: docs

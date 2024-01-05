@@ -1,6 +1,6 @@
 ---
 title: Apply Median and Wiener Filters with Aspose.PSD for Java
-linktitle: Apply Median and Wiener Filters with Aspose.PSD for Java
+linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
 description: Explore the power of image processing in Java with Aspose.PSD. Learn how to apply Median and Wiener Filters step by step. Enhance image quality effortlessly.
 type: docs

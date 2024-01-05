@@ -1,6 +1,6 @@
 ---
 title: Mastering CMYK PSD to CMYK TIFF Conversion with Aspose.PSD
-linktitle: Convert CMYK PSD to CMYK TIFF using Aspose.PSD for Java
+linktitle: Convert CMYK PSD to CMYK TIFF
 second_title: Aspose.PSD Java API
 description: Explore the power of Aspose.PSD for Java with our step-by-step guide on converting CMYK PSD to CMYK TIFF. Boost your document processing capabilities effortlessly!
 type: docs

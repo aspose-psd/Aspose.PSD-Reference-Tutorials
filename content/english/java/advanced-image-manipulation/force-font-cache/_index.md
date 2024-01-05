@@ -1,6 +1,6 @@
 ---
 title: Force Font Cache with Aspose.PSD for Java
-linktitle: Force Font Cache with Aspose.PSD for Java
+linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 description: Learn how to force font cache using Aspose.PSD for Java. Optimize image processing and enhance performance with this step-by-step guide.
 type: docs

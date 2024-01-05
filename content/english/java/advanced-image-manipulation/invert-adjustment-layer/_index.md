@@ -1,6 +1,6 @@
 ---
 title: Invert Adjustment Layer in Aspose.PSD for Java
-linktitle: Invert Adjustment Layer in Aspose.PSD for Java
+linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 description: Explore the Invert Adjustment Layer in Aspose.PSD for Java. A powerful Java library for seamless PSD file manipulation.
 type: docs

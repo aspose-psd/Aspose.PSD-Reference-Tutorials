@@ -1,6 +1,6 @@
 ---
 title: Crop Image by Rectangle in Aspose.PSD for Java
-linktitle: Crop Image by Rectangle in Aspose.PSD for Java
+linktitle: Crop Image by Rectangle
 second_title: Aspose.PSD Java API
 description: Explore the seamless image cropping capabilities in Java with Aspose.PSD. Follow our step-by-step guide to crop images effortlessly using Aspose.PSD for Java.
 type: docs

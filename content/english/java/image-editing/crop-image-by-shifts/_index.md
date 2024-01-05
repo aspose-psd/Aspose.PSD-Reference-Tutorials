@@ -1,6 +1,6 @@
 ---
 title: Crop Image by Shifts in Aspose.PSD for Java
-linktitle: Crop Image by Shifts in Aspose.PSD for Java
+linktitle: Crop Image by Shifts
 second_title: Aspose.PSD Java API
 description: Master image cropping with Aspose.PSD for Java. A comprehensive tutorial for seamless image manipulation.
 type: docs

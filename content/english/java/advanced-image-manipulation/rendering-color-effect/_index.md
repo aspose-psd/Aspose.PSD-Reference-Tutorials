@@ -1,6 +1,6 @@
 ---
 title: Apply Rendering Color Effect in Aspose.PSD for Java
-linktitle: Apply Rendering Color Effect in Aspose.PSD for Java
+linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 description: Enhance your Java applications with dynamic color overlays using Aspose.PSD. Follow our step-by-step guide for seamless integration and stunning visual effects.
 type: docs

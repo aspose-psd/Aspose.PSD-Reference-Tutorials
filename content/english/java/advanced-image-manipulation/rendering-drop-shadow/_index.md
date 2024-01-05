@@ -1,6 +1,6 @@
 ---
 title: Apply Rendering Drop Shadow in Aspose.PSD for Java
-linktitle: Apply Rendering Drop Shadow in Aspose.PSD for Java
+linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 description: Explore the step-by-step guide to applying rendering drop shadows in Aspose.PSD for Java, enhancing your image processing skills effortlessly.
 type: docs

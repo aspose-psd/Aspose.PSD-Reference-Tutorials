@@ -1,6 +1,6 @@
 ---
 title: Add Pattern Effects in Aspose.PSD for Java
-linktitle: Add Pattern Effects in Aspose.PSD for Java
+linktitle: Add Pattern Effects
 second_title: Aspose.PSD Java API
 description: Enhance your Java image patterns effortlessly with Aspose.PSD for Java. Follow our step-by-step tutorial to add captivating pattern effects.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Save Images to Disk with Aspose.PSD for Java
-linktitle: Save Images to Disk with Aspose.PSD for Java
+linktitle: Save Images to Disk
 second_title: Aspose.PSD Java API
 description: Effortlessly save images to disk using Aspose.PSD for Java. A powerful Java library for PSD file manipulation.
 type: docs

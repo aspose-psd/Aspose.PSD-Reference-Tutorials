@@ -1,6 +1,6 @@
 ---
 title: Render Text with Different Colors in Text Layer using Aspose.PSD for Java
-linktitle: Render Text with Different Colors in Text Layer using Aspose.PSD for Java
+linktitle: Render Text with Different Colors in Text Layer
 second_title: Aspose.PSD Java API
 description: Learn how to render text with different colors in a PSD text layer using Aspose.PSD for Java. Follow our step-by-step guide for seamless results.
 type: docs

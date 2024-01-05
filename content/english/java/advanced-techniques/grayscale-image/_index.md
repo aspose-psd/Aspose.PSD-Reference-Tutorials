@@ -1,6 +1,6 @@
 ---
 title: Grayscale an Image using Aspose.PSD for Java
-linktitle: Grayscale an Image using Aspose.PSD for Java
+linktitle: Grayscale an Image
 second_title: Aspose.PSD Java API
 description: Explore Aspose.PSD for Java and learn how to effortlessly grayscale images with our step-by-step tutorial.
 type: docs

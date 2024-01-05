@@ -1,6 +1,6 @@
 ---
 title: Adjust Gamma of an Image with Aspose.PSD for Java
-linktitle: Adjust Gamma of an Image with Aspose.PSD for Java
+linktitle: Adjust Gamma of an Image
 second_title: Aspose.PSD Java API
 description: Learn to adjust image gamma effortlessly using Aspose.PSD for Java. Follow our step-by-step guide for optimal results.
 type: docs

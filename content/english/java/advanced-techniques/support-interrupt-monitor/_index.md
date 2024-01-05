@@ -1,6 +1,6 @@
 ---
 title: Support for Interrupt Monitor in Aspose.PSD for Java
-linktitle: Support for Interrupt Monitor in Aspose.PSD for Java
+linktitle: Support for Interrupt Monitor
 second_title: Aspose.PSD Java API
 description: Unlock control in image processing with Aspose.PSD for Java. Learn to interrupt processes for flexible workflows.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Apply Motion Wiener Filters using Aspose.PSD for Java
-linktitle: Apply Motion Wiener Filters using Aspose.PSD for Java
+linktitle: Apply Motion Wiener Filters
 second_title: Aspose.PSD Java API
 description: Master image processing in Java with Aspose.PSD. Apply Motion Wiener Filters effortlessly using our step-by-step guide.
 type: docs

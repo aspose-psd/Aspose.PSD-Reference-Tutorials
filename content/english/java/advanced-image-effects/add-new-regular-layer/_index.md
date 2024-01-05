@@ -1,6 +1,6 @@
 ---
 title: Add a New Regular Layer to PSD with Aspose.PSD for Java
-linktitle: Add a New Regular Layer to PSD with Aspose.PSD for Java
+linktitle: Add a New Regular Layer to PSD
 second_title: Aspose.PSD Java API
 description: Learn how to add a new regular layer to PSD files using Aspose.PSD for Java. Follow our step-by-step guide for seamless PSD manipulation.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Crop PSD File using Aspose.PSD for Java
-linktitle: Crop PSD File using Aspose.PSD for Java
+linktitle: Crop PSD File
 second_title: Aspose.PSD Java API
 description: Explore seamless PSD file cropping in Java with Aspose.PSD. Effortlessly integrate precision and efficiency into your image manipulation tasks.
 type: docs

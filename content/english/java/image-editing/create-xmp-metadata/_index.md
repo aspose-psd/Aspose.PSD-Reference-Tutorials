@@ -1,6 +1,6 @@
 ---
 title: Create XMP Metadata with Aspose.PSD for Java
-linktitle: Create XMP Metadata with Aspose.PSD for Java
+linktitle: Create XMP Metadata
 second_title: Aspose.PSD Java API
 description: Enhance your Java applications with Aspose.PSD. Learn to create XMP metadata effortlessly. Follow our step-by-step guide now.
 type: docs

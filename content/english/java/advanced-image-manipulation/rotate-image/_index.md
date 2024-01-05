@@ -1,6 +1,6 @@
 ---
 title: Rotate an Image in Aspose.PSD for Java
-linktitle: Rotate an Image in Aspose.PSD for Java
+linktitle: Rotate an Image
 second_title: Aspose.PSD Java API
 description: Explore image rotation in Java effortlessly with Aspose.PSD. Rotate, flip, and save PSD files easily.
 type: docs

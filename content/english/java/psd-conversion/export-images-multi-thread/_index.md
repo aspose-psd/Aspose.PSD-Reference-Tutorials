@@ -1,6 +1,6 @@
 ---
 title: Multi-Threaded Image Export Tutorial - Aspose.PSD for Java
-linktitle: Export Images in Multi-Threaded Environment with Aspose.PSD for Java
+linktitle: Export Images in Multi-Threaded Environment
 second_title: Aspose.PSD Java API
 description: Explore the power of Aspose.PSD for Java in exporting images in a multi-threaded environment. Elevate your Java application's capabilities!
 type: docs

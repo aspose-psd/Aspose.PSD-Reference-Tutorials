@@ -1,6 +1,6 @@
 ---
 title: Support Shadow Effect in Aspose.PSD for Java
-linktitle: Support Shadow Effect in Aspose.PSD for Java
+linktitle: Support Shadow Effect
 second_title: Aspose.PSD Java API
 description: Learn how to add captivating shadow effects to images using Aspose.PSD for Java. Elevate your graphic design with this step-by-step tutorial.
 type: docs

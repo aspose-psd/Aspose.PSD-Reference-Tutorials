@@ -1,6 +1,6 @@
 ---
 title: Mastering Color Conversion with ICC Profiles in Aspose.PSD
-linktitle: Color Conversion using ICC Profiles in Aspose.PSD for Java
+linktitle: Color Conversion using ICC Profiles
 second_title: Aspose.PSD Java API
 description: 
 type: docs

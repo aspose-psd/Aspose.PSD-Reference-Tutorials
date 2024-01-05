@@ -1,6 +1,6 @@
 ---
 title: Binarization with Fixed Threshold in Aspose.PSD for Java
-linktitle: Binarization with Fixed Threshold in Aspose.PSD for Java
+linktitle: Binarization with Fixed Threshold
 second_title: Aspose.PSD Java API
 description: Explore Binarization with Fixed Threshold in Aspose.PSD for Java. Transform images seamlessly with our step-by-step guide.
 type: docs

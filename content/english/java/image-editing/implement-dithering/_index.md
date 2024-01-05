@@ -1,6 +1,6 @@
 ---
 title: Implement Dithering for Raster Images in Aspose.PSD for Java
-linktitle: Implement Dithering for Raster Images in Aspose.PSD for Java
+linktitle: Implement Dithering for Raster Images
 second_title: Aspose.PSD Java API
 description: Enhance image quality with Aspose.PSD for Java. Follow our step-by-step guide to implement dithering and eliminate color banding.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Adjust Contrast of an Image with Aspose.PSD for Java
-linktitle: Adjust Contrast of an Image with Aspose.PSD for Java
+linktitle: Adjust Contrast of an Image
 second_title: Aspose.PSD Java API
 description: Explore the world of image contrast adjustment in Java with Aspose.PSD. Follow our step-by-step guide for seamless image manipulation.
 type: docs
