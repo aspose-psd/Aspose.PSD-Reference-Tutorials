@@ -25,7 +25,7 @@ import com.aspose.psd.imageoptions.TiffOptions;
 import java.io.FileNotFoundException;
 ```
 ## Step 1: Set Up Your Environment
-Make sure you have Java and Aspose.PSD for Java installed on your system. If not, refer to the [official documentation](https://reference.aspose.com/psd/java/) for installation instructions.
+Make sure you have Java and Aspose.PSD for Java installed on your system. If not, refer to the [documentation](https://reference.aspose.com/psd/java/) for installation instructions.
 ## Step 2: Import Aspose.PSD Library
 In your Java project, include the Aspose.PSD library by adding it to your project's dependencies. You can download the library [here](https://releases.aspose.com/psd/java/).
 ## Step 3: Create a PSD Image Object
@@ -63,4 +63,4 @@ For any queries or issues, visit the [Aspose.PSD forum](https://forum.aspose.com
 ### Do I need a temporary license for testing purposes?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### How can I stay updated with the Aspose.PSD documentation?
-Refer to the official documentation [here](https://reference.aspose.com/psd/java/) for the latest updates and guides.
+Refer to the documentation [here](https://reference.aspose.com/psd/java/) for the latest updates and guides.

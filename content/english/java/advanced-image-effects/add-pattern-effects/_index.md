@@ -16,7 +16,7 @@ In the world of Java development, enhancing image patterns is a common task, and
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 
 - Java Development Kit (JDK) installed on your system.
-- Aspose.PSD for Java library downloaded and added to your project. You can download it from the official [Aspose.PSD website](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java library downloaded and added to your project. You can download it from the [Aspose.PSD website](https://releases.aspose.com/psd/java/).
 
 ## Import Packages
 
@@ -127,7 +127,7 @@ A1: Aspose.PSD for Java is designed to work independently, but you can integrate
 
 ### Q2: Where can I find detailed documentation for Aspose.PSD for Java?
 
-A2: Refer to the official [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) for comprehensive information.
+A2: Refer to the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) for comprehensive information.
 
 ### Q3: Is there a free trial available for Aspose.PSD for Java?
 

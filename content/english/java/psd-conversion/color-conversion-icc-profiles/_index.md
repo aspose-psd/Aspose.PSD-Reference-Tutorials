@@ -11,7 +11,7 @@ url: /java/psd-conversion/color-conversion-icc-profiles/
 Welcome to a comprehensive guide on color conversion using ICC profiles in Aspose.PSD for Java. In this tutorial, we will explore the steps to perform color conversion, emphasizing the use of ICC profiles to achieve accurate and consistent results. Whether you are a seasoned developer or a beginner, this guide will walk you through the process with detailed explanations and examples.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-1. Aspose.PSD for Java Library: Make sure you have the Aspose.PSD library installed. You can download it from the [official releases](https://releases.aspose.com/psd/java/) page.
+1. Aspose.PSD for Java Library: Make sure you have the Aspose.PSD library installed. You can download it from the [releases](https://releases.aspose.com/psd/java/) page.
 2. Java Development Environment: A working Java development environment is essential for executing the code. Make sure you have Java installed on your system.
 3. ICC Profiles: Obtain the necessary ICC profiles for color conversion. You can find suitable profiles, such as `eciRGB_v2.icc` and `ISOcoated_v2_FullGamut4.icc`, from reliable sources.
 ## Import Packages

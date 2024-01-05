@@ -70,7 +70,7 @@ Aspose.PSD is compatible with Java 1.7 and later versions.
 ### Can I process multiple images concurrently using Aspose.PSD?
 Yes, Aspose.PSD supports multi-threading, allowing you to process multiple images concurrently.
 ### Where can I find additional documentation for Aspose.PSD?
-You can refer to the official documentation [here](https://reference.aspose.com/psd/java/).
+You can refer to the documentation [here](https://reference.aspose.com/psd/java/).
 ### Is there a free trial available for Aspose.PSD for Java?
 Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### How can I obtain a temporary license for Aspose.PSD?
