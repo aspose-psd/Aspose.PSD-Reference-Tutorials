@@ -105,7 +105,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### 问题 2：Aspose.PSD for .NET 是否有免费试用版？
 
- A2：是的，您可以从[发布页面](https://releases.aspose.com/).
+A2：是的，您可以从[发布页面](https://releases.aspose.com/).
 
 ### Q3：在哪里可以找到 Aspose.PSD for .NET 的详细文档？
 

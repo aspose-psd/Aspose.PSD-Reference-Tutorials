@@ -52,7 +52,7 @@ foreach (var imageResource in imageResources)
 ```
 ## Fase 4: aggiornare la risorsa informativa sulle frontiere
 ```csharp
-// aggiornare BorderInformationResource
+// aggiorna BorderInformationResource
 borderInfoResource.Width = 0.1;
 borderInfoResource.Unit = PhysicalUnit.Inches;
 image.Save(outputFilePath);

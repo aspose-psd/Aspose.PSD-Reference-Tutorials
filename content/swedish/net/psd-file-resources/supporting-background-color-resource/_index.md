@@ -76,7 +76,7 @@ S1: Aspose.PSD stöder ett brett utbud av PSD-versioner, vilket säkerställer k
 
 ### F2: Kan jag använda Aspose.PSD för kommersiella projekt?
 
- S2: Ja, du kan använda Aspose.PSD i både kommersiella och icke-kommersiella projekt. Kolla[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
+S2: Ja, du kan använda Aspose.PSD i både kommersiella och icke-kommersiella projekt. Kolla[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
 
 ### F3: Hur kan jag få support för Aspose.PSD?
 

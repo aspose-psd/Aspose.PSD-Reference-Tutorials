@@ -90,4 +90,4 @@ A1 : Oui, Aspose.PSD est compatible avec les derniers frameworks .NET.
 
 ### Q5 : Puis-je essayer Aspose.PSD gratuitement avant d’acheter ?
 
- A5 : Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
+A5 : Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).

@@ -78,7 +78,7 @@ Grattis! Du har framgångsrikt implementerat kontrastjustering med Aspose.PSD f�
 
 ## Slutsats
 
-I den här handledningen utforskade vi processen för att förbättra bildkontrasten med Aspose.PSD för .NET. Biblioteket ger ett enkelt sätt att manipulera bildegenskaper, vilket gör att utvecklare kan skapa visuellt tilltalande bilder utan ansträngning.
+den här handledningen utforskade vi processen för att förbättra bildkontrasten med Aspose.PSD för .NET. Biblioteket ger ett enkelt sätt att manipulera bildegenskaper, vilket gör att utvecklare kan skapa visuellt tilltalande bilder utan ansträngning.
 
 ## FAQ's
 

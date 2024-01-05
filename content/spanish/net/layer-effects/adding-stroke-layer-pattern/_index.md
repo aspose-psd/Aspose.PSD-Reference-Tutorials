@@ -81,7 +81,7 @@ Accede a la capa de trazo y actualiza sus propiedades:
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//Verificar y actualizar las propiedades del trazo
+// Verificar y actualizar las propiedades del trazo
 // ...
 
 // Actualizar opacidad y modo de fusión
@@ -135,7 +135,7 @@ R1: Sí, Aspose.PSD para .NET es compatible con varias versiones de Visual Studi
 
 ### P3: ¿Hay archivos PSD de muestra disponibles para probar?
 
-R3: Puede encontrar archivos PSD de muestra en la documentación.[aquí](https://reference.aspose.com/psd/net/).
+ R3: Puede encontrar archivos PSD de muestra en la documentación.[aquí](https://reference.aspose.com/psd/net/).
 
 ### P4: ¿Aspose.PSD es adecuado para el procesamiento por lotes de archivos PSD?
 

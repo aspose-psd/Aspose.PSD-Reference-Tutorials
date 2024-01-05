@@ -79,7 +79,7 @@ Tracez deux lignes diagonales pointillées avec un stylo bleu en précisant les 
 ## Étape 5 : Tracer des lignes continues
 
 ```csharp
-    //Tracez quatre lignes continues en spécifiant l'objet Stylo ayant un pinceau solide de couleur rouge et des structures à deux points.
+    // Tracez quatre lignes continues en spécifiant l'objet Stylo ayant un pinceau solide de couleur rouge et des structures à deux points.
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

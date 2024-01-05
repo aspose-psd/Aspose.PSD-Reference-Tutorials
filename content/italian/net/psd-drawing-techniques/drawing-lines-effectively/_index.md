@@ -56,7 +56,7 @@ Qui inizializziamo BmpOptions e impostiamo proprietà come BitsPerPixel.
 ## Passaggio 3: creazione di immagini e grafica
 
 ```csharp
-// Crea un'istanza di Image
+// Crea un'istanza di Immagine
 using (Image image = new PsdImage(100, 100))
 {
     // Crea e inizializza un'istanza della classe Graphics e della superficie Clear Graphics
@@ -79,7 +79,7 @@ Disegna due linee diagonali tratteggiate con una penna blu specificando le coord
 ## Passaggio 5: disegnare linee continue
 
 ```csharp
-    //Disegna una linea continua a quattro specificando l'oggetto Penna con Pennello solido con colore rosso e strutture a due punti
+    // Disegna una linea continua a quattro specificando l'oggetto Penna con Pennello solido con colore rosso e strutture a due punti
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

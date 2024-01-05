@@ -76,7 +76,7 @@ A1：Aspose.PSD支持多种PSD版本，确保与大多数文件兼容。
 
 ### Q2：我可以将Aspose.PSD用于商业项目吗？
 
- A2：是的，您可以在商业和非商业项目中使用Aspose.PSD。检查[购买页面](https://purchase.aspose.com/buy)了解许可详细信息。
+A2：是的，您可以在商业和非商业项目中使用Aspose.PSD。检查[购买页面](https://purchase.aspose.com/buy)了解许可详细信息。
 
 ### Q3：如何获得 Aspose.PSD 的支持？
 

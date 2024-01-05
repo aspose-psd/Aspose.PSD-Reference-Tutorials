@@ -79,7 +79,7 @@ using (Image image = new PsdImage(100, 100))
 ## الخطوة 5: رسم خطوط مستمرة
 
 ```csharp
-    //ارسم أربعة خطوط متواصلة من خلال تحديد كائن القلم الذي يحتوي على فرشاة صلبة ذات لون أحمر وبنيتين نقطيتين
+    // ارسم أربعة خطوط متواصلة من خلال تحديد كائن القلم الذي يحتوي على فرشاة صلبة ذات لون أحمر وبنيتين نقطيتين
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

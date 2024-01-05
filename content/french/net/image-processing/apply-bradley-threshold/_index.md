@@ -52,7 +52,7 @@ Chargez l'image PSD, spécifiez la valeur du seuil, appliquez le seuil Bradley e
 // Charger une image
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Définir la valeur seuil
+    //Définir la valeur seuil
     double threshold = 0.15;
 
     // Appelez la méthode BinarizeBradley et transmettez la valeur seuil en paramètre
@@ -89,4 +89,4 @@ A1 : Oui, Bradley Thresholding est une technique polyvalente adaptée à différ
 
 ### Q5 : Où puis-je acheter une licence pour Aspose.PSD ?
 
- A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).

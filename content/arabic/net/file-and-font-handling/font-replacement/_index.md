@@ -15,7 +15,7 @@ url: /ar/net/file-and-font-handling/font-replacement/
 
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Aspose.PSD لـ .NET: تأكد من تثبيت مكتبة Aspose.PSD. يمكنك تنزيله[هنا](https://releases.aspose.com/psd/net/).
+- Aspose.PSD لـ .NET: تأكد من تثبيت مكتبة Aspose.PSD. يمكنك تنزيله[هنا](https://releases.aspose.com/psd/net/).
 
 - بيئة .NET: قم بإعداد بيئة تطوير .NET عاملة على جهازك.
 

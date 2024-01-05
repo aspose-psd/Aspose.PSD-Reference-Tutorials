@@ -52,7 +52,7 @@ string destName = dataDir + @"binarized_out.png";
 // قم بتحميل صورة
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // تحديد قيمة العتبة
+    //تحديد قيمة العتبة
     double threshold = 0.15;
 
     // قم باستدعاء أسلوب BinarizeBradley وتمرير قيمة العتبة كمعلمة

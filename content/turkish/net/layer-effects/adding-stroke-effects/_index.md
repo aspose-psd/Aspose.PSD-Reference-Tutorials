@@ -15,7 +15,7 @@ Aspose.PSD for .NET'te katmanlara kontur efektleri eklemeye yönelik bu adım ad
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
--  Aspose.PSD for .NET: Aspose.PSD kütüphanesini şu adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Aspose.PSD kütüphanesini şu adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/psd/net/).
 
 - Belge Dizini: Kontur efektleri uygulamak istediğiniz PSD belgesini içeren bir dizin hazırlayın.
 

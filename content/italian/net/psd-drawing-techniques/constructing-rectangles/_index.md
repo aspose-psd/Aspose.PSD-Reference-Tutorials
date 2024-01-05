@@ -81,7 +81,7 @@ A1: Sì, Aspose.PSD è progettato per funzionare con vari ambienti .NET, garante
 
 ### Q2: Posso utilizzare Aspose.PSD per progetti commerciali senza licenza?
 
-R2: No, per l'uso commerciale è necessaria una licenza valida. Ottieni la tua licenza[Qui](https://purchase.aspose.com/buy).
+ R2: No, per l'uso commerciale è necessaria una licenza valida. Ottieni la tua licenza[Qui](https://purchase.aspose.com/buy).
 
 ### Q3: Come posso chiedere aiuto o condividere le mie esperienze con Aspose.PSD?
 

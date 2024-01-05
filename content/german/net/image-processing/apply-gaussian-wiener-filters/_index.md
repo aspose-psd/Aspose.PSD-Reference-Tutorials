@@ -15,7 +15,7 @@ Im Bereich der Bildverarbeitung mit .NET sticht Aspose.PSD als leistungsstarkes 
 
 Bevor Sie sich mit der Anwendung von Gaußschen und Wiener-Filtern mit Aspose.PSD befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.PSD für .NET: Laden Sie die Bibliothek herunter und installieren Sie sie[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
+1. Aspose.PSD für .NET: Laden Sie die Bibliothek herunter und installieren Sie sie[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
 
 2. Beispielbild: Bereiten Sie zum Experimentieren ein Beispielbild im PSD-Format vor. Beispielbilder finden Sie in der Aspose.PSD-Dokumentation.
 
@@ -103,7 +103,7 @@ A2: Die Radiusgröße bestimmt den Bereich, über den der Filter wirkt, während
 
  A3: Sie können eine temporäre Lizenz bei erwerben[Aspose.PSD temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
 
-### F4: Wo finde ich zusätzliche Unterstützung und Unterstützung?
+### F4: Wo finde ich zusätzliche Unterstützung und Hilfe?
 
  A4: Bei Fragen oder Hilfe besuchen Sie bitte die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34).
 

@@ -100,7 +100,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.PSD es compatible con los últimos marcos .NET?
+### P1: ¿Aspose.PSD es compatible con los últimos frameworks .NET?
 
  R1: Aspose.PSD actualiza periódicamente su compatibilidad. Referirse a[documentación](https://reference.aspose.com/psd/net/) para obtener la información más reciente.
 

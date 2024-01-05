@@ -89,7 +89,7 @@ Och det är allt! Du har lyckats återge en skuggeffekt med Aspose.PSD för .NET
 
 ## Slutsats
 
-I den här handledningen undersökte vi processen att rendera skuggeffekter i Aspose.PSD för .NET. Genom att följa dessa enkla steg kan du lägga till djup och dimension till dina bilder och skapa visuellt fantastiska resultat utan ansträngning.
+den här handledningen undersökte vi processen att rendera skuggeffekter i Aspose.PSD för .NET. Genom att följa dessa enkla steg kan du lägga till djup och dimension till dina bilder och skapa visuellt fantastiska resultat utan ansträngning.
 
 ## FAQ's
 

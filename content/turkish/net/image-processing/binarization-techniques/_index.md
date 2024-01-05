@@ -55,7 +55,7 @@ using (Image image = Image.Load(sourceFile))
 ## 3. Adım: Görüntüyü Önbelleğe Alın
 
 ```csharp
-	// Görüntüyü RasterCachedImage'a aktarın ve görüntünün önbelleğe alınıp alınmadığını kontrol edin
+	//Görüntüyü RasterCachedImage'a aktarın ve görüntünün önbelleğe alınıp alınmadığını kontrol edin
 	RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 	if (!rasterCachedImage.IsCached)
 	{
@@ -103,4 +103,4 @@ Cevap3: Önbelleğe alma, görüntü verilerini bellekte depolayarak performans�
 
 ### S5: Aspose.PSD'nin deneme sürümü mevcut mu?
 
- A5: Evet, erişebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Satın alma işlemi yapmadan önce Aspose.PSD'nin özelliklerini keşfetmek için.
+ A5: Evet, erişebilirsiniz[ücretsiz deneme](https://releases.aspose.com/)Satın alma işlemi yapmadan önce Aspose.PSD'nin özelliklerini keşfetmek için.

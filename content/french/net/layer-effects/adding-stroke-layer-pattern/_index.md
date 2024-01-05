@@ -81,7 +81,7 @@ Accédez au calque de trait et mettez à jour ses propriétés :
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//Vérifier et mettre à jour les propriétés du trait
+// Vérifier et mettre à jour les propriétés du trait
 // ...
 
 // Mettre à jour l'opacité et le mode de fusion
@@ -135,7 +135,7 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec différentes versions de Visu
 
 ### Q3 : Existe-t-il des exemples de fichiers PSD disponibles pour les tests ?
 
-A3 : Vous pouvez trouver des exemples de fichiers PSD dans la documentation[ici](https://reference.aspose.com/psd/net/).
+ A3 : Vous pouvez trouver des exemples de fichiers PSD dans la documentation[ici](https://reference.aspose.com/psd/net/).
 
 ### Q4 : Aspose.PSD est-il adapté au traitement par lots de fichiers PSD ?
 

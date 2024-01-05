@@ -72,6 +72,6 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 
  О4: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
 
-### Вопрос 5: Где я могу найти подробную документацию по Aspose.PSD?
+### Вопрос 5: Где я могу найти подробную документацию для Aspose.PSD?
 
  A5: обратитесь к подробному[документация](https://reference.aspose.com/psd/net/) для более глубокого понимания функций Aspose.PSD.

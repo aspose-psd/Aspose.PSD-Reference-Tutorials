@@ -41,7 +41,7 @@ Ladda provbilden med följande kod:
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 string sourceFile = dataDir + @"example1.psd";
 
-//Ladda bilden
+// Ladda bilden
 using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 {
     // Ytterligare kod för bildbehandling kommer här

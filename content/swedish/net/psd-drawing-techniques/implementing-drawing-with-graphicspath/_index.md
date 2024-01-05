@@ -46,7 +46,7 @@ using (PsdImage image = new PsdImage(500, 500))
     graphics.Clear(Color.White);
 ```
 
-det här steget initierar vi en instans av klassen PsdImage och ett Graphics-objekt för att arbeta med vår bild.
+I det här steget initierar vi en instans av klassen PsdImage och ett Graphics-objekt för att arbeta med vår bild.
 
 ## Steg 2: Skapa GraphicsPath och figur
 
@@ -75,7 +75,7 @@ image.Save(dataDir + "DrawingUsingGraphicsPath_output.psd");
 Console.WriteLine("Processing completed successfully.");
 ```
 
-I det här sista steget ritar vi banan med hjälp av DrawPath-metoden med en angiven pennfärg. Dessutom skapar vi en HatchBrush, ställer in dess egenskaper och använder den för att fylla sökvägen. Slutligen sparar vi den bearbetade bilden.
+det här sista steget ritar vi banan med hjälp av DrawPath-metoden med en angiven pennfärg. Dessutom skapar vi en HatchBrush, ställer in dess egenskaper och använder den för att fylla sökvägen. Slutligen sparar vi den bearbetade bilden.
 
 ## Slutsats
 

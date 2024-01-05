@@ -92,7 +92,7 @@ Sammanfattningsvis erbjuder Aspose.PSD för .NET en robust lösning för att han
 
 ### F1: Kan jag använda flera skuggeffekter på ett enda lager?
 
-S1: Ja, du kan använda flera skuggeffekter genom att manipulera`Effects` samling av önskat lager.
+ S1: Ja, du kan använda flera skuggeffekter genom att manipulera`Effects` samling av önskat lager.
 
 ### F2: Är Aspose.PSD för .NET kompatibelt med de senaste PSD-filformaten?
 

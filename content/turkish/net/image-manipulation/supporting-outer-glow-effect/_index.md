@@ -9,7 +9,7 @@ url: /tr/net/image-manipulation/supporting-outer-glow-effect/
 ---
 ## giriiş
 
-Aspose.PSD for .NET'te Dış Işıma Efektini desteklemeye yönelik adım adım kılavuzumuza hoş geldiniz. Aspose.PSD, .NET uygulamalarında PSD dosyalarının kusursuz şekilde işlenmesini sağlayan güçlü bir kütüphanedir. Bu eğitimde Dış Işıma Efektinin uygulanmasını inceleyeceğiz ve bunu projelerinize entegre etmek için ayrıntılı bir yol göstereceğiz.
+Aspose.PSD for .NET'te Dış Işıma Efektini desteklemeye yönelik adım adım kılavuzumuza hoş geldiniz. Aspose.PSD, .NET uygulamalarında PSD dosyalarının kusursuz şekilde işlenmesini sağlayan güçlü bir kütüphanedir. Bu eğitimde, Dış Işıma Efektinin uygulanmasını inceleyeceğiz ve bunu projelerinize entegre etmek için ayrıntılı bir yol göstereceğiz.
 
 ## Önkoşullar
 

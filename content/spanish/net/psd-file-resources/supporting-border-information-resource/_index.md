@@ -8,7 +8,7 @@ weight: 11
 url: /es/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Introducción
-Bienvenido a nuestra guía paso a paso sobre cómo utilizar la función Recursos de información fronteriza en Aspose.PSD para .NET. En este tutorial, lo guiaremos a través del proceso de trabajar con recursos de información fronteriza usando Aspose.PSD, una potente biblioteca de imágenes .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial tiene como objetivo brindar claridad sobre cómo incorporar recursos de información fronteriza sin problemas en sus proyectos.
+Bienvenido a nuestra guía paso a paso sobre cómo utilizar la función Recursos de información fronteriza en Aspose.PSD para .NET. En este tutorial, lo guiaremos a través del proceso de trabajar con recursos de información fronteriza utilizando Aspose.PSD, una potente biblioteca de imágenes .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial tiene como objetivo brindar claridad sobre cómo incorporar recursos de información fronteriza sin problemas en sus proyectos.
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de tener lo siguiente:
 -  Aspose.PSD para .NET: asegúrese de tener instalada la biblioteca Aspose.PSD. Puedes descargarlo desde el[Sitio web de Aspose.PSD](https://releases.aspose.com/psd/net/).

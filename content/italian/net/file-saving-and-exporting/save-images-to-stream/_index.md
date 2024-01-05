@@ -17,7 +17,7 @@ Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo sistema.
 
-2. Aspose.PSD per .NET: scarica e installa la libreria Aspose.PSD. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/psd/net/).
+2.  Aspose.PSD per .NET: scarica e installa la libreria Aspose.PSD. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/psd/net/).
 
 3. File PSD di esempio: tieni pronto un file PSD di esempio per il test. Se non ne hai uno, puoi utilizzare qualsiasi file PSD disponibile per i tuoi scopi.
 
@@ -82,7 +82,7 @@ Congratulazioni! Hai imparato con successo come salvare le immagini in un flusso
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/) per esplorare le funzionalità di Aspose.PSD prima di effettuare un acquisto.
+ R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/)per esplorare le funzionalità di Aspose.PSD prima di effettuare un acquisto.
 
 ### Q4: Come posso ottenere una licenza temporanea?
 

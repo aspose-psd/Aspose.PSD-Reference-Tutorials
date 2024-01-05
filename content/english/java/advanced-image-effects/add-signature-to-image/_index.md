@@ -23,12 +23,12 @@ Before diving into the tutorial, ensure that you have the following prerequisite
 To get started, import the necessary packages into your Java class:
 
 ```java
-//ExStart:ImportPackages
+import com.aspose.psd.Graphics;
+import static com.aspose.psd.GraphicsUnit.Point;
 import com.aspose.psd.Image;
 import com.aspose.psd.Point;
-import com.aspose.psd.Graphics;
-import com.aspose.psd.PngOptions;
-//ExEnd:ImportPackages
+
+import com.aspose.psd.imageoptions.PngOptions;
 ```
 
 ## Step 1: Load Primary and Secondary Images
@@ -96,49 +96,3 @@ A4: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for communit
 
 A5: Yes, you can get a [free trial](https://releases.aspose.com/) to explore the features before making a purchase.
 
-
-## Complete Source Code
-```java
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-import com.aspose.psd.Graphics;
-import static com.aspose.psd.GraphicsUnit.Point;
-import com.aspose.psd.Image;
-import com.aspose.psd.Point;
-
-import com.aspose.psd.imageoptions.PngOptions;
-
-/
- *
- *  
- */
-public class AddSignatureToImage {
-    public static void main(String[] args) 
-    {
-//ExStart:AddSignatureToImage
-String dataDir = "Your Document Directory";
-
-// Create an instance of Image and load the primary image
-Image canvas = Image.load(dataDir + "layers.psd");
-
-// Create another instance of Image and load the secondary image containing the signature graphics
-
-Image signature = Image.load(dataDir + "sample.psd");
-
-// Create an instance of Graphics class and initialize it using the object of the primary image
-Graphics graphics = new Graphics(canvas);
-
-// Call the DrawImage method while passing the instance of secondary image and appropriate location. The following snippet tries to draw the secondary image at the right bottom of the primary image
-graphics.drawImage(signature, new Point(canvas.getHeight() - signature.getHeight(), canvas.getWidth() - signature.getWidth()));
-canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
-//ExEnd:AddSignatureToImage
-       
-    }
-}
-
-```

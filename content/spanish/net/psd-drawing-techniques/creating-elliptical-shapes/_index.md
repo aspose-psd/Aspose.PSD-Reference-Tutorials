@@ -15,7 +15,7 @@ Bienvenido a nuestra guía completa sobre cómo crear formas elípticas usando A
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
--  Aspose.PSD para la biblioteca .NET: asegúrese de tener la biblioteca Aspose.PSD instalada en su proyecto .NET. Puedes descargarlo desde el[Aspose.PSD para documentación .NET](https://reference.aspose.com/psd/net/).
+- Aspose.PSD para la biblioteca .NET: asegúrese de tener la biblioteca Aspose.PSD instalada en su proyecto .NET. Puedes descargarlo desde el[Aspose.PSD para documentación .NET](https://reference.aspose.com/psd/net/).
 
 - Entorno .NET: este tutorial asume que tiene conocimientos prácticos del marco .NET.
 
@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## Paso 5: dibuja una forma de elipse continua
 
 ```csharp
-    // Dibuje una forma de elipse continua especificando que el objeto Pluma tenga un pincel sólido de color azul y un Rectángulo circundante.
+    //Dibuje una forma de elipse continua especificando que el objeto Pluma tenga un pincel sólido de color azul y un Rectángulo circundante.
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // Exportar imagen a formato de archivo bmp.

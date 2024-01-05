@@ -15,7 +15,7 @@ Aspose.PSD per .NET fornisce un robusto set di funzionalità per l'elaborazione 
 
 Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
--  Aspose.PSD per .NET: scarica e installa la libreria da[Qui](https://releases.aspose.com/psd/net/).
+- Aspose.PSD per .NET: scarica e installa la libreria da[Qui](https://releases.aspose.com/psd/net/).
 - La tua directory dei documenti: configura una directory per archiviare i file di origine e di output.
 
 ## Importa spazi dei nomi
@@ -85,7 +85,7 @@ A1: Sì, Aspose.PSD per .NET è compatibile con vari framework .NET, inclusi .NE
 
 ### Q2: dove posso trovare la documentazione completa per Aspose.PSD per .NET?
 
- A2: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/psd/net/) per informazioni dettagliate ed esempi di codici.
+ A2: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/psd/net/)per informazioni dettagliate ed esempi di codice.
 
 ### Q3: È disponibile una prova gratuita per Aspose.PSD per .NET?
 

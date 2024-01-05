@@ -15,7 +15,7 @@ Bienvenue dans ce didacticiel étape par étape sur l'ajout d'effets de trait au
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
--  Aspose.PSD pour .NET : téléchargez et installez la bibliothèque Aspose.PSD à partir du[site web](https://releases.aspose.com/psd/net/).
+- Aspose.PSD pour .NET : téléchargez et installez la bibliothèque Aspose.PSD à partir du[site web](https://releases.aspose.com/psd/net/).
 
 - Répertoire du document : préparez un répertoire contenant le document PSD auquel vous souhaitez appliquer des effets de trait.
 
@@ -102,7 +102,7 @@ A2 : Absolument ! Aspose.PSD est conçu pour s'intégrer de manière transparent
 
  A3 : Modifiez simplement le`Color` propriété dans le code pour obtenir la couleur de trait souhaitée.
 
-### Q4 : Aspose.PSD prend-il en charge le traitement par lots pour plusieurs fichiers PSD ?
+### Q4 : Aspose.PSD prend-il en charge le traitement par lots pour plusieurs fichiers PSD ?
 
 A4 : Oui, vous pouvez parcourir plusieurs fichiers PSD et appliquer l'effet de trait en utilisant une approche similaire.
 

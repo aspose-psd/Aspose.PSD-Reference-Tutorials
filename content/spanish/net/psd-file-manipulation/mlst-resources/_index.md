@@ -11,7 +11,7 @@ url: /es/net/psd-file-manipulation/mlst-resources/
 Bienvenido al tutorial detallado sobre el manejo de recursos MLST (estados de múltiples capas) en Aspose.PSD para .NET. Aspose.PSD para .NET es una potente biblioteca que proporciona amplias capacidades para trabajar con archivos de Photoshop. En este tutorial, nos centraremos en el soporte de recursos MLST, ofreciendo un mecanismo de bajo nivel para manipular los estados de las capas de manera eficiente.
 ## Requisitos previos
 Antes de profundizar en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-- Aspose.PSD para la biblioteca .NET: asegúrese de tener la biblioteca instalada. Si no, puedes descargarlo desde[Página de descarga de Aspose.PSD para .NET](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD para la biblioteca .NET: asegúrese de tener la biblioteca instalada. Si no, puedes descargarlo desde[Página de descarga de Aspose.PSD para .NET](https://releases.aspose.com/psd/net/).
 - Directorios de documentos y resultados: configure su directorio de documentos (`baseDir`) y directorio de salida (`outputDir`) en el código proporcionado.
 ## Importar espacios de nombres
 En su proyecto .NET, incluya los espacios de nombres necesarios para trabajar con Aspose.PSD:
@@ -44,7 +44,7 @@ Layer layer1 = image.Layers[1];
 ShmdResource shmdResource = (ShmdResource)layer1.Resources[8];
 MlstResource mlstResource = (MlstResource)shmdResource.SubResources[0];
 ```
-## Paso 4: manipular los estados de las capas
+## Paso 4: manipular los estados de la capa
 ```csharp
 ListStructure layerStatesList = (ListStructure)mlstResource.Items[1];
 DescriptorStructure layersStateOnFrame1 = (DescriptorStructure)layerStatesList.Types[1];
@@ -77,7 +77,7 @@ R1: Sí, Aspose.PSD para .NET admite archivos PSD creados en varias versiones de
 
 ### P3: ¿Dónde puedo encontrar documentación detallada sobre Aspose.PSD para .NET?
 
- A3: La documentación está disponible.[aquí](https://reference.aspose.com/psd/net/).
+A3: La documentación está disponible.[aquí](https://reference.aspose.com/psd/net/).
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 

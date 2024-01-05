@@ -15,7 +15,7 @@ url: /ar/net/file-and-font-handling/force-font-cache/
 
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
--  Aspose.PSD لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف .NET[صفحة الإصدار](https://releases.aspose.com/psd/net/).
+- Aspose.PSD لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف .NET[صفحة الإصدار](https://releases.aspose.com/psd/net/).
 
 - دليل المستندات: قم بإعداد دليل لتخزين ملفات PSD الخاصة بك، واستبدل "دليل المستندات الخاص بك" في مقتطفات التعليمات البرمجية بالمسار الفعلي.
 

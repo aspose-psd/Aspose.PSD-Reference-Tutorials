@@ -81,7 +81,7 @@ image.SaveArgb32Pixels(new Rectangle(0, 0, 100, 10), pixels);
 احفظ الصورة المعدلة بتنسيق ملف BMP:
 
 ```csharp
-//تصدير الصورة إلى تنسيق ملف bmp.
+// تصدير الصورة إلى تنسيق ملف bmp.
 image.Save(outpath, new BmpOptions());
 ```
 

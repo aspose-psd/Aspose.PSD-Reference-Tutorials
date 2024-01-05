@@ -11,7 +11,7 @@ url: /fr/net/psd-file-manipulation/mlst-resources/
 Bienvenue dans le didacticiel approfondi sur la gestion des ressources MLST (Multiple Layer States) dans Aspose.PSD pour .NET. Aspose.PSD pour .NET est une bibliothèque puissante qui offre des fonctionnalités étendues pour travailler avec des fichiers Photoshop. Dans ce didacticiel, nous nous concentrerons sur la prise en charge des ressources MLST, offrant un mécanisme de bas niveau pour manipuler efficacement les états des couches.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-- Aspose.PSD pour la bibliothèque .NET : assurez-vous que la bibliothèque est installée. Sinon, vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.PSD pour .NET](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pour la bibliothèque .NET : assurez-vous que la bibliothèque est installée. Sinon, vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.PSD pour .NET](https://releases.aspose.com/psd/net/).
 - Répertoires de documents et de sortie : configurez votre répertoire de documents (`baseDir`) et le répertoire de sortie (`outputDir`) dans le code fourni.
 ## Importer des espaces de noms
 Dans votre projet .NET, incluez les espaces de noms nécessaires pour travailler avec Aspose.PSD :
@@ -56,7 +56,7 @@ layerEnabled.Value = false;
 ```csharp
 image.Save(outputPsd);
 ```
-## Étape 6 : Nettoyer
+## Étape 6 : Nettoyer
 ```csharp
 File.Delete(outputPsd);
 Console.WriteLine("SupportOfMlstResource executed successfully");
@@ -77,7 +77,7 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge les fichiers PSD créés dans dif
 
 ### Q3 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour .NET ?
 
- A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/).
+A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/).
 
 ### Q4 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 
@@ -85,4 +85,4 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge les fichiers PSD créés dans dif
 
 ### Q5 : Comment puis-je acheter une licence pour Aspose.PSD pour .NET ?
 
- A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).

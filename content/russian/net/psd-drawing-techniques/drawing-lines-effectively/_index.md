@@ -79,7 +79,7 @@ using (Image image = new PsdImage(100, 100))
 ## Шаг 5: Рисование непрерывных линий
 
 ```csharp
-    //Нарисуйте четыре непрерывные линии, указав объект «Перо», имеющий сплошную кисть красного цвета и две точечные структуры.
+    // Нарисуйте четыре непрерывные линии, указав объект «Перо», имеющий сплошную кисть красного цвета и две точечные структуры.
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

@@ -57,13 +57,13 @@ Det är allt! Med bara några rader kod har du framgångsrikt roterat en bild me
 
 ## Slutsats
 
-I den här handledningen har vi utforskat grunderna för att rotera bilder med Aspose.PSD för .NET. Aspose.PSD tillhandahåller en robust uppsättning verktyg för bildmanipulering, vilket gör det till ett viktigt bibliotek för .NET-utvecklare. Experimentera med olika rotationer och utforska ytterligare funktioner för att förbättra dina arbetsflöden för bildbehandling.
+den här handledningen har vi utforskat grunderna för att rotera bilder med Aspose.PSD för .NET. Aspose.PSD tillhandahåller en robust uppsättning verktyg för bildmanipulering, vilket gör det till ett viktigt bibliotek för .NET-utvecklare. Experimentera med olika rotationer och utforska ytterligare funktioner för att förbättra dina arbetsflöden för bildbehandling.
 
 ## FAQ's
 
 ### F1: Kan jag rotera bilder med en anpassad vinkel med Aspose.PSD?
 
-Ja, Aspose.PSD låter dig ange en anpassad vinkel för rotation. Byt bara ut`RotateFlipType.Rotate270FlipNone` linje med önskad rotationsvinkel.
+ Ja, Aspose.PSD låter dig ange en anpassad vinkel för rotation. Byt bara ut`RotateFlipType.Rotate270FlipNone` linje med önskad rotationsvinkel.
 
 ### F2: Är Aspose.PSD kompatibel med olika bildformat?
 

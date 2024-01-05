@@ -23,7 +23,7 @@ Innan du går in i implementeringen, se till att du har följande förutsättnin
 
 ## Importera namnområden
 
-I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för att arbeta med Aspose.PSD:
+ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för att arbeta med Aspose.PSD:
 
 ```csharp
 using Aspose.PSD.FileFormats.Tiff.Enums;

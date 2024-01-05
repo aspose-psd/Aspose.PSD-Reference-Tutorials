@@ -67,7 +67,7 @@ psdImage.Save(destName, pngOptions);
 
 ### س3: أين يمكنني العثور على وثائق Aspose.PSD لـ .NET؟
 
- A3: الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/psd/net/)لمساعدتك على فهم وتنفيذ الميزات المتنوعة لـ Aspose.PSD لـ .NET.
+ A3: الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/psd/net/) لمساعدتك على فهم وتنفيذ الميزات المتنوعة لـ Aspose.PSD لـ .NET.
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 

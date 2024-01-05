@@ -55,7 +55,7 @@ using (Image image = Image.Load(sourceFile))
 ## Шаг 3. Кэшируйте изображение
 
 ```csharp
-	// Перенесите изображение в RasterCachedImage и проверьте, кэшировано ли изображение.
+	//Перенесите изображение в RasterCachedImage и проверьте, кэшировано ли изображение.
 	RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 	if (!rasterCachedImage.IsCached)
 	{
@@ -103,4 +103,4 @@ A2: Конечно, вы можете просмотреть коллекцию 
 
 ### В5: Доступна ли пробная версия для Aspose.PSD?
 
- A5: Да, вы можете получить доступ к[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить возможности Aspose.PSD перед покупкой.
+ A5: Да, вы можете получить доступ к[бесплатная пробная версия](https://releases.aspose.com/)чтобы изучить возможности Aspose.PSD перед покупкой.

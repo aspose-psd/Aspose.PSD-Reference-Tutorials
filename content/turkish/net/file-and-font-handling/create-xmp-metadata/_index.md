@@ -42,7 +42,7 @@ using System.IO;
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 
-// Bir Dikdörtgen tanımlayarak görüntünün boyutunu belirtin
+//Bir Dikdörtgen tanımlayarak görüntünün boyutunu belirtin
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 

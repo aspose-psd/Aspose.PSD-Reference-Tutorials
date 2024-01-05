@@ -94,7 +94,7 @@ C1: Evet, Aspose.PSD, .NET'in tüm sürümleriyle uyumludur ve geliştirme proje
 
 ### S2: Aspose.PSD'yi ticari amaçlarla kullanabilir miyim?
 
- C2: Evet, Aspose.PSD hem kişisel hem de ticari amaçlarla kullanılabilir. Lisans ayrıntılarını kontrol edin[Burada](https://purchase.aspose.com/buy).
+C2: Evet, Aspose.PSD hem kişisel hem de ticari amaçlarla kullanılabilir. Lisans ayrıntılarını kontrol edin[Burada](https://purchase.aspose.com/buy).
 
 ### S3: Aspose.PSD desteğini nasıl alabilirim?
 
@@ -106,4 +106,4 @@ C1: Evet, Aspose.PSD, .NET'in tüm sürümleriyle uyumludur ve geliştirme proje
 
 ### S5: Aspose.PSD için geçici bir lisans alabilir miyim?
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

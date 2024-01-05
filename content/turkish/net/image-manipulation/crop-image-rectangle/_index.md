@@ -52,9 +52,9 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     {
         rasterImage.CacheData();
     }
-    //Sonraki adımlara ilişkin kodunuz buraya gelecek
+    // Sonraki adımlara ilişkin kodunuz buraya gelecek
 }
-//ExEnd:Dikdörtgenle Kırpma
+//ExEnd:Dikdörtgene Göre Kırpma
 ```
 
 ## Adım 3: Kırpma Dikdörtgenini Tanımlayın
@@ -109,4 +109,4 @@ Cevap3: Aspose.PSD for .NET, çeşitli boyutlardaki görüntüleri işlemek içi
 
 ### S5: Nerede ek destek veya yardım bulabilirim?
 
- A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) toplulukla bağlantı kurmak ve destek aramak.
+ A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34)toplulukla bağlantı kurmak ve destek aramak.

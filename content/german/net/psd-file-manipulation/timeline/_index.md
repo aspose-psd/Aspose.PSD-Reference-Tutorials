@@ -30,7 +30,7 @@ Laden Sie zunächst das PSD-Bild aus der angegebenen Quelldatei. Stellen Sie sic
 string sourceFile = Path.Combine(baseDir, "image1219.psd");
 using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // Hier finden Sie Ihren Code für weitere Vorgänge
+    //Hier finden Sie Ihren Code für weitere Vorgänge
 }
 ```
 ## Schritt 2: Greifen Sie auf die Zeitleiste zu

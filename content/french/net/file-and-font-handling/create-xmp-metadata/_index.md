@@ -42,7 +42,7 @@ Décomposons maintenant le processus de création de métadonnées XMP en une s�
 // Le chemin d'accès au répertoire des documents.
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 
-// Spécifiez la taille de l'image en définissant un rectangle
+//Spécifiez la taille de l'image en définissant un rectangle
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 

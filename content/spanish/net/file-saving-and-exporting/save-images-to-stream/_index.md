@@ -17,7 +17,7 @@ Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes req
 
 1. Visual Studio: asegúrese de tener Visual Studio instalado en su sistema.
 
-2. Aspose.PSD para .NET: descargue e instale la biblioteca Aspose.PSD. Puedes encontrar el enlace de descarga.[aquí](https://releases.aspose.com/psd/net/).
+2.  Aspose.PSD para .NET: descargue e instale la biblioteca Aspose.PSD. Puedes encontrar el enlace de descarga.[aquí](https://releases.aspose.com/psd/net/).
 
 3. Archivo PSD de muestra: tenga un archivo PSD de muestra listo para probar. Si no tiene uno, puede utilizar cualquier archivo PSD disponible para sus propósitos.
 
@@ -72,7 +72,7 @@ using (Image image = Image.Load(sourceFile))
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo utilizar Aspose.PSD con cualquier tipo de archivo de imagen?
+### P1: ¿Puedo usar Aspose.PSD con cualquier tipo de archivo de imagen?
 
  R1: Sí, Aspose.PSD admite varios formatos de imagen, incluidos PSD, PNG, JPEG y más. Consulta la documentación[aquí](https://reference.aspose.com/psd/net/) para obtener una lista completa.
 
@@ -82,7 +82,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/) para explorar las funciones de Aspose.PSD antes de realizar una compra.
+ R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/)para explorar las características de Aspose.PSD antes de realizar una compra.
 
 ### P4: ¿Cómo puedo obtener una licencia temporal?
 

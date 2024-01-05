@@ -57,7 +57,7 @@ Améliorez vos images avec des effets de motifs captivants à l'aide d'Aspose.PS
 
 ## Ajout d'une signature aux images
 
- Découvrez comment ajouter des signatures de manière transparente à vos projets d'images .NET avec Aspose.PSD. Notre étape par étape[guide](./adding-signature-to-images/) garantit un processus fluide, vous permettant de personnaliser vos créations sans effort.
+ Découvrez comment ajouter des signatures de manière transparente à vos projets d'image .NET avec Aspose.PSD. Notre étape par étape[guide](./adding-signature-to-images/) garantit un processus fluide, vous permettant de personnaliser vos créations sans effort.
 
 ## Prise en charge de différents types de signature
 

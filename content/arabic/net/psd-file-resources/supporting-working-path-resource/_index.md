@@ -41,7 +41,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
     WorkingPathResource workingPathResource = null;
     // ... (تابع التحقق من WorkingPathResource)
     
-    // اقتصاص وحفظ.
+    //اقتصاص وحفظ.
     psdImage.Crop(0, 500, 0, 200);
     psdImage.Save(outputFile);
 }

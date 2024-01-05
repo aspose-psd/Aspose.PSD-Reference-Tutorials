@@ -52,7 +52,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     {
         rasterImage.CacheData();
     }
-    //Ihr Code für die nachfolgenden Schritte finden Sie hier
+    // Ihr Code für die nachfolgenden Schritte finden Sie hier
 }
 //ExEnd:CroppingbyRectangle
 ```
@@ -109,4 +109,4 @@ A3: Aspose.PSD für .NET ist für die Verarbeitung von Bildern unterschiedlicher
 
 ### F5: Wo finde ich zusätzliche Unterstützung oder Unterstützung?
 
- A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) um mit der Community in Kontakt zu treten und Unterstützung zu suchen.
+ A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34)um mit der Community in Kontakt zu treten und Unterstützung zu suchen.

@@ -15,7 +15,7 @@ Aspose.PSD per .NET fornisce potenti strumenti per lavorare con i file PSD nelle
 
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
--  Aspose.PSD per .NET: scarica e installa la libreria Aspose.PSD da[pagina di rilascio](https://releases.aspose.com/psd/net/).
+- Aspose.PSD per .NET: scarica e installa la libreria Aspose.PSD da[pagina di rilascio](https://releases.aspose.com/psd/net/).
 
 - Directory dei documenti: configura una directory per archiviare i file PSD e sostituisci "Directory dei documenti" negli snippet di codice con il percorso effettivo.
 
@@ -76,7 +76,7 @@ Forzare la cache dei caratteri in Aspose.PSD per .NET è un processo semplice, c
 
 ## Domande frequenti
 
-### Q1: Aspose.PSD per .NET è compatibile con tutte le versioni dei file PSD?
+### Q1: Aspose.PSD per .NET è compatibile con tutte le versioni di file PSD?
 
 A1: Sì, Aspose.PSD per .NET supporta varie versioni di file PSD, fornendo una compatibilità completa.
 

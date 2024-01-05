@@ -36,7 +36,7 @@ try
     // Skapa strömmen av den befintliga bildfilen.
     using (System.IO.FileStream fileStream = System.IO.File.Create(imageDataPath))
     {
-        //Skapa en instans av PSD-bildalternativklassen.
+        // Skapa en instans av PSD-bildalternativklassen.
         using (PsdOptions psdOptions = new PsdOptions())
         {
             // Ställ in källegenskapen för objektet bildalternativsklass.
@@ -68,7 +68,7 @@ S1: Ja, Aspose.PSD för .NET stöder olika versioner av Photoshop-filer, vilket 
 
 ### F3: Hur kan jag få support för Aspose.PSD för .NET?
 
- S3: Gå med i Aspose.PSD-communityt[forum](https://forum.aspose.com/c/psd/34)för att få hjälp av experter och andra utvecklare.
+ S3: Gå med i Aspose.PSD-communityt[forum](https://forum.aspose.com/c/psd/34) för att få hjälp av experter och andra utvecklare.
 
 ### F4: Finns det en gratis provperiod?
 

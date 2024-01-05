@@ -15,7 +15,7 @@ Aspose.PSD for .NET kullanarak eliptik şekiller oluşturmaya ilişkin kapsamlı
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
--  Aspose.PSD for .NET Library: .NET projenizde Aspose.PSD kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.PSD for .NET Belgeleri](https://reference.aspose.com/psd/net/).
+- Aspose.PSD for .NET Library: .NET projenizde Aspose.PSD kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.PSD for .NET Belgeleri](https://reference.aspose.com/psd/net/).
 
 - .NET Ortamı: Bu eğitimde, .NET çerçevesi hakkında çalışma bilgisine sahip olduğunuz varsayılmaktadır.
 
@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## Adım 5: Sürekli Bir Elips Şekli Çizin
 
 ```csharp
-    // Mavi renkli düz bir fırçaya ve onu çevreleyen bir Dikdörtgene sahip Kalem nesnesini belirterek sürekli bir elips şekli çizin
+    //Mavi renkli düz bir fırçaya ve onu çevreleyen bir Dikdörtgene sahip Kalem nesnesini belirterek sürekli bir elips şekli çizin
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // Görüntüyü bmp dosya formatına aktarın.

@@ -21,7 +21,7 @@ Eğiticiye dalmadan önce aşağıdakilerin yerinde olduğundan emin olun:
 
 - Temel C# Bilgisi: Bu eğitimde C# programlama dilinin temel düzeyde anlaşıldığı varsayılmaktadır.
 
--  Belge Dizini: Belge dizininizin yolunu,`dataDir` değişken.
+- Belge Dizini: Belge dizininizin yolunu,`dataDir` değişken.
 
 ## Ad Alanlarını İçe Aktar
 

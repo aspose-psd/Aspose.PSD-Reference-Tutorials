@@ -8,7 +8,7 @@ weight: 16
 url: /sv/net/psd-file-manipulation/timeline/
 ---
 ## Introduktion
-I den dynamiska världen av grafisk design och bildmanipulation är förmågan att kontrollera och manipulera bilders tidslinje avgörande. Aspose.PSD för .NET ger en kraftfull lösning med sin tidslinjeklass. Denna funktion på hög nivå gör det möjligt för användare att göra ändringar i tidslinjen för PsdImage, som att ändra bildrutefördröjning, redigera lagertillstånd på specifika bildrutor och mer.
+den dynamiska världen av grafisk design och bildmanipulation är förmågan att kontrollera och manipulera bilders tidslinje avgörande. Aspose.PSD för .NET ger en kraftfull lösning med sin tidslinjeklass. Denna funktion på hög nivå gör det möjligt för användare att göra ändringar i tidslinjen för PsdImage, som att ändra bildrutefördröjning, redigera lagertillstånd på specifika bildrutor och mer.
 ## Förutsättningar
 Innan du dyker in i de spännande möjligheterna som Timeline-klassen erbjuder, se till att du har följande förutsättningar på plats:
 -  Aspose.PSD for .NET Library: Se till att du har Aspose.PSD for .NET-biblioteket installerat. Du kan ladda ner den från[Aspose.PSD för .NET-dokumentation](https://reference.aspose.com/psd/net/).
@@ -30,7 +30,7 @@ Börja med att ladda PSD-bilden från den angivna källfilen. Se till att källf
 string sourceFile = Path.Combine(baseDir, "image1219.psd");
 using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // Din kod för vidare operationer finns här
+    //Din kod för vidare operationer kommer här
 }
 ```
 ## Steg 2: Gå till tidslinjen

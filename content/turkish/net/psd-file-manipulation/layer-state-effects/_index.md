@@ -69,7 +69,7 @@ Tebrikler! Aspose.PSD for .NET'te Katman Durumu Efektleriyle başarıyla çalı�
 
 ### S2: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
-A2: Ayrıntılı belgelere bakın[Burada](https://reference.aspose.com/psd/net/).
+ A2: Ayrıntılı belgelere bakın[Burada](https://reference.aspose.com/psd/net/).
 
 ### A3: Ücretsiz deneme mevcut mu?
 

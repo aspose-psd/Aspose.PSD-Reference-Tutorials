@@ -15,7 +15,7 @@ url: /zh/net/layer-effects/adding-stroke-effects/
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
--  Aspose.PSD for .NET：从以下位置下载并安装 Aspose.PSD 库：[网站](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET：从以下位置下载并安装 Aspose.PSD 库：[网站](https://releases.aspose.com/psd/net/).
 
 - 文档目录：准备一个包含要应用描边效果的 PSD 文档的目录。
 

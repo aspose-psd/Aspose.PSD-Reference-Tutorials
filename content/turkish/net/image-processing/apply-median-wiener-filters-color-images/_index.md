@@ -38,7 +38,7 @@ using Aspose.PSD.ImageOptions;
 // Belgeler dizininin yolu.
 string dataDir = "Your Document Directory";
 
-//Gürültülü görüntüyü yükleyin
+// Gürültülü görüntüyü yükleyin
 string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + @"median_test_denoise_out.gif";
 
@@ -48,7 +48,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-## Adım 2: Görüntüyü RasterImage'a Yayınlayın
+## Adım 2: Görüntüyü RasterImage'a Aktarın
 
 Yüklenen görüntüyü bir RasterImage'a aktarın:
 
@@ -86,7 +86,7 @@ Cevap2: Aspose.PSD'yi kullanarak görüntü işleme sırasında oluşabilecek is
 
 ### S3: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
-C3: Evet, Aspose.PSD'nin özelliklerini ücretsiz deneme sürümünü edinerek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ C3: Evet, Aspose.PSD'nin özelliklerini ücretsiz deneme sürümünü edinerek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için topluluk desteğini nerede bulabilirim?
 

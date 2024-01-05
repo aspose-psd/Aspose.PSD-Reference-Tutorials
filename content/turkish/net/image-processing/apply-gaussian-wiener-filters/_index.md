@@ -15,7 +15,7 @@ url: /tr/net/image-processing/apply-gaussian-wiener-filters/
 
 Aspose.PSD ile Gaussian ve Wiener filtrelerinin uygulanmasına başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-1.  Aspose.PSD for .NET: Kitaplığı şuradan indirip yükleyin:[.NET belgeleri için Aspose.PSD](https://reference.aspose.com/psd/net/).
+1. Aspose.PSD for .NET: Kitaplığı şuradan indirip yükleyin:[.NET belgeleri için Aspose.PSD](https://reference.aspose.com/psd/net/).
 
 2. Örnek Resim: Deney için PSD formatında örnek bir resim hazırlayın. Örnek görselleri Aspose.PSD belgelerinde bulabilirsiniz.
 

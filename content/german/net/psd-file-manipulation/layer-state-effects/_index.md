@@ -69,7 +69,7 @@ Glückwunsch! Sie haben erfolgreich mit Layer State Effects in Aspose.PSD für .
 
 ### F2: Wo finde ich die Dokumentation für Aspose.PSD für .NET?
 
-A2: Weitere Informationen finden Sie in der ausführlichen Dokumentation[Hier](https://reference.aspose.com/psd/net/).
+ A2: Weitere Informationen finden Sie in der ausführlichen Dokumentation[Hier](https://reference.aspose.com/psd/net/).
 
 ### A3: Gibt es eine kostenlose Testversion?
 

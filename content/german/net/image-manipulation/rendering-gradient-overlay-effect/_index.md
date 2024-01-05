@@ -17,7 +17,7 @@ Schöpfen Sie das Potenzial Ihrer Bilder aus, indem Sie den Verlaufsüberlagerun
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.PSD-Bibliothek: Laden Sie die Aspose.PSD-Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/psd/net/).
+- Aspose.PSD-Bibliothek: Laden Sie die Aspose.PSD-Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/psd/net/).
 
 - Dokumentenverzeichnis: Richten Sie ein Verzeichnis für Ihre Dokumente ein, in dem Sie Ihre Quell- und Ausgabedateien speichern können.
 

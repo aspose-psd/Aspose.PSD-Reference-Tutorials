@@ -48,7 +48,7 @@ string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + "result.png";
 ```
 
- Burada,`sourceFile`işlemek istediğiniz PSD dosyasının yoludur ve`destName` ortaya çıkan görüntünün hedef yoludur.
+ Burada,`sourceFile` işlemek istediğiniz PSD dosyasının yoludur ve`destName` ortaya çıkan görüntünün hedef yoludur.
 
 ## 3. Adım: Görüntüyü Yükleyin ve Kaydedin
 
@@ -77,7 +77,7 @@ Cevap1: Evet, Aspose.PSD çeşitli görüntü formatlarını destekleyerek geli�
 
 ### S2: Deneme sürümü mevcut mu?
 
-A2: Kesinlikle! Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+ A2: Kesinlikle! Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.PSD for .NET desteğini nerede bulabilirim?
 

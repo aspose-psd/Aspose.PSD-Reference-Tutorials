@@ -63,7 +63,7 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
     // Renk Noktaları
     // ...
 
-    // Şeffaflık noktaları
+    //Şeffaflık noktaları
     // ...
 }
 ```
@@ -90,7 +90,7 @@ settings.Reverse = true;
 // Yeni renk noktası ekle
 // ...
 
-//Önceki noktanın konumunu değiştir
+// Önceki noktanın konumunu değiştir
 // ...
 
 // Yeni şeffaflık noktası ekle
@@ -139,7 +139,7 @@ Cevap2: Aspose.PSD for .NET, PSD, PNG, JPEG, BMP ve GIF dahil olmak üzere çeş
 
 ### S3: Aspose.PSD for .NET'in deneme sürümü mevcut mu?
 
-C3: Evet, Aspose.PSD for .NET'in yeteneklerini aşağıdaki ücretsiz deneme sürümünü indirerek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ C3: Evet, Aspose.PSD for .NET'in yeteneklerini aşağıdaki ücretsiz deneme sürümünü indirerek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 

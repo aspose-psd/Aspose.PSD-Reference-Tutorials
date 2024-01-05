@@ -11,7 +11,7 @@ url: /tr/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 Dijital medyanın dinamik dünyasında görüntü düzenleme, büyüleyici görseller yaratmada çok önemli bir rol oynuyor. Aspose.PSD for .NET, geliştiricilerin görüntü işleme yeteneklerini bir sonraki seviyeye taşımalarına olanak sağlar. Bu eğitimde Aspose.PSD'de görüntülere hassas bir şekilde ince ayar yapmanızı sağlayan Siyah Beyaz ayarlama katmanları desteğini inceleyeceğiz.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
--  Aspose.PSD for .NET: Kitaplığı şuradan indirip yükleyin:[.NET belgeleri için Aspose.PSD](https://reference.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Kitaplığı şuradan indirip yükleyin:[.NET belgeleri için Aspose.PSD](https://reference.aspose.com/psd/net/).
 - Belge Dizini: Belge dizininizin yolunu belirtin.
 - Çıkış Dizini: Düzenlenen görsellerin kaydedilmesini istediğiniz dizini tanımlayın.
 ## Ad Alanlarını İçe Aktar
@@ -80,11 +80,11 @@ A2: Kesinlikle! Aspose.PSD, birden fazla ayarlama katmanını bir araya getirere
 
 ### S3: Aspose.PSD için geçici lisansı nasıl edinebilirim?
 
- A3: Ziyaret edin[Geçici Lisans](https://purchase.aspose.com/temporary-license/) Test için geçici bir lisans almak üzere Aspose web sitesindeki sayfaya gidin.
+ A3: Ziyaret edin[Geçici Lisans](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans almak için Aspose web sitesindeki sayfaya gidin.
 
 ### S4: Aspose.PSD desteğini nerede bulabilirim?
 
- A4:[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34)yardım aramak ve toplulukla içgörüleri paylaşmak için değerli bir kaynaktır.
+ A4:[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) yardım aramak ve toplulukla içgörüleri paylaşmak için değerli bir kaynaktır.
 
 ### S5: Siyah Beyaz ayarlarını test etmek için herhangi bir örnek resim var mı?
 

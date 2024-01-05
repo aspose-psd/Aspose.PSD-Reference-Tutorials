@@ -31,10 +31,10 @@ string sourceFile = SourceDir + @"text_ethalon_different_colors.psd";
 string destName = OutputDir + @"RenderTextWithDifferentColorsInTextLayer_out.png";
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // Daha sonraki adımların kodu buraya gelecek.
+    // Daha sonraki adımlara ilişkin kod buraya gelecek.
 }
 ```
-## Adım 2: Metin Katmanına Erişin
+## 2. Adım: Metin Katmanına Erişin
 PSD dosyasındaki metin katmanına erişin:
 ```csharp
 var txtLayer = (TextLayer)psdImage.Layers[1];
@@ -67,7 +67,7 @@ C1: Evet, Aspose.PSD for .NET herhangi bir .NET uygulamasıyla sorunsuz çalış
 
 ### S3: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A3: Ayrıntılı belgeler mevcut[Burada](https://reference.aspose.com/psd/net/)Aspose.PSD for .NET'in çeşitli özelliklerini anlamanıza ve uygulamanıza yardımcı olmak için.
+ A3: Ayrıntılı belgeler mevcut[Burada](https://reference.aspose.com/psd/net/) Aspose.PSD for .NET'in çeşitli özelliklerini anlamanıza ve uygulamanıza yardımcı olmak için.
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 

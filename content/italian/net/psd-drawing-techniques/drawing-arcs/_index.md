@@ -15,7 +15,7 @@ Benvenuti nel nostro tutorial completo sul disegno di archi utilizzando Aspose.P
 
 Prima di tuffarci nell'entusiasmante mondo del disegno degli archi, assicurati di possedere i seguenti prerequisiti:
 
--  Aspose.PSD per .NET Library: scarica e installa la libreria Aspose.PSD da[Link per scaricare](https://releases.aspose.com/psd/net/).
+- Aspose.PSD per .NET Library: scarica e installa la libreria Aspose.PSD da[Link per scaricare](https://releases.aspose.com/psd/net/).
 
 -  Directory dei documenti: imposta una directory in cui archiviare i tuoi documenti e sostituiscili`"Your Document Directory"` nel codice fornito con il percorso effettivo.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Actual Document Directory";
 
 ## Passaggio 2: disegnare un arco
 
- Crea un'istanza di`BmpOptions` impostarne le proprietà, incluso`BitsPerPixel`.
+ Crea un'istanza di`BmpOptions` e impostarne le proprietà, incluso`BitsPerPixel`.
 
 ```csharp
 BmpOptions saveOptions = new BmpOptions();

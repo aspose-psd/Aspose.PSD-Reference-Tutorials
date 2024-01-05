@@ -81,7 +81,7 @@ Accedi al livello del tratto e aggiorna le sue proprietà:
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//Controlla e aggiorna le proprietà del tratto
+// Controlla e aggiorna le proprietà del tratto
 // ...
 
 // Aggiorna l'opacità e la modalità di fusione
@@ -135,7 +135,7 @@ A1: Sì, Aspose.PSD per .NET è compatibile con varie versioni di Visual Studio.
 
 ### Q3: Sono disponibili file PSD di esempio per i test?
 
-R3: Nella documentazione è possibile trovare file PSD di esempio[Qui](https://reference.aspose.com/psd/net/).
+ R3: Nella documentazione è possibile trovare file PSD di esempio[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q4: Aspose.PSD è adatto per l'elaborazione batch di file PSD?
 

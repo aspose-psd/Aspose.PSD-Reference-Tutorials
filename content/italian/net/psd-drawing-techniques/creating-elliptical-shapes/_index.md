@@ -15,7 +15,7 @@ Benvenuti nella nostra guida completa sulla creazione di forme ellittiche utiliz
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
--  Libreria Aspose.PSD per .NET: assicurati di avere la libreria Aspose.PSD installata nel tuo progetto .NET. Puoi scaricarlo da[Aspose.PSD per la documentazione .NET](https://reference.aspose.com/psd/net/).
+- Libreria Aspose.PSD per .NET: assicurati di avere la libreria Aspose.PSD installata nel tuo progetto .NET. Puoi scaricarlo da[Aspose.PSD per la documentazione .NET](https://reference.aspose.com/psd/net/).
 
 - Ambiente .NET: questo tutorial presuppone che tu abbia una conoscenza pratica del framework .NET.
 
@@ -50,7 +50,7 @@ saveOptions.BitsPerPixel = 32;
 ## Passaggio 3: crea un'istanza di immagine
 
 ```csharp
-// Crea un'istanza di Image
+// Crea un'istanza di Immagine
 using (Image image = new PsdImage(100, 100))
 {
     // Crea e inizializza un'istanza della classe Graphics e della superficie Clear Graphics
@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## Passaggio 5: Disegna una forma di ellisse continua
 
 ```csharp
-    // Disegna una forma ellittica continua specificando l'oggetto Penna con un pennello solido di colore blu e un rettangolo circostante
+    //Disegna una forma ellittica continua specificando l'oggetto Penna con un pennello solido di colore blu e un rettangolo circostante
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // Esporta l'immagine nel formato file bmp.

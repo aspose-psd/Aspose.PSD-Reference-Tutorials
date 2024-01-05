@@ -8,7 +8,7 @@ weight: 15
 url: /sv/net/psd-file-manipulation/psd-image-timeline-property/
 ---
 ## Introduktion
-det ständigt föränderliga landskapet för .NET-utveckling är det viktigt att ligga före kurvan. Aspose.PSD för .NET framstår som ett kraftfullt verktyg som erbjuder en mängd funktioner för att förbättra dina bildbehandlingsmöjligheter. En anmärkningsvärd funktion är PSD Image Timeline Property, som låter dig manipulera tidslinjen för dina PSD-bilder dynamiskt.
+I det ständigt föränderliga landskapet för .NET-utveckling är det viktigt att ligga före kurvan. Aspose.PSD för .NET framstår som ett kraftfullt verktyg som erbjuder en mängd funktioner för att förbättra dina bildbehandlingsmöjligheter. En anmärkningsvärd funktion är PSD Image Timeline Property, som låter dig manipulera tidslinjen för dina PSD-bilder dynamiskt.
 ## Förutsättningar
 Innan du dyker ner i djupet av Aspose.PSD för .NET och dess tidslinjeegenskap, se till att du har följande förutsättningar på plats:
 -  Aspose.PSD för .NET Library: Ladda ner och installera biblioteket från[här](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika .NET-ramverk, vilket säke
 
 ### F4: Finns temporära licenser tillgängliga för Aspose.PSD för .NET?
 
-S4: Ja, du kan få tillfälliga licenser för Aspose.PSD för .NET[här](https://purchase.aspose.com/temporary-license/).
+ S4: Ja, du kan få tillfälliga licenser för Aspose.PSD för .NET[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag hitta detaljerad dokumentation för Aspose.PSD för .NET?
 

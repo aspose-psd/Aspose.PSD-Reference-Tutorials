@@ -52,7 +52,7 @@ string destName = dataDir + @"binarized_out.png";
 // Загрузите изображение
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Определить пороговое значение
+    //Определить пороговое значение
     double threshold = 0.15;
 
     // Вызовите метод BinarizeBradley и передайте пороговое значение в качестве параметра.
@@ -71,7 +71,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1. Могу ли я применить Bradley Threshold к любому типу изображения?
+### Вопрос 1. Могу ли я применить Bradley Threshold к любому типу изображений?
 
 О1: Да, пороговое значение Брэдли — это универсальный метод, подходящий для различных типов изображений.
 

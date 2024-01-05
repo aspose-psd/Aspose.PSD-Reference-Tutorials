@@ -79,7 +79,7 @@ Rita två prickade diagonala linjer med en blå penna genom att ange koordinater
 ## Steg 5: Rita kontinuerliga linjer
 
 ```csharp
-    //Rita en fyra sammanhängande linje genom att specificera Pen-objektet med Solid Brush med röd färg och tvåpunktsstrukturer
+    // Rita en fyra sammanhängande linje genom att specificera Pen-objektet med Solid Brush med röd färg och tvåpunktsstrukturer
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));

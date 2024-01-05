@@ -9,7 +9,7 @@ url: /sv/net/file-and-font-handling/create-xmp-metadata/
 ---
 ## Introduktion
 
-I den dynamiska världen av .NET-utveckling är manipulering av bilder med precision en avgörande aspekt av många applikationer. Denna handledning utforskar skapandet av XMP-metadata i Aspose.PSD för .NET, ett kraftfullt bibliotek som förenklar bildbehandlingsuppgifter. XMP (Extensible Metadata Platform) gör att du kan bädda in metadata i bildfiler, vilket underlättar effektiv organisation och hämtning av information som är kopplad till bilder.
+den dynamiska världen av .NET-utveckling är manipulering av bilder med precision en avgörande aspekt av många applikationer. Denna handledning utforskar skapandet av XMP-metadata i Aspose.PSD för .NET, ett kraftfullt bibliotek som förenklar bildbehandlingsuppgifter. XMP (Extensible Metadata Platform) gör att du kan bädda in metadata i bildfiler, vilket underlättar effektiv organisation och hämtning av information som är kopplad till bilder.
 
 ## Förutsättningar
 
@@ -23,7 +23,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-ditt .NET-projekt, inkludera de nödvändiga namnområdena för att få tillgång till Aspose.PSD-funktionalitet:
+I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att få tillgång till Aspose.PSD-funktionalitet:
 
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
@@ -42,7 +42,7 @@ Låt oss nu dela upp processen för att skapa XMP-metadata i en serie omfattande
 // Sökvägen till dokumentkatalogen.
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 
-// Ange storleken på bilden genom att definiera en rektangel
+//Ange storleken på bilden genom att definiera en rektangel
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 

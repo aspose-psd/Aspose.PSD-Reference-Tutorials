@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden e
 
 1. Visual Studio: Sisteminizde Visual Studio'nun kurulu olduğundan emin olun.
 
-2. Aspose.PSD for .NET: Aspose.PSD kitaplığını indirip yükleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/psd/net/).
+2.  Aspose.PSD for .NET: Aspose.PSD kitaplığını indirip yükleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/psd/net/).
 
 3. Örnek PSD Dosyası: Test için örnek bir PSD dosyasını hazır bulundurun. Eğer elinizde yoksa, amaçlarınız için mevcut herhangi bir PSD dosyasını kullanabilirsiniz.
 
@@ -82,7 +82,7 @@ Tebrikler! Aspose.PSD for .NET kullanarak görüntüleri bir akışa nasıl kayd
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/) Satın alma işlemi yapmadan önce Aspose.PSD'nin özelliklerini keşfetmek için.
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/)Satın alma işlemi yapmadan önce Aspose.PSD'nin özelliklerini keşfetmek için.
 
 ### S4: Geçici lisansı nasıl alabilirim?
 

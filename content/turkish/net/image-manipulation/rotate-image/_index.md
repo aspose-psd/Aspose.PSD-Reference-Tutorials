@@ -63,7 +63,7 @@ Bu eğitimde Aspose.PSD for .NET kullanarak görüntüleri döndürmenin temelle
 
 ### S1: Aspose.PSD'yi kullanarak görüntüleri özel bir açıyla döndürebilir miyim?
 
-Evet, Aspose.PSD, döndürme için özel bir açı belirlemenize olanak tanır. Basitçe değiştirin`RotateFlipType.Rotate270FlipNone` İstediğiniz dönüş açısına göre hizalayın.
+ Evet, Aspose.PSD, dönüş için özel bir açı belirlemenize olanak tanır. Basitçe değiştirin`RotateFlipType.Rotate270FlipNone` İstediğiniz dönüş açısına göre hizalayın.
 
 ### S2: Aspose.PSD çeşitli görüntü formatlarıyla uyumlu mudur?
 

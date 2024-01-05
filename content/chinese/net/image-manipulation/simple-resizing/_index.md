@@ -55,7 +55,7 @@ image.Resize(300, 300);
 
 ## 第 4 步：保存调整大小的图像
 
-使用您喜欢的格式和选项保存调整大小的图像。在此示例中，我们将其另存为 JPEG：
+使用您喜欢的格式和选项保存调整大小的图像。在此示例中，我们将其保存为 JPEG：
 
 ```csharp
 string destName = dataDir + @"SimpleResizing_out.jpg";

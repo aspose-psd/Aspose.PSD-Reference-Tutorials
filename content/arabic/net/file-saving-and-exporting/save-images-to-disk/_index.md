@@ -48,7 +48,7 @@ string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + "result.png";
 ```
 
- هنا،`sourceFile`هو المسار إلى ملف PSD الذي تريد معالجته، و`destName` هو المسار الوجهة للصورة الناتجة.
+ هنا،`sourceFile` هو المسار إلى ملف PSD الذي تريد معالجته، و`destName` هو المسار الوجهة للصورة الناتجة.
 
 ## الخطوة 3: تحميل الصورة وحفظها
 
@@ -77,7 +77,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### س2: هل هناك نسخة تجريبية متاحة؟
 
-ج2: بالتأكيد! يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج2: بالتأكيد! يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على دعم لـ Aspose.PSD لـ .NET؟
 

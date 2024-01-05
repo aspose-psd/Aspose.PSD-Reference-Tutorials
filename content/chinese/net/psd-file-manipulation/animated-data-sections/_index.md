@@ -39,7 +39,7 @@ string sourceFile = Path.Combine(baseDir, "3_animated.psd");
 string outputPsd = Path.Combine(outputDir, "output_3_animated.psd");
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    //您用于操作动画数据的代码位于此处...
+    //您用于操作动画数据的代码位于此处......
     //请参阅后续步骤以获取详细说明。
     
     image.Save(outputPsd);

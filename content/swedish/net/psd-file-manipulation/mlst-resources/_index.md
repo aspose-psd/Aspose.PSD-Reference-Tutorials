@@ -11,10 +11,10 @@ url: /sv/net/psd-file-manipulation/mlst-resources/
 Välkommen till den djupgående handledningen om hantering av MLST-resurser (Multiple Layer States) i Aspose.PSD för .NET. Aspose.PSD för .NET är ett kraftfullt bibliotek som ger omfattande möjligheter att arbeta med Photoshop-filer. I den här handledningen kommer vi att fokusera på stödet för MLST Resources, som erbjuder en lågnivåmekanism för att effektivt manipulera lagertillstånd.
 ## Förutsättningar
 Innan vi går in i handledningen, se till att du har följande förutsättningar på plats:
-- Aspose.PSD för .NET Library: Se till att du har biblioteket installerat. Om inte kan du ladda ner den från[Aspose.PSD för .NET nedladdningssida](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD för .NET Library: Se till att du har biblioteket installerat. Om inte kan du ladda ner den från[Aspose.PSD för .NET nedladdningssida](https://releases.aspose.com/psd/net/).
 - Dokument- och utdatakataloger: Konfigurera din dokumentkatalog (`baseDir`) och utdatakatalog (`outputDir`) i den angivna koden.
 ## Importera namnområden
-I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att arbeta med Aspose.PSD:
+ditt .NET-projekt, inkludera de nödvändiga namnområdena för att arbeta med Aspose.PSD:
 ```csharp
 using System;
 using System.IO;
@@ -77,7 +77,7 @@ S1: Ja, Aspose.PSD för .NET stöder PSD-filer skapade i olika Photoshop-version
 
 ### F3: Var kan jag hitta detaljerad dokumentation för Aspose.PSD för .NET?
 
- S3: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
+S3: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 

@@ -90,7 +90,7 @@ A1: Ja, Sie können den Vorgang für jede weitere Signatur wiederholen.
 
 ### F2: Ist Aspose.PSD mit verschiedenen Bildformaten kompatibel?
 
-A2: Absolut, Aspose.PSD unterstützt verschiedene Bildformate und sorgt so für Vielseitigkeit in Ihren Projekten.
+A2: Absolut, Aspose.PSD unterstützt verschiedene Bildformate und sorgt so für Vielseitigkeit bei Ihren Projekten.
 
 ### F3: Wie kann ich mit Fehlern während des Bildbearbeitungsprozesses umgehen?
 

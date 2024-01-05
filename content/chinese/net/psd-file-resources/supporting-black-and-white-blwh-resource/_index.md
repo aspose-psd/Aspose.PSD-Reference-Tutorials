@@ -11,7 +11,7 @@ url: /zh/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 在数字媒体的动态世界中，图像编辑在创造迷人的视觉效果方面发挥着关键作用。 Aspose.PSD for .NET 使开发人员能够将他们的图像处理能力提升到一个新的水平。在本教程中，我们将探索 Aspose.PSD 中对黑白调整图层的支持，使您能够精确地微调图像。
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下先决条件：
--  Aspose.PSD for .NET：从以下位置下载并安装该库[Aspose.PSD for .NET 文档](https://reference.aspose.com/psd/net/).
+- Aspose.PSD for .NET：从以下位置下载并安装该库[Aspose.PSD for .NET 文档](https://reference.aspose.com/psd/net/).
 - 文档目录：指定文档目录的路径。
 - 输出目录：定义要保存编辑后的图像的目录。
 ## 导入命名空间
@@ -80,7 +80,7 @@ A2：当然！ Aspose.PSD 允许您堆叠多个调整图层，从而实现复杂
 
 ### Q3：如何获得 Aspose.PSD 的临时许可证？
 
- A3：访问[临时牌照](https://purchase.aspose.com/temporary-license/)Aspose 网站上的页面以获得测试的临时许可证。
+ A3：访问[临时牌照](https://purchase.aspose.com/temporary-license/) Aspose 网站上的页面以获得测试的临时许可证。
 
 ### Q4：哪里可以找到对 Aspose.PSD 的支持？
 

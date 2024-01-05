@@ -55,7 +55,7 @@ using (Image image = Image.Load(sourceFile))
 ## Steg 3: Cachelagra bilden
 
 ```csharp
-	// Casta bilden till RasterCachedImage och kontrollera om bilden är cachad
+	//Casta bilden till RasterCachedImage och kontrollera om bilden är cachad
 	RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 	if (!rasterCachedImage.IsCached)
 	{
@@ -103,4 +103,4 @@ S3: Caching förbättrar prestandan genom att lagra bilddata i minnet, vilket mi
 
 ### F5: Finns det en testversion tillgänglig för Aspose.PSD?
 
- A5: Ja, du kan komma åt[gratis provperiod](https://releases.aspose.com/) att utforska Aspose.PSD:s funktioner innan du gör ett köp.
+ A5: Ja, du kan komma åt[gratis provperiod](https://releases.aspose.com/)att utforska Aspose.PSD:s funktioner innan du gör ett köp.

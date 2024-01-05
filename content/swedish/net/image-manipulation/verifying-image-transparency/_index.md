@@ -68,7 +68,7 @@ if (opacity == 0)
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt lärt dig hur du verifierar bildtransparens med Aspose.PSD för .NET. Detta kraftfulla bibliotek förenklar processen att arbeta med PSD-filer och ger dig robusta verktyg för bildmanipulering i dina .NET-applikationer.
+Grattis! Du har framgångsrikt lärt dig hur du verifierar bildtransparens med Aspose.PSD för .NET. Detta kraftfulla bibliotek förenklar arbetet med PSD-filer och ger dig robusta verktyg för bildmanipulering i dina .NET-applikationer.
 
 ## FAQ's
 
@@ -90,4 +90,4 @@ S1: Ja, Aspose.PSD är kompatibel med de senaste .NET-ramverken.
 
 ### F5: Kan jag prova Aspose.PSD gratis innan jag köper?
 
- S5: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).
+S5: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).

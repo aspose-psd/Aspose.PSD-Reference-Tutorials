@@ -17,7 +17,7 @@ url: /zh/net/layer-effects/adding-stroke-layer-solid-color/
 
 - .NET 开发的基础知识。
 - Visual Studio 安装在您的计算机上。
--  Aspose.PSD for .NET 库。您可以从[网站](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET 库。您可以从[网站](https://releases.aspose.com/psd/net/).
 
 ## 导入命名空间
 

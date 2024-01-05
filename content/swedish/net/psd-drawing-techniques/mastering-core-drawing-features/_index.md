@@ -23,7 +23,7 @@ Nu börjar vi med handledningen!
 
 ## Importera namnområden
 
-alla .NET-projekt är import av de nödvändiga namnrymden avgörande för att få tillgång till funktionaliteten som tillhandahålls av Aspose.PSD. Följ dessa steg:
+I alla .NET-projekt är import av de nödvändiga namnrymden avgörande för att få tillgång till funktionaliteten som tillhandahålls av Aspose.PSD. Följ dessa steg:
 
 ### Steg 1: Öppna ditt projekt
 
@@ -81,7 +81,7 @@ image.SaveArgb32Pixels(new Rectangle(0, 0, 100, 10), pixels);
 Spara den ändrade bilden till ett BMP-filformat:
 
 ```csharp
-//exportera bild till bmp-filformat.
+// exportera bild till bmp-filformat.
 image.Save(outpath, new BmpOptions());
 ```
 

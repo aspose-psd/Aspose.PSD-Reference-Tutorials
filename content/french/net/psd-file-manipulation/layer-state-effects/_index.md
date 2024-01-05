@@ -69,7 +69,7 @@ Toutes nos félicitations! Vous avez travaillé avec succès avec les effets d'�
 
 ### Q2 : Où puis-je trouver la documentation d’Aspose.PSD pour .NET ?
 
-A2 : Reportez-vous à la documentation détaillée[ici](https://reference.aspose.com/psd/net/).
+ A2 : Reportez-vous à la documentation détaillée[ici](https://reference.aspose.com/psd/net/).
 
 ### A3 : Existe-t-il un essai gratuit disponible ?
 

@@ -92,7 +92,7 @@ Sonuç olarak Aspose.PSD for .NET, PSD görüntülerindeki gölge efektlerini i�
 
 ### S1: Tek bir katmana birden fazla gölge efekti uygulayabilir miyim?
 
-Cevap1: Evet, birden fazla gölge efekti uygulayabilirsiniz.`Effects` İstenilen katmanın toplanması.
+ Cevap1: Evet, birden fazla gölge efekti uygulayabilirsiniz.`Effects` İstenilen katmanın toplanması.
 
 ### S2: Aspose.PSD for .NET en yeni PSD dosya formatlarıyla uyumlu mu?
 

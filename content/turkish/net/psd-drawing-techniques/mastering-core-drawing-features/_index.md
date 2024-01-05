@@ -81,7 +81,7 @@ image.SaveArgb32Pixels(new Rectangle(0, 0, 100, 10), pixels);
 Değiştirilen görüntüyü bir BMP dosya formatında kaydedin:
 
 ```csharp
-//görüntüyü bmp dosya formatına aktarın.
+// görüntüyü bmp dosya formatına aktarın.
 image.Save(outpath, new BmpOptions());
 ```
 
@@ -109,4 +109,4 @@ Tebrikler! Aspose.PSD for .NET'in temel çizim özelliklerine hakim oldunuz. Bu 
 
 ### S5: Aspose.PSD for .NET desteğini nereden alabilirim?
 
- Cevap5: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/psd/34).
+ A5: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/psd/34).

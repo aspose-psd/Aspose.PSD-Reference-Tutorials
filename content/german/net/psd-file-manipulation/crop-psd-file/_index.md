@@ -22,7 +22,7 @@ using Aspose.PSD.ImageOptions;
 ## Schritt 1: Richten Sie Ihr Projekt ein
 Erstellen Sie ein neues .NET-Projekt oder öffnen Sie ein vorhandenes in Ihrer bevorzugten IDE.
 ## Schritt 2: Aspose.PSD-Bibliothek einbinden
-Fügen Sie in Ihrem Projekt einen Verweis auf die Aspose.PSD-Bibliothek hinzu. Sie können dies tun, indem Sie die Bibliothek von herunterladen[Aspose.PSD-Downloadseite](https://releases.aspose.com/psd/net/).
+ Fügen Sie in Ihrem Projekt einen Verweis auf die Aspose.PSD-Bibliothek hinzu. Sie können dies tun, indem Sie die Bibliothek von herunterladen[Aspose.PSD-Downloadseite](https://releases.aspose.com/psd/net/).
 ## Schritt 3: Initialisieren Sie Aspose.PSD
 Initialisieren Sie Aspose.PSD in Ihrem Code, indem Sie die PSD-Datei laden:
 ```csharp
@@ -49,7 +49,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 ```
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie PSD-Dateien mit Aspose.PSD für .NET zuschneiden. Dieser einfache, aber leistungsstarke Prozess kann zur effizienten Bildbearbeitung nahtlos in Ihre .NET-Anwendungen integriert werden.
+Glückwunsch! Sie haben erfolgreich gelernt, wie Sie PSD-Dateien mit Aspose.PSD für .NET zuschneiden. Dieser einfache, aber leistungsstarke Prozess kann für eine effiziente Bildbearbeitung nahtlos in Ihre .NET-Anwendungen integriert werden.
 
 ## FAQs
 
@@ -63,7 +63,7 @@ A1: Ja, Aspose.PSD wird regelmäßig aktualisiert, um die Kompatibilität mit de
 
 ### F3: Gibt es eine kostenlose Testversion?
 
-A3: Ja, Sie können Aspose.PSD mit einer kostenlosen Testversion erkunden. Lade es herunter[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können Aspose.PSD mit einer kostenlosen Testversion erkunden. Lade es herunter[Hier](https://releases.aspose.com/).
 
 ### F4: Wo finde ich Unterstützung für Aspose.PSD?
 

@@ -15,7 +15,7 @@ url: /ar/net/image-manipulation/supporting-different-signature-types/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.PSD لمكتبة .NET: تأكد من تثبيت المكتبة. يمكنك تنزيله من[هنا](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD لمكتبة .NET: تأكد من تثبيت المكتبة. يمكنك تنزيله من[هنا](https://releases.aspose.com/psd/net/).
 
 -  أدلة المستندات والمخرجات: قم بإعداد الدلائل لمستند PSD الخاص بك والمخرجات المطلوبة. تعديل`baseFolder` و`outputFolder` المتغيرات في المثال وفقا لذلك.
 

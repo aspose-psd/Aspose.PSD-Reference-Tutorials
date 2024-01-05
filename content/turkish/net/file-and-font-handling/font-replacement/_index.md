@@ -15,7 +15,7 @@ url: /tr/net/file-and-font-handling/font-replacement/
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
--  Aspose.PSD for .NET: Aspose.PSD kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Aspose.PSD kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/psd/net/).
 
 - .NET Ortamı: Makinenizde çalışan bir .NET geliştirme ortamı kurun.
 

@@ -15,7 +15,7 @@ Välkommen till vår omfattande guide för att skapa elliptiska former med Aspos
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
--  Aspose.PSD för .NET-bibliotek: Se till att du har Aspose.PSD-biblioteket installerat i ditt .NET-projekt. Du kan ladda ner den från[Aspose.PSD för .NET-dokumentation](https://reference.aspose.com/psd/net/).
+- Aspose.PSD för .NET-bibliotek: Se till att du har Aspose.PSD-biblioteket installerat i ditt .NET-projekt. Du kan ladda ner den från[Aspose.PSD för .NET-dokumentation](https://reference.aspose.com/psd/net/).
 
 - .NET-miljö: Denna handledning förutsätter att du har praktiska kunskaper om .NET-ramverket.
 
@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## Steg 5: Rita en kontinuerlig ellipsform
 
 ```csharp
-    // Rita en kontinuerlig ellipsform genom att ange att Pen-objektet har en solid pensel med blå färg och en omgivande rektangel
+    //Rita en kontinuerlig ellipsform genom att ange att Pen-objektet har en solid pensel med blå färg och en omgivande rektangel
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // Exportera bild till bmp-filformat.

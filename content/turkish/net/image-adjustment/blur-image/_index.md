@@ -47,7 +47,7 @@ string sourceFile = dataDir + @"sample.psd";
 // Mevcut bir görüntüyü RasterImage sınıfının bir örneğine yükleme
 using (var image = Image.Load(sourceFile))
 {
-    //Bu kullanım bloğundaki sonraki adımlara geçin
+    // Bu kullanım bloğundaki sonraki adımlara geçin
 }
 ```
 

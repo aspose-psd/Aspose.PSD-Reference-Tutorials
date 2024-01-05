@@ -92,7 +92,7 @@ image.Save(psdPathAfterChange);
 
 ### Q1：我可以在一个图层上应用多个阴影效果吗？
 
-A1：是的，您可以通过操纵`Effects`所需图层的集合。
+ A1：是的，您可以通过操纵`Effects`所需图层的集合。
 
 ### Q2：Aspose.PSD for .NET 与最新的 PSD 文件格式兼容吗？
 

@@ -15,7 +15,7 @@ Välkommen till vår omfattande handledning om att rita bågar med Aspose.PSD f�
 
 Innan vi dyker in i den spännande världen av ritbågar, se till att du har följande förutsättningar på plats:
 
--  Aspose.PSD för .NET Library: Ladda ner och installera Aspose.PSD-biblioteket från[nedladdningslänk](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET Library: Ladda ner och installera Aspose.PSD-biblioteket från[nedladdningslänk](https://releases.aspose.com/psd/net/).
 
 -  Dokumentkatalog: Skapa en katalog för att lagra dina dokument och ersätta dem`"Your Document Directory"` i den medföljande koden med den faktiska sökvägen.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Actual Document Directory";
 
 ## Steg 2: Rita en båge
 
- Skapa en instans av`BmpOptions`och ställ in dess egenskaper, inklusive`BitsPerPixel`.
+ Skapa en instans av`BmpOptions` och ställ in dess egenskaper, inklusive`BitsPerPixel`.
 
 ```csharp
 BmpOptions saveOptions = new BmpOptions();

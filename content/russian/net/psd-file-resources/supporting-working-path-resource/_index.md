@@ -23,7 +23,7 @@ using Aspose.PSD.FileFormats.Core.VectorPaths;
 using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Resources;
 ```
-## Шаг 1. Настройте рабочие каталоги
+## Шаг 1. Настройка рабочих каталогов
 Начните с определения каталогов документов и выходных данных:
 ```csharp
 string baseFolder = "Your Document Directory";
@@ -41,7 +41,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
     WorkingPathResource workingPathResource = null;
     // ... (продолжайте проверку рабочего путиресаурса)
     
-    // Обрезать и сохранить.
+    //Обрезать и сохранить.
     psdImage.Crop(0, 500, 0, 200);
     psdImage.Save(outputFile);
 }

@@ -22,7 +22,7 @@ using Aspose.PSD.ImageOptions;
 ## الخطوة 1: قم بإعداد مشروعك
 قم بإنشاء مشروع .NET جديد أو افتح مشروعًا موجودًا في IDE المفضل لديك.
 ## الخطوة 2: تضمين مكتبة Aspose.PSD
-أضف مرجعًا إلى مكتبة Aspose.PSD في مشروعك. يمكنك القيام بذلك عن طريق تنزيل المكتبة من[صفحة تحميل Aspose.PSD](https://releases.aspose.com/psd/net/).
+ أضف مرجعًا إلى مكتبة Aspose.PSD في مشروعك. يمكنك القيام بذلك عن طريق تنزيل المكتبة من[صفحة تحميل Aspose.PSD](https://releases.aspose.com/psd/net/).
 ## الخطوة 3: تهيئة Aspose.PSD
 في التعليمات البرمجية الخاصة بك، قم بتهيئة Aspose.PSD عن طريق تحميل ملف PSD:
 ```csharp
@@ -63,7 +63,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
-ج3: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني العثور على الدعم لـ Aspose.PSD؟
 

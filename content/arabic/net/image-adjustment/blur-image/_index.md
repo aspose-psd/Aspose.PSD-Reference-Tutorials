@@ -47,7 +47,7 @@ string sourceFile = dataDir + @"sample.psd";
 // قم بتحميل صورة موجودة في مثيل لفئة RasterImage
 using (var image = Image.Load(sourceFile))
 {
-    //تابع إلى الخطوات التالية ضمن كتلة الاستخدام هذه
+    // تابع إلى الخطوات التالية ضمن كتلة الاستخدام هذه
 }
 ```
 

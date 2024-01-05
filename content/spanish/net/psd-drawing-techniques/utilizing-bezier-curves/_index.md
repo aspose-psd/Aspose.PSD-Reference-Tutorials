@@ -21,7 +21,7 @@ Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente en su lugar
 
 - Conocimientos básicos de C#: este tutorial asume una comprensión básica del lenguaje de programación C#.
 
--  Directorio de documentos: defina la ruta a su directorio de documentos en el`dataDir` variable.
+- Directorio de documentos: defina la ruta a su directorio de documentos en el`dataDir` variable.
 
 ## Importar espacios de nombres
 
@@ -87,7 +87,7 @@ En este tutorial, exploramos el fascinante mundo de las curvas de Bézier en Asp
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.PSD para .NET en proyectos no comerciales?
+### P1: ¿Puedo utilizar Aspose.PSD para .NET en proyectos no comerciales?
 
  R1: Sí, Aspose.PSD para .NET se puede utilizar en proyectos comerciales y no comerciales. Comprobar el[detalles de la licencia](https://purchase.aspose.com/buy) para más información.
 

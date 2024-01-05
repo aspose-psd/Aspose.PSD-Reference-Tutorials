@@ -15,7 +15,7 @@ Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente strumento
 
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
--  Aspose.PSD per .NET: assicurati di avere la libreria Aspose.PSD installata. Puoi scaricarlo[Qui](https://releases.aspose.com/psd/net/).
+- Aspose.PSD per .NET: assicurati di avere la libreria Aspose.PSD installata. Puoi scaricarlo[Qui](https://releases.aspose.com/psd/net/).
 
 - Ambiente .NET: disporre di un ambiente di sviluppo .NET funzionante configurato sul proprio computer.
 

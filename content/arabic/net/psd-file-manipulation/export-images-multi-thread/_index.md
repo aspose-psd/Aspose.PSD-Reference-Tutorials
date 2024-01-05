@@ -36,7 +36,7 @@ try
     // قم بإنشاء دفق ملف الصورة الموجود.
     using (System.IO.FileStream fileStream = System.IO.File.Create(imageDataPath))
     {
-        //قم بإنشاء مثيل لفئة خيار صورة PSD.
+        // قم بإنشاء مثيل لفئة خيار صورة PSD.
         using (PsdOptions psdOptions = new PsdOptions())
         {
             // قم بتعيين الخاصية المصدر لكائن فئة خيار التصوير.
@@ -68,7 +68,7 @@ finally
 
 ### س3: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
- ج3: انضم إلى مجتمع Aspose.PSD[المنتدى](https://forum.aspose.com/c/psd/34)للحصول على المساعدة من الخبراء وزملائهم المطورين.
+ ج3: انضم إلى مجتمع Aspose.PSD[المنتدى](https://forum.aspose.com/c/psd/34) للحصول على المساعدة من الخبراء وزملائهم المطورين.
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 

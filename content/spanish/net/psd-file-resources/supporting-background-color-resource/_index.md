@@ -76,7 +76,7 @@ R1: Aspose.PSD admite una amplia gama de versiones de PSD, lo que garantiza la c
 
 ### P2: ¿Puedo utilizar Aspose.PSD para proyectos comerciales?
 
- R2: Sí, puede utilizar Aspose.PSD tanto en proyectos comerciales como no comerciales. Comprobar el[pagina de compra](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
+R2: Sí, puede utilizar Aspose.PSD tanto en proyectos comerciales como no comerciales. Comprobar el[pagina de compra](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
 
 ### P3: ¿Cómo puedo obtener soporte para Aspose.PSD?
 

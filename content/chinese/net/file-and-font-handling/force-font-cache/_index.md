@@ -15,7 +15,7 @@ Aspose.PSD for .NET 提供了强大的工具来在 .NET 应用程序中处理 PS
 
 在深入学习本教程之前，请确保您满足以下先决条件：
 
--  Aspose.PSD for .NET：从以下位置下载并安装 Aspose.PSD 库：[发布页面](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET：从以下位置下载并安装 Aspose.PSD 库：[发布页面](https://releases.aspose.com/psd/net/).
 
 - 文档目录：设置一个目录来存储您的 PSD 文件，并将代码片段中的“您的文档目录”替换为实际路径。
 

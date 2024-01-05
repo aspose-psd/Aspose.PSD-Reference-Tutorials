@@ -92,7 +92,7 @@ En conclusion, Aspose.PSD pour .NET offre une solution robuste pour gérer les e
 
 ### Q1 : Puis-je appliquer plusieurs effets d’ombre à un seul calque ?
 
-A1 : Oui, vous pouvez appliquer plusieurs effets d'ombre en manipulant le`Effects` collection de la couche souhaitée.
+ A1 : Oui, vous pouvez appliquer plusieurs effets d'ombre en manipulant le`Effects` collection de la couche souhaitée.
 
 ### Q2 : Aspose.PSD pour .NET est-il compatible avec les derniers formats de fichiers PSD ?
 

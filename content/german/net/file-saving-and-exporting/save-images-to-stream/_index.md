@@ -17,7 +17,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Vora
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem System installiert ist.
 
-2. Aspose.PSD für .NET: Laden Sie die Aspose.PSD-Bibliothek herunter und installieren Sie sie. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/psd/net/).
+2.  Aspose.PSD für .NET: Laden Sie die Aspose.PSD-Bibliothek herunter und installieren Sie sie. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/psd/net/).
 
 3. Beispiel-PSD-Datei: Halten Sie eine Beispiel-PSD-Datei zum Testen bereit. Wenn Sie keine haben, können Sie jede verfügbare PSD-Datei für Ihre Zwecke verwenden.
 
@@ -82,7 +82,7 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Bilder mit Aspose.PSD für 
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/) um die Funktionen von Aspose.PSD zu erkunden, bevor Sie einen Kauf tätigen.
+ A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/)um die Funktionen von Aspose.PSD zu erkunden, bevor Sie einen Kauf tätigen.
 
 ### F4: Wie kann ich eine temporäre Lizenz erhalten?
 

@@ -17,7 +17,7 @@ url: /ar/net/layer-effects/adding-stroke-layer-solid-color/
 
 - المعرفة الأساسية بتطوير .NET.
 - تم تثبيت Visual Studio على جهازك.
--  Aspose.PSD لمكتبة .NET. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/psd/net/).
+- Aspose.PSD لمكتبة .NET. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/psd/net/).
 
 ## استيراد مساحات الأسماء
 
@@ -129,4 +129,4 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 
 ### س5: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
- ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34)لطلب المساعدة والتواصل مع المجتمع.
+ ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لطلب المساعدة والتواصل مع المجتمع.

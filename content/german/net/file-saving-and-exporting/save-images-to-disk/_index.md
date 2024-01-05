@@ -48,7 +48,7 @@ string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + "result.png";
 ```
 
- Hier,`sourceFile`ist der Pfad zur PSD-Datei, die Sie verarbeiten möchten, und`destName` ist der Zielpfad für das resultierende Bild.
+ Hier,`sourceFile` ist der Pfad zur PSD-Datei, die Sie verarbeiten möchten, und`destName` ist der Zielpfad für das resultierende Bild.
 
 ## Schritt 3: Laden und speichern Sie das Bild
 
@@ -77,7 +77,7 @@ A1: Ja, Aspose.PSD unterstützt eine Vielzahl von Bildformaten und sorgt so für
 
 ### F2: Gibt es eine Testversion?
 
-A2: Auf jeden Fall! Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+ A2: Auf jeden Fall! Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### F3: Wo finde ich Unterstützung für Aspose.PSD für .NET?
 

@@ -9,7 +9,7 @@ url: /sv/net/file-saving-and-exporting/save-images-to-stream/
 ---
 ## Introduktion
 
-I den ständigt föränderliga världen av .NET-utveckling framstår Aspose.PSD som ett kraftfullt verktyg för att hantera bilder med precision och effektivitet. Om du vill spara bilder till en ström med Aspose.PSD för .NET, har du kommit rätt. Denna handledning guidar dig genom processen och delar upp den i enkla steg att följa.
+den ständigt föränderliga världen av .NET-utveckling framstår Aspose.PSD som ett kraftfullt verktyg för att hantera bilder med precision och effektivitet. Om du vill spara bilder till en ström med Aspose.PSD för .NET, har du kommit rätt. Denna handledning guidar dig genom processen och delar upp den i enkla steg att följa.
 
 ## Förutsättningar
 
@@ -17,7 +17,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 1. Visual Studio: Se till att du har Visual Studio installerat på ditt system.
 
-2. Aspose.PSD för .NET: Ladda ner och installera Aspose.PSD-biblioteket. Du hittar nedladdningslänken[här](https://releases.aspose.com/psd/net/).
+2.  Aspose.PSD för .NET: Ladda ner och installera Aspose.PSD-biblioteket. Du hittar nedladdningslänken[här](https://releases.aspose.com/psd/net/).
 
 3. Exempel PSD-fil: Ha en exempel-PSD-fil redo för testning. Om du inte har en, kan du använda vilken PSD-fil som helst för dina ändamål.
 
@@ -82,7 +82,7 @@ Grattis! Du har framgångsrikt lärt dig hur du sparar bilder i en ström med As
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/) att utforska Aspose.PSD:s funktioner innan du gör ett köp.
+ A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/)att utforska Aspose.PSD:s funktioner innan du gör ett köp.
 
 ### F4: Hur kan jag få en tillfällig licens?
 

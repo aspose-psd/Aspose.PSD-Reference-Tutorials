@@ -42,7 +42,7 @@ using System.IO;
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 
-// حدد حجم الصورة عن طريق تعريف المستطيل
+//حدد حجم الصورة عن طريق تعريف المستطيل
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 

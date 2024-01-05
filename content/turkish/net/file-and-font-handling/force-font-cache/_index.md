@@ -15,7 +15,7 @@ Aspose.PSD for .NET, .NET uygulamalarınızda PSD dosyalarıyla çalışmak içi
 
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
--  Aspose.PSD for .NET: Aspose.PSD kütüphanesini şu adresten indirip yükleyin:[yayın sayfası](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Aspose.PSD kütüphanesini şu adresten indirip yükleyin:[yayın sayfası](https://releases.aspose.com/psd/net/).
 
 - Belge Dizini: PSD dosyalarınızı depolamak için bir dizin ayarlayın ve kod parçacıklarındaki "Belge Dizininiz"i gerçek yolla değiştirin.
 

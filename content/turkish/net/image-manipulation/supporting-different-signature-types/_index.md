@@ -15,7 +15,7 @@ Geliştiricilerin PSD dosyalarını sorunsuz bir şekilde yönetmesine olanak ta
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- Aspose.PSD for .NET Library: Kütüphanenin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET Library: Kütüphanenin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/psd/net/).
 
 -  Belge ve Çıktı Dizinleri: PSD belgeniz ve istediğiniz çıktı için dizinleri ayarlayın. Değiştirmek`baseFolder` Ve`outputFolder` örnekteki değişkenler buna göre.
 

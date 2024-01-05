@@ -94,7 +94,7 @@ A1：是的，Aspose.PSD 与所有版本的 .NET 兼容，确保您的开发项�
 
 ### Q2：我可以将Aspose.PSD用于商业用途吗？
 
- A2：是的，Aspose.PSD 可用于个人和商业目的。检查许可详细信息[这里](https://purchase.aspose.com/buy).
+A2：是的，Aspose.PSD 可用于个人和商业目的。检查许可详细信息[这里](https://purchase.aspose.com/buy).
 
 ### Q3：如何获得 Aspose.PSD 支持？
 
@@ -106,4 +106,4 @@ A1：是的，Aspose.PSD 与所有版本的 .NET 兼容，确保您的开发项�
 
 ### Q5：我可以获得 Aspose.PSD 的临时许可证吗？
 
- A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).

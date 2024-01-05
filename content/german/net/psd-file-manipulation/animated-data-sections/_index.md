@@ -12,7 +12,7 @@ Willkommen zu unserem umfassenden Leitfaden zum Umgang mit animierten Datenabsch
 ## Voraussetzungen
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Grundkenntnisse in C#- und .NET-Programmierung.
--  Aspose.PSD für .NET installiert. Wenn Sie es noch nicht installiert haben, können Sie es hier herunterladen[Hier](https://releases.aspose.com/psd/net/).
+- Aspose.PSD für .NET installiert. Wenn Sie es noch nicht installiert haben, können Sie es hier herunterladen[Hier](https://releases.aspose.com/psd/net/).
 - Ein Code-Editor wie Visual Studio für eine nahtlose Implementierung.
 ## Namespaces importieren
 Stellen Sie in Ihrem C#-Code sicher, dass Sie die erforderlichen Namespaces für die Arbeit mit Aspose.PSD importieren:
@@ -54,7 +54,7 @@ foreach (var imageResource in image.ImageResources)
         var animatedData = (AnimatedDataSectionStructure)(imageResource as AnimatedDataSectionResource).AnimatedDataSection;
         var framesList = FindStructure<ListStructure>(animatedData.Items, "FrIn");
         var frame1 = (DescriptorStructure)framesList.Types[1];
-        // Ihr Code zum Aktualisieren der Frame-Verzögerung geht hier...
+        // Ihr Code zum Aktualisieren der Frame-Verzögerung geht hier ...
         // Detaillierte Anweisungen finden Sie in den nächsten Schritten.
         break;
     }

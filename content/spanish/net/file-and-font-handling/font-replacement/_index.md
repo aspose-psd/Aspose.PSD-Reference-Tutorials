@@ -15,7 +15,7 @@ En el ámbito del desarrollo .NET, Aspose.PSD se destaca como una poderosa herra
 
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
--  Aspose.PSD para .NET: asegúrese de tener instalada la biblioteca Aspose.PSD. Puedes descargarlo[aquí](https://releases.aspose.com/psd/net/).
+- Aspose.PSD para .NET: asegúrese de tener instalada la biblioteca Aspose.PSD. Puedes descargarlo[aquí](https://releases.aspose.com/psd/net/).
 
 - Entorno .NET: Tenga un entorno de desarrollo .NET funcional configurado en su máquina.
 
@@ -87,7 +87,7 @@ R2: Aspose.PSD admite una amplia gama de tipos de fuentes, lo que garantiza la c
 
 R3: ¡Absolutamente! Puede especificar fuentes personalizadas durante el proceso de reemplazo de fuentes, lo que brinda flexibilidad en el diseño y la salida.
 
-### P4: ¿Existe alguna manera de obtener una vista previa del documento con las fuentes reemplazadas antes de guardarlo?
+### P4: ¿Existe alguna forma de obtener una vista previa del documento con las fuentes reemplazadas antes de guardarlo?
 
 R4: Si bien el tutorial se centra en el proceso de reemplazo, puede implementar pasos adicionales para obtener una vista previa del documento antes de guardarlo renderizándolo usando Aspose.PSD.
 
