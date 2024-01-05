@@ -47,7 +47,6 @@ Save the loaded PSD image as a CMYK TIFF file using the specified options.
 ## Conclusion
 Congratulations! You've successfully converted a CMYK PSD to CMYK TIFF using Aspose.PSD for Java. This powerful library simplifies the process and provides flexibility in handling PSD files programmatically.
 ## Frequently Asked Questions
- (FAQs)
 ### Is Aspose.PSD compatible with all versions of Java?
 Yes, Aspose.PSD for Java is designed to be compatible with all major versions of Java.
 ### Can I convert PSD files with different color modes using Aspose.PSD?
