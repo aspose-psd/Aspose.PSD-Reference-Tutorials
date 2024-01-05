@@ -32,8 +32,6 @@ Choose your favorite Java IDE, such as Eclipse or IntelliJ, for a smooth coding 
 In your Java project, import the necessary packages to kickstart the image cropping process:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 

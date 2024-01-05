@@ -26,8 +26,6 @@ Now that you have everything set up, let's proceed with the step-by-step guide.
 Start by importing the necessary packages in your Java project. This ensures that you have access to the Aspose.PSD functionality. Here's a basic example:
 
 ```java
-package com.aspose.psd.examples.DrawingImages;
-
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 
@@ -44,9 +42,7 @@ Now, let's break down the example into multiple steps.
 
 ## Step 1: Load PSD File and Access Gradient Overlay
 
-```java
-
-String dataDir = "Your Document Directory";
+```javaString dataDir = "Your Document Directory";
 
 // Gradient overlay effect. Example
 String sourceFileName = dataDir + "GradientOverlay.psd";

@@ -23,8 +23,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 Begin by importing the necessary packages into your Java project. The following example demonstrates how to do this:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 
 import com.aspose.psd.imageoptions.GifOptions;

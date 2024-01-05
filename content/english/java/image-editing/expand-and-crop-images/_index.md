@@ -24,8 +24,6 @@ Before we dive into the tutorial, ensure you have the following prerequisites in
 Now that you have your prerequisites in order, import the necessary packages to start working with Aspose.PSD for Java. Add the following lines to your Java code:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 import com.aspose.psd.Rectangle;

@@ -23,8 +23,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 To get started, import the required packages into your Java project. Add the following lines to your code:
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 

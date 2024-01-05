@@ -24,8 +24,6 @@ Before we get started, make sure you have the following prerequisites in place:
 In your Java project, begin by importing the necessary packages for working with Aspose.PSD:
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
 import com.aspose.psd.coreexceptions.OperationInterruptedException;

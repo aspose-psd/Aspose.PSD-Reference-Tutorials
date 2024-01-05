@@ -26,8 +26,6 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 In your Java project, begin by importing the necessary packages to leverage Aspose.PSD functionalities. Add the following import statements:
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 import com.aspose.psd.Rectangle;

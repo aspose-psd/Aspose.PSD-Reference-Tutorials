@@ -26,8 +26,6 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 Start by importing the necessary packages for your Java project. Include the Aspose.PSD library in your project, as demonstrated below:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;

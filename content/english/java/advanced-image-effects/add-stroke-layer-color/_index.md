@@ -26,8 +26,6 @@ Before embarking on this creative journey, ensure you have the following prerequ
 Let's start by importing the necessary packages to make the Aspose.PSD magic happen.
 
 ```java
-package com.aspose.psd.examples.DrawingImages;
-
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 

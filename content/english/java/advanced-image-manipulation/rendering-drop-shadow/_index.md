@@ -24,8 +24,6 @@ Before we embark on this journey, ensure you have the following prerequisites in
 Let's kick things off by importing the necessary packages. This step ensures that you have the essential tools at your disposal for smooth execution of the code.
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 
 import com.aspose.psd.fileformats.psd.PsdImage;

@@ -26,8 +26,6 @@ Now that we have our prerequisites sorted, let's dive into the core of our tutor
 Start by importing the necessary packages to kick off your image resizing process. Include the following lines of code at the beginning of your Java file:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 
 import com.aspose.psd.imageoptions.JpegOptions;

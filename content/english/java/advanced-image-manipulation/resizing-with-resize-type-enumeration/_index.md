@@ -26,8 +26,6 @@ Before embarking on this tutorial, ensure you have the following prerequisites i
 To begin, import the necessary packages into your Java project:
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.ResizeType;
 

@@ -24,8 +24,6 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 Start by importing the necessary packages into your Java project. These include Aspose.PSD classes for image processing.
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
 

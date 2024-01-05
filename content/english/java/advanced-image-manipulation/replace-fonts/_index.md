@@ -24,8 +24,6 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 Begin by importing the necessary packages into your Java project. This step ensures that you have access to the classes and methods required for font replacement in Aspose.PSD.
 
 ```java
-package com.aspose.psd.examples.DrawingAndFormattingImages;
-
 import com.aspose.psd.Image;
 
 import com.aspose.psd.fileformats.psd.PsdImage;

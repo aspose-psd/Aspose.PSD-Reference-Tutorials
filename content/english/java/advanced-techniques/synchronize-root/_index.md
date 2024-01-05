@@ -25,8 +25,6 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 To get started, you need to import the necessary packages into your Java project. These packages are crucial for accessing and utilizing the Aspose.PSD functionality.
 
 ```java
-package com.aspose.psd.examples.Conversion;
-
 import com.aspose.psd.StreamContainer;
 
 import com.aspose.psd.system.io.MemoryStream;
