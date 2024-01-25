@@ -9,7 +9,7 @@ url: /tr/java/image-editing/create-image-by-setting-path/
 ---
 ## giriiş
 
-Aspose.PSD for Java kullanarak görsel oluşturmayı anlatan bu adım adım eğitime hoş geldiniz. Bu kılavuzda, bir PSD görüntüsü oluşturmak için yolun nasıl ayarlanacağını ve seçeneklerin nasıl yapılandırılacağını keşfedeceğiz. Aspose.PSD, Photoshop dosyalarıyla çalışmak için güçlü bir Java kitaplığıdır ve görüntüleri programlı olarak işlemek ve oluşturmak için kusursuz bir yol sağlar.
+Aspose.PSD for Java kullanarak görsel oluşturmayı anlatan bu adım adım eğitime hoş geldiniz. Bu kılavuzda, bir PSD görüntüsü oluşturmak için yolun nasıl ayarlanacağını ve seçeneklerin nasıl yapılandırılacağını keşfedeceğiz. Aspose.PSD, Photoshop dosyalarıyla çalışmak için güçlü bir Java kitaplığıdır ve görüntüleri programlı olarak işlemek ve oluşturmak için kusursuz bir yol sunar.
 
 ## Önkoşullar
 

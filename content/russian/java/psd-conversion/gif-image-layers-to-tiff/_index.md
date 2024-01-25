@@ -62,5 +62,5 @@ layer.save(dataDir + "output" + i + "_out.tiff", objTiff);
  По любым вопросам или проблемам посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).
 ### Нужна ли мне временная лицензия для целей тестирования?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
-### Как я могу оставаться в курсе документации Aspose.PSD?
+### Как мне оставаться в курсе документации Aspose.PSD?
  Обратитесь к документации[здесь](https://reference.aspose.com/psd/java/) для получения последних обновлений и руководств.

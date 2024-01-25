@@ -79,7 +79,7 @@ Agregar efectos en tiempo de ejecución en Aspose.PSD para .NET es un proceso se
 
 ### P1: ¿Aspose.PSD es compatible con el último marco .NET?
 
-R1: Sí, Aspose.PSD se actualiza periódicamente para garantizar la compatibilidad con las últimas versiones de .NET Framework.
+R1: Sí, Aspose.PSD se actualiza periódicamente para garantizar la compatibilidad con las últimas versiones de .NET framework.
 
 ### P2: ¿Puedo aplicar varios efectos a una sola capa?
 

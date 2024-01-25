@@ -79,7 +79,7 @@ finally
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt renderat text med olika färger i ett textlager med Aspose.PSD för Java. Den här handledningen ger dig en grund för textmanipulering i PSD-filer, vilket öppnar upp möjligheter för kreativ och dynamisk bildgenerering.
+Grattis! Du har framgångsrikt renderat text med olika färger i ett textlager med Aspose.PSD för Java. Den här handledningen ger dig en grund för textmanipulering i PSD-filer, vilket öppnar möjligheter för kreativ och dynamisk bildgenerering.
 
 ## FAQ's
 

@@ -2,7 +2,7 @@
 title: Créer une image en définissant le chemin dans Aspose.PSD pour Java
 linktitle: Créer une image en définissant le chemin
 second_title: API Java Aspose.PSD
-description: Découvrez comment créer des images PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une génération d’images fluide.
+description: Découvrez comment créer des images PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une génération d’images transparente.
 type: docs
 weight: 13
 url: /fr/java/image-editing/create-image-by-setting-path/

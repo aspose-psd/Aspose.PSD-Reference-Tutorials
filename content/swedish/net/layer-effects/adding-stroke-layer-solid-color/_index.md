@@ -34,7 +34,7 @@ using Aspose.PSD.FileFormats.Core.Blending;
 
 ## Steg 1: Ladda PSD-filen
 
-Börja med att ladda PSD-filen som du vill förbättra med ett strecklager. Se till att du har rätt sökväg:
+Börja med att ladda PSD-filen som du vill förbättra med ett strecklager. Se till att du har rätt filsökväg:
 
 ```csharp
 string dataDir = "Your Document Directory";

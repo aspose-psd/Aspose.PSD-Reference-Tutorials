@@ -131,7 +131,7 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec différentes versions de Visu
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
+ A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
 
 ### Q3 : Existe-t-il des exemples de fichiers PSD disponibles pour les tests ?
 

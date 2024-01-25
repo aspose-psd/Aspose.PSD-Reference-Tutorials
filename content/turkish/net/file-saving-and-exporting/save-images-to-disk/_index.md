@@ -61,7 +61,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-Bu kod parçacığı PSD görüntüsünü yükler, onu PNG biçimine dönüştürür ve belirtilen hedefe kaydeder.
+Bu kod parçacığı PSD görüntüsünü yükler, PNG formatına dönüştürür ve belirtilen hedefe kaydeder.
 
  Tebrikler! Aspose.PSD for .NET'i kullanarak bir görüntüyü başarıyla diske kaydettiniz. Bu eğitim, sürecin temel bir anlayışını sağlar, ancak kapsamlı belgelerde keşfedilecek çok daha fazlası var[Burada](https://reference.aspose.com/psd/net/).
 

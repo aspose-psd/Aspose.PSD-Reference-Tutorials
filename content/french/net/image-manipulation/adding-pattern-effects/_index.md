@@ -101,7 +101,7 @@ A2 : Aspose.PSD prend principalement en charge le format PSD (Adobe Photoshop), 
 
  A3 : Modifier le`Opacity` propriété du`PatternOverlayEffect` pour ajuster le niveau d’opacité.
 
-### Q4 : Y a-t-il des limitations sur les dimensions du motif ?
+### Q4 : Y a-t-il des limites sur les dimensions du motif ?
 
 A4 : Les dimensions du motif sont flexibles, vous permettant de créer des motifs de différentes tailles.
 

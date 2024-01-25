@@ -58,7 +58,7 @@ psdOptions.setCompressionMethod(CompressionMethod.RLE);
 
 ## Шаг 4. Установите исходное свойство
 
-Определите свойство источника для экземпляра PsdOptions, указав выходной файл и то, является ли он временным.
+Определите свойство источника для экземпляра PsdOptions, указав выходной файл и укажите, является ли он временным.
 
 ```java
 psdOptions.setSource(new FileCreateSource(desName, false));

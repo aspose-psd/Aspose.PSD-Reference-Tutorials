@@ -100,4 +100,4 @@ Grattis! Du har framgångsrikt implementerat Gamma Adjustment med Aspose.PSD fö
 
 ### F5: Behöver jag en tillfällig licens?
 
- S5: Vid behov kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S5: Om det behövs kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

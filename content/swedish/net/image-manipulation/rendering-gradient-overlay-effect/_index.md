@@ -11,7 +11,7 @@ När det gäller grafisk design och bildbehandling med .NET framstår Aspose.PSD
 
 ## Introduktion
 
-Lås upp potentialen i dina bilder genom att bemästra Gradient Overlay Effect i Aspose.PSD för .NET. Denna handledning ger dig möjlighet att höja dina färdigheter i grafisk design och skapa visuellt fantastiska bilder med lätthet. Följ stegen nedan för att sömlöst integrera denna effekt i dina projekt.
+Lås upp potentialen hos dina bilder genom att bemästra Gradient Overlay Effect i Aspose.PSD för .NET. Denna handledning ger dig möjlighet att höja dina färdigheter i grafisk design och skapa visuellt fantastiska bilder med lätthet. Följ stegen nedan för att sömlöst integrera denna effekt i dina projekt.
 
 ## Förutsättningar
 
@@ -53,7 +53,7 @@ string outputPsd = outputFilePath + ".psd";
 
 Ange filsökvägarna för din käll-PSD-fil och utdatafilerna i PNG- och PSD-format.
 
-## Steg 3: Rendera övertoningseffekten
+## Steg 3: Återge övertoningseffekten
 
 ```csharp
 using (var psdImage = (PsdImage)Image.Load(sourceFilePath, new PsdLoadOptions() { LoadEffectsResource = true }))

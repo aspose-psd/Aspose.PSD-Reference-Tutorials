@@ -82,7 +82,7 @@ R1: I file della cache dei caratteri memorizzano informazioni sui caratteri cari
 
 R2: se possibile, è consigliabile rimuovere i file della cache dei caratteri per evitare potenziali problemi relativi ai caratteri nell'applicazione.
 
-### Q3: Dove posso trovare supporto aggiuntivo per Aspose.PSD per .NET?
+### Q3: Dove posso trovare ulteriore supporto per Aspose.PSD per .NET?
 
  R3: Per ulteriore supporto, visitare il[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) e connettersi con la comunità.
 

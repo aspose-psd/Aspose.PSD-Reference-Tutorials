@@ -54,7 +54,7 @@ timeline.SwitchActiveFrame(4);
 string outputFile = Path.Combine(outputDir, "output_edited.psd");
 psdImage.Save(outputFile);
 ```
-## Étape 6 : Nettoyer
+## Étape 6 : Nettoyer
 ```csharp
 File.Delete(outputFile);
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");

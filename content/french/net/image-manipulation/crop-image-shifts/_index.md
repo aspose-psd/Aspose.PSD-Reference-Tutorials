@@ -23,7 +23,7 @@ Avant de vous lancer dans le didacticiel, assurez-vous que les conditions préal
 
 ## Importer des espaces de noms
 
-Commencez par importer les espaces de noms nécessaires dans votre projet .NET. Ces espaces de noms donnent accès aux classes et méthodes Aspose.PSD requises pour le recadrage d’images.
+Commencez par importer les espaces de noms nécessaires dans votre projet .NET. Ces espaces de noms donnent accès aux classes et méthodes Aspose.PSD requises pour le recadrage d’image.
 
 ```csharp
 using Aspose.PSD.ImageOptions;

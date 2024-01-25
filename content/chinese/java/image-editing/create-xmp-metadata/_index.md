@@ -136,7 +136,7 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 
 ## 常见问题解答
 
-### Q1：Aspose.PSD是否兼容不同的图像格式？
+### Q1：Aspose.PSD 是否兼容不同的图像格式？
 
 A1：是的，Aspose.PSD 支持各种图像格式，提供处理不同文件类型的多功能性。
 

@@ -103,7 +103,7 @@ A2: Die Radiusgröße bestimmt den Bereich, über den der Filter wirkt, während
 
  A3: Sie können eine temporäre Lizenz bei erwerben[Aspose.PSD temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
 
-### F4: Wo finde ich zusätzliche Unterstützung und Hilfe?
+### F4: Wo finde ich zusätzliche Unterstützung und Unterstützung?
 
  A4: Bei Fragen oder Hilfe besuchen Sie bitte die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34).
 

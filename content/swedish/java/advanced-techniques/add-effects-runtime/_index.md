@@ -17,7 +17,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 1.  Java Development Kit (JDK): Se till att du har Java installerat på ditt system. Du kan ladda ner den senaste JDK från[här](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2.  Aspose.PSD for Java Library: Du måste ha Aspose.PSD for Java-biblioteket. Om du inte redan har gjort det, ladda ner det från[Aspose.PSD Java-dokumentation](https://reference.aspose.com/psd/java/).
+2.  Aspose.PSD for Java Library: Du måste ha Aspose.PSD for Java-biblioteket. Om du inte redan har gjort det, ladda ner den från[Aspose.PSD Java-dokumentation](https://reference.aspose.com/psd/java/).
 
 3. Dokumentkatalog: Skapa en katalog för dina dokument och kom ihåg sökvägen. I det angivna exemplet kallas katalogen för`Your Document Directory`.
 
@@ -60,7 +60,7 @@ effect.setOpacity((byte)128);
 effect.setBlendMode(BlendMode.Normal);
 ```
 
-## Steg 3: Spara den ändrade bilden
+## Steg 3: Spara den modifierade bilden
 
 Slutligen, spara den ändrade bilden med de tillämpade effekterna till en ny fil.
 

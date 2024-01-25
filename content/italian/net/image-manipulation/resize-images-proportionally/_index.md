@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /it/net/image-manipulation/resize-images-proportionally/
 ---
-Nel regno della manipolazione delle immagini, Aspose.PSD per .NET si distingue come un potente toolkit, fornendo agli sviluppatori la capacità di ridimensionare le immagini proporzionalmente con facilità. In questa guida passo passo ti guideremo attraverso il processo di ridimensionamento delle immagini utilizzando Aspose.PSD per .NET, assicurando che le tue immagini mantengano le loro proporzioni in modo impeccabile.
+Nel regno della manipolazione delle immagini, Aspose.PSD per .NET si distingue come un potente toolkit, fornendo agli sviluppatori la capacità di ridimensionare proporzionalmente le immagini con facilità. In questa guida passo passo ti guideremo attraverso il processo di ridimensionamento delle immagini utilizzando Aspose.PSD per .NET, assicurandoti che le tue immagini mantengano le loro proporzioni in modo impeccabile.
 
 ## introduzione
 

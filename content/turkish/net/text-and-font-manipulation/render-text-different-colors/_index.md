@@ -31,10 +31,10 @@ string sourceFile = SourceDir + @"text_ethalon_different_colors.psd";
 string destName = OutputDir + @"RenderTextWithDifferentColorsInTextLayer_out.png";
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // Daha sonraki adımlara ilişkin kod buraya gelecek.
+    // Daha sonraki adımların kodu buraya gelecek.
 }
 ```
-## 2. Adım: Metin Katmanına Erişin
+## Adım 2: Metin Katmanına Erişin
 PSD dosyasındaki metin katmanına erişin:
 ```csharp
 var txtLayer = (TextLayer)psdImage.Layers[1];

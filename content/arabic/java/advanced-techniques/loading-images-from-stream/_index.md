@@ -104,4 +104,4 @@ psdImage.save(outputStream, new PngOptions());
 
 ### س5: أين يمكنني شراء Aspose.PSD لـ Java؟
 
- ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على Aspose.PSD لـ Java.
+ ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على Aspose.PSD لجافا.

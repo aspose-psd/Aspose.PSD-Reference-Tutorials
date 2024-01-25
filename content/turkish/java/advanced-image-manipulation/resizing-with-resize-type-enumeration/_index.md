@@ -19,7 +19,7 @@ Bu eğitime başlamadan önce aşağıdaki önkoşulların yerine getirildiğind
 
 2. Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini şuradan indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/psd/java/).
 
-3.  Örnek PSD Dosyası: Deney için örnek bir PSD dosyasını hazır bulundurun. Şunu kullanabilirsiniz:[Bu eğitim için sample.psd](Belge Dizininiz/sample.psd) dosyanızı oluşturun.
+3.  Örnek PSD Dosyası: Deney için örnek bir PSD dosyasını hazır bulundurun. Şunu kullanabilirsiniz:[Bu eğitim için sample.psd](Belge Dizininiz/sample.psd) dosyası.
 
 ## Paketleri İçe Aktar
 

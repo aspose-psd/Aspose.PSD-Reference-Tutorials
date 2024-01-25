@@ -2,7 +2,7 @@
 title: Рисование дуг с помощью Aspose.PSD для .NET
 linktitle: Рисование дуг с помощью Aspose.PSD для .NET
 second_title: Aspose.PSD .NET API
-description: Исследуйте возможности Aspose.PSD для .NET, позволяющие легко рисовать дуги. Следуйте нашему пошаговому руководству, чтобы получить потрясающую графику в ваших приложениях.
+description: Исследуйте возможности Aspose.PSD для .NET, позволяющие легко рисовать дуги. Следуйте нашему пошаговому руководству, чтобы получить потрясающую графику в своих приложениях.
 type: docs
 weight: 11
 url: /ru/net/psd-drawing-techniques/drawing-arcs/

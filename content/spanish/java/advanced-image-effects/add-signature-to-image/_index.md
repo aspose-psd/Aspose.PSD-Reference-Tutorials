@@ -62,7 +62,7 @@ Graphics graphics = new Graphics(canvas);
  Utilizar el`DrawImage` Método para agregar la firma a la imagen principal. Ajuste la ubicación según sea necesario. En este ejemplo, intentamos colocar la imagen secundaria en la parte inferior derecha de la imagen principal:
 
 ```java
-//ExStart:AgregarFirmaAImagen
+//ExInicio:AgregarFirmaAImagen
 graphics.drawImage(signature, new Point(canvas.getHeight() - signature.getHeight(), canvas.getWidth() - signature.getWidth()));
 canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 //ExEnd: Agregar firma a imagen

@@ -92,7 +92,7 @@ finally
 
 ### Вопрос 2. Где я могу найти подробную документацию по Aspose.PSD для .NET?
 
-A2: документация доступна.[здесь](https://reference.aspose.com/psd/net/).
+A2: документация доступна[здесь](https://reference.aspose.com/psd/net/).
 
 ### Вопрос 3: Существует ли бесплатная пробная версия Aspose.PSD для .NET?
 

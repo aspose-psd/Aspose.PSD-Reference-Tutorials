@@ -22,7 +22,7 @@ Grafik tasarımın sırlarını açığa çıkarmaya hazır mısınız? Aspose.P
 
 ## Efektleri Güçlendirme: Karışım Modlarını Destekleyin
 
- Karışım modlarının gücünden yararlanarak Java'da görüntü işlemeyi bir sonraki seviyeye taşıyın.[Java için Aspose.PSD](./support-blend-modes/). Bu eğitim, izleyicilerinizi büyüleyecek çarpıcı efektler yaratmanıza olanak sağlar. Aspose.PSD for Java ile karışım modlarının sırlarını açığa çıkarın ve grafik tasarım çalışmalarınızı güçlendirin.
+ Karışım modlarının gücünden yararlanarak Java'da görüntü işlemeyi bir sonraki seviyeye taşıyın.[Java için Aspose.PSD](./support-blend-modes/). Bu eğitim, izleyicilerinizi büyüleyecek çarpıcı efektler yaratmanıza olanak tanır. Aspose.PSD for Java ile karışım modlarının sırlarını açığa çıkarın ve grafik tasarım çalışmalarınızı güçlendirin.
 
 ## Gölge Oluşturma: Gölge Efektini Destekleyin
 

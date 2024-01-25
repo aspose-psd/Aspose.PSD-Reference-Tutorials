@@ -50,7 +50,7 @@ Image image = Image.load(sourceFile);
 image.rotateFlip(RotateFlipType.Rotate270FlipNone);
 ```
 
-## 第 3 步：保存旋转图像
+## 步骤 3：保存旋转图像
 
 使用以下命令保存旋转后的图像`save`方法并指定输出格式（在本例中为 JPEG）：
 
@@ -65,7 +65,7 @@ image.save(destName, new JpegOptions());
 
 ## 常见问题解答
 
-### Q1：Aspose.PSD是否兼容不同的图像格式？
+### Q1：Aspose.PSD 是否兼容不同的图像格式？
 
 A1：是的，Aspose.PSD支持各种图像格式，包括PSD、JPEG、PNG等。
 

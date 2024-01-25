@@ -75,7 +75,7 @@ A1: Ja, Aspose.PSD für .NET unterstützt PSD-Dateien, die in verschiedenen Phot
 
  A2: Ja, Sie können eine kostenlose Testversion herunterladen[Veröffentlichungsseite](https://releases.aspose.com/).
 
-### F3: Wo finde ich eine ausführliche Dokumentation zu Aspose.PSD für .NET?
+### F3: Wo finde ich eine ausführliche Dokumentation für Aspose.PSD für .NET?
 
 A3: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/psd/net/).
 

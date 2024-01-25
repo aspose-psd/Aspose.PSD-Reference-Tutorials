@@ -2,7 +2,7 @@
 title: 高级图像效果
 linktitle: 高级图像效果
 second_title: Aspose.PSD Java API
-description: 使用 Aspose.PSD 提升您的 Java 图形设计！无缝掌握高级图像效果 - 从渐变和图案到签名和笔划。
+description: 使用 Aspose.PSD 提升您的 Java 图形设计！无缝掌握高级图像效果 - 从渐变和图案到签名和笔画。
 type: docs
 weight: 26
 url: /zh/java/advanced-image-effects/

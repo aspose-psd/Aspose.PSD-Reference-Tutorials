@@ -112,7 +112,7 @@ No, Aspose.PSD para Java admite una amplia gama de formatos de archivos de image
 
 ### P4: ¿Aspose.PSD para Java proporciona una vista previa de la imagen en tiempo real durante la rotación?
 
-Aspose.PSD para Java se centra principalmente en el procesamiento de imágenes de backend. Para obtener una vista previa de imágenes en tiempo real, es posible que deba implementar una solución de interfaz que utilice otras tecnologías.
+Aspose.PSD para Java se centra principalmente en el procesamiento de imágenes de backend. Para obtener una vista previa de imágenes en tiempo real, es posible que necesite implementar una solución de interfaz que utilice otras tecnologías.
 
 ### P5: ¿Existe un foro comunitario para Aspose.PSD donde pueda buscar ayuda?
 

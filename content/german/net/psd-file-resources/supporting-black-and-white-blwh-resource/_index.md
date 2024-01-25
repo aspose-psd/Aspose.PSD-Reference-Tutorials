@@ -72,7 +72,7 @@ Aspose.PSD für .NET bietet eine robuste Plattform zur Verbesserung der Bildbear
 
 ### F1: Ist Aspose.PSD mit verschiedenen Bildformaten kompatibel?
 
-A1: Ja, Aspose.PSD unterstützt eine Vielzahl von Bildformaten und bietet so Flexibilität bei der Verarbeitung verschiedener Dateitypen.
+A1: Ja, Aspose.PSD unterstützt eine Vielzahl von Bildformaten und bietet so Flexibilität bei der Handhabung verschiedener Dateitypen.
 
 ### F2: Kann ich mehrere Einstellungsebenen auf ein Bild anwenden?
 

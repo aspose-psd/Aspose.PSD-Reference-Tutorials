@@ -9,7 +9,7 @@ url: /es/net/image-manipulation/expand-crop-images/
 ---
 ## Introducción
 
-Aspose.PSD para .NET es una biblioteca de imágenes integral que permite a los desarrolladores trabajar con varios formatos de imágenes en sus aplicaciones .NET. Una de sus características destacadas es la capacidad de manipular imágenes con facilidad. En este tutorial, nos centraremos en expandir y recortar imágenes, proporcionándole una guía práctica para realizar estas tareas utilizando Aspose.PSD.
+Aspose.PSD para .NET es una biblioteca de imágenes completa que permite a los desarrolladores trabajar con varios formatos de imágenes en sus aplicaciones .NET. Una de sus características destacadas es la capacidad de manipular imágenes con facilidad. En este tutorial, nos centraremos en expandir y recortar imágenes, proporcionándole una guía práctica para realizar estas tareas utilizando Aspose.PSD.
 
 ## Requisitos previos
 

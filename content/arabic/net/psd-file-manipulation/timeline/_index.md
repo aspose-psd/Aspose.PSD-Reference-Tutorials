@@ -49,7 +49,7 @@ timeline.Frames[0].DisposalMethod = FrameDisposalMethod.DoNotDispose;
 timeline.Frames[1].Delay = 15;
 ```
 ## الخطوة 5: تحرير حالة الطبقة
-قم بتغيير عتامة "الطبقة الأولى" في إطار معين. في هذه الحالة، قمنا بتعيين العتامة إلى 50 في الإطار 2:
+قم بتغيير عتامة "الطبقة الأولى" في إطار محدد. في هذه الحالة، قمنا بتعيين العتامة إلى 50 في الإطار 2:
 ```csharp
 LayerState layerState11 = timeline.Frames[1].LayerStates[1];
 layerState11.Opacity = 50;

@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Créer un`FileOutputStream` pour le fichier de destination et enregistrez l'image PSD dans le flux à l'aide des options PNG.
+ Créer un`FileOutputStream` pour le fichier de destination et enregistrez l’image PSD dans le flux à l’aide des options PNG.
 
 Répétez ces étapes si nécessaire pour votre cas d'utilisation spécifique.
 

@@ -1,5 +1,5 @@
 ---
-title: Bild nach Rechteck in Aspose.PSD für Java zuschneiden
+title: Bild nach Rechteck zuschneiden in Aspose.PSD für Java
 linktitle: Bild nach Rechteck zuschneiden
 second_title: Aspose.PSD Java-API
 description: Entdecken Sie die nahtlosen Bildzuschneidefunktionen in Java mit Aspose.PSD. Befolgen Sie unsere Schritt-für-Schritt-Anleitung zum mühelosen Zuschneiden von Bildern mit Aspose.PSD für Java.

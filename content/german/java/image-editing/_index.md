@@ -31,7 +31,7 @@ Willkommen im Reich der Bildbearbeitungskompetenz! In dieser Sammlung von Tutori
 
  Meistern Sie die Kunst, Bilder zu erstellen[Ströme](./create-image-using-stream/) in Aspose.PSD für Java. Unser Leitfaden bietet einen klaren Weg zur effizienten Bildverarbeitung. Befolgen Sie die Schritte und erwecken Sie Ihre kreativen Visionen mit Aspose.PSD für Java zum Leben.
 
-## Bild nach Rechteck in Aspose.PSD für Java zuschneiden
+## Bild nach Rechteck zuschneiden in Aspose.PSD für Java
 
  Entdecken Sie die grenzenlosen Möglichkeiten von[Bildzuschnitt in Java](./crop-image-by-rectangle/) mit Aspose.PSD. Unser umfassendes Tutorial führt Sie durch den nahtlosen Prozess des mühelosen Zuschneidens von Bildern. Transformieren Sie Ihre Bilder präzise mit Aspose.PSD für Java.
 
@@ -59,7 +59,7 @@ Erweitern Sie Ihre Java-Anwendungen mit Aspose.PSD. Erfahren Sie, wie Sie mühel
 Erfahren Sie, wie Sie PSD-Bilder mit Aspose.PSD für Java erstellen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Bildgenerierung.
 ### [Erstellen Sie ein Bild mit Stream in Aspose.PSD für Java](./create-image-using-stream/)
 Erfahren Sie, wie Sie Bilder mit Stream in Aspose.PSD für Java erstellen. Befolgen Sie diese Schritt-für-Schritt-Anleitung für eine effiziente Bildverarbeitung.
-### [Bild nach Rechteck in Aspose.PSD für Java zuschneiden](./crop-image-by-rectangle/)
+### [Bild nach Rechteck zuschneiden in Aspose.PSD für Java](./crop-image-by-rectangle/)
 Entdecken Sie die nahtlosen Bildzuschneidefunktionen in Java mit Aspose.PSD. Befolgen Sie unsere Schritt-für-Schritt-Anleitung zum mühelosen Zuschneiden von Bildern mit Aspose.PSD für Java.
 ### [Bild nach Verschiebungen in Aspose.PSD für Java zuschneiden](./crop-image-by-shifts/)
 Master-Bildzuschnitt mit Aspose.PSD für Java. Ein umfassendes Tutorial zur nahtlosen Bildbearbeitung.

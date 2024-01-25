@@ -109,4 +109,4 @@ Tebrikler! Aspose.PSD for .NET'in temel çizim özelliklerine hakim oldunuz. Bu 
 
 ### S5: Aspose.PSD for .NET desteğini nereden alabilirim?
 
- A5: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/psd/34).
+ Cevap5: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/psd/34).

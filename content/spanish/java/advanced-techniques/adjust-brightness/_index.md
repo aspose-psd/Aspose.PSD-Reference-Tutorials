@@ -94,7 +94,7 @@ R1: Sí, Aspose.PSD para Java admite varios formatos de imagen como JPEG, PNG y 
 
 ### P2: ¿Cómo puedo manejar los errores durante el proceso de ajuste de la imagen?
 
-R2: Puede implementar el manejo de errores utilizando bloques try-catch para gestionar las excepciones que puedan ocurrir.
+R2: Puede implementar el manejo de errores utilizando bloques try-catch para administrar las excepciones que puedan ocurrir.
 
 ### P3: ¿Existe un límite para el rango de ajuste de brillo?
 

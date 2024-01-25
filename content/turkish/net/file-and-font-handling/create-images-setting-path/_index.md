@@ -52,7 +52,7 @@ psdOptions.CompressionMethod = CompressionMethod.RLE;
 
 Bir PsdOptions örneği oluşturun ve sıkıştırma yöntemi gibi özelliklerini gereksinimlerinize göre yapılandırın.
 
-## 4. Adım: FileCreateSource'u Kurun
+## Adım 4: FileCreateSource'u Kurun
 
 ```csharp
 psdOptions.Source = new FileCreateSource(desName, false);

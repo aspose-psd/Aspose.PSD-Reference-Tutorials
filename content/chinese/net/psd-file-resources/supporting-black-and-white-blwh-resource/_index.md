@@ -84,7 +84,7 @@ A2：当然！ Aspose.PSD 允许您堆叠多个调整图层，从而实现复杂
 
 ### Q4：哪里可以找到对 Aspose.PSD 的支持？
 
- A4：[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)是寻求帮助和与社区分享见解的宝贵资源。
+ A4: 的[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)是寻求帮助和与社区分享见解的宝贵资源。
 
 ### Q5：是否有可用于测试黑白调整的示例图像？
 

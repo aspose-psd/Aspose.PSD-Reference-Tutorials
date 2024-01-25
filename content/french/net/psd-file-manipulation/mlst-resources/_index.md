@@ -56,7 +56,7 @@ layerEnabled.Value = false;
 ```csharp
 image.Save(outputPsd);
 ```
-## Étape 6 : Nettoyer
+## Étape 6 : Nettoyer
 ```csharp
 File.Delete(outputPsd);
 Console.WriteLine("SupportOfMlstResource executed successfully");

@@ -48,7 +48,7 @@ StreamContainer streamContainer = new StreamContainer(new java.io.ByteArrayInput
 ```java
 try
 {
-    // Überprüfen Sie, ob der Zugriff auf die Stream-Quelle synchronisiert ist.
+    // Überprüfen Sie, ob der Zugriff auf die Streamquelle synchronisiert ist.
     synchronized (streamContainer.getSyncRoot())
     {
         // Führen Sie hier Ihre gewünschten Vorgänge durch.

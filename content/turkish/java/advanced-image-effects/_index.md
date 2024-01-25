@@ -12,7 +12,7 @@ Java grafik tasarımlarınızı bir sonraki seviyeye taşımaya hazır mısını
 
 ## Aspose.PSD for Java'da Degrade Efektleri Ekleme
 
- Java görsellerinizi büyüleyici degrade efektleriyle zahmetsizce dönüştürün. Adım adım kılavuzumuz kusursuz bir entegrasyon süreci sağlayarak görsellerinizi çarpıcı degradelerle geliştirmenize olanak tanır. Eğiticiye göz atın[Burada](./add-gradient-effects/) resimlerinize canlı ve profesyonel bir dokunuş kazandırmak için.
+ Java görsellerinizi büyüleyici degrade efektleriyle zahmetsizce dönüştürün. Adım adım kılavuzumuz kusursuz bir entegrasyon süreci sağlayarak görsellerinizi çarpıcı degradelerle geliştirmenize olanak tanır. Öğreticiye göz atın[Burada](./add-gradient-effects/) resimlerinize canlı ve profesyonel bir dokunuş kazandırmak için.
 
 ## Aspose.PSD for Java ile PSD'ye Yeni Bir Normal Katman Ekleme
 
@@ -24,7 +24,7 @@ Java grafik tasarımlarınızı bir sonraki seviyeye taşımaya hazır mısını
 
 ## Aspose.PSD for Java ile Bir Görüntüye İmza Ekleme
 
- Aspose.PSD for Java kullanarak imzaların görüntülere kusursuz entegrasyonunu keşfedin. Ayrıntılı kılavuzumuz, gerekli paketlerin içe aktarılmasından Java uygulamanızın grafik yeteneklerinin geliştirilmesine kadar tüm süreç boyunca size yol gösterir. Eğiticiye göz atın[Burada](./add-signature-to-image/) ve resimlerinize kişiselleştirilmiş bir dokunuş ekleyin.
+ Aspose.PSD for Java kullanarak imzaların görüntülere kusursuz entegrasyonunu keşfedin. Ayrıntılı kılavuzumuz, gerekli paketlerin içe aktarılmasından Java uygulamanızın grafik yeteneklerinin geliştirilmesine kadar tüm süreç boyunca size yol gösterir. Öğreticiye göz atın[Burada](./add-signature-to-image/) ve resimlerinize kişiselleştirilmiş bir dokunuş ekleyin.
 
 ## Aspose.PSD for Java'da Kontur Katmanı Rengi Ekleme
 

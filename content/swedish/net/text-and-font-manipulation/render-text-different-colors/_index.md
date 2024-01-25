@@ -16,7 +16,7 @@ Innan vi dyker in i handledningen, se till att du har följande inställning:
 -  Exempel PSD-fil: Ladda ner exempel-PSD-filen från[här](Din dokumentkatalog).
 - Utdatakatalog: Skapa en katalog där utdatabilden kommer att sparas (din utdatakatalog).
 ## Importera namnområden
-För att komma igång måste du importera de nödvändiga namnrymden i ditt projekt. Dessa namnutrymmen är avgörande för att få tillgång till funktionerna i Aspose.PSD.
+För att komma igång måste du importera de nödvändiga namnrymden i ditt projekt. Dessa namnutrymmen är avgörande för att få åtkomst till funktionerna i Aspose.PSD.
 ```csharp
 using Aspose.PSD.FileFormats.Png;
 using Aspose.PSD.FileFormats.Psd;
@@ -71,7 +71,7 @@ S1: Ja, Aspose.PSD för .NET är utformad för att fungera sömlöst med alla .N
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 
- S4: För eventuella frågor eller hjälp, besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) för att få kontakt med samhället och supportteamet.
+ S4: För eventuella frågor eller hjälp, besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) att få kontakt med samhället och supportteamet.
 
 ### F5: Finns tillfälliga licenser tillgängliga för Aspose.PSD för .NET?
 

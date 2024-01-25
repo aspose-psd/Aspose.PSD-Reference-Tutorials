@@ -33,7 +33,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-دعنا نقسم عملية تطبيق تأثير تراكب الألوان إلى خطوات بسيطة وسهلة المتابعة:
+دعونا نقسم عملية تطبيق تأثير تراكب الألوان إلى خطوات بسيطة وسهلة المتابعة:
 
 ## الخطوة 1: قم بتعيين دليل المستندات الخاص بك
 

@@ -1,6 +1,6 @@
 ---
 title: Aspose.PSD for Java'da Sabit Eşik ile İkilileştirme
-linktitle: Sabit Eşikle Binarizasyon
+linktitle: Sabit Eşikli Binarizasyon
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'da Sabit Eşik ile İkilileştirmeyi keşfedin. Adım adım kılavuzumuzla görüntüleri sorunsuz bir şekilde dönüştürün.
 type: docs

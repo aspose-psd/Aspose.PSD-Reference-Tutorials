@@ -9,7 +9,7 @@ url: /fr/java/advanced-techniques/support-interrupt-monitor/
 ---
 ## Introduction
 
-Dans le domaine du développement Java, Aspose.PSD se distingue comme un outil puissant pour gérer diverses tâches de traitement d'image. Parmi ses nombreuses fonctionnalités, la prise en charge d'un moniteur d'interruption est un aspect crucial qui améliore le contrôle et la flexibilité dont disposent les développeurs sur les flux de travail de traitement d'images. Dans ce didacticiel, nous verrons comment exploiter Interrupt Monitor dans Aspose.PSD pour Java pour gérer et interrompre efficacement les processus de conversion d'images.
+Dans le domaine du développement Java, Aspose.PSD se distingue comme un outil puissant pour gérer diverses tâches de traitement d'images. Parmi ses nombreuses fonctionnalités, la prise en charge d'un moniteur d'interruption est un aspect crucial qui améliore le contrôle et la flexibilité dont disposent les développeurs sur les flux de travail de traitement d'images. Dans ce didacticiel, nous verrons comment exploiter Interrupt Monitor dans Aspose.PSD pour Java pour gérer et interrompre efficacement les processus de conversion d'images.
 
 ## Conditions préalables
 

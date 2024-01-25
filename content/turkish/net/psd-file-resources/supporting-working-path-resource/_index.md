@@ -71,7 +71,7 @@ Tebrikler! Aspose.PSD for .NET'te 'WorkingPathResource' kullanımında başarıl
 
 ### S1: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A1: Kapsamlı belgeleri keşfedin[Burada](https://reference.aspose.com/psd/net/).
+ A1: Kapsamlı belgeleri inceleyin[Burada](https://reference.aspose.com/psd/net/).
 
 ### S2: Aspose.PSD for .NET'i nasıl indirebilirim?
 

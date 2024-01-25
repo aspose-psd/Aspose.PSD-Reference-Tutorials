@@ -30,7 +30,7 @@ import com.aspose.psd.StreamContainer;
 import com.aspose.psd.system.io.MemoryStream;
 ```
 
-## Steg 1: Skapa Stream Container
+## Steg 1: Skapa strömbehållare
 
 Börja med att skapa en strömcontainerinstans och tilldela ett minnesströmobjekt till den. Detta är ett avgörande steg för att förbereda grunden för strömsynkronisering.
 

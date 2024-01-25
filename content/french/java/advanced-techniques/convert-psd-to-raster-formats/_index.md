@@ -91,7 +91,7 @@ Répétez ces étapes pour des fichiers PSD supplémentaires ou personnalisez le
 
 ## Conclusion
 
-En conclusion, Aspose.PSD pour Java simplifie le processus de conversion PSD en image raster, offrant polyvalence et efficacité. En suivant ce guide, vous pouvez intégrer en toute transparence cette bibliothèque dans vos projets Java.
+En conclusion, Aspose.PSD pour Java simplifie le processus de conversion d'images PSD en images raster, offrant polyvalence et efficacité. En suivant ce guide, vous pouvez intégrer en toute transparence cette bibliothèque dans vos projets Java.
 
 ## FAQ
 

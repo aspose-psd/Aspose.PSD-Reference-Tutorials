@@ -76,7 +76,7 @@ Toutes nos félicitations! Vous avez appris avec succès comment enregistrer des
 
  A1 : Oui, Aspose.PSD prend en charge divers formats d'image, notamment PSD, PNG, JPEG, etc. Consultez la documentation[ici](https://reference.aspose.com/psd/net/) pour une liste complète.
 
-### Q2 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
+### Q2 : Comment puis-je obtenir de l'assistance pour Aspose.PSD ?
 
  A2 : Visitez le forum d'assistance Aspose.PSD[ici](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide et du soutien communautaire.
 

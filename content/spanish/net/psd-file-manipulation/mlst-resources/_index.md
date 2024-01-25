@@ -44,7 +44,7 @@ Layer layer1 = image.Layers[1];
 ShmdResource shmdResource = (ShmdResource)layer1.Resources[8];
 MlstResource mlstResource = (MlstResource)shmdResource.SubResources[0];
 ```
-## Paso 4: manipular los estados de la capa
+## Paso 4: manipular los estados de las capas
 ```csharp
 ListStructure layerStatesList = (ListStructure)mlstResource.Items[1];
 DescriptorStructure layersStateOnFrame1 = (DescriptorStructure)layerStatesList.Types[1];

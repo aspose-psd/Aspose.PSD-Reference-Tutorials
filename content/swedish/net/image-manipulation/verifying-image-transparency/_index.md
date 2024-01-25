@@ -9,7 +9,7 @@ url: /sv/net/image-manipulation/verifying-image-transparency/
 ---
 ## Introduktion
 
-Välkommen till en omfattande handledning om att verifiera bildtransparens med Aspose.PSD för .NET! I den här guiden går vi igenom processen att kontrollera bildtransparens i dina PSD-filer med hjälp av det kraftfulla Aspose.PSD-biblioteket. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen att utrusta dig med nödvändiga färdigheter för att sömlöst hantera bildtransparens i dina .NET-applikationer.
+Välkommen till en omfattande handledning om att verifiera bildtransparens med Aspose.PSD för .NET! I den här guiden går vi igenom processen att kontrollera bildtransparens i dina PSD-filer med hjälp av det kraftfulla Aspose.PSD-biblioteket. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer denna handledning att utrusta dig med nödvändiga färdigheter för att sömlöst hantera bildtransparens i dina .NET-applikationer.
 
 ## Förutsättningar
 

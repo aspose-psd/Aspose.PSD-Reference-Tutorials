@@ -63,4 +63,4 @@ is_root: true
 ### [基本图像操作](./basic-image-operations/)
 通过 Aspose.PSD for Java 教程提高您的图形设计技能。在分步指南中学习绘图、调整大小、混合模式和透明度验证。
 ### [高级图像效果](./advanced-image-effects/)
-使用 Aspose.PSD 提升您的 Java 图形设计！无缝掌握高级图像效果 - 从渐变和图案到签名和笔划。
+使用 Aspose.PSD 提升您的 Java 图形设计！无缝掌握高级图像效果 - 从渐变和图案到签名和笔画。

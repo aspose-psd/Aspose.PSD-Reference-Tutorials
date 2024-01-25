@@ -21,7 +21,7 @@ url: /ar/net/psd-drawing-techniques/creative-drawing-using-graphics/
 
 ## استيراد مساحات الأسماء
 
-ابدأ باستيراد مساحات الأسماء الضرورية في مشروع .NET الخاص بك. تعد مساحات الأسماء هذه ضرورية للعمل مع وظائف Aspose.PSD.
+ابدأ باستيراد مساحات الأسماء الضرورية في مشروع .NET الخاص بك. تعتبر مساحات الأسماء هذه ضرورية للعمل مع وظائف Aspose.PSD.
 
 ```csharp
 using Aspose.PSD.Brushes;
