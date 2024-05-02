@@ -80,7 +80,7 @@ tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 rasterImage.save(destName, tiffOptions);
 ```
 
- وأخيرا، احفظ الصورة المعدلة باستخدام الملف المحدد`TiffOptions`.
+ وأخيرا، احفظ الصورة المعدلة باستخدام المحدد`TiffOptions`.
 
 ## خاتمة
 

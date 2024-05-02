@@ -76,7 +76,7 @@ settings.setVerticalOffset(11);
 ## Étape 4 : Modifier les données du modèle
 
 ```java
-// Modifier les données du modèle
+// Modifier les données du motif
 PattResource resource;
 UUID guid = UUID.randomUUID();
 String newPatternName = "$$/Presets/Patterns/Pattern=Some new pattern name\0";

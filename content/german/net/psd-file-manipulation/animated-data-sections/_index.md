@@ -54,7 +54,7 @@ foreach (var imageResource in image.ImageResources)
         var animatedData = (AnimatedDataSectionStructure)(imageResource as AnimatedDataSectionResource).AnimatedDataSection;
         var framesList = FindStructure<ListStructure>(animatedData.Items, "FrIn");
         var frame1 = (DescriptorStructure)framesList.Types[1];
-        // Ihr Code zum Aktualisieren der Frame-Verzögerung geht hier ...
+        // Ihr Code zum Aktualisieren der Frame-Verzögerung geht hier...
         // Detaillierte Anweisungen finden Sie in den nächsten Schritten.
         break;
     }

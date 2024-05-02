@@ -56,7 +56,7 @@ Qui inizializziamo BmpOptions e impostiamo proprietà come BitsPerPixel.
 ## Passaggio 3: creazione di immagini e grafica
 
 ```csharp
-// Crea un'istanza di Immagine
+// Crea un'istanza di Image
 using (Image image = new PsdImage(100, 100))
 {
     // Crea e inizializza un'istanza della classe Graphics e della superficie Clear Graphics

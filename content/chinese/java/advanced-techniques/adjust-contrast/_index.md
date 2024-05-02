@@ -88,7 +88,7 @@ rasterImage.save(destName, tiffOptions);
 
 ## 常见问题解答
 
-### Q1：Aspose.PSD是否兼容不同的图像格式？
+### Q1：Aspose.PSD 是否兼容不同的图像格式？
 
 A1：是的，Aspose.PSD 支持各种图像格式，为您的项目提供灵活性。
 

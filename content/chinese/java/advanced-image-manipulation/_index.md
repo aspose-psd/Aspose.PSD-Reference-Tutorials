@@ -32,7 +32,7 @@ url: /zh/java/advanced-image-manipulation/
 ### [Aspose.PSD for Java 中的反转调整层](./invert-adjustment-layer/)
 深入了解 Aspose.PSD for Java 中反向调整层的强大功能。通过我们的综合教程实现无缝 PSD 文件操作。
 
-## 具有渲染颜色效果的动态颜色叠加
+## 具有渲染色彩效果的动态色彩叠加
 ### [在 Aspose.PSD for Java 中应用渲染颜色效果](./rendering-color-effect/)
 使用 Aspose.PSD 通过动态颜色叠加增强您的 Java 应用程序。我们的指南确保无缝集成和令人惊叹的视觉效果。
 

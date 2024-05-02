@@ -9,7 +9,7 @@ url: /de/java/image-editing/implement-dithering/
 ---
 ## Einführung
 
-Wenn Sie die visuelle Qualität Ihrer Rasterbilder in Java verbessern möchten, bietet Aspose.PSD eine leistungsstarke Lösung. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie Dithering mit Aspose.PSD für Java implementieren. Dithering ist eine Technik, die Bildern ein gewisses Maß an Rauschen verleiht, Farbstreifen reduziert und die Gesamtbildqualität verbessert.
+Wenn Sie die visuelle Qualität Ihrer Rasterbilder in Java verbessern möchten, bietet Aspose.PSD eine leistungsstarke Lösung. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie Dithering mit Aspose.PSD für Java implementieren. Dithering ist eine Technik, die Bildern ein gewisses Maß an Rauschen verleiht, Farbstreifen reduziert und die Bildqualität insgesamt verbessert.
 
 ## Voraussetzungen
 
@@ -65,7 +65,7 @@ image.save(destName, new BmpOptions());
 
 ## Abschluss
 
-Das Implementieren von Dithering für Rasterbilder in Aspose.PSD für Java ist ein unkomplizierter Prozess. Wenn Sie diese Schritte befolgen, können Sie die visuelle Qualität Ihrer Bilder verbessern und Farbstreifen effektiv reduzieren.
+Das Implementieren von Dithering für Rasterbilder in Aspose.PSD für Java ist ein unkomplizierter Prozess. Wenn Sie diese Schritte befolgen, können Sie die visuelle Qualität Ihrer Bilder verbessern und Farbstreifen wirksam reduzieren.
 
 ## FAQs
 

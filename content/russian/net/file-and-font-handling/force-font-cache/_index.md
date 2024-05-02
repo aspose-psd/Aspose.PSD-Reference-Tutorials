@@ -90,7 +90,7 @@ using (PsdImage image = (PsdImage)Image.Load(dataDir + @"sample.psd"))
 
 ### Вопрос 4: Какие варианты поддержки доступны для Aspose.PSD для .NET?
 
- А4: Присоединяйтесь[Форум Aspose.PSD для .NET](https://forum.aspose.com/c/psd/34) искать помощи, делиться опытом и общаться с сообществом.
+ А4: Присоединяйтесь[Форум Aspose.PSD для .NET](https://forum.aspose.com/c/psd/34) обращаться за помощью, делиться опытом и общаться с сообществом.
 
 ### Вопрос 5: Могу ли я приобрести Aspose.PSD для .NET напрямую?
 

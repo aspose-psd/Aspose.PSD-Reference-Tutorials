@@ -80,7 +80,7 @@ En conclusion, Aspose.PSD pour Java simplifie le processus d'ajout de signatures
 
 A1 : Oui, vous pouvez ajouter plusieurs signatures en répétant les étapes avec différentes images de signature.
 
-### Q2 : Aspose.PSD prend-il en charge d’autres formats d’image ?
+### Q2 : Aspose.PSD prend-il en charge d'autres formats d'image ?
 
 A2 : Oui, Aspose.PSD prend en charge une large gamme de formats d'image, garantissant une flexibilité dans le traitement des images.
 

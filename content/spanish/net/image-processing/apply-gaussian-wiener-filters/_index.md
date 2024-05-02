@@ -13,7 +13,7 @@ En el ámbito del procesamiento de imágenes utilizando .NET, Aspose.PSD se dest
 
 ## Requisitos previos
 
-Antes de profundizar en la aplicación de los filtros Gaussiano y Wiener con Aspose.PSD, asegúrese de tener implementados los siguientes requisitos previos:
+Antes de profundizar en la aplicación de los filtros Gaussianos y Wiener con Aspose.PSD, asegúrese de tener implementados los siguientes requisitos previos:
 
 1. Aspose.PSD para .NET: descargue e instale la biblioteca desde[Aspose.PSD para documentación .NET](https://reference.aspose.com/psd/net/).
 

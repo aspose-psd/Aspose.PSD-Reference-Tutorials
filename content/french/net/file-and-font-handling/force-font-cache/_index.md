@@ -82,7 +82,7 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge différentes versions de fichiers
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour .NET ?
 
- A2 : Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour acquérir une licence temporaire à des fins de tests.
+ A2 : Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour acquérir une licence temporaire à des fins de tests.
 
 ### Q3 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour .NET ?
 

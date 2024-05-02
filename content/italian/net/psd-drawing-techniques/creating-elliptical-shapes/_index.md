@@ -50,7 +50,7 @@ saveOptions.BitsPerPixel = 32;
 ## Passaggio 3: crea un'istanza di immagine
 
 ```csharp
-// Crea un'istanza di Immagine
+// Crea un'istanza di Image
 using (Image image = new PsdImage(100, 100))
 {
     // Crea e inizializza un'istanza della classe Graphics e della superficie Clear Graphics

@@ -43,7 +43,7 @@ String dataDir = "Your Document Directory";
 
  Заменять`"Your Document Directory"`с указанием пути к каталогу, в котором находится ваш PSD-файл.
 
-## Шаг 2. Укажите источник и место назначения.
+## Шаг 2. Укажите источник и место назначения
 
 ```java
 String sourceFile = dataDir + "sample.psd";

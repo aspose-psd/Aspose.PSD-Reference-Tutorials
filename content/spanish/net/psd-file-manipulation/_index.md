@@ -62,7 +62,7 @@ Aprenda a exportar imágenes PSD a formato GIF en .NET usando Aspose.PSD. Una gu
 ### [Manejo de secciones de datos animados en Aspose.PSD para .NET](./animated-data-sections/)
 Mejore sus habilidades en C# con nuestra guía paso a paso sobre cómo manejar secciones de datos animadas en Aspose.PSD para .NET. ¡Descárgalo ahora para disfrutar de una experiencia perfecta de manipulación de PSD!
 ### [Trabajar con efectos de estado de capa en Aspose.PSD para .NET](./layer-state-effects/)
-Aprenda a utilizar los efectos de estado de capa en Aspose.PSD para .NET. Mejore sus archivos PSD con Sombra paralela, Superposición de degradado y más. Guía tutorial sencilla.
+Aprenda a utilizar los efectos de estado de capa en Aspose.PSD para .NET. Mejore sus archivos PSD con Sombra paralela, Superposición de degradado y más. Guía tutorial fácil.
 ### [Manejo de recursos MLST en Aspose.PSD para .NET](./mlst-resources/)
 Aprenda a manipular estados de capas en archivos de Photoshop con Aspose.PSD para .NET. Siga nuestra guía paso a paso para un manejo eficiente de los recursos MLST.
 ### [Propiedad de línea de tiempo de imagen PSD en Aspose.PSD para .NET](./psd-image-timeline-property/)

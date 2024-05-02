@@ -20,7 +20,7 @@ url: /ar/java/basic-image-operations/support-shadow-effect/
 
 ## حزم الاستيراد
 
-تأكد من قيامك باستيراد الحزم اللازمة للاستفادة من وظائف Aspose.PSD في تطبيق Java الخاص بك. استخدم مقتطف الشفرة التالي كدليل:
+تأكد من أنك قمت باستيراد الحزم اللازمة للاستفادة من وظائف Aspose.PSD في تطبيق Java الخاص بك. استخدم مقتطف الشفرة التالي كدليل:
 
 ```java
 import com.aspose.psd.Color;

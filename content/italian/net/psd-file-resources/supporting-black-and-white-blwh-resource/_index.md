@@ -84,7 +84,7 @@ A2: Assolutamente! Aspose.PSD ti consente di impilare più livelli di regolazion
 
 ### Q4: Dove posso trovare supporto per Aspose.PSD?
 
- A4: Il[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) è una risorsa preziosa per cercare assistenza e condividere approfondimenti con la comunità.
+ R4: Il[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) è una risorsa preziosa per cercare assistenza e condividere approfondimenti con la comunità.
 
 ### Q5: Sono disponibili immagini di esempio per testare le regolazioni in bianco e nero?
 

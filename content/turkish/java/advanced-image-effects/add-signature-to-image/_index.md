@@ -65,10 +65,10 @@ Graphics graphics = new Graphics(canvas);
 //ExStart:AddSignatureToImage
 graphics.drawImage(signature, new Point(canvas.getHeight() - signature.getHeight(), canvas.getWidth() - signature.getWidth()));
 canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
-//ExEnd:AddSignatureToResme
+//ExEnd:İmzayıResme Ekle
 ```
 
-Aspose.PSD'yi kullanarak bir görüntüye sorunsuz bir şekilde imza eklemek için Java uygulamanızda bu adımları tekrarlayın.
+Aspose.PSD kullanarak bir görüntüye sorunsuz bir şekilde imza eklemek için Java uygulamanızda bu adımları tekrarlayın.
 
 ## Çözüm
 

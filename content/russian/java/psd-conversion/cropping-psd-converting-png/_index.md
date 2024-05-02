@@ -37,7 +37,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 // Создайте экземпляр класса Rectangle, передав x, y, ширину и высоту.
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
-## Шаг 4: Обрезка PSD-изображения
+## Шаг 4. Обрезка PSD-изображения
 ```java
 // Вызовите метод обрезки класса Image и передайте экземпляр Rectangle.
 image.crop(cropRegion);

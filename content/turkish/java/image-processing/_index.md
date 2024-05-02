@@ -29,7 +29,7 @@ Geliştiricilere görsel içeriği geliştirme gücü veren bir araç seti olan 
 
 ## İkilileştirme Ortaya Çıktı: Sabit ve Otsu Eşikleri
 
- Eğitimlerimizle görüntü segmentasyonu dünyasının derinliklerine dalın[Sabit Eşikle Binarizasyon](./binarization-fixed-threshold/) Ve[Otsu Eşiği ile Binarizasyon](./binarization-otsu-threshold/) Java için Aspose.PSD'de. Görüntüleri sorunsuz bir şekilde dönüştürmeye yönelik güçlü teknikler olan Sabit ve Otsu Eşiklerini keşfedin. Etkili görüntü ikilileştirmenin ardındaki sırları ortaya çıkarın ve Java görüntü işleme görevlerinize bir miktar hassasiyet katın.
+ Eğitimlerimizle görüntü segmentasyonu dünyasının derinliklerine dalın[Sabit Eşikli Binarizasyon](./binarization-fixed-threshold/) Ve[Otsu Eşiği ile Binarizasyon](./binarization-otsu-threshold/) Java için Aspose.PSD'de. Görüntüleri sorunsuz bir şekilde dönüştürmeye yönelik güçlü teknikler olan Sabit ve Otsu Eşiklerini keşfedin. Etkili görüntü ikilileştirmenin ardındaki sırları ortaya çıkarın ve Java görüntü işleme görevlerinize bir miktar hassasiyet katın.
 
 ## Bradley Eşikleme ile Görüntü Kalitesini Yükseltin
 

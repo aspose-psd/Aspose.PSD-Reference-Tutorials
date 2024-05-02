@@ -8,7 +8,7 @@ weight: 11
 url: /zh/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## 介绍
-欢迎来到我们关于使用 Aspose.PSD for .NET 中的边界信息资源功能的分步指南。在本教程中，我们将引导您完成使用 Aspose.PSD（一个强大的 .NET 图像库）处理边界信息资源的过程。无论您是经验丰富的开发人员还是刚刚起步的开发人员，本教程都旨在阐明如何将边境信息资源无缝地集成到您的项目中。
+欢迎来到我们关于使用 Aspose.PSD for .NET 中的边界信息资源功能的分步指南。在本教程中，我们将引导您完成使用 Aspose.PSD（一个强大的 .NET 图像库）处理边界信息资源的过程。无论您是经验丰富的开发人员还是刚刚起步的开发人员，本教程旨在清晰地将边境信息资源无缝地整合到您的项目中。
 ## 先决条件
 在我们深入学习本教程之前，请确保您具备以下条件：
 -  Aspose.PSD for .NET：确保您已安装 Aspose.PSD 库。您可以从[Aspose.PSD 网站](https://releases.aspose.com/psd/net/).

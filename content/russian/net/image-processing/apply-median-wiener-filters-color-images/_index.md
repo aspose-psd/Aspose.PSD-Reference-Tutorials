@@ -23,7 +23,7 @@ url: /ru/net/image-processing/apply-median-wiener-filters-color-images/
 
 ## Импортировать пространства имен
 
-В вашем проекте .NET импортируйте необходимые пространства имен для доступа к функциям, предоставляемым Aspose.PSD:
+В свой проект .NET импортируйте необходимые пространства имен для доступа к функциям, предоставляемым Aspose.PSD:
 
 ```csharp
 using Aspose.PSD.ImageFilters.FilterOptions;

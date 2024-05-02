@@ -13,7 +13,7 @@ Aspose.PSD for .NET ile görüntü işleme çabalarınızın tüm potansiyelini 
 
 ## [Katmanlara Kontur Efektleri Ekleme](./adding-stroke-effects/)
 
-ile kontur efektlerinde ustalaşarak resimlerinize profesyonel bir dokunuş katın. Bu adım adım eğitim, görüntü estetiğini sorunsuz bir şekilde geliştirmenize olanak sağlar. 
+ile kontur efektlerinde ustalaşarak resimlerinize profesyonel bir dokunuş katın. Bu adım adım eğitim, görüntü estetiğini sorunsuz bir şekilde geliştirmenize olanak tanır. 
 
 ## [Düz Renkle Kontur Katmanı Ekleme](./adding-stroke-layer-solid-color/)
 

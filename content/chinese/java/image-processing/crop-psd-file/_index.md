@@ -83,7 +83,7 @@ image.save(exportPathPng, options);
 
 ## 结论
 
-恭喜！您已成功学习如何使用 Aspose.PSD for Java 裁剪 PSD 文件。本教程提供了对所涉及关键步骤的基本了解，使您能够将此功能无缝集成到您的 Java 应用程序中。
+恭喜！您已成功学习如何使用 Aspose.PSD for Java 裁剪 PSD 文件。本教程提供了对所涉及关键步骤的基本了解，使您能够将此功能无缝集成到 Java 应用程序中。
 
 ## 常见问题解答
 

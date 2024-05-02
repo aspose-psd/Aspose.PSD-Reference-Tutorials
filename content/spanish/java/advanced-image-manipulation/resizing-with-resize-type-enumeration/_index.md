@@ -63,7 +63,7 @@ image.save(destName, new JpegOptions());
 
 ¡Y ahí lo tienes! Ha cambiado el tamaño de una imagen con éxito utilizando la enumeración de tipos de cambio de tamaño en Aspose.PSD para Java.
 
-En conclusión, Aspose.PSD para Java proporciona una plataforma sólida para la manipulación de imágenes, y Resize Type Enumeration agrega una capa de flexibilidad a este proceso. Ya sea que esté trabajando en un proyecto pequeño o en una aplicación a gran escala, dominar estos pasos le permitirá manejar el cambio de tamaño de la imagen sin problemas.
+En conclusión, Aspose.PSD para Java proporciona una plataforma sólida para la manipulación de imágenes y Resize Type Enumeration agrega una capa de flexibilidad a este proceso. Ya sea que esté trabajando en un proyecto pequeño o en una aplicación a gran escala, dominar estos pasos le permitirá manejar el cambio de tamaño de la imagen sin problemas.
 
 ## Preguntas frecuentes
 

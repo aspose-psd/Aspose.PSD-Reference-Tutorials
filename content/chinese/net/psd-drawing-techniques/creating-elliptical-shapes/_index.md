@@ -88,7 +88,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### Q2：如何下载 Aspose.PSD for .NET？
 
- A2：您可以从发布页面下载[这里](https://releases.aspose.com/psd/net/).
+ A2：您可以从发布页面下载它[这里](https://releases.aspose.com/psd/net/).
 
 ### Q3：有免费试用吗？
 

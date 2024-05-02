@@ -1,5 +1,5 @@
 ---
-title: 在 Aspose.PSD for .NET 中使用时间线
+title: 在 Aspose.PSD for .NET 中使用时间轴
 linktitle: 使用时间轴
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET Timeline 类增强 PSD 图像操作。控制框架属性、图层状态并轻松释放创意可能性。

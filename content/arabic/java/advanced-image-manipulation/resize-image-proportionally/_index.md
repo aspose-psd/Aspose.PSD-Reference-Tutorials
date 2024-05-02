@@ -57,7 +57,7 @@ image.resizeHeightProportionally(newHeight);
 
 ## الخطوة 3: احفظ الصورة التي تم تغيير حجمها
 
-احفظ الصورة التي تم تغيير حجمها إلى الموقع الذي تريده، مع تحديد خيارات التنسيق (PNG، في هذه الحالة).
+احفظ الصورة التي تم تغيير حجمها في الموقع الذي تريده، مع تحديد خيارات التنسيق (PNG، في هذه الحالة).
 
 ```java
 String destName = dataDir + "SimpleResizeImageProportionally_out.png";

@@ -81,7 +81,7 @@ R1: Sí, Aspose.PSD para Java está diseñado para funcionar perfectamente con o
 
 ### P4: ¿Cómo puedo obtener soporte?
 
- A4: Únase a la comunidad Aspose.PSD en el[Foro de soporte](https://forum.aspose.com/c/psd/34) para buscar ayuda y conectarse con otros desarrolladores.
+ R4: Únase a la comunidad Aspose.PSD en el[Foro de soporte](https://forum.aspose.com/c/psd/34) para buscar ayuda y conectarse con otros desarrolladores.
 
 ### P5: ¿Necesito una licencia temporal para realizar pruebas?
 

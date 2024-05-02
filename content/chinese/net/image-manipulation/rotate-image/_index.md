@@ -44,7 +44,7 @@ using (Image image = Image.Load(sourceFile))
     image.RotateFlip(RotateFlipType.Rotate270FlipNone);
 ```
 
-## 第 3 步：保存旋转图像
+## 步骤 3：保存旋转图像
 
 ```csharp
     //将旋转后的图像保存为 JPEG 文件

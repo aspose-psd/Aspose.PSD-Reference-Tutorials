@@ -92,7 +92,7 @@ Congratulazioni! Hai ritagliato con successo un'immagine utilizzando Aspose.PSD 
 
 ## Conclusione
 
-In questo tutorial, abbiamo esplorato le complessità del ritaglio delle immagini con Aspose.PSD per Java. Grazie a queste conoscenze, ora puoi integrare perfettamente il ritaglio delle immagini nei tuoi progetti Java, aggiungendo un tocco di finezza alle tue capacità di elaborazione delle immagini.
+In questo tutorial, abbiamo esplorato le complessità del ritaglio delle immagini con Aspose.PSD per Java. Grazie a queste conoscenze, ora puoi integrare perfettamente il ritaglio delle immagini nei tuoi progetti Java, aggiungendo un tocco di raffinatezza alle tue capacità di elaborazione delle immagini.
 
 ## Domande frequenti
 

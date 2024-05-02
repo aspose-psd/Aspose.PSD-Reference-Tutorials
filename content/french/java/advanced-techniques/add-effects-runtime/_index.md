@@ -49,7 +49,7 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## Étape 2 : ajouter un effet de superposition de couleurs
+## Étape 2 : Ajouter un effet de superposition de couleurs
 
 Dans cette étape, nous ajouterons un effet de superposition de couleurs à un calque spécifique de l'image PSD.
 

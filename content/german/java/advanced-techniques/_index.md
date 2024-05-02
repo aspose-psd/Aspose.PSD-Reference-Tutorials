@@ -45,7 +45,7 @@ Ob es darum geht, Helligkeit, Kontrast, Gamma anzupassen, Bilder unscharf zu mac
 ## Passen Sie den Gammawert eines Bildes mit Aspose.PSD für Java an
  Erfahren Sie, wie Sie mit Aspose.PSD für Java mühelos den Gammawert von Bildern anpassen. Unsere Schritt-für-Schritt-Anleitung sorgt für optimale Ergebnisse.[Mehr lesen](./adjust-gamma/)
 
-Sind Sie bereit, mit Aspose.PSD für Java die Kontrolle über die Bildverarbeitung freizugeben? Tauchen Sie ein in unsere Tutorials und beherrschen Sie die Kunst der Java-Stream-Operationen mit der Synchronisierung von Root und der Unterstützung von Interrupt-Monitoren.
+Sind Sie bereit, mit Aspose.PSD für Java die Kontrolle über die Bildverarbeitung freizuschalten? Tauchen Sie ein in unsere Tutorials und beherrschen Sie die Kunst der Java-Stream-Operationen mit der Synchronisierung von Root und der Unterstützung von Interrupt-Monitoren.
 
 ## Synchronisieren Sie Root mit Aspose.PSD für Java
  Erfahren Sie, wie Sie Root mit Aspose.PSD für Java synchronisieren. Unsere Schritt-für-Schritt-Anleitung sorgt für einen effizienten Java-Stream-Betrieb.[Mehr lesen](./synchronize-root/)

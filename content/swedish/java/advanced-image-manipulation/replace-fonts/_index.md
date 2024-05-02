@@ -61,7 +61,7 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 
 ## Slutsats
 
-I den här handledningen täckte vi processen att ersätta teckensnitt i Aspose.PSD för Java. Genom att följa steg-för-steg-guiden kan du sömlöst integrera funktionaliteten för teckensnittsersättning i dina Java-applikationer.
+I den här handledningen täckte vi processen att ersätta teckensnitt i Aspose.PSD för Java. Genom att följa steg-för-steg-guiden kan du sömlöst integrera funktionalitet för teckensnittsersättning i dina Java-applikationer.
 
 ## FAQ's
 

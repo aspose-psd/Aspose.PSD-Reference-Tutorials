@@ -85,7 +85,7 @@ A1: Sì, Aspose.PSD per .NET è compatibile con vari framework .NET, inclusi .NE
 
 ### Q2: dove posso trovare la documentazione completa per Aspose.PSD per .NET?
 
- A2: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/psd/net/)per informazioni dettagliate ed esempi di codice.
+ A2: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/psd/net/)per informazioni dettagliate ed esempi di codici.
 
 ### Q3: È disponibile una prova gratuita per Aspose.PSD per .NET?
 

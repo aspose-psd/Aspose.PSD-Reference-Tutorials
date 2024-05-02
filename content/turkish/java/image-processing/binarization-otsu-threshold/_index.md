@@ -9,7 +9,7 @@ url: /tr/java/image-processing/binarization-otsu-threshold/
 ---
 ## giriiş
 
-Aspose.PSD for Java'da Otsu Eşiği ile Binarizasyon gerçekleştirmeye yönelik bu adım adım kılavuza hoş geldiniz! Bu eğitimde, görüntü işleme yeteneklerinizi geliştirmek için Aspose.PSD for Java kütüphanesinden nasıl yararlanabileceğinizi keşfedeceğiz. Otsu Threshold ile ikilileştirme, görüntü segmentasyonu için güçlü bir tekniktir ve Aspose.PSD ile hem basit hem de verimli hale gelir.
+Aspose.PSD for Java'da Otsu Threshold ile Binarizasyon gerçekleştirmeye yönelik bu adım adım kılavuza hoş geldiniz! Bu eğitimde, görüntü işleme yeteneklerinizi geliştirmek için Aspose.PSD for Java kütüphanesinden nasıl yararlanabileceğinizi keşfedeceğiz. Otsu Threshold ile ikilileştirme, görüntü segmentasyonu için güçlü bir tekniktir ve Aspose.PSD ile hem basit hem de verimli hale gelir.
 
 ## Önkoşullar
 

@@ -95,7 +95,7 @@ A1：是的，您可以定义自定义模式并使用 Aspose.PSD for .NET 应用
 
 ### Q2：Aspose.PSD for .NET 是否兼容所有图像格式？
 
-A2：Aspose.PSD 主要支持 PSD (Adobe Photoshop) 格式，但它也提供将图像与其他格式相互转换的功能。
+A2：Aspose.PSD 主要支持 PSD (Adobe Photoshop) 格式，但它也提供图像与其他格式相互转换的功能。
 
 ### Q3：如何调整图案叠加的不透明度？
 

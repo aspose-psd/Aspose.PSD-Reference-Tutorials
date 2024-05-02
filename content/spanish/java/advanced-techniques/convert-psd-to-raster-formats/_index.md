@@ -9,7 +9,7 @@ url: /es/java/advanced-techniques/convert-psd-to-raster-formats/
 ---
 ## Introducción
 
-En el dinámico mundo del desarrollo web, convertir archivos PSD (Documentos de Photoshop) a varios formatos de imágenes rasterizadas es un requisito común. Aspose.PSD para Java surge como una poderosa herramienta para lograr esto sin problemas. Este tutorial lo guiará a través del proceso y le ofrecerá instrucciones paso a paso sobre cómo usar Aspose.PSD para Java para convertir archivos PSD a formatos de imágenes rasterizados populares.
+En el dinámico mundo del desarrollo web, convertir archivos PSD (Documentos de Photoshop) a varios formatos de imágenes rasterizadas es un requisito común. Aspose.PSD para Java surge como una poderosa herramienta para lograr esto sin problemas. Este tutorial lo guiará a través del proceso y le ofrecerá instrucciones paso a paso sobre cómo usar Aspose.PSD para Java para convertir archivos PSD a formatos de imágenes rasterizadas populares.
 
 ## Requisitos previos
 

@@ -84,7 +84,7 @@ Upprepa dessa steg så har du skapat en bild med Aspose.PSD för Java genom att 
 
 ## Slutsats
 
-I den här handledningen utforskade vi processen att skapa bilder med Aspose.PSD för Java. Det här biblioteket förenklar genereringen och manipuleringen av PSD-filer, vilket gör det till ett värdefullt verktyg för Java-utvecklare.
+I den här handledningen utforskade vi processen att skapa bilder med Aspose.PSD för Java. Detta bibliotek förenklar generering och manipulering av PSD-filer, vilket gör det till ett värdefullt verktyg för Java-utvecklare.
 
 ## FAQ's
 

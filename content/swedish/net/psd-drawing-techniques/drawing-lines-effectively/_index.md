@@ -114,4 +114,4 @@ Grattis! Du har framgångsrikt lärt dig hur man ritar linjer effektivt med Aspo
 
 ### F5: Behöver jag en tillfällig licens för Aspose.PSD för .NET?
 
- S5: Vid behov kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S5: Om det behövs kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

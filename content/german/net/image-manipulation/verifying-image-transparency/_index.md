@@ -17,7 +17,7 @@ Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden 
 
 1.  Aspose.PSD für .NET-Bibliothek: Laden Sie die Aspose.PSD für .NET-Bibliothek herunter und installieren Sie sie. Sie finden die Bibliothek[Hier](https://releases.aspose.com/psd/net/).
 
-2. Dokumentenverzeichnis: Richten Sie ein Dokumentenverzeichnis auf Ihrem lokalen Computer ein. Ersetzen Sie „Ihr Dokumentenverzeichnis“ in den Codefragmenten durch den Pfad zu Ihrem Verzeichnis.
+2. Dokumentenverzeichnis: Richten Sie ein Dokumentenverzeichnis auf Ihrem lokalen Computer ein. Ersetzen Sie „Ihr Dokumentverzeichnis“ in den Codefragmenten durch den Pfad zu Ihrem Verzeichnis.
 
 Jetzt fangen wir an!
 

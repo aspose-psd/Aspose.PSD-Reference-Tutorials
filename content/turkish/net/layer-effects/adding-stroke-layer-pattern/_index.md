@@ -9,7 +9,7 @@ url: /tr/net/layer-effects/adding-stroke-layer-pattern/
 ---
 ## giriiş
 
-PSD (Photoshop Belgesi) dosyalarınızı kontur katmanları ve desenlerle geliştirmek tasarımlarınıza dinamik bir dokunuş katabilir. Bu eğitimde, PSD dosyalarınıza desenli kontur katmanını zahmetsizce eklemek için Aspose.PSD for .NET'ten nasıl yararlanabileceğinizi keşfedeceğiz. Aspose.PSD, PSD dosyalarının işlenmesi için kapsamlı destek sağlayan güçlü bir .NET kitaplığıdır; bu da onu hem geliştiriciler hem de tasarımcılar için paha biçilmez bir araç haline getirir.
+PSD (Photoshop Belgesi) dosyalarınızı kontur katmanları ve desenlerle geliştirmek tasarımlarınıza dinamik bir dokunuş katabilir. Bu eğitimde, PSD dosyalarınıza desenli kontur katmanını zahmetsizce eklemek için Aspose.PSD for .NET'ten nasıl yararlanabileceğinizi keşfedeceğiz. Aspose.PSD, PSD dosyalarının işlenmesi için kapsamlı destek sağlayan, onu hem geliştiriciler hem de tasarımcılar için paha biçilmez bir araç haline getiren güçlü bir .NET kitaplığıdır.
 
 ## Önkoşullar
 

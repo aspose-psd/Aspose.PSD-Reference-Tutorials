@@ -106,7 +106,7 @@ image.save(outPsdFilePath);
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.PSD para Java para manipular archivos PSD existentes?
+### P1: ¿Puedo utilizar Aspose.PSD para Java para manipular archivos PSD existentes?
 
 R1: Sí, Aspose.PSD para Java proporciona una amplia funcionalidad para editar y manipular archivos PSD existentes.
 

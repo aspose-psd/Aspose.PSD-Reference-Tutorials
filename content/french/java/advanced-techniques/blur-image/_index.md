@@ -9,7 +9,7 @@ url: /fr/java/advanced-techniques/blur-image/
 ---
 ## Introduction
 
-Dans le monde du développement Java, l’amélioration et la manipulation des images sont une exigence courante. Si vous cherchez à ajouter un effet de flou à vos images par programmation, Aspose.PSD pour Java est un outil puissant qui simplifie le processus. Ce didacticiel vous guidera à travers les étapes de floutage d'une image à l'aide d'Aspose.PSD, vous garantissant ainsi d'obtenir des résultats professionnels sans effort.
+Dans le monde du développement Java, l’amélioration et la manipulation des images sont une exigence courante. Si vous cherchez à ajouter un effet de flou à vos images par programme, Aspose.PSD pour Java est un outil puissant qui simplifie le processus. Ce didacticiel vous guidera à travers les étapes de floutage d'une image à l'aide d'Aspose.PSD, vous garantissant ainsi d'obtenir des résultats professionnels sans effort.
 
 ## Conditions préalables
 

@@ -87,7 +87,7 @@ image.Save(outpath, saveOptions);
 
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie man mit Aspose.PSD für .NET Bögen zeichnet. Diese leistungsstarke Bibliothek eröffnet endlose Möglichkeiten zum Erstellen atemberaubender Grafiken in Ihren Anwendungen.
+Glückwunsch! Sie haben erfolgreich gelernt, wie man mit Aspose.PSD für .NET Bögen zeichnet. Diese leistungsstarke Bibliothek eröffnet endlose Möglichkeiten zum Erstellen beeindruckender Grafiken in Ihren Anwendungen.
 
 ## FAQs
 

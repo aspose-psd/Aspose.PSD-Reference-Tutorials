@@ -49,7 +49,7 @@ String dataDir = "Your Document Directory";
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 ```
 
-Çıktı görüntü dosyası için istediğiniz adı tanımlayın.
+Çıktı görüntü dosyası için istenen adı tanımlayın.
 
 ## 3. Adım: BmpOptions'ı yapılandırın
 

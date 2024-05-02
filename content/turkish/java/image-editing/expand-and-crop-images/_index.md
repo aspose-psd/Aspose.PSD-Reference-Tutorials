@@ -99,6 +99,6 @@ Cevap2: Aspose.PSD kesinlikle geliştiricilere ticari lisanslar sağlayarak hem 
 
  A4: Ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) topluluktan veya Aspose destek ekibinden yardım istemek için.
 
-### S5: Ücretsiz deneme sürümü var mı?
+### S5: Ücretsiz deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.PSD'yi ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Burada](https://releases.aspose.com/).

@@ -74,4 +74,4 @@ A1：是的，Aspose.PSD 允许您在每层的基础上有选择地替换字体�
 
 ### Q5：在哪里可以找到 Aspose.PSD 的综合文档？
 
- A5：参见详细[文档](https://reference.aspose.com/psd/net/)深入了解 Aspose.PSD 功能。
+ A5: 参见详细[文档](https://reference.aspose.com/psd/net/)深入了解 Aspose.PSD 功能。

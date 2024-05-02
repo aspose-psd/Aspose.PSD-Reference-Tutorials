@@ -52,7 +52,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 ```
 ## Slutsats
 
-Grattis! Du har framgångsrikt bemästrat konsten att byta teckensnitt med Aspose.PSD för .NET. Detta kraftfulla bibliotek ger flexibilitet och effektivitet vid hantering av saknade teckensnitt, vilket säkerställer att dina designs förblir intakta.
+Grattis! Du har framgångsrikt bemästrat konsten att byta teckensnitt med Aspose.PSD för .NET. Detta kraftfulla bibliotek ger flexibilitet och effektivitet i hanteringen av saknade teckensnitt, vilket säkerställer att dina mönster förblir intakta.
 
 ## FAQ's
 
