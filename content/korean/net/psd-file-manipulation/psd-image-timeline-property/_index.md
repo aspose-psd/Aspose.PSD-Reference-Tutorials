@@ -9,7 +9,7 @@ url: /ko/net/psd-file-manipulation/psd-image-timeline-property/
 ---
 ## 소개
 끊임없이 진화하는 .NET 개발 환경에서 앞서가는 것은 필수적입니다. .NET용 Aspose.PSD는 이미지 처리 기능을 향상시키는 다양한 기능을 제공하는 강력한 도구로 등장합니다. 주목할 만한 기능 중 하나는 PSD 이미지의 타임라인을 동적으로 조작할 수 있는 PSD 이미지 타임라인 속성입니다.
-## 전제 조건
+## 전제조건
 .NET용 Aspose.PSD 및 타임라인 속성에 대해 자세히 알아보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.PSD: 다음에서 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/psd/net/).
 - 개발 환경: 작동하는 .NET 개발 환경이 컴퓨터에 설정되어 있는지 확인하세요.
@@ -59,7 +59,7 @@ psdImage.Save(outputFile);
 File.Delete(outputFile);
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
-이 단계별 가이드는 Aspose.PSD를 사용하여 PSD 이미지 타임라인 속성을 .NET 프로젝트에 완벽하게 통합하는 방법을 간략하게 보여줍니다.
+이 단계별 가이드는 Aspose.PSD를 사용하여 PSD 이미지 타임라인 속성을 .NET 프로젝트에 원활하게 통합하는 방법을 간략하게 보여줍니다.
 ## 결론
 
 .NET용 Aspose.PSD는 개발자가 PSD 이미지의 잠재력을 최대한 활용할 수 있도록 지원합니다. PSD 이미지 타임라인 속성은 프로젝트에 역동성을 추가하여 이미지 조작에 창의적인 가능성을 제공합니다.

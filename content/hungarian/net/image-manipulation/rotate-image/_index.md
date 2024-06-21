@@ -75,7 +75,7 @@ Ebben az oktatóanyagban megvizsgáltuk a képek elforgatásának alapjait az As
 
 ### 4. kérdés: Hol találok támogatást az Aspose.PSD-hez?
 
- Bármilyen kérdéssel vagy segítséggel kapcsolatban keresse fel a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) és kapcsolatba lépni a közösséggel.
+ Ha kérdése van, vagy segítségre van szüksége, keresse fel a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) és kapcsolatba lépni a közösséggel.
 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t kereskedelmi használatra?
 

@@ -11,7 +11,7 @@ url: /ko/java/advanced-techniques/convert-psd-to-raster-formats/
 
 역동적인 웹 개발 세계에서는 PSD(Photoshop Document) 파일을 다양한 래스터 이미지 형식으로 변환하는 것이 일반적인 요구 사항입니다. Java용 Aspose.PSD는 이를 원활하게 달성할 수 있는 강력한 도구로 등장합니다. 이 튜토리얼은 프로세스를 안내하고 Java용 Aspose.PSD를 사용하여 PSD 파일을 널리 사용되는 래스터 이미지 형식으로 변환하는 방법에 대한 단계별 지침을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

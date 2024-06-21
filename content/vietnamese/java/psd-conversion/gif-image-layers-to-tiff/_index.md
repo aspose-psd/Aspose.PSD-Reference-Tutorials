@@ -25,9 +25,9 @@ import com.aspose.psd.imageoptions.TiffOptions;
 import java.io.FileNotFoundException;
 ```
 ## Bước 1: Thiết lập môi trường của bạn
- Đảm bảo bạn đã cài đặt Java và Aspose.PSD cho Java trên hệ thống của mình. Nếu không, hãy tham khảo[tài liệu](https://reference.aspose.com/psd/java/) để được hướng dẫn cài đặt.
+ Đảm bảo bạn đã cài đặt Java và Aspose.PSD cho Java trên hệ thống của mình. Nếu không, hãy tham khảo[tài liệu](https://reference.aspose.com/psd/java/) để biết hướng dẫn cài đặt.
 ## Bước 2: Nhập thư viện Aspose.PSD
-Trong dự án Java của bạn, hãy bao gồm thư viện Aspose.PSD bằng cách thêm nó vào phần phụ thuộc của dự án. Bạn có thể tải về thư viện[đây](https://releases.aspose.com/psd/java/).
+ Trong dự án Java của bạn, hãy bao gồm thư viện Aspose.PSD bằng cách thêm nó vào phần phụ thuộc của dự án. Bạn có thể tải về thư viện[đây](https://releases.aspose.com/psd/java/).
 ## Bước 3: Tạo đối tượng hình ảnh PSD
 Tải tệp hình ảnh PSD vào ứng dụng Java của bạn bằng mã được cung cấp. Thay thế "Thư mục tài liệu của bạn" và "sample.psd" bằng đường dẫn thích hợp.
 ```java

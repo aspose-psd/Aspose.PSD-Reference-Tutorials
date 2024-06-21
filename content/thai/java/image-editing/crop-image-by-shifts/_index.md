@@ -40,7 +40,7 @@ import com.aspose.psd.imageoptions.JpegOptions;
 
 ตอนนี้ เรามาแจกแจงขั้นตอนการครอบตัดรูปภาพโดยใช้ Aspose.PSD สำหรับ Java ออกเป็นขั้นตอนง่ายๆ ดังต่อไปนี้:
 
-## ขั้นตอนที่ 1: โหลดรูปภาพ
+## ขั้นตอนที่ 1: โหลดภาพ
 
 ```java
 String dataDir = "Your Document Directory";
@@ -62,7 +62,7 @@ if (!rasterImage.isCached()) {
 
 ## ขั้นตอนที่ 3: กำหนดค่า Shift
 
-ระบุค่าการเปลี่ยนแปลงสำหรับทั้งสี่ด้านของรูปภาพ:
+ระบุค่ากะสำหรับทั้งสี่ด้านของรูปภาพ:
 
 ```java
 int leftShift = 10;
@@ -112,6 +112,6 @@ rasterImage.save(destName, new JpegOptions());
 
  A4: เยี่ยมเลย[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อขอรับใบอนุญาตชั่วคราว
 
-### คำถามที่ 5: มีโปรเจ็กต์ตัวอย่างที่แสดงฟังก์ชัน Aspose.PSD หรือไม่
+### คำถามที่ 5: มีโปรเจ็กต์ตัวอย่างที่แสดงฟังก์ชันการทำงานของ Casing Aspose.PSD หรือไม่
 
  A5: สำรวจเอกสารและตัวอย่างได้ที่[เอกสาร Java Aspose.PSD](https://reference.aspose.com/psd/java/).

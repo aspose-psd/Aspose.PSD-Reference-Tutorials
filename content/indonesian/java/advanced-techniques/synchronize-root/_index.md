@@ -1,7 +1,7 @@
 ---
 title: Sinkronisasi Root menggunakan Aspose.PSD untuk Java
 linktitle: Sinkronisasi Root
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara menyinkronkan root menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk pengoperasian aliran Java yang efisien.
 type: docs
 weight: 19
@@ -82,7 +82,7 @@ A1: Ya, Aspose.PSD untuk Java kompatibel dengan Java versi 6 ke atas.
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD dengan mengunjungi[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD dengan mengunjungi.[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 

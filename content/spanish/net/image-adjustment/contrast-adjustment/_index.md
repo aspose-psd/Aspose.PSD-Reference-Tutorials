@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## Paso 1: cargue la imagen
 
- Cargue la imagen de origen en una instancia del`RasterImage` clase.
+Cargue la imagen de origen en una instancia del`RasterImage` clase.
 
 ```csharp
 //ExInicio:CargarImagen
@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Ajustar el contraste en un 50%.
 
 ## Paso 3: crear opciones TIFF
 
- Crear una instancia de`TiffOptions` para la imagen resultante, establezca varias propiedades y guarde la imagen en formato TIFF.
+ Crear una instancia de`TiffOptions` Para la imagen resultante, establezca varias propiedades y guarde la imagen en formato TIFF.
 
 ```csharp
 //ExStart:Crear opciones Tiff
@@ -92,7 +92,7 @@ R1: Aspose.PSD para .NET está diseñado para ser fácil de usar para los desarr
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puede explorar una prueba gratuita de Aspose.PSD para .NET[aquí](https://releases.aspose.com/).
+ R3: Sí, puede explorar una prueba gratuita de Aspose.PSD para .NET.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo encontrar soporte para Aspose.PSD para .NET?
 
@@ -100,4 +100,4 @@ R1: Aspose.PSD para .NET está diseñado para ser fácil de usar para los desarr
 
 ### P5: ¿Cómo puedo obtener una licencia temporal?
 
- R5: Si es necesario, puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Si es necesario, puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

@@ -92,11 +92,11 @@ finally
 
 ### Câu hỏi 2: Tôi có thể tìm tài liệu toàn diện về Aspose.PSD cho .NET ở đâu?
 
-A2: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
+A2: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí dành cho Aspose.PSD cho .NET không?
 
- A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Trả lời 3: Có, bạn có thể dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
@@ -104,4 +104,4 @@ A2: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời cho Aspose.PSD cho .NET không?
 
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

@@ -94,7 +94,7 @@ A1: Binarisatie met Otsu Threshold is een methode die wordt gebruikt voor beelds
 
 ### V3: Waar kan ik Aspose.PSD voor Java-documentatie vinden?
 
-A3: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/java/).
+A3: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/java/).
 
 ### V4: Hoe krijg ik ondersteuning voor Aspose.PSD voor Java?
 
@@ -102,4 +102,4 @@ A3: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/java/)
 
 ### V5: Is er een tijdelijke licentie beschikbaar voor Aspose.PSD voor Java?
 
- A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).

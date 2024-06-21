@@ -94,4 +94,4 @@ Cevap2: Evet, Aspose.PSD, PSD, BMP, JPEG, PNG ve daha fazlasını içeren çok �
 
 ### S5: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- A5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+ C5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).

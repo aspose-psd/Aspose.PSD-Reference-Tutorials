@@ -58,7 +58,7 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// احفظه بصيغة PNG مع نسبة تعتيم 100%
+// احفظه بصيغة PNG مع نسبة تعتيم 100%.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 // اضبط التعتيم على 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// احفظه بصيغة PNG مع نسبة تعتيم 50%
+// احفظه بصيغة PNG مع نسبة تعتيم 50%.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

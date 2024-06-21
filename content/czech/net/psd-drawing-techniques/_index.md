@@ -34,7 +34,7 @@ Jste připraveni posunout své dovednosti kreslení na další úroveň s Aspose
 
 ## Konstrukce obdélníků v Aspose.PSD pro .NET
 
-Prozkoumejte umění kreslení obdélníků v .NET s Aspose.PSD. Náš podrobný průvodce zajišťuje bezproblémovou integraci a umožňuje vám bez námahy pozvednout vaši hru manipulace s obrázky. Začněte ještě dnes![Výukový program Konstrukce obdélníků](./constructing-rectangles/)
+Prozkoumejte umění kreslení obdélníků v .NET s Aspose.PSD. Náš podrobný průvodce zajišťuje bezproblémovou integraci a umožňuje vám bez námahy pozvednout vaši hru manipulace s obrázky. Začněte ještě dnes![Výuka sestavování obdélníků](./constructing-rectangles/)
 
 ## Kreativní kreslení pomocí grafiky v Aspose.PSD pro .NET
 

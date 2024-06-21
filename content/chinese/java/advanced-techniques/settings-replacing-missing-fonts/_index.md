@@ -79,7 +79,7 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-恭喜！您已使用 Aspose.PSD for Java 成功替换了 PSD 文件中丢失的字体。
+恭喜！您已使用 Aspose.PSD for Java 成功替换了 PSD 文件中缺失的字体。
 
 ## 结论
 
@@ -97,7 +97,7 @@ A2: 是的，您可以根据您的设计要求指定自定义替换字体。
 
 ### Q3：Aspose.PSD 有可用的许可选项吗？
 
- A3：探索许可选项[这里](https://purchase.aspose.com/buy)选择最适合您需求的计划。
+ A3：探索许可选项。[这里](https://purchase.aspose.com/buy)选择最适合您需求的计划。
 
 ### Q4：是否有支持 Aspose.PSD 的社区论坛？
 

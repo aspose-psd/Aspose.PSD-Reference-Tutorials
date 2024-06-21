@@ -1,6 +1,6 @@
 ---
 title: Сохранение изображений с использованием рабочих потоков с помощью Aspose.PSD для Java
-linktitle: Сохранение изображений с использованием рабочих потоков
+linktitle: Сохраняйте изображения с помощью рабочих потоков
 second_title: Aspose.PSD Java API
 description: Изучите многопоточную обработку изображений на Java с помощью Aspose.PSD. Научитесь эффективно сохранять изображения с помощью рабочих потоков.
 type: docs
@@ -89,7 +89,7 @@ public class MainApplication {
         SaveImageWorker saveImageWorker = new SaveImageWorker(inputPath, outputPath, saveOptions, monitor);
         String result = saveImageWorker.ThreadProc();
         
-        // ... (Обработайте результат по мере необходимости)
+        // ...(Обработайте результат по мере необходимости)
     }
 }
 ```

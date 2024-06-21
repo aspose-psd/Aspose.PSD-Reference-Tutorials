@@ -95,7 +95,7 @@ O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, w tym PSD, BMP, PNG i J
 
 ### P2: Czy dostępna jest tymczasowa licencja na Aspose.PSD dla .NET?
 
- Odpowiedź 2: Tak, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A2: Tak, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla .NET?
 

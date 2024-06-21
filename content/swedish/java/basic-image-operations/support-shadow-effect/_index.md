@@ -99,7 +99,7 @@ A1: Absolut! Aspose.PSD för Java är ett kraftfullt bibliotek designat för pro
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan utforska en gratis testversion[här](https://releases.aspose.com/).
+ A3: Ja, du kan utforska en gratis testversion.[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta detaljerad dokumentation?
 
@@ -107,4 +107,4 @@ A1: Absolut! Aspose.PSD för Java är ett kraftfullt bibliotek designat för pro
 
 ### F5: Hur kan jag få support för Aspose.PSD för Java?
 
- S5: Gå med i communityforumet[här](https://forum.aspose.com/c/psd/34) för eventuella supportfrågor.
+ S5: Gå med i communityforumet.[här](https://forum.aspose.com/c/psd/34) för eventuella supportfrågor.

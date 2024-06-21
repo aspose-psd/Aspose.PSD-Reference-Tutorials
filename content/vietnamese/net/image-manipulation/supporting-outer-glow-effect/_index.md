@@ -105,7 +105,7 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều khung .NET, đảm bảo 
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 
- A3: Thăm quan[Giấy phép tạm thời Aspose.PSD](https://purchase.aspose.com/temporary-license/) cho các tùy chọn cấp phép tạm thời.
+ A3: Tham quan[Giấy phép tạm thời Aspose.PSD](https://purchase.aspose.com/temporary-license/) cho các tùy chọn cấp phép tạm thời.
 
 ### Câu hỏi 4: Người dùng Aspose.PSD có hỗ trợ gì?
 
@@ -113,4 +113,4 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều khung .NET, đảm bảo 
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET không?
 
- Câu trả lời 5: Có, hãy khám phá các tùy chọn cấp phép và thực hiện giao dịch mua của bạn[đây](https://purchase.aspose.com/buy).
+ Câu trả lời 5: Có, hãy khám phá các tùy chọn cấp phép và mua hàng.[đây](https://purchase.aspose.com/buy).

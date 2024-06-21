@@ -67,7 +67,7 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET được thiết kế để hoạt 
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu về Aspose.PSD cho .NET ở đâu?
 
- A3: Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/psd/net/) để giúp bạn hiểu và triển khai các tính năng khác nhau của Aspose.PSD cho .NET.
+ A3: Tài liệu chi tiết có sẵn.[đây](https://reference.aspose.com/psd/net/) để giúp bạn hiểu và triển khai các tính năng khác nhau của Aspose.PSD cho .NET.
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 

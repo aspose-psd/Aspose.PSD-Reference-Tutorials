@@ -19,7 +19,7 @@ Jste připraveni zlepšit své dovednosti v oblasti manipulace s obrázky? Pono�
 
  Naučte se umění nastavování kontrastu v[Aspose.PSD pro .NET](./contrast-adjustment/). Náš průvodce vás provede celým procesem a ukáže vám, jak vašim snímkům dodat hloubku a živost. Postupujte podle pokynů k dosažení profesionálně vypadajících kontrastů ve vašich projektech.
 
-## Provádění Gamma Adjustment
+## Implementace Gamma Adjustment
 
 Nastavení gama je výkonný nástroj pro vylepšení jasu a kontrastu obrazu. Prozkoumejte možnosti[Aspose.PSD pro .NET](./gamma-adjustment/) v našem podrobném průvodci. Odhalte tajemství účinného nastavení gama a pozvedněte své dovednosti v manipulaci s obrázky.
 

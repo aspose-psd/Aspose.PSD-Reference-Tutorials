@@ -1,7 +1,7 @@
 ---
 title: Dukungan untuk Interrupt Monitor di Aspose.PSD untuk Java
 linktitle: Dukungan untuk Monitor Interupsi
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Buka kunci kontrol dalam pemrosesan gambar dengan Aspose.PSD untuk Java. Pelajari cara menginterupsi proses untuk alur kerja yang fleksibel.
 type: docs
 weight: 18
@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Sekarang, mari kita uraikan kode contoh menjadi panduan langkah demi langkah untuk menggabungkan Interrupt Monitor dalam proyek Aspose.PSD untuk Java Anda.
+Sekarang, mari kita pecahkan kode contoh menjadi panduan langkah demi langkah untuk mengintegrasikan Interrupt Monitor di proyek Aspose.PSD untuk Java Anda.
 
 ## Langkah 1: Atur Direktori Dokumen Anda
 
@@ -106,11 +106,11 @@ A1: Interrupt Monitor di Aspose.PSD untuk Java memungkinkan pengembang mengelola
 
 ### Q2: Bagaimana cara mendapatkan perpustakaan Aspose.PSD untuk Java?
 
-A2: Anda dapat mengunduh perpustakaan Aspose.PSD untuk Java[Di Sini](https://releases.aspose.com/psd/java/).
+A2: Anda dapat mengunduh perpustakaan Aspose.PSD untuk Java.[Di Sini](https://releases.aspose.com/psd/java/).
 
 ### Q3: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A3: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.PSD untuk Java?
 
@@ -118,4 +118,4 @@ A2: Anda dapat mengunduh perpustakaan Aspose.PSD untuk Java[Di Sini](https://rel
 
 ### Q5: Bagaimana cara membeli lisensi Aspose.PSD untuk Java?
 
- A5: Anda dapat membeli lisensi Aspose.PSD untuk Java[Di Sini](https://purchase.aspose.com/buy).
+ A5: Anda dapat membeli lisensi Aspose.PSD untuk Java.[Di Sini](https://purchase.aspose.com/buy).

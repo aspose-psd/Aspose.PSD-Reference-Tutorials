@@ -99,8 +99,8 @@ R3: El almacenamiento en caché mejora el rendimiento al almacenar datos de imá
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD?
 
- A4: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para soporte comunitario y resolución de problemas.
+ A4: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para soporte comunitario y solución de problemas.
 
 ### P5: ¿Existe una versión de prueba disponible para Aspose.PSD?
 
- R5: Sí, puedes acceder al[prueba gratis](https://releases.aspose.com/)para explorar las características de Aspose.PSD antes de realizar una compra.
+ R5: Sí, puedes acceder al[prueba gratis](https://releases.aspose.com/)para explorar las funciones de Aspose.PSD antes de realizar una compra.

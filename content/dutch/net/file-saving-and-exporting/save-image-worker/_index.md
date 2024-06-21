@@ -92,11 +92,11 @@ finally
 
 ### V2: Waar kan ik uitgebreide documentatie vinden voor Aspose.PSD voor .NET?
 
-A2: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).
+A2: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/net/).
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
@@ -104,4 +104,4 @@ A2: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).
 
 ### V5: Kan ik een tijdelijke licentie kopen voor Aspose.PSD voor .NET?
 
- A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).

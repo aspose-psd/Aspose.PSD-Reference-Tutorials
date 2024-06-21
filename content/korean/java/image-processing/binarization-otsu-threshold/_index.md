@@ -11,7 +11,7 @@ url: /ko/java/image-processing/binarization-otsu-threshold/
 
 Java용 Aspose.PSD에서 Otsu Threshold를 사용하여 이진화를 수행하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다! 이 튜토리얼에서는 Java 라이브러리용 Aspose.PSD를 활용하여 이미지 처리 기능을 향상시키는 방법을 살펴보겠습니다. Otsu Threshold를 사용한 이진화는 이미지 분할을 위한 강력한 기술이며 Aspose.PSD를 사용하면 간단하고 효율적이 됩니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -86,7 +86,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ### Q1: Otsu 임계값을 사용한 이진화란 무엇입니까?
 
-A1: Otsu 임계값을 사용한 이진화는 이미지 분할에 사용되는 방법으로, 최적 임계값을 기반으로 이미지를 전경과 배경으로 분리합니다.
+A1: Otsu 임계값을 사용한 이진화는 이미지 분할에 사용되는 방법으로, 최적의 임계값을 기반으로 이미지를 전경과 배경으로 분리합니다.
 
 ### Q2: Java용 Aspose.PSD를 무료로 사용할 수 있나요?
 

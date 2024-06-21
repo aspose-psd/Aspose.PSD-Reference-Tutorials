@@ -92,7 +92,7 @@ A1: Rozhodně! Aspose.PSD for Java vyniká v úlohách dávkového zpracování 
 
 ### Q2: Mohu vyzkoušet Aspose.PSD pro Java před nákupem?
 
- A2: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A2: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q3: Kde najdu podporu pro Aspose.PSD pro Java?
 
@@ -100,7 +100,7 @@ A1: Rozhodně! Aspose.PSD for Java vyniká v úlohách dávkového zpracování 
 
 ### Q4: Potřebuji dočasnou licenci pro testovací účely?
 
- A4: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování Aspose.PSD pro Javu.
+ A4: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro testování Aspose.PSD pro Javu.
 
 ### Q5: Kde mohu zakoupit Aspose.PSD pro Java?
 

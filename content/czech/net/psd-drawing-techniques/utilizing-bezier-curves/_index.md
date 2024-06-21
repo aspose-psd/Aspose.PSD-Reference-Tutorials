@@ -43,7 +43,7 @@ saveOptions.BitsPerPixel = 32;
 
 ## Krok 2: Inicializace obrázku a grafiky
 
- Nyní vytvořte instanci`Image` třídu a inicializovat a`Graphics` objekt. Tento krok je nezbytný pro kreslení a manipulaci s obrázkem:
+ Nyní vytvořte instanci souboru`Image` třídu a inicializovat a`Graphics` objekt. Tento krok je nezbytný pro kreslení a manipulaci s obrázkem:
 
 ```csharp
 using (Image image = new PsdImage(100, 100))

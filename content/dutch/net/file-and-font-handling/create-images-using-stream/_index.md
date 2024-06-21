@@ -79,7 +79,7 @@ using (Image image = Image.Create(ImageOptions, 500, 500))
 {
     // Voer hier de gewenste beeldverwerking uit
 
-    // Sla de gemaakte afbeelding op een opgegeven bestemming op
+    //Sla de gemaakte afbeelding op een opgegeven bestemming op
     image.Save(desName);
 }
 ```
@@ -102,7 +102,7 @@ A2: De afmetingen zijn aanpasbaar; pas de parameters in de Image.Create-methode 
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
 
 ### Vraag 4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD?
 
@@ -110,4 +110,4 @@ A2: De afmetingen zijn aanpasbaar; pas de parameters in de Image.Create-methode 
 
 ### Vraag 5: Zijn er tijdelijke licenties beschikbaar?
 
- A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).

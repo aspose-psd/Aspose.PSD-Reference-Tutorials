@@ -9,7 +9,7 @@ url: /vi/java/advanced-techniques/grayscale-image/
 ---
 ## Giới thiệu
 
-Trong lĩnh vực xử lý ảnh, chuyển đổi ảnh sang thang độ xám là một thao tác cơ bản. Aspose.PSD for Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Java để đạt được điều này một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển thang độ xám cho hình ảnh bằng Aspose.PSD, đảm bảo rằng ngay cả những người mới bắt đầu cũng có thể làm theo dễ dàng.
+Trong lĩnh vực xử lý ảnh, chuyển đổi ảnh sang thang độ xám là một thao tác cơ bản. Aspose.PSD for Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Java để đạt được điều này một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển thang độ xám cho hình ảnh bằng Aspose.PSD, đảm bảo rằng ngay cả những người mới bắt đầu cũng có thể làm theo một cách dễ dàng.
 
 ## Điều kiện tiên quyết
 

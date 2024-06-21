@@ -96,7 +96,7 @@ A2: Ya, Aspose.PSD untuk .NET menawarkan berbagai properti untuk menyempurnakan 
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
- A3: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A3: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Apakah Aspose.PSD untuk .NET kompatibel dengan .NET Core?
 

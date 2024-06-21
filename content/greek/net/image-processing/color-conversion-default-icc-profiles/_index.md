@@ -68,7 +68,7 @@ image.CmykColorProfile = cmykprofile;
 ## Βήμα 3: Αποθήκευση εικόνας που προκύπτει
 
 ```csharp
-// Αποθηκεύστε την εικόνα που προκύπτει με νέα προφίλ YCCK. Θα παρατηρήσετε διαφορές στις τιμές των χρωμάτων εάν συγκρίνετε τις εικόνες.
+// Αποθηκεύστε την εικόνα που προκύπτει με νέα προφίλ YCCK. Θα παρατηρήσετε διαφορές στις τιμές των χρωμάτων αν συγκρίνετε τις εικόνες.
 JpegOptions options = new JpegOptions();
 options.ColorType = JpegCompressionColorMode.Cmyk;
 image.Save(dataDir + "Cmyk_Default_profiles.jpg", options);
@@ -96,7 +96,7 @@ A3: Απολύτως, το Aspose.PSD παρέχει αποτελεσματικ�
 
 ### Ε4: Μπορώ να χρησιμοποιήσω το Aspose.PSD για εμπορικά έργα;
 
- A4: Ναι, μπορείτε να αγοράσετε μια άδεια[εδώ](https://purchase.aspose.com/buy) για εμπορική χρήση.
+ A4: Ναι, μπορείτε να αγοράσετε μια άδεια.[εδώ](https://purchase.aspose.com/buy) για εμπορική χρήση.
 
 ### Ε5: Πού μπορώ να βρω υποστήριξη κοινότητας για το Aspose.PSD για .NET;
 

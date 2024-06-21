@@ -17,7 +17,7 @@ Bevor wir in den schrittweisen Prozess eintauchen, stellen Sie sicher, dass die 
 
 1.  Aspose.PSD für .NET-Bibliothek: Laden Sie die Aspose.PSD für .NET-Bibliothek herunter und installieren Sie sie. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/psd/net/).
 
-2. Dokumentverzeichnis: Richten Sie ein Verzeichnis ein, in dem Ihre Quell- und Zieldateien gespeichert werden. Ersetzen Sie „Ihr Dokumentenverzeichnis“ im bereitgestellten Code durch den Pfad zu diesem Verzeichnis.
+2. Dokumentverzeichnis: Richten Sie ein Verzeichnis ein, in dem Ihre Quell- und Zieldateien gespeichert werden. Ersetzen Sie „Ihr Dokumentverzeichnis“ im bereitgestellten Code durch den Pfad zu diesem Verzeichnis.
 
 Nachdem wir nun alle Voraussetzungen erfüllt haben, fahren wir mit der Implementierung fort.
 
@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## Schritt 1: Laden Sie das Bild
 
- Laden Sie das Quellbild in eine Instanz von`RasterImage` Klasse.
+Laden Sie das Quellbild in eine Instanz von`RasterImage` Klasse.
 
 ```csharp
 //ExStart:LoadImage
@@ -92,7 +92,7 @@ A1: Aspose.PSD für .NET ist entwicklerfreundlich konzipiert und eignet sich dah
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können eine kostenlose Testversion von Aspose.PSD für .NET ausprobieren[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können eine kostenlose Testversion von Aspose.PSD für .NET ausprobieren.[Hier](https://releases.aspose.com/).
 
 ### F4: Wo finde ich Unterstützung für Aspose.PSD für .NET?
 
@@ -100,4 +100,4 @@ A1: Aspose.PSD für .NET ist entwicklerfreundlich konzipiert und eignet sich dah
 
 ### F5: Wie kann ich eine temporäre Lizenz erhalten?
 
- A5: Bei Bedarf können Sie eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Bei Bedarf können Sie eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/).

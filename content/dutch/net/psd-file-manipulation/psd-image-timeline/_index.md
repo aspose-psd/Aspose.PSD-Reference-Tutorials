@@ -71,7 +71,7 @@ A1: Nee, Aspose.PSD is specifiek ontworpen voor .NET-toepassingen.
 
 ### V3: Kan ik Aspose.PSD gratis uitproberen voordat ik een licentie aanschaf?
 
- A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik gedetailleerde documentatie voor Aspose.PSD vinden?
 

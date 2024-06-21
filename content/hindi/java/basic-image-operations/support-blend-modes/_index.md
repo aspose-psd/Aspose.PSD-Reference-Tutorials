@@ -58,7 +58,7 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// 100% अपारदर्शिता के साथ पीएनजी के रूप में सहेजें
+// 100% अपारदर्शिता के साथ पीएनजी के रूप में सहेजें।
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ PSD फ़ाइलों में विशिष्ट परतों की
 // अपारदर्शिता को 50% पर सेट करें
 im.getLayers()[1].setOpacity((byte)127);
 
-// 50% अपारदर्शिता के साथ पीएनजी के रूप में सहेजें
+// 50% अपारदर्शिता के साथ पीएनजी के रूप में सहेजें।
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

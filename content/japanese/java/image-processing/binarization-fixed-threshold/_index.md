@@ -100,4 +100,4 @@ A1:はい、Aspose.PSD はさまざまな画像形式をサポートしている
 
 ### Q5: 無料試用版はありますか?
 
- A5: はい、無料試用版で Aspose.PSD の機能を試すことができます。[ここ](https://releases.aspose.com/).
+ A5: はい、無料試用版を使用して Aspose.PSD の機能を試すことができます。[ここ](https://releases.aspose.com/).

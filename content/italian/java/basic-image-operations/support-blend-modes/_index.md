@@ -9,7 +9,7 @@ url: /it/java/basic-image-operations/support-blend-modes/
 ---
 ## introduzione
 
-Aspose.PSD per Java è una potente libreria che fornisce ampio supporto per le modalità di fusione, consentendo agli sviluppatori di migliorare le proprie capacità di elaborazione delle immagini. In questo tutorial, approfondiremo il mondo delle modalità di fusione, esplorando come sfruttarle in modo efficace utilizzando Aspose.PSD per Java. Che tu sia uno sviluppatore esperto o un principiante nella manipolazione delle immagini, questa guida ti fornirà le conoscenze per sfruttare tutto il potenziale delle modalità di fusione nelle tue applicazioni Java.
+Aspose.PSD per Java è una potente libreria che fornisce ampio supporto per le modalità di fusione, consentendo agli sviluppatori di migliorare le proprie capacità di elaborazione delle immagini. In questo tutorial, approfondiremo il mondo delle modalità di fusione, esplorando come sfruttarle in modo efficace utilizzando Aspose.PSD per Java. Che tu sia uno sviluppatore esperto o un principiante nella manipolazione delle immagini, questa guida ti fornirà le conoscenze necessarie per sfruttare tutto il potenziale delle modalità di fusione nelle tue applicazioni Java.
 
 ## Prerequisiti
 
@@ -73,7 +73,7 @@ Imposta l'opacità di livelli specifici nei file PSD. Qui impostiamo l'opacità 
 // Imposta l'opacità al 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Salva come PNG con il 50% di opacità
+// Salva come PNG con il 50% di opacità.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

@@ -74,7 +74,7 @@ colorFillSettings.Color = Color.Green;
 ## Steg 4: Mittposition
 
 ```csharp
-// Lägger till färgfyllning vid position Center
+// Lägger till färgfyllning, vid position Center
 strokeEffect = psdImage.Layers[3].BlendingOptions.AddStroke(FillType.Color);
 strokeEffect.Size = 7;
 strokeEffect.Position = StrokePosition.Center;
@@ -98,7 +98,7 @@ S1: Ja, du kan rikta in dig på specifika lager genom att justera lagerindexet i
 
 A2: Absolut! Aspose.PSD är designad för att sömlöst integreras med de senaste .NET-ramverken.
 
-### F3: Hur kan jag anpassa linjefärgen?
+### F3: Hur kan jag anpassa streckfärgen?
 
  A3: Ändra helt enkelt`Color` egenskapen i koden för att uppnå önskad linjefärg.
 

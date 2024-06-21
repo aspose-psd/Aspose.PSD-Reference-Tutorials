@@ -19,7 +19,7 @@ Bu eğitime başlamadan önce aşağıdaki önkoşulların yerine getirildiğind
 
 2. Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini şuradan indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/psd/java/).
 
-3.  Örnek PSD Dosyası: Deney için örnek bir PSD dosyasını hazır bulundurun. Şunu kullanabilirsiniz:[Bu eğitim için sample.psd](Belge Dizininiz/sample.psd) dosyası.
+3.  Örnek PSD Dosyası: Deney için örnek bir PSD dosyasını hazır bulundurun. Şunu kullanabilirsiniz:[Bu eğitim için sample.psd](Belge Dizininiz/sample.psd) dosyanızı oluşturun.
 
 ## Paketleri İçe Aktar
 
@@ -73,7 +73,7 @@ A1: Kesinlikle! Aspose.PSD for Java, ölçeklenebilirlik ve verimlilik sağlayar
 
 ### S2: Lanczos Resample dışında farklı bir yeniden boyutlandırma türü kullanabilir miyim?
 
-C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bicubic ve daha fazlası gibi çeşitli yeniden boyutlandırma türleri sunar. Kapsamlı bir liste için belgeleri inceleyin.
+C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bikübik ve daha fazlası gibi çeşitli yeniden boyutlandırma türleri sunar. Kapsamlı bir liste için belgeleri inceleyin.
 
 ### S3: Aspose.PSD for Java için ek desteği nerede bulabilirim?
 
@@ -81,7 +81,7 @@ C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bicubic ve daha fazlası gibi �
 
 ### S4: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
 

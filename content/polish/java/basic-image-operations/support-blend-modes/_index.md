@@ -58,7 +58,7 @@ Eksportuj załadowane pliki PSD do formatu PNG. Dostosuj opcje eksportu według 
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Zapisz jako PNG ze 100% nieprzezroczystością
+// Zapisz jako PNG ze 100% nieprzezroczystością.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -84,7 +84,7 @@ Powtórz te kroki dla każdego trybu mieszania, dostosowując proces do swoich w
 
 ## Wniosek
 
-W tym samouczku omówiliśmy bezproblemową obsługę trybów mieszania w Aspose.PSD dla Java. Postępując zgodnie z przewodnikiem krok po kroku, możesz zintegrować te zaawansowane funkcje z aplikacjami Java, odblokowując nieograniczone możliwości manipulowania i ulepszania obrazów.
+W tym samouczku omówiliśmy bezproblemową obsługę trybów mieszania w Aspose.PSD dla Java. Postępując zgodnie z przewodnikiem krok po kroku, możesz zintegrować te zaawansowane funkcje z aplikacjami Java, odblokowując nieograniczone możliwości manipulacji i ulepszania obrazów.
 
 ## Często zadawane pytania
 

@@ -101,7 +101,7 @@ A3: Abszolút! Az Aspose.PSD for .NET a .NET-környezetben végzett képfeldolgo
 
 ### 4. kérdés: Hol találok közösségi támogatást az Aspose.PSD for .NET-hez?
 
- 4. válasz: Csatlakozzon az Aspose.PSD közösséghez a címen[ezt a fórumot](https://forum.aspose.com/c/psd/34) megbeszélésekre és támogatásra.
+ 4. válasz: Csatlakozzon az Aspose.PSD közösséghez a címen[ezt a fórumot](https://forum.aspose.com/c/psd/34) vitára és támogatásra.
 
 ### 5. kérdés: Vannak ingyenes források az Aspose.PSD for .NET tanulásához?
 

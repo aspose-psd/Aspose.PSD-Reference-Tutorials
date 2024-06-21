@@ -9,7 +9,7 @@ url: /fr/java/advanced-techniques/support-interrupt-monitor/
 ---
 ## Introduction
 
-Dans le domaine du développement Java, Aspose.PSD se distingue comme un outil puissant pour gérer diverses tâches de traitement d'images. Parmi ses nombreuses fonctionnalités, la prise en charge d'un moniteur d'interruption est un aspect crucial qui améliore le contrôle et la flexibilité dont disposent les développeurs sur les flux de travail de traitement d'images. Dans ce didacticiel, nous verrons comment exploiter Interrupt Monitor dans Aspose.PSD pour Java pour gérer et interrompre efficacement les processus de conversion d'images.
+Dans le domaine du développement Java, Aspose.PSD se distingue comme un outil puissant pour gérer diverses tâches de traitement d'image. Parmi ses nombreuses fonctionnalités, la prise en charge d'un moniteur d'interruption est un aspect crucial qui améliore le contrôle et la flexibilité dont disposent les développeurs sur les flux de travail de traitement d'images. Dans ce didacticiel, nous verrons comment exploiter Interrupt Monitor dans Aspose.PSD pour Java pour gérer et interrompre efficacement les processus de conversion d'images.
 
 ## Conditions préalables
 
@@ -106,11 +106,11 @@ A1 : Le moniteur d'interruptions d'Aspose.PSD pour Java permet aux développeu
 
 ### Q2 : Comment puis-je obtenir la bibliothèque Aspose.PSD pour Java ?
 
-A2 : Vous pouvez télécharger la bibliothèque Aspose.PSD pour Java[ici](https://releases.aspose.com/psd/java/).
+A2 : Vous pouvez télécharger la bibliothèque Aspose.PSD pour Java.[ici](https://releases.aspose.com/psd/java/).
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A3 : Oui, vous pouvez explorer un essai gratuit d'Aspose.PSD[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez explorer un essai gratuit d’Aspose.PSD.[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD pour Java ?
 
@@ -118,4 +118,4 @@ A2 : Vous pouvez télécharger la bibliothèque Aspose.PSD pour Java[ici](https
 
 ### Q5 : Comment puis-je acheter une licence pour Aspose.PSD pour Java ?
 
- A5 : Vous pouvez acheter une licence pour Aspose.PSD pour Java[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter une licence pour Aspose.PSD pour Java.[ici](https://purchase.aspose.com/buy).

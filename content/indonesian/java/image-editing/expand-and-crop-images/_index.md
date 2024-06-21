@@ -1,7 +1,7 @@
 ---
 title: Perluas dan Pangkas Gambar dengan Aspose.PSD untuk Java
 linktitle: Perluas dan Pangkas Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara memperluas dan memotong gambar di Java menggunakan Aspose.PSD. Panduan langkah demi langkah untuk pemrosesan gambar yang efisien.
 type: docs
 weight: 18

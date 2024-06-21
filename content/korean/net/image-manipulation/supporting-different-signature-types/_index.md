@@ -11,7 +11,7 @@ url: /ko/net/image-manipulation/supporting-different-signature-types/
 
 개발자가 PSD 파일을 원활하게 처리할 수 있도록 지원하는 강력한 라이브러리인 .NET용 Aspose.PSD의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 .NET용 Aspose.PSD에서 다양한 서명 유형을 지원하는 프로세스를 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 프로세스를 명확하고 정확하게 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -56,7 +56,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## 결론
 
-축하해요! .NET용 Aspose.PSD에서 다양한 서명 유형을 성공적으로 지원했습니다. 이 튜토리얼에서는 프로세스를 쉽게 탐색할 수 있도록 필수 단계를 다루었습니다.
+축하해요! .NET용 Aspose.PSD에서 다양한 서명 유형을 성공적으로 지원했습니다. 이 튜토리얼에서는 프로세스를 쉽게 탐색할 수 있도록 필수 단계를 다룹니다.
 
 ## FAQ
 
@@ -78,4 +78,4 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### Q5: 임시 라이센스를 찾고 계십니까?
 
- A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).

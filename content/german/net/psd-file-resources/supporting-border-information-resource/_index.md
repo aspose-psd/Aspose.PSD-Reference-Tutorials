@@ -80,7 +80,7 @@ A1: Ja, Aspose.PSD für .NET ist mit verschiedenen .NET-Frameworks kompatibel.
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich Unterstützung erhalten?
 
@@ -88,4 +88,4 @@ A1: Ja, Aspose.PSD für .NET ist mit verschiedenen .NET-Frameworks kompatibel.
 
 ### F5: Sind temporäre Lizenzen verfügbar?
 
- A5: Ja, Sie können temporäre Lizenzen erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, Sie können temporäre Lizenzen erhalten.[Hier](https://purchase.aspose.com/temporary-license/).

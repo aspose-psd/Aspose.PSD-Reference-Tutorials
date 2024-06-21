@@ -110,7 +110,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### س3: هل يمكنني تجربة Aspose.PSD قبل الشراء؟
 
- ج3: نعم، يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 

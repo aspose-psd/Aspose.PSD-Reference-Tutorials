@@ -9,7 +9,7 @@ url: /de/net/image-manipulation/adding-gradient-effects/
 ---
 ## Einführung
 
-Durch die Verbesserung von Bildern mit Verlaufseffekten können Sie Ihren visuellen Inhalten eine faszinierende Dimension verleihen. Aspose.PSD für .NET bietet eine leistungsstarke Plattform zum Einbinden von Verlaufsüberlagerungen in Ihre Bilder. In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens von Verlaufseffekten mit Aspose.PSD für .NET.
+Durch die Verbesserung von Bildern mit Verlaufseffekten können Sie Ihren visuellen Inhalten eine faszinierende Dimension verleihen. Aspose.PSD für .NET bietet eine leistungsstarke Plattform zum Integrieren von Verlaufsüberlagerungen in Ihre Bilder. In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens von Verlaufseffekten mit Aspose.PSD für .NET.
 
 ## Voraussetzungen
 
@@ -139,7 +139,7 @@ A2: Aspose.PSD für .NET unterstützt verschiedene Bilddateiformate, darunter PS
 
 ### F3: Gibt es eine Testversion für Aspose.PSD für .NET?
 
- A3: Ja, Sie können die Funktionen von Aspose.PSD für .NET erkunden, indem Sie die kostenlose Testversion von herunterladen[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können die Funktionen von Aspose.PSD für .NET erkunden, indem Sie die kostenlose Testversion von herunterladen[Hier](https://releases.aspose.com/).
 
 ### F4: Wie erhalte ich Unterstützung für Aspose.PSD für .NET?
 

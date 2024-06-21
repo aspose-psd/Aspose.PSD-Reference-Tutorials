@@ -59,7 +59,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     }
 ```
 
-## Stap 4: Definieer de verschuivingswaarden voor bijsnijden
+## Stap 4: Definieer verschuivingswaarden voor bijsnijden
 
 Geef de verschuivingswaarden op voor de linker-, rechter-, boven- en onderkant van de afbeelding. Pas deze waarden aan op basis van uw bijsnijdvereisten.
 
@@ -96,7 +96,7 @@ A1: Ja, Aspose.PSD ondersteunt verschillende afbeeldingsindelingen, waardoor u a
 
 ### V3: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD voor .NET?
 
- A3: U kunt een tijdelijke licentie aanschaffen voor testdoeleinden[hier](https://purchase.aspose.com/temporary-license/).
+ A3: U kunt een tijdelijke licentie aanschaffen voor testdoeleinden.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V4: Waar kan ik aanvullende ondersteuning en discussies vinden met betrekking tot Aspose.PSD?
 

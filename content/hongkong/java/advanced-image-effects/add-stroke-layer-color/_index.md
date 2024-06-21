@@ -19,7 +19,7 @@ url: /zh-hant/java/advanced-image-effects/add-stroke-layer-color/
 
 - Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。
 
-- 整合開發環境（IDE）：選擇您喜歡的IDE； Eclipse 或 IntelliJ 是受歡迎的選擇。
+- 整合開發環境（IDE）：選擇您喜歡的IDE； Eclipse 或 IntelliJ 是流行的選擇。
 
 ## 導入包
 

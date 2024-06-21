@@ -1,6 +1,6 @@
 ---
 title: Wenden Sie Gaußsche und Wiener-Filter in Aspose.PSD für Java an
-linktitle: Wenden Sie Gauß- und Wiener-Filter an
+linktitle: Wenden Sie Gaußsche und Wiener-Filter an
 second_title: Aspose.PSD Java-API
 description: Verbessern Sie Ihre Java-Bildverarbeitung mit Aspose.PSD. Erfahren Sie Schritt für Schritt, wie Sie Gaußsche und Wiener-Filter anwenden, um beeindruckende visuelle Ergebnisse zu erzielen.
 type: docs
@@ -94,7 +94,7 @@ A2: Die Testversion unterliegt Einschränkungen und Sie können alle Funktionen 
 
 ### F4: Gibt es eine temporäre Lizenz für Testzwecke?
 
- A4: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Wo finde ich eine ausführliche Dokumentation für Aspose.PSD für Java?
 

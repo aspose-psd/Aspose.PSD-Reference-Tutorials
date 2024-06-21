@@ -9,13 +9,13 @@ url: /vi/net/psd-drawing-techniques/constructing-rectangles/
 ---
 ## Giới thiệu
 
-Trong lĩnh vực phát triển .NET năng động, Aspose.PSD nổi bật như một công cụ mạnh mẽ để xử lý thao tác hình ảnh. Hướng dẫn này tập trung vào một nhiệm vụ cơ bản: xây dựng hình chữ nhật bằng Aspose.PSD cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình, đảm bảo bạn nắm bắt kỹ từng khái niệm.
+Trong lĩnh vực phát triển .NET năng động, Aspose.PSD nổi bật như một công cụ mạnh mẽ để xử lý thao tác hình ảnh. Hướng dẫn này tập trung vào một nhiệm vụ cơ bản: xây dựng hình chữ nhật bằng Aspose.PSD cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình, đảm bảo bạn nắm bắt kỹ lưỡng từng khái niệm.
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
--  Thiết lập môi trường: Có môi trường phát triển .NET hoạt động được tích hợp Aspose.PSD. Nếu bạn chưa có, hãy tham khảo[tài liệu](https://reference.aspose.com/psd/net/) để được hướng dẫn cài đặt.
+-  Thiết lập môi trường: Có môi trường phát triển .NET hoạt động được tích hợp Aspose.PSD. Nếu bạn chưa có, hãy tham khảo[tài liệu](https://reference.aspose.com/psd/net/) để biết hướng dẫn cài đặt.
 
 -  Tải xuống Aspose.PSD: Đảm bảo bạn đã tải xuống thư viện Aspose.PSD từ[Liên kết tải xuống](https://releases.aspose.com/psd/net/).
 

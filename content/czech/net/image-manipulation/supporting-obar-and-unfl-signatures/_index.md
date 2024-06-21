@@ -110,7 +110,7 @@ Gratulujeme! Úspěšně jste implementovali podporu pro podpisy ObAr a UnFl v A
 
 ### Q3: Mohu vyzkoušet Aspose.PSD před nákupem?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 

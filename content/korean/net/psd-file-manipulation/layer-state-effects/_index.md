@@ -9,7 +9,7 @@ url: /ko/net/psd-file-manipulation/layer-state-effects/
 ---
 ## 소개
 .NET용 Aspose.PSD에서 레이어 상태 효과 작업에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 레이어 상태 효과는 다양한 레이어에 효과를 추가하여 이미지의 시각적 매력을 향상시키는 데 중요한 역할을 합니다. 이 가이드에서는 레이어 상태 효과의 강력한 기능을 효율적으로 활용하기 위해 .NET용 Aspose.PSD를 활용하는 과정을 안내합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.PSD: 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[.NET 릴리스 페이지용 Aspose.PSD](https://releases.aspose.com/psd/net/).
 - 문서 디렉터리: PSD 파일이 저장되는 디렉터리를 설정합니다.
@@ -77,7 +77,7 @@ psdImage.Save(outputFile);
 
 ### Q4: 임시 라이센스는 어떻게 얻나요?
 
- A4: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: 지원이 필요하거나 질문이 있나요?
 

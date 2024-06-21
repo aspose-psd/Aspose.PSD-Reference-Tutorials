@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Vytvořte instanci třídy PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Krok 5: Uložte oříznutý obrázek jako PNG
+## Krok 5: Uložte oříznutý obrázek jako PNG.
 ```csharp
 // Zavolejte metodu uložení, zadejte výstupní cestu a PngOptions pro převod souboru PSD na PNG a uložení výstupu
 string destName = dataDir + @"export.png";

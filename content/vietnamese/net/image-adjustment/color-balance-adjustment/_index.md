@@ -88,7 +88,7 @@ A2: Chắc chắn rồi! Aspose.PSD cung cấp khả năng xử lý hàng loạt
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
- A3: Thăm quan[Giấy phép tạm thời Aspose.PSD](https://purchase.aspose.com/temporary-license/) để xin giấy phép tạm thời.
+ A3: Tham quan[Giấy phép tạm thời Aspose.PSD](https://purchase.aspose.com/temporary-license/) để xin giấy phép tạm thời.
 
 ### Câu hỏi 4: Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
 

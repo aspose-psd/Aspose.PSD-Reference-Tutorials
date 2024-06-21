@@ -18,7 +18,7 @@ url: /es/java/basic-image-operations/
 
 ## Cambiar el tamaño de forma sencilla
 
- Manipule eficientemente el tamaño de las imágenes mediante programación con[Aspose.PSD para Java](./simple-resizing/). Nuestra guía fácil de usar simplifica el proceso de cambio de tamaño y garantiza que comprenda cada detalle. Desde lo básico hasta las técnicas avanzadas, este tutorial lo cubre todo. Sumérgete y transforma tus imágenes sin problemas con Aspose.PSD.
+ Manipule eficientemente el tamaño de las imágenes mediante programación con[Aspose.PSD para Java](./simple-resizing/)Nuestra guía fácil de usar simplifica el proceso de cambio de tamaño y garantiza que comprenda cada detalle. Desde lo básico hasta las técnicas avanzadas, este tutorial lo cubre todo. Sumérgete y transforma tus imágenes sin problemas con Aspose.PSD.
 
 ## Efectos de amplificación: admite modos de fusión
 
@@ -30,7 +30,7 @@ url: /es/java/basic-image-operations/
 
 ## Transparencia revelada: verificar la transparencia de la imagen
 
- Explore el ámbito de la verificación de la transparencia de imágenes con[Aspose.PSD para Java](./verify-image-transparency/). Este tutorial integra a la perfección la transparencia en sus diseños, con documentación detallada y un excelente soporte comunitario. Mejore sus proyectos de diseño con la garantía de una transparencia de imagen verificada utilizando Aspose.PSD para Java.
+ Explore el ámbito de la verificación de la transparencia de imágenes con[Aspose.PSD para Java](./verify-image-transparency/)Este tutorial integra a la perfección la transparencia en sus diseños, con documentación detallada y un excelente soporte comunitario. Mejore sus proyectos de diseño con la garantía de una transparencia de imagen verificada utilizando Aspose.PSD para Java.
 
 En conclusión, estos tutoriales brindan una comprensión integral de las operaciones básicas de imágenes utilizando Aspose.PSD para Java. Ya seas un diseñador novato o experimentado, desbloquea el potencial del diseño gráfico con nuestras guías paso a paso. ¡Sumérgete y deja florecer tu creatividad!
 ## Tutoriales de operaciones básicas de imágenes

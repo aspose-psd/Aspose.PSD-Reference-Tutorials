@@ -63,7 +63,7 @@ colorFillSettings.Color = Color.Green;
 ## ขั้นตอนที่ 3: ตำแหน่งภายนอก
 
 ```csharp
-// เพิ่มการเติมสี ที่ตำแหน่งด้านนอก
+// เพิ่มการเติมสีที่ตำแหน่งด้านนอก
 strokeEffect = psdImage.Layers[2].BlendingOptions.AddStroke(FillType.Color);
 strokeEffect.Size = 7;
 strokeEffect.Position = StrokePosition.Outside;

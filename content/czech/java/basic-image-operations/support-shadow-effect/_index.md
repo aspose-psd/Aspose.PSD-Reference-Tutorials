@@ -99,7 +99,7 @@ A1: Rozhodně! Aspose.PSD for Java je výkonná knihovna určená pro profesion�
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podrobnou dokumentaci?
 
@@ -107,4 +107,4 @@ A1: Rozhodně! Aspose.PSD for Java je výkonná knihovna určená pro profesion�
 
 ### Q5: Jak mohu získat podporu pro Aspose.PSD pro Java?
 
- A5: Připojte se k fóru komunity[tady](https://forum.aspose.com/c/psd/34) pro případné dotazy na podporu.
+ A5: Připojte se k fóru komunity.[tady](https://forum.aspose.com/c/psd/34) pro případné dotazy na podporu.

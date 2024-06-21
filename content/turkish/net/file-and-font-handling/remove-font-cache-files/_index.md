@@ -88,7 +88,7 @@ Cevap2: Mümkün olsa da, uygulamanızda fontla ilgili olası sorunları önleme
 
 ### S4: Aspose.PSD for .NET için geçici bir lisans mevcut mu?
 
- Cevap4: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
+ Cevap4: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
 
 ### S5: .NET için Aspose.PSD'yi satın alabilir miyim?
 

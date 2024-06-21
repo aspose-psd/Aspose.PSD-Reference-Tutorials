@@ -62,7 +62,7 @@ if (!rasterImage.isCached()) {
 
 ## Steg 3: Definiera skiftvärden
 
-Ange skiftvärden för alla fyra sidor av bilden:
+Ange skiftvärdena för alla fyra sidorna av bilden:
 
 ```java
 int leftShift = 10;

@@ -73,11 +73,11 @@ Glückwunsch! Sie haben erfolgreich mit Layer State Effects in Aspose.PSD für .
 
 ### A3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können eine kostenlose Testversion ausprobieren.[Hier](https://releases.aspose.com/).
 
 ### F4: Wie erhalte ich eine temporäre Lizenz?
 
- A4: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+ A4: Besorgen Sie sich eine temporäre Lizenz.[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Benötigen Sie Unterstützung oder haben Sie Fragen?
 

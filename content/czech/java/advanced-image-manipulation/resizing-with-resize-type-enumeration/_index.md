@@ -81,7 +81,7 @@ Odpověď 2: Ano, Aspose.PSD pro Java nabízí různé typy změn velikosti, nap
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD pro Java?
 

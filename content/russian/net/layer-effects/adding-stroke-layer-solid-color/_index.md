@@ -83,7 +83,7 @@ colorStroke.Opacity = 127;
 colorStroke.BlendMode = BlendMode.Color;
 ```
 
-## Шаг 4. Сохраните отредактированное изображение
+## Шаг 4. Сохраните отредактированное изображение.
 
 Сохраните изображение после применения изменений слоя с обводкой:
 
@@ -92,7 +92,7 @@ string exportPath = dataDir + "StrokeGradientChanged.psd";
 im.Save(exportPath);
 ```
 
-## Шаг 5. Проверьте изменения
+## Шаг 5. Проверьте изменения.
 
 Убедитесь, что изменения применены правильно, загрузив и проверив отредактированное изображение:
 
@@ -129,4 +129,4 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 
 ### Вопрос 5: Как я могу получить поддержку Aspose.PSD для .NET?
 
- A5: Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) искать помощи и общаться с сообществом.
+ A5: Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) Чтобы обратиться за помощью и связаться с сообществом.

@@ -71,7 +71,7 @@ A1: No, Aspose.PSD è progettato specificamente per le applicazioni .NET.
 
 ### Q3: Posso provare Aspose.PSD gratuitamente prima di acquistare una licenza?
 
- R3: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso trovare la documentazione dettagliata per Aspose.PSD?
 

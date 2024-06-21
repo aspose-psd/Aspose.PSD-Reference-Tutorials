@@ -81,7 +81,7 @@ R1: Sí, Bradley Thresholding es una técnica versátil adecuada para varios tip
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puede explorar una prueba gratuita de Aspose.PSD para .NET[aquí](https://releases.aspose.com/).
+ R3: Sí, puede explorar una prueba gratuita de Aspose.PSD para .NET.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD?
 
@@ -89,4 +89,4 @@ R1: Sí, Bradley Thresholding es una técnica versátil adecuada para varios tip
 
 ### P5: ¿Dónde puedo comprar una licencia para Aspose.PSD?
 
- R5: Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+ R5: Puedes comprar una licencia.[aquí](https://purchase.aspose.com/buy).

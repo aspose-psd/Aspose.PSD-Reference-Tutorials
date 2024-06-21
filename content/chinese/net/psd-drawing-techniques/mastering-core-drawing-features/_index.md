@@ -93,11 +93,11 @@ image.Save(outpath, new BmpOptions());
 
 ### Q1：在哪里可以找到 Aspose.PSD for .NET 文档？
 
- A1：您可以访问文档[这里](https://reference.aspose.com/psd/net/).
+ A1：您可以访问文档。[这里](https://reference.aspose.com/psd/net/).
 
 ### Q2：如何下载 Aspose.PSD for .NET？
 
-A2：下载最新版本[这里](https://releases.aspose.com/psd/net/).
+ A2：下载最新版本。[这里](https://releases.aspose.com/psd/net/).
 
 ### Q3：哪里可以购买 Aspose.PSD for .NET？
 
@@ -105,7 +105,7 @@ A2：下载最新版本[这里](https://releases.aspose.com/psd/net/).
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+ A4: 是的，您可以获得免费试用。[这里](https://releases.aspose.com/).
 
 ### 问题 5：在哪里可以获得 Aspose.PSD for .NET 的支持？
 

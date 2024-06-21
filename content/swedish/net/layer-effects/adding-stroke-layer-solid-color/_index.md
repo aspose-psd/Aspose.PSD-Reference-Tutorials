@@ -9,7 +9,7 @@ url: /sv/net/layer-effects/adding-stroke-layer-solid-color/
 ---
 ## Introduktion
 
-När det gäller .NET-utveckling är det ett vanligt krav att skapa visuellt tilltalande bilder. Aspose.PSD för .NET tillhandahåller en kraftfull uppsättning verktyg för att manipulera och förbättra bilder sömlöst. En av de väsentliga funktionerna är att lägga till ett strecklager med enfärgad färg, vilket ger liv och djup till dina bilder. I denna handledning guidar vi dig genom processen steg för steg med Aspose.PSD för .NET.
+När det gäller .NET-utveckling är det ett vanligt krav att skapa visuellt tilltalande bilder. Aspose.PSD för .NET tillhandahåller en kraftfull uppsättning verktyg för att manipulera och förbättra bilder sömlöst. En av de väsentliga funktionerna är att lägga till ett strecklager med enfärgad färg, vilket ger liv och djup till dina bilder. I den här handledningen guidar vi dig genom processen steg för steg med Aspose.PSD för .NET.
 
 ## Förutsättningar
 

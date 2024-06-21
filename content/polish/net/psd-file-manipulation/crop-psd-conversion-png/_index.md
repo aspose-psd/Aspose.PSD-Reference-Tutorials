@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Utwórz instancję klasy PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Krok 5: Zapisz przycięty obraz jako PNG
+## Krok 5: Zapisz przycięty obraz jako PNG.
 ```csharp
 // Wywołaj metodę save, podaj ścieżkę wyjściową i PngOptions, aby przekonwertować plik PSD na PNG i zapisać wynik
 string destName = dataDir + @"export.png";

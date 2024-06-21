@@ -51,7 +51,7 @@ V tomto kroku inicializujeme instanci třídy PsdImage a objekt Graphics pro pr�
 ## Krok 2: Vytvoření GraphicsPath a obrázku
 
 ```csharp
-// Vytvořte instanci GraphicsPath a Instance of Figure, přidejte do obrázku EllipseShape, RectangleShape a TextShape
+// Vytvořte instanci GraphicsPath a Instance of Figure, přidejte do obrázku EllipseShape, RectangleShape a TextShape.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ Odpověď 4: Ano, Aspose.PSD for .NET poskytuje funkce pro práci s vrstvami v s
 
 ### Q5: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A5: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
+ A5: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).

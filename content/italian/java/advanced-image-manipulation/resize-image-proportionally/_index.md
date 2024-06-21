@@ -82,7 +82,7 @@ In questo tutorial, abbiamo trattato i passaggi essenziali per ridimensionare le
 
 ### Q3: Sono disponibili licenze temporanee a scopo di test?
 
- R3: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) Per la valutazione.
+ R3: Sì, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/) Per la valutazione.
 
 ### Q4: Dove posso trovare supporto per Aspose.PSD?
 

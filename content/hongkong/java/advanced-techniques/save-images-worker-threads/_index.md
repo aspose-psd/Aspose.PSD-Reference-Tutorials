@@ -106,11 +106,11 @@ A1：是的，Aspose.PSD for Java 提供了對多執行緒的支持，可讓您�
 
 ### Q2：在哪裡可以找到 Aspose.PSD for Java 的詳細文件？
 
- A2：可以參考文檔[這裡](https://reference.aspose.com/psd/java/)有關 Aspose.PSD for Java 的全面資訊。
+ A2：您可以參考文件。[這裡](https://reference.aspose.com/psd/java/)有關 Aspose.PSD for Java 的全面資訊。
 
 ### Q3：如何取得 Aspose.PSD for Java 的臨時授權？
 
- A3：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)探索 Aspose.PSD for Java 的全部功能。
+ A3：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/)探索 Aspose.PSD for Java 的全部功能。
 
 ### 問題 4：Aspose.PSD for Java 有哪些支援選項？
 

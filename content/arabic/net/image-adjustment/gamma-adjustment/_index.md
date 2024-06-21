@@ -88,16 +88,16 @@ rasterImage.Save(destName, tiffOptions);
 
 ### س2: كيف يمكنني تنزيل Aspose.PSD لـ .NET؟
 
- ج2: يمكنك تنزيل المكتبة[هنا](https://releases.aspose.com/psd/net/).
+ ج2: يمكنك تنزيل المكتبة.[هنا](https://releases.aspose.com/psd/net/).
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني الحصول على الدعم لـ Aspose.PSD؟
 
- ج4: يمكنك زيارة منتدى الدعم[هنا](https://forum.aspose.com/c/psd/34).
+ ج4: يمكنك زيارة منتدى الدعم.[هنا](https://forum.aspose.com/c/psd/34).
 
 ### س5: هل أحتاج إلى ترخيص مؤقت؟
 
- ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).

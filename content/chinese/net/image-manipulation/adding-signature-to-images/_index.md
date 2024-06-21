@@ -102,4 +102,4 @@ A3：您可以实现 try-catch 块来优雅地处理异常。
 
 ### Q5: 我可以在购买前试用Aspose.PSD吗？
 
- A5: 当然，可以免费试用[这里](https://releases.aspose.com/).
+ A5: 当然，可以免费试用。[这里](https://releases.aspose.com/).

@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // PngOptions sınıfının bir örneğini oluşturun
 PngOptions pngOptions = new PngOptions();
 ```
-## Adım 5: Kırpılan Resmi PNG olarak kaydedin
+## Adım 5: Kırpılan Resmi PNG olarak kaydedin.
 ```csharp
 // Kaydetme yöntemini çağırın, çıktı yolunu sağlayın ve PSD dosyasını PNG'ye dönüştürmek ve çıktıyı kaydetmek için PngOptions'ı kullanın.
 string destName = dataDir + @"export.png";

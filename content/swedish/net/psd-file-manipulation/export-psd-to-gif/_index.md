@@ -67,4 +67,4 @@ S1: Ja, Aspose.PSD för .NET stöder export av animerade PSD:er till olika forma
 
 ### F5: Var kan jag köpa Aspose.PSD för .NET?
 
- S5: För att köpa biblioteket, besök[köpsidan](https://purchase.aspose.com/buy).
+ A5: För att köpa biblioteket, besök[köpsidan](https://purchase.aspose.com/buy).

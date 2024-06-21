@@ -59,7 +59,7 @@ psdImage.Save(outputFile);
 File.Delete(outputFile);
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
-このステップバイステップのガイドでは、Aspose.PSD を使用した PSD 画像タイムライン プロパティの .NET プロジェクトへのシームレスな統合について概要を説明します。
+このステップバイステップ ガイドでは、Aspose.PSD を使用した PSD 画像タイムライン プロパティの .NET プロジェクトへのシームレスな統合について概要を説明します。
 ## 結論
 
 Aspose.PSD for .NET は、開発者が PSD 画像の可能性を最大限に引き出すことを可能にします。 PSD 画像タイムライン プロパティは、プロジェクトにダイナミズムのレイヤーを追加し、画像操作における創造的な可能性を提供します。

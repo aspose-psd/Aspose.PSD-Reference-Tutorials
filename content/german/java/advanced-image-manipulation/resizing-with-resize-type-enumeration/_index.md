@@ -63,7 +63,7 @@ image.save(destName, new JpegOptions());
 
 Und da haben Sie es! Sie haben die Größe eines Bildes mithilfe der Resize Type Enumeration in Aspose.PSD für Java erfolgreich geändert.
 
-Zusammenfassend lässt sich sagen, dass Aspose.PSD für Java eine robuste Plattform für die Bildbearbeitung bietet und die Resize Type Enumeration diesem Prozess eine zusätzliche Ebene an Flexibilität verleiht. Egal, ob Sie an einem kleinen Projekt oder einer großen Anwendung arbeiten: Wenn Sie diese Schritte beherrschen, können Sie die Bildgröße nahtlos ändern.
+Zusammenfassend lässt sich sagen, dass Aspose.PSD für Java eine robuste Plattform für die Bildbearbeitung bietet und die Resize Type Enumeration diesem Prozess eine zusätzliche Ebene an Flexibilität verleiht. Unabhängig davon, ob Sie an einem kleinen Projekt oder einer groß angelegten Anwendung arbeiten: Wenn Sie diese Schritte beherrschen, können Sie die Bildgröße nahtlos ändern.
 
 ## FAQs
 
@@ -73,7 +73,7 @@ A1: Auf jeden Fall! Aspose.PSD für Java ist für Projekte jeder Größe konzipi
 
 ### F2: Kann ich einen anderen Größenänderungstyp als Lanczos Resample verwenden?
 
-A2: Ja, Aspose.PSD für Java bietet verschiedene Größenänderungstypen, wie „Nearest Neighbour“, „Bikubisch“ und mehr. Eine umfassende Liste finden Sie in der Dokumentation.
+A2: Ja, Aspose.PSD für Java bietet verschiedene Größenänderungstypen, wie „Nächster Nachbar“, „Bikubisch“ und mehr. Eine umfassende Liste finden Sie in der Dokumentation.
 
 ### F3: Wo finde ich zusätzliche Unterstützung für Aspose.PSD für Java?
 
@@ -81,7 +81,7 @@ A2: Ja, Aspose.PSD für Java bietet verschiedene Größenänderungstypen, wie �
 
 ### F4: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
 
- A4: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können auf eine kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.PSD für Java erhalten?
 

@@ -93,20 +93,20 @@ Gratulacje! Pomyślnie nauczyłeś się rysować łuki przy użyciu Aspose.PSD d
 
 ### P1: Gdzie mogę znaleźć dokumentację Aspose.PSD dla .NET?
 
- Odpowiedź 1: Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/psd/net/).
+ Odpowiedź 1: Można znaleźć dokumentację.[Tutaj](https://reference.aspose.com/psd/net/).
 
 ### P2: Jak uzyskać tymczasową licencję na Aspose.PSD?
 
- Odpowiedź 2: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 2: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P3: Czy istnieje forum społecznościowe dotyczące wsparcia Aspose.PSD?
 
- A3: Tak, możesz odwiedzić[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+ A3: Tak, możesz odwiedzić[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
 
 ### P4: Gdzie mogę kupić licencję na Aspose.PSD?
 
- A4: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+ A4: Możesz kupić licencję.[Tutaj](https://purchase.aspose.com/buy).
 
 ### P5: Czy przed zakupem mogę bezpłatnie wypróbować Aspose.PSD dla .NET?
 
- Odpowiedź 5: Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 5: Tak, możesz pobrać bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).

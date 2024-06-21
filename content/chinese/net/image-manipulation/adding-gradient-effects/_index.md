@@ -9,7 +9,7 @@ url: /zh/net/image-manipulation/adding-gradient-effects/
 ---
 ## 介绍
 
-使用渐变效果增强图像可以为您的视觉内容添加迷人的维度。 Aspose.PSD for .NET 提供了一个强大的平台，可以将渐变叠加合并到图像中。在本教程中，我们将指导您完成使用 Aspose.PSD for .NET 添加渐变效果的过程。
+使用渐变效果增强图像可以为您的视觉内容添加迷人的维度。 Aspose.PSD for .NET 提供了一个强大的平台，用于将渐变叠加集成到图像中。在本教程中，我们将指导您完成使用 Aspose.PSD for .NET 添加渐变效果的过程。
 
 ## 先决条件
 
@@ -139,7 +139,7 @@ A2：Aspose.PSD for .NET支持各种图像文件格式，包括PSD、PNG、JPEG�
 
 ### Q3：Aspose.PSD for .NET 有试用版吗？
 
- A3：是的，您可以通过下载免费试用版来探索 Aspose.PSD for .NET 的功能[这里](https://releases.aspose.com/).
+A3：是的，您可以通过下载免费试用版来探索 Aspose.PSD for .NET 的功能[这里](https://releases.aspose.com/).
 
 ### 问题 4：如何获得 Aspose.PSD for .NET 支持？
 

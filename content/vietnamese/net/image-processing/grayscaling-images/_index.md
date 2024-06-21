@@ -23,7 +23,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có
 
 ## Nhập không gian tên
 
-Trong dự án .NET của bạn, hãy nhập các vùng tên cần thiết để sử dụng các chức năng Aspose.PSD:
+Trong dự án .NET của bạn, hãy nhập các vùng tên cần thiết để sử dụng các chức năng của Aspose.PSD:
 
 ```csharp
 using Aspose.PSD.ImageOptions;

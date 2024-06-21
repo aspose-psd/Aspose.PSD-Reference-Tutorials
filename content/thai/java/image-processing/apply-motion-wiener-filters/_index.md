@@ -37,7 +37,7 @@ import com.aspose.psd.imageoptions.GifOptions;
 
 เมื่อเตรียมแพ็คเกจเรียบร้อยแล้ว คุณก็พร้อมที่จะใช้ฟิลเตอร์ Motion Wiener กับรูปภาพแล้ว
 
-## ขั้นตอนที่ 1: โหลดรูปภาพ
+## ขั้นตอนที่ 1: โหลดภาพ
 
 ```java
 String dataDir = "Your Document Directory";

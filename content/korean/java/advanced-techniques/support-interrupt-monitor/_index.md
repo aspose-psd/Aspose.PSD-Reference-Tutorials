@@ -11,7 +11,7 @@ url: /ko/java/advanced-techniques/support-interrupt-monitor/
 
 Java 개발 영역에서 Aspose.PSD는 다양한 이미지 처리 작업을 처리하는 강력한 도구로 돋보입니다. 많은 기능 중에서 인터럽트 모니터에 대한 지원은 개발자가 이미지 처리 워크플로우에 대해 갖는 제어력과 유연성을 향상시키는 중요한 측면입니다. 이 튜토리얼에서는 이미지 변환 프로세스를 효과적으로 관리하고 중단하기 위해 Java용 Aspose.PSD의 인터럽트 모니터를 활용하는 방법을 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 인터럽트 모니터 사용법의 복잡성을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하십시오.
 
@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-이제 예제 코드를 Aspose.PSD for Java 프로젝트에 인터럽트 모니터를 통합하기 위한 단계별 가이드로 나누어 보겠습니다.
+이제 예제 코드를 Aspose.PSD for Java 프로젝트에 Interrupt Monitor를 통합하기 위한 단계별 가이드로 나누어 보겠습니다.
 
 ## 1단계: 문서 디렉터리 설정
 
@@ -110,7 +110,7 @@ A2: Java 라이브러리용 Aspose.PSD를 다운로드할 수 있습니다.[여�
 
 ### Q3: Aspose.PSD for Java에 대한 무료 평가판이 있습니까?
 
- A3: 예, Aspose.PSD 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+ A3: 예, Aspose.PSD의 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: Java용 Aspose.PSD에 대한 지원은 어디서 찾을 수 있나요?
 

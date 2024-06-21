@@ -71,7 +71,7 @@ A1: Tidak, Aspose.PSD dirancang khusus untuk aplikasi .NET.
 
 ### Q3: Dapatkah saya mencoba Aspose.PSD secara gratis sebelum membeli lisensi?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD?
 

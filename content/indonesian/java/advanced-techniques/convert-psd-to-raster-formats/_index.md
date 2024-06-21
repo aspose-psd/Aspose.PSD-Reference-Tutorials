@@ -1,7 +1,7 @@
 ---
 title: Konversi PSD ke Format Gambar Raster dengan Aspose.PSD untuk Java
 linktitle: Konversi PSD ke Format Gambar Raster
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Konversi file PSD ke gambar raster dengan mudah menggunakan Aspose.PSD untuk Java. Jelajahi panduan langkah demi langkah, opsi ekspor serbaguna, dan integrasi yang lancar.
 type: docs
 weight: 12

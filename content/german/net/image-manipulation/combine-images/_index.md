@@ -102,8 +102,8 @@ A2: Ja, Aspose.PSD kann sowohl für persönliche als auch kommerzielle Zwecke ve
 
 ### F4: Gibt es eine kostenlose Testversion für Aspose.PSD?
 
- A4: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F5: Kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
 
-A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+A5: Ja, Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/).

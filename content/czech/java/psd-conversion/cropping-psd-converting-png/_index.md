@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Krok 3: Definujte oblast oříznutí
 ```java
-// Vytvořte instanci třídy Rectangle předáním x, y, šířky a výšky
+//Vytvořte instanci třídy Rectangle předáním x, y, šířky a výšky
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Krok 4: Ořízněte obrázek PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Vytvořte instanci třídy PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Krok 6: Uložte oříznutý obrázek jako PNG
+## Krok 6: Uložte oříznutý obrázek jako PNG.
 ```java
 // Poskytněte výstupní cestu a PngOptions pro převod souboru PSD na PNG a uložení výstupu
 String destName = dataDir + "export.png";

@@ -40,7 +40,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 string sourceFile = dataDir + @"sample.psd";
 
-//Aspose.PSD を使用して PSD ファイルをロードします
+// Aspose.PSD を使用して PSD ファイルをロードします
 using (var image = (PsdImage)Image.Load(sourceFile))
 {
     //さらなるステップのコードはここにあります
@@ -74,13 +74,13 @@ rasterImage.Save(destName, tiffOptions);
 
 ## 結論
 
-Aspose.PSD for .NET は、PSD ファイルに明るさ調整を実装するプロセスを簡素化します。上記のステップバイステップのガイドに従うことで、画像の視覚的な魅力を簡単に高めることができます。望ましい結果を得るには、さまざまな明るさの値を試してください。
+Aspose.PSD for .NET は、PSD ファイルに明るさ調整を実装するプロセスを簡素化します。上記のステップバイステップのガイドに従うことで、画像の視覚的な魅力を簡単に高めることができます。望ましい結果を得るために、さまざまな明るさの値を試してください。
 
 ## よくある質問
 
 ### Q1: Aspose.PSD for .NET のドキュメントはどこで見つけられますか?
 
- A1: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/net/).
+ A1: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/net/).
 
 ### Q2: .NET ライブラリ用の Aspose.PSD をダウンロードするにはどうすればよいですか?
 
@@ -96,4 +96,4 @@ Aspose.PSD for .NET は、PSD ファイルに明るさ調整を実装するプ�
 
 ### Q5: Aspose.PSD for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
- A5: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: 仮免許の取得は可能です。[ここ](https://purchase.aspose.com/temporary-license/).

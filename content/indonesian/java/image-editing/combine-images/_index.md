@@ -1,7 +1,7 @@
 ---
 title: Gabungkan Gambar menggunakan Aspose.PSD untuk Java
 linktitle: Gabungkan Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggabungkan gambar di Java dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk kombinasi gambar yang mulus.
 type: docs
 weight: 11
@@ -106,7 +106,7 @@ A2: Tentu saja! Setelah menggabungkan gambar, Anda dapat memanipulasi lebih lanj
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda dapat menjelajahi Aspose.PSD dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi Aspose.PSD dengan uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.PSD?
 

@@ -8,7 +8,7 @@ weight: 11
 url: /fr/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Introduction
-Bienvenue dans notre guide étape par étape sur l'utilisation de la fonctionnalité Border Information Resource dans Aspose.PSD pour .NET. Dans ce didacticiel, nous vous guiderons tout au long du processus d'utilisation des ressources d'informations frontalières à l'aide d'Aspose.PSD, une puissante bibliothèque d'imagerie .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce didacticiel vise à clarifier l'intégration transparente des ressources d'informations frontalières dans vos projets.
+Bienvenue dans notre guide étape par étape sur l'utilisation de la fonctionnalité Border Information Resource dans Aspose.PSD pour .NET. Dans ce didacticiel, nous vous guiderons tout au long du processus d'utilisation des ressources d'informations frontalières à l'aide d'Aspose.PSD, une puissante bibliothèque d'imagerie .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce didacticiel vise à clarifier l'intégration transparente des ressources d'information frontalières dans vos projets.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants :
 -  Aspose.PSD pour .NET : assurez-vous que la bibliothèque Aspose.PSD est installée. Vous pouvez le télécharger depuis le[Site Web Aspose.PSD](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec divers frameworks .NET.
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir de l'aide ?
 
@@ -88,4 +88,4 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec divers frameworks .NET.
 
 ### Q5 : Des licences temporaires sont-elles disponibles ?
 
- A5 : Oui, vous pouvez obtenir des licences temporaires[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, vous pouvez obtenir des licences temporaires.[ici](https://purchase.aspose.com/temporary-license/).

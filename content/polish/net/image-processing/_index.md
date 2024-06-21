@@ -31,7 +31,7 @@ Aspose.PSD dla .NET umożliwia programistom wzniesienie przetwarzania obrazu na 
  Nasz[instruktaż](./apply-bradley-threshold/) wprowadza próg Bradleya w Aspose.PSD dla .NET. Ulepsz segmentację obrazu dzięki tej skutecznej technice binaryzacji. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wykorzystać tę zaawansowaną funkcję.
 
 ## Wniosek
-Dzięki samouczkom Aspose.PSD dla .NET przetwarzanie obrazu staje się formą sztuki. Podnieś poziom swoich projektów dzięki tym technikom i pozwól, aby Twoje efekty wizualne mówiły głośno. Odwiedź naszą listę samouczków Aspose.PSD dla .NET, aby uzyskać bardziej szczegółowe przewodniki i uwolnić pełny potencjał przetwarzania obrazu w swoich aplikacjach.
+Dzięki samouczkom Aspose.PSD dla .NET przetwarzanie obrazu staje się formą sztuki. Podnieś poziom swoich projektów dzięki tym technikom i pozwól, aby Twoje efekty wizualne przemówiły. Odwiedź naszą listę samouczków Aspose.PSD dla .NET, aby uzyskać bardziej szczegółowe przewodniki i uwolnić pełny potencjał przetwarzania obrazu w swoich aplikacjach.
 
 ## Poradniki dotyczące przetwarzania obrazu
 ### [Stosowanie filtrów Gaussa i Wienera w Aspose.PSD dla .NET](./apply-gaussian-wiener-filters/)

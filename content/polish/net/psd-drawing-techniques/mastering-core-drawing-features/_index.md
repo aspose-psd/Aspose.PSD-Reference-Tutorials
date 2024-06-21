@@ -93,11 +93,11 @@ Gratulacje! Opanowałeś podstawowe funkcje rysowania Aspose.PSD dla .NET. Ten s
 
 ### P1: Gdzie mogę znaleźć dokumentację Aspose.PSD dla .NET?
 
- Odpowiedź 1: Możesz uzyskać dostęp do dokumentacji[Tutaj](https://reference.aspose.com/psd/net/).
+ Odpowiedź 1: Możesz uzyskać dostęp do dokumentacji.[Tutaj](https://reference.aspose.com/psd/net/).
 
 ### P2: Jak pobrać Aspose.PSD dla .NET?
 
- A2: Pobierz najnowszą wersję[Tutaj](https://releases.aspose.com/psd/net/).
+ A2: Pobierz najnowszą wersję.[Tutaj](https://releases.aspose.com/psd/net/).
 
 ### P3: Gdzie mogę kupić Aspose.PSD dla .NET?
 
@@ -105,7 +105,7 @@ Gratulacje! Opanowałeś podstawowe funkcje rysowania Aspose.PSD dla .NET. Ten s
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- A4: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ A4: Tak, możesz uzyskać bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Gdzie mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 

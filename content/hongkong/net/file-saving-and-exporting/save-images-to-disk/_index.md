@@ -85,8 +85,8 @@ A1：是的，Aspose.PSD 支援多種影像格式，確保您的開發專案的�
 
 ### Q4：如何取得臨時駕照？
 
- A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：哪裡可以購買 Aspose.PSD for .NET？
 
- A5：您可以購買 Aspose.PSD for .NET[這裡](https://purchase.aspose.com/buy).
+ A5：您可以購買 Aspose.PSD for .NET。[這裡](https://purchase.aspose.com/buy).

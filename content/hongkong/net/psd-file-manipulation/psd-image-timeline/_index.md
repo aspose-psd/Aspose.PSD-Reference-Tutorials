@@ -71,7 +71,7 @@ A1：不，Aspose.PSD 是專門為 .NET 應用程式設計的。
 
 ### Q3：我可以在購買許可證之前免費試用Aspose.PSD嗎？
 
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
 
 ### Q4：哪裡可以找到Aspose.PSD的詳細文件？
 

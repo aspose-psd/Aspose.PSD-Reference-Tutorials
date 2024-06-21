@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Schritt 5: Komprimiertes GIF speichern
+## Schritt 5: Komprimiertes GIF speichern.
 
  Speichern Sie das komprimierte GIF-Bild mit`image.save` Methode mit der angegebenen`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD für Java ist eine leistungsstarke Bibliothek für die Arbeit mit 
 
 ### F3: Wo finde ich die Dokumentation für Aspose.PSD für Java?
 
-A3: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/psd/java/).
+A3: Die Dokumentation ist verfügbar.[Hier](https://reference.aspose.com/psd/java/).
 
 ### F4: Gibt es eine kostenlose Testversion?
 
- A4: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F5: Wie kann ich Aspose.PSD für Java kaufen?
 
- A5: Sie können die Bibliothek kaufen[Hier](https://purchase.aspose.com/buy).
+ A5: Sie können die Bibliothek kaufen.[Hier](https://purchase.aspose.com/buy).

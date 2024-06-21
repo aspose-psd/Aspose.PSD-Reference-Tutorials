@@ -1,6 +1,6 @@
 ---
 title: Implementace Gamma Adjustment v Aspose.PSD pro .NET
-linktitle: Provádění Gamma Adjustment
+linktitle: Implementace Gamma Adjustment
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte sílu Aspose.PSD pro .NET pomocí našeho podrobného průvodce implementací Gamma Adjustment. Bez námahy dolaďte jas a kontrast obrazu.
 type: docs
@@ -88,16 +88,16 @@ Gratulujeme! Úspěšně jste implementovali Gamma Adjustment pomocí Aspose.PSD
 
 ### Q2: Jak stáhnu Aspose.PSD pro .NET?
 
- A2: Můžete si stáhnout knihovnu[tady](https://releases.aspose.com/psd/net/).
+ A2: Můžete si stáhnout knihovnu.[tady](https://releases.aspose.com/psd/net/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde mohu získat podporu pro Aspose.PSD?
 
- A4: Můžete navštívit fórum podpory[tady](https://forum.aspose.com/c/psd/34).
+ A4: Můžete navštívit fórum podpory.[tady](https://forum.aspose.com/c/psd/34).
 
 ### Q5: Potřebuji dočasnou licenci?
 
- A5: V případě potřeby můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: V případě potřeby můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

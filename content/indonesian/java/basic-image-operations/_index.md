@@ -1,7 +1,7 @@
 ---
 title: Operasi Gambar Dasar
 linktitle: Operasi Gambar Dasar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Tingkatkan keterampilan desain grafis Anda dengan Aspose.PSD untuk tutorial Java. Pelajari menggambar, mengubah ukuran, mode campuran, dan verifikasi transparansi dalam panduan langkah demi langkah.
 type: docs
 weight: 25
@@ -18,7 +18,7 @@ Apakah Anda siap untuk membuka rahasia desain grafis? Selami dunia manipulasi ga
 
 ## Mengubah Ukuran Menjadi Sederhana
 
- Memanipulasi ukuran gambar secara terprogram secara efisien dengan[Aspose.PSD untuk Java](./simple-resizing/). Panduan ramah pengguna kami menyederhanakan proses pengubahan ukuran, memastikan Anda memahami setiap detail. Dari teknik dasar hingga lanjutan, tutorial ini mencakup semuanya. Selami dan ubah gambar Anda secara mulus dengan Aspose.PSD.
+ Memanipulasi ukuran gambar secara terprogram secara efisien dengan[Aspose.PSD untuk Java](./simple-resizing/)Panduan ramah pengguna kami menyederhanakan proses pengubahan ukuran, memastikan Anda memahami setiap detail. Dari teknik dasar hingga lanjutan, tutorial ini mencakup semuanya. Selami dan ubah gambar Anda secara mulus dengan Aspose.PSD.
 
 ## Memperkuat Efek: Mendukung Mode Campuran
 
@@ -30,7 +30,7 @@ Apakah Anda siap untuk membuka rahasia desain grafis? Selami dunia manipulasi ga
 
 ## Transparansi Diungkap: Verifikasi Transparansi Gambar
 
- Jelajahi bidang verifikasi transparansi gambar dengan[Aspose.PSD untuk Java](./verify-image-transparency/). Tutorial ini dengan mulus mengintegrasikan transparansi ke dalam desain Anda, dengan dokumentasi terperinci dan dukungan komunitas yang sangat baik. Tingkatkan proyek desain Anda dengan jaminan transparansi gambar terverifikasi menggunakan Aspose.PSD untuk Java.
+ Jelajahi bidang verifikasi transparansi gambar dengan[Aspose.PSD untuk Java](./verify-image-transparency/)Tutorial ini dengan mulus mengintegrasikan transparansi ke dalam desain Anda, dengan dokumentasi terperinci dan dukungan komunitas yang sangat baik. Tingkatkan proyek desain Anda dengan jaminan transparansi gambar terverifikasi menggunakan Aspose.PSD untuk Java.
 
 Kesimpulannya, tutorial ini memberikan pemahaman holistik tentang operasi gambar dasar menggunakan Aspose.PSD untuk Java. Baik Anda seorang pemula atau desainer berpengalaman, buka potensi desain grafis dengan panduan langkah demi langkah kami. Selami dan biarkan kreativitas Anda berkembang!
 ## Tutorial Pengoperasian Gambar Dasar

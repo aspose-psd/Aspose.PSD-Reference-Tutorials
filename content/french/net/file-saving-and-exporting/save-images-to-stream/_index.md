@@ -82,11 +82,11 @@ Toutes nos félicitations! Vous avez appris avec succès comment enregistrer des
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/)pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.
+ A3 : Oui, vous pouvez bénéficier d’un essai gratuit.[ici](https://releases.aspose.com/)pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.
 
 ### Q4 : Comment puis-je obtenir une licence temporaire ?
 
- A4 : Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests et d’évaluation.
+ A4 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests et d’évaluation.
 
 ### Q5 : Où puis-je acheter Aspose.PSD ?
 

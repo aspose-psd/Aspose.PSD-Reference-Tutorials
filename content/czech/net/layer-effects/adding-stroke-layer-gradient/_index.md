@@ -106,7 +106,7 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A2: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A2: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q3: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -118,4 +118,4 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 
 ### Q5: Jak mohu zakoupit licenci pro Aspose.PSD pro .NET?
 
- A5: Můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).

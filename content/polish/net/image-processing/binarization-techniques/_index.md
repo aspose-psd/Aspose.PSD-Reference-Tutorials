@@ -103,4 +103,4 @@ Odpowiedź 3: Buforowanie poprawia wydajność poprzez przechowywanie danych obr
 
 ### P5: Czy dostępna jest wersja próbna Aspose.PSD?
 
- A5: Tak, możesz uzyskać dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/)aby poznać funkcje Aspose.PSD przed dokonaniem zakupu.
+ O5: Tak, możesz uzyskać dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/)aby poznać funkcje Aspose.PSD przed dokonaniem zakupu.

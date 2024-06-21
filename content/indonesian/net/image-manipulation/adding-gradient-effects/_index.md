@@ -9,7 +9,7 @@ url: /id/net/image-manipulation/adding-gradient-effects/
 ---
 ## Perkenalan
 
-Menyempurnakan gambar dengan efek gradien dapat menambah dimensi menawan pada konten visual Anda. Aspose.PSD untuk .NET menyediakan platform yang kuat untuk menggabungkan overlay gradien ke dalam gambar Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan efek gradien menggunakan Aspose.PSD untuk .NET.
+Menyempurnakan gambar dengan efek gradien dapat menambah dimensi menawan pada konten visual Anda. Aspose.PSD untuk .NET menyediakan platform yang kuat untuk mengintegrasikan overlay gradien ke dalam gambar Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan efek gradien menggunakan Aspose.PSD untuk .NET.
 
 ## Prasyarat
 
@@ -139,7 +139,7 @@ A2: Aspose.PSD untuk .NET mendukung berbagai format file gambar, termasuk PSD, P
 
 ### Q3: Apakah ada versi uji coba yang tersedia untuk Aspose.PSD untuk .NET?
 
- A3: Ya, Anda dapat menjelajahi kemampuan Aspose.PSD untuk .NET dengan mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat menjelajahi kemampuan Aspose.PSD untuk .NET dengan mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 

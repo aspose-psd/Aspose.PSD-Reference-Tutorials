@@ -82,11 +82,11 @@ using (Image image = Image.Load(sourceFile))
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/)para explorar las características de Aspose.PSD antes de realizar una compra.
+ R3: Sí, puedes obtener una prueba gratuita.[aquí](https://releases.aspose.com/)para explorar las funciones de Aspose.PSD antes de realizar una compra.
 
 ### P4: ¿Cómo puedo obtener una licencia temporal?
 
- R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para fines de prueba y evaluación.
+ R4: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para fines de prueba y evaluación.
 
 ### P5: ¿Dónde puedo comprar Aspose.PSD?
 

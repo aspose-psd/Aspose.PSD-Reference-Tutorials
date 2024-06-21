@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## Krok 2: Upravte Gamma
 
- Nyní upravte gama načteného obrázku pomocí`adjustGamma` metoda. Dolaďte hodnoty gama podle svých požadavků.
+ Nyní upravte gama načteného obrázku pomocí`adjustGamma` metoda. Dolaďte hodnoty gama podle vašich požadavků.
 
 ```java
 // Upravte gama

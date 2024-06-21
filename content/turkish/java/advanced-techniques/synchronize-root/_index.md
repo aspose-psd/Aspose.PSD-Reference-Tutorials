@@ -82,7 +82,7 @@ Cevap1: Evet, Aspose.PSD for Java, Java sürüm 6 ve üzeri ile uyumludur.
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, adresini ziyaret ederek Aspose.PSD'nin ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ C4: Evet, Aspose.PSD'nin ücretsiz deneme sürümünü ziyaret ederek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD için nasıl geçici lisans alabilirim?
 

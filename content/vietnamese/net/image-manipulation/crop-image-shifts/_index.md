@@ -59,7 +59,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     }
 ```
 
-## Bước 4: Xác định giá trị thay đổi để cắt xén
+## Bước 4: Xác định giá trị Shift để cắt xén
 
 Chỉ định các giá trị dịch chuyển cho các cạnh trái, phải, trên và dưới của hình ảnh. Điều chỉnh các giá trị này dựa trên yêu cầu cắt xén của bạn.
 
@@ -96,7 +96,7 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 
 ### Câu hỏi 3: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
- Câu trả lời 3: Bạn có thể lấy giấy phép tạm thời cho mục đích thử nghiệm[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 3: Bạn có thể lấy giấy phép tạm thời cho mục đích thử nghiệm.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 4: Tôi có thể tìm thêm hỗ trợ và thảo luận liên quan đến Aspose.PSD ở đâu?
 

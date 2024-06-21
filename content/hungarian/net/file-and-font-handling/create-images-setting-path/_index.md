@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Győződjön meg arról, hogy az Aspose.PSD könyvtár telepítve van a projektben. A dokumentációt megtalálod[itt](https://reference.aspose.com/psd/net/).
+Győződjön meg arról, hogy az Aspose.PSD könyvtár telepítve van a projektben. A dokumentációt megtalálod[itt](https://reference.aspose.com/psd/net/).
 
 ## 1. lépés: Határozza meg a dokumentumkönyvtárat
 
@@ -93,7 +93,7 @@ A2: Abszolút! Az Aspose.PSD lehetővé teszi a kötegelt képfeldolgozást, íg
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, hozzáférhet az Aspose.PSD ingyenes próbaverziójához[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az Aspose.PSD ingyenes próbaverziójához.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget?
 

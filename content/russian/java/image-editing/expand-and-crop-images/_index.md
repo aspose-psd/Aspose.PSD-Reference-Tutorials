@@ -50,7 +50,7 @@ String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Шаг 3. Загрузите и кэшируйте изображение
+## Шаг 3. Загрузите и кэшируйте изображение.
 
  Загрузите PSD-файл в`RasterImage` объект и кэшировать его данные.
 
@@ -69,7 +69,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 
 ## Шаг 5. Сохраните обрезанное изображение
 
- Сохраните обрезанное изображение, используя определенный прямоугольник и`JpegOptions` сорт.
+ Сохраните обрезанное изображение, используя определенный прямоугольник и`JpegOptions` класс.
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);

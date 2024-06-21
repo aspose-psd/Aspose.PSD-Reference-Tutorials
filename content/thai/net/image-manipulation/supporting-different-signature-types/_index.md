@@ -66,7 +66,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### คำถามที่ 2: ฉันจะดาวน์โหลดไลบรารี Aspose.PSD สำหรับ .NET ได้อย่างไร
 
- A2: คุณสามารถดาวน์โหลดได้จาก[ลิงค์นี้](https://releases.aspose.com/psd/net/).
+ A2:คุณสามารถดาวน์โหลดได้จาก[ลิงค์นี้](https://releases.aspose.com/psd/net/).
 
 ### คำถามที่ 3: มีการทดลองใช้ฟรีหรือไม่?
 

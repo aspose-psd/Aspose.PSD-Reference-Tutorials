@@ -82,11 +82,11 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Bilder mit Aspose.PSD für 
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/)um die Funktionen von Aspose.PSD zu erkunden, bevor Sie einen Kauf tätigen.
+ A3: Ja, Sie können eine kostenlose Testversion erhalten.[Hier](https://releases.aspose.com/)um die Funktionen von Aspose.PSD zu erkunden, bevor Sie einen Kauf tätigen.
 
 ### F4: Wie kann ich eine temporäre Lizenz erhalten?
 
- A4: Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/) zu Test- und Evaluierungszwecken.
+ A4: Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/) zu Test- und Evaluierungszwecken.
 
 ### F5: Wo kann ich Aspose.PSD kaufen?
 

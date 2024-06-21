@@ -77,7 +77,7 @@ A1: Sì, Aspose.PSD per .NET supporta file PSD creati in varie versioni di Photo
 
 ### Q3: dove posso trovare la documentazione dettagliata per Aspose.PSD per .NET?
 
-A3: La documentazione è disponibile[Qui](https://reference.aspose.com/psd/net/).
+A3: La documentazione è disponibile.[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q4: Come posso ottenere supporto per Aspose.PSD per .NET?
 
@@ -85,4 +85,4 @@ A3: La documentazione è disponibile[Qui](https://reference.aspose.com/psd/net/)
 
 ### Q5: Come posso acquistare una licenza per Aspose.PSD per .NET?
 
- A5: È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).
+ A5: È possibile acquistare una licenza.[Qui](https://purchase.aspose.com/buy).

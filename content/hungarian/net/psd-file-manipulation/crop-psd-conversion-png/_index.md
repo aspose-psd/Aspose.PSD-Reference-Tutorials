@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Hozzon létre egy példányt a PngOptions osztályból
 PngOptions pngOptions = new PngOptions();
 ```
-## 5. lépés: Mentse el a kivágott képet PNG formátumban
+## 5. lépés: Mentse el a kivágott képet PNG formátumban.
 ```csharp
 // Hívja meg a mentési módszert, adja meg a kimeneti elérési utat és a PngOptions parancsot a PSD-fájl PNG-re konvertálásához és a kimenet mentéséhez
 string destName = dataDir + @"export.png";

@@ -70,7 +70,7 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
 
 ## Steg 3: Ändra inställningar för övertoning
 
-Justera inställningarna för gradientöverlagring enligt dina preferenser:
+Justera övertoningsöverlagringsinställningarna enligt dina preferenser:
 
 ```csharp
 // Testredigering
@@ -139,7 +139,7 @@ S2: Aspose.PSD för .NET stöder olika bildfilformat, inklusive PSD, PNG, JPEG, 
 
 ### F3: Finns det en testversion tillgänglig för Aspose.PSD för .NET?
 
- S3: Ja, du kan utforska funktionerna hos Aspose.PSD för .NET genom att ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
+S3: Ja, du kan utforska funktionerna hos Aspose.PSD för .NET genom att ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 

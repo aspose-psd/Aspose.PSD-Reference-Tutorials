@@ -15,7 +15,7 @@ No domínio da programação Java, Aspose.PSD se destaca como uma ferramenta pod
 
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-1.  Biblioteca Aspose.PSD: Certifique-se de ter a biblioteca Aspose.PSD instalada em seu ambiente Java. Você pode baixá-lo em[aqui](https://releases.aspose.com/psd/java/).
+1.  Biblioteca Aspose.PSD: certifique-se de ter a biblioteca Aspose.PSD instalada em seu ambiente Java. Você pode baixá-lo em[aqui](https://releases.aspose.com/psd/java/).
 
 2. Kit de desenvolvimento Java (JDK): Aspose.PSD requer Java para ser executado. Instale o JDK mais recente em sua máquina.
 
@@ -106,7 +106,7 @@ A2: Com certeza! Depois de combinar as imagens, você pode manipular ainda mais 
 
 ### Q4: Existe um teste gratuito disponível para Aspose.PSD?
 
- A4: Sim, você pode explorar o Aspose.PSD com uma avaliação gratuita[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode explorar o Aspose.PSD com uma avaliação gratuita.[aqui](https://releases.aspose.com/).
 
 ### P5: Onde posso encontrar suporte para consultas relacionadas ao Aspose.PSD?
 

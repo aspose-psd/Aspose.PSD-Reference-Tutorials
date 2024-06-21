@@ -1,5 +1,5 @@
 ---
-title: 在 Aspose.PSD for .NET 中使用时间轴
+title: 在 Aspose.PSD for .NET 中使用时间线
 linktitle: 使用时间轴
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET Timeline 类增强 PSD 图像操作。控制框架属性、图层状态并轻松释放创意可能性。
@@ -103,8 +103,8 @@ A2：Timeline 类是专门为 PSD 图像设计的。对于 GIF 操作，请参�
 
 ### Q4：如何获得 Aspose.PSD for .NET 的临时许可证？
 
- A4：获取临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A4：获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).
 
-### 问题 5：使用 Aspose.PSD for .NET 有哪些主要优点？
+### 问题 5：使用 Aspose.PSD for .NET 有哪些主要好处？
 
 A5：Aspose.PSD for .NET 提供先进的图像处理功能、PSD 文件操作和高性能渲染。

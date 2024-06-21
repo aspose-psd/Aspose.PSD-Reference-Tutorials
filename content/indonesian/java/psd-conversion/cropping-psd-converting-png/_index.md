@@ -1,7 +1,7 @@
 ---
 title: Memotong PSD saat Mengonversi ke PNG dengan Aspose.PSD untuk Java
 linktitle: Memotong PSD saat Mengonversi ke PNG
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara memotong file PSD dan mengonversinya menjadi PNG menggunakan Aspose.PSD untuk Java. Sempurnakan aplikasi Java Anda dengan pemrosesan gambar yang efisien.
 type: docs
 weight: 13
@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Langkah 3: Tentukan Wilayah Tanaman
 ```java
-// Buat instance kelas Rectangle dengan meneruskan x, y, lebar, dan tinggi
+//Buat instance kelas Rectangle dengan meneruskan x, y, lebar, dan tinggi
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Langkah 4: Pangkas Gambar PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Buat sebuah instance dari kelas PNGOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Langkah 6: Simpan Gambar yang Dipotong sebagai PNG
+## Langkah 6: Simpan Gambar yang Dipotong sebagai PNG.
 ```java
 // Berikan jalur keluaran dan PNGOptions untuk mengonversi file PSD ke PNG dan menyimpan hasilnya
 String destName = dataDir + "export.png";
@@ -59,7 +59,7 @@ Selamat! Anda telah berhasil mempelajari cara memotong file PSD saat mengonversi
 ### Bisakah saya memotong file PSD dengan bentuk tidak beraturan menggunakan Aspose.PSD untuk Java?
 Ya, Aspose.PSD untuk Java memungkinkan Anda menentukan wilayah pemotongan khusus, memungkinkan Anda memotong gambar menjadi berbagai bentuk.
 ### Apakah Aspose.PSD untuk Java cocok untuk tugas pemrosesan gambar skala besar?
-Sangat! Aspose.PSD dirancang untuk menangani gambar besar secara efisien, sehingga ideal untuk proyek dengan persyaratan pemrosesan gambar yang ekstensif.
+Sangat! Aspose.PSD dirancang untuk menangani gambar besar secara efisien, sehingga ideal untuk proyek dengan persyaratan pemrosesan gambar yang luas.
 ### Apakah saya memerlukan lisensi Aspose.PSD untuk Java?
  Ya, lisensi yang valid diperlukan untuk penggunaan komersial. Anda bisa mendapatkannya dari[Asumsikan Pembelian](https://purchase.aspose.com/buy).
 ### Bagaimana cara mencari bantuan atau melaporkan masalah dengan Aspose.PSD untuk Java?

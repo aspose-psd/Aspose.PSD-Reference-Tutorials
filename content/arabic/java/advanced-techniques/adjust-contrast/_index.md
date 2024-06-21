@@ -94,11 +94,11 @@ rasterImage.save(destName, tiffOptions);
 
 ### س2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
- ج2: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج2: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س3: أين يمكنني العثور على وثائق Aspose.PSD؟
 
-ج3: الوثائق متاحة[هنا](https://reference.aspose.com/psd/java/).
+ج3: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/java/).
 
 ### س4: ما هي خيارات الدعم المتوفرة لـ Aspose.PSD؟
 

@@ -17,7 +17,7 @@ Aspose.PSD for Java でのガウス フィルターとウィーナー フィル�
 
 - Java 開発環境: マシン上に Java 開発環境がセットアップされていることを確認します。
 
-- Java ライブラリ用 Aspose.PSD: Java ライブラリ用 Aspose.PSD をダウンロードしてインストールします。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java ライブラリ: Aspose.PSD for Java ライブラリをダウンロードしてインストールします。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/psd/java/).
 
 ## パッケージのインポート
 
@@ -94,7 +94,7 @@ A2: 試用版には制限があり、有効なライセンスを取得するこ�
 
 ### Q4: テスト目的で利用できる一時ライセンスはありますか?
 
- A4: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A4: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Aspose.PSD for Java の詳細なドキュメントはどこで見つけられますか?
 

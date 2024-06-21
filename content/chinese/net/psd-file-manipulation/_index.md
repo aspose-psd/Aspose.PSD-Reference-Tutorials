@@ -67,7 +67,7 @@ url: /zh/net/psd-file-manipulation/
 学习使用 Aspose.PSD for .NET 操作 Photoshop 文件中的图层状态。请按照我们的分步指南进行高效的 MLST 资源处理。
 ### [Aspose.PSD for .NET 中的 PSD 图像时间轴属性](./psd-image-timeline-property/)
 使用 Aspose.PSD for .NET 探索图像处理的动态世界。轻松操纵 PSD 时间线。立即下载库！
-### [在 Aspose.PSD for .NET 中使用时间轴](./timeline/)
+### [在 Aspose.PSD for .NET 中使用时间线](./timeline/)
 使用 Aspose.PSD for .NET Timeline 类增强 PSD 图像操作。控制框架属性、图层状态并轻松释放创意可能性。
 ### [在 Aspose.PSD for .NET 中处理 PSD 图像时间线](./psd-image-timeline/)
 学习使用 Aspose.PSD for .NET 轻松处理 PSD 图像时间线。添加框架、无缝切换并增强您的图像编辑技能。

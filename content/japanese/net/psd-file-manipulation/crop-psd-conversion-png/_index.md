@@ -46,9 +46,9 @@ image.Crop(cropRectangle);
 //PngOptions クラスのインスタンスを作成する
 PngOptions pngOptions = new PngOptions();
 ```
-## ステップ 5: 切り抜いた画像を PNG として保存する
+## ステップ 5: 切り取った画像を PNG として保存します。
 ```csharp
-//save メソッドを呼び出し、出力パスを指定し、PSD ファイルを PNG に変換して出力を保存する PngOptions を指定します。
+// save メソッドを呼び出し、出力パスを指定し、PSD ファイルを PNG に変換して出力を保存する PngOptions を指定します。
 string destName = dataDir + @"export.png";
 image.Save(destName, pngOptions);
 ```
@@ -64,7 +64,7 @@ image.Save(destName, pngOptions);
 
 ### Q2: 無料トライアルはありますか?
 
- A2：もちろんです！無料の試用版を試すことができます[ここ](https://releases.aspose.com/).
+ A2: もちろんです！無料の試用版を試すことができます[ここ](https://releases.aspose.com/).
 
 ### Q3: Aspose.PSD for .NET のサポートはどこで見つけられますか?
 

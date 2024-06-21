@@ -88,7 +88,7 @@ A1: Ja, Aspose.PSD ondersteunt een breed scala aan afbeeldingsformaten, waardoor
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A2: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A2: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/).
 
 ### V3: Hoe krijg ik ondersteuning voor Aspose.PSD voor Java?
 
@@ -100,4 +100,4 @@ A1: Ja, Aspose.PSD ondersteunt een breed scala aan afbeeldingsformaten, waardoor
 
 ### Vraag 5: Hoe kan ik Aspose.PSD voor Java kopen?
 
- A5: U kunt het product kopen[hier](https://purchase.aspose.com/buy).
+ A5: U kunt het product kopen.[hier](https://purchase.aspose.com/buy).

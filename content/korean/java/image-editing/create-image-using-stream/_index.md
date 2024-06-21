@@ -11,7 +11,7 @@ url: /ko/java/image-editing/create-image-using-stream/
 
 Java 개발 영역에서 Aspose.PSD는 이미지 처리를 위한 강력한 라이브러리로 돋보입니다. 강력한 기능 중 하나는 스트림을 사용하여 이미지를 생성하여 이미지 데이터 처리에 유연성과 효율성을 제공하는 기능입니다. 이 튜토리얼에서는 Java용 Aspose.PSD의 스트림을 사용하여 이미지를 생성하는 과정을 안내하고 단계별 지침을 통해 실습 경험을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- 인스턴스 만들기`Image` 호출하여`create` 메서드, 구성된 전달`BmpOptions` 그리고 이미지의 크기를 지정합니다.
+ 인스턴스 만들기`Image` 초대함으로써`create` 메서드, 구성된 전달`BmpOptions` 그리고 이미지의 크기를 지정합니다.
 
 ## 6단계: 이미지 처리
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## 결론
 
-축하해요! Java용 Aspose.PSD에서 스트림을 사용하여 이미지를 생성하는 방법을 성공적으로 배웠습니다. 이 튜토리얼에서는 패키지 가져오기부터 최종 이미지 처리 및 저장까지 필수 단계를 다루었습니다. 다양한 설정을 실험하고 추가 기능을 탐색하여 이미지 생성 기능을 향상하십시오.
+축하해요! Java용 Aspose.PSD에서 스트림을 사용하여 이미지를 생성하는 방법을 성공적으로 배웠습니다. 이 튜토리얼에서는 패키지 가져오기부터 최종 이미지 처리 및 저장까지 필수 단계를 다룹니다. 다양한 설정을 실험하고 추가 기능을 탐색하여 이미지 생성 기능을 향상하십시오.
 
 ## FAQ
 
@@ -109,7 +109,7 @@ A1: 예, Aspose.PSD는 다른 Java 라이브러리와 원활하게 통합되어 
 
 ### Q4: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
 
- A4: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Aspose.PSD의 시스템 요구 사항은 무엇입니까?
 

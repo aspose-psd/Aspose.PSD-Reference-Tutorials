@@ -68,11 +68,11 @@ többszálú képexportálás elsajátítása az Aspose.PSD for .NET segítség�
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
- 3. válasz: Csatlakozzon az Aspose.PSD közösséghez[fórum](https://forum.aspose.com/c/psd/34) szakértőktől és fejlesztőtársaktól kérhet segítséget.
+ 3. válasz: Csatlakozzon az Aspose.PSD közösséghez.[fórum](https://forum.aspose.com/c/psd/34) szakértőktől és fejlesztőtársaktól kérhet segítséget.
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/) hogy fedezze fel az Aspose.PSD-t a .NET szolgáltatásaiért, mielőtt kötelezettséget vállalna.
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/) hogy fedezze fel az Aspose.PSD-t a .NET szolgáltatásaiért, mielőtt kötelezettséget vállalna.
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 

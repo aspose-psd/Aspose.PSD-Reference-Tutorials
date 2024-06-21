@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    //您的字型替換程式碼位於此處
+    //您的字體替換代碼位於此處。
 }
 ```
 

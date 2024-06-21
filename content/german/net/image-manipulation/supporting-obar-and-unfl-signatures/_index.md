@@ -110,7 +110,7 @@ Glückwunsch! Sie haben die Unterstützung für ObAr- und UnFl-Signaturen in Asp
 
 ### F3: Kann ich Aspose.PSD vor dem Kauf testen?
 
- A3: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können eine kostenlose Testversion ausprobieren.[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
 

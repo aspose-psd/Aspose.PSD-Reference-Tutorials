@@ -9,7 +9,7 @@ url: /de/net/image-processing/apply-median-wiener-filters-color-images/
 ---
 ## Einführung
 
-Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Anwenden von Median- und Wiener-Filtern in Farbbildern mit Aspose.PSD für .NET. Aspose.PSD ist eine leistungsstarke Bibliothek, die es .NET-Entwicklern ermöglicht, nahtlos mit PSD-Dateien zu arbeiten. In diesem Tutorial untersuchen wir den Prozess der Anwendung von Median- und Wiener-Filtern zur Verbesserung und Entrauschung von Farbbildern.
+Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Anwenden von Median- und Wiener-Filtern in Farbbildern mit Aspose.PSD für .NET. Aspose.PSD ist eine leistungsstarke Bibliothek, die .NET-Entwicklern die nahtlose Arbeit mit PSD-Dateien ermöglicht. In diesem Tutorial untersuchen wir den Prozess der Anwendung von Median- und Wiener-Filtern zur Verbesserung und Entrauschung von Farbbildern.
 
 ## Voraussetzungen
 

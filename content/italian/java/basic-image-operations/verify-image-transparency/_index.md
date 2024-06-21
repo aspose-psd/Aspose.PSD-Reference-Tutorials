@@ -85,4 +85,4 @@ A1: Sì, Aspose.PSD per Java è progettato per funzionare perfettamente con altr
 
 ### Q5: Ho bisogno di una licenza temporanea per i test?
 
- R5: Se stai testando la libreria, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: Se stai testando la libreria, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).

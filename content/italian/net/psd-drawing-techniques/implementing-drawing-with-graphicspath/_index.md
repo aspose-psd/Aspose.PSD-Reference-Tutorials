@@ -51,7 +51,7 @@ In questo passaggio inizializziamo un'istanza della classe PsdImage e un oggetto
 ## Passaggio 2: creazione di GraphicsPath e Figure
 
 ```csharp
-// Crea un'istanza di GraphicsPath e Instance of Figure, aggiungi EllipseShape, RectangleShape e TextShape alla figura
+// Crea un'istanza di GraphicsPath e Instance of Figure, aggiungi EllipseShape, RectangleShape e TextShape alla figura.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A4: Sì, Aspose.PSD per .NET fornisce funzionalità per lavorare con i livelli n
 
 ### Q5: dove posso trovare la documentazione per Aspose.PSD per .NET?
 
- A5: La documentazione è disponibile[Qui](https://reference.aspose.com/psd/net/).
+ A5: La documentazione è disponibile.[Qui](https://reference.aspose.com/psd/net/).

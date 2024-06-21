@@ -101,7 +101,7 @@ Selamat! Anda telah berhasil membuat grafik yang menarik secara visual menggunak
 
 ### Q1: Dapatkah saya menggunakan Aspose.PSD untuk .NET dalam proyek komersial saya?
 
- A1: Ya, Aspose.PSD untuk .NET tersedia untuk penggunaan komersial. Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+A1: Ya, Aspose.PSD untuk .NET tersedia untuk penggunaan komersial. Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
 
 ### Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk .NET?
 
@@ -109,7 +109,7 @@ Selamat! Anda telah berhasil membuat grafik yang menarik secara visual menggunak
 
 ### Q3: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk .NET?
 
- A3: Dokumentasi lengkap tersedia[Di Sini](https://reference.aspose.com/psd/net/).
+ A3: Dokumentasi lengkap tersedia.[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -117,4 +117,4 @@ Selamat! Anda telah berhasil membuat grafik yang menarik secara visual menggunak
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk Aspose.PSD untuk .NET?
 
- A5: Jika Anda memerlukan lisensi sementara, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Jika Anda memerlukan lisensi sementara, Anda bisa mendapatkannya.[Di Sini](https://purchase.aspose.com/temporary-license/).

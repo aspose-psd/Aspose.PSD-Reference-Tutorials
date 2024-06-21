@@ -9,7 +9,7 @@ url: /tr/java/image-processing/binarization-otsu-threshold/
 ---
 ## giriiş
 
-Aspose.PSD for Java'da Otsu Threshold ile Binarizasyon gerçekleştirmeye yönelik bu adım adım kılavuza hoş geldiniz! Bu eğitimde, görüntü işleme yeteneklerinizi geliştirmek için Aspose.PSD for Java kütüphanesinden nasıl yararlanabileceğinizi keşfedeceğiz. Otsu Threshold ile ikilileştirme, görüntü segmentasyonu için güçlü bir tekniktir ve Aspose.PSD ile hem basit hem de verimli hale gelir.
+Aspose.PSD for Java'da Otsu Eşiği ile Binarizasyon gerçekleştirmeye yönelik bu adım adım kılavuza hoş geldiniz! Bu eğitimde, görüntü işleme yeteneklerinizi geliştirmek için Aspose.PSD for Java kütüphanesinden nasıl yararlanabileceğinizi keşfedeceğiz. Otsu Threshold ile ikilileştirme, görüntü segmentasyonu için güçlü bir tekniktir ve Aspose.PSD ile hem basit hem de verimli hale gelir.
 
 ## Önkoşullar
 
@@ -86,7 +86,7 @@ Tebrikler! Aspose.PSD for Java'da Otsu Threshold ile İkilileştirme işlemini n
 
 ### S1: Otsu Eşiğiyle Binarizasyon Nedir?
 
-Cevap1: Otsu Eşiği ile İkilileştirme, görüntüyü segmentasyon için kullanılan ve optimum eşiklemeye dayalı olarak görüntüyü ön plan ve arka plan olarak ayıran bir yöntemdir.
+Cevap 1: Otsu Eşiği ile İkilileştirme, görüntüyü segmentasyon için kullanılan ve optimum eşiklemeye dayalı olarak görüntüyü ön plan ve arka plan olarak ayıran bir yöntemdir.
 
 ### S2: Aspose.PSD for Java'yı ücretsiz kullanabilir miyim?
 
@@ -94,7 +94,7 @@ Cevap1: Otsu Eşiği ile İkilileştirme, görüntüyü segmentasyon için kulla
 
 ### S3: Aspose.PSD for Java belgelerini nerede bulabilirim?
 
-A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/java/).
+A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/java/).
 
 ### S4: Aspose.PSD for Java desteğini nasıl alabilirim?
 
@@ -102,4 +102,4 @@ A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/java/).
 
 ### S5: Aspose.PSD for Java için geçici bir lisans mevcut mu?
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

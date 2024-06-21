@@ -82,7 +82,7 @@ var guid = Guid.NewGuid();
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
 // ตรวจสอบและอัพเดตคุณสมบัติของเส้นขีด
-// ...
+// -
 
 // อัปเดตความทึบและโหมดผสมผสาน
 patternStroke.Opacity = 127;

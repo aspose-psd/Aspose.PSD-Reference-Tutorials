@@ -92,7 +92,7 @@ R1: Sí, Aspose.PSD para Java se puede integrar con varios marcos de Java, lo qu
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
 
- R2: Sí, puedes acceder a la versión de prueba gratuita[aquí](https://releases.aspose.com/).
+ R2: Sí, puedes acceder a la versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar soporte o asistencia adicional?
 
@@ -100,7 +100,7 @@ R1: Sí, Aspose.PSD para Java se puede integrar con varios marcos de Java, lo qu
 
 ### P4: ¿Cómo obtengo una licencia temporal de Aspose.PSD para Java?
 
- R4: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R4: Puede adquirir una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P5: ¿Cuáles son los formatos de imagen admitidos para recortar en Aspose.PSD para Java?
 

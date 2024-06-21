@@ -117,7 +117,7 @@ A1: はい。Aspose.PSD for .NET は、最新の .NET Framework バージョン�
 
 ### Q2: Aspose.PSD for .NET を商用プロジェクトに使用できますか?
 
-A2：もちろんです！ Aspose.PSD for .NET は商用製品であり、ライセンスを購入することでプロジェクトで使用できます。
+A2: もちろんです！ Aspose.PSD for .NET は商用製品であり、ライセンスを購入することでプロジェクトで使用できます。
 
 ### Q3: Aspose.PSD for .NET のその他の例やドキュメントはどこで入手できますか?
 

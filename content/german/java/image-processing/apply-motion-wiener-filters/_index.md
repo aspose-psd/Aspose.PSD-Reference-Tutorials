@@ -9,7 +9,7 @@ url: /de/java/image-processing/apply-motion-wiener-filters/
 ---
 ## Einführung
 
-In der dynamischen Welt der Bildverarbeitung erweist sich Aspose.PSD für Java als leistungsstarkes Tool, das Entwicklern die mühelose Anwendung von Motion Wiener Filtern ermöglicht. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess und macht die Bildbearbeitung für Java-Entwickler zu einer leicht zugänglichen Aufgabe.
+In der dynamischen Welt der Bildverarbeitung erweist sich Aspose.PSD für Java als leistungsstarkes Tool, das Entwicklern die mühelose Anwendung von Motion Wiener Filtern ermöglicht. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess und macht die Bildbearbeitung zu einer leicht zugänglichen Aufgabe für Java-Entwickler.
 
 ## Voraussetzungen
 
@@ -47,7 +47,7 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-Ersetzen Sie hier „Ihr Dokumentenverzeichnis“ durch den Pfad zu Ihrer Bilddatei.
+Ersetzen Sie hier „Ihr Dokumentverzeichnis“ durch den Pfad zu Ihrer Bilddatei.
 
 ## Schritt 2: Wandeln Sie das Bild in RasterImage um
 
@@ -104,8 +104,8 @@ A2: Ja, Aspose.PSD unterstützt eine Vielzahl von Bildformaten und gewährleiste
 
 ### F4: Kann ich Aspose.PSD für Java vor dem Kauf testen?
 
- A4: Ja, Sie können die kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können die kostenlose Testversion ausprobieren.[Hier](https://releases.aspose.com/).
 
 ### F5: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD für Java?
 
-A5: Erwerben Sie eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/) zu Test- und Evaluierungszwecken.
+A5: Erwerben Sie eine temporäre Lizenz.[Hier](https://purchase.aspose.com/temporary-license/) zu Test- und Evaluierungszwecken.

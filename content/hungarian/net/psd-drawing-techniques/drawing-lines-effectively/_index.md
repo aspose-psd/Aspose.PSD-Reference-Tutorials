@@ -98,7 +98,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan rajzoljon hatékonyan vonalakat az As
 
 ### 1. kérdés: Hol találom az Aspose.PSD for .NET dokumentációját?
 
- V1: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
+ V1: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
 
 ### 2. kérdés: Hogyan tölthetem le az Aspose.PSD-t .NET-hez?
 
@@ -106,7 +106,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan rajzoljon hatékonyan vonalakat az As
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -114,4 +114,4 @@ Gratulálunk! Sikeresen megtanulta, hogyan rajzoljon hatékonyan vonalakat az As
 
 ### 5. kérdés: Szükségem van ideiglenes licencre az Aspose.PSD for .NET számára?
 
- V5: Szükség esetén ideiglenes engedélyt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Szükség esetén ideiglenes engedélyt szerezhet.[itt](https://purchase.aspose.com/temporary-license/).

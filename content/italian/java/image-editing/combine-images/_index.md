@@ -106,7 +106,7 @@ A2: Assolutamente! Dopo aver combinato le immagini, puoi manipolare ulteriorment
 
 ### Q4: È disponibile una prova gratuita per Aspose.PSD?
 
- A4: Sì, puoi esplorare Aspose.PSD con una prova gratuita[Qui](https://releases.aspose.com/).
+ A4: Sì, puoi esplorare Aspose.PSD con una prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso trovare supporto per le query relative ad Aspose.PSD?
 

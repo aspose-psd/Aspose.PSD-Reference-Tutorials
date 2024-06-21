@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 
  แทนที่`"Your Document Directory"` พร้อมพาธไปยังไดเร็กทอรีที่คุณจัดเก็บไฟล์ต้นฉบับและเอาต์พุตของคุณ
 
-## ขั้นตอนที่ 2: โหลดรูปภาพ
+## ขั้นตอนที่ 2: โหลดภาพ
 
 ```csharp
 string sourceFile = dataDir + @"sample.psd";

@@ -81,7 +81,7 @@ A1: Ja, Bradley Thresholding ist eine vielseitige Technik, die für verschiedene
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können eine kostenlose Testversion von Aspose.PSD für .NET ausprobieren[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können eine kostenlose Testversion von Aspose.PSD für .NET ausprobieren.[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich Unterstützung für Aspose.PSD erhalten?
 
@@ -89,4 +89,4 @@ A1: Ja, Bradley Thresholding ist eine vielseitige Technik, die für verschiedene
 
 ### F5: Wo kann ich eine Lizenz für Aspose.PSD erwerben?
 
- A5: Sie können eine Lizenz kaufen[Hier](https://purchase.aspose.com/buy).
+ A5: Sie können eine Lizenz kaufen.[Hier](https://purchase.aspose.com/buy).

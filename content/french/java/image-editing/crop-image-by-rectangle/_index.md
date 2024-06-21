@@ -92,7 +92,7 @@ A1 : Oui, Aspose.PSD pour Java peut être intégré à divers frameworks Java, o
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A2 : Oui, vous pouvez accéder à la version d'essai gratuite[ici](https://releases.aspose.com/).
+ A2 : Oui, vous pouvez accéder à la version d'essai gratuite.[ici](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je trouver une assistance ou une assistance supplémentaire ?
 
@@ -100,7 +100,7 @@ A1 : Oui, Aspose.PSD pour Java peut être intégré à divers frameworks Java, o
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
 
- A4 : Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Vous pouvez acquérir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Quels sont les formats d'image pris en charge pour le recadrage dans Aspose.PSD pour Java ?
 

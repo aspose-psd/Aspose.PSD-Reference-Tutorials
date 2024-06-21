@@ -63,7 +63,7 @@ colorFillSettings.Color = Color.Green;
 ## Шаг 3: Внешняя позиция
 
 ```csharp
-// Добавляет цветную заливку в позиции снаружи.
+// Добавляет цветную заливку снаружи
 strokeEffect = psdImage.Layers[2].BlendingOptions.AddStroke(FillType.Color);
 strokeEffect.Size = 7;
 strokeEffect.Position = StrokePosition.Outside;

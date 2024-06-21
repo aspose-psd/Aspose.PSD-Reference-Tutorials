@@ -11,7 +11,7 @@ url: /zh-hant/java/psd-conversion/color-conversion-icc-profiles/
 歡迎閱讀有關在 Aspose.PSD for Java 中使用 ICC 設定檔進行顏色轉換的綜合指南。在本教學中，我們將探討執行色彩轉換的步驟，並強調使用 ICC 設定檔來獲得準確且一致的結果。無論您是經驗豐富的開發人員還是初學者，本指南都將透過詳細的解釋和範例引導您完成整個過程。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
-1.  Aspose.PSD for Java Library：確保您已安裝 Aspose.PSD 函式庫。您可以從[發布](https://releases.aspose.com/psd/java/)頁。
+1.  Aspose.PSD for Java 函式庫：確保您已安裝 Aspose.PSD 函式庫。您可以從[發布](https://releases.aspose.com/psd/java/)頁。
 2. Java 開發環境：工作的 Java 開發環境對於執行程式碼至關重要。確保您的系統上安裝了 Java。
 3. ICC 設定檔：取得顏色轉換所需的 ICC 設定檔。您可以找到合適的配置文件，例如`eciRGB_v2.icc`和`ISOcoated_v2_FullGamut4.icc`，來自可靠來源。
 ## 導入包
@@ -39,7 +39,7 @@ int[] pixels = new int[count];
 int r = 0, g = 0, b = 0, channel = 0;
 for (int i = 0; i < count; i++) {
     //用顏色值填滿像素。
-    //…
+    //……
 }
 //儲存新建立的像素。
 image.saveArgb32Pixels(image.getBounds(), pixels);

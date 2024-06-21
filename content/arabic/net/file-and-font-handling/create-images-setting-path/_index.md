@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- تأكد من تثبيت مكتبة Aspose.PSD في مشروعك. يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/psd/net/).
+تأكد من تثبيت مكتبة Aspose.PSD في مشروعك. يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/psd/net/).
 
 ## الخطوة 1: تحديد دليل المستندات الخاص بك
 
@@ -93,7 +93,7 @@ using (Image image = Image.Create(psdOptions, 500, 500))
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.PSD[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.PSD.[هنا](https://releases.aspose.com/).
 
 ### س5: كيف يمكنني الحصول على الدعم أو طلب المساعدة؟
 

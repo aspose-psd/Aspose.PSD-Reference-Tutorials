@@ -11,7 +11,7 @@ url: /ko/net/image-processing/apply-median-wiener-filters-color-images/
 
 .NET용 Aspose.PSD를 사용하여 컬러 이미지에 중앙값 및 Wiener 필터를 적용하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.PSD는 .NET 개발자가 PSD 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 컬러 이미지를 향상시키고 노이즈를 제거하기 위해 중앙값 필터와 위너 필터를 적용하는 과정을 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

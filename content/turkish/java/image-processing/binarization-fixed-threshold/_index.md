@@ -78,7 +78,7 @@ Ve bu kadar! Aspose.PSD for Java'yı kullanarak Sabit Eşik ile Binarizasyon'u b
 
 ## Çözüm
 
-Bu eğitimde Aspose.PSD for Java ile görüntü işleme dünyasını derinlemesine inceledik, özellikle Sabit Eşikli Binarizasyona odaklandık. Bu adımları izleyerek Java uygulamalarınızı güçlü görüntü dönüştürme yetenekleriyle geliştirebilirsiniz.
+Bu eğitimde Aspose.PSD for Java ile görüntü işleme dünyasını derinlemesine inceledik, özellikle Sabit Eşik ile İkilileştirmeye odaklandık. Bu adımları izleyerek Java uygulamalarınızı güçlü görüntü dönüştürme yetenekleriyle geliştirebilirsiniz.
 
 ## SSS'ler
 
@@ -96,7 +96,7 @@ Cevap1:Evet, Aspose.PSD çeşitli görüntü formatlarını destekler, bu da İk
 
 ### S4: Aspose.PSD kütüphanesini nasıl satın alabilirim?
 
- Cevap4: Aspose.PSD kütüphanesini satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ Cevap4: Aspose.PSD kütüphanesini satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
 
 ### S5: Ücretsiz deneme sürümü mevcut mu?
 

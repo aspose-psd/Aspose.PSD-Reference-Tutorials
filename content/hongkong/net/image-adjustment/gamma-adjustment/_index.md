@@ -88,16 +88,16 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Q2：如何下載 Aspose.PSD for .NET？
 
- A2：您可以下載該程式庫[這裡](https://releases.aspose.com/psd/net/).
+ A2：您可以下載該程式庫。[這裡](https://releases.aspose.com/psd/net/).
 
 ### Q3：有免費試用嗎？
 
- A3：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
+ A3: 是的，您可以獲得免費試用。[這裡](https://releases.aspose.com/).
 
 ### Q4：我可以在哪裡獲得 Aspose.PSD 的支援？
 
- A4：您可以造訪支援論壇[這裡](https://forum.aspose.com/c/psd/34).
+ A4：您可以造訪支援論壇。[這裡](https://forum.aspose.com/c/psd/34).
 
 ### Q5: 我需要臨時許可證嗎？
 
- A5：如果需要，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：如果需要，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).

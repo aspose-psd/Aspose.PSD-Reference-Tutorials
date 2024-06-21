@@ -96,7 +96,7 @@ A2: はい、Aspose.PSD for .NET には、シャドウ効果を微調整する�
 
 ### Q3: Aspose.PSD for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
- A3: 仮免許は取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+ A3: 仮免許は取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Aspose.PSD for .NET は .NET Core と互換性がありますか?
 

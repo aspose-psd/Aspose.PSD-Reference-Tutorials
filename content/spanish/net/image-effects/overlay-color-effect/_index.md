@@ -15,7 +15,7 @@ Aspose.PSD para .NET proporciona un sólido conjunto de funciones para el proces
 
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Aspose.PSD para .NET: descargue e instale la biblioteca desde[aquí](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD para .NET: descargue e instale la biblioteca desde[aquí](https://releases.aspose.com/psd/net/).
 - Su directorio de documentos: configure un directorio para almacenar sus archivos de origen y de salida.
 
 ## Importar espacios de nombres
@@ -85,11 +85,11 @@ R1: Sí, Aspose.PSD para .NET es compatible con varios marcos .NET, incluidos .N
 
 ### P2: ¿Dónde puedo encontrar documentación completa sobre Aspose.PSD para .NET?
 
- A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/psd/net/)para obtener información detallada y ejemplos de código.
+ A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/psd/net/) para obtener información detallada y ejemplos de código.
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
- R3: Sí, puede explorar las capacidades de Aspose.PSD para .NET descargando la versión de prueba gratuita[aquí](https://releases.aspose.com/).
+R3: Sí, puede explorar las capacidades de Aspose.PSD para .NET descargando la versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -97,4 +97,4 @@ R1: Sí, Aspose.PSD para .NET es compatible con varios marcos .NET, incluidos .N
 
 ### P5: ¿Puedo obtener una licencia temporal de Aspose.PSD para .NET?
 
- R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
+ R5: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para fines de evaluación.

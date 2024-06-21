@@ -110,7 +110,7 @@ Gefeliciteerd! U hebt met succes ondersteuning voor ObAr- en UnFl-handtekeningen
 
 ### Vraag 3: Kan ik Aspose.PSD uitproberen voordat ik een aankoop doe?
 
- A3: Ja, u kunt een gratis proefversie uitproberen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefversie uitproberen.[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
 

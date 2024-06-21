@@ -135,7 +135,7 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec différentes versions de Visu
 
 ### Q3 : Existe-t-il des exemples de fichiers PSD disponibles pour les tests ?
 
- A3 : Vous pouvez trouver des exemples de fichiers PSD dans la documentation[ici](https://reference.aspose.com/psd/net/).
+ A3 : Vous pouvez trouver des exemples de fichiers PSD dans la documentation.[ici](https://reference.aspose.com/psd/net/).
 
 ### Q4 : Aspose.PSD est-il adapté au traitement par lots de fichiers PSD ?
 

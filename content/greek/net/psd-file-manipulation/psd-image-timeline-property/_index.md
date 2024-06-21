@@ -80,7 +80,7 @@ A1: Ναι, το Aspose.PSD για .NET είναι συμβατό με διάφ�
 
 ### Ε4: Είναι διαθέσιμες προσωρινές άδειες χρήσης για το Aspose.PSD για .NET;
 
- A4: Ναι, μπορείτε να αποκτήσετε προσωρινές άδειες χρήσης για το Aspose.PSD για .NET[εδώ](https://purchase.aspose.com/temporary-license/).
+ A4: Ναι, μπορείτε να αποκτήσετε προσωρινές άδειες χρήσης για το Aspose.PSD για .NET.[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε5: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.PSD για .NET;
 

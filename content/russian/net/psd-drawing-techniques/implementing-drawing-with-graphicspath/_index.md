@@ -2,7 +2,7 @@
 title: Реализация рисования с помощью GraphicsPath в Aspose.PSD для .NET
 linktitle: Реализация рисования с помощью GraphicsPath
 second_title: Aspose.PSD .NET API
-description: Изучите возможности Aspose.PSD для .NET в этом пошаговом руководстве по рисованию с помощью GraphicsPath. Усовершенствуйте свои .NET-приложения с помощью расширенных возможностей работы с файлами Photoshop.
+description: Изучите возможности Aspose.PSD для .NET в этом пошаговом руководстве по рисованию с помощью GraphicsPath. Усовершенствуйте свои .NET-приложения с помощью расширенных возможностей работы с файлами в Photoshop.
 type: docs
 weight: 17
 url: /ru/net/psd-drawing-techniques/implementing-drawing-with-graphicspath/

@@ -33,7 +33,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Шаг 1. Загрузите изображение
+## Шаг 1. Загрузите изображение.
 
 Начните с загрузки изображения, размер которого вы хотите изменить, в свое Java-приложение. Использовать`Image.load` метод из Aspose.PSD.
 

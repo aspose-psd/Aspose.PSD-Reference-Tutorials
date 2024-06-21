@@ -129,7 +129,7 @@ A1：Aspose.PSD for Java 设计为独立工作，但如果需要，您可以将�
 
 ### Q3：Aspose.PSD for Java 有免费试用版吗？
 
- A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
+ A3：是的，您可以免费试用。[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得 Aspose.PSD for Java 的支持？
 
@@ -137,4 +137,4 @@ A1：Aspose.PSD for Java 设计为独立工作，但如果需要，您可以将�
 
 ### Q5：我可以获得 Aspose.PSD for Java 的临时许可证吗？
 
-A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+A5: 是的，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).

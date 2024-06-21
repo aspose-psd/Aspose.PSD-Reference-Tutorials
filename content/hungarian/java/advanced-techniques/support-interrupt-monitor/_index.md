@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Most bontsuk le a példakódot egy lépésről lépésre szóló útmutatóra az Interrupt Monitor beépítéséhez az Aspose.PSD for Java projektbe.
+Most bontsuk le a példakódot egy lépésről lépésre szóló útmutatóra az Interrupt Monitor integrálásához az Aspose.PSD for Java projektben.
 
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
 
@@ -106,11 +106,11 @@ Az Interrupt Monitor támogatás beépítése az Aspose.PSD for Java projektekbe
 
 ### 2. kérdés: Hogyan szerezhetem be a Java Aspose.PSD könyvtárát?
 
-2. válasz: Letöltheti az Aspose.PSD for Java könyvtárat[itt](https://releases.aspose.com/psd/java/).
+2. válasz: Letöltheti az Aspose.PSD for Java könyvtárat.[itt](https://releases.aspose.com/psd/java/).
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 3. válasz: Igen, felfedezheti az Aspose.PSD ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezheti az Aspose.PSD ingyenes próbaverzióját.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok támogatást az Aspose.PSD for Java számára?
 
@@ -118,4 +118,4 @@ Az Interrupt Monitor támogatás beépítése az Aspose.PSD for Java projektekbe
 
 ### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.PSD for Java számára?
 
- 5. válasz: Vásárolhat licencet az Aspose.PSD for Java számára[itt](https://purchase.aspose.com/buy).
+ 5. válasz: Vásárolhat licencet az Aspose.PSD for Java számára.[itt](https://purchase.aspose.com/buy).

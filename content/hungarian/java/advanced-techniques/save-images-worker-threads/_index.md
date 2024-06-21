@@ -106,11 +106,11 @@ Gratulálunk! Sikeresen megtanulta, hogyan menthet képeket munkaszálak segíts
 
 ### 2. kérdés: Hol találom az Aspose.PSD for Java részletes dokumentációját?
 
- V2: Olvassa el a dokumentációt[itt](https://reference.aspose.com/psd/java/) átfogó információkért az Aspose.PSD for Java-ról.
+ V2: Olvassa el a dokumentációt.[itt](https://reference.aspose.com/psd/java/) átfogó információkért az Aspose.PSD for Java-ról.
 
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
 
- V3: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) az Aspose.PSD for Java teljes képességeinek felfedezéséhez.
+ V3: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) az Aspose.PSD for Java teljes képességeinek felfedezéséhez.
 
 ### 4. kérdés: Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.PSD for Java számára?
 

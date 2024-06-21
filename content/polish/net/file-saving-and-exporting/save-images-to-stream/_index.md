@@ -82,11 +82,11 @@ Gratulacje! Pomyślnie nauczyłeś się, jak zapisywać obrazy w strumieniu przy
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/)aby poznać funkcje Aspose.PSD przed dokonaniem zakupu.
+ A3: Tak, możesz uzyskać bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/)aby poznać funkcje Aspose.PSD przed dokonaniem zakupu.
 
 ### P4: Jak mogę uzyskać licencję tymczasową?
 
- A4: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
+ A4: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
 
 ### P5: Gdzie mogę kupić Aspose.PSD?
 

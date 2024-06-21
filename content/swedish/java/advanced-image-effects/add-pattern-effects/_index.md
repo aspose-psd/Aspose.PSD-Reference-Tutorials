@@ -129,7 +129,7 @@ S1: Aspose.PSD för Java är utformad för att fungera självständigt, men du k
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för Java?
 
@@ -137,4 +137,4 @@ S1: Aspose.PSD för Java är utformad för att fungera självständigt, men du k
 
 ### F5: Kan jag få en tillfällig licens för Aspose.PSD för Java?
 
-A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+A5: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).

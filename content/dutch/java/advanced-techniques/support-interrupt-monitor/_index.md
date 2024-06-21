@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Laten we nu de voorbeeldcode opsplitsen in een stapsgewijze handleiding voor het opnemen van Interrupt Monitor in uw Aspose.PSD voor Java-project.
+Laten we nu de voorbeeldcode opsplitsen in een stapsgewijze handleiding voor het integreren van Interrupt Monitor in uw Aspose.PSD voor Java-project.
 
 ## Stap 1: Stel uw documentmap in
 
@@ -106,11 +106,11 @@ A1: Met de Interrupt Monitor in Aspose.PSD voor Java kunnen ontwikkelaars beeldc
 
 ### Vraag 2: Hoe kan ik de Aspose.PSD-bibliotheek voor Java verkrijgen?
 
-A2: U kunt de Aspose.PSD voor Java-bibliotheek downloaden[hier](https://releases.aspose.com/psd/java/).
+A2: U kunt de Aspose.PSD voor Java-bibliotheek downloaden.[hier](https://releases.aspose.com/psd/java/).
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A3: Ja, u kunt een gratis proefversie van Aspose.PSD uitproberen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefversie van Aspose.PSD uitproberen.[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning vinden voor Aspose.PSD voor Java?
 
@@ -118,4 +118,4 @@ A2: U kunt de Aspose.PSD voor Java-bibliotheek downloaden[hier](https://releases
 
 ### V5: Hoe kan ik een licentie kopen voor Aspose.PSD voor Java?
 
- A5: U kunt een licentie kopen voor Aspose.PSD voor Java[hier](https://purchase.aspose.com/buy).
+ A5: U kunt een licentie kopen voor Aspose.PSD voor Java.[hier](https://purchase.aspose.com/buy).

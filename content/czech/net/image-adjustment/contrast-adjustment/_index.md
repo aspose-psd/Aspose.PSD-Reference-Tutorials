@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## Krok 1: Načtěte obrázek
 
- Načtěte zdrojový obrázek do instance souboru`RasterImage` třída.
+Načtěte zdrojový obrázek do instance souboru`RasterImage` třída.
 
 ```csharp
 //ExStart:LoadImage
@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Upravte kontrast o 50 %
 
 ## Krok 3: Vytvořte možnosti TIFF
 
- Vytvořte instanci`TiffOptions` pro výsledný obrázek nastavte různé vlastnosti a uložte obrázek ve formátu TIFF.
+ Vytvořte instanci`TiffOptions` Pro výsledný obrázek nastavte různé vlastnosti a uložte obrázek ve formátu TIFF.
 
 ```csharp
 //ExStart:CreateTiffOptions
@@ -78,7 +78,7 @@ Gratulujeme! Úspěšně jste implementovali úpravu kontrastu pomocí Aspose.PS
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali proces vylepšení kontrastu obrazu pomocí Aspose.PSD pro .NET. Knihovna poskytuje přímočarý způsob manipulace s vlastnostmi obrázků a umožňuje vývojářům bez námahy vytvářet vizuálně přitažlivé obrázky.
+V tomto tutoriálu jsme prozkoumali proces vylepšení kontrastu obrazu pomocí Aspose.PSD pro .NET. Knihovna poskytuje přímočarý způsob manipulace s vlastnostmi obrázků a umožňuje vývojářům bez námahy vytvářet vizuálně přitažlivé obrázky.
 
 ## FAQ
 
@@ -92,7 +92,7 @@ A1: Aspose.PSD for .NET je navržen tak, aby byl pro vývojáře přívětivý, 
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.PSD pro .NET?
 
@@ -100,4 +100,4 @@ A1: Aspose.PSD for .NET je navržen tak, aby byl pro vývojáře přívětivý, 
 
 ### Q5: Jak mohu získat dočasnou licenci?
 
- A5: V případě potřeby můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: V případě potřeby můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

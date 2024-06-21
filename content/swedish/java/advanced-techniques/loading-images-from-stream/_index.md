@@ -92,7 +92,7 @@ A1: Absolut! Aspose.PSD för Java utmärker sig i batch-bildbehandlingsuppgifter
 
 ### F2: Kan jag prova Aspose.PSD för Java innan jag köper?
 
- A2: Ja, du kan utforska en gratis testversion[här](https://releases.aspose.com/).
+ A2: Ja, du kan utforska en gratis testversion.[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta support för Aspose.PSD för Java?
 
@@ -100,7 +100,7 @@ A1: Absolut! Aspose.PSD för Java utmärker sig i batch-bildbehandlingsuppgifter
 
 ### F4: Behöver jag en tillfällig licens för teständamål?
 
- A4: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för att testa Aspose.PSD för Java.
+ A4: Skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för att testa Aspose.PSD för Java.
 
 ### F5: Var kan jag köpa Aspose.PSD för Java?
 

@@ -87,7 +87,7 @@ A1: Chắc chắn rồi! Aspose.PSD đi kèm với tài liệu toàn diện đ�
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Trả lời 3: Có, bạn có thể dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.PSD cho Java ở đâu?
 
@@ -95,4 +95,4 @@ A1: Chắc chắn rồi! Aspose.PSD đi kèm với tài liệu toàn diện đ�
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD?
 
- A5: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

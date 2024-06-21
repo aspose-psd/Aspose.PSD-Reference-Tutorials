@@ -19,7 +19,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden 
 
 - Entwicklungsumgebung: Richten Sie auf Ihrem Computer eine funktionierende .NET-Entwicklungsumgebung ein.
 
-- Grundkenntnisse von C#: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut.
+- Grundkenntnisse in C#: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut.
 
 ## Namespaces importieren
 
@@ -98,7 +98,7 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.PSD für .NET ef
 
 ### F1: Wo finde ich die Dokumentation für Aspose.PSD für .NET?
 
- A1: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/psd/net/).
+ A1: Die Dokumentation ist verfügbar.[Hier](https://reference.aspose.com/psd/net/).
 
 ### F2: Wie kann ich Aspose.PSD für .NET herunterladen?
 
@@ -106,7 +106,7 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.PSD für .NET ef
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.PSD für .NET?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F4: Wo erhalte ich Unterstützung für Aspose.PSD für .NET?
 
@@ -114,4 +114,4 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.PSD für .NET ef
 
 ### F5: Benötige ich eine temporäre Lizenz für Aspose.PSD für .NET?
 
- A5: Bei Bedarf können Sie eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Bei Bedarf können Sie eine temporäre Lizenz erwerben.[Hier](https://purchase.aspose.com/temporary-license/).

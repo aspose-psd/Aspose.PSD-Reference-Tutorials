@@ -11,7 +11,7 @@ url: /ko/java/advanced-image-manipulation/implement-lossy-gif-compressor/
 
 끊임없이 진화하는 웹 개발 세계에서는 성능을 위해 이미지를 최적화하는 것이 중요합니다. Aspose.PSD for Java는 Lossy GIF Compressor를 통해 이를 달성할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 손실 GIF 압축기를 구현하는 과정을 단계별로 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## 5단계: 압축된 GIF 저장
+## 5단계: 압축된 GIF를 저장하세요.
 
  다음을 사용하여 압축된 GIF 이미지를 저장합니다.`image.save` 지정된 메소드`GifOptions`.
 
@@ -93,4 +93,4 @@ A3: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/p
 
 ### Q5: Java용 Aspose.PSD를 어떻게 구매할 수 있나요?
 
- A5: 라이브러리를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A5: 라이브러리를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).

@@ -102,8 +102,8 @@ S1: Ja, Aspose.PSD fungerar sömlöst med olika Java Integrated Development Envi
 
 ### F4: Finns det en gratis provperiod?
 
- A4: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+ A4: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
 
 ### F5: Behöver jag en tillfällig licens för att testa?
 
- S5: Du kan få en tillfällig licens för teständamål[här](https://purchase.aspose.com/temporary-license/).
+ S5: Du kan få en tillfällig licens för teständamål.[här](https://purchase.aspose.com/temporary-license/).

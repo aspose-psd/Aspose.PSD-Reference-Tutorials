@@ -59,7 +59,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     }
 ```
 
-## Paso 4: Definir valores de desplazamiento para recortar
+## Paso 4: definir valores de desplazamiento para recortar
 
 Especifique los valores de desplazamiento para los lados izquierdo, derecho, superior e inferior de la imagen. Ajuste estos valores según sus requisitos de cultivo.
 
@@ -96,7 +96,7 @@ R1: Sí, Aspose.PSD admite varios formatos de imagen, lo que le permite recortar
 
 ### P3: ¿Cómo obtengo una licencia temporal de Aspose.PSD para .NET?
 
- R3: Puede adquirir una licencia temporal con fines de prueba[aquí](https://purchase.aspose.com/temporary-license/).
+ R3: Puede adquirir una licencia temporal con fines de prueba.[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P4: ¿Dónde puedo encontrar soporte adicional y debates relacionados con Aspose.PSD?
 

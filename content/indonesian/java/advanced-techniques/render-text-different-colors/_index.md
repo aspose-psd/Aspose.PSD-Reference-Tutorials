@@ -1,7 +1,7 @@
 ---
 title: Render Teks dengan Warna Berbeda di Lapisan Teks menggunakan Aspose.PSD untuk Java
 linktitle: Render Teks dengan Warna Berbeda di Lapisan Teks
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara merender teks dengan warna berbeda di lapisan teks PSD menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk hasil yang mulus.
 type: docs
 weight: 13

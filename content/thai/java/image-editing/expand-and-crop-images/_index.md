@@ -69,7 +69,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 
 ## ขั้นตอนที่ 5: บันทึกภาพที่ครอบตัด
 
- บันทึกภาพที่ครอบตัดโดยใช้สี่เหลี่ยมที่กำหนดและ`JpegOptions` ระดับ.
+ บันทึกภาพที่ครอบตัดโดยใช้สี่เหลี่ยมที่กำหนดและ`JpegOptions` ชั้นเรียน
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);

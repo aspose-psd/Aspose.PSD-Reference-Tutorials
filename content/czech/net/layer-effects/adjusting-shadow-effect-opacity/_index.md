@@ -96,7 +96,7 @@ A2: Ano, Aspose.PSD pro .NET nabízí různé vlastnosti pro jemné doladění s
 
 ### Q3: Jak mohu získat dočasnou licenci pro Aspose.PSD pro .NET?
 
- A3: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A3: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Je Aspose.PSD for .NET kompatibilní s .NET Core?
 

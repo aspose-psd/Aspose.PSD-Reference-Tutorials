@@ -28,7 +28,7 @@ import com.aspose.psd.Image;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดรูปภาพ
+## ขั้นตอนที่ 1: โหลดภาพ
 
 เริ่มต้นด้วยการโหลดรูปภาพที่คุณต้องการปรับขนาดลงในแอปพลิเคชัน Java ของคุณ
 
@@ -91,4 +91,4 @@ image.save(destName, new PngOptions());
 ### คำถามที่ 5: ฉันจะเข้าถึงเอกสาร Aspose.PSD ได้อย่างไร
 
  A5: โปรดดูเอกสารประกอบโดยละเอียด[ที่นี่](https://reference.aspose.com/psd/java/).
-`
+-

@@ -103,8 +103,8 @@ A2：Timeline 類別是專門為 PSD 影像設計的。有關 GIF 操作，請�
 
 ### Q4：如何取得 Aspose.PSD for .NET 的臨時授權？
 
- A4：取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
-### 問題 5：使用 Aspose.PSD for .NET 有哪些主要優點？
+### 問題 5：使用 Aspose.PSD for .NET 有哪些主要好處？
 
 A5：Aspose.PSD for .NET 提供先進的影像處理功能、PSD 檔案操作和高效能渲染。

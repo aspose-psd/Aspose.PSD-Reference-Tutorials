@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Erstellen Sie eine Instanz der PngOptions-Klasse
 PngOptions pngOptions = new PngOptions();
 ```
-## Schritt 5: Speichern Sie das zugeschnittene Bild als PNG
+## Schritt 5: Speichern Sie das zugeschnittene Bild als PNG.
 ```csharp
 // Rufen Sie die Methode save auf, geben Sie den Ausgabepfad an und klicken Sie auf „PngOptions“, um die PSD-Datei in PNG zu konvertieren und die Ausgabe zu speichern
 string destName = dataDir + @"export.png";

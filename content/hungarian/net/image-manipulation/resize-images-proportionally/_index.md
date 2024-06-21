@@ -7,11 +7,11 @@ type: docs
 weight: 14
 url: /hu/net/image-manipulation/resize-images-proportionally/
 ---
-képkezelés területén az Aspose.PSD for .NET hatékony eszköztárként tűnik ki, amely lehetővé teszi a fejlesztők számára a képek arányos egyszerű átméretezését. Ebben a lépésenkénti útmutatóban végigvezetjük a képek Aspose.PSD for .NET használatával történő átméretezésén, így biztosítva, hogy képei hibátlanul megőrizzék arányaikat.
+képkezelés területén az Aspose.PSD for .NET hatékony eszköztárként tűnik ki, amely lehetővé teszi a fejlesztők számára a képek arányos egyszerű átméretezését. Ebben a lépésenkénti útmutatóban végigvezetjük a képek Aspose.PSD for .NET használatával történő átméretezésén, így biztosítva, hogy a képek hibátlanul megőrizzék arányaikat.
 
 ## Bevezetés
 
-A képek arányos átméretezése sok alkalmazásban gyakori feladat, és az Aspose.PSD for .NET leegyszerűsíti ezt a folyamatot a fejlesztők számára. Függetlenül attól, hogy webalkalmazáson, asztali szoftveren vagy mobilalkalmazáson dolgozik, a képarány megőrzése mellett a képek átméretezésének megértése alapvető fontosságú a vizuális vonzerő és a következetesség megőrzése érdekében.
+A képek arányos átméretezése sok alkalmazásban gyakori feladat, és az Aspose.PSD for .NET leegyszerűsíti ezt a folyamatot a fejlesztők számára. Függetlenül attól, hogy webalkalmazáson, asztali szoftveren vagy mobilalkalmazáson dolgozik, a képarány megőrzése mellett a képek átméretezésének megértése alapvető fontosságú a vizuális vonzerő és az egységesség megőrzéséhez.
 
 ## Előfeltételek
 
@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Határozza meg az átméretezett kép új szélességét és magasságát. Ebben a példában a szélesség és magasság felezve van, de ezeket az értékeket igény szerint módosíthatja.
+Határozza meg az átméretezett kép új szélességét és magasságát. Ebben a példában a szélesség és a magasság felezve van, de ezeket az értékeket igény szerint módosíthatja.
 
 ## 3. lépés: Mentse el az átméretezett képet
 

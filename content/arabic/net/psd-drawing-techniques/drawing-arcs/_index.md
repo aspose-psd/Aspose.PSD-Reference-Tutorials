@@ -15,7 +15,7 @@ url: /ar/net/psd-drawing-techniques/drawing-arcs/
 
 قبل أن نغوص في عالم رسم الأقواس المثير، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.PSD لمكتبة .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف .NET[رابط التحميل](https://releases.aspose.com/psd/net/).
+- Aspose.PSD لمكتبة .NET: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف[رابط التحميل](https://releases.aspose.com/psd/net/).
 
 -  دليل المستندات: قم بإعداد دليل لتخزين مستنداتك واستبدالها`"Your Document Directory"` في الكود المقدم مع المسار الفعلي.
 
@@ -93,11 +93,11 @@ image.Save(outpath, saveOptions);
 
 ### س1: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ .NET؟
 
- ج1: يمكن العثور على الوثائق[هنا](https://reference.aspose.com/psd/net/).
+ ج1: يمكن العثور على الوثائق.[هنا](https://reference.aspose.com/psd/net/).
 
 ### س2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
- ج2: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج2: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س3: هل يوجد منتدى مجتمعي لدعم Aspose.PSD؟
 
@@ -105,8 +105,8 @@ image.Save(outpath, saveOptions);
 
 ### س4: أين يمكنني شراء ترخيص Aspose.PSD؟
 
- ج4: يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+ ج4: يمكنك شراء ترخيص.[هنا](https://purchase.aspose.com/buy).
 
 ### س5: هل يمكنني تجربة Aspose.PSD لـ .NET مجانًا قبل الشراء؟
 
- ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).

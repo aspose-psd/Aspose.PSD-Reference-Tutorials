@@ -68,7 +68,7 @@ A1: はい、Aspose.PSD for .NET はさまざまなバージョンの Photoshop 
 
 ### Q3: Aspose.PSD for .NET のサポートを受けるにはどうすればよいですか?
 
-A3: Aspose.PSD コミュニティに参加してください[フォーラム](https://forum.aspose.com/c/psd/34)専門家や開発者仲間からの支援が得られます。
+A3: Aspose.PSD コミュニティに参加してください。[フォーラム](https://forum.aspose.com/c/psd/34)専門家や開発者仲間からの支援が得られます。
 
 ### Q4: 無料トライアルはありますか?
 

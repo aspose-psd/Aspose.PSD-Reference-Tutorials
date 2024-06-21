@@ -13,7 +13,7 @@ url: /ko/net/image-processing/apply-bradley-threshold/
 
 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 Bradley Threshold를 적용하는 과정을 안내합니다. 단계를 시작하기 전에 필요한 전제 조건이 갖추어져 있는지 확인하세요.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음이 설정되어 있는지 확인하세요.
 
@@ -89,4 +89,4 @@ A1: 예, Bradley Thresholding은 다양한 이미지 유형에 적합한 다용�
 
 ### Q5: Aspose.PSD 라이선스는 어디서 구입할 수 있나요?
 
- A5: 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
+ A5: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).

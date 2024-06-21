@@ -67,7 +67,7 @@ FileCreateSource stream = new FileCreateSource(dataDir + "sample_out.bmp");
 imageOptions.setSource(stream);
 ```
 
-インスタンス化する`FileCreateSource`データ ディレクトリを使用し、それをソースとして設定します。`BmpOptions`.
+をインスタンス化する`FileCreateSource`データ ディレクトリを使用し、それをソースとして設定します。`BmpOptions`.
 
 ## ステップ 5: イメージの生成
 
@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
-のインスタンスを作成します`Image`を呼び出すことによって`create`メソッド、設定されたものを渡す`BmpOptions`画像のサイズを指定します。
+のインスタンスを作成します`Image`を招待することで`create`メソッド、設定されたものを渡す`BmpOptions`画像のサイズを指定します。
 
 ## ステップ 6: 画像処理
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## 結論
 
-おめでとう！ Aspose.PSD for Java でストリームを使用して画像を作成する方法を学習しました。このチュートリアルでは、パッケージのインポートから最終的な画像処理と保存までの重要な手順を説明しました。さまざまな設定を試し、追加機能を探索して、イメージ作成機能を強化します。
+おめでとう！ Aspose.PSD for Java でストリームを使用して画像を作成する方法を学習しました。このチュートリアルでは、パッケージのインポートから最終的な画像処理と保存までの重要な手順を説明します。さまざまな設定を試し、追加機能を探索して、イメージ作成機能を強化します。
 
 ## よくある質問
 
@@ -109,7 +109,7 @@ A1: はい、Aspose.PSD は他の Java ライブラリとシームレスに統�
 
 ### Q4: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 
- A4: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+ A4: 仮免許を取得してください。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Aspose.PSD のシステム要件は何ですか?
 

@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Steg 3: Definiera beskärningsregion
 ```java
-// Skapa en instans av klassen Rectangle genom att skicka x, y, bredd och höjd
+//Skapa en instans av klassen Rectangle genom att skicka x, y, bredd och höjd
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Steg 4: Beskär PSD-bild
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Skapa en instans av klassen PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Steg 6: Spara beskuren bild som PNG
+## Steg 6: Spara beskuren bild som PNG.
 ```java
 // Ange utdatasökväg och PngOptions för att konvertera PSD-filen till PNG och spara utdata
 String destName = dataDir + "export.png";

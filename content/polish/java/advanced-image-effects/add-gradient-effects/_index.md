@@ -125,7 +125,7 @@ O2: Aspose.PSD zapewnia różnorodne efekty, w tym cienie, poświaty i inne. Wi�
 
 ### P4: Czy dostępna jest wersja próbna Aspose.PSD dla Java?
 
- A4: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ A4: Tak, możesz uzyskać bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Gdzie mogę kupić licencję na Aspose.PSD dla Java?
 

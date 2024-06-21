@@ -79,7 +79,7 @@ Chúc mừng! Bạn đã thành thạo cách sử dụng 'WorkingPathResource' t
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể nhận hỗ trợ cho Aspose.PSD cho .NET ở đâu?
 
@@ -87,4 +87,4 @@ Chúc mừng! Bạn đã thành thạo cách sử dụng 'WorkingPathResource' t
 
 ### Q5: Cần giấy phép tạm thời?
 
- A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A5: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

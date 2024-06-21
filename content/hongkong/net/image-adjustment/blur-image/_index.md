@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## 第 4 步：套用高斯模糊濾鏡
+## 步驟 4：套用高斯模糊濾鏡。
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
-在這裡，`GaussianBlurFilterOptions` class 使用指定半徑 15 進行水平和垂直模糊。
+在這裡，`GaussianBlurFilterOptions` class 用於水平和垂直模糊，指定半徑為 15。
 
 ## 步驟5：儲存模糊影像
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PSD for .NET 對影像進行模糊處理。本教學讓您一窺 Aspose.PSD 的功能，並為您在 .NET 應用程式中進行影像操作的無數可能性打開了大門。
+恭喜！您已成功使用 Aspose.PSD for .NET 對影像進行模糊處理。本教學讓您一窺 Aspose.PSD 的功能，並為您在 .NET 應用程式中進行影像操作的多種可能性打開了大門。
 
 ## 常見問題解答
 

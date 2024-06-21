@@ -9,7 +9,7 @@ url: /hu/java/advanced-image-manipulation/force-font-cache/
 ---
 ## Bevezetés
 
-Optimalizálni szeretné a betűtípus-gyorsítótárat az Aspose.PSD for Java segítségével? A betűtípus-gyorsítótár kulcsfontosságú szerepet játszik a Java-alkalmazások teljesítményének javításában, különösen összetett képfeldolgozási feladatok esetén. Ebben az átfogó útmutatóban végigvezetjük a betűtípus-gyorsítótár kényszerítésének folyamatán az Aspose.PSD for Java használatával. Akár tapasztalt fejlesztő, akár csak most kezdi a Java képfeldolgozást, ez az oktatóanyag célja, hogy segítsen zökkenőmentesen integrálni a font-gyorsítótárat projektjeibe.
+Optimalizálni szeretné a betűtípus-gyorsítótárat az Aspose.PSD for Java segítségével? A betűtípus-gyorsítótár kulcsfontosságú szerepet játszik a Java-alkalmazások teljesítményének javításában, különösen összetett képfeldolgozási feladatok esetén. Ebben az átfogó útmutatóban végigvezetjük a betűtípus-gyorsítótár kényszerítésének folyamatán az Aspose.PSD for Java használatával. Akár tapasztalt fejlesztő, akár csak most kezdi a Java képfeldolgozást, ez az oktatóanyag úgy készült, hogy segítsen zökkenőmentesen integrálni a betűtípus-gyorsítótárat projektjeibe.
 
 ## Előfeltételek
 

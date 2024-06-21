@@ -76,7 +76,7 @@ settings.setVerticalOffset(11);
 ## Étape 4 : Modifier les données du modèle
 
 ```java
-// Modifier les données du motif
+// Modifier les données du modèle
 PattResource resource;
 UUID guid = UUID.randomUUID();
 String newPatternName = "$$/Presets/Patterns/Pattern=Some new pattern name\0";
@@ -129,7 +129,7 @@ A1 : Aspose.PSD pour Java est conçu pour fonctionner indépendamment, mais vous
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir de l'assistance pour Aspose.PSD pour Java ?
 
@@ -137,4 +137,4 @@ A1 : Aspose.PSD pour Java est conçu pour fonctionner indépendamment, mais vous
 
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
 
-A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+A5 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).

@@ -56,13 +56,13 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## Çözüm
 
-Tebrikler! Aspose.PSD for .NET'te farklı imza türlerini başarıyla desteklediniz. Bu eğitim, süreçte zahmetsizce gezinebilmenizi sağlamak için gerekli adımları kapsamıştır.
+Tebrikler! Aspose.PSD for .NET'te farklı imza türlerini başarıyla desteklediniz. Bu eğitim, süreçte zahmetsizce gezinebilmenizi sağlayan temel adımları kapsar.
 
 ## SSS'ler
 
 ### S1: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A1: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
+ A1: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S2: Aspose.PSD for .NET kütüphanesini nasıl indirebilirim?
 
@@ -70,7 +70,7 @@ Tebrikler! Aspose.PSD for .NET'te farklı imza türlerini başarıyla destekledi
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Desteğe mi ihtiyacınız var veya sorularınız mı var?
 
@@ -78,4 +78,4 @@ Tebrikler! Aspose.PSD for .NET'te farklı imza türlerini başarıyla destekledi
 
 ### S5: Geçici bir lisans mı arıyorsunuz?
 
- Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/).

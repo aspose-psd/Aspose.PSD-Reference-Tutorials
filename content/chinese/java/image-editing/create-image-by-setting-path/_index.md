@@ -102,8 +102,8 @@ A1：是的，Aspose.PSD 可以与各种 Java 集成开发环境 (IDE) 无缝协
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以免费试用[这里](https://releases.aspose.com/).
+ A4：是的，您可以免费试用。[这里](https://releases.aspose.com/).
 
 ### Q5：测试需要临时许可证吗？
 
- A5：您可以获得临时许可证用于测试目的[这里](https://purchase.aspose.com/temporary-license/).
+ A5：您可以获得临时许可证用于测试目的。[这里](https://purchase.aspose.com/temporary-license/).

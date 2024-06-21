@@ -58,14 +58,14 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-//另存为 PNG，100% 不透明度
+//另存为 PNG，不透明度为 100%。
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
 //继续执行后续步骤...
 ```
 
-## 第三步：设置不透明度
+## 第 3 步：设置不透明度
 
 设置 PSD 文件中特定图层的不透明度。在这里，我们将不透明度设置为 50%。
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 //将不透明度设置为 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-//另存为 PNG，不透明度为 50%
+//另存为 PNG，不透明度为 50%。
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

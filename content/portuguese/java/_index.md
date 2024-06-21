@@ -64,3 +64,11 @@ Explore tutoriais avançados de manipulação de imagens com Aspose.PSD para Jav
 Eleve suas habilidades de design gráfico com tutoriais Aspose.PSD para Java. Aprenda desenho, redimensionamento, modos de mesclagem e verificação de transparência em um guia passo a passo.
 ### [Efeitos de imagem avançados](./advanced-image-effects/)
 Eleve seus designs gráficos Java com Aspose.PSD! Domine efeitos de imagem avançados perfeitamente – desde gradientes e padrões até assinaturas e traços.
+### [Desenho gráfico Java](./java-graphics-drawing/)
+Explore os tutoriais do Aspose.PSD para Java sobre desenho gráfico. Aprenda a adicionar traços, desenhar formas e manipular arquivos PSD com guias passo a passo.
+### [Conversão de Java AI para formato de imagem](./java-ai-to-image-format-conversion/)
+Converta facilmente arquivos AI para vários formatos em Java usando Aspose.PSD. Siga nossos guias completos para conversões de imagens perfeitas e de alta qualidade.
+### [Conversão de Java PSB para formato de imagem](./java-psb-to-image-format-conversion/)
+Converta facilmente PSB para JPG, PDF e PSD em Java usando Aspose.PSD. Siga nossos tutoriais para conversões de imagens perfeitas e aprimore seus projetos.
+### [Processamento de imagem Java JPEG](./java-jpeg-image-processing/)
+Descubra os tutoriais do Aspose.PSD para Java. Aprenda a lidar com processamento EXIF, JFIF, JPEG e muito mais com guias passo a passo e exemplos de código.

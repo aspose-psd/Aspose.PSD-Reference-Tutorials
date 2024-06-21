@@ -2,7 +2,7 @@
 title: Utilisation des courbes de Bézier dans Aspose.PSD pour .NET
 linktitle: Utiliser les courbes de Bézier
 second_title: API Aspose.PSD.NET
-description: Libérez la puissance des courbes de Bézier dans Aspose.PSD pour .NET ! Apprenez étape par étape avec ce tutoriel. Élevez votre jeu de conception graphique dès aujourd'hui.
+description: Libérez la puissance des courbes de Bézier dans Aspose.PSD pour .NET ! Apprenez étape par étape avec ce tutoriel. Élevez votre jeu de conception graphique dès aujourd’hui.
 type: docs
 weight: 12
 url: /fr/net/psd-drawing-techniques/utilizing-bezier-curves/
@@ -101,7 +101,7 @@ A3 : Absolument ! Aspose.PSD pour .NET est conçu pour les tâches de traitement
 
 ### Q4 : Où puis-je trouver le support communautaire pour Aspose.PSD pour .NET ?
 
- A4 : Rejoignez la communauté Aspose.PSD sur[ce forum](https://forum.aspose.com/c/psd/34) pour des échanges et du soutien.
+ A4 : Rejoignez la communauté Aspose.PSD sur[ce forum](https://forum.aspose.com/c/psd/34) pour discuter et vous soutenir.
 
 ### Q5 : Existe-t-il des ressources gratuites pour apprendre Aspose.PSD pour .NET ?
 

@@ -64,3 +64,11 @@ Khám phá các hướng dẫn thao tác hình ảnh nâng cao với Aspose.PSD 
 Nâng cao kỹ năng thiết kế đồ họa của bạn với các hướng dẫn Aspose.PSD cho Java. Tìm hiểu cách vẽ, thay đổi kích thước, chế độ hòa trộn và xác minh độ trong suốt trong hướng dẫn từng bước.
 ### [Hiệu ứng hình ảnh nâng cao](./advanced-image-effects/)
 Nâng cao thiết kế đồ họa Java của bạn với Aspose.PSD! Làm chủ các hiệu ứng hình ảnh nâng cao một cách liền mạch – từ độ dốc và mẫu cho đến chữ ký và nét vẽ.
+### [Vẽ đồ họa Java](./java-graphics-drawing/)
+Khám phá Aspose.PSD để biết các hướng dẫn Java về vẽ đồ họa. Tìm hiểu cách thêm nét, vẽ hình và thao tác với tệp PSD bằng hướng dẫn từng bước.
+### [Chuyển đổi định dạng Java AI sang hình ảnh](./java-ai-to-image-format-conversion/)
+Dễ dàng chuyển đổi các tệp AI sang các định dạng khác nhau trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn toàn diện của chúng tôi để chuyển đổi hình ảnh chất lượng cao, liền mạch.
+### [Chuyển đổi định dạng Java PSB sang hình ảnh](./java-psb-to-image-format-conversion/)
+Dễ dàng chuyển đổi PSB sang JPG, PDF và PSD trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn của chúng tôi để chuyển đổi hình ảnh liền mạch và cải thiện dự án của bạn.
+### [Xử lý ảnh JPEG của Java](./java-jpeg-image-processing/)
+Khám phá Aspose.PSD để biết các hướng dẫn về Java. Tìm hiểu cách xử lý xử lý EXIF, JFIF, JPEG, v.v. bằng hướng dẫn từng bước và ví dụ về mã.

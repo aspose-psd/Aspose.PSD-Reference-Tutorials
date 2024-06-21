@@ -87,7 +87,7 @@ A1: Absoluut! Aspose.PSD wordt geleverd met uitgebreide documentatie om ontwikke
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning vinden voor Aspose.PSD voor Java?
 
@@ -95,4 +95,4 @@ A1: Absoluut! Aspose.PSD wordt geleverd met uitgebreide documentatie om ontwikke
 
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD?
 
- A5: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: U kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/).

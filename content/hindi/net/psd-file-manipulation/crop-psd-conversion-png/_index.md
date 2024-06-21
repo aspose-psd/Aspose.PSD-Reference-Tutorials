@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // PngOptions वर्ग का एक उदाहरण बनाएँ
 PngOptions pngOptions = new PngOptions();
 ```
-## चरण 5: क्रॉप की गई छवि को पीएनजी के रूप में सहेजें
+## चरण 5: क्रॉप की गई छवि को पीएनजी के रूप में सहेजें।
 ```csharp
 // PSD फ़ाइल को PNG में बदलने और आउटपुट को सहेजने के लिए सेव विधि को कॉल करें, आउटपुट पथ और PngOptions प्रदान करें
 string destName = dataDir + @"export.png";

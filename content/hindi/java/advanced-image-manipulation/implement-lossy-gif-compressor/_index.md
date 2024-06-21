@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## चरण 5: संपीड़ित GIF सहेजें
+## चरण 5: संपीड़ित GIF सहेजें।
 
  का उपयोग करके संपीड़ित GIF छवि को सहेजें`image.save` निर्दिष्ट के साथ विधि`GifOptions`.
 
@@ -85,12 +85,12 @@ A1: Java के लिए Aspose.PSD जावा अनुप्रयोगो
 
 ### Q3: मैं जावा के लिए Aspose.PSD के लिए दस्तावेज़ कहां पा सकता हूं?
 
-A3: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/psd/java/).
+A3: दस्तावेज़ उपलब्ध है.[यहाँ](https://reference.aspose.com/psd/java/).
 
 ### Q4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ4: हाँ, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ उ4: हाँ, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं।[यहाँ](https://releases.aspose.com/).
 
 ### Q5: मैं जावा के लिए Aspose.PSD कैसे खरीद सकता हूं?
 
- A5: आप लाइब्रेरी खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+ A5: आप लाइब्रेरी खरीद सकते हैं.[यहाँ](https://purchase.aspose.com/buy).

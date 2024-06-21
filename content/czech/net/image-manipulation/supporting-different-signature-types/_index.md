@@ -56,13 +56,13 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste podporovali různé typy podpisů v Aspose.PSD pro .NET. Tento výukový program pokryl základní kroky a zajistil, že budete moci procházet procesem bez námahy.
+Gratulujeme! Úspěšně jste podporovali různé typy podpisů v Aspose.PSD pro .NET. Tento výukový program pokrývá základní kroky a zajišťuje, že můžete procesem procházet bez námahy.
 
 ## FAQ
 
 ### Q1: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A1: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
+ A1: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak mohu stáhnout knihovnu Aspose.PSD pro .NET?
 
@@ -70,7 +70,7 @@ Gratulujeme! Úspěšně jste podporovali různé typy podpisů v Aspose.PSD pro
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Potřebujete podporu nebo máte otázky?
 
@@ -78,4 +78,4 @@ Gratulujeme! Úspěšně jste podporovali různé typy podpisů v Aspose.PSD pro
 
 ### Q5: Hledáte dočasnou licenci?
 
- A5: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

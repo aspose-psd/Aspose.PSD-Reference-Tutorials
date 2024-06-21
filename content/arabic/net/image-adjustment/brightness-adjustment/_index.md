@@ -57,7 +57,7 @@ RasterCachedImage rasterImage = image;
 ## الخطوة 3: ضبط السطوع
 
 ```csharp
-// اضبط قيمة السطوع. تقع قيم السطوع المقبولة في النطاق [-255، 255].
+// اضبط قيمة السطوع. قيم السطوع المقبولة تقع في النطاق [-255، 255].
 rasterImage.AdjustBrightness(-50);
 ```
 
@@ -80,7 +80,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### س1: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ .NET؟
 
- ج1: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).
+ ج1: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/net/).
 
 ### س2: كيف يمكنني تنزيل Aspose.PSD لمكتبة .NET؟
 
@@ -88,7 +88,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س 4: أين يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
@@ -96,4 +96,4 @@ rasterImage.Save(destName, tiffOptions);
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).

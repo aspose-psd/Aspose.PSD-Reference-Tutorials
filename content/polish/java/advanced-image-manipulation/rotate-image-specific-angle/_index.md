@@ -9,7 +9,7 @@ url: /pl/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
 ## Wstęp
 
-W dynamicznym świecie programowania w języku Java manipulowanie obrazami jest powszechnym wymogiem w różnych aplikacjach. Aspose.PSD dla Java jawi się jako solidne rozwiązanie, zapewniające zaawansowane funkcje umożliwiające bezproblemową obsługę rotacji obrazu. W tym samouczku przeprowadzimy Cię przez proces obracania obrazu pod określonym kątem przy użyciu Aspose.PSD dla Java. Zanim zagłębimy się w szczegóły, przygotujmy scenę z pewnymi warunkami wstępnymi.
+W dynamicznym świecie programowania w języku Java manipulowanie obrazami jest powszechnym wymogiem w przypadku różnych aplikacji. Aspose.PSD dla Java jawi się jako solidne rozwiązanie, zapewniające zaawansowane funkcje umożliwiające bezproblemową obsługę rotacji obrazu. W tym samouczku przeprowadzimy Cię przez proces obracania obrazu pod określonym kątem przy użyciu Aspose.PSD dla Java. Zanim zagłębimy się w szczegóły, przygotujmy scenę z pewnymi warunkami wstępnymi.
 
 ## Warunki wstępne
 

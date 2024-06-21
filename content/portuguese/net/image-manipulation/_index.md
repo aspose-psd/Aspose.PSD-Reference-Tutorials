@@ -9,7 +9,7 @@ url: /pt/net/image-manipulation/
 ---
 ## Introdução
 
- manipulação de imagens é uma habilidade vital para qualquer desenvolvedor ou designer que trabalha com .NET, e Aspose.PSD para .NET fornece um kit de ferramentas poderoso para aprimorar seus recursos. Neste tutorial, nos aprofundaremos em várias técnicas de manipulação de imagens que podem ser aplicadas perfeitamente usando[Aspose.PSD](https://www.aspose.com/products/psd).
+ manipulação de imagens é uma habilidade vital para qualquer desenvolvedor ou designer que trabalhe com .NET, e Aspose.PSD for .NET fornece um kit de ferramentas poderoso para aprimorar seus recursos. Neste tutorial, nos aprofundaremos em várias técnicas de manipulação de imagens que podem ser aplicadas perfeitamente usando[Aspose.PSD](https://www.aspose.com/products/psd).
 
 ## Combinando Imagens
 

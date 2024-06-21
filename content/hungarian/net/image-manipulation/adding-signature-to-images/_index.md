@@ -16,7 +16,7 @@ A .NET fejlesztés területén az Aspose.PSD hatékony eszköz a képek manipul�
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 
 - C# és .NET fejlesztési ismeretek.
-- Visual Studio telepítve van a gépedre.
+- A Visual Studio telepítve van a gépedre.
 -  Aspose.PSD for .NET könyvtár, amelyet letölthet[itt](https://releases.aspose.com/psd/net/).
 
 ## Névterek importálása
@@ -102,4 +102,4 @@ V1: Igen, minden további aláírásnál megismételheti a folyamatot.
 
 ### 5. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
- 5. válasz: Természetesen ingyenes próbaverzió áll rendelkezésre[itt](https://releases.aspose.com/).
+ 5. válasz: Természetesen ingyenes próbaverzió áll rendelkezésre.[itt](https://releases.aspose.com/).

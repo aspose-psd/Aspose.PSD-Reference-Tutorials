@@ -102,4 +102,4 @@ Odpověď 3: Můžete implementovat bloky try-catch pro bezproblémové zpracov�
 
 ### Q5: Mohu vyzkoušet Aspose.PSD před nákupem?
 
- A5: Jistě, je k dispozici bezplatná zkušební verze[tady](https://releases.aspose.com/).
+ A5: Jistě, je k dispozici bezplatná zkušební verze.[tady](https://releases.aspose.com/).

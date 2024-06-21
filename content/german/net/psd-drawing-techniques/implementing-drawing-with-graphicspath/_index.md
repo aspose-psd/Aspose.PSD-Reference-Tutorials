@@ -51,7 +51,7 @@ In diesem Schritt initialisieren wir eine Instanz der PsdImage-Klasse und ein Gr
 ## Schritt 2: GraphicsPath und Figure erstellen
 
 ```csharp
-// Erstellen Sie eine Instanz von GraphicsPath und Instance of Figure und fügen Sie der Figur EllipseShape, RechteckShape und TextShape hinzu
+// Erstellen Sie eine Instanz von GraphicsPath und Instance of Figure und fügen Sie der Figur EllipseShape, RechteckShape und TextShape hinzu.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -75,7 +75,7 @@ image.Save(dataDir + "DrawingUsingGraphicsPath_output.psd");
 Console.WriteLine("Processing completed successfully.");
 ```
 
-In diesem letzten Schritt zeichnen wir den Pfad mithilfe der DrawPath-Methode mit einer angegebenen Stiftfarbe. Darüber hinaus erstellen wir einen HatchBrush, legen seine Eigenschaften fest und verwenden ihn zum Füllen des Pfads. Abschließend speichern wir das bearbeitete Bild.
+In diesem letzten Schritt zeichnen wir den Pfad mithilfe der DrawPath-Methode mit einer angegebenen Stiftfarbe. Darüber hinaus erstellen wir einen HatchBrush, legen seine Eigenschaften fest und verwenden ihn zum Füllen des Pfads. Abschließend speichern wir das verarbeitete Bild.
 
 ## Abschluss
 
@@ -101,4 +101,4 @@ A4: Ja, Aspose.PSD für .NET bietet Funktionen zum Arbeiten mit Ebenen in Photos
 
 ### F5: Wo finde ich die Dokumentation für Aspose.PSD für .NET?
 
- A5: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/psd/net/).
+ A5: Die Dokumentation ist verfügbar.[Hier](https://reference.aspose.com/psd/net/).

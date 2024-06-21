@@ -78,7 +78,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java hỗ trợ nhiều định dạng h
 
 ### Câu hỏi 2: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- Câu trả lời 2: Có, bạn có thể khám phá bản dùng thử miễn phí Aspose.PSD dành cho Java bằng cách truy cập[liên kết này](https://releases.aspose.com/).
+ Câu trả lời 2: Có, bạn có thể khám phá bản dùng thử miễn phí Aspose.PSD dành cho Java bằng cách truy cập.[liên kết này](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu toàn diện về Aspose.PSD cho Java ở đâu?
 
@@ -90,4 +90,4 @@ Câu trả lời 1: Có, Aspose.PSD cho Java hỗ trợ nhiều định dạng h
 
 ### Câu hỏi 5: Có giấy phép tạm thời cho Aspose.PSD dành cho Java không?
 
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

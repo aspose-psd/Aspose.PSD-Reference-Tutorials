@@ -30,9 +30,9 @@ using Aspose.PSD.FileFormats.Tiff.Enums;
 using Aspose.PSD.ImageOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดรูปภาพ
+## ขั้นตอนที่ 1: โหลดภาพ
 
- โหลดอิมเมจต้นฉบับลงในอินสแตนซ์ของ`RasterImage` ระดับ.
+โหลดอิมเมจต้นฉบับลงในอินสแตนซ์ของ`RasterImage` ชั้นเรียน
 
 ```csharp
 //ExStart:LoadImage

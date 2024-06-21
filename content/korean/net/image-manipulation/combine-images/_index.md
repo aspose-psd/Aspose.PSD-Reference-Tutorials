@@ -11,7 +11,7 @@ url: /ko/net/image-manipulation/combine-images/
 
 .NET용 Aspose.PSD를 사용하여 이미지를 결합하는 단계별 튜토리얼에 오신 것을 환영합니다! Aspose.PSD는 개발자가 Adobe Photoshop 파일을 원활하게 사용할 수 있게 해주는 강력한 .NET 라이브러리입니다. 이 튜토리얼에서는 Aspose.PSD를 사용하여 이미지를 결합하는 과정을 안내하고 실제 사례와 자세한 단계를 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

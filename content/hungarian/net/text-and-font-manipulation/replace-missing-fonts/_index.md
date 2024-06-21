@@ -70,7 +70,7 @@ Gratulálunk! Sikeresen elsajátította a betűtípus-csere művészetét az Asp
 
 ### 4. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.PSD számára?
 
- V4: Igen, ideiglenes engedélyt kaphat[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Igen, ideiglenes engedélyt kaphat.[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol találom az Aspose.PSD átfogó dokumentációját?
 

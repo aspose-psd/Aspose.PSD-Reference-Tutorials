@@ -96,7 +96,7 @@ O2: Tak, Aspose.PSD dla .NET oferuje różne właściwości dostrajania efektów
 
 ### P3: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
- A3: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A3: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P4: Czy Aspose.PSD dla .NET jest kompatybilny z .NET Core?
 

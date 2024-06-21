@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## Langkah 4: Tentukan Nilai Pergeseran untuk Pemangkasan
 
-Tentukan nilai pergeseran untuk sisi kiri, kanan, atas, dan bawah gambar. Sesuaikan nilai-nilai ini berdasarkan kebutuhan pemangkasan Anda.
+Tentukan nilai pergeseran sisi kiri, kanan, atas, dan bawah gambar. Sesuaikan nilai-nilai ini berdasarkan kebutuhan pemangkasan Anda.
 
 ```csharp
 int leftShift = 10;
@@ -96,7 +96,7 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, memungkinkan Anda memotong 
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
- A3: Anda dapat memperoleh lisensi sementara untuk tujuan pengujian[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A3: Anda dapat memperoleh lisensi sementara untuk tujuan pengujian.[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Di mana saya dapat menemukan dukungan dan diskusi tambahan terkait Aspose.PSD?
 

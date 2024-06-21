@@ -52,7 +52,7 @@ foreach (var imageResource in imageResources)
 ```
 ## Fase 4: aggiornare la risorsa informativa sulle frontiere
 ```csharp
-// aggiorna BorderInformationResource
+// aggiornare BorderInformationResource
 borderInfoResource.Width = 0.1;
 borderInfoResource.Unit = PhysicalUnit.Inches;
 image.Save(outputFilePath);
@@ -80,7 +80,7 @@ A1: Sì, Aspose.PSD per .NET è compatibile con vari framework .NET.
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere supporto?
 
@@ -88,4 +88,4 @@ A1: Sì, Aspose.PSD per .NET è compatibile con vari framework .NET.
 
 ### Q5: Sono disponibili licenze temporanee?
 
- R5: Sì, puoi ottenere licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: Sì, puoi ottenere licenze temporanee.[Qui](https://purchase.aspose.com/temporary-license/).

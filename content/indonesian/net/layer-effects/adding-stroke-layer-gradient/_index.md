@@ -106,7 +106,7 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET.
 
 ### Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk .NET?
 
- A2: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A2: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -118,4 +118,4 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET.
 
 ### Q5: Bagaimana cara membeli lisensi Aspose.PSD untuk .NET?
 
- A5: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+ A5: Anda dapat membeli lisensi.[Di Sini](https://purchase.aspose.com/buy).

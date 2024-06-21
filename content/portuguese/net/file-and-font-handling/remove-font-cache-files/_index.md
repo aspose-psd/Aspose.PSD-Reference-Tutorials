@@ -88,7 +88,7 @@ R2: Embora seja possível, é recomendável remover os arquivos de cache de font
 
 ### Q4: Existe uma licença temporária disponível para Aspose.PSD para .NET?
 
- A4: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste.
+ A4: Sim, você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste.
 
 ### Q5: Posso comprar Aspose.PSD para .NET?
 

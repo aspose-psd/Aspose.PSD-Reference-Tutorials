@@ -51,7 +51,7 @@ finally
     // Verwijder het bestand. Deze verklaring bevindt zich in het laatste blok om te zorgen voor een juiste verwijdering van hulpbronnen.
     System.IO.File.Delete(imageDataPath);
 }
-//ExEnd: Afbeeldingen exporteren in MultiThreadEnv
+//ExEnd: Afbeeldingen exporteren in MultiThread Env
 ```
 ## Conclusie
 Het beheersen van multi-threaded beeldexport met Aspose.PSD voor .NET opent mogelijkheden voor het optimaliseren van beeldverwerkingstaken. Deze tutorial heeft u voorzien van de kennis om de kracht van Aspose.PSD te benutten voor verbeterde prestaties en efficiëntie in uw .NET-toepassingen.
@@ -68,11 +68,11 @@ A1: Ja, Aspose.PSD voor .NET ondersteunt verschillende versies van Photoshop-bes
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
- A3: Sluit u aan bij de Aspose.PSD-gemeenschap[forum](https://forum.aspose.com/c/psd/34) om hulp te krijgen van experts en collega-ontwikkelaars.
+ A3: Sluit u aan bij de Aspose.PSD-gemeenschap.[forum](https://forum.aspose.com/c/psd/34) om hulp te krijgen van experts en collega-ontwikkelaars.
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/) om Aspose.PSD te verkennen voor de functies van .NET voordat u een toezegging doet.
+ A4: Ja, u heeft toegang tot een gratis proefperiode.[hier](https://releases.aspose.com/) om Aspose.PSD te verkennen voor de functies van .NET voordat u een toezegging doet.
 
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD voor .NET?
 

@@ -96,7 +96,7 @@ A2: Sì, Aspose.PSD per .NET offre varie proprietà per la regolazione fine degl
 
 ### Q3: Come posso ottenere una licenza temporanea per Aspose.PSD per .NET?
 
- A3: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ A3: Puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Aspose.PSD per .NET è compatibile con .NET Core?
 

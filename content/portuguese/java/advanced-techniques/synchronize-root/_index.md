@@ -82,7 +82,7 @@ A1: Sim, Aspose.PSD para Java é compatível com Java versões 6 e superiores.
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode explorar uma avaliação gratuita do Aspose.PSD visitando[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode explorar uma avaliação gratuita do Aspose.PSD visitando.[aqui](https://releases.aspose.com/).
 
 ### Q5: Como posso obter uma licença temporária para Aspose.PSD?
 

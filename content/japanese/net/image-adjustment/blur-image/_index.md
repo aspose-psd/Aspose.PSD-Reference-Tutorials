@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## ステップ 4: ガウスぼかしフィルターを適用する
+## ステップ 4: ガウスぼかしフィルターを適用します。
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
-ここで、`GaussianBlurFilterOptions`クラスは、水平ぼかしと垂直ぼかしの両方に指定された半径 15 で利用されます。
+ここで、`GaussianBlurFilterOptions`クラスは、水平ぼかしと垂直ぼかしの両方に指定された半径 15 で使用されます。
 
 ## ステップ 5: ぼやけた画像を保存する
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## 結論
 
-おめでとう！ Aspose.PSD for .NET を使用して画像をぼかすことに成功しました。このチュートリアルでは、Aspose.PSD の機能を垣間見ることができ、.NET アプリケーションでの画像操作の無数の可能性への扉が開きます。
+おめでとう！ Aspose.PSD for .NET を使用して画像をぼかすことに成功しました。このチュートリアルでは、Aspose.PSD の機能を垣間見ることができ、.NET アプリケーションでの画像操作のさまざまな可能性への扉が開きます。
 
 ## よくある質問
 

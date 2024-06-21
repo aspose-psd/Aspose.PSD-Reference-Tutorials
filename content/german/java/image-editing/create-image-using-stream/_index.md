@@ -51,7 +51,7 @@ String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 
 Definieren Sie den gewünschten Namen für die Ausgabebilddatei.
 
-## Schritt 3: BmpOptions konfigurieren
+## Schritt 3: Konfigurieren Sie BmpOptions
 
 ```java
 BmpOptions imageOptions = new BmpOptions();
@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Erstellen Sie eine Instanz von`Image` durch Aufrufen der`create` Methode, Übergabe der konfigurierten`BmpOptions` und Angabe der Abmessungen des Bildes.
+ Erstellen Sie eine Instanz von`Image` durch die Einladung`create` Methode, Übergabe der konfigurierten`BmpOptions` und Angabe der Abmessungen des Bildes.
 
 ## Schritt 6: Bildverarbeitung
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Bilder mithilfe eines Streams in Aspose.PSD für Java erstellen. In diesem Tutorial wurden wesentliche Schritte behandelt, vom Importieren von Paketen bis zur endgültigen Bildverarbeitung und -speicherung. Experimentieren Sie mit verschiedenen Einstellungen und erkunden Sie zusätzliche Funktionen, um Ihre Möglichkeiten zur Bilderstellung zu verbessern.
+Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Bilder mithilfe eines Streams in Aspose.PSD für Java erstellen. Dieses Tutorial behandelt wesentliche Schritte, vom Importieren von Paketen bis zur endgültigen Bildverarbeitung und -speicherung. Experimentieren Sie mit verschiedenen Einstellungen und erkunden Sie zusätzliche Funktionen, um Ihre Möglichkeiten zur Bilderstellung zu verbessern.
 
 ## FAQs
 
@@ -105,11 +105,11 @@ A1: Ja, Aspose.PSD ist für die nahtlose Integration mit anderen Java-Bibliothek
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.PSD?
 
- A3: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf eine kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F4: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD?
 
- A4: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+ A4: Besorgen Sie sich eine temporäre Lizenz.[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Was sind die Systemanforderungen für Aspose.PSD?
 

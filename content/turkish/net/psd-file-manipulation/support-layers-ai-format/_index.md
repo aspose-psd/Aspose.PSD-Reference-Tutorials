@@ -26,7 +26,7 @@ using System;
 using System.IO;
 ```
 ## 1. Adım: AI Dosyasını Yükleyin
-Aşağıdaki kodu kullanarak AI dosyasını uygulamanıza yükleyin:
+AI dosyasını aşağıdaki kodu kullanarak uygulamanıza yükleyin:
 ```csharp
 string sourceFilePath = Path.Combine(dataDir, "form_8_2l3_7.ai");
 using (AiImage image = (AiImage)Image.Load(sourceFilePath))

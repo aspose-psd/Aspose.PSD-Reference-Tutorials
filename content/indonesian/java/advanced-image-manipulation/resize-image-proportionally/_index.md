@@ -1,7 +1,7 @@
 ---
 title: Ubah Ukuran Gambar Secara Proporsional dengan Aspose.PSD untuk Java
 linktitle: Ubah Ukuran Gambar Secara Proporsional
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Sempurnakan aplikasi Java Anda dengan Aspose.PSD. Ikuti panduan kami untuk mengubah ukuran gambar secara proporsional dengan mudah. Tingkatkan kemampuan penanganan gambar Anda hari ini.
 type: docs
 weight: 17
@@ -82,7 +82,7 @@ Dalam tutorial ini, kami membahas langkah-langkah penting untuk mengubah ukuran 
 
 ### Q3: Apakah lisensi sementara tersedia untuk tujuan pengujian?
 
- A3: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+ A3: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.PSD?
 

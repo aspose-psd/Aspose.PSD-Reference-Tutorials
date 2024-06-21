@@ -128,7 +128,7 @@ R2: Sí, puedes aplicar varios efectos, incluida la Superposición de degradado,
 
 ### P4: ¿Hay una prueba gratuita disponible?
 
- R4: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes acceder a una prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Cómo puedo obtener soporte para Aspose.PSD?
 

@@ -94,7 +94,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ### Q3: मैं जावा दस्तावेज़ीकरण के लिए Aspose.PSD कहां पा सकता हूं?
 
-A3: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/psd/java/).
+A3: दस्तावेज़ उपलब्ध है.[यहाँ](https://reference.aspose.com/psd/java/).
 
 ### Q4: मैं जावा के लिए Aspose.PSD के लिए समर्थन कैसे प्राप्त करूं?
 
@@ -102,4 +102,4 @@ A3: दस्तावेज़ उपलब्ध है[यहाँ](https://
 
 ### Q5: क्या जावा के लिए Aspose.PSD के लिए कोई अस्थायी लाइसेंस उपलब्ध है?
 
- A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/).

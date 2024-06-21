@@ -11,7 +11,7 @@ url: /ko/net/image-manipulation/adding-gradient-effects/
 
 그라데이션 효과로 이미지를 향상하면 시각적 콘텐츠에 매력적인 차원을 추가할 수 있습니다. .NET용 Aspose.PSD는 그라데이션 오버레이를 이미지에 통합하기 위한 강력한 플랫폼을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 그라데이션 효과를 추가하는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -139,7 +139,7 @@ A2: .NET용 Aspose.PSD는 PSD, PNG, JPEG, BMP 및 GIF를 포함한 다양한 이
 
 ### Q3: .NET용 Aspose.PSD에 사용할 수 있는 평가판이 있습니까?
 
- A3: 예, 다음에서 무료 평가판을 다운로드하여 .NET용 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: 예, 다음에서 무료 평가판을 다운로드하여 .NET용 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: .NET용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 

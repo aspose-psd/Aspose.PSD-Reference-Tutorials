@@ -68,11 +68,11 @@ Odpověď 1: Ano, Aspose.PSD for .NET podporuje různé verze souborů Photoshop
 
 ### Q3: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
- A3: Připojte se ke komunitě Aspose.PSD[Fórum](https://forum.aspose.com/c/psd/34) získat pomoc od odborníků a kolegů vývojářů.
+ A3: Připojte se ke komunitě Aspose.PSD.[Fórum](https://forum.aspose.com/c/psd/34) získat pomoc od odborníků a kolegů vývojářů.
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/) prozkoumat funkce Aspose.PSD for .NET, než se zavážete.
+ A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/) prozkoumat funkce Aspose.PSD for .NET, než se zavážete.
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.PSD pro .NET?
 

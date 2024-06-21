@@ -62,7 +62,7 @@ using (var image = (PsdImage)Image.Load(sourceFilePath))
     // บันทึกภาพที่แก้ไข
     image.Save(outputFilePath);
 }
-//ExEnd: SupportOfBackgroundColorResource
+//ตัวอย่าง: SupportOfBackgroundColorResource
 Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ```
 ## บทสรุป

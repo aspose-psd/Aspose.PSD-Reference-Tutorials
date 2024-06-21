@@ -72,7 +72,7 @@ image.save(destName, new PngOptions());
 
 Sla de gebinariseerde afbeelding op de opgegeven bestemming op met behulp van het PNG-formaat.
 
-Herhaal deze stappen voor uw specifieke gebruikssituatie en u hebt Bradley Thresholding met succes op uw afbeelding toegepast met behulp van Aspose.PSD voor Java.
+Herhaal deze stappen voor uw specifieke gebruiksscenario en u hebt Bradley Thresholding met succes op uw afbeelding toegepast met behulp van Aspose.PSD voor Java.
 
 ## Conclusie
 

@@ -95,7 +95,7 @@ A1: Sim, você pode definir padrões personalizados e aplicá-los usando Aspose.
 
 ### Q2: O Aspose.PSD for .NET é compatível com todos os formatos de imagem?
 
-A2: Aspose.PSD oferece suporte principalmente ao formato PSD (Adobe Photoshop), mas também fornece funcionalidade para conversão de imagens de e para outros formatos.
+A2: Aspose.PSD suporta principalmente o formato PSD (Adobe Photoshop), mas também fornece funcionalidade para converter imagens de e para outros formatos.
 
 ### P3: Como posso ajustar a opacidade da sobreposição do padrão?
 

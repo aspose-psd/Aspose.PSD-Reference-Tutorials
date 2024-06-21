@@ -9,7 +9,7 @@ url: /sv/java/image-processing/apply-gaussian-wiener-filters/
 ---
 ## Introduktion
 
-Välkommen till vår omfattande handledning om hur du använder Gauss- och Wienerfilter i Aspose.PSD för Java! I den här guiden går vi igenom processen för att förbättra dina bilder med dessa kraftfulla filter. Aspose.PSD för Java tillhandahåller en robust uppsättning funktioner för bildbehandling, och med användning av Gauss- och Wienerfilter kan du uppnå jämnare och mer förfinade bilder.
+Välkommen till vår omfattande handledning om hur du använder Gauss- och Wienerfilter i Aspose.PSD för Java! I den här guiden går vi igenom processen för att förbättra dina bilder med dessa kraftfulla filter. Aspose.PSD för Java tillhandahåller en robust uppsättning funktioner för bildbehandling, och med användning av Gauss- och Wiener-filter kan du uppnå jämnare och mer förfinade bilder.
 
 ## Förutsättningar
 
@@ -94,7 +94,7 @@ S2: Testversionen har begränsningar, och du kan utforska alla funktioner genom 
 
 ### F4: Finns det en tillfällig licens tillgänglig för teständamål?
 
- A4: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag hitta detaljerad dokumentation för Aspose.PSD för Java?
 

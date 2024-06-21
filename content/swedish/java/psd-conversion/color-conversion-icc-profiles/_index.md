@@ -67,7 +67,7 @@ image.save(dataDir + "Ycck_profiles.jpg", options);
 ```
 Följ dessa steg noggrant för att utföra färgkonvertering med ICC-profiler med Aspose.PSD för Java.
 ## Slutsats
-den här handledningen utforskade vi processen för färgkonvertering med ICC-profiler i Aspose.PSD för Java. Att förstå vikten av korrekt färgrepresentation är avgörande i olika applikationer, och med Aspose.PSD har du ett kraftfullt verktyg till ditt förfogande.
+I den här handledningen utforskade vi processen för färgkonvertering med ICC-profiler i Aspose.PSD för Java. Att förstå vikten av korrekt färgrepresentation är avgörande i olika applikationer, och med Aspose.PSD har du ett kraftfullt verktyg till ditt förfogande.
 ## Vanliga frågor
 ### Kan jag använda anpassade ICC-profiler med Aspose.PSD för Java?
 Jo det kan du. Byt bara ut de medföljande ICC-profilerna med dina anpassade profiler i koden.

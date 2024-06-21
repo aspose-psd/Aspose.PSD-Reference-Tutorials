@@ -23,7 +23,7 @@ Avant de vous lancer dans le didacticiel, assurez-vous que les conditions préal
 
 ## Importer des espaces de noms
 
-Commencez par importer les espaces de noms nécessaires dans votre projet .NET. Ces espaces de noms donnent accès aux classes et méthodes Aspose.PSD requises pour le recadrage d’image.
+Commencez par importer les espaces de noms nécessaires dans votre projet .NET. Ces espaces de noms donnent accès aux classes et méthodes Aspose.PSD requises pour le recadrage d’images.
 
 ```csharp
 using Aspose.PSD.ImageOptions;
@@ -96,7 +96,7 @@ A1 : Oui, Aspose.PSD prend en charge différents formats d'image, vous permettan
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour .NET ?
 
- A3 : Vous pouvez acquérir une licence temporaire à des fins de test[ici](https://purchase.aspose.com/temporary-license/).
+ A3 : Vous pouvez acquérir une licence temporaire à des fins de test.[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q4 : Où puis-je trouver une assistance supplémentaire et des discussions liées à Aspose.PSD ?
 

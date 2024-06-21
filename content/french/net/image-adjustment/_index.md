@@ -13,7 +13,7 @@ url: /fr/net/image-adjustment/
 
 ## Implémentation du réglage de la luminosité
 
- La luminosité joue un rôle crucial dans l’amélioration de l’image. Notre tutoriel sur la mise en œuvre du réglage de la luminosité dans[Aspose.PSD pour .NET](./brightness-adjustment/) fournit un guide transparent pour affiner les niveaux de luminosité. Découvrez les nuances et les astuces pour obtenir des résultats optimaux avec vos images.
+ La luminosité joue un rôle crucial dans l'amélioration de l'image. Notre tutoriel sur la mise en œuvre du réglage de la luminosité dans[Aspose.PSD pour .NET](./brightness-adjustment/) fournit un guide transparent pour affiner les niveaux de luminosité. Découvrez les nuances et les astuces pour obtenir des résultats optimaux avec vos images.
 
 ## Implémentation du réglage du contraste
 

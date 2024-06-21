@@ -70,7 +70,7 @@ A1: Ja, met Aspose.PSD kunt u lettertypen selectief per laag vervangen.
 
 ### V4: Zijn er tijdelijke licenties beschikbaar voor Aspose.PSD?
 
- A4: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Waar kan ik uitgebreide documentatie voor Aspose.PSD vinden?
 

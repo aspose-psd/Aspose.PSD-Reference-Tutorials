@@ -24,7 +24,7 @@ Hozzon létre egy új .NET-projektet, vagy nyisson meg egy meglévőt a kívánt
 ## 2. lépés: Vegye fel az Aspose.PSD könyvtárat
  Adjon hozzá hivatkozást az Aspose.PSD könyvtárra a projektben. Ezt úgy teheti meg, hogy letölti a könyvtárat a[Aspose.PSD letöltési oldal](https://releases.aspose.com/psd/net/).
 ## 3. lépés: Inicializálja az Aspose.PSD-t
-kódban inicializálja az Aspose.PSD-t a PSD-fájl betöltésével:
+A kódban inicializálja az Aspose.PSD-t a PSD-fájl betöltésével:
 ```csharp
 string dataDir = "Your Document Directory";
 string sourceFileName = dataDir + "1.psd";
@@ -38,7 +38,7 @@ Alkalmazza a megfelelő Crop módszert a PSD-fájlokhoz. Adja meg a vágási par
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Állítsa be az értékeket a Téglalap konstruktorban a vágási követelményeknek megfelelően.
+Állítsa be az értékeket a Téglalap konstruktorban a vágási igényeknek megfelelően.
 ## 5. lépés: Mentse el a kivágott képet
 Mentse el a kivágott képet PSD és PNG formátumban is:
 ```csharp

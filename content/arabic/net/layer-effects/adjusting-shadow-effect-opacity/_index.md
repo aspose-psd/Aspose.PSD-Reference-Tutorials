@@ -96,7 +96,7 @@ File.Delete(outputImage200);
 
 ### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج3: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج3: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س 4: هل Aspose.PSD لـ .NET متوافق مع .NET Core؟
 

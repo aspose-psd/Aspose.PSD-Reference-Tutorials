@@ -80,7 +80,7 @@ A1: Ja, Aspose.PSD voor .NET is compatibel met verschillende .NET-frameworks, wa
 
 ### V4: Zijn er tijdelijke licenties beschikbaar voor Aspose.PSD voor .NET?
 
- A4: Ja, u kunt tijdelijke licenties verkrijgen voor Aspose.PSD voor .NET[hier](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, u kunt tijdelijke licenties verkrijgen voor Aspose.PSD voor .NET.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Waar kan ik gedetailleerde documentatie vinden voor Aspose.PSD voor .NET?
 

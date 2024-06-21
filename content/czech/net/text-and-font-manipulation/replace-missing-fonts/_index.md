@@ -32,7 +32,7 @@ string outputFolder = "Your Output Directory";
 string sourceFileName = Path.Combine(dataDir, "sample_konstanting.psd");
 ```
 ## Krok 2: Nastavení pro nahrazení chybějících písem
-Nyní se zaměřme na základní funkce – nahrazení chybějících písem v souboru PSD. Poskytneme různé příklady pro různé výstupní formáty, každý s jedinečným náhradním písmem.
+Nyní se zaměřme na základní funkce – nahrazení chybějících písem v souboru PSD. Poskytneme různé příklady pro různé výstupní formáty, z nichž každý má své jedinečné náhradní písmo.
 ```csharp
 string[] outputs = new string[]
 {
@@ -70,8 +70,8 @@ Odpověď 1: Ano, Aspose.PSD umožňuje selektivně nahrazovat písma na základ
 
 ### Q4: Jsou k dispozici dočasné licence pro Aspose.PSD?
 
- A4: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu komplexní dokumentaci k Aspose.PSD?
 
- A5: Viz podrobné informace[dokumentace](https://reference.aspose.com/psd/net/) pro hloubkový náhled do funkcí Aspose.PSD.
+ A5: Viz podrobnosti[dokumentace](https://reference.aspose.com/psd/net/) pro hloubkový náhled do funkcí Aspose.PSD.

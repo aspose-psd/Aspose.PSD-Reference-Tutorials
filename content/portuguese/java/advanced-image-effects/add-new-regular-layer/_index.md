@@ -44,7 +44,7 @@ PsdImage im = (PsdImage)Image.load(sourceFileName);
 
 ## Etapa 2: preparar matrizes de dados e retângulos
 
-Prepare dois arrays int e dois objetos Rectangle da seguinte forma:
+Prepare dois arrays int e dois objetos Rectangle da seguinte maneira:
 
 ```java
 int[] data1 = new int[2500];
@@ -111,7 +111,7 @@ A2: Com certeza! Aspose.PSD oferece uma variedade de opções de transformação
 
 ### Q3: Onde posso encontrar documentação adicional do Aspose.PSD?
 
- A3: Você pode consultar a documentação[aqui](https://reference.aspose.com/psd/java/).
+ A3: Você pode consultar a documentação.[aqui](https://reference.aspose.com/psd/java/).
 
 ### Q4: Como posso obter uma licença temporária para Aspose.PSD?
 
@@ -119,4 +119,4 @@ A2: Com certeza! Aspose.PSD oferece uma variedade de opções de transformação
 
 ### Q5: Existe algum fórum da comunidade para suporte do Aspose.PSD?
 
- A5: Sim, você pode encontrar suporte e discussões[aqui](https://forum.aspose.com/c/psd/34).
+ A5: Sim, você pode encontrar suporte e discussões.[aqui](https://forum.aspose.com/c/psd/34).

@@ -102,8 +102,8 @@ A1: Ja, Aspose.PSD funktioniert nahtlos mit verschiedenen Java Integrated Develo
 
 ### F4: Gibt es eine kostenlose Testversion?
 
- A4: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F5: Benötige ich zum Testen eine temporäre Lizenz?
 
- A5: Zu Testzwecken können Sie eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Zu Testzwecken können Sie eine temporäre Lizenz erwerben.[Hier](https://purchase.aspose.com/temporary-license/).

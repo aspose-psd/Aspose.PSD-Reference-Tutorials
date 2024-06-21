@@ -18,7 +18,7 @@ Ben je klaar om de geheimen van grafisch ontwerp te ontsluieren? Duik in de were
 
 ## Het formaat wijzigen is eenvoudig gemaakt
 
- Bewerk afbeeldingsformaten efficiënt programmatisch met[Aspose.PSD voor Java](./simple-resizing/). Onze gebruiksvriendelijke gids vereenvoudigt het formaatwijzigingsproces, zodat u elk detail begrijpt. Van de basis tot geavanceerde technieken, deze tutorial behandelt het allemaal. Duik erin en transformeer uw afbeeldingen naadloos met Aspose.PSD.
+ Bewerk afbeeldingsformaten efficiënt programmatisch met[Aspose.PSD voor Java](./simple-resizing/)Onze gebruiksvriendelijke gids vereenvoudigt het formaatwijzigingsproces, zodat u elk detail begrijpt. Van de basis tot geavanceerde technieken, deze tutorial behandelt het allemaal. Duik erin en transformeer uw afbeeldingen naadloos met Aspose.PSD.
 
 ## Versterkende effecten: ondersteuning van mengmodi
 
@@ -30,7 +30,7 @@ Ben je klaar om de geheimen van grafisch ontwerp te ontsluieren? Duik in de were
 
 ## Transparantie onthuld: controleer de transparantie van de afbeelding
 
- Ontdek het domein van de verificatie van beeldtransparantie met[Aspose.PSD voor Java](./verify-image-transparency/). Deze tutorial integreert naadloos transparantie in uw ontwerpen, met gedetailleerde documentatie en uitstekende community-ondersteuning. Verbeter uw ontwerpprojecten met de zekerheid van geverifieerde beeldtransparantie met behulp van Aspose.PSD voor Java.
+ Ontdek het domein van de verificatie van beeldtransparantie met[Aspose.PSD voor Java](./verify-image-transparency/)Deze tutorial integreert naadloos transparantie in uw ontwerpen, met gedetailleerde documentatie en uitstekende community-ondersteuning. Verbeter uw ontwerpprojecten met de zekerheid van geverifieerde beeldtransparantie met behulp van Aspose.PSD voor Java.
 
 Kortom, deze tutorials bieden een holistisch inzicht in de basisbewerkingen van afbeeldingen met Aspose.PSD voor Java. Of u nu een beginnende of een ervaren ontwerper bent, ontgrendel het potentieel van grafisch ontwerp met onze stapsgewijze handleidingen. Duik erin en laat je creativiteit bloeien!
 ## Basishandleidingen voor beeldbewerkingen

@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Đảm bảo bạn đã cài đặt thư viện Aspose.PSD trong dự án của mình. Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/psd/net/).
+Đảm bảo bạn đã cài đặt thư viện Aspose.PSD trong dự án của mình. Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/psd/net/).
 
 ## Bước 1: Xác định thư mục tài liệu của bạn
 
@@ -93,7 +93,7 @@ A2: Chắc chắn rồi! Aspose.PSD cho phép bạn thực hiện xử lý ảnh
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.PSD[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.PSD.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm thế nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm sự trợ giúp?
 

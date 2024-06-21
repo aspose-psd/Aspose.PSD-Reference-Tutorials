@@ -88,7 +88,7 @@ O2: O ile to możliwe, zaleca się usunięcie plików pamięci podręcznej czcio
 
 ### P4: Czy dostępna jest tymczasowa licencja na Aspose.PSD dla .NET?
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych.
+ Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych.
 
 ### P5: Czy mogę kupić Aspose.PSD dla .NET?
 

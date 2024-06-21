@@ -40,7 +40,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 ```
 
-ตรวจสอบให้แน่ใจว่าได้แทนที่ "Your Document Directory" ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ของคุณ
+ตรวจสอบให้แน่ใจว่าได้แทนที่ “Your Document Directory” ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ของคุณ
 
 ## ขั้นตอนที่ 2: การสร้าง BmpOptions
 
@@ -74,7 +74,7 @@ using (Image image = new PsdImage(100, 100))
     graphic.DrawLine(new Pen(Color.Blue), 9, 90, 90, 9);
 ```
 
-วาดเส้นทแยงมุมประสองเส้นด้วยปากกาสีน้ำเงินโดยการระบุพิกัด
+วาดเส้นทแยงมุมประสองเส้นด้วยปากกาสีน้ำเงินโดยระบุพิกัด
 
 ## ขั้นตอนที่ 5: การวาดเส้นต่อเนื่อง
 

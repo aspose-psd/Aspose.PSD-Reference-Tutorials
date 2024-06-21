@@ -82,7 +82,7 @@ O1: Tak, Aspose.PSD for Java jest kompatybilny z wersją Java 6 i nowszą.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD odwiedzając stronę[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD odwiedzając stronę.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
 

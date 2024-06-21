@@ -78,7 +78,7 @@ O1: Tak, Aspose.PSD dla Java obsługuje różne formaty obrazów, w tym PSD, PNG
 
 ### P2: Czy dostępna jest tymczasowa licencja na Aspose.PSD dla Java?
 
- Odpowiedź 2: Tak, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A2: Tak, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla Java?
 
@@ -86,7 +86,7 @@ O1: Tak, Aspose.PSD dla Java obsługuje różne formaty obrazów, w tym PSD, PNG
 
 ### P4: Czy mogę pobrać bibliotekę Aspose.PSD dla Java?
 
- O4: Tak, pobierz bibliotekę ze strony wydań[Tutaj](https://releases.aspose.com/psd/java/).
+ O4: Tak, pobierz bibliotekę ze strony wydań.[Tutaj](https://releases.aspose.com/psd/java/).
 
 ### P5: Jak kupić Aspose.PSD dla Java?
 

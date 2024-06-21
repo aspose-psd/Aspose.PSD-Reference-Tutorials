@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-次に、サンプル コードを、Aspose.PSD for Java プロジェクトに割り込みモニターを組み込むためのステップバイステップ ガイドに分解してみましょう。
+次に、サンプル コードを、Aspose.PSD for Java プロジェクトに割り込みモニターを統合するためのステップバイステップ ガイドに分解してみましょう。
 
 ## ステップ 1: ドキュメント ディレクトリを設定する
 

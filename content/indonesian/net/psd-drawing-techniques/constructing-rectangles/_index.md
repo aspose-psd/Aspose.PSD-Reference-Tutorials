@@ -79,7 +79,7 @@ Selamat! Anda telah berhasil membuat persegi panjang menggunakan Aspose.PSD untu
 
 A1: Ya, Aspose.PSD dirancang untuk bekerja dengan berbagai lingkungan .NET, memastikan kompatibilitas di berbagai platform.
 
-### Q2: Bisakah saya menggunakan Aspose.PSD untuk proyek komersial tanpa lisensi?
+### Q2: Dapatkah saya menggunakan Aspose.PSD untuk proyek komersial tanpa lisensi?
 
  A2: Tidak, diperlukan lisensi yang valid untuk penggunaan komersial. Dapatkan lisensi Anda[Di Sini](https://purchase.aspose.com/buy).
 

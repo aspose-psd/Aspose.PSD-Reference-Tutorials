@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PSD ในโปรเจ็กต์ของคุณ คุณสามารถค้นหาเอกสาร[ที่นี่](https://reference.aspose.com/psd/net/).
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PSD ในโปรเจ็กต์ของคุณ คุณสามารถค้นหาเอกสาร[ที่นี่](https://reference.aspose.com/psd/net/).
 
 ## ขั้นตอนที่ 1: กำหนดไดเร็กทอรีเอกสารของคุณ
 

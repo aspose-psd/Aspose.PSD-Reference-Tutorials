@@ -94,4 +94,4 @@ S2: Ja, Aspose.PSD stöder ett brett utbud av bildformat, inklusive PSD, BMP, JP
 
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- A5: Ja, du kan utforska den kostnadsfria testversionen[här](https://releases.aspose.com/).
+ A5: Ja, du kan utforska den kostnadsfria testversionen.[här](https://releases.aspose.com/).

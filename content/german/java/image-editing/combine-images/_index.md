@@ -106,7 +106,7 @@ A2: Auf jeden Fall! Nachdem Sie die Bilder kombiniert haben, können Sie die res
 
 ### F4: Gibt es eine kostenlose Testversion für Aspose.PSD?
 
- A4: Ja, Sie können Aspose.PSD mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können Aspose.PSD mit einer kostenlosen Testversion erkunden.[Hier](https://releases.aspose.com/).
 
 ### F5: Wo finde ich Unterstützung für Aspose.PSD-bezogene Abfragen?
 

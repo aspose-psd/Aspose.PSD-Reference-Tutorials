@@ -9,7 +9,7 @@ url: /hu/java/image-editing/implement-dithering/
 ---
 ## Bevezetés
 
-Ha javítani szeretné a raszteres képek vizuális minőségét Java nyelven, az Aspose.PSD hatékony megoldást kínál. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan valósítható meg a dithering az Aspose.PSD for Java használatával. A dithering olyan technika, amely bizonyos fokú zajt ad a képekhez, csökkenti a színsávokat és javítja az általános képminőséget.
+Ha javítani szeretné a raszteres képek vizuális minőségét Java nyelven, az Aspose.PSD hatékony megoldást kínál. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan valósítható meg a dithering az Aspose.PSD for Java használatával. A dithering egy olyan technika, amely bizonyos fokú zajt ad a képekhez, csökkenti a színsávokat és javítja az általános képminőséget.
 
 ## Előfeltételek
 

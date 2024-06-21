@@ -135,7 +135,7 @@ Câu trả lời 1: Có, Aspose.PSD dành cho .NET tương thích với nhiều 
 
 ### Câu hỏi 3: Có sẵn tệp PSD mẫu nào để thử nghiệm không?
 
- Câu trả lời 3: Bạn có thể tìm thấy các tệp PSD mẫu trong tài liệu[đây](https://reference.aspose.com/psd/net/).
+ Câu trả lời 3: Bạn có thể tìm thấy các tệp PSD mẫu trong tài liệu.[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 4: Aspose.PSD có phù hợp để xử lý hàng loạt tệp PSD không?
 

@@ -2,7 +2,7 @@
 title: Opanuj animowaną obsługę plików PSD w Aspose.PSD dla .NET
 linktitle: Obsługa animowanych sekcji danych
 second_title: Aspose.PSD API .NET
-description: Popraw swoje umiejętności posługiwania się językiem C# dzięki naszemu przewodnikowi krok po kroku dotyczącemu obsługi animowanych sekcji danych w Aspose.PSD dla .NET. Pobierz teraz, aby móc bezproblemowo manipulować plikami PSD!
+description: Popraw swoje umiejętności posługiwania się językiem C# dzięki naszemu przewodnikowi krok po kroku dotyczącemu obsługi animowanych sekcji danych w Aspose.PSD dla .NET. Pobierz teraz, aby bezproblemowo manipulować plikami PSD!
 type: docs
 weight: 12
 url: /pl/net/psd-file-manipulation/animated-data-sections/
@@ -84,7 +84,7 @@ Console.WriteLine("SupportOfAnimatedDataSection executed successfully");
 Informuje to użytkownika, że wykonanie zakończyło się pomyślnie.
 ## Wniosek
 
-Gratulacje! Pomyślnie nauczyłeś się obsługiwać animowane sekcje danych w Aspose.PSD dla .NET. Ta umiejętność może być nieoceniona przy tworzeniu dynamicznych i wciągających obrazów PSD z precyzyjną kontrolą nad animacją.
+Gratulacje! Pomyślnie nauczyłeś się obsługiwać animowane sekcje danych w Aspose.PSD dla .NET. Ta umiejętność może być nieoceniona przy tworzeniu dynamicznych i angażujących obrazów PSD z precyzyjną kontrolą nad animacją.
 
 ## Często zadawane pytania
 

@@ -27,7 +27,7 @@ import java.io.FileNotFoundException;
 ## Krok 1: Nastavte své prostředí
  Ujistěte se, že máte v systému nainstalované Java a Aspose.PSD for Java. Pokud ne, podívejte se na[dokumentace](https://reference.aspose.com/psd/java/) pro pokyny k instalaci.
 ## Krok 2: Import knihovny Aspose.PSD
-Do svého projektu Java zahrňte knihovnu Aspose.PSD tak, že ji přidáte do závislostí svého projektu. Knihovnu si můžete stáhnout[tady](https://releases.aspose.com/psd/java/).
+ Do svého projektu Java zahrňte knihovnu Aspose.PSD tak, že ji přidáte do závislostí svého projektu. Knihovnu si můžete stáhnout[tady](https://releases.aspose.com/psd/java/).
 ## Krok 3: Vytvořte objekt obrázku PSD
 Načtěte soubor obrázku PSD do aplikace Java pomocí poskytnutého kódu. Nahraďte "Your Document Directory" a "sample.psd" příslušnými cestami.
 ```java

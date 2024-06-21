@@ -1,7 +1,7 @@
 ---
 title: Konversi PSD
 linktitle: Konversi PSD
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Tingkatkan pemrosesan gambar Java Anda dengan Aspose.PSD! Pelajari cara mengonversi CMYK PSD ke CMYK TIFF, menguasai konversi warna, memotong file PSD, dan banyak lagi.
 type: docs
 weight: 21

@@ -11,11 +11,11 @@ url: /ko/net/image-effects/overlay-color-effect/
 
 .NET용 Aspose.PSD는 이미지 처리를 위한 강력한 기능 세트를 제공하므로 개발자는 쉽게 놀라운 효과를 얻을 수 있습니다. 그러한 기능 중 하나는 이미지에 색상 효과를 오버레이하는 것입니다. 이 튜토리얼에서는 ColorOverlay 효과에 중점을 두고 이를 이미지에 적용하여 시각적 매력을 변화시키는 방법을 보여줍니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-- .NET용 Aspose.PSD: 다음에서 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/psd/net/).
+-  .NET용 Aspose.PSD: 다음에서 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/psd/net/).
 - 문서 디렉터리: 소스 및 출력 파일을 저장할 디렉터리를 설정합니다.
 
 ## 네임스페이스 가져오기
@@ -85,11 +85,11 @@ A1: 예, .NET용 Aspose.PSD는 .NET Core 및 .NET Standard를 포함한 다양�
 
 ### Q2: .NET용 Aspose.PSD에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 
- A2: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/net/)자세한 정보와 코드 샘플을 확인하세요.
+ A2: 설명서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/net/) 자세한 정보와 코드 샘플을 확인하세요.
 
 ### Q3: .NET용 Aspose.PSD에 대한 무료 평가판이 있습니까?
 
- A3: 예, 무료 평가판을 다운로드하여 .NET용 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: 예, 무료 평가판을 다운로드하여 .NET용 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: .NET용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 

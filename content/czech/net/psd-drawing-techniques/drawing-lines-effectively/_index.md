@@ -98,7 +98,7 @@ Gratulujeme! Úspěšně jste se naučili, jak efektivně kreslit čáry pomocí
 
 ### Q1: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A1: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
+ A1: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak mohu stáhnout Aspose.PSD pro .NET?
 
@@ -106,7 +106,7 @@ Gratulujeme! Úspěšně jste se naučili, jak efektivně kreslit čáry pomocí
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -114,4 +114,4 @@ Gratulujeme! Úspěšně jste se naučili, jak efektivně kreslit čáry pomocí
 
 ### Q5: Potřebuji dočasnou licenci pro Aspose.PSD pro .NET?
 
- A5: V případě potřeby můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: V případě potřeby můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

@@ -11,7 +11,7 @@ url: /ko/java/advanced-image-manipulation/implement-bicubic-resampler/
 
 Java 개발 세계에서는 고품질 이미지 크기 조정을 달성하는 것이 일반적인 요구 사항입니다. Aspose.PSD for Java는 Bicubic Resampler를 통해 강력한 솔루션을 제공합니다. 이 단계별 가이드는 Java용 Aspose.PSD를 사용하여 Bicubic Resampler를 구현하는 과정을 안내합니다. 이 튜토리얼이 끝나면 뛰어난 이미지 크기 조정 기능으로 Java 애플리케이션을 향상시킬 수 있게 됩니다.
 
-## 전제 조건
+## 전제조건
 
 구현을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

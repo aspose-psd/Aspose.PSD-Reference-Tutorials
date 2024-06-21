@@ -96,8 +96,8 @@ A1：是的，Aspose.PSD支援各種影像格式，使得二值化適用於廣�
 
 ### Q4：如何購買Aspose.PSD庫？
 
- A4：您可以購買Aspose.PSD庫[這裡](https://purchase.aspose.com/buy).
+ A4：您可以購買Aspose.PSD庫。[這裡](https://purchase.aspose.com/buy).
 
 ### Q5: 有免費試用版嗎？
 
- A5：是的，您可以透過免費試用版探索 Aspose.PSD 的功能[這裡](https://releases.aspose.com/).
+ A5：是的，您可以透過免費試用版探索 Aspose.PSD 的功能。[這裡](https://releases.aspose.com/).

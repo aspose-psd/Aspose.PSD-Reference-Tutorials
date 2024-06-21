@@ -39,7 +39,7 @@ string outputFile = Path.Combine(outputDir, "output_edited.psd");
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {
     Timeline timeline = psdImage.Timeline;
-    // เพิ่มอีก 1 เฟรม
+    // เพิ่มอีกเฟรมหนึ่ง
     List<Frame> frames = new List<Frame>(timeline.Frames);
     frames.Add(new Frame());
     timeline.Frames = frames.ToArray();

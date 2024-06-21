@@ -70,8 +70,8 @@ O1: Tak, Aspose.PSD umożliwia selektywną wymianę czcionek dla każdej warstwy
 
 ### P4: Czy dostępne są licencje tymczasowe dla Aspose.PSD?
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Gdzie mogę znaleźć obszerną dokumentację dla Aspose.PSD?
 
- A5: Zapoznaj się ze szczegółami[dokumentacja](https://reference.aspose.com/psd/net/) aby uzyskać szczegółowy wgląd w funkcjonalności Aspose.PSD.
+ Odpowiedź 5: Zapoznaj się ze szczegółami[dokumentacja](https://reference.aspose.com/psd/net/) aby uzyskać szczegółowy wgląd w funkcjonalności Aspose.PSD.

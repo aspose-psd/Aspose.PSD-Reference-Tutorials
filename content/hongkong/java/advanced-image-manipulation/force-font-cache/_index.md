@@ -74,7 +74,7 @@ image1.save(dataDir + "HasFont.psd");
 
 A1：Aspose.PSD for Java 旨在與各種 Java 版本配合使用，確保與各種專案的兼容性。
 
-### Q2：我可以將Aspose.PSD用於商業用途嗎？
+### Q2：我可以將Aspose.PSD用於商業目的嗎？
 
  A2：是的，Aspose.PSD 具有靈活的授權選項，包括商業用途。參觀[購買頁面](https://purchase.aspose.com/buy)更多細節。
 

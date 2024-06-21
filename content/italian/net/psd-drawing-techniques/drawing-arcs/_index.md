@@ -93,11 +93,11 @@ Congratulazioni! Hai imparato con successo come disegnare archi utilizzando Aspo
 
 ### Q1: dove posso trovare la documentazione per Aspose.PSD per .NET?
 
- A1: La documentazione può essere trovata[Qui](https://reference.aspose.com/psd/net/).
+ A1: La documentazione può essere trovata.[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q2: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
- A2: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ A2: Puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: esiste un forum della community per il supporto di Aspose.PSD?
 
@@ -105,8 +105,8 @@ Congratulazioni! Hai imparato con successo come disegnare archi utilizzando Aspo
 
 ### Q4: Dove posso acquistare una licenza per Aspose.PSD?
 
- A4: È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).
+ A4: È possibile acquistare una licenza.[Qui](https://purchase.aspose.com/buy).
 
 ### Q5: Posso provare Aspose.PSD per .NET gratuitamente prima dell'acquisto?
 
- R5: Sì, puoi scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
+ R5: Sì, puoi scaricare una versione di prova gratuita.[Qui](https://releases.aspose.com/).

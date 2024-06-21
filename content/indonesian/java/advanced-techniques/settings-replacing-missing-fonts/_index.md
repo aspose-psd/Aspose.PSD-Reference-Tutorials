@@ -1,7 +1,7 @@
 ---
 title: Pengaturan Penggantian Font yang Hilang di Aspose.PSD untuk Java
 linktitle: Pengaturan untuk Mengganti Font yang Hilang
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi panduan komprehensif tentang mengganti font yang hilang di Aspose.PSD untuk Java. Tingkatkan desain gambar Anda dengan manajemen font yang lancar.
 type: docs
 weight: 17
@@ -97,7 +97,7 @@ A2: Ya, Anda dapat menentukan font pengganti khusus sesuai dengan kebutuhan desa
 
 ### Q3: Apakah ada opsi lisensi yang tersedia untuk Aspose.PSD?
 
- A3: Jelajahi opsi lisensi[Di Sini](https://purchase.aspose.com/buy)untuk memilih paket terbaik untuk kebutuhan Anda.
+ A3: Jelajahi opsi lisensi.[Di Sini](https://purchase.aspose.com/buy)untuk memilih paket terbaik untuk kebutuhan Anda.
 
 ### Q4: Apakah ada forum komunitas untuk dukungan Aspose.PSD?
 

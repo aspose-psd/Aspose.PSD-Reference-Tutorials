@@ -97,7 +97,7 @@ R2: Sí, puede especificar fuentes de reemplazo personalizadas según sus requis
 
 ### P3: ¿Hay opciones de licencia disponibles para Aspose.PSD?
 
- A3: Explore las opciones de licencia[aquí](https://purchase.aspose.com/buy)para elegir el mejor plan para sus necesidades.
+ R3: Explore las opciones de licencia.[aquí](https://purchase.aspose.com/buy)para elegir el mejor plan para sus necesidades.
 
 ### P4: ¿Existe un foro comunitario para soporte de Aspose.PSD?
 

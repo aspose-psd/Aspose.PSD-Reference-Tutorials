@@ -1,7 +1,7 @@
 ---
 title: Buat Gambar dengan Mengatur Jalur di Aspose.PSD untuk Java
 linktitle: Buat Gambar dengan Mengatur Jalur
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara membuat gambar PSD menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk menghasilkan gambar dengan lancar.
 type: docs
 weight: 13
@@ -102,8 +102,8 @@ A1: Ya, Aspose.PSD bekerja secara lancar dengan berbagai Lingkungan Pengembangan
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
- A5: Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian.[Di Sini](https://purchase.aspose.com/temporary-license/).

@@ -9,7 +9,7 @@ url: /vi/net/image-manipulation/verifying-image-transparency/
 ---
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện về cách xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho .NET! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kiểm tra độ trong suốt của hình ảnh trong tệp PSD bằng thư viện Aspose.PSD mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ trang bị cho bạn những kỹ năng cần thiết để xử lý liền mạch độ trong suốt của hình ảnh trong ứng dụng .NET của bạn.
+Chào mừng bạn đến với hướng dẫn toàn diện về cách xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho .NET! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kiểm tra độ trong suốt của hình ảnh trong tệp PSD bằng thư viện Aspose.PSD mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ trang bị cho bạn những kỹ năng cần thiết để xử lý liền mạch độ trong suốt của hình ảnh trong các ứng dụng .NET của bạn.
 
 ## Điều kiện tiên quyết
 
@@ -86,8 +86,8 @@ Câu trả lời 1: Có, Aspose.PSD tương thích với các khung .NET mới n
 
 ### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD?
 
- A4: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD miễn phí trước khi mua không?
 
-Câu trả lời 5: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Câu trả lời 5: Có, bạn có thể khám phá bản dùng thử miễn phí.[đây](https://releases.aspose.com/).

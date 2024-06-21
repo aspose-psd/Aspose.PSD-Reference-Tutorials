@@ -63,7 +63,7 @@ RasterImage image = (RasterImage)Image.load(sourceFile);
 
 使用 Aspose.PSD 載入範例圖片。
 
-## 步驟 4：快取圖像數據
+## 第四步：快取圖像數據
 
 ```java
 if (!image.isCached())

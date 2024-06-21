@@ -86,7 +86,7 @@ A1：是的，Aspose.PSD for Java 支持各种图像格式，包括 PSD、PNG、
 
 ### Q4：我可以下载 Aspose.PSD for Java 库吗？
 
- A4：是的，从发布页面下载库[这里](https://releases.aspose.com/psd/java/).
+ A4：是的，从发布页面下载库。[这里](https://releases.aspose.com/psd/java/).
 
 ### Q5: 如何购买 Aspose.PSD for Java？
 

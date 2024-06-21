@@ -103,7 +103,7 @@ A2: Kelas Timeline dirancang khusus untuk gambar PSD. Untuk manipulasi GIF, liha
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
- A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Apa manfaat utama menggunakan Aspose.PSD untuk .NET?
 

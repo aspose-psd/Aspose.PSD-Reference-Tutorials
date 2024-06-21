@@ -88,11 +88,11 @@ using (Image image = new PsdImage(100, 100))
 
 ### P2: ¿Cómo descargo Aspose.PSD para .NET?
 
- A2: Puedes descargarlo desde la página de lanzamiento.[aquí](https://releases.aspose.com/psd/net/).
+ R2: Puede descargarlo desde la página de lanzamiento.[aquí](https://releases.aspose.com/psd/net/).
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -100,4 +100,4 @@ using (Image image = new PsdImage(100, 100))
 
 ### P5: ¿Necesito una licencia temporal para realizar pruebas?
 
- R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

@@ -106,7 +106,7 @@ A2: Rozhodně! Po zkombinování obrázků můžete s výsledným PSD dále mani
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A4: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí.[tady](https://releases.aspose.com/).
 
 ### Q5: Kde najdu podporu pro dotazy související s Aspose.PSD?
 

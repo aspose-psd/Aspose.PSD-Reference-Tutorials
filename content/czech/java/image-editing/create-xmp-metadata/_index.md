@@ -150,7 +150,7 @@ Odpověď 3: Aspose.PSD je navržen pro zpracování obrázků různých velikos
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.PSD?
 
- A4: Ano, můžete prozkoumat možnosti Aspose.PSD získáním bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat možnosti Aspose.PSD získáním bezplatné zkušební verze.[tady](https://releases.aspose.com/).
 
 ### Q5: Kde mohu hledat podporu pro dotazy související s Aspose.PSD?
 

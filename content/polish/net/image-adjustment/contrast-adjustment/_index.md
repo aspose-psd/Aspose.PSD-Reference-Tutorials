@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## Krok 1: Załaduj obraz
 
- Załaduj obraz źródłowy do instancji pliku`RasterImage` klasa.
+Załaduj obraz źródłowy do instancji pliku`RasterImage` klasa.
 
 ```csharp
 //ExStart: Załaduj obraz
@@ -62,23 +62,23 @@ rasterImage.AdjustContrast(50); // Dostosuj kontrast o 50%
 
 ## Krok 3: Utwórz opcje TIFF
 
- Utwórz instancję`TiffOptions` dla powstałego obrazu ustaw różne właściwości i zapisz obraz w formacie TIFF.
+ Utwórz instancję`TiffOptions` Dla powstałego obrazu ustaw różne właściwości i zapisz obraz w formacie TIFF.
 
 ```csharp
-//ExStart:Utwórz opcjeTiff
+//ExStart:Utwórz opcje Tiff
 string destName = dataDir + @"AdjustContrast_out.tiff";
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 tiffOptions.Photometric = TiffPhotometrics.Rgb;
 rasterImage.Save(destName, tiffOptions);
-//ExEnd: CreateTiffOptions
+//Rozwiń:UtwórzTiffOpcje
 ```
 
 Gratulacje! Pomyślnie zaimplementowałeś regulację kontrastu przy użyciu Aspose.PSD dla .NET.
 
 ## Wniosek
 
-tym samouczku zbadaliśmy proces zwiększania kontrastu obrazu za pomocą Aspose.PSD dla .NET. Biblioteka zapewnia prosty sposób manipulowania właściwościami obrazu, umożliwiając programistom łatwe tworzenie atrakcyjnych wizualnie obrazów.
+W tym samouczku zbadaliśmy proces zwiększania kontrastu obrazu za pomocą Aspose.PSD dla .NET. Biblioteka zapewnia prosty sposób manipulowania właściwościami obrazu, umożliwiając programistom łatwe tworzenie atrakcyjnych wizualnie obrazów.
 
 ## Często zadawane pytania
 
@@ -92,7 +92,7 @@ O1: Aspose.PSD dla .NET został zaprojektowany tak, aby był przyjazny dla progr
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- O3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD dla .NET[Tutaj](https://releases.aspose.com/).
+ O3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD dla .NET.[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla .NET?
 
@@ -100,4 +100,4 @@ O1: Aspose.PSD dla .NET został zaprojektowany tak, aby był przyjazny dla progr
 
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
- Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).

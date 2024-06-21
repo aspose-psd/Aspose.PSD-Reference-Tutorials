@@ -103,7 +103,7 @@ A2: टाइमलाइन क्लास विशेष रूप से PS
 
 ### Q4: मैं .NET के लिए Aspose.PSD के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
- A4: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A4: एक अस्थायी लाइसेंस प्राप्त करें।[यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: .NET के लिए Aspose.PSD का उपयोग करने के प्रमुख लाभ क्या हैं?
 

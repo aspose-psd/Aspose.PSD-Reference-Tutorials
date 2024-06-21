@@ -82,11 +82,11 @@ Gefeliciteerd! U hebt met succes geleerd hoe u afbeeldingen in een stream kunt o
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/)om de functies van Aspose.PSD te verkennen voordat u een aankoop doet.
+ A3: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/)om de functies van Aspose.PSD te verkennen voordat u een aankoop doet.
 
 ### Vraag 4: Hoe kan ik een tijdelijke licentie verkrijgen?
 
- A4: U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor test- en evaluatiedoeleinden.
+ A4: U kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/) voor test- en evaluatiedoeleinden.
 
 ### Vraag 5: Waar kan ik Aspose.PSD kopen?
 

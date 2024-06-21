@@ -15,7 +15,7 @@ Aspose.PSD for .NET, görüntü işleme için güçlü bir dizi özellik sunarak
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- Aspose.PSD for .NET: Kitaplığı şuradan indirip yükleyin:[Burada](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Kitaplığı şuradan indirip yükleyin:[Burada](https://releases.aspose.com/psd/net/).
 - Belge Dizininiz: Kaynak ve çıktı dosyalarınızı depolamak için bir dizin ayarlayın.
 
 ## Ad Alanlarını İçe Aktar
@@ -85,11 +85,11 @@ Cevap1: Evet, Aspose.PSD for .NET, .NET Core ve .NET Standard dahil olmak üzere
 
 ### S2: Aspose.PSD for .NET'in kapsamlı belgelerini nerede bulabilirim?
 
- A2: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/psd/net/)detaylı bilgi ve kod örnekleri için.
+ A2: Belgelere başvurabilirsiniz.[Burada](https://reference.aspose.com/psd/net/) detaylı bilgi ve kod örnekleri için.
 
 ### S3: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- Cevap3: Evet, ücretsiz deneme sürümünü indirerek Aspose.PSD for .NET'in yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+C3: Evet, ücretsiz deneme sürümünü indirerek Aspose.PSD for .NET'in yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
@@ -97,4 +97,4 @@ Cevap1: Evet, Aspose.PSD for .NET, .NET Core ve .NET Standard dahil olmak üzere
 
 ### S5: Aspose.PSD for .NET için geçici bir lisans alabilir miyim?
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+ Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.

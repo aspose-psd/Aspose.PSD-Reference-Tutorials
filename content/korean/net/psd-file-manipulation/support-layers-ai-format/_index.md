@@ -11,7 +11,7 @@ url: /ko/net/psd-file-manipulation/support-layers-ai-format/
 ## 소개
 ### Aspose.PSD란 무엇인가요?
 .NET용 Aspose.PSD는 개발자가 AI(Adobe Illustrator) 형식을 포함한 Adobe Photoshop 파일을 조작하고 처리할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 AI 파일의 레이어 지원에 중점을 두고 각 레이어에서 귀중한 정보를 추출하는 방법을 보여줍니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.PSD: 다음에서 라이브러리를 다운로드하고 설치합니다.[Aspose.PSD 웹사이트](https://releases.aspose.com/psd/net/).
 2. 개발 환경: Visual Studio를 포함하여 작동하는 .NET 개발 환경이 있는지 확인하세요.

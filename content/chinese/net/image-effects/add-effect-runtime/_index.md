@@ -91,7 +91,7 @@ A3：Aspose.PSD 提供了广泛的效果，但建议检查文档以了解支持�
 
 ### Q4：如何获得用于测试目的的临时许可证？
 
- A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估。
+ A4：您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估。
 
 ### Q5：我在哪里可以找到更多支持和社区讨论？
 

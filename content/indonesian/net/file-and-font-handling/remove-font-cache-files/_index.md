@@ -88,7 +88,7 @@ J2: Jika memungkinkan, disarankan untuk menghapus file cache font untuk mencegah
 
 ### Q4: Apakah ada lisensi sementara yang tersedia untuk Aspose.PSD untuk .NET?
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+ A4: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
 
 ### Q5: Dapatkah saya membeli Aspose.PSD untuk .NET?
 

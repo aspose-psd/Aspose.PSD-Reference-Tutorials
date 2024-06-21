@@ -128,7 +128,7 @@ Cevap2: Evet, Degrade Kaplama dahil olmak üzere çeşitli efektleri tek bir kat
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD için nasıl destek alabilirim?
 

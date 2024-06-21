@@ -91,7 +91,7 @@ A3: Aspose.PSD biedt een breed scala aan effecten, maar het is raadzaam om de do
 
 ### V4: Hoe kan ik een tijdelijke licentie verkrijgen voor testdoeleinden?
 
- A4: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/) voor testen en evalueren.
+ A4: U kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/) voor testen en evalueren.
 
 ### Vraag 5: Waar kan ik aanvullende ondersteuning en communitydiscussies vinden?
 

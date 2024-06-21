@@ -68,7 +68,7 @@ Hier werken we het kleurprofiel van de afbeelding bij door RGB- en CMYK-profiele
 ## Stap 3: Bewaar de resulterende afbeelding
 
 ```csharp
-// Sla de resulterende afbeelding op met nieuwe YCCK-profielen. Als u de afbeeldingen vergelijkt, zult u verschillen in kleurwaarden opmerken.
+// Sla de resulterende afbeelding op met nieuwe YCCK-profielen. Verschillen in kleurwaarden merk je als je de afbeeldingen vergelijkt.
 JpegOptions options = new JpegOptions();
 options.ColorType = JpegCompressionColorMode.Cmyk;
 image.Save(dataDir + "Cmyk_Default_profiles.jpg", options);
@@ -96,7 +96,7 @@ A3: Absoluut, Aspose.PSD biedt efficiënte tools voor batchverwerking van afbeel
 
 ### V4: Kan ik Aspose.PSD gebruiken voor commerciële projecten?
 
- A4: Ja, u kunt een licentie kopen[hier](https://purchase.aspose.com/buy) voor commercieel gebruik.
+ A4: Ja, u kunt een licentie kopen.[hier](https://purchase.aspose.com/buy) voor commercieel gebruik.
 
 ### V5: Waar kan ik community-ondersteuning vinden voor Aspose.PSD voor .NET?
 

@@ -86,7 +86,7 @@ File.Delete(outputImage200);
 
 ## 常見問題解答
 
-### Q1：我可以將本教學套用到其他影像格式嗎？
+### Q1：我可以將本教學套用到其他圖像格式嗎？
 
 A1：不，本教學專門介紹使用 Aspose.PSD for .NET 調整 PSD 檔案中的陰影效果不透明度。
 
@@ -96,7 +96,7 @@ A2：是的，Aspose.PSD for .NET 提供了各種微調陰影效果的特性。
 
 ### Q3：如何取得 Aspose.PSD for .NET 的臨時授權？
 
- A3：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A3：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q4：Aspose.PSD for .NET 與 .NET Core 相容嗎？
 

@@ -18,7 +18,7 @@ Bạn đã sẵn sàng để mở khóa những bí mật của thiết kế đ�
 
 ## Thay đổi kích thước được thực hiện đơn giản
 
- Thao tác hiệu quả kích thước hình ảnh theo chương trình với[Aspose.PSD cho Java](./simple-resizing/). Hướng dẫn thân thiện với người dùng của chúng tôi giúp đơn giản hóa quá trình thay đổi kích thước, đảm bảo bạn nắm bắt được mọi chi tiết. Từ những kỹ thuật cơ bản đến nâng cao, hướng dẫn này đề cập đến tất cả. Tìm hiểu và biến đổi hình ảnh của bạn một cách liền mạch với Aspose.PSD.
+ Thao tác hiệu quả kích thước hình ảnh theo chương trình với[Aspose.PSD cho Java](./simple-resizing/)Hướng dẫn thân thiện với người dùng của chúng tôi giúp đơn giản hóa quá trình thay đổi kích thước, đảm bảo bạn nắm bắt được từng chi tiết. Từ những kỹ thuật cơ bản đến nâng cao, hướng dẫn này đề cập đến tất cả. Tìm hiểu và biến đổi hình ảnh của bạn một cách liền mạch với Aspose.PSD.
 
 ## Hiệu ứng khuếch đại: Hỗ trợ các chế độ hòa trộn
 
@@ -30,7 +30,7 @@ Bạn đã sẵn sàng để mở khóa những bí mật của thiết kế đ�
 
 ## Tính minh bạch được tiết lộ: Xác minh độ trong suốt của hình ảnh
 
- Khám phá lĩnh vực xác minh độ trong suốt của hình ảnh với[Aspose.PSD cho Java](./verify-image-transparency/). Hướng dẫn này tích hợp liền mạch tính minh bạch vào thiết kế của bạn, với tài liệu chi tiết và sự hỗ trợ cộng đồng tuyệt vời. Nâng cao dự án thiết kế của bạn với sự đảm bảo về độ trong suốt của hình ảnh đã được xác minh bằng Aspose.PSD cho Java.
+ Khám phá lĩnh vực xác minh độ trong suốt của hình ảnh với[Aspose.PSD cho Java](./verify-image-transparency/)Hướng dẫn này tích hợp liền mạch tính minh bạch vào thiết kế của bạn, với tài liệu chi tiết và sự hỗ trợ cộng đồng tuyệt vời. Nâng cao dự án thiết kế của bạn với sự đảm bảo về độ trong suốt của hình ảnh đã được xác minh bằng Aspose.PSD cho Java.
 
 Tóm lại, những hướng dẫn này cung cấp sự hiểu biết toàn diện về các thao tác hình ảnh cơ bản bằng cách sử dụng Aspose.PSD cho Java. Cho dù bạn là người mới hay nhà thiết kế có kinh nghiệm, hãy khám phá tiềm năng của thiết kế đồ họa bằng hướng dẫn từng bước của chúng tôi. Hãy lao vào và để sự sáng tạo của bạn phát triển!
 ## Hướng dẫn thao tác hình ảnh cơ bản

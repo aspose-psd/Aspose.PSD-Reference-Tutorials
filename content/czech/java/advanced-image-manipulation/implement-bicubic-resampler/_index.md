@@ -86,7 +86,7 @@ Odpověď 1: Ano, Aspose.PSD for Java podporuje různé formáty obrázků, vče
 
 ### Q4: Mohu si stáhnout knihovnu Aspose.PSD for Java?
 
- A4: Ano, stáhněte si knihovnu ze stránky vydání[tady](https://releases.aspose.com/psd/java/).
+ A4: Ano, stáhněte si knihovnu ze stránky vydání.[tady](https://releases.aspose.com/psd/java/).
 
 ### Otázka 5: Jak zakoupím Aspose.PSD pro Java?
 

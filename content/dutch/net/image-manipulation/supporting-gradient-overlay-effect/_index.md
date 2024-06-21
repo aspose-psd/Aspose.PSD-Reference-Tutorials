@@ -128,7 +128,7 @@ A2: Ja, u kunt verschillende effecten, waaronder Gradient Overlay, op één laag
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+ A4: Ja, u heeft toegang tot een gratis proefperiode.[hier](https://releases.aspose.com/).
 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor Aspose.PSD?
 

@@ -94,7 +94,7 @@ Odpověď 2: Zkušební verze má omezení a můžete prozkoumat plné možnosti
 
 ### Q4: Je k dispozici dočasná licence pro testovací účely?
 
- A4: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.PSD pro Java?
 

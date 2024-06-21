@@ -61,7 +61,7 @@ if (f.exists()) {
     f.delete();
 }
 ```
-Most már sikeresen exportálta a képeket egy többszálas környezetben az Aspose.PSD for Java segítségével!
+Most már sikeresen exportálta a képeket egy többszálú környezetben az Aspose.PSD for Java segítségével!
 ## Következtetés
 Ebben az oktatóanyagban a képek Aspose.PSD for Java segítségével történő zökkenőmentes exportálási folyamatát vizsgáltuk többszálas beállításban. Növelje Java-alkalmazása képfeldolgozási képességeit az Aspose.PSD erejével.
 ## Gyakran Ismételt Kérdések

@@ -111,7 +111,7 @@ A2: Absolut! Aspose.PSD tillhandahåller en rad transformationsalternativ för l
 
 ### F3: Var kan jag hitta ytterligare Aspose.PSD-dokumentation?
 
- S3: Du kan hänvisa till dokumentationen[här](https://reference.aspose.com/psd/java/).
+ S3: Du kan hänvisa till dokumentationen.[här](https://reference.aspose.com/psd/java/).
 
 ### F4: Hur kan jag få en tillfällig licens för Aspose.PSD?
 
@@ -119,4 +119,4 @@ A2: Absolut! Aspose.PSD tillhandahåller en rad transformationsalternativ för l
 
 ### F5: Finns det några forum för Aspose.PSD-stöd?
 
- A5: Ja, du kan hitta stöd och diskussioner[här](https://forum.aspose.com/c/psd/34).
+ A5: Ja, du kan hitta stöd och diskussioner.[här](https://forum.aspose.com/c/psd/34).

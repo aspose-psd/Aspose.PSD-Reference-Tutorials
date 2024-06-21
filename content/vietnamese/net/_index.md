@@ -26,7 +26,7 @@ Xử lý các lớp định dạng AI một cách dễ dàng bằng Aspose.PSD c
 
 ### [Thao tác văn bản và phông chữ](./text-and-font-manipulation/)
 
-Tối đa hóa các ứng dụng .NET của bạn với hướng dẫn Aspose.PSD cho .NET! Khám phá việc hiển thị văn bản với màu sắc rực rỡ, thay thế liền mạch các phông chữ bị thiếu và nâng cao sức hấp dẫn trực quan tổng thể cho thiết kế của bạn một cách dễ dàng.
+Tối đa hóa các ứng dụng .NET của bạn với hướng dẫn Aspose.PSD cho .NET! Khám phá việc hiển thị văn bản với màu sắc sống động, thay thế liền mạch các phông chữ bị thiếu và nâng cao sức hấp dẫn trực quan tổng thể cho thiết kế của bạn một cách dễ dàng.
 
 ## Lưu và xuất tệp dễ dàng
 
@@ -97,6 +97,6 @@ Nâng cao khả năng phát triển .NET của bạn với các hướng dẫn A
 ### [Kỹ thuật vẽ PSD](./psd-drawing-techniques/)
 Khai phá tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn của chúng tôi! Nắm vững các tính năng vẽ cốt lõi, tạo đồ họa tuyệt đẹp và nâng cao kỹ năng xử lý hình ảnh của bạn.
 ### [Hiệu ứng lớp](./layer-effects/)
-Nắm vững các cải tiến hình ảnh động trong Aspose.PSD cho .NET. Nâng cao khả năng xử lý hình ảnh của bạn bằng các hướng dẫn về cách thêm, xếp lớp và hiển thị các hiệu ứng tuyệt đẹp trong thời gian chạy.
+Nắm vững các cải tiến hình ảnh động trong Aspose.PSD cho .NET. Nâng cao khả năng xử lý hình ảnh của bạn bằng các hướng dẫn về cách thêm, xếp chồng và hiển thị các hiệu ứng tuyệt đẹp trong thời gian chạy.
 ### [Tài nguyên tệp PSD](./psd-file-resources/)
 Khai phá toàn bộ tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn của chúng tôi. Làm chủ màu nền, thông tin đường viền, đường dẫn làm việc và các tài nguyên đen trắng một cách liền mạch. 

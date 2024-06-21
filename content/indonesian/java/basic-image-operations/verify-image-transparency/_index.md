@@ -1,7 +1,7 @@
 ---
 title: Verifikasi Transparansi Gambar dengan Aspose.PSD untuk Java
 linktitle: Verifikasi Transparansi Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi verifikasi transparansi gambar dengan Aspose.PSD untuk Java. Integrasi yang mudah, dokumentasi terperinci, dan dukungan komunitas yang sangat baik.
 type: docs
 weight: 14
@@ -85,4 +85,4 @@ A1: Ya, Aspose.PSD untuk Java dirancang untuk bekerja secara lancar dengan pusta
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
- A5: Jika Anda menguji perpustakaan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Jika Anda menguji perpustakaan, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

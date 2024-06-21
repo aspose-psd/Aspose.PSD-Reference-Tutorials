@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Créer une instance de la classe PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Étape 5 : Enregistrez l’image recadrée au format PNG
+## Étape 5 : Enregistrez l’image recadrée au format PNG.
 ```csharp
 // Appelez la méthode save, fournissez le chemin de sortie et PngOptions pour convertir le fichier PSD en PNG et enregistrer la sortie
 string destName = dataDir + @"export.png";

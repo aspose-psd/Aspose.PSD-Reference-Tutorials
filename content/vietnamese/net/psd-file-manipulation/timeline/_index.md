@@ -8,7 +8,7 @@ weight: 16
 url: /vi/net/psd-file-manipulation/timeline/
 ---
 ## Giới thiệu
-Trong thế giới năng động của thiết kế đồ họa và xử lý hình ảnh, khả năng kiểm soát và vận dụng dòng thời gian của hình ảnh là rất quan trọng. Aspose.PSD for .NET cung cấp một giải pháp mạnh mẽ với lớp Timeline của nó. Tính năng cấp cao này cho phép người dùng thực hiện các thay đổi đối với dòng thời gian của PsdImage, chẳng hạn như thay đổi độ trễ khung hình, chỉnh sửa trạng thái lớp trên các khung cụ thể, v.v.
+Trong thế giới năng động của thiết kế đồ họa và xử lý hình ảnh, khả năng kiểm soát và vận dụng dòng thời gian của hình ảnh là rất quan trọng. Aspose.PSD for .NET cung cấp một giải pháp mạnh mẽ với lớp Timeline của nó. Tính năng cấp cao này cho phép người dùng thực hiện các thay đổi đối với dòng thời gian của PsdImage, chẳng hạn như thay đổi độ trễ khung hình, chỉnh sửa trạng thái lớp trên các khung hình cụ thể, v.v.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào những khả năng thú vị mà lớp Dòng thời gian mang lại, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 -  Aspose.PSD for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.PSD cho .NET. Bạn có thể tải nó xuống từ[Aspose.PSD cho tài liệu .NET](https://reference.aspose.com/psd/net/).
@@ -89,7 +89,7 @@ Tóm lại, lớp Dòng thời gian trong Aspose.PSD dành cho .NET trao quyền
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.PSD cho .NET có phù hợp cho người mới bắt đầu không?
+### Câu hỏi 1: Aspose.PSD cho .NET có phù hợp với người mới bắt đầu không?
 
 A1: Chắc chắn rồi! Aspose.PSD for .NET cung cấp giao diện thân thiện với người dùng và tài liệu toàn diện, giúp cả người mới bắt đầu và nhà phát triển dày dạn kinh nghiệm đều có thể truy cập được.
 
@@ -103,7 +103,7 @@ Câu trả lời 2: Lớp Dòng thời gian được thiết kế đặc biệt 
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
- A4: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Lợi ích chính của việc sử dụng Aspose.PSD cho .NET là gì?
 

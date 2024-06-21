@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Paso 3: definir la región de cultivo
 ```java
-// Cree una instancia de la clase Rectángulo pasando x, y, ancho y alto
+//Cree una instancia de la clase Rectángulo pasando x, y, ancho y alto
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Paso 4: Recortar imagen PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Crear una instancia de la clase PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Paso 6: guarde la imagen recortada como PNG
+## Paso 6: guarde la imagen recortada como PNG.
 ```java
 // Proporcione la ruta de salida y PngOptions para convertir el archivo PSD a PNG y guardar la salida.
 String destName = dataDir + "export.png";

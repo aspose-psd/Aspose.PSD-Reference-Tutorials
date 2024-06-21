@@ -1,7 +1,7 @@
 ---
 title: Memburamkan Gambar menggunakan Aspose.PSD untuk Java
 linktitle: Memburamkan Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Belajar memburamkan gambar di Java dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk hasil profesional.
 type: docs
 weight: 24
@@ -87,7 +87,7 @@ A1: Tentu saja! Aspose.PSD hadir dengan dokumentasi komprehensif untuk memandu p
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda bisa mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.PSD untuk Java?
 
@@ -95,4 +95,4 @@ A1: Tentu saja! Aspose.PSD hadir dengan dokumentasi komprehensif untuk memandu p
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

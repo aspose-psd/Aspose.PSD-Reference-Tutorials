@@ -78,7 +78,7 @@ A1 : Oui, Aspose.PSD pour Java prend en charge divers formats d'image, notamment
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A2 : Oui, vous pouvez explorer un essai gratuit d'Aspose.PSD pour Java en visitant[ce lien](https://releases.aspose.com/).
+ A2 : Oui, vous pouvez découvrir un essai gratuit d'Aspose.PSD pour Java en visitant .[ce lien](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je trouver une documentation complète pour Aspose.PSD pour Java ?
 
@@ -90,4 +90,4 @@ A1 : Oui, Aspose.PSD pour Java prend en charge divers formats d'image, notamment
 
 ### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.PSD pour Java ?
 
- A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).

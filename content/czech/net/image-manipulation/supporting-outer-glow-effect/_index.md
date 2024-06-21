@@ -101,7 +101,7 @@ A1: Ano, Aspose.PSD podporuje širokou škálu .NET frameworků, což zajišťuj
 
 ### Q2: Kde najdu další dokumentaci k Aspose.PSD?
 
- A2: Viz[Aspose.PSD .NET dokumentace](https://reference.aspose.com/psd/net/) pro komplexní informace a příklady.
+ A2: Viz[Aspose.PSD .NET dokumentace](https://reference.aspose.com/psd/net/) pro vyčerpávající informace a příklady.
 
 ### Q3: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
@@ -113,4 +113,4 @@ A1: Ano, Aspose.PSD podporuje širokou škálu .NET frameworků, což zajišťuj
 
 ### Q5: Mohu zakoupit Aspose.PSD pro .NET?
 
- A5: Ano, prozkoumejte možnosti licencování a proveďte nákup[tady](https://purchase.aspose.com/buy).
+ A5: Ano, prozkoumejte možnosti licencování a proveďte nákup.[tady](https://purchase.aspose.com/buy).

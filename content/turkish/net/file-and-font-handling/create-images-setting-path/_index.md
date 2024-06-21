@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Aspose.PSD kütüphanesinin projenizde kurulu olduğundan emin olun. Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/psd/net/).
+Aspose.PSD kütüphanesinin projenizde kurulu olduğundan emin olun. Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/psd/net/).
 
 ## 1. Adım: Belge Dizininizi Tanımlayın
 
@@ -52,7 +52,7 @@ psdOptions.CompressionMethod = CompressionMethod.RLE;
 
 Bir PsdOptions örneği oluşturun ve sıkıştırma yöntemi gibi özelliklerini gereksinimlerinize göre yapılandırın.
 
-## Adım 4: FileCreateSource'u Kurun
+## 4. Adım: FileCreateSource'u Kurun
 
 ```csharp
 psdOptions.Source = new FileCreateSource(desName, false);
@@ -93,7 +93,7 @@ A2: Kesinlikle! Aspose.PSD, toplu görüntü işleme gerçekleştirmenize olanak
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Nasıl destek alabilirim veya yardım isteyebilirim?
 

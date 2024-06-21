@@ -101,7 +101,7 @@ Grattis! Du har framgångsrikt skapat en visuellt tilltalande grafik med klassen
 
 ### F1: Kan jag använda Aspose.PSD för .NET i mina kommersiella projekt?
 
- S1: Ja, Aspose.PSD för .NET är tillgängligt för kommersiellt bruk. Kolla in[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
+S1: Ja, Aspose.PSD för .NET är tillgängligt för kommersiellt bruk. Kolla in[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
@@ -109,7 +109,7 @@ Grattis! Du har framgångsrikt skapat en visuellt tilltalande grafik med klassen
 
 ### F3: Var kan jag hitta detaljerad dokumentation för Aspose.PSD för .NET?
 
- S3: Den omfattande dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
+ S3: Den omfattande dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 
@@ -117,4 +117,4 @@ Grattis! Du har framgångsrikt skapat en visuellt tilltalande grafik med klassen
 
 ### F5: Behöver jag en tillfällig licens för Aspose.PSD för .NET?
 
- S5: Om du behöver en tillfällig licens kan du få den[här](https://purchase.aspose.com/temporary-license/).
+ S5: Om du behöver en tillfällig licens kan du få den.[här](https://purchase.aspose.com/temporary-license/).

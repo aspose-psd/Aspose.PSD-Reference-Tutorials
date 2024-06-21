@@ -1,7 +1,7 @@
 ---
 title: Menguasai Konversi Warna dengan Profil ICC di Aspose.PSD
 linktitle: Konversi Warna menggunakan Profil ICC
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: 
 type: docs
 weight: 12

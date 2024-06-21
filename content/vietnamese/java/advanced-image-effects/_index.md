@@ -12,11 +12,11 @@ Bạn đã sẵn sàng đưa các thiết kế đồ họa Java của mình lên
 
 ## Thêm hiệu ứng chuyển màu trong Aspose.PSD cho Java
 
- Dễ dàng chuyển đổi hình ảnh Java của bạn bằng các hiệu ứng chuyển màu quyến rũ. Hướng dẫn từng bước của chúng tôi đảm bảo quá trình tích hợp liền mạch, cho phép bạn nâng cao hình ảnh của mình bằng độ chuyển màu tuyệt đẹp. Kiểm tra hướng dẫn[đây](./add-gradient-effects/) để mang đến cho hình ảnh của bạn nét sống động và chuyên nghiệp.
+ Dễ dàng chuyển đổi hình ảnh Java của bạn bằng các hiệu ứng chuyển màu quyến rũ. Hướng dẫn từng bước của chúng tôi đảm bảo quá trình tích hợp liền mạch, cho phép bạn nâng cao hình ảnh của mình bằng độ chuyển màu tuyệt đẹp. Kiểm tra hướng dẫn[đây](./add-gradient-effects/)để mang đến cho hình ảnh của bạn nét sống động và chuyên nghiệp.
 
 ## Thêm một lớp thông thường mới vào PSD bằng Aspose.PSD cho Java
 
- Tìm hiểu nghệ thuật thêm một lớp thông thường mới vào các tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn chi tiết của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo thao tác trơn tru với các tệp PSD. Nâng cao kỹ năng thiết kế của bạn bằng cách làm theo hướng dẫn của chúng tôi[đây](./add-new-regular-layer/)và mở khóa những chiều hướng mới trong thiết kế đồ họa.
+ Tìm hiểu nghệ thuật thêm một lớp thông thường mới vào các tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn chi tiết của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo thao tác trơn tru với các tệp PSD. Nâng cao kỹ năng thiết kế của bạn bằng cách làm theo hướng dẫn của chúng tôi[đây](./add-new-regular-layer/) và mở khóa những chiều hướng mới trong thiết kế đồ họa.
 
 ## Thêm hiệu ứng mẫu trong Aspose.PSD cho Java
 
@@ -24,11 +24,11 @@ Bạn đã sẵn sàng đưa các thiết kế đồ họa Java của mình lên
 
 ## Thêm chữ ký vào hình ảnh bằng Aspose.PSD cho Java
 
- Khám phá sự tích hợp liền mạch của chữ ký vào hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn chi tiết của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, từ nhập các gói cần thiết đến nâng cao khả năng đồ họa của ứng dụng Java của bạn. Kiểm tra hướng dẫn[đây](./add-signature-to-image/) và thêm nét cá nhân hóa vào hình ảnh của bạn.
+Khám phá sự tích hợp liền mạch của chữ ký vào hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn chi tiết của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, từ nhập các gói cần thiết đến nâng cao khả năng đồ họa của ứng dụng Java của bạn. Kiểm tra hướng dẫn[đây](./add-signature-to-image/) và thêm nét cá nhân hóa vào hình ảnh của bạn.
 
 ## Thêm màu lớp nét trong Aspose.PSD cho Java
 
-Giải phóng sức mạnh của Aspose.PSD cho Java bằng cách thêm màu lớp nét vẽ vào thiết kế của bạn. Hướng dẫn từng bước của chúng tôi giúp bạn nâng cao thiết kế đồ họa của mình một cách dễ dàng. Đi sâu vào hướng dẫn[đây](./add-stroke-layer-color/) và khám phá tác động của màu lớp nét trên đồ họa Java của bạn.
+ Giải phóng sức mạnh của Aspose.PSD cho Java bằng cách thêm màu lớp nét vẽ vào thiết kế của bạn. Hướng dẫn từng bước của chúng tôi giúp bạn nâng cao thiết kế đồ họa của mình một cách dễ dàng. Đi sâu vào hướng dẫn[đây](./add-stroke-layer-color/) và khám phá tác động của màu lớp nét trên đồ họa Java của bạn.
 
 Bắt tay vào hành trình sáng tạo và thành thạo với Aspose.PSD cho Java. Mỗi hướng dẫn được thiết kế để cung cấp cho bạn trải nghiệm thực tế, đảm bảo bạn đạt được các kỹ năng cần thiết để triển khai các hiệu ứng hình ảnh nâng cao này trong các ứng dụng Java của mình. Nâng cao thiết kế của bạn và thu hút khán giả bằng sức mạnh của Aspose.PSD. Chúc mừng mã hóa!
 ## Hướng dẫn hiệu ứng hình ảnh nâng cao

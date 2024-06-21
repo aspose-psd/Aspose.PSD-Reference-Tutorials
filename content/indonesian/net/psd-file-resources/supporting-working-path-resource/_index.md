@@ -30,7 +30,7 @@ string baseFolder = "Your Document Directory";
 string outputFolder = "Your Output Directory";
 ```
 ## Langkah 2: Muat dan Pangkas Gambar
-Sekarang, mari masuk ke fungsi inti. Muat file PSD Anda, cari sumber daya 'WorkingPathResource', dan lakukan operasi pemangkasan:
+Sekarang, mari masuk ke fungsi inti. Muat file PSD Anda, cari sumber daya 'WorkingPathResource', dan lakukan operasi pemotongan:
 ```csharp
 string sourceFile = Path.Combine(baseFolder, "WorkingPathResourceInput.psd");
 string outputFile = Path.Combine(outputFolder, "WorkingPathResourceOutput.psd");
@@ -79,7 +79,7 @@ Selamat! Anda telah berhasil menguasai penggunaan 'WorkingPathResource' di Aspos
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -87,4 +87,4 @@ Selamat! Anda telah berhasil menguasai penggunaan 'WorkingPathResource' di Aspos
 
 ### Q5: Butuh lisensi sementara?
 
- A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

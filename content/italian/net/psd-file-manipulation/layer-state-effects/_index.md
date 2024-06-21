@@ -59,7 +59,7 @@ psdImage.Save(outputFile);
 ```
 ## Conclusione
 
-Congratulazioni! Hai lavorato con successo con gli effetti dello stato del livello in Aspose.PSD per .NET. Sperimenta effetti diversi per migliorare l'impatto visivo dei tuoi file PSD.
+Congratulazioni! Hai lavorato con successo con gli effetti dello stato del livello in Aspose.PSD per .NET. Sperimenta effetti diversi per migliorare l'attrattiva visiva dei tuoi file PSD.
 
 ## Domande frequenti
 
@@ -73,11 +73,11 @@ Congratulazioni! Hai lavorato con successo con gli effetti dello stato del livel
 
 ### A3: È disponibile una prova gratuita?
 
- R3: Sì, puoi esplorare una prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi esplorare una prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere una licenza temporanea?
 
- A4: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ A4: Ottieni una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Hai bisogno di supporto o hai domande?
 

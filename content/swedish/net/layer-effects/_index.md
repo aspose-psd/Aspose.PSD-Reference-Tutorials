@@ -50,7 +50,7 @@ Lär dig hur du lägger till ett gradientlinjelager i Aspose.PSD för .NET. Öka
 Förbättra dina PSD-filer med strecklager och mönster med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för sömlös integration.
 ### [Stöder skuggeffekter i Aspose.PSD för .NET](./supporting-shadow-effects/)
 Förbättra dina bilder med Aspose.PSD för .NET! Lär dig att stödja skuggeffekter steg för steg. Ladda ner nu för en visuellt fantastisk upplevelse.
-### [Justering av skuggeffektopacitet i Aspose.PSD för .NET](./adjusting-shadow-effect-opacity/)
+### [Justera skuggeffektopacitet i Aspose.PSD för .NET](./adjusting-shadow-effect-opacity/)
 Lär dig hur du justerar opaciteten för skuggeffekter i Aspose.PSD för .NET med denna omfattande handledning.
 ### [Arbeta med blandningslägen i Aspose.PSD för .NET](./working-with-blend-modes/)
 Utforska kraften i blandningslägen i Aspose.PSD för .NET. Denna handledning guidar dig genom att tillämpa olika blandningslägen med steg-för-steg-exempel.

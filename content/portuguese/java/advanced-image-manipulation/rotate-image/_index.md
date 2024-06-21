@@ -83,4 +83,4 @@ A2: Com certeza! Aspose.PSD oferece flexibilidade para aplicar rotações person
 
 ### P5: Como obtenho uma licença temporária?
 
- A5: Se precisar de uma licença temporária, você pode obter uma[aqui](https://purchase.aspose.com/temporary-license/).
+ R5: Se precisar de uma licença temporária, você pode obter uma.[aqui](https://purchase.aspose.com/temporary-license/).

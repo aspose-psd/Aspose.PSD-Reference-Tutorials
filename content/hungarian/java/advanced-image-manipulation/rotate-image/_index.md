@@ -83,4 +83,4 @@ A2: Abszolút! Az Aspose.PSD rugalmasságot biztosít az egyedi elforgatások al
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
- V5: Ha ideiglenes engedélyre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Ha ideiglenes engedélyre van szüksége, beszerezhet egyet.[itt](https://purchase.aspose.com/temporary-license/).

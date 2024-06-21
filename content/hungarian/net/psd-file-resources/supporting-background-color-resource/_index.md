@@ -76,7 +76,7 @@ Gratulálunk! Sikeresen manipulálta a PSD-lemezkép BackgroundColorResource-já
 
 ### 2. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
-2. válasz: Igen, az Aspose.PSD használható kereskedelmi és nem kereskedelmi projektekben is. Ellenőrizd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+2. válasz: Igen, az Aspose.PSD használható kereskedelmi és nem kereskedelmi projektekben is. Ellenőrizd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 

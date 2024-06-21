@@ -79,7 +79,7 @@ Grattis! Du har framgångsrikt bemästrat användningen av 'WorkingPathResource'
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag få support för Aspose.PSD för .NET?
 
@@ -87,4 +87,4 @@ Grattis! Du har framgångsrikt bemästrat användningen av 'WorkingPathResource'
 
 ### F5: Behöver du en tillfällig licens?
 
- A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ A5: Skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).

@@ -70,8 +70,8 @@ S1: Ja, Aspose.PSD låter dig ersätta teckensnitt selektivt på en per-lager ba
 
 ### F4: Finns tillfälliga licenser tillgängliga för Aspose.PSD?
 
- A4: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag hitta omfattande dokumentation för Aspose.PSD?
 
- A5: Se detaljerad information[dokumentation](https://reference.aspose.com/psd/net/) för djupgående insikter i Aspose.PSD-funktioner.
+ A5: Se detaljerna[dokumentation](https://reference.aspose.com/psd/net/) för djupgående insikter i Aspose.PSD-funktioner.

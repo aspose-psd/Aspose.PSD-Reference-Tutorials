@@ -94,11 +94,11 @@ A1: Ναι, το Aspose.PSD υποστηρίζει διάφορες μορφές
 
 ### Ε2: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;
 
- A2: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A2: Μπορείτε να πάρετε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε3: Πού μπορώ να βρω την τεκμηρίωση του Aspose.PSD;
 
-A3: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/java/).
+A3: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/java/).
 
 ### Ε4: Ποιες επιλογές υποστήριξης είναι διαθέσιμες για το Aspose.PSD;
 

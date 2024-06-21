@@ -100,4 +100,4 @@ A1: はい、Aspose.PSD は幅広い画像形式をサポートしているた�
 
 ### Q5: Java 用の Aspose.PSD を購入するにはどうすればよいですか?
 
- A5: 製品を購入できます。[ここ](https://purchase.aspose.com/buy).
+ A5: 商品は購入可能です。[ここ](https://purchase.aspose.com/buy).

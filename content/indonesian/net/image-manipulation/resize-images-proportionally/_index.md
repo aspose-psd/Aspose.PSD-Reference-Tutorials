@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Tentukan lebar dan tinggi baru untuk gambar yang diubah ukurannya. Dalam contoh ini, lebar dan tinggi dibelah dua, namun Anda dapat menyesuaikan nilai ini berdasarkan kebutuhan Anda.
+Tentukan lebar dan tinggi baru untuk gambar yang diubah ukurannya. Dalam contoh ini, lebar dan tinggi dibelah dua, tetapi Anda dapat menyesuaikan nilai ini berdasarkan kebutuhan Anda.
 
 ## Langkah 3: Simpan Gambar yang Diubah Ukurannya
 

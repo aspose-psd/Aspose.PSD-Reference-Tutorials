@@ -1,7 +1,7 @@
 ---
 title: Sesuaikan Gamma suatu Gambar dengan Aspose.PSD untuk Java
 linktitle: Sesuaikan Gamma suatu Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara menyesuaikan gamma gambar dengan mudah menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk hasil optimal.
 type: docs
 weight: 23
@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## Langkah 2: Sesuaikan Gamma
 
- Sekarang, sesuaikan gamma gambar yang dimuat menggunakan`adjustGamma` metode. Sesuaikan nilai gamma sesuai dengan kebutuhan Anda.
+ Sekarang, sesuaikan gamma gambar yang dimuat menggunakan`adjustGamma` metode. Sesuaikan nilai gamma sesuai kebutuhan Anda.
 
 ```java
 // Sesuaikan gammanya

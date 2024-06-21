@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Stellen Sie sicher, dass die Aspose.PSD-Bibliothek in Ihrem Projekt installiert ist. Die Dokumentation finden Sie hier[Hier](https://reference.aspose.com/psd/net/).
+Stellen Sie sicher, dass die Aspose.PSD-Bibliothek in Ihrem Projekt installiert ist. Die Dokumentation finden Sie hier[Hier](https://reference.aspose.com/psd/net/).
 
 ## Schritt 1: Definieren Sie Ihr Dokumentenverzeichnis
 
@@ -93,7 +93,7 @@ A2: Auf jeden Fall! Mit Aspose.PSD können Sie eine Stapelbildverarbeitung durch
 
 ### F4: Gibt es eine kostenlose Testversion?
 
- A4: Ja, Sie können auf eine kostenlose Testversion von Aspose.PSD zugreifen[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können auf eine kostenlose Testversion von Aspose.PSD zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F5: Wie kann ich Unterstützung erhalten oder Hilfe suchen?
 

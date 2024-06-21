@@ -10,15 +10,15 @@ url: /pl/java/basic-image-operations/
 
 ## Wstęp
 
-Czy jesteś gotowy, aby odkryć tajemnice projektowania graficznego? Zanurz się w świat manipulacji obrazami za pomocą Aspose.PSD dla Java. W tej obszernej serii samouczków poprowadzimy Cię przez różne podstawowe operacje na obrazach, dzięki czemu możesz bez wysiłku tworzyć wspaniałe efekty wizualne.
+Czy jesteś gotowy, aby odkryć tajemnice projektowania graficznego? Zanurz się w świat manipulacji obrazami dzięki Aspose.PSD dla Java. W tej obszernej serii samouczków poprowadzimy Cię przez różne podstawowe operacje na obrazach, dzięki czemu możesz bez wysiłku tworzyć wspaniałe efekty wizualne.
 
 ## Uwalnianie kreatywności: prosty rysunek
 
- Odkryj sztukę rysowania kształtów w plikach PSD za pomocą[Aspose.PSD dla Javy](./simple-drawing/). Ten samouczek poprowadzi Cię krok po kroku i nauczy Cię podstaw tworzenia i dodawania warstw. Dzięki wnikliwym przykładom kodu zrozumiesz niuanse rysunkowe, które ożywią Twoje projekty. Uwolnij swoją kreatywność i opanuj płótno dzięki Aspose.PSD.
+ Odkryj sztukę rysowania kształtów w plikach PSD za pomocą[Aspose.PSD dla Javy](./simple-drawing/). Ten samouczek zabierze Cię w podróż krok po kroku i nauczy Cię podstaw tworzenia i dodawania warstw. Dzięki wnikliwym przykładom kodu zrozumiesz niuanse rysunkowe, które ożywią Twoje projekty. Uwolnij swoją kreatywność i opanuj płótno dzięki Aspose.PSD.
 
 ## Zmiana rozmiaru stała się prosta
 
- Efektywnie manipuluj programowo rozmiarami obrazów za pomocą[Aspose.PSD dla Javy](./simple-resizing/). Nasz przyjazny dla użytkownika przewodnik upraszcza proces zmiany rozmiaru, zapewniając zrozumienie każdego szczegółu. W tym samouczku znajdziesz wszystko, od podstaw po zaawansowane techniki. Zanurz się i bezproblemowo przekształcaj swoje obrazy za pomocą Aspose.PSD.
+ Efektywnie manipuluj programowo rozmiarami obrazów za pomocą[Aspose.PSD dla Javy](./simple-resizing/)Nasz przyjazny dla użytkownika przewodnik upraszcza proces zmiany rozmiaru, zapewniając zrozumienie każdego szczegółu. W tym samouczku znajdziesz wszystko, od podstaw po zaawansowane techniki. Zanurz się i bezproblemowo przekształcaj swoje obrazy za pomocą Aspose.PSD.
 
 ## Efekty wzmacniające: obsługa trybów mieszania
 
@@ -30,7 +30,7 @@ Czy jesteś gotowy, aby odkryć tajemnice projektowania graficznego? Zanurz się
 
 ## Odsłonięto przezroczystość: sprawdź przezroczystość obrazu
 
- Poznaj dziedzinę weryfikacji przezroczystości obrazu za pomocą[Aspose.PSD dla Javy](./verify-image-transparency/). Ten samouczek płynnie integruje przejrzystość z Twoimi projektami, ze szczegółową dokumentacją i doskonałym wsparciem społeczności. Podnieś poziom swoich projektów dzięki pewności zweryfikowanej przezroczystości obrazu przy użyciu Aspose.PSD dla Java.
+ Poznaj dziedzinę weryfikacji przezroczystości obrazu za pomocą[Aspose.PSD dla Javy](./verify-image-transparency/)Ten samouczek płynnie integruje przejrzystość z Twoimi projektami, ze szczegółową dokumentacją i doskonałym wsparciem społeczności. Podnieś poziom swoich projektów dzięki pewności zweryfikowanej przezroczystości obrazu przy użyciu Aspose.PSD dla Java.
 
 Podsumowując, te samouczki zapewniają całościowe zrozumienie podstawowych operacji na obrazach przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś nowicjuszem, czy doświadczonym projektantem, odblokuj potencjał projektowania graficznego dzięki naszym przewodnikom krok po kroku. Zanurz się i pozwól swojej kreatywności rozkwitnąć!
 ## Samouczki dotyczące podstawowych operacji na obrazach

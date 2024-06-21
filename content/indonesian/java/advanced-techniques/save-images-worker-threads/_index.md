@@ -1,7 +1,7 @@
 ---
 title: Simpan Gambar menggunakan Worker Threads dengan Aspose.PSD untuk Java
 linktitle: Simpan Gambar menggunakan Utas Pekerja
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi pemrosesan gambar multi-utas di Java dengan Aspose.PSD. Pelajari cara menyimpan gambar secara efisien menggunakan thread pekerja.
 type: docs
 weight: 14
@@ -106,16 +106,16 @@ A1: Ya, Aspose.PSD untuk Java menyediakan dukungan untuk multi-threading, memung
 
 ### Q2: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk Java?
 
- A2: Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.aspose.com/psd/java/) untuk informasi komprehensif tentang Aspose.PSD untuk Java.
+ A2: Anda dapat merujuk ke dokumentasi.[Di Sini](https://reference.aspose.com/psd/java/) untuk informasi komprehensif tentang Aspose.PSD untuk Java.
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
 
- A3: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menjelajahi kemampuan penuh Aspose.PSD untuk Java.
+ A3: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menjelajahi kemampuan penuh Aspose.PSD untuk Java.
 
 ### Q4: Opsi dukungan apa yang tersedia untuk Aspose.PSD untuk Java?
 
  A4: Untuk bantuan atau pertanyaan apa pun, kunjungi[Aspose.PSD untuk forum Java](https://forum.aspose.com/c/psd/34) untuk terhubung dengan komunitas dan para ahli.
 
-### Q5: Di mana saya bisa membeli Aspose.PSD untuk Java?
+### Q5: Di mana saya dapat membeli Aspose.PSD untuk Java?
 
  A5: Untuk membeli Aspose.PSD untuk Java, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).

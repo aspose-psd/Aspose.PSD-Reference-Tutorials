@@ -102,8 +102,8 @@ Câu trả lời 2: Có, Aspose.PSD có thể được sử dụng cho cả mụ
 
 ### Câu hỏi 4: Aspose.PSD có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Đ4: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.PSD không?
 
-A5: Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Câu trả lời 5: Có, bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

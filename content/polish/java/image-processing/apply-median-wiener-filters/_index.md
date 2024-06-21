@@ -84,15 +84,15 @@ W tym samouczku zbadaliśmy proces stosowania filtrów medianowych i wienerowski
 
 ### P1: Czy mogę zastosować te filtry do obrazów w dowolnym formacie?
 
-Odpowiedź 1: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, dzięki czemu jest wszechstronny w przypadku różnych projektów.
+Odpowiedź 1: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, dzięki czemu jest wszechstronny w różnych projektach.
 
 ### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- A2: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ A2: Tak, możesz uzyskać bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).
 
 ### P3: Jak uzyskać wsparcie dla Aspose.PSD dla Java?
 
- A3: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+ A3: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
 
 ### P4: Gdzie mogę znaleźć dokumentację Aspose.PSD dla Java?
 
@@ -100,4 +100,4 @@ Odpowiedź 1: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, dzi�
 
 ### P5: Jak mogę kupić Aspose.PSD dla Java?
 
- A5: Możesz kupić produkt[Tutaj](https://purchase.aspose.com/buy).
+ A5: Możesz kupić produkt.[Tutaj](https://purchase.aspose.com/buy).

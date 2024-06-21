@@ -128,7 +128,7 @@ S2: Ja, du kan använda olika effekter, inklusive Gradient Overlay, på ett enda
 
 ### F4: Finns det en gratis provperiod?
 
- A4: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+ A4: Ja, du kan få tillgång till en gratis provperiod.[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få support för Aspose.PSD?
 

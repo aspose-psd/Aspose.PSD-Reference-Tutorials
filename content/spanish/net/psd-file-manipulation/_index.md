@@ -17,7 +17,7 @@ Libere el potencial de las capas de formato AI en Aspose.PSD para .NET. Nuestra 
 
 ## Exportación de imágenes PSD a formato GIF
 
-Transforme sus imágenes PSD en GIF dinámicos utilizando Aspose.PSD para .NET. Esta guía completa lo guía a través del proceso de exportación con instrucciones paso a paso. Mejore la presentación de su imagen e interactúe con su audiencia sin esfuerzo.
+Transforme sus imágenes PSD en GIF dinámicos usando Aspose.PSD para .NET. Esta guía completa lo guía a través del proceso de exportación con instrucciones paso a paso. Mejore la presentación de su imagen e interactúe con su audiencia sin esfuerzo.
 
 ## Manejo de secciones de datos animadas
 

@@ -85,4 +85,4 @@ C1: Evet, Aspose.PSD for Java, diğer Java kütüphaneleriyle sorunsuz çalışa
 
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
- Cevap5: Kitaplığı test ediyorsanız geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Y5: Kitaplığı test ediyorsanız geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

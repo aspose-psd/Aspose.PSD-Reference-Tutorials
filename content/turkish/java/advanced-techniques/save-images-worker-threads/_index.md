@@ -106,11 +106,11 @@ Cevap1: Evet, Aspose.PSD for Java, çoklu iş parçacığı desteği sağlayarak
 
 ### S2: Aspose.PSD for Java'nın ayrıntılı belgelerini nerede bulabilirim?
 
- A2: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/psd/java/) Aspose.PSD for Java hakkında kapsamlı bilgi için.
+ A2: Belgelere başvurabilirsiniz.[Burada](https://reference.aspose.com/psd/java/) Aspose.PSD for Java hakkında kapsamlı bilgi için.
 
 ### S3: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
 
- Cevap3: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'nın tüm özelliklerini keşfetmek için.
+ Cevap3: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'nın tüm özelliklerini keşfetmek için.
 
 ### S4: Aspose.PSD for Java için hangi destek seçenekleri mevcut?
 

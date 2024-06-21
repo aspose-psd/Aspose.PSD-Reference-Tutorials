@@ -9,7 +9,7 @@ url: /nl/net/image-manipulation/adding-gradient-effects/
 ---
 ## Invoering
 
-Het verbeteren van afbeeldingen met verloopeffecten kan een boeiende dimensie aan uw visuele inhoud toevoegen. Aspose.PSD voor .NET biedt een krachtig platform voor het opnemen van verloopoverlays in uw afbeeldingen. In deze zelfstudie begeleiden we u bij het toevoegen van verloopeffecten met Aspose.PSD voor .NET.
+Het verbeteren van afbeeldingen met verloopeffecten kan een boeiende dimensie aan uw visuele inhoud toevoegen. Aspose.PSD voor .NET biedt een krachtig platform voor het integreren van gradiëntoverlays in uw afbeeldingen. In deze zelfstudie begeleiden we u bij het toevoegen van verloopeffecten met Aspose.PSD voor .NET.
 
 ## Vereisten
 
@@ -60,10 +60,10 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
     // Beweringscontroles voor initiële instellingen
     // ...
 
-    // Kleur punten
+    // Kleurpunten
     // ...
 
-    //Transparantiepunten
+    //Transparantie punten
     // ...
 }
 ```
@@ -139,7 +139,7 @@ A2: Aspose.PSD voor .NET ondersteunt verschillende afbeeldingsbestandsindelingen
 
 ### V3: Is er een proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A3: Ja, u kunt de mogelijkheden van Aspose.PSD voor .NET verkennen door de gratis proefversie te downloaden van[hier](https://releases.aspose.com/).
+A3: Ja, u kunt de mogelijkheden van Aspose.PSD voor .NET verkennen door de gratis proefversie te downloaden van[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 

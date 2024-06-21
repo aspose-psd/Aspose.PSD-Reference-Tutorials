@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Asegúrese de tener la biblioteca Aspose.PSD instalada en su proyecto. Puedes encontrar la documentación.[aquí](https://reference.aspose.com/psd/net/).
+Asegúrese de tener la biblioteca Aspose.PSD instalada en su proyecto. Puedes encontrar la documentación.[aquí](https://reference.aspose.com/psd/net/).
 
 ## Paso 1: Defina su directorio de documentos
 
@@ -93,7 +93,7 @@ R2: ¡Absolutamente! Aspose.PSD le permite realizar procesamiento de imágenes p
 
 ### P4: ¿Hay una prueba gratuita disponible?
 
- R4: Sí, puedes acceder a una prueba gratuita de Aspose.PSD[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes acceder a una prueba gratuita de Aspose.PSD.[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Cómo puedo obtener apoyo o buscar asistencia?
 

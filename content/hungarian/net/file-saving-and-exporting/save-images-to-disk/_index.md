@@ -85,8 +85,8 @@ Az Aspose.PSD for .NET leegyszerűsíti a képfeldolgozási feladatokat, így a 
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
- V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.PSD-t .NET-hez?
 
- 5. válasz: Megvásárolhatja az Aspose.PSD-t .NET-hez[itt](https://purchase.aspose.com/buy).
+ 5. válasz: Megvásárolhatja az Aspose.PSD-t .NET-hez.[itt](https://purchase.aspose.com/buy).

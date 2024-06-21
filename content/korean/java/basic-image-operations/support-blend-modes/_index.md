@@ -11,7 +11,7 @@ url: /ko/java/basic-image-operations/support-blend-modes/
 
 Aspose.PSD for Java는 블렌드 모드에 대한 광범위한 지원을 제공하는 강력한 라이브러리로, 개발자가 이미지 처리 기능을 향상시킬 수 있습니다. 이 튜토리얼에서는 블렌드 모드의 세계를 탐구하고 Java용 Aspose.PSD를 사용하여 블렌드 모드를 효과적으로 활용하는 방법을 탐구합니다. 숙련된 개발자이든 이미지 조작 초보자이든 이 가이드는 Java 애플리케이션에서 블렌드 모드의 잠재력을 최대한 활용할 수 있는 지식을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -58,7 +58,7 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// 불투명도 100%의 PNG로 저장
+// 불투명도 100%의 PNG로 저장합니다.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ PSD 파일에서 특정 레이어의 불투명도를 설정합니다. 여기서�
 // 불투명도를 50%로 설정
 im.getLayers()[1].setOpacity((byte)127);
 
-// 불투명도 50%의 PNG로 저장
+// 불투명도 50%의 PNG로 저장합니다.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

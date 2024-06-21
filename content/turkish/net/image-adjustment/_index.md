@@ -1,6 +1,6 @@
 ---
-title: Görüntü Ayarı
-linktitle: Görüntü Ayarı
+title: Görüntü Ayarlama
+linktitle: Görüntü Ayarlama
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile görüntü ayarlama potansiyelini ortaya çıkarın. Görüntü manipülasyonunda ustalaşmak için parlaklık, kontrast ve renk dengesi hakkındaki eğitimleri keşfedin.
 type: docs

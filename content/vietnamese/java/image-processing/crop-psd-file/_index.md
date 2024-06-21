@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Lưu hình ảnh đã cắt ở định dạng PSD bằng đường dẫn đã chỉ định.
 
-## Bước 5: Lưu hình ảnh đã cắt dưới dạng PNG
+## Bước 5: Lưu ảnh đã cắt dưới dạng PNG.
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -105,4 +105,4 @@ Câu trả lời 2: Có, Aspose.PSD dành cho Java được tối ưu hóa về 
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
 
- Câu trả lời 5: Có, hãy khám phá các tính năng bằng bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 5: Có, hãy khám phá các tính năng bằng bản dùng thử miễn phí.[đây](https://releases.aspose.com/).

@@ -64,7 +64,7 @@ String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-现在你就拥有了！您已成功使用 Aspose.PSD for Java 按比例调整图像大小。
+现在你就得到了它！您已成功使用 Aspose.PSD for Java 按比例调整图像大小。
 
 ## 结论
 
@@ -82,7 +82,7 @@ image.save(destName, new PngOptions());
 
 ### Q3：临时许可证是否可用于测试目的？
 
- A3：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)进行评估。
+ A3：是的，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)进行评估。
 
 ### Q4：哪里可以找到对 Aspose.PSD 的支持？
 

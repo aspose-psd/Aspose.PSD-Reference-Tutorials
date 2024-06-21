@@ -9,7 +9,7 @@ url: /tr/java/advanced-image-effects/add-pattern-effects/
 ---
 ## giriiş
 
-Java geliştirme dünyasında görüntü modellerini geliştirmek yaygın bir görevdir ve Aspose.PSD for Java bunun için sağlam bir çözüm sunar. Bu eğitim, Aspose.PSD'yi kullanarak desen efektleri ekleme sürecinde size rehberlik edecek ve görsellerinizin benzersiz katmanlar ve geliştirmelerle öne çıkmasını sağlayacaktır.
+Java geliştirme dünyasında görüntü modellerini geliştirmek yaygın bir görevdir ve Aspose.PSD for Java bunun için sağlam bir çözüm sunar. Bu eğitim, Aspose.PSD'yi kullanarak desen efektleri ekleme sürecinde size rehberlik edecek ve görsellerinizin benzersiz kaplamalar ve geliştirmelerle öne çıkmasını sağlayacaktır.
 
 ## Önkoşullar
 
@@ -129,7 +129,7 @@ Cevap1: Aspose.PSD for Java bağımsız çalışacak şekilde tasarlanmıştır,
 
 ### S3: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for Java desteğini nasıl alabilirim?
 
@@ -137,4 +137,4 @@ Cevap1: Aspose.PSD for Java bağımsız çalışacak şekilde tasarlanmıştır,
 
 ### S5: Aspose.PSD for Java için geçici bir lisans alabilir miyim?
 
-Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

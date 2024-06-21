@@ -78,4 +78,4 @@ Assolutamente! Aspose.PSD fornisce funzionalità per un'efficiente elaborazione 
 ### Dove posso trovare altri profili ICC per la gestione del colore?
 Esplora fonti affidabili e organizzazioni di gestione del colore per una varietà di profili ICC.
 ### Quali sono i vantaggi derivanti dall'utilizzo dei profili ICC nella conversione del colore?
-profili ICC garantiscono la coerenza nella rappresentazione del colore tra diversi dispositivi e applicazioni.
+I profili ICC garantiscono la coerenza nella rappresentazione del colore tra diversi dispositivi e applicazioni.

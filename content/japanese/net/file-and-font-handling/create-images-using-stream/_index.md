@@ -110,4 +110,4 @@ A2: 寸法はカスタマイズ可能です。それに応じて Image.Create �
 
 ### Q5: 一時ライセンスは利用できますか?
 
- A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).

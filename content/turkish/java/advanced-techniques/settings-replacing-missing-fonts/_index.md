@@ -97,7 +97,7 @@ C2: Evet, tasarım gereksinimlerinize göre özel yedek yazı tiplerini belirley
 
 ### S3: Aspose.PSD için herhangi bir lisanslama seçeneği mevcut mu?
 
- Cevap 3: Lisanslama seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy)İhtiyaçlarınıza en uygun planı seçmek için.
+ Cevap3: Lisanslama seçeneklerini keşfedin.[Burada](https://purchase.aspose.com/buy)İhtiyaçlarınıza en uygun planı seçmek için.
 
 ### S4: Aspose.PSD desteği için bir topluluk forumu var mı?
 

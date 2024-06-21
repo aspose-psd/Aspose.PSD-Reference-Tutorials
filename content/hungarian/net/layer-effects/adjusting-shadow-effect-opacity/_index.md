@@ -96,7 +96,7 @@ Gratulálunk! Sikeresen beállította az Aspose.PSD for .NET árnyékhatás átl
 
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 
- V3: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V3: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 4. kérdés: Az Aspose.PSD for .NET kompatibilis a .NET Core-al?
 

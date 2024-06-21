@@ -11,7 +11,7 @@ url: /cs/net/text-and-font-manipulation/render-text-different-colors/
 Vítejte v našem podrobném tutoriálu o vykreslování textu s různými barvami v textových vrstvách pomocí Aspose.PSD pro .NET. Aspose.PSD je výkonné API, které umožňuje vývojářům bezproblémově manipulovat a zpracovávat soubory PSD. V tomto tutoriálu se zaměříme na konkrétní úkol: vykreslování textu různými barvami v textových vrstvách.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte následující nastavení:
--  Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/net/).
 - Prostředí .NET: Ujistěte se, že máte na počítači nastaveno funkční prostředí .NET.
 -  Ukázkový soubor PSD: Stáhněte si ukázkový soubor PSD z[zde](Váš adresář dokumentů).
 - Výstupní adresář: Vytvořte adresář, do kterého bude uložen výstupní obraz (Váš výstupní adresář).
@@ -67,7 +67,7 @@ Odpověď 1: Ano, Aspose.PSD for .NET je navržen tak, aby bezproblémově fungo
 
 ### Q3: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A3: K dispozici je podrobná dokumentace[tady](https://reference.aspose.com/psd/net/) které vám pomohou pochopit a implementovat různé funkce Aspose.PSD pro .NET.
+ A3: K dispozici je podrobná dokumentace.[tady](https://reference.aspose.com/psd/net/) které vám pomohou pochopit a implementovat různé funkce Aspose.PSD pro .NET.
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 

@@ -11,7 +11,7 @@ url: /ko/net/psd-drawing-techniques/drawing-lines-effectively/
 
 .NET용 Aspose.PSD에서 효과적으로 선을 그리는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다! Aspose.PSD는 .NET 애플리케이션에서 원활한 이미지 처리 및 조작을 가능하게 하는 강력한 라이브러리입니다. 이 가이드에서는 Aspose.PSD 라이브러리를 사용하여 눈길을 끄는 라인을 만드는 데 중점을 둘 것입니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -114,4 +114,4 @@ Image 인스턴스를 만들고 Graphics 클래스를 초기화하여 배경색�
 
 ### Q5: .NET용 Aspose.PSD에 대한 임시 라이선스가 필요합니까?
 
- A5: 필요한 경우 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

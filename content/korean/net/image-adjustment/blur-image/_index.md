@@ -9,9 +9,9 @@ url: /ko/net/image-adjustment/blur-image/
 ---
 ## 소개
 
-.NET 개발 영역에서 Aspose.PSD는 이미지 조작을 위한 강력한 동맹임이 입증되었습니다. 이 튜토리얼은 .NET용 Aspose.PSD를 사용하여 이미지를 흐리게 하는 특정 작업에 중점을 둡니다. 이미지 처리 기술을 강화하고 싶거나 프로그래밍 방식으로 이미지를 흐리게 하는 효율적인 방법을 찾고 있다면 잘 찾아오셨습니다.
+.NET 개발 영역에서 Aspose.PSD는 이미지 조작을 위한 강력한 동맹임이 입증되었습니다. 이 튜토리얼은 .NET용 Aspose.PSD를 사용하여 이미지를 흐리게 하는 특정 작업에 중점을 둡니다. 이미지 처리 기술을 강화하고 싶거나 단순히 프로그래밍 방식으로 이미지를 흐리게 하는 효율적인 방법을 찾고 있다면 잘 찾아오셨습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## 4단계: 가우시안 흐림 필터 적용
+## 4단계: 가우시안 흐림 필터를 적용합니다.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- 여기서는`GaussianBlurFilterOptions` 클래스는 수평 및 수직 흐림 모두에 대해 지정된 반경 15로 활용됩니다.
+ 여기서는`GaussianBlurFilterOptions` 클래스는 수평 및 수직 흐림 모두에 대해 지정된 반경 15와 함께 사용됩니다.
 
 ## 5단계: 흐린 이미지 저장
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## 결론
 
-축하해요! .NET용 Aspose.PSD를 사용하여 이미지를 성공적으로 흐리게 했습니다. 이 튜토리얼은 Aspose.PSD의 기능을 간략하게 소개하고 .NET 애플리케이션에서 이미지 조작을 위한 수많은 가능성을 열어줍니다.
+축하해요! .NET용 Aspose.PSD를 사용하여 이미지를 성공적으로 흐리게 했습니다. 이 튜토리얼은 Aspose.PSD의 기능을 간략하게 소개하고 .NET 애플리케이션에서 이미지 조작을 위한 다양한 가능성을 열어줍니다.
 
 ## FAQ
 

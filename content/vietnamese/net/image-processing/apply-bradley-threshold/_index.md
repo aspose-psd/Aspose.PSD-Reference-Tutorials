@@ -81,7 +81,7 @@ Câu trả lời 1: Có, Ngưỡng Bradley là một kỹ thuật linh hoạt ph
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí Aspose.PSD cho .NET[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí Aspose.PSD cho .NET.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD?
 
@@ -89,4 +89,4 @@ Câu trả lời 1: Có, Ngưỡng Bradley là một kỹ thuật linh hoạt ph
 
 ### Câu hỏi 5: Tôi có thể mua giấy phép cho Aspose.PSD ở đâu?
 
- A5: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+ A5: Bạn có thể mua giấy phép.[đây](https://purchase.aspose.com/buy).

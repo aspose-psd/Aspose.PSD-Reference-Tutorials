@@ -63,4 +63,12 @@ is_root: true
 ### [基本图像操作](./basic-image-operations/)
 通过 Aspose.PSD for Java 教程提高您的图形设计技能。在分步指南中学习绘图、调整大小、混合模式和透明度验证。
 ### [高级图像效果](./advanced-image-effects/)
-使用 Aspose.PSD 提升您的 Java 图形设计！无缝掌握高级图像效果 - 从渐变和图案到签名和笔画。
+使用 Aspose.PSD 提升您的 Java 图形设计！无缝掌握高级图像效果 - 从渐变和图案到签名和笔划。
+### [Java图形绘制](./java-graphics-drawing/)
+探索有关图形绘制的 Aspose.PSD for Java 教程。通过分步指南学习添加笔画、绘制形状和操作 PSD 文件。
+### [Java AI 到图像格式的转换](./java-ai-to-image-format-conversion/)
+使用 Aspose.PSD 在 Java 中轻松将 AI 文件转换为各种格式。请遵循我们的全面指南，实现无缝、高质量的图像转换。
+### [Java PSB 到图像格式的转换](./java-psb-to-image-format-conversion/)
+使用 Aspose.PSD 在 Java 中轻松将 PSB 转换为 JPG、PDF 和 PSD。按照我们的教程进行无缝图像转换并增强您的项目。
+### [Java JPEG 图像处理](./java-jpeg-image-processing/)
+探索 Aspose.PSD for Java 教程。通过分步指南和代码示例学习如何处理 EXIF、JFIF、JPEG 等。

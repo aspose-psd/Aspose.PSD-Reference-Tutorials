@@ -92,7 +92,7 @@ psdImage.save(outputStream, new PngOptions());
 
 ### س2: هل يمكنني تجربة Aspose.PSD لـ Java قبل الشراء؟
 
- ج2: نعم، يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج2: نعم، يمكنك استكشاف نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على دعم لـ Aspose.PSD لـ Java؟
 
@@ -100,8 +100,8 @@ psdImage.save(outputStream, new PngOptions());
 
 ### س4: هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
 
- ج4: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لاختبار Aspose.PSD لجافا.
+ ج4: الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) لاختبار Aspose.PSD لجافا.
 
 ### س5: أين يمكنني شراء Aspose.PSD لـ Java؟
 
- ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على Aspose.PSD لجافا.
+ ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على Aspose.PSD لـ Java.

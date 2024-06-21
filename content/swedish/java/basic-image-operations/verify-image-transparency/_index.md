@@ -85,4 +85,4 @@ S1: Ja, Aspose.PSD för Java är utformad för att fungera sömlöst med andra J
 
 ### F5: Behöver jag en tillfällig licens för att testa?
 
- S5: Om du testar biblioteket kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S5: Om du testar biblioteket kan du få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).

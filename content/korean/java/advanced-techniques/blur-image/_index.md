@@ -11,7 +11,7 @@ url: /ko/java/advanced-techniques/blur-image/
 
 Java 개발 세계에서는 이미지를 향상하고 조작하는 것이 일반적인 요구 사항입니다. 프로그래밍 방식으로 이미지에 흐림 효과를 추가하려는 경우 Java용 Aspose.PSD는 프로세스를 단순화하는 강력한 도구입니다. 이 튜토리얼은 Aspose.PSD를 사용하여 이미지를 흐리게 하는 단계를 안내하여 전문적인 결과를 쉽게 얻을 수 있도록 합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -95,4 +95,4 @@ A1: 물론이죠! Aspose.PSD에는 모든 기술 수준의 개발자를 안내�
 
 ### Q5: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
 
- A5: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

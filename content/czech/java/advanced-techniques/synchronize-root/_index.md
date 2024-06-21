@@ -82,7 +82,7 @@ Odpověď 1: Ano, Aspose.PSD for Java je kompatibilní s verzí Java 6 a vyšš�
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- Odpověď 4: Ano, můžete navštívit bezplatnou zkušební verzi Aspose.PSD[tady](https://releases.aspose.com/).
+ Odpověď 4: Ano, můžete navštívit bezplatnou zkušební verzi Aspose.PSD.[tady](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 

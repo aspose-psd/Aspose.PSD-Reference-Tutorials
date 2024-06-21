@@ -83,4 +83,4 @@ A2: Auf jeden Fall! Aspose.PSD bietet Flexibilität für die Anwendung benutzerd
 
 ### F5: Wie erhalte ich eine temporäre Lizenz?
 
- A5: Wenn Sie eine temporäre Lizenz benötigen, können Sie eine erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Wenn Sie eine temporäre Lizenz benötigen, können Sie eine erhalten.[Hier](https://purchase.aspose.com/temporary-license/).

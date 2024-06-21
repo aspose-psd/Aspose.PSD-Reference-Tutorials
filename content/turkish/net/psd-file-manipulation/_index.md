@@ -25,7 +25,7 @@ Aspose.PSD for .NET'te animasyonlu veri bölümlerini yönetme kılavuzumuzla C#
 
 ## Katman Durumu Efektleriyle Çalışmak
 
-Aspose.PSD for .NET'te Katman Durumu Efektlerinin gücünü keşfedin. Bu kolay eğitim kılavuzu, PSD dosyalarınızı Alt Gölge ve Degrade Kaplama gibi efektlerle geliştirmenize olanak tanır. Tasarımlarınızı zahmetsizce yükseltin.
+Aspose.PSD for .NET'te Katman Durumu Efektlerinin gücünü keşfedin. Bu kolay eğitim kılavuzu, PSD dosyalarınızı Alt Gölge ve Degrade Kaplama gibi efektlerle geliştirmenize olanak sağlar. Tasarımlarınızı zahmetsizce yükseltin.
 
 ## MLST Kaynaklarının Kullanımı
 

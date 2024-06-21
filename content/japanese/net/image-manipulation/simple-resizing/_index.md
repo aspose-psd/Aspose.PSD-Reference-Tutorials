@@ -76,7 +76,7 @@ A1: はい、幅または高さを適切に調整することで、画像のサ�
 
 ### Q2: Aspose.PSD for .NET は JPEG 以外の画像形式をサポートしていますか?
 
-A2：もちろんです！ Aspose.PSD for .NET は、PNG、GIF、BMP などのさまざまな画像形式をサポートしています。
+A2: もちろんです！ Aspose.PSD for .NET は、PNG、GIF、BMP などのさまざまな画像形式をサポートしています。
 
 ### Q3: Aspose.PSD for .NET の一時ライセンスは利用できますか?
 

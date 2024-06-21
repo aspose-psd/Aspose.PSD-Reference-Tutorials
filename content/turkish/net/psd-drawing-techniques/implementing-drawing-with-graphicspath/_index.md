@@ -51,7 +51,7 @@ Bu adımda, imajımızla çalışacak PsdImage sınıfının bir örneğini ve b
 ## Adım 2: GraphicsPath ve Şekil Oluşturma
 
 ```csharp
-// GraphicsPath ve Şekil Örneği'nin bir örneğini oluşturun, şekle EllipseShape, RectangleShape ve TextShape'i ekleyin
+// GraphicsPath ve Şekil Örneği'nin bir örneğini oluşturun, şekle EllipseShape, RectangleShape ve TextShape'i ekleyin.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ Cevap4: Evet, Aspose.PSD for .NET, Photoshop dosyalarındaki katmanlarla çalı�
 
 ### S5: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A5: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
+ A5: Belgeler mevcut.[Burada](https://reference.aspose.com/psd/net/).

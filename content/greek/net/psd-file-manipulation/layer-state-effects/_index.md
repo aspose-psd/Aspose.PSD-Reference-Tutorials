@@ -73,11 +73,11 @@ psdImage.Save(outputFile);
 
 ### A3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πώς μπορώ να πάρω μια προσωρινή άδεια;
 
- A4: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A4: Λάβετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε5: Χρειάζεστε υποστήριξη ή έχετε ερωτήσεις;
 

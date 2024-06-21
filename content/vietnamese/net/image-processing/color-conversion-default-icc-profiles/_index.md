@@ -96,7 +96,7 @@ Câu trả lời 3: Hoàn toàn có thể, Aspose.PSD cung cấp các công cụ
 
 ### Câu hỏi 4: Tôi có thể sử dụng Aspose.PSD cho các dự án thương mại không?
 
- A4: Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) cho mục đích thương mại.
+ A4: Có, bạn có thể mua giấy phép.[đây](https://purchase.aspose.com/buy) cho mục đích thương mại.
 
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.PSD dành cho .NET ở đâu?
 

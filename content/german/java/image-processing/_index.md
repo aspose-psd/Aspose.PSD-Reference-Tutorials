@@ -21,7 +21,7 @@ Mit Aspose.PSD für Java, einem Toolkit, das Entwicklern die Verbesserung visuel
 
 ## Entdecken Sie die Leistungsfähigkeit von Median- und Wiener-Filtern
 
- Bildqualität ist wichtig, und[Aspose.PSD für Java](./apply-median-wiener-filters/) ermöglicht es Ihnen, es mühelos anzuheben. Entdecken Sie das Potenzial von Median- und Wiener-Filtern, während wir Sie Schritt für Schritt durch den Prozess führen. Verbessern Sie Ihre Bilder, reduzieren Sie Rauschen und erzielen Sie optimale Klarheit mit diesen leistungsstarken Bildverarbeitungstechniken.
+ Bildqualität ist wichtig, und[Aspose.PSD für Java](./apply-median-wiener-filters/) ermöglicht es Ihnen, es mühelos zu erhöhen. Entdecken Sie das Potenzial von Median- und Wiener-Filtern, während wir Sie Schritt für Schritt durch den Prozess führen. Verbessern Sie Ihre Bilder, reduzieren Sie Rauschen und erzielen Sie optimale Klarheit mit diesen leistungsstarken Bildverarbeitungstechniken.
 
 ## Master Motion Wiener Filter für nahtlose Bilder
 

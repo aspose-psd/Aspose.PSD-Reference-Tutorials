@@ -15,7 +15,7 @@ Az Aspose.PSD for .NET robusztus funkciókat kínál a képfeldolgozáshoz, így
 
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Aspose.PSD for .NET: Töltse le és telepítse a könyvtárat innen[itt](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Töltse le és telepítse a könyvtárat innen[itt](https://releases.aspose.com/psd/net/).
 - Saját dokumentumkönyvtár: Állítson be egy könyvtárat a forrás- és kimeneti fájlok tárolására.
 
 ## Névterek importálása
@@ -85,11 +85,11 @@ Az alábbi lépések végrehajtásával sikeresen alkalmazta a ColorOverlay effe
 
 ### 2. kérdés: Hol találom az Aspose.PSD for .NET átfogó dokumentációját?
 
- V2: Olvassa el a dokumentációt[itt](https://reference.aspose.com/psd/net/)részletes információkért és kódmintákért.
+ V2: Olvassa el a dokumentációt.[itt](https://reference.aspose.com/psd/net/) részletes információkért és kódmintákért.
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- 3. válasz: Igen, felfedezheti az Aspose.PSD for .NET képességeit, ha letölti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+3. válasz: Igen, az ingyenes próbaverzió letöltésével felfedezheti az Aspose.PSD for .NET képességeit.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -97,4 +97,4 @@ Az alábbi lépések végrehajtásával sikeresen alkalmazta a ColorOverlay effe
 
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.PSD for .NET számára?
 
- V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) értékelési célokra.
+ V5: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) értékelési célokra.

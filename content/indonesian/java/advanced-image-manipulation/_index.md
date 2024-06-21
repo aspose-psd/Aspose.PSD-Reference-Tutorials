@@ -1,7 +1,7 @@
 ---
 title: Manipulasi Gambar Tingkat Lanjut
 linktitle: Manipulasi Gambar Tingkat Lanjut
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi tutorial manipulasi gambar tingkat lanjut dengan Aspose.PSD untuk Java. Pelajari penggantian font yang efisien, paksakan cache font, terapkan resampler bikubik, dan banyak lagi.
 type: docs
 weight: 24

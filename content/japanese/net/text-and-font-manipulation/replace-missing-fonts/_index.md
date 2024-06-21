@@ -70,8 +70,8 @@ A1: はい、Aspose.PSD を使用すると、レイヤーごとにフォント�
 
 ### Q4: Aspose.PSD の一時ライセンスは利用できますか?
 
- A4: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A4: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Aspose.PSD の包括的なドキュメントはどこで見つけられますか?
 
- A5: 詳細を参照してください。[ドキュメンテーション](https://reference.aspose.com/psd/net/) Aspose.PSD の機能についての詳細な洞察が得られます。
+ A5: 詳細を参照してください[ドキュメンテーション](https://reference.aspose.com/psd/net/)Aspose.PSD の機能についての詳細な洞察が得られます。

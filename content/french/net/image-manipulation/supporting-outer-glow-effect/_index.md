@@ -113,4 +113,4 @@ A1 : Oui, Aspose.PSD prend en charge un large éventail de frameworks .NET, gara
 
 ### Q5 : Puis-je acheter Aspose.PSD pour .NET ?
 
- A5 : Oui, explorez les options de licence et effectuez votre achat[ici](https://purchase.aspose.com/buy).
+ A5 : Oui, explorez les options de licence et effectuez votre achat.[ici](https://purchase.aspose.com/buy).

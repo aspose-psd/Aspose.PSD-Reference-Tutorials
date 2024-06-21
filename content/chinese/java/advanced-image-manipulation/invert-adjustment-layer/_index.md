@@ -88,8 +88,8 @@ A2：是的，您可以堆叠多个调整图层来实现复杂的图像操作。
 
 ### Q4：Aspose.PSD 有免费试用版吗？
 
- A4：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+ A4：是的，您可以探索免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q5：如何获得Aspose.PSD的临时许可证？
 
-A5：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+A5：您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).

@@ -26,7 +26,7 @@ Usprawnij przepływ pracy programistycznej .NET, opanowując proces zastępowani
 ## [Wymuszanie zarządzania pamięcią podręczną czcionek](./force-font-cache/)
 Poznaj zawiłości zarządzania pamięcią podręczną czcionek w Aspose.PSD dla .NET. Nasz samouczek poprowadzi Cię przez każdy krok, zapewniając precyzyjne renderowanie i optymalną wydajność. Bez wysiłku podnieś swoje umiejętności obsługi czcionek.
 
-## [Optymalizuj wydajność: Usuń pliki pamięci podręcznej czcionek](./remove-font-cache-files/)
+## [Zoptymalizuj wydajność: Usuń pliki pamięci podręcznej czcionek](./remove-font-cache-files/)
 Przejmij kontrolę nad wydajnością Aspose.PSD dla .NET, usuwając pliki pamięci podręcznej czcionek. Nasz przewodnik umożliwia bezproblemową optymalizację wykonania. Zwiększ wydajność i zapewnij płynne przetwarzanie dokumentów.
 
 ## Samouczki dotyczące obsługi plików i czcionek

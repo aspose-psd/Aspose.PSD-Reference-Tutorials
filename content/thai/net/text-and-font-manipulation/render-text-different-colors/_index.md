@@ -13,10 +13,10 @@ url: /th/net/text-and-font-manipulation/render-text-different-colors/
 ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าดังต่อไปนี้:
 -  Aspose.PSD สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PSD แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/psd/net/).
 - สภาพแวดล้อม .NET: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อม .NET ที่ใช้งานได้บนเครื่องของคุณ
--  ไฟล์ PSD ตัวอย่าง: ดาวน์โหลดไฟล์ PSD ตัวอย่างจาก[ที่นี่] (ไดเรกทอรีเอกสารของคุณ)
+-  ไฟล์ PSD ตัวอย่าง: ดาวน์โหลดไฟล์ PSD ตัวอย่างจาก[ที่นี่](ไดเรกทอรีเอกสารของคุณ)
 - Output Directory: สร้างไดเร็กทอรีที่จะบันทึกอิมเมจเอาต์พุต (Your Output Directory)
 ## นำเข้าเนมสเปซ
-ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ของคุณ เนมสเปซเหล่านี้มีความสำคัญอย่างยิ่งต่อการเข้าถึงฟังก์ชันการทำงานของ Aspose.PSD
+ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ของคุณ เนมสเปซเหล่านี้มีความสำคัญอย่างยิ่งต่อการเข้าถึงฟังก์ชันการทำงานของ Aspose.PSD
 ```csharp
 using Aspose.PSD.FileFormats.Png;
 using Aspose.PSD.FileFormats.Psd;
@@ -46,7 +46,7 @@ txtLayer.TextData.UpdateLayerData();
 PngOptions pngOptions = new PngOptions();
 pngOptions.ColorType = PngColorType.TruecolorWithAlpha;
 ```
-## ขั้นตอนที่ 4: บันทึกรูปภาพ
+## ขั้นตอนที่ 4: บันทึกภาพ
 บันทึกภาพที่ประมวลผลไปยังปลายทางที่ระบุ:
 ```csharp
 psdImage.Save(destName, pngOptions);

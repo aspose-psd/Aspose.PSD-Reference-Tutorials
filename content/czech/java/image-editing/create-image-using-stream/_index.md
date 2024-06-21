@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Vytvořte instanci`Image` vyvoláním`create` metoda, předávání nakonfigurovaného`BmpOptions` a určení rozměrů obrázku.
+ Vytvořte instanci`Image` pozváním`create` metoda, předávání nakonfigurovaného`BmpOptions` a určení rozměrů obrázku.
 
 ## Krok 6: Zpracování obrazu
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak vytvářet obrázky pomocí streamu v Aspose.PSD pro Javu. Tento tutoriál se zabýval základními kroky, od importu balíčků až po konečné zpracování a uložení obrazu. Experimentujte s různými nastaveními a prozkoumejte další funkce pro vylepšení možností vytváření obrázků.
+Gratulujeme! Úspěšně jste se naučili, jak vytvářet obrázky pomocí streamu v Aspose.PSD pro Javu. Tento tutoriál obsahuje základní kroky, od importu balíčků až po konečné zpracování a uložení obrazu. Experimentujte s různými nastaveními a prozkoumejte další funkce pro vylepšení možností vytváření obrázků.
 
 ## FAQ
 
@@ -105,11 +105,11 @@ Odpověď 1: Ano, Aspose.PSD je navržen tak, aby se hladce integroval s jinými
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak získám dočasnou licenci pro Aspose.PSD?
 
- A4: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jaké jsou systémové požadavky pro Aspose.PSD?
 

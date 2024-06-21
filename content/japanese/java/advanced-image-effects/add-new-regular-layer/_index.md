@@ -111,7 +111,7 @@ A2: もちろんです！ Aspose.PSD は、レイヤーのさまざまな変換�
 
 ### Q3: 追加の Aspose.PSD ドキュメントはどこで見つけられますか?
 
- A3: ドキュメントを参照してください。[ここ](https://reference.aspose.com/psd/java/).
+ A3: ドキュメントを参照できます。[ここ](https://reference.aspose.com/psd/java/).
 
 ### Q4: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 

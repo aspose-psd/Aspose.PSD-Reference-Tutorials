@@ -116,7 +116,7 @@ A2: O parâmetro 'Spread' controla a transição entre as áreas sombreadas e n�
 
 ### Q3: O Aspose.PSD é compatível com todas as versões de arquivos do Photoshop?
 
-A3: Aspose.PSD oferece compatibilidade com uma ampla gama de versões de arquivos PSD, garantindo versatilidade.
+A3: Aspose.PSD oferece compatibilidade com uma ampla variedade de versões de arquivos PSD, garantindo versatilidade.
 
 ### Q4: Como posso relatar problemas ou procurar assistência com Aspose.PSD?
 

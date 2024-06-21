@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Убедитесь, что в вашем проекте установлена библиотека Aspose.PSD. Вы можете найти документацию[здесь](https://reference.aspose.com/psd/net/).
+Убедитесь, что в вашем проекте установлена библиотека Aspose.PSD. Вы можете найти документацию[здесь](https://reference.aspose.com/psd/net/).
 
 ## Шаг 1. Определите каталог документов
 

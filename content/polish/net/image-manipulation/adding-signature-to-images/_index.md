@@ -102,4 +102,4 @@ Odpowiedź 3: Możesz zaimplementować bloki try-catch, aby sprawnie obsługiwa�
 
 ### P5: Czy mogę wypróbować Aspose.PSD przed zakupem?
 
- Odpowiedź 5: Z pewnością dostępny jest bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 5: Z pewnością dostępny jest bezpłatny okres próbny.[Tutaj](https://releases.aspose.com/).

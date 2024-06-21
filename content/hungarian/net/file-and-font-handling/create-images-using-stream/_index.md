@@ -9,7 +9,7 @@ url: /hu/net/file-and-font-handling/create-images-using-stream/
 ---
 ## Bevezetés
 
-.NET fejlesztés területén az Aspose.PSD a képkezelés hatékony eszköze. Az egyik különösen hasznos funkció a képek streamek segítségével történő létrehozásának lehetősége, ami rugalmasságot és hatékonyságot biztosít a képadatok kezelésében. Ez a lépésenkénti útmutató végigvezeti a folyamaton, az egyes elemeket lebontva a zökkenőmentes élmény érdekében. Mielőtt belemerülnénk, fedjük le az előfeltételeket.
+A .NET fejlesztés területén az Aspose.PSD a képkezelés hatékony eszköze. Az egyik különösen hasznos funkció a képek streamek segítségével történő létrehozásának lehetősége, ami rugalmasságot és hatékonyságot biztosít a képadatok kezelésében. Ez a lépésenkénti útmutató végigvezeti a folyamaton, az egyes elemeket lebontva a zökkenőmentes élmény érdekében. Mielőtt belemerülnénk, fedjük le az előfeltételeket.
 
 ## Előfeltételek
 
@@ -23,7 +23,7 @@ A .NET fejlesztés alapvető ismerete, beleértve a C# és a Visual Studio körn
 
 ## Névterek importálása
 
-A projektben feltétlenül importálja a szükséges névtereket az Aspose.PSD funkciók eléréséhez.
+projektben feltétlenül importálja a szükséges névtereket az Aspose.PSD funkciók eléréséhez.
 
 ```csharp
 using Aspose.PSD.ImageOptions;
@@ -79,7 +79,7 @@ using (Image image = Image.Create(ImageOptions, 500, 500))
 {
     // Itt végezze el a kívánt képfeldolgozást
 
-    // Mentse el a létrehozott képet egy megadott célhelyre
+    //Mentse el a létrehozott képet egy megadott célhelyre
     image.Save(desName);
 }
 ```
@@ -102,7 +102,7 @@ A2: A méretek testreszabhatók; állítsa be ennek megfelelően az Image.Create
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
@@ -110,4 +110,4 @@ A2: A méretek testreszabhatók; állítsa be ennek megfelelően az Image.Create
 
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek?
 
- V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).

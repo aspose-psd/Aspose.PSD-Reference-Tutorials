@@ -8,7 +8,7 @@ weight: 11
 url: /id/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Perkenalan
-Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan fitur Sumber Informasi Perbatasan di Aspose.PSD untuk .NET. Dalam tutorial ini, kami akan memandu Anda melalui proses bekerja dengan Sumber Daya Informasi Perbatasan menggunakan Aspose.PSD, perpustakaan pencitraan .NET yang kuat. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini bertujuan untuk memberikan kejelasan dalam menggabungkan Sumber Daya Informasi Perbatasan dengan lancar ke dalam proyek Anda.
+Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan fitur Sumber Informasi Perbatasan di Aspose.PSD untuk .NET. Dalam tutorial ini, kami akan memandu Anda melalui proses bekerja dengan Sumber Daya Informasi Perbatasan menggunakan Aspose.PSD, perpustakaan pencitraan .NET yang kuat. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini bertujuan untuk memberikan kejelasan dalam mengintegrasikan Sumber Daya Informasi Perbatasan dengan lancar ke dalam proyek Anda.
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki hal berikut:
 -  Aspose.PSD untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.PSD. Anda dapat mengunduhnya dari[Situs web Aspose.PSD](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET.
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan?
 
@@ -88,4 +88,4 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET.
 
 ### Q5: Apakah lisensi sementara tersedia?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

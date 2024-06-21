@@ -92,7 +92,7 @@ A1: Absoluut! Aspose.PSD voor Java blinkt uit in batch-beeldverwerkingstaken en 
 
 ### V2: Kan ik Aspose.PSD voor Java uitproberen voordat ik het aanschaf?
 
- A2: Ja, u kunt een gratis proefversie uitproberen[hier](https://releases.aspose.com/).
+ A2: Ja, u kunt een gratis proefversie uitproberen.[hier](https://releases.aspose.com/).
 
 ### V3: Waar kan ik ondersteuning vinden voor Aspose.PSD voor Java?
 
@@ -100,7 +100,7 @@ A1: Absoluut! Aspose.PSD voor Java blinkt uit in batch-beeldverwerkingstaken en 
 
 ### Vraag 4: Heb ik een tijdelijke licentie nodig voor testdoeleinden?
 
- A4: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/) voor het testen van Aspose.PSD voor Java.
+ A4: Verkrijg een tijdelijke licentie.[hier](https://purchase.aspose.com/temporary-license/) voor het testen van Aspose.PSD voor Java.
 
 ### V5: Waar kan ik Aspose.PSD voor Java kopen?
 

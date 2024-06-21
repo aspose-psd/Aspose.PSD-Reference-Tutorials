@@ -38,7 +38,7 @@ Implementujte správnou metodu oříznutí pro soubory PSD. Zadejte parametry o�
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Upravte hodnoty v konstruktoru Obdélník podle vašich požadavků na oříznutí.
+Upravte hodnoty v konstruktoru Rectangle podle vašich požadavků na oříznutí.
 ## Krok 5: Uložte oříznutý obrázek
 Uložte oříznutý obrázek ve formátu PSD i PNG:
 ```csharp

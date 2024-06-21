@@ -98,7 +98,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### س1: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ .NET؟
 
- ج1: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).
+ ج1: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/net/).
 
 ### س2: كيف يمكنني تنزيل Aspose.PSD لـ .NET؟
 
@@ -106,7 +106,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س 4: أين يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
@@ -114,4 +114,4 @@ using (Image image = new PsdImage(100, 100))
 
 ### س5: هل أحتاج إلى ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).

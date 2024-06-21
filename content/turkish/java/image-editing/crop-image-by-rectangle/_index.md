@@ -92,7 +92,7 @@ Cevap1: Evet, Aspose.PSD for Java, çeşitli Java çerçeveleriyle entegre edile
 
 ### S2: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- Cevap2: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ Cevap2: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S3: Nerede ek destek veya yardım bulabilirim?
 
@@ -100,7 +100,7 @@ Cevap1: Evet, Aspose.PSD for Java, çeşitli Java çerçeveleriyle entegre edile
 
 ### S4: Aspose.PSD for Java için geçici lisansı nasıl edinebilirim?
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.PSD for Java'da kırpma için desteklenen görüntü formatları nelerdir?
 

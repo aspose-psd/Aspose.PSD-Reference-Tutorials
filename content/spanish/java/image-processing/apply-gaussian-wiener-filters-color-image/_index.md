@@ -79,7 +79,7 @@ Repita estos pasos y ajuste los parámetros según sea necesario para su caso de
 
 ### P1: ¿Puedo usar estos filtros para imágenes en blanco y negro?
 
-R1: Sí, puede aplicar filtros Gaussianos y Wiener a imágenes en color y en blanco y negro.
+R1: Sí, puede aplicar filtros Gaussianos y Wiener tanto a imágenes en color como en blanco y negro.
 
 ### P2: ¿Hay otras opciones de filtro disponibles en Aspose.PSD?
 

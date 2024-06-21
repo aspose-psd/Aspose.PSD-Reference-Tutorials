@@ -23,7 +23,7 @@ url: /th/java/advanced-image-effects/add-gradient-effects/
 
 ## แพ็คเกจนำเข้า
 
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นในโปรเจ็กต์ Java ของคุณ สิ่งนี้ทำให้แน่ใจได้ว่าคุณจะสามารถเข้าถึงฟังก์ชัน Aspose.PSD ได้ นี่คือตัวอย่างพื้นฐาน:
+เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ สิ่งนี้ทำให้แน่ใจได้ว่าคุณจะสามารถเข้าถึงฟังก์ชัน Aspose.PSD ได้ นี่คือตัวอย่างพื้นฐาน:
 
 ```java
 import com.aspose.psd.Color;
@@ -65,7 +65,7 @@ GradientOverlayEffect gradientOverlay = (GradientOverlayEffect)im.getLayers()[1]
 Assert.areEqual(BlendMode.Normal, gradientOverlay.getBlendMode());
 Assert.areEqual(255, gradientOverlay.getOpacity());
 Assert.areEqual(true, gradientOverlay.isVisible());
-// ... (การตรวจสอบเพิ่มเติม)
+// ...(การตรวจสอบเพิ่มเติม)
 ```
 
 ตรวจสอบให้แน่ใจว่าการตั้งค่าเริ่มต้นของการซ้อนทับแบบไล่ระดับสีตรงกับความต้องการของคุณ
@@ -77,12 +77,12 @@ Assert.areEqual(true, gradientOverlay.isVisible());
 settings.setColor(Color.getGreen());
 gradientOverlay.setOpacity((byte)193);
 gradientOverlay.setBlendMode(BlendMode.Lighten);
-//... (แก้ไขเพิ่มเติม)
+//...(แก้ไขเพิ่มเติม)
 ```
 
 ปรับแต่งการตั้งค่าการไล่ระดับสีตามความต้องการของคุณ
 
-## ขั้นตอนที่ 4: บันทึกรูปภาพที่แก้ไข
+## ขั้นตอนที่ 4: บันทึกภาพที่แก้ไข
 
 ```java
 // บันทึกภาพที่แก้ไข
@@ -98,7 +98,7 @@ im.save(exportPath);
 PsdImage img = (PsdImage)Image.load(sourceFileName, loadOptions);
 
 GradientOverlayEffect gradientOverlayEffect = (GradientOverlayEffect)img.getLayers()[1].getBlendingOptions().getEffects()[0];
-// ... (การตรวจสอบเพิ่มเติม)
+// ...(การตรวจสอบเพิ่มเติม)
 ```
 
 ตรวจสอบให้แน่ใจว่านำการเปลี่ยนแปลงไปใช้กับรูปภาพเรียบร้อยแล้ว

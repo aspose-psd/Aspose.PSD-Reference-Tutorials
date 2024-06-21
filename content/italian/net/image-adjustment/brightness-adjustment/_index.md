@@ -80,7 +80,7 @@ Aspose.PSD per .NET semplifica il processo di implementazione delle regolazioni 
 
 ### Q1: dove posso trovare la documentazione per Aspose.PSD per .NET?
 
- A1: La documentazione è disponibile[Qui](https://reference.aspose.com/psd/net/).
+ A1: La documentazione è disponibile.[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q2: Come posso scaricare la libreria Aspose.PSD per .NET?
 
@@ -88,7 +88,7 @@ Aspose.PSD per .NET semplifica il processo di implementazione delle regolazioni 
 
 ### Q3: È disponibile una prova gratuita per Aspose.PSD per .NET?
 
- R3: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso ottenere supporto per Aspose.PSD per .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD per .NET semplifica il processo di implementazione delle regolazioni 
 
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.PSD per .NET?
 
- A5: È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ A5: È possibile acquisire una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).

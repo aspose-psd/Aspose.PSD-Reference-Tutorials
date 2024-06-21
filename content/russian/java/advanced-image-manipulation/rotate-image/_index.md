@@ -32,7 +32,7 @@ import com.aspose.psd.RotateFlipType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Шаг 1. Загрузите изображение
+## Шаг 1. Загрузите изображение.
 
  Загрузите существующее изображение в экземпляр`Image` сорт:
 
@@ -42,7 +42,7 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-## Шаг 2. Поверните изображение
+## Шаг 2. Поверните изображение.
 
  Поверните изображение с помощью`rotateFlip` метод. В этом примере мы поворачиваем изображение на 270 градусов:
 

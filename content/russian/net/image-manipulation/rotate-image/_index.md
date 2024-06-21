@@ -27,7 +27,7 @@ url: /ru/net/image-manipulation/rotate-image/
 using Aspose.PSD.ImageOptions;
 ```
 
-## Шаг 1. Загрузите изображение
+## Шаг 1. Загрузите изображение.
 
 ```csharp
 string sourceFile = dataDir + @"sample.psd";
@@ -37,7 +37,7 @@ using (Image image = Image.Load(sourceFile))
 {
 ```
 
-## Шаг 2. Поверните изображение
+## Шаг 2. Поверните изображение.
 
 ```csharp
     // Поворот изображения на 270 градусов по часовой стрелке

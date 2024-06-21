@@ -25,7 +25,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.Animation;
 ```
 ## 1. lépés: Állítsa be projektjét
 Kezdje egy új C# projekt létrehozásával a kívánt fejlesztői környezetben. Győződjön meg arról, hogy az Aspose.PSD for .NET hivatkozik.
-## 2. lépés: Határozza meg könyvtárait
+## 2. lépés: Határozza meg a könyvtárait
 Állítsa be a forrás PSD-fájl könyvtárait és a kimeneti könyvtárat, ahová a manipulált kép mentésre kerül.
 ```csharp
 string baseDir = "Your Document Directory";
@@ -71,7 +71,7 @@ Gratulálunk! Sikeresen navigált a PSD-képek idővonalainak kezelésének bony
 
 ### 3. kérdés: Kipróbálhatom ingyenesen az Aspose.PSD-t a licenc megvásárlása előtt?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találom az Aspose.PSD részletes dokumentációját?
 

@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- إنشاء مثيل ل`Image` عن طريق استدعاء`create` طريقة، ويمر تكوينها`BmpOptions` وتحديد أبعاد الصورة.
+ إنشاء مثيل ل`Image` من خلال دعوة`create` طريقة، ويمر تكوينها`BmpOptions` وتحديد أبعاد الصورة.
 
 ## الخطوة 6: معالجة الصور
 
@@ -105,11 +105,11 @@ image.save(desName);
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
- ج4: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: ما هي متطلبات النظام لـ Aspose.PSD؟
 

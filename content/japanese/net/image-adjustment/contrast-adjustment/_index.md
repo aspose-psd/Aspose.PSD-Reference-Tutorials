@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); //コントラストを 50% 調整します
 
 ## ステップ 3: TIFF オプションを作成する
 
-のインスタンスを作成します`TiffOptions`結果の画像について、さまざまなプロパティを設定し、画像を TIFF 形式で保存します。
+のインスタンスを作成します`TiffOptions`結果の画像に対してさまざまなプロパティを設定し、画像を TIFF 形式で保存します。
 
 ```csharp
 //ExStart:Tiff オプションの作成

@@ -15,7 +15,7 @@ Aspose.PSD untuk .NET menyediakan serangkaian fitur canggih untuk pemrosesan gam
 
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- Aspose.PSD untuk .NET: Unduh dan instal perpustakaan dari[Di Sini](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD untuk .NET: Unduh dan instal perpustakaan dari[Di Sini](https://releases.aspose.com/psd/net/).
 - Direktori Dokumen Anda: Siapkan direktori untuk menyimpan file sumber dan keluaran Anda.
 
 ## Impor Namespace
@@ -85,11 +85,11 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET, termasuk
 
 ### Q2: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.PSD untuk .NET?
 
- A2: Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.aspose.com/psd/net/)untuk informasi rinci dan contoh kode.
+ A2: Anda dapat merujuk ke dokumentasi.[Di Sini](https://reference.aspose.com/psd/net/) untuk informasi rinci dan contoh kode.
 
 ### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk .NET?
 
- A3: Ya, Anda dapat menjelajahi kemampuan Aspose.PSD untuk .NET dengan mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat menjelajahi kemampuan Aspose.PSD untuk .NET dengan mengunduh uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -97,4 +97,4 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET, termasuk
 
 ### Q5: Bisakah saya mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+ A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.

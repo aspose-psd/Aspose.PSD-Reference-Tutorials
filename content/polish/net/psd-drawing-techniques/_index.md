@@ -40,7 +40,7 @@ Poznaj sztukę rysowania prostokątów w .NET za pomocą Aspose.PSD. Nasz przewo
 
  Odblokuj swój potencjał artystyczny dzięki Aspose.PSD dla .NET! Skorzystaj z naszego samouczka dotyczącego kreatywnego rysowania przy użyciu grafiki, dostarczającego spostrzeżeń i technik tworzenia wyrazistej grafiki.[Samouczek kreatywnego rysowania](./creative-drawing-using-graphics/)
 
-## Implementowanie rysowania za pomocą GraphicsPath w Aspose.PSD dla .NET
+## Implementacja rysowania za pomocą GraphicsPath w Aspose.PSD dla .NET
 
  Poznaj możliwości Aspose.PSD dla .NET w tym samouczku krok po kroku dotyczącym rysowania za pomocą GraphicsPath. Ulepsz swoje aplikacje .NET dzięki zaawansowanej manipulacji plikami programu Photoshop. Bądź kreatywny dzięki Aspose.PSD![Samouczek rysowania za pomocą GraphicsPath](./implementing-drawing-with-graphicspath/)
 
@@ -59,5 +59,5 @@ Poznaj sztukę rysowania linii w aplikacjach .NET za pomocą Aspose.PSD. Skorzys
 Poznaj sztukę rysowania prostokątów w .NET za pomocą Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Bez wysiłku podnieś poziom swojej gry w manipulację obrazem.
 ### [Kreatywne rysowanie przy użyciu grafiki w Aspose.PSD dla .NET](./creative-drawing-using-graphics/)
 Odblokuj swój potencjał artystyczny dzięki Aspose.PSD dla .NET! Postępuj zgodnie z naszym samouczkiem dotyczącym kreatywnego rysowania za pomocą grafiki.
-### [Implementowanie rysowania za pomocą GraphicsPath w Aspose.PSD dla .NET](./implementing-drawing-with-graphicspath/)
+### [Implementacja rysowania za pomocą GraphicsPath w Aspose.PSD dla .NET](./implementing-drawing-with-graphicspath/)
 Poznaj możliwości Aspose.PSD dla .NET w tym samouczku krok po kroku dotyczącym rysowania za pomocą GraphicsPath. Ulepsz swoje aplikacje .NET dzięki zaawansowanej manipulacji plikami programu Photoshop.

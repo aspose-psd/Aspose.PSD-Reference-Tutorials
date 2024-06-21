@@ -73,7 +73,7 @@ R1: ¡Absolutamente! Aspose.PSD para Java está diseñado para atender proyectos
 
 ### P2: ¿Puedo utilizar un tipo de cambio de tamaño diferente a Lanczos Resample?
 
-R2: Sí, Aspose.PSD para Java ofrece varios tipos de cambio de tamaño, como Vecino más cercano, Bicubic y más. Explore la documentación para obtener una lista completa.
+R2: Sí, Aspose.PSD para Java ofrece varios tipos de cambio de tamaño, como Vecino más cercano, Bicúbico y más. Explore la documentación para obtener una lista completa.
 
 ### P3: ¿Dónde puedo encontrar soporte adicional para Aspose.PSD para Java?
 
@@ -81,7 +81,7 @@ R2: Sí, Aspose.PSD para Java ofrece varios tipos de cambio de tamaño, como Vec
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
 
- R4: Sí, puedes acceder a una versión de prueba gratuita[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes acceder a una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para Java?
 

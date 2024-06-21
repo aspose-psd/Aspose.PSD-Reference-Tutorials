@@ -94,11 +94,11 @@ Gratulálunk! Sikeresen beállította egy kép kontrasztját az Aspose.PSD for J
 
 ### 2. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- V2: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V2: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 3. kérdés: Hol találom az Aspose.PSD dokumentációt?
 
-A3: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/java/).
+A3: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/java/).
 
 ### 4. kérdés: Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.PSD számára?
 

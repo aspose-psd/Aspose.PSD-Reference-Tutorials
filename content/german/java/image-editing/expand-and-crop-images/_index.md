@@ -35,7 +35,7 @@ Diese Pakete stellen wesentliche Klassen und Methoden für die Bildverarbeitung 
 
 ## Schritt 1: Legen Sie Ihr Dokumentenverzeichnis fest
 
-Legen Sie zunächst das Verzeichnis fest, in dem sich Ihre PSD-Datei befindet. Ersetzen Sie „Ihr Dokumentenverzeichnis“ durch den tatsächlichen Pfad.
+Legen Sie zunächst das Verzeichnis fest, in dem sich Ihre PSD-Datei befindet. Ersetzen Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad.
 
 ```java
 String dataDir = "Your Document Directory";

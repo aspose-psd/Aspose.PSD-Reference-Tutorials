@@ -37,7 +37,7 @@ Bienvenue dans le royaume de la maîtrise de l'édition d'images ! Dans cette c
 
 ## Recadrer l'image par décalages dans Aspose.PSD pour Java
 
- Devenez un maestro de[recadrage d'image](./crop-image-by-shifts/) avec Aspose.PSD pour Java. Notre didacticiel propose un guide complet pour maîtriser l’art de la manipulation transparente d’images. Plongez dans le monde du recadrage précis d'images avec Aspose.PSD pour Java.
+ Devenez un maestro de[recadrage d'image](./crop-image-by-shifts/) avec Aspose.PSD pour Java. Notre tutoriel propose un guide complet pour maîtriser l’art de la manipulation transparente d’images. Plongez dans le monde du recadrage précis d'images avec Aspose.PSD pour Java.
 
 ## Implémenter le tramage pour les images raster dans Aspose.PSD pour Java
 
@@ -56,7 +56,7 @@ Découvrez comment fusionner des images en Java avec Aspose.PSD. Suivez notre gu
 ### [Créer des métadonnées XMP avec Aspose.PSD pour Java](./create-xmp-metadata/)
 Améliorez vos applications Java avec Aspose.PSD. Apprenez à créer des métadonnées XMP sans effort. Suivez notre guide étape par étape maintenant.
 ### [Créer une image en définissant le chemin dans Aspose.PSD pour Java](./create-image-by-setting-path/)
-Découvrez comment créer des images PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une génération d’images transparente.
+Découvrez comment créer des images PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une génération d’images fluide.
 ### [Créer une image à l'aide de Stream dans Aspose.PSD pour Java](./create-image-using-stream/)
 Découvrez comment créer des images à l'aide d'un flux dans Aspose.PSD pour Java. Suivez ce guide étape par étape pour un traitement d’image efficace.
 ### [Recadrer l'image par rectangle dans Aspose.PSD pour Java](./crop-image-by-rectangle/)

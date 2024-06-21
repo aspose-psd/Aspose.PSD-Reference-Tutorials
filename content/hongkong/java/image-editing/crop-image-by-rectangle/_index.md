@@ -92,7 +92,7 @@ A1：是的，Aspose.PSD for Java 可以與各種 Java 框架集成，為您的�
 
 ### Q2：Aspose.PSD for Java 有免費試用版嗎？
 
- A2：是的，您可以存取免費試用版[這裡](https://releases.aspose.com/).
+ A2：是的，您可以存取免費試用版。[這裡](https://releases.aspose.com/).
 
 ### 問題 3：我可以在哪裡找到額外的支援或協助？
 
@@ -100,7 +100,7 @@ A1：是的，Aspose.PSD for Java 可以與各種 Java 框架集成，為您的�
 
 ### Q4：如何取得 Aspose.PSD for Java 的臨時授權？
 
- A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：Aspose.PSD for Java 支援哪些影像格式進行裁切？
 

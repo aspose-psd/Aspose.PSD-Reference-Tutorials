@@ -86,7 +86,7 @@ R1: Bradley Thresholding es un método utilizado para la binarización de imáge
 
 ### P2: ¿Cómo elegir el valor umbral correcto?
 
-A2: El valor umbral depende de las características de su imagen. Experimente con diferentes valores para encontrar el óptimo.
+A2: El valor umbral depende de las características de su imagen. Experimente con diferentes valores hasta encontrar el óptimo.
 
 ### P3: ¿Puedo aplicar el umbral Bradley a otros formatos de imagen?
 

@@ -11,7 +11,7 @@ url: /ko/java/image-processing/apply-gaussian-wiener-filters/
 
 Java용 Aspose.PSD에서 Gaussian 및 Wiener 필터를 적용하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 이 가이드에서는 이러한 강력한 필터를 사용하여 이미지를 향상시키는 과정을 안내합니다. Aspose.PSD for Java는 이미지 처리를 위한 강력한 기능 세트를 제공하며 Gaussian 및 Wiener 필터를 적용하면 더욱 부드럽고 세련된 이미지를 얻을 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -80,7 +80,7 @@ image.save(destName, new GifOptions());
 
 ## FAQ
 
-### Q1: PSD 이외의 형식의 이미지에 이러한 필터를 적용할 수 있나요?
+### Q1: PSD 이외의 형식의 이미지에 이러한 필터를 적용할 수 있습니까?
 
 A1: 예, Java용 Aspose.PSD는 PSD 이외의 다양한 이미지 형식을 지원합니다.
 

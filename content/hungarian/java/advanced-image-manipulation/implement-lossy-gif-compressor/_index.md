@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## 5. lépés: Mentse el a tömörített GIF-et
+## 5. lépés: Mentse el a tömörített GIF-et.
 
  Mentse el a tömörített GIF-képet a`image.save` módszerrel a megadott`GifOptions`.
 
@@ -85,12 +85,12 @@ Gratulálunk! Sikeresen implementált egy veszteséges GIF-tömörítőt az Aspo
 
 ### 3. kérdés: Hol találom az Aspose.PSD for Java dokumentációját?
 
-A3: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/java/).
+A3: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/java/).
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.PSD for Java-t?
 
- V5: Megvásárolhatja a könyvtárat[itt](https://purchase.aspose.com/buy).
+ V5: Megvásárolhatja a könyvtárat.[itt](https://purchase.aspose.com/buy).

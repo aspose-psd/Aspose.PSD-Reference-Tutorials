@@ -64,7 +64,7 @@ String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-Và bạn có nó rồi đấy! Bạn đã thay đổi kích thước hình ảnh theo tỷ lệ thành công bằng Aspose.PSD cho Java.
+Và bạn có nó rồi đấy! Bạn đã thay đổi kích thước hình ảnh theo tỷ lệ thành công bằng cách sử dụng Aspose.PSD cho Java.
 
 ## Phần kết luận
 
@@ -82,7 +82,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày các bước cần thi�
 
 ### Câu hỏi 3: Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
 
- A3: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để đánh giá.
+ Câu trả lời 3: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.PSD ở đâu?
 

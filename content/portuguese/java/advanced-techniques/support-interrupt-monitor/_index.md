@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Agora, vamos dividir o código de exemplo em um guia passo a passo para incorporar o Interrupt Monitor em seu projeto Aspose.PSD para Java.
+Agora, vamos dividir o código de exemplo em um guia passo a passo para integrar o Interrupt Monitor em seu projeto Aspose.PSD para Java.
 
 ## Etapa 1: defina seu diretório de documentos
 
@@ -106,11 +106,11 @@ A1: O Interrupt Monitor em Aspose.PSD para Java permite que os desenvolvedores g
 
 ### Q2: Como posso obter a biblioteca Aspose.PSD para Java?
 
-A2: Você pode baixar a biblioteca Aspose.PSD para Java[aqui](https://releases.aspose.com/psd/java/).
+A2: Você pode baixar a biblioteca Aspose.PSD para Java.[aqui](https://releases.aspose.com/psd/java/).
 
 ### Q3: Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
 
- A3: Sim, você pode explorar uma avaliação gratuita do Aspose.PSD[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode explorar uma avaliação gratuita do Aspose.PSD.[aqui](https://releases.aspose.com/).
 
 ### Q4: Onde posso encontrar suporte para Aspose.PSD para Java?
 
@@ -118,4 +118,4 @@ A2: Você pode baixar a biblioteca Aspose.PSD para Java[aqui](https://releases.a
 
 ### P5: Como posso adquirir uma licença do Aspose.PSD para Java?
 
- A5: Você pode comprar uma licença para Aspose.PSD para Java[aqui](https://purchase.aspose.com/buy).
+ A5: Você pode comprar uma licença do Aspose.PSD para Java.[aqui](https://purchase.aspose.com/buy).

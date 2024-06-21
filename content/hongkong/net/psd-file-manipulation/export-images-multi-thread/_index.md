@@ -68,11 +68,11 @@ A1：是的，Aspose.PSD for .NET 支援各種版本的 Photoshop 文件，確�
 
 ### 問題 3：如何獲得 Aspose.PSD for .NET 支援？
 
-A3：加入 Aspose.PSD 社區[論壇](https://forum.aspose.com/c/psd/34)獲得專家和其他開發人員的協助。
+A3：加入 Aspose.PSD 社群。[論壇](https://forum.aspose.com/c/psd/34)獲得專家和其他開發人員的協助。
 
 ### Q4：有免費試用嗎？
 
- A4：是的，您可以免費試用[這裡](https://releases.aspose.com/)在做出承諾之前探索 Aspose.PSD for .NET 的功能。
+ A4：是的，您可以免費試用。[這裡](https://releases.aspose.com/)在做出承諾之前探索 Aspose.PSD for .NET 的功能。
 
 ### Q5：如何取得 Aspose.PSD for .NET 的臨時授權？
 

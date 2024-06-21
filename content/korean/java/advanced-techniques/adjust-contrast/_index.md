@@ -11,7 +11,7 @@ url: /ko/java/advanced-techniques/adjust-contrast/
 
 Java를 사용한 이미지 처리 영역에서 Aspose.PSD는 강력한 도구로 돋보입니다. 수많은 기능 중에서 이미지 대비 조정은 일반적인 요구 사항입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지 대비를 조정하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 이미지 조작의 필수 측면을 익히는 데 도움이 될 것입니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -94,7 +94,7 @@ A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 프로젝트�
 
 ### Q2: Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- A2: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A2: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Aspose.PSD 문서는 어디서 찾을 수 있나요?
 

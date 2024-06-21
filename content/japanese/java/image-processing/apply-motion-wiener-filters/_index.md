@@ -108,4 +108,4 @@ A2: はい、Aspose.PSD は幅広い画像形式をサポートしており、�
 
 ### Q5: Aspose.PSD for Java の一時ライセンスを取得するにはどうすればよいですか?
 
-A5: 仮免許を取得します。[ここ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
+A5: 仮免許を取得してください。[ここ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。

@@ -2,7 +2,7 @@
 title: 使用 Aspose.PSD for Java 应用运动维纳滤波器
 linktitle: 应用运动维纳滤波器
 second_title: Aspose.PSD Java API
-description: 使用 Aspose.PSD 掌握 Java 中的图像处理。使用我们的分步指南轻松应用运动维纳滤波器。
+description: 使用 Aspose.PSD 掌握 Java 图像处理。使用我们的分步指南轻松应用运动维纳滤波器。
 type: docs
 weight: 13
 url: /zh/java/image-processing/apply-motion-wiener-filters/
@@ -104,8 +104,8 @@ A2：是的，Aspose.PSD 支持多种图像格式，确保处理各种文件类�
 
 ### Q4：我可以在购买前试用 Aspose.PSD for Java 吗？
 
- A4：是的，您可以探索免费试用版[这里](https://releases.aspose.com/).
+ A4：是的，您可以探索免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q5：如何获得 Aspose.PSD for Java 的临时许可证？
 
-A5：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。
+A5：获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。

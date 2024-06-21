@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## 3. lépés: Határozza meg a termésterületet
 ```java
-// Hozzon létre egy Rectangle osztály példányát x, y, szélesség és magasság átadásával
+//Hozzon létre egy Rectangle osztály példányát x, y, szélesség és magasság átadásával
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## 4. lépés: Vágja le a PSD-képet
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Hozzon létre egy példányt a PngOptions osztályból
 PngOptions pngOptions = new PngOptions();
 ```
-## 6. lépés: Mentse el a kivágott képet PNG formátumban
+## 6. lépés: Mentse el a kivágott képet PNG-ként.
 ```java
 // Adja meg a kimeneti útvonalat és a PngOptions-t a PSD-fájl PNG-re konvertálásához és a kimenet mentéséhez
 String destName = dataDir + "export.png";

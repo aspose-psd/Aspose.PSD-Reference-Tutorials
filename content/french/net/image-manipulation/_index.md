@@ -23,7 +23,7 @@ La précision est essentielle lorsqu'il s'agit de recadrer une image. Apprenez �
 
 Améliorez vos compétences en matière de recadrage d'images en apprenant à recadrer des images à l'aide de décalages. Aspose.PSD pour .NET rend ce processus transparent, vous permettant d'effectuer des ajustements précis sans effort.
 
-## Agrandir et recadrer des images
+## Agrandissement et recadrage des images
 
 L'agrandissement et le recadrage dynamiques des images ajoutent une couche de flexibilité à vos projets. Notre guide étape par étape utilisant Aspose.PSD pour .NET garantit un processus fluide, vous fournissant les compétences nécessaires pour une manipulation transparente des images.
 
@@ -57,7 +57,7 @@ Améliorez vos images avec des effets de motifs captivants à l'aide d'Aspose.PS
 
 ## Ajout d'une signature aux images
 
- Découvrez comment ajouter des signatures de manière transparente à vos projets d'image .NET avec Aspose.PSD. Notre étape par étape[guide](./adding-signature-to-images/) garantit un processus fluide, vous permettant de personnaliser vos créations sans effort.
+ Découvrez comment ajouter des signatures de manière transparente à vos projets d'images .NET avec Aspose.PSD. Notre étape par étape[guide](./adding-signature-to-images/) garantit un processus fluide, vous permettant de personnaliser vos créations sans effort.
 
 ## Prise en charge de différents types de signature
 

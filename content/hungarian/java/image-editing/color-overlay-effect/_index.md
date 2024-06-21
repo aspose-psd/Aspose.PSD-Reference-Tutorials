@@ -101,7 +101,7 @@ Gratulálunk! Sikeresen megtanulta a Color Overlay Effect alkalmazását az Aspo
 
 ### 3. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
- V3: Igen, az Aspose.PSD személyes és kereskedelmi projektekhez is használható. Látogatás[itt](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+ V3: Igen, az Aspose.PSD személyes és kereskedelmi projektekhez is használható. Látogatás[itt](https://purchase.aspose.com/buy) az engedély részleteiért.
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 

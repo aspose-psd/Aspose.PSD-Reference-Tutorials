@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 
  Заменять`"Your Document Directory"` с путем к каталогу, в котором вы храните исходные и выходные файлы.
 
-## Шаг 2. Загрузите изображение
+## Шаг 2. Загрузите изображение.
 
 ```csharp
 string sourceFile = dataDir + @"sample.psd";
@@ -71,7 +71,7 @@ image.Rotate(20f, true, Color.Red);
 
 Поверните изображение на 20 градусов, сохранив пропорциональный размер и используя красный фон.
 
-## Шаг 5: сохраните результат
+## Шаг 5: Сохраните результат
 
 ```csharp
 image.Save(destName, new JpegOptions());

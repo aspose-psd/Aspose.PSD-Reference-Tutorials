@@ -82,7 +82,7 @@ image.save(destName, new PngOptions());
 
 ### س3: هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
 
- ج3: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للتقييم.
+ ج3: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) للتقييم.
 
 ### س4: أين يمكنني العثور على الدعم لـ Aspose.PSD؟
 

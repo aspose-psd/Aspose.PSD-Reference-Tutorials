@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /pl/net/image-manipulation/rotate-image-specific-angle/
 ---
-Jeśli zagłębiasz się w świat manipulacji obrazami za pomocą .NET, Aspose.PSD zapewnia potężne rozwiązanie. W tym samouczku przeprowadzimy Cię przez proces obracania obrazu pod określonym kątem za pomocą Aspose.PSD. Zanim przejdziemy do kolejnych kroków, przygotujmy grunt pod wprowadzeniem.
+Jeśli zagłębiasz się w świat manipulacji obrazami za pomocą .NET, Aspose.PSD zapewnia potężne rozwiązanie. W tym samouczku przeprowadzimy Cię przez proces obracania obrazu pod określonym kątem za pomocą Aspose.PSD. Zanim przejdziemy do kolejnych kroków, przygotujmy scenę wprowadzeniem.
 
 ## Wstęp
 

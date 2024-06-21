@@ -39,6 +39,6 @@ Aprenda a crear imágenes utilizando secuencias en Aspose.PSD para .NET. Siga nu
 ### [Reemplazo de fuente en Aspose.PSD para .NET](./font-replacement/)
 Mejore su flujo de trabajo de desarrollo .NET con Aspose.PSD. Aprenda cómo reemplazar fácilmente fuentes en archivos PSD usando nuestra guía paso a paso. Logre coherencia y flexibilidad en el procesamiento de documentos sin esfuerzo.
 ### [Forzar el caché de fuentes en Aspose.PSD para .NET](./force-font-cache/)
-Explore la administración de caché de fuentes paso a paso en Aspose.PSD para .NET. Garantice una representación precisa con esta poderosa biblioteca .NET. 
+Explore la administración de caché de fuentes paso a paso en Aspose.PSD para .NET. Garantice una representación precisa con esta potente biblioteca .NET. 
 ### [Eliminación de archivos de caché de fuentes en Aspose.PSD para .NET](./remove-font-cache-files/)
 Optimice Aspose.PSD para el rendimiento de .NET eliminando los archivos de caché de fuentes. Siga nuestra guía paso a paso para una ejecución perfecta.

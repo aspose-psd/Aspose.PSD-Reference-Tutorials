@@ -94,7 +94,7 @@ A2：试用版有限制，您可以通过获取有效许可证来探索全部功
 
 ### Q4：是否有可用于测试目的的临时许可证？
 
- A4：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A4：是的，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：在哪里可以找到 Aspose.PSD for Java 的详细文档？
 

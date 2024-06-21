@@ -92,11 +92,11 @@ finally
 
 ### S2: Aspose.PSD for .NET'in kapsamlı belgelerini nerede bulabilirim?
 
-A2: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
+A2: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S3: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
@@ -104,4 +104,4 @@ A2: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
 
 ### S5: Aspose.PSD for .NET için geçici bir lisans satın alabilir miyim?
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

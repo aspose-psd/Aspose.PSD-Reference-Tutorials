@@ -98,7 +98,7 @@ A1: はい、Aspose.PSD はさまざまな画像形式をサポートしてお�
 
 ### Q3: Aspose.PSD ドキュメントはどこで見つけられますか?
 
-A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/java/).
+A3: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/java/).
 
 ### Q4: Aspose.PSD ではどのようなサポート オプションが利用できますか?
 

@@ -9,7 +9,7 @@ url: /hu/java/advanced-techniques/convert-psd-to-raster-formats/
 ---
 ## Bevezetés
 
-A webfejlesztés dinamikus világában általános követelmény a PSD (Photoshop Document) fájlok különféle raszteres képformátumokká konvertálása. Az Aspose.PSD for Java hatékony eszközként jelenik meg ennek zökkenőmentes elérésére. Ez az oktatóanyag végigvezeti Önt a folyamaton, és lépésről lépésre ismerteti az Aspose.PSD for Java használatával a PSD-fájlok népszerű raszteres képformátumokká konvertálásához.
+A webfejlesztés dinamikus világában általános követelmény a PSD (Photoshop Document) fájlok különféle raszteres képformátumokká konvertálása. Az Aspose.PSD for Java hatékony eszközként jelenik meg ennek zökkenőmentes elérésére. Ez az oktatóanyag végigvezeti a folyamaton, és lépésről lépésre ismerteti az Aspose.PSD for Java használatával a PSD-fájlok népszerű raszteres képformátumokká konvertálásához.
 
 ## Előfeltételek
 
@@ -109,7 +109,7 @@ A3: Abszolút. Az Aspose.PSD hatékony kötegelt feldolgozást tesz lehetővé, 
 
 ### 4. kérdés: Vannak-e licencelési megkötések az Aspose.PSD használatához?
 
- A4: Lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért. Az ideiglenes licenceket is felfedezheti[itt](https://purchase.aspose.com/temporary-license/).
+ A4: Lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért. Az ideiglenes licenceket is felfedezheti[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol kérhetek támogatást vagy csatlakozhatok a közösséghez?
 

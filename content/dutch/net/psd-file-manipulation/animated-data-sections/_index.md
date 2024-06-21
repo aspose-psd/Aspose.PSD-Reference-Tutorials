@@ -33,7 +33,7 @@ string baseDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 Zorg ervoor dat u "Uw documentenmap" en "Uw uitvoermap" vervangt door de daadwerkelijke paden.
-## Stap 2: Geanimeerde PSD laden en wijzigen
+## Stap 2: Laad en wijzig geanimeerde PSD
 ```csharp
 string sourceFile = Path.Combine(baseDir, "3_animated.psd");
 string outputPsd = Path.Combine(outputDir, "output_3_animated.psd");

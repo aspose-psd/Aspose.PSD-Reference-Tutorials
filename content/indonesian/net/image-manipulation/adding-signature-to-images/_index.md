@@ -102,4 +102,4 @@ A3: Anda dapat menerapkan blok coba-tangkap untuk menangani pengecualian dengan 
 
 ### Q5: Bisakah saya mencoba Aspose.PSD sebelum membeli?
 
- A5: Tentu saja, tersedia uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A5: Tentu saja, tersedia uji coba gratis.[Di Sini](https://releases.aspose.com/).

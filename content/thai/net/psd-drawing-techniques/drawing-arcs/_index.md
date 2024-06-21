@@ -38,7 +38,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Actual Document Directory";
 ```
 
-## ขั้นตอนที่ 2: การวาดส่วนโค้ง
+## ขั้นตอนที่ 2: วาดส่วนโค้ง
 
  สร้างอินสแตนซ์ของ`BmpOptions` และกำหนดคุณสมบัติได้แก่`BitsPerPixel`.
 
@@ -69,7 +69,7 @@ int startAngle = 45;
 int sweepAngle = 270;
 ```
 
-## ขั้นตอนที่ 5: การวาดส่วนโค้ง
+## ขั้นตอนที่ 5: วาดส่วนโค้ง
 
 วาดส่วนโค้งบนพื้นผิวกราฟิกโดยใช้พารามิเตอร์ที่ระบุและปากกาสีดำ
 
@@ -105,7 +105,7 @@ image.Save(outpath, saveOptions);
 
 ### คำถามที่ 4: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PSD ได้ที่ไหน
 
- A4: คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+ A4:คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
 
 ### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.PSD สำหรับ .NET ฟรีก่อนซื้อได้หรือไม่
 

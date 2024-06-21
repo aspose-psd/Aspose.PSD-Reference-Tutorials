@@ -11,7 +11,7 @@ url: /ko/net/image-processing/color-conversion-default-icc-profiles/
 
 색상 변환은 이미지 조작의 기본 측면으로, 디지털 이미지에서 색상이 표현되는 방식에 영향을 미칩니다. .NET용 Aspose.PSD는 색상 프로필을 원활하게 처리할 수 있는 포괄적인 도구를 제공하여 이 프로세스를 단순화합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

@@ -94,7 +94,7 @@ A1: Η δυαδοποίηση με το κατώφλι Otsu είναι μια μ
 
 ### Ε3: Πού μπορώ να βρω τεκμηρίωση Aspose.PSD για Java;
 
-A3: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/java/).
+A3: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/java/).
 
 ### Ε4: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD για Java;
 
@@ -102,4 +102,4 @@ A3: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://refere
 
 ### Ε5: Υπάρχει διαθέσιμη προσωρινή άδεια χρήσης για το Aspose.PSD για Java;
 
- A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).

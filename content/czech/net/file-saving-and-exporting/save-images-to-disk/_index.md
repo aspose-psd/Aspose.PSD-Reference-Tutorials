@@ -85,8 +85,8 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků, což zajišť
 
 ### Q4: Jak získám dočasnou licenci?
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde mohu zakoupit Aspose.PSD pro .NET?
 
- A5: Můžete si koupit Aspose.PSD pro .NET[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit Aspose.PSD pro .NET.[tady](https://purchase.aspose.com/buy).

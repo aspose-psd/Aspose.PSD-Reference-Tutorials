@@ -107,7 +107,7 @@ A2 : Absolument ! N'hésitez pas à ajuster le code pour répondre à vos besoin
 
 ### Q4 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour .NET ?
 
- A4 : Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez explorer un essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je obtenir de l'aide ou demander de l'aide concernant Aspose.PSD pour .NET ?
 

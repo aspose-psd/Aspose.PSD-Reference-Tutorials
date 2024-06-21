@@ -49,7 +49,7 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## الخطوة 2: إضافة تأثير تراكب الألوان
+## الخطوة 2: إضافة تأثير تراكب اللون
 
 في هذه الخطوة، سنقوم بإضافة تأثير تراكب الألوان إلى طبقة معينة من صورة PSD.
 
@@ -94,4 +94,4 @@ im.save(exportPath);
 
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).

@@ -113,4 +113,4 @@ A1: Ya, Aspose.PSD mendukung berbagai kerangka .NET, memastikan kompatibilitas d
 
 ### Q5: Dapatkah saya membeli Aspose.PSD untuk .NET?
 
- A5: Ya, jelajahi opsi lisensi dan lakukan pembelian[Di Sini](https://purchase.aspose.com/buy).
+ A5: Ya, jelajahi opsi lisensi dan lakukan pembelian.[Di Sini](https://purchase.aspose.com/buy).

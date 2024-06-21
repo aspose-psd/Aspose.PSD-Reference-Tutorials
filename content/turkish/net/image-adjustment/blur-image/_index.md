@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Adım 4: Gauss Bulanıklığı Filtresini Uygulayın
+## Adım 4: Gauss Bulanıklığı Filtresini uygulayın.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Burada,`GaussianBlurFilterOptions` sınıfı hem yatay hem de dikey bulanıklaştırma için 15'lik belirli bir yarıçapla kullanılır.
+ Burada,`GaussianBlurFilterOptions` sınıfı, hem yatay hem de dikey bulanıklaştırma için belirtilen 15 yarıçapıyla kullanılır.
 
 ## Adım 5: Bulanık Görüntüyü Kaydedin
 
@@ -74,13 +74,13 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Çözüm
 
-Tebrikler! Aspose.PSD for .NET kullanarak bir görüntüyü başarılı bir şekilde bulanıklaştırdınız. Bu eğitim Aspose.PSD'nin yeteneklerine kısa bir bakış sağlar ve .NET uygulamalarınızda görüntü manipülasyonu için sayısız olasılığa kapı açar.
+Tebrikler! Aspose.PSD for .NET kullanarak bir görüntüyü başarılı bir şekilde bulanıklaştırdınız. Bu eğitim Aspose.PSD'nin yeteneklerine kısa bir bakış sağlar ve .NET uygulamalarınızda görüntü manipülasyonu için çok sayıda olasılığa kapı açar.
 
 ## SSS'ler
 
 ### S1: Bir görüntünün farklı bölümlerine farklı bulanıklık yoğunlukları uygulayabilir miyim?
 
-Cevap1: Evet, Aspose.PSD, bir görüntünün belirli bölgelerine değişen parametrelerle filtreler uygulamanıza olanak tanıyarak, bulanıklaştırma süreci üzerinde ayrıntılı kontrol sağlar.
+Cevap1: Evet, Aspose.PSD, görüntünün belirli bölgelerine değişen parametrelerle filtreler uygulamanıza olanak tanıyarak, bulanıklaştırma süreci üzerinde ayrıntılı kontrol sağlar.
 
 ### S2: Aspose.PSD tüm görüntü formatlarıyla uyumlu mu?
 

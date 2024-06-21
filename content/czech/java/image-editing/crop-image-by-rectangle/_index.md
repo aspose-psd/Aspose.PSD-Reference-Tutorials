@@ -92,7 +92,7 @@ Odpověď 1: Ano, Aspose.PSD for Java lze integrovat s různými frameworky Java
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A2: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A2: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q3: Kde najdu další podporu nebo pomoc?
 
@@ -100,7 +100,7 @@ Odpověď 1: Ano, Aspose.PSD for Java lze integrovat s různými frameworky Java
 
 ### Q4: Jak získám dočasnou licenci pro Aspose.PSD for Java?
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jaké jsou podporované formáty obrázků pro oříznutí v Aspose.PSD pro Java?
 

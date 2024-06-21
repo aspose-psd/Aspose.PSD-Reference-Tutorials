@@ -105,7 +105,7 @@ A2: Abszolút! A kívánt eredmény elérése érdekében egymás után több v�
 
 ### 4. kérdés: Elérhető az Aspose.PSD .NET-hez próbaverziója?
 
- 4. válasz: Igen, ingyenes próbaverzióval felfedezheti a könyvtár funkcióit[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, ingyenes próbaverzióval felfedezheti a könyvtár funkcióit.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol találhatok további támogatást vagy segítséget?
 

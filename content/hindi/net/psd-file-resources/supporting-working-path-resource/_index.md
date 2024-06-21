@@ -79,7 +79,7 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### Q3: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ3: हाँ, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ उ3: हां, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं।[यहाँ](https://releases.aspose.com/).
 
 ### Q4: मुझे .NET के लिए Aspose.PSD के लिए समर्थन कहां मिल सकता है?
 
@@ -87,4 +87,4 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### Q5: अस्थायी लाइसेंस की आवश्यकता है?
 
- A5: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A5: एक अस्थायी लाइसेंस प्राप्त करें.[यहाँ](https://purchase.aspose.com/temporary-license/).

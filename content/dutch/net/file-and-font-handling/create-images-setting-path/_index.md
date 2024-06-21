@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Zorg ervoor dat de Aspose.PSD-bibliotheek in uw project is geïnstalleerd. U kunt de documentatie vinden[hier](https://reference.aspose.com/psd/net/).
+Zorg ervoor dat de Aspose.PSD-bibliotheek in uw project is geïnstalleerd. U kunt de documentatie vinden[hier](https://reference.aspose.com/psd/net/).
 
 ## Stap 1: Definieer uw documentenmap
 
@@ -93,7 +93,7 @@ A2: Absoluut! Met Aspose.PSD kunt u batchgewijs beeldverwerking uitvoeren, waard
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u heeft toegang tot een gratis proefversie van Aspose.PSD[hier](https://releases.aspose.com/).
+ A4: Ja, u heeft toegang tot een gratis proefversie van Aspose.PSD.[hier](https://releases.aspose.com/).
 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen of hulp zoeken?
 

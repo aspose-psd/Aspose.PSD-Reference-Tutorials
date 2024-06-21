@@ -27,7 +27,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 ```
-## Βήμα 1: Ρυθμίστε τον Κατάλογο εγγράφων
+## Βήμα 1: Ρυθμίστε τον Κατάλογο Εγγράφων
 Ξεκινήστε ορίζοντας τη διαδρομή προς τον κατάλογο εγγράφων σας:
 ```java
 String dataDir = "Your Document Directory";

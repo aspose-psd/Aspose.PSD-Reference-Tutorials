@@ -97,7 +97,7 @@ psdImage.save(destName, options);
 
 ### س3: هل هناك أي خيارات ترخيص متاحة لـ Aspose.PSD؟
 
- ج3: استكشف خيارات الترخيص[هنا](https://purchase.aspose.com/buy)لاختيار أفضل خطة لاحتياجاتك.
+ ج3: استكشف خيارات الترخيص.[هنا](https://purchase.aspose.com/buy)لاختيار أفضل خطة لاحتياجاتك.
 
 ### س4: هل يوجد منتدى مجتمعي لدعم Aspose.PSD؟
 

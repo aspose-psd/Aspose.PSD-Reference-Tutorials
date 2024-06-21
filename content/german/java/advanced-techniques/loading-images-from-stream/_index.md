@@ -37,7 +37,7 @@ import java.io.FileOutputStream;
 
 ## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
 
-Stellen Sie sicher, dass Sie über ein eigenes Verzeichnis für Ihre Dokumente verfügen. Ersetzen Sie „Ihr Dokumentenverzeichnis“ im Code durch den tatsächlichen Pfad.
+Stellen Sie sicher, dass Sie über ein eigenes Verzeichnis für Ihre Dokumente verfügen. Ersetzen Sie „Ihr Dokumentverzeichnis“ im Code durch den tatsächlichen Pfad.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -92,7 +92,7 @@ A1: Auf jeden Fall! Aspose.PSD für Java zeichnet sich durch Effizienz und Zuver
 
 ### F2: Kann ich Aspose.PSD für Java vor dem Kauf testen?
 
- A2: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+ A2: Ja, Sie können eine kostenlose Testversion ausprobieren.[Hier](https://releases.aspose.com/).
 
 ### F3: Wo finde ich Unterstützung für Aspose.PSD für Java?
 
@@ -100,7 +100,7 @@ A1: Auf jeden Fall! Aspose.PSD für Java zeichnet sich durch Effizienz und Zuver
 
 ### F4: Benötige ich zu Testzwecken eine temporäre Lizenz?
 
- A4: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/) zum Testen von Aspose.PSD für Java.
+ A4: Besorgen Sie sich eine temporäre Lizenz.[Hier](https://purchase.aspose.com/temporary-license/) zum Testen von Aspose.PSD für Java.
 
 ### F5: Wo kann ich Aspose.PSD für Java kaufen?
 

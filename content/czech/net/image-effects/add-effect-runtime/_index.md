@@ -91,7 +91,7 @@ A3: Aspose.PSD nabízí širokou škálu efektů, ale je vhodné se podívat do 
 
 ### Q4: Jak mohu získat dočasnou licenci pro testovací účely?
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
+ A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
 
 ### Q5: Kde najdu další podporu a komunitní diskuse?
 

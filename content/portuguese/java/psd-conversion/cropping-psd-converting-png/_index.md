@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Etapa 3: Definir região de corte
 ```java
-// Crie uma instância da classe Rectangle passando x, y, largura e altura
+//Crie uma instância da classe Rectangle passando x, y, largura e altura
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Etapa 4: cortar imagem PSD
@@ -42,12 +42,12 @@ Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 // Chame o método crop da classe Image e passe a instância Rectangle
 image.crop(cropRegion);
 ```
-## Etapa 5: definir opções de exportação PNG
+## Etapa 5: definir opções de exportação de PNG
 ```java
 // Crie uma instância da classe PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Etapa 6: salvar a imagem recortada como PNG
+## Etapa 6: salve a imagem recortada como PNG.
 ```java
 // Forneça o caminho de saída e PngOptions para converter o arquivo PSD em PNG e salvar a saída
 String destName = dataDir + "export.png";
@@ -58,7 +58,7 @@ Parabéns! Você aprendeu com sucesso como cortar arquivos PSD ao convertê-los 
 ## perguntas frequentes
 ### Posso cortar arquivos PSD com formas irregulares usando Aspose.PSD para Java?
 Sim, Aspose.PSD para Java permite definir uma região de corte personalizada, permitindo cortar imagens em vários formatos.
-### Aspose.PSD para Java é adequado para tarefas de processamento de imagens em grande escala?
+### O Aspose.PSD para Java é adequado para tarefas de processamento de imagens em grande escala?
 Absolutamente! Aspose.PSD foi projetado para lidar com imagens grandes de forma eficiente, tornando-o ideal para projetos com extensos requisitos de processamento de imagens.
 ### Preciso de uma licença para Aspose.PSD para Java?
  Sim, é necessária uma licença válida para uso comercial. Você pode obtê-lo em[Assuma a compra](https://purchase.aspose.com/buy).

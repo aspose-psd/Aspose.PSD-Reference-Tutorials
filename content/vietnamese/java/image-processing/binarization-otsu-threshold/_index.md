@@ -94,7 +94,7 @@ Câu trả lời 1: Nhị phân hóa với Ngưỡng Otsu là phương pháp đ�
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu Aspose.PSD cho Java ở đâu?
 
-A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/java/).
+A3: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/java/).
 
 ### Câu hỏi 4: Làm cách nào để nhận được hỗ trợ cho Aspose.PSD cho Java?
 
@@ -102,4 +102,4 @@ A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/java/).
 
 ### Câu hỏi 5: Có giấy phép tạm thời cho Aspose.PSD dành cho Java không?
 
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

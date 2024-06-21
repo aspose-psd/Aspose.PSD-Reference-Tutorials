@@ -113,4 +113,4 @@ R1: Sí, Aspose.PSD admite una amplia gama de marcos .NET, lo que garantiza la c
 
 ### P5: ¿Puedo comprar Aspose.PSD para .NET?
 
- R5: Sí, explore las opciones de licencia y realice su compra[aquí](https://purchase.aspose.com/buy).
+ R5: Sí, explore las opciones de licencia y realice su compra.[aquí](https://purchase.aspose.com/buy).

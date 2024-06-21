@@ -101,7 +101,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Q1: Aspose.PSD for .NET を商用プロジェクトで使用できますか?
 
- A1: はい、Aspose.PSD for .NET は商用利用できます。をチェックしてください[購入ページ](https://purchase.aspose.com/buy)ライセンスの詳細については、
+A1: はい、Aspose.PSD for .NET は商用利用できます。をチェックしてください[購入ページ](https://purchase.aspose.com/buy)ライセンスの詳細については、
 
 ### Q2: Aspose.PSD for .NET の無料トライアルはありますか?
 

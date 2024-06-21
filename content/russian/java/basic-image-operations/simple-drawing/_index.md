@@ -90,7 +90,7 @@ graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10
 //ExEnd:DrawBlueRectangle
 ```
 
-## Шаг 4. Сохраните изменения
+## Шаг 4. Сохраните изменения.
 
 Наконец, сохраните копию загруженного PSD-файла, включая изменения:
 

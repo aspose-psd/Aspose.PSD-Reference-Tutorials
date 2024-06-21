@@ -51,7 +51,7 @@ try
     // Überprüfen Sie, ob der Zugriff auf die Streamquelle synchronisiert ist.
     synchronized (streamContainer.getSyncRoot())
     {
-        // Führen Sie hier Ihre gewünschten Vorgänge durch.
+        // Führen Sie hier Ihre gewünschten Vorgänge aus.
         // Der Zugriff auf streamContainer ist nun synchronisiert.
     }
 }
@@ -82,7 +82,7 @@ A1: Ja, Aspose.PSD für Java ist mit Java-Versionen 6 und höher kompatibel.
 
 ### F4: Gibt es eine kostenlose Testversion?
 
- A4: Ja, Sie können eine kostenlose Testversion von Aspose.PSD ausprobieren[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können eine kostenlose Testversion von Aspose.PSD ausprobieren.[Hier](https://releases.aspose.com/).
 
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
 

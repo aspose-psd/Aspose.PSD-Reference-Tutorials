@@ -97,7 +97,7 @@ R2: Sì, puoi specificare caratteri sostitutivi personalizzati in base ai tuoi r
 
 ### Q3: Sono disponibili opzioni di licenza per Aspose.PSD?
 
- A3: esplora le opzioni di licenza[Qui](https://purchase.aspose.com/buy)per scegliere il piano migliore per le tue esigenze.
+ A3: Esplora le opzioni di licenza.[Qui](https://purchase.aspose.com/buy)per scegliere il piano migliore per le tue esigenze.
 
 ### Q4: esiste un forum della community per il supporto di Aspose.PSD?
 

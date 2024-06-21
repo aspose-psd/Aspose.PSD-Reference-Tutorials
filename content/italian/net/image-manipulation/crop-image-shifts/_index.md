@@ -96,7 +96,7 @@ R1: Sì, Aspose.PSD supporta vari formati di immagine, consentendoti di ritaglia
 
 ### Q3: Come posso ottenere una licenza temporanea per Aspose.PSD per .NET?
 
- R3: È possibile acquisire una licenza temporanea a scopo di test[Qui](https://purchase.aspose.com/temporary-license/).
+ R3: È possibile acquisire una licenza temporanea a scopo di test.[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Dove posso trovare ulteriore supporto e discussioni relative ad Aspose.PSD?
 

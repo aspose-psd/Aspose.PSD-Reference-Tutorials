@@ -41,7 +41,7 @@ Aspose.PSD](./aspose-psd/)를 사용하여 단색으로 획 레이어를 추가�
 
 ## 레이어 효과 튜토리얼
 ### [.NET용 Aspose.PSD의 레이어에 획 효과 추가](./adding-stroke-effects/)
-.NET용 Aspose.PSD를 사용하여 이미지 미학을 향상하세요. 획 효과를 단계별로 추가하는 방법을 알아보세요. 지금 무료 평가판을 다운로드, 구매 또는 사용해 보세요.
+.NET용 Aspose.PSD를 사용하여 이미지 미학을 향상하세요. 단계별로 획 효과를 추가하는 방법을 알아보세요. 지금 무료 평가판을 다운로드, 구매 또는 사용해 보세요.
 ### [.NET용 Aspose.PSD에서 단색으로 획 레이어 추가](./adding-stroke-layer-solid-color/)
 Aspose.PSD를 사용하여 .NET 이미지 조작 기술을 향상하세요. 단색으로 획 레이어를 추가하는 방법을 단계별로 알아보세요.
 ### [.NET용 Aspose.PSD에 그라데이션이 포함된 스트로크 레이어 추가](./adding-stroke-layer-gradient/)

@@ -82,7 +82,7 @@ image.save(destName, new PngOptions());
 
 ### Q3: 一時ライセンスはテスト目的で利用できますか?
 
- A3: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)評価用に。
+ A3: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)評価用に。
 
 ### Q4: Aspose.PSD のサポートはどこで見つけられますか?
 

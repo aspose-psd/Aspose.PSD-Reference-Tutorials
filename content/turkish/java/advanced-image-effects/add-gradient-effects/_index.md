@@ -125,7 +125,7 @@ Cevap2: Aspose.PSD, gölgeler, parlamalar ve daha fazlasını içeren çeşitli 
 
 ### S4: Aspose.PSD for Java'nın deneme sürümü mevcut mu?
 
- A4: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+ C4: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD for Java lisansını nereden satın alabilirim?
 

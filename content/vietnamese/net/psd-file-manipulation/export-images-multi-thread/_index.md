@@ -68,11 +68,11 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET hỗ trợ nhiều phiên bản t�
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
- Câu trả lời 3: Tham gia cộng đồng Aspose.PSD[diễn đàn](https://forum.aspose.com/c/psd/34) để nhận được sự hỗ trợ từ các chuyên gia và các nhà phát triển đồng nghiệp.
+ Câu trả lời 3: Tham gia cộng đồng Aspose.PSD.[diễn đàn](https://forum.aspose.com/c/psd/34) để nhận được sự hỗ trợ từ các chuyên gia và các nhà phát triển đồng nghiệp.
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá Aspose.PSD cho các tính năng của .NET trước khi đưa ra cam kết.
+ Đ4: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/) để khám phá Aspose.PSD cho các tính năng của .NET trước khi đưa ra cam kết.
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho .NET?
 

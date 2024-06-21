@@ -125,7 +125,7 @@ A2 : Aspose.PSD fournit une variété d’effets, notamment des ombres, des lue
 
 ### Q4 : Existe-t-il une version d'essai disponible pour Aspose.PSD pour Java ?
 
- A4 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez bénéficier d’un essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q5 : Où puis-je acheter une licence pour Aspose.PSD pour Java ?
 

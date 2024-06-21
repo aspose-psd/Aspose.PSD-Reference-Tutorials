@@ -85,7 +85,7 @@ Upravte nastavení přechodu podle svých preferencí.
 ## Krok 4: Uložte upravený obrázek
 
 ```java
-// Upravený obrázek uložte
+// Uložte upravený obrázek
 im.save(exportPath);
 ```
 
@@ -125,7 +125,7 @@ A2: Aspose.PSD poskytuje řadu efektů, včetně stínů, záře a dalších. Da
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.PSD pro Java?
 
- A4: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Kde mohu zakoupit licenci pro Aspose.PSD pro Java?
 

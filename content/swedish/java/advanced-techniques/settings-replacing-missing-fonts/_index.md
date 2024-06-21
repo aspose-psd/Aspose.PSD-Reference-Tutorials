@@ -97,7 +97,7 @@ S2: Ja, du kan ange anpassade ersättningsteckensnitt enligt dina designkrav.
 
 ### F3: Finns det några licensalternativ för Aspose.PSD?
 
- S3: Utforska licensieringsalternativen[här](https://purchase.aspose.com/buy)att välja den bästa planen för dina behov.
+ S3: Utforska licensieringsalternativen.[här](https://purchase.aspose.com/buy)att välja den bästa planen för dina behov.
 
 ### F4: Finns det ett communityforum för Aspose.PSD-support?
 

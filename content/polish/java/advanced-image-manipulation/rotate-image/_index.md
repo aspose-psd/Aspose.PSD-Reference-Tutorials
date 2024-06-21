@@ -75,7 +75,7 @@ A2: Absolutnie! Aspose.PSD zapewnia elastyczność stosowania niestandardowych r
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc?
 
- O3: W przypadku jakichkolwiek pytań lub problemów odwiedź stronę[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+ O3: W przypadku jakichkolwiek pytań lub problemów odwiedź stronę[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
@@ -83,4 +83,4 @@ A2: Absolutnie! Aspose.PSD zapewnia elastyczność stosowania niestandardowych r
 
 ### P5: Jak uzyskać licencję tymczasową?
 
- Odpowiedź 5: Jeśli potrzebujesz licencji tymczasowej, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Jeśli potrzebujesz licencji tymczasowej, możesz ją uzyskać.[Tutaj](https://purchase.aspose.com/temporary-license/).

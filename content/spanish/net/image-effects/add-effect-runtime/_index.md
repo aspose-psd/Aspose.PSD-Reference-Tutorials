@@ -91,7 +91,7 @@ R3: Aspose.PSD ofrece una amplia gama de efectos, pero es recomendable consultar
 
 ### P4: ¿Cómo puedo obtener una licencia temporal para realizar pruebas?
 
- R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para pruebas y evaluación.
+ R4: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para pruebas y evaluación.
 
 ### P5: ¿Dónde puedo encontrar apoyo adicional y debates comunitarios?
 

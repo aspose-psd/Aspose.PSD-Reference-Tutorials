@@ -9,7 +9,7 @@ url: /ko/net/psd-file-manipulation/psd-image-timeline/
 ---
 ## 소개
 이미지 처리의 역동적인 세계에서 .NET용 Aspose.PSD는 PSD 이미지 타임라인 처리를 위한 강력한 솔루션을 제공하는 강력한 툴킷으로 돋보입니다. 숙련된 개발자이든 코딩 매니아이든 이 튜토리얼은 Aspose.PSD를 활용하여 이미지 타임라인을 쉽게 조작하는 과정을 안내합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 프레임워크에 대한 기본 지식
 -  .NET용 Aspose.PSD가 설치되었습니다. 최신 버전을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).

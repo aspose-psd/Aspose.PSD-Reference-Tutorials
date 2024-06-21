@@ -40,7 +40,7 @@ url: /zh/java/basic-image-operations/
 了解使用 Aspose.PSD for Java 以编程方式调整图像大小。请按照我们的分步指南进行高效的图像处理。
 ### [在 Aspose.PSD for Java 中支持混合模式](./support-blend-modes/)
 使用 Aspose.PSD 增强 Java 中的图像处理。学习利用混合模式来获得令人惊叹的效果。
-### [在 Aspose.PSD for Java 中支持阴影效果](./support-shadow-effect/)
+### [Aspose.PSD for Java 支持阴影效果](./support-shadow-effect/)
 了解如何使用 Aspose.PSD for Java 向图像添加迷人的阴影效果。通过此分步教程提升您的图形设计。
 ### [使用 Aspose.PSD for Java 验证图像透明度](./verify-image-transparency/)
 使用 Aspose.PSD for Java 探索图像透明度验证。轻松集成、详细文档和出色的社区支持。

@@ -110,7 +110,7 @@ Gratulacje! Pomyślnie zaimplementowałeś obsługę podpisów ObAr i UnFl w Asp
 
 ### P3: Czy mogę wypróbować Aspose.PSD przed zakupem?
 
- Odpowiedź 3: Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz skorzystać z bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
 

@@ -94,11 +94,11 @@ A1：是的，Aspose.PSD 支援各種圖像格式，為您的專案提供靈活�
 
 ### Q2：如何取得Aspose.PSD的臨時授權？
 
- A2：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A2：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q3：哪裡可以找到Aspose.PSD文件？
 
-A3：文檔可用[這裡](https://reference.aspose.com/psd/java/).
+A3：文檔可用。[這裡](https://reference.aspose.com/psd/java/).
 
 ### 問題 4：Aspose.PSD 有哪些支援選項？
 

@@ -88,7 +88,7 @@ Ezen egyszerű lépések követésével hatékonyan eltávolíthatja a betűtíp
 
 ### 4. kérdés: Rendelkezésre áll ideiglenes licenc az Aspose.PSD for .NET számára?
 
- V4: Igen, ideiglenes engedélyt kaphat[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+ V4: Igen, ideiglenes engedélyt kaphat.[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t .NET-hez?
 

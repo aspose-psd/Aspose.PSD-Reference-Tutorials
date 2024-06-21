@@ -18,7 +18,7 @@ Sei pronto a svelare i segreti del graphic design? Immergiti nel mondo della man
 
 ## Ridimensionare reso semplice
 
- Manipola in modo efficiente le dimensioni delle immagini a livello di codice con[Aspose.PSD per Java](./simple-resizing/). La nostra guida intuitiva semplifica il processo di ridimensionamento, assicurandoti di cogliere ogni dettaglio. Dalle basi alle tecniche avanzate, questo tutorial copre tutto. Immergiti e trasforma le tue immagini senza problemi con Aspose.PSD.
+ Manipola in modo efficiente le dimensioni delle immagini a livello di codice con[Aspose.PSD per Java](./simple-resizing/)La nostra guida intuitiva semplifica il processo di ridimensionamento, assicurandoti di cogliere ogni dettaglio. Dalle basi alle tecniche avanzate, questo tutorial copre tutto. Immergiti e trasforma le tue immagini senza problemi con Aspose.PSD.
 
 ## Effetti di amplificazione: supporta le modalità di fusione
 
@@ -30,7 +30,7 @@ Sei pronto a svelare i segreti del graphic design? Immergiti nel mondo della man
 
 ## Trasparenza svelata: verifica la trasparenza dell'immagine
 
- Esplora il regno della verifica della trasparenza delle immagini con[Aspose.PSD per Java](./verify-image-transparency/). Questo tutorial integra perfettamente la trasparenza nei tuoi progetti, con documentazione dettagliata e un eccellente supporto da parte della community. Migliora i tuoi progetti di design con la garanzia della trasparenza dell'immagine verificata utilizzando Aspose.PSD per Java.
+ Esplora il regno della verifica della trasparenza delle immagini con[Aspose.PSD per Java](./verify-image-transparency/)Questo tutorial integra perfettamente la trasparenza nei tuoi progetti, con documentazione dettagliata e un eccellente supporto da parte della community. Migliora i tuoi progetti di design con la garanzia della trasparenza dell'immagine verificata utilizzando Aspose.PSD per Java.
 
 In conclusione, questi tutorial forniscono una comprensione olistica delle operazioni di immagine di base utilizzando Aspose.PSD per Java. Che tu sia un principiante o un designer esperto, sblocca il potenziale della progettazione grafica con le nostre guide dettagliate. Immergiti e lascia fiorire la tua creatività!
 ## Esercitazioni sulle operazioni di base sulle immagini

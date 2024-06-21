@@ -2,7 +2,7 @@
 title: Aspose.PSD for .NET ile Renkli Görüntülere Medyan ve Wiener Filtreleri Uygulama
 linktitle: Aspose.PSD for .NET ile Renkli Görüntülere Medyan ve Wiener Filtreleri Uygulama
 second_title: Aspose.PSD .NET API'si
-description: Aspose.PSD for .NET ile Medyan ve Wiener Filtrelerini kullanarak renkli görüntüleri geliştirin ve gürültüsünü giderin. Kusursuz görüntü işleme için adım adım kılavuz.
+description: Aspose.PSD for .NET ile Medyan ve Wiener Filtrelerini kullanarak renkli görüntüleri geliştirin ve gürültüsünü giderin. Sorunsuz görüntü işleme için adım adım kılavuz.
 type: docs
 weight: 11
 url: /tr/net/image-processing/apply-median-wiener-filters-color-images/

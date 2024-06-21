@@ -58,7 +58,7 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-//不透明度100%のPNGとして保存
+//不透明度 100% の PNG として保存します。
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ PSD ファイル内の特定のレイヤーの不透明度を設定します。�
 //不透明度を 50% に設定します
 im.getLayers()[1].setOpacity((byte)127);
 
-//不透明度 50% の PNG として保存
+//不透明度 50% の PNG として保存します。
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

@@ -150,7 +150,7 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 
 ### س4: هل هناك نسخة تجريبية متاحة لـ Aspose.PSD؟
 
- ج4: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
 
 ### س5: أين يمكنني طلب الدعم للاستعلامات المتعلقة بـ Aspose.PSD؟
 

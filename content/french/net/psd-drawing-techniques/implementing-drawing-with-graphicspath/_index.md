@@ -51,7 +51,7 @@ Dans cette étape, nous initialisons une instance de la classe PsdImage et un ob
 ## Étape 2 : Création de GraphicsPath et de la figure
 
 ```csharp
-// Créez une instance de GraphicsPath et une instance de Figure, ajoutez EllipseShape, RectangleShape et TextShape à la figure
+// Créez une instance de GraphicsPath et une instance de Figure, ajoutez EllipseShape, RectangleShape et TextShape à la figure.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A4 : Oui, Aspose.PSD pour .NET fournit des fonctionnalités permettant de travai
 
 ### Q5 : Où puis-je trouver la documentation d'Aspose.PSD pour .NET ?
 
- A5 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/).
+ R5 : La documentation est disponible.[ici](https://reference.aspose.com/psd/net/).

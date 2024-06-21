@@ -96,7 +96,7 @@ A1: Sim, Aspose.PSD suporta vários formatos de imagem, permitindo cortar imagen
 
 ### Q3: Como obtenho uma licença temporária do Aspose.PSD para .NET?
 
- A3: Você pode adquirir uma licença temporária para fins de teste[aqui](https://purchase.aspose.com/temporary-license/).
+ A3: Você pode adquirir uma licença temporária para fins de teste.[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### P4: Onde posso encontrar suporte e discussões adicionais relacionadas ao Aspose.PSD?
 

@@ -33,7 +33,7 @@ using Aspose.PSD.Sources;
 string dataDir = "Your Document Directory";
 ```
 
-將「您的文件目錄」替換為專案文檔目錄的實際路徑。
+將「您的文件目錄」替換為專案文件目錄的實際路徑。
 
 ## 步驟2：指定輸出路徑和檔案名
 
@@ -93,7 +93,7 @@ A2：當然！ Aspose.PSD 可讓您執行批次影像處理，從而可以有效
 
 ### Q4：有免費試用嗎？
 
- A4：是的，您可以免費試用 Aspose.PSD[這裡](https://releases.aspose.com/).
+ A4：是的，您可以免費試用 Aspose.PSD。[這裡](https://releases.aspose.com/).
 
 ### Q5：我如何獲得支持或尋求協助？
 

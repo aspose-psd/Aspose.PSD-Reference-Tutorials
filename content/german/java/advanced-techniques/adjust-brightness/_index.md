@@ -102,8 +102,8 @@ A3: Der Anpassungsbereich hängt vom Bildinhalt und -format ab, aber Aspose.PSD 
 
 ### F4: Kann ich Aspose.PSD für Java in kommerziellen Projekten verwenden?
 
- A4: Ja, Aspose.PSD für Java ist eine kommerzielle Bibliothek und Sie können eine Lizenz von erwerben[Hier](https://purchase.aspose.com/buy).
+ A4: Ja, Aspose.PSD für Java ist eine kommerzielle Bibliothek und Sie können eine Lizenz von erhalten[Hier](https://purchase.aspose.com/buy).
 
 ### F5: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
 
- A5: Ja, Sie können die Bibliothek mit einer kostenlosen Testversion von erkunden[Hier](https://releases.aspose.com/).
+ A5: Ja, Sie können die Bibliothek mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).

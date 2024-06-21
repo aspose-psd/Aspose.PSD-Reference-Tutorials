@@ -1,7 +1,7 @@
 ---
 title: Buat Metadata XMP dengan Aspose.PSD untuk Java
 linktitle: Buat Metadata XMP
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Sempurnakan aplikasi Java Anda dengan Aspose.PSD. Pelajari cara membuat metadata XMP dengan mudah. Ikuti panduan langkah demi langkah kami sekarang.
 type: docs
 weight: 12
@@ -150,7 +150,7 @@ A3: Aspose.PSD dirancang untuk menangani gambar dengan berbagai ukuran, memastik
 
 ### Q4: Apakah ada versi uji coba yang tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda dapat mengeksplorasi kemampuan Aspose.PSD dengan mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengeksplorasi kemampuan Aspose.PSD dengan mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.PSD?
 

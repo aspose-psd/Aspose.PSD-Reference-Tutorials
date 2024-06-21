@@ -50,7 +50,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## Steg 3: Cachelagra bilddata
 
-Cachelagra bilddata för att optimera prestandan:
+Cachelagra bilddata för att optimera prestanda:
 
 ```csharp
 rasterImage.CacheData();

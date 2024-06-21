@@ -67,7 +67,7 @@ Gratulálunk! Sikeresen renderelte a szöveget különböző színekkel a szöve
 
 ### 3. kérdés: Hol találom az Aspose.PSD for .NET dokumentációját?
 
- A3: A részletes dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/) hogy segítsen megérteni és megvalósítani az Aspose.PSD for .NET különféle funkcióit.
+ A3: A részletes dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/) hogy segítsen megérteni és megvalósítani az Aspose.PSD for .NET különféle funkcióit.
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 

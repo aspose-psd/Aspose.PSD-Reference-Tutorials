@@ -20,7 +20,7 @@ Bez wysiłku poprawiaj jakość obrazu dzięki samouczkom Aspose.PSD dla .NET. Z
 
 ### [Manipulacja plikami PSD](./psd-file-manipulation/)
 
-łatwością obsługuj warstwy w formacie AI za pomocą Aspose.PSD dla .NET. Dowiedz się, jak eksportować obrazy PSD do formatu GIF, manipulować stanami warstw i płynnie poruszać się po animowanych sekcjach danych. Podnieś swoje umiejętności pracy z plikami PSD dzięki naszym specjalistycznym tutorialom.
+Z łatwością obsługuj warstwy w formacie AI za pomocą Aspose.PSD dla .NET. Dowiedz się, jak eksportować obrazy PSD do formatu GIF, manipulować stanami warstw i płynnie poruszać się po animowanych sekcjach danych. Podnieś swoje umiejętności pracy z plikami PSD dzięki naszym specjalistycznym tutorialom.
 
 ## Maksymalizuj manipulację tekstem i czcionką
 

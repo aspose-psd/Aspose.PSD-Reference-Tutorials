@@ -86,7 +86,7 @@ Gratulálunk! Sikeresen implementálta a Bicubic Resamplert az Aspose.PSD for Ja
 
 ### 4. kérdés: Letölthetem az Aspose.PSD for Java könyvtárat?
 
- 4. válasz: Igen, töltse le a könyvtárat a kiadási oldalról[itt](https://releases.aspose.com/psd/java/).
+ 4. válasz: Igen, töltse le a könyvtárat a kiadási oldalról.[itt](https://releases.aspose.com/psd/java/).
 
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.PSD for Java-t?
 

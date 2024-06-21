@@ -119,4 +119,4 @@ A2 : Absolument ! Aspose.PSD suit le rythme des dernières spécifications de fo
 
 ### Q5 : Où puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A5 : Obtenez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour Aspose.PSD pour évaluer ses capacités dans vos projets.
+ A5 : Obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour Aspose.PSD pour évaluer ses capacités dans vos projets.

@@ -86,7 +86,7 @@ A1: Ja, Aspose.PSD für Java unterstützt verschiedene Bildformate, darunter PSD
 
 ### F4: Kann ich die Aspose.PSD für Java-Bibliothek herunterladen?
 
- A4: Ja, laden Sie die Bibliothek von der Release-Seite herunter[Hier](https://releases.aspose.com/psd/java/).
+ A4: Ja, laden Sie die Bibliothek von der Release-Seite herunter.[Hier](https://releases.aspose.com/psd/java/).
 
 ### F5: Wie kaufe ich Aspose.PSD für Java?
 

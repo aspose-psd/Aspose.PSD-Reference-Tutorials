@@ -150,7 +150,7 @@ A3：Aspose.PSD 旨在處理各種尺寸的影像，確保您的專案的可擴�
 
 ### Q4：Aspose.PSD 有試用版嗎？
 
- A4：是的，您可以透過免費試用來探索 Aspose.PSD 的功能[這裡](https://releases.aspose.com/).
+ A4：是的，您可以透過免費試用來探索 Aspose.PSD 的功能。[這裡](https://releases.aspose.com/).
 
 ### Q5：我可以在哪裡尋求 Aspose.PSD 相關查詢的支援？
 

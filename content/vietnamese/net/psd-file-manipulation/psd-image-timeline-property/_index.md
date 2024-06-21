@@ -80,7 +80,7 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 
 ### Câu hỏi 4: Có giấy phép tạm thời cho Aspose.PSD cho .NET không?
 
- Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời cho Aspose.PSD cho .NET[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời cho Aspose.PSD cho .NET.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.PSD cho .NET ở đâu?
 

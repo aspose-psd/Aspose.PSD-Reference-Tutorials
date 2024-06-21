@@ -81,7 +81,7 @@ Câu trả lời 2: Có, Aspose.PSD cho Java cung cấp nhiều loại thay đ�
 
 ### Câu hỏi 4: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- A4: Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Đ4: Có, bạn có thể truy cập phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
 

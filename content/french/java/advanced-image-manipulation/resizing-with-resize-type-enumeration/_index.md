@@ -73,7 +73,7 @@ A1 : Absolument ! Aspose.PSD pour Java est conçu pour répondre aux projets de 
 
 ### Q2 : Puis-je utiliser un type de redimensionnement différent du Lanczos Resample ?
 
-A2 : Oui, Aspose.PSD pour Java propose différents types de redimensionnement, tels que Nearest Neighbour, Bicubic, etc. Explorez la documentation pour une liste complète.
+A2 : Oui, Aspose.PSD pour Java propose différents types de redimensionnement, tels que le plus proche voisin, Bicubic, etc. Explorez la documentation pour une liste complète.
 
 ### Q3 : Où puis-je trouver une assistance supplémentaire pour Aspose.PSD pour Java ?
 
@@ -81,7 +81,7 @@ A2 : Oui, Aspose.PSD pour Java propose différents types de redimensionnement, t
 
 ### Q4 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A4 : Oui, vous pouvez accéder à une version d'essai gratuite[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez accéder à une version d'essai gratuite.[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
 

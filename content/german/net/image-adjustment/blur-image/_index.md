@@ -15,7 +15,7 @@ Im Bereich der .NET-Entwicklung erweist sich Aspose.PSD als leistungsstarker Ver
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.PSD für .NET: Stellen Sie sicher, dass die Aspose.PSD-Bibliothek installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD für .NET: Stellen Sie sicher, dass Sie die Aspose.PSD-Bibliothek installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/psd/net/).
 
 - Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung ein und verfügen Sie über grundlegende Kenntnisse von C#.
 
@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Schritt 4: Gaußschen Unschärfefilter anwenden
+## Schritt 4: Gaußschen Unschärfefilter anwenden.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));

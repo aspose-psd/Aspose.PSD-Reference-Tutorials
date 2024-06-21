@@ -8,8 +8,8 @@ weight: 16
 url: /ko/net/psd-file-manipulation/timeline/
 ---
 ## 소개
-그래픽 디자인과 이미지 조작의 역동적인 세계에서는 이미지의 타임라인을 제어하고 조작하는 능력이 매우 중요합니다. .NET용 Aspose.PSD는 Timeline 클래스를 통해 강력한 솔루션을 제공합니다. 이 높은 수준의 기능을 통해 사용자는 프레임 지연 변경, 특정 프레임의 레이어 상태 편집 등과 같은 PsdImage의 타임라인을 변경할 수 있습니다.
-## 전제 조건
+그래픽 디자인과 이미지 조작의 역동적인 세계에서는 이미지의 타임라인을 제어하고 조작하는 능력이 매우 중요합니다. .NET용 Aspose.PSD는 Timeline 클래스를 통해 강력한 솔루션을 제공합니다. 이 고급 기능을 통해 사용자는 프레임 지연 변경, 특정 프레임의 레이어 상태 편집 등과 같은 PsdImage의 타임라인을 변경할 수 있습니다.
+## 전제조건
 Timeline 클래스가 제공하는 흥미로운 가능성을 살펴보기 전에 다음 전제 조건이 갖추어져 있는지 확인하십시오.
 -  .NET 라이브러리용 Aspose.PSD: .NET 라이브러리용 Aspose.PSD가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[.NET 문서용 Aspose.PSD](https://reference.aspose.com/psd/net/).
 -  문서 및 출력 디렉터리: 코드에서 문서 및 출력 디렉터리의 경로를 정의합니다. 조정하다`baseDir` 그리고`outputDir` 프로젝트 구조에 따른 변수.
@@ -103,7 +103,7 @@ A2: Timeline 클래스는 PSD 이미지용으로 특별히 설계되었습니다
 
 ### Q4: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- A4: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: .NET용 Aspose.PSD를 사용하면 어떤 주요 이점이 있습니까?
 

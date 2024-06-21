@@ -9,7 +9,7 @@ url: /ko/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
 ## 소개
 .NET 개발 영역에서는 이미지를 조작하고 변환하는 것이 일반적인 작업입니다. .NET용 Aspose.PSD는 이 프로세스를 간소화하는 강력한 도구 세트를 제공합니다. 자주 발생하는 요구 사항 중 하나는 PSD 파일을 PNG로 변환하기 전에 자르는 것입니다. 이 단계별 튜토리얼에서는 .NET용 Aspose.PSD를 사용하는 프로세스를 자세히 살펴보겠습니다.
-## 전제 조건
+## 전제조건
 이 여정을 시작하기 전에 다음 사항을 확인하세요.
 -  .NET 라이브러리용 Aspose.PSD: 다음에서 라이브러리를 다운로드하고 설치합니다.[.NET 문서용 Aspose.PSD](https://reference.aspose.com/psd/net/).
 - 샘플 PSD 파일: 실험용 PSD 파일을 준비합니다. 샘플이 없으면 자습서에 제공된 샘플을 사용할 수 있습니다.
@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // PngOptions 클래스의 인스턴스 만들기
 PngOptions pngOptions = new PngOptions();
 ```
-## 5단계: 자른 이미지를 PNG로 저장
+## 5단계: 자른 이미지를 PNG로 저장합니다.
 ```csharp
 // 저장 메서드를 호출하고, 출력 경로를 제공하고, PngOptions를 제공하여 PSD 파일을 PNG로 변환하고 출력을 저장합니다.
 string destName = dataDir + @"export.png";

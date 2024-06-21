@@ -77,7 +77,7 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge les fichiers PSD créés dans dif
 
 ### Q3 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour .NET ?
 
-A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/).
+R3 : La documentation est disponible.[ici](https://reference.aspose.com/psd/net/).
 
 ### Q4 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 
@@ -85,4 +85,4 @@ A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/
 
 ### Q5 : Comment puis-je acheter une licence pour Aspose.PSD pour .NET ?
 
- A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter une licence.[ici](https://purchase.aspose.com/buy).

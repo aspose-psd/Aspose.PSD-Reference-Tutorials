@@ -9,7 +9,7 @@ url: /tr/net/image-manipulation/simple-resizing/
 ---
 ## giriiş
 
-.NET geliştirmenin dinamik alanında, görüntüleri değiştirmek yaygın bir zorunluluktur. Aspose.PSD for .NET, güçlü özellikleriyle imdadınıza yetişiyor ve görüntü yeniden boyutlandırma konusunda kusursuz bir deneyim sağlıyor. Bu eğitimde, Aspose.PSD for .NET'i kullanarak görüntüleri yeniden boyutlandırmanın basit ama önemli sürecini derinlemesine inceleyeceğiz. Görüntü işleme becerilerinizi geliştirecek bir yolculuğa çıkarken kemerlerinizi bağlayın.
+.NET geliştirmenin dinamik alanında, görüntüleri değiştirmek yaygın bir zorunluluktur. Aspose.PSD for .NET, güçlü özellikleriyle imdadınıza yetişiyor ve görüntü yeniden boyutlandırma konusunda kusursuz bir deneyim sunuyor. Bu eğitimde, Aspose.PSD for .NET'i kullanarak görüntüleri yeniden boyutlandırmanın basit ama önemli sürecini derinlemesine inceleyeceğiz. Görüntü işleme becerilerinizi geliştirecek bir yolculuğa çıkarken kemerlerinizi bağlayın.
 
 ## Önkoşullar
 

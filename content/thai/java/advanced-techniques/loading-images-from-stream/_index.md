@@ -1,6 +1,6 @@
 ---
 title: กำลังโหลดรูปภาพจากสตรีมด้วย Aspose.PSD สำหรับ Java
-linktitle: กำลังโหลดรูปภาพจากสตรีม
+linktitle: กำลังโหลดภาพจากสตรีม
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีโหลดรูปภาพ PSD ได้อย่างราบรื่นใน Java โดยใช้ Aspose.PSD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการประมวลผลภาพที่มีประสิทธิภาพ
 type: docs

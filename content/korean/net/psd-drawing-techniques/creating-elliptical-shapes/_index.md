@@ -11,7 +11,7 @@ url: /ko/net/psd-drawing-techniques/creating-elliptical-shapes/
 
 .NET용 Aspose.PSD를 사용하여 타원형 모양을 만드는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.PSD는 개발자가 Adobe Photoshop 없이도 Photoshop 파일을 조작하고 변환할 수 있는 강력한 .NET 라이브러리입니다. 이 튜토리얼에서는 라이브러리를 사용하여 타원형 모양을 그리는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

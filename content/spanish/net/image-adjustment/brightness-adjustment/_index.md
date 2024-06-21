@@ -88,7 +88,7 @@ Aspose.PSD para .NET simplifica el proceso de implementación de ajustes de bril
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
- R3: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD para .NET simplifica el proceso de implementación de ajustes de bril
 
 ### P5: ¿Cómo obtengo una licencia temporal de Aspose.PSD para .NET?
 
- R5: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Puede adquirir una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

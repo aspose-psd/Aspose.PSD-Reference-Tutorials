@@ -102,4 +102,4 @@ A3: La documentación está disponible.[aquí](https://reference.aspose.com/psd/
 
 ### P5: ¿Existe una licencia temporal disponible para Aspose.PSD para Java?
 
- R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

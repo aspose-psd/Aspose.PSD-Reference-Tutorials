@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Crea un'istanza di`Image` invocando il`create` metodo, passando il configurato`BmpOptions` e specificando le dimensioni dell'immagine.
+ Crea un'istanza di`Image` invitando il`create` metodo, passando il configurato`BmpOptions` e specificando le dimensioni dell'immagine.
 
 ## Passaggio 6: elaborazione delle immagini
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Conclusione
 
-Congratulazioni! Hai imparato con successo come creare immagini utilizzando lo stream in Aspose.PSD per Java. Questo tutorial ha coperto i passaggi essenziali, dall'importazione dei pacchetti all'elaborazione e al salvataggio delle immagini finali. Sperimenta diverse impostazioni ed esplora funzionalità aggiuntive per migliorare le tue capacità di creazione di immagini.
+Congratulazioni! Hai imparato con successo come creare immagini utilizzando lo stream in Aspose.PSD per Java. Questo tutorial copre i passaggi essenziali, dall'importazione dei pacchetti all'elaborazione e al salvataggio finali delle immagini. Sperimenta diverse impostazioni ed esplora funzionalità aggiuntive per migliorare le tue capacità di creazione di immagini.
 
 ## Domande frequenti
 
@@ -105,11 +105,11 @@ A1: Sì, Aspose.PSD è progettato per integrarsi perfettamente con altre libreri
 
 ### Q3: È disponibile una prova gratuita per Aspose.PSD?
 
- R3: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere a una prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
- A4: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ A4: Ottieni una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Quali sono i requisiti di sistema per Aspose.PSD?
 

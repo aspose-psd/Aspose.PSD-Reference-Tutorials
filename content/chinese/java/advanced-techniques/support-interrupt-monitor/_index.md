@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-现在，让我们将示例代码分解为将中断监视器合并到 Aspose.PSD for Java 项目中的分步指南。
+现在，让我们将示例代码分解为将中断监视器集成到 Aspose.PSD for Java 项目中的分步指南。
 
 ## 第 1 步：设置您的文档目录
 
@@ -106,16 +106,16 @@ A1：Aspose.PSD for Java 中的中断监视器允许开发人员管理和中断�
 
 ### Q2: 如何获取 Java 版的 Aspose.PSD 库？
 
-A2：您可以下载Aspose.PSD for Java库[这里](https://releases.aspose.com/psd/java/).
+A2：您可以下载Aspose.PSD for Java 库。[这里](https://releases.aspose.com/psd/java/).
 
 ### Q3：Aspose.PSD for Java 有免费试用版吗？
 
-A3：是的，您可以探索 Aspose.PSD 的免费试用版[这里](https://releases.aspose.com/).
+ A3：是的，您可以探索 Aspose.PSD 的免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q4：在哪里可以找到 Aspose.PSD for Java 的支持？
 
-A4：访问 Aspose.PSD for Java 支持论坛[这里](https://forum.aspose.com/c/psd/34).
+ A4：访问 Aspose.PSD for Java 支持论坛[这里](https://forum.aspose.com/c/psd/34).
 
 ### Q5：如何购买 Aspose.PSD for Java 的许可证？
 
- A5：您可以购买 Aspose.PSD for Java 的许可证[这里](https://purchase.aspose.com/buy).
+ A5：您可以购买 Aspose.PSD for Java 的许可证。[这里](https://purchase.aspose.com/buy).

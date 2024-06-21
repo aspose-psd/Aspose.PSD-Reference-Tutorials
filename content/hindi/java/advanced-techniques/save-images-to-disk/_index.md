@@ -78,7 +78,7 @@ A1: हाँ, Java के लिए Aspose.PSD JPEG, BMP, TIFF और अन्
 
 ### Q2: क्या Java के लिए Aspose.PSD का निःशुल्क परीक्षण उपलब्ध है?
 
- उ2: हाँ, आप जावा के लिए Aspose.PSD का निःशुल्क परीक्षण देख सकते हैं[इस लिंक](https://releases.aspose.com/).
+ उ2: हाँ, आप जावा के लिए Aspose.PSD का निःशुल्क परीक्षण देख सकते हैं।[इस लिंक](https://releases.aspose.com/).
 
 ### Q3: मैं जावा के लिए Aspose.PSD के लिए व्यापक दस्तावेज़ कहां पा सकता हूं?
 
@@ -90,4 +90,4 @@ A1: हाँ, Java के लिए Aspose.PSD JPEG, BMP, TIFF और अन्
 
 ### Q5: क्या जावा के लिए Aspose.PSD के लिए अस्थायी लाइसेंस उपलब्ध हैं?
 
- A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/).

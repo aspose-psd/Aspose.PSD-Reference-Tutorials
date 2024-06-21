@@ -63,7 +63,7 @@ RasterImage image = (RasterImage)Image.load(sourceFile);
 
 Tải hình ảnh mẫu bằng Aspose.PSD.
 
-## Bước 4: Dữ liệu hình ảnh trong bộ nhớ đệm
+## Bước 4: Dữ liệu hình ảnh bộ đệm
 
 ```java
 if (!image.isCached())

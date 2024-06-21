@@ -71,7 +71,7 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Konfigurera`TiffOptions` för att spara den justerade bilden. Justera`bitsPerSample` och`photometric` fastigheter utifrån dina specifika behov.
+ Konfigurera`TiffOptions` för att spara den justerade bilden. Justera`bitsPerSample` och`photometric` egenskaper utifrån dina specifika behov.
 
 ## Steg 4: Spara den resulterande bilden
 

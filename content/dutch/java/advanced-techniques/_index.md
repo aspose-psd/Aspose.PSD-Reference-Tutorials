@@ -12,24 +12,24 @@ url: /nl/java/advanced-techniques/
 Bent u klaar om uw Java-beeldverwerkingsvaardigheden te verbeteren? Duik in onze uitgebreide tutorials met Aspose.PSD voor Java en ontgrendel een rijk aan geavanceerde technieken. Laten we enkele belangrijke tutorials in detail bekijken:
 
 ## Een afbeelding grijswaarden met Aspose.PSD voor Java
- Ontdek de kunst van het moeiteloos grijsschalen van afbeeldingen in Java met Aspose.PSD. Onze stapsgewijze handleiding begeleidt u door het proces en zorgt voor naadloze resultaten.[Lees verder](./grayscale-image/)
+Ontdek de kunst van het moeiteloos grijsschalen van afbeeldingen in Java met Aspose.PSD. Onze stapsgewijze handleiding begeleidt u door het proces en zorgt voor naadloze resultaten.[Lees verder](./grayscale-image/)
 
 ## Afbeeldingen uit Stream laden met Aspose.PSD voor Java
  Leer de fijne kneepjes van het naadloos laden van PSD-afbeeldingen in Java met behulp van Aspose.PSD. Onze gedetailleerde handleiding garandeert een efficiënte beeldverwerking.[Lees verder](./loading-images-from-stream/)
 
 ## Converteer PSD naar rasterafbeeldingsformaten met Aspose.PSD voor Java
-Converteer PSD-bestanden moeiteloos naar rasterafbeeldingen met Aspose.PSD voor Java. Ontdek veelzijdige exportopties en naadloze integratie in onze stapsgewijze begeleiding.[Lees verder](./convert-psd-to-raster-formats/)
+ Converteer PSD-bestanden moeiteloos naar rasterafbeeldingen met Aspose.PSD voor Java. Ontdek veelzijdige exportopties en naadloze integratie in onze stapsgewijze begeleiding.[Lees verder](./convert-psd-to-raster-formats/)
 
 Klaar voor meer? Ontdek tutorials over het weergeven van tekst met verschillende kleuren, het efficiënt opslaan van afbeeldingen met behulp van werkthreads, en uitgebreide handleidingen over lettertypebeheer. Verbeter uw beeldontwerp en Java-ontwikkeling met Aspose.PSD.
 
 ## Render tekst met verschillende kleuren in de tekstlaag
- Leer de kunst van het weergeven van tekst met verschillende kleuren in een PSD-tekstlaag met behulp van Aspose.PSD voor Java. Onze stapsgewijze handleiding zorgt voor naadloze resultaten.[Lees verder](./render-text-different-colors/)
+Leer de kunst van het weergeven van tekst met verschillende kleuren in een PSD-tekstlaag met behulp van Aspose.PSD voor Java. Onze stapsgewijze handleiding zorgt voor naadloze resultaten.[Lees verder](./render-text-different-colors/)
 
 ## Sla afbeeldingen op met Worker Threads met Aspose.PSD voor Java
  Duik in multi-threaded beeldverwerking in Java met Aspose.PSD. Beheers de kunst van het efficiënt opslaan van afbeeldingen met behulp van werkthreads.[Lees verder](./save-images-worker-threads/)
 
 ## Instellingen voor het vervangen van ontbrekende lettertypen in Aspose.PSD voor Java
-Ontdek een uitgebreide handleiding over het vervangen van ontbrekende lettertypen in Aspose.PSD voor Java. Verbeter uw afbeeldingsontwerp met naadloos lettertypebeheer.[Lees verder](./settings-replacing-missing-fonts/)
+ Ontdek een uitgebreide handleiding over het vervangen van ontbrekende lettertypen in Aspose.PSD voor Java. Verbeter uw afbeeldingsontwerp met naadloos lettertypebeheer.[Lees verder](./settings-replacing-missing-fonts/)
 
 Of het nu gaat om het aanpassen van de helderheid, het contrast, het gamma, het vervagen van afbeeldingen of het toevoegen van boeiende effecten tijdens runtime, onze tutorials behandelen het allemaal. Ontgrendel het potentieel van Aspose.PSD voor Java en breng uw beeldverwerkingsvaardigheden naar nieuwe hoogten.
 

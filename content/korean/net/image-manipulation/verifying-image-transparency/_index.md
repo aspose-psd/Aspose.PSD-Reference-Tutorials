@@ -11,7 +11,7 @@ url: /ko/net/image-manipulation/verifying-image-transparency/
 
 .NET용 Aspose.PSD를 사용하여 이미지 투명성을 확인하는 포괄적인 튜토리얼에 오신 것을 환영합니다! 이 가이드에서는 강력한 Aspose.PSD 라이브러리를 사용하여 PSD 파일의 이미지 투명도를 확인하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼을 통해 .NET 애플리케이션에서 이미지 투명성을 원활하게 처리하는 데 필요한 기술을 익힐 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -86,7 +86,7 @@ A1: 예, Aspose.PSD는 최신 .NET 프레임워크와 호환됩니다.
 
 ### Q4: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
 
- A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: 구매하기 전에 Aspose.PSD를 무료로 사용해 볼 수 있나요?
 

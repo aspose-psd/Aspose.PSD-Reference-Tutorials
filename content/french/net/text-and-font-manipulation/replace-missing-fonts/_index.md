@@ -70,7 +70,7 @@ A1 : Oui, Aspose.PSD vous permet de remplacer les polices de manière sélective
 
 ### Q4 : Des licences temporaires sont-elles disponibles pour Aspose.PSD ?
 
- A4 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Où puis-je trouver une documentation complète pour Aspose.PSD ?
 

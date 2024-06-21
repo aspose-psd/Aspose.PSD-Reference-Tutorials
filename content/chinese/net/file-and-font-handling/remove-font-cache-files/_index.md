@@ -88,7 +88,7 @@ A2：虽然可能，但建议删除字体缓存文件，以防止应用程序中
 
 ### Q4：Aspose.PSD for .NET 有临时许可证吗？
 
- A4：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试目的。
+ A4：是的，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)用于测试目的。
 
 ### Q5：我可以购买 Aspose.PSD for .NET 吗？
 

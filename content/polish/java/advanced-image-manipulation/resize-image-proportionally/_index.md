@@ -82,7 +82,7 @@ W tym samouczku omówiliśmy podstawowe kroki proporcjonalnej zmiany rozmiaru ob
 
 ### P3: Czy dostępne są licencje tymczasowe do celów testowych?
 
- Odpowiedź 3: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) dla ewolucji.
+ Odpowiedź 3: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/) dla ewolucji.
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.PSD?
 

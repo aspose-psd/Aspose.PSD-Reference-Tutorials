@@ -77,7 +77,7 @@ A1: Ja, Aspose.PSD voor .NET ondersteunt PSD-bestanden die in verschillende Phot
 
 ### V3: Waar kan ik gedetailleerde documentatie vinden voor Aspose.PSD voor .NET?
 
-A3: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).
+A3: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/net/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
@@ -85,4 +85,4 @@ A3: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).
 
 ### V5: Hoe koop ik een licentie voor Aspose.PSD voor .NET?
 
- A5: U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+ A5: U kunt een licentie kopen.[hier](https://purchase.aspose.com/buy).

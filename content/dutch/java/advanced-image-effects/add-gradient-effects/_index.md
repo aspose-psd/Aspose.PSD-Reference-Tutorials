@@ -125,7 +125,7 @@ A2: Aspose.PSD biedt een verscheidenheid aan effecten, waaronder schaduwen, gloe
 
 ### V4: Is er een proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A4: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A4: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/).
 
 ### V5: Waar kan ik een licentie kopen voor Aspose.PSD voor Java?
 

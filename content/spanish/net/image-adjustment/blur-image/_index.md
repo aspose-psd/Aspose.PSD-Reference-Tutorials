@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Paso 4: aplicar el filtro de desenfoque gaussiano
+## Paso 4: aplique el filtro de desenfoque gaussiano.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Conclusión
 
-¡Felicidades! Has difuminado con éxito una imagen usando Aspose.PSD para .NET. Este tutorial proporciona una idea de las capacidades de Aspose.PSD y abre la puerta a una infinidad de posibilidades para la manipulación de imágenes en sus aplicaciones .NET.
+¡Felicidades! Has difuminado con éxito una imagen usando Aspose.PSD para .NET. Este tutorial proporciona una idea de las capacidades de Aspose.PSD y abre la puerta a una multitud de posibilidades para la manipulación de imágenes en sus aplicaciones .NET.
 
 ## Preguntas frecuentes
 

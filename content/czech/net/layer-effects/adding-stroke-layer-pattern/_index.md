@@ -135,7 +135,7 @@ Odpověď 1: Ano, Aspose.PSD for .NET je kompatibilní s různými verzemi sady 
 
 ### Q3: Jsou k dispozici nějaké ukázkové soubory PSD pro testování?
 
- Odpověď 3: Vzorové soubory PSD najdete v dokumentaci[tady](https://reference.aspose.com/psd/net/).
+ Odpověď 3: Vzorové soubory PSD najdete v dokumentaci.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q4: Je Aspose.PSD vhodný pro dávkové zpracování souborů PSD?
 

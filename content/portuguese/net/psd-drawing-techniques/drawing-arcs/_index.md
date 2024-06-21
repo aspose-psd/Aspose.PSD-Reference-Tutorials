@@ -93,11 +93,11 @@ Parabéns! Você aprendeu com sucesso como desenhar arcos usando Aspose.PSD para
 
 ### Q1: Onde posso encontrar a documentação do Aspose.PSD para .NET?
 
- A1: A documentação pode ser encontrada[aqui](https://reference.aspose.com/psd/net/).
+ A1: A documentação pode ser encontrada.[aqui](https://reference.aspose.com/psd/net/).
 
 ### P2: Como obtenho uma licença temporária para Aspose.PSD?
 
- A2: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+ A2: Você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Existe um fórum da comunidade para suporte ao Aspose.PSD?
 
@@ -105,8 +105,8 @@ Parabéns! Você aprendeu com sucesso como desenhar arcos usando Aspose.PSD para
 
 ### Q4: Onde posso comprar uma licença para Aspose.PSD?
 
- A4: Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+ A4: Você pode comprar uma licença.[aqui](https://purchase.aspose.com/buy).
 
 ### Q5: Posso experimentar o Aspose.PSD for .NET gratuitamente antes de comprar?
 
- A5: Sim, você pode baixar uma avaliação gratuita[aqui](https://releases.aspose.com/).
+ A5: Sim, você pode baixar uma avaliação gratuita.[aqui](https://releases.aspose.com/).

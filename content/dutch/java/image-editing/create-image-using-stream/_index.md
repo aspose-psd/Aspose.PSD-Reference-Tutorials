@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Maak een exemplaar van`Image` door een beroep te doen op de`create` methode, waarbij de geconfigureerde`BmpOptions` en het specificeren van de afmetingen van de afbeelding.
+ Maak een exemplaar van`Image` door het uitnodigen van`create` methode, waarbij de geconfigureerde`BmpOptions` en het specificeren van de afmetingen van de afbeelding.
 
 ## Stap 6: Beeldverwerking
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes geleerd hoe u afbeeldingen kunt maken met behulp van stream in Aspose.PSD voor Java. Deze tutorial behandelde essentiële stappen, van het importeren van pakketten tot de uiteindelijke beeldverwerking en opslag. Experimenteer met verschillende instellingen en ontdek extra functies om uw mogelijkheden voor het maken van afbeeldingen te verbeteren.
+Gefeliciteerd! U hebt met succes geleerd hoe u afbeeldingen kunt maken met behulp van stream in Aspose.PSD voor Java. Deze tutorial behandelt essentiële stappen, van het importeren van pakketten tot de uiteindelijke verwerking en opslag van afbeeldingen. Experimenteer met verschillende instellingen en ontdek extra functies om uw mogelijkheden voor het maken van afbeeldingen te verbeteren.
 
 ## Veelgestelde vragen
 
@@ -105,11 +105,11 @@ A1: Ja, Aspose.PSD is ontworpen om naadloos te integreren met andere Java-biblio
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD?
 
- A3: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot een gratis proefperiode.[hier](https://releases.aspose.com/).
 
 ### V4: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD?
 
- A4: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+ A4: Verkrijg een tijdelijke licentie.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Wat zijn de systeemvereisten voor Aspose.PSD?
 

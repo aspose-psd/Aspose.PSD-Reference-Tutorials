@@ -31,7 +31,7 @@ string sourceFile = SourceDir + @"text_ethalon_different_colors.psd";
 string destName = OutputDir + @"RenderTextWithDifferentColorsInTextLayer_out.png";
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // आगे के चरणों के लिए कोड यहां जाएगा.
+    // आगे के चरणों के लिए कोड यहां जाएगा।
 }
 ```
 ## चरण 2: टेक्स्ट लेयर तक पहुंचें
@@ -67,7 +67,7 @@ A1: हां, .NET के लिए Aspose.PSD को किसी भी .NET 
 
 ### Q3: मुझे .NET के लिए Aspose.PSD के लिए दस्तावेज़ कहां मिल सकते हैं?
 
- A3: विस्तृत दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/psd/net/) .NET के लिए Aspose.PSD की विभिन्न विशेषताओं को समझने और कार्यान्वित करने में आपकी सहायता के लिए।
+ A3: विस्तृत दस्तावेज़ उपलब्ध है.[यहाँ](https://reference.aspose.com/psd/net/) .NET के लिए Aspose.PSD की विभिन्न विशेषताओं को समझने और कार्यान्वित करने में आपकी सहायता के लिए।
 
 ### Q4: मैं .NET के लिए Aspose.PSD के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 

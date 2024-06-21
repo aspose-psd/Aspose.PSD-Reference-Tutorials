@@ -86,8 +86,8 @@ A1: نعم، Aspose.PSD متوافق مع أحدث أطر عمل .NET.
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
- ج4: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: هل يمكنني تجربة Aspose.PSD مجانًا قبل الشراء؟
 
-ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).

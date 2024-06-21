@@ -1,7 +1,7 @@
 ---
 title: Lakukan Menggambar Sederhana dengan Aspose.PSD untuk Java
 linktitle: Lakukan Menggambar Sederhana
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggambar bentuk dalam file PSD menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah ini mencakup pembuatan, penambahan lapisan, dan menggambar dengan contoh kode.
 type: docs
 weight: 10
@@ -116,7 +116,7 @@ A1: Ya, Aspose.PSD untuk Java menyediakan fungsionalitas ekstensif untuk mengedi
 
 ### Q3: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A3: Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana cara membeli lisensi Aspose.PSD untuk Java?
 

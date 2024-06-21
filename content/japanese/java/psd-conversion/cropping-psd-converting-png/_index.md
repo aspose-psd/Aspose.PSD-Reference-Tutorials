@@ -47,9 +47,9 @@ image.crop(cropRegion);
 //PngOptions クラスのインスタンスを作成する
 PngOptions pngOptions = new PngOptions();
 ```
-## ステップ 6: 切り抜いた画像を PNG として保存する
+## ステップ 6: 切り抜いた画像を PNG として保存します。
 ```java
-//PSD ファイルを PNG に変換し、出力を保存するための出力パスと PngOptions を指定します。
+// PSD ファイルを PNG に変換し、出力を保存するための出力パスと PngOptions を指定します。
 String destName = dataDir + "export.png";
 image.save(destName, pngOptions);
 ```

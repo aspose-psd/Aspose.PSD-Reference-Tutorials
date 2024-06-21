@@ -110,7 +110,7 @@ Grattis! Du har framgångsrikt implementerat stöd för ObAr- och UnFl-signature
 
 ### F3: Kan jag prova Aspose.PSD innan jag köper?
 
- A3: Ja, du kan utforska en gratis testversion[här](https://releases.aspose.com/).
+ A3: Ja, du kan utforska en gratis testversion.[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få en tillfällig licens för Aspose.PSD?
 

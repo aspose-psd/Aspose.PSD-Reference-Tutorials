@@ -85,4 +85,4 @@ O1: Tak, Aspose.PSD for Java został zaprojektowany tak, aby bezproblemowo wspó
 
 ### P5: Czy potrzebuję tymczasowej licencji do testowania?
 
- Odpowiedź 5: Jeśli testujesz bibliotekę, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Jeśli testujesz bibliotekę, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).

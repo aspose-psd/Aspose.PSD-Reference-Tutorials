@@ -81,7 +81,7 @@ A2: Sim, Aspose.PSD para Java oferece vários tipos de redimensionamento, como v
 
 ### Q4: Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
 
- A4: Sim, você pode acessar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode acessar uma versão de avaliação gratuita.[aqui](https://releases.aspose.com/).
 
 ### P5: Como posso obter uma licença temporária do Aspose.PSD para Java?
 

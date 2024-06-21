@@ -80,7 +80,7 @@ Aspose.PSD for .NET zjednodušuje proces implementace úprav jasu v souborech PS
 
 ### Q1: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A1: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
+ A1: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak mohu stáhnout knihovnu Aspose.PSD pro .NET?
 
@@ -88,7 +88,7 @@ Aspose.PSD for .NET zjednodušuje proces implementace úprav jasu v souborech PS
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD for .NET zjednodušuje proces implementace úprav jasu v souborech PS
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.PSD pro .NET?
 
- A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

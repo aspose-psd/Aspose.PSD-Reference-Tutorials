@@ -82,7 +82,7 @@ A1: はい、Aspose.PSD for Java は Java バージョン 6 以降と互換性�
 
 ### Q4: 無料トライアルはありますか?
 
-A4: はい、次のサイトにアクセスして、Aspose.PSD の無料トライアルを試すことができます。[ここ](https://releases.aspose.com/).
+A4: はい、にアクセスすると、Aspose.PSD の無料トライアルを試すことができます。[ここ](https://releases.aspose.com/).
 
 ### Q5: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 

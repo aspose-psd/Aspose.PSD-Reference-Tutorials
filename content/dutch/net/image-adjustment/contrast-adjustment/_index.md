@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## Stap 1: Laad de afbeelding
 
- Laad de bronafbeelding in een exemplaar van het`RasterImage` klas.
+Laad de bronafbeelding in een exemplaar van het`RasterImage` klas.
 
 ```csharp
 //ExStart:Afbeelding laden
@@ -92,7 +92,7 @@ A1: Aspose.PSD voor .NET is ontworpen om ontwikkelaarsvriendelijk te zijn, waard
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefversie van Aspose.PSD voor .NET uitproberen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefversie van Aspose.PSD voor .NET uitproberen.[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning vinden voor Aspose.PSD voor .NET?
 
@@ -100,4 +100,4 @@ A1: Aspose.PSD voor .NET is ontworpen om ontwikkelaarsvriendelijk te zijn, waard
 
 ### Vraag 5: Hoe kan ik een tijdelijke licentie verkrijgen?
 
- A5: Indien nodig kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Indien nodig kunt u een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).

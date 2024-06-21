@@ -105,7 +105,7 @@ A3: Aspose.PSD für .NET ist für die Verarbeitung von Bildern unterschiedlicher
 
 ### F4: Gibt es eine Testversion für Aspose.PSD für .NET?
 
- A4: Ja, Sie können die Funktionen der Bibliothek erkunden, indem Sie eine kostenlose Testversion erwerben[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können die Funktionen der Bibliothek erkunden, indem Sie eine kostenlose Testversion erwerben.[Hier](https://releases.aspose.com/).
 
 ### F5: Wo finde ich zusätzliche Unterstützung oder Unterstützung?
 

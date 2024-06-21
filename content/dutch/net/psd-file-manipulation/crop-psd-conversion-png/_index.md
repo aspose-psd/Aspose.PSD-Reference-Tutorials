@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Maak een exemplaar van de klasse PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Stap 5: Sla de bijgesneden afbeelding op als PNG
+## Stap 5: Sla de bijgesneden afbeelding op als PNG.
 ```csharp
 // Roep de opslagmethode aan, geef het uitvoerpad op en PngOptions om het PSD-bestand naar PNG te converteren en de uitvoer op te slaan
 string destName = dataDir + @"export.png";

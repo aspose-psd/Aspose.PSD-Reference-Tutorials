@@ -85,8 +85,8 @@ using (Image image = Image.Load(sourceFile))
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت؟
 
- ج4: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: أين يمكنني شراء Aspose.PSD لـ .NET؟
 
- ج5: يمكنك شراء Aspose.PSD لـ .NET[هنا](https://purchase.aspose.com/buy).
+ ج5: يمكنك شراء Aspose.PSD لـ .NET.[هنا](https://purchase.aspose.com/buy).

@@ -56,13 +56,13 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## Következtetés
 
-Gratulálunk! Sikeresen támogatta a különböző aláírástípusokat az Aspose.PSD for .NET fájlban. Ez az oktatóanyag az alapvető lépéseket ismertette, így biztosítva, hogy könnyedén navigáljon a folyamaton.
+Gratulálunk! Sikeresen támogatta a különböző aláírástípusokat az Aspose.PSD for .NET fájlban. Ez az oktatóanyag az alapvető lépéseket ismerteti, így biztosítva, hogy könnyedén navigáljon a folyamaton.
 
 ## GYIK
 
 ### 1. kérdés: Hol találom az Aspose.PSD for .NET dokumentációját?
 
- V1: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
+ V1: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
 
 ### 2. kérdés: Hogyan tölthetem le az Aspose.PSD for .NET könyvtárat?
 
@@ -70,7 +70,7 @@ Gratulálunk! Sikeresen támogatta a különböző aláírástípusokat az Aspos
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+ V3: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Támogatásra van szüksége, vagy kérdései vannak?
 
@@ -78,4 +78,4 @@ Gratulálunk! Sikeresen támogatta a különböző aláírástípusokat az Aspos
 
 ### 5. kérdés: Ideiglenes jogosítványt keres?
 
- V5: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Szerezzen ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).

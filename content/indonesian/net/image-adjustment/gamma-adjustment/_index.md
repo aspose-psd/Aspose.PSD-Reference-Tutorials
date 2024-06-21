@@ -88,16 +88,16 @@ Selamat! Anda telah berhasil menerapkan Penyesuaian Gamma menggunakan Aspose.PSD
 
 ### Q2: Bagaimana cara mengunduh Aspose.PSD untuk .NET?
 
- A2: Anda dapat mengunduh perpustakaan[Di Sini](https://releases.aspose.com/psd/net/).
+ A2: Anda dapat mengunduh perpustakaan.[Di Sini](https://releases.aspose.com/psd/net/).
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda bisa mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 
- A4: Anda dapat mengunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/psd/34).
+ A4: Anda dapat mengunjungi forum dukungan.[Di Sini](https://forum.aspose.com/c/psd/34).
 
 ### Q5: Apakah saya memerlukan lisensi sementara?
 
- A5: Jika diperlukan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Jika diperlukan, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

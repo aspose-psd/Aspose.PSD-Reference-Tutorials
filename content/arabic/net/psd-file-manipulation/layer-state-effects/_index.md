@@ -73,11 +73,11 @@ psdImage.Save(outputFile);
 
 ### ج3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س4: كيف أحصل على ترخيص مؤقت؟
 
- ج4: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: هل تحتاج إلى دعم أو لديك أسئلة؟
 

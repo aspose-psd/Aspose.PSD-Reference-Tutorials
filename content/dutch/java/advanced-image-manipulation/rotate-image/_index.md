@@ -83,4 +83,4 @@ A2: Absoluut! Aspose.PSD biedt flexibiliteit voor het toepassen van aangepaste r
 
 ### Vraag 5: Hoe verkrijg ik een tijdelijke licentie?
 
- A5: Als u een tijdelijke licentie nodig heeft, kunt u er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Als u een tijdelijke licentie nodig heeft, kunt u er een verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).

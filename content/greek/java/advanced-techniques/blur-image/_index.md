@@ -87,7 +87,7 @@ rasterImage.save(destName, new GifOptions());
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πού μπορώ να βρω υποστήριξη για το Aspose.PSD για Java;
 
@@ -95,4 +95,4 @@ rasterImage.save(destName, new GifOptions());
 
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;
 
- A5: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Μπορείτε να πάρετε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).

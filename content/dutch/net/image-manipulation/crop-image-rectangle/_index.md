@@ -105,7 +105,7 @@ A3: Aspose.PSD voor .NET is ontworpen om afbeeldingen van verschillende formaten
 
 ### V4: Is er een proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A4: Ja, u kunt de functies van de bibliotheek verkennen door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
+ A4: Ja, u kunt de functies van de bibliotheek verkennen door een gratis proefperiode aan te vragen.[hier](https://releases.aspose.com/).
 
 ### Vraag 5: Waar kan ik aanvullende ondersteuning of assistentie vinden?
 

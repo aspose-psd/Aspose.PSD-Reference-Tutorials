@@ -11,7 +11,7 @@ url: /ko/net/image-processing/apply-gaussian-wiener-filters/
 
 .NET을 사용한 이미지 처리 영역에서 Aspose.PSD는 개발자가 이미지를 쉽게 조작할 수 있도록 지원하는 강력한 툴킷으로 돋보입니다. 특히 유용한 기능 중 하나는 Gaussian 및 Wiener 필터 적용입니다. 이러한 필터는 이미지 품질을 향상시키고, 노이즈를 줄이며, 최적의 시각적 매력을 보장하는 데 중요한 역할을 합니다.
 
-## 전제 조건
+## 전제조건
 
 Aspose.PSD를 사용하여 Gaussian 및 Wiener 필터를 적용하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

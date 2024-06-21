@@ -87,7 +87,7 @@ Repita essas etapas conforme necessário, ajustando os parâmetros do retângulo
 
 ## Conclusão
 
-Concluindo, dominar a arte de cortar imagens por um retângulo usando Aspose.PSD para .NET abre um mundo de possibilidades para manipulação de imagens. Este tutorial forneceu as etapas essenciais para integrar perfeitamente esse recurso em seus aplicativos .NET.
+Concluindo, dominar a arte de recortar imagens em um retângulo usando Aspose.PSD para .NET abre um mundo de possibilidades para manipulação de imagens. Este tutorial forneceu as etapas essenciais para integrar perfeitamente esse recurso em seus aplicativos .NET.
 
 ## Perguntas frequentes
 
@@ -105,7 +105,7 @@ A3: Aspose.PSD para .NET foi projetado para lidar com imagens de vários tamanho
 
 ### Q4: Existe uma versão de teste disponível para Aspose.PSD para .NET?
 
- A4: Sim, você pode explorar os recursos da biblioteca obtendo uma avaliação gratuita[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode explorar os recursos da biblioteca obtendo uma avaliação gratuita.[aqui](https://releases.aspose.com/).
 
 ### P5: Onde posso encontrar suporte ou assistência adicional?
 

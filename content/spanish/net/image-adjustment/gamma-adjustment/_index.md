@@ -92,12 +92,12 @@ rasterImage.Save(destName, tiffOptions);
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes obtener una prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo obtener soporte para Aspose.PSD?
 
- A4: Puedes visitar el foro de soporte.[aquí](https://forum.aspose.com/c/psd/34).
+ R4: Puedes visitar el foro de soporte.[aquí](https://forum.aspose.com/c/psd/34).
 
 ### P5: ¿Necesito una licencia temporal?
 
- R5: Si es necesario, puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Si es necesario, puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

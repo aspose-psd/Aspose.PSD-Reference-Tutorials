@@ -78,7 +78,7 @@ A1: Ja, Aspose.PSD für Java unterstützt verschiedene Bildformate, darunter JPE
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
 
- A2: Ja, Sie können eine kostenlose Testversion von Aspose.PSD für Java ausprobieren, indem Sie hier klicken[dieser Link](https://releases.aspose.com/).
+ A2: Ja, Sie können eine kostenlose Testversion von Aspose.PSD für Java ausprobieren, indem Sie hier klicken.[dieser Link](https://releases.aspose.com/).
 
 ### F3: Wo finde ich eine umfassende Dokumentation für Aspose.PSD für Java?
 
@@ -90,4 +90,4 @@ A1: Ja, Aspose.PSD für Java unterstützt verschiedene Bildformate, darunter JPE
 
 ### F5: Sind temporäre Lizenzen für Aspose.PSD für Java verfügbar?
 
- A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/).

@@ -56,7 +56,7 @@ layerEnabled.Value = false;
 ```csharp
 image.Save(outputPsd);
 ```
-## Etapa 6: limpar
+## Etapa 6: limpeza
 ```csharp
 File.Delete(outputPsd);
 Console.WriteLine("SupportOfMlstResource executed successfully");
@@ -77,7 +77,7 @@ A1: Sim, Aspose.PSD para .NET suporta arquivos PSD criados em várias versões d
 
 ### Q3: Onde posso encontrar documentação detalhada para Aspose.PSD para .NET?
 
-A3: A documentação está disponível[aqui](https://reference.aspose.com/psd/net/).
+A3: A documentação está disponível.[aqui](https://reference.aspose.com/psd/net/).
 
 ### Q4: Como posso obter suporte para Aspose.PSD para .NET?
 
@@ -85,4 +85,4 @@ A3: A documentação está disponível[aqui](https://reference.aspose.com/psd/ne
 
 ### P5: Como faço para adquirir uma licença do Aspose.PSD para .NET?
 
- A5: Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+ A5: Você pode comprar uma licença.[aqui](https://purchase.aspose.com/buy).

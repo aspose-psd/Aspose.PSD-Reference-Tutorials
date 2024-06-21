@@ -97,7 +97,7 @@ A2: Ja, u kunt aangepaste vervangende lettertypen opgeven op basis van uw ontwer
 
 ### Vraag 3: Zijn er licentieopties beschikbaar voor Aspose.PSD?
 
- A3: Ontdek de licentieopties[hier](https://purchase.aspose.com/buy)om het beste plan voor uw behoeften te kiezen.
+ A3: Ontdek de licentieopties.[hier](https://purchase.aspose.com/buy)om het beste plan voor uw behoeften te kiezen.
 
 ### V4: Is er een communityforum voor Aspose.PSD-ondersteuning?
 

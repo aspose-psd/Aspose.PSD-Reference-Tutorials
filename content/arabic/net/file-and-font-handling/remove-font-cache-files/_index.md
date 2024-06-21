@@ -88,7 +88,7 @@ A1: تقوم ملفات ذاكرة التخزين المؤقت للخط بتخز
 
 ### س4: هل يتوفر ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج4: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+ ج4: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
 
 ### س5: هل يمكنني شراء Aspose.PSD لـ .NET؟
 

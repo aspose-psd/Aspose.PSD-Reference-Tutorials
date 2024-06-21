@@ -11,7 +11,7 @@ url: /ko/net/image-effects/add-effect-runtime/
 
 이미지의 시각적 매력을 향상시키는 것은 그래픽 디자인 및 이미지 처리 응용 프로그램의 일반적인 요구 사항입니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 런타임에 효과를 추가하는 방법을 살펴보겠습니다. Aspose.PSD는 개발자가 Adobe Photoshop 파일을 원활하게 사용할 수 있게 해주는 강력한 API입니다. 
 
-## 전제 조건
+## 전제조건
 
 단계별 가이드를 살펴보기 전에 다음 사항을 확인하세요.
 
@@ -91,7 +91,7 @@ A3: Aspose.PSD는 광범위한 효과를 제공하지만 지원되는 효과에 
 
 ### Q4: 테스트 목적으로 임시 라이센스를 얻으려면 어떻게 해야 합니까?
 
- A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
+ A4: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
 
 ### Q5: 추가 지원 및 커뮤니티 토론은 어디에서 찾을 수 있습니까?
 

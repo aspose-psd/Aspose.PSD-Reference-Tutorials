@@ -1,6 +1,6 @@
 ---
 title: Criando metadados XMP em Aspose.PSD para .NET
-linktitle: Criando metadados XMP
+linktitle: Criando Metadados XMP
 second_title: API Aspose.PSD .NET
 description: Explore a criação de metadados XMP em Aspose.PSD para .NET. Melhore a organização da imagem com manipulação perfeita.
 type: docs

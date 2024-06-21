@@ -106,7 +106,7 @@ R2: ¡Absolutamente! Después de combinar imágenes, puede manipular aún más e
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.PSD?
 
- R4: Sí, puedes explorar Aspose.PSD con una prueba gratuita[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes explorar Aspose.PSD con una prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Dónde puedo encontrar soporte para consultas relacionadas con Aspose.PSD?
 

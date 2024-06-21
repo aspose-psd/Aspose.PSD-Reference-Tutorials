@@ -73,7 +73,7 @@ A1: Absolut! Aspose.PSD för Java är designad för att tillgodose projekt av al
 
 ### F2: Kan jag använda en annan storleksändringstyp än Lanczos Resample?
 
-S2: Ja, Aspose.PSD för Java erbjuder olika storleksändringstyper, till exempel Nearest Neighbour, Bicubic och mer. Utforska dokumentationen för en omfattande lista.
+S2: Ja, Aspose.PSD för Java erbjuder olika storleksändringstyper, till exempel Nearest Neighbor, Bicubic och mer. Utforska dokumentationen för en omfattande lista.
 
 ### F3: Var kan jag hitta ytterligare stöd för Aspose.PSD för Java?
 
@@ -81,7 +81,7 @@ S2: Ja, Aspose.PSD för Java erbjuder olika storleksändringstyper, till exempel
 
 ### F4: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- A4: Ja, du kan få tillgång till en gratis testversion[här](https://releases.aspose.com/).
+ A4: Ja, du kan få tillgång till en gratis testversion.[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få en tillfällig licens för Aspose.PSD för Java?
 

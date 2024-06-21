@@ -70,8 +70,8 @@ A1: Ja, Aspose.PSD ermöglicht Ihnen das selektive Ersetzen von Schriftarten pro
 
 ### F4: Sind temporäre Lizenzen für Aspose.PSD verfügbar?
 
- A4: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Wo finde ich eine umfassende Dokumentation für Aspose.PSD?
 
- A5: Siehe ausführlich[Dokumentation](https://reference.aspose.com/psd/net/) für detaillierte Einblicke in die Funktionalitäten von Aspose.PSD.
+ A5: Sehen Sie sich die Details an[Dokumentation](https://reference.aspose.com/psd/net/) für detaillierte Einblicke in die Funktionalitäten von Aspose.PSD.

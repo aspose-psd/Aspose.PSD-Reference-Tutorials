@@ -93,11 +93,11 @@ Chúc mừng! Bạn đã nắm vững các tính năng vẽ cốt lõi của Asp
 
 ### Câu hỏi 1: Tôi có thể tìm tài liệu Aspose.PSD cho .NET ở đâu?
 
- A1: Bạn có thể truy cập tài liệu[đây](https://reference.aspose.com/psd/net/).
+ A1: Bạn có thể truy cập tài liệu.[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 2: Làm cách nào để tải xuống Aspose.PSD cho .NET?
 
- A2: Tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/psd/net/).
+ A2: Tải xuống phiên bản mới nhất.[đây](https://releases.aspose.com/psd/net/).
 
 ### Câu 3: Tôi có thể mua Aspose.PSD cho .NET ở đâu?
 
@@ -105,7 +105,7 @@ Chúc mừng! Bạn đã nắm vững các tính năng vẽ cốt lõi của Asp
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- A4: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ A4: Có, bạn có thể dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.PSD cho .NET ở đâu?
 

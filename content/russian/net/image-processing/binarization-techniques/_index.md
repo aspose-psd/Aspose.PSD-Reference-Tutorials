@@ -35,9 +35,9 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 ```
 
- Заменять`"Your Document Directory"` с фактическим путем, по которому расположены ваши PSD-файлы.
+ Заменять`"Your Document Directory"` С фактическим путем, по которому находятся ваши PSD-файлы.
 
-## Шаг 2. Загрузите изображение
+## Шаг 2. Загрузите изображение.
 
 ```csharp
 //ExStart:BinarizationWithFixedThreshold
@@ -50,9 +50,9 @@ using (Image image = Image.Load(sourceFile))
 {
 ```
 
- На этом этапе образец PSD-файла загружается в`Image` объект.
+ На этом этапе образец PSD-файла загружается в`Image` Объект Object.
 
-## Шаг 3. Кэшируйте изображение
+## Шаг 3. Кэшируйте изображение.
 
 ```csharp
 	//Перенесите изображение в RasterCachedImage и проверьте, кэшировано ли изображение.
@@ -77,7 +77,7 @@ using (Image image = Image.Load(sourceFile))
 //ExEnd:BinarizationWithFixedThreshold
 ```
 
-`BinarizeFixed` метод применяется для преобразования изображения в двоичный формат с указанным порогом. Полученное изображение затем сохраняется в формате JPEG.
+`BinarizeFixed` Метод применяется для преобразования изображения в двоичный формат с заданным порогом. Полученное изображение затем сохраняется в формате JPEG.
 
 ## Заключение
 

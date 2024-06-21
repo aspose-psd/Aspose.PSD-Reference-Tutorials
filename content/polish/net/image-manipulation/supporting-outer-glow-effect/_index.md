@@ -35,7 +35,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.LayerEffects;
 using Aspose.PSD.ImageOptions;
 ```
 
-Teraz podzielmy podany przykład na wiele kroków, aby uzyskać efekt zewnętrznego blasku.
+Podzielmy teraz podany przykład na wiele kroków, aby uzyskać efekt zewnętrznego blasku.
 
 ## Krok 1: Ustaw ścieżki dokumentu i wyjścia
 
@@ -91,7 +91,7 @@ Console.WriteLine("SupportOfOuterGlowEffect executed successfully");
 
 ## Wniosek
 
-Gratulacje! Pomyślnie zaimplementowałeś efekt zewnętrznego blasku przy użyciu Aspose.PSD dla .NET. Ta zaawansowana funkcja poprawia atrakcyjność wizualną obrazów, nadając projektom niepowtarzalny charakter.
+Gratulacje! Pomyślnie zaimplementowałeś efekt zewnętrznego blasku przy użyciu Aspose.PSD dla .NET. Ta zaawansowana funkcja zwiększa atrakcyjność wizualną obrazów, nadając projektom niepowtarzalny charakter.
 
 ## Często zadawane pytania
 
@@ -113,4 +113,4 @@ O1: Tak, Aspose.PSD obsługuje szeroką gamę frameworków .NET, zapewniając ko
 
 ### P5: Czy mogę kupić Aspose.PSD dla .NET?
 
- Odpowiedź 5: Tak, zapoznaj się z opcjami licencjonowania i dokonaj zakupu[Tutaj](https://purchase.aspose.com/buy).
+ Odpowiedź 5: Tak, zapoznaj się z opcjami licencjonowania i dokonaj zakupu.[Tutaj](https://purchase.aspose.com/buy).

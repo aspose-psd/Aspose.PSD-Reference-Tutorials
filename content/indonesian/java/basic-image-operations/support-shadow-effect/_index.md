@@ -1,7 +1,7 @@
 ---
 title: Mendukung Efek Bayangan di Aspose.PSD untuk Java
 linktitle: Mendukung Efek Bayangan
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan efek bayangan menawan ke gambar menggunakan Aspose.PSD untuk Java. Tingkatkan desain grafis Anda dengan tutorial langkah demi langkah ini.
 type: docs
 weight: 13
@@ -99,7 +99,7 @@ A1: Tentu saja! Aspose.PSD untuk Java adalah perpustakaan canggih yang dirancang
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat menjelajahi versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dokumentasi terperinci?
 
@@ -107,4 +107,4 @@ A1: Tentu saja! Aspose.PSD untuk Java adalah perpustakaan canggih yang dirancang
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk Java?
 
- A5: Bergabunglah dengan forum komunitas[Di Sini](https://forum.aspose.com/c/psd/34) untuk pertanyaan dukungan apa pun.
+ A5: Bergabunglah dengan forum komunitas.[Di Sini](https://forum.aspose.com/c/psd/34) untuk pertanyaan dukungan apa pun.

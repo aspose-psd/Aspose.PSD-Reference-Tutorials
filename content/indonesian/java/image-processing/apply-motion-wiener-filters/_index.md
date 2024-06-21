@@ -1,7 +1,7 @@
 ---
 title: Terapkan Filter Motion Wiener menggunakan Aspose.PSD untuk Java
 linktitle: Terapkan Filter Gerak Wiener
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Kuasai pemrosesan gambar di Java dengan Aspose.PSD. Terapkan Filter Motion Wiener dengan mudah menggunakan panduan langkah demi langkah kami.
 type: docs
 weight: 13
@@ -104,8 +104,8 @@ A2: Ya, Aspose.PSD mendukung berbagai format gambar, memastikan fleksibilitas da
 
 ### Q4: Dapatkah saya mencoba Aspose.PSD untuk Java sebelum membeli?
 
- A4: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
 
-A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+A5: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.

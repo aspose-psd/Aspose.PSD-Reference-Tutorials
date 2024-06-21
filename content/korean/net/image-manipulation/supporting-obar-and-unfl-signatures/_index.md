@@ -11,7 +11,7 @@ url: /ko/net/image-manipulation/supporting-obar-and-unfl-signatures/
 
 .NET 개발 영역에서 Aspose.PSD는 Photoshop 파일을 조작하고 처리하는 강력한 도구로 돋보입니다. 풍부한 기능 중에서 ObAr 및 UnFl 서명을 지원하는 것은 고급 이미지 편집에 매우 중요합니다. 이 튜토리얼에서는 원활한 구현을 보장하기 위해 각 단계를 세분화하여 프로세스를 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

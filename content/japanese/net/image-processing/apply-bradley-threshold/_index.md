@@ -89,4 +89,4 @@ A1: はい、Bradley Thresholding は、さまざまな種類の画像に適し�
 
 ### Q5: Aspose.PSD のライセンスはどこで購入できますか?
 
- A5: ライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+ A5: ライセンスを購入することができます。[ここ](https://purchase.aspose.com/buy).

@@ -110,7 +110,7 @@ Tebrikler! Aspose.PSD for .NET'te ObAr ve UnFl imzaları desteğini başarıyla 
 
 ### S3: Satın almadan önce Aspose.PSD'yi deneyebilir miyim?
 
- C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için nasıl geçici lisans alabilirim?
 

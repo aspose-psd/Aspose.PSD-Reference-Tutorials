@@ -58,7 +58,7 @@ Yüklenen PSD dosyalarını PNG formatına aktarın. Dışa aktarma seçenekleri
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// %100 opaklıkla PNG olarak kaydedin
+// %100 opaklıkla PNG olarak kaydedin.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ PSD dosyalarındaki belirli katmanların opaklığını ayarlayın. Burada opakl
 // Opaklığı %50'ye ayarla
 im.getLayers()[1].setOpacity((byte)127);
 
-// %50 opaklıkla PNG olarak kaydedin
+// %50 opaklıkla PNG olarak kaydedin.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

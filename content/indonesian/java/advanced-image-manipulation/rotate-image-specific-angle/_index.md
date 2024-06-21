@@ -1,7 +1,7 @@
 ---
 title: Putar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java
 linktitle: Memutar Gambar pada Sudut Tertentu
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi rotasi gambar di Java dengan Aspose.PSD untuk Java. Putar gambar dengan mudah pada sudut tertentu.
 type: docs
 weight: 20
@@ -106,7 +106,7 @@ Ya, Aspose.PSD untuk Java mendukung rotasi gambar dengan transparansi. Pastikan 
 
 Tidak, Aspose.PSD untuk Java mendukung berbagai format file gambar, termasuk PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF, dan banyak lagi.
 
-### Q3: Bisakah saya memutar gambar dengan sudut negatif?
+### Q3: Dapatkah saya memutar gambar dengan sudut negatif?
 
  Tentu! Anda dapat menentukan sudut negatif di`image.rotate()` metode untuk memutar gambar ke arah yang berlawanan.
 

@@ -18,7 +18,7 @@ Sind Sie bereit, die Geheimnisse des Grafikdesigns zu lüften? Tauchen Sie mit A
 
 ## Größenänderung leicht gemacht
 
- Bearbeiten Sie Bildgrößen effizient programmgesteuert mit[Aspose.PSD für Java](./simple-resizing/). Unser benutzerfreundlicher Leitfaden vereinfacht den Größenänderungsprozess und stellt sicher, dass Sie jedes Detail verstehen. Von den Grundlagen bis hin zu fortgeschrittenen Techniken deckt dieses Tutorial alles ab. Tauchen Sie ein und verwandeln Sie Ihre Bilder nahtlos mit Aspose.PSD.
+ Bearbeiten Sie Bildgrößen effizient programmgesteuert mit[Aspose.PSD für Java](./simple-resizing/)Unser benutzerfreundlicher Leitfaden vereinfacht den Größenänderungsprozess und stellt sicher, dass Sie jedes Detail verstehen. Von den Grundlagen bis hin zu fortgeschrittenen Techniken deckt dieses Tutorial alles ab. Tauchen Sie ein und verwandeln Sie Ihre Bilder nahtlos mit Aspose.PSD.
 
 ## Verstärkende Effekte: Unterstützt Mischmodi
 
@@ -30,7 +30,7 @@ Sind Sie bereit, die Geheimnisse des Grafikdesigns zu lüften? Tauchen Sie mit A
 
 ## Transparenz enthüllt: Überprüfen Sie die Bildtransparenz
 
- Entdecken Sie den Bereich der Bildtransparenzprüfung mit[Aspose.PSD für Java](./verify-image-transparency/). Dieses Tutorial integriert nahtlos Transparenz in Ihre Designs, mit detaillierter Dokumentation und hervorragender Community-Unterstützung. Werten Sie Ihre Designprojekte mit der Gewissheit verifizierter Bildtransparenz mit Aspose.PSD für Java auf.
+ Entdecken Sie den Bereich der Bildtransparenzprüfung mit[Aspose.PSD für Java](./verify-image-transparency/)Dieses Tutorial integriert nahtlos Transparenz in Ihre Designs, mit detaillierter Dokumentation und hervorragender Community-Unterstützung. Werten Sie Ihre Designprojekte mit der Gewissheit verifizierter Bildtransparenz mit Aspose.PSD für Java auf.
 
 Zusammenfassend bieten diese Tutorials ein ganzheitliches Verständnis der grundlegenden Bildoperationen mit Aspose.PSD für Java. Egal, ob Sie ein Anfänger oder ein erfahrener Designer sind, erschließen Sie das Potenzial des Grafikdesigns mit unseren Schritt-für-Schritt-Anleitungen. Tauchen Sie ein und lassen Sie Ihrer Kreativität freien Lauf!
 ## Tutorials zu grundlegenden Bildoperationen

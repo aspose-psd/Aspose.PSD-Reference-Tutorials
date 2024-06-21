@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 //创建 PngOptions 类的实例
 PngOptions pngOptions = new PngOptions();
 ```
-## 第5步：将裁剪后的图像另存为PNG
+## 第5步：将裁剪后的图像另存为PNG。
 ```csharp
 //调用save方法，提供输出路径和PngOptions将PSD文件转换为PNG并保存输出
 string destName = dataDir + @"export.png";

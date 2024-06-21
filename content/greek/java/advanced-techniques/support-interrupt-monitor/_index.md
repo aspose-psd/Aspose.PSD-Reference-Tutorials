@@ -106,11 +106,11 @@ A1: Το Interrupt Monitor στο Aspose.PSD για Java επιτρέπει στ
 
 ### Ε2: Πώς μπορώ να αποκτήσω τη βιβλιοθήκη Aspose.PSD για Java;
 
-A2: Μπορείτε να κάνετε λήψη της βιβλιοθήκης Aspose.PSD για Java[εδώ](https://releases.aspose.com/psd/java/).
+A2: Μπορείτε να κάνετε λήψη της βιβλιοθήκης Aspose.PSD για Java.[εδώ](https://releases.aspose.com/psd/java/).
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.PSD για Java;
 
- A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή του Aspose.PSD[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή του Aspose.PSD.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πού μπορώ να βρω υποστήριξη για το Aspose.PSD για Java;
 
@@ -118,4 +118,4 @@ A2: Μπορείτε να κάνετε λήψη της βιβλιοθήκης As
 
 ### Ε5: Πώς μπορώ να αγοράσω μια άδεια χρήσης για το Aspose.PSD για Java;
 
- A5: Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.PSD για Java[εδώ](https://purchase.aspose.com/buy).
+ A5: Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.PSD για Java.[εδώ](https://purchase.aspose.com/buy).

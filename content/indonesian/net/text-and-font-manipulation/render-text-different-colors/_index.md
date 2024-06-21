@@ -34,7 +34,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
     // Kode untuk langkah lebih lanjut akan ada di sini.
 }
 ```
-## Langkah 2: Akses Lapisan Teks
+## Langkah 2: Akses Layer Teks
 Akses lapisan teks dalam file PSD:
 ```csharp
 var txtLayer = (TextLayer)psdImage.Layers[1];
@@ -67,7 +67,7 @@ A1: Ya, Aspose.PSD untuk .NET dirancang untuk bekerja secara lancar dengan aplik
 
 ### Q3: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A3: Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/psd/net/) untuk membantu Anda memahami dan menerapkan berbagai fitur Aspose.PSD untuk .NET.
+ A3: Dokumentasi terperinci tersedia.[Di Sini](https://reference.aspose.com/psd/net/) untuk membantu Anda memahami dan mengimplementasikan berbagai fitur Aspose.PSD untuk .NET.
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 

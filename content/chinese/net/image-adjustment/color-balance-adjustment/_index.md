@@ -74,7 +74,7 @@ im.Save(outputPath);
 
 ## 结论
 
-恭喜！您已经了解了如何使用 Aspose.PSD for .NET 增强 PSD 图像的色彩平衡。尝试不同的平衡值以获得所需的视觉效果。
+恭喜！您已经了解了如何使用 Aspose.PSD for .NET 增强 PSD 图像的色彩平衡。尝试不同的平衡值以达到所需的视觉效果。
 
 ## 常见问题解答
 

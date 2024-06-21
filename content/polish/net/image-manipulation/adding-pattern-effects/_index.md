@@ -21,7 +21,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 ## Importuj przestrzenie nazw
 
-W swoim projekcie C# zaimportuj niezbędne przestrzenie nazw, aby wykorzystać możliwości Aspose.PSD dla .NET:
+swoim projekcie C# zaimportuj niezbędne przestrzenie nazw, aby wykorzystać możliwości Aspose.PSD dla .NET:
 
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
@@ -95,11 +95,11 @@ O1: Tak, możesz definiować niestandardowe wzorce i stosować je za pomocą Asp
 
 ### P2: Czy Aspose.PSD dla .NET jest kompatybilny ze wszystkimi formatami obrazów?
 
-O2: Aspose.PSD obsługuje przede wszystkim format PSD (Adobe Photoshop), ale zapewnia także funkcję konwersji obrazów do i z innych formatów.
+Odpowiedź 2: Aspose.PSD obsługuje przede wszystkim format PSD (Adobe Photoshop), ale zapewnia także funkcję konwersji obrazów do i z innych formatów.
 
 ### P3: Jak mogę dostosować przezroczystość nakładki wzoru?
 
- A3: Zmodyfikuj`Opacity` własność`PatternOverlayEffect` aby dostosować poziom przezroczystości.
+ A3: Zmodyfikuj`Opacity` własność`PatternOverlayEffect` aby dostosować poziom krycia.
 
 ### P4: Czy istnieją jakieś ograniczenia dotyczące wymiarów wzoru?
 

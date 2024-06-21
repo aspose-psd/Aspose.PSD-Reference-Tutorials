@@ -9,7 +9,7 @@ url: /hu/java/image-processing/
 ---
 ## Bevezetés
 
-A képfeldolgozás izgalmas utazássá válik az Aspose.PSD for Java segítségével, egy olyan eszközkészlettel, amely képessé teszi a fejlesztőket a vizuális tartalom javítására. Az alapvető technikáktól a fejlett folyamatokig ez az oktatóanyag-sorozat azokat a funkciókat mutatja be, amelyek az Aspose.PSD-t a Java képfeldolgozás kiváló megoldásává teszik.
+A képfeldolgozás izgalmas utazássá válik az Aspose.PSD for Java segítségével, egy olyan eszközkészlettel, amely képessé teszi a fejlesztőket a vizuális tartalom javítására. Az alapvető technikáktól a fejlett folyamatokig ez az oktatóanyag-sorozat azokkal a funkciókkal foglalkozik, amelyek az Aspose.PSD-t a Java képfeldolgozás kiváló megoldásává teszik.
 
 ## Javítás Gauss és Wiener szűrőkkel
 

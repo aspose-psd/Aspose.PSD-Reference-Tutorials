@@ -118,4 +118,4 @@ A1: はい、Aspose.PSD for .NET はさまざまな .NET フレームワーク�
 
 ### Q5: Aspose.PSD for .NET のライセンスはどのように購入すればよいですか?
 
- A5: ライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+ A5: ライセンスを購入することができます。[ここ](https://purchase.aspose.com/buy).

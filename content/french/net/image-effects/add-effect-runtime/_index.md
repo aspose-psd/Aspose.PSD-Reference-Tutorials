@@ -91,7 +91,7 @@ A3 : Aspose.PSD offre une large gamme d'effets, mais il est conseillé de consul
 
 ### Q4 : Comment puis-je obtenir une licence temporaire à des fins de test ?
 
- A4 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
+ A4 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
 
 ### Q5 : Où puis-je trouver du soutien supplémentaire et des discussions communautaires ?
 

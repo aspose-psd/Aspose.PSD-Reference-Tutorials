@@ -84,7 +84,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### Q1: Aspose.PSD for .NET のドキュメントはどこで見つけられますか?
 
- A1: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/net/).
+ A1: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/net/).
 
 ### Q2: .NET 用の Aspose.PSD をダウンロードするにはどうすればよいですか?
 
@@ -100,4 +100,4 @@ using (Image image = new PsdImage(100, 100))
 
 ### Q5: テストには一時ライセンスが必要ですか?
 
- A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).

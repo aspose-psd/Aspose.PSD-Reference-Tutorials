@@ -54,7 +54,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     }
     // Sonraki adımlara ilişkin kodunuz buraya gelecek
 }
-//ExEnd:Dikdörtgene Göre Kırpma
+//ExEnd:Dikdörtgenle Kırpma
 ```
 
 ## Adım 3: Kırpma Dikdörtgenini Tanımlayın
@@ -105,7 +105,7 @@ Cevap3: Aspose.PSD for .NET, çeşitli boyutlardaki görüntüleri işlemek içi
 
 ### S4: Aspose.PSD for .NET'in deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümünü edinerek kütüphanenin özelliklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ C4: Evet, ücretsiz deneme sürümünü edinerek kütüphanenin özelliklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Nerede ek destek veya yardım bulabilirim?
 

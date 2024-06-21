@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Din kod för teckensnittsersättning kommer här
+    // Din kod för teckensnittsersättning kommer här.
 }
 ```
 

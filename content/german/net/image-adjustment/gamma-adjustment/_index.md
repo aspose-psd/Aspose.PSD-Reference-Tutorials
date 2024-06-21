@@ -88,16 +88,16 @@ Glückwunsch! Sie haben die Gamma-Anpassung mit Aspose.PSD für .NET erfolgreich
 
 ### F2: Wie lade ich Aspose.PSD für .NET herunter?
 
- A2: Sie können die Bibliothek herunterladen[Hier](https://releases.aspose.com/psd/net/).
+ A2: Sie können die Bibliothek herunterladen.[Hier](https://releases.aspose.com/psd/net/).
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können eine kostenlose Testversion erhalten.[Hier](https://releases.aspose.com/).
 
 ### F4: Wo erhalte ich Unterstützung für Aspose.PSD?
 
- A4: Sie können das Support-Forum besuchen[Hier](https://forum.aspose.com/c/psd/34).
+ A4: Sie können das Support-Forum besuchen.[Hier](https://forum.aspose.com/c/psd/34).
 
 ### F5: Benötige ich eine temporäre Lizenz?
 
- A5: Bei Bedarf können Sie eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Bei Bedarf können Sie eine temporäre Lizenz erwerben.[Hier](https://purchase.aspose.com/temporary-license/).

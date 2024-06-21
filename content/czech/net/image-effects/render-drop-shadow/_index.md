@@ -107,7 +107,7 @@ A2: Rozhodně! Neváhejte a upravte kód tak, aby vyhovoval vašim specifickým 
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Otázka 5: Jak mohu získat podporu nebo vyhledat pomoc s Aspose.PSD pro .NET?
 

@@ -1,7 +1,7 @@
 ---
 title: Menerapkan Dithering untuk Gambar Raster di Aspose.PSD untuk Java
 linktitle: Menerapkan Dithering untuk Gambar Raster
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Tingkatkan kualitas gambar dengan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk menerapkan dithering dan menghilangkan pita warna.
 type: docs
 weight: 17

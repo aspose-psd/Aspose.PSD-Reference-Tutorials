@@ -101,7 +101,7 @@ A3: Auf jeden Fall! Aspose.PSD für .NET ist auf Bildverarbeitungs- und Bearbeit
 
 ### F4: Wo finde ich Community-Unterstützung für Aspose.PSD für .NET?
 
- A4: Treten Sie der Aspose.PSD-Community bei[dieses Forum](https://forum.aspose.com/c/psd/34) für Diskussionen und Unterstützung.
+ A4: Treten Sie der Aspose.PSD-Community bei[dieses Forum](https://forum.aspose.com/c/psd/34) für Diskussion und Unterstützung.
 
 ### F5: Gibt es kostenlose Ressourcen zum Erlernen von Aspose.PSD für .NET?
 

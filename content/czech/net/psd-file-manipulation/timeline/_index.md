@@ -103,7 +103,7 @@ A2: Třída Timeline je speciálně navržena pro obrázky PSD. Informace o mani
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD pro .NET?
 
- A4: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jaké jsou hlavní výhody používání Aspose.PSD pro .NET?
 

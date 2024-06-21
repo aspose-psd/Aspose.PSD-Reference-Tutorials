@@ -84,15 +84,15 @@ Glückwunsch! Sie haben mit Aspose.PSD für .NET erfolgreich elliptische Formen 
 
 ### F1: Wo finde ich die Dokumentation für Aspose.PSD für .NET?
 
- A1: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/psd/net/).
+ A1: Die Dokumentation ist verfügbar.[Hier](https://reference.aspose.com/psd/net/).
 
 ### F2: Wie lade ich Aspose.PSD für .NET herunter?
 
- A2: Sie können es von der Release-Seite herunterladen[Hier](https://releases.aspose.com/psd/net/).
+ A2: Sie können es von der Release-Seite herunterladen.[Hier](https://releases.aspose.com/psd/net/).
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F4: Wie erhalte ich Unterstützung für Aspose.PSD für .NET?
 
@@ -100,4 +100,4 @@ Glückwunsch! Sie haben mit Aspose.PSD für .NET erfolgreich elliptische Formen 
 
 ### F5: Benötige ich zum Testen eine temporäre Lizenz?
 
- A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/).

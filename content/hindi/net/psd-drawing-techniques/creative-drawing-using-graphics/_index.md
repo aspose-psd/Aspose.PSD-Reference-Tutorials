@@ -101,7 +101,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Q1: क्या मैं अपने व्यावसायिक प्रोजेक्ट में .NET के लिए Aspose.PSD का उपयोग कर सकता हूँ?
 
- A1: हाँ, .NET के लिए Aspose.PSD व्यावसायिक उपयोग के लिए उपलब्ध है। इसकी जाँच पड़ताल करो[खरीद पृष्ठ](https://purchase.aspose.com/buy) लाइसेंसिंग विवरण के लिए.
+A1: हाँ, .NET के लिए Aspose.PSD व्यावसायिक उपयोग के लिए उपलब्ध है। इसकी जाँच पड़ताल करो[खरीद पृष्ठ](https://purchase.aspose.com/buy) लाइसेंसिंग विवरण के लिए.
 
 ### Q2: क्या .NET के लिए Aspose.PSD का निःशुल्क परीक्षण उपलब्ध है?
 
@@ -109,7 +109,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Q3: मुझे .NET के लिए Aspose.PSD के लिए विस्तृत दस्तावेज़ कहां मिल सकते हैं?
 
- A3: व्यापक दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/psd/net/).
+ A3: व्यापक दस्तावेज़ उपलब्ध है।[यहाँ](https://reference.aspose.com/psd/net/).
 
 ### Q4: मैं .NET के लिए Aspose.PSD के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
@@ -117,4 +117,4 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Q5: क्या मुझे .NET के लिए Aspose.PSD के लिए अस्थायी लाइसेंस की आवश्यकता है?
 
- A5: यदि आपको अस्थायी लाइसेंस की आवश्यकता है, तो आप इसे प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A5: यदि आपको अस्थायी लाइसेंस की आवश्यकता है, तो आप इसे प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/).

@@ -78,7 +78,7 @@ Odpověď 1: Ano, Aspose.PSD for Java podporuje různé formáty obrázků, vče
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- Odpověď 2: Ano, můžete navštívit bezplatnou zkušební verzi Aspose.PSD pro Javu[tento odkaz](https://releases.aspose.com/).
+ Odpověď 2: Ano, můžete navštívit bezplatnou zkušební verzi Aspose.PSD pro Javu.[tento odkaz](https://releases.aspose.com/).
 
 ### Q3: Kde najdu komplexní dokumentaci k Aspose.PSD pro Java?
 
@@ -90,4 +90,4 @@ Odpověď 1: Ano, Aspose.PSD for Java podporuje různé formáty obrázků, vče
 
 ### Q5: Jsou k dispozici dočasné licence pro Aspose.PSD pro Java?
 
- A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

@@ -96,7 +96,7 @@ Ebben az oktatóanyagban a színkonverzió folyamatát vizsgáltuk meg alapérte
 
 ### 4. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
- V4: Igen, vásárolhat licencet[itt](https://purchase.aspose.com/buy) kereskedelmi használatra.
+ V4: Igen, vásárolhat licencet.[itt](https://purchase.aspose.com/buy) kereskedelmi használatra.
 
 ### 5. kérdés: Hol találok közösségi támogatást az Aspose.PSD for .NET-hez?
 

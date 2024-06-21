@@ -88,8 +88,8 @@ A2: Sim, você pode empilhar várias camadas de ajuste para obter manipulações
 
 ### Q4: Existe um teste gratuito disponível para Aspose.PSD?
 
- A4: Sim, você pode explorar a avaliação gratuita[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode explorar a avaliação gratuita.[aqui](https://releases.aspose.com/).
 
 ### Q5: Como posso obter uma licença temporária para Aspose.PSD?
 
-A5: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+A5: Você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).

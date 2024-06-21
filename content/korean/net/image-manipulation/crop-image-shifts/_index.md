@@ -11,7 +11,7 @@ url: /ko/net/image-manipulation/crop-image-shifts/
 
 .NET 개발 영역에서 Aspose.PSD는 이미지 처리 작업을 위한 강력한 툴킷으로 돋보입니다. 주목할만한 기능 중 하나는 '교대로 자르기' 기능 덕분에 이미지를 정밀하게 자르는 기능입니다. 이 단계별 가이드에서는 .NET용 Aspose.PSD를 사용하여 이미지를 원활하게 자르는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## 4단계: 자르기에 대한 이동 값 정의
 
-이미지의 왼쪽, 오른쪽, 위쪽 및 아래쪽에 대한 이동 값을 지정합니다. 자르기 요구 사항에 따라 이러한 값을 조정합니다.
+이미지의 왼쪽, 오른쪽, 위쪽, 아래쪽에 대한 이동 값을 지정합니다. 자르기 요구 사항에 따라 이러한 값을 조정하십시오.
 
 ```csharp
 int leftShift = 10;
@@ -96,7 +96,7 @@ A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하므로 JPEG, PNG �
 
 ### Q3: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
- A3: 테스트 목적으로 임시 라이선스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A3: 테스트 목적으로 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Aspose.PSD와 관련된 추가 지원 및 토론은 어디에서 찾을 수 있습니까?
 

@@ -128,7 +128,7 @@ Odpověď 2: Ano, na jednu vrstvu můžete použít různé efekty, včetně Př
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat podporu pro Aspose.PSD?
 

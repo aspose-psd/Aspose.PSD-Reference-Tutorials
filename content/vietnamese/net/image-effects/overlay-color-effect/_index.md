@@ -15,7 +15,7 @@ Aspose.PSD for .NET cung cấp một bộ tính năng mạnh mẽ để xử lý
 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-- Aspose.PSD for .NET: Tải xuống và cài đặt thư viện từ[đây](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Tải xuống và cài đặt thư viện từ[đây](https://releases.aspose.com/psd/net/).
 - Thư mục tài liệu của bạn: Thiết lập một thư mục để lưu trữ các tệp nguồn và đầu ra của bạn.
 
 ## Nhập không gian tên
@@ -85,11 +85,11 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 
 ### Câu hỏi 2: Tôi có thể tìm tài liệu toàn diện về Aspose.PSD cho .NET ở đâu?
 
- A2: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/psd/net/)để biết thông tin chi tiết và mẫu mã.
+ A2: Bạn có thể tham khảo tài liệu.[đây](https://reference.aspose.com/psd/net/) để biết thông tin chi tiết và mẫu mã.
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí dành cho Aspose.PSD cho .NET không?
 
- Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.PSD dành cho .NET bằng cách tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.PSD dành cho .NET bằng cách tải xuống bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
@@ -97,4 +97,4 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.PSD cho .NET không?
 
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+ Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.

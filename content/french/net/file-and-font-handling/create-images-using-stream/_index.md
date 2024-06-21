@@ -79,7 +79,7 @@ using (Image image = Image.Create(ImageOptions, 500, 500))
 {
     // Effectuez ici tout traitement d’image souhaité
 
-    // Enregistrez l'image créée dans une destination spécifiée
+    //Enregistrez l'image créée dans une destination spécifiée
     image.Save(desName);
 }
 ```
@@ -102,7 +102,7 @@ A2 : Les dimensions sont personnalisables ; ajustez les paramètres de la métho
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour .NET ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
 
@@ -110,4 +110,4 @@ A2 : Les dimensions sont personnalisables ; ajustez les paramètres de la métho
 
 ### Q5 : Des licences temporaires sont-elles disponibles ?
 
- A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).

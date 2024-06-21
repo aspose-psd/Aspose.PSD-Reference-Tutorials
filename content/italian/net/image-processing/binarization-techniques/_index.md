@@ -16,7 +16,7 @@ Nel mondo dell'elaborazione delle immagini, la capacità di convertire un'immagi
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
 -  Aspose.PSD per .NET: scarica e installa la libreria Aspose.PSD per .NET da[Link per scaricare](https://releases.aspose.com/psd/net/).
-- Directory dei documenti: configura una directory in cui archiviare i file PSD di esempio.
+- Directory dei documenti: imposta una directory in cui archiviare i file PSD di esempio.
 
 ## Importa spazi dei nomi
 
@@ -26,7 +26,7 @@ Nel tuo progetto .NET, assicurati di importare gli spazi dei nomi necessari:
 using Aspose.PSD.ImageOptions;
 ```
 
-Suddividiamo l'esempio fornito in più passaggi per una comprensione completa.
+Analizziamo l'esempio fornito in più passaggi per una comprensione completa.
 
 ## Passaggio 1: impostare la directory dei documenti
 

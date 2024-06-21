@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-確定調整後的影像的新寬度和高度。在此範例中，寬度和高度減半，但您可以根據您的要求調整這些值。
+確定調整後的影像的新寬度和高度。在本例中，寬度和高度減半，但您可以根據您的要求調整這些值。
 
 ## 第 3 步：儲存調整大小的影像
 
