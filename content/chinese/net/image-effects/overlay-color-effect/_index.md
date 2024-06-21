@@ -15,7 +15,7 @@ Aspose.PSD for .NET 提供了一组强大的图像处理功能，使开发人员
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
-- Aspose.PSD for .NET：从以下位置下载并安装该库[这里](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET：从以下位置下载并安装该库[这里](https://releases.aspose.com/psd/net/).
 - 您的文档目录：设置一个目录来存储源文件和输出文件。
 
 ## 导入命名空间
@@ -85,16 +85,16 @@ A1：是的，Aspose.PSD for .NET 与各种 .NET 框架兼容，包括 .NET Core
 
 ### 问题 2：在哪里可以找到 Aspose.PSD for .NET 的综合文档？
 
- A2：可以参考文档[这里](https://reference.aspose.com/psd/net/)获取详细信息和代码示例。
+ A2：您可以参考文档。[这里](https://reference.aspose.com/psd/net/)获取详细信息和代码示例。
 
 ### Q3：Aspose.PSD for .NET 是否有免费试用版？
 
- A3：是的，您可以通过下载免费试用版探索 Aspose.PSD for .NET 的功能[这里](https://releases.aspose.com/).
+A3：是的，您可以通过下载免费试用版来探索 Aspose.PSD for .NET 的功能。[这里](https://releases.aspose.com/).
 
 ### 问题 4：如何获得 Aspose.PSD for .NET 支持？
 
-A4：对于任何与支持相关的疑问，请访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)与社区和专家建立联系。
+ A4：对于任何与支持相关的疑问，请访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)与社区和专家建立联系。
 
 ### Q5：我可以获得 Aspose.PSD for .NET 的临时许可证吗？
 
- A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)出于评估目的。
+ A5: 是的，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)出于评估目的。

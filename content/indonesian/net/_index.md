@@ -26,7 +26,7 @@ Tangani lapisan format AI dengan mudah menggunakan Aspose.PSD untuk .NET. Pelaja
 
 ### [Manipulasi Teks dan Font](./text-and-font-manipulation/)
 
-Maksimalkan aplikasi .NET Anda dengan Aspose.PSD untuk tutorial .NET! Jelajahi rendering teks dalam warna-warna cerah, ganti font yang hilang dengan mulus, dan tingkatkan keseluruhan daya tarik visual desain Anda dengan mudah.
+Maksimalkan aplikasi .NET Anda dengan Aspose.PSD untuk tutorial .NET! Jelajahi rendering teks dalam warna-warna cerah, mengganti font yang hilang dengan mulus, dan meningkatkan daya tarik visual desain Anda secara keseluruhan dengan mudah.
 
 ## Menyimpan dan Mengekspor File dengan Mudah
 

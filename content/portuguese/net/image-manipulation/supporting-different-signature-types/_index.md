@@ -56,13 +56,13 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## Conclusão
 
-Parabéns! Você ofereceu suporte com sucesso a diferentes tipos de assinatura no Aspose.PSD para .NET. Este tutorial abordou as etapas essenciais, garantindo que você possa navegar pelo processo sem esforço.
+Parabéns! Você ofereceu suporte com sucesso a diferentes tipos de assinatura no Aspose.PSD para .NET. Este tutorial cobre as etapas essenciais, garantindo que você possa navegar pelo processo sem esforço.
 
 ## Perguntas frequentes
 
 ### Q1: Onde posso encontrar a documentação do Aspose.PSD para .NET?
 
- A1: A documentação está disponível[aqui](https://reference.aspose.com/psd/net/).
+ A1: A documentação está disponível.[aqui](https://reference.aspose.com/psd/net/).
 
 ### Q2: Como posso baixar a biblioteca Aspose.PSD para .NET?
 
@@ -70,7 +70,7 @@ Parabéns! Você ofereceu suporte com sucesso a diferentes tipos de assinatura n
 
 ### Q3: Existe um teste gratuito disponível?
 
- A3: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode obter uma avaliação gratuita.[aqui](https://releases.aspose.com/).
 
 ### Q4: Precisa de suporte ou tem dúvidas?
 
@@ -78,4 +78,4 @@ Parabéns! Você ofereceu suporte com sucesso a diferentes tipos de assinatura n
 
 ### Q5: Procurando uma licença temporária?
 
- A5: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Obtenha uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).

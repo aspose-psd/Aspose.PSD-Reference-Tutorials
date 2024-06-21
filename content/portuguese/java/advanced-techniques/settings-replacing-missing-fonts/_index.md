@@ -97,7 +97,7 @@ A2: Sim, você pode especificar fontes de substituição personalizadas de acord
 
 ### Q3: Há alguma opção de licenciamento disponível para Aspose.PSD?
 
- A3: Explore as opções de licenciamento[aqui](https://purchase.aspose.com/buy)para escolher o melhor plano para suas necessidades.
+ A3: Explore as opções de licenciamento.[aqui](https://purchase.aspose.com/buy)para escolher o melhor plano para suas necessidades.
 
 ### Q4: Existe um fórum da comunidade para suporte do Aspose.PSD?
 

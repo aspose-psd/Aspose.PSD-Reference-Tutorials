@@ -125,7 +125,7 @@ A2: Aspose.PSD は、シャドウ、グローなどを含むさまざまな効�
 
 ### Q4: Aspose.PSD for Java の試用版はありますか?
 
- A4: はい、無料トライアルが可能です[ここ](https://releases.aspose.com/).
+ A4: はい、無料トライアルが可能です。[ここ](https://releases.aspose.com/).
 
 ### Q5: Aspose.PSD for Java のライセンスはどこで購入できますか?
 

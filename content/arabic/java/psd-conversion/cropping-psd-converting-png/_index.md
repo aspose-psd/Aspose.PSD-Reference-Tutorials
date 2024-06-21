@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## الخطوة 3: تحديد منطقة المحاصيل
 ```java
-// قم بإنشاء مثيل لفئة المستطيل عن طريق تمرير x وy والعرض والارتفاع
+//قم بإنشاء مثيل لفئة المستطيل عن طريق تمرير x وy والعرض والارتفاع
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## الخطوة 4: قص صورة PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // قم بإنشاء مثيل لفئة PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## الخطوة 6: حفظ الصورة التي تم اقتصاصها بصيغة PNG
+## الخطوة 6: حفظ الصورة التي تم اقتصاصها بصيغة PNG.
 ```java
 // قم بتوفير مسار الإخراج وPngOptions لتحويل ملف PSD إلى PNG وحفظ الإخراج
 String destName = dataDir + "export.png";

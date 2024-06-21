@@ -110,7 +110,7 @@ Congratulazioni! Hai implementato con successo il supporto per le firme ObAr e U
 
 ### Q3: Posso provare Aspose.PSD prima dell'acquisto?
 
- R3: Sì, puoi esplorare una versione di prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi esplorare una versione di prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD?
 

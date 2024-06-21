@@ -72,7 +72,7 @@ AssertIsTrue(gradientStroke.Opacity == 255);
 AssertIsTrue(gradientStroke.IsVisible);
 
 //對填充設定進行更多斷言檢查
-//…
+//……
 ```
 
 繼續對其他填滿設定實施斷言檢查，包括顏色點和透明度點。
@@ -83,7 +83,7 @@ AssertIsTrue(gradientStroke.IsVisible);
 
 ```csharp
 //修改漸層描邊設定的程式碼
-//…
+//……
 ```
 
 ## 第5步：儲存編輯後的PSD文件
@@ -106,7 +106,7 @@ A1：是的，Aspose.PSD for .NET 與各種.NET 框架相容。
 
 ### 問題 2：Aspose.PSD for .NET 是否有免費試用版？
 
- A2：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+ A2：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
 
 ### 問題 3：如何獲得 Aspose.PSD for .NET 支援？
 
@@ -118,4 +118,4 @@ A1：是的，Aspose.PSD for .NET 與各種.NET 框架相容。
 
 ### Q5：如何購買 Aspose.PSD for .NET 的授權？
 
- A5：您可以購買許可證[這裡](https://purchase.aspose.com/buy).
+ A5: 您可以購買許可證。[這裡](https://purchase.aspose.com/buy).

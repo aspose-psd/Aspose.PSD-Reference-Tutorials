@@ -116,7 +116,7 @@ S1: Ja, Aspose.PSD för Java tillhandahåller omfattande funktionalitet för att
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- A3: Ja, du kan komma åt den kostnadsfria testversionen[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria testversionen.[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag köpa en licens för Aspose.PSD för Java?
 

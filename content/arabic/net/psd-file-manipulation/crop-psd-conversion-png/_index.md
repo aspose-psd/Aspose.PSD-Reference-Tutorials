@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // قم بإنشاء مثيل لفئة PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## الخطوة 5: احفظ الصورة التي تم اقتصاصها بتنسيق PNG
+## الخطوة 5: احفظ الصورة التي تم اقتصاصها بتنسيق PNG.
 ```csharp
 // قم باستدعاء طريقة الحفظ، وتوفير مسار الإخراج، وPngOptions لتحويل ملف PSD إلى PNG وحفظ الإخراج
 string destName = dataDir + @"export.png";

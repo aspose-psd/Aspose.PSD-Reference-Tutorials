@@ -71,7 +71,7 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 
 ### س3: هل يمكنني تجربة Aspose.PSD مجانًا قبل شراء الترخيص؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD؟
 

@@ -85,8 +85,8 @@ A1: Sim, o Aspose.PSD suporta uma variedade de formatos de imagem, garantindo fl
 
 ### P4: Como obtenho uma licença temporária?
 
- A4: Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+ A4: Você pode adquirir uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Onde posso comprar Aspose.PSD para .NET?
 
- A5: Você pode comprar Aspose.PSD para .NET[aqui](https://purchase.aspose.com/buy).
+ A5: Você pode comprar Aspose.PSD para .NET.[aqui](https://purchase.aspose.com/buy).

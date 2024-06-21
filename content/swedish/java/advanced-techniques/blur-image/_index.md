@@ -87,7 +87,7 @@ A1: Absolut! Aspose.PSD kommer med omfattande dokumentation för att vägleda ut
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+ A3: Ja, du kan få en gratis provperiod.[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta support för Aspose.PSD för Java?
 
@@ -95,4 +95,4 @@ A1: Absolut! Aspose.PSD kommer med omfattande dokumentation för att vägleda ut
 
 ### F5: Hur får jag en tillfällig licens för Aspose.PSD?
 
- A5: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ A5: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).

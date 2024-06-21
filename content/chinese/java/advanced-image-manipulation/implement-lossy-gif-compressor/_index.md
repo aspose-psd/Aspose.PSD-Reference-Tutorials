@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## 第 5 步：保存压缩的 GIF
+## 第 5 步：保存压缩的 GIF。
 
 使用以下命令保存压缩的 GIF 图像`image.save`方法与指定的`GifOptions`.
 
@@ -85,12 +85,12 @@ A1：Aspose.PSD for Java 是一个功能强大的库，用于在 Java 应用程�
 
 ### Q3：在哪里可以找到 Aspose.PSD for Java 的文档？
 
-A3：文档可用[这里](https://reference.aspose.com/psd/java/).
+A3：文档可用。[这里](https://reference.aspose.com/psd/java/).
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以免费试用[这里](https://releases.aspose.com/).
+ A4：是的，您可以免费试用。[这里](https://releases.aspose.com/).
 
 ### Q5: 如何购买 Aspose.PSD for Java？
 
- A5：您可以购买图书馆[这里](https://purchase.aspose.com/buy).
+ A5：您可以购买该库。[这里](https://purchase.aspose.com/buy).

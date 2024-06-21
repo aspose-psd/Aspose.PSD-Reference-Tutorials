@@ -106,7 +106,7 @@ A2：當然！組合影像後，您可以使用 Aspose.PSD 的廣泛功能進一
 
 ### Q4：Aspose.PSD 有免費試用版嗎？
 
-A4：是的，您可以免費試用 Aspose.PSD[這裡](https://releases.aspose.com/).
+A4：是的，您可以透過免費試用來探索 Aspose.PSD。[這裡](https://releases.aspose.com/).
 
 ### Q5：在哪裡可以找到 Aspose.PSD 相關查詢的支援？
 

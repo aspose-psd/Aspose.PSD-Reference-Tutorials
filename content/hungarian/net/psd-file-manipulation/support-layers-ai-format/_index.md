@@ -40,7 +40,7 @@ Most vegyük ki az információkat az első rétegből:
 AiLayerSection layer0 = image.Layers[0];
 // A 0. rétegre vonatkozó állításai és érvényesítései itt találhatók
 ```
-## 3. lépés: Érvényesítse a réteg tulajdonságait
+## 3. lépés: Ellenőrizze a réteg tulajdonságait
 Ellenőrizze az első réteg különféle tulajdonságait, mint például a név, a láthatóság és a szín:
 ```csharp
 AssertIsTrue(layer0 != null, "Layer 0 should not be null.");

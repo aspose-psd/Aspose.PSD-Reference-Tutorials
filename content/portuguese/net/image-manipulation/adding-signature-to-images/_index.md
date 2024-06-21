@@ -102,4 +102,4 @@ A3: Você pode implementar blocos try-catch para lidar com exceções normalment
 
 ### Q5: Posso experimentar o Aspose.PSD antes de comprar?
 
- A5: Certamente, uma avaliação gratuita está disponível[aqui](https://releases.aspose.com/).
+ A5: Certamente, uma avaliação gratuita está disponível.[aqui](https://releases.aspose.com/).

@@ -49,7 +49,7 @@ String destName = dataDir + "CroppingByRectangle_out.jpg";
 
 Определите пути к исходному PSD-файлу и целевому файлу JPEG.
 
-## Шаг 3. Загрузите и кэшируйте изображение
+## Шаг 3. Загрузите и кэшируйте изображение.
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);

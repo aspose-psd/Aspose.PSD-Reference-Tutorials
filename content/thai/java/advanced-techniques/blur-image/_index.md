@@ -41,7 +41,7 @@ String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "BlurAnImage_out.gif";
 ```
 
-## ขั้นตอนที่ 2: โหลดรูปภาพ
+## ขั้นตอนที่ 2: โหลดภาพ
 
 ```java
 // โหลดรูปภาพที่มีอยู่ลงในอินสแตนซ์ของคลาส RasterImage

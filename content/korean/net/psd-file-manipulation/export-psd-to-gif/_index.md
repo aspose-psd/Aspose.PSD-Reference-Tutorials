@@ -9,7 +9,7 @@ url: /ko/net/psd-file-manipulation/export-psd-to-gif/
 ---
 ## 소개
 .NET용 Aspose.PSD는 .NET 애플리케이션에서 PSD 이미지 작업을 용이하게 하는 강력한 라이브러리입니다. 다양한 기능 중에는 PSD 이미지를 GIF 형식으로 내보내는 기능이 있습니다. 이 단계별 가이드는 이 기능을 .NET 프로젝트에 원활하게 통합할 수 있도록 프로세스를 안내합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.PSD: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.PSD](https://reference.aspose.com/psd/net/).
 - 문서 디렉터리: PSD 문서를 저장할 디렉터리를 설정합니다.

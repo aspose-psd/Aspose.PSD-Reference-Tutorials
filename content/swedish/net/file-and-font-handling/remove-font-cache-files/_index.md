@@ -88,7 +88,7 @@ S2: Även om det är möjligt, rekommenderas det att ta bort teckensnittscachefi
 
 ### F4: Finns det en tillfällig licens tillgänglig för Aspose.PSD för .NET?
 
- A4: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för teständamål.
+ A4: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för teständamål.
 
 ### F5: Kan jag köpa Aspose.PSD för .NET?
 

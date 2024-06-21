@@ -29,7 +29,7 @@ Gamma-aanpassing is een krachtig hulpmiddel voor het verfijnen van de helderheid
 
 ## Kleurbalansaanpassing toepassen
 
- Transformeer de kleuren van uw PSD-afbeeldingen moeiteloos met[Aspose.PSD voor .NET](./color-balance-adjustment/)'s Functie voor aanpassing van de kleurbalans. Onze gids leidt u door de stappen en helpt u een verbluffende kleurbalans te bereiken. Geef uw ontwerpprojecten een boost met levendige en visueel aantrekkelijke afbeeldingen.
+ Transformeer de kleuren van uw PSD-afbeeldingen moeiteloos met[Aspose.PSD voor .NET](./color-balance-adjustment/)'s Functie voor het aanpassen van de kleurbalans. Onze gids leidt u door de stappen en helpt u een verbluffende kleurbalans te bereiken. Geef uw ontwerpprojecten een boost met levendige en visueel aantrekkelijke afbeeldingen.
 
 ## Handleidingen voor het aanpassen van afbeeldingen
 ### [Implementatie van helderheidsaanpassing in Aspose.PSD voor .NET](./brightness-adjustment/)

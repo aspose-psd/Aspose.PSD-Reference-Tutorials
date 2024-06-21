@@ -1,7 +1,7 @@
 ---
 title: Mendukung Mode Campuran di Aspose.PSD untuk Java
 linktitle: Mendukung Mode Campuran
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Tingkatkan pemrosesan gambar di Java dengan Aspose.PSD. Pelajari cara memanfaatkan mode campuran untuk efek menakjubkan.
 type: docs
 weight: 12

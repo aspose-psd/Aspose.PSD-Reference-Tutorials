@@ -11,7 +11,7 @@ url: /ko/java/advanced-image-manipulation/replace-fonts/
 
 Java 개발의 역동적인 세계에서 이미지 조작은 일반적인 요구 사항입니다. Aspose.PSD for Java는 PSD 파일 처리를 위한 강력한 솔루션을 제공하므로 개발자는 이미지 내 글꼴을 원활하게 교체할 수 있습니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 글꼴을 교체하는 과정을 단계별로 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

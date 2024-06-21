@@ -87,7 +87,7 @@ A1: もちろんです！ Aspose.PSD には、あらゆるスキル レベルの
 
 ### Q3: 無料トライアルはありますか?
 
- A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+ A3: はい、無料トライアルが可能です。[ここ](https://releases.aspose.com/).
 
 ### Q4: Java 用 Aspose.PSD のサポートはどこで見つけられますか?
 

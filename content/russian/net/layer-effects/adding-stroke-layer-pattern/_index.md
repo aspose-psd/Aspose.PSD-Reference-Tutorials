@@ -106,7 +106,7 @@ foreach (var globalLayerResource in im.GlobalLayerResources)
 im.Save(exportPath);
 ```
 
-## Шаг 6: Проверьте изменения
+## Шаг 6. Проверьте изменения.
 
 Загрузите модифицированный PSD-файл и проверьте изменения:
 

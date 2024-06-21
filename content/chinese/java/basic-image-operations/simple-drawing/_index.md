@@ -45,7 +45,7 @@ int width = 100;
 int height = 100;
 
 PsdImage image = new PsdImage(width, height);
-//ExEnd：创建文档
+//ExEnd:创建文档
 ```
 
 ## 第 2 步：添加图层
@@ -92,7 +92,7 @@ graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10
 
 ## 第 4 步：保存更改
 
-最后，保存加载的 PSD 文件的副本（包括更改）：
+最后，保存已加载 PSD 文件的副本（包括更改）：
 
 ```java
 //ExStart:保存更改
@@ -116,7 +116,7 @@ A1：是的，Aspose.PSD for Java 提供了广泛的功能来编辑和操作现�
 
 ### Q3：Aspose.PSD for Java 有免费试用版吗？
 
-A3：是的，您可以访问免费试用版[这里](https://releases.aspose.com/).
+A3：是的，您可以访问免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q4：如何购买 Aspose.PSD for Java 的许可证？
 

@@ -9,7 +9,7 @@ url: /ko/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
 ## 소개
 디지털 미디어의 역동적인 세계에서 이미지 편집은 매력적인 영상을 만드는 데 중추적인 역할을 합니다. .NET용 Aspose.PSD는 개발자가 이미지 조작 기능을 한 단계 더 발전시킬 수 있도록 지원합니다. 이 튜토리얼에서는 Aspose.PSD의 흑백 조정 레이어 지원을 살펴보고 이미지를 정밀하게 미세 조정할 수 있습니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - .NET용 Aspose.PSD: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.PSD](https://reference.aspose.com/psd/net/).
 - 문서 디렉터리: 문서 디렉터리의 경로를 지정합니다.

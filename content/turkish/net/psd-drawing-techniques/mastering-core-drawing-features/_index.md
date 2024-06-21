@@ -93,11 +93,11 @@ Tebrikler! Aspose.PSD for .NET'in temel çizim özelliklerine hakim oldunuz. Bu 
 
 ### S1: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A1: Belgelere erişebilirsiniz[Burada](https://reference.aspose.com/psd/net/).
+ A1: Dokümantasyona erişebilirsiniz.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S2: Aspose.PSD for .NET'i nasıl indirebilirim?
 
- Cevap2: En son sürümü indirin[Burada](https://releases.aspose.com/psd/net/).
+ Cevap2: En son sürümü indirin.[Burada](https://releases.aspose.com/psd/net/).
 
 ### S3: .NET için Aspose.PSD'yi nereden satın alabilirim?
 
@@ -105,7 +105,7 @@ Tebrikler! Aspose.PSD for .NET'in temel çizim özelliklerine hakim oldunuz. Bu 
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- A4: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+ C4: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD for .NET desteğini nereden alabilirim?
 

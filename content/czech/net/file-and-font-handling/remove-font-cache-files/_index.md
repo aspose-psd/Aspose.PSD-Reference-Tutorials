@@ -88,7 +88,7 @@ Odpověď 2: Je-li to možné, doporučuje se odstranit soubory mezipaměti pís
 
 ### Q4: Je k dispozici dočasná licence pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+ A4: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
 
 ### Q5: Mohu zakoupit Aspose.PSD pro .NET?
 

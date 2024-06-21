@@ -81,7 +81,7 @@ var guid = Guid.NewGuid();
 ```csharp
 var patternStroke = (StrokeEffect)im.Layers[3].BlendingOptions.Effects[0];
 
-//检查并更新笔划属性
+//检查并更新笔画属性
 //...
 
 //更新不透明度和混合模式
@@ -135,7 +135,7 @@ A1：是的，Aspose.PSD for .NET 与各种版本的 Visual Studio 兼容。
 
 ### Q3：是否有可供测试的示例 PSD 文件？
 
- A3：您可以在文档中找到示例 PSD 文件[这里](https://reference.aspose.com/psd/net/).
+ A3：您可以在文档中找到示例 PSD 文件。[这里](https://reference.aspose.com/psd/net/).
 
 ### Q4：Aspose.PSD适合批量处理PSD文件吗？
 

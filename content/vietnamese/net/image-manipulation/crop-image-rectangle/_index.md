@@ -105,7 +105,7 @@ Câu trả lời 3: Aspose.PSD for .NET được thiết kế để xử lý cá
 
 ### Câu hỏi 4: Có phiên bản dùng thử cho Aspose.PSD cho .NET không?
 
- Câu trả lời 4: Có, bạn có thể khám phá các tính năng của thư viện bằng cách dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể khám phá các tính năng của thư viện bằng cách dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc hỗ trợ ở đâu?
 

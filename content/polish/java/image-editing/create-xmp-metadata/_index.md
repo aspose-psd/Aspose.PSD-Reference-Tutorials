@@ -150,7 +150,7 @@ O3: Aspose.PSD jest przeznaczony do obsługi obrazów o różnych rozmiarach, za
 
 ### P4: Czy dostępna jest wersja próbna Aspose.PSD?
 
- Odpowiedź 4: Tak, możesz poznać możliwości Aspose.PSD, uzyskując bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz poznać możliwości Aspose.PSD, uzyskując bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.PSD?
 

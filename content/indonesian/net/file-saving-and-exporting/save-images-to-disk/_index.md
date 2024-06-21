@@ -85,8 +85,8 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, memastikan fleksibilitas da
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara?
 
- A4: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Anda dapat memperoleh lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Di mana saya dapat membeli Aspose.PSD untuk .NET?
 
- A5: Anda dapat membeli Aspose.PSD untuk .NET[Di Sini](https://purchase.aspose.com/buy).
+ A5: Anda dapat membeli Aspose.PSD untuk .NET.[Di Sini](https://purchase.aspose.com/buy).

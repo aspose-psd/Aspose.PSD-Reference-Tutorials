@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Adım 5: Sıkıştırılmış GIF'i Kaydet
+## Adım 5: Sıkıştırılmış GIF'i kaydedin.
 
  Sıkıştırılmış GIF görüntüsünü kullanarak kaydedin.`image.save` belirtilen yöntem`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD for Java, Java uygulamalarında PSD dosyaları ve çeşitli görü
 
 ### S3: Aspose.PSD for Java belgelerini nerede bulabilirim?
 
-A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/java/).
+A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/java/).
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Java için Aspose.PSD'yi nasıl satın alabilirim?
 
- Cevap5: Kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ Cevap5: Kütüphaneyi satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).

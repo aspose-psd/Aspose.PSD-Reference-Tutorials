@@ -24,7 +24,7 @@ using Aspose.PSD.ImageOptions;
 ## ステップ 2: Aspose.PSD ライブラリをインクルードする
 プロジェクトに Aspose.PSD ライブラリへの参照を追加します。これを行うには、次からライブラリをダウンロードします。[Aspose.PSD ダウンロード ページ](https://releases.aspose.com/psd/net/).
 ## ステップ 3: Aspose.PSD を初期化する
-コードで、PSD ファイルをロードして Aspose.PSD を初期化します。
+コード内で、PSD ファイルをロードして Aspose.PSD を初期化します。
 ```csharp
 string dataDir = "Your Document Directory";
 string sourceFileName = dataDir + "1.psd";
@@ -59,7 +59,7 @@ A1: はい、Aspose.PSD は最新の .NET フレームワークとの互換性�
 
 ### Q2: Aspose.PSD を商用プロジェクトに使用できますか?
 
- A2：もちろんです！ Aspose.PSD は商用利用が可能です。購入できます[ここ](https://purchase.aspose.com/buy).
+ A2: もちろんです！ Aspose.PSD は商用利用が可能です。購入できます[ここ](https://purchase.aspose.com/buy).
 
 ### Q3: 無料トライアルはありますか?
 

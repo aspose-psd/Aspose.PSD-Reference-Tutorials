@@ -36,7 +36,7 @@ using (RasterImage image = (RasterImage)Image.Load(srcPath))
 // Создайте экземпляр класса Rectangle, передав x, y, ширину и высоту.
 Rectangle cropRectangle = new Rectangle(0, 0, 350, 450);
 ```
-## Шаг 3: Обрезать изображение
+## Шаг 3. Обрежьте изображение
 ```csharp
 // Вызовите метод обрезки класса Image и передайте экземпляр класса прямоугольника.
 image.Crop(cropRectangle);

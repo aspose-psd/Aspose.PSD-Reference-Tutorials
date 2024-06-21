@@ -81,7 +81,7 @@ Odpowiedź 1: Tak, metoda progowa Bradleya to wszechstronna technika odpowiednia
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- O3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD dla .NET[Tutaj](https://releases.aspose.com/).
+ O3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD dla .NET.[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD?
 
@@ -89,4 +89,4 @@ Odpowiedź 1: Tak, metoda progowa Bradleya to wszechstronna technika odpowiednia
 
 ### P5: Gdzie mogę kupić licencję na Aspose.PSD?
 
- Odpowiedź 5: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+ Odpowiedź 5: Możesz kupić licencję.[Tutaj](https://purchase.aspose.com/buy).

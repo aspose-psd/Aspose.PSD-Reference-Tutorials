@@ -116,7 +116,7 @@ image.save(outPsdFilePath);
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني شراء ترخيص Aspose.PSD لـ Java؟
 

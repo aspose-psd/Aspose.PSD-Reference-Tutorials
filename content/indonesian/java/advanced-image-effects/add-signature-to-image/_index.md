@@ -1,7 +1,7 @@
 ---
 title: Tambahkan Tanda Tangan ke Gambar dengan Aspose.PSD untuk Java
 linktitle: Tambahkan Tanda Tangan ke Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi integrasi tanda tangan ke dalam gambar dengan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami, impor paket yang diperlukan, dan tingkatkan kemampuan grafis aplikasi Java Anda.
 type: docs
 weight: 13

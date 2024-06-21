@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Tạo một thể hiện của lớp PNGOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Bước 5: Lưu hình ảnh đã cắt dưới dạng PNG
+## Bước 5: Lưu hình ảnh đã cắt dưới dạng PNG.
 ```csharp
 // Gọi phương thức lưu, cung cấp đường dẫn đầu ra và PNGOptions để chuyển đổi tệp PSD thành PNG và lưu đầu ra
 string destName = dataDir + @"export.png";

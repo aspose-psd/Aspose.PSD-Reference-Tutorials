@@ -79,7 +79,7 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πού μπορώ να λάβω υποστήριξη για το Aspose.PSD για .NET;
 
@@ -87,4 +87,4 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### Ε5: Χρειάζεστε μια προσωρινή άδεια;
 
- A5: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Λάβετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).

@@ -9,7 +9,7 @@ url: /ko/net/psd-file-manipulation/mlst-resources/
 ---
 ## 소개
 .NET용 Aspose.PSD에서 MLST(다중 레이어 상태) 리소스 처리에 대한 심층 튜토리얼에 오신 것을 환영합니다. .NET용 Aspose.PSD는 Photoshop 파일 작업을 위한 광범위한 기능을 제공하는 강력한 라이브러리입니다. 이 튜토리얼에서는 레이어 상태를 효율적으로 조작하기 위한 하위 수준 메커니즘을 제공하는 MLST 리소스 지원에 중점을 둘 것입니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.PSD: 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[.NET용 Aspose.PSD 다운로드 페이지](https://releases.aspose.com/psd/net/).
 - 문서 및 출력 디렉터리: 문서 디렉터리(`baseDir`) 및 출력 디렉터리(`outputDir`) 제공된 코드에서.
@@ -85,4 +85,4 @@ A3: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/p
 
 ### Q5: .NET용 Aspose.PSD 라이선스를 어떻게 구매하나요?
 
- A5: 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
+ A5: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).

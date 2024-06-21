@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Úvod
-Vítejte v našem podrobném průvodci o využití funkce Border Information Resource v Aspose.PSD pro .NET. V tomto tutoriálu vás provedeme procesem práce s Border Information Resources pomocí Aspose.PSD, výkonné zobrazovací knihovny .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál si klade za cíl objasnit bezproblémové začlenění Border Information Resources do vašich projektů.
+Vítejte v našem podrobném průvodci o využití funkce Border Information Resource v Aspose.PSD pro .NET. V tomto tutoriálu vás provedeme procesem práce s Border Information Resources pomocí Aspose.PSD, výkonné zobrazovací knihovny .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento kurz si klade za cíl objasnit bezproblémovou integraci Border Information Resources do vašich projektů.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte následující:
 -  Aspose.PSD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[Web Aspose.PSD](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu?
 
@@ -88,4 +88,4 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 
 ### Q5: Jsou k dispozici dočasné licence?
 
- A5: Ano, můžete získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasné licence.[tady](https://purchase.aspose.com/temporary-license/).

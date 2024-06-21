@@ -27,7 +27,7 @@ import java.io.FileNotFoundException;
 ## Étape 1 : Configurez votre environnement
  Assurez-vous que Java et Aspose.PSD pour Java sont installés sur votre système. Dans le cas contraire, reportez-vous au[Documentation](https://reference.aspose.com/psd/java/) pour les instructions d’installation.
 ## Étape 2 : Importer la bibliothèque Aspose.PSD
-Dans votre projet Java, incluez la bibliothèque Aspose.PSD en l'ajoutant aux dépendances de votre projet. Vous pouvez télécharger la bibliothèque[ici](https://releases.aspose.com/psd/java/).
+ Dans votre projet Java, incluez la bibliothèque Aspose.PSD en l'ajoutant aux dépendances de votre projet. Vous pouvez télécharger la bibliothèque[ici](https://releases.aspose.com/psd/java/).
 ## Étape 3 : Créer un objet image PSD
 Chargez le fichier image PSD dans votre application Java à l'aide du code fourni. Remplacez « Votre répertoire de documents » et « sample.psd » par les chemins appropriés.
 ```java

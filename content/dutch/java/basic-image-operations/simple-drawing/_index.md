@@ -116,7 +116,7 @@ A1: Ja, Aspose.PSD voor Java biedt uitgebreide functionaliteit voor het bewerken
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A3: Ja, u heeft toegang tot de gratis proefversie[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefversie.[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik een licentie kopen voor Aspose.PSD voor Java?
 

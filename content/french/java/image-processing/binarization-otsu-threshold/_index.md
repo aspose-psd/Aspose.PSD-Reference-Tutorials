@@ -94,7 +94,7 @@ A1 : La binarisation avec Otsu Threshold est une méthode utilisée pour la segm
 
 ### Q3 : Où puis-je trouver la documentation Aspose.PSD pour Java ?
 
-A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/java/).
+R3 : La documentation est disponible.[ici](https://reference.aspose.com/psd/java/).
 
 ### Q4 : Comment puis-je obtenir du support pour Aspose.PSD pour Java ?
 
@@ -102,4 +102,4 @@ A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/java
 
 ### Q5 : Existe-t-il une licence temporaire disponible pour Aspose.PSD pour Java ?
 
- A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).

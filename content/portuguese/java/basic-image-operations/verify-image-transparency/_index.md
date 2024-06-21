@@ -85,4 +85,4 @@ A1: Sim, Aspose.PSD para Java foi projetado para funcionar perfeitamente com out
 
 ### P5: Preciso de uma licença temporária para testes?
 
- A5: Se estiver testando a biblioteca, você poderá obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+ R5: Se estiver testando a biblioteca, você poderá obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).

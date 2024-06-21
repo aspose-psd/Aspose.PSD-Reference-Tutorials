@@ -92,11 +92,11 @@ finally
 
 ### 2. kérdés: Hol találom az Aspose.PSD for .NET átfogó dokumentációját?
 
-V2: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
+V2: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+ V3: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -104,4 +104,4 @@ V2: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
 
 ### 5. kérdés: Vásárolhatok ideiglenes licencet az Aspose.PSD for .NET számára?
 
- V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).

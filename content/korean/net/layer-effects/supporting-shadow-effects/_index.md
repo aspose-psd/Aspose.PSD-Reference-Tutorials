@@ -13,7 +13,7 @@ url: /ko/net/layer-effects/supporting-shadow-effects/
 
 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 그림자 효과를 지원하는 과정을 안내합니다. 단계를 시작하기 전에 필요한 전제 조건이 충족되었는지 확인하세요.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 

@@ -87,7 +87,7 @@ A1 : Absolument ! Aspose.PSD est livré avec une documentation complète pour gu
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez bénéficier d’un essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD pour Java ?
 
@@ -95,4 +95,4 @@ A1 : Absolument ! Aspose.PSD est livré avec une documentation complète pour gu
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A5 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).

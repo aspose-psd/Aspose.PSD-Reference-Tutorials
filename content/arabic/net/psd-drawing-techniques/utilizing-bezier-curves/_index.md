@@ -101,7 +101,7 @@ image.Save(outpath, saveOptions);
 
 ### س4: أين يمكنني العثور على دعم المجتمع لـ Aspose.PSD لـ .NET؟
 
- ج4: انضم إلى مجتمع Aspose.PSD على[هذا المنتدى](https://forum.aspose.com/c/psd/34) للمناقشات والدعم.
+ ج4: انضم إلى مجتمع Aspose.PSD على[هذا المنتدى](https://forum.aspose.com/c/psd/34) للمناقشة والدعم.
 
 ### س5: هل توجد أي موارد مجانية لتعلم Aspose.PSD لـ .NET؟
 

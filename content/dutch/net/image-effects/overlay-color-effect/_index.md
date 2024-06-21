@@ -15,7 +15,7 @@ Aspose.PSD voor .NET biedt een robuuste set functies voor beeldverwerking, waard
 
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-- Aspose.PSD voor .NET: Download en installeer de bibliotheek van[hier](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD voor .NET: Download en installeer de bibliotheek van[hier](https://releases.aspose.com/psd/net/).
 - Uw documentenmap: stel een map in om uw bron- en uitvoerbestanden op te slaan.
 
 ## Naamruimten importeren
@@ -85,11 +85,11 @@ A1: Ja, Aspose.PSD voor .NET is compatibel met verschillende .NET-frameworks, wa
 
 ### V2: Waar kan ik uitgebreide documentatie vinden voor Aspose.PSD voor .NET?
 
- A2: U kunt de documentatie raadplegen[hier](https://reference.aspose.com/psd/net/)voor gedetailleerde informatie en codevoorbeelden.
+ A2: U kunt de documentatie raadplegen.[hier](https://reference.aspose.com/psd/net/) voor gedetailleerde informatie en codevoorbeelden.
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A3: Ja, u kunt de mogelijkheden van Aspose.PSD voor .NET verkennen door de gratis proefversie te downloaden[hier](https://releases.aspose.com/).
+A3: Ja, u kunt de mogelijkheden van Aspose.PSD voor .NET verkennen door de gratis proefversie te downloaden.[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
@@ -97,4 +97,4 @@ A1: Ja, Aspose.PSD voor .NET is compatibel met verschillende .NET-frameworks, wa
 
 ### V5: Kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor .NET?
 
- A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
+ A5: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.

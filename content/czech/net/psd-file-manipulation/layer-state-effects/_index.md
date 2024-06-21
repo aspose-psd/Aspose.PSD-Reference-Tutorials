@@ -25,7 +25,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.Animation;
 using Aspose.PSD.FileFormats.Psd.Layers.FillSettings;
 ```
 ## Krok 1: Načtěte soubor PSD
-Načtěte do aplikace soubor PSD, se kterým chcete pracovat.
+Načtěte soubor PSD, se kterým chcete pracovat, do aplikace.
 ```csharp
 string sourceFile = Path.Combine(baseDir, "your_file.psd");
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
@@ -73,11 +73,11 @@ Gratulujeme! Úspěšně jste pracovali s efekty stavu vrstvy v Aspose.PSD pro .
 
 ### A3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak získám dočasnou licenci?
 
- A4: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Potřebujete podporu nebo máte otázky?
 

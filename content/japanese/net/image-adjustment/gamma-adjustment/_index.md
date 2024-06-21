@@ -92,9 +92,9 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Q3: 無料トライアルはありますか?
 
- A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+ A3: はい、無料トライアルが可能です。[ここ](https://releases.aspose.com/).
 
-### Q4: Aspose.PSD のサポートはどこで入手できますか?
+### Q4: Aspose.PSD のサポートはどこで受けられますか?
 
  A4: サポート フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/psd/34).
 

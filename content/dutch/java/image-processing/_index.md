@@ -9,7 +9,7 @@ url: /nl/java/image-processing/
 ---
 ## Invoering
 
-Beeldverwerking wordt een spannende reis met Aspose.PSD voor Java, een toolkit waarmee ontwikkelaars visuele inhoud kunnen verbeteren. Van fundamentele technieken tot geavanceerde processen, deze tutorialreeks gaat dieper in op de functies die Aspose.PSD tot een ideale oplossing maken voor Java-beeldverwerking.
+Beeldverwerking wordt een spannende reis met Aspose.PSD voor Java, een toolkit waarmee ontwikkelaars visuele inhoud kunnen verbeteren. Van fundamentele technieken tot geavanceerde processen, deze tutorialreeks gaat in op de functies die Aspose.PSD tot een ideale oplossing maken voor Java-beeldverwerking.
 
 ## Verbeter met Gaussiaanse en Wiener-filters
 
@@ -29,7 +29,7 @@ Beeldverwerking wordt een spannende reis met Aspose.PSD voor Java, een toolkit w
 
 ## Binarisatie ontketend: vaste en Otsu-drempels
 
- Duik diep in de wereld van beeldsegmentatie met onze tutorials[Binarisatie met vaste drempel](./binarization-fixed-threshold/) En[Binarisatie met Otsu Threshold](./binarization-otsu-threshold/) in Aspose.PSD voor Java. Ontdek zowel Fixed als Otsu Thresholds, krachtige technieken voor het naadloos transformeren van afbeeldingen. Ontdek de geheimen achter effectieve binarisatie van afbeeldingen en voeg een vleugje precisie toe aan uw Java-beeldverwerkingstaken.
+ Duik diep in de wereld van beeldsegmentatie met onze tutorials op[Binarisatie met vaste drempel](./binarization-fixed-threshold/) En[Binarisatie met Otsu Threshold](./binarization-otsu-threshold/) in Aspose.PSD voor Java. Ontdek zowel Fixed als Otsu Thresholds, krachtige technieken voor het naadloos transformeren van afbeeldingen. Ontdek de geheimen achter effectieve binarisatie van afbeeldingen en voeg een vleugje precisie toe aan uw Java-beeldverwerkingstaken.
 
 ## Verbeter de beeldkwaliteit met Bradley Thresholding
 

@@ -10,7 +10,7 @@ url: /tr/java/advanced-image-manipulation/
 
 ## giriiş
 
-Java'da gelişmiş görüntü işleme dünyasına dalıyorsanız Aspose.PSD size yardımcı olacaktır. Bu kılavuzda, her biri Aspose.PSD for Java kullanarak görüntü işleme yeteneklerinde yeni bir boyutun kilidini açan bir dizi eğitim boyunca size yol göstereceğiz.
+Java'da gelişmiş görüntü işleme dünyasına dalıyorsanız Aspose.PSD size yardımcı olacaktır. Bu kılavuzda, her biri Aspose.PSD for Java kullanarak görüntü işleme yeteneklerinde yeni bir boyutun kilidini açan bir dizi eğitimde size yol göstereceğiz.
 
 ## Görsellerde Verimli Yazı Tipi Değiştirme
 ### [Java için Aspose.PSD'deki Yazı Tiplerini Değiştirme](./replace-fonts/)
@@ -67,7 +67,7 @@ Aspose.PSD for Java Bicubic Resampler ile Java görüntüsünün yeniden boyutla
 ### [Aspose.PSD for Java'da Kayıplı GIF Kompresörünü Uygulama](./implement-lossy-gif-compressor/)
 Java'nın Kayıplı GIF Kompresörü için Aspose.PSD ile web görsellerinizi sorunsuz bir şekilde optimize edin. Verimli uygulama için adım adım kılavuzumuzu izleyin. 
 ### [Java için Aspose.PSD'de Ayarlama Katmanını Ters Çevir](./invert-adjustment-layer/)
-Aspose.PSD for Java'daki Ters Çevirme Ayarlama Katmanını keşfedin. Kusursuz PSD dosyası manipülasyonu için güçlü bir Java kütüphanesi.
+Aspose.PSD for Java'daki Tersine Çevirme Ayarlama Katmanını keşfedin. Kusursuz PSD dosyası manipülasyonu için güçlü bir Java kütüphanesi.
 ### [Java için Aspose.PSD'de İşleme Renk Efekti Uygula](./rendering-color-effect/)
 Aspose.PSD'yi kullanarak Java uygulamalarınızı dinamik renk katmanlarıyla geliştirin. Kusursuz entegrasyon ve çarpıcı görsel efektler için adım adım kılavuzumuzu izleyin.
 ### [Aspose.PSD for Java'da Rendering Drop Shadow'u uygulayın](./rendering-drop-shadow/)

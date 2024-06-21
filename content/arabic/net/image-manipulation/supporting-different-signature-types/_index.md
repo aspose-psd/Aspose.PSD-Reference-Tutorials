@@ -56,13 +56,13 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## خاتمة
 
-تهانينا! لقد نجحت في دعم أنواع التوقيع المختلفة في Aspose.PSD لـ .NET. غطى هذا البرنامج التعليمي الخطوات الأساسية، مما يضمن أنه يمكنك التنقل خلال العملية دون عناء.
+تهانينا! لقد نجحت في دعم أنواع التوقيع المختلفة في Aspose.PSD لـ .NET. يغطي هذا البرنامج التعليمي الخطوات الأساسية، مما يضمن أنه يمكنك التنقل خلال العملية دون عناء.
 
 ## الأسئلة الشائعة
 
 ### س1: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ .NET؟
 
- ج1: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).
+ ج1: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/net/).
 
 ### س2: كيف يمكنني تنزيل Aspose.PSD لمكتبة .NET؟
 
@@ -70,7 +70,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
 
 ### س 4: هل تحتاج إلى دعم أو لديك أسئلة؟
 
@@ -78,4 +78,4 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### س5: هل تبحث عن ترخيص مؤقت؟
 
- ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).

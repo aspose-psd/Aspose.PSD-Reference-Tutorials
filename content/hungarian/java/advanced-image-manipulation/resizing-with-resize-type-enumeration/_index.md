@@ -73,7 +73,7 @@ A1: Abszolút! Az Aspose.PSD for Java célja, hogy bármilyen méretű projektet
 
 ### 2. kérdés: Használhatok a Lanczos Resample-től eltérő átméretezési típust?
 
-2. válasz: Igen, az Aspose.PSD for Java különféle átméretezési típusokat kínál, mint például a Nearest Neighbour, Bicubic és egyebek. Tekintse meg a dokumentációt egy átfogó listaért.
+2. válasz: Igen, az Aspose.PSD for Java különféle átméretezési típusokat kínál, mint például a Nearest Neighbor, Bicubic és egyebek. Tekintse meg a dokumentációt egy átfogó listaért.
 
 ### 3. kérdés: Hol találok további támogatást az Aspose.PSD for Java számára?
 
@@ -81,7 +81,7 @@ A1: Abszolút! Az Aspose.PSD for Java célja, hogy bármilyen méretű projektet
 
 ### 4. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
 

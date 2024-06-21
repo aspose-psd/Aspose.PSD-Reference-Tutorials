@@ -73,7 +73,7 @@ colorOverlay.setColor(Color.getGreen());
 colorOverlay.setOpacity((byte) 128);
 ```
 
-Geben Sie die gewünschte Farbe und Deckkraft für den Farbüberlagerungseffekt an. Experimentieren Sie ruhig mit verschiedenen Farbwerten und Deckkraft.
+Geben Sie die gewünschte Farbe und Deckkraft für den Farbüberlagerungseffekt an. Experimentieren Sie ruhig mit unterschiedlichen Farbwerten und Deckkraft.
 
 ## Schritt 5: Speichern Sie die geänderte PSD-Datei
 

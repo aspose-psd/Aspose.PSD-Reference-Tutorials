@@ -56,13 +56,13 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt stödjat olika signaturtyper i Aspose.PSD för .NET. Denna handledning täckte de väsentliga stegen, vilket säkerställer att du kan navigera genom processen utan ansträngning.
+Grattis! Du har framgångsrikt stödjat olika signaturtyper i Aspose.PSD för .NET. Denna handledning täcker de väsentliga stegen, vilket säkerställer att du kan navigera genom processen utan ansträngning.
 
 ## FAQ's
 
 ### F1: Var kan jag hitta dokumentationen för Aspose.PSD för .NET?
 
- S1: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
+ S1: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
 
 ### F2: Hur kan jag ladda ner Aspose.PSD för .NET-biblioteket?
 
@@ -70,7 +70,7 @@ Grattis! Du har framgångsrikt stödjat olika signaturtyper i Aspose.PSD för .N
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+ A3: Ja, du kan få en gratis provperiod.[här](https://releases.aspose.com/).
 
 ### F4: Behöver du support eller har frågor?
 
@@ -78,4 +78,4 @@ Grattis! Du har framgångsrikt stödjat olika signaturtyper i Aspose.PSD för .N
 
 ### F5: Letar du efter en tillfällig licens?
 
- A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ A5: Skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).

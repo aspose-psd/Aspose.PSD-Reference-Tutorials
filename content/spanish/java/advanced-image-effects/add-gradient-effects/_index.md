@@ -125,7 +125,7 @@ R2: Aspose.PSD proporciona una variedad de efectos, que incluyen sombras, brillo
 
 ### P4: ¿Existe una versión de prueba disponible de Aspose.PSD para Java?
 
- R4: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes obtener una prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Dónde puedo comprar una licencia de Aspose.PSD para Java?
 

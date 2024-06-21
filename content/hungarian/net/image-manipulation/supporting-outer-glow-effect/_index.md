@@ -113,4 +113,4 @@ Gratulálunk! Sikeresen implementálta az Outer Glow Effect-et az Aspose.PSD for
 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t .NET-hez?
 
- 5. válasz: Igen, fedezze fel a licencelési lehetőségeket, és vásároljon[itt](https://purchase.aspose.com/buy).
+ 5. válasz: Igen, fedezze fel a licencelési lehetőségeket, és vásároljon.[itt](https://purchase.aspose.com/buy).

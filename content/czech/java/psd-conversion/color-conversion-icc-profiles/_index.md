@@ -67,7 +67,7 @@ image.save(dataDir + "Ycck_profiles.jpg", options);
 ```
 Při provádění převodu barev pomocí profilů ICC s Aspose.PSD for Java postupujte pečlivě podle těchto kroků.
 ## Závěr
-tomto tutoriálu jsme prozkoumali proces převodu barev pomocí ICC profilů v Aspose.PSD pro Java. Pochopení důležitosti přesné reprezentace barev je v různých aplikacích klíčové a s Aspose.PSD máte k dispozici mocný nástroj.
+V tomto tutoriálu jsme prozkoumali proces převodu barev pomocí ICC profilů v Aspose.PSD pro Java. Pochopení důležitosti přesné reprezentace barev je v různých aplikacích klíčové a s Aspose.PSD máte k dispozici mocný nástroj.
 ## Nejčastější dotazy
 ### Mohu používat vlastní ICC profily s Aspose.PSD pro Javu?
 Ano můžeš. Jednoduše nahraďte poskytnuté ICC profily svými vlastními profily v kódu.

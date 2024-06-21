@@ -77,7 +77,7 @@ Câu trả lời 1: Có, Aspose.PSD for .NET hỗ trợ các tệp PSD được 
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu chi tiết về Aspose.PSD cho .NET ở đâu?
 
-A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
+A3: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
@@ -85,4 +85,4 @@ A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 5: Làm cách nào để mua giấy phép Aspose.PSD cho .NET?
 
- A5: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+ A5: Bạn có thể mua giấy phép.[đây](https://purchase.aspose.com/buy).

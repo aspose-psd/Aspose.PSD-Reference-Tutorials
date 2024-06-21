@@ -1,5 +1,5 @@
 ---
-title: Implementowanie rysowania za pomocą GraphicsPath w Aspose.PSD dla .NET
+title: Implementacja rysowania za pomocą GraphicsPath w Aspose.PSD dla .NET
 linktitle: Implementowanie rysowania za pomocą GraphicsPath
 second_title: Aspose.PSD API .NET
 description: Poznaj możliwości Aspose.PSD dla .NET w tym samouczku krok po kroku dotyczącym rysowania za pomocą GraphicsPath. Ulepsz swoje aplikacje .NET dzięki zaawansowanej manipulacji plikami programu Photoshop.
@@ -51,7 +51,7 @@ W tym kroku inicjujemy instancję klasy PsdImage i obiekt Graphics do pracy z na
 ## Krok 2: Tworzenie ścieżki graficznej i figury
 
 ```csharp
-// Utwórz instancję GraphicsPath i Instance of Rysunek, dodaj EllipseShape, RectangleShape i TextShape do figury
+// Utwórz instancję GraphicsPath i Instance of Rysunek, dodaj do figury EllipseShape, RectangleShape i TextShape.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -93,7 +93,7 @@ O1: Tak, Aspose.PSD dla .NET jest kompatybilny z różnymi środowiskami program
 
 ### P3: Jak uzyskać wsparcie dla Aspose.PSD dla .NET?
 
- A3: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności. Aby uzyskać wsparcie premium, rozważ zakup licencji.
+ A3: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne. Aby uzyskać wsparcie premium, rozważ zakup licencji.
 
 ### P4: Czy mogę używać Aspose.PSD dla .NET do manipulowania warstwami w pliku Photoshop?
 
@@ -101,4 +101,4 @@ O4: Tak, Aspose.PSD dla .NET zapewnia funkcjonalność do pracy z warstwami w pl
 
 ### P5: Gdzie mogę znaleźć dokumentację Aspose.PSD dla .NET?
 
- Odpowiedź 5: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/net/).
+ Odpowiedź 5: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/net/).

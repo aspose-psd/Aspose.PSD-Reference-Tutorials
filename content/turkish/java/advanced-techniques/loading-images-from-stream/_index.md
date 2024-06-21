@@ -92,7 +92,7 @@ A1: Kesinlikle! Aspose.PSD for Java, toplu görüntü işleme görevlerinde veri
 
 ### S2: Satın almadan önce Aspose.PSD for Java'yı deneyebilir miyim?
 
- C2: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+ C2: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.PSD for Java desteğini nerede bulabilirim?
 
@@ -100,7 +100,7 @@ A1: Kesinlikle! Aspose.PSD for Java, toplu görüntü işleme görevlerinde veri
 
 ### S4: Test amacıyla geçici bir lisansa ihtiyacım var mı?
 
- Cevap4: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'yı test etmek için.
+ Cevap4: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'yı test etmek için.
 
 ### S5: Aspose.PSD for Java'yı nereden satın alabilirim?
 

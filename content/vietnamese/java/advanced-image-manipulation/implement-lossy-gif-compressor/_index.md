@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Bước 5: Lưu GIF đã nén
+## Bước 5: Lưu GIF nén.
 
  Lưu ảnh GIF đã nén bằng cách sử dụng`image.save` phương pháp với quy định`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD cho Java là một thư viện mạnh mẽ để làm việc với
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu về Aspose.PSD cho Java ở đâu?
 
-A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/java/).
+A3: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/java/).
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Đ4: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể mua Aspose.PSD cho Java?
 
- A5: Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).
+ A5: Bạn có thể mua thư viện.[đây](https://purchase.aspose.com/buy).

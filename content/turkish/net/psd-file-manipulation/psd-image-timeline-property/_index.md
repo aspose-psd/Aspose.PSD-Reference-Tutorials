@@ -59,7 +59,7 @@ psdImage.Save(outputFile);
 File.Delete(outputFile);
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
-Bu adım adım kılavuz, PSD Image Timeline Property'nin Aspose.PSD kullanarak .NET projelerinize kusursuz entegrasyonuna kısa bir bakış sağlar.
+Bu adım adım kılavuz, Aspose.PSD kullanarak PSD Image Timeline Property'nin .NET projelerinize kusursuz entegrasyonuna kısa bir bakış sağlar.
 ## Çözüm
 
 Aspose.PSD for .NET, geliştiricilerin PSD görüntülerinin tüm potansiyelini ortaya çıkarmalarına olanak sağlar. PSD Görüntü Zaman Çizelgesi Özelliği, projelerinize bir dinamizm katmanı ekleyerek görüntü manipülasyonunda yaratıcı olanaklar sunar.
@@ -80,7 +80,7 @@ C1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur ve geli�
 
 ### S4: Aspose.PSD for .NET için geçici lisanslar mevcut mu?
 
- Cevap4: Evet, Aspose.PSD for .NET için geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Evet, Aspose.PSD for .NET için geçici lisanslar alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.PSD for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 

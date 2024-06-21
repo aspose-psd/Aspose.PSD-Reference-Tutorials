@@ -2,7 +2,7 @@
 title: Hiệu ứng hình ảnh
 linktitle: Hiệu ứng hình ảnh
 second_title: API Aspose.PSD .NET
-description: Nắm vững các cải tiến hình ảnh động trong Aspose.PSD cho .NET. Nâng cao khả năng xử lý hình ảnh của bạn bằng các hướng dẫn về cách thêm, xếp lớp và hiển thị các hiệu ứng tuyệt đẹp trong thời gian chạy.
+description: Nắm vững các cải tiến hình ảnh động trong Aspose.PSD cho .NET. Nâng cao khả năng xử lý hình ảnh của bạn bằng các hướng dẫn về cách thêm, xếp chồng và hiển thị các hiệu ứng tuyệt đẹp trong thời gian chạy.
 type: docs
 weight: 25
 url: /vi/net/image-effects/

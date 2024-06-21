@@ -84,15 +84,15 @@ Chúc mừng! Bạn đã tạo thành công hình elip bằng Aspose.PSD cho .NE
 
 ### Câu hỏi 1: Tôi có thể tìm tài liệu về Aspose.PSD cho .NET ở đâu?
 
- A1: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
+ A1: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 2: Làm cách nào để tải xuống Aspose.PSD cho .NET?
 
- A2: Bạn có thể tải xuống từ trang phát hành[đây](https://releases.aspose.com/psd/net/).
+ A2: Bạn có thể tải xuống từ trang phát hành.[đây](https://releases.aspose.com/psd/net/).
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
@@ -100,4 +100,4 @@ Chúc mừng! Bạn đã tạo thành công hình elip bằng Aspose.PSD cho .NE
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

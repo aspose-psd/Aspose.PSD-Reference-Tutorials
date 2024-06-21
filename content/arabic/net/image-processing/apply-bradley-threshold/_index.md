@@ -81,7 +81,7 @@ A1: نعم، تعد تقنية Bradley Thresholding تقنية متعددة ال
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك استكشاف النسخة التجريبية المجانية من Aspose.PSD لـ .NET[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف النسخة التجريبية المجانية من Aspose.PSD لـ .NET.[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
 
@@ -89,4 +89,4 @@ A1: نعم، تعد تقنية Bradley Thresholding تقنية متعددة ال
 
 ### س5: أين يمكنني شراء ترخيص Aspose.PSD؟
 
- ج5: يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+ ج5: يمكنك شراء ترخيص.[هنا](https://purchase.aspose.com/buy).

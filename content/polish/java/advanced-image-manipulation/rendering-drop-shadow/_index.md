@@ -15,7 +15,7 @@ Jeśli zaczynasz przygodę z przetwarzaniem obrazów w Javie, Aspose.PSD to idea
 
 Zanim wyruszymy w tę podróż, upewnijmy się, że spełniliśmy następujące wymagania wstępne:
 
-- Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę na swoim komputerze.
+- Środowisko programistyczne Java: Upewnij się, że na komputerze jest zainstalowana Java.
 - Biblioteka Aspose.PSD: Pobierz i skonfiguruj bibliotekę Aspose.PSD. Możesz znaleźć drogę do biblioteki[Tutaj](https://releases.aspose.com/psd/java/).
 - Plik PSD: Przygotuj plik PSD zawierający warstwę, na którą chcesz zastosować cień.
 

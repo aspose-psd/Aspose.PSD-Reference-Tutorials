@@ -96,7 +96,7 @@ A2：是的，Aspose.PSD for .NET 提供了各种用于微调阴影效果的属�
 
 ### Q3：如何获得 Aspose.PSD for .NET 的临时许可证？
 
- A3：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A3：您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q4：Aspose.PSD for .NET 与 .NET Core 兼容吗？
 

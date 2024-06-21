@@ -85,4 +85,4 @@ A1：是的，Aspose.PSD for Java 旨在与其他 Java 库无缝协作，为您�
 
 ### Q5：测试需要临时许可证吗？
 
- A5：如果您正在测试该库，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A5：如果您正在测试该库，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).

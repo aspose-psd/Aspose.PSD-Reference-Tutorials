@@ -25,7 +25,7 @@ using Aspose.PSD.ImageLoadOptions;
 using Aspose.PSD.ImageOptions;
 ```
 ## Passaggio 1: caricamento del file PSD
-Inizia impostando i percorsi delle directory dei documenti e di output. Questa è la base del nostro percorso di sostituzione dei caratteri.
+Inizia impostando i percorsi delle directory dei documenti e di output. Questa è la base del nostro percorso di sostituzione dei font.
 ```csharp
 string dataDir = "Your Document Directory";
 string outputFolder = "Your Output Directory";
@@ -52,7 +52,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 ```
 ## Conclusione
 
-Congratulazioni! Hai imparato con successo l'arte della sostituzione dei caratteri utilizzando Aspose.PSD per .NET. Questa potente libreria offre flessibilità ed efficienza nella gestione dei font mancanti, garantendo che i tuoi progetti rimangano intatti.
+Congratulazioni! Hai imparato con successo l'arte della sostituzione dei caratteri utilizzando Aspose.PSD per .NET. Questa potente libreria offre flessibilità ed efficienza nella gestione dei caratteri mancanti, garantendo che i tuoi progetti rimangano intatti.
 
 ## Domande frequenti
 
@@ -70,8 +70,8 @@ A1: Sì, Aspose.PSD consente di sostituire i caratteri in modo selettivo in base
 
 ### Q4: Sono disponibili licenze temporanee per Aspose.PSD?
 
- R4: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ R4: Sì, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Dove posso trovare la documentazione completa per Aspose.PSD?
 
- A5: Fare riferimento al dettaglio[documentazione](https://reference.aspose.com/psd/net/) per approfondimenti sulle funzionalità Aspose.PSD.
+ A5: Fare riferimento ai dettagli[documentazione](https://reference.aspose.com/psd/net/) per approfondimenti sulle funzionalità Aspose.PSD.

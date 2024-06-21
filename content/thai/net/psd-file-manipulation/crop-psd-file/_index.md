@@ -14,7 +14,7 @@ url: /th/net/psd-file-manipulation/crop-psd-file/
 -  Aspose.PSD สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถดาวน์โหลดได้จาก[Aspose.PSD สำหรับเอกสาร .NET](https://reference.aspose.com/psd/net/).
 - สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ของคุณ รวมถึง Visual Studio หรือ IDE ที่ต้องการ
 ## นำเข้าเนมสเปซ
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นไปยังโปรเจ็กต์ของคุณ:
+เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นในโครงการของคุณ:
 ```csharp
 using Aspose.PSD.FileFormats.Png;
 using Aspose.PSD.ImageOptions;

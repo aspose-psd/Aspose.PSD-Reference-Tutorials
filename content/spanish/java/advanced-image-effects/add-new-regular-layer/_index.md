@@ -119,4 +119,4 @@ R2: ¡Absolutamente! Aspose.PSD proporciona una variedad de opciones de transfor
 
 ### P5: ¿Existen foros comunitarios para soporte de Aspose.PSD?
 
- R5: Sí, puedes encontrar soporte y debates[aquí](https://forum.aspose.com/c/psd/34).
+ R5: Sí, puedes encontrar apoyo y debates.[aquí](https://forum.aspose.com/c/psd/34).

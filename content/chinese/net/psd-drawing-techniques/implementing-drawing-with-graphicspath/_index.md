@@ -51,7 +51,7 @@ using (PsdImage image = new PsdImage(500, 500))
 ## 第2步：创建GraphicsPath和图形
 
 ```csharp
-//创建 GraphicsPath 实例和 Figure 实例，将 EllipseShape、RectangleShape 和 TextShape 添加到图窗中
+//创建 GraphicsPath 的实例和 Figure 的实例，将 EllipseShape、RectangleShape 和 TextShape 添加到图窗。
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A4：是的，Aspose.PSD for .NET 提供了处理 Photoshop 文件中的图层�
 
 ### Q5：在哪里可以找到 Aspose.PSD for .NET 的文档？
 
- A5：文档可用[这里](https://reference.aspose.com/psd/net/).
+ A5：文档可用。[这里](https://reference.aspose.com/psd/net/).

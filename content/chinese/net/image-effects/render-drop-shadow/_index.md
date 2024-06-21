@@ -107,7 +107,7 @@ A2：当然！请随意调整代码以满足您的特定要求并达到所需的
 
 ### 问题 4：Aspose.PSD for .NET 是否有免费试用版？
 
- A4：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+ A4：是的，您可以探索免费试用。[这里](https://releases.aspose.com/).
 
 ### 问题 5：我如何获得 Aspose.PSD for .NET 的支持或寻求帮助？
 

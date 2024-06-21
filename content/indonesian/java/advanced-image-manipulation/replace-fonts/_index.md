@@ -1,7 +1,7 @@
 ---
 title: Ganti Font di Aspose.PSD untuk Java
 linktitle: Ganti Font
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengganti font pada gambar menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk manipulasi font yang efisien.
 type: docs
 weight: 10

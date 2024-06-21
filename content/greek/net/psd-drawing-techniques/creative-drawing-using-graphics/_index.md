@@ -101,7 +101,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.PSD για .NET στα εμπορικά έργα μου;
 
- A1: Ναι, το Aspose.PSD για .NET είναι διαθέσιμο για εμπορική χρήση. Ελέγξτε το[σελίδα αγοράς](https://purchase.aspose.com/buy) για λεπτομέρειες αδειοδότησης.
+A1: Ναι, το Aspose.PSD για .NET είναι διαθέσιμο για εμπορική χρήση. Ελέγξτε το[σελίδα αγοράς](https://purchase.aspose.com/buy) για λεπτομέρειες αδειοδότησης.
 
 ### Ε2: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.PSD για .NET;
 
@@ -109,7 +109,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Ε3: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.PSD για .NET;
 
- A3: Η πλήρης τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/net/).
+ A3: Η πλήρης τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/net/).
 
 ### Ε4: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD για .NET;
 
@@ -117,4 +117,4 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια χρήσης για το Aspose.PSD για .NET;
 
- A5: Εάν χρειάζεστε μια προσωρινή άδεια, μπορείτε να την αποκτήσετε[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Εάν χρειάζεστε μια προσωρινή άδεια, μπορείτε να την αποκτήσετε.[εδώ](https://purchase.aspose.com/temporary-license/).

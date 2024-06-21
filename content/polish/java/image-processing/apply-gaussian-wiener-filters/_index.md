@@ -82,7 +82,7 @@ Gratulacje! Pomyślnie nauczyłeś się, jak stosować filtry Gaussa i Wienera p
 
 ### P1: Czy mogę zastosować te filtry do obrazów w formatach innych niż PSD?
 
-O1: Tak, Aspose.PSD dla Java obsługuje różne formaty obrazów poza PSD.
+Odpowiedź 1: Tak, Aspose.PSD dla Java obsługuje różne formaty obrazów poza PSD.
 
 ### P2: Czy są jakieś ograniczenia w wersji próbnej Aspose.PSD dla Java?
 
@@ -94,7 +94,7 @@ Odpowiedź 2: Wersja próbna ma ograniczenia i możesz poznać pełne możliwoś
 
 ### P4: Czy dostępna jest licencja tymczasowa do celów testowych?
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla Java?
 

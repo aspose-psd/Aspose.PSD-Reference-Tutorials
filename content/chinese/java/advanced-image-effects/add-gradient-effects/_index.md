@@ -125,7 +125,7 @@ A2：Aspose.PSD提供了多种效果，包括阴影、发光等。浏览文档�
 
 ### Q4：Aspose.PSD for Java 有试用版吗？
 
- A4：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+ A4: 是的，您可以获得免费试用。[这里](https://releases.aspose.com/).
 
 ### Q5：在哪里可以购买 Aspose.PSD for Java 的许可证？
 

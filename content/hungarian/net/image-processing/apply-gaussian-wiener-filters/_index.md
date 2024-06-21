@@ -78,7 +78,7 @@ rasterImage.Filter(image.Bounds, options);
 
 ## 5. lépés: Mentse el a kapott képet
 
-Mentse el a szűrt képet a kívánt formátumban. Ebben a példában GIF-ként mentjük el:
+Mentse el a szűrt képet a kívánt formátumban. Ebben a példában GIF-ként mentjük:
 
 ```csharp
 string destName = dataDir + @"gauss_wiener_out.gif";

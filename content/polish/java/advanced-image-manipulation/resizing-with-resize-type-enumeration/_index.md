@@ -77,11 +77,11 @@ O2: Tak, Aspose.PSD dla Java oferuje różne typy zmiany rozmiaru, takie jak Naj
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.PSD dla Java?
 
- O3: W razie jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ O3: W przypadku jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla Java?
 

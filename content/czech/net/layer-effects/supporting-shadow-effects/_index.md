@@ -18,7 +18,7 @@ V tomto tutoriálu vás provedeme procesem podpory stínových efektů pomocí A
 Než začnete, ujistěte se, že máte na svém místě následující:
 
 -  Aspose.PSD for .NET Library: Stáhněte a nainstalujte knihovnu z[Stránka pro stahování Aspose.PSD pro .NET](https://releases.aspose.com/psd/net/).
-- Adresář dokumentů: Vytvořte adresář, kam budete ukládat soubory PSD.
+- Adresář dokumentů: Vytvořte adresář, do kterého budete ukládat soubory PSD.
 
 ## Importovat jmenné prostory
 

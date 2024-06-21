@@ -82,7 +82,7 @@ image.save(destName, new PngOptions());
 
 ### Ε3: Διατίθενται προσωρινές άδειες για δοκιμαστικούς σκοπούς;
 
- A3: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για αξιολόγηση.
+ A3: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/) για αξιολόγηση.
 
 ### Ε4: Πού μπορώ να βρω υποστήριξη για το Aspose.PSD;
 

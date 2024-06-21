@@ -94,7 +94,7 @@ Cevap2: Deneme sürümünün sınırlamaları vardır ve geçerli bir lisans ala
 
 ### S4: Test amaçlı geçici bir lisans mevcut mu?
 
- Cevap4: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.PSD for Java'nın ayrıntılı belgelerini nerede bulabilirim?
 

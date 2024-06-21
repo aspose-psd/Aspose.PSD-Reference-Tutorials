@@ -86,8 +86,8 @@ A1：是的，Aspose.PSD 與最新的.NET 框架相容。
 
 ### Q4：如何取得Aspose.PSD的臨時授權？
 
- A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：我可以在購買前免費試用Aspose.PSD嗎？
 
-A5：是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
+A5：是的，您可以探索免費試用。[這裡](https://releases.aspose.com/).

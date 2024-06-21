@@ -11,7 +11,7 @@ url: /ko/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 
 끊임없이 진화하는 Java 개발 환경에서 효율적인 이미지 처리는 개발자가 종종 고심하는 중요한 측면입니다. Java용 Aspose.PSD는 Resize Type Enumeration의 추가 이점을 통해 이미지 크기 조정을 위한 원활한 환경을 제공하는 강력한 솔루션으로 등장합니다. 이 튜토리얼에서는 포괄적인 이해를 보장하기 위해 각 단계를 세분화하여 Java용 Aspose.PSD를 사용하여 이미지 크기를 조정하는 복잡한 과정을 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -73,7 +73,7 @@ A1: 물론이죠! Aspose.PSD for Java는 모든 규모의 프로젝트에 맞춰
 
 ### Q2: Lanczos Resample 이외의 다른 크기 조정 유형을 사용할 수 있습니까?
 
-A2: 예, Java용 Aspose.PSD는 Nearest Neighbour, Bicubic 등과 같은 다양한 크기 조정 유형을 제공합니다. 전체 목록을 보려면 설명서를 살펴보세요.
+A2: 예, Java용 Aspose.PSD는 Nearest Neighbor, Bicubic 등과 같은 다양한 크기 조정 유형을 제공합니다. 전체 목록을 보려면 설명서를 살펴보세요.
 
 ### Q3: Java용 Aspose.PSD에 대한 추가 지원은 어디에서 찾을 수 있습니까?
 

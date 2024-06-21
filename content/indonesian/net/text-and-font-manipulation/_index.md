@@ -10,7 +10,7 @@ url: /id/net/text-and-font-manipulation/
 
 ## Perkenalan
 
-Apakah Anda siap membawa aplikasi .NET Anda ke level selanjutnya? Jelajahi dunia manipulasi teks dan font yang menakjubkan dengan tutorial Aspose.PSD untuk .NET. Dalam artikel ini, kita akan mempelajari dua tutorial penting yang akan memberdayakan Anda untuk meningkatkan kemampuan desain Anda dengan mudah.
+Apakah Anda siap membawa aplikasi .NET Anda ke level berikutnya? Jelajahi dunia manipulasi teks dan font yang menakjubkan dengan tutorial Aspose.PSD untuk .NET. Dalam artikel ini, kita akan mempelajari dua tutorial penting yang akan memberdayakan Anda untuk meningkatkan kemampuan desain Anda dengan mudah.
 
 ## Merender Teks dengan Warna Berbeda di Lapisan Teks dengan Aspose.PSD untuk .NET
 

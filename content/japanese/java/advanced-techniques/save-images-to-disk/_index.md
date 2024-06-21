@@ -9,7 +9,7 @@ url: /ja/java/advanced-techniques/save-images-to-disk/
 ---
 ## 導入
 
-Aspose.PSD for Java を使用すると、開発者は PSD ファイルを簡単に処理できるようになります。画像をディスクに保存することは画像処理の基本的な側面であり、Aspose.PSD はこの操作を合理化します。このガイドでは、Aspose.PSD を使用して画像を保存するプロセスを詳しく説明し、必要な手順をしっかりと理解してください。
+Aspose.PSD for Java を使用すると、開発者は PSD ファイルを簡単に処理できるようになります。画像をディスクに保存することは画像処理の基本的な側面であり、Aspose.PSD はこの操作を効率化します。このガイドでは、Aspose.PSD を使用して画像を保存するプロセスを詳しく説明し、必要な手順をしっかりと理解してください。
 
 ## 前提条件
 
@@ -78,7 +78,7 @@ A1: はい、Aspose.PSD for Java は、JPEG、BMP、TIFF などを含むさま�
 
 ### Q2: Aspose.PSD for Java の無料トライアルはありますか?
 
- A2: はい、次のサイトにアクセスして、Aspose.PSD for Java の無料トライアルを試すことができます。[このリンク](https://releases.aspose.com/).
+ A2: はい、にアクセスすると、Aspose.PSD for Java の無料トライアルを試すことができます。[このリンク](https://releases.aspose.com/).
 
 ### Q3: Aspose.PSD for Java の包括的なドキュメントはどこで見つけられますか?
 
@@ -90,4 +90,4 @@ A1: はい、Aspose.PSD for Java は、JPEG、BMP、TIFF などを含むさま�
 
 ### Q5: Aspose.PSD for Java の一時ライセンスは利用できますか?
 
- A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).

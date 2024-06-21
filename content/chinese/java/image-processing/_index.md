@@ -29,11 +29,11 @@ url: /zh/java/image-processing/
 
 ## 二值化的释放：固定阈值和大津阈值
 
-通过我们的教程深入了解图像分割的世界[固定阈值二值化](./binarization-fixed-threshold/)和[使用 Otsu 阈值进行二值化](./binarization-otsu-threshold/)在 Aspose.PSD for Java 中。探索固定阈值和大津阈值，这是无缝转换图像的强大技术。揭开有效图像二值化背后的秘密，并为您的 Java 图像处理任务增添一丝精确度。
+通过我们的教程深入了解图像分割的世界[固定阈值二值化](./binarization-fixed-threshold/)和[使用 Otsu 阈值进行二值化](./binarization-otsu-threshold/)在 Java 的 Aspose.PSD 中。探索固定阈值和大津阈值，这是无缝转换图像的强大技术。揭开有效图像二值化背后的秘密，并为您的 Java 图像处理任务增添一丝精确度。
 
 ## 利用 Bradley 阈值提升图像质量
 
-精度与效率的结合[布拉德利阈值](./bradley-thresholding/)在 Aspose.PSD for Java 中。通过我们的分步指南了解增强图像质量的艺术。释放该技术的潜力，实现有效的图像二值化，确保您的视觉效果清晰锐利。
+精度与效率的结合[布拉德利阈值](./bradley-thresholding/)在 Java 的 Aspose.PSD 中。通过我们的分步指南了解增强图像质量的艺术。释放该技术的潜力，实现有效的图像二值化，确保您的视觉效果清晰锐利。
 
 ## Java 中的无缝 PSD 文件裁剪
 
@@ -48,7 +48,7 @@ url: /zh/java/image-processing/
 ### [使用 Aspose.PSD for Java 应用中值和维纳滤波器](./apply-median-wiener-filters/)
 使用 Aspose.PSD 探索 Java 图像处理的强大功能。了解如何逐步应用中值滤波器和维纳滤波器。毫不费力地提高图像质量。
 ### [使用 Aspose.PSD for Java 应用运动维纳滤波器](./apply-motion-wiener-filters/)
-使用 Aspose.PSD 掌握 Java 中的图像处理。使用我们的分步指南轻松应用运动维纳滤波器。
+使用 Aspose.PSD 掌握 Java 图像处理。使用我们的分步指南轻松应用运动维纳滤波器。
 ### [Aspose.PSD for Java 中具有固定阈值的二值化](./binarization-fixed-threshold/)
 在 Aspose.PSD for Java 中探索具有固定阈值的二值化。使用我们的分步指南无缝转换图像。
 ### [Aspose.PSD for Java 中使用 Otsu Threshold 进行二值化](./binarization-otsu-threshold/)

@@ -92,7 +92,7 @@ Dalam tutorial ini, kami telah memandu Anda melalui proses menggabungkan gambar 
 
 A1: Ya, Aspose.PSD kompatibel dengan semua versi .NET, memastikan keserbagunaan dalam proyek pengembangan Anda.
 
-### Q2: Bisakah saya menggunakan Aspose.PSD untuk tujuan komersial?
+### Q2: Dapatkah saya menggunakan Aspose.PSD untuk tujuan komersial?
 
 A2: Ya, Aspose.PSD dapat digunakan untuk tujuan pribadi dan komersial. Periksa detail lisensi[Di Sini](https://purchase.aspose.com/buy).
 
@@ -102,8 +102,8 @@ A2: Ya, Aspose.PSD dapat digunakan untuk tujuan pribadi dan komersial. Periksa d
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.PSD?
 
-A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

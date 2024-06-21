@@ -13,7 +13,7 @@ Bem-vindo ao nosso guia completo sobre como usar Aspose.PSD para Java para conve
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 -  Biblioteca Aspose.PSD para Java: Certifique-se de ter a biblioteca Aspose.PSD para Java instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/psd/java/).
 - Ambiente de Desenvolvimento Java: Configure um ambiente de desenvolvimento Java em sua máquina.
-- Arquivo PSD de amostra: prepare um arquivo PSD CMYK de amostra que deseja converter.
+- Arquivo PSD de amostra: Prepare um arquivo PSD CMYK de amostra que deseja converter.
 ## Importar pacotes
 Em seu projeto Java, importe os pacotes Aspose.PSD necessários para começar:
 ```java

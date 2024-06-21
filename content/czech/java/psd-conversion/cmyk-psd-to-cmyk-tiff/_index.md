@@ -21,7 +21,7 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
-Nyní si rozdělme proces převodu do několika kroků:
+Nyní rozdělme proces převodu do několika kroků:
 ## Krok 1: Nastavte adresář dokumentů
 ```java
 // Cesta k adresáři dokumentů.

@@ -73,11 +73,11 @@ Toutes nos félicitations! Vous avez travaillé avec succès avec les effets d'�
 
 ### A3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez explorer un essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une licence temporaire ?
 
- A4 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Obtenez un permis temporaire.[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Besoin d'aide ou avez-vous des questions ?
 

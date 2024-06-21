@@ -71,7 +71,7 @@ Cevap1: Hayır, Aspose.PSD özellikle .NET uygulamaları için tasarlanmıştır
 
 ### S3: Lisans satın almadan önce Aspose.PSD'yi ücretsiz deneyebilir miyim?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için ayrıntılı belgeleri nerede bulabilirim?
 

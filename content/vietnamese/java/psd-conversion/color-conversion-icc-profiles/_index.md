@@ -11,7 +11,7 @@ url: /vi/java/psd-conversion/color-conversion-icc-profiles/
 Chào mừng bạn đến với hướng dẫn toàn diện về chuyển đổi màu bằng cấu hình ICC trong Aspose.PSD cho Java. Trong hướng dẫn này, chúng ta sẽ khám phá các bước thực hiện chuyển đổi màu, nhấn mạnh việc sử dụng cấu hình ICC để đạt được kết quả chính xác và nhất quán. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình với các giải thích và ví dụ chi tiết.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-1.  Aspose.PSD cho Thư viện Java: Đảm bảo bạn đã cài đặt thư viện Aspose.PSD. Bạn có thể tải nó xuống từ[phát hành](https://releases.aspose.com/psd/java/) trang.
+1.  Aspose.PSD for Java Library: Đảm bảo bạn đã cài đặt thư viện Aspose.PSD. Bạn có thể tải nó xuống từ[phát hành](https://releases.aspose.com/psd/java/) trang.
 2. Môi trường phát triển Java: Môi trường phát triển Java hoạt động là điều cần thiết để thực thi mã. Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 3. Cấu hình ICC: Lấy cấu hình ICC cần thiết để chuyển đổi màu. Bạn có thể tìm thấy hồ sơ phù hợp, chẳng hạn như`eciRGB_v2.icc` Và`ISOcoated_v2_FullGamut4.icc`, từ những nguồn đáng tin cậy.
 ## Gói nhập khẩu
@@ -67,7 +67,7 @@ image.save(dataDir + "Ycck_profiles.jpg", options);
 ```
 Hãy thực hiện cẩn thận các bước sau để thực hiện chuyển đổi màu bằng cách sử dụng cấu hình ICC với Aspose.PSD cho Java.
 ## Phần kết luận
-Trong hướng dẫn này, chúng ta đã khám phá quá trình chuyển đổi màu bằng cách sử dụng cấu hình ICC trong Aspose.PSD cho Java. Hiểu tầm quan trọng của việc thể hiện màu sắc chính xác là rất quan trọng trong các ứng dụng khác nhau và với Aspose.PSD, bạn có sẵn một công cụ mạnh mẽ.
+Trong hướng dẫn này, chúng ta đã khám phá quá trình chuyển đổi màu bằng cách sử dụng cấu hình ICC trong Aspose.PSD cho Java. Hiểu được tầm quan trọng của việc thể hiện màu sắc chính xác là rất quan trọng trong các ứng dụng khác nhau và với Aspose.PSD, bạn có sẵn một công cụ mạnh mẽ.
 ## Câu hỏi thường gặp
 ### Tôi có thể sử dụng cấu hình ICC tùy chỉnh với Aspose.PSD cho Java không?
 Vâng, bạn có thể. Chỉ cần thay thế cấu hình ICC được cung cấp bằng cấu hình tùy chỉnh của bạn trong mã.

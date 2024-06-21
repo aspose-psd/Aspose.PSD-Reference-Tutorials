@@ -111,7 +111,7 @@ A2: Abszolút! Az Aspose.PSD számos átalakítási lehetőséget biztosít a r�
 
 ### 3. kérdés: Hol találok további Aspose.PSD dokumentációt?
 
- V3: Olvassa el a dokumentációt[itt](https://reference.aspose.com/psd/java/).
+ V3: Olvassa el a dokumentációt.[itt](https://reference.aspose.com/psd/java/).
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
@@ -119,4 +119,4 @@ A2: Abszolút! Az Aspose.PSD számos átalakítási lehetőséget biztosít a r�
 
 ### 5. kérdés: Vannak közösségi fórumok az Aspose.PSD támogatására?
 
- V5: Igen, találhat támogatást és megbeszéléseket[itt](https://forum.aspose.com/c/psd/34).
+ V5: Igen, találhat támogatást és megbeszéléseket.[itt](https://forum.aspose.com/c/psd/34).

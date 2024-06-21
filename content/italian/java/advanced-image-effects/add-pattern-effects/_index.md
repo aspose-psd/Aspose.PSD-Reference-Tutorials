@@ -129,7 +129,7 @@ A1: Aspose.PSD per Java è progettato per funzionare in modo indipendente, ma è
 
 ### Q3: È disponibile una prova gratuita per Aspose.PSD per Java?
 
- R3: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere supporto per Aspose.PSD per Java?
 
@@ -137,4 +137,4 @@ A1: Aspose.PSD per Java è progettato per funzionare in modo indipendente, ma è
 
 ### Q5: posso ottenere una licenza temporanea per Aspose.PSD per Java?
 
-R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+R5: Sì, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).

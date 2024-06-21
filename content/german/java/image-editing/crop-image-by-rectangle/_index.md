@@ -59,7 +59,7 @@ if (!rasterImage.isCached()) {
 }
 ```
 
- Laden Sie das PSD-Bild in ein`RasterImage` Instanz und zwischenspeichern deren Daten.
+ Laden Sie das PSD-Bild in ein`RasterImage` Instanz und zwischenspeichern Sie deren Daten.
 
 ## Schritt 4: Erstellen und definieren Sie das Zuschneiderechteck
 
@@ -92,7 +92,7 @@ A1: Ja, Aspose.PSD für Java kann in verschiedene Java-Frameworks integriert wer
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
 
- A2: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A2: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F3: Wo finde ich zusätzliche Unterstützung oder Unterstützung?
 
@@ -100,7 +100,7 @@ A1: Ja, Aspose.PSD für Java kann in verschiedene Java-Frameworks integriert wer
 
 ### F4: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD für Java?
 
- A4: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+ A4: Sie können eine temporäre Lizenz erwerben.[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Welche Bildformate werden zum Zuschneiden in Aspose.PSD für Java unterstützt?
 

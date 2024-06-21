@@ -27,7 +27,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 ```
 Теперь давайте разберем процесс преобразования цветов в пошаговое руководство:
-## Шаг 1. Создайте новое изображение
+## Шаг 1. Создайте новое изображение.
 ```java
 String dataDir = "Your Document Directory";
 PsdImage image = new PsdImage(500, 500);

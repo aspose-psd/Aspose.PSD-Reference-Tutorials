@@ -10,7 +10,7 @@ url: /ko/net/psd-file-manipulation/export-images-multi-thread/
 .NET 개발 영역에서는 이미지를 효율적으로 관리하고 조작하는 것이 중요합니다. .NET용 Aspose.PSD는 개발자에게 PSD 파일을 원활하게 처리할 수 있는 강력한 도구를 제공합니다. 이 단계별 가이드에서는 .NET용 Aspose.PSD를 사용하여 멀티스레드 환경에서 이미지를 내보내는 과정을 살펴보겠습니다.
 ## 소개
 .NET용 Aspose.PSD는 개발자가 Photoshop 파일(PSD)을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 이 튜토리얼에서는 특히 다중 스레드 환경에서 이미지 내보내기의 복잡성을 자세히 살펴봅니다. 멀티스레딩은 작업을 병렬화하여 성능을 크게 향상시킬 수 있으므로 이미지 처리에 유용한 기술입니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.PSD: 다음에서 .NET용 Aspose.PSD 라이브러리를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/psd/net/).
 - 출력 디렉터리: 내보낸 이미지가 저장될 디렉터리 경로를 정의합니다.
@@ -68,7 +68,7 @@ A1: 예, .NET용 Aspose.PSD는 다양한 버전의 Photoshop 파일을 지원하
 
 ### Q3: .NET용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 
- A3: Aspose.PSD 커뮤니티에 가입하세요[법정](https://forum.aspose.com/c/psd/34) 전문가와 동료 개발자의 도움을 받으세요.
+ A3: Aspose.PSD 커뮤니티에 가입하세요.[법정](https://forum.aspose.com/c/psd/34) 전문가와 동료 개발자의 도움을 받으세요.
 
 ### Q4: 무료 평가판이 제공됩니까?
 

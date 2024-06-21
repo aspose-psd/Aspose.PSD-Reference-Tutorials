@@ -99,7 +99,7 @@ A1: Abszolút! Az Aspose.PSD for Java egy hatékony könyvtár, amelyet professz
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, felfedezhet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezhet egy ingyenes próbaverziót.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok részletes dokumentációt?
 
@@ -107,4 +107,4 @@ A1: Abszolút! Az Aspose.PSD for Java egy hatékony könyvtár, amelyet professz
 
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
 
- 5. válasz: Csatlakozzon a közösségi fórumhoz[itt](https://forum.aspose.com/c/psd/34) bármilyen támogatási kérdés esetén.
+ 5. válasz: Csatlakozzon a közösségi fórumhoz.[itt](https://forum.aspose.com/c/psd/34) bármilyen támogatási kérdés esetén.

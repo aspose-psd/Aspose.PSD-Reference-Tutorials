@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## الخطوة 4: تطبيق مرشح التمويه الضبابي
+## الخطوة 4: تطبيق مرشح التمويه الضبابي.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## خاتمة
 
-تهانينا! لقد نجحت في تعتيم الصورة باستخدام Aspose.PSD لـ .NET. يوفر هذا البرنامج التعليمي لمحة عن إمكانيات Aspose.PSD ويفتح الباب أمام عدد لا يحصى من إمكانيات معالجة الصور في تطبيقات .NET الخاصة بك.
+تهانينا! لقد نجحت في تعتيم الصورة باستخدام Aspose.PSD لـ .NET. يوفر هذا البرنامج التعليمي لمحة عن إمكانيات Aspose.PSD ويفتح الباب أمام العديد من الإمكانيات لمعالجة الصور في تطبيقات .NET الخاصة بك.
 
 ## الأسئلة الشائعة
 

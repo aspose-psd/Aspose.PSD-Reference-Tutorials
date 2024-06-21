@@ -8,7 +8,7 @@ weight: 15
 url: /pl/java/psd-conversion/gif-image-layers-to-tiff/
 ---
 ## Wstęp
-Szukasz niezawodnego rozwiązania do konwersji warstw obrazów GIF do formatu TIFF przy użyciu języka Java? Aspose.PSD dla Java zapewnia potężny i skuteczny sposób na osiągnięcie tego zadania. W tym samouczku krok po kroku poprowadzimy Cię przez proces wykorzystania Aspose.PSD do płynnej konwersji warstw z obrazu PSD na obrazy TIFF. Zanurzmy się!
+Szukasz niezawodnego rozwiązania do konwersji warstw obrazów GIF do formatu TIFF przy użyciu języka Java? Aspose.PSD dla Java zapewnia potężny i skuteczny sposób na osiągnięcie tego zadania. W tym samouczku krok po kroku przeprowadzimy Cię przez proces wykorzystania Aspose.PSD do płynnej konwersji warstw z obrazu PSD na obrazy TIFF. Zanurzmy się!
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 - Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
@@ -27,7 +27,7 @@ import java.io.FileNotFoundException;
 ## Krok 1: Skonfiguruj swoje środowisko
  Upewnij się, że masz zainstalowaną wersję Java i Aspose.PSD for Java w swoim systemie. Jeśli nie, zapoznaj się z pkt[dokumentacja](https://reference.aspose.com/psd/java/) w celu uzyskania instrukcji instalacji.
 ## Krok 2: Zaimportuj bibliotekę Aspose.PSD
- swoim projekcie Java dołącz bibliotekę Aspose.PSD, dodając ją do zależności projektu. Możesz pobrać bibliotekę[Tutaj](https://releases.aspose.com/psd/java/).
+ W swoim projekcie Java dołącz bibliotekę Aspose.PSD, dodając ją do zależności projektu. Możesz pobrać bibliotekę[Tutaj](https://releases.aspose.com/psd/java/).
 ## Krok 3: Utwórz obiekt obrazu PSD
 Załaduj plik obrazu PSD do aplikacji Java, korzystając z dostarczonego kodu. Zastąp „Twój katalog dokumentów” i „sample.psd” odpowiednimi ścieżkami.
 ```java

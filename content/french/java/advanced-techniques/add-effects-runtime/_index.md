@@ -94,4 +94,4 @@ A2 : Oui, Aspose.PSD prend en charge un large éventail de formats d'image, nota
 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A5 : Oui, vous pouvez explorer la version d'essai gratuite[ici](https://releases.aspose.com/).
+ A5 : Oui, vous pouvez explorer la version d'essai gratuite.[ici](https://releases.aspose.com/).

@@ -103,7 +103,7 @@ A2: Timeline クラスは、PSD 画像専用に設計されています。 GIF �
 
 ### Q4: Aspose.PSD for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
- A4: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+ A4: 仮免許を取得してください。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Aspose.PSD for .NET を使用する主な利点は何ですか?
 

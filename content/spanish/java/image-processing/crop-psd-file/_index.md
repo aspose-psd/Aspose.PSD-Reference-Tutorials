@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Guarde la imagen recortada en formato PSD usando la ruta especificada.
 
-## Paso 5: guarde la imagen recortada como PNG
+## Paso 5: guarde la imagen recortada como PNG.
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -105,4 +105,4 @@ R2: Sí, Aspose.PSD para Java está optimizado para el rendimiento, lo que lo ha
 
 ### P5: ¿Puedo probar Aspose.PSD para Java antes de comprarlo?
 
- R5: Sí, explore las funciones con una prueba gratuita disponible[aquí](https://releases.aspose.com/).
+ R5: Sí, explore las funciones con una prueba gratuita disponible.[aquí](https://releases.aspose.com/).

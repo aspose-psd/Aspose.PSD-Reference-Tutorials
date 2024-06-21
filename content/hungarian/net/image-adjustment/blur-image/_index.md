@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## 4. lépés: Alkalmazza a Gauss-elmosódás szűrőt
+## 4. lépés: Alkalmazza a Gauss-elmosódás szűrőt.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen elhomályosított egy képet az Aspose.PSD for .NET használatával. Ez az oktatóanyag bepillantást nyújt az Aspose.PSD képességeibe, és számtalan lehetőség előtt nyitja meg az ajtót a .NET-alkalmazások képkezelésére.
+Gratulálunk! Sikeresen elhomályosított egy képet az Aspose.PSD for .NET használatával. Ez az oktatóanyag bepillantást nyújt az Aspose.PSD képességeibe, és megnyitja az ajtót a .NET-alkalmazások képkezelési lehetőségei előtt.
 
 ## GYIK
 
@@ -84,7 +84,7 @@ Gratulálunk! Sikeresen elhomályosított egy képet az Aspose.PSD for .NET hasz
 
 ### 2. kérdés: Az Aspose.PSD kompatibilis az összes képformátummal?
 
-2. válasz: Míg az Aspose.PSD a képformátumok széles skáláját támogatja, ajánlatos a dokumentációban megnézni a teljes listát és a formátum-specifikus szempontokat.
+2. válasz: Míg az Aspose.PSD a képformátumok széles skáláját támogatja, ajánlatos a dokumentációban megnézni a teljes listát és a formátumspecifikus szempontokat.
 
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 

@@ -11,7 +11,7 @@ url: /ko/java/advanced-image-effects/add-stroke-layer-color/
 
 Aspose.PSD를 사용하여 Java 애플리케이션의 그래픽 디자인 잠재력을 활용해 보세요. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 획 레이어 색상을 추가하는 흥미로운 세계를 탐구합니다. 눈에 띄는 획으로 그래픽을 향상시켜 시각적으로 매력적인 디자인을 손쉽게 만들어 보세요.
 
-## 전제 조건
+## 전제조건
 
 이 창의적인 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 
@@ -119,4 +119,4 @@ A2: 물론이죠! Aspose.PSD는 최신 PSD 파일 형식 사양과 보조를 맞
 
 ### Q5: Aspose.PSD 임시 라이선스는 어디서 구할 수 있나요?
 
- A5: 획득[임시 면허증](https://purchase.aspose.com/temporary-license/) Aspose.PSD가 프로젝트의 기능을 평가합니다.
+ A5: 획득[임시면허](https://purchase.aspose.com/temporary-license/) Aspose.PSD가 프로젝트의 기능을 평가합니다.

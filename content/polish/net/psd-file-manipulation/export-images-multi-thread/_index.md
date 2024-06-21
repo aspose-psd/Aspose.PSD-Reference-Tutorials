@@ -60,7 +60,7 @@ Opanowanie wielowątkowego eksportu obrazów za pomocą Aspose.PSD dla .NET otwi
 
 ### P1: Czy Aspose.PSD dla .NET jest kompatybilny ze wszystkimi wersjami plików Photoshopa?
 
-O1: Tak, Aspose.PSD dla .NET obsługuje różne wersje plików Photoshop, zapewniając kompatybilność z szeroką gamą plików PSD.
+Odpowiedź 1: Tak, Aspose.PSD dla .NET obsługuje różne wersje plików Photoshop, zapewniając kompatybilność z szeroką gamą plików PSD.
 
 ### P2: Czy mogę używać Aspose.PSD do projektów komercyjnych?
 
@@ -68,11 +68,11 @@ O1: Tak, Aspose.PSD dla .NET obsługuje różne wersje plików Photoshop, zapewn
 
 ### P3: Jak mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 
- A3: Dołącz do społeczności Aspose.PSD[forum](https://forum.aspose.com/c/psd/34) aby uzyskać pomoc od ekspertów i innych programistów.
+ A3: Dołącz do społeczności Aspose.PSD.[forum](https://forum.aspose.com/c/psd/34) aby uzyskać pomoc od ekspertów i innych programistów.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/) aby poznać funkcje Aspose.PSD dla .NET przed podjęciem zobowiązania.
+ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/) aby poznać funkcje Aspose.PSD dla .NET przed podjęciem zobowiązania.
 
 ### P5: Jak uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 

@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Kode Anda untuk Penggantian Font ada di sini
+    // Kode Anda untuk Penggantian Font ada di sini.
 }
 ```
 

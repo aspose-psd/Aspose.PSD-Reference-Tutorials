@@ -65,7 +65,7 @@ GradientOverlayEffect gradientOverlay = (GradientOverlayEffect)im.getLayers()[1]
 Assert.areEqual(BlendMode.Normal, gradientOverlay.getBlendMode());
 Assert.areEqual(255, gradientOverlay.getOpacity());
 Assert.areEqual(true, gradientOverlay.isVisible());
-// ... (дополнительные проверки)
+// ...(дополнительные проверки)
 ```
 
 Убедитесь, что первоначальные настройки наложения градиента соответствуют вашим требованиям.
@@ -77,12 +77,12 @@ Assert.areEqual(true, gradientOverlay.isVisible());
 settings.setColor(Color.getGreen());
 gradientOverlay.setOpacity((byte)193);
 gradientOverlay.setBlendMode(BlendMode.Lighten);
-//... (дополнительные модификации)
+//...(дополнительные модификации)
 ```
 
 Настройте параметры градиента в соответствии со своими предпочтениями.
 
-## Шаг 4. Сохраните отредактированное изображение
+## Шаг 4. Сохраните отредактированное изображение.
 
 ```java
 // Сохраните отредактированное изображение
@@ -98,7 +98,7 @@ im.save(exportPath);
 PsdImage img = (PsdImage)Image.load(sourceFileName, loadOptions);
 
 GradientOverlayEffect gradientOverlayEffect = (GradientOverlayEffect)img.getLayers()[1].getBlendingOptions().getEffects()[0];
-// ... (дополнительные проверки)
+// ...(дополнительные проверки)
 ```
 
 Убедитесь, что изменения успешно применены к изображению.

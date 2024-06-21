@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## Stap 2: Gamma aanpassen
 
- Pas nu het gamma van de geladen afbeelding aan met behulp van de`adjustGamma` methode. Verfijn de gammawaarden volgens uw vereisten.
+ Pas nu het gamma van de geladen afbeelding aan met behulp van de`adjustGamma` methode. Stem de gammawaarden af op basis van uw vereisten.
 
 ```java
 // Pas het gamma aan

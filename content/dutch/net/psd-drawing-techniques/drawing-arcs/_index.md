@@ -93,11 +93,11 @@ Gefeliciteerd! Je hebt met succes geleerd hoe je bogen tekent met Aspose.PSD voo
 
 ### V1: Waar kan ik de documentatie voor Aspose.PSD voor .NET vinden?
 
- A1: De documentatie is te vinden[hier](https://reference.aspose.com/psd/net/).
+ A1: De documentatie is te vinden.[hier](https://reference.aspose.com/psd/net/).
 
 ### Vraag 2: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD?
 
- A2: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A2: U kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V3: Is er een communityforum voor Aspose.PSD-ondersteuning?
 
@@ -105,8 +105,8 @@ Gefeliciteerd! Je hebt met succes geleerd hoe je bogen tekent met Aspose.PSD voo
 
 ### V4: Waar kan ik een licentie voor Aspose.PSD kopen?
 
- A4: U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+ A4: U kunt een licentie kopen.[hier](https://purchase.aspose.com/buy).
 
 ### V5: Kan ik Aspose.PSD voor .NET gratis uitproberen voordat ik een aankoop doe?
 
- A5: Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
+ A5: Ja, u kunt een gratis proefversie downloaden.[hier](https://releases.aspose.com/).

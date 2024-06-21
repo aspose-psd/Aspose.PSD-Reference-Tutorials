@@ -85,4 +85,4 @@ A3: La documentación está disponible.[aquí](https://reference.aspose.com/psd/
 
 ### P5: ¿Cómo compro una licencia de Aspose.PSD para .NET?
 
- R5: Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+ R5: Puedes comprar una licencia.[aquí](https://purchase.aspose.com/buy).

@@ -39,7 +39,7 @@ int[] pixels = new int[count];
 int r = 0, g = 0, b = 0, channel = 0;
 for (int i = 0; i < count; i++) {
     // เติมพิกเซลด้วยค่าสี
-    // ...
+    // -
 }
 // บันทึกพิกเซลที่สร้างขึ้นใหม่
 image.saveArgb32Pixels(image.getBounds(), pixels);

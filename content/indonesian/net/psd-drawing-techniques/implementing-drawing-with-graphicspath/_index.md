@@ -51,7 +51,7 @@ Pada langkah ini, kita menginisialisasi sebuah instance dari kelas PsdImage dan 
 ## Langkah 2: Membuat GraphicsPath dan Gambar
 
 ```csharp
-// Buat instance GraphicsPath dan Instance of Figure, tambahkan EllipseShape, RectangleShape, dan TextShape ke gambar
+// Buat instance GraphicsPath dan Instance of Figure, tambahkan EllipseShape, RectangleShape, dan TextShape ke gambar.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A4: Ya, Aspose.PSD untuk .NET menyediakan fungsionalitas untuk bekerja dengan la
 
 ### Q5: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A5: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/net/).
+ A5: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/net/).

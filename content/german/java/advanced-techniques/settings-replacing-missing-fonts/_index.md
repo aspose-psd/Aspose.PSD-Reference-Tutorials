@@ -97,7 +97,7 @@ A2: Ja, Sie können benutzerdefinierte Ersatzschriftarten entsprechend Ihren Des
 
 ### F3: Gibt es Lizenzoptionen für Aspose.PSD?
 
- A3: Entdecken Sie die Lizenzoptionen[Hier](https://purchase.aspose.com/buy)um den besten Plan für Ihre Bedürfnisse auszuwählen.
+ A3: Entdecken Sie die Lizenzoptionen.[Hier](https://purchase.aspose.com/buy)um den besten Plan für Ihre Bedürfnisse auszuwählen.
 
 ### F4: Gibt es ein Community-Forum für Aspose.PSD-Unterstützung?
 

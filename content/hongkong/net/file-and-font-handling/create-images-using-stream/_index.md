@@ -102,7 +102,7 @@ A2: 尺寸可自訂；相應地調整 Image.Create 方法中的參數。
 
 ### Q3：Aspose.PSD for .NET 有沒有免費試用版？
 
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
 
 ### Q4：如何獲得 Aspose.PSD 的支援？
 
@@ -110,4 +110,4 @@ A2: 尺寸可自訂；相應地調整 Image.Create 方法中的參數。
 
 ### Q5：有臨時許可證嗎？
 
- A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A5: 是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).

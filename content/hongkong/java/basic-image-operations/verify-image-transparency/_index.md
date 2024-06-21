@@ -85,4 +85,4 @@ A1：是的，Aspose.PSD for Java 旨在與其他 Java 程式庫無縫協作，�
 
 ### Q5：測試需要臨時許可證嗎？
 
- A5：如果您正在測試該庫，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：如果您正在測試該庫，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).

@@ -96,8 +96,8 @@ A1:Ano, Aspose.PSD podporuje různé formáty obrázků, díky čemuž je binari
 
 ### Q4: Jak mohu zakoupit knihovnu Aspose.PSD?
 
- A4: Můžete si zakoupit knihovnu Aspose.PSD[tady](https://purchase.aspose.com/buy).
+ A4: Můžete si zakoupit knihovnu Aspose.PSD.[tady](https://purchase.aspose.com/buy).
 
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
- A5: Ano, můžete prozkoumat možnosti Aspose.PSD pomocí bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat možnosti Aspose.PSD pomocí bezplatné zkušební verze.[tady](https://releases.aspose.com/).

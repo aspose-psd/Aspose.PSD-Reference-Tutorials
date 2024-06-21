@@ -15,7 +15,7 @@ V oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro práci se 
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-- Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
 
 - Prostředí .NET: Mějte na svém počítači nastavené funkční vývojové prostředí .NET.
 
@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Zde je váš kód pro výměnu písem
+    // Zde je váš kód pro výměnu písem.
 }
 ```
 

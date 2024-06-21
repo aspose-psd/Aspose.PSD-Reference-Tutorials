@@ -110,7 +110,7 @@ Chúc mừng! Bạn đã triển khai thành công tính năng hỗ trợ cho ch
 
 ### Câu 3: Tôi có thể dùng thử Aspose.PSD trước khi mua không?
 
- Câu trả lời 3: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 

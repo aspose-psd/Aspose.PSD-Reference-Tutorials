@@ -82,7 +82,7 @@ I den här handledningen täckte vi de väsentliga stegen för att ändra storle
 
 ### F3: Finns tillfälliga licenser tillgängliga för teständamål?
 
- A3: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för utvärdering.
+ A3: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för utvärdering.
 
 ### F4: Var kan jag hitta support för Aspose.PSD?
 

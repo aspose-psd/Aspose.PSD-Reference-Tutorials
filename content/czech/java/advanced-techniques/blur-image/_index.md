@@ -87,7 +87,7 @@ A1: Rozhodně! Aspose.PSD přichází s komplexní dokumentací, která má vés
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.PSD pro Java?
 
@@ -95,4 +95,4 @@ A1: Rozhodně! Aspose.PSD přichází s komplexní dokumentací, která má vés
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.PSD?
 
- A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

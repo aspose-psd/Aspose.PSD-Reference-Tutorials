@@ -11,7 +11,7 @@ När det gäller bildmanipulation framstår Aspose.PSD för .NET som en kraftful
 
 ## Introduktion
 
-Att ändra storlek på bilder proportionellt är en vanlig uppgift i många applikationer, och Aspose.PSD för .NET förenklar denna process för utvecklare. Oavsett om du arbetar med en webbapplikation, datorprogramvara eller mobilapp är det avgörande att förstå hur man ändrar storlek på bilder samtidigt som de behåller deras bildförhållande för att bibehålla visuell tilltalande och konsekvens.
+Att ändra storlek på bilder proportionellt är en vanlig uppgift i många applikationer, och Aspose.PSD för .NET förenklar denna process för utvecklare. Oavsett om du arbetar med en webbapplikation, datorprogramvara eller mobilapp är det avgörande att förstå hur man ändrar storlek på bilder samtidigt som deras bildförhållande bevaras för att bibehålla visuell tilltalande och konsekvens.
 
 ## Förutsättningar
 

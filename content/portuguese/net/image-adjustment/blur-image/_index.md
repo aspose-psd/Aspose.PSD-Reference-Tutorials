@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Etapa 4: aplicar filtro de desfoque gaussiano
+## Etapa 4: aplique o filtro de desfoque gaussiano.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Aqui o`GaussianBlurFilterOptions` classe é utilizada com um raio especificado de 15 para desfoque horizontal e vertical.
+ Aqui o`GaussianBlurFilterOptions` classe é usada com um raio especificado de 15 para desfoque horizontal e vertical.
 
 ## Etapa 5: salve a imagem desfocada
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Conclusão
 
-Parabéns! Você desfocou uma imagem com sucesso usando Aspose.PSD para .NET. Este tutorial fornece uma visão geral dos recursos do Aspose.PSD e abre as portas para uma infinidade de possibilidades de manipulação de imagens em seus aplicativos .NET.
+Parabéns! Você desfocou uma imagem com sucesso usando Aspose.PSD para .NET. Este tutorial fornece uma visão geral dos recursos do Aspose.PSD e abre a porta para uma infinidade de possibilidades de manipulação de imagens em seus aplicativos .NET.
 
 ## Perguntas frequentes
 

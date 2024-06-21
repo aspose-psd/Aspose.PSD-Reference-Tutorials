@@ -10,7 +10,7 @@ url: /de/java/advanced-image-manipulation/
 
 ## Einführung
 
-Wenn Sie in die Welt der erweiterten Bildbearbeitung in Java eintauchen, ist Aspose.PSD genau das Richtige für Sie. In diesem Leitfaden führen wir Sie durch eine Reihe von Tutorials, die jeweils eine neue Dimension der Bildverarbeitungsfunktionen mit Aspose.PSD für Java eröffnen.
+Wenn Sie in die Welt der erweiterten Bildbearbeitung in Java eintauchen, ist Aspose.PSD genau das Richtige für Sie. In diesem Leitfaden führen wir Sie durch eine Reihe von Tutorials, die jeweils eine neue Dimension der Bildverarbeitungsfunktionen mit Aspose.PSD für Java erschließen.
 
 ## Effizienter Schriftaustausch in Bildern
 ### [Ersetzen Sie Schriftarten in Aspose.PSD für Java](./replace-fonts/)
@@ -30,7 +30,7 @@ Optimieren Sie Ihre Webbilder nahtlos mit Aspose.PSD für den verlustbehafteten 
 
 ## Anpassungsebene umkehren für nahtlose PSD-Manipulation
 ### [Anpassungsebene in Aspose.PSD für Java umkehren](./invert-adjustment-layer/)
-Tauchen Sie ein in die Leistungsfähigkeit der Invert Adjustment Layer in Aspose.PSD für Java. Nutzen Sie mit unserem umfassenden Tutorial die nahtlose Bearbeitung von PSD-Dateien.
+Tauchen Sie ein in die Leistungsfähigkeit der Invert Adjustment Layer in Aspose.PSD für Java. Entfesseln Sie die nahtlose Bearbeitung von PSD-Dateien mit unserem umfassenden Tutorial.
 
 ## Dynamische Farbüberlagerungen mit Rendering-Farbeffekt
 ### [Wenden Sie den Rendering-Farbeffekt in Aspose.PSD für Java an](./rendering-color-effect/)

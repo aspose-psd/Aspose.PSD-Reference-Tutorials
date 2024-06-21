@@ -56,7 +56,7 @@ url: /zh-hant/java/advanced-image-manipulation/
 ### [使用 Aspose.PSD for Java 將影像旋轉特定角度](./rotate-image-specific-angle/)
 使用 Aspose.PSD for Java 深入研究 Java 中的影像旋轉。使用我們的詳細教學輕鬆以特定角度旋轉圖像。
 
-使用 Aspose.PSD 釋放 Java 中影像處理的全部潛力。我們的教學提供瞭如何利用這個多功能庫的強大功能的全面指南，確保您的專案憑藉卓越的影像處理功能脫穎而出。立即投入並提升您的 Java 開發技能！
+使用 Aspose.PSD 釋放 Java 中影像處理的全部潛力。我們的教學提供如何利用這個多功能庫的強大功能的全面指南，確保您的專案憑藉卓越的影像處理功能脫穎而出。立即投入並提升您的 Java 開發技能！
 ## 進階影像處理教程
 ### [取代 Aspose.PSD for Java 中的字體](./replace-fonts/)
 了解如何使用 Aspose.PSD for Java 取代圖片中的字型。請按照我們的逐步指南進行有效的字體操作。

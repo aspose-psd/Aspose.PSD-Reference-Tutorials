@@ -82,7 +82,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java tương thích với Java phiên b�
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.PSD bằng cách truy cập[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.PSD bằng cách truy cập.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 

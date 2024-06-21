@@ -103,7 +103,7 @@ A2: Die Timeline-Klasse ist speziell für PSD-Bilder konzipiert. Informationen z
 
 ### F4: Wie kann ich eine temporäre Lizenz für Aspose.PSD für .NET erhalten?
 
- A4: Erwerben Sie eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+ A4: Erwerben Sie eine temporäre Lizenz.[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Was sind die Hauptvorteile der Verwendung von Aspose.PSD für .NET?
 

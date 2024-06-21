@@ -9,7 +9,7 @@ url: /hu/net/image-effects/add-effect-runtime/
 ---
 ## Bevezetés
 
-A képek vizuális vonzerejének fokozása általános követelmény a grafikai tervezésben és a képfeldolgozó alkalmazásokban. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk hozzá effektusokat futás közben az Aspose.PSD for .NET használatával. Az Aspose.PSD egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak Adobe Photoshop fájlokkal. 
+képek vizuális vonzerejének fokozása általános követelmény a grafikai tervezésben és a képfeldolgozó alkalmazásokban. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk hozzá effektusokat futás közben az Aspose.PSD for .NET használatával. Az Aspose.PSD egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak Adobe Photoshop fájlokkal. 
 
 ## Előfeltételek
 
@@ -91,7 +91,7 @@ A2: Abszolút! Több effektust is láncolhat egy rétegen, így összetett vizu�
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet tesztelési célból?
 
- V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
+ V4: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
 
 ### 5. kérdés: Hol találhatok további támogatást és közösségi megbeszéléseket?
 

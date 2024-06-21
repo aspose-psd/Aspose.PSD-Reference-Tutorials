@@ -22,7 +22,7 @@ import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 Τώρα, ας αναλύσουμε τη διαδικασία μετατροπής σε πολλά βήματα:
-## Βήμα 1: Ρυθμίστε τον Κατάλογο εγγράφων
+## Βήμα 1: Ρυθμίστε τον Κατάλογο Εγγράφων
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";

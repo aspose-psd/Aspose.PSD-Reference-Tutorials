@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Βήμα 5: Αποθήκευση συμπιεσμένου GIF
+## Βήμα 5: Αποθήκευση συμπιεσμένου GIF.
 
  Αποθηκεύστε τη συμπιεσμένη εικόνα GIF χρησιμοποιώντας το`image.save` μέθοδο με την καθορισμένη`GifOptions`.
 
@@ -85,12 +85,12 @@ A1: Το Aspose.PSD για Java είναι μια ισχυρή βιβλιοθή�
 
 ### Ε3: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.PSD για Java;
 
-A3: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/java/).
+A3: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/java/).
 
 ### Ε4: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A4: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+ A4: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
 
 ### Ε5: Πώς μπορώ να αγοράσω Aspose.PSD για Java;
 
- A5: Μπορείτε να αγοράσετε τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy).
+ A5: Μπορείτε να αγοράσετε τη βιβλιοθήκη.[εδώ](https://purchase.aspose.com/buy).

@@ -9,7 +9,7 @@ url: /cs/java/image-processing/crop-psd-file/
 ---
 ## Úvod
 
-Ve světě vývoje v Javě je správa a manipulace se soubory PSD (Photoshop Document) běžným požadavkem. Aspose.PSD for Java se ukazuje jako mocný nástroj, který efektivně a přesně zjednodušuje proces ořezávání souborů PSD. Tento podrobný průvodce vás provede základy oříznutí souboru PSD pomocí Aspose.PSD pro Java a zajistí, že důkladně pochopíte každý koncept.
+Ve světě vývoje v Javě je správa a manipulace se soubory PSD (Photoshop Document) běžným požadavkem. Aspose.PSD for Java se ukazuje jako výkonný nástroj, který efektivně a přesně zjednodušuje proces ořezávání souborů PSD. Tento podrobný průvodce vás provede základy oříznutí souboru PSD pomocí Aspose.PSD pro Java a zajistí, že důkladně pochopíte každý koncept.
 
 ## Předpoklady
 
@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Uložte oříznutý obrázek ve formátu PSD pomocí zadané cesty.
 
-## Krok 5: Uložte oříznutý obrázek jako PNG
+## Krok 5: Uložte oříznutý obrázek jako PNG.
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -83,7 +83,7 @@ Kromě toho uložte oříznutý obrázek ve formátu PNG se specifickými možno
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak oříznout soubor PSD pomocí Aspose.PSD pro Java. Tento výukový program poskytuje základní pochopení klíčových kroků, které jsou součástí, a umožňuje vám bezproblémovou integraci této funkce do vašich aplikací Java.
+Gratulujeme! Úspěšně jste se naučili, jak oříznout soubor PSD pomocí Aspose.PSD pro Java. Tento výukový program poskytuje základní pochopení klíčových kroků a umožňuje bezproblémovou integraci této funkce do vašich aplikací Java.
 
 ## FAQ
 
@@ -105,4 +105,4 @@ Odpověď 2: Ano, Aspose.PSD for Java je optimalizován pro výkon, takže je vh
 
 ### Q5: Mohu vyzkoušet Aspose.PSD pro Java před nákupem?
 
- A5: Ano, prozkoumejte funkce pomocí bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ A5: Ano, prozkoumejte funkce pomocí bezplatné zkušební verze.[tady](https://releases.aspose.com/).

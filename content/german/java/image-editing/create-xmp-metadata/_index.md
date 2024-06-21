@@ -150,7 +150,7 @@ A3: Aspose.PSD ist für die Verarbeitung von Bildern unterschiedlicher Größe k
 
 ### F4: Gibt es eine Testversion für Aspose.PSD?
 
- A4: Ja, Sie können die Funktionen von Aspose.PSD erkunden, indem Sie eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können die Funktionen von Aspose.PSD erkunden, indem Sie eine kostenlose Testversion erhalten.[Hier](https://releases.aspose.com/).
 
 ### F5: Wo kann ich Unterstützung für Fragen zu Aspose.PSD erhalten?
 

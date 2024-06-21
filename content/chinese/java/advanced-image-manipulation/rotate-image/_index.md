@@ -83,4 +83,4 @@ A2：当然！ Aspose.PSD 提供了应用自定义旋转的灵活性，以满足
 
 ### Q5：如何获得临时驾照？
 
- A5：如果您需要临时许可证，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).
+ A5：如果您需要临时许可证，您可以获取一个。[这里](https://purchase.aspose.com/temporary-license/).

@@ -16,7 +16,7 @@ A .NET fejlesztés területén általános követelmény a tetszetős képek lé
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
 - .NET fejlesztési alapismeretek.
-- Visual Studio telepítve van a gépedre.
+- A Visual Studio telepítve van a gépedre.
 - Aspose.PSD .NET könyvtárhoz. Letöltheti a[weboldal](https://releases.aspose.com/psd/net/).
 
 ## Névterek importálása

@@ -58,7 +58,7 @@ Exporteer de geladen PSD-bestanden naar PNG-indeling. Pas de exportopties indien
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Opslaan als PNG met 100% dekking
+// Opslaan als PNG met 100% dekking.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Stel de dekking van specifieke lagen in de PSD-bestanden in. Hier stellen we de 
 // Stel de dekking in op 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Opslaan als PNG met een dekking van 50%
+// Opslaan als PNG met een dekking van 50%.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

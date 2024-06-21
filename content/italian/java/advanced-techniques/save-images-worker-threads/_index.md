@@ -106,11 +106,11 @@ A1: Sì, Aspose.PSD per Java fornisce il supporto per il multi-threading, consen
 
 ### Q2: Dove posso trovare la documentazione dettagliata per Aspose.PSD per Java?
 
- A2: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/psd/java/) per informazioni complete su Aspose.PSD per Java.
+ A2: È possibile fare riferimento alla documentazione.[Qui](https://reference.aspose.com/psd/java/) per informazioni complete su Aspose.PSD per Java.
 
 ### Q3: Come posso ottenere una licenza temporanea per Aspose.PSD per Java?
 
- A3: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) per esplorare tutte le funzionalità di Aspose.PSD per Java.
+ A3: Puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/) per esplorare tutte le funzionalità di Aspose.PSD per Java.
 
 ### Q4: Quali opzioni di supporto sono disponibili per Aspose.PSD per Java?
 

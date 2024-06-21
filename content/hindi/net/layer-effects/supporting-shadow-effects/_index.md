@@ -60,7 +60,7 @@ var shadowEffect = (DropShadowEffect)(image.Layers[1].BlendingOptions.Effects[0]
 ```csharp
 if ((shadowEffect.Color != Color.Black) ||
     (shadowEffect.Opacity != 255) ||
-    // अन्य पैरामीटरों के लिए शर्तें जोड़ें
+    // अन्य मापदंडों के लिए शर्तें जोड़ें
     )
 {
     throw new Exception("Shadow Effect was read wrong");

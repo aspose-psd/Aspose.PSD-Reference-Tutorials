@@ -128,7 +128,7 @@ R2: Sì, puoi applicare vari effetti, inclusa la sovrapposizione gradiente, a un
 
 ### Q4: È disponibile una prova gratuita?
 
- R4: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi accedere a una prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q5: Come posso ottenere supporto per Aspose.PSD?
 

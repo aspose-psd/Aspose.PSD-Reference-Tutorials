@@ -9,7 +9,7 @@ url: /vi/net/image-manipulation/adding-gradient-effects/
 ---
 ## Giới thiệu
 
-Cải thiện hình ảnh bằng hiệu ứng chuyển màu có thể thêm chiều hướng quyến rũ cho nội dung hình ảnh của bạn. Aspose.PSD for .NET cung cấp một nền tảng mạnh mẽ để kết hợp các lớp phủ chuyển màu vào hình ảnh của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hiệu ứng chuyển màu bằng Aspose.PSD cho .NET.
+Cải thiện hình ảnh bằng hiệu ứng chuyển màu có thể thêm chiều hướng quyến rũ cho nội dung hình ảnh của bạn. Aspose.PSD for .NET cung cấp một nền tảng mạnh mẽ để tích hợp các lớp phủ gradient vào hình ảnh của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hiệu ứng chuyển màu bằng Aspose.PSD cho .NET.
 
 ## Điều kiện tiên quyết
 
@@ -139,7 +139,7 @@ Câu trả lời 2: Aspose.PSD cho .NET hỗ trợ nhiều định dạng tệp 
 
 ### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.PSD cho .NET không?
 
- Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.PSD dành cho .NET bằng cách tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.PSD dành cho .NET bằng cách tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 

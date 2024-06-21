@@ -93,11 +93,11 @@ Grattis! Du har bemästrat de grundläggande ritfunktionerna i Aspose.PSD för .
 
 ### F1: Var kan jag hitta Aspose.PSD för .NET-dokumentationen?
 
- S1: Du kan komma åt dokumentationen[här](https://reference.aspose.com/psd/net/).
+ S1: Du kan komma åt dokumentationen.[här](https://reference.aspose.com/psd/net/).
 
 ### F2: Hur laddar jag ner Aspose.PSD för .NET?
 
- A2: Ladda ner den senaste versionen[här](https://releases.aspose.com/psd/net/).
+ A2: Ladda ner den senaste versionen.[här](https://releases.aspose.com/psd/net/).
 
 ### F3: Var kan jag köpa Aspose.PSD för .NET?
 
@@ -105,7 +105,7 @@ Grattis! Du har bemästrat de grundläggande ritfunktionerna i Aspose.PSD för .
 
 ### F4: Finns det en gratis provperiod?
 
- A4: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+ A4: Ja, du kan få en gratis provperiod.[här](https://releases.aspose.com/).
 
 ### F5: Var kan jag få support för Aspose.PSD för .NET?
 

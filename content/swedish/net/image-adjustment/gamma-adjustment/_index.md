@@ -23,7 +23,7 @@ Innan du går in i implementeringen, se till att du har följande förutsättnin
 
 ## Importera namnområden
 
-ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för att arbeta med Aspose.PSD:
+I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för att arbeta med Aspose.PSD:
 
 ```csharp
 using Aspose.PSD.FileFormats.Tiff.Enums;
@@ -88,16 +88,16 @@ Grattis! Du har framgångsrikt implementerat Gamma Adjustment med Aspose.PSD fö
 
 ### F2: Hur laddar jag ner Aspose.PSD för .NET?
 
- A2: Du kan ladda ner biblioteket[här](https://releases.aspose.com/psd/net/).
+ A2: Du kan ladda ner biblioteket.[här](https://releases.aspose.com/psd/net/).
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+ A3: Ja, du kan få en gratis provperiod.[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag få support för Aspose.PSD?
 
- S4: Du kan besöka supportforumet[här](https://forum.aspose.com/c/psd/34).
+ S4: Du kan besöka supportforumet.[här](https://forum.aspose.com/c/psd/34).
 
 ### F5: Behöver jag en tillfällig licens?
 
- S5: Om det behövs kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S5: Vid behov kan du få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).

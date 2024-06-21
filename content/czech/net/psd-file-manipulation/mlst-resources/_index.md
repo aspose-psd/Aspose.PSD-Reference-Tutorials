@@ -77,7 +77,7 @@ Odpověď 1: Ano, Aspose.PSD for .NET podporuje soubory PSD vytvořené v různ�
 
 ### Q3: Kde najdu podrobnou dokumentaci k Aspose.PSD pro .NET?
 
-A3: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
+A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -85,4 +85,4 @@ A3: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
 
 ### Q5: Jak mohu zakoupit licenci pro Aspose.PSD pro .NET?
 
- A5: Můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).

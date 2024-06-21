@@ -2,7 +2,7 @@
 title: Fájl- és betűtípuskezelés
 linktitle: Fájl- és betűtípuskezelés
 second_title: Aspose.PSD .NET API
-description: Emelje fel .NET fejlesztését az Aspose.PSD oktatóanyagokkal. Ismerje meg a betűkészlet-cserét, az XMP-metaadatok létrehozását és a gyorsítótár kezelését az optimális munkafolyamat-hatékonyság érdekében.
+description: Emelje fel .NET-fejlesztését az Aspose.PSD oktatóanyagokkal. Ismerje meg a betűkészlet-cserét, az XMP-metaadatok létrehozását és a gyorsítótár kezelését az optimális munkafolyamat-hatékonyság érdekében.
 type: docs
 weight: 27
 url: /hu/net/file-and-font-handling/

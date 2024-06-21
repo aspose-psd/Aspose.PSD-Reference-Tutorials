@@ -1,7 +1,7 @@
 ---
 title: Pangkas Gambar dengan Pergeseran di Aspose.PSD untuk Java
 linktitle: Pangkas Gambar dengan Pergeseran
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Kuasai pemotongan gambar dengan Aspose.PSD untuk Java. Tutorial komprehensif untuk manipulasi gambar tanpa hambatan.
 type: docs
 weight: 16

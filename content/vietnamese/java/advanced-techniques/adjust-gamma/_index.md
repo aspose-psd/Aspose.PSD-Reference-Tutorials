@@ -99,7 +99,7 @@ Chúc mừng! Bạn đã điều chỉnh thành công gamma của hình ảnh b�
 
 ### Câu 3: Tôi có thể mua Aspose.PSD ở đâu?
 
- A3: Thăm quan[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) để mua Aspose.PSD.
+ A3: Tham quan[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) để mua Aspose.PSD.
 
 ### Q4: Có bản dùng thử miễn phí không?
 

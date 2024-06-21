@@ -8,7 +8,7 @@ weight: 11
 url: /hu/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Bevezetés
-Üdvözöljük az Aspose.PSD for .NET Határinformációs Erőforrás funkciójának használatáról szóló, lépésről lépésre szóló útmutatónkban. Ebben az oktatóanyagban végigvezetjük a Border Information Resources kezelésének folyamatán az Aspose.PSD, egy hatékony .NET képalkotó könyvtár használatával. Akár tapasztalt fejlesztő, akár most kezdő, ennek az oktatóanyagnak a célja, hogy világossá tegye a határinformációs erőforrások zökkenőmentes beépítését projektjeibe.
+Üdvözöljük az Aspose.PSD for .NET Határinformációs Erőforrás funkciójának használatáról szóló, lépésről lépésre szóló útmutatónkban. Ebben az oktatóanyagban végigvezetjük a Border Information Resources kezelésének folyamatán az Aspose.PSD, egy hatékony .NET képalkotó könyvtár használatával. Akár tapasztalt fejlesztő, akár csak most kezdő, ennek az oktatóanyagnak a célja, hogy világossá tegye a határinformációs erőforrások zökkenőmentes integrálását projektjeibe.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következőkkel:
 -  Aspose.PSD for .NET: Győződjön meg arról, hogy telepítve van az Aspose.PSD könyvtár. Letöltheti a[Aspose.PSD weboldal](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ Gratulálunk! Sikeresen megtanulta a Border Information Resources használatát 
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást?
 
@@ -88,4 +88,4 @@ Gratulálunk! Sikeresen megtanulta a Border Information Resources használatát 
 
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek?
 
- V5: Igen, beszerezhet ideiglenes engedélyeket[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Igen, beszerezhet ideiglenes engedélyeket.[itt](https://purchase.aspose.com/temporary-license/).

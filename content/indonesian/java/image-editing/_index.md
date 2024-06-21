@@ -1,7 +1,7 @@
 ---
 title: Pengeditan Gambar
 linktitle: Pengeditan Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Temukan keajaiban Efek Hamparan Warna, penggabungan gambar, dan pemrosesan gambar mulus dengan Aspose.PSD. Tingkatkan permainan pengeditan gambar Anda dengan panduan kami.
 type: docs
 weight: 23
@@ -29,7 +29,7 @@ Selamat datang di dunia penguasaan pengeditan gambar! Dalam kumpulan tutorial in
 
 ## Buat Gambar menggunakan Stream di Aspose.PSD untuk Java
 
- Kuasai seni membuat gambar menggunakan[aliran](./create-image-using-stream/) di Aspose.PSD untuk Java. Panduan kami memberikan jalur yang jelas menuju pemrosesan gambar yang efisien. Ikuti langkah-langkahnya dan wujudkan visi kreatif Anda melalui Aspose.PSD untuk Java.
+ Kuasai seni membuat gambar menggunakan[sungai](./create-image-using-stream/) di Aspose.PSD untuk Java. Panduan kami memberikan jalur yang jelas menuju pemrosesan gambar yang efisien. Ikuti langkah-langkahnya dan wujudkan visi kreatif Anda melalui Aspose.PSD untuk Java.
 
 ## Pangkas Gambar dengan Rectangle di Aspose.PSD untuk Java
 
@@ -37,7 +37,7 @@ Selamat datang di dunia penguasaan pengeditan gambar! Dalam kumpulan tutorial in
 
 ## Pangkas Gambar dengan Pergeseran di Aspose.PSD untuk Java
 
- Menjadi maestro[pemotongan gambar](./crop-image-by-shifts/) dengan Aspose.PSD untuk Java. Tutorial kami menawarkan panduan lengkap untuk menguasai seni manipulasi gambar tanpa batas. Selami dunia pemotongan gambar secara presisi dengan Aspose.PSD untuk Java.
+ Menjadi maestro[pemangkasan gambar](./crop-image-by-shifts/) dengan Aspose.PSD untuk Java. Tutorial kami menawarkan panduan lengkap untuk menguasai seni manipulasi gambar tanpa batas. Selami dunia pemotongan gambar secara presisi dengan Aspose.PSD untuk Java.
 
 ## Menerapkan Dithering untuk Gambar Raster di Aspose.PSD untuk Java
 

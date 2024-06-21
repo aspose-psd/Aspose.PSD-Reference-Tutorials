@@ -128,7 +128,7 @@ A2: Ja, Sie können verschiedene Effekte, einschließlich Verlaufsüberlagerung,
 
 ### F4: Gibt es eine kostenlose Testversion?
 
- A4: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können auf eine kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F5: Wie erhalte ich Unterstützung für Aspose.PSD?
 

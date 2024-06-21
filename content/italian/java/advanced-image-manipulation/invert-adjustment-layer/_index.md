@@ -88,8 +88,8 @@ R2: Sì, puoi impilare più livelli di regolazione per ottenere manipolazioni co
 
 ### Q4: È disponibile una prova gratuita per Aspose.PSD?
 
- R4: Sì, puoi esplorare la prova gratuita[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi esplorare la prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
-A5: È possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+A5: È possibile ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).

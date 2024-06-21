@@ -94,7 +94,7 @@ A1：大津阈值二值化是一种用于图像分割的方法，基于最佳阈
 
 ### Q3：哪里可以找到 Aspose.PSD for Java 文档？
 
-A3：文档可用[这里](https://reference.aspose.com/psd/java/).
+A3：文档可用。[这里](https://reference.aspose.com/psd/java/).
 
 ### 问题 4：如何获得 Aspose.PSD for Java 支持？
 
@@ -102,4 +102,4 @@ A3：文档可用[这里](https://reference.aspose.com/psd/java/).
 
 ### Q5：Aspose.PSD for Java 有临时许可证吗？
 
- A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A5: 是的，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).

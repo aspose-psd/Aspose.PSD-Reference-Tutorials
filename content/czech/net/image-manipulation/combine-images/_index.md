@@ -102,8 +102,8 @@ Odpověď 2: Ano, Aspose.PSD lze použít pro osobní i komerční účely. Zkon
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Mohu získat dočasnou licenci pro Aspose.PSD?
 
-A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

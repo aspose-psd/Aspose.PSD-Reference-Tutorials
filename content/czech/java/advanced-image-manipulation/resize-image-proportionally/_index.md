@@ -82,7 +82,7 @@ V tomto tutoriálu jsme probrali základní kroky k proporcionální změně vel
 
 ### Q3: Jsou k dispozici dočasné licence pro testovací účely?
 
- A3: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro hodnocení.
+ A3: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro hodnocení.
 
 ### Q4: Kde najdu podporu pro Aspose.PSD?
 

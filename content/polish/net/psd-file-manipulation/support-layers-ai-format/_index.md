@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /pl/net/psd-file-manipulation/support-layers-ai-format/
 ---
-Witamy w naszym przewodniku krok po kroku dotyczącym wykorzystania Aspose.PSD dla .NET do obsługi warstw pomocniczych w plikach w formacie AI. Aspose.PSD upraszcza złożone zadania, ułatwiając programistom pracę z plikami AI w aplikacjach .NET. W tym samouczku omówimy wymagania wstępne, importowanie przestrzeni nazw i podzielimy każdy przykład na wiele kroków, aby zapewnić płynną naukę.
+Witamy w naszym przewodniku krok po kroku dotyczącym wykorzystania Aspose.PSD dla .NET do obsługi warstw pomocniczych w plikach w formacie AI. Aspose.PSD upraszcza złożone zadania, ułatwiając programistom pracę z plikami AI w aplikacjach .NET. W tym samouczku omówimy wymagania wstępne, importowanie przestrzeni nazw i podzielimy każdy przykład na wiele kroków, aby zapewnić bezproblemową naukę.
 ## Wstęp
 ### Co to jest Aspose.PSD?
 Aspose.PSD dla .NET to potężna biblioteka, która umożliwia programistom manipulowanie i przetwarzanie plików Adobe Photoshop, w tym formatu AI (Adobe Illustrator). W tym samouczku skupimy się na obsłudze warstw w plikach AI, pokazując, jak wyodrębnić cenne informacje z każdej warstwy.
@@ -26,7 +26,7 @@ using System;
 using System.IO;
 ```
 ## Krok 1: Załaduj plik AI
-Załaduj plik AI do swojej aplikacji, używając następującego kodu:
+Załaduj plik AI do swojej aplikacji za pomocą następującego kodu:
 ```csharp
 string sourceFilePath = Path.Combine(dataDir, "form_8_2l3_7.ai");
 using (AiImage image = (AiImage)Image.Load(sourceFilePath))

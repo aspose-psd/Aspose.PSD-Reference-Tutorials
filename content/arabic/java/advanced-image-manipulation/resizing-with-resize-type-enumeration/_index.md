@@ -81,7 +81,7 @@ image.save(destName, new JpegOptions());
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 

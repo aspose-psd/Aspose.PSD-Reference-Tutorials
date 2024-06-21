@@ -11,12 +11,12 @@ url: /ko/java/advanced-techniques/loading-images-from-stream/
 
 Aspose.PSD for Java는 개발자가 PSD 파일을 원활하게 사용하여 다양한 이미지 처리 작업을 수행할 수 있도록 하는 기능이 풍부한 라이브러리입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 스트림에서 이미지를 로드하는 필수 단계에 중점을 둘 것입니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본 지식.
--  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹 사이트](https://releases.aspose.com/psd/java/).
+-  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/psd/java/).
 
 ## 패키지 가져오기
 
@@ -100,7 +100,7 @@ A1: 물론이죠! Aspose.PSD for Java는 일괄 이미지 처리 작업에 탁�
 
 ### Q4: 테스트 목적으로 임시 라이센스가 필요합니까?
 
- A4: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/) Java용 Aspose.PSD를 테스트하기 위한 것입니다.
+ A4: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/) Java용 Aspose.PSD를 테스트하기 위한 것입니다.
 
 ### Q5: Java용 Aspose.PSD를 어디서 구입할 수 있나요?
 

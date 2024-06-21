@@ -96,7 +96,7 @@ A2: Ja, Aspose.PSD für .NET bietet verschiedene Eigenschaften zur Feinabstimmun
 
 ### F3: Wie kann ich eine temporäre Lizenz für Aspose.PSD für .NET erhalten?
 
- A3: Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A3: Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Ist Aspose.PSD für .NET mit .NET Core kompatibel?
 

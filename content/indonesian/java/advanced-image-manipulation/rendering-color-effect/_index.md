@@ -1,7 +1,7 @@
 ---
 title: Terapkan Efek Warna Rendering di Aspose.PSD untuk Java
 linktitle: Terapkan Efek Warna Rendering
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Sempurnakan aplikasi Java Anda dengan hamparan warna dinamis menggunakan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar dan efek visual yang menakjubkan.
 type: docs
 weight: 15

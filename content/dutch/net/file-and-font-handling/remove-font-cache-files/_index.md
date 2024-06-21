@@ -88,7 +88,7 @@ A2: Hoewel dit mogelijk is, wordt het aanbevolen om lettertypecachebestanden te 
 
 ### V4: Is er een tijdelijke licentie beschikbaar voor Aspose.PSD voor .NET?
 
- A4: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+ A4: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
 
 ### V5: Kan ik Aspose.PSD voor .NET kopen?
 

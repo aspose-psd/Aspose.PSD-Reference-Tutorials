@@ -1,7 +1,7 @@
 ---
 title: Paksa Font Cache dengan Aspose.PSD untuk Java
 linktitle: Paksa Cache Font
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara memaksa cache font menggunakan Aspose.PSD untuk Java. Optimalkan pemrosesan gambar dan tingkatkan kinerja dengan panduan langkah demi langkah ini.
 type: docs
 weight: 11
@@ -74,7 +74,7 @@ Selamat! Anda telah berhasil memaksa cache font menggunakan Aspose.PSD untuk Jav
 
 A1: Aspose.PSD untuk Java dirancang untuk bekerja dengan berbagai versi Java, memastikan kompatibilitas untuk berbagai proyek.
 
-### Q2: Bisakah saya menggunakan Aspose.PSD untuk tujuan komersial?
+### Q2: Dapatkah saya menggunakan Aspose.PSD untuk tujuan komersial?
 
  A2: Ya, Aspose.PSD hadir dengan opsi lisensi yang fleksibel, termasuk penggunaan komersial. Mengunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
 

@@ -10,7 +10,7 @@ url: /tr/net/image-effects/
 
 ## giriiş
 
-Aspose.PSD for .NET'teki kapsamlı eğitimlerimizle büyüleyici görüntü efektleri dünyasını keşfedin. İster tecrübeli bir geliştirici olun ister sadece görüntü işleme dünyasına dalın, adım adım kılavuzlarımız efektleri zahmetsizce eklemenizi, üst üste bindirmenizi ve işlemenizi sağlayacak.
+Aspose.PSD for .NET'teki kapsamlı eğitimlerimizle büyüleyici görüntü efektleri dünyasını keşfedin. İster tecrübeli bir geliştirici olun ister sadece görüntü işleme dünyasına dalın, adım adım kılavuzlarımız efektleri zahmetsizce eklemenizi, üst üste bindirmenizi ve işlemenizi sağlayacaktır.
 
 ## Aspose.PSD for .NET'te Çalışma Zamanında Efektler Ekleme
 

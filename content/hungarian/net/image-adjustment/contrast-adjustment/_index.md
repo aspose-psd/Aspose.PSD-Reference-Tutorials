@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## 1. lépés: Töltse be a képet
 
- Töltse be a forrásképet a`RasterImage` osztály.
+Töltse be a forrásképet a`RasterImage` osztály.
 
 ```csharp
 //ExStart:LoadImage
@@ -46,7 +46,7 @@ using (var image = Image.Load(sourceFile))
     }
     // Folytassa a következő lépéssel...
 }
-//ExEnd:Image betöltése
+//ExEnd:Kép betöltése
 ```
 
 ## 2. lépés: Állítsa be a kontrasztot
@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Állítsa be a kontrasztot 50%-kal
 
 ## 3. lépés: Hozzon létre TIFF-beállításokat
 
- Hozzon létre egy példányt a`TiffOptions` az eredményül kapott képhez állítson be különböző tulajdonságokat, és mentse el a képet TIFF formátumban.
+ Hozzon létre egy példányt a`TiffOptions` Az eredményül kapott képhez állítson be különböző tulajdonságokat, és mentse el a képet TIFF formátumban.
 
 ```csharp
 //ExStart:CreateTiffOptions
@@ -78,7 +78,7 @@ Gratulálunk! Sikeresen végrehajtotta a kontrasztbeállítást az Aspose.PSD fo
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk a képkontraszt növelésének folyamatát az Aspose.PSD for .NET segítségével. A könyvtár egyszerű módot kínál a képtulajdonságok manipulálására, lehetővé téve a fejlesztők számára, hogy tetszetős képeket hozzanak létre könnyedén.
+Ebben az oktatóanyagban megvizsgáltuk a képkontraszt növelésének folyamatát az Aspose.PSD for .NET segítségével. A könyvtár egyszerű módot kínál a kép tulajdonságainak manipulálására, lehetővé téve a fejlesztők számára, hogy tetszetős képeket hozzanak létre könnyedén.
 
 ## GYIK
 
@@ -92,12 +92,12 @@ Ebben az oktatóanyagban megvizsgáltuk a képkontraszt növelésének folyamat�
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, felfedezheti az Aspose.PSD .NET ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezheti az Aspose.PSD .NET ingyenes próbaverzióját.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok támogatást az Aspose.PSD for .NET számára?
 
- 4. válasz: Keresse fel az Aspose.PSD for .NET támogatási fórumát[itt](https://forum.aspose.com/c/psd/34) segítségért.
+ 4. válasz: Látogassa meg az Aspose.PSD for .NET támogatási fórumát[itt](https://forum.aspose.com/c/psd/34) segítségért.
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
- V5: Szükség esetén ideiglenes engedélyt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Szükség esetén ideiglenes engedélyt szerezhet.[itt](https://purchase.aspose.com/temporary-license/).

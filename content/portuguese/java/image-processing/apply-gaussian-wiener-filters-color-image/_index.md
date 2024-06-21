@@ -85,7 +85,7 @@ A1: Sim, você pode aplicar filtros Gaussianos e Wiener a imagens coloridas e em
 
 A2: Sim, o Aspose.PSD oferece uma variedade de opções de filtro para atender às diferentes necessidades de processamento de imagem.
 
-### P3: Como posso lidar com exceções durante o processamento de imagens?
+### Q3: Como posso lidar com exceções durante o processamento de imagens?
 
  A3: Envolva seu código em blocos try-catch para lidar com exceções normalmente. Referir-se[Documentação Aspose.PSD](https://reference.aspose.com/psd/java/) para mais detalhes.
 

@@ -106,7 +106,7 @@ A2: Absolutnie! Po połączeniu obrazów możesz dalej manipulować powstałym p
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?
 
- Odpowiedź 4: Tak, możesz eksplorować Aspose.PSD w ramach bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz eksplorować Aspose.PSD w ramach bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Gdzie mogę znaleźć pomoc dotyczącą zapytań związanych z Aspose.PSD?
 

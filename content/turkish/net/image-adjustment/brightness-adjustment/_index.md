@@ -70,7 +70,7 @@ TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 rasterImage.Save(destName, tiffOptions);
 ```
 
-Örneği artık yönetilebilir adımlara ayırdığımıza göre, Aspose.PSD'yi kullanarak parlaklık ayarını .NET projenize sorunsuz bir şekilde entegre edebilirsiniz.
+Örneği yönetilebilir adımlara ayırdığımıza göre artık Aspose.PSD'yi kullanarak parlaklık ayarını .NET projenize sorunsuz bir şekilde entegre edebilirsiniz.
 
 ## Çözüm
 
@@ -80,7 +80,7 @@ Aspose.PSD for .NET, PSD dosyalarında parlaklık ayarlarının uygulanması sü
 
 ### S1: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A1: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
+ A1: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S2: Aspose.PSD for .NET kütüphanesini nasıl indirebilirim?
 
@@ -88,7 +88,7 @@ Aspose.PSD for .NET, PSD dosyalarında parlaklık ayarlarının uygulanması sü
 
 ### S3: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nereden alabilirim?
 
@@ -96,4 +96,4 @@ Aspose.PSD for .NET, PSD dosyalarında parlaklık ayarlarının uygulanması sü
 
 ### S5: Aspose.PSD for .NET için geçici lisansı nasıl edinebilirim?
 
- Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

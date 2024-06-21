@@ -96,8 +96,8 @@ A1 : Oui, Aspose.PSD prend en charge différents formats d'image, ce qui rend la
 
 ### Q4 : Comment puis-je acheter la bibliothèque Aspose.PSD ?
 
- A4 : Vous pouvez acheter la bibliothèque Aspose.PSD[ici](https://purchase.aspose.com/buy).
+ A4 : Vous pouvez acheter la bibliothèque Aspose.PSD.[ici](https://purchase.aspose.com/buy).
 
 ### Q5 : Existe-t-il une version d'essai gratuite disponible ?
 
- A5 : Oui, vous pouvez explorer les capacités d'Aspose.PSD avec une version d'essai gratuite[ici](https://releases.aspose.com/).
+ A5 : Oui, vous pouvez explorer les capacités d'Aspose.PSD avec une version d'essai gratuite.[ici](https://releases.aspose.com/).

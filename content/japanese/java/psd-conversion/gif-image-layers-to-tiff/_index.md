@@ -25,7 +25,7 @@ import com.aspose.psd.imageoptions.TiffOptions;
 import java.io.FileNotFoundException;
 ```
 ## ステップ 1: 環境をセットアップする
-Java および Aspose.PSD for Java がシステムにインストールされていることを確認してください。そうでない場合は、を参照してください。[ドキュメンテーション](https://reference.aspose.com/psd/java/)インストール手順については。
+ Java および Aspose.PSD for Java がシステムにインストールされていることを確認してください。そうでない場合は、を参照してください。[ドキュメンテーション](https://reference.aspose.com/psd/java/)インストール手順については。
 ## ステップ 2: Aspose.PSD ライブラリをインポートする
 Java プロジェクトに、Aspose.PSD ライブラリをプロジェクトの依存関係に追加して含めます。ライブラリをダウンロードできます[ここ](https://releases.aspose.com/psd/java/).
 ## ステップ 3: PSD 画像オブジェクトを作成する

@@ -9,7 +9,7 @@ url: /ko/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## 소개
 .NET용 Aspose.PSD의 국경 정보 리소스 기능 활용에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 강력한 .NET 이미징 라이브러리인 Aspose.PSD를 사용하여 국경 정보 리소스로 작업하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 국경 정보 리소스를 프로젝트에 원활하게 통합하는 방법을 명확하게 제공하는 것을 목표로 합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 -  .NET용 Aspose.PSD: Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.PSD 웹사이트](https://releases.aspose.com/psd/net/).
 - .NET 개발 환경: Visual Studio 또는 기타 선호하는 IDE를 사용하여 .NET 개발 환경을 설정합니다.

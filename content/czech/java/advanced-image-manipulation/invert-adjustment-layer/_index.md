@@ -88,8 +88,8 @@ Odpověď 2: Ano, můžete skládat více vrstev úprav, abyste dosáhli složit
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
-A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+A5: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

@@ -85,4 +85,4 @@ Odpověď 1: Ano, Aspose.PSD for Java je navržen tak, aby bezproblémově spolu
 
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
- A5: Pokud testujete knihovnu, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Pokud testujete knihovnu, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

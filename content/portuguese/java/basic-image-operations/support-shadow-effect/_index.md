@@ -99,7 +99,7 @@ A1: Com certeza! Aspose.PSD para Java é uma biblioteca poderosa projetada para 
 
 ### Q3: Existe um teste gratuito disponível?
 
- A3: Sim, você pode explorar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode explorar uma versão de teste gratuita.[aqui](https://releases.aspose.com/).
 
 ### P4: Onde posso encontrar documentação detalhada?
 
@@ -107,4 +107,4 @@ A1: Com certeza! Aspose.PSD para Java é uma biblioteca poderosa projetada para 
 
 ### Q5: Como posso obter suporte para Aspose.PSD para Java?
 
- A5: Participe do fórum da comunidade[aqui](https://forum.aspose.com/c/psd/34) para qualquer dúvida de suporte.
+ A5: Participe do fórum da comunidade.[aqui](https://forum.aspose.com/c/psd/34) para qualquer dúvida de suporte.

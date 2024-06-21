@@ -19,7 +19,7 @@ Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten v
 
 - Documentmap: bereid een map voor met het PSD-document waarop u streekeffecten wilt toepassen.
 
-- Uitvoermap: Zorg voor een aparte map voor het opslaan van de uitvoerafbeeldingen met lijneffecten.
+- Uitvoermap: Zorg voor een aparte map voor het opslaan van de uitvoerafbeeldingen met streekeffecten.
 
 - Visual Studio: Zorg ervoor dat u Visual Studio of een andere .NET-ontwikkelomgeving van uw voorkeur hebt ingesteld.
 

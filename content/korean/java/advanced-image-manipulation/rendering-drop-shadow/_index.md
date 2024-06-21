@@ -11,7 +11,7 @@ url: /ko/java/advanced-image-manipulation/rendering-drop-shadow/
 
 Java를 사용하여 이미지 처리를 시작하는 경우 Aspose.PSD는 PSD 파일을 원활하고 효율적으로 조작하기 위한 도구입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 렌더링 그림자를 적용하는 과정을 살펴보겠습니다. 버클을 채우세요. 우리가 당신을 위해 단계를 분석해 드릴 것입니다.
 
-## 전제 조건
+## 전제조건
 
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 

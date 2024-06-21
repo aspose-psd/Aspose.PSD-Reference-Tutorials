@@ -41,7 +41,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 String dataDir = "Your Document Directory";
 String[] files = new String[] {
    // PSD 檔案列表
-   //…
+   //……
 };
 
 for (int i=0; i< files.length; i++) {
@@ -58,14 +58,14 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-//另存為 PNG，100% 不透明度
+//另存為 PNG，不透明度為 100%。
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
 //繼續執行後續步驟...
 ```
 
-## 第三步：設定不透明度
+## 第 3 步：設定不透明度
 
 設定 PSD 檔案中特定圖層的不透明度。在這裡，我們將不透明度設為 50%。
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 //將不透明度設為 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-//另存為 PNG，不透明度為 50%
+//另存為 PNG，不透明度為 50%。
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

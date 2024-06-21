@@ -63,7 +63,7 @@ if (f.exists()) {
 ```
 Nyní jste úspěšně exportovali obrázky ve vícevláknovém prostředí pomocí Aspose.PSD for Java!
 ## Závěr
-tomto tutoriálu jsme prozkoumali bezproblémový proces exportu obrázků pomocí Aspose.PSD pro Java ve vícevláknovém nastavení. Zvyšte možnosti zpracování obrazu své Java aplikace pomocí síly Aspose.PSD.
+V tomto tutoriálu jsme prozkoumali bezproblémový proces exportu obrázků pomocí Aspose.PSD pro Java ve vícevláknovém nastavení. Zvyšte možnosti zpracování obrazu své Java aplikace pomocí síly Aspose.PSD.
 ## Často kladené otázky
 ### Je Aspose.PSD kompatibilní se všemi verzemi Java?
 Aspose.PSD je kompatibilní s Java 1.7 a novějšími verzemi.
@@ -71,7 +71,7 @@ Aspose.PSD je kompatibilní s Java 1.7 a novějšími verzemi.
 Ano, Aspose.PSD podporuje multi-threading, což vám umožňuje zpracovávat více obrázků současně.
 ### Kde najdu další dokumentaci k Aspose.PSD?
  Můžete se podívat na dokumentaci[tady](https://reference.aspose.com/psd/java/).
-### Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Javu?
+### Je k dispozici bezplatná zkušební verze Aspose.PSD pro Javu?
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat dočasnou licenci pro Aspose.PSD?
  Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.

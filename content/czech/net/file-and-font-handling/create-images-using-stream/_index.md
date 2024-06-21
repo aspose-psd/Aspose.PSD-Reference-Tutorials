@@ -9,7 +9,7 @@ url: /cs/net/file-and-font-handling/create-images-using-stream/
 ---
 ## Úvod
 
-oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci s obrázky. Jednou zvláště užitečnou funkcí je schopnost vytvářet obrázky pomocí streamů, což poskytuje flexibilitu a efektivitu při manipulaci s obrazovými daty. Tento průvodce vás krok za krokem provede celým procesem a rozebere jednotlivé prvky, aby byl zajištěn bezproblémový zážitek. Než se ponoříme, pojďme si pokrýt předpoklady.
+V oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci s obrázky. Jednou zvláště užitečnou funkcí je schopnost vytvářet obrázky pomocí streamů, což poskytuje flexibilitu a efektivitu při manipulaci s obrazovými daty. Tento průvodce vás krok za krokem provede celým procesem a rozebere jednotlivé prvky, aby byl zajištěn bezproblémový zážitek. Než se ponoříme, pojďme si pokrýt předpoklady.
 
 ## Předpoklady
 
@@ -62,7 +62,7 @@ Vytvořte instanci třídy System.IO.Stream pro zpracování obrazových dat.
 Stream stream = new FileStream(dataDir + "sample_out.bmp", FileMode.Create);
 ```
 
-## Krok 5: Nastavte zdroj datového proudu
+## Krok 5: Nastavte zdroj streamu
 
 Přiřaďte vytvořený datový proud jako zdroj pro instanci BmpOptions.
 
@@ -77,9 +77,9 @@ Vytvořte instanci třídy Image a zavolejte metodu Create, předejte objekt Bmp
 ```csharp
 using (Image image = Image.Create(ImageOptions, 500, 500))
 {
-    // Zde proveďte požadované zpracování obrazu
+    // Zde proveďte libovolné požadované zpracování obrazu
 
-    // Uložte vytvořený obrázek do zadaného cíle
+    //Uložte vytvořený obrázek do zadaného cíle
     image.Save(desName);
 }
 ```
@@ -88,7 +88,7 @@ Gratulujeme! Úspěšně jste vytvořili obraz pomocí proudů v Aspose.PSD pro 
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali proces vytváření obrázků pomocí streamů v Aspose.PSD pro .NET. Využití flexibility proudů umožňuje efektivní manipulaci s obrázky v aplikacích .NET.
+V tomto tutoriálu jsme prozkoumali proces vytváření obrázků pomocí streamů v Aspose.PSD pro .NET. Využití flexibility proudů umožňuje efektivní manipulaci s obrázky v aplikacích .NET.
 
 ## Nejčastější dotazy
 
@@ -102,7 +102,7 @@ A2: Rozměry jsou přizpůsobitelné; podle toho upravte parametry v metodě Ima
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD?
 
@@ -110,4 +110,4 @@ A2: Rozměry jsou přizpůsobitelné; podle toho upravte parametry v metodě Ima
 
 ### Q5: Jsou k dispozici dočasné licence?
 
- A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

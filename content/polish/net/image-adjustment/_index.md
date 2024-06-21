@@ -29,7 +29,7 @@ Regulacja gamma to potężne narzędzie do poprawiania jasności i kontrastu obr
 
 ## Stosowanie regulacji balansu kolorów
 
- Zmieniaj kolory swoich obrazów PSD bez wysiłku[Aspose.PSD dla .NET](./color-balance-adjustment/)'Funkcja regulacji balansu kolorów. Nasz przewodnik przeprowadzi Cię przez kolejne etapy, pomagając osiągnąć oszałamiającą równowagę kolorów. Ulepsz swoje projekty dzięki żywym i atrakcyjnym wizualnie obrazom.
+ Zmieniaj kolory swoich obrazów PSD bez wysiłku[Aspose.PSD dla .NET](./color-balance-adjustment/)'Funkcja regulacji balansu kolorów. Nasz przewodnik przeprowadzi Cię przez kolejne etapy, pomagając uzyskać oszałamiającą równowagę kolorów. Ulepsz swoje projekty dzięki żywym i atrakcyjnym wizualnie obrazom.
 
 ## Poradniki dotyczące regulacji obrazu
 ### [Implementowanie regulacji jasności w Aspose.PSD dla .NET](./brightness-adjustment/)

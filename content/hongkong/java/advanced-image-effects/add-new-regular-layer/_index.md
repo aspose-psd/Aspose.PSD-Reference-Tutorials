@@ -111,7 +111,7 @@ A2：當然！ Aspose.PSD 提供了一系列圖層轉換選項。
 
 ### Q3：在哪裡可以找到額外的 Aspose.PSD 文件？
 
- A3：可以參考文檔[這裡](https://reference.aspose.com/psd/java/).
+ A3：您可以參考文件。[這裡](https://reference.aspose.com/psd/java/).
 
 ### Q4：如何取得Aspose.PSD的臨時授權？
 
@@ -119,4 +119,4 @@ A2：當然！ Aspose.PSD 提供了一系列圖層轉換選項。
 
 ### Q5：是否有支援 Aspose.PSD 的社群論壇？
 
- A5：是的，您可以找到支持和討論[這裡](https://forum.aspose.com/c/psd/34).
+ A5：是的，您可以找到支持和討論。[這裡](https://forum.aspose.com/c/psd/34).

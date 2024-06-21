@@ -98,7 +98,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### Ε1: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.PSD για .NET;
 
- A1: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/net/).
+ A1: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/net/).
 
 ### Ε2: Πώς μπορώ να κατεβάσω το Aspose.PSD για .NET;
 
@@ -106,7 +106,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.PSD για .NET;
 
- A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πού μπορώ να λάβω υποστήριξη για το Aspose.PSD για .NET;
 
@@ -114,4 +114,4 @@ using (Image image = new PsdImage(100, 100))
 
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια χρήσης για το Aspose.PSD για .NET;
 
- A5: Εάν απαιτείται, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Εάν απαιτείται, μπορείτε να αποκτήσετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).

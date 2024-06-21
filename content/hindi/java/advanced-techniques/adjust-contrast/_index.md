@@ -94,11 +94,11 @@ A1: हां, Aspose.PSD आपके प्रोजेक्ट में ल
 
 ### Q2: मैं Aspose.PSD के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
- A2: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A2: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: मुझे Aspose.PSD दस्तावेज़ कहां मिल सकता है?
 
-A3: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/psd/java/).
+A3: दस्तावेज़ उपलब्ध है.[यहाँ](https://reference.aspose.com/psd/java/).
 
 ### Q4: Aspose.PSD के लिए कौन से समर्थन विकल्प उपलब्ध हैं?
 

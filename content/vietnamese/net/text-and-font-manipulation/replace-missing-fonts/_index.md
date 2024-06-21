@@ -66,11 +66,11 @@ Câu trả lời 1: Có, Aspose.PSD cho phép bạn thay thế phông chữ mộ
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp cho các truy vấn liên quan đến Aspose.PSD?
 
- A3: Hãy ghé thăm chúng tôi[diễn đàn](https://forum.aspose.com/c/psd/34) để được hỗ trợ chuyên môn.
+ A3: Hãy ghé thăm nơi tận tâm của chúng tôi[diễn đàn](https://forum.aspose.com/c/psd/34) để được hỗ trợ chuyên môn.
 
-### Câu hỏi 4: Có giấy phép tạm thời cho Aspose.PSD không?
+### Câu hỏi 4: Aspose.PSD có giấy phép tạm thời không?
 
- A4: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu toàn diện về Aspose.PSD ở đâu?
 

@@ -57,7 +57,7 @@ RasterCachedImage rasterImage = image;
 ## Langkah 3: Sesuaikan Kecerahan
 
 ```csharp
-// Tetapkan nilai kecerahan. Nilai kecerahan yang diterima berada dalam kisaran [-255, 255].
+// Tetapkan nilai kecerahan. Nilai kecerahan yang diterima berada pada kisaran [-255, 255].
 rasterImage.AdjustBrightness(-50);
 ```
 
@@ -80,7 +80,7 @@ Aspose.PSD untuk .NET menyederhanakan proses penerapan penyesuaian kecerahan dal
 
 ### Q1: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A1: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/net/).
+ A1: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q2: Bagaimana cara mengunduh perpustakaan Aspose.PSD untuk .NET?
 
@@ -88,7 +88,7 @@ Aspose.PSD untuk .NET menyederhanakan proses penerapan penyesuaian kecerahan dal
 
 ### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk .NET?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD untuk .NET menyederhanakan proses penerapan penyesuaian kecerahan dal
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
- A5: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Anda dapat memperoleh lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

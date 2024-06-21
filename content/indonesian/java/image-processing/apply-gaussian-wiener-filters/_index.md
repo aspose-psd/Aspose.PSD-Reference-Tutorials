@@ -1,7 +1,7 @@
 ---
 title: Terapkan Filter Gaussian dan Wiener di Aspose.PSD untuk Java
 linktitle: Terapkan Filter Gaussian dan Wiener
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Tingkatkan pemrosesan gambar Java Anda dengan Aspose.PSD. Pelajari cara menerapkan filter Gaussian dan Wiener langkah demi langkah untuk hasil visual yang menakjubkan.
 type: docs
 weight: 10
@@ -94,7 +94,7 @@ A2: Versi uji coba memiliki keterbatasan, dan Anda dapat menjelajahi kemampuan p
 
 ### Q4: Apakah ada lisensi sementara yang tersedia untuk tujuan pengujian?
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk Java?
 

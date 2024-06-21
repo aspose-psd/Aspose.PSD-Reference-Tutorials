@@ -82,8 +82,8 @@ A1：是的，Aspose.PSD for Java 与 Java 版本 6 及更高版本兼容。
 
 ### Q4：有免费试用吗？
 
-A4：是的，您可以访问 Aspose.PSD 的免费试用版[这里](https://releases.aspose.com/).
+A4：是的，您可以通过访问探索 Aspose.PSD 的免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q5：如何获得Aspose.PSD的临时许可证？
 
-A5：要获得临时许可证，请访问[这里](https://purchase.aspose.com/temporary-license/).
+ A5：要获得临时许可证，请访问[这里](https://purchase.aspose.com/temporary-license/).

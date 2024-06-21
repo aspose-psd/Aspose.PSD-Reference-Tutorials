@@ -113,4 +113,4 @@ A1：是的，Aspose.PSD支持广泛的.NET框架，确保与各种开发环境�
 
 ### Q5：我可以购买 Aspose.PSD for .NET 吗？
 
- A5：是的，探索许可选项并进行购买[这里](https://purchase.aspose.com/buy).
+ A5：是的，探索许可选项并进行购买。[这里](https://purchase.aspose.com/buy).

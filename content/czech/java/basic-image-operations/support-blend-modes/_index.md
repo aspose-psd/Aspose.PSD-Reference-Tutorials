@@ -58,7 +58,7 @@ Exportujte načtené soubory PSD do formátu PNG. Podle potřeby upravte možnos
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Uložit jako PNG se 100% neprůhledností
+// Uložit jako PNG se 100% neprůhledností.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Nastavte krytí konkrétních vrstev v souborech PSD. Zde nastavíme neprůhledn
 // Nastavit krytí na 50 %
 im.getLayers()[1].setOpacity((byte)127);
 
-// Uložit jako PNG s 50% neprůhledností
+// Uložit jako PNG s 50% neprůhledností.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

@@ -13,7 +13,7 @@ url: /ko/net/image-adjustment/brightness-adjustment/
 
 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 밝기 조정을 구현하는 과정을 안내합니다. 밝기 조정을 PSD 파일에 통합하는 방법을 포괄적으로 이해하려면 아래 단계를 따르세요.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -96,4 +96,4 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Q5: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
- A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

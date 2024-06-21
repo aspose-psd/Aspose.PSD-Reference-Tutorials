@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Zapisz przycięty obraz w formacie PSD, korzystając z określonej ścieżki.
 
-## Krok 5: Zapisz przycięty obraz jako PNG
+## Krok 5: Zapisz przycięty obraz jako PNG.
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -105,4 +105,4 @@ Odpowiedź 2: Tak, Aspose.PSD dla Java jest zoptymalizowany pod kątem wydajnoś
 
 ### P5: Czy mogę wypróbować Aspose.PSD dla Java przed zakupem?
 
- Odpowiedź 5: Tak, poznaj funkcje dostępne w bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 5: Tak, poznaj funkcje dostępne w bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).

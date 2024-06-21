@@ -92,15 +92,15 @@ A1：当然！ Aspose.PSD for Java 擅长批量图像处理任务，提供效率
 
 ### Q2：我可以在购买前试用 Aspose.PSD for Java 吗？
 
- A2：是的，您可以探索免费试用版[这里](https://releases.aspose.com/).
+ A2：是的，您可以探索免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q3：在哪里可以找到 Aspose.PSD for Java 的支持？
 
-A3：加入社区[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)寻求帮助和讨论。
+ A3：加入社区[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)寻求帮助和讨论。
 
 ### Q4：我需要临时许可证才能进行测试吗？
 
- A4：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试 Java 的 Aspose.PSD。
+ A4：获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)用于测试 Java 的 Aspose.PSD。
 
 ### Q5: 在哪里可以购买 Aspose.PSD for Java？
 

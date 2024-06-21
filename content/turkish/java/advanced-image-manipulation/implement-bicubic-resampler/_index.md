@@ -86,7 +86,7 @@ Cevap1: Evet, Aspose.PSD for Java, PSD, PNG, JPEG ve daha fazlası dahil olmak �
 
 ### S4: Aspose.PSD for Java kütüphanesini indirebilir miyim?
 
- Cevap4: Evet, kitaplığı sürümler sayfasından indirin[Burada](https://releases.aspose.com/psd/java/).
+ C4: Evet, kitaplığı sürümler sayfasından indirin.[Burada](https://releases.aspose.com/psd/java/).
 
 ### S5: Java için Aspose.PSD'yi nasıl satın alabilirim?
 

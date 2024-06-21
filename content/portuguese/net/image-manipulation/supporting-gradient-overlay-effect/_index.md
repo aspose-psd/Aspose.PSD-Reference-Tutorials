@@ -128,7 +128,7 @@ A2: Sim, você pode aplicar vários efeitos, incluindo Gradient Overlay, a uma �
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode acessar uma avaliação gratuita[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode acessar uma avaliação gratuita.[aqui](https://releases.aspose.com/).
 
 ### Q5: Como posso obter suporte para Aspose.PSD?
 

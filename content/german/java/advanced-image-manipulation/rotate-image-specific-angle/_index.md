@@ -110,7 +110,7 @@ Nein, Aspose.PSD für Java unterstützt eine Vielzahl von Bilddateiformaten, dar
 
  Sicherlich! Sie können einen negativen Winkel angeben`image.rotate()` Methode, um Bilder in die entgegengesetzte Richtung zu drehen.
 
-### F4: Bietet Aspose.PSD für Java eine Bildvorschau in Echtzeit während der Rotation?
+### F4: Bietet Aspose.PSD für Java eine Bildvorschau in Echtzeit während der Drehung?
 
 Aspose.PSD für Java konzentriert sich hauptsächlich auf die Backend-Bildverarbeitung. Für eine Bildvorschau in Echtzeit müssen Sie möglicherweise eine Frontend-Lösung mit anderen Technologien implementieren.
 

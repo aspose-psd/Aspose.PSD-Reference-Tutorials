@@ -9,7 +9,7 @@ url: /zh-hant/net/image-manipulation/adding-gradient-effects/
 ---
 ## 介紹
 
-使用漸變效果增強影像可以為您的視覺內容添加迷人的維度。 Aspose.PSD for .NET 提供了一個強大的平台，可以將漸層疊加合併到影像中。在本教學中，我們將引導您完成使用 Aspose.PSD for .NET 新增漸層效果的過程。
+使用漸變效果增強影像可以為您的視覺內容添加迷人的維度。 Aspose.PSD for .NET 提供了一個強大的平台，將漸層疊加整合到影像中。在本教學中，我們將引導您完成使用 Aspose.PSD for .NET 新增漸層效果的過程。
 
 ## 先決條件
 
@@ -58,13 +58,13 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
     var gradientOverlay = (GradientOverlayEffect)im.Layers[1].BlendingOptions.Effects[0];
 
     //斷言檢查初始設置
-    //…
+    //……
 
     //色點
-    //…
+    //……
 
     //透明點
-    //…
+    //……
 }
 ```
 
@@ -88,16 +88,16 @@ settings.VerticalOffset = 11;
 settings.Reverse = true;
 
 //新增色點
-//…
+//……
 
 //更改前一點的位置
-//…
+//……
 
 //增加新的透明點
-//…
+//……
 
 //更改先前透明點的位置
-//…
+//……
 
 im.Save(exportPath);
 ```
@@ -114,7 +114,7 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
     try
     {
         //斷言檢查修改的設定
-        //…
+        //……
     }
     catch (Exception e)
     {
@@ -139,7 +139,7 @@ A2：Aspose.PSD for .NET支援各種圖片檔案格式，包括PSD、PNG、JPEG�
 
 ### Q3：Aspose.PSD for .NET 有試用版嗎？
 
- A3：是的，您可以透過下載免費試用版來探索 Aspose.PSD for .NET 的功能[這裡](https://releases.aspose.com/).
+A3：是的，您可以透過下載免費試用版來探索 Aspose.PSD for .NET 的功能[這裡](https://releases.aspose.com/).
 
 ### 問題 4：如何獲得 Aspose.PSD for .NET 支援？
 

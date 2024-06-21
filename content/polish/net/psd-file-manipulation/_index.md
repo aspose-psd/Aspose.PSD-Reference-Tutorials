@@ -21,7 +21,7 @@ Przekształć swoje obrazy PSD w dynamiczne pliki GIF za pomocą Aspose.PSD dla 
 
 ## Obsługa animowanych sekcji danych
 
-Popraw swoje umiejętności C# dzięki naszemu przewodnikowi na temat obsługi animowanych sekcji danych w Aspose.PSD dla .NET. Pobierz teraz, aby móc bezproblemowo manipulować plikami PSD! Podnieś poziom swoich projektów dzięki animowanej kreatywności.
+Popraw swoje umiejętności C# dzięki naszemu przewodnikowi na temat obsługi animowanych sekcji danych w Aspose.PSD dla .NET. Pobierz teraz, aby bezproblemowo manipulować plikami PSD! Podnieś poziom swoich projektów dzięki animowanej kreatywności.
 
 ## Praca z efektami stanu warstw
 
@@ -60,7 +60,7 @@ Naucz się bez wysiłku obsługiwać warstwy w formacie AI dzięki Aspose.PSD dl
 ### [Eksportowanie obrazów PSD do formatu GIF w Aspose.PSD dla .NET](./export-psd-to-gif/)
 Dowiedz się, jak eksportować obrazy PSD do formatu GIF w .NET przy użyciu Aspose.PSD. Obszerny przewodnik z instrukcjami krok po kroku.
 ### [Obsługa animowanych sekcji danych w Aspose.PSD dla .NET](./animated-data-sections/)
-Popraw swoje umiejętności posługiwania się językiem C# dzięki naszemu przewodnikowi krok po kroku dotyczącemu obsługi animowanych sekcji danych w Aspose.PSD dla .NET. Pobierz teraz, aby móc bezproblemowo manipulować plikami PSD!
+Popraw swoje umiejętności posługiwania się językiem C# dzięki naszemu przewodnikowi krok po kroku dotyczącemu obsługi animowanych sekcji danych w Aspose.PSD dla .NET. Pobierz teraz, aby bezproblemowo manipulować plikami PSD!
 ### [Praca z efektami stanu warstw w Aspose.PSD dla .NET](./layer-state-effects/)
 Naucz się korzystać z efektów stanu warstwy w Aspose.PSD dla .NET. Ulepsz swoje pliki PSD za pomocą cienia, nakładki gradientowej i nie tylko. Łatwy przewodnik instruktażowy.
 ### [Obsługa zasobów MLST w Aspose.PSD dla .NET](./mlst-resources/)

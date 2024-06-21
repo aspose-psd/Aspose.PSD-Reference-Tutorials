@@ -12,24 +12,24 @@ url: /es/java/advanced-techniques/
 ¿Estás listo para mejorar tus habilidades de procesamiento de imágenes en Java? Sumérgete en nuestros completos tutoriales con Aspose.PSD para Java, desbloqueando un reino de técnicas avanzadas. Exploremos algunos tutoriales clave en detalle:
 
 ## Escala de grises de una imagen usando Aspose.PSD para Java
- Descubra el arte de escalar imágenes en escala de grises sin esfuerzo en Java con Aspose.PSD. Nuestro tutorial paso a paso lo guía a través del proceso, garantizando resultados perfectos.[Leer más](./grayscale-image/)
+Descubra el arte de escalar imágenes en escala de grises sin esfuerzo en Java con Aspose.PSD. Nuestro tutorial paso a paso lo guía a través del proceso, garantizando resultados perfectos.[Leer más](./grayscale-image/)
 
 ## Cargando imágenes desde Stream con Aspose.PSD para Java
  Conozca las complejidades de cargar imágenes PSD sin problemas en Java usando Aspose.PSD. Nuestra guía detallada garantiza un procesamiento de imágenes eficiente.[Leer más](./loading-images-from-stream/)
 
 ## Convierta PSD a formatos de imagen rasterizada con Aspose.PSD para Java
-Convierta fácilmente archivos PSD en imágenes rasterizadas con Aspose.PSD para Java. Explore opciones de exportación versátiles y una integración perfecta en nuestra guía paso a paso.[Leer más](./convert-psd-to-raster-formats/)
+ Convierta fácilmente archivos PSD en imágenes rasterizadas con Aspose.PSD para Java. Explore opciones de exportación versátiles y una integración perfecta en nuestra guía paso a paso.[Leer más](./convert-psd-to-raster-formats/)
 
 ¿Listo para más? Explore tutoriales sobre cómo representar texto con diferentes colores, cómo guardar imágenes de manera eficiente mediante subprocesos de trabajo y guías completas sobre administración de fuentes. Mejore su diseño de imágenes y desarrollo Java con Aspose.PSD.
 
 ## Representar texto con diferentes colores en la capa de texto
- Aprenda el arte de representar texto con varios colores en una capa de texto PSD usando Aspose.PSD para Java. Nuestra guía paso a paso garantiza resultados perfectos.[Leer más](./render-text-different-colors/)
+Aprenda el arte de representar texto con varios colores en una capa de texto PSD usando Aspose.PSD para Java. Nuestra guía paso a paso garantiza resultados perfectos.[Leer más](./render-text-different-colors/)
 
 ## Guarde imágenes usando subprocesos de trabajo con Aspose.PSD para Java
  Profundice en el procesamiento de imágenes multiproceso en Java con Aspose.PSD. Domine el arte de guardar imágenes de manera eficiente utilizando subprocesos de trabajo.[Leer más](./save-images-worker-threads/)
 
 ## Configuraciones para reemplazar fuentes faltantes en Aspose.PSD para Java
-Explore una guía completa sobre cómo reemplazar fuentes faltantes en Aspose.PSD para Java. Mejore el diseño de su imagen con una gestión de fuentes perfecta.[Leer más](./settings-replacing-missing-fonts/)
+ Explore una guía completa sobre cómo reemplazar fuentes faltantes en Aspose.PSD para Java. Mejore el diseño de su imagen con una gestión de fuentes perfecta.[Leer más](./settings-replacing-missing-fonts/)
 
 Ya sea ajustar el brillo, el contraste, la gamma, desenfocar imágenes o agregar efectos cautivadores en tiempo de ejecución, nuestros tutoriales lo cubren todo. Libere el potencial de Aspose.PSD para Java y lleve sus habilidades de procesamiento de imágenes a nuevas alturas.
 

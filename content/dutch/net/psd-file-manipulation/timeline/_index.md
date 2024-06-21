@@ -103,7 +103,7 @@ A2: De klasse Tijdlijn is speciaal ontworpen voor PSD-afbeeldingen. Voor GIF-man
 
 ### V4: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor .NET?
 
- A4: Schaf een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+ A4: Schaf een tijdelijke licentie aan.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Wat zijn de belangrijkste voordelen van het gebruik van Aspose.PSD voor .NET?
 

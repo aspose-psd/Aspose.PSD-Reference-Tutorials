@@ -32,7 +32,7 @@ import com.aspose.psd.RotateFlipType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดรูปภาพ
+## ขั้นตอนที่ 1: โหลดภาพ
 
  โหลดรูปภาพที่มีอยู่ลงในอินสแตนซ์ของ`Image` ระดับ:
 

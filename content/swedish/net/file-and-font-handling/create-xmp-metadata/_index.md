@@ -85,7 +85,7 @@ XmpPacketWrapper xmpData = new XmpPacketWrapper(xmpHeader, xmpTrailer, xmpMeta);
 ## Steg 6: Skapa Photoshop-paket och ställ in attribut
 
 ```csharp
-// Skapa en instans av Photoshop-paketet och ställ in photoshop-attribut
+// Skapa en instans av Photoshop-paketet och ställ in Photoshop-attribut
 PhotoshopPackage photoshopPackage = new PhotoshopPackage();
 photoshopPackage.SetCity("London");
 photoshopPackage.SetCountry("England");
@@ -93,7 +93,7 @@ photoshopPackage.SetColorMode(ColorMode.Rgb);
 photoshopPackage.SetCreatedDate(DateTime.UtcNow);
 ```
 
-## Steg 7: Lägg till Photoshop-paket till XMP-metadata
+## Steg 7: Lägg till Photoshop-paketet till XMP-metadata
 
 ```csharp
 // Lägg till Photoshop-paket i XMP-metadata

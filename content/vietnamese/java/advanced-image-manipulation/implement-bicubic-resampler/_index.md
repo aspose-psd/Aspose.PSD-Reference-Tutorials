@@ -68,7 +68,7 @@ Lặp lại các bước này nếu cần cho trường hợp sử dụng cụ t
 
 ## Phần kết luận
 
-Chúc mừng! Bạn đã triển khai thành công Bộ lấy mẫu lại bicubic trong Aspose.PSD cho Java. Tính năng mạnh mẽ này nâng cao khả năng thay đổi kích thước hình ảnh của bạn, đảm bảo kết quả chất lượng cao cho các ứng dụng Java của bạn.
+Chúc mừng! Bạn đã triển khai thành công Bộ lấy mẫu lại Bicubic trong Aspose.PSD cho Java. Tính năng mạnh mẽ này nâng cao khả năng thay đổi kích thước hình ảnh của bạn, đảm bảo kết quả chất lượng cao cho các ứng dụng Java của bạn.
 
 ## Câu hỏi thường gặp
 
@@ -86,7 +86,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java hỗ trợ nhiều định dạng h
 
 ### Câu hỏi 4: Tôi có thể tải xuống thư viện Aspose.PSD cho Java không?
 
- A4: Có, tải xuống thư viện từ trang phát hành[đây](https://releases.aspose.com/psd/java/).
+ A4: Có, tải xuống thư viện từ trang phát hành.[đây](https://releases.aspose.com/psd/java/).
 
 ### Câu hỏi 5: Làm cách nào để mua Aspose.PSD cho Java?
 

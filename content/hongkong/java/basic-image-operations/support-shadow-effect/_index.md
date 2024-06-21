@@ -1,5 +1,5 @@
 ---
-title: 在 Aspose.PSD for Java 中支援陰影效果
+title: Aspose.PSD for Java 支援陰影效果
 linktitle: 支援陰影效果
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 為影像添加迷人的陰影效果。透過此逐步教學提升您的圖形設計。
@@ -99,7 +99,7 @@ A1：當然！ Aspose.PSD for Java 是一個功能強大的函式庫，專為專
 
 ### Q3：有免費試用嗎？
 
-A3：是的，您可以探索免費試用版[這裡](https://releases.aspose.com/).
+A3：是的，您可以探索免費試用版。[這裡](https://releases.aspose.com/).
 
 ### Q4：哪裡可以找到詳細的文件？
 
@@ -107,4 +107,4 @@ A3：是的，您可以探索免費試用版[這裡](https://releases.aspose.com
 
 ### Q5：如何獲得 Aspose.PSD for Java 的支援？
 
-A5：加入社群論壇[這裡](https://forum.aspose.com/c/psd/34)如有任何支援查詢。
+A5：加入社群論壇。[這裡](https://forum.aspose.com/c/psd/34)如有任何支援查詢。

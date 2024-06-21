@@ -90,4 +90,4 @@ A1: はい、Aspose.PSD は最新の .NET フレームワークと互換性が�
 
 ### Q5: 購入する前に、Aspose.PSD を無料で試用できますか?
 
-A5: はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
+A5: はい、無料トライアルを試すことができます。[ここ](https://releases.aspose.com/).

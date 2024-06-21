@@ -100,7 +100,7 @@ A1: もちろんです！ Aspose.PSD for Java はバッチ画像処理タスク�
 
 ### Q4: テスト目的には一時ライセンスが必要ですか?
 
- A4: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/)Java 用の Aspose.PSD をテストするため。
+ A4: 仮免許を取得してください。[ここ](https://purchase.aspose.com/temporary-license/) Java 用の Aspose.PSD をテストするため。
 
 ### Q5: Java 用の Aspose.PSD はどこで購入できますか?
 

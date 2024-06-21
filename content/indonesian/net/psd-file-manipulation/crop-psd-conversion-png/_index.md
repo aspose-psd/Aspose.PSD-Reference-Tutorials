@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Buat sebuah instance dari kelas PNGOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Langkah 5: Simpan Gambar yang Dipotong sebagai PNG
+## Langkah 5: Simpan Gambar yang Dipotong sebagai PNG.
 ```csharp
 // Panggil metode penyimpanan, berikan jalur keluaran, dan pngOptions untuk mengonversi file PSD ke PNG dan menyimpan hasilnya
 string destName = dataDir + @"export.png";

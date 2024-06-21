@@ -35,9 +35,9 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 ```
 
- แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่มีไฟล์ PSD ของคุณอยู่
+ แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ PSD ของคุณอยู่
 
-## ขั้นตอนที่ 2: โหลดรูปภาพ
+## ขั้นตอนที่ 2: โหลดภาพ
 
 ```csharp
 //ExStart: BinarizationWithFixedThreshold
@@ -50,7 +50,7 @@ using (Image image = Image.Load(sourceFile))
 {
 ```
 
- ขั้นตอนนี้จะโหลดไฟล์ PSD ตัวอย่างลงในไฟล์`Image` วัตถุ.
+ ขั้นตอนนี้จะโหลดไฟล์ PSD ตัวอย่างลงในไฟล์`Image` วัตถุ วัตถุ
 
 ## ขั้นตอนที่ 3: แคชรูปภาพ
 
@@ -77,7 +77,7 @@ using (Image image = Image.Load(sourceFile))
 //ตัวอย่าง End: BinarizationWithFixedThreshold
 ```
 
- ที่`BinarizeFixed` ใช้วิธีการแปลงรูปภาพเป็นรูปแบบไบนารี่ตามเกณฑ์ที่กำหนด จากนั้นภาพที่ได้จะถูกบันทึกในรูปแบบ JPEG
+ ที่`BinarizeFixed` วิธีการนี้ใช้ในการแปลงรูปภาพเป็นรูปแบบไบนารี่ตามเกณฑ์ที่กำหนด จากนั้นภาพที่ได้จะถูกบันทึกในรูปแบบ JPEG
 
 ## บทสรุป
 

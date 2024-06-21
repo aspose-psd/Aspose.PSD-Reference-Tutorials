@@ -33,7 +33,7 @@ using Aspose.PSD.ImageOptions;
 
 ここで、包括的な理解のためにサンプル コードを複数のステップに分割してみましょう。
 
-## ステップ 1: ドキュメント ディレクトリの設定
+## ステップ 1: ドキュメント ディレクトリのセットアップ
 
 ```csharp
 //ドキュメントディレクトリへのパス。
@@ -98,7 +98,7 @@ Image インスタンスを作成し、Graphics クラスを初期化し、背�
 
 ### Q1: Aspose.PSD for .NET のドキュメントはどこで見つけられますか?
 
- A1: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/net/).
+ A1: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/net/).
 
 ### Q2: .NET 用の Aspose.PSD をダウンロードするにはどうすればよいですか?
 

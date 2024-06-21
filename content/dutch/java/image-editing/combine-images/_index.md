@@ -106,7 +106,7 @@ A2: Absoluut! Na het combineren van afbeeldingen kunt u de resulterende PSD verd
 
 ### V4: Is er een gratis proefversie beschikbaar voor Aspose.PSD?
 
- A4: Ja, u kunt Aspose.PSD verkennen met een gratis proefperiode[hier](https://releases.aspose.com/).
+ A4: Ja, u kunt Aspose.PSD verkennen met een gratis proefperiode.[hier](https://releases.aspose.com/).
 
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.PSD-gerelateerde vragen?
 

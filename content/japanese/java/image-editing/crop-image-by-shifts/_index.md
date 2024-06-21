@@ -1,5 +1,5 @@
 ---
-title: Aspose.PSD for Java のシフトによる画像のトリミング
+title: Java 用 Aspose.PSD のシフトによる画像のトリミング
 linktitle: シフトによる画像のトリミング
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用したマスター画像のトリミング。シームレスな画像操作のための包括的なチュートリアル。

@@ -82,7 +82,7 @@ En este tutorial, cubrimos los pasos esenciales para cambiar el tamaño de las i
 
 ### P3: ¿Hay licencias temporales disponibles para fines de prueba?
 
- R3: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) Para evaluar.
+ R3: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) Para evaluar.
 
 ### P4: ¿Dónde puedo encontrar soporte para Aspose.PSD?
 

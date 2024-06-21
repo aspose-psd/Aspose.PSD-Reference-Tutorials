@@ -9,7 +9,7 @@ url: /zh/java/image-editing/create-image-using-stream/
 ---
 ## 介绍
 
-在 Java 开发领域，Aspose.PSD 作为强大的图像处理库脱颖而出。其强大的功能之一是能够使用流创建图像，从而提供处理图像数据的灵活性和效率。本教程将指导您完成在 Aspose.PSD for Java 中使用流创建图像的过程，通过分步说明提供实践经验。
+在 Java 开发领域，Aspose.PSD 作为强大的图像处理库脱颖而出。其强大的功能之一是能够使用流创建图像，从而提供处理图像数据的灵活性和效率。本教程将指导您完成在 Aspose.PSD for Java 中使用流创建图像的过程，通过分步说明提供实践体验。
 
 ## 先决条件
 
@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
-创建一个实例`Image`通过调用`create`方法，传递配置的`BmpOptions`并指定图像的尺寸。
+创建一个实例`Image`通过邀请`create`方法，传递配置的`BmpOptions`并指定图像的尺寸。
 
 ## 第6步：图像处理
 
@@ -105,12 +105,12 @@ A1：是的，Aspose.PSD 旨在与其他 Java 库无缝集成，为您的项目�
 
 ### Q3：Aspose.PSD 有免费试用版吗？
 
- A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
+ A3：是的，您可以免费试用。[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得Aspose.PSD的临时许可证？
 
- A4：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A4：获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).
 
-### Q5：Aspose.PSD 的系统要求是什么？
+### Q5：Aspose.PSD 有哪些系统要求？
 
  A5：请参阅[文档](https://reference.aspose.com/psd/java/)了解详细的系统要求。

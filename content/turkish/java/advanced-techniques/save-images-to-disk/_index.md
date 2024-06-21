@@ -90,4 +90,4 @@ Cevap1: Evet, Aspose.PSD for Java, JPEG, BMP, TIFF ve daha fazlası dahil olmak 
 
 ### S5: Aspose.PSD for Java için geçici lisanslar mevcut mu?
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

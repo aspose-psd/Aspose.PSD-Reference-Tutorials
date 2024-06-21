@@ -81,7 +81,7 @@ S1: Ja, Bradley Thresholding är en mångsidig teknik som lämpar sig för olika
 
 ### F3: Finns det en gratis provperiod?
 
- S3: Ja, du kan utforska en gratis testversion av Aspose.PSD för .NET[här](https://releases.aspose.com/).
+ S3: Ja, du kan utforska en gratis testversion av Aspose.PSD för .NET.[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.PSD?
 
@@ -89,4 +89,4 @@ S1: Ja, Bradley Thresholding är en mångsidig teknik som lämpar sig för olika
 
 ### F5: Var kan jag köpa en licens för Aspose.PSD?
 
- A5: Du kan köpa en licens[här](https://purchase.aspose.com/buy).
+ A5: Du kan köpa en licens.[här](https://purchase.aspose.com/buy).

@@ -11,7 +11,7 @@ url: /ko/net/psd-drawing-techniques/drawing-arcs/
 
 .NET용 Aspose.PSD를 사용하여 호 그리기에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! Aspose.PSD는 개발자가 .NET 애플리케이션에서 Adobe Photoshop 파일(.psd)로 작업할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.PSD 라이브러리를 사용하여 시각적으로 매력적인 호를 만드는 데 중점을 둘 것입니다.
 
-## 전제 조건
+## 전제조건
 
 호 그리기의 흥미진진한 세계에 뛰어들기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 
@@ -97,7 +97,7 @@ image.Save(outpath, saveOptions);
 
 ### Q2: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
 
- A2: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A2: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Aspose.PSD 지원을 위한 커뮤니티 포럼이 있습니까?
 
@@ -105,7 +105,7 @@ image.Save(outpath, saveOptions);
 
 ### Q4: Aspose.PSD 라이선스는 어디서 구입할 수 있나요?
 
- A4: 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A4: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
 ### Q5: 구매하기 전에 .NET용 Aspose.PSD를 무료로 사용해 볼 수 있나요?
 

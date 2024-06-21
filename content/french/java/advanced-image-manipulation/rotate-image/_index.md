@@ -83,4 +83,4 @@ A2 : Absolument ! Aspose.PSD offre la flexibilité nécessaire pour appliquer de
 
 ### Q5 : Comment puis-je obtenir une licence temporaire ?
 
- A5 : Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un[ici](https://purchase.aspose.com/temporary-license/).
+ R5 : Si vous avez besoin d’un permis temporaire, vous pouvez en obtenir un.[ici](https://purchase.aspose.com/temporary-license/).

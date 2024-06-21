@@ -94,7 +94,7 @@ Ebben az oktatóanyagban megvizsgáltuk a képek készítésének folyamatát az
 
 ### 2. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
- 2. válasz: Igen, az Aspose.PSD használható személyes és kereskedelmi projektekhez is. Ellenőrizd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+ 2. válasz: Igen, az Aspose.PSD használható személyes és kereskedelmi projektekhez is. Ellenőrizd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
@@ -102,8 +102,8 @@ Ebben az oktatóanyagban megvizsgáltuk a képek készítésének folyamatát az
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
 
- 5. válasz: Tesztelési célra ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+ 5. válasz: Tesztelési célra ideiglenes licencet szerezhet.[itt](https://purchase.aspose.com/temporary-license/).

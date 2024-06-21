@@ -77,7 +77,7 @@ A1: Ya, Aspose.PSD untuk .NET mendukung file PSD yang dibuat dalam berbagai vers
 
 ### Q3: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk .NET?
 
-A3: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/net/).
+A3: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -85,4 +85,4 @@ A3: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q5: Bagaimana cara membeli lisensi Aspose.PSD untuk .NET?
 
- A5: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+ A5: Anda dapat membeli lisensi.[Di Sini](https://purchase.aspose.com/buy).

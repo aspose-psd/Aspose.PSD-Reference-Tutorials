@@ -92,7 +92,7 @@ psdImage.save(outputStream, new PngOptions());
 
 ### Ε2: Μπορώ να δοκιμάσω το Aspose.PSD για Java πριν το αγοράσω;
 
- A2: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
+ A2: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση.[εδώ](https://releases.aspose.com/).
 
 ### Ε3: Πού μπορώ να βρω υποστήριξη για το Aspose.PSD για Java;
 
@@ -100,7 +100,7 @@ psdImage.save(outputStream, new PngOptions());
 
 ### Ε4: Χρειάζομαι μια προσωρινή άδεια για σκοπούς δοκιμής;
 
- A4: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμή Aspose.PSD για Java.
+ A4: Λάβετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμή Aspose.PSD για Java.
 
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.PSD για Java;
 

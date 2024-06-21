@@ -11,7 +11,7 @@ url: /ko/net/layer-effects/adding-stroke-layer-solid-color/
 
 .NET 개발 영역에서는 시각적으로 매력적인 이미지를 만드는 것이 일반적인 요구 사항입니다. .NET용 Aspose.PSD는 이미지를 원활하게 조작하고 향상시킬 수 있는 강력한 도구 세트를 제공합니다. 필수 기능 중 하나는 단색의 획 레이어를 추가하여 이미지에 생동감과 깊이를 더하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 프로세스를 단계별로 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -34,7 +34,7 @@ using Aspose.PSD.FileFormats.Core.Blending;
 
 ## 1단계: PSD 파일 로드
 
-스트로크 레이어로 향상시키려는 PSD 파일을 로드하는 것부터 시작하세요. 파일 경로가 올바른지 확인하세요.
+스트로크 레이어로 향상시키려는 PSD 파일을 로드하는 것부터 시작합니다. 파일 경로가 올바른지 확인하세요.
 
 ```csharp
 string dataDir = "Your Document Directory";

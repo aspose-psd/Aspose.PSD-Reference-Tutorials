@@ -42,7 +42,7 @@ string dataDir = RunExamples.GetDataDir_ModifyingAndConvertingImages();
 using (PsdImage image = new PsdImage(500, 500))
 {
     //กรอกข้อมูลรูปภาพ
-    // ... (โค้ดกรอกข้อมูลรูปภาพ)
+    // ...(โค้ดกรอกข้อมูลรูปภาพ)
     // บันทึกพิกเซลที่สร้างขึ้นใหม่
     image.SaveArgb32Pixels(image.Bounds, pixels);
 
@@ -68,13 +68,13 @@ image.CmykColorProfile = cmykprofile;
 ## ขั้นตอนที่ 3: บันทึกรูปภาพผลลัพธ์
 
 ```csharp
-// บันทึกภาพผลลัพธ์ด้วยโปรไฟล์ YCCK ใหม่ คุณจะสังเกตเห็นความแตกต่างในค่าสีหากเปรียบเทียบภาพ
+// บันทึกภาพผลลัพธ์ด้วยโปรไฟล์ YCCK ใหม่ คุณจะสังเกตเห็นความแตกต่างในค่าสีหากคุณเปรียบเทียบภาพ
 JpegOptions options = new JpegOptions();
 options.ColorType = JpegCompressionColorMode.Cmyk;
 image.Save(dataDir + "Cmyk_Default_profiles.jpg", options);
 ```
 
-สุดท้ายนี้ เราจะบันทึกรูปภาพด้วยโปรไฟล์สีที่อัปเดต ซึ่งแสดงให้เห็นความแตกต่างของค่าสี
+สุดท้ายนี้ เราจะบันทึกรูปภาพด้วยโปรไฟล์สีที่อัปเดต โดยแสดงให้เห็นความแตกต่างของค่าสี
 
 ## บทสรุป
 

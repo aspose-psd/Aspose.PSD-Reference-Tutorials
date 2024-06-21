@@ -78,7 +78,7 @@ A1：是的，Aspose.PSD for Java 支援各種影像格式，包括 JPEG、BMP�
 
 ### Q2：Aspose.PSD for Java 有免費試用版嗎？
 
- A2：是的，您可以存取 Aspose.PSD for Java 免費試用版[這個連結](https://releases.aspose.com/).
+ A2：是的，您可以存取 Aspose.PSD for Java 免費試用版。[這個連結](https://releases.aspose.com/).
 
 ### Q3：在哪裡可以找到 Aspose.PSD for Java 的綜合文件？
 
@@ -90,4 +90,4 @@ A1：是的，Aspose.PSD for Java 支援各種影像格式，包括 JPEG、BMP�
 
 ### Q5：Aspose.PSD for Java 是否有臨時授權？
 
- A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A5: 是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).

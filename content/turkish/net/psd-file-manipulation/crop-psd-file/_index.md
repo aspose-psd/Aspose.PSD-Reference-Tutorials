@@ -38,7 +38,7 @@ PSD dosyaları için doğru Kırpma yöntemini uygulayın. Bir Rectangle nesnesi
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Dikdörtgen oluşturucudaki değerleri kırpma gereksinimlerinize göre ayarlayın.
+Rectangle yapıcısındaki değerleri kırpma gereksinimlerinize göre ayarlayın.
 ## Adım 5: Kırpılan Resmi Kaydedin
 Kırpılan görüntüyü hem PSD hem de PNG formatlarında kaydedin:
 ```csharp

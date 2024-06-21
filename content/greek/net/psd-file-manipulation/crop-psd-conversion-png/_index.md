@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Δημιουργήστε μια παρουσία της κλάσης PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Βήμα 5: Αποθηκεύστε την περικομμένη εικόνα ως PNG
+## Βήμα 5: Αποθηκεύστε την περικομμένη εικόνα ως PNG.
 ```csharp
 // Καλέστε τη μέθοδο αποθήκευσης, δώστε τη διαδρομή εξόδου και PngOptions για να μετατρέψετε το αρχείο PSD σε PNG και να αποθηκεύσετε την έξοδο
 string destName = dataDir + @"export.png";

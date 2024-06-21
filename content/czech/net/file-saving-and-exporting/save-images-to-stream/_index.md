@@ -82,11 +82,11 @@ Gratulujeme! Úspěšně jste se naučili, jak ukládat obrázky do streamu pomo
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/) prozkoumání funkcí Aspose.PSD před nákupem.
+ A3: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/) prozkoumání funkcí Aspose.PSD před nákupem.
 
 ### Q4: Jak mohu získat dočasnou licenci?
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
+ A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
 
 ### Q5: Kde mohu koupit Aspose.PSD?
 

@@ -79,4 +79,4 @@ Aspose.PSD を使用した Java でのマスター イメージのサイズ変�
 ### [Aspose.PSD for Java で画像を回転する](./rotate-image/)
 Aspose.PSD を使用して、Java で画像の回転を簡単に試してみましょう。 PSD ファイルを簡単に回転、反転、保存できます。
 ### [Aspose.PSD for Java を使用して画像を特定の角度で回転する](./rotate-image-specific-angle/)
-Aspose.PSD for Java を使用して、Java での画像の回転を調べます。特定の角度で画像を簡単に回転できます。
+Aspose.PSD for Java を使用して、Java での画像の回転を調べます。画像を特定の角度で簡単に回転します。

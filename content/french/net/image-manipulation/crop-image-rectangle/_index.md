@@ -105,7 +105,7 @@ A3 : Aspose.PSD pour .NET est conçu pour gérer des images de différentes tail
 
 ### Q4 : Existe-t-il une version d'essai disponible pour Aspose.PSD pour .NET ?
 
- A4 : Oui, vous pouvez explorer les fonctionnalités de la bibliothèque en obtenant un essai gratuit[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez explorer les fonctionnalités de la bibliothèque en obtenant un essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q5 : Où puis-je trouver une assistance ou une assistance supplémentaire ?
 

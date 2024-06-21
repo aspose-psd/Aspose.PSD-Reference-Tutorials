@@ -88,7 +88,7 @@ Câu trả lời 2: Mặc dù có thể nhưng bạn nên xóa các tệp bộ n
 
 ### Câu hỏi 4: Có giấy phép tạm thời dành cho Aspose.PSD dành cho .NET không?
 
- A4: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+ A4: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET không?
 

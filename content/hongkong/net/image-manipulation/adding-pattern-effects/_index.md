@@ -49,7 +49,7 @@ string OutputDir = "Your Output Directory";
 
 ```csharp
 //新增圖案疊加效果範例程式碼
-//…
+//……
 
 //確保適當處理異常
 catch (Exception e)
@@ -64,7 +64,7 @@ catch (Exception e)
 
 ```csharp
 //用於測試編輯的文件的範例程式碼
-//…
+//……
 
 //確保適當處理異常
 catch (Exception e)
@@ -95,7 +95,7 @@ A1：是的，您可以定義自訂模式並使用 Aspose.PSD for .NET 套用它
 
 ### Q2：Aspose.PSD for .NET 是否相容於所有影像格式？
 
-A2：Aspose.PSD 主要支援 PSD (Adobe Photoshop) 格式，但它也提供影像與其他格式相互轉換的功能。
+A2：Aspose.PSD 主要支援 PSD (Adobe Photoshop) 格式，但它也提供將影像與其他格式相互轉換的功能。
 
 ### Q3：如何調整圖案疊加的不透明度？
 

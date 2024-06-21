@@ -13,7 +13,7 @@ Si vous cherchez à améliorer vos applications .NET avec des effets graphiques 
 
 ## Conditions préalables
 
-Avant de nous lancer dans cette aventure, assurez-vous d’avoir les conditions préalables suivantes en place :
+Avant de nous lancer dans ce voyage, assurez-vous d’avoir les conditions préalables suivantes en place :
 
 - Une connaissance pratique du développement C# et .NET.
 -  Aspose.PSD pour la bibliothèque .NET installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/psd/net/).
@@ -106,7 +106,7 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec divers frameworks .NET.
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour .NET ?
 
- A2 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
+ A2 : Oui, vous pouvez accéder à l’essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q3 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 
@@ -118,4 +118,4 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec divers frameworks .NET.
 
 ### Q5 : Comment puis-je acheter une licence pour Aspose.PSD pour .NET ?
 
- A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter une licence.[ici](https://purchase.aspose.com/buy).

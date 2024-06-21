@@ -9,7 +9,7 @@ url: /zh/java/advanced-techniques/convert-psd-to-raster-formats/
 ---
 ## 介绍
 
-在 Web 开发的动态世界中，将 PSD（Photoshop 文档）文件转换为各种光栅图像格式是常见的要求。 Aspose.PSD for Java 成为无缝实现这一目标的强大工具。本教程将指导您完成整个过程，提供有关使用 Aspose.PSD for Java 将 PSD 文件转换为流行的光栅图像格式的分步说明。
+在 Web 开发的动态世界中，将 PSD（Photoshop 文档）文件转换为各种光栅图像格式是常见的要求。 Aspose.PSD for Java 成为无缝实现这一目标的强大工具。本教程将引导您完成整个过程，提供有关使用 Aspose.PSD for Java 将 PSD 文件转换为流行的光栅图像格式的分步说明。
 
 ## 先决条件
 

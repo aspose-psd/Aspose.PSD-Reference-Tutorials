@@ -52,7 +52,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 ```
 ## 結論
 
-恭喜！您已經成功掌握了使用 Aspose.PSD for .NET 進行字體替換的藝術。這個強大的庫提供了處理缺失字體的靈活性和效率，確保您的設計保持完整。
+恭喜！您已經成功掌握了使用 Aspose.PSD for .NET 進行字體替換的技巧。這個強大的庫提供了處理缺失字體的靈活性和效率，確保您的設計保持完整。
 
 ## 常見問題解答
 
@@ -70,8 +70,8 @@ A1：是的，Aspose.PSD 允許您在每層的基礎上選擇性地替換字體�
 
 ### Q4：Aspose.PSD 是否有臨時授權？
 
- A4：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：在哪裡可以找到 Aspose.PSD 的綜合文件？
 
- A5: 參見詳細[文件](https://reference.aspose.com/psd/net/)深入了解 Aspose.PSD 功能。
+ A5：參考詳情[文件](https://reference.aspose.com/psd/net/)深入了解 Aspose.PSD 功能。

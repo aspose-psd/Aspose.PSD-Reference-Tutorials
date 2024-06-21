@@ -96,7 +96,7 @@ A2 : Oui, Aspose.PSD pour .NET propose diverses propriétés pour affiner les ef
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour .NET ?
 
- A3 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A3 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q4 : Aspose.PSD pour .NET est-il compatible avec .NET Core ?
 

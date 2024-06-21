@@ -11,7 +11,7 @@ url: /ko/net/layer-effects/adjusting-shadow-effect-opacity/
 
 .NET용 Aspose.PSD의 그림자 효과 불투명도 조정에 대한 단계별 가이드에 오신 것을 환영합니다! 이 튜토리얼에서는 DropShadowEffect의 Opacity 속성을 활용하는 과정을 안내합니다. Aspose.PSD for .NET은 .NET 애플리케이션에서 PSD 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -96,7 +96,7 @@ A2: 예, .NET용 Aspose.PSD는 그림자 효과를 미세 조정하기 위한 �
 
 ### Q3: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- A3: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A3: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: .NET용 Aspose.PSD는 .NET Core와 호환됩니까?
 

@@ -70,8 +70,8 @@ R1: Sí, Aspose.PSD le permite reemplazar fuentes de forma selectiva por capa.
 
 ### P4: ¿Hay licencias temporales disponibles para Aspose.PSD?
 
- R4: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R4: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P5: ¿Dónde puedo encontrar documentación completa para Aspose.PSD?
 
- A5: consulte la información detallada[documentación](https://reference.aspose.com/psd/net/) para obtener información detallada sobre las funcionalidades de Aspose.PSD.
+ A5: consulte los detalles[documentación](https://reference.aspose.com/psd/net/) para obtener información detallada sobre las funcionalidades de Aspose.PSD.

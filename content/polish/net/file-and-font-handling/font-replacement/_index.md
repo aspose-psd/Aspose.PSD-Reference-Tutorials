@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Twój kod do zamiany czcionek znajduje się tutaj
+    // Twój kod do zamiany czcionek znajduje się tutaj.
 }
 ```
 

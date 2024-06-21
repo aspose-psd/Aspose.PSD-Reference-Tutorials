@@ -43,7 +43,7 @@ saveOptions.BitsPerPixel = 32;
 
 ## Bước 2: Khởi tạo hình ảnh và đồ họa
 
- Bây giờ, hãy tạo một thể hiện của`Image` lớp và khởi tạo một`Graphics` sự vật. Bước này rất cần thiết cho việc vẽ và thao tác với hình ảnh:
+ Bây giờ, hãy tạo một phiên bản của`Image` lớp và khởi tạo một`Graphics` sự vật. Bước này rất cần thiết cho việc vẽ và thao tác với hình ảnh:
 
 ```csharp
 using (Image image = new PsdImage(100, 100))

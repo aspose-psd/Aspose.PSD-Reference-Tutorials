@@ -102,8 +102,8 @@ A1: Ano, Aspose.PSD bezproblémově funguje s různými Java Integrated Developm
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
- A5: Můžete získat dočasnou licenci pro testovací účely[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci pro testovací účely.[tady](https://purchase.aspose.com/temporary-license/).

@@ -92,11 +92,11 @@ finally
 
 ### 问题 2：在哪里可以找到 Aspose.PSD for .NET 的综合文档？
 
-A2：文档可用[这里](https://reference.aspose.com/psd/net/).
+A2：文档可用。[这里](https://reference.aspose.com/psd/net/).
 
 ### Q3：Aspose.PSD for .NET 是否有免费试用版？
 
- A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+ A3: 是的，您可以获得免费试用。[这里](https://releases.aspose.com/).
 
 ### 问题 4：如何获得 Aspose.PSD for .NET 支持？
 
@@ -104,4 +104,4 @@ A2：文档可用[这里](https://reference.aspose.com/psd/net/).
 
 ### Q5：我可以购买 Aspose.PSD for .NET 的临时许可证吗？
 
- A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A5: 是的，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).

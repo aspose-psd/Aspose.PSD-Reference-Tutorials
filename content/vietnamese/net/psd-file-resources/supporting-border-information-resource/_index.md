@@ -8,7 +8,7 @@ weight: 11
 url: /vi/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Giới thiệu
-Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sử dụng tính năng Tài nguyên thông tin biên giới trong Aspose.PSD cho .NET. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình làm việc với Tài nguyên thông tin biên giới bằng Aspose.PSD, một thư viện hình ảnh .NET mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này nhằm mục đích cung cấp sự rõ ràng về cách kết hợp liền mạch Tài nguyên thông tin biên giới vào dự án của bạn.
+Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sử dụng tính năng Tài nguyên thông tin biên giới trong Aspose.PSD cho .NET. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình làm việc với Tài nguyên thông tin biên giới bằng Aspose.PSD, một thư viện hình ảnh .NET mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này nhằm mục đích cung cấp sự rõ ràng về cách tích hợp liền mạch Tài nguyên thông tin biên giới vào các dự án của bạn.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có những điều sau:
 -  Aspose.PSD for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PSD. Bạn có thể tải nó xuống từ[Trang web Aspose.PSD](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Q4: Làm thế nào tôi có thể nhận được hỗ trợ?
 
@@ -88,4 +88,4 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 
 ### Câu hỏi 5: Có giấy phép tạm thời không?
 
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

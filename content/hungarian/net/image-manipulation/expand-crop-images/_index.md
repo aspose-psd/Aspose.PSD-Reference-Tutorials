@@ -23,7 +23,7 @@ Most pedig kezdjük a lépésről lépésre bemutatott útmutatóval.
 
 ## Névterek importálása
 
-Kezdje a szükséges névterek importálásával, hogy kihasználja az Aspose.PSD for .NET által biztosított funkciókat. Adja hozzá a következő névtereket a kódhoz:
+Kezdje a szükséges névterek importálásával, hogy kihasználja az Aspose.PSD for .NET által biztosított funkciókat. Adja hozzá a következő névtereket a kódjához:
 
 ```csharp
 using Aspose.PSD.ImageOptions;
@@ -44,7 +44,7 @@ string sourceFile = dataDir + @"example1.psd";
 // Töltse be a képet
 using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 {
-    // A képfeldolgozáshoz szükséges további kód kerül ide
+    // Ide kerül a képfeldolgozáshoz szükséges további kód
 }
 ```
 

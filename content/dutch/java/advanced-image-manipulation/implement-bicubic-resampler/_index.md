@@ -86,7 +86,7 @@ A1: Ja, Aspose.PSD voor Java ondersteunt verschillende afbeeldingsformaten, waar
 
 ### V4: Kan ik de Aspose.PSD voor Java-bibliotheek downloaden?
 
- A4: Ja, download de bibliotheek vanaf de releasepagina[hier](https://releases.aspose.com/psd/java/).
+ A4: Ja, download de bibliotheek vanaf de releasepagina.[hier](https://releases.aspose.com/psd/java/).
 
 ### Vraag 5: Hoe koop ik Aspose.PSD voor Java?
 

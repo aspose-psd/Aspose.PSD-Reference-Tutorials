@@ -81,7 +81,7 @@ A1: Ναι, το Bradley Thresholding είναι μια ευέλικτη τεχ�
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή του Aspose.PSD για .NET[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή του Aspose.PSD για .NET.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD;
 
@@ -89,4 +89,4 @@ A1: Ναι, το Bradley Thresholding είναι μια ευέλικτη τεχ�
 
 ### Ε5: Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.PSD;
 
- A5: Μπορείτε να αγοράσετε μια άδεια[εδώ](https://purchase.aspose.com/buy).
+ A5: Μπορείτε να αγοράσετε μια άδεια.[εδώ](https://purchase.aspose.com/buy).

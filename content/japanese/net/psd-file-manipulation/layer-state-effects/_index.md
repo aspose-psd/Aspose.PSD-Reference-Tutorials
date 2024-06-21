@@ -73,11 +73,11 @@ psdImage.Save(outputFile);
 
 ### A3: 無料トライアルはありますか?
 
- A3: はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
+ A3: はい、無料トライアルを試すことができます。[ここ](https://releases.aspose.com/).
 
 ### Q4: 仮免許を取得するにはどうすればよいですか?
 
- A4: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+ A4: 仮免許を取得してください。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: サポートが必要ですか? 質問がありますか?
 

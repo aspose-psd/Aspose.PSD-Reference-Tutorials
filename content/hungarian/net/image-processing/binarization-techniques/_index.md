@@ -9,7 +9,7 @@ url: /hu/net/image-processing/binarization-techniques/
 ---
 ## Bevezetés
 
-képfeldolgozás világában a színes kép binárissá alakításának képessége döntő lépés. A binarizálás segít leegyszerűsíteni az összetett képeket azáltal, hogy fekete-fehér képpontokká redukálják őket, megkönnyítve az információk elemzését és kinyerését. Az Aspose.PSD for .NET hatékony eszközöket biztosít a képkezeléshez, beleértve a robusztus binarizációs technikákat. Ebben az oktatóanyagban megvizsgáljuk a BinarizationWithFixedThreshold metódust, és végigvezetjük annak megvalósításán az Aspose.PSD for .NET használatával.
+képfeldolgozás világában döntő lépés a színes kép binárissá alakításának képessége. A binarizálás segít leegyszerűsíteni az összetett képeket azáltal, hogy fekete-fehér képpontokká redukálják őket, megkönnyítve az információk elemzését és kinyerését. Az Aspose.PSD for .NET hatékony eszközöket biztosít a képkezeléshez, beleértve a robusztus binarizációs technikákat. Ebben az oktatóanyagban megvizsgáljuk a BinarizationWithFixedThreshold metódust, és végigvezetjük annak megvalósításán az Aspose.PSD for .NET használatával.
 
 ## Előfeltételek
 

@@ -88,7 +88,7 @@ R1: Sí, Aspose.PSD admite una amplia gama de formatos de imagen, lo que lo hace
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
 
- R2: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
+ R2: Sí, puedes obtener una prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Cómo obtengo soporte para Aspose.PSD para Java?
 
@@ -100,4 +100,4 @@ R1: Sí, Aspose.PSD admite una amplia gama de formatos de imagen, lo que lo hace
 
 ### P5: ¿Cómo puedo comprar Aspose.PSD para Java?
 
- A5: puedes comprar el producto[aquí](https://purchase.aspose.com/buy).
+ A5: Puedes comprar el producto.[aquí](https://purchase.aspose.com/buy).

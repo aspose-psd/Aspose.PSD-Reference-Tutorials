@@ -72,7 +72,7 @@ image.save(destName, new PngOptions());
 
 Zapisz binarny obraz w określonym miejscu docelowym, używając formatu PNG.
 
-Powtórz te kroki dla swojego konkretnego przypadku użycia, a pomyślnie zastosujesz funkcję Bradley Thresholding do swojego obrazu za pomocą Aspose.PSD dla Java.
+Powtórz te kroki dla swojego konkretnego przypadku użycia, a pomyślnie zastosujesz próg Bradleya do swojego obrazu za pomocą Aspose.PSD dla Java.
 
 ## Wniosek
 

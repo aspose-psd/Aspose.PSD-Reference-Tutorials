@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Bây giờ, hãy chia nhỏ mã ví dụ thành hướng dẫn từng bước để kết hợp Trình giám sát ngắt trong dự án Aspose.PSD cho Java của bạn.
+Bây giờ, hãy chia nhỏ mã ví dụ thành hướng dẫn từng bước để tích hợp Trình giám sát ngắt trong dự án Aspose.PSD cho Java của bạn.
 
 ## Bước 1: Đặt thư mục tài liệu của bạn
 
@@ -96,7 +96,7 @@ Ngắt quá trình chuyển đổi hình ảnh bằng Trình theo dõi ngắt v�
 
 ## Phần kết luận
 
-Việc kết hợp hỗ trợ Giám sát ngắt trong các dự án Aspose.PSD cho Java của bạn cho phép bạn quản lý hiệu quả các quy trình chuyển đổi hình ảnh, mang lại khả năng kiểm soát và khả năng phản hồi cao hơn.
+Việc kết hợp hỗ trợ Giám sát ngắt trong các dự án Aspose.PSD cho Java cho phép bạn quản lý hiệu quả các quy trình chuyển đổi hình ảnh, mang lại khả năng kiểm soát và khả năng phản hồi cao hơn.
 
 ## Câu hỏi thường gặp
 
@@ -106,11 +106,11 @@ Câu trả lời 1: Trình giám sát ngắt trong Aspose.PSD dành cho Java cho
 
 ### Câu hỏi 2: Làm cách nào tôi có thể lấy thư viện Aspose.PSD cho Java?
 
-Câu trả lời 2: Bạn có thể tải xuống thư viện Aspose.PSD cho Java[đây](https://releases.aspose.com/psd/java/).
+Câu trả lời 2: Bạn có thể tải xuống thư viện Aspose.PSD cho Java.[đây](https://releases.aspose.com/psd/java/).
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.PSD[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.PSD.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.PSD cho Java ở đâu?
 
@@ -118,4 +118,4 @@ Câu trả lời 2: Bạn có thể tải xuống thư viện Aspose.PSD cho Jav
 
 ### Câu hỏi 5: Làm cách nào tôi có thể mua giấy phép Aspose.PSD cho Java?
 
- Câu trả lời 5: Bạn có thể mua giấy phép Aspose.PSD cho Java[đây](https://purchase.aspose.com/buy).
+ Câu trả lời 5: Bạn có thể mua giấy phép Aspose.PSD cho Java.[đây](https://purchase.aspose.com/buy).

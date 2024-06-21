@@ -22,7 +22,7 @@ Bunlar bazı yararlı kaynaklara bağlantılar:
 - [PSD Dosyası İşleme](./net/psd-file-manipulation/)
 - [Metin ve Font İşleme](./net/text-and-font-manipulation/)
 - [Dosya Kaydetme ve Dışa Aktarma](./net/file-saving-and-exporting/)
-- [Görüntü Ayarı](./net/image-adjustment/)
+- [Görüntü Ayarlama](./net/image-adjustment/)
 - [Görüntü Efektleri](./net/image-effects/)
 - [Görüntü İşleme](./net/image-manipulation/)
 - [Dosya ve Yazı Tipi İşleme](./net/file-and-font-handling/)

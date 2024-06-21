@@ -96,7 +96,7 @@ A3: Absolut, Aspose.PSD bietet effiziente Tools für die Stapelverarbeitung von 
 
 ### F4: Kann ich Aspose.PSD für kommerzielle Projekte verwenden?
 
- A4: Ja, Sie können eine Lizenz erwerben[Hier](https://purchase.aspose.com/buy) zur kommerziellen Nutzung.
+ A4: Ja, Sie können eine Lizenz erwerben.[Hier](https://purchase.aspose.com/buy) zur kommerziellen Nutzung.
 
 ### F5: Wo finde ich Community-Unterstützung für Aspose.PSD für .NET?
 

@@ -51,7 +51,7 @@ Ontdek de kracht van Aspose.PSD voor .NET door afbeeldingen moeiteloos onder spe
 
  Transformeer uw afbeeldingen met boeiende verloopeffecten met Aspose.PSD voor .NET. Onze stap voor stap[zelfstudie](./adding-gradient-effects/) begeleidt u door het proces en helpt u moeiteloos creatieve visuele transformaties te realiseren.
 
-## Patrooneffecten aan afbeeldingen toevoegen
+## Patrooneffecten toevoegen aan afbeeldingen
 
 Verbeter uw afbeeldingen met boeiende patrooneffecten met Aspose.PSD voor .NET. Volg ons stap voor stap[gids](./adding-pattern-effects/) om aangepaste patronen naadloos toe te voegen, waardoor uw ontwerpen naar een hoger niveau worden getild.
 

@@ -106,11 +106,11 @@ O1: Tak, Aspose.PSD dla Java zapewnia obsługę wielowątkowości, umożliwiają
 
 ### P2: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla Java?
 
- Odpowiedź 2: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/psd/java/) aby uzyskać wyczerpujące informacje na temat Aspose.PSD dla Java.
+ Odpowiedź 2: Możesz zapoznać się z dokumentacją.[Tutaj](https://reference.aspose.com/psd/java/) aby uzyskać wyczerpujące informacje na temat Aspose.PSD dla Java.
 
 ### P3: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla Java?
 
- A3: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) aby poznać pełne możliwości Aspose.PSD dla Java.
+ A3: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/) aby poznać pełne możliwości Aspose.PSD dla Java.
 
 ### P4: Jakie opcje wsparcia są dostępne dla Aspose.PSD dla Java?
 

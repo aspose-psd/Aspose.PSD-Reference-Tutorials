@@ -85,4 +85,4 @@ A1: Ja, Aspose.PSD für Java ist so konzipiert, dass es nahtlos mit anderen Java
 
 ### F5: Benötige ich zum Testen eine temporäre Lizenz?
 
- A5: Wenn Sie die Bibliothek testen, können Sie eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Wenn Sie die Bibliothek testen, können Sie eine temporäre Lizenz erwerben.[Hier](https://purchase.aspose.com/temporary-license/).

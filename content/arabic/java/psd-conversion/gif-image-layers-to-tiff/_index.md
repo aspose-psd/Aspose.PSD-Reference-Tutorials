@@ -25,9 +25,9 @@ import com.aspose.psd.imageoptions.TiffOptions;
 import java.io.FileNotFoundException;
 ```
 ## الخطوة 1: إعداد بيئتك
- تأكد من تثبيت Java وAspose.PSD لـ Java على نظامك. إذا لم يكن الأمر كذلك، راجع[توثيق](https://reference.aspose.com/psd/java/) للحصول على تعليمات التثبيت.
+ تأكد من تثبيت Java وAspose.PSD لـ Java على نظامك. إذا لم يكن كذلك، الرجوع إلى[توثيق](https://reference.aspose.com/psd/java/) للحصول على تعليمات التثبيت.
 ## الخطوة 2: استيراد مكتبة Aspose.PSD
-في مشروع Java الخاص بك، قم بتضمين مكتبة Aspose.PSD عن طريق إضافتها إلى تبعيات مشروعك. يمكنك تحميل المكتبة[هنا](https://releases.aspose.com/psd/java/).
+ في مشروع Java الخاص بك، قم بتضمين مكتبة Aspose.PSD عن طريق إضافتها إلى تبعيات مشروعك. يمكنك تحميل المكتبة[هنا](https://releases.aspose.com/psd/java/).
 ## الخطوة 3: إنشاء كائن صورة PSD
 قم بتحميل ملف صورة PSD إلى تطبيق Java الخاص بك باستخدام الكود المقدم. استبدل "دليل المستندات الخاص بك" و"sample.psd" بالمسارات المناسبة.
 ```java

@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Ujistěte se, že máte ve svém projektu nainstalovanou knihovnu Aspose.PSD. Dokumentaci najdete[tady](https://reference.aspose.com/psd/net/).
+Ujistěte se, že máte ve svém projektu nainstalovanou knihovnu Aspose.PSD. Dokumentaci najdete[tady](https://reference.aspose.com/psd/net/).
 
 ## Krok 1: Definujte svůj adresář dokumentů
 
@@ -93,7 +93,7 @@ A2: Rozhodně! Aspose.PSD umožňuje provádět dávkové zpracování obrazu, t
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.PSD[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.PSD.[tady](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat podporu nebo vyhledat pomoc?
 

@@ -82,7 +82,7 @@ Dans ce didacticiel, nous avons couvert les étapes essentielles pour redimensio
 
 ### Q3 : Des licences temporaires sont-elles disponibles à des fins de test ?
 
- A3 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour évaluation.
+ A3 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/) pour évaluation.
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD ?
 

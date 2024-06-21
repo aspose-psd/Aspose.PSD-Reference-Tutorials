@@ -88,16 +88,16 @@ Tebrikler! Aspose.PSD for .NET'i kullanarak Gama Ayarını başarıyla uyguladı
 
 ### S2: Aspose.PSD for .NET'i nasıl indirebilirim?
 
- A2: Kütüphaneyi indirebilirsiniz[Burada](https://releases.aspose.com/psd/net/).
+ A2: Kütüphaneyi indirebilirsiniz.[Burada](https://releases.aspose.com/psd/net/).
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için nereden destek alabilirim?
 
- Cevap4: Destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/psd/34).
+ A4: Destek forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/psd/34).
 
 ### S5: Geçici bir lisansa ihtiyacım var mı?
 
- Cevap5: Gerekirse geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap 5: Gerekirse geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

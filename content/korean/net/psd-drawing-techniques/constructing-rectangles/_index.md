@@ -11,7 +11,7 @@ url: /ko/net/psd-drawing-techniques/constructing-rectangles/
 
 .NET 개발의 동적 영역에서 Aspose.PSD는 이미지 조작을 처리하는 강력한 도구로 돋보입니다. 이 튜토리얼은 .NET용 Aspose.PSD를 사용하여 직사각형을 구성하는 기본적인 작업에 중점을 둡니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 각 개념을 철저하게 이해할 수 있도록 프로세스를 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -19,7 +19,7 @@ url: /ko/net/psd-drawing-techniques/constructing-rectangles/
 
 -  Aspose.PSD 다운로드: 다음에서 Aspose.PSD 라이브러리를 다운로드했는지 확인하세요.[다운로드 링크](https://releases.aspose.com/psd/net/).
 
--  라이선스 받기: 프로덕션 환경에서 Aspose.PSD를 사용하는 경우 유효한 라이선스가 있는지 확인하세요. 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/buy) 또는[임시 면허증](https://purchase.aspose.com/temporary-license/) 시험용.
+-  라이선스 받기: 프로덕션 환경에서 Aspose.PSD를 사용하는 경우 유효한 라이선스가 있는지 확인하세요. 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/buy) 또는[임시면허](https://purchase.aspose.com/temporary-license/) 시험용.
 
 ## 네임스페이스 가져오기
 
@@ -81,7 +81,7 @@ A1: 예, Aspose.PSD는 다양한 .NET 환경에서 작동하도록 설계되어 
 
 ### Q2: 라이선스 없이 상업용 프로젝트에 Aspose.PSD를 사용할 수 있나요?
 
- A2: 아니요. 상업적으로 사용하려면 유효한 라이센스가 필요합니다. 라이센스 취득[여기](https://purchase.aspose.com/buy).
+ A2: 아니요. 상업적으로 사용하려면 유효한 라이선스가 필요합니다. 라이센스 취득[여기](https://purchase.aspose.com/buy).
 
 ### Q3: Aspose.PSD에 대한 도움을 구하거나 내 경험을 공유하려면 어떻게 해야 합니까?
 

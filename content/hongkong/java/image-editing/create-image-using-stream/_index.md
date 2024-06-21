@@ -9,7 +9,7 @@ url: /zh-hant/java/image-editing/create-image-using-stream/
 ---
 ## 介紹
 
-在 Java 開發領域，Aspose.PSD 作為強大的影像處理庫脫穎而出。其強大的功能之一是能夠使用串流創建圖像，從而提供處理圖像資料的靈活性和效率。本教學將引導您完成在 Aspose.PSD for Java 中使用串流建立影像的過程，透過逐步說明提供實務經驗。
+在 Java 開發領域，Aspose.PSD 作為強大的影像處理庫脫穎而出。其強大的功能之一是能夠使用串流創建圖像，從而提供處理圖像資料的靈活性和效率。本教學將引導您完成在 Aspose.PSD for Java 中使用串流建立影像的過程，透過逐步說明提供實作體驗。
 
 ## 先決條件
 
@@ -75,13 +75,13 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
-建立一個實例`Image`透過調用`create`方法，傳遞配置的`BmpOptions`並指定影像的尺寸。
+建立一個實例`Image`透過邀請`create`方法，傳遞配置的`BmpOptions`並指定影像的尺寸。
 
 ## 第6步：影像處理
 
 ```java
 //執行所需的影像處理操作
-//…
+//……
 
 //儲存處理後的影像
 image.save(desName);
@@ -105,12 +105,12 @@ A1：是的，Aspose.PSD 旨在與其他 Java 程式庫無縫集成，為您的�
 
 ### Q3：Aspose.PSD 有免費試用版嗎？
 
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
 
 ### Q4：如何取得Aspose.PSD的臨時授權？
 
- A4：取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
 
-### Q5：Aspose.PSD 的系統需求是什麼？
+### Q5：Aspose.PSD 有哪些系統需求？
 
  A5：請參閱[文件](https://reference.aspose.com/psd/java/)了解詳細的系統需求。

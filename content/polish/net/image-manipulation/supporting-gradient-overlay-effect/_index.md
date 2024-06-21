@@ -110,7 +110,7 @@ Otóż to! Pomyślnie dodałeś efekt nakładki gradientu do warstwy przy użyci
 
 ## Wniosek
 
-W tym samouczku zbadaliśmy proces obsługi efektu nakładki gradientu w Aspose.PSD dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, możesz bezproblemowo zintegrować tę funkcję z aplikacjami .NET, poprawiając atrakcyjność wizualną swoich obrazów.
+W tym samouczku zbadaliśmy proces obsługi efektu nakładki gradientu w Aspose.PSD dla .NET. Postępując zgodnie ze szczegółowym przewodnikiem, możesz bezproblemowo zintegrować tę funkcję z aplikacjami .NET, poprawiając atrakcyjność wizualną swoich obrazów.
 
 ## Często zadawane pytania
 
@@ -128,8 +128,8 @@ Odpowiedź 2: Tak, możesz zastosować różne efekty, w tym nakładkę gradient
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.PSD?
 
- A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+ A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.

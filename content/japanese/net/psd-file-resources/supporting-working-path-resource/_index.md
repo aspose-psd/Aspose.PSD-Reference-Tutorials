@@ -65,7 +65,7 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 ```
 ## 結論
 
-おめでとう！ Aspose.PSD for .NET の 'WorkingPathResource' の使い方をマスターしました。この機能により画像処理能力が向上し、プロジェクトの精度と効率が保証されます。
+おめでとう！ Aspose.PSD for .NET の 'WorkingPathResource' の使い方をマスターしました。この機能により画像処理能力が向上し、プロジェクトの精度と効率が確保されます。
 
 ## よくある質問
 
@@ -87,4 +87,4 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### Q5: 仮免許が必要ですか?
 
- A5: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: 仮免許を取得してください。[ここ](https://purchase.aspose.com/temporary-license/).

@@ -82,7 +82,7 @@ Neste tutorial, cobrimos as etapas essenciais para redimensionar imagens proporc
 
 ### P3: As licenças temporárias estão disponíveis para fins de teste?
 
- A3: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para avaliação.
+ A3: Sim, você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/) para avaliação.
 
 ### Q4: Onde posso encontrar suporte para Aspose.PSD?
 

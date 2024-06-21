@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 指定したパスを使用して、切り取った画像を PSD 形式で保存します。
 
-## ステップ 5: 切り抜いた画像を PNG として保存する
+## ステップ 5: 切り取った画像を PNG として保存します。
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";

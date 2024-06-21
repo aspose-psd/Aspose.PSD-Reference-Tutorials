@@ -9,7 +9,7 @@ url: /tr/net/image-manipulation/adding-pattern-effects/
 ---
 ## giriiş
 
-Görselleri desen efektleriyle zenginleştirmek tasarımlarınıza yeni bir boyut kazandırabilir. Aspose.PSD for .NET, görsellere kusursuz bir şekilde desen katmanları eklemek için güçlü bir çözüm sunarak görsel olarak etkileyici grafikler oluşturmanıza olanak tanır. Bu adım adım eğitim, Aspose.PSD for .NET kullanarak desen efektleri ekleme sürecinde size rehberlik edecektir.
+Görselleri desen efektleriyle zenginleştirmek tasarımlarınıza yeni bir boyut kazandırabilir. Aspose.PSD for .NET, görüntülere sorunsuz bir şekilde desen katmanları eklemek için güçlü bir çözüm sunarak, görsel olarak etkileyici grafikler oluşturmanıza olanak tanır. Bu adım adım eğitim, Aspose.PSD for .NET kullanarak desen efektleri ekleme sürecinde size rehberlik edecektir.
 
 ## Önkoşullar
 

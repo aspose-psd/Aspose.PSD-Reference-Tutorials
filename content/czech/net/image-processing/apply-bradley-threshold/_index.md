@@ -81,7 +81,7 @@ A1: Ano, Bradley Thresholding je všestranná technika vhodná pro různé typy 
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD?
 
@@ -89,4 +89,4 @@ A1: Ano, Bradley Thresholding je všestranná technika vhodná pro různé typy 
 
 ### Q5: Kde mohu zakoupit licenci pro Aspose.PSD?
 
- A5: Můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).

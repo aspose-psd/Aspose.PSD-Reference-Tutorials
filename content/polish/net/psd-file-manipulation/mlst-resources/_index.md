@@ -10,7 +10,7 @@ url: /pl/net/psd-file-manipulation/mlst-resources/
 ## Wstęp
 Witamy w szczegółowym samouczku na temat obsługi zasobów MLST (stanów wielowarstwowych) w Aspose.PSD dla .NET. Aspose.PSD dla .NET to potężna biblioteka zapewniająca szerokie możliwości pracy z plikami Photoshopa. W tym samouczku skupimy się na obsłudze zasobów MLST, oferując mechanizm niskiego poziomu umożliwiający efektywne manipulowanie stanami warstw.
 ## Warunki wstępne
-Zanim zagłębimy się w samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 -  Biblioteka Aspose.PSD dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Jeśli nie, możesz pobrać go ze strony[Strona pobierania Aspose.PSD dla .NET](https://releases.aspose.com/psd/net/).
 - Katalogi dokumentów i wyników: Skonfiguruj katalog dokumentów (`baseDir`) i katalog wyjściowy (`outputDir`) w podanym kodzie.
 ## Importuj przestrzenie nazw
@@ -77,12 +77,12 @@ O1: Tak, Aspose.PSD dla .NET obsługuje pliki PSD utworzone w różnych wersjach
 
 ### P3: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla .NET?
 
-A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/net/).
+A3: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/net/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 
- A4: Odwiedź[Fora Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+ A4: Odwiedź[Fora Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
 
 ### P5: Jak kupić licencję na Aspose.PSD dla .NET?
 
- Odpowiedź 5: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+ Odpowiedź 5: Możesz kupić licencję.[Tutaj](https://purchase.aspose.com/buy).

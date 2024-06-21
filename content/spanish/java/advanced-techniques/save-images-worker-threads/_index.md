@@ -110,7 +110,7 @@ R1: Sí, Aspose.PSD para Java brinda soporte para subprocesos múltiples, lo que
 
 ### P3: ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para Java?
 
- R3: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para explorar todas las capacidades de Aspose.PSD para Java.
+ R3: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para explorar todas las capacidades de Aspose.PSD para Java.
 
 ### P4: ¿Qué opciones de soporte están disponibles para Aspose.PSD para Java?
 

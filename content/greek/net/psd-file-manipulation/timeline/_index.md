@@ -103,7 +103,7 @@ A2: Η κλάση Timeline έχει σχεδιαστεί ειδικά για ε�
 
 ### Ε4: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.PSD για .NET;
 
- A4: Αποκτήστε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A4: Αποκτήστε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε5: Ποια είναι τα βασικά οφέλη από τη χρήση του Aspose.PSD για .NET;
 

@@ -82,7 +82,7 @@ Bu eğitimde, Java için Aspose.PSD kütüphanesini kullanarak görüntüleri or
 
 ### S3: Test amaçlı geçici lisanslar mevcut mu?
 
- Cevap3: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Evrim için.
+ Cevap3: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) Evrim için.
 
 ### S4: Aspose.PSD desteğini nerede bulabilirim?
 

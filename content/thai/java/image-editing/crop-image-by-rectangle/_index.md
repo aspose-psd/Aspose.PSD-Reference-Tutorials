@@ -100,7 +100,7 @@ rasterImage.save(destName, new JpegOptions());
 
 ### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร
 
- A4: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ A4:คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
 ### คำถามที่ 5: รูปแบบรูปภาพที่รองรับสำหรับการครอบตัดใน Aspose.PSD สำหรับ Java คืออะไร
 

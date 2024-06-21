@@ -58,7 +58,7 @@ Exporte los archivos PSD cargados al formato PNG. Ajuste las opciones de exporta
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Guardar como PNG con 100% de opacidad
+// Guárdelo como PNG con 100% de opacidad.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Establezca la opacidad de capas específicas en los archivos PSD. Aquí, configu
 // Establecer opacidad al 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Guardar como PNG con 50% de opacidad
+// Guárdelo como PNG con 50% de opacidad.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

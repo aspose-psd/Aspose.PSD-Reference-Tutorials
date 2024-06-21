@@ -99,11 +99,11 @@ rasterImage.save(destName, tiffOptions);
 
 ### Q3: Aspose.PSD はどこで購入できますか?
 
- A3: 訪問[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) Aspose.PSD を購入するには。
+ A3: 訪問[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) Aspose.PSD を購入するには
 
 ### Q4: 無料トライアルはありますか?
 
- A4: はい、次の場所で無料トライアルを試すことができます。[https://releases.aspose.com/](https://releases.aspose.com/).
+A4: はい、次の場所で無料トライアルを試すことができます。[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### Q5: Aspose.PSD のサポートはどこに問い合わせればよいですか?
 

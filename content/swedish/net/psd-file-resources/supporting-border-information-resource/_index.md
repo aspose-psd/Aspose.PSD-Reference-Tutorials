@@ -8,7 +8,7 @@ weight: 11
 url: /sv/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Introduktion
-Välkommen till vår steg-för-steg-guide om hur du använder funktionen Border Information Resource i Aspose.PSD för .NET. I den här handledningen går vi igenom processen att arbeta med gränsinformationsresurser med Aspose.PSD, ett kraftfullt .NET-bildbibliotek. Oavsett om du är en erfaren utvecklare eller precis har börjat, syftar denna handledning till att ge klarhet i hur du kan integrera gränsinformationsresurser sömlöst i dina projekt.
+Välkommen till vår steg-för-steg-guide om hur du använder funktionen Border Information Resource i Aspose.PSD för .NET. I den här handledningen går vi igenom processen att arbeta med gränsinformationsresurser med Aspose.PSD, ett kraftfullt .NET-bildbibliotek. Oavsett om du är en erfaren utvecklare eller precis har börjat, syftar den här handledningen till att ge klarhet i hur du sömlöst kan integrera gränsinformationsresurser i dina projekt.
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande:
 -  Aspose.PSD för .NET: Se till att du har Aspose.PSD-biblioteket installerat. Du kan ladda ner den från[Aspose.PSD webbplats](https://releases.aspose.com/psd/net/).
@@ -37,7 +37,7 @@ string outputFilePath = Path.Combine(OutputDir, "BorderInformationResourceOutput
 using (var image = (PsdImage)Image.Load(sourceFilePath))
 {
 ```
-## Steg 3: Få åtkomst till bildresurser
+## Steg 3: Få tillgång till bildresurser
 ```csharp
 ResourceBlock[] imageResources = image.ImageResources;
 BorderInformationResource borderInfoResource = null;
@@ -80,7 +80,7 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika .NET-ramverk.
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support?
 
@@ -88,4 +88,4 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika .NET-ramverk.
 
 ### F5: Finns tillfälliga licenser tillgängliga?
 
- S5: Ja, du kan få tillfälliga licenser[här](https://purchase.aspose.com/temporary-license/).
+ S5: Ja, du kan få tillfälliga licenser.[här](https://purchase.aspose.com/temporary-license/).

@@ -113,4 +113,4 @@ A1: Ja, Aspose.PSD ondersteunt een breed scala aan .NET-frameworks, waardoor com
 
 ### V5: Kan ik Aspose.PSD voor .NET kopen?
 
- A5: Ja, verken de licentieopties en doe uw aankoop[hier](https://purchase.aspose.com/buy).
+ A5: Ja, verken de licentieopties en doe uw aankoop.[hier](https://purchase.aspose.com/buy).

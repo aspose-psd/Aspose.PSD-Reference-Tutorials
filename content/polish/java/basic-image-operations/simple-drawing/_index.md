@@ -116,7 +116,7 @@ O1: Tak, Aspose.PSD dla Java zapewnia rozbudowaną funkcjonalność do edycji i 
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę kupić licencję na Aspose.PSD dla Java?
 

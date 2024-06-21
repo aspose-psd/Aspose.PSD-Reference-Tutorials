@@ -9,7 +9,7 @@ url: /tr/net/image-manipulation/adding-gradient-effects/
 ---
 ## giriiş
 
-Görüntüleri degrade efektleriyle geliştirmek, görsel içeriğinize büyüleyici bir boyut katabilir. Aspose.PSD for .NET, görsellerinize degrade kaplamalar eklemek için güçlü bir platform sağlar. Bu eğitimde Aspose.PSD for .NET'i kullanarak degrade efektleri ekleme sürecinde size rehberlik edeceğiz.
+Görüntüleri degrade efektleriyle geliştirmek, görsel içeriğinize büyüleyici bir boyut katabilir. Aspose.PSD for .NET, degrade kaplamaları resimlerinize entegre etmek için güçlü bir platform sağlar. Bu eğitimde Aspose.PSD for .NET'i kullanarak degrade efektleri ekleme sürecinde size rehberlik edeceğiz.
 
 ## Önkoşullar
 
@@ -139,7 +139,7 @@ Cevap2: Aspose.PSD for .NET, PSD, PNG, JPEG, BMP ve GIF dahil olmak üzere çeş
 
 ### S3: Aspose.PSD for .NET'in deneme sürümü mevcut mu?
 
- C3: Evet, Aspose.PSD for .NET'in yeteneklerini aşağıdaki ücretsiz deneme sürümünü indirerek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+C3: Evet, Aspose.PSD for .NET'in yeteneklerini aşağıdaki ücretsiz deneme sürümünü indirerek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 

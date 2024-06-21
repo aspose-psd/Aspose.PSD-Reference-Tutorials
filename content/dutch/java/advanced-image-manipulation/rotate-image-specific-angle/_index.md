@@ -82,7 +82,7 @@ image.rotate(20f, true, Color.getRed());
 
 Voer de rotatie uit in een hoek van 20 graden, terwijl u de proportionele grootte behoudt en een rode achtergrondkleur gebruikt.
 
-## Stap 6: Bewaar het resultaat
+## Stap 6: Sla het resultaat op
 
 ```java
 image.save(destName, new JpegOptions());

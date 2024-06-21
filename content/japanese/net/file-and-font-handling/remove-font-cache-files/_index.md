@@ -88,7 +88,7 @@ A2: 可能ではありますが、アプリケーションでフォント関連�
 
 ### Q4: Aspose.PSD for .NET に使用できる一時ライセンスはありますか?
 
- A4: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テスト目的のため。
+ A4: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テスト目的のため。
 
 ### Q5: Aspose.PSD for .NET を購入できますか?
 

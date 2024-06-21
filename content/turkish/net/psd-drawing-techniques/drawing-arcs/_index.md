@@ -93,11 +93,11 @@ Tebrikler! Aspose.PSD for .NET kullanarak yay çizmeyi başarıyla öğrendiniz.
 
 ### S1: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A1: Belgeler bulunabilir[Burada](https://reference.aspose.com/psd/net/).
+ A1: Belgeler bulunabilir.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S2: Aspose.PSD için geçici lisansı nasıl edinebilirim?
 
- Cevap2: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap2: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S3: Aspose.PSD desteği için bir topluluk forumu var mı?
 
@@ -105,8 +105,8 @@ Tebrikler! Aspose.PSD for .NET kullanarak yay çizmeyi başarıyla öğrendiniz.
 
 ### S4: Aspose.PSD lisansını nereden satın alabilirim?
 
- Cevap4: Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ Cevap4: Lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
 
 ### S5: Satın almadan önce Aspose.PSD for .NET'i ücretsiz deneyebilir miyim?
 
- A5: Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+ A5: Evet, ücretsiz deneme sürümünü indirebilirsiniz.[Burada](https://releases.aspose.com/).

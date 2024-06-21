@@ -101,7 +101,7 @@ A3: Absolut! Aspose.PSD för .NET är skräddarsydd för bildbehandlings- och re
 
 ### F4: Var kan jag hitta communitysupport för Aspose.PSD för .NET?
 
- S4: Gå med i Aspose.PSD-communityt på[detta forum](https://forum.aspose.com/c/psd/34) för diskussioner och stöd.
+ S4: Gå med i Aspose.PSD-communityt på[detta forum](https://forum.aspose.com/c/psd/34) för diskussion och stöd.
 
 ### F5: Finns det några gratisresurser för att lära sig Aspose.PSD för .NET?
 

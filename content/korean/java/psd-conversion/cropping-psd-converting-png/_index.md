@@ -9,7 +9,7 @@ url: /ko/java/psd-conversion/cropping-psd-converting-png/
 ---
 ## 소개
 Java 개발의 역동적인 세계에서는 효율적인 이미지 처리를 익히는 것이 중요합니다. 이 튜토리얼에서는 강력한 Java용 Aspose.PSD 라이브러리를 사용하여 PSD 파일을 PNG로 변환할 때 PSD 파일을 자르는 과정을 안내합니다. 이 단계별 가이드를 마치면 원활한 이미지 조작을 통해 Java 애플리케이션을 향상시키는 지식을 갖추게 됩니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - Java 프로그래밍에 대한 기본 지식.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## 3단계: 작물 영역 정의
 ```java
-// x, y, 너비 및 높이를 전달하여 Rectangle 클래스의 인스턴스를 만듭니다.
+//x, y, 너비 및 높이를 전달하여 Rectangle 클래스의 인스턴스를 만듭니다.
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## 4단계: PSD 이미지 자르기
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // PngOptions 클래스의 인스턴스 만들기
 PngOptions pngOptions = new PngOptions();
 ```
-## 6단계: 자른 이미지를 PNG로 저장
+## 6단계: 자른 이미지를 PNG로 저장합니다.
 ```java
 // 출력 경로와 PngOptions를 제공하여 PSD 파일을 PNG로 변환하고 출력을 저장합니다.
 String destName = dataDir + "export.png";

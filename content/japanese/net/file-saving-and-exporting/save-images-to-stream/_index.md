@@ -82,11 +82,11 @@ using (Image image = Image.Load(sourceFile))
 
 ### Q3: 無料トライアルはありますか?
 
- A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/)購入する前に、Aspose.PSD の機能を確認してください。
+ A3: はい、無料トライアルが可能です。[ここ](https://releases.aspose.com/)購入する前に、Aspose.PSD の機能を確認してください。
 
 ### Q4: 仮免許はどうやって取得できますか?
 
- A4: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
+ A4: 仮免許は取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
 
 ### Q5: Aspose.PSD はどこで購入できますか?
 

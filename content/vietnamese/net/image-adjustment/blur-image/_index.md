@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Bước 4: Áp dụng Bộ lọc làm mờ Gaussian
+## Bước 4: Áp dụng Bộ lọc làm mờ Gaussian.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Ở đây,`GaussianBlurFilterOptions` lớp được sử dụng với bán kính xác định là 15 cho cả làm mờ theo chiều ngang và chiều dọc.
+ Ở đây,`GaussianBlurFilterOptions` lớp được sử dụng với bán kính được chỉ định là 15 cho cả làm mờ theo chiều ngang và chiều dọc.
 
 ## Bước 5: Lưu hình ảnh bị mờ
 
@@ -80,7 +80,7 @@ Chúc mừng! Bạn đã làm mờ thành công hình ảnh bằng Aspose.PSD ch
 
 ### Câu hỏi 1: Tôi có thể áp dụng các cường độ mờ khác nhau cho các phần khác nhau của hình ảnh không?
 
-Câu trả lời 1: Có, Aspose.PSD cho phép bạn áp dụng các bộ lọc với các thông số khác nhau cho các vùng cụ thể của hình ảnh, cung cấp khả năng kiểm soát chi tiết đối với quá trình làm mờ.
+Câu trả lời 1: Có, Aspose.PSD cho phép bạn áp dụng các bộ lọc với các tham số khác nhau cho các vùng cụ thể của hình ảnh, cung cấp khả năng kiểm soát chi tiết đối với quá trình làm mờ.
 
 ### Câu hỏi 2: Aspose.PSD có tương thích với tất cả các định dạng hình ảnh không?
 

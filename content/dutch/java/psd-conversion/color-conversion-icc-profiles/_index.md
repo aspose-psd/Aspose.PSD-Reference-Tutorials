@@ -15,7 +15,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 2. Java-ontwikkelomgeving: Een werkende Java-ontwikkelomgeving is essentieel voor het uitvoeren van de code. Zorg ervoor dat Java op uw systeem is geïnstalleerd.
 3. ICC-profielen: verkrijg de benodigde ICC-profielen voor kleurconversie. U kunt geschikte profielen vinden, zoals`eciRGB_v2.icc` En`ISOcoated_v2_FullGamut4.icc`, uit betrouwbare bronnen.
 ## Pakketten importeren
-Importeer in uw Java-project de vereiste Aspose.PSD-pakketten. Zorg ervoor dat u de noodzakelijke afhankelijkheden in uw projectconfiguratie hebt opgenomen.
+Importeer in uw Java-project de vereiste Aspose.PSD-pakketten. Zorg ervoor dat u de benodigde afhankelijkheden in uw projectconfiguratie hebt opgenomen.
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;

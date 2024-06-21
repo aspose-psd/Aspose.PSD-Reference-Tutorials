@@ -82,7 +82,7 @@ Gratulálunk! Sikeresen megtanulta a gyökér szinkronizálását az Aspose.PSD 
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, felfedezheti az Aspose.PSD ingyenes próbaverzióját, ha felkeresi[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, felfedezheti az Aspose.PSD ingyenes próbaverzióját, ha felkeresi.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 

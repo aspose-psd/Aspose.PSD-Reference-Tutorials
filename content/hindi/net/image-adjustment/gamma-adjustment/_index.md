@@ -88,16 +88,16 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Q2: मैं .NET के लिए Aspose.PSD कैसे डाउनलोड करूं?
 
- A2: आप लाइब्रेरी डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/psd/net/).
+ A2: आप लाइब्रेरी डाउनलोड कर सकते हैं.[यहाँ](https://releases.aspose.com/psd/net/).
 
 ### Q3: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ3: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ उ3: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं।[यहाँ](https://releases.aspose.com/).
 
 ### Q4: मुझे Aspose.PSD के लिए समर्थन कहाँ से मिल सकता है?
 
- उ4: आप सहायता मंच पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/psd/34).
+ उ4: आप सहायता मंच पर जा सकते हैं।[यहाँ](https://forum.aspose.com/c/psd/34).
 
 ### Q5: क्या मुझे अस्थायी लाइसेंस की आवश्यकता है?
 
- A5: यदि आवश्यक हो, तो आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A5: यदि आवश्यक हो, तो आप अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/).

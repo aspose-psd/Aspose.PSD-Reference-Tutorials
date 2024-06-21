@@ -2,7 +2,7 @@
 title: Ändern Sie die Bildgröße proportional mit Aspose.PSD für Java
 linktitle: Bildgröße proportional ändern
 second_title: Aspose.PSD Java-API
-description: Erweitern Sie Ihre Java-Anwendungen mit Aspose.PSD. Befolgen Sie unsere Anleitung, um die Größe von Bildern mühelos proportional zu ändern. Steigern Sie noch heute Ihre Möglichkeiten zur Bildverarbeitung.
+description: Erweitern Sie Ihre Java-Anwendungen mit Aspose.PSD. Befolgen Sie unsere Anleitung, um die Größe von Bildern mühelos proportional zu ändern. Steigern Sie noch heute Ihre Möglichkeiten zur Bildbearbeitung.
 type: docs
 weight: 17
 url: /de/java/advanced-image-manipulation/resize-image-proportionally/
@@ -82,7 +82,7 @@ In diesem Tutorial haben wir die wesentlichen Schritte zur proportionalen Größ
 
 ### F3: Sind temporäre Lizenzen für Testzwecke verfügbar?
 
- A3: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/) zur Auswertung.
+ A3: Ja, Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/) zur Auswertung.
 
 ### F4: Wo finde ich Unterstützung für Aspose.PSD?
 

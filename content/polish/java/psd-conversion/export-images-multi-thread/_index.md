@@ -63,7 +63,7 @@ if (f.exists()) {
 ```
 Teraz pomyślnie wyeksportowałeś obrazy w środowisku wielowątkowym przy użyciu Aspose.PSD dla Java!
 ## Wniosek
-tym samouczku omówiliśmy bezproblemowy proces eksportowania obrazów za pomocą Aspose.PSD dla Java w konfiguracji wielowątkowej. Podnieś możliwości przetwarzania obrazu w aplikacji Java dzięki potędze Aspose.PSD.
+W tym samouczku omówiliśmy bezproblemowy proces eksportowania obrazów za pomocą Aspose.PSD dla Java w konfiguracji wielowątkowej. Podnieś możliwości przetwarzania obrazu w aplikacji Java dzięki potędze Aspose.PSD.
 ## Często Zadawane Pytania
 ### Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Java?
 Aspose.PSD jest kompatybilny z Java 1.7 i nowszymi wersjami.

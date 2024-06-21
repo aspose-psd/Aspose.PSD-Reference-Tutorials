@@ -97,7 +97,7 @@ A betűtípus cseréje gyerekjáték az Aspose.PSD for Java segítségével, ame
 
 ### 3. kérdés: Rendelkezésre állnak-e licencelési lehetőségek az Aspose.PSD számára?
 
- 3. válasz: Fedezze fel a licencelési lehetőségeket[itt](https://purchase.aspose.com/buy)hogy kiválaszthassa az igényeinek leginkább megfelelő tervet.
+ 3. válasz: Fedezze fel a licencelési lehetőségeket.[itt](https://purchase.aspose.com/buy)hogy kiválaszthassa az igényeinek leginkább megfelelő tervet.
 
 ### 4. kérdés: Létezik közösségi fórum az Aspose.PSD támogatására?
 

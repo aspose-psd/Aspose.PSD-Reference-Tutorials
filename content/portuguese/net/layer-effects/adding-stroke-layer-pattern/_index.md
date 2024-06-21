@@ -135,7 +135,7 @@ A1: Sim, Aspose.PSD for .NET é compatível com várias versões do Visual Studi
 
 ### Q3: Há algum arquivo PSD de amostra disponível para teste?
 
- A3: Você pode encontrar exemplos de arquivos PSD na documentação[aqui](https://reference.aspose.com/psd/net/).
+ A3: Você pode encontrar exemplos de arquivos PSD na documentação.[aqui](https://reference.aspose.com/psd/net/).
 
 ### Q4: O Aspose.PSD é adequado para processamento em lote de arquivos PSD?
 

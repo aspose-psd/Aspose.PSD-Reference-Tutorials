@@ -79,7 +79,7 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -87,4 +87,4 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### P5: ¿Necesita una licencia temporal?
 
- A5: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

@@ -105,7 +105,7 @@ A3: Aspose.PSD per .NET è progettato per gestire immagini di varie dimensioni. 
 
 ### Q4: È disponibile una versione di prova per Aspose.PSD per .NET?
 
- R4: Sì, puoi esplorare le funzionalità della libreria ottenendo una prova gratuita[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi esplorare le funzionalità della libreria ottenendo una prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso trovare ulteriore supporto o assistenza?
 

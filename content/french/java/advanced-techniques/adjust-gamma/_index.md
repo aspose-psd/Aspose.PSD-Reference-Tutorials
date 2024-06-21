@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## Étape 2 : Ajuster le gamma
 
- Maintenant, ajustez le gamma de l'image chargée à l'aide du`adjustGamma` méthode. Ajustez les valeurs gamma en fonction de vos besoins.
+ Maintenant, ajustez le gamma de l'image chargée à l'aide du`adjustGamma` méthode. Affinez les valeurs gamma en fonction de vos besoins.
 
 ```java
 // Ajuster le gamma

@@ -1,7 +1,7 @@
 ---
 title: Memuat Gambar dari Stream dengan Aspose.PSD untuk Java
 linktitle: Memuat Gambar dari Stream
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Pelajari cara memuat gambar PSD dengan lancar di Java menggunakan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk pemrosesan gambar yang efisien.
 type: docs
 weight: 11
@@ -90,9 +90,9 @@ Selamat! Anda telah berhasil memuat gambar dari aliran menggunakan Aspose.PSD un
 
 A1: Tentu saja! Aspose.PSD untuk Java unggul dalam tugas pemrosesan gambar batch, menawarkan efisiensi dan keandalan.
 
-### Q2: Dapatkah saya mencoba Aspose.PSD untuk Java sebelum membeli?
+### Q2: Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
 
- A2: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A2: Ya, Anda dapat menjelajahi versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.PSD untuk Java?
 
@@ -100,8 +100,8 @@ A1: Tentu saja! Aspose.PSD untuk Java unggul dalam tugas pemrosesan gambar batch
 
 ### Q4: Apakah saya memerlukan lisensi sementara untuk tujuan pengujian?
 
- A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji Aspose.PSD untuk Java.
+ A4: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji Aspose.PSD untuk Java.
 
-### Q5: Di mana saya bisa membeli Aspose.PSD untuk Java?
+### Q5: Di mana saya dapat membeli Aspose.PSD untuk Java?
 
  A5: Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk memperoleh Aspose.PSD untuk Java.

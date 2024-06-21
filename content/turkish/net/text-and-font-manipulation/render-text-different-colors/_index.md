@@ -67,7 +67,7 @@ C1: Evet, Aspose.PSD for .NET herhangi bir .NET uygulamasıyla sorunsuz çalış
 
 ### S3: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A3: Ayrıntılı belgeler mevcut[Burada](https://reference.aspose.com/psd/net/) Aspose.PSD for .NET'in çeşitli özelliklerini anlamanıza ve uygulamanıza yardımcı olmak için.
+ A3: Ayrıntılı belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/) Aspose.PSD for .NET'in çeşitli özelliklerini anlamanıza ve uygulamanıza yardımcı olmak için.
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 

@@ -80,7 +80,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Ε1: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.PSD για .NET;
 
- A1: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/net/).
+ A1: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/net/).
 
 ### Ε2: Πώς μπορώ να πραγματοποιήσω λήψη του Aspose.PSD για τη βιβλιοθήκη .NET;
 
@@ -88,7 +88,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.PSD για .NET;
 
- A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πού μπορώ να λάβω υποστήριξη για το Aspose.PSD για .NET;
 
@@ -96,4 +96,4 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.PSD για .NET;
 
- A5: Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Μπορείτε να αποκτήσετε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).

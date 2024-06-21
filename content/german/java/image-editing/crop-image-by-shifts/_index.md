@@ -106,7 +106,7 @@ A2: Auf jeden Fall können Sie mehrere Zuschneidevorgänge nacheinander am selbe
 
 ### F3: Gibt es ein Community-Forum für Aspose.PSD-Unterstützung?
 
- A3: Ja, unter finden Sie Unterstützung und können sich mit der Community austauschen[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34).
+ A3: Ja, Sie können Unterstützung finden und mit der Community interagieren unter[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34).
 
 ### F4: Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
 

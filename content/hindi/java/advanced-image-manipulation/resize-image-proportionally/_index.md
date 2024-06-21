@@ -82,7 +82,7 @@ image.save(destName, new PngOptions());
 
 ### Q3: क्या अस्थायी लाइसेंस परीक्षण उद्देश्यों के लिए उपलब्ध हैं?
 
- उ3: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) मूल्यांकन के लिए।
+ उ3: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/) मूल्यांकन के लिए।
 
 ### Q4: मुझे Aspose.PSD के लिए समर्थन कहां मिल सकता है?
 

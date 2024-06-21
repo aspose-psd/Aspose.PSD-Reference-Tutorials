@@ -128,7 +128,7 @@ Ebben az oktatóanyagban megvizsgáltuk a Gradient Overlay Effect támogatásán
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 

@@ -93,11 +93,11 @@ Gefeliciteerd! Je beheerst de belangrijkste tekenfuncties van Aspose.PSD voor .N
 
 ### V1: Waar kan ik de Aspose.PSD voor .NET-documentatie vinden?
 
- A1: U heeft toegang tot de documentatie[hier](https://reference.aspose.com/psd/net/).
+ A1: U heeft toegang tot de documentatie.[hier](https://reference.aspose.com/psd/net/).
 
 ### V2: Hoe download ik Aspose.PSD voor .NET?
 
- A2: Download de nieuwste versie[hier](https://releases.aspose.com/psd/net/).
+ A2: Download de nieuwste versie.[hier](https://releases.aspose.com/psd/net/).
 
 ### V3: Waar kan ik Aspose.PSD voor .NET kopen?
 
@@ -105,7 +105,7 @@ Gefeliciteerd! Je beheerst de belangrijkste tekenfuncties van Aspose.PSD voor .N
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A4: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/).
 
 ### V5: Waar kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 

@@ -79,7 +79,7 @@ using (Image image = Image.Create(ImageOptions, 500, 500))
 {
     // İstenilen herhangi bir görüntü işlemeyi burada gerçekleştirin
 
-    // Oluşturulan görüntüyü belirtilen hedefe kaydedin
+    //Oluşturulan görüntüyü belirtilen hedefe kaydedin
     image.Save(desName);
 }
 ```
@@ -102,7 +102,7 @@ A2: Boyutlar özelleştirilebilir; Image.Create yöntemindeki parametreleri buna
 
 ### S3: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için nasıl destek alabilirim?
 
@@ -110,4 +110,4 @@ A2: Boyutlar özelleştirilebilir; Image.Create yöntemindeki parametreleri buna
 
 ### S5: Geçici lisanslar mevcut mu?
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

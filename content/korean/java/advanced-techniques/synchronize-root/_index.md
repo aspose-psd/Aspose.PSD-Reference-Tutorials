@@ -11,7 +11,7 @@ url: /ko/java/advanced-techniques/synchronize-root/
 
 Java용 Aspose.PSD를 사용하여 루트 동기화에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 강력한 Aspose.PSD 라이브러리를 사용하여 루트를 동기화하는 과정을 안내합니다. 숙련된 개발자이든 Java 프로그래밍을 처음 접하는 사람이든 이 단계별 가이드를 통해 개념을 쉽게 이해할 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -82,7 +82,7 @@ A1: 예, Java용 Aspose.PSD는 Java 버전 6 이상과 호환됩니다.
 
 ### Q4: 무료 평가판이 제공됩니까?
 
- A4: 예, 다음 사이트를 방문하여 Aspose.PSD 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+ A4: 예, 방문하여 Aspose.PSD 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q5: Aspose.PSD의 임시 라이선스는 어떻게 얻을 수 있나요?
 

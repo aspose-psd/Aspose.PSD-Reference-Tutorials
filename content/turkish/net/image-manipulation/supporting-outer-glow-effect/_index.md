@@ -113,4 +113,4 @@ Cevap1: Evet, Aspose.PSD çok çeşitli .NET çerçevelerini destekleyerek çeş
 
 ### S5: .NET için Aspose.PSD'yi satın alabilir miyim?
 
- Cevap5: Evet, lisanslama seçeneklerini araştırın ve satın alma işleminizi yapın[Burada](https://purchase.aspose.com/buy).
+ C5: Evet, lisanslama seçeneklerini araştırın ve satın alma işleminizi yapın.[Burada](https://purchase.aspose.com/buy).

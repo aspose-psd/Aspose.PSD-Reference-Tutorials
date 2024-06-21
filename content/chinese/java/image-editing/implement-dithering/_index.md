@@ -9,7 +9,7 @@ url: /zh/java/image-editing/implement-dithering/
 ---
 ## 介绍
 
-如果您希望提高 Java 中光栅图像的视觉质量，Aspose.PSD 提供了一个强大的解决方案。在本分步指南中，我们将探索如何使用 Aspose.PSD for Java 实现抖动。抖动是一种向图像添加一定程度的噪声、减少色带并提高整体图像质量的技术。
+如果您希望提高 Java 中光栅图像的视觉质量，Aspose.PSD 提供了一个强大的解决方案。在本分步指南中，我们将探讨如何使用 Aspose.PSD for Java 实现抖动。抖动是一种向图像添加一定程度的噪声、减少色带并提高整体图像质量的技术。
 
 ## 先决条件
 

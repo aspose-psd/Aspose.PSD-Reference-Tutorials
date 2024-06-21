@@ -107,7 +107,7 @@ A2: Absolutnie! Zachęcamy do dostosowania kodu pod swoje specyficzne wymagania 
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla .NET?
 
- Odpowiedź 4: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz skorzystać z bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać pomoc lub poprosić o pomoc dotyczącą Aspose.PSD dla .NET?
 

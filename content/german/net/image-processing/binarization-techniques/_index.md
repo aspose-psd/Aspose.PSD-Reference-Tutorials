@@ -9,7 +9,7 @@ url: /de/net/image-processing/binarization-techniques/
 ---
 ## Einführung
 
-In der Welt der Bildverarbeitung ist die Fähigkeit, ein Farbbild in ein Binärbild umzuwandeln, ein entscheidender Schritt. Die Binarisierung trägt zur Vereinfachung komplexer Bilder bei, indem sie auf schwarze und weiße Pixel reduziert wird, was die Analyse und Extraktion von Informationen erleichtert. Aspose.PSD für .NET bietet leistungsstarke Tools zur Bildbearbeitung, einschließlich robuster Binärisierungstechniken. In diesem Tutorial erkunden wir die BinarizationWithFixedThreshold-Methode und führen Sie durch ihre Implementierung mit Aspose.PSD für .NET.
+In der Welt der Bildverarbeitung ist die Fähigkeit, ein Farbbild in ein Binärbild umzuwandeln, ein entscheidender Schritt. Die Binarisierung trägt zur Vereinfachung komplexer Bilder bei, indem sie auf schwarze und weiße Pixel reduziert wird, was die Analyse und Extraktion von Informationen erleichtert. Aspose.PSD für .NET bietet leistungsstarke Tools zur Bildbearbeitung, einschließlich robuster Binarisierungstechniken. In diesem Tutorial erkunden wir die BinarizationWithFixedThreshold-Methode und führen Sie durch ihre Implementierung mit Aspose.PSD für .NET.
 
 ## Voraussetzungen
 

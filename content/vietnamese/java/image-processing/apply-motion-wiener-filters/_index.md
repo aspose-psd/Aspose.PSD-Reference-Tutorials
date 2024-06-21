@@ -74,7 +74,7 @@ options.setGrayscale(true);
 ## Bước 4: Áp dụng Bộ lọc Motion Wiener và Lưu
 
 ```java
-//Áp dụng bộ lọc MotionWienerFilterOptions cho đối tượng RasterImage và Lưu hình ảnh thu được
+//Áp dụng bộ lọc MotionWienerFilterOptions cho đối tượng RasterImage và Lưu hình ảnh kết quả
 rasterImage.filter(image.getBounds(), options);
 String destName = dataDir + "motion_filter_out.gif";
 image.save(destName, new GifOptions());
@@ -104,8 +104,8 @@ Câu trả lời 2: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 
 ### Câu hỏi 4: Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
 
- A4: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ A4: Có, bạn có thể khám phá phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho Java?
 
-A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+Câu trả lời 5: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.

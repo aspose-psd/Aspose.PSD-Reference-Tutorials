@@ -45,7 +45,7 @@ List<Frame> frames = new List<Frame>(timeline.Frames);
 frames.Add(new Frame());
 timeline.Frames = frames.ToArray();
 ```
-## 步骤 4：切换活动帧
+## 第四步：切换活动帧
 ```csharp
 timeline.SwitchActiveFrame(4);
 ```
@@ -80,7 +80,7 @@ A3：如有任何疑问或帮助，请访问 Aspose.PSD 社区论坛[这里](htt
 
 ### 问题 4：Aspose.PSD for .NET 是否有临时许可证？
 
- A4：是的，您可以获得 Aspose.PSD for .NET 的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A4：是的，您可以获得 Aspose.PSD for .NET 的临时许可证。[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：在哪里可以找到 Aspose.PSD for .NET 的详细文档？
 

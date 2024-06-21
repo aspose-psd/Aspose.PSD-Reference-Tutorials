@@ -88,8 +88,8 @@ A1: Aspose.PSD जावा 6.0 और बाद के संस्करणो
 
 ### Q4: क्या Aspose.PSD के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ4: हां, आप नि:शुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
+ उ4: हां, आप नि:शुल्क परीक्षण का लाभ उठा सकते हैं।[यहाँ](https://releases.aspose.com/).
 
 ### Q5: मैं Aspose.PSD के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
-A5: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+A5: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/).

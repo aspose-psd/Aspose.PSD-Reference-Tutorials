@@ -51,7 +51,7 @@ using (PsdImage image = new PsdImage(500, 500))
 ## ステップ 2: GraphicsPath と Figure の作成
 
 ```csharp
-//GraphicsPath のインスタンスと Figure のインスタンスを作成し、EllipseShape、RectangleShape、TextShape を Figure に追加します
+//GraphicsPath のインスタンスと Figure のインスタンスを作成し、EllipseShape、RectangleShape、TextShape を Figure に追加します。
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A4: はい。Aspose.PSD for .NET は、Photoshop ファイル内のレイヤー�
 
 ### Q5: Aspose.PSD for .NET のドキュメントはどこで見つけられますか?
 
- A5: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/net/).
+ A5: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/net/).

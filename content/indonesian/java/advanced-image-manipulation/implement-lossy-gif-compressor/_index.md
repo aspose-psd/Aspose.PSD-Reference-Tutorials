@@ -1,7 +1,7 @@
 ---
 title: Menerapkan Kompresor GIF Lossy di Aspose.PSD untuk Java
 linktitle: Menerapkan Kompresor GIF Lossy
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Optimalkan gambar web Anda secara mulus dengan Aspose.PSD untuk Kompresor GIF Lossy Java. Ikuti panduan langkah demi langkah kami untuk penerapan yang efisien.
 type: docs
 weight: 13
@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Langkah 5: Simpan GIF Terkompresi
+## Langkah 5: Simpan GIF Terkompresi.
 
  Simpan gambar GIF terkompresi menggunakan`image.save` metode dengan yang ditentukan`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD untuk Java adalah perpustakaan yang kuat untuk bekerja dengan file
 
 ### Q3: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk Java?
 
-A3: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/java/).
+A3: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/java/).
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana cara membeli Aspose.PSD untuk Java?
 
- A5: Anda dapat membeli perpustakaan[Di Sini](https://purchase.aspose.com/buy).
+ A5: Anda dapat membeli perpustakaan.[Di Sini](https://purchase.aspose.com/buy).

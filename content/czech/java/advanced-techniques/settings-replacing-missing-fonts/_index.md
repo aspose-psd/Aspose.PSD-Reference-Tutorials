@@ -97,7 +97,7 @@ A2: Ano, můžete zadat vlastní náhradní písma podle vašich požadavků na 
 
 ### Q3: Jsou nějaké možnosti licencování dostupné pro Aspose.PSD?
 
- A3: Prozkoumejte možnosti licencování[tady](https://purchase.aspose.com/buy)vybrat nejlepší plán pro vaše potřeby.
+ A3: Prozkoumejte možnosti licencování.[tady](https://purchase.aspose.com/buy)vybrat nejlepší plán pro vaše potřeby.
 
 ### Q4: Existuje komunitní fórum pro podporu Aspose.PSD?
 

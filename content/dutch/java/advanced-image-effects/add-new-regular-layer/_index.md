@@ -111,7 +111,7 @@ A2: Absoluut! Aspose.PSD biedt een reeks transformatieopties voor lagen.
 
 ### V3: Waar kan ik aanvullende Aspose.PSD-documentatie vinden?
 
- A3: U kunt de documentatie raadplegen[hier](https://reference.aspose.com/psd/java/).
+ A3: U kunt de documentatie raadplegen.[hier](https://reference.aspose.com/psd/java/).
 
 ### V4: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
 
@@ -119,4 +119,4 @@ A2: Absoluut! Aspose.PSD biedt een reeks transformatieopties voor lagen.
 
 ### Vraag 5: Zijn er communityforums voor Aspose.PSD-ondersteuning?
 
- A5: Ja, u kunt ondersteuning en discussies vinden[hier](https://forum.aspose.com/c/psd/34).
+ A5: Ja, u kunt ondersteuning en discussies vinden.[hier](https://forum.aspose.com/c/psd/34).

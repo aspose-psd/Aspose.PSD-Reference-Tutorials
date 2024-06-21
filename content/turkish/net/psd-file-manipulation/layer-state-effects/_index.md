@@ -73,11 +73,11 @@ Tebrikler! Aspose.PSD for .NET'te Katman Durumu Efektleriyle başarıyla çalı�
 
 ### A3: Ücretsiz deneme mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz denemeyi keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Geçici lisansı nasıl alabilirim?
 
- Cevap4: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Desteğe mi ihtiyacınız var veya sorularınız mı var?
 

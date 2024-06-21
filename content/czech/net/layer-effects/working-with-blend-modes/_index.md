@@ -21,7 +21,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 ## Importovat jmenné prostory
 
-Začněte importováním potřebných jmenných prostorů do vašeho projektu. To zajišťuje, že máte přístup k třídám a metodám Aspose.PSD potřebným pro práci s režimy prolnutí.
+Začněte importováním potřebných jmenných prostorů do vašeho projektu. To zajistí, že budete mít přístup ke třídám a metodám Aspose.PSD potřebným pro práci s režimy prolnutí.
 
 ```csharp
 using Aspose.PSD.FileFormats.Png;

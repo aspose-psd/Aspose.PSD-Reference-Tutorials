@@ -1,5 +1,5 @@
 ---
-title: Justering av skuggeffektopacitet i Aspose.PSD för .NET
+title: Justera skuggeffektopacitet i Aspose.PSD för .NET
 linktitle: Justering av skuggeffektens opacitet
 second_title: Aspose.PSD .NET API
 description: Lär dig hur du justerar opaciteten för skuggeffekter i Aspose.PSD för .NET med denna omfattande handledning.
@@ -96,7 +96,7 @@ S2: Ja, Aspose.PSD för .NET erbjuder olika egenskaper för att finjustera skugg
 
 ### F3: Hur kan jag få en tillfällig licens för Aspose.PSD för .NET?
 
- A3: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ A3: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Är Aspose.PSD för .NET kompatibelt med .NET Core?
 

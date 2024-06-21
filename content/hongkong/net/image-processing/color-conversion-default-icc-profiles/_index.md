@@ -96,7 +96,7 @@ A3：當然，Aspose.PSD 提供了高效率的影像批次處理工具。
 
 ### Q4：我可以將Aspose.PSD用於商業項目嗎？
 
- A4：是的，您可以購買許可證[這裡](https://purchase.aspose.com/buy)用於商業用途。
+ A4：是的，您可以購買許可證。[這裡](https://purchase.aspose.com/buy)用於商業用途。
 
 ### 問題 5：在哪裡可以找到 Aspose.PSD for .NET 的社群支援？
 

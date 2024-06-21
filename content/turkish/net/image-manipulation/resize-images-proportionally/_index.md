@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Yeniden boyutlandırılan görüntünün yeni genişliğini ve yüksekliğini belirleyin. Bu örnekte genişlik ve yükseklik yarıya indirilmiştir ancak bu değerleri gereksinimlerinize göre ayarlayabilirsiniz.
+Yeniden boyutlandırılan görüntünün yeni genişliğini ve yüksekliğini belirleyin. Bu örnekte genişlik ve yükseklik yarıya indirilmiştir ancak bu değerleri ihtiyaçlarınıza göre ayarlayabilirsiniz.
 
 ## 3. Adım: Yeniden Boyutlandırılan Resmi Kaydedin
 

@@ -88,8 +88,8 @@ A2 : Oui, vous pouvez empiler plusieurs calques de réglage pour réaliser des 
 
 ### Q4 : Existe-t-il un essai gratuit disponible pour Aspose.PSD ?
 
- A4 : Oui, vous pouvez explorer l'essai gratuit[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez explorer l'essai gratuit.[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
-A5 : Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+R5 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).

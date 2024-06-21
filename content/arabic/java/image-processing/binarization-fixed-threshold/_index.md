@@ -96,8 +96,8 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ### س4: كيف يمكنني شراء مكتبة Aspose.PSD؟
 
- ج4: يمكنك شراء مكتبة Aspose.PSD[هنا](https://purchase.aspose.com/buy).
+ ج4: يمكنك شراء مكتبة Aspose.PSD.[هنا](https://purchase.aspose.com/buy).
 
 ### س5: هل تتوفر نسخة تجريبية مجانية؟
 
- ج5: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال إصدار تجريبي مجاني[هنا](https://releases.aspose.com/).
+ ج5: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال إصدار تجريبي مجاني.[هنا](https://releases.aspose.com/).

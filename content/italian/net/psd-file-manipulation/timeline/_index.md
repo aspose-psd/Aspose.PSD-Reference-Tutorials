@@ -8,7 +8,7 @@ weight: 16
 url: /it/net/psd-file-manipulation/timeline/
 ---
 ## introduzione
-Nel dinamico mondo della progettazione grafica e della manipolazione delle immagini, la capacità di controllare e manipolare la sequenza temporale delle immagini è fondamentale. Aspose.PSD per .NET fornisce una soluzione potente con la sua classe Timeline. Questa funzionalità di alto livello consente agli utenti di apportare modifiche alla sequenza temporale di PsdImage, come alterare il ritardo dei fotogrammi, modificare gli stati dei livelli su fotogrammi specifici e altro ancora.
+Nel dinamico mondo della progettazione grafica e della manipolazione delle immagini, la capacità di controllare e manipolare la sequenza temporale delle immagini è fondamentale. Aspose.PSD per .NET fornisce una potente soluzione con la sua classe Timeline. Questa funzionalità di alto livello consente agli utenti di apportare modifiche alla sequenza temporale di PsdImage, come alterare il ritardo dei fotogrammi, modificare gli stati dei livelli su fotogrammi specifici e altro ancora.
 ## Prerequisiti
 Prima di immergerti nelle entusiasmanti possibilità offerte dalla classe Timeline, assicurati di possedere i seguenti prerequisiti:
 -  Aspose.PSD per .NET Library: assicurati di avere installato la libreria Aspose.PSD per .NET. Puoi scaricarlo da[Aspose.PSD per la documentazione .NET](https://reference.aspose.com/psd/net/).
@@ -103,7 +103,7 @@ A2: La classe Timeline è progettata specificamente per le immagini PSD. Per la 
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD per .NET?
 
- A4: acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ A4: acquisire una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Quali sono i principali vantaggi dell'utilizzo di Aspose.PSD per .NET?
 

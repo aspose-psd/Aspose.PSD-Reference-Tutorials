@@ -97,7 +97,7 @@ Odpowiedź 2: Tak, możesz określić niestandardowe czcionki zastępcze zgodnie
 
 ### P3: Czy dostępne są opcje licencjonowania dla Aspose.PSD?
 
- Odpowiedź 3: Zapoznaj się z opcjami licencjonowania[Tutaj](https://purchase.aspose.com/buy)aby wybrać najlepszy plan dla swoich potrzeb.
+ Odpowiedź 3: Zapoznaj się z opcjami licencjonowania.[Tutaj](https://purchase.aspose.com/buy)aby wybrać najlepszy plan dla swoich potrzeb.
 
 ### P4: Czy istnieje forum społecznościowe dotyczące wsparcia Aspose.PSD?
 

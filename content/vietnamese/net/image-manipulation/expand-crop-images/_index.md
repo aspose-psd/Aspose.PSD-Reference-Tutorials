@@ -48,7 +48,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 }
 ```
 
-## Bước 3: Dữ liệu hình ảnh trong bộ nhớ đệm
+## Bước 3: Dữ liệu hình ảnh bộ nhớ đệm
 
 Cache dữ liệu hình ảnh để tối ưu hóa hiệu suất:
 

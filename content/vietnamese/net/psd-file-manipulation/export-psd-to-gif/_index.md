@@ -59,7 +59,7 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET hỗ trợ xuất PSD động sang 
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
- A3: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
+ A3: Tham quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
 
 ### Câu hỏi 4: Aspose.PSD dành cho .NET có những tùy chọn hỗ trợ nào?
 

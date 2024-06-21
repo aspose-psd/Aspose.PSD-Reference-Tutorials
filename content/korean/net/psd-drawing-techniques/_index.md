@@ -10,7 +10,7 @@ url: /ko/net/psd-drawing-techniques/
 
 ## 소개
 
-.NET용 Aspose.PSD를 사용하여 그리기 기술을 한 단계 더 발전시킬 준비가 되셨습니까? 우리 튜토리얼에서는 매력적인 그래픽을 만들고 이미지 처리 능력을 향상시킬 수 있는 다양한 기술을 다룹니다.
+.NET용 Aspose.PSD를 사용하여 그리기 기술을 한 단계 더 발전시킬 준비가 되셨나요? 우리 튜토리얼에서는 매력적인 그래픽을 만들고 이미지 처리 능력을 향상시킬 수 있는 다양한 기술을 다룹니다.
 
 ## .NET용 Aspose.PSD의 핵심 그리기 기능 마스터하기
 
@@ -46,7 +46,7 @@ Aspose.PSD를 사용하여 .NET에서 직사각형을 그리는 기술을 살펴
 
 ## PSD 드로잉 기술 튜토리얼
 ### [.NET용 Aspose.PSD의 핵심 그리기 기능 마스터하기](./mastering-core-drawing-features/)
-단계별 튜토리얼을 통해 .NET용 Aspose.PSD의 핵심 그리기 기능을 마스터하세요. 손쉽게 이미지 처리 기술을 향상시켜 보세요.
+단계별 튜토리얼을 통해 .NET용 Aspose.PSD의 핵심 그리기 기능을 마스터하세요. 손쉽게 이미지 처리 기술을 향상시키세요.
 ### [.NET용 Aspose.PSD를 사용하여 호 그리기](./drawing-arcs/)
 호를 쉽게 그리는 데 있어 .NET용 Aspose.PSD의 강력한 기능을 살펴보세요. 귀하의 응용 프로그램에서 놀라운 그래픽을 얻으려면 단계별 튜토리얼을 따르십시오.
 ### [.NET용 Aspose.PSD에서 베지어 곡선 활용](./utilizing-bezier-curves/)

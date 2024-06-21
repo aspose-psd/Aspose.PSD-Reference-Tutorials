@@ -96,8 +96,8 @@ O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, dzięki czemu binaryzac
 
 ### P4: Jak kupić bibliotekę Aspose.PSD?
 
- O4: Możesz kupić bibliotekę Aspose.PSD[Tutaj](https://purchase.aspose.com/buy).
+ O4: Możesz kupić bibliotekę Aspose.PSD.[Tutaj](https://purchase.aspose.com/buy).
 
 ### P5: Czy dostępna jest bezpłatna wersja próbna?
 
- Odpowiedź 5: Tak, możesz poznać możliwości Aspose.PSD dzięki bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 5: Tak, możesz poznać możliwości Aspose.PSD dzięki bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).

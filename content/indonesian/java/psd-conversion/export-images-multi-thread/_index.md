@@ -1,7 +1,7 @@
 ---
 title: Tutorial Ekspor Gambar Multi-Utas - Aspose.PSD untuk Java
 linktitle: Ekspor Gambar di Lingkungan Multi-Thread
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi kekuatan Aspose.PSD untuk Java dalam mengekspor gambar di lingkungan multi-thread. Tingkatkan kemampuan aplikasi Java Anda!
 type: docs
 weight: 14

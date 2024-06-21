@@ -110,7 +110,7 @@ dublinCorePackage.SetTitle("Confessions of a Man Insane Enough to Live With the 
 dublinCorePackage.AddValue("dc:movie", "Barfly");
 ```
 
-## Stap 9: Voeg het DublinCore-pakket toe aan XMP-metagegevens
+## Stap 9: Voeg DublinCore-pakket toe aan XMP-metagegevens
 
 ```csharp
 // Voeg dublinCore-pakket toe aan XMP-metagegevens
@@ -122,7 +122,7 @@ xmpData.AddPackage(dublinCorePackage);
 ```csharp
 using (var ms = new MemoryStream())
 {
-    // Update XMP-metagegevens in de afbeelding en sla de afbeelding op de schijf of in een geheugenstroom op
+    // Update XMP-metagegevens in de afbeelding en sla de afbeelding op de schijf of in een geheugenstream op
     image.XmpData = xmpData;
     image.Save(ms);
     image.Save(dataDir + "ee.psd");

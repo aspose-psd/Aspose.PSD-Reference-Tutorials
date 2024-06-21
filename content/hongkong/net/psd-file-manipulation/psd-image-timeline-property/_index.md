@@ -45,7 +45,7 @@ List<Frame> frames = new List<Frame>(timeline.Frames);
 frames.Add(new Frame());
 timeline.Frames = frames.ToArray();
 ```
-## 步驟 4：切換活動幀
+## 第四步：切換活動幀
 ```csharp
 timeline.SwitchActiveFrame(4);
 ```
@@ -80,7 +80,7 @@ A3：如有任何疑問或協助，請造訪 Aspose.PSD 社群論壇[這裡](htt
 
 ### 問題 4：Aspose.PSD for .NET 是否有臨時授權？
 
- A4：是的，您可以獲得 Aspose.PSD for .NET 的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：是的，您可以獲得 Aspose.PSD for .NET 的臨時授權。[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：在哪裡可以找到 Aspose.PSD for .NET 的詳細文件？
 

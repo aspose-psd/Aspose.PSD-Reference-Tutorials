@@ -1,7 +1,7 @@
 ---
 title: Skala abu-abu pada Gambar menggunakan Aspose.PSD untuk Java
 linktitle: Skala abu-abu pada Gambar
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Jelajahi Aspose.PSD untuk Java dan pelajari cara membuat gambar skala abu-abu dengan mudah menggunakan tutorial langkah demi langkah kami.
 type: docs
 weight: 10
@@ -77,7 +77,7 @@ Simpan gambar berskala abu-abu menggunakan nama tujuan yang ditentukan dan opsi 
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-Ulangi langkah-langkah ini untuk gambar tambahan apa pun yang ingin Anda ubah skala abu-abunya.
+Ulangi langkah-langkah ini untuk gambar tambahan apa pun yang ingin Anda skala abu-abunya.
 
 ## Kesimpulan
 
@@ -101,6 +101,6 @@ A1: Ya, Aspose.PSD untuk Java tersedia untuk penggunaan komersial. Anda dapat me
 
  A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Butuh dukungan atau punya pertanyaan?
+### Q5: Butuh dukungan atau ada pertanyaan?
 
  A5: Kunjungi forum Aspose.PSD[Di Sini](https://forum.aspose.com/c/psd/34).

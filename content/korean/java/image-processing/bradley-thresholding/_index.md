@@ -11,7 +11,7 @@ url: /ko/java/image-processing/bradley-thresholding/
 
 Java용 Aspose.PSD에서 Bradley 임계값 구현에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 이미지 품질을 향상시키기 위해 Bradley 임계값을 적용하는 과정을 안내합니다. Aspose.PSD for Java는 이미지 처리를 위한 강력한 도구 세트를 제공하며 Bradley Thresholding은 이미지 이진화를 위한 귀중한 기술입니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -86,7 +86,7 @@ A1: Bradley Thresholding은 이미지 이진화에 사용되는 방법으로, �
 
 ### Q2: 올바른 임계값을 선택하는 방법은 무엇입니까?
 
-A2: 임계값은 이미지의 특성에 따라 다릅니다. 최적의 값을 찾으려면 다양한 값을 실험해 보세요.
+A2: 임계값은 이미지의 특성에 따라 다릅니다. 다양한 값으로 실험하여 최적의 값을 찾으세요.
 
 ### Q3: Bradley Thresholding을 다른 이미지 형식에 적용할 수 있습니까?
 

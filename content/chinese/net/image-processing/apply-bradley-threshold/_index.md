@@ -81,7 +81,7 @@ A1：是的，Bradley 阈值是一种适用于各种图像类型的多功能技�
 
 ### Q3：有免费试用吗？
 
-A3：是的，您可以探索 Aspose.PSD for .NET 的免费试用版[这里](https://releases.aspose.com/).
+A3：是的，您可以探索 Aspose.PSD for .NET 的免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得 Aspose.PSD 的支持？
 
@@ -89,4 +89,4 @@ A3：是的，您可以探索 Aspose.PSD for .NET 的免费试用版[这里](htt
 
 ### Q5: 在哪里可以购买 Aspose.PSD 的许可证？
 
- A5：您可以购买许可证[这里](https://purchase.aspose.com/buy).
+ A5: 您可以购买许可证。[这里](https://purchase.aspose.com/buy).

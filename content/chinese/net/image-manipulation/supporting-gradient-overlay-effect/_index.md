@@ -128,7 +128,7 @@ A2：是的，您可以将各种效果（包括渐变叠加）应用到单个图
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以免费试用[这里](https://releases.aspose.com/).
+ A4：是的，您可以免费试用。[这里](https://releases.aspose.com/).
 
 ### Q5：如何获得 Aspose.PSD 的支持？
 

@@ -101,7 +101,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### س1: هل يمكنني استخدام Aspose.PSD لـ .NET في مشاريعي التجارية؟
 
- A1: نعم، Aspose.PSD لـ .NET متاح للاستخدام التجاري. تفحص ال[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+A1: نعم، Aspose.PSD لـ .NET متاح للاستخدام التجاري. تفحص ال[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
 
 ### س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
@@ -109,7 +109,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### س3: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD لـ .NET؟
 
- ج3: الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/psd/net/).
+ ج3: الوثائق الشاملة متاحة.[هنا](https://reference.aspose.com/psd/net/).
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
@@ -117,4 +117,4 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### س5: هل أحتاج إلى ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج5: إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه.[هنا](https://purchase.aspose.com/temporary-license/).

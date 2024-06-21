@@ -83,4 +83,4 @@ A2：當然！ Aspose.PSD 提供了應用自訂旋轉的靈活性，以滿足您
 
 ### Q5：如何取得臨時駕照？
 
- A5：如果您需要臨時許可證，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：如果您需要臨時許可證，您可以獲得一個。[這裡](https://purchase.aspose.com/temporary-license/).

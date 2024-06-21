@@ -9,7 +9,7 @@ url: /ko/java/psd-conversion/color-conversion-default-profiles/
 ---
 ## 소개
 Java 개발 영역에서 Aspose.PSD는 이미지 작업을 위한 강력한 도구로 돋보입니다. 많은 기능 중에서 기본 프로필을 사용한 색상 변환은 개발자가 이미지의 색상 프로필을 조작하고 향상시킬 수 있는 중요한 측면입니다. 이 튜토리얼은 Java용 Aspose.PSD를 사용하여 색상 변환 과정을 안내하고 단계별 연습을 제공합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - Java 프로그래밍에 대한 기본 지식.
 - Java용 Aspose.PSD를 설치했습니다.

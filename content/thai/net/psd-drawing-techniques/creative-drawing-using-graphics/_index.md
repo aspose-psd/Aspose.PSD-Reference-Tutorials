@@ -21,7 +21,7 @@ url: /th/net/psd-drawing-techniques/creative-drawing-using-graphics/
 
 ## นำเข้าเนมสเปซ
 
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ .NET ของคุณ เนมสเปซเหล่านี้มีความสำคัญอย่างยิ่งต่อการทำงานกับฟังก์ชัน Aspose.PSD
+เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ .NET ของคุณ เนมสเปซเหล่านี้มีความสำคัญอย่างยิ่งต่อการทำงานกับฟังก์ชัน Aspose.PSD
 
 ```csharp
 using Aspose.PSD.Brushes;
@@ -101,7 +101,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### คำถามที่ 1: ฉันสามารถใช้ Aspose.PSD สำหรับ .NET ในโครงการเชิงพาณิชย์ของฉันได้หรือไม่
 
- A1: ใช่ Aspose.PSD สำหรับ .NET พร้อมให้ใช้งานเชิงพาณิชย์แล้ว ตรวจสอบ[หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดใบอนุญาต
+A1: ใช่ Aspose.PSD สำหรับ .NET พร้อมให้ใช้งานเชิงพาณิชย์แล้ว ตรวจสอบ[หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดใบอนุญาต
 
 ### คำถามที่ 2: Aspose.PSD สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
 

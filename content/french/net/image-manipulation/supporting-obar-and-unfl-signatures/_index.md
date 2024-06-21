@@ -110,7 +110,7 @@ Toutes nos félicitations! Vous avez implémenté avec succès la prise en charg
 
 ### Q3 : Puis-je essayer Aspose.PSD avant d’acheter ?
 
- A3 : Oui, vous pouvez explorer une version d'essai gratuite[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez explorer une version d'essai gratuite.[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 

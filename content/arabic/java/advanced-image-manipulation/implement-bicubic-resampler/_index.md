@@ -86,7 +86,7 @@ imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 
 ### س4: هل يمكنني تنزيل Aspose.PSD لمكتبة Java؟
 
- ج4: نعم، قم بتحميل المكتبة من صفحة الإصدارات[هنا](https://releases.aspose.com/psd/java/).
+ ج4: نعم، قم بتحميل المكتبة من صفحة الإصدارات.[هنا](https://releases.aspose.com/psd/java/).
 
 ### س5: كيف يمكنني شراء Aspose.PSD لـ Java؟
 

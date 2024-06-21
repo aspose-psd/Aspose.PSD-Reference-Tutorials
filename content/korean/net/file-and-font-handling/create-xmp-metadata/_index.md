@@ -11,7 +11,7 @@ url: /ko/net/file-and-font-handling/create-xmp-metadata/
 
 .NET 개발의 역동적인 세계에서 이미지를 정밀하게 조작하는 것은 많은 애플리케이션에서 중요한 측면입니다. 이 튜토리얼에서는 이미지 처리 작업을 단순화하는 강력한 라이브러리인 .NET용 Aspose.PSD에서 XMP 메타데이터를 생성하는 방법을 살펴봅니다. XMP(Extensible Metadata Platform)를 사용하면 이미지 파일에 메타데이터를 포함할 수 있어 이미지와 관련된 정보를 효율적으로 구성하고 검색할 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -159,7 +159,7 @@ A1: Aspose.PSD는 주로 PSD(Adobe Photoshop) 파일 형식에 중점을 두고 
 
 A2: 예, Aspose.PSD를 사용하면 기존 XMP 메타데이터를 읽고 수정할 수 있습니다.
 
-### Q3: .NET용 Aspose.PSD를 사용할 때 이미지 크기에 제한이 있나요?
+### Q3: .NET용 Aspose.PSD를 사용할 때 이미지 크기에 제한이 있습니까?
 
 A3: Aspose.PSD는 다양한 크기의 이미지를 처리할 수 있지만 매우 큰 이미지에는 추가 고려 사항이 필요할 수 있습니다.
 

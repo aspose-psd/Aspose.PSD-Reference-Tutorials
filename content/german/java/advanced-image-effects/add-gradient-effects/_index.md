@@ -125,7 +125,7 @@ A2: Aspose.PSD bietet eine Vielzahl von Effekten, darunter Schatten, Leuchten un
 
 ### F4: Gibt es eine Testversion für Aspose.PSD für Java?
 
- A4: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können eine kostenlose Testversion erhalten.[Hier](https://releases.aspose.com/).
 
 ### F5: Wo kann ich eine Lizenz für Aspose.PSD für Java erwerben?
 

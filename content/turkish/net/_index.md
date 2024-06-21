@@ -36,7 +36,7 @@ Aspose.PSD for .NET ile görüntü kaydetme ve dışa aktarma konusunda zahmetsi
 
 ## Görüntü Ayarlama Potansiyelinin Kilidini Açın
 
-### [Görüntü Ayarı](./image-adjustment/)
+### [Görüntü Ayarlama](./image-adjustment/)
 
 Aspose.PSD for .NET ile görüntü ayarlama potansiyelini ortaya çıkarın. Görüntü manipülasyonunda ustalaşmak için parlaklık, kontrast ve renk dengesi hakkındaki eğitimleri keşfedin. Ayrıntılı kılavuzlarımızla görsellerinizi daha önce hiç olmadığı gibi geliştirin.
 
@@ -86,7 +86,7 @@ Aspose.PSD for .NET ile AI format katmanlarını zahmetsizce kullanın. PSD gör
 Aspose.PSD for .NET eğitimleriyle .NET uygulamalarınızı en üst düzeye çıkarın! Metni canlı renklerde oluşturmayı ve eksik yazı tiplerini sorunsuz bir şekilde değiştirmeyi öğrenin. Tasarım oyununuzu zahmetsizce yükseltin.
 ### [Dosya Kaydetme ve Dışa Aktarma](./file-saving-and-exporting/)
 Aspose.PSD for .NET ile görüntü kaydetme ve dışa aktarma konusunda zahmetsizce ustalaşın. Verimli disk ve akış işlemleri için adım adım eğitimlerimizi izleyin.
-### [Görüntü Ayarı](./image-adjustment/)
+### [Görüntü Ayarlama](./image-adjustment/)
 Aspose.PSD for .NET ile görüntü ayarlama potansiyelini ortaya çıkarın. Görüntü manipülasyonunda ustalaşmak için parlaklık, kontrast ve renk dengesi hakkındaki eğitimleri keşfedin.
 ### [Görüntü Efektleri](./image-effects/)
 Aspose.PSD for .NET ile katman efektlerinin büyüsünü keşfedin! Kontur, gölge ve karışım modları eklemeyi öğrenerek görüntü işleme becerilerinizi geliştirin.

@@ -29,7 +29,7 @@ Bạn đã sẵn sàng nâng cao kỹ năng xử lý hình ảnh của mình ch�
 
 ## Áp dụng điều chỉnh cân bằng màu
 
- Chuyển đổi màu sắc của hình ảnh PSD của bạn một cách dễ dàng với[Aspose.PSD cho .NET](./color-balance-adjustment/)'s Tính năng Điều chỉnh Cân bằng Màu sắc. Hướng dẫn của chúng tôi sẽ hướng dẫn bạn qua các bước, giúp bạn đạt được sự cân bằng màu sắc ấn tượng. Nâng tầm dự án thiết kế của bạn bằng hình ảnh sống động và hấp dẫn về mặt hình ảnh.
+ Chuyển đổi màu sắc của hình ảnh PSD của bạn một cách dễ dàng với[Aspose.PSD cho .NET](./color-balance-adjustment/)'s Tính năng Điều chỉnh Cân bằng Màu sắc. Hướng dẫn của chúng tôi sẽ hướng dẫn bạn qua các bước, giúp bạn đạt được sự cân bằng màu sắc ấn tượng. Nâng cao dự án thiết kế của bạn bằng hình ảnh sống động và hấp dẫn trực quan.
 
 ## Hướng dẫn điều chỉnh hình ảnh
 ### [Triển khai Điều chỉnh độ sáng trong Aspose.PSD cho .NET](./brightness-adjustment/)

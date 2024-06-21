@@ -1,6 +1,6 @@
 ---
 title: บันทึกรูปภาพโดยใช้ Worker Threads ด้วย Aspose.PSD สำหรับ Java
-linktitle: บันทึกรูปภาพโดยใช้ Worker Threads
+linktitle: บันทึกภาพโดยใช้ Worker Threads
 second_title: Aspose.PSD Java API
 description: สำรวจการประมวลผลภาพแบบมัลติเธรดใน Java ด้วย Aspose.PSD เรียนรู้การบันทึกรูปภาพอย่างมีประสิทธิภาพโดยใช้เธรดของผู้ปฏิบัติงาน
 type: docs
@@ -89,7 +89,7 @@ public class MainApplication {
         SaveImageWorker saveImageWorker = new SaveImageWorker(inputPath, outputPath, saveOptions, monitor);
         String result = saveImageWorker.ThreadProc();
         
-        // ... (จัดการผลลัพธ์ตามต้องการ)
+        // ...(จัดการผลลัพธ์ตามต้องการ)
     }
 }
 ```

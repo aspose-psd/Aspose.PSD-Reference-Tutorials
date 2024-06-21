@@ -62,7 +62,7 @@ Console.WriteLine(opacity);
 if (opacity == 0)
 {
     // Obrázek je plně průhledný.
-    // Váš kód pro manipulaci s průhledností je zde
+    // Zde je váš kód pro manipulaci s průhledností
 }
 ```
 
@@ -86,8 +86,8 @@ A1: Ano, Aspose.PSD je kompatibilní s nejnovějšími frameworky .NET.
 
 ### Q4: Jak získám dočasnou licenci pro Aspose.PSD?
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Mohu vyzkoušet Aspose.PSD zdarma před nákupem?
 
-A5: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+A5: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).

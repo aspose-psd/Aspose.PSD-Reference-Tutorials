@@ -56,7 +56,7 @@ url: /zh-hant/net/psd-drawing-techniques/
 ### [在 Aspose.PSD for .NET 中有效繪製線條](./drawing-lines-effectively/)
 使用 Aspose.PSD 探索在 .NET 應用程式中繪製線條的藝術。按照我們的綜合教學輕鬆提升您的影像處理技能。
 ### [在 Aspose.PSD for .NET 中建構矩形](./constructing-rectangles/)
-探索使用 Aspose.PSD 在 .NET 中繪製矩形的藝術。請按照我們的逐步指南進行無縫整合。輕鬆提升您的影像處理遊戲水平。
+探索使用 Aspose.PSD 在 .NET 中繪製矩形的藝術。請按照我們的逐步指南進行無縫整合。輕鬆提升您的影像處理遊戲等級。
 ### [在 Aspose.PSD for .NET 中使用圖形進行創意繪圖](./creative-drawing-using-graphics/)
 使用 Aspose.PSD for .NET 釋放您的藝術潛能！請遵循我們的使用圖形進行創意繪圖的教學。
 ### [在 Aspose.PSD for .NET 中使用 GraphicsPath 實作繪圖](./implementing-drawing-with-graphicspath/)

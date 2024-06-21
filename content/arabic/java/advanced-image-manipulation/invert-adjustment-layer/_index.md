@@ -88,8 +88,8 @@ A1: يدعم Aspose.PSD Java 6.0 والإصدارات الأحدث.
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD؟
 
- ج4: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك استكشاف النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
-ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ج5: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).

@@ -113,4 +113,4 @@ Console.WriteLine("SupportOfOuterGlowEffect executed successfully");
 
 ### س5: هل يمكنني شراء Aspose.PSD لـ .NET؟
 
- ج5: نعم، استكشف خيارات الترخيص وقم بالشراء[هنا](https://purchase.aspose.com/buy).
+ ج5: نعم، استكشف خيارات الترخيص وقم بالشراء.[هنا](https://purchase.aspose.com/buy).

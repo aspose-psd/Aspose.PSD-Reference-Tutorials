@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Skapa en instans av klassen PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Steg 5: Spara den beskurna bilden som PNG
+## Steg 5: Spara den beskurna bilden som PNG.
 ```csharp
 // Anropa sparmetoden, ange utdatasökvägen och PngOptions för att konvertera PSD-filen till PNG och spara utdata
 string destName = dataDir + @"export.png";

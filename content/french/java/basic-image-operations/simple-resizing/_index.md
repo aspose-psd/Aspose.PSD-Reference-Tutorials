@@ -9,7 +9,7 @@ url: /fr/java/basic-image-operations/simple-resizing/
 ---
 ## Introduction
 
-Dans le didacticiel d'aujourd'hui, nous aborderons le processus de redimensionnement simple d'images à l'aide d'Aspose.PSD pour Java, une bibliothèque puissante qui facilite une manipulation efficace des images. Si vous êtes un développeur Java à la recherche d'un moyen transparent de redimensionner des images par programmation, vous êtes au bon endroit.
+Dans le didacticiel d'aujourd'hui, nous approfondirons le processus de redimensionnement simple d'images à l'aide d'Aspose.PSD pour Java, une bibliothèque puissante qui facilite une manipulation efficace des images. Si vous êtes un développeur Java à la recherche d'un moyen transparent de redimensionner des images par programmation, vous êtes au bon endroit.
 
 ## Conditions préalables
 

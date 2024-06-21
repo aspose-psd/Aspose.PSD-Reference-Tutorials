@@ -105,7 +105,7 @@ A3: Aspose.PSD for .NET je navržen pro zpracování obrázků různých velikos
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete prozkoumat funkce knihovny získáním bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat funkce knihovny získáním bezplatné zkušební verze.[tady](https://releases.aspose.com/).
 
 ### Q5: Kde najdu další podporu nebo pomoc?
 

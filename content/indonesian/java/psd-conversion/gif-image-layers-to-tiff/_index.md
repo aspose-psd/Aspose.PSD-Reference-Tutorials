@@ -1,7 +1,7 @@
 ---
 title: Tutorial Konversi Lapisan GIF ke TIFF - Aspose.PSD untuk Java
 linktitle: Konversikan Lapisan Gambar GIF ke TIFF
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Konversi lapisan gambar GIF ke format TIFF dengan mudah di Java menggunakan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
 type: docs
 weight: 15
@@ -27,7 +27,7 @@ import java.io.FileNotFoundException;
 ## Langkah 1: Siapkan Lingkungan Anda
  Pastikan Anda telah menginstal Java dan Aspose.PSD untuk Java di sistem Anda. Jika tidak, lihat[dokumentasi](https://reference.aspose.com/psd/java/) untuk petunjuk pemasangan.
 ## Langkah 2: Impor Perpustakaan Aspose.PSD
-Dalam proyek Java Anda, sertakan pustaka Aspose.PSD dengan menambahkannya ke dependensi proyek Anda. Anda dapat mengunduh perpustakaan[Di Sini](https://releases.aspose.com/psd/java/).
+ Dalam proyek Java Anda, sertakan pustaka Aspose.PSD dengan menambahkannya ke dependensi proyek Anda. Anda dapat mengunduh perpustakaan[Di Sini](https://releases.aspose.com/psd/java/).
 ## Langkah 3: Buat Objek Gambar PSD
 Muat file gambar PSD ke aplikasi Java Anda menggunakan kode yang disediakan. Ganti "Direktori Dokumen Anda" dan "sample.psd" dengan jalur yang sesuai.
 ```java

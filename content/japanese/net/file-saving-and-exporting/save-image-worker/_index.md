@@ -92,11 +92,11 @@ finally
 
 ### Q2: Aspose.PSD for .NET の包括的なドキュメントはどこで見つけられますか?
 
-A2: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/net/).
+A2: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/net/).
 
 ### Q3: Aspose.PSD for .NET の無料トライアルはありますか?
 
- A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+ A3: はい、無料トライアルが可能です。[ここ](https://releases.aspose.com/).
 
 ### Q4: Aspose.PSD for .NET のサポートを受けるにはどうすればよいですか?
 
@@ -104,4 +104,4 @@ A2: ドキュメントは入手可能です[ここ](https://reference.aspose.com
 
 ### Q5: Aspose.PSD for .NET の一時ライセンスを購入できますか?
 
- A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).

@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Mã của bạn để thay thế phông chữ ở đây
+    // Mã của bạn để thay thế phông chữ sẽ có ở đây.
 }
 ```
 

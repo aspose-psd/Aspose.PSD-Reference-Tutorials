@@ -84,7 +84,7 @@ A1: Ja, Aspose.PSD für .NET unterstützt verschiedene PSD-Dateiversionen und bi
 
  A2: Besuchen[dieser Link](https://purchase.aspose.com/temporary-license/) eine temporäre Lizenz zu Testzwecken zu erwerben.
 
-### F3: Wo finde ich eine ausführliche Dokumentation für Aspose.PSD für .NET?
+### F3: Wo finde ich eine ausführliche Dokumentation zu Aspose.PSD für .NET?
 
  A3: Entdecken Sie die[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/) für ausführliche Informationen und Beispiele.
 

@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Speichern Sie das zugeschnittene Bild im PSD-Format unter dem angegebenen Pfad.
 
-## Schritt 5: Zugeschnittenes Bild als PNG speichern
+## Schritt 5: Zugeschnittenes Bild als PNG speichern.
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -105,4 +105,4 @@ A2: Ja, Aspose.PSD für Java ist auf Leistung optimiert und eignet sich daher f�
 
 ### F5: Kann ich Aspose.PSD für Java vor dem Kauf testen?
 
- A5: Ja, entdecken Sie die Funktionen mit einer kostenlosen Testversion[Hier](https://releases.aspose.com/).
+ A5: Ja, entdecken Sie die Funktionen mit einer kostenlosen Testversion.[Hier](https://releases.aspose.com/).

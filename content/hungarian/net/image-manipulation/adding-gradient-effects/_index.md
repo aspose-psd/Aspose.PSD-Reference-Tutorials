@@ -9,7 +9,7 @@ url: /hu/net/image-manipulation/adding-gradient-effects/
 ---
 ## Bevezetés
 
-A képek színátmenetes effektusokkal történő javítása magával ragadó dimenziót adhat a vizuális tartalomhoz. Az Aspose.PSD for .NET hatékony platformot biztosít a színátmenetes átfedések képeibe való beépítéséhez. Ebben az oktatóanyagban végigvezetjük a színátmenet effektusok hozzáadásának folyamatán az Aspose.PSD for .NET használatával.
+A képek színátmenetes effektusokkal történő javítása magával ragadó dimenziót adhat a vizuális tartalomhoz. Az Aspose.PSD for .NET hatékony platformot biztosít a színátmenetes átfedések képeibe való integrálásához. Ebben az oktatóanyagban végigvezetjük a színátmenet effektusok hozzáadásának folyamatán az Aspose.PSD for .NET használatával.
 
 ## Előfeltételek
 
@@ -139,7 +139,7 @@ Ha gradiens effektusokat ad hozzá a képekhez az Aspose.PSD for .NET segítség
 
 ### 3. kérdés: Elérhető az Aspose.PSD .NET-hez próbaverziója?
 
- 3. válasz: Igen, felfedezheti az Aspose.PSD for .NET képességeit, ha letölti az ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+3. válasz: Igen, felfedezheti az Aspose.PSD for .NET képességeit, ha letölti az ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 

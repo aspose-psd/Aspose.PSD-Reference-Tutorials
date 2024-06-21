@@ -94,11 +94,11 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 
 ### Câu hỏi 2: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 
- A2: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A2: Bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu 3: Tôi có thể tìm tài liệu Aspose.PSD ở đâu?
 
-A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/java/).
+A3: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/java/).
 
 ### Câu hỏi 4: Aspose.PSD có những tùy chọn hỗ trợ nào?
 

@@ -11,7 +11,7 @@ url: /ko/net/image-adjustment/contrast-adjustment/
 
 .NET용 Aspose.PSD의 대비 조정 구현에 대한 포괄적인 가이드에 오신 것을 환영합니다! 이 튜토리얼에서는 강력한 .NET 이미징 라이브러리인 Aspose.PSD를 사용하여 이미지의 대비를 향상시키는 프로세스를 살펴보겠습니다. 이 가이드를 마치면 이미지에 대비 조정을 원활하게 적용하는 방법을 확실하게 이해하게 될 것입니다.
 
-## 전제 조건
+## 전제조건
 
 단계별 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## 1단계: 이미지 로드
 
- 소스 이미지를 인스턴스에 로드합니다.`RasterImage` 수업.
+소스 이미지를 인스턴스에 로드합니다.`RasterImage` 수업.
 
 ```csharp
 //ExStart:이미지 로드

@@ -83,4 +83,4 @@ A2: Rozhodně! Aspose.PSD poskytuje flexibilitu pro použití vlastních rotací
 
 ### Q5: Jak získám dočasnou licenci?
 
- A5: Pokud potřebujete dočasnou licenci, můžete ji získat[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Pokud potřebujete dočasnou licenci, můžete ji získat.[tady](https://purchase.aspose.com/temporary-license/).

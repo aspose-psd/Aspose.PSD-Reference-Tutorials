@@ -81,7 +81,7 @@ Image image = Image.create(imageOptions, 500, 500);
 
 ```java
 // ดำเนินการประมวลผลภาพที่ต้องการ
-// ...
+// -
 
 // บันทึกภาพที่ประมวลผลแล้ว
 image.save(desName);

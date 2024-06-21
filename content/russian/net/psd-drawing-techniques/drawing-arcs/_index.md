@@ -2,7 +2,7 @@
 title: Рисование дуг с помощью Aspose.PSD для .NET
 linktitle: Рисование дуг с помощью Aspose.PSD для .NET
 second_title: Aspose.PSD .NET API
-description: Исследуйте возможности Aspose.PSD для .NET, позволяющие легко рисовать дуги. Следуйте нашему пошаговому руководству, чтобы получить потрясающую графику в своих приложениях.
+description: Исследуйте возможности Aspose.PSD для .NET, позволяющие легко рисовать дуги. Следуйте нашему пошаговому руководству, чтобы получить потрясающую графику в ваших приложениях.
 type: docs
 weight: 11
 url: /ru/net/psd-drawing-techniques/drawing-arcs/
@@ -38,7 +38,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Actual Document Directory";
 ```
 
-## Шаг 2: Рисование дуги
+## Шаг 2: Нарисуйте дугу
 
  Создайте экземпляр`BmpOptions` и установить его свойства, в том числе`BitsPerPixel`.
 
@@ -69,7 +69,7 @@ int startAngle = 45;
 int sweepAngle = 270;
 ```
 
-## Шаг 5: Рисование дуги
+## Шаг 5: Нарисуйте дугу
 
 Нарисуйте дугу на графической поверхности, используя заданные параметры и перо черного цвета.
 
@@ -77,7 +77,7 @@ int sweepAngle = 270;
 graphic.DrawArc(new Pen(Color.Black), 0, 0, width, height, startAngle, sweepAngle);
 ```
 
-## Шаг 6: Сохранение изображения
+## Шаг 6: Сохраните изображение
 
 Сохраните изображение в формате BMP, используя указанные параметры.
 

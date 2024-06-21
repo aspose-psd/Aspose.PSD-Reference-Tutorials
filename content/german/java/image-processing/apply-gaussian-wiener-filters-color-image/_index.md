@@ -9,7 +9,7 @@ url: /de/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
 ## Einführung
 
-Willkommen zu diesem umfassenden Tutorial zum Anwenden von Gaußschen und Wiener-Filtern für Farbbilder mit Aspose.PSD für Java. In diesem Leitfaden erfahren Sie Schritt für Schritt, wie Sie Ihre Farbbilder mit diesen leistungsstarken Filtern verbessern und Ihnen die Fähigkeiten zur Optimierung Ihrer visuellen Inhalte vermitteln.
+Willkommen zu diesem umfassenden Tutorial zum Anwenden von Gauß- und Wiener-Filtern für Farbbilder mit Aspose.PSD für Java. In diesem Leitfaden erfahren Sie Schritt für Schritt, wie Sie Ihre Farbbilder mit diesen leistungsstarken Filtern verbessern und Ihnen die Fähigkeiten zur Optimierung Ihrer visuellen Inhalte vermitteln.
 
 ## Voraussetzungen
 
@@ -73,7 +73,7 @@ Wiederholen Sie diese Schritte und passen Sie die Parameter nach Bedarf für Ihr
 
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.PSD für Java Gauß- und Wiener-Filter auf Farbbilder anwenden. Experimentieren Sie mit verschiedenen Parametern, um die gewünschten Effekte zu erzielen und Ihre Bilder zu verbessern.
+Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.PSD für Java Gaußsche und Wiener-Filter auf Farbbilder anwenden. Experimentieren Sie mit verschiedenen Parametern, um die gewünschten Effekte zu erzielen und Ihre Bilder zu verbessern.
 
 ## FAQs
 

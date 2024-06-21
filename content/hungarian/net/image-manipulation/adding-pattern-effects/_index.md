@@ -15,13 +15,13 @@ A képek mintaeffektusokkal történő javítása új dimenziót hozhat a tervei
 
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
-- Visual Studio telepítve van a gépedre.
+- A Visual Studio telepítve van a gépedre.
 -  Aspose.PSD .NET könyvtárhoz. Letöltheti[itt](https://releases.aspose.com/psd/net/).
 - C# és .NET keretrendszer alapismeretei.
 
 ## Névterek importálása
 
-A C# projektben importálja a szükséges névtereket, hogy kihasználja az Aspose.PSD for .NET képességeit:
+C# projektben importálja a szükséges névtereket, hogy kihasználja az Aspose.PSD for .NET képességeit:
 
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
@@ -101,7 +101,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat mintaeffektusokat a képekhez a
 
  A3: Módosítsa a`Opacity` tulajdona a`PatternOverlayEffect` az átlátszóság szintjének beállításához.
 
-### 4. kérdés: Vannak korlátozások a minta méretére vonatkozóan?
+### 4. kérdés: Vannak-e korlátozások a minta méretére vonatkozóan?
 
 A4: A minta méretei rugalmasak, lehetővé téve különböző méretű minták létrehozását.
 

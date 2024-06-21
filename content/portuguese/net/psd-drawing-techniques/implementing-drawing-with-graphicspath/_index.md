@@ -51,7 +51,7 @@ Nesta etapa inicializamos uma instância da classe PsdImage e um objeto Graphics
 ## Etapa 2: Criando GraphicsPath e Figura
 
 ```csharp
-// Crie uma instância de GraphicsPath e Instance of Figure, adicione EllipseShape, RectangleShape e TextShape à figura
+// Crie uma instância de GraphicsPath e Instance of Figure, adicione EllipseShape, RectangleShape e TextShape à figura.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A4: Sim, Aspose.PSD for .NET fornece funcionalidade para trabalhar com camadas e
 
 ### Q5: Onde posso encontrar a documentação do Aspose.PSD para .NET?
 
- A5: A documentação está disponível[aqui](https://reference.aspose.com/psd/net/).
+ A5: A documentação está disponível.[aqui](https://reference.aspose.com/psd/net/).

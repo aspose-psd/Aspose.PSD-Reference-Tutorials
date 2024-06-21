@@ -85,7 +85,7 @@ A1: はい、Aspose.PSD はさまざまな画像形式をサポートしてい�
 
 ### Q4: 仮免許はどのように取得すればよいですか?
 
- A4: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A4: 仮免許を取得することができます。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Aspose.PSD for .NET はどこで購入できますか?
 

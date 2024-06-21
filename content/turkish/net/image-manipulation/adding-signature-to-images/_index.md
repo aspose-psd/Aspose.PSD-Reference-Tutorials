@@ -102,4 +102,4 @@ Cevap3: İstisnaları düzgün bir şekilde ele almak için try-catch blokların
 
 ### S5: Satın almadan önce Aspose.PSD'yi deneyebilir miyim?
 
- A5: Kesinlikle ücretsiz deneme sürümü mevcut[Burada](https://releases.aspose.com/).
+ A5: Kesinlikle ücretsiz deneme sürümü mevcuttur.[Burada](https://releases.aspose.com/).

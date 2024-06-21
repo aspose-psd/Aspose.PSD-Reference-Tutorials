@@ -24,7 +24,7 @@ Utwórz nowy projekt .NET lub otwórz istniejący w preferowanym IDE.
 ## Krok 2: Dołącz bibliotekę Aspose.PSD
  Dodaj odwołanie do biblioteki Aspose.PSD w swoim projekcie. Można to zrobić, pobierając bibliotekę z witryny[Strona pobierania Aspose.PSD](https://releases.aspose.com/psd/net/).
 ## Krok 3: Zainicjuj Aspose.PSD
-swoim kodzie zainicjuj Aspose.PSD, ładując plik PSD:
+W swoim kodzie zainicjuj Aspose.PSD, ładując plik PSD:
 ```csharp
 string dataDir = "Your Document Directory";
 string sourceFileName = dataDir + "1.psd";
@@ -38,7 +38,7 @@ Zaimplementuj poprawną metodę kadrowania dla plików PSD. Określ parametry pr
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Dostosuj wartości w konstruktorze Rectangle zgodnie z wymaganiami dotyczącymi przycinania.
+Dostosuj wartości w konstruktorze Rectangle zgodnie ze swoimi wymaganiami dotyczącymi kadrowania.
 ## Krok 5: Zapisz przycięty obraz
 Zapisz przycięty obraz w formatach PSD i PNG:
 ```csharp

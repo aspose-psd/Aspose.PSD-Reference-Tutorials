@@ -9,7 +9,7 @@ url: /ko/net/psd-file-resources/supporting-working-path-resource/
 ---
 ## 소개
 이미지 처리 작업을 하는 .NET 개발자라면 .NET용 Aspose.PSD가 가장 적합한 솔루션입니다. 이 튜토리얼에서는 Aspose.PSD에서 'WorkingPathResource' 리소스의 기능을 활용하는 방법을 자세히 살펴보겠습니다. 이 중요한 기능은 자르기 작업의 정밀도를 향상시켜 이미지가 필요에 따라 정확하게 맞춰지도록 보장합니다.
-## 전제 조건
+## 전제조건
 이 여정을 시작하기 전에 다음 사항이 있는지 확인하세요.
 - C# 및 .NET 개발에 대한 기본 지식.
 -  .NET 라이브러리용 Aspose.PSD가 설치되었습니다. 그렇지 않은 경우 다운로드하십시오.[여기](https://releases.aspose.com/psd/net/).
@@ -87,4 +87,4 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### Q5: 임시 라이센스가 필요합니까?
 
- A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).

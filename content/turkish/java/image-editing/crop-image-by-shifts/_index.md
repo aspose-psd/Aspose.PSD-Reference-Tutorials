@@ -62,7 +62,7 @@ if (!rasterImage.isCached()) {
 
 ## Adım 3: Kaydırma Değerlerini Tanımlayın
 
-Görüntünün dört tarafının tamamı için kaydırma değerlerini belirtin:
+Görüntünün dört tarafının tümü için kaydırma değerlerini belirtin:
 
 ```java
 int leftShift = 10;

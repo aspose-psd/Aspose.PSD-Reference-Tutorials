@@ -94,7 +94,7 @@ A2 : La version d'essai présente des limites et vous pouvez explorer toutes l
 
 ### Q4 : Existe-t-il une licence temporaire disponible à des fins de test ?
 
- A4 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour Java ?
 

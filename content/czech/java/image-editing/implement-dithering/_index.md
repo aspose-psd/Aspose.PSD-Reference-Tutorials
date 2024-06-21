@@ -43,7 +43,7 @@ String sourceFile = dataDir + "sample.psd";
 PsdImage image = (PsdImage)Image.load(sourceFile);
 ```
 
-## Krok 2: Proveďte rozklad
+## Krok 2: Proveďte dithering
 
 Dále proveďte na načteném obrázku rozklad Floyda Steinberga. Tato technika pomáhá redukovat barevné pruhy a zvyšuje kvalitu obrazu.
 

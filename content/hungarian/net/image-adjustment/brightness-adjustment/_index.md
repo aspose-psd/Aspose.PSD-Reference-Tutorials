@@ -80,7 +80,7 @@ Az Aspose.PSD for .NET leegyszerűsíti a fényerő-beállítások végrehajtás
 
 ### 1. kérdés: Hol találom az Aspose.PSD for .NET dokumentációját?
 
- V1: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
+ V1: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
 
 ### 2. kérdés: Hogyan tölthetem le az Aspose.PSD for .NET könyvtárat?
 
@@ -88,7 +88,7 @@ Az Aspose.PSD for .NET leegyszerűsíti a fényerő-beállítások végrehajtás
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -96,4 +96,4 @@ Az Aspose.PSD for .NET leegyszerűsíti a fényerő-beállítások végrehajtás
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 
- 5. válasz: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).

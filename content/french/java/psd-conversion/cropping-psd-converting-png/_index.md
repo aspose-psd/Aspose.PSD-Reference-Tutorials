@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Étape 3 : Définir la région recadrée
 ```java
-// Créez une instance de la classe Rectangle en passant x, y, largeur et hauteur
+//Créez une instance de la classe Rectangle en passant x, y, largeur et hauteur
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Étape 4 : Recadrer l'image PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Créer une instance de la classe PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Étape 6 : Enregistrer l’image recadrée au format PNG
+## Étape 6 : Enregistrez l’image recadrée au format PNG.
 ```java
 // Fournissez le chemin de sortie et les options Png pour convertir le fichier PSD en PNG et enregistrer la sortie
 String destName = dataDir + "export.png";

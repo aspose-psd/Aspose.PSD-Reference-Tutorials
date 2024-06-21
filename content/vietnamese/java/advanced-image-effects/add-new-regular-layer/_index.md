@@ -111,7 +111,7 @@ A2: Chắc chắn rồi! Aspose.PSD cung cấp một loạt các tùy chọn chu
 
 ### Câu hỏi 3: Tôi có thể tìm thêm tài liệu Aspose.PSD ở đâu?
 
- A3: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/psd/java/).
+ A3: Bạn có thể tham khảo tài liệu.[đây](https://reference.aspose.com/psd/java/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 
@@ -119,4 +119,4 @@ A2: Chắc chắn rồi! Aspose.PSD cung cấp một loạt các tùy chọn chu
 
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
 
- Câu trả lời 5: Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận[đây](https://forum.aspose.com/c/psd/34).
+ Câu trả lời 5: Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận.[đây](https://forum.aspose.com/c/psd/34).

@@ -92,7 +92,7 @@ A1：Aspose.PSD for .NET 被设计为对开发人员友好，使其适合初学�
 
 ### Q3：有免费试用吗？
 
-A3：是的，您可以探索 Aspose.PSD for .NET 的免费试用版[这里](https://releases.aspose.com/).
+A3：是的，您可以探索 Aspose.PSD for .NET 的免费试用版。[这里](https://releases.aspose.com/).
 
 ### 问题 4：在哪里可以找到 Aspose.PSD for .NET 支持？
 
@@ -100,4 +100,4 @@ A3：是的，您可以探索 Aspose.PSD for .NET 的免费试用版[这里](htt
 
 ### Q5：如何获得临时驾照？
 
-A5：如果需要，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+A5：如果需要，您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).

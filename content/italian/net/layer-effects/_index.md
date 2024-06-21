@@ -42,9 +42,9 @@ Sblocca la potenza delle modalità di fusione in . Questo tutorial funge da guid
 ## Tutorial sugli effetti di livello
 ### [Aggiunta di effetti tratto ai livelli in Aspose.PSD per .NET](./adding-stroke-effects/)
 Migliora l'estetica dell'immagine con Aspose.PSD per .NET. Impara ad aggiungere effetti di tratto passo dopo passo. Scarica, acquista o prova subito la versione di prova gratuita.
-### [Aggiunta di un livello di tratto con colore solido in Aspose.PSD per .NET](./adding-stroke-layer-solid-color/)
-Migliora le tue capacità di manipolazione delle immagini .NET con Aspose.PSD. Impara ad aggiungere strati di tratto con colori a tinta unita passo dopo passo.
-### [Aggiunta di un livello di tratto con gradiente in Aspose.PSD per .NET](./adding-stroke-layer-gradient/)
+### [Aggiunta del livello tratto con colore solido in Aspose.PSD per .NET](./adding-stroke-layer-solid-color/)
+Migliora le tue capacità di manipolazione delle immagini .NET con Aspose.PSD. Impara ad aggiungere livelli di tratto con colori a tinta unita passo dopo passo.
+### [Aggiunta di un livello di tratto con sfumatura in Aspose.PSD per .NET](./adding-stroke-layer-gradient/)
 Scopri come aggiungere un livello di tratto sfumato in Aspose.PSD per .NET. Migliora le tue capacità di manipolazione delle immagini con questo tutorial completo.
 ### [Aggiunta del livello tratto con motivo in Aspose.PSD per .NET](./adding-stroke-layer-pattern/)
 Migliora i tuoi file PSD con livelli e modelli di tratti utilizzando Aspose.PSD per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.

@@ -45,7 +45,7 @@ List<Frame> frames = new List<Frame>(timeline.Frames);
 frames.Add(new Frame());
 timeline.Frames = frames.ToArray();
 ```
-## Krok 4: Přepněte aktivní snímek
+## Krok 4: Přepněte aktivní rámec
 ```csharp
 timeline.SwitchActiveFrame(4);
 ```
@@ -59,7 +59,7 @@ psdImage.Save(outputFile);
 File.Delete(outputFile);
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
-Tento podrobný průvodce poskytuje pohled na bezproblémovou integraci vlastnosti PSD Image Timeline Property do vašich projektů .NET pomocí Aspose.PSD.
+Tento podrobný průvodce poskytuje pohled na bezproblémovou integraci vlastnosti PSD Image Timeline do vašich projektů .NET pomocí Aspose.PSD.
 ## Závěr
 
 Aspose.PSD for .NET umožňuje vývojářům odemknout plný potenciál obrazů PSD. Vlastnost PSD Image Timeline dodává vašim projektům vrstvu dynamiky a nabízí kreativní možnosti při manipulaci s obrázky.
@@ -80,7 +80,7 @@ Odpověď 1: Ano, Aspose.PSD for .NET je kompatibilní s různými frameworky .N
 
 ### Q4: Jsou k dispozici dočasné licence pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete získat dočasné licence pro Aspose.PSD pro .NET[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Ano, můžete získat dočasné licence pro Aspose.PSD pro .NET.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.PSD pro .NET?
 

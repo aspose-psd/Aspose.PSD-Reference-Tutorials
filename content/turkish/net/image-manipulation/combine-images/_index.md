@@ -102,8 +102,8 @@ C2: Evet, Aspose.PSD hem kişisel hem de ticari amaçlarla kullanılabilir. Lisa
 
 ### S4: Aspose.PSD için ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD için geçici bir lisans alabilir miyim?
 
-Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

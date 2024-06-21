@@ -92,7 +92,7 @@ S1: Ja, Aspose.PSD för Java kan integreras med olika Java-ramverk, vilket ger f
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- S2: Ja, du kan komma åt den kostnadsfria testversionen[här](https://releases.aspose.com/).
+ A2: Ja, du kan komma åt den kostnadsfria testversionen.[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta ytterligare stöd eller hjälp?
 
@@ -100,7 +100,7 @@ S1: Ja, Aspose.PSD för Java kan integreras med olika Java-ramverk, vilket ger f
 
 ### F4: Hur får jag en tillfällig licens för Aspose.PSD för Java?
 
- S4: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S4: Du kan skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Vilka bildformat stöds för beskärning i Aspose.PSD för Java?
 

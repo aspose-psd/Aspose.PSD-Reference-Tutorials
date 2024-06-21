@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Krok 3: Zdefiniuj zakres przycięcia
 ```java
-// Utwórz instancję klasy Rectangle, przekazując x, y, szerokość i wysokość
+//Utwórz instancję klasy Rectangle, przekazując x, y, szerokość i wysokość
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Krok 4: Przytnij obraz PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Utwórz instancję klasy PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Krok 6: Zapisz przycięty obraz jako PNG
+## Krok 6: Zapisz przycięty obraz jako PNG.
 ```java
 // Podaj ścieżkę wyjściową i opcje PngOptions, aby przekonwertować plik PSD na format PNG i zapisać wynik
 String destName = dataDir + "export.png";

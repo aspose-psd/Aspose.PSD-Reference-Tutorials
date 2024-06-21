@@ -86,8 +86,8 @@ A1: Ja, Aspose.PSD is compatibel met de nieuwste .NET-frameworks.
 
 ### V4: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD?
 
- A4: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A4: U kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### Vraag 5: Kan ik Aspose.PSD gratis uitproberen voordat ik een aankoop doe?
 
-A5: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
+A5: Ja, u kunt een gratis proefperiode uitproberen.[hier](https://releases.aspose.com/).

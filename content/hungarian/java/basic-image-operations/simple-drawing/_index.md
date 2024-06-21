@@ -116,7 +116,7 @@ Gratulálunk! Sikeresen hajtott végre egyszerű rajzolást az Aspose.PSD for Ja
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan vásárolhatok licencet az Aspose.PSD for Java számára?
 

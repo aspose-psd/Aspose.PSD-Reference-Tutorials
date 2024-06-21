@@ -41,7 +41,7 @@ Java で画像をシームレスにマージします[Aspose.PSD](./combine-imag
 
 ## Aspose.PSD for Java でラスター イメージのディザリングを実装する
 
-Aspose.PSD for Java を実装して画質を向上させる[ディザリング](./implement-dithering/)カラーバンディングを解消します。ステップバイステップのガイドに従って、ディザリングの力を解き放ち、完璧な画像結果を達成してください。
+Aspose.PSD for Java を実装して画質を向上させる[ディザリング](./implement-dithering/)カラーバンディングを除去します。ステップバイステップのガイドに従って、ディザリングの力を解き放ち、完璧な画像結果を達成してください。
 
 ## Aspose.PSD for Java を使用した画像の拡張とトリミング
 

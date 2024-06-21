@@ -84,15 +84,15 @@ Gratulujeme! Úspěšně jste vytvořili eliptické tvary pomocí Aspose.PSD pro
 
 ### Q1: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A1: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
+ A1: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak stáhnu Aspose.PSD pro .NET?
 
- A2: Můžete si jej stáhnout ze stránky vydání[tady](https://releases.aspose.com/psd/net/).
+ A2: Můžete si jej stáhnout ze stránky vydání.[tady](https://releases.aspose.com/psd/net/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -100,4 +100,4 @@ Gratulujeme! Úspěšně jste vytvořili eliptické tvary pomocí Aspose.PSD pro
 
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
- A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

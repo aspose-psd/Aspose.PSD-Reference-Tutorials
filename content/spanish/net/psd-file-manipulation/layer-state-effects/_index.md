@@ -73,11 +73,11 @@ psdImage.Save(outputFile);
 
 ### R3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo obtengo una licencia temporal?
 
- A4: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R4: Obtenga una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P5: ¿Necesita ayuda o tiene preguntas?
 

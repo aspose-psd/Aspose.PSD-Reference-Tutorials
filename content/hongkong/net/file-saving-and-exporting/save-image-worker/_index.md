@@ -88,15 +88,15 @@ finally
 
 ### Q1：我可以使用SaveImageWorker進行批次處理嗎？
 
- A1：是的，您可以實例化多個實例`SaveImageWorker`用於並發批次。
+ A1：是的，您可以實例化多個實例`SaveImageWorker`用於並發批次處理。
 
 ### 問題 2：在哪裡可以找到 Aspose.PSD for .NET 的綜合文件？
 
-A2：文檔可用[這裡](https://reference.aspose.com/psd/net/).
+A2：文檔可用。[這裡](https://reference.aspose.com/psd/net/).
 
 ### Q3：Aspose.PSD for .NET 有沒有免費試用版？
 
- A3：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
+ A3: 是的，您可以獲得免費試用。[這裡](https://releases.aspose.com/).
 
 ### 問題 4：如何獲得 Aspose.PSD for .NET 支援？
 
@@ -104,4 +104,4 @@ A2：文檔可用[這裡](https://reference.aspose.com/psd/net/).
 
 ### Q5：我可以購買 Aspose.PSD for .NET 的臨時授權嗎？
 
- A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+ A5: 是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).

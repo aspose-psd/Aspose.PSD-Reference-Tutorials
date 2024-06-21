@@ -110,7 +110,7 @@ Gratulálunk! Sikeresen megvalósította az ObAr és UnFl aláírások támogat�
 
 ### 3. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
- 3. válasz: Igen, felfedezhet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezhet egy ingyenes próbaverziót.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 

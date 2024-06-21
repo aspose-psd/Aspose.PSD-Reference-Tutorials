@@ -27,7 +27,7 @@ import java.io.FileNotFoundException;
 ## 1. lépés: Állítsa be környezetét
  Győződjön meg arról, hogy a Java és az Aspose.PSD for Java telepítve van a rendszerére. Ha nem, nézze meg a[dokumentáció](https://reference.aspose.com/psd/java/) telepítési utasításokért.
 ## 2. lépés: Importálja az Aspose.PSD könyvtárat
-Java-projektjébe vegye fel az Aspose.PSD könyvtárat úgy, hogy hozzáadja a projekt függőségeihez. Letöltheti a könyvtárat[itt](https://releases.aspose.com/psd/java/).
+ Java-projektjébe vegye fel az Aspose.PSD könyvtárat úgy, hogy hozzáadja a projekt függőségeihez. Letöltheti a könyvtárat[itt](https://releases.aspose.com/psd/java/).
 ## 3. lépés: Hozzon létre egy PSD-képobjektumot
 Töltse be a PSD képfájlt a Java alkalmazásba a mellékelt kód segítségével. Cserélje ki a "Saját dokumentumkönyvtár" és a "sample.psd" kifejezést a megfelelő elérési útra.
 ```java
@@ -60,7 +60,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan konvertálhat GIF képrétegeket TIFF
  Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.PSD for Java számára?
  Bármilyen kérdés vagy probléma esetén keresse fel a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34).
-### Szükségem van ideiglenes licencre tesztelés céljából?
+### Szükségem van ideiglenes licencre teszteléshez?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hogyan maradhatok naprakész az Aspose.PSD dokumentációval?
  Lásd a dokumentációt[itt](https://reference.aspose.com/psd/java/) a legújabb frissítésekért és útmutatókért.

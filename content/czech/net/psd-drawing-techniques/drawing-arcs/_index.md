@@ -93,11 +93,11 @@ Gratulujeme! Úspěšně jste se naučili kreslit oblouky pomocí Aspose.PSD pro
 
 ### Q1: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A1: Dokumentaci lze nalézt[tady](https://reference.aspose.com/psd/net/).
+ A1: Dokumentaci lze nalézt.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak získám dočasnou licenci pro Aspose.PSD?
 
- A2: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A2: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Existuje komunitní fórum pro podporu Aspose.PSD?
 
@@ -105,8 +105,8 @@ Gratulujeme! Úspěšně jste se naučili kreslit oblouky pomocí Aspose.PSD pro
 
 ### Q4: Kde si mohu zakoupit licenci pro Aspose.PSD?
 
- A4: Můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
+ A4: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).
 
 ### Q5: Mohu si Aspose.PSD for .NET vyzkoušet zdarma před nákupem?
 
- A5: Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A5: Ano, můžete si stáhnout bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).

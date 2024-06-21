@@ -11,7 +11,7 @@ url: /ko/net/file-saving-and-exporting/save-images-to-stream/
 
 끊임없이 진화하는 .NET 개발 세계에서 Aspose.PSD는 이미지를 정확하고 효율적으로 처리하기 위한 강력한 도구로 돋보입니다. .NET용 Aspose.PSD를 사용하여 이미지를 스트림에 저장하려는 경우 올바른 위치에 있습니다. 이 튜토리얼에서는 프로세스를 따라하기 쉬운 단계로 나누어 프로세스를 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -86,7 +86,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### Q4: 임시 라이센스는 어떻게 얻을 수 있나요?
 
- A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+ A4: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
 
 ### Q5: Aspose.PSD는 어디서 구입할 수 있나요?
 

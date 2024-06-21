@@ -91,7 +91,7 @@ A3：Aspose.PSD 提供了廣泛的效果，但建議檢查文件以了解支援�
 
 ### Q4：如何取得用於測試目的的臨時許可證？
 
- A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估。
+ A4：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估。
 
 ### Q5：我可以在哪裡找到更多支持和社區討論？
 

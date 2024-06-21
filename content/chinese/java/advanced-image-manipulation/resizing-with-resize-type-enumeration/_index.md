@@ -61,9 +61,9 @@ String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-现在你就拥有了！您已使用 Aspose.PSD for Java 中的调整大小类型枚举成功调整了图像大小。
+现在你就得到了它！您已使用 Aspose.PSD for Java 中的调整大小类型枚举成功调整了图像大小。
 
-总之，Aspose.PSD for Java 为图像处理提供了一个强大的平台，并且调整大小类型枚举为该过程增加了一层灵活性。无论您正在处理小型项目还是大型应用程序，掌握这些步骤都将使您能够无缝地处理图像大小调整。
+总之，Aspose.PSD for Java 为图像操作提供了一个强大的平台，并且调整大小类型枚举为该过程增加了一层灵活性。无论您正在处理小型项目还是大型应用程序，掌握这些步骤都将使您能够无缝地处理图像大小调整。
 
 ## 常见问题解答
 
@@ -81,7 +81,7 @@ A2：是的，Aspose.PSD for Java 提供了各种调整大小类型，例如最�
 
 ### Q4：Aspose.PSD for Java 有免费试用版吗？
 
- A4：是的，您可以访问免费试用版[这里](https://releases.aspose.com/).
+ A4：是的，您可以访问免费试用版。[这里](https://releases.aspose.com/).
 
 ### Q5: 如何获得 Aspose.PSD for Java 的临时许可证？
 

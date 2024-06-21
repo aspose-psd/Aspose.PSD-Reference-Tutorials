@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 使用指定路径将裁剪后的图像保存为 PSD 格式。
 
-## 第5步：将裁剪后的图像另存为PNG
+## 第5步：将裁剪后的图像另存为PNG。
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -105,4 +105,4 @@ A2：是的，Aspose.PSD for Java 针对性能进行了优化，使其适合大�
 
 ### Q5: 我可以在购买前试用 Aspose.PSD for Java 吗？
 
- A5：是的，可以通过免费试用来探索功能[这里](https://releases.aspose.com/).
+ A5：是的，可以通过免费试用来探索这些功能。[这里](https://releases.aspose.com/).

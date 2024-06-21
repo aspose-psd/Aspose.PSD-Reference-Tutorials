@@ -15,7 +15,7 @@ Aspose.PSD pour .NET est une bibliothèque polyvalente qui permet aux développe
 
 ## Conditions préalables
 
-Avant de nous lancer dans cette aventure, assurez-vous d’avoir les conditions préalables suivantes en place :
+Avant de nous lancer dans ce voyage, assurez-vous d’avoir les conditions préalables suivantes en place :
 
 -  Aspose.PSD pour la bibliothèque .NET : téléchargez et installez la bibliothèque à partir du[page de téléchargement](https://releases.aspose.com/psd/net/).
 - Répertoire de documents : configurez un répertoire pour stocker vos fichiers source et de sortie.

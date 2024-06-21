@@ -11,11 +11,11 @@ url: /cs/net/psd-file-resources/supporting-working-path-resource/
 Pokud jste vývojář .NET pracující se zpracováním obrazu, Aspose.PSD pro .NET je vaším řešením. V tomto tutoriálu se ponoříme hluboko do využití síly zdroje 'WorkingPathResource' v Aspose.PSD. Tato klíčová funkce zvyšuje přesnost operace oříznutí a zajišťuje, že vaše snímky budou přizpůsobeny přesně podle potřeby.
 ## Předpoklady
 Než se vydáme na tuto cestu, ujistěte se, že máte následující:
-- Základní znalost vývoje v C# a .NET.
--  Nainstalovaná knihovna Aspose.PSD for .NET. Pokud ne, stáhněte si ji[tady](https://releases.aspose.com/psd/net/).
+- Základní znalost vývoje C# a .NET.
+-  Nainstalovaná knihovna Aspose.PSD for .NET. Pokud ne, stáhněte si jej[tady](https://releases.aspose.com/psd/net/).
 - Pracovní prostředí nastavené s vámi preferovaným IDE.
 ## Importovat jmenné prostory
-Ujistěte se, že ve svém projektu importujete potřebné jmenné prostory pro Aspose.PSD:
+Ve svém projektu se ujistěte, že importujete potřebné jmenné prostory pro Aspose.PSD:
 ```csharp
 using System;
 using System.IO;
@@ -79,7 +79,7 @@ Gratulujeme! Úspěšně jste zvládli použití 'WorkingPathResource' v Aspose.
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -87,4 +87,4 @@ Gratulujeme! Úspěšně jste zvládli použití 'WorkingPathResource' v Aspose.
 
 ### Q5: Potřebujete dočasnou licenci?
 
- A5: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

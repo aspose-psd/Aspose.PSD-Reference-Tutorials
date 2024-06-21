@@ -11,7 +11,7 @@ url: /ko/net/file-saving-and-exporting/save-image-worker/
 
  .NET 개발 영역에서 Aspose.PSD는 이미지 작업을 위한 강력한 도구 키트를 제공합니다. 한 가지 중요한 측면은`SaveImageWorker` 클래스는 이미지를 한 형식에서 다른 형식으로 변환하는 데 중요한 역할을 합니다. 이 튜토리얼에서는 작업 과정을 안내합니다.`SaveImageWorker` .NET용 Aspose.PSD에서 명확성과 구현 용이성을 위해 각 단계를 세분화합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

@@ -101,7 +101,7 @@ A3：もちろんです！ Aspose.PSD for .NET は、.NET 環境での画像処�
 
 ### Q4: Aspose.PSD for .NET のコミュニティ サポートはどこで見つけられますか?
 
- A4: Aspose.PSD コミュニティに参加してください。[このフォーラム](https://forum.aspose.com/c/psd/34)ディスカッションとサポートのために。
+ A4: Aspose.PSD コミュニティに参加してください。[このフォーラム](https://forum.aspose.com/c/psd/34)議論とサポートのために。
 
 ### Q5: Aspose.PSD for .NET を学習するための無料のリソースはありますか?
 

@@ -96,7 +96,7 @@ C2: Evet, Aspose.PSD for .NET, gölge efektlerinin ince ayarı için çeşitli �
 
 ### S3: Aspose.PSD for .NET için nasıl geçici lisans alabilirim?
 
- Cevap3: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap3: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S4: Aspose.PSD for .NET, .NET Core ile uyumlu mu?
 

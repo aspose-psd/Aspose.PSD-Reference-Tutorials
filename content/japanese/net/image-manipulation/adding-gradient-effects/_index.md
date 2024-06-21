@@ -9,7 +9,7 @@ url: /ja/net/image-manipulation/adding-gradient-effects/
 ---
 ## 導入
 
-グラデーション効果で画像を強化すると、ビジュアル コンテンツに魅力的な次元を加えることができます。 Aspose.PSD for .NET は、画像にグラデーション オーバーレイを組み込むための強力なプラットフォームを提供します。このチュートリアルでは、Aspose.PSD for .NET を使用してグラデーション効果を追加するプロセスを説明します。
+グラデーション効果で画像を強化すると、ビジュアル コンテンツに魅力的な次元を加えることができます。 Aspose.PSD for .NET は、グラデーション オーバーレイを画像に統合するための強力なプラットフォームを提供します。このチュートリアルでは、Aspose.PSD for .NET を使用してグラデーション効果を追加するプロセスを説明します。
 
 ## 前提条件
 
@@ -57,7 +57,7 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
 {
     var gradientOverlay = (GradientOverlayEffect)im.Layers[1].BlendingOptions.Effects[0];
 
-    //初期設定のアサーション チェック
+    //初期設定のアサーションチェック
     //...
 
     //カラーポイント
@@ -139,7 +139,7 @@ A2: Aspose.PSD for .NET は、PSD、PNG、JPEG、BMP、GIF などのさまざま
 
 ### Q3: Aspose.PSD for .NET の試用版はありますか?
 
- A3: はい、次から無料試用版をダウンロードすることで、Aspose.PSD for .NET の機能を調べることができます。[ここ](https://releases.aspose.com/).
+A3: はい、次から無料試用版をダウンロードすることで、Aspose.PSD for .NET の機能を調べることができます。[ここ](https://releases.aspose.com/).
 
 ### Q4: Aspose.PSD for .NET のサポートを受けるにはどうすればよいですか?
 

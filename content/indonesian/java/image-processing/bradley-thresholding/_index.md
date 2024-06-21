@@ -1,7 +1,7 @@
 ---
 title: Bradley Thresholding di Aspose.PSD untuk Java
 linktitle: Ambang Batas Bradley
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Tingkatkan kualitas gambar dengan Bradley Thresholding di Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk binerisasi gambar yang efektif.
 type: docs
 weight: 16

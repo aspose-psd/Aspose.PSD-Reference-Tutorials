@@ -81,7 +81,7 @@ image.SaveArgb32Pixels(new Rectangle(0, 0, 100, 10), pixels);
 Uložte upravený obrázek do souboru ve formátu BMP:
 
 ```csharp
-// export obrázku do formátu souboru bmp.
+// export obrázku do formátu bmp.
 image.Save(outpath, new BmpOptions());
 ```
 
@@ -93,11 +93,11 @@ Gratulujeme! Zvládli jste základní rysy kreslení Aspose.PSD pro .NET. Tento 
 
 ### Q1: Kde najdu dokumentaci Aspose.PSD pro .NET?
 
- A1: Máte přístup k dokumentaci[tady](https://reference.aspose.com/psd/net/).
+ A1: Máte přístup k dokumentaci.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak stáhnu Aspose.PSD pro .NET?
 
- A2: Stáhněte si nejnovější verzi[tady](https://releases.aspose.com/psd/net/).
+ A2: Stáhněte si nejnovější verzi.[tady](https://releases.aspose.com/psd/net/).
 
 ### Q3: Kde mohu koupit Aspose.PSD pro .NET?
 
@@ -105,7 +105,7 @@ Gratulujeme! Zvládli jste základní rysy kreslení Aspose.PSD pro .NET. Tento 
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Kde mohu získat podporu pro Aspose.PSD pro .NET?
 

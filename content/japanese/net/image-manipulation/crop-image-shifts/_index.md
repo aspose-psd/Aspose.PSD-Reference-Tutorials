@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## ステップ 4: クロップ用のシフト値を定義する
 
-画像の左右上下のシフト値を指定します。トリミング要件に基づいてこれらの値を調整します。
+画像の左右上下のシフト値を指定します。トリミングの要件に基づいてこれらの値を調整します。
 
 ```csharp
 int leftShift = 10;

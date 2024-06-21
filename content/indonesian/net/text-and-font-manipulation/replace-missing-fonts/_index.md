@@ -70,7 +70,7 @@ A1: Ya, Aspose.PSD memungkinkan Anda mengganti font secara selektif per lapisan.
 
 ### Q4: Apakah lisensi sementara tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.PSD?
 

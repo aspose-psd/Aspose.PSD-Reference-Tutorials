@@ -11,7 +11,7 @@ url: /ko/net/image-processing/binarization-techniques/
 
 이미지 처리 세계에서 컬러 이미지를 이진 이미지로 변환하는 능력은 중요한 단계입니다. 이진화는 복잡한 이미지를 흑백 픽셀로 줄여 단순화함으로써 정보를 더 쉽게 분석하고 추출하는 데 도움이 됩니다. .NET용 Aspose.PSD는 강력한 이진화 기술을 포함하여 이미지 조작을 위한 강력한 도구를 제공합니다. 이 자습서에서는 BinarizationWithFixedThreshold 메서드를 살펴보고 .NET용 Aspose.PSD를 사용하여 구현하는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

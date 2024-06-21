@@ -100,7 +100,7 @@ A1: はい、Aspose.PSD for Java はさまざまな Java フレームワーク�
 
 ### Q4: Aspose.PSD for Java の一時ライセンスを取得するにはどうすればよいですか?
 
- A4: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A4: 仮免許を取得することができます。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Aspose.PSD for Java でのトリミングでサポートされている画像形式は何ですか?
 

@@ -61,7 +61,7 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk a betűtípusok cseréjének folyamatát az Aspose.PSD for Java-ban. A lépésenkénti útmutató követésével zökkenőmentesen integrálhatja a betűtípuscsere funkciót Java-alkalmazásaiba.
+Ebben az oktatóanyagban az Aspose.PSD for Java betűtípusok cseréjének folyamatát ismertettük. A lépésenkénti útmutató követésével zökkenőmentesen integrálhatja a betűtípuscsere funkciót Java-alkalmazásaiba.
 
 ## GYIK
 
@@ -75,7 +75,7 @@ Ebben az oktatóanyagban bemutattuk a betűtípusok cseréjének folyamatát az 
 
 ### 3. kérdés: Vannak-e licenckövetelmények az Aspose.PSD használatához?
 
- A3: Igen, lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+ A3: Igen, lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
 
 ### 4. kérdés: Kaphatok ideiglenes licenceket tesztelési célokra?
 

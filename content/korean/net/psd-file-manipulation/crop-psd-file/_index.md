@@ -9,7 +9,7 @@ url: /ko/net/psd-file-manipulation/crop-psd-file/
 ---
 ## 소개
 .NET 개발 영역에서 Aspose.PSD는 PSD(Photoshop Document) 파일을 원활하게 처리하기 위한 강력한 툴킷으로 돋보입니다. 이미지를 조작할 때 자르기는 기본적인 작업이며 Aspose.PSD는 .NET 개발자를 위해 이 프로세스를 단순화합니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 PSD 파일을 자르는 방법을 살펴보고 단계별 가이드를 제공합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.PSD: 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[.NET 문서용 Aspose.PSD](https://reference.aspose.com/psd/net/).
 - 개발 환경: Visual Studio 또는 선호하는 IDE를 포함하여 .NET 개발 환경을 설정합니다.

@@ -110,7 +110,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### Q3: क्या मैं खरीदने से पहले Aspose.PSD आज़मा सकता हूँ?
 
- उ3: हां, आप नि:शुल्क परीक्षण संस्करण तलाश सकते हैं[यहाँ](https://releases.aspose.com/).
+ उ3: हां, आप नि:शुल्क परीक्षण संस्करण तलाश सकते हैं।[यहाँ](https://releases.aspose.com/).
 
 ### Q4: मैं Aspose.PSD के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 

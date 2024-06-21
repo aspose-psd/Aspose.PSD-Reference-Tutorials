@@ -105,7 +105,7 @@ A3：Aspose.PSD for .NET 旨在处理各种尺寸的图像。但是，在处理�
 
 ### Q4：Aspose.PSD for .NET 有试用版吗？
 
- A4：是的，您可以通过免费试用来探索该库的功能[这里](https://releases.aspose.com/).
+ A4：是的，您可以通过免费试用来探索该库的功能。[这里](https://releases.aspose.com/).
 
 ### 问题 5：我在哪里可以找到额外的支持或帮助？
 

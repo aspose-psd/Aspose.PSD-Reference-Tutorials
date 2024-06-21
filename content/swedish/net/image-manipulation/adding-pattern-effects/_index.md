@@ -21,7 +21,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-I ditt C#-projekt, importera de nödvändiga namnrymden för att utnyttja funktionerna i Aspose.PSD för .NET:
+ditt C#-projekt, importera de nödvändiga namnrymden för att utnyttja funktionerna i Aspose.PSD för .NET:
 
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
@@ -75,7 +75,7 @@ catch (Exception e)
 
 ## Steg 4: Städa upp
 
-Ta bort de temporära filer som skapades under processen.
+Ta bort de temporära filerna som skapades under processen.
 
 ```csharp
 File.Delete(exportPath);

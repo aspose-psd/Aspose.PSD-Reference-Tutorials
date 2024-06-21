@@ -33,7 +33,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 ```
 
-## ขั้นตอนที่ 2: โหลดรูปภาพ
+## ขั้นตอนที่ 2: โหลดภาพ
 
 โหลดรูปภาพที่มีอยู่ลงในอินสแตนซ์ของคลาส RasterImage:
 

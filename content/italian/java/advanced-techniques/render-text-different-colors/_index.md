@@ -97,7 +97,7 @@ A1: Aspose.PSD è progettato principalmente per Java, ma Aspose fornisce libreri
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD per Java?
 
- A4: Puoi richiedere una licenza temporanea da[Aspose.PSD](https://purchase.aspose.com/temporary-license/).
+ R4: Puoi richiedere una licenza temporanea da[Aspose.PSD](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Sono disponibili altri tutorial per Aspose.PSD?
 

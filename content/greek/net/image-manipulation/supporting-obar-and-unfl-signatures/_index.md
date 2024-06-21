@@ -110,7 +110,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### Ε3: Μπορώ να δοκιμάσω το Aspose.PSD πριν από την αγορά;
 
- A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση.[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;
 

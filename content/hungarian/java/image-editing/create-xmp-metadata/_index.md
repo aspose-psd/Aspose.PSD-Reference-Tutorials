@@ -9,13 +9,13 @@ url: /hu/java/image-editing/create-xmp-metadata/
 ---
 ## Bevezetés
 
-A Java fejlesztés területén a kép metaadatok kezelése és manipulálása kulcsfontosságú a különböző alkalmazások számára. Az Aspose.PSD for Java a PSD-fájlok kezelésének hatékony eszköze, és ebben az oktatóanyagban az XMP-metaadatok létrehozásával foglalkozunk ezzel a robusztus könyvtárral.
+A Java fejlesztés területén a képek metaadatainak kezelése és manipulálása kulcsfontosságú a különböző alkalmazások számára. Az Aspose.PSD for Java a PSD-fájlok kezelésének hatékony eszköze, és ebben az oktatóanyagban az XMP-metaadatok létrehozásával foglalkozunk ezzel a robusztus könyvtárral.
 
 ## Előfeltételek
 
-Mielőtt elkezdené ezt az oktatóanyagot, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdené ezt az oktatóanyagot, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 
-- Java fejlesztői környezet: A Java telepítve legyen a rendszerére, és ismerje a Java programozás alapvető ismereteit.
+- Java fejlesztői környezet: rendelkezzen Java-val a rendszeren, és ismerje meg a Java programozást.
 -  Aspose.PSD Library: Töltse le és állítsa be az Aspose.PSD könyvtárat Java számára. Megtalálható a könyvtár és a részletes dokumentáció[itt](https://reference.aspose.com/psd/java/).
 - Saját dokumentumkönyvtár: Határozza meg a könyvtárat, ahol a dokumentumfájlokat tárolja.
 
@@ -69,7 +69,7 @@ XmpTrailerPi xmpTrailer = new XmpTrailerPi(true);
 ## 5. lépés: Hozzon létre XMP metaadatokat
 
 ```java
-// Hozzon létre egy XMPmeta osztály példányt a különböző attribútumok beállításához
+// Hozzon létre egy példányt az XMPmeta osztályból különböző attribútumok beállításához
 XmpMeta xmpMeta = new XmpMeta();
 xmpMeta.addAttribute("Author", "Mr Smith");
 xmpMeta.addAttribute("Description", "The fake metadata value");
@@ -150,7 +150,7 @@ Gratulálunk! Sikeresen létrehozta az XMP metaadatokat egy képhez az Aspose.PS
 
 ### 4. kérdés: Elérhető az Aspose.PSD próbaverziója?
 
- 4. válasz: Igen, felfedezheti az Aspose.PSD képességeit egy ingyenes próbaverzió megszerzésével[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, az Aspose.PSD képességeit ingyenes próbaverzió megszerzésével fedezheti fel.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol kérhetek támogatást az Aspose.PSD-vel kapcsolatos lekérdezésekhez?
 

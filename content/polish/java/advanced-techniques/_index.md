@@ -12,24 +12,24 @@ url: /pl/java/advanced-techniques/
 Czy jesteś gotowy, aby podnieść swoje umiejętności przetwarzania obrazów Java? Zanurz się w naszych kompleksowych samouczkach z Aspose.PSD dla Java, odblokowując królestwo zaawansowanych technik. Przyjrzyjmy się szczegółowo niektórym kluczowym samouczkom:
 
 ## Skala szarości obrazu przy użyciu Aspose.PSD dla Java
- Odkryj sztukę łatwego skalowania obrazów w skali szarości w Javie za pomocą Aspose.PSD. Nasz samouczek krok po kroku poprowadzi Cię przez proces, zapewniając bezproblemowe rezultaty.[Czytaj więcej](./grayscale-image/)
+Odkryj sztukę łatwego skalowania obrazów w skali szarości w Javie za pomocą Aspose.PSD. Nasz samouczek krok po kroku poprowadzi Cię przez proces, zapewniając bezproblemowe rezultaty.[Czytaj więcej](./grayscale-image/)
 
 ## Ładowanie obrazów ze strumienia za pomocą Aspose.PSD dla Java
  Poznaj zawiłości płynnego ładowania obrazów PSD w Javie przy użyciu Aspose.PSD. Nasz szczegółowy przewodnik gwarantuje sprawne przetwarzanie obrazu.[Czytaj więcej](./loading-images-from-stream/)
 
 ## Konwertuj PSD na formaty obrazów rastrowych za pomocą Aspose.PSD dla Java
-Bez wysiłku konwertuj pliki PSD na obrazy rastrowe za pomocą Aspose.PSD dla Java. Poznaj wszechstronne opcje eksportu i bezproblemową integrację dzięki naszym szczegółowym wskazówkom.[Czytaj więcej](./convert-psd-to-raster-formats/)
+ Bez wysiłku konwertuj pliki PSD na obrazy rastrowe za pomocą Aspose.PSD dla Java. Poznaj wszechstronne opcje eksportu i bezproblemową integrację dzięki naszym szczegółowym wskazówkom.[Czytaj więcej](./convert-psd-to-raster-formats/)
 
 Gotowy na więcej? Zapoznaj się z samouczkami dotyczącymi renderowania tekstu w różnych kolorach, wydajnego zapisywania obrazów przy użyciu wątków roboczych oraz obszernych przewodników na temat zarządzania czcionkami. Ulepsz swój projekt obrazu i rozwój Java dzięki Aspose.PSD.
 
 ## Renderuj tekst w różnych kolorach na warstwie tekstowej
- Naucz się sztuki renderowania tekstu w różnych kolorach w warstwie tekstowej PSD przy użyciu Aspose.PSD dla Java. Nasz przewodnik krok po kroku gwarantuje bezproblemowe rezultaty.[Czytaj więcej](./render-text-different-colors/)
+Naucz się sztuki renderowania tekstu w różnych kolorach w warstwie tekstowej PSD przy użyciu Aspose.PSD dla Java. Nasz przewodnik krok po kroku gwarantuje bezproblemowe rezultaty.[Czytaj więcej](./render-text-different-colors/)
 
 ## Zapisuj obrazy za pomocą wątków roboczych w Aspose.PSD dla Java
  Zagłęb się w wielowątkowe przetwarzanie obrazów w Javie za pomocą Aspose.PSD. Opanuj sztukę wydajnego zapisywania obrazów przy użyciu wątków roboczych.[Czytaj więcej](./save-images-worker-threads/)
 
 ## Ustawienia zastępowania brakujących czcionek w Aspose.PSD dla Java
-Zapoznaj się z obszernym przewodnikiem na temat zastępowania brakujących czcionek w Aspose.PSD dla Java. Ulepsz swój projekt obrazu dzięki płynnemu zarządzaniu czcionkami.[Czytaj więcej](./settings-replacing-missing-fonts/)
+ Zapoznaj się z obszernym przewodnikiem na temat zastępowania brakujących czcionek w Aspose.PSD dla Java. Ulepsz swój projekt obrazu dzięki płynnemu zarządzaniu czcionkami.[Czytaj więcej](./settings-replacing-missing-fonts/)
 
 Niezależnie od tego, czy chodzi o regulację jasności, kontrastu, gamma, rozmycie obrazów, czy dodawanie urzekających efektów w czasie wykonywania, nasze samouczki omówią to wszystko. Odblokuj potencjał Aspose.PSD dla Java i przenieś swoje umiejętności przetwarzania obrazu na nowy poziom.
 

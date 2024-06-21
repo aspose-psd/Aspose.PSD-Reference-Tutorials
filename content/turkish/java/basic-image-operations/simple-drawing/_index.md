@@ -87,7 +87,7 @@ graphic.drawRectangle(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
 ```java
 //ExStart:DrawBlueRectangle
 graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10, 30, 80, 40));
-//ExEnd:DrawBlueDikdörtgen
+//ExEnd:DrawBlueRectangle
 ```
 
 ## 4. Adım: Değişiklikleri Kaydedin
@@ -116,7 +116,7 @@ Cevap1: Evet, Aspose.PSD for Java, mevcut PSD dosyalarını düzenlemek ve deği
 
 ### S3: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- Cevap3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ Cevap3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for Java lisansını nasıl satın alabilirim?
 

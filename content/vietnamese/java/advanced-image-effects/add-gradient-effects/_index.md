@@ -125,7 +125,7 @@ Câu trả lời 2: Aspose.PSD cung cấp nhiều hiệu ứng khác nhau, bao g
 
 ### Câu hỏi 4: Có phiên bản dùng thử cho Aspose.PSD cho Java không?
 
- A4: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ A4: Có, bạn có thể dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.PSD cho Java ở đâu?
 

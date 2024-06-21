@@ -101,7 +101,7 @@ image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 
 ### Q1：我可以在我的商業專案中使用 Aspose.PSD for .NET 嗎？
 
- A1：是的，Aspose.PSD for .NET 可用於商業用途。查看[購買頁面](https://purchase.aspose.com/buy)了解許可詳細資訊。
+A1：是的，Aspose.PSD for .NET 可用於商業用途。查看[購買頁面](https://purchase.aspose.com/buy)了解許可詳細資訊。
 
 ### 問題 2：Aspose.PSD for .NET 是否有免費試用版？
 
@@ -109,12 +109,12 @@ A2：是的，您可以從[發布頁面](https://releases.aspose.com/).
 
 ### Q3：在哪裡可以找到 Aspose.PSD for .NET 的詳細文件？
 
-A3：提供全面的文檔[這裡](https://reference.aspose.com/psd/net/).
+A3：提供全面的文件。[這裡](https://reference.aspose.com/psd/net/).
 
 ### 問題 4：如何獲得 Aspose.PSD for .NET 支援？
 
  A4：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區的支持和幫助。
 
-### 問題 5：我需要 Aspose.PSD for .NET 的臨時授權嗎？
+### Q5：我需要 Aspose.PSD for .NET 的臨時授權嗎？
 
- A5：如果您需要臨時許可證，您可以獲得它[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：如果您需要臨時許可證，您可以獲得它。[這裡](https://purchase.aspose.com/temporary-license/).

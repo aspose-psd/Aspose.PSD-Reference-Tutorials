@@ -23,7 +23,7 @@ Mielőtt belevágna a megvalósításba, győződjön meg arról, hogy a követk
 
 ## Névterek importálása
 
-.NET-projektben először importálja az Aspose.PSD-vel való munkához szükséges névtereket:
+A .NET-projektben először importálja az Aspose.PSD-vel való munkához szükséges névtereket:
 
 ```csharp
 using Aspose.PSD.FileFormats.Tiff.Enums;
@@ -84,20 +84,20 @@ Gratulálunk! Sikeresen megvalósította a Gamma Adjustment funkciót az Aspose.
 
 ### 1. kérdés: Hol találom az Aspose.PSD dokumentációt?
 
- V1: Olvassa el a dokumentációt[itt](https://reference.aspose.com/psd/net/).
+ V1: Tekintse meg a dokumentációt[itt](https://reference.aspose.com/psd/net/).
 
 ### 2. kérdés: Hogyan tölthetem le az Aspose.PSD-t .NET-hez?
 
- 2. válasz: Letöltheti a könyvtárat[itt](https://releases.aspose.com/psd/net/).
+ 2. válasz: Letöltheti a könyvtárat.[itt](https://releases.aspose.com/psd/net/).
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+ V3: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol kaphatok támogatást az Aspose.PSD-hez?
 
- V4: Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/psd/34).
+ 4. válasz: Látogassa meg a támogatási fórumot.[itt](https://forum.aspose.com/c/psd/34).
 
 ### 5. kérdés: Szükségem van ideiglenes engedélyre?
 
- V5: Szükség esetén ideiglenes engedélyt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Szükség esetén ideiglenes engedélyt szerezhet.[itt](https://purchase.aspose.com/temporary-license/).

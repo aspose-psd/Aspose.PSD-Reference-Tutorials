@@ -88,16 +88,16 @@ Chúc mừng! Bạn đã triển khai thành công Điều chỉnh Gamma bằng 
 
 ### Câu hỏi 2: Làm cách nào để tải xuống Aspose.PSD cho .NET?
 
- A2: Bạn có thể tải xuống thư viện[đây](https://releases.aspose.com/psd/net/).
+ A2: Bạn có thể tải xuống thư viện.[đây](https://releases.aspose.com/psd/net/).
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Trả lời 3: Có, bạn có thể dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể nhận hỗ trợ cho Aspose.PSD ở đâu?
 
- A4: Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/psd/34).
+ A4: Bạn có thể truy cập diễn đàn hỗ trợ.[đây](https://forum.aspose.com/c/psd/34).
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời không?
 
- A5: Nếu được yêu cầu, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Nếu được yêu cầu, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

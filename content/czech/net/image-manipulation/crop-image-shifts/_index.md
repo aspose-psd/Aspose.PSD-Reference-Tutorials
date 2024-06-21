@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## Krok 4: Definujte hodnoty posunu pro oříznutí
 
-Zadejte hodnoty posunu pro levou, pravou, horní a spodní stranu obrazu. Upravte tyto hodnoty na základě vašich požadavků na oříznutí.
+Zadejte hodnoty posunu pro levou, pravou, horní a spodní stranu obrázku. Upravte tyto hodnoty na základě vašich požadavků na oříznutí.
 
 ```csharp
 int leftShift = 10;
@@ -96,7 +96,7 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků, což vám umo
 
 ### Q3: Jak získám dočasnou licenci pro Aspose.PSD pro .NET?
 
- A3: Můžete získat dočasnou licenci pro testovací účely[tady](https://purchase.aspose.com/temporary-license/).
+ A3: Můžete získat dočasnou licenci pro testovací účely.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Kde najdu další podporu a diskuse týkající se Aspose.PSD?
 

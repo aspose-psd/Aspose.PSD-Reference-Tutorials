@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## ステップ 5: 圧縮 GIF を保存する
+## ステップ 5: 圧縮 GIF を保存します。
 
 圧縮された GIF 画像を保存するには、`image.save`指定されたメソッド`GifOptions`.
 
@@ -85,7 +85,7 @@ A1:Aspose.PSD for Java は、Java アプリケーションで PSD ファイル�
 
 ### Q3: Java 用 Aspose.PSD のドキュメントはどこで見つけられますか?
 
-A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/java/).
+A3: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/java/).
 
 ### Q4: 無料トライアルはありますか?
 
@@ -93,4 +93,4 @@ A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com
 
 ### Q5: Java 用の Aspose.PSD を購入するにはどうすればよいですか?
 
- A5: ライブラリを購入できます。[ここ](https://purchase.aspose.com/buy).
+ A5: ライブラリを購入することができます。[ここ](https://purchase.aspose.com/buy).

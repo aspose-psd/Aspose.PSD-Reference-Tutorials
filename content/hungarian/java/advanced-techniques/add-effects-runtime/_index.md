@@ -2,7 +2,7 @@
 title: Adjon hozzá effektusokat futás közben az Aspose.PSD for Java segítségével
 linktitle: Adjon hozzá effektusokat futás közben
 second_title: Aspose.PSD Java API
-description: Fedezze fel az Aspose.PSD for Java zökkenőmentes integrációját, hogy dinamikusan lenyűgöző hatásokat adjon a képekhez. Emelje fel Java-fejlesztését ezzel az intuitív oktatóanyaggal.
+description: Fedezze fel az Aspose.PSD for Java zökkenőmentes integrációját, hogy dinamikusan lenyűgöző hatásokat adjon a képekhez. Emelje fel Java fejlesztését ezzel az intuitív oktatóanyaggal.
 type: docs
 weight: 20
 url: /hu/java/advanced-techniques/add-effects-runtime/
@@ -94,4 +94,4 @@ Az Aspose.PSD for Java leegyszerűsíti a dinamikus effektusok képeinek hozzáa
 
 ### 5. kérdés: Elérhető az Aspose.PSD for Java ingyenes próbaverziója?
 
- 5. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).

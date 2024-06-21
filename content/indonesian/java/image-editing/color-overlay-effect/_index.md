@@ -1,7 +1,7 @@
 ---
 title: Terapkan Efek Hamparan Warna di Aspose.PSD untuk Java
 linktitle: Terapkan Efek Hamparan Warna
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Temukan keajaiban Efek Hamparan Warna di Aspose.PSD untuk Java. Tingkatkan permainan pengeditan gambar Anda dengan panduan langkah demi langkah ini.
 type: docs
 weight: 10

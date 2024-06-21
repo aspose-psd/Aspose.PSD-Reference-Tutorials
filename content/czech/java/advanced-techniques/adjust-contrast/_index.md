@@ -94,11 +94,11 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků a poskytuje fl
 
 ### Q2: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A2: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A2: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Kde najdu dokumentaci Aspose.PSD?
 
-A3: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/java/).
+A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/java/).
 
 ### Q4: Jaké možnosti podpory jsou k dispozici pro Aspose.PSD?
 

@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Langkah 4: Terapkan Filter Gaussian Blur
+## Langkah 4: Terapkan Filter Gaussian Blur.
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Kesimpulan
 
-Selamat! Anda berhasil memburamkan gambar menggunakan Aspose.PSD untuk .NET. Tutorial ini memberikan gambaran sekilas tentang kemampuan Aspose.PSD dan membuka pintu ke berbagai kemungkinan manipulasi gambar di aplikasi .NET Anda.
+Selamat! Anda berhasil memburamkan gambar menggunakan Aspose.PSD untuk .NET. Tutorial ini memberikan gambaran sekilas tentang kemampuan Aspose.PSD dan membuka pintu ke banyak kemungkinan manipulasi gambar di aplikasi .NET Anda.
 
 ## FAQ
 

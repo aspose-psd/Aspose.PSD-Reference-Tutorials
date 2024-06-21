@@ -85,4 +85,4 @@ Câu trả lời 1: Có, Aspose.PSD cho Java được thiết kế để hoạt 
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
- Câu trả lời 5: Nếu bạn đang thử nghiệm thư viện, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Nếu bạn đang thử nghiệm thư viện, bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

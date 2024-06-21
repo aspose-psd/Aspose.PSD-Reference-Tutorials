@@ -27,7 +27,7 @@ import java.io.FileNotFoundException;
 ## 1. Adım: Ortamınızı Kurun
  Sisteminizde Java ve Aspose.PSD for Java'nın kurulu olduğundan emin olun. Değilse, bkz.[dokümantasyon](https://reference.aspose.com/psd/java/) Kurulum talimatları için.
 ## Adım 2: Aspose.PSD Kitaplığını İçe Aktarın
-Java projenizde Aspose.PSD kütüphanesini projenizin bağımlılıklarına ekleyerek dahil edin. Kütüphaneyi indirebilirsiniz[Burada](https://releases.aspose.com/psd/java/).
+ Java projenizde Aspose.PSD kütüphanesini projenizin bağımlılıklarına ekleyerek dahil edin. Kütüphaneyi indirebilirsiniz[Burada](https://releases.aspose.com/psd/java/).
 ## 3. Adım: PSD Görüntü Nesnesi Oluşturun
 Sağlanan kodu kullanarak PSD görüntü dosyasını Java uygulamanıza yükleyin. "Belge Dizininiz" ve "sample.psd"yi uygun yollarla değiştirin.
 ```java

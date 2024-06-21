@@ -51,7 +51,7 @@ Toutes nos félicitations! Vous avez exporté avec succès une image PSD au form
 
 ### Q1 : Aspose.PSD pour .NET est-il adapté à la gestion des PSD animés ?
 
-A1 : Oui, Aspose.PSD pour .NET prend en charge l'exportation de fichiers PSD animés vers divers formats, notamment GIF.
+A1 : Oui, Aspose.PSD pour .NET prend en charge l'exportation de fichiers PSD animés vers différents formats, notamment GIF.
 
 ### Q2 : Où puis-je trouver une documentation complète pour Aspose.PSD pour .NET ?
 

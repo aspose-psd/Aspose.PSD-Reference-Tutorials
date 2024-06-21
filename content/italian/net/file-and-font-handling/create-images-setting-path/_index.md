@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- Assicurati di avere la libreria Aspose.PSD installata nel tuo progetto. Puoi trovare la documentazione[Qui](https://reference.aspose.com/psd/net/).
+Assicurati di avere la libreria Aspose.PSD installata nel tuo progetto. Puoi trovare la documentazione[Qui](https://reference.aspose.com/psd/net/).
 
 ## Passaggio 1: definire la directory dei documenti
 
@@ -93,7 +93,7 @@ A2: Assolutamente! Aspose.PSD consente di eseguire l'elaborazione batch di immag
 
 ### Q4: È disponibile una prova gratuita?
 
- A4: Sì, puoi accedere a una prova gratuita di Aspose.PSD[Qui](https://releases.aspose.com/).
+ A4: Sì, puoi accedere a una prova gratuita di Aspose.PSD.[Qui](https://releases.aspose.com/).
 
 ### Q5: Come posso ottenere supporto o chiedere assistenza?
 

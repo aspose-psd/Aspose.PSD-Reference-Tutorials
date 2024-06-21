@@ -96,7 +96,7 @@ A2: Ναι, το Aspose.PSD για .NET προσφέρει διάφορες ιδ
 
 ### Ε3: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.PSD για .NET;
 
- A3: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A3: Μπορείτε να πάρετε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε4: Είναι το Aspose.PSD για .NET συμβατό με .NET Core;
 

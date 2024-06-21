@@ -86,8 +86,8 @@ Gratulálunk! Sikeresen megtanulta, hogyan ellenőrizheti a kép átlátszóság
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.PSD-t a vásárlás előtt?
 
-5. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+5. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).

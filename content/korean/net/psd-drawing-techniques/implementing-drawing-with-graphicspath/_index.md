@@ -11,11 +11,11 @@ url: /ko/net/psd-drawing-techniques/implementing-drawing-with-graphicspath/
 
 .NET용 Aspose.PSD에서 GraphicsPath를 사용하여 그리기를 구현하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. .NET용 Aspose.PSD는 개발자가 .NET 애플리케이션에서 Photoshop 파일로 작업할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 GraphicsPath를 사용하여 그리는 프로세스에 중점을 두고 관련 단계에 대한 포괄적인 이해를 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
--  .NET 라이브러리용 Aspose.PSD: .NET 라이브러리용 Aspose.PSD가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose 웹 사이트](https://releases.aspose.com/psd/net/).
+-  .NET 라이브러리용 Aspose.PSD: .NET 라이브러리용 Aspose.PSD가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/psd/net/).
 
 - 개발 환경: Visual Studio 또는 기타 호환 가능한 IDE를 사용하여 .NET 개발 환경을 설정합니다.
 

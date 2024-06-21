@@ -129,7 +129,7 @@ A1: Aspose.PSD voor Java is ontworpen om zelfstandig te werken, maar u kunt het 
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor Java?
 
@@ -137,4 +137,4 @@ A1: Aspose.PSD voor Java is ontworpen om zelfstandig te werken, maar u kunt het 
 
 ### V5: Kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor Java?
 
-A5: Ja, u kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+A5: Ja, u kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/).

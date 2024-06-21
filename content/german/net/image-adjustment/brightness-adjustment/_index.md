@@ -74,13 +74,13 @@ Nachdem wir das Beispiel nun in überschaubare Schritte unterteilt haben, könne
 
 ## Abschluss
 
-Aspose.PSD für .NET vereinfacht die Implementierung von Helligkeitsanpassungen in PSD-Dateien. Indem Sie die oben bereitgestellte Schritt-für-Schritt-Anleitung befolgen, können Sie die visuelle Attraktivität Ihrer Bilder mühelos verbessern. Experimentieren Sie mit verschiedenen Helligkeitswerten, um die gewünschten Ergebnisse zu erzielen.
+Aspose.PSD für .NET vereinfacht die Implementierung von Helligkeitsanpassungen in PSD-Dateien. Indem Sie die oben bereitgestellte Schritt-für-Schritt-Anleitung befolgen, können Sie die visuelle Attraktivität Ihrer Bilder mühelos verbessern. Experimentieren Sie mit unterschiedlichen Helligkeitswerten, um die gewünschten Ergebnisse zu erzielen.
 
 ## FAQs
 
 ### F1: Wo finde ich die Dokumentation für Aspose.PSD für .NET?
 
- A1: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/psd/net/).
+ A1: Die Dokumentation ist verfügbar.[Hier](https://reference.aspose.com/psd/net/).
 
 ### F2: Wie kann ich die Aspose.PSD für .NET-Bibliothek herunterladen?
 
@@ -88,7 +88,7 @@ Aspose.PSD für .NET vereinfacht die Implementierung von Helligkeitsanpassungen 
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.PSD für .NET?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F4: Wo erhalte ich Unterstützung für Aspose.PSD für .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD für .NET vereinfacht die Implementierung von Helligkeitsanpassungen 
 
 ### F5: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD für .NET?
 
- A5: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Sie können eine temporäre Lizenz erwerben.[Hier](https://purchase.aspose.com/temporary-license/).

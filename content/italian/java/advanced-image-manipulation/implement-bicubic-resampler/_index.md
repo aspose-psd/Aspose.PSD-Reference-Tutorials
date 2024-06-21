@@ -86,7 +86,7 @@ A1: Sì, Aspose.PSD per Java supporta vari formati di immagine, inclusi PSD, PNG
 
 ### Q4: Posso scaricare la libreria Aspose.PSD per Java?
 
- R4: Sì, scarica la libreria dalla pagina delle versioni[Qui](https://releases.aspose.com/psd/java/).
+ R4: Sì, scarica la libreria dalla pagina delle versioni.[Qui](https://releases.aspose.com/psd/java/).
 
 ### Q5: Come posso acquistare Aspose.PSD per Java?
 

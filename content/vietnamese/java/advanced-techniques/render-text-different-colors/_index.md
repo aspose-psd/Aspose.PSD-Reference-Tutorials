@@ -79,7 +79,7 @@ finally
 
 ## Phần kết luận
 
-Chúc mừng! Bạn đã hiển thị thành công văn bản với các màu khác nhau trong một lớp văn bản bằng Aspose.PSD cho Java. Hướng dẫn này cung cấp cho bạn nền tảng để thao tác văn bản trong tệp PSD, mở ra khả năng tạo hình ảnh sáng tạo và năng động.
+Chúc mừng! Bạn đã hiển thị thành công văn bản với các màu khác nhau trong một lớp văn bản bằng Aspose.PSD cho Java. Hướng dẫn này cung cấp cho bạn nền tảng để thao tác văn bản trong các tệp PSD, mở ra khả năng tạo hình ảnh sáng tạo và năng động.
 
 ## Câu hỏi thường gặp
 

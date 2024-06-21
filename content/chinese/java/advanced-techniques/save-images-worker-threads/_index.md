@@ -106,11 +106,11 @@ A1：是的，Aspose.PSD for Java 提供了对多线程的支持，允许您增�
 
 ### Q2：在哪里可以找到 Aspose.PSD for Java 的详细文档？
 
- A2：可以参考文档[这里](https://reference.aspose.com/psd/java/)有关 Aspose.PSD for Java 的全面信息。
+ A2：您可以参考文档。[这里](https://reference.aspose.com/psd/java/)有关 Aspose.PSD for Java 的全面信息。
 
 ### Q3：如何获得 Aspose.PSD for Java 的临时许可证？
 
- A3：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)探索 Aspose.PSD for Java 的全部功能。
+ A3：您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)探索 Aspose.PSD for Java 的全部功能。
 
 ### 问题 4：Aspose.PSD for Java 有哪些支持选项？
 

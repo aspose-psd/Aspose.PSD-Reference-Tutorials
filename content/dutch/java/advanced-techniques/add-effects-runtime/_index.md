@@ -94,4 +94,4 @@ A2: Ja, Aspose.PSD ondersteunt een breed scala aan afbeeldingsformaten, waaronde
 
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A5: Ja, u kunt de gratis proefversie verkennen[hier](https://releases.aspose.com/).
+ A5: Ja, u kunt de gratis proefversie verkennen.[hier](https://releases.aspose.com/).

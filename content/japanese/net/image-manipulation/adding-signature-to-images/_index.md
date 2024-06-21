@@ -102,4 +102,4 @@ A3: try-catch ブロックを実装すると、例外を適切に処理できま
 
 ### Q5: 購入する前に Aspose.PSD を試してみることはできますか?
 
- A5: 確かに無料トライアルは可能です[ここ](https://releases.aspose.com/).
+ A5: もちろん、無料お試しは可能です。[ここ](https://releases.aspose.com/).

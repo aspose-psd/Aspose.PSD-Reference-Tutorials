@@ -9,7 +9,7 @@ url: /pl/net/image-manipulation/adding-gradient-effects/
 ---
 ## Wstęp
 
-Uszlachetnianie obrazów efektami gradientu może dodać urzekającego wymiaru treści wizualnych. Aspose.PSD dla .NET zapewnia potężną platformę do włączania nakładek gradientowych do obrazów. W tym samouczku przeprowadzimy Cię przez proces dodawania efektów gradientu przy użyciu Aspose.PSD dla .NET.
+Uszlachetnianie obrazów efektami gradientu może dodać urzekającego wymiaru treści wizualnych. Aspose.PSD dla .NET zapewnia potężną platformę do integracji nakładek gradientowych z obrazami. W tym samouczku przeprowadzimy Cię przez proces dodawania efektów gradientu przy użyciu Aspose.PSD dla .NET.
 
 ## Warunki wstępne
 
@@ -139,7 +139,7 @@ O2: Aspose.PSD dla .NET obsługuje różne formaty plików graficznych, w tym PS
 
 ### P3: Czy dostępna jest wersja próbna Aspose.PSD dla .NET?
 
- O3: Tak, możesz poznać możliwości Aspose.PSD dla .NET, pobierając bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+O3: Tak, możesz poznać możliwości Aspose.PSD dla .NET, pobierając bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 

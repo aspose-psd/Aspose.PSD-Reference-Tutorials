@@ -88,7 +88,7 @@ A2: Obwohl dies möglich ist, wird empfohlen, Schriftarten-Cache-Dateien zu entf
 
 ### F4: Gibt es eine temporäre Lizenz für Aspose.PSD für .NET?
 
- A4: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
+ A4: Ja, Sie können eine temporäre Lizenz erhalten.[Hier](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
 
 ### F5: Kann ich Aspose.PSD für .NET kaufen?
 

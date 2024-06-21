@@ -43,7 +43,7 @@ String dataDir = "Your Document Directory";
 
  Değiştirildiğinden emin olun`"Your Document Directory"` belge dizininizin gerçek yolu ile.
 
-## Adım 2: Çıktı Dosyası Adını Belirtin
+## Adım 2: Çıktı Dosyası Adını Belirleyin
 
 ```java
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Bir örneğini oluşturun`Image` çağırarak`create` yapılandırılmış olanı geçerek yöntem`BmpOptions` ve görüntünün boyutlarını belirtme.
+ Bir örneğini oluşturun`Image` davet ederek`create` yapılandırılmış olanı geçerek yöntem`BmpOptions` ve görüntünün boyutlarını belirtme.
 
 ## Adım 6: Görüntü İşleme
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Çözüm
 
-Tebrikler! Aspose.PSD for Java'da akışı kullanarak nasıl görsel oluşturulacağını başarıyla öğrendiniz. Bu eğitim, paketlerin içe aktarılmasından son görüntü işleme ve kaydetmeye kadar temel adımları kapsıyordu. Farklı ayarlarla denemeler yapın ve görüntü oluşturma yeteneklerinizi geliştirmek için ek özellikleri keşfedin.
+Tebrikler! Aspose.PSD for Java'da akışı kullanarak nasıl görsel oluşturulacağını başarıyla öğrendiniz. Bu eğitim, paketlerin içe aktarılmasından son görüntü işleme ve kaydetmeye kadar temel adımları kapsar. Farklı ayarlarla denemeler yapın ve görüntü oluşturma yeteneklerinizi geliştirmek için ek özellikleri keşfedin.
 
 ## SSS'ler
 
@@ -105,11 +105,11 @@ Cevap1: Evet, Aspose.PSD diğer Java kitaplıklarıyla sorunsuz bir şekilde ent
 
 ### S3: Aspose.PSD'nin ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için geçici lisansı nasıl edinebilirim?
 
- Cevap4: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.PSD'nin sistem gereksinimleri nelerdir?
 

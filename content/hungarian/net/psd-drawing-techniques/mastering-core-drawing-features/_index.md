@@ -93,11 +93,11 @@ Gratulálunk! Elsajátította az Aspose.PSD for .NET alapvető rajzolási funkci
 
 ### 1. kérdés: Hol találom az Aspose.PSD for .NET dokumentációt?
 
- V1: Hozzáférhet a dokumentációhoz[itt](https://reference.aspose.com/psd/net/).
+ V1: Hozzáférhet a dokumentációhoz.[itt](https://reference.aspose.com/psd/net/).
 
 ### 2. kérdés: Hogyan tölthetem le az Aspose.PSD-t .NET-hez?
 
- 2. válasz: Töltse le a legújabb verziót[itt](https://releases.aspose.com/psd/net/).
+ 2. válasz: Töltse le a legújabb verziót.[itt](https://releases.aspose.com/psd/net/).
 
 ### 3. kérdés: Hol vásárolhatok Aspose.PSD-t .NET-hez?
 
@@ -105,7 +105,7 @@ Gratulálunk! Elsajátította az Aspose.PSD for .NET alapvető rajzolási funkci
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- V4: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+ V4: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol kaphatok támogatást az Aspose.PSD for .NET számára?
 

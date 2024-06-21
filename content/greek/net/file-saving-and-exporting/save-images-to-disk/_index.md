@@ -85,8 +85,8 @@ A1: Ναι, το Aspose.PSD υποστηρίζει μια ποικιλία μο�
 
 ### Ε4: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
 
- A4: Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ A4: Μπορείτε να αποκτήσετε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.PSD για .NET;
 
- A5: Μπορείτε να αγοράσετε Aspose.PSD για .NET[εδώ](https://purchase.aspose.com/buy).
+ A5: Μπορείτε να αγοράσετε Aspose.PSD για .NET.[εδώ](https://purchase.aspose.com/buy).

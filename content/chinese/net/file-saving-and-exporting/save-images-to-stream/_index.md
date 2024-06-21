@@ -82,11 +82,11 @@ using (Image image = Image.Load(sourceFile))
 
 ### Q3：有免费试用吗？
 
- A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/)在购买前探索 Aspose.PSD 的功能。
+ A3: 是的，您可以获得免费试用。[这里](https://releases.aspose.com/)在购买前探索 Aspose.PSD 的功能。
 
 ### Q4：如何获得临时驾照？
 
- A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。
+ A4：您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。
 
 ### Q5：哪里可以买到Aspose.PSD？
 

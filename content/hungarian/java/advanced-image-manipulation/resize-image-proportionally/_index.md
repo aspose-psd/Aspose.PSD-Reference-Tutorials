@@ -78,11 +78,11 @@ Ebben az oktatóanyagban bemutattuk a képek arányos átméretezésének alapve
 
 ### 2. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
- A2: Igen, megteheti. Meglátogatni a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+ A2: Igen, megteheti. Meglátogatni a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
 
 ### 3. kérdés: Rendelkezésre állnak-e ideiglenes licencek tesztelési célokra?
 
- V3: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) értékeléshez.
+ V3: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) értékeléshez.
 
 ### 4. kérdés: Hol találok támogatást az Aspose.PSD-hez?
 

@@ -106,7 +106,7 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 
 ### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.PSD cho .NET không?
 
- Câu trả lời 2: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Trả lời 2: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
@@ -118,4 +118,4 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 
 ### Câu hỏi 5: Làm cách nào để mua giấy phép Aspose.PSD cho .NET?
 
- A5: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+ A5: Bạn có thể mua giấy phép.[đây](https://purchase.aspose.com/buy).

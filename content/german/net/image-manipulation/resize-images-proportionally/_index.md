@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Bestimmen Sie die neue Breite und Höhe für das in der Größe geänderte Bild. In diesem Beispiel werden Breite und Höhe halbiert, Sie können diese Werte jedoch entsprechend Ihren Anforderungen anpassen.
+Bestimmen Sie die neue Breite und Höhe für das in der Größe geänderte Bild. In diesem Beispiel werden Breite und Höhe halbiert, Sie können diese Werte jedoch je nach Ihren Anforderungen anpassen.
 
 ## Schritt 3: Speichern Sie das in der Größe geänderte Bild
 

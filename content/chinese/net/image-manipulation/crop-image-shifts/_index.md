@@ -59,7 +59,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
     }
 ```
 
-## 步骤 4：定义裁剪的平移值
+## 第4步：定义裁剪的平移值
 
 指定图像的左、右、上、下侧的偏移值。根据您的裁剪要求调整这些值。
 
@@ -96,7 +96,7 @@ A1：是的，Aspose.PSD 支持各种图像格式，允许您裁剪 JPEG、PNG �
 
 ### Q3：如何获得 Aspose.PSD for .NET 的临时许可证？
 
- A3：您可以获得临时许可证用于测试目的[这里](https://purchase.aspose.com/temporary-license/).
+ A3：您可以获取临时许可证用于测试目的。[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q4：在哪里可以找到与 Aspose.PSD 相关的其他支持和讨论？
 

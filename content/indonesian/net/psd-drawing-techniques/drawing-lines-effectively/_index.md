@@ -98,7 +98,7 @@ Selamat! Anda telah berhasil mempelajari cara menggambar garis secara efektif me
 
 ### Q1: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A1: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/net/).
+ A1: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q2: Bagaimana cara mengunduh Aspose.PSD untuk .NET?
 
@@ -106,7 +106,7 @@ Selamat! Anda telah berhasil mempelajari cara menggambar garis secara efektif me
 
 ### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk .NET?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -114,4 +114,4 @@ Selamat! Anda telah berhasil mempelajari cara menggambar garis secara efektif me
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk Aspose.PSD untuk .NET?
 
- A5: Jika diperlukan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Jika diperlukan, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).

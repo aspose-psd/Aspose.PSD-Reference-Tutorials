@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Krok 5: Uložte komprimovaný GIF
+## Krok 5: Uložte komprimovaný GIF.
 
  Uložte komprimovaný obrázek GIF pomocí`image.save` metodou se zadaným`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD for Java je výkonná knihovna pro práci se soubory PSD a různý
 
 ### Q3: Kde najdu dokumentaci k Aspose.PSD pro Java?
 
-A3: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/java/).
+A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/java/).
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q5: Jak mohu zakoupit Aspose.PSD pro Java?
 
- A5: Můžete si koupit knihovnu[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit knihovnu.[tady](https://purchase.aspose.com/buy).

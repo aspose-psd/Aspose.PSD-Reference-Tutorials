@@ -68,11 +68,11 @@ Cevap1: Evet, Aspose.PSD for .NET, Photoshop dosyalarının çeşitli sürümler
 
 ### S3: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
- Cevap3: Aspose.PSD topluluğuna katılın[forum](https://forum.aspose.com/c/psd/34) uzmanlardan ve diğer geliştiricilerden yardım almak.
+ Cevap3: Aspose.PSD topluluğuna katılın.[forum](https://forum.aspose.com/c/psd/34) uzmanlardan ve diğer geliştiricilerden yardım almak.
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) taahhütte bulunmadan önce Aspose.PSD for .NET'in özelliklerini keşfetmek.
+ C4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/) taahhütte bulunmadan önce Aspose.PSD for .NET'in özelliklerini keşfetmek.
 
 ### S5: Aspose.PSD for .NET için geçici lisansı nasıl edinebilirim?
 

@@ -129,4 +129,4 @@ A2: Tentu saja! Aspose.PSD untuk .NET adalah produk komersial, dan Anda dapat me
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
- A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk mencari bantuan dan berhubungan dengan komunitas.
+ A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk mencari bantuan dan berhubungan dengan masyarakat.

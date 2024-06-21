@@ -85,4 +85,4 @@ A kép átlátszóságának ellenőrzése az Aspose.PSD for Java segítségével
 
 ### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
 
- 5. válasz: Ha teszteli a könyvtárat, szerezhet ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).
+ 5. válasz: Ha teszteli a könyvtárat, szerezhet ideiglenes licencet.[itt](https://purchase.aspose.com/temporary-license/).

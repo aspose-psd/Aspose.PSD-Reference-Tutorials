@@ -92,7 +92,7 @@ A1: Com certeza! Aspose.PSD para Java se destaca em tarefas de processamento de 
 
 ### Q2: Posso experimentar o Aspose.PSD para Java antes de comprar?
 
- A2: Sim, você pode explorar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
+ A2: Sim, você pode explorar uma versão de teste gratuita.[aqui](https://releases.aspose.com/).
 
 ### Q3: Onde posso encontrar suporte para Aspose.PSD para Java?
 
@@ -100,7 +100,7 @@ A1: Com certeza! Aspose.PSD para Java se destaca em tarefas de processamento de 
 
 ### P4: Preciso de uma licença temporária para fins de teste?
 
- A4: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para testar Aspose.PSD para Java.
+ A4: Obtenha uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/) para testar Aspose.PSD para Java.
 
 ### Q5: Onde posso comprar Aspose.PSD para Java?
 

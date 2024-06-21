@@ -111,7 +111,7 @@ A2: Rozhodně! Aspose.PSD poskytuje řadu možností transformace pro vrstvy.
 
 ### Q3: Kde najdu další dokumentaci Aspose.PSD?
 
- A3: Můžete nahlédnout do dokumentace[tady](https://reference.aspose.com/psd/java/).
+ A3: Můžete nahlédnout do dokumentace.[tady](https://reference.aspose.com/psd/java/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
@@ -119,4 +119,4 @@ A2: Rozhodně! Aspose.PSD poskytuje řadu možností transformace pro vrstvy.
 
 ### Q5: Existují nějaká komunitní fóra pro podporu Aspose.PSD?
 
- A5: Ano, můžete najít podporu a diskuse[tady](https://forum.aspose.com/c/psd/34).
+ A5: Ano, můžete najít podporu a diskuse.[tady](https://forum.aspose.com/c/psd/34).

@@ -1,7 +1,7 @@
 ---
 title: Teknik Tingkat Lanjut
 linktitle: Teknik Tingkat Lanjut
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Kuasai teknik tingkat lanjut dalam pemrosesan gambar Java dengan mudah dengan tutorial Aspose.PSD. Skala abu-abu, muat, konversi, render teks, simpan secara efisien, dan banyak lagi!
 type: docs
 weight: 22
@@ -12,24 +12,24 @@ url: /id/java/advanced-techniques/
 Apakah Anda siap untuk meningkatkan keterampilan pemrosesan gambar Java Anda? Selami tutorial komprehensif kami dengan Aspose.PSD untuk Java, membuka berbagai teknik tingkat lanjut. Mari jelajahi beberapa tutorial utama secara detail:
 
 ## Skala abu-abu pada Gambar menggunakan Aspose.PSD untuk Java
- Temukan seni membuat gambar menjadi abu-abu dengan mudah di Java dengan Aspose.PSD. Tutorial langkah demi langkah kami memandu Anda melalui proses tersebut, memastikan hasil yang mulus.[Baca selengkapnya](./grayscale-image/)
+Temukan seni membuat gambar menjadi abu-abu dengan mudah di Java dengan Aspose.PSD. Tutorial langkah demi langkah kami memandu Anda melalui proses tersebut, memastikan hasil yang mulus.[Baca selengkapnya](./grayscale-image/)
 
 ## Memuat Gambar dari Stream dengan Aspose.PSD untuk Java
  Pelajari seluk-beluk memuat gambar PSD dengan lancar di Java menggunakan Aspose.PSD. Panduan terperinci kami menjamin pemrosesan gambar yang efisien.[Baca selengkapnya](./loading-images-from-stream/)
 
 ## Konversi PSD ke Format Gambar Raster dengan Aspose.PSD untuk Java
-Konversikan file PSD menjadi gambar raster dengan mudah menggunakan Aspose.PSD untuk Java. Jelajahi opsi ekspor serbaguna dan integrasi yang lancar dalam panduan langkah demi langkah kami.[Baca selengkapnya](./convert-psd-to-raster-formats/)
+ Konversikan file PSD menjadi gambar raster dengan mudah menggunakan Aspose.PSD untuk Java. Jelajahi opsi ekspor serbaguna dan integrasi yang lancar dalam panduan langkah demi langkah kami.[Baca selengkapnya](./convert-psd-to-raster-formats/)
 
 Siap untuk lebih banyak lagi? Jelajahi tutorial tentang merender teks dengan warna berbeda, menyimpan gambar secara efisien menggunakan thread pekerja, dan panduan komprehensif tentang manajemen font. Tingkatkan desain gambar dan pengembangan Java Anda dengan Aspose.PSD.
 
 ## Render Teks dengan Warna Berbeda di Lapisan Teks
- Pelajari seni merender teks dengan berbagai warna dalam lapisan teks PSD menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah kami memastikan hasil yang mulus.[Baca selengkapnya](./render-text-different-colors/)
+Pelajari seni merender teks dengan berbagai warna dalam lapisan teks PSD menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah kami memastikan hasil yang mulus.[Baca selengkapnya](./render-text-different-colors/)
 
 ## Simpan Gambar menggunakan Worker Threads dengan Aspose.PSD untuk Java
  Selidiki pemrosesan gambar multi-utas di Java dengan Aspose.PSD. Kuasai seni menyimpan gambar secara efisien menggunakan thread pekerja.[Baca selengkapnya](./save-images-worker-threads/)
 
 ## Pengaturan Penggantian Font yang Hilang di Aspose.PSD untuk Java
-Jelajahi panduan komprehensif tentang mengganti font yang hilang di Aspose.PSD untuk Java. Tingkatkan desain gambar Anda dengan manajemen font yang lancar.[Baca selengkapnya](./settings-replacing-missing-fonts/)
+ Jelajahi panduan komprehensif tentang mengganti font yang hilang di Aspose.PSD untuk Java. Tingkatkan desain gambar Anda dengan manajemen font yang lancar.[Baca selengkapnya](./settings-replacing-missing-fonts/)
 
 Baik itu menyesuaikan kecerahan, kontras, gamma, mengaburkan gambar, atau menambahkan efek menawan saat runtime, tutorial kami mencakup semuanya. Buka potensi Aspose.PSD untuk Java dan tingkatkan keterampilan pemrosesan gambar Anda.
 

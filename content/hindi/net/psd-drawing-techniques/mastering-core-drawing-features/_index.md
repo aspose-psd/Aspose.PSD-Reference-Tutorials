@@ -93,11 +93,11 @@ image.Save(outpath, new BmpOptions());
 
 ### Q1: मुझे .NET दस्तावेज़ के लिए Aspose.PSD कहां मिल सकता है?
 
- A1: आप दस्तावेज़ तक पहुंच सकते हैं[यहाँ](https://reference.aspose.com/psd/net/).
+ A1: आप दस्तावेज़ तक पहुंच सकते हैं.[यहाँ](https://reference.aspose.com/psd/net/).
 
 ### Q2: मैं .NET के लिए Aspose.PSD कैसे डाउनलोड करूं?
 
- A2: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/psd/net/).
+ A2: नवीनतम संस्करण डाउनलोड करें.[यहाँ](https://releases.aspose.com/psd/net/).
 
 ### Q3: मैं .NET के लिए Aspose.PSD कहां से खरीद सकता हूं?
 
@@ -105,7 +105,7 @@ image.Save(outpath, new BmpOptions());
 
 ### Q4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ4: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ उ4: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं।[यहाँ](https://releases.aspose.com/).
 
 ### Q5: मुझे .NET के लिए Aspose.PSD के लिए समर्थन कहाँ से मिल सकता है?
 

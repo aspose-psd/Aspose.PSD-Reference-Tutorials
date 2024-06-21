@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 
 -  Aspose.PSD for .NET Library: Aspose.PSD kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/psd/net/).
 
-- Belge Dizini: Belgelerinizin ve görsellerinizin saklandığı bir dizin ayarlayın. Bu dizini kodda belirtmeniz gerekecek.
+- Belge Dizini: Belgelerinizin ve görsellerinizin saklandığı bir dizin oluşturun. Bu dizini kodda belirtmeniz gerekecek.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -107,7 +107,7 @@ A2: Kesinlikle! Özel gereksinimlerinizi karşılamak ve istediğiniz görsel ef
 
 ### S4: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+ C4: Evet, ücretsiz denemeyi keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD for .NET ile ilgili nasıl destek alabilirim veya yardım alabilirim?
 

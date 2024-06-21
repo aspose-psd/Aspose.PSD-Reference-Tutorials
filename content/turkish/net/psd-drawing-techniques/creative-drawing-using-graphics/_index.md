@@ -95,13 +95,13 @@ Değiştirilen görüntüyü istenen dosya formatıyla belirtilen dizine kaydedi
 
 ## Çözüm
 
-Tebrikler! Aspose.PSD for .NET'teki Graphics sınıfını kullanarak görsel olarak çekici bir grafiği başarıyla oluşturdunuz. Bu eğitim, Aspose.PSD ile yapabileceklerinizin sadece yüzeyini çiziyor; bu nedenle daha gelişmiş özellikleri keşfetmekten ve yaratıcılığınızı serbest bırakmaktan çekinmeyin!
+Tebrikler! Aspose.PSD for .NET'teki Graphics sınıfını kullanarak görsel olarak çekici bir grafiği başarıyla oluşturdunuz. Bu eğitim, Aspose.PSD ile yapabileceklerinizin yalnızca yüzeyini çiziyor; bu nedenle daha gelişmiş özellikleri keşfetmekten ve yaratıcılığınızı serbest bırakmaktan çekinmeyin!
 
 ## SSS'ler
 
 ### S1: Aspose.PSD for .NET'i ticari projelerimde kullanabilir miyim?
 
- Cevap1: Evet, Aspose.PSD for .NET ticari kullanıma açıktır. Kontrol et[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+Cevap1: Evet, Aspose.PSD for .NET ticari kullanıma açıktır. Kontrol et[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
 
 ### S2: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
@@ -109,7 +109,7 @@ Tebrikler! Aspose.PSD for .NET'teki Graphics sınıfını kullanarak görsel ola
 
 ### S3: Aspose.PSD for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 
- A3: Kapsamlı belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
+ A3: Kapsamlı belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
@@ -117,4 +117,4 @@ Tebrikler! Aspose.PSD for .NET'teki Graphics sınıfını kullanarak görsel ola
 
 ### S5: Aspose.PSD for .NET için geçici bir lisansa ihtiyacım var mı?
 
- Cevap 5: Geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

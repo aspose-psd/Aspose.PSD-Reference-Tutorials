@@ -91,7 +91,7 @@ S3: Aspose.PSD erbjuder ett brett utbud av effekter, men det är tillrådligt at
 
 ### F4: Hur kan jag få en tillfällig licens för teständamål?
 
- A4: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för testning och utvärdering.
+ A4: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för testning och utvärdering.
 
 ### F5: Var kan jag hitta ytterligare stöd och diskussioner i samhället?
 

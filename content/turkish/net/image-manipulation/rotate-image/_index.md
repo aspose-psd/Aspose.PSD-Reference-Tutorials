@@ -79,4 +79,4 @@ Bu eğitimde Aspose.PSD for .NET kullanarak görüntüleri döndürmenin temelle
 
 ### S5: Aspose.PSD'yi ticari kullanım için satın alabilir miyim?
 
- Kesinlikle. Keşfedin[satın alma sayfası](https://purchase.aspose.com/buy) İhtiyaçlarınıza göre uyarlanmış bir lisans almak için.
+ Kesinlikle. Keşfedin[satın alma sayfası](https://purchase.aspose.com/buy) İhtiyaçlarınıza uygun bir lisans almak için.

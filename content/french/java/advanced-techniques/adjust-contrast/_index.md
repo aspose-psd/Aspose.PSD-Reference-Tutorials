@@ -94,11 +94,11 @@ A1 : Oui, Aspose.PSD prend en charge différents formats d'image, offrant ainsi 
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A2 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A2 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q3 : Où puis-je trouver la documentation Aspose.PSD ?
 
-A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/java/).
+R3 : La documentation est disponible.[ici](https://reference.aspose.com/psd/java/).
 
 ### Q4 : Quelles options de support sont disponibles pour Aspose.PSD ?
 

@@ -53,7 +53,7 @@ RasterImage image = (RasterImage)Image.load(sourceFileName);
 
 Ladda PSD-filen du vill beskära i ett RasterImage-objekt.
 
-## Steg 3: Definiera beskärningsområdet
+## Steg 3: Definiera beskärningsyta
 
 ```java
 image.crop(new Rectangle(10, 30, 100, 100));
@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Spara den beskurna bilden i PSD-format med den angivna sökvägen.
 
-## Steg 5: Spara beskuren bild som PNG
+## Steg 5: Spara beskuren bild som PNG.
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -97,7 +97,7 @@ S2: Ja, Aspose.PSD för Java är optimerad för prestanda, vilket gör den lämp
 
 ### F3: Finns det några licensöverväganden för att använda Aspose.PSD för Java?
 
- A3: Ja, se[Köpsida Aspose.PSD för Java](https://purchase.aspose.com/buy) för licensinformation.
+ A3: Ja, se[Aspose.PSD för Java köpsida](https://purchase.aspose.com/buy) för licensinformation.
 
 ### F4: Hur kan jag få support för Aspose.PSD för Java-relaterade problem?
 
@@ -105,4 +105,4 @@ S2: Ja, Aspose.PSD för Java är optimerad för prestanda, vilket gör den lämp
 
 ### F5: Kan jag prova Aspose.PSD för Java innan jag köper?
 
- S5: Ja, utforska funktionerna med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
+ S5: Ja, utforska funktionerna med en gratis provperiod tillgänglig.[här](https://releases.aspose.com/).

@@ -96,7 +96,7 @@ Câu trả lời 2: Có, Aspose.PSD cho .NET cung cấp nhiều thuộc tính kh
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
- A3: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A3: Bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 4: Aspose.PSD dành cho .NET có tương thích với .NET Core không?
 

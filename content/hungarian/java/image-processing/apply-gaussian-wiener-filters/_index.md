@@ -94,7 +94,7 @@ Gratulálunk! Sikeresen megtanulta a Gauss- és Wiener-szűrők alkalmazását a
 
 ### 4. kérdés: Rendelkezésre áll ideiglenes licenc tesztelési célokra?
 
- V4: Igen, ideiglenes engedélyt kaphat[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Igen, ideiglenes engedélyt kaphat.[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol találom az Aspose.PSD for Java részletes dokumentációját?
 

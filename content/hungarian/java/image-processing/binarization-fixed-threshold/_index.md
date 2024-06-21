@@ -78,7 +78,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ## Következtetés
 
-Ebben az oktatóanyagban az Aspose.PSD for Java képfeldolgozás világába ástunk bele, különös tekintettel a fix küszöbértékkel történő binarizálásra. Ha követi ezeket a lépéseket, Java-alkalmazásait hatékony képátalakítási képességekkel bővítheti.
+Ebben az oktatóanyagban az Aspose.PSD for Java képfeldolgozás világába mélyedtünk, különös tekintettel a fix küszöbértékkel történő binarizálásra. Ha követi ezeket a lépéseket, Java-alkalmazásait hatékony képátalakítási képességekkel bővítheti.
 
 ## GYIK
 
@@ -96,8 +96,8 @@ V1: Igen, az Aspose.PSD különféle képformátumokat támogat, így a binariz�
 
 ### 4. kérdés: Hogyan vásárolhatom meg az Aspose.PSD könyvtárat?
 
- 4. válasz: Megvásárolhatja az Aspose.PSD könyvtárat[itt](https://purchase.aspose.com/buy).
+ 4. válasz: Megvásárolhatja az Aspose.PSD könyvtárat.[itt](https://purchase.aspose.com/buy).
 
 ### 5. kérdés: Elérhető ingyenes próbaverzió?
 
- 5. válasz: Igen, felfedezheti az Aspose.PSD képességeit egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, felfedezheti az Aspose.PSD képességeit egy ingyenes próbaverzióval.[itt](https://releases.aspose.com/).

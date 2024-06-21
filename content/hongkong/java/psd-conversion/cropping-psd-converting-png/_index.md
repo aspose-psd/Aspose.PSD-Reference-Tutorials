@@ -47,7 +47,7 @@ image.crop(cropRegion);
 //建立 PngOptions 類別的實例
 PngOptions pngOptions = new PngOptions();
 ```
-## 步驟 6：將裁剪後的圖像另存為 PNG
+## 步驟 6：將裁剪後的圖像另存為 PNG。
 ```java
 //提供輸出路徑和 PngOptions 將 PSD 檔案轉換為 PNG 並儲存輸出
 String destName = dataDir + "export.png";

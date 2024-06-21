@@ -93,7 +93,7 @@ A2：当然！ Aspose.PSD 允许您执行批量图像处理，从而可以高效
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以免费试用 Aspose.PSD[这里](https://releases.aspose.com/).
+ A4：是的，您可以免费试用 Aspose.PSD。[这里](https://releases.aspose.com/).
 
 ### Q5：我如何获得支持或寻求帮助？
 

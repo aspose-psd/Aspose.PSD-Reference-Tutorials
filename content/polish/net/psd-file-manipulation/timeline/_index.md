@@ -54,7 +54,7 @@ Zmień krycie „warstwy 1” w określonej klatce. W tym przypadku ustawiliśmy
 LayerState layerState11 = timeline.Frames[1].LayerStates[1];
 layerState11.Opacity = 50;
 ```
-## Krok 6: Przenieś warstwę
+## Krok 6: Przesuń warstwę
 Przesuń „Warstwa 1” do lewego dolnego rogu określonej klatki (w tym przykładzie klatka 3):
 ```csharp
 LayerState layerState21 = timeline.Frames[2].LayerStates[1];
@@ -103,7 +103,7 @@ Odpowiedź 2: Klasa Timeline została zaprojektowana specjalnie dla obrazów PSD
 
 ### P4: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
- A4: Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A4: Zdobądź licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Jakie są kluczowe korzyści z używania Aspose.PSD dla .NET?
 

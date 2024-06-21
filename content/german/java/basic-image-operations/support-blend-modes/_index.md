@@ -9,7 +9,7 @@ url: /de/java/basic-image-operations/support-blend-modes/
 ---
 ## Einführung
 
-Aspose.PSD für Java ist eine leistungsstarke Bibliothek, die umfassende Unterstützung für Mischmodi bietet und es Entwicklern ermöglicht, ihre Bildverarbeitungsfunktionen zu verbessern. In diesem Tutorial tauchen wir in die Welt der Mischmodi ein und untersuchen, wie wir sie mit Aspose.PSD für Java effektiv nutzen können. Unabhängig davon, ob Sie ein erfahrener Entwickler oder ein Neuling in der Bildbearbeitung sind, vermittelt Ihnen dieser Leitfaden das nötige Wissen, um das volle Potenzial der Mischmodi in Ihren Java-Anwendungen auszuschöpfen.
+Aspose.PSD für Java ist eine leistungsstarke Bibliothek, die umfangreiche Unterstützung für Mischmodi bietet und es Entwicklern ermöglicht, ihre Bildverarbeitungsfunktionen zu verbessern. In diesem Tutorial tauchen wir in die Welt der Mischmodi ein und untersuchen, wie wir sie mit Aspose.PSD für Java effektiv nutzen können. Unabhängig davon, ob Sie ein erfahrener Entwickler oder ein Neuling in der Bildbearbeitung sind, vermittelt Ihnen dieser Leitfaden das nötige Wissen, um das volle Potenzial der Mischmodi in Ihren Java-Anwendungen auszuschöpfen.
 
 ## Voraussetzungen
 
@@ -58,7 +58,7 @@ Exportieren Sie die geladenen PSD-Dateien in das PNG-Format. Passen Sie die Expo
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Als PNG mit 100 % Deckkraft speichern
+// Als PNG mit 100 % Deckkraft speichern.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Legen Sie die Deckkraft bestimmter Ebenen in den PSD-Dateien fest. Hier stellen 
 // Deckkraft auf 50 % einstellen
 im.getLayers()[1].setOpacity((byte)127);
 
-// Als PNG mit 50 % Deckkraft speichern
+// Als PNG mit 50 % Deckkraft speichern.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

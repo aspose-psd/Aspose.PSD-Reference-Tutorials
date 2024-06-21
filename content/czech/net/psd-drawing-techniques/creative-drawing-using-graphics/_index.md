@@ -95,13 +95,13 @@ Uložte upravený obrázek do určeného adresáře v požadovaném formátu sou
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste vytvořili vizuálně přitažlivou grafiku pomocí třídy Graphics v Aspose.PSD pro .NET. Tento tutoriál pouze poškrábe povrch toho, čeho můžete dosáhnout s Aspose.PSD, takže neváhejte prozkoumat pokročilejší funkce a popusťte uzdu své kreativitě!
+Gratulujeme! Úspěšně jste vytvořili vizuálně přitažlivou grafiku pomocí třídy Graphics v Aspose.PSD pro .NET. Tento tutoriál jen poškrábe povrch toho, čeho můžete dosáhnout s Aspose.PSD, takže neváhejte prozkoumat pokročilejší funkce a popusťte uzdu své kreativitě!
 
 ## FAQ
 
 ### Q1: Mohu použít Aspose.PSD pro .NET ve svých komerčních projektech?
 
- Odpověď 1: Ano, Aspose.PSD pro .NET je k dispozici pro komerční použití. Podívejte se na[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
+Odpověď 1: Ano, Aspose.PSD pro .NET je k dispozici pro komerční použití. Podívejte se na[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
@@ -109,7 +109,7 @@ Gratulujeme! Úspěšně jste vytvořili vizuálně přitažlivou grafiku pomoc�
 
 ### Q3: Kde najdu podrobnou dokumentaci k Aspose.PSD pro .NET?
 
- A3: K dispozici je komplexní dokumentace[tady](https://reference.aspose.com/psd/net/).
+ A3: K dispozici je komplexní dokumentace.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -117,4 +117,4 @@ Gratulujeme! Úspěšně jste vytvořili vizuálně přitažlivou grafiku pomoc�
 
 ### Q5: Potřebuji dočasnou licenci pro Aspose.PSD pro .NET?
 
- A5: Pokud požadujete dočasnou licenci, můžete ji získat[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Pokud požadujete dočasnou licenci, můžete ji získat.[tady](https://purchase.aspose.com/temporary-license/).

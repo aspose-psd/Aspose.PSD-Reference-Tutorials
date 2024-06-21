@@ -106,7 +106,7 @@ A1：是的，Aspose.PSD for .NET 与各种.NET 框架兼容。
 
 ### 问题 2：Aspose.PSD for .NET 是否有免费试用版？
 
- A2：是的，您可以免费试用[这里](https://releases.aspose.com/).
+ A2：是的，您可以免费试用。[这里](https://releases.aspose.com/).
 
 ### 问题 3：如何获得 Aspose.PSD for .NET 支持？
 
@@ -118,4 +118,4 @@ A1：是的，Aspose.PSD for .NET 与各种.NET 框架兼容。
 
 ### Q5：如何购买 Aspose.PSD for .NET 的许可证？
 
- A5：您可以购买许可证[这里](https://purchase.aspose.com/buy).
+ A5: 您可以购买许可证。[这里](https://purchase.aspose.com/buy).

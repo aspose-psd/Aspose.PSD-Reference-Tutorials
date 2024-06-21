@@ -82,7 +82,7 @@ Dalam tutorial ini, kami menjelajahi proses konversi warna menggunakan profil de
 
 ## FAQ
 
-### Q1: Bisakah saya melakukan konversi warna tanpa menggunakan profil ICC?
+### Q1: Dapatkah saya melakukan konversi warna tanpa menggunakan profil ICC?
 
 A1: Ya, Aspose.PSD untuk .NET memungkinkan konversi warna dengan profil default.
 
@@ -96,7 +96,7 @@ A3: Tentu saja, Aspose.PSD menyediakan alat yang efisien untuk pemrosesan gambar
 
 ### Q4: Dapatkah saya menggunakan Aspose.PSD untuk proyek komersial?
 
- A4: Ya, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) untuk penggunaan komersial.
+ A4: Ya, Anda dapat membeli lisensi.[Di Sini](https://purchase.aspose.com/buy) untuk penggunaan komersial.
 
 ### Q5: Di mana saya dapat menemukan dukungan komunitas untuk Aspose.PSD untuk .NET?
 

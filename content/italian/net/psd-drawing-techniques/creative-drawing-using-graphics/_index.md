@@ -101,7 +101,7 @@ Congratulazioni! Hai creato con successo un elemento grafico visivamente accatti
 
 ### Q1: posso utilizzare Aspose.PSD per .NET nei miei progetti commerciali?
 
- A1: Sì, Aspose.PSD per .NET è disponibile per uso commerciale. Dai un'occhiata a[pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli sulla licenza.
+A1: Sì, Aspose.PSD per .NET è disponibile per uso commerciale. Dai un'occhiata a[pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli sulla licenza.
 
 ### Q2: È disponibile una prova gratuita per Aspose.PSD per .NET?
 
@@ -109,7 +109,7 @@ Congratulazioni! Hai creato con successo un elemento grafico visivamente accatti
 
 ### Q3: dove posso trovare la documentazione dettagliata per Aspose.PSD per .NET?
 
- A3: La documentazione completa è disponibile[Qui](https://reference.aspose.com/psd/net/).
+ A3: La documentazione completa è disponibile.[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q4: Come posso ottenere supporto per Aspose.PSD per .NET?
 
@@ -117,4 +117,4 @@ Congratulazioni! Hai creato con successo un elemento grafico visivamente accatti
 
 ### Q5: ho bisogno di una licenza temporanea per Aspose.PSD per .NET?
 
- R5: Se hai bisogno di una licenza temporanea, puoi ottenerla[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: Se hai bisogno di una licenza temporanea, puoi ottenerla.[Qui](https://purchase.aspose.com/temporary-license/).

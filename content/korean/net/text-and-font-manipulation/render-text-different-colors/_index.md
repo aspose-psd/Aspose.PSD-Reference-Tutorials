@@ -9,7 +9,7 @@ url: /ko/net/text-and-font-manipulation/render-text-different-colors/
 ---
 ## 소개
 .NET용 Aspose.PSD를 사용하여 텍스트 레이어에서 다양한 색상으로 텍스트를 렌더링하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.PSD는 개발자가 PSD 파일을 원활하게 조작하고 처리할 수 있게 해주는 강력한 API입니다. 이 튜토리얼에서는 텍스트 레이어에서 다양한 색상으로 텍스트를 렌더링하는 특정 작업에 중점을 둡니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음이 설정되어 있는지 확인하세요.
 -  .NET용 Aspose.PSD: Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 - .NET 환경: 컴퓨터에 작동하는 .NET 환경이 설정되어 있는지 확인하세요.

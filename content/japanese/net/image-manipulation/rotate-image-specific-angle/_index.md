@@ -91,7 +91,7 @@ image.Save(destName, new JpegOptions());
 
 ### Q2: Aspose.PSD は JPEG 以外の画像形式をサポートしていますか?
 
-A2：もちろんです！ Aspose.PSD は、PNG、GIF、BMP、TIFF などの幅広い形式をサポートしています。
+A2: もちろんです！ Aspose.PSD は、PNG、GIF、BMP、TIFF などの幅広い形式をサポートしています。
 
 ### Q3: 回転前に画像データのキャッシュは必要ですか?
 

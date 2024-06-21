@@ -102,8 +102,8 @@ A1: Sì, Aspose.PSD funziona perfettamente con vari ambienti di sviluppo integra
 
 ### Q4: È disponibile una prova gratuita?
 
- R4: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q5: Ho bisogno di una licenza temporanea per i test?
 
- R5: È possibile ottenere una licenza temporanea a scopo di test[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: È possibile ottenere una licenza temporanea a scopo di test.[Qui](https://purchase.aspose.com/temporary-license/).

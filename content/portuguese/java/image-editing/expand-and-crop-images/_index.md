@@ -97,7 +97,7 @@ A2: Com certeza, o Aspose.PSD fornece licenças comerciais para desenvolvedores,
 
 ### Q4: Como posso obter suporte para consultas relacionadas ao Aspose.PSD?
 
- A4: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para buscar ajuda da comunidade ou da equipe de suporte do Aspose.
+ A4: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para buscar assistência da comunidade ou da equipe de suporte do Aspose.
 
 ### Q5: Existe um teste gratuito disponível?
 

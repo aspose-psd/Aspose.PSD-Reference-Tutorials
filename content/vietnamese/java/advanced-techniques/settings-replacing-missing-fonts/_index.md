@@ -9,7 +9,7 @@ url: /vi/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
 ## Giới thiệu
 
-Trong lĩnh vực phát triển Java năng động, việc quản lý và thay thế các phông chữ bị thiếu trong tệp PSD của bạn có thể là một khía cạnh quan trọng trong việc tạo ra các hình ảnh hấp dẫn về mặt trực quan và không có lỗi. Aspose.PSD dành cho Java được giải cứu nhờ các tính năng mạnh mẽ, giúp việc thay thế phông chữ trở thành một quy trình liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá các bước để thay thế phông chữ bị thiếu bằng Aspose.PSD cho Java, đảm bảo hình ảnh của bạn duy trì tính toàn vẹn về mặt thẩm mỹ.
+Trong lĩnh vực phát triển Java năng động, việc quản lý và thay thế các phông chữ bị thiếu trong tệp PSD của bạn có thể là một khía cạnh quan trọng trong việc tạo ra các hình ảnh hấp dẫn về mặt trực quan và không có lỗi. Aspose.PSD dành cho Java được giải cứu nhờ các tính năng mạnh mẽ, giúp việc thay thế phông chữ trở thành một quá trình liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá các bước để thay thế phông chữ bị thiếu bằng Aspose.PSD cho Java, đảm bảo hình ảnh của bạn duy trì tính toàn vẹn về mặt thẩm mỹ.
 
 ## Điều kiện tiên quyết
 
@@ -97,7 +97,7 @@ A2: Có, bạn có thể chỉ định phông chữ thay thế tùy chỉnh theo
 
 ### Câu hỏi 3: Có bất kỳ tùy chọn cấp phép nào có sẵn cho Aspose.PSD không?
 
- A3: Khám phá các tùy chọn cấp phép[đây](https://purchase.aspose.com/buy)để chọn phương án tốt nhất cho nhu cầu của bạn.
+ A3: Khám phá các tùy chọn cấp phép.[đây](https://purchase.aspose.com/buy)để chọn phương án tốt nhất cho nhu cầu của bạn.
 
 ### Câu hỏi 4: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
 

@@ -52,7 +52,7 @@ using (RasterImage image = (RasterImage)Image.Load(sourceFile))
 
  Tải hình ảnh bạn muốn xoay vào một phiên bản của`RasterImage`.
 
-## Bước 3: Dữ liệu hình ảnh trong bộ nhớ đệm
+## Bước 3: Dữ liệu hình ảnh bộ nhớ đệm
 
 ```csharp
 if (!image.IsCached)

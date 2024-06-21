@@ -106,7 +106,7 @@ Cevap1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur.
 
 ### S2: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- C2: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C2: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
@@ -118,4 +118,4 @@ Cevap1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur.
 
 ### S5: Aspose.PSD for .NET lisansını nasıl satın alabilirim?
 
- A5: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ A5: Bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).

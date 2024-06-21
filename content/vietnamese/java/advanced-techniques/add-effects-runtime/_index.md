@@ -94,4 +94,4 @@ Câu trả lời 2: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 
 ### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).

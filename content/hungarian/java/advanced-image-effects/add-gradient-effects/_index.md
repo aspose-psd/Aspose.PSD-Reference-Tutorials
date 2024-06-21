@@ -125,7 +125,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat színátmenet effektusokat a k�
 
 ### 4. kérdés: Elérhető az Aspose.PSD for Java próbaverziója?
 
- V4: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+ V4: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol vásárolhatok licencet az Aspose.PSD for Java számára?
 

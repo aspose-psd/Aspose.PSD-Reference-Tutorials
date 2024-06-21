@@ -94,11 +94,11 @@ A1: Ja, Aspose.PSD ondersteunt verschillende afbeeldingsformaten, wat flexibilit
 
 ### Vraag 2: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
 
- A2: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A2: U kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V3: Waar kan ik Aspose.PSD-documentatie vinden?
 
-A3: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/java/).
+A3: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/java/).
 
 ### V4: Welke ondersteuningsopties zijn beschikbaar voor Aspose.PSD?
 

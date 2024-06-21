@@ -9,7 +9,7 @@ url: /ko/net/psd-file-resources/supporting-background-color-resource/
 ---
 ## 소개
 포괄적인 튜토리얼을 통해 .NET용 Aspose.PSD의 잠재력을 최대한 활용해 보세요. 이 가이드는 Aspose.PSD의 기능을 효과적으로 활용하기 위한 지식을 제공합니다. 노련한 개발자이든 초보자이든 각 측면을 관리 가능한 단계로 분류하여 Aspose.PSD를 통한 여정을 원활하게 만들어 보세요.
-## 전제 조건
+## 전제조건
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 - Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요.
 -  .NET용 Aspose.PSD: 다음에서 .NET용 Aspose.PSD 라이브러리를 다운로드하여 설치하세요.[릴리스](https://releases.aspose.com/psd/net/).

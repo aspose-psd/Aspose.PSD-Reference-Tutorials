@@ -73,11 +73,11 @@ psdImage.Save(outputFile);
 
 ### A3: 有免费试用吗？
 
- A3：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+ A3：是的，您可以探索免费试用。[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得临时驾照？
 
- A4：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A4：获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：需要支持或有疑问吗？
 

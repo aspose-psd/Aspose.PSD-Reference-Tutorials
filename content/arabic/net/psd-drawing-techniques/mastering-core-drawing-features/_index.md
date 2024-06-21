@@ -93,11 +93,11 @@ image.Save(outpath, new BmpOptions());
 
 ### س1: أين يمكنني العثور على Aspose.PSD لوثائق .NET؟
 
- A1: يمكنك الوصول إلى الوثائق[هنا](https://reference.aspose.com/psd/net/).
+ A1: يمكنك الوصول إلى الوثائق.[هنا](https://reference.aspose.com/psd/net/).
 
 ### س2: كيف يمكنني تنزيل Aspose.PSD لـ .NET؟
 
- ج2: قم بتنزيل أحدث إصدار[هنا](https://releases.aspose.com/psd/net/).
+ ج2: قم بتنزيل أحدث إصدار.[هنا](https://releases.aspose.com/psd/net/).
 
 ### س3: أين يمكنني شراء Aspose.PSD لـ .NET؟
 
@@ -105,7 +105,7 @@ image.Save(outpath, new BmpOptions());
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج4: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
 
 ### س5: أين يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 

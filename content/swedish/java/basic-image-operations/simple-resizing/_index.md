@@ -9,7 +9,7 @@ url: /sv/java/basic-image-operations/simple-resizing/
 ---
 ## Introduktion
 
-I dagens handledning kommer vi att fördjupa oss i processen med enkel bildstorleksändring med Aspose.PSD för Java, ett kraftfullt bibliotek som underlättar effektiv bildmanipulation. Om du är en Java-utvecklare som söker ett smidigt sätt att ändra storlek på bilder programmatiskt, är du på rätt plats.
+I dagens handledning kommer vi att fördjupa oss i processen för enkel bildstorleksändring med Aspose.PSD för Java, ett kraftfullt bibliotek som underlättar effektiv bildmanipulation. Om du är en Java-utvecklare som söker ett smidigt sätt att ändra storlek på bilder programmatiskt, är du på rätt plats.
 
 ## Förutsättningar
 

@@ -25,7 +25,7 @@ using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Layers.Animation;
 ```
 ## ขั้นตอนที่ 1: โหลดรูปภาพ PSD
-เริ่มต้นด้วยการโหลดรูปภาพ PSD จากไฟล์ต้นฉบับที่ระบุ ตรวจสอบให้แน่ใจว่าได้ตั้งค่าพาธของไฟล์ต้นฉบับอย่างถูกต้อง:
+เริ่มต้นด้วยการโหลดรูปภาพ PSD จากไฟล์ต้นฉบับที่ระบุ ตรวจสอบให้แน่ใจว่าเส้นทางของไฟล์ต้นฉบับได้รับการตั้งค่าอย่างถูกต้อง:
 ```csharp
 string sourceFile = Path.Combine(baseDir, "image1219.psd");
 using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile))

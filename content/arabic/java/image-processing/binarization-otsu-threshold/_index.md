@@ -94,7 +94,7 @@ A1: يعتبر Binarization باستخدام عتبة Otsu أسلوبًا يست
 
 ### س3: أين يمكنني العثور على Aspose.PSD لوثائق Java؟
 
-ج3: الوثائق متاحة[هنا](https://reference.aspose.com/psd/java/).
+ج3: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/java/).
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ Java؟
 
@@ -102,4 +102,4 @@ A1: يعتبر Binarization باستخدام عتبة Otsu أسلوبًا يست
 
 ### س5: هل يتوفر ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
- ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).

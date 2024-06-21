@@ -116,7 +116,7 @@ A1: Ja, Aspose.PSD für Java bietet umfangreiche Funktionen zum Bearbeiten und B
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich eine Lizenz für Aspose.PSD für Java erwerben?
 

@@ -86,8 +86,8 @@ O1: Tak, Aspose.PSD jest kompatybilny z najnowszymi frameworkami .NET.
 
 ### P4: Jak uzyskać tymczasową licencję na Aspose.PSD?
 
- A4: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A4: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Czy mogę wypróbować Aspose.PSD za darmo przed zakupem?
 
-Odpowiedź 5: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+Odpowiedź 5: Tak, możesz skorzystać z bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).

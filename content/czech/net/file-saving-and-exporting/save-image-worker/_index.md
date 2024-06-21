@@ -92,11 +92,11 @@ finally
 
 ### Q2: Kde najdu komplexní dokumentaci k Aspose.PSD pro .NET?
 
-A2: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
+A2: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -104,4 +104,4 @@ A2: Dokumentace je k dispozici[tady](https://reference.aspose.com/psd/net/).
 
 ### Q5: Mohu si zakoupit dočasnou licenci pro Aspose.PSD pro .NET?
 
- A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

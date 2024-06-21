@@ -93,11 +93,11 @@ Glückwunsch! Sie beherrschen die wichtigsten Zeichenfunktionen von Aspose.PSD f
 
 ### F1: Wo finde ich die Aspose.PSD für .NET-Dokumentation?
 
- A1: Sie können auf die Dokumentation zugreifen[Hier](https://reference.aspose.com/psd/net/).
+ A1: Sie können auf die Dokumentation zugreifen.[Hier](https://reference.aspose.com/psd/net/).
 
 ### F2: Wie lade ich Aspose.PSD für .NET herunter?
 
- A2: Laden Sie die neueste Version herunter[Hier](https://releases.aspose.com/psd/net/).
+ A2: Laden Sie die neueste Version herunter.[Hier](https://releases.aspose.com/psd/net/).
 
 ### F3: Wo kann ich Aspose.PSD für .NET kaufen?
 
@@ -105,7 +105,7 @@ Glückwunsch! Sie beherrschen die wichtigsten Zeichenfunktionen von Aspose.PSD f
 
 ### F4: Gibt es eine kostenlose Testversion?
 
- A4: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können eine kostenlose Testversion erhalten.[Hier](https://releases.aspose.com/).
 
 ### F5: Wo erhalte ich Unterstützung für Aspose.PSD für .NET?
 

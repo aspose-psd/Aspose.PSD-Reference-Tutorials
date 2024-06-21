@@ -61,7 +61,7 @@ image.save(destName, new JpegOptions());
 
 ## Conclusión
 
-¡Felicidades! Has rotado con éxito una imagen usando Aspose.PSD para Java. Esta biblioteca simple pero poderosa abre un mundo de posibilidades para la manipulación de imágenes en sus aplicaciones Java.
+¡Felicidades! Has rotado exitosamente una imagen usando Aspose.PSD para Java. Esta biblioteca simple pero poderosa abre un mundo de posibilidades para la manipulación de imágenes en sus aplicaciones Java.
 
 ## Preguntas frecuentes
 
@@ -83,4 +83,4 @@ R2: ¡Absolutamente! Aspose.PSD proporciona flexibilidad para aplicar rotaciones
 
 ### P5: ¿Cómo obtengo una licencia temporal?
 
- R5: Si necesita una licencia temporal, puede obtener una[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Si necesita una licencia temporal, puede obtenerla.[aquí](https://purchase.aspose.com/temporary-license/).

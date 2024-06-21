@@ -56,13 +56,13 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes verschillende handtekeningtypen ondersteund in Aspose.PSD voor .NET. In deze tutorial worden de essentiële stappen behandeld, zodat u moeiteloos door het proces kunt navigeren.
+Gefeliciteerd! U hebt met succes verschillende handtekeningtypen ondersteund in Aspose.PSD voor .NET. Deze tutorial behandelt de essentiële stappen, zodat u moeiteloos door het proces kunt navigeren.
 
 ## Veelgestelde vragen
 
 ### V1: Waar kan ik de documentatie voor Aspose.PSD voor .NET vinden?
 
- A1: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).
+ A1: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/net/).
 
 ### Vraag 2: Hoe kan ik de Aspose.PSD voor .NET-bibliotheek downloaden?
 
@@ -70,7 +70,7 @@ Gefeliciteerd! U hebt met succes verschillende handtekeningtypen ondersteund in 
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/).
 
 ### Vraag 4: Ondersteuning nodig of vragen?
 
@@ -78,4 +78,4 @@ Gefeliciteerd! U hebt met succes verschillende handtekeningtypen ondersteund in 
 
 ### Q5: Op zoek naar een tijdelijke licentie?
 
- A5: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Verkrijg een tijdelijke licentie.[hier](https://purchase.aspose.com/temporary-license/).

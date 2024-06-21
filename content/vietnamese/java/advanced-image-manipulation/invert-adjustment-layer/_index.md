@@ -88,8 +88,8 @@ Câu trả lời 2: Có, bạn có thể xếp chồng nhiều lớp điều ch�
 
 ### Câu hỏi 4: Aspose.PSD có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Đ4: Có, bạn có thể khám phá bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 
-Câu trả lời 5: Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Câu trả lời 5: Bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).

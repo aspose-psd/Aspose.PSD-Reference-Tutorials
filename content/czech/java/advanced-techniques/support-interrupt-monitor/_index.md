@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Nyní si rozeberme ukázkový kód do podrobného průvodce pro začlenění Monitoru přerušení do vašeho projektu Aspose.PSD for Java.
+Nyní rozeberme ukázkový kód do podrobného průvodce pro integraci Monitorování přerušení do vašeho projektu Aspose.PSD for Java.
 
 ## Krok 1: Nastavte adresář dokumentů
 
@@ -106,11 +106,11 @@ Odpověď 1: Monitor přerušení v Aspose.PSD pro Java umožňuje vývojářům
 
 ### Q2: Jak mohu získat knihovnu Aspose.PSD pro Java?
 
-A2: Můžete si stáhnout knihovnu Aspose.PSD for Java[tady](https://releases.aspose.com/psd/java/).
+A2: Můžete si stáhnout knihovnu Aspose.PSD for Java.[tady](https://releases.aspose.com/psd/java/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD.[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.PSD pro Java?
 
@@ -118,4 +118,4 @@ A2: Můžete si stáhnout knihovnu Aspose.PSD for Java[tady](https://releases.as
 
 ### Q5: Jak mohu zakoupit licenci pro Aspose.PSD pro Java?
 
- A5: Můžete si zakoupit licenci pro Aspose.PSD pro Java[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si zakoupit licenci pro Aspose.PSD pro Java.[tady](https://purchase.aspose.com/buy).

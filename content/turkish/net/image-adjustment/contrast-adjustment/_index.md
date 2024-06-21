@@ -32,7 +32,7 @@ using Aspose.PSD.ImageOptions;
 
 ## 1. Adım: Görüntüyü Yükleyin
 
- Kaynak görüntüyü bir örneğine yükleyin`RasterImage` sınıf.
+Kaynak görüntüyü bir örneğine yükleyin`RasterImage` sınıf.
 
 ```csharp
 //ExStart:Resim Yükle
@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Kontrastı %50 oranında ayarlayın
 
 ## 3. Adım: TIFF Seçenekleri Oluşturun
 
- Bir örneğini oluşturun`TiffOptions` ortaya çıkan görüntü için çeşitli özellikleri ayarlayın ve görüntüyü TIFF formatında kaydedin.
+ Bir örneğini oluşturun`TiffOptions` Ortaya çıkan görüntü için çeşitli özellikleri ayarlayın ve görüntüyü TIFF formatında kaydedin.
 
 ```csharp
 //ExStart:CreateTiffOptions
@@ -92,7 +92,7 @@ Cevap1: Aspose.PSD for .NET, geliştirici dostu olacak şekilde tasarlanmıştı
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap3: Evet, Aspose.PSD for .NET'in ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, Aspose.PSD for .NET'in ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nerede bulabilirim?
 
@@ -100,4 +100,4 @@ Cevap1: Aspose.PSD for .NET, geliştirici dostu olacak şekilde tasarlanmıştı
 
 ### S5: Geçici lisansı nasıl alabilirim?
 
- Cevap 5: Gerekirse geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap 5: İhtiyaç halinde geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

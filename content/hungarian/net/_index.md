@@ -56,7 +56,7 @@ Emelje fel .NET projektjeit az Aspose.PSD segítségével! Sajátítson el olyan
 
 ### [Fájl- és betűtípuskezelés](./file-and-font-handling/)
 
-Emelje fel .NET fejlesztését az Aspose.PSD oktatóanyagokkal. Ismerje meg a betűkészlet-cserét, az XMP-metaadatok létrehozását és a gyorsítótár kezelését az optimális munkafolyamat-hatékonyság érdekében. Főfájl- és fontkezelés részletes útmutatónkkal.
+Emelje fel .NET-fejlesztését az Aspose.PSD oktatóanyagokkal. Ismerje meg a betűkészlet-cserét, az XMP-metaadatok létrehozását és a gyorsítótár kezelését az optimális munkafolyamat-hatékonyság érdekében. Főfájl- és fontkezelés részletes útmutatónkkal.
 
 ## Mester PSD rajztechnikák
 
@@ -93,7 +93,7 @@ Fedezze fel a rétegeffektusok varázsát az Aspose.PSD for .NET segítségével
 ### [Képmanipuláció](./image-manipulation/)
 Emelje fel .NET projektjeit az Aspose.PSD segítségével! Sajátítson el olyan képmanipulációs technikákat, mint a kombinálás, a vágás, az átméretezés, az elforgatás és az effektusok egyszerű hozzáadása.
 ### [Fájl- és betűtípuskezelés](./file-and-font-handling/)
-Emelje fel .NET fejlesztését az Aspose.PSD oktatóanyagokkal. Ismerje meg a betűkészlet-cserét, az XMP-metaadatok létrehozását és a gyorsítótár kezelését az optimális munkafolyamat-hatékonyság érdekében.
+Emelje fel .NET-fejlesztését az Aspose.PSD oktatóanyagokkal. Ismerje meg a betűkészlet-cserét, az XMP-metaadatok létrehozását és a gyorsítótár kezelését az optimális munkafolyamat-hatékonyság érdekében.
 ### [PSD rajztechnikák](./psd-drawing-techniques/)
 Ismerje meg az Aspose.PSD-ben rejlő lehetőségeket .NET-hez oktatóanyagainkkal! Sajátítsd el az alapvető rajzfunkciókat, készíts lenyűgöző grafikákat, és fejleszd képmanipulációs készségeidet.
 ### [Rétegeffektusok](./layer-effects/)

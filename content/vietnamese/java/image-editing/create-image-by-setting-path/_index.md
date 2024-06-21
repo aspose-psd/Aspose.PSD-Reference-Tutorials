@@ -102,8 +102,8 @@ Câu trả lời 1: Có, Aspose.PSD hoạt động trơn tru với nhiều Môi 
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Đ4: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
- Câu trả lời 5: Bạn có thể xin giấy phép tạm thời cho mục đích thử nghiệm[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Bạn có thể xin giấy phép tạm thời cho mục đích thử nghiệm.[đây](https://purchase.aspose.com/temporary-license/).

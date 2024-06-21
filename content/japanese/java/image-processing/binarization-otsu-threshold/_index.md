@@ -17,7 +17,7 @@ Aspose.PSD for Java で Otsu Threshold を使用して 2 値化を実行する�
 
 - Java 開発環境: マシン上に動作する Java 開発環境がセットアップされていることを確認してください。
 
-- Java ライブラリ用 Aspose.PSD: Java ライブラリ用 Aspose.PSD をダウンロードしてインストールします。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java ライブラリ: Aspose.PSD for Java ライブラリをダウンロードしてインストールします。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/psd/java/).
 
 - サンプル PSD ファイル: Otsu しきい値による 2 値化プロセスをテストするためのサンプル PSD ファイルを用意します。
 
@@ -94,7 +94,7 @@ A1: 大津閾値による二値化は、最適な閾値処理に基づいて画�
 
 ### Q3: Aspose.PSD for Java ドキュメントはどこで見つけられますか?
 
-A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/java/).
+A3: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/java/).
 
 ### Q4: Java 用 Aspose.PSD のサポートを取得するにはどうすればよいですか?
 
@@ -102,4 +102,4 @@ A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com
 
 ### Q5: Aspose.PSD for Java に使用できる一時ライセンスはありますか?
 
- A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).

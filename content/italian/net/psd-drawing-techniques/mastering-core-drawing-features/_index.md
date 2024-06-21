@@ -51,7 +51,7 @@ Carica un'immagine PSD esistente nella tua applicazione utilizzando il seguente 
 string dataDir = "Your Document Directory";
 string loadpath = dataDir + "sample.psd";
 
-// Crea un'istanza di Image
+// Crea un'istanza di Immagine
 using (PsdImage image = new PsdImage(loadpath))
 {
     // Il tuo codice qui...
@@ -93,11 +93,11 @@ Congratulazioni! Hai imparato le funzionalità di disegno principali di Aspose.P
 
 ### Q1: dove posso trovare la documentazione Aspose.PSD per .NET?
 
- A1: È possibile accedere alla documentazione[Qui](https://reference.aspose.com/psd/net/).
+ A1: È possibile accedere alla documentazione.[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q2: Come posso scaricare Aspose.PSD per .NET?
 
- A2: Scarica la versione più recente[Qui](https://releases.aspose.com/psd/net/).
+ A2: Scarica la versione più recente.[Qui](https://releases.aspose.com/psd/net/).
 
 ### Q3: Dove posso acquistare Aspose.PSD per .NET?
 
@@ -105,7 +105,7 @@ Congratulazioni! Hai imparato le funzionalità di disegno principali di Aspose.P
 
 ### Q4: È disponibile una prova gratuita?
 
- R4: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi ottenere una prova gratuita.[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso ottenere supporto per Aspose.PSD per .NET?
 

@@ -63,7 +63,7 @@ if (f.exists()) {
 ```
 Nu har du framgångsrikt exporterat bilder i en flertrådig miljö med Aspose.PSD för Java!
 ## Slutsats
-den här handledningen utforskade vi den sömlösa processen att exportera bilder med Aspose.PSD för Java i en flertrådig installation. Förhöj din Java-applikations bildbehandlingskapacitet med kraften i Aspose.PSD.
+I den här handledningen utforskade vi den sömlösa processen att exportera bilder med Aspose.PSD för Java i en flertrådig installation. Förhöj din Java-applikations bildbehandlingskapacitet med kraften i Aspose.PSD.
 ## Vanliga frågor
 ### Är Aspose.PSD kompatibel med alla Java-versioner?
 Aspose.PSD är kompatibel med Java 1.7 och senare versioner.

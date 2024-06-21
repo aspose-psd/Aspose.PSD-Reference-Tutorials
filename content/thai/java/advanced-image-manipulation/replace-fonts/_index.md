@@ -39,9 +39,9 @@ import com.aspose.psd.imageoptions.PngOptions;
 String dataDir = "Your Document Directory";
 ```
 
-## ขั้นตอนที่ 2: โหลดรูปภาพ
+## ขั้นตอนที่ 2: โหลดภาพ
 
- ใช้`Image.load` วิธีการโหลดไฟล์ PSD ลงในอินสแตนซ์ของ`PsdImage` . ใช้`PsdLoadOptions` และตั้งค่าแบบอักษรทดแทนเริ่มต้น ในกรณีนี้คือ "Arial"
+ ใช้`Image.load` วิธีการโหลดไฟล์ PSD ลงในอินสแตนซ์ของ`PsdImage` - ใช้`PsdLoadOptions` และตั้งค่าแบบอักษรทดแทนเริ่มต้น ในกรณีนี้คือ "Arial"
 
 ```java
 PsdLoadOptions psdLoadOptions = new PsdLoadOptions(); 
@@ -50,7 +50,7 @@ psdLoadOptions.setDefaultReplacementFont("Arial");
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "Cloud_AzPlat_Banner3A_SB_EN_US_160x600_chinese_font.psd", psdLoadOptions);
 ```
 
-## ขั้นตอนที่ 3: บันทึกรูปภาพที่ถูกแทนที่
+## ขั้นตอนที่ 3: บันทึกภาพที่แทนที่
 
  เมื่อโหลดรูปภาพแล้ว ให้ใช้ไฟล์`save` วิธีจัดเก็บภาพที่แก้ไข ในตัวอย่างนี้ เรากำลังบันทึกรูปภาพในรูปแบบ PNG
 

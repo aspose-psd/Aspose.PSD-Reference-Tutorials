@@ -104,8 +104,8 @@ image.save(destName, new GifOptions());
 
 ### س4: هل يمكنني تجربة Aspose.PSD لـ Java قبل الشراء؟
 
- ج4: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك استكشاف النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
-ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+ج5: الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.

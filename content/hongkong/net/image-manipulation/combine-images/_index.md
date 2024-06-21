@@ -92,7 +92,7 @@ image.Save();
 
 A1：是的，Aspose.PSD 與所有版本的 .NET 相容，確保您的開發專案的多功能性。
 
-### Q2：我可以將Aspose.PSD用於商業用途嗎？
+### Q2：我可以將Aspose.PSD用於商業目的嗎？
 
 A2：是的，Aspose.PSD 可用於個人和商業目的。檢查許可詳細信息[這裡](https://purchase.aspose.com/buy).
 
@@ -102,8 +102,8 @@ A2：是的，Aspose.PSD 可用於個人和商業目的。檢查許可詳細信�
 
 ### Q4：Aspose.PSD 有免費試用版嗎？
 
- A4：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+ A4：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
 
 ### Q5：我可以獲得 Aspose.PSD 的臨時授權嗎？
 
-A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+A5: 是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).

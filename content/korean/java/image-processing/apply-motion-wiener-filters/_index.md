@@ -9,9 +9,9 @@ url: /ko/java/image-processing/apply-motion-wiener-filters/
 ---
 ## 소개
 
-이미지 처리의 역동적인 세계에서 Java용 Aspose.PSD는 개발자가 모션 위너 필터를 쉽게 적용할 수 있도록 하는 강력한 도구로 등장합니다. 이 단계별 가이드는 프로세스를 안내하여 Java 개발자가 이미지 조작을 쉽게 수행할 수 있도록 해줍니다.
+이미지 처리의 역동적인 세계에서 Java용 Aspose.PSD는 개발자가 Motion Wiener 필터를 쉽게 적용할 수 있도록 하는 강력한 도구로 등장합니다. 이 단계별 가이드는 프로세스를 안내하여 Java 개발자가 이미지 조작을 쉽게 수행할 수 있도록 해줍니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -90,7 +90,7 @@ Java용 Aspose.PSD를 사용하여 원활한 이미지 처리를 위해 이 단�
 
 ## FAQ
 
-### Q1: 다른 프로그래밍 언어와 함께 Java용 Aspose.PSD를 사용할 수 있나요?
+### Q1: 다른 프로그래밍 언어와 함께 Java용 Aspose.PSD를 사용할 수 있습니까?
 
 A1: Aspose.PSD는 주로 Java를 지원하지만 Aspose는 .NET, Python 등과 같은 다른 언어에 대해서도 유사한 라이브러리를 제공합니다.
 
@@ -108,4 +108,4 @@ A2: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 다양한 파�
 
 ### Q5: Java용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
-A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+A5: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.

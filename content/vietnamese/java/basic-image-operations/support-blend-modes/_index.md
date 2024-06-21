@@ -58,7 +58,7 @@ Xuất các tệp PSD đã tải sang định dạng PNG. Điều chỉnh các t
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Lưu dưới dạng PNG với độ mờ 100%
+// Lưu dưới dạng PNG với độ mờ 100%.
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 // Đặt độ mờ thành 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Lưu dưới dạng PNG với độ mờ 50%
+// Lưu dưới dạng PNG với độ mờ 50%.
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 
@@ -98,7 +98,7 @@ Câu trả lời 2: Aspose.PSD cho Java được thiết kế để xử lý cá
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
 
- A3: Thăm quan[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trên trang web để có được giấy phép tạm thời.
+ A3: Tham quan[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trên trang web để có được giấy phép tạm thời.
 
 ### Câu hỏi 4: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD cho Java không?
 

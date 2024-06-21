@@ -106,7 +106,7 @@ Dibuja cuatro líneas continuas con diferentes colores usando pinceles sólidos 
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
- R3: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -114,4 +114,4 @@ Dibuja cuatro líneas continuas con diferentes colores usando pinceles sólidos 
 
 ### P5: ¿Necesito una licencia temporal de Aspose.PSD para .NET?
 
- R5: Si es necesario, puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Si es necesario, puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

@@ -105,8 +105,8 @@ image.Save(outpath, saveOptions);
 
 ### Q4: Aspose.PSD のライセンスはどこで購入できますか?
 
- A4: ライセンスを購入できます[ここ](https://purchase.aspose.com/buy).
+ A4: ライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
 
 ### Q5: 購入する前に、Aspose.PSD for .NET を無料で試用できますか?
 
-A5: はい、無料トライアルをダウンロードできます。[ここ](https://releases.aspose.com/).
+ A5: はい、無料トライアルをダウンロードできます。[ここ](https://releases.aspose.com/).

@@ -11,7 +11,7 @@ url: /ko/java/advanced-techniques/save-images-to-stream/
 
 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지를 스트림에 저장하는 방법을 살펴보겠습니다. Aspose.PSD는 PSD(Photoshop Document) 파일을 처리하고 조작하기 위한 강력한 Java 라이브러리입니다. PSD 이미지를 스트림에 저장하는 기능으로 Java 애플리케이션을 향상시키려면 이 가이드에 설명된 단계를 따르세요.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 
@@ -70,7 +70,7 @@ psdImage.save(outputStream, new PngOptions());
 
  만들기`FileOutputStream` 대상 파일에 대해 PNG 옵션을 사용하여 PSD 이미지를 스트림에 저장합니다.
 
-특정 사용 사례에 필요에 따라 이 단계를 반복합니다.
+특정 사용 사례에 필요에 따라 이 단계를 반복하세요.
 
 ## 결론
 

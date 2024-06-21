@@ -83,4 +83,4 @@ A2: Assolutamente! Aspose.PSD offre flessibilità per l'applicazione di rotazion
 
 ### Q5: Come posso ottenere una licenza temporanea?
 
- R5: Se hai bisogno di una licenza temporanea, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: Se hai bisogno di una licenza temporanea, puoi ottenerne una.[Qui](https://purchase.aspose.com/temporary-license/).

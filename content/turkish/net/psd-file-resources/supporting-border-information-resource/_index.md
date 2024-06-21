@@ -8,7 +8,7 @@ weight: 11
 url: /tr/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## giriiş
-Aspose.PSD for .NET'teki Sınır Bilgi Kaynağı özelliğinin kullanımına ilişkin adım adım kılavuzumuza hoş geldiniz. Bu eğitimde, güçlü bir .NET görüntüleme kütüphanesi olan Aspose.PSD'yi kullanarak Border Information Resources ile çalışma sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim Sınır Bilgi Kaynaklarını projelerinize sorunsuz bir şekilde dahil etme konusunda netlik sağlamayı amaçlamaktadır.
+Aspose.PSD for .NET'teki Sınır Bilgi Kaynağı özelliğinin kullanımına ilişkin adım adım kılavuzumuza hoş geldiniz. Bu eğitimde, güçlü bir .NET görüntüleme kütüphanesi olan Aspose.PSD'yi kullanarak Border Information Resources ile çalışma sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim Sınır Bilgi Kaynaklarını projelerinize sorunsuz bir şekilde entegre etme konusunda netlik sağlamayı amaçlamaktadır.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 -  Aspose.PSD for .NET: Aspose.PSD kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.PSD web sitesi](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ Cevap1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur.
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Nasıl destek alabilirim?
 
@@ -88,4 +88,4 @@ Cevap1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur.
 
 ### S5: Geçici lisanslar mevcut mu?
 
- Cevap5: Evet, geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisanslar alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

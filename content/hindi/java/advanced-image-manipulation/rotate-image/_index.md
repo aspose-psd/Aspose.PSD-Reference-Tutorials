@@ -83,4 +83,4 @@ A1: हां, Aspose.PSD PSD, JPEG, PNG और अन्य सहित वि
 
 ### Q5: मैं अस्थायी लाइसेंस कैसे प्राप्त करूं?
 
- A5: यदि आपको अस्थायी लाइसेंस की आवश्यकता है, तो आप एक प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A5: यदि आपको अस्थायी लाइसेंस की आवश्यकता है, तो आप एक प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/).

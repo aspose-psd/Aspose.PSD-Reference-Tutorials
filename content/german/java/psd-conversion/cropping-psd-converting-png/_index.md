@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Schritt 3: Definieren Sie den Zuschneidebereich
 ```java
-// Erstellen Sie eine Instanz der Klasse „Rechteck“, indem Sie x, y, Breite und Höhe übergeben
+//Erstellen Sie eine Instanz der Klasse „Rechteck“, indem Sie x, y, Breite und Höhe übergeben
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Schritt 4: PSD-Bild zuschneiden
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Erstellen Sie eine Instanz der PngOptions-Klasse
 PngOptions pngOptions = new PngOptions();
 ```
-## Schritt 6: Zugeschnittenes Bild als PNG speichern
+## Schritt 6: Zugeschnittenes Bild als PNG speichern.
 ```java
 // Geben Sie den Ausgabepfad und PNGOptions an, um die PSD-Datei in PNG zu konvertieren und die Ausgabe zu speichern
 String destName = dataDir + "export.png";

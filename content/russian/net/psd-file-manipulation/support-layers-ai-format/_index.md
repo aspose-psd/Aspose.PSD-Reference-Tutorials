@@ -53,7 +53,7 @@ AssertIsTrue(layer0.Name == "Layer 4", "Layer 0 name should be `Layer 4`");
 AiRasterImageSection rasterImage = layer1.RasterImages[0];
 // Ваши утверждения и подтверждения для растрового изображения находятся здесь.
 ```
-## Шаг 5. Сохраните обработанные изображения
+## Шаг 5. Сохраните обработанные изображения.
 Наконец, сохраните обработанные изображения в форматах PSD и PNG:
 ```csharp
 image.Save(outputFilePath + ".psd", new PsdOptions());

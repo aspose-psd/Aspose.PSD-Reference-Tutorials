@@ -9,7 +9,7 @@ url: /vi/net/image-processing/apply-gaussian-wiener-filters/
 ---
 ## Giới thiệu
 
-Trong lĩnh vực xử lý hình ảnh bằng .NET, Aspose.PSD nổi bật như một bộ công cụ mạnh mẽ cho phép các nhà phát triển thao tác với hình ảnh một cách dễ dàng. Một tính năng đặc biệt hữu ích là ứng dụng bộ lọc Gaussian và Wiener. Những bộ lọc này đóng một vai trò quan trọng trong việc nâng cao chất lượng hình ảnh, giảm nhiễu và đảm bảo sự hấp dẫn thị giác tối ưu.
+Trong lĩnh vực xử lý hình ảnh bằng .NET, Aspose.PSD nổi bật như một bộ công cụ mạnh mẽ cho phép các nhà phát triển thao tác hình ảnh một cách dễ dàng. Một tính năng đặc biệt hữu ích là ứng dụng bộ lọc Gaussian và Wiener. Những bộ lọc này đóng một vai trò quan trọng trong việc nâng cao chất lượng hình ảnh, giảm nhiễu và đảm bảo sự hấp dẫn thị giác tối ưu.
 
 ## Điều kiện tiên quyết
 

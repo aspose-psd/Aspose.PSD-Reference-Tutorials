@@ -17,7 +17,7 @@ Sei pronto a migliorare le tue capacità di manipolazione delle immagini? Immerg
 
 ## Implementazione della regolazione del contrasto
 
- Impara l'arte della regolazione del contrasto[Aspose.PSD per .NET](./contrast-adjustment/). La nostra guida ti accompagna attraverso il processo, mostrandoti come aggiungere profondità e vivacità alle tue immagini. Segui i passaggi per ottenere contrasti dall'aspetto professionale nei tuoi progetti.
+ Impara l'arte della regolazione del contrasto in[Aspose.PSD per .NET](./contrast-adjustment/). La nostra guida ti accompagna attraverso il processo, mostrandoti come aggiungere profondità e vivacità alle tue immagini. Segui i passaggi per ottenere contrasti dall'aspetto professionale nei tuoi progetti.
 
 ## Implementazione della regolazione gamma
 

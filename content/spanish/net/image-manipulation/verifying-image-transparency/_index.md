@@ -9,7 +9,7 @@ url: /es/net/image-manipulation/verifying-image-transparency/
 ---
 ## Introducción
 
-¡Bienvenido a un tutorial completo sobre cómo verificar la transparencia de la imagen usando Aspose.PSD para .NET! En esta guía, lo guiaremos a través del proceso de verificar la transparencia de la imagen en sus archivos PSD utilizando la poderosa biblioteca Aspose.PSD. Si es un desarrollador experimentado o recién está comenzando, este tutorial le brindará las habilidades necesarias para manejar sin problemas la transparencia de imágenes en sus aplicaciones .NET.
+¡Bienvenido a un tutorial completo sobre cómo verificar la transparencia de la imagen usando Aspose.PSD para .NET! En esta guía, lo guiaremos a través del proceso de verificar la transparencia de la imagen en sus archivos PSD utilizando la poderosa biblioteca Aspose.PSD. Si es un desarrollador experimentado o recién comienza, este tutorial le brindará las habilidades necesarias para manejar sin problemas la transparencia de imágenes en sus aplicaciones .NET.
 
 ## Requisitos previos
 
@@ -86,8 +86,8 @@ R1: Sí, Aspose.PSD es compatible con los últimos frameworks .NET.
 
 ### P4: ¿Cómo obtengo una licencia temporal para Aspose.PSD?
 
- R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R4: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P5: ¿Puedo probar Aspose.PSD gratis antes de comprarlo?
 
-R5: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/).
+R5: Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).

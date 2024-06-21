@@ -86,7 +86,7 @@ Gratulacje! Pomyślnie nauczyłeś się przeprowadzać binaryzację za pomocą p
 
 ### P1: Co to jest binaryzacja z progiem Otsu?
 
-Odpowiedź 1: Binaryzacja za pomocą progu Otsu to metoda stosowana do segmentacji obrazu, oddzielająca obraz na pierwszy plan i tło w oparciu o optymalne progowanie.
+Odpowiedź 1: Binaryzacja z progiem Otsu to metoda stosowana do segmentacji obrazu, oddzielająca obraz na pierwszy plan i tło w oparciu o optymalne progowanie.
 
 ### P2: Czy mogę używać Aspose.PSD dla Java za darmo?
 
@@ -94,12 +94,12 @@ Odpowiedź 1: Binaryzacja za pomocą progu Otsu to metoda stosowana do segmentac
 
 ### P3: Gdzie mogę znaleźć dokumentację Aspose.PSD dla Java?
 
-A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/java/).
+A3: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/java/).
 
 ### P4: Jak uzyskać wsparcie dla Aspose.PSD dla Java?
 
- A4: Odwiedź forum Aspose.PSD[Tutaj](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+ A4: Odwiedź forum Aspose.PSD[Tutaj](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
 
 ### P5: Czy dostępna jest tymczasowa licencja na Aspose.PSD dla Java?
 
- Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).

@@ -101,7 +101,7 @@ A3: Assolutamente! Aspose.PSD per .NET è progettato su misura per le attività 
 
 ### Q4: Dove posso trovare il supporto della community per Aspose.PSD per .NET?
 
- A4: Unisciti alla comunità Aspose.PSD su[questo forum](https://forum.aspose.com/c/psd/34) per discussioni e supporto.
+ A4: Unisciti alla comunità Aspose.PSD su[questo forum](https://forum.aspose.com/c/psd/34) per discussione e supporto.
 
 ### Q5: Esistono risorse gratuite per l'apprendimento di Aspose.PSD per .NET?
 

@@ -79,7 +79,7 @@ Gratulálunk! Sikeresen elsajátította a „WorkingPathResource” használatá
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -87,4 +87,4 @@ Gratulálunk! Sikeresen elsajátította a „WorkingPathResource” használatá
 
 ### 5. kérdés: Ideiglenes engedélyre van szüksége?
 
- V5: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Szerezzen ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).

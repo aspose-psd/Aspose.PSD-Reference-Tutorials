@@ -10,7 +10,7 @@ url: /hu/java/advanced-image-manipulation/
 
 ## Bevezetés
 
-Ha a Java fejlett képmanipulációinak világában merül el, az Aspose.PSD gondoskodik róla. Ebben az útmutatóban végigvezetünk egy sor oktatóanyagon, amelyek mindegyike az Aspose.PSD for Java képfeldolgozási képességeinek új dimenzióját nyitja meg.
+Ha a Java fejlett képmanipulációinak világában merül el, az Aspose.PSD gondoskodik róla. Ebben az útmutatóban egy sor oktatóanyagot mutatunk be, amelyek mindegyike az Aspose.PSD for Java képfeldolgozási képességeinek új dimenzióját nyitja meg.
 
 ## Hatékony betűtípuscsere a képekben
 ### [Cserélje le a betűtípusokat az Aspose.PSD for Java fájlban](./replace-fonts/)
@@ -36,7 +36,7 @@ Merüljön el az Invert Adjustment Layer erejében az Aspose.PSD for Java-ban. S
 ### [Rendering Color Effect alkalmazása az Aspose.PSD for Java fájlban](./rendering-color-effect/)
 Fejlessze Java-alkalmazásait dinamikus színfedőkkel az Aspose.PSD segítségével. Útmutatónk zökkenőmentes integrációt és lenyűgöző vizuális effektusokat biztosít.
 
-## vetett árnyékok renderelésének elsajátítása
+## A vetett árnyékok renderelésének elsajátítása
 ### [Alkalmazza az árnyékolás megjelenítését az Aspose.PSD for Java fájlban](./rendering-drop-shadow/)
 Tekintse meg az Aspose.PSD for Java programban a vetési árnyékok alkalmazásának lépésenkénti útmutatóját. Fejlessze képfeldolgozási készségeit könnyedén.
 
@@ -44,7 +44,7 @@ Tekintse meg az Aspose.PSD for Java programban a vetési árnyékok alkalmazás�
 ### [A kép arányos átméretezése az Aspose.PSD for Java segítségével](./resize-image-proportionally/)
 Növelje Java-alkalmazásait az Aspose.PSD segítségével. Útmutatónk végigvezeti Önt a képek arányos átméretezésén, erőfeszítés nélkül.
 
-## Kép átméretezése mesteri átméretezés típus felsorolással
+## Kép átméretezési mesteri tudás átméretezési típus felsorolással
 ### [Átméretezés a Resize Type Enumeration segítségével az Aspose.PSD for Java fájlban](./resizing-with-resize-type-enumeration/)
 Mester képméretezés Java nyelven az Aspose.PSD segítségével. A Resize Type Enumeration használatával lépésről lépésre bemutatott útmutatónk biztosítja a pontosságot és a hatékonyságot.
 

@@ -94,4 +94,4 @@ Odpověď 2: Ano, Aspose.PSD podporuje širokou škálu obrazových formátů, v
 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A5: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).

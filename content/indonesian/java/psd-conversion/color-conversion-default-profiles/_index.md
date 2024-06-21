@@ -1,7 +1,7 @@
 ---
 title: Tutorial Menguasai Konversi Warna - Aspose.PSD untuk Java
 linktitle: Konversi Warna menggunakan Profil Default
-second_title: Aspose.PSD Java API
+second_title: Asumsikan.PSD Java API
 description: Tingkatkan pemrosesan gambar Java dengan Aspose.PSD! Pelajari konversi warna menggunakan profil default untuk gambar yang cerah dan disesuaikan. Jelajahi sekarang!
 type: docs
 weight: 11

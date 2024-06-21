@@ -85,4 +85,4 @@ A1: Ja, Aspose.PSD voor Java is ontworpen om naadloos samen te werken met andere
 
 ### Vraag 5: Heb ik een tijdelijke licentie nodig om te testen?
 
- A5: Als u de bibliotheek test, kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Als u de bibliotheek test, kunt u een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).

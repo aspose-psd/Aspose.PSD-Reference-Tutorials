@@ -77,7 +77,7 @@ A1: はい、Aspose.PSD for .NET は、Photoshop のさまざまなバージョ�
 
 ### Q3: Aspose.PSD for .NET の詳細なドキュメントはどこで見つけられますか?
 
-A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com/psd/net/).
+A3: ドキュメントは入手可能です。[ここ](https://reference.aspose.com/psd/net/).
 
 ### Q4: Aspose.PSD for .NET のサポートを受けるにはどうすればよいですか?
 
@@ -85,4 +85,4 @@ A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com
 
 ### Q5: Aspose.PSD for .NET のライセンスはどのように購入すればよいですか?
 
- A5: ライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+ A5: ライセンスを購入することができます。[ここ](https://purchase.aspose.com/buy).

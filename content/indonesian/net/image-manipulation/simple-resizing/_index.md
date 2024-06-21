@@ -70,7 +70,7 @@ Menguasai pengubahan ukuran gambar adalah keterampilan mendasar dalam perangkat 
 
 ## FAQ
 
-### Q1: Bisakah saya mengubah ukuran gambar ke rasio aspek tertentu menggunakan Aspose.PSD untuk .NET?
+### Q1: Dapatkah saya mengubah ukuran gambar ke rasio aspek tertentu menggunakan Aspose.PSD untuk .NET?
 
 A1: Ya, Anda dapat mempertahankan rasio aspek tertentu sambil mengubah ukuran gambar dengan menyesuaikan lebar atau tinggi.
 

@@ -76,7 +76,7 @@ Forzare la cache dei caratteri in Aspose.PSD per .NET è un processo semplice, c
 
 ## Domande frequenti
 
-### Q1: Aspose.PSD per .NET è compatibile con tutte le versioni di file PSD?
+### Q1: Aspose.PSD per .NET è compatibile con tutte le versioni dei file PSD?
 
 A1: Sì, Aspose.PSD per .NET supporta varie versioni di file PSD, fornendo una compatibilità completa.
 

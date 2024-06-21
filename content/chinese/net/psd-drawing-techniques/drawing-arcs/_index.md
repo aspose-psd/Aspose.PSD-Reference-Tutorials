@@ -93,11 +93,11 @@ image.Save(outpath, saveOptions);
 
 ### Q1：在哪里可以找到 Aspose.PSD for .NET 的文档？
 
- A1：文档可以找到[这里](https://reference.aspose.com/psd/net/).
+ A1：可以找到文档。[这里](https://reference.aspose.com/psd/net/).
 
 ### Q2：如何获得Aspose.PSD的临时许可证？
 
- A2：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A2：您可以获得临时许可证。[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q3：是否有支持 Aspose.PSD 的社区论坛？
 
@@ -105,8 +105,8 @@ image.Save(outpath, saveOptions);
 
 ### Q4：在哪里可以购买 Aspose.PSD 的许可证？
 
- A4：您可以购买许可证[这里](https://purchase.aspose.com/buy).
+ A4：您可以购买许可证。[这里](https://purchase.aspose.com/buy).
 
 ### Q5：我可以在购买前免费试用 Aspose.PSD for .NET 吗？
 
-A5：是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
+ A5：是的，您可以下载免费试用版。[这里](https://releases.aspose.com/).

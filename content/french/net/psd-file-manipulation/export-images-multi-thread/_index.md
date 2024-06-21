@@ -68,11 +68,11 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge différentes versions de fichiers
 
 ### Q3 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 
- A3 : Rejoignez la communauté Aspose.PSD[forum](https://forum.aspose.com/c/psd/34) pour obtenir l'aide d'experts et d'autres développeurs.
+ A3 : Rejoignez la communauté Aspose.PSD.[forum](https://forum.aspose.com/c/psd/34) pour obtenir l'aide d'experts et d'autres développeurs.
 
 ### Q4 : Existe-t-il un essai gratuit ?
 
- A4 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/) pour explorer Aspose.PSD pour les fonctionnalités de .NET avant de vous engager.
+ A4 : Oui, vous pouvez accéder à un essai gratuit.[ici](https://releases.aspose.com/) pour explorer Aspose.PSD pour les fonctionnalités de .NET avant de vous engager.
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour .NET ?
 

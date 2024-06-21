@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Kırpılan görüntüyü belirtilen yolu kullanarak PSD formatında kaydedin.
 
-## Adım 5: Kırpılmış Resmi PNG Olarak Kaydet
+## Adım 5: Kırpılmış Resmi PNG olarak kaydedin.
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -83,7 +83,7 @@ Ayrıca kırpılan görüntüyü belirli seçeneklerle PNG formatında kaydedin.
 
 ## Çözüm
 
-Tebrikler! Aspose.PSD for Java'yı kullanarak bir PSD dosyasını nasıl kırpacağınızı başarıyla öğrendiniz. Bu eğitim, ilgili temel adımların temel bir anlayışını sağlayarak, bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre etmenize olanak sağlar.
+Tebrikler! Aspose.PSD for Java'yı kullanarak bir PSD dosyasını nasıl kırpacağınızı başarıyla öğrendiniz. Bu eğitim, ilgili temel adımların temel bir anlayışını sağlayarak, bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre etmenizi sağlar.
 
 ## SSS'ler
 
@@ -105,4 +105,4 @@ Cevap2: Evet, Aspose.PSD for Java performans açısından optimize edilmiştir, 
 
 ### S5: Satın almadan önce Aspose.PSD for Java'yı deneyebilir miyim?
 
- Cevap5: Evet, ücretsiz deneme sürümüyle özellikleri keşfedin[Burada](https://releases.aspose.com/).
+ C5: Evet, ücretsiz deneme sürümüyle özellikleri keşfedin.[Burada](https://releases.aspose.com/).

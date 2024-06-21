@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Βήμα 3: Ορισμός Περιοχής Περικοπής
 ```java
-// Δημιουργήστε μια παρουσία της κλάσης Rectangle περνώντας x, y, πλάτος και ύψος
+//Δημιουργήστε μια παρουσία της κλάσης Rectangle περνώντας x, y, πλάτος και ύψος
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Βήμα 4: Περικοπή εικόνας PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Δημιουργήστε μια παρουσία της κλάσης PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Βήμα 6: Αποθήκευση περικομμένης εικόνας ως PNG
+## Βήμα 6: Αποθήκευση περικομμένης εικόνας ως PNG.
 ```java
 // Παρέχετε διαδρομή εξόδου και PngOptions για να μετατρέψετε το αρχείο PSD σε PNG και να αποθηκεύσετε την έξοδο
 String destName = dataDir + "export.png";

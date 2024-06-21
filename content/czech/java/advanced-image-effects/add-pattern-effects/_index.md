@@ -97,7 +97,7 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 ## Krok 5: Uložte upravený obrázek
 
 ```java
-// Upravený obrázek uložte
+// Uložte upravený obrázek
 settings.setPatternName(newPatternName);
 settings.setPatternId(guid.toString() + "\0");
 im.save(exportPath);
@@ -129,7 +129,7 @@ Odpověď 1: Aspose.PSD for Java je navržen tak, aby fungoval nezávisle, ale v
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro Java?
 
@@ -137,4 +137,4 @@ Odpověď 1: Aspose.PSD for Java je navržen tak, aby fungoval nezávisle, ale v
 
 ### Q5: Mohu získat dočasnou licenci pro Aspose.PSD pro Java?
 
-A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /id/net/psd-file-manipulation/support-layers-ai-format/
 ---
-Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan Aspose.PSD untuk .NET guna menangani lapisan pendukung dalam file berformat AI. Aspose.PSD menyederhanakan tugas-tugas kompleks, sehingga memudahkan pengembang untuk bekerja dengan file AI di aplikasi .NET mereka. Dalam tutorial ini, kita akan membahas prasyarat, mengimpor namespace, dan membagi setiap contoh menjadi beberapa langkah untuk memastikan pengalaman pembelajaran yang lancar.
+Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan Aspose.PSD untuk .NET guna menangani lapisan pendukung dalam file berformat AI. Aspose.PSD menyederhanakan tugas-tugas kompleks, sehingga memudahkan pengembang untuk bekerja dengan file AI dalam aplikasi .NET mereka. Dalam tutorial ini, kita akan membahas prasyarat, mengimpor namespace, dan membagi setiap contoh menjadi beberapa langkah untuk memastikan pengalaman pembelajaran yang lancar.
 ## Perkenalan
 ### Apa itu Aspose.PSD?
 Aspose.PSD untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi dan memproses file Adobe Photoshop, termasuk format AI (Adobe Illustrator). Dalam tutorial ini, kami akan fokus pada mendukung lapisan dalam file AI, menunjukkan cara mengekstrak informasi berharga dari setiap lapisan.

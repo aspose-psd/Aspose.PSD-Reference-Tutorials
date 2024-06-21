@@ -9,7 +9,7 @@ url: /tr/java/advanced-image-manipulation/rotate-image/
 ---
 ## giriiş
 
-Aspose.PSD for Java, görüntülerle çalışmak için güçlü bir dizi özellik sunarak geliştiricilerin PSD dosyalarını etkili bir şekilde değiştirmesine ve işlemesine olanak tanır. Bu eğitimde belirli bir göreve odaklanacağız: bir görüntüyü döndürme. İster bir fotoğraf düzenleme uygulaması oluşturuyor olun ister yalnızca bir görüntünün yönünü ayarlamanız gerekiyor olsun, Aspose.PSD süreci kolaylaştırır.
+Aspose.PSD for Java, görüntülerle çalışmak için güçlü bir dizi özellik sunarak geliştiricilerin PSD dosyalarını verimli bir şekilde yönetmesine ve işlemesine olanak tanır. Bu eğitimde belirli bir göreve odaklanacağız: bir görüntüyü döndürme. İster bir fotoğraf düzenleme uygulaması oluşturuyor olun ister yalnızca bir görüntünün yönünü ayarlamanız gerekiyor olsun, Aspose.PSD süreci kolaylaştırır.
 
 ## Önkoşullar
 
@@ -83,4 +83,4 @@ A2: Kesinlikle! Aspose.PSD, özel gereksinimlerinizi karşılamak için özel ro
 
 ### S5: Geçici lisansı nasıl edinebilirim?
 
- Cevap5: Geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

@@ -13,7 +13,7 @@ url: /ko/net/file-and-font-handling/create-images-setting-path/
 
 .NET용 Aspose.PSD는 개발자가 Photoshop 파일을 사용하여 원활하게 작업할 수 있도록 지원하여 이미지 생성, 조작 및 변환을 가능하게 합니다. 본 튜토리얼은 .NET 환경에서 Aspose.PSD를 사용하여 경로를 설정하여 이미지를 생성하기 위한 필수 단계에 중점을 둡니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
- 프로젝트에 Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/psd/net/).
+프로젝트에 Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/psd/net/).
 
 ## 1단계: 문서 디렉터리 정의
 

@@ -102,4 +102,4 @@ canvas.Save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 
 ### س5: هل يمكنني تجربة Aspose.PSD قبل الشراء؟
 
- ج5: بالتأكيد، تتوفر نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج5: بالتأكيد، تتوفر نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).

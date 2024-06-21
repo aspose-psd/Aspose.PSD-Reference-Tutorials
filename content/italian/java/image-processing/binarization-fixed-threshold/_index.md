@@ -96,8 +96,8 @@ A1: Sì, Aspose.PSD supporta vari formati di immagine, rendendo la binarizzazion
 
 ### Q4: Come posso acquistare la libreria Aspose.PSD?
 
- A4: È possibile acquistare la libreria Aspose.PSD[Qui](https://purchase.aspose.com/buy).
+ A4: È possibile acquistare la libreria Aspose.PSD.[Qui](https://purchase.aspose.com/buy).
 
 ### Q5: È disponibile una versione di prova gratuita?
 
- A5: Sì, puoi esplorare le funzionalità di Aspose.PSD con una versione di prova gratuita[Qui](https://releases.aspose.com/).
+ A5: Sì, puoi esplorare le funzionalità di Aspose.PSD con una versione di prova gratuita.[Qui](https://releases.aspose.com/).
