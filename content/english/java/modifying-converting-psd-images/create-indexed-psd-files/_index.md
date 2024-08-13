@@ -9,20 +9,18 @@ url: /java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.ColorModes;
 import com.aspose.psd.fileformats.psd.CompressionMethod;
 import com.aspose.psd.fileformats.psd.PsdColorPalette;
@@ -39,7 +37,7 @@ public class CreateIndexedPSDFiles {
     public static void main(String[] args) 
     {
        //ExStart:CreateIndexedPSDFiles
-       String dataDir = Utils.getDataDir(CreateIndexedPSDFiles.class) + "PSD/";
+       String dataDir = "Your Document Directory";
        
         // Create an instance of PsdOptions and set it's properties
             PsdOptions createOptions = new PsdOptions();

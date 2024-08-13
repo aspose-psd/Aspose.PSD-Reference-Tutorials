@@ -9,17 +9,15 @@ url: /java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Image;
 import com.aspose.psd.Point;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.LayerResource;
@@ -36,7 +34,7 @@ public class SupportOfVmskResource {
          
          //ExStart:SupportOfVmskResource
      
-        String dataDir = Utils.getDataDir(SupportOfVmskResource.class) + "PSD/";
+        String dataDir = "Your Document Directory";
         
         String sourceFileName = dataDir+ "Rectangle.psd";
     String exportPath = dataDir + "Rectangle_changed.psd";

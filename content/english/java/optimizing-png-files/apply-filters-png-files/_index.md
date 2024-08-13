@@ -9,16 +9,14 @@ url: /java/optimizing-png-files/apply-filters-png-files/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PNG;
+
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.png.PngFilterType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -31,7 +29,7 @@ public class ApplyFilterMethod {
     public static void main(String[] args) 
     {
        //ExStart:ApplyFilterMethod
-       String dataDir = Utils.getDataDir(ApplyFilterMethod.class) + "ModifyingAndConvertingImages/";
+       String dataDir = "Your Document Directory";
        
        PsdImage psdImage = (PsdImage)Image.load(dataDir + "sample.psd");
        

@@ -10,11 +10,9 @@ url: /java/psd-image-modification-conversion/format-text-portions-psd-files/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
@@ -33,8 +31,8 @@ public class FormatTextPortions
     public static void main(String[] args)
     {
         //ExStart:FormatTextPortions
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         String inPsdFilePath = sourceDir + "ThreeColorsParagraphs.psd";
         String outPsdFilePath = outputDir + "ThreeColorsParagraph_out.psd";

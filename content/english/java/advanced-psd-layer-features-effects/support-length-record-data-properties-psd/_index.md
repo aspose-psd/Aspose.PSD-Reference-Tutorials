@@ -10,10 +10,8 @@ url: /java/advanced-psd-layer-features-effects/support-length-record-data-proper
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.LayerResource;
 import com.aspose.psd.fileformats.psd.layers.layerresources.VsmsResource;
@@ -30,8 +28,8 @@ public class SupportLengthRecordDataProperties
     public static void main(String[] args)
     {
         //ExStart:SupportLengthRecordDataProperties
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         String inPsdFilePath = sourceDir + "PathOperationsShape.psd";
         String outPsdFilePath = outputDir + "out_PathOperationsShape.psd";

@@ -10,9 +10,7 @@ url: /java/modifying-converting-psd-images/add-fill-layers-psd-files/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.filllayers.FillLayer;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -25,7 +23,7 @@ public class AddFillLayers
     public static void main(String[] args)
     {
         //ExStart:AddFillLayers
-        String outputDir = Utils.GetDataDir_Output();
+        String outputDir = "Your Document Directory";
         String outPsdFilePath = outputDir + "output.psd";
 
         // Create a Photoshop document with an empty canvas

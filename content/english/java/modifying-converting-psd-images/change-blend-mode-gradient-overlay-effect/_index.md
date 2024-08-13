@@ -10,10 +10,8 @@ url: /java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-ef
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.layereffects.GradientOverlayEffect;
@@ -26,8 +24,8 @@ public class ChangeBlendModeInGradientOverlayEffect
     public static void main(String[] args)
     {
         //ExStart:ChangeBlendModeInGradientOverlayEffect
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         String inPsdFilePath = sourceDir + "psdnet585.psd";
         String outPsdFilePath = outputDir + "out_psdnet585.psd";

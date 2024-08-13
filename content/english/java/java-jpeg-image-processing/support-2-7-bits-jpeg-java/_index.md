@@ -21,7 +21,6 @@ Alright, let's get our hands dirty!
 First things first, let's import the necessary packages. You'll need the Aspose.PSD for Java library to get started. Ensure you have added the library to your project dependencies. Here's how to do it:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

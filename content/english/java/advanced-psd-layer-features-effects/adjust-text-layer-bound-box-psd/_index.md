@@ -9,18 +9,16 @@ url: /java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Image;
 import com.aspose.psd.Size;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 
@@ -29,7 +27,7 @@ public class TextLayerBoundBox
     public static void main(String[] args)
     {
         //ExStart:TextLayerBoundBox
-        String dataDir = Utils.getDataDir(TextLayerBoundBox.class) + "PSD/";
+        String dataDir = "Your Document Directory";
 
         String sourceFileName = dataDir + "LayerWithText.psd";
 

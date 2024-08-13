@@ -9,16 +9,14 @@ url: /java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.CurvesLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.CurvesContinuousManager;
@@ -32,7 +30,7 @@ public class AddCurvesAdjustmentLayer {
     public static void main(String[] args) 
     {
        //ExStart:AddCurvesAdjustmentLayer
-       String dataDir = Utils.getDataDir(AddCurvesAdjustmentLayer.class) + "PSD/";
+       String dataDir = "Your Document Directory";
        
        // Curves layer editing
             String sourceFileName = dataDir+"CurvesAdjustmentLayer";

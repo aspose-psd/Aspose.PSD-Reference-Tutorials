@@ -10,11 +10,9 @@ url: /java/psd-layer-management-effects/style-text-portions-psd-files/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 import com.aspose.psd.fileformats.psd.layers.text.IText;
@@ -34,8 +32,8 @@ public class StyleTextPortions
     public static void main(String[] args)
     {
         //ExStart:StyleTextPortions
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         String inPsdFilePath = sourceDir + "text212.psd";
         String outPsdFilePath = outputDir + "Output_text212.psd";

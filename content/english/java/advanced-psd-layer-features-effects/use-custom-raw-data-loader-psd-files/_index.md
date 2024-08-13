@@ -10,10 +10,8 @@ url: /java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-fi
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.*;
-import com.aspose.psd.examples.Utils.Utils;
 
 public class UseCustomRawDataLoader
 {
@@ -31,7 +29,7 @@ public class UseCustomRawDataLoader
             }
         }
 
-        String sourceDir = Utils.GetDataDir_PSD();
+        String sourceDir = "Your Source Directory";
         String inFilePath = sourceDir + "CmykWithAlpha.psd";
 
         RasterImage image = (RasterImage)Image.load(inFilePath);

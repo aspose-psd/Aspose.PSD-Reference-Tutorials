@@ -10,11 +10,9 @@ url: /java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.LayerResource;
@@ -29,7 +27,7 @@ public class SupportForNvrtResource
     public static void main(String[] args)
     {
         //ExStart:SupportForNvrtResource
-        String sourceDir = Utils.GetDataDir_PSD();
+        String sourceDir = "Your Source Directory";
         String inPsdFilePath = sourceDir + "InvertAdjustmentLayer.psd";
 
         NvrtResource nvrtResource = null;

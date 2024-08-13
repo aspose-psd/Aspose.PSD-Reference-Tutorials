@@ -9,17 +9,15 @@ url: /java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
 import com.aspose.psd.fileformats.psd.layers.filllayers.FillLayer;
@@ -38,7 +36,7 @@ public class GradientFillLayer {
      public static void main(String[] args) throws Exception 
     {
        //ExStart:GradientFillLayer
-       String dataDir = Utils.getDataDir(GradientFillLayer.class) + "PSD/";
+       String dataDir = "Your Document Directory";
        
         String sourceFileName = dataDir + "ComplexGradientFillLayer.psd";
         String outputFile = dataDir + "ComplexGradientFillLayer_output.psd";

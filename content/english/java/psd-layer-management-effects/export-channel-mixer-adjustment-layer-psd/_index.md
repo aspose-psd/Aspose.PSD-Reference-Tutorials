@@ -9,16 +9,14 @@ url: /java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-ps
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.CmykChannelMixerLayer;
@@ -30,7 +28,7 @@ public class RenderingExportOfChannelMixerAdjusmentLyer {
     public static void main(String[] args) 
     {
        //ExStart:RenderingExportOfChannelMixerAdjusmentLyer
-       String dataDir = Utils.getDataDir(RenderingExportOfChannelMixerAdjusmentLyer.class) + "PSD/";
+       String dataDir = "Your Document Directory";
     
         // Rgb Channel Mixer
         String sourceFileName = dataDir + "ChannelMixerAdjustmentLayerRgb.psd";

@@ -10,11 +10,9 @@ url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.layereffects.IShadowEffect;
@@ -26,8 +24,8 @@ public class SupportInnerShadowLayerEffect
     public static void main(String[] args)
     {
         //ExStart:SupportInnerShadowLayerEffect
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         String sourceFile = sourceDir + "sample.psd";
         String destName = outputDir + "sample_out.psd";

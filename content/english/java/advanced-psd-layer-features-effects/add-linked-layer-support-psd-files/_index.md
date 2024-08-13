@@ -11,10 +11,8 @@ url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-file
 ## Complete Source Code
 ```java
 
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 
@@ -24,7 +22,7 @@ public class SupportOfLinkedLayer {
     public static void main(String[] args) throws Exception 
     {
        //ExStart:SupportOfLinkedLayer
-       String dataDir = Utils.getDataDir(SupportOfLinkedLayer.class) + "ModifyingAndConvertingImages/";
+       String dataDir = "Your Document Directory";
        
        
        PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");

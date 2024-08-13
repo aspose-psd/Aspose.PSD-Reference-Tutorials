@@ -9,13 +9,12 @@ url: /java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Cache;
 import com.aspose.psd.CacheType;
@@ -23,7 +22,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.ColorPalette;
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.imageoptions.GifOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.StreamSource;
@@ -34,7 +32,7 @@ public class ControllCacheReallocation {
     public static void main(String[] args) 
     {
        //ExStart:ControllCacheReallocation
-       String dataDir = Utils.getDataDir(ControllCacheReallocation.class) + "PSD/";
+       String dataDir = "Your Document Directory";
        
        // By default the cache folder is set to the local temp directory.  You can specify a different cache folder from the default this way:
             Cache.setCacheFolder(dataDir);

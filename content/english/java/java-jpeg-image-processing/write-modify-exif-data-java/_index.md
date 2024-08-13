@@ -20,7 +20,6 @@ Before diving into the code, let’s ensure you have everything set up correctly
 First, you need to import the necessary packages in your Java project. Here’s how to do it:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;

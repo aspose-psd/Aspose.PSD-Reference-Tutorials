@@ -9,16 +9,14 @@ url: /java/tiff-image-compression-configuration/apply-deflate-compression-tiff-f
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.TIFF;
+
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffCompressions;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
@@ -32,7 +30,7 @@ public class TIFFWithDeflateCompression {
     public static void main(String[] args) 
     {
        //ExStart:TIFFWithDeflateCompression
-       String dataDir = Utils.getDataDir(TIFFWithDeflateCompression.class) + "ModifyingAndConvertingImages/";
+       String dataDir = "Your Document Directory";
        
        
         // Load a PSD file as an image and cast it into PsdImage

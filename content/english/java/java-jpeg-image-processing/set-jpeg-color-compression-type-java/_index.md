@@ -18,7 +18,6 @@ Before diving into the code, ensure you have the following prerequisites:
 First things first, you'll need to import the necessary packages from the Aspose.PSD library. These imports are crucial for handling PSD files and applying the desired JPEG settings.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

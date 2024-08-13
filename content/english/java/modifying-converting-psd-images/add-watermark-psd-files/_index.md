@@ -9,13 +9,12 @@ url: /java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Font;
@@ -25,7 +24,6 @@ import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringAlignment;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 
@@ -38,7 +36,7 @@ public class AddWatermark {
     public static void main(String[] args) 
     {
        //ExStart:AddWatermark
-       String dataDir = Utils.getDataDir(AddWatermark.class) + "PSD/";
+       String dataDir = "Your Document Directory";
        // Load a PSD file as an image and cast it into PsdImage
        PsdImage psdImage = (PsdImage)Image.load(dataDir + "layers.psd");
        

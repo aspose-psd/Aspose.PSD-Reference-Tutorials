@@ -10,11 +10,9 @@ url: /java/working-with-psd-files/support-blwh-resource-psd-files/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.WorkingWithPSD;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.LayerResource;
@@ -80,8 +78,8 @@ public class SupportForBlwhResource {
             int tintColor,
             int newTintColor)
     {
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         String destinationFileName = outputDir + "Output" + sourceFileName;
         boolean isRequiredResourceFound = false;

@@ -11,11 +11,9 @@ url: /java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ## Complete Source Code
 ```java
 
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.LayerResource;
@@ -28,7 +26,7 @@ public class SupportOfSoCoResource {
     public static void main(String[] args) throws Exception 
     {
        //ExStart:SupportOfSoCoResource
-       String dataDir = Utils.getDataDir(SupportOfSoCoResource.class) + "ModifyingAndConvertingImages/";
+       String dataDir = "Your Document Directory";
        
        
        String sourceFileName = dataDir + "ColorFillLayer.psd";

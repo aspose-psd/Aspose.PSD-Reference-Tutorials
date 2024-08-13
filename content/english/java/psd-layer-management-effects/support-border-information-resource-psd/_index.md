@@ -10,10 +10,8 @@ url: /java/psd-layer-management-effects/support-border-information-resource-psd/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.ResourceBlock;
 import com.aspose.psd.fileformats.psd.resources.BorderInformationResource;
@@ -28,8 +26,8 @@ public class SupportBorderInformationResource
 	public static void main(String[] args)
 	{
         //ExStart:SupportBorderInformationResource
-		String sourceDir = Utils.GetDataDir_PSD();
-		String outputDir = Utils.GetDataDir_Output();
+		String sourceDir = "Your Source Directory";
+		String outputDir = "Your Document Directory";
 
 		String inPsdFilePath = sourceDir + "SupportBorderInformationResource.psd";
 		String outPsdFilePath = outputDir + "SupportBorderInformationResource_output.psd";

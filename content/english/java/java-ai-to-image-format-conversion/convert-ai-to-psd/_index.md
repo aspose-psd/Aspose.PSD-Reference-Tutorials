@@ -20,7 +20,6 @@ Before we get started, there are a few things you need to have in place:
 First, let's set up our project by importing the necessary packages. You'll need to include Aspose.PSD for Java in your project's classpath. Here’s how to do it:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```

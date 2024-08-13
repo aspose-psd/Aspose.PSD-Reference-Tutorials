@@ -10,11 +10,9 @@ url: /java/psd-layer-management-effects/show-conversion-progress-psd-files/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Image;
 import com.aspose.psd.ProgressEventHandler;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.ColorModes;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -36,7 +34,7 @@ public class ShowProgressOnConversion
     public static void main(String[] args)
     {
         //ExStart:ShowProgressOnConversion
-        String sourceDir = Utils.GetDataDir_PSD();
+        String sourceDir = "Your Source Directory";
         String sourceFilePath = sourceDir + "Apple.psd";
 
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();

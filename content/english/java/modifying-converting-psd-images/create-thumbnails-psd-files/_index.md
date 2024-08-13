@@ -9,16 +9,14 @@ url: /java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailFormat;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -28,7 +26,7 @@ public class CreateThumbnailsFromPSDFiles {
     public static void main(String[] args) 
     {
        //ExStart:CreateThumbnailsFromPSDFiles
-       String dataDir = Utils.getDataDir(CreateThumbnailsFromPSDFiles.class) + "PSD/";
+       String dataDir = "Your Document Directory";
        
        // Load a PSD file as an image and caste it into PsdImage
        

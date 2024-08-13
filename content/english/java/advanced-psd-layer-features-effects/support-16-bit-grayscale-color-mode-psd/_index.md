@@ -10,10 +10,8 @@ url: /java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mo
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.*;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.ColorModes;
 import com.aspose.psd.fileformats.psd.CompressionMethod;
@@ -31,8 +29,8 @@ public class SupportGrayscaleColorMode16Bit
     public static void main(String[] args)
     {
         //ExStart:SupportGrayscaleColorMode16Bit
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         // Make a method be accessible from the local scope
         class LocalScopeExtension

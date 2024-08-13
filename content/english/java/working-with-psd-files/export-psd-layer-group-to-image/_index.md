@@ -10,10 +10,8 @@ url: /java/working-with-psd-files/export-psd-layer-group-to-image/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.WorkingWithPSD;
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.LayerGroup;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -21,8 +19,8 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 public class ExportLayerGroupToImage {
     public static void main(String[] args) {
-        String sourceDir = Utils.GetDataDir_PSD();
-        String outputDir = Utils.GetDataDir_Output();
+        String sourceDir = "Your Source Directory";
+        String outputDir = "Your Document Directory";
 
         //ExStart:1
         PsdImage psdImage = null;

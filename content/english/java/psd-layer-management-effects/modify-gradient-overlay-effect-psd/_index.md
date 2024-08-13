@@ -10,11 +10,9 @@ url: /java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 
 ## Complete Source Code
 ```java
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -34,8 +32,8 @@ public class ModifyGradientOverlayEffect
 	public static void main(String[] args)
 	{
         //ExStart:ModifyGradientOverlayEffect
-		String sourceDir = Utils.GetDataDir_PSD();
-		String outputDir = Utils.GetDataDir_Output();
+		String sourceDir = "Your Source Directory";
+		String outputDir = "Your Document Directory";
 
 		String inPsdFilePath = sourceDir + "psdnet256.psd";
 		String outPsdFilePath = outputDir + "psdnet256.psd_output.psd";

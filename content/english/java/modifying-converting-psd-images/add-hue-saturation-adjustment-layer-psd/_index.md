@@ -9,16 +9,14 @@ url: /java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-p
 ---
 
 ## Complete Source Code
-```java
-/*
+```java/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.psd.examples.ModifyingAndConvertingImages.PSD;
+
 
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.HueSaturationLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.ColorRangeHsl;
@@ -31,7 +29,7 @@ public class AddHueSaturationAdjustmentLayer {
     public static void main(String[] args) 
     {
        //ExStart:AddHueSaturationAdjustmentLayer
-       String dataDir = Utils.getDataDir(AddHueSaturationAdjustmentLayer.class) + "PSD/";
+       String dataDir = "Your Document Directory";
        
        // Hue/Saturation layer editing
        String sourceFileName = dataDir+"HueSaturationAdjustmentLayer.psd";
