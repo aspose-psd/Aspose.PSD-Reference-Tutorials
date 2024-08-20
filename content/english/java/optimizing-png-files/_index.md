@@ -16,5 +16,8 @@ Learn how to change PNG background color in Aspose.PSD for Java with this step-b
 ### [Compress PNG Files using Aspose.PSD for Java](./compress-png-files/)
 Learn to efficiently compress PNG files using Aspose.PSD for Java. This tutorial guides you through code implementation, ensuring optimal file handling.
 ### [Set PNG File Resolution with Aspose.PSD for Java](./set-png-file-resolution/)
+Explore how to set PNG file resolution using Aspose.PSD for Java with this detailed step-by-step tutorial. Optimize your images in no time.
 ### [Specify PNG Bit Depth in Aspose.PSD for Java](./specify-png-bit-depth/)
+Learn how to specify PNG bit depth using Aspose.PSD for Java in this detailed step-by-step tutorial.
 ### [Set PNG Transparency in Aspose.PSD for Java](./set-png-transparency/)
+Learn how to set PNG transparency in Aspose.PSD for Java with an easy step-by-step tutorial. Perfect for developers and graphic designers.
