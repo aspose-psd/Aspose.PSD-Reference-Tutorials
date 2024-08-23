@@ -19,7 +19,6 @@ Dönüştürme sürecine dalmadan önce aşağıdaki önkoşulların ayarlandı�
 Öncelikle gerekli Aspose.PSD sınıflarını Java dosyanıza aktarın:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;

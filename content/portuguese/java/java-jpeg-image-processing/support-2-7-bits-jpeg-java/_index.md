@@ -21,7 +21,6 @@ Tudo bem, vamos sujar as mãos!
 Primeiramente, vamos importar os pacotes necessários. Você precisará da biblioteca Aspose.PSD para Java para começar. Certifique-se de ter adicionado a biblioteca às dependências do seu projeto. Veja como fazer isso:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,10 +67,10 @@ Parabéns! Você acabou de aprender como manipular arquivos PSD e salvá-los com
 ### O que é Aspose.PSD para Java?
 Aspose.PSD for Java é uma biblioteca poderosa que permite trabalhar com arquivos PSD em aplicativos Java. Ele oferece uma ampla gama de recursos para manipulação e transformação de imagens.
 ### Como faço para instalar o Aspose.PSD para Java?
- Você pode baixar a biblioteca do[local na rede Internet](https://releases.aspose.com/psd/java/) e adicione-o às dependências do seu projeto.
+Você pode baixar a biblioteca do[site](https://releases.aspose.com/psd/java/) e adicione-o às dependências do seu projeto.
 ### Posso usar perfis de cores personalizados com Aspose.PSD para Java?
 Sim, você pode definir perfis de cores RGB e CMYK personalizados ao configurar opções JPEG.
 ### Quais são os formatos de imagem suportados no Aspose.PSD para Java?
 Aspose.PSD para Java suporta vários formatos de imagem, incluindo PSD, JPEG, PNG, BMP, TIFF e muito mais.
 ### Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
- Sim, você pode baixar um[teste grátis](https://releases.aspose.com/) para testar os recursos da biblioteca antes de comprar.
+ Sim, você pode baixar um[teste gratuito](https://releases.aspose.com/) para testar os recursos da biblioteca antes de comprar.

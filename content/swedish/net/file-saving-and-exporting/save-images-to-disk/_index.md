@@ -85,8 +85,8 @@ S1: Ja, Aspose.PSD stöder en mängd olika bildformat, vilket säkerställer fle
 
 ### F4: Hur får jag en tillfällig licens?
 
- S4: Du kan skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ S4: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag köpa Aspose.PSD för .NET?
 
- S5: Du kan köpa Aspose.PSD för .NET.[här](https://purchase.aspose.com/buy).
+ S5: Du kan köpa Aspose.PSD för .NET[här](https://purchase.aspose.com/buy).

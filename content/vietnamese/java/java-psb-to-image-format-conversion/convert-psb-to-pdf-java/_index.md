@@ -20,7 +20,6 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn cá
 Đầu tiên, nhập các gói cần thiết để bắt đầu làm việc với Aspose.PSD cho Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -57,7 +56,7 @@ Aspose.PSD for Java hỗ trợ nhiều loại tệp PSD, bao gồm cả tệp PS
 ### Aspose.PSD cho Java có phù hợp để xử lý hàng loạt tệp PSD không?
 Có, các nhà phát triển có thể tận dụng Aspose.PSD cho Java cho các tác vụ xử lý hàng loạt, chẳng hạn như chuyển đổi đồng thời nhiều tệp PSD sang PDF.
 ### Tôi có thể tìm hỗ trợ bổ sung cho Aspose.PSD cho Java ở đâu?
- Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và kết nối với những người dùng và nhà phát triển khác.
+ Ghé thăm[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và kết nối với những người dùng và nhà phát triển khác.
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
  Bạn có thể yêu cầu giấy phép tạm thời cho mục đích thử nghiệm từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Ưu điểm của việc sử dụng Aspose.PSD cho Java so với các thư viện khác là gì?

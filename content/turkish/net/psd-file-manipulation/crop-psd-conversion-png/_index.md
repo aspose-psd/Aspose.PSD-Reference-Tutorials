@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // PngOptions sınıfının bir örneğini oluşturun
 PngOptions pngOptions = new PngOptions();
 ```
-## Adım 5: Kırpılan Resmi PNG olarak kaydedin.
+## Adım 5: Kırpılan Resmi PNG olarak kaydedin
 ```csharp
 // Kaydetme yöntemini çağırın, çıktı yolunu sağlayın ve PSD dosyasını PNG'ye dönüştürmek ve çıktıyı kaydetmek için PngOptions'ı kullanın.
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ Tebrikler! Aspose.PSD for .NET kullanarak PSD dosyalarını PNG'ye dönüştür�
 
 ### S1: Bu kütüphaneyi ticari bir projede kullanabilir miyim?
 
- Cevap1: Evet, Aspose.PSD for .NET ticari kullanıma açıktır. Bakınız[Aspose.PSD Lisanslaması](https://purchase.aspose.com/buy) detaylar için.
+ Cevap1: Evet, Aspose.PSD for .NET ticari kullanıma açıktır. Bakınız[Aspose.PSD Lisanslaması](https://purchase.aspose.com/buy) ayrıntılar için.
 
 ### S2: Ücretsiz deneme sürümü var mı?
 
- A2: Kesinlikle! Ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+A2: Kesinlikle! Ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.PSD for .NET desteğini nerede bulabilirim?
 

@@ -26,7 +26,7 @@ Bạn đã sẵn sàng nâng kỹ năng vẽ của mình lên một tầm cao m�
 
 ## Tạo hình elip với Aspose.PSD cho .NET
 
- Tìm hiểu nghệ thuật vẽ các hình elip trong ứng dụng .NET bằng Aspose.PSD. Hướng dẫn từng bước của chúng tôi, hoàn chỉnh với các ví dụ về mã, đảm bảo bạn có thể tạo đồ họa tuyệt đẹp một cách dễ dàng. Bắt đầu từ hôm nay![Hướng dẫn về hình elip](./creating-elliptical-shapes/)
+ Tìm hiểu nghệ thuật vẽ các hình elip trong ứng dụng .NET bằng Aspose.PSD. Hướng dẫn từng bước của chúng tôi, hoàn chỉnh với các ví dụ về mã, đảm bảo bạn có thể tạo đồ họa tuyệt đẹp một cách dễ dàng. Hãy bắt đầu ngay hôm nay![Hướng dẫn về hình elip](./creating-elliptical-shapes/)
 
 ## Vẽ đường hiệu quả trong Aspose.PSD cho .NET
 
@@ -34,7 +34,7 @@ Bạn đã sẵn sàng nâng kỹ năng vẽ của mình lên một tầm cao m�
 
 ## Xây dựng hình chữ nhật trong Aspose.PSD cho .NET
 
-Khám phá nghệ thuật vẽ hình chữ nhật trong .NET với Aspose.PSD. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch, giúp bạn nâng cao trò chơi xử lý hình ảnh của mình một cách dễ dàng. Bắt đầu từ hôm nay![Hướng dẫn xây dựng hình chữ nhật](./constructing-rectangles/)
+Khám phá nghệ thuật vẽ hình chữ nhật trong .NET với Aspose.PSD. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch, giúp bạn nâng cao trò chơi xử lý hình ảnh của mình một cách dễ dàng. Hãy bắt đầu ngay hôm nay![Hướng dẫn xây dựng hình chữ nhật](./constructing-rectangles/)
 
 ## Vẽ sáng tạo bằng Đồ họa trong Aspose.PSD cho .NET
 

@@ -31,9 +31,9 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 
- เริ่มต้นด้วยการโหลดภาพที่มีอยู่ลงในอินสแตนซ์ของ`PsdImage` ชั้นเรียน ตรวจสอบให้แน่ใจว่าได้ระบุเส้นทางไฟล์ที่ถูกต้องสำหรับรูปภาพ PSD ตัวอย่างของคุณ
+ เริ่มต้นด้วยการโหลดภาพที่มีอยู่ลงในอินสแตนซ์ของ`PsdImage` ระดับ. ตรวจสอบให้แน่ใจว่าได้ระบุเส้นทางไฟล์ที่ถูกต้องสำหรับรูปภาพ PSD ตัวอย่างของคุณ
 
 ```java
 String dataDir = "Your Document Directory";
@@ -59,7 +59,7 @@ image.dither(DitheringMethod.ThresholdDithering, 4);
 ```java
 String destName = dataDir + "SampleImage_out.bmp";
 
-// บันทึกภาพผลลัพธ์
+// บันทึกภาพที่ได้
 image.save(destName, new BmpOptions());
 ```
 

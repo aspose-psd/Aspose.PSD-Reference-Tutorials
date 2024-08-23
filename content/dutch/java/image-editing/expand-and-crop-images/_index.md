@@ -93,7 +93,7 @@ A2: Absoluut, Aspose.PSD biedt commerciële licenties voor ontwikkelaars, waardo
 
 ### Vraag 3: Zijn er beperkingen op de ondersteunde afbeeldingsbestandsindelingen?
 
- A3: Aspose.PSD ondersteunt verschillende afbeeldingsbestandsindelingen, waaronder PSD, JPEG, PNG en meer. Verwijs naar de[documentatie](https://reference.aspose.com/psd/java/) voor een volledige lijst.
+ A3: Aspose.PSD ondersteunt verschillende afbeeldingsbestandsindelingen, waaronder PSD, JPEG, PNG en meer. Raadpleeg de[documentatie](https://reference.aspose.com/psd/java/) voor een volledige lijst.
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD-gerelateerde vragen?
 

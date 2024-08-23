@@ -22,7 +22,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn cá
 
 ## Gói nhập khẩu
 
-Để bắt đầu, hãy đảm bảo bạn đã nhập các gói cần thiết vào dự án Java của mình. Dưới đây là một ví dụ về các gói cần thiết:
+Để bắt đầu, hãy đảm bảo bạn đã nhập các gói cần thiết vào dự án Java của mình. Dưới đây là ví dụ về các gói cần thiết:
 
 ```java
 import com.aspose.psd.Image;

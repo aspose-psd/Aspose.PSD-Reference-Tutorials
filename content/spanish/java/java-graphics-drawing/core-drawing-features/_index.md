@@ -25,7 +25,6 @@ Ahora que tiene todo configurado, exploremos cómo aprovechar Aspose.PSD para la
 Antes de comenzar a codificar, importe los paquetes necesarios para utilizar las clases y métodos Aspose.PSD de manera efectiva en su aplicación Java:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Paso 2: manipular píxeles
 Una vez cargada la imagen, puedes manipular sus píxeles. Así es como puedes cargar y modificar píxeles:
 ```java
-// Cargue píxeles de una región específica (por ejemplo, un rectángulo de 100x10 comenzando desde la esquina superior izquierda)
+//Cargue píxeles de una región específica (por ejemplo, un rectángulo de 100x10 comenzando desde la esquina superior izquierda)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Modificar los píxeles (por ejemplo, aplicar un efecto de degradado)
 for (int i = 0; i < pixels.length; i++) {
@@ -69,4 +68,4 @@ Además de PSD, Aspose.PSD para Java admite varios formatos como BMP, PNG, JPEG 
 ### ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para Java?
  Visita[Licencia temporal Aspose.PSD](https://purchase.aspose.com/temporary-license/) página para obtener una licencia temporal.
 ### ¿Dónde puedo encontrar más ayuda y recursos para Aspose.PSD para Java?
- Explorar el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para obtener apoyo de la comunidad, consejos y recursos adicionales.
+ Explora el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para obtener apoyo de la comunidad, consejos y recursos adicionales.

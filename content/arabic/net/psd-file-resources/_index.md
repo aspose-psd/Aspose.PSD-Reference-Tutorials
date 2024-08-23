@@ -32,9 +32,9 @@ url: /ar/net/psd-file-resources/
 
 ## دروس موارد ملف PSD
 ### [دعم موارد لون الخلفية في Aspose.PSD لـ .NET](./supporting-background-color-resource/)
-يمكنك إتقان Aspose.PSD لـ .NET من خلال دليلنا التفصيلي خطوة بخطوة. التعامل مع صور PSD دون عناء. تحميل النسخة التجريبية المجانية من الآن!
+يمكنك إتقان Aspose.PSD لـ .NET من خلال دليلنا التفصيلي خطوة بخطوة. التعامل مع صور PSD دون عناء. قم بتنزيل النسخة التجريبية المجانية الآن!
 ### [دعم موارد معلومات الحدود في Aspose.PSD لـ .NET](./supporting-border-information-resource/)
-استكشف Aspose.PSD لميزة موارد معلومات الحدود الخاصة بـ .NET لتحسين التصوير. اتبع البرنامج التعليمي لدينا للتكامل السلس. التحميل الان!
+استكشف Aspose.PSD لميزة موارد معلومات الحدود الخاصة بـ .NET لتحسين التصوير. اتبع البرنامج التعليمي لدينا للتكامل السلس. تحميل الآن!
 ### [دعم موارد مسار العمل في Aspose.PSD لـ .NET](./supporting-working-path-resource/)
 اكتشف قوة 'WorkingPathResource' في Aspose.PSD لـ .NET. قم بتعزيز دقة الصورة باستخدام هذا الدليل المفصّل خطوة بخطوة.
 ### [دعم موارد الأسود والأبيض (Blwh) في Aspose.PSD لـ .NET](./supporting-black-and-white-blwh-resource/)

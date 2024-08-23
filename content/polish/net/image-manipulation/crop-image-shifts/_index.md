@@ -96,7 +96,7 @@ O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, umożliwiając przycina
 
 ### P3: Jak uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
- Odpowiedź 3: Możesz nabyć tymczasową licencję do celów testowych.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 3: Możesz nabyć tymczasową licencję do celów testowych[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P4: Gdzie mogę znaleźć dodatkowe wsparcie i dyskusje związane z Aspose.PSD?
 

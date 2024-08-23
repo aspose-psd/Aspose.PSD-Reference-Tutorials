@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Graphics graphics = new Graphics(image);
 ```java
 graphics.clear(Color.getYellow());
 ```
-## الخطوة 5: ارسم شكلًا بيضاويًا منقطًا.
+## الخطوة 5: ارسم شكلًا بيضاويًا منقطًا
 استخدم كائن القلم ذو اللون الأحمر وارسم شكلًا ناقصًا منقطًا داخل مستطيل محدد.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

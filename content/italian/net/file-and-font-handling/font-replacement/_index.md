@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /it/net/file-and-font-handling/font-replacement/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente strumento per lavorare con i file Photoshop. Tra le sue numerose funzionalità, una caratteristica particolarmente utile è la sostituzione dei caratteri. Questa funzionalità consente agli sviluppatori di sostituire senza problemi i caratteri nei file PSD, garantendo coerenza e flessibilità nell'elaborazione dei documenti. In questo tutorial, esploreremo i passaggi coinvolti nella sostituzione dei caratteri utilizzando Aspose.PSD per .NET.
 
@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Il tuo codice per la sostituzione dei caratteri va qui.
+    // Il tuo codice per la sostituzione dei caratteri va qui
 }
 ```
 

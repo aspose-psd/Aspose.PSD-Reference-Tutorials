@@ -102,8 +102,8 @@ O1: Tak, Aspose.PSD bezproblemowo współpracuje z różnymi zintegrowanymi śro
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P5: Czy potrzebuję tymczasowej licencji do testowania?
 
- Odpowiedź 5: Możesz uzyskać tymczasową licencję do celów testowych.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Możesz uzyskać tymczasową licencję do celów testowych[Tutaj](https://purchase.aspose.com/temporary-license/).

@@ -105,7 +105,7 @@ Cevap3: Aspose.PSD for .NET, çeşitli boyutlardaki görüntüleri işlemek içi
 
 ### S4: Aspose.PSD for .NET'in deneme sürümü mevcut mu?
 
- C4: Evet, ücretsiz deneme sürümünü edinerek kütüphanenin özelliklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümünü edinerek kütüphanenin özelliklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Nerede ek destek veya yardım bulabilirim?
 

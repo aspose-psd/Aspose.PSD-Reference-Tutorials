@@ -1,8 +1,8 @@
 ---
-title: 用Java讀取所有EXIF標籤
-linktitle: 用Java讀取所有EXIF標籤
+title: 用 Java 讀取所有 EXIF 標籤
+linktitle: 用 Java 讀取所有 EXIF 標籤
 second_title: Aspose.PSD Java API
-description: 學習使用 Aspose.PSD for Java 從 PSD 映像中擷取 EXIF 標籤。按照我們的逐步指南進行有效的元資料提取。
+description: 學習使用 Aspose.PSD for Java 從 PSD 映像中擷取 EXIF 標籤。請按照我們的逐步指南進行有效的元資料提取。
 type: docs
 weight: 17
 url: /zh-hant/java/java-jpeg-image-processing/read-all-exif-tags-java/
@@ -19,7 +19,6 @@ url: /zh-hant/java/java-jpeg-image-processing/read-all-exif-tags-java/
 首先，從 Aspose.PSD for Java 匯入必要的套件：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -34,7 +33,7 @@ PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");
 ```
 代替`"Your_Document_Directory/"`包含 PSD 檔案的目錄路徑，以及`"your_image.psd"`與實際的檔案名稱。
 ## 第 2 步：迭代圖像資源
-接下來，迭代圖像資源來尋找 EXIF 資料：
+接下來，迭代圖像資源以查找 EXIF 資料：
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || 
@@ -44,7 +43,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
         JpegExifData exif = thumbnail.getJpegOptions().getExifData();
         
         if (exif != null) {
-            //第三步：提取並列印EXIF屬性
+            //步驟 3：提取並列印 EXIF 屬性
             for (int j = 0; j < exif.getProperties().length; j++) {
                 System.out.println(exif.getProperties()[j].getId() + ":" + exif.getProperties()[j].getValue());
             }

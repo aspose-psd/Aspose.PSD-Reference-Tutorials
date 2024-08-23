@@ -38,7 +38,7 @@ using (RasterImage image = Image.Load(sourceFileName) as RasterImage)
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Προσαρμόστε τις τιμές στον κατασκευαστή Rectangle σύμφωνα με τις απαιτήσεις περικοπής σας.
+Προσαρμόστε τις τιμές στον κατασκευαστή Rectangle σύμφωνα με τις απαιτήσεις περικοπής.
 ## Βήμα 5: Αποθηκεύστε την περικομμένη εικόνα
 Αποθηκεύστε την περικομμένη εικόνα σε μορφές PSD και PNG:
 ```csharp
@@ -47,7 +47,7 @@ string exportPathPng = dataDir + "CropTest.png";
 image.Save(exportPathPsd, new PsdOptions());
 image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
 ```
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να περικόπτετε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για .NET. Αυτή η απλή αλλά ισχυρή διαδικασία μπορεί να ενσωματωθεί απρόσκοπτα στις εφαρμογές σας .NET για αποτελεσματικό χειρισμό εικόνας.
 
@@ -63,7 +63,7 @@ A1: Ναι, το Aspose.PSD ενημερώνεται τακτικά για να 
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να εξερευνήσετε το Aspose.PSD με μια δωρεάν δοκιμή. Κατέβασέ το[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε το Aspose.PSD με μια δωρεάν δοκιμή. Κατεβάστε το[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πού μπορώ να βρω υποστήριξη για το Aspose.PSD;
 

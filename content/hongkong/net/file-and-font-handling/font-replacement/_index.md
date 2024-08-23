@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    //您的字體替換代碼位於此處。
+    //您的字型替換程式碼位於此處
 }
 ```
 
@@ -89,7 +89,7 @@ A3：當然！您可以在字體替換過程中指定自訂字體，從而提供
 
 ### Q4：有沒有辦法在儲存之前預覽替換字體的文件？
 
-A4：雖然本教學重點介紹替換過程，但您可以在儲存之前透過使用 Aspose.PSD 渲染文件來實作其他步驟來預覽文件。
+A4：雖然本教學重點介紹替換過程，但您可以在儲存之前透過使用 Aspose.PSD 渲染文件來實施其他步驟來預覽文件。
 
 ### Q5：Aspose.PSD支援帶有圖層效果的文字圖層的字體替換嗎？
 

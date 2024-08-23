@@ -79,7 +79,7 @@ Parabéns! Você dominou com sucesso o uso de 'WorkingPathResource' em Aspose.PS
 
 ### Q3: Existe um teste gratuito disponível?
 
- A3: Sim, você pode acessar a avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q4: Onde posso obter suporte para Aspose.PSD para .NET?
 
@@ -87,4 +87,4 @@ Parabéns! Você dominou com sucesso o uso de 'WorkingPathResource' em Aspose.PS
 
 ### Q5: Precisa de uma licença temporária?
 
- A5: Obtenha uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

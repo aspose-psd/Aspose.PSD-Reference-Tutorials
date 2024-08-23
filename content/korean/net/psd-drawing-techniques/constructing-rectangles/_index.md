@@ -19,7 +19,7 @@ url: /ko/net/psd-drawing-techniques/constructing-rectangles/
 
 -  Aspose.PSD 다운로드: 다음에서 Aspose.PSD 라이브러리를 다운로드했는지 확인하세요.[다운로드 링크](https://releases.aspose.com/psd/net/).
 
--  라이선스 받기: 프로덕션 환경에서 Aspose.PSD를 사용하는 경우 유효한 라이선스가 있는지 확인하세요. 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/buy) 또는[임시면허](https://purchase.aspose.com/temporary-license/) 시험용.
+-  라이선스 받기: 프로덕션 환경에서 Aspose.PSD를 사용하는 경우 유효한 라이선스가 있는지 확인하세요. 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/buy) 또는[임시면허](https://purchase.aspose.com/temporary-license/) 테스트용.
 
 ## 네임스페이스 가져오기
 
@@ -81,7 +81,7 @@ A1: 예, Aspose.PSD는 다양한 .NET 환경에서 작동하도록 설계되어 
 
 ### Q2: 라이선스 없이 상업용 프로젝트에 Aspose.PSD를 사용할 수 있나요?
 
- A2: 아니요. 상업적으로 사용하려면 유효한 라이선스가 필요합니다. 라이센스 취득[여기](https://purchase.aspose.com/buy).
+ A2: 아니요. 상업적으로 사용하려면 유효한 라이센스가 필요합니다. 라이센스 취득[여기](https://purchase.aspose.com/buy).
 
 ### Q3: Aspose.PSD에 대한 도움을 구하거나 내 경험을 공유하려면 어떻게 해야 합니까?
 
@@ -93,4 +93,4 @@ A4: 32Bpp를 사용하면 더욱 풍부한 색상 표현이 가능해 더욱 상
 
 ### Q5: Aspose.PSD에 대한 무료 평가판이 있습니까?
 
- A5: 예, 무료 평가판을 통해 Aspose.PSD를 탐색할 수 있습니다. 다운로드 해[여기](https://releases.aspose.com/).
+ A5: 예, 무료 평가판을 통해 Aspose.PSD를 탐색할 수 있습니다. 다운로드[여기](https://releases.aspose.com/).

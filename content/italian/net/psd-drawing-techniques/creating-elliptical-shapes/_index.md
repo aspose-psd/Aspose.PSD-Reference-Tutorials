@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /it/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nella nostra guida completa sulla creazione di forme ellittiche utilizzando Aspose.PSD per .NET. Aspose.PSD è una potente libreria .NET che consente agli sviluppatori di manipolare e convertire file Photoshop senza richiedere Adobe Photoshop. In questo tutorial ti guideremo attraverso il processo di disegno di forme ellittiche utilizzando la libreria.
 
@@ -50,7 +50,7 @@ saveOptions.BitsPerPixel = 32;
 ## Passaggio 3: crea un'istanza di immagine
 
 ```csharp
-// Crea un'istanza di Immagine
+// Crea un'istanza di Image
 using (Image image = new PsdImage(100, 100))
 {
     // Crea e inizializza un'istanza della classe Graphics e della superficie Clear Graphics
@@ -84,15 +84,15 @@ Congratulazioni! Hai creato con successo forme ellittiche utilizzando Aspose.PSD
 
 ### Q1: dove posso trovare la documentazione per Aspose.PSD per .NET?
 
- A1: La documentazione è disponibile.[Qui](https://reference.aspose.com/psd/net/).
+ A1: La documentazione è disponibile[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q2: Come posso scaricare Aspose.PSD per .NET?
 
- A2: Puoi scaricarlo dalla pagina di rilascio.[Qui](https://releases.aspose.com/psd/net/).
+ A2: Puoi scaricarlo dalla pagina di rilascio[Qui](https://releases.aspose.com/psd/net/).
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere supporto per Aspose.PSD per .NET?
 
@@ -100,4 +100,4 @@ Congratulazioni! Hai creato con successo forme ellittiche utilizzando Aspose.PSD
 
 ### Q5: Ho bisogno di una licenza temporanea per i test?
 
- R5: Sì, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).

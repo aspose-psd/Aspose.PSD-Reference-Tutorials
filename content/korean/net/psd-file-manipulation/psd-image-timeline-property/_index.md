@@ -78,7 +78,7 @@ A1: 예, .NET용 Aspose.PSD는 다양한 .NET 프레임워크와 호환되므로
 
  A3: 질문이나 도움이 필요하면 Aspose.PSD 커뮤니티 포럼을 방문하세요.[여기](https://forum.aspose.com/c/psd/34).
 
-### Q4: .NET용 Aspose.PSD에 임시 라이선스를 사용할 수 있습니까?
+### Q4: .NET용 Aspose.PSD에 임시 라이선스를 사용할 수 있나요?
 
  A4: 예, .NET용 Aspose.PSD에 대한 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 

@@ -8,7 +8,7 @@ weight: 18
 url: /id/java/java-graphics-drawing/drawing-using-graphics/
 ---
 ## Perkenalan
-Dalam pemrograman Java, menggambar dan memanipulasi gambar secara terprogram adalah kemampuan hebat yang sering kali dibutuhkan oleh pengembang. Tutorial ini berfokus pada penggunaan Aspose.PSD untuk Java, perpustakaan tangguh yang memungkinkan pengembang membuat dan mengedit file PSD, serta melakukan berbagai operasi grafis seperti menggambar bentuk, menerapkan kuas, dan mengekspor gambar. Panduan ini akan memandu Anda melalui proses menggambar menggunakan grafik di Java dengan Aspose.PSD, menguraikan setiap langkah untuk memastikan kejelasan dan pemahaman.
+Dalam pemrograman Java, menggambar dan memanipulasi gambar secara terprogram adalah kemampuan hebat yang sering kali dibutuhkan oleh pengembang. Tutorial ini berfokus pada penggunaan Aspose.PSD untuk Java, perpustakaan tangguh yang memungkinkan pengembang membuat dan mengedit file PSD, serta melakukan berbagai operasi grafis seperti menggambar bentuk, menerapkan kuas, dan mengekspor gambar. Panduan ini akan memandu Anda melalui proses menggambar menggunakan grafik di Java dengan Aspose.PSD, merinci setiap langkah untuk memastikan kejelasan dan pemahaman.
 ## Prasyarat
 Sebelum mendalami tutorial ini, pastikan Anda memiliki prasyarat berikut:
 - Pengetahuan dasar tentang pemrograman Java.
@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -75,7 +74,7 @@ Ya, Aspose.PSD mendukung berbagai operasi termasuk manipulasi lapisan, penyesuai
 ### Apakah Aspose.PSD cocok untuk aplikasi berkinerja tinggi?
 Tentu saja, Aspose.PSD dioptimalkan untuk kinerja dan efisiensi memori.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Mengunjungi[Dokumentasi Aspose.PSD Java](https://reference.aspose.com/psd/java/) untuk panduan komprehensif dan referensi API.
+ Kunjungi[Dokumentasi Aspose.PSD Java](https://reference.aspose.com/psd/java/) untuk panduan komprehensif dan referensi API.
 ### Apakah Aspose.PSD mendukung berbagai format gambar untuk diekspor?
 Ya, Aspose.PSD mendukung ekspor ke berbagai format seperti BMP, PNG, JPEG, dan TIFF.
 ### Bagaimana saya bisa mendapatkan dukungan atau bantuan jika saya mengalami masalah?

@@ -8,7 +8,7 @@ weight: 11
 url: /fr/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
 ## Introduction
-Cherchez-vous à convertir des fichiers AI (Adobe Illustrator) au format JPG à l'aide de Java ? Cherchez pas plus loin! Dans ce guide complet, nous vous guiderons tout au long du processus d'utilisation d'Aspose.PSD pour Java, une bibliothèque puissante et flexible qui facilite la manipulation d'images. Que vous soyez un développeur chevronné ou débutant, ce tutoriel vous fournira tout ce que vous devez savoir.
+Cherchez-vous à convertir des fichiers AI (Adobe Illustrator) au format JPG à l'aide de Java ? Ne cherchez plus ! Dans ce guide complet, nous vous guiderons tout au long du processus d'utilisation d'Aspose.PSD pour Java, une bibliothèque puissante et flexible qui facilite la manipulation d'images. Que vous soyez un développeur chevronné ou débutant, ce tutoriel vous fournira tout ce que vous devez savoir.
 ## Conditions préalables
 Avant de plonger dans le code, assurons-nous que tout est configuré et prêt à fonctionner. Voici ce dont vous avez besoin :
 1. Kit de développement Java (JDK) : assurez-vous que JDK 8 ou supérieur est installé.
@@ -21,7 +21,6 @@ Tout d’abord, nous devons importer les packages nécessaires pour gérer notre
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ Avant de commencer le codage, assurez-vous que votre environnement de développe
 -  Téléchargez Aspose.PSD : obtenez la bibliothèque à partir du[Page des versions d'Aspose](https://releases.aspose.com/psd/java/).
 - Ajoutez Aspose.PSD à votre projet : incluez les fichiers JAR dans le chemin de construction de votre projet.
 ## Étape 2 : Chargez votre fichier AI
- La première étape de notre code consiste à charger le fichier AI à l'aide du`AiImage` classe. Ce cours nous permet de travailler de manière transparente avec les fichiers Adobe Illustrator.
+La première étape de notre code consiste à charger le fichier AI à l'aide du`AiImage` classe. Ce cours nous permet de travailler de manière transparente avec les fichiers Adobe Illustrator.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

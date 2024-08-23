@@ -12,13 +12,12 @@ A mai digitális korban a képek kezelése és manipulálása általános szüks
 ## Előfeltételek
 Mielőtt belemerülne a kódba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 1. Java Development Kit (JDK) telepítve a rendszerére.
-2.  Aspose.PSD a Java könyvtárhoz. Letöltheti a[weboldal](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD a Java könyvtárhoz. Letöltheti a[weboldal](https://releases.aspose.com/psd/java/).
 3. Alapvető ismeretek a Java programozásról.
 ## Csomagok importálása
 Először is importálnia kell a szükséges csomagokat az Aspose.PSD könyvtárból. Ezek az importálások kulcsfontosságúak a PSD-fájlok kezeléséhez és a kívánt JPEG-beállítások alkalmazásához.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

@@ -1,7 +1,7 @@
 ---
 title: Wenden Sie Median- und Wiener-Filter mit Aspose.PSD für Java an
-linktitle: Wenden Sie Median- und Wiener-Filter an
-second_title: Aspose.PSD Java-API
+linktitle: Median- und Wiener-Filter anwenden
+second_title: Aspose.PSD Java API
 description: Entdecken Sie die Leistungsfähigkeit der Bildverarbeitung in Java mit Aspose.PSD. Erfahren Sie Schritt für Schritt, wie Sie Median- und Wiener-Filter anwenden. Verbessern Sie mühelos die Bildqualität.
 type: docs
 weight: 12
@@ -9,11 +9,11 @@ url: /de/java/image-processing/apply-median-wiener-filters/
 ---
 ## Einführung
 
-Im Bereich der Java-Programmierung sticht Aspose.PSD als leistungsstarkes Werkzeug zur Bildmanipulation und -verarbeitung hervor. Eine der wichtigsten Funktionen ist die Anwendung von Median- und Wiener-Filtern, die eine entscheidende Rolle bei der Verbesserung der Bildqualität und der Reduzierung von Rauschen spielen. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Anwendung dieser Filter mit Aspose.PSD für Java.
+Im Bereich der Java-Programmierung sticht Aspose.PSD als leistungsstarkes Tool zur Bildbearbeitung und -verarbeitung hervor. Eine der wichtigsten Funktionen ist die Anwendung von Median- und Wiener-Filtern, die eine entscheidende Rolle bei der Verbesserung der Bildqualität und der Rauschreduzierung spielen. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Anwendung dieser Filter mit Aspose.PSD für Java.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 1.  Aspose.PSD für Java-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von[Hier](https://releases.aspose.com/psd/java/).
 2. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System eine Java-Entwicklungsumgebung eingerichtet ist.
@@ -30,7 +30,7 @@ import com.aspose.psd.imagefilters.filteroptions.MedianFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
 
-## Anwenden des Medianfilters
+## Medianfilter anwenden
 
 ### Schritt 1: Laden Sie das Bild
 
@@ -42,17 +42,17 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-### Schritt 2: Bild in RasterImage umwandeln
+### Schritt 2: Bild in Rasterbild umwandeln
 
 ```java
-// Wandeln Sie das Bild in RasterImage um
+// Konvertieren Sie das Bild in RasterImage
 RasterImage rasterImage = (RasterImage)image;
 if (rasterImage == null) {
     return;
 }
 ```
 
-### Schritt 3: Erstellen Sie eine MedianFilterOptions-Instanz
+### Schritt 3: MedianFilterOptions-Instanz erstellen
 
 ```java
 // Erstellen Sie eine Instanz der MedianFilterOptions-Klasse und legen Sie die Filtergröße fest
@@ -62,7 +62,7 @@ MedianFilterOptions options = new MedianFilterOptions(4);
 ### Schritt 4: Medianfilter anwenden
 
 ```java
-// Wenden Sie den MedianFilterOptions-Filter auf das RasterImage-Objekt an
+// MedianFilterOptions-Filter auf RasterImage-Objekt anwenden
 rasterImage.filter(image.getBounds(), options);
 ```
 
@@ -74,30 +74,30 @@ String destName = dataDir + "median_test_denoise_out.gif";
 image.save(destName, new GifOptions());
 ```
 
-Durch Befolgen dieser Schritte haben Sie den Medianfilter mit Aspose.PSD für Java erfolgreich auf Ihr Bild angewendet.
+Indem Sie diese Schritte befolgen, haben Sie den Medianfilter mit Aspose.PSD für Java erfolgreich auf Ihr Bild angewendet.
 
 ## Abschluss
 
-In diesem Tutorial haben wir den Prozess der Anwendung von Median- und Wiener-Filtern mit Aspose.PSD für Java untersucht. Diese Filter sind unverzichtbar, um die Bildqualität zu verbessern und das Rauschen in Ihren Java-Anwendungen zu reduzieren. Durch die Nutzung der Leistungsfähigkeit von Aspose.PSD können Sie diese Filter mühelos in Ihre Bildverarbeitungs-Workflows integrieren.
+In diesem Tutorial haben wir den Prozess der Anwendung von Median- und Wiener-Filtern mit Aspose.PSD für Java untersucht. Diese Filter sind unverzichtbar, um die Bildqualität zu verbessern und Rauschen in Ihren Java-Anwendungen zu reduzieren. Indem Sie die Leistung von Aspose.PSD nutzen, können Sie diese Filter mühelos in Ihre Bildverarbeitungs-Workflows integrieren.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich diese Filter auf Bilder in jedem Format anwenden?
+### F1: Kann ich diese Filter auf Bilder beliebigen Formats anwenden?
 
-A1: Ja, Aspose.PSD unterstützt eine Vielzahl von Bildformaten und ist somit vielseitig für verschiedene Projekte geeignet.
+A1: Ja, Aspose.PSD unterstützt eine Vielzahl von Bildformaten und ist daher für verschiedene Projekte vielseitig einsetzbar.
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
 
- A2: Ja, Sie können eine kostenlose Testversion erhalten.[Hier](https://releases.aspose.com/).
+ A2: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### F3: Wie erhalte ich Unterstützung für Aspose.PSD für Java?
 
- A3: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für die Unterstützung der Gemeinschaft.
+ A3: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für die Unterstützung der Community.
 
 ### F4: Wo finde ich die Dokumentation für Aspose.PSD für Java?
 
- A4: Sehen Sie sich die Dokumentation an[Hier](https://reference.aspose.com/psd/java/).
+ A4: Siehe Dokumentation[Hier](https://reference.aspose.com/psd/java/).
 
 ### F5: Wie kann ich Aspose.PSD für Java kaufen?
 
- A5: Sie können das Produkt kaufen.[Hier](https://purchase.aspose.com/buy).
+ A5: Sie können das Produkt kaufen[Hier](https://purchase.aspose.com/buy).

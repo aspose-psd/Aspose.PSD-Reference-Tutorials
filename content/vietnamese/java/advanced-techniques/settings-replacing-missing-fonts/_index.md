@@ -97,7 +97,7 @@ A2: Có, bạn có thể chỉ định phông chữ thay thế tùy chỉnh theo
 
 ### Câu hỏi 3: Có bất kỳ tùy chọn cấp phép nào có sẵn cho Aspose.PSD không?
 
- A3: Khám phá các tùy chọn cấp phép.[đây](https://purchase.aspose.com/buy)để chọn phương án tốt nhất cho nhu cầu của bạn.
+ A3: Khám phá các tùy chọn cấp phép[đây](https://purchase.aspose.com/buy) để chọn phương án tốt nhất cho nhu cầu của bạn.
 
 ### Câu hỏi 4: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
 

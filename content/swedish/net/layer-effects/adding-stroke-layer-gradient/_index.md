@@ -106,7 +106,7 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika .NET-ramverk.
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- A2: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A2: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F3: Hur kan jag få support för Aspose.PSD för .NET?
 
@@ -118,4 +118,4 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika .NET-ramverk.
 
 ### F5: Hur köper jag en licens för Aspose.PSD för .NET?
 
- A5: Du kan köpa en licens.[här](https://purchase.aspose.com/buy).
+ A5: Du kan köpa en licens[här](https://purchase.aspose.com/buy).

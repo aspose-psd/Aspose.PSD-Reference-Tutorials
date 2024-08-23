@@ -15,7 +15,7 @@ Dalam ranah dinamis pengembangan .NET, Aspose.PSD menonjol sebagai alat yang amp
 
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
--  Pengaturan Lingkungan: Miliki lingkungan pengembangan .NET yang berfungsi dengan Aspose.PSD terintegrasi. Jika Anda belum melakukannya, lihat[dokumentasi](https://reference.aspose.com/psd/net/) untuk petunjuk pemasangan.
+-  Pengaturan Lingkungan: Memiliki lingkungan pengembangan .NET yang berfungsi dengan Aspose.PSD terintegrasi. Jika Anda belum melakukannya, lihat[dokumentasi](https://reference.aspose.com/psd/net/) untuk petunjuk pemasangan.
 
 -  Unduh Aspose.PSD: Pastikan Anda telah mengunduh perpustakaan Aspose.PSD dari[tautan unduhan](https://releases.aspose.com/psd/net/).
 

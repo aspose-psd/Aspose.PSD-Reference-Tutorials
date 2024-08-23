@@ -1,20 +1,20 @@
 ---
-title: Unterstützende Grenzinformationsressource in Aspose.PSD für .NET
-linktitle: Unterstützende Grenzinformationsressource
-second_title: Aspose.PSD .NET-API
-description: Entdecken Sie die Border Information Resource-Funktion von Aspose.PSD für .NET für eine verbesserte Bildgebung. Folgen Sie unserem Tutorial für eine nahtlose Integration. Jetzt downloaden!
+title: Unterstützende Border-Informationsressource in Aspose.PSD für .NET
+linktitle: Unterstützende Informationsquelle zur Grenze
+second_title: Aspose.PSD .NET API
+description: Entdecken Sie die Border Information Resource-Funktion von Aspose.PSD für .NET für verbesserte Bildgebung. Folgen Sie unserem Tutorial für eine nahtlose Integration. Jetzt herunterladen!
 type: docs
 weight: 11
 url: /de/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Einführung
-Willkommen zu unserer Schritt-für-Schritt-Anleitung zur Nutzung der Border Information Resource-Funktion in Aspose.PSD für .NET. In diesem Tutorial führen wir Sie durch den Prozess der Arbeit mit Border Information Resources mithilfe von Aspose.PSD, einer leistungsstarken .NET-Bildbibliothek. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, soll dieses Tutorial Ihnen Klarheit darüber verschaffen, wie Sie Border Information Resources nahtlos in Ihre Projekte integrieren können.
+Willkommen zu unserer Schritt-für-Schritt-Anleitung zur Nutzung der Border Information Resource-Funktion in Aspose.PSD für .NET. In diesem Tutorial führen wir Sie durch den Prozess der Arbeit mit Border Information Resources mithilfe von Aspose.PSD, einer leistungsstarken .NET-Bildbibliothek. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieses Tutorial soll Ihnen Klarheit darüber verschaffen, wie Sie Border Information Resources nahtlos in Ihre Projekte integrieren können.
 ## Voraussetzungen
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie über Folgendes verfügen:
--  Aspose.PSD für .NET: Stellen Sie sicher, dass die Aspose.PSD-Bibliothek installiert ist. Sie können es hier herunterladen[Aspose.PSD-Website](https://releases.aspose.com/psd/net/).
+Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
+-  Aspose.PSD für .NET: Stellen Sie sicher, dass Sie die Aspose.PSD-Bibliothek installiert haben. Sie können sie von der[Aspose.PSD-Website](https://releases.aspose.com/psd/net/).
 - .NET-Entwicklungsumgebung: Richten Sie Ihre .NET-Entwicklungsumgebung mit Visual Studio oder einer anderen bevorzugten IDE ein.
 ## Namespaces importieren
-Stellen Sie sicher, dass Sie in Ihrem Code die erforderlichen Namespaces importieren, um mit Aspose.PSD zu arbeiten:
+Achten Sie darauf, in Ihrem Code die erforderlichen Namespaces zu importieren, um mit Aspose.PSD zu arbeiten:
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Resources;
@@ -22,10 +22,10 @@ using Aspose.PSD.FileFormats.Psd.Resources.ResolutionEnums;
 using System;
 using System.IO;
 ```
-Lassen Sie uns das Beispiel nun in mehrere Schritte unterteilen:
+Lassen Sie uns das Beispiel nun in mehrere Schritte aufteilen:
 ## Schritt 1: Legen Sie Ihre Dokument- und Ausgabeverzeichnisse fest
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 string SourceDir = "Your Document Directory";
 string OutputDir = "Your Output Directory";
 ```
@@ -50,25 +50,25 @@ foreach (var imageResource in imageResources)
     }
 }
 ```
-## Schritt 4: Grenzinformationsressource aktualisieren
+## Schritt 4: Aktualisieren der Grenzinformationsressource
 ```csharp
 // BorderInformationResource aktualisieren
 borderInfoResource.Width = 0.1;
 borderInfoResource.Unit = PhysicalUnit.Inches;
 image.Save(outputFilePath);
 ```
-## Schritt 5: Finalisieren und ausführen
+## Schritt 5: Abschließen und Ausführen
 ```csharp
 //ExEnd
 }
 Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ```
-Wenn Sie diese Schritte befolgen, können Sie die Border Information Resource-Funktion nahtlos in Ihr Aspose.PSD für .NET-Projekt integrieren.
+Indem Sie diese Schritte befolgen, können Sie die Border Information Resource-Funktion nahtlos in Ihr Aspose.PSD für .NET-Projekt integrieren.
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Border Information Resources mit Aspose.PSD für .NET verwenden. Experimentieren Sie mit verschiedenen Parametern und erkunden Sie die umfangreichen Möglichkeiten dieser Bibliothek, um Ihre Imaging-Projekte zu verbessern.
+Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Border Information Resources mit Aspose.PSD für .NET verwenden. Experimentieren Sie mit verschiedenen Parametern und erkunden Sie die umfangreichen Funktionen dieser Bibliothek, um Ihre Bildprojekte zu verbessern.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### F1: Kann ich Aspose.PSD für .NET mit anderen .NET-Frameworks verwenden?
 
@@ -80,12 +80,12 @@ A1: Ja, Aspose.PSD für .NET ist mit verschiedenen .NET-Frameworks kompatibel.
 
 ### F3: Gibt es eine kostenlose Testversion?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich Unterstützung erhalten?
 
- A4: Besuchen Sie die[Aspose.PSD-Supportforum](https://forum.aspose.com/c/psd/34) zur Hilfe.
+ A4: Besuchen Sie die[Aspose.PSD Support-Forum](https://forum.aspose.com/c/psd/34) um Hilfe.
 
 ### F5: Sind temporäre Lizenzen verfügbar?
 
- A5: Ja, Sie können temporäre Lizenzen erhalten.[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, Sie können temporäre Lizenzen erhalten[Hier](https://purchase.aspose.com/temporary-license/).

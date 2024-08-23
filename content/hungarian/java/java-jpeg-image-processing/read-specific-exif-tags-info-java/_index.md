@@ -1,14 +1,14 @@
 ---
-title: Olvassa el a specifikus EXIF címkék információit a Java nyelven
-linktitle: Olvassa el a specifikus EXIF címkék információit a Java nyelven
+title: Olvassa el a specifikus EXIF-címkék információit a Java nyelven
+linktitle: Olvassa el a specifikus EXIF-címkék információit a Java nyelven
 second_title: Aspose.PSD Java API
-description: Lépésről lépésre mutató oktatóanyagunkból megtudhatja, hogyan lehet PSD-képekből bizonyos EXIF-címkéket olvasni az Aspose.PSD for Java használatával. Fejlessze képfeldolgozási készségeit.
+description: Lépésről lépésre bemutatott oktatóanyagunkból megtudhatja, hogyan lehet PSD-képekből bizonyos EXIF-címkéket olvasni az Aspose.PSD for Java használatával. Fejlessze képfeldolgozási készségeit.
 type: docs
 weight: 19
 url: /hu/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
 ## Bevezetés
-Szeretne belemerülni a Java PSD-fájlkezelés világába? Ha meg szeretné érteni, hogyan lehet konkrét EXIF-címkéket olvasni PSD-képekből, akkor jó helyen jár. Ez az oktatóanyag végigvezeti a teljes folyamaton az Aspose.PSD for Java használatával, a környezet beállításától a részletes EXIF-adatok kinyeréséig. Kezdjük el!
+Szeretne belemerülni a Java PSD-fájlkezelés világába? Ha meg szeretné érteni, hogyan lehet konkrét EXIF-címkéket olvasni PSD-képekből, akkor jó helyen jár. Ez az oktatóanyag végigvezeti az Aspose.PSD for Java teljes folyamatán, a környezet beállításától a részletes EXIF-adatok kinyeréséig. Kezdjük is!
 ## Előfeltételek
 Mielőtt belemerülnénk a kódba, néhány dolgot meg kell határoznia:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti a[Oracle JDK webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -19,7 +19,6 @@ Mielőtt belemerülnénk a kódba, néhány dolgot meg kell határoznia:
 Először is importálnia kell a szükséges Aspose.PSD csomagokat a Java projektbe. Így állíthatja be.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -42,9 +41,9 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     }
 }
 ```
- Végigpörgetjük a képforrásokat az a`for` hurok. A cél az olyan erőforrások azonosítása, amelyek példányai`ThumbnailResource` vagy`Thumbnail4Resource`, mivel ezek azok a típusok, amelyek az EXIF-adatokat tárolják.
+ Végigpörgetjük a képforrásokat az a`for` hurok. A cél az olyan erőforrások azonosítása, amelyek példányai`ThumbnailResource` vagy`Thumbnail4Resource`, mivel ezek az EXIF-adatokat tartalmazó típusok.
 ## 3. lépés: EXIF adatok kibontása
-Miután azonosítottuk a miniatűr erőforrást, kivonjuk az EXIF-adatokat, és kinyomtatjuk a konzolra.
+Miután azonosítottuk a miniatűr erőforrást, kibontjuk az EXIF-adatokat, és kinyomtatjuk a konzolra.
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource) {
     JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
@@ -60,9 +59,9 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
  Használunk egy`if` utasítással ellenőrizheti, hogy az erőforrás példánya-e`ThumbnailResource` . Ha igen, öntjük és visszaszerezzük`JpegOptions` hozzáférni a`ExifData`Végül kinyomtatjuk a különféle EXIF-címkéket, mint például a WhiteBalance, a Pixel Dimensions, az ISOSpeed és a FocalLength.
 
 ## Következtetés
-Az alábbi lépések végrehajtásával megtanulta, hogyan lehet bizonyos EXIF-címkéket olvasni egy PSD-képről az Aspose.PSD for Java használatával. Ez a folyamat magában foglalja a kép betöltését, az erőforrások iterációját, a miniatűr erőforrás azonosítását és az EXIF-adatok kinyerését. Ezzel a tudással most felfedezheti és kezelheti a PSD-fájlok EXIF-adatait, lehetővé téve a kifinomultabb képfeldolgozási feladatokat.
+Az alábbi lépések követésével megtanulta, hogyan lehet meghatározott EXIF-címkéket olvasni egy PSD-képből az Aspose.PSD for Java használatával. Ez a folyamat magában foglalja a kép betöltését, az erőforrásokon való iterációt, a miniatűr erőforrás azonosítását és az EXIF-adatok kinyerését. Ennek a tudásnak a birtokában most már felfedezheti és kezelheti a PSD-fájlok EXIF-adatait, így kifinomultabb képfeldolgozási feladatokat tesz lehetővé.
 ## GYIK
-### Mik azok az EXIF-adatok?
+### Mi az EXIF adat?
 Az EXIF (Exchangeable Image File Format) adatok képfájlokba ágyazott metaadatok, amelyek olyan információkat tartalmaznak, mint a kamerabeállítások, a dátum és idő, valamint a kép mérete.
 ### Szerkeszthetem az EXIF-adatokat az Aspose.PSD használatával?
 Igen, az Aspose.PSD lehetővé teszi az EXIF-adatok olvasását és módosítását. Frissítheti a címkéket, és visszamentheti a módosításokat a képfájlba.

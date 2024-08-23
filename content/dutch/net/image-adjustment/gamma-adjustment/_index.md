@@ -17,7 +17,7 @@ Voordat u in de implementatie duikt, moet u ervoor zorgen dat u aan de volgende 
 
 -  Aspose.PSD voor .NET-bibliotheek: Zorg ervoor dat de Aspose.PSD-bibliotheek voor .NET is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/psd/net/).
 
-- .NET Framework: Deze tutorial gaat ervan uit dat je een basiskennis hebt van .NET-ontwikkeling en dat je het .NET Framework hebt geïnstalleerd.
+- .NET Framework: Deze tutorial gaat ervan uit dat je een basiskennis hebt van .NET-ontwikkeling en dat je het .NET Framework geïnstalleerd hebt.
 
 - Integrated Development Environment (IDE): Kies de IDE van uw voorkeur voor .NET-ontwikkeling, zoals Visual Studio.
 
@@ -88,16 +88,16 @@ Gefeliciteerd! U hebt Gamma-aanpassing met succes geïmplementeerd met Aspose.PS
 
 ### V2: Hoe download ik Aspose.PSD voor .NET?
 
- A2: U kunt de bibliotheek downloaden.[hier](https://releases.aspose.com/psd/net/).
+ A2: U kunt de bibliotheek downloaden[hier](https://releases.aspose.com/psd/net/).
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefperiode krijgen.[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning krijgen voor Aspose.PSD?
 
- A4: U kunt het ondersteuningsforum bezoeken.[hier](https://forum.aspose.com/c/psd/34).
+ A4: U kunt het ondersteuningsforum bezoeken[hier](https://forum.aspose.com/c/psd/34).
 
 ### Vraag 5: Heb ik een tijdelijke licentie nodig?
 
- A5: Indien nodig kunt u een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Indien nodig kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).

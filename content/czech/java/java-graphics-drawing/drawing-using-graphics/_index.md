@@ -7,14 +7,14 @@ type: docs
 weight: 18
 url: /cs/java/java-graphics-drawing/drawing-using-graphics/
 ---
-## Úvod
+## Zavedení
 V programování v jazyce Java je programové kreslení a manipulace s obrázky výkonnou schopností, kterou vývojáři často potřebují. Tento výukový program se zaměřuje na používání Aspose.PSD for Java, robustní knihovny, která umožňuje vývojářům vytvářet a upravovat soubory PSD a také provádět různé grafické operace, jako je kreslení tvarů, nanášení štětců a export obrázků. Tato příručka vás provede procesem kreslení pomocí grafiky v Javě s Aspose.PSD, přičemž každý krok rozebere, aby byla zajištěna srozumitelnost a porozumění.
 ## Předpoklady
 Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující předpoklady:
 - Základní znalost programování v Javě.
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
 - Integrované vývojové prostředí (IDE), jako je IntelliJ IDEA nebo Eclipse.
--  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/java/).
 ## Importujte balíčky
 Chcete-li začít, importujte potřebné balíčky z Aspose.PSD pro Javu a další standardní Java knihovny:
 ```java
@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -79,4 +78,4 @@ Aspose.PSD je rozhodně optimalizován pro výkon a efektivitu paměti.
 ### Podporuje Aspose.PSD více formátů obrázků pro export?
 Ano, Aspose.PSD podporuje export do různých formátů, jako jsou BMP, PNG, JPEG a TIFF.
 ### Jak mohu získat podporu nebo pomoc, pokud narazím na problémy?
-Oslovte komunitu Aspose.PSD na[Fórum podpory](https://forum.aspose.com/c/psd/34) nebo zvážit a[dočasná licence](https://purchase.aspose.com/temporary-license/) za prioritní podporu.
+Oslovte komunitu Aspose.PSD na[fórum podpory](https://forum.aspose.com/c/psd/34) nebo zvážit a[dočasná licence](https://purchase.aspose.com/temporary-license/) za prioritní podporu.

@@ -19,7 +19,7 @@ Java 개발 세계에서는 이미지에 동적 효과를 추가하는 것이 �
 
 2.  Java 라이브러리용 Aspose.PSD: Java 라이브러리용 Aspose.PSD가 필요합니다. 아직 다운로드하지 않았다면 다음에서 다운로드하세요.[Aspose.PSD 자바 문서](https://reference.aspose.com/psd/java/).
 
-3. 문서 디렉터리: 문서 디렉터리를 설정하고 경로를 기억하세요. 제공된 예에서 디렉토리는 다음과 같습니다.`Your Document Directory`.
+3.  문서 디렉터리: 문서 디렉터리를 설정하고 경로를 기억하세요. 제공된 예에서 디렉토리는 다음과 같습니다.`Your Document Directory`.
 
 ## 패키지 가져오기
 

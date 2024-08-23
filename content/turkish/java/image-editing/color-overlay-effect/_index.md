@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden e
 
 1. Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
 
-2. Aspose.PSD Kütüphanesi: Java için Aspose.PSD kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD Kütüphanesi: Java için Aspose.PSD kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/psd/java/).
 
 3. PSD Belgesi: Renk Kaplama Efektini uygulamak istediğiniz bir PSD belgesi hazırlayın.
 
@@ -109,4 +109,4 @@ Cevap2: Evet, Aspose.PSD, Eclipse ve IntelliJ gibi popüler Java IDE'leriyle uyu
 
 ### S5: Aspose.PSD için herhangi bir ücretsiz deneme seçeneği mevcut mu?
 
- A5: Evet, keşfedin[ücretsiz deneme](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce sürüm.
+ A5: Evet, keşfedin[ücretsiz deneme](https://releases.aspose.com/) Bir satın alma işlemi yapmadan önce sürüm.

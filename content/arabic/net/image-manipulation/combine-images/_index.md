@@ -102,8 +102,8 @@ image.Save();
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD؟
 
- ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
-ج5: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

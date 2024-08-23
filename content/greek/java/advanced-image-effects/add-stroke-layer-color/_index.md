@@ -15,7 +15,7 @@ url: /el/java/advanced-image-effects/add-stroke-layer-color/
 
 Πριν ξεκινήσετε αυτό το δημιουργικό ταξίδι, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
--  Aspose.PSD Library: Πραγματοποιήστε λήψη και ρύθμιση της βιβλιοθήκης Aspose.PSD ακολουθώντας το[τεκμηρίωση](https://reference.aspose.com/psd/java/).
+-  Aspose.PSD Library: Πραγματοποιήστε λήψη και ρύθμιση της βιβλιοθήκης Aspose.PSD ακολουθώντας το[απόδειξη με έγγραφα](https://reference.aspose.com/psd/java/).
 
 - Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει Java στο σύστημά σας.
 
@@ -95,7 +95,7 @@ colorStroke.setOpacity((byte)127);
 im.save(exportPath);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Προσθέσατε με επιτυχία το χρώμα του επιπέδου stroke στο αρχείο PSD χρησιμοποιώντας το Aspose.PSD για Java. Πειραματιστείτε με διαφορετικά χρώματα και ρυθμίσεις για να ζωντανέψετε τα γραφικά σας σχέδια.
 

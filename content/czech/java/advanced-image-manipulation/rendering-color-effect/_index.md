@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/java/advanced-image-manipulation/rendering-color-effect/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem komplexním průvodci aplikací barevných efektů vykreslování pomocí Aspose.PSD pro Java. Pokud chcete vylepšit své Java aplikace o úžasné vizuální efekty a dynamické barevné překryvy, jste na správném místě. V tomto tutoriálu vás provedeme procesem krok za krokem a zajistíme, že můžete snadno integrovat sílu Aspose.PSD do svých projektů.
 
@@ -73,7 +73,7 @@ im.save(pngExportPath, saveOptions);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste použili vykreslovací barevné efekty pomocí Aspose.PSD for Java. Tato výkonná knihovna otevírá svět možností pro grafickou manipulaci ve vašich aplikacích Java.
+Gratuluji! Úspěšně jste použili vykreslovací barevné efekty pomocí Aspose.PSD for Java. Tato výkonná knihovna otevírá svět možností pro grafickou manipulaci ve vašich aplikacích Java.
 
 ## FAQ
 

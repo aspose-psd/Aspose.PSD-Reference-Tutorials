@@ -17,13 +17,13 @@ url: /zh-hant/net/psd-drawing-techniques/mastering-core-drawing-features/
 
 -  Aspose.PSD for .NET：請確定您安裝了最新版本的 Aspose.PSD for .NET。你可以下載它[這裡](https://releases.aspose.com/psd/net/).
 
-- 文檔目錄：在系統上設定一個目錄來儲存相關文檔。將提供的程式碼片段中的「您的文件目錄」替換為實際路徑。
+- 文檔目錄：在系統上設定一個目錄來儲存相關文件。將提供的程式碼片段中的「您的文件目錄」替換為實際路徑。
 
 現在，讓我們開始教學吧！
 
 ## 導入命名空間
 
-在任何 .NET 專案中，匯入所需的命名空間對於存取 Aspose.PSD 提供的功能至關重要。按著這些次序：
+在任何 .NET 專案中，匯入所需的命名空間對於存取 Aspose.PSD 提供的功能至關重要。請依照下列步驟操作：
 
 ### 第 1 步：開啟您的項目
 
@@ -93,11 +93,11 @@ image.Save(outpath, new BmpOptions());
 
 ### Q1：在哪裡可以找到 Aspose.PSD for .NET 文件？
 
- A1：您可以存取文件。[這裡](https://reference.aspose.com/psd/net/).
+ A1：您可以存取文檔[這裡](https://reference.aspose.com/psd/net/).
 
 ### Q2：如何下載 Aspose.PSD for .NET？
 
- A2：下載最新版本。[這裡](https://releases.aspose.com/psd/net/).
+A2：下載最新版本[這裡](https://releases.aspose.com/psd/net/).
 
 ### Q3：哪裡可以購買 Aspose.PSD for .NET？
 
@@ -105,7 +105,7 @@ image.Save(outpath, new BmpOptions());
 
 ### Q4：有免費試用嗎？
 
- A4: 是的，您可以獲得免費試用。[這裡](https://releases.aspose.com/).
+ A4：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
 
 ### 問題 5：在哪裡可以獲得 Aspose.PSD for .NET 的支援？
 

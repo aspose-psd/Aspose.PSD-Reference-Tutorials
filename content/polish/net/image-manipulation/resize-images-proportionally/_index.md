@@ -77,7 +77,7 @@ image.Save(destName, new PngOptions());
 
 ## Wniosek
 
-Proporcjonalna zmiana rozmiaru obrazów w Aspose.PSD dla .NET to prosty proces, który dodaje wartość do przepływu pracy przetwarzania obrazu. Ten przewodnik wyposażył Cię w wiedzę niezbędną do bezproblemowej integracji tej funkcjonalności z Twoimi aplikacjami.
+Proporcjonalna zmiana rozmiaru obrazów w Aspose.PSD dla .NET to prosty proces, który dodaje wartości do przepływu pracy przetwarzania obrazu. Ten przewodnik wyposażył Cię w wiedzę niezbędną do bezproblemowej integracji tej funkcjonalności z Twoimi aplikacjami.
 
 ## Często zadawane pytania
 
@@ -95,7 +95,7 @@ O3: Tak, Aspose.PSD dla .NET oferuje szeroką gamę funkcji, w tym przycinanie, 
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla .NET?
 
- O4: Tak, możesz poznać możliwości Aspose.PSD dla .NET w ramach bezpłatnej wersji próbnej. Odwiedzać[Tutaj](https://releases.aspose.com/) rozpocząć.
+ O4: Tak, możesz poznać możliwości Aspose.PSD dla .NET w ramach bezpłatnej wersji próbnej. Odwiedzać[Tutaj](https://releases.aspose.com/) zacząć.
 
 ### P5: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla .NET?
 

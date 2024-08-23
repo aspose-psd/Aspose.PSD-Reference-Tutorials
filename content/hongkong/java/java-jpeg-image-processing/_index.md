@@ -16,7 +16,7 @@ url: /zh-hant/java/java-jpeg-image-processing/
 
 新增縮圖可以顯著增強影像元資料。我們有關於如何在 Java 中為 EXIF 和 JFIF 段添加縮圖的詳細指南。這些教程提供了逐步說明和程式碼範例，使該過程變得無縫。
 
-- [Java中將縮圖加入EXIF段](./add-thumbnail-to-exif-segment-java/)
+- [在 Java 中將縮圖新增至 EXIF 段](./add-thumbnail-to-exif-segment-java/)
 - [在 Java 中將縮圖新增至 JFIF 段](./add-thumbnail-to-jfif-segment-java/)
 
 ## 增強影像方向和質量
@@ -37,11 +37,11 @@ url: /zh-hant/java/java-jpeg-image-processing/
 
 EXIF 資料對於理解和管理影像元資料至關重要。我們的教學將教您如何讀取、修改和寫入 JPEG 和 PSD 檔案中的 EXIF 標籤。這對於需要處理詳細影像資訊的開發人員特別有用。
 
-- [用Java讀取所有EXIF標籤列表](./read-all-exif-tag-list-java/)
-- [用Java讀取所有EXIF標籤](./read-all-exif-tags-java/)
-- [在Java中讀取和修改JPEG EXIF標籤](./read-modify-jpeg-exif-tags-java/)
+- [用 Java 讀取所有 EXIF 標籤列表](./read-all-exif-tag-list-java/)
+- [用 Java 讀取所有 EXIF 標籤](./read-all-exif-tags-java/)
+- [在 Java 中讀取和修改 JPEG EXIF 標籤](./read-modify-jpeg-exif-tags-java/)
 - [用Java編寫和修改EXIF數據](./write-modify-exif-data-java/)
-- [Java中讀取特定EXIF標籤信息](./read-specific-exif-tags-info-java/)
+- [用Java讀取特定的EXIF標籤訊息](./read-specific-exif-tags-info-java/)
 
 ## 高級 JPEG 支持
 
@@ -52,7 +52,7 @@ EXIF 資料對於理解和管理影像元資料至關重要。我們的教學將
 
 透過學習這些教程，您將提高影像處理技能，並能夠輕鬆處理各種 JPEG 處理任務。深入研究我們的詳細指南並精通 Aspose.PSD for Java。
 ## Java JPEG 影像處理教學課程
-### [Java中將縮圖加入EXIF段](./add-thumbnail-to-exif-segment-java/)
+### [在 Java 中將縮圖新增至 EXIF 段](./add-thumbnail-to-exif-segment-java/)
 了解如何使用 Aspose.PSD for Java 透過縮圖增強影像元資料。請遵循我們的無縫集成分步指南。
 ### [在 Java 中將縮圖新增至 JFIF 段](./add-thumbnail-to-jfif-segment-java/)
 了解如何使用 Aspose.PSD 逐步為 Java 中的 PSD 影像新增縮圖。非常適合希望增強影像處理能力的 Java 開發人員。
@@ -64,13 +64,13 @@ EXIF 資料對於理解和管理影像元資料至關重要。我們的教學將
 了解如何使用 Aspose.PSD for Java 從 JFIF 影像中擷取縮圖。包含逐步指南和程式碼範例的綜合教學。
 ### [在 Java 中從 PSD 中提取縮圖](./extract-thumbnail-from-psd-java/)
 了解如何使用 Aspose.PSD for Java 從 PSD 檔案中提取縮圖。本逐步指南涵蓋了從設定到保存提取的圖像的所有內容。
-### [用Java讀取所有EXIF標籤列表](./read-all-exif-tag-list-java/)
+### [用 Java 讀取所有 EXIF 標籤列表](./read-all-exif-tag-list-java/)
 透過我們全面的教學和程式碼範例，了解如何使用 Aspose.PSD for Java 從 PSD 檔案中提取 EXIF 元資料。
-### [用Java讀取所有EXIF標籤](./read-all-exif-tags-java/)
-學習使用 Aspose.PSD for Java 從 PSD 映像中擷取 EXIF 標籤。按照我們的逐步指南進行有效的元資料提取。
-### [在Java中讀取和修改JPEG EXIF標籤](./read-modify-jpeg-exif-tags-java/)
+### [用 Java 讀取所有 EXIF 標籤](./read-all-exif-tags-java/)
+學習使用 Aspose.PSD for Java 從 PSD 映像中擷取 EXIF 標籤。請按照我們的逐步指南進行有效的元資料提取。
+### [在 Java 中讀取和修改 JPEG EXIF 標籤](./read-modify-jpeg-exif-tags-java/)
 在此逐步指南中了解如何使用 Aspose.PSD for Java 讀取和修改 JPEG EXIF 標籤。非常適合希望輕鬆處理影像元資料的開發人員。
-### [Java中讀取特定EXIF標籤信息](./read-specific-exif-tags-info-java/)
+### [用Java讀取特定的EXIF標籤訊息](./read-specific-exif-tags-info-java/)
 透過我們的逐步教學，了解如何使用 Aspose.PSD for Java 從 PSD 映像中讀取特定的 EXIF 標籤。提高您的影像處理技能。
 ### [Java 支援 2 位元和 7 位元 JPEG](./support-2-7-bits-jpeg-java/)
 了解如何使用 Aspose.PSD 在 Java 中操作 PSD 檔案並將其儲存為 JPEG。帶有程式碼範例的分步指南。非常適合初學者和專業人士。

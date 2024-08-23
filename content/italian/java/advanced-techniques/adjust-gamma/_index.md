@@ -7,7 +7,7 @@ type: docs
 weight: 23
 url: /it/java/advanced-techniques/adjust-gamma/
 ---
-## introduzione
+## Introduzione
 
 Nel campo dell'elaborazione delle immagini, la regolazione della gamma di un'immagine è un passaggio cruciale per migliorarne l'attrattiva visiva. Aspose.PSD per Java offre una potente soluzione per gli sviluppatori Java per manipolare senza sforzo la gamma delle immagini. In questo tutorial esploreremo come regolare la gamma utilizzando Aspose.PSD, analizzando ogni passaggio per garantire un'implementazione senza problemi.
 

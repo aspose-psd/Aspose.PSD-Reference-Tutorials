@@ -35,7 +35,7 @@ Låt oss dela upp exemplet i flera steg för en heltäckande förståelse.
 string dataDir = "Your Document Directory";
 ```
 
- Byta ut`"Your Document Directory"` med den faktiska sökvägen där dina PSD-filer finns.
+ Ersätta`"Your Document Directory"` med den faktiska sökvägen där dina PSD-filer finns.
 
 ## Steg 2: Ladda bilden
 

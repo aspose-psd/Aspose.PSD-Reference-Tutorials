@@ -92,11 +92,11 @@ finally
 
 ### س2: أين يمكنني العثور على وثائق شاملة لـ Aspose.PSD لـ .NET؟
 
-ج2: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/net/).
+ج2: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
@@ -104,4 +104,4 @@ finally
 
 ### س5: هل يمكنني شراء ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج5: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

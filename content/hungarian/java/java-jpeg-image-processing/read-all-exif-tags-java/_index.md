@@ -19,7 +19,6 @@ Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendel
 Kezdésként importálja a szükséges csomagokat az Aspose.PSD for Java fájlból:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -27,7 +26,7 @@ import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
 Ezek az importálások lehetővé teszik a PSD-képekkel való munkát és az EXIF-metaadatok hatékony kinyerését.
 ## 1. lépés: Töltse be a PSD-képet
-Először is be kell töltenie azt a PSD-képfájlt, amelyből ki szeretné bontani az EXIF-címkéket:
+Először is be kell töltenie a PSD képfájlt, amelyből az EXIF címkéket ki szeretné bontani:
 ```java
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");
@@ -44,7 +43,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
         JpegExifData exif = thumbnail.getJpegOptions().getExifData();
         
         if (exif != null) {
-            // 3. lépés: Bontsa ki és nyomtassa ki az EXIF tulajdonságokat
+            // 3. lépés: Bontsa ki és nyomtassa ki az EXIF-tulajdonságokat
             for (int j = 0; j < exif.getProperties().length; j++) {
                 System.out.println(exif.getProperties()[j].getId() + ":" + exif.getProperties()[j].getValue());
             }
@@ -54,7 +53,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 ```
 
 ## Következtetés
-Ebben az oktatóanyagban megtanulta, hogyan használhatja az Aspose.PSD for Java alkalmazást az EXIF-címkék PSD-képekből való olvasásához. Ez a képesség kulcsfontosságú azoknál az alkalmazásoknál, amelyeknél hatékonyan kell részletes metaadatokat kinyerni a képekből.
+Ebben az oktatóanyagban megtanulta, hogyan használhatja az Aspose.PSD for Java-t EXIF-címkék olvasásához PSD-képekből. Ez a képesség kulcsfontosságú azoknál az alkalmazásoknál, amelyeknél hatékonyan kell részletes metaadatokat kinyerni a képekből.
 ## GYIK
 ### Mi az Aspose.PSD for Java?
 Az Aspose.PSD for Java egy Java-könyvtár, amelyet PSD-fájlok programozott feldolgozására és kezelésére használnak.

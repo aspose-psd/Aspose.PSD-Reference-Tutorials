@@ -73,7 +73,7 @@ A1: Absoluut! Aspose.PSD voor Java is ontworpen voor projecten van elke omvang e
 
 ### Vraag 2: Kan ik een ander formaattype gebruiken dan Lanczos Resample?
 
-A2: Ja, Aspose.PSD voor Java biedt verschillende typen formaatwijzigingen, zoals Nearest Neighbor, Bicubic en meer. Bekijk de documentatie voor een uitgebreide lijst.
+A2: Ja, Aspose.PSD voor Java biedt verschillende typen formaatwijzigingen, zoals Nearest Neighbour, Bicubic en meer. Bekijk de documentatie voor een uitgebreide lijst.
 
 ### V3: Waar kan ik aanvullende ondersteuning vinden voor Aspose.PSD voor Java?
 
@@ -81,8 +81,8 @@ A2: Ja, Aspose.PSD voor Java biedt verschillende typen formaatwijzigingen, zoals
 
 ### V4: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A4: Ja, u heeft toegang tot een gratis proefversie.[hier](https://releases.aspose.com/).
+ A4: Ja, u heeft toegang tot een gratis proefversie[hier](https://releases.aspose.com/).
 
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor Java?
 
- A5: Ga naar om een tijdelijke licentie te verkrijgen[deze link](https://purchase.aspose.com/temporary-license/).
+ A5: Ga naar om een tijdelijke licentie te verkrijgen[deze koppeling](https://purchase.aspose.com/temporary-license/).

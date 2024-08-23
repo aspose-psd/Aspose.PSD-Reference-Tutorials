@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/java/image-editing/combine-images/
 ---
-## introduzione
+## Introduzione
 
 Nel regno della programmazione Java, Aspose.PSD si distingue come un potente strumento per la manipolazione e l'elaborazione delle immagini. Una delle sue caratteristiche degne di nota è la capacità di combinare più immagini senza soluzione di continuità. Questo tutorial ti guiderà attraverso il processo di unione di due immagini in un singolo file PSD utilizzando Aspose.PSD per Java.
 
@@ -106,7 +106,7 @@ A2: Assolutamente! Dopo aver combinato le immagini, puoi manipolare ulteriorment
 
 ### Q4: È disponibile una prova gratuita per Aspose.PSD?
 
- A4: Sì, puoi esplorare Aspose.PSD con una prova gratuita.[Qui](https://releases.aspose.com/).
+ A4: Sì, puoi esplorare Aspose.PSD con una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso trovare supporto per le query relative ad Aspose.PSD?
 

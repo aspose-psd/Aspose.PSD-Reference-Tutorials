@@ -59,7 +59,7 @@ Graphics graphics = new Graphics(canvas);
 
 ## Paso 3: agregue firma a la imagen
 
- Utilizar el`DrawImage` Método para agregar la firma a la imagen principal. Ajuste la ubicación según sea necesario. En este ejemplo, intentamos colocar la imagen secundaria en la parte inferior derecha de la imagen principal:
+ Utilice el`DrawImage` Método para agregar la firma a la imagen principal. Ajuste la ubicación según sea necesario. En este ejemplo, intentamos colocar la imagen secundaria en la parte inferior derecha de la imagen principal:
 
 ```java
 //ExStart:AgregarFirmaAImagen
@@ -94,4 +94,4 @@ R2: Sí, Aspose.PSD admite una amplia gama de formatos de imagen, lo que garanti
 
 ### P5: ¿Puedo probar Aspose.PSD para Java antes de comprarlo?
 
- A5: Sí, puedes conseguir un[prueba gratis](https://releases.aspose.com/)para explorar las funciones antes de realizar una compra.
+ A5: Sí, puedes conseguir un[prueba gratuita](https://releases.aspose.com/)para explorar las funciones antes de realizar una compra.

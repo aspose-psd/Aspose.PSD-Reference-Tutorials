@@ -32,7 +32,7 @@ Zmaksymalizuj swoje aplikacje .NET dzięki samouczkom Aspose.PSD dla .NET! Pozna
 
 ### [Zapisywanie i eksportowanie plików](./file-saving-and-exporting/)
 
-Z łatwością opanuj zapisywanie i eksportowanie obrazów za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z naszymi szczegółowymi samouczkami, aby uzyskać wydajne operacje na dyskach i strumieniach. Zoptymalizuj swój przepływ pracy, korzystając ze wskazówek ekspertów dotyczących zapisywania i eksportowania obrazów.
+łatwością opanuj zapisywanie i eksportowanie obrazów za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z naszymi szczegółowymi samouczkami, aby uzyskać wydajne operacje na dyskach i strumieniach. Zoptymalizuj swój przepływ pracy, korzystając ze wskazówek ekspertów dotyczących zapisywania i eksportowania obrazów.
 
 ## Odblokuj potencjał regulacji obrazu
 

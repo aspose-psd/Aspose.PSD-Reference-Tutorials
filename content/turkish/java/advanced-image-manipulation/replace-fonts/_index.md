@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 
 ## 2. Adım: Görüntüyü Yükleyin
 
- Kullanın`Image.load` PSD dosyasını bir örneğine yükleme yöntemi`PsdImage` . Uygulamak`PsdLoadOptions` ve varsayılan değiştirme yazı tipini (bu durumda "Arial") ayarlayın.
+ Kullanın`Image.load` PSD dosyasını bir örneğine yükleme yöntemi`PsdImage` . Uygula`PsdLoadOptions` ve varsayılan değiştirme yazı tipini (bu durumda "Arial") ayarlayın.
 
 ```java
 PsdLoadOptions psdLoadOptions = new PsdLoadOptions(); 

@@ -64,7 +64,7 @@ String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-Et voila! Vous avez réussi à redimensionner une image proportionnellement à l'aide d'Aspose.PSD pour Java.
+Et voilà ! Vous avez réussi à redimensionner une image proportionnellement à l'aide d'Aspose.PSD pour Java.
 
 ## Conclusion
 
@@ -74,15 +74,15 @@ Dans ce didacticiel, nous avons couvert les étapes essentielles pour redimensio
 
 ### Q1 : Aspose.PSD est-il compatible avec tous les formats d'image ?
 
- A1 : Aspose.PSD prend en charge divers formats d'image, notamment PSD, PNG, JPEG, etc. Vérifier la[Documentation](https://reference.aspose.com/psd/java/) pour une liste complète.
+ A1 : Aspose.PSD prend en charge divers formats d'image, notamment PSD, PNG, JPEG, etc. Vérifiez le[documentation](https://reference.aspose.com/psd/java/) pour une liste complète.
 
 ### Q2 : Puis-je utiliser Aspose.PSD pour des projets commerciaux ?
 
- A2 : Oui, vous pouvez. Visiter le[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
+ A2 : Oui, vous pouvez. Visitez le[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
 
 ### Q3 : Des licences temporaires sont-elles disponibles à des fins de test ?
 
- A3 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/) pour évaluation.
+ A3 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour évaluation.
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD ?
 

@@ -32,7 +32,7 @@ import com.aspose.psd.RotateFlipType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 
  โหลดรูปภาพที่มีอยู่ลงในอินสแตนซ์ของ`Image` ระดับ:
 
@@ -79,7 +79,7 @@ A2: แน่นอน! Aspose.PSD มอบความยืดหยุ่น
 
 ### คำถามที่ 4: มีการทดลองใช้ฟรีหรือไม่?
 
- A4: ใช่ คุณสามารถสำรวจ Aspose.PSD ได้ด้วย[ทดลองฟรี](https://releases.aspose.com/).
+ A4: ใช่ คุณสามารถสำรวจ Aspose.PSD ได้ด้วย[ทดลองใช้ฟรี](https://releases.aspose.com/).
 
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
 

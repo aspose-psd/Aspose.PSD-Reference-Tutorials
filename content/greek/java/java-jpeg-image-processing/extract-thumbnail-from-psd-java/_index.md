@@ -18,7 +18,6 @@ url: /el/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 Για να ξεκινήσετε, συμπεριλάβετε το απαραίτητο πακέτο Aspose.PSD στην τάξη Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -60,14 +59,14 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 ## Βήμα 4: Χειρισμός διαφορετικών τύπων μικρογραφιών
  Εάν το αρχείο PSD μπορεί να περιέχει πολλούς τύπους μικρογραφιών, όπως π.χ`Thumbnail4Resource`, μπορείτε να επεκτείνετε τη λογική για να χειριστείτε αυτές τις περιπτώσεις με παρόμοιο τρόπο.
 
-## συμπέρασμα
+## Σύναψη
 Σε αυτό το σεμινάριο, εξερευνήσαμε τον τρόπο εξαγωγής μικρογραφιών από αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθώντας τα βήματα που περιγράφονται παραπάνω, μπορείτε να ανακτήσετε και να αποθηκεύσετε αποτελεσματικά μικρογραφίες που είναι ενσωματωμένες στα έγγραφά σας PSD.
 
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD;
 Το Aspose.PSD είναι μια βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με PSD και άλλες μορφές αρχείων εικόνας μέσω προγραμματισμού.
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.PSD για Java;
- Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.aspose.com/psd/java/) για λεπτομερείς αναφορές και παραδείγματα API.
+ Μπορείτε να ανατρέξετε στο[απόδειξη με έγγραφα](https://reference.aspose.com/psd/java/) για λεπτομερείς αναφορές και παραδείγματα API.
 ### Μπορώ να δοκιμάσω το Aspose.PSD δωρεάν πριν το αγοράσω;
  Ναι, μπορείτε να κατεβάσετε ένα[δωρεάν δοκιμή](https://releases.aspose.com/) να αξιολογήσει τις δυνατότητες της βιβλιοθήκης.
 ### Πώς μπορώ να λάβω προσωρινές άδειες για το Aspose.PSD;

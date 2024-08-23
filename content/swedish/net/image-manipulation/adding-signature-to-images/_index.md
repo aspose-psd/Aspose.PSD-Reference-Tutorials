@@ -102,4 +102,4 @@ S3: Du kan implementera try-catch-block för att hantera undantag elegant.
 
 ### F5: Kan jag prova Aspose.PSD innan jag köper?
 
- S5: Visst, en gratis provperiod är tillgänglig.[här](https://releases.aspose.com/).
+ S5: Visst, en gratis provperiod är tillgänglig[här](https://releases.aspose.com/).

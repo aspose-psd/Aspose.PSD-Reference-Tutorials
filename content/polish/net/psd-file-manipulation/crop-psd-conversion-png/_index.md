@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Utwórz instancję klasy PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Krok 5: Zapisz przycięty obraz jako PNG.
+## Krok 5: Zapisz przycięty obraz jako PNG
 ```csharp
 // Wywołaj metodę save, podaj ścieżkę wyjściową i PngOptions, aby przekonwertować plik PSD na PNG i zapisać wynik
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ Gratulacje! Pomyślnie nauczyłeś się, jak przycinać pliki PSD podczas konwer
 
 ### P1: Czy mogę używać tej biblioteki w projekcie komercyjnym?
 
- O1: Tak, Aspose.PSD dla .NET jest dostępny do użytku komercyjnego. Odnosić się do[Licencja Aspose.PSD](https://purchase.aspose.com/buy) dla szczegółów.
+ O1: Tak, Aspose.PSD dla .NET jest dostępny do użytku komercyjnego. Patrz[Licencja Aspose.PSD](https://purchase.aspose.com/buy) po szczegóły.
 
 ### P2: Czy dostępny jest bezpłatny okres próbny?
 
- A2: Absolutnie! Możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+A2: Absolutnie! Możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla .NET?
 

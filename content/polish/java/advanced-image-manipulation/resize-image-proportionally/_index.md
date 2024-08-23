@@ -78,11 +78,11 @@ W tym samouczku omówiliśmy podstawowe kroki proporcjonalnej zmiany rozmiaru ob
 
 ### P2: Czy mogę używać Aspose.PSD do projektów komercyjnych?
 
- A2: Tak, możesz. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania szczegółów licencji.
+ A2: Tak, możesz. Odwiedź[strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania szczegółów licencji.
 
 ### P3: Czy dostępne są licencje tymczasowe do celów testowych?
 
- Odpowiedź 3: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/) dla ewolucji.
+ Odpowiedź 3: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do oceny.
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.PSD?
 

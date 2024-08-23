@@ -62,7 +62,7 @@ string destName = dataDir + @"SimpleResizing_out.jpg";
 image.Save(destName, new JpegOptions());
 ```
 
-I to wszystko! Pomyślnie zmieniłeś rozmiar obrazu za pomocą Aspose.PSD dla .NET.
+I tyle! Pomyślnie zmieniłeś rozmiar obrazu za pomocą Aspose.PSD dla .NET.
 
 ## Wniosek
 

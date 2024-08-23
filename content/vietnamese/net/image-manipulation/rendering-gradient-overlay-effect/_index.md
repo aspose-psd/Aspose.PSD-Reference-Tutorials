@@ -17,7 +17,7 @@ Mở khóa tiềm năng hình ảnh của bạn bằng cách làm chủ Hiệu �
 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-- Thư viện Aspose.PSD: Tải xuống và cài đặt thư viện Aspose.PSD từ[trang mạng](https://releases.aspose.com/psd/net/).
+- Thư viện Aspose.PSD: Tải xuống và cài đặt thư viện Aspose.PSD từ[trang web](https://releases.aspose.com/psd/net/).
 
 - Thư mục Tài liệu: Thiết lập một thư mục cho tài liệu của bạn nơi bạn có thể lưu trữ các tệp nguồn và đầu ra của mình.
 

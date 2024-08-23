@@ -7,8 +7,8 @@ type: docs
 weight: 20
 url: /cs/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
 ---
-## Úvod
-Nazdárek! Jste připraveni ponořit se do světa zpracování obrazu pomocí Javy? Dnes prozkoumáme knihovnu Aspose.PSD for Java, výkonný nástroj, který vám umožňuje snadno manipulovat a transformovat soubory PSD. Konkrétně se podíváme na to, jak zacházet s 2 a 7 bitovými JPEGy. Tento tutoriál vás provede vším, co potřebujete vědět, od předpokladů až po podrobné pokyny krok za krokem. Takže se připoutejte a připravte se na zábavnou a poučnou jízdu!
+## Zavedení
+Ahoj! Jste připraveni ponořit se do světa zpracování obrazu pomocí Javy? Dnes prozkoumáme knihovnu Aspose.PSD for Java, výkonný nástroj, který vám umožňuje snadno manipulovat a transformovat soubory PSD. Konkrétně se podíváme na to, jak zacházet s 2 a 7 bitovými JPEGy. Tento tutoriál vás provede vším, co potřebujete vědět, od předpokladů až po podrobné pokyny krok za krokem. Takže se připoutejte a připravte se na zábavnou a poučnou jízdu!
 ## Předpoklady
 Než začneme, ujistěte se, že máte vše, co potřebujete:
 1. Java Development Kit (JDK): Ujistěte se, že máte nainstalovaný JDK 8 nebo vyšší.
@@ -21,7 +21,6 @@ Dobře, ušpiníme si ruce!
 Nejprve naimportujme potřebné balíčky. Abyste mohli začít, budete potřebovat knihovnu Aspose.PSD for Java. Ujistěte se, že jste knihovnu přidali do závislostí projektu. Jak na to:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -61,17 +60,17 @@ Nakonec uložíme obrázek s naším novým nastavením. Toto je okamžik pravdy
 ```java
 image.save(dataDir + "2_7BitsJPEG_output.jpg", options);
 ```
-A to je vše! Úspěšně jste zpracovali obrázek PSD a uložili jej jako JPEG se zadanými nastaveními.
+A je to! Úspěšně jste zpracovali obrázek PSD a uložili jej jako JPEG se zadanými nastaveními.
 ## Závěr
-Gratulujeme! Právě jste se naučili, jak manipulovat se soubory PSD a ukládat je jako JPEG pomocí Aspose.PSD for Java. Tato výkonná knihovna nabízí širokou škálu funkcí, díky kterým je zpracování obrazu hračkou. Ať už pracujete na malém projektu nebo na rozsáhlé aplikaci, Aspose.PSD pro Java vám pomůže. Tak na co čekáš? Začněte experimentovat a uvidíte, jaké úžasné věci můžete vytvořit!
+Gratuluji! Právě jste se naučili, jak manipulovat se soubory PSD a ukládat je jako JPEG pomocí Aspose.PSD for Java. Tato výkonná knihovna nabízí širokou škálu funkcí, díky kterým je zpracování obrazu hračkou. Ať už pracujete na malém projektu nebo na rozsáhlé aplikaci, Aspose.PSD pro Java vám pomůže. Tak na co čekáš? Začněte experimentovat a uvidíte, jaké úžasné věci můžete vytvořit!
 ## FAQ
 ### Co je Aspose.PSD for Java?
 Aspose.PSD for Java je výkonná knihovna, která vám umožňuje pracovat se soubory PSD v aplikacích Java. Nabízí širokou škálu funkcí pro manipulaci a transformaci obrazu.
 ### Jak nainstaluji Aspose.PSD pro Javu?
- Knihovnu si můžete stáhnout z[webová stránka](https://releases.aspose.com/psd/java/) a přidejte jej do závislostí projektu.
+Knihovnu si můžete stáhnout z[webové stránky](https://releases.aspose.com/psd/java/) a přidejte jej do závislostí projektu.
 ### Mohu používat vlastní barevné profily s Aspose.PSD pro Javu?
 Ano, při konfiguraci možností JPEG můžete nastavit vlastní profily barev RGB a CMYK.
 ### Jaké jsou podporované formáty obrázků v Aspose.PSD pro Javu?
 Aspose.PSD for Java podporuje různé formáty obrázků, včetně PSD, JPEG, PNG, BMP, TIFF a dalších.
-### Je k dispozici bezplatná zkušební verze Aspose.PSD pro Javu?
+### Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Javu?
  Ano, můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) k otestování funkcí knihovny před nákupem.

@@ -26,7 +26,7 @@ Aspose.PSD for .NET ile çizim becerilerinizi bir sonraki seviyeye taşımaya ha
 
 ## Aspose.PSD for .NET ile Eliptik Şekiller Oluşturma
 
- Aspose.PSD'yi kullanarak .NET uygulamalarında eliptik şekiller çizme sanatını öğrenin. Kod örnekleriyle tamamlanan adım adım kılavuzumuz, göz alıcı grafikleri zahmetsizce oluşturabilmenizi sağlar. Bu gün başlayacağım![Eliptik Şekiller Eğitimi](./creating-elliptical-shapes/)
+ Aspose.PSD'yi kullanarak .NET uygulamalarında eliptik şekiller çizme sanatını öğrenin. Kod örnekleriyle tamamlanan adım adım kılavuzumuz, göz alıcı grafikleri zahmetsizce oluşturabilmenizi sağlar. Bugün başlayın![Eliptik Şekiller Eğitimi](./creating-elliptical-shapes/)
 
 ## Aspose.PSD for .NET'te Etkin Şekilde Çizgi Çizme
 
@@ -34,7 +34,7 @@ Aspose.PSD for .NET ile çizim becerilerinizi bir sonraki seviyeye taşımaya ha
 
 ## Aspose.PSD for .NET'te Dikdörtgenler Oluşturma
 
-Aspose.PSD ile .NET'te dikdörtgen çizme sanatını keşfedin. Adım adım kılavuzumuz kusursuz entegrasyon sağlayarak görüntü işleme oyununuzu zahmetsizce geliştirmenize olanak sağlar. Bu gün başlayacağım![Dikdörtgenler Oluşturma Eğitimi](./constructing-rectangles/)
+Aspose.PSD ile .NET'te dikdörtgen çizme sanatını keşfedin. Adım adım kılavuzumuz kusursuz entegrasyon sağlayarak görüntü işleme oyununuzu zahmetsizce geliştirmenize olanak sağlar. Bugün başlayın![Dikdörtgenler Oluşturma Eğitimi](./constructing-rectangles/)
 
 ## Aspose.PSD for .NET'te Grafik Kullanarak Yaratıcı Çizim
 

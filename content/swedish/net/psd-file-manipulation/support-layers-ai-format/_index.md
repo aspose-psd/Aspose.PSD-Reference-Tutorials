@@ -15,7 +15,7 @@ Aspose.PSD för .NET är ett kraftfullt bibliotek som gör det möjligt för utv
 Innan vi dyker in i handledningen, se till att du har följande:
 1.  Aspose.PSD för .NET Library: Ladda ner och installera biblioteket från[Aspose.PSD webbplats](https://releases.aspose.com/psd/net/).
 2. Utvecklingsmiljö: Se till att du har en fungerande .NET-utvecklingsmiljö, inklusive Visual Studio.
-3. Exempel på AI-fil: Ladda ner exempelfilen för AI, "form_8_2l3_7.ai," från[den här länken](Your-Download-Link).
+3. Exempel på AI-fil: Ladda ner exempelfilen för AI, "form_8_2l3_7.ai," från[denna länk](Your-Download-Link).
 ## Importera namnområden
 För att komma igång, importera nödvändiga namnområden i ditt .NET-projekt:
 ```csharp

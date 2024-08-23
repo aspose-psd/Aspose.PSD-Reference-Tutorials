@@ -41,7 +41,7 @@ Maintenant, décomposons le processus en plusieurs étapes pour enregistrer des 
 String dataDir = "Your Document Directory";
 ```
 
- Remplacer`"Your Document Directory"`avec le chemin d’accès au répertoire où se trouve votre fichier PSD.
+ Remplacer`"Your Document Directory"` avec le chemin d’accès au répertoire où se trouve votre fichier PSD.
 
 ## Étape 2 : Spécifiez la source et la destination
 
@@ -68,13 +68,13 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Créer un`FileOutputStream` pour le fichier de destination et enregistrez l'image PSD dans le flux à l'aide des options PNG.
+ Créer un`FileOutputStream`pour le fichier de destination et enregistrez l'image PSD dans le flux à l'aide des options PNG.
 
 Répétez ces étapes si nécessaire pour votre cas d'utilisation spécifique.
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment enregistrer des images dans un flux avec Aspose.PSD pour Java. Cette fonctionnalité est utile pour une variété d'applications, vous permettant d'intégrer de manière transparente le traitement d'images PSD dans vos projets Java.
+Félicitations! Vous avez appris avec succès comment enregistrer des images dans un flux avec Aspose.PSD pour Java. Cette fonctionnalité est utile pour une variété d'applications, vous permettant d'intégrer de manière transparente le traitement d'images PSD dans vos projets Java.
 
 ## FAQ
 
@@ -88,7 +88,7 @@ A1 : Oui, Aspose.PSD est largement utilisé dans les projets Java professionnels
 
 ### Q3 : Puis-je essayer Aspose.PSD avant d’acheter ?
 
-A3 : Oui, vous pouvez explorer un[essai gratuit](https://releases.aspose.com/) pour évaluer les capacités d'Aspose.PSD.
+ A3 : Oui, vous pouvez explorer un[essai gratuit](https://releases.aspose.com/) pour évaluer les capacités d'Aspose.PSD.
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 

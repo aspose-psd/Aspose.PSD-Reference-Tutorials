@@ -1,35 +1,35 @@
 ---
-title: Java 用 Aspose.PSD のシフトによる画像のトリミング
-linktitle: シフトによる画像のトリミング
+title: Aspose.PSD for Java でシフトを使用して画像をトリミングする
+linktitle: Shifts による画像の切り抜き
 second_title: Aspose.PSD Java API
-description: Aspose.PSD for Java を使用したマスター画像のトリミング。シームレスな画像操作のための包括的なチュートリアル。
+description: Aspose.PSD for Java を使用して画像の切り抜きをマスターします。シームレスな画像操作のための包括的なチュートリアルです。
 type: docs
 weight: 16
 url: /ja/java/image-editing/crop-image-by-shifts/
 ---
 ## 導入
 
-Java ベースの画像処理の分野では、Aspose.PSD は、画像を最高の精度で操作および強化するための強力なツールとして際立っています。 Aspose.PSD を際立たせる重要な機能の 1 つは、画像のトリミングをシームレスに実行できることです。このチュートリアルでは、Aspose.PSD for Java を使用した画像トリミングの技術を詳しく説明します。最終的には、仕様に従って画像を簡単にトリミングするスキルを身につけることができます。
+Java ベースの画像処理の分野では、Aspose.PSD は、画像を極めて正確に操作および強化できる強力なツールとして際立っています。Aspose.PSD を際立たせる重要な機能の 1 つは、画像の切り抜きをシームレスに実行できることです。このチュートリアルでは、Aspose.PSD for Java を使用して画像を切り抜く技術について詳しく説明します。最後には、仕様に従って画像を簡単に切り抜くスキルを身に付けることができます。
 
 ## 前提条件
 
-このエキサイティングな旅に着手する前に、必要な前提条件が整っていることを確認してください。
+このエキサイティングな旅に乗り出す前に、必要な前提条件が整っていることを確認しましょう。
 
 ### Java 開発キット (JDK)
 
-最新バージョンの JDK がシステムにインストールされていることを確認してください。からダウンロードできます[ここ](https://www.oracle.com/java/technologies/javase-downloads.html).
+システムに最新バージョンのJDKがインストールされていることを確認してください。以下からダウンロードできます。[ここ](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-### Java ライブラリ用の Aspose.PSD
+### Aspose.PSD for Java ライブラリ
 
-まず、Java ライブラリ用の Aspose.PSD を取得する必要があります。に向かってください。[ダウンロードページ](https://releases.aspose.com/psd/java/)最新バージョンを入手してください。
+まず、Aspose.PSD for Javaライブラリを入手する必要があります。[ダウンロードページ](https://releases.aspose.com/psd/java/)最新バージョンを入手してください。
 
 ### 統合開発環境 (IDE)
 
-Eclipse や IntelliJ など、お気に入りの Java IDE を選択して、スムーズなコーディング体験を実現します。
+スムーズなコーディング体験のために、Eclipse や IntelliJ などのお気に入りの Java IDE を選択してください。
 
 ## パッケージのインポート
 
-Java プロジェクトで、画像のトリミング プロセスを開始するために必要なパッケージをインポートします。
+Java プロジェクトで、画像の切り抜きプロセスを開始するために必要なパッケージをインポートします。
 
 ```java
 import com.aspose.psd.Image;
@@ -38,19 +38,19 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-ここで、Aspose.PSD for Java を使用して画像をトリミングするプロセスを一連の簡単な手順に分けてみましょう。
+ここで、Aspose.PSD for Java を使用して画像をトリミングするプロセスを、一連の簡単な手順に分解してみましょう。
 
-## ステップ 1: 画像をロードする
+## ステップ1: 画像を読み込む
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-//既存の画像を RasterImage クラスのインスタンスにロードします
+//既存の画像をRasterImageクラスのインスタンスに読み込みます
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 ```
 
-## ステップ 2: 画像データをキャッシュする
+## ステップ2: 画像データをキャッシュする
 
 パフォーマンスを向上させるために、トリミングする前に画像データをキャッシュすることをお勧めします。
 
@@ -60,7 +60,7 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-## ステップ 3: シフト値を定義する
+## ステップ3: シフト値を定義する
 
 画像の 4 辺すべてのシフト値を指定します。
 
@@ -71,47 +71,47 @@ int topShift = 10;
 int bottomShift = 10;
 ```
 
-## ステップ 4: トリミングを適用する
+## ステップ4: トリミングを適用する
 
-定義されたシフト値に基づいて、画像にトリミングを適用します。`crop`方法：
+定義されたシフト値に基づいて、`crop`方法：
 
 ```java
 rasterImage.crop(leftShift, rightShift, topShift, bottomShift);
 ```
 
-## ステップ 5: 結果を保存する
+## ステップ5: 結果を保存する
 
-切り取った画像を希望の形式 (この場合は JPEG) でディスクに保存します。
+切り取った画像を希望の形式（この場合は JPEG）でディスクに保存します。
 
 ```java
 String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-おめでとう！ Aspose.PSD for Java を使用して画像をトリミングすることに成功しました。
+おめでとうございます! Aspose.PSD for Java を使用して画像を正常にトリミングできました。
 
 ## 結論
 
-このチュートリアルでは、Aspose.PSD for Java を使用した画像トリミングの複雑さを調べました。この知識を活用すれば、画像のトリミングを Java プロジェクトにシームレスに統合して、画像処理機能に微妙な繊細さを加えることができるようになります。
+このチュートリアルでは、Aspose.PSD for Java を使用した画像切り抜きの複雑さについて説明しました。この知識を身に付ければ、画像切り抜きを Java プロジェクトにシームレスに統合し、画像処理機能に洗練されたタッチを加えることができます。
 
 ## よくある質問
 
 ### Q1: Aspose.PSD はすべての画像形式と互換性がありますか?
 
-A1: はい、Aspose.PSD は幅広い画像形式をサポートしており、プロジェクトの多用途性を保証します。
+A1: はい、Aspose.PSD は幅広い画像形式をサポートしており、プロジェクトの汎用性を保証します。
 
 ### Q2: 同じ画像に複数のトリミング操作を適用できますか?
 
 A2: もちろん、同じ画像に対して複数のトリミング操作を連続して実行できます。
 
-### Q3: Aspose.PSD サポートのためのコミュニティ フォーラムはありますか?
+### Q3: Aspose.PSD サポートのコミュニティ フォーラムはありますか?
 
- A3: はい、次の場所でサポートを見つけたり、コミュニティに参加したりできます。[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
+ A3: はい、サポートを見つけたり、コミュニティに参加したりできます。[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
 
 ### Q4: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 
- A4: 訪問[ここ](https://purchase.aspose.com/temporary-license/)仮免許を取得するためです。
+ A4: 訪問[ここ](https://purchase.aspose.com/temporary-license/)臨時免許を取得する。
 
 ### Q5: Aspose.PSD の機能を紹介するサンプル プロジェクトはありますか?
 
- A5: 次の場所にあるドキュメントと例を参照してください。[Aspose.PSD Java ドキュメント](https://reference.aspose.com/psd/java/).
+ A5: ドキュメントと例については、[Aspose.PSD Java ドキュメント](https://reference.aspose.com/psd/java/).

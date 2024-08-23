@@ -91,7 +91,7 @@ A3: Aspose.PSD는 광범위한 효과를 제공하지만 지원되는 효과에 
 
 ### Q4: 테스트 목적으로 임시 라이센스를 얻으려면 어떻게 해야 합니까?
 
- A4: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
+ A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
 
 ### Q5: 추가 지원 및 커뮤니티 토론은 어디에서 찾을 수 있습니까?
 

@@ -103,4 +103,4 @@ A3: 캐싱은 이미지 데이터를 메모리에 저장하여 반복적인 로�
 
 ### Q5: Aspose.PSD에 사용할 수 있는 평가판이 있습니까?
 
- A5: 예, 액세스할 수 있습니다.[무료 시험판](https://releases.aspose.com/)구매하기 전에 Aspose.PSD의 기능을 살펴보세요.
+ A5: 예, 액세스할 수 있습니다.[무료 평가판](https://releases.aspose.com/)구매하기 전에 Aspose.PSD의 기능을 살펴보세요.

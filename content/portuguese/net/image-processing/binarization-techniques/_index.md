@@ -15,7 +15,7 @@ No mundo do processamento de imagens, a capacidade de converter uma imagem color
 
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
--  Aspose.PSD for .NET: Baixe e instale a biblioteca Aspose.PSD for .NET do[Link para Download](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Baixe e instale a biblioteca Aspose.PSD for .NET do[link para baixar](https://releases.aspose.com/psd/net/).
 - Diretório de documentos: configure um diretório para armazenar seus arquivos PSD de amostra.
 
 ## Importar namespaces
@@ -103,4 +103,4 @@ A3: O cache melhora o desempenho armazenando dados de imagem na memória, reduzi
 
 ### Q5: Existe uma versão de teste disponível para Aspose.PSD?
 
- A5: Sim, você pode acessar o[teste grátis](https://releases.aspose.com/)para explorar os recursos do Aspose.PSD antes de fazer uma compra.
+ A5: Sim, você pode acessar o[teste gratuito](https://releases.aspose.com/)para explorar os recursos do Aspose.PSD antes de fazer uma compra.

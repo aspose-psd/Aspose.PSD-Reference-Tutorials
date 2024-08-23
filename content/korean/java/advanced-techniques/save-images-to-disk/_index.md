@@ -78,7 +78,7 @@ A1: 예, Java용 Aspose.PSD는 JPEG, BMP, TIFF 등을 포함한 다양한 이미
 
 ### Q2: Aspose.PSD for Java에 대한 무료 평가판이 있습니까?
 
- A2: 네, 방문하시면 Aspose.PSD for Java의 무료 평가판을 탐색하실 수 있습니다.[이 링크](https://releases.aspose.com/).
+ A2: 예, 다음 사이트를 방문하여 Java용 Aspose.PSD 무료 평가판을 탐색할 수 있습니다.[이 링크](https://releases.aspose.com/).
 
 ### Q3: Java용 Aspose.PSD에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 

@@ -16,7 +16,7 @@ Sürekli gelişen web geliştirme dünyasında, görüntüleri performans için 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
 - Java Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
--  Aspose.PSD for Java Library: Aspose.PSD for Java kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD for Java Library: Aspose.PSD for Java kütüphanesini aşağıdaki adresten indirip yükleyin:[indirme bağlantısı](https://releases.aspose.com/psd/java/).
 
 ## Paketleri İçe Aktar
 
@@ -46,7 +46,7 @@ String destName = dataDir + "anim_lossy-200.gif";
 
 ## 3. Adım: Görüntüyü Yükleyin
 
- Mevcut PSD görüntüsünü bir örneğine yükleyin.`RasterImage` kullanarak sınıf`Image.load` yöntem.
+ Mevcut PSD görüntüsünü bir örneğine yükleyin.`RasterImage` kullanarak sınıf`Image.load` Yöntem.
 
 ```java
 Image image = Image.load(sourceFile);
@@ -54,14 +54,14 @@ Image image = Image.load(sourceFile);
 
 ## 4. Adım: GIF Sıkıştırmasını Yapılandırma
 
- Oluşturmak`GifOptions` Maksimum fark gibi GIF sıkıştırması için parametreleri ayarlama nesnesi. Bu örnekte maksimum farkı 200 olarak ayarladık.
+ Bir oluştur`GifOptions` Maksimum fark gibi GIF sıkıştırması için parametreleri ayarlama nesnesi. Bu örnekte maksimum farkı 200 olarak ayarladık.
 
 ```java
 GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Adım 5: Sıkıştırılmış GIF'i kaydedin.
+## Adım 5: Sıkıştırılmış GIF'i Kaydet
 
  Sıkıştırılmış GIF görüntüsünü kullanarak kaydedin.`image.save` belirtilen yöntem`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD for Java, Java uygulamalarında PSD dosyaları ve çeşitli görü
 
 ### S3: Aspose.PSD for Java belgelerini nerede bulabilirim?
 
-A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/java/).
+A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/java/).
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- C4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Java için Aspose.PSD'yi nasıl satın alabilirim?
 
- Cevap5: Kütüphaneyi satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ Cevap5: Kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

@@ -7,7 +7,7 @@ type: docs
 weight: 18
 url: /cs/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto komplexním návodu na podporu efektu překrytí přechodu v Aspose.PSD pro .NET! Pokud chcete vylepšit grafické možnosti vaší aplikace .NET, tento podrobný průvodce vám pomůže. Ponoříme se do složitosti vytváření a úprav efektu překrytí přechodem ve vrstvě pomocí Aspose.PSD, výkonné knihovny, která zjednodušuje zpracování obrazu.
 
@@ -16,7 +16,7 @@ Vítejte v tomto komplexním návodu na podporu efektu překrytí přechodu v As
 Než se vydáme na tuto cestu, ujistěte se, že máte následující:
 
 - Základní znalost programování v C# a .NET.
--  Aspose.PSD pro .NET nainstalován. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET nainstalován. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 - Vývojové prostředí nastavené s vámi preferovaným IDE.
 
 ## Importovat jmenné prostory
@@ -106,7 +106,7 @@ settings.TransparencyPoints[1].Opacity = 100;
 psdImage.Save(outputFilePath);
 ```
 
-je to! Úspěšně jste přidali efekt překrytí přechodem do vrstvy pomocí Aspose.PSD pro .NET.
+To je vše! Úspěšně jste přidali efekt překrytí přechodem do vrstvy pomocí Aspose.PSD pro .NET.
 
 ## Závěr
 
@@ -128,7 +128,7 @@ Odpověď 2: Ano, na jednu vrstvu můžete použít různé efekty, včetně Př
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat podporu pro Aspose.PSD?
 

@@ -20,7 +20,6 @@ url: /th/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-jav
 ก่อนที่จะเริ่มต้นด้วยตัวอย่าง ตรวจสอบให้แน่ใจว่าได้นำเข้าแพ็คเกจที่จำเป็นจาก Aspose.PSD สำหรับ Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -52,7 +51,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     }
 }
 ```
-## ขั้นตอนที่ 3: บันทึกรูปภาพ
+## ขั้นตอนที่ 3: บันทึกภาพ
 สุดท้าย ให้บันทึกภาพที่แก้ไขแล้วหลังจากใช้การหมุนอัตโนมัติ:
 ```java
 image.save();

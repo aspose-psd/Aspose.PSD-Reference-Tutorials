@@ -19,7 +19,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 2.  Bibliothèque Aspose.PSD pour Java : vous devez disposer de la bibliothèque Aspose.PSD pour Java. Si vous ne l'avez pas déjà fait, téléchargez-le depuis le[Documentation Java Aspose.PSD](https://reference.aspose.com/psd/java/).
 
-3. Répertoire de documents : créez un répertoire pour vos documents et mémorisez le chemin. Dans l'exemple fourni, le répertoire est appelé`Your Document Directory`.
+3.  Répertoire de documents : créez un répertoire pour vos documents et mémorisez le chemin. Dans l'exemple fourni, le répertoire est appelé`Your Document Directory`.
 
 ## Importer des packages
 
@@ -68,7 +68,7 @@ Enfin, enregistrez l'image modifiée avec les effets appliqués dans un nouveau 
 im.save(exportPath);
 ```
 
-Toutes nos félicitations! Vous avez ajouté avec succès des effets au moment de l'exécution à l'aide d'Aspose.PSD pour Java.
+Félicitations! Vous avez ajouté avec succès des effets au moment de l'exécution à l'aide d'Aspose.PSD pour Java.
 
 ## Conclusion
 
@@ -90,8 +90,8 @@ A2 : Oui, Aspose.PSD prend en charge un large éventail de formats d'image, nota
 
 ### Q4 : Où puis-je demander de l'aide pour tout problème ou question lié à Aspose.PSD ?
 
- A4 : Visitez le Aspose.PSD[forum d'entraide](https://forum.aspose.com/c/psd/34) pour obtenir de l'aide et entrer en contact avec la communauté.
+ A4 : Visitez le Aspose.PSD[forum d'assistance](https://forum.aspose.com/c/psd/34) pour obtenir de l'aide et entrer en contact avec la communauté.
 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A5 : Oui, vous pouvez explorer la version d'essai gratuite.[ici](https://releases.aspose.com/).
+ A5 : Oui, vous pouvez explorer la version d'essai gratuite[ici](https://releases.aspose.com/).

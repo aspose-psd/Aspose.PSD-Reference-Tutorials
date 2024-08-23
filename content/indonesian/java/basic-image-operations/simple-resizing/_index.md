@@ -15,7 +15,7 @@ Dalam tutorial hari ini, kita akan mempelajari proses pengubahan ukuran gambar s
 
 Sebelum kita memulai perjalanan mengubah ukuran gambar dengan Aspose.PSD, pastikan Anda memiliki prasyarat berikut:
 
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh versi terbaru dari[situs web Jawa](https://www.oracle.com/java/).
+1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh versi terbaru dari[situs web Jawa](https://www.oracle.com/java/).
 
 2.  Aspose.PSD untuk Java: Unduh dan instal perpustakaan Aspose.PSD. Anda dapat menemukan paket yang diperlukan di[Aspose.PSD untuk halaman unduh Java](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ A2: Ya, Aspose.PSD mendukung berbagai format gambar, memberikan fleksibilitas da
 
 ### Q4: Dapatkah saya mencoba Aspose.PSD untuk Java sebelum membeli?
 
- A4: Tentu saja! Memanfaatkan[versi percobaan gratis](https://releases.aspose.com/) untuk mengeksplorasi kemampuan perpustakaan.
+ A4: Tentu saja! Memanfaatkan[versi percobaan gratis](https://releases.aspose.com/)untuk mengeksplorasi kemampuan perpustakaan.
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk Java?
 

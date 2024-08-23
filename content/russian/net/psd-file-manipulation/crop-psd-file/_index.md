@@ -38,7 +38,7 @@ using (RasterImage image = Image.Load(sourceFileName) as RasterImage)
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Отрегулируйте значения в конструкторе Rectangle в соответствии с вашими требованиями к обрезке.
+Отрегулируйте значения в конструкторе прямоугольников в соответствии с вашими требованиями к обрезке.
 ## Шаг 5. Сохраните обрезанное изображение
 Сохраните обрезанное изображение в форматах PSD и PNG:
 ```csharp
@@ -63,7 +63,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 
 ### В3: Есть ли бесплатная пробная версия?
 
- О3: Да, вы можете изучить Aspose.PSD с помощью бесплатной пробной версии. Загрузить[здесь](https://releases.aspose.com/).
+ О3: Да, вы можете изучить Aspose.PSD с помощью бесплатной пробной версии. Загрузите это[здесь](https://releases.aspose.com/).
 
 ### Вопрос 4: Где я могу найти поддержку Aspose.PSD?
 

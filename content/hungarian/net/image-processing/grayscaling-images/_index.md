@@ -85,7 +85,7 @@ rasterCachedImage.Save(destName, new JpegOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen szürkeárnyalatosított egy képet az Aspose.PSD for .NET használatával. Ez az egyszerű eljárás egy csipet kifinomultságot adhat a képekhez.
+Gratulálok! Sikeresen szürkeárnyalatosított egy képet az Aspose.PSD for .NET használatával. Ez az egyszerű eljárás egy csipet kifinomultságot adhat a képekhez.
 
 ## GYIK
 

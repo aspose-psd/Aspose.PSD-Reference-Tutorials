@@ -12,7 +12,7 @@ Salut! Êtes-vous prêt à plonger dans le monde du traitement d’images avec J
 ## Conditions préalables
 Avant de commencer, assurons-nous que vous disposez de tout ce dont vous avez besoin :
 1. Kit de développement Java (JDK) : assurez-vous que JDK 8 ou supérieur est installé.
-2.  Aspose.PSD pour la bibliothèque Java : vous pouvez[Télécharger les ici](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD pour la bibliothèque Java : vous pouvez[téléchargez-le ici](https://releases.aspose.com/psd/java/).
 3. Environnement de développement intégré (IDE) : n'importe quel IDE compatible Java comme IntelliJ IDEA, Eclipse ou NetBeans fera l'affaire.
 4. Exemple de fichier PSD : pour ce didacticiel, vous aurez besoin d’un exemple de fichier PSD. Vous pouvez utiliser le vôtre ou en trouver un en ligne.
 5. Connaissance de base de Java : Comprendre la syntaxe de base de Java et les concepts de programmation orientée objet sera utile.
@@ -21,7 +21,6 @@ Très bien, mettons la main à la pâte !
 Tout d’abord, importons les packages nécessaires. Vous aurez besoin de la bibliothèque Aspose.PSD pour Java pour commencer. Assurez-vous d'avoir ajouté la bibliothèque aux dépendances de votre projet. Voici comment procéder :
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -57,18 +56,18 @@ options.setCmykColorProfile(null);
 ```
  Laisser les profils comme`null`signifie que les profils par défaut seront utilisés. Si vous souhaitez utiliser des profils de couleurs spécifiques, vous pouvez les définir ici.
 ## Étape 5 : Enregistrez l'image
-Enfin, sauvegardons l'image avec nos nouveaux paramètres. C'est le moment de vérité! Voici le code pour enregistrer votre image :
+Enfin, sauvegardons l'image avec nos nouveaux paramètres. C'est le moment de vérité ! Voici le code pour enregistrer votre image :
 ```java
 image.save(dataDir + "2_7BitsJPEG_output.jpg", options);
 ```
-Et c'est tout! Vous avez traité avec succès une image PSD et l'avez enregistrée au format JPEG avec vos paramètres spécifiés.
+Et c'est tout ! Vous avez traité avec succès une image PSD et l'avez enregistrée au format JPEG avec vos paramètres spécifiés.
 ## Conclusion
-Toutes nos félicitations! Vous venez d'apprendre à manipuler des fichiers PSD et à les enregistrer au format JPEG à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque offre un large éventail de fonctionnalités qui facilitent le traitement des images. Que vous travailliez sur un petit projet ou sur une application à grande échelle, Aspose.PSD pour Java est là pour vous. Alors qu'est-ce que tu attends? Commencez à expérimenter et voyez quelles choses incroyables vous pouvez créer !
+Félicitations! Vous venez d'apprendre à manipuler des fichiers PSD et à les enregistrer au format JPEG à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque offre un large éventail de fonctionnalités qui facilitent le traitement des images. Que vous travailliez sur un petit projet ou sur une application à grande échelle, Aspose.PSD pour Java est là pour vous. Alors, qu'est-ce que tu attends ? Commencez à expérimenter et voyez quelles choses incroyables vous pouvez créer !
 ## FAQ
 ### Qu’est-ce qu’Aspose.PSD pour Java ?
 Aspose.PSD pour Java est une bibliothèque puissante qui vous permet de travailler avec des fichiers PSD dans des applications Java. Il offre un large éventail de fonctionnalités pour la manipulation et la transformation d'images.
 ### Comment installer Aspose.PSD pour Java ?
- Vous pouvez télécharger la bibliothèque à partir du[site web](https://releases.aspose.com/psd/java/) et ajoutez-le aux dépendances de votre projet.
+Vous pouvez télécharger la bibliothèque à partir du[site web](https://releases.aspose.com/psd/java/) et ajoutez-le aux dépendances de votre projet.
 ### Puis-je utiliser des profils de couleurs personnalisés avec Aspose.PSD pour Java ?
 Oui, vous pouvez définir des profils de couleurs RVB et CMJN personnalisés lors de la configuration des options JPEG.
 ### Quels sont les formats d’image pris en charge dans Aspose.PSD pour Java ?

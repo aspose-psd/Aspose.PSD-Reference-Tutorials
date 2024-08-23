@@ -8,7 +8,7 @@ weight: 13
 url: /pl/java/java-graphics-drawing/drawing-arcs/
 ---
 ## Wstęp
-tym samouczku omówimy, jak rysować łuki przy użyciu biblioteki Aspose.PSD dla Java. Programowe rysowanie łuków może być przydatne w różnych aplikacjach, takich jak graficzne interfejsy użytkownika, wykresy lub niestandardowe wizualizacje. Aspose.PSD dla Java zapewnia solidne funkcje do manipulowania i tworzenia plików PSD (dokument Photoshop), w tym możliwość rysowania kształtów, takich jak łuki, z konfigurowalnymi właściwościami.
+tym samouczku nauczymy się rysować łuki za pomocą biblioteki Aspose.PSD dla Java. Programowe rysowanie łuków może być przydatne w różnych aplikacjach, takich jak graficzne interfejsy użytkownika, wykresy lub niestandardowe wizualizacje. Aspose.PSD dla Java zapewnia solidne funkcje do manipulowania i tworzenia plików PSD (dokument Photoshop), w tym możliwość rysowania kształtów, takich jak łuki, z konfigurowalnymi właściwościami.
 ## Warunki wstępne
 Przed kontynuowaniem tego samouczka upewnij się, że masz skonfigurowane następujące wymagania wstępne:
 1.  Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/).
@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -74,4 +73,4 @@ Absolutnie Aspose.PSD zapewnia rozbudowane funkcje do manipulowania i tworzenia 
 ### Czy Aspose.PSD obsługuje eksport do formatów innych niż BMP?
 Tak, Aspose.PSD obsługuje eksport do różnych formatów, w tym między innymi PNG, JPEG, TIFF i GIF.
 ### Gdzie mogę znaleźć dodatkowe wsparcie i zasoby dla Aspose.PSD?
- Odwiedzić[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia społeczności, dokumentacji i aktualizacji.
+ Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia społeczności, dokumentacji i aktualizacji.

@@ -61,7 +61,7 @@ using (Image signature = Image.Load(dataDir + "sample.psd"))
 
 ## Adım 4: Grafiği Başlatın ve İmzayı Çizin
 
- Bir örneğini oluşturun`Graphics` sınıflandırın ve birincil görüntünün nesnesini kullanarak başlatın. Kullan`DrawImage` İmzayı birincil görüntüde istenen konuma ekleme yöntemi.
+ Bir örneğini oluşturun`Graphics` sınıflandırın ve birincil görüntünün nesnesini kullanarak başlatın. Şunu kullanın:`DrawImage` İmzayı birincil görüntüde istenen konuma ekleme yöntemi.
 
 ```csharp
 Graphics graphics = new Graphics(canvas);
@@ -102,4 +102,4 @@ Cevap3: İstisnaları düzgün bir şekilde ele almak için try-catch blokların
 
 ### S5: Satın almadan önce Aspose.PSD'yi deneyebilir miyim?
 
- A5: Kesinlikle ücretsiz deneme sürümü mevcuttur.[Burada](https://releases.aspose.com/).
+ A5: Kesinlikle ücretsiz deneme sürümü mevcut[Burada](https://releases.aspose.com/).

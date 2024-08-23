@@ -15,7 +15,7 @@ url: /ko/net/layer-effects/adjusting-shadow-effect-opacity/
 
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 
--  .NET 라이브러리용 Aspose.PSD: 프로젝트에 .NET 라이브러리용 Aspose.PSD가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+-  .NET 라이브러리용 Aspose.PSD: 프로젝트에 .NET 라이브러리용 Aspose.PSD가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 
 - 문서 디렉터리: 입력 PSD 파일의 디렉터리를 설정합니다.
 
@@ -96,7 +96,7 @@ A2: 예, .NET용 Aspose.PSD는 그림자 효과를 미세 조정하기 위한 �
 
 ### Q3: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- A3: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A3: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: .NET용 Aspose.PSD는 .NET Core와 호환됩니까?
 

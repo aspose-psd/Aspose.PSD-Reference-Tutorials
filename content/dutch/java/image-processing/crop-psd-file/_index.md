@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Sla de bijgesneden afbeelding op in PSD-indeling met behulp van het opgegeven pad.
 
-## Stap 5: Bijgesneden afbeelding opslaan als PNG.
+## Stap 5: Bijgesneden afbeelding opslaan als PNG
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -105,4 +105,4 @@ A2: Ja, Aspose.PSD voor Java is geoptimaliseerd voor prestaties, waardoor het ge
 
 ### V5: Kan ik Aspose.PSD voor Java uitproberen voordat ik het aanschaf?
 
- A5: Ja, ontdek de functies met een gratis proefversie.[hier](https://releases.aspose.com/).
+ A5: Ja, ontdek de functies met een gratis proefversie[hier](https://releases.aspose.com/).

@@ -12,7 +12,7 @@ Khai phá toàn bộ tiềm năng của Aspose.PSD cho .NET bằng các hướng
 
 ## Nâng cao kỹ năng xử lý hình ảnh của bạn
 
-### [Đang xử lý hình ảnh](./image-processing/)
+### [Xử lý hình ảnh](./image-processing/)
 
 Dễ dàng nâng cao chất lượng hình ảnh với hướng dẫn Aspose.PSD cho .NET. Đi sâu vào các kỹ thuật như bộ lọc Gaussian và Wiener, chuyển đổi màu sắc, nhị phân hóa, v.v. Biến những hình ảnh thông thường thành những kiệt tác trực quan tuyệt đẹp bằng các hướng dẫn chi tiết của chúng tôi.
 
@@ -78,7 +78,7 @@ Khai phá toàn bộ tiềm năng của Aspose.PSD cho .NET bằng các hướng
 
 Hãy kết hợp Aspose.PSD cho .NET vào các dự án của bạn ngay hôm nay và chứng kiến một hành trình biến đổi trong xử lý và thao tác hình ảnh. Nâng cao kỹ năng của bạn, tối ưu hóa quy trình làm việc và dễ dàng tạo ra các ứng dụng có hình ảnh đẹp mắt. Đi sâu vào hướng dẫn của chúng tôi ngay bây giờ!
 ## Hướng dẫn toàn diện và ví dụ về Aspose.PSD cho .NET 
-### [Đang xử lý hình ảnh](./image-processing/)
+### [Xử lý hình ảnh](./image-processing/)
 Dễ dàng nâng cao chất lượng hình ảnh với hướng dẫn Aspose.PSD cho .NET. Tìm hiểu các kỹ thuật như bộ lọc Gaussian và Wiener, chuyển đổi màu, nhị phân hóa, v.v.
 ### [Thao tác với tệp PSD](./psd-file-manipulation/)
 Dễ dàng xử lý các lớp định dạng AI với Aspose.PSD cho .NET. Tìm hiểu cách xuất hình ảnh PSD sang GIF, xử lý các phần dữ liệu hoạt hình và thao tác trạng thái lớp. 

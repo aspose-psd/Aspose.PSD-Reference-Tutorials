@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/image-processing/color-conversion-default-icc-profiles/
 ---
-## Úvod
+## Zavedení
 
 Konverze barev je základním aspektem manipulace s obrázky, který ovlivňuje, jak jsou barvy reprezentovány v digitálních obrázcích. Aspose.PSD for .NET zjednodušuje tento proces tím, že poskytuje komplexní nástroje pro bezproblémové zpracování barevných profilů.
 
@@ -16,7 +16,7 @@ Konverze barev je základním aspektem manipulace s obrázky, který ovlivňuje,
 Než se pustíte do výukového programu, ujistěte se, že máte následující předpoklady:
 
 - Základní znalost programování v C#.
--  Nainstalován Aspose.PSD pro .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Nainstalován Aspose.PSD pro .NET. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 ## Importovat jmenné prostory
 
@@ -96,7 +96,7 @@ A3: Absolutně, Aspose.PSD poskytuje účinné nástroje pro dávkové zpracová
 
 ### Q4: Mohu použít Aspose.PSD pro komerční projekty?
 
- A4: Ano, můžete si zakoupit licenci.[tady](https://purchase.aspose.com/buy) pro komerční využití.
+ A4: Ano, můžete si zakoupit licenci[zde](https://purchase.aspose.com/buy) pro komerční využití.
 
 ### Q5: Kde najdu podporu komunity pro Aspose.PSD pro .NET?
 

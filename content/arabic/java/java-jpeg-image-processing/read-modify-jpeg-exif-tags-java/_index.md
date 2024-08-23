@@ -19,7 +19,6 @@ url: /ar/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 أول الأشياء أولاً، فلنستورد الحزم الضرورية. افتح Java IDE الخاص بك وقم بإنشاء مشروع Java جديد. بعد ذلك، قم بتضمين مكتبة Aspose.PSD لـ Java في تبعيات مشروعك.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -71,7 +70,7 @@ if (exifData != null) {
 }
 ```
 ## الخطوة 5: حفظ التغييرات
-أخيرًا، بعد تعديل بيانات EXIF، قم بحفظ التغييرات في ملف PSD جديد.
+أخيرًا، بعد تعديل بيانات EXIF، احفظ التغييرات في ملف PSD جديد.
 ```java
 try {
     image.save(dataDir + "Modified_Zebras_Serengeti.psd");
@@ -81,7 +80,7 @@ try {
 ```
 
 ## خاتمة
-وهناك لديك! باتباع هذه الخطوات، يمكنك بسهولة قراءة علامات JPEG EXIF وتعديلها باستخدام Aspose.PSD لـ Java. هذه المكتبة القوية تجعل التعامل مع البيانات الوصفية للصور أمرًا سهلاً. لذا، تفضل وجرب ذلك في مشاريعك الخاصة. ترميز سعيد!
+وهنا لديك! باتباع هذه الخطوات، يمكنك بسهولة قراءة علامات JPEG EXIF وتعديلها باستخدام Aspose.PSD لـ Java. هذه المكتبة القوية تجعل التعامل مع البيانات الوصفية للصور أمرًا سهلاً. لذا، تفضل وجرب ذلك في مشاريعك الخاصة. ترميز سعيد!
 ## الأسئلة الشائعة
 ### ما هي بيانات EXIF؟
 تحتوي بيانات EXIF (تنسيق ملف الصورة القابل للتبديل) على بيانات تعريف حول الصورة، مثل إعدادات الكاميرا واتجاهها.
@@ -90,6 +89,6 @@ try {
 ### هل Aspose.PSD لـ Java متوافق مع جميع إصدارات Java؟
 يدعم Aspose.PSD لـ Java Java SE 7 وما فوق.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.PSD لـ Java؟
- تفحص ال[توثيق](https://reference.aspose.com/psd/java/) لمزيد من التفاصيل.
+ تحقق من[الوثائق](https://reference.aspose.com/psd/java/) لمزيد من التفاصيل.
 ### كيف يمكنني الحصول على الدعم لـ Aspose.PSD لـ Java؟
  يمكنك الحصول على الدعم من[Aspose منتدى دعم PSD](https://forum.aspose.com/c/psd/34).

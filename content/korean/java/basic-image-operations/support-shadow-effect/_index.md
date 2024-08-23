@@ -16,7 +16,7 @@ url: /ko/java/basic-image-operations/support-shadow-effect/
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본 지식.
--  Java용 Aspose.PSD가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+-  Java용 Aspose.PSD가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 
 ## 패키지 가져오기
 
@@ -107,4 +107,4 @@ A1: 물론이죠! Aspose.PSD for Java는 전문적인 그래픽 디자인 작업
 
 ### Q5: Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 
- A5: 커뮤니티 포럼에 가입하세요.[여기](https://forum.aspose.com/c/psd/34) 지원 문의사항이 있는 경우
+ A5: 커뮤니티 포럼에 참여하세요[여기](https://forum.aspose.com/c/psd/34) 지원 문의사항이 있는 경우

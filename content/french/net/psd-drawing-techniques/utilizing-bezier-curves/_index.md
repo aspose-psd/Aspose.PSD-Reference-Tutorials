@@ -79,7 +79,7 @@ string outpath = dataDir + "Bezier.bmp";
 image.Save(outpath, saveOptions);
 ```
 
-Toutes nos félicitations! Vous avez utilisé avec succès les courbes de Bézier dans Aspose.PSD pour .NET. Expérimentez avec différents points de contrôle et couleurs pour libérer votre créativité.
+Félicitations! Vous avez utilisé avec succès les courbes de Bézier dans Aspose.PSD pour .NET. Expérimentez avec différents points de contrôle et couleurs pour libérer votre créativité.
 
 ## Conclusion
 
@@ -89,7 +89,7 @@ Dans ce didacticiel, nous avons exploré le monde fascinant des courbes de Bézi
 
 ### Q1 : Puis-je utiliser Aspose.PSD pour .NET dans des projets non commerciaux ?
 
- A1 : Oui, Aspose.PSD pour .NET peut être utilisé dans des projets commerciaux et non commerciaux. Vérifier la[détails de la licence](https://purchase.aspose.com/buy) pour plus d'informations.
+ A1 : Oui, Aspose.PSD pour .NET peut être utilisé dans des projets commerciaux et non commerciaux. Vérifiez le[détails de la licence](https://purchase.aspose.com/buy) pour plus d'informations.
 
 ### Q2 : Comment puis-je obtenir une licence temporaire à des fins de test ?
 
@@ -101,8 +101,8 @@ A3 : Absolument ! Aspose.PSD pour .NET est conçu pour les tâches de traitement
 
 ### Q4 : Où puis-je trouver le support communautaire pour Aspose.PSD pour .NET ?
 
- A4 : Rejoignez la communauté Aspose.PSD sur[ce forum](https://forum.aspose.com/c/psd/34) pour discuter et vous soutenir.
+A4 : Rejoignez la communauté Aspose.PSD sur[ce forum](https://forum.aspose.com/c/psd/34) pour des échanges et du soutien.
 
 ### Q5 : Existe-t-il des ressources gratuites pour apprendre Aspose.PSD pour .NET ?
 
- A5 : Explorez le[Documentation](https://reference.aspose.com/psd/net/) pour des guides et des exemples complets.
+ A5 : Explorez le[documentation](https://reference.aspose.com/psd/net/) pour des guides et des exemples complets.

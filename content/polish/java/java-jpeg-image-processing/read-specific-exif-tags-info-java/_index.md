@@ -14,12 +14,11 @@ Zanim zagłębimy się w kod, musisz przygotować kilka rzeczy:
 1.  Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowany pakiet JDK. Można go pobrać z[Witryna internetowa Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.PSD dla Java: Pobierz bibliotekę z[Tutaj](https://releases.aspose.com/psd/java/).
 3. Zintegrowane środowisko programistyczne (IDE): IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans, sprawi, że kodowanie stanie się wygodniejsze.
-4. Plik PSD: Plik PSD z danymi EXIF. Możesz użyć próbki dostarczonej w tym samouczku lub dowolnego innego pliku PSD z tagami EXIF.
+4. Plik PSD: plik PSD z danymi EXIF. Możesz użyć próbki dostarczonej w tym samouczku lub dowolnego innego pliku PSD ze znacznikami EXIF.
 ## Importuj pakiety
 Najpierw musisz zaimportować niezbędne pakiety Aspose.PSD do swojego projektu Java. Oto jak to skonfigurować.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -33,7 +32,7 @@ PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
  W tym kroku ładujemy plik PSD za pomocą`Image.load()` metoda. The`PsdImage` klasa jest używana do reprezentowania obrazu PSD i rzutujemy załadowany obraz na tę klasę, aby uzyskać dostęp do funkcjonalności specyficznych dla PSD.
 ## Krok 2: Iteruj po zasobach obrazu
-Teraz musimy iterować po zasobach obrazu, aby znaleźć zasób miniatury, który zazwyczaj zawiera dane EXIF.
+Teraz musimy przejrzeć zasoby obrazu, aby znaleźć zasób miniatury, który zazwyczaj zawiera dane EXIF.
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || 
@@ -57,14 +56,14 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
     }
 }
 ```
- Używamy`if` instrukcja sprawdzająca, czy zasób jest instancją`ThumbnailResource` . Jeśli tak, rzucamy go i odzyskujemy`JpegOptions` aby uzyskać dostęp do`ExifData`Na koniec drukujemy różne tagi EXIF, takie jak WhiteBalance, Pixel Dimensions, ISOSpeed i FocalLength.
+ Używamy`if` instrukcja sprawdzająca, czy zasób jest instancją`ThumbnailResource` . Jeśli tak, rzucamy go i odzyskujemy`JpegOptions` aby uzyskać dostęp do`ExifData`Na koniec drukujemy różne znaczniki EXIF, takie jak Balans bieli, Wymiary pikseli, ISOSpeed i FocalLength.
 
 ## Wniosek
-Wykonując te kroki, nauczyłeś się czytać określone tagi EXIF z obrazu PSD za pomocą Aspose.PSD dla Java. Proces ten polega na załadowaniu obrazu, iteracji po jego zasobach, identyfikacji zasobu miniatury i wyodrębnieniu danych EXIF. Dzięki tej wiedzy możesz teraz eksplorować i manipulować danymi EXIF w plikach PSD, umożliwiając bardziej wyrafinowane zadania przetwarzania obrazu.
+Wykonując te kroki, nauczyłeś się czytać określone tagi EXIF z obrazu PSD przy użyciu Aspose.PSD dla Java. Proces ten obejmuje ładowanie obrazu, przeglądanie jego zasobów, identyfikację zasobu miniatury i wyodrębnianie danych EXIF. Dzięki tej wiedzy możesz teraz eksplorować i manipulować danymi EXIF w plikach PSD, umożliwiając bardziej wyrafinowane zadania przetwarzania obrazu.
 ## Często zadawane pytania
 ### Co to są dane EXIF?
 Dane EXIF (Exchangeable Image File Format) to metadane osadzone w plikach obrazów, zawierające takie informacje, jak ustawienia aparatu, data i godzina oraz wymiary obrazu.
-### Czy mogę edytować dane EXIF za pomocą Aspose.PSD?
+### Czy mogę edytować dane EXIF przy użyciu Aspose.PSD?
 Tak, Aspose.PSD umożliwia odczyt i modyfikację danych EXIF. Możesz aktualizować tagi i zapisywać zmiany z powrotem w pliku obrazu.
 ### Czy Aspose.PSD dla Java jest darmowy?
  Aspose.PSD oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/). Aby uzyskać pełną funkcjonalność, należy zakupić licencję.

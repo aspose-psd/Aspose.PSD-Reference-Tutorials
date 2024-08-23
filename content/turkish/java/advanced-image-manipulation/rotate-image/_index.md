@@ -44,7 +44,7 @@ Image image = Image.load(sourceFile);
 
 ## Adım 2: Görüntüyü Döndürün
 
- kullanarak görüntüyü döndürün.`rotateFlip` yöntem. Bu örnekte görüntüyü 270 derece döndürüyoruz:
+ kullanarak görüntüyü döndürün.`rotateFlip` Yöntem. Bu örnekte görüntüyü 270 derece döndürüyoruz:
 
 ```java
 image.rotateFlip(RotateFlipType.Rotate270FlipNone);
@@ -83,4 +83,4 @@ A2: Kesinlikle! Aspose.PSD, özel gereksinimlerinizi karşılamak için özel ro
 
 ### S5: Geçici lisansı nasıl edinebilirim?
 
- Cevap5: Geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

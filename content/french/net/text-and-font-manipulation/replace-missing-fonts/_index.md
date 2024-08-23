@@ -52,7 +52,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 ```
 ## Conclusion
 
-Toutes nos félicitations! Vous maîtrisez avec succès l’art du remplacement de polices à l’aide d’Aspose.PSD pour .NET. Cette puissante bibliothèque offre flexibilité et efficacité dans la gestion des polices manquantes, garantissant ainsi que vos conceptions restent intactes.
+Félicitations! Vous maîtrisez avec succès l’art du remplacement de polices à l’aide d’Aspose.PSD pour .NET. Cette puissante bibliothèque offre flexibilité et efficacité dans la gestion des polices manquantes, garantissant ainsi que vos conceptions restent intactes.
 
 ## FAQ
 
@@ -70,8 +70,8 @@ A1 : Oui, Aspose.PSD vous permet de remplacer les polices de manière sélective
 
 ### Q4 : Des licences temporaires sont-elles disponibles pour Aspose.PSD ?
 
- A4 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Où puis-je trouver une documentation complète pour Aspose.PSD ?
 
- A5 : reportez-vous aux détails[Documentation](https://reference.aspose.com/psd/net/) pour un aperçu approfondi des fonctionnalités d’Aspose.PSD.
+ A5 : reportez-vous aux détails[documentation](https://reference.aspose.com/psd/net/) pour un aperçu approfondi des fonctionnalités d’Aspose.PSD.

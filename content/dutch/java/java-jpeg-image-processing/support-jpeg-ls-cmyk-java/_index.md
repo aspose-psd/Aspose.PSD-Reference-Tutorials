@@ -12,7 +12,7 @@ Wilt u zich verdiepen in de wereld van beeldverwerking met Java? Of u nu een doo
 ## Vereisten
 Voordat we dieper ingaan op de kern van deze tutorial, zijn er een paar vereisten waaraan je moet voldoen:
 1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.PSD voor Java: u hebt de Aspose.PSD-bibliotheek nodig. Download het van de[Aspose-releases](https://releases.aspose.com/psd/java/) bladzijde.
+2.  Aspose.PSD voor Java: u hebt de Aspose.PSD-bibliotheek nodig. Download het van de[Aspose-releases](https://releases.aspose.com/psd/java/) pagina.
 3. Integrated Development Environment (IDE): Een IDE zoals IntelliJ IDEA of Eclipse zal uw leven gemakkelijker maken bij het schrijven en debuggen van uw code.
 4. Basiskennis van Java: Deze tutorial gaat ervan uit dat je een basiskennis hebt van Java-programmeren.
 Zodra u al deze vereisten gereed heeft, bent u klaar om te gaan!
@@ -20,7 +20,6 @@ Zodra u al deze vereisten gereed heeft, bent u klaar om te gaan!
 Om aan de slag te gaan, moet u de benodigde pakketten uit de Aspose.PSD-bibliotheek importeren. Hier ziet u hoe u dat kunt doen:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -54,7 +53,7 @@ Als u met een andere PSD-afbeelding wilt werken of extra bewerkingen wilt uitvoe
 PsdImage image1 = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
 ## Stap 5: Stel JPEG-opties in voor verliesloze compressie
-Laten we voor de tweede afbeelding de opties instellen voor het opslaan ervan met verliesvrije compressie.
+Laten we voor de tweede afbeelding de opties instellen voor het opslaan ervan met verliesloze compressie.
 ```java
 JpegOptions options1 = new JpegOptions();
 options1.setColorType(JpegCompressionColorMode.Cmyk);

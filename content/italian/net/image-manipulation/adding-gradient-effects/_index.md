@@ -7,9 +7,9 @@ type: docs
 weight: 11
 url: /it/net/image-manipulation/adding-gradient-effects/
 ---
-## introduzione
+## Introduzione
 
-Migliorare le immagini con effetti sfumati può aggiungere una dimensione accattivante al tuo contenuto visivo. Aspose.PSD per .NET fornisce una potente piattaforma per integrare sovrapposizioni di gradienti nelle tue immagini. In questo tutorial ti guideremo attraverso il processo di aggiunta di effetti sfumati utilizzando Aspose.PSD per .NET.
+Migliorare le immagini con effetti sfumati può aggiungere una dimensione accattivante al tuo contenuto visivo. Aspose.PSD per .NET fornisce una potente piattaforma per incorporare sovrapposizioni di gradienti nelle tue immagini. In questo tutorial ti guideremo attraverso il processo di aggiunta di effetti sfumati utilizzando Aspose.PSD per .NET.
 
 ## Prerequisiti
 

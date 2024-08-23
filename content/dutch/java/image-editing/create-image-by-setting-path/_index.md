@@ -102,8 +102,8 @@ A1: Ja, Aspose.PSD werkt naadloos samen met verschillende Java Integrated Develo
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A4: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### Vraag 5: Heb ik een tijdelijke licentie nodig om te testen?
 
- A5: U kunt een tijdelijke licentie verkrijgen voor testdoeleinden.[hier](https://purchase.aspose.com/temporary-license/).
+ A5: U kunt een tijdelijke licentie verkrijgen voor testdoeleinden[hier](https://purchase.aspose.com/temporary-license/).

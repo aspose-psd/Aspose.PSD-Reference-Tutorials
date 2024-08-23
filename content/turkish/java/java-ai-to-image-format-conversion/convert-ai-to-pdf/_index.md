@@ -18,7 +18,6 @@ Kodu kullanmaya başlamadan önce aşağıdaki önkoşulların mevcut olduğunda
 Kodu kullanmaya başlamak için gerekli Aspose.PSD paketlerini içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -32,14 +31,14 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.pdf";
 ```
  Yer değiştirmek`"Your Document Directory"` AI dosyanızın bulunduğu gerçek yolla. Bu adım, kaynak ve hedef dosyalarınız için doğru yollara sahip olmanızı sağlar.
-## Adım 2: AI Görüntüsünü Yükleyin
+## 2. Adım: AI Görüntüsünü Yükleyin
 Daha sonra AI dosyanızı Aspose.PSD kullanarak yüklemeniz gerekiyor. Bunu şu şekilde yapabilirsiniz:
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
  Bu kod satırı AI dosyasını bir`AiImage` nesneyi dönüşüme hazır hale getiriyoruz.`Image.load()` yöntem dosya yolunu argüman olarak alır.
 ## 3. Adım: PDF Seçeneklerini Yapılandırın
-Görüntüyü PDF olarak kaydetmeden önce PDF'ye özgü seçenekleri yapılandırabilirsiniz. İşte nasıl kurabileceğiniz`PdfOptions`:
+Görüntüyü PDF olarak kaydetmeden önce PDF'ye özel seçenekleri yapılandırabilirsiniz. İşte nasıl kurabileceğiniz`PdfOptions`:
 ```java
 PdfOptions options = new PdfOptions();
 ```
@@ -49,7 +48,7 @@ options.setJpegQuality(100);
 ```
 Bu, PDF içindeki tüm görsellerin JPEG kalitesini maksimum seviyeye ayarlar.
 ## 4. Adım: PDF olarak kaydedin
- Şimdi işin heyecan verici kısmı geliyor: AI dosyanızı PDF olarak kaydetme. Kullan`save()` yöntemi`AiImage` nesne:
+ Şimdi işin heyecan verici kısmı geliyor: AI dosyanızı PDF olarak kaydetme. Şunu kullanın:`save()` yöntemi`AiImage` nesne:
 ```java
 image.save(outFileName, options);
 ```

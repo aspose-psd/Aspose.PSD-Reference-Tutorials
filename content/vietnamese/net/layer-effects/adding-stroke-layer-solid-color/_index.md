@@ -17,7 +17,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các đi�
 
 - Kiến thức cơ bản về phát triển .NET.
 - Visual Studio được cài đặt trên máy của bạn.
-- Aspose.PSD cho thư viện .NET. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/psd/net/).
+- Aspose.PSD cho thư viện .NET. Bạn có thể tải nó xuống từ[trang web](https://releases.aspose.com/psd/net/).
 
 ## Nhập không gian tên
 

@@ -95,13 +95,13 @@ Mentse el a módosított képet a megadott könyvtárba a kívánt fájlformátu
 
 ## Következtetés
 
-Gratulálunk! Sikeresen készített egy tetszetős grafikát az Aspose.PSD for .NET Graphics osztályával. Ez az oktatóanyag csak a felszínét mutatja annak, amit az Aspose.PSD segítségével elérhet, ezért nyugodtan fedezze fel a fejlettebb szolgáltatásokat, és engedje szabadjára kreativitását!
+Gratulálok! Sikeresen készített egy tetszetős grafikát az Aspose.PSD for .NET Graphics osztályával. Ez az oktatóanyag csak a felszínét mutatja annak, amit az Aspose.PSD segítségével elérhet, ezért nyugodtan fedezze fel a fejlettebb szolgáltatásokat, és engedje szabadjára kreativitását!
 
 ## GYIK
 
 ### 1. kérdés: Használhatom az Aspose.PSD-t .NET-hez kereskedelmi projektjeimben?
 
-1. válasz: Igen, az Aspose.PSD for .NET elérhető kereskedelmi használatra. Nézze meg a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
+1. válasz: Igen, az Aspose.PSD for .NET elérhető kereskedelmi használatra. Nézze meg a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
@@ -109,7 +109,7 @@ Gratulálunk! Sikeresen készített egy tetszetős grafikát az Aspose.PSD for .
 
 ### 3. kérdés: Hol találom az Aspose.PSD for .NET részletes dokumentációját?
 
- A3: Az átfogó dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
+ A3: Az átfogó dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -117,4 +117,4 @@ Gratulálunk! Sikeresen készített egy tetszetős grafikát az Aspose.PSD for .
 
 ### 5. kérdés: Szükségem van ideiglenes licencre az Aspose.PSD for .NET számára?
 
- 5. válasz: Ha ideiglenes engedélyre van szüksége, azt beszerezheti.[itt](https://purchase.aspose.com/temporary-license/).
+ 5. válasz: Ha ideiglenes engedélyre van szüksége, azt beszerezheti[itt](https://purchase.aspose.com/temporary-license/).

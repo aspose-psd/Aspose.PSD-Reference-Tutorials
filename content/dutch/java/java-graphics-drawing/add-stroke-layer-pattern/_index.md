@@ -8,7 +8,7 @@ weight: 11
 url: /nl/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
 ## Invoering
-Het toevoegen van een lijnlaagpatroon aan een afbeelding in Java klinkt misschien als een hele klus, maar met Aspose.PSD voor Java is het eenvoudiger dan u denkt. Of u nu afbeeldingen ontwerpt of aan fotobewerkingsprogramma's werkt, deze handleiding begeleidt u stap voor stap door het proces. klaar om te beginnen? Laten we erin duiken!
+Het toevoegen van een lijnlaagpatroon aan een afbeelding in Java klinkt misschien als een hele klus, maar met Aspose.PSD voor Java is het eenvoudiger dan u denkt. Of u nu afbeeldingen ontwerpt of aan fotobewerkingsprogramma's werkt, deze handleiding begeleidt u stap voor stap door het proces. Klaar om aan de slag te gaan? Laten we erin duiken!
 ## Vereisten
 Voordat je begint, heb je een paar dingen nodig:
 - Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -125,7 +124,7 @@ catch (Exception e)
     System.out.println(e.getMessage());
 }
 ```
-Met deze stap wordt gecontroleerd of de patroongegevens correct zijn toegepast op het streekeffect.
+Met deze stap wordt gecontroleerd of de patroongegevens correct zijn toegepast op het lijneffect.
 ## Conclusie
 En daar heb je het! U hebt met succes een lijnlaagpatroon aan een PSD-bestand toegevoegd met Aspose.PSD voor Java. Door deze stappen te volgen, kunt u uw afbeeldingen eenvoudig aanpassen en verbeteren. Veel codeerplezier!
 ## Veelgestelde vragen

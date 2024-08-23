@@ -14,12 +14,11 @@ url: /ar/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 -  Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيله من[موقع أوراكل JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 -  Aspose.PSD لـ Java: يجب أن يكون لديك Aspose.PSD لمكتبة Java. يمكنك الحصول عليه من[صفحة تحميل جافا Aspose.PSD](https://releases.aspose.com/psd/java/).
 - بيئة التطوير المتكاملة (IDE): استخدم IDE مثل IntelliJ IDEA أو Eclipse لتطوير Java.
-- الفهم الأساسي لجافا: الإلمام بلغة ومفاهيم برمجة جافا.
+- الفهم الأساسي لجافا: الإلمام بلغة برمجة جافا ومفاهيمها.
 ## حزم الاستيراد
 قبل البدء في البرمجة، قم باستيراد الحزم الضرورية لاستخدام وظائف Aspose.PSD:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -31,7 +30,7 @@ import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");
 ```
-## الخطوة 2: التكرار على موارد الصور
+## الخطوة 2: التكرار على موارد الصورة
 كرر من خلال موارد الصورة للعثور على مقطع JFIF:
 ```java
 for(int i = 0; i < image.getImageResources().length; i++) {

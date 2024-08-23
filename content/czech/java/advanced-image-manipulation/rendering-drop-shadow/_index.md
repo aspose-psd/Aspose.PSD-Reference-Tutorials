@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /cs/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
-## Úvod
+## Zavedení
 
 Pokud se ponoříte do zpracování obrazu pomocí Javy, Aspose.PSD je váš oblíbený nástroj pro bezproblémovou a efektivní manipulaci se soubory PSD. V tomto tutoriálu prozkoumáme proces aplikace vrženého stínu vykreslení pomocí Aspose.PSD pro Java. Připoute se, protože pro vás rozebereme kroky.
 
@@ -16,7 +16,7 @@ Pokud se ponoříte do zpracování obrazu pomocí Javy, Aspose.PSD je váš obl
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nainstalovanou Javu.
-- Knihovna Aspose.PSD: Stáhněte a nastavte knihovnu Aspose.PSD. Knihovnu najdete[tady](https://releases.aspose.com/psd/java/).
+- Knihovna Aspose.PSD: Stáhněte a nastavte knihovnu Aspose.PSD. Knihovnu najdete[zde](https://releases.aspose.com/psd/java/).
 - Soubor PSD: Připravte soubor PSD obsahující vrstvu, na kterou chcete použít vržený stín.
 
 ## Importujte balíčky

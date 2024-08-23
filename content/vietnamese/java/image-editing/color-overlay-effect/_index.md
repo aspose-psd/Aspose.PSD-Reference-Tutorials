@@ -17,7 +17,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo rằng b�
 
 1. Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên máy của mình.
 
-2. Thư viện Aspose.PSD: Tải xuống và cài đặt thư viện Aspose.PSD cho Java từ[đây](https://releases.aspose.com/psd/java/).
+2.  Thư viện Aspose.PSD: Tải xuống và cài đặt thư viện Aspose.PSD cho Java từ[đây](https://releases.aspose.com/psd/java/).
 
 3. Tài liệu PSD: Chuẩn bị tài liệu PSD nơi bạn muốn áp dụng Hiệu ứng lớp phủ màu.
 
@@ -109,4 +109,4 @@ Câu trả lời 2: Có, Aspose.PSD tương thích với các IDE Java phổ bi�
 
 ### Câu hỏi 5: Có bất kỳ tùy chọn dùng thử miễn phí nào cho Aspose.PSD không?
 
- A5: Có, hãy khám phá[dùng thử miễn phí](https://releases.aspose.com/)phiên bản trước khi mua hàng.
+ A5: Có, hãy khám phá[dùng thử miễn phí](https://releases.aspose.com/) phiên bản trước khi mua hàng.

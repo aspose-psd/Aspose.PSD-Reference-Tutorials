@@ -21,7 +21,6 @@ url: /zh-hant/java/java-graphics-drawing/add-stroke-layer-gradient/
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -145,7 +144,7 @@ Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
 ## 結論
-現在你就得到它了！現在您知道如何使用 Aspose.PSD for Java 在 PSD 檔案中新增和操作筆畫圖層漸層。本教學介紹了載入 PSD 檔案、存取和修改描邊效果以及儲存變更。借助這些技能，您可以創建具有視覺吸引力的漸變並自訂 PSD 檔案以滿足您的需求。
+現在你就擁有了！現在您知道如何使用 Aspose.PSD for Java 在 PSD 檔案中新增和操作筆畫圖層漸層。本教學介紹了載入 PSD 檔案、存取和修改描邊效果以及儲存變更。借助這些技能，您可以創建具有視覺吸引力的漸變並自訂 PSD 檔案以滿足您的需求。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.PSD？
 Aspose.PSD for Java 是一個函式庫，可讓開發人員在 Java 應用程式中使用 PSD 文件，提供建立、操作和轉換 PSD 檔案的功能。

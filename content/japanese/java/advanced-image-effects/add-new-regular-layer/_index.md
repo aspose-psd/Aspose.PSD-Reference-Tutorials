@@ -1,26 +1,26 @@
 ---
 title: Aspose.PSD for Java を使用して PSD に新しい通常レイヤーを追加する
-linktitle: 新しい通常レイヤーを PSD に追加
+linktitle: PSDに新しい通常レイヤーを追加する
 second_title: Aspose.PSD Java API
-description: Aspose.PSD for Java を使用して、PSD ファイルに新しい通常のレイヤーを追加する方法を学びます。シームレスな PSD 操作については、ステップバイステップのガイドに従ってください。
+description: Aspose.PSD for Java を使用して PSD ファイルに新しい通常レイヤーを追加する方法を学びます。シームレスな PSD 操作については、ステップバイステップ ガイドに従ってください。
 type: docs
 weight: 11
 url: /ja/java/advanced-image-effects/add-new-regular-layer/
 ---
 ## 導入
 
-Aspose.PSD for Java を使用して新しい通常レイヤーを PSD ファイルに追加するためのこの包括的なチュートリアルへようこそ。 Aspose.PSD は、開発者が PSD ファイルを効率的に操作して作業できるようにする強力な Java ライブラリです。このチュートリアルでは、新しい通常レイヤーを PSD ファイルに追加するプロセスを説明し、詳細な手順とコード例を示します。
+Aspose.PSD for Java を使用して PSD ファイルに新しい通常レイヤーを追加する方法を解説する包括的なチュートリアルへようこそ。Aspose.PSD は、開発者が PSD ファイルを効率的に操作および操作できるようにする強力な Java ライブラリです。このチュートリアルでは、詳細な手順とコード例を示しながら、PSD ファイルに新しい通常レイヤーを追加するプロセスを説明します。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
 
-- Java 開発環境: システムに Java 開発環境がセットアップされていることを確認します。
--  Aspose.PSD ライブラリ: Java ライブラリ用の Aspose.PSD をダウンロードしてインストールします。図書館を見つけることができます[ここ](https://releases.aspose.com/psd/java/).
+- Java 開発環境: システムに Java 開発環境が設定されていることを確認します。
+-  Aspose.PSDライブラリ: Aspose.PSD for Javaライブラリをダウンロードしてインストールします。ライブラリは次の場所にあります。[ここ](https://releases.aspose.com/psd/java/).
 
 ## パッケージのインポート
 
-まず、必要なパッケージを Java プロジェクトにインポートします。これらのパッケージは、Aspose.PSD 機能を操作するために不可欠です。 Java ファイルの先頭に次の行を含めます。
+まず、必要なパッケージを Java プロジェクトにインポートします。これらのパッケージは、Aspose.PSD 機能を使用するために不可欠です。Java ファイルの先頭に次の行を含めます。
 
 ```java
 import com.aspose.psd.Image;
@@ -32,9 +32,9 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## ステップ 1: PSD ファイルをロードする
+## ステップ1: PSDファイルを読み込む
 
-次のコードを使用して、編集する PSD ファイルをロードします。
+次のコードを使用して、編集する PSD ファイルを読み込みます。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,9 +42,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## ステップ 2: データ配列と四角形を準備する
+## ステップ2: データ配列と四角形を準備する
 
-次のように、2 つの int 配列と 2 つの Rectangle オブジェクトを準備します。
+次のように 2 つの int 配列と 2 つの Rectangle オブジェクトを準備します。
 
 ```java
 int[] data1 = new int[2500];
@@ -53,7 +53,7 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## ステップ 3: レイヤーデータを初期化する
+## ステップ3: レイヤーデータを初期化する
 
 データ配列をデフォルト値で初期化します。
 
@@ -64,9 +64,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## ステップ 4: 通常のレイヤーを追加する
+## ステップ4: 通常のレイヤーを追加する
 
-つの通常のレイヤーを PSD 画像に追加します。
+PSD 画像に 2 つの通常レイヤーを追加します。
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -84,20 +84,20 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## ステップ 5: PSD と PNG を保存する
+## ステップ5: PSDとPNGを保存する
 
-変更した PSD と追加の PNG ファイルを保存します。
+変更した PSD ファイルと追加の PNG ファイルを保存します。
 
 ```java
 im.save(exportPath, new PsdOptions());
 im.save(exportPathPng, new PngOptions());
 ```
 
-おめでとう！ Aspose.PSD for Java を使用して、新しい通常レイヤーを PSD ファイルに正常に追加しました。
+おめでとうございます! Aspose.PSD for Java を使用して、PSD ファイルに新しい通常レイヤーを正常に追加しました。
 
 ## 結論
 
-このチュートリアルでは、Aspose.PSD for Java を使用して新しい通常レイヤーを PSD ファイルに追加するプロセスについて説明しました。この強力なライブラリにより PSD の操作が簡素化され、Java 開発者が PSD にアクセスできるようになります。さまざまなパラメータや機能を試して、Aspose.PSD の可能性を最大限に探ってください。
+このチュートリアルでは、Aspose.PSD for Java を使用して PSD ファイルに新しい通常レイヤーを追加するプロセスを説明しました。この強力なライブラリは PSD 操作を簡素化し、Java 開発者が利用できるようにします。さまざまなパラメーターと機能を試して、Aspose.PSD の可能性を最大限に引き出してください。
 
 ## よくある質問
 
@@ -105,18 +105,18 @@ im.save(exportPathPng, new PngOptions());
 
 A1: はい、Aspose.PSD は Java 8 以降のバージョンをサポートしています。
 
-### Q2: 追加したレイヤーに変形を適用できますか?
+### Q2: 追加したレイヤーに変換を適用できますか?
 
-A2: もちろんです！ Aspose.PSD は、レイヤーのさまざまな変換オプションを提供します。
+A2: もちろんです! Aspose.PSD には、レイヤーのさまざまな変換オプションが用意されています。
 
-### Q3: 追加の Aspose.PSD ドキュメントはどこで見つけられますか?
+### Q3: Aspose.PSD の追加ドキュメントはどこで入手できますか?
 
- A3: ドキュメントを参照できます。[ここ](https://reference.aspose.com/psd/java/).
+ A3: ドキュメントを参照してください[ここ](https://reference.aspose.com/psd/java/).
 
 ### Q4: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 
- A4: 訪問[このリンク](https://purchase.aspose.com/temporary-license/)一時ライセンス オプションの場合。
+ A4: 訪問[このリンク](https://purchase.aspose.com/temporary-license/)一時ライセンスのオプション。
 
-### Q5: Aspose.PSD サポートのためのコミュニティ フォーラムはありますか?
+### Q5: Aspose.PSD サポートのコミュニティ フォーラムはありますか?
 
- A5: はい、サポートやディスカッションを見つけることができます。[ここ](https://forum.aspose.com/c/psd/34).
+ A5: はい、サポートやディスカッションは見つかります[ここ](https://forum.aspose.com/c/psd/34).

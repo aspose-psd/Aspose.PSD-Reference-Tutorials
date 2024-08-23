@@ -18,7 +18,7 @@ Você está pronto para desvendar os segredos do design gráfico? Mergulhe no mu
 
 ## Redimensionamento simplificado
 
- Manipule com eficiência os tamanhos das imagens de forma programática com[Aspose.PSD para Java](./simple-resizing/)Nosso guia fácil de usar simplifica o processo de redimensionamento, garantindo que você entenda todos os detalhes. Do básico às técnicas avançadas, este tutorial cobre tudo. Mergulhe e transforme suas imagens perfeitamente com Aspose.PSD.
+ Manipule com eficiência os tamanhos das imagens de forma programática com[Aspose.PSD para Java](./simple-resizing/). Nosso guia fácil de usar simplifica o processo de redimensionamento, garantindo que você entenda todos os detalhes. Do básico às técnicas avançadas, este tutorial cobre tudo. Mergulhe e transforme suas imagens perfeitamente com Aspose.PSD.
 
 ## Efeitos de amplificação: suporte a modos de mesclagem
 
@@ -30,7 +30,7 @@ Você está pronto para desvendar os segredos do design gráfico? Mergulhe no mu
 
 ## Transparência revelada: verifique a transparência da imagem
 
- Explore o reino da verificação de transparência de imagens com[Aspose.PSD para Java](./verify-image-transparency/)Este tutorial integra perfeitamente a transparência em seus projetos, com documentação detalhada e excelente suporte da comunidade. Eleve seus projetos de design com a garantia de transparência de imagem verificada usando Aspose.PSD para Java.
+ Explore o reino da verificação de transparência de imagens com[Aspose.PSD para Java](./verify-image-transparency/). Este tutorial integra perfeitamente a transparência em seus projetos, com documentação detalhada e excelente suporte da comunidade. Eleve seus projetos de design com a garantia de transparência de imagem verificada usando Aspose.PSD para Java.
 
 Concluindo, esses tutoriais fornecem uma compreensão holística das operações básicas de imagem usando Aspose.PSD para Java. Quer você seja um designer novato ou experiente, descubra o potencial do design gráfico com nossos guias passo a passo. Mergulhe e deixe sua criatividade florescer!
 ## Tutoriais básicos de operações de imagem

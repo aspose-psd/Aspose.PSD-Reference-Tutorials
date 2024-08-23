@@ -19,7 +19,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 -  Aspose.PSD untuk perpustakaan Java diunduh dari[tautan unduhan](https://releases.aspose.com/psd/java/).
 - Contoh file PSD untuk tujuan pengujian.
 
-Sekarang semuanya sudah siap, mari lanjutkan ke tutorialnya.
+Sekarang semuanya sudah siap, mari kita lanjutkan ke tutorialnya.
 
 ## Paket Impor
 
@@ -76,7 +76,7 @@ A1: Aspose.PSD untuk Java dirancang untuk bekerja dengan berbagai versi Java, me
 
 ### Q2: Dapatkah saya menggunakan Aspose.PSD untuk tujuan komersial?
 
- A2: Ya, Aspose.PSD hadir dengan opsi lisensi yang fleksibel, termasuk penggunaan komersial. Mengunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+ A2: Ya, Aspose.PSD hadir dengan opsi lisensi yang fleksibel, termasuk penggunaan komersial. Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
 
 ### Q3: Apakah tersedia uji coba gratis?
 

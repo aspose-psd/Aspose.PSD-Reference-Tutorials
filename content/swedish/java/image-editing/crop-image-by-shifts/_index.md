@@ -62,7 +62,7 @@ if (!rasterImage.isCached()) {
 
 ## Steg 3: Definiera skiftvärden
 
-Ange skiftvärdena för alla fyra sidorna av bilden:
+Ange skiftvärden för alla fyra sidor av bilden:
 
 ```java
 int leftShift = 10;
@@ -92,7 +92,7 @@ Grattis! Du har lyckats beskära en bild med Aspose.PSD för Java.
 
 ## Slutsats
 
-den här handledningen utforskade vi krångligheterna med bildbeskärning med Aspose.PSD för Java. Beväpnad med denna kunskap kan du nu sömlöst integrera bildbeskärning i dina Java-projekt och lägga till en touch av finess till dina bildbehandlingsmöjligheter.
+I den här handledningen utforskade vi krångligheterna med bildbeskärning med Aspose.PSD för Java. Beväpnad med denna kunskap kan du nu sömlöst integrera bildbeskärning i dina Java-projekt och lägga till en touch av finess till dina bildbehandlingsmöjligheter.
 
 ## FAQ's
 

@@ -20,7 +20,6 @@ Bu eğitime dalmadan önce aşağıdaki önkoşulların ayarlandığından emin 
 Örneğe başlamadan önce gerekli paketleri Aspose.PSD for Java'dan içe aktardığınızdan emin olun:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

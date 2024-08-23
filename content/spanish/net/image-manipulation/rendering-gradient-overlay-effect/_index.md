@@ -75,7 +75,7 @@ Utilice la biblioteca Aspose.PSD para cargar la imagen PSD, permitiendo la carga
 
 R1: No, el efecto de superposición de degradado se aplica a capas individuales, lo que permite efectos personalizados y en capas.
 
-### P2: ¿Aspose.PSD es compatible con los últimos frameworks .NET?
+### P2: ¿Aspose.PSD es compatible con los últimos marcos .NET?
 
 R2: Sí, Aspose.PSD se actualiza periódicamente para garantizar la compatibilidad con los últimos marcos .NET.
 

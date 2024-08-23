@@ -85,7 +85,7 @@ rasterCachedImage.Save(destName, new JpegOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à mettre en niveaux de gris une image à l'aide d'Aspose.PSD pour .NET. Ce processus simple peut ajouter une touche de sophistication à vos images.
+Félicitations! Vous avez réussi à mettre en niveaux de gris une image à l'aide d'Aspose.PSD pour .NET. Ce processus simple peut ajouter une touche de sophistication à vos images.
 
 ## FAQ
 

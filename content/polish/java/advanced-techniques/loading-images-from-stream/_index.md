@@ -82,7 +82,7 @@ Gratulacje! Pomyślnie załadowałeś obraz ze strumienia przy użyciu Aspose.PS
 
 ## Wniosek
 
- Aspose.PSD dla Java umożliwia programistom bezproblemową obsługę plików PSD. W tym samouczku przedstawiono zwięzły przewodnik dotyczący ładowania obrazów ze strumienia. Poznaj[dokumentacja](https://reference.aspose.com/psd/java/) aby uzyskać więcej szczegółów i możliwości.
+Aspose.PSD dla Java umożliwia programistom bezproblemową obsługę plików PSD. W tym samouczku przedstawiono zwięzły przewodnik dotyczący ładowania obrazów ze strumienia. Poznaj[dokumentacja](https://reference.aspose.com/psd/java/) aby uzyskać więcej szczegółów i możliwości.
 
 ## Często zadawane pytania
 
@@ -92,7 +92,7 @@ A1: Absolutnie! Aspose.PSD for Java wyróżnia się w zadaniach wsadowego przetw
 
 ### P2: Czy mogę wypróbować Aspose.PSD dla Java przed zakupem?
 
- Odpowiedź 2: Tak, możesz skorzystać z bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 2: Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla Java?
 
@@ -100,7 +100,7 @@ A1: Absolutnie! Aspose.PSD for Java wyróżnia się w zadaniach wsadowego przetw
 
 ### P4: Czy potrzebuję tymczasowej licencji do celów testowych?
 
- A4: Uzyskaj tymczasową licencję.[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania Aspose.PSD dla Java.
+ A4: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania Aspose.PSD dla Java.
 
 ### P5: Gdzie mogę kupić Aspose.PSD dla Java?
 

@@ -86,7 +86,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### Q4: 임시 라이센스는 어떻게 얻을 수 있나요?
 
- A4: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+ A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
 
 ### Q5: Aspose.PSD는 어디서 구입할 수 있나요?
 

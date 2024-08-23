@@ -7,7 +7,7 @@ type: docs
 weight: 19
 url: /it/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
-## introduzione
+## Introduzione
 Creare e manipolare immagini a livello di codice può essere un compito entusiasmante per gli sviluppatori Java, soprattutto quando si utilizzano librerie come Aspose.PSD. In questo tutorial, approfondiremo il processo di disegno di grafica complessa utilizzando la classe Graphics Path in Java con Aspose.PSD.
 ## Prerequisiti
 Prima di passare alla parte di codifica, assicurati di possedere i seguenti prerequisiti:
@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Aspose.PSD è una libreria che consente agli sviluppatori di lavorare con file P
 ### Posso utilizzare Aspose.PSD per formati diversi da PSD?
 A partire da questa guida, Aspose.PSD si occupa specificamente dei file PSD ma offre estensioni per gestire diversi formati di immagine.
 ### È disponibile una versione di prova per Aspose.PSD?
- Sì, puoi accedere a una prova gratuita di Aspose.PSD.[Qui](https://releases.aspose.com/).
+ Sì, puoi accedere a una prova gratuita di Aspose.PSD[Qui](https://releases.aspose.com/).
 ### Come posso acquistare Aspose.PSD?
  È possibile acquistare Aspose.PSD da[Qui](https://purchase.aspose.com/buy).
 ### Dove posso ottenere supporto per Aspose.PSD?

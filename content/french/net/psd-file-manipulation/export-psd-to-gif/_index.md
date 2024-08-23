@@ -46,7 +46,7 @@ File.Delete(outputGif);
 ```
 Effectuez tout nettoyage nécessaire, comme la suppression des fichiers temporaires.
 ## Conclusion
-Toutes nos félicitations! Vous avez exporté avec succès une image PSD au format GIF à l'aide d'Aspose.PSD pour .NET. Cette fonctionnalité ouvre de nouvelles possibilités pour gérer les images PSD dans vos applications .NET.
+Félicitations! Vous avez exporté avec succès une image PSD au format GIF à l'aide d'Aspose.PSD pour .NET. Cette fonctionnalité ouvre de nouvelles possibilités pour gérer les images PSD dans vos applications .NET.
 ## FAQ
 
 ### Q1 : Aspose.PSD pour .NET est-il adapté à la gestion des PSD animés ?
@@ -55,7 +55,7 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge l'exportation de fichiers PSD a
 
 ### Q2 : Où puis-je trouver une documentation complète pour Aspose.PSD pour .NET ?
 
- A2 : Reportez-vous au[Documentation](https://reference.aspose.com/psd/net/) pour des informations détaillées et des exemples.
+ A2 : Reportez-vous au[documentation](https://reference.aspose.com/psd/net/) pour des informations détaillées et des exemples.
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour .NET ?
 

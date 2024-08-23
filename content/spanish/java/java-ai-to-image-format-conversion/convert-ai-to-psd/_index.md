@@ -15,12 +15,11 @@ Antes de comenzar, hay algunas cosas que debes tener en cuenta:
 2.  Aspose.PSD para Java: descargue la biblioteca Aspose.PSD para Java desde[pagina de descarga](https://releases.aspose.com/psd/java/).
 3. Entorno de desarrollo integrado (IDE): un IDE como IntelliJ IDEA o Eclipse para escribir y ejecutar su código Java.
 4. Archivo AI: el archivo de Adobe Illustrator que desea convertir.
-5. Licencia temporal de Aspose (opcional): para obtener una funcionalidad completa sin limitaciones, puede obtener una[licencia temporal](https://purchase.aspose.com/temporary-license/).
+5.  Licencia temporal de Aspose (opcional): para obtener una funcionalidad completa sin limitaciones, puede obtener una[licencia temporal](https://purchase.aspose.com/temporary-license/).
 ## Importar paquetes
 Primero, configuremos nuestro proyecto importando los paquetes necesarios. Deberá incluir Aspose.PSD para Java en la ruta de clases de su proyecto. He aquí cómo hacerlo:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -46,21 +45,21 @@ A continuación, debemos configurar las opciones para nuestra salida PSD.
 ```java
 PsdOptions options = new PsdOptions();
 ```
-## Paso 4: guardar el archivo AI como PSD
+## Paso 4: Guardar el archivo AI como PSD
 Con el archivo AI cargado y las opciones configuradas, ahora podemos guardarlo como un archivo PSD.
 ```java
 String outFileName = dataDir + "34992OStroke.psd";
 image.save(outFileName, options);
 ```
 ## Conclusión
-¡Y ahí lo tienes! Ha convertido con éxito un archivo AI en un archivo PSD usando Aspose.PSD para Java. Esta poderosa biblioteca facilita el manejo de conversiones de archivos complejas en sus aplicaciones Java. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía debería ayudarlo a integrar la funcionalidad de conversión de AI a PSD en sus proyectos con facilidad.
+¡Y ahí lo tienes! Ha convertido con éxito un archivo AI en un archivo PSD usando Aspose.PSD para Java. Esta potente biblioteca facilita el manejo de conversiones de archivos complejas en sus aplicaciones Java. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía debería ayudarlo a integrar la funcionalidad de conversión de AI a PSD en sus proyectos con facilidad.
 ## Preguntas frecuentes
 ### ¿Qué es Aspose.PSD para Java?
 Aspose.PSD para Java es una biblioteca sólida que permite a los desarrolladores crear, editar y convertir archivos de Photoshop (PSD y PSB) dentro de aplicaciones Java sin necesidad de Adobe Photoshop.
 ### ¿Puedo utilizar Aspose.PSD para Java de forma gratuita?
  Aspose.PSD para Java ofrece una prueba gratuita, que puede descargar desde[página de prueba gratuita](https://releases.aspose.com/) . Para funciones completas, un[licencia](https://purchase.aspose.com/buy) se requiere.
 ### ¿Cómo obtengo una licencia temporal de Aspose.PSD para Java?
-Puede obtener una licencia temporal del[página de licencia temporal](https://purchase.aspose.com/temporary-license/).
+ Puede obtener una licencia temporal del[página de licencia temporal](https://purchase.aspose.com/temporary-license/).
 ### ¿Es posible volver a convertir archivos PSD a archivos AI?
 Actualmente, Aspose.PSD para Java no admite la conversión de archivos PSD a archivos AI. Se centra en el manejo de archivos PSD y PSB.
 ### ¿Dónde puedo encontrar más ejemplos y documentación?

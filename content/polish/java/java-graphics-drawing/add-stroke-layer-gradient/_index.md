@@ -21,7 +21,6 @@ Na początek zaimportujmy niezbędne pakiety. Umożliwią nam one użycie klas i
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -51,7 +50,7 @@ Następnie musimy uzyskać dostęp do efektu obrysu warstwy, która nas interesu
 StrokeEffect gradientStroke = (StrokeEffect) im.getLayers()[2].getBlendingOptions().getEffects()[0];
 ```
 ## Krok 3: Sprawdź właściwości efektu obrysu
-Przed dokonaniem jakichkolwiek zmian sprawdźmy właściwości efektu obrysu, aby mieć pewność, że modyfikujemy prawidłowe ustawienia.
+Przed wprowadzeniem jakichkolwiek zmian sprawdźmy właściwości efektu obrysu, aby mieć pewność, że modyfikujemy prawidłowe ustawienia.
 ```java
 Assert.areEqual(BlendMode.Normal, gradientStroke.getBlendMode());
 Assert.areEqual(255, gradientStroke.getOpacity());
@@ -89,14 +88,14 @@ GradientColorPoint colorPoint = fillSettings.addColorPoint();
 colorPoint.setColor(Color.getGreen());
 colorPoint.setLocation(4096);
 colorPoint.setMedianPointLocation(75);
-// Zmień położenie poprzedniego punktu
+// Zmień lokalizację poprzedniego punktu
 fillSettings.getColorPoints()[1].setLocation(1899);
 // Dodaj nowy punkt przezroczystości
 GradientTransparencyPoint transparencyPoint = fillSettings.addTransparencyPoint();
 transparencyPoint.setOpacity(25);
 transparencyPoint.setMedianPointLocation(25);
 transparencyPoint.setLocation(4096);
-// Zmień położenie poprzedniego punktu przezroczystości
+// Zmień lokalizację poprzedniego punktu przezroczystości
 fillSettings.getTransparencyPoints()[1].setLocation(2411);
 ```
 ## Krok 6: Zapisz zmodyfikowany plik PSD

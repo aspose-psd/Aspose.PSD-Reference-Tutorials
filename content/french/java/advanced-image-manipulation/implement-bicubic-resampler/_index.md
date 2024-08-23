@@ -68,7 +68,7 @@ Répétez ces étapes si nécessaire pour votre cas d'utilisation spécifique, e
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez implémenté avec succès le rééchantillonneur bicubique dans Aspose.PSD pour Java. Cette fonctionnalité puissante améliore vos capacités de redimensionnement d'image, garantissant des résultats de haute qualité pour vos applications Java.
+Félicitations! Vous avez implémenté avec succès le rééchantillonneur bicubique dans Aspose.PSD pour Java. Cette fonctionnalité puissante améliore vos capacités de redimensionnement d'image, garantissant des résultats de haute qualité pour vos applications Java.
 
 ## FAQ
 
@@ -86,7 +86,7 @@ A1 : Oui, Aspose.PSD pour Java prend en charge divers formats d'image, notamment
 
 ### Q4 : Puis-je télécharger la bibliothèque Aspose.PSD pour Java ?
 
- A4 : Oui, téléchargez la bibliothèque à partir de la page des versions.[ici](https://releases.aspose.com/psd/java/).
+ A4 : Oui, téléchargez la bibliothèque depuis la page des versions[ici](https://releases.aspose.com/psd/java/).
 
 ### Q5 : Comment puis-je acheter Aspose.PSD pour Java ?
 

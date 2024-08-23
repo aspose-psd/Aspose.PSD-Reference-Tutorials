@@ -81,7 +81,7 @@ A1: Ja, Bradley Thresholding is een veelzijdige techniek die geschikt is voor ve
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefversie van Aspose.PSD voor .NET uitproberen.[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefversie van Aspose.PSD voor .NET uitproberen[hier](https://releases.aspose.com/).
 
 ### Vraag 4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD?
 
@@ -89,4 +89,4 @@ A1: Ja, Bradley Thresholding is een veelzijdige techniek die geschikt is voor ve
 
 ### V5: Waar kan ik een licentie voor Aspose.PSD kopen?
 
- A5: U kunt een licentie kopen.[hier](https://purchase.aspose.com/buy).
+ A5: U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).

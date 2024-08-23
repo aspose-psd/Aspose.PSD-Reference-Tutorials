@@ -20,7 +20,6 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 Najpierw zaimportuj niezbędne pakiety, aby rozpocząć pracę z Aspose.PSD dla Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -57,7 +56,7 @@ Aspose.PSD dla Java obsługuje szeroką gamę typów plików PSD, w tym pliki PS
 ### Czy Aspose.PSD dla Java nadaje się do przetwarzania wsadowego plików PSD?
 Tak, programiści mogą wykorzystywać Aspose.PSD dla Java do zadań przetwarzania wsadowego, takich jak jednoczesna konwersja wielu plików PSD do formatu PDF.
 ### Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.PSD dla Java?
- Odwiedzić[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia społeczności oraz nawiązania kontaktu z innymi użytkownikami i programistami.
+ Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia społeczności oraz nawiązania kontaktu z innymi użytkownikami i programistami.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla Java?
  Możesz poprosić o tymczasową licencję do celów testowych od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Jakie są zalety używania Aspose.PSD dla Java w porównaniu z innymi bibliotekami?

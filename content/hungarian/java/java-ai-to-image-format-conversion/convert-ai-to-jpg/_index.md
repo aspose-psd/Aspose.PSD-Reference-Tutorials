@@ -1,6 +1,6 @@
 ---
-title: Konvertálja az AI-t JPG-be Java nyelven
-linktitle: Konvertálja az AI-t JPG-be Java nyelven
+title: Konvertálja az AI-t JPG-vé Java nyelven
+linktitle: Konvertálja az AI-t JPG-vé Java nyelven
 second_title: Aspose.PSD Java API
 description: Az Aspose.PSD segítségével könnyedén konvertálhat AI fájlokat JPG formátumba Java nyelven. Kövesse lépésenkénti útmutatónkat a kiváló minőségű képátalakításhoz.
 type: docs
@@ -21,7 +21,6 @@ Először is importálnunk kell a szükséges csomagokat a képátalakítási fe
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ A kódolás megkezdése előtt győződjön meg arról, hogy a fejlesztői körn
 -  Az Aspose.PSD letöltése: Töltse le a könyvtárat a[Az Aspose kiadási oldala](https://releases.aspose.com/psd/java/).
 - Adja hozzá az Aspose.PSD-t a projekthez: Vegye fel a JAR fájlokat a projekt felépítési útvonalába.
 ## 2. lépés: Töltse be az AI-fájlt
- A kódunk első lépése az AI fájl betöltése a`AiImage` osztály. Ez az osztály lehetővé teszi számunkra, hogy zökkenőmentesen dolgozzunk az Adobe Illustrator fájlokkal.
+ kódunk első lépése az AI fájl betöltése a`AiImage` osztály. Ez az osztály lehetővé teszi számunkra, hogy zökkenőmentesen dolgozzunk az Adobe Illustrator fájlokkal.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
@@ -47,8 +46,8 @@ JpegOptions options = new JpegOptions();
 options.setQuality(85); // Állítsa be a JPG minőségét
 ```
 Ebben a példában a minőséget 85-re állítottuk, ami egyensúlyban tartja a fájlméretet és a képminőséget. Ezt az értéket igénye szerint módosíthatja.
-## 4. lépés: Mentse el az AI-fájlt JPG-ként
- Végül itt az ideje, hogy elmentse a betöltött AI-fájlt JPG formátumban. Használjuk a`save` módszere a`AiImage` osztály erre a célra.
+## 4. lépés: Mentse el az AI fájlt JPG formátumban
+ Végül itt az ideje, hogy elmentse a betöltött AI-fájlt JPG formátumban. Használjuk a`save` módszere a`AiImage` osztályt erre a célra.
 ```java
 String outFileName = dataDir + "34992OStroke.jpg";
 image.save(outFileName, options);

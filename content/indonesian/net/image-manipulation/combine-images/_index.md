@@ -13,7 +13,7 @@ Selamat datang di tutorial langkah demi langkah kami tentang menggabungkan gamba
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 -  Perpustakaan Aspose.PSD: Pastikan Anda telah menginstal perpustakaan Aspose.PSD. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/psd/net/).
 
@@ -102,8 +102,8 @@ A2: Ya, Aspose.PSD dapat digunakan untuk tujuan pribadi dan komersial. Periksa d
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.PSD?
 
-A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

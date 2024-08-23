@@ -88,8 +88,8 @@ A2: Ja, u kunt meerdere aanpassingslagen op elkaar stapelen om complexe beeldman
 
 ### V4: Is er een gratis proefversie beschikbaar voor Aspose.PSD?
 
- A4: Ja, u kunt de gratis proefperiode verkennen.[hier](https://releases.aspose.com/).
+ A4: Ja, u kunt de gratis proefperiode verkennen[hier](https://releases.aspose.com/).
 
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
 
-A5: U kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).
+A5: U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).

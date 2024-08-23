@@ -73,16 +73,16 @@ R1: Sí, Aspose.PSD para Java está diseñado para funcionar perfectamente con o
 
 ### P2: ¿Hay una prueba gratuita disponible?
 
- R2: Sí, puedes explorar Aspose.PSD para Java con una prueba gratuita. Visita[este enlace](https://releases.aspose.com/) Para empezar.
+ R2: Sí, puedes explorar Aspose.PSD para Java con una prueba gratuita. Visita[este enlace](https://releases.aspose.com/) para empezar.
 
 ### P3: ¿Dónde puedo encontrar documentación detallada?
 
- A3: Consulte el[documentación](https://reference.aspose.com/psd/java/)para obtener información completa sobre el uso de Aspose.PSD para Java.
+ A3: Consulte el[documentación](https://reference.aspose.com/psd/java/) para obtener información completa sobre el uso de Aspose.PSD para Java.
 
 ### P4: ¿Cómo puedo obtener soporte?
 
- A4: Únase a la comunidad Aspose.PSD en el[Foro de soporte](https://forum.aspose.com/c/psd/34) para buscar ayuda y conectarse con otros desarrolladores.
+ R4: Únase a la comunidad Aspose.PSD en el[foro de soporte](https://forum.aspose.com/c/psd/34) para buscar ayuda y conectarse con otros desarrolladores.
 
 ### P5: ¿Necesito una licencia temporal para realizar pruebas?
 
- R5: Si está probando la biblioteca, puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Si está probando la biblioteca, puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

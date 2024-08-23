@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/java/image-editing/color-overlay-effect/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nel mondo della progettazione grafica e della manipolazione delle immagini utilizzando Aspose.PSD per Java! In questo tutorial, approfondiremo l'applicazione di un effetto di sovrapposizione colore per migliorare le tue immagini. Questa potente libreria Java ti consente di lavorare in modo efficiente con i file PSD, fornendo un'ampia gamma di funzionalità per l'elaborazione delle immagini.
 
@@ -17,7 +17,7 @@ Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisi
 
 1. Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java configurato sul tuo computer.
 
-2. Libreria Aspose.PSD: scarica e installa la libreria Aspose.PSD per Java da[Qui](https://releases.aspose.com/psd/java/).
+2.  Libreria Aspose.PSD: scarica e installa la libreria Aspose.PSD per Java da[Qui](https://releases.aspose.com/psd/java/).
 
 3. Documento PSD: prepara un documento PSD in cui desideri applicare l'effetto sovrapposizione colore.
 
@@ -109,4 +109,4 @@ A2: Sì, Aspose.PSD è compatibile con i più diffusi IDE Java come Eclipse e In
 
 ### Q5: Sono disponibili opzioni di prova gratuite per Aspose.PSD?
 
- A5: Sì, esplora il[prova gratuita](https://releases.aspose.com/)versione prima di effettuare un acquisto.
+ A5: Sì, esplora il[prova gratuita](https://releases.aspose.com/) versione prima di effettuare un acquisto.

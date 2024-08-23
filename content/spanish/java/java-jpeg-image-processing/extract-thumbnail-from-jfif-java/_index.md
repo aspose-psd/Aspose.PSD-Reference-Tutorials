@@ -19,7 +19,6 @@ Antes de continuar con este tutorial, asegúrese de tener los siguientes requisi
 Para comenzar, asegúrese de haber importado los paquetes necesarios en su proyecto Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -61,7 +60,7 @@ Opcionalmente, extraiga datos EXIF del recurso de miniaturas si es necesario.
 ```java
 JpegExifData exif = thumbnail.getJpegOptions().getExifData();
 if (exif != null) {
-    // Extraer datos EXIF y procesar.
+    // Extraiga datos EXIF y procese.
 }
 ```
 Este paso le permite recuperar y trabajar con información EXIF asociada con la miniatura.

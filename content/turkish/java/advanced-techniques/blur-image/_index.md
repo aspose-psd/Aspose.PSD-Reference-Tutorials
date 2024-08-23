@@ -87,7 +87,7 @@ A1: Kesinlikle! Aspose.PSD, tüm beceri seviyelerindeki geliştiricilere rehberl
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for Java desteğini nerede bulabilirim?
 
@@ -95,4 +95,4 @@ A1: Kesinlikle! Aspose.PSD, tüm beceri seviyelerindeki geliştiricilere rehberl
 
 ### S5: Aspose.PSD için geçici lisansı nasıl edinebilirim?
 
- Cevap5: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Aspose.PSD est une bibliothèque qui permet aux développeurs de travailler avec
 ### Puis-je utiliser Aspose.PSD pour des formats autres que PSD ?
 À partir de ce guide, Aspose.PSD traite spécifiquement des fichiers PSD mais propose des extensions pour gérer différents formats d'image.
 ### Une version d’essai est-elle disponible pour Aspose.PSD ?
- Oui, vous pouvez accéder à un essai gratuit d’Aspose.PSD.[ici](https://releases.aspose.com/).
+ Oui, vous pouvez accéder à un essai gratuit d'Aspose.PSD[ici](https://releases.aspose.com/).
 ### Comment puis-je acheter Aspose.PSD ?
  Vous pouvez acheter Aspose.PSD auprès de[ici](https://purchase.aspose.com/buy).
 ### Où puis-je obtenir de l’aide pour Aspose.PSD ?

@@ -25,7 +25,7 @@ import com.aspose.psd.imageoptions.TiffOptions;
 import java.io.FileNotFoundException;
 ```
 ## 1. lépés: Állítsa be környezetét
- Győződjön meg arról, hogy a Java és az Aspose.PSD for Java telepítve van a rendszerére. Ha nem, nézze meg a[dokumentáció](https://reference.aspose.com/psd/java/) telepítési utasításokért.
+Győződjön meg arról, hogy a Java és az Aspose.PSD for Java telepítve van a rendszerére. Ha nem, nézze meg a[dokumentáció](https://reference.aspose.com/psd/java/) telepítési utasításokért.
 ## 2. lépés: Importálja az Aspose.PSD könyvtárat
  Java-projektjébe vegye fel az Aspose.PSD könyvtárat úgy, hogy hozzáadja a projekt függőségeihez. Letöltheti a könyvtárat[itt](https://releases.aspose.com/psd/java/).
 ## 3. lépés: Hozzon létre egy PSD-képobjektumot
@@ -52,7 +52,7 @@ layer.save(dataDir + "output" + i + "_out.tiff", objTiff);
 ```
 Ismételje meg ezeket a lépéseket a PSD-kép összes rétegére.
 ## Következtetés
-Gratulálunk! Sikeresen megtanulta, hogyan konvertálhat GIF képrétegeket TIFF formátumba az Aspose.PSD for Java segítségével. Ez a hatékony könyvtár leegyszerűsíti a folyamatot, és megkönnyíti a Java fejlesztők számára a PSD-képek hatékony kezelését. Kísérletezzen a különböző lehetőségekkel, és fedezzen fel további funkciókat képfeldolgozási képességei javításához.
+Gratulálok! Sikeresen megtanulta, hogyan konvertálhat GIF képrétegeket TIFF formátumba az Aspose.PSD for Java segítségével. Ez a hatékony könyvtár leegyszerűsíti a folyamatot, és megkönnyíti a Java fejlesztők számára a PSD-képek hatékony kezelését. Kísérletezzen a különböző lehetőségekkel, és fedezzen fel további funkciókat képfeldolgozási képességei javításához.
 ## GYIK
 ### Használhatom az Aspose.PSD for Java-t kereskedelmi projektekben?
  Igen, az Aspose.PSD for Java kereskedelmi használatra elérhető. Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
@@ -60,7 +60,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan konvertálhat GIF képrétegeket TIFF
  Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.PSD for Java számára?
  Bármilyen kérdés vagy probléma esetén keresse fel a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34).
-### Szükségem van ideiglenes licencre teszteléshez?
+### Szükségem van ideiglenes licencre tesztelés céljából?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hogyan maradhatok naprakész az Aspose.PSD dokumentációval?
  Lásd a dokumentációt[itt](https://reference.aspose.com/psd/java/) a legújabb frissítésekért és útmutatókért.

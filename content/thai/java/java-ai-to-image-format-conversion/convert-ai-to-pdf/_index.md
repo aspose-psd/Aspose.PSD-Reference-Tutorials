@@ -18,7 +18,6 @@ url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 หากต้องการเริ่มต้นใช้งานโค้ด คุณจะต้องนำเข้าแพ็คเกจ Aspose.PSD ที่จำเป็น ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -32,7 +31,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.pdf";
 ```
  แทนที่`"Your Document Directory"` พร้อมเส้นทางจริงที่มีไฟล์ AI ของคุณอยู่ ขั้นตอนนี้ช่วยให้แน่ใจว่าคุณมีเส้นทางที่ถูกต้องไปยังไฟล์ต้นทางและปลายทางของคุณ
-## ขั้นตอนที่ 2: โหลดรูปภาพ AI
+## ขั้นตอนที่ 2: โหลดอิมเมจ AI
 ถัดไป คุณต้องโหลดไฟล์ AI ของคุณโดยใช้ Aspose.PSD นี่คือวิธีที่คุณสามารถทำได้:
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);

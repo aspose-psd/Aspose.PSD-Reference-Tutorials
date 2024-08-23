@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/net/psd-drawing-techniques/constructing-rectangles/
 ---
-## Úvod
+## Zavedení
 
 dynamické sféře vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci s obrázky. Tento tutoriál se zaměřuje na základní úkol: vytváření obdélníků pomocí Aspose.PSD pro .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vás provede celým procesem a zajistí, že důkladně pochopíte každý koncept.
 
@@ -19,7 +19,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 -  Stáhnout Aspose.PSD: Ujistěte se, že jste si stáhli knihovnu Aspose.PSD z[odkaz ke stažení](https://releases.aspose.com/psd/net/).
 
--  Získejte licenci: Pokud používáte Aspose.PSD v produkčním prostředí, ujistěte se, že máte platnou licenci. Můžete získat jeden[tady](https://purchase.aspose.com/buy) nebo použijte a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování.
+-  Získejte licenci: Pokud používáte Aspose.PSD v produkčním prostředí, ujistěte se, že máte platnou licenci. Můžete získat jeden[zde](https://purchase.aspose.com/buy) nebo použijte a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování.
 
 ## Importovat jmenné prostory
 
@@ -71,7 +71,7 @@ using (Image image = new PsdImage(100, 100))
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste vytvořili obdélníky pomocí Aspose.PSD pro .NET. Tento výukový program vás vybavil znalostmi pro bezproblémovou integraci manipulace s obrázky do vašich aplikací .NET.
+Gratuluji! Úspěšně jste vytvořili obdélníky pomocí Aspose.PSD pro .NET. Tento výukový program vás vybavil znalostmi pro bezproblémovou integraci manipulace s obrázky do vašich aplikací .NET.
 
 ## FAQ
 
@@ -81,7 +81,7 @@ Odpověď 1: Ano, Aspose.PSD je navržen pro práci s různými prostředími .N
 
 ### Q2: Mohu používat Aspose.PSD pro komerční projekty bez licence?
 
- A2: Ne, pro komerční použití je vyžadována platná licence. Získejte licenci[tady](https://purchase.aspose.com/buy).
+ A2: Ne, pro komerční použití je vyžadována platná licence. Získejte licenci[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Jak mohu vyhledat pomoc nebo sdílet své zkušenosti s Aspose.PSD?
 
@@ -93,4 +93,4 @@ A4: Použití 32 Bpp umožňuje bohatší zobrazení barev, což umožňuje deta
 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A5: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhnout to[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhněte si to[zde](https://releases.aspose.com/).

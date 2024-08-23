@@ -88,15 +88,15 @@ Parabéns! Você ajustou com sucesso a opacidade do efeito de sombra em Aspose.P
 
 ### Q1: Posso aplicar este tutorial a outros formatos de imagem?
 
-A1: Não, este tutorial cobre especificamente o ajuste da opacidade do efeito de sombra em arquivos PSD usando Aspose.PSD para .NET.
+A1: Não, este tutorial aborda especificamente o ajuste da opacidade do efeito de sombra em arquivos PSD usando Aspose.PSD para .NET.
 
-### Q2: Existem propriedades adicionais de sombra que podem ser modificadas?
+### Q2: Existem propriedades de sombra adicionais que podem ser modificadas?
 
 A2: Sim, Aspose.PSD for .NET oferece várias propriedades para ajuste fino de efeitos de sombra.
 
-### Q3: Como posso obter uma licença temporária para Aspose.PSD para .NET?
+### Q3: Como posso obter uma licença temporária do Aspose.PSD para .NET?
 
- A3: Você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A3: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: O Aspose.PSD para .NET é compatível com o .NET Core?
 

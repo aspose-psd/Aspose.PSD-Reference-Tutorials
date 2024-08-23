@@ -20,7 +20,6 @@ Java를 사용하여 이미지 처리의 세계에 뛰어들고 싶으십니까?
 시작하려면 Aspose.PSD 라이브러리에서 필요한 패키지를 가져와야 합니다. 그렇게 하는 방법은 다음과 같습니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

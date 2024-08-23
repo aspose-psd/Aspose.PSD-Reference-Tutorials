@@ -51,7 +51,7 @@ using (PsdImage image = new PsdImage(500, 500))
 ## الخطوة 2: إنشاء مسار الرسومات والشكل
 
 ```csharp
-// أنشئ مثيلاً لـ GraphicsPath وInstance of Figure، وأضف EllipseShape وRectangleShape وTextShape إلى الشكل.
+// أنشئ مثيلاً لـ GraphicsPath وInstance of Figure، وأضف EllipseShape وRectangleShape وTextShape إلى الشكل
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A1: نعم، Aspose.PSD for .NET متوافق مع بيئات تطوير .NET ا
 
 ### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ .NET؟
 
- ج5: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/net/).
+ ج5: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).

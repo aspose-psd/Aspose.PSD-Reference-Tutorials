@@ -19,7 +19,6 @@ Avant de plonger dans le didacticiel, couvrons les prérequis. Voici ce dont vou
 Tout d’abord, importons les packages nécessaires. Ces importations sont essentielles pour travailler avec la bibliothèque Aspose.PSD et gérer les conversions d'images.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Maintenant que votre fichier PSB est chargé, vous devez définir les options de
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Ici, nous créons un`JpegOptions` objet et en définissant la qualité sur 95. Vous pouvez ajuster cette valeur pour contrôler la compression et la qualité de l’image de sortie.
+Ici, nous créons un`JpegOptions` objet et en définissant la qualité sur 95. Vous pouvez ajuster cette valeur pour contrôler la compression et la qualité de l’image de sortie.
 ## Étape 4 : Enregistrez l'image au format JPG
 Une fois les options définies, vous êtes prêt à enregistrer votre fichier PSB au format JPG. C'est là que se produit la conversion réelle.
 ```java
@@ -55,16 +54,16 @@ image.save(dataDir + "Simple_output.psb");
 ```
 Cette étape est facultative mais utile si vous devez conserver le format en couches du fichier PSB d'origine ainsi que le JPG converti.
 ## Conclusion
-Toutes nos félicitations! Vous avez converti avec succès un fichier PSB en JPG à l'aide d'Aspose.PSD pour Java. Ce didacticiel vous a guidé dans la configuration de votre projet, le chargement du fichier PSB, la configuration des options JPG et l'enregistrement de l'image convertie. En suivant ces étapes, vous pouvez facilement gérer les conversions PSB en JPG dans vos applications Java.
-Que vous soyez un développeur travaillant sur une application de traitement d'image ou que vous ayez simplement besoin de convertir des fichiers PSB de temps en temps, Aspose.PSD pour Java fournit une solution robuste pour vos besoins.
+Félicitations! Vous avez converti avec succès un fichier PSB en JPG à l'aide d'Aspose.PSD pour Java. Ce didacticiel vous a guidé dans la configuration de votre projet, le chargement du fichier PSB, la configuration des options JPG et l'enregistrement de l'image convertie. En suivant ces étapes, vous pouvez facilement gérer les conversions PSB en JPG dans vos applications Java.
+Que vous soyez un développeur travaillant sur une application de traitement d'image ou que vous ayez simplement besoin de convertir occasionnellement des fichiers PSB, Aspose.PSD pour Java fournit une solution robuste pour vos besoins.
 ## FAQ
 ### Qu’est-ce qu’Aspose.PSD pour Java ?
 Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de manipuler et de convertir des fichiers PSD et PSB dans des applications Java. Il prend en charge diverses fonctionnalités, notamment le chargement, l'édition et l'enregistrement de fichiers Photoshop.
 ### Puis-je essayer Aspose.PSD pour Java avant d’acheter ?
  Oui, vous pouvez télécharger un essai gratuit d'Aspose.PSD pour Java à partir du[page de téléchargement](https://releases.aspose.com/). Cela vous permet d'évaluer la bibliothèque et ses fonctionnalités avant de faire un achat.
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
-Vous pouvez obtenir une licence temporaire auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/). Cela vous permettra d'utiliser toutes les fonctionnalités de la bibliothèque pendant une période limitée.
+ Vous pouvez obtenir une licence temporaire auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/). Cela vous permettra d'utiliser toutes les fonctionnalités de la bibliothèque pendant une période limitée.
 ### a-t-il une assistance disponible si je rencontre des problèmes ?
  Absolument! Vous pouvez accéder à l'assistance via le[Forum d'assistance Aspose.PSD](https://forum.aspose.com/c/psd/34). L'équipe d'assistance est réactive et prête à vous aider pour tout problème ou question que vous pourriez avoir.
 ### Puis-je ajuster la qualité de la sortie JPG ?
- Oui, vous pouvez ajuster la qualité de la sortie JPG en définissant le`Quality` propriété dans le`JpegOptions` objet. La valeur varie de 0 à 100, les valeurs plus élevées indiquant une meilleure qualité et une compression plus faible.
+ Oui, vous pouvez ajuster la qualité de la sortie JPG en définissant le`Quality` propriété dans le`JpegOptions` objet. La valeur va de 0 à 100, les valeurs plus élevées indiquant une meilleure qualité et une compression plus faible.

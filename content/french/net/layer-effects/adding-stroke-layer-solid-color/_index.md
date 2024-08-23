@@ -107,7 +107,7 @@ Répétez ces étapes pour des ajustements supplémentaires ou expérimentez dif
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter un calque de trait avec une couleur unie à l'aide d'Aspose.PSD pour .NET. Cette fonctionnalité puissante ouvre un monde de possibilités pour améliorer vos images dans l'environnement .NET.
+Félicitations! Vous avez appris avec succès comment ajouter un calque de trait avec une couleur unie à l'aide d'Aspose.PSD pour .NET. Cette fonctionnalité puissante ouvre un monde de possibilités pour améliorer vos images dans l'environnement .NET.
 
 ## FAQ
 
@@ -121,7 +121,7 @@ A2 : Absolument ! Aspose.PSD pour .NET est un produit commercial et vous pouvez 
 
 ### Q3 : Où puis-je trouver plus d’exemples et de documentation pour Aspose.PSD pour .NET ?
 
- A3 : Explorez le[Documentation](https://reference.aspose.com/psd/net/) pour des exemples et des conseils complets.
+ A3 : Explorez le[documentation](https://reference.aspose.com/psd/net/) pour des exemples et des conseils complets.
 
 ### Q4 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour .NET ?
 

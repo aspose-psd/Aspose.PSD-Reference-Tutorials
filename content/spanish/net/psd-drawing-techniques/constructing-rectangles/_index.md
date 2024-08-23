@@ -19,7 +19,7 @@ Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes req
 
 -  Descargar Aspose.PSD: asegúrese de haber descargado la biblioteca Aspose.PSD del[enlace de descarga](https://releases.aspose.com/psd/net/).
 
--  Obtenga una licencia: si está utilizando Aspose.PSD en un entorno de producción, asegúrese de tener una licencia válida. Puedes obtener uno[aquí](https://purchase.aspose.com/buy) o usar un[licencia temporal](https://purchase.aspose.com/temporary-license/) para las pruebas.
+-  Obtenga una licencia: si está utilizando Aspose.PSD en un entorno de producción, asegúrese de tener una licencia válida. Puedes obtener uno[aquí](https://purchase.aspose.com/buy) o usar un[licencia temporal](https://purchase.aspose.com/temporary-license/) para pruebas.
 
 ## Importar espacios de nombres
 
@@ -93,4 +93,4 @@ A4: El uso de 32 Bpp permite una representación de color más rica, lo que perm
 
 ### P5: ¿Hay una prueba gratuita disponible para Aspose.PSD?
 
- R5: Sí, puedes explorar Aspose.PSD con una prueba gratuita. Descargalo[aquí](https://releases.aspose.com/).
+ R5: Sí, puedes explorar Aspose.PSD con una prueba gratuita. Descárgalo[aquí](https://releases.aspose.com/).

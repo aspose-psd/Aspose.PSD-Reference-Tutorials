@@ -15,7 +15,7 @@ url: /zh-hant/java/basic-image-operations/simple-resizing/
 
 在我們開始使用 Aspose.PSD 調整影像大小之前，請確保您具備以下先決條件：
 
-1. Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。您可以從以下位置下載最新版本[Java網站](https://www.oracle.com/java/).
+1.  Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。您可以從以下位置下載最新版本[Java網站](https://www.oracle.com/java/).
 
 2. Aspose.PSD for Java：下載並安裝 Aspose.PSD 函式庫。您可以在以下位置找到所需的軟體包[Aspose.PSD for Java 下載頁面](https://releases.aspose.com/psd/java/).
 

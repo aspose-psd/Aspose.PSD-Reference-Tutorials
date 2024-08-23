@@ -35,7 +35,7 @@ import com.aspose.psd.imageoptions.PsdOptions;
 
 ## 1. Adım: Görüntüyü Yükleyin
 
-Yeniden boyutlandırmak istediğiniz görüntüyü Java uygulamanıza yükleyerek başlayın. Kullan`Image.load` Aspose.PSD'den yöntem.
+Yeniden boyutlandırmak istediğiniz görüntüyü Java uygulamanıza yükleyerek başlayın. Şunu kullanın:`Image.load` Aspose.PSD'den yöntem.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,7 +86,7 @@ Cevap1: Evet, Aspose.PSD for Java, PSD, PNG, JPEG ve daha fazlası dahil olmak �
 
 ### S4: Aspose.PSD for Java kütüphanesini indirebilir miyim?
 
- C4: Evet, kitaplığı sürümler sayfasından indirin.[Burada](https://releases.aspose.com/psd/java/).
+ Cevap4: Evet, kitaplığı sürümler sayfasından indirin[Burada](https://releases.aspose.com/psd/java/).
 
 ### S5: Java için Aspose.PSD'yi nasıl satın alabilirim?
 

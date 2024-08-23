@@ -73,7 +73,7 @@ Répétez ces étapes en ajustant les paramètres selon les besoins de votre cas
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment appliquer des filtres gaussiens et Wiener aux images couleur à l'aide d'Aspose.PSD pour Java. Expérimentez avec différents paramètres pour obtenir les effets souhaités et améliorer vos images.
+Félicitations! Vous avez appris avec succès comment appliquer des filtres gaussiens et Wiener aux images couleur à l'aide d'Aspose.PSD pour Java. Expérimentez avec différents paramètres pour obtenir les effets souhaités et améliorer vos images.
 
 ## FAQ
 
@@ -87,7 +87,7 @@ A2 : Oui, Aspose.PSD propose une variété d'options de filtrage pour répondre 
 
 ### Q3 : Comment puis-je gérer les exceptions lors du traitement de l'image ?
 
- A3 : Enveloppez votre code dans des blocs try-catch pour gérer les exceptions avec élégance. Faire référence à[Documentation Aspose.PSD](https://reference.aspose.com/psd/java/) pour plus de détails.
+ A3 : Enveloppez votre code dans des blocs try-catch pour gérer les exceptions avec élégance. Se référer à[Documentation Aspose.PSD](https://reference.aspose.com/psd/java/) pour plus de détails.
 
 ### Q4 : Puis-je appliquer plusieurs filtres de manière séquentielle ?
 

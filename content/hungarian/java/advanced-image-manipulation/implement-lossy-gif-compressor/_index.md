@@ -54,14 +54,14 @@ Image image = Image.load(sourceFile);
 
 ## 4. lépés: Konfigurálja a GIF-tömörítést
 
- Hozzon létre egy`GifOptions` objektum a GIF-tömörítés paramétereinek beállításához, például a maximális különbséghez. Ebben a példában a maximális különbséget 200-ra állítjuk.
+ Hozzon létre a`GifOptions` objektum a GIF-tömörítés paramétereinek beállításához, például a maximális különbséghez. Ebben a példában a maximális különbséget 200-ra állítjuk.
 
 ```java
 GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## 5. lépés: Mentse el a tömörített GIF-et.
+## 5. lépés: Mentse el a tömörített GIF-et
 
  Mentse el a tömörített GIF-képet a`image.save` módszerrel a megadott`GifOptions`.
 
@@ -71,7 +71,7 @@ image.save(destName, gifExport);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen implementált egy veszteséges GIF-tömörítőt az Aspose.PSD for Java használatával. Ez a hatékony funkció lehetővé teszi, hogy a minőség romlása nélkül optimalizálja a képeket az internetre.
+Gratulálok! Sikeresen implementált egy veszteséges GIF-tömörítőt az Aspose.PSD for Java használatával. Ez a hatékony funkció lehetővé teszi, hogy a minőség romlása nélkül optimalizálja a képeket az internetre.
 
 ## GYIK
 
@@ -85,12 +85,12 @@ Gratulálunk! Sikeresen implementált egy veszteséges GIF-tömörítőt az Aspo
 
 ### 3. kérdés: Hol találom az Aspose.PSD for Java dokumentációját?
 
-A3: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/java/).
+A3: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/java/).
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.PSD for Java-t?
 
- V5: Megvásárolhatja a könyvtárat.[itt](https://purchase.aspose.com/buy).
+ V5: Megvásárolhatja a könyvtárat[itt](https://purchase.aspose.com/buy).

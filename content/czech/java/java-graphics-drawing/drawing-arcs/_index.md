@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/java-graphics-drawing/drawing-arcs/
 ---
-## Úvod
+## Zavedení
 tomto tutoriálu prozkoumáme, jak kreslit oblouky pomocí knihovny Aspose.PSD for Java. Programové kreslení oblouků může být užitečné v různých aplikacích, jako jsou grafická uživatelská rozhraní, grafy nebo vlastní vizualizace. Aspose.PSD for Java poskytuje robustní funkce pro manipulaci a vytváření souborů PSD (Photoshop Document), včetně schopnosti kreslit tvary jako oblouky s přizpůsobitelnými vlastnostmi.
 ## Předpoklady
 Než budete pokračovat v tomto tutoriálu, ujistěte se, že máte nastaveny následující předpoklady:
@@ -21,14 +21,13 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
 Tyto balíčky poskytují přístup ke třídám a metodám potřebným pro kreslení oblouků a ukládání obrázků v různých formátech.
 ## Krok 1: Nastavte svůj projekt Java
 Nejprve vytvořte nový Java projekt ve vašem IDE (Integrated Development Environment) a importujte knihovnu Aspose.PSD for Java. Ujistěte se, že na knihovnu je správně odkazováno v cestě sestavení vašeho projektu.
-## Krok 2: Inicializujte obrázky a grafické objekty
+## Krok 2: Inicializujte obrazové a grafické objekty
  Vytvořte instanci`PsdImage` a`Graphics` pracovat s:
 ```java
 String dataDir = "Your Document Directory";
@@ -47,7 +46,7 @@ int height = 200;
 int startAngle = 45;
 int sweepAngle = 270;
 ```
-Upravte tyto hodnoty na základě vašich konkrétních požadavků na velikost a umístění oblouku.
+Upravte tyto hodnoty na základě vašich specifických požadavků na velikost a umístění oblouku.
 ## Krok 4: Nakreslete a uložte oblouk
  Nakreslete oblouk pomocí`drawArc` metoda`Graphics` třídy a uložte obrázek:
 ```java

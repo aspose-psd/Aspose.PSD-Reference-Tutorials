@@ -20,7 +20,6 @@ Kiedy już przygotujesz wszystkie te wymagania wstępne, możesz zaczynać!
 Aby rozpocząć, musisz zaimportować niezbędne pakiety z biblioteki Aspose.PSD. Oto jak możesz to zrobić:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

@@ -9,7 +9,7 @@ url: /pl/java/advanced-techniques/save-images-to-stream/
 ---
 ## Wstęp
 
-W tym samouczku omówimy, jak zapisywać obrazy w strumieniu przy użyciu Aspose.PSD dla Java. Aspose.PSD to potężna biblioteka Java do przetwarzania i manipulowania plikami PSD (dokument Photoshop). Jeśli chcesz ulepszyć swoją aplikację Java o możliwość zapisywania obrazów PSD w strumieniu, wykonaj czynności opisane w tym przewodniku.
+tym samouczku omówimy, jak zapisywać obrazy w strumieniu przy użyciu Aspose.PSD dla Java. Aspose.PSD to potężna biblioteka Java do przetwarzania i manipulowania plikami PSD (dokument Photoshop). Jeśli chcesz ulepszyć swoją aplikację Java o możliwość zapisywania obrazów PSD w strumieniu, wykonaj czynności opisane w tym przewodniku.
 
 ## Warunki wstępne
 
@@ -41,7 +41,7 @@ Teraz podzielmy proces na wiele kroków, aby zapisać obrazy w strumieniu:
 String dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"`ze ścieżką do katalogu, w którym znajduje się plik PSD.
+ Zastępować`"Your Document Directory"` ze ścieżką do katalogu, w którym znajduje się plik PSD.
 
 ## Krok 2: Określ źródło i miejsce docelowe
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Stwórz`FileOutputStream` dla pliku docelowego i zapisz obraz PSD w strumieniu, korzystając z opcji PNG.
+ Utwórz`FileOutputStream`dla pliku docelowego i zapisz obraz PSD w strumieniu, korzystając z opcji PNG.
 
 Powtórz te kroki, jeśli jest to konieczne dla konkretnego przypadku użycia.
 
@@ -84,11 +84,11 @@ O1: Tak, Aspose.PSD jest szeroko stosowany w profesjonalnych projektach Java do 
 
 ### P2: Gdzie mogę znaleźć dodatkowe wsparcie lub zadać pytania?
 
- A2: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie i dyskusję.
+ A2: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie i dyskusje.
 
 ### P3: Czy mogę wypróbować Aspose.PSD przed zakupem?
 
-A3: Tak, możesz odkryć a[bezpłatna wersja próbna](https://releases.aspose.com/) aby ocenić możliwości Aspose.PSD.
+ A3: Tak, możesz odkryć a[bezpłatna wersja próbna](https://releases.aspose.com/) aby ocenić możliwości Aspose.PSD.
 
 ### P4: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
 

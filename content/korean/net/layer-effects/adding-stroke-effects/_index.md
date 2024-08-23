@@ -108,4 +108,4 @@ A4: 예, 여러 PSD 파일을 반복하고 유사한 접근 방식을 사용하�
 
 ### Q5: Aspose.PSD를 구매하기 전에 평가판을 사용할 수 있나요?
 
- A5: 물론이죠! 잡아[무료 시험판](https://releases.aspose.com/) 구매하기 전에 Aspose.PSD의 기능을 살펴보세요.
+ A5: 물론이죠! 잡아[무료 평가판](https://releases.aspose.com/) 구매하기 전에 Aspose.PSD의 기능을 살펴보세요.

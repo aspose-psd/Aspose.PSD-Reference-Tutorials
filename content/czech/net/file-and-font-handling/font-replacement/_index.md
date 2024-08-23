@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/file-and-font-handling/font-replacement/
 ---
-## Úvod
+## Zavedení
 
 V oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro práci se soubory Photoshopu. Mezi jeho mnoha funkcemi je jednou zvláště užitečnou funkcí Náhrada písem. Tato funkce umožňuje vývojářům bezproblémově nahrazovat písma v souborech PSD, což zajišťuje konzistenci a flexibilitu při zpracování dokumentů. V tomto tutoriálu prozkoumáme kroky spojené s nahrazením písem pomocí Aspose.PSD pro .NET.
 
@@ -15,7 +15,7 @@ V oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro práci se 
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-- Aspose.PSD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+- Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 - Prostředí .NET: Mějte na svém počítači nastavené funkční vývojové prostředí .NET.
 
@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Zde je váš kód pro výměnu písem.
+    // Zde je váš kód pro výměnu písem
 }
 ```
 

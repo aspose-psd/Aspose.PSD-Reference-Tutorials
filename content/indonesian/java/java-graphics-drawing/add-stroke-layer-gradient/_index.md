@@ -21,7 +21,6 @@ Hal pertama yang pertama, mari impor paket yang diperlukan. Ini akan memungkinka
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -51,7 +50,7 @@ Selanjutnya, kita perlu mengakses efek guratan dari layer yang kita minati. Di s
 StrokeEffect gradientStroke = (StrokeEffect) im.getLayers()[2].getBlendingOptions().getEffects()[0];
 ```
 ## Langkah 3: Verifikasi Properti Efek Stroke
-Sebelum melakukan perubahan apa pun, mari verifikasi properti efek guratan untuk memastikan kita memodifikasi pengaturan yang benar.
+Sebelum membuat perubahan apa pun, mari verifikasi properti efek guratan untuk memastikan kita memodifikasi pengaturan yang benar.
 ```java
 Assert.areEqual(BlendMode.Normal, gradientStroke.getBlendMode());
 Assert.areEqual(255, gradientStroke.getOpacity());

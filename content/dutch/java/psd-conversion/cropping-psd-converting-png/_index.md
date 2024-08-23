@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Stap 3: Definieer de gewasregio
 ```java
-//Maak een exemplaar van de klasse Rectangle door x, y, width en height door te geven
+// Maak een exemplaar van de klasse Rectangle door x, y, width en height door te geven
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Stap 4: PSD-afbeelding bijsnijden
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Maak een exemplaar van de klasse PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Stap 6: Bijgesneden afbeelding opslaan als PNG.
+## Stap 6: Bijgesneden afbeelding opslaan als PNG
 ```java
 // Geef het uitvoerpad en PngOptions op om het PSD-bestand naar PNG te converteren en de uitvoer op te slaan
 String destName = dataDir + "export.png";
@@ -55,7 +55,7 @@ image.save(destName, pngOptions);
 ```
 ## Conclusie
 Gefeliciteerd! U hebt met succes geleerd hoe u PSD-bestanden kunt bijsnijden wanneer u ze naar PNG converteert met Aspose.PSD voor Java. Deze vaardigheid zal ongetwijfeld uw beeldverwerkingsmogelijkheden in Java-toepassingen verbeteren.
-## Veel Gestelde Vragen
+## Veelgestelde vragen
 ### Kan ik PSD-bestanden met onregelmatige vormen bijsnijden met Aspose.PSD voor Java?
 Ja, met Aspose.PSD voor Java kunt u een aangepast bijsnijdgebied definiëren, zodat u afbeeldingen in verschillende vormen kunt bijsnijden.
 ### Is Aspose.PSD voor Java geschikt voor grootschalige beeldverwerkingstaken?

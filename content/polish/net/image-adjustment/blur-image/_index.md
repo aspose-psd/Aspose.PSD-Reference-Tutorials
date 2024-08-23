@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Krok 4: Zastosuj filtr rozmycia gaussowskiego.
+## Krok 4: Zastosuj filtr rozmycia gaussowskiego
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Tutaj`GaussianBlurFilterOptions` class jest używana z określonym promieniem 15 zarówno w przypadku rozmycia w poziomie, jak i w pionie.
+ Tutaj,`GaussianBlurFilterOptions` klasa jest używana z określonym promieniem 15 zarówno w przypadku rozmycia w poziomie, jak i w pionie.
 
 ## Krok 5: Zapisz zamazany obraz
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Wniosek
 
-Gratulacje! Pomyślnie zamazałeś obraz za pomocą Aspose.PSD dla .NET. Ten samouczek daje wgląd w możliwości Aspose.PSD i otwiera drzwi do wielu możliwości manipulacji obrazami w aplikacjach .NET.
+Gratulacje! Pomyślnie zamazałeś obraz za pomocą Aspose.PSD dla .NET. Ten samouczek daje wgląd w możliwości Aspose.PSD i otwiera drzwi do niezliczonych możliwości manipulacji obrazami w aplikacjach .NET.
 
 ## Często zadawane pytania
 

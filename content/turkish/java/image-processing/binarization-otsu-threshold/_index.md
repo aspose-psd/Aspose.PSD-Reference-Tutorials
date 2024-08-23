@@ -94,7 +94,7 @@ Cevap 1: Otsu Eşiği ile İkilileştirme, görüntüyü segmentasyon için kull
 
 ### S3: Aspose.PSD for Java belgelerini nerede bulabilirim?
 
-A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/java/).
+A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/java/).
 
 ### S4: Aspose.PSD for Java desteğini nasıl alabilirim?
 
@@ -102,4 +102,4 @@ A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/java/).
 
 ### S5: Aspose.PSD for Java için geçici bir lisans mevcut mu?
 
- Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

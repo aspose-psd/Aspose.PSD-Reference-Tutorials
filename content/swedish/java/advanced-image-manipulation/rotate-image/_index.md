@@ -83,4 +83,4 @@ A2: Absolut! Aspose.PSD ger flexibilitet för att tillämpa anpassade rotationer
 
 ### F5: Hur får jag en tillfällig licens?
 
- S5: Om du behöver en tillfällig licens kan du få en.[här](https://purchase.aspose.com/temporary-license/).
+ S5: Om du behöver en tillfällig licens kan du få en[här](https://purchase.aspose.com/temporary-license/).

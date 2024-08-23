@@ -2,7 +2,7 @@
 title: Tekenen met grafisch pad in Java
 linktitle: Tekenen met grafisch pad in Java
 second_title: Aspose.PSD Java-API
-description: Leer hoe u complexe afbeeldingen in Java maakt met behulp van de Graphics Path-klasse van Aspose.PSD. Deze tutorial begeleidt u bij elke stap voor het maken van verbluffende afbeeldingen.
+description: Leer hoe u complexe afbeeldingen in Java kunt maken met behulp van de klasse Graphics Path van Aspose.PSD. Deze tutorial begeleidt u bij elke stap voor het maken van verbluffende afbeeldingen.
 type: docs
 weight: 19
 url: /nl/java/java-graphics-drawing/drawing-using-graphics-path/
@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Aspose.PSD is een bibliotheek waarmee ontwikkelaars met Photoshop-bestanden kunn
 ### Kan ik Aspose.PSD gebruiken voor andere formaten dan PSD?
 Vanaf deze handleiding behandelt Aspose.PSD specifiek PSD-bestanden, maar biedt het extensies voor verschillende afbeeldingsformaten.
 ### Is er een proefversie beschikbaar voor Aspose.PSD?
- Ja, u heeft toegang tot een gratis proefversie van Aspose.PSD.[hier](https://releases.aspose.com/).
+ Ja, u heeft toegang tot een gratis proefversie van Aspose.PSD[hier](https://releases.aspose.com/).
 ### Hoe kan ik Aspose.PSD kopen?
  U kunt Aspose.PSD kopen bij[hier](https://purchase.aspose.com/buy).
 ### Waar kan ik ondersteuning krijgen voor Aspose.PSD?

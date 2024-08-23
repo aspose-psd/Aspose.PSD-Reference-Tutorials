@@ -19,13 +19,12 @@ url: /el/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 Αρχικά, θα χρειαστεί να εισαγάγετε τα απαραίτητα πακέτα Aspose.PSD στο έργο σας Java. Ας φτιάξουμε το περιβάλλον σας.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 Τώρα που έχουμε ρυθμίσει το περιβάλλον μας, ας αναλύσουμε τη διαδικασία μετατροπής σε βήματα που μπορείτε να ακολουθήσετε εύκολα.
-## Βήμα 1: Φορτώστε το Αρχείο AI
+## Βήμα 1: Φορτώστε το αρχείο AI
 Το πρώτο βήμα στη διαδικασία μετατροπής είναι να φορτώσετε το αρχείο AI στην εφαρμογή Java χρησιμοποιώντας τη βιβλιοθήκη Aspose.PSD.
 ```java
 String dataDir = "Your Document Directory"; 
@@ -45,7 +44,7 @@ String outFileName = dataDir + "34992OStroke.png";
 image.save(outFileName, options);
 ```
 Και τέλος! Το αρχείο AI σας έχει μετατραπεί επιτυχώς σε PNG.
-## συμπέρασμα
+## Σύναψη
 Η μετατροπή αρχείων τεχνητής νοημοσύνης σε PNG στην Java είναι εύκολη με το Aspose.PSD. Ακολουθώντας τα βήματα που περιγράφονται σε αυτόν τον οδηγό, μπορείτε εύκολα να ενσωματώσετε αυτήν τη λειτουργία στις εφαρμογές σας Java. Είτε εργάζεστε σε μια εφαρμογή γραφικών είτε χρειάζεται να κάνετε μαζική μετατροπή αρχείων, το Aspose.PSD παρέχει τα εργαλεία που χρειάζεστε για να κάνετε τη δουλειά αποτελεσματικά.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD;

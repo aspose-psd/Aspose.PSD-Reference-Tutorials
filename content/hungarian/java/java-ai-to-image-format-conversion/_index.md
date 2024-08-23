@@ -15,7 +15,7 @@ Az Adobe Illustrator (AI) fájlok különböző formátumokba konvertálása gye
 ## Konvertálja az AI-t GIF-be Java nyelven
  Gondolkozott már azon, hogyan konvertálhat AI fájlokat GIF formátumba Java nyelven? Az Aspose.PSD segítségével ez egyszerű és hatékony. Ez az útmutató végigvezeti Önt az előfeltételeken, a szükséges lépéseken, és megválaszolja a gyakori gyakran ismételt kérdéseket a zökkenőmentes átalakítási folyamat biztosítása érdekében. Akár tapasztalt fejlesztő vagy, akár csak kezdő, ezt az oktatóanyagot egyszerűnek és hasznosnak találod.[Olvass tovább](./convert-ai-to-gif/).
 
-## Konvertálja az AI-t JPG-be Java nyelven
+## Konvertálja az AI-t JPG-vé Java nyelven
 Átalakítania kell az AI fájlokat JPG formátumba? Ne keressen tovább! Az Aspose.PSD-t használó átfogó útmutatónk megkönnyíti a fejlesztők számára a kiváló minőségű képkonverzió elérését. Kövesse lépésről lépésre utasításainkat, és AI-fájljait pillanatok alatt JPG formátumba konvertálja, megőrizve az eredeti képek integritását és minőségét.[Olvass tovább](./convert-ai-to-jpg/).
 
 ## Konvertálja az AI-t PDF-be Java nyelven
@@ -35,7 +35,7 @@ Ezen oktatóanyagok követésével kihasználhatja az Aspose.PSD for Java-t a k�
 ## Java AI képformátumra konvertáló oktatóanyagok
 ### [Konvertálja az AI-t GIF-be Java nyelven](./convert-ai-to-gif/)
 A mesterséges intelligencia konvertálása GIF-re Java nyelven az Aspose.PSD segítségével, amely egy egyszerű, hatékony útmutató a fejlesztők számára. Ismerje meg a zökkenőmentes átalakítás előfeltételeit, lépéseit és GYIK-jét.
-### [Konvertálja az AI-t JPG-be Java nyelven](./convert-ai-to-jpg/)
+### [Konvertálja az AI-t JPG-vé Java nyelven](./convert-ai-to-jpg/)
 Az Aspose.PSD segítségével könnyedén konvertálhat AI fájlokat JPG formátumba Java nyelven. Kövesse lépésenkénti útmutatónkat a kiváló minőségű képátalakításhoz.
 ### [Konvertálja az AI-t PDF-be Java nyelven](./convert-ai-to-pdf/)
 Ismerje meg, hogyan konvertálhat mesterséges intelligencia fájlokat PDF formátumba Java nyelven az Aspose.PSD segítségével. Kövesse részletes, lépésenkénti útmutatónkat a fájlkonverziók hatékony kezeléséhez.

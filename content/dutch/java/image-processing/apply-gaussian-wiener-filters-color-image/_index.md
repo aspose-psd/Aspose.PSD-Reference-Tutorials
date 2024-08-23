@@ -87,7 +87,7 @@ A2: Ja, Aspose.PSD biedt een verscheidenheid aan filteropties om aan verschillen
 
 ### Vraag 3: Hoe kan ik omgaan met uitzonderingen tijdens de beeldverwerking?
 
- A3: Verpak uw code in try-catch-blokken om uitzonderingen netjes af te handelen. Verwijzen naar[Aspose.PSD-documentatie](https://reference.aspose.com/psd/java/) voor meer details.
+ A3: Verpak uw code in try-catch-blokken om uitzonderingen netjes af te handelen. Raadpleeg[Aspose.PSD-documentatie](https://reference.aspose.com/psd/java/) voor meer informatie.
 
 ### Vraag 4: Kan ik meerdere filters achter elkaar toepassen?
 

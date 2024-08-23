@@ -20,7 +20,6 @@ Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 Pertama, impor paket yang diperlukan untuk mulai bekerja dengan Aspose.PSD untuk Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -57,7 +56,7 @@ Aspose.PSD untuk Java mendukung berbagai jenis file PSD, termasuk file PSB, mema
 ### Apakah Aspose.PSD untuk Java cocok untuk pemrosesan batch file PSD?
 Ya, pengembang dapat memanfaatkan Aspose.PSD untuk Java untuk tugas pemrosesan batch, seperti mengonversi beberapa file PSD ke PDF secara bersamaan.
 ### Di mana saya dapat menemukan dukungan tambahan untuk Aspose.PSD untuk Java?
- Mengunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas dan untuk terhubung dengan pengguna dan pengembang lain.
+ Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas dan untuk terhubung dengan pengguna dan pengembang lain.
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD untuk Java?
  Anda dapat meminta lisensi sementara untuk tujuan pengujian dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Apa keuntungan menggunakan Aspose.PSD untuk Java dibandingkan perpustakaan lain?

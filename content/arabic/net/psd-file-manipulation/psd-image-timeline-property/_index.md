@@ -66,7 +66,7 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 
 ## الأسئلة الشائعة
 
-### س1: هل يمكنني استخدام Aspose.PSD لـ .NET مع أطر عمل .NET الأخرى؟
+### س1: هل يمكنني استخدام Aspose.PSD لـ .NET مع أطر عمل .NET أخرى؟
 
 ج1: نعم، Aspose.PSD for .NET متوافق مع أطر عمل .NET المختلفة، مما يضمن المرونة في بيئة التطوير الخاصة بك.
 
@@ -80,7 +80,7 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 
 ### س4: هل التراخيص المؤقتة متاحة لـ Aspose.PSD لـ .NET؟
 
- ج٤: نعم، يمكنك الحصول على تراخيص مؤقتة لـ Aspose.PSD لـ .NET.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج٤: نعم، يمكنك الحصول على تراخيص مؤقتة لـ Aspose.PSD لـ .NET[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD لـ .NET؟
 

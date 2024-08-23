@@ -7,9 +7,9 @@ type: docs
 weight: 17
 url: /cs/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
-## Úvod
+## Zavedení
 
-V dynamické sféře vývoje Java může být správa a nahrazování chybějících písem v souborech PSD klíčovým aspektem vytváření vizuálně přitažlivých a bezchybných obrázků. Aspose.PSD for Java přichází na pomoc se svými výkonnými funkcemi, díky kterým je výměna písem bezproblémový proces. V tomto tutoriálu prozkoumáme kroky k nahrazení chybějících písem pomocí Aspose.PSD pro Java, čímž zajistíme, že si vaše obrázky zachovají svou estetickou integritu.
+dynamické sféře vývoje Java může být správa a nahrazování chybějících písem v souborech PSD klíčovým aspektem vytváření vizuálně přitažlivých a bezchybných obrázků. Aspose.PSD for Java přichází na pomoc se svými výkonnými funkcemi, díky kterým je výměna písem bezproblémový proces. V tomto tutoriálu prozkoumáme kroky k nahrazení chybějících písem pomocí Aspose.PSD pro Java, čímž zajistíme, že si vaše obrázky zachovají svou estetickou integritu.
 
 ## Předpoklady
 
@@ -79,7 +79,7 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-Gratulujeme! Úspěšně jste nahradili chybějící písma v souboru PSD pomocí Aspose.PSD for Java.
+Gratuluji! Úspěšně jste nahradili chybějící písma v souboru PSD pomocí Aspose.PSD for Java.
 
 ## Závěr
 
@@ -97,7 +97,7 @@ A2: Ano, můžete zadat vlastní náhradní písma podle vašich požadavků na 
 
 ### Q3: Jsou nějaké možnosti licencování dostupné pro Aspose.PSD?
 
- A3: Prozkoumejte možnosti licencování.[tady](https://purchase.aspose.com/buy)vybrat nejlepší plán pro vaše potřeby.
+ A3: Prozkoumejte možnosti licencování[zde](https://purchase.aspose.com/buy) vybrat nejlepší plán pro vaše potřeby.
 
 ### Q4: Existuje komunitní fórum pro podporu Aspose.PSD?
 
@@ -105,4 +105,4 @@ A2: Ano, můžete zadat vlastní náhradní písma podle vašich požadavků na 
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A5: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
+ A5: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.

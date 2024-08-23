@@ -77,12 +77,12 @@ A1 : Oui, Aspose.PSD pour Java est conçu pour fonctionner de manière transpare
 
 ### Q3 : Où puis-je trouver une documentation détaillée ?
 
- A3 : Reportez-vous au[Documentation](https://reference.aspose.com/psd/java/)pour des informations complètes sur l’utilisation d’Aspose.PSD pour Java.
+ A3 : Reportez-vous au[documentation](https://reference.aspose.com/psd/java/) pour des informations complètes sur l’utilisation d’Aspose.PSD pour Java.
 
 ### Q4 : Comment puis-je obtenir de l'aide ?
 
- A4 : Rejoignez la communauté Aspose.PSD sur le[forum d'entraide](https://forum.aspose.com/c/psd/34) pour demander de l'aide et se connecter avec d'autres développeurs.
+ A4 : Rejoignez la communauté Aspose.PSD sur le[forum d'assistance](https://forum.aspose.com/c/psd/34) pour demander de l'aide et se connecter avec d'autres développeurs.
 
 ### Q5 : Ai-je besoin d’une licence temporaire pour tester ?
 
- A5 : Si vous testez la bibliothèque, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Si vous testez la bibliothèque, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

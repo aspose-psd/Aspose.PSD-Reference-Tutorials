@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /cs/java/java-graphics-drawing/drawing-lines/
 ---
-## Úvod
+## Zavedení
 V oblasti vývoje Java je manipulace a vytváření souborů PSD (Photoshop Document) programově mocnou schopností. Aspose.PSD for Java umožňuje vývojářům provádět různé úkoly, jako je kreslení čar, tvarů a obrázků přímo v souborech PSD. Tento tutoriál vás provede procesem kreslení čar pomocí Aspose.PSD pro Java a poskytne jasné kroky a příklady, které vám pomohou rychle začít.
 ## Předpoklady
 Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující předpoklady:
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -68,10 +67,10 @@ Pomocí těchto kroků jste úspěšně nakreslili čáry v souboru PSD pomocí 
 ### Co je Aspose.PSD for Java?
 Aspose.PSD for Java je výkonná Java knihovna pro programovou práci se soubory PSD.
 ### Kde najdu dokumentaci k Aspose.PSD pro Javu?
- Dokumentaci najdete[tady](https://reference.aspose.com/psd/java/).
+ Dokumentaci najdete[zde](https://reference.aspose.com/psd/java/).
 ### Mohu vyzkoušet Aspose.PSD pro Javu před nákupem?
- Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 ### Jak získám technickou podporu pro Aspose.PSD pro Javu?
  Pro technickou podporu navštivte stránku[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 ### Kde mohu získat dočasnou licenci pro Aspose.PSD pro Java?
- Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

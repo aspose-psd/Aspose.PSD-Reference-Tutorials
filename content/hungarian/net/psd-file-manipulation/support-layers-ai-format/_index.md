@@ -15,7 +15,7 @@ Az Aspose.PSD for .NET egy hatékony könyvtár, amely lehetővé teszi a fejles
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következőkkel:
 1.  Aspose.PSD for .NET Library: Töltse le és telepítse a könyvtárat a[Aspose.PSD weboldal](https://releases.aspose.com/psd/net/).
 2. Fejlesztési környezet: Győződjön meg arról, hogy rendelkezik működő .NET fejlesztői környezettel, beleértve a Visual Studio-t is.
-3. AI-mintafájl: Töltse le a „form_8_2l3_7.ai” AI-mintafájlt innen[ez a link](Your-Download-Link).
+3. AI-mintafájl: Töltse le a „form_8_2l3_7.ai” AI-mintafájlt innen[ezt a linket](Your-Download-Link).
 ## Névterek importálása
 A kezdéshez importálja a szükséges névtereket a .NET-projektbe:
 ```csharp
@@ -40,7 +40,7 @@ Most vegyük ki az információkat az első rétegből:
 AiLayerSection layer0 = image.Layers[0];
 // A 0. rétegre vonatkozó állításai és érvényesítései itt találhatók
 ```
-## 3. lépés: Ellenőrizze a réteg tulajdonságait
+## 3. lépés: Érvényesítse a réteg tulajdonságait
 Ellenőrizze az első réteg különféle tulajdonságait, mint például a név, a láthatóság és a szín:
 ```csharp
 AssertIsTrue(layer0 != null, "Layer 0 should not be null.");
@@ -62,7 +62,7 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 Szükség szerint ismételje meg ezeket a lépéseket a többi rétegre is.
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan kell dolgozni a támogató rétegekkel AI formátumban az Aspose.PSD for .NET használatával. Fedezze fel a könyvtár kiterjedt szolgáltatásait és dokumentációját[itt](https://reference.aspose.com/psd/net/).
+Gratulálok! Sikeresen megtanulta, hogyan kell dolgozni a támogató rétegekkel AI formátumban az Aspose.PSD for .NET használatával. Fedezze fel a könyvtár kiterjedt szolgáltatásait és dokumentációját[itt](https://reference.aspose.com/psd/net/).
 
 ## GYIK
 

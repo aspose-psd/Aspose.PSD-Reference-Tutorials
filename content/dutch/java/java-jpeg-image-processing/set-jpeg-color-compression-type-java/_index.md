@@ -12,13 +12,12 @@ In het huidige digitale tijdperk is het beheren en manipuleren van afbeeldingen 
 ## Vereisten
 Voordat u in de code duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 1. Java Development Kit (JDK) op uw systeem geïnstalleerd.
-2.  Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[website](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[website](https://releases.aspose.com/psd/java/).
 3. Een basiskennis van Java-programmeren.
 ## Pakketten importeren
 Allereerst moet u de benodigde pakketten uit de Aspose.PSD-bibliotheek importeren. Deze import is cruciaal voor het verwerken van PSD-bestanden en het toepassen van de gewenste JPEG-instellingen.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

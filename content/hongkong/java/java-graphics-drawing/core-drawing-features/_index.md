@@ -25,7 +25,6 @@ url: /zh-hant/java/java-graphics-drawing/core-drawing-features/
 在開始編碼之前，匯入必要的套件以在 Java 應用程式中有效地使用 Aspose.PSD 類別和方法：
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```

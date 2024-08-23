@@ -61,7 +61,7 @@ image.Save(outputPsd);
 File.Delete(outputPsd);
 Console.WriteLine("SupportOfMlstResource executed successfully");
 ```
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να χειρίζεστε τους πόρους MLST στο Aspose.PSD για .NET. Αυτή η δυνατότητα παρέχει έναν ισχυρό μηχανισμό για τον χειρισμό των καταστάσεων των επιπέδων στα αρχεία του Photoshop μέσω προγραμματισμού.
 
@@ -77,7 +77,7 @@ A1: Ναι, το Aspose.PSD για .NET υποστηρίζει αρχεία PSD 
 
 ### Ε3: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.PSD για .NET;
 
-A3: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/net/).
+A3: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/net/).
 
 ### Ε4: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD για .NET;
 
@@ -85,4 +85,4 @@ A3: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://refer
 
 ### Ε5: Πώς μπορώ να αγοράσω άδεια χρήσης για το Aspose.PSD για .NET;
 
- A5: Μπορείτε να αγοράσετε μια άδεια.[εδώ](https://purchase.aspose.com/buy).
+ A5: Μπορείτε να αγοράσετε μια άδεια[εδώ](https://purchase.aspose.com/buy).

@@ -7,7 +7,7 @@ type: docs
 weight: 19
 url: /cs/java/advanced-techniques/synchronize-root/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem komplexním průvodci o synchronizaci kořenového adresáře pomocí Aspose.PSD pro Java. V tomto tutoriálu vás provedeme procesem synchronizace vašeho rootu pomocí výkonné knihovny Aspose.PSD. Ať už jste ostřílený vývojář nebo nováček v programování v Javě, tento podrobný průvodce vám zajistí, že tento koncept bez námahy pochopíte.
 
@@ -18,7 +18,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 - Základní znalost programování v Javě.
 - Java Development Kit (JDK) nainstalovaný na vašem počítači.
 - Integrované vývojové prostředí (IDE) jako IntelliJ IDEA nebo Eclipse.
--  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -64,7 +64,7 @@ finally
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak synchronizovat kořenový adresář pomocí Aspose.PSD pro Javu. Tento proces je zásadní pro zajištění bezpečných a efektivních operací streamování ve vašich aplikacích Java.
+Gratuluji! Úspěšně jste se naučili, jak synchronizovat kořenový adresář pomocí Aspose.PSD pro Javu. Tento proces je zásadní pro zajištění bezpečných a efektivních operací streamování ve vašich aplikacích Java.
 
 ## FAQ
 
@@ -74,16 +74,16 @@ Odpověď 1: Ano, Aspose.PSD for Java je kompatibilní s verzí Java 6 a vyšš�
 
 ### Q2: Mohu použít Aspose.PSD pro komerční projekty?
 
- A2: Ano, Aspose.PSD můžete použít pro osobní i komerční projekty. Podrobnosti o licencích naleznete na adrese[tady](https://purchase.aspose.com/buy).
+A2: Ano, Aspose.PSD můžete použít pro osobní i komerční projekty. Podrobnosti o licencích naleznete na adrese[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Kde najdu podporu pro Aspose.PSD?
 
- A3: Můžete získat podporu a zapojit se do komunity Aspose.PSD na[Fórum](https://forum.aspose.com/c/psd/34).
+ A3: Můžete získat podporu a zapojit se do komunity Aspose.PSD na[forum](https://forum.aspose.com/c/psd/34).
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- Odpověď 4: Ano, můžete navštívit bezplatnou zkušební verzi Aspose.PSD.[tady](https://releases.aspose.com/).
+ Odpověď 4: Ano, můžete navštívit bezplatnou zkušební verzi Aspose.PSD[zde](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A5: Chcete-li získat dočasnou licenci, navštivte[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Chcete-li získat dočasnou licenci, navštivte[zde](https://purchase.aspose.com/temporary-license/).

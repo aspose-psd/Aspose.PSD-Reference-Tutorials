@@ -7,8 +7,8 @@ type: docs
 weight: 19
 url: /cs/net/psd-file-manipulation/crop-psd-file/
 ---
-## Úvod
-oblasti vývoje .NET vyniká Aspose.PSD jako výkonná sada nástrojů pro bezproblémovou manipulaci se soubory PSD (Photoshop Document). Pokud jde o manipulaci s obrázky, oříznutí je základní operací a Aspose.PSD zjednodušuje tento proces pro vývojáře .NET. V tomto tutoriálu prozkoumáme, jak oříznout soubory PSD pomocí Aspose.PSD pro .NET, a poskytneme vám průvodce krok za krokem.
+## Zavedení
+V oblasti vývoje .NET vyniká Aspose.PSD jako výkonná sada nástrojů pro bezproblémovou manipulaci se soubory PSD (Photoshop Document). Pokud jde o manipulaci s obrázky, oříznutí je základní operací a Aspose.PSD zjednodušuje tento proces pro vývojáře .NET. V tomto tutoriálu prozkoumáme, jak oříznout soubory PSD pomocí Aspose.PSD pro .NET, a poskytneme vám průvodce krok za krokem.
 ## Předpoklady
 Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
 -  Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si jej stáhnout z[Aspose.PSD pro dokumentaci .NET](https://reference.aspose.com/psd/net/).
@@ -38,7 +38,7 @@ Implementujte správnou metodu oříznutí pro soubory PSD. Zadejte parametry o�
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Upravte hodnoty v konstruktoru Rectangle podle vašich požadavků na oříznutí.
+Upravte hodnoty v konstruktoru Obdélník podle vašich požadavků na oříznutí.
 ## Krok 5: Uložte oříznutý obrázek
 Uložte oříznutý obrázek ve formátu PSD i PNG:
 ```csharp
@@ -49,7 +49,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 ```
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak oříznout soubory PSD pomocí Aspose.PSD pro .NET. Tento jednoduchý, ale výkonný proces lze bez problémů integrovat do vašich aplikací .NET pro efektivní manipulaci s obrázky.
+Gratuluji! Úspěšně jste se naučili, jak oříznout soubory PSD pomocí Aspose.PSD pro .NET. Tento jednoduchý, ale výkonný proces lze bez problémů integrovat do vašich aplikací .NET pro efektivní manipulaci s obrázky.
 
 ## FAQ
 
@@ -59,11 +59,11 @@ Odpověď 1: Ano, Aspose.PSD je pravidelně aktualizován, aby byla zajištěna 
 
 ### Q2: Mohu použít Aspose.PSD pro komerční projekty?
 
- A2: Rozhodně! Aspose.PSD je k dispozici pro komerční použití. Můžete si jej zakoupit[tady](https://purchase.aspose.com/buy).
+ A2: Rozhodně! Aspose.PSD je k dispozici pro komerční použití. Můžete si jej zakoupit[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhnout to[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhněte si to[zde](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.PSD?
 
@@ -71,4 +71,4 @@ Odpověď 1: Ano, Aspose.PSD je pravidelně aktualizován, aby byla zajištěna 
 
 ### Q5: Potřebuji dočasnou licenci pro testovací účely?
 
- A5: Ano, pokud potřebujete dočasnou licenci, můžete ji získat[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, pokud potřebujete dočasnou licenci, můžete ji získat[zde](https://purchase.aspose.com/temporary-license/).

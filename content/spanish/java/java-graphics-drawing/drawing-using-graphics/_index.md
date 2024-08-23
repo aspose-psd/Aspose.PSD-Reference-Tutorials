@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -79,4 +78,4 @@ Por supuesto, Aspose.PSD está optimizado para el rendimiento y la eficiencia de
 ### ¿Aspose.PSD admite múltiples formatos de imagen para exportar?
 Sí, Aspose.PSD admite la exportación a varios formatos, como BMP, PNG, JPEG y TIFF.
 ### ¿Cómo puedo obtener soporte o asistencia si tengo problemas?
-Comuníquese con la comunidad Aspose.PSD en el[Foro de soporte](https://forum.aspose.com/c/psd/34) o considerar un[licencia temporal](https://purchase.aspose.com/temporary-license/) para apoyo prioritario.
+Comuníquese con la comunidad Aspose.PSD en el[foro de soporte](https://forum.aspose.com/c/psd/34) o considerar un[licencia temporal](https://purchase.aspose.com/temporary-license/) para apoyo prioritario.

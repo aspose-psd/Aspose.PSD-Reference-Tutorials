@@ -89,7 +89,7 @@ image.Save(outpath, saveOptions);
 
 ### Q1: 비상업적 프로젝트에서 .NET용 Aspose.PSD를 사용할 수 있습니까?
 
- A1: 예, .NET용 Aspose.PSD는 상업용 및 비상업적 프로젝트 모두에서 사용할 수 있습니다. 을 체크 해봐[라이선스 세부정보](https://purchase.aspose.com/buy) 자세한 내용은.
+ A1: 예, .NET용 Aspose.PSD는 상업용 및 비상업적 프로젝트 모두에서 사용할 수 있습니다. 확인해보세요[라이선스 세부정보](https://purchase.aspose.com/buy) 자세한 내용은
 
 ### Q2: 테스트 목적으로 임시 라이센스를 얻으려면 어떻게 해야 합니까?
 
@@ -101,7 +101,7 @@ A3: 물론이죠! Aspose.PSD for .NET은 .NET 환경의 이미지 처리 및 편
 
 ### Q4: .NET용 Aspose.PSD에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
 
- A4: Aspose.PSD 커뮤니티에 가입하세요.[이 포럼](https://forum.aspose.com/c/psd/34) 토론과 지원을 위해.
+A4: Aspose.PSD 커뮤니티에 가입하세요.[이 포럼](https://forum.aspose.com/c/psd/34) 토론과 지원을 위해.
 
 ### Q5: .NET용 Aspose.PSD를 학습할 수 있는 무료 리소스가 있습니까?
 

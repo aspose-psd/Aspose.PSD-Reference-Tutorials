@@ -96,7 +96,7 @@ Cevap1: Evet, Aspose.PSD çeşitli görüntü formatlarını destekleyerek JPEG,
 
 ### S3: Aspose.PSD for .NET için geçici lisansı nasıl edinebilirim?
 
- Cevap3: Test amacıyla geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap3: Test amacıyla geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S4: Aspose.PSD ile ilgili ek destek ve tartışmaları nerede bulabilirim?
 

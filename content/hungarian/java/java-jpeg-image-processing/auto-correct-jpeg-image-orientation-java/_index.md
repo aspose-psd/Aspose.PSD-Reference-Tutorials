@@ -20,7 +20,6 @@ Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy beáll
 Mielőtt elkezdené a példát, feltétlenül importálja a szükséges csomagokat az Aspose.PSD for Java fájlból:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

@@ -12,7 +12,7 @@ Libérez tout le potentiel d’Aspose.PSD pour .NET avec nos didacticiels et exe
 
 ## Élevez vos compétences en traitement d’image
 
-### [Traitement d'image](./image-processing/)
+### [Traitement d'images](./image-processing/)
 
 Améliorez sans effort la qualité de l'image avec les didacticiels Aspose.PSD pour .NET. Plongez dans des techniques telles que les filtres gaussiens et Wiener, la conversion des couleurs, la binarisation, etc. Transformez des images ordinaires en chefs-d'œuvre visuels époustouflants grâce à nos didacticiels détaillés.
 
@@ -26,7 +26,7 @@ Gérez facilement les couches de format AI à l’aide d’Aspose.PSD pour .NET.
 
 ### [Manipulation du texte et des polices](./text-and-font-manipulation/)
 
-Maximisez vos applications .NET avec les didacticiels Aspose.PSD pour .NET ! Explorez le rendu du texte dans des couleurs vives, en remplaçant de manière transparente les polices manquantes et en améliorant l'attrait visuel global de vos conceptions sans effort.
+Maximisez vos applications .NET avec les didacticiels Aspose.PSD pour .NET ! Découvrez le rendu du texte dans des couleurs vives, le remplacement transparent des polices manquantes et l'amélioration de l'attrait visuel global de vos créations sans effort.
 
 ## Sauvegarde et exportation de fichiers sans effort
 
@@ -78,7 +78,7 @@ Libérez tout le potentiel d’Aspose.PSD pour .NET avec nos tutoriels. Maîtris
 
 Intégrez Aspose.PSD pour .NET dans vos projets dès aujourd’hui et assistez à un voyage transformateur dans le traitement et la manipulation d’images. Élevez vos compétences, optimisez votre flux de travail et créez sans effort des applications visuellement époustouflantes. Plongez dans nos tutoriels maintenant !
 ## Tutoriels complets et exemples d'Aspose.PSD pour .NET 
-### [Traitement d'image](./image-processing/)
+### [Traitement d'images](./image-processing/)
 Améliorez sans effort la qualité de l'image avec les didacticiels Aspose.PSD pour .NET. Apprenez des techniques telles que les filtres gaussiens et Wiener, la conversion des couleurs, la binarisation, etc.
 ### [Manipulation de fichiers PSD](./psd-file-manipulation/)
 Gérez sans effort les couches de format AI avec Aspose.PSD pour .NET. Apprenez à exporter des images PSD au format GIF, à gérer les sections de données animées et à manipuler les états des calques. 

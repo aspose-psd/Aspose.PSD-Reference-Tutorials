@@ -19,7 +19,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 
 - Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw computer is geïnstalleerd.
 
--  Voorbeeld-PSD-bestand: bereid een voorbeeld-PSD-bestand voor dat u wilt roteren. Pas de .... aan`sourceFile` variabele in de voorbeeldcode met het pad naar uw PSD-bestand.
+-  Voorbeeld-PSD-bestand: bereid een voorbeeld-PSD-bestand voor dat u wilt roteren. Pas de aan`sourceFile` variabele in de voorbeeldcode met het pad naar uw PSD-bestand.
 
 ## Pakketten importeren
 
@@ -83,4 +83,4 @@ A2: Absoluut! Aspose.PSD biedt flexibiliteit voor het toepassen van aangepaste r
 
 ### Vraag 5: Hoe verkrijg ik een tijdelijke licentie?
 
- A5: Als u een tijdelijke licentie nodig heeft, kunt u er een verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Als u een tijdelijke licentie nodig heeft, kunt u er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).

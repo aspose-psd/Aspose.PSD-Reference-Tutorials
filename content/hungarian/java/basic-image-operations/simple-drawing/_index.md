@@ -16,7 +16,7 @@ url: /hu/java/basic-image-operations/simple-drawing/
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 
 - Java Development Kit (JDK) telepítve a gépére.
--  Aspose.PSD a Java könyvtárhoz. Letöltheti a[Aspose.PSD a Java dokumentációhoz](https://reference.aspose.com/psd/java/).
+- Aspose.PSD a Java könyvtárhoz. Letöltheti a[Aspose.PSD a Java dokumentációhoz](https://reference.aspose.com/psd/java/).
 
 ## Csomagok importálása
 
@@ -87,7 +87,7 @@ graphic.drawRectangle(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
 ```java
 //ExStart:DrawBlueRectangle
 graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10, 30, 80, 40));
-//ExEnd:Draw BlueTéglalap
+//ExEnd:DrawBlueRectangle
 ```
 
 ## 4. lépés: Mentse el a változtatásokat
@@ -102,7 +102,7 @@ image.save(outPsdFilePath);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen hajtott végre egyszerű rajzolást az Aspose.PSD for Java használatával. Ez az oktatóanyag új dokumentum létrehozását, rétegek hozzáadását és téglalapok különböző színekkel való rajzolását tárgyalta. Nyugodtan fedezze fel a könyvtár által kínált fejlettebb funkciókat grafikai tervezési igényeinek megfelelően.
+Gratulálok! Sikeresen hajtott végre egyszerű rajzolást az Aspose.PSD for Java használatával. Ez az oktatóanyag új dokumentum létrehozását, rétegek hozzáadását és téglalapok különböző színekkel való rajzolását tárgyalta. Nyugodtan fedezze fel a könyvtár által kínált fejlettebb funkciókat grafikai tervezési igényeinek megfelelően.
 
 ## GYIK
 
@@ -116,7 +116,7 @@ Gratulálunk! Sikeresen hajtott végre egyszerű rajzolást az Aspose.PSD for Ja
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan vásárolhatok licencet az Aspose.PSD for Java számára?
 
@@ -124,4 +124,4 @@ Gratulálunk! Sikeresen hajtott végre egyszerű rajzolást az Aspose.PSD for Ja
 
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek az Aspose.PSD for Java számára?
 
- V5: Igen, ideiglenes engedélyt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+ 5. válasz: Igen, ideiglenes engedélyt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).

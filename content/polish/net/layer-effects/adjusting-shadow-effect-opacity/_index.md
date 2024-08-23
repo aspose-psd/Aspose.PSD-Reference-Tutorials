@@ -92,11 +92,11 @@ O1: Nie, ten samouczek szczegółowo omawia dostosowywanie krycia efektu cienia 
 
 ### P2: Czy istnieją dodatkowe właściwości cienia, które można modyfikować?
 
-O2: Tak, Aspose.PSD dla .NET oferuje różne właściwości dostrajania efektów cieni.
+O2: Tak, Aspose.PSD dla .NET oferuje różne właściwości do dostrajania efektów cieni.
 
 ### P3: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
- A3: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A3: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P4: Czy Aspose.PSD dla .NET jest kompatybilny z .NET Core?
 

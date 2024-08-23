@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /it/net/image-manipulation/simple-resizing/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dinamico dello sviluppo .NET, la manipolazione delle immagini è una necessità comune. Aspose.PSD per .NET viene in soccorso con le sue potenti funzionalità, fornendo un'esperienza fluida per il ridimensionamento delle immagini. In questo tutorial, approfondiremo il processo semplice ma cruciale di ridimensionamento delle immagini utilizzando Aspose.PSD per .NET. Allacciate le cinture mentre intraprendiamo un viaggio per migliorare le vostre capacità di elaborazione delle immagini.
 

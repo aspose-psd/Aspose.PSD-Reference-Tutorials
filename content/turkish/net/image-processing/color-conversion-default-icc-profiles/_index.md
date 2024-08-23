@@ -96,7 +96,7 @@ Cevap3: Aspose.PSD kesinlikle görüntülerin toplu işlenmesi için etkili ara�
 
 ### S4: Aspose.PSD'yi ticari projeler için kullanabilir miyim?
 
- Cevap4: Evet, lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy) ticari kullanım için.
+ Cevap4: Evet, lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) ticari kullanım için.
 
 ### S5: Aspose.PSD for .NET için topluluk desteğini nerede bulabilirim?
 

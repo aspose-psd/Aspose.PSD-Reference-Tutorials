@@ -62,7 +62,7 @@ string destName = dataDir + @"SimpleResizing_out.jpg";
 image.Save(destName, new JpegOptions());
 ```
 
-És ez az! Sikeresen átméretezett egy képet az Aspose.PSD for .NET használatával.
+És ennyi! Sikeresen átméretezett egy képet az Aspose.PSD for .NET használatával.
 
 ## Következtetés
 

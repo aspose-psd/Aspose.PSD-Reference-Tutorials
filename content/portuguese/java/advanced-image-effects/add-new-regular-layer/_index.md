@@ -111,12 +111,12 @@ A2: Com certeza! Aspose.PSD oferece uma variedade de opções de transformação
 
 ### Q3: Onde posso encontrar documentação adicional do Aspose.PSD?
 
- A3: Você pode consultar a documentação.[aqui](https://reference.aspose.com/psd/java/).
+ A3: Você pode consultar a documentação[aqui](https://reference.aspose.com/psd/java/).
 
 ### Q4: Como posso obter uma licença temporária para Aspose.PSD?
 
- A4: Visita[esse link](https://purchase.aspose.com/temporary-license/) para opções de licença temporária.
+ A4: Visita[este link](https://purchase.aspose.com/temporary-license/) para opções de licença temporária.
 
 ### Q5: Existe algum fórum da comunidade para suporte do Aspose.PSD?
 
- A5: Sim, você pode encontrar suporte e discussões.[aqui](https://forum.aspose.com/c/psd/34).
+ A5: Sim, você pode encontrar suporte e discussões[aqui](https://forum.aspose.com/c/psd/34).

@@ -71,7 +71,7 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- تكوين`TiffOptions` لحفظ الصورة المعدلة. أضبط ال`bitsPerSample` و`photometric` خصائص بناء على احتياجاتك المحددة.
+ تكوين`TiffOptions` لحفظ الصورة المعدلة. ضبط`bitsPerSample` و`photometric` خصائص بناء على احتياجاتك المحددة.
 
 ## الخطوة 4: احفظ الصورة الناتجة
 

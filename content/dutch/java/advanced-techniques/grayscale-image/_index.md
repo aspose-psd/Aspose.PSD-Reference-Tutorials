@@ -87,7 +87,7 @@ Gefeliciteerd! U hebt een afbeelding met succes grijswaarden gemaakt met Aspose.
 
 ### V1: Kan ik Aspose.PSD voor Java gebruiken voor commerciële projecten?
 
-A1: Ja, Aspose.PSD voor Java is beschikbaar voor commercieel gebruik. U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+ A1: Ja, Aspose.PSD voor Java is beschikbaar voor commercieel gebruik. U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
 
 ### Vraag 2: Is er een gratis proefversie van Aspose.PSD voor Java?
 

@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 
 - Java fejlesztői környezet: Győződjön meg arról, hogy működő Java fejlesztői környezet van beállítva a gépén.
 
--  Aspose.PSD for Java Library: Töltse le a könyvtárat a[weboldal](https://releases.aspose.com/psd/java/) és kövesse a telepítési utasításokat.
+- Aspose.PSD for Java Library: Töltse le a könyvtárat a[weboldal](https://releases.aspose.com/psd/java/) és kövesse a telepítési utasításokat.
 
 - Dokumentumkönyvtár: Készítsen egy könyvtárat a PSD-fájlok tárolására, mivel különféle keverési módokkal fogunk dolgozni példa PSD-fájlok használatával.
 
@@ -58,7 +58,7 @@ Exportálja a betöltött PSD fájlokat PNG formátumba. Szükség szerint módo
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Mentés PNG-ként 100%-os átlátszatlansággal.
+// Mentés PNG-ként 100%-os átlátszatlansággal
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 // Állítsa az átlátszatlanságot 50%-ra
 im.getLayers()[1].setOpacity((byte)127);
 
-// Mentés PNG-ként 50%-os átlátszatlansággal.
+// Mentés PNG-ként 50%-os átlátszatlansággal
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

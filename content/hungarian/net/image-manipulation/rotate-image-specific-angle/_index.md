@@ -81,7 +81,7 @@ Mentse el az elforgatott képet a megadott opciókkal (ebben az esetben JPEG for
 
 ## Következtetés
 
- Gratulálunk! Sikeresen elforgatott egy képet egy adott szögben az Aspose.PSD for .NET használatával. Ez a könyvtár robusztus eszközkészletet biztosít a képkezeléshez, és ez az oktatóanyag csak a jéghegy csúcsa. Fedezze fel a[dokumentáció](https://reference.aspose.com/psd/net/) további funkciókért és lehetőségekért.
+ Gratulálok! Sikeresen elforgatott egy képet egy adott szögben az Aspose.PSD for .NET használatával. Ez a könyvtár robusztus eszközkészletet biztosít a képkezeléshez, és ez az oktatóanyag csak a jéghegy csúcsa. Fedezze fel a[dokumentáció](https://reference.aspose.com/psd/net/) további funkciókért és lehetőségekért.
 
 ## GYIK
 
@@ -103,4 +103,4 @@ A2: Abszolút! Az Aspose.PSD a formátumok széles skáláját támogatja, bele�
 
 ### 5. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
- A5: Természetesen! Fogd meg[ingyenes próbaverzió](https://releases.aspose.com/) hogy feltárja a könyvtár lehetőségeit.
+ A5: Természetesen! Fogd meg[ingyenes próbaverzió](https://releases.aspose.com/)hogy feltárja a könyvtár lehetőségeit.

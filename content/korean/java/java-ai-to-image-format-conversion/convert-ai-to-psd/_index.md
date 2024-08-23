@@ -15,12 +15,11 @@ Java를 사용하여 AI(Adobe Illustrator) 파일을 PSD(Adobe Photoshop) 파일
 2.  Java용 Aspose.PSD: 다음에서 Java용 Aspose.PSD 라이브러리를 다운로드하세요.[다운로드 페이지](https://releases.aspose.com/psd/java/).
 3. IDE(통합 개발 환경): Java 코드를 작성하고 실행하는 IntelliJ IDEA 또는 Eclipse와 같은 IDE입니다.
 4. AI 파일: 변환하려는 Adobe Illustrator 파일입니다.
-5. Aspose 임시 라이센스(선택 사항): 제한 없이 전체 기능을 사용하려면[임시면허](https://purchase.aspose.com/temporary-license/).
+5.  Aspose 임시 라이센스(선택 사항): 제한 없이 전체 기능을 사용하려면[임시면허](https://purchase.aspose.com/temporary-license/).
 ## 패키지 가져오기
 먼저 필요한 패키지를 가져와서 프로젝트를 설정해 보겠습니다. 프로젝트의 클래스 경로에 Java용 Aspose.PSD를 포함해야 합니다. 수행 방법은 다음과 같습니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -34,7 +33,7 @@ import com.aspose.psd.imageoptions.PsdOptions;
 ### Aspose.PSD 라이브러리 추가
 1. JAR 파일을 다운로드한 경우 프로젝트의 빌드 경로에 추가하세요.
 2.  Maven을 사용하는 경우 종속성이 올바르게 추가되었는지 확인하세요.`pom.xml`.
-## 2단계: AI 파일 로딩
+## 2단계: AI 파일 로드
 이제 프로젝트가 설정되었으므로 변환하려는 AI 파일을 로드해 보겠습니다.
 ```java
 String dataDir = "Your Document Directory"; 
@@ -46,8 +45,8 @@ AiImage image = (AiImage) Image.load(sourceFileName);
 ```java
 PsdOptions options = new PsdOptions();
 ```
-## 4단계: AI 파일을 PSD로 저장하기
-AI 파일이 로드되고 옵션이 설정되었으면 이제 PSD 파일로 저장할 수 있습니다.
+## 4단계: AI 파일을 PSD로 저장
+AI 파일이 로드되고 옵션이 설정되면 이제 PSD 파일로 저장할 수 있습니다.
 ```java
 String outFileName = dataDir + "34992OStroke.psd";
 image.save(outFileName, options);
@@ -60,7 +59,7 @@ Aspose.PSD for Java는 개발자가 Adobe Photoshop 없이도 Java 애플리케�
 ### Java용 Aspose.PSD를 무료로 사용할 수 있나요?
  Aspose.PSD for Java는 다음에서 다운로드할 수 있는 무료 평가판을 제공합니다.[무료 평가판 페이지](https://releases.aspose.com/) . 전체 기능을 사용하려면[특허](https://purchase.aspose.com/buy) 필요합니다.
 ### Java용 Aspose.PSD의 임시 라이센스를 얻으려면 어떻게 해야 합니까?
-임시면허를 취득할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+ 임시면허를 취득할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 ### PSD 파일을 다시 AI 파일로 변환할 수 있나요?
 현재 Java용 Aspose.PSD는 PSD 파일을 AI 파일로 다시 변환하는 것을 지원하지 않습니다. PSD 및 PSB 파일 처리에 중점을 둡니다.
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?

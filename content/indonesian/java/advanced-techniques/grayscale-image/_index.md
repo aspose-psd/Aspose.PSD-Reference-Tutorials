@@ -87,7 +87,7 @@ Selamat! Anda telah berhasil mengubah skala gambar menjadi abu-abu menggunakan A
 
 ### Q1: Dapatkah saya menggunakan Aspose.PSD untuk Java untuk proyek komersial?
 
-A1: Ya, Aspose.PSD untuk Java tersedia untuk penggunaan komersial. Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+ A1: Ya, Aspose.PSD untuk Java tersedia untuk penggunaan komersial. Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
 
 ### Q2: Apakah ada versi uji coba gratis Aspose.PSD untuk Java?
 
@@ -101,6 +101,6 @@ A1: Ya, Aspose.PSD untuk Java tersedia untuk penggunaan komersial. Anda dapat me
 
  A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Butuh dukungan atau ada pertanyaan?
+### Q5: Butuh dukungan atau punya pertanyaan?
 
  A5: Kunjungi forum Aspose.PSD[Di Sini](https://forum.aspose.com/c/psd/34).

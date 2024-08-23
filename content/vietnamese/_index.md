@@ -18,7 +18,7 @@ Khám phá thế giới năng động của Aspose.PSD cho .NET thông qua các 
 
 Đây là các liên kết đến một số tài nguyên hữu ích:
  
-- [Đang xử lý hình ảnh](./net/image-processing/)
+- [Xử lý hình ảnh](./net/image-processing/)
 - [Thao tác với tệp PSD](./net/psd-file-manipulation/)
 - [Thao tác văn bản và phông chữ](./net/text-and-font-manipulation/)
 - [Lưu và xuất tệp](./net/file-saving-and-exporting/)
@@ -38,9 +38,9 @@ Bắt tay vào hành trình sáng tạo với Aspose.PSD cho Java! Các hướng
 
 Đây là các liên kết đến một số tài nguyên hữu ích:
 
-- [Đang xử lý hình ảnh](./java/image-processing/)
+- [Xử lý hình ảnh](./java/image-processing/)
 - [Chuyển đổi PSD](./java/psd-conversion/)
-- [Kỹ thuật tiên tiến](./java/advanced-techniques/)
+- [Kỹ thuật nâng cao](./java/advanced-techniques/)
 - [Chỉnh sửa hình ảnh](./java/image-editing/)
 - [Thao tác hình ảnh nâng cao](./java/advanced-image-manipulation/)
 - [Các thao tác hình ảnh cơ bản](./java/basic-image-operations/)

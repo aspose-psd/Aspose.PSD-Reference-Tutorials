@@ -20,7 +20,6 @@ Koda dalmadan önce her şeyin doğru şekilde kurulduğundan emin olalım.
 Öncelikle gerekli paketleri Java projenize aktarmanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -38,7 +37,7 @@ PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
 Bu kod parçacığı, PSD görüntüsünü belirttiğiniz dizinden yükler.
 ## Adım 2: Görüntü Kaynaklarını Yineleyin
-Daha sonra, küçük resim kaynağını bulmak için görüntü kaynakları üzerinde yineleme yapmanız gerekir. EXIF verilerinin genellikle JPEG formatında saklandığı yer burasıdır.
+Daha sonra, küçük resim kaynağını bulmak için görüntü kaynakları üzerinde yineleme yapmanız gerekir. EXIF verilerinin genellikle JPEG formatında depolandığı yer burasıdır.
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     // Küçük resim kaynaklarını kontrol edin
@@ -52,7 +51,7 @@ if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageR
 }
 ```
 ## Adım 4: EXIF Verilerini Çıkarın ve Yazdırın
-Küçük resim kaynağını belirledikten sonraki adım, EXIF verisini çıkarmak ve konsola yazdırmaktır.
+Küçük resim kaynağını tanımladıktan sonraki adım, EXIF verilerini çıkarmak ve konsola yazdırmaktır.
 ```java
 JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
 if (exif != null) {
@@ -60,7 +59,7 @@ if (exif != null) {
 }
 ```
 ## Adım 5: EXIF Verilerini Değiştirin
-Şimdi işin eğlenceli kısmı geliyor – EXIF verilerini değiştirmek. LensMake, WhiteBalance ve Flash bilgilerini şu şekilde ayarlayabilirsiniz.
+Şimdi işin eğlenceli kısmı geliyor; EXIF verilerini değiştirme. LensMake, WhiteBalance ve Flash bilgilerini şu şekilde ayarlayabilirsiniz.
 ```java
 exif.setLensMake("Sony");
 exif.setWhiteBalance(ExifWhiteBalance.Auto);
@@ -72,7 +71,7 @@ Gerekli değişiklikleri yaptıktan sonra değişiklikleri uygulamak için resmi
 image.save(dataDir + "Modified_Zebras_Serengeti.psd");
 ```
 ## Çözüm
-İşte buyur! Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki EXIF verilerini nasıl yazacağınızı ve değiştireceğinizi başarıyla öğrendiniz. Bu güçlü kitaplık, karmaşık görüntü formatlarıyla çalışmayı basitleştirerek onu grafik dosyalarıyla çalışan geliştiriciler için değerli bir araç haline getirir. 
+Ve işte karşınızda! Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki EXIF verilerini nasıl yazacağınızı ve değiştireceğinizi başarıyla öğrendiniz. Bu güçlü kitaplık, karmaşık görüntü formatlarıyla çalışmayı basitleştirerek onu grafik dosyalarıyla çalışan geliştiriciler için değerli bir araç haline getirir. 
  Daha ayrıntılı bilgi için şuraya göz atın:[Aspose.PSD Belgeleri](https://reference.aspose.com/psd/java/) . Herhangi bir sorunla karşılaşırsanız,[Destek Forumu](https://forum.aspose.com/c/psd/34) yardım almak için harika bir yerdir. Keşfetmeyi unutmayın[ücretsiz deneme](https://releases.aspose.com/) ve bir lisans satın almayı düşünün[Burada](https://purchase.aspose.com/buy) tüm özellikler için.
 ## SSS'ler
 ### EXIF verileri nedir?

@@ -19,7 +19,7 @@ url: /th/java/advanced-techniques/add-effects-runtime/
 
 2.  Aspose.PSD สำหรับไลบรารี Java: คุณต้องมี Aspose.PSD สำหรับไลบรารี Java หากยังไม่มี ให้ดาวน์โหลดจาก[เอกสาร Java ของ Aspose.PSD](https://reference.aspose.com/psd/java/).
 
-3. ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีสำหรับเอกสารของคุณและจดจำเส้นทาง ในตัวอย่างที่ให้มา ไดเร็กทอรีจะเรียกว่า`Your Document Directory`.
+3.  ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีสำหรับเอกสารของคุณและจดจำเส้นทาง ในตัวอย่างที่ให้มา ไดเร็กทอรีจะเรียกว่า`Your Document Directory`.
 
 ## แพ็คเกจนำเข้า
 

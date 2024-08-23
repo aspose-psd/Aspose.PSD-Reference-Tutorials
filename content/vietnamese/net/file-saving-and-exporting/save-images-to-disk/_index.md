@@ -85,8 +85,8 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 
 ### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời?
 
- A4: Bạn có thể có được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET ở đâu?
 
- Câu trả lời 5: Bạn có thể mua Aspose.PSD cho .NET.[đây](https://purchase.aspose.com/buy).
+ Câu trả lời 5: Bạn có thể mua Aspose.PSD cho .NET[đây](https://purchase.aspose.com/buy).

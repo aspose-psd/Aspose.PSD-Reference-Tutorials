@@ -48,7 +48,7 @@ Libere el potencial del ajuste de imágenes con Aspose.PSD para .NET. Explore tu
 
 ## Mejore sus técnicas de manipulación de imágenes
 
-### [Manipulación de imagen](./image-manipulation/)
+### [Manipulación de imágenes](./image-manipulation/)
 
 ¡Mejore sus proyectos .NET con Aspose.PSD! Aprenda técnicas de manipulación de imágenes como combinar, recortar, cambiar el tamaño, rotar y agregar efectos sin esfuerzo. Mejore sus capacidades creativas con nuestros completos tutoriales.
 
@@ -90,7 +90,7 @@ Domine el guardado y exportación de imágenes sin esfuerzo con Aspose.PSD para 
 Libere el potencial del ajuste de imágenes con Aspose.PSD para .NET. Explore tutoriales sobre brillo, contraste y equilibrio de color para dominar la manipulación de imágenes.
 ### [Efectos de imagen](./image-effects/)
 ¡Descubre la magia de los efectos de capa con Aspose.PSD para .NET! Mejore sus habilidades de manipulación de imágenes aprendiendo a agregar modos de trazo, sombra y fusión.
-### [Manipulación de imagen](./image-manipulation/)
+### [Manipulación de imágenes](./image-manipulation/)
 ¡Mejore sus proyectos .NET con Aspose.PSD! Aprenda técnicas de manipulación de imágenes como combinar, recortar, cambiar el tamaño, rotar y agregar efectos sin esfuerzo.
 ### [Manejo de archivos y fuentes](./file-and-font-handling/)
 Mejore su desarrollo .NET con los tutoriales de Aspose.PSD. Aprenda a reemplazar fuentes, crear metadatos XMP y administrar caché para lograr una eficiencia óptima del flujo de trabajo.

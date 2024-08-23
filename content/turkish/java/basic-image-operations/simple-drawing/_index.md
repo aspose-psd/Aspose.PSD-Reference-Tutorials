@@ -16,7 +16,7 @@ Aspose.PSD for Java kullanarak basit çizim yapmayı anlatan bu adım adım kıl
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
 - Makinenizde Java Geliştirme Kiti (JDK) yüklü.
--  Java kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[Java Belgelendirmesi için Aspose.PSD](https://reference.aspose.com/psd/java/).
+- Java kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[Java Belgelendirmesi için Aspose.PSD](https://reference.aspose.com/psd/java/).
 
 ## Paketleri İçe Aktar
 
@@ -50,7 +50,7 @@ PsdImage image = new PsdImage(width, height);
 
 ## 2. Adım: Katman Ekleme
 
-Şimdi argümansız yapıcıyı kullanarak belgeye bir katman ekleyelim:
+Şimdi bağımsız değişken içermeyen yapıcıyı kullanarak belgeye bir katman ekleyelim:
 
 ```java
 //ExStart:Katman Ekle
@@ -87,7 +87,7 @@ graphic.drawRectangle(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
 ```java
 //ExStart:DrawBlueRectangle
 graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10, 30, 80, 40));
-//ExEnd:DrawBlueRectangle
+//ExEnd:DrawBlueDikdörtgen
 ```
 
 ## 4. Adım: Değişiklikleri Kaydedin
@@ -116,7 +116,7 @@ Cevap1: Evet, Aspose.PSD for Java, mevcut PSD dosyalarını düzenlemek ve deği
 
 ### S3: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- Cevap3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for Java lisansını nasıl satın alabilirim?
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/net/file-saving-and-exporting/save-images-to-disk/
 ---
-## Úvod
+## Zavedení
 
 V dynamickém světě vývoje .NET vyniká Aspose.PSD jako robustní řešení pro bezproblémovou manipulaci s obrázky PSD. Tento tutoriál vás provede procesem ukládání obrázků na disk pomocí Aspose.PSD pro .NET. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu kódování, tento podrobný průvodce vám pomůže efektivně využít sílu Aspose.PSD.
 
@@ -17,7 +17,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 ### Nainstalujte Aspose.PSD pro .NET
 
- Ujistěte se, že máte ve svém vývojovém prostředí nainstalovaný Aspose.PSD for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+ Ujistěte se, že máte ve svém vývojovém prostředí nainstalovaný Aspose.PSD for .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 ## Importovat jmenné prostory
 
@@ -48,7 +48,7 @@ string sourceFile = dataDir + @"sample.psd";
 string destName = dataDir + "result.png";
 ```
 
- Tady,`sourceFile` je cesta k souboru PSD, který chcete zpracovat, a`destName` je cílová cesta pro výsledný obrázek.
+ Zde,`sourceFile` je cesta k souboru PSD, který chcete zpracovat, a`destName` je cílová cesta pro výsledný obrázek.
 
 ## Krok 3: Načtěte a uložte obrázek
 
@@ -63,7 +63,7 @@ using (Image image = Image.Load(sourceFile))
 
 Tento fragment kódu načte obrázek PSD, převede jej do formátu PNG a uloží jej do určeného cíle.
 
- Gratulujeme! Úspěšně jste uložili obrázek na disk pomocí Aspose.PSD pro .NET. Tento tutoriál poskytuje základní pochopení procesu, ale v rozsáhlé dokumentaci je toho k prozkoumání mnohem více[tady](https://reference.aspose.com/psd/net/).
+ Gratuluji! Úspěšně jste uložili obrázek na disk pomocí Aspose.PSD pro .NET. Tento tutoriál poskytuje základní pochopení procesu, ale v rozsáhlé dokumentaci je toho k prozkoumání mnohem více[zde](https://reference.aspose.com/psd/net/).
 
 ## Závěr
 
@@ -77,16 +77,16 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků, což zajišť
 
 ### Q2: Je k dispozici zkušební verze?
 
- A2: Určitě! Můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A2: Určitě! Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu podporu pro Aspose.PSD pro .NET?
 
- A3: Navštivte fórum podpory[tady](https://forum.aspose.com/c/psd/34) pro jakoukoli pomoc nebo dotazy.
+ A3: Navštivte fórum podpory[zde](https://forum.aspose.com/c/psd/34) pro jakoukoli pomoc nebo dotazy.
 
 ### Q4: Jak získám dočasnou licenci?
 
- A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde mohu zakoupit Aspose.PSD pro .NET?
 
- A5: Můžete si koupit Aspose.PSD pro .NET.[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit Aspose.PSD pro .NET[zde](https://purchase.aspose.com/buy).

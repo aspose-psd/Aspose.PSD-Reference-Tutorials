@@ -9,7 +9,7 @@ url: /tr/java/advanced-techniques/save-images-worker-threads/
 ---
 ## giriiş
 
-Java'da görüntü işleme becerilerinizi geliştirmeye hazır mısınız? Aspose.PSD for Java'dan başka bir yere bakmayın. Bu eğitimde, optimum performans ve verimlilik sağlamak üzere, çalışan iş parçacıklarını kullanarak görüntüleri kaydetme sürecinde size rehberlik edeceğiz. Aspose.PSD ile çok iş parçacıklı görüntü işleme dünyasına dalalım!
+Java'da görüntü işleme yeteneklerinizi geliştirmeye hazır mısınız? Aspose.PSD for Java'dan başka bir yere bakmayın. Bu eğitimde, optimum performans ve verimlilik sağlamak üzere, çalışan iş parçacıklarını kullanarak görüntüleri kaydetme sürecinde size rehberlik edeceğiz. Aspose.PSD ile çok iş parçacıklı görüntü işleme dünyasına dalalım!
 
 ## Önkoşullar
 
@@ -42,7 +42,7 @@ import java.util.Date;
 
 ```java
 public class SaveImageWorker {
-    // ... (Değişken bildirimleri için sağlanan koda bakın)
+    //... (Değişken bildirimleri için sağlanan koda bakın)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Oluşturucu mantığı
@@ -106,11 +106,11 @@ Cevap1: Evet, Aspose.PSD for Java, çoklu iş parçacığı desteği sağlayarak
 
 ### S2: Aspose.PSD for Java'nın ayrıntılı belgelerini nerede bulabilirim?
 
- A2: Belgelere başvurabilirsiniz.[Burada](https://reference.aspose.com/psd/java/) Aspose.PSD for Java hakkında kapsamlı bilgi için.
+A2: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/psd/java/) Aspose.PSD for Java hakkında kapsamlı bilgi için.
 
 ### S3: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
 
- Cevap3: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'nın tüm özelliklerini keşfetmek için.
+ Cevap3: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'nın tüm özelliklerini keşfetmek için.
 
 ### S4: Aspose.PSD for Java için hangi destek seçenekleri mevcut?
 

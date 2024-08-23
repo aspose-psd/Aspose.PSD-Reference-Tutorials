@@ -65,7 +65,7 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 ```
 ## Conclusion
 
-Toutes nos félicitations! Vous maîtrisez avec succès l’utilisation de « WorkingPathResource » dans Aspose.PSD pour .NET. Cette fonctionnalité élève vos capacités de traitement d’image, garantissant précision et efficacité dans vos projets.
+Félicitations! Vous maîtrisez avec succès l’utilisation de « WorkingPathResource » dans Aspose.PSD pour .NET. Cette fonctionnalité élève vos capacités de traitement d’image, garantissant précision et efficacité dans vos projets.
 
 ## FAQ
 
@@ -79,7 +79,7 @@ Toutes nos félicitations! Vous maîtrisez avec succès l’utilisation de « Wo
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je obtenir de l'assistance pour Aspose.PSD pour .NET ?
 
@@ -87,4 +87,4 @@ Toutes nos félicitations! Vous maîtrisez avec succès l’utilisation de « Wo
 
 ### Q5 : Besoin d'un permis temporaire ?
 
- A5 : Obtenez un permis temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).

@@ -70,7 +70,7 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
 
 ## Steg 3: Ändra inställningar för övertoning
 
-Justera övertoningsöverlagringsinställningarna enligt dina preferenser:
+Justera inställningarna för gradientöverlagring enligt dina preferenser:
 
 ```csharp
 // Testredigering

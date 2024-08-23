@@ -9,7 +9,7 @@ url: /hu/java/advanced-techniques/add-effects-runtime/
 ---
 ## Bevezetés
 
-A Java fejlesztés világában általános követelmény a dinamikus effektusok hozzáadása a képekhez. Az Aspose.PSD for Java segítségével, amely egy nagy teljesítményű és sokoldalú Java-könyvtár, futás közben könnyedén hozzáadhat effektusokat a képek javításához. Ebben az oktatóanyagban világos példák és könnyen követhető utasítások segítségével lépésről lépésre végigvezetjük az effektusok hozzáadásának folyamatán.
+Java fejlesztés világában általános követelmény a dinamikus effektusok hozzáadása a képekhez. Az Aspose.PSD for Java segítségével, amely egy nagy teljesítményű és sokoldalú Java-könyvtár, futás közben könnyedén hozzáadhat effektusokat a képek javításához. Ebben az oktatóanyagban világos példák és könnyen követhető utasítások segítségével lépésről lépésre végigvezetjük az effektusok hozzáadásának folyamatán.
 
 ## Előfeltételek
 
@@ -19,7 +19,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 
 2.  Aspose.PSD for Java Library: rendelkeznie kell az Aspose.PSD for Java könyvtárral. Ha még nem tette meg, töltse le a[Aspose.PSD Java dokumentáció](https://reference.aspose.com/psd/java/).
 
-3. Dokumentumkönyvtár: Állítson be egy könyvtárat a dokumentumok számára, és emlékezzen az elérési útra. A bemutatott példában a könyvtár neve`Your Document Directory`.
+3.  Dokumentumkönyvtár: Állítson be egy könyvtárat a dokumentumok számára, és emlékezzen az elérési útra. A bemutatott példában a könyvtár neve`Your Document Directory`.
 
 ## Csomagok importálása
 
@@ -68,7 +68,7 @@ Végül mentse a módosított képet az alkalmazott effektusokkal egy új fájlb
 im.save(exportPath);
 ```
 
-Gratulálunk! Futás közben sikeresen hozzáadta az effektusokat az Aspose.PSD for Java használatával.
+Gratulálok! Futás közben sikeresen hozzáadta az effektusokat az Aspose.PSD for Java használatával.
 
 ## Következtetés
 
@@ -90,8 +90,8 @@ Az Aspose.PSD for Java leegyszerűsíti a dinamikus effektusok képeinek hozzáa
 
 ### 4. kérdés: Hol kérhetek segítséget az Aspose.PSD-vel kapcsolatos kérdésekben vagy kérdésekben?
 
- 4. válasz: Látogassa meg az Aspose.PSD-t[támogatói fórum](https://forum.aspose.com/c/psd/34) segítséget kapni és kapcsolatba lépni a közösséggel.
+ 4. válasz: Látogassa meg az Aspose.PSD-t[támogatási fórum](https://forum.aspose.com/c/psd/34) segítséget kapni és kapcsolatba lépni a közösséggel.
 
 ### 5. kérdés: Elérhető az Aspose.PSD for Java ingyenes próbaverziója?
 
- 5. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).

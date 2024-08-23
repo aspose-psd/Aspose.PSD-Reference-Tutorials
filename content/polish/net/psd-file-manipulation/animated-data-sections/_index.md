@@ -12,7 +12,7 @@ Witamy w naszym obszernym przewodniku na temat obsługi animowanych sekcji danyc
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 - Podstawowa znajomość programowania w C# i .NET.
-- Zainstalowano Aspose.PSD dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/psd/net/).
+-  Zainstalowano Aspose.PSD dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/psd/net/).
 - Edytor kodu, taki jak Visual Studio, zapewniający bezproblemową implementację.
 ## Importuj przestrzenie nazw
 Upewnij się, że w kodzie C# zaimportowałeś przestrzenie nazw niezbędne do pracy z Aspose.PSD:
@@ -84,7 +84,7 @@ Console.WriteLine("SupportOfAnimatedDataSection executed successfully");
 Informuje to użytkownika, że wykonanie zakończyło się pomyślnie.
 ## Wniosek
 
-Gratulacje! Pomyślnie nauczyłeś się obsługiwać animowane sekcje danych w Aspose.PSD dla .NET. Ta umiejętność może być nieoceniona przy tworzeniu dynamicznych i angażujących obrazów PSD z precyzyjną kontrolą nad animacją.
+Gratulacje! Pomyślnie nauczyłeś się obsługiwać animowane sekcje danych w Aspose.PSD dla .NET. Ta umiejętność może być nieoceniona przy tworzeniu dynamicznych i angażujących obrazów PSD z precyzyjną kontrolą animacji.
 
 ## Często zadawane pytania
 

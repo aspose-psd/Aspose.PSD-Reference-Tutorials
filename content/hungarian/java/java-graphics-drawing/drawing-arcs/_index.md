@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ Ezek a csomagok hozzáférést biztosítanak az ívek rajzolásához és a képe
 ## 1. lépés: Állítsa be Java projektjét
 Először hozzon létre egy új Java-projektet az IDE-ben (Integrated Development Environment), és importálja az Aspose.PSD for Java könyvtárat. Győződjön meg arról, hogy a könyvtárra megfelelően hivatkozik a projekt összeállítási útvonala.
 ## 2. lépés: Inicializálja a kép- és grafikai objektumokat
- Hozzon létre egy példányt a`PsdImage` és`Graphics` valakivel együtt dolgozni:
+ Hozzon létre egy példányt a`PsdImage` és`Graphics` dolgozni:
 ```java
 String dataDir = "Your Document Directory";
 // Inicializálja a PsdImage objektumot
@@ -74,4 +73,4 @@ Természetesen az Aspose.PSD kiterjedt funkciókat kínál a PSD-fájlok kezelé
 ### Az Aspose.PSD támogatja a BMP-től eltérő formátumokba való exportálást?
 Igen, az Aspose.PSD támogatja az exportálást számos formátumba, többek között PNG, JPEG, TIFF és GIF formátumba.
 ### Hol találok további támogatást és forrásokat az Aspose.PSD-hez?
- Meglátogatni a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) közösségi támogatásért, dokumentációért és frissítésekért.
+ Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) közösségi támogatásért, dokumentációért és frissítésekért.

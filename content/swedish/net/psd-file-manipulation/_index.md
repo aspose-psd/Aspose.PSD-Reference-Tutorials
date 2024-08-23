@@ -74,6 +74,6 @@ Lär dig att hantera tidslinjer för PSD-bilder utan ansträngning med Aspose.PS
 ### [Beskär PSD-filer vid konvertering till PNG i Aspose.PSD för .NET](./crop-psd-conversion-png/)
 Lär dig hur du beskär PSD-filer utan ansträngning med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för sömlös konvertering till PNG.
 ### [Beskär PSD-filer med Aspose.PSD för .NET](./crop-psd-file/)
-Utforska konsten att beskära PSD-filer i .NET med Aspose.PSD, en mångsidig verktygslåda. Lyft upp ditt bildmanipuleringsspel utan ansträngning.
+Utforska konsten att beskära PSD-filer i .NET med Aspose.PSD, en mångsidig verktygslåda. Höj ditt bildmanipuleringsspel utan ansträngning.
 ### [Exportera bilder i flertrådig miljö med Aspose.PSD för .NET](./export-images-multi-thread/)
 Förbättra .NET-bildbehandling med Aspose.PSD: Exportera bilder i en flertrådig miljö. Öka prestanda och effektivitet utan ansträngning.

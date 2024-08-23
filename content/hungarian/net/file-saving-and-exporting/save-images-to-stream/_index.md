@@ -68,7 +68,7 @@ using (Image image = Image.Load(sourceFile))
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan menthet képeket adatfolyamba az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazások képkezelésére.
+Gratulálok! Sikeresen megtanulta, hogyan menthet képeket adatfolyamba az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazások képkezelésére.
 
 ## GYIK
 
@@ -82,11 +82,11 @@ Gratulálunk! Sikeresen megtanulta, hogyan menthet képeket adatfolyamba az Aspo
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- V3: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/)hogy vásárlás előtt fedezze fel az Aspose.PSD funkcióit.
+ V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/)hogy vásárlás előtt fedezze fel az Aspose.PSD funkcióit.
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
- V4: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+ V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
 
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.PSD-t?
 

@@ -16,7 +16,7 @@ Welkom bij deze stapsgewijze handleiding voor het uitvoeren van eenvoudige teken
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Java Development Kit (JDK) op uw computer geïnstalleerd.
--  Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[Aspose.PSD voor Java-documentatie](https://reference.aspose.com/psd/java/).
+- Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[Aspose.PSD voor Java-documentatie](https://reference.aspose.com/psd/java/).
 
 ## Pakketten importeren
 
@@ -116,7 +116,7 @@ A1: Ja, Aspose.PSD voor Java biedt uitgebreide functionaliteit voor het bewerken
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A3: Ja, u heeft toegang tot de gratis proefversie.[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefversie[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik een licentie kopen voor Aspose.PSD voor Java?
 

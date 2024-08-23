@@ -12,7 +12,7 @@ Buka potensi penuh Aspose.PSD untuk .NET dengan tutorial dan contoh komprehensif
 
 ## Tingkatkan Keterampilan Pemrosesan Gambar Anda
 
-### [Pengolahan citra](./image-processing/)
+### [Pemrosesan Gambar](./image-processing/)
 
 Tingkatkan kualitas gambar dengan mudah menggunakan Aspose.PSD untuk tutorial .NET. Selami teknik seperti filter Gaussian dan Wiener, konversi warna, binarisasi, dan banyak lagi. Ubah gambar biasa menjadi mahakarya visual menakjubkan dengan tutorial mendetail kami.
 
@@ -26,7 +26,7 @@ Tangani lapisan format AI dengan mudah menggunakan Aspose.PSD untuk .NET. Pelaja
 
 ### [Manipulasi Teks dan Font](./text-and-font-manipulation/)
 
-Maksimalkan aplikasi .NET Anda dengan Aspose.PSD untuk tutorial .NET! Jelajahi rendering teks dalam warna-warna cerah, mengganti font yang hilang dengan mulus, dan meningkatkan daya tarik visual desain Anda secara keseluruhan dengan mudah.
+Maksimalkan aplikasi .NET Anda dengan Aspose.PSD untuk tutorial .NET! Jelajahi rendering teks dalam warna-warna cerah, ganti font yang hilang dengan mulus, dan tingkatkan keseluruhan daya tarik visual desain Anda dengan mudah.
 
 ## Menyimpan dan Mengekspor File dengan Mudah
 
@@ -78,7 +78,7 @@ Buka potensi penuh Aspose.PSD untuk .NET dengan tutorial kami. Kuasai warna lata
 
 Gabungkan Aspose.PSD untuk .NET ke dalam proyek Anda hari ini dan saksikan perjalanan transformatif dalam pemrosesan dan manipulasi gambar. Tingkatkan keahlian Anda, optimalkan alur kerja Anda, dan buat aplikasi visual yang menakjubkan dengan mudah. Selami tutorial kami sekarang!
 ## Tutorial Komprehensif dan Contoh Aspose.PSD untuk .NET 
-### [Pengolahan citra](./image-processing/)
+### [Pemrosesan Gambar](./image-processing/)
 Tingkatkan kualitas gambar dengan mudah menggunakan Aspose.PSD untuk tutorial .NET. Pelajari teknik seperti filter Gaussian dan Wiener, konversi warna, binerisasi, dan banyak lagi.
 ### [Manipulasi File PSD](./psd-file-manipulation/)
 Tangani lapisan format AI dengan mudah dengan Aspose.PSD untuk .NET. Pelajari cara mengekspor gambar PSD ke GIF, menangani bagian data animasi, dan memanipulasi status lapisan. 

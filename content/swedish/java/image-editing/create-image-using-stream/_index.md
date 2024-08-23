@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Skapa en instans av`Image` genom att bjuda in`create` metod, passerar den konfigurerade`BmpOptions` och specificera bildens mått.
+ Skapa en instans av`Image` genom att åberopa`create` metod, passerar den konfigurerade`BmpOptions` och specificera bildens mått.
 
 ## Steg 6: Bildbehandling
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt lärt dig hur du skapar bilder med stream i Aspose.PSD för Java. Denna handledning täcker viktiga steg, från import av paket till den slutliga bildbehandlingen och sparandet. Experimentera med olika inställningar och utforska ytterligare funktioner för att förbättra din bildskapande förmåga.
+Grattis! Du har framgångsrikt lärt dig hur du skapar bilder med stream i Aspose.PSD för Java. Denna handledning täckte viktiga steg, från import av paket till den slutliga bildbehandlingen och sparandet. Experimentera med olika inställningar och utforska ytterligare funktioner för att förbättra din bildskapande förmåga.
 
 ## FAQ's
 
@@ -105,11 +105,11 @@ S1: Ja, Aspose.PSD är designad för att sömlöst integreras med andra Java-bib
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD?
 
- S3: Ja, du kan få tillgång till en gratis provperiod.[här](https://releases.aspose.com/).
+ S3: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Hur får jag en tillfällig licens för Aspose.PSD?
 
- A4: Skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A4: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Vilka är systemkraven för Aspose.PSD?
 

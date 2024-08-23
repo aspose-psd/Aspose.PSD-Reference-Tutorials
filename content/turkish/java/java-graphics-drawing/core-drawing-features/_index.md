@@ -25,7 +25,6 @@ Artık her şeyi ayarladığınıza göre, Aspose.PSD for Java'nın temel çizim
 Kodlamaya başlamadan önce Aspose.PSD sınıflarını ve yöntemlerini Java uygulamanızda etkili bir şekilde kullanmak için gerekli paketleri içe aktarın:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Adım 2: Pikselleri Yönetin
 Görüntü yüklendikten sonra piksellerini değiştirebilirsiniz. Pikselleri şu şekilde yükleyebilir ve değiştirebilirsiniz:
 ```java
-// Belirli bir bölgenin piksellerini yükleyin (örneğin, sol üst köşeden başlayan 100x10 boyutunda bir dikdörtgen)
+//Belirli bir bölgenin piksellerini yükleyin (örneğin, sol üst köşeden başlayan 100x10 boyutunda bir dikdörtgen)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Pikselleri değiştirin (örneğin, degrade efekti uygulayın)
 for (int i = 0; i < pixels.length; i++) {

@@ -23,7 +23,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 
 ## Névterek importálása
 
-Ebben a részben importáljuk a szükséges névtereket az Outer Glow Effect megvalósításának elindításához. Kovesd ezeket a lepeseket:
+Ebben a részben importáljuk a szükséges névtereket az Outer Glow Effect megvalósításának elindításához. Kövesse az alábbi lépéseket:
 
 ```csharp
 using System;
@@ -91,7 +91,7 @@ Console.WriteLine("SupportOfOuterGlowEffect executed successfully");
 
 ## Következtetés
 
-Gratulálunk! Sikeresen implementálta az Outer Glow Effect-et az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű funkció fokozza a képek vizuális vonzerejét, egyedi megjelenést biztosítva a terveknek.
+Gratulálok! Sikeresen implementálta az Outer Glow Effect-et az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű funkció fokozza a képek vizuális vonzerejét, egyedi megjelenést biztosítva a terveknek.
 
 ## GYIK
 
@@ -113,4 +113,4 @@ Gratulálunk! Sikeresen implementálta az Outer Glow Effect-et az Aspose.PSD for
 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t .NET-hez?
 
- 5. válasz: Igen, fedezze fel a licencelési lehetőségeket, és vásároljon.[itt](https://purchase.aspose.com/buy).
+ 5. válasz: Igen, fedezze fel a licencelési lehetőségeket, és vásároljon[itt](https://purchase.aspose.com/buy).

@@ -15,7 +15,7 @@ A mai oktatóanyagban az Aspose.PSD for Java segítségével történő egyszer�
 
 Mielőtt nekivágnánk a képméretezésnek az Aspose.PSD segítségével, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. A legújabb verziót letöltheti a[Java weboldal](https://www.oracle.com/java/).
+1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. A legújabb verziót letöltheti a[Java weboldal](https://www.oracle.com/java/).
 
 2.  Aspose.PSD for Java: Töltse le és telepítse az Aspose.PSD könyvtárat. A szükséges csomagokat megtalálja a[Aspose.PSD for Java letöltési oldal](https://releases.aspose.com/psd/java/).
 
@@ -74,7 +74,7 @@ Mentse az átméretezett képet a megadott célútvonal és a JpegOptions haszn�
 image.save(destName, new JpegOptions());
 ```
 
-Gratulálunk! Sikeresen átméretezett egy képet az Aspose.PSD for Java használatával. Nyugodtan kísérletezzen a különböző méretekkel, hogy megfeleljen igényeinek.
+Gratulálok! Sikeresen átméretezett egy képet az Aspose.PSD for Java használatával. Nyugodtan kísérletezzen a különböző méretekkel, hogy megfeleljen igényeinek.
 
 ## Következtetés
 
@@ -96,7 +96,7 @@ A1: Abszolút! A mellékelt oktatóanyag bemutatja, hogyan lehet átméretezni a
 
 ### 4. kérdés: Kipróbálhatom az Aspose.PSD for Java fájlt vásárlás előtt?
 
- A4: Természetesen! Használja ki a[ingyenes próbaverzió](https://releases.aspose.com/) hogy feltárja a könyvtár lehetőségeit.
+ A4: Természetesen! Használja ki a[ingyenes próbaverzió](https://releases.aspose.com/)hogy feltárja a könyvtár lehetőségeit.
 
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
 

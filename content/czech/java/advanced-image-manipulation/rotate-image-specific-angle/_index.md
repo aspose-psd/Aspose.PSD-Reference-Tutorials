@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /cs/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
-## Úvod
+## Zavedení
 
 V dynamickém světě vývoje v Javě je manipulace s obrázky běžným požadavkem pro různé aplikace. Aspose.PSD for Java se ukazuje jako robustní řešení, které poskytuje výkonné funkce pro snadné otáčení obrazu. V tomto tutoriálu vás provedeme procesem otáčení obrázku pod určitým úhlem pomocí Aspose.PSD pro Javu. Než se ponoříme do detailů, připravíme jeviště s několika předpoklady.
 
@@ -19,7 +19,7 @@ Než se pustíte do této cesty otáčení obrazu, ujistěte se, že máte spln�
 Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
 
 ### 2. Aspose.PSD pro knihovnu Java
- Stáhněte a nainstalujte knihovnu Aspose.PSD for Java. Můžete najít potřebnou knihovnu a dokumentaci[tady](https://reference.aspose.com/psd/java/).
+ Stáhněte a nainstalujte knihovnu Aspose.PSD for Java. Můžete najít potřebnou knihovnu a dokumentaci[zde](https://reference.aspose.com/psd/java/).
 
 ### 3. Ukázkový obrázek
 Připravte si ukázkový obrázek (např. "sample.psd"), který chcete otočit. Umístěte jej do adresáře dokumentů.
@@ -90,7 +90,7 @@ image.save(destName, new JpegOptions());
 
 Uložte otočený obrázek do nového souboru se zadanými možnostmi (v tomto případě pomocí JpegOptions).
 
-Gratulujeme! Úspěšně jste otočili obrázek v určitém úhlu pomocí Aspose.PSD for Java.
+Gratuluji! Úspěšně jste otočili obrázek v určitém úhlu pomocí Aspose.PSD for Java.
 
 ## Závěr
 
@@ -108,7 +108,7 @@ Ne, Aspose.PSD for Java podporuje širokou škálu formátů obrazových soubor�
 
 ### Q3: Mohu otočit obrázky o záporný úhel?
 
- Rozhodně! Můžete zadat záporný úhel v`image.rotate()` způsob otáčení obrázků v opačném směru.
+ Jistě! Můžete zadat záporný úhel v`image.rotate()` způsob otáčení obrázků v opačném směru.
 
 ### Q4: Poskytuje Aspose.PSD for Java náhled obrázku během rotace v reálném čase?
 

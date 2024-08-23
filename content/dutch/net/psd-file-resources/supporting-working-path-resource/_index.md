@@ -79,7 +79,7 @@ Gefeliciteerd! Je hebt het gebruik van 'WorkingPathResource' in Aspose.PSD voor 
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
@@ -87,4 +87,4 @@ Gefeliciteerd! Je hebt het gebruik van 'WorkingPathResource' in Aspose.PSD voor 
 
 ### Vraag 5: Tijdelijke licentie nodig?
 
- A5: Verkrijg een tijdelijke licentie.[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).

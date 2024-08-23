@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /it/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nella nostra guida passo passo sull'implementazione del livello di regolazione Inverti in Aspose.PSD per Java. In questo tutorial esploreremo le potenti funzionalità di Aspose.PSD, una libreria Java che consente la manipolazione senza interruzioni dei file PSD. Che tu sia uno sviluppatore esperto o un nuovo arrivato nell'elaborazione delle immagini, questo tutorial è progettato per aiutarti a comprendere e implementare in modo efficiente il livello di regolazione Inverti.
 
@@ -88,8 +88,8 @@ R2: Sì, puoi impilare più livelli di regolazione per ottenere manipolazioni co
 
 ### Q4: È disponibile una prova gratuita per Aspose.PSD?
 
- R4: Sì, puoi esplorare la prova gratuita.[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi esplorare la prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
-A5: È possibile ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
+A5: È possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).

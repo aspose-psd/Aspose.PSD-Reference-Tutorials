@@ -2,7 +2,7 @@
 title: Настройка замены отсутствующих шрифтов в Aspose.PSD для .NET
 linktitle: Настройка замены отсутствующих шрифтов
 second_title: Aspose.PSD .NET API
-description: Раскройте потенциал Aspose.PSD для .NET! Научитесь легко заменять отсутствующие шрифты с помощью нашего пошагового руководства. Улучшите свой игровой дизайн уже сегодня.
+description: Раскройте потенциал Aspose.PSD для .NET! Научитесь легко заменять отсутствующие шрифты с помощью нашего пошагового руководства. Улучшите свою дизайнерскую игру уже сегодня.
 type: docs
 weight: 11
 url: /ru/net/text-and-font-manipulation/replace-missing-fonts/
@@ -66,7 +66,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 
 ### Вопрос 3. Как я могу получить поддержку или помощь по вопросам, связанным с Aspose.PSD?
 
- A3: Посетите наш специальный[Форум](https://forum.aspose.com/c/psd/34) за экспертную помощь.
+ A3: Посетите наш специальный[форум](https://forum.aspose.com/c/psd/34) за экспертную помощь.
 
 ### В4: Доступны ли временные лицензии для Aspose.PSD?
 

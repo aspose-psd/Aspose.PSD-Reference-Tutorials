@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /it/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
-## introduzione
+## Introduzione
 In questo tutorial esploreremo come estrarre le miniature dai file PSD utilizzando Aspose.PSD per Java. Le miniature possono essere utili per anteprime rapide o per creare versioni più piccole di immagini incorporate nei documenti PSD. Immergiamoci nei passaggi necessari per raggiungere questo obiettivo utilizzando Aspose.PSD.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere la seguente configurazione:
@@ -18,7 +18,6 @@ Prima di iniziare, assicurati di avere la seguente configurazione:
 Per iniziare, includi il pacchetto Aspose.PSD necessario nella tua classe Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;

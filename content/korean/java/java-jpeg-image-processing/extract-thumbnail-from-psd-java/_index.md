@@ -18,7 +18,6 @@ url: /ko/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 시작하려면 Java 클래스에 필요한 Aspose.PSD 패키지를 포함하세요.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -69,7 +68,7 @@ Aspose.PSD는 개발자가 프로그래밍 방식으로 PSD 및 기타 이미지
 ### Java용 Aspose.PSD에 대한 추가 문서는 어디서 찾을 수 있나요?
  당신은[선적 서류 비치](https://reference.aspose.com/psd/java/) 자세한 API 참조 및 예시를 확인하세요.
 ### 구매하기 전에 Aspose.PSD를 무료로 사용해 볼 수 있나요?
- 예, 다음을 다운로드할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 도서관의 능력을 평가합니다.
+ 예, 다음을 다운로드할 수 있습니다.[무료 평가판](https://releases.aspose.com/) 도서관의 능력을 평가합니다.
 ### Aspose.PSD에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  임시 라이센스는 다음에서 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD는 상업용으로 적합합니까?

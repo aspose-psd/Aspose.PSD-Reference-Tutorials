@@ -20,7 +20,6 @@ Ha mindezen előfeltételek készen állnak, akkor készen áll!
 A kezdéshez importálnia kell a szükséges csomagokat az Aspose.PSD könyvtárból. Ezt a következőképpen teheti meg:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,7 +67,7 @@ Végül mentse el a második képet JPEG fájlként CMYK színmóddal és veszte
 image1.save(dataDir + "output2.jpg", options1);
 ```
 ## Következtetés
-Gratulálunk! Sikeresen megtanulta a JPEG-LS támogatását CMYK színmóddal az Aspose.PSD for Java használatával. Ennek az oktatóanyagnak a követésével mostantól kezelheti a PSD-fájlokat, és különböző tömörítési beállításokkal konvertálhatja őket JPEG-formátumba. Ez a nagy teljesítményű könyvtár megkönnyíti a képek kezelését, és ezekkel a lépésekkel jó úton halad afelé, hogy képfeldolgozó profivá váljon.
+Gratulálok! Sikeresen megtanulta a JPEG-LS támogatását CMYK színmóddal az Aspose.PSD for Java használatával. Ennek az oktatóanyagnak a követésével mostantól kezelheti a PSD-fájlokat, és különböző tömörítési beállításokkal konvertálhatja őket JPEG-formátumba. Ez a nagy teljesítményű könyvtár megkönnyíti a képek kezelését, és ezekkel a lépésekkel jó úton halad afelé, hogy képfeldolgozó profivá váljon.
 ## GYIK
 ### Mi az a CMYK színmód?
 CMYK jelentése ciánkék, bíbor, sárga és kulcs (fekete). Ez egy színes modell, amelyet színes nyomtatásban használnak.

@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -93,4 +92,4 @@ Oui, Aspose.PSD pour Java prend en charge les images haute résolution avec une 
 ### Puis-je exporter l’image vers des formats autres que BMP ?
 Oui, Aspose.PSD pour Java prend en charge l'exportation d'images vers différents formats tels que PNG, JPEG, TIFF, etc.
 ### Où puis-je trouver plus d’exemples et de documentation ?
- Visiter le[Documentation Aspose.PSD pour Java](https://reference.aspose.com/psd/java/) pour des guides complets et des exemples de code.## Code source complet
+ Visitez le[Documentation Aspose.PSD pour Java](https://reference.aspose.com/psd/java/) pour des guides complets et des exemples de code.## Code source complet

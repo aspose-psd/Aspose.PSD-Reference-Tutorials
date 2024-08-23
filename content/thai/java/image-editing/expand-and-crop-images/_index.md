@@ -69,7 +69,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 
 ## ขั้นตอนที่ 5: บันทึกภาพที่ครอบตัด
 
- บันทึกภาพที่ครอบตัดโดยใช้สี่เหลี่ยมที่กำหนดและ`JpegOptions` ชั้นเรียน
+ บันทึกภาพที่ครอบตัดโดยใช้สี่เหลี่ยมที่กำหนดและ`JpegOptions` ระดับ.
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);
@@ -101,4 +101,4 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 
 ### คำถามที่ 5: มีการทดลองใช้ฟรีหรือไม่?
 
- A5: ได้ คุณสามารถสำรวจ Aspose.PSD ได้ด้วยการทดลองใช้ฟรี ดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ A5: ได้ คุณสามารถสำรวจ Aspose.PSD ได้ด้วยการทดลองใช้ฟรี ดาวน์โหลดเลย[ที่นี่](https://releases.aspose.com/).

@@ -13,7 +13,7 @@ url: /zh-hant/net/image-adjustment/
 
 ## 實施亮度調整
 
-亮度在影像增強中起著至關重要的作用。我們關於實現亮度調整的教程[Aspose.PSD for .NET](./brightness-adjustment/)提供微調亮度等級的無縫指南。揭示細微差別和技巧，使您的圖像達到最佳效果。
+亮度在影像增強中起著至關重要的作用。我們關於實現亮度調整的教程[Aspose.PSD for .NET](./brightness-adjustment/)提供微調亮度等級的無縫指南。揭示細微差別和技巧，使您的圖像獲得最佳效果。
 
 ## 實施對比調整
 

@@ -16,7 +16,7 @@ W świecie programowania w języku Java manipulowanie obrazami jest częstym zad
 Zanim zagłębisz się w samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
--  Aspose.PSD dla biblioteki Java. Można go pobrać z[strona internetowa](https://releases.aspose.com/psd/java/).
+- Aspose.PSD dla biblioteki Java. Można go pobrać z[strona internetowa](https://releases.aspose.com/psd/java/).
 
 ## Importuj pakiety
 
@@ -92,7 +92,7 @@ Odpowiedź 1: Tak, Aspose.PSD for Java można zintegrować z różnymi framework
 
 ### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- Odpowiedź 2: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 2: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc?
 
@@ -100,7 +100,7 @@ Odpowiedź 1: Tak, Aspose.PSD for Java można zintegrować z różnymi framework
 
 ### P4: Jak uzyskać tymczasową licencję na Aspose.PSD dla Java?
 
- Odpowiedź 4: Możesz nabyć licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 4: Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Jakie są obsługiwane formaty obrazów do kadrowania w Aspose.PSD dla Java?
 

@@ -15,7 +15,7 @@ Välkommen till denna steg-för-steg handledning om att lägga till streckeffekt
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-- Aspose.PSD för .NET: Ladda ner och installera Aspose.PSD-biblioteket från[hemsida](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET: Ladda ner och installera Aspose.PSD-biblioteket från[webbplats](https://releases.aspose.com/psd/net/).
 
 - Dokumentkatalog: Förbered en katalog som innehåller det PSD-dokument som du vill använda streckeffekter på.
 

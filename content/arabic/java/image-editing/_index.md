@@ -1,6 +1,6 @@
 ---
-title: تعديل الصوره
-linktitle: تعديل الصوره
+title: تحرير الصور
+linktitle: تحرير الصور
 second_title: Aspose.PSD جافا API
 description: اكتشف سحر تأثيرات تراكب الألوان ودمج الصور والمعالجة السلسة للصور باستخدام Aspose.PSD. ارفع مستوى لعبة تحرير الصور الخاصة بك مع أدلةنا.
 type: docs
@@ -58,7 +58,7 @@ url: /ar/java/image-editing/
 ### [قم بإنشاء صورة عن طريق تحديد المسار في Aspose.PSD لـ Java](./create-image-by-setting-path/)
 تعرف على كيفية إنشاء صور PSD باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لإنشاء صور سلسة.
 ### [قم بإنشاء صورة باستخدام Stream في Aspose.PSD لـ Java](./create-image-using-stream/)
-تعرف على كيفية إنشاء الصور باستخدام الدفق في Aspose.PSD لـ Java. اتبع هذا الدليل خطوة بخطوة لمعالجة الصور بكفاءة.
+تعرف على كيفية إنشاء الصور باستخدام الدفق في Aspose.PSD لـ Java. اتبع هذا الدليل التفصيلي خطوة بخطوة لمعالجة الصور بكفاءة.
 ### [قص الصورة حسب المستطيل في Aspose.PSD لـ Java](./crop-image-by-rectangle/)
 اكتشف إمكانات قص الصور السلسة في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة لاقتصاص الصور بسهولة باستخدام Aspose.PSD لـ Java.
 ### [قص الصورة عن طريق التحولات في Aspose.PSD لجافا](./crop-image-by-shifts/)

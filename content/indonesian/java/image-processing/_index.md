@@ -1,6 +1,6 @@
 ---
-title: Pengolahan citra
-linktitle: Pengolahan citra
+title: Pemrosesan Gambar
+linktitle: Pemrosesan Gambar
 second_title: Asumsikan.PSD Java API
 description: Buka potensi Aspose.PSD untuk Java dalam pemrosesan gambar. Pelajari cara menerapkan filter Gaussian, Wiener, Median, dan Motion Wiener langkah demi langkah.
 type: docs

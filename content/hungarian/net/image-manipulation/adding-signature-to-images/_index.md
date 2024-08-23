@@ -102,4 +102,4 @@ V1: Igen, minden további aláírásnál megismételheti a folyamatot.
 
 ### 5. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
- 5. válasz: Természetesen ingyenes próbaverzió áll rendelkezésre.[itt](https://releases.aspose.com/).
+ 5. válasz: Természetesen ingyenes próbaverzió áll rendelkezésre[itt](https://releases.aspose.com/).

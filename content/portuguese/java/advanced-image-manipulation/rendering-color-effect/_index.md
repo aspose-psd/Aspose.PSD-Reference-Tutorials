@@ -17,7 +17,7 @@ Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requis
 
 - Ambiente de desenvolvimento Java: certifique-se de ter um ambiente de desenvolvimento Java funcional em sua máquina.
 
--  Aspose.PSD para Java: Baixe e instale a biblioteca Aspose.PSD em[esse link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD para Java: Baixe e instale a biblioteca Aspose.PSD em[este link](https://releases.aspose.com/psd/java/).
 
 ## Importar pacotes
 
@@ -91,7 +91,7 @@ A2: Sim, Aspose.PSD é compatível com Java 11 e versões posteriores.
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode explorar a biblioteca com um[teste grátis](https://releases.aspose.com/).
+ A4: Sim, você pode explorar a biblioteca com um[teste gratuito](https://releases.aspose.com/).
 
 ### Q5: Como posso obter suporte para Aspose.PSD para Java?
 

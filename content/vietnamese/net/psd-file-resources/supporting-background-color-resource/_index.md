@@ -2,7 +2,7 @@
 title: Hỗ trợ tài nguyên màu nền trong Aspose.PSD cho .NET
 linktitle: Hỗ trợ tài nguyên màu nền
 second_title: API Aspose.PSD .NET
-description: Làm chủ Aspose.PSD cho .NET với hướng dẫn từng bước của chúng tôi. Thao tác hình ảnh PSD dễ dàng. Tải về dùng thử ngay!
+description: Làm chủ Aspose.PSD cho .NET với hướng dẫn từng bước của chúng tôi. Thao tác hình ảnh PSD dễ dàng. Tải xuống bản dùng thử miễn phí của bạn ngay bây giờ!
 type: docs
 weight: 10
 url: /vi/net/psd-file-resources/supporting-background-color-resource/

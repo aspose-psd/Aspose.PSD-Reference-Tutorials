@@ -42,7 +42,7 @@ Décomposons le processus d'enregistrement des images à l'aide des threads de t
 
 ```java
 public class SaveImageWorker {
-    // ... (Reportez-vous au code fourni pour les déclarations de variables)
+    //... (Reportez-vous au code fourni pour les déclarations de variables)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Logique du constructeur
@@ -96,7 +96,7 @@ public class MainApplication {
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment enregistrer des images à l'aide de threads de travail avec Aspose.PSD pour Java. Cette approche garantit un traitement d’image efficace avec l’avantage supplémentaire de gérer les interruptions de manière transparente.
+Félicitations! Vous avez appris avec succès comment enregistrer des images à l'aide de threads de travail avec Aspose.PSD pour Java. Cette approche garantit un traitement d’image efficace avec l’avantage supplémentaire de gérer les interruptions de manière transparente.
 
 ## FAQ
 
@@ -106,11 +106,11 @@ A1 : Oui, Aspose.PSD pour Java prend en charge le multithreading, vous permettan
 
 ### Q2 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour Java ?
 
- A2 : Vous pouvez vous référer à la documentation.[ici](https://reference.aspose.com/psd/java/) pour des informations complètes sur Aspose.PSD pour Java.
+A2 : Vous pouvez vous référer à la documentation[ici](https://reference.aspose.com/psd/java/) pour des informations complètes sur Aspose.PSD pour Java.
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
 
- A3 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/) pour explorer toutes les capacités d'Aspose.PSD pour Java.
+ A3 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour explorer toutes les capacités d'Aspose.PSD pour Java.
 
 ### Q4 : Quelles options de support sont disponibles pour Aspose.PSD pour Java ?
 

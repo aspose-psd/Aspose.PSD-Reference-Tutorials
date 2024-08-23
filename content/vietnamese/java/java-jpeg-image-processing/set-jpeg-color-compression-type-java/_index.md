@@ -12,13 +12,12 @@ Trong thời đại kỹ thuật số ngày nay, việc quản lý và xử lý 
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-2.  Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[trang web](https://releases.aspose.com/psd/java/).
 3. Hiểu biết cơ bản về lập trình Java.
 ## Gói nhập khẩu
 Trước tiên, bạn cần nhập các gói cần thiết từ thư viện Aspose.PSD. Những lần nhập này rất quan trọng để xử lý các tệp PSD và áp dụng các cài đặt JPEG mong muốn.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

@@ -21,7 +21,6 @@ Först till kvarn, låt oss importera de nödvändiga paketen. Dessa kommer att 
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -51,7 +50,7 @@ Därefter måste vi komma åt streckeffekten för lagret vi är intresserade av.
 StrokeEffect gradientStroke = (StrokeEffect) im.getLayers()[2].getBlendingOptions().getEffects()[0];
 ```
 ## Steg 3: Verifiera egenskaper för strokeeffekt
-Innan vi gör några ändringar, låt oss verifiera egenskaperna för slageffekten för att säkerställa att vi ändrar rätt inställningar.
+Innan vi gör några ändringar, låt oss verifiera egenskaperna för slageffekten för att säkerställa att vi ändrar de korrekta inställningarna.
 ```java
 Assert.areEqual(BlendMode.Normal, gradientStroke.getBlendMode());
 Assert.areEqual(255, gradientStroke.getOpacity());

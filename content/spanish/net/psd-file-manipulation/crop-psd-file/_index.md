@@ -63,11 +63,11 @@ R1: Sí, Aspose.PSD se actualiza periódicamente para garantizar la compatibilid
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes explorar Aspose.PSD con una prueba gratuita. Descargalo[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes explorar Aspose.PSD con una prueba gratuita. Descárgalo[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo encontrar soporte para Aspose.PSD?
 
- R4: Para cualquier consulta o asistencia, visite el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ R4: Para cualquier consulta o ayuda, visite el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
 ### P5: ¿Necesito una licencia temporal para realizar pruebas?
 

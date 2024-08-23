@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /it/java/image-editing/crop-image-by-shifts/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dell'elaborazione delle immagini basata su Java, Aspose.PSD si distingue come un potente strumento per manipolare e migliorare le immagini con la massima precisione. Una delle caratteristiche principali che distingue Aspose.PSD è la sua capacità di eseguire il ritaglio delle immagini senza problemi. In questo tutorial, approfondiremo l'arte del ritaglio delle immagini utilizzando Aspose.PSD per Java. Alla fine, sarai dotato delle competenze necessarie per ritagliare facilmente le immagini in base alle tue specifiche.
 

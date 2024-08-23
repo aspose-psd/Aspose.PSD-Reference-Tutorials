@@ -8,11 +8,11 @@ weight: 15
 url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 ---
 ## مقدمة
-يعد تحويل ملفات AI إلى تنسيق TIFF متطلبًا شائعًا للمطورين الذين يعملون مع الملفات الرسومية. قد تبدو هذه المهمة شاقة في البداية، ولكن مع Aspose.PSD لـ Java، يصبح الأمر واضحًا. سواء كنت تتطلع إلى الحفاظ على جودة رسوماتك المتجهة أو تحويلها إلى تنسيق نقطي مدعوم على نطاق واسع، فإن Aspose.PSD for Java هو ما تحتاجه.
+يعد تحويل ملفات AI إلى تنسيق TIFF مطلبًا شائعًا للمطورين الذين يعملون مع الملفات الرسومية. قد تبدو هذه المهمة شاقة في البداية، ولكن مع Aspose.PSD لـ Java، يصبح الأمر واضحًا. سواء كنت تتطلع إلى الحفاظ على جودة رسوماتك المتجهة أو تحويلها إلى تنسيق نقطي مدعوم على نطاق واسع، فإن Aspose.PSD for Java هو ما تحتاجه.
 ## المتطلبات الأساسية
 قبل الغوص في عملية التحويل، تأكد من أن لديك ما يلي:
 1. Java Development Kit (JDK): تأكد من تثبيت JDK 8 أو أعلى.
-2.  Aspose.PSD لـ Java: قم بتنزيل ملف[Aspose.PSD لمكتبة جافا](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD لـ Java: قم بتنزيل ملف[Aspose.PSD لمكتبة جافا](https://releases.aspose.com/psd/java/).
 3. بيئة التطوير المتكاملة (IDE): أي بيئة تطوير متكاملة من اختيارك (على سبيل المثال، IntelliJ IDEA، Eclipse).
 4. ملف AI: ملف Adobe Illustrator (.ai) الذي ترغب في تحويله.
 5. TiffOptions: مطلوب لتحديد تفاصيل تنسيق TIFF.
@@ -20,7 +20,6 @@ url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 أولاً، تحتاج إلى استيراد الحزم الضرورية من Aspose.PSD. توفر هذه الحزم الفئات والأساليب المطلوبة للتعامل مع ملفات AI وTIFF.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -34,7 +33,7 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- هنا،`dataDir`هو الدليل الذي يتم فيه تخزين ملف AI الخاص بك. اضبط المسار وفقًا لذلك ليتناسب مع موقع ملفك.
+ هنا،`dataDir` هو الدليل الذي يتم فيه تخزين ملف AI الخاص بك. اضبط المسار وفقًا لذلك ليتناسب مع موقع ملفك.
 ## الخطوة 3: تحديد ملف الإخراج
 بعد ذلك، حدد مسار ملف الإخراج حيث سيتم حفظ ملف TIFF المحول.
 ```java

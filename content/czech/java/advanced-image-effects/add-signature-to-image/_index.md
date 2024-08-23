@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/advanced-image-effects/add-signature-to-image/
 ---
-## Úvod
+## Zavedení
 
 V rozsáhlém světě vývoje v Javě se začleňování podpisů do obrázků stalo běžným požadavkem. Aspose.PSD for Java se ukazuje jako výkonný nástroj, který poskytuje vývojářům bezproblémová řešení pro manipulaci s obrázky, včetně přidávání podpisů. V tomto tutoriálu krok za krokem prozkoumáme, jak přidat podpis k obrázku pomocí Aspose.PSD pro Javu.
 

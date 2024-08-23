@@ -80,7 +80,7 @@ Aspose.PSD för .NET förenklar processen att implementera ljusstyrkajusteringar
 
 ### F1: Var kan jag hitta dokumentationen för Aspose.PSD för .NET?
 
- S1: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
+ S1: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
 
 ### F2: Hur kan jag ladda ner Aspose.PSD för .NET-biblioteket?
 
@@ -88,7 +88,7 @@ Aspose.PSD för .NET förenklar processen att implementera ljusstyrkajusteringar
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag få support för Aspose.PSD för .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD för .NET förenklar processen att implementera ljusstyrkajusteringar
 
 ### F5: Hur får jag en tillfällig licens för Aspose.PSD för .NET?
 
- S5: Du kan skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ S5: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

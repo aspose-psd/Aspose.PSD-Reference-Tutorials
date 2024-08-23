@@ -61,7 +61,7 @@ image.save(destName, new JpegOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen elforgatott egy képet az Aspose.PSD for Java használatával. Ez az egyszerű, de hatékony könyvtár a lehetőségek világát nyitja meg a Java-alkalmazások képkezelésére.
+Gratulálok! Sikeresen elforgatott egy képet az Aspose.PSD for Java használatával. Ez az egyszerű, de hatékony könyvtár a lehetőségek világát nyitja meg a Java-alkalmazások képkezelésére.
 
 ## GYIK
 
@@ -83,4 +83,4 @@ A2: Abszolút! Az Aspose.PSD rugalmasságot biztosít az egyedi elforgatások al
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
- V5: Ha ideiglenes engedélyre van szüksége, beszerezhet egyet.[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Ha ideiglenes engedélyre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).

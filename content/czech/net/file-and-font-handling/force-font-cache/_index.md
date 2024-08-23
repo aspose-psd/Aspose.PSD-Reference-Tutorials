@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/net/file-and-font-handling/force-font-cache/
 ---
-## Úvod
+## Zavedení
 
 Aspose.PSD for .NET poskytuje výkonné nástroje pro práci se soubory PSD ve vašich aplikacích .NET. Jednou ze základních funkcí je schopnost vynutit mezipaměť písem, která zajistí, že si vaše soubory PSD udrží konzistentní a přesné vykreslování. V tomto tutoriálu vás krok za krokem provedeme procesem vynucení mezipaměti písem v Aspose.PSD pro .NET.
 

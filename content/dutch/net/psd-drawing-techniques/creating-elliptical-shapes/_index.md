@@ -84,15 +84,15 @@ Gefeliciteerd! U hebt met succes elliptische vormen gemaakt met Aspose.PSD voor 
 
 ### V1: Waar kan ik de documentatie voor Aspose.PSD voor .NET vinden?
 
- A1: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/net/).
+ A1: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).
 
 ### V2: Hoe download ik Aspose.PSD voor .NET?
 
- A2: U kunt het downloaden vanaf de releasepagina.[hier](https://releases.aspose.com/psd/net/).
+ A2: U kunt het downloaden vanaf de releasepagina[hier](https://releases.aspose.com/psd/net/).
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
@@ -100,4 +100,4 @@ Gefeliciteerd! U hebt met succes elliptische vormen gemaakt met Aspose.PSD voor 
 
 ### Vraag 5: Heb ik een tijdelijke licentie nodig om te testen?
 
- A5: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).

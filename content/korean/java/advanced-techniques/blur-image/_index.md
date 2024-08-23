@@ -16,7 +16,7 @@ Java 개발 세계에서는 이미지를 향상하고 조작하는 것이 일반
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Java 라이브러리용 Aspose.PSD. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+-  Java 라이브러리용 Aspose.PSD. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 - Java 프로그래밍에 대한 기본적인 이해.
 
 ## 패키지 가져오기
@@ -95,4 +95,4 @@ A1: 물론이죠! Aspose.PSD에는 모든 기술 수준의 개발자를 안내�
 
 ### Q5: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
 
- A5: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).

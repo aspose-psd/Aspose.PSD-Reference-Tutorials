@@ -110,11 +110,11 @@ Parabéns! Você implementou com sucesso o suporte para assinaturas ObAr e UnFl 
 
 ### Q3: Posso experimentar o Aspose.PSD antes de comprar?
 
- A3: Sim, você pode explorar uma versão de teste gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode explorar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q4: Como posso obter uma licença temporária para Aspose.PSD?
 
- A4: Visita[esse link](https://purchase.aspose.com/temporary-license/) para opções de licenciamento temporário.
+ A4: Visita[este link](https://purchase.aspose.com/temporary-license/) para opções de licenciamento temporário.
 
 ### Q5: Onde posso comprar Aspose.PSD para .NET?
 

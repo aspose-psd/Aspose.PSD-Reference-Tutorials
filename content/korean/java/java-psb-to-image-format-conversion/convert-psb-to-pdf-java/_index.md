@@ -20,7 +20,6 @@ Java 개발 영역에서는 PSD(Photoshop Document) 파일을 효율적으로 �
 먼저 Java용 Aspose.PSD 작업을 시작하는 데 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -57,7 +56,7 @@ Aspose.PSD for Java는 PSB 파일을 포함한 광범위한 PSD 파일 유형을
 ### Aspose.PSD for Java는 PSD 파일의 일괄 처리에 적합합니까?
 예, 개발자는 여러 PSD 파일을 PDF로 동시에 변환하는 등의 일괄 처리 작업에 Aspose.PSD for Java를 활용할 수 있습니다.
 ### Java용 Aspose.PSD에 대한 추가 지원은 어디서 찾을 수 있나요?
- 방문하다[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 커뮤니티 지원과 다른 사용자 및 개발자와의 연결을 위해.
+ 방문[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 커뮤니티 지원과 다른 사용자 및 개발자와의 연결을 위해.
 ### Java용 Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
  테스트 목적으로 임시 라이센스를 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### 다른 라이브러리에 비해 Java용 Aspose.PSD를 사용하면 어떤 이점이 있나요?

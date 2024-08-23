@@ -93,7 +93,7 @@ A2: Abszolút! Az Aspose.PSD lehetővé teszi a kötegelt képfeldolgozást, íg
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, hozzáférhet az Aspose.PSD ingyenes próbaverziójához.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az Aspose.PSD ingyenes próbaverziójához[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget?
 

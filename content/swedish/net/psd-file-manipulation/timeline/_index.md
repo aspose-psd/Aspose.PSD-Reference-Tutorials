@@ -103,7 +103,7 @@ S2: Klassen Tidslinje är speciellt utformad för PSD-bilder. För GIF-manipulat
 
 ### F4: Hur kan jag få en tillfällig licens för Aspose.PSD för .NET?
 
- A4: Skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A4: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Vilka är de viktigaste fördelarna med att använda Aspose.PSD för .NET?
 

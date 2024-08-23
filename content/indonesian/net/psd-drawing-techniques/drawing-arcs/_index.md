@@ -93,11 +93,11 @@ Selamat! Anda telah berhasil mempelajari cara menggambar busur menggunakan Aspos
 
 ### Q1: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A1: Dokumentasi dapat ditemukan.[Di Sini](https://reference.aspose.com/psd/net/).
+ A1: Dokumentasi dapat ditemukan[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q2: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- A2: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A2: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Apakah ada forum komunitas untuk dukungan Aspose.PSD?
 
@@ -105,8 +105,8 @@ Selamat! Anda telah berhasil mempelajari cara menggambar busur menggunakan Aspos
 
 ### Q4: Di mana saya dapat membeli lisensi Aspose.PSD?
 
- A4: Anda dapat membeli lisensi.[Di Sini](https://purchase.aspose.com/buy).
+ A4: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
 
 ### Q5: Dapatkah saya mencoba Aspose.PSD untuk .NET secara gratis sebelum membeli?
 
- A5: Ya, Anda dapat mengunduh uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A5: Ya, Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).

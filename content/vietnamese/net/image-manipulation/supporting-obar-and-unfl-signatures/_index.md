@@ -102,7 +102,7 @@ Chúc mừng! Bạn đã triển khai thành công tính năng hỗ trợ cho ch
 
 ### Câu hỏi 1: Aspose.PSD có tương thích với các khung .NET mới nhất không?
 
- Trả lời 1: Aspose.PSD thường xuyên cập nhật khả năng tương thích của nó. Tham khảo đến[tài liệu](https://reference.aspose.com/psd/net/) để biết thông tin mới nhất.
+ Trả lời 1: Aspose.PSD thường xuyên cập nhật khả năng tương thích của nó. Tham khảo[tài liệu](https://reference.aspose.com/psd/net/) để biết thông tin mới nhất.
 
 ### Câu hỏi 2: Tôi có thể tìm hỗ trợ cho Aspose.PSD ở đâu?
 
@@ -110,7 +110,7 @@ Chúc mừng! Bạn đã triển khai thành công tính năng hỗ trợ cho ch
 
 ### Câu 3: Tôi có thể dùng thử Aspose.PSD trước khi mua không?
 
- Câu trả lời 3: Có, bạn có thể khám phá phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 

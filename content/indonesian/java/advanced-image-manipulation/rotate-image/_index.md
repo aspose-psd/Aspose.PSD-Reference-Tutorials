@@ -83,4 +83,4 @@ A2: Tentu saja! Aspose.PSD memberikan fleksibilitas untuk menerapkan rotasi khus
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
- A5: Jika Anda memerlukan lisensi sementara, Anda bisa mendapatkannya.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Jika Anda memerlukan lisensi sementara, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).

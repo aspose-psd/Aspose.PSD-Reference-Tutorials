@@ -41,7 +41,7 @@ String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "BlurAnImage_out.gif";
 ```
 
-## Шаг 2. Загрузите изображение.
+## Шаг 2. Загрузите изображение
 
 ```java
 // Загрузите существующее изображение в экземпляр класса RasterImage.
@@ -62,7 +62,7 @@ RasterImage rasterImage = (RasterImage)image;
 rasterImage.filter(rasterImage.getBounds(), new GaussianBlurFilterOptions(15, 15));
 ```
 
-## Шаг 5: Сохраните результат
+## Шаг 5: сохраните результат
 
 ```java
 // Сохраните результаты в формате GIF.

@@ -78,11 +78,11 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
-Gratulálunk! Sikeresen betöltött egy képet egy adatfolyamból az Aspose.PSD for Java használatával.
+Gratulálok! Sikeresen betöltött egy képet egy adatfolyamból az Aspose.PSD for Java használatával.
 
 ## Következtetés
 
- Az Aspose.PSD for Java lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a PSD fájlokat. Ez az oktatóanyag tömör útmutatót nyújtott a képek adatfolyamból való betöltéséhez. Fedezze fel a[dokumentáció](https://reference.aspose.com/psd/java/) további részletekért és lehetőségekért.
+Az Aspose.PSD for Java lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a PSD fájlokat. Ez az oktatóanyag tömör útmutatót nyújtott a képek adatfolyamból való betöltéséhez. Fedezze fel a[dokumentáció](https://reference.aspose.com/psd/java/) további részletekért és lehetőségekért.
 
 ## GYIK
 
@@ -92,7 +92,7 @@ A1: Abszolút! Az Aspose.PSD for Java kiválóan teljesít a kötegelt képfeldo
 
 ### 2. kérdés: Kipróbálhatom az Aspose.PSD for Java fájlt vásárlás előtt?
 
- 2. válasz: Igen, felfedezhet egy ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 2. válasz: Igen, felfedezhet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hol találok támogatást az Aspose.PSD for Java számára?
 
@@ -100,7 +100,7 @@ A1: Abszolút! Az Aspose.PSD for Java kiválóan teljesít a kötegelt képfeldo
 
 ### 4. kérdés: Szükségem van ideiglenes licencre tesztelés céljából?
 
- V4: Szerezzen ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) Az Aspose.PSD for Java teszteléséhez.
+ V4: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) Az Aspose.PSD for Java teszteléséhez.
 
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.PSD for Java-t?
 

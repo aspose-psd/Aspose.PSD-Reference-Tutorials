@@ -12,7 +12,7 @@ url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 - Java Development Kit (JDK): تأكد من تثبيت JDK على جهازك.
--  Aspose.PSD لمكتبة Java: قم بتنزيل المكتبة من ملف[Aspose.PSD لصفحة تنزيل Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD لمكتبة Java: قم بتنزيل المكتبة من ملف[Aspose.PSD لصفحة تنزيل Java](https://releases.aspose.com/psd/java/).
 - بيئة التطوير المتكاملة (IDE): بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse أو NetBeans لكتابة تعليمات Java البرمجية وتشغيلها.
 - ملف AI: ملف Adobe Illustrator الذي تريد تحويله.
 ## حزم الاستيراد
@@ -20,7 +20,6 @@ url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -39,7 +38,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
 ### 2.2 قم بتحميل ملف AI
- استخدم ال`Image.load` طريقة تحميل ملف AI الخاص بك. تقوم هذه الطريقة بقراءة ملف AI في ملف`AiImage` هدف.
+ استخدم`Image.load` طريقة تحميل ملف AI الخاص بك. تقوم هذه الطريقة بقراءة ملف AI في ملف`AiImage` هدف.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
@@ -54,7 +53,7 @@ GifOptions options = new GifOptions();
 ```java
 options.setDoPaletteCorrection(false);
 ```
-## الخطوة 4: احفظ ملف الذكاء الاصطناعي بصيغة GIF
+## الخطوة 4: احفظ ملف AI بصيغة GIF
 ### 4.1 حفظ الصورة
  وأخيرا، استخدم`save` طريقة`AiImage` كائن لحفظ ملف AI بتنسيق GIF.
 ```java
@@ -77,7 +76,7 @@ try {
 ```
 ## خاتمة
 ها أنت ذا! باستخدام بضعة أسطر فقط من التعليمات البرمجية، يمكنك تحويل ملف AI إلى GIF باستخدام Aspose.PSD لـ Java. تعمل هذه المكتبة على تبسيط العملية، مما يسمح لك بالتركيز على إنشاء تطبيقات رائعة دون القلق بشأن تحويلات الملفات المعقدة. 
-Aspose.PSD for Java هي أداة متعددة الاستخدامات يمكنها التعامل مع مجموعة واسعة من مهام معالجة الصور. لذا، سواء كنت تعمل على أداة تصميم رسومي، أو تطبيق معالجة تلقائية للصور، أو تحتاج فقط إلى تحويل ملفات لمشروع معين، فإن Aspose.PSD يوفر لك كل ما تحتاجه.
+Aspose.PSD for Java هي أداة متعددة الاستخدامات يمكنها التعامل مع مجموعة واسعة من مهام معالجة الصور. لذا، سواء كنت تعمل على أداة تصميم رسومي، أو تطبيق معالجة تلقائية للصور، أو تحتاج فقط إلى تحويل الملفات لمشروع معين، فإن Aspose.PSD يوفر لك كل ما تحتاجه.
 ## الأسئلة الشائعة
 ### ما هو Aspose.PSD لجافا؟
 Aspose.PSD for Java هي مكتبة تتيح للمطورين إنشاء وتحرير وتحويل PSD وملفات الصور الأخرى في تطبيقات Java.

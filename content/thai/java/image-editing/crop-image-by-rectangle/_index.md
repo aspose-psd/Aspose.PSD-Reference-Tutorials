@@ -16,7 +16,7 @@ url: /th/java/image-editing/crop-image-by-rectangle/
 ก่อนที่คุณจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
 - ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณแล้ว
--  Aspose.PSD สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/psd/java/).
+- Aspose.PSD สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/psd/java/).
 
 ## แพ็คเกจนำเข้า
 
@@ -100,7 +100,7 @@ rasterImage.save(destName, new JpegOptions());
 
 ### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร
 
- A4:คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ A4: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
 ### คำถามที่ 5: รูปแบบรูปภาพที่รองรับสำหรับการครอบตัดใน Aspose.PSD สำหรับ Java คืออะไร
 

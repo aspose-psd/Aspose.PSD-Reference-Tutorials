@@ -9,7 +9,7 @@ url: /pl/net/image-manipulation/adding-gradient-effects/
 ---
 ## Wstęp
 
-Uszlachetnianie obrazów efektami gradientu może dodać urzekającego wymiaru treści wizualnych. Aspose.PSD dla .NET zapewnia potężną platformę do integracji nakładek gradientowych z obrazami. W tym samouczku przeprowadzimy Cię przez proces dodawania efektów gradientu przy użyciu Aspose.PSD dla .NET.
+Uszlachetnianie obrazów efektami gradientu może dodać urzekającego wymiaru treści wizualnych. Aspose.PSD dla .NET zapewnia potężną platformę do włączania nakładek gradientowych do obrazów. W tym samouczku przeprowadzimy Cię przez proces dodawania efektów gradientu przy użyciu Aspose.PSD dla .NET.
 
 ## Warunki wstępne
 
@@ -90,13 +90,13 @@ settings.Reverse = true;
 // Dodaj nowy punkt koloru
 // ...
 
-// Zmień położenie poprzedniego punktu
+// Zmień lokalizację poprzedniego punktu
 // ...
 
 // Dodaj nowy punkt przezroczystości
 // ...
 
-// Zmień położenie poprzedniego punktu przezroczystości
+// Zmień lokalizację poprzedniego punktu przezroczystości
 // ...
 
 im.Save(exportPath);

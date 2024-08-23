@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Crear una instancia de la clase PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Paso 5: guarde la imagen recortada como PNG.
+## Paso 5: guarde la imagen recortada como PNG
 ```csharp
 // Llame al método de guardar, proporcione la ruta de salida y PngOptions para convertir el archivo PSD a PNG y guardar la salida.
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ image.Save(destName, pngOptions);
 
 ### P1: ¿Puedo utilizar esta biblioteca en un proyecto comercial?
 
- R1: Sí, Aspose.PSD para .NET está disponible para uso comercial. Referirse a[Licencia Aspose.PSD](https://purchase.aspose.com/buy) para detalles.
+ R1: Sí, Aspose.PSD para .NET está disponible para uso comercial. Referirse a[Licencia Aspose.PSD](https://purchase.aspose.com/buy) para más detalles.
 
 ### P2: ¿Hay una prueba gratuita disponible?
 
- R2: ¡Absolutamente! Puedes explorar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+R2: ¡Absolutamente! Puedes explorar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar soporte para Aspose.PSD para .NET?
 

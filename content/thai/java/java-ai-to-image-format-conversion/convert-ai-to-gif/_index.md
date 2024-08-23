@@ -12,7 +12,7 @@ url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 - Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนเครื่องของคุณแล้ว
--  Aspose.PSD สำหรับไลบรารี Java: ดาวน์โหลดไลบรารีจากไฟล์[Aspose.PSD สำหรับหน้าดาวน์โหลด Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD สำหรับไลบรารี Java: ดาวน์โหลดไลบรารีจากไฟล์[Aspose.PSD สำหรับหน้าดาวน์โหลด Java](https://releases.aspose.com/psd/java/).
 - สภาพแวดล้อมการพัฒนาแบบรวม (IDE): IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans สำหรับการเขียนและรันโค้ด Java ของคุณ
 - ไฟล์ AI: ไฟล์ Adobe Illustrator ที่คุณต้องการแปลง
 ## แพ็คเกจนำเข้า
@@ -20,7 +20,6 @@ url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -39,7 +38,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
 ### 2.2 โหลดไฟล์ AI
- ใช้`Image.load` วิธีการโหลดไฟล์ AI ของคุณ วิธีนี้จะอ่านไฟล์ AI ลงในไฟล์`AiImage` วัตถุ วัตถุ
+ ใช้`Image.load` วิธีการโหลดไฟล์ AI ของคุณ วิธีนี้จะอ่านไฟล์ AI ลงในไฟล์`AiImage` วัตถุ.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```

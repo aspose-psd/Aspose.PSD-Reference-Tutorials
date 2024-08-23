@@ -36,7 +36,7 @@ Låt oss nu dela upp exemplet i flera steg i ett steg-för-steg-guideformat.
 string dataDir = "Your Document Directory";
 ```
 
- Byta ut`"Your Document Directory"` med sökvägen till katalogen där du lagrar dina käll- och utdatafiler.
+ Ersätta`"Your Document Directory"` med sökvägen till katalogen där du lagrar dina käll- och utdatafiler.
 
 ## Steg 2: Ladda bilden
 
@@ -103,4 +103,4 @@ S3: Även om det inte är obligatoriskt kan cachelagring av data förbättra pre
 
 ### F5: Kan jag prova Aspose.PSD innan jag köper?
 
- A5: Visst! Ta din[gratis provperiod](https://releases.aspose.com/) att utforska bibliotekets möjligheter.
+ A5: Visst! Ta din[gratis provperiod](https://releases.aspose.com/)att utforska bibliotekets möjligheter.

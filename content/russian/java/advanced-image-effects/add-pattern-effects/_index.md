@@ -39,7 +39,7 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import java.util.UUID;
 ```
 
-## Шаг 1. Загрузите изображение.
+## Шаг 1. Загрузите изображение
 
 ```java
 // Загрузите PSD-изображение
@@ -94,7 +94,7 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-## Шаг 5. Сохраните отредактированное изображение.
+## Шаг 5. Сохраните отредактированное изображение
 
 ```java
 // Сохраните отредактированное изображение
@@ -103,7 +103,7 @@ settings.setPatternId(guid.toString() + "\0");
 im.save(exportPath);
 ```
 
-## Шаг 6. Проверьте изменения.
+## Шаг 6: Проверьте изменения
 
 ```java
 // Проверьте изменения в редактируемом файле
@@ -123,7 +123,7 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 
 О1: Aspose.PSD для Java разработан для независимой работы, но при необходимости вы можете интегрировать его с другими библиотеками Java.
 
-### Вопрос 2. Где я могу найти подробную документацию по Aspose.PSD для Java?
+### Вопрос 2: Где я могу найти подробную документацию по Aspose.PSD для Java?
 
  A2: См.[Aspose.PSD для документации Java](https://reference.aspose.com/psd/java/) для получения исчерпывающей информации.
 

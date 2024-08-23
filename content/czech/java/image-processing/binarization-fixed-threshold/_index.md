@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/java/image-processing/binarization-fixed-threshold/
 ---
-## Úvod
+## Zavedení
 
 V oblasti vývoje v Javě se Aspose.PSD ukazuje jako mocný nástroj pro úlohy zpracování obrazu. Jednou z takových zásadních operací je binarizace, technika, která zjednodušuje obrázky tím, že je převádí do binární podoby. Tento tutoriál vás provede procesem dosažení binarizace s pevným prahem pomocí Aspose.PSD pro Java. Připoutejte se, až prozkoumáme kroky této cesty transformativního zpracování obrazu.
 
@@ -16,7 +16,7 @@ V oblasti vývoje v Javě se Aspose.PSD ukazuje jako mocný nástroj pro úlohy 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Základní znalost programování v Javě.
--  Nainstalovaná knihovna Aspose.PSD for Java. Potřebné balíčky najdete[tady](https://releases.aspose.com/psd/java/).
+-  Nainstalovaná knihovna Aspose.PSD for Java. Potřebné balíčky najdete[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -74,7 +74,7 @@ String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-A to je vše! Úspěšně jste použili binarizaci s pevným prahem pomocí Aspose.PSD pro Java.
+A je to! Úspěšně jste použili binarizaci s pevným prahem pomocí Aspose.PSD pro Java.
 
 ## Závěr
 
@@ -88,7 +88,7 @@ A1:Ano, Aspose.PSD podporuje různé formáty obrázků, díky čemuž je binari
 
 ### Q2: Je k dispozici dočasná licence pro testovací účely?
 
- A2: Určitě! Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
+ A2: Určitě! Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
 
 ### Q3: Kde najdu další podporu nebo komunitní diskuse?
 
@@ -96,8 +96,8 @@ A1:Ano, Aspose.PSD podporuje různé formáty obrázků, díky čemuž je binari
 
 ### Q4: Jak mohu zakoupit knihovnu Aspose.PSD?
 
- A4: Můžete si zakoupit knihovnu Aspose.PSD.[tady](https://purchase.aspose.com/buy).
+ A4: Můžete si zakoupit knihovnu Aspose.PSD[zde](https://purchase.aspose.com/buy).
 
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
- A5: Ano, můžete prozkoumat možnosti Aspose.PSD pomocí bezplatné zkušební verze.[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat možnosti Aspose.PSD pomocí bezplatné zkušební verze[zde](https://releases.aspose.com/).

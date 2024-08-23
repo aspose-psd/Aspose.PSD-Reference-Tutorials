@@ -90,7 +90,7 @@ image.save(destName, new JpegOptions());
 
 Mentse el az elforgatott képet egy új fájlba a megadott beállításokkal (ebben az esetben a JpegOptions használatával).
 
-Gratulálunk! Sikeresen elforgatott egy képet egy adott szögben az Aspose.PSD for Java segítségével.
+Gratulálok! Sikeresen elforgatott egy képet egy adott szögben az Aspose.PSD for Java segítségével.
 
 ## Következtetés
 

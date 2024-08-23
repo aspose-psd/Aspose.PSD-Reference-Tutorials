@@ -20,7 +20,6 @@ Une fois que vous avez tous ces prérequis prêts, vous êtes prêt à partir !
 Pour commencer, vous devez importer les packages nécessaires depuis la bibliothèque Aspose.PSD. Voici comment procéder :
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,7 +67,7 @@ Enfin, enregistrez la deuxième image sous forme de fichier JPEG avec le mode co
 image1.save(dataDir + "output2.jpg", options1);
 ```
 ## Conclusion
-Toutes nos félicitations! Vous avez appris avec succès comment prendre en charge JPEG-LS avec le mode couleur CMJN à l'aide d'Aspose.PSD pour Java. En suivant ce tutoriel, vous pouvez désormais gérer les fichiers PSD et les convertir en JPEG avec différents paramètres de compression. Cette puissante bibliothèque facilite la manipulation des images et, grâce à ces étapes, vous êtes sur la bonne voie pour devenir un pro du traitement d'images.
+Félicitations! Vous avez appris avec succès comment prendre en charge JPEG-LS avec le mode couleur CMJN à l'aide d'Aspose.PSD pour Java. En suivant ce tutoriel, vous pouvez désormais gérer les fichiers PSD et les convertir en JPEG avec différents paramètres de compression. Cette puissante bibliothèque facilite la manipulation des images et, grâce à ces étapes, vous êtes sur la bonne voie pour devenir un pro du traitement d'images.
 ## FAQ
 ### Qu’est-ce que le mode couleur CMJN ?
 CMJN signifie Cyan, Magenta, Jaune et Key (Noir). C'est un modèle de couleur utilisé dans l'impression couleur.

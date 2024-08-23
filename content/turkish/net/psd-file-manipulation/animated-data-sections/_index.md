@@ -12,7 +12,7 @@ Aspose.PSD for .NET'te animasyonlu veri bölümlerinin işlenmesine ilişkin kap
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 - Temel C# ve .NET programlama bilgisi.
-- Aspose.PSD for .NET kuruldu. Henüz yüklemediyseniz adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET kuruldu. Henüz yüklemediyseniz adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/psd/net/).
 - Sorunsuz uygulama için Visual Studio gibi bir kod düzenleyici.
 ## Ad Alanlarını İçe Aktar
 Aspose.PSD ile çalışmak için C# kodunuzda gerekli ad alanlarını içe aktardığınızdan emin olun:

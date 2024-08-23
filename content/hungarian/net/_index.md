@@ -26,7 +26,7 @@ Az Aspose.PSD for .NET segítségével könnyedén kezelheti az AI formátumú r
 
 ### [Szöveg- és betűtípus-manipuláció](./text-and-font-manipulation/)
 
-Maximalizálja .NET-alkalmazásait az Aspose.PSD for .NET oktatóanyaggal! Fedezze fel a szöveg élénk színekben való megjelenítését, a hiányzó betűtípusok zökkenőmentes pótlását, és a tervek általános vizuális vonzerejének javítását.
+Maximalizálja .NET-alkalmazásait az Aspose.PSD for .NET oktatóanyaggal! Fedezze fel a szöveg élénk színekben való megjelenítését, a hiányzó betűtípusok zökkenőmentes pótlását, valamint a tervek általános vizuális vonzerejének javítását.
 
 ## Könnyű fájlmentés és exportálás
 
@@ -34,7 +34,7 @@ Maximalizálja .NET-alkalmazásait az Aspose.PSD for .NET oktatóanyaggal! Fedez
 
 Könnyedén elsajátíthatja a képmentést és exportálást az Aspose.PSD for .NET segítségével. Kövesse lépésenkénti oktatóanyagainkat a hatékony lemez- és adatfolyam-műveletek érdekében. Optimalizálja munkafolyamatát a képek mentésére és exportálására vonatkozó szakértői útmutatás segítségével.
 
-## Oldja fel a képbeállítási lehetőségeket
+## Oldja fel a képbeállítás lehetőségét
 
 ### [Képbeállítás](./image-adjustment/)
 

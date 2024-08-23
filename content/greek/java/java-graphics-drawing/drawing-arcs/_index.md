@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ import com.aspose.psd.imageoptions.BmpOptions;
 ## Βήμα 1: Ρύθμιση του έργου Java σας
 Αρχικά, δημιουργήστε ένα νέο έργο Java στο IDE (Integrated Development Environment) και εισαγάγετε τη βιβλιοθήκη Aspose.PSD για Java. Βεβαιωθείτε ότι η βιβλιοθήκη αναφέρεται σωστά στη διαδρομή κατασκευής του έργου σας.
 ## Βήμα 2: Αρχικοποίηση αντικειμένων εικόνας και γραφικών
- Δημιουργήστε ένα παράδειγμα του`PsdImage` και`Graphics` για να δουλέψω με:
+ Δημιουργήστε ένα παράδειγμα του`PsdImage` και`Graphics` να εργαστείτε με:
 ```java
 String dataDir = "Your Document Directory";
 // Αρχικοποιήστε το αντικείμενο PsdImage
@@ -61,7 +60,7 @@ image.save(outputPath, saveOptions);
 ```
 Αυτό το απόσπασμα κώδικα σχεδιάζει ένα τόξο στην επιφάνεια γραφικών με τις καθορισμένες παραμέτρους και το αποθηκεύει ως αρχείο BMP. Προσαρμόστε τη διαδρομή εξόδου (`outputPath`) σύμφωνα με τη δομή του αρχείου του έργου σας.
 
-## συμπέρασμα
+## Σύναψη
 Η σχεδίαση τόξων μέσω προγραμματισμού χρησιμοποιώντας το Aspose.PSD για Java είναι απλή και παρέχει ευελιξία στη δημιουργία προσαρμοσμένων γραφικών μέσα σε αρχεία PSD. Ακολουθώντας τα βήματα που περιγράφονται σε αυτό το σεμινάριο, μπορείτε να ενσωματώσετε αποτελεσματικά τις λειτουργίες σχεδίασης τόξου στις εφαρμογές σας Java.
 
 ## Συχνές ερωτήσεις
@@ -74,4 +73,4 @@ image.save(outputPath, saveOptions);
 ### Το Aspose.PSD υποστηρίζει την εξαγωγή σε μορφές άλλες από το BMP;
 Ναι, το Aspose.PSD υποστηρίζει την εξαγωγή σε διάφορες μορφές, όπως PNG, JPEG, TIFF και GIF, μεταξύ άλλων.
 ### Πού μπορώ να βρω πρόσθετη υποστήριξη και πόρους για το Aspose.PSD;
- Επισκέψου το[Φόρουμ Aspose.PSD](https://forum.aspose.com/c/psd/34) για κοινοτική υποστήριξη, τεκμηρίωση και ενημερώσεις.
+ Επισκεφθείτε το[Φόρουμ Aspose.PSD](https://forum.aspose.com/c/psd/34) για κοινοτική υποστήριξη, τεκμηρίωση και ενημερώσεις.

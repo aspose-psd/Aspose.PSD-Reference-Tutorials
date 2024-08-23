@@ -2,13 +2,13 @@
 title: อ่านแท็ก EXIF ทั้งหมดใน Java
 linktitle: อ่านแท็ก EXIF ทั้งหมดใน Java
 second_title: Aspose.PSD Java API
-description: เรียนรู้การแยกแท็ก EXIF จากอิมเมจ PSD โดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการดึงข้อมูลเมตาที่มีประสิทธิภาพ
+description: เรียนรู้วิธีแยกแท็ก EXIF จากอิมเมจ PSD โดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการดึงข้อมูลเมตาที่มีประสิทธิภาพ
 type: docs
 weight: 17
 url: /th/java/java-jpeg-image-processing/read-all-exif-tags-java/
 ---
 ## การแนะนำ
-ในด้านการพัฒนา Java การจัดการและการแยกข้อมูลเมตาจากรูปภาพถือเป็นงานทั่วไป โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับไฟล์ PSD (เอกสาร Photoshop) แท็ก EXIF (รูปแบบไฟล์ภาพที่แลกเปลี่ยนได้) มีข้อมูลเมตาอันมีค่าที่ให้ข้อมูลเกี่ยวกับภาพ เช่น การตั้งค่ากล้อง ตำแหน่ง และอื่นๆ บทช่วยสอนนี้เน้นที่การใช้ Aspose.PSD สำหรับ Java ซึ่งเป็นไลบรารีที่ทรงพลังสำหรับจัดการไฟล์ PSD เพื่ออ่านแท็ก EXIF อย่างมีประสิทธิภาพ
+ในด้านการพัฒนา Java การจัดการและการแยกข้อมูลเมตาจากรูปภาพถือเป็นงานทั่วไป โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับไฟล์ PSD (เอกสาร Photoshop) แท็ก EXIF (รูปแบบไฟล์ภาพที่แลกเปลี่ยนได้) มีข้อมูลเมตาอันมีค่าที่ให้ข้อมูลเกี่ยวกับภาพ เช่น การตั้งค่ากล้อง ตำแหน่ง และอื่นๆ บทช่วยสอนนี้เน้นที่การใช้ Aspose.PSD สำหรับ Java ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการไฟล์ PSD เพื่ออ่านแท็ก EXIF อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่บทช่วยสอนนี้ ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
@@ -19,22 +19,21 @@ url: /th/java/java-jpeg-image-processing/read-all-exif-tags-java/
 ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นจาก Aspose.PSD สำหรับ Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-การนำเข้าเหล่านี้จะช่วยให้คุณทำงานกับรูปภาพ PSD และแยกข้อมูลเมตา EXIF ได้อย่างมีประสิทธิภาพ
+การนำเข้าเหล่านี้จะช่วยให้คุณสามารถทำงานกับรูปภาพ PSD และแยกข้อมูลเมตา EXIF ได้อย่างมีประสิทธิภาพ
 ## ขั้นตอนที่ 1: โหลดรูปภาพ PSD
-ขั้นแรกคุณต้องโหลดไฟล์รูปภาพ PSD ที่คุณต้องการแยกแท็ก EXIF :
+ขั้นแรก คุณต้องโหลดไฟล์รูปภาพ PSD ที่คุณต้องการแตกแท็ก EXIF :
 ```java
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");
 ```
  แทนที่`"Your_Document_Directory/"` พร้อมเส้นทางไปยังไดเร็กทอรีของคุณที่มีไฟล์ PSD และ`"your_image.psd"` ด้วยชื่อไฟล์จริง
 ## ขั้นตอนที่ 2: ทำซ้ำทรัพยากรรูปภาพ
-จากนั้นวนซ้ำทรัพยากรรูปภาพเพื่อค้นหาข้อมูล EXIF :
+จากนั้น วนซ้ำทรัพยากรรูปภาพเพื่อค้นหาข้อมูล EXIF:
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || 

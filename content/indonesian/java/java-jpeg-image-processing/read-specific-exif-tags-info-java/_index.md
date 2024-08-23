@@ -8,7 +8,7 @@ weight: 19
 url: /id/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
 ## Perkenalan
-Apakah Anda ingin terjun ke dunia manipulasi file PSD dengan Java? Jika Anda ingin memahami cara membaca tag EXIF tertentu dari gambar PSD, Anda berada di tempat yang tepat. Tutorial ini akan memandu Anda melalui seluruh proses menggunakan Aspose.PSD untuk Java, mulai dari menyiapkan lingkungan hingga mengekstrak data EXIF detail. Mari kita mulai!
+Apakah Anda ingin terjun ke dunia manipulasi file PSD dengan Java? Jika Anda ingin memahami cara membaca tag EXIF tertentu dari gambar PSD, Anda berada di tempat yang tepat. Tutorial ini akan memandu Anda melalui seluruh proses menggunakan Aspose.PSD untuk Java, mulai dari menyiapkan lingkungan hingga mengekstrak data EXIF mendetail. Mari kita mulai!
 ## Prasyarat
 Sebelum kita mendalami kodenya, ada beberapa hal yang perlu Anda siapkan:
 1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di mesin Anda. Anda dapat mengunduhnya dari[Situs web Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -19,7 +19,6 @@ Sebelum kita mendalami kodenya, ada beberapa hal yang perlu Anda siapkan:
 Pertama, Anda harus mengimpor paket Aspose.PSD yang diperlukan ke proyek Java Anda. Berikut cara mengaturnya.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -60,7 +59,7 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
  Kami menggunakan`if` pernyataan untuk memeriksa apakah sumber daya adalah turunan dari`ThumbnailResource` . Jika ya, kami melemparkannya dan mengambilnya kembali`JpegOptions` untuk mengakses`ExifData`Terakhir, kami mencetak berbagai tag EXIF seperti WhiteBalance, Pixel Dimensions, ISOSpeed, dan FocalLength.
 
 ## Kesimpulan
-Dengan mengikuti langkah-langkah ini, Anda telah mempelajari cara membaca tag EXIF tertentu dari gambar PSD menggunakan Aspose.PSD untuk Java. Proses ini melibatkan memuat gambar, mengulangi sumber dayanya, mengidentifikasi sumber daya thumbnail, dan mengekstrak data EXIF. Dengan pengetahuan ini, Anda kini dapat menjelajahi dan memanipulasi data EXIF dalam file PSD Anda, memungkinkan tugas pemrosesan gambar yang lebih canggih.
+Dengan mengikuti langkah-langkah ini, Anda telah mempelajari cara membaca tag EXIF tertentu dari gambar PSD menggunakan Aspose.PSD untuk Java. Proses ini melibatkan pemuatan gambar, mengulangi sumber dayanya, mengidentifikasi sumber daya thumbnail, dan mengekstrak data EXIF. Dengan pengetahuan ini, kini Anda dapat menjelajahi dan memanipulasi data EXIF dalam file PSD Anda, sehingga memungkinkan tugas pemrosesan gambar yang lebih canggih.
 ## FAQ
 ### Apa itu data EXIF?
 Data EXIF (Exchangeable Image File Format) adalah metadata yang tertanam dalam file gambar, berisi informasi seperti pengaturan kamera, tanggal dan waktu, serta dimensi gambar.

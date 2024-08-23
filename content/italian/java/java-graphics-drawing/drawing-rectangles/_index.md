@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /it/java/java-graphics-drawing/drawing-rectangles/
 ---
-## introduzione
+## Introduzione
 Nel mondo dello sviluppo Java, la manipolazione e la generazione di immagini a livello di codice è un requisito comune in varie applicazioni. Uno di questi compiti spesso riscontrato è disegnare forme come rettangoli sulle immagini. Aspose.PSD per Java fornisce un robusto set di strumenti e funzionalità per raggiungere questo obiettivo in modo efficiente. Questo tutorial ti guiderà attraverso il processo di disegno di rettangoli su un'immagine utilizzando Aspose.PSD per Java, passo dopo passo.
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di aver impostato i seguenti prerequisiti:
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```

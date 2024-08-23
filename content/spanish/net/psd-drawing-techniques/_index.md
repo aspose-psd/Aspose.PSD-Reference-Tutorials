@@ -26,7 +26,7 @@ url: /es/net/psd-drawing-techniques/
 
 ## Creando formas elípticas con Aspose.PSD para .NET
 
- Aprenda el arte de dibujar formas elípticas en aplicaciones .NET usando Aspose.PSD. Nuestra guía paso a paso, completa con ejemplos de código, garantiza que pueda crear gráficos impresionantes sin esfuerzo. ¡Empiece hoy![Tutorial de formas elípticas](./creating-elliptical-shapes/)
+ Aprenda el arte de dibujar formas elípticas en aplicaciones .NET usando Aspose.PSD. Nuestra guía paso a paso, completa con ejemplos de código, garantiza que pueda crear gráficos impresionantes sin esfuerzo. ¡Empieza hoy![Tutorial de formas elípticas](./creating-elliptical-shapes/)
 
 ## Dibujar líneas de forma eficaz en Aspose.PSD para .NET
 
@@ -34,7 +34,7 @@ url: /es/net/psd-drawing-techniques/
 
 ## Construyendo rectángulos en Aspose.PSD para .NET
 
-Explore el arte de dibujar rectángulos en .NET con Aspose.PSD. Nuestra guía paso a paso garantiza una integración perfecta, permitiéndole mejorar su juego de manipulación de imágenes sin esfuerzo. ¡Empiece hoy![Tutorial de construcción de rectángulos](./constructing-rectangles/)
+Explore el arte de dibujar rectángulos en .NET con Aspose.PSD. Nuestra guía paso a paso garantiza una integración perfecta, permitiéndole mejorar su juego de manipulación de imágenes sin esfuerzo. ¡Empieza hoy![Tutorial de construcción de rectángulos](./constructing-rectangles/)
 
 ## Dibujo creativo usando gráficos en Aspose.PSD para .NET
 

@@ -7,7 +7,7 @@ type: docs
 weight: 18
 url: /cs/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
-## Úvod
+## Zavedení
 V oblasti vývoje .NET je manipulace a konverze obrázků běžným úkolem. Aspose.PSD for .NET poskytuje výkonnou sadu nástrojů pro zefektivnění tohoto procesu. Jedním z častých požadavků je oříznutí souborů PSD před jejich převedením na PNG. V tomto tutoriálu krok za krokem se ponoříme do procesu pomocí Aspose.PSD pro .NET.
 ## Předpoklady
 Než se vydáme na tuto cestu, ujistěte se, že máte následující:
@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Vytvořte instanci třídy PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Krok 5: Uložte oříznutý obrázek jako PNG.
+## Krok 5: Uložte oříznutý obrázek jako PNG
 ```csharp
 // Zavolejte metodu uložení, zadejte výstupní cestu a PngOptions pro převod souboru PSD na PNG a uložení výstupu
 string destName = dataDir + @"export.png";
@@ -54,17 +54,17 @@ image.Save(destName, pngOptions);
 ```
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak oříznout soubory PSD při jejich převodu na PNG pomocí Aspose.PSD for .NET. Tato schopnost může být neocenitelná v různých scénářích zpracování obrazu.
+Gratuluji! Úspěšně jste se naučili, jak oříznout soubory PSD při jejich převodu na PNG pomocí Aspose.PSD for .NET. Tato schopnost může být neocenitelná v různých scénářích zpracování obrazu.
 
 ## FAQ
 
 ### Q1: Mohu tuto knihovnu použít v komerčním projektu?
 
- Odpověď 1: Ano, Aspose.PSD pro .NET je k dispozici pro komerční použití. Odkazují na[Licencování Aspose.PSD](https://purchase.aspose.com/buy) pro detaily.
+ Odpověď 1: Ano, Aspose.PSD pro .NET je k dispozici pro komerční použití. Viz[Licencování Aspose.PSD](https://purchase.aspose.com/buy) pro podrobnosti.
 
 ### Q2: Je k dispozici bezplatná zkušební verze?
 
- A2: Rozhodně! Můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+A2: Rozhodně! Můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu podporu pro Aspose.PSD pro .NET?
 
@@ -72,8 +72,8 @@ Gratulujeme! Úspěšně jste se naučili, jak oříznout soubory PSD při jejic
 
 ### Q4: Jak získám dočasnou licenci?
 
- A4: Pokud potřebujete dočasnou licenci, můžete ji získat[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Pokud potřebujete dočasnou licenci, můžete ji získat[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jsou v dokumentaci k dispozici nějaké příklady nebo výukové programy?
 
- A5: Ano, můžete najít komplexní dokumentaci a příklady[tady](https://reference.aspose.com/psd/net/).
+ A5: Ano, můžete najít komplexní dokumentaci a příklady[zde](https://reference.aspose.com/psd/net/).

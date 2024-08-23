@@ -82,11 +82,11 @@ Parabéns! Você aprendeu com sucesso como salvar imagens em um stream usando As
 
 ### Q3: Existe um teste gratuito disponível?
 
- A3: Sim, você pode obter uma avaliação gratuita.[aqui](https://releases.aspose.com/)para explorar os recursos do Aspose.PSD antes de fazer uma compra.
+ A3: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/)para explorar os recursos do Aspose.PSD antes de fazer uma compra.
 
 ### P4: Como posso obter uma licença temporária?
 
- A4: Você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste e avaliação.
+ A4: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste e avaliação.
 
 ### Q5: Onde posso comprar Aspose.PSD?
 

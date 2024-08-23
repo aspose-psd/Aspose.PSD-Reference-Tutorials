@@ -16,7 +16,7 @@ url: /zh-hant/java/basic-image-operations/simple-drawing/
 在深入學習本教程之前，請確保您具備以下先決條件：
 
 - 您的電腦上安裝了 Java 開發工具包 (JDK)。
--  Java 函式庫的 Aspose.PSD。您可以從[Aspose.PSD for Java 文檔](https://reference.aspose.com/psd/java/).
+- Java 函式庫的 Aspose.PSD。您可以從[Aspose.PSD for Java 文檔](https://reference.aspose.com/psd/java/).
 
 ## 導入包
 
@@ -45,7 +45,7 @@ int width = 100;
 int height = 100;
 
 PsdImage image = new PsdImage(width, height);
-//ExEnd:建立文檔
+//ExEnd：建立文檔
 ```
 
 ## 第 2 步：新增圖層
@@ -116,11 +116,11 @@ A1：是的，Aspose.PSD for Java 提供了廣泛的功能來編輯和操作現�
 
 ### Q3：Aspose.PSD for Java 有免費試用版嗎？
 
-A3：是的，您可以存取免費試用版。[這裡](https://releases.aspose.com/).
+A3：是的，您可以存取免費試用版[這裡](https://releases.aspose.com/).
 
 ### Q4：如何購買 Aspose.PSD for Java 的授權？
 
- A4：您可以從[Aspose.PSD購買頁面](https://purchase.aspose.com/buy).
+ A4：您可以從[Aspose.PSD 購買頁面](https://purchase.aspose.com/buy).
 
 ### Q5：Aspose.PSD for Java 是否有臨時授權？
 

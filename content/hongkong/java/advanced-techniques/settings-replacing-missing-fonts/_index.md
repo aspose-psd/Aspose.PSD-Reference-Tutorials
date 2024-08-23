@@ -9,7 +9,7 @@ url: /zh-hant/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
 ## 介紹
 
-在 Java 開發的動態領域中，管理和替換 PSD 檔案中缺少的字體可能是創建具有視覺吸引力且無錯誤的映像的關鍵方面。 Aspose.PSD for Java 以其強大的功能來救援，使字體替換成為一個無縫的過程。在本教程中，我們將探索使用 Aspose.PSD for Java 取代遺失字體的步驟，確保您的影像保持其美學完整性。
+在 Java 開發的動態領域中，管理和替換 PSD 檔案中缺少的字體可能是創建具有視覺吸引力且無錯誤的映像的關鍵方面。 Aspose.PSD for Java 以其強大的功能來救援，使字體替換成為一個無縫的過程。在本教程中，我們將探索使用 Aspose.PSD for Java 取代缺失字體的步驟，確保您的影像保持其美學完整性。
 
 ## 先決條件
 
@@ -97,7 +97,7 @@ A2: 是的，您可以根據您的設計要求指定自訂替換字體。
 
 ### Q3：Aspose.PSD 有可用的授權選項嗎？
 
- A3：探索許可選項。[這裡](https://purchase.aspose.com/buy)選擇最適合您需求的方案。
+ A3：探索許可選項[這裡](https://purchase.aspose.com/buy)選擇最適合您需求的方案。
 
 ### Q4：是否有支援 Aspose.PSD 的社群論壇？
 

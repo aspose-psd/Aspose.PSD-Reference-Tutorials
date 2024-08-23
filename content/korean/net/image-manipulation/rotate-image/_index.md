@@ -67,11 +67,11 @@ using (Image image = Image.Load(sourceFile))
 
 ### Q2: Aspose.PSD는 다양한 이미지 형식과 호환됩니까?
 
- 전적으로. Aspose.PSD는 PSD, JPEG, PNG 등을 포함한 광범위한 이미지 형식을 지원합니다. 을 체크 해봐[선적 서류 비치](https://reference.aspose.com/psd/net/) 전체 목록을 보려면.
+ 전적으로. Aspose.PSD는 PSD, JPEG, PNG 등을 포함한 광범위한 이미지 형식을 지원합니다. 확인해보세요[선적 서류 비치](https://reference.aspose.com/psd/net/) 전체 목록을 보려면.
 
 ### Q3: Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- 방문하다[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) Aspose 웹사이트에서 평가 목적으로 임시 라이선스를 얻으세요.
+ 방문[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) Aspose 웹사이트에서 평가 목적으로 임시 라이선스를 얻으세요.
 
 ### Q4: Aspose.PSD에 대한 지원은 어디서 찾을 수 있나요?
 

@@ -12,7 +12,7 @@ Mengubah file AI ke format TIFF adalah persyaratan umum bagi pengembang yang bek
 ## Prasyarat
 Sebelum mendalami proses konversi, pastikan Anda memiliki hal berikut:
 1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK 8 atau lebih tinggi.
-2.  Aspose.PSD untuk Java: Unduh[Aspose.PSD untuk perpustakaan Java](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD untuk Java: Unduh[Aspose.PSD untuk perpustakaan Java](https://releases.aspose.com/psd/java/).
 3. Lingkungan Pengembangan Terpadu (IDE): IDE apa pun pilihan Anda (misalnya, IntelliJ IDEA, Eclipse).
 4. File AI: File Adobe Illustrator (.ai) yang ingin Anda konversi.
 5. TiffOptions: Diperlukan untuk menentukan detail format TIFF.
@@ -20,7 +20,6 @@ Sebelum mendalami proses konversi, pastikan Anda memiliki hal berikut:
 Pertama, Anda perlu mengimpor paket yang diperlukan dari Aspose.PSD. Paket-paket ini menyediakan kelas dan metode yang diperlukan untuk menangani file AI dan TIFF.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -34,7 +33,7 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Di Sini,`dataDir`adalah direktori tempat file AI Anda disimpan. Sesuaikan jalurnya agar sesuai dengan lokasi file Anda.
+ Di Sini,`dataDir` adalah direktori tempat file AI Anda disimpan. Sesuaikan jalurnya agar sesuai dengan lokasi file Anda.
 ## Langkah 3: Tentukan File Output
 Selanjutnya, tentukan jalur file keluaran tempat file TIFF yang dikonversi akan disimpan.
 ```java
@@ -46,7 +45,7 @@ String outFileName = dataDir + "34992OStroke.tiff";
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.TiffDeflateRgba);
 ```
 ## Langkah 5: Simpan File AI sebagai TIFF
- Terakhir, gunakan`save` metode untuk mengkonversi dan menyimpan file AI sebagai file TIFF. Langkah ini menyelesaikan proses konversi.
+ Terakhir, gunakan`save` metode untuk mengonversi dan menyimpan file AI sebagai file TIFF. Langkah ini menyelesaikan proses konversi.
 ```java
 image.save(outFileName, tiffOptions);
 ```

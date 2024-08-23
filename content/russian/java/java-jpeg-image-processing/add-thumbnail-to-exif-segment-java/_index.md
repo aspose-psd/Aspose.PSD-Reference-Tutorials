@@ -14,18 +14,17 @@ url: /ru/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 - Базовые знания Java-программирования.
 - В вашей системе установлен Java Development Kit (JDK).
 - IDE (интегрированная среда разработки) для Java, например IntelliJ IDEA или Eclipse.
--  Aspose.PSD для библиотеки Java. Вы можете скачать его с сайта[Страница загрузки Aspose.PSD для Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD для библиотеки Java. Вы можете скачать его с сайта[Страница загрузки Aspose.PSD для Java](https://releases.aspose.com/psd/java/).
 ## Импортировать пакеты
 Сначала импортируйте необходимые пакеты из Aspose.PSD и Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Разобьем процесс добавления миниатюры в сегмент EXIF в Java с помощью Aspose.PSD на подробные шаги:
+Давайте разобьем процесс добавления миниатюры в сегмент EXIF в Java с помощью Aspose.PSD на подробные этапы:
 ## Шаг 1. Загрузите PSD-изображение
 Загрузите файл изображения PSD в объект PsdImage.
 ```java
@@ -54,7 +53,7 @@ jpegOptions.setQuality(100); // Установить качество JPEG
 image.save(dataDir + "output.psd");
 ```
 ## Заключение
-Добавление миниатюры в сегмент EXIF в Java с помощью Aspose.PSD — это простой процесс, повышающий удобство использования метаданных изображения. Следуя шагам, описанным в этом руководстве, вы можете эффективно обогатить свои изображения миниатюрами предварительного просмотра.
+Добавление миниатюры в сегмент EXIF в Java с помощью Aspose.PSD — это простой процесс, который повышает удобство использования метаданных изображения. Следуя шагам, описанным в этом руководстве, вы можете эффективно обогатить свои изображения миниатюрами предварительного просмотра.
 
 ## Часто задаваемые вопросы
 ### Что такое метаданные EXIF?
@@ -66,4 +65,4 @@ image.save(dataDir + "output.psd");
 ### Как я могу получить временную лицензию на Aspose.PSD?
  Вы можете получить временную лицензию для Aspose.PSD на сайте[здесь](https://purchase.aspose.com/temporary-license/).
 ### Как мне получить поддержку для Aspose.PSD?
- Для поддержки посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ Для получения поддержки посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).

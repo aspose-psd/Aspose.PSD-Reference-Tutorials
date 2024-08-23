@@ -18,7 +18,7 @@ url: /fr/java/basic-image-operations/
 
 ## Le redimensionnement simplifié
 
- Manipulez efficacement la taille des images par programmation avec[Aspose.PSD pour Java](./simple-resizing/)Notre guide convivial simplifie le processus de redimensionnement, vous assurant de saisir chaque détail. Des bases aux techniques avancées, ce tutoriel couvre tout. Plongez et transformez vos images en toute transparence avec Aspose.PSD.
+ Manipulez efficacement la taille des images par programmation avec[Aspose.PSD pour Java](./simple-resizing/). Notre guide convivial simplifie le processus de redimensionnement, vous assurant de saisir chaque détail. Des bases aux techniques avancées, ce tutoriel couvre tout. Plongez et transformez vos images en toute transparence avec Aspose.PSD.
 
 ## Effets d'amplification : prise en charge des modes de fusion
 
@@ -30,9 +30,9 @@ url: /fr/java/basic-image-operations/
 
 ## Transparence dévoilée : vérifier la transparence des images
 
- Explorez le domaine de la vérification de la transparence des images avec[Aspose.PSD pour Java](./verify-image-transparency/)Ce didacticiel intègre de manière transparente la transparence dans vos conceptions, avec une documentation détaillée et un excellent support communautaire. Élevez vos projets de conception avec l’assurance d’une transparence d’image vérifiée à l’aide d’Aspose.PSD pour Java.
+ Explorez le domaine de la vérification de la transparence des images avec[Aspose.PSD pour Java](./verify-image-transparency/). Ce didacticiel intègre de manière transparente la transparence dans vos conceptions, avec une documentation détaillée et un excellent support communautaire. Élevez vos projets de conception avec l’assurance d’une transparence d’image vérifiée à l’aide d’Aspose.PSD pour Java.
 
-En conclusion, ces didacticiels fournissent une compréhension globale des opérations de base sur les images à l'aide d'Aspose.PSD pour Java. Que vous soyez novice ou designer expérimenté, libérez le potentiel de la conception graphique avec nos guides étape par étape. Plongez et laissez votre créativité s'épanouir !
+En conclusion, ces didacticiels fournissent une compréhension globale des opérations de base sur les images à l'aide d'Aspose.PSD pour Java. Que vous soyez novice ou designer expérimenté, libérez le potentiel de la conception graphique avec nos guides étape par étape. Plongez et laissez libre cours à votre créativité !
 ## Didacticiels sur les opérations de base sur les images
 ### [Effectuer un dessin simple avec Aspose.PSD pour Java](./simple-drawing/)
 Apprenez à dessiner des formes dans des fichiers PSD à l'aide d'Aspose.PSD pour Java. Ce guide étape par étape couvre la création, l'ajout de calques et le dessin avec des exemples de code.

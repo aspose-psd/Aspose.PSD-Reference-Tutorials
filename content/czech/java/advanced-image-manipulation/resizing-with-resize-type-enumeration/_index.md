@@ -7,7 +7,7 @@ type: docs
 weight: 18
 url: /cs/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
-## Úvod
+## Zavedení
 
 V neustále se vyvíjejícím prostředí vývoje v Javě je efektivní zpracování obrazu klíčovým aspektem, se kterým se vývojáři často potýkají. Aspose.PSD for Java se ukazuje jako výkonné řešení, které poskytuje bezproblémový zážitek pro změnu velikosti obrázků s přidanou výhodou Resize Type Enumeration. V tomto tutoriálu se ponoříme do složitosti změny velikosti obrázků pomocí Aspose.PSD pro Java a rozebereme každý krok, abychom zajistili komplexní pochopení.
 
@@ -17,7 +17,7 @@ Než se pustíte do tohoto kurzu, ujistěte se, že máte splněny následujíc�
 
 1. Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí Java.
 
-2. Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD z[webová stránka](https://releases.aspose.com/psd/java/).
+2. Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD z[webové stránky](https://releases.aspose.com/psd/java/).
 
 3.  Ukázkový soubor PSD: Připravte si ukázkový soubor PSD k experimentování. Můžete použít[sample.psd](Váš adresář dokumentů/sample.psd) pro tento výukový program.
 
@@ -81,7 +81,7 @@ Odpověď 2: Ano, Aspose.PSD pro Java nabízí různé typy změn velikosti, nap
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD pro Java?
 

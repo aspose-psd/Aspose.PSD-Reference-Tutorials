@@ -8,7 +8,7 @@ weight: 22
 url: /cs/net/text-and-font-manipulation/
 ---
 
-## Úvod
+## Zavedení
 
 Jste připraveni posunout své .NET aplikace na další úroveň? Prozkoumejte fascinující svět manipulace s textem a písmy pomocí výukových programů Aspose.PSD pro .NET. V tomto článku se ponoříme do dvou základních výukových programů, které vám umožní bez námahy vylepšit vaše možnosti návrhu.
 

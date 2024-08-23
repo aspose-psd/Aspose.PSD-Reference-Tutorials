@@ -85,11 +85,11 @@ R1: Sí, Aspose.PSD para .NET es compatible con varios marcos .NET, incluidos .N
 
 ### P2: ¿Dónde puedo encontrar documentación completa sobre Aspose.PSD para .NET?
 
- A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/psd/net/) para obtener información detallada y ejemplos de código.
+A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/psd/net/) para obtener información detallada y ejemplos de código.
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
-R3: Sí, puede explorar las capacidades de Aspose.PSD para .NET descargando la versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+R3: Sí, puede explorar las capacidades de Aspose.PSD para .NET descargando la versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -97,4 +97,4 @@ R3: Sí, puede explorar las capacidades de Aspose.PSD para .NET descargando la v
 
 ### P5: ¿Puedo obtener una licencia temporal de Aspose.PSD para .NET?
 
- R5: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
+ R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para fines de evaluación.

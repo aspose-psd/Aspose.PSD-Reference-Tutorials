@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
-## Úvod
+## Zavedení
 
 Ve světě vývoje v Javě je dosažení vysoce kvalitní změny velikosti obrazu běžným požadavkem. Aspose.PSD for Java poskytuje výkonné řešení se svým bikubickým resamplerem. Tento podrobný průvodce vás provede procesem implementace Bicubic Resampler pomocí Aspose.PSD pro Java. Na konci tohoto kurzu budete připraveni vylepšit své Java aplikace o vynikající možnosti změny velikosti obrázků.
 
@@ -68,7 +68,7 @@ Opakujte tyto kroky podle potřeby pro váš konkrétní případ použití a po
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste implementovali Bicubic Resampler v Aspose.PSD pro Javu. Tato výkonná funkce vylepšuje možnosti změny velikosti obrázků a zajišťuje vysoce kvalitní výsledky pro vaše aplikace Java.
+Gratuluji! Úspěšně jste implementovali Bicubic Resampler v Aspose.PSD pro Javu. Tato výkonná funkce vylepšuje možnosti změny velikosti obrázků a zajišťuje vysoce kvalitní výsledky pro vaše aplikace Java.
 
 ## FAQ
 
@@ -78,16 +78,16 @@ Odpověď 1: Ano, Aspose.PSD for Java podporuje různé formáty obrázků, vče
 
 ### Q2: Je k dispozici dočasná licence pro Aspose.PSD pro Java?
 
- A2: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+ A2: Ano, můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Kde najdu podporu pro Aspose.PSD pro Java?
 
- Odpověď 3: Navštivte fórum Aspose.PSD[tady](https://forum.aspose.com/c/psd/34) pro jakékoli dotazy týkající se podpory.
+ Odpověď 3: Navštivte fórum Aspose.PSD[zde](https://forum.aspose.com/c/psd/34) pro jakékoli dotazy týkající se podpory.
 
 ### Q4: Mohu si stáhnout knihovnu Aspose.PSD for Java?
 
- A4: Ano, stáhněte si knihovnu ze stránky vydání.[tady](https://releases.aspose.com/psd/java/).
+ A4: Ano, stáhněte si knihovnu ze stránky vydání[zde](https://releases.aspose.com/psd/java/).
 
 ### Otázka 5: Jak zakoupím Aspose.PSD pro Java?
 
- Odpověď 5: Aspose.PSD pro Java můžete zakoupit na nákupní stránce[tady](https://purchase.aspose.com/buy).
+ Odpověď 5: Aspose.PSD pro Java můžete zakoupit na nákupní stránce[zde](https://purchase.aspose.com/buy).

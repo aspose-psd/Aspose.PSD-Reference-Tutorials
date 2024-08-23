@@ -85,7 +85,7 @@ graphic.DrawArc(new Pen(Color.Black), 0, 0, width, height, startAngle, sweepAngl
 image.Save(outpath, saveOptions);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να σχεδιάζετε τόξα χρησιμοποιώντας το Aspose.PSD για .NET. Αυτή η ισχυρή βιβλιοθήκη ανοίγει ατελείωτες δυνατότητες για τη δημιουργία εκπληκτικών γραφικών στις εφαρμογές σας.
 
@@ -93,11 +93,11 @@ image.Save(outpath, saveOptions);
 
 ### Ε1: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.PSD για .NET;
 
- A1: Μπορείτε να βρείτε την τεκμηρίωση.[εδώ](https://reference.aspose.com/psd/net/).
+ A1: Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/psd/net/).
 
 ### Ε2: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;
 
- A2: Μπορείτε να πάρετε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
+ A2: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε3: Υπάρχει κάποιο φόρουμ κοινότητας για υποστήριξη Aspose.PSD;
 
@@ -105,8 +105,8 @@ image.Save(outpath, saveOptions);
 
 ### Ε4: Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.PSD;
 
- A4: Μπορείτε να αγοράσετε μια άδεια.[εδώ](https://purchase.aspose.com/buy).
+ A4: Μπορείτε να αγοράσετε μια άδεια[εδώ](https://purchase.aspose.com/buy).
 
 ### Ε5: Μπορώ να δοκιμάσω το Aspose.PSD για .NET δωρεάν πριν από την αγορά;
 
- A5: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής.[εδώ](https://releases.aspose.com/).
+ A5: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής[εδώ](https://releases.aspose.com/).

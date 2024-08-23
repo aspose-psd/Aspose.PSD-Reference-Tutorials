@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /it/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
 ---
-## introduzione
+## Introduzione
 Ehilà! Sei pronto per tuffarti nel mondo dell'elaborazione delle immagini utilizzando Java? Oggi esploreremo la libreria Aspose.PSD per Java, un potente strumento che ti consente di manipolare e trasformare facilmente i file PSD. Nello specifico, vedremo come gestire i JPEG a 2 e 7 bit. Questo tutorial ti guiderà attraverso tutto ciò che devi sapere, dai prerequisiti alle istruzioni dettagliate passo dopo passo. Quindi, allacciate le cinture e preparatevi per un giro divertente e informativo!
 ## Prerequisiti
 Prima di iniziare, assicuriamoci di avere tutto ciò di cui hai bisogno:
@@ -21,7 +21,6 @@ Va bene, sporchiamoci le mani!
 Per prima cosa importiamo i pacchetti necessari. Per iniziare avrai bisogno della libreria Aspose.PSD per Java. Assicurati di aver aggiunto la libreria alle dipendenze del tuo progetto. Ecco come farlo:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,7 +67,7 @@ Congratulazioni! Hai appena imparato come manipolare i file PSD e salvarli come 
 ### Cos'è Aspose.PSD per Java?
 Aspose.PSD per Java è una potente libreria che ti consente di lavorare con file PSD nelle applicazioni Java. Offre una vasta gamma di funzionalità per la manipolazione e la trasformazione delle immagini.
 ### Come installo Aspose.PSD per Java?
- È possibile scaricare la libreria da[sito web](https://releases.aspose.com/psd/java/) e aggiungilo alle dipendenze del tuo progetto.
+È possibile scaricare la libreria da[sito web](https://releases.aspose.com/psd/java/) e aggiungilo alle dipendenze del tuo progetto.
 ### Posso utilizzare profili colore personalizzati con Aspose.PSD per Java?
 Sì, puoi impostare profili colore RGB e CMYK personalizzati quando configuri le opzioni JPEG.
 ### Quali sono i formati di immagine supportati in Aspose.PSD per Java?

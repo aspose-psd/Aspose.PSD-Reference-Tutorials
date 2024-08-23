@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -55,7 +54,7 @@ Rajzoljon ellipszist a képre a Pen objektum és egy határoló téglalap segít
 graphics.drawEllipse(pen, new Rectangle(10, 10, 150, 100));
 ```
 ## 6. lépés: Használjon ecsetet a töltéshez
-Határozzon meg és használjon LinearGradientBrush-t egy sokszög színátmenettel való kitöltéséhez:
+Határozzon meg és használja a LinearGradientBrush-t egy sokszög színátmenettel való kitöltéséhez:
 ```java
 LinearGradientBrush linearGradientBrush = new LinearGradientBrush(image.getBounds(), Color.getRed(), Color.getWhite(), 45f);
 Point[] points = { new Point(200, 200), new Point(400, 200), new Point(250, 350) };
@@ -75,8 +74,8 @@ Igen, az Aspose.PSD a műveletek széles skáláját támogatja, beleértve a r�
 ### Az Aspose.PSD alkalmas nagy teljesítményű alkalmazásokhoz?
 Természetesen az Aspose.PSD a teljesítményre és a memória hatékonyságára van optimalizálva.
 ### Hol találok további példákat és dokumentációt?
- Meglátogatni a[Aspose.PSD Java dokumentáció](https://reference.aspose.com/psd/java/) átfogó útmutatókért és API-referenciákért.
+ Látogassa meg a[Aspose.PSD Java dokumentáció](https://reference.aspose.com/psd/java/) átfogó útmutatókért és API-referenciákért.
 ### Támogatja az Aspose.PSD többféle képformátumot az exportáláshoz?
 Igen, az Aspose.PSD támogatja az exportálást különféle formátumokba, például BMP, PNG, JPEG és TIFF.
 ### Hogyan kaphatok támogatást vagy segítséget, ha problémákba ütközöm?
-Lépjen kapcsolatba az Aspose.PSD közösséggel a webhelyen[támogatói fórum](https://forum.aspose.com/c/psd/34) vagy fontolja meg a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) kiemelt támogatásért.
+Lépjen kapcsolatba az Aspose.PSD közösséggel a webhelyen[támogatási fórum](https://forum.aspose.com/c/psd/34) vagy fontolja meg a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) kiemelt támogatásért.

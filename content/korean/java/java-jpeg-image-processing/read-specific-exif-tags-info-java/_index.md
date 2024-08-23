@@ -8,7 +8,7 @@ weight: 19
 url: /ko/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
 ## 소개
-Java를 사용한 PSD 파일 조작의 세계에 뛰어들고 싶으십니까? PSD 이미지에서 특정 EXIF 태그를 읽는 방법을 이해하고 싶다면 올바른 위치에 있습니다. 이 튜토리얼에서는 환경 설정부터 자세한 EXIF 데이터 추출까지 Aspose.PSD for Java를 사용하는 전체 프로세스를 안내합니다. 시작하자!
+Java를 사용한 PSD 파일 조작의 세계에 뛰어들고 싶으십니까? PSD 이미지에서 특정 EXIF 태그를 읽는 방법을 이해하고 싶다면 올바른 위치에 있습니다. 이 튜토리얼에서는 환경 설정부터 자세한 EXIF 데이터 추출까지 Aspose.PSD for Java를 사용하는 전체 프로세스를 안내합니다. 시작해 봅시다!
 ## 전제조건
 코드를 살펴보기 전에 준비해야 할 몇 가지 사항이 있습니다.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 JDK 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -19,7 +19,6 @@ Java를 사용한 PSD 파일 조작의 세계에 뛰어들고 싶으십니까? P
 먼저 필요한 Aspose.PSD 패키지를 Java 프로젝트로 가져와야 합니다. 설정 방법은 다음과 같습니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -42,7 +41,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     }
 }
 ```
- 우리는 다음을 사용하여 이미지 리소스를 반복합니다.`for` 고리. 목표는 인스턴스인 리소스를 식별하는 것입니다.`ThumbnailResource` 또는`Thumbnail4Resource`, EXIF 데이터를 보유하는 유형이기 때문입니다.
+ 우리는 다음을 사용하여 이미지 리소스를 반복합니다.`for` 고리. 목표는 인스턴스인 리소스를 식별하는 것입니다.`ThumbnailResource` 또는`Thumbnail4Resource`, 이는 EXIF 데이터를 보유하는 유형이기 때문입니다.
 ## 3단계: EXIF 데이터 추출
 썸네일 리소스를 식별하면 EXIF 데이터를 추출하여 콘솔에 인쇄합니다.
 ```java
@@ -60,7 +59,7 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
  우리는`if` 리소스가 인스턴스인지 확인하는 명령문`ThumbnailResource` . 그렇다면 우리는 그것을 캐스팅하고 검색합니다.`JpegOptions` 액세스하려면`ExifData`마지막으로 WhiteBalance, Pixel Dimensions, ISOSpeed 및 FocalLength와 같은 다양한 EXIF 태그를 인쇄합니다.
 
 ## 결론
-이 단계를 수행함으로써 Java용 Aspose.PSD를 사용하여 PSD 이미지에서 특정 EXIF 태그를 읽는 방법을 배웠습니다. 이 프로세스에는 이미지 로드, 리소스 반복, 썸네일 리소스 식별 및 EXIF 데이터 추출이 포함됩니다. 이러한 지식을 바탕으로 이제 PSD 파일의 EXIF 데이터를 탐색하고 조작하여 보다 정교한 이미지 처리 작업을 수행할 수 있습니다.
+다음 단계를 수행함으로써 Java용 Aspose.PSD를 사용하여 PSD 이미지에서 특정 EXIF 태그를 읽는 방법을 배웠습니다. 이 프로세스에는 이미지 로드, 리소스 반복, 썸네일 리소스 식별 및 EXIF 데이터 추출이 포함됩니다. 이러한 지식을 바탕으로 이제 PSD 파일의 EXIF 데이터를 탐색하고 조작하여 보다 정교한 이미지 처리 작업을 수행할 수 있습니다.
 ## FAQ
 ### EXIF 데이터란 무엇입니까?
 EXIF(Exchangeable Image File Format) 데이터는 카메라 설정, 날짜 및 시간, 이미지 크기 등의 정보를 포함하는 이미지 파일에 포함된 메타데이터입니다.

@@ -2,7 +2,7 @@
 title: Avancerad bildbehandling
 linktitle: Avancerad bildbehandling
 second_title: Aspose.PSD Java API
-description: Utforska avancerade självstudier för bildmanipulering med Aspose.PSD för Java. Lär dig att effektivt byta teckensnitt, tvinga teckensnittscache, implementera bikubisk resampler och mer.
+description: Utforska avancerade självstudier för bildmanipulering med Aspose.PSD för Java. Lär dig effektivt byte av teckensnitt, tvinga teckensnittscache, implementera bikubisk resampler och mer.
 type: docs
 weight: 24
 url: /sv/java/advanced-image-manipulation/
@@ -42,11 +42,11 @@ Utforska steg-för-steg-guiden för att tillämpa renderingsskuggor i Aspose.PSD
 
 ## Enkel proportionell bildstorleksändring
 ### [Ändra storlek på bild proportionellt med Aspose.PSD för Java](./resize-image-proportionally/)
-Förbättra dina Java-applikationer med Aspose.PSD. Vår guide tar dig genom processen att ändra storlek på bilder proportionellt utan ansträngning.
+Förbättra dina Java-applikationer med Aspose.PSD. Vår guide tar dig igenom processen att ändra storlek på bilder proportionellt utan ansträngning.
 
 ## Behärskning av bildstorleksändring med resize Type Enumeration
 ### [Ändra storlek med Resize Type Enumeration i Aspose.PSD för Java](./resizing-with-resize-type-enumeration/)
-Master bildstorleksändring i Java med Aspose.PSD. Vår steg-för-steg-guide som använder Resize Type Enumeration säkerställer precision och effektivitet.
+Master bildstorleksändring i Java med Aspose.PSD. Vår steg-för-steg guide som använder Resize Type Enumeration säkerställer precision och effektivitet.
 
 ## Sömlös bildrotation i Java
 ### [Rotera en bild i Aspose.PSD för Java](./rotate-image/)

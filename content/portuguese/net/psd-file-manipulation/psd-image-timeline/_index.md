@@ -15,7 +15,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 -  Aspose.PSD para .NET instalado. Você pode baixar a versão mais recente[aqui](https://releases.aspose.com/psd/net/).
 - Um editor de código como o Visual Studio para implementação perfeita.
 ## Importar namespaces
-Em seu projeto C#, importe os namespaces necessários para acessar as funcionalidades do Aspose.PSD:
+Em seu projeto C#, certifique-se de importar os namespaces necessários para acessar as funcionalidades do Aspose.PSD:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -71,7 +71,7 @@ A1: Não, o Aspose.PSD foi projetado especificamente para aplicativos .NET.
 
 ### Q3: Posso experimentar o Aspose.PSD gratuitamente antes de comprar uma licença?
 
- A3: Sim, você pode acessar a avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q4: Onde posso encontrar documentação detalhada para Aspose.PSD?
 

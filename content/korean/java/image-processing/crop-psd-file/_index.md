@@ -17,7 +17,7 @@ Java 개발 세계에서는 PSD(Photoshop Document) 파일을 관리하고 조�
 
 - Java 개발 환경: 시스템에 기능적인 Java 개발 환경이 설치되어 있는지 확인하십시오.
 
--  Java용 Aspose.PSD: Java용 Aspose.PSD 라이브러리를 다운로드하고 설정합니다. 라이브러리와 해당 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/psd/java/).
+-  Java용 Aspose.PSD: Java용 Aspose.PSD 라이브러리를 다운로드하고 설정하세요. 라이브러리와 해당 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/psd/java/).
 
 - 샘플 PSD 파일: 자르려는 샘플 PSD 파일을 준비합니다. Java 프로젝트 내에서 액세스할 수 있는지 확인하세요.
 
@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 지정된 경로를 사용하여 자른 이미지를 PSD 형식으로 저장합니다.
 
-## 5단계: 자른 이미지를 PNG로 저장합니다.
+## 5단계: 자른 이미지를 PNG로 저장
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";

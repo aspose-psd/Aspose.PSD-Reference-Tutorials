@@ -115,7 +115,7 @@ A2: 물론이죠! Aspose.PSD는 최신 PSD 파일 형식 사양과 보조를 맞
 
 ### Q4: 구매하기 전에 Aspose.PSD를 사용해 볼 수 있나요?
 
- A4: 물론이죠! 잡아[무료 시험판](https://releases.aspose.com/) 약속을 하기 전에 Aspose.PSD의 기능을 살펴보세요.
+ A4: 물론이죠! 잡아[무료 평가판](https://releases.aspose.com/) 약속을 하기 전에 Aspose.PSD의 기능을 살펴보세요.
 
 ### Q5: Aspose.PSD 임시 라이선스는 어디서 구할 수 있나요?
 

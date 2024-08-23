@@ -16,7 +16,7 @@ Bạn đang làm việc với hình ảnh và cần đảm bảo tính minh bạ
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java: Đảm bảo rằng bạn đã cài đặt Java trên hệ thống của mình.
--  Aspose.PSD cho Java: Tải xuống và cài đặt thư viện Aspose.PSD cho Java. Bạn có thể tìm thấy thư viện và tài liệu trên[trang mạng](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD cho Java: Tải xuống và cài đặt thư viện Aspose.PSD cho Java. Bạn có thể tìm thấy thư viện và tài liệu trên[trang web](https://releases.aspose.com/psd/java/).
 
 ## Gói nhập khẩu
 
@@ -77,7 +77,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java được thiết kế để hoạt 
 
 ### Câu 3: Tôi có thể tìm tài liệu chi tiết ở đâu?
 
- A3: Hãy tham khảo[tài liệu](https://reference.aspose.com/psd/java/)để biết thông tin toàn diện về cách sử dụng Aspose.PSD cho Java.
+ A3: Hãy tham khảo[tài liệu](https://reference.aspose.com/psd/java/) để biết thông tin toàn diện về cách sử dụng Aspose.PSD cho Java.
 
 ### Q4: Làm thế nào tôi có thể nhận được hỗ trợ?
 
@@ -85,4 +85,4 @@ Câu trả lời 1: Có, Aspose.PSD cho Java được thiết kế để hoạt 
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
- Câu trả lời 5: Nếu bạn đang thử nghiệm thư viện, bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Nếu bạn đang thử nghiệm thư viện, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

@@ -50,13 +50,13 @@ Prêt à faire passer vos conceptions graphiques Java au niveau supérieur ? Ma
 
 Libérez le potentiel d'Aspose.PSD pour Java et embarquez pour un voyage de créativité et d'innovation. Nos didacticiels fournissent les conseils dont vous avez besoin pour devenir un développeur compétent en traitement d'images Java. Plongez, explorez et améliorez vos compétences dès aujourd'hui !
 ## Aspose.PSD pour les didacticiels Java
-### [Traitement d'image](./image-processing/)
+### [Traitement d'images](./image-processing/)
 Libérez le potentiel d’Aspose.PSD pour Java dans le traitement d’images. Apprenez à appliquer les filtres gaussiens, Wiener, médians et Motion Wiener étape par étape.
 ### [Conversion PSD](./psd-conversion/)
 Boostez votre traitement d'images Java avec Aspose.PSD ! Apprenez à convertir le PSD CMJN en TIFF CMJN, à maîtriser la conversion des couleurs, à recadrer les fichiers PSD, etc. 
 ### [Techniques avancées](./advanced-techniques/)
 Maîtrisez sans effort les techniques avancées de traitement d'images Java avec les didacticiels Aspose.PSD. Échelle de gris, chargez, convertissez, restituez du texte, enregistrez efficacement et bien plus encore !
-### [L'édition d'image](./image-editing/)
+### [Édition d'images](./image-editing/)
 Découvrez la magie des effets de superposition de couleurs, de la fusion d'images et du traitement transparent des images avec Aspose.PSD. Améliorez votre jeu d'édition d'images avec nos guides.
 ### [Manipulation avancée des images](./advanced-image-manipulation/)
 Explorez des didacticiels avancés sur la manipulation d'images avec Aspose.PSD pour Java. Apprenez à remplacer efficacement les polices, forcez la mise en cache des polices, implémentez un rééchantillonneur bicubique, et bien plus encore.
@@ -72,3 +72,17 @@ Convertissez sans effort les fichiers AI en différents formats en Java à l'aid
 Convertissez facilement PSB en JPG, PDF et PSD en Java à l'aide d'Aspose.PSD. Suivez nos tutoriels pour des conversions d'images transparentes et améliorez vos projets.
 ### [Traitement d'images Java JPEG](./java-jpeg-image-processing/)
 Découvrez les tutoriels Aspose.PSD pour Java. Apprenez à gérer le traitement EXIF, JFIF, JPEG et bien plus encore avec des guides étape par étape et des exemples de code.
+### [Optimisation des fichiers PNG](./optimizing-png-files/)
+Explorez des didacticiels complets pour optimiser les fichiers PNG à l'aide d'Aspose.PSD pour Java, couvrant les filtres, les changements de couleur d'arrière-plan, la compression, la résolution, la profondeur de bits et la transparence.
+### [Modification et conversion d'images PSD](./modifying-converting-psd-images/)
+Améliorez vos fichiers PSD avec divers ajustements et effets à l'aide d'Aspose.PSD pour Java. Didacticiels étape par étape sur la manipulation des couleurs, les filigranes et bien plus encore.
+### [Modification et conversion d'images PSD](./psd-image-modification-conversion/)
+Découvrez les didacticiels essentiels Aspose.PSD pour Java. Apprenez à gérer les fichiers PSD, à exporter des calques, à appliquer des effets et bien plus encore grâce à des guides étape par étape.
+### [Gestion et effets des calques PSD](./psd-layer-management-effects/)
+Explorez des didacticiels complets sur la gestion et les effets des couches PSD avec Aspose.PSD pour Java. Apprenez à fusionner, aplatir et personnaliser les calques PSD sans effort.
+### [Fonctionnalités et effets avancés du calque PSD](./advanced-psd-layer-features-effects/)
+Explorez les fonctionnalités et effets avancés de la couche PSD avec Aspose.PSD pour Java. Apprenez à manipuler des calques, à ajouter des effets et à prendre en charge diverses ressources dans les fichiers PSD.
+### [Compression et configuration des images TIFF](./tiff-image-compression-configuration/)
+Gérez efficacement les images TIFF avec Aspose.PSD pour Java. Apprenez à compresser, configurer et appliquer la compression Adobe Deflate aux fichiers TIFF grâce à nos didacticiels étape par étape.
+### [Travailler avec des fichiers PSD](./working-with-psd-files/)
+Explorez des didacticiels complets sur Aspose.PSD pour Java, notamment sur la façon d'exporter des groupes de couches PSD vers des images et de manipuler les ressources Clbl, Infx et Lspf.

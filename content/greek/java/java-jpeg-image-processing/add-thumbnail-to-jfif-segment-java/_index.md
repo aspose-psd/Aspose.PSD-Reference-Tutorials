@@ -12,14 +12,13 @@ url: /el/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ## Προαπαιτούμενα
 Πριν προχωρήσετε σε αυτό το σεμινάριο, βεβαιωθείτε ότι έχετε ρυθμίσει τις ακόλουθες προϋποθέσεις:
 -  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει Java στο σύστημά σας. Μπορείτε να το κατεβάσετε από[Ο ιστότοπος JDK της Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
--  Aspose.PSD για Java: Πρέπει να έχετε βιβλιοθήκη Aspose.PSD για Java. Μπορείτε να το προμηθευτείτε από το[Aspose.PSD Σελίδα λήψης Java](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD για Java: Πρέπει να έχετε βιβλιοθήκη Aspose.PSD για Java. Μπορείτε να το αποκτήσετε από το[Σελίδα λήψης Aspose.PSD Java](https://releases.aspose.com/psd/java/).
 - Ενσωματωμένο περιβάλλον ανάπτυξης (IDE): Χρησιμοποιήστε ένα IDE όπως το IntelliJ IDEA ή το Eclipse για ανάπτυξη Java.
 - Βασική Κατανόηση της Java: Εξοικείωση με τη γλώσσα προγραμματισμού Java και τις έννοιες.
 ## Εισαγωγή πακέτων
 Πριν ξεκινήσετε την κωδικοποίηση, εισαγάγετε τα απαραίτητα πακέτα για να χρησιμοποιήσετε τις λειτουργίες Aspose.PSD:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -31,7 +30,7 @@ import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");
 ```
-## Βήμα 2: Επανάληψη μέσω των πόρων εικόνας
+## Βήμα 2: Επανάληψη μέσω πόρων εικόνας
 Επαναλάβετε τους πόρους εικόνας για να βρείτε το τμήμα JFIF:
 ```java
 for(int i = 0; i < image.getImageResources().length; i++) {
@@ -78,7 +77,7 @@ try {
 image.save(dataDir + "output.psd");
 ```
 
-## συμπέρασμα
+## Σύναψη
 Συμπερασματικά, αυτό το σεμινάριο σας καθοδήγησε στη διαδικασία προσθήκης μιας μικρογραφίας στο τμήμα JFIF μιας εικόνας PSD χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθώντας αυτά τα βήματα, μπορείτε να βελτιώσετε τις εφαρμογές σας Java με ισχυρές δυνατότητες επεξεργασίας εικόνας που προσφέρονται από το Aspose.PSD.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD για Java;

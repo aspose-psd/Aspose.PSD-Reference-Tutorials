@@ -1,6 +1,6 @@
 ---
-title: Edycja obrazka
-linktitle: Edycja obrazka
+title: Edycja obrazu
+linktitle: Edycja obrazu
 second_title: Aspose.PSD API Java
 description: Odkryj magię efektów nakładania kolorów, łączenia obrazów i płynnego przetwarzania obrazów za pomocą Aspose.PSD. Ulepsz swoją grę w edycję obrazu dzięki naszym przewodnikom.
 type: docs
@@ -9,7 +9,7 @@ url: /pl/java/image-editing/
 ---
 ## Wstęp 
 
-Witamy w krainie mistrzostwa w edycji obrazów! W tej kolekcji samouczków zagłębiamy się w potężne możliwości Aspose.PSD dla Java, prowadząc Cię przez sztukę ulepszania, łączenia i manipulowania obrazami bez wysiłku. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, dołącz do nas w tej podróży, aby odkryć magię efektów nakładania kolorów, łączenia obrazów, tworzenia metadanych XMP i płynnego przetwarzania obrazów. Podnieś poziom swojej gry edycyjnej dzięki przewodnikom krok po kroku, które odkrywają potencjał Aspose.PSD dla Java, zapewniając umiejętności przekształcania twoich dzieł wizualnych. Zanurzmy się i odkryjmy fascynujący świat edycji obrazów!
+Witamy w krainie mistrzostwa w edycji obrazów! W tym zbiorze samouczków zagłębiamy się w potężne możliwości Aspose.PSD dla Java, prowadząc Cię przez sztukę ulepszania, łączenia i manipulowania obrazami bez wysiłku. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, dołącz do nas w tej podróży, aby odkryć magię efektów nakładania kolorów, łączenia obrazów, tworzenia metadanych XMP i płynnego przetwarzania obrazów. Podnieś poziom swojej gry edycyjnej dzięki przewodnikom krok po kroku, które odkrywają potencjał Aspose.PSD dla Java, zapewniając umiejętności przekształcania twoich dzieł wizualnych. Zanurzmy się i odkryjmy fascynujący świat edycji obrazów!
 
 ## Zastosuj efekt nakładki kolorów w Aspose.PSD dla Java
 

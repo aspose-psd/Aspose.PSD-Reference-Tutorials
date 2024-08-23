@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /it/net/layer-effects/working-with-blend-modes/
 ---
-## introduzione
+## Introduzione
 
 Se sei uno sviluppatore .NET che desidera migliorare le tue capacità di elaborazione delle immagini, Aspose.PSD per .NET è un potente strumento che ti consente di lavorare senza problemi con varie modalità di fusione. Le modalità di fusione svolgono un ruolo cruciale nella manipolazione delle immagini definendo il modo in cui i livelli si fondono tra loro. In questa guida passo passo approfondiremo il mondo delle modalità di fusione e dimostreremo come utilizzarle in modo efficace nelle applicazioni .NET.
 

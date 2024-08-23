@@ -80,7 +80,7 @@ image.save(destName, new GifOptions());
 
 ## FAQ
 
-### Q1: PSD 이외의 형식의 이미지에 이러한 필터를 적용할 수 있습니까?
+### Q1: PSD 이외의 형식의 이미지에 이러한 필터를 적용할 수 있나요?
 
 A1: 예, Java용 Aspose.PSD는 PSD 이외의 다양한 이미지 형식을 지원합니다.
 

@@ -8,7 +8,7 @@ weight: 11
 url: /tr/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
 ## giriiş
-Java'da bir görüntüye kontur katmanı deseni eklemek göz korkutucu bir görev gibi görünebilir, ancak Aspose.PSD for Java ile bu düşündüğünüzden daha kolaydır. İster grafik tasarlıyor olun ister fotoğraf düzenleme uygulamaları üzerinde çalışıyor olun, bu kılavuz süreç boyunca size adım adım yol gösterecektir. başlamaya hazır mısın? Hadi dalalım!
+Java'da bir görüntüye kontur katmanı deseni eklemek göz korkutucu bir görev gibi görünebilir, ancak Aspose.PSD for Java ile bu düşündüğünüzden daha kolaydır. İster grafik tasarlıyor olun ister fotoğraf düzenleme uygulamaları üzerinde çalışıyor olun, bu kılavuz süreç boyunca size adım adım yol gösterecektir. Başlamaya hazır mısınız? Hadi dalalım!
 ## Önkoşullar
 Başlamadan önce birkaç şeye ihtiyacınız olacak:
 - Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -127,7 +126,7 @@ catch (Exception e)
 ```
 Bu adım, desen verilerinin kontur efektine doğru şekilde uygulandığını doğrular.
 ## Çözüm
-İşte buyur! Aspose.PSD for Java'yı kullanarak bir PSD dosyasına başarıyla kontur katmanı deseni eklediniz. Bu adımları izleyerek görsellerinizi kolaylıkla özelleştirebilir ve geliştirebilirsiniz. Mutlu kodlama!
+Ve işte karşınızda! Aspose.PSD for Java'yı kullanarak bir PSD dosyasına başarıyla kontur katmanı deseni eklediniz. Bu adımları izleyerek görsellerinizi kolaylıkla özelleştirebilir ve geliştirebilirsiniz. Mutlu kodlama!
 ## SSS'ler
 ### Java için Aspose.PSD nedir?
 Aspose.PSD for Java, geliştiricilerin PSD (Photoshop Belgesi) dosyalarını programlı olarak oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir kitaplıktır.

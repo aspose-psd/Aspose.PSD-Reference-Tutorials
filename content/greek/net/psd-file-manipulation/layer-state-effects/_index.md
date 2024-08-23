@@ -39,7 +39,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
 Timeline timeline = psdImage.Timeline;
 var layerStateEffects = timeline.Frames[frameIndex].LayerStates[layerIndex].StateEffects;
 ```
-## Βήμα 3: Προσθέστε εφέ κατάστασης επιπέδου
+## Βήμα 3: Προσθήκη εφέ κατάστασης επιπέδου
 Τώρα, ας προσθέσουμε διάφορα εφέ κατάστασης επιπέδου στο επιλεγμένο επίπεδο. Σε αυτό το παράδειγμα, θα προσθέσουμε Drop Shadow και Gradient Overlay.
 ```csharp
 layerStateEffects.AddDropShadow();
@@ -57,7 +57,7 @@ layerStateEffects.IsVisible = false;
 string outputFile = Path.Combine(outputDir, "output.psd");
 psdImage.Save(outputFile);
 ```
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε εργαστεί με επιτυχία με τα εφέ κατάστασης επιπέδου στο Aspose.PSD για .NET. Πειραματιστείτε με διαφορετικά εφέ για να βελτιώσετε την οπτική ελκυστικότητα των αρχείων PSD σας.
 
@@ -73,11 +73,11 @@ psdImage.Save(outputFile);
 
 ### A3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πώς μπορώ να πάρω μια προσωρινή άδεια;
 
- A4: Λάβετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
+ A4: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε5: Χρειάζεστε υποστήριξη ή έχετε ερωτήσεις;
 

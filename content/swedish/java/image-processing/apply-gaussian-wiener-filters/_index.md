@@ -94,7 +94,7 @@ S2: Testversionen har begränsningar, och du kan utforska alla funktioner genom 
 
 ### F4: Finns det en tillfällig licens tillgänglig för teständamål?
 
- A4: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag hitta detaljerad dokumentation för Aspose.PSD för Java?
 

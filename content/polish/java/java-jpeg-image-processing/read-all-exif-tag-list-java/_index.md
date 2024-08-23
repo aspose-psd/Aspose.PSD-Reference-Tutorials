@@ -8,7 +8,7 @@ weight: 16
 url: /pl/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ---
 ### Wstęp
-W środowisku programowania w języku Java zarządzanie plikami PSD i manipulowanie nimi jest kluczowym wymogiem dla wielu aplikacji. Aspose.PSD dla Java zapewnia solidne rozwiązanie do programowej obsługi plików Photoshop Document (PSD), oferując programistom zestaw narzędzi do płynnego odczytu, zapisu i modyfikowania plików PSD. Ten samouczek poprowadzi Cię przez proces odczytu wszystkich tagów EXIF z pliku PSD przy użyciu Aspose.PSD dla Java. Na koniec będziesz mieć pełną wiedzę, jak wyodrębniać i wykorzystywać metadane EXIF osadzone w obrazach PSD.
+W środowisku programowania w języku Java zarządzanie plikami PSD i manipulowanie nimi jest kluczowym wymogiem dla wielu aplikacji. Aspose.PSD dla Java zapewnia solidne rozwiązanie do programowej obsługi plików Photoshop Document (PSD), oferując programistom zestaw narzędzi do płynnego odczytu, zapisu i modyfikowania plików PSD. Ten samouczek poprowadzi Cię przez proces odczytywania wszystkich tagów EXIF z pliku PSD przy użyciu Aspose.PSD dla Java. Na koniec będziesz mieć pełną wiedzę na temat wyodrębniania i wykorzystywania metadanych EXIF osadzonych w obrazach PSD.
 ### Warunki wstępne
 Zanim zagłębisz się w ten samouczek, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
 - Zestaw Java Development Kit (JDK) zainstalowany w systemie.
@@ -18,7 +18,6 @@ Zanim zagłębisz się w ten samouczek, upewnij się, że masz skonfigurowane na
 Aby rozpocząć, zaimportuj niezbędne pakiety z Aspose.PSD dla Java w swoim projekcie:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -32,7 +31,7 @@ String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "example.psd");
 ```
 ## Krok 2: Iteruj po zasobach obrazu
-Następnie iteruj po zasobach obrazu, aby znaleźć dane EXIF:
+Następnie przejrzyj zasoby obrazu, aby znaleźć dane EXIF:
 ```java
 for(int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {

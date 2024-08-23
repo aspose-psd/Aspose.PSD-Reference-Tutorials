@@ -93,7 +93,7 @@ A2: Com certeza! Aspose.PSD permite realizar processamento de imagens em lote, t
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode acessar uma avaliação gratuita do Aspose.PSD.[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode acessar uma avaliação gratuita do Aspose.PSD[aqui](https://releases.aspose.com/).
 
 ### P5: Como posso obter suporte ou procurar assistência?
 

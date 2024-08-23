@@ -88,8 +88,8 @@ A2: Ya, Anda dapat menumpuk beberapa lapisan penyesuaian untuk mencapai manipula
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda dapat menjelajahi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
-A5: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

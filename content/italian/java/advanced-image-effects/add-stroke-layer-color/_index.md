@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /it/java/advanced-image-effects/add-stroke-layer-color/
 ---
-## introduzione
+## Introduzione
 
 Sblocca il potenziale del design grafico della tua applicazione Java con Aspose.PSD. In questo tutorial, approfondiremo l'affascinante mondo dell'aggiunta del colore del livello del tratto utilizzando Aspose.PSD per Java. Migliora la tua grafica con tratti che risaltano, creando facilmente design visivamente accattivanti.
 
@@ -111,7 +111,7 @@ A2: Assolutamente! Aspose.PSD tiene il passo con le ultime specifiche del format
 
 ### Q3: Come gestisco le eccezioni durante l'utilizzo di Aspose.PSD?
 
- A3: Fare riferimento a[Forum di assistenza](https://forum.aspose.com/c/psd/34) per assistenza nella gestione delle eccezioni e nella risoluzione dei problemi.
+ A3: Fare riferimento a[forum di supporto](https://forum.aspose.com/c/psd/34) per assistenza nella gestione delle eccezioni e nella risoluzione dei problemi.
 
 ### Q4: Posso provare Aspose.PSD prima dell'acquisto?
 

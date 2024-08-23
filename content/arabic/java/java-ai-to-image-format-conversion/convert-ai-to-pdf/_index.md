@@ -18,7 +18,6 @@ url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 للبدء في استخدام التعليمات البرمجية، تحتاج إلى استيراد حزم Aspose.PSD الضرورية. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -49,11 +48,11 @@ options.setJpegQuality(100);
 ```
 يؤدي هذا إلى ضبط جودة JPEG لأي صور داخل ملف PDF على المستوى الأقصى.
 ## الخطوة 4: احفظ بصيغة PDF
- الآن يأتي الجزء المثير – حفظ ملف AI الخاص بك كملف PDF. استخدم ال`save()` طريقة`AiImage` هدف:
+ الآن يأتي الجزء المثير – حفظ ملف AI الخاص بك كملف PDF. استخدم`save()` طريقة`AiImage` هدف:
 ```java
 image.save(outFileName, options);
 ```
- سيقوم هذا الخط بتحويل صورة AI الخاصة بك إلى ملف PDF في المسار المحدد. ضمان`outFileName` يشير إلى موقع الإخراج المطلوب.
+ سيقوم هذا الخط بتحويل صورة AI الخاصة بك إلى ملف PDF في المسار المحدد. تأكد من ذلك`outFileName` يشير إلى موقع الإخراج المطلوب.
 
 ## خاتمة
 يعد تحويل ملفات AI إلى ملفات PDF في Java باستخدام Aspose.PSD أمرًا مباشرًا وفعالاً. باتباع الخطوات الموضحة في هذا الدليل، يمكنك بسهولة دمج هذه الوظيفة في تطبيقاتك، مما يجعل من السهل التعامل مع الرسومات المتجهة والرسوم التوضيحية بتنسيق PDF. سواء كنت مطورًا، أو مصممًا، أو مجرد استكشاف إمكانيات تحويلات AI وPDF، فإن Aspose.PSD يقدم تجربة سلسة.
@@ -63,7 +62,7 @@ Aspose.PSD هي مكتبة قوية تتيح للمطورين العمل مع م
 ### هل يمكنني تجربة Aspose.PSD مجانًا؟
  نعم! يمكنك الحصول على ترخيص مؤقت أو تنزيل نسخة تجريبية مجانية من[إصدارات Aspose](https://releases.aspose.com/psd/java/).
 ### ما هي تنسيقات الملفات التي يدعمها Aspose.PSD؟
- يدعم Aspose.PSD مجموعة متنوعة من التنسيقات بما في ذلك PSD وAI وTIFF وBMP والمزيد. افحص ال[توثيق](https://reference.aspose.com/psd/java/) للحصول على القائمة الكاملة.
+ يدعم Aspose.PSD مجموعة متنوعة من التنسيقات بما في ذلك PSD وAI وTIFF وBMP والمزيد. تحقق من[الوثائق](https://reference.aspose.com/psd/java/) للحصول على القائمة الكاملة.
 ### كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
  يمكنك زيارة[منتدى أسبوز](https://forum.aspose.com/c/psd/34) لأية أسئلة أو مشاكل قد تواجهها.
 ### أين يمكنني شراء ترخيص Aspose.PSD؟

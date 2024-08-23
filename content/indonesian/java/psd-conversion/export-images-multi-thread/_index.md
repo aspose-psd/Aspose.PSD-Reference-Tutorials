@@ -74,4 +74,4 @@ Ya, Aspose.PSD mendukung multi-threading, memungkinkan Anda memproses banyak gam
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk Java?
  Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD?
- Mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara.
+ Mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara.

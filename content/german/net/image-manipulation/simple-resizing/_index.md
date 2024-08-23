@@ -1,19 +1,19 @@
 ---
 title: Einfache Größenänderung von Bildern in Aspose.PSD für .NET
-linktitle: Einfache Größenänderung von Bildern
-second_title: Aspose.PSD .NET-API
-description: Größenänderung des Masterbilds mit Aspose.PSD für .NET. Effizient, nahtlos und leistungsstark. Verbessern Sie Ihre .NET-Projekte mühelos.
+linktitle: Einfache Größenanpassung von Bildern
+second_title: Aspose.PSD .NET API
+description: Beherrschen Sie die Bildgrößenanpassung mit Aspose.PSD für .NET. Effizient, nahtlos und leistungsstark. Verbessern Sie Ihre .NET-Projekte mühelos.
 type: docs
 weight: 17
 url: /de/net/image-manipulation/simple-resizing/
 ---
 ## Einführung
 
-Im dynamischen Bereich der .NET-Entwicklung ist die Bearbeitung von Bildern eine häufige Notwendigkeit. Aspose.PSD für .NET kommt mit seinen leistungsstarken Funktionen zur Rettung und bietet ein nahtloses Erlebnis bei der Größenänderung von Bildern. In diesem Tutorial befassen wir uns mit dem einfachen, aber wichtigen Prozess der Größenänderung von Bildern mithilfe von Aspose.PSD für .NET. Schnall dich an, wenn wir uns auf die Reise begeben, um deine Bildverarbeitungsfähigkeiten zu verbessern.
+Im dynamischen Bereich der .NET-Entwicklung ist die Bildbearbeitung eine häufige Notwendigkeit. Aspose.PSD für .NET kommt mit seinen leistungsstarken Funktionen zur Rettung und ermöglicht eine nahtlose Bildgrößenänderung. In diesem Tutorial werden wir uns mit dem einfachen, aber entscheidenden Prozess der Bildgrößenänderung mit Aspose.PSD für .NET befassen. Schnall dich an, denn wir begeben uns auf eine Reise, um deine Bildverarbeitungsfähigkeiten zu verbessern.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen wir sicher, dass Sie alles für ein reibungsloses Erlebnis eingerichtet haben:
+Bevor wir uns in das Tutorial stürzen, stellen wir sicher, dass Sie alles für ein reibungsloses Erlebnis eingerichtet haben:
 
 ## Namespaces importieren
 
@@ -23,11 +23,11 @@ Stellen Sie sicher, dass Sie die erforderlichen Namespaces importiert haben, um 
 using Aspose.PSD.ImageOptions;
 ```
 
-Lassen Sie uns nun den Prozess der Größenänderung von Bildern in mehrere Schritte unterteilen:
+Lassen Sie uns nun den Vorgang der Größenänderung von Bildern in mehrere Schritte aufteilen:
 
-## Schritt 1: Legen Sie Ihr Dokumentenverzeichnis fest
+## Schritt 1: Legen Sie Ihr Dokumentverzeichnis fest
 
-Legen Sie zunächst den Pfad zu Ihrem Dokumentenverzeichnis fest:
+Legen Sie zunächst den Pfad zu Ihrem Dokumentverzeichnis fest:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -45,47 +45,47 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-## Schritt 3: Ändern Sie die Größe des Bildes
+## Schritt 3: Bildgröße ändern
 
- Die Größenänderung eines Bildes ist so einfach wie das Aufrufen von`Resize` Methode für das Bildobjekt:
+ Die Größenänderung eines Bildes ist so einfach wie das Aufrufen der`Resize` Methode für das Bildobjekt:
 
 ```csharp
 image.Resize(300, 300);
 ```
 
-## Schritt 4: Speichern Sie das geänderte Bild
+## Schritt 4: Speichern Sie das skalierte Bild
 
-Speichern Sie das verkleinerte Bild mit Ihrem bevorzugten Format und Ihren bevorzugten Optionen. In diesem Beispiel speichern wir es als JPEG:
+Speichern Sie das skalierte Bild in Ihrem bevorzugten Format und mit den gewünschten Optionen. In diesem Beispiel speichern wir es als JPEG:
 
 ```csharp
 string destName = dataDir + @"SimpleResizing_out.jpg";
 image.Save(destName, new JpegOptions());
 ```
 
-Und das ist es! Sie haben die Größe eines Bildes mit Aspose.PSD für .NET erfolgreich geändert.
+Und das war’s! Sie haben die Größe eines Bildes mit Aspose.PSD für .NET erfolgreich geändert.
 
 ## Abschluss
 
-Das Beherrschen der Größenänderung von Bildern ist eine grundlegende Fähigkeit im Toolkit eines jeden .NET-Entwicklers. Mit Aspose.PSD für .NET wird der Prozess nicht nur effizient, sondern auch unterhaltsam. Mit diesem Wissen können Sie nun Ihre Bildbearbeitungsfähigkeiten in Ihren .NET-Projekten verbessern.
+Die Beherrschung der Bildgrößenanpassung ist eine grundlegende Fähigkeit im Toolkit jedes .NET-Entwicklers. Mit Aspose.PSD für .NET wird der Prozess nicht nur effizient, sondern auch unterhaltsam. Mit diesem Wissen ausgestattet, können Sie nun Ihre Bildbearbeitungsfähigkeiten in Ihren .NET-Projekten verbessern.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich mit Aspose.PSD für .NET die Größe von Bildern auf ein bestimmtes Seitenverhältnis ändern?
+### F1: Kann ich die Größe von Bildern mit Aspose.PSD für .NET auf ein bestimmtes Seitenverhältnis ändern?
 
-A1: Ja, Sie können ein bestimmtes Seitenverhältnis beibehalten, während Sie die Größe von Bildern ändern, indem Sie entweder die Breite oder Höhe entsprechend anpassen.
+A1: Ja, Sie können beim Ändern der Bildgröße ein bestimmtes Seitenverhältnis beibehalten, indem Sie die Breite oder Höhe entsprechend anpassen.
 
-### F2: Unterstützt Aspose.PSD für .NET neben JPEG auch andere Bildformate?
+### F2: Unterstützt Aspose.PSD für .NET andere Bildformate außer JPEG?
 
 A2: Auf jeden Fall! Aspose.PSD für .NET unterstützt eine Vielzahl von Bildformaten, darunter PNG, GIF, BMP und mehr.
 
 ### F3: Ist eine temporäre Lizenz für Aspose.PSD für .NET verfügbar?
 
-A3: Ja, Sie können eine temporäre Lizenz für Aspose.PSD für .NET erwerben, um dessen Funktionen vor dem Kauf zu testen.
+A3: Ja, Sie können eine temporäre Lizenz für Aspose.PSD für .NET erwerben, um die Funktionen vor dem Kauf zu testen.
 
-### F4: Wo finde ich eine umfassende Dokumentation für Aspose.PSD für .NET?
+### F4: Wo finde ich umfassende Dokumentation für Aspose.PSD für .NET?
 
- A4: Entdecken Sie die ausführliche Dokumentation unter[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
+ A4: Erkunden Sie die ausführliche Dokumentation unter[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
 
-### F5: Wie kann ich Unterstützung für Aspose.PSD für .NET erhalten oder mich mit der Community verbinden?
+### F5: Wie kann ich Support erhalten oder mich mit der Community für Aspose.PSD für .NET verbinden?
 
  A5: Besuchen Sie die[Aspose.PSD für .NET Forum](https://forum.aspose.com/c/psd/34) für Community-Unterstützung und Diskussionen.

@@ -12,7 +12,7 @@ Java를 사용하여 GIF 이미지 레이어를 TIFF 형식으로 변환하는 �
 ## 전제조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Java 라이브러리용 Aspose.PSD. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+-  Java 라이브러리용 Aspose.PSD. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 - Eclipse 또는 IntelliJ IDEA와 같은 통합 개발 환경(IDE).
 ## 패키지 가져오기
 시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다. 프로젝트 종속성에 Aspose.PSD 라이브러리가 포함되어 있는지 확인하세요.
@@ -25,7 +25,7 @@ import com.aspose.psd.imageoptions.TiffOptions;
 import java.io.FileNotFoundException;
 ```
 ## 1단계: 환경 설정
- 시스템에 Java 및 Java용 Aspose.PSD가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/psd/java/) 설치 지침을 확인하세요.
+시스템에 Java 및 Java용 Aspose.PSD가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/psd/java/) 설치 지침을 확인하세요.
 ## 2단계: Aspose.PSD 라이브러리 가져오기
  Java 프로젝트에서 Aspose.PSD 라이브러리를 프로젝트 종속성에 추가하여 포함시킵니다. 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 ## 3단계: PSD 이미지 개체 만들기

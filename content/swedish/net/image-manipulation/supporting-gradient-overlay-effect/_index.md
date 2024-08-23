@@ -106,7 +106,7 @@ settings.TransparencyPoints[1].Opacity = 100;
 psdImage.Save(outputFilePath);
 ```
 
-Det är allt! Du har framgångsrikt lagt till en övertoningseffekt till ett lager med Aspose.PSD för .NET.
+Det är det! Du har framgångsrikt lagt till en övertoningseffekt till ett lager med Aspose.PSD för .NET.
 
 ## Slutsats
 
@@ -128,7 +128,7 @@ S2: Ja, du kan använda olika effekter, inklusive Gradient Overlay, på ett enda
 
 ### F4: Finns det en gratis provperiod?
 
- A4: Ja, du kan få tillgång till en gratis provperiod.[här](https://releases.aspose.com/).
+ A4: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få support för Aspose.PSD?
 

@@ -32,7 +32,7 @@ Låt oss nu dela upp exemplet i flera steg.
 
 ## Steg 1: Konfigurera dokumentkatalogen
 
- Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog där du vill spara de genererade bilderna.
+ Ersätta`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog där du vill spara de genererade bilderna.
 
 ```csharp
 string dataDir = "Your Actual Document Directory";
@@ -93,11 +93,11 @@ Grattis! Du har framgångsrikt lärt dig hur man ritar bågar med Aspose.PSD fö
 
 ### F1: Var kan jag hitta dokumentationen för Aspose.PSD för .NET?
 
- S1: Dokumentationen kan hittas.[här](https://reference.aspose.com/psd/net/).
+ S1: Dokumentationen kan hittas[här](https://reference.aspose.com/psd/net/).
 
 ### F2: Hur får jag en tillfällig licens för Aspose.PSD?
 
- A2: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A2: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F3: Finns det ett communityforum för Aspose.PSD-support?
 
@@ -105,8 +105,8 @@ Grattis! Du har framgångsrikt lärt dig hur man ritar bågar med Aspose.PSD fö
 
 ### F4: Var kan jag köpa en licens för Aspose.PSD?
 
- A4: Du kan köpa en licens.[här](https://purchase.aspose.com/buy).
+ A4: Du kan köpa en licens[här](https://purchase.aspose.com/buy).
 
 ### F5: Kan jag prova Aspose.PSD för .NET gratis innan jag köper?
 
- A5: Ja, du kan ladda ner en gratis testversion.[här](https://releases.aspose.com/).
+ A5: Ja, du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).

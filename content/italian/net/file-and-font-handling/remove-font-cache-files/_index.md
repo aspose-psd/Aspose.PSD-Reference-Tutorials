@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /it/net/file-and-font-handling/remove-font-cache-files/
 ---
-## introduzione
+## Introduzione
 
 Stai riscontrando sfide relative ai caratteri mentre lavori con Aspose.PSD per .NET? La rimozione dei file della cache dei caratteri potrebbe essere la chiave per risolvere questi problemi in modo efficiente. In questo tutorial completo, ti guideremo attraverso il processo passo dopo passo. Prima di immergerci, assicuriamoci che tu abbia tutto ciò di cui hai bisogno.
 
@@ -88,7 +88,7 @@ R2: se possibile, è consigliabile rimuovere i file della cache dei caratteri pe
 
 ### Q4: È disponibile una licenza temporanea per Aspose.PSD per .NET?
 
- R4: Sì, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test.
+ R4: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test.
 
 ### Q5: Posso acquistare Aspose.PSD per .NET?
 

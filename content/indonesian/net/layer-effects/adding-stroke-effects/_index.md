@@ -13,7 +13,7 @@ Selamat datang di tutorial langkah demi langkah tentang menambahkan efek guratan
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Aspose.PSD untuk .NET: Unduh dan instal perpustakaan Aspose.PSD dari[situs web](https://releases.aspose.com/psd/net/).
 

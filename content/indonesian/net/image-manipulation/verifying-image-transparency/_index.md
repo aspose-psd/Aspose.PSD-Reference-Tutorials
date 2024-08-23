@@ -13,7 +13,7 @@ Selamat datang di tutorial komprehensif tentang memverifikasi transparansi gamba
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 1.  Aspose.PSD untuk .NET Library: Unduh dan instal Aspose.PSD untuk .NET Library. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/psd/net/).
 
@@ -86,8 +86,8 @@ A1: Ya, Aspose.PSD kompatibel dengan kerangka .NET terbaru.
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- A4: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Dapatkah saya mencoba Aspose.PSD secara gratis sebelum membeli?
 
-A5: Ya, Anda dapat menjelajahi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+A5: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).

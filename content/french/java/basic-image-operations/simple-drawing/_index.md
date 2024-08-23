@@ -16,7 +16,7 @@ Bienvenue dans ce guide étape par étape sur la réalisation de dessins simples
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
 - Kit de développement Java (JDK) installé sur votre machine.
--  Aspose.PSD pour la bibliothèque Java. Vous pouvez le télécharger depuis le[Aspose.PSD pour Java Documentation](https://reference.aspose.com/psd/java/).
+- Aspose.PSD pour la bibliothèque Java. Vous pouvez le télécharger depuis le[Aspose.PSD pour Java Documentation](https://reference.aspose.com/psd/java/).
 
 ## Importer des packages
 
@@ -102,7 +102,7 @@ image.save(outPsdFilePath);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à réaliser un dessin simple à l'aide d'Aspose.PSD pour Java. Ce didacticiel couvrait la création d'un nouveau document, l'ajout de calques et le dessin de rectangles de différentes couleurs. N'hésitez pas à explorer les fonctionnalités plus avancées proposées par la bibliothèque pour vos besoins de conception graphique.
+Félicitations! Vous avez réussi à réaliser un dessin simple à l'aide d'Aspose.PSD pour Java. Ce didacticiel couvrait la création d'un nouveau document, l'ajout de calques et le dessin de rectangles de différentes couleurs. N'hésitez pas à explorer les fonctionnalités plus avancées proposées par la bibliothèque pour vos besoins de conception graphique.
 
 ## FAQ
 
@@ -116,7 +116,7 @@ A1 : Oui, Aspose.PSD pour Java fournit des fonctionnalités étendues pour modif
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A3 : Oui, vous pouvez accéder à la version d'essai gratuite.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à la version d'essai gratuite[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je acheter une licence pour Aspose.PSD pour Java ?
 

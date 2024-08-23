@@ -87,7 +87,7 @@ Gratulacje! Pomyślnie przeskalowałeś obraz w skali szarości przy użyciu Asp
 
 ### P1: Czy mogę używać Aspose.PSD dla Java w projektach komercyjnych?
 
-O1: Tak, Aspose.PSD dla Java jest dostępny do użytku komercyjnego. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+ O1: Tak, Aspose.PSD dla Java jest dostępny do użytku komercyjnego. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
 
 ### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 

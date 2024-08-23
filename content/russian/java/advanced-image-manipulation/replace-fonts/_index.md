@@ -39,7 +39,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 String dataDir = "Your Document Directory";
 ```
 
-## Шаг 2. Загрузите изображение.
+## Шаг 2. Загрузите изображение
 
  Используйте`Image.load` метод загрузки PSD-файла в экземпляр`PsdImage` . Примените`PsdLoadOptions` и установите шрифт для замены по умолчанию, в данном случае «Arial».
 
@@ -50,7 +50,7 @@ psdLoadOptions.setDefaultReplacementFont("Arial");
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "Cloud_AzPlat_Banner3A_SB_EN_US_160x600_chinese_font.psd", psdLoadOptions);
 ```
 
-## Шаг 3. Сохраните замененное изображение.
+## Шаг 3. Сохраните замененное изображение
 
  После загрузки изображения используйте`save` метод для хранения измененного изображения. В этом примере мы сохраняем изображение в формате PNG.
 

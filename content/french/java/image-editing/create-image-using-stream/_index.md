@@ -16,7 +16,7 @@ Dans le domaine du développement Java, Aspose.PSD se distingue comme une biblio
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
 - Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système.
--  Bibliothèque Aspose.PSD : téléchargez et configurez la bibliothèque Aspose.PSD pour Java. Vous pouvez trouver les ressources nécessaires dans le[Documentation](https://reference.aspose.com/psd/java/).
+-  Bibliothèque Aspose.PSD : téléchargez et configurez la bibliothèque Aspose.PSD pour Java. Vous pouvez trouver les ressources nécessaires dans le[documentation](https://reference.aspose.com/psd/java/).
 - Environnement de développement intégré (IDE) : choisissez un IDE compatible Java, tel qu'Eclipse ou IntelliJ IDEA, pour une expérience de développement transparente.
 
 ## Importer des packages
@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Créer une instance de`Image` en invitant le`create` méthode, en passant le configuré`BmpOptions` et en précisant les dimensions de l'image.
+ Créer une instance de`Image` en invoquant le`create` méthode, en passant le configuré`BmpOptions` et en précisant les dimensions de l'image.
 
 ## Étape 6 : Traitement des images
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment créer des images à l'aide de flux dans Aspose.PSD pour Java. Ce didacticiel couvre les étapes essentielles, de l'importation des packages au traitement final de l'image et à sa sauvegarde. Expérimentez avec différents paramètres et explorez des fonctionnalités supplémentaires pour améliorer vos capacités de création d'images.
+Félicitations! Vous avez appris avec succès comment créer des images à l'aide de flux dans Aspose.PSD pour Java. Ce didacticiel a couvert les étapes essentielles, de l'importation des packages au traitement final de l'image et à sa sauvegarde. Expérimentez avec différents paramètres et explorez des fonctionnalités supplémentaires pour améliorer vos capacités de création d'images.
 
 ## FAQ
 
@@ -105,12 +105,12 @@ A1 : Oui, Aspose.PSD est conçu pour s'intégrer de manière transparente à d'a
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD ?
 
- A3 : Oui, vous pouvez accéder à un essai gratuit.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A4 : Obtenez un permis temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Quelle est la configuration système requise pour Aspose.PSD ?
 
- A5 : Reportez-vous au[Documentation](https://reference.aspose.com/psd/java/) pour connaître la configuration système requise détaillée.
+ A5 : Reportez-vous au[documentation](https://reference.aspose.com/psd/java/) pour connaître la configuration système requise détaillée.

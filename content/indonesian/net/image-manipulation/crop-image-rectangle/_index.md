@@ -105,7 +105,7 @@ A3: Aspose.PSD untuk .NET dirancang untuk menangani gambar dengan berbagai ukura
 
 ### Q4: Apakah ada versi uji coba yang tersedia untuk Aspose.PSD untuk .NET?
 
- A4: Ya, Anda dapat menjelajahi fitur perpustakaan dengan mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi fitur perpustakaan dengan mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Di mana saya bisa mendapatkan dukungan atau bantuan tambahan?
 

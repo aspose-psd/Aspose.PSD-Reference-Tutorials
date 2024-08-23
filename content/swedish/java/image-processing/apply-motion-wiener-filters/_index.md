@@ -104,8 +104,8 @@ S2: Ja, Aspose.PSD stöder ett brett utbud av bildformat, vilket säkerställer 
 
 ### F4: Kan jag prova Aspose.PSD för Java innan jag köper?
 
- A4: Ja, du kan utforska den kostnadsfria testversionen.[här](https://releases.aspose.com/).
+ A4: Ja, du kan utforska den kostnadsfria testversionen[här](https://releases.aspose.com/).
 
 ### F5: Hur får jag en tillfällig licens för Aspose.PSD för Java?
 
-A5: Skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för test- och utvärderingsändamål.
+A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för test- och utvärderingsändamål.

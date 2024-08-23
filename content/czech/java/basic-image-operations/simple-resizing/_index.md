@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/java/basic-image-operations/simple-resizing/
 ---
-## Úvod
+## Zavedení
 
 V dnešním tutoriálu se ponoříme do procesu jednoduché změny velikosti obrázku pomocí Aspose.PSD for Java, výkonné knihovny, která usnadňuje efektivní manipulaci s obrázky. Pokud jste vývojář Java, který hledá bezproblémový způsob programové změny velikosti obrázků, jste na správném místě.
 
@@ -15,7 +15,7 @@ V dnešním tutoriálu se ponoříme do procesu jednoduché změny velikosti obr
 
 Než se pustíme do naší cesty změny velikosti obrázku pomocí Aspose.PSD, ujistěte se, že máte splněny následující předpoklady:
 
-1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java. Nejnovější verzi si můžete stáhnout z[webové stránky Java](https://www.oracle.com/java/).
+1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java. Nejnovější verzi si můžete stáhnout z[webové stránky Java](https://www.oracle.com/java/).
 
 2.  Aspose.PSD for Java: Stáhněte a nainstalujte knihovnu Aspose.PSD. Potřebné balíčky najdete na[Aspose.PSD pro stahování Java stránky](https://releases.aspose.com/psd/java/).
 
@@ -74,7 +74,7 @@ Uložte obrázek se změněnou velikostí pomocí zadané cílové cesty a JpegO
 image.save(destName, new JpegOptions());
 ```
 
-Gratulujeme! Úspěšně jste změnili velikost obrázku pomocí Aspose.PSD for Java. Nebojte se experimentovat s různými rozměry, aby vyhovovaly vašim požadavkům.
+Gratuluji! Úspěšně jste změnili velikost obrázku pomocí Aspose.PSD for Java. Nebojte se experimentovat s různými rozměry, aby vyhovovaly vašim požadavkům.
 
 ## Závěr
 
@@ -96,7 +96,7 @@ Odpověď 2: Ano, Aspose.PSD podporuje různé formáty obrázků a poskytuje v�
 
 ### Q4: Mohu vyzkoušet Aspose.PSD pro Java před nákupem?
 
- A4: Určitě! Využijte[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat možnosti knihovny.
+ A4: Určitě! Využijte[zkušební verze zdarma](https://releases.aspose.com/)prozkoumat možnosti knihovny.
 
 ### Q5: Jak mohu získat podporu pro Aspose.PSD pro Java?
 

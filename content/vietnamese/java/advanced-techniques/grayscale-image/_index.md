@@ -87,7 +87,7 @@ Chúc mừng! Bạn đã chuyển đổi thang độ xám thành công cho một
 
 ### Câu hỏi 1: Tôi có thể sử dụng Aspose.PSD cho Java cho các dự án thương mại không?
 
-Câu trả lời 1: Có, Aspose.PSD cho Java có sẵn cho mục đích sử dụng thương mại. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+ Câu trả lời 1: Có, Aspose.PSD cho Java có sẵn cho mục đích sử dụng thương mại. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
 
 ### Câu hỏi 2: Có phiên bản dùng thử miễn phí của Aspose.PSD cho Java không?
 

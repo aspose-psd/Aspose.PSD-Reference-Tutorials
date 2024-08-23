@@ -59,7 +59,7 @@ A1: Ja, Aspose.PSD voor .NET ondersteunt de export van geanimeerde PSD's naar ve
 
 ### V3: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor .NET?
 
- A3: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor testdoeleinden te verkrijgen.
+ A3: Bezoek[deze koppeling](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor testdoeleinden te verkrijgen.
 
 ### V4: Welke ondersteuningsopties zijn beschikbaar voor Aspose.PSD voor .NET?
 

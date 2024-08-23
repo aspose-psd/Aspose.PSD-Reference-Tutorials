@@ -94,7 +94,7 @@ A1 : Oui, Aspose.PSD fonctionne de manière transparente avec divers environneme
 
 ### Q2 : Puis-je utiliser Aspose.PSD pour des projets commerciaux ?
 
- A2 : Oui, vous pouvez utiliser Aspose.PSD pour des projets personnels et commerciaux. Vérifier la[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
+ A2 : Oui, vous pouvez utiliser Aspose.PSD pour des projets personnels et commerciaux. Vérifiez le[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
 
 ### Q3 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
 
@@ -102,8 +102,8 @@ A1 : Oui, Aspose.PSD fonctionne de manière transparente avec divers environneme
 
 ### Q4 : Existe-t-il un essai gratuit ?
 
- A4 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q5 : Ai-je besoin d’une licence temporaire pour tester ?
 
- A5 : Vous pouvez obtenir une licence temporaire à des fins de test.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Vous pouvez obtenir une licence temporaire à des fins de test[ici](https://purchase.aspose.com/temporary-license/).

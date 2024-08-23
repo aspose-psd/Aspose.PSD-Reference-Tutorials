@@ -78,7 +78,7 @@ A1: Ya, Aspose.PSD untuk Java mendukung berbagai format gambar, termasuk JPEG, B
 
 ### Q2: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A2: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD untuk Java dengan mengunjungi.[Link ini](https://releases.aspose.com/).
+ A2: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD untuk Java dengan mengunjungi[tautan ini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.PSD untuk Java?
 
@@ -90,4 +90,4 @@ A1: Ya, Aspose.PSD untuk Java mendukung berbagai format gambar, termasuk JPEG, B
 
 ### Q5: Apakah lisensi sementara tersedia untuk Aspose.PSD untuk Java?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

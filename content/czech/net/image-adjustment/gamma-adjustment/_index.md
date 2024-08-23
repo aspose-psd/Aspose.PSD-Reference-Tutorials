@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/net/image-adjustment/gamma-adjustment/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto komplexním průvodci implementací Gamma Adjustment v Aspose.PSD pro .NET! Nastavení gama je klíčová technika zpracování obrazu, která umožňuje jemně doladit jas a kontrast obrazu. V tomto tutoriálu vás provedeme procesem pomocí výkonné knihovny Aspose.PSD pro .NET.
 
@@ -15,7 +15,7 @@ Vítejte v tomto komplexním průvodci implementací Gamma Adjustment v Aspose.P
 
 Než se pustíte do implementace, ujistěte se, že máte splněny následující předpoklady:
 
--  Knihovna Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD pro .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Knihovna Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD pro .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 - .NET Framework: Tento kurz předpokládá, že máte základní znalosti o vývoji .NET a máte nainstalované rozhraní .NET Framework.
 
@@ -78,26 +78,26 @@ rasterImage.Save(destName, tiffOptions);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste implementovali Gamma Adjustment pomocí Aspose.PSD pro .NET. Tato výkonná knihovna poskytuje robustní možnosti pro zpracování obrazu, což z ní činí cenný nástroj pro vývojáře .NET.
+Gratuluji! Úspěšně jste implementovali Gamma Adjustment pomocí Aspose.PSD pro .NET. Tato výkonná knihovna poskytuje robustní možnosti pro zpracování obrazu, což z ní činí cenný nástroj pro vývojáře .NET.
 
 ## FAQ
 
 ### Q1: Kde najdu dokumentaci Aspose.PSD?
 
- A1: Můžete nahlédnout do dokumentace[tady](https://reference.aspose.com/psd/net/).
+ A1: Můžete nahlédnout do dokumentace[zde](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak stáhnu Aspose.PSD pro .NET?
 
- A2: Můžete si stáhnout knihovnu.[tady](https://releases.aspose.com/psd/net/).
+ A2: Můžete si stáhnout knihovnu[zde](https://releases.aspose.com/psd/net/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Kde mohu získat podporu pro Aspose.PSD?
 
- A4: Můžete navštívit fórum podpory.[tady](https://forum.aspose.com/c/psd/34).
+ A4: Můžete navštívit fórum podpory[zde](https://forum.aspose.com/c/psd/34).
 
 ### Q5: Potřebuji dočasnou licenci?
 
- A5: V případě potřeby můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A5: V případě potřeby můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

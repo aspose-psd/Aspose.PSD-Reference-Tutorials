@@ -19,7 +19,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn cá
 
 2.  Aspose.PSD for Java Library: Bạn cần có thư viện Aspose.PSD for Java. Nếu bạn chưa có, hãy tải xuống từ[Tài liệu Java Aspose.PSD](https://reference.aspose.com/psd/java/).
 
-3. Thư mục tài liệu: Thiết lập một thư mục cho tài liệu của bạn và ghi nhớ đường dẫn. Trong ví dụ được cung cấp, thư mục được gọi là`Your Document Directory`.
+3.  Thư mục tài liệu: Thiết lập một thư mục cho tài liệu của bạn và ghi nhớ đường dẫn. Trong ví dụ được cung cấp, thư mục được gọi là`Your Document Directory`.
 
 ## Gói nhập khẩu
 
@@ -94,4 +94,4 @@ Câu trả lời 2: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 
 ### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).

@@ -1,6 +1,6 @@
 ---
 title: Patrooneffecten toevoegen aan afbeeldingen in Aspose.PSD voor .NET
-linktitle: Patrooneffecten toevoegen aan afbeeldingen
+linktitle: Patrooneffecten aan afbeeldingen toevoegen
 second_title: Aspose.PSD .NET-API
 description: Verbeter uw afbeeldingen met boeiende patrooneffecten met Aspose.PSD voor .NET. Volg onze stapsgewijze handleiding om naadloos aangepaste patronen toe te voegen.
 type: docs
@@ -93,7 +93,7 @@ Gefeliciteerd! U hebt met succes geleerd hoe u patrooneffecten aan afbeeldingen 
 
 A1: Ja, u kunt aangepaste patronen definiëren en deze toepassen met Aspose.PSD voor .NET.
 
-### V2: Is Aspose.PSD voor .NET compatibel met alle afbeeldingsformaten?
+### Vraag 2: Is Aspose.PSD voor .NET compatibel met alle afbeeldingsformaten?
 
 A2: Aspose.PSD ondersteunt voornamelijk het PSD-formaat (Adobe Photoshop), maar biedt ook functionaliteit voor het converteren van afbeeldingen van en naar andere formaten.
 

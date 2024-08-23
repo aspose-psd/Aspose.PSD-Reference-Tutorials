@@ -24,12 +24,11 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
 Этот импорт позволит вам получить доступ к классам и методам, необходимым для рисования прямоугольников на изображениях.
-## Шаг 1. Создайте новое изображение.
+## Шаг 1. Создайте новое изображение
  Сначала создайте новый экземпляр`PsdImage` класс с определенной шириной и высотой.
 ```java
 String dataDir = "path_to_your_data_directory/";
@@ -40,7 +39,7 @@ saveOptions.setBitsPerPixel(32);
 // Создайте экземпляр PsdImage с указанными размерами.
 Image image = new PsdImage(100, 100);
 ```
- На этом этапе`PsdImage` Он инициализируется с шириной и высотой по 100 пикселей каждый.
+ На этом этапе`PsdImage` инициализируется шириной и высотой по 100 пикселей каждая.
 ## Шаг 2. Инициализация графического объекта
  Далее инициализируйте`Graphics` объект с помощью`image` созданный на предыдущем шаге.
 ```java

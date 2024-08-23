@@ -76,7 +76,7 @@ A1: Aspose.PSD mendukung berbagai versi PSD, memastikan kompatibilitas dengan se
 
 ### Q2: Dapatkah saya menggunakan Aspose.PSD untuk proyek komersial?
 
-A2: Ya, Anda dapat menggunakan Aspose.PSD di proyek komersial dan non-komersial. Periksalah[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+A2: Ya, Anda dapat menggunakan Aspose.PSD di proyek komersial dan non-komersial. Periksa[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 

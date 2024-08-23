@@ -98,7 +98,7 @@ Gratulacje! Pomyślnie nauczyłeś się efektywnie rysować linie przy użyciu A
 
 ### P1: Gdzie mogę znaleźć dokumentację Aspose.PSD dla .NET?
 
- Odpowiedź 1: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/net/).
+ Odpowiedź 1: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/net/).
 
 ### P2: Jak mogę pobrać Aspose.PSD dla .NET?
 
@@ -106,7 +106,7 @@ Gratulacje! Pomyślnie nauczyłeś się efektywnie rysować linie przy użyciu A
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla .NET?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 
@@ -114,4 +114,4 @@ Gratulacje! Pomyślnie nauczyłeś się efektywnie rysować linie przy użyciu A
 
 ### P5: Czy potrzebuję tymczasowej licencji na Aspose.PSD dla .NET?
 
- Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

@@ -65,7 +65,7 @@ Tìm hiểu cách trích xuất hình thu nhỏ từ hình ảnh JFIF bằng Asp
 ### [Trích xuất hình thu nhỏ từ PSD trong Java](./extract-thumbnail-from-psd-java/)
 Tìm hiểu cách trích xuất hình thu nhỏ từ tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến lưu hình ảnh được trích xuất.
 ### [Đọc tất cả danh sách thẻ EXIF trong Java](./read-all-exif-tag-list-java/)
-Tìm hiểu cách trích xuất siêu dữ liệu EXIF từ tệp PSD bằng Aspose.PSD cho Java với các ví dụ về mã và hướng dẫn toàn diện của chúng tôi.
+Tìm hiểu cách trích xuất siêu dữ liệu EXIF từ tệp PSD bằng Aspose.PSD cho Java với các ví dụ mã và hướng dẫn toàn diện của chúng tôi.
 ### [Đọc tất cả các thẻ EXIF trong Java](./read-all-exif-tags-java/)
 Tìm hiểu cách trích xuất thẻ EXIF từ hình ảnh PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để trích xuất siêu dữ liệu hiệu quả.
 ### [Đọc và sửa đổi thẻ JPEG EXIF trong Java](./read-modify-jpeg-exif-tags-java/)
@@ -77,4 +77,4 @@ Tìm hiểu cách thao tác với tệp PSD và lưu chúng dưới dạng JPEG 
 ### [Hỗ trợ JPEG-LS với CMYK trong Java](./support-jpeg-ls-cmyk-java/)
 Tìm hiểu cách hỗ trợ JPEG-LS với CMYK trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý và chuyển đổi hình ảnh dễ dàng.
 ### [Viết và sửa đổi dữ liệu EXIF trong Java](./write-modify-exif-data-java/)
-Tìm hiểu cách ghi và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
+Tìm hiểu cách viết và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.

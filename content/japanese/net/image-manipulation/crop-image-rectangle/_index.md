@@ -1,35 +1,35 @@
 ---
-title: Aspose.PSD for .NET での四角形による画像のトリミング
-linktitle: 画像を四角形でトリミングする
+title: Aspose.PSD for .NET で四角形による画像の切り抜き
+linktitle: 画像を長方形で切り取る
 second_title: Aspose.PSD .NET API
-description: Aspose.PSD を使用して .NET 画像操作スキルを強化します。長方形を使用して正確に画像をトリミングする方法を段階的に学習します。
+description: Aspose.PSD を使用して .NET 画像操作スキルを強化します。精度を高めるために長方形を使用して画像をトリミングする手順を学習します。
 type: docs
 weight: 11
 url: /ja/net/image-manipulation/crop-image-rectangle/
 ---
 ## 導入
 
-.NET プログラミングの分野では、画像の操作と強化は一般的なタスクであり、Aspose.PSD for .NET はこのプロセスを簡素化する強力なライブラリです。このチュートリアルでは、基本的でありながら重要な画像操作テクニック、つまり画像を四角形でトリミングすることに焦点を当てます。このガイドを終えると、Aspose.PSD for .NET を使用して画像を正確にトリミングする方法をしっかりと理解できるようになります。
+.NET プログラミングの分野では、画像の操作と強化は一般的なタスクであり、Aspose.PSD for .NET はこのプロセスを簡素化する強力なライブラリです。このチュートリアルでは、基本的でありながら重要な画像操作テクニックである、四角形による画像の切り取りに焦点を当てます。このガイドを読み終える頃には、Aspose.PSD for .NET を使用して画像を正確に切り取る方法をしっかりと理解できるようになります。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
 
--  Aspose.PSD for .NET: ライブラリがインストールされていることを確認してください。そうでない場合は、ダウンロードできます[ここ](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: ライブラリがインストールされていることを確認してください。インストールされていない場合はダウンロードできます。[ここ](https://releases.aspose.com/psd/net/).
 
 - ドキュメント ディレクトリ: 画像ファイルを保存するディレクトリを設定します。
 
-- 統合開発環境 (IDE): Visual Studio などの .NET 互換の IDE を利用して、シームレスなコーディングを実現します。
+- 統合開発環境 (IDE): シームレスなコーディングのために、Visual Studio などの .NET 互換 IDE を活用します。
 
 ## 名前空間のインポート
 
-まず、必要な名前空間をプロジェクトに含めます。
+開始するには、プロジェクトに必要な名前空間を含めます。
 
 ```csharp
 using Aspose.PSD.ImageOptions;
 ```
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## ステップ1: ドキュメントディレクトリを設定する
 
 まず、ドキュメント ディレクトリへのパスを指定します。
 
@@ -37,53 +37,53 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 ```
 
-## ステップ 2: イメージをロードしてキャッシュする
+## ステップ2: イメージをロードしてキャッシュする
 
-ソース ファイルから画像をロードし、そのデータをキャッシュします。
+ソース ファイルからイメージを読み込み、そのデータをキャッシュします。
 
 ```csharp
-//ExStart:長方形によるトリミング
+//ExStart:四角形による切り取り
 string sourceFile = dataDir + @"sample.psd";
 
-//既存の画像を RasterImage クラスのインスタンスにロードします
+//既存の画像をRasterImageクラスのインスタンスに読み込みます
 using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 {
     if (!rasterImage.IsCached)
     {
         rasterImage.CacheData();
     }
-    //後続のステップのコードはここにあります
+    //以降の手順のコードはここに記入します
 }
-//ExEnd:CroppingbyRectangle
+//ExEnd:四角形による切り取り
 ```
 
-## ステップ 3: 切り抜き四角形を定義する
+## ステップ3: 切り抜き長方形を定義する
 
-のインスタンスを作成します。`Rectangle`トリミングに必要なサイズのクラス:
+インスタンスを作成する`Rectangle`切り抜きたいサイズのクラス:
 
 ```csharp
-//希望のサイズの Rectangle クラスのインスタンスを作成します
+//希望のサイズのRectangleクラスのインスタンスを作成する
 Rectangle rectangle = new Rectangle(20, 20, 20, 20);
 ```
 
-## ステップ 4: 切り抜き操作を実行する
+## ステップ4: 切り抜き操作を実行する
 
-でクロップ操作を実行します。`RasterImage`定義された四角形を使用したオブジェクト:
+切り抜き操作を実行する`RasterImage`定義された四角形を使用するオブジェクト:
 
 ```csharp
 rasterImage.Crop(rectangle);
 ```
 
-## ステップ 5: 結果を保存する
+## ステップ5: 結果を保存する
 
-切り取った画像を指定した形式 (この場合は JPEG) でディスクに保存します。
+切り取った画像を指定された形式 (この場合は JPEG) でディスクに保存します。
 
 ```csharp
 string destName = dataDir + @"CroppingByRectangle_out.jpg";
 rasterImage.Save(destName, new JpegOptions());
 ```
 
-必要に応じてこれらの手順を繰り返し、さまざまなトリミング シナリオに合わせて四角形パラメータを調整します。
+必要に応じてこれらの手順を繰り返し、さまざまな切り抜きシナリオに合わせて長方形のパラメータを調整します。
 
 ## 結論
 
@@ -93,20 +93,20 @@ rasterImage.Save(destName, new JpegOptions());
 
 ### Q1: Aspose.PSD for .NET はすべての画像形式と互換性がありますか?
 
-A1: はい、Aspose.PSD for .NET は、JPEG、PNG、SVG、TIFF、BMP、GIF、PSD、Jpeg2000 などの幅広い形式をサポートしています。
+A1: はい、Aspose.PSD for .NET は、JPEG、PNG、SVG、TIFF、BMP、GIF、PSD、Jpeg2000 など、幅広い形式をサポートしています。
 
 ### Q2: 同じ画像に複数のトリミング操作を適用できますか?
 
-A2: もちろんです！複数のトリミング操作を連続して実行して、目的の結果を得ることができます。
+A2: もちろんです! 複数のトリミング操作を連続して実行することで、希望する結果を得ることができます。
 
-### Q3: Aspose.PSD for .NET で処理される画像にサイズ制限はありますか?
+### Q3: Aspose.PSD for .NET で処理される画像にはサイズ制限がありますか?
 
-A3: Aspose.PSD for .NET は、さまざまなサイズの画像を処理できるように設計されています。ただし、非常に大きな画像を扱う場合は、システム リソースとメモリを考慮してください。
+A3: Aspose.PSD for .NET は、さまざまなサイズの画像を処理するように設計されています。ただし、非常に大きな画像を扱う場合は、システム リソースとメモリを考慮してください。
 
 ### Q4: Aspose.PSD for .NET の試用版はありますか?
 
- A4: はい、無料トライアルを取得すると、ライブラリの機能を探索できます。[ここ](https://releases.aspose.com/).
+ A4: はい、無料トライアルを取得してライブラリの機能を試すことができます。[ここ](https://releases.aspose.com/).
 
-### Q5: 追加のサポートや支援はどこで入手できますか?
+### Q5: 追加のサポートや支援はどこで受けられますか?
 
- A5: にアクセスしてください。[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティとつながり、サポートを求めます。
+ A5: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティとつながり、サポートを求める。

@@ -51,7 +51,7 @@ En este paso, inicializamos una instancia de la clase PsdImage y un objeto Graph
 ## Paso 2: creación de GraphicsPath y figura
 
 ```csharp
-// Cree una instancia de GraphicsPath y una instancia de Figura, agregue EllipseShape, RectánguloShape y TextShape a la figura.
+// Cree una instancia de GraphicsPath y una instancia de Figura, agregue EllipseShape, TriangleShape y TextShape a la figura.
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));

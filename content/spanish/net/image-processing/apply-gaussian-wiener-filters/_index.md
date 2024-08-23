@@ -105,7 +105,7 @@ R2: El tamaño del radio determina el área sobre la que opera el filtro, mientr
 
 ### P4: ¿Dónde puedo encontrar soporte y asistencia adicional?
 
- R4: Para cualquier consulta o asistencia, visite el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ R4: Para cualquier consulta o ayuda, visite el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
 ### P5: ¿Existe una versión de prueba gratuita de Aspose.PSD disponible?
 

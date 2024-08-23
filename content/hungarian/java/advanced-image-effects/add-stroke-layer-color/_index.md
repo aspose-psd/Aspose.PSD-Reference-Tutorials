@@ -97,7 +97,7 @@ im.save(exportPath);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen hozzáadta a körvonalréteg színét a PSD-fájlhoz az Aspose.PSD for Java segítségével. Kísérletezzen különböző színekkel és beállításokkal, hogy életre keltse grafikai terveit.
+Gratulálok! Sikeresen hozzáadta a körvonalréteg színét a PSD-fájlhoz az Aspose.PSD for Java segítségével. Kísérletezzen különböző színekkel és beállításokkal, hogy életre keltse grafikai terveit.
 
 ## GYIK
 
@@ -111,7 +111,7 @@ A2: Abszolút! Az Aspose.PSD lépést tart a legújabb PSD fájlformátum-specif
 
 ### 3. kérdés: Hogyan kezelhetem a kivételeket az Aspose.PSD használata közben?
 
- A3: Lásd a[támogatói fórum](https://forum.aspose.com/c/psd/34) segítségért a kivételek kezelésében és a hibaelhárításban.
+ A3: Lásd a[támogatási fórum](https://forum.aspose.com/c/psd/34) segítségért a kivételek kezelésében és a hibaelhárításban.
 
 ### 4. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 

@@ -65,7 +65,7 @@ options.setColorType(JpegCompressionColorMode.Cmyk);
 image.save(dataDir + "Cmyk_Default_profiles.jpg", options);
 ```
 ## Conclusion
-Toutes nos félicitations! Vous avez réussi à parcourir le processus de conversion des couleurs à l'aide des profils par défaut dans Aspose.PSD pour Java. Cette fonctionnalité puissante permet aux développeurs de manipuler facilement les profils de couleurs des images, offrant ainsi une solution polyvalente pour diverses applications.
+Félicitations! Vous avez réussi à parcourir le processus de conversion des couleurs à l'aide des profils par défaut dans Aspose.PSD pour Java. Cette fonctionnalité puissante permet aux développeurs de manipuler facilement les profils de couleurs des images, offrant ainsi une solution polyvalente pour diverses applications.
 ## FAQ
 ### Puis-je utiliser Aspose.PSD pour Java avec d’autres bibliothèques de traitement d’images Java ?
 Oui, Aspose.PSD peut être intégré à d'autres bibliothèques de traitement d'images Java pour des fonctionnalités améliorées.

@@ -19,7 +19,6 @@ Voordat u doorgaat met deze zelfstudie, moet u ervoor zorgen dat u aan de volgen
 Zorg er om te beginnen voor dat u de benodigde pakketten in uw Java-project hebt geïmporteerd:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;

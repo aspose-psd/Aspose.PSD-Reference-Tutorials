@@ -106,7 +106,7 @@ A2: Kesinlikle! Görüntüleri birleştirdikten sonra Aspose.PSD'nin kapsamlı �
 
 ### S4: Aspose.PSD için ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, Aspose.PSD'yi ücretsiz deneme sürümüyle keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, Aspose.PSD'yi ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD ile ilgili sorgular için desteği nerede bulabilirim?
 

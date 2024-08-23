@@ -16,7 +16,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn đã thiết 
 ### Aspose.PSD để cài đặt Java
 Để bắt đầu sử dụng Aspose.PSD cho Java, bạn cần tích hợp nó vào dự án của mình. Đây là cách bạn có thể thiết lập nó:
 1. Tải xuống Aspose.PSD cho Java
-   -  Tham quan[trang tải xuống](https://releases.aspose.com/psd/java/) và tải phiên bản mới nhất của Aspose.PSD cho Java.
+   -  Ghé thăm[trang tải xuống](https://releases.aspose.com/psd/java/) và tải phiên bản mới nhất của Aspose.PSD cho Java.
    - Giải nén kho lưu trữ đã tải xuống vào vị trí bạn chọn.
 2. Nhập Aspose.PSD vào dự án của bạn
    - Trong dự án Java của bạn, hãy bao gồm các tệp JAR Aspose.PSD. Thông thường, bạn có thể thực hiện việc này bằng cách thêm chúng vào đường dẫn xây dựng dự án của mình hoặc sử dụng công cụ tự động hóa bản dựng như Maven hoặc Gradle.
@@ -25,7 +25,6 @@ Bây giờ bạn đã thiết lập xong mọi thứ, hãy khám phá cách tậ
 Trước khi bạn bắt đầu viết mã, hãy nhập các gói cần thiết để sử dụng các lớp và phương thức Aspose.PSD một cách hiệu quả trong ứng dụng Java của bạn:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Bước 2: Thao tác với pixel
 Sau khi hình ảnh được tải, bạn có thể thao tác với các pixel của nó. Đây là cách bạn có thể tải và sửa đổi pixel:
 ```java
-// Tải pixel của một vùng cụ thể (ví dụ: hình chữ nhật 100x10 bắt đầu từ góc trên cùng bên trái)
+//Tải pixel của một vùng cụ thể (ví dụ: hình chữ nhật 100x10 bắt đầu từ góc trên cùng bên trái)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Sửa đổi các pixel (ví dụ: áp dụng hiệu ứng chuyển màu)
 for (int i = 0; i < pixels.length; i++) {
@@ -69,4 +68,4 @@ Bên cạnh PSD, Aspose.PSD cho Java hỗ trợ nhiều định dạng khác nha
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
  Thăm nom[Giấy phép tạm thời Aspose.PSD](https://purchase.aspose.com/temporary-license/) trang để lấy giấy phép tạm thời.
 ### Tôi có thể tìm thêm trợ giúp và tài nguyên cho Aspose.PSD cho Java ở đâu?
- Khám phá cái[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được hỗ trợ cộng đồng, các mẹo và tài nguyên bổ sung.
+ Khám phá[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được hỗ trợ cộng đồng, các mẹo và tài nguyên bổ sung.

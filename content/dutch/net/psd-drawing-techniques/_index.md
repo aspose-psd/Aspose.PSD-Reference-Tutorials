@@ -26,7 +26,7 @@ Ben je klaar om je tekenvaardigheden naar een hoger niveau te tillen met Aspose.
 
 ## Elliptische vormen maken met Aspose.PSD voor .NET
 
- Leer de kunst van het tekenen van elliptische vormen in .NET-toepassingen met behulp van Aspose.PSD. Onze stapsgewijze handleiding, compleet met codevoorbeelden, zorgt ervoor dat u moeiteloos verbluffende afbeeldingen kunt maken. Begin vandaag![Elliptische vormen-tutorial](./creating-elliptical-shapes/)
+ Leer de kunst van het tekenen van elliptische vormen in .NET-toepassingen met behulp van Aspose.PSD. Onze stapsgewijze handleiding, compleet met codevoorbeelden, zorgt ervoor dat u moeiteloos verbluffende afbeeldingen kunt maken. Ga vandaag nog aan de slag![Elliptische vormen-tutorial](./creating-elliptical-shapes/)
 
 ## Effectief lijnen tekenen in Aspose.PSD voor .NET
 
@@ -34,7 +34,7 @@ Ben je klaar om je tekenvaardigheden naar een hoger niveau te tillen met Aspose.
 
 ## Rechthoeken construeren in Aspose.PSD voor .NET
 
-Ontdek de kunst van het tekenen van rechthoeken in .NET met Aspose.PSD. Onze stapsgewijze handleiding zorgt voor een naadloze integratie, waardoor u uw beeldmanipulatiespel moeiteloos naar een hoger niveau kunt tillen. Begin vandaag![Zelfstudie Rechthoeken construeren](./constructing-rectangles/)
+Ontdek de kunst van het tekenen van rechthoeken in .NET met Aspose.PSD. Onze stapsgewijze handleiding zorgt voor een naadloze integratie, waardoor u uw beeldmanipulatiespel moeiteloos naar een hoger niveau kunt tillen. Ga vandaag nog aan de slag![Zelfstudie Rechthoeken construeren](./constructing-rectangles/)
 
 ## Creatief tekenen met afbeeldingen in Aspose.PSD voor .NET
 

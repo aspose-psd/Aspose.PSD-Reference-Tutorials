@@ -9,7 +9,7 @@ url: /zh-hant/net/image-manipulation/adding-gradient-effects/
 ---
 ## 介紹
 
-使用漸變效果增強影像可以為您的視覺內容添加迷人的維度。 Aspose.PSD for .NET 提供了一個強大的平台，將漸層疊加整合到影像中。在本教學中，我們將引導您完成使用 Aspose.PSD for .NET 新增漸層效果的過程。
+使用漸變效果增強影像可以為您的視覺內容添加迷人的維度。 Aspose.PSD for .NET 提供了一個強大的平台，可以將漸層疊加合併到影像中。在本教學中，我們將引導您完成使用 Aspose.PSD for .NET 新增漸層效果的過程。
 
 ## 先決條件
 

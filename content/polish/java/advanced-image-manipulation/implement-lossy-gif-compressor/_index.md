@@ -54,14 +54,14 @@ Image image = Image.load(sourceFile);
 
 ## Krok 4: Skonfiguruj kompresję GIF
 
- Stwórz`GifOptions` obiekt, aby ustawić parametry kompresji GIF, takie jak maksymalna różnica. W tym przykładzie ustawiliśmy maksymalną różnicę na 200.
+ Utwórz`GifOptions` obiekt, aby ustawić parametry kompresji GIF, takie jak maksymalna różnica. W tym przykładzie ustawiliśmy maksymalną różnicę na 200.
 
 ```java
 GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Krok 5: Zapisz skompresowany GIF.
+## Krok 5: Zapisz skompresowany GIF
 
  Zapisz skompresowany obraz GIF za pomocą pliku`image.save` metoda z określonym`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD for Java to potężna biblioteka do pracy z plikami PSD i różnym
 
 ### P3: Gdzie mogę znaleźć dokumentację Aspose.PSD dla Java?
 
-A3: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/java/).
+A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/java/).
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę kupić Aspose.PSD dla Java?
 
- Odpowiedź 5: Możesz kupić bibliotekę.[Tutaj](https://purchase.aspose.com/buy).
+ Odpowiedź 5: Możesz kupić bibliotekę[Tutaj](https://purchase.aspose.com/buy).

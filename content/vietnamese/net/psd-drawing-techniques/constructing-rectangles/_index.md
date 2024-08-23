@@ -17,7 +17,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn cá
 
 -  Thiết lập môi trường: Có môi trường phát triển .NET hoạt động được tích hợp Aspose.PSD. Nếu bạn chưa có, hãy tham khảo[tài liệu](https://reference.aspose.com/psd/net/) để biết hướng dẫn cài đặt.
 
--  Tải xuống Aspose.PSD: Đảm bảo bạn đã tải xuống thư viện Aspose.PSD từ[Liên kết tải xuống](https://releases.aspose.com/psd/net/).
+-  Tải xuống Aspose.PSD: Đảm bảo bạn đã tải xuống thư viện Aspose.PSD từ[liên kết tải xuống](https://releases.aspose.com/psd/net/).
 
 -  Nhận giấy phép: Nếu bạn đang sử dụng Aspose.PSD trong môi trường sản xuất, hãy đảm bảo bạn có giấy phép hợp lệ. Bạn có thể có được một[đây](https://purchase.aspose.com/buy) hoặc sử dụng một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
 

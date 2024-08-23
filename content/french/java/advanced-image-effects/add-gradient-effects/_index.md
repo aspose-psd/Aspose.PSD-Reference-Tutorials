@@ -107,7 +107,7 @@ Répétez ces étapes pour toute autre modification ou effet supplémentaire que
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter des effets de dégradé à vos images à l'aide d'Aspose.PSD pour Java. Expérimentez avec différents réglages pour obtenir l’impact visuel souhaité.
+Félicitations! Vous avez appris avec succès comment ajouter des effets de dégradé à vos images à l'aide d'Aspose.PSD pour Java. Expérimentez avec différents réglages pour obtenir l’impact visuel souhaité.
 
 ## FAQ
 
@@ -121,11 +121,11 @@ A2 : Aspose.PSD fournit une variété d’effets, notamment des ombres, des lue
 
 ### Q3 : Comment puis-je résoudre les problèmes si les effets ne sont pas rendus correctement ?
 
- A3 : Consultez la documentation et les forums communautaires sur[Prise en charge d'Aspose.PSD](https://forum.aspose.com/c/psd/34) à l'aide.
+ A3 : Consultez la documentation et les forums communautaires sur[Prise en charge d'Aspose.PSD](https://forum.aspose.com/c/psd/34) pour obtenir de l'aide.
 
 ### Q4 : Existe-t-il une version d'essai disponible pour Aspose.PSD pour Java ?
 
- A4 : Oui, vous pouvez bénéficier d’un essai gratuit.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q5 : Où puis-je acheter une licence pour Aspose.PSD pour Java ?
 

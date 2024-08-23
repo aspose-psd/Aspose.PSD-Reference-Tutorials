@@ -102,7 +102,7 @@ Tebrikler! Aspose.PSD for .NET'te ObAr ve UnFl imzaları desteğini başarıyla 
 
 ### S1: Aspose.PSD en yeni .NET çerçeveleriyle uyumlu mu?
 
- Cevap1: Aspose.PSD uyumluluğunu düzenli olarak günceller. Bakın[dokümantasyon](https://reference.aspose.com/psd/net/) En son bilgiler için.
+ Cevap1: Aspose.PSD uyumluluğunu düzenli olarak günceller. Şuraya bakın:[dokümantasyon](https://reference.aspose.com/psd/net/) En son bilgiler için.
 
 ### S2: Aspose.PSD desteğini nerede bulabilirim?
 
@@ -110,7 +110,7 @@ Tebrikler! Aspose.PSD for .NET'te ObAr ve UnFl imzaları desteğini başarıyla 
 
 ### S3: Satın almadan önce Aspose.PSD'yi deneyebilir miyim?
 
- C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için nasıl geçici lisans alabilirim?
 

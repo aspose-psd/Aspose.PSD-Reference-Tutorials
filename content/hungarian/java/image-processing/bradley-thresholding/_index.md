@@ -76,7 +76,7 @@ Ismételje meg ezeket a lépéseket az adott használati esetre vonatkozóan, é
 
 ## Következtetés
 
-Gratulálunk! Megtanulta a Bradley Thresholding megvalósítását az Aspose.PSD for Java-ban. Ez a technika javítja a képminőséget, és értékes eszköz a képfeldolgozó alkalmazásokban.
+Gratulálok! Megtanulta a Bradley Thresholding megvalósítását az Aspose.PSD for Java-ban. Ez a technika javítja a képminőséget, és értékes eszköz a képfeldolgozó alkalmazásokban.
 
 ## GYIK
 

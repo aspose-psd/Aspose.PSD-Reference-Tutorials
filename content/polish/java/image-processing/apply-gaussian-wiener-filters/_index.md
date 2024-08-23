@@ -94,7 +94,7 @@ Odpowiedź 2: Wersja próbna ma ograniczenia i możesz poznać pełne możliwoś
 
 ### P4: Czy dostępna jest licencja tymczasowa do celów testowych?
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla Java?
 

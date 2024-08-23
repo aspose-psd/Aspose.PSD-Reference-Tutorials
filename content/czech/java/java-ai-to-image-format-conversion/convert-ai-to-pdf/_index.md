@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 ---
-## Úvod
+## Zavedení
 Pracujete se soubory Adobe Illustrator a potřebujete je převést do formátu PDF v aplikaci Java? Ať už zpracováváte vektorovou grafiku, ilustrace nebo soubory návrhů, převod souborů AI do PDF může být zásadní pro účely dokumentace, sdílení a tisku. V této příručce prozkoumáme, jak můžete bez námahy převést soubory AI do PDF pomocí Aspose.PSD pro Java. Aspose.PSD je výkonná knihovna, která zjednodušuje manipulaci a konverzi PSD, AI a dalších obrazových formátů. Pojďme se tedy ponořit do matic a šroubů tohoto procesu konverze!
 ## Předpoklady
 Než začneme s kódem, ujistěte se, že máte splněny následující předpoklady:
@@ -18,7 +18,6 @@ Než začneme s kódem, ujistěte se, že máte splněny následující předpok
 Chcete-li začít s kódem, musíte importovat potřebné balíčky Aspose.PSD. Můžete to udělat takto:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -53,7 +52,7 @@ Tím nastavíte kvalitu JPEG pro všechny obrázky v PDF na maximální úroveň
 ```java
 image.save(outFileName, options);
 ```
- Tento řádek převede váš obrázek AI na soubor PDF v zadané cestě. Ujisti se že`outFileName` ukazuje na požadované výstupní místo.
+ Tento řádek převede váš obrázek AI na soubor PDF v zadané cestě. Zajistěte to`outFileName` ukazuje na požadované výstupní místo.
 
 ## Závěr
 Převod souborů AI do PDF v Javě pomocí Aspose.PSD je přímočarý a efektivní. Podle kroků uvedených v této příručce můžete tuto funkci snadno integrovat do svých aplikací a usnadnit tak práci s vektorovou grafikou a ilustracemi ve formátu PDF. Ať už jste vývojář, designér nebo jen zkoumáte možnosti AI a převodů PDF, Aspose.PSD nabízí bezproblémový zážitek.
@@ -63,7 +62,7 @@ Aspose.PSD je výkonná knihovna, která umožňuje vývojářům pracovat se so
 ### Mohu vyzkoušet Aspose.PSD zdarma?
  Ano! Můžete získat dočasnou licenci nebo stáhnout bezplatnou zkušební verzi z[Aspose Releases](https://releases.aspose.com/psd/java/).
 ### Jaké formáty souborů podporuje Aspose.PSD?
- Aspose.PSD podporuje různé formáty včetně PSD, AI, TIFF, BMP a dalších. Zkontrolovat[dokumentace](https://reference.aspose.com/psd/java/) pro úplný seznam.
+ Aspose.PSD podporuje různé formáty včetně PSD, AI, TIFF, BMP a dalších. Zkontrolujte[dokumentace](https://reference.aspose.com/psd/java/) pro úplný seznam.
 ### Jak mohu získat podporu pro Aspose.PSD?
  Můžete navštívit[Fórum Aspose](https://forum.aspose.com/c/psd/34) pro jakékoli dotazy nebo problémy, se kterými se můžete setkat.
 ### Kde si mohu zakoupit licenci pro Aspose.PSD?

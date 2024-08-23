@@ -19,7 +19,6 @@ Mielőtt belevágnánk az oktatóanyagba, fedjük le az előfeltételeket. A kez
 Először is importáljuk a szükséges csomagokat. Ezek az importálások elengedhetetlenek az Aspose.PSD könyvtárral való munkavégzéshez és a képkonverziók kezeléséhez.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Most, hogy a PSB fájl betöltődött, be kell állítania a JPG átalakítás b
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Itt létrehozunk egy`JpegOptions` objektumot, és állítsa a minőséget 95-re. Ezzel az értékkel szabályozhatja a kimeneti kép tömörítését és minőségét.
+Itt létrehozunk egy`JpegOptions` objektumot, és állítsa a minőséget 95-re. Ezzel az értékkel szabályozhatja a kimeneti kép tömörítését és minőségét.
 ## 4. lépés: Mentse el a képet JPG formátumban
 A beállított beállításokkal készen áll a PSB-fájl mentésére JPG formátumban. Itt történik a tényleges átalakítás.
 ```java
@@ -55,7 +54,7 @@ image.save(dataDir + "Simple_output.psb");
 ```
 Ez a lépés nem kötelező, de hasznos, ha meg kell őriznie az eredeti PSB-fájl réteges formátumát a konvertált JPG-vel együtt.
 ## Következtetés
-Gratulálunk! Sikeresen konvertált egy PSB fájlt JPG formátumba az Aspose.PSD for Java használatával. Ez az oktatóanyag végigvezeti a projekt beállításán, a PSB-fájl betöltésén, a JPG-beállítások konfigurálásán és a konvertált kép mentésén. Ha követi ezeket a lépéseket, könnyedén kezelheti a PSB-ből JPG-be konvertálást Java-alkalmazásaiban.
+Gratulálok! Sikeresen konvertált egy PSB fájlt JPG formátumba az Aspose.PSD for Java használatával. Ez az oktatóanyag végigvezeti a projekt beállításán, a PSB-fájl betöltésén, a JPG-beállítások konfigurálásán és a konvertált kép mentésén. Ha követi ezeket a lépéseket, könnyedén kezelheti a PSB-ből JPG-be konvertálást Java-alkalmazásaiban.
 Akár fejlesztő, aki képfeldolgozó alkalmazáson dolgozik, vagy csak időnként PSB-fájlokat kell konvertálnia, az Aspose.PSD for Java robusztus megoldást kínál az Ön igényeire.
 ## GYIK
 ### Mi az Aspose.PSD for Java?
@@ -63,8 +62,8 @@ Az Aspose.PSD for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztő
 ### Kipróbálhatom az Aspose.PSD for Java fájlt vásárlás előtt?
  Igen, letöltheti az Aspose.PSD for Java ingyenes próbaverzióját a webhelyről[letöltési oldal](https://releases.aspose.com/). Ez lehetővé teszi, hogy a vásárlás előtt értékelje a könyvtárat és annak jellemzőit.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
-Ideiglenes engedélyt szerezhet a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/). Ez lehetővé teszi a könyvtár teljes funkciójának használatát korlátozott ideig.
+ Ideiglenes engedélyt szerezhet a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/). Ez lehetővé teszi a könyvtár teljes funkciójának használatát korlátozott ideig.
 ### Van-e támogatás, ha problémákat tapasztalok?
  Teljesen! A támogatást a következőn keresztül érheti el[Aspose.PSD támogatási fórum](https://forum.aspose.com/c/psd/34). A támogatási csapat készséges, és készen áll, hogy segítsen Önnek bármilyen problémája vagy kérdése esetén.
 ### Beállíthatom a JPG kimenet minőségét?
- Igen, beállíthatja a JPG kimenet minőségét a`Quality` ingatlan a`JpegOptions` tárgy. Az érték 0 és 100 között mozog, a magasabb értékek jobb minőséget és alacsonyabb tömörítést jeleznek.
+ Igen, beállíthatja a JPG kimenet minőségét a`Quality` ingatlan a`JpegOptions` objektum. Az érték 0 és 100 között mozog, a magasabb értékek jobb minőséget és alacsonyabb tömörítést jeleznek.

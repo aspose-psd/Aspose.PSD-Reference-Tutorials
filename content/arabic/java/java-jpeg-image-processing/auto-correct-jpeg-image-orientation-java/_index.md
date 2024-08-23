@@ -20,7 +20,6 @@ url: /ar/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-jav
 قبل البدء بالمثال، تأكد من استيراد الحزم الضرورية من Aspose.PSD لـ Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

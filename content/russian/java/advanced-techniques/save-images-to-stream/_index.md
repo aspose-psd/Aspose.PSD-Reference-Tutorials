@@ -1,6 +1,6 @@
 ---
 title: Сохраняйте изображения в потоковом режиме с помощью Aspose.PSD для Java
-linktitle: Сохраняйте изображения для потоковой передачи
+linktitle: Сохранение изображений в поток
 second_title: Aspose.PSD Java API
 description: Узнайте, как сохранять изображения PSD в поток с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству для эффективной обработки изображений.
 type: docs
@@ -41,9 +41,9 @@ import java.io.FileOutputStream;
 String dataDir = "Your Document Directory";
 ```
 
- Заменять`"Your Document Directory"`с указанием пути к каталогу, в котором находится ваш PSD-файл.
+ Заменять`"Your Document Directory"` с указанием пути к каталогу, в котором находится ваш PSD-файл.
 
-## Шаг 2. Укажите источник и место назначения.
+## Шаг 2. Укажите источник и место назначения
 
 ```java
 String sourceFile = dataDir + "sample.psd";
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Создать`FileOutputStream` для файла назначения и сохраните изображение PSD в поток, используя параметры PNG.
+ Создайте`FileOutputStream`для файла назначения и сохраните изображение PSD в поток, используя параметры PNG.
 
 Повторите эти шаги по мере необходимости для вашего конкретного случая использования.
 
@@ -88,7 +88,7 @@ psdImage.save(outputStream, new PngOptions());
 
 ### В3: Могу ли я попробовать Aspose.PSD перед покупкой?
 
-A3: Да, вы можете изучить это[бесплатная пробная версия](https://releases.aspose.com/) чтобы оценить возможности Aspose.PSD.
+ A3: Да, вы можете изучить[бесплатная пробная версия](https://releases.aspose.com/) чтобы оценить возможности Aspose.PSD.
 
 ### В4: Как я могу получить временную лицензию на Aspose.PSD?
 

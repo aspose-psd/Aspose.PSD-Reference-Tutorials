@@ -59,7 +59,7 @@ Graphics graphics = new Graphics(canvas);
 
 ## Langkah 3: Tambahkan Tanda Tangan ke Gambar
 
- Menggunakan`DrawImage` metode untuk menambahkan tanda tangan ke gambar utama. Sesuaikan lokasi sesuai kebutuhan. Dalam contoh ini, kami mencoba menempatkan gambar sekunder di kanan bawah gambar utama:
+ Gunakan`DrawImage` metode untuk menambahkan tanda tangan ke gambar utama. Sesuaikan lokasi sesuai kebutuhan. Dalam contoh ini, kami mencoba menempatkan gambar sekunder di kanan bawah gambar utama:
 
 ```java
 //ExStart:TambahkanSignatureToImage
@@ -92,6 +92,6 @@ A2: Ya, Aspose.PSD mendukung berbagai format gambar, memastikan fleksibilitas da
 
  A4: Kunjungi[Forum Asumsikan.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
 
-### Q5: Dapatkah saya mencoba Aspose.PSD untuk Java sebelum membeli?
+### Q5: Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
 
  A5: Ya, Anda bisa mendapatkan[uji coba gratis](https://releases.aspose.com/)untuk menjelajahi fitur sebelum melakukan pembelian.

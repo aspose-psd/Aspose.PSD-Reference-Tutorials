@@ -78,7 +78,7 @@ Kesimpulannya, mengatasi tantangan terkait font di Aspose.PSD untuk .NET adalah 
 
 A1: File cache font menyimpan informasi tentang font yang dimuat, dan akumulasinya dapat menyebabkan masalah kinerja. Menghapus file-file ini penting agar berfungsi optimal.
 
-### Q2: Bisakah saya menggunakan Aspose.PSD untuk .NET tanpa menghapus file cache font?
+### Q2: Dapatkah saya menggunakan Aspose.PSD untuk .NET tanpa menghapus file cache font?
 
 J2: Jika memungkinkan, disarankan untuk menghapus file cache font untuk mencegah potensi tantangan terkait font dalam aplikasi Anda.
 
@@ -88,7 +88,7 @@ J2: Jika memungkinkan, disarankan untuk menghapus file cache font untuk mencegah
 
 ### Q4: Apakah ada lisensi sementara yang tersedia untuk Aspose.PSD untuk .NET?
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+ A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
 
 ### Q5: Dapatkah saya membeli Aspose.PSD untuk .NET?
 

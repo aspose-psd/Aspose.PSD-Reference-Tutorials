@@ -66,7 +66,7 @@ Après le délai d'installation de la police, chargez à nouveau l'image PSD. Ce
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à forcer le cache des polices à l’aide d’Aspose.PSD pour Java. La mise en cache des polices est un aspect essentiel de l'optimisation du traitement des images, et Aspose.PSD la rend transparente pour les développeurs Java.
+Félicitations! Vous avez réussi à forcer le cache des polices à l’aide d’Aspose.PSD pour Java. La mise en cache des polices est un aspect essentiel de l'optimisation du traitement des images, et Aspose.PSD la rend transparente pour les développeurs Java.
 
 ## FAQ
 
@@ -76,7 +76,7 @@ A1 : Aspose.PSD pour Java est conçu pour fonctionner avec différentes versio
 
 ### Q2 : Puis-je utiliser Aspose.PSD à des fins commerciales ?
 
- A2 : Oui, Aspose.PSD est livré avec des options de licence flexibles, y compris une utilisation commerciale. Visiter le[page d'achat](https://purchase.aspose.com/buy) pour plus de détails.
+ A2 : Oui, Aspose.PSD est livré avec des options de licence flexibles, y compris une utilisation commerciale. Visitez le[page d'achat](https://purchase.aspose.com/buy) pour plus de détails.
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 

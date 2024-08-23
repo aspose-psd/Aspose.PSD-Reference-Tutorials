@@ -17,7 +17,7 @@ Aspose.PSD for .NET'teki Gradient Overlay Effect'te ustalaşarak görsellerinizi
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini şuradan indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/psd/net/).
+- Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini şuradan indirip yükleyin:[web sitesi](https://releases.aspose.com/psd/net/).
 
 - Belge Dizini: Belgeleriniz için kaynak ve çıktı dosyalarınızı saklayabileceğiniz bir dizin oluşturun.
 

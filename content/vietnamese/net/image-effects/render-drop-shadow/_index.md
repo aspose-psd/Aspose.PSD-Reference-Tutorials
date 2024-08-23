@@ -107,7 +107,7 @@ A2: Chắc chắn rồi! Vui lòng điều chỉnh mã để đáp ứng các y�
 
 ### Câu hỏi 4: Có bản dùng thử miễn phí dành cho Aspose.PSD cho .NET không?
 
- Đ4: Có, bạn có thể khám phá bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp với Aspose.PSD cho .NET?
 

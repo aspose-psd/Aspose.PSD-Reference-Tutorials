@@ -23,7 +23,7 @@ Agora vamos começar com o tutorial!
 
 ## Importar namespaces
 
-Em qualquer projeto .NET, importar os namespaces necessários é crucial para acessar a funcionalidade fornecida pelo Aspose.PSD. Siga esses passos:
+Em qualquer projeto .NET, importar os namespaces necessários é crucial para acessar a funcionalidade fornecida pelo Aspose.PSD. Siga estas etapas:
 
 ### Etapa 1: abra seu projeto
 
@@ -93,11 +93,11 @@ Parabéns! Você dominou os principais recursos de desenho do Aspose.PSD para .N
 
 ### Q1: Onde posso encontrar a documentação do Aspose.PSD para .NET?
 
- A1: Você pode acessar a documentação.[aqui](https://reference.aspose.com/psd/net/).
+ A1: Você pode acessar a documentação[aqui](https://reference.aspose.com/psd/net/).
 
 ### Q2: Como faço o download do Aspose.PSD para .NET?
 
- A2: Baixe a versão mais recente.[aqui](https://releases.aspose.com/psd/net/).
+ A2: Baixe a versão mais recente[aqui](https://releases.aspose.com/psd/net/).
 
 ### Q3: Onde posso comprar Aspose.PSD para .NET?
 
@@ -105,7 +105,7 @@ Parabéns! Você dominou os principais recursos de desenho do Aspose.PSD para .N
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode obter uma avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P5: Onde posso obter suporte para Aspose.PSD para .NET?
 

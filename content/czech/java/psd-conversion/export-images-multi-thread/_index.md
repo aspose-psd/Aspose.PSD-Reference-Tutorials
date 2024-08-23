@@ -7,13 +7,13 @@ type: docs
 weight: 14
 url: /cs/java/psd-conversion/export-images-multi-thread/
 ---
-## Úvod
+## Zavedení
 Chcete vylepšit možnosti exportu obrázků své Java aplikace ve vícevláknovém prostředí? Aspose.PSD pro Javu je perfektní řešení! V tomto tutoriálu vás provedeme procesem exportu obrázků pomocí Aspose.PSD ve vícevláknovém nastavení. Připravte se na odemknutí potenciálu vaší Java aplikace.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte následující předpoklady:
 - Základní znalost programování v Javě.
 - Vytvořeno vývojové prostředí Java.
--  Knihovna Aspose.PSD pro Java byla stažena a nainstalována. Odkaz ke stažení najdete[tady](https://releases.aspose.com/psd/java/).
+-  Knihovna Aspose.PSD pro Java byla stažena a nainstalována. Odkaz ke stažení najdete[zde](https://releases.aspose.com/psd/java/).
 ## Importujte balíčky
 Chcete-li začít, musíte do svého projektu Java importovat potřebné balíčky. Přidejte do kódu následující řádky:
 ```java
@@ -70,8 +70,8 @@ Aspose.PSD je kompatibilní s Java 1.7 a novějšími verzemi.
 ### Mohu pomocí Aspose.PSD zpracovávat více obrázků současně?
 Ano, Aspose.PSD podporuje multi-threading, což vám umožňuje zpracovávat více obrázků současně.
 ### Kde najdu další dokumentaci k Aspose.PSD?
- Můžete se podívat na dokumentaci[tady](https://reference.aspose.com/psd/java/).
-### Je k dispozici bezplatná zkušební verze Aspose.PSD pro Javu?
- Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ Můžete se podívat na dokumentaci[zde](https://reference.aspose.com/psd/java/).
+### Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Javu?
+ Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 ### Jak mohu získat dočasnou licenci pro Aspose.PSD?
  Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.

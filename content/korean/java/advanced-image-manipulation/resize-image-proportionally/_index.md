@@ -74,11 +74,11 @@ image.save(destName, new PngOptions());
 
 ### Q1: Aspose.PSD는 모든 이미지 형식과 호환됩니까?
 
- A1: Aspose.PSD는 PSD, PNG, JPEG 등을 포함한 다양한 이미지 형식을 지원합니다. 을 체크 해봐[선적 서류 비치](https://reference.aspose.com/psd/java/) 포괄적인 목록을 보려면
+ A1: Aspose.PSD는 PSD, PNG, JPEG 등을 포함한 다양한 이미지 형식을 지원합니다. 확인해보세요[선적 서류 비치](https://reference.aspose.com/psd/java/) 포괄적인 목록을 보려면
 
 ### Q2: Aspose.PSD를 상업용 프로젝트에 사용할 수 있나요?
 
- A2: 네, 가능합니다. 방문하다[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
+ A2: 네, 가능합니다. 방문[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
 
 ### Q3: 테스트 목적으로 임시 라이센스를 사용할 수 있습니까?
 

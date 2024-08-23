@@ -7,12 +7,12 @@ type: docs
 weight: 14
 url: /cs/java/java-graphics-drawing/drawing-bezier-curves/
 ---
-## Úvod
+## Zavedení
 V programování Java může kreslení složitých tvarů, jako jsou Bézierovy křivky, výrazně zvýšit vizuální přitažlivost aplikací. Aspose.PSD for Java poskytuje robustní funkce pro efektivní usnadnění takových úloh. Tento tutoriál vás provede procesem kreslení Bézierových křivek krok za krokem pomocí Aspose.PSD pro Java, což vám umožní snadno vytvářet vizuálně poutavou grafiku.
 ## Předpoklady
 Než začnete, ujistěte se, že máte následující předpoklady:
 1. Java Development Kit (JDK): Ujistěte se, že je ve vašem systému nainstalován JDK.
-2.  Aspose.PSD for Java JAR: Stáhněte si knihovnu Aspose.PSD pro Java z[tady](https://releases.aspose.com/psd/java/) a zahrnout jej do svého projektu.
+2.  Aspose.PSD for Java JAR: Stáhněte si knihovnu Aspose.PSD pro Java z[zde](https://releases.aspose.com/psd/java/) a zahrnout jej do svého projektu.
 3. Integrované vývojové prostředí (IDE): Použijte IDE dle vlastního výběru (Eclipse, IntelliJ IDEA atd.) nakonfigurované pomocí JDK.z
 ## Importujte balíčky
 Než se ponoříte do implementace, importujte potřebné třídy Aspose.PSD:
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -73,7 +72,7 @@ Vysvětlení:
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```
 Vysvětlení:
-- `drawBezier()` metoda kreslí křivku se zadanými parametry pomocí`blackPen`.
+- `drawBezier()` metoda vykreslí křivku se zadanými parametry pomocí`blackPen`.
 ## Krok 7: Uložte obrázek
 Uložte nakreslený obrázek do souboru ve formátu BMP.
 ```java

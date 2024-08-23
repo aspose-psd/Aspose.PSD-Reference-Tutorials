@@ -124,4 +124,4 @@ A3: Aspose.PSD는 다양한 PSD 파일 버전과의 호환성을 제공하여 �
 
 ### Q5: 구매하기 전에 Aspose.PSD를 테스트할 수 있나요?
 
- A5: 물론입니다.[무료 시험판](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.
+ A5: 물론입니다.[무료 평가판](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.

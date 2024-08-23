@@ -19,7 +19,6 @@ url: /el/java/java-psb-to-image-format-conversion/convert-psb-to-psd-java/
 Αρχικά, εισαγάγετε τις απαραίτητες κλάσεις Aspose.PSD στο αρχείο Java σας:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
@@ -46,7 +45,7 @@ image.save(dataDir + "ConvertFromPsb_out.psd", options);
 ```
  Αντικαθιστώ`"ConvertFromPsb_out.psd"` με το όνομα και τη διαδρομή του αρχείου εξόδου που επιθυμείτε.
 
-## συμπέρασμα
+## Σύναψη
 Ακολουθώντας αυτά τα βήματα, έχετε μετατρέψει με επιτυχία ένα αρχείο PSB σε μορφή PSD χρησιμοποιώντας το Aspose.PSD για Java. Αυτή η δυνατότητα βελτιώνει τις εφαρμογές σας Java παρέχοντας απρόσκοπτη ενοποίηση με μορφές αρχείων Photoshop.
 ## Συχνές ερωτήσεις
 ### Μπορεί το Aspose.PSD για Java να χειριστεί σύνθετα αρχεία PSB με πολλαπλά επίπεδα;

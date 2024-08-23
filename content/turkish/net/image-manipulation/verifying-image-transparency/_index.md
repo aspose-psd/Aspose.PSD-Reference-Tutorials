@@ -86,8 +86,8 @@ Cevap1: Evet, Aspose.PSD en yeni .NET çerçeveleriyle uyumludur.
 
 ### S4: Aspose.PSD için geçici lisansı nasıl edinebilirim?
 
- Cevap4: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Satın almadan önce Aspose.PSD'yi ücretsiz deneyebilir miyim?
 
-C5: Evet, ücretsiz denemeyi keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+A5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).

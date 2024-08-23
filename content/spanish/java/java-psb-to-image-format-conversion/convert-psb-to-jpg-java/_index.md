@@ -19,7 +19,6 @@ Antes de sumergirnos en el tutorial, cubramos los requisitos previos. Esto es lo
 Primero lo primero, importemos los paquetes necesarios. Estas importaciones son esenciales para trabajar con la biblioteca Aspose.PSD y manejar conversiones de imágenes.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Ahora que su archivo PSB está cargado, necesita configurar las opciones para la
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Aquí estamos creando un`JpegOptions` objeto y estableciendo la calidad en 95. Puede ajustar este valor para controlar la compresión y la calidad de la imagen de salida.
+Aquí estamos creando un`JpegOptions` objeto y estableciendo la calidad en 95. Puede ajustar este valor para controlar la compresión y la calidad de la imagen de salida.
 ## Paso 4: guarde la imagen como JPG
 Con las opciones configuradas, estará listo para guardar su archivo PSB como JPG. Aquí es donde ocurre la conversión real.
 ```java
@@ -63,8 +62,8 @@ Aspose.PSD para Java es una biblioteca que permite a los desarrolladores manipul
 ### ¿Puedo probar Aspose.PSD para Java antes de comprarlo?
  Sí, puede descargar una prueba gratuita de Aspose.PSD para Java desde[pagina de descarga](https://releases.aspose.com/). Esto le permite evaluar la biblioteca y sus características antes de realizar una compra.
 ### ¿Cómo obtengo una licencia temporal de Aspose.PSD para Java?
-Puede obtener una licencia temporal del[página de licencia temporal](https://purchase.aspose.com/temporary-license/). Esto le permitirá utilizar todas las funciones de la biblioteca durante un período limitado.
+ Puede obtener una licencia temporal del[página de licencia temporal](https://purchase.aspose.com/temporary-license/). Esto le permitirá utilizar todas las funciones de la biblioteca durante un período limitado.
 ### ¿Hay soporte disponible si tengo problemas?
  ¡Absolutamente! Puede acceder al soporte a través del[Foro de soporte de Aspose.PSD](https://forum.aspose.com/c/psd/34). El equipo de soporte es receptivo y está listo para ayudarlo con cualquier problema o pregunta que pueda tener.
 ### ¿Puedo ajustar la calidad de la salida JPG?
- Sí, puede ajustar la calidad de la salida JPG configurando el`Quality` propiedad en el`JpegOptions` objeto. El valor oscila entre 0 y 100, y los valores más altos indican mejor calidad y menor compresión.
+ Sí, puede ajustar la calidad de la salida JPG configurando el`Quality` propiedad en el`JpegOptions` objeto. El valor varía de 0 a 100, donde los valores más altos indican mejor calidad y menor compresión.

@@ -25,7 +25,6 @@ Nu när du har allt inställt, låt oss undersöka hur man kan utnyttja Aspose.P
 Innan du börjar koda, importera de nödvändiga paketen för att använda Aspose.PSD-klasser och metoder effektivt i din Java-applikation:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Steg 2: Manipulera pixlar
 När bilden har laddats kan du manipulera dess pixlar. Så här kan du ladda och ändra pixlar:
 ```java
-// Ladda pixlar för en specifik region (t.ex. en 100x10 rektangel från det övre vänstra hörnet)
+//Ladda pixlar för en specifik region (t.ex. en 100x10 rektangel från det övre vänstra hörnet)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Ändra pixlarna (t.ex. tillämpa en gradienteffekt)
 for (int i = 0; i < pixels.length; i++) {

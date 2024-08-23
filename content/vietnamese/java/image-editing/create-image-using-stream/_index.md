@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Tạo một thể hiện của`Image` bằng cách mời`create` phương thức, chuyển cấu hình`BmpOptions` và chỉ định kích thước của hình ảnh.
+ Tạo một thể hiện của`Image` bằng cách gọi`create` phương thức, chuyển cấu hình`BmpOptions` và chỉ định kích thước của hình ảnh.
 
 ## Bước 6: Xử lý ảnh
 
@@ -105,11 +105,11 @@ Câu trả lời 1: Có, Aspose.PSD được thiết kế để tích hợp li�
 
 ### Câu hỏi 3: Aspose.PSD có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD?
 
- A4: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Yêu cầu hệ thống đối với Aspose.PSD là gì?
 

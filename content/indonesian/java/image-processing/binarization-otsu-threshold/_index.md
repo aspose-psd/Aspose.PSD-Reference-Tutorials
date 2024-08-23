@@ -19,7 +19,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Aspose.PSD untuk Perpustakaan Java: Unduh dan instal perpustakaan Aspose.PSD untuk Java. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/psd/java/).
 
-- Contoh File PSD: Siapkan contoh file PSD untuk menguji Binarisasi dengan proses Otsu Threshold.
+- Contoh File PSD: Siapkan contoh file PSD untuk menguji proses Binarisasi dengan Otsu Threshold.
 
 ## Paket Impor
 
@@ -90,11 +90,11 @@ A1: Binarisasi dengan Otsu Threshold adalah metode yang digunakan untuk segmenta
 
 ### Q2: Dapatkah saya menggunakan Aspose.PSD untuk Java secara gratis?
 
- A2: Aspose.PSD untuk Java adalah perpustakaan komersial, tetapi Anda dapat menjelajahi fitur-fiturnya dengan uji coba gratis. Mendapatkan[Di Sini](https://releases.aspose.com/).
+ A2: Aspose.PSD untuk Java adalah perpustakaan komersial, tetapi Anda dapat menjelajahi fitur-fiturnya dengan uji coba gratis. Dapatkan itu[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk Java?
 
-A3: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/java/).
+A3: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/java/).
 
 ### Q4: Bagaimana cara mendapatkan dukungan untuk Aspose.PSD untuk Java?
 
@@ -102,4 +102,4 @@ A3: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/java/).
 
 ### Q5: Apakah tersedia lisensi sementara untuk Aspose.PSD untuk Java?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

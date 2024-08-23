@@ -2,7 +2,7 @@
 title: Memotong File PSD saat Mengonversi ke PNG di Aspose.PSD untuk .NET
 linktitle: Memotong File PSD saat Mengonversi ke PNG
 second_title: Asumsikan.PSD .NET API
-description: Pelajari cara memotong file PSD dengan mudah menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi yang lancar ke PNG.
+description: Pelajari cara memotong file PSD dengan mudah menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi ke PNG tanpa hambatan.
 type: docs
 weight: 18
 url: /id/net/psd-file-manipulation/crop-psd-conversion-png/
@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Buat sebuah instance dari kelas PNGOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Langkah 5: Simpan Gambar yang Dipotong sebagai PNG.
+## Langkah 5: Simpan Gambar yang Dipotong sebagai PNG
 ```csharp
 // Panggil metode penyimpanan, berikan jalur keluaran, dan pngOptions untuk mengonversi file PSD ke PNG dan menyimpan hasilnya
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ Selamat! Anda telah berhasil mempelajari cara memotong file PSD saat mengonversi
 
 ### Q1: Bisakah saya menggunakan perpustakaan ini dalam proyek komersial?
 
- A1: Ya, Aspose.PSD untuk .NET tersedia untuk penggunaan komersial. Mengacu pada[Lisensi Aspose.PSD](https://purchase.aspose.com/buy) untuk detailnya.
+ A1: Ya, Aspose.PSD untuk .NET tersedia untuk penggunaan komersial. Lihat[Lisensi Aspose.PSD](https://purchase.aspose.com/buy) untuk detailnya.
 
 ### Q2: Apakah tersedia uji coba gratis?
 
- A2: Tentu saja! Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+A2: Tentu saja! Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.PSD untuk .NET?
 

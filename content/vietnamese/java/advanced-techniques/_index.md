@@ -1,6 +1,6 @@
 ---
-title: Kỹ thuật tiên tiến
-linktitle: Kỹ thuật tiên tiến
+title: Kỹ thuật nâng cao
+linktitle: Kỹ thuật nâng cao
 second_title: API Java Aspose.PSD
 description: Dễ dàng nắm vững các kỹ thuật nâng cao trong xử lý ảnh Java với các hướng dẫn của Aspose.PSD. Thang độ xám, tải, chuyển đổi, hiển thị văn bản, lưu hiệu quả và hơn thế nữa!
 type: docs
@@ -12,7 +12,7 @@ url: /vi/java/advanced-techniques/
 Bạn đã sẵn sàng nâng cao kỹ năng xử lý ảnh Java của mình chưa? Đi sâu vào các hướng dẫn toàn diện của chúng tôi với Aspose.PSD cho Java, mở khóa một lĩnh vực kỹ thuật nâng cao. Hãy cùng khám phá một số hướng dẫn chính một cách chi tiết:
 
 ## Thang màu xám cho hình ảnh bằng Aspose.PSD cho Java
-Khám phá nghệ thuật tạo hình ảnh có thang độ xám dễ dàng trong Java với Aspose.PSD. Hướng dẫn từng bước của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo kết quả liền mạch.[Đọc thêm](./grayscale-image/)
+ Khám phá nghệ thuật tạo hình ảnh có thang độ xám dễ dàng trong Java với Aspose.PSD. Hướng dẫn từng bước của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo kết quả liền mạch.[Đọc thêm](./grayscale-image/)
 
 ## Tải hình ảnh từ luồng bằng Aspose.PSD cho Java
  Tìm hiểu sự phức tạp của việc tải hình ảnh PSD một cách liền mạch trong Java bằng Aspose.PSD. Hướng dẫn chi tiết của chúng tôi đảm bảo xử lý hình ảnh hiệu quả.[Đọc thêm](./loading-images-from-stream/)
@@ -23,10 +23,10 @@ Khám phá nghệ thuật tạo hình ảnh có thang độ xám dễ dàng tron
 Sẵn sàng để biết thêm? Khám phá các hướng dẫn về cách hiển thị văn bản với các màu khác nhau, lưu hình ảnh hiệu quả bằng cách sử dụng chuỗi công việc và hướng dẫn toàn diện về quản lý phông chữ. Nâng cao thiết kế hình ảnh và phát triển Java của bạn với Aspose.PSD.
 
 ## Hiển thị văn bản với các màu khác nhau trong lớp văn bản
-Tìm hiểu nghệ thuật hiển thị văn bản với nhiều màu sắc khác nhau trong lớp văn bản PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước của chúng tôi đảm bảo kết quả liền mạch.[Đọc thêm](./render-text-different-colors/)
+ Tìm hiểu nghệ thuật hiển thị văn bản với nhiều màu sắc khác nhau trong lớp văn bản PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước của chúng tôi đảm bảo kết quả liền mạch.[Đọc thêm](./render-text-different-colors/)
 
 ## Lưu hình ảnh bằng cách sử dụng Chuỗi công nhân với Aspose.PSD cho Java
- Đi sâu vào xử lý hình ảnh đa luồng trong Java với Aspose.PSD. Nắm vững nghệ thuật lưu hình ảnh hiệu quả bằng cách sử dụng các chuỗi công việc.[Đọc thêm](./save-images-worker-threads/)
+Đi sâu vào xử lý hình ảnh đa luồng trong Java với Aspose.PSD. Nắm vững nghệ thuật lưu hình ảnh hiệu quả bằng cách sử dụng các chuỗi công việc.[Đọc thêm](./save-images-worker-threads/)
 
 ## Cài đặt để thay thế phông chữ bị thiếu trong Aspose.PSD cho Java
  Khám phá hướng dẫn toàn diện về cách thay thế phông chữ bị thiếu trong Aspose.PSD cho Java. Nâng cao thiết kế hình ảnh của bạn với quản lý phông chữ liền mạch.[Đọc thêm](./settings-replacing-missing-fonts/)

@@ -89,11 +89,11 @@ A2 : Absolument ! Aspose.PSD vous permet d'effectuer un traitement d'images par 
 
 ### Q3 : Où puis-je trouver plus d’exemples et de documentation ?
 
- A3 : Explorez le[Documentation](https://reference.aspose.com/psd/net/) pour des exemples complets et une documentation détaillée.
+ A3 : Explorez le[documentation](https://reference.aspose.com/psd/net/) pour des exemples complets et une documentation détaillée.
 
 ### Q4 : Existe-t-il un essai gratuit ?
 
- A4 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.PSD.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.PSD[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je obtenir de l'aide ou demander de l'aide ?
 

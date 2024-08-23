@@ -18,7 +18,6 @@ url: /th/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ในการเริ่มต้น ให้รวมแพ็คเกจ Aspose.PSD ที่จำเป็นในคลาส Java ของคุณ:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -69,7 +68,7 @@ Aspose.PSD เป็นไลบรารี Java ที่ช่วยให้
 ### ฉันจะหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.PSD สำหรับ Java ได้ที่ไหน
  คุณสามารถอ้างถึง[เอกสารประกอบ](https://reference.aspose.com/psd/java/) สำหรับการอ้างอิงและตัวอย่าง API โดยละเอียด
 ### ฉันสามารถทดลองใช้ Aspose.PSD ฟรีก่อนซื้อได้หรือไม่
- ใช่ คุณสามารถดาวน์โหลด[ทดลองฟรี](https://releases.aspose.com/) เพื่อประเมินความสามารถของห้องสมุด
+ ใช่ คุณสามารถดาวน์โหลด[ทดลองใช้ฟรี](https://releases.aspose.com/) เพื่อประเมินความสามารถของห้องสมุด
 ### ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร
  สามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD เหมาะสำหรับการใช้งานเชิงพาณิชย์หรือไม่

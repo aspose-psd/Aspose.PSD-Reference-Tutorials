@@ -16,7 +16,7 @@ url: /es/java/basic-image-operations/simple-drawing/
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Kit de desarrollo de Java (JDK) instalado en su máquina.
--  Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[Aspose.PSD para la documentación de Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[Aspose.PSD para la documentación de Java](https://reference.aspose.com/psd/java/).
 
 ## Importar paquetes
 
@@ -106,7 +106,7 @@ image.save(outPsdFilePath);
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo utilizar Aspose.PSD para Java para manipular archivos PSD existentes?
+### P1: ¿Puedo usar Aspose.PSD para Java para manipular archivos PSD existentes?
 
 R1: Sí, Aspose.PSD para Java proporciona una amplia funcionalidad para editar y manipular archivos PSD existentes.
 
@@ -116,7 +116,7 @@ R1: Sí, Aspose.PSD para Java proporciona una amplia funcionalidad para editar y
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
 
- R3: Sí, puedes acceder a la versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes acceder a la versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo comprar una licencia de Aspose.PSD para Java?
 

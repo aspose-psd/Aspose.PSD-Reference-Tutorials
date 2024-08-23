@@ -17,7 +17,7 @@ Bu eğitime başlamadan önce aşağıdaki önkoşulların yerine getirildiğind
 
 1. Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
 
-2. Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini şuradan indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini şuradan indirip yükleyin:[web sitesi](https://releases.aspose.com/psd/java/).
 
 3.  Örnek PSD Dosyası: Deney için örnek bir PSD dosyasını hazır bulundurun. Şunu kullanabilirsiniz:[Bu eğitim için sample.psd](Belge Dizininiz/sample.psd) dosyanızı oluşturun.
 
@@ -61,7 +61,7 @@ String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-İşte buyur! Aspose.PSD for Java'daki Yeniden Boyutlandırma Türü Numaralandırmasını kullanarak bir görüntüyü başarıyla yeniden boyutlandırdınız.
+Ve işte karşınızda! Aspose.PSD for Java'daki Yeniden Boyutlandırma Türü Numaralandırmasını kullanarak bir görüntüyü başarıyla yeniden boyutlandırdınız.
 
 Sonuç olarak Aspose.PSD for Java, görüntü işleme için sağlam bir platform sağlar ve Yeniden Boyutlandırma Türü Numaralandırması bu sürece bir esneklik katmanı ekler. İster küçük bir proje üzerinde ister büyük ölçekli bir uygulama üzerinde çalışıyor olun, bu adımlarda uzmanlaşmak, görüntü yeniden boyutlandırma işlemini sorunsuz bir şekilde gerçekleştirmenize yardımcı olacaktır.
 
@@ -73,7 +73,7 @@ A1: Kesinlikle! Aspose.PSD for Java, ölçeklenebilirlik ve verimlilik sağlayar
 
 ### S2: Lanczos Resample dışında farklı bir yeniden boyutlandırma türü kullanabilir miyim?
 
-C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bikübik ve daha fazlası gibi çeşitli yeniden boyutlandırma türleri sunar. Kapsamlı bir liste için belgeleri inceleyin.
+C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bicubic ve daha fazlası gibi çeşitli yeniden boyutlandırma türleri sunar. Kapsamlı bir liste için belgeleri inceleyin.
 
 ### S3: Aspose.PSD for Java için ek desteği nerede bulabilirim?
 
@@ -81,7 +81,7 @@ C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bikübik ve daha fazlası gibi 
 
 ### S4: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
 

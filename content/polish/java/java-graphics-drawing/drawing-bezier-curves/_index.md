@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -48,7 +47,7 @@ graphics.clear(Color.getYellow());
 Wyjaśnienie:
 - `clear()` Metoda ustawia kolor tła powierzchni graficznej.
 ## Krok 4: Zainicjuj pióro do rysowania
- Ustawić`Pen` obiekt z właściwościami takimi jak kolor i szerokość, aby zdefiniować sposób rysowania krzywej.
+ Skonfiguruj`Pen` obiekt z właściwościami takimi jak kolor i szerokość, aby zdefiniować sposób rysowania krzywej.
 ```java
 Pen blackPen = new Pen(Color.getBlack(), 3);
 ```
@@ -68,7 +67,7 @@ Wyjaśnienie:
 - `controlX2`, `controlY2`: Drugi punkt kontrolny.
 - `endX`, `endY`: Punkt końcowy krzywej.
 ## Krok 6: Narysuj krzywą Beziera
- Użyj`drawBezier()` metoda rysowania krzywej Beziera na obrazie przy użyciu wcześniej zdefiniowanej metody`Pen` i punkty kontrolne.
+ Skorzystaj z`drawBezier()` metoda rysowania krzywej Beziera na obrazie przy użyciu wcześniej zdefiniowanej metody`Pen` i punkty kontrolne.
 ```java
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```
@@ -93,4 +92,4 @@ Tak, Aspose.PSD dla Java obsługuje obrazy o wysokiej rozdzielczości z wydajnym
 ### Czy mogę wyeksportować obraz do formatów innych niż BMP?
 Tak, Aspose.PSD dla Java obsługuje eksportowanie obrazów do różnych formatów, takich jak PNG, JPEG, TIFF itp.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Odwiedzić[Aspose.PSD dla dokumentacji Java](https://reference.aspose.com/psd/java/) obszerne przewodniki i próbki kodu.## Kompletny kod źródłowy
+ Odwiedź[Aspose.PSD dla dokumentacji Java](https://reference.aspose.com/psd/java/) obszerne przewodniki i próbki kodu.## Kompletny kod źródłowy

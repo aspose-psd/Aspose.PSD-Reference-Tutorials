@@ -9,13 +9,13 @@ url: /pt/net/layer-effects/adding-stroke-effects/
 ---
 ## Introdução
 
-Bem-vindo a este tutorial passo a passo sobre como adicionar efeitos de traçado a camadas no Aspose.PSD para .NET. Melhorar o apelo visual de suas imagens é muito fácil com o efeito de traço, e o Aspose.PSD o torna perfeito para desenvolvedores .NET. Neste guia, orientaremos você no processo, fornecendo etapas e exemplos claros para ajudá-lo a dominar esse recurso poderoso.
+Bem-vindo a este tutorial passo a passo sobre como adicionar efeitos de traçado a camadas no Aspose.PSD para .NET. Melhorar o apelo visual de suas imagens é muito fácil com o efeito de traço, e o Aspose.PSD o torna perfeito para desenvolvedores .NET. Neste guia, orientaremos você durante o processo, fornecendo etapas e exemplos claros para ajudá-lo a dominar esse recurso poderoso.
 
 ## Pré-requisitos
 
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-- Aspose.PSD para .NET: Baixe e instale a biblioteca Aspose.PSD do[local na rede Internet](https://releases.aspose.com/psd/net/).
+- Aspose.PSD para .NET: Baixe e instale a biblioteca Aspose.PSD do[site](https://releases.aspose.com/psd/net/).
 
 - Diretório de documentos: prepare um diretório contendo o documento PSD ao qual deseja aplicar efeitos de traçado.
 
@@ -108,4 +108,4 @@ A4: Sim, você pode percorrer vários arquivos PSD e aplicar o efeito de traço 
 
 ### Q5: Posso usar a versão de teste antes de comprar o Aspose.PSD?
 
- A5: Certamente! Pegue o[teste grátis](https://releases.aspose.com/) para explorar os recursos do Aspose.PSD antes de fazer uma compra.
+ A5: Certamente! Pegue o[teste gratuito](https://releases.aspose.com/) para explorar os recursos do Aspose.PSD antes de fazer uma compra.

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/net/image-manipulation/combine-images/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem podrobném návodu na kombinování obrázků pomocí Aspose.PSD pro .NET! Aspose.PSD je výkonná knihovna .NET, která umožňuje vývojářům bezproblémově pracovat se soubory Adobe Photoshop. V tomto tutoriálu vás provedeme procesem kombinování obrázků pomocí Aspose.PSD, poskytneme vám praktické příklady a podrobné kroky.
 
@@ -15,7 +15,7 @@ Vítejte v našem podrobném návodu na kombinování obrázků pomocí Aspose.P
 
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.PSD Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/net/).
 
 Nyní se pojďme ponořit do tutoriálu!
 
@@ -80,7 +80,7 @@ Uložte konečný kombinovaný obrázek.
 image.Save();
 ```
 
-Gratulujeme! Úspěšně jste zkombinovali dva obrázky pomocí Aspose.PSD pro .NET.
+Gratuluji! Úspěšně jste zkombinovali dva obrázky pomocí Aspose.PSD pro .NET.
 
 ## Závěr
 
@@ -94,7 +94,7 @@ Odpověď 1: Ano, Aspose.PSD je kompatibilní se všemi verzemi .NET, což zaji�
 
 ### Q2: Mohu používat Aspose.PSD pro komerční účely?
 
-Odpověď 2: Ano, Aspose.PSD lze použít pro osobní i komerční účely. Zkontrolujte podrobnosti o licenci[tady](https://purchase.aspose.com/buy).
+Odpověď 2: Ano, Aspose.PSD lze použít pro osobní i komerční účely. Zkontrolujte podrobnosti o licenci[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Jak získám podporu pro Aspose.PSD?
 
@@ -102,8 +102,8 @@ Odpověď 2: Ano, Aspose.PSD lze použít pro osobní i komerční účely. Zkon
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Mohu získat dočasnou licenci pro Aspose.PSD?
 
-A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

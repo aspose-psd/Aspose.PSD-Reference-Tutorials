@@ -86,8 +86,8 @@ S1: Ja, Aspose.PSD är kompatibel med de senaste .NET-ramverken.
 
 ### F4: Hur får jag en tillfällig licens för Aspose.PSD?
 
- A4: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A4: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Kan jag prova Aspose.PSD gratis innan jag köper?
 
-S5: Ja, du kan utforska en gratis provperiod.[här](https://releases.aspose.com/).
+S5: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).

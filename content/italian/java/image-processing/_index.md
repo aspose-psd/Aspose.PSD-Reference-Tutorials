@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /it/java/image-processing/
 ---
-## introduzione
+## Introduzione
 
 L'elaborazione delle immagini diventa un viaggio entusiasmante con Aspose.PSD per Java, un toolkit che consente agli sviluppatori di migliorare i contenuti visivi. Dalle tecniche fondamentali ai processi avanzati, questa serie di tutorial approfondisce le funzionalità che rendono Aspose.PSD una soluzione ideale per l'elaborazione delle immagini Java.
 

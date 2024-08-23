@@ -88,7 +88,7 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, sehingga serbaguna untuk be
 
 ### Q2: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A2: Ya, Anda bisa mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A2: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Bagaimana cara mendapatkan dukungan untuk Aspose.PSD untuk Java?
 
@@ -100,4 +100,4 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, sehingga serbaguna untuk be
 
 ### Q5: Bagaimana cara membeli Aspose.PSD untuk Java?
 
- A5: Anda dapat membeli produknya.[Di Sini](https://purchase.aspose.com/buy).
+ A5: Anda dapat membeli produknya[Di Sini](https://purchase.aspose.com/buy).

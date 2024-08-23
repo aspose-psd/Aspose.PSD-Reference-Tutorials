@@ -15,8 +15,8 @@ Aspose.PSD for Java ile Adobe Illustrator (AI) dosyalarını farklı formatlara 
 ## AI'yı Java'da GIF'e dönüştürün
  AI dosyalarını Java'da GIF'e nasıl dönüştüreceğinizi hiç merak ettiniz mi? Aspose.PSD ile bu basit ve etkilidir. Bu kılavuz, sorunsuz bir dönüşüm süreci sağlamak için önkoşullar ve gerekli adımlar konusunda size yol gösterecek ve yaygın SSS'leri ele alacaktır. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu öğreticiyi basit ve yararlı bulacaksınız.[Devamını oku](./convert-ai-to-gif/).
 
-## AI'yi Java'da JPG'ye dönüştürün
-AI dosyalarını JPG'ye dönüştürmeniz mi gerekiyor? Başka yerde arama! Aspose.PSD'yi kullanan kapsamlı kılavuzumuz, geliştiricilerin yüksek kaliteli görüntü dönüştürme elde etmesini kolaylaştırır. Adım adım talimatlarımızı izleyin; orijinal görüntülerin bütünlüğünü ve kalitesini koruyarak AI dosyalarınızı anında JPG'ye dönüştürün.[Devamını oku](./convert-ai-to-jpg/).
+## Java'da AI'yi JPG'ye dönüştürün
+AI dosyalarını JPG'ye dönüştürmeniz mi gerekiyor? Başka yere bakmayın! Aspose.PSD'yi kullanan kapsamlı kılavuzumuz, geliştiricilerin yüksek kaliteli görüntü dönüştürme elde etmesini kolaylaştırır. Adım adım talimatlarımızı takip ettiğinizde, orijinal görsellerin bütünlüğünü ve kalitesini koruyarak AI dosyalarınızın kısa sürede JPG'ye dönüştürülmesini sağlayabilirsiniz.[Devamını oku](./convert-ai-to-jpg/).
 
 ## AI'yi Java'da PDF'ye dönüştürün
  AI dosyalarını PDF'ye dönüştürmek çeşitli uygulamalar için çok önemli olabilir. Aspose.PSD bu süreci basitleştirerek dosya dönüşümlerinizin verimli ve doğru olmasını sağlar. Bu eğitim, kurulumdan yürütmeye kadar her şeyi kapsamakta ve size AI dosyalarını sorunsuz bir şekilde PDF'ye dönüştürmek için gereken tüm ayrıntıları sağlamaktadır.[Devamını oku](./convert-ai-to-pdf/).
@@ -35,13 +35,13 @@ Bu eğitimleri takip ederek Aspose.PSD for Java'dan yararlanarak görüntü dön
 ## Java AI'dan Görüntü Formatına Dönüştürme Eğitimleri
 ### [AI'yı Java'da GIF'e dönüştürün](./convert-ai-to-gif/)
 Geliştiriciler için basit, etkili bir kılavuz olan Aspose.PSD ile AI'yı Java'da GIF'e dönüştürün. Sorunsuz dönüşüm için önkoşulları, adımları ve SSS'leri öğrenin.
-### [AI'yi Java'da JPG'ye dönüştürün](./convert-ai-to-jpg/)
+### [Java'da AI'yi JPG'ye dönüştürün](./convert-ai-to-jpg/)
 Aspose.PSD ile AI dosyalarını Java'da zahmetsizce JPG'ye dönüştürün. Yüksek kaliteli görüntü dönüştürme için adım adım kılavuzumuzu izleyin.
 ### [AI'yi Java'da PDF'ye dönüştürün](./convert-ai-to-pdf/)
 Aspose.PSD'yi kullanarak AI dosyalarını Java'da PDF'ye nasıl dönüştüreceğinizi öğrenin. Dosya dönüşümlerinizi verimli bir şekilde yönetmek için ayrıntılı, adım adım kılavuzumuzu izleyin.
 ### [Java'da AI'yi PNG'ye dönüştürün](./convert-ai-to-png/)
 Bu kılavuzla Aspose.PSD'yi kullanarak AI'yi Java'da kolayca PNG'ye dönüştürün. AI dosyalarınızı zahmetsizce nasıl yükleyeceğinizi, seçenekleri ayarlayacağınızı ve PNG görüntüleri olarak kaydedeceğinizi öğrenin.
 ### [AI'yi Java'da PSD'ye dönüştürün](./convert-ai-to-psd/)
-Kolay adım adım kılavuzumuzla Aspose.PSD'yi kullanarak AI'yı Java'da PSD'ye dönüştürün. Hızlı ve kesintisiz dosya dönüştürmeye ihtiyaç duyan geliştiriciler için mükemmeldir.
+Kolay adım adım kılavuzumuzla Aspose.PSD'yi kullanarak AI'yi Java'da PSD'ye dönüştürün. Hızlı ve kesintisiz dosya dönüştürmeye ihtiyaç duyan geliştiriciler için mükemmeldir.
 ### [AI'yı Java'da TIFF'e dönüştürün](./convert-ai-to-tiff/)
 Aspose.PSD ile AI'yi Java'da TIFF'e kolayca dönüştürün. Geliştiriciler için adım adım kılavuz. İndirme, kurulum ve kod parçacıkları dahildir.

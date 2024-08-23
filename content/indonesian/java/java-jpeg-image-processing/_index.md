@@ -16,7 +16,7 @@ Jika Anda mendalami dunia pemrosesan gambar dengan Java, Aspose.PSD untuk Java a
 
 Menambahkan gambar mini dapat meningkatkan metadata gambar Anda secara signifikan. Kami memiliki panduan terperinci tentang cara menambahkan thumbnail ke segmen EXIF dan JFIF di Java. Tutorial ini memberikan petunjuk langkah demi langkah dan contoh kode, sehingga prosesnya menjadi lancar.
 
-- [Tambahkan Thumbnail ke Segmen EXIF di Java](./add-thumbnail-to-exif-segment-java/)
+- [Tambahkan Gambar Kecil ke Segmen EXIF di Java](./add-thumbnail-to-exif-segment-java/)
 - [Tambahkan Thumbnail ke Segmen JFIF di Java](./add-thumbnail-to-jfif-segment-java/)
 
 ## Meningkatkan Orientasi dan Kualitas Gambar
@@ -52,7 +52,7 @@ Bagi mereka yang ingin mempelajari lebih dalam pemrosesan gambar JPEG, kami mena
 
 Dengan mengikuti tutorial ini, Anda akan meningkatkan keterampilan pemrosesan gambar dan mendapatkan kemampuan untuk menangani berbagai tugas pemrosesan JPEG dengan mudah. Selami panduan terperinci kami dan jadilah mahir menggunakan Aspose.PSD untuk Java.
 ## Tutorial Pengolahan Gambar Java JPEG
-### [Tambahkan Thumbnail ke Segmen EXIF di Java](./add-thumbnail-to-exif-segment-java/)
+### [Tambahkan Gambar Kecil ke Segmen EXIF di Java](./add-thumbnail-to-exif-segment-java/)
 Pelajari cara menyempurnakan metadata gambar dengan gambar mini menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.untuk integrasi yang lancar.
 ### [Tambahkan Thumbnail ke Segmen JFIF di Java](./add-thumbnail-to-jfif-segment-java/)
 Pelajari cara menambahkan thumbnail ke gambar PSD di Java menggunakan Aspose.PSD langkah demi langkah. Ideal untuk pengembang Java yang ingin meningkatkan kemampuan pemrosesan gambar.

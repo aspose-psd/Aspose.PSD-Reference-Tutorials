@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /it/net/image-manipulation/supporting-obar-and-unfl-signatures/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente strumento per manipolare ed elaborare file Photoshop. Tra le sue ricche funzionalità, il supporto delle firme ObAr e UnFl è fondamentale per l'editing avanzato delle immagini. Questo tutorial ti guiderà attraverso il processo, suddividendo ogni passaggio per garantire un'implementazione senza intoppi.
 
@@ -110,11 +110,11 @@ Congratulazioni! Hai implementato con successo il supporto per le firme ObAr e U
 
 ### Q3: Posso provare Aspose.PSD prima dell'acquisto?
 
- R3: Sì, puoi esplorare una versione di prova gratuita.[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi esplorare una versione di prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
- A4: Visita[questo link](https://purchase.aspose.com/temporary-license/) per opzioni di licenza temporanee.
+ A4: Visita[questo collegamento](https://purchase.aspose.com/temporary-license/) per opzioni di licenza temporanee.
 
 ### Q5: Dove posso acquistare Aspose.PSD per .NET?
 

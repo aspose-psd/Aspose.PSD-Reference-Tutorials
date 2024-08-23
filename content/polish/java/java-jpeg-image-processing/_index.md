@@ -14,7 +14,7 @@ Jeśli zagłębiasz się w świat przetwarzania obrazów w Javie, Aspose.PSD dla
 
 ## Dodawanie miniatur do zdjęć
 
-Dodanie miniatur może znacznie ulepszyć metadane obrazu. Mamy szczegółowe instrukcje dotyczące dodawania miniatur zarówno do segmentów EXIF, jak i JFIF w Javie. Te samouczki zawierają instrukcje krok po kroku i przykłady kodu, dzięki czemu proces jest bezproblemowy.
+Dodanie miniatur może znacznie ulepszyć metadane obrazu. Mamy szczegółowe instrukcje dotyczące dodawania miniatur do segmentów EXIF i JFIF w Javie. Te samouczki zawierają instrukcje krok po kroku i przykłady kodu, dzięki czemu proces jest bezproblemowy.
 
 - [Dodaj miniaturę do segmentu EXIF w Javie](./add-thumbnail-to-exif-segment-java/)
 - [Dodaj miniaturę do segmentu JFIF w Javie](./add-thumbnail-to-jfif-segment-java/)
@@ -39,7 +39,7 @@ Dane EXIF mają kluczowe znaczenie dla zrozumienia metadanych obrazu i zarządza
 
 - [Przeczytaj całą listę tagów EXIF w Javie](./read-all-exif-tag-list-java/)
 - [Przeczytaj wszystkie tagi EXIF w Javie](./read-all-exif-tags-java/)
-- [Czytaj i modyfikuj tagi JPEG EXIF w Javie](./read-modify-jpeg-exif-tags-java/)
+- [Odczytuj i modyfikuj tagi JPEG EXIF w Javie](./read-modify-jpeg-exif-tags-java/)
 - [Zapisuj i modyfikuj dane EXIF w Javie](./write-modify-exif-data-java/)
 - [Przeczytaj szczegółowe informacje o tagach EXIF w Javie](./read-specific-exif-tags-info-java/)
 
@@ -55,7 +55,7 @@ Postępując zgodnie z tymi samouczkami, udoskonalisz swoje umiejętności przet
 ### [Dodaj miniaturę do segmentu EXIF w Javie](./add-thumbnail-to-exif-segment-java/)
 Dowiedz się, jak wzbogacić metadane obrazu za pomocą miniatur, używając Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację. Dla bezproblemowej integracji.
 ### [Dodaj miniaturę do segmentu JFIF w Javie](./add-thumbnail-to-jfif-segment-java/)
-Dowiedz się, jak krok po kroku dodać miniaturę do obrazu PSD w Javie przy użyciu Aspose.PSD. Idealny dla programistów Java, którzy chcą zwiększyć możliwości przetwarzania obrazu.
+Dowiedz się, jak krok po kroku dodać miniaturę do obrazu PSD w Javie przy użyciu Aspose.PSD. Idealny dla programistów Java, którzy chcą zwiększyć możliwości przetwarzania obrazów.
 ### [Automatyczna korekta orientacji obrazu JPEG w Javie](./auto-correct-jpeg-image-orientation-java/)
 Dowiedz się, jak automatycznie korygować orientację obrazu JPEG w Javie przy użyciu Aspose.PSD. Zwiększ swoje umiejętności przetwarzania obrazu bez wysiłku.
 ### [Ustaw kolor JPEG i typ kompresji w Javie](./set-jpeg-color-compression-type-java/)
@@ -67,9 +67,9 @@ Dowiedz się, jak wyodrębnić miniatury z plików PSD za pomocą Aspose.PSD dla
 ### [Przeczytaj całą listę tagów EXIF w Javie](./read-all-exif-tag-list-java/)
 Dowiedz się, jak wyodrębnić metadane EXIF z plików PSD za pomocą Aspose.PSD dla Java, korzystając z naszego obszernego samouczka i przykładów kodu.
 ### [Przeczytaj wszystkie tagi EXIF w Javie](./read-all-exif-tags-java/)
-Dowiedz się, jak wyodrębnić tagi EXIF z obrazów PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie wyodrębnić metadane.
-### [Czytaj i modyfikuj tagi JPEG EXIF w Javie](./read-modify-jpeg-exif-tags-java/)
-Dowiedz się, jak czytać i modyfikować tagi JPEG EXIF przy użyciu Aspose.PSD dla Java w tym przewodniku krok po kroku. Idealny dla programistów, którzy chcą bez wysiłku obsługiwać metadane obrazu.
+Dowiedz się, jak wyodrębnić znaczniki EXIF z obrazów PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie wyodrębnić metadane.
+### [Odczytuj i modyfikuj tagi JPEG EXIF w Javie](./read-modify-jpeg-exif-tags-java/)
+W tym przewodniku krok po kroku dowiesz się, jak czytać i modyfikować tagi JPEG EXIF przy użyciu Aspose.PSD dla Java. Idealny dla programistów, którzy chcą bez wysiłku obsługiwać metadane obrazu.
 ### [Przeczytaj szczegółowe informacje o tagach EXIF w Javie](./read-specific-exif-tags-info-java/)
 Dowiedz się, jak czytać określone tagi EXIF z obrazów PSD za pomocą Aspose.PSD dla Java, korzystając z naszego samouczka krok po kroku. Popraw swoje umiejętności przetwarzania obrazu.
 ### [Obsługa 2- i 7-bitowych plików JPEG w Javie](./support-2-7-bits-jpeg-java/)

@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /it/net/image-manipulation/adding-signature-to-images/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente strumento per manipolare e migliorare le immagini. Se ti sei mai chiesto come aggiungere una firma alle immagini senza problemi utilizzando Aspose.PSD per .NET, sei nel posto giusto. Questa guida passo passo ti guiderà attraverso il processo, assicurandoti di padroneggiare l'arte di incorporare le firme nelle tue immagini senza sforzo.
 
@@ -102,4 +102,4 @@ A3: è possibile implementare blocchi try-catch per gestire le eccezioni in modo
 
 ### Q5: Posso provare Aspose.PSD prima dell'acquisto?
 
- R5: Certamente è disponibile una prova gratuita.[Qui](https://releases.aspose.com/).
+ R5: Certamente è disponibile una prova gratuita[Qui](https://releases.aspose.com/).

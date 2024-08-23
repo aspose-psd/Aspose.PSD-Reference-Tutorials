@@ -35,7 +35,7 @@ Mang lại chiều sâu và kích thước cho hình ảnh của bạn bằng hi
 
 Tinh chỉnh hình ảnh của bạn hơn nữa bằng cách tìm hiểu cách điều chỉnh độ mờ của hiệu ứng đổ bóng trong . Hướng dẫn toàn diện này cung cấp cho bạn những hiểu biết sâu sắc và kỹ năng cần thiết để tinh chỉnh các sáng tạo của bạn. Nâng cao trò chơi thiết kế của bạn với kiến thức cần thiết này.
 
-## [Làm việc với chế độ hòa trộn](./working-with-blend-modes/)
+## [Làm việc với chế độ hoà trộn](./working-with-blend-modes/)
 
 Mở khóa sức mạnh của chế độ hòa trộn trong . Hướng dẫn này đóng vai trò là hướng dẫn của bạn, hướng dẫn bạn cách áp dụng các chế độ hòa trộn khác nhau với các ví dụ từng bước. Khám phá tính linh hoạt và cách mạng hóa phương pháp thiết kế của bạn.
 

@@ -1,6 +1,6 @@
 ---
-title: Foto bewerken
-linktitle: Foto bewerken
+title: Beeldbewerking
+linktitle: Beeldbewerking
 second_title: Aspose.PSD Java-API
 description: Ontdek de magie van kleuroverlay-effecten, het samenvoegen van afbeeldingen en naadloze beeldverwerking met Aspose.PSD. Verbeter uw beeldbewerkingsgame met onze handleidingen.
 type: docs
@@ -9,7 +9,7 @@ url: /nl/java/image-editing/
 ---
 ## Invoering 
 
-Welkom in het rijk van meesterschap in beeldbewerking! In deze verzameling tutorials verdiepen we ons in de krachtige mogelijkheden van Aspose.PSD voor Java en begeleiden we u door de kunst van het moeiteloos verbeteren, combineren en manipuleren van afbeeldingen. Of u nu een doorgewinterde ontwikkelaar bent of net begint, ga met ons mee op deze reis en ontdek de magie van kleuroverlay-effecten, het samenvoegen van afbeeldingen, het maken van XMP-metagegevens en naadloze beeldverwerking. Verbeter uw bewerkingsgame met stapsgewijze handleidingen die het potentieel van Aspose.PSD voor Java ontrafelen en u de vaardigheden bieden om uw visuele creaties te transformeren. Laten we erin duiken en de fascinerende wereld van beeldbewerking verkennen!
+Welkom in het rijk van meesterschap in beeldbewerking! In deze verzameling tutorials duiken we in de krachtige mogelijkheden van Aspose.PSD voor Java en begeleiden we u door de kunst van het moeiteloos verbeteren, combineren en manipuleren van afbeeldingen. Of u nu een doorgewinterde ontwikkelaar bent of net begint, ga met ons mee op deze reis en ontdek de magie van kleuroverlay-effecten, het samenvoegen van afbeeldingen, het maken van XMP-metagegevens en naadloze beeldverwerking. Verbeter uw bewerkingsgame met stapsgewijze handleidingen die het potentieel van Aspose.PSD voor Java ontrafelen en u de vaardigheden bieden om uw visuele creaties te transformeren. Laten we erin duiken en de fascinerende wereld van beeldbewerking verkennen!
 
 ## Pas het kleuroverlay-effect toe in Aspose.PSD voor Java
 
@@ -25,7 +25,7 @@ Welkom in het rijk van meesterschap in beeldbewerking! In deze verzameling tutor
 
 ## Maak een afbeelding door het pad in te stellen in Aspose.PSD voor Java
 
- Ga op reis om verbluffende creaties te maken[PSD-afbeeldingen](./create-image-by-setting-path/) met behulp van Aspose.PSD voor Java. Onze stapsgewijze handleiding zorgt voor een naadloos proces voor het genereren van boeiende afbeeldingen door paden in te stellen. Duik met gemak in de wereld van beeldcreatie.
+ Ga op reis om verbluffende creaties te creëren[PSD-afbeeldingen](./create-image-by-setting-path/) met behulp van Aspose.PSD voor Java. Onze stapsgewijze handleiding zorgt voor een naadloos proces voor het genereren van boeiende afbeeldingen door paden in te stellen. Duik met gemak in de wereld van beeldcreatie.
 
 ## Maak een afbeelding met Stream in Aspose.PSD voor Java
 

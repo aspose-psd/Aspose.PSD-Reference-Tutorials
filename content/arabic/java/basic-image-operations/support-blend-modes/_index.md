@@ -17,7 +17,7 @@ Aspose.PSD for Java هي مكتبة قوية توفر دعمًا شاملاً ل
 
 - بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java عاملة على جهازك.
 
--  Aspose.PSD لمكتبة Java: قم بتنزيل المكتبة من ملف[موقع إلكتروني](https://releases.aspose.com/psd/java/) واتبع تعليمات التثبيت.
+- Aspose.PSD لمكتبة Java: قم بتنزيل المكتبة من ملف[موقع إلكتروني](https://releases.aspose.com/psd/java/) واتبع تعليمات التثبيت.
 
 - دليل المستندات: قم بإعداد دليل لتخزين ملفات PSD الخاصة بك، حيث سنعمل مع أوضاع المزج المختلفة باستخدام أمثلة لملفات PSD.
 
@@ -58,7 +58,7 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// احفظه بصيغة PNG مع نسبة تعتيم 100%.
+// احفظه بصيغة PNG مع نسبة تعتيم 100%
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 // اضبط التعتيم على 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// احفظه بصيغة PNG مع نسبة تعتيم 50%.
+// احفظه بصيغة PNG مع نسبة تعتيم 50%
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

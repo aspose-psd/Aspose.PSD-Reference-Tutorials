@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem podrobném průvodci implementací Invert Adjustment Layer v Aspose.PSD pro Java. V tomto tutoriálu prozkoumáme výkonné funkce Aspose.PSD, knihovny Java, která umožňuje bezproblémovou manipulaci se soubory PSD. Ať už jste zkušený vývojář nebo nováček ve zpracování obrazu, tento tutoriál je navržen tak, aby vám pomohl porozumět a efektivně implementovat Invert Adjustment Layer.
 
@@ -15,7 +15,7 @@ Vítejte v našem podrobném průvodci implementací Invert Adjustment Layer v A
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-1. Aspose.PSD Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.PSD. Odkaz ke stažení najdete[tady](https://releases.aspose.com/psd/java/).
+1. Aspose.PSD Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.PSD. Odkaz ke stažení najdete[zde](https://releases.aspose.com/psd/java/).
 
 2. Vývojové prostředí Java: Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
 
@@ -66,7 +66,7 @@ Uložte upravený obrázek PSD s aplikovanou vrstvou Invert Adjustment Layer.
 im.save(outputPath);
 ```
 
-Gratulujeme! Úspěšně jste implementovali Invert Adjustment Layer pomocí Aspose.PSD for Java. Neváhejte a prozkoumejte další vlastnosti a funkce poskytované Aspose.PSD, abyste vylepšili své možnosti zpracování obrazu.
+Gratuluji! Úspěšně jste implementovali Invert Adjustment Layer pomocí Aspose.PSD for Java. Neváhejte a prozkoumejte další vlastnosti a funkce poskytované Aspose.PSD, abyste vylepšili své možnosti zpracování obrazu.
 
 ## Závěr
 
@@ -84,12 +84,12 @@ Odpověď 2: Ano, můžete skládat více vrstev úprav, abyste dosáhli složit
 
 ### Q3: Kde najdu další dokumentaci k Aspose.PSD?
 
- A3: Viz dokumentace[tady](https://reference.aspose.com/psd/java/) pro komplexní informace.
+ A3: Viz dokumentace[zde](https://reference.aspose.com/psd/java/) pro komplexní informace.
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A4: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
-A5: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+A5: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

@@ -2,7 +2,7 @@
 title: Java için Aspose.PSD'de Ayarlama Katmanını Ters Çevir
 linktitle: Ayarlama Katmanını Ters Çevir
 second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'daki Tersine Çevirme Ayarlama Katmanını keşfedin. Kusursuz PSD dosyası manipülasyonu için güçlü bir Java kütüphanesi.
+description: Aspose.PSD for Java'daki Ters Çevirme Ayarlama Katmanını keşfedin. Kusursuz PSD dosyası manipülasyonu için güçlü bir Java kütüphanesi.
 type: docs
 weight: 14
 url: /tr/java/advanced-image-manipulation/invert-adjustment-layer/
@@ -88,8 +88,8 @@ Cevap2: Evet, karmaşık görüntü işlemlerini gerçekleştirmek için birden 
 
 ### S4: Aspose.PSD için ücretsiz deneme sürümü mevcut mu?
 
- C4: Evet, ücretsiz denemeyi keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz denemeyi keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD için nasıl geçici lisans alabilirim?
 
-Cevap5: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

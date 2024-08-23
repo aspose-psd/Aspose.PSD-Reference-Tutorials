@@ -12,7 +12,7 @@ Selamat datang di panduan komprehensif kami tentang penanganan bagian data anima
 ## Prasyarat
 Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 - Pengetahuan dasar tentang pemrograman C# dan .NET.
-- Aspose.PSD untuk .NET diinstal. Jika Anda belum menginstalnya, Anda dapat mendownloadnya dari[Di Sini](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD untuk .NET diinstal. Jika Anda belum menginstalnya, Anda dapat mendownloadnya dari[Di Sini](https://releases.aspose.com/psd/net/).
 - Editor kode seperti Visual Studio untuk implementasi yang lancar.
 ## Impor Namespace
 Dalam kode C# Anda, pastikan Anda mengimpor namespace yang diperlukan untuk bekerja dengan Aspose.PSD:
@@ -94,7 +94,7 @@ A1: Tidak, tutorial ini dirancang khusus untuk C# dan .NET menggunakan Aspose.PS
 
 ### Q2: Apakah lisensi sementara diperlukan untuk menerapkan perubahan ini?
 
-A2: Tidak, lisensi sementara bersifat opsional tetapi disarankan untuk tujuan pengujian.
+A2: Tidak, lisensi sementara bersifat opsional tetapi direkomendasikan untuk tujuan pengujian.
 
 ### Q3: Bisakah saya memodifikasi beberapa frame secara bersamaan menggunakan metode ini?
 

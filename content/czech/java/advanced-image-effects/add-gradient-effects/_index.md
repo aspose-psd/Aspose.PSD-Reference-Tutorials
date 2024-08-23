@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/advanced-image-effects/add-gradient-effects/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tutoriálu o přidávání přechodových efektů v Aspose.PSD pro Javu! Pokud chcete vylepšit své obrázky úžasnými překryvnými přechody, jste na správném místě. V této příručce vás provedeme procesem pomocí Aspose.PSD, výkonné Java knihovny pro zpracování obrázků.
 
@@ -15,7 +15,7 @@ Vítejte v tutoriálu o přidávání přechodových efektů v Aspose.PSD pro Ja
 
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-1. Aspose.PSD for Java Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.PSD for Java. Knihovnu a její dokumentaci najdete[tady](https://reference.aspose.com/psd/java/).
+1. Aspose.PSD for Java Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.PSD for Java. Knihovnu a její dokumentaci najdete[zde](https://reference.aspose.com/psd/java/).
 
 2. Vývojové prostředí Java: Nastavte na vašem počítači vývojové prostředí Java.
 
@@ -85,7 +85,7 @@ Upravte nastavení přechodu podle svých preferencí.
 ## Krok 4: Uložte upravený obrázek
 
 ```java
-// Uložte upravený obrázek
+// Upravený obrázek uložte
 im.save(exportPath);
 ```
 
@@ -107,7 +107,7 @@ Opakujte tyto kroky pro jakékoli další úpravy nebo dodatečné efekty, kter�
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak přidat přechodové efekty do obrázků pomocí Aspose.PSD pro Java. Experimentujte s různými nastaveními, abyste dosáhli požadovaného vizuálního efektu.
+Gratuluji! Úspěšně jste se naučili, jak přidat přechodové efekty do obrázků pomocí Aspose.PSD pro Java. Experimentujte s různými nastaveními, abyste dosáhli požadovaného vizuálního efektu.
 
 ## FAQ
 
@@ -121,11 +121,11 @@ A2: Aspose.PSD poskytuje řadu efektů, včetně stínů, záře a dalších. Da
 
 ### Q3: Jak mohu odstranit potíže, pokud se efekty nevykreslují správně?
 
- A3: Zkontrolujte dokumentaci a komunitní fóra na[Podpora Aspose.PSD](https://forum.aspose.com/c/psd/34) pro pomoc.
+ A3: Zkontrolujte dokumentaci a komunitní fóra na[Podpora Aspose.PSD](https://forum.aspose.com/c/psd/34) o pomoc.
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.PSD pro Java?
 
- A4: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Kde mohu zakoupit licenci pro Aspose.PSD pro Java?
 

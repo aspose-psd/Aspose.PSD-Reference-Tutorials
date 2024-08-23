@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ Esses pacotes fornecem acesso a classes e métodos necessários para desenhar ar
 ## Etapa 1: configure seu projeto Java
 Primeiro, crie um novo projeto Java em seu IDE (Integrated Development Environment) e importe a biblioteca Aspose.PSD para Java. Certifique-se de que a biblioteca esteja referenciada corretamente no caminho de construção do seu projeto.
 ## Etapa 2: inicializar objetos de imagem e gráficos
- Crie uma instância de`PsdImage` e`Graphics` trabalhar com:
+ Crie uma instância de`PsdImage` e`Graphics` para trabalhar com:
 ```java
 String dataDir = "Your Document Directory";
 // Inicializar objeto PsdImage
@@ -74,4 +73,4 @@ Com certeza, Aspose.PSD oferece amplos recursos para manipulação e criação d
 ### O Aspose.PSD oferece suporte à exportação para formatos diferentes de BMP?
 Sim, Aspose.PSD oferece suporte à exportação para vários formatos, incluindo PNG, JPEG, TIFF e GIF, entre outros.
 ### Onde posso encontrar suporte e recursos adicionais para Aspose.PSD?
- Visite a[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para suporte da comunidade, documentação e atualizações.
+ Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para suporte da comunidade, documentação e atualizações.

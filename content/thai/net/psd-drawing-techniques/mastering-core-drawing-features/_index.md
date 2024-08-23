@@ -93,7 +93,7 @@ image.Save(outpath, new BmpOptions());
 
 ### คำถามที่ 1: ฉันจะหาเอกสารประกอบ Aspose.PSD สำหรับ .NET ได้ที่ไหน
 
- A1:คุณสามารถเข้าถึงเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/psd/net/).
+ A1: คุณสามารถเข้าถึงเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/psd/net/).
 
 ### คำถามที่ 2: ฉันจะดาวน์โหลด Aspose.PSD สำหรับ .NET ได้อย่างไร
 

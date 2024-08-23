@@ -96,8 +96,8 @@ A1:Ja, Aspose.PSD ondersteunt verschillende afbeeldingsformaten, waardoor binari
 
 ### V4: Hoe koop ik de Aspose.PSD-bibliotheek?
 
- A4: U kunt de Aspose.PSD-bibliotheek aanschaffen.[hier](https://purchase.aspose.com/buy).
+ A4: U kunt de Aspose.PSD-bibliotheek aanschaffen[hier](https://purchase.aspose.com/buy).
 
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
- A5: Ja, u kunt de mogelijkheden van Aspose.PSD verkennen met een gratis proefversie.[hier](https://releases.aspose.com/).
+ A5: Ja, u kunt de mogelijkheden van Aspose.PSD verkennen met een gratis proefversie[hier](https://releases.aspose.com/).

@@ -1,25 +1,25 @@
 ---
-title: Anwenden von Gaußschen und Wiener-Filtern in Aspose.PSD für .NET
+title: Anwenden von Gauß- und Wiener-Filtern in Aspose.PSD für .NET
 linktitle: Anwenden von Gauß- und Wiener-Filtern
-second_title: Aspose.PSD .NET-API
-description: Verbessern Sie mühelos die Bildqualität mit Aspose.PSD für .NET. Wenden Sie Gauß- und Wiener-Filter an, um Rauschen zu reduzieren und eine optimale visuelle Attraktivität zu erzielen.
+second_title: Aspose.PSD .NET API
+description: Verbessern Sie die Bildqualität mühelos mit Aspose.PSD für .NET. Wenden Sie Gauß- und Wiener-Filter zur Rauschunterdrückung und für optimale Optik an.
 type: docs
 weight: 10
 url: /de/net/image-processing/apply-gaussian-wiener-filters/
 ---
 ## Einführung
 
-Im Bereich der Bildverarbeitung mit .NET sticht Aspose.PSD als leistungsstarkes Toolkit hervor, das Entwicklern die einfache Bearbeitung von Bildern ermöglicht. Eine besonders nützliche Funktion ist die Anwendung von Gauß- und Wiener-Filtern. Diese Filter spielen eine entscheidende Rolle bei der Verbesserung der Bildqualität, der Reduzierung von Rauschen und der Gewährleistung einer optimalen visuellen Attraktivität.
+Im Bereich der Bildverarbeitung mit .NET sticht Aspose.PSD als leistungsstarkes Toolkit hervor, mit dem Entwickler Bilder mühelos bearbeiten können. Eine besonders nützliche Funktion ist die Anwendung von Gauß- und Wiener-Filtern. Diese Filter spielen eine entscheidende Rolle bei der Verbesserung der Bildqualität, der Reduzierung von Rauschen und der Gewährleistung einer optimalen visuellen Attraktivität.
 
 ## Voraussetzungen
 
-Bevor Sie sich mit der Anwendung von Gaußschen und Wiener-Filtern mit Aspose.PSD befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie sich mit der Anwendung von Gauß- und Wiener-Filtern mit Aspose.PSD befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.PSD für .NET: Laden Sie die Bibliothek herunter und installieren Sie sie[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
+1. Aspose.PSD für .NET: Laden Sie die Bibliothek herunter und installieren Sie sie von der[Aspose.PSD für .NET-Dokumentation](https://reference.aspose.com/psd/net/).
 
 2. Beispielbild: Bereiten Sie zum Experimentieren ein Beispielbild im PSD-Format vor. Beispielbilder finden Sie in der Aspose.PSD-Dokumentation.
 
-3. Integrierte Entwicklungsumgebung (IDE): Installieren Sie auf Ihrem System eine .NET-kompatible IDE, z. B. Visual Studio, um die in diesem Tutorial bereitgestellten Codefragmente nahtlos zu implementieren.
+3. Integrierte Entwicklungsumgebung (IDE): Installieren Sie auf Ihrem System eine .NET-kompatible IDE wie Visual Studio, um die in diesem Tutorial bereitgestellten Codeausschnitte nahtlos zu implementieren.
 
 ## Namespaces importieren
 
@@ -32,10 +32,10 @@ using Aspose.PSD.ImageOptions;
 
 ## Schritt 1: Laden Sie das verrauschte Bild
 
-Um Gaußsche und Wiener-Filter anzuwenden, laden Sie zunächst das verrauschte Bild in Ihre .NET-Anwendung:
+Um Gauß- und Wiener-Filter anzuwenden, laden Sie zunächst das verrauschte Bild in Ihre .NET-Anwendung:
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
 
 string sourceFile = dataDir + @"sample.psd";
@@ -43,13 +43,13 @@ string sourceFile = dataDir + @"sample.psd";
 // Laden Sie das verrauschte Bild
 using (Image image = Image.Load(sourceFile))
 {
-    // Code für die weitere Verarbeitung wird hier angezeigt
+    // Hier kommt der Code zur Weiterverarbeitung rein
 }
 ```
 
-## Schritt 2: In RasterImage konvertieren
+## Schritt 2: In Rasterbild konvertieren
 
- Konvertieren Sie das geladene Bild in ein`RasterImage` Zur Kompatibilität mit den Filtern:
+ Konvertieren Sie das geladene Bild in ein`RasterImage` zur Kompatibilität mit den Filtern:
 
 ```csharp
 RasterImage rasterImage = image as RasterImage;
@@ -59,9 +59,9 @@ if (rasterImage == null)
 }
 ```
 
-## Schritt 3: Erstellen Sie Gaußsche und Wiener-Filteroptionen
+## Schritt 3: Erstellen Sie Gaußsche und Wiener Filteroptionen
 
- Erstellen Sie eine Instanz von`GaussWienerFilterOptions` Klasse, die die Radiusgröße und den Glättungswert angibt:
+ Erstellen Sie eine Instanz des`GaussWienerFilterOptions` Klasse, die die Radiusgröße und den Glättungswert angibt:
 
 ```csharp
 GaussWienerFilterOptions options = new GaussWienerFilterOptions(12, 3);
@@ -70,7 +70,7 @@ options.Grayscale = true;
 
 ## Schritt 4: Filter anwenden
 
- Wenden Sie die erstellten Filteroptionen auf an`RasterImage` Objekt:
+ Wenden Sie die erstellten Filteroptionen auf die`RasterImage` Objekt:
 
 ```csharp
 rasterImage.Filter(image.Bounds, options);
@@ -87,26 +87,26 @@ image.Save(destName, new GifOptions());
 
 ## Abschluss
 
-Glückwunsch! Sie haben Gaußsche und Wiener-Filter erfolgreich angewendet, um die Qualität Ihres Bildes mit Aspose.PSD für .NET zu verbessern. Diese Filter erweisen sich in verschiedenen Szenarien als unschätzbar wertvoll, von der Reduzierung des Rauschens in Fotos bis zur Verfeinerung grafischer Elemente in Designprojekten.
+Herzlichen Glückwunsch! Sie haben erfolgreich Gauß- und Wiener-Filter angewendet, um die Qualität Ihres Bildes mit Aspose.PSD für .NET zu verbessern. Diese Filter erweisen sich in verschiedenen Szenarien als unschätzbar wertvoll, von der Reduzierung von Rauschen in Fotos bis zur Verfeinerung grafischer Elemente in Designprojekten.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich diese Filter auf Bilder in anderen Formaten als PSD anwenden?
+### F1: Kann ich diese Filter auch auf Bilder in anderen Formaten als PSD anwenden?
 
 A1: Ja, Aspose.PSD unterstützt verschiedene Bildformate, darunter PSD, BMP, JPEG, PNG und mehr.
 
 ### F2: Welche Bedeutung haben die Radiusgröße und der Glättungswert in den Filteroptionen?
 
-A2: Die Radiusgröße bestimmt den Bereich, über den der Filter wirkt, während der Glättungswert den Grad der auf das Bild angewendeten Glättung beeinflusst.
+A2: Die Radiusgröße bestimmt den Bereich, über den der Filter arbeitet, während der Glättungswert den Grad der auf das Bild angewendeten Glättung beeinflusst.
 
 ### F3: Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
 
- A3: Sie können eine temporäre Lizenz bei erwerben[Aspose.PSD temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
+ A3: Eine temporäre Lizenz erhalten Sie bei der[Temporäre Lizenzseite von Aspose.PSD](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Wo finde ich zusätzliche Unterstützung und Hilfe?
 
- A4: Bei Fragen oder Hilfe besuchen Sie bitte die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34).
+ A4: Bei Fragen oder für Hilfe besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34).
 
 ### F5: Gibt es eine kostenlose Testversion von Aspose.PSD?
 
- A5: Ja, Sie können die Funktionen von Aspose.PSD erkunden, indem Sie das herunterladen[kostenlose Testversion](https://releases.aspose.com/).
+ A5: Ja, Sie können die Funktionen von Aspose.PSD erkunden, indem Sie die[kostenlose Testversion](https://releases.aspose.com/).

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/java/advanced-techniques/grayscale-image/
 ---
-## introduzione
+## Introduzione
 
 Nell'ambito dell'elaborazione delle immagini, la conversione di un'immagine in scala di grigi è un'operazione fondamentale. Aspose.PSD per Java fornisce una potente soluzione per gli sviluppatori Java per raggiungere questo obiettivo senza problemi. In questo tutorial, ti guideremo attraverso il processo di scala di grigi di un'immagine utilizzando Aspose.PSD, assicurando che anche i principianti possano seguirlo senza sforzo.
 
@@ -87,7 +87,7 @@ Congratulazioni! Hai scalato con successo un'immagine in scala di grigi utilizza
 
 ### Q1: posso utilizzare Aspose.PSD per Java per progetti commerciali?
 
-A1: Sì, Aspose.PSD per Java è disponibile per uso commerciale. È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).
+ A1: Sì, Aspose.PSD per Java è disponibile per uso commerciale. È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).
 
 ### Q2: esiste una versione di prova gratuita di Aspose.PSD per Java?
 

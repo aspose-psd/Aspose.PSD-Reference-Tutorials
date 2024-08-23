@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/java-graphics-drawing/core-drawing-features/
 ---
-## Úvod
+## Zavedení
 V dnešní digitální době je zvládnutí nástrojů, které umožňují vývojářům manipulovat a vytvářet obrázky programově, neocenitelné. Aspose.PSD for Java vyniká jako robustní řešení pro práci se soubory PSD a nabízí nesčetné množství funkcí, které usnadňují zpracování obrazu, manipulaci a konverzi přímo v aplikacích Java. Tento výukový program se ponoří do základních možností kreslení Aspose.PSD pro Javu a provede vás základními kroky k využití jeho plného potenciálu.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte nastaveny následující předpoklady:
@@ -25,7 +25,6 @@ Nyní, když máte vše nastaveno, pojďme krok za krokem prozkoumat, jak využ�
 Než začnete kódovat, naimportujte potřebné balíčky, abyste mohli efektivně používat třídy a metody Aspose.PSD ve vaší aplikaci Java:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Krok 2: Manipulujte s pixely
 Jakmile je obrázek načten, můžete manipulovat s jeho pixely. Zde je návod, jak můžete načíst a upravit pixely:
 ```java
-// Načtení pixelů konkrétní oblasti (např. obdélník 100x10 začínající v levém horním rohu)
+//Načtení pixelů konkrétní oblasti (např. obdélník 100x10 začínající v levém horním rohu)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Upravte pixely (např. použijte efekt přechodu)
 for (int i = 0; i < pixels.length; i++) {
@@ -67,6 +66,6 @@ Rozhodně můžete automatizovat úlohy dávkového zpracování využitím Aspo
 ### Podporuje Aspose.PSD for Java více obrazových formátů jiných než PSD?
 Kromě PSD podporuje Aspose.PSD pro Java různé formáty jako BMP, PNG, JPEG a další pro vstupní i výstupní operace.
 ### Jak mohu získat dočasnou licenci pro Aspose.PSD pro Java?
- Návštěva[Dočasná licence Aspose.PSD](https://purchase.aspose.com/temporary-license/) stránku pro získání dočasné licence.
+ Návštěva[Dočasná licence Aspose.PSD](https://purchase.aspose.com/temporary-license/) stránka pro získání dočasné licence.
 ### Kde najdu další nápovědu a zdroje pro Aspose.PSD for Java?
  Prozkoumat[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) pro podporu komunity, tipy a další zdroje.

@@ -19,7 +19,6 @@ Antes de mergulhar no processo de conversão, certifique-se de ter os seguintes 
 Primeiro, importe as classes Aspose.PSD necessárias em seu arquivo Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;

@@ -79,7 +79,7 @@ A2：下載庫[這裡](https://releases.aspose.com/psd/net/).
 
 ### Q3：有免費試用嗎？
 
- A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### 問題 4：在哪裡可以獲得 Aspose.PSD for .NET 支援？
 
@@ -87,4 +87,4 @@ A4：尋求支持[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34).
 
 ### Q5: 需要臨時許可證嗎？
 
- A5：獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).

@@ -50,13 +50,13 @@ Klaar om uw grafische Java-ontwerpen naar een hoger niveau te tillen? Beheers ge
 
 Ontgrendel het potentieel van Aspose.PSD voor Java en begin aan een reis vol creativiteit en innovatie. Onze tutorials bieden de begeleiding die u nodig heeft om een bekwame ontwikkelaar van Java-beeldverwerking te worden. Duik erin, verken en verbeter vandaag nog je vaardigheden!
 ## Aspose.PSD voor Java-zelfstudies
-### [Afbeelding verwerken](./image-processing/)
+### [Beeldverwerking](./image-processing/)
 Ontgrendel het potentieel van Aspose.PSD voor Java bij beeldverwerking. Leer stap voor stap de Gauss-, Wiener-, Mediaan- en Motion Wiener-filters toe te passen.
 ### [PSD-conversie](./psd-conversion/)
 Geef uw Java-beeldverwerking een boost met Aspose.PSD! Leer CMYK PSD naar CMYK TIFF converteren, kleurconversie beheersen, PSD-bestanden bijsnijden en meer. 
 ### [Geavanceerde technieken](./advanced-techniques/)
 Beheers moeiteloos geavanceerde technieken in Java-beeldverwerking met Aspose.PSD-tutorials. Grijstinten, laden, converteren, tekst weergeven, efficiënt opslaan en meer!
-### [Foto bewerken](./image-editing/)
+### [Beeldbewerking](./image-editing/)
 Ontdek de magie van kleuroverlay-effecten, het samenvoegen van afbeeldingen en naadloze beeldverwerking met Aspose.PSD. Verbeter uw beeldbewerkingsgame met onze handleidingen.
 ### [Geavanceerde beeldmanipulatie](./advanced-image-manipulation/)
 Ontdek geavanceerde tutorials voor beeldmanipulatie met Aspose.PSD voor Java. Leer efficiënt lettertype vervangen, forceer lettertypecaching, implementeer bicubische resampler en meer.
@@ -72,3 +72,17 @@ Converteer AI-bestanden moeiteloos naar verschillende formaten in Java met behul
 Converteer PSB eenvoudig naar JPG, PDF en PSD in Java met Aspose.PSD. Volg onze tutorials voor naadloze beeldconversies en verbeter uw projecten.
 ### [Java JPEG-beeldverwerking](./java-jpeg-image-processing/)
 Ontdek Aspose.PSD voor Java-tutorials. Leer omgaan met EXIF-, JFIF-, JPEG-verwerking en meer met stapsgewijze handleidingen en codevoorbeelden.
+### [PNG-bestanden optimaliseren](./optimizing-png-files/)
+Ontdek uitgebreide tutorials voor het optimaliseren van PNG-bestanden met Aspose.PSD voor Java, waarin filters, achtergrondkleurveranderingen, compressie, resolutie, bitdiepte en transparantie aan bod komen.
+### [PSD-afbeeldingen aanpassen en converteren](./modifying-converting-psd-images/)
+Verbeter uw PSD-bestanden met verschillende aanpassingen en effecten met Aspose.PSD voor Java. Stapsgewijze tutorials voor kleurmanipulatie, watermerken en meer.
+### [PSD-beeldmodificatie en -conversie](./psd-image-modification-conversion/)
+Ontdek essentiële Aspose.PSD voor Java-tutorials. Leer omgaan met PSD-bestanden, exporteer lagen, pas effecten toe en meer met stapsgewijze handleidingen.
+### [PSD-laagbeheer en effecten](./psd-layer-management-effects/)
+Ontdek uitgebreide tutorials over PSD-laagbeheer en -effecten met Aspose.PSD voor Java. Leer moeiteloos PSD-lagen samen te voegen, af te vlakken en aan te passen.
+### [Geavanceerde PSD-laagfuncties en effecten](./advanced-psd-layer-features-effects/)
+Ontdek geavanceerde PSD-laagfuncties en -effecten met Aspose.PSD voor Java. Leer lagen manipuleren, effecten toevoegen en verschillende bronnen in PSD-bestanden ondersteunen.
+### [TIFF-beeldcompressie en -configuratie](./tiff-image-compression-configuration/)
+Beheer TIFF-afbeeldingen efficiënt met Aspose.PSD voor Java. Leer hoe u Adobe Deflate-compressie op TIFF-bestanden comprimeert, configureert en toepast met onze stapsgewijze zelfstudies.
+### [Werken met PSD-bestanden](./working-with-psd-files/)
+Ontdek uitgebreide Aspose.PSD voor Java-tutorials, inclusief hoe u PSD-laaggroepen naar afbeeldingen kunt exporteren en Clbl-, Infx- en Lspf-bronnen kunt manipuleren.

@@ -23,7 +23,7 @@ url: /zh-hant/net/image-manipulation/supporting-outer-glow-effect/
 
 ## 導入命名空間
 
-在本節中，我們將導入必要的命名空間來啟動我們的外發光效果實作。按著這些次序：
+在本節中，我們將導入必要的命名空間來啟動我們的外發光效果實作。請依照下列步驟操作：
 
 ```csharp
 using System;
@@ -113,4 +113,4 @@ A1：是的，Aspose.PSD支援廣泛的.NET框架，確保與各種開發環境�
 
 ### Q5：我可以購買 Aspose.PSD for .NET 嗎？
 
- A5：是的，探索授權選項並進行購買。[這裡](https://purchase.aspose.com/buy).
+ A5：是的，探索授權選項並進行購買[這裡](https://purchase.aspose.com/buy).

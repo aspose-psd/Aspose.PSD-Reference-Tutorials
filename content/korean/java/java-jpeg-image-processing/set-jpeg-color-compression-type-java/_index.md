@@ -12,13 +12,12 @@ url: /ko/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ## 전제조건
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
-2.  Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/psd/java/).
+2. Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/psd/java/).
 3. Java 프로그래밍에 대한 기본적인 이해.
 ## 패키지 가져오기
 먼저 Aspose.PSD 라이브러리에서 필요한 패키지를 가져와야 합니다. 이러한 가져오기는 PSD 파일을 처리하고 원하는 JPEG 설정을 적용하는 데 중요합니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -48,7 +47,7 @@ image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ### Java용 Aspose.PSD란 무엇입니까?
 Aspose.PSD for Java는 개발자가 PSD 및 PSB 파일을 생성, 편집 및 조작할 수 있게 해주는 Java 라이브러리로, 프로그래밍 방식으로 광범위한 그래픽 디자인 작업을 가능하게 합니다.
 ### Java용 Aspose.PSD를 무료로 사용할 수 있나요?
- 예, 다음을 사용할 수 있습니다.[무료 시험판](https://releases.aspose.com/) Java용 Aspose.PSD. 전체 기능을 사용하려면 라이센스를 구매해야 합니다.
+ 예, 다음을 사용할 수 있습니다.[무료 평가판](https://releases.aspose.com/) Java용 Aspose.PSD. 전체 기능을 사용하려면 라이센스를 구매해야 합니다.
 ### JpegCompressionColorMode와 JpegCompressionMode는 무엇입니까?
 `JpegCompressionColorMode` 그리고`JpegCompressionMode` JPEG 이미지의 색상 모드와 압축 유형을 각각 지정하는 Aspose.PSD 라이브러리의 열거형입니다.
 ### Java용 Aspose.PSD에 대한 설명서는 어디에서 찾을 수 있나요?

@@ -70,7 +70,7 @@ Cevap1: Evet, Aspose.PSD, yazı tiplerini katman bazında seçici olarak değiş
 
 ### S4: Aspose.PSD için geçici lisanslar mevcut mu?
 
- Cevap4: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.PSD için kapsamlı belgeleri nerede bulabilirim?
 

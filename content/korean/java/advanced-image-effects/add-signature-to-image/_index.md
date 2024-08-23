@@ -94,4 +94,4 @@ A2: 예, Aspose.PSD는 광범위한 이미지 형식을 지원하여 이미지 �
 
 ### Q5: 구매하기 전에 Java용 Aspose.PSD를 사용해 볼 수 있나요?
 
- A5: 그렇습니다, 당신은 얻을 수 있습니다[무료 시험판](https://releases.aspose.com/)구매하기 전에 기능을 살펴보세요.
+ A5: 그렇습니다, 당신은 얻을 수 있습니다[무료 평가판](https://releases.aspose.com/)구매하기 전에 기능을 살펴보세요.

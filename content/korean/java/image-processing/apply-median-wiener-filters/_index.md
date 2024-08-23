@@ -78,7 +78,7 @@ image.save(destName, new GifOptions());
 
 ## 결론
 
-이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 Median 및 Wiener 필터를 적용하는 프로세스를 살펴보았습니다. 이러한 필터는 이미지 품질을 향상시키고 Java 애플리케이션의 노이즈를 줄이는 데 필수적입니다. Aspose.PSD의 강력한 기능을 활용하면 이러한 필터를 이미지 처리 워크플로에 쉽게 통합할 수 있습니다.
+이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 Median 및 Wiener 필터를 적용하는 프로세스를 살펴보았습니다. 이러한 필터는 이미지 품질을 향상시키고 Java 애플리케이션의 노이즈를 줄이는 데 필수적입니다. Aspose.PSD의 강력한 기능을 활용하면 이러한 필터를 이미지 처리 워크플로우에 쉽게 통합할 수 있습니다.
 
 ## FAQ
 
@@ -100,4 +100,4 @@ A1: 네, Aspose.PSD는 다양한 이미지 형식을 지원하므로 다양한 �
 
 ### Q5: Java용 Aspose.PSD를 어떻게 구매할 수 있나요?
 
- A5: 제품을 구매하실 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A5: 당신은 제품을 구입할 수 있습니다[여기](https://purchase.aspose.com/buy).

@@ -9,7 +9,7 @@ url: /es/java/advanced-image-effects/add-gradient-effects/
 ---
 ## Introducción
 
-¡Bienvenido al tutorial sobre cómo agregar efectos de degradado en Aspose.PSD para Java! Si buscas mejorar tus imágenes con impresionantes superposiciones de degradado, estás en el lugar correcto. En esta guía, lo guiaremos a través del proceso utilizando Aspose.PSD, una potente biblioteca Java para procesamiento de imágenes.
+¡Bienvenido al tutorial sobre cómo agregar efectos de degradado en Aspose.PSD para Java! Si buscas mejorar tus imágenes con impresionantes superposiciones de degradado, estás en el lugar correcto. En esta guía, lo guiaremos a través del proceso utilizando Aspose.PSD, una poderosa biblioteca Java para procesamiento de imágenes.
 
 ## Requisitos previos
 
@@ -121,11 +121,11 @@ R2: Aspose.PSD proporciona una variedad de efectos, que incluyen sombras, brillo
 
 ### P3: ¿Cómo puedo solucionar problemas si los efectos no se muestran correctamente?
 
- R3: Consulte la documentación y los foros de la comunidad en[Soporte Aspose.PSD](https://forum.aspose.com/c/psd/34) para asistencia.
+ R3: Consulte la documentación y los foros de la comunidad en[Soporte Aspose.PSD](https://forum.aspose.com/c/psd/34) para obtener ayuda.
 
 ### P4: ¿Existe una versión de prueba disponible de Aspose.PSD para Java?
 
- R4: Sí, puedes obtener una prueba gratuita.[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Dónde puedo comprar una licencia de Aspose.PSD para Java?
 

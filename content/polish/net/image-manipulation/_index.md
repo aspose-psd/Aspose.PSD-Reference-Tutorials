@@ -13,7 +13,7 @@ Manipulacja obrazami jest istotną umiejętnością każdego programisty lub pro
 
 ## Łączenie obrazów
 
- Jeśli kiedykolwiek zastanawiałeś się, jak bez wysiłku scalać obrazy w .NET, to jest to[instruktaż](./combine-images/) jest twoim przewodnikiem. Dzięki Aspose.PSD łączenie obrazów staje się prostym i precyzyjnym procesem. Postępuj zgodnie z naszymi instrukcjami krok po kroku, aby podnieść swoje umiejętności manipulacji obrazem.
+ Jeśli kiedykolwiek zastanawiałeś się, jak bez wysiłku scalać obrazy w .NET, to jest to[seminarium](./combine-images/) jest twoim przewodnikiem. Dzięki Aspose.PSD łączenie obrazów staje się prostym i precyzyjnym procesem. Postępuj zgodnie z naszymi instrukcjami krok po kroku, aby podnieść swoje umiejętności manipulacji obrazem.
 
 ## Przycinanie obrazów według prostokąta
 
@@ -29,11 +29,11 @@ Dynamiczne powiększanie i przycinanie obrazów zwiększa elastyczność Twoich 
 
 ## Proporcjonalna zmiana rozmiaru obrazów
 
- Poznaj świat proporcjonalnej zmiany rozmiaru obrazu za pomocą Aspose.PSD. Pobierz bibliotekę, śledź naszą[instruktaż](./resize-images-proportionally/)i zwiększ możliwości przetwarzania obrazów w platformie .NET. Gwarantowana wydajność i precyzja.
+ Poznaj świat proporcjonalnej zmiany rozmiaru obrazu za pomocą Aspose.PSD. Pobierz bibliotekę, śledź naszą[seminarium](./resize-images-proportionally/)i zwiększ możliwości przetwarzania obrazów w platformie .NET. Gwarantowana wydajność i precyzja.
 
 ## Obracanie obrazu
 
- Obracanie jest podstawową umiejętnością manipulacji obrazem. Naucz się bez wysiłku obracać obrazy w .NET za pomocą Aspose.PSD. Nasz krok po kroku[instruktaż](./rotate-image/) poprowadzi Cię przez proces, czyniąc go dostępnym dla wszystkich poziomów umiejętności.
+ Obracanie jest podstawową umiejętnością manipulacji obrazem. Naucz się bez wysiłku obracać obrazy w .NET za pomocą Aspose.PSD. Nasz krok po kroku[seminarium](./rotate-image/) poprowadzi Cię przez proces, czyniąc go dostępnym dla wszystkich poziomów umiejętności.
 
 ## Obracanie obrazu pod określonym kątem
 
@@ -49,7 +49,7 @@ Odkryj moc Aspose.PSD dla .NET, bez wysiłku obracając obrazy pod określonymi 
 
 ## Dodawanie efektów gradientowych do obrazów
 
- Przekształcaj swoje obrazy za pomocą urzekających efektów gradientu za pomocą Aspose.PSD dla .NET. Nasz krok po kroku[instruktaż](./adding-gradient-effects/) poprowadzi Cię przez proces, pomagając bez wysiłku osiągnąć kreatywne transformacje wizualne.
+ Przekształcaj swoje obrazy za pomocą urzekających efektów gradientu za pomocą Aspose.PSD dla .NET. Nasz krok po kroku[seminarium](./adding-gradient-effects/) poprowadzi Cię przez proces, pomagając bez wysiłku osiągnąć kreatywne transformacje wizualne.
 
 ## Dodawanie efektów wzorów do obrazów
 
@@ -61,7 +61,7 @@ Ulepsz swoje obrazy za pomocą urzekających efektów wzorów za pomocą Aspose.
 
 ## Obsługa różnych typów podpisów
 
- Przeglądaj Aspose.PSD dla .NET i bez wysiłku obsługuj różne typy podpisów w plikach PSD. Ten[instruktaż](./supporting-different-signature-types/) zapewnia wgląd w optymalizację przepływu pracy i dostosowanie się do różnorodnych wymagań dotyczących podpisów.
+ Przeglądaj Aspose.PSD dla .NET i bez wysiłku obsługuj różne typy podpisów w plikach PSD. Ten[seminarium](./supporting-different-signature-types/) zapewnia wgląd w optymalizację przepływu pracy i dostosowanie się do różnorodnych wymagań dotyczących podpisów.
 
 ## Obsługa podpisów ObAr i UnFl
 
@@ -69,7 +69,7 @@ Ulepsz swoje obrazy za pomocą urzekających efektów wzorów za pomocą Aspose.
 
 ## Wspieranie efektu zewnętrznego blasku
 
-Odblokuj potencjał efektu zewnętrznego blasku w Aspose.PSD dla .NET. Dzięki temu ulepszysz swoje projekty obrazów[instruktaż](./supporting-outer-glow-effect/), dodając blasku Twojej grafice.
+Odblokuj potencjał efektu zewnętrznego blasku w Aspose.PSD dla .NET. Dzięki temu ulepszysz swoje projekty obrazów[seminarium](./supporting-outer-glow-effect/), dodając blasku Twojej grafice.
 
 ## Renderowanie efektu nakładki gradientowej
 
@@ -77,7 +77,7 @@ Odblokuj potencjał efektu zewnętrznego blasku w Aspose.PSD dla .NET. Dzięki t
 
 ## Wspieranie efektu nakładki gradientowej
 
- Ulepsz swoją grafikę w .NET dzięki Aspose.PSD. Ten[instruktaż](./supporting-gradient-overlay-effect/) poprowadzi Cię przez obsługę efektów nakładki gradientowej, zapewniając kreatywną przewagę Twoim projektom. 
+ Ulepsz swoją grafikę w .NET dzięki Aspose.PSD. Ten[seminarium](./supporting-gradient-overlay-effect/) poprowadzi Cię przez obsługę efektów nakładki gradientowej, zapewniając kreatywną przewagę Twoim projektom. 
 
 ## Poradniki dotyczące manipulacji obrazem
 ### [Łączenie obrazów w Aspose.PSD dla .NET](./combine-images/)

@@ -57,9 +57,9 @@ A1: Sim, Aspose.PSD for .NET suporta a exportação de PSDs animados para vário
 
  A2: Consulte o[documentação](https://reference.aspose.com/psd/net/) para obter informações detalhadas e exemplos.
 
-### Q3: Como posso obter uma licença temporária para Aspose.PSD para .NET?
+### Q3: Como posso obter uma licença temporária do Aspose.PSD para .NET?
 
- A3: Visita[esse link](https://purchase.aspose.com/temporary-license/) para obter uma licença temporária para fins de teste.
+ A3: Visita[este link](https://purchase.aspose.com/temporary-license/) para obter uma licença temporária para fins de teste.
 
 ### Q4: Quais opções de suporte estão disponíveis para Aspose.PSD para .NET?
 

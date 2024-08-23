@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Yazı Tipi Değiştirme kodunuz buraya gelecek.
+    // Yazı Tipi Değiştirme kodunuz buraya gelecek
 }
 ```
 

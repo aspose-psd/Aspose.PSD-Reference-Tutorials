@@ -63,7 +63,7 @@ using (Image image = Image.Load(sourceFile))
 
 Cet extrait de code charge l'image PSD, la convertit au format PNG et l'enregistre dans la destination spécifiée.
 
- Toutes nos félicitations! Vous avez enregistré avec succès une image sur le disque à l'aide d'Aspose.PSD pour .NET. Ce didacticiel fournit une compréhension fondamentale du processus, mais il y a bien plus à explorer dans la documentation complète.[ici](https://reference.aspose.com/psd/net/).
+ Félicitations! Vous avez enregistré avec succès une image sur le disque à l'aide d'Aspose.PSD pour .NET. Ce didacticiel fournit une compréhension fondamentale du processus, mais il y a bien plus à explorer dans la documentation complète.[ici](https://reference.aspose.com/psd/net/).
 
 ## Conclusion
 
@@ -85,8 +85,8 @@ A1 : Oui, Aspose.PSD prend en charge une variété de formats d'image, garantiss
 
 ### Q4 : Comment puis-je obtenir une licence temporaire ?
 
- A4 : Vous pouvez acquérir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Où puis-je acheter Aspose.PSD pour .NET ?
 
- A5 : Vous pouvez acheter Aspose.PSD pour .NET.[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter Aspose.PSD pour .NET[ici](https://purchase.aspose.com/buy).

@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -126,8 +125,8 @@ catch (Exception e)
 }
 ```
 Αυτό το βήμα επαληθεύει ότι τα δεδομένα μοτίβου έχουν εφαρμοστεί σωστά στο εφέ διαδρομής.
-## συμπέρασμα
-Και εκεί το έχετε! Προσθέσατε επιτυχώς ένα μοτίβο επιπέδου stroke σε ένα αρχείο PSD χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθώντας αυτά τα βήματα, μπορείτε να προσαρμόσετε και να βελτιώσετε τις εικόνες σας με ευκολία. Καλή κωδικοποίηση!
+## Σύναψη
+Και ορίστε το! Προσθέσατε επιτυχώς ένα μοτίβο επιπέδου stroke σε ένα αρχείο PSD χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθώντας αυτά τα βήματα, μπορείτε να προσαρμόσετε και να βελτιώσετε τις εικόνες σας με ευκολία. Καλή κωδικοποίηση!
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD για Java;
 Το Aspose.PSD για Java είναι μια βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να επεξεργάζονται και να μετατρέπουν αρχεία PSD (Photoshop Document) μέσω προγραμματισμού.

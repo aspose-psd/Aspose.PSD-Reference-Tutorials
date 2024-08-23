@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Etapa 3: Definir região de corte
 ```java
-//Crie uma instância da classe Rectangle passando x, y, largura e altura
+// Crie uma instância da classe Rectangle passando x, y, largura e altura
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Etapa 4: cortar imagem PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Crie uma instância da classe PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Etapa 6: salve a imagem recortada como PNG.
+## Etapa 6: salvar a imagem recortada como PNG
 ```java
 // Forneça o caminho de saída e PngOptions para converter o arquivo PSD em PNG e salvar a saída
 String destName = dataDir + "export.png";
@@ -55,7 +55,7 @@ image.save(destName, pngOptions);
 ```
 ## Conclusão
 Parabéns! Você aprendeu com sucesso como cortar arquivos PSD ao convertê-los para PNG usando Aspose.PSD para Java. Essa habilidade, sem dúvida, aprimorará suas capacidades de processamento de imagens em aplicativos Java.
-## perguntas frequentes
+## Perguntas frequentes
 ### Posso cortar arquivos PSD com formas irregulares usando Aspose.PSD para Java?
 Sim, Aspose.PSD para Java permite definir uma região de corte personalizada, permitindo cortar imagens em vários formatos.
 ### O Aspose.PSD para Java é adequado para tarefas de processamento de imagens em grande escala?
@@ -63,6 +63,6 @@ Absolutamente! Aspose.PSD foi projetado para lidar com imagens grandes de forma 
 ### Preciso de uma licença para Aspose.PSD para Java?
  Sim, é necessária uma licença válida para uso comercial. Você pode obtê-lo em[Assuma a compra](https://purchase.aspose.com/buy).
 ### Como posso procurar ajuda ou relatar problemas com Aspose.PSD para Java?
- Visite a[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para buscar assistência, compartilhar suas experiências e relatar quaisquer problemas que encontrar.
+ Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para buscar assistência, compartilhar suas experiências e relatar quaisquer problemas que encontrar.
 ### Posso experimentar o Aspose.PSD para Java antes de comprar?
  Certamente! Explore os recursos da biblioteca com uma avaliação gratuita disponível[aqui](https://releases.aspose.com/).

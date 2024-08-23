@@ -9,11 +9,11 @@ url: /hu/java/image-processing/
 ---
 ## Bevezetés
 
-A képfeldolgozás izgalmas utazássá válik az Aspose.PSD for Java segítségével, egy olyan eszközkészlettel, amely képessé teszi a fejlesztőket a vizuális tartalom javítására. Az alapvető technikáktól a fejlett folyamatokig ez az oktatóanyag-sorozat azokkal a funkciókkal foglalkozik, amelyek az Aspose.PSD-t a Java képfeldolgozás kiváló megoldásává teszik.
+A képfeldolgozás izgalmas utazássá válik az Aspose.PSD for Java segítségével, egy olyan eszközkészlettel, amely képessé teszi a fejlesztőket a vizuális tartalom javítására. Az alapvető technikáktól a fejlett folyamatokig ez az oktatóanyag-sorozat azokat a funkciókat mutatja be, amelyek az Aspose.PSD-t a Java képfeldolgozás kiváló megoldásává teszik.
 
 ## Javítás Gauss és Wiener szűrőkkel
 
- A képfeldolgozás területén a Gauss- és Wiener-szűrők nélkülözhetetlen eszközök. Val vel[Aspose.PSD Java-hoz](./apply-gaussian-wiener-filters/)könnyedén alkalmazhatja ezeket a szűrőket, megfejtve a lenyűgöző vizuális eredmények elérésének titkait. Akár tapasztalt fejlesztő, akár kíváncsi kezdő, átfogó oktatóanyagunk biztosítja, hogy elsajátítsa ezeket a technikákat, új dimenziót hozva a Java képfeldolgozási törekvéseibe.
+ A képfeldolgozás területén a Gauss- és Wiener-szűrők nélkülözhetetlen eszközök. Vel[Aspose.PSD Java-hoz](./apply-gaussian-wiener-filters/)könnyedén alkalmazhatja ezeket a szűrőket, megfejtve a lenyűgöző vizuális eredmények elérésének titkait. Akár tapasztalt fejlesztő, akár kíváncsi kezdő, átfogó oktatóanyagunk biztosítja, hogy elsajátítsa ezeket a technikákat, új dimenziót hozva a Java képfeldolgozási törekvéseibe.
 
 ## Színes képvarázs Gauss és Wiener szűrőkkel
 

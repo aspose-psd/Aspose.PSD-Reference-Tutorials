@@ -19,7 +19,7 @@ url: /ar/java/advanced-techniques/add-effects-runtime/
 
 2.  Aspose.PSD لمكتبة Java: يجب أن يكون لديك Aspose.PSD لمكتبة Java. إذا لم تكن قد قمت بذلك بالفعل، قم بتنزيله من[وثائق جافا Aspose.PSD](https://reference.aspose.com/psd/java/).
 
-3. دليل المستندات: قم بإعداد دليل لمستنداتك، وتذكر المسار. في المثال المقدم، تتم الإشارة إلى الدليل باسم`Your Document Directory`.
+3.  دليل المستندات: قم بإعداد دليل لمستنداتك، وتذكر المسار. في المثال المقدم، تتم الإشارة إلى الدليل باسم`Your Document Directory`.
 
 ## حزم الاستيراد
 
@@ -94,4 +94,4 @@ im.save(exportPath);
 
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).

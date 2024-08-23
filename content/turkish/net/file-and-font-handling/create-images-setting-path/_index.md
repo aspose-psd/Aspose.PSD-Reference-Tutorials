@@ -93,7 +93,7 @@ A2: Kesinlikle! Aspose.PSD, toplu görüntü işleme gerçekleştirmenize olanak
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Nasıl destek alabilirim veya yardım isteyebilirim?
 

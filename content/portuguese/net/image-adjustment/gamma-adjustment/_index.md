@@ -88,16 +88,16 @@ Parabéns! Você implementou com sucesso o ajuste de gama usando Aspose.PSD para
 
 ### Q2: Como faço o download do Aspose.PSD para .NET?
 
- A2: Você pode baixar a biblioteca.[aqui](https://releases.aspose.com/psd/net/).
+ A2: Você pode baixar a biblioteca[aqui](https://releases.aspose.com/psd/net/).
 
 ### Q3: Existe um teste gratuito disponível?
 
- A3: Sim, você pode obter uma avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q4: Onde posso obter suporte para Aspose.PSD?
 
- A4: Você pode visitar o fórum de suporte.[aqui](https://forum.aspose.com/c/psd/34).
+ A4: Você pode visitar o fórum de suporte[aqui](https://forum.aspose.com/c/psd/34).
 
 ### P5: Preciso de uma licença temporária?
 
- A5: Se necessário, você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Se necessário, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

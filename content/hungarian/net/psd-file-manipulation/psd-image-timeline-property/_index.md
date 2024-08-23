@@ -80,7 +80,7 @@ Az Aspose.PSD for .NET lehetővé teszi a fejlesztők számára, hogy kiaknázz�
 
 ### 4. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.PSD for .NET számára?
 
- 4. válasz: Igen, beszerezhet ideiglenes licenceket az Aspose.PSD for .NET-hez.[itt](https://purchase.aspose.com/temporary-license/).
+ 4. válasz: Igen, beszerezhet ideiglenes licenceket az Aspose.PSD for .NET-hez[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol találom az Aspose.PSD for .NET részletes dokumentációját?
 

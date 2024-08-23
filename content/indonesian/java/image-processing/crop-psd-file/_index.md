@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Simpan gambar yang dipotong dalam format PSD menggunakan jalur yang ditentukan.
 
-## Langkah 5: Simpan Gambar yang Dipotong sebagai PNG.
+## Langkah 5: Simpan Gambar yang Dipotong sebagai PNG
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -103,6 +103,6 @@ A2: Ya, Aspose.PSD untuk Java dioptimalkan kinerjanya, sehingga cocok untuk tuga
 
  A4: Kunjungi[Aspose.PSD untuk forum Java](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
 
-### Q5: Dapatkah saya mencoba Aspose.PSD untuk Java sebelum membeli?
+### Q5: Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
 
- A5: Ya, jelajahi fitur-fiturnya dengan uji coba gratis yang tersedia.[Di Sini](https://releases.aspose.com/).
+ A5: Ya, jelajahi fitur-fiturnya dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).

@@ -16,7 +16,7 @@ Convertir archivos de Adobe Illustrator (AI) a diferentes formatos puede ser muy
  ¿Alguna vez te has preguntado cómo convertir archivos AI a GIF en Java? Con Aspose.PSD, es simple y eficiente. Esta guía lo guiará a través de los requisitos previos, los pasos necesarios y abordará las preguntas frecuentes comunes para garantizar un proceso de conversión perfecto. Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial le resultará sencillo y útil.[Leer más](./convert-ai-to-gif/).
 
 ## Convertir AI a JPG en Java
-¿Necesita convertir archivos AI a JPG? ¡No busque más! Nuestra guía completa sobre el uso de Aspose.PSD facilita a los desarrolladores lograr una conversión de imágenes de alta calidad. Siga nuestras instrucciones paso a paso y tendrá sus archivos AI convertidos a JPG en poco tiempo, manteniendo la integridad y calidad de las imágenes originales.[Leer más](./convert-ai-to-jpg/).
+¿Necesita convertir archivos AI a JPG? ¡No busques más! Nuestra guía completa sobre el uso de Aspose.PSD facilita a los desarrolladores lograr una conversión de imágenes de alta calidad. Siga nuestras instrucciones paso a paso y tendrá sus archivos AI convertidos a JPG en poco tiempo, manteniendo la integridad y calidad de las imágenes originales.[Leer más](./convert-ai-to-jpg/).
 
 ## Convertir IA a PDF en Java
  La conversión de archivos AI a PDF puede ser crucial para diversas aplicaciones. Aspose.PSD simplifica este proceso, garantizando que las conversiones de archivos sean eficientes y precisas. Este tutorial cubre todo, desde la configuración hasta la ejecución, brindándole todos los detalles necesarios para convertir archivos AI a PDF sin problemas.[Leer más](./convert-ai-to-pdf/).

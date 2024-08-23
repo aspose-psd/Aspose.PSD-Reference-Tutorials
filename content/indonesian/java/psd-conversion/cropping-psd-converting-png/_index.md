@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Langkah 3: Tentukan Wilayah Tanaman
 ```java
-//Buat instance kelas Rectangle dengan meneruskan x, y, lebar, dan tinggi
+// Buat instance kelas Rectangle dengan meneruskan x, y, lebar, dan tinggi
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Langkah 4: Pangkas Gambar PSD
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Buat sebuah instance dari kelas PNGOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Langkah 6: Simpan Gambar yang Dipotong sebagai PNG.
+## Langkah 6: Simpan Gambar yang Dipotong sebagai PNG
 ```java
 // Berikan jalur keluaran dan PNGOptions untuk mengonversi file PSD ke PNG dan menyimpan hasilnya
 String destName = dataDir + "export.png";
@@ -63,6 +63,6 @@ Sangat! Aspose.PSD dirancang untuk menangani gambar besar secara efisien, sehing
 ### Apakah saya memerlukan lisensi Aspose.PSD untuk Java?
  Ya, lisensi yang valid diperlukan untuk penggunaan komersial. Anda bisa mendapatkannya dari[Asumsikan Pembelian](https://purchase.aspose.com/buy).
 ### Bagaimana cara mencari bantuan atau melaporkan masalah dengan Aspose.PSD untuk Java?
- Mengunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk mencari bantuan, berbagi pengalaman, dan melaporkan masalah apa pun yang Anda temui.
+ Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk mencari bantuan, berbagi pengalaman, dan melaporkan masalah apa pun yang Anda temui.
 ### Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
  Tentu! Jelajahi fitur perpustakaan dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).

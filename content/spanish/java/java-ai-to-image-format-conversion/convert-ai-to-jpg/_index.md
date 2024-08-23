@@ -8,7 +8,7 @@ weight: 11
 url: /es/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
 ## Introducción
-¿Está buscando convertir archivos AI (Adobe Illustrator) al formato JPG usando Java? ¡No busque más! En esta guía completa, lo guiaremos a través de todo el proceso utilizando Aspose.PSD para Java, una biblioteca potente y flexible que facilita la manipulación de imágenes. Si eres un desarrollador experimentado o estás empezando, este tutorial te proporcionará todo lo que necesitas saber.
+¿Está buscando convertir archivos AI (Adobe Illustrator) al formato JPG usando Java? ¡No busques más! En esta guía completa, lo guiaremos a través de todo el proceso utilizando Aspose.PSD para Java, una biblioteca potente y flexible que facilita la manipulación de imágenes. Si eres un desarrollador experimentado o estás empezando, este tutorial te proporcionará todo lo que necesitas saber.
 ## Requisitos previos
 Antes de profundizar en el código, asegurémonos de tener todo configurado y listo para funcionar. Esto es lo que necesitas:
 1. Kit de desarrollo de Java (JDK): asegúrese de tener instalado JDK 8 o superior.
@@ -21,7 +21,6 @@ Lo primero es lo primero, necesitamos importar los paquetes necesarios para mane
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ Antes de comenzar a codificar, asegúrese de que su entorno de desarrollo esté 
 -  Descargar Aspose.PSD: obtenga la biblioteca del[Página de lanzamientos de Aspose](https://releases.aspose.com/psd/java/).
 - Agregue Aspose.PSD a su proyecto: incluya los archivos JAR en la ruta de compilación de su proyecto.
 ## Paso 2: cargue su archivo AI
- El primer paso en nuestro código es cargar el archivo AI usando el`AiImage` clase. Esta clase nos permite trabajar con archivos de Adobe Illustrator sin problemas.
+El primer paso en nuestro código es cargar el archivo AI usando el`AiImage` clase. Esta clase nos permite trabajar con archivos de Adobe Illustrator sin problemas.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

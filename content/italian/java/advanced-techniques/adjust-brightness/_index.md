@@ -7,7 +7,7 @@ type: docs
 weight: 21
 url: /it/java/advanced-techniques/adjust-brightness/
 ---
-## introduzione
+## Introduzione
 
 Il miglioramento delle immagini è un requisito comune nella progettazione grafica e nella fotografia digitale. Aspose.PSD per Java fornisce una potente soluzione per regolare la luminosità dell'immagine a livello di codice. In questo tutorial esploreremo come utilizzare la libreria Aspose.PSD per Java per regolare la luminosità di un'immagine, passo dopo passo.
 
@@ -71,7 +71,7 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Configura il`TiffOptions` per salvare l'immagine regolata. Aggiusta il`bitsPerSample` E`photometric` immobili in base alle vostre specifiche esigenze.
+ Configura il`TiffOptions` per salvare l'immagine regolata. Regola il`bitsPerSample` E`photometric` immobili in base alle vostre specifiche esigenze.
 
 ## Passaggio 4: salva l'immagine risultante
 

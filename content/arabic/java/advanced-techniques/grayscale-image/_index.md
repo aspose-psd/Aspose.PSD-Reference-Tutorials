@@ -87,11 +87,11 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ### س1: هل يمكنني استخدام Aspose.PSD لـ Java للمشاريع التجارية؟
 
-A1: نعم، يتوفر Aspose.PSD لـ Java للاستخدام التجاري. يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+ A1: نعم، يتوفر Aspose.PSD لـ Java للاستخدام التجاري. يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
 
 ### س2: هل هناك نسخة تجريبية مجانية من Aspose.PSD لـ Java؟
 
- ج2: نعم، يمكنك استكشاف ميزات Aspose.PSD لـ Java من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
+ ج2: نعم، يمكنك استكشاف ميزات Aspose.PSD لـ Java من خلال النسخة التجريبية المجانية. قم بتنزيله[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على وثائق Aspose.PSD لـ Java؟
 

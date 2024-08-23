@@ -13,7 +13,7 @@ Selamat datang di tutorial menambahkan efek gradien di Aspose.PSD untuk Java! Ji
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 1. Aspose.PSD untuk Perpustakaan Java: Pastikan Anda telah mengunduh dan menginstal perpustakaan Aspose.PSD untuk Java. Anda dapat menemukan perpustakaan dan dokumentasinya[Di Sini](https://reference.aspose.com/psd/java/).
 
@@ -125,7 +125,7 @@ A2: Aspose.PSD menyediakan berbagai efek, termasuk bayangan, cahaya, dan banyak 
 
 ### Q4: Apakah ada versi uji coba yang tersedia untuk Aspose.PSD untuk Java?
 
- A4: Ya, Anda bisa mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat membeli lisensi Aspose.PSD untuk Java?
 

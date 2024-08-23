@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /cs/java/advanced-techniques/add-effects-runtime/
 ---
-## Úvod
+## Zavedení
 
 Ve světě vývoje v Javě je přidávání dynamických efektů do obrázků běžným požadavkem. S Aspose.PSD for Java, výkonnou a všestrannou knihovnou Java, můžete bez námahy přidávat efekty za běhu pro vylepšení obrázků. V tomto tutoriálu vás provedeme procesem přidávání efektů krok za krokem pomocí jasných příkladů a snadno pochopitelných pokynů.
 
@@ -15,11 +15,11 @@ Ve světě vývoje v Javě je přidávání dynamických efektů do obrázků b�
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java. Nejnovější JDK si můžete stáhnout z[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java. Nejnovější JDK si můžete stáhnout z[zde](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2.  Aspose.PSD for Java Library: Musíte mít knihovnu Aspose.PSD for Java. Pokud jste tak ještě neučinili, stáhněte si jej z[Aspose.PSD Java dokumentace](https://reference.aspose.com/psd/java/).
 
-3. Adresář dokumentů: Nastavte adresář pro své dokumenty a zapamatujte si cestu. V uvedeném příkladu je adresář označován jako`Your Document Directory`.
+3.  Adresář dokumentů: Nastavte adresář pro své dokumenty a zapamatujte si cestu. V uvedeném příkladu je adresář označován jako`Your Document Directory`.
 
 ## Importujte balíčky
 
@@ -68,7 +68,7 @@ Nakonec upravený obrázek s aplikovanými efekty uložte do nového souboru.
 im.save(exportPath);
 ```
 
-Gratulujeme! Úspěšně jste přidali efekty za běhu pomocí Aspose.PSD for Java.
+Gratuluji! Úspěšně jste přidali efekty za běhu pomocí Aspose.PSD for Java.
 
 ## Závěr
 
@@ -86,12 +86,12 @@ Odpověď 2: Ano, Aspose.PSD podporuje širokou škálu obrazových formátů, v
 
 ### Q3: Jak mohu získat dočasnou licenci pro Aspose.PSD pro Java?
 
- A3: Můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+ A3: Můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Kde mohu požádat o pomoc s jakýmikoli problémy nebo dotazy souvisejícími s Aspose.PSD?
 
- A4: Navštivte Aspose.PSD[Fórum podpory](https://forum.aspose.com/c/psd/34) získat pomoc a spojit se s komunitou.
+ A4: Navštivte Aspose.PSD[fórum podpory](https://forum.aspose.com/c/psd/34) získat pomoc a spojit se s komunitou.
 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A5: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).

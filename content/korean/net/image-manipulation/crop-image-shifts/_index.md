@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## 4단계: 자르기에 대한 이동 값 정의
 
-이미지의 왼쪽, 오른쪽, 위쪽, 아래쪽에 대한 이동 값을 지정합니다. 자르기 요구 사항에 따라 이러한 값을 조정하십시오.
+이미지의 왼쪽, 오른쪽, 위쪽, 아래쪽에 대한 이동 값을 지정합니다. 자르기 요구 사항에 따라 이러한 값을 조정합니다.
 
 ```csharp
 int leftShift = 10;
@@ -96,7 +96,7 @@ A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하므로 JPEG, PNG �
 
 ### Q3: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
- A3: 테스트 목적으로 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A3: 테스트 목적으로 임시 라이선스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Aspose.PSD와 관련된 추가 지원 및 토론은 어디에서 찾을 수 있습니까?
 

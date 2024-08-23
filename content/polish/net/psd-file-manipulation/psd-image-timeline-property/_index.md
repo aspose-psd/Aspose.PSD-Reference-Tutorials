@@ -80,7 +80,7 @@ O1: Tak, Aspose.PSD dla .NET jest kompatybilny z różnymi frameworkami .NET, za
 
 ### P4: Czy dostępne są licencje tymczasowe dla Aspose.PSD dla .NET?
 
- O4: Tak, możesz uzyskać tymczasowe licencje na Aspose.PSD dla .NET.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ O4: Tak, możesz uzyskać tymczasowe licencje na Aspose.PSD dla .NET[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla .NET?
 

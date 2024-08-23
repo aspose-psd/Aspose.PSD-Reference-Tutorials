@@ -7,7 +7,7 @@ type: docs
 weight: 23
 url: /it/net/file-saving-and-exporting/
 ---
-## introduzione
+## Introduzione
 
 Se ti sei mai trovato alle prese con la complessità del salvataggio e dell'esportazione di immagini nei tuoi progetti .NET, non sei il solo. Il regno digitale richiede precisione e quando si tratta di immagini il processo diventa ancora più cruciale. Fortunatamente, Aspose.PSD per .NET è qui per semplificare il tuo viaggio, offrendo soluzioni perfette per salvare immagini su disco e trasmetterle in streaming.
 

@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ Estos paquetes brindan acceso a clases y métodos necesarios para dibujar arcos 
 ## Paso 1: configure su proyecto Java
 Primero, cree un nuevo proyecto Java en su IDE (entorno de desarrollo integrado) e importe la biblioteca Aspose.PSD para Java. Asegúrese de que se haga referencia correctamente a la biblioteca en la ruta de compilación de su proyecto.
 ## Paso 2: Inicializar objetos de imagen y gráficos
- Crear una instancia de`PsdImage` y`Graphics` trabajar con:
+ Crear una instancia de`PsdImage` y`Graphics` para trabajar con:
 ```java
 String dataDir = "Your Document Directory";
 // Inicializar objeto PsdImage

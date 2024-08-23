@@ -20,7 +20,6 @@ Innan du dyker in i den här handledningen, se till att du har följande föruts
 Innan du börjar med exemplet, se till att importera de nödvändiga paketen från Aspose.PSD för Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -32,7 +31,7 @@ Ladda först PSD-bilden som innehåller JPEG-miniatyren vars orientering behöve
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
- Byta ut`"Your Document Directory"` med den faktiska katalogsökvägen där din PSD-fil finns.
+ Ersätta`"Your Document Directory"` med den faktiska katalogsökvägen där din PSD-fil finns.
 ## Steg 2: Iterera över bildresurser
 Gå sedan igenom bildresurserna för att hitta JPEG-miniatyrresursen:
 ```java

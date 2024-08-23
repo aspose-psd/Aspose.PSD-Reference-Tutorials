@@ -91,7 +91,7 @@ Cevap3: Aspose.PSD geniş bir efekt yelpazesi sunar, ancak desteklenen efektlere
 
 ### S4: Test amaçlı geçici lisansı nasıl edinebilirim?
 
- Cevap4: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
+ Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
 
 ### S5: Ek desteği ve topluluk tartışmalarını nerede bulabilirim?
 

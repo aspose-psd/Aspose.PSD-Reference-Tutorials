@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /it/java/image-processing/apply-median-wiener-filters/
 ---
-## introduzione
+## Introduzione
 
 Nel regno della programmazione Java, Aspose.PSD si distingue come un potente strumento per la manipolazione e l'elaborazione delle immagini. Una delle funzionalità chiave che offre è l'applicazione dei filtri Median e Wiener, che svolgono un ruolo cruciale nel migliorare la qualità dell'immagine e ridurre il rumore. Questa guida passo passo ti guiderà attraverso il processo di applicazione di questi filtri utilizzando Aspose.PSD per Java.
 
@@ -88,7 +88,7 @@ A1: Sì, Aspose.PSD supporta un'ampia gamma di formati di immagine, rendendolo v
 
 ### Q2: È disponibile una prova gratuita per Aspose.PSD per Java?
 
- A2: Sì, puoi ottenere una prova gratuita.[Qui](https://releases.aspose.com/).
+ A2: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q3: Come posso ottenere supporto per Aspose.PSD per Java?
 
@@ -100,4 +100,4 @@ A1: Sì, Aspose.PSD supporta un'ampia gamma di formati di immagine, rendendolo v
 
 ### Q5: Come posso acquistare Aspose.PSD per Java?
 
- A5: Puoi acquistare il prodotto.[Qui](https://purchase.aspose.com/buy).
+ A5: Puoi acquistare il prodotto[Qui](https://purchase.aspose.com/buy).

@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Az Aspose.PSD egy olyan könyvtár, amely lehetővé teszi a fejlesztők számá
 ### Használhatom az Aspose.PSD-t a PSD-től eltérő formátumokhoz?
 Jelen útmutató szerint az Aspose.PSD kifejezetten a PSD-fájlokkal foglalkozik, de bővítményeket kínál a különböző képformátumok kezelésére.
 ### Elérhető az Aspose.PSD próbaverziója?
- Igen, hozzáférhet az Aspose.PSD ingyenes próbaverziójához.[itt](https://releases.aspose.com/).
+ Igen, hozzáférhet az Aspose.PSD ingyenes próbaverziójához[itt](https://releases.aspose.com/).
 ### Hogyan vásárolhatom meg az Aspose.PSD-t?
  Az Aspose.PSD-t itt vásárolhatja meg[itt](https://purchase.aspose.com/buy).
 ### Hol kaphatok támogatást az Aspose.PSD-hez?

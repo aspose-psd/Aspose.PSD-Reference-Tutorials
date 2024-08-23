@@ -12,7 +12,7 @@ url: /ko/net/psd-file-manipulation/animated-data-sections/
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본 지식.
-- .NET용 Aspose.PSD가 설치되었습니다. 아직 설치하지 않으셨다면 아래에서 다운로드 받으실 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
+-  .NET용 Aspose.PSD가 설치되었습니다. 아직 설치하지 않으셨다면 아래에서 다운로드 받으실 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 - 원활한 구현을 위한 Visual Studio와 같은 코드 편집기.
 ## 네임스페이스 가져오기
 C# 코드에서 Aspose.PSD 작업에 필요한 네임스페이스를 가져와야 합니다.

@@ -33,7 +33,7 @@ string imageDataPath = dataDir + @"sample.psd";
 //ExStart:ExportImagesinMultiThreadEnv
 try
 {
-    // สร้างกระแสของไฟล์รูปภาพที่มีอยู่
+    // สร้างกระแสของไฟล์ภาพที่มีอยู่
     using (System.IO.FileStream fileStream = System.IO.File.Create(imageDataPath))
     {
         // สร้างอินสแตนซ์ของคลาสตัวเลือกรูปภาพ PSD

@@ -13,7 +13,7 @@ Selamat datang di panduan komprehensif tentang penerapan Penyesuaian Keseimbanga
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 -  Aspose.PSD untuk .NET Library: Unduh dan instal perpustakaan dari[Situs web Aspose.PSD](https://releases.aspose.com/psd/net/).
 - Lingkungan Pengembangan: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi di mesin Anda.

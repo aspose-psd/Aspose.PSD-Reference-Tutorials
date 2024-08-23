@@ -62,13 +62,13 @@ Console.WriteLine(opacity);
 if (opacity == 0)
 {
     // A kép teljesen átlátszó.
-    // Itt található az átláthatóság kezelésének kódja
+    // Itt található az átláthatóság kezeléséhez szükséges kód
 }
 ```
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan ellenőrizheti a kép átlátszóságát az Aspose.PSD for .NET használatával. Ez a hatékony könyvtár leegyszerűsíti a PSD-fájlok kezelésének folyamatát, és robusztus eszközöket biztosít a .NET-alkalmazások képkezeléséhez.
+Gratulálok! Sikeresen megtanulta, hogyan ellenőrizheti a kép átlátszóságát az Aspose.PSD for .NET használatával. Ez a hatékony könyvtár leegyszerűsíti a PSD-fájlok kezelésének folyamatát, és robusztus eszközöket biztosít a .NET-alkalmazások képkezeléséhez.
 
 ## GYIK
 
@@ -86,8 +86,8 @@ Gratulálunk! Sikeresen megtanulta, hogyan ellenőrizheti a kép átlátszóság
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- V4: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.PSD-t a vásárlás előtt?
 
-5. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+5. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).

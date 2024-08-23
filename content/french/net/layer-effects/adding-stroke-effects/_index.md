@@ -86,7 +86,7 @@ Répétez des étapes similaires pour les remplissages Dégradé et Motif, en aj
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter des effets de trait aux calques à l'aide d'Aspose.PSD pour .NET. Expérimentez avec différents paramètres pour obtenir l’impact visuel souhaité dans vos images.
+Félicitations! Vous avez appris avec succès comment ajouter des effets de trait aux calques à l'aide d'Aspose.PSD pour .NET. Expérimentez avec différents paramètres pour obtenir l’impact visuel souhaité dans vos images.
 
 ## FAQ
 

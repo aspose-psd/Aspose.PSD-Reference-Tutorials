@@ -84,7 +84,7 @@ A2：當然！ Aspose.PSD 可讓您堆疊多個調整圖層，從而實現複雜
 
 ### Q4：哪裡可以找到對 Aspose.PSD 的支援？
 
- A4: 的[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)是尋求幫助和與社區分享見解的寶貴資源。
+ A4：[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)是尋求幫助和與社區分享見解的寶貴資源。
 
 ### Q5：是否有可用於測試黑白調整的範例影像？
 

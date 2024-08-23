@@ -45,7 +45,7 @@ var loadOptions = new PsdLoadOptions()
 
 using (var image = (PsdImage)Image.Load(sourceFileName, loadOptions))
 {
-    // Su código para seguir los pasos va aquí
+    // Su código para pasos adicionales va aquí
 }
 ```
 
@@ -86,7 +86,7 @@ Ahora, ha admitido con éxito efectos de sombra en su imagen usando Aspose.PSD p
 
 ## Conclusión
 
-En conclusión, Aspose.PSD para .NET ofrece una solución sólida para manejar efectos de sombra en imágenes PSD. Si sigue los pasos descritos en este tutorial, podrá personalizar fácilmente los parámetros de sombra y mejorar la estética visual de sus imágenes.
+En conclusión, Aspose.PSD para .NET ofrece una solución sólida para manejar efectos de sombra en imágenes PSD. Si sigue los pasos descritos en este tutorial, podrá personalizar sin esfuerzo los parámetros de sombra y mejorar la estética visual de sus imágenes.
 
 ## Preguntas frecuentes
 

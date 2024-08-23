@@ -16,7 +16,7 @@ Selamat datang di panduan langkah demi langkah dalam melakukan gambar sederhana 
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) diinstal pada mesin Anda.
--  Aspose.PSD untuk perpustakaan Java. Anda dapat mengunduhnya dari[Aspose.PSD untuk Dokumentasi Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD untuk perpustakaan Java. Anda dapat mengunduhnya dari[Aspose.PSD untuk Dokumentasi Java](https://reference.aspose.com/psd/java/).
 
 ## Paket Impor
 
@@ -116,7 +116,7 @@ A1: Ya, Aspose.PSD untuk Java menyediakan fungsionalitas ekstensif untuk mengedi
 
 ### Q3: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A3: Ya, Anda dapat mengakses versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana cara membeli lisensi Aspose.PSD untuk Java?
 

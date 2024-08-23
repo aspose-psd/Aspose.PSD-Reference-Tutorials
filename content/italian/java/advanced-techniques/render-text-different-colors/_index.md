@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /it/java/advanced-techniques/render-text-different-colors/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nella nostra guida passo passo sul rendering del testo con colori diversi in un livello di testo utilizzando Aspose.PSD per Java. Aspose.PSD è una potente libreria Java che ti consente di manipolare i file Photoshop a livello di codice, fornendo ampie funzionalità per lavorare con i formati di file PSD e PSB.
 

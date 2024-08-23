@@ -34,7 +34,7 @@ url: /el/net/psd-file-resources/
 ### [Υποστήριξη πόρου χρώματος φόντου στο Aspose.PSD για .NET](./supporting-background-color-resource/)
 Master Aspose.PSD για .NET με τον βήμα προς βήμα οδηγό μας. Χειριστείτε τις εικόνες PSD χωρίς κόπο. Κατεβάστε τη δωρεάν δοκιμή σας τώρα!
 ### [Υποστήριξη πόρων πληροφοριών συνόρων στο Aspose.PSD για .NET](./supporting-border-information-resource/)
-Εξερευνήστε το Aspose.PSD για τη δυνατότητα Border Information Resource του .NET για βελτιωμένη απεικόνιση. Ακολουθήστε το σεμινάριο μας για απρόσκοπτη ενσωμάτωση. Κατεβάστε τώρα!
+Εξερευνήστε το Aspose.PSD για τη δυνατότητα Border Information Resource του .NET για βελτιωμένη απεικόνιση. Ακολουθήστε το σεμινάριο μας για απρόσκοπτη ενσωμάτωση. Λήψη τώρα!
 ### [Υποστήριξη πόρου διαδρομής εργασίας στο Aspose.PSD για .NET](./supporting-working-path-resource/)
 Εξερευνήστε τη δύναμη του "WorkingPathResource" στο Aspose.PSD για .NET. Βελτιώστε την ακρίβεια της εικόνας με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Υποστήριξη Ασπρόμαυρου (Blwh) πόρου στο Aspose.PSD για .NET](./supporting-black-and-white-blwh-resource/)

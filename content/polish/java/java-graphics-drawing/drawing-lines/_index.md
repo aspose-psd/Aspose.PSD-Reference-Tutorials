@@ -8,7 +8,7 @@ weight: 16
 url: /pl/java/java-graphics-drawing/drawing-lines/
 ---
 ## Wstęp
-W dziedzinie programowania w języku Java programowe manipulowanie i tworzenie plików PSD (dokument programu Photoshop) jest potężną możliwością. Aspose.PSD dla Java umożliwia programistom wykonywanie różnych zadań, takich jak rysowanie linii, kształtów i obrazów bezpośrednio w plikach PSD. Ten samouczek poprowadzi Cię przez proces rysowania linii przy użyciu Aspose.PSD dla Java, dostarczając jasnych kroków i przykładów, które pomogą Ci szybko rozpocząć.
+W dziedzinie programowania w języku Java programowe manipulowanie i tworzenie plików PSD (dokument programu Photoshop) jest potężną możliwością. Aspose.PSD dla Java umożliwia programistom wykonywanie różnych zadań, takich jak rysowanie linii, kształtów i obrazów bezpośrednio w plikach PSD. Ten samouczek poprowadzi Cię przez proces rysowania linii przy użyciu Aspose.PSD dla Java, dostarczając jasnych kroków i przykładów, które pomogą Ci szybko zacząć.
 ## Warunki wstępne
 Zanim zagłębisz się w ten samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
 - Podstawowa znajomość języka programowania Java.
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```

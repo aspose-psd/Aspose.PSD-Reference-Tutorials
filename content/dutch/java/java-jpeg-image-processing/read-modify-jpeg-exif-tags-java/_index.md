@@ -8,7 +8,7 @@ weight: 18
 url: /nl/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
 ## Invoering
-Hallo daar! Heeft u zich ooit afgevraagd hoe u JPEG EXIF-tags kunt lezen en wijzigen met Java? Dan ben je hier aan het juiste adres! Deze tutorial leidt u stap voor stap door het proces met Aspose.PSD voor Java. Of u nu een doorgewinterde ontwikkelaar of een nieuweling bent, aan het einde van deze handleiding kunt u als een professional met JPEG EXIF-tags omgaan. Dus laten we erin duiken!
+Hé daar! Heeft u zich ooit afgevraagd hoe u JPEG EXIF-tags kunt lezen en wijzigen met Java? Dan ben je hier aan het juiste adres! Deze tutorial leidt u stap voor stap door het proces met Aspose.PSD voor Java. Of u nu een doorgewinterde ontwikkelaar of een nieuweling bent, aan het einde van deze handleiding kunt u als een professional met JPEG EXIF-tags omgaan. Dus laten we erin duiken!
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
@@ -19,7 +19,6 @@ Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 Laten we eerst de benodigde pakketten importeren. Open uw Java IDE en maak een nieuw Java-project. Neem vervolgens de Aspose.PSD voor Java-bibliotheek op in uw projectafhankelijkheden.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -58,8 +57,8 @@ if (exifData != null) {
     System.out.println("Compression: " + exifData.getCompression());
 }
 ```
-## Stap 4: EXIF-gegevens wijzigen
-Nadat u de EXIF-gegevens heeft gelezen, wilt u misschien enkele velden wijzigen. Hier ziet u hoe u het kunt doen:
+## Stap 4: Wijzig EXIF-gegevens
+Nadat u de EXIF-gegevens heeft gelezen, wilt u wellicht enkele velden wijzigen. Hier ziet u hoe u het kunt doen:
 ```java
 if (exifData != null) {
     exifData.setCameraOwnerName("New Camera Owner");
@@ -90,6 +89,6 @@ EXIF-gegevens (Exchangeable Image File Format) bevatten metagegevens over een af
 ### Is Aspose.PSD voor Java compatibel met alle versies van Java?
 Aspose.PSD voor Java ondersteunt Java SE 7 en hoger.
 ### Waar kan ik meer documentatie vinden over Aspose.PSD voor Java?
- Bekijk de[documentatie](https://reference.aspose.com/psd/java/) voor meer details.
+ Bekijk de[documentatie](https://reference.aspose.com/psd/java/) voor meer informatie.
 ### Hoe krijg ik ondersteuning voor Aspose.PSD voor Java?
  U kunt ondersteuning krijgen van de[Aspose PSD-ondersteuningsforum](https://forum.aspose.com/c/psd/34).

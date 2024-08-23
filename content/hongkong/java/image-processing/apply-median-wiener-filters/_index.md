@@ -88,7 +88,7 @@ A1：是的，Aspose.PSD 支援多種影像格式，使其適用於各種項目�
 
 ### Q2：Aspose.PSD for Java 有免費試用版嗎？
 
- A2: 是的，您可以獲得免費試用。[這裡](https://releases.aspose.com/).
+ A2：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
 
 ### 問題 3：如何獲得 Aspose.PSD for Java 的支援？
 
@@ -100,4 +100,4 @@ A1：是的，Aspose.PSD 支援多種影像格式，使其適用於各種項目�
 
 ### Q5: 如何購買 Aspose.PSD for Java？
 
-A5: 您可以購買該產品。[這裡](https://purchase.aspose.com/buy).
+A5: 您可以購買該產品[這裡](https://purchase.aspose.com/buy).

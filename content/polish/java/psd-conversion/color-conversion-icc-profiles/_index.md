@@ -13,7 +13,7 @@ Witamy w obszernym przewodniku na temat konwersji kolorów przy użyciu profili 
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 1.  Aspose.PSD dla biblioteki Java: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PSD. Można go pobrać z[wydania](https://releases.aspose.com/psd/java/) strona.
 2. Środowisko programistyczne Java: Działające środowisko programistyczne Java jest niezbędne do wykonania kodu. Upewnij się, że masz zainstalowaną Javę w swoim systemie.
-3. Profile ICC: Uzyskaj niezbędne profile ICC do konwersji kolorów. Można znaleźć odpowiednie profile, takie jak`eciRGB_v2.icc` I`ISOcoated_v2_FullGamut4.icc`, z wiarygodnych źródeł.
+3.  Profile ICC: Uzyskaj niezbędne profile ICC do konwersji kolorów. Można znaleźć odpowiednie profile, takie jak`eciRGB_v2.icc` I`ISOcoated_v2_FullGamut4.icc`, z wiarygodnych źródeł.
 ## Importuj pakiety
 W projekcie Java zaimportuj wymagane pakiety Aspose.PSD. Upewnij się, że w konfiguracji projektu znajdują się niezbędne zależności.
 ```java

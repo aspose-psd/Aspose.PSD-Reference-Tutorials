@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/net/image-effects/overlay-color-effect/
 ---
-## Úvod
+## Zavedení
 
 Aspose.PSD for .NET poskytuje robustní sadu funkcí pro zpracování obrazu, což umožňuje vývojářům dosáhnout úžasných efektů bez námahy. Jednou z takových schopností je překrývání barevných efektů na obrázcích. V tomto tutoriálu se zaměříme na efekt ColorOverlay a předvedeme, jak jej aplikovat na obrázek a změnit jeho vizuální přitažlivost.
 
@@ -15,7 +15,7 @@ Aspose.PSD for .NET poskytuje robustní sadu funkcí pro zpracování obrazu, co
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.PSD pro .NET: Stáhněte a nainstalujte knihovnu z[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET: Stáhněte a nainstalujte knihovnu z[zde](https://releases.aspose.com/psd/net/).
 - Adresář dokumentů: Nastavte adresář pro ukládání zdrojových a výstupních souborů.
 
 ## Importovat jmenné prostory
@@ -85,11 +85,11 @@ Odpověď 1: Ano, Aspose.PSD pro .NET je kompatibilní s různými frameworky .N
 
 ### Q2: Kde najdu komplexní dokumentaci k Aspose.PSD pro .NET?
 
- A2: Můžete nahlédnout do dokumentace.[tady](https://reference.aspose.com/psd/net/) pro podrobné informace a ukázky kódu.
+A2: Můžete nahlédnout do dokumentace[zde](https://reference.aspose.com/psd/net/) pro podrobné informace a ukázky kódu.
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
-A3: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET stažením bezplatné zkušební verze.[tady](https://releases.aspose.com/).
+A3: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET stažením bezplatné zkušební verze[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -97,4 +97,4 @@ A3: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET stažením bezplatné
 
 ### Q5: Mohu získat dočasnou licenci pro Aspose.PSD pro .NET?
 
- A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+ A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.

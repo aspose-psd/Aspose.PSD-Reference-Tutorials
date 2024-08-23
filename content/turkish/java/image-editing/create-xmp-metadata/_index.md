@@ -150,7 +150,7 @@ Cevap3: Aspose.PSD, çeşitli boyutlardaki görüntüleri işleyecek şekilde ta
 
 ### S4: Aspose.PSD'nin deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümünü edinerek Aspose.PSD'nin yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümünü edinerek Aspose.PSD'nin yeteneklerini keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD ile ilgili sorgular için nereden destek alabilirim?
 

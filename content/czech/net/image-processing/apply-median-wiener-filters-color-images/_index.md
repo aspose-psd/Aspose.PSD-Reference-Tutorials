@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/net/image-processing/apply-median-wiener-filters-color-images/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto podrobném průvodci o použití Mediánových a Wienerových filtrů v barevných obrázcích pomocí Aspose.PSD pro .NET. Aspose.PSD je výkonná knihovna, která umožňuje vývojářům .NET bezproblémově pracovat se soubory PSD. V tomto tutoriálu prozkoumáme proces použití filtrů Median a Wiener pro vylepšení a odstranění šumu barevných obrázků.
 
@@ -72,7 +72,7 @@ image.Save(destName, new GifOptions());
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste použili Median a Wiener Filters k odstranění šumu z barevných obrázků pomocí Aspose.PSD pro .NET. Tato výkonná knihovna otevírá svět možností pro zpracování obrazu ve vašich aplikacích .NET.
+Gratuluji! Úspěšně jste použili Median a Wiener Filters k odstranění šumu z barevných obrázků pomocí Aspose.PSD pro .NET. Tato výkonná knihovna otevírá svět možností pro zpracování obrazu ve vašich aplikacích .NET.
 
 ## FAQ
 
@@ -86,7 +86,7 @@ Odpověď 2: Můžete implementovat bloky try-catch pro zpracování výjimek, k
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A3: Ano, můžete prozkoumat funkce Aspose.PSD získáním bezplatné zkušební verze od[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat funkce Aspose.PSD získáním bezplatné zkušební verze od[zde](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu komunity pro Aspose.PSD?
 
@@ -94,4 +94,4 @@ Odpověď 2: Můžete implementovat bloky try-catch pro zpracování výjimek, k
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.PSD?
 
- A5: Můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).

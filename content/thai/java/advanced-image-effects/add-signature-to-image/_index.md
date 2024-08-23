@@ -94,4 +94,4 @@ canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 
 ### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.PSD สำหรับ Java ก่อนซื้อได้หรือไม่
 
- A5: ใช่ คุณจะได้รับ[ทดลองฟรี](https://releases.aspose.com/)เพื่อสำรวจคุณสมบัติก่อนตัดสินใจซื้อ
+ A5: ใช่ คุณจะได้รับ[ทดลองใช้ฟรี](https://releases.aspose.com/)เพื่อสำรวจคุณสมบัติก่อนตัดสินใจซื้อ

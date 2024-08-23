@@ -84,7 +84,7 @@ using (Image image = Image.Create(ImageOptions, 500, 500))
 }
 ```
 
-Gratulálunk! Sikeresen létrehozott egy képet az Aspose.PSD for .NET adatfolyamaival.
+Gratulálok! Sikeresen létrehozott egy képet az Aspose.PSD for .NET adatfolyamaival.
 
 ## Következtetés
 
@@ -102,7 +102,7 @@ A2: A méretek testreszabhatók; állítsa be ennek megfelelően az Image.Create
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
@@ -110,4 +110,4 @@ A2: A méretek testreszabhatók; állítsa be ennek megfelelően az Image.Create
 
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek?
 
- V5: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

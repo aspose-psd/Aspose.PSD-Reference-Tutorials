@@ -52,7 +52,7 @@ void ExampleSupportOfBlwhResource(
     int tintColor,
     int newTintColor)
 {
-    // يتم هنا تنفيذ طبقة الضبط بالأبيض والأسود
+    // يتم تنفيذ طبقة الضبط بالأبيض والأسود هنا
 }
 ```
 ## الخطوة 3: التحقق من صحة التغييرات وحفظها

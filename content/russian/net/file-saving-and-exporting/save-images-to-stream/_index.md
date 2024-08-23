@@ -86,7 +86,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### В4: Как я могу получить временную лицензию?
 
- A4: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) В целях тестирования и оценки.
+ A4: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для целей тестирования и оценки.
 
 ### В5: Где я могу купить Aspose.PSD?
 

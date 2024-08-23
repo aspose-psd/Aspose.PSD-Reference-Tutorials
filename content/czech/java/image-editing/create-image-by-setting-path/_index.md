@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/image-editing/create-image-by-setting-path/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto podrobném návodu k vytváření obrázků pomocí Aspose.PSD pro Javu. V této příručce prozkoumáme, jak nastavit cestu a nakonfigurovat možnosti pro generování obrazu PSD. Aspose.PSD je výkonná Java knihovna pro práci se soubory Photoshopu, která poskytuje bezproblémový způsob programové manipulace a vytváření obrázků.
 
@@ -16,7 +16,7 @@ Vítejte v tomto podrobném návodu k vytváření obrázků pomocí Aspose.PSD 
 Než se pustíme do výukového programu, ujistěte se, že máte následující předpoklady:
 
 - Základní znalost programování v Javě.
--  Nainstalovaná knihovna Aspose.PSD for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/java/).
+-  Nainstalovaná knihovna Aspose.PSD for Java. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -94,7 +94,7 @@ A1: Ano, Aspose.PSD bezproblémově funguje s různými Java Integrated Developm
 
 ### Q2: Mohu použít Aspose.PSD pro komerční projekty?
 
- A2: Ano, Aspose.PSD můžete použít pro osobní i komerční projekty. Zkontrolovat[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
+ A2: Ano, Aspose.PSD můžete použít pro osobní i komerční projekty. Zkontrolujte[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
 
 ### Q3: Jak mohu získat podporu pro Aspose.PSD?
 
@@ -102,8 +102,8 @@ A1: Ano, Aspose.PSD bezproblémově funguje s různými Java Integrated Developm
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
- A5: Můžete získat dočasnou licenci pro testovací účely.[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci pro testovací účely[zde](https://purchase.aspose.com/temporary-license/).

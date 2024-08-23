@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -46,7 +45,7 @@ Graphics graphics = new Graphics(image);
 graphics.clear(Color.getYellow());
 ```
 คำอธิบาย:
-- `clear()` วิธีการนี้จะกำหนดสีพื้นหลังของพื้นผิวกราฟิก
+- `clear()` วิธีการกำหนดสีพื้นหลังของพื้นผิวกราฟิก
 ## ขั้นตอนที่ 4: เริ่มต้นปากกาสำหรับการวาดภาพ
  ตั้งค่าก`Pen` วัตถุที่มีคุณสมบัติเช่นสีและความกว้างเพื่อกำหนดวิธีการวาดเส้นโค้ง
 ```java

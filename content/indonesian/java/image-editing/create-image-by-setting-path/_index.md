@@ -94,7 +94,7 @@ A1: Ya, Aspose.PSD bekerja secara lancar dengan berbagai Lingkungan Pengembangan
 
 ### Q2: Dapatkah saya menggunakan Aspose.PSD untuk proyek komersial?
 
- A2: Ya, Anda dapat menggunakan Aspose.PSD untuk proyek pribadi dan komersial. Periksalah[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+ A2: Ya, Anda dapat menggunakan Aspose.PSD untuk proyek pribadi dan komersial. Periksa[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 
@@ -102,8 +102,8 @@ A1: Ya, Aspose.PSD bekerja secara lancar dengan berbagai Lingkungan Pengembangan
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
- A5: Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian[Di Sini](https://purchase.aspose.com/temporary-license/).

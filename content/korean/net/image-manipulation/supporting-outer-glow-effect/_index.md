@@ -23,7 +23,7 @@ url: /ko/net/image-manipulation/supporting-outer-glow-effect/
 
 ## 네임스페이스 가져오기
 
-이 섹션에서는 Outer Glow Effect 구현을 시작하는 데 필요한 네임스페이스를 가져옵니다. 다음과 같이하세요:
+이 섹션에서는 Outer Glow Effect 구현을 시작하는 데 필요한 네임스페이스를 가져옵니다. 다음 단계를 따르세요.
 
 ```csharp
 using System;

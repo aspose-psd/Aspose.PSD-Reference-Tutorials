@@ -1,6 +1,6 @@
 ---
-title: Manipulación de imagen
-linktitle: Manipulación de imagen
+title: Manipulación de imágenes
+linktitle: Manipulación de imágenes
 second_title: API Aspose.PSD .NET
 description: ¡Mejore sus proyectos .NET con Aspose.PSD! Aprenda técnicas de manipulación de imágenes como combinar, recortar, cambiar el tamaño, rotar y agregar efectos sin esfuerzo.
 type: docs

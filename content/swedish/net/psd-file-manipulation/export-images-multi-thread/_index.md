@@ -15,7 +15,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 -  Aspose.PSD för .NET: Ladda ner och installera Aspose.PSD för .NET-biblioteket från[här](https://releases.aspose.com/psd/net/).
 - Din utdatakatalog: Definiera en katalogsökväg där de exporterade bilderna ska sparas.
 ## Importera namnområden
-Börja med att importera de nödvändiga namnrymden i ditt .NET-projekt. Dessa namnrymder ger åtkomst till Aspose.PSD-funktionerna.
+Börja med att importera de nödvändiga namnrymden i ditt .NET-projekt. Dessa namnområden ger åtkomst till Aspose.PSD-funktionerna.
 ```csharp
 using Aspose.PSD.ImageOptions;
 
@@ -68,12 +68,12 @@ S1: Ja, Aspose.PSD för .NET stöder olika versioner av Photoshop-filer, vilket 
 
 ### F3: Hur kan jag få support för Aspose.PSD för .NET?
 
- S3: Gå med i Aspose.PSD-communityt.[forum](https://forum.aspose.com/c/psd/34) för att få hjälp av experter och andra utvecklare.
+ S3: Gå med i Aspose.PSD-communityt[forum](https://forum.aspose.com/c/psd/34) för att få hjälp av experter och andra utvecklare.
 
 ### F4: Finns det en gratis provperiod?
 
- A4: Ja, du kan få tillgång till en gratis provperiod.[här](https://releases.aspose.com/) att utforska Aspose.PSD för .NET:s funktioner innan du gör ett åtagande.
+ A4: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/) att utforska Aspose.PSD för .NET:s funktioner innan du gör ett åtagande.
 
 ### F5: Hur får jag en tillfällig licens för Aspose.PSD för .NET?
 
- A5: Besök[den här länken](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens för teständamål.
+ A5: Besök[denna länk](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens för teständamål.

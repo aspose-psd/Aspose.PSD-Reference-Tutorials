@@ -12,7 +12,7 @@ Java에서 AI(Adobe Illustrator) 파일을 GIF로 변환하는 것은 어려운 
 ## 전제조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 - JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요.
--  Java 라이브러리용 Aspose.PSD: 다음에서 라이브러리를 다운로드하세요.[Java 다운로드 페이지용 Aspose.PSD](https://releases.aspose.com/psd/java/).
+- Java 라이브러리용 Aspose.PSD: 다음에서 라이브러리를 다운로드하세요.[Java 다운로드 페이지용 Aspose.PSD](https://releases.aspose.com/psd/java/).
 - 통합 개발 환경(IDE): Java 코드를 작성하고 실행하기 위한 IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 IDE입니다.
 - AI 파일: 변환하려는 Adobe Illustrator 파일입니다.
 ## 패키지 가져오기
@@ -20,7 +20,6 @@ Java에서 AI(Adobe Illustrator) 파일을 GIF로 변환하는 것은 어려운 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -38,8 +37,8 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
-### 2.2 AI 파일 불러오기
- 사용`Image.load` AI 파일을 로드하는 방법입니다. 이 방법은 AI 파일을 읽어서`AiImage` 물체.
+### 2.2 AI 파일 로드
+ 사용`Image.load` AI 파일을 로드하는 방법입니다. 이 방법은 AI 파일을`AiImage` 물체.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
@@ -56,7 +55,7 @@ options.setDoPaletteCorrection(false);
 ```
 ## 4단계: AI를 GIF로 저장
 ### 4.1 이미지 저장
- 마지막으로`save` 의 방법`AiImage` AI 파일을 GIF로 저장하기 위한 객체입니다.
+ 마지막으로`save` 의 방법`AiImage` AI 파일을 GIF로 저장하는 개체입니다.
 ```java
 image.save(outFileName, options);
 ```

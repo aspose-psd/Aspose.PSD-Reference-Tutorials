@@ -8,7 +8,7 @@ weight: 10
 url: /th/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
 ## การแนะนำ
-เคยสงสัยบ้างไหมว่าจะเพิ่มการไล่ระดับสีเลเยอร์สโตรกให้กับรูปภาพของคุณโดยใช้ Java ได้อย่างไร? คุณอยู่ในสถานที่ที่เหมาะสม! วันนี้ เรากำลังดำดิ่งสู่โลกของ Aspose PSD สำหรับ Java ซึ่งเป็นไลบรารีอันทรงพลังที่ช่วยให้คุณจัดการไฟล์ PSD ได้อย่างง่ายดาย ไม่ว่าคุณจะเป็นมือใหม่หรือนักพัฒนาที่มีประสบการณ์ คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดขั้นตอนการเพิ่มการไล่ระดับสีเลเยอร์เส้นขีดให้กับไฟล์ PSD ของคุณ ดังนั้น รัดเข็มขัดให้พร้อมและเตรียมพร้อมที่จะพัฒนาทักษะการแก้ไขกราฟิกของคุณ!
+เคยสงสัยบ้างไหมว่าจะเพิ่มการไล่ระดับสีเลเยอร์สโตรกให้กับรูปภาพของคุณโดยใช้ Java ได้อย่างไร? คุณอยู่ในสถานที่ที่เหมาะสม! วันนี้ เรากำลังดำดิ่งสู่โลกของ Aspose.PSD สำหรับ Java ซึ่งเป็นไลบรารีอันทรงพลังที่ช่วยให้คุณจัดการไฟล์ PSD ได้อย่างง่ายดาย ไม่ว่าคุณจะเป็นมือใหม่หรือนักพัฒนาที่มีประสบการณ์ คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดขั้นตอนการเพิ่มการไล่ระดับสีเลเยอร์เส้นขีดให้กับไฟล์ PSD ของคุณ ดังนั้น รัดเข็มขัดให้พร้อมและเตรียมพร้อมที่จะพัฒนาทักษะการแก้ไขกราฟิกของคุณ!
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม มีบางสิ่งที่คุณต้องมี ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -21,7 +21,6 @@ url: /th/java/java-graphics-drawing/add-stroke-layer-gradient/
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -46,7 +45,7 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 ## ขั้นตอนที่ 2: เข้าถึงเอฟเฟกต์ Stroke
-ต่อไป เราต้องเข้าถึงเอฟเฟกต์เส้นโครงร่างของเลเยอร์ที่เราสนใจ ที่นี่ เราถือว่ามันเป็นเลเยอร์ที่สาม (ดัชนี 2) ในไฟล์ PSD
+ต่อไป เราต้องเข้าถึงเอฟเฟ็กต์เส้นขีดของเลเยอร์ที่เราสนใจ ในกรณีนี้ เราถือว่าเป็นเลเยอร์ที่สาม (ดัชนี 2) ในไฟล์ PSD
 ```java
 StrokeEffect gradientStroke = (StrokeEffect) im.getLayers()[2].getBlendingOptions().getEffects()[0];
 ```

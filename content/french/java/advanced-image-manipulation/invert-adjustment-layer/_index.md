@@ -66,7 +66,7 @@ Enregistrez l'image PSD modifiée avec le calque de réglage inversé appliqué.
 im.save(outputPath);
 ```
 
-Toutes nos félicitations! Vous avez implémenté avec succès la couche de réglage inversée à l'aide d'Aspose.PSD pour Java. N'hésitez pas à explorer davantage de fonctionnalités fournies par Aspose.PSD pour améliorer vos capacités de traitement d'image.
+Félicitations! Vous avez implémenté avec succès la couche de réglage inversée à l'aide d'Aspose.PSD pour Java. N'hésitez pas à explorer davantage de fonctionnalités fournies par Aspose.PSD pour améliorer vos capacités de traitement d'image.
 
 ## Conclusion
 
@@ -88,8 +88,8 @@ A2 : Oui, vous pouvez empiler plusieurs calques de réglage pour réaliser des 
 
 ### Q4 : Existe-t-il un essai gratuit disponible pour Aspose.PSD ?
 
- A4 : Oui, vous pouvez explorer l'essai gratuit.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez explorer l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
-R5 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+A5 : Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).

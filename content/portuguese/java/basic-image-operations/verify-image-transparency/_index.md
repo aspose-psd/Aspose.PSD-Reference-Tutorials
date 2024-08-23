@@ -16,7 +16,7 @@ Você está trabalhando com imagens e precisa garantir transparência? Aspose.PS
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Ambiente de desenvolvimento Java: certifique-se de ter o Java instalado em seu sistema.
--  Aspose.PSD para Java: Baixe e instale a biblioteca Aspose.PSD para Java. Você pode encontrar a biblioteca e a documentação no site[local na rede Internet](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD para Java: Baixe e instale a biblioteca Aspose.PSD para Java. Você pode encontrar a biblioteca e a documentação no site[site](https://releases.aspose.com/psd/java/).
 
 ## Importar pacotes
 
@@ -73,16 +73,16 @@ A1: Sim, Aspose.PSD para Java foi projetado para funcionar perfeitamente com out
 
 ### P2: Existe um teste gratuito disponível?
 
- A2: Sim, você pode explorar o Aspose.PSD para Java com uma avaliação gratuita. Visita[esse link](https://releases.aspose.com/) para começar.
+ A2: Sim, você pode explorar o Aspose.PSD para Java com uma avaliação gratuita. Visita[este link](https://releases.aspose.com/) para começar.
 
 ### P3: Onde posso encontrar documentação detalhada?
 
- A3: Consulte o[documentação](https://reference.aspose.com/psd/java/)para obter informações abrangentes sobre como usar Aspose.PSD para Java.
+ A3: Consulte o[documentação](https://reference.aspose.com/psd/java/) para obter informações abrangentes sobre como usar Aspose.PSD para Java.
 
 ### P4: Como posso obter suporte?
 
- A4: Junte-se à comunidade Aspose.PSD no[Fórum de suporte](https://forum.aspose.com/c/psd/34) para buscar assistência e se conectar com outros desenvolvedores.
+ A4: Junte-se à comunidade Aspose.PSD no[fórum de suporte](https://forum.aspose.com/c/psd/34) para buscar assistência e se conectar com outros desenvolvedores.
 
 ### P5: Preciso de uma licença temporária para testes?
 
- R5: Se estiver testando a biblioteca, você poderá obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Se estiver testando a biblioteca, você poderá obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

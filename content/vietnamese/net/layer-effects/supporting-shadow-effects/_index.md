@@ -18,7 +18,7 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình hỗ
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 -  Aspose.PSD for .NET Library: Tải xuống và cài đặt thư viện từ[Trang tải xuống Aspose.PSD cho .NET](https://releases.aspose.com/psd/net/).
-- Thư mục Tài liệu: Tạo một thư mục nơi bạn sẽ lưu trữ các tệp PSD của mình.
+- Thư mục tài liệu: Tạo một thư mục nơi bạn sẽ lưu trữ các tệp PSD của mình.
 
 ## Nhập không gian tên
 

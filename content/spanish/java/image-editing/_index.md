@@ -1,6 +1,6 @@
 ---
-title: Edición de imagen
-linktitle: Edición de imagen
+title: Edición de imágenes
+linktitle: Edición de imágenes
 second_title: API de Java Aspose.PSD
 description: Descubra la magia de los efectos de superposición de colores, la fusión de imágenes y el procesamiento perfecto de imágenes con Aspose.PSD. Mejora tu juego de edición de imágenes con nuestras guías.
 type: docs
@@ -47,7 +47,7 @@ url: /es/java/image-editing/
 
  Aprende las complejidades de[ampliar y recortar imágenes](./expand-and-crop-images/) en Java usando Aspose.PSD. Nuestra guía paso a paso garantiza un procesamiento de imágenes eficiente. Mejore sus habilidades de edición de imágenes con Aspose.PSD para Java.
 
-En resumen, estos tutoriales abren las puertas a un mundo de posibilidades en la edición de imágenes utilizando Aspose.PSD para Java. Ya seas un desarrollador novato o experimentado, nuestras guías te permiten dar rienda suelta a tu creatividad y lograr resultados sorprendentes. Sumérgete y explora las ricas funciones que Aspose.PSD para Java trae a la mesa. ¡Feliz edición!
+En resumen, estos tutoriales abren las puertas a un mundo de posibilidades en la edición de imágenes utilizando Aspose.PSD para Java. Ya sea un desarrollador novato o experimentado, nuestras guías le permitirán dar rienda suelta a su creatividad y lograr resultados sorprendentes. Sumérgete y explora las ricas funciones que Aspose.PSD para Java trae a la mesa. ¡Feliz edición!
 ## Tutoriales de edición de imágenes
 ### [Aplicar efecto de superposición de color en Aspose.PSD para Java](./color-overlay-effect/)
 Descubra la magia de los efectos de superposición de colores en Aspose.PSD para Java. Mejora tu juego de edición de imágenes con esta guía paso a paso.

@@ -87,7 +87,7 @@ S2: Ja, Aspose.PSD tillhandahåller en mängd olika filteralternativ för att pa
 
 ### F3: Hur kan jag hantera undantag under bildbehandling?
 
- S3: Slå in din kod i try-catch-block för att hantera undantag graciöst. Hänvisa till[Aspose.PSD-dokumentation](https://reference.aspose.com/psd/java/) för mer detaljer.
+ S3: Slå in din kod i try-catch-block för att hantera undantag graciöst. Referera till[Aspose.PSD-dokumentation](https://reference.aspose.com/psd/java/) för mer information.
 
 ### F4: Kan jag använda flera filter i följd?
 

@@ -14,12 +14,11 @@ url: /el/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 - Βασικές γνώσεις προγραμματισμού Java.
 - Το Java Development Kit (JDK) είναι εγκατεστημένο στο σύστημά σας.
 - IDE (Integrated Development Environment) για Java, όπως το IntelliJ IDEA ή το Eclipse.
--  Aspose.PSD για βιβλιοθήκη Java. Μπορείτε να το κατεβάσετε από το[Σελίδα λήψης Aspose.PSD για Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD για βιβλιοθήκη Java. Μπορείτε να το κατεβάσετε από το[Σελίδα λήψης Aspose.PSD για Java](https://releases.aspose.com/psd/java/).
 ## Εισαγωγή πακέτων
 Πρώτα, εισαγάγετε τα απαραίτητα πακέτα από Aspose.PSD και Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -53,7 +52,7 @@ jpegOptions.setQuality(100); // Ρύθμιση ποιότητας JPEG
 ```java
 image.save(dataDir + "output.psd");
 ```
-## συμπέρασμα
+## Σύναψη
 Η προσθήκη μιας μικρογραφίας στο τμήμα EXIF στην Java χρησιμοποιώντας το Aspose.PSD είναι μια απλή διαδικασία που βελτιώνει τη χρηστικότητα των μεταδεδομένων εικόνας. Ακολουθώντας τα βήματα που περιγράφονται σε αυτό το σεμινάριο, μπορείτε να εμπλουτίσετε τις εικόνες σας με μικρογραφίες προεπισκόπησης αποτελεσματικά.
 
 ## Συχνές ερωτήσεις

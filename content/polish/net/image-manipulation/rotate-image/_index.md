@@ -53,7 +53,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-Otóż to! Za pomocą zaledwie kilku linii kodu udało Ci się obrócić obraz za pomocą Aspose.PSD dla .NET.
+To wszystko! Za pomocą zaledwie kilku linii kodu udało Ci się obrócić obraz za pomocą Aspose.PSD dla .NET.
 
 ## Wniosek
 
@@ -71,7 +71,7 @@ tym samouczku omówiliśmy podstawy obracania obrazów przy użyciu Aspose.PSD d
 
 ### P3: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
 
- Odwiedzić[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) na stronie internetowej Aspose w celu uzyskania tymczasowej licencji do celów ewaluacyjnych.
+ Odwiedź[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) na stronie internetowej Aspose w celu uzyskania tymczasowej licencji do celów ewaluacyjnych.
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.PSD?
 

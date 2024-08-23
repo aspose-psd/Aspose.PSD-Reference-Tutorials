@@ -12,7 +12,7 @@ Het transformeren van AI-bestanden naar het TIFF-formaat is een veel voorkomende
 ## Vereisten
 Voordat u in het conversieproces duikt, moet u ervoor zorgen dat u over het volgende beschikt:
 1. Java Development Kit (JDK): Zorg ervoor dat JDK 8 of hoger is geïnstalleerd.
-2.  Aspose.PSD voor Java: download het[Aspose.PSD voor Java-bibliotheek](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD voor Java: download het[Aspose.PSD voor Java-bibliotheek](https://releases.aspose.com/psd/java/).
 3. Integrated Development Environment (IDE): Elke IDE van uw keuze (bijv. IntelliJ IDEA, Eclipse).
 4. AI-bestand: het Adobe Illustrator-bestand (.ai) dat u wilt converteren.
 5. TiffOptions: Vereist voor het opgeven van TIFF-indelingsdetails.
@@ -20,7 +20,6 @@ Voordat u in het conversieproces duikt, moet u ervoor zorgen dat u over het volg
 Eerst moet u de benodigde pakketten importeren uit Aspose.PSD. Deze pakketten bieden de klassen en methoden die nodig zijn om AI- en TIFF-bestanden te verwerken.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -34,7 +33,7 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Hier,`dataDir`is de map waarin uw AI-bestand is opgeslagen. Pas het pad dienovereenkomstig aan zodat het overeenkomt met uw bestandslocatie.
+ Hier,`dataDir` is de map waarin uw AI-bestand is opgeslagen. Pas het pad dienovereenkomstig aan zodat het overeenkomt met uw bestandslocatie.
 ## Stap 3: Definieer het uitvoerbestand
 Geef vervolgens het uitvoerbestandspad op waar het geconverteerde TIFF-bestand zal worden opgeslagen.
 ```java

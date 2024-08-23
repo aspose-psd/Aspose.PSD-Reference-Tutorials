@@ -18,7 +18,6 @@ Trước khi chúng ta bắt đầu với mã, hãy đảm bảo bạn có sẵn
 Để bắt đầu với mã, bạn cần nhập các gói Aspose.PSD cần thiết. Đây là cách bạn có thể làm điều đó:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -37,7 +36,7 @@ Tiếp theo, bạn cần tải tệp AI của mình bằng Aspose.PSD. Đây là
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Dòng mã này đọc file AI thành một`AiImage` đối tượng, làm cho nó sẵn sàng để chuyển đổi. Các`Image.load()` phương thức lấy đường dẫn tệp làm đối số.
+ Dòng mã này đọc tệp AI thành một`AiImage` đối tượng, làm cho nó sẵn sàng để chuyển đổi. các`Image.load()` phương thức lấy đường dẫn tệp làm đối số.
 ## Bước 3: Định cấu hình tùy chọn PDF
 Trước khi lưu hình ảnh dưới dạng PDF, bạn có thể định cấu hình các tùy chọn dành riêng cho PDF. Đây là cách bạn có thể thiết lập`PdfOptions`:
 ```java

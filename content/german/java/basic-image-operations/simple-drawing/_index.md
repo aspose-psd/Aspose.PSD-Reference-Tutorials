@@ -1,26 +1,26 @@
 ---
-title: Führen Sie einfaches Zeichnen mit Aspose.PSD für Java durch
-linktitle: Führen Sie ein einfaches Zeichnen durch
-second_title: Aspose.PSD Java-API
-description: Erfahren Sie, wie Sie mit Aspose.PSD für Java Formen in PSD-Dateien zeichnen. Diese Schritt-für-Schritt-Anleitung behandelt das Erstellen, Hinzufügen von Ebenen und Zeichnen anhand von Codebeispielen.
+title: Führen Sie einfache Zeichnungen mit Aspose.PSD für Java durch
+linktitle: Einfaches Zeichnen durchführen
+second_title: Aspose.PSD Java API
+description: Erfahren Sie, wie Sie mit Aspose.PSD für Java Formen in PSD-Dateien zeichnen. Diese Schritt-für-Schritt-Anleitung behandelt das Erstellen, Hinzufügen von Ebenen und Zeichnen mit Codebeispielen.
 type: docs
 weight: 10
 url: /de/java/basic-image-operations/simple-drawing/
 ---
 ## Einführung
 
-Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Durchführen einfacher Zeichnungen mit Aspose.PSD für Java! In diesem Tutorial erkunden wir die Grundlagen zum Erstellen eines neuen PSD-Dokuments, zum Hinzufügen von Ebenen und zum Zeichnen von Formen mit verschiedenen Farben. Aspose.PSD für Java ist eine leistungsstarke Bibliothek, die Ihnen die programmgesteuerte Bearbeitung von PSD-Dateien ermöglicht und umfangreiche Funktionen für Grafikdesignaufgaben bietet.
+Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Erstellen einfacher Zeichnungen mit Aspose.PSD für Java! In diesem Tutorial lernen wir die Grundlagen zum Erstellen eines neuen PSD-Dokuments, zum Hinzufügen von Ebenen und zum Zeichnen von Formen mit unterschiedlichen Farben kennen. Aspose.PSD für Java ist eine leistungsstarke Bibliothek, mit der Sie PSD-Dateien programmgesteuert bearbeiten können und die umfangreiche Funktionen für Grafikdesignaufgaben bietet.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Java Development Kit (JDK) ist auf Ihrem Computer installiert.
--  Aspose.PSD für Java-Bibliothek. Sie können es hier herunterladen[Aspose.PSD für Java-Dokumentation](https://reference.aspose.com/psd/java/).
+- Auf Ihrem Computer ist Java Development Kit (JDK) installiert.
+- Aspose.PSD für Java-Bibliothek. Sie können es herunterladen von der[Aspose.PSD für Java-Dokumentation](https://reference.aspose.com/psd/java/).
 
 ## Pakete importieren
 
-Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt. Fügen Sie den folgenden Code am Anfang Ihrer Java-Datei ein:
+Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt. Fügen Sie am Anfang Ihrer Java-Datei den folgenden Code ein:
 
 ```java
 import com.aspose.psd.Color;
@@ -33,12 +33,12 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-## Schritt 1: Erstellen Sie ein neues Dokument
+## Schritt 1: Neues Dokument erstellen
 
-Beginnen wir mit der Erstellung eines neuen PSD-Dokuments mit einer angegebenen Breite und Höhe:
+Beginnen wir mit der Erstellung eines neuen PSD-Dokuments mit einer bestimmten Breite und Höhe:
 
 ```java
-//ExStart:CreateDocument
+//ExStart:DokumentErstellen
 String outputDir = "Your Document Directory";
 String outPsdFilePath = outputDir + "output.psd";
 int width = 100;
@@ -48,7 +48,7 @@ PsdImage image = new PsdImage(width, height);
 //ExEnd:CreateDocument
 ```
 
-## Schritt 2: Fügen Sie eine Ebene hinzu
+## Schritt 2: Eine Ebene hinzufügen
 
 Fügen wir nun mit dem Konstruktor ohne Argumente eine Ebene zum Dokument hinzu:
 
@@ -65,13 +65,13 @@ image.addLayer(layer);
 
 In diesem Schritt verwenden wir die Graphics-Klasse, um Formen auf der erstellten Ebene zu zeichnen:
 
-### Zeichnen Sie ein Rechteck mit einer gelben Farbe
+### Zeichnen Sie ein Rechteck mit gelber Farbe
 
 ```java
-//ExStart:DrawRectangleYellow
+//ExStart:RechteckZeichnenGelb
 Graphics graphic = new Graphics(layer);
 graphic.clear(Color.getYellow());
-//ExEnd:DrawRectangleYellow
+//ExEnd:RechteckZeichnenGelb
 ```
 
 ### Zeichnen Sie ein rotes Rechteck
@@ -90,37 +90,37 @@ graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10
 //ExEnd:DrawBlueRectangle
 ```
 
-## Schritt 4: Speichern Sie die Änderungen
+## Schritt 4: Änderungen speichern
 
-Speichern Sie abschließend eine Kopie der geladenen PSD-Datei einschließlich der Änderungen:
+Speichern Sie abschließend eine Kopie der geladenen PSD-Datei inklusive der Änderungen:
 
 ```java
-//ExStart:SaveChanges
+//ExStart:Änderungen speichern
 image.save(outPsdFilePath);
-//ExEnd:SaveChanges
+//ExEnd:Änderungen speichern
 ```
 
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich ein einfaches Zeichnen mit Aspose.PSD für Java durchgeführt. In diesem Tutorial wurde das Erstellen eines neuen Dokuments, das Hinzufügen von Ebenen und das Zeichnen von Rechtecken mit verschiedenen Farben behandelt. Entdecken Sie die erweiterten Funktionen der Bibliothek für Ihre Grafikdesign-Anforderungen.
+Herzlichen Glückwunsch! Sie haben erfolgreich eine einfache Zeichnung mit Aspose.PSD für Java erstellt. In diesem Tutorial wurde das Erstellen eines neuen Dokuments, das Hinzufügen von Ebenen und das Zeichnen von Rechtecken mit unterschiedlichen Farben behandelt. Erkunden Sie gerne die erweiterten Funktionen der Bibliothek für Ihre Grafikdesignanforderungen.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### F1: Kann ich Aspose.PSD für Java verwenden, um vorhandene PSD-Dateien zu bearbeiten?
 
-A1: Ja, Aspose.PSD für Java bietet umfangreiche Funktionen zum Bearbeiten und Bearbeiten bestehender PSD-Dateien.
+A1: Ja, Aspose.PSD für Java bietet umfangreiche Funktionen zum Bearbeiten und Manipulieren vorhandener PSD-Dateien.
 
 ### F2: Wo finde ich Unterstützung für Aspose.PSD für Java?
 
- A2: Sie können die besuchen[Aspose.PSD für Java-Forum](https://forum.aspose.com/c/psd/34) für alle Supportanfragen.
+ A2: Sie können die[Aspose.PSD für Java-Forum](https://forum.aspose.com/c/psd/34) für Supportanfragen.
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
+### F3: Gibt es eine kostenlose Testversion von Aspose.PSD für Java?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen.[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich eine Lizenz für Aspose.PSD für Java erwerben?
 
- A4: Sie können eine Lizenz bei kaufen[Aspose.PSD-Kaufseite](https://purchase.aspose.com/buy).
+ A4: Sie können eine Lizenz erwerben bei der[Aspose.PSD-Kaufseite](https://purchase.aspose.com/buy).
 
 ### F5: Sind temporäre Lizenzen für Aspose.PSD für Java verfügbar?
 

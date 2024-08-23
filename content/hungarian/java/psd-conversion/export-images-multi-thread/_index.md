@@ -74,4 +74,4 @@ Igen, az Aspose.PSD támogatja a többszálú feldolgozást, amely lehetővé te
 ### Elérhető az Aspose.PSD for Java ingyenes próbaverziója?
  Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
- Látogatás[ez a link](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzéséhez.
+ Látogatás[ezt a linket](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzéséhez.

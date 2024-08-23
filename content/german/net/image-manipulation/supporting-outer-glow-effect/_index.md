@@ -1,21 +1,21 @@
 ---
-title: Unterstützung des Outer Glow-Effekts in Aspose.PSD für .NET
-linktitle: Unterstützt den äußeren Glow-Effekt
-second_title: Aspose.PSD .NET-API
-description: Entdecken Sie die Leistungsfähigkeit des Outer Glow-Effekts in Aspose.PSD für .NET. Verbessern Sie Ihre Bilddesigns mit dieser Schritt-für-Schritt-Anleitung.
+title: Unterstützung des Outer-Glow-Effekts in Aspose.PSD für .NET
+linktitle: Unterstützender Effekt „Außenglühen“
+second_title: Aspose.PSD .NET API
+description: Entdecken Sie die Leistungsfähigkeit des Outer-Glow-Effekts in Aspose.PSD für .NET. Verbessern Sie Ihre Bilddesigns mit diesem Schritt-für-Schritt-Tutorial.
 type: docs
 weight: 16
 url: /de/net/image-manipulation/supporting-outer-glow-effect/
 ---
 ## Einführung
 
-Willkommen zu unserer Schritt-für-Schritt-Anleitung zur Unterstützung des Outer Glow-Effekts in Aspose.PSD für .NET. Aspose.PSD ist eine leistungsstarke Bibliothek, die eine nahtlose Bearbeitung von PSD-Dateien in .NET-Anwendungen ermöglicht. In diesem Tutorial untersuchen wir die Implementierung des Outer Glow-Effekts und bieten eine detaillierte Anleitung für die Integration in Ihre Projekte.
+Willkommen zu unserer Schritt-für-Schritt-Anleitung zur Unterstützung des Outer-Glow-Effekts in Aspose.PSD für .NET. Aspose.PSD ist eine leistungsstarke Bibliothek, die eine nahtlose Bearbeitung von PSD-Dateien in .NET-Anwendungen ermöglicht. In diesem Tutorial untersuchen wir die Implementierung des Outer-Glow-Effekts und bieten eine detaillierte Anleitung zur Integration in Ihre Projekte.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.PSD für .NET-Bibliothek: Laden Sie die Bibliothek von herunter[Aspose.PSD .NET-Dokumentation](https://reference.aspose.com/psd/net/).
+-  Aspose.PSD für .NET-Bibliothek: Laden Sie die Bibliothek herunter von der[Aspose.PSD .NET Dokumentation](https://reference.aspose.com/psd/net/).
 
 - Entwicklungsumgebung: Richten Sie Ihre bevorzugte .NET-Entwicklungsumgebung ein.
 
@@ -23,7 +23,7 @@ Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden 
 
 ## Namespaces importieren
 
-In diesem Abschnitt importieren wir die erforderlichen Namespaces, um unsere Outer Glow Effect-Implementierung zu starten. Folge diesen Schritten:
+In diesem Abschnitt importieren wir die erforderlichen Namespaces, um mit der Implementierung unseres Outer Glow-Effekts zu beginnen. Folgen Sie diesen Schritten:
 
 ```csharp
 using System;
@@ -35,7 +35,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.LayerEffects;
 using Aspose.PSD.ImageOptions;
 ```
 
-Lassen Sie uns nun das bereitgestellte Beispiel in mehrere Schritte aufteilen, um den Outer Glow-Effekt zu erzielen.
+Lassen Sie uns nun das bereitgestellte Beispiel in mehrere Schritte aufteilen, um den Effekt „Nach außen leuchten“ zu erzielen.
 
 ## Schritt 1: Dokument- und Ausgabepfade festlegen
 
@@ -50,17 +50,17 @@ string outputDir = "Your Output Directory";
 string src = Path.Combine(baseDir, "GreenLayer.psd");
 using (var image = (PsdImage)Image.Load(src))
 {
-    // Nachfolgend werden Implementierungsschritte hinzugefügt.
+    // Implementierungsschritte werden unten hinzugefügt.
 }
 ```
 
-## Schritt 3: Äußeren Glow-Effekt hinzufügen
+## Schritt 3: Äußeren Scheineffekt hinzufügen
 
 ```csharp
 OuterGlowEffect effect = image.Layers[1].BlendingOptions.AddOuterGlow();
 ```
 
-## Schritt 4: Konfigurieren Sie die äußeren Glühparameter
+## Schritt 4: Konfigurieren Sie die Parameter für das äußere Leuchten
 
 ```csharp
 effect.Range = 10;
@@ -91,26 +91,26 @@ Console.WriteLine("SupportOfOuterGlowEffect executed successfully");
 
 ## Abschluss
 
-Glückwunsch! Sie haben den Outer Glow-Effekt mit Aspose.PSD für .NET erfolgreich implementiert. Diese leistungsstarke Funktion verbessert die visuelle Attraktivität Ihrer Bilder und verleiht Ihren Designs eine einzigartige Note.
+Herzlichen Glückwunsch! Sie haben den Outer-Glow-Effekt erfolgreich mit Aspose.PSD für .NET implementiert. Diese leistungsstarke Funktion verbessert die visuelle Attraktivität Ihrer Bilder und verleiht Ihren Designs eine einzigartige Note.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### F1: Ist Aspose.PSD mit allen .NET-Frameworks kompatibel?
 
-A1: Ja, Aspose.PSD unterstützt eine Vielzahl von .NET-Frameworks und gewährleistet so die Kompatibilität mit verschiedenen Entwicklungsumgebungen.
+A1: Ja, Aspose.PSD unterstützt eine breite Palette von .NET-Frameworks und gewährleistet so die Kompatibilität mit verschiedenen Entwicklungsumgebungen.
 
 ### F2: Wo finde ich zusätzliche Dokumentation für Aspose.PSD?
 
- A2: Siehe[Aspose.PSD .NET-Dokumentation](https://reference.aspose.com/psd/net/) Ausführliche Informationen und Beispiele finden Sie hier.
+ A2: Siehe[Aspose.PSD .NET Dokumentation](https://reference.aspose.com/psd/net/) für umfassende Informationen und Beispiele.
 
 ### F3: Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
 
- A3: Besuchen[Temporäre Aspose.PSD-Lizenz](https://purchase.aspose.com/temporary-license/) für temporäre Lizenzoptionen.
+ A3: Besuch[Aspose.PSD Temporäre Lizenz](https://purchase.aspose.com/temporary-license/) für temporäre Lizenzierungsoptionen.
 
-### F4: Welche Unterstützung steht Aspose.PSD-Benutzern zur Verfügung?
+### F4: Welcher Support ist für Aspose.PSD-Benutzer verfügbar?
 
- A4: Treten Sie dem bei[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für Community-Unterstützung und Diskussionen.
+ A4: Werden Sie Mitglied der[Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) für Community-Unterstützung und Diskussionen.
 
 ### F5: Kann ich Aspose.PSD für .NET kaufen?
 
- A5: Ja, prüfen Sie die Lizenzoptionen und tätigen Sie Ihren Kauf.[Hier](https://purchase.aspose.com/buy).
+ A5: Ja, informieren Sie sich über die Lizenzierungsoptionen und tätigen Sie Ihren Kauf[Hier](https://purchase.aspose.com/buy).

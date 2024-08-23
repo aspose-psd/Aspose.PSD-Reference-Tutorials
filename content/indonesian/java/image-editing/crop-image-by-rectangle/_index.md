@@ -16,7 +16,7 @@ Dalam dunia pengembangan Java, memanipulasi gambar adalah tugas umum, dan Aspose
 Sebelum Anda menyelami tutorial ini, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) diinstal pada mesin Anda.
--  Aspose.PSD untuk perpustakaan Java. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/psd/java/).
+- Aspose.PSD untuk perpustakaan Java. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/psd/java/).
 
 ## Paket Impor
 
@@ -30,7 +30,7 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Sekarang, mari kita bagi prosesnya menjadi beberapa langkah untuk memandu Anda dalam memotong gambar persegi panjang menggunakan Aspose.PSD untuk Java.
+Sekarang, mari kita bagi prosesnya menjadi beberapa langkah untuk memandu Anda dalam memotong gambar dengan persegi panjang menggunakan Aspose.PSD untuk Java.
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
@@ -86,13 +86,13 @@ Dalam tutorial ini, kita mempelajari proses memotong gambar dengan persegi panja
 
 ## FAQ
 
-### Q1: Bisakah saya menggunakan Aspose.PSD untuk Java dengan kerangka Java lainnya?
+### Q1: Dapatkah saya menggunakan Aspose.PSD untuk Java dengan kerangka kerja Java lainnya?
 
 A1: Ya, Aspose.PSD untuk Java dapat diintegrasikan dengan berbagai kerangka kerja Java, memberikan fleksibilitas dalam proyek pengembangan Anda.
 
 ### Q2: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A2: Ya, Anda dapat mengakses versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A2: Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya bisa mendapatkan dukungan atau bantuan tambahan?
 
@@ -100,7 +100,7 @@ A1: Ya, Aspose.PSD untuk Java dapat diintegrasikan dengan berbagai kerangka kerj
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
 
- A4: Anda dapat memperoleh lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Apa saja format gambar yang didukung untuk dipotong di Aspose.PSD untuk Java?
 

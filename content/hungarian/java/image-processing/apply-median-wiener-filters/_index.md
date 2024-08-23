@@ -88,7 +88,7 @@ Ebben az oktatóanyagban a Medián és Wiener szűrők alkalmazásának folyamat
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- V2: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/).
+ V2: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
 
@@ -100,4 +100,4 @@ Ebben az oktatóanyagban a Medián és Wiener szűrők alkalmazásának folyamat
 
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.PSD for Java-t?
 
- A5: Megvásárolhatja a terméket.[itt](https://purchase.aspose.com/buy).
+ A5: Megvásárolhatja a terméket[itt](https://purchase.aspose.com/buy).

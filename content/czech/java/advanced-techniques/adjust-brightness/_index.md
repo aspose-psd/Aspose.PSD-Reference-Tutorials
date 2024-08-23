@@ -7,7 +7,7 @@ type: docs
 weight: 21
 url: /cs/java/advanced-techniques/adjust-brightness/
 ---
-## Úvod
+## Zavedení
 
 Vylepšení obrázků je běžným požadavkem v grafickém designu a digitální fotografii. Aspose.PSD for Java poskytuje výkonné řešení pro programovou úpravu jasu obrazu. V tomto tutoriálu krok za krokem prozkoumáme, jak využít knihovnu Aspose.PSD for Java k úpravě jasu obrázku.
 
@@ -102,8 +102,8 @@ Odpověď 3: Rozsah úprav závisí na obsahu a formátu obrázku, ale Aspose.PS
 
 ### Q4: Mohu použít Aspose.PSD pro Java v komerčních projektech?
 
- A4: Ano, Aspose.PSD for Java je komerční knihovna a můžete získat licenci od[tady](https://purchase.aspose.com/buy).
+ A4: Ano, Aspose.PSD for Java je komerční knihovna a můžete získat licenci od[zde](https://purchase.aspose.com/buy).
 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A5: Ano, můžete prozkoumat knihovnu pomocí bezplatné zkušební verze od[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat knihovnu pomocí bezplatné zkušební verze od[zde](https://releases.aspose.com/).

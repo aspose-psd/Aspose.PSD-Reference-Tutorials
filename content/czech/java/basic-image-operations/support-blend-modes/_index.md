@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/basic-image-operations/support-blend-modes/
 ---
-## Úvod
+## Zavedení
 
 Aspose.PSD for Java je výkonná knihovna, která poskytuje rozsáhlou podporu pro režimy prolnutí a umožňuje vývojářům vylepšit jejich možnosti zpracování obrazu. V tomto tutoriálu se ponoříme do světa režimů prolnutí a prozkoumáme, jak je efektivně využít pomocí Aspose.PSD pro Java. Ať už jste zkušený vývojář nebo nováček v manipulaci s obrázky, tato příručka vás vybaví znalostmi, abyste mohli využít plný potenciál režimů prolnutí ve vašich aplikacích Java.
 
@@ -17,7 +17,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené funkční vývojové prostředí Java.
 
--  Aspose.PSD for Java Library: Stáhněte si knihovnu z[webová stránka](https://releases.aspose.com/psd/java/) a postupujte podle pokynů k instalaci.
+- Aspose.PSD for Java Library: Stáhněte si knihovnu z[webové stránky](https://releases.aspose.com/psd/java/) a postupujte podle pokynů k instalaci.
 
 - Adresář dokumentů: Připravte si adresář pro uložení souborů PSD, protože budeme pracovat s různými režimy prolnutí s použitím příkladů souborů PSD.
 
@@ -58,7 +58,7 @@ Exportujte načtené soubory PSD do formátu PNG. Podle potřeby upravte možnos
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Uložit jako PNG se 100% neprůhledností.
+// Uložit jako PNG se 100% neprůhledností
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Nastavte krytí konkrétních vrstev v souborech PSD. Zde nastavíme neprůhledn
 // Nastavit krytí na 50 %
 im.getLayers()[1].setOpacity((byte)127);
 
-// Uložit jako PNG s 50% neprůhledností.
+// Uložit jako PNG s 50% neprůhledností
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

@@ -85,16 +85,16 @@ A1：是的，Aspose.PSD for .NET 與各種 .NET 框架相容，包括 .NET Core
 
 ### 問題 2：在哪裡可以找到 Aspose.PSD for .NET 的綜合文件？
 
- A2：您可以參考文件。[這裡](https://reference.aspose.com/psd/net/)取得詳細資訊和程式碼範例。
+A2：可以參考文檔[這裡](https://reference.aspose.com/psd/net/)取得詳細資訊和程式碼範例。
 
 ### Q3：Aspose.PSD for .NET 有沒有免費試用版？
 
-A3：是的，您可以透過下載免費試用版來探索 Aspose.PSD for .NET 的功能。[這裡](https://releases.aspose.com/).
+A3：是的，您可以透過下載免費試用版來探索 Aspose.PSD for .NET 的功能[這裡](https://releases.aspose.com/).
 
 ### 問題 4：如何獲得 Aspose.PSD for .NET 支援？
 
- A4：對於任何與支援相關的疑問，請訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)與社區和專家建立聯繫。
+A4：對於任何與支援相關的疑問，請訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)與社區和專家建立聯繫。
 
 ### Q5：我可以取得 Aspose.PSD for .NET 的臨時授權嗎？
 
- A5: 是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/)出於評估目的。
+ A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)出於評估目的。

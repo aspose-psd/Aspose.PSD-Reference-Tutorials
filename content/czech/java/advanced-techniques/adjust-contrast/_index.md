@@ -7,7 +7,7 @@ type: docs
 weight: 22
 url: /cs/java/advanced-techniques/adjust-contrast/
 ---
-## Úvod
+## Zavedení
 
 oblasti zpracování obrazu pomocí Javy vyniká Aspose.PSD jako mocný nástroj. Mezi jeho nesčetnými funkcemi je běžným požadavkem úprava kontrastu obrazu. Tento tutoriál vás provede procesem úpravy kontrastu obrazu pomocí Aspose.PSD pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tato příručka vám pomůže zvládnout tento základní aspekt manipulace s obrázky.
 
@@ -16,7 +16,7 @@ oblasti zpracování obrazu pomocí Javy vyniká Aspose.PSD jako mocný nástroj
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Základní znalost programování v Javě.
--  Nainstalovaná knihovna Aspose.PSD for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/java/).
+-  Nainstalovaná knihovna Aspose.PSD for Java. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -84,7 +84,7 @@ rasterImage.save(destName, tiffOptions);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste upravili kontrast obrázku pomocí Aspose.PSD pro Java. Tento tutoriál se zabýval základními kroky, od importu balíčků po uložení zpracovaného obrázku.
+Gratuluji! Úspěšně jste upravili kontrast obrázku pomocí Aspose.PSD pro Java. Tento tutoriál se zabýval základními kroky, od importu balíčků po uložení zpracovaného obrázku.
 
 ## FAQ
 
@@ -94,11 +94,11 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků a poskytuje fl
 
 ### Q2: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A2: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A2: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Kde najdu dokumentaci Aspose.PSD?
 
-A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/java/).
+A3: Dokumentace je k dispozici[zde](https://reference.aspose.com/psd/java/).
 
 ### Q4: Jaké možnosti podpory jsou k dispozici pro Aspose.PSD?
 
@@ -106,4 +106,4 @@ A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/java/).
 
 ### Q5: Mohu si zakoupit Aspose.PSD?
 
- A5: Ano, můžete si koupit Aspose.PSD[tady](https://purchase.aspose.com/buy).
+ A5: Ano, můžete si koupit Aspose.PSD[zde](https://purchase.aspose.com/buy).

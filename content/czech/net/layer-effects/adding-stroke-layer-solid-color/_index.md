@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/net/layer-effects/adding-stroke-layer-solid-color/
 ---
-## Úvod
+## Zavedení
 
 V oblasti vývoje .NET je vytváření vizuálně přitažlivých obrázků běžným požadavkem. Aspose.PSD for .NET poskytuje výkonnou sadu nástrojů pro bezproblémovou manipulaci a vylepšování obrázků. Jednou ze základních funkcí je přidání vrstvy tahu s plnou barvou, která dodá vašim obrázkům živost a hloubku. V tomto tutoriálu vás provedeme procesem krok za krokem pomocí Aspose.PSD pro .NET.
 
@@ -17,7 +17,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte následující
 
 - Základní znalost vývoje .NET.
 - Visual Studio nainstalované na vašem počítači.
-- Aspose.PSD pro knihovnu .NET. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/psd/net/).
+- Aspose.PSD pro knihovnu .NET. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/psd/net/).
 
 ## Importovat jmenné prostory
 
@@ -107,7 +107,7 @@ Opakujte tyto kroky pro další úpravy nebo experimentujte s různými efekty t
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak přidat vrstvu tahu s plnou barvou pomocí Aspose.PSD pro .NET. Tato výkonná funkce otevírá svět možností pro vylepšení vašich obrázků v prostředí .NET.
+Gratuluji! Úspěšně jste se naučili, jak přidat vrstvu tahu s plnou barvou pomocí Aspose.PSD pro .NET. Tato výkonná funkce otevírá svět možností pro vylepšení vašich obrázků v prostředí .NET.
 
 ## Nejčastější dotazy
 

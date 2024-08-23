@@ -12,7 +12,7 @@ In de dynamische wereld van grafisch ontwerp en beeldmanipulatie is het vermogen
 ## Vereisten
 Voordat u zich verdiept in de opwindende mogelijkheden die de Timeline-klasse biedt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 -  Aspose.PSD voor .NET-bibliotheek: Zorg ervoor dat de Aspose.PSD voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.PSD voor .NET-documentatie](https://reference.aspose.com/psd/net/).
--  Document- en uitvoermappen: definieer de paden voor uw document- en uitvoermappen in de code. Pas de .... aan`baseDir` En`outputDir` variabelen volgens uw projectstructuur.
+-  Document- en uitvoermappen: definieer de paden voor uw document- en uitvoermappen in de code. Pas de aan`baseDir` En`outputDir` variabelen volgens uw projectstructuur.
 Laten we nu stap voor stap bekijken hoe u de klasse Tijdlijn kunt gebruiken.
 ## Naamruimten importeren
 Om met de klasse Tijdlijn te gaan werken, importeert u de benodigde naamruimten in uw code:
@@ -103,7 +103,7 @@ A2: De klasse Tijdlijn is speciaal ontworpen voor PSD-afbeeldingen. Voor GIF-man
 
 ### V4: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor .NET?
 
- A4: Schaf een tijdelijke licentie aan.[hier](https://purchase.aspose.com/temporary-license/).
+ A4: Schaf een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Wat zijn de belangrijkste voordelen van het gebruik van Aspose.PSD voor .NET?
 

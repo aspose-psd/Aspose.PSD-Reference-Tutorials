@@ -14,7 +14,7 @@ Java ile görüntü işleme dünyasına dalıyorsanız, Aspose.PSD for Java, ba�
 
 ## Resimlerinize Küçük Resimler Ekleme
 
-Küçük resimler eklemek, görsel meta verilerinizi önemli ölçüde geliştirebilir. Java'da hem EXIF hem de JFIF segmentlerine küçük resimlerin nasıl ekleneceğine dair ayrıntılı kılavuzlarımız var. Bu eğitimler, adım adım talimatlar ve kod örnekleri sunarak süreci kusursuz hale getirir.
+Küçük resimler eklemek, görsel meta verilerinizi önemli ölçüde geliştirebilir. Java'da hem EXIF hem de JFIF bölümlerine küçük resimlerin nasıl ekleneceği konusunda ayrıntılı kılavuzlarımız var. Bu eğitimler, adım adım talimatlar ve kod örnekleri sunarak süreci kusursuz hale getirir.
 
 - [Java'da EXIF Segmentine Küçük Resim Ekleme](./add-thumbnail-to-exif-segment-java/)
 - [Java'da JFIF Segmentine Küçük Resim Ekleme](./add-thumbnail-to-jfif-segment-java/)
@@ -50,7 +50,7 @@ JPEG görüntü işlemeyi daha derinlemesine incelemek isteyenler için 2 ve 7 b
 - [Java'da 2 ve 7 Bit JPEG desteği](./support-2-7-bits-jpeg-java/)
 - [Java'da CMYK ile JPEG-LS desteği](./support-jpeg-ls-cmyk-java/)
 
-Bu eğitimleri takip ederek görüntü işleme becerilerinizi geliştirecek ve çeşitli JPEG işleme görevlerini zahmetsizce gerçekleştirebilme becerisi kazanacaksınız. Ayrıntılı kılavuzlarımızı inceleyin ve Aspose.PSD for Java konusunda uzmanlaşın.
+Bu eğitimleri takip ederek görüntü işleme becerilerinizi geliştirecek ve çeşitli JPEG işleme görevlerini zahmetsizce yerine getirme becerisi kazanacaksınız. Ayrıntılı kılavuzlarımızı inceleyin ve Aspose.PSD for Java konusunda uzmanlaşın.
 ## Java JPEG Görüntü İşleme Eğitimleri
 ### [Java'da EXIF Segmentine Küçük Resim Ekleme](./add-thumbnail-to-exif-segment-java/)
 Aspose.PSD for Java kullanarak görsel meta verilerini küçük resimlerle nasıl geliştireceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin. Sorunsuz entegrasyon için.

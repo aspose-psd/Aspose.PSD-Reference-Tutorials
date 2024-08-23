@@ -74,7 +74,7 @@ String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-Ve bu kadar! Aspose.PSD for Java'yı kullanarak Sabit Eşik ile Binarizasyon'u başarıyla uyguladınız.
+İşte bu kadar! Aspose.PSD for Java'yı kullanarak Sabit Eşik ile Binarizasyon'u başarıyla uyguladınız.
 
 ## Çözüm
 
@@ -96,7 +96,7 @@ Cevap1:Evet, Aspose.PSD çeşitli görüntü formatlarını destekler, bu da İk
 
 ### S4: Aspose.PSD kütüphanesini nasıl satın alabilirim?
 
- Cevap4: Aspose.PSD kütüphanesini satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ Cevap4: Aspose.PSD kütüphanesini satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ### S5: Ücretsiz deneme sürümü mevcut mu?
 

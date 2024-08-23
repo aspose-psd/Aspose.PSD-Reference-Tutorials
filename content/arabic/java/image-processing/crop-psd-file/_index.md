@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 احفظ الصورة المقصوصة بتنسيق PSD باستخدام المسار المحدد.
 
-## الخطوة 5: حفظ الصورة التي تم اقتصاصها بصيغة PNG.
+## الخطوة 5: حفظ الصورة التي تم اقتصاصها بصيغة PNG
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -105,4 +105,4 @@ image.save(exportPathPng, options);
 
 ### س5: هل يمكنني تجربة Aspose.PSD لـ Java قبل الشراء؟
 
- ج5: نعم، استكشف الميزات من خلال النسخة التجريبية المجانية المتاحة.[هنا](https://releases.aspose.com/).
+ ج5: نعم، استكشف الميزات من خلال النسخة التجريبية المجانية المتاحة[هنا](https://releases.aspose.com/).

@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/net/psd-file-resources/supporting-border-information-resource/
 ---
-## introduzione
+## Introduzione
 Benvenuti nella nostra guida passo passo sull'utilizzo della funzionalità Border Information Resource in Aspose.PSD per .NET. In questo tutorial ti guideremo attraverso il processo di lavoro con Border Information Resources utilizzando Aspose.PSD, una potente libreria di immagini .NET. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial mira a fornire chiarezza sull'integrazione perfetta delle risorse informative sulle frontiere nei tuoi progetti.
 ## Prerequisiti
 Prima di immergerci nel tutorial, assicurati di avere quanto segue:
@@ -80,7 +80,7 @@ A1: Sì, Aspose.PSD per .NET è compatibile con vari framework .NET.
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere supporto?
 
@@ -88,4 +88,4 @@ A1: Sì, Aspose.PSD per .NET è compatibile con vari framework .NET.
 
 ### Q5: Sono disponibili licenze temporanee?
 
- R5: Sì, puoi ottenere licenze temporanee.[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: Sì, puoi ottenere licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).

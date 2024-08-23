@@ -12,7 +12,7 @@ No mundo dinâmico do design gráfico e da manipulação de imagens, a capacidad
 ## Pré-requisitos
 Antes de mergulhar nas possibilidades interessantes que a classe Timeline oferece, certifique-se de ter os seguintes pré-requisitos em vigor:
 -  Biblioteca Aspose.PSD for .NET: Certifique-se de ter a biblioteca Aspose.PSD for .NET instalada. Você pode baixá-lo no[Documentação Aspose.PSD para .NET](https://reference.aspose.com/psd/net/).
--  Diretórios de documentos e saída: defina os caminhos para seus diretórios de documentos e saída no código. Ajusta a`baseDir` e`outputDir` variáveis de acordo com a estrutura do seu projeto.
+-  Diretórios de documentos e saída: defina os caminhos para seus diretórios de documentos e saída no código. Ajuste o`baseDir` e`outputDir` variáveis de acordo com a estrutura do seu projeto.
 Agora, vamos explorar como utilizar a classe Timeline passo a passo.
 ## Importar namespaces
 Para começar a trabalhar com a classe Timeline, importe os namespaces necessários em seu código:
@@ -103,7 +103,7 @@ A2: A classe Timeline foi projetada especificamente para imagens PSD. Para manip
 
 ### Q4: Como posso obter uma licença temporária do Aspose.PSD para .NET?
 
- A4: Adquira uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A4: Adquira uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Quais são os principais benefícios de usar Aspose.PSD para .NET?
 

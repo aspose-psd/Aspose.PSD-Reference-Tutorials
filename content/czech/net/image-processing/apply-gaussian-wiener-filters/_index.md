@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/net/image-processing/apply-gaussian-wiener-filters/
 ---
-## Úvod
+## Zavedení
 
 V oblasti zpracování obrazu pomocí .NET vyniká Aspose.PSD jako výkonná sada nástrojů, která umožňuje vývojářům snadno manipulovat s obrázky. Jednou zvláště užitečnou funkcí je použití Gaussových a Wienerových filtrů. Tyto filtry hrají klíčovou roli při zlepšování kvality obrazu, snižování šumu a zajištění optimální vizuální přitažlivosti.
 
@@ -87,7 +87,7 @@ image.Save(destName, new GifOptions());
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste použili Gaussovy a Wienerovy filtry ke zvýšení kvality obrazu pomocí Aspose.PSD pro .NET. Tyto filtry jsou neocenitelné v různých scénářích, od snížení šumu na fotografiích až po vylepšování grafických prvků v designových projektech.
+Gratuluji! Úspěšně jste použili Gaussovy a Wienerovy filtry ke zvýšení kvality obrazu pomocí Aspose.PSD pro .NET. Tyto filtry jsou neocenitelné v různých scénářích, od snížení šumu na fotografiích až po vylepšování grafických prvků v designových projektech.
 
 ## FAQ
 

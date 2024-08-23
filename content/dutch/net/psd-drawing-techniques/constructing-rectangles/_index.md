@@ -17,9 +17,9 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 
 -  Omgevingsinstellingen: Zorg voor een werkende .NET-ontwikkelomgeving waarin Aspose.PSD is geïntegreerd. Als u dat nog niet heeft gedaan, raadpleegt u de[documentatie](https://reference.aspose.com/psd/net/) voor installatie-instructies.
 
--  Download Aspose.PSD: Zorg ervoor dat u de Aspose.PSD-bibliotheek hebt gedownload van de[download link](https://releases.aspose.com/psd/net/).
+-  Download Aspose.PSD: Zorg ervoor dat u de Aspose.PSD-bibliotheek hebt gedownload van de[downloadlink](https://releases.aspose.com/psd/net/).
 
--  Een licentie verkrijgen: Als u Aspose.PSD in een productieomgeving gebruikt, zorg er dan voor dat u over een geldige licentie beschikt. Je kunt er een verkrijgen[hier](https://purchase.aspose.com/buy) of gebruik een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om uit te proberen.
+-  Een licentie verkrijgen: Als u Aspose.PSD in een productieomgeving gebruikt, zorg er dan voor dat u over een geldige licentie beschikt. Je kunt er een verkrijgen[hier](https://purchase.aspose.com/buy) of gebruik een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testen.
 
 ## Naamruimten importeren
 

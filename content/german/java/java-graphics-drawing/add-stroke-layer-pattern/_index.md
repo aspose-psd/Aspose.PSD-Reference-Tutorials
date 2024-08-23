@@ -1,16 +1,16 @@
 ---
-title: So fügen Sie ein Strichebenenmuster in Java hinzu
-linktitle: So fügen Sie ein Strichebenenmuster in Java hinzu
-second_title: Aspose.PSD Java-API
-description: Erfahren Sie, wie Sie mit Aspose.PSD für Java ein Strichebenenmuster zu PSD-Dateien hinzufügen. Befolgen Sie diese Schritt-für-Schritt-Anleitung, um Ihre Bilder ganz einfach zu verbessern.
+title: So fügen Sie in Java ein Strichebenenmuster hinzu
+linktitle: So fügen Sie in Java ein Strichebenenmuster hinzu
+second_title: Aspose.PSD Java API
+description: Erfahren Sie, wie Sie mit Aspose.PSD für Java ein Strichebenenmuster zu PSD-Dateien hinzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Bilder ganz einfach zu verbessern.
 type: docs
 weight: 11
 url: /de/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
 ## Einführung
-Das Hinzufügen eines Strichebenenmusters zu einem Bild in Java mag wie eine entmutigende Aufgabe klingen, aber mit Aspose.PSD für Java ist es einfacher, als Sie denken. Egal, ob Sie Grafiken entwerfen oder an Fotobearbeitungsanwendungen arbeiten, dieser Leitfaden führt Sie Schritt für Schritt durch den Prozess. Bereit anzufangen? Lass uns eintauchen!
+Das Hinzufügen eines Strichebenenmusters zu einem Bild in Java mag wie eine gewaltige Aufgabe klingen, aber mit Aspose.PSD für Java ist es einfacher als Sie denken. Egal, ob Sie Grafiken entwerfen oder an Fotobearbeitungsanwendungen arbeiten, diese Anleitung führt Sie Schritt für Schritt durch den Prozess. Bereit, loszulegen? Tauchen wir ein!
 ## Voraussetzungen
-Bevor Sie beginnen, benötigen Sie ein paar Dinge:
+Bevor Sie beginnen, benötigen Sie einige Dinge:
 - Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem System installiert ist.
 -  Aspose.PSD für Java: Laden Sie die Bibliothek herunter von[Hier](https://releases.aspose.com/psd/java/) und integrieren Sie es in Ihr Projekt.
 - Eine IDE: Verwenden Sie Ihre bevorzugte integrierte Entwicklungsumgebung (IDE) wie IntelliJ IDEA oder Eclipse.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -40,8 +39,8 @@ PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
-Durch das Laden der PSD-Datei können Sie nun auf deren Ebenen und Effekte zugreifen und diese bearbeiten.
-## Schritt 2: Bereiten Sie neue Musterdaten vor
+Durch Laden der PSD-Datei können Sie jetzt auf deren Ebenen und Effekte zugreifen und diese bearbeiten.
+## Schritt 2: Neue Musterdaten vorbereiten
 Als Nächstes müssen Sie die neuen Musterdaten vorbereiten, die Sie auf die Strichebene anwenden.
 ```java
 int[] newPattern = new int[]
@@ -54,8 +53,8 @@ int[] newPattern = new int[]
 Rectangle newPatternBounds = new Rectangle(0, 0, 4, 4);
 UUID guid = UUID.randomUUID();
 ```
-Diese Musterdaten werden verwendet, um den neuen Stricheffekt zu erstellen.
-## Schritt 3: Greifen Sie auf den Stricheffekt zu
+Diese Musterdaten werden verwendet, um den neuen Stricheffekt zu erzeugen.
+## Schritt 3: Zugriff auf den Stricheffekt
 Um den Stricheffekt zu ändern, müssen Sie auf die jeweilige Ebene und ihre Fülloptionen zugreifen.
 ```java
 StrokeEffect patternStroke = (StrokeEffect)im.getLayers()[3].getBlendingOptions().getEffects()[0];
@@ -67,13 +66,13 @@ Assert.areEqual(FillType.Pattern, fillSettings.getFillType());
 ```
 Dadurch wird sichergestellt, dass Sie mit der richtigen Ebene und dem richtigen Effekt arbeiten.
 ## Schritt 4: Ändern Sie den Stricheffekt
-Jetzt ändern wir den Stricheffekt mit den neuen Musterdaten.
-### Aktualisieren Sie die Eigenschaften des Stricheffekts
+Lassen Sie uns nun den Stricheffekt mit den neuen Musterdaten ändern.
+### Stricheffekteigenschaften aktualisieren
 ```java
 patternStroke.setOpacity((byte)127);
 patternStroke.setBlendMode(BlendMode.Color);
 ```
-### Aktualisieren Sie die Musterressource
+### Aktualisieren der Musterressource
 ```java
 PattResource resource;
 for (int i = 0; i < im.getGlobalLayerResources().length; i++)
@@ -87,17 +86,17 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++)
     }
 }
 ```
-Dieses Code-Snippet aktualisiert die Musterressource mit den neuen Musterdaten.
-## Schritt 5: Wenden Sie das neue Muster an
+Dieser Codeausschnitt aktualisiert die Musterressource mit den neuen Musterdaten.
+## Schritt 5: Das neue Muster anwenden
 Wenden Sie abschließend das neue Muster auf den Stricheffekt an und speichern Sie die Änderungen.
 ```java
 ((PatternFillSettings)patternStroke.getFillSettings()).setPatternName("$$/Presets/Patterns/HorizontalLine1=Horizontal Line 9\0");
 ((PatternFillSettings)patternStroke.getFillSettings()).setPatternId(guid.toString() + "\0");
 im.save(exportPath);
 ```
-Dadurch wird sichergestellt, dass das neue Muster korrekt angewendet wird und die Datei mit den Änderungen gespeichert wird.
-## Schritt 6: Überprüfen Sie die Änderungen
-Um sicherzustellen, dass alles korrekt funktioniert, laden Sie die Datei erneut und überprüfen Sie die Änderungen.
+Dadurch wird sichergestellt, dass das neue Muster korrekt angewendet und die Datei mit den Änderungen gespeichert wird.
+## Schritt 6: Überprüfen der Änderungen
+Um sicherzustellen, dass alles richtig funktioniert hat, laden Sie die Datei erneut und überprüfen Sie die Änderungen.
 ```java
 PsdImage img = (PsdImage)Image.load(sourceFileName, loadOptions);
 StrokeEffect patternStrokeEffect = (StrokeEffect)img.getLayers()[3].getBlendingOptions().getEffects()[0];
@@ -125,17 +124,17 @@ catch (Exception e)
     System.out.println(e.getMessage());
 }
 ```
-In diesem Schritt wird überprüft, ob die Musterdaten korrekt auf den Stricheffekt angewendet wurden.
+Dieser Schritt überprüft, ob die Musterdaten korrekt auf den Stricheffekt angewendet wurden.
 ## Abschluss
-Und da haben Sie es! Sie haben mit Aspose.PSD für Java erfolgreich ein Strichebenenmuster zu einer PSD-Datei hinzugefügt. Wenn Sie diese Schritte befolgen, können Sie Ihre Bilder ganz einfach anpassen und verbessern. Viel Spaß beim Codieren!
-## FAQs
+Und da haben Sie es! Sie haben erfolgreich ein Strichebenenmuster zu einer PSD-Datei hinzugefügt, indem Sie Aspose.PSD für Java verwendet haben. Indem Sie diese Schritte befolgen, können Sie Ihre Bilder ganz einfach anpassen und verbessern. Viel Spaß beim Programmieren!
+## Häufig gestellte Fragen
 ### Was ist Aspose.PSD für Java?
-Aspose.PSD für Java ist eine Bibliothek, die es Entwicklern ermöglicht, PSD-Dateien (Photoshop Document) programmgesteuert zu erstellen, zu bearbeiten und zu konvertieren.
+Aspose.PSD für Java ist eine Bibliothek, mit der Entwickler PSD-Dateien (Photoshop-Dokumente) programmgesteuert erstellen, bearbeiten und konvertieren können.
 ### Kann ich Aspose.PSD für Java in einem kommerziellen Projekt verwenden?
  Ja, Sie können es in kommerziellen Projekten verwenden. Sie können eine Lizenz erwerben bei[Hier](https://purchase.aspose.com/buy).
 ### Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
-### Wie erhalte ich Unterstützung für Aspose.PSD für Java?
- Unterstützung erhalten Sie in den Aspose-Community-Foren[Hier](https://forum.aspose.com/c/psd/34).
+### Wie erhalte ich Support für Aspose.PSD für Java?
+ Sie können Unterstützung in den Aspose-Community-Foren erhalten[Hier](https://forum.aspose.com/c/psd/34).
 ### Was sind die Systemanforderungen für Aspose.PSD für Java?
-Sie benötigen ein installiertes JDK und eine IDE für die Entwicklung. Die Bibliothek unterstützt mehrere Betriebssysteme, darunter Windows, Linux und macOS.
+Sie benötigen JDK und eine IDE für die Entwicklung. Die Bibliothek unterstützt mehrere Betriebssysteme, darunter Windows, Linux und macOS.

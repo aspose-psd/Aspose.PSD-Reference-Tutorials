@@ -19,7 +19,6 @@ Sebelum melanjutkan tutorial ini, pastikan Anda memiliki prasyarat berikut:
 Untuk memulai, pastikan Anda telah mengimpor paket yang diperlukan dalam proyek Java Anda:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;

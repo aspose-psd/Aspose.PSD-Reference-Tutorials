@@ -19,7 +19,6 @@ Sebelum mendalami tutorial ini, pastikan Anda telah menyiapkan prasyarat berikut
 Sebelum Anda memulai pengkodean, impor paket yang diperlukan untuk menggunakan fungsi Aspose.PSD:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -54,7 +53,7 @@ try {
         pixels[j] = j;
     }
     
-    //Simpan data gambar mini
+    //Simpan data gambar kecil
     thumbnailImage.saveArgb32Pixels(thumbnailImage.getBounds(), pixels);
     
     // Atur data thumbnail ke opsi JPEG

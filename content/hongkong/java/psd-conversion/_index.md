@@ -21,7 +21,7 @@ url: /zh-hant/java/psd-conversion/
 使用 Aspose.PSD for Java 中的 ICC 配置檔案深入探索無縫顏色轉換的世界。我們將引導您了解這項高級功能的複雜性，輕鬆實現影像的準確性和活力。以精準度和技巧提升您的影像處理遊戲。了解更多[這裡](./color-conversion-icc-profiles/).
 
 ## 轉換為 PNG 時裁剪 PSD
-了解使用 Aspose.PSD for Java 裁剪 PSD 檔案並將其轉換為 PNG 的藝術。透過高效的影像處理技術增強您的 Java 應用程序，從而節省時間和資源。遵循我們的逐步指南[這裡](./cropping-psd-converting-png/)掌握這項基本技能。
+了解使用 Aspose.PSD for Java 裁剪 PSD 檔案並將其轉換為 PNG 的藝術。透過高效的影像處理技術來增強您的 Java 應用程序，從而節省時間和資源。遵循我們的逐步指南[這裡](./cropping-psd-converting-png/)掌握這項基本技能。
 
 ## 在多線程環境中導出圖像
 釋放 Aspose.PSD for Java 在多執行緒環境中匯出影像的強大功能。透過我們全面的教程提升您的應用程式的功能和效率。探索多線程圖像導出的細微差別以優化您的 Java 專案。尋找詳情[這裡](./export-images-multi-thread/).

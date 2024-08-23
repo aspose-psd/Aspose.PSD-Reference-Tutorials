@@ -86,7 +86,7 @@ Ismételje meg ezeket a lépéseket a Java alkalmazásban, hogy zökkenőmentese
 
 ### 3. kérdés: Szükséges licenc az Aspose.PSD for Java használatához?
 
- 3. válasz: Igen, az Aspose.PSD használatához érvényes licenc szükséges. Látogatás[Vásárolja meg az Aspose.PSD-t](https://purchase.aspose.com/buy) az engedély részleteiért.
+ 3. válasz: Igen, az Aspose.PSD használatához érvényes licenc szükséges. Látogatás[Vásárolja meg az Aspose.PSD-t](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 

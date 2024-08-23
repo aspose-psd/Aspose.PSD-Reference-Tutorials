@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/net/image-effects/render-drop-shadow/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem podrobném návodu k vykreslování efektů vrženého stínu v Aspose.PSD pro .NET! Pokud chcete zlepšit své dovednosti manipulace s obrázky pomocí Aspose.PSD, jste na správném místě. V této příručce vás provedeme procesem snadného použití efektů vržených stínů na vaše obrázky.
 
@@ -15,7 +15,7 @@ Vítejte v našem podrobném návodu k vykreslování efektů vrženého stínu 
 
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.PSD for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 - Adresář dokumentů: Nastavte adresář, kde jsou uloženy vaše dokumenty a obrázky. Tento adresář budete muset zadat v kódu.
 
@@ -85,7 +85,7 @@ im.Save(pngExportPath, saveOptions);
 
 Uložte upravený obrázek s aplikovaným efektem vrženého stínu ve formátu PNG.
 
-A to je vše! Úspěšně jste vykreslili efekt vrženého stínu pomocí Aspose.PSD pro .NET.
+A je to! Úspěšně jste vykreslili efekt vrženého stínu pomocí Aspose.PSD pro .NET.
 
 ## Závěr
 
@@ -103,12 +103,12 @@ A2: Rozhodně! Neváhejte a upravte kód tak, aby vyhovoval vašim specifickým 
 
 ### Q3: Kde najdu další dokumentaci k Aspose.PSD pro .NET?
 
- A3: Viz dokumentace[tady](https://reference.aspose.com/psd/net/) pro podrobné informace o funkcích Aspose.PSD.
+ A3: Viz dokumentace[zde](https://reference.aspose.com/psd/net/) pro podrobné informace o funkcích Aspose.PSD.
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Otázka 5: Jak mohu získat podporu nebo vyhledat pomoc s Aspose.PSD pro .NET?
 
- A5: Navštivte fórum Aspose.PSD[tady](https://forum.aspose.com/c/psd/34) zapojit se do komunity a vyhledat odbornou radu.
+ A5: Navštivte fórum Aspose.PSD[zde](https://forum.aspose.com/c/psd/34) zapojit se do komunity a vyhledat odbornou radu.

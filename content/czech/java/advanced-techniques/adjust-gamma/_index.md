@@ -7,7 +7,7 @@ type: docs
 weight: 23
 url: /cs/java/advanced-techniques/adjust-gamma/
 ---
-## Úvod
+## Zavedení
 
 V oblasti zpracování obrazu je úprava gama obrazu zásadním krokem ke zvýšení jeho vizuální přitažlivosti. Aspose.PSD for Java nabízí vývojářům Java výkonné řešení pro snadnou manipulaci s obrazem gama. V tomto tutoriálu prozkoumáme, jak upravit gamu pomocí Aspose.PSD, přičemž rozebereme každý krok, abychom zajistili bezproblémovou implementaci.
 
@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## Krok 2: Upravte Gamma
 
- Nyní upravte gama načteného obrázku pomocí`adjustGamma` metoda. Dolaďte hodnoty gama podle vašich požadavků.
+ Nyní upravte gama načteného obrázku pomocí`adjustGamma` metoda. Dolaďte hodnoty gama podle svých požadavků.
 
 ```java
 // Upravte gama
@@ -85,7 +85,7 @@ rasterImage.save(destName, tiffOptions);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste upravili gamu obrázku pomocí Aspose.PSD pro Javu. Tento proces umožňuje vývojářům bez námahy vylepšovat kvalitu obrazu, což přispívá k vizuálně přitažlivému uživatelskému zážitku.
+Gratuluji! Úspěšně jste upravili gamu obrázku pomocí Aspose.PSD pro Javu. Tento proces umožňuje vývojářům bez námahy vylepšovat kvalitu obrazu, což přispívá k vizuálně přitažlivému uživatelskému zážitku.
 
 ## FAQ
 

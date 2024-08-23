@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/image-manipulation/adding-signature-to-images/
 ---
-## Úvod
+## Zavedení
 
 V oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci a vylepšování obrázků. Pokud jste někdy přemýšleli, jak přidat podpis k obrázkům bez problémů pomocí Aspose.PSD pro .NET, jste na správném místě. Tento podrobný průvodce vás provede celým procesem a zajistí, že bez námahy ovládnete umění začleňování podpisů do obrázků.
 
@@ -17,7 +17,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 - Pracovní znalost vývoje C# a .NET.
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.PSD pro .NET knihovnu, kterou si můžete stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET knihovnu, kterou si můžete stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 ## Importovat jmenné prostory
 
@@ -102,4 +102,4 @@ Odpověď 3: Můžete implementovat bloky try-catch pro bezproblémové zpracov�
 
 ### Q5: Mohu vyzkoušet Aspose.PSD před nákupem?
 
- A5: Jistě, je k dispozici bezplatná zkušební verze.[tady](https://releases.aspose.com/).
+ A5: Jistě, je k dispozici bezplatná zkušební verze[zde](https://releases.aspose.com/).

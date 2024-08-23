@@ -12,14 +12,13 @@ url: /es/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 ## Requisitos previos
 Antes de comenzar, hay algunas cosas que debes tener en cuenta:
 1. Kit de desarrollo de Java (JDK): asegúrese de tener JDK 8 o superior instalado en su máquina.
-2.  Aspose.PSD para Java: necesita la biblioteca Aspose.PSD para Java. Puedes descargarlo desde el[Página de lanzamientos de Aspose](https://releases.aspose.com/psd/java/) o conseguir un[prueba gratis](https://releases.aspose.com/).
+2.  Aspose.PSD para Java: necesita la biblioteca Aspose.PSD para Java. Puedes descargarlo desde el[Página de lanzamientos de Aspose](https://releases.aspose.com/psd/java/) o conseguir un[prueba gratuita](https://releases.aspose.com/).
 3. Entorno de desarrollo integrado (IDE): cualquier IDE de Java como IntelliJ IDEA, Eclipse o NetBeans.
 4. Conocimientos básicos de Java: será útil tener un conocimiento básico de la programación Java.
 ## Importar paquetes
 Primero, deberá importar los paquetes Aspose.PSD necesarios a su proyecto Java. Configuremos su entorno.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -44,14 +43,14 @@ Finalmente, guarde el archivo AI cargado como una imagen PNG usando las opciones
 String outFileName = dataDir + "34992OStroke.png";
 image.save(outFileName, options);
 ```
-¡Y eso es! Su archivo AI se ha convertido exitosamente a PNG.
+¡Y eso es todo! Su archivo AI se ha convertido exitosamente a PNG.
 ## Conclusión
 Convertir archivos AI a PNG en Java es muy sencillo con Aspose.PSD. Si sigue los pasos descritos en esta guía, podrá integrar fácilmente esta funcionalidad en sus aplicaciones Java. Ya sea que esté trabajando en una aplicación de gráficos o necesite convertir archivos por lotes, Aspose.PSD proporciona las herramientas que necesita para realizar el trabajo de manera eficiente.
 ## Preguntas frecuentes
 ### ¿Qué es Aspose.PSD?
 Aspose.PSD es una biblioteca Java que permite a los desarrolladores trabajar con PSD (Photoshop) y otros formatos de archivos de Adobe. Admite diversas operaciones, como edición, conversión y renderizado.
 ### ¿Puedo usar Aspose.PSD gratis?
- Puedes usar Aspose.PSD con un[prueba gratis](https://releases.aspose.com/) , pero para obtener una funcionalidad completa, deberá adquirir una licencia. También puedes obtener un[licencia temporal](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
+ Puedes usar Aspose.PSD con un[prueba gratuita](https://releases.aspose.com/) , pero para obtener una funcionalidad completa, deberá adquirir una licencia. También puedes obtener un[licencia temporal](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
 ### ¿Qué formatos de archivo admite Aspose.PSD?
 Aspose.PSD admite PSD, PSB, AI y otros formatos de archivos de Adobe. Permite la conversión a varios formatos de imagen como PNG, JPEG, BMP y TIFF.
 ### ¿Aspose.PSD es compatible con todas las versiones de Java?

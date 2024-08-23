@@ -89,7 +89,7 @@ W tym samouczku poznaliśmy fascynujący świat krzywych Beziera w Aspose.PSD dl
 
 ### P1: Czy mogę używać Aspose.PSD dla .NET w projektach niekomercyjnych?
 
- Odpowiedź 1: Tak, Aspose.PSD dla .NET może być używany zarówno w projektach komercyjnych, jak i niekomercyjnych. Sprawdź[szczegóły licencji](https://purchase.aspose.com/buy) po więcej informacji.
+ Odpowiedź 1: Tak, Aspose.PSD dla .NET może być używany zarówno w projektach komercyjnych, jak i niekomercyjnych. Sprawdź[szczegóły licencji](https://purchase.aspose.com/buy) aby uzyskać więcej informacji.
 
 ### P2: Jak mogę uzyskać tymczasową licencję do celów testowych?
 
@@ -101,7 +101,7 @@ A3: Absolutnie! Aspose.PSD dla .NET jest dostosowany do zadań przetwarzania i e
 
 ### P4: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.PSD dla .NET?
 
- A4: Dołącz do społeczności Aspose.PSD pod adresem[to forum](https://forum.aspose.com/c/psd/34) za dyskusję i wsparcie.
+A4: Dołącz do społeczności Aspose.PSD pod adresem[to forum](https://forum.aspose.com/c/psd/34) za dyskusję i wsparcie.
 
 ### P5: Czy są jakieś bezpłatne zasoby do nauki Aspose.PSD dla .NET?
 

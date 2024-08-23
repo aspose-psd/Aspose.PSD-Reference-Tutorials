@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -42,7 +41,7 @@ Image image = new PsdImage(100, 100);
 ```
  이 단계에서는`PsdImage` 너비와 높이가 각각 100픽셀로 초기화됩니다.
 ## 2단계: 그래픽스 객체 초기화
- 다음으로,`Graphics` 를 사용하는 객체`image` 이전 단계에서 생성되었습니다.
+ 다음으로 초기화`Graphics` 를 사용하는 객체`image` 이전 단계에서 생성되었습니다.
 ```java
 // 그래픽 객체 초기화
 Graphics graphic = new Graphics(image);

@@ -73,11 +73,11 @@ Chúc mừng! Bạn đã làm việc thành công với Hiệu ứng trạng th�
 
 ### A3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời?
 
- A4: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
 

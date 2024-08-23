@@ -108,4 +108,4 @@ colorFillSettings.Color = Color.Green;
 
 ### س5: هل يمكنني استخدام الإصدار التجريبي قبل شراء Aspose.PSD؟
 
- ج5: بالتأكيد! والاستيلاء على[تجربة مجانية](https://releases.aspose.com/) لاستكشاف إمكانيات Aspose.PSD قبل إجراء عملية الشراء.
+ ج5: بالتأكيد! الاستيلاء على[تجربة مجانية](https://releases.aspose.com/) لاستكشاف إمكانيات Aspose.PSD قبل إجراء عملية الشراء.

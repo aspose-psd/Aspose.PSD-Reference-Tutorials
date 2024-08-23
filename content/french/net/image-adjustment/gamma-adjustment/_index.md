@@ -78,7 +78,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez implémenté avec succès l'ajustement gamma à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque offre des fonctionnalités robustes pour le traitement des images, ce qui en fait un outil précieux pour les développeurs .NET.
+Félicitations! Vous avez implémenté avec succès l'ajustement gamma à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque offre des fonctionnalités robustes pour le traitement des images, ce qui en fait un outil précieux pour les développeurs .NET.
 
 ## FAQ
 
@@ -88,16 +88,16 @@ Toutes nos félicitations! Vous avez implémenté avec succès l'ajustement gamm
 
 ### Q2 : Comment télécharger Aspose.PSD pour .NET ?
 
- A2 : Vous pouvez télécharger la bibliothèque.[ici](https://releases.aspose.com/psd/net/).
+ A2 : Vous pouvez télécharger la bibliothèque[ici](https://releases.aspose.com/psd/net/).
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez bénéficier d’un essai gratuit.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je obtenir de l'aide pour Aspose.PSD ?
 
- A4 : Vous pouvez visiter le forum d'assistance.[ici](https://forum.aspose.com/c/psd/34).
+ A4 : Vous pouvez visiter le forum d'assistance[ici](https://forum.aspose.com/c/psd/34).
 
 ### Q5 : Ai-je besoin d’une licence temporaire ?
 
- R5 : Si nécessaire, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Si nécessaire, vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).

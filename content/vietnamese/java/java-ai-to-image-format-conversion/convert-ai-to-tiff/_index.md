@@ -12,7 +12,7 @@ Chuyển đổi tệp AI sang định dạng TIFF là yêu cầu chung đối v�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào quá trình chuyển đổi, hãy đảm bảo bạn có những điều sau:
 1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên.
-2.  Aspose.PSD cho Java: Tải xuống[Aspose.PSD cho thư viện Java](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD cho Java: Tải xuống[Aspose.PSD cho thư viện Java](https://releases.aspose.com/psd/java/).
 3. Môi trường phát triển tích hợp (IDE): Bất kỳ IDE nào bạn chọn (ví dụ: IntelliJ IDEA, Eclipse).
 4. Tệp AI: Tệp Adobe Illustrator (.ai) bạn muốn chuyển đổi.
 5. TiffOptions: Cần thiết để chỉ định chi tiết định dạng TIFF.
@@ -20,21 +20,20 @@ Trước khi đi sâu vào quá trình chuyển đổi, hãy đảm bảo bạn 
 Trước tiên, bạn cần nhập các gói cần thiết từ Aspose.PSD. Các gói này cung cấp các lớp và phương thức cần thiết để xử lý các tệp AI và TIFF.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 ## Bước 1: Thiết lập dự án của bạn
 Trước khi bạn bắt đầu viết mã, hãy thiết lập môi trường dự án của bạn. Đảm bảo bạn đã thêm Aspose.PSD cho Java vào phần phụ thuộc của dự án. Điều này có thể được thực hiện bằng cách bao gồm trực tiếp các tệp JAR hoặc sử dụng công cụ xây dựng như Maven hoặc Gradle.
-## Bước 2: Tải file AI
+## Bước 2: Tải tệp AI
  Để bắt đầu chuyển đổi, hãy tải tệp AI bằng Aspose.PSD. Bước này rất quan trọng vì nó đọc nội dung tệp AI của bạn thành một`AiImage` sự vật.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Đây,`dataDir`là thư mục lưu trữ tệp AI của bạn. Điều chỉnh đường dẫn phù hợp để phù hợp với vị trí tệp của bạn.
+ Đây,`dataDir` là thư mục lưu trữ tệp AI của bạn. Điều chỉnh đường dẫn phù hợp để phù hợp với vị trí tệp của bạn.
 ## Bước 3: Xác định tệp đầu ra
 Tiếp theo, chỉ định đường dẫn tệp đầu ra nơi tệp TIFF đã chuyển đổi sẽ được lưu.
 ```java
@@ -45,7 +44,7 @@ String outFileName = dataDir + "34992OStroke.tiff";
 ```java
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.TiffDeflateRgba);
 ```
-## Bước 5: Lưu File AI dưới dạng TIFF
+## Bước 5: Lưu tệp AI dưới dạng TIFF
  Cuối cùng, sử dụng`save` phương pháp chuyển đổi và lưu tệp AI dưới dạng tệp TIFF. Bước này hoàn tất quá trình chuyển đổi.
 ```java
 image.save(outFileName, tiffOptions);

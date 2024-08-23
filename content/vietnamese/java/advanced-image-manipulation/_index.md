@@ -2,7 +2,7 @@
 title: Thao tác hình ảnh nâng cao
 linktitle: Thao tác hình ảnh nâng cao
 second_title: API Java Aspose.PSD
-description: Khám phá các hướng dẫn thao tác hình ảnh nâng cao với Aspose.PSD cho Java. Tìm hiểu cách thay thế phông chữ hiệu quả, buộc bộ nhớ đệm phông chữ, triển khai bộ lấy mẫu lại hai chiều và hơn thế nữa.
+description: Khám phá các hướng dẫn thao tác hình ảnh nâng cao với Aspose.PSD cho Java. Tìm hiểu cách thay thế phông chữ hiệu quả, buộc bộ nhớ đệm phông chữ, triển khai bộ lấy mẫu lại hai khối, v.v.
 type: docs
 weight: 24
 url: /vi/java/advanced-image-manipulation/

@@ -84,7 +84,7 @@ A2 : Absolument ! Aspose.PSD vous permet d'empiler plusieurs calques de réglage
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD ?
 
- A4 : Le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) est une ressource précieuse pour rechercher de l’aide et partager des informations avec la communauté.
+ A4 : Le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) est une ressource précieuse pour rechercher de l’aide et partager des idées avec la communauté.
 
 ### Q5 : Existe-t-il des exemples d’images disponibles pour tester les réglages du noir et blanc ?
 

@@ -16,7 +16,7 @@ Java를 사용한 이미지 처리 영역에서 Aspose.PSD는 강력한 도구�
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본 이해.
--  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+-  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 
 ## 패키지 가져오기
 
@@ -94,7 +94,7 @@ A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 프로젝트�
 
 ### Q2: Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- A2: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A2: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Aspose.PSD 문서는 어디서 찾을 수 있나요?
 

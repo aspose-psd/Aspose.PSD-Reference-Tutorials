@@ -18,7 +18,6 @@ Sebelum kita mulai, pastikan Anda telah menyiapkan yang berikut:
 Untuk memulai, sertakan paket Aspose.PSD yang diperlukan di kelas Java Anda:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;

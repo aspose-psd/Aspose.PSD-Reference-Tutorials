@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /it/net/image-manipulation/supporting-outer-glow-effect/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nella nostra guida passo passo sul supporto dell'effetto bagliore esterno in Aspose.PSD per .NET. Aspose.PSD è una potente libreria che consente la manipolazione senza interruzioni dei file PSD nelle applicazioni .NET. In questo tutorial esploreremo l'implementazione dell'effetto bagliore esterno e forniremo una procedura dettagliata per integrarlo nei tuoi progetti.
 
@@ -23,7 +23,7 @@ Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisi
 
 ## Importa spazi dei nomi
 
-In questa sezione importeremo gli spazi dei nomi necessari per avviare l'implementazione dell'effetto bagliore esterno. Segui questi passi:
+In questa sezione importeremo gli spazi dei nomi necessari per avviare l'implementazione dell'effetto bagliore esterno. Segui questi passaggi:
 
 ```csharp
 using System;
@@ -113,4 +113,4 @@ A1: Sì, Aspose.PSD supporta un'ampia gamma di framework .NET, garantendo la com
 
 ### Q5: Posso acquistare Aspose.PSD per .NET?
 
- R5: Sì, esplora le opzioni di licenza ed effettua l'acquisto.[Qui](https://purchase.aspose.com/buy).
+ R5: Sì, esplora le opzioni di licenza ed effettua l'acquisto[Qui](https://purchase.aspose.com/buy).

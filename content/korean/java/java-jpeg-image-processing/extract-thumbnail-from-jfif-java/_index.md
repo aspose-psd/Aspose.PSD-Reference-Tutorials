@@ -19,7 +19,6 @@ url: /ko/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 시작하려면 Java 프로젝트에 필요한 패키지를 가져왔는지 확인하세요.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -56,7 +55,7 @@ if (jfif != null) {
 }
 ```
 JFIF 데이터가 있는 경우 이를 추출하여 애플리케이션에 활용할 수 있습니다.
-## 4단계: EXIF 데이터 추출(선택사항)
+## 4단계: EXIF 데이터 추출(선택 사항)
 선택적으로 필요한 경우 썸네일 리소스에서 EXIF 데이터를 추출합니다.
 ```java
 JpegExifData exif = thumbnail.getJpegOptions().getExifData();
@@ -64,7 +63,7 @@ if (exif != null) {
     // EXIF 데이터를 추출하고 처리합니다.
 }
 ```
-이 단계를 통해 썸네일과 관련된 EXIF 정보를 검색하고 작업할 수 있습니다.
+이 단계에서는 축소판과 관련된 EXIF 정보를 검색하고 작업할 수 있습니다.
 
 ## 결론
 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 JFIF 이미지에서 썸네일을 추출하는 방법을 다루었습니다. 위에 설명된 단계를 따르면 Java 애플리케이션에서 썸네일 추출 작업을 효율적으로 처리할 수 있습니다. Aspose.PSD는 다양한 이미지 형식 작업을 위한 강력한 기능을 제공하여 이미지 처리 작업의 유연성과 신뢰성을 보장합니다.

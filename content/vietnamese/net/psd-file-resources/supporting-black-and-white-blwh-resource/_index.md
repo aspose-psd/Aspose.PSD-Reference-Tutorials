@@ -33,7 +33,7 @@ using (PsdImage image = (PsdImage)Image.Load(SourceDir + sourceFileName))
 }
 ```
 ## Bước 2: Thực hiện Lớp điều chỉnh đen trắng
- Bây giờ, hãy khám phá sự hỗ trợ cho các lớp điều chỉnh Đen và Trắng trong Aspose.PSD. Các`ExampleSupportOfBlwhResource` phương pháp thể hiện chức năng này:
+ Bây giờ, hãy khám phá sự hỗ trợ cho các lớp điều chỉnh Đen và Trắng trong Aspose.PSD. các`ExampleSupportOfBlwhResource` phương pháp thể hiện chức năng này:
 ```csharp
 void ExampleSupportOfBlwhResource(
     string sourceFileName,

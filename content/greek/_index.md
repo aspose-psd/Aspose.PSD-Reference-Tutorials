@@ -18,7 +18,7 @@ is_root: true
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
  
-- [ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ](./net/image-processing/)
+- [Επεξεργασία εικόνας](./net/image-processing/)
 - [Χειρισμός αρχείων PSD](./net/psd-file-manipulation/)
 - [Χειρισμός κειμένου και γραμματοσειράς](./net/text-and-font-manipulation/)
 - [Αποθήκευση και εξαγωγή αρχείων](./net/file-saving-and-exporting/)
@@ -38,7 +38,7 @@ is_root: true
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 
-- [ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ](./java/image-processing/)
+- [Επεξεργασία εικόνας](./java/image-processing/)
 - [Μετατροπή PSD](./java/psd-conversion/)
 - [Προηγμένες Τεχνικές](./java/advanced-techniques/)
 - [Επεξεργασία εικόνας](./java/image-editing/)

@@ -96,7 +96,7 @@ A2: Ja, Aspose.PSD voor .NET biedt verschillende eigenschappen voor het verfijne
 
 ### V3: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor .NET?
 
- A3: U kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/).
+ A3: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V4: Is Aspose.PSD voor .NET compatibel met .NET Core?
 

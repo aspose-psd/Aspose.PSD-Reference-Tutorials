@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Créer une instance de la classe PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Étape 5 : Enregistrez l’image recadrée au format PNG.
+## Étape 5 : Enregistrez l’image recadrée au format PNG
 ```csharp
 // Appelez la méthode save, fournissez le chemin de sortie et PngOptions pour convertir le fichier PSD en PNG et enregistrer la sortie
 string destName = dataDir + @"export.png";
@@ -54,17 +54,17 @@ image.Save(destName, pngOptions);
 ```
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment recadrer des fichiers PSD lors de leur conversion en PNG à l'aide d'Aspose.PSD pour .NET. Cette capacité peut s’avérer inestimable dans divers scénarios de traitement d’images.
+Félicitations! Vous avez appris avec succès comment recadrer des fichiers PSD lors de leur conversion en PNG à l'aide d'Aspose.PSD pour .NET. Cette capacité peut s’avérer inestimable dans divers scénarios de traitement d’images.
 
 ## FAQ
 
 ### Q1 : Puis-je utiliser cette bibliothèque dans un projet commercial ?
 
- A1 : Oui, Aspose.PSD pour .NET est disponible pour un usage commercial. Faire référence à[Licence Aspose.PSD](https://purchase.aspose.com/buy) pour plus de détails.
+ A1 : Oui, Aspose.PSD pour .NET est disponible pour un usage commercial. Se référer à[Licence Aspose.PSD](https://purchase.aspose.com/buy) pour plus de détails.
 
 ### Q2 : Existe-t-il un essai gratuit ?
 
- A2 : Absolument ! Vous pouvez explorer une version d'essai gratuite[ici](https://releases.aspose.com/).
+A2 : Absolument ! Vous pouvez explorer une version d'essai gratuite[ici](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je trouver de l'assistance pour Aspose.PSD pour .NET ?
 

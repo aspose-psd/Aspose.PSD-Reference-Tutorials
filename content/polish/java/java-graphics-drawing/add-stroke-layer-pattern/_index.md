@@ -8,7 +8,7 @@ weight: 11
 url: /pl/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
 ## Wstęp
-Dodanie wzorca warstwy obrysu do obrazu w Javie może wydawać się trudnym zadaniem, ale dzięki Aspose.PSD dla Java jest to łatwiejsze niż myślisz. Niezależnie od tego, czy projektujesz grafikę, czy pracujesz nad aplikacjami do edycji zdjęć, ten przewodnik przeprowadzi Cię krok po kroku przez ten proces. Gotowy żeby zacząć? Zanurzmy się!
+Dodanie wzorca warstwy obrysu do obrazu w Javie może wydawać się trudnym zadaniem, ale dzięki Aspose.PSD dla Java jest to łatwiejsze niż myślisz. Niezależnie od tego, czy projektujesz grafikę, czy pracujesz nad aplikacjami do edycji zdjęć, ten przewodnik przeprowadzi Cię krok po kroku przez ten proces. Gotowy, aby zacząć? Zanurzmy się!
 ## Warunki wstępne
 Zanim zaczniesz, będziesz potrzebować kilku rzeczy:
 - Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;

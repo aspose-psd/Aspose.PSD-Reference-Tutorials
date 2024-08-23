@@ -9,7 +9,7 @@ url: /fr/net/image-manipulation/adding-gradient-effects/
 ---
 ## Introduction
 
-L'amélioration des images avec des effets de dégradé peut ajouter une dimension captivante à votre contenu visuel. Aspose.PSD pour .NET fournit une plate-forme puissante pour intégrer des superpositions de dégradés dans vos images. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'effets de dégradé à l'aide d'Aspose.PSD pour .NET.
+L'amélioration des images avec des effets de dégradé peut ajouter une dimension captivante à votre contenu visuel. Aspose.PSD pour .NET fournit une plate-forme puissante pour incorporer des superpositions de dégradés dans vos images. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'effets de dégradé à l'aide d'Aspose.PSD pour .NET.
 
 ## Conditions préalables
 

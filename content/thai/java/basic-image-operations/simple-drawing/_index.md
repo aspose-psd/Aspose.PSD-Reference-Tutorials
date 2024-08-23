@@ -16,7 +16,7 @@ url: /th/java/basic-image-operations/simple-drawing/
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
 - ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณแล้ว
--  Aspose.PSD สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[Aspose.PSD สำหรับเอกสาร Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[Aspose.PSD สำหรับเอกสาร Java](https://reference.aspose.com/psd/java/).
 
 ## แพ็คเกจนำเข้า
 

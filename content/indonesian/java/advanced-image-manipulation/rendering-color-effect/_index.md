@@ -13,11 +13,11 @@ Selamat datang di panduan komprehensif kami tentang penerapan efek warna renderi
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi di mesin Anda.
 
--  Aspose.PSD untuk Java: Unduh dan instal perpustakaan Aspose.PSD dari[Link ini](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD untuk Java: Unduh dan instal perpustakaan Aspose.PSD dari[tautan ini](https://releases.aspose.com/psd/java/).
 
 ## Paket Impor
 

@@ -107,7 +107,7 @@ Ismételje meg ezeket a lépéseket a további beállításokhoz, vagy kísérle
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá egyszínű körvonalréteget az Aspose.PSD for .NET használatával. Ez a hatékony funkció a lehetőségek világát nyitja meg a képek tökéletesítésére a .NET környezetben.
+Gratulálok! Sikeresen megtanulta, hogyan adhat hozzá egyszínű körvonalréteget az Aspose.PSD for .NET használatával. Ez a hatékony funkció a lehetőségek világát nyitja meg a képek tökéletesítésére a .NET környezetben.
 
 ## GYIK
 

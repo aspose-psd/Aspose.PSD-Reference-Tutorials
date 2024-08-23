@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/net/image-manipulation/adding-pattern-effects/
 ---
-## Úvod
+## Zavedení
 
 Vylepšení obrázků pomocí vzorových efektů může vašim návrhům přinést nový rozměr. Aspose.PSD for .NET poskytuje výkonné řešení pro bezproblémové přidávání vzorových překryvů do obrázků, což vám umožňuje vytvářet vizuálně ohromující grafiku. Tento tutoriál vás krok za krokem provede procesem přidávání efektů vzorů pomocí Aspose.PSD pro .NET.
 
@@ -16,7 +16,7 @@ Vylepšení obrázků pomocí vzorových efektů může vašim návrhům přiné
 Než se pustíte do výukového programu, ujistěte se, že máte následující předpoklady:
 
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.PSD pro knihovnu .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro knihovnu .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 - Základní znalost C# a .NET frameworku.
 
 ## Importovat jmenné prostory
@@ -85,7 +85,7 @@ Opakujte tyto kroky pro každý obrázek, který chcete vylepšit pomocí vzorov
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili přidávat do obrázků efekty vzorů pomocí Aspose.PSD for .NET. Experimentujte s různými vzory a nastaveními a popusťte uzdu své kreativitě při navrhování obrázků.
+Gratuluji! Úspěšně jste se naučili přidávat do obrázků efekty vzorů pomocí Aspose.PSD for .NET. Experimentujte s různými vzory a nastaveními a popusťte uzdu své kreativitě při navrhování obrázků.
 
 ## FAQ
 
@@ -107,4 +107,4 @@ A4: Rozměry vzoru jsou flexibilní a umožňují vytvářet vzory různých vel
 
 ### Q5: Mohu použít Aspose.PSD pro .NET v komerčních projektech?
 
-A5: Ano, můžete použít Aspose.PSD pro .NET v komerčních projektech. Podrobnosti o licencích naleznete na adrese[tady](https://purchase.aspose.com/buy).
+A5: Ano, můžete použít Aspose.PSD pro .NET v komerčních projektech. Podrobnosti o licencích naleznete na adrese[zde](https://purchase.aspose.com/buy).

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/advanced-image-manipulation/replace-fonts/
 ---
-## Úvod
+## Zavedení
 
 V dynamickém světě vývoje v Javě je manipulace s obrázky běžným požadavkem. Aspose.PSD for Java poskytuje robustní řešení pro práci se soubory PSD a umožňuje vývojářům bezproblémově nahrazovat písma v obrázcích. V tomto tutoriálu vás provedeme procesem výměny písem krok za krokem pomocí Aspose.PSD pro Javu.
 

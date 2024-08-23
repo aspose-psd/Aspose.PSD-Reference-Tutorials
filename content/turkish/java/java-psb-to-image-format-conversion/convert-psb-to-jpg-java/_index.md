@@ -19,7 +19,6 @@ Eğiticiye dalmadan önce önkoşulları ele alalım. Başlamak için ihtiyacın
 Öncelikle gerekli paketleri import edelim. Bu içe aktarmalar Aspose.PSD kütüphanesiyle çalışmak ve görüntü dönüştürme işlemlerini gerçekleştirmek için gereklidir.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Artık PSB dosyanız yüklendiğine göre JPG dönüştürme seçeneklerini ayar
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Burada bir yaratıyoruz`JpegOptions` nesneyi seçin ve kaliteyi 95'e ayarlayın. Çıktı görüntüsünün sıkıştırmasını ve kalitesini kontrol etmek için bu değeri ayarlayabilirsiniz.
+Burada bir yaratıyoruz`JpegOptions` nesneyi seçin ve kaliteyi 95'e ayarlayın. Çıktı görüntüsünün sıkıştırmasını ve kalitesini kontrol etmek için bu değeri ayarlayabilirsiniz.
 ## Adım 4: Resmi JPG olarak kaydedin
 Seçenekler ayarlandığında PSB dosyanızı JPG olarak kaydetmeye hazırsınız. Gerçek dönüşümün gerçekleştiği yer burasıdır.
 ```java
@@ -63,7 +62,7 @@ Aspose.PSD for Java, geliştiricilerin Java uygulamaları içinde PSD ve PSB dos
 ### Satın almadan önce Aspose.PSD for Java'yı deneyebilir miyim?
  Evet, Aspose.PSD for Java'nın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[indirme sayfası](https://releases.aspose.com/). Bu, satın alma işlemi yapmadan önce kütüphaneyi ve özelliklerini değerlendirmenize olanak tanır.
 ### Aspose.PSD for Java için nasıl geçici lisans alabilirim?
-Geçici lisansı adresinden alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/). Bu, kütüphanenin tüm özelliklerini sınırlı bir süre boyunca kullanmanıza olanak sağlayacaktır.
+ Geçici lisansı adresinden alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/). Bu, kütüphanenin tüm özelliklerini sınırlı bir süre boyunca kullanmanıza olanak sağlayacaktır.
 ### Sorunla karşılaşırsam destek var mı?
  Kesinlikle! Desteğe şu adresten ulaşabilirsiniz:[Aspose.PSD destek forumu](https://forum.aspose.com/c/psd/34). Destek ekibi duyarlıdır ve olabilecek her türlü sorun veya sorunuzda size yardımcı olmaya hazırdır.
 ### JPG çıktısının kalitesini ayarlayabilir miyim?

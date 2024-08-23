@@ -83,7 +83,7 @@ Parabéns! Você substituiu com sucesso as fontes ausentes em seu arquivo PSD us
 
 ## Conclusão
 
-A substituição de fontes é muito fácil com Aspose.PSD para Java, oferecendo aos desenvolvedores uma solução robusta para manter a consistência visual em suas imagens. Seguindo este guia passo a passo, você aprendeu como substituir facilmente fontes ausentes, garantindo que suas imagens atendam aos mais altos padrões.
+substituição de fontes é muito fácil com Aspose.PSD para Java, oferecendo aos desenvolvedores uma solução robusta para manter a consistência visual em suas imagens. Seguindo este guia passo a passo, você aprendeu como substituir facilmente fontes ausentes, garantindo que suas imagens atendam aos mais altos padrões.
 
 ## Perguntas frequentes
 
@@ -97,7 +97,7 @@ A2: Sim, você pode especificar fontes de substituição personalizadas de acord
 
 ### Q3: Há alguma opção de licenciamento disponível para Aspose.PSD?
 
- A3: Explore as opções de licenciamento.[aqui](https://purchase.aspose.com/buy)para escolher o melhor plano para suas necessidades.
+ A3: Explore as opções de licenciamento[aqui](https://purchase.aspose.com/buy) para escolher o melhor plano para suas necessidades.
 
 ### Q4: Existe um fórum da comunidade para suporte do Aspose.PSD?
 

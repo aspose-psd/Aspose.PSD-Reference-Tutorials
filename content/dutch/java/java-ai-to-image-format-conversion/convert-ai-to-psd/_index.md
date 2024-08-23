@@ -15,12 +15,11 @@ Voordat we aan de slag gaan, zijn er een paar dingen die u op orde moet hebben:
 2.  Aspose.PSD voor Java: Download de Aspose.PSD voor Java-bibliotheek van de[downloadpagina](https://releases.aspose.com/psd/java/).
 3. Integrated Development Environment (IDE): Een IDE zoals IntelliJ IDEA of Eclipse om uw Java-code te schrijven en uit te voeren.
 4. AI-bestand: het Adobe Illustrator-bestand dat u wilt converteren.
-5. Tijdelijke licentie aanvragen (optioneel): voor volledige functionaliteit zonder beperkingen kunt u een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+5.  Tijdelijke licentie aanvragen (optioneel): voor volledige functionaliteit zonder beperkingen kunt u een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 ## Pakketten importeren
 Laten we eerst ons project opzetten door de benodigde pakketten te importeren. U moet Aspose.PSD voor Java opnemen in het klassenpad van uw project. Hier leest u hoe u het moet doen:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -58,9 +57,9 @@ En daar heb je het! U hebt met succes een AI-bestand naar een PSD-bestand geconv
 ### Wat is Aspose.PSD voor Java?
 Aspose.PSD voor Java is een robuuste bibliotheek waarmee ontwikkelaars Photoshop-bestanden (PSD en PSB) kunnen maken, bewerken en converteren binnen Java-toepassingen zonder Adobe Photoshop nodig te hebben.
 ### Kan ik Aspose.PSD voor Java gratis gebruiken?
- Aspose.PSD voor Java biedt een gratis proefversie, die u kunt downloaden van de[gratis proefpagina](https://releases.aspose.com/) . Voor volledige functies, a[licentie](https://purchase.aspose.com/buy) Is benodigd.
+ Aspose.PSD voor Java biedt een gratis proefversie, die u kunt downloaden van de[gratis proefpagina](https://releases.aspose.com/) . Voor volledige functies, a[licentie](https://purchase.aspose.com/buy) is vereist.
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.PSD voor Java?
-Een tijdelijke licentie kunt u verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+ Een tijdelijke licentie kunt u verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 ### Is het mogelijk om PSD-bestanden terug naar AI-bestanden te converteren?
 Momenteel ondersteunt Aspose.PSD voor Java het converteren van PSD-bestanden naar AI-bestanden niet. Het richt zich op het omgaan met PSD- en PSB-bestanden.
 ### Waar kan ik meer voorbeelden en documentatie vinden?

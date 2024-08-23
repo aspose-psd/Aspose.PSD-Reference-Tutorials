@@ -52,7 +52,7 @@ string sourceFileName = Path.Combine(dataDir, "sample.psd");
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions()))
 {
-    // Su código para el reemplazo de fuentes va aquí.
+    // Su código para el reemplazo de fuentes va aquí
 }
 ```
 
@@ -87,7 +87,7 @@ R2: Aspose.PSD admite una amplia gama de tipos de fuentes, lo que garantiza la c
 
 R3: ¡Absolutamente! Puede especificar fuentes personalizadas durante el proceso de reemplazo de fuentes, lo que brinda flexibilidad en el diseño y la salida.
 
-### P4: ¿Existe alguna manera de obtener una vista previa del documento con las fuentes reemplazadas antes de guardarlo?
+### P4: ¿Existe alguna forma de obtener una vista previa del documento con las fuentes reemplazadas antes de guardarlo?
 
 R4: Si bien el tutorial se centra en el proceso de reemplazo, puede implementar pasos adicionales para obtener una vista previa del documento antes de guardarlo renderizándolo usando Aspose.PSD.
 

@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Rajz előtt törölje le a grafikus felületet egy adott színnel (opcionális).
 ```java
 graphics.clear(Color.getYellow());
 ```
-## 5. lépés: Rajzolj egy pontozott ellipszist.
+## 5. lépés: Rajzolj egy pontozott ellipszist
 Használjon piros színű tollobjektumot, és rajzoljon egy pontozott ellipszist egy megadott téglalapon belül.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
@@ -65,15 +64,15 @@ image.save(outputPath, saveOptions);
 ```
 
 ## Következtetés
-Gratulálunk! Sikeresen megtanulta, hogyan kell programozottan ellipsziseket rajzolni az Aspose.PSD for Java segítségével. Ez az oktatóanyag a projekt beállítását, a grafikák inicializálását, a pontozott és folyamatos ellipszisek rajzolását, valamint a kapott kép mentését tárgyalta. Mostantól ezeket a technikákat integrálhatja Java-alkalmazásaiba különféle grafikai tervezési és képkezelési feladatokhoz.
+Gratulálok! Sikeresen megtanulta, hogyan kell programozottan ellipsziseket rajzolni az Aspose.PSD for Java segítségével. Ez az oktatóanyag a projekt beállítását, a grafikák inicializálását, a pontozott és folyamatos ellipszisek rajzolását, valamint a kapott kép mentését tárgyalta. Mostantól ezeket a technikákat integrálhatja Java-alkalmazásaiba különféle grafikai tervezési és képkezelési feladatokhoz.
 ## GYIK
 ### Használhatom ingyenesen az Aspose.PSD-t?
 Az Aspose.PSD ingyenes próbaverziót kínál, amely lehetővé teszi, hogy a vásárlás előtt értékelje szolgáltatásait.
 ### Hol találok további példákat és dokumentációt?
  Látogatás[Aspose.PSD dokumentáció](https://reference.aspose.com/psd/java/) átfogó útmutatókért és példákért.
-### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
+### Hogyan szerezhetek ideiglenes licenceket az Aspose.PSD-hez?
  Ideiglenes engedélyek szerezhetők be[Aspose.PSD ideiglenes licenc](https://purchase.aspose.com/temporary-license/).
 ### Milyen formátumokba mentheti a képeket az Aspose.PSD?
-Az Aspose.PSD támogatja a képek mentését különböző formátumokba, beleértve a BMP, PNG, JPEG és PSD formátumokat.
+Az Aspose.PSD támogatja a képek különféle formátumokba, köztük BMP, PNG, JPEG és PSD formátumokba történő mentését.
 ### Az Aspose.PSD alkalmas vállalati használatra?
 Igen, az Aspose.PSD professzionális és vállalati szintű képfeldolgozási feladatokra készült.

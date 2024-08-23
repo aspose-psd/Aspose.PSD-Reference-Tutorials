@@ -102,7 +102,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### س1: هل يتوافق Aspose.PSD مع أحدث أطر عمل .NET؟
 
- A1: يقوم Aspose.PSD بتحديث توافقه بانتظام. الرجوع إلى[توثيق](https://reference.aspose.com/psd/net/) للحصول على أحدث المعلومات.
+ A1: يقوم Aspose.PSD بتحديث توافقه بانتظام. الرجوع إلى[الوثائق](https://reference.aspose.com/psd/net/) للحصول على أحدث المعلومات.
 
 ### س2: أين يمكنني العثور على الدعم لـ Aspose.PSD؟
 
@@ -110,7 +110,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### س3: هل يمكنني تجربة Aspose.PSD قبل الشراء؟
 
- ج3: نعم، يمكنك استكشاف نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 

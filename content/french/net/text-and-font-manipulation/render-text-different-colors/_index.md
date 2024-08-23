@@ -53,7 +53,7 @@ psdImage.Save(destName, pngOptions);
 ```
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à restituer du texte avec différentes couleurs dans des calques de texte à l'aide d'Aspose.PSD pour .NET. Cette puissante fonctionnalité ouvre un monde de possibilités pour manipuler et améliorer les fichiers PSD par programmation.
+Félicitations! Vous avez réussi à restituer du texte avec différentes couleurs dans des calques de texte à l'aide d'Aspose.PSD pour .NET. Cette puissante fonctionnalité ouvre un monde de possibilités pour manipuler et améliorer les fichiers PSD par programmation.
 
 ## FAQ
 
@@ -63,11 +63,11 @@ A1 : Oui, Aspose.PSD pour .NET est conçu pour fonctionner de manière transpare
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour .NET ?
 
- A2 : Oui, vous pouvez explorer Aspose.PSD pour .NET avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
+ A2 : Oui, vous pouvez explorer Aspose.PSD pour .NET avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je trouver la documentation pour Aspose.PSD pour .NET ?
 
- A3 : Une documentation détaillée est disponible.[ici](https://reference.aspose.com/psd/net/) pour vous aider à comprendre et à implémenter diverses fonctionnalités d'Aspose.PSD pour .NET.
+ A3 : Une documentation détaillée est disponible[ici](https://reference.aspose.com/psd/net/) pour vous aider à comprendre et à implémenter diverses fonctionnalités d'Aspose.PSD pour .NET.
 
 ### Q4 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 

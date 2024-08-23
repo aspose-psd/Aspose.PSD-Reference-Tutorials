@@ -8,7 +8,7 @@ weight: 24
 url: /cs/java/advanced-image-manipulation/
 ---
 
-## Úvod
+## Zavedení
 
 Pokud se ponoříte do světa pokročilé manipulace s obrázky v Javě, Aspose.PSD vám pomůže. V této příručce vás provedeme řadou výukových programů, z nichž každý odemkne novou dimenzi možností zpracování obrazu pomocí Aspose.PSD pro Java.
 

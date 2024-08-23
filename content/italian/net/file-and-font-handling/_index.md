@@ -7,7 +7,7 @@ type: docs
 weight: 27
 url: /it/net/file-and-font-handling/
 ---
-## introduzione
+## Introduzione
 
 Sblocca il potenziale di Aspose.PSD per .NET con i nostri tutorial sulla gestione di file e caratteri. Dalla creazione di metadati XMP alla manipolazione delle immagini e alla sostituzione dei caratteri, ti offriamo la soluzione.
 

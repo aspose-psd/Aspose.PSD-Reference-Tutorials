@@ -63,7 +63,7 @@ image.binarizeBradley(threshold);
 
 呼叫`binarizeBradley`載入圖像上的方法，透過定義的閾值。此步驟對影像執行 Bradley 閾值處理。
 
-## 第四步：儲存輸出影像
+## 步驟 4：儲存輸出影像
 
 ```java
 //儲存輸出影像

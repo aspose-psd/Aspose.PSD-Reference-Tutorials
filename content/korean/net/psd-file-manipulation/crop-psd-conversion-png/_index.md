@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // PngOptions 클래스의 인스턴스 만들기
 PngOptions pngOptions = new PngOptions();
 ```
-## 5단계: 자른 이미지를 PNG로 저장합니다.
+## 5단계: 자른 이미지를 PNG로 저장
 ```csharp
 // 저장 메서드를 호출하고, 출력 경로를 제공하고, PngOptions를 제공하여 PSD 파일을 PNG로 변환하고 출력을 저장합니다.
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ image.Save(destName, pngOptions);
 
 ### Q1: 이 라이브러리를 상업용 프로젝트에 사용할 수 있나요?
 
- A1: 예, .NET용 Aspose.PSD는 상업용으로 사용할 수 있습니다. 인용하다[Aspose.PSD 라이센스](https://purchase.aspose.com/buy) 자세한 내용은.
+ A1: 예, .NET용 Aspose.PSD는 상업용으로 사용할 수 있습니다. 참조[Aspose.PSD 라이센스](https://purchase.aspose.com/buy) 자세한 내용은.
 
 ### Q2: 무료 평가판을 이용할 수 있나요?
 
- A2: 물론이죠! 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+A2: 물론이죠! 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q3: .NET용 Aspose.PSD에 대한 지원은 어디서 찾을 수 있습니까?
 

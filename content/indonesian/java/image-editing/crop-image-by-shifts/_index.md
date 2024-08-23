@@ -21,7 +21,7 @@ Sebelum kita memulai perjalanan menarik ini, pastikan Anda memiliki prasyarat ya
 
 ### Aspose.PSD untuk Perpustakaan Java
 
- Untuk memulai, Anda harus mendapatkan perpustakaan Aspose.PSD untuk Java. Pergilah ke[Unduh Halaman](https://releases.aspose.com/psd/java/) dan ambil versi terbaru.
+ Untuk memulai, Anda harus mendapatkan perpustakaan Aspose.PSD untuk Java. Pergilah ke[halaman unduh](https://releases.aspose.com/psd/java/) dan ambil versi terbaru.
 
 ### Lingkungan Pengembangan Terpadu (IDE)
 

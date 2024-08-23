@@ -7,11 +7,11 @@ type: docs
 weight: 15
 url: /cs/net/psd-file-manipulation/psd-image-timeline-property/
 ---
-## Úvod
+## Zavedení
 V neustále se vyvíjejícím prostředí vývoje .NET je zásadní zůstat na špici. Aspose.PSD for .NET se ukazuje jako výkonný nástroj, který nabízí množství funkcí pro vylepšení vašich schopností zpracování obrazu. Jednou z pozoruhodných funkcí je vlastnost PSD Image Timeline Property, která vám umožňuje dynamicky manipulovat s časovou osou vašich obrázků PSD.
 ## Předpoklady
 Než se ponoříte do hlubin Aspose.PSD for .NET a jeho vlastnosti Timeline, ujistěte se, že máte splněny následující předpoklady:
--  Aspose.PSD for .NET Library: Stáhněte a nainstalujte knihovnu z[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET Library: Stáhněte a nainstalujte knihovnu z[zde](https://releases.aspose.com/psd/net/).
 - Vývojové prostředí: Zajistěte, aby bylo na vašem počítači nastaveno funkční vývojové prostředí .NET.
 - Adresář dokumentů: Vyberte adresář pro ukládání dokumentů PSD.
 - Výstupní adresář: Vytvořte samostatný adresář pro výstupní soubory.
@@ -45,7 +45,7 @@ List<Frame> frames = new List<Frame>(timeline.Frames);
 frames.Add(new Frame());
 timeline.Frames = frames.ToArray();
 ```
-## Krok 4: Přepněte aktivní rámec
+## Krok 4: Přepněte aktivní snímek
 ```csharp
 timeline.SwitchActiveFrame(4);
 ```
@@ -59,7 +59,7 @@ psdImage.Save(outputFile);
 File.Delete(outputFile);
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
-Tento podrobný průvodce poskytuje pohled na bezproblémovou integraci vlastnosti PSD Image Timeline do vašich projektů .NET pomocí Aspose.PSD.
+Tento podrobný průvodce poskytuje pohled na bezproblémovou integraci vlastnosti PSD Image Timeline Property do vašich projektů .NET pomocí Aspose.PSD.
 ## Závěr
 
 Aspose.PSD for .NET umožňuje vývojářům odemknout plný potenciál obrazů PSD. Vlastnost PSD Image Timeline dodává vašim projektům vrstvu dynamiky a nabízí kreativní možnosti při manipulaci s obrázky.
@@ -72,16 +72,16 @@ Odpověď 1: Ano, Aspose.PSD for .NET je kompatibilní s různými frameworky .N
 
 ### Q2: Je před zakoupením k dispozici zkušební verze?
 
- A2: Určitě! S bezplatnou zkušební verzí můžete prozkoumat možnosti Aspose.PSD pro .NET[tady](https://releases.aspose.com/).
+ A2: Určitě! S bezplatnou zkušební verzí můžete prozkoumat možnosti Aspose.PSD pro .NET[zde](https://releases.aspose.com/).
 
 ### Q3: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
- Odpověď 3: Máte-li jakékoli dotazy nebo pomoc, navštivte fórum komunity Aspose.PSD[tady](https://forum.aspose.com/c/psd/34).
+ Odpověď 3: Máte-li jakékoli dotazy nebo pomoc, navštivte fórum komunity Aspose.PSD[zde](https://forum.aspose.com/c/psd/34).
 
 ### Q4: Jsou k dispozici dočasné licence pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete získat dočasné licence pro Aspose.PSD pro .NET.[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Ano, můžete získat dočasné licence pro Aspose.PSD pro .NET[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.PSD pro .NET?
 
- A5: Prozkoumejte komplexní dokumentaci[tady](https://reference.aspose.com/psd/net/).
+ A5: Prozkoumejte komplexní dokumentaci[zde](https://reference.aspose.com/psd/net/).

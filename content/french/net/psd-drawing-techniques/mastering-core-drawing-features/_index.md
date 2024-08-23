@@ -23,7 +23,7 @@ Maintenant, commençons avec le tutoriel !
 
 ## Importer des espaces de noms
 
-Dans tout projet .NET, l'importation des espaces de noms requis est cruciale pour accéder aux fonctionnalités fournies par Aspose.PSD. Suivez ces étapes:
+Dans tout projet .NET, l'importation des espaces de noms requis est cruciale pour accéder aux fonctionnalités fournies par Aspose.PSD. Suivez ces étapes :
 
 ### Étape 1 : ouvrez votre projet
 
@@ -87,17 +87,17 @@ image.Save(outpath, new BmpOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous maîtrisez les fonctionnalités de dessin de base d'Aspose.PSD pour .NET. Ce didacticiel vous a doté des compétences nécessaires pour manipuler facilement des images à l'aide d'Aspose.PSD. Expérimentez différents scénarios pour améliorer vos capacités de traitement d’image.
+Félicitations! Vous maîtrisez les fonctionnalités de dessin de base d'Aspose.PSD pour .NET. Ce didacticiel vous a doté des compétences nécessaires pour manipuler facilement des images à l'aide d'Aspose.PSD. Expérimentez différents scénarios pour améliorer vos capacités de traitement d’image.
 
 ## FAQ
 
 ### Q1 : Où puis-je trouver la documentation Aspose.PSD pour .NET ?
 
- A1 : Vous pouvez accéder à la documentation.[ici](https://reference.aspose.com/psd/net/).
+ A1 : Vous pouvez accéder à la documentation[ici](https://reference.aspose.com/psd/net/).
 
 ### Q2 : Comment télécharger Aspose.PSD pour .NET ?
 
- A2 : Téléchargez la dernière version.[ici](https://releases.aspose.com/psd/net/).
+ A2 : Téléchargez la dernière version[ici](https://releases.aspose.com/psd/net/).
 
 ### Q3 : Où puis-je acheter Aspose.PSD pour .NET ?
 
@@ -105,7 +105,7 @@ Toutes nos félicitations! Vous maîtrisez les fonctionnalités de dessin de bas
 
 ### Q4 : Existe-t-il un essai gratuit ?
 
- A4 : Oui, vous pouvez bénéficier d’un essai gratuit.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q5 : Où puis-je obtenir de l'assistance pour Aspose.PSD pour .NET ?
 

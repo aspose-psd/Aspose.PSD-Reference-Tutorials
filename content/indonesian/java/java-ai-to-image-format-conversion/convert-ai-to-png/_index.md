@@ -13,13 +13,12 @@ Apakah Anda ingin mengonversi file Adobe Illustrator (.AI) ke gambar PNG menggun
 Sebelum kita mulai, ada beberapa hal yang perlu Anda siapkan:
 1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK 8 atau lebih tinggi di mesin Anda.
 2.  Aspose.PSD untuk Java: Anda memerlukan perpustakaan Aspose.PSD untuk Java. Anda dapat mengunduhnya dari[Halaman rilis Aspose](https://releases.aspose.com/psd/java/) atau dapatkan a[uji coba gratis](https://releases.aspose.com/).
-3. Lingkungan Pengembangan Terpadu (IDE): Semua IDE Java seperti IntelliJ IDEA, Eclipse, atau NetBeans.
+3. Lingkungan Pengembangan Terintegrasi (IDE): Semua IDE Java seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 4. Pengetahuan Dasar tentang Java: Pemahaman dasar tentang pemrograman Java akan sangat membantu.
 ## Paket Impor
 Pertama, Anda harus mengimpor paket Aspose.PSD yang diperlukan ke proyek Java Anda. Mari atur lingkungan Anda.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;

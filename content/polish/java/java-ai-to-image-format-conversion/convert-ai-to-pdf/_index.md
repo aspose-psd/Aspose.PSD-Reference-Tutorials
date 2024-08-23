@@ -18,7 +18,6 @@ Zanim zaczniemy pracować z kodem, upewnij się, że spełnione są następując
 Aby rozpocząć pracę z kodem, musisz zaimportować niezbędne pakiety Aspose.PSD. Oto jak możesz to zrobić:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -49,11 +48,11 @@ options.setJpegQuality(100);
 ```
 Ustawia to jakość JPEG dla dowolnych obrazów w pliku PDF na maksymalny poziom.
 ## Krok 4: Zapisz jako plik PDF
- Teraz następuje ekscytująca część – zapisanie pliku AI w formacie PDF. Użyj`save()` metoda`AiImage` obiekt:
+ Teraz następuje ekscytująca część – zapisanie pliku AI w formacie PDF. Skorzystaj z`save()` metoda`AiImage` obiekt:
 ```java
 image.save(outFileName, options);
 ```
- Ta linia przekonwertuje obraz AI na plik PDF pod określoną ścieżką. Upewnij się, że`outFileName` wskazuje żądaną lokalizację wyjściową.
+ Ta linia przekonwertuje obraz AI na plik PDF pod określoną ścieżką. Zapewnij to`outFileName` wskazuje żądaną lokalizację wyjściową.
 
 ## Wniosek
 Konwersja plików AI do plików PDF w Javie przy użyciu Aspose.PSD jest prosta i wydajna. Wykonując kroki opisane w tym przewodniku, możesz łatwo zintegrować tę funkcjonalność ze swoimi aplikacjami, ułatwiając obsługę grafiki wektorowej i ilustracji w formacie PDF. Niezależnie od tego, czy jesteś programistą, projektantem, czy po prostu odkrywasz możliwości konwersji AI i PDF, Aspose.PSD oferuje bezproblemową obsługę.

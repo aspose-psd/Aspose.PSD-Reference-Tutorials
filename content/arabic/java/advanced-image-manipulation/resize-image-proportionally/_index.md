@@ -64,7 +64,7 @@ String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-وهناك لديك! لقد نجحت في تغيير حجم الصورة بشكل متناسب باستخدام Aspose.PSD لـ Java.
+وهنا لديك! لقد نجحت في تغيير حجم الصورة بشكل متناسب باستخدام Aspose.PSD لـ Java.
 
 ## خاتمة
 
@@ -72,9 +72,9 @@ image.save(destName, new PngOptions());
 
 ## الأسئلة الشائعة
 
-### س1: هل Aspose.PSD متوافق مع كافة تنسيقات الصور؟
+### س1: هل Aspose.PSD متوافق مع جميع تنسيقات الصور؟
 
- A1: يدعم Aspose.PSD تنسيقات الصور المختلفة، بما في ذلك PSD وPNG وJPEG والمزيد. افحص ال[توثيق](https://reference.aspose.com/psd/java/) للحصول على قائمة شاملة.
+ A1: يدعم Aspose.PSD تنسيقات الصور المختلفة، بما في ذلك PSD وPNG وJPEG والمزيد. تحقق من[الوثائق](https://reference.aspose.com/psd/java/) للحصول على قائمة شاملة.
 
 ### س2: هل يمكنني استخدام Aspose.PSD للمشاريع التجارية؟
 
@@ -82,7 +82,7 @@ image.save(destName, new PngOptions());
 
 ### س3: هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
 
- ج3: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) للتقييم.
+ ج3: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للتقييم.
 
 ### س4: أين يمكنني العثور على الدعم لـ Aspose.PSD؟
 

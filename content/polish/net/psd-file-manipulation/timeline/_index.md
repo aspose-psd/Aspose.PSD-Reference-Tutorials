@@ -12,7 +12,7 @@ dynamicznym świecie projektowania graficznego i manipulacji obrazami umiejętno
 ## Warunki wstępne
 Zanim zagłębisz się w ekscytujące możliwości, jakie oferuje klasa Oś czasu, upewnij się, że spełniasz następujące wymagania wstępne:
 -  Biblioteka Aspose.PSD dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PSD dla .NET. Można go pobrać z[Dokumentacja Aspose.PSD dla .NET](https://reference.aspose.com/psd/net/).
--  Katalogi dokumentów i wyników: Zdefiniuj ścieżki do katalogów dokumentów i wyników w kodzie. Poprawić`baseDir` I`outputDir` zmienne zgodnie ze strukturą projektu.
+-  Katalogi dokumentów i wyników: Zdefiniuj ścieżki do katalogów dokumentów i wyników w kodzie. Dostosuj`baseDir` I`outputDir` zmienne zgodnie ze strukturą projektu.
 Przyjrzyjmy się teraz, jak krok po kroku wykorzystać klasę Timeline.
 ## Importuj przestrzenie nazw
 Aby rozpocząć pracę z klasą Timeline, zaimportuj niezbędne przestrzenie nazw do swojego kodu:
@@ -103,7 +103,7 @@ Odpowiedź 2: Klasa Timeline została zaprojektowana specjalnie dla obrazów PSD
 
 ### P4: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
- A4: Zdobądź licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A4: Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Jakie są kluczowe korzyści z używania Aspose.PSD dla .NET?
 

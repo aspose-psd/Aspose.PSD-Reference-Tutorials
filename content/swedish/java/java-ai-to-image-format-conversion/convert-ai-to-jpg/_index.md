@@ -8,7 +8,7 @@ weight: 11
 url: /sv/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
 ## Introduktion
-Vill du konvertera AI-filer (Adobe Illustrator) till JPG-format med Java? Kolla inte vidare! I den här omfattande guiden går vi igenom hela processen med Aspose.PSD för Java, ett kraftfullt och flexibelt bibliotek som gör bildmanipulation till en lek. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen att ge dig allt du behöver veta.
+Vill du konvertera AI-filer (Adobe Illustrator) till JPG-format med Java? Leta inte längre! I den här omfattande guiden går vi igenom hela processen med Aspose.PSD för Java, ett kraftfullt och flexibelt bibliotek som gör bildmanipulation till en lek. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen att ge dig allt du behöver veta.
 ## Förutsättningar
 Innan vi dyker in i koden, låt oss se till att du har allt inställt och redo att gå. Här är vad du behöver:
 1. Java Development Kit (JDK): Se till att du har JDK 8 eller högre installerat.
@@ -21,7 +21,6 @@ Först och främst måste vi importera de nödvändiga paketen för att hantera 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ Innan vi börjar koda, se till att din utvecklingsmiljö är korrekt inställd. 
 -  Ladda ner Aspose.PSD: Hämta biblioteket från[Aspose releaser sida](https://releases.aspose.com/psd/java/).
 - Lägg till Aspose.PSD till ditt projekt: Inkludera JAR-filerna i ditt projekts byggväg.
 ## Steg 2: Ladda din AI-fil
- Det första steget i vår kod är att ladda AI-filen med hjälp av`AiImage` klass. Den här klassen låter oss arbeta med Adobe Illustrator-filer sömlöst.
+Det första steget i vår kod är att ladda AI-filen med hjälp av`AiImage` klass. Den här klassen låter oss arbeta med Adobe Illustrator-filer sömlöst.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

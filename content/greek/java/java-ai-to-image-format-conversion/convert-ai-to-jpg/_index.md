@@ -21,7 +21,6 @@ url: /el/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ import com.aspose.psd.imageoptions.JpegOptions;
 -  Λήψη Aspose.PSD: Λήψη της βιβλιοθήκης από το[Σελίδα εκδόσεων Aspose](https://releases.aspose.com/psd/java/).
 - Προσθήκη Aspose.PSD στο έργο σας: Συμπεριλάβετε τα αρχεία JAR στη διαδρομή κατασκευής του έργου σας.
 ## Βήμα 2: Φορτώστε το αρχείο AI σας
- Το πρώτο βήμα στον κώδικά μας είναι να φορτώσουμε το αρχείο AI χρησιμοποιώντας το`AiImage` τάξη. Αυτή η τάξη μας επιτρέπει να εργαζόμαστε απρόσκοπτα με αρχεία Adobe Illustrator.
+Το πρώτο βήμα στον κώδικά μας είναι να φορτώσουμε το αρχείο AI χρησιμοποιώντας το`AiImage` τάξη. Αυτή η τάξη μας επιτρέπει να εργαζόμαστε απρόσκοπτα με αρχεία Adobe Illustrator.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
@@ -41,7 +40,7 @@ AiImage image = (AiImage) Image.load(sourceFileName);
 ```
  Εδώ,`dataDir` είναι ο κατάλογος όπου είναι αποθηκευμένο το αρχείο AI σας και`sourceFileName` είναι η πλήρης διαδρομή προς το αρχείο AI σας.
 ## Βήμα 3: Ορίστε τις επιλογές JPG
- Στη συνέχεια, πρέπει να ορίσουμε τις επιλογές για την έξοδο JPG. ο`JpegOptions` class μας βοηθά να διαμορφώσουμε την ποιότητα και άλλες ρυθμίσεις για το αρχείο JPG.
+ Στη συνέχεια, πρέπει να ορίσουμε τις επιλογές για την έξοδο JPG. Ο`JpegOptions` class μας βοηθά να διαμορφώσουμε την ποιότητα και άλλες ρυθμίσεις για το αρχείο JPG.
 ```java
 JpegOptions options = new JpegOptions();
 options.setQuality(85); // Ρυθμίστε την ποιότητα του JPG
@@ -71,7 +70,7 @@ public class AiToJpgConverter {
 }
 ```
 Εκτελέστε αυτήν την κλάση και θα δείτε το αρχείο AI να μετατραπεί σε JPG στον καθορισμένο κατάλογο.
-## συμπέρασμα
+## Σύναψη
 Η μετατροπή αρχείων AI σε JPG στην Java είναι απλή με τη βιβλιοθήκη Aspose.PSD. Ακολουθώντας τα βήματα που περιγράφονται σε αυτόν τον οδηγό, μπορείτε εύκολα να επιτύχετε αυτήν τη μετατροπή ενώ ελέγχετε την ποιότητα της εικόνας εξόδου. Το Aspose.PSD για Java είναι ένα ισχυρό εργαλείο που προσφέρει εκτεταμένες δυνατότητες για χειρισμό εικόνας, καθιστώντας το μια πολύτιμη προσθήκη στην εργαλειοθήκη οποιουδήποτε προγραμματιστή.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD για Java;

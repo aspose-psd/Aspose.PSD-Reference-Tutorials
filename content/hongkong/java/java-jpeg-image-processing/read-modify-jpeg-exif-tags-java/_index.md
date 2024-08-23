@@ -1,6 +1,6 @@
 ---
-title: 在Java中讀取和修改JPEG EXIF標籤
-linktitle: 在Java中讀取和修改JPEG EXIF標籤
+title: 在 Java 中讀取和修改 JPEG EXIF 標籤
+linktitle: 在 Java 中讀取和修改 JPEG EXIF 標籤
 second_title: Aspose.PSD Java API
 description: 在此逐步指南中了解如何使用 Aspose.PSD for Java 讀取和修改 JPEG EXIF 標籤。非常適合希望輕鬆處理影像元資料的開發人員。
 type: docs
@@ -19,7 +19,6 @@ url: /zh-hant/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 首先，讓我們導入必要的套件。開啟 Java IDE 並建立一個新的 Java 專案。然後，將 Aspose.PSD for Java 程式庫包含在專案依賴項中。
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -46,8 +45,8 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     }
 }
 ```
-## 第三步：提取EXIF數據
-現在我們有了縮圖資源，我們可以從中提取EXIF資料。 EXIF 資料包括相機擁有者的姓名、光圈值、方向等有價值的資訊。
+## 步驟 3：提取 EXIF 數據
+現在我們有了縮圖資源，我們可以從中提取 EXIF 資料。 EXIF 資料包括相機擁有者的姓名、光圈值、方向等有價值的資訊。
 ```java
 JpegExifData exifData = thumbnail.getJpegOptions().getExifData();
 if (exifData != null) {
@@ -58,8 +57,8 @@ if (exifData != null) {
     System.out.println("Compression: " + exifData.getCompression());
 }
 ```
-## 第四步：修改EXIF數據
-讀取EXIF資料後，你可能會想要修改它的一些欄位。您可以這樣做：
+## 步驟4：修改EXIF數據
+讀取 EXIF 資料後，您可能想要修改其某些欄位。您可以這樣做：
 ```java
 if (exifData != null) {
     exifData.setCameraOwnerName("New Camera Owner");
@@ -71,7 +70,7 @@ if (exifData != null) {
 }
 ```
 ## 第 5 步：儲存更改
-最後，修改EXIF資料後，將變更儲存到新的PSD檔案。
+最後，修改 EXIF 資料後，將變更儲存到新的 PSD 檔案中。
 ```java
 try {
     image.save(dataDir + "Modified_Zebras_Serengeti.psd");
@@ -81,7 +80,7 @@ try {
 ```
 
 ## 結論
-現在你就得到它了！遵循這些步驟，您可以使用Aspose.PSD for Java輕鬆讀取和修改JPEG EXIF標籤。這個強大的函式庫讓處理影像元資料變得輕而易舉。因此，請繼續在您自己的專案中嘗試一下。快樂編碼！
+現在你就擁有了！透過執行這些步驟，您可以使用 Aspose.PSD for Java 輕鬆讀取和修改 JPEG EXIF 標籤。這個強大的函式庫讓處理影像元資料變得輕而易舉。因此，請繼續在您自己的專案中嘗試一下。快樂編碼！
 ## 常見問題解答
 ### 什麼是 EXIF 資料？
 EXIF（可交換影像檔案格式）資料包含有關影像的元數據，例如相機設定和方向。
@@ -90,6 +89,6 @@ EXIF（可交換影像檔案格式）資料包含有關影像的元數據，例�
 ### Aspose.PSD for Java 是否與所有版本的 Java 相容？
 Aspose.PSD for Java 支援 Java SE 7 及更高版本。
 ### 在哪裡可以找到有關 Aspose.PSD for Java 的更多文件？
-查看[文件](https://reference.aspose.com/psd/java/)更多細節。
+查看[文件](https://reference.aspose.com/psd/java/)了解更多詳情。
 ### 如何獲得 Aspose.PSD for Java 支援？
 您可以從以下方面獲得支持[Aspose PSD 支援論壇](https://forum.aspose.com/c/psd/34).

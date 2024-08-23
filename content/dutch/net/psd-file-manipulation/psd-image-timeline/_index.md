@@ -8,7 +8,7 @@ weight: 17
 url: /nl/net/psd-file-manipulation/psd-image-timeline/
 ---
 ## Invoering
-In de dynamische wereld van beeldverwerking onderscheidt Aspose.PSD voor .NET zich als een krachtige toolkit, die robuuste oplossingen biedt voor het verwerken van PSD-beeldtijdlijnen. Of u nu een doorgewinterde ontwikkelaar of een codeerliefhebber bent, deze tutorial begeleidt u bij het gebruik van Aspose.PSD om de tijdlijnen van afbeeldingen gemakkelijk te manipuleren.
+In de dynamische wereld van beeldverwerking onderscheidt Aspose.PSD voor .NET zich als een krachtige toolkit, die robuuste oplossingen biedt voor het verwerken van PSD-beeldtijdlijnen. Of u nu een doorgewinterde ontwikkelaar of een liefhebber van coderen bent, deze tutorial begeleidt u bij het gebruik van Aspose.PSD om de tijdlijnen van afbeeldingen gemakkelijk te manipuleren.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 - Basiskennis van C# en .NET framework.
@@ -67,11 +67,11 @@ A1: Nee, Aspose.PSD is specifiek ontworpen voor .NET-toepassingen.
 
 ### Vraag 2: Is er een licentie vereist voor het gebruik van Aspose.PSD?
 
- A2: Ja, u heeft een geldige licentie nodig. Snap je[hier](https://purchase.aspose.com/buy).
+ A2: Ja, u heeft een geldige licentie nodig. Krijg het[hier](https://purchase.aspose.com/buy).
 
 ### V3: Kan ik Aspose.PSD gratis uitproberen voordat ik een licentie aanschaf?
 
- A3: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik gedetailleerde documentatie voor Aspose.PSD vinden?
 

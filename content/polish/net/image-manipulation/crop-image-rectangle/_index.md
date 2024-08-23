@@ -105,7 +105,7 @@ O3: Aspose.PSD dla .NET jest przeznaczony do obsługi obrazów o różnych rozmi
 
 ### P4: Czy dostępna jest wersja próbna Aspose.PSD dla .NET?
 
- Odpowiedź 4: Tak, możesz poznać funkcje biblioteki, uzyskując bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz poznać funkcje biblioteki, uzyskując bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc?
 

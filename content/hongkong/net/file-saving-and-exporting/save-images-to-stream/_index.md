@@ -78,15 +78,15 @@ using (Image image = Image.Load(sourceFile))
 
 ### Q2：如何獲得 Aspose.PSD 支援？
 
- A2：造訪 Aspose.PSD 支援論壇[這裡](https://forum.aspose.com/c/psd/34)尋求幫助和社區支持。
+ A2：請造訪 Aspose.PSD 支援論壇[這裡](https://forum.aspose.com/c/psd/34)尋求幫助和社區支持。
 
 ### Q3：有免費試用嗎？
 
- A3: 是的，您可以獲得免費試用。[這裡](https://releases.aspose.com/)在購買前探索 Aspose.PSD 的功能。
+ A3：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/)在購買前探索 Aspose.PSD 的功能。
 
 ### Q4：如何取得臨時駕照？
 
- A4：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
+ A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
 
 ### Q5：哪裡可以買到Aspose.PSD？
 

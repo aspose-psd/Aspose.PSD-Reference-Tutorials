@@ -16,7 +16,7 @@ Bem-vindo a este guia passo a passo sobre como realizar desenhos simples usando 
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Java Development Kit (JDK) instalado em sua máquina.
--  Aspose.PSD para biblioteca Java. Você pode baixá-lo no[Aspose.PSD para documentação Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD para biblioteca Java. Você pode baixá-lo no[Aspose.PSD para documentação Java](https://reference.aspose.com/psd/java/).
 
 ## Importar pacotes
 
@@ -116,7 +116,7 @@ A1: Sim, Aspose.PSD para Java oferece ampla funcionalidade para editar e manipul
 
 ### Q3: Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
 
- A3: Sim, você pode acessar a versão de avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode acessar a versão de avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q4: Como posso adquirir uma licença do Aspose.PSD para Java?
 

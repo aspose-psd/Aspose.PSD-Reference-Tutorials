@@ -95,13 +95,13 @@ Salve a imagem modificada no diretório especificado com o formato de arquivo de
 
 ## Conclusão
 
-Parabéns! Você criou com sucesso um gráfico visualmente atraente usando a classe Graphics em Aspose.PSD para .NET. Este tutorial apenas arranha a superfície do que você pode alcançar com Aspose.PSD, então fique à vontade para explorar recursos mais avançados e liberar sua criatividade!
+Parabéns! Você criou com sucesso um gráfico visualmente atraente usando a classe Graphics em Aspose.PSD para .NET. Este tutorial apenas arranha a superfície do que você pode conseguir com Aspose.PSD, então fique à vontade para explorar recursos mais avançados e liberar sua criatividade!
 
 ## Perguntas frequentes
 
 ### Q1: Posso usar Aspose.PSD para .NET em meus projetos comerciais?
 
-A1: Sim, Aspose.PSD para .NET está disponível para uso comercial. Confira a[página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
+A1: Sim, Aspose.PSD para .NET está disponível para uso comercial. Confira o[página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
 
 ### Q2: Existe uma avaliação gratuita disponível para Aspose.PSD para .NET?
 
@@ -109,7 +109,7 @@ A1: Sim, Aspose.PSD para .NET está disponível para uso comercial. Confira a[p�
 
 ### Q3: Onde posso encontrar documentação detalhada para Aspose.PSD para .NET?
 
- A3: A documentação abrangente está disponível.[aqui](https://reference.aspose.com/psd/net/).
+ A3: A documentação abrangente está disponível[aqui](https://reference.aspose.com/psd/net/).
 
 ### Q4: Como posso obter suporte para Aspose.PSD para .NET?
 
@@ -117,4 +117,4 @@ A1: Sim, Aspose.PSD para .NET está disponível para uso comercial. Confira a[p�
 
 ### Q5: Preciso de uma licença temporária para Aspose.PSD para .NET?
 
- R5: Se precisar de uma licença temporária, você poderá obtê-la.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Se você precisar de uma licença temporária, poderá obtê-la[aqui](https://purchase.aspose.com/temporary-license/).

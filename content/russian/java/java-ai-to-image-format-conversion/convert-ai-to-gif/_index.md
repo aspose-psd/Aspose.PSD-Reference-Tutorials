@@ -12,7 +12,7 @@ url: /ru/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ## Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 - Комплект разработки Java (JDK): убедитесь, что на вашем компьютере установлен JDK.
--  Aspose.PSD для библиотеки Java: Загрузите библиотеку с сайта[Страница загрузки Aspose.PSD для Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD для библиотеки Java: Загрузите библиотеку с сайта[Страница загрузки Aspose.PSD для Java](https://releases.aspose.com/psd/java/).
 - Интегрированная среда разработки (IDE). IDE, такая как IntelliJ IDEA, Eclipse или NetBeans, для написания и выполнения кода Java.
 - AI-файл: файл Adobe Illustrator, который вы хотите преобразовать.
 ## Импортировать пакеты
@@ -20,7 +20,6 @@ url: /ru/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -39,7 +38,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
 ### 2.2 Загрузите AI-файл
- Использовать`Image.load` метод загрузки вашего AI-файла. Этот метод считывает AI-файл в`AiImage` Объект Object.
+ Используйте`Image.load` метод загрузки вашего AI-файла. Этот метод считывает AI-файл в`AiImage` объект.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
@@ -54,9 +53,9 @@ GifOptions options = new GifOptions();
 ```java
 options.setDoPaletteCorrection(false);
 ```
-## Шаг 4. Сохраните AI в формате GIF.
+## Шаг 4. Сохраните AI в формате GIF.
 ### 4.1 Сохраните изображение
- Наконец, используйте`save` метод`AiImage` объект для сохранения AI-файла в формате GIF.
+ Наконец, используйте`save` метод`AiImage` объект, чтобы сохранить файл AI в формате GIF.
 ```java
 image.save(outFileName, options);
 ```
@@ -88,4 +87,4 @@ Aspose.PSD for Java — это библиотека, которая позвол
 ### Есть ли документация по Aspose.PSD для Java?
  Да, вы можете найти документацию[здесь](https://reference.aspose.com/psd/java/).
 ### Как мне получить поддержку Aspose.PSD для Java?
-Вы можете получить поддержку от сообщества Aspose и команды поддержки на их[Форум](https://forum.aspose.com/c/psd/34).
+Вы можете получить поддержку от сообщества Aspose и команды поддержки на их[форум](https://forum.aspose.com/c/psd/34).

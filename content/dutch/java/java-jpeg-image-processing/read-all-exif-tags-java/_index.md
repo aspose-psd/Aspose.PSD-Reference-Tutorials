@@ -19,7 +19,6 @@ Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u over het volgende
 Importeer om te beginnen de benodigde pakketten uit Aspose.PSD voor Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -44,7 +43,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
         JpegExifData exif = thumbnail.getJpegOptions().getExifData();
         
         if (exif != null) {
-            // Stap 3: EXIF-eigenschappen extraheren en afdrukken
+            // Stap 3: EXIF-eigenschappen uitpakken en afdrukken
             for (int j = 0; j < exif.getProperties().length; j++) {
                 System.out.println(exif.getProperties()[j].getId() + ":" + exif.getProperties()[j].getValue());
             }
@@ -54,7 +53,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 ```
 
 ## Conclusie
-In deze tutorial heb je geleerd hoe je Aspose.PSD voor Java kunt gebruiken om EXIF-tags van PSD-afbeeldingen te lezen. Deze mogelijkheid is cruciaal voor toepassingen waarbij gedetailleerde metagegevens efficiënt uit afbeeldingen moeten worden geëxtraheerd.
+In deze zelfstudie hebt u geleerd hoe u Aspose.PSD voor Java kunt gebruiken om EXIF-tags van PSD-afbeeldingen te lezen. Deze mogelijkheid is cruciaal voor toepassingen waarbij gedetailleerde metagegevens efficiënt uit afbeeldingen moeten worden geëxtraheerd.
 ## Veelgestelde vragen
 ### Wat is Aspose.PSD voor Java?
 Aspose.PSD voor Java is een Java-bibliotheek die wordt gebruikt voor het programmatisch verwerken en manipuleren van PSD-bestanden.

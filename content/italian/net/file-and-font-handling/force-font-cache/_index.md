@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /it/net/file-and-font-handling/force-font-cache/
 ---
-## introduzione
+## Introduzione
 
 Aspose.PSD per .NET fornisce potenti strumenti per lavorare con i file PSD nelle applicazioni .NET. Una caratteristica essenziale è la possibilità di forzare la cache dei caratteri, garantendo che i file PSD mantengano un rendering coerente e accurato. In questo tutorial, ti guideremo attraverso il processo di forzatura della cache dei caratteri in Aspose.PSD per .NET, passo dopo passo.
 
@@ -76,13 +76,13 @@ Forzare la cache dei caratteri in Aspose.PSD per .NET è un processo semplice, c
 
 ## Domande frequenti
 
-### Q1: Aspose.PSD per .NET è compatibile con tutte le versioni dei file PSD?
+### Q1: Aspose.PSD per .NET è compatibile con tutte le versioni di file PSD?
 
 A1: Sì, Aspose.PSD per .NET supporta varie versioni di file PSD, fornendo una compatibilità completa.
 
 ### Q2: Come posso ottenere una licenza temporanea per Aspose.PSD per .NET?
 
- A2: Visita[questo link](https://purchase.aspose.com/temporary-license/) acquisire una licenza temporanea a scopo di test.
+ A2: Visita[questo collegamento](https://purchase.aspose.com/temporary-license/) acquisire una licenza temporanea a scopo di test.
 
 ### Q3: dove posso trovare la documentazione dettagliata per Aspose.PSD per .NET?
 

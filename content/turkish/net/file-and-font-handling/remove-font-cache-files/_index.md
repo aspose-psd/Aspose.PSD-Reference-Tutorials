@@ -21,7 +21,7 @@ Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
 
 ### 2. Aspose.PSD Ad Alanına Aşinalık
 
- Adımları etkili bir şekilde uygulamak için Aspose.PSD ad alanına aşina olmak çok önemlidir. Bakın[dokümantasyon](https://reference.aspose.com/psd/net/) detaylı bilgi için.
+ Adımları etkili bir şekilde uygulamak için Aspose.PSD ad alanına aşina olmak çok önemlidir. Şuraya bakın:[dokümantasyon](https://reference.aspose.com/psd/net/) detaylı bilgi için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -88,7 +88,7 @@ Cevap2: Mümkün olsa da, uygulamanızda fontla ilgili olası sorunları önleme
 
 ### S4: Aspose.PSD for .NET için geçici bir lisans mevcut mu?
 
- Cevap4: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
+ Cevap4: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
 
 ### S5: .NET için Aspose.PSD'yi satın alabilir miyim?
 

@@ -16,7 +16,7 @@ En el mundo del desarrollo de Java, la manipulación de imágenes es una tarea c
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Kit de desarrollo de Java (JDK) instalado en su máquina.
--  Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/psd/java/).
+- Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/psd/java/).
 
 ## Importar paquetes
 
@@ -92,7 +92,7 @@ R1: Sí, Aspose.PSD para Java se puede integrar con varios marcos de Java, lo qu
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
 
- R2: Sí, puedes acceder a la versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+ R2: Sí, puedes acceder a la versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar soporte o asistencia adicional?
 
@@ -100,7 +100,7 @@ R1: Sí, Aspose.PSD para Java se puede integrar con varios marcos de Java, lo qu
 
 ### P4: ¿Cómo obtengo una licencia temporal de Aspose.PSD para Java?
 
- R4: Puede adquirir una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ R4: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P5: ¿Cuáles son los formatos de imagen admitidos para recortar en Aspose.PSD para Java?
 

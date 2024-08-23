@@ -18,7 +18,6 @@ Zanim zaczniemy, upewnij się, że masz następującą konfigurację:
 Aby rozpocząć, dołącz niezbędny pakiet Aspose.PSD do swojej klasy Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;

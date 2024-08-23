@@ -63,7 +63,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. قم بتنزيله[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني العثور على الدعم لـ Aspose.PSD؟
 

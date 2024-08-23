@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -31,28 +30,28 @@ import com.aspose.psd.imageoptions.BmpOptions;
 String dataDir = "Your Document Directory";
 Image image = new PsdImage(100, 100);
 ```
-Giải trình:
+Giải thích:
 - `PsdImage` được khởi tạo với các tham số chiều rộng và chiều cao (trong ví dụ này là 100x100 pixel).
 ## Bước 2: Khởi tạo bối cảnh đồ họa
  Tiếp theo, khởi tạo một thể hiện của`Graphics` lớp để thực hiện các thao tác vẽ trên ảnh.
 ```java
 Graphics graphics = new Graphics(image);
 ```
-Giải trình:
+Giải thích:
 - `Graphics` đối tượng được khởi tạo bằng`image` Ví dụ, cho phép các thao tác vẽ.
 ## Bước 3: Xóa bề mặt đồ họa
 Xóa bề mặt đồ họa bằng màu nền cụ thể tại đây`Color.getYellow()`.
 ```java
 graphics.clear(Color.getYellow());
 ```
-Giải trình:
+Giải thích:
 - `clear()` phương pháp thiết lập màu nền của bề mặt đồ họa.
 ## Bước 4: Khởi tạo Pen để vẽ
  Thiết lập một`Pen` đối tượng có các thuộc tính như màu sắc và chiều rộng để xác định cách vẽ đường cong.
 ```java
 Pen blackPen = new Pen(Color.getBlack(), 3);
 ```
-Giải trình:
+Giải thích:
 - `Pen` được khởi tạo với màu đen và chiều rộng 3 pixel.
 ## Bước 5: Xác định tham số đường cong Bezier
 Chỉ định điểm kiểm soát và điểm cuối cho đường cong Bezier.
@@ -62,7 +61,7 @@ float controlX1 = 20, controlY1 = 5;
 float controlX2 = 55, controlY2 = 10;
 float endX = 90, endY = 25;
 ```
-Giải trình:
+Giải thích:
 - `startX`, `startY`: Điểm bắt đầu của đường cong
 - `controlX1`, `controlY1`: Điểm kiểm soát đầu tiên.
 - `controlX2`, `controlY2`: Điểm kiểm soát thứ hai.
@@ -72,7 +71,7 @@ Giải trình:
 ```java
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```
-Giải trình:
+Giải thích:
 - `drawBezier()` phương pháp vẽ đường cong với các tham số được chỉ định bằng cách sử dụng`blackPen`.
 ## Bước 7: Lưu hình ảnh
 Lưu hình ảnh đã vẽ sang định dạng tệp BMP.
@@ -93,4 +92,4 @@ Có, Aspose.PSD cho Java hỗ trợ hình ảnh có độ phân giải cao với
 ### Tôi có thể xuất hình ảnh sang các định dạng khác ngoài BMP không?
 Có, Aspose.PSD for Java hỗ trợ xuất hình ảnh sang nhiều định dạng khác nhau như PNG, JPEG, TIFF, v.v.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Tham quan[Aspose.PSD cho tài liệu Java](https://reference.aspose.com/psd/java/) để có hướng dẫn toàn diện và mẫu mã.## Mã nguồn hoàn chỉnh
+ Ghé thăm[Aspose.PSD cho tài liệu Java](https://reference.aspose.com/psd/java/) để có hướng dẫn toàn diện và mẫu mã.## Mã nguồn hoàn chỉnh

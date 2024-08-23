@@ -29,7 +29,7 @@ Chào mừng bạn đến với lĩnh vực chỉnh sửa hình ảnh thành th�
 
 ## Tạo hình ảnh bằng Stream trong Aspose.PSD cho Java
 
- Nắm vững nghệ thuật tạo hình ảnh bằng cách sử dụng[dòng](./create-image-using-stream/) trong Aspose.PSD cho Java. Hướng dẫn của chúng tôi cung cấp một lộ trình rõ ràng để xử lý hình ảnh hiệu quả. Hãy làm theo các bước và hiện thực hóa tầm nhìn sáng tạo của bạn thông qua Aspose.PSD cho Java.
+ Nắm vững nghệ thuật tạo hình ảnh bằng cách sử dụng[suối](./create-image-using-stream/) trong Aspose.PSD cho Java. Hướng dẫn của chúng tôi cung cấp một lộ trình rõ ràng để xử lý hình ảnh hiệu quả. Hãy làm theo các bước và hiện thực hóa tầm nhìn sáng tạo của bạn thông qua Aspose.PSD cho Java.
 
 ## Cắt hình ảnh bằng hình chữ nhật trong Aspose.PSD cho Java
 

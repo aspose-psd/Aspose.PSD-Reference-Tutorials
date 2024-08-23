@@ -21,7 +21,6 @@ url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ import com.aspose.psd.imageoptions.JpegOptions;
 -  ดาวน์โหลด Aspose.PSD: รับไลบรารีจาก[กำหนดหน้าการเผยแพร่](https://releases.aspose.com/psd/java/).
 - เพิ่ม Aspose.PSD ให้กับโปรเจ็กต์ของคุณ: รวมไฟล์ JAR ไว้ในพาธบิวด์ของโปรเจ็กต์ของคุณ
 ## ขั้นตอนที่ 2: โหลดไฟล์ AI ของคุณ
- ขั้นตอนแรกในโค้ดของเราคือการโหลดไฟล์ AI โดยใช้ไฟล์`AiImage` ชั้นเรียน คลาสนี้ช่วยให้เราทำงานกับไฟล์ Adobe Illustrator ได้อย่างราบรื่น
+ขั้นตอนแรกในโค้ดของเราคือการโหลดไฟล์ AI โดยใช้ส่วนขยาย`AiImage` ระดับ. คลาสนี้ช่วยให้เราทำงานกับไฟล์ Adobe Illustrator ได้อย่างราบรื่น
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
@@ -72,7 +71,7 @@ public class AiToJpgConverter {
 ```
 เรียกใช้คลาสนี้ และคุณจะเห็นไฟล์ AI ของคุณแปลงเป็น JPG ในไดเร็กทอรีที่ระบุ
 ## บทสรุป
-การแปลงไฟล์ AI เป็น JPG ใน Java ทำได้ง่ายตรงไปตรงมาด้วยไลบรารี Aspose.PSD ด้วยการทำตามขั้นตอนที่ระบุไว้ในคู่มือนี้ คุณสามารถแปลงได้อย่างง่ายดายในขณะที่ควบคุมคุณภาพของภาพที่ส่งออกไป Aspose.PSD สำหรับ Java เป็นเครื่องมืออันทรงพลังที่นำเสนอฟีเจอร์มากมายสำหรับการปรับแต่งรูปภาพ ทำให้เป็นส่วนเสริมที่มีคุณค่าสำหรับชุดเครื่องมือของนักพัฒนา
+การแปลงไฟล์ AI เป็น JPG ใน Java ทำได้ง่ายตรงไปตรงมาด้วยไลบรารี Aspose.PSD ด้วยการทำตามขั้นตอนที่ระบุไว้ในคู่มือนี้ คุณสามารถแปลงได้อย่างง่ายดายในขณะที่ควบคุมคุณภาพของภาพที่ส่งออกไป Aspose.PSD สำหรับ Java เป็นเครื่องมืออันทรงพลังที่นำเสนอฟีเจอร์มากมายสำหรับการจัดการรูปภาพ ทำให้เป็นส่วนเสริมที่มีคุณค่าสำหรับชุดเครื่องมือของนักพัฒนา
 ## คำถามที่พบบ่อย
 ### Aspose.PSD สำหรับ Java คืออะไร
 Aspose.PSD สำหรับ Java เป็น Java API สำหรับการทำงานกับไฟล์ Photoshop และ Illustrator ซึ่งนำเสนอคุณสมบัติที่หลากหลายสำหรับการจัดการรูปภาพ

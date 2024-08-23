@@ -15,7 +15,7 @@ url: /ru/net/layer-effects/adding-stroke-effects/
 
 Прежде чем мы углубимся в руководство, убедитесь, что у вас есть следующие предварительные условия:
 
-- Aspose.PSD для .NET: Загрузите и установите библиотеку Aspose.PSD с сайта[Веб-сайт](https://releases.aspose.com/psd/net/).
+- Aspose.PSD для .NET: Загрузите и установите библиотеку Aspose.PSD с сайта[веб-сайт](https://releases.aspose.com/psd/net/).
 
 - Каталог документов: подготовьте каталог, содержащий PSD-документ, к которому вы хотите применить эффекты обводки.
 
@@ -63,7 +63,7 @@ colorFillSettings.Color = Color.Green;
 ## Шаг 3: Внешняя позиция
 
 ```csharp
-// Добавляет цветную заливку снаружи
+// Добавляет цветную заливку в позиции снаружи.
 strokeEffect = psdImage.Layers[2].BlendingOptions.AddStroke(FillType.Color);
 strokeEffect.Size = 7;
 strokeEffect.Position = StrokePosition.Outside;

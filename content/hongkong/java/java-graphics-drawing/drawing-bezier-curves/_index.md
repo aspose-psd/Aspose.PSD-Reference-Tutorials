@@ -8,7 +8,7 @@ weight: 14
 url: /zh-hant/java/java-graphics-drawing/drawing-bezier-curves/
 ---
 ## 介紹
-在Java程式設計中，繪製貝塞爾曲線等複雜形狀可以大大增強應用程式的視覺吸引力。 Aspose.PSD for Java 提供了強大的功能來有效地促進此類任務。本教學將引導您完成使用 Aspose.PSD for Java 逐步繪製貝塞爾曲線的過程，讓您輕鬆建立具有視覺吸引力的圖形。
+在Java程式設計中，繪製貝塞爾曲線等複雜形狀可以大大增強應用程式的視覺吸引力。 Aspose.PSD for Java 提供了強大的功能來有效率地完成此類任務。本教學將引導您完成使用 Aspose.PSD for Java 逐步繪製貝塞爾曲線的過程，讓您輕鬆建立具有視覺吸引力的圖形。
 ## 先決條件
 在開始之前，請確保您具備以下先決條件：
 1. Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```

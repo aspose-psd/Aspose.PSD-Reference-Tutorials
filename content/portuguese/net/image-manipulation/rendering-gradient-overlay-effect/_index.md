@@ -17,7 +17,7 @@ Libere o potencial de suas imagens dominando o efeito Gradient Overlay no Aspose
 
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-- Biblioteca Aspose.PSD: Baixe e instale a biblioteca Aspose.PSD do[local na rede Internet](https://releases.aspose.com/psd/net/).
+- Biblioteca Aspose.PSD: Baixe e instale a biblioteca Aspose.PSD do[site](https://releases.aspose.com/psd/net/).
 
 - Diretório de documentos: configure um diretório para seus documentos onde você pode armazenar seus arquivos de origem e de saída.
 

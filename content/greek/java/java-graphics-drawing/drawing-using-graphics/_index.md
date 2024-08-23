@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -67,7 +66,7 @@ graphics.fillPolygon(linearGradientBrush, points);
 image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 ```
 
-## συμπέρασμα
+## Σύναψη
 Συμπερασματικά, η αξιοποίηση του Aspose.PSD για Java επιτρέπει στους προγραμματιστές να δημιουργούν και να χειρίζονται δυναμικά εικόνες με ευκολία. Ακολουθώντας αυτόν τον οδηγό βήμα προς βήμα, μπορείτε να σχεδιάσετε αποτελεσματικά σχήματα, να εφαρμόσετε χρώματα και να αποθηκεύσετε τις δημιουργίες σας σε διάφορες μορφές. Πειραματιστείτε με διαφορετικά σχήματα, πινέλα και τεχνικές για να βελτιώσετε τις εφαρμογές σας Java με ισχυρές δυνατότητες γραφικών.
 ## Συχνές ερωτήσεις
 ### Μπορεί το Aspose.PSD να χειριστεί περίπλοκους χειρισμούς εικόνας;
@@ -75,7 +74,7 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 ### Είναι το Aspose.PSD κατάλληλο για εφαρμογές υψηλής απόδοσης;
 Οπωσδήποτε, το Aspose.PSD είναι βελτιστοποιημένο για απόδοση και απόδοση μνήμης.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
- Επισκέψου το[Aspose.PSD τεκμηρίωση Java](https://reference.aspose.com/psd/java/) για αναλυτικούς οδηγούς και αναφορές API.
+ Επισκεφθείτε το[Aspose.PSD τεκμηρίωση Java](https://reference.aspose.com/psd/java/) για αναλυτικούς οδηγούς και αναφορές API.
 ### Το Aspose.PSD υποστηρίζει πολλαπλές μορφές εικόνας για εξαγωγή;
 Ναι, το Aspose.PSD υποστηρίζει την εξαγωγή σε διάφορες μορφές όπως BMP, PNG, JPEG και TIFF.
 ### Πώς μπορώ να λάβω υποστήριξη ή βοήθεια εάν αντιμετωπίσω προβλήματα;

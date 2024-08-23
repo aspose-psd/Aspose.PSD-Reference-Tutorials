@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/net/image-processing/apply-median-wiener-filters-color-images/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questa guida passo passo sull'applicazione dei filtri mediano e Wiener nelle immagini a colori utilizzando Aspose.PSD per .NET. Aspose.PSD è una potente libreria che consente agli sviluppatori .NET di lavorare senza problemi con i file PSD. In questo tutorial esploreremo il processo di applicazione dei filtri Mediano e Wiener per migliorare e rimuovere il rumore dalle immagini a colori.
 

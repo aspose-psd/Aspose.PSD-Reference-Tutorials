@@ -91,7 +91,7 @@ A2: 예, Aspose.PSD는 Java 11 이상 버전과 호환됩니다.
 
 ### Q4: 무료 평가판이 제공됩니까?
 
- A4: 네, 도서관을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
+ A4: 네, 도서관을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
 
 ### Q5: Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 

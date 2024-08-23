@@ -8,7 +8,7 @@ weight: 11
 url: /sv/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
 ## Introduktion
-Inom området för Java-utveckling är integration av bildbehandlingsfunktioner avgörande för olika applikationer, allt från enkla bildmanipulationer till komplexa grafiska designuppgifter. Aspose.PSD för Java utmärker sig som ett kraftfullt bibliotek utformat för att hantera PSD-filer (Photoshop Document) med lätthet. Denna handledning fokuserar på en specifik uppgift: lägga till en miniatyrbild till JFIF-segmentet av en bild med Aspose.PSD för Java. I slutet av den här guiden kommer du att lära dig hur du utför detta steg-för-steg, så att du förstår varje del grundligt.
+Inom Java-utvecklingen är det avgörande att integrera bildbehandlingsmöjligheter för olika applikationer, allt från enkla bildmanipulationer till komplexa grafiska designuppgifter. Aspose.PSD för Java utmärker sig som ett kraftfullt bibliotek utformat för att hantera PSD-filer (Photoshop Document) med lätthet. Denna handledning fokuserar på en specifik uppgift: lägga till en miniatyrbild till JFIF-segmentet av en bild med Aspose.PSD för Java. I slutet av den här guiden kommer du att lära dig hur du utför detta steg-för-steg, så att du förstår varje del grundligt.
 ## Förutsättningar
 Innan du dyker in i den här handledningen, se till att du har följande förutsättningar inställda:
 -  Java Development Kit (JDK): Se till att du har Java installerat på ditt system. Du kan ladda ner den från[Oracles JDK-webbplats](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
@@ -19,7 +19,6 @@ Innan du dyker in i den här handledningen, se till att du har följande föruts
 Innan du börjar koda, importera nödvändiga paket för att använda Aspose.PSD-funktioner:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -57,7 +56,7 @@ try {
     //Spara miniatyrdata
     thumbnailImage.saveArgb32Pixels(thumbnailImage.getBounds(), pixels);
     
-    // Ställ in miniatyrbildsdata till Jpeg-alternativ
+    // Ställ in miniatyrdata till Jpeg-alternativ
     JpegExifData exifData = new JpegExifData();
     exifData.setThumbnail(thumbnailImage);
     JpegOptions jpegOptions = new JpegOptions();
@@ -88,6 +87,6 @@ Aspose.PSD för Java är ett bibliotek som tillåter Java-utvecklare att manipul
 ### Är Aspose.PSD för Java lämplig för kommersiellt bruk?
  Ja, Aspose.PSD för Java kan användas kommersiellt. Du kan köpa en licens från[Aspose.PSDs köpsida](https://purchase.aspose.com/buy).
 ### Kan jag prova Aspose.PSD för Java innan jag köper?
- Ja, du kan ladda ner en gratis testversion från[Aspose.PSD:s nedladdningssida för provversion](https://releases.aspose.com/).
+ Ja, du kan ladda ner en gratis testversion från[Aspose.PSD:s nedladdningssida för provversionen](https://releases.aspose.com/).
 ### Hur kan jag få support för Aspose.PSD för Java?
  För support, besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34).

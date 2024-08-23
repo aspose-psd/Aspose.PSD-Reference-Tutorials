@@ -16,7 +16,7 @@ In de steeds evoluerende wereld van webontwikkeling is het optimaliseren van afb
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Java-omgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw computer is geïnstalleerd.
--  Aspose.PSD voor Java-bibliotheek: Download en installeer de Aspose.PSD voor Java-bibliotheek van de[download link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD voor Java-bibliotheek: Download en installeer de Aspose.PSD voor Java-bibliotheek van de[downloadlink](https://releases.aspose.com/psd/java/).
 
 ## Pakketten importeren
 
@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Stap 5: Bewaar gecomprimeerde GIF.
+## Stap 5: Bewaar gecomprimeerde GIF
 
  Sla de gecomprimeerde GIF-afbeelding op met behulp van de`image.save` methode met de opgegeven`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD voor Java is een krachtige bibliotheek voor het werken met PSD-bes
 
 ### V3: Waar kan ik de documentatie voor Aspose.PSD voor Java vinden?
 
-A3: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/java/).
+A3: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/java/).
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A4: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### Vraag 5: Hoe kan ik Aspose.PSD voor Java kopen?
 
- A5: U kunt de bibliotheek kopen.[hier](https://purchase.aspose.com/buy).
+ A5: U kunt de bibliotheek kopen[hier](https://purchase.aspose.com/buy).

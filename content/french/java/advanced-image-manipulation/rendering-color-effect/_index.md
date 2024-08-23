@@ -73,7 +73,7 @@ im.save(pngExportPath, saveOptions);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appliqué avec succès des effets de couleur de rendu à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque ouvre un monde de possibilités de manipulation graphique dans vos applications Java.
+Félicitations! Vous avez appliqué avec succès des effets de couleur de rendu à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque ouvre un monde de possibilités de manipulation graphique dans vos applications Java.
 
 ## FAQ
 
@@ -87,7 +87,7 @@ A2 : Oui, Aspose.PSD est compatible avec Java 11 et les versions ultérieures.
 
 ### Q3 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour Java ?
 
- A3 : Visitez le[Documentation](https://reference.aspose.com/psd/java/) pour des informations détaillées et des exemples.
+ A3 : Visitez le[documentation](https://reference.aspose.com/psd/java/) pour des informations détaillées et des exemples.
 
 ### Q4 : Existe-t-il un essai gratuit ?
 

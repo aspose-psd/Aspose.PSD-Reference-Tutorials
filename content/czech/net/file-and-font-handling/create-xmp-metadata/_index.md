@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/net/file-and-font-handling/create-xmp-metadata/
 ---
-## Úvod
+## Zavedení
 
 dynamickém světě vývoje .NET je precizní manipulace s obrázky klíčovým aspektem mnoha aplikací. Tento výukový program zkoumá vytváření metadat XMP v Aspose.PSD for .NET, výkonné knihovně, která zjednodušuje úlohy zpracování obrazu. XMP (Extensible Metadata Platform) umožňuje vkládat metadata do obrazových souborů, což usnadňuje efektivní organizaci a získávání informací spojených s obrazy.
 
@@ -147,7 +147,7 @@ using (var img = (PsdImage)Image.Load(ms))
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste vytvořili metadata XMP v Aspose.PSD pro .NET. Tato výkonná funkce vylepšuje vaše možnosti zpracování obrazu a umožňuje efektivní organizaci a získávání důležitých informací.
+Gratuluji! Úspěšně jste vytvořili metadata XMP v Aspose.PSD pro .NET. Tato výkonná funkce vylepšuje vaše možnosti zpracování obrazu a umožňuje efektivní organizaci a získávání důležitých informací.
 
 ## FAQ
 

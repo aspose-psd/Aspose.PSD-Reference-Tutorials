@@ -121,7 +121,7 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 
 ### س3: أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.PSD لـ .NET؟
 
- ج3: اكتشف[توثيق](https://reference.aspose.com/psd/net/) للحصول على أمثلة وإرشادات شاملة.
+ ج3: اكتشف[الوثائق](https://reference.aspose.com/psd/net/) للحصول على أمثلة وإرشادات شاملة.
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 

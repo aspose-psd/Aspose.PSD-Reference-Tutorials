@@ -96,13 +96,13 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megvalósította az ObAr és UnFl aláírások támogatását az Aspose.PSD for .NET fájlban. Ez a funkció új lehetőségeket nyit meg a fejlett képszerkesztéshez és -manipulációhoz a .NET-alkalmazásokban.
+Gratulálok! Sikeresen megvalósította az ObAr és UnFl aláírások támogatását az Aspose.PSD for .NET fájlban. Ez a funkció új lehetőségeket nyit meg a fejlett képszerkesztéshez és -manipulációhoz a .NET-alkalmazásokban.
 
 ## GYIK
 
 ### 1. kérdés: Az Aspose.PSD kompatibilis a legújabb .NET keretrendszerekkel?
 
- 1. válasz: Az Aspose.PSD rendszeresen frissíti a kompatibilitását. Utal[dokumentáció](https://reference.aspose.com/psd/net/) a legfrissebb információkért.
+ 1. válasz: Az Aspose.PSD rendszeresen frissíti a kompatibilitását. Lásd a[dokumentáció](https://reference.aspose.com/psd/net/) a legfrissebb információkért.
 
 ### 2. kérdés: Hol találok támogatást az Aspose.PSD-hez?
 
@@ -110,11 +110,11 @@ Gratulálunk! Sikeresen megvalósította az ObAr és UnFl aláírások támogat�
 
 ### 3. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
- 3. válasz: Igen, felfedezhet egy ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezhet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- A4: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) az ideiglenes engedélyezési lehetőségekért.
+ A4: Látogassa meg[ezt a linket](https://purchase.aspose.com/temporary-license/) az ideiglenes engedélyezési lehetőségekért.
 
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.PSD-t .NET-hez?
 

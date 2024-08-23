@@ -87,4 +87,4 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### Q5: 임시 라이센스가 필요합니까?
 
- A5: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).

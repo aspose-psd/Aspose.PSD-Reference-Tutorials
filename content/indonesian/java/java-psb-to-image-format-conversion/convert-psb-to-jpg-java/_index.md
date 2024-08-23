@@ -12,14 +12,13 @@ Selamat datang di panduan komprehensif kami tentang mengonversi file PSB ke form
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, mari kita bahas prasyaratnya. Inilah yang Anda perlukan untuk memulai:
 -  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
--  Aspose.PSD untuk Perpustakaan Java: Unduh perpustakaan Aspose.PSD untuk Java dari[Unduh Halaman](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD untuk Perpustakaan Java: Unduh perpustakaan Aspose.PSD untuk Java dari[halaman unduh](https://releases.aspose.com/psd/java/).
 - Lingkungan Pengembangan: IDE seperti IntelliJ IDEA, Eclipse, atau editor teks pilihan Anda.
 - File PSB: File PSB yang ingin Anda konversi.
 ## Mengimpor Paket
 Hal pertama yang pertama, mari impor paket yang diperlukan. Impor ini penting untuk bekerja dengan perpustakaan Aspose.PSD dan menangani konversi gambar.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Sekarang file PSB Anda dimuat, Anda perlu mengatur opsi untuk konversi JPG. Ini 
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Di sini, kami membuat a`JpegOptions` objek dan mengatur kualitasnya ke 95. Anda dapat menyesuaikan nilai ini untuk mengontrol kompresi dan kualitas gambar keluaran.
+Di sini, kami membuat a`JpegOptions` objek dan mengatur kualitasnya ke 95. Anda dapat menyesuaikan nilai ini untuk mengontrol kompresi dan kualitas gambar keluaran.
 ## Langkah 4: Simpan Gambar sebagai JPG
 Dengan pilihan yang ditetapkan, Anda siap menyimpan file PSB Anda sebagai JPG. Di sinilah konversi sebenarnya terjadi.
 ```java
@@ -61,9 +60,9 @@ Baik Anda seorang pengembang yang mengerjakan aplikasi pemrosesan gambar atau ha
 ### Apa itu Aspose.PSD untuk Java?
 Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipulasi dan mengonversi file PSD dan PSB dalam aplikasi Java. Ini mendukung berbagai fitur termasuk memuat, mengedit, dan menyimpan file Photoshop.
 ### Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
- Ya, Anda dapat mengunduh uji coba gratis Aspose.PSD untuk Java dari[Unduh Halaman](https://releases.aspose.com/). Ini memungkinkan Anda mengevaluasi perpustakaan dan fitur-fiturnya sebelum melakukan pembelian.
+ Ya, Anda dapat mengunduh uji coba gratis Aspose.PSD untuk Java dari[halaman unduh](https://releases.aspose.com/). Ini memungkinkan Anda mengevaluasi perpustakaan dan fitur-fiturnya sebelum melakukan pembelian.
 ### Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
-Anda dapat memperoleh lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/). Ini akan memungkinkan Anda untuk menggunakan seluruh fitur perpustakaan untuk jangka waktu terbatas.
+ Anda dapat memperoleh lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/). Ini akan memungkinkan Anda untuk menggunakan seluruh fitur perpustakaan untuk jangka waktu terbatas.
 ### Apakah ada dukungan yang tersedia jika saya mengalami masalah?
  Sangat! Anda dapat mengakses dukungan melalui[Forum dukungan Aspose.PSD](https://forum.aspose.com/c/psd/34). Tim dukungan responsif dan siap membantu Anda dengan masalah atau pertanyaan apa pun yang mungkin Anda miliki.
 ### Bisakah saya menyesuaikan kualitas keluaran JPG?

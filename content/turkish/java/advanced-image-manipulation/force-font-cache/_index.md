@@ -16,7 +16,7 @@ Aspose.PSD for Java ile yazı tipi önbelleğe almayı optimize etmek mi istiyor
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Makinenizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.PSD for Java kütüphanesinden indirildi[İndirme: {link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD for Java kütüphanesinden indirildi[indirme bağlantısı](https://releases.aspose.com/psd/java/).
 - Test amaçlı örnek bir PSD dosyası.
 
 Artık her şeyi ayarladığınıza göre, öğreticiye devam edelim.

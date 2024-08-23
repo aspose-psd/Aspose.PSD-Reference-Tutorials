@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /it/net/image-manipulation/crop-image-shifts/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente toolkit per attività di elaborazione delle immagini. Una delle sue caratteristiche degne di nota è la capacità di ritagliare le immagini con precisione, grazie alla funzionalità "Ritaglio per turni". In questa guida passo passo, ti guideremo attraverso il processo di ritaglio delle immagini senza problemi utilizzando Aspose.PSD per .NET.
 
@@ -96,7 +96,7 @@ R1: Sì, Aspose.PSD supporta vari formati di immagine, consentendoti di ritaglia
 
 ### Q3: Come posso ottenere una licenza temporanea per Aspose.PSD per .NET?
 
- R3: È possibile acquisire una licenza temporanea a scopo di test.[Qui](https://purchase.aspose.com/temporary-license/).
+ R3: È possibile acquisire una licenza temporanea a scopo di test[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Dove posso trovare ulteriore supporto e discussioni relative ad Aspose.PSD?
 

@@ -9,7 +9,7 @@ url: /hu/net/psd-drawing-techniques/constructing-rectangles/
 ---
 ## Bevezetés
 
-.NET fejlesztés dinamikus területén az Aspose.PSD a képkezelés hatékony eszközeként tűnik ki. Ez az oktatóanyag egy alapvető feladatra összpontosít: téglalapok létrehozására az Aspose.PSD for .NET használatával. Akár tapasztalt fejlesztő, akár csak kezdő, ez a lépésről lépésre végigvezeti Önt a folyamaton, és biztosítja, hogy minden koncepciót alaposan megértsen.
+.NET fejlesztés dinamikus területén az Aspose.PSD a képkezelés hatékony eszközeként tűnik ki. Ez az oktatóanyag egy alapvető feladatra összpontosít: téglalapok létrehozására az Aspose.PSD for .NET használatával. Akár tapasztalt fejlesztő, akár csak most kezdi, ez a lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy minden koncepciót alaposan megértsen.
 
 ## Előfeltételek
 
@@ -71,7 +71,7 @@ using (Image image = new PsdImage(100, 100))
 
 ## Következtetés
 
-Gratulálunk! Sikeresen szerkesztett téglalapokat az Aspose.PSD for .NET használatával. Ez az oktatóanyag olyan tudással gazdagította, amellyel a képkezelést zökkenőmentesen integrálhatja .NET-alkalmazásaiba.
+Gratulálok! Sikeresen szerkesztett téglalapokat az Aspose.PSD for .NET használatával. Ez az oktatóanyag olyan tudással gazdagította, amellyel a képkezelést zökkenőmentesen integrálhatja .NET-alkalmazásaiba.
 
 ## GYIK
 
@@ -93,4 +93,4 @@ A4: A 32 Bpp használata gazdagabb színmegjelenítést tesz lehetővé, amely r
 
 ### 5. kérdés: Elérhető az Aspose.PSD ingyenes próbaverziója?
 
- 5. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval. Töltsd le[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval. Töltse le[itt](https://releases.aspose.com/).

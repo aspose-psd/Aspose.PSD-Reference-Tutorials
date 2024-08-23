@@ -7,9 +7,9 @@ type: docs
 weight: 16
 url: /cs/java/advanced-techniques/save-images-to-stream/
 ---
-## Úvod
+## Zavedení
 
-V tomto tutoriálu prozkoumáme, jak ukládat obrázky do streamu pomocí Aspose.PSD pro Javu. Aspose.PSD je výkonná Java knihovna pro zpracování a manipulaci se soubory PSD (Photoshop Document). Pokud chcete vylepšit svou aplikaci Java o možnost ukládat obrázky PSD do streamu, postupujte podle kroků uvedených v této příručce.
+tomto tutoriálu prozkoumáme, jak ukládat obrázky do streamu pomocí Aspose.PSD pro Javu. Aspose.PSD je výkonná Java knihovna pro zpracování a manipulaci se soubory PSD (Photoshop Document). Pokud chcete vylepšit svou aplikaci Java o možnost ukládat obrázky PSD do streamu, postupujte podle kroků uvedených v této příručce.
 
 ## Předpoklady
 
@@ -17,7 +17,7 @@ Než se ponoříte do výukového programu, ujistěte se, že máte následujíc
 
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
 
-2.  Knihovna Aspose.PSD: Stáhněte si a zahrňte knihovnu Aspose.PSD do svého projektu Java. Můžete najít knihovnu a příslušnou dokumentaci[tady](https://reference.aspose.com/psd/java/).
+2.  Knihovna Aspose.PSD: Stáhněte si a zahrňte knihovnu Aspose.PSD do svého projektu Java. Můžete najít knihovnu a příslušnou dokumentaci[zde](https://reference.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -41,7 +41,7 @@ Nyní si tento proces rozdělíme do několika kroků, jak uložit obrázky do s
 String dataDir = "Your Document Directory";
 ```
 
- Nahradit`"Your Document Directory"` cestou k adresáři, kde se nachází váš soubor PSD.
+ Nahradit`"Your Document Directory"` s cestou k adresáři, kde se nachází váš soubor PSD.
 
 ## Krok 2: Zadejte zdroj a cíl
 
@@ -68,13 +68,13 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Vytvořit`FileOutputStream` pro cílový soubor a uložte obrázek PSD do streamu pomocí možností PNG.
+ Vytvořte a`FileOutputStream`pro cílový soubor a uložte obrázek PSD do streamu pomocí možností PNG.
 
 Opakujte tyto kroky podle potřeby pro váš konkrétní případ použití.
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili ukládat obrázky do streamu pomocí Aspose.PSD pro Javu. Tato funkce je užitečná pro různé aplikace a umožňuje bezproblémovou integraci zpracování obrazu PSD do vašich projektů Java.
+Gratuluji! Úspěšně jste se naučili ukládat obrázky do streamu pomocí Aspose.PSD pro Javu. Tato funkce je užitečná pro různé aplikace a umožňuje bezproblémovou integraci zpracování obrazu PSD do vašich projektů Java.
 
 ## FAQ
 
@@ -88,12 +88,12 @@ A1: Ano, Aspose.PSD je široce používán v profesionálních Java projektech p
 
 ### Q3: Mohu vyzkoušet Aspose.PSD před nákupem?
 
-A3: Ano, můžete prozkoumat a[zkušební verze zdarma](https://releases.aspose.com/) k vyhodnocení schopností Aspose.PSD.
+ A3: Ano, můžete prozkoumat a[zkušební verze zdarma](https://releases.aspose.com/) k vyhodnocení schopností Aspose.PSD.
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A4: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování a vývoj.
+ A4: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro testování a vývoj.
 
 ### Q5: Kde si mohu koupit plnou verzi Aspose.PSD pro Java?
 
- A5: Kupte si plnou verzi[tady](https://purchase.aspose.com/buy).
+ A5: Kupte si plnou verzi[zde](https://purchase.aspose.com/buy).

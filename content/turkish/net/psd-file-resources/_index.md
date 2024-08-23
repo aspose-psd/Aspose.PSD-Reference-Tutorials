@@ -32,9 +32,9 @@ Aspose.PSD for .NET eğitimlerimizle yaratıcı ustalık yolculuğuna çıkın. 
 
 ## PSD Dosya Kaynakları Eğitimleri
 ### [Aspose.PSD for .NET'te Arka Plan Rengi Kaynağını Destekleme](./supporting-background-color-resource/)
-Adım adım kılavuzumuzla Aspose.PSD for .NET'te ustalaşın. PSD görüntülerini zahmetsizce değiştirin. Şimdi ücretsiz deneme sürümünü indirin!
+Adım adım kılavuzumuzla Aspose.PSD for .NET'te ustalaşın. PSD görüntülerini zahmetsizce değiştirin. Ücretsiz deneme sürümünüzü şimdi indirin!
 ### [Aspose.PSD for .NET'te Sınır Bilgi Kaynağını Destekleme](./supporting-border-information-resource/)
-Gelişmiş görüntüleme için Aspose.PSD for .NET'in Sınır Bilgi Kaynağı özelliğini keşfedin. Sorunsuz entegrasyon için eğitimimizi takip edin. Şimdi İndirin!
+Gelişmiş görüntüleme için Aspose.PSD for .NET'in Sınır Bilgi Kaynağı özelliğini keşfedin. Sorunsuz entegrasyon için eğitimimizi takip edin. Şimdi indirin!
 ### [Aspose.PSD for .NET'te Çalışma Yolu Kaynağını Destekleme](./supporting-working-path-resource/)
 Aspose.PSD for .NET'te 'WorkingPathResource'un gücünü keşfedin. Bu adım adım kılavuzla görüntü hassasiyetini artırın.
 ### [Aspose.PSD for .NET'te Siyah Beyaz (Blwh) Kaynağını Destekleme](./supporting-black-and-white-blwh-resource/)

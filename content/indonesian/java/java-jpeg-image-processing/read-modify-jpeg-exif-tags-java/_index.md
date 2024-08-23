@@ -19,7 +19,6 @@ Sebelum kita mulai, pastikan Anda memiliki yang berikut ini:
 Hal pertama yang pertama, mari impor paket yang diperlukan. Buka Java IDE Anda dan buat proyek Java baru. Kemudian, sertakan pustaka Aspose.PSD untuk Java dalam dependensi proyek Anda.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -59,7 +58,7 @@ if (exifData != null) {
 }
 ```
 ## Langkah 4: Ubah Data EXIF
-Setelah membaca data EXIF, Anda mungkin ingin mengubah beberapa bidangnya. Inilah cara Anda melakukannya:
+Setelah membaca data EXIF, Anda mungkin ingin mengubah beberapa kolomnya. Inilah cara Anda melakukannya:
 ```java
 if (exifData != null) {
     exifData.setCameraOwnerName("New Camera Owner");
@@ -71,7 +70,7 @@ if (exifData != null) {
 }
 ```
 ## Langkah 5: Simpan Perubahan
-Terakhir, setelah memodifikasi data EXIF, simpan perubahan tersebut ke file PSD baru.
+Terakhir, setelah memodifikasi data EXIF, simpan perubahan ke file PSD baru.
 ```java
 try {
     image.save(dataDir + "Modified_Zebras_Serengeti.psd");

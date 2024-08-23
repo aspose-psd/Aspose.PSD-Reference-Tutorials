@@ -52,7 +52,7 @@ Fedezze fel az Aspose.PSD for .NET erejét az ívek erőfeszítés nélküli raj
 ### [A Bezier-görbék használata az Aspose.PSD-ben .NET-hez](./utilizing-bezier-curves/)
 Fedezze fel a Bezier-görbék erejét az Aspose.PSD for .NET-ben! Tanuljon lépésről lépésre ezzel az oktatóanyaggal. Emelje fel grafikai tervezési játékát még ma.
 ### [Elliptikus alakzatok létrehozása az Aspose.PSD segítségével .NET-hez](./creating-elliptical-shapes/)
-Ismerje meg, hogyan rajzolhat elliptikus alakzatokat .NET-ben az Aspose.PSD használatával. Lépésről lépésre útmutató kódpéldákkal. Lenyűgöző grafikákat készíthet könnyedén.
+Ismerje meg, hogyan rajzolhat elliptikus alakzatokat .NET-ben az Aspose.PSD használatával. Útmutató lépésről lépésre kódpéldákkal. Lenyűgöző grafikákat készíthet könnyedén.
 ### [Hatékony vonalak rajzolása az Aspose.PSD-ben .NET-hez](./drawing-lines-effectively/)
 Fedezze fel a vonalak rajzolásának művészetét .NET alkalmazásokban az Aspose.PSD segítségével. Kövesse átfogó oktatóanyagunkat, hogy könnyedén fejlessze képmanipulációs készségeit.
 ### [Téglalapok létrehozása az Aspose.PSD-ben .NET-hez](./constructing-rectangles/)

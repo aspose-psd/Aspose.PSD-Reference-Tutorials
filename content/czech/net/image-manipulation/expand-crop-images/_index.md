@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/image-manipulation/expand-crop-images/
 ---
-## Úvod
+## Zavedení
 
 Aspose.PSD for .NET je komplexní knihovna pro zpracování obrázků, která umožňuje vývojářům pracovat s různými formáty obrázků v jejich aplikacích .NET. Jednou z jeho výjimečných vlastností je schopnost snadno manipulovat s obrázky. V tomto tutoriálu se zaměříme na rozšiřování a ořezávání obrázků a poskytneme vám praktického průvodce k dosažení těchto úkolů pomocí Aspose.PSD.
 
@@ -75,7 +75,7 @@ rasterImage.Save(destName, new JpegOptions(), destRect);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak rozbalit a oříznout obrázky pomocí Aspose.PSD pro .NET. Tato výkonná knihovna otevírá svět možností pro manipulaci s obrázky ve vašich aplikacích .NET.
+Gratuluji! Úspěšně jste se naučili, jak rozbalit a oříznout obrázky pomocí Aspose.PSD pro .NET. Tato výkonná knihovna otevírá svět možností pro manipulaci s obrázky ve vašich aplikacích .NET.
 
 ## FAQ
 

@@ -81,7 +81,7 @@ Salve a imagem girada com opções especificadas (neste caso, como JPEG).
 
 ## Conclusão
 
- Parabéns! Você girou com sucesso uma imagem em um ângulo específico usando Aspose.PSD para .NET. Esta biblioteca fornece um conjunto robusto de ferramentas para manipulação de imagens e este tutorial é apenas a ponta do iceberg. Explore o[documentação](https://reference.aspose.com/psd/net/) para mais recursos e opções.
+ Parabéns! Você girou com sucesso uma imagem em um ângulo específico usando Aspose.PSD para .NET. Esta biblioteca fornece um conjunto robusto de ferramentas para manipulação de imagens e este tutorial é apenas a ponta do iceberg. Explorar o[documentação](https://reference.aspose.com/psd/net/) para mais recursos e opções.
 
 ## Perguntas frequentes
 
@@ -103,4 +103,4 @@ R3: Embora não seja obrigatório, o armazenamento em cache dos dados pode melho
 
 ### Q5: Posso experimentar o Aspose.PSD antes de comprar?
 
- A5: Certamente! Pegue o seu[teste grátis](https://releases.aspose.com/) para explorar os recursos da biblioteca.
+ A5: Certamente! Pegue o seu[teste gratuito](https://releases.aspose.com/)para explorar os recursos da biblioteca.

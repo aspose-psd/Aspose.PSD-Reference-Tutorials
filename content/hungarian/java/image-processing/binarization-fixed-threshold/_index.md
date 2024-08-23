@@ -74,7 +74,7 @@ String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-És ez az! Sikeresen alkalmazta a Fix Threshold binarizálást az Aspose.PSD for Java segítségével.
+És ennyi! Sikeresen alkalmazta a Fix Threshold binarizálást az Aspose.PSD for Java segítségével.
 
 ## Következtetés
 
@@ -96,8 +96,8 @@ V1: Igen, az Aspose.PSD különféle képformátumokat támogat, így a binariz�
 
 ### 4. kérdés: Hogyan vásárolhatom meg az Aspose.PSD könyvtárat?
 
- 4. válasz: Megvásárolhatja az Aspose.PSD könyvtárat.[itt](https://purchase.aspose.com/buy).
+ 4. válasz: Megvásárolhatja az Aspose.PSD könyvtárat[itt](https://purchase.aspose.com/buy).
 
 ### 5. kérdés: Elérhető ingyenes próbaverzió?
 
- 5. válasz: Igen, felfedezheti az Aspose.PSD képességeit egy ingyenes próbaverzióval.[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, felfedezheti az Aspose.PSD képességeit egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).

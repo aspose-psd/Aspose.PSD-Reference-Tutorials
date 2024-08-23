@@ -76,7 +76,7 @@ Répétez ces étapes pour votre cas d'utilisation spécifique et vous aurez app
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris à implémenter Bradley Thresholding dans Aspose.PSD pour Java. Cette technique améliore la qualité de l'image et constitue un outil précieux dans les applications de traitement d'image.
+Félicitations! Vous avez appris à implémenter Bradley Thresholding dans Aspose.PSD pour Java. Cette technique améliore la qualité de l'image et constitue un outil précieux dans les applications de traitement d'image.
 
 ## FAQ
 
@@ -98,4 +98,4 @@ A4 : Oui, vous pouvez utiliser des méthodes supplémentaires fournies par Aspos
 
 ### Q5 : Où puis-je trouver plus d’assistance et de ressources ?
 
- A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour obtenir le soutien de la communauté et explorer les[Documentation](https://reference.aspose.com/psd/java/) pour des informations détaillées.
+ A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour obtenir le soutien de la communauté et explorer les[documentation](https://reference.aspose.com/psd/java/) pour des informations détaillées.

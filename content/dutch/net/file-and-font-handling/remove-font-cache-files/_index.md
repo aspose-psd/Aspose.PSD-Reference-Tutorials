@@ -21,7 +21,7 @@ Voordat u begint, moet u ervoor zorgen dat u over het volgende beschikt:
 
 ### 2. Bekendheid met Aspose.PSD-naamruimte
 
- Om de stappen effectief te implementeren, is het essentieel dat u bekend bent met de naamruimte Aspose.PSD. Verwijs naar de[documentatie](https://reference.aspose.com/psd/net/) voor gedetailleerde informatie.
+ Om de stappen effectief te implementeren, is het essentieel dat u bekend bent met de naamruimte Aspose.PSD. Raadpleeg de[documentatie](https://reference.aspose.com/psd/net/) voor gedetailleerde informatie.
 
 ## Naamruimten importeren
 
@@ -76,7 +76,7 @@ Concluderend is het aanpakken van lettertype-gerelateerde uitdagingen in Aspose.
 
 ### Vraag 1: Waarom hebben lettertypecachebestanden invloed op Aspose.PSD voor .NET-prestaties?
 
-A1: Lettertypecachebestanden slaan informatie op over geladen lettertypen, en de opeenstapeling ervan kan leiden tot prestatieproblemen. Het verwijderen van deze bestanden is essentieel voor een optimale werking.
+A1: Lettertypecachebestanden slaan informatie op over geladen lettertypen, en de opeenstapeling ervan kan tot prestatieproblemen leiden. Het verwijderen van deze bestanden is essentieel voor een optimale werking.
 
 ### V2: Kan ik Aspose.PSD voor .NET gebruiken zonder lettertypecachebestanden te verwijderen?
 
@@ -88,7 +88,7 @@ A2: Hoewel dit mogelijk is, wordt het aanbevolen om lettertypecachebestanden te 
 
 ### V4: Is er een tijdelijke licentie beschikbaar voor Aspose.PSD voor .NET?
 
- A4: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+ A4: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
 
 ### V5: Kan ik Aspose.PSD voor .NET kopen?
 

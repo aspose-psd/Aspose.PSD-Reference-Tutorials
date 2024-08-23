@@ -90,7 +90,7 @@ Assert.areEqual(0, shadowEffect.getNoise());
 
 ## 步驟6：另存為PNG
 
-將修改後的圖像儲存為 PNG 檔案。
+將修改後的圖像另存為 PNG 檔案。
 
 ```java
 PngOptions saveOptions = new PngOptions();

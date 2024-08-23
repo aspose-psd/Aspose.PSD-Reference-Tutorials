@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/basic-image-operations/simple-drawing/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto podrobném průvodci prováděním jednoduchého kreslení pomocí Aspose.PSD pro Javu! V tomto tutoriálu prozkoumáme základy vytváření nového dokumentu PSD, přidávání vrstev a kreslení tvarů různými barvami. Aspose.PSD for Java je výkonná knihovna, která vám umožňuje programově manipulovat se soubory PSD a poskytuje rozsáhlé funkce pro úlohy grafického designu.
 
@@ -16,7 +16,7 @@ Vítejte v tomto podrobném průvodci prováděním jednoduchého kreslení pomo
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný na vašem počítači.
--  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[Aspose.PSD pro dokumentaci Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[Aspose.PSD pro dokumentaci Java](https://reference.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -63,7 +63,7 @@ image.addLayer(layer);
 
 ## Krok 3: Nakreslete tvary
 
-tomto kroku použijeme třídu Graphics ke kreslení tvarů na vytvořenou vrstvu:
+V tomto kroku použijeme třídu Graphics ke kreslení tvarů na vytvořenou vrstvu:
 
 ### Nakreslete obdélník se žlutou barvou
 
@@ -102,7 +102,7 @@ image.save(outPsdFilePath);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste provedli jednoduché kreslení pomocí Aspose.PSD pro Javu. Tento kurz se zabýval vytvářením nového dokumentu, přidáváním vrstev a kreslením obdélníků s různými barvami. Neváhejte a prozkoumejte pokročilejší funkce, které knihovna nabízí pro vaše potřeby grafického designu.
+Gratuluji! Úspěšně jste provedli jednoduché kreslení pomocí Aspose.PSD pro Javu. Tento kurz se zabýval vytvářením nového dokumentu, přidáváním vrstev a kreslením obdélníků s různými barvami. Neváhejte a prozkoumejte pokročilejší funkce, které knihovna nabízí pro vaše potřeby grafického designu.
 
 ## FAQ
 
@@ -116,12 +116,12 @@ Odpověď 1: Ano, Aspose.PSD for Java poskytuje rozsáhlé funkce pro úpravu a 
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu zakoupit licenci pro Aspose.PSD pro Java?
 
- A4: Můžete si zakoupit licenci z[Nákupní stránka Aspose.PSD](https://purchase.aspose.com/buy).
+ A4: Můžete si koupit licenci od[Nákupní stránka Aspose.PSD](https://purchase.aspose.com/buy).
 
 ### Q5: Jsou k dispozici dočasné licence pro Aspose.PSD pro Java?
 
- A5: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).

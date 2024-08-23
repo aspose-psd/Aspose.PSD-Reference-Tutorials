@@ -15,10 +15,9 @@ Innan du dyker in i den här handledningen, se till att du har följande föruts
 - Integrated Development Environment (IDE) som IntelliJ IDEA eller Eclipse.
 -  Aspose.PSD för Java-bibliotek nedladdat. Du kan få det från[här](https://releases.aspose.com/psd/java/).
 ## Importera paket
-För att börja, importera de nödvändiga paketen från Aspose.PSD för Java i ditt projekt:
+För att börja, importera nödvändiga paket från Aspose.PSD för Java i ditt projekt:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -32,7 +31,7 @@ String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "example.psd");
 ```
 ## Steg 2: Iterera över bildresurser
-Iterera sedan genom bildresurserna för att hitta EXIF-data:
+Gå sedan igenom bildresurserna för att hitta EXIF-data:
 ```java
 for(int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {

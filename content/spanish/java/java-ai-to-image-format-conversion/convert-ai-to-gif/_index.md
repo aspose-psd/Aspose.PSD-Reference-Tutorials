@@ -12,7 +12,7 @@ Convertir archivos AI (Adobe Illustrator) a GIF en Java puede parecer una tarea 
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener lo siguiente:
 - Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su máquina.
--  Biblioteca Aspose.PSD para Java: descargue la biblioteca desde[Página de descarga de Aspose.PSD para Java](https://releases.aspose.com/psd/java/).
+- Biblioteca Aspose.PSD para Java: descargue la biblioteca desde[Página de descarga de Aspose.PSD para Java](https://releases.aspose.com/psd/java/).
 - Entorno de desarrollo integrado (IDE): un IDE como IntelliJ IDEA, Eclipse o NetBeans para escribir y ejecutar código Java.
 - Archivo AI: el archivo de Adobe Illustrator que desea convertir.
 ## Importar paquetes
@@ -20,7 +20,6 @@ Primero lo primero, importemos los paquetes necesarios. Esto incluirá el paquet
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -39,7 +38,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
 ### 2.2 Cargar el archivo AI
- Utilizar el`Image.load` método para cargar su archivo AI. Este método lee el archivo AI en un`AiImage` objeto.
+ Utilice el`Image.load` método para cargar su archivo AI. Este método lee el archivo AI en un`AiImage` objeto.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
@@ -76,7 +75,7 @@ try {
 }
 ```
 ## Conclusión
-¡Ahí tienes! Con solo unas pocas líneas de código, puedes convertir un archivo AI en un GIF usando Aspose.PSD para Java. Esta biblioteca simplifica el proceso, permitiéndole concentrarse en crear excelentes aplicaciones sin preocuparse por conversiones de archivos complejas. 
+¡Ahí lo tienes! Con solo unas pocas líneas de código, puedes convertir un archivo AI en un GIF usando Aspose.PSD para Java. Esta biblioteca simplifica el proceso, permitiéndole concentrarse en crear excelentes aplicaciones sin preocuparse por conversiones de archivos complejas. 
 Aspose.PSD para Java es una herramienta versátil que puede manejar una amplia gama de tareas de manipulación de imágenes. Entonces, ya sea que esté trabajando en una herramienta de diseño gráfico, una aplicación de procesamiento automatizado de imágenes o simplemente necesite convertir archivos para un proyecto específico, Aspose.PSD lo tiene cubierto.
 ## Preguntas frecuentes
 ### ¿Qué es Aspose.PSD para Java?

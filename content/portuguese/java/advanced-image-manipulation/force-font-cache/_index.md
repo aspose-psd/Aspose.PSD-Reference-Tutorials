@@ -16,7 +16,7 @@ Você está procurando otimizar o cache de fontes com Aspose.PSD para Java? O ca
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Java Development Kit (JDK) instalado em sua máquina.
--  Biblioteca Aspose.PSD para Java baixada do[Link para Download](https://releases.aspose.com/psd/java/).
+-  Biblioteca Aspose.PSD para Java baixada do[link para baixar](https://releases.aspose.com/psd/java/).
 - Um arquivo PSD de amostra para fins de teste.
 
 Agora que você configurou tudo, vamos prosseguir com o tutorial.
@@ -76,7 +76,7 @@ A1: Aspose.PSD para Java foi projetado para funcionar com várias versões Java,
 
 ### Q2: Posso usar Aspose.PSD para fins comerciais?
 
- A2: Sim, Aspose.PSD vem com opções de licenciamento flexíveis, incluindo uso comercial. Visite a[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
+ A2: Sim, Aspose.PSD vem com opções de licenciamento flexíveis, incluindo uso comercial. Visite o[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
 
 ### Q3: Existe um teste gratuito disponível?
 

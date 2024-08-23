@@ -21,7 +21,7 @@ url: /th/net/psd-drawing-techniques/creative-drawing-using-graphics/
 
 ## นำเข้าเนมสเปซ
 
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ .NET ของคุณ เนมสเปซเหล่านี้มีความสำคัญอย่างยิ่งต่อการทำงานกับฟังก์ชัน Aspose.PSD
+เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ .NET ของคุณ เนมสเปซเหล่านี้มีความสำคัญอย่างยิ่งต่อการทำงานกับฟังก์ชัน Aspose.PSD
 
 ```csharp
 using Aspose.PSD.Brushes;
@@ -85,7 +85,7 @@ using (var linearGradientBrush = new LinearGradientBrush(image.Bounds, Color.Red
 
 สร้างรูปหลายเหลี่ยมและเติมด้วยการไล่ระดับสีเชิงเส้นโดยใช้ LinearGradientBrush
 
-## ขั้นตอนที่ 7: ส่งออกรูปภาพที่แก้ไข
+## ขั้นตอนที่ 7: ส่งออกรูปภาพที่ถูกแก้ไข
 
 ```csharp
 image.Save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());

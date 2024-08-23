@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/java/image-editing/combine-images/
 ---
-## Úvod
+## Zavedení
 
 V oblasti programování Java vyniká Aspose.PSD jako výkonný nástroj pro manipulaci a zpracování obrázků. Jednou z jeho pozoruhodných funkcí je schopnost bezproblémově kombinovat více obrázků. Tento tutoriál vás provede procesem sloučení dvou obrázků do jednoho souboru PSD pomocí Aspose.PSD for Java.
 
@@ -15,7 +15,7 @@ V oblasti programování Java vyniká Aspose.PSD jako výkonný nástroj pro man
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Knihovna Aspose.PSD: Ujistěte se, že máte ve svém prostředí Java nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/java/).
+1.  Knihovna Aspose.PSD: Ujistěte se, že máte ve svém prostředí Java nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/java/).
 
 2. Java Development Kit (JDK): Aspose.PSD vyžaduje ke spuštění Java. Nainstalujte do počítače nejnovější verzi JDK.
 
@@ -84,7 +84,7 @@ Uložte konečný kombinovaný obrázek:
 image.save();
 ```
 
-Gratulujeme! Úspěšně jste zkombinovali dva obrázky do jednoho souboru PSD pomocí Aspose.PSD for Java.
+Gratuluji! Úspěšně jste zkombinovali dva obrázky do jednoho souboru PSD pomocí Aspose.PSD for Java.
 
 ## Závěr
 
@@ -102,11 +102,11 @@ A2: Rozhodně! Po zkombinování obrázků můžete s výsledným PSD dále mani
 
 ### Q3: Existují nějaké licenční požadavky pro používání Aspose.PSD?
 
- A3: Ano, pro komerční použití je vyžadována platná licence. Získejte to od[tady](https://purchase.aspose.com/buy).
+ A3: Ano, pro komerční použití je vyžadována platná licence. Získejte to od[zde](https://purchase.aspose.com/buy).
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
- A4: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí.[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
 
 ### Q5: Kde najdu podporu pro dotazy související s Aspose.PSD?
 

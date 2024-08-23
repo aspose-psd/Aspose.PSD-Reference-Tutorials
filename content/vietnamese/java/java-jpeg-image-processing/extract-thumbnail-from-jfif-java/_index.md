@@ -19,7 +19,6 @@ Trước khi tiếp tục với hướng dẫn này, hãy đảm bảo bạn có
 Để bắt đầu, hãy đảm bảo bạn đã nhập các gói cần thiết vào dự án Java của mình:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;

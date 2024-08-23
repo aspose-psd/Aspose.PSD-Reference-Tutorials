@@ -109,7 +109,7 @@ A3: Abszolút. Az Aspose.PSD hatékony kötegelt feldolgozást tesz lehetővé, 
 
 ### 4. kérdés: Vannak-e licencelési megkötések az Aspose.PSD használatához?
 
- A4: Lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért. Az ideiglenes licenceket is felfedezheti[itt](https://purchase.aspose.com/temporary-license/).
+ A4: Lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért. Az ideiglenes licenceket is felfedezheti[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol kérhetek támogatást vagy csatlakozhatok a közösséghez?
 

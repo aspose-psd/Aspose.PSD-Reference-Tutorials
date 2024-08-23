@@ -19,7 +19,6 @@ Zanim przejdziemy do samouczka, omówmy wymagania wstępne. Oto, czego będziesz
 Na początek zaimportujmy niezbędne pakiety. Importy te są niezbędne do pracy z biblioteką Aspose.PSD i obsługi konwersji obrazów.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Teraz, gdy plik PSB jest już załadowany, musisz ustawić opcje konwersji JPG. 
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Tutaj tworzymy`JpegOptions` obiektu i ustawiając jakość na 95. Możesz dostosować tę wartość, aby kontrolować kompresję i jakość obrazu wyjściowego.
+Tutaj tworzymy`JpegOptions` obiektu i ustawiając jakość na 95. Możesz dostosować tę wartość, aby kontrolować kompresję i jakość obrazu wyjściowego.
 ## Krok 4: Zapisz obraz jako JPG
 Po ustawieniu opcji możesz zapisać plik PSB w formacie JPG. To tutaj następuje rzeczywista konwersja.
 ```java
@@ -63,8 +62,8 @@ Aspose.PSD for Java to biblioteka, która umożliwia programistom manipulowanie 
 ### Czy mogę wypróbować Aspose.PSD dla Java przed zakupem?
  Tak, możesz pobrać bezpłatną wersję próbną Aspose.PSD dla Java z[strona pobierania](https://releases.aspose.com/). Dzięki temu możesz ocenić bibliotekę i jej funkcje przed dokonaniem zakupu.
 ### Jak uzyskać tymczasową licencję na Aspose.PSD dla Java?
-Licencję tymczasową można uzyskać od firmy[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/). Umożliwi to korzystanie z pełnych funkcji biblioteki przez ograniczony czas.
+ Licencję tymczasową można uzyskać od firmy[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/). Umożliwi to korzystanie z pełnych funkcji biblioteki przez ograniczony czas.
 ### Czy dostępna jest pomoc w przypadku napotkania problemów?
  Absolutnie! Dostęp do wsparcia można uzyskać poprzez[Forum wsparcia Aspose.PSD](https://forum.aspose.com/c/psd/34). Zespół wsparcia jest responsywny i gotowy do pomocy w przypadku jakichkolwiek problemów lub pytań.
 ### Czy mogę dostosować jakość pliku wyjściowego JPG?
- Tak, możesz dostosować jakość pliku wyjściowego JPG, ustawiając opcję`Quality` nieruchomość w`JpegOptions` obiekt. Wartość waha się od 0 do 100, przy czym wyższe wartości oznaczają lepszą jakość i niższą kompresję.
+ Tak, możesz dostosować jakość pliku wyjściowego JPG, ustawiając opcję`Quality` nieruchomość w`JpegOptions` obiekt. Wartość mieści się w zakresie od 0 do 100, przy czym wyższe wartości oznaczają lepszą jakość i niższą kompresję.

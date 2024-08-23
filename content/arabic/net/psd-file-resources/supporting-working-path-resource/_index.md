@@ -79,7 +79,7 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س 4: أين يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
@@ -87,4 +87,4 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 
 ### س5: هل تحتاج إلى ترخيص مؤقت؟
 
- ج5: الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

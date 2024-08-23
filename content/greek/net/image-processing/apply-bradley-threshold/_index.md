@@ -63,7 +63,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 }
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Εφαρμόσατε με επιτυχία το Bradley Threshold στο Aspose.PSD για .NET. Αυτή η τεχνική είναι πολύτιμη για τη βελτίωση της τμηματοποίησης εικόνας σε διάφορες εφαρμογές.
 
@@ -77,11 +77,11 @@ A1: Ναι, το Bradley Thresholding είναι μια ευέλικτη τεχ�
 
 ### Ε2: Πού μπορώ να βρω πρόσθετη τεκμηρίωση Aspose.PSD;
 
- A2: Ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/psd/net/) για λεπτομερείς πληροφορίες σχετικά με το Aspose.PSD για .NET.
+ A2: Ανατρέξτε στο[απόδειξη με έγγραφα](https://reference.aspose.com/psd/net/) για λεπτομερείς πληροφορίες σχετικά με το Aspose.PSD για .NET.
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή του Aspose.PSD για .NET.[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή του Aspose.PSD για .NET[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD;
 
@@ -89,4 +89,4 @@ A1: Ναι, το Bradley Thresholding είναι μια ευέλικτη τεχ�
 
 ### Ε5: Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.PSD;
 
- A5: Μπορείτε να αγοράσετε μια άδεια.[εδώ](https://purchase.aspose.com/buy).
+ A5: Μπορείτε να αγοράσετε μια άδεια[εδώ](https://purchase.aspose.com/buy).

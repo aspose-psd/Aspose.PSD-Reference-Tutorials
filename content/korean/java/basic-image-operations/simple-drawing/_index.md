@@ -16,7 +16,7 @@ Java용 Aspose.PSD를 사용하여 간단한 그리기를 수행하는 방법에
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[Java 문서용 Aspose.PSD](https://reference.aspose.com/psd/java/).
+- Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[Java 문서용 Aspose.PSD](https://reference.aspose.com/psd/java/).
 
 ## 패키지 가져오기
 

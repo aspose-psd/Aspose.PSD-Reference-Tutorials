@@ -12,7 +12,7 @@ url: /ko/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
 ## 전제조건
 시작하기 전에 필요한 모든 것이 갖추어져 있는지 확인하십시오.
 1. JDK(Java Development Kit): JDK 8 이상이 설치되어 있는지 확인하세요.
-2.  Java 라이브러리용 Aspose.PSD: 다음을 수행할 수 있습니다.[여기에서 다운로드하십시오](https://releases.aspose.com/psd/java/).
+2.  Java 라이브러리용 Aspose.PSD: 다음을 수행할 수 있습니다.[여기에서 다운로드하세요](https://releases.aspose.com/psd/java/).
 3. 통합 개발 환경(IDE): IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 Java 호환 IDE가 가능합니다.
 4. 샘플 PSD 파일: 이 튜토리얼에는 샘플 PSD 파일이 필요합니다. 자신의 것을 사용하거나 온라인에서 찾을 수 있습니다.
 5. Java 기본 지식: 기본 Java 구문과 객체 지향 프로그래밍 개념을 이해하면 도움이 됩니다.
@@ -21,7 +21,6 @@ url: /ko/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
 먼저 필요한 패키지를 가져오겠습니다. 시작하려면 Java 라이브러리용 Aspose.PSD가 필요합니다. 프로젝트 종속성에 라이브러리를 추가했는지 확인하세요. 수행 방법은 다음과 같습니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,10 +67,10 @@ image.save(dataDir + "2_7BitsJPEG_output.jpg", options);
 ### Java용 Aspose.PSD란 무엇입니까?
 Aspose.PSD for Java는 Java 애플리케이션에서 PSD 파일로 작업할 수 있는 강력한 라이브러리입니다. 이미지 조작 및 변환을 위한 다양한 기능을 제공합니다.
 ### Java용 Aspose.PSD를 어떻게 설치하나요?
- 라이브러리는 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/psd/java/) 프로젝트 종속성에 추가하세요.
+라이브러리는 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/psd/java/) 프로젝트 종속성에 추가하세요.
 ### Java용 Aspose.PSD에서 사용자 정의 색상 프로필을 사용할 수 있습니까?
 예, JPEG 옵션을 구성할 때 사용자 정의 RGB 및 CMYK 색상 프로필을 설정할 수 있습니다.
 ### Java용 Aspose.PSD에서 지원되는 이미지 형식은 무엇입니까?
 Java용 Aspose.PSD는 PSD, JPEG, PNG, BMP, TIFF 등을 포함한 다양한 이미지 형식을 지원합니다.
 ### Aspose.PSD for Java에 대한 무료 평가판이 있습니까?
- 예, 다음을 다운로드할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 구매하기 전에 라이브러리의 기능을 테스트해 보세요.
+ 예, 다음을 다운로드할 수 있습니다.[무료 평가판](https://releases.aspose.com/) 구매하기 전에 라이브러리의 기능을 테스트해 보세요.

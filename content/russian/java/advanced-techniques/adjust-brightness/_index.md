@@ -32,7 +32,7 @@ import com.aspose.psd.imageoptions.TiffOptions;
 
 Теперь давайте разобьем процесс настройки яркости изображения на простые шаги:
 
-## Шаг 1. Загрузите изображение.
+## Шаг 1. Загрузите изображение
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,7 +71,7 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Настройте`TiffOptions` для сохранения настроенного изображения. Настроить`bitsPerSample` и`photometric` свойства в соответствии с вашими конкретными потребностями.
+ Настройте`TiffOptions` для сохранения настроенного изображения. Отрегулируйте`bitsPerSample` и`photometric` свойства в соответствии с вашими конкретными потребностями.
 
 ## Шаг 4. Сохраните полученное изображение.
 

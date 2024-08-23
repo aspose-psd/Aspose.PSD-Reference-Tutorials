@@ -9,7 +9,7 @@ url: /sv/java/advanced-techniques/add-effects-runtime/
 ---
 ## Introduktion
 
-I Java-utvecklingsvärlden är det ett vanligt krav att lägga till dynamiska effekter till bilder. Med Aspose.PSD för Java, ett kraftfullt och mångsidigt Java-bibliotek, kan du enkelt lägga till effekter vid körning för att förbättra dina bilder. I den här handledningen guidar vi dig genom processen att lägga till effekter steg för steg, med tydliga exempel och lätta att följa instruktioner.
+Java-utvecklingsvärlden är det ett vanligt krav att lägga till dynamiska effekter till bilder. Med Aspose.PSD för Java, ett kraftfullt och mångsidigt Java-bibliotek, kan du enkelt lägga till effekter vid körning för att förbättra dina bilder. I den här handledningen guidar vi dig genom processen att lägga till effekter steg för steg, med tydliga exempel och lätta att följa instruktioner.
 
 ## Förutsättningar
 
@@ -19,7 +19,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 2.  Aspose.PSD for Java Library: Du måste ha Aspose.PSD for Java-biblioteket. Om du inte redan har gjort det, ladda ner den från[Aspose.PSD Java-dokumentation](https://reference.aspose.com/psd/java/).
 
-3. Dokumentkatalog: Skapa en katalog för dina dokument och kom ihåg sökvägen. I det angivna exemplet kallas katalogen för`Your Document Directory`.
+3.  Dokumentkatalog: Skapa en katalog för dina dokument och kom ihåg sökvägen. I det angivna exemplet kallas katalogen för`Your Document Directory`.
 
 ## Importera paket
 
@@ -94,4 +94,4 @@ S2: Ja, Aspose.PSD stöder ett brett utbud av bildformat, inklusive PSD, BMP, JP
 
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- A5: Ja, du kan utforska den kostnadsfria testversionen.[här](https://releases.aspose.com/).
+ A5: Ja, du kan utforska den kostnadsfria testversionen[här](https://releases.aspose.com/).

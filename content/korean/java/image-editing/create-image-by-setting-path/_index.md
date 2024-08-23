@@ -16,7 +16,7 @@ Java용 Aspose.PSD를 사용하여 이미지를 만드는 방법에 대한 단�
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본 지식.
--  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+-  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 
 ## 패키지 가져오기
 
@@ -94,7 +94,7 @@ A1: 예, Aspose.PSD는 다양한 Java 통합 개발 환경(IDE)과 원활하게 
 
 ### Q2: Aspose.PSD를 상업용 프로젝트에 사용할 수 있나요?
 
- A2: 예, 개인 및 상업 프로젝트 모두에 Aspose.PSD를 사용할 수 있습니다. 을 체크 해봐[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
+ A2: 예, 개인 및 상업 프로젝트 모두에 Aspose.PSD를 사용할 수 있습니다. 확인해보세요[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
 
 ### Q3: Aspose.PSD에 대한 지원은 어떻게 받을 수 있나요?
 
@@ -106,4 +106,4 @@ A1: 예, Aspose.PSD는 다양한 Java 통합 개발 환경(IDE)과 원활하게 
 
 ### Q5: 테스트하려면 임시 라이센스가 필요합니까?
 
- A5: 테스트 목적으로 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 테스트 목적으로 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -74,4 +73,4 @@ Hoàn toàn có thể, Aspose.PSD cung cấp các tính năng mở rộng để 
 ### Aspose.PSD có hỗ trợ xuất sang các định dạng khác ngoài BMP không?
 Có, Aspose.PSD hỗ trợ xuất sang nhiều định dạng khác nhau bao gồm PNG, JPEG, TIFF và GIF, cùng nhiều định dạng khác.
 ### Tôi có thể tìm thêm hỗ trợ và tài nguyên cho Aspose.PSD ở đâu?
- Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ, tài liệu và cập nhật.
+ Ghé thăm[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ, tài liệu và cập nhật.

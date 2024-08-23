@@ -16,7 +16,7 @@ url: /th/java/advanced-image-manipulation/force-font-cache/
 ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
 - ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณแล้ว
--  Aspose.PSD สำหรับไลบรารี Java ที่ดาวน์โหลดจาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD สำหรับไลบรารี Java ที่ดาวน์โหลดจาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/psd/java/).
 - ไฟล์ PSD ตัวอย่างเพื่อการทดสอบ
 
 ตอนนี้คุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว เรามาเริ่มบทช่วยสอนกันดีกว่า

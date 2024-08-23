@@ -9,7 +9,7 @@ url: /zh-hant/net/psd-drawing-techniques/constructing-rectangles/
 ---
 ## 介紹
 
-在 .NET 開發的動態領域中，Aspose.PSD 作為處理影像操作的強大工具脫穎而出。本教學重點在於一項基本任務：使用 Aspose.PSD for .NET 建構矩形。無論您是經驗豐富的開發人員還是新手，本逐步指南都將引導您完成整個過程，確保您徹底掌握每個概念。
+在 .NET 開發的動態領域中，Aspose.PSD 作為處理影像操作的強大工具脫穎而出。本教學重點在於一項基本任務：使用 Aspose.PSD for .NET 建立矩形。無論您是經驗豐富的開發人員還是新手，本逐步指南都將引導您完成整個過程，確保您徹底掌握每個概念。
 
 ## 先決條件
 
@@ -19,7 +19,7 @@ url: /zh-hant/net/psd-drawing-techniques/constructing-rectangles/
 
 - 下載 Aspose.PSD：確保您已從以下位置下載了 Aspose.PSD 庫：[下載連結](https://releases.aspose.com/psd/net/).
 
-- 取得許可證：如果您在生產環境中使用 Aspose.PSD，請確保您擁有有效的許可證。您可以獲得一個[這裡](https://purchase.aspose.com/buy)或使用[臨時執照](https://purchase.aspose.com/temporary-license/)供測試用。
+- 取得許可證：如果您在生產環境中使用 Aspose.PSD，請確保您擁有有效的許可證。您可以獲得一個[這裡](https://purchase.aspose.com/buy)或使用[臨時執照](https://purchase.aspose.com/temporary-license/)用於測試。
 
 ## 導入命名空間
 

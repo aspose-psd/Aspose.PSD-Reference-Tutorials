@@ -16,7 +16,7 @@ In de wereld van Java-ontwikkeling is het manipuleren van afbeeldingen een veel 
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Java Development Kit (JDK) op uw computer geïnstalleerd.
--  Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[website](https://releases.aspose.com/psd/java/).
+- Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[website](https://releases.aspose.com/psd/java/).
 
 ## Pakketten importeren
 
@@ -92,7 +92,7 @@ A1: Ja, Aspose.PSD voor Java kan worden geïntegreerd met verschillende Java-fra
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A2: Ja, u heeft toegang tot de gratis proefversie.[hier](https://releases.aspose.com/).
+ A2: Ja, u heeft toegang tot de gratis proefversie[hier](https://releases.aspose.com/).
 
 ### Vraag 3: Waar kan ik aanvullende ondersteuning of assistentie vinden?
 
@@ -100,7 +100,7 @@ A1: Ja, Aspose.PSD voor Java kan worden geïntegreerd met verschillende Java-fra
 
 ### V4: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD voor Java?
 
- A4: U kunt een tijdelijke licentie aanschaffen.[hier](https://purchase.aspose.com/temporary-license/).
+ A4: U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
 
 ### Vraag 5: Wat zijn de ondersteunde afbeeldingsindelingen voor bijsnijden in Aspose.PSD voor Java?
 

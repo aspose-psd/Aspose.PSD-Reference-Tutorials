@@ -147,7 +147,7 @@ using (var img = (PsdImage)Image.Load(ms))
 
 ## Következtetés
 
-Gratulálunk! Sikeresen létrehozta az XMP metaadatokat az Aspose.PSD for .NET fájlban. Ez a hatékony képesség fokozza képfeldolgozási képességeit, lehetővé téve a létfontosságú információk hatékony rendszerezését és visszakeresését.
+Gratulálok! Sikeresen létrehozta az XMP metaadatokat az Aspose.PSD for .NET fájlban. Ez a hatékony képesség fokozza képfeldolgozási képességeit, lehetővé téve a létfontosságú információk hatékony rendszerezését és visszakeresését.
 
 ## GYIK
 

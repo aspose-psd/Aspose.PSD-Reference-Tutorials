@@ -102,7 +102,7 @@ A2: Dimensinya dapat disesuaikan; sesuaikan parameter dalam metode Image.Create.
 
 ### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk .NET?
 
- A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 
@@ -110,4 +110,4 @@ A2: Dimensinya dapat disesuaikan; sesuaikan parameter dalam metode Image.Create.
 
 ### Q5: Apakah lisensi sementara tersedia?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

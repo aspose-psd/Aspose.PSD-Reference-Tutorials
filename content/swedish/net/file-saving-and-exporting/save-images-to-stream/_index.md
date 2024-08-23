@@ -82,11 +82,11 @@ Grattis! Du har framgångsrikt lärt dig hur du sparar bilder i en ström med As
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan få en gratis provperiod.[här](https://releases.aspose.com/)att utforska Aspose.PSD:s funktioner innan du gör ett köp.
+ A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/)att utforska Aspose.PSD:s funktioner innan du gör ett köp.
 
 ### F4: Hur kan jag få en tillfällig licens?
 
- S4: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för test- och utvärderingsändamål.
+ S4: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för test- och utvärderingsändamål.
 
 ### F5: Var kan jag köpa Aspose.PSD?
 

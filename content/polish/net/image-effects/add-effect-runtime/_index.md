@@ -34,7 +34,7 @@ using Aspose.PSD.ImageLoadOptions;
 string dataDir = "Your Document Directory";
 ```
 
-Zastąp „Twój katalog dokumentów” rzeczywistą ścieżką, w której znajdują się Twoje pliki PSD.
+Zastąp „Twój katalog dokumentów” rzeczywistą ścieżką, w której znajdują się pliki PSD.
 
 ## Krok 2: Załaduj obraz PSD z zasobami efektów
 
@@ -91,8 +91,8 @@ O3: Aspose.PSD oferuje szeroką gamę efektów, ale zaleca się sprawdzenie doku
 
 ### P4: Jak mogę uzyskać tymczasową licencję do celów testowych?
 
- A4: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania i oceny.
+ A4: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania i oceny.
 
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie i dyskusje społeczności?
 
- A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie i dyskusję.
+ A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie i dyskusje.

@@ -9,7 +9,7 @@ url: /id/net/image-manipulation/adding-pattern-effects/
 ---
 ## Perkenalan
 
-Menyempurnakan gambar dengan efek pola dapat menghadirkan dimensi baru pada desain Anda. Aspose.PSD untuk .NET memberikan solusi ampuh untuk menambahkan hamparan pola ke gambar dengan mulus, memungkinkan Anda membuat grafik visual yang menakjubkan. Tutorial langkah demi langkah ini akan memandu Anda melalui proses menambahkan efek pola menggunakan Aspose.PSD untuk .NET.
+Menyempurnakan gambar dengan efek pola dapat menghadirkan dimensi baru pada desain Anda. Aspose.PSD untuk .NET memberikan solusi ampuh untuk menambahkan hamparan pola ke gambar dengan mulus, memungkinkan Anda membuat grafik visual yang menakjubkan. Tutorial langkah demi langkah ini akan memandu Anda melalui proses penambahan efek pola menggunakan Aspose.PSD untuk .NET.
 
 ## Prasyarat
 

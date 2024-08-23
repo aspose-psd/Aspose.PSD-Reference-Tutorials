@@ -8,7 +8,7 @@ weight: 11
 url: /pl/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Wstęp
-Witamy w naszym przewodniku krok po kroku dotyczącym korzystania z funkcji zasobu informacji o granicach w Aspose.PSD dla .NET. W tym samouczku przeprowadzimy Cię przez proces pracy z zasobami informacji o granicach przy użyciu Aspose.PSD, potężnej biblioteki obrazowania .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek ma na celu zapewnienie przejrzystości w zakresie bezproblemowej integracji zasobów informacji granicznej z Twoimi projektami.
+Witamy w naszym przewodniku krok po kroku dotyczącym korzystania z funkcji zasobu informacji o granicach w Aspose.PSD dla .NET. W tym samouczku przeprowadzimy Cię przez proces pracy z zasobami informacji o granicach przy użyciu Aspose.PSD, potężnej biblioteki obrazowania .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek ma na celu zapewnienie przejrzystości w zakresie płynnego włączania zasobów informacji granicznej do Twoich projektów.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że posiadasz następujące elementy:
 -  Aspose.PSD dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PSD. Można go pobrać z[Witryna Aspose.PSD](https://releases.aspose.com/psd/net/).
@@ -80,12 +80,12 @@ O1: Tak, Aspose.PSD dla .NET jest kompatybilny z różnymi frameworkami .NET.
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie?
 
- A4: Odwiedź[Forum wsparcia Aspose.PSD](https://forum.aspose.com/c/psd/34) do pomocy.
+ A4: Odwiedź[Forum wsparcia Aspose.PSD](https://forum.aspose.com/c/psd/34) o pomoc.
 
 ### P5: Czy dostępne są licencje tymczasowe?
 
- Odpowiedź 5: Tak, możesz uzyskać licencje tymczasowe.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Tak, możesz uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).

@@ -20,7 +20,6 @@ Tüm bu önkoşulları hazırladıktan sonra, hazırsınız!
 Başlamak için gerekli paketleri Aspose.PSD kütüphanesinden içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

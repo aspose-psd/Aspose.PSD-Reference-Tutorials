@@ -7,8 +7,8 @@ type: docs
 weight: 21
 url: /cs/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ---
-## Úvod
-Chcete se ponořit do světa zpracování obrazu pomocí Javy? Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál na Aspose.PSD pro Java vás provede procesem podpory JPEG-LS s barevným režimem CMYK. Pusťme se do toho a rozprouďte tyto kreativní šťávy!
+## Zavedení
+Chcete se ponořit do světa zpracování obrazu pomocí Javy? Ať už jste zkušený vývojář nebo teprve začínáte, tento návod na Aspose.PSD pro Java vás provede procesem podpory JPEG-LS s barevným režimem CMYK. Pusťme se do toho a rozprouďte tyto kreativní šťávy!
 ## Předpoklady
 Než se vrhneme na podstatnou část tohoto tutoriálu, musíte mít splněno několik předpokladů:
 1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -20,7 +20,6 @@ Jakmile budete mít všechny tyto předpoklady připraveny, můžete vyrazit!
 Chcete-li začít, musíte importovat potřebné balíčky z knihovny Aspose.PSD. Můžete to udělat takto:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,7 +67,7 @@ Nakonec uložte druhý obrázek jako soubor JPEG s barevným režimem CMYK a bez
 image1.save(dataDir + "output2.jpg", options1);
 ```
 ## Závěr
-Gratulujeme! Úspěšně jste se naučili, jak podporovat JPEG-LS s barevným režimem CMYK pomocí Aspose.PSD pro Java. Podle tohoto návodu nyní můžete pracovat se soubory PSD a převádět je na JPEG s různým nastavením komprese. Tato výkonná knihovna usnadňuje manipulaci s obrázky a s těmito kroky jste na dobré cestě stát se profesionálem v oblasti zpracování obrázků.
+Gratuluji! Úspěšně jste se naučili, jak podporovat JPEG-LS s barevným režimem CMYK pomocí Aspose.PSD pro Java. Podle tohoto návodu nyní můžete pracovat se soubory PSD a převádět je na JPEG s různým nastavením komprese. Tato výkonná knihovna usnadňuje manipulaci s obrázky a s těmito kroky jste na dobré cestě stát se profesionálem v oblasti zpracování obrázků.
 ## FAQ
 ### Co je barevný režim CMYK?
 CMYK je zkratka pro azurová, purpurová, žlutá a klíčová (černá). Je to barevný model používaný v barevném tisku.
@@ -79,4 +78,4 @@ Ano, Aspose.PSD podporuje různé režimy komprese, včetně Lossless a JPEG.
 ### Potřebuji licenci k používání Aspose.PSD?
  Ano, potřebujete licenci. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro zkušební účely.
 ### Kde najdu další dokumentaci k Aspose.PSD?
- Kompletní dokumentaci naleznete[tady](https://reference.aspose.com/psd/java/).
+ Kompletní dokumentaci naleznete[zde](https://reference.aspose.com/psd/java/).

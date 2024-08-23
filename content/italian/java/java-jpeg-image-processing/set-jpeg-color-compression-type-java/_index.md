@@ -7,18 +7,17 @@ type: docs
 weight: 13
 url: /it/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
-## introduzione
+## Introduzione
 Nell'era digitale di oggi, la gestione e la manipolazione delle immagini è una necessità comune, sia per lo sviluppo web, la progettazione grafica o l'ingegneria del software. Se stai cercando uno strumento potente per gestire file PSD e convertirli in JPEG con impostazioni di colore e compressione specifiche, non cercare oltre Aspose.PSD per Java. Questo tutorial ti guiderà attraverso il processo di impostazione del colore JPEG e dei tipi di compressione utilizzando questa solida libreria.
 ## Prerequisiti
 Prima di immergerti nel codice, assicurati di avere i seguenti prerequisiti:
 1. Java Development Kit (JDK) installato sul tuo sistema.
-2.  Aspose.PSD per la libreria Java. Puoi scaricarlo da[sito web](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD per la libreria Java. Puoi scaricarlo da[sito web](https://releases.aspose.com/psd/java/).
 3. Una conoscenza di base della programmazione Java.
 ## Importa pacchetti
 Per prima cosa, dovrai importare i pacchetti necessari dalla libreria Aspose.PSD. Queste importazioni sono fondamentali per gestire i file PSD e applicare le impostazioni JPEG desiderate.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

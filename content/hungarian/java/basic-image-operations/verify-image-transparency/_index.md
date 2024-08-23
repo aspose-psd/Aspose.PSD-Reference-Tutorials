@@ -73,16 +73,16 @@ A kép átlátszóságának ellenőrzése az Aspose.PSD for Java segítségével
 
 ### 2. kérdés: Van ingyenes próbaverzió?
 
- 2. válasz: Igen, az Aspose.PSD for Java felfedezése ingyenes próbaverzióval. Látogatás[ez a link](https://releases.aspose.com/) kezdeni.
+ 2. válasz: Igen, az Aspose.PSD for Java felfedezése ingyenes próbaverzióval. Látogatás[ezt a linket](https://releases.aspose.com/) kezdeni.
 
 ### 3. kérdés: Hol találok részletes dokumentációt?
 
- A3: Lásd a[dokumentáció](https://reference.aspose.com/psd/java/)átfogó információkért az Aspose.PSD for Java használatáról.
+ A3: Lásd a[dokumentáció](https://reference.aspose.com/psd/java/) átfogó információkért az Aspose.PSD for Java használatáról.
 
 ### 4. kérdés: Hogyan kaphatok támogatást?
 
- 4. válasz: Csatlakozzon az Aspose.PSD közösséghez a[támogatói fórum](https://forum.aspose.com/c/psd/34) segítséget kérni és kapcsolatba lépni más fejlesztőkkel.
+ 4. válasz: Csatlakozzon az Aspose.PSD közösséghez a[támogatási fórum](https://forum.aspose.com/c/psd/34) segítséget kérni és kapcsolatba lépni más fejlesztőkkel.
 
 ### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
 
- 5. válasz: Ha teszteli a könyvtárat, szerezhet ideiglenes licencet.[itt](https://purchase.aspose.com/temporary-license/).
+ 5. válasz: Ha teszteli a könyvtárat, szerezhet ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).

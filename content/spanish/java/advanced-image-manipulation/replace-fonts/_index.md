@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 
 ## Paso 2: carga la imagen
 
- Utilice el`Image.load` método para cargar el archivo PSD en una instancia de`PsdImage` . Aplica el`PsdLoadOptions` y configure la fuente de reemplazo predeterminada, en este caso, "Arial".
+ Utilice el`Image.load` método para cargar el archivo PSD en una instancia de`PsdImage` . Aplicar el`PsdLoadOptions` y configure la fuente de reemplazo predeterminada, en este caso, "Arial".
 
 ```java
 PsdLoadOptions psdLoadOptions = new PsdLoadOptions(); 

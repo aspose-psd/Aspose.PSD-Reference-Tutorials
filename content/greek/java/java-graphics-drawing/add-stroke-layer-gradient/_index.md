@@ -14,14 +14,13 @@ url: /el/java/java-graphics-drawing/add-stroke-layer-gradient/
 1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε από[Ο ιστότοπος της Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.PSD για Java Library: Μπορείτε να το κατεβάσετε από το[Σελίδα λήψης Aspose.PSD](https://releases.aspose.com/psd/java/).
 3. Ένα ολοκληρωμένο περιβάλλον ανάπτυξης (IDE): Οποιοδήποτε IDE όπως το IntelliJ IDEA, το Eclipse ή το NetBeans θα λειτουργήσει.
-4.  Μια έγκυρη άδεια: Μπορείτε να πάρετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) αν δεν έχετε πλήρη.
+4.  Μια έγκυρη άδεια: Μπορείτε να αποκτήσετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) αν δεν έχετε πλήρη.
 ## Εισαγωγή πακέτων
 Πρώτα πρώτα, ας εισάγουμε τα απαραίτητα πακέτα. Αυτά θα μας επιτρέψουν να χρησιμοποιήσουμε τις κλάσεις και τις μεθόδους που απαιτούνται για τον χειρισμό του αρχείου PSD.
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -144,8 +143,8 @@ Assert.areEqual(25, transparencyPoint.getMedianPointLocation());
 Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
-## συμπέρασμα
-Και εκεί το έχετε! Τώρα ξέρετε πώς να προσθέτετε και να χειρίζεστε τις διαβαθμίσεις του επιπέδου stroke σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Αυτό το σεμινάριο κάλυψε τη φόρτωση του αρχείου PSD, την πρόσβαση και την τροποποίηση των stroke εφέ και την αποθήκευση των αλλαγών. Με αυτές τις δεξιότητες, μπορείτε να δημιουργήσετε οπτικά ελκυστικές διαβαθμίσεις και να προσαρμόσετε τα αρχεία PSD για να ταιριάζουν στις ανάγκες σας.
+## Σύναψη
+Και ορίστε το! Τώρα ξέρετε πώς να προσθέτετε και να χειρίζεστε τις διαβαθμίσεις του επιπέδου stroke σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Αυτό το σεμινάριο κάλυψε τη φόρτωση του αρχείου PSD, την πρόσβαση και την τροποποίηση των stroke εφέ και την αποθήκευση των αλλαγών. Με αυτές τις δεξιότητες, μπορείτε να δημιουργήσετε οπτικά ελκυστικές διαβαθμίσεις και να προσαρμόσετε τα αρχεία PSD για να ταιριάζουν στις ανάγκες σας.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD για Java;
 Το Aspose.PSD για Java είναι μια βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία PSD σε εφαρμογές Java, παρέχοντας δυνατότητες δημιουργίας, χειρισμού και μετατροπής αρχείων PSD.

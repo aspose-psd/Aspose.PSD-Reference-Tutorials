@@ -87,17 +87,17 @@ image.Save(outpath, saveOptions);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan kell íveket rajzolni az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár végtelen lehetőségeket nyit meg lenyűgöző grafikák létrehozásához az alkalmazásokban.
+Gratulálok! Sikeresen megtanulta, hogyan kell íveket rajzolni az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár végtelen lehetőségeket nyit meg lenyűgöző grafikák létrehozásához az alkalmazásokban.
 
 ## GYIK
 
 ### 1. kérdés: Hol találom az Aspose.PSD for .NET dokumentációját?
 
- V1: A dokumentáció megtalálható.[itt](https://reference.aspose.com/psd/net/).
+ V1: A dokumentáció megtalálható[itt](https://reference.aspose.com/psd/net/).
 
 ### 2. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- V2: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V2: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 3. kérdés: Létezik közösségi fórum az Aspose.PSD támogatására?
 
@@ -105,8 +105,8 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell íveket rajzolni az Aspose.PSD f
 
 ### 4. kérdés: Hol vásárolhatok licencet az Aspose.PSD-hez?
 
- V4: Vásárolhat licencet.[itt](https://purchase.aspose.com/buy).
+ V4: Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
 
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.PSD for .NET fájlt a vásárlás előtt?
 
- 5. válasz: Igen, letölthet egy ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).

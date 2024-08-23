@@ -1,6 +1,6 @@
 ---
-title: Java中讀取特定EXIF標籤信息
-linktitle: Java中讀取特定EXIF標籤信息
+title: 用Java讀取特定的EXIF標籤訊息
+linktitle: 用Java讀取特定的EXIF標籤訊息
 second_title: Aspose.PSD Java API
 description: 透過我們的逐步教學，了解如何使用 Aspose.PSD for Java 從 PSD 映像中讀取特定的 EXIF 標籤。提高您的影像處理技能。
 type: docs
@@ -19,7 +19,6 @@ url: /zh-hant/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 首先，您需要將必要的 Aspose.PSD 套件匯入到您的 Java 專案中。設定方法如下。
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -43,8 +42,8 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 }
 ```
 我們使用循環遍歷圖像資源`for`環形。目標是識別作為實例的資源`ThumbnailResource`或者`Thumbnail4Resource`，因為這些是保存 EXIF 資料的類型。
-## 第三步：提取EXIF數據
-一旦我們識別出縮圖資源，我們就提取 EXIF 資料並將其列印到控制台。
+## 步驟 3：提取 EXIF 數據
+一旦我們識別出縮圖資源，我們就會提取 EXIF 資料並將其列印到控制台。
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource) {
     JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
@@ -57,15 +56,15 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
     }
 }
 ```
-我們使用一個`if`語句來檢查資源是否為實例`ThumbnailResource`。如果是，我們投射它並檢索它`JpegOptions`訪問`ExifData`。最後，我們列印出WhiteBalance、Pixel Dimensions、ISOSpeed、FocalLength等各種EXIF標籤。
+我們使用一個`if`語句來檢查資源是否為實例`ThumbnailResource`。如果是，我們投射它並檢索它`JpegOptions`訪問`ExifData`。最後，我們列印出各種 EXIF 標籤，例如 WhiteBalance、Pixel Dimensions、ISOSpeed 和 FocalLength。
 
 ## 結論
-透過執行這些步驟，您已經了解如何使用 Aspose.PSD for Java 從 PSD 映像中讀取特定的 EXIF 標籤。這個過程涉及載入圖像、迭代其資源、識別縮圖資源以及提取 EXIF 資料。有了這些知識，您現在可以探索和操作 PSD 檔案中的 EXIF 數據，從而實現更複雜的影像處理任務。
+透過執行這些步驟，您已經了解如何使用 Aspose.PSD for Java 從 PSD 映像中讀取特定的 EXIF 標籤。此過程包括載入圖像、迭代其資源、識別縮圖資源以及提取 EXIF 資料。有了這些知識，您現在可以探索和操作 PSD 檔案中的 EXIF 數據，從而實現更複雜的影像處理任務。
 ## 常見問題解答
 ### 什麼是 EXIF 資料？
 EXIF（可交換影像檔案格式）資料是嵌入影像檔案中的元數據，包含相機設定、日期和時間以及影像尺寸等資訊。
-### 我可以使用Aspose.PSD編輯EXIF資料嗎？
-是的，Aspose.PSD可讓您讀取和修改EXIF資料。您可以更新標籤並將變更儲存回映像檔。
+### 我可以使用 Aspose.PSD 編輯 EXIF 資料嗎？
+是的，Aspose.PSD 可讓您讀取和修改 EXIF 資料。您可以更新標籤並將變更儲存回映像檔。
 ### Aspose.PSD for Java 是免費的嗎？
  Aspose.PSD 提供免費試用版，您可以下載[這裡](https://releases.aspose.com/)。要獲得完整功能，您需要購買許可證。
 ### Aspose.PSD還支援哪些其他格式？

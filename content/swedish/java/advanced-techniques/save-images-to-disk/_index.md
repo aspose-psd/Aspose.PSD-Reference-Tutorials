@@ -78,7 +78,7 @@ S1: Ja, Aspose.PSD för Java stöder olika bildformat, inklusive JPEG, BMP, TIFF
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- S2: Ja, du kan utforska en gratis testversion av Aspose.PSD för Java genom att besöka.[den här länken](https://releases.aspose.com/).
+ S2: Ja, du kan utforska en gratis testversion av Aspose.PSD för Java genom att besöka[denna länk](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta omfattande dokumentation för Aspose.PSD för Java?
 
@@ -90,4 +90,4 @@ S1: Ja, Aspose.PSD för Java stöder olika bildformat, inklusive JPEG, BMP, TIFF
 
 ### F5: Finns tillfälliga licenser tillgängliga för Aspose.PSD för Java?
 
- A5: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

@@ -18,7 +18,6 @@ Mielőtt elkezdené a kód használatát, győződjön meg arról, hogy a követ
 A kód használatának megkezdéséhez importálnia kell a szükséges Aspose.PSD csomagokat. A következőképpen teheti meg:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -37,7 +36,7 @@ Ezután be kell töltenie az AI-fájlt az Aspose.PSD segítségével. Így tehet
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Ez a kódsor beolvassa az AI-fájlt egy`AiImage` tárgyat, készen állva az átalakításra. A`Image.load()` metódus a fájl elérési útját veszi argumentumként.
+ Ez a kódsor beolvassa az AI fájlt egy`AiImage` tárgyat, készen állva az átalakításra. A`Image.load()` metódus a fájl elérési útját veszi argumentumként.
 ## 3. lépés: Konfigurálja a PDF-beállításokat
  kép PDF formátumban történő mentése előtt konfigurálhatja a PDF-specifikus beállításokat. Így állíthatja be`PdfOptions`:
 ```java
@@ -49,11 +48,11 @@ options.setJpegQuality(100);
 ```
 Ezzel a PDF-ben található képek JPEG-minőségét a maximális szintre állítja.
 ## 4. lépés: Mentés PDF-ként
- Most jön az izgalmas rész – az AI-fájl mentése PDF-ként. Használja a`save()` módszere a`AiImage` tárgy:
+ Most jön az izgalmas rész – az AI-fájl mentése PDF-ként. Használja a`save()` módszere a`AiImage` objektum:
 ```java
 image.save(outFileName, options);
 ```
- Ez a sor konvertálja az AI-képet PDF-fájllá a megadott elérési úton. Biztosítják, hogy a`outFileName` mutat a kívánt kimeneti helyre.
+ Ez a sor konvertálja az AI-képet PDF-fájllá a megadott elérési úton. Biztosítsd ezt`outFileName` mutat a kívánt kimeneti helyre.
 
 ## Következtetés
 Az AI-fájlok PDF-fájlokká konvertálása Java nyelven az Aspose.PSD használatával egyszerű és hatékony. Az ebben az útmutatóban ismertetett lépések követésével könnyedén integrálhatja ezt a funkciót alkalmazásaiba, így egyszerűvé téve a vektorgrafikák és illusztrációk PDF formátumú kezelését. Legyen szó fejlesztőről, tervezőről vagy csak az AI- és PDF-konverziók lehetőségeiről, az Aspose.PSD zökkenőmentes élményt nyújt.
@@ -63,7 +62,7 @@ Az Aspose.PSD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők sz�
 ### Ingyenesen kipróbálhatom az Aspose.PSD-t?
  Igen! Kaphat ideiglenes licencet, vagy letölthet egy ingyenes próbaverziót a webhelyről[Aspose Releases](https://releases.aspose.com/psd/java/).
 ### Milyen fájlformátumokat támogat az Aspose.PSD?
- Az Aspose.PSD számos formátumot támogat, beleértve a PSD-t, AI-t, TIFF-et, BMP-t és még sok mást. Ellenőrizd a[dokumentáció](https://reference.aspose.com/psd/java/) a teljes listához.
+ Az Aspose.PSD számos formátumot támogat, beleértve a PSD-t, AI-t, TIFF-et, BMP-t és még sok mást. Ellenőrizze a[dokumentáció](https://reference.aspose.com/psd/java/) a teljes listához.
 ### Hogyan kaphatok támogatást az Aspose.PSD-hez?
  Meglátogathatja a[Aspose fórum](https://forum.aspose.com/c/psd/34) bármilyen kérdéssel vagy problémával kapcsolatban.
 ### Hol vásárolhatok licencet az Aspose.PSD-hez?

@@ -102,8 +102,8 @@ Odpowiedź 2: Tak, Aspose.PSD może być używany zarówno do celów osobistych,
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P5: Czy mogę uzyskać tymczasową licencję na Aspose.PSD?
 
-Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

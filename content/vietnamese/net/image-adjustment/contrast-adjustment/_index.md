@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Điều chỉnh độ tương phản 50%
 
 ## Bước 3: Tạo tùy chọn TIFF
 
- Tạo một thể hiện của`TiffOptions` Đối với hình ảnh thu được, hãy đặt các thuộc tính khác nhau và lưu hình ảnh ở định dạng TIFF.
+ Tạo một thể hiện của`TiffOptions` đối với hình ảnh thu được, hãy đặt các thuộc tính khác nhau và lưu hình ảnh ở định dạng TIFF.
 
 ```csharp
 //ExStart:TạoTiffOptions
@@ -92,7 +92,7 @@ Câu trả lời 1: Aspose.PSD cho .NET được thiết kế thân thiện vớ
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí Aspose.PSD cho .NET.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí Aspose.PSD cho .NET[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.PSD cho .NET ở đâu?
 
@@ -100,4 +100,4 @@ Câu trả lời 1: Aspose.PSD cho .NET được thiết kế thân thiện vớ
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
- Câu trả lời 5: Nếu cần, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A5: Nếu cần, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

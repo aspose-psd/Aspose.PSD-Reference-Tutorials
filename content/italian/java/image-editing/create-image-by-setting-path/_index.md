@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /it/java/image-editing/create-image-by-setting-path/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questo tutorial passo passo sulla creazione di immagini utilizzando Aspose.PSD per Java. In questa guida esploreremo come impostare il percorso e configurare le opzioni per generare un'immagine PSD. Aspose.PSD è una potente libreria Java per lavorare con i file Photoshop, fornendo un modo semplice per manipolare e creare immagini a livello di codice.
 
@@ -102,8 +102,8 @@ A1: Sì, Aspose.PSD funziona perfettamente con vari ambienti di sviluppo integra
 
 ### Q4: È disponibile una prova gratuita?
 
- R4: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Ho bisogno di una licenza temporanea per i test?
 
- R5: È possibile ottenere una licenza temporanea a scopo di test.[Qui](https://purchase.aspose.com/temporary-license/).
+ R5: È possibile ottenere una licenza temporanea a scopo di test[Qui](https://purchase.aspose.com/temporary-license/).

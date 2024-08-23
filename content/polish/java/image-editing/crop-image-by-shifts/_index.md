@@ -9,7 +9,7 @@ url: /pl/java/image-editing/crop-image-by-shifts/
 ---
 ## Wstęp
 
-dziedzinie przetwarzania obrazów w oparciu o język Java Aspose.PSD wyróżnia się jako potężne narzędzie do manipulowania i ulepszania obrazów z najwyższą precyzją. Jedną z kluczowych cech wyróżniających Aspose.PSD jest możliwość płynnego przycinania obrazu. W tym samouczku zagłębimy się w sztukę przycinania obrazów przy użyciu Aspose.PSD dla Java. Na koniec będziesz wyposażony w umiejętności łatwego przycinania obrazów zgodnie ze swoimi specyfikacjami.
+dziedzinie przetwarzania obrazów w oparciu o Java, Aspose.PSD wyróżnia się jako potężne narzędzie do manipulowania i ulepszania obrazów z najwyższą precyzją. Jedną z kluczowych cech wyróżniających Aspose.PSD jest możliwość płynnego przycinania obrazu. W tym samouczku zagłębimy się w sztukę przycinania obrazów przy użyciu Aspose.PSD dla Java. Na koniec będziesz wyposażony w umiejętności łatwego przycinania obrazów zgodnie ze swoimi specyfikacjami.
 
 ## Warunki wstępne
 
@@ -92,7 +92,7 @@ Gratulacje! Pomyślnie przyciąłeś obraz za pomocą Aspose.PSD dla Java.
 
 ## Wniosek
 
-tym samouczku zbadaliśmy zawiłości kadrowania obrazu za pomocą Aspose.PSD dla Java. Uzbrojeni w tę wiedzę, możesz teraz bezproblemowo zintegrować kadrowanie obrazów ze swoimi projektami Java, dodając odrobinę finezji do możliwości przetwarzania obrazów.
+W tym samouczku zbadaliśmy zawiłości kadrowania obrazu za pomocą Aspose.PSD dla Java. Uzbrojeni w tę wiedzę, możesz teraz bezproblemowo zintegrować kadrowanie obrazów ze swoimi projektami Java, dodając odrobinę finezji do możliwości przetwarzania obrazów.
 
 ## Często zadawane pytania
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/net/image-effects/add-effect-runtime/
 ---
-## introduzione
+## Introduzione
 
 Migliorare l'attrattiva visiva delle immagini è un requisito comune nelle applicazioni di progettazione grafica e di elaborazione delle immagini. In questo tutorial esploreremo come aggiungere effetti in fase di esecuzione utilizzando Aspose.PSD per .NET. Aspose.PSD è una potente API che consente agli sviluppatori di lavorare senza problemi con i file Adobe Photoshop. 
 
@@ -91,7 +91,7 @@ R3: Aspose.PSD offre un'ampia gamma di effetti, ma è consigliabile controllare 
 
 ### Q4: Come posso ottenere una licenza temporanea a scopo di test?
 
- A4: Puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/) per test e valutazioni.
+ A4: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) per test e valutazioni.
 
 ### Q5: Dove posso trovare ulteriore supporto e discussioni nella community?
 

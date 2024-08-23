@@ -12,13 +12,12 @@ Di era digital saat ini, pengelolaan dan manipulasi gambar merupakan kebutuhan u
 ## Prasyarat
 Sebelum mendalami kode, pastikan Anda memiliki prasyarat berikut:
 1. Java Development Kit (JDK) diinstal pada sistem Anda.
-2.  Aspose.PSD untuk perpustakaan Java. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD untuk perpustakaan Java. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/psd/java/).
 3. Pemahaman dasar tentang pemrograman Java.
 ## Paket Impor
 Hal pertama yang pertama, Anda harus mengimpor paket yang diperlukan dari perpustakaan Aspose.PSD. Impor ini sangat penting untuk menangani file PSD dan menerapkan pengaturan JPEG yang diinginkan.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

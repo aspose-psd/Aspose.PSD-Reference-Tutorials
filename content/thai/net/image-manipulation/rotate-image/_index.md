@@ -27,7 +27,7 @@ url: /th/net/image-manipulation/rotate-image/
 using Aspose.PSD.ImageOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 
 ```csharp
 string sourceFile = dataDir + @"sample.psd";

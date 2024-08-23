@@ -18,7 +18,6 @@ Antes de comenzar con el código, asegúrese de cumplir con los siguientes requi
 Para comenzar con el código, debe importar los paquetes Aspose.PSD necesarios. Así es como puedes hacerlo:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -32,7 +31,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.pdf";
 ```
  Reemplazar`"Your Document Directory"` con la ruta real donde se encuentra su archivo AI. Este paso garantiza que tenga las rutas correctas a sus archivos de origen y de destino.
-## Paso 2: cargue la imagen de IA
+## Paso 2: cargue la imagen AI
 A continuación, debe cargar su archivo AI usando Aspose.PSD. Así es como puedes hacerlo:
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
@@ -49,11 +48,11 @@ options.setJpegQuality(100);
 ```
 Esto establece la calidad JPEG de cualquier imagen dentro del PDF al nivel máximo.
 ## Paso 4: guardar como PDF
- Ahora viene la parte interesante: guardar su archivo AI como PDF. Utilizar el`save()` método de la`AiImage` objeto:
+ Ahora viene la parte interesante: guardar su archivo AI como PDF. Utilice el`save()` método de la`AiImage` objeto:
 ```java
 image.save(outFileName, options);
 ```
- Esta línea convertirá su imagen AI en un archivo PDF en la ruta especificada. Asegurarse de que`outFileName` apunta a la ubicación de salida deseada.
+ Esta línea convertirá su imagen AI en un archivo PDF en la ruta especificada. Asegúrese de que`outFileName` apunta a la ubicación de salida deseada.
 
 ## Conclusión
 Convertir archivos AI a PDF en Java usando Aspose.PSD es sencillo y eficiente. Si sigue los pasos descritos en esta guía, podrá integrar fácilmente esta funcionalidad en sus aplicaciones, simplificando el manejo de gráficos vectoriales e ilustraciones en formato PDF. Ya sea que sea desarrollador, diseñador o simplemente esté explorando las posibilidades de las conversiones de IA y PDF, Aspose.PSD ofrece una experiencia perfecta.
@@ -63,7 +62,7 @@ Aspose.PSD es una potente biblioteca que permite a los desarrolladores trabajar 
 ### ¿Puedo probar Aspose.PSD gratis?
  ¡Sí! Puede obtener una licencia temporal o descargar una prueba gratuita desde[Lanzamientos de Aspose](https://releases.aspose.com/psd/java/).
 ### ¿Qué formatos de archivo admite Aspose.PSD?
- Aspose.PSD admite una variedad de formatos, incluidos PSD, AI, TIFF, BMP y más. Comprobar el[documentación](https://reference.aspose.com/psd/java/) para la lista completa.
+ Aspose.PSD admite una variedad de formatos, incluidos PSD, AI, TIFF, BMP y más. Compruebe el[documentación](https://reference.aspose.com/psd/java/) para la lista completa.
 ### ¿Cómo puedo obtener soporte para Aspose.PSD?
  Puedes visitar el[Foro Aspose](https://forum.aspose.com/c/psd/34) para cualquier pregunta o problema que pueda encontrar.
 ### ¿Dónde puedo comprar una licencia para Aspose.PSD?

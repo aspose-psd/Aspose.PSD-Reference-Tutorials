@@ -51,7 +51,7 @@ Ebben a lépésben inicializáljuk a PsdImage osztály egy példányát és egy 
 ## 2. lépés: GraphicsPath és ábra létrehozása
 
 ```csharp
-// Hozzon létre egy GraphicsPath és Instance of Figure példányt, adja hozzá az EllipseShape-t, a RectangleShape-t és a TextShape-t az ábrához.
+// Hozzon létre egy GraphicsPath és Instance of Figure példányt, adja hozzá az EllipseShape, RectangleShape és TextShape alakzatot az ábrához
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -60,7 +60,7 @@ figure.AddShape(new TextShape("Aspose.PSD", new RectangleF(170, 225, 170, 100), 
 graphicspath.AddFigures(new[] { figure });
 ```
 
-Ez a lépés egy GraphicsPath-példány és egy ábra létrehozását foglalja magában. Ezután olyan alakzatokat adunk az ábrához, mint az Ellipszis, a Téglalap és a Szöveg, amelyek a rajzunk részét képezik.
+Ez a lépés egy GraphicsPath-példány és egy ábra létrehozását foglalja magában. Ezután olyan alakzatokat adunk hozzá az ábrához, mint az Ellipszis, a Téglalap és a Szöveg, amelyek a rajzunk részét képezik.
 
 ## 3. lépés: Az útvonal megrajzolása és kitöltése
 
@@ -79,13 +79,13 @@ Ebben az utolsó lépésben megrajzoljuk az útvonalat a DrawPath módszerrel eg
 
 ## Következtetés
 
-Gratulálunk! Sikeresen implementálta a rajzot a GraphicsPath segítségével az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazások Photoshop-fájljaival való munkavégzéshez.
+Gratulálok! Sikeresen implementálta a rajzot a GraphicsPath segítségével az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazások Photoshop-fájljaival való munkavégzéshez.
 
 ## GYIK
 
 ### 1. kérdés: Használhatom az Aspose.PSD for .NET fájlt bármilyen .NET fejlesztői környezettel?
 
-1. válasz: Igen, az Aspose.PSD for .NET kompatibilis a különböző .NET fejlesztői környezetekkel, beleértve a Visual Studiot is.
+1. válasz: Igen, az Aspose.PSD for .NET kompatibilis a különböző .NET fejlesztői környezetekkel, beleértve a Visual Studiót is.
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
@@ -101,4 +101,4 @@ Gratulálunk! Sikeresen implementálta a rajzot a GraphicsPath segítségével a
 
 ### 5. kérdés: Hol találom az Aspose.PSD for .NET dokumentációját?
 
- V5: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
+ V5: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).

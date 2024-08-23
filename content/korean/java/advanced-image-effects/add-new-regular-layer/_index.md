@@ -111,7 +111,7 @@ A2: 물론이죠! Aspose.PSD는 레이어에 대한 다양한 변환 옵션을 �
 
 ### Q3: 추가 Aspose.PSD 문서는 어디서 찾을 수 있나요?
 
- A3: 설명서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+ A3: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
 
 ### Q4: Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 

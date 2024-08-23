@@ -18,7 +18,6 @@ url: /ru/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 Для начала импортируйте необходимые пакеты из Aspose.PSD для Java в свой проект:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -32,7 +31,7 @@ String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "example.psd");
 ```
 ## Шаг 2. Перебор ресурсов изображений
-Далее перебираем ресурсы изображения, чтобы найти данные EXIF:
+Затем просмотрите ресурсы изображения, чтобы найти данные EXIF:
 ```java
 for(int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
@@ -60,4 +59,4 @@ Aspose.PSD для Java — это библиотека, которая позв�
 ### Поддерживает ли Aspose.PSD для Java запись PSD-файлов?
 Да, он поддерживает как чтение, так и запись PSD-файлов.
 ### Где я могу получить поддержку Aspose.PSD для Java?
- Для поддержки посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ Для получения поддержки посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).

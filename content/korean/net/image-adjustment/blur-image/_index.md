@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## 4단계: 가우시안 흐림 필터를 적용합니다.
+## 4단계: 가우시안 흐림 필터 적용
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- 여기서는`GaussianBlurFilterOptions` 클래스는 수평 및 수직 흐림 모두에 대해 지정된 반경 15와 함께 사용됩니다.
+ 여기서는`GaussianBlurFilterOptions` 클래스는 수평 및 수직 흐림 모두에 대해 지정된 반경 15로 활용됩니다.
 
 ## 5단계: 흐린 이미지 저장
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## 결론
 
-축하해요! .NET용 Aspose.PSD를 사용하여 이미지를 성공적으로 흐리게 했습니다. 이 튜토리얼은 Aspose.PSD의 기능을 간략하게 소개하고 .NET 애플리케이션에서 이미지 조작을 위한 다양한 가능성을 열어줍니다.
+축하해요! .NET용 Aspose.PSD를 사용하여 이미지를 성공적으로 흐리게 했습니다. 이 튜토리얼은 Aspose.PSD의 기능을 간략하게 소개하고 .NET 애플리케이션에서 이미지 조작을 위한 수많은 가능성을 열어줍니다.
 
 ## FAQ
 

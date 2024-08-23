@@ -88,8 +88,8 @@ R2: Sí, puede apilar varias capas de ajuste para lograr manipulaciones de imág
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.PSD?
 
- R4: Sí, puedes explorar la prueba gratuita.[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes explorar la prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.PSD?
 
-R5: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+R5: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

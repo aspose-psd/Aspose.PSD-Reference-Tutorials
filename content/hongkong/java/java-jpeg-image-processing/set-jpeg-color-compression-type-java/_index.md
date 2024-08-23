@@ -8,17 +8,16 @@ weight: 13
 url: /zh-hant/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
 ## 介紹
-在當今的數位時代，無論是對於 Web 開發、圖形設計還是軟體工程，管理和操作影像都是常見的必需品。如果您正在尋找一個強大的工具來處理 PSD 檔案並將其轉換為具有特定顏色和壓縮設定的 JPEG，那麼 Aspose.PSD for Java 就是您的最佳選擇。本教學將引導您完成使用這個強大的庫來設定 JPEG 顏色和壓縮類型的過程。
+在當今的數位時代，無論是對於 Web 開發、圖形設計還是軟體工程，管理和操作圖像都是一種常見的必需品。如果您正在尋找一個強大的工具來處理 PSD 檔案並將其轉換為具有特定顏色和壓縮設定的 JPEG，那麼 Aspose.PSD for Java 就是您的最佳選擇。本教學將引導您完成使用這個強大的庫來設定 JPEG 顏色和壓縮類型的過程。
 ## 先決條件
 在深入研究程式碼之前，請確保您符合以下先決條件：
 1. 您的系統上安裝了 Java 開發工具包 (JDK)。
-2.  Java 函式庫的 Aspose.PSD。您可以從[網站](https://releases.aspose.com/psd/java/).
+2. Java 函式庫的 Aspose.PSD。您可以從[網站](https://releases.aspose.com/psd/java/).
 3. 對 Java 程式設計有基本的了解。
 ## 導入包
 首先，您需要從 Aspose.PSD 庫匯入必要的套件。這些導入對於處理 PSD 檔案和應用所需的 JPEG 設定至關重要。
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

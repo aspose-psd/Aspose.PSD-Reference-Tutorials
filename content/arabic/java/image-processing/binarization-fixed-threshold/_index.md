@@ -78,7 +78,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، قمنا بالتعمق في عالم معالجة الصور باستخدام Aspose.PSD لـ Java، مع التركيز بشكل خاص على Binarization with Fixed Threshold. باتباع هذه الخطوات، يمكنك تحسين تطبيقات Java الخاصة بك من خلال إمكانات تحويل الصور القوية.
+في هذا البرنامج التعليمي، تعمقنا في عالم معالجة الصور باستخدام Aspose.PSD لـ Java، مع التركيز بشكل خاص على الثنائية باستخدام عتبة ثابتة. باتباع هذه الخطوات، يمكنك تحسين تطبيقات Java الخاصة بك من خلال إمكانات تحويل الصور القوية.
 
 ## الأسئلة الشائعة
 
@@ -96,8 +96,8 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ### س4: كيف يمكنني شراء مكتبة Aspose.PSD؟
 
- ج4: يمكنك شراء مكتبة Aspose.PSD.[هنا](https://purchase.aspose.com/buy).
+ ج4: يمكنك شراء مكتبة Aspose.PSD[هنا](https://purchase.aspose.com/buy).
 
 ### س5: هل تتوفر نسخة تجريبية مجانية؟
 
- ج5: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال إصدار تجريبي مجاني.[هنا](https://releases.aspose.com/).
+ ج5: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال إصدار تجريبي مجاني[هنا](https://releases.aspose.com/).

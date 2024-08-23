@@ -8,19 +8,18 @@ weight: 22
 url: /pl/java/java-jpeg-image-processing/write-modify-exif-data-java/
 ---
 ## Wstęp
-Czy chcesz manipulować danymi EXIF w plikach PSD za pomocą Java? Jeśli tak, to jesteś we właściwym miejscu! Ten kompleksowy przewodnik przeprowadzi Cię przez kroki zapisywania i modyfikowania danych EXIF w Javie przy użyciu potężnej biblioteki Aspose.PSD. 
+Czy chcesz manipulować danymi EXIF w plikach PSD przy użyciu języka Java? Jeśli tak, to jesteś we właściwym miejscu! Ten kompleksowy przewodnik przeprowadzi Cię przez kroki zapisywania i modyfikowania danych EXIF w Javie przy użyciu potężnej biblioteki Aspose.PSD. 
 ## Warunki wstępne
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest poprawnie skonfigurowane.
 1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK na swoim komputerze.
 2.  Aspose.PSD dla Java: Pobierz bibliotekę z[Tutaj](https://releases.aspose.com/psd/java/).
 3. IDE: Użyj IDE, takiego jak IntelliJ IDEA lub Eclipse, aby uzyskać płynne kodowanie.
 4. Podstawowa znajomość języka Java: Znajomość programowania w języku Java jest koniecznością.
-5.  Aspose Tymczasowa licencja: Uzyskaj tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/) aby odblokować pełny potencjał Aspose.PSD.
+5.  Aspose Temporary License: Uzyskaj tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/) aby odblokować pełny potencjał Aspose.PSD.
 ## Importuj pakiety
 Najpierw musisz zaimportować niezbędne pakiety do swojego projektu Java. Oto jak to zrobić:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -38,7 +37,7 @@ PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
 Ten fragment kodu ładuje obraz PSD z określonego katalogu.
 ## Krok 2: Iteruj po zasobach obrazu
-Następnie musisz przejrzeć zasoby obrazu, aby znaleźć zasób miniatury. Tutaj dane EXIF są zwykle przechowywane w formacie JPEG.
+Następnie musisz przejrzeć zasoby obrazu, aby znaleźć zasób miniatury. W tym miejscu dane EXIF są zwykle przechowywane w formacie JPEG.
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     // Sprawdź zasoby miniatur
@@ -52,7 +51,7 @@ if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageR
 }
 ```
 ## Krok 4: Wyodrębnij i wydrukuj dane EXIF
-Po zidentyfikowaniu zasobu miniatury następnym krokiem jest wyodrębnienie danych EXIF i wydrukowanie ich na konsoli.
+Następnym krokiem po zidentyfikowaniu zasobu miniatury jest wyodrębnienie danych EXIF i wydrukowanie ich na konsoli.
 ```java
 JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
 if (exif != null) {
@@ -60,7 +59,7 @@ if (exif != null) {
 }
 ```
 ## Krok 5: Zmodyfikuj dane EXIF
-Teraz przychodzi zabawna część – modyfikacja danych EXIF . Poniżej opisano, jak ustawić informacje LensMake, WhiteBalance i Flash.
+Teraz przychodzi zabawna część – modyfikowanie danych EXIF. Poniżej opisano, jak ustawić informacje LensMake, WhiteBalance i Flash.
 ```java
 exif.setLensMake("Sony");
 exif.setWhiteBalance(ExifWhiteBalance.Auto);

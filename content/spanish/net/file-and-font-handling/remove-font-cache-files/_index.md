@@ -21,7 +21,7 @@ Antes de comenzar, asegúrese de tener lo siguiente en su lugar:
 
 ### 2. Familiaridad con el espacio de nombres Aspose.PSD
 
- Para implementar los pasos de manera efectiva, es esencial estar familiarizado con el espacio de nombres Aspose.PSD. Referirse a[documentación](https://reference.aspose.com/psd/net/) para obtener información detallada.
+ Para implementar los pasos de manera efectiva, es esencial estar familiarizado con el espacio de nombres Aspose.PSD. Consulte el[documentación](https://reference.aspose.com/psd/net/) para obtener información detallada.
 
 ## Importar espacios de nombres
 
@@ -88,7 +88,7 @@ R2: Si bien es posible, se recomienda eliminar los archivos de caché de fuentes
 
 ### P4: ¿Existe una licencia temporal disponible para Aspose.PSD para .NET?
 
- R4: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) con fines de prueba.
+ R4: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) con fines de prueba.
 
 ### P5: ¿Puedo comprar Aspose.PSD para .NET?
 

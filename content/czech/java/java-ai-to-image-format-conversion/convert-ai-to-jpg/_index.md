@@ -7,12 +7,12 @@ type: docs
 weight: 11
 url: /cs/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
-## Úvod
+## Zavedení
 Hledáte převést soubory AI (Adobe Illustrator) do formátu JPG pomocí Javy? Už nehledejte! V tomto komplexním průvodci vás provedeme celým procesem pomocí Aspose.PSD for Java, výkonné a flexibilní knihovny, se kterou je manipulace s obrázky hračkou. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám poskytne vše, co potřebujete vědět.
 ## Předpoklady
 Než se ponoříte do kódu, ujistěte se, že máte vše nastaveno a připraveno k použití. Zde je to, co potřebujete:
 1. Java Development Kit (JDK): Ujistěte se, že máte nainstalovaný JDK 8 nebo vyšší.
-2.  Aspose.PSD pro Java: Stáhněte si knihovnu z[tady](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD pro Java: Stáhněte si knihovnu z[zde](https://releases.aspose.com/psd/java/).
 3. Vývojové prostředí: IDE jako IntelliJ IDEA, Eclipse nebo jakýkoli textový editor podle vašeho výběru.
 4. Soubor AI: Soubor Adobe Illustrator (.ai), který chcete převést.
 5. Základní znalost Javy: Znalost základů programování v Javě.
@@ -21,7 +21,6 @@ Nejprve musíme importovat potřebné balíčky, abychom zvládli naši úlohu p
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,13 +32,13 @@ Než začneme kódovat, ujistěte se, že je vaše vývojové prostředí správ
 -  Stáhnout Aspose.PSD: Získejte knihovnu z[Aspose stránku vydání](https://releases.aspose.com/psd/java/).
 - Přidejte Aspose.PSD do svého projektu: Zahrňte soubory JAR do cesty sestavení vašeho projektu.
 ## Krok 2: Načtěte soubor AI
- Prvním krokem v našem kódu je načtení souboru AI pomocí`AiImage` třída. Tato třída nám umožňuje bezproblémovou práci se soubory Adobe Illustrator.
+Prvním krokem v našem kódu je načtení souboru AI pomocí`AiImage` třída. Tato třída nám umožňuje bezproblémovou práci se soubory Adobe Illustrator.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Tady,`dataDir` je adresář, kde je uložen váš soubor AI, a`sourceFileName` je úplná cesta k vašemu souboru AI.
+ Zde,`dataDir` je adresář, kde je uložen váš soubor AI, a`sourceFileName` je úplná cesta k vašemu souboru AI.
 ## Krok 3: Nastavte možnosti JPG
  Dále musíme nastavit možnosti pro náš výstup JPG. The`JpegOptions` class nám pomáhá konfigurovat kvalitu a další nastavení pro soubor JPG.
 ```java
@@ -79,8 +78,8 @@ Aspose.PSD for Java je Java API pro práci se soubory Photoshop a Illustrator, k
 ### Mohu nastavit různé úrovně kvality výstupního JPG?
  Ano, můžete upravit nastavení kvality`JpegOptions` pro kontrolu kvality a velikosti výstupního JPG.
 ### Je Aspose.PSD for Java zdarma k použití?
-Aspose.PSD nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci. Můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+Aspose.PSD nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci. Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 ### Potřebuji k použití této knihovny nainstalovaný Adobe Illustrator?
 Ne, nepotřebujete nainstalovaný Adobe Illustrator. Aspose.PSD zpracovává formáty souborů nezávisle.
 ### Kde najdu další dokumentaci k Aspose.PSD pro Javu?
- Můžete najít komplexní dokumentaci[tady](https://reference.aspose.com/psd/java/).
+ Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/psd/java/).

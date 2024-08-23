@@ -1,6 +1,6 @@
 ---
-title: Java中將縮圖加入EXIF段
-linktitle: Java中將縮圖加入EXIF段
+title: 在 Java 中將縮圖新增至 EXIF 段
+linktitle: 在 Java 中將縮圖新增至 EXIF 段
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 透過縮圖增強影像元資料。請遵循我們的無縫集成分步指南。
 type: docs
@@ -14,18 +14,17 @@ url: /zh-hant/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java
 - Java 程式設計的基礎知識。
 - 您的系統上安裝了 Java 開發工具包 (JDK)。
 - 用於 Java 的 IDE（整合開發環境），例如 IntelliJ IDEA 或 Eclipse。
--  Java 函式庫的 Aspose.PSD。您可以從[Aspose.PSD for Java 下載頁面](https://releases.aspose.com/psd/java/).
+- Java 函式庫的 Aspose.PSD。您可以從[Aspose.PSD for Java 下載頁面](https://releases.aspose.com/psd/java/).
 ## 導入包
 首先，從 Aspose.PSD 和 Java 匯入必要的套件：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-我們把Java中使用Aspose.PSD加入縮圖到EXIF段的過程分解為詳細步驟：
+讓我們將使用Aspose.PSD在Java中為EXIF段添加縮圖的過程分解為詳細步驟：
 ## 第 1 步：載入 PSD 映像
 將 PSD 映像檔載入到 PsdImage 物件中。
 ```java

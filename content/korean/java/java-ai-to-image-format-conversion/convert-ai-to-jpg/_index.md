@@ -21,7 +21,6 @@ Java를 사용하여 AI(Adobe Illustrator) 파일을 JPG 형식으로 변환하�
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ import com.aspose.psd.imageoptions.JpegOptions;
 -  Aspose.PSD 다운로드: 다음에서 라이브러리를 가져옵니다.[Aspose 릴리스 페이지](https://releases.aspose.com/psd/java/).
 - 프로젝트에 Aspose.PSD 추가: 프로젝트의 빌드 경로에 JAR 파일을 포함합니다.
 ## 2단계: AI 파일 로드
- 우리 코드의 첫 번째 단계는 다음을 사용하여 AI 파일을 로드하는 것입니다.`AiImage` 수업. 이 클래스를 사용하면 Adobe Illustrator 파일을 원활하게 작업할 수 있습니다.
+코드의 첫 번째 단계는 다음을 사용하여 AI 파일을 로드하는 것입니다.`AiImage` 수업. 이 클래스를 사용하면 Adobe Illustrator 파일을 원활하게 작업할 수 있습니다.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

@@ -85,7 +85,7 @@ Répétez ces étapes pour chaque image que vous souhaitez améliorer avec des e
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter des effets de motif aux images à l'aide d'Aspose.PSD pour .NET. Expérimentez avec différents motifs et paramètres pour libérer votre créativité dans la conception d'images.
+Félicitations! Vous avez appris avec succès comment ajouter des effets de motif aux images à l'aide d'Aspose.PSD pour .NET. Expérimentez avec différents motifs et paramètres pour libérer votre créativité dans la conception d'images.
 
 ## FAQ
 

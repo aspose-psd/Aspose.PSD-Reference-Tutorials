@@ -128,7 +128,7 @@ A2：是的，您可以將各種效果（包括漸層疊加）套用到單一圖
 
 ### Q4：有免費試用嗎？
 
- A4：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
+ A4：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### Q5：如何獲得 Aspose.PSD 的支援？
 

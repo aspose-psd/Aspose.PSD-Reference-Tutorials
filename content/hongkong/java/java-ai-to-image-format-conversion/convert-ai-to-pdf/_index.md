@@ -12,13 +12,12 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 ## 先決條件
 在我們開始使用程式碼之前，請確保您具備以下先決條件：
 1.  Java 開發工具包 (JDK)：確保安裝了 JDK 8 或更高版本。您可以從以下位置下載：[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.PSD for Java 程式庫：下載 Aspose.PSD for Java 並將其包含在您的專案中。您可以從以下位置取得該庫[Aspose 發布](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD for Java 程式庫：下載 Aspose.PSD for Java 並將其包含在您的專案中。您可以從以下位置取得該庫[Aspose 發布](https://releases.aspose.com/psd/java/).
 3. IDE 設定：使用 IntelliJ IDEA、Eclipse 或 NetBeans 等整合開發環境 (IDE) 來簡化程式碼管理。
 ## 導入包
 要開始使用程式碼，您需要匯入必要的 Aspose.PSD 套件。您可以這樣做：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -32,12 +31,12 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.pdf";
 ```
 代替`"Your Document Directory"`與您的 AI 文件所在的實際路徑。此步驟可確保您擁有原始檔案和目標檔案的正確路徑。
-## 第二步：載入AI圖像
+## 第2步：載入AI圖像
 接下來，您需要使用 Aspose.PSD 載入 AI 檔案。您可以這樣做：
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
-這行程式碼將AI檔讀入一個`AiImage`對象，使其準備好進行轉換。這`Image.load()`方法將檔案路徑作為參數。
+這行程式碼將 AI 文件讀取到`AiImage`對象，使其準備好進行轉換。這`Image.load()`方法將檔案路徑作為參數。
 ## 步驟 3：配置 PDF 選項
 在將影像儲存為 PDF 之前，您可以配置特定於 PDF 的選項。您可以按照以下方式進行設置`PdfOptions`:
 ```java
@@ -53,7 +52,7 @@ options.setJpegQuality(100);
 ```java
 image.save(outFileName, options);
 ```
-此行會將您的 AI 影像轉換為指定路徑下的 PDF 檔案。確保這件事`outFileName`指向所需的輸出位置。
+此行會將您的 AI 影像轉換為指定路徑下的 PDF 檔案。確保`outFileName`指向所需的輸出位置。
 
 ## 結論
 使用 Aspose.PSD 在 Java 中將 AI 檔案轉換為 PDF 既簡單又有效率。透過遵循本指南中概述的步驟，您可以輕鬆地將此功能整合到您的應用程式中，從而輕鬆處理 PDF 格式的向量圖形和插圖。無論您是開發人員、設計師，還是只是探索 AI 和 PDF 轉換的可能性，Aspose.PSD 都能提供無縫體驗。

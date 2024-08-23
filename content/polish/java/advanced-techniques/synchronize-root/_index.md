@@ -70,11 +70,11 @@ Gratulacje! Pomyślnie nauczyłeś się synchronizować katalog główny za pomo
 
 ### P1: Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Java?
 
-O1: Tak, Aspose.PSD for Java jest kompatybilny z wersją Java 6 i nowszą.
+O1: Tak, Aspose.PSD dla Java jest kompatybilny z wersją Java 6 i nowszą.
 
 ### P2: Czy mogę używać Aspose.PSD do projektów komercyjnych?
 
- Odpowiedź 2: Tak, możesz używać Aspose.PSD zarówno do projektów osobistych, jak i komercyjnych. Aby uzyskać szczegółowe informacje na temat licencji, odwiedź stronę[Tutaj](https://purchase.aspose.com/buy).
+Odpowiedź 2: Tak, możesz używać Aspose.PSD zarówno do projektów osobistych, jak i komercyjnych. Aby uzyskać szczegółowe informacje na temat licencji, odwiedź stronę[Tutaj](https://purchase.aspose.com/buy).
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.PSD?
 
@@ -82,7 +82,7 @@ O1: Tak, Aspose.PSD for Java jest kompatybilny z wersją Java 6 i nowszą.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD odwiedzając stronę.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD odwiedzając stronę[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
 

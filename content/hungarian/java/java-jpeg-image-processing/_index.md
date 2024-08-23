@@ -10,11 +10,11 @@ url: /hu/java/java-jpeg-image-processing/
 
 ## Bevezetés
 
-Ha a Java képfeldolgozás világában merül el, az Aspose.PSD for Java a legjobb eszköz. Ez a csomag számos olyan funkciót kínál, amelyek leegyszerűsítik a JPEG-képekkel végzett munka bonyolultságát. Akár miniatűröket szeretne hozzáadni, akár helyes képtájolást szeretne, akár EXIF-adatokat szeretne kezelni, átfogó oktatóanyagaink segítenek Önnek. Nézzünk meg néhány elérhető legjobb oktatóanyagot.
+Ha a Java képfeldolgozás világában merül el, az Aspose.PSD for Java a legjobb eszköz. Ez a csomag számos olyan funkciót kínál, amelyek leegyszerűsítik a JPEG-képekkel végzett munka bonyolultságát. Akár miniatűröket, akár helyes képtájolást, akár EXIF-adatokat szeretne kezelni, átfogó oktatóanyagaink segítenek Önnek. Nézzünk meg néhány elérhető legjobb oktatóanyagot.
 
 ## Miniatűrök hozzáadása a képekhez
 
-Miniatűrök hozzáadása jelentősen javíthatja a kép metaadatait. Részletes útmutatóink vannak arra vonatkozóan, hogyan adhatunk bélyegképeket mind az EXIF és a JFIF szegmensekhez Java nyelven. Ezek az oktatóanyagok lépésenkénti utasításokat és kódpéldákat tartalmaznak, amelyek zökkenőmentessé teszik a folyamatot.
+Miniatűrök hozzáadása jelentősen javíthatja a kép metaadatait. Részletes útmutatóink vannak arról, hogyan adhatunk bélyegképeket mind az EXIF, mind a JFIF szegmensekhez Java nyelven. Ezek az oktatóanyagok lépésenkénti utasításokat és kódpéldákat tartalmaznak, amelyek zökkenőmentessé teszik a folyamatot.
 
 - [Adjon hozzá miniatűrt az EXIF szegmenshez Java nyelven](./add-thumbnail-to-exif-segment-java/)
 - [Adjon hozzá miniatűrt a JFIF szegmenshez Java nyelven](./add-thumbnail-to-jfif-segment-java/)
@@ -35,13 +35,13 @@ A miniatűrök nagyszerű lehetőséget kínálnak a képek gyors előnézeténe
 
 ## EXIF adatokkal való munka
 
-Az EXIF-adatok kulcsfontosságúak a képek metaadatainak megértéséhez és kezeléséhez. Oktatóanyagaink megtanítják Önnek, hogyan kell EXIF-címkéket olvasni, módosítani és írni JPEG- és PSD-fájlokban. Ez különösen hasznos azoknak a fejlesztőknek, akiknek részletes képinformációkat kell kezelniük.
+Az EXIF-adatok kulcsfontosságúak a képek metaadatainak megértéséhez és kezeléséhez. Oktatóanyagaink megtanítják Önnek az EXIF-címkék olvasását, módosítását és írását JPEG- és PSD-fájlokban. Ez különösen hasznos azoknak a fejlesztőknek, akiknek részletes képinformációkat kell kezelniük.
 
-- [Olvassa el az összes EXIF címkelistát Java nyelven](./read-all-exif-tag-list-java/)
+- [Olvassa el az összes EXIF-címkelistát Java nyelven](./read-all-exif-tag-list-java/)
 - [Olvassa el az összes EXIF-címkét Java nyelven](./read-all-exif-tags-java/)
-- [Olvassa el és módosítsa a JPEG EXIF címkéket Java nyelven](./read-modify-jpeg-exif-tags-java/)
-- [Írja és módosítsa az EXIF adatokat Java nyelven](./write-modify-exif-data-java/)
-- [Olvassa el a specifikus EXIF címkék információit a Java nyelven](./read-specific-exif-tags-info-java/)
+- [JPEG EXIF címkék olvasása és módosítása Java nyelven](./read-modify-jpeg-exif-tags-java/)
+- [Írjon és módosítson EXIF-adatokat Java nyelven](./write-modify-exif-data-java/)
+- [Olvassa el a specifikus EXIF-címkék információit a Java nyelven](./read-specific-exif-tags-info-java/)
 
 ## Speciális JPEG támogatás
 
@@ -64,17 +64,17 @@ Ismerje meg, hogyan állíthat be JPEG színt és tömörítési típust Java ny
 Ismerje meg, hogyan bonthat ki bélyegképeket JFIF-képekből az Aspose.PSD for Java használatával. Átfogó oktatóanyag lépésről lépésre útmutatóval és kódpéldákkal.
 ### [Bélyegkép kibontása a PSD-ből Java nyelven](./extract-thumbnail-from-psd-java/)
 Ismerje meg, hogyan bonthat ki miniatűröket PSD-fájlokból az Aspose.PSD for Java használatával. Ez a részletes útmutató a beállítástól a kinyert képek mentéséig mindent lefed.
-### [Olvassa el az összes EXIF címkelistát Java nyelven](./read-all-exif-tag-list-java/)
+### [Olvassa el az összes EXIF-címkelistát Java nyelven](./read-all-exif-tag-list-java/)
 Átfogó oktatóanyagunkból és kódpéldákból megtudhatja, hogyan bonthat ki EXIF-metaadatokat PSD-fájlokból az Aspose.PSD for Java segítségével.
 ### [Olvassa el az összes EXIF-címkét Java nyelven](./read-all-exif-tags-java/)
 Tanuljon meg EXIF-címkéket kivonni PSD-képekből az Aspose.PSD for Java segítségével. Kövesse lépésenkénti útmutatónkat a hatékony metaadat-kinyeréshez.
-### [Olvassa el és módosítsa a JPEG EXIF címkéket Java nyelven](./read-modify-jpeg-exif-tags-java/)
-Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan olvashat és módosíthat JPEG EXIF-címkéket az Aspose.PSD for Java használatával. Tökéletes azoknak a fejlesztőknek, akik könnyedén szeretnék kezelni a képek metaadatait.
-### [Olvassa el a specifikus EXIF címkék információit a Java nyelven](./read-specific-exif-tags-info-java/)
-Lépésről lépésre mutató oktatóanyagunkból megtudhatja, hogyan lehet PSD-képekből bizonyos EXIF-címkéket olvasni az Aspose.PSD for Java használatával. Fejlessze képfeldolgozási készségeit.
+### [JPEG EXIF címkék olvasása és módosítása Java nyelven](./read-modify-jpeg-exif-tags-java/)
+Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan olvashat és módosíthat JPEG EXIF címkéket az Aspose.PSD for Java használatával. Tökéletes azoknak a fejlesztőknek, akik könnyedén szeretnék kezelni a képek metaadatait.
+### [Olvassa el a specifikus EXIF-címkék információit a Java nyelven](./read-specific-exif-tags-info-java/)
+Lépésről lépésre bemutatott oktatóanyagunkból megtudhatja, hogyan lehet PSD-képekből bizonyos EXIF-címkéket olvasni az Aspose.PSD for Java használatával. Fejlessze képfeldolgozási készségeit.
 ### [2 és 7 bites JPEG támogatás Java nyelven](./support-2-7-bits-jpeg-java/)
-Ismerje meg, hogyan kezelheti a PSD-fájlokat, és hogyan mentheti azokat JPEG-ként Java nyelven az Aspose.PSD segítségével. Lépésről lépésre útmutató kódpéldákkal. Kezdőknek és profiknak egyaránt tökéletes.
+Ismerje meg, hogyan kezelheti a PSD-fájlokat, és hogyan mentheti azokat JPEG-ként Java nyelven az Aspose.PSD segítségével. Útmutató lépésről lépésre kódpéldákkal. Kezdőknek és profiknak egyaránt tökéletes.
 ### [JPEG-LS támogatása CMYK-val Java nyelven](./support-jpeg-ls-cmyk-java/)
 Ismerje meg, hogyan támogassa a JPEG-LS-t a CMYK-val a Java nyelven az Aspose.PSD használatával. Kövesse lépésről lépésre útmutatónkat az egyszerű képfeldolgozás és konvertálás érdekében.
-### [Írja és módosítsa az EXIF adatokat Java nyelven](./write-modify-exif-data-java/)
-Tanulja meg, hogyan írhat és módosíthat EXIF-adatokat PSD-fájlokban az Aspose.PSD for Java segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban.
+### [Írjon és módosítson EXIF-adatokat Java nyelven](./write-modify-exif-data-java/)
+Tanulja meg, hogyan írhat és módosíthat EXIF-adatokat PSD-fájlokban az Aspose.PSD for Java használatával ebben az átfogó, lépésről-lépésre szóló útmutatóban.

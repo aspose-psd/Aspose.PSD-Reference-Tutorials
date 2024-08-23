@@ -1,6 +1,6 @@
 ---
-title: L'édition d'image
-linktitle: L'édition d'image
+title: Édition d'images
+linktitle: Édition d'images
 second_title: API Java Aspose.PSD
 description: Découvrez la magie des effets de superposition de couleurs, de la fusion d'images et du traitement transparent des images avec Aspose.PSD. Améliorez votre jeu d'édition d'images avec nos guides.
 type: docs
@@ -29,7 +29,7 @@ Bienvenue dans le royaume de la maîtrise de l'édition d'images ! Dans cette c
 
 ## Créer une image à l'aide de Stream dans Aspose.PSD pour Java
 
- Maîtrisez l'art de créer des images en utilisant[ruisseaux](./create-image-using-stream/) dans Aspose.PSD pour Java. Notre guide fournit un chemin clair vers un traitement d’image efficace. Suivez les étapes et donnez vie à vos visions créatives grâce à Aspose.PSD pour Java.
+ Maîtrisez l'art de créer des images en utilisant[flux](./create-image-using-stream/) dans Aspose.PSD pour Java. Notre guide fournit un chemin clair vers un traitement d’image efficace. Suivez les étapes et donnez vie à vos visions créatives grâce à Aspose.PSD pour Java.
 
 ## Recadrer l'image par rectangle dans Aspose.PSD pour Java
 
@@ -37,7 +37,7 @@ Bienvenue dans le royaume de la maîtrise de l'édition d'images ! Dans cette c
 
 ## Recadrer l'image par décalages dans Aspose.PSD pour Java
 
- Devenez un maestro de[recadrage d'image](./crop-image-by-shifts/) avec Aspose.PSD pour Java. Notre tutoriel propose un guide complet pour maîtriser l’art de la manipulation transparente d’images. Plongez dans le monde du recadrage précis d'images avec Aspose.PSD pour Java.
+ Devenez un maestro de[recadrage d'image](./crop-image-by-shifts/) avec Aspose.PSD pour Java. Notre didacticiel propose un guide complet pour maîtriser l’art de la manipulation transparente d’images. Plongez dans le monde du recadrage précis d'images avec Aspose.PSD pour Java.
 
 ## Implémenter le tramage pour les images raster dans Aspose.PSD pour Java
 

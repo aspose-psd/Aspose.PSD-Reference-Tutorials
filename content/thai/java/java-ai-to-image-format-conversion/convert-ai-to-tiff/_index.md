@@ -12,7 +12,7 @@ url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่กระบวนการแปลง ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK 8 ขึ้นไป
-2.  Aspose.PSD สำหรับ Java: ดาวน์โหลด[Aspose.PSD สำหรับไลบรารี Java](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD สำหรับ Java: ดาวน์โหลด[Aspose.PSD สำหรับไลบรารี Java](https://releases.aspose.com/psd/java/).
 3. สภาพแวดล้อมการพัฒนาแบบผสมผสาน (IDE): IDE ใดๆ ที่คุณเลือก (เช่น IntelliJ IDEA, Eclipse)
 4. ไฟล์ AI: ไฟล์ Adobe Illustrator (.ai) ที่คุณต้องการแปลง
 5. TiffOptions: จำเป็นสำหรับการระบุรายละเอียดรูปแบบ TIFF
@@ -20,7 +20,6 @@ url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นจาก Aspose.PSD แพ็คเกจเหล่านี้มีคลาสและวิธีการที่จำเป็นในการจัดการไฟล์ AI และ TIFF
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -28,13 +27,13 @@ import com.aspose.psd.imageoptions.TiffOptions;
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 ก่อนที่คุณจะเริ่มเขียนโค้ด ให้ตั้งค่าสภาพแวดล้อมโปรเจ็กต์ของคุณ ตรวจสอบให้แน่ใจว่าคุณได้เพิ่ม Aspose.PSD สำหรับ Java ลงในการขึ้นต่อกันของโปรเจ็กต์ของคุณ ซึ่งสามารถทำได้โดยการรวมไฟล์ JAR โดยตรงหรือใช้เครื่องมือสร้างเช่น Maven หรือ Gradle
 ## ขั้นตอนที่ 2: โหลดไฟล์ AI
- เพื่อเริ่มการแปลง ให้โหลดไฟล์ AI โดยใช้ Aspose.PSD ขั้นตอนนี้มีความสำคัญเนื่องจากจะอ่านเนื้อหาของไฟล์ AI ของคุณลงในไฟล์`AiImage` วัตถุ วัตถุ
+ หากต้องการเริ่มการแปลง ให้โหลดไฟล์ AI โดยใช้ Aspose.PSD ขั้นตอนนี้มีความสำคัญเนื่องจากจะอ่านเนื้อหาของไฟล์ AI ของคุณลงในไฟล์`AiImage` วัตถุ.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- ที่นี่,`dataDir`คือไดเร็กทอรีที่เก็บไฟล์ AI ของคุณ ปรับเส้นทางให้ตรงกับตำแหน่งไฟล์ของคุณ
+ ที่นี่,`dataDir` คือไดเร็กทอรีที่เก็บไฟล์ AI ของคุณ ปรับเส้นทางให้ตรงกับตำแหน่งไฟล์ของคุณ
 ## ขั้นตอนที่ 3: กำหนดไฟล์เอาต์พุต
 ถัดไป ระบุเส้นทางของไฟล์เอาต์พุตที่จะบันทึกไฟล์ TIFF ที่แปลงแล้ว
 ```java
@@ -61,6 +60,6 @@ image.save(outFileName, tiffOptions);
 ### ฉันสามารถใช้ตัวเลือกการบีบอัดแบบกำหนดเองกับไฟล์ TIFF ได้หรือไม่
 แน่นอน Aspose.PSD สำหรับ Java ช่วยให้คุณสามารถระบุตัวเลือก TIFF ต่างๆ เพื่อให้เหมาะกับความต้องการของคุณได้
 ### มีการทดลองใช้ฟรีสำหรับ Aspose.PSD สำหรับ Java หรือไม่
- ใช่ คุณสามารถดาวน์โหลด[ทดลองฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆ
+ ใช่ คุณสามารถดาวน์โหลด[ทดลองใช้ฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆ
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.PSD สำหรับ Java ได้ที่ไหน
  คุณสามารถค้นหาการสนับสนุนได้ที่[ฟอรั่มการสนับสนุน Aspose.PSD](https://forum.aspose.com/c/psd/34).

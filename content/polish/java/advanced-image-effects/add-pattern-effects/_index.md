@@ -9,7 +9,7 @@ url: /pl/java/advanced-image-effects/add-pattern-effects/
 ---
 ## Wstęp
 
-W świecie programowania w języku Java ulepszanie wzorców obrazów jest częstym zadaniem, a Aspose.PSD dla Java zapewnia solidne rozwiązanie tego problemu. Ten samouczek poprowadzi Cię przez proces dodawania efektów wzorów przy użyciu Aspose.PSD, upewniając się, że Twoje obrazy wyróżniają się dzięki unikalnym nakładkom i ulepszeniom.
+W świecie programowania w języku Java ulepszanie wzorców obrazów jest częstym zadaniem, a Aspose.PSD dla Java zapewnia solidne rozwiązanie tego problemu. Ten samouczek poprowadzi Cię przez proces dodawania efektów wzorów przy użyciu Aspose.PSD, zapewniając, że Twoje obrazy będą się wyróżniać dzięki unikalnym nakładkom i ulepszeniom.
 
 ## Warunki wstępne
 
@@ -129,7 +129,7 @@ O1: Aspose.PSD dla Java został zaprojektowany do pracy niezależnej, ale w razi
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?
 
@@ -137,4 +137,4 @@ O1: Aspose.PSD dla Java został zaprojektowany do pracy niezależnej, ale w razi
 
 ### P5: Czy mogę uzyskać tymczasową licencję na Aspose.PSD dla Java?
 
-Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

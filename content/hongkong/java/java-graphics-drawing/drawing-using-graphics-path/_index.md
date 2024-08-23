@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Aspose.PSD 是一個庫，允許開發人員使用 Photoshop 檔案並以程式�
 ### 我可以將 Aspose.PSD 用於 PSD 以外的格式嗎？
 從本指南開始，Aspose.PSD 專門處理 PSD 文件，但提供了處理不同圖像格式的擴充功能。
 ### Aspose.PSD 有試用版嗎？
-是的，您可以免費試用 Aspose.PSD。[這裡](https://releases.aspose.com/).
+是的，您可以免費試用 Aspose.PSD[這裡](https://releases.aspose.com/).
 ### 如何購買 Aspose.PSD？
 您可以從以下位置購買 Aspose.PSD[這裡](https://purchase.aspose.com/buy).
 ### 我在哪裡可以獲得 Aspose.PSD 支援？

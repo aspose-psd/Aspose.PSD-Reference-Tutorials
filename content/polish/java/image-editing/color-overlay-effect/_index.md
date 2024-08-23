@@ -17,7 +17,7 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 
 1. Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane środowisko programistyczne Java.
 
-2. Biblioteka Aspose.PSD: Pobierz i zainstaluj bibliotekę Aspose.PSD dla Java z[Tutaj](https://releases.aspose.com/psd/java/).
+2.  Biblioteka Aspose.PSD: Pobierz i zainstaluj bibliotekę Aspose.PSD dla Java z[Tutaj](https://releases.aspose.com/psd/java/).
 
 3. Dokument PSD: Przygotuj dokument PSD, w którym chcesz zastosować efekt nakładki kolorów.
 
@@ -109,4 +109,4 @@ O2: Tak, Aspose.PSD jest kompatybilny z popularnymi środowiskami Java IDE, taki
 
 ### P5: Czy dostępne są bezpłatne opcje próbne dla Aspose.PSD?
 
- A5: Tak, poznaj[bezpłatna wersja próbna](https://releases.aspose.com/)wersję przed dokonaniem zakupu.
+ A5: Tak, poznaj[bezpłatna wersja próbna](https://releases.aspose.com/) wersję przed dokonaniem zakupu.

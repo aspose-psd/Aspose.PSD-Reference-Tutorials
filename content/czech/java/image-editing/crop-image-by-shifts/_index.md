@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /cs/java/image-editing/crop-image-by-shifts/
 ---
-## Úvod
+## Zavedení
 
 oblasti zpracování obrazu na bázi Java vyniká Aspose.PSD jako výkonný nástroj pro manipulaci a vylepšování obrázků s maximální přesností. Jednou z klíčových funkcí, která Aspose.PSD odlišuje, je jeho schopnost bezproblémově provádět ořezávání obrázků. V tomto tutoriálu se ponoříme do umění ořezávání obrázků pomocí Aspose.PSD pro Javu. Na konci budete vybaveni dovednostmi pro snadné oříznutí obrázků podle vašich specifikací.
 
@@ -17,7 +17,7 @@ Než se vydáme na tuto vzrušující cestu, ujistěte se, že máte připraven�
 
 ### Java Development Kit (JDK)
 
- Ujistěte se, že máte v systému nainstalovanou nejnovější verzi JDK. Můžete si jej stáhnout z[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
+ Ujistěte se, že máte v systému nainstalovanou nejnovější verzi JDK. Můžete si jej stáhnout z[zde](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ### Aspose.PSD pro knihovnu Java
 
@@ -88,11 +88,11 @@ String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Gratulujeme! Úspěšně jste ořízli obrázek pomocí Aspose.PSD pro Java.
+Gratuluji! Úspěšně jste ořízli obrázek pomocí Aspose.PSD pro Java.
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali složitosti ořezávání obrázků pomocí Aspose.PSD pro Javu. Vyzbrojeni těmito znalostmi můžete nyní bezproblémově integrovat ořezávání obrázků do svých projektů Java a přidat dotek jemnosti vašim schopnostem zpracování obrázků.
+V tomto tutoriálu jsme prozkoumali složitosti ořezávání obrázků pomocí Aspose.PSD pro Javu. Vyzbrojeni těmito znalostmi můžete nyní bezproblémově integrovat ořezávání obrázků do svých projektů Java a přidat dotek jemnosti vašim schopnostem zpracování obrázků.
 
 ## FAQ
 
@@ -110,7 +110,7 @@ Odpověď 2: Na stejném obrázku můžete samozřejmě provádět více operac�
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A4: Návštěva[tady](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+ A4: Návštěva[zde](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
 
 ### Q5: Existují nějaké vzorové projekty předvádějící funkce Aspose.PSD?
 

@@ -9,7 +9,7 @@ url: /zh-hant/java/advanced-image-manipulation/rotate-image/
 ---
 ## 介紹
 
-Aspose.PSD for Java 提供了一組強大的影像處理功能，使開發人員能夠有效地操作和處理 PSD 檔案。在本教程中，我們將重點放在一項特定任務：旋轉圖像。無論您是建立照片編輯應用程式還是僅需要調整影像的方向，Aspose.PSD 都能使過程變得簡單。
+Aspose.PSD for Java 提供了一組強大的影像處理功能，使開發人員能夠有效地操作和處理 PSD 檔案。在本教程中，我們將重點放在一項特定任務：旋轉圖像。無論您是要建立照片編輯應用程式還是僅需要調整影像的方向，Aspose.PSD 都能使過程變得簡單。
 
 ## 先決條件
 
@@ -65,7 +65,7 @@ image.save(destName, new JpegOptions());
 
 ## 常見問題解答
 
-### Q1：Aspose.PSD 是否相容於不同的影像格式？
+### Q1：Aspose.PSD是否相容於不同的影像格式？
 
 A1：是的，Aspose.PSD支援各種影像格式，包括PSD、JPEG、PNG等。
 
@@ -83,4 +83,4 @@ A2：當然！ Aspose.PSD 提供了應用自訂旋轉的靈活性，以滿足您
 
 ### Q5：如何取得臨時駕照？
 
- A5：如果您需要臨時許可證，您可以獲得一個。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：如果您需要臨時許可證，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).

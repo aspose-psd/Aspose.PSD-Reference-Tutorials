@@ -7,7 +7,7 @@ type: docs
 weight: 21
 url: /it/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ---
-## introduzione
+## Introduzione
 Vuoi tuffarti nel mondo dell'elaborazione delle immagini utilizzando Java? Che tu sia uno sviluppatore esperto o abbia appena iniziato, questo tutorial su Aspose.PSD per Java ti guiderà attraverso il processo di supporto di JPEG-LS con la modalità colore CMYK. Entriamo subito e facciamo fluire quei succhi creativi!
 ## Prerequisiti
 Prima di immergerci nel nocciolo di questo tutorial, ci sono alcuni prerequisiti che devi avere:
@@ -20,7 +20,6 @@ Una volta che hai tutti questi prerequisiti pronti, sei a posto!
 Per iniziare, è necessario importare i pacchetti necessari dalla libreria Aspose.PSD. Ecco come puoi farlo:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

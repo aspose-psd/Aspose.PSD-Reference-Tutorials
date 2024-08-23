@@ -108,4 +108,4 @@ R4: Sí, puedes recorrer varios archivos PSD y aplicar el efecto de trazo usando
 
 ### P5: ¿Puedo utilizar la versión de prueba antes de comprar Aspose.PSD?
 
- R5: ¡Por supuesto! Toma el[prueba gratis](https://releases.aspose.com/) para explorar las capacidades de Aspose.PSD antes de realizar una compra.
+ R5: ¡Por supuesto! Agarra el[prueba gratuita](https://releases.aspose.com/) para explorar las capacidades de Aspose.PSD antes de realizar una compra.

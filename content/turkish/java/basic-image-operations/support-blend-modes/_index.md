@@ -17,7 +17,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Makinenizde çalışan bir Java geliştirme ortamının kurulu olduğundan emin olun.
 
--  Aspose.PSD for Java Library: Kütüphaneyi şuradan indirin:[İnternet sitesi](https://releases.aspose.com/psd/java/) ve kurulum talimatlarını takip edin.
+- Aspose.PSD for Java Library: Kütüphaneyi şuradan indirin:[web sitesi](https://releases.aspose.com/psd/java/) ve kurulum talimatlarını takip edin.
 
 - Belge Dizini: Örnek PSD dosyalarını kullanarak çeşitli karışım modlarıyla çalışacağımız için PSD dosyalarınızı saklamak için bir dizin hazırlayın.
 
@@ -58,7 +58,7 @@ Yüklenen PSD dosyalarını PNG formatına aktarın. Dışa aktarma seçenekleri
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// %100 opaklıkla PNG olarak kaydedin.
+// %100 opaklıkla PNG olarak kaydedin
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ PSD dosyalarındaki belirli katmanların opaklığını ayarlayın. Burada opakl
 // Opaklığı %50'ye ayarla
 im.getLayers()[1].setOpacity((byte)127);
 
-// %50 opaklıkla PNG olarak kaydedin.
+// %50 opaklıkla PNG olarak kaydedin
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

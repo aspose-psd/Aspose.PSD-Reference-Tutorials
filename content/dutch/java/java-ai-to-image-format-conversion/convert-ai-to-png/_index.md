@@ -19,7 +19,6 @@ Voordat we aan de slag gaan, zijn er een paar dingen die u op orde moet hebben:
 Eerst moet u de benodigde Aspose.PSD-pakketten in uw Java-project importeren. Laten we uw omgeving instellen.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;

@@ -7,7 +7,7 @@ type: docs
 weight: 29
 url: /cs/net/layer-effects/
 ---
-## Úvod
+## Zavedení
 
 Uvolněte plný potenciál vašich snah o manipulaci s obrázky s Aspose.PSD pro .NET. Tento obsáhlý průvodce vám představí nesčetné množství efektů vrstev, které změní váš tvůrčí proces. Od tahů a stínů až po režimy prolnutí, pozvedněte své návrhy bez námahy.
 

@@ -8,7 +8,7 @@ weight: 25
 url: /cs/net/image-effects/
 ---
 
-## Úvod
+## Zavedení
 
 Prozkoumejte oblast podmanivých obrazových efektů s našimi komplexními výukovými programy na Aspose.PSD pro .NET. Ať už jste zkušený vývojář nebo se jen ponoříte do světa zpracování obrazu, naši podrobní průvodci vám umožní bez námahy přidávat, překrývat a vykreslovat efekty.
 

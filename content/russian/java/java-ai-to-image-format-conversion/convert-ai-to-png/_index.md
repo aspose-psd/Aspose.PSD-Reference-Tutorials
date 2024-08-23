@@ -19,7 +19,6 @@ url: /ru/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 Сначала вам нужно будет импортировать необходимые пакеты Aspose.PSD в ваш Java-проект. Давайте настроим вашу среду.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -44,14 +43,14 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 String outFileName = dataDir + "34992OStroke.png";
 image.save(outFileName, options);
 ```
-Вот и все! Ваш AI-файл был успешно конвертирован в PNG.
+И все! Ваш AI-файл был успешно конвертирован в PNG.
 ## Заключение
 Преобразование AI-файлов в PNG в Java с помощью Aspose.PSD очень просто. Следуя шагам, описанным в этом руководстве, вы сможете легко интегрировать эту функцию в свои приложения Java. Независимо от того, работаете ли вы над графическим приложением или хотите выполнить пакетное преобразование файлов, Aspose.PSD предоставляет инструменты, необходимые для эффективного выполнения работы.
 ## Часто задаваемые вопросы
 ### Что такое Aspose.PSD?
 Aspose.PSD — это библиотека Java, которая позволяет разработчикам работать с PSD (Photoshop) и другими форматами файлов Adobe. Он поддерживает различные операции, такие как редактирование, преобразование и рендеринг.
 ### Могу ли я использовать Aspose.PSD бесплатно?
- Вы можете использовать Aspose PSD с файлом.[бесплатная пробная версия](https://releases.aspose.com/) , но для полной функциональности вам необходимо приобрести лицензию. Вы также можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) в целях оценки.
+ Вы можете использовать Aspose.PSD с[бесплатная пробная версия](https://releases.aspose.com/) , но для полной функциональности вам необходимо приобрести лицензию. Вы также можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) в целях оценки.
 ### Какие форматы файлов поддерживает Aspose.PSD?
 Aspose.PSD поддерживает PSD, PSB, AI и другие форматы файлов Adobe. Он позволяет конвертировать в различные форматы изображений, такие как PNG, JPEG, BMP и TIFF.
 ### Совместим ли Aspose.PSD со всеми версиями Java?

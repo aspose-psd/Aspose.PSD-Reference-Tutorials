@@ -16,7 +16,7 @@ url: /ru/java/java-graphics-drawing/core-drawing-features/
 ### Aspose.PSD для установки Java
 Чтобы начать использовать Aspose.PSD для Java, вам необходимо интегрировать его в ваш проект. Вот как это можно настроить:
 1. Скачать Aspose.PSD для Java
-   -  Посетить[страница загрузки](https://releases.aspose.com/psd/java/) и получите последнюю версию Aspose.PSD для Java.
+   -  Посетите[страница загрузки](https://releases.aspose.com/psd/java/) и получите последнюю версию Aspose.PSD для Java.
    - Распакуйте загруженный архив в любое место по вашему выбору.
 2. Импорт Aspose.PSD в ваш проект
    - В свой проект Java включите файлы JAR Aspose.PSD. Обычно это можно сделать, добавив их в путь сборки вашего проекта или используя инструмент автоматизации сборки, такой как Maven или Gradle.
@@ -25,7 +25,6 @@ url: /ru/java/java-graphics-drawing/core-drawing-features/
 Прежде чем приступить к написанию кода, импортируйте необходимые пакеты для эффективного использования классов и методов Aspose.PSD в вашем Java-приложении:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Шаг 2: Манипулируйте пикселями
 После загрузки изображения вы можете манипулировать его пикселями. Вот как вы можете загружать и изменять пиксели:
 ```java
-// Загрузите пиксели определенной области (например, прямоугольник 100x10, начиная с верхнего левого угла).
+//Загрузите пиксели определенной области (например, прямоугольник 100x10, начиная с верхнего левого угла).
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Измените пиксели (например, примените эффект градиента)
 for (int i = 0; i < pixels.length; i++) {
@@ -67,6 +66,6 @@ image.save(outpath, new BmpOptions());
 ### Поддерживает ли Aspose.PSD для Java несколько форматов изображений, кроме PSD?
 Помимо PSD, Aspose.PSD для Java поддерживает различные форматы, такие как BMP, PNG, JPEG и другие, для операций ввода и вывода.
 ### Как я могу получить временную лицензию на Aspose.PSD для Java?
- Посещать[Временная лицензия Aspose.PSD.](https://purchase.aspose.com/temporary-license/) страница для получения временной лицензии.
+ Посещать[Временная лицензия Aspose.PSD](https://purchase.aspose.com/temporary-license/) страница для получения временной лицензии.
 ### Где я могу найти дополнительную помощь и ресурсы для Aspose.PSD для Java?
- Исследовать[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) За поддержку сообщества, советы и дополнительные ресурсы.
+ Исследуйте[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) за поддержку сообщества, советы и дополнительные ресурсы.

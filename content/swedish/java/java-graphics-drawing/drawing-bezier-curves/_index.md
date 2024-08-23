@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -47,13 +46,13 @@ graphics.clear(Color.getYellow());
 ```
 Förklaring:
 - `clear()` metoden ställer in bakgrundsfärgen på grafikytan.
-## Steg 4: Initiera penna för ritning
+## Steg 4: Initiera pennan för ritning
  Ställ in en`Pen` objekt med egenskaper som färg och bredd för att definiera hur kurvan ska ritas.
 ```java
 Pen blackPen = new Pen(Color.getBlack(), 3);
 ```
 Förklaring:
-- `Pen` initieras med svart färg och 3-pixels bredd.
+- `Pen` initieras med svart färg och 3-pixlars bredd.
 ## Steg 5: Definiera Bezier-kurvaparametrar
 Ange kontrollpunkter och slutpunkter för Bezier-kurvan.
 ```java
@@ -75,7 +74,7 @@ graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, c
 Förklaring:
 - `drawBezier()` metoden ritar kurvan med specificerade parametrar med hjälp av`blackPen`.
 ## Steg 7: Spara bilden
-Spara den ritade bilden i ett BMP-filformat.
+Spara den ritade bilden till ett BMP-filformat.
 ```java
 String outpath = dataDir + "Bezier.bmp";
 BmpOptions saveOptions = new BmpOptions();

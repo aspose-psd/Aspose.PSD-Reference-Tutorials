@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/advanced-techniques/render-text-different-colors/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem podrobném průvodci vykreslováním textu s různými barvami v textové vrstvě pomocí Aspose.PSD pro Java. Aspose.PSD je výkonná Java knihovna, která vám umožňuje programově manipulovat se soubory Photoshopu a poskytuje vám rozsáhlé možnosti pro práci s formáty souborů PSD a PSB.
 
@@ -79,7 +79,7 @@ finally
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste vykreslili text s různými barvami v textové vrstvě pomocí Aspose.PSD for Java. Tento výukový program vám poskytuje základy pro manipulaci s textem v souborech PSD a otevírá možnosti pro kreativní a dynamické generování obrázků.
+Gratuluji! Úspěšně jste vykreslili text s různými barvami v textové vrstvě pomocí Aspose.PSD for Java. Tento výukový program vám poskytuje základy pro manipulaci s textem v souborech PSD a otevírá možnosti pro kreativní a dynamické generování obrázků.
 
 ## FAQ
 

@@ -2,7 +2,7 @@
 title: حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET
 linktitle: حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
-description: تعرف على كيفية حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET. اتبع هذا الدليل خطوة بخطوة لمعالجة الصور بكفاءة.
+description: تعرف على كيفية حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET. اتبع هذا الدليل التفصيلي خطوة بخطوة لمعالجة الصور بكفاءة.
 type: docs
 weight: 10
 url: /ar/net/file-saving-and-exporting/save-images-to-disk/
@@ -85,8 +85,8 @@ using (Image image = Image.Load(sourceFile))
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت؟
 
- ج4: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: أين يمكنني شراء Aspose.PSD لـ .NET؟
 
- ج5: يمكنك شراء Aspose.PSD لـ .NET.[هنا](https://purchase.aspose.com/buy).
+ ج5: يمكنك شراء Aspose.PSD لـ .NET[هنا](https://purchase.aspose.com/buy).

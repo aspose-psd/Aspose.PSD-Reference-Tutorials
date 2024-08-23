@@ -19,7 +19,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 
 2.  Aspose.PSD voor Java-bibliotheek: U hebt de Aspose.PSD voor Java-bibliotheek nodig. Als je dat nog niet hebt gedaan, download het dan van de[Aspose.PSD Java-documentatie](https://reference.aspose.com/psd/java/).
 
-3. Documentmap: stel een map in voor uw documenten en onthoud het pad. In het gegeven voorbeeld wordt naar de map verwezen als`Your Document Directory`.
+3.  Documentmap: stel een map in voor uw documenten en onthoud het pad. In het gegeven voorbeeld wordt naar de map verwezen als`Your Document Directory`.
 
 ## Pakketten importeren
 
@@ -90,8 +90,8 @@ A2: Ja, Aspose.PSD ondersteunt een breed scala aan afbeeldingsformaten, waaronde
 
 ### V4: Waar kan ik hulp zoeken voor problemen of vragen met betrekking tot Aspose.PSD?
 
- A4: Bezoek Aspose.PSD[Helpforum](https://forum.aspose.com/c/psd/34) om hulp te krijgen en verbinding te maken met de gemeenschap.
+ A4: Bezoek Aspose.PSD[ondersteuningsforum](https://forum.aspose.com/c/psd/34) om hulp te krijgen en verbinding te maken met de gemeenschap.
 
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
- A5: Ja, u kunt de gratis proefversie verkennen.[hier](https://releases.aspose.com/).
+ A5: Ja, u kunt de gratis proefversie verkennen[hier](https://releases.aspose.com/).

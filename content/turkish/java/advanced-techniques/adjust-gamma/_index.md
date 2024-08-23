@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## 2. Adım: Gamayı Ayarlayın
 
- Şimdi yüklenen görüntünün gammasını kullanarak ayarlayın.`adjustGamma` yöntem. İhtiyaçlarınıza göre gama değerlerine ince ayar yapın.
+ Şimdi yüklenen görüntünün gammasını kullanarak ayarlayın.`adjustGamma` Yöntem. Gereksinimlerinize göre gama değerlerine ince ayar yapın.
 
 ```java
 // Gamayı ayarlayın

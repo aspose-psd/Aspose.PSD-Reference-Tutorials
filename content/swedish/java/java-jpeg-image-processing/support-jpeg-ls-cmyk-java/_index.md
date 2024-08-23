@@ -2,13 +2,13 @@
 title: Stöd för JPEG-LS med CMYK i Java
 linktitle: Stöd för JPEG-LS med CMYK i Java
 second_title: Aspose.PSD Java API
-description: Lär dig hur du stödjer JPEG-LS med CMYK i Java med Aspose.PSD. Följ vår steg-för-steg-guide för enkel bildbehandling och konvertering.
+description: Lär dig hur du stöder JPEG-LS med CMYK i Java med Aspose.PSD. Följ vår steg-för-steg-guide för enkel bildbehandling och konvertering.
 type: docs
 weight: 21
 url: /sv/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ---
 ## Introduktion
-Vill du dyka in i en värld av bildbehandling med Java? Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer denna handledning om Aspose.PSD för Java att guida dig genom processen att stödja JPEG-LS med CMYK-färgläge. Låt oss hoppa direkt in och få de kreativa juicerna att flöda!
+Vill du dyka in i en värld av bildbehandling med Java? Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen om Aspose.PSD för Java att guida dig genom processen att stödja JPEG-LS med CMYK-färgläge. Låt oss hoppa direkt in och få de kreativa juicerna att flöda!
 ## Förutsättningar
 Innan vi fördjupar oss i den här tutorialen, finns det några förutsättningar du måste ha på plats:
 1.  Java Development Kit (JDK): Se till att du har JDK installerat på ditt system. Du kan ladda ner den från[Oracle hemsida](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -20,7 +20,6 @@ När du har alla dessa förutsättningar klara är du igång!
 För att komma igång måste du importera nödvändiga paket från Aspose.PSD-biblioteket. Så här kan du göra det:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,7 +67,7 @@ Slutligen, spara den andra bilden som en JPEG-fil med CMYK-färgläge och förlu
 image1.save(dataDir + "output2.jpg", options1);
 ```
 ## Slutsats
-Grattis! Du har framgångsrikt lärt dig hur du stöder JPEG-LS med CMYK-färgläge med Aspose.PSD för Java. Genom att följa denna handledning kan du nu hantera PSD-filer och konvertera dem till JPEG-filer med olika komprimeringsinställningar. Detta kraftfulla bibliotek gör det enkelt att manipulera bilder, och med dessa steg är du på god väg att bli ett proffs för bildbehandling.
+Grattis! Du har framgångsrikt lärt dig hur du stödjer JPEG-LS med CMYK-färgläge med Aspose.PSD för Java. Genom att följa den här handledningen kan du nu hantera PSD-filer och konvertera dem till JPEG-filer med olika komprimeringsinställningar. Detta kraftfulla bibliotek gör det enkelt att manipulera bilder, och med dessa steg är du på god väg att bli ett proffs för bildbehandling.
 ## FAQ's
 ### Vad är CMYK-färgläge?
 CMYK står för Cyan, Magenta, Yellow och Key (Black). Det är en färgmodell som används i färgtryck.

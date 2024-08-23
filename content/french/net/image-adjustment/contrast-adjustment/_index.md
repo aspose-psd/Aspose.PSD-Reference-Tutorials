@@ -44,7 +44,7 @@ using (var image = Image.Load(sourceFile))
     {
         rasterImage.CacheData();
     }
-    // Continuer à l'étape suivante...
+    // Passez à l'étape suivante...
 }
 //ExFin : LoadImage
 ```
@@ -56,13 +56,13 @@ Dans cette étape, nous ajusterons le contraste de l'image chargée.
 ```csharp
 //ExStart : Ajuster le contraste
 rasterImage.AdjustContrast(50); // Ajustez le contraste de 50 %
-// Continuer à l'étape suivante...
+// Passez à l'étape suivante...
 //ExEnd : Ajuster le contraste
 ```
 
 ## Étape 3 : Créer des options TIFF
 
- Créer une instance de`TiffOptions` Pour l'image résultante, définissez diverses propriétés et enregistrez l'image au format TIFF.
+ Créer une instance de`TiffOptions` pour l'image résultante, définissez diverses propriétés et enregistrez l'image au format TIFF.
 
 ```csharp
 //ExStart : Créer des options Tiff
@@ -74,7 +74,7 @@ rasterImage.Save(destName, tiffOptions);
 //ExEnd : CreateTiffOptions
 ```
 
-Toutes nos félicitations! Vous avez implémenté avec succès le réglage du contraste à l'aide d'Aspose.PSD pour .NET.
+Félicitations! Vous avez implémenté avec succès le réglage du contraste à l’aide d’Aspose.PSD pour .NET.
 
 ## Conclusion
 
@@ -92,12 +92,12 @@ A1 : Aspose.PSD pour .NET est conçu pour être convivial pour les développeurs
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez explorer un essai gratuit d'Aspose.PSD pour .NET.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez explorer un essai gratuit d'Aspose.PSD pour .NET[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD pour .NET ?
 
- A4 : Visitez le forum de support Aspose.PSD pour .NET[ici](https://forum.aspose.com/c/psd/34) à l'aide.
+ A4 : Visitez le forum de support Aspose.PSD pour .NET[ici](https://forum.aspose.com/c/psd/34) pour obtenir de l'aide.
 
 ### Q5 : Comment puis-je obtenir une licence temporaire ?
 
- R5 : Si nécessaire, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Si nécessaire, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

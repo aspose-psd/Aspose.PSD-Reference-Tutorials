@@ -74,7 +74,7 @@ S1: Ja, Aspose.PSD för Java är kompatibel med Java version 6 och högre.
 
 ### F2: Kan jag använda Aspose.PSD för kommersiella projekt?
 
- S2: Ja, du kan använda Aspose.PSD för både personliga och kommersiella projekt. För licensinformation, besök[här](https://purchase.aspose.com/buy).
+S2: Ja, du kan använda Aspose.PSD för både personliga och kommersiella projekt. För licensinformation, besök[här](https://purchase.aspose.com/buy).
 
 ### F3: Var kan jag hitta support för Aspose.PSD?
 
@@ -82,7 +82,7 @@ S1: Ja, Aspose.PSD för Java är kompatibel med Java version 6 och högre.
 
 ### F4: Finns det en gratis provperiod?
 
- S4: Ja, du kan utforska en gratis testversion av Aspose.PSD genom att besöka.[här](https://releases.aspose.com/).
+ S4: Ja, du kan utforska en gratis testversion av Aspose.PSD genom att besöka[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få en tillfällig licens för Aspose.PSD?
 

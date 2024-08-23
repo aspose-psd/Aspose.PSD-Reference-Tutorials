@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
-## Úvod
+## Zavedení
 V dynamickém světě digitálních médií hraje editace obrázků klíčovou roli při vytváření podmanivých vizuálů. Aspose.PSD for .NET umožňuje vývojářům posunout jejich možnosti manipulace s obrázky na další úroveň. V tomto tutoriálu prozkoumáme podporu vrstev úprav Black and White v Aspose.PSD, což vám umožní přesně doladit obrázky.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:

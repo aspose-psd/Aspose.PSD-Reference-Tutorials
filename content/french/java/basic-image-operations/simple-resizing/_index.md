@@ -15,7 +15,7 @@ Dans le didacticiel d'aujourd'hui, nous approfondirons le processus de redimensi
 
 Avant de nous lancer dans notre voyage de redimensionnement d'image avec Aspose.PSD, assurez-vous d'avoir les conditions préalables suivantes en place :
 
-1. Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez télécharger la dernière version à partir du[Site Web Java](https://www.oracle.com/java/).
+1.  Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez télécharger la dernière version à partir du[Site Web Java](https://www.oracle.com/java/).
 
 2.  Aspose.PSD pour Java : téléchargez et installez la bibliothèque Aspose.PSD. Vous pouvez trouver les packages nécessaires sur le[Page de téléchargement d'Aspose.PSD pour Java](https://releases.aspose.com/psd/java/).
 
@@ -74,7 +74,7 @@ Enregistrez l'image redimensionnée en utilisant le chemin de destination spéci
 image.save(destName, new JpegOptions());
 ```
 
-Toutes nos félicitations! Vous avez réussi à redimensionner une image à l'aide d'Aspose.PSD pour Java. N'hésitez pas à expérimenter différentes dimensions pour répondre à vos besoins.
+Félicitations! Vous avez réussi à redimensionner une image à l'aide d'Aspose.PSD pour Java. N'hésitez pas à expérimenter différentes dimensions pour répondre à vos besoins.
 
 ## Conclusion
 
@@ -96,7 +96,7 @@ A2 : Oui, Aspose.PSD prend en charge différents formats d'image, offrant une po
 
 ### Q4 : Puis-je essayer Aspose.PSD pour Java avant d’acheter ?
 
- A4 : Certainement ! Utiliser le[version d'essai gratuite](https://releases.aspose.com/) pour explorer les capacités de la bibliothèque.
+ A4 : Certainement ! Utiliser le[version d'essai gratuite](https://releases.aspose.com/)pour explorer les capacités de la bibliothèque.
 
 ### Q5 : Comment puis-je obtenir du support pour Aspose.PSD pour Java ?
 

@@ -56,7 +56,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## Conclusión
 
-¡Felicidades! Ha admitido con éxito diferentes tipos de firma en Aspose.PSD para .NET. Este tutorial cubre los pasos esenciales, lo que garantiza que pueda navegar por el proceso sin esfuerzo.
+¡Felicidades! Ha admitido con éxito diferentes tipos de firma en Aspose.PSD para .NET. Este tutorial cubrió los pasos esenciales, lo que garantiza que pueda navegar por el proceso sin esfuerzo.
 
 ## Preguntas frecuentes
 
@@ -70,7 +70,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes obtener una prueba gratuita.[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Necesita ayuda o tiene preguntas?
 
@@ -78,4 +78,4 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### P5: ¿Busca una licencia temporal?
 
- R5: Obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ A5: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

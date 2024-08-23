@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/net/psd-file-manipulation/mlst-resources/
 ---
-## Úvod
+## Zavedení
 Vítejte v podrobném tutoriálu o práci se zdroji MLST (Multiple Layer States) v Aspose.PSD pro .NET. Aspose.PSD for .NET je výkonná knihovna, která poskytuje rozsáhlé možnosti pro práci se soubory Photoshopu. V tomto tutoriálu se zaměříme na podporu zdrojů MLST, které nabízejí nízkoúrovňový mechanismus pro efektivní manipulaci se stavy vrstev.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
@@ -63,7 +63,7 @@ Console.WriteLine("SupportOfMlstResource executed successfully");
 ```
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak zacházet se zdroji MLST v Aspose.PSD pro .NET. Tato funkce poskytuje robustní mechanismus pro programovou manipulaci se stavy vrstev v souborech Photoshopu.
+Gratuluji! Úspěšně jste se naučili, jak zacházet se zdroji MLST v Aspose.PSD pro .NET. Tato funkce poskytuje robustní mechanismus pro programovou manipulaci se stavy vrstev v souborech Photoshopu.
 
 ## FAQ
 
@@ -77,7 +77,7 @@ Odpověď 1: Ano, Aspose.PSD for .NET podporuje soubory PSD vytvořené v různ�
 
 ### Q3: Kde najdu podrobnou dokumentaci k Aspose.PSD pro .NET?
 
-A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
+A3: Dokumentace je k dispozici[zde](https://reference.aspose.com/psd/net/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -85,4 +85,4 @@ A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
 
 ### Q5: Jak mohu zakoupit licenci pro Aspose.PSD pro .NET?
 
- A5: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit licenci[zde](https://purchase.aspose.com/buy).

@@ -20,7 +20,6 @@ url: /el/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-jav
 Πριν ξεκινήσετε με το παράδειγμα, φροντίστε να εισαγάγετε τα απαραίτητα πακέτα από το Aspose.PSD για Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -37,7 +36,7 @@ PsdImage image = (PsdImage)Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 Στη συνέχεια, επαναλάβετε τους πόρους εικόνας για να βρείτε τον πόρο μικρογραφιών JPEG:
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
-    // Βρείτε τον πόρο μικρογραφιών. Συνήθως είναι σε μορφή αρχείου Jpeg.
+    // Εύρεση πόρων μικρογραφιών. Συνήθως είναι σε μορφή αρχείου Jpeg.
     if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
         // Προσαρμογή δεδομένων μικρογραφιών.
         ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
@@ -59,7 +58,7 @@ image.save();
 ```
 Αυτό το βήμα διασφαλίζει ότι οι αλλαγές που έγιναν στην εικόνα διατηρούνται.
 
-## συμπέρασμα
+## Σύναψη
 Συμπερασματικά, η χρήση του Aspose.PSD για Java παρέχει μια ισχυρή λύση για την αυτόματη διόρθωση των προσανατολισμών εικόνας JPEG σε αρχεία PSD. Ακολουθώντας τα βήματα που περιγράφονται σε αυτό το σεμινάριο, οι προγραμματιστές μπορούν να βελτιώσουν τις ροές εργασίας επεξεργασίας εικόνας τους, διασφαλίζοντας ότι οι εικόνες εμφανίζονται σωστά σε διάφορες πλατφόρμες και συσκευές.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD για Java;

@@ -20,7 +20,6 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 Tout d’abord, importez les packages nécessaires pour commencer à travailler avec Aspose.PSD pour Java :
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -33,7 +32,7 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "Simple.psb";
 PsdImage image = (PsdImage)Image.load(sourceFileName);
 ```
-## Étape 3 : Convertir PSD en PDF
+## Étape 3 : Convertir le PSD en PDF
  Utiliser le`save` méthode du`PsdImage` objet avec`PdfOptions` pour convertir le fichier PSD chargé au format PDF. Spécifiez le chemin du fichier de sortie pour le fichier PDF.
 ```java
 image.save(dataDir + "Simple_output.pdf", new PdfOptions());
@@ -57,7 +56,7 @@ Aspose.PSD for Java prend en charge un large éventail de types de fichiers PSD,
 ### Aspose.PSD pour Java est-il adapté au traitement par lots de fichiers PSD ?
 Oui, les développeurs peuvent exploiter Aspose.PSD pour Java pour les tâches de traitement par lots, telles que la conversion simultanée de plusieurs fichiers PSD en PDF.
 ### Où puis-je trouver une assistance supplémentaire pour Aspose.PSD pour Java ?
- Visiter le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien de la communauté et pour se connecter avec d’autres utilisateurs et développeurs.
+ Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien de la communauté et pour se connecter avec d’autres utilisateurs et développeurs.
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
  Vous pouvez demander une licence temporaire à des fins de test auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Quels sont les avantages de l’utilisation d’Aspose.PSD pour Java par rapport à d’autres bibliothèques ?

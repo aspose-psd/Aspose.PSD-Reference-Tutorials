@@ -81,7 +81,7 @@ Cevap1: Evet, Bradley Eşikleme, çeşitli görüntü türlerine uygun, çok yö
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, Aspose.PSD for .NET'in ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap3: Evet, Aspose.PSD for .NET'in ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD için nasıl destek alabilirim?
 
@@ -89,4 +89,4 @@ Cevap1: Evet, Bradley Eşikleme, çeşitli görüntü türlerine uygun, çok yö
 
 ### S5: Aspose.PSD lisansını nereden satın alabilirim?
 
- A5: Bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ A5: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

@@ -8,7 +8,7 @@ weight: 11
 url: /fr/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
 ## Introduction
-Ajouter un motif de calque de trait à une image en Java peut sembler une tâche ardue, mais avec Aspose.PSD pour Java, c'est plus facile que vous ne le pensez. Que vous conceviez des graphiques ou travailliez sur des applications de retouche photo, ce guide vous guidera pas à pas tout au long du processus. Prêt à commencer? Allons-y !
+Ajouter un motif de calque de trait à une image en Java peut sembler une tâche ardue, mais avec Aspose.PSD pour Java, c'est plus facile que vous ne le pensez. Que vous conceviez des graphiques ou travailliez sur des applications de retouche photo, ce guide vous guidera pas à pas tout au long du processus. Prêt à commencer ? Allons-y !
 ## Conditions préalables
 Avant de commencer, vous aurez besoin de quelques éléments :
 - Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre système.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -127,7 +126,7 @@ catch (Exception e)
 ```
 Cette étape vérifie que les données du motif ont été correctement appliquées à l'effet de trait.
 ## Conclusion
-Et voila! Vous avez ajouté avec succès un motif de calque de trait à un fichier PSD à l'aide d'Aspose.PSD pour Java. En suivant ces étapes, vous pouvez facilement personnaliser et améliorer vos images. Bon codage !
+Et voilà ! Vous avez ajouté avec succès un motif de calque de trait à un fichier PSD à l'aide d'Aspose.PSD pour Java. En suivant ces étapes, vous pouvez facilement personnaliser et améliorer vos images. Bon codage !
 ## FAQ
 ### Qu’est-ce qu’Aspose.PSD pour Java ?
 Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de créer, modifier et convertir des fichiers PSD (Photoshop Document) par programme.

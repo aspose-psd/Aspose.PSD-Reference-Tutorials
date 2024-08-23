@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Adım 3: Kırpma Bölgesini Tanımlayın
 ```java
-//X, y, genişlik ve yüksekliği ileterek Rectangle sınıfının bir örneğini oluşturun
+// X, y, genişlik ve yüksekliği ileterek Rectangle sınıfının bir örneğini oluşturun
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Adım 4: PSD Görüntüsünü Kırpın
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // PngOptions sınıfının bir örneğini oluşturun
 PngOptions pngOptions = new PngOptions();
 ```
-## Adım 6: Kırpılmış Resmi PNG olarak kaydedin.
+## Adım 6: Kırpılmış Resmi PNG Olarak Kaydet
 ```java
 // PSD dosyasını PNG'ye dönüştürmek ve çıktıyı kaydetmek için çıktı yolunu ve PngOptions'ı sağlayın
 String destName = dataDir + "export.png";

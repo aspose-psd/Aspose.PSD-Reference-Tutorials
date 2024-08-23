@@ -54,7 +54,7 @@ timeline.SwitchActiveFrame(4);
 string outputFile = Path.Combine(outputDir, "output_edited.psd");
 psdImage.Save(outputFile);
 ```
-## Etapa 6: limpeza
+## Etapa 6: limpar
 ```csharp
 File.Delete(outputFile);
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
@@ -80,7 +80,7 @@ A1: Sim, Aspose.PSD for .NET é compatível com vários frameworks .NET, garanti
 
 ### Q4: As licenças temporárias estão disponíveis para Aspose.PSD para .NET?
 
- A4: Sim, você pode obter licenças temporárias para Aspose.PSD para .NET.[aqui](https://purchase.aspose.com/temporary-license/).
+ A4: Sim, você pode obter licenças temporárias para Aspose.PSD para .NET[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Onde posso encontrar documentação detalhada do Aspose.PSD para .NET?
 

@@ -15,7 +15,7 @@ url: /ar/java/basic-image-operations/simple-resizing/
 
 قبل أن نبدأ رحلتنا لتغيير حجم الصورة باستخدام Aspose.PSD، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيل أحدث إصدار من[موقع جافا](https://www.oracle.com/java/).
+1.  Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيل أحدث إصدار من[موقع جافا](https://www.oracle.com/java/).
 
 2.  Aspose.PSD لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.PSD. يمكنك العثور على الحزم اللازمة على[Aspose.PSD لصفحة تنزيل Java](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ image.save(destName, new JpegOptions());
 
 ### س4: هل يمكنني تجربة Aspose.PSD لـ Java قبل الشراء؟
 
- ج4: بالتأكيد! الاستفادة من[نسخة تجريبية مجانية](https://releases.aspose.com/) لاستكشاف إمكانيات المكتبة.
+ ج4: بالتأكيد! الاستفادة من[نسخة تجريبية مجانية](https://releases.aspose.com/)لاستكشاف إمكانيات المكتبة.
 
 ### س5: كيف يمكنني الحصول على دعم Aspose.PSD لـ Java؟
 

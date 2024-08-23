@@ -7,12 +7,12 @@ type: docs
 weight: 12
 url: /cs/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/
 ---
-## Úvod
+## Zavedení
 V dnešní digitální době se programová manipulace a optimalizace obrázků stala zásadním úkolem pro vývojáře napříč různými doménami. Aspose.PSD for Java dává vývojářům k dispozici robustní nástroje pro efektivní zpracování PSD, JPEG a dalších obrazových formátů. Tento výukový program se ponoří do konkrétního úkolu: automatická korekce orientace obrázku JPEG pomocí Aspose.PSD pro Java. Ať už vytváříte aplikaci pro úpravu fotografií, spravujete zdroje obrázků v systému pro správu obsahu nebo automatizujete pracovní postupy zpracování obrázků, tato příručka vás vybaví znalostmi nezbytnými pro bezproblémovou integraci této funkce do vašich aplikací Java.
 ## Předpoklady
 Než se pustíte do tohoto výukového programu, ujistěte se, že máte nastaveny následující předpoklady:
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
--  Aspose.PSD for Java JAR: Stáhněte si knihovnu Aspose.PSD pro Java z[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD for Java JAR: Stáhněte si knihovnu Aspose.PSD pro Java z[zde](https://releases.aspose.com/psd/java/).
 - Integrované vývojové prostředí (IDE): Pro vývoj v Javě použijte IntelliJ IDEA, Eclipse nebo jakékoli IDE dle vašeho výběru.
 - Základní porozumění Javě a zpracování obrazu: Výhodou bude znalost programování v Javě a základních konceptů zpracování obrazu.
 
@@ -20,7 +20,6 @@ Než se pustíte do tohoto výukového programu, ujistěte se, že máte nastave
 Než začnete s příkladem, ujistěte se, že jste importovali potřebné balíčky z Aspose.PSD pro Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -65,10 +64,10 @@ Závěrem lze říci, že použití Aspose.PSD for Java poskytuje výkonné ře�
 ### Co je Aspose.PSD for Java?
 Aspose.PSD for Java je výkonná knihovna, která umožňuje vývojářům Java pracovat s PSD, JPEG a dalšími obrazovými formáty programově.
 ### Jak si mohu stáhnout Aspose.PSD pro Javu?
- Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/psd/java/).
+ Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/psd/java/).
 ### Podporuje Aspose.PSD for Java manipulaci s obrázky?
 Ano, podporuje různé úlohy manipulace s obrázky, jako je změna velikosti, oříznutí a úprava orientace.
 ### Kde najdu dokumentaci k Aspose.PSD pro Javu?
- K dispozici je obsáhlá dokumentace[tady](https://reference.aspose.com/psd/java/).
+ K dispozici je obsáhlá dokumentace[zde](https://reference.aspose.com/psd/java/).
 ### Mohu vyzkoušet Aspose.PSD pro Javu zdarma?
- Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi od[zde](https://releases.aspose.com/).

@@ -135,7 +135,7 @@ Cevap1: Evet, Aspose.PSD for .NET, Visual Studio'nun çeşitli sürümleriyle uy
 
 ### S3: Test için kullanılabilecek örnek PSD dosyaları var mı?
 
- Cevap3: Örnek PSD dosyalarını belgelerde bulabilirsiniz.[Burada](https://reference.aspose.com/psd/net/).
+ Cevap 3: Örnek PSD dosyalarını belgelerde bulabilirsiniz.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S4: Aspose.PSD, PSD dosyalarının toplu işlenmesi için uygun mudur?
 

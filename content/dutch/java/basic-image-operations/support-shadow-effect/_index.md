@@ -99,7 +99,7 @@ A1: Absoluut! Aspose.PSD voor Java is een krachtige bibliotheek ontworpen voor p
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefversie uitproberen.[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefversie uitproberen[hier](https://releases.aspose.com/).
 
 ### Vraag 4: Waar kan ik gedetailleerde documentatie vinden?
 
@@ -107,4 +107,4 @@ A1: Absoluut! Aspose.PSD voor Java is een krachtige bibliotheek ontworpen voor p
 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor Java?
 
- A5: Word lid van het communityforum.[hier](https://forum.aspose.com/c/psd/34) voor eventuele ondersteuningsvragen.
+ A5: Word lid van het communityforum[hier](https://forum.aspose.com/c/psd/34) voor eventuele ondersteuningsvragen.

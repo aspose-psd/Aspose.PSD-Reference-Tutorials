@@ -8,7 +8,7 @@ weight: 18
 url: /vi/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
 ## Giới thiệu
-Này! Bạn đã bao giờ tự hỏi làm thế nào bạn có thể đọc và sửa đổi các thẻ JPEG EXIF bằng Java chưa? Nếu vậy, bạn đang ở đúng nơi! Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn hay người mới, đến cuối hướng dẫn này, bạn sẽ có thể xử lý các thẻ JPEG EXIF như một người chuyên nghiệp. Vì vậy, hãy đi sâu vào!
+Này! Bạn đã bao giờ tự hỏi làm thế nào bạn có thể đọc và sửa đổi các thẻ JPEG EXIF bằng Java chưa? Nếu vậy, bạn đang ở đúng nơi! Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, thì khi kết thúc hướng dẫn này, bạn sẽ có thể xử lý các thẻ JPEG EXIF như một người chuyên nghiệp. Vì vậy, hãy đi sâu vào!
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
 1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình. Bạn có thể tải nó xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
@@ -19,7 +19,6 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những đi�
 Trước tiên, hãy nhập các gói cần thiết. Mở Java IDE của bạn và tạo một dự án Java mới. Sau đó, đưa thư viện Aspose.PSD cho Java vào phần phụ thuộc dự án của bạn.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -81,7 +80,7 @@ try {
 ```
 
 ## Phần kết luận
-Và bạn có nó rồi đấy! Bằng cách làm theo các bước này, bạn có thể dễ dàng đọc và sửa đổi thẻ JPEG EXIF bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này giúp việc xử lý siêu dữ liệu hình ảnh trở nên dễ dàng. Vì vậy, hãy tiếp tục và thử nó trên các dự án của riêng bạn. Chúc mừng mã hóa!
+Và bạn có nó! Bằng cách làm theo các bước này, bạn có thể dễ dàng đọc và sửa đổi các thẻ JPEG EXIF bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này giúp việc xử lý siêu dữ liệu hình ảnh trở nên dễ dàng. Vì vậy, hãy tiếp tục và thử nó trên các dự án của riêng bạn. Chúc mừng mã hóa!
 ## Câu hỏi thường gặp
 ### Dữ liệu EXIF là gì?
 Dữ liệu EXIF (Định dạng tệp hình ảnh có thể trao đổi) chứa siêu dữ liệu về hình ảnh, chẳng hạn như hướng và cài đặt máy ảnh.

@@ -106,7 +106,7 @@ settings.TransparencyPoints[1].Opacity = 100;
 psdImage.Save(outputFilePath);
 ```
 
-Đó là nó! Bạn đã thêm thành công Hiệu ứng lớp phủ chuyển màu vào một lớp bằng Aspose.PSD cho .NET.
+Thế thôi! Bạn đã thêm thành công Hiệu ứng lớp phủ chuyển màu vào một lớp bằng Aspose.PSD cho .NET.
 
 ## Phần kết luận
 
@@ -128,7 +128,7 @@ Câu trả lời 2: Có, bạn có thể áp dụng nhiều hiệu ứng khác n
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Đ4: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD?
 

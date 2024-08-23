@@ -57,7 +57,7 @@ RasterCachedImage rasterImage = image;
 ## 第三步：調整亮度
 
 ```csharp
-//設定亮度值。可接受的亮度值在[-255, 255]範圍內。
+//設定亮度值。可接受的亮度值在 [-255, 255] 範圍內。
 rasterImage.AdjustBrightness(-50);
 ```
 
@@ -80,7 +80,7 @@ Aspose.PSD for .NET 簡化了在 PSD 檔案中實現亮度調整的過程。透�
 
 ### Q1：在哪裡可以找到 Aspose.PSD for .NET 的文件？
 
- A1：文檔可用。[這裡](https://reference.aspose.com/psd/net/).
+ A1：文檔可用[這裡](https://reference.aspose.com/psd/net/).
 
 ### Q2: 如何下載 Aspose.PSD for .NET 函式庫？
 
@@ -88,7 +88,7 @@ Aspose.PSD for .NET 簡化了在 PSD 檔案中實現亮度調整的過程。透�
 
 ### Q3：Aspose.PSD for .NET 有沒有免費試用版？
 
- A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### 問題 4：在哪裡可以獲得 Aspose.PSD for .NET 支援？
 
@@ -96,4 +96,4 @@ Aspose.PSD for .NET 簡化了在 PSD 檔案中實現亮度調整的過程。透�
 
 ### Q5：如何取得 Aspose.PSD for .NET 的臨時授權？
 
- A5：您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).

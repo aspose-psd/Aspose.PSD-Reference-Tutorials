@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -96,7 +95,7 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++)
 im.save(exportPath);
 ```
 Это гарантирует правильное применение нового шаблона и сохранение файла с изменениями.
-## Шаг 6. Проверьте изменения.
+## Шаг 6: Проверьте изменения
 Чтобы убедиться, что все работает правильно, загрузите файл еще раз и проверьте изменения.
 ```java
 PsdImage img = (PsdImage)Image.load(sourceFileName, loadOptions);

@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -56,7 +55,7 @@ graphicspath.addFigures(fig);
 ```
 I det här steget lägger vi till en cirkel, en rektangel och en textetikett till vår figur och lägger sedan till den här figuren i vår grafiska väg.
 ## Steg 3: Rita och fyll sökväg
-Nu när vi har vår väg definierad kan vi rita och fylla den:
+Nu när vi har definierat vår väg kan vi rita och fylla den:
 ```java
 graphics.drawPath(new Pen(Color.getBlue()), graphicspath);
 HatchBrush hatchbrush = new HatchBrush();
@@ -67,7 +66,7 @@ graphics.fillPath(hatchbrush, graphicspath);
 ```
 det här steget ritar vi banan med en blå penna och fyller den med ett vertikalt kläckmönster med hjälp av en kläckborste.
 ## Steg 4: Spara bilden
-Slutligen, spara bilden till en fil:
+Slutligen sparar du bilden till en fil:
 ```java
 String dataDir = "Your Document Directory";
 image.save(dataDir + "DrawingUsingGraphicsPath_output.psd");
@@ -81,7 +80,7 @@ Aspose.PSD är ett bibliotek som låter utvecklare arbeta med Photoshop-filer oc
 ### Kan jag använda Aspose.PSD för andra format än PSD?
 Från och med den här guiden handlar Aspose.PSD specifikt om PSD-filer men erbjuder tillägg för att hantera olika bildformat.
 ### Finns en testversion tillgänglig för Aspose.PSD?
- Ja, du kan få tillgång till en gratis testversion av Aspose.PSD.[här](https://releases.aspose.com/).
+ Ja, du kan få tillgång till en gratis testversion av Aspose.PSD[här](https://releases.aspose.com/).
 ### Hur kan jag köpa Aspose.PSD?
  Du kan köpa Aspose.PSD från[här](https://purchase.aspose.com/buy).
 ### Var kan jag få support för Aspose.PSD?

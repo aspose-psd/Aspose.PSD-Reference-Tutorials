@@ -17,7 +17,7 @@ Antes de embarcar neste tutorial, certifique-se de ter os seguintes pré-requisi
 
 1. Ambiente de desenvolvimento Java: certifique-se de ter um ambiente de desenvolvimento Java configurado em sua máquina.
 
-2. Biblioteca Aspose.PSD: Baixe e instale a biblioteca Aspose.PSD do[local na rede Internet](https://releases.aspose.com/psd/java/).
+2. Biblioteca Aspose.PSD: Baixe e instale a biblioteca Aspose.PSD do[site](https://releases.aspose.com/psd/java/).
 
 3.  Arquivo PSD de amostra: tenha um arquivo PSD de amostra pronto para experimentação. Você pode usar o[sample.psd](Seu diretório de documentos/sample.psd) para este tutorial.
 
@@ -63,7 +63,7 @@ image.save(destName, new JpegOptions());
 
 E aí está! Você redimensionou uma imagem com êxito usando a enumeração de tipo de redimensionamento em Aspose.PSD para Java.
 
-Concluindo, Aspose.PSD para Java fornece uma plataforma robusta para manipulação de imagens, e a enumeração de tipo de redimensionamento adiciona uma camada de flexibilidade a esse processo. Esteja você trabalhando em um projeto pequeno ou em um aplicativo de grande escala, dominar essas etapas permitirá que você lide com o redimensionamento de imagens perfeitamente.
+Concluindo, Aspose.PSD para Java fornece uma plataforma robusta para manipulação de imagens, e a enumeração de tipo de redimensionamento adiciona uma camada de flexibilidade a esse processo. Esteja você trabalhando em um projeto pequeno ou em um aplicativo de grande escala, dominar essas etapas permitirá que você lide perfeitamente com o redimensionamento de imagens.
 
 ## Perguntas frequentes
 
@@ -81,8 +81,8 @@ A2: Sim, Aspose.PSD para Java oferece vários tipos de redimensionamento, como v
 
 ### Q4: Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
 
- A4: Sim, você pode acessar uma versão de avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode acessar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P5: Como posso obter uma licença temporária do Aspose.PSD para Java?
 
- A5: Para obter uma licença temporária, visite[esse link](https://purchase.aspose.com/temporary-license/).
+ A5: Para obter uma licença temporária, visite[este link](https://purchase.aspose.com/temporary-license/).

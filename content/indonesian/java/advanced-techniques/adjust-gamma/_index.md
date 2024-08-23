@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## Langkah 2: Sesuaikan Gamma
 
- Sekarang, sesuaikan gamma gambar yang dimuat menggunakan`adjustGamma` metode. Sesuaikan nilai gamma sesuai kebutuhan Anda.
+ Sekarang, sesuaikan gamma gambar yang dimuat menggunakan`adjustGamma` metode. Sesuaikan nilai gamma sesuai dengan kebutuhan Anda.
 
 ```java
 // Sesuaikan gammanya

@@ -8,7 +8,7 @@ weight: 28
 url: /it/net/psd-drawing-techniques/
 ---
 
-## introduzione
+## Introduzione
 
 Sei pronto a portare le tue abilità di disegno al livello successivo con Aspose.PSD per .NET? I nostri tutorial coprono una gamma di tecniche che ti consentiranno di creare grafica accattivante e migliorare la tua competenza nell'elaborazione delle immagini.
 

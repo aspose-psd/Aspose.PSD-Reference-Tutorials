@@ -82,7 +82,7 @@ In deze zelfstudie hebben we de essentiële stappen besproken om het formaat van
 
 ### Vraag 3: Zijn er tijdelijke licenties beschikbaar voor testdoeleinden?
 
- A3: Ja, u kunt een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/) voor evaluatie.
+ A3: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor evaluatie.
 
 ### V4: Waar kan ik ondersteuning vinden voor Aspose.PSD?
 

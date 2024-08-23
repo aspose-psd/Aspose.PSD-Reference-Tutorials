@@ -2,7 +2,7 @@
 title: Konstruera rektanglar i Aspose.PSD för .NET
 linktitle: Konstruera rektanglar
 second_title: Aspose.PSD .NET API
-description: Utforska konsten att rita rektanglar i .NET med Aspose.PSD. Följ vår steg-för-steg-guide för sömlös integration. Lyft upp ditt bildmanipuleringsspel utan ansträngning.
+description: Utforska konsten att rita rektanglar i .NET med Aspose.PSD. Följ vår steg-för-steg-guide för sömlös integration. Höj ditt bildmanipuleringsspel utan ansträngning.
 type: docs
 weight: 15
 url: /sv/net/psd-drawing-techniques/constructing-rectangles/
@@ -19,7 +19,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 -  Ladda ner Aspose.PSD: Se till att du har laddat ner Aspose.PSD-biblioteket från[nedladdningslänk](https://releases.aspose.com/psd/net/).
 
--  Skaffa en licens: Om du använder Aspose.PSD i en produktionsmiljö, se till att du har en giltig licens. Du kan få en[här](https://purchase.aspose.com/buy) eller använd en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för provning.
+-  Skaffa en licens: Om du använder Aspose.PSD i en produktionsmiljö, se till att du har en giltig licens. Du kan få en[här](https://purchase.aspose.com/buy) eller använd en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för testning.
 
 ## Importera namnområden
 
@@ -93,4 +93,4 @@ A4: Att använda 32 Bpp möjliggör rikare färgrepresentation, vilket möjligg�
 
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.PSD?
 
- S5: Ja, du kan utforska Aspose.PSD med en gratis provperiod. Ladda ner det[här](https://releases.aspose.com/).
+ S5: Ja, du kan utforska Aspose.PSD med en gratis provperiod. Ladda ner den[här](https://releases.aspose.com/).

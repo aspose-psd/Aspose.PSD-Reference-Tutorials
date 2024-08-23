@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -75,7 +74,7 @@ Có, Aspose.PSD hỗ trợ nhiều thao tác bao gồm thao tác lớp, điều 
 ### Aspose.PSD có phù hợp với các ứng dụng hiệu suất cao không?
 Hoàn toàn có thể, Aspose.PSD được tối ưu hóa về hiệu suất và hiệu quả bộ nhớ.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Tham quan[Tài liệu Java Aspose.PSD](https://reference.aspose.com/psd/java/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
+ Ghé thăm[Tài liệu Java Aspose.PSD](https://reference.aspose.com/psd/java/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
 ### Aspose.PSD có hỗ trợ nhiều định dạng hình ảnh để xuất không?
 Có, Aspose.PSD hỗ trợ xuất sang nhiều định dạng khác nhau như BMP, PNG, JPEG và TIFF.
 ### Làm cách nào tôi có thể nhận được sự hỗ trợ hoặc trợ giúp nếu tôi gặp phải vấn đề?

@@ -20,7 +20,6 @@ url: /ar/java/java-psb-to-image-format-conversion/convert-psb-to-pdf-java/
 أولاً، قم باستيراد الحزم اللازمة لبدء العمل مع Aspose.PSD لـ Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -39,7 +38,7 @@ PsdImage image = (PsdImage)Image.load(sourceFileName);
 image.save(dataDir + "Simple_output.pdf", new PdfOptions());
 ```
 ## الخطوة 4: التعامل مع الاستثناءات (اختياري)
-قم بتضمين عمليات التحميل والحفظ داخل كتل محاولة الالتقاط للتعامل مع أي استثناءات محتملة قد تحدث أثناء معالجة الملف أو تحويله.
+قم بتضمين عمليات التحميل والحفظ ضمن كتل محاولة الالتقاط للتعامل مع أي استثناءات محتملة قد تحدث أثناء معالجة الملف أو تحويله.
 ```java
 try {
     // كود تحويل PSD إلى PDF هنا

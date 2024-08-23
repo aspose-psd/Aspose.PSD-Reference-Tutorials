@@ -75,7 +75,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-Gratulálunk! Sikeresen kibontott és levágott egy képet az Aspose.PSD for Java használatával.
+Gratulálok! Sikeresen kibontott és levágott egy képet az Aspose.PSD for Java használatával.
 
 ## Következtetés
 
@@ -93,7 +93,7 @@ Ebben az oktatóanyagban a képek kibontásának és kivágásának folyamatát 
 
 ### 3. kérdés: Vannak-e korlátozások a támogatott képfájlformátumokra vonatkozóan?
 
- 3. válasz: Az Aspose.PSD számos képfájlformátumot támogat, beleértve a PSD-t, JPEG-et, PNG-t és még sok mást. Utal[dokumentáció](https://reference.aspose.com/psd/java/) a teljes listáért.
+ 3. válasz: Az Aspose.PSD számos képfájlformátumot támogat, beleértve a PSD-t, JPEG-et, PNG-t és még sok mást. Lásd a[dokumentáció](https://reference.aspose.com/psd/java/) a teljes listáért.
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-vel kapcsolatos lekérdezésekhez?
 
@@ -101,4 +101,4 @@ Ebben az oktatóanyagban a képek kibontásának és kivágásának folyamatát 
 
 ### 5. kérdés: Van ingyenes próbaverzió?
 
- 5. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval. Töltsd le[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval. Töltse le[itt](https://releases.aspose.com/).

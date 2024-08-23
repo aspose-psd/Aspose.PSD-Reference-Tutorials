@@ -42,7 +42,7 @@ Dividamos el proceso de guardar imágenes utilizando subprocesos de trabajo en p
 
 ```java
 public class SaveImageWorker {
-    // ... (Consulte el código proporcionado para declaraciones de variables)
+    //... (Consulte el código proporcionado para declaraciones de variables)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Lógica constructora
@@ -106,11 +106,11 @@ R1: Sí, Aspose.PSD para Java brinda soporte para subprocesos múltiples, lo que
 
 ### P2: ¿Dónde puedo encontrar documentación detallada sobre Aspose.PSD para Java?
 
- A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/psd/java/) para obtener información completa sobre Aspose.PSD para Java.
+A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/psd/java/) para obtener información completa sobre Aspose.PSD para Java.
 
 ### P3: ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para Java?
 
- R3: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para explorar todas las capacidades de Aspose.PSD para Java.
+ R3: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para explorar todas las capacidades de Aspose.PSD para Java.
 
 ### P4: ¿Qué opciones de soporte están disponibles para Aspose.PSD para Java?
 

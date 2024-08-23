@@ -16,7 +16,7 @@ url: /ko/net/layer-effects/working-with-blend-modes/
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - C# 및 .NET 개발에 대한 기본적인 이해.
--  .NET 라이브러리용 Aspose.PSD가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+-  .NET 라이브러리용 Aspose.PSD가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 - Visual Studio와 같은 개발 환경 설정.
 
 ## 네임스페이스 가져오기

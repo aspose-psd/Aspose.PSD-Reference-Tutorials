@@ -89,4 +89,4 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 
 ### คำถามที่ 5: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PSD ได้ที่ไหน
 
- A5:คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+ A5: คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).

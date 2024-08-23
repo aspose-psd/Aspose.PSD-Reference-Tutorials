@@ -18,7 +18,7 @@ Explorez le monde dynamique d'Aspose.PSD pour .NET à travers nos didacticiels c
 
 Voici des liens vers quelques ressources utiles :
  
-- [Traitement d'image](./net/image-processing/)
+- [Traitement d'images](./net/image-processing/)
 - [Manipulation de fichiers PSD](./net/psd-file-manipulation/)
 - [Manipulation du texte et des polices](./net/text-and-font-manipulation/)
 - [Enregistrement et exportation de fichiers](./net/file-saving-and-exporting/)
@@ -38,10 +38,10 @@ Embarquez pour un voyage créatif avec Aspose.PSD pour Java ! Nos didacticiels 
 
 Voici des liens vers quelques ressources utiles :
 
-- [Traitement d'image](./java/image-processing/)
+- [Traitement d'images](./java/image-processing/)
 - [Conversion PSD](./java/psd-conversion/)
 - [Techniques avancées](./java/advanced-techniques/)
-- [L'édition d'image](./java/image-editing/)
+- [Édition d'images](./java/image-editing/)
 - [Manipulation avancée des images](./java/advanced-image-manipulation/)
 - [Opérations de base sur les images](./java/basic-image-operations/)
 - [Effets d'image avancés](./java/advanced-image-effects/)

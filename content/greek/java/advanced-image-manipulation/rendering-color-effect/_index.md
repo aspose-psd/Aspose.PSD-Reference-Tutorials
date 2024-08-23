@@ -17,7 +17,7 @@ url: /el/java/advanced-image-manipulation/rendering-color-effect/
 
 - Περιβάλλον ανάπτυξης Java: Βεβαιωθείτε ότι έχετε ένα λειτουργικό περιβάλλον ανάπτυξης Java στον υπολογιστή σας.
 
--  Aspose.PSD για Java: Λήψη και εγκατάσταση της βιβλιοθήκης Aspose.PSD από[αυτός ο σύνδεσμος](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD για Java: Λήψη και εγκατάσταση της βιβλιοθήκης Aspose.PSD από[αυτόν τον σύνδεσμο](https://releases.aspose.com/psd/java/).
 
 ## Εισαγωγή πακέτων
 
@@ -71,7 +71,7 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Εφαρμόσατε με επιτυχία χρωματικά εφέ απόδοσης χρησιμοποιώντας το Aspose.PSD για Java. Αυτή η ισχυρή βιβλιοθήκη ανοίγει έναν κόσμο δυνατοτήτων για χειρισμό γραφικών στις εφαρμογές σας Java.
 
@@ -87,7 +87,7 @@ A2: Ναι, το Aspose.PSD είναι συμβατό με Java 11 και νεό
 
 ### Ε3: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.PSD για Java;
 
- A3: Επισκεφθείτε το[τεκμηρίωση](https://reference.aspose.com/psd/java/) για λεπτομερείς πληροφορίες και παραδείγματα.
+ A3: Επισκεφθείτε το[απόδειξη με έγγραφα](https://reference.aspose.com/psd/java/) για λεπτομερείς πληροφορίες και παραδείγματα.
 
 ### Ε4: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 

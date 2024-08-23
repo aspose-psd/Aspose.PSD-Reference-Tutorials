@@ -77,12 +77,12 @@ O1: Tak, Aspose.PSD dla .NET obsługuje pliki PSD utworzone w różnych wersjach
 
 ### P3: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla .NET?
 
-A3: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/net/).
+A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/net/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 
- A4: Odwiedź[Fora Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
+ A4: Odwiedź[Fora Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
 
 ### P5: Jak kupić licencję na Aspose.PSD dla .NET?
 
- Odpowiedź 5: Możesz kupić licencję.[Tutaj](https://purchase.aspose.com/buy).
+ Odpowiedź 5: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).

@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/net/image-processing/apply-bradley-threshold/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem komplexním tutoriálu o aplikaci Bradley Threshold v Aspose.PSD pro .NET. Aspose.PSD for .NET je výkonná knihovna, která vám umožňuje pracovat se soubory Photoshopu ve vašich aplikacích .NET. Bradley Thresholding je technika používaná pro binarizaci obrazu, která pomáhá efektivně oddělovat objekty od pozadí.
 
@@ -65,7 +65,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste použili Bradley Threshold v Aspose.PSD pro .NET. Tato technika je neocenitelná pro zlepšení segmentace obrazu v různých aplikacích.
+Gratuluji! Úspěšně jste použili Bradley Threshold v Aspose.PSD pro .NET. Tato technika je neocenitelná pro zlepšení segmentace obrazu v různých aplikacích.
 
 Neváhejte a prozkoumejte další funkce a funkce poskytované Aspose.PSD pro .NET pro optimalizaci vašich úloh zpracování obrazu.
 
@@ -81,7 +81,7 @@ A1: Ano, Bradley Thresholding je všestranná technika vhodná pro různé typy 
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET.[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD?
 
@@ -89,4 +89,4 @@ A1: Ano, Bradley Thresholding je všestranná technika vhodná pro různé typy 
 
 ### Q5: Kde mohu zakoupit licenci pro Aspose.PSD?
 
- A5: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit licenci[zde](https://purchase.aspose.com/buy).

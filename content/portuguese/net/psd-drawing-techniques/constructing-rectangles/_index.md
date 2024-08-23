@@ -9,7 +9,7 @@ url: /pt/net/psd-drawing-techniques/constructing-rectangles/
 ---
 ## Introdução
 
-No domínio dinâmico do desenvolvimento .NET, Aspose.PSD se destaca como uma ferramenta poderosa para lidar com a manipulação de imagens. Este tutorial se concentra em uma tarefa fundamental: construir retângulos usando Aspose.PSD para .NET. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia passo a passo orientará você durante o processo, garantindo que você compreenda cada conceito completamente.
+No domínio dinâmico do desenvolvimento .NET, Aspose.PSD se destaca como uma ferramenta poderosa para lidar com a manipulação de imagens. Este tutorial se concentra em uma tarefa fundamental: construir retângulos usando Aspose.PSD para .NET. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia passo a passo irá orientá-lo durante o processo, garantindo que você compreenda cada conceito completamente.
 
 ## Pré-requisitos
 
@@ -17,7 +17,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 
 -  Configuração do ambiente: Tenha um ambiente de desenvolvimento .NET funcional com Aspose.PSD integrado. Se ainda não o fez, consulte o[documentação](https://reference.aspose.com/psd/net/) para obter instruções de instalação.
 
--  Baixe Aspose.PSD: certifique-se de ter baixado a biblioteca Aspose.PSD do[Link para Download](https://releases.aspose.com/psd/net/).
+-  Baixe Aspose.PSD: certifique-se de ter baixado a biblioteca Aspose.PSD do[link para baixar](https://releases.aspose.com/psd/net/).
 
 -  Obtenha uma licença: se você estiver usando Aspose.PSD em um ambiente de produção, certifique-se de ter uma licença válida. Você pode obter um[aqui](https://purchase.aspose.com/buy) ou use um[licença temporária](https://purchase.aspose.com/temporary-license/) para teste.
 

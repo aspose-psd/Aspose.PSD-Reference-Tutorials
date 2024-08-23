@@ -15,7 +15,7 @@ I dagens handledning kommer vi att fördjupa oss i processen för enkel bildstor
 
 Innan vi ger oss ut på vår resa med att ändra storlek på bilder med Aspose.PSD, se till att du har följande förutsättningar på plats:
 
-1. Java Development Kit (JDK): Se till att du har Java installerat på ditt system. Du kan ladda ner den senaste versionen från[Java webbplats](https://www.oracle.com/java/).
+1.  Java Development Kit (JDK): Se till att du har Java installerat på ditt system. Du kan ladda ner den senaste versionen från[Java webbplats](https://www.oracle.com/java/).
 
 2.  Aspose.PSD för Java: Ladda ner och installera Aspose.PSD-biblioteket. Du kan hitta de nödvändiga paketen på[Aspose.PSD för Java nedladdningssida](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ S2: Ja, Aspose.PSD stöder olika bildformat, vilket ger mångsidighet i dina bil
 
 ### F4: Kan jag prova Aspose.PSD för Java innan jag köper?
 
- A4: Visst! Använd[gratis testversion](https://releases.aspose.com/) att utforska bibliotekets möjligheter.
+ A4: Visst! Använd[gratis testversion](https://releases.aspose.com/)att utforska bibliotekets möjligheter.
 
 ### F5: Hur kan jag få support för Aspose.PSD för Java?
 

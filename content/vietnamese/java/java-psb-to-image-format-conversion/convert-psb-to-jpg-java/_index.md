@@ -19,7 +19,6 @@ Trước khi đi sâu vào hướng dẫn, hãy đề cập đến các điều 
 Trước tiên, hãy nhập các gói cần thiết. Những lần nhập này rất cần thiết để làm việc với thư viện Aspose.PSD và xử lý các chuyển đổi hình ảnh.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Bây giờ tệp PSB của bạn đã được tải, bạn cần đặt các t�
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Ở đây, chúng tôi đang tạo một`JpegOptions` đối tượng và đặt chất lượng thành 95. Bạn có thể điều chỉnh giá trị này để kiểm soát độ nén và chất lượng của hình ảnh đầu ra.
+Ở đây, chúng tôi đang tạo một`JpegOptions` đối tượng và đặt chất lượng thành 95. Bạn có thể điều chỉnh giá trị này để kiểm soát độ nén và chất lượng của hình ảnh đầu ra.
 ## Bước 4: Lưu hình ảnh dưới dạng JPG
 Với các tùy chọn đã đặt, bạn đã sẵn sàng lưu tệp PSB của mình dưới dạng JPG. Đây là nơi chuyển đổi thực tế xảy ra.
 ```java
@@ -63,7 +62,7 @@ Aspose.PSD for Java là thư viện cho phép các nhà phát triển thao tác 
 ### Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
  Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.PSD cho Java từ[trang tải xuống](https://releases.aspose.com/). Điều này cho phép bạn đánh giá thư viện và các tính năng của nó trước khi mua hàng.
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho Java?
-Bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/). Điều này sẽ cho phép bạn sử dụng đầy đủ các tính năng của thư viện trong một khoảng thời gian giới hạn.
+ Bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/). Điều này sẽ cho phép bạn sử dụng đầy đủ các tính năng của thư viện trong một khoảng thời gian giới hạn.
 ### Có hỗ trợ nào nếu tôi gặp vấn đề không?
  Tuyệt đối! Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn hỗ trợ Aspose.PSD](https://forum.aspose.com/c/psd/34). Nhóm hỗ trợ luôn phản hồi và sẵn sàng hỗ trợ bạn với bất kỳ vấn đề hoặc câu hỏi nào bạn có thể có.
 ### Tôi có thể điều chỉnh chất lượng đầu ra JPG không?

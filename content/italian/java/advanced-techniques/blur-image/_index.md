@@ -7,7 +7,7 @@ type: docs
 weight: 24
 url: /it/java/advanced-techniques/blur-image/
 ---
-## introduzione
+## Introduzione
 
 Nel mondo dello sviluppo Java, il miglioramento e la manipolazione delle immagini è un requisito comune. Se stai cercando di aggiungere un effetto sfocato alle tue immagini a livello di codice, Aspose.PSD per Java è un potente strumento che semplifica il processo. Questo tutorial ti guiderà attraverso i passaggi per sfocare un'immagine utilizzando Aspose.PSD, assicurandoti di ottenere risultati professionali senza sforzo.
 
@@ -87,7 +87,7 @@ R1: Assolutamente! Aspose.PSD viene fornito con una documentazione completa per 
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi ottenere una prova gratuita.[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso trovare supporto per Aspose.PSD per Java?
 
@@ -95,4 +95,4 @@ R1: Assolutamente! Aspose.PSD viene fornito con una documentazione completa per 
 
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
- A5: Puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
+ A5: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).

@@ -94,7 +94,7 @@ A1: Sim, Aspose.PSD funciona perfeitamente com vários Java Integrated Developme
 
 ### Q2: Posso usar Aspose.PSD para projetos comerciais?
 
- A2: Sim, você pode usar Aspose.PSD para projetos pessoais e comerciais. Verifica a[página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
+ A2: Sim, você pode usar Aspose.PSD para projetos pessoais e comerciais. Verifique o[página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
 
 ### Q3: Como posso obter suporte para Aspose.PSD?
 
@@ -102,8 +102,8 @@ A1: Sim, Aspose.PSD funciona perfeitamente com vários Java Integrated Developme
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode acessar a avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P5: Preciso de uma licença temporária para testes?
 
- R5: Você pode obter uma licença temporária para fins de teste.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Você pode obter uma licença temporária para fins de teste[aqui](https://purchase.aspose.com/temporary-license/).

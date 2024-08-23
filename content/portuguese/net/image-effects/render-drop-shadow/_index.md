@@ -107,7 +107,7 @@ A2: Com certeza! Sinta-se à vontade para ajustar o código para atender aos seu
 
 ### Q4: Existe uma avaliação gratuita disponível para Aspose.PSD para .NET?
 
- A4: Sim, você pode explorar uma avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P5: Como posso obter suporte ou assistência com Aspose.PSD for .NET?
 

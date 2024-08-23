@@ -79,17 +79,17 @@ im.Save(psdPathAfterChange);
 
 ## الأسئلة الشائعة
 
-### س1: هل يمكنني استخدام Aspose.PSD لـ .NET مع أطر عمل .NET الأخرى؟
+### س1: هل يمكنني استخدام Aspose.PSD لـ .NET مع أطر عمل .NET أخرى؟
 
 A1: نعم، Aspose.PSD for .NET متوافق مع أطر عمل .NET المتنوعة، بما في ذلك .NET Core و.NET Standard.
 
 ### س2: أين يمكنني العثور على وثائق شاملة لـ Aspose.PSD لـ .NET؟
 
- ج2: يمكنك الرجوع إلى الوثائق.[هنا](https://reference.aspose.com/psd/net/) للحصول على معلومات مفصلة وعينات التعليمات البرمجية.
+ج2: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/psd/net/) للحصول على معلومات مفصلة وعينات التعليمات البرمجية.
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
-ج3: نعم، يمكنك استكشاف إمكانيات Aspose.PSD لـ .NET عن طريق تنزيل النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ج3: نعم، يمكنك استكشاف إمكانيات Aspose.PSD لـ .NET عن طريق تنزيل النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
@@ -97,4 +97,4 @@ A1: نعم، Aspose.PSD for .NET متوافق مع أطر عمل .NET المتن
 
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج5: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+ ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.

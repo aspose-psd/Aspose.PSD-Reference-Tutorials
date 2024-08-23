@@ -47,7 +47,7 @@ image.crop(cropRegion);
 //建立 PngOptions 類別的實例
 PngOptions pngOptions = new PngOptions();
 ```
-## 步驟 6：將裁剪後的圖像另存為 PNG。
+## 步驟 6：將裁剪後的圖像另存為 PNG
 ```java
 //提供輸出路徑和 PngOptions 將 PSD 檔案轉換為 PNG 並儲存輸出
 String destName = dataDir + "export.png";
@@ -55,7 +55,7 @@ image.save(destName, pngOptions);
 ```
 ## 結論
 恭喜！您已經成功學習如何使用 Aspose.PSD for Java 將 PSD 檔案轉換為 PNG 時對其進行裁剪。這項技能無疑會增強你在Java應用程式中的影像處理能力。
-## 經常問的問題
+## 常見問題解答
 ### 我可以使用 Aspose.PSD for Java 來裁切不規則形狀的 PSD 檔案嗎？
 是的，Aspose.PSD for Java 可讓您定義自訂裁切區域，讓您能夠將影像裁切成各種形狀。
 ### Aspose.PSD for Java適合大規模影像處理任務嗎？

@@ -77,11 +77,11 @@ Gire la imagen 20 grados, manteniendo el tamaño proporcional y utilizando un fo
 image.Save(destName, new JpegOptions());
 ```
 
-Guarde la imagen rotada con las opciones especificadas (en este caso, como JPEG).
+Guarde la imagen girada con las opciones especificadas (en este caso, como JPEG).
 
 ## Conclusión
 
- ¡Felicidades! Ha rotado exitosamente una imagen en un ángulo específico usando Aspose.PSD para .NET. Esta biblioteca proporciona un sólido conjunto de herramientas para la manipulación de imágenes y este tutorial es solo la punta del iceberg. Explorar el[documentación](https://reference.aspose.com/psd/net/) para más características y opciones.
+ ¡Felicidades! Ha rotado con éxito una imagen en un ángulo específico usando Aspose.PSD para .NET. Esta biblioteca proporciona un sólido conjunto de herramientas para la manipulación de imágenes y este tutorial es solo la punta del iceberg. Explora el[documentación](https://reference.aspose.com/psd/net/) para más características y opciones.
 
 ## Preguntas frecuentes
 
@@ -103,4 +103,4 @@ R3: Si bien no es obligatorio, el almacenamiento en caché de datos puede mejora
 
 ### P5: ¿Puedo probar Aspose.PSD antes de comprarlo?
 
- R5: ¡Por supuesto! Toma tu[prueba gratis](https://releases.aspose.com/) para explorar las capacidades de la biblioteca.
+ R5: ¡Por supuesto! Toma tu[prueba gratuita](https://releases.aspose.com/)para explorar las capacidades de la biblioteca.

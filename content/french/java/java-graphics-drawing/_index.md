@@ -36,7 +36,7 @@ Les courbes de Bézier sont fondamentales pour créer des graphiques fluides et 
 
 Les ellipses sont des formes polyvalentes utilisées dans divers éléments de conception. Apprenez à dessiner des ellipses précises à l'aide d'Aspose.PSD pour Java. Notre didacticiel décompose le processus en étapes gérables, ce qui vous permet d'ajouter facilement des ellipses à vos projets graphiques.
 
-## [Tracer des lignes en Java](./drawing-lines/)
+## [Dessiner des lignes en Java](./drawing-lines/)
 
 Les lignes droites constituent la base de nombreux graphiques. Ce didacticiel vous apprend à dessiner des lignes dans des fichiers PSD à l'aide d'Aspose.PSD pour Java. Améliorez vos compétences en développement Java avec ce guide simple et complet.
 
@@ -67,7 +67,7 @@ Apprenez à dessiner des arcs en Java à l'aide d'Aspose.PSD pour Java. Tutoriel
 Apprenez à dessiner des courbes de Bézier en Java à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape avec des exemples de code.
 ### [Dessiner des ellipses en Java](./drawing-ellipses/)
 Apprenez à dessiner des ellipses en Java à l'aide d'Aspose.PSD pour une conception graphique et une manipulation d'images précises. Maîtrisez des didacticiels étape par étape.
-### [Tracer des lignes en Java](./drawing-lines/)
+### [Dessiner des lignes en Java](./drawing-lines/)
 Apprenez à dessiner des lignes dans des fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce didacticiel complet. Boostez vos compétences en développement Java.
 ### [Dessiner des rectangles en Java](./drawing-rectangles/)
 Apprenez à dessiner des rectangles sur des images à l'aide d'Aspose.PSD pour Java. Ce didacticiel guide les développeurs Java étape par étape. Parfait pour les tâches de manipulation d'images.

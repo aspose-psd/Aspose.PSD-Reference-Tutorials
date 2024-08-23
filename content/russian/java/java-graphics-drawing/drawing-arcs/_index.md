@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -74,4 +73,4 @@ image.save(outputPath, saveOptions);
 ### Поддерживает ли Aspose.PSD экспорт в форматы, отличные от BMP?
 Да, Aspose.PSD поддерживает экспорт в различные форматы, включая PNG, JPEG, TIFF и GIF и другие.
 ### Где я могу найти дополнительную поддержку и ресурсы для Aspose.PSD?
- Посетить[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) за поддержку сообщества, документацию и обновления.
+ Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) за поддержку сообщества, документацию и обновления.

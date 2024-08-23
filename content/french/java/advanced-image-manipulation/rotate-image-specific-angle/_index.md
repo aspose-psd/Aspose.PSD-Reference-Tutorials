@@ -90,7 +90,7 @@ image.save(destName, new JpegOptions());
 
 Enregistrez l'image pivotée dans un nouveau fichier avec les options spécifiées (dans ce cas, en utilisant JpegOptions).
 
-Toutes nos félicitations! Vous avez réussi à faire pivoter une image selon un angle spécifique à l'aide d'Aspose.PSD pour Java.
+Félicitations! Vous avez réussi à faire pivoter une image selon un angle spécifique à l'aide d'Aspose.PSD pour Java.
 
 ## Conclusion
 

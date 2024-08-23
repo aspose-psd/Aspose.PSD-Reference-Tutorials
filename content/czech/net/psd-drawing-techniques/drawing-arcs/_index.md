@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/net/psd-drawing-techniques/drawing-arcs/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem komplexním tutoriálu o kreslení oblouků pomocí Aspose.PSD pro .NET! Aspose.PSD je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Adobe Photoshop (.psd) v jejich aplikacích .NET. V tomto tutoriálu se zaměříme na vytváření vizuálně přitažlivých oblouků pomocí knihovny Aspose.PSD.
 
@@ -87,17 +87,17 @@ image.Save(outpath, saveOptions);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili kreslit oblouky pomocí Aspose.PSD pro .NET. Tato výkonná knihovna otevírá nekonečné možnosti pro vytváření úžasné grafiky ve vašich aplikacích.
+Gratuluji! Úspěšně jste se naučili kreslit oblouky pomocí Aspose.PSD pro .NET. Tato výkonná knihovna otevírá nekonečné možnosti pro vytváření úžasné grafiky ve vašich aplikacích.
 
 ## FAQ
 
 ### Q1: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A1: Dokumentaci lze nalézt.[tady](https://reference.aspose.com/psd/net/).
+ A1: Dokumentaci lze nalézt[zde](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak získám dočasnou licenci pro Aspose.PSD?
 
- A2: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A2: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Existuje komunitní fórum pro podporu Aspose.PSD?
 
@@ -105,8 +105,8 @@ Gratulujeme! Úspěšně jste se naučili kreslit oblouky pomocí Aspose.PSD pro
 
 ### Q4: Kde si mohu zakoupit licenci pro Aspose.PSD?
 
- A4: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).
+ A4: Můžete si koupit licenci[zde](https://purchase.aspose.com/buy).
 
 ### Q5: Mohu si Aspose.PSD for .NET vyzkoušet zdarma před nákupem?
 
- A5: Ano, můžete si stáhnout bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A5: Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).

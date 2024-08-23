@@ -35,7 +35,7 @@ import com.aspose.psd.imageoptions.PsdOptions;
 
 ## Langkah 1: Muat Gambar
 
-Mulailah dengan memuat gambar yang ingin Anda ubah ukurannya ke dalam aplikasi Java Anda. Menggunakan`Image.load` metode dari Aspose.PSD.
+Mulailah dengan memuat gambar yang ingin Anda ubah ukurannya ke dalam aplikasi Java Anda. Gunakan`Image.load` metode dari Aspose.PSD.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,7 +86,7 @@ A1: Ya, Aspose.PSD untuk Java mendukung berbagai format gambar, termasuk PSD, PN
 
 ### Q4: Bisakah saya mengunduh perpustakaan Aspose.PSD untuk Java?
 
- A4: Ya, unduh perpustakaan dari halaman rilis.[Di Sini](https://releases.aspose.com/psd/java/).
+ A4: Ya, unduh perpustakaan dari halaman rilis[Di Sini](https://releases.aspose.com/psd/java/).
 
 ### Q5: Bagaimana cara membeli Aspose.PSD untuk Java?
 

@@ -1,6 +1,6 @@
 ---
-title: Görüntü işleme
-linktitle: Görüntü işleme
+title: Görüntü İşleme
+linktitle: Görüntü İşleme
 second_title: Aspose.PSD Java API'si
 description: Görüntü işlemede Aspose.PSD for Java'nın potansiyelini ortaya çıkarın. Gaussian, Wiener, Median ve Motion Wiener filtrelerini adım adım uygulamayı öğrenin.
 type: docs

@@ -8,7 +8,7 @@ weight: 11
 url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
 ## مقدمة
-هل تتطلع إلى تحويل ملفات AI (Adobe Illustrator) إلى تنسيق JPG باستخدام Java؟ لا مزيد من البحث! في هذا الدليل الشامل، سنرشدك خلال العملية بأكملها باستخدام Aspose.PSD لـ Java، وهي مكتبة قوية ومرنة تجعل معالجة الصور أمرًا سهلاً. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيوفر لك هذا البرنامج التعليمي كل ما تحتاج إلى معرفته.
+هل تتطلع إلى تحويل ملفات AI (Adobe Illustrator) إلى تنسيق JPG باستخدام Java؟ لا مزيد من البحث! في هذا الدليل الشامل، سنرشدك خلال العملية بأكملها باستخدام Aspose.PSD for Java، وهي مكتبة قوية ومرنة تجعل معالجة الصور أمرًا سهلاً. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيوفر لك هذا البرنامج التعليمي كل ما تحتاج إلى معرفته.
 ## المتطلبات الأساسية
 قبل الغوص في التعليمات البرمجية، دعنا نتأكد من إعداد كل شيء وجاهز للاستخدام. إليك ما تحتاجه:
 1. Java Development Kit (JDK): تأكد من تثبيت JDK 8 أو أعلى.
@@ -21,7 +21,6 @@ url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ import com.aspose.psd.imageoptions.JpegOptions;
 -  تنزيل Aspose.PSD: احصل على المكتبة من ملف[صفحة الإصدارات Aspose](https://releases.aspose.com/psd/java/).
 - أضف Aspose.PSD إلى مشروعك: قم بتضمين ملفات JAR في مسار بناء مشروعك.
 ## الخطوة 2: قم بتحميل ملف AI الخاص بك
- الخطوة الأولى في الكود الخاص بنا هي تحميل ملف AI باستخدام ملف`AiImage` فصل. يتيح لنا هذا الفصل العمل مع ملفات Adobe Illustrator بسلاسة.
+الخطوة الأولى في الكود الخاص بنا هي تحميل ملف AI باستخدام ملف`AiImage` فصل. يتيح لنا هذا الفصل العمل مع ملفات Adobe Illustrator بسلاسة.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
@@ -48,7 +47,7 @@ options.setQuality(85); // ضبط جودة JPG
 ```
 في هذا المثال، قمنا بتعيين الجودة على 85، وهو ما يوازن بين حجم الملف وجودة الصورة. يمكنك ضبط هذه القيمة بناءً على متطلباتك.
 ## الخطوة 4: احفظ ملف AI بصيغة JPG
- أخيرًا، حان الوقت لحفظ ملف AI الذي تم تحميله بتنسيق JPG. نحن نستخدم ال`save` طريقة`AiImage` الطبقة لهذا الغرض.
+ أخيرًا، حان الوقت لحفظ ملف AI الذي تم تحميله بتنسيق JPG. نحن نستخدم`save` طريقة`AiImage` الطبقة لهذا الغرض.
 ```java
 String outFileName = dataDir + "34992OStroke.jpg";
 image.save(outFileName, options);

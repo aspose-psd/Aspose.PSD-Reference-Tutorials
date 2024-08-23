@@ -48,7 +48,7 @@ PsdImage image = (PsdImage)Image.load(sourceFile);
 Utför sedan Floyd Steinberg-dithering på den inlästa bilden. Denna teknik hjälper till att minska färgband och förbättra bildkvaliteten.
 
 ```java
-// Utför Floyd Steinbergs vibrering på den aktuella bilden
+// Utför Floyd Steinberg-dithering på den aktuella bilden
 image.dither(DitheringMethod.ThresholdDithering, 4);
 ```
 

@@ -101,7 +101,7 @@ A3：當然！ Aspose.PSD for .NET 專為 .NET 環境中的影像處理和編輯
 
 ### 問題 4：在哪裡可以找到 Aspose.PSD for .NET 的社群支援？
 
- A4：加入 Aspose.PSD 社群：[這個論壇](https://forum.aspose.com/c/psd/34)進行討論和支持。
+A4：加入 Aspose.PSD 社群：[這個論壇](https://forum.aspose.com/c/psd/34)進行討論和支持。
 
 ### Q5：有免費的學習Aspose.PSD for .NET的資源嗎？
 

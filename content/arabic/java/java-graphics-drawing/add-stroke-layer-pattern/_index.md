@@ -8,7 +8,7 @@ weight: 11
 url: /ar/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
 ## مقدمة
-قد تبدو إضافة نمط طبقة حد إلى صورة في Java مهمة شاقة، ولكن مع Aspose.PSD لـ Java، أصبح الأمر أسهل مما تعتقد. سواء كنت تصمم رسومات أو تعمل على تطبيقات تحرير الصور، سيرشدك هذا الدليل خلال العملية خطوة بخطوة. على استعداد للبدء؟ دعونا الغوص في!
+قد تبدو إضافة نمط طبقة حد إلى صورة في Java مهمة شاقة، ولكن مع Aspose.PSD لـ Java، أصبح الأمر أسهل مما تعتقد. سواء كنت تصمم رسومات أو تعمل على تطبيقات تحرير الصور، سيرشدك هذا الدليل خلال العملية خطوة بخطوة. هل أنت مستعد للبدء؟ دعونا الغوص في!
 ## المتطلبات الأساسية
 قبل البدء، ستحتاج إلى بعض الأشياء:
 - Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -127,7 +126,7 @@ catch (Exception e)
 ```
 تتحقق هذه الخطوة من أن بيانات النمط قد تم تطبيقها بشكل صحيح على تأثير الحد.
 ## خاتمة
-وهناك لديك! لقد نجحت في إضافة نمط طبقة الحد إلى ملف PSD باستخدام Aspose.PSD لـ Java. باتباع هذه الخطوات، يمكنك تخصيص صورك وتحسينها بسهولة. ترميز سعيد!
+وهنا لديك! لقد نجحت في إضافة نمط طبقة الحد إلى ملف PSD باستخدام Aspose.PSD لـ Java. باتباع هذه الخطوات، يمكنك تخصيص صورك وتحسينها بسهولة. ترميز سعيد!
 ## الأسئلة الشائعة
 ### ما هو Aspose.PSD لجافا؟
 Aspose.PSD for Java هي مكتبة تتيح للمطورين إنشاء ملفات PSD (مستندات Photoshop) وتحريرها وتحويلها برمجيًا.

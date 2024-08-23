@@ -2,13 +2,13 @@
 title: 在 Aspose.PSD for .NET 中支援邊界資訊資源
 linktitle: 支持邊境資訊資源
 second_title: Aspose.PSD .NET API
-description: 探索 Aspose.PSD for .NET 的邊界資訊資源功能以增強成像。按照我們的教程進行無縫整合。現在下載！
+description: 探索 Aspose.PSD for .NET 的邊界資訊資源功能以增強成像。按照我們的教程進行無縫整合。立即下載！
 type: docs
 weight: 11
 url: /zh-hant/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## 介紹
-歡迎來到我們關於使用 Aspose.PSD for .NET 中的邊界資訊資源功能的逐步指南。在本教程中，我們將引導您完成使用 Aspose.PSD（一個強大的 .NET 圖像庫）處理邊界資訊資源的過程。無論您是經驗豐富的開發人員還是新手，本教學旨在清楚地將邊境資訊資源無縫整合到您的專案中。
+歡迎來到我們關於使用 Aspose.PSD for .NET 中的邊界資訊資源功能的逐步指南。在本教程中，我們將引導您完成使用 Aspose.PSD（一個強大的 .NET 圖像庫）處理邊界資訊資源的過程。無論您是經驗豐富的開發人員還是剛起步的開發人員，本教學課程旨在清晰地將邊境資訊資源無縫地整合到您的專案中。
 ## 先決條件
 在我們深入學習本教學之前，請確保您具備以下條件：
 -  Aspose.PSD for .NET：確保您已安裝 Aspose.PSD 庫。您可以從[Aspose.PSD 網站](https://releases.aspose.com/psd/net/).
@@ -80,7 +80,7 @@ A1：是的，Aspose.PSD for .NET 與各種.NET 框架相容。
 
 ### Q3：有免費試用嗎？
 
- A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### Q4: 我如何獲得支持？
 
@@ -88,4 +88,4 @@ A1：是的，Aspose.PSD for .NET 與各種.NET 框架相容。
 
 ### Q5：有臨時許可證嗎？
 
- A5：是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).

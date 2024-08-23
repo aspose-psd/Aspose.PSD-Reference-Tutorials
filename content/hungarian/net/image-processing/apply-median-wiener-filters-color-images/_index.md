@@ -72,7 +72,7 @@ image.Save(destName, new GifOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen alkalmazta a Median és Wiener szűrőket a színes képek zajtalanításához az Aspose.PSD for .NET használatával. Ez a hatékony könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazások képfeldolgozásában.
+Gratulálok! Sikeresen alkalmazta a Median és Wiener szűrőket a színes képek zajtalanításához az Aspose.PSD for .NET használatával. Ez a hatékony könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazások képfeldolgozásában.
 
 ## GYIK
 

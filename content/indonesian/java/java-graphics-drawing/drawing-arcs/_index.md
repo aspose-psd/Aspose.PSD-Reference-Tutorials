@@ -12,7 +12,7 @@ Dalam tutorial ini, kita akan mempelajari cara menggambar busur menggunakan perp
 ## Prasyarat
 Sebelum melanjutkan tutorial ini, pastikan Anda telah menyiapkan prasyarat berikut:
 1.  Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/).
-2.  Aspose.PSD untuk Perpustakaan Java: Dapatkan perpustakaan Aspose.PSD untuk Java dari[Unduh Halaman](https://releases.aspose.com/psd/java/). Ikuti petunjuk instalasi untuk memasukkannya ke dalam proyek Java Anda.
+2.  Aspose.PSD untuk Perpustakaan Java: Dapatkan perpustakaan Aspose.PSD untuk Java dari[halaman unduh](https://releases.aspose.com/psd/java/). Ikuti petunjuk instalasi untuk memasukkannya ke dalam proyek Java Anda.
 ## Paket Impor
 Untuk memulai, impor paket yang diperlukan dari Aspose.PSD untuk Java:
 ```java
@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ Paket-paket ini menyediakan akses ke kelas dan metode yang diperlukan untuk meng
 ## Langkah 1: Siapkan Proyek Java Anda
 Pertama, buat proyek Java baru di IDE (Integrated Development Environment) Anda dan impor perpustakaan Aspose.PSD untuk Java. Pastikan perpustakaan direferensikan dengan benar di jalur pembangunan proyek Anda.
 ## Langkah 2: Inisialisasi Objek Gambar dan Grafik
- Buat sebuah contoh dari`PsdImage` Dan`Graphics` bekerja dengan:
+ Buat sebuah contoh dari`PsdImage` Dan`Graphics` untuk bekerja dengan:
 ```java
 String dataDir = "Your Document Directory";
 // Inisialisasi objek PsdImage
@@ -74,4 +73,4 @@ Tentu saja, Aspose.PSD menyediakan fitur ekstensif untuk memanipulasi dan membua
 ### Apakah Aspose.PSD mendukung ekspor ke format selain BMP?
 Ya, Aspose.PSD mendukung ekspor ke berbagai format termasuk PNG, JPEG, TIFF, dan GIF, antara lain.
 ### Di mana saya dapat menemukan dukungan dan sumber daya tambahan untuk Aspose.PSD?
- Mengunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas, dokumentasi, dan pembaruan.
+ Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas, dokumentasi, dan pembaruan.

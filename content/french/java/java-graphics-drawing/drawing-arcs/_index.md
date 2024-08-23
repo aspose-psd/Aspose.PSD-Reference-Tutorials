@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ Ces packages donnent accès aux classes et méthodes nécessaires pour dessiner 
 ## Étape 1 : Configurez votre projet Java
 Tout d’abord, créez un nouveau projet Java dans votre IDE (Integrated Development Environment) et importez la bibliothèque Aspose.PSD pour Java. Assurez-vous que la bibliothèque est correctement référencée dans le chemin de build de votre projet.
 ## Étape 2 : initialiser les objets image et graphiques
- Créer une instance de`PsdImage` et`Graphics` travailler avec:
+ Créer une instance de`PsdImage` et`Graphics` travailler avec :
 ```java
 String dataDir = "Your Document Directory";
 // Initialiser l'objet PSDImage
@@ -47,7 +46,7 @@ int height = 200;
 int startAngle = 45;
 int sweepAngle = 270;
 ```
-Ajustez ces valeurs en fonction de vos exigences spécifiques concernant la taille et le positionnement de l'arc.
+Ajustez ces valeurs en fonction de vos exigences spécifiques en matière de taille et de positionnement de l'arc.
 ## Étape 4 : dessiner et enregistrer l'arc
  Dessinez l'arc à l'aide du`drawArc` méthode du`Graphics` classe et enregistrez l'image :
 ```java
@@ -74,4 +73,4 @@ Absolument, Aspose.PSD fournit des fonctionnalités étendues pour manipuler et 
 ### Aspose.PSD prend-il en charge l'exportation vers des formats autres que BMP ?
 Oui, Aspose.PSD prend en charge l'exportation vers une variété de formats, notamment PNG, JPEG, TIFF et GIF.
 ### Où puis-je trouver une assistance et des ressources supplémentaires pour Aspose.PSD ?
- Visiter le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien de la communauté, la documentation et les mises à jour.
+ Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien de la communauté, la documentation et les mises à jour.

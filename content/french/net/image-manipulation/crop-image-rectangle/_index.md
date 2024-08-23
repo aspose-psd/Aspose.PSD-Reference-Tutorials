@@ -93,7 +93,7 @@ En conclusion, maîtriser l'art du recadrage d'images par rectangle à l'aide d'
 
 ### Q1 : Aspose.PSD pour .NET est-il compatible avec tous les formats d'image ?
 
-R1 : Oui, Aspose.PSD pour .NET prend en charge un large éventail de formats, notamment JPEG, PNG, SVG, TIFF, BMP, GIF, PSD et Jpeg2000.
+R1 : Oui, Aspose.PSD pour .NET prend en charge un large éventail de formats, notamment JPEG, PNG, SVG, TIFF, BMP, GIF, PSD et Jpeg2000.
 
 ### Q2 : Puis-je appliquer plusieurs opérations de recadrage à la même image ?
 
@@ -105,7 +105,7 @@ A3 : Aspose.PSD pour .NET est conçu pour gérer des images de différentes tail
 
 ### Q4 : Existe-t-il une version d'essai disponible pour Aspose.PSD pour .NET ?
 
- A4 : Oui, vous pouvez explorer les fonctionnalités de la bibliothèque en obtenant un essai gratuit.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez explorer les fonctionnalités de la bibliothèque en obtenant un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q5 : Où puis-je trouver une assistance ou une assistance supplémentaire ?
 

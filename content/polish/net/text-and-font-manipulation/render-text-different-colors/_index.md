@@ -12,7 +12,7 @@ Witamy w naszym samouczku krok po kroku dotyczącym renderowania tekstu w różn
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że masz następującą konfigurację:
 -  Aspose.PSD dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PSD. Można go pobrać z[Tutaj](https://releases.aspose.com/psd/net/).
-- Środowisko .NET: Upewnij się, że na swoim komputerze skonfigurowano działające środowisko .NET.
+- Środowisko .NET: Upewnij się, że na komputerze jest skonfigurowane działające środowisko .NET.
 -  Przykładowy plik PSD: Pobierz przykładowy plik PSD z[tutaj](Twój katalog dokumentów).
 - Katalog wyjściowy: Utwórz katalog, w którym zostanie zapisany obraz wyjściowy (Twój katalog wyjściowy).
 ## Importuj przestrzenie nazw
@@ -67,7 +67,7 @@ Odpowiedź 1: Tak, Aspose.PSD dla .NET został zaprojektowany tak, aby bezproble
 
 ### P3: Gdzie mogę znaleźć dokumentację Aspose.PSD dla .NET?
 
- A3: Dostępna jest szczegółowa dokumentacja.[Tutaj](https://reference.aspose.com/psd/net/) aby pomóc Ci zrozumieć i wdrożyć różne funkcje Aspose.PSD dla .NET.
+ A3: Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/psd/net/) aby pomóc Ci zrozumieć i wdrożyć różne funkcje Aspose.PSD dla .NET.
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 

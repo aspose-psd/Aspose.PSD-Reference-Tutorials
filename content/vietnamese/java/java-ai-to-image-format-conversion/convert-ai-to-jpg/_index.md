@@ -21,7 +21,6 @@ Trước tiên, chúng ta cần nhập các gói cần thiết để xử lý t�
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ Trước khi chúng ta bắt đầu viết mã, hãy đảm bảo rằng môi tr
 -  Tải xuống Aspose.PSD: Tải thư viện từ[Trang phát hành Aspose](https://releases.aspose.com/psd/java/).
 - Thêm Aspose.PSD vào dự án của bạn: Bao gồm các tệp JAR trong đường dẫn xây dựng dự án của bạn.
 ## Bước 2: Tải tệp AI của bạn
- Bước đầu tiên trong mã của chúng tôi là tải tệp AI bằng cách sử dụng`AiImage` lớp học. Lớp này cho phép chúng ta làm việc với các tệp Adobe Illustrator một cách liền mạch.
+Bước đầu tiên trong mã của chúng tôi là tải tệp AI bằng cách sử dụng`AiImage` lớp học. Lớp này cho phép chúng ta làm việc với các tệp Adobe Illustrator một cách liền mạch.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
@@ -41,13 +40,13 @@ AiImage image = (AiImage) Image.load(sourceFileName);
 ```
  Đây,`dataDir` là thư mục lưu trữ tệp AI của bạn và`sourceFileName` là đường dẫn đầy đủ đến tệp AI của bạn.
 ## Bước 3: Đặt tùy chọn JPG
- Tiếp theo, chúng ta cần đặt các tùy chọn cho đầu ra JPG của mình. Các`JpegOptions` class giúp chúng ta định cấu hình chất lượng và các cài đặt khác cho tệp JPG.
+ Tiếp theo, chúng ta cần đặt các tùy chọn cho đầu ra JPG của mình. các`JpegOptions` class giúp chúng ta định cấu hình chất lượng và các cài đặt khác cho tệp JPG.
 ```java
 JpegOptions options = new JpegOptions();
 options.setQuality(85); // Đặt chất lượng của JPG
 ```
 Trong ví dụ này, chúng tôi đã đặt chất lượng thành 85, cân bằng kích thước tệp và chất lượng hình ảnh. Bạn có thể điều chỉnh giá trị này dựa trên yêu cầu của bạn.
-## Bước 4: Lưu File AI dưới dạng JPG
+## Bước 4: Lưu tệp AI dưới dạng JPG
  Cuối cùng, đã đến lúc lưu tệp AI đã tải dưới dạng JPG. Chúng tôi sử dụng`save` phương pháp của`AiImage` lớp cho mục đích này.
 ```java
 String outFileName = dataDir + "34992OStroke.jpg";

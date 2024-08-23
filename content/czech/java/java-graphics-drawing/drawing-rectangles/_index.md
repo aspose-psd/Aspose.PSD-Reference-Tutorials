@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /cs/java/java-graphics-drawing/drawing-rectangles/
 ---
-## Úvod
+## Zavedení
 Ve světě vývoje v Javě je manipulace a programové generování obrázků běžným požadavkem napříč různými aplikacemi. Jedním z takových úkolů, se kterými se často setkáváme, je kreslení tvarů, jako jsou obdélníky, na obrázky. Aspose.PSD for Java poskytuje robustní sadu nástrojů a funkcí, jak toho dosáhnout efektivně. Tento tutoriál vás krok za krokem provede procesem kreslení obdélníků na obrázek pomocí Aspose.PSD for Java.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte nastaveny následující předpoklady:
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ saveOptions.setBitsPerPixel(32);
 // Vytvořte instanci PsdImage se zadanými rozměry
 Image image = new PsdImage(100, 100);
 ```
- V tomto kroku`PsdImage` je inicializována s šířkou a výškou 100 pixelů.
+ V tomto kroku`PsdImage` se inicializuje s šířkou a výškou 100 pixelů.
 ## Krok 2: Inicializujte grafický objekt
  Dále inicializujte a`Graphics` objekt pomocí`image` vytvořené v předchozím kroku.
 ```java
@@ -73,7 +72,7 @@ image.save(outpath, saveOptions);
  Tím se obrázek s nakreslenými obdélníky uloží do souboru BMP určeného pomocí`outpath`.
 
 ## Závěr
-Programové kreslení obdélníků na obrázky v Javě pomocí Aspose.PSD pro Javu je se správnými nástroji a knihovnami přímočaré. Podle tohoto kurzu jste se naučili, jak inicializovat obrázek, manipulovat s grafickými objekty, kreslit tvary a uložit upravený obrázek do souboru. Experimentování s různými tvary, barvami a rozměry dále zlepší vaše chápání manipulace s obrázky v Javě.
+Programové kreslení obdélníků na obrázky v Javě pomocí Aspose.PSD pro Javu je se správnými nástroji a knihovnami přímočaré. Podle tohoto kurzu jste se naučili, jak inicializovat obraz, manipulovat s grafickými objekty, kreslit tvary a uložit upravený obraz do souboru. Experimentování s různými tvary, barvami a rozměry dále zlepší vaše chápání manipulace s obrázky v Javě.
 ## FAQ
 ### Dokáže Aspose.PSD for Java zpracovat jiné tvary kromě obdélníků?
 Aspose.PSD for Java podporuje kromě obdélníků kreslení různých tvarů, jako jsou elipsy, čáry a mnohoúhelníky.

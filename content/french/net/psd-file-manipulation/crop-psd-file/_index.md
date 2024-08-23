@@ -49,7 +49,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 ```
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment recadrer des fichiers PSD à l'aide d'Aspose.PSD pour .NET. Ce processus simple mais puissant peut être intégré de manière transparente à vos applications .NET pour une manipulation efficace des images.
+Félicitations! Vous avez appris avec succès comment recadrer des fichiers PSD à l'aide d'Aspose.PSD pour .NET. Ce processus simple mais puissant peut être intégré de manière transparente à vos applications .NET pour une manipulation efficace des images.
 
 ## FAQ
 
@@ -63,7 +63,7 @@ A1 : Oui, Aspose.PSD est régulièrement mis à jour pour garantir la compatibil
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD ?
 

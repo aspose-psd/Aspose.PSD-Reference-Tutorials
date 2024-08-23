@@ -41,7 +41,7 @@ Laten we nu het proces opsplitsen in meerdere stappen om afbeeldingen in een str
 String dataDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"`met het pad naar de map waar uw PSD-bestand zich bevindt.
+ Vervangen`"Your Document Directory"` met het pad naar de map waar uw PSD-bestand zich bevindt.
 
 ## Stap 2: Geef bron en bestemming op
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Maak een`FileOutputStream` voor het doelbestand en sla de PSD-afbeelding op in de stream met behulp van PNG-opties.
+ Maak een`FileOutputStream`voor het doelbestand en sla de PSD-afbeelding op in de stream met behulp van PNG-opties.
 
 Herhaal deze stappen indien nodig voor uw specifieke gebruiksscenario.
 
@@ -88,7 +88,7 @@ A1: Ja, Aspose.PSD wordt veel gebruikt in professionele Java-projecten voor effi
 
 ### Vraag 3: Kan ik Aspose.PSD uitproberen voordat ik een aankoop doe?
 
-A3: Ja, u kunt een[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van Aspose.PSD te evalueren.
+ A3: Ja, u kunt een[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van Aspose.PSD te evalueren.
 
 ### V4: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
 

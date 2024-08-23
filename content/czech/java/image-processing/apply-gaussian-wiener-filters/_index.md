@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/image-processing/apply-gaussian-wiener-filters/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem komplexním tutoriálu o použití Gaussových a Wienerových filtrů v Aspose.PSD pro Javu! V této příručce vás provedeme procesem vylepšování obrázků pomocí těchto výkonných filtrů. Aspose.PSD for Java poskytuje robustní sadu funkcí pro zpracování obrazu a s použitím Gaussových a Wienerových filtrů můžete dosáhnout plynulejších a jemnějších obrázků.
 
@@ -17,7 +17,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 
 - Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí Java.
 
-- Aspose.PSD for Java Library: Stáhněte si a nainstalujte knihovnu Aspose.PSD for Java. Odkaz ke stažení najdete[tady](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java Library: Stáhněte si a nainstalujte knihovnu Aspose.PSD for Java. Odkaz ke stažení najdete[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -76,7 +76,7 @@ Nakonec použijte nakonfigurované Gaussovy a Wienerovy filtry na RasterImage a 
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak používat Gaussovy a Wienerovy filtry pomocí Aspose.PSD pro Javu. Experimentujte s různými parametry, abyste dosáhli požadovaného vylepšení obrazu.
+Gratuluji! Úspěšně jste se naučili, jak používat Gaussovy a Wienerovy filtry pomocí Aspose.PSD pro Javu. Experimentujte s různými parametry, abyste dosáhli požadovaného vylepšení obrazu.
 
 ## FAQ
 
@@ -94,7 +94,7 @@ Odpověď 2: Zkušební verze má omezení a můžete prozkoumat plné možnosti
 
 ### Q4: Je k dispozici dočasná licence pro testovací účely?
 
- A4: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.PSD pro Java?
 

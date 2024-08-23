@@ -21,7 +21,7 @@ Innan du börjar, se till att du har följande på plats:
 
 ### 2. Bekantskap med Aspose.PSD-namnrymden
 
- För att effektivt implementera stegen är det viktigt att vara bekant med namnområdet Aspose.PSD. Referera till[dokumentation](https://reference.aspose.com/psd/net/) för detaljerad information.
+ För att effektivt implementera stegen är det viktigt att vara bekant med namnområdet Aspose.PSD. Se till[dokumentation](https://reference.aspose.com/psd/net/) för detaljerad information.
 
 ## Importera namnområden
 
@@ -88,7 +88,7 @@ S2: Även om det är möjligt, rekommenderas det att ta bort teckensnittscachefi
 
 ### F4: Finns det en tillfällig licens tillgänglig för Aspose.PSD för .NET?
 
- A4: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för teständamål.
+ A4: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för teständamål.
 
 ### F5: Kan jag köpa Aspose.PSD för .NET?
 

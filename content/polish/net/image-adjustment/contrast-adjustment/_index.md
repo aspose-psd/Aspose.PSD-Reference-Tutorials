@@ -62,16 +62,16 @@ rasterImage.AdjustContrast(50); // Dostosuj kontrast o 50%
 
 ## Krok 3: Utwórz opcje TIFF
 
- Utwórz instancję`TiffOptions` Dla powstałego obrazu ustaw różne właściwości i zapisz obraz w formacie TIFF.
+ Utwórz instancję`TiffOptions` dla powstałego obrazu ustaw różne właściwości i zapisz obraz w formacie TIFF.
 
 ```csharp
-//ExStart:Utwórz opcje Tiff
+//ExStart:Utwórz opcjeTiff
 string destName = dataDir + @"AdjustContrast_out.tiff";
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 tiffOptions.Photometric = TiffPhotometrics.Rgb;
 rasterImage.Save(destName, tiffOptions);
-//Rozwiń:UtwórzTiffOpcje
+//ExEnd: CreateTiffOptions
 ```
 
 Gratulacje! Pomyślnie zaimplementowałeś regulację kontrastu przy użyciu Aspose.PSD dla .NET.
@@ -88,16 +88,16 @@ O1: Aspose.PSD dla .NET został zaprojektowany tak, aby był przyjazny dla progr
 
 ### P2: Czy mogę używać Aspose.PSD do projektów komercyjnych?
 
- O2: Tak, Aspose.PSD dla .NET może być używany w projektach komercyjnych. Aby uzyskać szczegółowe informacje na temat licencji, odwiedź stronę[Tutaj](https://purchase.aspose.com/buy).
+ Odpowiedź 2: Tak, Aspose.PSD dla .NET może być używany w projektach komercyjnych. Aby uzyskać szczegółowe informacje na temat licencji, odwiedź stronę[Tutaj](https://purchase.aspose.com/buy).
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- O3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD dla .NET.[Tutaj](https://releases.aspose.com/).
+ O3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD dla .NET[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla .NET?
 
- A4: Odwiedź forum wsparcia Aspose.PSD dla .NET[Tutaj](https://forum.aspose.com/c/psd/34) do pomocy.
+ A4: Odwiedź forum wsparcia Aspose.PSD dla .NET[Tutaj](https://forum.aspose.com/c/psd/34) o pomoc.
 
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
- Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

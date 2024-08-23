@@ -13,7 +13,7 @@ Apakah Anda bekerja dengan gambar dan perlu memastikan transparansi? Aspose.PSD 
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda.
 -  Aspose.PSD untuk Java: Unduh dan instal perpustakaan Aspose.PSD untuk Java. Anda dapat menemukan perpustakaan dan dokumentasinya di[situs web](https://releases.aspose.com/psd/java/).
@@ -73,11 +73,11 @@ A1: Ya, Aspose.PSD untuk Java dirancang untuk bekerja secara lancar dengan pusta
 
 ### Q2: Apakah tersedia uji coba gratis?
 
- A2: Ya, Anda dapat menjelajahi Aspose.PSD untuk Java dengan uji coba gratis. Mengunjungi[Link ini](https://releases.aspose.com/) untuk memulai.
+ A2: Ya, Anda dapat menjelajahi Aspose.PSD untuk Java dengan uji coba gratis. Mengunjungi[tautan ini](https://releases.aspose.com/) untuk memulai.
 
 ### Q3: Di mana saya dapat menemukan dokumentasi terperinci?
 
- A3: Lihat[dokumentasi](https://reference.aspose.com/psd/java/)untuk informasi komprehensif tentang penggunaan Aspose.PSD untuk Java.
+ A3: Lihat[dokumentasi](https://reference.aspose.com/psd/java/) untuk informasi komprehensif tentang penggunaan Aspose.PSD untuk Java.
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan?
 
@@ -85,4 +85,4 @@ A1: Ya, Aspose.PSD untuk Java dirancang untuk bekerja secara lancar dengan pusta
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
- A5: Jika Anda menguji perpustakaan, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Jika Anda menguji perpustakaan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

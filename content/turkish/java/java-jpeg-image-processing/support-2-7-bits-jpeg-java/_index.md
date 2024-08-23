@@ -21,7 +21,6 @@ Tamam, ellerimizi kirletelim!
 Öncelikle gerekli paketleri import edelim. Başlamak için Aspose.PSD for Java kütüphanesine ihtiyacınız olacak. Kütüphaneyi proje bağımlılıklarınıza eklediğinizden emin olun. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -33,7 +32,7 @@ Yolculuğumuzun ilk adımı PSD görüntüsünü yüklemektir. Burası sihrimizi
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
- Bu adımda PSD dosyamızın bulunduğu dizini belirliyoruz ve dosyayı bir klasöre yüklüyoruz.`PsdImage` nesne. Kolay değil mi?
+ Bu adımda PSD dosyamızın bulunduğu dizini belirliyoruz ve dosyayı bir klasöre yüklüyoruz.`PsdImage` nesne. Kolay, değil mi?
 ## 2. Adım: JPEG Seçeneklerini Ayarlayın
 Artık resmimizi yüklediğimize göre bir sonraki adım JPEG seçeneklerini ayarlamaktır. Burası, renk modu ve sıkıştırma türü de dahil olmak üzere görselimizi nasıl kaydetmek istediğimizi tanımladığımız yerdir. Seçenekleri yapılandıralım:
 ```java
@@ -61,14 +60,14 @@ Son olarak görseli yeni ayarlarımızla kaydedelim. Bu gerçeğin anıdır! Res
 ```java
 image.save(dataDir + "2_7BitsJPEG_output.jpg", options);
 ```
-Ve bu kadar! Bir PSD görüntüsünü başarıyla işlediniz ve belirttiğiniz ayarlarla JPEG olarak kaydettiniz.
+İşte bu kadar! Bir PSD görüntüsünü başarıyla işlediniz ve belirttiğiniz ayarlarla JPEG olarak kaydettiniz.
 ## Çözüm
 Tebrikler! Aspose.PSD for Java'yı kullanarak PSD dosyalarını nasıl değiştireceğinizi ve bunları JPEG olarak kaydedeceğinizi öğrendiniz. Bu güçlü kitaplık, görüntü işlemeyi kolaylaştıran çok çeşitli özellikler sunar. İster küçük bir proje üzerinde ister büyük ölçekli bir uygulama üzerinde çalışıyor olun, Aspose.PSD for Java size yardımcı olur. Peki ne bekliyorsun? Denemeye başlayın ve ne kadar harika şeyler yaratabileceğinizi görün!
 ## SSS'ler
 ### Java için Aspose.PSD nedir?
 Aspose.PSD for Java, Java uygulamalarında PSD dosyalarıyla çalışmanıza olanak tanıyan güçlü bir kütüphanedir. Görüntü manipülasyonu ve dönüşümü için geniş bir özellik yelpazesi sunar.
 ### Aspose.PSD for Java'yı nasıl yüklerim?
- Kütüphaneyi adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/psd/java/) ve bunu proje bağımlılıklarınıza ekleyin.
+Kütüphaneyi adresinden indirebilirsiniz.[web sitesi](https://releases.aspose.com/psd/java/) ve bunu proje bağımlılıklarınıza ekleyin.
 ### Aspose.PSD for Java ile özel renk profillerini kullanabilir miyim?
 Evet, JPEG seçeneklerini yapılandırırken özel RGB ve CMYK renk profillerini ayarlayabilirsiniz.
 ### Aspose.PSD for Java'da desteklenen görüntü formatları nelerdir?

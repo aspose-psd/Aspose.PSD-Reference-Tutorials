@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /it/java/image-editing/create-xmp-metadata/
 ---
-## introduzione
+## Introduzione
 
 Nell'ambito dello sviluppo Java, la gestione e la manipolazione dei metadati delle immagini è fondamentale per varie applicazioni. Aspose.PSD per Java si distingue come un potente strumento per la gestione dei file PSD e in questo tutorial approfondiremo la creazione di metadati XMP utilizzando questa solida libreria.
 
@@ -150,7 +150,7 @@ A3: Aspose.PSD è progettato per gestire immagini di varie dimensioni, garantend
 
 ### Q4: È disponibile una versione di prova per Aspose.PSD?
 
- A4: Sì, puoi esplorare le funzionalità di Aspose.PSD ottenendo una prova gratuita.[Qui](https://releases.aspose.com/).
+ A4: Sì, puoi esplorare le funzionalità di Aspose.PSD ottenendo una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso cercare supporto per le query relative ad Aspose.PSD?
 

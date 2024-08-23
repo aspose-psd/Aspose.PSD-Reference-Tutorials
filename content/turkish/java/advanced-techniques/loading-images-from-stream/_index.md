@@ -82,7 +82,7 @@ Tebrikler! Aspose.PSD for Java kullanarak bir akıştan görüntüyü başarıyl
 
 ## Çözüm
 
- Aspose.PSD for Java, geliştiricilerin PSD dosyalarını zahmetsizce kullanmalarına olanak sağlar. Bu eğitimde, bir akıştan görüntülerin yüklenmesine ilişkin kısa bir kılavuz sağlanmıştır. Keşfedin[dokümantasyon](https://reference.aspose.com/psd/java/) daha fazla ayrıntı ve yetenek için.
+Aspose.PSD for Java, geliştiricilerin PSD dosyalarını zahmetsizce kullanmalarına olanak sağlar. Bu eğitimde, bir akıştan görüntülerin yüklenmesine ilişkin kısa bir kılavuz sağlanmıştır. Keşfedin[dokümantasyon](https://reference.aspose.com/psd/java/) daha fazla ayrıntı ve yetenek için.
 
 ## SSS'ler
 
@@ -92,7 +92,7 @@ A1: Kesinlikle! Aspose.PSD for Java, toplu görüntü işleme görevlerinde veri
 
 ### S2: Satın almadan önce Aspose.PSD for Java'yı deneyebilir miyim?
 
- C2: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap2: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.PSD for Java desteğini nerede bulabilirim?
 
@@ -100,7 +100,7 @@ A1: Kesinlikle! Aspose.PSD for Java, toplu görüntü işleme görevlerinde veri
 
 ### S4: Test amacıyla geçici bir lisansa ihtiyacım var mı?
 
- Cevap4: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'yı test etmek için.
+ Cevap4: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'yı test etmek için.
 
 ### S5: Aspose.PSD for Java'yı nereden satın alabilirim?
 

@@ -1,6 +1,6 @@
 ---
-title: AI'yi Java'da JPG'ye dönüştürün
-linktitle: AI'yi Java'da JPG'ye dönüştürün
+title: Java'da AI'yi JPG'ye dönüştürün
+linktitle: Java'da AI'yi JPG'ye dönüştürün
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile AI dosyalarını Java'da zahmetsizce JPG'ye dönüştürün. Yüksek kaliteli görüntü dönüştürme için adım adım kılavuzumuzu izleyin.
 type: docs
@@ -8,7 +8,7 @@ weight: 11
 url: /tr/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
 ## giriiş
-AI (Adobe Illustrator) dosyalarını Java kullanarak JPG formatına dönüştürmek mi istiyorsunuz? Başka yerde arama! Bu kapsamlı kılavuzda, görüntü manipülasyonunu çocuk oyuncağı haline getiren güçlü ve esnek bir kütüphane olan Aspose.PSD for Java'yı kullanarak tüm süreç boyunca size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size bilmeniz gereken her şeyi sağlayacaktır.
+AI (Adobe Illustrator) dosyalarını Java kullanarak JPG formatına dönüştürmek mi istiyorsunuz? Başka yere bakmayın! Bu kapsamlı kılavuzda, görüntü manipülasyonunu çocuk oyuncağı haline getiren güçlü ve esnek bir kütüphane olan Aspose.PSD for Java'yı kullanarak tüm süreç boyunca size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size bilmeniz gereken her şeyi sağlayacaktır.
 ## Önkoşullar
 Koda dalmadan önce her şeyin ayarlandığından ve kullanıma hazır olduğundan emin olalım. İşte ihtiyacınız olan şey:
 1. Java Geliştirme Kiti (JDK): JDK 8 veya üstünün kurulu olduğundan emin olun.
@@ -21,7 +21,6 @@ Koda dalmadan önce her şeyin ayarlandığından ve kullanıma hazır olduğund
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ Kodlamaya başlamadan önce geliştirme ortamınızın doğru şekilde kurulduğ
 -  Aspose.PSD'yi indirin: Kütüphaneyi şu adresten edinin:[Aspose sürümler sayfası](https://releases.aspose.com/psd/java/).
 - Aspose.PSD'yi Projenize Ekleyin: JAR dosyalarını projenizin derleme yoluna ekleyin.
 ## 2. Adım: AI Dosyanızı Yükleyin
- Kodumuzdaki ilk adım, AI dosyasını kullanarak yüklemektir.`AiImage` sınıf. Bu sınıf Adobe Illustrator dosyalarıyla sorunsuz bir şekilde çalışmamıza olanak tanır.
+Kodumuzdaki ilk adım, AI dosyasını kullanarak yüklemektir.`AiImage` sınıf. Bu sınıf Adobe Illustrator dosyalarıyla sorunsuz bir şekilde çalışmamıza olanak tanır.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

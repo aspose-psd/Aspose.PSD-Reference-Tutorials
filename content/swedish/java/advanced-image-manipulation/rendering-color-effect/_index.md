@@ -17,7 +17,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 - Java-utvecklingsmiljö: Se till att du har en fungerande Java-utvecklingsmiljö på din maskin.
 
--  Aspose.PSD för Java: Ladda ner och installera Aspose.PSD-biblioteket från[den här länken](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD för Java: Ladda ner och installera Aspose.PSD-biblioteket från[denna länk](https://releases.aspose.com/psd/java/).
 
 ## Importera paket
 

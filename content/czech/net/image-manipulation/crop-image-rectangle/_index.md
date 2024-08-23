@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/net/image-manipulation/crop-image-rectangle/
 ---
-## Úvod
+## Zavedení
 
 V oblasti programování .NET je manipulace a vylepšování obrázků běžným úkolem a Aspose.PSD for .NET je výkonná knihovna, která tento proces zjednodušuje. Tento tutoriál se zaměřuje na základní, ale klíčovou techniku manipulace s obrázky – oříznutí obrázků podle obdélníku. Na konci této příručky budete dobře rozumět tomu, jak přesně oříznout obrázky pomocí Aspose.PSD pro .NET.
 
@@ -15,7 +15,7 @@ V oblasti programování .NET je manipulace a vylepšování obrázků běžným
 
 Než se ponoříte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 - Adresář vašich dokumentů: Nastavte adresář, kde jsou uloženy soubory obrázků.
 
@@ -105,7 +105,7 @@ A3: Aspose.PSD for .NET je navržen pro zpracování obrázků různých velikos
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete prozkoumat funkce knihovny získáním bezplatné zkušební verze.[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat funkce knihovny získáním bezplatné zkušební verze[zde](https://releases.aspose.com/).
 
 ### Q5: Kde najdu další podporu nebo pomoc?
 

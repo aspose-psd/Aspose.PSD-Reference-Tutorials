@@ -11,7 +11,7 @@ W dziedzinie programowania .NET Aspose.PSD wyróżnia się jako potężne narzę
 
 ## Wstęp
 
-Aspose.PSD dla .NET umożliwia programistom płynną pracę z plikami Photoshopa, umożliwiając tworzenie, manipulację i transformację obrazów. Ten samouczek skupia się na podstawowych krokach tworzenia obrazów poprzez ustawienie ścieżki przy użyciu Aspose.PSD w środowisku .NET.
+Aspose.PSD dla .NET umożliwia programistom bezproblemową pracę z plikami Photoshopa, umożliwiając tworzenie, manipulację i transformację obrazów. Ten samouczek skupia się na podstawowych krokach tworzenia obrazów poprzez ustawienie ścieżki przy użyciu Aspose.PSD w środowisku .NET.
 
 ## Warunki wstępne
 
@@ -93,7 +93,7 @@ A2: Absolutnie! Aspose.PSD pozwala na wsadowe przetwarzanie obrazu, dzięki czem
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- A4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.PSD.[Tutaj](https://releases.aspose.com/).
+ A4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.PSD[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać wsparcie lub szukać pomocy?
 

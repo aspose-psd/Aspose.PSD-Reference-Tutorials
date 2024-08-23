@@ -7,7 +7,7 @@ type: docs
 weight: 24
 url: /cs/net/image-adjustment/
 ---
-## Úvod
+## Zavedení
 
 Jste připraveni zlepšit své dovednosti v oblasti manipulace s obrázky? Ponořte se do světa Aspose.PSD pro .NET s našimi komplexními výukovými programy pro úpravu obrazu. Ať už jste zkušený vývojář nebo teprve začínáte, naši podrobní průvodci vám umožní vylepšovat obrázky bez námahy.
 

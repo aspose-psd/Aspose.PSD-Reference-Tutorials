@@ -41,7 +41,7 @@ Oto linki do przydatnych zasobów:
 - [Przetwarzanie obrazu](./java/image-processing/)
 - [Konwersja PSD](./java/psd-conversion/)
 - [Zaawansowane techniki](./java/advanced-techniques/)
-- [Edycja obrazka](./java/image-editing/)
+- [Edycja obrazu](./java/image-editing/)
 - [Zaawansowana manipulacja obrazem](./java/advanced-image-manipulation/)
 - [Podstawowe operacje na obrazach](./java/basic-image-operations/)
 - [Zaawansowane efekty obrazu](./java/advanced-image-effects/)

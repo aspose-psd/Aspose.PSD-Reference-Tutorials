@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -79,4 +78,4 @@ Aspose.PSD kesinlikle performans ve bellek verimliliği açısından optimize ed
 ### Aspose.PSD dışa aktarma için birden fazla görüntü formatını destekliyor mu?
 Evet, Aspose.PSD BMP, PNG, JPEG ve TIFF gibi çeşitli formatlara aktarmayı destekler.
 ### Sorunlarla karşılaşırsam nasıl destek veya yardım alabilirim?
-Aspose.PSD topluluğuna şu adresten ulaşın:[destek Forumu](https://forum.aspose.com/c/psd/34) veya bir düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/) öncelikli destek için.
+Aspose.PSD topluluğuna şu adresten ulaşın:[destek forumu](https://forum.aspose.com/c/psd/34) veya bir düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/) öncelikli destek için.

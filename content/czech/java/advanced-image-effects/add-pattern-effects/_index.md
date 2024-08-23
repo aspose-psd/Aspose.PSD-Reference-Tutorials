@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/advanced-image-effects/add-pattern-effects/
 ---
-## Úvod
+## Zavedení
 
 Ve světě vývoje v Javě je vylepšování obrazových vzorů běžným úkolem a Aspose.PSD pro Javu pro to poskytuje robustní řešení. Tento tutoriál vás provede procesem přidávání vzorových efektů pomocí Aspose.PSD a zajistí, že vaše obrázky vyniknou jedinečnými překryvy a vylepšeními.
 
@@ -97,7 +97,7 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 ## Krok 5: Uložte upravený obrázek
 
 ```java
-// Uložte upravený obrázek
+// Upravený obrázek uložte
 settings.setPatternName(newPatternName);
 settings.setPatternId(guid.toString() + "\0");
 im.save(exportPath);
@@ -115,7 +115,7 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili přidávat efekty vzorů pomocí Aspose.PSD pro Javu. Tato výkonná knihovna vám umožňuje vytvářet vizuálně přitažlivé obrázky s přizpůsobenými vzory a poskytuje nekonečné možnosti pro vaše projekty založené na Javě.
+Gratuluji! Úspěšně jste se naučili přidávat efekty vzorů pomocí Aspose.PSD pro Javu. Tato výkonná knihovna vám umožňuje vytvářet vizuálně přitažlivé obrázky s přizpůsobenými vzory a poskytuje nekonečné možnosti pro vaše projekty založené na Javě.
 
 ## FAQ
 
@@ -129,7 +129,7 @@ Odpověď 1: Aspose.PSD for Java je navržen tak, aby fungoval nezávisle, ale v
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro Java?
 
@@ -137,4 +137,4 @@ Odpověď 1: Aspose.PSD for Java je navržen tak, aby fungoval nezávisle, ale v
 
 ### Q5: Mohu získat dočasnou licenci pro Aspose.PSD pro Java?
 
-A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

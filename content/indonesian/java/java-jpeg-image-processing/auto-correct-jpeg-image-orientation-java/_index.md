@@ -20,7 +20,6 @@ Sebelum mendalami tutorial ini, pastikan Anda telah menyiapkan prasyarat berikut
 Sebelum memulai dengan contoh, pastikan untuk mengimpor paket yang diperlukan dari Aspose.PSD untuk Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -39,7 +38,7 @@ Selanjutnya, ulangi sumber daya gambar untuk menemukan sumber gambar mini JPEG:
 for (int i = 0; i < image.getImageResources().length; i++) {
     // Temukan sumber gambar mini. Biasanya mereka dalam format file JPEG.
     if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
-        // Sesuaikan data gambar mini.
+        // Sesuaikan data gambar kecil.
         ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
         JpegExifData exifData = thumbnail.getJpegOptions().getExifData();
         if (exifData != null && exifData.getThumbnail() != null) {

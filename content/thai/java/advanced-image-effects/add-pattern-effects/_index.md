@@ -39,7 +39,7 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import java.util.UUID;
 ```
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 
 ```java
 // โหลดรูปภาพ PSD
@@ -94,7 +94,7 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-## ขั้นตอนที่ 5: บันทึกภาพที่แก้ไข
+## ขั้นตอนที่ 5: บันทึกรูปภาพที่แก้ไข
 
 ```java
 // บันทึกภาพที่แก้ไข

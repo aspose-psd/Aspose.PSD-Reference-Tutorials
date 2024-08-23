@@ -88,7 +88,7 @@ String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Gratulálunk! Sikeresen kivágott egy képet az Aspose.PSD for Java használatával.
+Gratulálok! Sikeresen kivágott egy képet az Aspose.PSD for Java használatával.
 
 ## Következtetés
 

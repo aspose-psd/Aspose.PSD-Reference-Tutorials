@@ -20,14 +20,13 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 Importera först de nödvändiga paketen för att börja arbeta med Aspose.PSD för Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
 ## Steg 1: Konfigurera ditt Java-projekt
 Börja med att sätta upp ett nytt Java-projekt i din IDE och se till att Aspose.PSD för Java läggs till korrekt i ditt projekts beroenden.
 ## Steg 2: Ladda PSD-filen (PSB).
- Initiera Aspose.PSD`PsdImage` objekt för att ladda PSD-filen du vill konvertera till PDF. Byta ut`"Your Document Directory"` och`"Simple.psb"` med din faktiska sökväg och namn.
+ Initiera Aspose.PSD`PsdImage` objekt för att ladda PSD-filen du vill konvertera till PDF. Ersätta`"Your Document Directory"` och`"Simple.psb"` med din faktiska sökväg och namn.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "Simple.psb";

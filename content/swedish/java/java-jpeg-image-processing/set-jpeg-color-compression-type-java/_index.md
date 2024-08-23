@@ -12,20 +12,19 @@ I dagens digitala tidsålder är hantering och manipulering av bilder en vanlig 
 ## Förutsättningar
 Innan du dyker in i koden, se till att du har följande förutsättningar:
 1. Java Development Kit (JDK) installerat på ditt system.
-2.  Aspose.PSD för Java-bibliotek. Du kan ladda ner den från[hemsida](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD för Java-bibliotek. Du kan ladda ner den från[webbplats](https://releases.aspose.com/psd/java/).
 3. En grundläggande förståelse för Java-programmering.
 ## Importera paket
-Först och främst måste du importera de nödvändiga paketen från Aspose.PSD-biblioteket. Dessa importer är avgörande för att hantera PSD-filer och tillämpa de önskade JPEG-inställningarna.
+Först och främst måste du importera de nödvändiga paketen från Aspose.PSD-biblioteket. Dessa importer är avgörande för att hantera PSD-filer och tillämpa önskade JPEG-inställningar.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 ## Steg 1: Ladda PSD-bilden
-Till att börja med måste du ladda din PSD-bild. Detta steg innebär att specificera katalogen där din PSD-fil finns och använda Aspose.PSD-biblioteket för att ladda bilden.
+Till att börja med måste du ladda din PSD-bild. Det här steget innebär att du specificerar katalogen där din PSD-fil finns och använder Aspose.PSD-biblioteket för att ladda bilden.
 ```java
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "PsdImage.psd");
@@ -38,7 +37,7 @@ options.setColorType(JpegCompressionColorMode.Grayscale);
 options.setCompressionType(JpegCompressionMode.Progressive);
 ```
 ## Steg 3: Spara bilden
-Slutligen kommer du att spara den manipulerade bilden med de angivna alternativen. Detta steg matar ut JPEG-bilden med önskade färg- och komprimeringsinställningar.
+Slutligen kommer du att spara den manipulerade bilden med de angivna alternativen. Detta steg kommer att mata ut JPEG-bilden med önskade färg- och komprimeringsinställningar.
 ```java
 image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ```

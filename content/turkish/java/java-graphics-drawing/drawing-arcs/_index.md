@@ -2,7 +2,7 @@
 title: Java'da Yay Çizimi
 linktitle: Java'da Yay Çizimi
 second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java kullanarak Java'da yay çizmeyi öğrenin. Grafik uygulamalara yönelik kod örnekleri içeren adım adım eğitim.
+description: Aspose.PSD for Java kullanarak Java'da yay çizmeyi öğrenin. Grafiksel uygulamalar için kod örnekleri içeren adım adım eğitim.
 type: docs
 weight: 13
 url: /tr/java/java-graphics-drawing/drawing-arcs/
@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ Bu paketler yay çizmek ve görüntüleri çeşitli formatlarda kaydetmek için 
 ## 1. Adım: Java Projenizi Kurun
 Öncelikle IDE'nizde (Entegre Geliştirme Ortamı) yeni bir Java projesi oluşturun ve Aspose.PSD for Java kütüphanesini içe aktarın. Projenizin derleme yolunda kitaplığa doğru şekilde başvurulduğundan emin olun.
 ## Adım 2: Görüntü ve Grafik Nesnelerini Başlatın
- Bir örneğini oluşturun`PsdImage` Ve`Graphics` birlikte çalışmak:
+ Bir örneğini oluşturun`PsdImage` Ve`Graphics` çalışmak için:
 ```java
 String dataDir = "Your Document Directory";
 // PsdImage nesnesini başlat
@@ -68,7 +67,7 @@ Aspose.PSD for Java'yı kullanarak yayları programlı olarak çizmek basittir v
 ### Aspose.PSD for Java yayların yanı sıra diğer şekilleri de işleyebilir mi?
 Evet, Aspose.PSD dikdörtgenler, elipsler, çizgiler ve özel yollar dahil olmak üzere çeşitli şekillerin çizilmesini destekler.
 ### Kalınlık ve renk gibi yay özelliklerini nasıl değiştirebilirim?
- Arkın görünümünü değiştirerek yayın görünümünü ayarlayabilirsiniz.`Pen` nesnenin özellikleri aktarıldı`drawArc` yöntem.
+ Arkın görünümünü değiştirerek yayın görünümünü ayarlayabilirsiniz.`Pen` nesnenin özellikleri aktarıldı`drawArc` Yöntem.
 ### Aspose.PSD karmaşık grafiksel içerik oluşturmaya uygun mu?
 Kesinlikle Aspose.PSD, PSD dosyalarını düzenlemek ve oluşturmak için hem basit hem de karmaşık grafikleri destekleyen kapsamlı özellikler sunar.
 ### Aspose.PSD, BMP dışındaki formatlara aktarmayı destekliyor mu?

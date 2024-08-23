@@ -74,7 +74,7 @@ A1: Ya, Aspose.PSD untuk Java kompatibel dengan Java versi 6 ke atas.
 
 ### Q2: Dapatkah saya menggunakan Aspose.PSD untuk proyek komersial?
 
- A2: Ya, Anda dapat menggunakan Aspose.PSD untuk proyek pribadi dan komersial. Untuk detail lisensi, kunjungi[Di Sini](https://purchase.aspose.com/buy).
+A2: Ya, Anda dapat menggunakan Aspose.PSD untuk proyek pribadi dan komersial. Untuk detail lisensi, kunjungi[Di Sini](https://purchase.aspose.com/buy).
 
 ### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.PSD?
 
@@ -82,7 +82,7 @@ A1: Ya, Aspose.PSD untuk Java kompatibel dengan Java versi 6 ke atas.
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD dengan mengunjungi.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD dengan mengunjungi[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 

@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Etapa 4: aplique o filtro de desfoque gaussiano.
+## Etapa 4: aplicar filtro de desfoque gaussiano
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Aqui o`GaussianBlurFilterOptions` classe é usada com um raio especificado de 15 para desfoque horizontal e vertical.
+ Aqui, o`GaussianBlurFilterOptions` classe é utilizada com um raio especificado de 15 para desfoque horizontal e vertical.
 
 ## Etapa 5: salve a imagem desfocada
 

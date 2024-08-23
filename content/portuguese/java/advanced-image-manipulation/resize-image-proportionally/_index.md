@@ -74,15 +74,15 @@ Neste tutorial, cobrimos as etapas essenciais para redimensionar imagens proporc
 
 ### Q1: O Aspose.PSD é compatível com todos os formatos de imagem?
 
- A1: Aspose.PSD suporta vários formatos de imagem, incluindo PSD, PNG, JPEG e muito mais. Verifica a[documentação](https://reference.aspose.com/psd/java/) para uma lista abrangente.
+ A1: Aspose.PSD suporta vários formatos de imagem, incluindo PSD, PNG, JPEG e muito mais. Verifique o[documentação](https://reference.aspose.com/psd/java/) para uma lista abrangente.
 
 ### Q2: Posso usar Aspose.PSD para projetos comerciais?
 
- A2: Sim, você pode. Visite a[página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
+ A2: Sim, você pode. Visite o[página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
 
 ### P3: As licenças temporárias estão disponíveis para fins de teste?
 
- A3: Sim, você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/) para avaliação.
+ A3: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para avaliação.
 
 ### Q4: Onde posso encontrar suporte para Aspose.PSD?
 

@@ -81,7 +81,7 @@ A1: Ya, Bradley Thresholding adalah teknik serbaguna yang cocok untuk berbagai j
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD untuk .NET.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat menjelajahi uji coba gratis Aspose.PSD untuk .NET[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 
@@ -89,4 +89,4 @@ A1: Ya, Bradley Thresholding adalah teknik serbaguna yang cocok untuk berbagai j
 
 ### Q5: Di mana saya dapat membeli lisensi Aspose.PSD?
 
- A5: Anda dapat membeli lisensi.[Di Sini](https://purchase.aspose.com/buy).
+ A5: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).

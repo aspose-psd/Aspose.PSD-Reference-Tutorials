@@ -15,7 +15,7 @@ Aspose.PSD para .NET é uma biblioteca poderosa que permite aos desenvolvedores 
 Antes de mergulharmos no tutorial, certifique-se de ter o seguinte:
 1.  Biblioteca Aspose.PSD para .NET: Baixe e instale a biblioteca do[Site Aspose.PSD](https://releases.aspose.com/psd/net/).
 2. Ambiente de desenvolvimento: certifique-se de ter um ambiente de desenvolvimento .NET funcional, incluindo o Visual Studio.
-3. Arquivo AI de amostra: baixe o arquivo AI de amostra, "form_8_2l3_7.ai," em[esse link](Your-Download-Link).
+3. Arquivo AI de amostra: baixe o arquivo AI de amostra, "form_8_2l3_7.ai," em[este link](Your-Download-Link).
 ## Importar namespaces
 Para começar, importe os namespaces necessários em seu projeto .NET:
 ```csharp

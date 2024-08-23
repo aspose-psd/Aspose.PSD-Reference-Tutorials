@@ -34,7 +34,7 @@ Induljon el a kreatív mesterek útjára az Aspose.PSD for .NET oktatóanyagaiva
 ### [Háttérszín-erőforrás támogatása az Aspose.PSD-ben .NET-hez](./supporting-background-color-resource/)
 Master Aspose.PSD for .NET lépésről lépésre. Könnyedén kezelheti a PSD-képeket. Töltse le ingyenes próbaverzióját most!
 ### [Határinformációs erőforrás támogatása az Aspose.PSD-ben .NET-hez](./supporting-border-information-resource/)
-Fedezze fel az Aspose.PSD-t a .NET Border Information Resource szolgáltatásához a továbbfejlesztett képalkotás érdekében. Kövesse oktatóanyagunkat a zökkenőmentes integráció érdekében. Letöltés most!
+Fedezze fel az Aspose.PSD-t a .NET Border Information Resource szolgáltatásához a továbbfejlesztett képalkotás érdekében. Kövesse oktatóanyagunkat a zökkenőmentes integráció érdekében. Töltse le most!
 ### [Munkaútvonal-erőforrás támogatása az Aspose.PSD-ben .NET-hez](./supporting-working-path-resource/)
 Fedezze fel az Aspose.PSD for .NET 'WorkingPathResource' erejét. Növelje a kép pontosságát ezzel a lépésenkénti útmutatóval.
 ### [Fekete-fehér (Blwh) erőforrás támogatása az Aspose.PSD-ben .NET-hez](./supporting-black-and-white-blwh-resource/)

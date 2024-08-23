@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/java/advanced-image-effects/add-new-regular-layer/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto komplexním tutoriálu o použití Aspose.PSD pro Java k přidání nové běžné vrstvy do souboru PSD. Aspose.PSD je výkonná Java knihovna, která umožňuje vývojářům efektivně manipulovat a pracovat s PSD soubory. V tomto tutoriálu vás provedeme procesem přidání nové běžné vrstvy do souboru PSD a poskytneme podrobné kroky a příklady kódu.
 
@@ -16,7 +16,7 @@ Vítejte v tomto komplexním tutoriálu o použití Aspose.PSD pro Java k přid�
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
--  Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD for Java. Knihovnu najdete[tady](https://releases.aspose.com/psd/java/).
+-  Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD for Java. Knihovnu najdete[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -93,7 +93,7 @@ im.save(exportPath, new PsdOptions());
 im.save(exportPathPng, new PngOptions());
 ```
 
-Gratulujeme! Úspěšně jste přidali novou běžnou vrstvu do souboru PSD pomocí Aspose.PSD for Java.
+Gratuluji! Úspěšně jste přidali novou běžnou vrstvu do souboru PSD pomocí Aspose.PSD for Java.
 
 ## Závěr
 
@@ -111,7 +111,7 @@ A2: Rozhodně! Aspose.PSD poskytuje řadu možností transformace pro vrstvy.
 
 ### Q3: Kde najdu další dokumentaci Aspose.PSD?
 
- A3: Můžete nahlédnout do dokumentace.[tady](https://reference.aspose.com/psd/java/).
+ A3: Můžete nahlédnout do dokumentace[zde](https://reference.aspose.com/psd/java/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
@@ -119,4 +119,4 @@ A2: Rozhodně! Aspose.PSD poskytuje řadu možností transformace pro vrstvy.
 
 ### Q5: Existují nějaká komunitní fóra pro podporu Aspose.PSD?
 
- A5: Ano, můžete najít podporu a diskuse.[tady](https://forum.aspose.com/c/psd/34).
+ A5: Ano, můžete najít podporu a diskuse[zde](https://forum.aspose.com/c/psd/34).

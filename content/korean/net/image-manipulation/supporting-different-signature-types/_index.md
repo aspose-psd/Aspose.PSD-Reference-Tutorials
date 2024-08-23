@@ -56,7 +56,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ## 결론
 
-축하해요! .NET용 Aspose.PSD에서 다양한 서명 유형을 성공적으로 지원했습니다. 이 튜토리얼에서는 프로세스를 쉽게 탐색할 수 있도록 필수 단계를 다룹니다.
+축하해요! .NET용 Aspose.PSD에서 다양한 서명 유형을 성공적으로 지원했습니다. 이 튜토리얼에서는 프로세스를 쉽게 탐색할 수 있도록 필수 단계를 다루었습니다.
 
 ## FAQ
 
@@ -78,4 +78,4 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 
 ### Q5: 임시 라이센스를 찾고 계십니까?
 
- A5: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).

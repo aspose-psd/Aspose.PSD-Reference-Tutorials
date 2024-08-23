@@ -9,7 +9,7 @@ url: /hu/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
 ## Bevezetés
 
-Üdvözöljük lépésenkénti útmutatónkban az Invert Adjustment Layer megvalósításáról az Aspose.PSD for Java-ban. Ebben az oktatóanyagban az Aspose.PSD, a PSD-fájlok zökkenőmentes kezelését lehetővé tevő Java-könyvtár hatékony szolgáltatásait fogjuk felfedezni. Akár tapasztalt fejlesztő, akár kezdő a képfeldolgozásban, ennek az oktatóanyagnak az a célja, hogy segítsen megérteni és hatékonyan megvalósítani az Invert Adjustment Layer funkciót.
+Üdvözöljük lépésenkénti útmutatónkban az Invert Adjustment Layer megvalósításáról az Aspose.PSD for Java-ban. Ebben az oktatóanyagban az Aspose.PSD, a PSD-fájlok zökkenőmentes kezelését lehetővé tevő Java-könyvtár hatékony szolgáltatásait fogjuk felfedezni. Akár tapasztalt fejlesztő, akár újonc a képfeldolgozásban, ennek az oktatóanyagnak az a célja, hogy segítsen megérteni és hatékonyan megvalósítani az Invert Adjustment Layer funkciót.
 
 ## Előfeltételek
 
@@ -66,7 +66,7 @@ Mentse el a módosított PSD-képet az alkalmazott Invert Adjustment Layer-rel.
 im.save(outputPath);
 ```
 
-Gratulálunk! Sikeresen implementálta az Invert Adjustment Layert az Aspose.PSD for Java használatával. Nyugodtan fedezze fel az Aspose.PSD által biztosított további funkciókat és funkciókat, hogy javítsa képfeldolgozási képességeit.
+Gratulálok! Sikeresen implementálta az Invert Adjustment Layert az Aspose.PSD for Java használatával. Nyugodtan fedezze fel az Aspose.PSD által biztosított további funkciókat és funkciókat, hogy javítsa képfeldolgozási képességeit.
 
 ## Következtetés
 
@@ -88,8 +88,8 @@ Ebben az oktatóanyagban lépésről lépésre bemutattuk az Invert Adjustment L
 
 ### 4. kérdés: Elérhető az Aspose.PSD ingyenes próbaverziója?
 
- 4. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
-V5: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

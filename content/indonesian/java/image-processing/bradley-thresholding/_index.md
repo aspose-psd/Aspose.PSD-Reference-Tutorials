@@ -82,7 +82,7 @@ Selamat! Anda telah mempelajari cara mengimplementasikan Bradley Thresholding di
 
 ### Q1: Apa yang dimaksud dengan Ambang Batas Bradley?
 
-A1: Bradley Thresholding adalah metode yang digunakan untuk binarisasi gambar, meningkatkan kontras antara objek dan latar belakang.
+A1: Bradley Thresholding adalah metode yang digunakan untuk binerisasi gambar, meningkatkan kontras antara objek dan latar belakang.
 
 ### Q2: Bagaimana cara memilih nilai ambang batas yang tepat?
 

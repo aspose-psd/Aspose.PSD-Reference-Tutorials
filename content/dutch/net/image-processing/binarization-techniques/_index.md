@@ -15,7 +15,7 @@ In de wereld van beeldverwerking is de mogelijkheid om een kleurenafbeelding om 
 
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
--  Aspose.PSD voor .NET: Download en installeer de Aspose.PSD voor .NET-bibliotheek van de[download link](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD voor .NET: Download en installeer de Aspose.PSD voor .NET-bibliotheek van de[downloadlink](https://releases.aspose.com/psd/net/).
 - Documentmap: stel een map in om uw voorbeeld-PSD-bestanden op te slaan.
 
 ## Naamruimten importeren

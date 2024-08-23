@@ -53,7 +53,7 @@ psdImage.Save(destName, pngOptions);
 ```
 ## 結論
 
-恭喜！您已使用 Aspose.PSD for .NET 在文字圖層中成功渲染了不同顏色的文字。這項強大的功能為以程式設計方式操作和增強 PSD 檔案開闢了可能性。
+恭喜！您已使用 Aspose.PSD for .NET 在文字圖層中成功渲染了不同顏色的文字。這項強大的功能為以程式設計方式操作和增強 PSD 檔案開闢了無限可能。
 
 ## 常見問題解答
 
@@ -67,7 +67,7 @@ A1：是的，Aspose.PSD for .NET 旨在與任何 .NET 應用程式無縫協作�
 
 ### Q3：在哪裡可以找到 Aspose.PSD for .NET 的文件？
 
- A3：有詳細的文件。[這裡](https://reference.aspose.com/psd/net/)幫助您了解並實作 Aspose.PSD for .NET 的各種功能。
+ A3：有詳細的文檔[這裡](https://reference.aspose.com/psd/net/)幫助您了解並實作 Aspose.PSD for .NET 的各種功能。
 
 ### 問題 4：如何獲得 Aspose.PSD for .NET 支援？
 

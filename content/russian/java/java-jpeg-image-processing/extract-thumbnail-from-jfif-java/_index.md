@@ -19,7 +19,6 @@ url: /ru/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 Для начала убедитесь, что вы импортировали необходимые пакеты в свой Java-проект:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;

@@ -48,7 +48,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-## Adım 2: Görüntüyü RasterImage'a Aktarın
+## Adım 2: Görüntüyü RasterImage'a Yayınlayın
 
 Yüklenen görüntüyü bir RasterImage'a aktarın:
 

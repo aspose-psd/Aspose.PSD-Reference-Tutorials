@@ -99,7 +99,7 @@ A1: Tentu saja! Aspose.PSD untuk Java adalah perpustakaan canggih yang dirancang
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat menjelajahi versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dokumentasi terperinci?
 
@@ -107,4 +107,4 @@ A1: Tentu saja! Aspose.PSD untuk Java adalah perpustakaan canggih yang dirancang
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk Java?
 
- A5: Bergabunglah dengan forum komunitas.[Di Sini](https://forum.aspose.com/c/psd/34) untuk pertanyaan dukungan apa pun.
+ A5: Bergabunglah dengan forum komunitas[Di Sini](https://forum.aspose.com/c/psd/34) untuk pertanyaan dukungan apa pun.

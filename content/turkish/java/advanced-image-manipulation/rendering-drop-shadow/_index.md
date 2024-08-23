@@ -106,7 +106,7 @@ Aspose.PSD ile Java'da görüntü manipülasyonunda uzmanlaşmak çocuk oyuncağ
 
 ## SSS'ler
 
-### S1: Alt gölgeleri aynı anda birden fazla katmana uygulayabilir miyim?
+### S1: Alt gölgeleri aynı anda birden çok katmana uygulayabilir miyim?
 
 Cevap1: Evet, katmanlar arasında geçiş yapabilir ve gerektiği gibi alt gölgeler uygulayabilirsiniz.
 

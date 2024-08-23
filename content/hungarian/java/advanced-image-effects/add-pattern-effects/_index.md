@@ -115,7 +115,7 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá mintaeffektusokat az Aspose.PSD for Java használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi, hogy tetszetős képeket készítsen testreszabott mintákkal, végtelen lehetőségeket biztosítva Java-alapú projektjeihez.
+Gratulálok! Sikeresen megtanulta, hogyan adhat hozzá mintaeffektusokat az Aspose.PSD for Java használatával. Ez a hatékony könyvtár lehetővé teszi, hogy tetszetős képeket készítsen testreszabott mintákkal, végtelen lehetőségeket biztosítva Java-alapú projektjeihez.
 
 ## GYIK
 
@@ -129,7 +129,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá mintaeffektusokat az Asp
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
 
@@ -137,4 +137,4 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá mintaeffektusokat az Asp
 
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.PSD for Java számára?
 
-V5: Igen, kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+V5: Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

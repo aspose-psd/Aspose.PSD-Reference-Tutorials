@@ -7,12 +7,12 @@ type: docs
 weight: 11
 url: /cs/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
-## Úvod
+## Zavedení
 Přidání vzoru vrstvy tahu do obrázku v Javě může znít jako skličující úkol, ale s Aspose.PSD pro Javu je to jednodušší, než si myslíte. Ať už navrhujete grafiku nebo pracujete na aplikacích pro úpravu fotografií, tato příručka vás provede procesem krok za krokem. Jste připraveni začít? Pojďme se ponořit!
 ## Předpoklady
 Než začnete, budete potřebovat několik věcí:
 - Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK.
--  Aspose.PSD pro Java: Stáhněte si knihovnu z[tady](https://releases.aspose.com/psd/java/) a zahrnout jej do svého projektu.
+-  Aspose.PSD pro Java: Stáhněte si knihovnu z[zde](https://releases.aspose.com/psd/java/) a zahrnout jej do svého projektu.
 - IDE: Použijte své oblíbené integrované vývojové prostředí (IDE), jako je IntelliJ IDEA nebo Eclipse.
 ## Importujte balíčky
 Nejprve musíte do svého projektu Java importovat potřebné balíčky. Tyto balíčky jsou nezbytné pro práci s Aspose.PSD.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -132,10 +131,10 @@ A tady to máte! Úspěšně jste přidali vzor vrstvy tahu do souboru PSD pomoc
 ### Co je Aspose.PSD for Java?
 Aspose.PSD for Java je knihovna, která umožňuje vývojářům vytvářet, upravovat a převádět soubory PSD (Photoshop Document) programově.
 ### Mohu použít Aspose.PSD pro Javu v komerčním projektu?
- Ano, můžete jej použít v komerčních projektech. Licenci si můžete zakoupit od[tady](https://purchase.aspose.com/buy).
-### Je k dispozici bezplatná zkušební verze Aspose.PSD pro Javu?
- Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+ Ano, můžete jej použít v komerčních projektech. Licenci si můžete zakoupit od[zde](https://purchase.aspose.com/buy).
+### Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Javu?
+ Ano, můžete si stáhnout bezplatnou zkušební verzi z[zde](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.PSD pro Java?
- Podporu můžete získat na fórech komunity Aspose[tady](https://forum.aspose.com/c/psd/34).
+ Podporu můžete získat na fórech komunity Aspose[zde](https://forum.aspose.com/c/psd/34).
 ### Jaké jsou systémové požadavky pro Aspose.PSD pro Java?
 Pro vývoj potřebujete nainstalovaný JDK a IDE. Knihovna podporuje více operačních systémů včetně Windows, Linux a macOS.

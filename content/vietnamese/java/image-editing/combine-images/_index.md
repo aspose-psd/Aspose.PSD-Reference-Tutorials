@@ -106,7 +106,7 @@ A2: Chắc chắn rồi! Sau khi kết hợp các hình ảnh, bạn có thể t
 
 ### Câu hỏi 4: Aspose.PSD có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể khám phá Aspose.PSD với bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể khám phá Aspose.PSD với bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho các truy vấn liên quan đến Aspose.PSD ở đâu?
 

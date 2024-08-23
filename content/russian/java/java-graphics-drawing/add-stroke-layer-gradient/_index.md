@@ -8,7 +8,7 @@ weight: 10
 url: /ru/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
 ## Введение
-Вы когда-нибудь задумывались, как добавить градиент слоя обводки к вашим изображениям с помощью Java? Ну, вы в правильном месте! Сегодня мы погружаемся в мир Aspose. PSD для Java, мощной библиотеки, которая поможет вам с легкостью манипулировать PSD-файлами. Независимо от того, являетесь ли вы новичком или опытным разработчиком, это пошаговое руководство проведет вас через процесс добавления градиента слоя обводки в ваши PSD-файлы. Итак, пристегнитесь и приготовьтесь улучшить свои навыки графического редактирования!
+Вы когда-нибудь задумывались, как добавить градиент слоя обводки к вашим изображениям с помощью Java? Ну, вы в правильном месте! Сегодня мы погружаемся в мир Aspose.PSD для Java, мощной библиотеки, которая помогает вам с легкостью манипулировать PSD-файлами. Независимо от того, являетесь ли вы новичком или опытным разработчиком, это пошаговое руководство проведет вас через процесс добавления градиента слоя обводки в ваши PSD-файлы. Итак, пристегнитесь и приготовьтесь улучшить свои навыки графического редактирования!
 ## Предварительные условия
 Прежде чем мы начнем, вам нужно кое-что сделать. Убедитесь, что у вас есть следующее:
 1.  Комплект разработки Java (JDK): убедитесь, что в вашей системе установлен JDK. Вы можете скачать его с[сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -21,7 +21,6 @@ url: /ru/java/java-graphics-drawing/add-stroke-layer-gradient/
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -104,7 +103,7 @@ fillSettings.getTransparencyPoints()[1].setLocation(2411);
 ```java
 im.save(exportPath);
 ```
-## Шаг 7. Проверьте изменения.
+## Шаг 7. Проверьте изменения
 Наконец, давайте загрузим сохраненный PSD-файл и проверим, что наши изменения были применены правильно.
 ```java
 PsdImage img = (PsdImage) Image.load(exportPath, loadOptions);

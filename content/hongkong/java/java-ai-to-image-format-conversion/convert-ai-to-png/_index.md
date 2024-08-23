@@ -19,7 +19,6 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 首先，您需要將必要的 Aspose.PSD 套件匯入到您的 Java 專案中。讓我們設定您的環境。
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;

@@ -88,7 +88,7 @@ A1：是的，Aspose.PSD 廣泛應用於專業 Java 專案中，以實現高效�
 
 ### Q3: 我可以在購買前試用Aspose.PSD嗎？
 
-A3：是的，您可以探索[免費試用](https://releases.aspose.com/)評估Aspose.PSD的功能。
+ A3：是的，您可以探索[免費試用](https://releases.aspose.com/)評估Aspose.PSD的功能。
 
 ### Q4：如何取得Aspose.PSD的臨時授權？
 

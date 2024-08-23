@@ -102,7 +102,7 @@ A2: As dimensões são personalizáveis; ajuste os parâmetros no método Image.
 
 ### Q3: Existe uma avaliação gratuita disponível para Aspose.PSD para .NET?
 
- A3: Sim, você pode acessar a avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q4: Como posso obter suporte para Aspose.PSD?
 
@@ -110,4 +110,4 @@ A2: As dimensões são personalizáveis; ajuste os parâmetros no método Image.
 
 ### P5: As licenças temporárias estão disponíveis?
 
- A5: Sim, você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

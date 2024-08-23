@@ -113,7 +113,7 @@ dublinCorePackage.AddValue("dc:movie", "Barfly");
 ## الخطوة 9: إضافة حزمة DublinCore إلى بيانات تعريف XMP
 
 ```csharp
-// أضف حزمة dublinCore إلى بيانات تعريف XMP
+// قم بإضافة حزمة dublinCore إلى بيانات تعريف XMP
 xmpData.AddPackage(dublinCorePackage);
 ```
 

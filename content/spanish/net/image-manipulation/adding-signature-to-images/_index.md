@@ -61,7 +61,7 @@ using (Image signature = Image.Load(dataDir + "sample.psd"))
 
 ## Paso 4: Inicializar gráficos y dibujar firma
 
- Crear una instancia del`Graphics` clase e inicialícela usando el objeto de la imagen principal. Utilizar el`DrawImage` método para agregar la firma a la ubicación deseada en la imagen principal.
+ Crear una instancia del`Graphics` clase e inicialícela usando el objeto de la imagen principal. Utilice el`DrawImage` método para agregar la firma a la ubicación deseada en la imagen principal.
 
 ```csharp
 Graphics graphics = new Graphics(canvas);
@@ -102,4 +102,4 @@ R3: Puede implementar bloques try-catch para manejar las excepciones con eleganc
 
 ### P5: ¿Puedo probar Aspose.PSD antes de comprarlo?
 
- R5: Ciertamente, hay una prueba gratuita disponible.[aquí](https://releases.aspose.com/).
+ R5: Ciertamente, hay una prueba gratuita disponible[aquí](https://releases.aspose.com/).

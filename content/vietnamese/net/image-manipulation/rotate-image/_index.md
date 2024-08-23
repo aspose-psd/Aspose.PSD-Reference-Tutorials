@@ -53,7 +53,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-Đó là nó! Chỉ với vài dòng mã, bạn đã xoay hình ảnh thành công bằng Aspose.PSD cho .NET.
+Thế thôi! Chỉ với vài dòng mã, bạn đã xoay hình ảnh thành công bằng Aspose.PSD cho .NET.
 
 ## Phần kết luận
 
@@ -71,7 +71,7 @@ Trong hướng dẫn này, chúng ta đã khám phá những kiến thức cơ b
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 
- Tham quan[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trên trang web Aspose để lấy giấy phép tạm thời cho mục đích đánh giá.
+ Ghé thăm[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trên trang web Aspose để lấy giấy phép tạm thời cho mục đích đánh giá.
 
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.PSD ở đâu?
 
@@ -79,4 +79,4 @@ Trong hướng dẫn này, chúng ta đã khám phá những kiến thức cơ b
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho mục đích thương mại không?
 
- Chắc chắn. Khám phá cái[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép phù hợp với nhu cầu của bạn.
+ Chắc chắn. Khám phá[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép phù hợp với nhu cầu của bạn.

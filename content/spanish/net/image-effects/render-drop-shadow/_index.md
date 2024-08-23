@@ -85,7 +85,7 @@ im.Save(pngExportPath, saveOptions);
 
 Guarde la imagen modificada con el efecto de sombra paralela aplicado en formato PNG.
 
-¡Y eso es! Ha renderizado exitosamente un efecto de sombra paralela usando Aspose.PSD para .NET.
+¡Y eso es todo! Ha renderizado exitosamente un efecto de sombra paralela usando Aspose.PSD para .NET.
 
 ## Conclusión
 
@@ -107,7 +107,7 @@ R2: ¡Absolutamente! No dude en ajustar el código para satisfacer sus requisito
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
- R4: Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Cómo puedo obtener soporte o buscar ayuda con Aspose.PSD para .NET?
 

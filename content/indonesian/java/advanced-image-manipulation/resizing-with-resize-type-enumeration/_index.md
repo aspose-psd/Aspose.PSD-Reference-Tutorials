@@ -73,7 +73,7 @@ A1: Tentu saja! Aspose.PSD untuk Java dirancang untuk memenuhi proyek dari semua
 
 ### Q2: Dapatkah saya menggunakan jenis pengubahan ukuran selain Lanczos Resample?
 
-A2: Ya, Aspose.PSD untuk Java menawarkan berbagai jenis pengubahan ukuran, seperti Nearest Neighbor, Bicubic, dan banyak lagi. Jelajahi dokumentasi untuk daftar lengkap.
+A2: Ya, Aspose.PSD untuk Java menawarkan berbagai tipe pengubahan ukuran, seperti Nearest Neighbor, Bicubic, dan banyak lagi. Jelajahi dokumentasi untuk daftar lengkap.
 
 ### Q3: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.PSD untuk Java?
 
@@ -81,8 +81,8 @@ A2: Ya, Aspose.PSD untuk Java menawarkan berbagai jenis pengubahan ukuran, seper
 
 ### Q4: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A4: Ya, Anda dapat mengakses versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
 
- A5: Untuk mendapatkan lisensi sementara, kunjungi[Link ini](https://purchase.aspose.com/temporary-license/).
+ A5: Untuk mendapatkan lisensi sementara, kunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).

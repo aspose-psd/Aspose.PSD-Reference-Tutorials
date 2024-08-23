@@ -2,13 +2,13 @@
 title: Przeczytaj wszystkie tagi EXIF w Javie
 linktitle: Przeczytaj wszystkie tagi EXIF w Javie
 second_title: Aspose.PSD API Java
-description: Dowiedz się, jak wyodrębnić tagi EXIF z obrazów PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie wyodrębnić metadane.
+description: Dowiedz się, jak wyodrębnić znaczniki EXIF z obrazów PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie wyodrębnić metadane.
 type: docs
 weight: 17
 url: /pl/java/java-jpeg-image-processing/read-all-exif-tags-java/
 ---
 ## Wstęp
-środowisku programowania w języku Java obsługa i wyodrębnianie metadanych z obrazów jest częstym zadaniem, szczególnie w przypadku plików PSD (dokument programu Photoshop). Tagi EXIF (Exchangeable Image File Format) zawierają cenne metadane, które dostarczają informacji o obrazie, takich jak ustawienia aparatu, lokalizacja i inne. Ten samouczek koncentruje się na używaniu Aspose.PSD dla Java, potężnej biblioteki do manipulowania plikami PSD, w celu wydajnego odczytu tagów EXIF.
+środowisku programowania w języku Java obsługa i wyodrębnianie metadanych z obrazów jest częstym zadaniem, szczególnie w przypadku plików PSD (dokument programu Photoshop). Tagi EXIF (Exchangeable Image File Format) zawierają cenne metadane, które dostarczają informacji o obrazie, takich jak ustawienia aparatu, lokalizacja i inne. Ten samouczek koncentruje się na używaniu Aspose.PSD dla Java, potężnej biblioteki do manipulowania plikami PSD, w celu wydajnego odczytywania tagów EXIF.
 ## Warunki wstępne
 Zanim zagłębisz się w ten samouczek, upewnij się, że posiadasz następujące elementy:
 - Podstawowa znajomość programowania w języku Java.
@@ -19,13 +19,12 @@ Zanim zagłębisz się w ten samouczek, upewnij się, że posiadasz następując
 Aby rozpocząć, zaimportuj niezbędne pakiety z Aspose.PSD dla Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Importy te pozwolą Ci pracować z obrazami PSD i efektywnie wyodrębniać metadane EXIF.
+Importy te umożliwią pracę z obrazami PSD i wydajne wyodrębnianie metadanych EXIF.
 ## Krok 1: Załaduj obraz PSD
 Najpierw musisz załadować plik obrazu PSD, z którego chcesz wyodrębnić tagi EXIF:
 ```java
@@ -34,7 +33,7 @@ PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");
 ```
  Zastępować`"Your_Document_Directory/"` ze ścieżką do katalogu zawierającego plik PSD oraz`"your_image.psd"` z rzeczywistą nazwą pliku.
 ## Krok 2: Iteruj po zasobach obrazu
-Następnie iteruj po zasobach obrazu, aby znaleźć dane EXIF:
+Następnie przejrzyj zasoby obrazu, aby znaleźć dane EXIF:
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || 

@@ -82,11 +82,11 @@ using (Image image = Image.Load(sourceFile))
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/)لاستكشاف ميزات Aspose.PSD قبل إجراء عملية الشراء.
+ ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/)لاستكشاف ميزات Aspose.PSD قبل إجراء عملية الشراء.
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت؟
 
- ج4: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+ ج4: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
 
 ### س5: أين يمكنني شراء Aspose.PSD؟
 

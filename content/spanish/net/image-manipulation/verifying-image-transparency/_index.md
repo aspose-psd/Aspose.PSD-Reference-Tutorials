@@ -74,7 +74,7 @@ if (opacity == 0)
 
 ### P1: ¿Aspose.PSD es compatible con los últimos frameworks .NET?
 
-R1: Sí, Aspose.PSD es compatible con los últimos frameworks .NET.
+R1: Sí, Aspose.PSD es compatible con los últimos marcos .NET.
 
 ### P2: ¿Puedo utilizar Aspose.PSD para proyectos comerciales?
 
@@ -86,8 +86,8 @@ R1: Sí, Aspose.PSD es compatible con los últimos frameworks .NET.
 
 ### P4: ¿Cómo obtengo una licencia temporal para Aspose.PSD?
 
- R4: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P5: ¿Puedo probar Aspose.PSD gratis antes de comprarlo?
 
-R5: Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
+R5: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/).

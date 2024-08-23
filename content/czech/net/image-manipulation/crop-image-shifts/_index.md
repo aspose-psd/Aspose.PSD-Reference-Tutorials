@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/net/image-manipulation/crop-image-shifts/
 ---
-## Úvod
+## Zavedení
 
 V oblasti vývoje .NET vyniká Aspose.PSD jako výkonná sada nástrojů pro úlohy zpracování obrazu. Jednou z jeho pozoruhodných vlastností je schopnost přesně ořezávat obrázky díky funkci „Cropping by Shifts“. V tomto podrobném průvodci vás provedeme procesem bezproblémového oříznutí obrázků pomocí Aspose.PSD pro .NET.
 
@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## Krok 4: Definujte hodnoty posunu pro oříznutí
 
-Zadejte hodnoty posunu pro levou, pravou, horní a spodní stranu obrázku. Upravte tyto hodnoty na základě vašich požadavků na oříznutí.
+Zadejte hodnoty posunu pro levou, pravou, horní a spodní stranu obrazu. Upravte tyto hodnoty na základě vašich požadavků na oříznutí.
 
 ```csharp
 int leftShift = 10;
@@ -82,7 +82,7 @@ rasterImage.Save(destName, new JpegOptions());
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili ořezávat obrázky po směnách pomocí Aspose.PSD pro .NET. Tato výkonná funkce vám poskytuje přesnost a kontrolu potřebnou pro různé úlohy zpracování obrazu.
+Gratuluji! Úspěšně jste se naučili ořezávat obrázky po směnách pomocí Aspose.PSD pro .NET. Tato výkonná funkce vám poskytuje přesnost a kontrolu potřebnou pro různé úlohy zpracování obrazu.
 
 ## FAQ
 
@@ -92,11 +92,11 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků, což vám umo
 
 ### Q2: Je před zakoupením Aspose.PSD pro .NET k dispozici zkušební verze?
 
- A2: Určitě! Sadu nástrojů můžete prozkoumat pomocí bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ A2: Určitě! Sadu nástrojů můžete prozkoumat pomocí bezplatné zkušební verze[zde](https://releases.aspose.com/).
 
 ### Q3: Jak získám dočasnou licenci pro Aspose.PSD pro .NET?
 
- A3: Můžete získat dočasnou licenci pro testovací účely.[tady](https://purchase.aspose.com/temporary-license/).
+ A3: Můžete získat dočasnou licenci pro testovací účely[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Kde najdu další podporu a diskuse týkající se Aspose.PSD?
 

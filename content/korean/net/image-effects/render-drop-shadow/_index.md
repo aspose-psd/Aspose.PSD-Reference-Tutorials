@@ -15,7 +15,7 @@ url: /ko/net/image-effects/render-drop-shadow/
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
--  .NET 라이브러리용 Aspose.PSD: Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+-  .NET 라이브러리용 Aspose.PSD: Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 
 - 문서 디렉터리: 문서와 이미지가 저장되는 디렉터리를 설정합니다. 코드에서 이 디렉터리를 지정해야 합니다.
 

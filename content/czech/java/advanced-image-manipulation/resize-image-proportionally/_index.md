@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /cs/java/advanced-image-manipulation/resize-image-proportionally/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem podrobném průvodci proporcionální změnou velikosti obrázků pomocí Aspose.PSD pro Java. Pokud chcete vylepšit své Java aplikace o efektivní možnosti změny velikosti obrázků, jste na správném místě. V tomto tutoriálu vás provedeme procesem pomocí jasných a stručných kroků.
 
@@ -16,7 +16,7 @@ Vítejte v našem podrobném průvodci proporcionální změnou velikosti obráz
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 1. Prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
-2.  Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD. Můžete najít potřebné zdroje[tady](https://releases.aspose.com/psd/java/).
+2.  Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD. Můžete najít potřebné zdroje[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -74,7 +74,7 @@ V tomto tutoriálu jsme probrali základní kroky k proporcionální změně vel
 
 ### Q1: Je Aspose.PSD kompatibilní se všemi formáty obrázků?
 
- Odpověď 1: Aspose.PSD podporuje různé formáty obrázků, včetně PSD, PNG, JPEG a dalších. Zkontrolovat[dokumentace](https://reference.aspose.com/psd/java/) pro úplný seznam.
+ Odpověď 1: Aspose.PSD podporuje různé formáty obrázků, včetně PSD, PNG, JPEG a dalších. Zkontrolujte[dokumentace](https://reference.aspose.com/psd/java/) pro úplný seznam.
 
 ### Q2: Mohu použít Aspose.PSD pro komerční projekty?
 
@@ -82,7 +82,7 @@ V tomto tutoriálu jsme probrali základní kroky k proporcionální změně vel
 
 ### Q3: Jsou k dispozici dočasné licence pro testovací účely?
 
- A3: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro hodnocení.
+ A3: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro hodnocení.
 
 ### Q4: Kde najdu podporu pro Aspose.PSD?
 
@@ -90,5 +90,5 @@ V tomto tutoriálu jsme probrali základní kroky k proporcionální změně vel
 
 ### Q5: Jak mohu získat přístup k dokumentaci Aspose.PSD?
 
- A5: Viz podrobná dokumentace[tady](https://reference.aspose.com/psd/java/).
-'
+ A5: Viz podrobná dokumentace[zde](https://reference.aspose.com/psd/java/).
+`

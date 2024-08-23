@@ -8,7 +8,7 @@ weight: 19
 url: /id/net/psd-file-manipulation/crop-psd-file/
 ---
 ## Perkenalan
-Dalam bidang pengembangan .NET, Aspose.PSD menonjol sebagai perangkat yang ampuh untuk menangani file PSD (Photoshop Document) dengan mulus. Dalam hal memanipulasi gambar, pemotongan adalah operasi mendasar, dan Aspose.PSD menyederhanakan proses ini untuk pengembang .NET. Dalam tutorial ini, kita akan mempelajari cara memotong file PSD menggunakan Aspose.PSD untuk .NET, memberi Anda panduan langkah demi langkah.
+Dalam bidang pengembangan .NET, Aspose.PSD menonjol sebagai perangkat canggih untuk menangani file PSD (Dokumen Photoshop) dengan mulus. Dalam hal memanipulasi gambar, pemotongan adalah operasi mendasar, dan Aspose.PSD menyederhanakan proses ini untuk pengembang .NET. Dalam tutorial ini, kita akan mempelajari cara memotong file PSD menggunakan Aspose.PSD untuk .NET, memberi Anda panduan langkah demi langkah.
 ## Prasyarat
 Sebelum mempelajari tutorial, pastikan Anda memiliki prasyarat berikut:
 -  Aspose.PSD untuk .NET: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya dari[Aspose.PSD untuk dokumentasi .NET](https://reference.aspose.com/psd/net/).

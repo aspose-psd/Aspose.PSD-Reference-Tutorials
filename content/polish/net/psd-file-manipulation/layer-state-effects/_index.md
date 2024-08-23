@@ -73,12 +73,12 @@ Gratulacje! Pomyślnie pracowałeś z efektami stanu warstwy w Aspose.PSD dla .N
 
 ### A3: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 3: Tak, możesz skorzystać z bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak uzyskać licencję tymczasową?
 
- A4: Uzyskaj tymczasową licencję.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A4: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Potrzebujesz wsparcia lub masz pytania?
 
- A5: Dołącz do[Forum społeczności Aspose.PSD](https://forum.aspose.com/c/psd/34) do pomocy.
+ A5: Dołącz do[Forum społeczności Aspose.PSD](https://forum.aspose.com/c/psd/34) o pomoc.

@@ -52,7 +52,7 @@ using (var im = (PsdImage)Image.Load(sourceFileName, loadOptions))
 
 Ez a lépés betölti a PSD-lemezképet, lehetővé téve az effektusok erőforrásainak betöltését.
 
-## 3. lépés: Színes átfedési rétegeffektus hozzáadása
+## 3. lépés: Adjon hozzá Color Overlay Layer Effect-et
 
 ```csharp
 var effect = im.Layers[1].BlendingOptions.AddColorOverlay();
@@ -91,7 +91,7 @@ A2: Abszolút! Több effektust is láncolhat egy rétegen, így összetett vizu�
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet tesztelési célból?
 
- V4: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
+ V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
 
 ### 5. kérdés: Hol találhatok további támogatást és közösségi megbeszéléseket?
 

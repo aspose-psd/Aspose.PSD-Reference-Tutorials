@@ -16,7 +16,7 @@ Bạn đang tìm cách tối ưu hóa bộ nhớ đệm phông chữ bằng Aspo
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
--  Thư viện Aspose.PSD cho Java được tải xuống từ[Liên kết tải xuống](https://releases.aspose.com/psd/java/).
+-  Thư viện Aspose.PSD cho Java được tải xuống từ[liên kết tải xuống](https://releases.aspose.com/psd/java/).
 - Một tệp PSD mẫu cho mục đích thử nghiệm.
 
 Bây giờ bạn đã thiết lập xong mọi thứ, hãy tiếp tục với phần hướng dẫn.
@@ -53,7 +53,7 @@ Thread.sleep(2 * 60 * 1000);
 OpenTypeFontsCache.updateCache();
 ```
 
- Bước này gây ra độ trễ, giúp người dùng có hai phút để cài đặt phông chữ được yêu cầu. Các`updateCache()` phương pháp cập nhật bộ đệm phông chữ dựa trên phông chữ đã cài đặt.
+ Bước này gây ra độ trễ, giúp người dùng có hai phút để cài đặt phông chữ được yêu cầu. các`updateCache()` phương pháp cập nhật bộ đệm phông chữ dựa trên phông chữ đã cài đặt.
 
 ## Bước 3: Tải hình ảnh PSD đã cập nhật
 
@@ -76,7 +76,7 @@ Câu trả lời 1: Aspose.PSD cho Java được thiết kế để hoạt độ
 
 ### Câu 2: Tôi có thể sử dụng Aspose.PSD cho mục đích thương mại không?
 
- Câu trả lời 2: Có, Aspose.PSD đi kèm với các tùy chọn cấp phép linh hoạt, bao gồm cả mục đích sử dụng thương mại. Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+ Câu trả lời 2: Có, Aspose.PSD đi kèm với các tùy chọn cấp phép linh hoạt, bao gồm cả mục đích sử dụng thương mại. Ghé thăm[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 

@@ -106,7 +106,7 @@ A2: Tentu saja! Setelah menggabungkan gambar, Anda dapat memanipulasi lebih lanj
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda dapat menjelajahi Aspose.PSD dengan uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi Aspose.PSD dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.PSD?
 

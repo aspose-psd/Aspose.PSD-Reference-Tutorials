@@ -20,7 +20,6 @@ url: /zh-hant/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientatio
 在開始範例之前，請確保從 Aspose.PSD for Java 匯入必要的套件：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

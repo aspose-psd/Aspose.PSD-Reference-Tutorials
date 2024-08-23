@@ -20,7 +20,6 @@ url: /el/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 Για να ξεκινήσετε, πρέπει να εισαγάγετε τα απαραίτητα πακέτα από τη βιβλιοθήκη Aspose.PSD. Δείτε πώς μπορείτε να το κάνετε αυτό:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -67,7 +66,7 @@ options1.setCmykColorProfile(null);
 ```java
 image1.save(dataDir + "output2.jpg", options1);
 ```
-## συμπέρασμα
+## Σύναψη
 Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να υποστηρίζετε JPEG-LS με λειτουργία χρώματος CMYK χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθώντας αυτό το σεμινάριο, μπορείτε πλέον να χειρίζεστε αρχεία PSD και να τα μετατρέπετε σε JPEG με διαφορετικές ρυθμίσεις συμπίεσης. Αυτή η ισχυρή βιβλιοθήκη διευκολύνει τον χειρισμό εικόνων και με αυτά τα βήματα, είστε σε καλό δρόμο για να γίνετε επαγγελματίας επεξεργασίας εικόνας.
 ## Συχνές ερωτήσεις
 ### Τι είναι η λειτουργία χρώματος CMYK;
@@ -77,6 +76,6 @@ image1.save(dataDir + "output2.jpg", options1);
 ### Μπορώ να χρησιμοποιήσω άλλες λειτουργίες συμπίεσης με το Aspose.PSD;
 Ναι, το Aspose.PSD υποστηρίζει διάφορες λειτουργίες συμπίεσης, συμπεριλαμβανομένων των Lossless και JPEG.
 ### Χρειάζομαι άδεια χρήσης για να χρησιμοποιήσω το Aspose.PSD;
- Ναι, χρειάζεστε άδεια. Μπορείτε να πάρετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+ Ναι, χρειάζεσαι άδεια. Μπορείτε να πάρετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.PSD;
  Μπορείτε να βρείτε την πλήρη τεκμηρίωση[εδώ](https://reference.aspose.com/psd/java/).

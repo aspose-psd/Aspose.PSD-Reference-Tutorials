@@ -15,7 +15,7 @@ In de tutorial van vandaag gaan we dieper in op het proces van het eenvoudig aan
 
 Voordat we aan onze reis beginnen om het formaat van afbeeldingen aan te passen met Aspose.PSD, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
-1. Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt de nieuwste versie downloaden van de[Java-website](https://www.oracle.com/java/).
+1.  Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt de nieuwste versie downloaden van de[Java-website](https://www.oracle.com/java/).
 
 2.  Aspose.PSD voor Java: Download en installeer de Aspose.PSD-bibliotheek. De benodigde pakketten vindt u op de[Aspose.PSD voor Java-downloadpagina](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ A2: Ja, Aspose.PSD ondersteunt verschillende afbeeldingsformaten, wat veelzijdig
 
 ### V4: Kan ik Aspose.PSD voor Java uitproberen voordat ik het aanschaf?
 
- A4: Zeker! Maak gebruik van de[gratis proefversie](https://releases.aspose.com/) om de mogelijkheden van de bibliotheek te verkennen.
+ A4: Zeker! Maak gebruik van de[gratis proefversie](https://releases.aspose.com/)om de mogelijkheden van de bibliotheek te verkennen.
 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor Java?
 

@@ -62,7 +62,7 @@ Chúc mừng! Bạn đã hỗ trợ thành công các loại chữ ký khác nha
 
 ### Câu hỏi 1: Tôi có thể tìm tài liệu về Aspose.PSD cho .NET ở đâu?
 
- A1: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/net/).
+ A1: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 2: Làm cách nào tôi có thể tải xuống thư viện Aspose.PSD cho .NET?
 
@@ -70,7 +70,7 @@ Chúc mừng! Bạn đã hỗ trợ thành công các loại chữ ký khác nha
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Trả lời 3: Có, bạn có thể dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Q4: Cần hỗ trợ hoặc có thắc mắc?
 
@@ -78,4 +78,4 @@ Chúc mừng! Bạn đã hỗ trợ thành công các loại chữ ký khác nha
 
 ### Câu 5: Đang xin giấy phép tạm thời?
 
- A5: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

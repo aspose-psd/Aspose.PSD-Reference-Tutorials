@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/image-processing/apply-motion-wiener-filters/
 ---
-## Úvod
+## Zavedení
 
 V dynamickém světě zpracování obrazu se Aspose.PSD for Java ukazuje jako mocný nástroj, který umožňuje vývojářům bez námahy aplikovat Motion Wiener Filters. Tento podrobný průvodce vás provede celým procesem, díky čemuž bude manipulace s obrázky pro vývojáře v jazyce Java snadno dostupná.
 
@@ -15,9 +15,9 @@ V dynamickém světě zpracování obrazu se Aspose.PSD for Java ukazuje jako mo
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu. Můžete si jej stáhnout[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu. Můžete si jej stáhnout[zde](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2.  Aspose.PSD for Java: Stáhněte a nainstalujte knihovnu Aspose.PSD for Java. Můžete najít potřebné soubory[tady](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD for Java: Stáhněte a nainstalujte knihovnu Aspose.PSD for Java. Můžete najít potřebné soubory[zde](https://releases.aspose.com/psd/java/).
 
 3. Integrované vývojové prostředí (IDE): Vyberte si preferované Java IDE, jako je Eclipse, IntelliJ nebo NetBeans.
 
@@ -86,7 +86,7 @@ Opakujte tyto kroky pro bezproblémové zpracování obrazu pomocí Aspose.PSD p
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste prošli aplikací Motion Wiener Filters pomocí Aspose.PSD for Java. Prozkoumejte další možnosti a vylepšete své možnosti zpracování obrazu s touto všestrannou knihovnou.
+Gratuluji! Úspěšně jste prošli aplikací Motion Wiener Filters pomocí Aspose.PSD for Java. Prozkoumejte další možnosti a vylepšete své možnosti zpracování obrazu s touto všestrannou knihovnou.
 
 ## FAQ
 
@@ -100,12 +100,12 @@ Odpověď 2: Ano, Aspose.PSD podporuje širokou škálu obrazových formátů, c
 
 ### Q3: Kde najdu další podporu nebo pomoc?
 
- Odpověď 3: Navštivte fórum Aspose.PSD[tady](https://forum.aspose.com/c/psd/34) za podporu komunity a diskuze.
+ Odpověď 3: Navštivte fórum Aspose.PSD[zde](https://forum.aspose.com/c/psd/34) za podporu komunity a diskuze.
 
 ### Q4: Mohu vyzkoušet Aspose.PSD pro Java před nákupem?
 
- A4: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.PSD pro Java?
 
-A5: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
+A5: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.

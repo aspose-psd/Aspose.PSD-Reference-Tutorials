@@ -9,7 +9,7 @@ url: /es/
 is_root: true
 ---
 
-Bienvenido a la página de tutoriales de Aspose.PSD, su recurso de referencia para dominar las potentes funciones y capacidades de Aspose.PSD, una API líder para trabajar con archivos de Adobe Photoshop en varias aplicaciones .NET. Si es un desarrollador experimentado que busca mejorar sus habilidades o un recién llegado ansioso por explorar las amplias posibilidades de manipular archivos PSD, PSB y AI mediante programación, nuestros tutoriales brindan una guía completa. Desde conceptos básicos hasta técnicas avanzadas, cubrimos una amplia gama de temas para garantizar que pueda aprovechar todo el potencial de Aspose.PSD en sus proyectos. Sumérgete en nuestros tutoriales y descubre la clave para el procesamiento, edición y conversión de imágenes sin problemas, así como la capacidad de extraer datos valiosos de archivos de Photoshop sin esfuerzo. ¡Embárcate en un viaje para mejorar tu experiencia de desarrollo con Aspose.PSD!
+Bienvenido a la página de tutoriales de Aspose.PSD, su recurso de referencia para dominar las potentes funciones y capacidades de Aspose.PSD, una API líder para trabajar con archivos de Adobe Photoshop en varias aplicaciones .NET. Si es un desarrollador experimentado que busca mejorar sus habilidades o un recién llegado ansioso por explorar las amplias posibilidades de manipular archivos PSD, PSB y AI mediante programación, nuestros tutoriales brindan una guía completa. Desde conceptos básicos hasta técnicas avanzadas, cubrimos una amplia gama de temas para garantizar que pueda aprovechar todo el potencial de Aspose.PSD en sus proyectos. Sumérjase en nuestros tutoriales y descubra la clave para el procesamiento, edición y conversión de imágenes sin problemas, así como la capacidad de extraer datos valiosos de archivos de Photoshop sin esfuerzo. ¡Embárcate en un viaje para mejorar tu experiencia de desarrollo con Aspose.PSD!
 
 ## Aspose.PSD para tutoriales .NET
 {{% alert color="primary" %}}
@@ -24,7 +24,7 @@ Estos son enlaces a algunos recursos útiles:
 - [Guardar y exportar archivos](./net/file-saving-and-exporting/)
 - [Ajuste de imagen](./net/image-adjustment/)
 - [Efectos de imagen](./net/image-effects/)
-- [Manipulación de imagen](./net/image-manipulation/)
+- [Manipulación de imágenes](./net/image-manipulation/)
 - [Manejo de archivos y fuentes](./net/file-and-font-handling/)
 - [Técnicas de dibujo PSD](./net/psd-drawing-techniques/)
 - [Efectos de capa](./net/layer-effects/)
@@ -40,8 +40,8 @@ Estos son enlaces a algunos recursos útiles:
 
 - [Procesamiento de imágenes](./java/image-processing/)
 - [Conversión PSD](./java/psd-conversion/)
-- [Técnicas avanzadas](./java/advanced-techniques/)
-- [Edición de imagen](./java/image-editing/)
+- [Técnicas Avanzadas](./java/advanced-techniques/)
+- [Edición de imágenes](./java/image-editing/)
 - [Manipulación avanzada de imágenes](./java/advanced-image-manipulation/)
 - [Operaciones básicas de imagen](./java/basic-image-operations/)
 - [Efectos de imagen avanzados](./java/advanced-image-effects/)

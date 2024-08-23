@@ -48,9 +48,9 @@ Välkommen till riket av behärskning av bildredigering! I den här samlingen tu
  Lär dig krångligheterna i[expandera och beskära bilder](./expand-and-crop-images/) i Java med Aspose.PSD. Vår steg-för-steg-guide säkerställer effektiv bildbehandling. Öka dina färdigheter i bildredigering med Aspose.PSD för Java.
 
 Sammanfattningsvis öppnar dessa tutorials dörrarna till en värld av möjligheter inom bildredigering med Aspose.PSD för Java. Oavsett om du är en nybörjare eller en erfaren utvecklare, ger våra guider dig möjlighet att släppa loss din kreativitet och uppnå fantastiska resultat. Dyk in och utforska de rika funktionerna som Aspose.PSD för Java ger till bordet. Lycka till med redigeringen!
-## Handledning för bildredigering
+## Självstudier för bildredigering
 ### [Använd färgöverlagringseffekt i Aspose.PSD för Java](./color-overlay-effect/)
-Upptäck magin med färgöverlagringseffekter i Aspose.PSD för Java. Lyft ditt bildredigeringsspel med denna steg-för-steg-guide.
+Upptäck magin med färgöverläggseffekter i Aspose.PSD för Java. Lyft ditt bildredigeringsspel med denna steg-för-steg-guide.
 ### [Kombinera bilder med Aspose.PSD för Java](./combine-images/)
 Lär dig hur du slår ihop bilder i Java med Aspose.PSD. Följ vår steg-för-steg-guide för sömlös bildkombination.
 ### [Skapa XMP-metadata med Aspose.PSD för Java](./create-xmp-metadata/)

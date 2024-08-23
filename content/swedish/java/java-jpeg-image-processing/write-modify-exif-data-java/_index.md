@@ -20,7 +20,6 @@ Innan vi dyker in i koden, låt oss se till att du har allt korrekt inställt.
 Först måste du importera de nödvändiga paketen i ditt Java-projekt. Så här gör du:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -28,8 +27,8 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Dessa importer låter dig arbeta med PSD-filer, manipulera EXIF-data och använda Aspose.PSD:s kraftfulla funktioner.
-Nu när du har allt installerat, låt oss dela upp processen i enkla steg som är lätta att följa.
+Dessa importer gör att du kan arbeta med PSD-filer, manipulera EXIF-data och använda Aspose.PSD:s kraftfulla funktioner.
+Nu när du har ställt in allt, låt oss dela upp processen i enkla steg som är lätta att följa.
 ## Steg 1: Ladda PSD-bilden
 Till att börja med måste du ladda din PSD-fil i ditt projekt. Så här kan du göra det:
 ```java
@@ -44,15 +43,15 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     // Sök efter resurser för miniatyrbilder
 }
 ```
-## Steg 3: Identifiera miniatyrbildsresursen
+## Steg 3: Identifiera miniatyrresursen
 I det här steget kommer du att identifiera miniatyrbildsresursen från bildresurserna.
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
-    // Extrahera EXIF-data från miniatyrresursen
+    // Extrahera EXIF-data från miniatyrbildsresursen
 }
 ```
 ## Steg 4: Extrahera och skriv ut EXIF-data
-När du har identifierat miniatyrresursen är nästa steg att extrahera EXIF-data och skriva ut den till konsolen.
+När du har identifierat miniatyrbildsresursen är nästa steg att extrahera EXIF-data och skriva ut den till konsolen.
 ```java
 JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
 if (exif != null) {
@@ -60,7 +59,7 @@ if (exif != null) {
 }
 ```
 ## Steg 5: Ändra EXIF-data
-Nu kommer den roliga delen - att ändra EXIF-data. Så här kan du ställa in LensMake-, WhiteBalance- och Flash-informationen.
+Nu kommer den roliga delen – att ändra EXIF-data. Så här kan du ställa in LensMake-, WhiteBalance- och Flash-informationen.
 ```java
 exif.setLensMake("Sony");
 exif.setWhiteBalance(ExifWhiteBalance.Auto);

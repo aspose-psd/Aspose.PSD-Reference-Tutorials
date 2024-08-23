@@ -15,7 +15,7 @@ Trong hướng dẫn hôm nay, chúng ta sẽ đi sâu vào quy trình thay đ�
 
 Trước khi chúng tôi bắt đầu hành trình thay đổi kích thước hình ảnh bằng Aspose.PSD, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải phiên bản mới nhất từ[Trang web Java](https://www.oracle.com/java/).
+1.  Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải phiên bản mới nhất từ[Trang web Java](https://www.oracle.com/java/).
 
 2.  Aspose.PSD cho Java: Tải xuống và cài đặt thư viện Aspose.PSD. Bạn có thể tìm thấy các gói cần thiết trên[Trang tải xuống Aspose.PSD cho Java](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ Câu trả lời 2: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 
 ### Câu hỏi 4: Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
 
- A4: Chắc chắn rồi! Sử dụng[phiên bản dùng thử miễn phí](https://releases.aspose.com/) để khám phá các khả năng của thư viện.
+ A4: Chắc chắn rồi! Sử dụng[phiên bản dùng thử miễn phí](https://releases.aspose.com/)để khám phá các khả năng của thư viện.
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho Java?
 

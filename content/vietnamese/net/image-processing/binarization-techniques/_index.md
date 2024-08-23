@@ -15,7 +15,7 @@ Trong thế giới xử lý hình ảnh, khả năng chuyển đổi hình ảnh
 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
--  Aspose.PSD for .NET: Tải xuống và cài đặt thư viện Aspose.PSD cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Tải xuống và cài đặt thư viện Aspose.PSD cho .NET từ[liên kết tải xuống](https://releases.aspose.com/psd/net/).
 - Thư mục tài liệu: Thiết lập thư mục để lưu trữ các tệp PSD mẫu của bạn.
 
 ## Nhập không gian tên
@@ -77,7 +77,7 @@ Bộ nhớ đệm hình ảnh tối ưu hóa hiệu suất bằng cách lưu tr�
 //ExEnd:BinarizationWithFixedThreshold
 ```
 
- Các`BinarizeFixed` phương pháp được áp dụng để chuyển đổi hình ảnh sang định dạng nhị phân với một ngưỡng xác định. Hình ảnh thu được sau đó được lưu ở định dạng JPEG.
+ các`BinarizeFixed` phương pháp được áp dụng để chuyển đổi hình ảnh sang định dạng nhị phân với một ngưỡng xác định. Hình ảnh thu được sau đó được lưu ở định dạng JPEG.
 
 ## Phần kết luận
 

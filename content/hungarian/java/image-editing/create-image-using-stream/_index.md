@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Hozzon létre egy példányt a`Image` meghívásával a`create` módszerrel, átadva a konfigurált`BmpOptions` és a kép méreteinek megadása.
+ Hozzon létre egy példányt a`Image` felhívásával a`create` módszerrel, átadva a konfigurált`BmpOptions` és a kép méreteinek megadása.
 
 ## 6. lépés: Képfeldolgozás
 
@@ -91,7 +91,7 @@ image.save(desName);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan hozhat létre képeket az Aspose.PSD for Java stream használatával. Ez az oktatóanyag a legfontosabb lépéseket ismerteti, a csomagok importálásától a végső képfeldolgozásig és mentésig. Kísérletezzen a különböző beállításokkal, és fedezzen fel további funkciókat képalkotási képességeinek javításához.
+Gratulálok! Sikeresen megtanulta, hogyan hozhat létre képeket az Aspose.PSD for Java stream használatával. Ez az oktatóanyag a legfontosabb lépéseket ismertette, a csomagok importálásától a végső képfeldolgozásig és mentésig. Kísérletezzen a különböző beállításokkal, és fedezzen fel további funkciókat képalkotási képességeinek javításához.
 
 ## GYIK
 
@@ -105,11 +105,11 @@ Gratulálunk! Sikeresen megtanulta, hogyan hozhat létre képeket az Aspose.PSD 
 
 ### 3. kérdés: Elérhető az Aspose.PSD ingyenes próbaverziója?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- V4: Szerezzen ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Mik az Aspose.PSD rendszerkövetelményei?
 

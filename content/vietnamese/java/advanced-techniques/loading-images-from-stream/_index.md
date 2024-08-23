@@ -82,7 +82,7 @@ Chúc mừng! Bạn đã tải thành công hình ảnh từ luồng bằng Aspo
 
 ## Phần kết luận
 
- Aspose.PSD cho Java trao quyền cho các nhà phát triển xử lý các tệp PSD một cách dễ dàng. Hướng dẫn này cung cấp hướng dẫn ngắn gọn về cách tải hình ảnh từ một luồng. Khám phá cái[tài liệu](https://reference.aspose.com/psd/java/) để biết thêm chi tiết và khả năng.
+Aspose.PSD cho Java trao quyền cho các nhà phát triển xử lý các tệp PSD một cách dễ dàng. Hướng dẫn này cung cấp hướng dẫn ngắn gọn về cách tải hình ảnh từ một luồng. Khám phá[tài liệu](https://reference.aspose.com/psd/java/) để biết thêm chi tiết và khả năng.
 
 ## Câu hỏi thường gặp
 
@@ -92,7 +92,7 @@ A1: Chắc chắn rồi! Aspose.PSD dành cho Java vượt trội trong các tá
 
 ### Câu hỏi 2: Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
 
- Trả lời 2: Có, bạn có thể khám phá phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 2: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.PSD cho Java ở đâu?
 
@@ -100,7 +100,7 @@ A1: Chắc chắn rồi! Aspose.PSD dành cho Java vượt trội trong các tá
 
 ### Câu hỏi 4: Tôi có cần giấy phép tạm thời cho mục đích thử nghiệm không?
 
- A4: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm Aspose.PSD cho Java.
+ A4: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm Aspose.PSD cho Java.
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho Java ở đâu?
 

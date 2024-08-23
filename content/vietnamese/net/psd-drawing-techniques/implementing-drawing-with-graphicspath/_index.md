@@ -51,7 +51,7 @@ Trong bước này, chúng ta khởi tạo một thể hiện của lớp PsdIma
 ## Bước 2: Tạo GraphicsPath và Hình
 
 ```csharp
-// Tạo một phiên bản của GraphicsPath và Instance của Hình, thêm EllipseShape, RectangleShape và TextShape vào hình.
+// Tạo một phiên bản của GraphicsPath và Instance của Hình, thêm EllipseShape, RectangleShape và TextShape vào hình
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ Câu trả lời 4: Có, Aspose.PSD cho .NET cung cấp chức năng hoạt đ�
 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.PSD cho .NET ở đâu?
 
- A5: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/net/).
+ A5: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).

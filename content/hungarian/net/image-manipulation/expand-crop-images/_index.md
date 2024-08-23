@@ -23,7 +23,7 @@ Most pedig kezdjük a lépésről lépésre bemutatott útmutatóval.
 
 ## Névterek importálása
 
-Kezdje a szükséges névterek importálásával, hogy kihasználja az Aspose.PSD for .NET által biztosított funkciókat. Adja hozzá a következő névtereket a kódjához:
+Kezdje a szükséges névterek importálásával, hogy kihasználja az Aspose.PSD for .NET által biztosított funkciókat. Adja hozzá a következő névtereket a kódhoz:
 
 ```csharp
 using Aspose.PSD.ImageOptions;
@@ -44,7 +44,7 @@ string sourceFile = dataDir + @"example1.psd";
 // Töltse be a képet
 using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 {
-    // Ide kerül a képfeldolgozáshoz szükséges további kód
+    // A képfeldolgozáshoz szükséges további kód kerül ide
 }
 ```
 
@@ -75,7 +75,7 @@ rasterImage.Save(destName, new JpegOptions(), destRect);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan bővítheti és vághatja le a képeket az Aspose.PSD for .NET használatával. Ez a hatékony könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazásokon belüli képkezeléshez.
+Gratulálok! Sikeresen megtanulta, hogyan bővítheti és vághatja le a képeket az Aspose.PSD for .NET használatával. Ez a hatékony könyvtár a lehetőségek világát nyitja meg a .NET-alkalmazásokon belüli képkezeléshez.
 
 ## GYIK
 

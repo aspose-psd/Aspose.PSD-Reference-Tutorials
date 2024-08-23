@@ -37,7 +37,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 ```
 
-## ขั้นตอนที่ 2: โหลดภาพ
+## ขั้นตอนที่ 2: โหลดรูปภาพ
 
 ```csharp
 //ExStart: BluranImage

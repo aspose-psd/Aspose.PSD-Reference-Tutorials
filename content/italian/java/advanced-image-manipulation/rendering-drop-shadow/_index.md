@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /it/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
-## introduzione
+## Introduzione
 
 Se ti stai immergendo nell'elaborazione delle immagini con Java, Aspose.PSD è il tuo strumento di riferimento per una manipolazione fluida ed efficiente dei file PSD. In questo tutorial, esploreremo il processo di applicazione di un'ombra esterna di rendering utilizzando Aspose.PSD per Java. Allacciate le cinture, mentre analizziamo i passaggi per voi.
 

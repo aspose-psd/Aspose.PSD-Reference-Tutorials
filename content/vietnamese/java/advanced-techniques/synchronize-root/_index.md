@@ -74,7 +74,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java tương thích với Java phiên b�
 
 ### Câu hỏi 2: Tôi có thể sử dụng Aspose.PSD cho các dự án thương mại không?
 
- Câu trả lời 2: Có, bạn có thể sử dụng Aspose.PSD cho cả dự án cá nhân và thương mại. Để biết chi tiết cấp phép, hãy truy cập[đây](https://purchase.aspose.com/buy).
+Câu trả lời 2: Có, bạn có thể sử dụng Aspose.PSD cho cả dự án cá nhân và thương mại. Để biết chi tiết cấp phép, hãy truy cập[đây](https://purchase.aspose.com/buy).
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.PSD ở đâu?
 
@@ -82,7 +82,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java tương thích với Java phiên b�
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.PSD bằng cách truy cập.[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.PSD bằng cách truy cập[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 

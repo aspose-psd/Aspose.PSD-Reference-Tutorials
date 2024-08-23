@@ -21,7 +21,6 @@ url: /zh-hant/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
 首先，讓我們導入必要的套件。您需要 Aspose.PSD for Java 函式庫才能開始使用。確保您已將該庫新增至專案依賴項。操作方法如下：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -63,7 +62,7 @@ image.save(dataDir + "2_7BitsJPEG_output.jpg", options);
 ```
 就是這樣！您已成功處理 PSD 影像並使用指定的設定將其另存為 JPEG。
 ## 結論
-恭喜！您剛剛學習如何使用 Aspose.PSD for Java 操作 PSD 檔案並將其另存為 JPEG。這個強大的庫提供了廣泛的功能，使影像處理變得輕而易舉。無論您正在開發小型專案還是大型應用程序，Aspose.PSD for Java 都能滿足您的需求。還在等什麼？開始嘗試，看看你能創造出什麼神奇的東西！
+恭喜！您剛剛學習如何使用 Aspose.PSD for Java 操作 PSD 檔案並將其另存為 JPEG。這個強大的庫提供了廣泛的功能，使影像處理變得輕而易舉。無論您正在開發小型專案還是大型應用程序，Aspose.PSD for Java 都能滿足您的需求。那麼，你還在等什麼？開始嘗試，看看你能創造出什麼神奇的東西！
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.PSD？
 Aspose.PSD for Java 是一個功能強大的函式庫，可讓您在 Java 應用程式中使用 PSD 檔案。它提供了廣泛的影像處理和轉換功能。

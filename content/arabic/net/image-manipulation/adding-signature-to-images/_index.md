@@ -61,7 +61,7 @@ using (Image signature = Image.Load(dataDir + "sample.psd"))
 
 ## الخطوة 4: تهيئة الرسومات ورسم التوقيع
 
- إنشاء مثيل لـ`Graphics` class وتهيئته باستخدام كائن الصورة الأساسية. استخدم ال`DrawImage` طريقة لإضافة التوقيع إلى الموقع المطلوب على الصورة الأساسية.
+ إنشاء مثيل لـ`Graphics` class وتهيئته باستخدام كائن الصورة الأساسية. استخدم`DrawImage` طريقة لإضافة التوقيع إلى الموقع المطلوب على الصورة الأساسية.
 
 ```csharp
 Graphics graphics = new Graphics(canvas);
@@ -102,4 +102,4 @@ canvas.Save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 
 ### س5: هل يمكنني تجربة Aspose.PSD قبل الشراء؟
 
- ج5: بالتأكيد، تتوفر نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
+ ج5: بالتأكيد، تتوفر نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).

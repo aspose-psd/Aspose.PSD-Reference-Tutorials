@@ -19,7 +19,6 @@ Antes de começarmos, certifique-se de ter o seguinte:
 Primeiramente, vamos importar os pacotes necessários. Abra seu Java IDE e crie um novo projeto Java. Em seguida, inclua a biblioteca Aspose.PSD para Java nas dependências do seu projeto.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -37,7 +36,7 @@ try {
 }
 ```
 ## Etapa 2: iterar sobre recursos de imagem
-Depois que a imagem é carregada, a próxima etapa é iterar sobre seus recursos para encontrar o recurso de miniatura, que normalmente contém os dados EXIF.
+Depois que a imagem for carregada, a próxima etapa é iterar sobre seus recursos para encontrar o recurso de miniatura, que normalmente contém os dados EXIF.
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource) {
@@ -58,7 +57,7 @@ if (exifData != null) {
     System.out.println("Compression: " + exifData.getCompression());
 }
 ```
-## Etapa 4: modificar os dados EXIF
+## Etapa 4: modificar dados EXIF
 Depois de ler os dados EXIF, você pode querer modificar alguns de seus campos. Veja como você pode fazer isso:
 ```java
 if (exifData != null) {
@@ -71,7 +70,7 @@ if (exifData != null) {
 }
 ```
 ## Etapa 5: salve as alterações
-Por fim, após modificar os dados EXIF, salve as alterações em um novo arquivo PSD.
+Finalmente, após modificar os dados EXIF, salve as alterações em um novo arquivo PSD.
 ```java
 try {
     image.save(dataDir + "Modified_Zebras_Serengeti.psd");
@@ -90,6 +89,6 @@ Os dados EXIF (Exchangeable Image File Format) contêm metadados sobre uma image
 ### O Aspose.PSD para Java é compatível com todas as versões do Java?
 Aspose.PSD para Java suporta Java SE 7 e superior.
 ### Onde posso encontrar mais documentação sobre Aspose.PSD para Java?
- Confira a[documentação](https://reference.aspose.com/psd/java/) para mais detalhes.
+ Confira o[documentação](https://reference.aspose.com/psd/java/) para mais detalhes.
 ### Como obtenho suporte para Aspose.PSD para Java?
  Você pode obter suporte do[Fórum de suporte Aspose PSD](https://forum.aspose.com/c/psd/34).

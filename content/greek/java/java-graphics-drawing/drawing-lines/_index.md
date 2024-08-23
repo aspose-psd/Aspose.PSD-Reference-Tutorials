@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -62,7 +61,7 @@ graphic.drawLine(new Pen(new SolidBrush(Color.getWhite())), new Point(90, 9), ne
 ```java
 image.save(outpath);
 ```
-## συμπέρασμα
+## Σύναψη
 Ακολουθώντας αυτά τα βήματα, έχετε σχεδιάσει με επιτυχία γραμμές μέσα σε ένα αρχείο PSD χρησιμοποιώντας το Aspose.PSD για Java. Αυτό το σεμινάριο κάλυψε την προετοιμασία μιας εικόνας PSD, τη ρύθμιση γραφικών, τη σχεδίαση διαφόρων τύπων γραμμών και την αποθήκευση της εικόνας που προκύπτει.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD για Java;

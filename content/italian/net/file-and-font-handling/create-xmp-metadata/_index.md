@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/net/file-and-font-handling/create-xmp-metadata/
 ---
-## introduzione
+## Introduzione
 
 Nel mondo dinamico dello sviluppo .NET, la manipolazione delle immagini con precisione è un aspetto cruciale di molte applicazioni. Questo tutorial esplora la creazione di metadati XMP in Aspose.PSD per .NET, una potente libreria che semplifica le attività di elaborazione delle immagini. XMP (Extensible Metadata Platform) consente di incorporare metadati all'interno di file di immagine, facilitando un'organizzazione efficiente e il recupero delle informazioni associate alle immagini.
 

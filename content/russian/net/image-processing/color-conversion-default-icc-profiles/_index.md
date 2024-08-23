@@ -32,7 +32,7 @@ using System.IO;
 
 Теперь давайте разобьем пример на несколько этапов:
 
-## Шаг 1. Создайте новое изображение.
+## Шаг 1. Создайте новое изображение
 
 ```csharp
 // Путь к каталогу документов.
@@ -42,7 +42,7 @@ string dataDir = RunExamples.GetDataDir_ModifyingAndConvertingImages();
 using (PsdImage image = new PsdImage(500, 500))
 {
     //Заполните данные изображения.
-    // ...(Код для заполнения данных изображения)
+    // ... (Код для заполнения данных изображения)
     // Сохраните вновь созданные пиксели.
     image.SaveArgb32Pixels(image.Bounds, pixels);
 
@@ -68,7 +68,7 @@ image.CmykColorProfile = cmykprofile;
 ## Шаг 3. Сохраните полученное изображение
 
 ```csharp
-// Сохраните полученное изображение с новыми профилями YCCK. Вы заметите различия в значениях цвета, если сравните изображения.
+// Сохраните полученное изображение с новыми профилями YCCK. Вы заметите разницу в значениях цвета, если сравните изображения.
 JpegOptions options = new JpegOptions();
 options.ColorType = JpegCompressionColorMode.Cmyk;
 image.Save(dataDir + "Cmyk_Default_profiles.jpg", options);

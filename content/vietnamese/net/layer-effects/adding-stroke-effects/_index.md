@@ -15,7 +15,7 @@ Chào mừng bạn đến với hướng dẫn từng bước này về cách th
 
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-- Aspose.PSD for .NET: Tải xuống và cài đặt thư viện Aspose.PSD từ[trang mạng](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET: Tải xuống và cài đặt thư viện Aspose.PSD từ[trang web](https://releases.aspose.com/psd/net/).
 
 - Thư mục tài liệu: Chuẩn bị một thư mục chứa tài liệu PSD mà bạn muốn áp dụng hiệu ứng đột quỵ.
 

@@ -9,7 +9,7 @@ url: /pt/net/image-manipulation/adding-gradient-effects/
 ---
 ## Introdução
 
-Aprimorar imagens com efeitos gradientes pode adicionar uma dimensão cativante ao seu conteúdo visual. Aspose.PSD for .NET fornece uma plataforma poderosa para integração de sobreposições de gradiente em suas imagens. Neste tutorial, orientaremos você no processo de adição de efeitos de gradiente usando Aspose.PSD para .NET.
+Aprimorar imagens com efeitos gradientes pode adicionar uma dimensão cativante ao seu conteúdo visual. Aspose.PSD for .NET fornece uma plataforma poderosa para incorporar sobreposições de gradiente em suas imagens. Neste tutorial, orientaremos você no processo de adição de efeitos de gradiente usando Aspose.PSD para .NET.
 
 ## Pré-requisitos
 

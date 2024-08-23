@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/net/file-and-font-handling/remove-font-cache-files/
 ---
-## Úvod
+## Zavedení
 
 Setkáváte se při práci s Aspose.PSD pro .NET problémy související s písmy? Odstranění souborů mezipaměti písem může být klíčem k efektivnímu řešení těchto problémů. V tomto obsáhlém tutoriálu vás provedeme procesem krok za krokem. Než se ponoříme, ujistěte se, že máte vše, co potřebujete.
 
@@ -17,11 +17,11 @@ Než začnete, ujistěte se, že máte na svém místě následující:
 
 ### 1. Aspose.PSD pro instalaci .NET
 
- Ujistěte se, že máte nainstalovaný Aspose.PSD for .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+ Ujistěte se, že máte nainstalovaný Aspose.PSD for .NET. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 ### 2. Znalost jmenného prostoru Aspose.PSD
 
- Pro efektivní implementaci kroků je nezbytné znát jmenný prostor Aspose.PSD. Odkazovat na[dokumentace](https://reference.aspose.com/psd/net/) pro podrobné informace.
+ Pro efektivní implementaci kroků je nezbytné znát jmenný prostor Aspose.PSD. Viz[dokumentace](https://reference.aspose.com/psd/net/) pro podrobné informace.
 
 ## Importovat jmenné prostory
 
@@ -88,8 +88,8 @@ Odpověď 2: Je-li to možné, doporučuje se odstranit soubory mezipaměti pís
 
 ### Q4: Je k dispozici dočasná licence pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+ A4: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro testovací účely.
 
 ### Q5: Mohu zakoupit Aspose.PSD pro .NET?
 
- A5: Určitě! Návštěva[tady](https://purchase.aspose.com/buy) prozkoumat možnosti nákupu Aspose.PSD pro .NET.
+ A5: Určitě! Návštěva[zde](https://purchase.aspose.com/buy) prozkoumat možnosti nákupu Aspose.PSD pro .NET.
