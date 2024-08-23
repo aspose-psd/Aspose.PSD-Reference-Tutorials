@@ -15,7 +15,7 @@ url: /ko/java/image-processing/apply-motion-wiener-filters/
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1.  JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2.  Java용 Aspose.PSD: Java용 Aspose.PSD 라이브러리를 다운로드하고 설치합니다. 필요한 파일을 찾을 수 있습니다[여기](https://releases.aspose.com/psd/java/).
 
@@ -108,4 +108,4 @@ A2: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 다양한 파�
 
 ### Q5: Java용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
-A5: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.

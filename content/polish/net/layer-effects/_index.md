@@ -13,7 +13,7 @@ Uwolnij pełny potencjał swoich wysiłków w zakresie manipulacji obrazami dzi�
 
 ## [Dodawanie efektów obrysu do warstw](./adding-stroke-effects/)
 
-Nadaj swoim obrazom profesjonalny charakter, opanowując efekty obrysu za pomocą programu . Ten samouczek krok po kroku umożliwia płynną poprawę estetyki obrazu. 
+Nadaj swoim obrazom profesjonalny charakter, opanowując efekty obrysów za pomocą programu . Ten samouczek krok po kroku umożliwia płynną poprawę estetyki obrazu. 
 
 ## [Dodawanie warstwy obrysu z jednolitym kolorem](./adding-stroke-layer-solid-color/)
 

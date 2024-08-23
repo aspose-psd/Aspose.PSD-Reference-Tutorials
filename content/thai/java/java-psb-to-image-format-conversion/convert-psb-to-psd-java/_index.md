@@ -19,7 +19,6 @@ url: /th/java/java-psb-to-image-format-conversion/convert-psb-to-psd-java/
 ขั้นแรก นำเข้าคลาส Aspose.PSD ที่จำเป็นในไฟล์ Java ของคุณ:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;

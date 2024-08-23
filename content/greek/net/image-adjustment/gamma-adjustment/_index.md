@@ -76,7 +76,7 @@ tiffOptions.Photometric = TiffPhotometrics.Rgb;
 rasterImage.Save(destName, tiffOptions);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Υλοποιήσατε με επιτυχία τη ρύθμιση Gamma χρησιμοποιώντας το Aspose.PSD για .NET. Αυτή η ισχυρή βιβλιοθήκη παρέχει ισχυρές δυνατότητες για επεξεργασία εικόνας, καθιστώντας την ένα πολύτιμο εργαλείο για προγραμματιστές .NET.
 
@@ -88,16 +88,16 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Ε2: Πώς μπορώ να κατεβάσω το Aspose.PSD για .NET;
 
- A2: Μπορείτε να κατεβάσετε τη βιβλιοθήκη.[εδώ](https://releases.aspose.com/psd/net/).
+ A2: Μπορείτε να κατεβάσετε τη βιβλιοθήκη[εδώ](https://releases.aspose.com/psd/net/).
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πού μπορώ να λάβω υποστήριξη για το Aspose.PSD;
 
- A4: Μπορείτε να επισκεφτείτε το φόρουμ υποστήριξης.[εδώ](https://forum.aspose.com/c/psd/34).
+ A4: Μπορείτε να επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/psd/34).
 
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια;
 
- A5: Εάν απαιτείται, μπορείτε να αποκτήσετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Εάν απαιτείται, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).

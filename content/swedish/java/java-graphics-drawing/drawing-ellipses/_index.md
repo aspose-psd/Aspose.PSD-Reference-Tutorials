@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Innan du ritar, rensa grafikytan med en specifik färg (valfritt).
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Steg 5: Rita en prickad ellips.
+## Steg 5: Rita en prickad ellips
 Använd ett Pen-objekt med en röd färg och rita en prickad ellips inom en angiven rektangel.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

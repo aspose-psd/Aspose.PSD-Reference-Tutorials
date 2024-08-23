@@ -2,7 +2,7 @@
 title: Υποστήριξη πόρων πληροφοριών συνόρων στο Aspose.PSD για .NET
 linktitle: Υποστηρικτικός πόρος πληροφοριών για τα σύνορα
 second_title: Aspose.PSD .NET API
-description: Εξερευνήστε το Aspose.PSD για τη δυνατότητα Border Information Resource του .NET για βελτιωμένη απεικόνιση. Ακολουθήστε το σεμινάριο μας για απρόσκοπτη ενσωμάτωση. Κατεβάστε τώρα!
+description: Εξερευνήστε το Aspose.PSD για τη δυνατότητα Border Information Resource του .NET για βελτιωμένη απεικόνιση. Ακολουθήστε το σεμινάριο μας για απρόσκοπτη ενσωμάτωση. Λήψη τώρα!
 type: docs
 weight: 11
 url: /el/net/psd-file-resources/supporting-border-information-resource/
@@ -64,7 +64,7 @@ image.Save(outputFilePath);
 Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ```
 Ακολουθώντας αυτά τα βήματα, μπορείτε να ενσωματώσετε απρόσκοπτα τη δυνατότητα Border Information Resource στο έργο Aspose.PSD για .NET.
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Μάθατε με επιτυχία πώς να χρησιμοποιείτε Πόρους πληροφοριών συνόρων με το Aspose.PSD για .NET. Πειραματιστείτε με διαφορετικές παραμέτρους και εξερευνήστε τις εκτεταμένες δυνατότητες αυτής της βιβλιοθήκης για να βελτιώσετε τα έργα απεικόνισης σας.
 
@@ -80,7 +80,7 @@ A1: Ναι, το Aspose.PSD για .NET είναι συμβατό με διάφ�
 
 ### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή.[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πώς μπορώ να λάβω υποστήριξη;
 
@@ -88,4 +88,4 @@ A1: Ναι, το Aspose.PSD για .NET είναι συμβατό με διάφ�
 
 ### Ε5: Είναι διαθέσιμες προσωρινές άδειες;
 
- A5: Ναι, μπορείτε να αποκτήσετε προσωρινές άδειες.[εδώ](https://purchase.aspose.com/temporary-license/).
+ A5: Ναι, μπορείτε να αποκτήσετε προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).

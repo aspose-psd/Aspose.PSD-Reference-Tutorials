@@ -90,16 +90,16 @@ Odpowiedź 1: Binaryzacja z progiem Otsu to metoda stosowana do segmentacji obra
 
 ### P2: Czy mogę używać Aspose.PSD dla Java za darmo?
 
- O2: Aspose.PSD dla Java jest biblioteką komercyjną, ale możesz poznać jej funkcje w ramach bezpłatnej wersji próbnej. Zdobyć[Tutaj](https://releases.aspose.com/).
+ O2: Aspose.PSD dla Java jest biblioteką komercyjną, ale możesz poznać jej funkcje w ramach bezpłatnej wersji próbnej. Dostać za swoje[Tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć dokumentację Aspose.PSD dla Java?
 
-A3: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/java/).
+A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/java/).
 
 ### P4: Jak uzyskać wsparcie dla Aspose.PSD dla Java?
 
- A4: Odwiedź forum Aspose.PSD[Tutaj](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
+ A4: Odwiedź forum Aspose.PSD[Tutaj](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
 
 ### P5: Czy dostępna jest tymczasowa licencja na Aspose.PSD dla Java?
 
- Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

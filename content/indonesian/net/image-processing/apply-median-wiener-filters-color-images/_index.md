@@ -13,7 +13,7 @@ Selamat datang di panduan langkah demi langkah dalam menerapkan Filter Median da
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 -  Aspose.PSD untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.PSD. Anda dapat mengunduhnya dari[Aspose.PSD untuk dokumentasi .NET](https://reference.aspose.com/psd/net/).
 

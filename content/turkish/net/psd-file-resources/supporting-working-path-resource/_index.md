@@ -79,7 +79,7 @@ Tebrikler! Aspose.PSD for .NET'te 'WorkingPathResource' kullanımında başarıl
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nereden alabilirim?
 
@@ -87,4 +87,4 @@ Tebrikler! Aspose.PSD for .NET'te 'WorkingPathResource' kullanımında başarıl
 
 ### S5: Geçici bir lisansa mı ihtiyacınız var?
 
- Cevap5: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).

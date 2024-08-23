@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-الآن، دعنا نقوم بتقسيم رمز المثال إلى دليل خطوة بخطوة لدمج مراقبة المقاطعة في مشروع Aspose.PSD الخاص بـ Java.
+الآن، دعنا نقوم بتقسيم كود المثال إلى دليل خطوة بخطوة لدمج مراقبة المقاطعة في مشروع Aspose.PSD الخاص بـ Java.
 
 ## الخطوة 1: قم بتعيين دليل المستندات الخاص بك
 
@@ -77,7 +77,7 @@ try {
 ## الخطوة 5: مقاطعة العملية
 
 ```java
-    // مقاطعة العملية
+    //مقاطعة العملية
     monitor.interrupt();
     System.out.println("Interrupting the save thread #" + thread.getId() + " at " + getDateTime().toString());
 
@@ -96,7 +96,7 @@ try {
 
 ## خاتمة
 
-إن دمج دعم Interrupt Monitor في مشروعات Aspose.PSD الخاصة بـ Java يمكّنك من إدارة عمليات تحويل الصور بكفاءة، مما يوفر قدرًا أكبر من التحكم والاستجابة.
+يمكّنك دمج دعم Interrupt Monitor في مشروعات Aspose.PSD for Java من إدارة عمليات تحويل الصور بكفاءة، مما يوفر قدرًا أكبر من التحكم والاستجابة.
 
 ## الأسئلة الشائعة
 
@@ -106,11 +106,11 @@ try {
 
 ### س2: كيف يمكنني الحصول على مكتبة Aspose.PSD الخاصة بـ Java؟
 
-ج2: يمكنك تنزيل Aspose.PSD لمكتبة Java.[هنا](https://releases.aspose.com/psd/java/).
+ ج2: يمكنك تنزيل Aspose.PSD لمكتبة Java[هنا](https://releases.aspose.com/psd/java/).
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج3: نعم، يمكنك استكشاف النسخة التجريبية المجانية من Aspose.PSD.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك استكشاف النسخة التجريبية المجانية من Aspose.PSD[هنا](https://releases.aspose.com/).
 
 ### س 4: أين يمكنني العثور على دعم لـ Aspose.PSD لـ Java؟
 
@@ -118,4 +118,4 @@ try {
 
 ### س5: كيف يمكنني شراء ترخيص Aspose.PSD لـ Java؟
 
- ج5: يمكنك شراء ترخيص Aspose.PSD لـ Java.[هنا](https://purchase.aspose.com/buy).
+ج5: يمكنك شراء ترخيص Aspose.PSD لـ Java[هنا](https://purchase.aspose.com/buy).

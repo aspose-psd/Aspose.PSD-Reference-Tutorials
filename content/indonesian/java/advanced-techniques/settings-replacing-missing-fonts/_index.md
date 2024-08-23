@@ -97,7 +97,7 @@ A2: Ya, Anda dapat menentukan font pengganti khusus sesuai dengan kebutuhan desa
 
 ### Q3: Apakah ada opsi lisensi yang tersedia untuk Aspose.PSD?
 
- A3: Jelajahi opsi lisensi.[Di Sini](https://purchase.aspose.com/buy)untuk memilih paket terbaik untuk kebutuhan Anda.
+ A3: Jelajahi opsi lisensi[Di Sini](https://purchase.aspose.com/buy) untuk memilih paket terbaik untuk kebutuhan Anda.
 
 ### Q4: Apakah ada forum komunitas untuk dukungan Aspose.PSD?
 

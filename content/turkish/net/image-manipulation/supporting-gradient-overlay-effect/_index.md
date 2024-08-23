@@ -106,7 +106,7 @@ settings.TransparencyPoints[1].Opacity = 100;
 psdImage.Save(outputFilePath);
 ```
 
-Bu kadar! Aspose.PSD for .NET kullanarak bir katmana başarıyla Degrade Kaplama Efekti eklediniz.
+İşte bu! Aspose.PSD for .NET kullanarak bir katmana başarıyla Degrade Kaplama Efekti eklediniz.
 
 ## Çözüm
 
@@ -128,7 +128,7 @@ Cevap2: Evet, Degrade Kaplama dahil olmak üzere çeşitli efektleri tek bir kat
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- C4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD için nasıl destek alabilirim?
 

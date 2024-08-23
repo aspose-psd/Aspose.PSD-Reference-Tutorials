@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -48,7 +47,7 @@ graphics.clear(Color.getYellow());
 توضيح:
 - `clear()` تقوم الطريقة بتعيين لون خلفية سطح الرسومات.
 ## الخطوة 4: تهيئة القلم للرسم
- أعد ال`Pen` كائن بخصائص مثل اللون والعرض لتحديد كيفية رسم المنحنى.
+ قم بإعداد أ`Pen` كائن بخصائص مثل اللون والعرض لتحديد كيفية رسم المنحنى.
 ```java
 Pen blackPen = new Pen(Color.getBlack(), 3);
 ```
@@ -68,7 +67,7 @@ float endX = 90, endY = 25;
 - `controlX2`, `controlY2`: نقطة المراقبة الثانية.
 - `endX`, `endY`: نقطة نهاية المنحنى.
 ## الخطوة 6: ارسم منحنى بيزيير
- استخدم ال`drawBezier()` طريقة لرسم منحنى بيزيير على الصورة باستخدام ما تم تعريفه مسبقًا`Pen` ونقاط المراقبة.
+ استخدم`drawBezier()` طريقة لرسم منحنى بيزيير على الصورة باستخدام ما تم تعريفه مسبقًا`Pen` ونقاط المراقبة.
 ```java
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```

@@ -102,4 +102,4 @@ Câu trả lời 3: Bạn có thể triển khai các khối thử bắt để x
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD trước khi mua không?
 
- Câu trả lời 5: Chắc chắn là có bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 5: Chắc chắn, có bản dùng thử miễn phí[đây](https://releases.aspose.com/).

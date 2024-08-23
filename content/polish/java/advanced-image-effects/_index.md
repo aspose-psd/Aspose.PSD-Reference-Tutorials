@@ -8,15 +8,15 @@ weight: 26
 url: /pl/java/advanced-image-effects/
 ---
 ## Wstęp
-Czy jesteś gotowy, aby przenieść swoje projekty graficzne w języku Java na wyższy poziom? Aspose.PSD dla Java otwiera świat możliwości ulepszania obrazów za pomocą zaawansowanych efektów. W tym obszernym przewodniku przeprowadzimy Cię przez serię samouczków, z których każdy skupia się na unikalnym aspekcie manipulacji obrazem za pomocą Aspose.PSD.
+Czy jesteś gotowy, aby przenieść swoje projekty graficzne w języku Java na wyższy poziom? Aspose.PSD dla Java otwiera świat możliwości ulepszania obrazów za pomocą zaawansowanych efektów. W tym obszernym przewodniku przeprowadzimy Cię przez serię samouczków, z których każdy koncentruje się na unikalnym aspekcie manipulacji obrazem za pomocą Aspose.PSD.
 
 ## Dodawanie efektów gradientowych w Aspose.PSD dla Java
 
- Bez wysiłku przekształcaj swoje obrazy Java za pomocą urzekających efektów gradientu. Nasz przewodnik krok po kroku zapewnia bezproblemowy proces integracji, umożliwiając ulepszenie efektów wizualnych za pomocą oszałamiających gradientów. Sprawdź samouczek[Tutaj](./add-gradient-effects/)aby nadać obrazom żywy i profesjonalny charakter.
+ Bez wysiłku przekształcaj swoje obrazy Java za pomocą urzekających efektów gradientu. Nasz przewodnik krok po kroku zapewnia bezproblemowy proces integracji, umożliwiając ulepszenie efektów wizualnych za pomocą oszałamiających gradientów. Sprawdź samouczek[Tutaj](./add-gradient-effects/) aby nadać obrazom żywy i profesjonalny charakter.
 
 ## Dodawanie nowej zwykłej warstwy do PSD za pomocą Aspose.PSD dla Java
 
- Naucz się sztuki dodawania nowej zwykłej warstwy do plików PSD przy użyciu Aspose.PSD dla Java. Nasz szczegółowy samouczek przeprowadzi Cię przez cały proces, zapewniając płynną manipulację plikami PSD. Podnieś swoje umiejętności projektowania, postępując zgodnie z naszym przewodnikiem[Tutaj](./add-new-regular-layer/) i odblokuj nowe wymiary w projektowaniu graficznym.
+Naucz się sztuki dodawania nowej zwykłej warstwy do plików PSD przy użyciu Aspose.PSD dla Java. Nasz szczegółowy samouczek przeprowadzi Cię przez cały proces, zapewniając płynną manipulację plikami PSD. Podnieś swoje umiejętności projektowania, postępując zgodnie z naszym przewodnikiem[Tutaj](./add-new-regular-layer/) i odblokuj nowe wymiary w projektowaniu graficznym.
 
 ## Dodawanie efektów wzorców w Aspose.PSD dla Java
 
@@ -24,7 +24,7 @@ Czy jesteś gotowy, aby przenieść swoje projekty graficzne w języku Java na w
 
 ## Dodawanie podpisu do obrazu za pomocą Aspose.PSD dla Java
 
-Poznaj bezproblemową integrację podpisów z obrazami za pomocą Aspose.PSD dla Java. Nasz szczegółowy przewodnik przeprowadzi Cię przez cały proces, od importowania niezbędnych pakietów po zwiększanie możliwości graficznych aplikacji Java. Sprawdź samouczek[Tutaj](./add-signature-to-image/) i dodaj spersonalizowany akcent do swoich zdjęć.
+ Poznaj bezproblemową integrację podpisów z obrazami za pomocą Aspose.PSD dla Java. Nasz szczegółowy przewodnik przeprowadzi Cię przez cały proces, od importowania niezbędnych pakietów po zwiększanie możliwości graficznych aplikacji Java. Sprawdź samouczek[Tutaj](./add-signature-to-image/) i dodaj spersonalizowany akcent do swoich zdjęć.
 
 ## Dodawanie koloru warstwy obrysu w Aspose.PSD dla Java
 

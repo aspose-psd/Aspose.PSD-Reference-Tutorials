@@ -98,7 +98,7 @@ Chúc mừng! Bạn đã học thành công cách vẽ đường hiệu quả b�
 
 ### Câu hỏi 1: Tôi có thể tìm tài liệu về Aspose.PSD cho .NET ở đâu?
 
- A1: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/net/).
+ A1: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu 2: Làm cách nào tôi có thể tải xuống Aspose.PSD cho .NET?
 
@@ -106,7 +106,7 @@ Chúc mừng! Bạn đã học thành công cách vẽ đường hiệu quả b�
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí dành cho Aspose.PSD cho .NET không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể nhận hỗ trợ cho Aspose.PSD cho .NET ở đâu?
 
@@ -114,4 +114,4 @@ Chúc mừng! Bạn đã học thành công cách vẽ đường hiệu quả b�
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời cho Aspose.PSD cho .NET không?
 
- Câu trả lời 5: Nếu được yêu cầu, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A5: Nếu được yêu cầu, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

@@ -18,7 +18,6 @@ Antes de começarmos, certifique-se de ter a seguinte configuração:
 Para começar, inclua o pacote Aspose.PSD necessário em sua classe Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -69,7 +68,7 @@ Aspose.PSD é uma biblioteca Java que permite aos desenvolvedores trabalhar com 
 ### Onde posso encontrar mais documentação sobre Aspose.PSD para Java?
  Você pode consultar o[documentação](https://reference.aspose.com/psd/java/) para referências e exemplos detalhados de API.
 ### Posso experimentar o Aspose.PSD gratuitamente antes de comprar?
- Sim, você pode baixar um[teste grátis](https://releases.aspose.com/) para avaliar as capacidades da biblioteca.
+ Sim, você pode baixar um[teste gratuito](https://releases.aspose.com/) para avaliar as capacidades da biblioteca.
 ### Como posso obter licenças temporárias para Aspose.PSD?
  Licenças temporárias podem ser obtidas em[aqui](https://purchase.aspose.com/temporary-license/).
 ### O Aspose.PSD é adequado para uso comercial?

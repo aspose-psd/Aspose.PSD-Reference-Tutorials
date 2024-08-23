@@ -61,7 +61,7 @@ using (Image signature = Image.Load(dataDir + "sample.psd"))
 
 ## Langkah 4: Inisialisasi Grafik dan Gambar Tanda Tangan
 
- Buat sebuah instance dari`Graphics` kelas dan inisialisasi menggunakan objek gambar utama. Menggunakan`DrawImage` metode untuk menambahkan tanda tangan ke lokasi yang diinginkan pada gambar utama.
+ Buat sebuah instance dari`Graphics` kelas dan inisialisasi menggunakan objek gambar utama. Gunakan`DrawImage` metode untuk menambahkan tanda tangan ke lokasi yang diinginkan pada gambar utama.
 
 ```csharp
 Graphics graphics = new Graphics(canvas);
@@ -100,6 +100,6 @@ A3: Anda dapat menerapkan blok coba-tangkap untuk menangani pengecualian dengan 
 
  A4: Ya, Anda dapat meminta bantuan di[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
-### Q5: Bisakah saya mencoba Aspose.PSD sebelum membeli?
+### Q5: Dapatkah saya mencoba Aspose.PSD sebelum membeli?
 
- A5: Tentu saja, tersedia uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A5: Tentu saja, tersedia uji coba gratis[Di Sini](https://releases.aspose.com/).

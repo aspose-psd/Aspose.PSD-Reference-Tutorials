@@ -9,7 +9,7 @@ url: /pl/java/advanced-techniques/add-effects-runtime/
 ---
 ## Wstęp
 
-W świecie programowania w języku Java dodawanie efektów dynamicznych do obrazów jest powszechnym wymogiem. Dzięki Aspose.PSD for Java, potężnej i wszechstronnej bibliotece Java, możesz bez wysiłku dodawać efekty w czasie wykonywania, aby ulepszyć swoje obrazy. W tym samouczku przeprowadzimy Cię krok po kroku przez proces dodawania efektów, korzystając z przejrzystych przykładów i łatwych do wykonania instrukcji.
+świecie programowania w języku Java dodawanie efektów dynamicznych do obrazów jest powszechnym wymogiem. Dzięki Aspose.PSD for Java, potężnej i wszechstronnej bibliotece Java, możesz bez wysiłku dodawać efekty w czasie wykonywania, aby ulepszyć swoje obrazy. W tym samouczku przeprowadzimy Cię krok po kroku przez proces dodawania efektów, korzystając z przejrzystych przykładów i łatwych do wykonania instrukcji.
 
 ## Warunki wstępne
 
@@ -19,7 +19,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 2.  Biblioteka Aspose.PSD dla Java: Musisz mieć bibliotekę Aspose.PSD dla Java. Jeśli jeszcze tego nie zrobiłeś, pobierz go z[Dokumentacja Java Aspose.PSD](https://reference.aspose.com/psd/java/).
 
-3. Katalog dokumentów: skonfiguruj katalog dla swoich dokumentów i zapamiętaj ścieżkę. W podanym przykładzie katalog nosi nazwę`Your Document Directory`.
+3.  Katalog dokumentów: skonfiguruj katalog dla swoich dokumentów i zapamiętaj ścieżkę. W podanym przykładzie katalog nosi nazwę`Your Document Directory`.
 
 ## Importuj pakiety
 
@@ -94,4 +94,4 @@ O2: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, w tym PSD, BMP
 
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- Odpowiedź 5: Tak, możesz skorzystać z bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 5: Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).

@@ -7,14 +7,14 @@ type: docs
 weight: 15
 url: /cs/java/java-graphics-drawing/drawing-ellipses/
 ---
-## Úvod
+## Zavedení
 V tomto tutoriálu se naučíte kreslit elipsy pomocí Aspose.PSD pro Javu. Aspose.PSD je výkonná knihovna, která umožňuje vývojářům Java pracovat se soubory PSD a snadno manipulovat s obrázky. Kreslení tvarů, jako jsou elipsy, je základním úkolem při zpracování obrazu a grafickém designu. Dodržováním tohoto průvodce získáte praktické zkušenosti s vytvářením elips programově pomocí Aspose.PSD.
 ## Předpoklady
 Než začnete, ujistěte se, že máte následující:
 - Základní znalost programování v Javě.
 - JDK (Java Development Kit) nainstalovaný ve vašem systému.
 - Integrované vývojové prostředí (IDE), jako je IntelliJ IDEA nebo Eclipse.
--  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/java/).
 ## Importujte balíčky
 Nejprve musíte importovat potřebné balíčky z Aspose.PSD:
 ```java
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Před kreslením vyčistěte grafický povrch určitou barvou (volitelné).
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Krok 5: Nakreslete tečkovanou elipsu.
+## Krok 5: Nakreslete tečkovanou elipsu
 Použijte objekt pera s červenou barvou a nakreslete tečkovanou elipsu do určeného obdélníku.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
@@ -65,7 +64,7 @@ image.save(outputPath, saveOptions);
 ```
 
 ## Závěr
-Gratulujeme! Úspěšně jste se naučili programově kreslit elipsy pomocí Aspose.PSD pro Javu. Tento tutoriál se zabýval nastavením vašeho projektu, inicializací grafiky, kreslením tečkovaných a souvislých elips a uložením výsledného obrázku. Nyní můžete tyto techniky integrovat do svých aplikací Java pro různé úlohy grafického designu a manipulace s obrázky.
+Gratuluji! Úspěšně jste se naučili programově kreslit elipsy pomocí Aspose.PSD pro Javu. Tento tutoriál se zabýval nastavením vašeho projektu, inicializací grafiky, kreslením tečkovaných a souvislých elips a uložením výsledného obrázku. Nyní můžete tyto techniky integrovat do svých aplikací Java pro různé úlohy grafického designu a manipulace s obrázky.
 ## FAQ
 ### Mohu používat Aspose.PSD zdarma?
 Aspose.PSD nabízí bezplatnou zkušební verzi, která vám umožní vyhodnotit její funkce před zakoupením.

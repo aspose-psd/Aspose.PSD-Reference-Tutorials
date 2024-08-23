@@ -93,7 +93,7 @@ A2: Absolut! Aspose.PSD låter dig utföra batch bildbehandling, vilket gör det
 
 ### F4: Finns det en gratis provperiod?
 
- S4: Ja, du kan få tillgång till en gratis testversion av Aspose.PSD.[här](https://releases.aspose.com/).
+ S4: Ja, du kan få tillgång till en gratis testversion av Aspose.PSD[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få stöd eller söka hjälp?
 

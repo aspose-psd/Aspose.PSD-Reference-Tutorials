@@ -33,7 +33,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## Bước 1: Đặt thư mục tài liệu của bạn
 
- Xác định thư mục chứa tệp PSD của bạn bằng cách sử dụng`dataDir` Biến đổi.
+ Xác định thư mục chứa tệp PSD của bạn bằng cách sử dụng`dataDir` biến.
 
 ```java
 String dataDir = "Your Document Directory";

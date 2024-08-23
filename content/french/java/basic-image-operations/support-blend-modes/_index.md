@@ -9,7 +9,7 @@ url: /fr/java/basic-image-operations/support-blend-modes/
 ---
 ## Introduction
 
-Aspose.PSD pour Java est une bibliothèque puissante qui offre une prise en charge étendue des modes de fusion, permettant aux développeurs d'améliorer leurs capacités de traitement d'image. Dans ce didacticiel, nous plongerons dans le monde des modes de fusion et explorerons comment les exploiter efficacement à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou un novice en manipulation d'images, ce guide vous fournira les connaissances nécessaires pour exploiter tout le potentiel des modes de fusion dans vos applications Java.
+Aspose.PSD pour Java est une bibliothèque puissante qui offre une prise en charge étendue des modes de fusion, permettant aux développeurs d'améliorer leurs capacités de traitement d'images. Dans ce didacticiel, nous plongerons dans le monde des modes de fusion et explorerons comment les exploiter efficacement à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou un novice en manipulation d'images, ce guide vous fournira les connaissances nécessaires pour exploiter tout le potentiel des modes de fusion dans vos applications Java.
 
 ## Conditions préalables
 
@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 
 - Environnement de développement Java : assurez-vous qu'un environnement de développement Java fonctionnel est configuré sur votre ordinateur.
 
--  Aspose.PSD pour la bibliothèque Java : téléchargez la bibliothèque à partir du[site web](https://releases.aspose.com/psd/java/) et suivez les instructions d'installation.
+- Aspose.PSD pour la bibliothèque Java : téléchargez la bibliothèque à partir du[site web](https://releases.aspose.com/psd/java/) et suivez les instructions d'installation.
 
 - Répertoire de documents : préparez un répertoire pour stocker vos fichiers PSD, car nous travaillerons avec différents modes de fusion en utilisant des exemples de fichiers PSD.
 
@@ -58,7 +58,7 @@ Exportez les fichiers PSD chargés au format PNG. Ajustez les options d’export
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Enregistrez au format PNG avec une opacité de 100 %.
+// Enregistrer au format PNG avec une opacité de 100 %
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Définissez l'opacité de calques spécifiques dans les fichiers PSD. Ici, nous 
 // Réglez l'opacité à 50 %
 im.getLayers()[1].setOpacity((byte)127);
 
-// Enregistrez au format PNG avec une opacité de 50 %.
+// Enregistrer au format PNG avec une opacité de 50 %
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/basic-image-operations/support-shadow-effect/
 ---
-## Úvod
+## Zavedení
 
 Vylepšování obrázků pomocí stínových efektů je běžnou praxí v grafickém designu, přidává hloubku a realismus. Aspose.PSD for Java poskytuje robustní podporu pro efekty stínů, což vývojářům umožňuje bez námahy integrovat tyto efekty do svých aplikací Java. V tomto tutoriálu krok za krokem prozkoumáme, jak podporovat stínové efekty pomocí Aspose.PSD.
 
@@ -16,7 +16,7 @@ Vylepšování obrázků pomocí stínových efektů je běžnou praxí v grafic
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Základní znalost programování v Javě.
--  Aspose.PSD pro Java nainstalován. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD pro Java nainstalován. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -95,16 +95,16 @@ A1: Rozhodně! Aspose.PSD for Java je výkonná knihovna určená pro profesion�
 
 ### Q2: Mohu použít Aspose.PSD pro Java v komerčních aplikacích?
 
- Odpověď 2: Ano, Aspose.PSD for Java je komerční produkt. Můžete si jej zakoupit[tady](https://purchase.aspose.com/buy).
+ Odpověď 2: Ano, Aspose.PSD for Java je komerční produkt. Můžete si jej zakoupit[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podrobnou dokumentaci?
 
- A4: Podívejte se na komplexní dokumentaci[tady](https://reference.aspose.com/psd/java/).
+ A4: Podívejte se na komplexní dokumentaci[zde](https://reference.aspose.com/psd/java/).
 
 ### Q5: Jak mohu získat podporu pro Aspose.PSD pro Java?
 
- A5: Připojte se k fóru komunity.[tady](https://forum.aspose.com/c/psd/34) pro případné dotazy na podporu.
+ A5: Připojte se k fóru komunity[zde](https://forum.aspose.com/c/psd/34) pro případné dotazy na podporu.

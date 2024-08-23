@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/net/image-manipulation/combine-images/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nel nostro tutorial passo passo sulla combinazione di immagini utilizzando Aspose.PSD per .NET! Aspose.PSD è una potente libreria .NET che consente agli sviluppatori di lavorare senza problemi con i file Adobe Photoshop. In questo tutorial ti guideremo attraverso il processo di combinazione delle immagini utilizzando Aspose.PSD, fornendoti esempi pratici e passaggi dettagliati.
 
@@ -102,8 +102,8 @@ A2: Sì, Aspose.PSD può essere utilizzato sia per scopi personali che commercia
 
 ### Q4: È disponibile una prova gratuita per Aspose.PSD?
 
- R4: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: posso ottenere una licenza temporanea per Aspose.PSD?
 
-R5: Sì, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
+R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).

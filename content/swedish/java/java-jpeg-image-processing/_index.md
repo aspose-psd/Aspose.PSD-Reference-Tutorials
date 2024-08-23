@@ -14,7 +14,7 @@ Om du dyker in i en värld av bildbehandling med Java, är Aspose.PSD för Java 
 
 ## Lägga till miniatyrer till dina bilder
 
-Att lägga till miniatyrer kan förbättra din bildmetadata avsevärt. Vi har detaljerade guider om hur du lägger till miniatyrer till både EXIF- och JFIF-segment i Java. Dessa handledningar ger steg-för-steg-instruktioner och kodexempel, vilket gör processen sömlös.
+Att lägga till miniatyrer kan förbättra din bildmetadata avsevärt. Vi har detaljerade guider om hur man lägger till miniatyrer till både EXIF- och JFIF-segment i Java. Dessa handledningar ger steg-för-steg-instruktioner och kodexempel, vilket gör processen sömlös.
 
 - [Lägg till miniatyrbild till EXIF-segment i Java](./add-thumbnail-to-exif-segment-java/)
 - [Lägg till miniatyrbild till JFIF-segmentet i Java](./add-thumbnail-to-jfif-segment-java/)
@@ -33,7 +33,7 @@ Miniatyrer är ett utmärkt sätt att få snabba förhandsvisningar av dina bild
 - [Extrahera miniatyr från JFIF i Java](./extract-thumbnail-from-jfif-java/)
 - [Extrahera miniatyrbild från PSD i Java](./extract-thumbnail-from-psd-java/)
 
-## Arbeta med EXIF-data
+## Arbeta med EXIF Data
 
 EXIF-data är avgörande för att förstå och hantera bildmetadata. Våra handledningar kommer att lära dig hur du läser, modifierar och skriver EXIF-taggar i JPEG- och PSD-filer. Detta är särskilt användbart för utvecklare som behöver hantera detaljerad bildinformation.
 
@@ -69,7 +69,7 @@ Lär dig hur du extraherar EXIF-metadata från PSD-filer med Aspose.PSD för Jav
 ### [Läs alla EXIF-taggar i Java](./read-all-exif-tags-java/)
 Lär dig att extrahera EXIF-taggar från PSD-bilder med Aspose.PSD för Java. Följ vår steg-för-steg-guide för effektiv extrahering av metadata.
 ### [Läs och ändra JPEG EXIF-taggar i Java](./read-modify-jpeg-exif-tags-java/)
-Lär dig hur du läser och ändrar JPEG EXIF-taggar med Aspose.PSD för Java i denna steg-för-steg-guide. Perfekt för utvecklare som vill hantera bildmetadata utan ansträngning.
+Lär dig hur du läser och modifierar JPEG EXIF-taggar med Aspose.PSD för Java i denna steg-för-steg-guide. Perfekt för utvecklare som vill hantera bildmetadata utan ansträngning.
 ### [Läs information om specifik EXIF-taggar i Java](./read-specific-exif-tags-info-java/)
 Lär dig hur du läser specifika EXIF-taggar från PSD-bilder med Aspose.PSD för Java med vår steg-för-steg handledning. Förbättra dina färdigheter i bildbehandling.
 ### [Stöd för 2 och 7 bitars JPEG i Java](./support-2-7-bits-jpeg-java/)

@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -78,5 +77,5 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
  قم بزيارة[وثائق جافا Aspose.PSD](https://reference.aspose.com/psd/java/) للحصول على أدلة شاملة ومراجع API.
 ### هل يدعم Aspose.PSD تنسيقات صور متعددة للتصدير؟
 نعم، يدعم Aspose.PSD التصدير إلى تنسيقات مختلفة مثل BMP، وPNG، وJPEG، وTIFF.
-### كيف يمكنني الحصول على الدعم أو المساعدة إذا واجهت مشكلات؟
+### كيف يمكنني الحصول على الدعم أو المساعدة إذا واجهت مشاكل؟
 تواصل مع مجتمع Aspose.PSD على[منتدى الدعم](https://forum.aspose.com/c/psd/34) أو النظر في أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لدعم الأولوية.

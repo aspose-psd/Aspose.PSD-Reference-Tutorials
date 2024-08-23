@@ -2,24 +2,23 @@
 title: Převést PSB na PSD v Javě
 linktitle: Převést PSB na PSD v Javě
 second_title: Aspose.PSD Java API
-description: Naučte se, jak plynule převést PSB na PSD v Javě pomocí Aspose.PSD, a zlepšit tak správu grafických souborů ve vašich aplikacích.
+description: Naučte se, jak plynule převést PSB na PSD v Javě pomocí Aspose.PSD a zlepšit tak správu grafických souborů ve vašich aplikacích.
 type: docs
 weight: 12
 url: /cs/java/java-psb-to-image-format-conversion/convert-psb-to-psd-java/
 ---
-## Úvod
+## Zavedení
 V oblasti vývoje Java je efektivní manipulace s grafickými soubory klíčová. Tento tutoriál se zaměřuje na využití Aspose.PSD pro Java k bezproblémovému převodu souborů PSB (Photoshop Big) do formátu PSD (Photoshop Document). Pomocí následujících kroků můžete tuto schopnost bez námahy integrovat do svých aplikací Java.
 ## Předpoklady
 Než se ponoříte do procesu převodu, ujistěte se, že máte nastaveny následující předpoklady:
 - Java Development Kit (JDK): Ujistěte se, že je ve vašem systému nainstalována verze JDK 8 nebo vyšší.
--  Aspose.PSD for Java Library: Stáhněte a nakonfigurujte knihovnu Aspose.PSD for Java. Můžete jej získat z[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD for Java Library: Stáhněte a nakonfigurujte knihovnu Aspose.PSD for Java. Můžete jej získat z[zde](https://releases.aspose.com/psd/java/).
 - Integrované vývojové prostředí (IDE): Použijte IntelliJ IDEA, Eclipse nebo jiné Java IDE dle vašeho výběru.
 - Základní znalost jazyka Java: Porozumění základům programování v jazyce Java bude prospěšné.
 ## Importujte balíčky
 Nejprve importujte potřebné třídy Aspose.PSD do svého souboru Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
@@ -38,7 +37,7 @@ Dále nakonfigurujte možnosti převodu PSD:
 PsdOptions options = new PsdOptions();
 options.setFileFormatVersion(FileFormatVersion.Psd);
 ```
- Tady,`FileFormatVersion.Psd` zajišťuje, že výstupní soubor je ve formátu PSD.
+ Zde,`FileFormatVersion.Psd` zajišťuje, že výstupní soubor je ve formátu PSD.
 ## Krok 3: Uložte konvertovaný soubor PSD
 Uložte převedený soubor PSD pomocí načteného obrazu PSB a možností:
 ```java
@@ -58,4 +57,4 @@ Ano, knihovna zajišťuje vysoce věrný převod, zachování kvality obrazu a d
 ### Mohu integrovat Aspose.PSD for Java do webové aplikace?
 Ano, Aspose.PSD for Java lze bez problémů integrovat do desktopových i webových aplikací Java.
 ### Kde najdu další podporu nebo asistenci pro Aspose.PSD pro Javu?
- Pro další pomoc navštivte stránku[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ Pro další pomoc navštivte[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).

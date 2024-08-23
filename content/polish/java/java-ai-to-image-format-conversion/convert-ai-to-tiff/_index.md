@@ -12,7 +12,7 @@ Przekształcanie plików AI do formatu TIFF jest częstym wymogiem dla programis
 ## Warunki wstępne
 Zanim przystąpisz do procesu konwersji, upewnij się, że posiadasz następujące elementy:
 1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK 8 lub nowszy.
-2.  Aspose.PSD dla Java: Pobierz plik[Aspose.PSD dla biblioteki Java](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD dla Java: Pobierz plik[Aspose.PSD dla biblioteki Java](https://releases.aspose.com/psd/java/).
 3. Zintegrowane środowisko programistyczne (IDE): dowolne wybrane IDE (np. IntelliJ IDEA, Eclipse).
 4. Plik AI: plik programu Adobe Illustrator (.ai), który chcesz przekonwertować.
 5. TiffOptions: wymagane do określenia szczegółów formatu TIFF.
@@ -20,7 +20,6 @@ Zanim przystąpisz do procesu konwersji, upewnij się, że posiadasz następują
 Najpierw musisz zaimportować niezbędne pakiety z Aspose.PSD. Pakiety te zapewniają klasy i metody wymagane do obsługi plików AI i TIFF.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -34,7 +33,7 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Tutaj,`dataDir`to katalog, w którym przechowywany jest plik AI. Dostosuj odpowiednio ścieżkę, aby dopasować ją do lokalizacji pliku.
+ Tutaj,`dataDir` to katalog, w którym przechowywany jest plik AI. Dostosuj odpowiednio ścieżkę, aby pasowała do lokalizacji pliku.
 ## Krok 3: Zdefiniuj plik wyjściowy
 Następnie określ ścieżkę pliku wyjściowego, w którym zostanie zapisany przekonwertowany plik TIFF.
 ```java

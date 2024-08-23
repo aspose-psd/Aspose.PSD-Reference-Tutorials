@@ -61,7 +61,7 @@ url: /ar/java/advanced-image-manipulation/
 ### [استبدال الخطوط في Aspose.PSD لجافا](./replace-fonts/)
 تعرف على كيفية استبدال الخطوط في الصور باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة للتعامل مع الخطوط بكفاءة.
 ### [فرض ذاكرة التخزين المؤقت للخط باستخدام Aspose.PSD لـ Java](./force-font-cache/)
-تعرف على كيفية فرض ذاكرة تخزين مؤقت للخط باستخدام Aspose.PSD لـ Java. قم بتحسين معالجة الصور وتحسين الأداء باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+تعرف على كيفية فرض ذاكرة التخزين المؤقت للخط باستخدام Aspose.PSD لـ Java. قم بتحسين معالجة الصور وتحسين الأداء باستخدام هذا الدليل التفصيلي خطوة بخطوة.
 ### [تنفيذ Bicubic Resampler في Aspose.PSD لـ Java](./implement-bicubic-resampler/)
 قم بتحسين تغيير حجم صورة Java باستخدام Aspose.PSD لـ Java Bicubic Resampler. اتبع دليلنا خطوة بخطوة للحصول على نتائج رائعة.
 ### [قم بتطبيق Lossy GIF Compressor في Aspose.PSD لـ Java](./implement-lossy-gif-compressor/)

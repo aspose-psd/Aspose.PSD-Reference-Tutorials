@@ -41,7 +41,7 @@ Most bontsuk le a folyamatot több lépésre a képek adatfolyamba mentéséhez:
 String dataDir = "Your Document Directory";
 ```
 
- Cserélje ki`"Your Document Directory"`annak a könyvtárnak az elérési útjával, ahol a PSD-fájl található.
+ Cserélje ki`"Your Document Directory"` annak a könyvtárnak az elérési útjával, ahol a PSD-fájl található.
 
 ## 2. lépés: Adja meg a forrást és a célt
 
@@ -68,13 +68,13 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Hozzon létre egy`FileOutputStream` a célfájlhoz, és mentse a PSD-képet az adatfolyamba a PNG-beállítások használatával.
+ Hozzon létre a`FileOutputStream` célfájlhoz, és mentse a PSD-képet az adatfolyamba a PNG-beállítások használatával.
 
 Ismételje meg ezeket a lépéseket az adott használati esetnek megfelelően.
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan menthet képeket adatfolyamba az Aspose.PSD for Java segítségével. Ez a funkció számos alkalmazáshoz hasznos, lehetővé téve a PSD-képfeldolgozás zökkenőmentes integrálását a Java-projektekbe.
+Gratulálok! Sikeresen megtanulta, hogyan menthet képeket adatfolyamba az Aspose.PSD for Java segítségével. Ez a funkció számos alkalmazáshoz hasznos, lehetővé téve a PSD-képfeldolgozás zökkenőmentes integrálását a Java-projektekbe.
 
 ## GYIK
 
@@ -88,7 +88,7 @@ V1: Igen, az Aspose.PSD-t széles körben használják professzionális Java-pro
 
 ### 3. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
-V3: Igen, felfedezheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy értékelje az Aspose.PSD képességeit.
+ V3: Igen, felfedezheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy értékelje az Aspose.PSD képességeit.
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 

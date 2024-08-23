@@ -88,8 +88,8 @@ S2: Ja, du kan stapla flera justeringslager för att uppnå komplexa bildmanipul
 
 ### F4: Finns det en gratis testversion tillgänglig för Aspose.PSD?
 
- A4: Ja, du kan utforska den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A4: Ja, du kan utforska den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få en tillfällig licens för Aspose.PSD?
 
-S5: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+S5: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/net/layer-effects/adding-stroke-effects/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questo tutorial passo passo sull'aggiunta di effetti tratto ai livelli in Aspose.PSD per .NET. Migliorare l'attrattiva visiva delle tue immagini è un gioco da ragazzi con l'effetto tratto e Aspose.PSD lo rende perfetto per gli sviluppatori .NET. In questa guida ti guideremo attraverso il processo, fornendo passaggi chiari ed esempi per aiutarti a padroneggiare questa potente funzionalità.
 

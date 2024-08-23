@@ -19,7 +19,7 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/
 需要將 AI 檔案轉換為 JPG 嗎？別再猶豫了！我們使用 Aspose.PSD 的綜合指南使開發人員可以輕鬆實現高品質的影像轉換。按照我們的逐步說明，您將立即將 AI 檔案轉換為 JPG，同時保持原始影像的完整性和品質。[閱讀更多](./convert-ai-to-jpg/).
 
 ## 在 Java 中將 AI 轉換為 PDF
-將 AI 檔案轉換為 PDF 對於各種應用程式至關重要。 Aspose.PSD 簡化了此過程，確保您的文件轉換高效且準確。本教學涵蓋從設定到執行的所有內容，為您提供將 AI 檔案無縫轉換為 PDF 所需的所有詳細資訊。[閱讀更多](./convert-ai-to-pdf/).
+將 AI 檔案轉換為 PDF 對於各種應用程式至關重要。 Aspose.PSD 簡化了此過程，確保您的文件轉換高效且準確。本教學涵蓋了從設定到執行的所有內容，為您提供將 AI 檔案無縫轉換為 PDF 所需的所有詳細資訊。[閱讀更多](./convert-ai-to-pdf/).
 
 ## 在Java中將AI轉換為PNG
 PNG 檔案由於其無損壓縮和透明特性而被廣泛使用。透過我們的詳細指南，了解如何使用 Aspose.PSD 將 AI 檔案轉換為 PNG。從載入 AI 檔案到設定選項並將其儲存為 PNG 映像，本教學包含成功轉換所需遵循的所有步驟。[閱讀更多](./convert-ai-to-png/).

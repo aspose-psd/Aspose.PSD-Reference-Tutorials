@@ -85,7 +85,7 @@ im.Save(pngExportPath, saveOptions);
 
 Spara den modifierade bilden med den tillämpade skuggeffekten i PNG-format.
 
-Och det är allt! Du har lyckats återge en skuggeffekt med Aspose.PSD för .NET.
+Och det är det! Du har lyckats återge en skuggeffekt med Aspose.PSD för .NET.
 
 ## Slutsats
 
@@ -107,7 +107,7 @@ A2: Absolut! Justera gärna koden för att möta dina specifika krav och uppnå 
 
 ### F4: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- A4: Ja, du kan utforska en gratis provperiod.[här](https://releases.aspose.com/).
+ A4: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få support eller söka hjälp med Aspose.PSD för .NET?
 

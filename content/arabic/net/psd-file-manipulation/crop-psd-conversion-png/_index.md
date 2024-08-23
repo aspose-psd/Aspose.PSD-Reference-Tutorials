@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // قم بإنشاء مثيل لفئة PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## الخطوة 5: احفظ الصورة التي تم اقتصاصها بتنسيق PNG.
+## الخطوة 5: احفظ الصورة التي تم اقتصاصها بتنسيق PNG
 ```csharp
 // قم باستدعاء طريقة الحفظ، وتوفير مسار الإخراج، وPngOptions لتحويل ملف PSD إلى PNG وحفظ الإخراج
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ image.Save(destName, pngOptions);
 
 ### س1: هل يمكنني استخدام هذه المكتبة في مشروع تجاري؟
 
- A1: نعم، Aspose.PSD لـ .NET متاح للاستخدام التجاري. تشير إلى[ترخيص Aspose.PSD](https://purchase.aspose.com/buy) للتفاصيل.
+ A1: نعم، Aspose.PSD لـ .NET متاح للاستخدام التجاري. الرجوع إلى[ترخيص Aspose.PSD](https://purchase.aspose.com/buy) للحصول على التفاصيل.
 
 ### س2: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج2: بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ج2: بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على دعم لـ Aspose.PSD لـ .NET؟
 

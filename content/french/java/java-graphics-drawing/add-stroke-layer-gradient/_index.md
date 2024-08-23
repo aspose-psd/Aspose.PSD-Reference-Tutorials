@@ -21,7 +21,6 @@ Tout d’abord, importons les packages nécessaires. Ceux-ci nous permettront d'
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -145,7 +144,7 @@ Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
 ## Conclusion
-Et voila! Vous savez maintenant comment ajouter et manipuler des dégradés de calques de traits dans des fichiers PSD à l'aide d'Aspose.PSD pour Java. Ce didacticiel couvrait le chargement du fichier PSD, l'accès et la modification des effets de trait, ainsi que l'enregistrement des modifications. Grâce à ces compétences, vous pouvez créer des dégradés visuellement attrayants et personnaliser vos fichiers PSD en fonction de vos besoins.
+Et voilà ! Vous savez maintenant comment ajouter et manipuler des dégradés de calques de traits dans des fichiers PSD à l'aide d'Aspose.PSD pour Java. Ce didacticiel couvrait le chargement du fichier PSD, l'accès et la modification des effets de trait, ainsi que l'enregistrement des modifications. Grâce à ces compétences, vous pouvez créer des dégradés visuellement attrayants et personnaliser vos fichiers PSD en fonction de vos besoins.
 ## FAQ
 ### Qu’est-ce qu’Aspose.PSD pour Java ?
 Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de travailler avec des fichiers PSD dans des applications Java, fournissant des fonctionnalités pour créer, manipuler et convertir des fichiers PSD.

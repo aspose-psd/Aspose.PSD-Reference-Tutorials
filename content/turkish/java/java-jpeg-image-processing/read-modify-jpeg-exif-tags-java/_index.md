@@ -8,7 +8,7 @@ weight: 18
 url: /tr/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
 ## giriiş
-Selam! Java kullanarak JPEG EXIF etiketlerini nasıl okuyabileceğinizi ve değiştirebileceğinizi hiç merak ettiniz mi? Eğer öyleyse, doğru yerdesiniz! Bu eğitim size Aspose.PSD for Java'yı kullanarak süreç boyunca adım adım rehberlik edecektir. İster tecrübeli bir geliştirici ister yeni başlayan biri olun, bu kılavuzun sonunda JPEG EXIF etiketlerini bir profesyonel gibi kullanabileceksiniz. O halde hadi dalalım!
+Selam! Java kullanarak JPEG EXIF etiketlerini nasıl okuyabileceğinizi ve değiştirebileceğinizi hiç merak ettiniz mi? Eğer öyleyse, doğru yerdesiniz! Bu eğitim size Aspose.PSD for Java'yı kullanarak süreç boyunca adım adım rehberlik edecektir. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu kılavuzun sonunda JPEG EXIF etiketlerini bir profesyonel gibi kullanabileceksiniz. O halde hadi dalalım!
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1.  Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
@@ -19,7 +19,6 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Öncelikle gerekli paketleri import edelim. Java IDE'nizi açın ve yeni bir Java projesi oluşturun. Ardından Aspose.PSD for Java kütüphanesini proje bağımlılıklarınıza ekleyin.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -47,7 +46,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 }
 ```
 ## Adım 3: EXIF Verilerini Çıkarın
-Artık küçük resim kaynağına sahip olduğumuza göre, EXIF verisini ondan çıkarabiliriz. EXIF verileri, kamera sahibinin adı, açıklık değeri, yönelim ve daha fazlası gibi değerli bilgiler içerir.
+Artık küçük resim kaynağına sahip olduğumuza göre, EXIF verilerini buradan çıkarabiliriz. EXIF verileri, kamera sahibinin adı, açıklık değeri, yönelim ve daha fazlası gibi değerli bilgiler içerir.
 ```java
 JpegExifData exifData = thumbnail.getJpegOptions().getExifData();
 if (exifData != null) {
@@ -81,7 +80,7 @@ try {
 ```
 
 ## Çözüm
-İşte buyur! Bu adımları takip ederek Aspose.PSD for Java'yı kullanarak JPEG EXIF etiketlerini kolayca okuyabilir ve değiştirebilirsiniz. Bu güçlü kitaplık, görüntü meta verilerinin işlenmesini kolaylaştırır. Öyleyse devam edin ve kendi projelerinizde deneyin. Mutlu kodlama!
+Ve işte karşınızda! Bu adımları izleyerek Aspose.PSD for Java'yı kullanarak JPEG EXIF etiketlerini kolayca okuyabilir ve değiştirebilirsiniz. Bu güçlü kitaplık, görüntü meta verilerinin işlenmesini kolaylaştırır. Öyleyse devam edin ve kendi projelerinizde deneyin. Mutlu kodlama!
 ## SSS'ler
 ### EXIF verileri nedir?
 EXIF (Değiştirilebilir Görüntü Dosyası Formatı) verileri, bir görüntüyle ilgili kamera ayarları ve yönlendirme gibi meta verileri içerir.
@@ -90,6 +89,6 @@ EXIF (Değiştirilebilir Görüntü Dosyası Formatı) verileri, bir görüntüy
 ### Aspose.PSD for Java, Java'nın tüm sürümleriyle uyumlu mu?
 Aspose.PSD for Java, Java SE 7 ve üzerini destekler.
 ### Aspose.PSD for Java hakkında daha fazla belgeyi nerede bulabilirim?
- Kontrol et[dokümantasyon](https://reference.aspose.com/psd/java/) daha fazla ayrıntı için.
+ Şuna göz atın:[dokümantasyon](https://reference.aspose.com/psd/java/) daha fazla ayrıntı için.
 ### Aspose.PSD for Java desteğini nasıl alabilirim?
  adresinden destek alabilirsiniz.[Aspose PSD destek forumu](https://forum.aspose.com/c/psd/34).

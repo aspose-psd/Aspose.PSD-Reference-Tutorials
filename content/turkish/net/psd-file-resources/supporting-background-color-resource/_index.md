@@ -2,7 +2,7 @@
 title: Aspose.PSD for .NET'te Arka Plan Rengi Kaynağını Destekleme
 linktitle: Destekleyici Arka Plan Rengi Kaynağı
 second_title: Aspose.PSD .NET API'si
-description: Adım adım kılavuzumuzla Aspose.PSD for .NET'te ustalaşın. PSD görüntülerini zahmetsizce değiştirin. Şimdi ücretsiz deneme sürümünü indirin!
+description: Adım adım kılavuzumuzla Aspose.PSD for .NET'te ustalaşın. PSD görüntülerini zahmetsizce değiştirin. Ücretsiz deneme sürümünüzü şimdi indirin!
 type: docs
 weight: 10
 url: /tr/net/psd-file-resources/supporting-background-color-resource/
@@ -12,7 +12,7 @@ Kapsamlı bir eğitimi incelerken Aspose.PSD for .NET'in tüm potansiyelini orta
 ## Önkoşullar
 Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 - Visual Studio: Makinenizde Visual Studio'nun kurulu olduğundan emin olun.
--  Aspose.PSD for .NET: Aspose.PSD for .NET kitaplığını indirip yükleyin.[Salıverme](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Aspose.PSD for .NET kitaplığını indirip yükleyin.[yayınlar](https://releases.aspose.com/psd/net/).
 ## Ad Alanlarını İçe Aktar
 Visual Studio projenizde gerekli ad alanlarını içe aktararak başlayın:
 ```csharp
@@ -88,4 +88,4 @@ Cevap2: Evet, Aspose.PSD'yi hem ticari hem de ticari olmayan projelerde kullanab
 
 ### S5: Geçici lisans nasıl alınır?
 
- A5: Aşağıdaki adımları izleyin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+ A5: Aşağıdaki adımları izleyin.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).

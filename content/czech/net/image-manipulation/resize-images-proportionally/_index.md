@@ -9,7 +9,7 @@ url: /cs/net/image-manipulation/resize-images-proportionally/
 ---
 oblasti manipulace s obrázky vyniká Aspose.PSD for .NET jako výkonná sada nástrojů, která poskytuje vývojářům možnost snadno proporcionálně měnit velikost obrázků. V tomto podrobném průvodci vás provedeme procesem změny velikosti obrázků pomocí Aspose.PSD for .NET a zajistíme, že si vaše obrázky zachovají své proporce bezchybně.
 
-## Úvod
+## Zavedení
 
 Proporcionální změna velikosti obrázků je běžným úkolem v mnoha aplikacích a Aspose.PSD for .NET tento proces pro vývojáře zjednodušuje. Ať už pracujete na webové aplikaci, softwaru pro stolní počítače nebo mobilní aplikaci, pochopení toho, jak změnit velikost obrázků při zachování jejich poměru stran, je zásadní pro zachování vizuální přitažlivosti a konzistence.
 
@@ -95,7 +95,7 @@ Odpověď 3: Ano, Aspose.PSD pro .NET nabízí širokou škálu funkcí, včetn�
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A4: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET pomocí bezplatné zkušební verze. Návštěva[tady](https://releases.aspose.com/) začít.
+ A4: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET pomocí bezplatné zkušební verze. Návštěva[zde](https://releases.aspose.com/) začít.
 
 ### Q5: Kde najdu podporu pro Aspose.PSD pro .NET?
 

@@ -94,7 +94,7 @@ Câu trả lời 2: Phiên bản dùng thử có những hạn chế và bạn c
 
 ### Câu hỏi 4: Có giấy phép tạm thời dành cho mục đích thử nghiệm không?
 
- A4: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.PSD cho Java ở đâu?
 

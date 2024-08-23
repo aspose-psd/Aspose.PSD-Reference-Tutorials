@@ -88,7 +88,7 @@ String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Toutes nos félicitations! Vous avez réussi à recadrer une image à l'aide d'Aspose.PSD pour Java.
+Félicitations! Vous avez réussi à recadrer une image à l'aide d'Aspose.PSD pour Java.
 
 ## Conclusion
 

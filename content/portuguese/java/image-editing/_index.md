@@ -9,7 +9,7 @@ url: /pt/java/image-editing/
 ---
 ## Introdução 
 
-Bem-vindo ao domínio do domínio da edição de imagens! Nesta coleção de tutoriais, nos aprofundamos nos poderosos recursos do Aspose.PSD para Java, orientando você na arte de aprimorar, combinar e manipular imagens sem esforço. Seja você um desenvolvedor experiente ou apenas começando, junte-se a nós nesta jornada para descobrir a magia dos efeitos de sobreposição de cores, fusão de imagens, criação de metadados XMP e processamento contínuo de imagens. Eleve seu jogo de edição com guias passo a passo que revelam o potencial do Aspose.PSD para Java, fornecendo a você as habilidades para transformar suas criações visuais. Vamos mergulhar e explorar o fascinante mundo da edição de imagens!
+Bem-vindo ao domínio do domínio da edição de imagens! Nesta coleção de tutoriais, nos aprofundamos nos poderosos recursos do Aspose.PSD para Java, orientando você na arte de aprimorar, combinar e manipular imagens sem esforço. Quer você seja um desenvolvedor experiente ou esteja apenas começando, junte-se a nós nesta jornada para descobrir a magia dos efeitos de sobreposição de cores, fusão de imagens, criação de metadados XMP e processamento contínuo de imagens. Eleve seu jogo de edição com guias passo a passo que revelam o potencial do Aspose.PSD para Java, fornecendo a você as habilidades para transformar suas criações visuais. Vamos mergulhar e explorar o fascinante mundo da edição de imagens!
 
 ## Aplicar efeito de sobreposição de cores em Aspose.PSD para Java
 

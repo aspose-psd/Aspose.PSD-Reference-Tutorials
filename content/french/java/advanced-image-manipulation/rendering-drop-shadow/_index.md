@@ -13,7 +13,7 @@ Si vous vous lancez dans le traitement d'images avec Java, Aspose.PSD est votre 
 
 ## Conditions préalables
 
-Avant de nous lancer dans ce voyage, assurez-vous d’avoir les conditions préalables suivantes en place :
+Avant de nous lancer dans cette aventure, assurez-vous d’avoir les conditions préalables suivantes en place :
 
 - Environnement de développement Java : assurez-vous que Java est installé sur votre ordinateur.
 - Bibliothèque Aspose.PSD : téléchargez et configurez la bibliothèque Aspose.PSD. Vous pouvez trouver la bibliothèque[ici](https://releases.aspose.com/psd/java/).

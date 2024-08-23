@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -53,7 +52,7 @@ graphics.clear(Color.getYellow());
 Pen blackPen = new Pen(Color.getBlack(), 3);
 ```
 Объяснение:
-- `Pen` Он инициализируется черным цветом и шириной 3 пикселя.
+- `Pen` инициализируется черным цветом и шириной 3 пикселя.
 ## Шаг 5: Определите параметры кривой Безье
 Укажите контрольные и конечные точки кривой Безье.
 ```java
@@ -68,7 +67,7 @@ float endX = 90, endY = 25;
 - `controlX2`, `controlY2`: Вторая контрольная точка.
 - `endX`, `endY`: Конечная точка кривой.
 ## Шаг 6: Нарисуйте кривую Безье
- Использовать`drawBezier()` метод для рисования кривой Безье на изображении, используя ранее определенный`Pen` и контрольные точки.
+ Используйте`drawBezier()` метод для рисования кривой Безье на изображении, используя ранее определенный`Pen` и контрольные точки.
 ```java
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```
@@ -93,4 +92,4 @@ image.save(outpath, saveOptions);
 ### Могу ли я экспортировать изображение в форматы, отличные от BMP?
 Да, Aspose.PSD для Java поддерживает экспорт изображений в различные форматы, такие как PNG, JPEG, TIFF и т. д.
 ### Где я могу найти больше примеров и документации?
- Посетить[Aspose.PSD для документации Java](https://reference.aspose.com/psd/java/) подробные руководства и примеры кода.## Полный исходный код
+ Посетите[Aspose.PSD для документации Java](https://reference.aspose.com/psd/java/) подробные руководства и примеры кода.## Полный исходный код

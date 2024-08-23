@@ -53,7 +53,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-Bu kadar! Sadece birkaç satır kodla Aspose.PSD for .NET'i kullanarak bir görüntüyü başarıyla döndürdünüz.
+İşte bu! Sadece birkaç satır kodla Aspose.PSD for .NET'i kullanarak bir görüntüyü başarıyla döndürdünüz.
 
 ## Çözüm
 

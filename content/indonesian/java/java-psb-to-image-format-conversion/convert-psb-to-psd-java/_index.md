@@ -19,7 +19,6 @@ Sebelum mendalami proses konversi, pastikan Anda telah menyiapkan prasyarat beri
 Pertama, impor kelas Aspose.PSD yang diperlukan dalam file Java Anda:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
@@ -52,7 +51,7 @@ Dengan mengikuti langkah-langkah ini, Anda telah berhasil mengonversi file PSB k
 ### Bisakah Aspose.PSD untuk Java menangani file PSB kompleks dengan banyak lapisan?
 Ya, Aspose.PSD untuk Java mendukung file PSB dengan banyak lapisan, mempertahankan strukturnya selama konversi.
 ### Apakah Aspose.PSD untuk Java cocok untuk pemrosesan batch konversi PSB ke PSD?
-Tentu saja, Anda dapat memproses konversi PSB ke PSD secara batch secara efisien menggunakan Aspose.PSD untuk Java.
+Tentu saja, Anda dapat melakukan proses batch konversi PSB ke PSD secara efisien menggunakan Aspose.PSD untuk Java.
 ### Apakah Aspose.PSD untuk Java menjaga kualitas gambar selama konversi?
 Ya, perpustakaan memastikan konversi fidelitas tinggi, menjaga kualitas dan detail gambar.
 ### Bisakah saya mengintegrasikan Aspose.PSD untuk Java ke dalam aplikasi web?

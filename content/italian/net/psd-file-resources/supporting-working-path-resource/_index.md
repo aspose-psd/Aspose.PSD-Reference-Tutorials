@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /it/net/psd-file-resources/supporting-working-path-resource/
 ---
-## introduzione
+## Introduzione
 Se sei uno sviluppatore .NET che lavora con l'elaborazione delle immagini, Aspose.PSD per .NET è la soluzione ideale. In questo tutorial, approfondiremo lo sfruttamento della potenza della risorsa "WorkingPathResource" in Aspose.PSD. Questa caratteristica cruciale migliora la precisione dell'operazione di ritaglio, garantendo che le tue immagini siano adattate esattamente come necessario.
 ## Prerequisiti
 Prima di intraprendere questo viaggio, assicurati di avere quanto segue:
@@ -79,7 +79,7 @@ Congratulazioni! Hai imparato con successo l'uso di "WorkingPathResource" in Asp
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi accedere alla prova gratuita.[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso ottenere supporto per Aspose.PSD per .NET?
 
@@ -87,4 +87,4 @@ Congratulazioni! Hai imparato con successo l'uso di "WorkingPathResource" in Asp
 
 ### Q5: Hai bisogno di una licenza temporanea?
 
- A5: Ottieni una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
+ A5: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).

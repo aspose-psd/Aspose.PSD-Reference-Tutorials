@@ -82,11 +82,11 @@ Tebrikler! Aspose.PSD for .NET kullanarak görüntüleri bir akışa nasıl kayd
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/)Satın alma işlemi yapmadan önce Aspose.PSD'nin özelliklerini keşfetmek için.
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/)Satın alma işlemi yapmadan önce Aspose.PSD'nin özelliklerini keşfetmek için.
 
 ### S4: Geçici lisansı nasıl alabilirim?
 
- Cevap4: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+ Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
 
 ### S5: Aspose.PSD'yi nereden satın alabilirim?
 

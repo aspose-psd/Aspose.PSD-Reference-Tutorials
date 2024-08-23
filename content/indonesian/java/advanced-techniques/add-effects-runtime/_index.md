@@ -19,7 +19,7 @@ Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
 2.  Aspose.PSD untuk Perpustakaan Java: Anda harus memiliki perpustakaan Aspose.PSD untuk Java. Jika Anda belum melakukannya, unduh dari[Dokumentasi Aspose.PSD Java](https://reference.aspose.com/psd/java/).
 
-3. Direktori Dokumen: Siapkan direktori untuk dokumen Anda, dan ingat jalurnya. Dalam contoh yang diberikan, direktori disebut sebagai`Your Document Directory`.
+3.  Direktori Dokumen: Siapkan direktori untuk dokumen Anda, dan ingat jalurnya. Dalam contoh yang diberikan, direktori disebut sebagai`Your Document Directory`.
 
 ## Paket Impor
 
@@ -94,4 +94,4 @@ A2: Ya, Aspose.PSD mendukung berbagai format gambar, termasuk PSD, BMP, JPEG, PN
 
 ### Q5: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A5: Ya, Anda dapat menjelajahi versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A5: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).

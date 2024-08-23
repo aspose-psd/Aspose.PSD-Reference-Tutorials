@@ -97,7 +97,7 @@ Chúc mừng! Bạn đã triển khai thành công Hiệu ứng ánh sáng bên 
 
 ### Câu hỏi 1: Aspose.PSD có tương thích với tất cả các khung .NET không?
 
-Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều khung .NET, đảm bảo khả năng tương thích với nhiều môi trường phát triển khác nhau.
+Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều loại khung .NET, đảm bảo khả năng tương thích với nhiều môi trường phát triển khác nhau.
 
 ### Câu hỏi 2: Tôi có thể tìm tài liệu bổ sung cho Aspose.PSD ở đâu?
 
@@ -113,4 +113,4 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều khung .NET, đảm bảo 
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET không?
 
- Câu trả lời 5: Có, hãy khám phá các tùy chọn cấp phép và mua hàng.[đây](https://purchase.aspose.com/buy).
+ Câu trả lời 5: Có, hãy khám phá các tùy chọn cấp phép và thực hiện giao dịch mua của bạn[đây](https://purchase.aspose.com/buy).

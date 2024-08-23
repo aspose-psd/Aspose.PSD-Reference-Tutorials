@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Trước khi vẽ, hãy làm sạch bề mặt đồ họa bằng một màu c�
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Bước 5: Vẽ một hình elip có chấm.
+## Bước 5: Vẽ hình elip có chấm
 Sử dụng đối tượng Pen có màu đỏ và vẽ một hình elip có chấm trong Hình chữ nhật được chỉ định.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

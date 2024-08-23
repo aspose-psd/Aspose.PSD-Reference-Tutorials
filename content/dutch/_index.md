@@ -9,7 +9,7 @@ url: /nl/
 is_root: true
 ---
 
-Welkom op de Aspose.PSD Tutorials-pagina, uw bron voor het beheersen van de krachtige functies en mogelijkheden van Aspose.PSD, een toonaangevende API voor het werken met Adobe Photoshop-bestanden in verschillende .NET-toepassingen. Of u nu een doorgewinterde ontwikkelaar bent die uw vaardigheden wil verbeteren of een nieuwkomer die graag de enorme mogelijkheden van het programmatisch manipuleren van PSD-, PSB- en AI-bestanden wil verkennen, onze tutorials bieden uitgebreide begeleiding. Van basisconcepten tot geavanceerde technieken, we behandelen een breed scala aan onderwerpen om ervoor te zorgen dat u het volledige potentieel van Aspose.PSD in uw projecten kunt benutten. Duik in onze tutorials en ontgrendel de sleutel tot naadloze beeldverwerking, bewerking en conversie, evenals de mogelijkheid om moeiteloos waardevolle gegevens uit Photoshop-bestanden te extraheren. Laten we op reis gaan om uw ontwikkelingservaring met Aspose.PSD naar een hoger niveau te tillen!
+Welkom op de Aspose.PSD Tutorials-pagina, uw bron voor het beheersen van de krachtige functies en mogelijkheden van Aspose.PSD, een toonaangevende API voor het werken met Adobe Photoshop-bestanden in verschillende .NET-toepassingen. Of u nu een doorgewinterde ontwikkelaar bent die uw vaardigheden wil verbeteren of een nieuwkomer die graag de enorme mogelijkheden van het programmatisch manipuleren van PSD-, PSB- en AI-bestanden wil verkennen, onze tutorials bieden uitgebreide begeleiding. Van basisconcepten tot geavanceerde technieken, we behandelen een breed scala aan onderwerpen om ervoor te zorgen dat u het volledige potentieel van Aspose.PSD in uw projecten kunt benutten. Duik in onze tutorials en ontdek de sleutel tot naadloze beeldverwerking, bewerking en conversie, evenals de mogelijkheid om moeiteloos waardevolle gegevens uit Photoshop-bestanden te extraheren. Laten we op reis gaan om uw ontwikkelingservaring met Aspose.PSD naar een hoger niveau te tillen!
 
 ## Aspose.PSD voor .NET-zelfstudies
 {{% alert color="primary" %}}
@@ -18,7 +18,7 @@ Ontdek de dynamische wereld van Aspose.PSD voor .NET via onze beknopte en inform
 
 Dit zijn links naar enkele nuttige bronnen:
  
-- [Afbeelding verwerken](./net/image-processing/)
+- [Beeldverwerking](./net/image-processing/)
 - [Manipulatie van PSD-bestanden](./net/psd-file-manipulation/)
 - [Tekst- en lettertypemanipulatie](./net/text-and-font-manipulation/)
 - [Bestanden opslaan en exporteren](./net/file-saving-and-exporting/)
@@ -38,10 +38,10 @@ Ga op een creatieve reis met Aspose.PSD voor Java! Onze uitgebreide tutorials be
 
 Dit zijn links naar enkele nuttige bronnen:
 
-- [Afbeelding verwerken](./java/image-processing/)
+- [Beeldverwerking](./java/image-processing/)
 - [PSD-conversie](./java/psd-conversion/)
 - [Geavanceerde technieken](./java/advanced-techniques/)
-- [Foto bewerken](./java/image-editing/)
+- [Beeldbewerking](./java/image-editing/)
 - [Geavanceerde beeldmanipulatie](./java/advanced-image-manipulation/)
 - [Basis beeldbewerkingen](./java/basic-image-operations/)
 - [Geavanceerde beeldeffecten](./java/advanced-image-effects/)

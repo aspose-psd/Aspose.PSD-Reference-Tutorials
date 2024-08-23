@@ -93,11 +93,11 @@ image.Save(outpath, saveOptions);
 
 ### P1: ¿Dónde puedo encontrar la documentación de Aspose.PSD para .NET?
 
- A1: La documentación se puede encontrar.[aquí](https://reference.aspose.com/psd/net/).
+ A1: La documentación se puede encontrar[aquí](https://reference.aspose.com/psd/net/).
 
 ### P2: ¿Cómo obtengo una licencia temporal para Aspose.PSD?
 
- R2: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ A2: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P3: ¿Existe un foro comunitario para soporte de Aspose.PSD?
 
@@ -105,8 +105,8 @@ image.Save(outpath, saveOptions);
 
 ### P4: ¿Dónde puedo comprar una licencia para Aspose.PSD?
 
- R4: Puedes comprar una licencia.[aquí](https://purchase.aspose.com/buy).
+ A4: Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
 
 ### P5: ¿Puedo probar Aspose.PSD para .NET de forma gratuita antes de comprarlo?
 
- R5: Sí, puedes descargar una prueba gratuita.[aquí](https://releases.aspose.com/).
+ R5: Sí, puedes descargar una prueba gratuita[aquí](https://releases.aspose.com/).

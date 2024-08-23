@@ -1,25 +1,25 @@
 ---
-title: Aspose.PSD for Java の Resize Type Enumeration を使用したサイズ変更
-linktitle: サイズ変更タイプ列挙型を使用したサイズ変更
+title: Aspose.PSD for Java で Resize Type Enumeration を使用してサイズを変更する
+linktitle: サイズ変更型列挙によるサイズ変更
 second_title: Aspose.PSD Java API
-description: Aspose.PSD を使用した Java でのマスター イメージのサイズ変更。サイズ変更タイプ列挙を使用するステップバイステップのガイド。
+description: Aspose.PSD を使用して Java で画像のサイズ変更をマスターします。Resize Type Enumeration を使用したステップバイステップ ガイド。
 type: docs
 weight: 18
 url: /ja/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
 ## 導入
 
-進化し続ける Java 開発環境において、効率的な画像処理は、開発者がしばしば取り組む重要な側面です。 Aspose.PSD for Java は強力なソリューションとして登場し、Resize Type Enumeration の利点を加えて画像のサイズを変更するためのシームレスなエクスペリエンスを提供します。このチュートリアルでは、Aspose.PSD for Java を使用した画像のサイズ変更の複雑さを詳しく掘り下げ、包括的な理解を確実にするために各ステップに分けて説明します。
+進化し続ける Java 開発の分野では、効率的な画像処理は開発者がしばしば取り組む重要な側面です。Aspose.PSD for Java は、Resize Type Enumeration の利点を追加して、シームレスな画像サイズ変更エクスペリエンスを提供する強力なソリューションとして登場しました。このチュートリアルでは、Aspose.PSD for Java を使用して画像サイズ変更を行う複雑な部分を詳しく調べ、各ステップを分解して包括的な理解を確実にします。
 
 ## 前提条件
 
-このチュートリアルを開始する前に、次の前提条件が満たされていることを確認してください。
+このチュートリアルを始める前に、次の前提条件が満たされていることを確認してください。
 
-1. Java 開発環境: マシン上に Java 開発環境がセットアップされていることを確認します。
+1. Java 開発環境: マシンに Java 開発環境が設定されていることを確認します。
 
-2. Aspose.PSD ライブラリ: Aspose.PSD ライブラリを次の場所からダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/psd/java/).
+2. Aspose.PSDライブラリ: Aspose.PSDライブラリを以下のサイトからダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/psd/java/).
 
-3. サンプル PSD ファイル: 実験用にサンプル PSD ファイルを用意します。使用できます[このチュートリアルのサンプル.psd](ドキュメント ディレクトリ/sample.psd) ファイル。
+3. サンプルPSDファイル: 実験用にサンプルPSDファイルを用意します。[このチュートリアルでは、[sample.psd](ドキュメント ディレクトリ/sample.psd) ファイルを使用します。
 
 ## パッケージのインポート
 
@@ -32,27 +32,27 @@ import com.aspose.psd.ResizeType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## ステップ 1: 画像をロードする
+## ステップ1: 画像を読み込む
 
-まず、既存のイメージをインスタンスにロードします。`RasterImage`クラス。次のコード スニペットを使用します。
+まず、既存の画像を`RasterImage`クラス。次のコード スニペットを使用します。
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-//既存の画像を RasterImage クラスのインスタンスにロードします
+//既存の画像をRasterImageクラスのインスタンスに読み込みます
 Image image = Image.load(sourceFile);
 ```
 
-## ステップ 2: 画像のサイズを変更する
+## ステップ2: 画像のサイズを変更する
 
-ここで、Resize Type Enumeration を使用して、ロードされた画像のサイズを変更します。この例では、Lanczos Resample メソッドを使用します。
+次に、Resize Type Enumeration を使用して、読み込まれた画像のサイズを変更します。この例では、Lanczos Resample メソッドを使用します。
 
 ```java
 image.resize(300, 300, ResizeType.LanczosResample);
 ```
 
-## ステップ 3: サイズ変更した画像を保存する
+## ステップ3: サイズ変更した画像を保存する
 
 サイズ変更後、指定した寸法と選択したサイズ変更タイプで画像を保存します。ここでは、JPEG ファイルとして保存します。
 
@@ -61,28 +61,28 @@ String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-そして、それができました！ Aspose.PSD for Java の Resize Type Enumeration を使用して画像のサイズを正常に変更しました。
+これで完了です。Aspose.PSD for Java の Resize Type Enumeration を使用して、画像のサイズを正常に変更できました。
 
-結論として、Aspose.PSD for Java は画像操作のための堅牢なプラットフォームを提供し、Resize Type Enumeration はこのプロセスに柔軟性のレイヤーを追加します。小規模なプロジェクトで作業している場合でも、大規模なアプリケーションで作業している場合でも、これらの手順をマスターすると、画像のサイズ変更をシームレスに処理できるようになります。
+結論として、Aspose.PSD for Java は画像操作のための堅牢なプラットフォームを提供し、Resize Type Enumeration はこのプロセスに柔軟性を追加します。小規模なプロジェクトでも大規模なアプリケーションでも、これらの手順をマスターすれば、画像のサイズ変更をシームレスに処理できるようになります。
 
 ## よくある質問
 
 ### Q1: Aspose.PSD for Java は小規模プロジェクトと大規模プロジェクトの両方に適していますか?
 
-A1: もちろんです！ Aspose.PSD for Java は、あらゆる規模のプロジェクトに対応できるように設計されており、スケーラビリティと効率性を提供します。
+A1: もちろんです! Aspose.PSD for Java は、あらゆる規模のプロジェクトに対応できるように設計されており、スケーラビリティと効率性を提供します。
 
-### Q2: Lanczos Resample 以外の別のサイズ変更タイプを使用できますか?
+### Q2: Lanczos Resample 以外のサイズ変更タイプを使用できますか?
 
-A2: はい、Aspose.PSD for Java では、最近傍、バイキュービックなど、さまざまなサイズ変更タイプが提供されています。包括的なリストについてはドキュメントを参照してください。
+A2: はい、Aspose.PSD for Java では、Nearest Neighbour、Bicubic など、さまざまなサイズ変更タイプが提供されています。包括的なリストについては、ドキュメントを参照してください。
 
-### Q3: Java 用 Aspose.PSD の追加サポートはどこで見つけられますか?
+### Q3: Aspose.PSD for Java の追加サポートはどこで入手できますか?
 
- A3: ご質問やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
+ A3: ご質問やご不明な点がございましたら、[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
 
-### Q4: Aspose.PSD for Java の無料トライアルはありますか?
+### Q4: Aspose.PSD for Java の無料試用版はありますか?
 
- A4: はい、無料試用版にアクセスできます。[ここ](https://releases.aspose.com/).
+ A4: はい、無料試用版をご利用いただけます[ここ](https://releases.aspose.com/).
 
 ### Q5: Aspose.PSD for Java の一時ライセンスを取得するにはどうすればよいですか?
 
- A5: 一時ライセンスを取得するには、次のサイトにアクセスしてください。[このリンク](https://purchase.aspose.com/temporary-license/).
+ A5: 一時ライセンスを取得するには、[このリンク](https://purchase.aspose.com/temporary-license/).

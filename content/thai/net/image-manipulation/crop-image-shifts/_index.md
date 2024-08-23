@@ -1,6 +1,6 @@
 ---
 title: การครอบตัดรูปภาพตามกะใน Aspose.PSD สำหรับ .NET
-linktitle: การครอบตัดรูปภาพตาม Shifts
+linktitle: การครอบตัดรูปภาพตามกะ
 second_title: Aspose.PSD .NET API
 description: เรียนรู้การครอบตัดรูปภาพอย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการปรับภาพที่แม่นยำ
 type: docs

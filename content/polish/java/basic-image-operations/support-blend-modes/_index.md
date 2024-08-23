@@ -17,7 +17,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 - Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane działające środowisko programistyczne Java.
 
--  Aspose.PSD dla biblioteki Java: Pobierz bibliotekę z[strona internetowa](https://releases.aspose.com/psd/java/) i postępuj zgodnie z instrukcją instalacji.
+- Aspose.PSD dla biblioteki Java: Pobierz bibliotekę z[strona internetowa](https://releases.aspose.com/psd/java/) i postępuj zgodnie z instrukcją instalacji.
 
 - Katalog dokumentów: Przygotuj katalog do przechowywania plików PSD, ponieważ będziemy pracować z różnymi trybami mieszania, korzystając z przykładowych plików PSD.
 
@@ -58,7 +58,7 @@ Eksportuj załadowane pliki PSD do formatu PNG. Dostosuj opcje eksportu według 
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Zapisz jako PNG ze 100% nieprzezroczystością.
+// Zapisz jako PNG ze 100% nieprzezroczystością
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 

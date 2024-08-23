@@ -19,7 +19,6 @@ Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende v
 Voordat u begint met coderen, importeert u de benodigde pakketten om de Aspose.PSD-functionaliteiten te gebruiken:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

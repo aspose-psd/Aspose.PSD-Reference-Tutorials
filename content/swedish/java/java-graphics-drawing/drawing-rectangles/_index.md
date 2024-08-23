@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -65,7 +64,7 @@ graphic.drawRectangle(new Pen(new SolidBrush(Color.BLUE)), new Rectangle(10, 30,
 ```
 Dessa kommandon ritar rektanglar med specificerade färger (röd och blå) och positioner på bilden.
 ## Steg 5: Exportera bild
-Slutligen, spara den ändrade bilden till ett BMP-filformat.
+Slutligen, spara den modifierade bilden till ett BMP-filformat.
 ```java
 // Exportera bild till BMP-filformat
 image.save(outpath, saveOptions);

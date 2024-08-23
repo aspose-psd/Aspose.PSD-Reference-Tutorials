@@ -16,7 +16,7 @@ url: /ko/net/image-manipulation/supporting-gradient-overlay-effect/
 이 여정을 시작하기 전에 다음 사항이 있는지 확인하세요.
 
 - C# 및 .NET 프로그래밍에 대한 기본적인 이해.
--  .NET용 Aspose.PSD가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+-  .NET용 Aspose.PSD가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 - 선호하는 IDE로 개발 환경을 설정하세요.
 
 ## 네임스페이스 가져오기

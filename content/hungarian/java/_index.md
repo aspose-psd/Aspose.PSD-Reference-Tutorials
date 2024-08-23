@@ -24,7 +24,7 @@ Töltsd fel Java képfeldolgozási képességeidet az Aspose.PSD segítségével
 
 [Oldja fel a PSD-konverziós technikákat](./psd-conversion/)
 
-## Speciális képszerkesztési technikák
+## Fejlett képszerkesztési technikák
 
 Könnyedén elsajátíthatja a fejlett képszerkesztési technikákat Java nyelven az Aspose.PSD segítségével. A szürkeárnyalatos manipulációtól a hatékony szövegmegjelenítésig és -mentésig oktatóanyagaink mindent lefednek. Emelje fel képszerkesztő játékát, és keltse életre kreatív elképzeléseit.
 
@@ -44,7 +44,7 @@ Növelje grafikai tervezési készségeit az Aspose.PSD for Java oktatóanyagaiv
 
 ## Speciális képeffektusok elsajátítása
 
-Készen áll arra, hogy Java grafikai terveit a következő szintre emelje? Zökkenőmentesen sajátítsa el a fejlett képeffektusokat – a színátmenetektől és mintáktól az aláírásokig és vonásokig. Oktatóanyagaink segítségével vizuálisan lenyűgöző grafikákat készíthet az Aspose.PSD segítségével.
+Készen áll arra, hogy Java grafikai terveit a következő szintre emelje? Zökkenőmentesen sajátítsa el a fejlett képeffektusokat – a színátmenetektől és mintáktól az aláírásokig és vonásokig. Oktatóanyagaink segítségével látványos grafikákat készíthet az Aspose.PSD segítségével.
 
 [Emelje fel a grafikai terveket](./advanced-image-effects/)
 
@@ -68,7 +68,21 @@ Emelje fel Java grafikai terveit az Aspose.PSD segítségével! Zökkenőmentese
 Fedezze fel az Aspose.PSD for Java oktatóanyagát a grafikus rajzokról. Ismerje meg a körvonalak hozzáadását, alakzatok rajzolását és a PSD-fájlok kezelését lépésről lépésre.
 ### [Java AI konvertálás képformátumba](./java-ai-to-image-format-conversion/)
 Könnyedén konvertálhat mesterséges intelligencia fájlokat különböző formátumokba Java nyelven az Aspose.PSD segítségével. Kövesse átfogó útmutatóinkat a zökkenőmentes, kiváló minőségű képkonverzióhoz.
-### [Java PSB konvertálás képformátumba](./java-psb-to-image-format-conversion/)
+### [Java PSB konvertálás képformátummá](./java-psb-to-image-format-conversion/)
 Könnyen konvertálhat PSB-t JPG, PDF és PSD formátumba Java nyelven az Aspose.PSD segítségével. Kövesse oktatóanyagainkat a zökkenőmentes képkonverzióhoz, és javítsa projektjeit.
 ### [Java JPEG képfeldolgozás](./java-jpeg-image-processing/)
 Fedezze fel az Aspose.PSD for Java oktatóanyagát. Ismerje meg az EXIF-, JFIF-, JPEG-feldolgozás és egyebek kezelését a lépésenkénti útmutatók és kódpéldák segítségével.
+### [PNG fájlok optimalizálása](./optimizing-png-files/)
+Fedezze fel az átfogó oktatóanyagokat a PNG-fájlok optimalizálásához az Aspose.PSD for Java használatával, beleértve a szűrőket, a háttérszín módosításait, a tömörítést, a felbontást, a bitmélységet és az átlátszóságot.
+### [PSD-képek módosítása és konvertálása](./modifying-converting-psd-images/)
+Javítsa PSD-fájljait különféle beállításokkal és effektusokkal az Aspose.PSD for Java segítségével. Lépésről lépésre bemutató oktatóanyagok a színkezeléshez, vízjelekhez és egyebekhez.
+### [PSD képmódosítás és átalakítás](./psd-image-modification-conversion/)
+Fedezze fel az alapvető Aspose.PSD for Java oktatóanyagokat. Ismerje meg a PSD-fájlok kezelését, a rétegek exportálását, az effektusok alkalmazását és még sok mást a lépésenkénti útmutatók segítségével.
+### [PSD rétegkezelés és effektusok](./psd-layer-management-effects/)
+Fedezzen fel átfogó oktatóanyagokat a PSD rétegkezelésről és effektusokról az Aspose.PSD for Java segítségével. Tanulja meg a PSD-rétegek egyszerű egyesítését, egyesítését és testreszabását.
+### [Speciális PSD-réteg funkciók és effektusok](./advanced-psd-layer-features-effects/)
+Fedezze fel a fejlett PSD-réteg funkcióit és effektusait az Aspose.PSD for Java segítségével. Tanulja meg a rétegek kezelését, effektusok hozzáadását és a különféle erőforrások támogatását a PSD-fájlokban.
+### [TIFF képtömörítés és konfigurálás](./tiff-image-compression-configuration/)
+Hatékonyan kezelheti a TIFF-képeket az Aspose.PSD for Java segítségével. Ismerje meg, hogyan tömörítheti, konfigurálhatja és alkalmazhatja az Adobe Deflate tömörítést TIFF-fájlokra lépésenkénti oktatóanyagaink segítségével.
+### [Munka PSD fájlokkal](./working-with-psd-files/)
+Fedezze fel az átfogó Aspose.PSD for Java oktatóanyagot, beleértve a PSD-rétegcsoportok képekké való exportálását, valamint a Clbl, Infx és Lspf erőforrások kezelését.

@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -127,7 +126,7 @@ catch (Exception e)
 ```
 Bước này xác minh rằng dữ liệu mẫu đã được áp dụng chính xác cho hiệu ứng nét vẽ.
 ## Phần kết luận
-Và bạn có nó rồi đấy! Bạn đã thêm thành công mẫu lớp nét vào tệp PSD bằng Aspose.PSD cho Java. Bằng cách làm theo các bước này, bạn có thể tùy chỉnh và nâng cao hình ảnh của mình một cách dễ dàng. Chúc mừng mã hóa!
+Và bạn có nó! Bạn đã thêm thành công mẫu lớp nét vào tệp PSD bằng Aspose.PSD cho Java. Bằng cách làm theo các bước này, bạn có thể tùy chỉnh và nâng cao hình ảnh của mình một cách dễ dàng. Chúc mừng mã hóa!
 ## Câu hỏi thường gặp
 ### Aspose.PSD cho Java là gì?
 Aspose.PSD cho Java là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các tệp PSD (Tài liệu Photoshop) theo chương trình.

@@ -69,7 +69,7 @@ XmpTrailerPi xmpTrailer = new XmpTrailerPi(true);
 ## 5. lépés: Hozzon létre XMP metaadatokat
 
 ```java
-// Hozzon létre egy példányt az XMPmeta osztályból különböző attribútumok beállításához
+// Hozzon létre egy XMPmeta osztály példányt a különböző attribútumok beállításához
 XmpMeta xmpMeta = new XmpMeta();
 xmpMeta.addAttribute("Author", "Mr Smith");
 xmpMeta.addAttribute("Description", "The fake metadata value");
@@ -132,7 +132,7 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 
 ## Következtetés
 
-Gratulálunk! Sikeresen létrehozta az XMP metaadatokat egy képhez az Aspose.PSD for Java használatával. Ez az oktatóanyag felkészítette Önt az alapvető lépésekre, amelyekkel zökkenőmentesen javíthatja és kezelheti a metaadatokat Java-alkalmazásaiban.
+Gratulálok! Sikeresen létrehozta az XMP metaadatokat egy képhez az Aspose.PSD for Java használatával. Ez az oktatóanyag felkészítette Önt az alapvető lépésekre, amelyekkel zökkenőmentesen javíthatja és kezelheti a metaadatokat Java-alkalmazásaiban.
 
 ## GYIK
 
@@ -150,7 +150,7 @@ Gratulálunk! Sikeresen létrehozta az XMP metaadatokat egy képhez az Aspose.PS
 
 ### 4. kérdés: Elérhető az Aspose.PSD próbaverziója?
 
- 4. válasz: Igen, az Aspose.PSD képességeit ingyenes próbaverzió megszerzésével fedezheti fel.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, felfedezheti az Aspose.PSD képességeit egy ingyenes próbaverzió megszerzésével[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol kérhetek támogatást az Aspose.PSD-vel kapcsolatos lekérdezésekhez?
 

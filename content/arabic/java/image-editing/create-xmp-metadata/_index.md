@@ -136,7 +136,7 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 
 ## الأسئلة الشائعة
 
-### س1: هل يتوافق Aspose.PSD مع تنسيقات الصور المختلفة؟
+### س1: هل Aspose.PSD متوافق مع تنسيقات الصور المختلفة؟
 
 ج1: نعم، يدعم Aspose.PSD تنسيقات الصور المختلفة، مما يوفر تعدد الاستخدامات في التعامل مع أنواع الملفات المختلفة.
 
@@ -150,7 +150,7 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 
 ### س4: هل هناك نسخة تجريبية متاحة لـ Aspose.PSD؟
 
- ج4: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س5: أين يمكنني طلب الدعم للاستعلامات المتعلقة بـ Aspose.PSD؟
 

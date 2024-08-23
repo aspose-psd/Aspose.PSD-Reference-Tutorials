@@ -13,7 +13,7 @@ Dalam dunia perkembangan Java yang dinamis, memanipulasi gambar adalah kebutuhan
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda.
 -  Aspose.PSD untuk Java: Unduh dan instal perpustakaan Aspose.PSD dari[halaman rilis](https://releases.aspose.com/psd/java/).

@@ -20,7 +20,6 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 Aspose.PSD for Java ile çalışmaya başlamak için öncelikle gerekli paketleri içe aktarın:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```

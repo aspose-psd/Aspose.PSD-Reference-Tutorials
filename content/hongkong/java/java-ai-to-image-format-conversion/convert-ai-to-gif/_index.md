@@ -12,7 +12,7 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ## 先決條件
 在我們開始之前，請確保您具備以下條件：
 - Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK。
--  Aspose.PSD for Java Library：從以下位置下載該程式庫：[Aspose.PSD for Java 下載頁面](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java Library：從以下位置下載該程式庫：[Aspose.PSD for Java 下載頁面](https://releases.aspose.com/psd/java/).
 - 整合開發環境 (IDE)：用於編寫和運行 Java 程式碼的 IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
 - AI 檔案：要轉換的 Adobe Illustrator 檔案。
 ## 導入包
@@ -20,7 +20,6 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -30,7 +29,7 @@ import com.aspose.psd.imageoptions.GifOptions;
 開啟 IDE 並建立新的 Java 專案。將其命名為相關的名稱，例如“AItoGIFConverter”。
 ### 1.2 將 Aspose.PSD 加入您的專案中
 從下列位置下載 Aspose.PSD for Java 函式庫[這裡](https://releases.aspose.com/psd/java/)。下載後，將庫新增至專案的建置路徑。這通常可以透過在 IDE 中右鍵單擊專案、導航到建置路徑設定並新增外部 JAR 檔案來完成。
-## 第二步：載入AI文件
+## 第2步：載入AI文件
 ### 2.1 定義檔路徑
 指定來源 AI 檔案和輸出 GIF 檔案的路徑。為簡單起見，我們將使用目錄的字串變數。
 ```java
@@ -76,7 +75,7 @@ try {
 }
 ```
 ## 結論
-你有它！只需幾行程式碼，您就可以使用 Aspose.PSD for Java 將 AI 檔案轉換為 GIF。該庫簡化了流程，使您可以專注於創建出色的應用程序，而不必擔心複雜的文件轉換。 
+給你了！只需幾行程式碼，您就可以使用 Aspose.PSD for Java 將 AI 檔案轉換為 GIF。該庫簡化了流程，使您可以專注於創建出色的應用程序，而不必擔心複雜的文件轉換。 
 Aspose.PSD for Java 是一款多功能工具，可以處理各種影像處理任務。因此，無論您是在使用圖形設計工具、自動化圖像處理應用程序，還是只需要為特定項目轉換文件，Aspose.PSD 都能滿足您的需求。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.PSD？

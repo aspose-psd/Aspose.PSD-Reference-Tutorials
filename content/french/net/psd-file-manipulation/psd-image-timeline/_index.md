@@ -58,7 +58,7 @@ Enfin, confirmez la réussite de l’exécution du code.
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
 ## Conclusion
-Toutes nos félicitations! Vous avez réussi à naviguer dans les subtilités de la gestion des chronologies d’images PSD à l’aide d’Aspose.PSD pour .NET. Ce didacticiel vous permet d'ajouter des cadres, de basculer entre eux et d'enregistrer votre image modifiée sans effort.
+Félicitations! Vous avez réussi à naviguer dans les subtilités de la gestion des chronologies d’images PSD à l’aide d’Aspose.PSD pour .NET. Ce didacticiel vous permet d'ajouter des cadres, de basculer entre eux et d'enregistrer votre image modifiée sans effort.
 ## FAQ
 
 ### Q1 : Puis-je utiliser Aspose.PSD pour .NET avec d’autres langages de programmation ?
@@ -71,7 +71,7 @@ A1 : Non, Aspose.PSD est spécifiquement conçu pour les applications .NET.
 
 ### Q3 : Puis-je essayer Aspose.PSD gratuitement avant d’acheter une licence ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je trouver une documentation détaillée pour Aspose.PSD ?
 

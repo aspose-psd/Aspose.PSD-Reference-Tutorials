@@ -16,7 +16,7 @@ url: /ar/java/image-editing/crop-image-by-rectangle/
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
 - تم تثبيت Java Development Kit (JDK) على جهازك.
--  Aspose.PSD لمكتبة جافا. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/psd/java/).
+- Aspose.PSD لمكتبة جافا. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/psd/java/).
 
 ## حزم الاستيراد
 
@@ -92,7 +92,7 @@ rasterImage.save(destName, new JpegOptions());
 
 ### س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج2: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ ج2: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على دعم أو مساعدة إضافية؟
 
@@ -100,7 +100,7 @@ rasterImage.save(destName, new JpegOptions());
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
- ج4: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: ما هي تنسيقات الصور المدعومة للاقتصاص في Aspose.PSD لـ Java؟
 

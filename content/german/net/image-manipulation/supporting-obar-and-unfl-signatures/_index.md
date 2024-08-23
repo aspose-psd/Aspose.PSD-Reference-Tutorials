@@ -1,27 +1,27 @@
 ---
 title: Unterstützung von ObAr- und UnFl-Signaturen in Aspose.PSD für .NET
-linktitle: Unterstützt ObAr- und UnFl-Signaturen
-second_title: Aspose.PSD .NET-API
-description: Entdecken Sie die Leistungsfähigkeit von Aspose.PSD für .NET bei der Unterstützung von ObAr- und UnFl-Signaturen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
+linktitle: Unterstützende ObAr- und UnFl-Signaturen
+second_title: Aspose.PSD .NET API
+description: Entdecken Sie die Leistungsfähigkeit von Aspose.PSD für .NET bei der Unterstützung von ObAr- und UnFl-Signaturen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
 type: docs
 weight: 15
 url: /de/net/image-manipulation/supporting-obar-and-unfl-signatures/
 ---
 ## Einführung
 
-Im Bereich der .NET-Entwicklung sticht Aspose.PSD als leistungsstarkes Tool zum Bearbeiten und Verarbeiten von Photoshop-Dateien hervor. Zu den umfangreichen Funktionen gehört die Unterstützung von ObAr- und UnFl-Signaturen, die für die erweiterte Bildbearbeitung von entscheidender Bedeutung sind. Dieses Tutorial führt Sie durch den Prozess und schlüsselt jeden Schritt auf, um eine nahtlose Implementierung zu gewährleisten.
+Im Bereich der .NET-Entwicklung sticht Aspose.PSD als leistungsstarkes Tool zum Bearbeiten und Verarbeiten von Photoshop-Dateien hervor. Zu den umfangreichen Funktionen gehört die Unterstützung von ObAr- und UnFl-Signaturen, die für die erweiterte Bildbearbeitung von entscheidender Bedeutung ist. Dieses Tutorial führt Sie durch den Prozess und unterteilt jeden Schritt, um eine nahtlose Implementierung zu gewährleisten.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Grundkenntnisse der .NET-Programmierung.
 -  Aspose.PSD für .NET installiert. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/psd/net/).
-- Eine Beispiel-PSD-Datei zum Testen. Sie können „LayeredSmartObjects8bit2.psd“ aus Ihrem Dokumentenverzeichnis verwenden.
+- Eine Beispiel-PSD-Datei zum Testen. Sie können „LayeredSmartObjects8bit2.psd“ aus Ihrem Dokumentverzeichnis verwenden.
 
 ## Namespaces importieren
 
-Stellen Sie sicher, dass Sie die erforderlichen Namespaces für Ihr .NET-Projekt importieren, um die Aspose.PSD-Funktionalität nutzen zu können:
+Stellen Sie sicher, dass Sie die erforderlichen Namespaces für Ihr .NET-Projekt importieren, um die Aspose.PSD-Funktionalität zu nutzen:
 
 ```csharp
 using System;
@@ -31,7 +31,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.LayerResources;
 using Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures;
 ```
 
-Kommen wir nun zur Schritt-für-Schritt-Anleitung.
+Lassen Sie uns nun in die Schritt-für-Schritt-Anleitung eintauchen.
 
 ## Schritt 1: Laden Sie das PSD-Bild
 
@@ -41,17 +41,17 @@ string sourceFilePath = baseFolder + "LayeredSmartObjects8bit2.psd";
 
 using (PsdImage image = (PsdImage)Image.Load(sourceFilePath))
 {
-    // Ihr Code für die Bildverarbeitung kommt hierher
+    // Hier kommt Ihr Code zur Bildverarbeitung hin
 }
 ```
 
-## Schritt 2: Unterstützen Sie ObAr- und UnFl-Signaturen
+## Schritt 2: Unterstützung von ObAr- und UnFl-Signaturen
 
 ```csharp
 //ExStart:SupportOfObArAndUnFlSignatures
 void AssertAreEqual(object actual, object expected)
 {
-    // Ihre Behauptungslogik kommt hierher
+    // Ihre Assertion-Logik kommt hierhin
 }
 
 UnitArrayStructure verticalStructure = null;
@@ -89,32 +89,32 @@ foreach (Layer imageLayer in image.Layers)
 }
 
 AssertAreEqual(true, verticalStructure != null);
-//ExEnd:SupportOfObArAndUnFlSignatures
+//ExEnd:UnterstützungOfObArAndUnFlSignatures
 
 Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 ```
 
 ## Abschluss
 
-Glückwunsch! Sie haben die Unterstützung für ObAr- und UnFl-Signaturen in Aspose.PSD für .NET erfolgreich implementiert. Diese Funktion eröffnet neue Möglichkeiten für die erweiterte Bildbearbeitung und -manipulation in Ihren .NET-Anwendungen.
+Herzlichen Glückwunsch! Sie haben die Unterstützung für ObAr- und UnFl-Signaturen erfolgreich in Aspose.PSD für .NET implementiert. Diese Funktion eröffnet neue Möglichkeiten für die erweiterte Bildbearbeitung und -manipulation in Ihren .NET-Anwendungen.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### F1: Ist Aspose.PSD mit den neuesten .NET-Frameworks kompatibel?
 
- A1: Aspose.PSD aktualisiert regelmäßig seine Kompatibilität. Siehe die[Dokumentation](https://reference.aspose.com/psd/net/) für die neuesten Informationen.
+ A1: Aspose.PSD aktualisiert seine Kompatibilität regelmäßig. Weitere Informationen finden Sie im[Dokumentation](https://reference.aspose.com/psd/net/) für die neuesten Informationen.
 
 ### F2: Wo finde ich Unterstützung für Aspose.PSD?
 
  A2: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für Community-Unterstützung und Diskussionen.
 
-### F3: Kann ich Aspose.PSD vor dem Kauf testen?
+### F3: Kann ich Aspose.PSD vor dem Kauf ausprobieren?
 
- A3: Ja, Sie können eine kostenlose Testversion ausprobieren.[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
 
- A4: Besuchen[dieser Link](https://purchase.aspose.com/temporary-license/) für temporäre Lizenzoptionen.
+ A4: Besuch[dieser Link](https://purchase.aspose.com/temporary-license/) für temporäre Lizenzierungsoptionen.
 
 ### F5: Wo kann ich Aspose.PSD für .NET kaufen?
 

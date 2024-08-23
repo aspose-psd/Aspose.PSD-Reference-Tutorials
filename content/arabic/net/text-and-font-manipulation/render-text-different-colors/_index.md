@@ -63,11 +63,11 @@ psdImage.Save(destName, pngOptions);
 
 ### س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
- ج2: نعم، يمكنك استكشاف Aspose.PSD لـ .NET من خلال نسخة تجريبية مجانية. تنزيله[هنا](https://releases.aspose.com/).
+ ج2: نعم، يمكنك استكشاف Aspose.PSD لـ .NET من خلال نسخة تجريبية مجانية. قم بتنزيله[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على وثائق Aspose.PSD لـ .NET؟
 
- A3: الوثائق التفصيلية متاحة.[هنا](https://reference.aspose.com/psd/net/) لمساعدتك على فهم وتنفيذ الميزات المتنوعة لـ Aspose.PSD لـ .NET.
+ A3: الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/psd/net/) لمساعدتك على فهم وتنفيذ الميزات المتنوعة لـ Aspose.PSD لـ .NET.
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 

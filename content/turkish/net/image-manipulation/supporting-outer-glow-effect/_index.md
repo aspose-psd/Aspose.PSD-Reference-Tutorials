@@ -23,7 +23,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 
 ## Ad Alanlarını İçe Aktar
 
-Bu bölümde Outer Glow Effect uygulamamızı başlatmak için gerekli ad alanlarını içe aktaracağız. Bu adımları takip et:
+Bu bölümde Outer Glow Effect uygulamamızı başlatmak için gerekli ad alanlarını içe aktaracağız. Şu adımları izleyin:
 
 ```csharp
 using System;
@@ -113,4 +113,4 @@ Cevap1: Evet, Aspose.PSD çok çeşitli .NET çerçevelerini destekleyerek çeş
 
 ### S5: .NET için Aspose.PSD'yi satın alabilir miyim?
 
- C5: Evet, lisanslama seçeneklerini araştırın ve satın alma işleminizi yapın.[Burada](https://purchase.aspose.com/buy).
+ Cevap5: Evet, lisanslama seçeneklerini araştırın ve satın alma işleminizi yapın[Burada](https://purchase.aspose.com/buy).

@@ -87,7 +87,7 @@ rasterImage.save(destName, new GifOptions());
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س 4: أين يمكنني العثور على دعم لـ Aspose.PSD لـ Java؟
 
@@ -95,4 +95,4 @@ rasterImage.save(destName, new GifOptions());
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
- ج5: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

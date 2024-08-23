@@ -17,7 +17,7 @@ Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình triển khai đ
 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
--  Thư viện Aspose.PSD cho .NET: Tải xuống và cài đặt thư viện Aspose.PSD cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/psd/net/).
+-  Thư viện Aspose.PSD cho .NET: Tải xuống và cài đặt thư viện Aspose.PSD cho .NET từ[liên kết tải xuống](https://releases.aspose.com/psd/net/).
 
 -  Thư mục Tài liệu: Thiết lập một thư mục để lưu trữ các tệp PSD của bạn và cập nhật`dataDir` biến trong đoạn mã được cung cấp kèm theo đường dẫn đến thư mục tài liệu của bạn.
 
@@ -80,7 +80,7 @@ Aspose.PSD for .NET đơn giản hóa quá trình thực hiện điều chỉnh 
 
 ### Câu hỏi 1: Tôi có thể tìm tài liệu về Aspose.PSD cho .NET ở đâu?
 
- A1: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/net/).
+ A1: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 2: Làm cách nào tôi có thể tải xuống thư viện Aspose.PSD cho .NET?
 
@@ -88,7 +88,7 @@ Aspose.PSD for .NET đơn giản hóa quá trình thực hiện điều chỉnh 
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí dành cho Aspose.PSD cho .NET không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể nhận hỗ trợ cho Aspose.PSD cho .NET ở đâu?
 
@@ -96,4 +96,4 @@ Aspose.PSD for .NET đơn giản hóa quá trình thực hiện điều chỉnh 
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
- Câu trả lời 5: Bạn có thể có được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

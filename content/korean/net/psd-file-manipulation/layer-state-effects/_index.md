@@ -77,7 +77,7 @@ psdImage.Save(outputFile);
 
 ### Q4: 임시 라이센스는 어떻게 얻나요?
 
- A4: 임시 라이센스를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: 지원이 필요하거나 질문이 있나요?
 

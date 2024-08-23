@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /cs/net/psd-file-manipulation/timeline/
 ---
-## Úvod
+## Zavedení
 dynamickém světě grafického designu a manipulace s obrázky je schopnost ovládat a manipulovat s časovou osou obrázků zásadní. Aspose.PSD for .NET poskytuje výkonné řešení se svou třídou Timeline. Tato funkce na vysoké úrovni umožňuje uživatelům provádět změny na časové ose PsdImage, jako je změna zpoždění snímku, úprava stavu vrstev na konkrétních snímcích a další.
 ## Předpoklady
 Než se ponoříte do vzrušujících možností, které nabízí třída Timeline, ujistěte se, že máte splněny následující předpoklady:
@@ -103,7 +103,7 @@ A2: Třída Timeline je speciálně navržena pro obrázky PSD. Informace o mani
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD pro .NET?
 
- A4: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jaké jsou hlavní výhody používání Aspose.PSD pro .NET?
 

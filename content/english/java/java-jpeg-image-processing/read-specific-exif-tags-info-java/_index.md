@@ -19,7 +19,6 @@ Before we dive into the code, there are a few things you'll need to have in plac
 First, you'll need to import the necessary Aspose.PSD packages into your Java project. Here’s how to set it up.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

@@ -18,7 +18,7 @@ Jelajahi dunia dinamis Aspose.PSD untuk .NET melalui tutorial kami yang ringkas 
 
 Ini adalah tautan ke beberapa sumber yang bermanfaat:
  
-- [Pengolahan citra](./net/image-processing/)
+- [Pemrosesan Gambar](./net/image-processing/)
 - [Manipulasi File PSD](./net/psd-file-manipulation/)
 - [Manipulasi Teks dan Font](./net/text-and-font-manipulation/)
 - [Menyimpan dan Mengekspor File](./net/file-saving-and-exporting/)
@@ -33,12 +33,12 @@ Ini adalah tautan ke beberapa sumber yang bermanfaat:
 
 ## Aspose.PSD untuk Tutorial Java
 {{% alert color="primary" %}}
-Mulailah perjalanan kreatif dengan Aspose.PSD untuk Java! Tutorial komprehensif kami mencakup segalanya mulai dari menguasai filter pemrosesan gambar tingkat lanjut hingga mengungkap rahasia konversi PSD dan menjelajahi seluk-beluk desain grafis. Tingkatkan keterampilan Anda selangkah demi selangkah, baik saat Anda mempelajari keajaiban pengeditan gambar, manipulasi tingkat lanjut, atau operasi desain grafis dasar. Aspose.PSD memberdayakan Anda untuk mewujudkan visi kreatif Anda, menjadikan pemrosesan gambar Java menjadi pengalaman yang menarik dan bermanfaat. Selami tutorial kami, jelajahi berbagai kemungkinan, dan keluarkan potensi penuh Anda dalam dunia desain grafis dan manipulasi gambar!
+Mulailah perjalanan kreatif dengan Aspose.PSD untuk Java! Tutorial komprehensif kami mencakup segalanya mulai dari menguasai filter pemrosesan gambar tingkat lanjut hingga mengungkap rahasia konversi PSD dan menjelajahi seluk-beluk desain grafis. Tingkatkan keterampilan Anda selangkah demi selangkah, baik saat Anda mempelajari keajaiban pengeditan gambar, manipulasi tingkat lanjut, atau operasi desain grafis mendasar. Aspose.PSD memberdayakan Anda untuk mewujudkan visi kreatif Anda, menjadikan pemrosesan gambar Java menjadi pengalaman yang menarik dan bermanfaat. Selami tutorial kami, jelajahi berbagai kemungkinan, dan keluarkan potensi penuh Anda dalam dunia desain grafis dan manipulasi gambar!
 {{% /alert %}}
 
 Ini adalah tautan ke beberapa sumber yang bermanfaat:
 
-- [Pengolahan citra](./java/image-processing/)
+- [Pemrosesan Gambar](./java/image-processing/)
 - [Konversi PSD](./java/psd-conversion/)
 - [Teknik Tingkat Lanjut](./java/advanced-techniques/)
 - [Pengeditan Gambar](./java/image-editing/)

@@ -78,11 +78,11 @@ psdImage.save(destName, new PngOptions());
 
 ### س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج2: نعم، يمكنك استكشاف النسخة التجريبية المجانية من Aspose.PSD لـ Java من خلال زيارة الموقع.[هذا الرابط](https://releases.aspose.com/).
+ ج2: نعم، يمكنك استكشاف النسخة التجريبية المجانية من Aspose.PSD لـ Java من خلال زيارة الموقع[هذا الرابط](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على وثائق شاملة لـ Aspose.PSD لـ Java؟
 
- ج3: راجع[توثيق](https://reference.aspose.com/psd/java/) للحصول على معلومات تفصيلية حول Aspose.PSD لـ Java.
+ ج3: راجع[الوثائق](https://reference.aspose.com/psd/java/) للحصول على معلومات تفصيلية حول Aspose.PSD لـ Java.
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.PSD لـ Java؟
 
@@ -90,4 +90,4 @@ psdImage.save(destName, new PngOptions());
 
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.PSD لـ Java؟
 
- ج5: نعم، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

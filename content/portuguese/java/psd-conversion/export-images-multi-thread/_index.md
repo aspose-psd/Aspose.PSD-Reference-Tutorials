@@ -64,7 +64,7 @@ if (f.exists()) {
 Agora você exportou imagens com sucesso em um ambiente multithread usando Aspose.PSD para Java!
 ## Conclusão
 Neste tutorial, exploramos o processo contínuo de exportação de imagens com Aspose.PSD para Java em uma configuração multithread. Eleve os recursos de processamento de imagens do seu aplicativo Java com o poder do Aspose.PSD.
-## perguntas frequentes
+## Perguntas frequentes
 ### O Aspose.PSD é compatível com todas as versões Java?
 Aspose.PSD é compatível com Java 1.7 e versões posteriores.
 ### Posso processar várias imagens simultaneamente usando Aspose.PSD?
@@ -74,4 +74,4 @@ Sim, Aspose.PSD oferece suporte a multithreading, permitindo processar várias i
 ### Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
  Sim, você pode acessar o teste gratuito[aqui](https://releases.aspose.com/).
 ### Como posso obter uma licença temporária para Aspose.PSD?
- Visita[esse link](https://purchase.aspose.com/temporary-license/) para obter uma licença temporária.
+ Visita[este link](https://purchase.aspose.com/temporary-license/) para obter uma licença temporária.

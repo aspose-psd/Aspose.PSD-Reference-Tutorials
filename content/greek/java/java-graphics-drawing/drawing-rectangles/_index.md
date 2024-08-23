@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -72,7 +71,7 @@ image.save(outpath, saveOptions);
 ```
  Αυτό αποθηκεύει την εικόνα με σχεδιαζόμενα ορθογώνια σε ένα αρχείο BMP που καθορίζεται από`outpath`.
 
-## συμπέρασμα
+## Σύναψη
 Η σχεδίαση ορθογωνίων μέσω προγραμματισμού σε εικόνες σε Java χρησιμοποιώντας το Aspose.PSD για Java είναι απλή με τα σωστά εργαλεία και βιβλιοθήκες. Ακολουθώντας αυτό το σεμινάριο, έχετε μάθει πώς να αρχικοποιείτε μια εικόνα, να χειρίζεστε αντικείμενα γραφικών, να σχεδιάζετε σχήματα και να αποθηκεύετε την τροποποιημένη εικόνα σε ένα αρχείο. Ο πειραματισμός με διαφορετικά σχήματα, χρώματα και διαστάσεις θα βελτιώσει περαιτέρω την κατανόησή σας για τον χειρισμό εικόνας στην Java.
 ## Συχνές ερωτήσεις
 ### Μπορεί το Aspose.PSD για Java να χειριστεί άλλα σχήματα εκτός από ορθογώνια;

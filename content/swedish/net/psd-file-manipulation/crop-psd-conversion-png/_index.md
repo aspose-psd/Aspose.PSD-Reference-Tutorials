@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Skapa en instans av klassen PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Steg 5: Spara den beskurna bilden som PNG.
+## Steg 5: Spara den beskurna bilden som PNG
 ```csharp
 // Anropa sparmetoden, ange utdatasökvägen och PngOptions för att konvertera PSD-filen till PNG och spara utdata
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ Grattis! Du har framgångsrikt lärt dig hur man beskär PSD-filer när du konve
 
 ### F1: Kan jag använda det här biblioteket i ett kommersiellt projekt?
 
- S1: Ja, Aspose.PSD för .NET är tillgängligt för kommersiellt bruk. Hänvisa till[Aspose.PSD-licensiering](https://purchase.aspose.com/buy) för detaljer.
+ S1: Ja, Aspose.PSD för .NET är tillgängligt för kommersiellt bruk. Referera till[Aspose.PSD-licensiering](https://purchase.aspose.com/buy) för detaljer.
 
 ### F2: Finns det en gratis provperiod?
 
- A2: Absolut! Du kan utforska en gratis testversion[här](https://releases.aspose.com/).
+A2: Absolut! Du kan utforska en gratis testversion[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta support för Aspose.PSD för .NET?
 

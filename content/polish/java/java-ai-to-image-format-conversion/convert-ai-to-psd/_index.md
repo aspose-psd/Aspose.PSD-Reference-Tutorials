@@ -15,12 +15,11 @@ Zanim zaczniemy, jest kilka rzeczy, które musisz przygotować:
 2.  Aspose.PSD dla Java: Pobierz bibliotekę Aspose.PSD dla Java z[strona pobierania](https://releases.aspose.com/psd/java/).
 3. Zintegrowane środowisko programistyczne (IDE): IDE, takie jak IntelliJ IDEA lub Eclipse, do pisania i wykonywania kodu Java.
 4. Plik AI: plik programu Adobe Illustrator, który chcesz przekonwertować.
-5. Licencja tymczasowa Aspose (opcjonalna): Aby uzyskać pełną funkcjonalność bez ograniczeń, możesz uzyskać licencję[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+5.  Licencja tymczasowa Aspose (opcjonalna): Aby uzyskać pełną funkcjonalność bez ograniczeń, możesz uzyskać licencję[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 ## Importuj pakiety
 Najpierw skonfigurujmy nasz projekt, importując niezbędne pakiety. Będziesz musiał uwzględnić Aspose.PSD for Java w ścieżce klasy swojego projektu. Oto jak to zrobić:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -35,7 +34,7 @@ Najpierw skonfiguruj swój projekt w preferowanym środowisku IDE.
 1. Jeśli pobrałeś plik JAR, dodaj go do ścieżki kompilacji projektu.
 2.  Jeśli używasz Mavena, upewnij się, że zależność jest poprawnie dodana do pliku`pom.xml`.
 ## Krok 2: Ładowanie pliku AI
-Teraz, gdy Twój projekt jest już skonfigurowany, załadujmy plik AI, który chcesz przekonwertować.
+Teraz, gdy projekt jest już skonfigurowany, załadujmy plik AI, który chcesz przekonwertować.
 ```java
 String dataDir = "Your Document Directory"; 
 String sourceFileName = dataDir + "34992OStroke.ai";       
@@ -60,7 +59,7 @@ Aspose.PSD dla Java to solidna biblioteka, która umożliwia programistom tworze
 ### Czy mogę używać Aspose.PSD dla Java za darmo?
  Aspose.PSD dla Java oferuje bezpłatną wersję próbną, którą można pobrać ze strony[bezpłatna strona próbna](https://releases.aspose.com/) . Aby uzyskać pełne funkcje, a[licencja](https://purchase.aspose.com/buy) jest wymagane.
 ### Jak uzyskać tymczasową licencję na Aspose.PSD dla Java?
-Licencję tymczasową można uzyskać od firmy[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+ Licencję tymczasową można uzyskać od firmy[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
 ### Czy można przekonwertować pliki PSD z powrotem na pliki AI?
 Obecnie Aspose.PSD dla Java nie obsługuje konwersji plików PSD z powrotem na pliki AI. Koncentruje się na obsłudze plików PSD i PSB.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?

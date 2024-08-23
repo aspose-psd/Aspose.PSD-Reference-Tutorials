@@ -104,8 +104,8 @@ C2: Evet, Aspose.PSD çok çeşitli görüntü formatlarını destekleyerek çe�
 
 ### S4: Satın almadan önce Aspose.PSD for Java'yı deneyebilir miyim?
 
- C4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD for Java için geçici lisansı nasıl edinebilirim?
 
-Cevap5: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.

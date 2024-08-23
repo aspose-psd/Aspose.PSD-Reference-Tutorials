@@ -18,7 +18,6 @@ Voordat we aan de slag gaan met de code, moet u ervoor zorgen dat u aan de volge
 Om met de code aan de slag te gaan, moet u de benodigde Aspose.PSD-pakketten importeren. Hier ziet u hoe u het kunt doen:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -53,7 +52,7 @@ Hiermee wordt de JPEG-kwaliteit voor alle afbeeldingen in de PDF op het maximale
 ```java
 image.save(outFileName, options);
 ```
- Deze regel converteert uw AI-afbeelding naar een PDF-bestand op het opgegeven pad. Verzekeren dat`outFileName` wijst naar de gewenste uitvoerlocatie.
+ Deze regel converteert uw AI-afbeelding naar een PDF-bestand op het opgegeven pad. Zorg ervoor dat`outFileName` wijst naar de gewenste uitvoerlocatie.
 
 ## Conclusie
 Het converteren van AI-bestanden naar PDF's in Java met Aspose.PSD is eenvoudig en efficiënt. Door de stappen in deze handleiding te volgen, kunt u deze functionaliteit eenvoudig in uw toepassingen integreren, waardoor het eenvoudig wordt om vectorafbeeldingen en illustraties in PDF-formaat te verwerken. Of u nu een ontwikkelaar of ontwerper bent of gewoon de mogelijkheden van AI- en PDF-conversies verkent, Aspose.PSD biedt een naadloze ervaring.

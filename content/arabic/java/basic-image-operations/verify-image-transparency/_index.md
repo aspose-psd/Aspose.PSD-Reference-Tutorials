@@ -77,7 +77,7 @@ if (opacity == 0) {
 
 ### س3: أين يمكنني العثور على الوثائق التفصيلية؟
 
- ج3: راجع[توثيق](https://reference.aspose.com/psd/java/)للحصول على معلومات شاملة حول استخدام Aspose.PSD لـ Java.
+ ج3: راجع[الوثائق](https://reference.aspose.com/psd/java/) للحصول على معلومات شاملة حول استخدام Aspose.PSD لـ Java.
 
 ### س4: كيف يمكنني الحصول على الدعم؟
 
@@ -85,4 +85,4 @@ if (opacity == 0) {
 
 ### س5: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 
- ج5: إذا كنت تقوم باختبار المكتبة، فيمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: إذا كنت تقوم باختبار المكتبة، فيمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

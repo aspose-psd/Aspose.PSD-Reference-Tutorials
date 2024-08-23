@@ -7,7 +7,7 @@ type: docs
 weight: 26
 url: /it/net/image-manipulation/
 ---
-## introduzione
+## Introduzione
 
 La manipolazione delle immagini è un'abilità vitale per qualsiasi sviluppatore o progettista che lavora con .NET e Aspose.PSD per .NET fornisce un potente toolkit per migliorare le tue capacità. In questo tutorial, approfondiremo varie tecniche di manipolazione delle immagini che possono essere applicate senza problemi utilizzando[Aspose.PSD](https://www.aspose.com/products/psd).
 

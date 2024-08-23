@@ -54,7 +54,7 @@ using (Image image = new PsdImage(100, 100))
 
 ## Adım 3: Bezier Eğrisini Ayarlama
 
- Kontrol noktalarını tanımlayarak ve eğriyi aşağıdaki komutu kullanarak çizerek Bezier eğrisini başlatın.`DrawBezier` yöntem. İşte bir örnek:
+ Kontrol noktalarını tanımlayarak ve eğriyi aşağıdaki komutu kullanarak çizerek Bezier eğrisini başlatın.`DrawBezier` Yöntem. İşte bir örnek:
 
 ```csharp
 Pen BlackPen = new Pen(Color.Black, 3);
@@ -72,7 +72,7 @@ graphic.DrawBezier(BlackPen, startX, startY, controlX1, controlY1, controlX2, co
 
 ## Adım 4: Görüntüyü Dışa Aktarma
 
- Başyapıtınızı kullanarak BMP dosya formatına kaydedin.`Save` yöntem. Çıkış yolunu ve seçeneklerini belirtin:
+ Başyapıtınızı kullanarak BMP dosya formatına kaydedin.`Save` Yöntem. Çıkış yolunu ve seçeneklerini belirtin:
 
 ```csharp
 string outpath = dataDir + "Bezier.bmp";
@@ -101,7 +101,7 @@ A3: Kesinlikle! Aspose.PSD for .NET, .NET ortamındaki görüntü işleme ve dü
 
 ### S4: Aspose.PSD for .NET için topluluk desteğini nerede bulabilirim?
 
- Cevap4: Aspose.PSD topluluğuna şu adresten katılın:[bu forum](https://forum.aspose.com/c/psd/34) Tartışma ve destek için.
+Cevap4: Aspose.PSD topluluğuna şu adresten katılın:[bu forum](https://forum.aspose.com/c/psd/34) Tartışma ve destek için.
 
 ### S5: Aspose.PSD for .NET'i öğrenmek için ücretsiz kaynaklar var mı?
 

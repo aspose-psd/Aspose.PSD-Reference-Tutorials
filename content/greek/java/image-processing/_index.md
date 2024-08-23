@@ -1,6 +1,6 @@
 ---
-title: ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ
-linktitle: ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ
+title: Επεξεργασία εικόνας
+linktitle: Επεξεργασία εικόνας
 second_title: Aspose.PSD Java API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.PSD για Java στην επεξεργασία εικόνας. Μάθετε να εφαρμόζετε τα φίλτρα Gaussian, Wiener, Median και Motion Wiener βήμα προς βήμα.
 type: docs

@@ -8,7 +8,7 @@ weight: 17
 url: /id/java/java-jpeg-image-processing/read-all-exif-tags-java/
 ---
 ## Perkenalan
-Dalam ranah pengembangan Java, menangani dan mengekstraksi metadata dari gambar adalah tugas yang umum, terutama ketika berhadapan dengan file PSD (Photoshop Document). Tag EXIF (Exchangeable Image File Format) berisi metadata berharga yang memberikan informasi tentang gambar, seperti pengaturan kamera, lokasi, dan banyak lagi. Tutorial ini berfokus pada penggunaan Aspose.PSD untuk Java, perpustakaan yang kuat untuk memanipulasi file PSD, untuk membaca tag EXIF secara efisien.
+Dalam ranah pengembangan Java, menangani dan mengekstrak metadata dari gambar adalah tugas yang umum, terutama ketika berhadapan dengan file PSD (Photoshop Document). Tag EXIF (Exchangeable Image File Format) berisi metadata berharga yang memberikan informasi tentang gambar, seperti pengaturan kamera, lokasi, dan banyak lagi. Tutorial ini berfokus pada penggunaan Aspose.PSD untuk Java, perpustakaan yang kuat untuk memanipulasi file PSD, untuk membaca tag EXIF secara efisien.
 ## Prasyarat
 Sebelum mendalami tutorial ini, pastikan Anda memiliki hal berikut:
 - Pengetahuan dasar tentang pemrograman Java.
@@ -19,13 +19,12 @@ Sebelum mendalami tutorial ini, pastikan Anda memiliki hal berikut:
 Untuk memulai, impor paket yang diperlukan dari Aspose.PSD untuk Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Impor ini akan memungkinkan Anda bekerja dengan gambar PSD dan mengekstrak metadata EXIF secara efisien.
+Impor ini memungkinkan Anda bekerja dengan gambar PSD dan mengekstrak metadata EXIF secara efisien.
 ## Langkah 1: Muat Gambar PSD
 Pertama, Anda perlu memuat file gambar PSD yang ingin Anda ekstrak tag EXIF-nya:
 ```java

@@ -87,11 +87,11 @@ Grattis! Du har lyckats gråskala en bild med Aspose.PSD för Java. Denna enkla 
 
 ### F1: Kan jag använda Aspose.PSD för Java för kommersiella projekt?
 
-S1: Ja, Aspose.PSD för Java är tillgängligt för kommersiellt bruk. Du kan köpa en licens[här](https://purchase.aspose.com/buy).
+ S1: Ja, Aspose.PSD för Java är tillgängligt för kommersiellt bruk. Du kan köpa en licens[här](https://purchase.aspose.com/buy).
 
 ### F2: Finns det en gratis testversion av Aspose.PSD för Java?
 
- S2: Ja, du kan utforska funktionerna i Aspose.PSD för Java med en gratis provperiod. Ladda ner det[här](https://releases.aspose.com/).
+ S2: Ja, du kan utforska funktionerna i Aspose.PSD för Java med en gratis provperiod. Ladda ner den[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta dokumentation för Aspose.PSD för Java?
 

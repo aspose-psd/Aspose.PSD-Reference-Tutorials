@@ -2,13 +2,13 @@
 title: Recurso de información de bordes de soporte en Aspose.PSD para .NET
 linktitle: Recurso de información fronteriza de apoyo
 second_title: API Aspose.PSD .NET
-description: Explore Aspose.PSD para obtener la función de recursos de información de bordes de .NET para obtener imágenes mejoradas. Siga nuestro tutorial para una integración perfecta. ¡Descargar ahora!
+description: Explore Aspose.PSD para obtener la función de recursos de información de bordes de .NET para obtener imágenes mejoradas. Siga nuestro tutorial para una integración perfecta. ¡Descárgalo ahora!
 type: docs
 weight: 11
 url: /es/net/psd-file-resources/supporting-border-information-resource/
 ---
 ## Introducción
-Bienvenido a nuestra guía paso a paso sobre cómo utilizar la función Recursos de información fronteriza en Aspose.PSD para .NET. En este tutorial, lo guiaremos a través del proceso de trabajar con recursos de información fronteriza usando Aspose.PSD, una potente biblioteca de imágenes .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial tiene como objetivo brindar claridad sobre la integración perfecta de los recursos de información fronteriza en sus proyectos.
+Bienvenido a nuestra guía paso a paso sobre cómo utilizar la función Recursos de información fronteriza en Aspose.PSD para .NET. En este tutorial, lo guiaremos a través del proceso de trabajar con recursos de información fronteriza utilizando Aspose.PSD, una potente biblioteca de imágenes .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial tiene como objetivo brindar claridad sobre cómo incorporar recursos de información fronteriza sin problemas en sus proyectos.
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de tener lo siguiente:
 -  Aspose.PSD para .NET: asegúrese de tener instalada la biblioteca Aspose.PSD. Puedes descargarlo desde el[Sitio web de Aspose.PSD](https://releases.aspose.com/psd/net/).
@@ -80,12 +80,12 @@ R1: Sí, Aspose.PSD para .NET es compatible con varios marcos .NET.
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener soporte?
 
- A4: Visita el[Foro de soporte de Aspose.PSD](https://forum.aspose.com/c/psd/34) para asistencia.
+ A4: Visita el[Foro de soporte de Aspose.PSD](https://forum.aspose.com/c/psd/34) para obtener ayuda.
 
 ### P5: ¿Hay licencias temporales disponibles?
 
- R5: Sí, puedes obtener licencias temporales.[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Sí, puedes obtener licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).

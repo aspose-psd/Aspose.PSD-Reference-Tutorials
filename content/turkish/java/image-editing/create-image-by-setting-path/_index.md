@@ -102,8 +102,8 @@ Cevap1: Evet, Aspose.PSD çeşitli Java Entegre Geliştirme Ortamları (IDE'ler)
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- C4: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
- Cevap5: Test amacıyla geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Test amaçlı geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

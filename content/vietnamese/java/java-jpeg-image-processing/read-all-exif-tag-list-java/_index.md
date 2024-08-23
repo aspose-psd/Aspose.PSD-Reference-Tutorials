@@ -2,13 +2,13 @@
 title: Đọc tất cả danh sách thẻ EXIF trong Java
 linktitle: Đọc tất cả danh sách thẻ EXIF trong Java
 second_title: API Java Aspose.PSD
-description: Tìm hiểu cách trích xuất siêu dữ liệu EXIF từ tệp PSD bằng Aspose.PSD cho Java với các ví dụ về mã và hướng dẫn toàn diện của chúng tôi.
+description: Tìm hiểu cách trích xuất siêu dữ liệu EXIF từ tệp PSD bằng Aspose.PSD cho Java với các ví dụ mã và hướng dẫn toàn diện của chúng tôi.
 type: docs
 weight: 16
 url: /vi/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ---
 ### Giới thiệu
-Trong lĩnh vực phát triển Java, việc quản lý và thao tác với các tệp PSD là một yêu cầu quan trọng đối với nhiều ứng dụng. Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để xử lý các tệp Tài liệu Photoshop (PSD) theo chương trình, cung cấp cho các nhà phát triển một bộ công cụ để đọc, ghi và sửa đổi các tệp PSD một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình đọc tất cả các thẻ EXIF từ tệp PSD bằng Aspose.PSD cho Java. Cuối cùng, bạn sẽ hiểu rõ cách trích xuất và sử dụng siêu dữ liệu EXIF được nhúng trong hình ảnh PSD.
+Trong lĩnh vực phát triển Java, việc quản lý và thao tác với các tệp PSD là một yêu cầu quan trọng đối với nhiều ứng dụng. Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để xử lý các tệp Tài liệu Photoshop (PSD) theo chương trình, cung cấp cho các nhà phát triển một bộ công cụ để đọc, ghi và sửa đổi các tệp PSD một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình đọc tất cả các thẻ EXIF từ tệp PSD bằng Aspose.PSD cho Java. Cuối cùng, bạn sẽ hiểu rõ về cách trích xuất và sử dụng siêu dữ liệu EXIF được nhúng trong hình ảnh PSD.
 ### Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn đã thiết lập các điều kiện tiên quyết sau:
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
@@ -18,7 +18,6 @@ Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn đã thi
 Để bắt đầu, hãy nhập các gói cần thiết từ Aspose.PSD cho Java vào dự án của bạn:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

@@ -9,7 +9,7 @@ url: /cs/net/file-and-font-handling/create-images-setting-path/
 ---
 V oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci a vytváření obrázků. V tomto tutoriálu se ponoříme do procesu vytváření obrázků pomocí Aspose.PSD pro .NET nastavením cesty. Postupujte podle těchto podrobných pokynů a odemkněte potenciál této všestranné knihovny.
 
-## Úvod
+## Zavedení
 
 Aspose.PSD for .NET umožňuje vývojářům bezproblémově pracovat se soubory Photoshopu, což umožňuje vytváření, manipulaci a transformaci obrázků. Tento tutoriál se zaměřuje na základní kroky k vytváření obrázků nastavením cesty pomocí Aspose.PSD v prostředí .NET.
 
@@ -25,7 +25,7 @@ using Aspose.PSD.ImageOptions;
 using Aspose.PSD.Sources;
 ```
 
-Ujistěte se, že máte ve svém projektu nainstalovanou knihovnu Aspose.PSD. Dokumentaci najdete[tady](https://reference.aspose.com/psd/net/).
+Ujistěte se, že máte ve svém projektu nainstalovanou knihovnu Aspose.PSD. Dokumentaci najdete[zde](https://reference.aspose.com/psd/net/).
 
 ## Krok 1: Definujte svůj adresář dokumentů
 
@@ -93,7 +93,7 @@ A2: Rozhodně! Aspose.PSD umožňuje provádět dávkové zpracování obrazu, t
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.PSD.[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.PSD[zde](https://releases.aspose.com/).
 
 ### Q5: Jak mohu získat podporu nebo vyhledat pomoc?
 

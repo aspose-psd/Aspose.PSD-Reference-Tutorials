@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -68,7 +67,7 @@ Açıklama:
 - `controlX2`, `controlY2`: İkinci kontrol noktası.
 - `endX`, `endY`: Eğrinin bitiş noktası.
 ## Adım 6: Bezier Eğrisini Çizin
- Kullan`drawBezier()` Daha önce tanımlanan yöntemi kullanarak Bezier eğrisini görüntü üzerine çizme yöntemi`Pen` ve kontrol noktaları.
+ Şunu kullanın:`drawBezier()` Daha önce tanımlanan yöntemi kullanarak Bezier eğrisini görüntü üzerine çizme yöntemi`Pen` ve kontrol noktaları.
 ```java
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```
@@ -87,7 +86,7 @@ Aspose.PSD for Java kullanarak Bezier eğrilerini Java'da çizmek, sağlanan iş
 ### Aynı görüntüde birden fazla Bezier eğrisi çizebilir miyim?
 Evet, işlemi bir döngü içinde tekrarlayarak, kontrol noktalarını ve uç noktaları gerektiği gibi değiştirerek birden fazla eğri çizebilirsiniz.
 ### Bezier eğrisinin rengini nasıl değiştirebilirim?
- Değiştirmek`Pen` nesnenin renk özelliği (`Color.getBlack()` örnekte) aramadan önce`drawBezier()`.
+ Değiştir`Pen` nesnenin renk özelliği (`Color.getBlack()` örnekte) aramadan önce`drawBezier()`.
 ### Aspose.PSD for Java yüksek çözünürlüklü görüntüler için uygun mudur?
 Evet, Aspose.PSD for Java, etkili bellek yönetimiyle yüksek çözünürlüklü görüntüleri destekler.
 ### Görüntüyü BMP dışındaki formatlara aktarabilir miyim?

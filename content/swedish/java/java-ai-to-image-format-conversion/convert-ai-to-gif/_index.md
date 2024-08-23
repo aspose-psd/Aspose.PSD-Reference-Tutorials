@@ -12,7 +12,7 @@ Att konvertera AI-filer (Adobe Illustrator) till GIF-filer i Java kan verka som 
 ## Förutsättningar
 Innan vi börjar, se till att du har följande:
 - Java Development Kit (JDK): Se till att du har JDK installerat på din maskin.
--  Aspose.PSD för Java Library: Ladda ner biblioteket från[Aspose.PSD för Java nedladdningssida](https://releases.aspose.com/psd/java/).
+- Aspose.PSD för Java Library: Ladda ner biblioteket från[Aspose.PSD för Java nedladdningssida](https://releases.aspose.com/psd/java/).
 - Integrated Development Environment (IDE): En IDE som IntelliJ IDEA, Eclipse eller NetBeans för att skriva och köra din Java-kod.
 - AI-fil: Adobe Illustrator-filen du vill konvertera.
 ## Importera paket
@@ -20,7 +20,6 @@ Först till kvarn, låt oss importera de nödvändiga paketen. Detta kommer att 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -54,7 +53,7 @@ GifOptions options = new GifOptions();
 ```java
 options.setDoPaletteCorrection(false);
 ```
-## Steg 4: Spara AI som GIF
+## Steg 4: Spara AI:n som GIF
 ### 4.1 Spara bilden
  Använd slutligen`save` metod för`AiImage` objekt för att spara AI-filen som en GIF.
 ```java

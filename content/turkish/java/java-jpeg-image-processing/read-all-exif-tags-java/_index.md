@@ -19,15 +19,14 @@ Bu eğitime dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Başlamak için gerekli paketleri Aspose.PSD for Java'dan içe aktarın:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Bu içe aktarmalar, PSD görselleriyle çalışmanıza ve EXIF meta verilerini verimli bir şekilde çıkarmanıza olanak tanır.
+Bu içe aktarmalar, PSD görüntüleri ile çalışmanıza ve EXIF meta verilerini verimli bir şekilde çıkarmanıza olanak tanır.
 ## 1. Adım: PSD Görüntüsünü Yükleyin
-Öncelikle EXIF etiketlerini çıkarmak istediğiniz PSD resim dosyasını yüklemeniz gerekir:
+Öncelikle EXIF etiketlerini çıkarmak istediğiniz PSD görüntü dosyasını yüklemeniz gerekir:
 ```java
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");

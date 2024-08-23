@@ -95,7 +95,7 @@ R2: Garantice el manejo adecuado de errores implementando bloques try-catch para
 
 R3: Mientras Aspose.PSD esté optimizado, considere la complejidad de sus operaciones para un rendimiento óptimo.
 
-### P4: ¿Puedo usar modos de fusión junto con otras funciones de procesamiento de imágenes?
+### P4: ¿Puedo utilizar modos de fusión junto con otras funciones de procesamiento de imágenes?
 
 R4: ¡Absolutamente! Los modos de fusión se pueden combinar con otras funciones de Aspose.PSD para una manipulación avanzada de imágenes.
 

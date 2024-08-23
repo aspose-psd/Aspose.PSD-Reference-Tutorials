@@ -9,7 +9,7 @@ url: /pl/java/basic-image-operations/verify-image-transparency/
 ---
 ## Wstęp
 
-Pracujesz z obrazami i chcesz zadbać o przejrzystość? Aspose.PSD dla Java zapewnia potężne rozwiązanie do sprawdzania przezroczystości obrazu, umożliwiając łatwe manipulowanie i analizowanie plików obrazów. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces sprawdzania przezroczystości obrazu za pomocą Aspose.PSD dla Java.
+Pracujesz z obrazami i chcesz zadbać o przejrzystość? Aspose.PSD dla Java zapewnia potężne rozwiązanie do sprawdzania przezroczystości obrazu, pozwalające na łatwe manipulowanie i analizowanie plików graficznych. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces sprawdzania przezroczystości obrazu za pomocą Aspose.PSD dla Java.
 
 ## Warunki wstępne
 
@@ -73,11 +73,11 @@ O1: Tak, Aspose.PSD for Java został zaprojektowany tak, aby bezproblemowo wspó
 
 ### P2: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 2: Tak, możesz eksplorować Aspose.PSD dla Java w ramach bezpłatnej wersji próbnej. Odwiedzać[ten link](https://releases.aspose.com/) rozpocząć.
+ Odpowiedź 2: Tak, możesz eksplorować Aspose.PSD dla Java w ramach bezpłatnej wersji próbnej. Odwiedzać[ten link](https://releases.aspose.com/) zacząć.
 
 ### P3: Gdzie mogę znaleźć szczegółową dokumentację?
 
- A3: Patrz[dokumentacja](https://reference.aspose.com/psd/java/)aby uzyskać wyczerpujące informacje na temat korzystania z Aspose.PSD dla Java.
+ A3: Patrz[dokumentacja](https://reference.aspose.com/psd/java/) aby uzyskać wyczerpujące informacje na temat korzystania z Aspose.PSD dla Java.
 
 ### P4: Jak mogę uzyskać wsparcie?
 
@@ -85,4 +85,4 @@ O1: Tak, Aspose.PSD for Java został zaprojektowany tak, aby bezproblemowo wspó
 
 ### P5: Czy potrzebuję tymczasowej licencji do testowania?
 
- Odpowiedź 5: Jeśli testujesz bibliotekę, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Jeśli testujesz bibliotekę, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

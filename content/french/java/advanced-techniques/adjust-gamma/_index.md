@@ -16,7 +16,7 @@ Dans le domaine du traitement d’images, l’ajustement du gamma d’une image 
 Avant de plonger dans le didacticiel, assurez-vous d'avoir configuré les conditions préalables suivantes :
 
 1. Environnement de développement Java : assurez-vous qu'un environnement de développement Java est installé sur votre système.
-2.  Bibliothèque Aspose.PSD : téléchargez et intégrez la bibliothèque Aspose.PSD dans votre projet Java. Vous pouvez trouver les ressources nécessaires dans le[Documentation](https://reference.aspose.com/psd/java/).
+2.  Bibliothèque Aspose.PSD : téléchargez et intégrez la bibliothèque Aspose.PSD dans votre projet Java. Vous pouvez trouver les ressources nécessaires dans le[documentation](https://reference.aspose.com/psd/java/).
 3. Exemple d'image : préparez un exemple d'image PSD que vous utiliserez pour appliquer l'ajustement gamma.
 
 ## Importer des packages
@@ -54,7 +54,7 @@ if (!rasterImage.isCached()) {
 
 ## Étape 2 : Ajuster le gamma
 
- Maintenant, ajustez le gamma de l'image chargée à l'aide du`adjustGamma` méthode. Affinez les valeurs gamma en fonction de vos besoins.
+ Maintenant, ajustez le gamma de l'image chargée à l'aide du`adjustGamma` méthode. Ajustez les valeurs gamma en fonction de vos besoins.
 
 ```java
 // Ajuster le gamma
@@ -85,7 +85,7 @@ rasterImage.save(destName, tiffOptions);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à ajuster le gamma d'une image à l'aide d'Aspose.PSD pour Java. Ce processus permet aux développeurs d'améliorer la qualité de l'image sans effort, contribuant ainsi à une expérience utilisateur visuellement attrayante.
+Félicitations! Vous avez réussi à ajuster le gamma d'une image à l'aide d'Aspose.PSD pour Java. Ce processus permet aux développeurs d'améliorer la qualité de l'image sans effort, contribuant ainsi à une expérience utilisateur visuellement attrayante.
 
 ## FAQ
 

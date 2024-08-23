@@ -57,24 +57,24 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Βήμα 4: Εφαρμόστε το φίλτρο Gaussian Blur.
+## Βήμα 4: Εφαρμόστε το φίλτρο Gaussian Blur
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Εδώ, το`GaussianBlurFilterOptions` Η κλάση χρησιμοποιείται με καθορισμένη ακτίνα 15 τόσο για οριζόντια όσο και για κάθετη θόλωση.
+ Εδώ, το`GaussianBlurFilterOptions` Η κλάση χρησιμοποιείται με καθορισμένη ακτίνα 15 για οριζόντια και κατακόρυφη θόλωση.
 
-## Βήμα 5: Αποθηκεύστε τη Θολωμένη εικόνα
+## Βήμα 5: Αποθηκεύστε τη Θολή εικόνα
 
 ```csharp
 string destName = dataDir + @"BlurAnImage_out.gif";
 rasterImage.Save(destName, new GifOptions());
 ```
 
-## συμπέρασμα
+## Σύναψη
 
-Συγχαρητήρια! Θολώσατε με επιτυχία μια εικόνα χρησιμοποιώντας το Aspose.PSD για .NET. Αυτό το σεμινάριο παρέχει μια ματιά στις δυνατότητες του Aspose.PSD και ανοίγει την πόρτα σε πολλές δυνατότητες χειρισμού εικόνας στις εφαρμογές σας .NET.
+Συγχαρητήρια! Θολώσατε με επιτυχία μια εικόνα χρησιμοποιώντας το Aspose.PSD για .NET. Αυτό το σεμινάριο παρέχει μια ματιά στις δυνατότητες του Aspose.PSD και ανοίγει την πόρτα σε μυριάδες δυνατότητες χειρισμού εικόνας στις εφαρμογές σας .NET.
 
 ## Συχνές ερωτήσεις
 

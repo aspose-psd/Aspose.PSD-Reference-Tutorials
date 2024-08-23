@@ -12,7 +12,7 @@ url: /hu/net/psd-file-manipulation/animated-data-sections/
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 - C# és .NET programozási alapismeretek.
-- Aspose.PSD for .NET telepítve. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET telepítve. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/psd/net/).
 - Kódszerkesztő, például a Visual Studio a zökkenőmentes megvalósításhoz.
 ## Névterek importálása
 Győződjön meg arról, hogy a C#-kódban importálja az Aspose.PSD-vel való munkához szükséges névtereket:
@@ -84,7 +84,7 @@ Console.WriteLine("SupportOfAnimatedDataSection executed successfully");
 Ez tájékoztatja a felhasználót, hogy a végrehajtás sikeres volt.
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta az animált adatrészek kezelését az Aspose.PSD for .NET-ben. Ez a készség felbecsülhetetlen értékű lehet dinamikus és vonzó PSD-képek létrehozásában az animáció precíz vezérlésével.
+Gratulálok! Sikeresen megtanulta az animált adatrészek kezelését az Aspose.PSD for .NET-ben. Ez a készség felbecsülhetetlen értékű lehet dinamikus és vonzó PSD-képek létrehozásában az animáció precíz vezérlésével.
 
 ## GYIK
 

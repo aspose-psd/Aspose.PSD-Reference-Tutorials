@@ -8,7 +8,7 @@ weight: 10
 url: /cs/net/psd-file-manipulation/support-layers-ai-format/
 ---
 Vítejte v našem podrobném průvodci, jak využít Aspose.PSD pro .NET ke zpracování podpůrných vrstev v souborech formátu AI. Aspose.PSD zjednodušuje složité úkoly a usnadňuje vývojářům práci se soubory AI v jejich aplikacích .NET. V tomto tutoriálu si probereme předpoklady, import jmenných prostorů a rozdělíme každý příklad do několika kroků, abychom zajistili bezproblémové učení.
-## Úvod
+## Zavedení
 ### Co je Aspose.PSD?
 Aspose.PSD for .NET je výkonná knihovna, která umožňuje vývojářům manipulovat a zpracovávat soubory Adobe Photoshop, včetně formátu AI (Adobe Illustrator). V tomto tutoriálu se zaměříme na podporu vrstev v souborech AI a ukážeme si, jak z každé vrstvy extrahovat cenné informace.
 ## Předpoklady
@@ -62,7 +62,7 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 Opakujte tyto kroky pro další vrstvy podle potřeby.
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili pracovat s podpůrnými vrstvami ve formátu AI pomocí Aspose.PSD pro .NET. Prozkoumejte rozsáhlé funkce a dokumentaci knihovny[tady](https://reference.aspose.com/psd/net/).
+Gratuluji! Úspěšně jste se naučili pracovat s podpůrnými vrstvami ve formátu AI pomocí Aspose.PSD pro .NET. Prozkoumejte rozsáhlé funkce a dokumentaci knihovny[zde](https://reference.aspose.com/psd/net/).
 
 ## FAQ
 
@@ -80,7 +80,7 @@ Odpověď 2: Ano, Aspose.PSD poskytuje funkce pro práci s textovými vrstvami v
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A4: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jaké formáty obrázků jsou podporovány pro ukládání pomocí Aspose.PSD?
 

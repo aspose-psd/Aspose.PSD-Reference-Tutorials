@@ -21,19 +21,18 @@ url: /ru/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
-Этот импорт включает основные классы для загрузки файлов AI и сохранения их в формате JPG.
+Этот импорт содержит необходимые классы для загрузки файлов AI и сохранения их в формате JPG.
 Давайте разобьем процесс преобразования на простые и выполнимые шаги. Следуйте инструкциям, чтобы легко преобразовать ваши AI-файлы в JPG.
 ## Шаг 1. Настройте среду
-Прежде чем мы начнем кодирование, убедитесь, что ваша среда разработки настроена правильно. Убедитесь, что в ваш проект добавлена библиотека Aspose.PSD для Java.
+Прежде чем мы начнем кодировать, убедитесь, что ваша среда разработки настроена правильно. Убедитесь, что в ваш проект добавлена библиотека Aspose.PSD для Java.
 -  Загрузите и установите JDK. Если вы еще этого не сделали, загрузите и установите JDK с сайта[веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Загрузите Aspose.PSD: Загрузите библиотеку из[Страница релизов Aspose](https://releases.aspose.com/psd/java/).
 - Добавьте Aspose.PSD в свой проект: включите файлы JAR в путь сборки вашего проекта.
 ## Шаг 2. Загрузите файл AI
- Первым шагом в нашем коде является загрузка AI-файла с помощью`AiImage` класс. Этот класс позволяет нам беспрепятственно работать с файлами Adobe Illustrator.
+Первым шагом в нашем коде является загрузка AI-файла с помощью`AiImage` сорт. Этот класс позволяет нам беспрепятственно работать с файлами Adobe Illustrator.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

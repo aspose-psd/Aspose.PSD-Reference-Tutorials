@@ -16,7 +16,7 @@ No mundo em constante evolução do desenvolvimento web, otimizar imagens para d
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Ambiente Java: Certifique-se de ter um ambiente de desenvolvimento Java configurado em sua máquina.
--  Biblioteca Aspose.PSD para Java: Baixe e instale a biblioteca Aspose.PSD para Java do[Link para Download](https://releases.aspose.com/psd/java/).
+-  Biblioteca Aspose.PSD para Java: Baixe e instale a biblioteca Aspose.PSD para Java do[link para baixar](https://releases.aspose.com/psd/java/).
 
 ## Importar pacotes
 
@@ -54,14 +54,14 @@ Image image = Image.load(sourceFile);
 
 ## Etapa 4: configurar a compactação GIF
 
- Criar uma`GifOptions` objeto para definir parâmetros para a compactação GIF, como a diferença máxima. Neste exemplo, definimos a diferença máxima como 200.
+ Crie um`GifOptions` objeto para definir parâmetros para a compactação GIF, como a diferença máxima. Neste exemplo, definimos a diferença máxima como 200.
 
 ```java
 GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Etapa 5: salve o GIF compactado.
+## Etapa 5: salvar GIF compactado
 
  Salve a imagem GIF compactada usando o`image.save` método com o especificado`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD for Java é uma biblioteca poderosa para trabalhar com arquivos PS
 
 ### Q3: Onde posso encontrar a documentação do Aspose.PSD para Java?
 
-A3: A documentação está disponível.[aqui](https://reference.aspose.com/psd/java/).
+A3: A documentação está disponível[aqui](https://reference.aspose.com/psd/java/).
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode acessar a avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q5: Como posso comprar Aspose.PSD para Java?
 
- A5: Você pode comprar a biblioteca.[aqui](https://purchase.aspose.com/buy).
+ A5: Você pode comprar a biblioteca[aqui](https://purchase.aspose.com/buy).

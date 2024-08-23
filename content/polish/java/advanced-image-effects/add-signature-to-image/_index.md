@@ -59,7 +59,7 @@ Graphics graphics = new Graphics(canvas);
 
 ## Krok 3: Dodaj podpis do obrazu
 
- Użyj`DrawImage` metoda dodania podpisu do obrazu głównego. Dostosuj lokalizację według potrzeb. W tym przykładzie próbujemy umieścić obraz wtórny w prawym dolnym rogu obrazu głównego:
+ Skorzystaj z`DrawImage` metoda dodania podpisu do obrazu głównego. Dostosuj lokalizację według potrzeb. W tym przykładzie próbujemy umieścić obraz wtórny w prawym dolnym rogu obrazu głównego:
 
 ```java
 //ExStart: Dodaj podpis do obrazu

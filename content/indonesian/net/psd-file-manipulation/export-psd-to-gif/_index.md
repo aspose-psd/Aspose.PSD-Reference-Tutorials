@@ -59,7 +59,7 @@ A1: Ya, Aspose.PSD untuk .NET mendukung ekspor animasi PSD ke berbagai format, t
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
- A3: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara untuk tujuan pengujian.
+ A3: Kunjungi[tautan ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara untuk tujuan pengujian.
 
 ### Q4: Opsi dukungan apa yang tersedia untuk Aspose.PSD untuk .NET?
 

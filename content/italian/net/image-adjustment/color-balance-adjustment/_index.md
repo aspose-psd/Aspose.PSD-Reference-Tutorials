@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /it/net/image-adjustment/color-balance-adjustment/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questa guida completa sull'applicazione della regolazione del bilanciamento del colore in Aspose.PSD per .NET! Aspose.PSD è una potente libreria .NET che consente agli sviluppatori di lavorare in modo efficiente con i file PSD. In questo tutorial, ci concentreremo sulla funzione di regolazione del bilanciamento del colore, che ti consente di migliorare facilmente il bilanciamento del colore delle tue immagini PSD.
 

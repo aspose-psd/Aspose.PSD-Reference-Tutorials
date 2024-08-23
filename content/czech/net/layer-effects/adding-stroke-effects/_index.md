@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/net/layer-effects/adding-stroke-effects/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto podrobném tutoriálu o přidávání efektů tahu do vrstev v Aspose.PSD pro .NET. Zlepšení vizuální přitažlivosti vašich obrázků je hračkou s efektem tahu a Aspose.PSD to umožňuje vývojářům .NET bezproblémově. V této příručce vás provedeme celým procesem a poskytneme jasné kroky a příklady, které vám pomohou zvládnout tuto výkonnou funkci.
 
@@ -15,7 +15,7 @@ Vítejte v tomto podrobném tutoriálu o přidávání efektů tahu do vrstev v 
 
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
-- Aspose.PSD pro .NET: Stáhněte a nainstalujte knihovnu Aspose.PSD z[webová stránka](https://releases.aspose.com/psd/net/).
+- Aspose.PSD pro .NET: Stáhněte a nainstalujte knihovnu Aspose.PSD z[webové stránky](https://releases.aspose.com/psd/net/).
 
 - Adresář dokumentů: Připravte adresář obsahující dokument PSD, na který chcete aplikovat efekty tahu.
 
@@ -86,7 +86,7 @@ Opakujte podobné kroky pro výplně přechodem a vzorem a odpovídajícím způ
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak přidat efekty tahu do vrstev pomocí Aspose.PSD pro .NET. Experimentujte s různými nastaveními, abyste dosáhli požadovaného vizuálního efektu ve svých obrázcích.
+Gratuluji! Úspěšně jste se naučili, jak přidat efekty tahu do vrstev pomocí Aspose.PSD pro .NET. Experimentujte s různými nastaveními, abyste dosáhli požadovaného vizuálního efektu ve svých obrázcích.
 
 ## FAQ
 

@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/net/image-processing/grayscaling-images/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem komplexním tutoriálu o obrázcích ve stupních šedi pomocí Aspose.PSD pro .NET! Stupňování šedi je výkonná technika, která může zvýšit vizuální přitažlivost vašich obrázků tím, že je převede do odstínů šedé. V této příručce vás provedeme procesem dosažení úžasných efektů ve stupních šedi bez námahy.
 
@@ -85,7 +85,7 @@ rasterCachedImage.Save(destName, new JpegOptions());
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste upravili obrázek ve stupních šedi pomocí Aspose.PSD pro .NET. Tento přímočarý proces může vašim snímkům dodat nádech sofistikovanosti.
+Gratuluji! Úspěšně jste upravili obrázek ve stupních šedi pomocí Aspose.PSD pro .NET. Tento přímočarý proces může vašim snímkům dodat nádech sofistikovanosti.
 
 ## FAQ
 
@@ -95,7 +95,7 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků, včetně PSD,
 
 ### Q2: Je k dispozici dočasná licence pro Aspose.PSD pro .NET?
 
- A2: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+ A2: Ano, můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Kde najdu podporu pro Aspose.PSD pro .NET?
 

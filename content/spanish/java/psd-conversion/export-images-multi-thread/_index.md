@@ -2,7 +2,7 @@
 title: Tutorial de exportación de imágenes multiproceso Aspose.PSD para Java
 linktitle: Exportar imágenes en un entorno multiproceso
 second_title: API de Java Aspose.PSD
-description: Explore el poder de Aspose.PSD para Java al exportar imágenes en un entorno multiproceso. ¡Eleve las capacidades de su aplicación Java!
+description: Explore el poder de Aspose.PSD para Java al exportar imágenes en un entorno multiproceso. ¡Mejore las capacidades de su aplicación Java!
 type: docs
 weight: 14
 url: /es/java/psd-conversion/export-images-multi-thread/

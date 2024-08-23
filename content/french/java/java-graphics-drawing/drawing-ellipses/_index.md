@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Avant de dessiner, nettoyez la surface graphique avec une couleur spécifique (f
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Étape 5 : Dessinez une ellipse en pointillés.
+## Étape 5 : Dessinez une ellipse en pointillés
 Utilisez un objet Pen de couleur rouge et dessinez une ellipse en pointillé dans un rectangle spécifié.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
@@ -65,7 +64,7 @@ image.save(outputPath, saveOptions);
 ```
 
 ## Conclusion
-Toutes nos félicitations! Vous avez appris avec succès à dessiner des ellipses par programmation à l'aide d'Aspose.PSD pour Java. Ce didacticiel a couvert la configuration de votre projet, l'initialisation des graphiques, le dessin d'ellipses en pointillés et continues et l'enregistrement de l'image résultante. Vous pouvez désormais intégrer ces techniques dans vos applications Java pour diverses tâches de conception graphique et de manipulation d'images.
+Félicitations! Vous avez appris avec succès à dessiner des ellipses par programmation à l'aide d'Aspose.PSD pour Java. Ce didacticiel a couvert la configuration de votre projet, l'initialisation des graphiques, le dessin d'ellipses en pointillés et continues et l'enregistrement de l'image résultante. Vous pouvez désormais intégrer ces techniques dans vos applications Java pour diverses tâches de conception graphique et de manipulation d'images.
 ## FAQ
 ### Puis-je utiliser Aspose.PSD gratuitement ?
 Aspose.PSD propose une version d'essai gratuite, vous permettant d'évaluer ses fonctionnalités avant d'acheter.

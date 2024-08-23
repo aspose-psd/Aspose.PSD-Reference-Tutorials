@@ -87,7 +87,7 @@ Parabéns! Você conseguiu dimensionar uma imagem em escala de cinza usando Aspo
 
 ### Q1: Posso usar Aspose.PSD para Java para projetos comerciais?
 
-A1: Sim, Aspose.PSD para Java está disponível para uso comercial. Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+ A1: Sim, Aspose.PSD para Java está disponível para uso comercial. Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
 
 ### Q2: Existe uma versão de teste gratuita do Aspose.PSD para Java?
 

@@ -18,7 +18,6 @@ Adobe Illustrator 파일로 작업 중이며 Java 애플리케이션에서 해�
 코드를 시작하려면 필요한 Aspose.PSD 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -63,7 +62,7 @@ Aspose.PSD는 개발자가 Java에서 Photoshop 및 Illustrator 파일을 작업
 ### Aspose.PSD를 무료로 사용해 볼 수 있나요?
  예! 다음에서 임시 라이센스를 얻거나 무료 평가판을 다운로드할 수 있습니다.[Aspose 릴리스](https://releases.aspose.com/psd/java/).
 ### Aspose.PSD는 어떤 파일 형식을 지원합니까?
- Aspose.PSD는 PSD, AI, TIFF, BMP 등을 포함한 다양한 형식을 지원합니다. 을 체크 해봐[선적 서류 비치](https://reference.aspose.com/psd/java/) 전체 목록을 보려면.
+ Aspose.PSD는 PSD, AI, TIFF, BMP 등을 포함한 다양한 형식을 지원합니다. 확인해보세요[선적 서류 비치](https://reference.aspose.com/psd/java/) 전체 목록을 보려면.
 ### Aspose.PSD에 대한 지원은 어떻게 받을 수 있나요?
  당신은 방문 할 수 있습니다[Aspose 포럼](https://forum.aspose.com/c/psd/34) 발생할 수 있는 질문이나 문제에 대해 문의하세요.
 ### Aspose.PSD 라이선스는 어디서 구매할 수 있나요?

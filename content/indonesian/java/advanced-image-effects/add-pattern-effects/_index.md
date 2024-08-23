@@ -2,7 +2,7 @@
 title: Tambahkan Efek Pola di Aspose.PSD untuk Java
 linktitle: Tambahkan Efek Pola
 second_title: Asumsikan.PSD Java API
-description: Sempurnakan pola gambar Java Anda dengan mudah dengan Aspose.PSD untuk Java. Ikuti tutorial langkah demi langkah kami untuk menambahkan efek pola yang menawan.
+description: Sempurnakan pola gambar Java Anda dengan mudah menggunakan Aspose.PSD untuk Java. Ikuti tutorial langkah demi langkah kami untuk menambahkan efek pola yang menawan.
 type: docs
 weight: 12
 url: /id/java/advanced-image-effects/add-pattern-effects/
@@ -129,7 +129,7 @@ A1: Aspose.PSD untuk Java dirancang untuk bekerja secara independen, namun Anda 
 
 ### Q3: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
- A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk Java?
 
@@ -137,4 +137,4 @@ A1: Aspose.PSD untuk Java dirancang untuk bekerja secara independen, namun Anda 
 
 ### Q5: Bisakah saya mendapatkan lisensi sementara Aspose.PSD untuk Java?
 
-A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

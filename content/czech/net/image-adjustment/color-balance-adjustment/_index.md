@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/net/image-adjustment/color-balance-adjustment/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto komplexním průvodci o aplikaci Color Balance Adjustment v Aspose.PSD pro .NET! Aspose.PSD je výkonná knihovna .NET, která umožňuje vývojářům efektivně pracovat se soubory PSD. V tomto tutoriálu se zaměříme na funkci Color Balance Adjustment, která vám umožní snadno zlepšit vyvážení barev vašich obrázků PSD.
 
@@ -74,7 +74,7 @@ Nyní jste úspěšně aplikovali Color Balance Adjustment na váš soubor PSD p
 
 ## Závěr
 
-Gratulujeme! Naučili jste se, jak zlepšit vyvážení barev vašich obrázků PSD pomocí Aspose.PSD pro .NET. Experimentujte s různými hodnotami vyvážení, abyste dosáhli požadovaných vizuálních efektů.
+Gratuluji! Naučili jste se, jak zlepšit vyvážení barev vašich obrázků PSD pomocí Aspose.PSD pro .NET. Experimentujte s různými hodnotami vyvážení, abyste dosáhli požadovaných vizuálních efektů.
 
 ## FAQ
 

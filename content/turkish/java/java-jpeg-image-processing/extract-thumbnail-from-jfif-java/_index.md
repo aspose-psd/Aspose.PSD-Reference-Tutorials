@@ -19,7 +19,6 @@ Bu eğitime devam etmeden önce aşağıdaki önkoşullara sahip olduğunuzdan e
 Başlamak için gerekli paketleri Java projenize aktardığınızdan emin olun:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;

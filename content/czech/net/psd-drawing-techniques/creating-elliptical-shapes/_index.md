@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem komplexním průvodci vytvářením eliptických tvarů pomocí Aspose.PSD pro .NET. Aspose.PSD je výkonná knihovna .NET, která umožňuje vývojářům manipulovat a převádět soubory Photoshopu bez potřeby Adobe Photoshop. V tomto tutoriálu vás provedeme procesem kreslení eliptických tvarů pomocí knihovny.
 
@@ -78,26 +78,26 @@ using (Image image = new PsdImage(100, 100))
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste vytvořili eliptické tvary pomocí Aspose.PSD pro .NET. Tento tutoriál se zabýval základními kroky, od nastavení prostředí až po kreslení tečkovaných i souvislých tvarů elips.
+Gratuluji! Úspěšně jste vytvořili eliptické tvary pomocí Aspose.PSD pro .NET. Tento tutoriál se zabýval základními kroky, od nastavení prostředí až po kreslení tečkovaných i souvislých tvarů elips.
 
 ## FAQ
 
 ### Q1: Kde najdu dokumentaci k Aspose.PSD pro .NET?
 
- A1: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/net/).
+ A1: Dokumentace je k dispozici[zde](https://reference.aspose.com/psd/net/).
 
 ### Q2: Jak stáhnu Aspose.PSD pro .NET?
 
- A2: Můžete si jej stáhnout ze stránky vydání.[tady](https://releases.aspose.com/psd/net/).
+ A2: Můžete si jej stáhnout ze stránky vydání[zde](https://releases.aspose.com/psd/net/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
- A4: Navštivte fórum podpory[tady](https://forum.aspose.com/c/psd/34).
+ A4: Navštivte fórum podpory[zde](https://forum.aspose.com/c/psd/34).
 
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
- A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

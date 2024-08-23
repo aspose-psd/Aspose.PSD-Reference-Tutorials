@@ -16,7 +16,7 @@ url: /ko/net/layer-effects/adding-stroke-layer-gradient/
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 
 - C# 및 .NET 개발에 대한 실무 지식.
--  .NET 라이브러리용 Aspose.PSD가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+-  .NET 라이브러리용 Aspose.PSD가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 - 제공된 예제를 구현하기 위한 Visual Studio와 같은 코드 편집기.
 
 ## 네임스페이스 가져오기
@@ -118,4 +118,4 @@ A1: 예, .NET용 Aspose.PSD는 다양한 .NET 프레임워크와 호환됩니다
 
 ### Q5: .NET용 Aspose.PSD 라이선스를 어떻게 구매하나요?
 
- A5: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A5: 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).

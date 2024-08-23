@@ -87,7 +87,7 @@ A2：是的，Aspose.PSD提供了多種濾鏡選項，以適應不同的影像�
 
 ### Q3：影像處理過程中出現異常如何處理？
 
- A3：將程式碼包裝在 try-catch 區塊中以優雅地處理異常。參考[Aspose.PSD 文檔](https://reference.aspose.com/psd/java/)更多細節。
+ A3：將程式碼包裝在 try-catch 區塊中以優雅地處理異常。參考[Aspose.PSD 文檔](https://reference.aspose.com/psd/java/)了解更多詳情。
 
 ### Q4：我可以依序套用多個篩選器嗎？
 

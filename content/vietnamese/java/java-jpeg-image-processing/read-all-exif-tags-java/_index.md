@@ -19,7 +19,6 @@ Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn có nh�
 Để bắt đầu, hãy nhập các gói cần thiết từ Aspose.PSD cho Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

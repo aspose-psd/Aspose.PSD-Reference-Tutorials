@@ -74,7 +74,7 @@ Teraz pomyślnie zastosowałeś regulację balansu kolorów do swojego pliku PSD
 
 ## Wniosek
 
-Gratulacje! Nauczyłeś się, jak poprawić balans kolorów obrazów PSD za pomocą Aspose.PSD dla .NET. Eksperymentuj z różnymi wartościami balansu, aby osiągnąć pożądane efekty wizualne.
+Gratulacje! Nauczyłeś się, jak poprawić balans kolorów obrazów PSD za pomocą Aspose.PSD dla .NET. Eksperymentuj z różnymi wartościami balansu, aby uzyskać pożądane efekty wizualne.
 
 ## Często zadawane pytania
 

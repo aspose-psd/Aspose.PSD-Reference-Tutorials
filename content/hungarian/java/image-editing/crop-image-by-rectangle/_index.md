@@ -16,7 +16,7 @@ A Java fejlesztés világában a képek manipulálása gyakori feladat, és az A
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java Development Kit (JDK) telepítve a gépére.
--  Aspose.PSD a Java könyvtárhoz. Letöltheti a[weboldal](https://releases.aspose.com/psd/java/).
+- Aspose.PSD a Java könyvtárhoz. Letöltheti a[weboldal](https://releases.aspose.com/psd/java/).
 
 ## Csomagok importálása
 
@@ -92,7 +92,7 @@ Ebben az oktatóanyagban végigvezettük a kép téglalap alakú kivágásának 
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 2. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 2. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hol találhatok további támogatást vagy segítséget?
 
@@ -100,7 +100,7 @@ Ebben az oktatóanyagban végigvezettük a kép téglalap alakú kivágásának 
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
 
- V4: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Melyek a támogatott képformátumok a kivágáshoz az Aspose.PSD for Java programban?
 

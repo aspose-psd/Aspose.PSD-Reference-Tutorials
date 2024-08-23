@@ -103,4 +103,4 @@ R3: El almacenamiento en caché mejora el rendimiento al almacenar datos de imá
 
 ### P5: ¿Existe una versión de prueba disponible para Aspose.PSD?
 
- R5: Sí, puedes acceder al[prueba gratis](https://releases.aspose.com/)para explorar las funciones de Aspose.PSD antes de realizar una compra.
+ R5: Sí, puedes acceder al[prueba gratuita](https://releases.aspose.com/)para explorar las funciones de Aspose.PSD antes de realizar una compra.

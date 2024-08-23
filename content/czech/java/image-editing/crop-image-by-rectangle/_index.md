@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/java/image-editing/crop-image-by-rectangle/
 ---
-## Úvod
+## Zavedení
 
 Ve světě vývoje v Javě je manipulace s obrázky běžným úkolem a Aspose.PSD pro Javu poskytuje výkonné řešení pro zpracování obrázků. V tomto tutoriálu vás provedeme procesem oříznutí obrázku pomocí obdélníku pomocí Aspose.PSD for Java. Postupujte podle níže uvedených kroků, abyste toho dosáhli snadno.
 
@@ -16,7 +16,7 @@ Ve světě vývoje v Javě je manipulace s obrázky běžným úkolem a Aspose.P
 Než se ponoříte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný na vašem počítači.
--  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/psd/java/).
+- Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -92,7 +92,7 @@ Odpověď 1: Ano, Aspose.PSD for Java lze integrovat s různými frameworky Java
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
- A2: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A2: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu další podporu nebo pomoc?
 
@@ -100,7 +100,7 @@ Odpověď 1: Ano, Aspose.PSD for Java lze integrovat s různými frameworky Java
 
 ### Q4: Jak získám dočasnou licenci pro Aspose.PSD for Java?
 
- A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jaké jsou podporované formáty obrázků pro oříznutí v Aspose.PSD pro Java?
 

@@ -82,7 +82,7 @@ A1: Ja, Aspose.PSD voor .NET ondersteunt verschillende PSD-bestandsversies en bi
 
 ### V2: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor .NET?
 
- A2: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) het verkrijgen van een tijdelijke licentie voor testdoeleinden.
+ A2: Bezoek[deze koppeling](https://purchase.aspose.com/temporary-license/) het verkrijgen van een tijdelijke licentie voor testdoeleinden.
 
 ### V3: Waar kan ik gedetailleerde documentatie vinden voor Aspose.PSD voor .NET?
 

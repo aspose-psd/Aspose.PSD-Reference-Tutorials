@@ -18,7 +18,6 @@ Before we get started with the code, make sure you have the following prerequisi
 To get started with the code, you need to import the necessary Aspose.PSD packages. Here’s how you can do it:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```

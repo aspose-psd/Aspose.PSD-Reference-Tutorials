@@ -65,7 +65,7 @@ using (var image = (PsdImage)Image.Load(sourceFilePath))
 //ExEnd:SupportOfBackgroundColorResource
 Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ```
-## συμπέρασμα
+## Σύναψη
 Συγχαρητήρια! Έχετε χειριστεί με επιτυχία το BackgroundColorResource στην εικόνα PSD χρησιμοποιώντας το Aspose.PSD για .NET. Αυτή είναι μόνο η αρχή του τι μπορείτε να επιτύχετε με αυτήν την ισχυρή βιβλιοθήκη.
 
 ## Συχνές ερωτήσεις
@@ -76,7 +76,7 @@ A1: Το Aspose.PSD υποστηρίζει ένα ευρύ φάσμα εκδόσ
 
 ### Ε2: Μπορώ να χρησιμοποιήσω το Aspose.PSD για εμπορικά έργα;
 
-A2: Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.PSD τόσο σε εμπορικά όσο και σε μη εμπορικά έργα. Ελεγξε το[σελίδα αγοράς](https://purchase.aspose.com/buy) για λεπτομέρειες αδειοδότησης.
+A2: Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.PSD τόσο σε εμπορικά όσο και σε μη εμπορικά έργα. Ελέγξτε το[σελίδα αγοράς](https://purchase.aspose.com/buy) για λεπτομέρειες αδειοδότησης.
 
 ### Ε3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD;
 

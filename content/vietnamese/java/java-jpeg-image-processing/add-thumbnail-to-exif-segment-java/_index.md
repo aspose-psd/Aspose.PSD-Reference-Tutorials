@@ -14,18 +14,17 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các đi�
 - Kiến thức cơ bản về lập trình Java.
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 - IDE (Môi trường phát triển tích hợp) cho Java, chẳng hạn như IntelliJ IDEA hoặc Eclipse.
--  Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[Trang tải xuống Aspose.PSD cho Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[Trang tải xuống Aspose.PSD cho Java](https://releases.aspose.com/psd/java/).
 ## Gói nhập khẩu
 Đầu tiên, nhập các gói cần thiết từ Aspose.PSD và Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Hãy chia nhỏ quá trình thêm hình thu nhỏ vào phân đoạn EXIF trong Java bằng Aspose.PSD thành các bước chi tiết:
+Hãy chia nhỏ quy trình thêm hình thu nhỏ vào phân đoạn EXIF trong Java bằng Aspose.PSD thành các bước chi tiết:
 ## Bước 1: Tải hình ảnh PSD
 Tải tệp hình ảnh PSD vào đối tượng PsdImage.
 ```java
@@ -54,7 +53,7 @@ Lưu hình ảnh đã sửa đổi trở lại đĩa.
 image.save(dataDir + "output.psd");
 ```
 ## Phần kết luận
-Thêm hình thu nhỏ vào phân đoạn EXIF trong Java bằng Aspose.PSD là một quá trình đơn giản giúp nâng cao khả năng sử dụng siêu dữ liệu hình ảnh. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể làm phong phú hình ảnh của mình bằng hình thu nhỏ xem trước một cách hiệu quả.
+Thêm hình thu nhỏ vào phân đoạn EXIF trong Java bằng Aspose.PSD là một quy trình đơn giản giúp nâng cao khả năng sử dụng siêu dữ liệu hình ảnh. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể làm phong phú hình ảnh của mình bằng hình thu nhỏ xem trước một cách hiệu quả.
 
 ## Câu hỏi thường gặp
 ### Siêu dữ liệu EXIF là gì?

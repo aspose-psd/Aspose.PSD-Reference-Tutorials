@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Aspose.PSD, geliştiricilerin Photoshop dosyalarıyla çalışmasına ve görün
 ### Aspose.PSD'yi PSD dışındaki formatlar için kullanabilir miyim?
 Bu kılavuzdan itibaren Aspose.PSD, özellikle PSD dosyalarıyla ilgilenmektedir ancak farklı görüntü formatlarını işlemek için uzantılar sunmaktadır.
 ### Aspose.PSD'nin deneme sürümü mevcut mu?
- Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.PSD'yi nasıl satın alabilirim?
  Aspose.PSD'yi şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
 ### Aspose.PSD için nereden destek alabilirim?

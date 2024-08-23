@@ -49,7 +49,7 @@ using (var image = (PsdImage)Image.Load(sourceFileName, loadOptions))
 }
 ```
 
-## Steg 2: Få tillgång till Shadow Effect
+## Steg 2: Få tillgång till skuggeffekten
 
 ```csharp
 var shadowEffect = (DropShadowEffect)(image.Layers[1].BlendingOptions.Effects[0]);

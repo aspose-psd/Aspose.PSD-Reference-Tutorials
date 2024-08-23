@@ -18,7 +18,6 @@ Mielőtt elkezdené, győződjön meg arról, hogy az alábbiakat beállította:
 A kezdéshez vegye fel a szükséges Aspose.PSD csomagot a Java osztályba:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -38,7 +37,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource) {
         ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
         
-        // Bélyegkép adatok kibontása
+        // Miniatűr adatok kibontása
         int[] data = thumbnail.getThumbnailArgb32Data();
         
         // Hozzon létre egy új képet a kibontott miniatűr adatokkal
@@ -70,7 +69,7 @@ Az Aspose.PSD egy Java-könyvtár, amely lehetővé teszi a fejlesztők számár
  Hivatkozhat a[dokumentáció](https://reference.aspose.com/psd/java/) részletes API-referenciákért és példákért.
 ### Vásárlás előtt ingyenesen kipróbálhatom az Aspose.PSD-t?
  Igen, letöltheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy értékelje a könyvtár képességeit.
-### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
+### Hogyan szerezhetek ideiglenes licenceket az Aspose.PSD-hez?
  Ideiglenes engedélyek szerezhetők be[itt](https://purchase.aspose.com/temporary-license/).
 ### Az Aspose.PSD alkalmas kereskedelmi használatra?
 Igen, az Aspose.PSD felhasználható személyes és kereskedelmi projektekhez is a licencfeltételei szerint.

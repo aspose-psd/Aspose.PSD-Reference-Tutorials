@@ -12,7 +12,7 @@ Hai! Apakah Anda siap terjun ke dunia pengolahan gambar menggunakan Java? Hari i
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki semua yang Anda butuhkan:
 1. Java Development Kit (JDK): Pastikan Anda menginstal JDK 8 atau lebih tinggi.
-2.  Aspose.PSD untuk Perpustakaan Java: Anda bisa[Unduh di sini](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD untuk Perpustakaan Java: Anda bisa[unduh di sini](https://releases.aspose.com/psd/java/).
 3. Lingkungan Pengembangan Terintegrasi (IDE): Semua IDE yang kompatibel dengan Java seperti IntelliJ IDEA, Eclipse, atau NetBeans bisa digunakan.
 4. Contoh File PSD: Untuk tutorial ini, Anda memerlukan contoh file PSD. Anda dapat menggunakan milik Anda sendiri atau menemukannya secara online.
 5. Pengetahuan Dasar Java: Memahami sintaks dasar Java dan konsep pemrograman berorientasi objek akan sangat membantu.
@@ -21,7 +21,6 @@ Baiklah, mari kita mengotori tangan kita!
 Hal pertama yang pertama, mari impor paket yang diperlukan. Anda memerlukan perpustakaan Aspose.PSD untuk Java untuk memulai. Pastikan Anda telah menambahkan perpustakaan ke dependensi proyek Anda. Berikut cara melakukannya:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -68,7 +67,7 @@ Selamat! Anda baru saja mempelajari cara memanipulasi file PSD dan menyimpannya 
 ### Apa itu Aspose.PSD untuk Java?
 Aspose.PSD untuk Java adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan file PSD di aplikasi Java. Ia menawarkan berbagai fitur untuk manipulasi dan transformasi gambar.
 ### Bagaimana cara menginstal Aspose.PSD untuk Java?
- Anda dapat mengunduh perpustakaan dari[situs web](https://releases.aspose.com/psd/java/) dan menambahkannya ke dependensi proyek Anda.
+Anda dapat mengunduh perpustakaan dari[situs web](https://releases.aspose.com/psd/java/) dan menambahkannya ke dependensi proyek Anda.
 ### Bisakah saya menggunakan profil warna khusus dengan Aspose.PSD untuk Java?
 Ya, Anda dapat mengatur profil warna RGB dan CMYK khusus saat mengonfigurasi opsi JPEG.
 ### Apa saja format gambar yang didukung di Aspose.PSD untuk Java?

@@ -21,7 +21,6 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```

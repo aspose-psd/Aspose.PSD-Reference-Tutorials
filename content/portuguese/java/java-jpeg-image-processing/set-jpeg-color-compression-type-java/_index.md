@@ -2,7 +2,7 @@
 title: Definir cor JPEG e tipo de compactação em Java
 linktitle: Definir cor JPEG e tipo de compactação em Java
 second_title: API Java Aspose.PSD
-description: Aprenda como definir a cor JPEG e o tipo de compactação em Java usando Aspose.PSD. Este guia passo a passo torna o processamento de imagens fácil e eficiente.
+description: Aprenda como definir a cor e o tipo de compactação JPEG em Java usando Aspose.PSD. Este guia passo a passo torna o processamento de imagens fácil e eficiente.
 type: docs
 weight: 13
 url: /pt/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
@@ -12,13 +12,12 @@ Na era digital de hoje, gerenciar e manipular imagens é uma necessidade comum, 
 ## Pré-requisitos
 Antes de mergulhar no código, certifique-se de ter os seguintes pré-requisitos:
 1. Java Development Kit (JDK) instalado em seu sistema.
-2.  Aspose.PSD para biblioteca Java. Você pode baixá-lo no[local na rede Internet](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD para biblioteca Java. Você pode baixá-lo no[site](https://releases.aspose.com/psd/java/).
 3. Uma compreensão básica da programação Java.
 ## Importar pacotes
 Primeiramente, você precisará importar os pacotes necessários da biblioteca Aspose.PSD. Essas importações são cruciais para lidar com arquivos PSD e aplicar as configurações JPEG desejadas.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -48,7 +47,7 @@ manipulação programática das propriedades da imagem pode economizar uma quant
 ### O que é Aspose.PSD para Java?
 Aspose.PSD para Java é uma biblioteca Java que permite aos desenvolvedores criar, editar e manipular arquivos PSD e PSB, permitindo uma ampla gama de operações de design gráfico de forma programática.
 ### Posso usar Aspose.PSD para Java gratuitamente?
- Sim, você pode usar um[teste grátis](https://releases.aspose.com/) de Aspose.PSD para Java. Para obter todos os recursos, você precisa adquirir uma licença.
+ Sim, você pode usar um[teste gratuito](https://releases.aspose.com/) de Aspose.PSD para Java. Para obter todos os recursos, você precisa adquirir uma licença.
 ### O que são JpegCompressionColorMode e JpegCompressionMode?
 `JpegCompressionColorMode` e`JpegCompressionMode` são enumerações na biblioteca Aspose.PSD que especificam o modo de cor e o tipo de compactação para imagens JPEG, respectivamente.
 ### Onde posso encontrar a documentação do Aspose.PSD para Java?

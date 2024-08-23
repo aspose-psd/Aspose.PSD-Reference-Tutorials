@@ -2,7 +2,7 @@
 title: AI'yi Java'da PSD'ye dönüştürün
 linktitle: AI'yi Java'da PSD'ye dönüştürün
 second_title: Aspose.PSD Java API'si
-description: Kolay adım adım kılavuzumuzla Aspose.PSD'yi kullanarak AI'yı Java'da PSD'ye dönüştürün. Hızlı ve kesintisiz dosya dönüştürmeye ihtiyaç duyan geliştiriciler için mükemmeldir.
+description: Kolay adım adım kılavuzumuzla Aspose.PSD'yi kullanarak AI'yi Java'da PSD'ye dönüştürün. Hızlı ve kesintisiz dosya dönüştürmeye ihtiyaç duyan geliştiriciler için mükemmeldir.
 type: docs
 weight: 14
 url: /tr/java/java-ai-to-image-format-conversion/convert-ai-to-psd/
@@ -15,12 +15,11 @@ Başlamadan önce, yerine getirmeniz gereken birkaç şey var:
 2.  Aspose.PSD for Java: Aspose.PSD for Java kütüphanesini şu adresten indirin:[indirme sayfası](https://releases.aspose.com/psd/java/).
 3. Entegre Geliştirme Ortamı (IDE): Java kodunuzu yazmak ve yürütmek için IntelliJ IDEA veya Eclipse gibi bir IDE.
 4. AI Dosyası: Dönüştürmek istediğiniz Adobe Illustrator dosyası.
-5. Geçici Lisansı Aspose (İsteğe Bağlı): Sınırlama olmaksızın tam işlevsellik için,[geçici lisans](https://purchase.aspose.com/temporary-license/).
+5.  Geçici Lisansı Aspose (İsteğe Bağlı): Sınırlama olmaksızın tam işlevsellik için,[geçici lisans](https://purchase.aspose.com/temporary-license/).
 ## Paketleri İçe Aktar
 Öncelikle gerekli paketleri import ederek projemizi kuralım. Aspose.PSD for Java'yı projenizin sınıf yoluna eklemeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -35,7 +34,7 @@ Süreci basit, yönetilebilir adımlara ayıralım.
 1. JAR dosyasını indirdiyseniz projenizin derleme yoluna ekleyin.
 2.  Maven kullanıyorsanız bağımlılığın doğru bir şekilde eklendiğinden emin olun.`pom.xml`.
 ## Adım 2: AI Dosyasını Yükleme
-Artık projeniz kurulduğuna göre dönüştürmek istediğiniz AI dosyasını yükleyelim.
+Artık projeniz ayarlandığına göre dönüştürmek istediğiniz AI dosyasını yükleyelim.
 ```java
 String dataDir = "Your Document Directory"; 
 String sourceFileName = dataDir + "34992OStroke.ai";       
@@ -46,21 +45,21 @@ Daha sonra PSD çıktımız için seçenekleri ayarlamamız gerekiyor.
 ```java
 PsdOptions options = new PsdOptions();
 ```
-## Adım 4: AI Dosyasını PSD Olarak Kaydetme
-AI dosyası yüklendiğinde ve seçenekler ayarlandığında artık bunu PSD dosyası olarak kaydedebiliriz.
+## Adım 4: AI Dosyasını PSD olarak Kaydetme
+AI dosyası yüklendiğinde ve seçenekler ayarlandığında artık onu bir PSD dosyası olarak kaydedebiliriz.
 ```java
 String outFileName = dataDir + "34992OStroke.psd";
 image.save(outFileName, options);
 ```
 ## Çözüm
-İşte buyur! Aspose.PSD for Java'yı kullanarak bir AI dosyasını başarılı bir şekilde PSD dosyasına dönüştürdünüz. Bu güçlü kitaplık, Java uygulamalarınızdaki karmaşık dosya dönüştürme işlemlerini gerçekleştirmenizi kolaylaştırır. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz AI'dan PSD'ye dönüştürme işlevini projelerinize kolaylıkla entegre etmenize yardımcı olacaktır.
+Ve işte karşınızda! Aspose.PSD for Java'yı kullanarak bir AI dosyasını başarılı bir şekilde PSD dosyasına dönüştürdünüz. Bu güçlü kitaplık, Java uygulamalarınızdaki karmaşık dosya dönüştürme işlemlerini gerçekleştirmenizi kolaylaştırır. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz AI'dan PSD'ye dönüştürme işlevini projelerinize kolaylıkla entegre etmenize yardımcı olacaktır.
 ## SSS'ler
 ### Java için Aspose.PSD nedir?
 Aspose.PSD for Java, geliştiricilerin Adobe Photoshop'a ihtiyaç duymadan Java uygulamaları içinde Photoshop dosyalarını (PSD ve PSB) oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplıktır.
 ### Aspose.PSD'yi Java için ücretsiz kullanabilir miyim?
  Aspose.PSD for Java, şu adresten indirebileceğiniz ücretsiz bir deneme sürümü sunuyor:[ücretsiz deneme sayfası](https://releases.aspose.com/) . Tüm özellikler için bir[lisans](https://purchase.aspose.com/buy) gereklidir.
 ### Aspose.PSD for Java için nasıl geçici lisans alabilirim?
-Geçici lisansı adresinden alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+ Geçici lisansı adresinden alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 ### PSD dosyalarını tekrar AI dosyalarına dönüştürmek mümkün mü?
 Şu anda Aspose.PSD for Java, PSD dosyalarının tekrar AI dosyalarına dönüştürülmesini desteklememektedir. PSD ve PSB dosyalarının işlenmesine odaklanır.
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?

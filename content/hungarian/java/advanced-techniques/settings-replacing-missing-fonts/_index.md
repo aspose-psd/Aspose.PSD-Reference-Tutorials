@@ -9,7 +9,7 @@ url: /hu/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
 ## Bevezetés
 
-A Java fejlesztés dinamikus birodalmában a PSD-fájlokban hiányzó betűtípusok kezelése és pótlása kulcsfontosságú szempont lehet a látványos és hibamentes képek létrehozásában. Az Aspose.PSD for Java nagy teljesítményű funkcióival segít, így a betűtípusok cseréje zökkenőmentes folyamat. Ebben az oktatóanyagban megvizsgáljuk a hiányzó betűtípusok pótlásának lépéseit az Aspose.PSD for Java használatával, így biztosítva, hogy a képek megőrizzék esztétikai integritásukat.
+Java fejlesztés dinamikus birodalmában a PSD-fájlokban hiányzó betűtípusok kezelése és pótlása kulcsfontosságú szempont lehet a látványos és hibamentes képek létrehozásában. Az Aspose.PSD for Java nagy teljesítményű funkcióival segít, így a betűtípusok cseréje zökkenőmentes folyamat. Ebben az oktatóanyagban megvizsgáljuk a hiányzó betűtípusok pótlásának lépéseit az Aspose.PSD for Java használatával, így biztosítva, hogy a képek megőrizzék esztétikai integritásukat.
 
 ## Előfeltételek
 
@@ -79,11 +79,11 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-Gratulálunk! Sikeresen pótolta a hiányzó betűtípusokat a PSD-fájlban az Aspose.PSD for Java segítségével.
+Gratulálok! Sikeresen pótolta a hiányzó betűtípusokat a PSD-fájlban az Aspose.PSD for Java segítségével.
 
 ## Következtetés
 
-A betűtípus cseréje gyerekjáték az Aspose.PSD for Java segítségével, amely robusztus megoldást kínál a fejlesztőknek a képeik vizuális konzisztenciájának megőrzésére. Ennek a lépésenkénti útmutatónak a követésével megtanulta, hogyan lehet zökkenőmentesen pótolni a hiányzó betűtípusokat, így biztosítva, hogy a képek megfeleljenek a legmagasabb szabványoknak.
+betűtípus cseréje gyerekjáték az Aspose.PSD for Java segítségével, amely robusztus megoldást kínál a fejlesztőknek a képeik vizuális konzisztenciájának megőrzésére. Ennek a lépésenkénti útmutatónak a követésével megtanulta, hogyan lehet zökkenőmentesen pótolni a hiányzó betűtípusokat, így biztosítva, hogy a képek megfeleljenek a legmagasabb szabványoknak.
 
 ## GYIK
 
@@ -97,7 +97,7 @@ A betűtípus cseréje gyerekjáték az Aspose.PSD for Java segítségével, ame
 
 ### 3. kérdés: Rendelkezésre állnak-e licencelési lehetőségek az Aspose.PSD számára?
 
- 3. válasz: Fedezze fel a licencelési lehetőségeket.[itt](https://purchase.aspose.com/buy)hogy kiválaszthassa az igényeinek leginkább megfelelő tervet.
+ 3. válasz: Fedezze fel a licencelési lehetőségeket[itt](https://purchase.aspose.com/buy) hogy kiválaszthassa az igényeinek leginkább megfelelő tervet.
 
 ### 4. kérdés: Létezik közösségi fórum az Aspose.PSD támogatására?
 

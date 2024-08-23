@@ -31,9 +31,9 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
 
-## Шаг 1. Загрузите изображение.
+## Шаг 1. Загрузите изображение
 
- Начните с загрузки существующего изображения в экземпляр`PsdImage` класс. Обязательно укажите правильный путь к файлу образца PSD-изображения.
+ Начните с загрузки существующего изображения в экземпляр`PsdImage` сорт. Обязательно укажите правильный путь к файлу образца PSD-изображения.
 
 ```java
 String dataDir = "Your Document Directory";

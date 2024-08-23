@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/net/image-adjustment/contrast-adjustment/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto komplexním průvodci implementací úpravy kontrastu v Aspose.PSD pro .NET! V tomto tutoriálu prozkoumáme proces vylepšení kontrastu obrázku pomocí Aspose.PSD, výkonné knihovny .NET pro obrázky. Na konci této příručky budete dobře rozumět tomu, jak plynule aplikovat úpravy kontrastu na vaše obrázky.
 
@@ -15,7 +15,7 @@ Vítejte v tomto komplexním průvodci implementací úpravy kontrastu v Aspose.
 
 Než se pustíme do procesu krok za krokem, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Knihovna Aspose.PSD pro .NET: Stáhněte a nainstalujte knihovnu Aspose.PSD pro .NET. Odkaz ke stažení najdete[tady](https://releases.aspose.com/psd/net/).
+1.  Knihovna Aspose.PSD pro .NET: Stáhněte a nainstalujte knihovnu Aspose.PSD pro .NET. Odkaz ke stažení najdete[zde](https://releases.aspose.com/psd/net/).
 
 2. Adresář dokumentů: Nastavte adresář, kde budou uloženy vaše zdrojové a cílové soubory. Nahraďte "Your Document Directory" v poskytnutém kódu cestou k tomuto adresáři.
 
@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Upravte kontrast o 50 %
 
 ## Krok 3: Vytvořte možnosti TIFF
 
- Vytvořte instanci`TiffOptions` Pro výsledný obrázek nastavte různé vlastnosti a uložte obrázek ve formátu TIFF.
+ Vytvořte instanci`TiffOptions` pro výsledný obrázek nastavte různé vlastnosti a uložte obrázek ve formátu TIFF.
 
 ```csharp
 //ExStart:CreateTiffOptions
@@ -74,7 +74,7 @@ rasterImage.Save(destName, tiffOptions);
 //ExEnd:CreateTiffOptions
 ```
 
-Gratulujeme! Úspěšně jste implementovali úpravu kontrastu pomocí Aspose.PSD pro .NET.
+Gratuluji! Úspěšně jste implementovali úpravu kontrastu pomocí Aspose.PSD pro .NET.
 
 ## Závěr
 
@@ -88,16 +88,16 @@ A1: Aspose.PSD for .NET je navržen tak, aby byl pro vývojáře přívětivý, 
 
 ### Q2: Mohu použít Aspose.PSD pro komerční projekty?
 
- A2: Ano, Aspose.PSD pro .NET lze použít v komerčních projektech. Podrobnosti o licencích naleznete na adrese[tady](https://purchase.aspose.com/buy).
+ A2: Ano, Aspose.PSD pro .NET lze použít v komerčních projektech. Podrobnosti o licencích naleznete na adrese[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET.[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.PSD pro .NET[zde](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.PSD pro .NET?
 
- Odpověď 4: Navštivte fórum podpory Aspose.PSD for .NET[tady](https://forum.aspose.com/c/psd/34) pro pomoc.
+ Odpověď 4: Navštivte fórum podpory Aspose.PSD for .NET[zde](https://forum.aspose.com/c/psd/34) o pomoc.
 
 ### Q5: Jak mohu získat dočasnou licenci?
 
- A5: V případě potřeby můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A5: V případě potřeby můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

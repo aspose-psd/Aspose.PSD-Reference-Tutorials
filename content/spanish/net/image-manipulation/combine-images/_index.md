@@ -80,7 +80,7 @@ Guarde la imagen combinada final.
 image.Save();
 ```
 
-¡Felicidades! Ha combinado con éxito dos imágenes utilizando Aspose.PSD para .NET.
+¡Felicidades! Ha combinado con éxito dos imágenes usando Aspose.PSD para .NET.
 
 ## Conclusión
 
@@ -102,8 +102,8 @@ R2: Sí, Aspose.PSD se puede utilizar tanto para fines personales como comercial
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.PSD?
 
- R4: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Puedo obtener una licencia temporal para Aspose.PSD?
 
-R5: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

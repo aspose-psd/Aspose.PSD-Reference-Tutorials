@@ -103,7 +103,7 @@ Câu trả lời 2: Lớp Dòng thời gian được thiết kế đặc biệt 
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
- A4: Xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Lợi ích chính của việc sử dụng Aspose.PSD cho .NET là gì?
 

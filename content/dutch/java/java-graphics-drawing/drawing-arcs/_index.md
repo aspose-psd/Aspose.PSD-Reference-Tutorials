@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ Deze pakketten bieden toegang tot klassen en methoden die nodig zijn voor het te
 ## Stap 1: Stel uw Java-project in
 Maak eerst een nieuw Java-project in uw IDE (Integrated Development Environment) en importeer de Aspose.PSD voor Java-bibliotheek. Zorg ervoor dat er correct naar de bibliotheek wordt verwezen in het buildpad van uw project.
 ## Stap 2: Initialiseer afbeeldings- en grafische objecten
- Maak een exemplaar van`PsdImage` En`Graphics` werken met:
+ Maak een exemplaar van`PsdImage` En`Graphics` om mee te werken:
 ```java
 String dataDir = "Your Document Directory";
 // Initialiseer het PsdImage-object
@@ -68,7 +67,7 @@ Bogen programmatisch tekenen met Aspose.PSD voor Java is eenvoudig en biedt flex
 ### Kan Aspose.PSD voor Java naast bogen ook andere vormen verwerken?
 Ja, Aspose.PSD ondersteunt het tekenen van verschillende vormen, waaronder rechthoeken, ellipsen, lijnen en aangepaste paden.
 ### Hoe kan ik boogeigenschappen zoals dikte en kleur wijzigen?
- U kunt het uiterlijk van de boog aanpassen door de`Pen` objecteigenschappen doorgegeven aan de`drawArc` methode.
+ U kunt het uiterlijk van de boog aanpassen door de`Pen` eigenschappen van het object doorgegeven aan de`drawArc` methode.
 ### Is Aspose.PSD geschikt voor het genereren van complexe grafische inhoud?
 Absoluut, Aspose.PSD biedt uitgebreide functies voor het manipuleren en maken van PSD-bestanden, en ondersteunt zowel eenvoudige als complexe grafische afbeeldingen.
 ### Ondersteunt Aspose.PSD het exporteren naar andere formaten dan BMP?

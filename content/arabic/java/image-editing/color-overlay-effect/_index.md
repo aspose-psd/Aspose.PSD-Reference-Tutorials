@@ -17,7 +17,7 @@ url: /ar/java/image-editing/color-overlay-effect/
 
 1. بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على جهازك.
 
-2. مكتبة Aspose.PSD: قم بتنزيل وتثبيت مكتبة Aspose.PSD لـ Java من[هنا](https://releases.aspose.com/psd/java/).
+2.  مكتبة Aspose.PSD: قم بتنزيل وتثبيت مكتبة Aspose.PSD لـ Java من[هنا](https://releases.aspose.com/psd/java/).
 
 3. مستند PSD: قم بإعداد مستند PSD حيث تريد تطبيق تأثير تراكب الألوان.
 
@@ -109,4 +109,4 @@ A1: لا، يمكن أن يتم تطبيق تأثير تراكب لون واحد
 
 ### س5: هل هناك أي خيارات تجريبية مجانية متاحة لـ Aspose.PSD؟
 
- ج5: نعم، اكتشف[تجربة مجانية](https://releases.aspose.com/)الإصدار قبل إجراء عملية الشراء.
+ ج5: نعم، اكتشف[تجربة مجانية](https://releases.aspose.com/) الإصدار قبل إجراء عملية الشراء.

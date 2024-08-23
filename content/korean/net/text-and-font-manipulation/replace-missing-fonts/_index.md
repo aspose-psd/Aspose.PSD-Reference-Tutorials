@@ -11,7 +11,7 @@ url: /ko/net/text-and-font-manipulation/replace-missing-fonts/
 글꼴 교체가 간편해지는 .NET용 Aspose.PSD의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 Aspose.PSD를 사용하여 PSD 파일에서 누락된 글꼴을 설정하고 교체하는 복잡한 프로세스를 자세히 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 단계별 가이드를 통해 글꼴 관련 문제를 쉽게 처리할 수 있습니다.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  .NET용 Aspose.PSD: 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[여기](https://releases.aspose.com/psd/net/).
+-  .NET용 Aspose.PSD: 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드하세요.[여기](https://releases.aspose.com/psd/net/).
 - 문서 디렉토리: PSD 문서 전용 디렉토리가 있습니다.
 - 출력 디렉터리: 수정된 파일이 저장될 별도의 폴더를 만듭니다.
 ## 네임스페이스 가져오기
@@ -74,4 +74,4 @@ A1: 예, Aspose.PSD를 사용하면 레이어별로 글꼴을 선택적으로 �
 
 ### Q5: Aspose.PSD에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 
- A5: 세부사항을 참조하십시오[선적 서류 비치](https://reference.aspose.com/psd/net/) Aspose.PSD 기능에 대한 심층적인 통찰력을 얻으려면
+ A5: 자세한 내용을 참조하세요.[선적 서류 비치](https://reference.aspose.com/psd/net/) Aspose.PSD 기능에 대한 심층적인 통찰력을 얻으려면

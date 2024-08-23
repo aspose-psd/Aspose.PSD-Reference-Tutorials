@@ -21,7 +21,6 @@ url: /ar/java/java-graphics-drawing/add-stroke-layer-gradient/
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -145,7 +144,7 @@ Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
 ## خاتمة
-وهناك لديك! أنت تعرف الآن كيفية إضافة تدرجات طبقة الحد ومعالجتها في ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا البرنامج التعليمي تحميل ملف PSD، والوصول إلى تأثيرات الحدود وتعديلها، وحفظ التغييرات. باستخدام هذه المهارات، يمكنك إنشاء تدرجات جذابة بصريًا وتخصيص ملفات PSD الخاصة بك لتناسب احتياجاتك.
+وهنا لديك! أنت تعرف الآن كيفية إضافة تدرجات طبقة الحد ومعالجتها في ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا البرنامج التعليمي تحميل ملف PSD، والوصول إلى تأثيرات الحدود وتعديلها، وحفظ التغييرات. باستخدام هذه المهارات، يمكنك إنشاء تدرجات جذابة بصريًا وتخصيص ملفات PSD الخاصة بك لتناسب احتياجاتك.
 ## الأسئلة الشائعة
 ### ما هو Aspose.PSD لجافا؟
 Aspose.PSD for Java هي مكتبة تتيح للمطورين العمل مع ملفات PSD في تطبيقات Java، وتوفر ميزات لإنشاء ملفات PSD ومعالجتها وتحويلها.

@@ -11,9 +11,9 @@ url: /nl/java/psd-conversion/color-conversion-icc-profiles/
 Welkom bij een uitgebreide handleiding over kleurconversie met behulp van ICC-profielen in Aspose.PSD voor Java. In deze zelfstudie onderzoeken we de stappen voor het uitvoeren van kleurconversie, waarbij we de nadruk leggen op het gebruik van ICC-profielen om nauwkeurige en consistente resultaten te bereiken. Of u nu een doorgewinterde ontwikkelaar of een beginner bent, deze gids begeleidt u door het proces met gedetailleerde uitleg en voorbeelden.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1.  Aspose.PSD voor Java-bibliotheek: Zorg ervoor dat de Aspose.PSD-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[releases](https://releases.aspose.com/psd/java/) bladzijde.
+1.  Aspose.PSD voor Java-bibliotheek: Zorg ervoor dat de Aspose.PSD-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[releases](https://releases.aspose.com/psd/java/) pagina.
 2. Java-ontwikkelomgeving: Een werkende Java-ontwikkelomgeving is essentieel voor het uitvoeren van de code. Zorg ervoor dat Java op uw systeem is geïnstalleerd.
-3. ICC-profielen: verkrijg de benodigde ICC-profielen voor kleurconversie. U kunt geschikte profielen vinden, zoals`eciRGB_v2.icc` En`ISOcoated_v2_FullGamut4.icc`, uit betrouwbare bronnen.
+3.  ICC-profielen: verkrijg de benodigde ICC-profielen voor kleurconversie. U kunt geschikte profielen vinden, zoals`eciRGB_v2.icc` En`ISOcoated_v2_FullGamut4.icc`, uit betrouwbare bronnen.
 ## Pakketten importeren
 Importeer in uw Java-project de vereiste Aspose.PSD-pakketten. Zorg ervoor dat u de benodigde afhankelijkheden in uw projectconfiguratie hebt opgenomen.
 ```java

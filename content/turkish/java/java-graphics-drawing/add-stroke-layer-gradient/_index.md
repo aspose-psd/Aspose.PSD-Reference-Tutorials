@@ -21,7 +21,6 @@ Başlamadan önce, yerinde olması gereken birkaç şey var. Aşağıdakilere sa
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -145,7 +144,7 @@ Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
 ## Çözüm
-İşte buyur! Artık Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki kontur katmanı degradelerini nasıl ekleyeceğinizi ve değiştireceğinizi biliyorsunuz. Bu eğitim, PSD dosyasının yüklenmesini, kontur efektlerine erişmeyi ve bunları değiştirmeyi ve değişiklikleri kaydetmeyi kapsıyordu. Bu becerilerle görsel olarak çekici degradeler oluşturabilir ve PSD dosyalarınızı ihtiyaçlarınıza göre özelleştirebilirsiniz.
+Ve işte karşınızda! Artık Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki kontur katmanı degradelerini nasıl ekleyeceğinizi ve değiştireceğinizi biliyorsunuz. Bu eğitim, PSD dosyasının yüklenmesini, kontur efektlerine erişmeyi ve bunları değiştirmeyi ve değişiklikleri kaydetmeyi kapsıyordu. Bu becerilerle görsel olarak çekici degradeler oluşturabilir ve PSD dosyalarınızı ihtiyaçlarınıza göre özelleştirebilirsiniz.
 ## SSS'ler
 ### Java için Aspose.PSD nedir?
 Aspose.PSD for Java, geliştiricilerin Java uygulamalarında PSD dosyalarıyla çalışmasına olanak tanıyan, PSD dosyalarını oluşturma, işleme ve dönüştürme özellikleri sunan bir kütüphanedir.

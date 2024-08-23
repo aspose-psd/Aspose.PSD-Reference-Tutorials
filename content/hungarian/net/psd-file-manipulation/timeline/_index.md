@@ -103,7 +103,7 @@ A1: Abszolút! Az Aspose.PSD for .NET felhasználóbarát felületet és átfog�
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 
- A4: Szerezzen ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ A4: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Melyek az Aspose.PSD for .NET használatának legfontosabb előnyei?
 

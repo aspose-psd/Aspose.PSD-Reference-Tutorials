@@ -95,13 +95,13 @@ Guarde la imagen modificada en el directorio especificado con el formato de arch
 
 ## Conclusión
 
-¡Felicidades! Ha creado con éxito un gráfico visualmente atractivo utilizando la clase Graphics en Aspose.PSD para .NET. Este tutorial solo toca la superficie de lo que puedes lograr con Aspose.PSD, así que siéntete libre de explorar funciones más avanzadas y dar rienda suelta a tu creatividad.
+¡Felicidades! Ha creado con éxito un gráfico visualmente atractivo utilizando la clase Graphics en Aspose.PSD para .NET. Este tutorial solo toca la superficie de lo que puedes lograr con Aspose.PSD, ¡así que siéntete libre de explorar funciones más avanzadas y dar rienda suelta a tu creatividad!
 
 ## Preguntas frecuentes
 
 ### P1: ¿Puedo utilizar Aspose.PSD para .NET en mis proyectos comerciales?
 
-R1: Sí, Aspose.PSD para .NET está disponible para uso comercial. Revisar la[pagina de compra](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
+R1: Sí, Aspose.PSD para .NET está disponible para uso comercial. Mira el[pagina de compra](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
@@ -109,7 +109,7 @@ R1: Sí, Aspose.PSD para .NET está disponible para uso comercial. Revisar la[pa
 
 ### P3: ¿Dónde puedo encontrar documentación detallada sobre Aspose.PSD para .NET?
 
- A3: La documentación completa está disponible.[aquí](https://reference.aspose.com/psd/net/).
+ A3: La documentación completa está disponible[aquí](https://reference.aspose.com/psd/net/).
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -117,4 +117,4 @@ R1: Sí, Aspose.PSD para .NET está disponible para uso comercial. Revisar la[pa
 
 ### P5: ¿Necesito una licencia temporal de Aspose.PSD para .NET?
 
- R5: Si necesita una licencia temporal, puede obtenerla.[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Si necesita una licencia temporal, puede obtenerla[aquí](https://purchase.aspose.com/temporary-license/).

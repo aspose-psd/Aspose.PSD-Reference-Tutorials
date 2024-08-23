@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/advanced-techniques/convert-psd-to-raster-formats/
 ---
-## Úvod
+## Zavedení
 
 V dynamickém světě webového vývoje je převod souborů PSD (Photoshop Document) do různých formátů rastrových obrázků běžným požadavkem. Aspose.PSD pro Java se ukazuje jako mocný nástroj, jak toho dosáhnout. Tento tutoriál vás provede celým procesem a nabídne vám podrobné pokyny k použití Aspose.PSD pro Java k převodu souborů PSD do oblíbených formátů rastrových obrázků.
 
@@ -16,7 +16,7 @@ V dynamickém světě webového vývoje je převod souborů PSD (Photoshop Docum
 Než se ponoříte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
--  Aspose.PSD for Java Library: Stáhněte si a nainstalujte knihovnu Aspose.PSD for Java. Knihovnu a její dokumentaci najdete[tady](https://reference.aspose.com/psd/java/).
+-  Aspose.PSD for Java Library: Stáhněte si a nainstalujte knihovnu Aspose.PSD for Java. Knihovnu a její dokumentaci najdete[zde](https://reference.aspose.com/psd/java/).
 - Vzorový soubor PSD: Připravte si vzorový soubor PSD ke konverzi.
 
 ## Importujte balíčky
@@ -109,7 +109,7 @@ A3: Rozhodně. Aspose.PSD umožňuje efektivní dávkové zpracování, takže j
 
 ### Q4: Existují nějaká licenční omezení pro používání Aspose.PSD?
 
- A4: Viz[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích. Můžete také prozkoumat dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Viz[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích. Můžete také prozkoumat dočasné licence[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde mohu hledat podporu nebo se spojit s komunitou?
 

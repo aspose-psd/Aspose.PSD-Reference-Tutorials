@@ -16,7 +16,7 @@ Witamy w tym przewodniku krok po kroku dotyczącym wykonywania prostego rysowani
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
--  Aspose.PSD dla biblioteki Java. Można go pobrać z[Aspose.PSD dla dokumentacji Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD dla biblioteki Java. Można go pobrać z[Aspose.PSD dla dokumentacji Java](https://reference.aspose.com/psd/java/).
 
 ## Importuj pakiety
 
@@ -63,7 +63,7 @@ image.addLayer(layer);
 
 ## Krok 3: Narysuj kształty
 
-tym kroku wykorzystamy klasę Graphics do narysowania kształtów na utworzonej warstwie:
+W tym kroku wykorzystamy klasę Graphics do narysowania kształtów na utworzonej warstwie:
 
 ### Narysuj prostokąt żółtym kolorem
 
@@ -116,7 +116,7 @@ O1: Tak, Aspose.PSD dla Java zapewnia rozbudowaną funkcjonalność do edycji i 
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę kupić licencję na Aspose.PSD dla Java?
 

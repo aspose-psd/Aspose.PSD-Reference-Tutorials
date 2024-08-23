@@ -19,7 +19,6 @@ Before we dive into the tutorial, let's cover the prerequisites. Here's what you
 First things first, let's import the necessary packages. These imports are essential for working with the Aspose.PSD library and handling image conversions.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;

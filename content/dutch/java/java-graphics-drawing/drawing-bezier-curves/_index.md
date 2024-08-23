@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -48,7 +47,7 @@ graphics.clear(Color.getYellow());
 Uitleg:
 - `clear()` methode stelt de achtergrondkleur van het grafische oppervlak in.
 ## Stap 4: Initialiseer de pen voor tekenen
- Het opzetten van een`Pen` object met eigenschappen zoals kleur en breedte om te definiëren hoe de curve wordt getekend.
+ Stel een`Pen` object met eigenschappen zoals kleur en breedte om te definiëren hoe de curve wordt getekend.
 ```java
 Pen blackPen = new Pen(Color.getBlack(), 3);
 ```

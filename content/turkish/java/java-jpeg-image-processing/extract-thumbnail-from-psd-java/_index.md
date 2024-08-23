@@ -18,7 +18,6 @@ Başlamadan önce aşağıdaki kurulumlara sahip olduğunuzdan emin olun:
 Başlamak için gerekli Aspose.PSD paketini Java sınıfınıza ekleyin:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;

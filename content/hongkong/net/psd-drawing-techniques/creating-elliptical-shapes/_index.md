@@ -84,15 +84,15 @@ using (Image image = new PsdImage(100, 100))
 
 ### Q1：在哪裡可以找到 Aspose.PSD for .NET 的文件？
 
- A1：文檔可用。[這裡](https://reference.aspose.com/psd/net/).
+ A1：文檔可用[這裡](https://reference.aspose.com/psd/net/).
 
 ### Q2：如何下載 Aspose.PSD for .NET？
 
- A2：您可以從發布頁面下載它。[這裡](https://releases.aspose.com/psd/net/).
+ A2：您可以從發布頁面下載它[這裡](https://releases.aspose.com/psd/net/).
 
 ### Q3：有免費試用嗎？
 
- A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### 問題 4：如何獲得 Aspose.PSD for .NET 支援？
 
@@ -100,4 +100,4 @@ using (Image image = new PsdImage(100, 100))
 
 ### Q5：測試需要臨時許可證嗎？
 
- A5: 是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).

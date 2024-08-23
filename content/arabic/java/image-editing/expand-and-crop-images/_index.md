@@ -93,7 +93,7 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 
 ### س3: هل هناك أي قيود على تنسيقات ملفات الصور المدعومة؟
 
- A3: يدعم Aspose.PSD مجموعة متنوعة من تنسيقات ملفات الصور، بما في ذلك PSD وJPEG وPNG والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/psd/java/) للحصول على قائمة كاملة.
+ A3: يدعم Aspose.PSD مجموعة متنوعة من تنسيقات ملفات الصور، بما في ذلك PSD وJPEG وPNG والمزيد. الرجوع إلى[الوثائق](https://reference.aspose.com/psd/java/) للحصول على قائمة كاملة.
 
 ### س4: كيف يمكنني الحصول على الدعم للاستعلامات المتعلقة بـ Aspose.PSD؟
 
@@ -101,4 +101,4 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج5: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
+ ج5: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. قم بتنزيله[هنا](https://releases.aspose.com/).

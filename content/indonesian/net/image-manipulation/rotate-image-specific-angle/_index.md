@@ -17,7 +17,7 @@ Aspose.PSD untuk .NET adalah perpustakaan serbaguna yang memberdayakan pengemban
 
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.PSD untuk .NET Library: Unduh dan instal perpustakaan dari[Unduh Halaman](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD untuk .NET Library: Unduh dan instal perpustakaan dari[halaman unduh](https://releases.aspose.com/psd/net/).
 - Direktori Dokumen: Siapkan direktori untuk menyimpan file sumber dan keluaran Anda.
 
 ## Impor Namespace
@@ -101,6 +101,6 @@ J3: Meskipun tidak wajib, data cache dapat meningkatkan performa secara signifik
 
  A4: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
 
-### Q5: Bisakah saya mencoba Aspose.PSD sebelum membeli?
+### Q5: Dapatkah saya mencoba Aspose.PSD sebelum membeli?
 
- A5: Tentu saja! Ambil milikmu[uji coba gratis](https://releases.aspose.com/) untuk mengeksplorasi kemampuan perpustakaan.
+ A5: Tentu saja! Ambil milikmu[uji coba gratis](https://releases.aspose.com/)untuk mengeksplorasi kemampuan perpustakaan.

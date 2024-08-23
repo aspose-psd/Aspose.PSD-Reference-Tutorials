@@ -88,7 +88,7 @@ image.save(destName, new GifOptions());
 
 ### س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج2: نعم، يمكنك الحصول على نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
+ ج2: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س3: كيف يمكنني الحصول على دعم Aspose.PSD لـ Java؟
 
@@ -100,4 +100,4 @@ image.save(destName, new GifOptions());
 
 ### س5: كيف يمكنني شراء Aspose.PSD لـ Java؟
 
- ج5: يمكنك شراء المنتج.[هنا](https://purchase.aspose.com/buy).
+ ج5: يمكنك شراء المنتج[هنا](https://purchase.aspose.com/buy).

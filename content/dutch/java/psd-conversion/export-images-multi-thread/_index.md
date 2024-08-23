@@ -64,7 +64,7 @@ if (f.exists()) {
 Nu hebt u met succes afbeeldingen geëxporteerd in een omgeving met meerdere threads met behulp van Aspose.PSD voor Java!
 ## Conclusie
 In deze zelfstudie hebben we het naadloze proces van het exporteren van afbeeldingen met Aspose.PSD voor Java onderzocht in een opstelling met meerdere threads. Verbeter de beeldverwerkingsmogelijkheden van uw Java-applicatie met de kracht van Aspose.PSD.
-## Veel Gestelde Vragen
+## Veelgestelde vragen
 ### Is Aspose.PSD compatibel met alle Java-versies?
 Aspose.PSD is compatibel met Java 1.7 en latere versies.
 ### Kan ik meerdere afbeeldingen gelijktijdig verwerken met Aspose.PSD?
@@ -74,4 +74,4 @@ Ja, Aspose.PSD ondersteunt multi-threading, waardoor u meerdere afbeeldingen teg
 ### Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
  Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
- Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke vergunning te verkrijgen.
+ Bezoek[deze koppeling](https://purchase.aspose.com/temporary-license/) om een tijdelijke vergunning te verkrijgen.

@@ -2,7 +2,7 @@
 title: قم بإنشاء صورة باستخدام Stream في Aspose.PSD لـ Java
 linktitle: إنشاء صورة باستخدام الدفق
 second_title: Aspose.PSD جافا API
-description: تعرف على كيفية إنشاء الصور باستخدام الدفق في Aspose.PSD لـ Java. اتبع هذا الدليل خطوة بخطوة لمعالجة الصور بكفاءة.
+description: تعرف على كيفية إنشاء الصور باستخدام الدفق في Aspose.PSD لـ Java. اتبع هذا الدليل التفصيلي خطوة بخطوة لمعالجة الصور بكفاءة.
 type: docs
 weight: 14
 url: /ar/java/image-editing/create-image-using-stream/
@@ -16,7 +16,7 @@ url: /ar/java/image-editing/create-image-using-stream/
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
 - Java Development Kit (JDK): تأكد من تثبيت Java على نظامك.
--  مكتبة Aspose.PSD: قم بتنزيل وإعداد مكتبة Aspose.PSD لـ Java. يمكنك العثور على الموارد اللازمة في[توثيق](https://reference.aspose.com/psd/java/).
+-  مكتبة Aspose.PSD: قم بتنزيل وإعداد مكتبة Aspose.PSD لـ Java. يمكنك العثور على الموارد اللازمة في[الوثائق](https://reference.aspose.com/psd/java/).
 - بيئة التطوير المتكاملة (IDE): اختر بيئة تطوير متكاملة متوافقة مع Java، مثل Eclipse أو IntelliJ IDEA، للحصول على تجربة تطوير سلسة.
 
 ## حزم الاستيراد
@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- إنشاء مثيل ل`Image` من خلال دعوة`create` طريقة، ويمر تكوينها`BmpOptions` وتحديد أبعاد الصورة.
+ إنشاء مثيل ل`Image` عن طريق استدعاء`create` طريقة، ويمر تكوينها`BmpOptions` وتحديد أبعاد الصورة.
 
 ## الخطوة 6: معالجة الصور
 
@@ -105,12 +105,12 @@ image.save(desName);
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
- ج4: الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: ما هي متطلبات النظام لـ Aspose.PSD؟
 
- ج5: راجع[توثيق](https://reference.aspose.com/psd/java/) لمتطلبات النظام التفصيلية.
+ ج5: راجع[الوثائق](https://reference.aspose.com/psd/java/) لمتطلبات النظام التفصيلية.

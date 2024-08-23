@@ -92,13 +92,13 @@ Dessinez quatre lignes continues avec des couleurs différentes à l'aide de pin
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès à tracer des lignes efficacement à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités de manipulation d'images dans vos applications .NET.
+Félicitations! Vous avez appris avec succès à tracer des lignes efficacement à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités de manipulation d'images dans vos applications .NET.
 
 ## FAQ
 
 ### Q1 : Où puis-je trouver la documentation d’Aspose.PSD pour .NET ?
 
- R1 : La documentation est disponible.[ici](https://reference.aspose.com/psd/net/).
+ A1 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/).
 
 ### Q2 : Comment puis-je télécharger Aspose.PSD pour .NET ?
 
@@ -106,7 +106,7 @@ Toutes nos félicitations! Vous avez appris avec succès à tracer des lignes ef
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour .NET ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je obtenir de l'assistance pour Aspose.PSD pour .NET ?
 
@@ -114,4 +114,4 @@ Toutes nos félicitations! Vous avez appris avec succès à tracer des lignes ef
 
 ### Q5 : Ai-je besoin d’une licence temporaire pour Aspose.PSD pour .NET ?
 
- R5 : Si nécessaire, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Si nécessaire, vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).

@@ -45,7 +45,7 @@ PsdImage image = (PsdImage)Image.load(sourceFile);
 
 ## Langkah 2: Lakukan Dithering
 
-Selanjutnya, lakukan dithering Floyd Steinberg pada gambar yang dimuat. Teknik ini membantu mengurangi garis warna dan meningkatkan kualitas gambar.
+Selanjutnya, lakukan dithering Floyd Steinberg pada gambar yang dimuat. Teknik ini membantu mengurangi pita warna dan meningkatkan kualitas gambar.
 
 ```java
 // Peform Floyd Steinberg ragu-ragu dengan gambar saat ini

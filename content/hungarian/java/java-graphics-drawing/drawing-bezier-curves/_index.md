@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -93,4 +92,4 @@ Igen, az Aspose.PSD for Java támogatja a nagy felbontású képeket hatékony m
 ### Exportálhatom a képet a BMP-től eltérő formátumba?
 Igen, az Aspose.PSD for Java támogatja a képek exportálását különféle formátumokba, például PNG, JPEG, TIFF stb.
 ### Hol találok további példákat és dokumentációt?
- Meglátogatni a[Aspose.PSD a Java dokumentációhoz](https://reference.aspose.com/psd/java/) átfogó útmutatókért és kódmintákért.## Teljes forráskód
+ Látogassa meg a[Aspose.PSD a Java dokumentációhoz](https://reference.aspose.com/psd/java/) átfogó útmutatókért és kódmintákért.## Teljes forráskód

@@ -28,7 +28,7 @@ import com.aspose.psd.Image;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 
 เริ่มต้นด้วยการโหลดรูปภาพที่คุณต้องการปรับขนาดลงในแอปพลิเคชัน Java ของคุณ
 

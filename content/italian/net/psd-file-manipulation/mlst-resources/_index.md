@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /it/net/psd-file-manipulation/mlst-resources/
 ---
-## introduzione
+## Introduzione
 Benvenuti nel tutorial approfondito sulla gestione delle risorse MLST (Multiple Layer States) in Aspose.PSD per .NET. Aspose.PSD per .NET è una potente libreria che offre ampie funzionalità per lavorare con i file Photoshop. In questo tutorial ci concentreremo sul supporto delle risorse MLST, offrendo un meccanismo di basso livello per manipolare gli stati dei livelli in modo efficiente.
 ## Prerequisiti
 Prima di approfondire il tutorial, assicurati di disporre dei seguenti prerequisiti:
@@ -77,7 +77,7 @@ A1: Sì, Aspose.PSD per .NET supporta file PSD creati in varie versioni di Photo
 
 ### Q3: dove posso trovare la documentazione dettagliata per Aspose.PSD per .NET?
 
-A3: La documentazione è disponibile.[Qui](https://reference.aspose.com/psd/net/).
+A3: La documentazione è disponibile[Qui](https://reference.aspose.com/psd/net/).
 
 ### Q4: Come posso ottenere supporto per Aspose.PSD per .NET?
 
@@ -85,4 +85,4 @@ A3: La documentazione è disponibile.[Qui](https://reference.aspose.com/psd/net/
 
 ### Q5: Come posso acquistare una licenza per Aspose.PSD per .NET?
 
- A5: È possibile acquistare una licenza.[Qui](https://purchase.aspose.com/buy).
+ A5: È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).

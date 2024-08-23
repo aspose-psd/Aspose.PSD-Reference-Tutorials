@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/java/basic-image-operations/simple-drawing/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questa guida passo passo sull'esecuzione di disegni semplici utilizzando Aspose.PSD per Java! In questo tutorial esploreremo le nozioni di base per creare un nuovo documento PSD, aggiungere livelli e disegnare forme con colori diversi. Aspose.PSD per Java è una potente libreria che consente di manipolare i file PSD a livello di codice, fornendo funzionalità estese per le attività di progettazione grafica.
 
@@ -16,7 +16,7 @@ Benvenuti in questa guida passo passo sull'esecuzione di disegni semplici utiliz
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
 - Java Development Kit (JDK) installato sul tuo computer.
--  Aspose.PSD per la libreria Java. Puoi scaricarlo da[Aspose.PSD per la documentazione Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD per la libreria Java. Puoi scaricarlo da[Aspose.PSD per la documentazione Java](https://reference.aspose.com/psd/java/).
 
 ## Importa pacchetti
 
@@ -116,7 +116,7 @@ A1: Sì, Aspose.PSD per Java fornisce funzionalità estese per modificare e mani
 
 ### Q3: È disponibile una prova gratuita per Aspose.PSD per Java?
 
- R3: Sì, puoi accedere alla versione di prova gratuita.[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi accedere alla versione di prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso acquistare una licenza per Aspose.PSD per Java?
 

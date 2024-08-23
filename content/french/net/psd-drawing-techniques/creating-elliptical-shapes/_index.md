@@ -78,21 +78,21 @@ using (Image image = new PsdImage(100, 100))
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à créer des formes elliptiques à l’aide d’Aspose.PSD pour .NET. Ce didacticiel a couvert les étapes essentielles, de la configuration de l'environnement au dessin de formes d'ellipse en pointillés et continues.
+Félicitations! Vous avez réussi à créer des formes elliptiques à l’aide d’Aspose.PSD pour .NET. Ce didacticiel a couvert les étapes essentielles, de la configuration de l'environnement au dessin de formes d'ellipse en pointillés et continues.
 
 ## FAQ
 
 ### Q1 : Où puis-je trouver la documentation d’Aspose.PSD pour .NET ?
 
- R1 : La documentation est disponible.[ici](https://reference.aspose.com/psd/net/).
+ A1 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/).
 
 ### Q2 : Comment télécharger Aspose.PSD pour .NET ?
 
- A2 : Vous pouvez le télécharger à partir de la page de version.[ici](https://releases.aspose.com/psd/net/).
+ A2 : Vous pouvez le télécharger depuis la page de version[ici](https://releases.aspose.com/psd/net/).
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 
@@ -100,4 +100,4 @@ Toutes nos félicitations! Vous avez réussi à créer des formes elliptiques à
 
 ### Q5 : Ai-je besoin d’une licence temporaire pour tester ?
 
- A5 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

@@ -62,7 +62,7 @@ BmpOptions bmpOptions = new BmpOptions();
 GifOptions gifOptions = new GifOptions();
 ```
 
-## Langkah 5: Buat JpegOptions
+## Langkah 5: Buat JPEGOptions
 
 ```java
 // Buat instance kelas JpegOptions

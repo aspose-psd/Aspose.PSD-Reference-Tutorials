@@ -19,7 +19,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 
 2.  Biblioteca Aspose.PSD para Java: Você precisa ter a biblioteca Aspose.PSD para Java. Se ainda não o fez, baixe-o no[Documentação Java Aspose.PSD](https://reference.aspose.com/psd/java/).
 
-3. Diretório de documentos: configure um diretório para seus documentos e lembre-se do caminho. No exemplo fornecido, o diretório é referido como`Your Document Directory`.
+3.  Diretório de documentos: configure um diretório para seus documentos e lembre-se do caminho. No exemplo fornecido, o diretório é referido como`Your Document Directory`.
 
 ## Importar pacotes
 
@@ -90,8 +90,8 @@ A2: Sim, Aspose.PSD oferece suporte a uma ampla variedade de formatos de imagem,
 
 ### Q4: Onde posso procurar assistência para quaisquer problemas ou dúvidas relacionadas ao Aspose.PSD?
 
- A4: Visite o Aspose.PSD[Fórum de suporte](https://forum.aspose.com/c/psd/34) para obter ajuda e se conectar com a comunidade.
+ A4: Visite o Aspose.PSD[fórum de suporte](https://forum.aspose.com/c/psd/34) para obter ajuda e se conectar com a comunidade.
 
 ### Q5: Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
 
- A5: Sim, você pode explorar a versão de teste gratuita.[aqui](https://releases.aspose.com/).
+ A5: Sim, você pode explorar a versão de avaliação gratuita[aqui](https://releases.aspose.com/).

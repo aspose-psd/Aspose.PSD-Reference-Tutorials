@@ -26,7 +26,7 @@ Czy jesteś gotowy, aby przenieść swoje umiejętności rysowania na wyższy po
 
 ## Tworzenie kształtów eliptycznych za pomocą Aspose.PSD dla .NET
 
- Naucz się sztuki rysowania kształtów eliptycznych w aplikacjach .NET przy użyciu Aspose.PSD. Nasz przewodnik krok po kroku, wraz z przykładami kodu, gwarantuje, że możesz bez wysiłku tworzyć oszałamiającą grafikę. Zacznij dziś![Poradnik dotyczący kształtów eliptycznych](./creating-elliptical-shapes/)
+ Naucz się sztuki rysowania kształtów eliptycznych w aplikacjach .NET przy użyciu Aspose.PSD. Nasz przewodnik krok po kroku, wraz z przykładami kodu, gwarantuje, że możesz bez wysiłku tworzyć oszałamiającą grafikę. Zacznij już dziś![Poradnik dotyczący kształtów eliptycznych](./creating-elliptical-shapes/)
 
 ## Efektywne rysowanie linii w Aspose.PSD dla .NET
 
@@ -34,7 +34,7 @@ Czy jesteś gotowy, aby przenieść swoje umiejętności rysowania na wyższy po
 
 ## Konstruowanie prostokątów w Aspose.PSD dla .NET
 
-Poznaj sztukę rysowania prostokątów w .NET za pomocą Aspose.PSD. Nasz przewodnik krok po kroku zapewnia bezproblemową integrację, dzięki czemu możesz bez wysiłku ulepszyć grę w manipulowanie obrazami. Zacznij dziś![Samouczek dotyczący konstruowania prostokątów](./constructing-rectangles/)
+Poznaj sztukę rysowania prostokątów w .NET za pomocą Aspose.PSD. Nasz przewodnik krok po kroku zapewnia bezproblemową integrację, dzięki czemu możesz bez wysiłku ulepszyć grę w manipulowanie obrazami. Zacznij już dziś![Samouczek dotyczący konstruowania prostokątów](./constructing-rectangles/)
 
 ## Kreatywne rysowanie przy użyciu grafiki w Aspose.PSD dla .NET
 

@@ -19,7 +19,6 @@ url: /zh-hant/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 首先，請確保您已在 Java 專案中匯入了必要的套件：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -56,12 +55,12 @@ if (jfif != null) {
 }
 ```
 如果存在 JFIF 數據，您可以提取它並將其用於您的應用程式。
-## 第四步：擷取EXIF資料（可選）
-或者，如果需要，可以從縮圖資源中提取 EXIF 資料。
+## 第 4 步：提取 EXIF 資料（可選）
+（可選）如果需要，可以從縮圖資源中提取 EXIF 資料。
 ```java
 JpegExifData exif = thumbnail.getJpegOptions().getExifData();
 if (exif != null) {
-    //提取EXIF資料並處理。
+    //提取EXIF資料並進行處理。
 }
 ```
 此步驟可讓您檢索和使用與縮圖關聯的 EXIF 資訊。

@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;

@@ -8,7 +8,7 @@ weight: 31
 url: /cs/net/psd-file-resources/
 ---
 
-## Úvod
+## Zavedení
 
 Jste připraveni pozvednout své dovednosti Aspose.PSD pro .NET a odemknout svět kreativních možností? Naše komplexní výukové programy pokrývají základní funkce a umožňují vám využít plný potenciál tohoto mocného nástroje. Pojďme se ponořit do specifik každého zdroje:
 
@@ -34,7 +34,7 @@ Vydejte se na cestu kreativního mistrovství s našimi výukovými programy Asp
 ### [Podpora zdrojů barvy pozadí v Aspose.PSD pro .NET](./supporting-background-color-resource/)
 Ovládněte Aspose.PSD pro .NET pomocí našeho podrobného průvodce. Manipulujte s obrázky PSD bez námahy. Stáhněte si bezplatnou zkušební verzi nyní!
 ### [Podpora Border Information Resource v Aspose.PSD pro .NET](./supporting-border-information-resource/)
-Prozkoumejte funkci Border Information Resource Aspose.PSD for .NET pro vylepšené zobrazování. Postupujte podle našeho návodu pro bezproblémovou integraci. Stáhnout teď!
+Prozkoumejte funkci Border Information Resource Aspose.PSD for .NET pro vylepšené zobrazování. Postupujte podle našeho návodu pro bezproblémovou integraci. Stáhnout nyní!
 ### [Podpora Working Path Resource v Aspose.PSD pro .NET](./supporting-working-path-resource/)
 Prozkoumejte sílu 'WorkingPathResource' v Aspose.PSD pro .NET. Vylepšete přesnost obrazu pomocí tohoto podrobného průvodce.
 ### [Podpora Black and White (Blwh) Resource v Aspose.PSD pro .NET](./supporting-black-and-white-blwh-resource/)

@@ -81,7 +81,7 @@ Lưu hình ảnh đã xoay với các tùy chọn được chỉ định (trong 
 
 ## Phần kết luận
 
- Chúc mừng! Bạn đã xoay thành công hình ảnh ở một góc cụ thể bằng Aspose.PSD cho .NET. Thư viện này cung cấp một bộ công cụ mạnh mẽ để xử lý hình ảnh và hướng dẫn này chỉ là phần nổi của tảng băng trôi. Khám phá cái[tài liệu](https://reference.aspose.com/psd/net/) để biết thêm tính năng và tùy chọn.
+ Chúc mừng! Bạn đã xoay thành công hình ảnh ở một góc cụ thể bằng Aspose.PSD cho .NET. Thư viện này cung cấp một bộ công cụ mạnh mẽ để xử lý hình ảnh và hướng dẫn này chỉ là phần nổi của tảng băng trôi. Khám phá[tài liệu](https://reference.aspose.com/psd/net/) để biết thêm tính năng và tùy chọn.
 
 ## Câu hỏi thường gặp
 
@@ -103,4 +103,4 @@ Câu trả lời 3: Mặc dù không bắt buộc nhưng dữ liệu bộ nhớ 
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD trước khi mua không?
 
- A5: Chắc chắn rồi! Lấy của bạn[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các khả năng của thư viện.
+ A5: Chắc chắn rồi! Lấy của bạn[dùng thử miễn phí](https://releases.aspose.com/)để khám phá các khả năng của thư viện.

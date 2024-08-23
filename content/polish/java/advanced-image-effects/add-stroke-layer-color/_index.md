@@ -13,7 +13,7 @@ Odblokuj potencjał projektu graficznego swojej aplikacji Java za pomocą Aspose
 
 ## Warunki wstępne
 
-Przed wyruszeniem w tę twórczą podróż upewnij się, że spełniasz następujące warunki wstępne:
+Przed wyruszeniem w tę twórczą podróż upewnij się, że spełniasz następujące wymagania wstępne:
 
 -  Biblioteka Aspose.PSD: Pobierz i skonfiguruj bibliotekę Aspose.PSD, postępując zgodnie z instrukcją[dokumentacja](https://reference.aspose.com/psd/java/).
 

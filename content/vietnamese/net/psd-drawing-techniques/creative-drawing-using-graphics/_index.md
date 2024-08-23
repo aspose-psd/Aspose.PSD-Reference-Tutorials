@@ -95,7 +95,7 @@ Lưu hình ảnh đã sửa đổi vào thư mục được chỉ định với 
 
 ## Phần kết luận
 
-Chúc mừng! Bạn đã tạo thành công một đồ họa hấp dẫn về mặt hình ảnh bằng cách sử dụng lớp Đồ họa trong Aspose.PSD cho .NET. Hướng dẫn này chỉ trình bày sơ qua những gì bạn có thể đạt được với Aspose.PSD, vì vậy, hãy thoải mái khám phá các tính năng nâng cao hơn và thỏa sức sáng tạo của bạn!
+Chúc mừng! Bạn đã tạo thành công một đồ họa hấp dẫn về mặt hình ảnh bằng cách sử dụng lớp Đồ họa trong Aspose.PSD cho .NET. Hướng dẫn này chỉ trình bày sơ qua về những gì bạn có thể đạt được với Aspose.PSD, vì vậy, hãy thoải mái khám phá các tính năng nâng cao hơn và thỏa sức sáng tạo của bạn!
 
 ## Câu hỏi thường gặp
 
@@ -109,7 +109,7 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET có sẵn cho mục đích sử d�
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu chi tiết về Aspose.PSD cho .NET ở đâu?
 
- A3: Tài liệu toàn diện có sẵn.[đây](https://reference.aspose.com/psd/net/).
+ A3: Tài liệu toàn diện có sẵn[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
@@ -117,4 +117,4 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET có sẵn cho mục đích sử d�
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời cho Aspose.PSD cho .NET không?
 
- Câu trả lời 5: Nếu bạn cần giấy phép tạm thời, bạn có thể lấy được.[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Nếu bạn cần giấy phép tạm thời, bạn có thể lấy nó[đây](https://purchase.aspose.com/temporary-license/).

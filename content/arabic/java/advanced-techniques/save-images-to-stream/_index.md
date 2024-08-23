@@ -41,7 +41,7 @@ import java.io.FileOutputStream;
 String dataDir = "Your Document Directory";
 ```
 
- يستبدل`"Your Document Directory"`مع المسار إلى الدليل الذي يوجد به ملف PSD الخاص بك.
+ يستبدل`"Your Document Directory"` مع المسار إلى الدليل الذي يوجد به ملف PSD الخاص بك.
 
 ## الخطوة 2: تحديد المصدر والوجهة
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- إنشاء`FileOutputStream` للملف الوجهة واحفظ صورة PSD في الدفق باستخدام خيارات PNG.
+ إنشاء أ`FileOutputStream`للملف الوجهة واحفظ صورة PSD في الدفق باستخدام خيارات PNG.
 
 كرر هذه الخطوات حسب الحاجة لحالة الاستخدام المحددة الخاصة بك.
 
@@ -88,7 +88,7 @@ psdImage.save(outputStream, new PngOptions());
 
 ### س3: هل يمكنني تجربة Aspose.PSD قبل الشراء؟
 
-ج3: نعم، يمكنك استكشاف أ[تجربة مجانية](https://releases.aspose.com/) لتقييم قدرات Aspose.PSD.
+ ج3: نعم، يمكنك استكشاف أ[تجربة مجانية](https://releases.aspose.com/) لتقييم قدرات Aspose.PSD.
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 

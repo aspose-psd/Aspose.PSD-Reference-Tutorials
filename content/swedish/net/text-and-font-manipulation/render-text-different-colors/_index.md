@@ -63,11 +63,11 @@ S1: Ja, Aspose.PSD för .NET är utformad för att fungera sömlöst med alla .N
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- S2: Ja, du kan utforska Aspose.PSD för .NET med en gratis provperiod. Ladda ner det[här](https://releases.aspose.com/).
+ S2: Ja, du kan utforska Aspose.PSD för .NET med en gratis provperiod. Ladda ner den[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta dokumentation för Aspose.PSD för .NET?
 
- A3: Detaljerad dokumentation finns tillgänglig.[här](https://reference.aspose.com/psd/net/) för att hjälpa dig att förstå och implementera olika funktioner i Aspose.PSD för .NET.
+ A3: Detaljerad dokumentation finns tillgänglig[här](https://reference.aspose.com/psd/net/) för att hjälpa dig att förstå och implementera olika funktioner i Aspose.PSD för .NET.
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 

@@ -20,7 +20,6 @@ url: /zh-hant/java/java-psb-to-image-format-conversion/convert-psb-to-pdf-java/
 首先，匯入必要的套件以開始使用 Aspose.PSD for Java：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```

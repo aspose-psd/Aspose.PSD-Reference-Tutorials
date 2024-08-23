@@ -20,7 +20,6 @@ Antes de profundizar en el código, asegurémonos de tener todo configurado corr
 Primero, necesita importar los paquetes necesarios en su proyecto Java. He aquí cómo hacerlo:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -59,7 +58,7 @@ if (exif != null) {
     // Imprimir datos EXIF
 }
 ```
-## Paso 5: Modificar datos EXIF
+## Paso 5: modificar los datos EXIF
 Ahora viene la parte divertida: modificar los datos EXIF. A continuación se explica cómo configurar la información de LensMake, WhiteBalance y Flash.
 ```java
 exif.setLensMake("Sony");
@@ -73,7 +72,7 @@ image.save(dataDir + "Modified_Zebras_Serengeti.psd");
 ```
 ## Conclusión
 ¡Y ahí lo tienes! Ha aprendido con éxito cómo escribir y modificar datos EXIF en archivos PSD usando Aspose.PSD para Java. Esta poderosa biblioteca simplifica el trabajo con formatos de imágenes complejos, lo que la convierte en una herramienta valiosa para los desarrolladores que trabajan con archivos gráficos. 
- Para obtener información más detallada, consulte el[Documentación Aspose.PSD](https://reference.aspose.com/psd/java/) . Si encuentra algún problema, el[Foro de soporte](https://forum.aspose.com/c/psd/34) es un gran lugar para obtener ayuda. No olvides explorar el[prueba gratis](https://releases.aspose.com/) y considere comprar una licencia[aquí](https://purchase.aspose.com/buy) para funciones completas.
+ Para obtener información más detallada, consulte el[Documentación Aspose.PSD](https://reference.aspose.com/psd/java/) . Si encuentra algún problema, el[Foro de soporte](https://forum.aspose.com/c/psd/34) es un gran lugar para obtener ayuda. No olvides explorar el[prueba gratuita](https://releases.aspose.com/) y considere comprar una licencia[aquí](https://purchase.aspose.com/buy) para funciones completas.
 ## Preguntas frecuentes
 ### ¿Qué son los datos EXIF?
 Los datos EXIF (formato de archivo de imagen intercambiable) son metadatos incrustados en archivos de imagen que contienen información como la configuración de la cámara, la fecha, la hora y la ubicación.

@@ -147,7 +147,7 @@ using (var img = (PsdImage)Image.Load(ms))
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez créé avec succès des métadonnées XMP dans Aspose.PSD pour .NET. Cette puissante fonctionnalité améliore vos capacités de traitement d’images, permettant une organisation et une récupération efficaces des informations vitales.
+Félicitations! Vous avez créé avec succès des métadonnées XMP dans Aspose.PSD pour .NET. Cette puissante fonctionnalité améliore vos capacités de traitement d’images, permettant une organisation et une récupération efficaces des informations vitales.
 
 ## FAQ
 

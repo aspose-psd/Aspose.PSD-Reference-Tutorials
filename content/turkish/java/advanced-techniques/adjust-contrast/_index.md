@@ -41,7 +41,7 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
- Bu adımda örnek görseli ("sample.psd") aşağıdaki komutu kullanarak yüklüyoruz:`Image.load` yöntem.
+ Bu adımda örnek görseli ("sample.psd") aşağıdaki komutu kullanarak yüklüyoruz:`Image.load` Yöntem.
 
 ## Adım 2: RasterImage ve Önbellek Verilerine Yayınlama
 
@@ -94,11 +94,11 @@ Cevap1: Evet, Aspose.PSD çeşitli görüntü formatlarını destekleyerek proje
 
 ### S2: Aspose.PSD için nasıl geçici lisans alabilirim?
 
- Cevap2: Geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap2: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S3: Aspose.PSD belgelerini nerede bulabilirim?
 
-A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/java/).
+A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/java/).
 
 ### S4: Aspose.PSD için hangi destek seçenekleri mevcut?
 

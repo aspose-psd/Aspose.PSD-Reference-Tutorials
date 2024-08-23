@@ -9,11 +9,11 @@ url: /id/net/image-manipulation/supporting-outer-glow-effect/
 ---
 ## Perkenalan
 
-Selamat datang di panduan langkah demi langkah kami dalam mendukung Efek Cahaya Luar di Aspose.PSD untuk .NET. Aspose.PSD adalah perpustakaan canggih yang memungkinkan manipulasi file PSD dengan lancar dalam aplikasi .NET. Dalam tutorial ini, kita akan mengeksplorasi penerapan Efek Cahaya Luar dan memberikan panduan mendetail untuk mengintegrasikannya ke dalam proyek Anda.
+Selamat datang di panduan langkah demi langkah kami dalam mendukung Efek Cahaya Luar di Aspose.PSD untuk .NET. Aspose.PSD adalah perpustakaan canggih yang memungkinkan manipulasi file PSD dengan lancar dalam aplikasi .NET. Dalam tutorial ini, kita akan mengeksplorasi penerapan Outer Glow Effect dan memberikan panduan mendetail untuk mengintegrasikannya ke dalam proyek Anda.
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 -  Aspose.PSD untuk .NET Library: Unduh perpustakaan dari[Dokumentasi Aspose.PSD .NET](https://reference.aspose.com/psd/net/).
 
@@ -23,7 +23,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 ## Impor Namespace
 
-Di bagian ini, kita akan mengimpor namespace yang diperlukan untuk memulai implementasi Outer Glow Effect. Ikuti langkah ini:
+Di bagian ini, kita akan mengimpor namespace yang diperlukan untuk memulai implementasi Outer Glow Effect. Ikuti langkah-langkah berikut:
 
 ```csharp
 using System;
@@ -113,4 +113,4 @@ A1: Ya, Aspose.PSD mendukung berbagai kerangka .NET, memastikan kompatibilitas d
 
 ### Q5: Dapatkah saya membeli Aspose.PSD untuk .NET?
 
- A5: Ya, jelajahi opsi lisensi dan lakukan pembelian.[Di Sini](https://purchase.aspose.com/buy).
+ A5: Ya, jelajahi opsi lisensi dan lakukan pembelian[Di Sini](https://purchase.aspose.com/buy).

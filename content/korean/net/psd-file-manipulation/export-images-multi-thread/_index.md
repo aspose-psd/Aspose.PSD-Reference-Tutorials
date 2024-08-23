@@ -68,7 +68,7 @@ A1: 예, .NET용 Aspose.PSD는 다양한 버전의 Photoshop 파일을 지원하
 
 ### Q3: .NET용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 
- A3: Aspose.PSD 커뮤니티에 가입하세요.[법정](https://forum.aspose.com/c/psd/34) 전문가와 동료 개발자의 도움을 받으세요.
+ A3: Aspose.PSD 커뮤니티에 가입하세요[법정](https://forum.aspose.com/c/psd/34) 전문가와 동료 개발자의 도움을 받으세요.
 
 ### Q4: 무료 평가판이 제공됩니까?
 

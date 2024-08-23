@@ -142,7 +142,7 @@ S1: Ja, Aspose.PSD stöder olika bildformat, vilket ger mångsidighet vid hanter
 
 ### F2: Kan jag manipulera befintlig metadata med Aspose.PSD?
 
-S2: Absolut, Aspose.PSD låter dig ändra och uppdatera befintlig metadata i bilder.
+S2: Absolut, Aspose.PSD låter dig modifiera och uppdatera befintlig metadata i bilder.
 
 ### F3: Finns det några begränsningar för bildstorleken som Aspose.PSD kan hantera?
 
@@ -150,7 +150,7 @@ A3: Aspose.PSD är utformad för att hantera bilder av olika storlekar, vilket s
 
 ### F4: Finns det en testversion tillgänglig för Aspose.PSD?
 
- S4: Ja, du kan utforska funktionerna i Aspose.PSD genom att få en gratis provperiod.[här](https://releases.aspose.com/).
+ S4: Ja, du kan utforska funktionerna i Aspose.PSD genom att få en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F5: Var kan jag söka stöd för Aspose.PSD-relaterade frågor?
 

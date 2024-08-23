@@ -20,7 +20,6 @@ Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes req
 Primero, importe los paquetes necesarios para comenzar a trabajar con Aspose.PSD para Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```

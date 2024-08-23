@@ -7,12 +7,12 @@ type: docs
 weight: 17
 url: /cs/net/psd-file-manipulation/psd-image-timeline/
 ---
-## Úvod
+## Zavedení
 V dynamickém světě zpracování obrazu vyniká Aspose.PSD for .NET jako výkonná sada nástrojů, která poskytuje robustní řešení pro práci s časovými osami obrázků PSD. Ať už jste zkušený vývojář nebo nadšenec do kódování, tento tutoriál vás provede procesem využití Aspose.PSD k snadné manipulaci s časovými osami obrázků.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 - Základní znalost C# a .NET frameworku.
--  Aspose.PSD pro .NET nainstalován. Můžete si stáhnout nejnovější verzi[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET nainstalován. Můžete si stáhnout nejnovější verzi[zde](https://releases.aspose.com/psd/net/).
 - Editor kódu jako Visual Studio pro bezproblémovou implementaci.
 ## Importovat jmenné prostory
 Ve svém projektu C# se ujistěte, že importujete potřebné jmenné prostory pro přístup k funkcím Aspose.PSD:
@@ -58,7 +58,7 @@ Nakonec potvrďte úspěšné provedení kódu.
 Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ```
 ## Závěr
-Gratulujeme! Úspěšně jste prošli složitostí zpracování časových os obrázků PSD pomocí Aspose.PSD pro .NET. Tento tutoriál vám umožňuje přidávat rámečky, přepínat mezi nimi a bez námahy uložit upravený obrázek.
+Gratuluji! Úspěšně jste prošli složitostí zpracování časových os obrázků PSD pomocí Aspose.PSD pro .NET. Tento tutoriál vám umožňuje přidávat rámečky, přepínat mezi nimi a bez námahy uložit upravený obrázek.
 ## FAQ
 
 ### Q1: Mohu použít Aspose.PSD pro .NET s jinými programovacími jazyky?
@@ -67,16 +67,16 @@ Odpověď 1: Ne, Aspose.PSD je speciálně navržen pro aplikace .NET.
 
 ### Q2: Je pro použití Aspose.PSD vyžadována licence?
 
- A2: Ano, potřebujete platnou licenci. Pochopit to[tady](https://purchase.aspose.com/buy).
+ A2: Ano, potřebujete platnou licenci. Získejte to[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Mohu vyzkoušet Aspose.PSD zdarma před zakoupením licence?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podrobnou dokumentaci k Aspose.PSD?
 
- A4: Viz dokumentace[tady](https://reference.aspose.com/psd/net/).
+ A4: Viz dokumentace[zde](https://reference.aspose.com/psd/net/).
 
 ### Q5: Potřebujete pomoc nebo máte otázky?
 
- A5: Navštivte fórum komunity Aspose.PSD[tady](https://forum.aspose.com/c/psd/34).
+ A5: Navštivte fórum komunity Aspose.PSD[zde](https://forum.aspose.com/c/psd/34).

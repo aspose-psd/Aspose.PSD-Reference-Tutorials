@@ -116,7 +116,7 @@ dublinCorePackage.addValue("dc:movie", "Barfly");
 xmpData.addPackage(dublinCorePackage);
 ```
 
-## 步驟11：將XMP元資料更新到影像中
+## 步驟 11：將 XMP 元資料更新到影像中
 
 ```java
 //將 XMP 元資料更新到影像中
@@ -136,7 +136,7 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 
 ## 常見問題解答
 
-### Q1：Aspose.PSD 是否相容於不同的影像格式？
+### Q1：Aspose.PSD是否相容於不同的影像格式？
 
 A1：是的，Aspose.PSD 支援各種影像格式，提供處理不同檔案類型的多功能性。
 
@@ -150,7 +150,7 @@ A3：Aspose.PSD 旨在處理各種尺寸的影像，確保您的專案的可擴�
 
 ### Q4：Aspose.PSD 有試用版嗎？
 
- A4：是的，您可以透過免費試用來探索 Aspose.PSD 的功能。[這裡](https://releases.aspose.com/).
+ A4：是的，您可以透過免費試用來探索 Aspose.PSD 的功能[這裡](https://releases.aspose.com/).
 
 ### Q5：我可以在哪裡尋求 Aspose.PSD 相關查詢的支援？
 

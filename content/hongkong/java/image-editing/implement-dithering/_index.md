@@ -9,7 +9,7 @@ url: /zh-hant/java/image-editing/implement-dithering/
 ---
 ## 介紹
 
-如果您希望提高 Java 中光柵影像的視覺質量，Aspose.PSD 提供了一個強大的解決方案。在本逐步指南中，我們將探討如何使用 Aspose.PSD for Java 實作抖動。抖動是一種向影像添加一定程度的雜訊、減少色帶並提高整體影像品質的技術。
+如果您希望提高 Java 中光柵影像的視覺質量，Aspose.PSD 提供了一個強大的解決方案。在本逐步指南中，我們將探索如何使用 Aspose.PSD for Java 實作抖動。抖動是一種向影像添加一定程度的雜訊、減少色帶並提高整體影像品質的技術。
 
 ## 先決條件
 

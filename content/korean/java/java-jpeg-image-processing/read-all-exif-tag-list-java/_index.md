@@ -1,6 +1,6 @@
 ---
-title: Java의 모든 EXIF 태그 목록 읽기
-linktitle: Java의 모든 EXIF 태그 목록 읽기
+title: Java에서 모든 EXIF 태그 목록 읽기
+linktitle: Java에서 모든 EXIF 태그 목록 읽기
 second_title: Aspose.PSD 자바 API
 description: 포괄적인 튜토리얼과 코드 예제를 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 EXIF 메타데이터를 추출하는 방법을 알아보세요.
 type: docs
@@ -8,7 +8,7 @@ weight: 16
 url: /ko/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ---
 ### 소개
-Java 개발 영역에서 PSD 파일을 관리하고 조작하는 것은 많은 애플리케이션에서 중요한 요구 사항입니다. Aspose.PSD for Java는 Photoshop 문서(PSD) 파일을 프로그래밍 방식으로 처리하기 위한 강력한 솔루션을 제공하여 개발자에게 PSD 파일을 원활하게 읽고, 쓰고, 수정할 수 있는 도구 모음을 제공합니다. 이 튜토리얼은 Aspose.PSD for Java를 사용하여 PSD 파일에서 모든 EXIF 태그를 읽는 과정을 안내합니다. 마지막에는 PSD 이미지에 포함된 EXIF 메타데이터를 추출하고 활용하는 방법을 명확하게 이해하게 됩니다.
+Java 개발 영역에서 PSD 파일을 관리하고 조작하는 것은 많은 애플리케이션에서 중요한 요구 사항입니다. Aspose.PSD for Java는 Photoshop 문서(PSD) 파일을 프로그래밍 방식으로 처리하기 위한 강력한 솔루션을 제공하여 개발자에게 PSD 파일을 원활하게 읽고, 쓰고, 수정할 수 있는 도구 모음을 제공합니다. 이 튜토리얼은 Java용 Aspose.PSD를 사용하여 PSD 파일에서 모든 EXIF 태그를 읽는 과정을 안내합니다. 마지막에는 PSD 이미지에 포함된 EXIF 메타데이터를 추출하고 활용하는 방법을 명확하게 이해하게 됩니다.
 ### 전제조건
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
@@ -18,7 +18,6 @@ Java 개발 영역에서 PSD 파일을 관리하고 조작하는 것은 많은 �
 시작하려면 프로젝트의 Java용 Aspose.PSD에서 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -49,7 +48,7 @@ for(int i = 0; i < image.getImageResources().length; i++) {
 ```
 
 ## 결론
-결론적으로, Aspose.PSD for Java를 활용하면 PSD 파일에서 EXIF 메타데이터를 추출하는 작업이 단순화됩니다. 이 튜토리얼에서는 이 기능을 Java 애플리케이션에 원활하게 통합하는 데 필요한 단계를 제공합니다.
+결론적으로, Java용 Aspose.PSD를 활용하면 PSD 파일에서 EXIF 메타데이터를 추출하는 작업이 단순화됩니다. 이 튜토리얼에서는 이 기능을 Java 애플리케이션에 원활하게 통합하는 데 필요한 단계를 제공합니다.
 ## FAQ
 ### Java용 Aspose.PSD란 무엇입니까?
 Aspose.PSD for Java는 Java 개발자가 Photoshop을 설치하지 않고도 PSD 파일로 작업할 수 있는 라이브러리입니다.

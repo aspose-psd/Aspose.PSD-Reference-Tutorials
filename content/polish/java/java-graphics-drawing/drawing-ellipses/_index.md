@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Przed rysowaniem oczyść powierzchnię graficzną określonym kolorem (opcjonal
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Krok 5: Narysuj kropkowaną elipsę.
+## Krok 5: Narysuj kropkowaną elipsę
 Użyj obiektu Pen w kolorze czerwonym i narysuj kropkowaną elipsę w określonym prostokącie.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

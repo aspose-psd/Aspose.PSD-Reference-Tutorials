@@ -85,4 +85,4 @@ A3: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/p
 
 ### Q5: .NET용 Aspose.PSD 라이선스를 어떻게 구매하나요?
 
- A5: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A5: 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).

@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/net/image-manipulation/supporting-obar-and-unfl-signatures/
 ---
-## Úvod
+## Zavedení
 
 oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci a zpracování souborů Photoshopu. Mezi jeho bohatými funkcemi je podpora podpisů ObAr a UnFl zásadní pro pokročilé úpravy obrázků. Tento tutoriál vás provede celým procesem a rozebere každý krok, aby byla zajištěna bezproblémová implementace.
 
@@ -16,7 +16,7 @@ oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci a
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Základní znalost programování .NET.
--  Aspose.PSD pro .NET nainstalován. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET nainstalován. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 - Ukázkový soubor PSD pro testování. Můžete použít "LayeredSmartObjects8bit2.psd" z adresáře dokumentů.
 
 ## Importovat jmenné prostory
@@ -96,13 +96,13 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste implementovali podporu pro podpisy ObAr a UnFl v Aspose.PSD pro .NET. Tato funkce otevírá nové možnosti pro pokročilé úpravy a manipulaci s obrázky ve vašich aplikacích .NET.
+Gratuluji! Úspěšně jste implementovali podporu pro podpisy ObAr a UnFl v Aspose.PSD pro .NET. Tato funkce otevírá nové možnosti pro pokročilé úpravy a manipulaci s obrázky ve vašich aplikacích .NET.
 
 ## FAQ
 
 ### Q1: Je Aspose.PSD kompatibilní s nejnovějšími frameworky .NET?
 
- A1: Aspose.PSD pravidelně aktualizuje svou kompatibilitu. Odkazovat na[dokumentace](https://reference.aspose.com/psd/net/) pro nejnovější informace.
+ A1: Aspose.PSD pravidelně aktualizuje svou kompatibilitu. Viz[dokumentace](https://reference.aspose.com/psd/net/) pro nejnovější informace.
 
 ### Q2: Kde najdu podporu pro Aspose.PSD?
 
@@ -110,7 +110,7 @@ Gratulujeme! Úspěšně jste implementovali podporu pro podpisy ObAr a UnFl v A
 
 ### Q3: Mohu vyzkoušet Aspose.PSD před nákupem?
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
@@ -118,4 +118,4 @@ Gratulujeme! Úspěšně jste implementovali podporu pro podpisy ObAr a UnFl v A
 
 ### Q5: Kde mohu zakoupit Aspose.PSD pro .NET?
 
- A5: Můžete si koupit Aspose.PSD[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit Aspose.PSD[zde](https://purchase.aspose.com/buy).

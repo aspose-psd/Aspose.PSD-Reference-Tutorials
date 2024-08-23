@@ -113,4 +113,4 @@ S1: Ja, Aspose.PSD stöder ett brett utbud av .NET-ramverk, vilket säkerställe
 
 ### F5: Kan jag köpa Aspose.PSD för .NET?
 
- S5: Ja, utforska licensalternativ och gör ditt köp.[här](https://purchase.aspose.com/buy).
+ S5: Ja, utforska licensalternativ och gör ditt köp[här](https://purchase.aspose.com/buy).

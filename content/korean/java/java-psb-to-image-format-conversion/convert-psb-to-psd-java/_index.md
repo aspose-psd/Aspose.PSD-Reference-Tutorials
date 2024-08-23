@@ -19,7 +19,6 @@ Java 개발 영역에서는 그래픽 파일을 효율적으로 조작하는 것
 먼저 필요한 Aspose.PSD 클래스를 Java 파일로 가져옵니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;

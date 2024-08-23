@@ -79,7 +79,7 @@ Gratulacje! Pomyślnie opanowałeś użycie „WorkingPathResource” w Aspose.P
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 
@@ -87,4 +87,4 @@ Gratulacje! Pomyślnie opanowałeś użycie „WorkingPathResource” w Aspose.P
 
 ### P5: Potrzebujesz tymczasowej licencji?
 
- A5: Uzyskaj tymczasową licencję.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A5: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).

@@ -50,7 +50,7 @@ using (Image image = Image.Load(sourceFile))
 {
 ```
 
- Ez a lépés betölti a minta PSD-fájlt a`Image` tárgy.
+ Ez a lépés betölti a minta PSD-fájlt a`Image` objektum.
 
 ## 3. lépés: Gyorsítótárazza a képet
 

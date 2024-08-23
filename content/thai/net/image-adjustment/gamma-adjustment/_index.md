@@ -84,7 +84,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### คำถามที่ 1: ฉันจะหาเอกสาร Aspose.PSD ได้ที่ไหน
 
- A1:คุณสามารถดูเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/psd/net/).
+ A1: คุณสามารถดูเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/psd/net/).
 
 ### คำถามที่ 2: ฉันจะดาวน์โหลด Aspose.PSD สำหรับ .NET ได้อย่างไร
 

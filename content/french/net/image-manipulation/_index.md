@@ -13,7 +13,7 @@ La manipulation d'images est une compétence vitale pour tout développeur ou co
 
 ## Combinaison d'images
 
- Si vous vous êtes déjà demandé comment fusionner des images sans effort dans .NET, ceci[Didacticiel](./combine-images/) est votre guide. Avec Aspose.PSD, combiner des images devient un processus simple et précis. Suivez nos instructions étape par étape pour améliorer vos compétences en manipulation d'images.
+ Si vous vous êtes déjà demandé comment fusionner des images sans effort dans .NET, ceci[tutoriel](./combine-images/) est votre guide. Avec Aspose.PSD, combiner des images devient un processus simple et précis. Suivez nos instructions étape par étape pour améliorer vos compétences en manipulation d'images.
 
 ## Recadrage des images par rectangle
 
@@ -23,17 +23,17 @@ La précision est essentielle lorsqu'il s'agit de recadrer une image. Apprenez �
 
 Améliorez vos compétences en matière de recadrage d'images en apprenant à recadrer des images à l'aide de décalages. Aspose.PSD pour .NET rend ce processus transparent, vous permettant d'effectuer des ajustements précis sans effort.
 
-## Agrandissement et recadrage des images
+## Agrandir et recadrer des images
 
 L'agrandissement et le recadrage dynamiques des images ajoutent une couche de flexibilité à vos projets. Notre guide étape par étape utilisant Aspose.PSD pour .NET garantit un processus fluide, vous fournissant les compétences nécessaires pour une manipulation transparente des images.
 
 ## Redimensionner les images proportionnellement
 
- Explorez le monde du redimensionnement proportionnel des images avec Aspose.PSD. Téléchargez la bibliothèque, suivez notre[Didacticiel](./resize-images-proportionally/)et améliorez vos capacités de traitement d'images dans .NET. Efficacité et précision garanties.
+ Explorez le monde du redimensionnement proportionnel des images avec Aspose.PSD. Téléchargez la bibliothèque, suivez notre[tutoriel](./resize-images-proportionally/)et améliorez vos capacités de traitement d'images dans .NET. Efficacité et précision garanties.
 
 ## Rotation d'une image
 
- La rotation est une compétence fondamentale en matière de manipulation d’images. Apprenez à faire pivoter des images sans effort dans .NET avec Aspose.PSD. Notre étape par étape[Didacticiel](./rotate-image/) vous guide tout au long du processus, le rendant accessible à tous les niveaux de compétence.
+ La rotation est une compétence fondamentale en matière de manipulation d’images. Apprenez à faire pivoter des images sans effort dans .NET avec Aspose.PSD. Notre étape par étape[tutoriel](./rotate-image/) vous guide tout au long du processus, le rendant accessible à tous les niveaux de compétence.
 
 ## Rotation d'une image selon un angle spécifique
 
@@ -49,7 +49,7 @@ Découvrez la puissance d'Aspose.PSD pour .NET en faisant pivoter sans effort le
 
 ## Ajout d'effets de dégradé aux images
 
- Transformez vos images avec des effets de dégradé captivants à l'aide d'Aspose.PSD pour .NET. Notre étape par étape[Didacticiel](./adding-gradient-effects/) vous guide tout au long du processus, vous aidant à réaliser des transformations visuelles créatives sans effort.
+ Transformez vos images avec des effets de dégradé captivants à l'aide d'Aspose.PSD pour .NET. Notre étape par étape[tutoriel](./adding-gradient-effects/) vous guide tout au long du processus, vous aidant à réaliser des transformations visuelles créatives sans effort.
 
 ## Ajout d'effets de motif aux images
 
@@ -61,7 +61,7 @@ Améliorez vos images avec des effets de motifs captivants à l'aide d'Aspose.PS
 
 ## Prise en charge de différents types de signature
 
- Explorez Aspose.PSD pour .NET et prenez en charge sans effort différents types de signatures dans vos fichiers PSD. Ce[Didacticiel](./supporting-different-signature-types/) fournit des informations sur l’optimisation de votre flux de travail et la satisfaction de diverses exigences de signature.
+ Explorez Aspose.PSD pour .NET et prenez en charge sans effort différents types de signatures dans vos fichiers PSD. Ce[tutoriel](./supporting-different-signature-types/) fournit des informations sur l’optimisation de votre flux de travail et la satisfaction de diverses exigences de signature.
 
 ## Prise en charge des signatures ObAr et UnFl
 
@@ -69,7 +69,7 @@ Améliorez vos images avec des effets de motifs captivants à l'aide d'Aspose.PS
 
 ## Prise en charge de l'effet de lueur externe
 
-Libérez le potentiel de l’effet Outer Glow dans Aspose.PSD pour .NET. Élevez vos conceptions d’image avec ceci[Didacticiel](./supporting-outer-glow-effect/), ajoutant une touche de brillance à vos graphismes.
+Libérez le potentiel de l’effet Outer Glow dans Aspose.PSD pour .NET. Élevez vos conceptions d’image avec ceci[tutoriel](./supporting-outer-glow-effect/), ajoutant une touche de brillance à vos graphismes.
 
 ## Effet de superposition de dégradé de rendu
 
@@ -77,7 +77,7 @@ Libérez le potentiel de l’effet Outer Glow dans Aspose.PSD pour .NET. Élevez
 
 ## Prise en charge de l'effet de superposition de dégradé
 
- Améliorez vos graphiques dans .NET avec Aspose.PSD. Ce[Didacticiel](./supporting-gradient-overlay-effect/) vous guide dans la prise en charge des effets de superposition de dégradés, offrant ainsi une touche créative à vos conceptions. 
+ Améliorez vos graphiques dans .NET avec Aspose.PSD. Ce[tutoriel](./supporting-gradient-overlay-effect/) vous guide dans la prise en charge des effets de superposition de dégradés, offrant ainsi une touche créative à vos conceptions. 
 
 ## Tutoriels de manipulation d'images
 ### [Combinaison d'images dans Aspose.PSD pour .NET](./combine-images/)

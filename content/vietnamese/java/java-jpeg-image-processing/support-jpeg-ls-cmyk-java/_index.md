@@ -20,7 +20,6 @@ Khi bạn đã sẵn sàng tất cả những điều kiện tiên quyết này,
 Để bắt đầu, bạn cần nhập các gói cần thiết từ thư viện Aspose.PSD. Đây là cách bạn có thể làm điều đó:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

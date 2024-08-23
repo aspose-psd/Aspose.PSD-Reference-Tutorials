@@ -150,8 +150,8 @@ Câu trả lời 3: Aspose.PSD được thiết kế để xử lý các hình �
 
 ### Câu hỏi 4: Có phiên bản dùng thử cho Aspose.PSD không?
 
- Câu trả lời 4: Có, bạn có thể khám phá các khả năng của Aspose.PSD bằng cách dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể khám phá các khả năng của Aspose.PSD bằng cách dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.PSD ở đâu?
 
- Câu trả lời 5: Để được trợ giúp hoặc có thắc mắc, hãy truy cập[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ Câu trả lời 5: Để được hỗ trợ hoặc có thắc mắc, hãy truy cập[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).

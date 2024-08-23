@@ -1,6 +1,6 @@
 ---
-title: Afbeelding verwerken
-linktitle: Afbeelding verwerken
+title: Beeldverwerking
+linktitle: Beeldverwerking
 second_title: Aspose.PSD .NET-API
 description: Verbeter moeiteloos de beeldkwaliteit met Aspose.PSD voor .NET-tutorials. Leer technieken zoals Gaussiaanse en Wiener-filters, kleurconversie, binarisatie en meer.
 type: docs

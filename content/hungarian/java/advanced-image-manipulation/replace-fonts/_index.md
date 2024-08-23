@@ -75,7 +75,7 @@ Ebben az oktatóanyagban az Aspose.PSD for Java betűtípusok cseréjének folya
 
 ### 3. kérdés: Vannak-e licenckövetelmények az Aspose.PSD használatához?
 
- A3: Igen, lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
+ A3: Igen, lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 4. kérdés: Kaphatok ideiglenes licenceket tesztelési célokra?
 

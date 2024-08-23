@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -75,8 +74,8 @@ Sim, Aspose.PSD oferece suporte a uma ampla gama de operações, incluindo manip
 ### O Aspose.PSD é adequado para aplicativos de alto desempenho?
 Com certeza, o Aspose.PSD é otimizado para desempenho e eficiência de memória.
 ### Onde posso encontrar mais exemplos e documentação?
- Visite a[Documentação Java Aspose.PSD](https://reference.aspose.com/psd/java/) para guias abrangentes e referências de API.
+ Visite o[Documentação Java Aspose.PSD](https://reference.aspose.com/psd/java/) para guias abrangentes e referências de API.
 ### O Aspose.PSD oferece suporte a vários formatos de imagem para exportação?
 Sim, Aspose.PSD oferece suporte à exportação para vários formatos, como BMP, PNG, JPEG e TIFF.
 ### Como posso obter suporte ou assistência se tiver problemas?
-Entre em contato com a comunidade Aspose.PSD no[Fórum de suporte](https://forum.aspose.com/c/psd/34) ou considere um[licença temporária](https://purchase.aspose.com/temporary-license/) para apoio prioritário.
+Entre em contato com a comunidade Aspose.PSD no[fórum de suporte](https://forum.aspose.com/c/psd/34) ou considere um[licença temporária](https://purchase.aspose.com/temporary-license/) para apoio prioritário.

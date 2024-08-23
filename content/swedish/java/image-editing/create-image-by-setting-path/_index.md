@@ -94,7 +94,7 @@ S1: Ja, Aspose.PSD fungerar sömlöst med olika Java Integrated Development Envi
 
 ### F2: Kan jag använda Aspose.PSD för kommersiella projekt?
 
- S2: Ja, du kan använda Aspose.PSD för både personliga och kommersiella projekt. Kolla[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
+ S2: Ja, du kan använda Aspose.PSD för både personliga och kommersiella projekt. Kontrollera[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
 
 ### F3: Hur kan jag få support för Aspose.PSD?
 
@@ -102,8 +102,8 @@ S1: Ja, Aspose.PSD fungerar sömlöst med olika Java Integrated Development Envi
 
 ### F4: Finns det en gratis provperiod?
 
- A4: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A4: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F5: Behöver jag en tillfällig licens för att testa?
 
- S5: Du kan få en tillfällig licens för teständamål.[här](https://purchase.aspose.com/temporary-license/).
+ S5: Du kan få en tillfällig licens för teständamål[här](https://purchase.aspose.com/temporary-license/).

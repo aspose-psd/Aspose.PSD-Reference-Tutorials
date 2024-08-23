@@ -59,7 +59,7 @@ Aprenda como adicionar uma miniatura a uma imagem PSD em Java usando Aspose.PSD 
 ### [Correção automática da orientação da imagem JPEG em Java](./auto-correct-jpeg-image-orientation-java/)
 Aprenda a corrigir automaticamente a orientação da imagem JPEG em Java usando Aspose.PSD. Aprimore suas habilidades de processamento de imagens sem esforço.
 ### [Definir cor JPEG e tipo de compactação em Java](./set-jpeg-color-compression-type-java/)
-Aprenda como definir a cor JPEG e o tipo de compactação em Java usando Aspose.PSD. Este guia passo a passo torna o processamento de imagens fácil e eficiente.
+Aprenda como definir a cor e o tipo de compactação JPEG em Java usando Aspose.PSD. Este guia passo a passo torna o processamento de imagens fácil e eficiente.
 ### [Extraia a miniatura do JFIF em Java](./extract-thumbnail-from-jfif-java/)
 Aprenda como extrair miniaturas de imagens JFIF usando Aspose.PSD para Java. Tutorial abrangente com guia passo a passo e exemplos de código.
 ### [Extraia miniatura do PSD em Java](./extract-thumbnail-from-psd-java/)

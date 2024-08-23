@@ -67,11 +67,11 @@ O1: Nie, Aspose.PSD jest specjalnie zaprojektowany dla aplikacji .NET.
 
 ### P2: Czy do korzystania z Aspose.PSD wymagana jest licencja?
 
- A2: Tak, potrzebujesz ważnej licencji. Zdobyć[Tutaj](https://purchase.aspose.com/buy).
+ A2: Tak, potrzebujesz ważnej licencji. Dostać za swoje[Tutaj](https://purchase.aspose.com/buy).
 
 ### P3: Czy mogę wypróbować Aspose.PSD za darmo przed zakupem licencji?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.PSD?
 

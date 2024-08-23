@@ -96,7 +96,7 @@ S3: Absolut, Aspose.PSD tillhandahåller effektiva verktyg för batchbearbetning
 
 ### F4: Kan jag använda Aspose.PSD för kommersiella projekt?
 
- A4: Ja, du kan köpa en licens.[här](https://purchase.aspose.com/buy) för kommersiellt bruk.
+ A4: Ja, du kan köpa en licens[här](https://purchase.aspose.com/buy) för kommersiellt bruk.
 
 ### F5: Var kan jag hitta communitysupport för Aspose.PSD för .NET?
 

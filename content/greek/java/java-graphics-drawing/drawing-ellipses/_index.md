@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Graphics graphics = new Graphics(image);
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Βήμα 5: Σχεδιάστε μια διακεκομμένη έλλειψη.
+## Βήμα 5: Σχεδιάστε μια διακεκομμένη έλλειψη
 Χρησιμοποιήστε ένα αντικείμενο στυλό με κόκκινο χρώμα και σχεδιάστε μια διακεκομμένη έλλειψη μέσα σε ένα καθορισμένο ορθογώνιο.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
@@ -64,13 +63,13 @@ saveOptions.setBitsPerPixel(32);
 image.save(outputPath, saveOptions);
 ```
 
-## συμπέρασμα
+## Σύναψη
 Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να σχεδιάζετε ελλείψεις μέσω προγραμματισμού χρησιμοποιώντας το Aspose.PSD για Java. Αυτό το σεμινάριο κάλυψε τη ρύθμιση του έργου σας, την προετοιμασία γραφικών, τη σχεδίαση διακεκομμένων και συνεχών ελλείψεων και την αποθήκευση της εικόνας που προκύπτει. Τώρα μπορείτε να ενσωματώσετε αυτές τις τεχνικές στις εφαρμογές σας Java για διάφορες εργασίες γραφικού σχεδιασμού και χειρισμού εικόνας.
 ## Συχνές ερωτήσεις
 ### Μπορώ να χρησιμοποιήσω το Aspose.PSD δωρεάν;
 Το Aspose.PSD προσφέρει μια δωρεάν δοκιμαστική έκδοση, επιτρέποντάς σας να αξιολογήσετε τις δυνατότητές του πριν από την αγορά.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
- Επίσκεψη[Aspose.PSD Documentation](https://reference.aspose.com/psd/java/) για ολοκληρωμένους οδηγούς και παραδείγματα.
+ Επίσκεψη[Aspose.Τεκμηρίωση PSD](https://reference.aspose.com/psd/java/) για ολοκληρωμένους οδηγούς και παραδείγματα.
 ### Πώς μπορώ να λάβω προσωρινές άδειες για το Aspose.PSD;
  Οι προσωρινές άδειες μπορούν να ληφθούν από[Aspose.PSD Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/).
 ### Σε ποιες μορφές μπορεί το Aspose.PSD να αποθηκεύει εικόνες;

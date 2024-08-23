@@ -19,7 +19,6 @@ Bu eğitime dalmadan önce aşağıdaki önkoşulların ayarlandığından emin 
 Kodlamaya başlamadan önce Aspose.PSD işlevlerini kullanmak için gerekli paketleri içe aktarın:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -79,7 +78,7 @@ image.save(dataDir + "output.psd");
 ```
 
 ## Çözüm
-Sonuç olarak bu eğitim, Aspose.PSD for Java kullanarak PSD görüntüsünün JFIF segmentine küçük resim ekleme sürecinde size yol gösterdi. Bu adımları izleyerek Java uygulamalarınızı Aspose.PSD'nin sunduğu güçlü görüntü işleme özellikleriyle geliştirebilirsiniz.
+Sonuç olarak bu eğitim, Aspose.PSD for Java kullanarak bir PSD görüntüsünün JFIF segmentine küçük resim ekleme sürecinde size yol gösterdi. Bu adımları izleyerek Java uygulamalarınızı Aspose.PSD'nin sunduğu güçlü görüntü işleme özellikleriyle geliştirebilirsiniz.
 ## SSS'ler
 ### Java için Aspose.PSD nedir?
 Aspose.PSD for Java, Java geliştiricilerinin PSD dosyalarını programlı olarak işlemesine olanak tanıyan bir kütüphanedir.

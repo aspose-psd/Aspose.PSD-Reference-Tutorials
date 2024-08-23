@@ -13,7 +13,7 @@ Selamat datang di tutorial langkah demi langkah kami tentang rendering efek drop
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 -  Aspose.PSD untuk Perpustakaan .NET: Pastikan Anda telah menginstal perpustakaan Aspose.PSD. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/psd/net/).
 
@@ -107,7 +107,7 @@ A2: Tentu saja! Jangan ragu untuk menyesuaikan kode untuk memenuhi kebutuhan spe
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD untuk .NET?
 
- A4: Ya, Anda dapat menjelajahi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan dengan Aspose.PSD untuk .NET?
 

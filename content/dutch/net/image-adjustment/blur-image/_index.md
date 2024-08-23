@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Stap 4: Pas het Gaussiaanse vervagingsfilter toe.
+## Stap 4: Pas het Gaussiaanse vervagingsfilter toe
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Hier de`GaussianBlurFilterOptions` klasse wordt gebruikt met een gespecificeerde straal van 15 voor zowel horizontale als verticale vervaging.
+ Hier, de`GaussianBlurFilterOptions` De klasse wordt gebruikt met een gespecificeerde straal van 15 voor zowel horizontale als verticale vervaging.
 
 ## Stap 5: Bewaar de wazige afbeelding
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een afbeelding vervaagd met Aspose.PSD voor .NET. Deze tutorial biedt een kijkje in de mogelijkheden van Aspose.PSD en opent de deur naar een groot aantal mogelijkheden voor beeldmanipulatie in uw .NET-toepassingen.
+Gefeliciteerd! U hebt met succes een afbeelding vervaagd met Aspose.PSD voor .NET. Deze tutorial biedt een kijkje in de mogelijkheden van Aspose.PSD en opent de deur naar talloze mogelijkheden voor beeldmanipulatie in uw .NET-toepassingen.
 
 ## Veelgestelde vragen
 

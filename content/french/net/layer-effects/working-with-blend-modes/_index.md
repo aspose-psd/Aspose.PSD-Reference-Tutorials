@@ -79,7 +79,7 @@ Répétez ce processus pour chaque mode de fusion, en ajustant les opacités si 
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès à utiliser les modes de fusion dans Aspose.PSD pour .NET. Cette fonctionnalité puissante ouvre un monde de possibilités pour améliorer vos applications de traitement d'images. Expérimentez avec différents modes de fusion et opacités pour obtenir les effets visuels souhaités.
+Félicitations! Vous avez appris avec succès à utiliser les modes de fusion dans Aspose.PSD pour .NET. Cette fonctionnalité puissante ouvre un monde de possibilités pour améliorer vos applications de traitement d'images. Expérimentez avec différents modes de fusion et opacités pour obtenir les effets visuels souhaités.
 
 ## FAQ
 

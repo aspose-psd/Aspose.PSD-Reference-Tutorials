@@ -12,7 +12,7 @@ Kapsamlı eğitimlerimiz ve örneklerimizle Aspose.PSD for .NET'in tüm potansiy
 
 ## Görüntü İşleme Becerilerinizi Yükseltin
 
-### [Görüntü işleme](./image-processing/)
+### [Görüntü İşleme](./image-processing/)
 
 Aspose.PSD for .NET eğitimleriyle görüntü kalitesini zahmetsizce geliştirin. Gauss ve Wiener filtreleri, renk dönüşümü, ikilileştirme ve daha fazlası gibi teknikleri derinlemesine inceleyin. Ayrıntılı eğitimlerimizle sıradan görüntüleri çarpıcı görsel şaheserlere dönüştürün.
 
@@ -78,7 +78,7 @@ Eğitimlerimizle Aspose.PSD for .NET'in tüm potansiyelini ortaya çıkarın. Ar
 
 Aspose.PSD for .NET'i bugün projelerinize dahil edin ve görüntü işleme ve manipülasyonda dönüştürücü bir yolculuğa tanık olun. Becerilerinizi geliştirin, iş akışınızı optimize edin ve zahmetsizce görsel açıdan etkileyici uygulamalar oluşturun. Şimdi eğitimlerimize dalın!
 ## Aspose.PSD for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler 
-### [Görüntü işleme](./image-processing/)
+### [Görüntü İşleme](./image-processing/)
 Aspose.PSD for .NET eğitimleriyle görüntü kalitesini zahmetsizce geliştirin. Gauss ve Wiener filtreleri, renk dönüşümü, ikilileştirme ve daha fazlası gibi teknikleri öğrenin.
 ### [PSD Dosyası İşleme](./psd-file-manipulation/)
 Aspose.PSD for .NET ile AI format katmanlarını zahmetsizce kullanın. PSD görüntülerini GIF'e aktarmayı, animasyonlu veri bölümlerini yönetmeyi ve katman durumlarını değiştirmeyi öğrenin. 

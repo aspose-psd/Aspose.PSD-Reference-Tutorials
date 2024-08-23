@@ -89,7 +89,7 @@ I den här handledningen utforskade vi den fascinerande världen av Bezier-kurvo
 
 ### F1: Kan jag använda Aspose.PSD för .NET i icke-kommersiella projekt?
 
- S1: Ja, Aspose.PSD för .NET kan användas i både kommersiella och icke-kommersiella projekt. Kolla[licensdetaljer](https://purchase.aspose.com/buy) för mer information.
+ S1: Ja, Aspose.PSD för .NET kan användas i både kommersiella och icke-kommersiella projekt. Kontrollera[licensdetaljer](https://purchase.aspose.com/buy) för mer information.
 
 ### F2: Hur kan jag få en tillfällig licens för teständamål?
 
@@ -101,7 +101,7 @@ A3: Absolut! Aspose.PSD för .NET är skräddarsydd för bildbehandlings- och re
 
 ### F4: Var kan jag hitta communitysupport för Aspose.PSD för .NET?
 
- S4: Gå med i Aspose.PSD-communityt på[detta forum](https://forum.aspose.com/c/psd/34) för diskussion och stöd.
+S4: Gå med i Aspose.PSD-communityt på[detta forum](https://forum.aspose.com/c/psd/34) för diskussioner och stöd.
 
 ### F5: Finns det några gratisresurser för att lära sig Aspose.PSD för .NET?
 

@@ -1,6 +1,6 @@
 ---
-title: Extrahera miniatyr från JFIF i Java
-linktitle: Extrahera miniatyr från JFIF i Java
+title: Extrahera miniatyrbild från JFIF i Java
+linktitle: Extrahera miniatyrbild från JFIF i Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du extraherar miniatyrer från JFIF-bilder med Aspose.PSD för Java. Omfattande handledning med steg-för-steg-guide och kodexempel.
 type: docs
@@ -19,7 +19,6 @@ Innan du fortsätter med den här handledningen, se till att du har följande f�
 För att börja, se till att du har importerat de nödvändiga paketen i ditt Java-projekt:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -33,7 +32,7 @@ Ladda först PSD-bilden från vilken du vill extrahera miniatyren.
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "example.psd");
 ```
- Byta ut`"Your Document Directory"` med sökvägen till din PSD-fil.
+ Ersätta`"Your Document Directory"` med sökvägen till din PSD-fil.
 ## Steg 2: Iterera över bildresurser
 Iterera genom bildresurserna för att hitta miniatyrbildsresursen, som vanligtvis är i JFIF-format.
 ```java

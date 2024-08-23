@@ -74,15 +74,15 @@ Ebben az oktatóanyagban bemutattuk a képek arányos átméretezésének alapve
 
 ### 1. kérdés: Az Aspose.PSD kompatibilis az összes képformátummal?
 
- 1. válasz: Az Aspose.PSD különféle képformátumokat támogat, beleértve a PSD-t, PNG-t, JPEG-et stb. Ellenőrizd a[dokumentáció](https://reference.aspose.com/psd/java/) átfogó listáért.
+ 1. válasz: Az Aspose.PSD különféle képformátumokat támogat, beleértve a PSD-t, PNG-t, JPEG-et stb. Ellenőrizze a[dokumentáció](https://reference.aspose.com/psd/java/) átfogó listáért.
 
 ### 2. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
- A2: Igen, megteheti. Meglátogatni a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
+ A2: Igen, megteheti. Látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 3. kérdés: Rendelkezésre állnak-e ideiglenes licencek tesztelési célokra?
 
- V3: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) értékeléshez.
+ V3: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) értékeléshez.
 
 ### 4. kérdés: Hol találok támogatást az Aspose.PSD-hez?
 

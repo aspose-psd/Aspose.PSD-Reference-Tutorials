@@ -82,11 +82,11 @@ Chúc mừng! Bạn đã học thành công cách lưu hình ảnh vào luồng 
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Trả lời 3: Có, bạn có thể dùng thử miễn phí.[đây](https://releases.aspose.com/)để khám phá các tính năng của Aspose.PSD trước khi mua hàng.
+ A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/)để khám phá các tính năng của Aspose.PSD trước khi mua hàng.
 
 ### Q4: Làm thế nào tôi có thể có được giấy phép tạm thời?
 
- A4: Bạn có thể có được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+ A4: Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
 
 ### Câu 5: Tôi có thể mua Aspose.PSD ở đâu?
 

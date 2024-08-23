@@ -76,7 +76,7 @@ S1: Aspose.PSD för Java är utformad för att fungera med olika Java-versioner,
 
 ### F2: Kan jag använda Aspose.PSD för kommersiella ändamål?
 
- S2: Ja, Aspose.PSD kommer med flexibla licensalternativ, inklusive kommersiell användning. Besök[köpsidan](https://purchase.aspose.com/buy) för mer detaljer.
+ S2: Ja, Aspose.PSD kommer med flexibla licensalternativ, inklusive kommersiell användning. Besök[köpsidan](https://purchase.aspose.com/buy) för mer information.
 
 ### F3: Finns det en gratis provperiod?
 

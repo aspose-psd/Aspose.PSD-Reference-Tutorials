@@ -94,11 +94,11 @@ S1: Ja, Aspose.PSD stöder olika bildformat, vilket ger flexibilitet i dina proj
 
 ### F2: Hur kan jag få en tillfällig licens för Aspose.PSD?
 
- A2: Du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A2: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F3: Var kan jag hitta Aspose.PSD-dokumentation?
 
-S3: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/java/).
+S3: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/java/).
 
 ### F4: Vilka supportalternativ finns tillgängliga för Aspose.PSD?
 

@@ -51,7 +51,7 @@ using (PsdImage image = new PsdImage(500, 500))
 ## Βήμα 2: Δημιουργία GraphicsPath και Figure
 
 ```csharp
-// Δημιουργήστε μια παρουσία του GraphicsPath και του Instance of Figure, προσθέστε EllipseShape, RectangleShape και TextShape στην εικόνα.
+// Δημιουργήστε μια παρουσία του GraphicsPath και Instance of Figure, προσθέστε EllipseShape, RectangleShape και TextShape στην εικόνα
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -77,7 +77,7 @@ Console.WriteLine("Processing completed successfully.");
 
 Σε αυτό το τελευταίο βήμα, σχεδιάζουμε τη διαδρομή χρησιμοποιώντας τη μέθοδο DrawPath με ένα καθορισμένο χρώμα στυλό. Επιπλέον, δημιουργούμε ένα HatchBrush, ορίζουμε τις ιδιότητές του και το χρησιμοποιούμε για να γεμίσουμε τη διαδρομή. Τέλος, αποθηκεύουμε την επεξεργασμένη εικόνα.
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε εφαρμόσει με επιτυχία τη σχεδίαση με το GraphicsPath χρησιμοποιώντας το Aspose.PSD για .NET. Αυτή η ισχυρή βιβλιοθήκη ανοίγει έναν κόσμο δυνατοτήτων για εργασία με αρχεία Photoshop στις εφαρμογές σας .NET.
 
@@ -101,4 +101,4 @@ A4: Ναι, το Aspose.PSD για .NET παρέχει λειτουργικότ�
 
 ### Ε5: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.PSD για .NET;
 
- A5: Η τεκμηρίωση είναι διαθέσιμη.[εδώ](https://reference.aspose.com/psd/net/).
+ A5: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/psd/net/).

@@ -13,7 +13,7 @@ Selamat datang di tutorial komprehensif kami tentang gambar skala abu-abu menggu
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 -  Aspose.PSD untuk .NET Library: Unduh dan instal perpustakaan dari[Dokumentasi Aspose.PSD](https://reference.aspose.com/psd/net/).
 
@@ -51,7 +51,7 @@ string destName = dataDir + @"Grayscaling_out.jpg";
 
 using (Image image = Image.Load(sourceFile))
 {
-    // Kode tambahan akan ditambahkan pada langkah selanjutnya.
+    // Kode tambahan akan ditambahkan pada langkah berikutnya.
 }
 ```
 

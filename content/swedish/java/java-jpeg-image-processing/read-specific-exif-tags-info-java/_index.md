@@ -8,7 +8,7 @@ weight: 19
 url: /sv/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
 ## Introduktion
-Vill du dyka in i världen av PSD-filmanipulation med Java? Om du vill förstå hur man läser specifika EXIF-taggar från PSD-bilder har du kommit rätt. Denna handledning kommer att leda dig genom hela processen med Aspose.PSD för Java, från att ställa in din miljö till att extrahera detaljerad EXIF-data. Låt oss börja!
+Vill du dyka in i världen av PSD-filmanipulation med Java? Om du vill förstå hur man läser specifika EXIF-taggar från PSD-bilder har du kommit rätt. Denna handledning kommer att leda dig genom hela processen med Aspose.PSD för Java, från att ställa in din miljö till att extrahera detaljerad EXIF-data. Låt oss komma igång!
 ## Förutsättningar
 Innan vi dyker in i koden finns det några saker du måste ha på plats:
 1.  Java Development Kit (JDK): Se till att du har JDK installerat på din maskin. Du kan ladda ner den från[Oracle JDK webbplats](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -19,7 +19,6 @@ Innan vi dyker in i koden finns det några saker du måste ha på plats:
 Först måste du importera de nödvändiga Aspose.PSD-paketen till ditt Java-projekt. Så här ställer du in det.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

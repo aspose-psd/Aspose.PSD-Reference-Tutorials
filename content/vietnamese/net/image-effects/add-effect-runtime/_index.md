@@ -91,7 +91,7 @@ Câu trả lời 3: Aspose.PSD cung cấp nhiều hiệu ứng, nhưng bạn nê
 
 ### Câu hỏi 4: Làm cách nào tôi có thể xin được giấy phép tạm thời cho mục đích thử nghiệm?
 
- A4: Bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
+ A4: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
 
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ và thảo luận cộng đồng ở đâu?
 

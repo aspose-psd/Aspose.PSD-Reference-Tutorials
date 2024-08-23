@@ -89,7 +89,7 @@ colorStroke.setOpacity((byte)127);
 
 ## Langkah 6: Simpan PSD yang Dimodifikasi
 
-Simpan file PSD yang dimodifikasi dengan warna layer stroke yang baru ditambahkan.
+Simpan file PSD yang dimodifikasi dengan warna lapisan guratan yang baru ditambahkan.
 
 ```java
 im.save(exportPath);

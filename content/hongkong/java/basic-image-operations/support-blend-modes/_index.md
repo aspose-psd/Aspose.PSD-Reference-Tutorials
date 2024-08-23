@@ -17,7 +17,7 @@ Aspose.PSD for Java 是一個功能強大的函式庫，為混合模式提供廣
 
 - Java 開發環境：確保您的電腦上設定了有效的 Java 開發環境。
 
--  Aspose.PSD for Java Library：從以下位置下載該程式庫：[網站](https://releases.aspose.com/psd/java/)並按照安裝說明進行操作。
+- Aspose.PSD for Java Library：從以下位置下載該程式庫：[網站](https://releases.aspose.com/psd/java/)並按照安裝說明進行操作。
 
 - 文件目錄：準備一個目錄來儲存 PSD 文件，因為我們將使用範例 PSD 檔案來處理各種混合模式。
 
@@ -58,7 +58,7 @@ for (int i=0; i< files.length; i++) {
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-//另存為 PNG，不透明度為 100%。
+//另存為 PNG，100% 不透明度
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 //將不透明度設為 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-//另存為 PNG，不透明度為 50%。
+//另存為 PNG，不透明度為 50%
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

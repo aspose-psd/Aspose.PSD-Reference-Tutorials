@@ -19,7 +19,7 @@ url: /zh-hant/net/image-processing/apply-gaussian-wiener-filters/
 
 2. 範例影像：準備 PSD 格式的範例影像以進行實驗。您可以在 Aspose.PSD 文件中找到範例影像。
 
-3. 整合開發環境 (IDE)：在系統上安裝與 .NET 相容的 IDE（例如 Visual Studio），以無縫實作本教學中提供的程式碼片段。
+3. 整合開發環境 (IDE)：在系統上安裝 .NET 相容的 IDE（例如 Visual Studio），以無縫實作本教學中提供的程式碼片段。
 
 ## 導入命名空間
 
@@ -59,7 +59,7 @@ if (rasterImage == null)
 }
 ```
 
-## 步驟 3：建立高斯和維納濾波器選項
+## 第 3 步：建立高斯和維納濾波器選項
 
 建立一個實例`GaussWienerFilterOptions`類，指定半徑大小和平滑值：
 

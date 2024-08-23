@@ -42,7 +42,7 @@ Vamos dividir o processo de salvar imagens usando threads de trabalho em etapas 
 
 ```java
 public class SaveImageWorker {
-    // ... (Consulte o código fornecido para declarações de variáveis)
+    //... (Consulte o código fornecido para declarações de variáveis)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Lógica do construtor
@@ -106,11 +106,11 @@ A1: Sim, Aspose.PSD para Java fornece suporte para multithreading, permitindo me
 
 ### P2: Onde posso encontrar documentação detalhada para Aspose.PSD para Java?
 
- A2: Você pode consultar a documentação.[aqui](https://reference.aspose.com/psd/java/) para obter informações abrangentes sobre Aspose.PSD para Java.
+A2: Você pode consultar a documentação[aqui](https://reference.aspose.com/psd/java/) para obter informações abrangentes sobre Aspose.PSD para Java.
 
 ### Q3: Como posso obter uma licença temporária para Aspose.PSD para Java?
 
- A3: Você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/) para explorar todos os recursos do Aspose.PSD para Java.
+ A3: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para explorar todos os recursos do Aspose.PSD para Java.
 
 ### Q4: Quais opções de suporte estão disponíveis para Aspose.PSD para Java?
 

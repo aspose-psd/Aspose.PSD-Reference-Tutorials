@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/advanced-image-manipulation/implement-lossy-gif-compressor/
 ---
-## Úvod
+## Zavedení
 
 neustále se vyvíjejícím světě vývoje webu je optimalizace obrázků pro výkon zásadní. Aspose.PSD for Java poskytuje výkonné řešení, jak toho dosáhnout, se svým ztrátovým GIF kompresorem. V tomto tutoriálu si krok za krokem projdeme proces implementace ztrátového GIF kompresoru pomocí Aspose.PSD for Java.
 
@@ -54,14 +54,14 @@ Image image = Image.load(sourceFile);
 
 ## Krok 4: Nakonfigurujte kompresi GIF
 
- Vytvořit`GifOptions` objekt pro nastavení parametrů pro kompresi GIF, jako je maximální rozdíl. V tomto příkladu nastavíme maximální rozdíl na 200.
+ Vytvořte a`GifOptions` objekt pro nastavení parametrů pro kompresi GIF, jako je maximální rozdíl. V tomto příkladu nastavíme maximální rozdíl na 200.
 
 ```java
 GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Krok 5: Uložte komprimovaný GIF.
+## Krok 5: Uložte komprimovaný GIF
 
  Uložte komprimovaný obrázek GIF pomocí`image.save` metodou se zadaným`GifOptions`.
 
@@ -71,7 +71,7 @@ image.save(destName, gifExport);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste implementovali ztrátový GIF kompresor pomocí Aspose.PSD pro Javu. Tato výkonná funkce umožňuje optimalizovat obrázky pro web, aniž by došlo ke snížení kvality.
+Gratuluji! Úspěšně jste implementovali ztrátový GIF kompresor pomocí Aspose.PSD pro Javu. Tato výkonná funkce umožňuje optimalizovat obrázky pro web, aniž by došlo ke snížení kvality.
 
 ## FAQ
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD for Java je výkonná knihovna pro práci se soubory PSD a různý
 
 ### Q3: Kde najdu dokumentaci k Aspose.PSD pro Java?
 
-A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/java/).
+A3: Dokumentace je k dispozici[zde](https://reference.aspose.com/psd/java/).
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q5: Jak mohu zakoupit Aspose.PSD pro Java?
 
- A5: Můžete si koupit knihovnu.[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit knihovnu[zde](https://purchase.aspose.com/buy).

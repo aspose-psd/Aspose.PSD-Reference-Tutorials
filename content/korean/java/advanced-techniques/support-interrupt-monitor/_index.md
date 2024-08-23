@@ -16,7 +16,7 @@ Java 개발 영역에서 Aspose.PSD는 다양한 이미지 처리 작업을 처�
 인터럽트 모니터 사용법의 복잡성을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하십시오.
 
 - Java 개발 환경: 시스템에 Java 개발 환경을 설정합니다.
--  Aspose.PSD 라이브러리: Java 라이브러리용 Aspose.PSD를 구합니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD 라이브러리: Java 라이브러리용 Aspose.PSD를 구합니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 - 문서 디렉토리: PSD 문서용으로 지정된 디렉토리가 있습니다.
 
 ## 패키지 가져오기
@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-이제 예제 코드를 Aspose.PSD for Java 프로젝트에 Interrupt Monitor를 통합하기 위한 단계별 가이드로 나누어 보겠습니다.
+이제 예제 코드를 Aspose.PSD for Java 프로젝트에 인터럽트 모니터를 통합하기 위한 단계별 가이드로 나누어 보겠습니다.
 
 ## 1단계: 문서 디렉터리 설정
 
@@ -77,7 +77,7 @@ try {
 ## 5단계: 프로세스 중단
 
 ```java
-    // 프로세스를 중단하세요.
+    //프로세스를 중단하세요.
     monitor.interrupt();
     System.out.println("Interrupting the save thread #" + thread.getId() + " at " + getDateTime().toString());
 
@@ -106,11 +106,11 @@ A1: Java용 Aspose.PSD의 인터럽트 모니터를 사용하면 개발자가 �
 
 ### Q2: Java용 Aspose.PSD 라이브러리는 어떻게 구할 수 있나요?
 
-A2: Java 라이브러리용 Aspose.PSD를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
+ A2: Java 라이브러리용 Aspose.PSD를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 
 ### Q3: Aspose.PSD for Java에 대한 무료 평가판이 있습니까?
 
- A3: 예, Aspose.PSD의 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+ A3: 예, Aspose.PSD 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: Java용 Aspose.PSD에 대한 지원은 어디서 찾을 수 있나요?
 
@@ -118,4 +118,4 @@ A2: Java 라이브러리용 Aspose.PSD를 다운로드할 수 있습니다.[여�
 
 ### Q5: Java용 Aspose.PSD 라이선스를 어떻게 구매할 수 있나요?
 
- A5: Java용 Aspose.PSD 라이선스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+A5: Java용 Aspose.PSD 라이선스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).

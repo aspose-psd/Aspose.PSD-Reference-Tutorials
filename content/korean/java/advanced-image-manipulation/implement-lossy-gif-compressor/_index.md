@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## 5단계: 압축된 GIF를 저장하세요.
+## 5단계: 압축된 GIF 저장
 
  다음을 사용하여 압축된 GIF 이미지를 저장합니다.`image.save` 지정된 메소드`GifOptions`.
 
@@ -93,4 +93,4 @@ A3: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/p
 
 ### Q5: Java용 Aspose.PSD를 어떻게 구매할 수 있나요?
 
- A5: 라이브러리를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A5: 라이브러리를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).

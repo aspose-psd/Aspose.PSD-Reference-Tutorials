@@ -13,7 +13,7 @@ Selamat datang di panduan komprehensif kami tentang membuat bentuk elips menggun
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Aspose.PSD untuk Perpustakaan .NET: Pastikan Anda telah menginstal perpustakaan Aspose.PSD di proyek .NET Anda. Anda dapat mengunduhnya dari[Aspose.PSD untuk Dokumentasi .NET](https://reference.aspose.com/psd/net/).
 
@@ -84,15 +84,15 @@ Selamat! Anda telah berhasil membuat bentuk elips menggunakan Aspose.PSD untuk .
 
 ### Q1: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A1: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/net/).
+ A1: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q2: Bagaimana cara mengunduh Aspose.PSD untuk .NET?
 
- A2: Anda dapat mendownloadnya dari halaman rilis.[Di Sini](https://releases.aspose.com/psd/net/).
+ A2: Anda dapat mendownloadnya dari halaman rilis[Di Sini](https://releases.aspose.com/psd/net/).
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
@@ -100,4 +100,4 @@ Selamat! Anda telah berhasil membuat bentuk elips menggunakan Aspose.PSD untuk .
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

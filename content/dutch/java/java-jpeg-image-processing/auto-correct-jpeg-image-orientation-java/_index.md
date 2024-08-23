@@ -20,7 +20,6 @@ Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende v
 Voordat u met het voorbeeld begint, moet u ervoor zorgen dat u de benodigde pakketten uit Aspose.PSD voor Java importeert:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

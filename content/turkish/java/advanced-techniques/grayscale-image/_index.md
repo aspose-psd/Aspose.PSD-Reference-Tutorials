@@ -87,7 +87,7 @@ Tebrikler! Aspose.PSD for Java kullanarak bir görüntüyü başarıyla gri tonl
 
 ### S1: Aspose.PSD for Java'yı ticari projeler için kullanabilir miyim?
 
-Cevap1: Evet, Aspose.PSD for Java ticari kullanıma açıktır. Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ Cevap1: Evet, Aspose.PSD for Java ticari kullanıma açıktır. Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ### S2: Aspose.PSD for Java'nın ücretsiz deneme sürümü var mı?
 
@@ -99,7 +99,7 @@ Cevap1: Evet, Aspose.PSD for Java ticari kullanıma açıktır. Lisans satın al
 
 ### S4: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
 
- Cevap4: Geçici lisanslar alın[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici lisanslar edinin[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Desteğe mi ihtiyacınız var veya sorularınız mı var?
 

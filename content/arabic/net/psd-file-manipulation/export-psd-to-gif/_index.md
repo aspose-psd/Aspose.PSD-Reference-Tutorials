@@ -55,7 +55,7 @@ A1: نعم، يدعم Aspose.PSD for .NET تصدير ملفات PSD المتحر
 
 ### س2: أين يمكنني العثور على وثائق شاملة لـ Aspose.PSD لـ .NET؟
 
- ج2: راجع[توثيق](https://reference.aspose.com/psd/net/) للحصول على معلومات وأمثلة مفصلة.
+ ج2: راجع[الوثائق](https://reference.aspose.com/psd/net/) للحصول على معلومات وأمثلة مفصلة.
 
 ### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 

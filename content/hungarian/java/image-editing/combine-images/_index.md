@@ -60,7 +60,7 @@ Image image = Image.create(imageOptions, 600, 600);
 
 ## 4. lépés: Inicializálja a grafikát
 
-Hozzon létre és inicializáljon egy Graphics példányt, tisztítsa meg a képfelületet fehér színnel, és rajzolja meg az első képet:
+Hozzon létre és inicializáljon egy grafikus példányt, tisztítsa meg a képfelületet fehér színnel, és rajzolja meg az első képet:
 
 ```java
 Graphics graphics = new Graphics(image);
@@ -84,7 +84,7 @@ Mentse el a végső kombinált képet:
 image.save();
 ```
 
-Gratulálunk! Sikeresen egyesített két képet egyetlen PSD-fájlba az Aspose.PSD for Java segítségével.
+Gratulálok! Sikeresen egyesített két képet egyetlen PSD-fájlba az Aspose.PSD for Java segítségével.
 
 ## Következtetés
 
@@ -106,7 +106,7 @@ A2: Abszolút! A képek kombinálása után az Aspose.PSD kiterjedt funkcióinak
 
 ### 4. kérdés: Elérhető az Aspose.PSD ingyenes próbaverziója?
 
- 4. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol találok támogatást az Aspose.PSD-vel kapcsolatos lekérdezésekhez?
 

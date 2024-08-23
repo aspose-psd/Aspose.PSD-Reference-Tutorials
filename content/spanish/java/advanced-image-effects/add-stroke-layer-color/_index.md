@@ -101,7 +101,7 @@ im.save(exportPath);
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.PSD con otras bibliotecas gráficas de Java?
+### P1: ¿Puedo utilizar Aspose.PSD con otras bibliotecas gráficas de Java?
 
 R1: Sí, Aspose.PSD se puede integrar con otras bibliotecas gráficas de Java para mejorar su funcionalidad.
 
@@ -111,11 +111,11 @@ R2: ¡Absolutamente! Aspose.PSD se mantiene al día con las últimas especificac
 
 ### P3: ¿Cómo manejo las excepciones mientras uso Aspose.PSD?
 
- A3: Consulte el[Foro de soporte](https://forum.aspose.com/c/psd/34) para obtener ayuda en el manejo de excepciones y solución de problemas.
+ A3: Consulte el[foro de soporte](https://forum.aspose.com/c/psd/34) para obtener ayuda en el manejo de excepciones y solución de problemas.
 
 ### P4: ¿Puedo probar Aspose.PSD antes de comprarlo?
 
- R4: ¡Por supuesto! Coge un[prueba gratis](https://releases.aspose.com/) para explorar las características de Aspose.PSD antes de comprometerse.
+ R4: ¡Por supuesto! Coge un[prueba gratuita](https://releases.aspose.com/) para explorar las características de Aspose.PSD antes de comprometerse.
 
 ### P5: ¿Dónde puedo obtener una licencia temporal para Aspose.PSD?
 

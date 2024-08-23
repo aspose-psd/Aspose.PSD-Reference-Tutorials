@@ -1,14 +1,14 @@
 ---
-title: Czytaj i modyfikuj tagi JPEG EXIF w Javie
-linktitle: Czytaj i modyfikuj tagi JPEG EXIF w Javie
+title: Odczytuj i modyfikuj tagi JPEG EXIF w Javie
+linktitle: Odczytuj i modyfikuj tagi JPEG EXIF w Javie
 second_title: Aspose.PSD API Java
-description: Dowiedz się, jak czytać i modyfikować tagi JPEG EXIF przy użyciu Aspose.PSD dla Java w tym przewodniku krok po kroku. Idealny dla programistów, którzy chcą bez wysiłku obsługiwać metadane obrazu.
+description: W tym przewodniku krok po kroku dowiesz się, jak czytać i modyfikować tagi JPEG EXIF przy użyciu Aspose.PSD dla Java. Idealny dla programistów, którzy chcą bez wysiłku obsługiwać metadane obrazu.
 type: docs
 weight: 18
 url: /pl/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
 ## Wstęp
-No hej! Czy zastanawiałeś się kiedyś, jak można czytać i modyfikować tagi JPEG EXIF za pomocą Java? Jeśli tak, jesteś we właściwym miejscu! Ten samouczek poprowadzi Cię krok po kroku przez proces korzystania z Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, po przeczytaniu tego przewodnika będziesz w stanie obsługiwać tagi JPEG EXIF jak profesjonalista. Zatem zanurzmy się!
+Hej tam! Czy zastanawiałeś się kiedyś, jak czytać i modyfikować tagi JPEG EXIF przy użyciu Java? Jeśli tak, jesteś we właściwym miejscu! Ten samouczek poprowadzi Cię krok po kroku przez proces korzystania z Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, po przeczytaniu tego przewodnika będziesz w stanie obsługiwać tagi JPEG EXIF jak profesjonalista. Zatem zanurzmy się!
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany pakiet JDK. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
@@ -19,7 +19,6 @@ Zanim zaczniemy, upewnij się, że masz następujące elementy:
 Na początek zaimportujmy niezbędne pakiety. Otwórz swoje środowisko Java IDE i utwórz nowy projekt Java. Następnie dołącz bibliotekę Aspose.PSD for Java do zależności projektu.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -37,7 +36,7 @@ try {
 }
 ```
 ## Krok 2: Iteruj po zasobach obrazu
-Po załadowaniu obrazu następnym krokiem jest iteracja po jego zasobach w celu znalezienia zasobu miniatury, który zazwyczaj zawiera dane EXIF .
+Następnym krokiem po załadowaniu obrazu jest iteracja jego zasobów w celu znalezienia zasobu miniatury, który zazwyczaj zawiera dane EXIF.
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource) {
@@ -59,7 +58,7 @@ if (exifData != null) {
 }
 ```
 ## Krok 4: Zmodyfikuj dane EXIF
-Po przeczytaniu danych EXIF możesz chcieć zmodyfikować niektóre jego pola. Oto jak możesz to zrobić:
+Po przeczytaniu danych EXIF możesz chcieć zmodyfikować niektóre z ich pól. Oto jak możesz to zrobić:
 ```java
 if (exifData != null) {
     exifData.setCameraOwnerName("New Camera Owner");
@@ -71,7 +70,7 @@ if (exifData != null) {
 }
 ```
 ## Krok 5: Zapisz zmiany
-Na koniec, po modyfikacji danych EXIF zapisz zmiany w nowym pliku PSD.
+Na koniec, po modyfikacji danych EXIF, zapisz zmiany w nowym pliku PSD.
 ```java
 try {
     image.save(dataDir + "Modified_Zebras_Serengeti.psd");
@@ -81,7 +80,7 @@ try {
 ```
 
 ## Wniosek
-masz to! Wykonując te kroki, możesz łatwo czytać i modyfikować tagi JPEG EXIF przy użyciu Aspose.PSD dla Java. Ta potężna biblioteka sprawia, że obsługa metadanych obrazów jest dziecinnie prosta. Zatem śmiało wypróbuj go we własnych projektach. Miłego kodowania!
+masz to! Wykonując poniższe kroki, możesz łatwo czytać i modyfikować tagi JPEG EXIF przy użyciu Aspose.PSD dla Java. Ta potężna biblioteka sprawia, że obsługa metadanych obrazów jest dziecinnie prosta. Zatem śmiało wypróbuj go we własnych projektach. Miłego kodowania!
 ## Często zadawane pytania
 ### Co to są dane EXIF?
 Dane EXIF (Exchangeable Image File Format) zawierają metadane dotyczące obrazu, takie jak ustawienia aparatu i orientacja.
@@ -90,6 +89,6 @@ Dane EXIF (Exchangeable Image File Format) zawierają metadane dotyczące obrazu
 ### Czy Aspose.PSD for Java jest kompatybilny ze wszystkimi wersjami Java?
 Aspose.PSD dla Java obsługuje Java SE 7 i nowsze wersje.
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PSD dla Java?
- Sprawdź[dokumentacja](https://reference.aspose.com/psd/java/) po więcej szczegółów.
+ Sprawdź[dokumentacja](https://reference.aspose.com/psd/java/) aby uzyskać więcej szczegółów.
 ### Jak uzyskać wsparcie dla Aspose.PSD dla Java?
  Możesz uzyskać wsparcie od[Forum wsparcia Aspose PSD](https://forum.aspose.com/c/psd/34).

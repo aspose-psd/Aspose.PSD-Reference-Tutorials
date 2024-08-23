@@ -13,13 +13,12 @@ Dans le domaine du développement Java, l'intégration de capacités de traiteme
 Avant de plonger dans ce didacticiel, assurez-vous d'avoir configuré les conditions préalables suivantes :
 -  Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez le télécharger depuis[Site Web JDK d'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 -  Aspose.PSD pour Java : vous devez disposer de la bibliothèque Aspose.PSD pour Java. Vous pouvez l'obtenir auprès du[Page de téléchargement Java Aspose.PSD](https://releases.aspose.com/psd/java/).
-- Environnement de développement intégré (IDE) : utilisez un IDE comme IntelliJ IDEA ou Eclipse pour le développement Java.
+- Environnement de développement intégré (IDE) : utilisez un IDE comme IntelliJ IDEA ou Eclipse pour le développement Java.
 - Compréhension de base de Java : Familiarité avec le langage et les concepts de programmation Java.
 ## Importer des packages
 Avant de commencer à coder, importez les packages nécessaires pour utiliser les fonctionnalités d'Aspose.PSD :
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

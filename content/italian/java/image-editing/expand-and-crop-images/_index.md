@@ -7,7 +7,7 @@ type: docs
 weight: 18
 url: /it/java/image-editing/expand-and-crop-images/
 ---
-## introduzione
+## Introduzione
 
 In questo tutorial esploreremo come utilizzare Aspose.PSD per Java per espandere e ritagliare le immagini in modo efficiente. Aspose.PSD è una potente libreria che fornisce un'ampia gamma di funzionalità per lavorare con file PSD nelle applicazioni Java. In questa guida tratteremo i prerequisiti necessari, l'importazione dei pacchetti e analizzeremo ogni passaggio con spiegazioni dettagliate.
 

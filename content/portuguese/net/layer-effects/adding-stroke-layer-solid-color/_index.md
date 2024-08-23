@@ -17,7 +17,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 
 - Conhecimento básico de desenvolvimento .NET.
 - Visual Studio instalado em sua máquina.
-- Biblioteca Aspose.PSD para .NET. Você pode baixá-lo no[local na rede Internet](https://releases.aspose.com/psd/net/).
+- Biblioteca Aspose.PSD para .NET. Você pode baixá-lo no[site](https://releases.aspose.com/psd/net/).
 
 ## Importar namespaces
 

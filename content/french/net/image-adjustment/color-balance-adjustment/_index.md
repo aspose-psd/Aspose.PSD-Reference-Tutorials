@@ -74,7 +74,7 @@ Vous avez maintenant appliqué avec succès l’ajustement de la balance des cou
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris à améliorer la balance des couleurs de vos images PSD avec Aspose.PSD pour .NET. Expérimentez avec différentes valeurs d'équilibre pour obtenir les effets visuels souhaités.
+Félicitations! Vous avez appris à améliorer la balance des couleurs de vos images PSD avec Aspose.PSD pour .NET. Expérimentez avec différentes valeurs d'équilibre pour obtenir les effets visuels souhaités.
 
 ## FAQ
 

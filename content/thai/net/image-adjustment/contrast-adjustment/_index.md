@@ -30,9 +30,9 @@ using Aspose.PSD.FileFormats.Tiff.Enums;
 using Aspose.PSD.ImageOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 
-โหลดอิมเมจต้นฉบับลงในอินสแตนซ์ของ`RasterImage` ชั้นเรียน
+โหลดอิมเมจต้นฉบับลงในอินสแตนซ์ของ`RasterImage` ระดับ.
 
 ```csharp
 //ExStart:LoadImage
@@ -96,7 +96,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.PSD สำหรับ .NET ได้ที่ไหน
 
- A4: เยี่ยมชมฟอรั่มสนับสนุน Aspose.PSD สำหรับ .NET[ที่นี่](https://forum.aspose.com/c/psd/34) สำหรับความช่วยเหลือ.
+ A4: เยี่ยมชมฟอรั่มสนับสนุน Aspose.PSD สำหรับ .NET[ที่นี่](https://forum.aspose.com/c/psd/34) เพื่อขอความช่วยเหลือ
 
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
 

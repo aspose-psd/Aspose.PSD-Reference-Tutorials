@@ -62,7 +62,7 @@ Höj din .NET-utveckling med Aspose.PSD-handledningar. Lär dig byta teckensnitt
 
 ### [PSD rittekniker](./psd-drawing-techniques/)
 
-Lås upp potentialen hos Aspose.PSD för .NET med våra tutorials! Bemästra de grundläggande ritfunktionerna, skapa fantastisk grafik och höj dina färdigheter i bildmanipulation. Utveckla fängslande bilder med våra steg-för-steg rittekniker.
+Lås upp potentialen hos Aspose.PSD för .NET med våra tutorials! Bemästra grundläggande ritfunktioner, skapa fantastisk grafik och höj dina färdigheter i bildmanipulation. Utveckla fängslande bilder med våra steg-för-steg rittekniker.
 
 ## Bemästra dynamiska lagereffekter
 

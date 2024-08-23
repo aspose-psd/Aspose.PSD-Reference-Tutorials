@@ -60,7 +60,7 @@ if (rasterImage == null)
 }
 ```
 
-## Krok 3: Zastosuj filtr mediany
+## Krok 3: Zastosuj filtr medianowy
 
  Utwórz instancję`MedianFilterOptions` class, ustaw rozmiar, zastosuj filtr medianowy do obiektu RasterImage i zapisz wynikowy obraz:
 

@@ -87,7 +87,7 @@ A2: 네, Aspose.PSD는 다양한 이미지 처리 요구 사항에 맞는 다양
 
 ### Q3: 이미지 처리 중 예외를 어떻게 처리할 수 있나요?
 
- A3: 예외를 정상적으로 처리하려면 코드를 try-catch 블록으로 래핑하세요. 인용하다[Aspose.PSD 문서](https://reference.aspose.com/psd/java/) 상세 사항은.
+ A3: 예외를 정상적으로 처리하려면 코드를 try-catch 블록으로 래핑하세요. 참조[Aspose.PSD 문서](https://reference.aspose.com/psd/java/) 자세한 내용은
 
 ### Q4: 여러 필터를 순차적으로 적용할 수 있나요?
 

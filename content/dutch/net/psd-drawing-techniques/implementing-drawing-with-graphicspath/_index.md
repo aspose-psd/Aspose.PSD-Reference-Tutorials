@@ -51,7 +51,7 @@ In deze stap initialiseren we een exemplaar van de klasse PsdImage en een Graphi
 ## Stap 2: Grafisch pad en figuur maken
 
 ```csharp
-// Maak een exemplaar van GraphicsPath en Instance of Figure, voeg EllipseShape, RectangleShape en TextShape toe aan de figuur.
+// Maak een exemplaar van GraphicsPath en Instance of Figure, voeg EllipseShape, RectangleShape en TextShape toe aan de figuur
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -101,4 +101,4 @@ A4: Ja, Aspose.PSD voor .NET biedt functionaliteit om met lagen in Photoshop-bes
 
 ### V5: Waar kan ik de documentatie voor Aspose.PSD voor .NET vinden?
 
- A5: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/net/).
+ A5: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).

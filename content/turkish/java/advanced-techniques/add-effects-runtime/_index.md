@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden e
 
 2.  Aspose.PSD for Java Kütüphanesi: Aspose.PSD for Java kütüphanesine sahip olmanız gerekir. Henüz yapmadıysanız, şuradan indirin:[Aspose.PSD Java belgeleri](https://reference.aspose.com/psd/java/).
 
-3. Belge Dizini: Belgeleriniz için bir dizin oluşturun ve yolu unutmayın. Verilen örnekte, dizin şu şekilde anılır:`Your Document Directory`.
+3.  Belge Dizini: Belgeleriniz için bir dizin oluşturun ve yolu unutmayın. Verilen örnekte, dizin şu şekilde anılır:`Your Document Directory`.
 
 ## Paketleri İçe Aktar
 
@@ -90,8 +90,8 @@ Cevap2: Evet, Aspose.PSD, PSD, BMP, JPEG, PNG ve daha fazlasını içeren çok �
 
 ### S4: Aspose.PSD ile ilgili herhangi bir sorun veya soru için nereden yardım alabilirim?
 
- Cevap4: Aspose.PSD'yi ziyaret edin[destek Forumu](https://forum.aspose.com/c/psd/34) yardım almak ve toplulukla bağlantı kurmak için.
+ Cevap4: Aspose.PSD'yi ziyaret edin[destek forumu](https://forum.aspose.com/c/psd/34) yardım almak ve toplulukla bağlantı kurmak için.
 
 ### S5: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- C5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ A5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).

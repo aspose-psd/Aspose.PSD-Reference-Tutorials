@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Sebelum menggambar, bersihkan permukaan grafis dengan warna tertentu (opsional).
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Langkah 5: Gambarlah elips bertitik.
+## Langkah 5: Gambarlah elips bertitik
 Gunakan objek Pena dengan warna merah dan gambar elips bertitik di dalam Persegi Panjang yang ditentukan.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

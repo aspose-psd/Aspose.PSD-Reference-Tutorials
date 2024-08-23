@@ -9,7 +9,7 @@ url: /pl/java/image-editing/expand-and-crop-images/
 ---
 ## Wstęp
 
-W tym samouczku odkryjemy, jak używać Aspose.PSD dla Java do wydajnego rozwijania i przycinania obrazów. Aspose.PSD to potężna biblioteka zapewniająca szeroką gamę funkcji do pracy z plikami PSD w aplikacjach Java. W tym przewodniku omówimy niezbędne wymagania wstępne, importowanie pakietów i podzielimy każdy krok ze szczegółowymi wyjaśnieniami.
+tym samouczku odkryjemy, jak używać Aspose.PSD dla Java do wydajnego rozwijania i przycinania obrazów. Aspose.PSD to potężna biblioteka zapewniająca szeroką gamę funkcji do pracy z plikami PSD w aplikacjach Java. W tym przewodniku omówimy niezbędne wymagania wstępne, importowanie pakietów i podzielimy każdy krok ze szczegółowymi wyjaśnieniami.
 
 ## Warunki wstępne
 

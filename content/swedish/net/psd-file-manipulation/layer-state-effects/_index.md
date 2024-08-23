@@ -73,12 +73,12 @@ Grattis! Du har framgångsrikt arbetat med Layer State Effects i Aspose.PSD för
 
 ### S3: Finns det en gratis provperiod?
 
- A3: Ja, du kan utforska en gratis provperiod.[här](https://releases.aspose.com/).
+ A3: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Hur får jag en tillfällig licens?
 
- A4: Skaffa en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A4: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Behöver du support eller har frågor?
 
- A5: Gå med i[Aspose.PSD-gemenskapsforum](https://forum.aspose.com/c/psd/34) för assistens.
+ A5: Gå med i[Aspose.PSD-gemenskapsforum](https://forum.aspose.com/c/psd/34) för hjälp.

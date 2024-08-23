@@ -102,7 +102,7 @@ Grattis! Du har framgångsrikt implementerat stöd för ObAr- och UnFl-signature
 
 ### F1: Är Aspose.PSD kompatibel med de senaste .NET-ramverken?
 
- S1: Aspose.PSD uppdaterar regelbundet sin kompatibilitet. Referera till[dokumentation](https://reference.aspose.com/psd/net/) för den senaste informationen.
+ S1: Aspose.PSD uppdaterar regelbundet sin kompatibilitet. Se till[dokumentation](https://reference.aspose.com/psd/net/) för den senaste informationen.
 
 ### F2: Var kan jag hitta support för Aspose.PSD?
 
@@ -110,11 +110,11 @@ Grattis! Du har framgångsrikt implementerat stöd för ObAr- och UnFl-signature
 
 ### F3: Kan jag prova Aspose.PSD innan jag köper?
 
- A3: Ja, du kan utforska en gratis testversion.[här](https://releases.aspose.com/).
+ A3: Ja, du kan utforska en gratis testversion[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få en tillfällig licens för Aspose.PSD?
 
- A4: Besök[den här länken](https://purchase.aspose.com/temporary-license/) för tillfälliga licensalternativ.
+ A4: Besök[denna länk](https://purchase.aspose.com/temporary-license/) för tillfälliga licensalternativ.
 
 ### F5: Var kan jag köpa Aspose.PSD för .NET?
 

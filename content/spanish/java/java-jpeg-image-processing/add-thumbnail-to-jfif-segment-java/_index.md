@@ -19,7 +19,6 @@ Antes de sumergirse en este tutorial, asegúrese de tener configurados los sigui
 Antes de comenzar a codificar, importe los paquetes necesarios para utilizar las funcionalidades de Aspose.PSD:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

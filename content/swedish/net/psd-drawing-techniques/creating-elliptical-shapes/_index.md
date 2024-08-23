@@ -84,15 +84,15 @@ Grattis! Du har framgångsrikt skapat elliptiska former med Aspose.PSD för .NET
 
 ### F1: Var kan jag hitta dokumentationen för Aspose.PSD för .NET?
 
- S1: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
+ S1: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
 
 ### F2: Hur laddar jag ner Aspose.PSD för .NET?
 
- S2: Du kan ladda ner den från releasesidan.[här](https://releases.aspose.com/psd/net/).
+ S2: Du kan ladda ner den från releasesidan[här](https://releases.aspose.com/psd/net/).
 
 ### F3: Finns det en gratis provperiod?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 
@@ -100,4 +100,4 @@ Grattis! Du har framgångsrikt skapat elliptiska former med Aspose.PSD för .NET
 
 ### F5: Behöver jag en tillfällig licens för att testa?
 
- A5: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

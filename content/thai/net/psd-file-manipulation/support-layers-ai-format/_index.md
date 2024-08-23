@@ -26,7 +26,7 @@ using System;
 using System.IO;
 ```
 ## ขั้นตอนที่ 1: โหลดไฟล์ AI
-โหลดไฟล์ AI ลงในแอปพลิเคชันของคุณโดยใช้รหัสต่อไปนี้:
+โหลดไฟล์ AI ลงในแอปพลิเคชันของคุณโดยใช้โค้ดต่อไปนี้:
 ```csharp
 string sourceFilePath = Path.Combine(dataDir, "form_8_2l3_7.ai");
 using (AiImage image = (AiImage)Image.Load(sourceFilePath))
@@ -53,7 +53,7 @@ AssertIsTrue(layer0.Name == "Layer 4", "Layer 0 name should be `Layer 4`");
 AiRasterImageSection rasterImage = layer1.RasterImages[0];
 // การยืนยันและการตรวจสอบภาพแรสเตอร์ของคุณอยู่ที่นี่
 ```
-## ขั้นตอนที่ 5: บันทึกภาพที่ประมวลผลแล้ว
+## ขั้นตอนที่ 5: บันทึกรูปภาพที่ประมวลผลแล้ว
 สุดท้าย ให้บันทึกภาพที่ประมวลผลในรูปแบบ PSD และ PNG:
 ```csharp
 image.Save(outputFilePath + ".psd", new PsdOptions());

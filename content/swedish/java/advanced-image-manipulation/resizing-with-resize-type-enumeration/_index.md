@@ -17,7 +17,7 @@ Innan du börjar med denna handledning, se till att du har följande förutsätt
 
 1. Java-utvecklingsmiljö: Se till att du har en Java-utvecklingsmiljö inställd på din maskin.
 
-2. Aspose.PSD Library: Ladda ner och installera Aspose.PSD-biblioteket från[hemsida](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD Library: Ladda ner och installera Aspose.PSD-biblioteket från[webbplats](https://releases.aspose.com/psd/java/).
 
 3.  Exempel PSD-fil: Ha en exempel-PSD-fil redo för experiment. Du kan använda[sample.psd](Din dokumentkatalog/sample.psd)-fil för den här handledningen.
 
@@ -63,7 +63,7 @@ image.save(destName, new JpegOptions());
 
 Och där har du det! Du har lyckats ändra storlek på en bild med hjälp av resize Type Enumeration i Aspose.PSD för Java.
 
-Sammanfattningsvis ger Aspose.PSD för Java en robust plattform för bildmanipulering, och Resize Type Enumeration lägger till ett lager av flexibilitet till denna process. Oavsett om du arbetar med ett litet projekt eller en storskalig applikation, kommer du att bemästra dessa steg ge dig möjlighet att hantera bildstorleksändring sömlöst.
+Sammanfattningsvis ger Aspose.PSD för Java en robust plattform för bildmanipulering, och Resize Type Enumeration lägger till ett lager av flexibilitet till denna process. Oavsett om du arbetar med ett litet projekt eller en storskalig applikation, kommer att behärska dessa steg ge dig möjlighet att hantera bildstorleksändring sömlöst.
 
 ## FAQ's
 
@@ -73,7 +73,7 @@ A1: Absolut! Aspose.PSD för Java är designad för att tillgodose projekt av al
 
 ### F2: Kan jag använda en annan storleksändringstyp än Lanczos Resample?
 
-S2: Ja, Aspose.PSD för Java erbjuder olika storleksändringstyper, till exempel Nearest Neighbor, Bicubic och mer. Utforska dokumentationen för en omfattande lista.
+S2: Ja, Aspose.PSD för Java erbjuder olika storleksändringstyper, till exempel Nearest Neighbour, Bicubic och mer. Utforska dokumentationen för en omfattande lista.
 
 ### F3: Var kan jag hitta ytterligare stöd för Aspose.PSD för Java?
 
@@ -81,8 +81,8 @@ S2: Ja, Aspose.PSD för Java erbjuder olika storleksändringstyper, till exempel
 
 ### F4: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- A4: Ja, du kan få tillgång till en gratis testversion.[här](https://releases.aspose.com/).
+ A4: Ja, du kan få tillgång till en gratis testversion[här](https://releases.aspose.com/).
 
 ### F5: Hur kan jag få en tillfällig licens för Aspose.PSD för Java?
 
- S5: För att få en tillfällig licens, besök[den här länken](https://purchase.aspose.com/temporary-license/).
+ S5: För att få en tillfällig licens, besök[denna länk](https://purchase.aspose.com/temporary-license/).

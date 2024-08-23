@@ -16,7 +16,7 @@ Java의 이미지 처리 기능을 향상시킬 준비가 되셨습니까? Java�
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본 지식.
--  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+-  Java 라이브러리용 Aspose.PSD가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/).
 - Java로 구성된 개발 환경입니다.
 
 ## 패키지 가져오기
@@ -42,7 +42,7 @@ import java.util.Date;
 
 ```java
 public class SaveImageWorker {
-    // ... (변수 선언은 제공된 코드 참조)
+    //... (변수 선언은 제공된 코드 참조)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // 생성자 논리
@@ -106,11 +106,11 @@ A1: 예, Java용 Aspose.PSD는 멀티스레딩을 지원하여 이미지 처리 
 
 ### Q2: Java용 Aspose.PSD에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
 
- A2: 설명서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/java/) Java용 Aspose.PSD에 대한 포괄적인 정보를 보려면
+A2: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/java/) Java용 Aspose.PSD에 대한 포괄적인 정보를 보려면
 
 ### Q3: Java용 Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- A3: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) Java용 Aspose.PSD의 전체 기능을 살펴보세요.
+ A3: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) Java용 Aspose.PSD의 전체 기능을 살펴보세요.
 
 ### Q4: Java용 Aspose.PSD에 어떤 지원 옵션을 사용할 수 있나요?
 

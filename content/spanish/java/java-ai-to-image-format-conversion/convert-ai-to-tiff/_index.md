@@ -12,7 +12,7 @@ Transformar archivos AI al formato TIFF es un requisito común para los desarrol
 ## Requisitos previos
 Antes de sumergirse en el proceso de conversión, asegúrese de tener lo siguiente:
 1. Kit de desarrollo de Java (JDK): asegúrese de tener instalado JDK 8 o superior.
-2.  Aspose.PSD para Java: descargue el[Aspose.PSD para la biblioteca Java](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD para Java: descargue el[Aspose.PSD para la biblioteca Java](https://releases.aspose.com/psd/java/).
 3. Entorno de desarrollo integrado (IDE): cualquier IDE de su elección (por ejemplo, IntelliJ IDEA, Eclipse).
 4. Archivo AI: el archivo de Adobe Illustrator (.ai) que desea convertir.
 5. TiffOptions: Necesario para especificar detalles del formato TIFF.
@@ -20,7 +20,6 @@ Antes de sumergirse en el proceso de conversión, asegúrese de tener lo siguien
 Primero, necesita importar los paquetes necesarios desde Aspose.PSD. Estos paquetes proporcionan las clases y métodos necesarios para manejar archivos AI y TIFF.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -34,9 +33,9 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Aquí,`dataDir`es el directorio donde está almacenado su archivo AI. Ajuste la ruta en consecuencia para que coincida con la ubicación de su archivo.
+ Aquí,`dataDir` es el directorio donde está almacenado su archivo AI. Ajuste la ruta en consecuencia para que coincida con la ubicación de su archivo.
 ## Paso 3: definir el archivo de salida
-A continuación, especifique la ruta del archivo de salida donde se guardará el archivo TIFF convertido.
+continuación, especifique la ruta del archivo de salida donde se guardará el archivo TIFF convertido.
 ```java
 String outFileName = dataDir + "34992OStroke.tiff";
 ```
@@ -61,6 +60,6 @@ No, Aspose.PSD para Java maneja archivos AI independientemente de Adobe Illustra
 ### ¿Puedo aplicar opciones de compresión personalizadas al archivo TIFF?
 Por supuesto, Aspose.PSD para Java le permite especificar varias opciones TIFF para satisfacer sus necesidades.
 ### ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
- Sí, puedes descargar un[prueba gratis](https://releases.aspose.com/) para probar las funciones.
+ Sí, puedes descargar un[prueba gratuita](https://releases.aspose.com/) para probar las funciones.
 ### ¿Dónde puedo obtener soporte para Aspose.PSD para Java?
  Puedes encontrar soporte en el[Foro de soporte de Aspose.PSD](https://forum.aspose.com/c/psd/34).

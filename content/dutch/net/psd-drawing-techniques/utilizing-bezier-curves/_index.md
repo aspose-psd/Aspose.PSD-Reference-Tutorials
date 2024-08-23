@@ -101,7 +101,7 @@ A3: Absoluut! Aspose.PSD voor .NET is afgestemd op beeldverwerkings- en bewerkin
 
 ### V4: Waar kan ik community-ondersteuning vinden voor Aspose.PSD voor .NET?
 
- A4: Sluit u aan bij de Aspose.PSD-gemeenschap op[dit forum](https://forum.aspose.com/c/psd/34) voor discussie en ondersteuning.
+A4: Sluit u aan bij de Aspose.PSD-gemeenschap op[dit forum](https://forum.aspose.com/c/psd/34) voor discussies en ondersteuning.
 
 ### V5: Zijn er gratis bronnen voor het leren van Aspose.PSD voor .NET?
 

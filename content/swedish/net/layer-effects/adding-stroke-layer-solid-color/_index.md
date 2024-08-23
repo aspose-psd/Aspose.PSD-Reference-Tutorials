@@ -9,7 +9,7 @@ url: /sv/net/layer-effects/adding-stroke-layer-solid-color/
 ---
 ## Introduktion
 
-När det gäller .NET-utveckling är det ett vanligt krav att skapa visuellt tilltalande bilder. Aspose.PSD för .NET tillhandahåller en kraftfull uppsättning verktyg för att manipulera och förbättra bilder sömlöst. En av de väsentliga funktionerna är att lägga till ett strecklager med enfärgad färg, vilket ger liv och djup till dina bilder. I den här handledningen guidar vi dig genom processen steg för steg med Aspose.PSD för .NET.
+När det gäller .NET-utveckling är det ett vanligt krav att skapa visuellt tilltalande bilder. Aspose.PSD för .NET tillhandahåller en kraftfull uppsättning verktyg för att manipulera och förbättra bilder sömlöst. En av de väsentliga funktionerna är att lägga till ett strecklager med enfärgad färg, vilket ger liv och djup till dina bilder. I denna handledning guidar vi dig genom processen steg för steg med Aspose.PSD för .NET.
 
 ## Förutsättningar
 
@@ -17,7 +17,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 - Grundläggande kunskap om .NET-utveckling.
 - Visual Studio installerat på din dator.
-- Aspose.PSD för .NET-bibliotek. Du kan ladda ner den från[hemsida](https://releases.aspose.com/psd/net/).
+- Aspose.PSD för .NET-bibliotek. Du kan ladda ner den från[webbplats](https://releases.aspose.com/psd/net/).
 
 ## Importera namnområden
 
@@ -34,7 +34,7 @@ using Aspose.PSD.FileFormats.Core.Blending;
 
 ## Steg 1: Ladda PSD-filen
 
-Börja med att ladda PSD-filen som du vill förbättra med ett strecklager. Se till att du har rätt filsökväg:
+Börja med att ladda PSD-filen som du vill förbättra med ett strecklager. Se till att du har rätt sökväg:
 
 ```csharp
 string dataDir = "Your Document Directory";

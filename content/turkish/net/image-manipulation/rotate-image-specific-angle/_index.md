@@ -103,4 +103,4 @@ Cevap3: Zorunlu olmasa da, verileri önbelleğe almak, özellikle büyük resiml
 
 ### S5: Satın almadan önce Aspose.PSD'yi deneyebilir miyim?
 
- A5: Kesinlikle! Tutun[ücretsiz deneme](https://releases.aspose.com/) Kütüphanenin yeteneklerini keşfetmek için.
+ A5: Kesinlikle! Tutun[ücretsiz deneme](https://releases.aspose.com/)Kütüphanenin yeteneklerini keşfetmek için.

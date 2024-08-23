@@ -85,7 +85,7 @@ Ismételje meg ezeket a lépéseket minden olyan képnél, amelyet mintaeffektus
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan adhat mintaeffektusokat a képekhez az Aspose.PSD for .NET használatával. Kísérletezzen különböző mintákkal és beállításokkal, hogy szabadjára engedje kreativitását az arculattervezésben.
+Gratulálok! Sikeresen megtanulta, hogyan adhat mintaeffektusokat a képekhez az Aspose.PSD for .NET használatával. Kísérletezzen különböző mintákkal és beállításokkal, hogy szabadjára engedje kreativitását az arculattervezésben.
 
 ## GYIK
 
@@ -101,7 +101,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat mintaeffektusokat a képekhez a
 
  A3: Módosítsa a`Opacity` tulajdona a`PatternOverlayEffect` az átlátszóság szintjének beállításához.
 
-### 4. kérdés: Vannak-e korlátozások a minta méretére vonatkozóan?
+### 4. kérdés: Vannak korlátozások a minta méretére vonatkozóan?
 
 A4: A minta méretei rugalmasak, lehetővé téve különböző méretű minták létrehozását.
 

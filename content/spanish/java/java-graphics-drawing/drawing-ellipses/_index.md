@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Antes de dibujar, limpie la superficie gráfica con un color específico (opcion
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Paso 5: dibuja una elipse punteada.
+## Paso 5: dibuja una elipse punteada
 Utilice un objeto Pluma de color rojo y dibuje una elipse punteada dentro de un Rectángulo especificado.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

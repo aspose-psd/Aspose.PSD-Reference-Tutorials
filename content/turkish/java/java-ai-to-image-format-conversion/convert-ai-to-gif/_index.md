@@ -12,7 +12,7 @@ AI (Adobe Illustrator) dosyalarını Java'da GIF'lere dönüştürmek göz korku
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun.
--  Aspose.PSD for Java Library: Kütüphaneyi şuradan indirin:[Java indirme sayfası için Aspose.PSD](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java Library: Kütüphaneyi şuradan indirin:[Java indirme sayfası için Aspose.PSD](https://releases.aspose.com/psd/java/).
 - Entegre Geliştirme Ortamı (IDE): Java kodunuzu yazmak ve çalıştırmak için IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.
 - AI dosyası: Dönüştürmek istediğiniz Adobe Illustrator dosyası.
 ## Paketleri İçe Aktar
@@ -20,7 +20,6 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -39,7 +38,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
 ### 2.2 AI Dosyasını Yükleyin
- Kullan`Image.load` AI dosyanızı yükleme yöntemi. Bu yöntem AI dosyasını bir`AiImage` nesne.
+ Şunu kullanın:`Image.load` AI dosyanızı yükleme yöntemi. Bu yöntem AI dosyasını bir`AiImage` nesne.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
@@ -54,9 +53,9 @@ GifOptions options = new GifOptions();
 ```java
 options.setDoPaletteCorrection(false);
 ```
-## Adım 4: Yapay Zekayı GIF olarak kaydedin
+## 4. Adım: Yapay Zekayı GIF olarak kaydedin
 ### 4.1 Görüntüyü Kaydet
- Son olarak şunu kullanın:`save` yöntemi`AiImage` AI dosyasını GIF olarak kaydetmek için nesne.
+ Son olarak şunu kullanın:`save` yöntemi`AiImage` AI dosyasını GIF olarak kaydetmek için nesneyi seçin.
 ```java
 image.save(outFileName, options);
 ```
@@ -76,7 +75,7 @@ try {
 }
 ```
 ## Çözüm
-İşte aldın! Aspose.PSD for Java'yı kullanarak yalnızca birkaç satır kodla bir AI dosyasını GIF'e dönüştürebilirsiniz. Bu kitaplık, süreci basitleştirerek karmaşık dosya dönüştürmeleri konusunda endişelenmeden harika uygulamalar oluşturmaya odaklanmanıza olanak tanır. 
+İşte burada! Aspose.PSD for Java'yı kullanarak yalnızca birkaç satır kodla bir AI dosyasını GIF'e dönüştürebilirsiniz. Bu kitaplık, süreci basitleştirerek karmaşık dosya dönüştürmeleri konusunda endişelenmeden harika uygulamalar oluşturmaya odaklanmanıza olanak tanır. 
 Aspose.PSD for Java, çok çeşitli görüntü işleme görevlerini yerine getirebilen çok yönlü bir araçtır. Yani ister bir grafik tasarım aracı, ister otomatik bir görüntü işleme uygulaması üzerinde çalışıyor olun, ister yalnızca belirli bir proje için dosyaları dönüştürmeye ihtiyaç duyuyor olun, Aspose.PSD yanınızdadır.
 ## SSS'ler
 ### Java için Aspose.PSD nedir?

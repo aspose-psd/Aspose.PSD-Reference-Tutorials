@@ -21,7 +21,6 @@ Trước tiên, hãy nhập các gói cần thiết. Những điều này sẽ c
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -145,7 +144,7 @@ Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
 ## Phần kết luận
-Và bạn có nó rồi đấy! Bây giờ bạn đã biết cách thêm và thao tác chuyển màu gradient của lớp nét trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn này đề cập đến việc tải tệp PSD, truy cập và sửa đổi các hiệu ứng nét vẽ cũng như lưu các thay đổi. Với những kỹ năng này, bạn có thể tạo các gradient hấp dẫn về mặt hình ảnh và tùy chỉnh các tệp PSD cho phù hợp với nhu cầu của mình.
+Và bạn có nó! Bây giờ bạn đã biết cách thêm và thao tác chuyển màu gradient của lớp nét trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn này đề cập đến việc tải tệp PSD, truy cập và sửa đổi các hiệu ứng nét vẽ cũng như lưu các thay đổi. Với những kỹ năng này, bạn có thể tạo các gradient hấp dẫn về mặt hình ảnh và tùy chỉnh các tệp PSD cho phù hợp với nhu cầu của mình.
 ## Câu hỏi thường gặp
 ### Aspose.PSD cho Java là gì?
 Aspose.PSD for Java là thư viện cho phép các nhà phát triển làm việc với các tệp PSD trong các ứng dụng Java, cung cấp các tính năng để tạo, thao tác và chuyển đổi các tệp PSD.

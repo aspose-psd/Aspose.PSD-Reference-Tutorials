@@ -49,7 +49,7 @@ MlstResource mlstResource = (MlstResource)shmdResource.SubResources[0];
 ListStructure layerStatesList = (ListStructure)mlstResource.Items[1];
 DescriptorStructure layersStateOnFrame1 = (DescriptorStructure)layerStatesList.Types[1];
 BooleanStructure layerEnabled = (BooleanStructure)layersStateOnFrame1.Structures[0];
-// Az 1. réteg letiltása az 1. kereten
+// Tiltsa le az 1. réteget az 1. kereten
 layerEnabled.Value = false;
 ```
 ## 5. lépés: Mentse el a módosított képet
@@ -63,7 +63,7 @@ Console.WriteLine("SupportOfMlstResource executed successfully");
 ```
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta az MLST-erőforrások kezelését az Aspose.PSD for .NET-ben. Ez a funkció robusztus mechanizmust biztosít a Photoshop-fájlok rétegállapotainak programozott kezeléséhez.
+Gratulálok! Sikeresen megtanulta az MLST-erőforrások kezelését az Aspose.PSD for .NET-ben. Ez a funkció robusztus mechanizmust biztosít a Photoshop-fájlok rétegállapotainak programozott kezeléséhez.
 
 ## GYIK
 
@@ -77,7 +77,7 @@ Gratulálunk! Sikeresen megtanulta az MLST-erőforrások kezelését az Aspose.P
 
 ### 3. kérdés: Hol találom az Aspose.PSD for .NET részletes dokumentációját?
 
-A3: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
+A3: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -85,4 +85,4 @@ A3: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
 
 ### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.PSD for .NET számára?
 
- V5: Vásárolhat licencet.[itt](https://purchase.aspose.com/buy).
+ V5: Vásárolhat licencet[itt](https://purchase.aspose.com/buy).

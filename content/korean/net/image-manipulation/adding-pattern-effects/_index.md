@@ -16,7 +16,7 @@ url: /ko/net/image-manipulation/adding-pattern-effects/
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - 컴퓨터에 Visual Studio가 설치되어 있습니다.
--  .NET 라이브러리용 Aspose.PSD. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+-  .NET 라이브러리용 Aspose.PSD. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 - C# 및 .NET 프레임워크에 대한 기본 지식
 
 ## 네임스페이스 가져오기

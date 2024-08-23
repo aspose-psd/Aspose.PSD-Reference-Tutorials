@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /id/net/psd-file-manipulation/support-layers-ai-format/
 ---
-Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan Aspose.PSD untuk .NET guna menangani lapisan pendukung dalam file berformat AI. Aspose.PSD menyederhanakan tugas-tugas kompleks, sehingga memudahkan pengembang untuk bekerja dengan file AI dalam aplikasi .NET mereka. Dalam tutorial ini, kita akan membahas prasyarat, mengimpor namespace, dan membagi setiap contoh menjadi beberapa langkah untuk memastikan pengalaman pembelajaran yang lancar.
+Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan Aspose.PSD untuk .NET guna menangani lapisan pendukung dalam file berformat AI. Aspose.PSD menyederhanakan tugas-tugas kompleks, sehingga memudahkan pengembang untuk bekerja dengan file AI di aplikasi .NET mereka. Dalam tutorial ini, kita akan membahas prasyarat, mengimpor namespace, dan membagi setiap contoh menjadi beberapa langkah untuk memastikan pengalaman pembelajaran yang lancar.
 ## Perkenalan
 ### Apa itu Aspose.PSD?
 Aspose.PSD untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi dan memproses file Adobe Photoshop, termasuk format AI (Adobe Illustrator). Dalam tutorial ini, kami akan fokus pada mendukung lapisan dalam file AI, menunjukkan cara mengekstrak informasi berharga dari setiap lapisan.
@@ -15,7 +15,7 @@ Aspose.PSD untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang m
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki hal berikut:
 1.  Aspose.PSD untuk .NET Library: Unduh dan instal perpustakaan dari[Situs web Aspose.PSD](https://releases.aspose.com/psd/net/).
 2. Lingkungan Pengembangan: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi, termasuk Visual Studio.
-3. Contoh File AI: Unduh contoh file AI, "form_8_2l3_7.ai," dari[Link ini](Your-Download-Link).
+3. Contoh File AI: Unduh contoh file AI, "form_8_2l3_7.ai," dari[tautan ini](Your-Download-Link).
 ## Impor Namespace
 Untuk memulai, impor namespace yang diperlukan dalam proyek .NET Anda:
 ```csharp

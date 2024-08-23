@@ -19,7 +19,6 @@ url: /ar/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 للبدء، تأكد من أنك قمت باستيراد الحزم الضرورية في مشروع Java الخاص بك:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -57,7 +56,7 @@ if (jfif != null) {
 ```
 إذا كانت بيانات JFIF موجودة، فيمكنك استخراجها واستخدامها في تطبيقك.
 ## الخطوة 4: استخراج بيانات EXIF (اختياري)
-اختياريًا، قم باستخراج بيانات EXIF من مورد الصورة المصغرة إذا لزم الأمر.
+اختياريًا، قم باستخراج بيانات EXIF من مصدر الصورة المصغرة إذا لزم الأمر.
 ```java
 JpegExifData exif = thumbnail.getJpegOptions().getExifData();
 if (exif != null) {

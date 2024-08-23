@@ -10,7 +10,7 @@ url: /sv/net/image-effects/
 
 ## Introduktion
 
-Utforska riket av fängslande bildeffekter med våra omfattande handledningar om Aspose.PSD för .NET. Oavsett om du är en erfaren utvecklare eller bara dyker in i en värld av bildbehandling, kommer våra steg-för-steg-guider att ge dig möjlighet att lägga till, överlägga och återge effekter utan ansträngning.
+Utforska riket av fängslande bildeffekter med våra omfattande handledningar om Aspose.PSD för .NET. Oavsett om du är en erfaren utvecklare eller bara dyker in i en värld av bildbehandling, kommer våra steg-för-steg-guider att ge dig möjlighet att lägga till, lägga över och återge effekter utan ansträngning.
 
 ## Lägga till effekter vid körning i Aspose.PSD för .NET
 

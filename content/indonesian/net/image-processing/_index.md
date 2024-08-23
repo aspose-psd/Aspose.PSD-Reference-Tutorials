@@ -1,6 +1,6 @@
 ---
-title: Pengolahan citra
-linktitle: Pengolahan citra
+title: Pemrosesan Gambar
+linktitle: Pemrosesan Gambar
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan kualitas gambar dengan mudah menggunakan Aspose.PSD untuk tutorial .NET. Pelajari teknik seperti filter Gaussian dan Wiener, konversi warna, binerisasi, dan banyak lagi.
 type: docs
@@ -22,10 +22,10 @@ Aspose.PSD untuk .NET memberdayakan pengembang untuk meningkatkan pemrosesan gam
  Bagi mereka yang ingin mengonversi gambar berwarna ke biner, kami[tutorial](./binarization-techniques/) mencakup teknik binarisasi tingkat lanjut. Metode BinarizationWithFixedThreshold di Aspose.PSD untuk .NET menjadikan prosesnya sederhana dan efektif, memastikan gambar Anda berkomunikasi dengan jelas.
 
 ## Presisi dalam Konversi Warna dengan Profil Default dan ICC
- Selami lebih dalam dunia konversi warna bersama kami[tutorial](./color-conversion-default-icc-profiles/). Aspose.PSD untuk .NET memungkinkan Anda memperbarui profil warna, menjamin visual yang hidup dan akurat. Temukan nuansa transformasi warna untuk membuat gambar Anda benar-benar menonjol.
+ Selami dunia konversi warna dengan kami[tutorial](./color-conversion-default-icc-profiles/). Aspose.PSD untuk .NET memungkinkan Anda memperbarui profil warna, menjamin visual yang hidup dan akurat. Temukan nuansa transformasi warna untuk membuat gambar Anda benar-benar menonjol.
 
 ## Mengubah Gambar Menjadi Abu-Abu dengan Mudah
- Dalam[tutorial](./grayscaling-images/)kami tunjukkan cara menerapkan efek skala abu-abu dengan mudah. Aspose.PSD untuk .NET menyederhanakan proses penskalaan abu-abu, memungkinkan Anda menambahkan sentuhan kecanggihan pada gambar Anda dengan mudah.
+ Di[tutorial](./grayscaling-images/)kami tunjukkan cara menerapkan efek skala abu-abu dengan mudah. Aspose.PSD untuk .NET menyederhanakan proses penskalaan abu-abu, memungkinkan Anda menambahkan sentuhan kecanggihan pada gambar Anda dengan mudah.
 
 ## Segmentasi Gambar dengan Bradley Threshold
  Kita[tutorial](./apply-bradley-threshold/) memperkenalkan Bradley Threshold di Aspose.PSD untuk .NET. Tingkatkan segmentasi gambar dengan teknik binarisasi yang efektif ini. Ikuti panduan langkah demi langkah kami untuk memanfaatkan fitur canggih ini.

@@ -16,7 +16,7 @@ Trong thế giới phát triển web không ngừng phát triển, việc tối 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Môi trường Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên máy của mình.
--  Thư viện Aspose.PSD cho Java: Tải xuống và cài đặt thư viện Aspose.PSD cho Java từ[Liên kết tải xuống](https://releases.aspose.com/psd/java/).
+-  Thư viện Aspose.PSD cho Java: Tải xuống và cài đặt thư viện Aspose.PSD cho Java từ[liên kết tải xuống](https://releases.aspose.com/psd/java/).
 
 ## Gói nhập khẩu
 
@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Bước 5: Lưu GIF nén.
+## Bước 5: Lưu GIF đã nén
 
  Lưu ảnh GIF đã nén bằng cách sử dụng`image.save` phương pháp với quy định`GifOptions`.
 
@@ -85,12 +85,12 @@ A1:Aspose.PSD cho Java là một thư viện mạnh mẽ để làm việc với
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu về Aspose.PSD cho Java ở đâu?
 
-A3: Tài liệu có sẵn.[đây](https://reference.aspose.com/psd/java/).
+A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/java/).
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Đ4: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể mua Aspose.PSD cho Java?
 
- A5: Bạn có thể mua thư viện.[đây](https://purchase.aspose.com/buy).
+ A5: Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).

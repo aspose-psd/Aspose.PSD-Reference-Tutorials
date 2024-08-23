@@ -98,7 +98,7 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-Y ahí lo tiene: una guía paso a paso para aplicar sombras paralelas en Aspose.PSD para Java.
+Y ahí lo tiene: una guía paso a paso para aplicar sombras paralelas de renderizado en Aspose.PSD para Java.
 
 ## Conclusión
 
@@ -112,7 +112,7 @@ R1: Sí, puede recorrer las capas y aplicar sombras paralelas según sea necesar
 
 ### P2: ¿Cuál es el significado del parámetro 'Extensión' en las sombras paralelas?
 
-A2: El parámetro 'Extensión' controla la transición entre las áreas con sombra y sin sombra.
+A2: El parámetro 'Extensión' controla la transición entre las áreas de sombra y las áreas sin sombra.
 
 ### P3: ¿Aspose.PSD es compatible con todas las versiones de archivos de Photoshop?
 
@@ -124,4 +124,4 @@ R3: Aspose.PSD proporciona compatibilidad con una amplia gama de versiones de ar
 
 ### P5: ¿Puedo probar Aspose.PSD antes de realizar una compra?
 
- R5: Por supuesto, utiliza el[prueba gratis](https://releases.aspose.com/) para explorar las capacidades antes de comprometerse con una compra.
+ R5: Por supuesto, utiliza el[prueba gratuita](https://releases.aspose.com/) para explorar las capacidades antes de comprometerse con una compra.

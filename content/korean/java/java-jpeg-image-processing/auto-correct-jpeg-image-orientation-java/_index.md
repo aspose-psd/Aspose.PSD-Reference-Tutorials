@@ -20,7 +20,6 @@ url: /ko/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-jav
 예제를 시작하기 전에 Aspose.PSD for Java에서 필요한 패키지를 가져와야 합니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

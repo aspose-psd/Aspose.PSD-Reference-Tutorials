@@ -18,7 +18,6 @@ url: /zh-hant/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 首先，在您的 Java 類別中包含必要的 Aspose.PSD 套件：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -38,7 +37,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource) {
         ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
         
-        //提取縮圖數據
+        //擷取縮圖數據
         int[] data = thumbnail.getThumbnailArgb32Data();
         
         //使用提取的縮圖資料建立新影像

@@ -93,7 +93,7 @@ A2: Tentu saja! Aspose.PSD memungkinkan Anda melakukan pemrosesan gambar secara 
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat mengakses uji coba gratis Aspose.PSD.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses uji coba gratis Aspose.PSD[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan?
 

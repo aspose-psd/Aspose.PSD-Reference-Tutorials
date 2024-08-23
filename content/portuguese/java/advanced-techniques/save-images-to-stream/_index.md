@@ -41,7 +41,7 @@ Agora, vamos dividir o processo em várias etapas para salvar imagens em um stre
 String dataDir = "Your Document Directory";
 ```
 
- Substituir`"Your Document Directory"`com o caminho para o diretório onde seu arquivo PSD está localizado.
+ Substituir`"Your Document Directory"` com o caminho para o diretório onde seu arquivo PSD está localizado.
 
 ## Etapa 2: especifique a origem e o destino
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Criar uma`FileOutputStream` para o arquivo de destino e salve a imagem PSD no stream usando as opções PNG.
+ Crie um`FileOutputStream`para o arquivo de destino e salve a imagem PSD no stream usando as opções PNG.
 
 Repita essas etapas conforme necessário para seu caso de uso específico.
 
@@ -88,7 +88,7 @@ A1: Sim, Aspose.PSD é amplamente utilizado em projetos Java profissionais para 
 
 ### Q3: Posso experimentar o Aspose.PSD antes de comprar?
 
-A3: Sim, você pode explorar um[teste grátis](https://releases.aspose.com/) para avaliar as capacidades do Aspose.PSD.
+ A3: Sim, você pode explorar um[teste gratuito](https://releases.aspose.com/) para avaliar as capacidades do Aspose.PSD.
 
 ### Q4: Como posso obter uma licença temporária para Aspose.PSD?
 

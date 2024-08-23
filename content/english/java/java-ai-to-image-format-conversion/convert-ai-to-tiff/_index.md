@@ -20,7 +20,6 @@ Before diving into the conversion process, ensure you have the following:
 First, you need to import the necessary packages from Aspose.PSD. These packages provide the classes and methods required to handle AI and TIFF files.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;

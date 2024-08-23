@@ -15,12 +15,11 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-psd/
 2.  Aspose.PSD for Java：從下列位置下載 Aspose.PSD for Java 函式庫[下載頁面](https://releases.aspose.com/psd/java/).
 3. 整合開發環境 (IDE)：用於編寫和執行 Java 程式碼的 IDE（例如 IntelliJ IDEA 或 Eclipse）。
 4. AI 檔案：要轉換的 Adobe Illustrator 檔案。
-5. Aspose 臨時許可證（可選）：要獲得無限制的完整功能，您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/).
+5.  Aspose 臨時許可證（可選）：要獲得無限制的完整功能，您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/).
 ## 導入包
 首先，讓我們透過導入必要的套件來設定我們的專案。您需要在專案的類別路徑中包含 Aspose.PSD for Java。操作方法如下：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -34,8 +33,8 @@ import com.aspose.psd.imageoptions.PsdOptions;
 ### 新增Aspose.PSD庫
 1. 如果您下載了 JAR 文件，請將其新增至專案的建置路徑。
 2. 如果使用 Maven，請確保依賴項已正確新增至您的`pom.xml`.
-## 第二步：載入AI文件
-現在您的專案已設定完畢，讓我們載入您要轉換的 AI 檔案。
+## 第2步：載入AI文件
+現在您的專案已設定完畢，讓我們載入要轉換的 AI 檔案。
 ```java
 String dataDir = "Your Document Directory"; 
 String sourceFileName = dataDir + "34992OStroke.ai";       
@@ -46,14 +45,14 @@ AiImage image = (AiImage) Image.load(sourceFileName);
 ```java
 PsdOptions options = new PsdOptions();
 ```
-## 第四步：將AI檔案儲存為PSD
+## 步驟 4：將 AI 檔案另存為 PSD
 加載 AI 檔案並設定選項後，我們現在可以將其另存為 PSD 檔案。
 ```java
 String outFileName = dataDir + "34992OStroke.psd";
 image.save(outFileName, options);
 ```
 ## 結論
-現在你就得到它了！您已使用 Aspose.PSD for Java 成功將 AI 檔案轉換為 PSD 檔案。這個功能強大的程式庫使您可以輕鬆地處理 Java 應用程式中的複雜檔案轉換。無論您是經驗豐富的開發人員還是剛入門，本指南都可以幫助您輕鬆將 AI 到 PSD 轉換功能整合到您的專案中。
+現在你就擁有了！您已使用 Aspose.PSD for Java 成功將 AI 檔案轉換為 PSD 檔案。這個功能強大的程式庫使您可以輕鬆地處理 Java 應用程式中的複雜檔案轉換。無論您是經驗豐富的開發人員還是剛入門，本指南都可以幫助您輕鬆將 AI 到 PSD 轉換功能整合到您的專案中。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.PSD？
 Aspose.PSD for Java 是一個強大的函式庫，可讓開發人員在 Java 應用程式中建立、編輯和轉換 Photoshop 檔案（PSD 和 PSB），而無需 Adobe Photoshop。

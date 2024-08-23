@@ -64,7 +64,7 @@ finally
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment synchroniser la racine à l'aide d'Aspose.PSD pour Java. Ce processus est essentiel pour garantir des opérations de flux sûres et efficaces dans vos applications Java.
+Félicitations! Vous avez appris avec succès comment synchroniser la racine à l'aide d'Aspose.PSD pour Java. Ce processus est essentiel pour garantir des opérations de flux sûres et efficaces dans vos applications Java.
 
 ## FAQ
 
@@ -74,7 +74,7 @@ A1 : Oui, Aspose.PSD pour Java est compatible avec les versions Java 6 et supér
 
 ### Q2 : Puis-je utiliser Aspose.PSD pour des projets commerciaux ?
 
- A2 : Oui, vous pouvez utiliser Aspose.PSD pour des projets personnels et commerciaux. Pour plus de détails sur les licences, visitez[ici](https://purchase.aspose.com/buy).
+A2 : Oui, vous pouvez utiliser Aspose.PSD pour des projets personnels et commerciaux. Pour plus de détails sur les licences, visitez[ici](https://purchase.aspose.com/buy).
 
 ### Q3 : Où puis-je trouver de l'assistance pour Aspose.PSD ?
 
@@ -82,7 +82,7 @@ A1 : Oui, Aspose.PSD pour Java est compatible avec les versions Java 6 et supér
 
 ### Q4 : Existe-t-il un essai gratuit ?
 
- A4 : Oui, vous pouvez explorer un essai gratuit d'Aspose.PSD en visitant.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez explorer un essai gratuit d'Aspose.PSD en visitant[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 

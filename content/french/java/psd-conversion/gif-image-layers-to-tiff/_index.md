@@ -25,7 +25,7 @@ import com.aspose.psd.imageoptions.TiffOptions;
 import java.io.FileNotFoundException;
 ```
 ## Étape 1 : Configurez votre environnement
- Assurez-vous que Java et Aspose.PSD pour Java sont installés sur votre système. Dans le cas contraire, reportez-vous au[Documentation](https://reference.aspose.com/psd/java/) pour les instructions d’installation.
+Assurez-vous que Java et Aspose.PSD pour Java sont installés sur votre système. Dans le cas contraire, reportez-vous au[documentation](https://reference.aspose.com/psd/java/) pour les instructions d’installation.
 ## Étape 2 : Importer la bibliothèque Aspose.PSD
  Dans votre projet Java, incluez la bibliothèque Aspose.PSD en l'ajoutant aux dépendances de votre projet. Vous pouvez télécharger la bibliothèque[ici](https://releases.aspose.com/psd/java/).
 ## Étape 3 : Créer un objet image PSD
@@ -52,7 +52,7 @@ layer.save(dataDir + "output" + i + "_out.tiff", objTiff);
 ```
 Répétez ces étapes pour tous les calques de l'image PSD.
 ## Conclusion
-Toutes nos félicitations! Vous avez appris avec succès comment convertir des calques d'images GIF au format TIFF à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque simplifie le processus, permettant aux développeurs Java de gérer facilement et efficacement les images PSD. Expérimentez différentes options et explorez davantage de fonctionnalités pour améliorer vos capacités de traitement d'image.
+Félicitations! Vous avez appris avec succès comment convertir des calques d'images GIF au format TIFF à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque simplifie le processus, permettant aux développeurs Java de gérer facilement et efficacement les images PSD. Expérimentez différentes options et explorez davantage de fonctionnalités pour améliorer vos capacités de traitement d'image.
 ## FAQ
 ### Puis-je utiliser Aspose.PSD pour Java dans un projet commercial ?
  Oui, Aspose.PSD pour Java est disponible pour un usage commercial. Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).

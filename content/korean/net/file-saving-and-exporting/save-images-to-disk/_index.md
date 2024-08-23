@@ -17,7 +17,7 @@ url: /ko/net/file-saving-and-exporting/save-images-to-disk/
 
 ### .NET용 Aspose.PSD 설치
 
- 개발 환경에 .NET용 Aspose.PSD가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+ 개발 환경에 .NET용 Aspose.PSD가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 
 ## 네임스페이스 가져오기
 
@@ -85,7 +85,7 @@ A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 개발 프로�
 
 ### Q4: 임시 라이센스는 어떻게 얻나요?
 
- A4: 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: .NET용 Aspose.PSD를 어디서 구입할 수 있나요?
 

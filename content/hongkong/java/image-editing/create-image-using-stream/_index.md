@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
-建立一個實例`Image`透過邀請`create`方法，傳遞配置的`BmpOptions`並指定影像的尺寸。
+建立一個實例`Image`透過調用`create`方法，傳遞配置的`BmpOptions`並指定影像的尺寸。
 
 ## 第6步：影像處理
 
@@ -105,11 +105,11 @@ A1：是的，Aspose.PSD 旨在與其他 Java 程式庫無縫集成，為您的�
 
 ### Q3：Aspose.PSD 有免費試用版嗎？
 
- A3：是的，您可以免費試用。[這裡](https://releases.aspose.com/).
+ A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### Q4：如何取得Aspose.PSD的臨時授權？
 
- A4：獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
+ A4：取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：Aspose.PSD 有哪些系統需求？
 

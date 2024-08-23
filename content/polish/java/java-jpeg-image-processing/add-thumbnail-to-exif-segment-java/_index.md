@@ -8,24 +8,23 @@ weight: 10
 url: /pl/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
 ## Wstęp
-W tym samouczku przyjrzymy się, jak ulepszyć metadane obrazu, dodając miniaturę do segmentu EXIF przy użyciu Aspose.PSD dla Java. Metadane EXIF (Exchangeable Image File Format) odgrywają kluczową rolę w fotografii cyfrowej, dostarczając cennych informacji, takich jak ustawienia aparatu, data i lokalizacja. Dodanie miniatury zwiększa wygodę użytkownika, umożliwiając wydajne przeglądanie obrazów.
+W tym samouczku przyjrzymy się, jak ulepszyć metadane obrazu, dodając miniaturę do segmentu EXIF za pomocą Aspose.PSD dla Java. Metadane EXIF (Exchangeable Image File Format) odgrywają kluczową rolę w fotografii cyfrowej, dostarczając cennych informacji, takich jak ustawienia aparatu, data i lokalizacja. Dodanie miniatury zwiększa wygodę użytkownika, umożliwiając wydajne przeglądanie obrazów.
 ## Warunki wstępne
 Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
 - Podstawowa znajomość programowania w języku Java.
 - Zestaw Java Development Kit (JDK) zainstalowany w systemie.
 - IDE (Integrated Development Environment) dla Java, takie jak IntelliJ IDEA lub Eclipse.
--  Aspose.PSD dla biblioteki Java. Można go pobrać z[Strona pobierania Aspose.PSD dla Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD dla biblioteki Java. Można go pobrać z[Strona pobierania Aspose.PSD dla Java](https://releases.aspose.com/psd/java/).
 ## Importuj pakiety
 Najpierw zaimportuj niezbędne pakiety z Aspose.PSD i Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Podzielmy proces dodawania miniatury do segmentu EXIF w Javie za pomocą Aspose.PSD na szczegółowe kroki:
+Podzielmy proces dodawania miniatury do segmentu EXIF w Javie przy użyciu Aspose.PSD na szczegółowe kroki:
 ## Krok 1: Załaduj obraz PSD
 Załaduj plik obrazu PSD do obiektu PsdImage.
 ```java
@@ -54,7 +53,7 @@ Zapisz zmodyfikowany obraz z powrotem na dysk.
 image.save(dataDir + "output.psd");
 ```
 ## Wniosek
-Dodanie miniatury do segmentu EXIF w Javie za pomocą Aspose.PSD to prosty proces, który zwiększa użyteczność metadanych obrazu. Wykonując czynności opisane w tym samouczku, możesz efektywnie wzbogacać swoje obrazy o miniatury podglądu.
+Dodanie miniatury do segmentu EXIF w Javie przy użyciu Aspose.PSD to prosty proces, który zwiększa użyteczność metadanych obrazu. Wykonując czynności opisane w tym samouczku, możesz efektywnie wzbogacać swoje obrazy o miniatury podglądu.
 
 ## Często zadawane pytania
 ### Co to są metadane EXIF?

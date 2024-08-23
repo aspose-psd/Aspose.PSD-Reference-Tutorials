@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -81,7 +80,7 @@ String outpath = dataDir + "Bezier.bmp";
 BmpOptions saveOptions = new BmpOptions();
 image.save(outpath, saveOptions);
 ```
-## συμπέρασμα
+## Σύναψη
 Η σχεδίαση καμπυλών Bezier σε Java χρησιμοποιώντας το Aspose.PSD για Java είναι απλή με τις παρεχόμενες λειτουργίες. Ακολουθώντας αυτό το σεμινάριο, μάθατε πώς να ρυθμίζετε το περιβάλλον σας, να εισάγετε τα απαραίτητα πακέτα και να σχεδιάζετε τις καμπύλες Bezier βήμα-βήμα. Πειραματιστείτε με διαφορετικά σημεία ελέγχου και ρυθμίσεις στυλό για να δημιουργήσετε διάφορες καμπύλες και να βελτιώσετε οπτικά τις εφαρμογές σας Java.
 ## Συχνές ερωτήσεις
 ### Μπορώ να σχεδιάσω πολλές καμπύλες Bezier στην ίδια εικόνα;
@@ -93,4 +92,4 @@ image.save(outpath, saveOptions);
 ### Μπορώ να εξαγάγω την εικόνα σε άλλες μορφές εκτός από το BMP;
 Ναι, το Aspose.PSD για Java υποστηρίζει την εξαγωγή εικόνων σε διάφορες μορφές όπως PNG, JPEG, TIFF κ.λπ.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
- Επισκέψου το[Aspose.PSD για τεκμηρίωση Java](https://reference.aspose.com/psd/java/) για ολοκληρωμένους οδηγούς και δείγματα κώδικα.## Πλήρης Πηγαίος Κώδικας
+ Επισκεφθείτε το[Aspose.PSD για τεκμηρίωση Java](https://reference.aspose.com/psd/java/) για ολοκληρωμένους οδηγούς και δείγματα κώδικα.## Πλήρης Πηγαίος Κώδικας

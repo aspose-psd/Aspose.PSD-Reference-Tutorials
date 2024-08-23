@@ -2,7 +2,7 @@
 title: كتابة وتعديل بيانات EXIF في جافا
 linktitle: كتابة وتعديل بيانات EXIF في جافا
 second_title: Aspose.PSD جافا API
-description: تعلم كيفية كتابة بيانات EXIF وتعديلها في ملفات PSD باستخدام Aspose.PSD لـ Java باستخدام هذا الدليل الشامل خطوة بخطوة.
+description: تعلم كيفية كتابة بيانات EXIF وتعديلها في ملفات PSD باستخدام Aspose.PSD لـ Java باستخدام هذا الدليل الشامل المفصّل خطوة بخطوة.
 type: docs
 weight: 22
 url: /ar/java/java-jpeg-image-processing/write-modify-exif-data-java/
@@ -17,10 +17,9 @@ url: /ar/java/java-jpeg-image-processing/write-modify-exif-data-java/
 4. معرفة Java الأساسية: الإلمام ببرمجة Java أمر لا بد منه.
 5.  Aspose Temporary License: احصل على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/) لفتح الإمكانات الكاملة لـ Aspose.PSD.
 ## حزم الاستيراد
-أولاً، تحتاج إلى استيراد الحزم الضرورية في مشروع Java الخاص بك. هيريس كيفية القيام بذلك:
+أولاً، تحتاج إلى استيراد الحزم الضرورية في مشروع Java الخاص بك. وإليك كيفية القيام بذلك:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -48,7 +47,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 في هذه الخطوة، ستتعرف على مصدر الصورة المصغرة من موارد الصورة.
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
-    // استخراج بيانات EXIF من مورد الصورة المصغرة
+    // قم باستخراج بيانات EXIF من مورد الصورة المصغرة
 }
 ```
 ## الخطوة 4: استخراج وطباعة بيانات EXIF
@@ -72,7 +71,7 @@ exif.setFlash(ExifFlash.Fired);
 image.save(dataDir + "Modified_Zebras_Serengeti.psd");
 ```
 ## خاتمة
-وهناك لديك! لقد تعلمت بنجاح كيفية كتابة بيانات EXIF وتعديلها في ملفات PSD باستخدام Aspose.PSD لـ Java. تعمل هذه المكتبة القوية على تبسيط العمل مع تنسيقات الصور المعقدة، مما يجعلها أداة قيمة للمطورين الذين يعملون مع الملفات الرسومية. 
+وهنا لديك! لقد تعلمت بنجاح كيفية كتابة بيانات EXIF وتعديلها في ملفات PSD باستخدام Aspose.PSD لـ Java. تعمل هذه المكتبة القوية على تبسيط العمل مع تنسيقات الصور المعقدة، مما يجعلها أداة قيمة للمطورين الذين يعملون مع الملفات الرسومية. 
  لمزيد من المعلومات التفصيلية، قم بمراجعة[وثائق Aspose.PSD](https://reference.aspose.com/psd/java/) . إذا واجهت أي مشاكل، فإن[منتدى الدعم](https://forum.aspose.com/c/psd/34) مكان عظيم للحصول على المساعدة. لا تنسى استكشاف[تجربة مجانية](https://releases.aspose.com/) وفكر في شراء ترخيص[هنا](https://purchase.aspose.com/buy) للحصول على الميزات الكاملة.
 ## الأسئلة الشائعة
 ### ما هي بيانات EXIF؟

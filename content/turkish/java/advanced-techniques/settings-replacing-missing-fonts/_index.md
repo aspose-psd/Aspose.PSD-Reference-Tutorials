@@ -2,7 +2,7 @@
 title: Aspose.PSD for Java'da Eksik Yazı Tiplerini Değiştirme Ayarları
 linktitle: Eksik Yazı Tiplerini Değiştirme Ayarları
 second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'da eksik yazı tiplerini değiştirmeyle ilgili kapsamlı kılavuzu keşfedin. Sorunsuz yazı tipi yönetimiyle görüntü tasarımınızı geliştirin.
+description: Aspose.PSD for Java'da eksik yazı tiplerini değiştirmeyle ilgili kapsamlı kılavuzu keşfedin. Kusursuz yazı tipi yönetimiyle görüntü tasarımınızı geliştirin.
 type: docs
 weight: 17
 url: /tr/java/advanced-techniques/settings-replacing-missing-fonts/
@@ -97,7 +97,7 @@ C2: Evet, tasarım gereksinimlerinize göre özel yedek yazı tiplerini belirley
 
 ### S3: Aspose.PSD için herhangi bir lisanslama seçeneği mevcut mu?
 
- Cevap3: Lisanslama seçeneklerini keşfedin.[Burada](https://purchase.aspose.com/buy)İhtiyaçlarınıza en uygun planı seçmek için.
+ Cevap 3: Lisanslama seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy) İhtiyaçlarınıza en uygun planı seçmek için.
 
 ### S4: Aspose.PSD desteği için bir topluluk forumu var mı?
 

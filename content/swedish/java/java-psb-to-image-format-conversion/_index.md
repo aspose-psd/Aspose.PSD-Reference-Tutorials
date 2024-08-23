@@ -20,7 +20,7 @@ Behöver du konvertera PSB-filer till PDF för enkel delning eller utskrift? Asp
 
 ## Konvertera PSB till PSD i Java
 
- Ibland kan du behöva återställa en PSB-fil till PSD för ytterligare redigerings- eller kompatibilitetsskäl. Aspose.PSD gör denna konverteringsprocess enkel och effektiv. Denna handledning kommer att guida dig om hur du laddar din PSB-fil och sparar den som en PSD, vilket säkerställer att du behåller alla lager och ursprungliga egenskaper i din design. Kolla in våra steg-för-steg-instruktioner för att göra denna konvertering problemfri.[Läs mer](./convert-psb-to-psd-java/).
+ Ibland kan du behöva återställa en PSB-fil till PSD för ytterligare redigerings- eller kompatibilitetsskäl. Aspose.PSD gör denna konverteringsprocess enkel och effektiv. Den här handledningen guidar dig om hur du laddar din PSB-fil och sparar den som en PSD, vilket säkerställer att du behåller alla lager och ursprungliga egenskaper i din design. Kolla in våra steg-för-steg-instruktioner för att göra denna konvertering problemfri.[Läs mer](./convert-psb-to-psd-java/).
 
 Genom att utnyttja Aspose.PSD kan du enkelt hantera och konvertera dina PSB-filer till olika format, vilket förbättrar dina grafiska filhanteringsmöjligheter. Oavsett om du är en erfaren utvecklare eller precis har börjat, ger dessa handledningar den vägledning du behöver för smidiga och effektiva konverteringar.
 

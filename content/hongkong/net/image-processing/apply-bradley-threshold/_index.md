@@ -81,7 +81,7 @@ A1：是的，Bradley 閾值是一種適用於各種影像類型的多功能技�
 
 ### Q3：有免費試用嗎？
 
-A3：是的，您可以探索 Aspose.PSD for .NET 的免費試用版。[這裡](https://releases.aspose.com/).
+A3：是的，您可以探索 Aspose.PSD for .NET 的免費試用版[這裡](https://releases.aspose.com/).
 
 ### Q4：如何獲得 Aspose.PSD 的支援？
 
@@ -89,4 +89,4 @@ A3：是的，您可以探索 Aspose.PSD for .NET 的免費試用版。[這裡](
 
 ### Q5: 哪裡可以購買 Aspose.PSD 的授權？
 
- A5: 您可以購買許可證。[這裡](https://purchase.aspose.com/buy).
+ A5：您可以購買許可證[這裡](https://purchase.aspose.com/buy).

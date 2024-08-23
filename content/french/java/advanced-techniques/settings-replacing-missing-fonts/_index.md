@@ -79,7 +79,7 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-Toutes nos félicitations! Vous avez remplacé avec succès les polices manquantes dans votre fichier PSD à l'aide d'Aspose.PSD pour Java.
+Félicitations! Vous avez remplacé avec succès les polices manquantes dans votre fichier PSD à l'aide d'Aspose.PSD pour Java.
 
 ## Conclusion
 
@@ -97,7 +97,7 @@ A2 : Oui, vous pouvez spécifier des polices de remplacement personnalisées en 
 
 ### Q3 : Existe-t-il des options de licence disponibles pour Aspose.PSD ?
 
- A3 : Explorez les options de licence.[ici](https://purchase.aspose.com/buy)pour choisir le forfait le mieux adapté à vos besoins.
+ A3 : Explorer les options de licence[ici](https://purchase.aspose.com/buy) pour choisir le forfait le mieux adapté à vos besoins.
 
 ### Q4 : Existe-t-il un forum communautaire pour le support d'Aspose.PSD ?
 

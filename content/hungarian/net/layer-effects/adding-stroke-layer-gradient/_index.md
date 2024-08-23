@@ -66,7 +66,7 @@ Győződjön meg arról, hogy a színátmenetes körvonalréteg megfelelően van
 ```csharp
 var gradientStroke = (StrokeEffect)im.Layers[2].BlendingOptions.Effects[0];
 
-// Az állítás ellenőrzi a gradiens vonás beállításait
+// Az állítás ellenőrzi a színátmeneti löketbeállításokat
 AssertIsTrue(gradientStroke.BlendMode == BlendMode.Normal);
 AssertIsTrue(gradientStroke.Opacity == 255);
 AssertIsTrue(gradientStroke.IsVisible);
@@ -96,7 +96,7 @@ im.Save(exportPath);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen hozzáadott egy körvonal-réteget színátmenettel az Aspose.PSD for .NET használatával. Ez az oktatóanyag olyan ismeretekkel ruházta fel Önt, amelyek segítségével programozottan javíthatja képeit.
+Gratulálok! Sikeresen hozzáadott egy körvonal-réteget színátmenettel az Aspose.PSD for .NET használatával. Ez az oktatóanyag olyan ismeretekkel ruházta fel Önt, amelyek segítségével programozottan javíthatja képeit.
 
 ## GYIK
 
@@ -106,7 +106,7 @@ Gratulálunk! Sikeresen hozzáadott egy körvonal-réteget színátmenettel az A
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- 2. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 2. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -118,4 +118,4 @@ Gratulálunk! Sikeresen hozzáadott egy körvonal-réteget színátmenettel az A
 
 ### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.PSD for .NET számára?
 
- V5: Vásárolhat licencet.[itt](https://purchase.aspose.com/buy).
+ V5: Vásárolhat licencet[itt](https://purchase.aspose.com/buy).

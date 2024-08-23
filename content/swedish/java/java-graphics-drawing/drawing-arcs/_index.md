@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -38,7 +37,7 @@ PsdImage image = new PsdImage(100, 100);
 Graphics graphics = new Graphics(image);
 graphics.clear(Color.getYellow());
 ```
- Byta ut`"Your Document Directory"` med katalogsökvägen där du vill spara dina utdatafiler.
+ Ersätta`"Your Document Directory"` med katalogsökvägen där du vill spara dina utdatafiler.
 ## Steg 3: Definiera bågparametrar
 Ställ in parametrar för den båge du vill rita, såsom bredd, höjd, startvinkel och svepvinkel:
 ```java

@@ -7,11 +7,11 @@ type: docs
 weight: 11
 url: /cs/net/text-and-font-manipulation/replace-missing-fonts/
 ---
-## Úvod
-Vítejte ve světě Aspose.PSD pro .NET, kde se výměna písem stává hračkou! V tomto tutoriálu se ponoříme do složitého procesu nastavování a nahrazování chybějících písem v souborech PSD pomocí Aspose.PSD. Ať už jste zkušený vývojář nebo teprve začínáte, náš podrobný průvodce vám umožní snadno zvládnout problémy související s písmy.
+## Zavedení
+Vítejte ve světě Aspose.PSD pro .NET, kde se výměna písem stává hračkou! V tomto tutoriálu se ponoříme do složitého procesu nastavování a nahrazování chybějících písem v souborech PSD pomocí Aspose.PSD. Ať už jste zkušený vývojář nebo teprve začínáte, náš podrobný průvodce vám umožní snadno zvládnout výzvy související s písmy.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
--  Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Pokud ne, stáhněte si jej z[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Pokud ne, stáhněte si jej z[zde](https://releases.aspose.com/psd/net/).
 - Adresář dokumentů: Mějte vyhrazený adresář pro vaše dokumenty PSD.
 - Výstupní adresář: Vytvořte samostatnou složku, kam budou uloženy upravené soubory.
 ## Importovat jmenné prostory
@@ -32,7 +32,7 @@ string outputFolder = "Your Output Directory";
 string sourceFileName = Path.Combine(dataDir, "sample_konstanting.psd");
 ```
 ## Krok 2: Nastavení pro nahrazení chybějících písem
-Nyní se zaměřme na základní funkce – nahrazení chybějících písem v souboru PSD. Poskytneme různé příklady pro různé výstupní formáty, z nichž každý má své jedinečné náhradní písmo.
+Nyní se zaměřme na základní funkce – nahrazení chybějících písem v souboru PSD. Poskytneme různé příklady pro různé výstupní formáty, každý s jedinečným náhradním písmem.
 ```csharp
 string[] outputs = new string[]
 {
@@ -52,7 +52,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 ```
 ## Závěr
 
-Gratulujeme! Úspěšně jste zvládli umění nahrazování písem pomocí Aspose.PSD pro .NET. Tato výkonná knihovna poskytuje flexibilitu a efektivitu při práci s chybějícími fonty a zajišťuje, že vaše návrhy zůstanou nedotčené.
+Gratuluji! Úspěšně jste zvládli umění nahrazování písem pomocí Aspose.PSD pro .NET. Tato výkonná knihovna poskytuje flexibilitu a efektivitu při práci s chybějícími fonty a zajišťuje, že vaše návrhy zůstanou nedotčené.
 
 ## FAQ
 
@@ -62,16 +62,16 @@ Odpověď 1: Ano, Aspose.PSD umožňuje selektivně nahrazovat písma na základ
 
 ### Q2: Je před zakoupením Aspose.PSD k dispozici zkušební verze?
 
- A2: Určitě! Můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A2: Určitě! Můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q3: Jak mohu získat podporu nebo vyhledat pomoc pro dotazy související s Aspose.PSD?
 
- A3: Navštivte naše vyhrazené[Fórum](https://forum.aspose.com/c/psd/34) za odbornou pomoc.
+ A3: Navštivte naše vyhrazené[forum](https://forum.aspose.com/c/psd/34) za odbornou pomoc.
 
 ### Q4: Jsou k dispozici dočasné licence pro Aspose.PSD?
 
- A4: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu komplexní dokumentaci k Aspose.PSD?
 
- A5: Viz podrobnosti[dokumentace](https://reference.aspose.com/psd/net/) pro hloubkový náhled do funkcí Aspose.PSD.
+ A5: Viz podrobné informace[dokumentace](https://reference.aspose.com/psd/net/) pro hloubkový náhled do funkcí Aspose.PSD.

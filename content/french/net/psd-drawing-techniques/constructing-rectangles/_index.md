@@ -15,11 +15,11 @@ Dans le domaine dynamique du développement .NET, Aspose.PSD se distingue comme 
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
--  Configuration de l'environnement : disposez d'un environnement de développement .NET fonctionnel avec Aspose.PSD intégré. Si ce n'est pas déjà fait, reportez-vous au[Documentation](https://reference.aspose.com/psd/net/) pour les instructions d’installation.
+-  Configuration de l'environnement : disposez d'un environnement de développement .NET fonctionnel avec Aspose.PSD intégré. Si ce n'est pas déjà fait, reportez-vous au[documentation](https://reference.aspose.com/psd/net/) pour les instructions d’installation.
 
 -  Téléchargez Aspose.PSD : assurez-vous d'avoir téléchargé la bibliothèque Aspose.PSD à partir du[lien de téléchargement](https://releases.aspose.com/psd/net/).
 
--  Obtenez une licence : si vous utilisez Aspose.PSD dans un environnement de production, assurez-vous de disposer d'une licence valide. Vous pouvez en obtenir un[ici](https://purchase.aspose.com/buy) ou utilisez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour tester.
+-  Obtenez une licence : si vous utilisez Aspose.PSD dans un environnement de production, assurez-vous de disposer d'une licence valide. Vous pouvez en obtenir un[ici](https://purchase.aspose.com/buy) ou utilisez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour les tests.
 
 ## Importer des espaces de noms
 
@@ -71,7 +71,7 @@ using (Image image = new PsdImage(100, 100))
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à construire des rectangles à l'aide d'Aspose.PSD pour .NET. Ce didacticiel vous a doté des connaissances nécessaires pour intégrer la manipulation d'images de manière transparente dans vos applications .NET.
+Félicitations! Vous avez réussi à construire des rectangles à l'aide d'Aspose.PSD pour .NET. Ce didacticiel vous a doté des connaissances nécessaires pour intégrer la manipulation d'images de manière transparente dans vos applications .NET.
 
 ## FAQ
 
@@ -93,4 +93,4 @@ A4 : L'utilisation de 32 Bpp permet une représentation des couleurs plus riche,
 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.PSD ?
 
- A5 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
+ A5 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).

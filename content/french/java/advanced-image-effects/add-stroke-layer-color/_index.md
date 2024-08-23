@@ -15,7 +15,7 @@ Libérez le potentiel de la conception graphique de votre application Java avec 
 
 Avant de vous lancer dans ce voyage créatif, assurez-vous d'avoir les conditions préalables suivantes en place :
 
--  Bibliothèque Aspose.PSD : téléchargez et configurez la bibliothèque Aspose.PSD en suivant les instructions[Documentation](https://reference.aspose.com/psd/java/).
+-  Bibliothèque Aspose.PSD : téléchargez et configurez la bibliothèque Aspose.PSD en suivant les instructions[documentation](https://reference.aspose.com/psd/java/).
 
 - Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système.
 
@@ -97,7 +97,7 @@ im.save(exportPath);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez ajouté avec succès la couleur du calque de trait à votre fichier PSD à l'aide d'Aspose.PSD pour Java. Expérimentez avec différentes couleurs et paramètres pour donner vie à vos créations graphiques.
+Félicitations! Vous avez ajouté avec succès la couleur du calque de trait à votre fichier PSD à l'aide d'Aspose.PSD pour Java. Expérimentez avec différentes couleurs et paramètres pour donner vie à vos créations graphiques.
 
 ## FAQ
 
@@ -111,7 +111,7 @@ A2 : Absolument ! Aspose.PSD suit le rythme des dernières spécifications de fo
 
 ### Q3 : Comment gérer les exceptions lors de l’utilisation d’Aspose.PSD ?
 
- A3 : Reportez-vous au[forum d'entraide](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide dans la gestion des exceptions et le dépannage.
+ A3 : Reportez-vous au[forum d'assistance](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide dans la gestion des exceptions et le dépannage.
 
 ### Q4 : Puis-je essayer Aspose.PSD avant d’acheter ?
 
@@ -119,4 +119,4 @@ A2 : Absolument ! Aspose.PSD suit le rythme des dernières spécifications de fo
 
 ### Q5 : Où puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A5 : Obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour Aspose.PSD pour évaluer ses capacités dans vos projets.
+ A5 : Obtenez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour Aspose.PSD pour évaluer ses capacités dans vos projets.

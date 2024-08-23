@@ -83,4 +83,4 @@ A2: Chắc chắn rồi! Aspose.PSD cung cấp tính linh hoạt trong việc á
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
- Câu trả lời 5: Nếu bạn cần giấy phép tạm thời, bạn có thể lấy giấy phép.[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Nếu bạn cần giấy phép tạm thời, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).

@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn từng bước này về cách th
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
--  Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[Aspose.PSD cho Tài liệu Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[Aspose.PSD cho Tài liệu Java](https://reference.aspose.com/psd/java/).
 
 ## Gói nhập khẩu
 
@@ -116,7 +116,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java cung cấp chức năng mở rộng
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- A3: Có, bạn có thể truy cập phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ A3: Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể mua giấy phép Aspose.PSD cho Java?
 

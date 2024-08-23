@@ -20,7 +20,6 @@ Avant de plonger dans ce didacticiel, assurez-vous d'avoir configuré les condit
 Avant de commencer avec l'exemple, assurez-vous d'importer les packages nécessaires depuis Aspose.PSD pour Java :
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

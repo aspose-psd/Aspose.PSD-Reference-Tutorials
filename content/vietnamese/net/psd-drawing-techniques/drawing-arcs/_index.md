@@ -15,7 +15,7 @@ Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi v�
 
 Trước khi chúng ta đi sâu vào thế giới vẽ vòng cung thú vị, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-- Aspose.PSD for .NET Library: Tải xuống và cài đặt thư viện Aspose.PSD từ[Liên kết tải xuống](https://releases.aspose.com/psd/net/).
+- Aspose.PSD for .NET Library: Tải xuống và cài đặt thư viện Aspose.PSD từ[liên kết tải xuống](https://releases.aspose.com/psd/net/).
 
 -  Thư mục tài liệu: Thiết lập một thư mục để lưu trữ tài liệu của bạn và thay thế`"Your Document Directory"` trong mã được cung cấp với đường dẫn thực tế.
 
@@ -93,11 +93,11 @@ Chúc mừng! Bạn đã học thành công cách vẽ vòng cung bằng Aspose.
 
 ### Câu hỏi 1: Tôi có thể tìm tài liệu về Aspose.PSD cho .NET ở đâu?
 
- A1: Tài liệu có thể được tìm thấy.[đây](https://reference.aspose.com/psd/net/).
+ A1: Tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/psd/net/).
 
 ### Câu hỏi 2: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD?
 
- A2: Bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A2: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu 3: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
 
@@ -105,8 +105,8 @@ Chúc mừng! Bạn đã học thành công cách vẽ vòng cung bằng Aspose.
 
 ### Câu hỏi 4: Tôi có thể mua giấy phép cho Aspose.PSD ở đâu?
 
- A4: Bạn có thể mua giấy phép.[đây](https://purchase.aspose.com/buy).
+ A4: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD cho .NET miễn phí trước khi mua không?
 
- Câu trả lời 5: Có, bạn có thể tải xuống bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 5: Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).

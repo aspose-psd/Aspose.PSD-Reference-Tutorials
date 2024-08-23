@@ -30,9 +30,9 @@ using Aspose.PSD.FileFormats.Tiff.Enums;
 using Aspose.PSD.ImageOptions;
 ```
 
-## Шаг 1. Загрузите изображение.
+## Шаг 1. Загрузите изображение
 
-Загрузите исходное изображение в экземпляр`RasterImage` класс.
+Загрузите исходное изображение в экземпляр`RasterImage` сорт.
 
 ```csharp
 //ExStart:LoadImage
@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Отрегулируйте контрастн
 
 ## Шаг 3. Создайте параметры TIFF
 
- Создайте экземпляр`TiffOptions` Для полученного изображения задайте различные свойства и сохраните изображение в формате TIFF.
+ Создайте экземпляр`TiffOptions` для полученного изображения задайте различные свойства и сохраните изображение в формате TIFF.
 
 ```csharp
 //ExStart: CreateTiffOptions
@@ -96,7 +96,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Вопрос 4. Где я могу найти поддержку Aspose.PSD для .NET?
 
- A4: Посетите форум поддержки Aspose.PSD для .NET.[здесь](https://forum.aspose.com/c/psd/34) для оказания помощи.
+ A4: Посетите форум поддержки Aspose.PSD для .NET.[здесь](https://forum.aspose.com/c/psd/34) за помощь.
 
 ### В5: Как я могу получить временную лицензию?
 

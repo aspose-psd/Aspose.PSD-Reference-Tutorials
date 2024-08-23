@@ -8,18 +8,17 @@ weight: 19
 url: /es/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
 ## Introducción
-¿Estás buscando sumergirte en el mundo de la manipulación de archivos PSD con Java? Si quieres entender cómo leer etiquetas EXIF específicas de imágenes PSD, estás en el lugar correcto. Este tutorial lo guiará a través de todo el proceso usando Aspose.PSD para Java, desde la configuración de su entorno hasta la extracción de datos EXIF detallados. ¡Empecemos!
+¿Estás buscando sumergirte en el mundo de la manipulación de archivos PSD con Java? Si quieres saber cómo leer etiquetas EXIF específicas de imágenes PSD, estás en el lugar correcto. Este tutorial lo guiará a través de todo el proceso usando Aspose.PSD para Java, desde la configuración de su entorno hasta la extracción de datos EXIF detallados. ¡Empecemos!
 ## Requisitos previos
 Antes de profundizar en el código, hay algunas cosas que deberá implementar:
 1.  Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su máquina. Puedes descargarlo desde el[Sitio web de Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.PSD para Java: descargue la biblioteca desde[aquí](https://releases.aspose.com/psd/java/).
 3. Entorno de desarrollo integrado (IDE): un IDE como IntelliJ IDEA, Eclipse o NetBeans hará que la codificación sea más conveniente.
-4. Archivo PSD: Un archivo PSD con datos EXIF. Puede utilizar el ejemplo proporcionado en este tutorial o cualquier otro archivo PSD con etiquetas EXIF.
+4. Archivo PSD: un archivo PSD con datos EXIF. Puede utilizar el ejemplo proporcionado en este tutorial o cualquier otro archivo PSD con etiquetas EXIF.
 ## Importar paquetes
 Primero, deberá importar los paquetes Aspose.PSD necesarios a su proyecto Java. Aquí se explica cómo configurarlo.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -44,7 +43,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 ```
  Recorremos los recursos de imagen usando un`for` bucle. El objetivo es identificar recursos que son instancias de`ThumbnailResource` o`Thumbnail4Resource`, ya que estos son los tipos que contienen los datos EXIF.
 ## Paso 3: extraer datos EXIF
-Una vez que identificamos el recurso de miniaturas, extraemos los datos EXIF y los imprimimos en la consola.
+Una vez que identificamos el recurso de miniatura, extraemos los datos EXIF y los imprimimos en la consola.
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource) {
     JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();

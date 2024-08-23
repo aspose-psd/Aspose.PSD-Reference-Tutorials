@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /it/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dinamico dello sviluppo Java, la gestione e la sostituzione dei caratteri mancanti nei file PSD può essere un aspetto cruciale della creazione di immagini visivamente accattivanti e prive di errori. Aspose.PSD per Java viene in soccorso con le sue potenti funzionalità, rendendo la sostituzione dei caratteri un processo senza interruzioni. In questo tutorial, esploreremo i passaggi per sostituire i caratteri mancanti utilizzando Aspose.PSD per Java, assicurando che le tue immagini mantengano la loro integrità estetica.
 
@@ -97,7 +97,7 @@ R2: Sì, puoi specificare caratteri sostitutivi personalizzati in base ai tuoi r
 
 ### Q3: Sono disponibili opzioni di licenza per Aspose.PSD?
 
- A3: Esplora le opzioni di licenza.[Qui](https://purchase.aspose.com/buy)per scegliere il piano migliore per le tue esigenze.
+ A3: esplora le opzioni di licenza[Qui](https://purchase.aspose.com/buy) per scegliere il piano migliore per le tue esigenze.
 
 ### Q4: esiste un forum della community per il supporto di Aspose.PSD?
 

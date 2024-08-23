@@ -87,11 +87,11 @@ Repita estos pasos para cualquier imagen adicional que desee poner en escala de 
 
 ### P1: ¿Puedo utilizar Aspose.PSD para Java para proyectos comerciales?
 
-R1: Sí, Aspose.PSD para Java está disponible para uso comercial. Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+ R1: Sí, Aspose.PSD para Java está disponible para uso comercial. Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
 
 ### P2: ¿Existe una versión de prueba gratuita de Aspose.PSD para Java?
 
- R2: Sí, puede explorar las funciones de Aspose.PSD para Java con una prueba gratuita. Descargalo[aquí](https://releases.aspose.com/).
+ R2: Sí, puede explorar las funciones de Aspose.PSD para Java con una prueba gratuita. Descárgalo[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar documentación para Aspose.PSD para Java?
 

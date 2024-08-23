@@ -19,13 +19,12 @@ Trước khi chúng ta bắt đầu, có một số điều bạn cần chuẩn 
 Trước tiên, bạn sẽ cần nhập các gói Aspose.PSD cần thiết vào dự án Java của mình. Hãy thiết lập môi trường của bạn.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 Bây giờ chúng ta đã thiết lập xong môi trường của mình, hãy chia quá trình chuyển đổi thành các bước dễ thực hiện.
-## Bước 1: Tải file AI
+## Bước 1: Tải tệp AI
 Bước đầu tiên trong quá trình chuyển đổi là tải tệp AI vào ứng dụng Java của bạn bằng thư viện Aspose.PSD.
 ```java
 String dataDir = "Your Document Directory"; 

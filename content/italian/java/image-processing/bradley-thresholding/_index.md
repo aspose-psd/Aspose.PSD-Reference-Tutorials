@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /it/java/image-processing/bradley-thresholding/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questa guida completa sull'implementazione della soglia Bradley in Aspose.PSD per Java. Questo tutorial ti guiderà attraverso il processo di applicazione della soglia Bradley per migliorare la qualità delle tue immagini. Aspose.PSD per Java fornisce un potente set di strumenti per l'elaborazione delle immagini e Bradley Thresholding è una tecnica preziosa per la binarizzazione delle immagini.
 

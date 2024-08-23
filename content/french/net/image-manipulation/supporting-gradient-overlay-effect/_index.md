@@ -124,11 +124,11 @@ A2 : Oui, vous pouvez appliquer divers effets, notamment la superposition de d�
 
 ### Q3 : Où puis-je trouver plus d’exemples et de documentation ?
 
- A3 : Visitez le[Documentation](https://reference.aspose.com/psd/net/) pour des exemples détaillés et des lignes directrices.
+ A3 : Visitez le[documentation](https://reference.aspose.com/psd/net/) pour des exemples détaillés et des lignes directrices.
 
 ### Q4 : Existe-t-il un essai gratuit ?
 
- A4 : Oui, vous pouvez accéder à un essai gratuit.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
 

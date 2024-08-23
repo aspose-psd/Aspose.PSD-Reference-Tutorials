@@ -82,7 +82,7 @@ Selamat! Anda telah berhasil memuat gambar dari aliran menggunakan Aspose.PSD un
 
 ## Kesimpulan
 
- Aspose.PSD untuk Java memberdayakan pengembang untuk menangani file PSD dengan mudah. Tutorial ini memberikan panduan singkat tentang memuat gambar dari aliran. Jelajahi[dokumentasi](https://reference.aspose.com/psd/java/) untuk detail dan kemampuan lebih lanjut.
+Aspose.PSD untuk Java memberdayakan pengembang untuk menangani file PSD dengan mudah. Tutorial ini memberikan panduan singkat tentang memuat gambar dari aliran. Jelajahi[dokumentasi](https://reference.aspose.com/psd/java/) untuk detail dan kemampuan lebih lanjut.
 
 ## FAQ
 
@@ -90,9 +90,9 @@ Selamat! Anda telah berhasil memuat gambar dari aliran menggunakan Aspose.PSD un
 
 A1: Tentu saja! Aspose.PSD untuk Java unggul dalam tugas pemrosesan gambar batch, menawarkan efisiensi dan keandalan.
 
-### Q2: Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
+### Q2: Dapatkah saya mencoba Aspose.PSD untuk Java sebelum membeli?
 
- A2: Ya, Anda dapat menjelajahi versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A2: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.PSD untuk Java?
 
@@ -100,7 +100,7 @@ A1: Tentu saja! Aspose.PSD untuk Java unggul dalam tugas pemrosesan gambar batch
 
 ### Q4: Apakah saya memerlukan lisensi sementara untuk tujuan pengujian?
 
- A4: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji Aspose.PSD untuk Java.
+ A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji Aspose.PSD untuk Java.
 
 ### Q5: Di mana saya dapat membeli Aspose.PSD untuk Java?
 

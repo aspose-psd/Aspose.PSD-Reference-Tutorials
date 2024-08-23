@@ -52,7 +52,7 @@ var files = new string[]
 };
 ```
 
-## 3. lépés: Hurok a keverési módokon keresztül
+## 3. lépés: Hurok a keverési módokon
 
 Ismételje meg az egyes keverési módokat, töltse be a PSD-fájlt, és exportálja PNG-be különböző átlátszatlansággal.
 
@@ -79,7 +79,7 @@ Ismételje meg ezt a folyamatot minden keverési módnál, szükség szerint ál
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta a keverési módok használatát az Aspose.PSD for .NET programban. Ez a hatékony funkció a lehetőségek világát nyitja meg a képfeldolgozó alkalmazások fejlesztésében. Kísérletezzen különböző keverési módokkal és átlátszatlanságokkal a kívánt vizuális hatások elérése érdekében.
+Gratulálok! Sikeresen megtanulta a keverési módok használatát az Aspose.PSD for .NET programban. Ez a hatékony funkció a lehetőségek világát nyitja meg a képfeldolgozó alkalmazások fejlesztésében. Kísérletezzen különböző keverési módokkal és átlátszatlanságokkal a kívánt vizuális hatások elérése érdekében.
 
 ## GYIK
 

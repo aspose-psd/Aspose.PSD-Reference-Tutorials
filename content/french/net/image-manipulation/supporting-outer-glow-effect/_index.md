@@ -23,7 +23,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 ## Importer des espaces de noms
 
-Dans cette section, nous importerons les espaces de noms nécessaires pour lancer notre implémentation de Outer Glow Effect. Suivez ces étapes:
+Dans cette section, nous importerons les espaces de noms nécessaires pour lancer notre implémentation de Outer Glow Effect. Suivez ces étapes :
 
 ```csharp
 using System;
@@ -91,7 +91,7 @@ Console.WriteLine("SupportOfOuterGlowEffect executed successfully");
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez implémenté avec succès l’effet Outer Glow à l’aide d’Aspose.PSD pour .NET. Cette fonctionnalité puissante améliore l’attrait visuel de vos images, apportant une touche unique à vos créations.
+Félicitations! Vous avez implémenté avec succès l’effet Outer Glow à l’aide d’Aspose.PSD pour .NET. Cette fonctionnalité puissante améliore l’attrait visuel de vos images, apportant une touche unique à vos créations.
 
 ## FAQ
 
@@ -113,4 +113,4 @@ A1 : Oui, Aspose.PSD prend en charge un large éventail de frameworks .NET, gara
 
 ### Q5 : Puis-je acheter Aspose.PSD pour .NET ?
 
- A5 : Oui, explorez les options de licence et effectuez votre achat.[ici](https://purchase.aspose.com/buy).
+ A5 : Oui, explorez les options de licence et effectuez votre achat[ici](https://purchase.aspose.com/buy).

@@ -19,7 +19,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 -  Pobierz Aspose.PSD: Upewnij się, że pobrałeś bibliotekę Aspose.PSD z[link do pobrania](https://releases.aspose.com/psd/net/).
 
--  Uzyskaj licencję: Jeśli używasz Aspose.PSD w środowisku produkcyjnym, upewnij się, że masz ważną licencję. Możesz taki otrzymać[Tutaj](https://purchase.aspose.com/buy) lub użyj A[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla testów.
+-  Uzyskaj licencję: Jeśli używasz Aspose.PSD w środowisku produkcyjnym, upewnij się, że masz ważną licencję. Możesz taki otrzymać[Tutaj](https://purchase.aspose.com/buy) lub użyj A[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do testowania.
 
 ## Importuj przestrzenie nazw
 

@@ -65,7 +65,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 
 ## Következtetés
 
-Gratulálunk! Sikeresen alkalmazta a Bradley Threshold alkalmazást az Aspose.PSD for .NET-hez. Ez a technika felbecsülhetetlen értékű a képszegmentáció javításában a különböző alkalmazásokban.
+Gratulálok! Sikeresen alkalmazta a Bradley Threshold alkalmazást az Aspose.PSD for .NET-hez. Ez a technika felbecsülhetetlen értékű a képszegmentáció javításában a különböző alkalmazásokban.
 
 Nyugodtan fedezze fel az Aspose.PSD for .NET által biztosított további szolgáltatásokat és funkciókat a képfeldolgozási feladatok optimalizálása érdekében.
 
@@ -81,7 +81,7 @@ Nyugodtan fedezze fel az Aspose.PSD for .NET által biztosított további szolg�
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, felfedezheti az Aspose.PSD .NET ingyenes próbaverzióját.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezheti az Aspose.PSD .NET ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
@@ -89,4 +89,4 @@ Nyugodtan fedezze fel az Aspose.PSD for .NET által biztosított további szolg�
 
 ### 5. kérdés: Hol vásárolhatok licencet az Aspose.PSD-hez?
 
- V5: Vásárolhat licencet.[itt](https://purchase.aspose.com/buy).
+ V5: Vásárolhat licencet[itt](https://purchase.aspose.com/buy).

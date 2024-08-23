@@ -1,6 +1,6 @@
 ---
-title: Traitement d'image
-linktitle: Traitement d'image
+title: Traitement d'images
+linktitle: Traitement d'images
 second_title: API Java Aspose.PSD
 description: Libérez le potentiel d’Aspose.PSD pour Java dans le traitement d’images. Apprenez à appliquer les filtres gaussiens, Wiener, médians et Motion Wiener étape par étape.
 type: docs

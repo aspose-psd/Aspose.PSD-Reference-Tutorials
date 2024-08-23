@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -36,7 +35,7 @@ import com.aspose.psd.shapes.TextShape;
 ```
 Impor ini memberikan akses ke fungsionalitas inti yang diperlukan untuk membuat dan memanipulasi gambar menggunakan Aspose.PSD.
 ## Langkah 1: Inisialisasi Gambar dan Grafik
-Untuk memulai, mari siapkan gambar baru dan inisialisasi objek grafik:
+Untuk memulai, mari siapkan gambar baru dan inisialisasi objek grafis:
 ```java
 PsdImage image = new PsdImage(500, 500);
 Graphics graphics = new Graphics(image);
@@ -81,7 +80,7 @@ Aspose.PSD adalah perpustakaan yang memungkinkan pengembang untuk bekerja dengan
 ### Bisakah saya menggunakan Aspose.PSD untuk format selain PSD?
 Pada panduan ini, Aspose.PSD secara khusus menangani file PSD tetapi menawarkan ekstensi untuk menangani format gambar yang berbeda.
 ### Apakah versi uji coba tersedia untuk Aspose.PSD?
- Ya, Anda dapat mengakses uji coba gratis Aspose.PSD.[Di Sini](https://releases.aspose.com/).
+ Ya, Anda dapat mengakses uji coba gratis Aspose.PSD[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa membeli Aspose.PSD?
  Anda dapat membeli Aspose.PSD dari[Di Sini](https://purchase.aspose.com/buy).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD?

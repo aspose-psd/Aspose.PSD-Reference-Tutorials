@@ -2,7 +2,7 @@
 title: Viết và sửa đổi dữ liệu EXIF trong Java
 linktitle: Viết và sửa đổi dữ liệu EXIF trong Java
 second_title: API Java Aspose.PSD
-description: Tìm hiểu cách ghi và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
+description: Tìm hiểu cách viết và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
 type: docs
 weight: 22
 url: /vi/java/java-jpeg-image-processing/write-modify-exif-data-java/
@@ -20,7 +20,6 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập mọi
 Trước tiên, bạn cần nhập các gói cần thiết vào dự án Java của mình. Đây là cách thực hiện:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -52,7 +51,7 @@ if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageR
 }
 ```
 ## Bước 4: Trích xuất và in dữ liệu EXIF
-Khi đã xác định được tài nguyên hình thu nhỏ, bước tiếp theo là trích xuất dữ liệu EXIF và in ra bảng điều khiển.
+Khi bạn đã xác định được tài nguyên hình thu nhỏ, bước tiếp theo là trích xuất dữ liệu EXIF và in nó ra bảng điều khiển.
 ```java
 JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
 if (exif != null) {
@@ -60,7 +59,7 @@ if (exif != null) {
 }
 ```
 ## Bước 5: Sửa đổi dữ liệu EXIF
-Bây giờ đến phần thú vị – sửa đổi dữ liệu EXIF . Đây là cách bạn có thể đặt thông tin LensMake, WhiteBalance và Flash.
+Bây giờ đến phần thú vị – sửa đổi dữ liệu EXIF. Đây là cách bạn có thể đặt thông tin LensMake, WhiteBalance và Flash.
 ```java
 exif.setLensMake("Sony");
 exif.setWhiteBalance(ExifWhiteBalance.Auto);
@@ -72,7 +71,7 @@ Sau khi thực hiện các sửa đổi cần thiết, hãy lưu hình ảnh đ�
 image.save(dataDir + "Modified_Zebras_Serengeti.psd");
 ```
 ## Phần kết luận
-Và bạn có nó rồi đấy! Bạn đã học thành công cách ghi và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này giúp đơn giản hóa công việc với các định dạng hình ảnh phức tạp, khiến nó trở thành công cụ có giá trị cho các nhà phát triển làm việc với các tệp đồ họa. 
+Và bạn có nó! Bạn đã học thành công cách ghi và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này giúp đơn giản hóa công việc với các định dạng hình ảnh phức tạp, khiến nó trở thành công cụ có giá trị cho các nhà phát triển làm việc với các tệp đồ họa. 
  Để biết thêm thông tin chi tiết, hãy xem[Tài liệu Aspose.PSD](https://reference.aspose.com/psd/java/) . Nếu bạn gặp phải bất kỳ vấn đề nào,[Diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34) là một nơi tuyệt vời để nhận được sự giúp đỡ. Đừng quên khám phá[dùng thử miễn phí](https://releases.aspose.com/) và cân nhắc việc mua giấy phép[đây](https://purchase.aspose.com/buy) để có đầy đủ tính năng.
 ## Câu hỏi thường gặp
 ### Dữ liệu EXIF là gì?

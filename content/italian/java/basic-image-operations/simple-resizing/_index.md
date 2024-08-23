@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/java/basic-image-operations/simple-resizing/
 ---
-## introduzione
+## Introduzione
 
 Nel tutorial di oggi, approfondiremo il processo di semplice ridimensionamento delle immagini utilizzando Aspose.PSD per Java, una potente libreria che facilita la manipolazione efficiente delle immagini. Se sei uno sviluppatore Java alla ricerca di un modo semplice per ridimensionare le immagini a livello di codice, sei nel posto giusto.
 
@@ -15,7 +15,7 @@ Nel tutorial di oggi, approfondiremo il processo di semplice ridimensionamento d
 
 Prima di intraprendere il nostro viaggio di ridimensionamento delle immagini con Aspose.PSD, assicurati di disporre dei seguenti prerequisiti:
 
-1. Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. È possibile scaricare la versione più recente da[Sito web Java](https://www.oracle.com/java/).
+1.  Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. È possibile scaricare la versione più recente da[Sito web Java](https://www.oracle.com/java/).
 
 2.  Aspose.PSD per Java: scarica e installa la libreria Aspose.PSD. Puoi trovare i pacchetti necessari su[Aspose.PSD per la pagina di download di Java](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ A2: Sì, Aspose.PSD supporta vari formati di immagine, offrendo versatilità nel
 
 ### Q4: Posso provare Aspose.PSD per Java prima dell'acquisto?
 
- A4: Certamente! Utilizza il[versione di prova gratuita](https://releases.aspose.com/) per esplorare le capacità della biblioteca.
+ A4: Certamente! Utilizza il[versione di prova gratuita](https://releases.aspose.com/)per esplorare le capacità della biblioteca.
 
 ### Q5: Come posso ottenere supporto per Aspose.PSD per Java?
 

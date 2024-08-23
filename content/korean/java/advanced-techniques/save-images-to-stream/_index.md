@@ -41,7 +41,7 @@ import java.io.FileOutputStream;
 String dataDir = "Your Document Directory";
 ```
 
- 바꾸다`"Your Document Directory"`PSD 파일이 있는 디렉터리의 경로를 사용하세요.
+ 바꾸다`"Your Document Directory"` PSD 파일이 있는 디렉터리의 경로를 사용하세요.
 
 ## 2단계: 소스 및 대상 지정
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- 만들기`FileOutputStream` 대상 파일에 대해 PNG 옵션을 사용하여 PSD 이미지를 스트림에 저장합니다.
+ 만들기`FileOutputStream`대상 파일에 대해 PNG 옵션을 사용하여 PSD 이미지를 스트림에 저장합니다.
 
 특정 사용 사례에 필요에 따라 이 단계를 반복하세요.
 
@@ -88,7 +88,7 @@ A1: 예, Aspose.PSD는 효율적인 PSD 파일 조작을 위해 전문 Java 프�
 
 ### Q3: 구매하기 전에 Aspose.PSD를 사용해 볼 수 있나요?
 
-A3: 예, 다음을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) Aspose.PSD의 기능을 평가합니다.
+ A3: 예, 다음을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/) Aspose.PSD의 기능을 평가합니다.
 
 ### Q4: Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
 

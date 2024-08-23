@@ -75,7 +75,7 @@ catch (Exception e)
 
 ## Steg 4: Städa upp
 
-Ta bort de temporära filerna som skapades under processen.
+Ta bort de temporära filer som skapades under processen.
 
 ```csharp
 File.Delete(exportPath);

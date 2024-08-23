@@ -93,7 +93,7 @@ R2: Por supuesto, Aspose.PSD proporciona licencias comerciales para desarrollado
 
 ### P3: ¿Existe alguna limitación en los formatos de archivos de imagen admitidos?
 
- R3: Aspose.PSD admite una variedad de formatos de archivos de imagen, incluidos PSD, JPEG, PNG y más. Referirse a[documentación](https://reference.aspose.com/psd/java/) para obtener una lista completa.
+ R3: Aspose.PSD admite una variedad de formatos de archivos de imagen, incluidos PSD, JPEG, PNG y más. Consulte el[documentación](https://reference.aspose.com/psd/java/) para obtener una lista completa.
 
 ### P4: ¿Cómo puedo obtener soporte para consultas relacionadas con Aspose.PSD?
 
@@ -101,4 +101,4 @@ R2: Por supuesto, Aspose.PSD proporciona licencias comerciales para desarrollado
 
 ### P5: ¿Hay una prueba gratuita disponible?
 
- R5: Sí, puedes explorar Aspose.PSD con una prueba gratuita. Descargalo[aquí](https://releases.aspose.com/).
+ R5: Sí, puedes explorar Aspose.PSD con una prueba gratuita. Descárgalo[aquí](https://releases.aspose.com/).

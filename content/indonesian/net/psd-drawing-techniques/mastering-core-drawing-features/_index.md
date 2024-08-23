@@ -23,7 +23,7 @@ Sekarang, mari kita mulai tutorialnya!
 
 ## Impor Namespace
 
-Dalam proyek .NET mana pun, mengimpor namespace yang diperlukan sangat penting untuk mengakses fungsionalitas yang disediakan oleh Aspose.PSD. Ikuti langkah ini:
+Dalam proyek .NET mana pun, mengimpor namespace yang diperlukan sangat penting untuk mengakses fungsionalitas yang disediakan oleh Aspose.PSD. Ikuti langkah-langkah berikut:
 
 ### Langkah 1: Buka Proyek Anda
 
@@ -93,11 +93,11 @@ Selamat! Anda telah menguasai fitur gambar inti Aspose.PSD untuk .NET. Tutorial 
 
 ### Q1: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A1: Anda dapat mengakses dokumentasinya.[Di Sini](https://reference.aspose.com/psd/net/).
+ A1: Anda dapat mengakses dokumentasinya[Di Sini](https://reference.aspose.com/psd/net/).
 
 ### Q2: Bagaimana cara mengunduh Aspose.PSD untuk .NET?
 
- A2: Unduh versi terbaru.[Di Sini](https://releases.aspose.com/psd/net/).
+ A2: Unduh versi terbaru[Di Sini](https://releases.aspose.com/psd/net/).
 
 ### Q3: Di mana saya bisa membeli Aspose.PSD untuk .NET?
 
@@ -105,7 +105,7 @@ Selamat! Anda telah menguasai fitur gambar inti Aspose.PSD untuk .NET. Tutorial 
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda bisa mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 

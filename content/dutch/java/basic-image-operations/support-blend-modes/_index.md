@@ -9,7 +9,7 @@ url: /nl/java/basic-image-operations/support-blend-modes/
 ---
 ## Invoering
 
-Aspose.PSD voor Java is een krachtige bibliotheek die uitgebreide ondersteuning biedt voor overvloeimodi, waardoor ontwikkelaars hun beeldverwerkingsmogelijkheden kunnen verbeteren. In deze tutorial duiken we in de wereld van overvloeimodi en onderzoeken we hoe we deze effectief kunnen gebruiken met Aspose.PSD voor Java. Of u nu een doorgewinterde ontwikkelaar bent of een beginneling op het gebied van beeldmanipulatie, deze gids zal u voorzien van de kennis om het volledige potentieel van overvloeimodi in uw Java-toepassingen te benutten.
+Aspose.PSD voor Java is een krachtige bibliotheek die uitgebreide ondersteuning biedt voor overvloeimodi, waardoor ontwikkelaars hun beeldverwerkingsmogelijkheden kunnen verbeteren. In deze tutorial duiken we in de wereld van overvloeimodi en onderzoeken we hoe we deze effectief kunnen gebruiken met Aspose.PSD voor Java. Of u nu een doorgewinterde ontwikkelaar bent of een beginneling op het gebied van beeldmanipulatie, deze gids voorziet u van de kennis om het volledige potentieel van overvloeimodi in uw Java-toepassingen te benutten.
 
 ## Vereisten
 
@@ -17,7 +17,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 
 - Java-ontwikkelomgeving: Zorg ervoor dat er een werkende Java-ontwikkelomgeving op uw computer is geïnstalleerd.
 
--  Aspose.PSD voor Java Library: Download de bibliotheek van de[website](https://releases.aspose.com/psd/java/) en volg de installatie-instructies.
+- Aspose.PSD voor Java Library: Download de bibliotheek van de[website](https://releases.aspose.com/psd/java/) en volg de installatie-instructies.
 
 - Documentmap: bereid een map voor om uw PSD-bestanden op te slaan, aangezien we met verschillende overvloeimodi zullen werken met behulp van voorbeeld-PSD-bestanden.
 
@@ -58,7 +58,7 @@ Exporteer de geladen PSD-bestanden naar PNG-indeling. Pas de exportopties indien
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Opslaan als PNG met 100% dekking.
+// Opslaan als PNG met 100% dekking
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Stel de dekking van specifieke lagen in de PSD-bestanden in. Hier stellen we de 
 // Stel de dekking in op 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Opslaan als PNG met een dekking van 50%.
+// Opslaan als PNG met een dekking van 50%
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

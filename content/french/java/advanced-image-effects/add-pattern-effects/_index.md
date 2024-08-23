@@ -115,7 +115,7 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter des effets de motif à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque vous permet de créer des images visuellement attrayantes avec des motifs personnalisés, offrant ainsi des possibilités infinies pour vos projets basés sur Java.
+Félicitations! Vous avez appris avec succès comment ajouter des effets de motif à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque vous permet de créer des images visuellement attrayantes avec des motifs personnalisés, offrant ainsi des possibilités infinies pour vos projets Java.
 
 ## FAQ
 
@@ -129,7 +129,7 @@ A1 : Aspose.PSD pour Java est conçu pour fonctionner indépendamment, mais vous
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
- A3 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir de l'assistance pour Aspose.PSD pour Java ?
 
@@ -137,4 +137,4 @@ A1 : Aspose.PSD pour Java est conçu pour fonctionner indépendamment, mais vous
 
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
 
-A5 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

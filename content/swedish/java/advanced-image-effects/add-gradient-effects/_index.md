@@ -9,7 +9,7 @@ url: /sv/java/advanced-image-effects/add-gradient-effects/
 ---
 ## Introduktion
 
-Välkommen till handledningen om att lägga till gradienteffekter i Aspose.PSD för Java! Om du vill förbättra dina bilder med fantastiska övertoningsöverlägg, är du på rätt plats. I den här guiden går vi igenom processen med Aspose.PSD, ett kraftfullt Java-bibliotek för bildbehandling.
+Välkommen till handledningen om att lägga till gradienteffekter i Aspose.PSD för Java! Om du vill förbättra dina bilder med fantastiska övertoningsöverlägg är du på rätt plats. I den här guiden går vi igenom processen med Aspose.PSD, ett kraftfullt Java-bibliotek för bildbehandling.
 
 ## Förutsättningar
 
@@ -40,7 +40,7 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 
 Låt oss nu dela upp exemplet i flera steg.
 
-## Steg 1: Ladda PSD-fil och åtkomst övertoningsöverlägg
+## Steg 1: Ladda PSD-fil och få åtkomst till Gradient Overlay
 
 ```javaString dataDir = "Your Document Directory";
 
@@ -121,11 +121,11 @@ S2: Aspose.PSD ger en mängd olika effekter, inklusive skuggor, glöd och mer. U
 
 ### F3: Hur kan jag felsöka om effekterna inte renderas korrekt?
 
- S3: Kontrollera dokumentationen och community-forumen på[Stöd för Aspose.PSD](https://forum.aspose.com/c/psd/34) för assistens.
+ S3: Kontrollera dokumentationen och community-forumen på[Stöd för Aspose.PSD](https://forum.aspose.com/c/psd/34) för hjälp.
 
 ### F4: Finns det en testversion tillgänglig för Aspose.PSD för Java?
 
- A4: Ja, du kan få en gratis provperiod.[här](https://releases.aspose.com/).
+ A4: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F5: Var kan jag köpa en licens för Aspose.PSD för Java?
 

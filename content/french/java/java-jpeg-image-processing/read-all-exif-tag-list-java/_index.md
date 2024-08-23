@@ -1,6 +1,6 @@
 ---
-title: Lire toute la liste de balises EXIF en Java
-linktitle: Lire toute la liste de balises EXIF en Java
+title: Lire toute la liste des balises EXIF en Java
+linktitle: Lire toute la liste des balises EXIF en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment extraire les métadonnées EXIF des fichiers PSD à l'aide d'Aspose.PSD pour Java avec notre didacticiel complet et nos exemples de code.
 type: docs
@@ -18,7 +18,6 @@ Avant de plonger dans ce didacticiel, assurez-vous d'avoir configuré les condit
 Pour commencer, importez les packages nécessaires depuis Aspose.PSD pour Java dans votre projet :
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

@@ -91,7 +91,7 @@ A3: Aspose.PSD menawarkan beragam efek, namun disarankan untuk memeriksa dokumen
 
 ### Q4: Bagaimana saya bisa mendapatkan lisensi sementara untuk tujuan pengujian?
 
- A4: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
+ A4: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 
 ### Q5: Di mana saya bisa mendapatkan dukungan tambahan dan diskusi komunitas?
 

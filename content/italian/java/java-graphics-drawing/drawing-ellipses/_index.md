@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /it/java/java-graphics-drawing/drawing-ellipses/
 ---
-## introduzione
+## Introduzione
 In questo tutorial imparerai come disegnare ellissi usando Aspose.PSD per Java. Aspose.PSD è una potente libreria che consente agli sviluppatori Java di lavorare con file PSD e manipolare le immagini con facilità. Disegnare forme come ellissi è un compito fondamentale nell'elaborazione delle immagini e nella progettazione grafica. Seguendo questa guida, acquisirai esperienza pratica nella creazione di ellissi a livello di codice utilizzando Aspose.PSD.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere quanto segue:
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Prima di disegnare, pulire la superficie grafica con un colore specifico (opzion
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Passaggio 5: disegna un'ellisse tratteggiata.
+## Passaggio 5: disegna un'ellisse tratteggiata
 Utilizza un oggetto Penna con un colore rosso e disegna un'ellisse tratteggiata all'interno di un rettangolo specificato.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
@@ -65,9 +64,9 @@ image.save(outputPath, saveOptions);
 ```
 
 ## Conclusione
-Congratulazioni! Hai imparato con successo come disegnare ellissi a livello di codice utilizzando Aspose.PSD per Java. Questo tutorial ha trattato l'impostazione del tuo progetto, l'inizializzazione della grafica, il disegno di ellissi tratteggiate e continue e il salvataggio dell'immagine risultante. Ora puoi integrare queste tecniche nelle tue applicazioni Java per varie attività di progettazione grafica e manipolazione delle immagini.
+Congratulazioni! Hai imparato con successo come disegnare ellissi a livello di codice utilizzando Aspose.PSD per Java. Questo tutorial ha riguardato l'impostazione del progetto, l'inizializzazione della grafica, il disegno di ellissi tratteggiate e continue e il salvataggio dell'immagine risultante. Ora puoi integrare queste tecniche nelle tue applicazioni Java per varie attività di progettazione grafica e manipolazione delle immagini.
 ## Domande frequenti
-### Posso usare Aspose.PSD gratuitamente?
+### Posso utilizzare Aspose.PSD gratuitamente?
 Aspose.PSD offre una versione di prova gratuita, consentendoti di valutare le sue funzionalità prima dell'acquisto.
 ### Dove posso trovare altri esempi e documentazione?
  Visita[Documentazione Aspose.PSD](https://reference.aspose.com/psd/java/) per guide ed esempi completi.

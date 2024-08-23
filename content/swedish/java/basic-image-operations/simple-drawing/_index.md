@@ -16,7 +16,7 @@ Välkommen till denna steg-för-steg-guide för att utföra enkel ritning med As
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat på din maskin.
--  Aspose.PSD för Java-bibliotek. Du kan ladda ner den från[Aspose.PSD för Java-dokumentation](https://reference.aspose.com/psd/java/).
+- Aspose.PSD för Java-bibliotek. Du kan ladda ner den från[Aspose.PSD för Java-dokumentation](https://reference.aspose.com/psd/java/).
 
 ## Importera paket
 
@@ -63,7 +63,7 @@ image.addLayer(layer);
 
 ## Steg 3: Rita former
 
-det här steget kommer vi att använda klassen Graphics för att rita former på det skapade lagret:
+I det här steget kommer vi att använda klassen Graphics för att rita former på det skapade lagret:
 
 ### Rita en rektangel med en gul färg
 
@@ -116,7 +116,7 @@ S1: Ja, Aspose.PSD för Java tillhandahåller omfattande funktionalitet för att
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
- A3: Ja, du kan komma åt den kostnadsfria testversionen.[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria testversionen[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag köpa en licens för Aspose.PSD för Java?
 

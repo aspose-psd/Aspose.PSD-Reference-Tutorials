@@ -18,7 +18,6 @@ url: /ru/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 Для начала включите необходимый пакет Aspose.PSD в свой Java-класс:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -30,7 +29,7 @@ import com.aspose.psd.imageoptions.JpegOptions;
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_file.psd");
 ```
- Заменять`"Your_Document_Directory/"` путь к каталогу, в котором находится ваш PSD-файл, и`"your_file.psd"` с именем вашего PSD-файла.
+ Заменять`"Your_Document_Directory/"` с путем к каталогу, в котором находится ваш PSD-файл, и`"your_file.psd"` с именем вашего PSD-файла.
 ## Шаг 2. Перебор ресурсов изображений
 Перебирайте ресурсы изображения, чтобы найти ресурс миниатюры.
 ```java

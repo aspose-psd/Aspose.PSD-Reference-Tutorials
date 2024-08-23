@@ -15,7 +15,7 @@ Aspose.PSD voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Adobe Ph
 Voordat we ingaan op de tutorial, zorg ervoor dat je over het volgende beschikt:
 1.  Aspose.PSD voor .NET Library: Download en installeer de bibliotheek van de .NET-bibliotheek[Aspose.PSD-website](https://releases.aspose.com/psd/net/).
 2. Ontwikkelomgeving: Zorg ervoor dat u over een werkende .NET-ontwikkelomgeving beschikt, inclusief Visual Studio.
-3. Voorbeeld-AI-bestand: Download het voorbeeld-AI-bestand, "form_8_2l3_7.ai", van[deze link](Your-Download-Link).
+3. Voorbeeld-AI-bestand: Download het voorbeeld-AI-bestand, "form_8_2l3_7.ai", van[deze koppeling](Your-Download-Link).
 ## Naamruimten importeren
 Importeer om te beginnen de benodigde naamruimten in uw .NET-project:
 ```csharp

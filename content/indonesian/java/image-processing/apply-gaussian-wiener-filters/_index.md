@@ -13,7 +13,7 @@ Selamat datang di tutorial komprehensif kami tentang penerapan filter Gaussian d
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di mesin Anda.
 
@@ -94,7 +94,7 @@ A2: Versi uji coba memiliki keterbatasan, dan Anda dapat menjelajahi kemampuan p
 
 ### Q4: Apakah ada lisensi sementara yang tersedia untuk tujuan pengujian?
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk Java?
 

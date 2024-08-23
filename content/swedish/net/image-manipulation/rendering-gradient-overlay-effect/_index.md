@@ -17,7 +17,7 @@ Lås upp potentialen i dina bilder genom att bemästra Gradient Overlay Effect i
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-- Aspose.PSD Library: Ladda ner och installera Aspose.PSD-biblioteket från[hemsida](https://releases.aspose.com/psd/net/).
+- Aspose.PSD Library: Ladda ner och installera Aspose.PSD-biblioteket från[webbplats](https://releases.aspose.com/psd/net/).
 
 - Dokumentkatalog: Skapa en katalog för dina dokument där du kan lagra dina käll- och utdatafiler.
 

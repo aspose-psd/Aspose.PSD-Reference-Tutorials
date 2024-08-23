@@ -12,7 +12,7 @@ Này! Bạn đã sẵn sàng bước vào thế giới xử lý hình ảnh bằ
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có mọi thứ bạn cần:
 1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên.
-2.  Aspose.PSD cho Thư viện Java: Bạn có thể[tải về tại đây](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD cho Thư viện Java: Bạn có thể[tải nó ở đây](https://releases.aspose.com/psd/java/).
 3. Môi trường phát triển tích hợp (IDE): Bất kỳ IDE tương thích với Java nào như IntelliJ IDEA, Eclipse hoặc NetBeans đều sẽ làm được.
 4. Tệp PSD mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp PSD mẫu. Bạn có thể sử dụng của riêng bạn hoặc tìm thấy một trực tuyến.
 5. Kiến thức cơ bản về Java: Hiểu cú pháp Java cơ bản và các khái niệm lập trình hướng đối tượng sẽ hữu ích.
@@ -21,7 +21,6 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có mọi thứ b�
 Trước tiên, hãy nhập các gói cần thiết. Bạn sẽ cần thư viện Aspose.PSD cho Java để bắt đầu. Đảm bảo bạn đã thêm thư viện vào các phần phụ thuộc của dự án. Đây là cách thực hiện:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -63,12 +62,12 @@ image.save(dataDir + "2_7BitsJPEG_output.jpg", options);
 ```
 Và thế là xong! Bạn đã xử lý thành công hình ảnh PSD và lưu nó dưới dạng JPEG với các cài đặt đã chỉ định.
 ## Phần kết luận
-Chúc mừng! Bạn vừa học cách thao tác với tệp PSD và lưu chúng dưới dạng JPEG bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này cung cấp nhiều tính năng giúp việc xử lý hình ảnh trở nên dễ dàng. Cho dù bạn đang làm việc trên một dự án nhỏ hay một ứng dụng quy mô lớn, Aspose.PSD for Java đều có thể giúp bạn. Bạn đang chờ đợi điều gì? Hãy bắt đầu thử nghiệm và xem bạn có thể tạo ra những điều tuyệt vời nào!
+Chúc mừng! Bạn vừa học cách thao tác với tệp PSD và lưu chúng dưới dạng JPEG bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này cung cấp nhiều tính năng giúp việc xử lý hình ảnh trở nên dễ dàng. Cho dù bạn đang làm việc trên một dự án nhỏ hay một ứng dụng quy mô lớn, Aspose.PSD for Java đều có thể giúp bạn. Vì vậy, bạn còn chờ gì nữa? Hãy bắt đầu thử nghiệm và xem bạn có thể tạo ra những điều tuyệt vời nào!
 ## Câu hỏi thường gặp
 ### Aspose.PSD cho Java là gì?
 Aspose.PSD for Java là một thư viện mạnh mẽ cho phép bạn làm việc với các tệp PSD trong các ứng dụng Java. Nó cung cấp một loạt các tính năng để xử lý và chuyển đổi hình ảnh.
 ### Làm cách nào để cài đặt Aspose.PSD cho Java?
- Bạn có thể tải xuống thư viện từ[trang mạng](https://releases.aspose.com/psd/java/) và thêm nó vào phần phụ thuộc dự án của bạn.
+Bạn có thể tải xuống thư viện từ[trang web](https://releases.aspose.com/psd/java/) và thêm nó vào phần phụ thuộc dự án của bạn.
 ### Tôi có thể sử dụng cấu hình màu tùy chỉnh với Aspose.PSD cho Java không?
 Có, bạn có thể đặt cấu hình màu RGB và CMYK tùy chỉnh khi định cấu hình tùy chọn JPEG.
 ### Các định dạng hình ảnh được hỗ trợ trong Aspose.PSD cho Java là gì?

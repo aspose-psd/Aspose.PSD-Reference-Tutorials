@@ -18,7 +18,7 @@ Kısa ve bilgilendirici eğitimlerimiz aracılığıyla Aspose.PSD for .NET'in d
 
 Bunlar bazı yararlı kaynaklara bağlantılar:
  
-- [Görüntü işleme](./net/image-processing/)
+- [Görüntü İşleme](./net/image-processing/)
 - [PSD Dosyası İşleme](./net/psd-file-manipulation/)
 - [Metin ve Font İşleme](./net/text-and-font-manipulation/)
 - [Dosya Kaydetme ve Dışa Aktarma](./net/file-saving-and-exporting/)
@@ -38,10 +38,10 @@ Aspose.PSD for Java ile yaratıcı bir yolculuğa çıkın! Kapsamlı eğitimler
 
 Bunlar bazı yararlı kaynaklara bağlantılar:
 
-- [Görüntü işleme](./java/image-processing/)
+- [Görüntü İşleme](./java/image-processing/)
 - [PSD Dönüşümü](./java/psd-conversion/)
 - [İleri Teknikler](./java/advanced-techniques/)
-- [Resim düzenleme](./java/image-editing/)
+- [Görüntü Düzenleme](./java/image-editing/)
 - [Gelişmiş Görüntü İşleme](./java/advanced-image-manipulation/)
 - [Temel Görüntü İşlemleri](./java/basic-image-operations/)
 - [Gelişmiş Görüntü Efektleri](./java/advanced-image-effects/)

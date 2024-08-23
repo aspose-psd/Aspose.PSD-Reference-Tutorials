@@ -16,7 +16,7 @@ url: /ru/java/image-editing/crop-image-by-rectangle/
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
 
 - На вашем компьютере установлен Java Development Kit (JDK).
--  Aspose.PSD для библиотеки Java. Вы можете скачать его с сайта[Веб-сайт](https://releases.aspose.com/psd/java/).
+- Aspose.PSD для библиотеки Java. Вы можете скачать его с сайта[веб-сайт](https://releases.aspose.com/psd/java/).
 
 ## Импортировать пакеты
 
@@ -49,7 +49,7 @@ String destName = dataDir + "CroppingByRectangle_out.jpg";
 
 Определите пути к исходному PSD-файлу и целевому файлу JPEG.
 
-## Шаг 3. Загрузите и кэшируйте изображение.
+## Шаг 3. Загрузите и кэшируйте изображение
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);

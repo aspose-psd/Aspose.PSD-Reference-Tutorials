@@ -7,10 +7,10 @@ type: docs
 weight: 10
 url: /cs/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
-## Úvod
-Přemýšleli jste někdy, jak přidat přechod vrstvy tahu k vašim obrázkům pomocí Java? Tak to jste na správném místě! Dnes se ponoříme do světa Aspose.PSD for Java, výkonné knihovny, která vám pomůže snadno manipulovat se soubory PSD. Ať už jste začátečník nebo zkušený vývojář, tento podrobný průvodce vás provede procesem přidávání přechodu vrstvy tahu do vašich souborů PSD. Takže se připoutejte a připravte se zlepšit své dovednosti v oblasti grafických úprav!
+## Zavedení
+Přemýšleli jste někdy, jak přidat přechod vrstvy tahu k vašim obrázkům pomocí Java? Tak to jste na správném místě! Dnes se ponoříme do světa Aspose.PSD for Java, výkonné knihovny, která vám pomůže snadno manipulovat se soubory PSD. Ať už jste začátečník nebo zkušený vývojář, tento podrobný průvodce vás provede procesem přidávání přechodu vrstvy tahu do souborů PSD. Takže se připoutejte a připravte se na vylepšení svých dovedností v oblasti grafických úprav!
 ## Předpoklady
-Než začneme, je pár věcí, které musíte mít na svém místě. Ujistěte se, že máte následující:
+Než začneme, je potřeba mít připraveno několik věcí. Ujistěte se, že máte následující:
 1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.PSD for Java Library: Můžete si ji stáhnout z[Stránka ke stažení Aspose.PSD](https://releases.aspose.com/psd/java/).
 3. Integrované vývojové prostředí (IDE): Bude fungovat jakékoli IDE jako IntelliJ IDEA, Eclipse nebo NetBeans.
@@ -21,7 +21,6 @@ Nejprve naimportujme potřebné balíčky. Ty nám umožní používat třídy a
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -84,7 +83,7 @@ fillSettings.setReverse(true);
 ## Krok 5: Přidejte a upravte body barev a průhlednosti
 Pojďme přidat nové barevné a průhledné body a upravit ty stávající, abychom dosáhli požadovaného efektu přechodu.
 ```java
-// Přidat nový barevný bod
+// Přidejte nový barevný bod
 GradientColorPoint colorPoint = fillSettings.addColorPoint();
 colorPoint.setColor(Color.getGreen());
 colorPoint.setLocation(4096);
@@ -156,4 +155,4 @@ Absolutně! Aspose.PSD for Java poskytuje komplexní rozhraní API pro vytváře
 ### Je možné použít jiné efekty pomocí Aspose.PSD pro Javu?
 Ano, pomocí Aspose.PSD pro Java můžete použít různé efekty, jako je stín, záře a další.
 ### Kde najdu dokumentaci k Aspose.PSD pro Javu?
- Dokumentaci najdete[tady](https://reference.aspose.com/psd/java/).
+ Dokumentaci najdete[zde](https://reference.aspose.com/psd/java/).

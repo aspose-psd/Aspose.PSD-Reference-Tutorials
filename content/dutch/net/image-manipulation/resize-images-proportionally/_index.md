@@ -17,7 +17,7 @@ Het proportioneel aanpassen van afbeeldingen is een veel voorkomende taak in vee
 
 Voordat u in de magie van het vergroten/verkleinen van Aspose.PSD voor .NET duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1.  Aspose.PSD voor .NET-bibliotheek: Zorg ervoor dat de Aspose.PSD voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.PSD voor .NET-releases](https://releases.aspose.com/psd/net/) bladzijde.
+1.  Aspose.PSD voor .NET-bibliotheek: Zorg ervoor dat de Aspose.PSD voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.PSD voor .NET-releases](https://releases.aspose.com/psd/net/) pagina.
 
 2. Documentmap: Maak een map om uw documenten op te slaan en vervang "Uw documentmap" in de opgegeven code door het daadwerkelijke pad naar deze map.
 
@@ -95,7 +95,7 @@ A3: Ja, Aspose.PSD voor .NET biedt een breed scala aan functies, waaronder bijsn
 
 ### V4: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A4: Ja, u kunt de mogelijkheden van Aspose.PSD voor .NET verkennen met een gratis proefperiode. Bezoek[hier](https://releases.aspose.com/) starten.
+ A4: Ja, u kunt de mogelijkheden van Aspose.PSD voor .NET verkennen met een gratis proefperiode. Bezoek[hier](https://releases.aspose.com/) om aan de slag te gaan.
 
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.PSD voor .NET?
 

@@ -7,18 +7,17 @@ type: docs
 weight: 15
 url: /cs/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
-## Úvod
+## Zavedení
 tomto tutoriálu prozkoumáme, jak extrahovat miniatury ze souborů PSD pomocí Aspose.PSD pro Java. Miniatury mohou být užitečné pro rychlé náhledy nebo pro vytváření menších verzí obrázků vložených do dokumentů PSD. Pojďme se ponořit do kroků potřebných k dosažení tohoto pomocí Aspose.PSD.
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující nastavení:
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/java/).
 - Základní znalost programování v Javě.
 ## Importujte balíčky
 Chcete-li začít, zahrňte do své třídy Java potřebný balíček Aspose.PSD:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -67,10 +66,10 @@ V tomto tutoriálu jsme prozkoumali, jak extrahovat miniatury ze souborů PSD po
 ### Co je Aspose.PSD?
 Aspose.PSD je knihovna Java, která umožňuje vývojářům pracovat s PSD a dalšími formáty obrazových souborů programově.
 ### Kde najdu další dokumentaci k Aspose.PSD pro Javu?
- Můžete odkazovat na[dokumentace](https://reference.aspose.com/psd/java/) pro podrobné odkazy a příklady API.
+ Můžete odkazovat na[dokumentace](https://reference.aspose.com/psd/java/) pro podrobné API reference a příklady.
 ### Mohu si Aspose.PSD vyzkoušet zdarma před nákupem?
  Ano, můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) zhodnotit možnosti knihovny.
 ### Jak mohu získat dočasné licence pro Aspose.PSD?
- Dočasné licence lze získat od[tady](https://purchase.aspose.com/temporary-license/).
+ Dočasné licence lze získat od[zde](https://purchase.aspose.com/temporary-license/).
 ### Je Aspose.PSD vhodný pro komerční použití?
 Ano, Aspose.PSD lze v rámci licenčních podmínek používat pro osobní i komerční projekty.

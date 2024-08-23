@@ -2,7 +2,7 @@
 title: Elliptikus alakzatok létrehozása az Aspose.PSD segítségével .NET-hez
 linktitle: Elliptikus alakzatok létrehozása az Aspose.PSD segítségével .NET-hez
 second_title: Aspose.PSD .NET API
-description: Ismerje meg, hogyan rajzolhat elliptikus alakzatokat .NET-ben az Aspose.PSD használatával. Lépésről lépésre útmutató kódpéldákkal. Lenyűgöző grafikákat készíthet könnyedén.
+description: Ismerje meg, hogyan rajzolhat elliptikus alakzatokat .NET-ben az Aspose.PSD használatával. Útmutató lépésről lépésre kódpéldákkal. Lenyűgöző grafikákat készíthet könnyedén.
 type: docs
 weight: 13
 url: /hu/net/psd-drawing-techniques/creating-elliptical-shapes/
@@ -78,21 +78,21 @@ using (Image image = new PsdImage(100, 100))
 
 ## Következtetés
 
-Gratulálunk! Sikeresen hozott létre elliptikus alakzatokat az Aspose.PSD for .NET használatával. Ez az oktatóanyag a legfontosabb lépéseket ismertette, a környezet beállításától a pontozott és folyamatos ellipszis alakzatok rajzolásáig.
+Gratulálok! Sikeresen hozott létre elliptikus alakzatokat az Aspose.PSD for .NET használatával. Ez az oktatóanyag a legfontosabb lépéseket ismertette, a környezet beállításától a pontozott és folyamatos ellipszis alakzatok rajzolásáig.
 
 ## GYIK
 
 ### 1. kérdés: Hol találom az Aspose.PSD for .NET dokumentációját?
 
- V1: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/net/).
+ V1: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/net/).
 
 ### 2. kérdés: Hogyan tölthetem le az Aspose.PSD-t .NET-hez?
 
- 2. válasz: Letöltheti a kiadási oldalról.[itt](https://releases.aspose.com/psd/net/).
+ 2. válasz: Letöltheti a kiadási oldalról[itt](https://releases.aspose.com/psd/net/).
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
@@ -100,4 +100,4 @@ Gratulálunk! Sikeresen hozott létre elliptikus alakzatokat az Aspose.PSD for .
 
 ### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
 
- V5: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

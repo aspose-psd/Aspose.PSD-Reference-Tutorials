@@ -110,7 +110,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### Q3: 我可以在購買前試用Aspose.PSD嗎？
 
-A3：是的，您可以探索免費試用版。[這裡](https://releases.aspose.com/).
+A3：是的，您可以探索免費試用版[這裡](https://releases.aspose.com/).
 
 ### Q4：如何取得Aspose.PSD的臨時授權？
 

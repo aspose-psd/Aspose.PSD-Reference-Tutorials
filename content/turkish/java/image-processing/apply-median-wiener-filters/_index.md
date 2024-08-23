@@ -42,7 +42,7 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-### Adım 2: Görüntüyü RasterImage'a Aktarın
+### Adım 2: Görüntüyü RasterImage'a Yayınlayın
 
 ```java
 // Görüntüyü RasterImage'a yayınlayın
@@ -88,7 +88,7 @@ Cevap1: Evet, Aspose.PSD çok çeşitli görüntü formatlarını destekler, bu 
 
 ### S2: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- A2: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
+ A2: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.PSD for Java desteğini nasıl alabilirim?
 
@@ -100,4 +100,4 @@ Cevap1: Evet, Aspose.PSD çok çeşitli görüntü formatlarını destekler, bu 
 
 ### S5: Java için Aspose.PSD'yi nasıl satın alabilirim?
 
- A5: Ürünü satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ A5: Ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

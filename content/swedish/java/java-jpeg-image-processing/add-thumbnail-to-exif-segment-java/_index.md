@@ -8,18 +8,17 @@ weight: 10
 url: /sv/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
 ## Introduktion
-I den här handledningen kommer vi att utforska hur man förbättrar bildmetadata genom att lägga till en miniatyrbild till EXIF-segmentet med Aspose.PSD för Java. EXIF-metadata (Exchangeable Image File Format) spelar en avgörande roll i digital fotografering och ger värdefull information som kamerainställningar, datum och plats. Att lägga till en miniatyrbild förbättrar användarupplevelsen genom att förhandsgranska bilder effektivt.
+I den här handledningen kommer vi att utforska hur man förbättrar bildmetadata genom att lägga till en miniatyrbild till EXIF-segmentet med Aspose.PSD för Java. EXIF (Exchangeable Image File Format)-metadata spelar en avgörande roll i digital fotografering och ger värdefull information som kamerainställningar, datum och plats. Att lägga till en miniatyrbild förbättrar användarupplevelsen genom att förhandsgranska bilder effektivt.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
 - Grundläggande kunskaper i Java-programmering.
 - Java Development Kit (JDK) installerat på ditt system.
 - IDE (Integrated Development Environment) för Java, som IntelliJ IDEA eller Eclipse.
--  Aspose.PSD för Java-bibliotek. Du kan ladda ner den från[Aspose.PSD för Java Nedladdningssida](https://releases.aspose.com/psd/java/).
+- Aspose.PSD för Java-bibliotek. Du kan ladda ner den från[Aspose.PSD för Java Nedladdningssida](https://releases.aspose.com/psd/java/).
 ## Importera paket
 Importera först de nödvändiga paketen från Aspose.PSD och Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

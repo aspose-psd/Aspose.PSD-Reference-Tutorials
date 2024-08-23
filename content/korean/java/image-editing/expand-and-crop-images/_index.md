@@ -101,4 +101,4 @@ A2: 물론 Aspose.PSD는 개발자에게 상업용 라이선스를 제공하므�
 
 ### Q5: 무료 평가판이 제공됩니까?
 
- A5: 예, 무료 평가판을 통해 Aspose.PSD를 탐색할 수 있습니다. 다운로드 해[여기](https://releases.aspose.com/).
+ A5: 예, 무료 평가판을 통해 Aspose.PSD를 탐색할 수 있습니다. 다운로드[여기](https://releases.aspose.com/).

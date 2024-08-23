@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/net/layer-effects/adding-stroke-layer-gradient/
 ---
-## Úvod
+## Zavedení
 
 Pokud chcete vylepšit své aplikace .NET úžasnými grafickými efekty, Aspose.PSD pro .NET je vaším řešením. V tomto tutoriálu se ponoříme do procesu přidávání vrstvy tahu s přechodem pomocí Aspose.PSD pro .NET. Tento podrobný průvodce vám umožní bez námahy zvýšit vizuální přitažlivost vašich obrázků.
 
@@ -16,7 +16,7 @@ Pokud chcete vylepšit své aplikace .NET úžasnými grafickými efekty, Aspose
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
 
 - Pracovní znalost vývoje C# a .NET.
--  Nainstalovaná knihovna Aspose.PSD for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Nainstalovaná knihovna Aspose.PSD for .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 - Editor kódu, jako je Visual Studio, k implementaci poskytnutých příkladů.
 
 ## Importovat jmenné prostory
@@ -96,7 +96,7 @@ im.Save(exportPath);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste přidali vrstvu tahu s přechodem pomocí Aspose.PSD pro .NET. Tento výukový program vás vybavil znalostmi pro programové vylepšení obrázků.
+Gratuluji! Úspěšně jste přidali vrstvu tahu s přechodem pomocí Aspose.PSD pro .NET. Tento výukový program vás vybavil znalostmi pro programové vylepšení obrázků.
 
 ## FAQ
 
@@ -106,7 +106,7 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro .NET?
 
- A2: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A2: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q3: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
@@ -118,4 +118,4 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 
 ### Q5: Jak mohu zakoupit licenci pro Aspose.PSD pro .NET?
 
- A5: Můžete si koupit licenci.[tady](https://purchase.aspose.com/buy).
+ A5: Můžete si koupit licenci[zde](https://purchase.aspose.com/buy).

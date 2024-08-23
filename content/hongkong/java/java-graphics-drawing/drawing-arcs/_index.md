@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -29,7 +28,7 @@ import com.aspose.psd.imageoptions.BmpOptions;
 ## 第 1 步：設定您的 Java 項目
 首先，在 IDE（整合開發環境）中建立一個新的 Java 專案並匯入 Aspose.PSD for Java 函式庫。確保在專案的建置路徑中正確引用該庫。
 ## 第 2 步：初始化圖像和圖形對象
-建立一個實例`PsdImage`和`Graphics`跟...共事：
+建立一個實例`PsdImage`和`Graphics`合作：
 ```java
 String dataDir = "Your Document Directory";
 //初始化 PsdImage 對象

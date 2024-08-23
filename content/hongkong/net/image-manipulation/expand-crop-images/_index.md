@@ -9,7 +9,7 @@ url: /zh-hant/net/image-manipulation/expand-crop-images/
 ---
 ## 介紹
 
-Aspose.PSD for .NET 是一個綜合性影像庫，可讓開發人員在其 .NET 應用程式中使用各種影像格式。其突出的功能之一是能夠輕鬆操縱影像。在本教程中，我們將重點放在擴展和裁剪圖像，為您提供使用 Aspose.PSD 完成這些任務的實踐指南。
+Aspose.PSD for .NET 是一個綜合圖像庫，允許開發人員在其 .NET 應用程式中使用各種圖像格式。其突出的功能之一是能夠輕鬆操縱影像。在本教程中，我們將重點放在擴展和裁剪圖像，為您提供使用 Aspose.PSD 完成這些任務的實踐指南。
 
 ## 先決條件
 
@@ -97,4 +97,4 @@ A4：您可以從以下地點獲得臨時許可證：[Aspose.PSD臨時許可證]
 
 ### Q5：哪裡可以購買 Aspose.PSD for .NET？
 
- A5：您可以在以下位置購買圖書館：[Aspose.PSD購買頁面](https://purchase.aspose.com/buy).
+ A5：您可以在以下位置購買圖書館：[Aspose.PSD 購買頁面](https://purchase.aspose.com/buy).

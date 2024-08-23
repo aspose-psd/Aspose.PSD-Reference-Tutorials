@@ -10,7 +10,7 @@ url: /id/net/text-and-font-manipulation/replace-missing-fonts/
 ## Perkenalan
 Selamat datang di dunia Aspose.PSD untuk .NET, tempat penggantian font menjadi sangat mudah! Dalam tutorial ini, kita akan mempelajari proses rumit dalam menyiapkan dan mengganti font yang hilang di file PSD Anda menggunakan Aspose.PSD. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah kami akan memberdayakan Anda untuk menangani tantangan terkait font dengan mudah.
 ## Prasyarat
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
 -  Aspose.PSD untuk .NET: Pastikan Anda telah menginstal perpustakaan. Jika tidak, unduh dari[Di Sini](https://releases.aspose.com/psd/net/).
 - Direktori Dokumen: Miliki direktori khusus untuk dokumen PSD Anda.
 - Direktori Output: Buat folder terpisah tempat file yang dimodifikasi akan disimpan.
@@ -70,7 +70,7 @@ A1: Ya, Aspose.PSD memungkinkan Anda mengganti font secara selektif per lapisan.
 
 ### Q4: Apakah lisensi sementara tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.PSD?
 

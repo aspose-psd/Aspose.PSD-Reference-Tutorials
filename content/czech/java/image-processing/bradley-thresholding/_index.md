@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /cs/java/image-processing/bradley-thresholding/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto komplexním průvodci implementací Bradley Thresholding v Aspose.PSD pro Java. Tento tutoriál vás provede procesem aplikace Bradley Thresholding ke zvýšení kvality vašich obrázků. Aspose.PSD for Java poskytuje výkonnou sadu nástrojů pro zpracování obrazu a Bradley Thresholding je cenná technika pro binarizaci obrazu.
 
@@ -16,7 +16,7 @@ Vítejte v tomto komplexním průvodci implementací Bradley Thresholding v Aspo
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
-2.  Knihovna Aspose.PSD: Stáhněte si a nainstalujte knihovnu Aspose.PSD z[tady](https://releases.aspose.com/psd/java/).
+2.  Knihovna Aspose.PSD: Stáhněte si a nainstalujte knihovnu Aspose.PSD z[zde](https://releases.aspose.com/psd/java/).
 3. Ukázkový obrázek PSD: Připravte si ukázkový obrázek PSD pro aplikaci Bradleyho prahu. Pro testování můžete použít svůj vlastní obrázek nebo si jej stáhnout.
 
 ## Importujte balíčky
@@ -76,7 +76,7 @@ Opakujte tyto kroky pro svůj konkrétní případ použití a úspěšně použ
 
 ## Závěr
 
-Gratulujeme! Naučili jste se implementovat Bradley Thresholding v Aspose.PSD pro Javu. Tato technika zvyšuje kvalitu obrazu a je cenným nástrojem v aplikacích pro zpracování obrazu.
+Gratuluji! Naučili jste se implementovat Bradley Thresholding v Aspose.PSD pro Javu. Tato technika zvyšuje kvalitu obrazu a je cenným nástrojem v aplikacích pro zpracování obrazu.
 
 ## FAQ
 

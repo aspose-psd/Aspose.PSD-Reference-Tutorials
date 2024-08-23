@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -73,7 +72,7 @@ String dataDir = "Your Document Directory";
 image.save(dataDir + "DrawingUsingGraphicsPath_output.psd");
 ```
 Με αυτό το τελευταίο βήμα, η δημιουργία της εικόνας σας χρησιμοποιώντας τη διαδρομή γραφικών έχει ολοκληρωθεί.
-## συμπέρασμα
+## Σύναψη
 Η δημιουργία σύνθετων εικόνων χρησιμοποιώντας την κλάση Graphics Path με το Aspose.PSD είναι ταυτόχρονα ισχυρή και συναρπαστική. Ακολουθώντας αυτόν τον οδηγό, μπορείτε να επεκτείνετε τις δυνατότητες της εφαρμογής Java στη γραφική σχεδίαση.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD;
@@ -81,7 +80,7 @@ image.save(dataDir + "DrawingUsingGraphicsPath_output.psd");
 ### Μπορώ να χρησιμοποιήσω το Aspose.PSD για άλλες μορφές εκτός από το PSD;
 Από αυτόν τον οδηγό, το Aspose.PSD ασχολείται συγκεκριμένα με αρχεία PSD, αλλά προσφέρει επεκτάσεις για το χειρισμό διαφορετικών μορφών εικόνας.
 ### Είναι διαθέσιμη μια δοκιμαστική έκδοση για το Aspose.PSD;
- Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.PSD.[εδώ](https://releases.aspose.com/).
+ Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.PSD[εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να αγοράσω το Aspose.PSD;
  Μπορείτε να αγοράσετε το Aspose.PSD από[εδώ](https://purchase.aspose.com/buy).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.PSD;

@@ -94,7 +94,7 @@ AssertAreEqual(true, verticalStructure != null);
 Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Υλοποιήσατε με επιτυχία την υποστήριξη για υπογραφές ObAr και UnFl στο Aspose.PSD για .NET. Αυτή η δυνατότητα ανοίγει νέες δυνατότητες για προηγμένη επεξεργασία και χειρισμό εικόνων στις εφαρμογές σας .NET.
 
@@ -102,7 +102,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### Ε1: Είναι το Aspose.PSD συμβατό με τα πιο πρόσφατα πλαίσια .NET;
 
- A1: Το Aspose.PSD ενημερώνει τακτικά τη συμβατότητά του. Αναφέρομαι στο[τεκμηρίωση](https://reference.aspose.com/psd/net/) για τις τελευταίες πληροφορίες.
+ A1: Το Aspose.PSD ενημερώνει τακτικά τη συμβατότητά του. Ανατρέξτε στο[απόδειξη με έγγραφα](https://reference.aspose.com/psd/net/) για τις τελευταίες πληροφορίες.
 
 ### Ε2: Πού μπορώ να βρω υποστήριξη για το Aspose.PSD;
 
@@ -110,11 +110,11 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### Ε3: Μπορώ να δοκιμάσω το Aspose.PSD πριν από την αγορά;
 
- A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση.[εδώ](https://releases.aspose.com/).
+ A3: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
 
 ### Ε4: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;
 
- Α4: Επίσκεψη[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/) για προσωρινές επιλογές αδειοδότησης.
+ Α4: Επίσκεψη[αυτόν τον σύνδεσμο](https://purchase.aspose.com/temporary-license/) για προσωρινές επιλογές αδειοδότησης.
 
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.PSD για .NET;
 

@@ -12,13 +12,12 @@ Günümüzün dijital çağında, ister web geliştirme, ister grafik tasarım, 
 ## Önkoşullar
 Koda dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 1. Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-2.  Java kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/psd/java/).
+2. Java kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[web sitesi](https://releases.aspose.com/psd/java/).
 3. Java programlamanın temel anlayışı.
 ## Paketleri İçe Aktar
 Öncelikle gerekli paketleri Aspose.PSD kütüphanesinden içe aktarmanız gerekecek. Bu içe aktarmalar, PSD dosyalarının işlenmesi ve istenen JPEG ayarlarının uygulanması için çok önemlidir.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

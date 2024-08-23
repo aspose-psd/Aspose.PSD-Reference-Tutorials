@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;

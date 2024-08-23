@@ -67,11 +67,11 @@ Câu trả lời 1: Không, Aspose.PSD được thiết kế đặc biệt cho c
 
 ### Câu hỏi 2: Có cần giấy phép để sử dụng Aspose.PSD không?
 
- A2: Có, bạn cần có giấy phép hợp lệ. Hiểu rồi[đây](https://purchase.aspose.com/buy).
+ A2: Có, bạn cần có giấy phép hợp lệ. Nhận nó[đây](https://purchase.aspose.com/buy).
 
 ### Câu hỏi 3: Tôi có thể dùng thử Aspose.PSD miễn phí trước khi mua giấy phép không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm tài liệu chi tiết về Aspose.PSD ở đâu?
 

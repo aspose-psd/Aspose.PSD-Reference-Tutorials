@@ -53,7 +53,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-Ez az! Néhány sornyi kóddal sikeresen elforgatott egy képet az Aspose.PSD for .NET használatával.
+Ennyi! Néhány sornyi kóddal sikeresen elforgatott egy képet az Aspose.PSD for .NET használatával.
 
 ## Következtetés
 
@@ -67,15 +67,15 @@ Ebben az oktatóanyagban megvizsgáltuk a képek elforgatásának alapjait az As
 
 ### 2. kérdés: Az Aspose.PSD kompatibilis a különböző képformátumokkal?
 
- Teljesen. Az Aspose.PSD a képformátumok széles skáláját támogatja, beleértve a PSD-t, JPEG-et, PNG-t stb. Ellenőrizd a[dokumentáció](https://reference.aspose.com/psd/net/) a teljes listához.
+ Teljesen. Az Aspose.PSD a képformátumok széles skáláját támogatja, beleértve a PSD-t, JPEG-et, PNG-t stb. Ellenőrizze a[dokumentáció](https://reference.aspose.com/psd/net/) a teljes listához.
 
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- Meglátogatni a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) az Aspose webhelyén, hogy ideiglenes engedélyt szerezzen értékelési célokra.
+ Látogassa meg a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) az Aspose webhelyén, hogy ideiglenes engedélyt szerezzen értékelési célokra.
 
 ### 4. kérdés: Hol találok támogatást az Aspose.PSD-hez?
 
- Ha kérdése van, vagy segítségre van szüksége, keresse fel a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) és kapcsolatba lépni a közösséggel.
+ Bármilyen kérdéssel vagy segítséggel kapcsolatban keresse fel a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) és kapcsolatba lépni a közösséggel.
 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t kereskedelmi használatra?
 

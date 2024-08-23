@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## الخطوة 4: تحديد قيم التحول للاقتصاص
 
-حدد قيم التحول للجوانب اليسرى واليمنى والعلوية والسفلى من الصورة. اضبط هذه القيم بناءً على متطلبات الاقتصاص الخاصة بك.
+حدد قيم الإزاحة للجوانب اليسرى واليمنى والعلوية والسفلى من الصورة. اضبط هذه القيم بناءً على متطلبات الاقتصاص لديك.
 
 ```csharp
 int leftShift = 10;
@@ -96,7 +96,7 @@ rasterImage.Save(destName, new JpegOptions());
 
 ### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج3: يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج3: يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س4: أين يمكنني العثور على دعم إضافي ومناقشات متعلقة بـ Aspose.PSD؟
 

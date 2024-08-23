@@ -7,8 +7,8 @@ type: docs
 weight: 13
 url: /cs/java/psd-conversion/cropping-psd-converting-png/
 ---
-## Úvod
-V dynamickém světě vývoje v Javě je zvládnutí efektivního zpracování obrazu zásadní. Tento tutoriál vás provede procesem oříznutí souborů PSD při jejich převodu do formátu PNG pomocí výkonné knihovny Aspose.PSD for Java. Na konci tohoto podrobného průvodce budete vybaveni znalostmi pro vylepšení vašich aplikací Java o bezproblémovou manipulaci s obrázky.
+## Zavedení
+dynamickém světě vývoje v Javě je zvládnutí efektivního zpracování obrazu zásadní. Tento tutoriál vás provede procesem oříznutí souborů PSD při jejich převodu do formátu PNG pomocí výkonné knihovny Aspose.PSD for Java. Na konci tohoto podrobného průvodce budete vybaveni znalostmi pro vylepšení vašich aplikací Java o bezproblémovou manipulaci s obrázky.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 - Základní znalost programování v Javě.
@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Krok 3: Definujte oblast oříznutí
 ```java
-//Vytvořte instanci třídy Rectangle předáním x, y, šířky a výšky
+// Vytvořte instanci třídy Rectangle předáním x, y, šířky a výšky
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Krok 4: Ořízněte obrázek PSD
@@ -47,14 +47,14 @@ image.crop(cropRegion);
 // Vytvořte instanci třídy PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Krok 6: Uložte oříznutý obrázek jako PNG.
+## Krok 6: Uložte oříznutý obrázek jako PNG
 ```java
 // Poskytněte výstupní cestu a PngOptions pro převod souboru PSD na PNG a uložení výstupu
 String destName = dataDir + "export.png";
 image.save(destName, pngOptions);
 ```
 ## Závěr
-Gratulujeme! Úspěšně jste se naučili, jak oříznout soubory PSD při jejich převodu na PNG pomocí Aspose.PSD for Java. Tato dovednost nepochybně zlepší vaše schopnosti zpracování obrazu v aplikacích Java.
+Gratuluji! Úspěšně jste se naučili, jak oříznout soubory PSD při jejich převodu na PNG pomocí Aspose.PSD for Java. Tato dovednost nepochybně zlepší vaše schopnosti zpracování obrazu v aplikacích Java.
 ## Často kladené otázky
 ### Mohu oříznout soubory PSD s nepravidelnými tvary pomocí Aspose.PSD pro Java?
 Ano, Aspose.PSD for Java vám umožňuje definovat vlastní oblast oříznutí, což vám umožní oříznout obrázky do různých tvarů.
@@ -65,4 +65,4 @@ Absolutně! Aspose.PSD je navržen tak, aby efektivně zpracovával velké obrá
 ### Jak mohu vyhledat pomoc nebo nahlásit problémy s Aspose.PSD for Java?
  Navštivte[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) vyhledat pomoc, sdílet své zkušenosti a nahlásit jakékoli problémy, se kterými se setkáte.
 ### Mohu vyzkoušet Aspose.PSD pro Javu před nákupem?
- Rozhodně! Prozkoumejte funkce knihovny pomocí bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ Jistě! Prozkoumejte funkce knihovny pomocí bezplatné zkušební verze[zde](https://releases.aspose.com/).

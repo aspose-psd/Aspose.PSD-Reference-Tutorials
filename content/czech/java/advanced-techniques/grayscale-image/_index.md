@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/advanced-techniques/grayscale-image/
 ---
-## Úvod
+## Zavedení
 
 V oblasti zpracování obrazu je převod obrazu na stupně šedi základní operací. Aspose.PSD for Java poskytuje výkonné řešení pro vývojáře Java, jak toho dosáhnout bez problémů. V tomto tutoriálu vás provedeme procesem škálování šedi na obrázku pomocí Aspose.PSD a zajistíme, že i začátečníci budou moci bez námahy následovat.
 
@@ -16,7 +16,7 @@ V oblasti zpracování obrazu je převod obrazu na stupně šedi základní oper
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu.
-2.  Aspose.PSD for Java: Stáhněte si a nainstalujte knihovnu Aspose.PSD pro Java z[tady](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD for Java: Stáhněte si a nainstalujte knihovnu Aspose.PSD pro Java z[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -81,26 +81,26 @@ Opakujte tyto kroky pro všechny další obrázky, které chcete použít ve stu
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste upravili obrázek ve stupních šedi pomocí Aspose.PSD for Java. Tento jednoduchý, ale výkonný proces lze integrovat do různých aplikací a vylepšit tak možnosti zpracování obrazu.
+Gratuluji! Úspěšně jste upravili obrázek ve stupních šedi pomocí Aspose.PSD for Java. Tento jednoduchý, ale výkonný proces lze integrovat do různých aplikací a vylepšit tak možnosti zpracování obrazu.
 
 ## FAQ
 
 ### Q1: Mohu použít Aspose.PSD for Java pro komerční projekty?
 
-Odpověď 1: Ano, Aspose.PSD for Java je k dispozici pro komerční použití. Můžete si zakoupit licenci[tady](https://purchase.aspose.com/buy).
+ Odpověď 1: Ano, Aspose.PSD for Java je k dispozici pro komerční použití. Můžete si zakoupit licenci[zde](https://purchase.aspose.com/buy).
 
 ### Q2: Existuje bezplatná zkušební verze Aspose.PSD pro Java?
 
- Odpověď 2: Ano, funkce Aspose.PSD pro Javu můžete prozkoumat pomocí bezplatné zkušební verze. Stáhnout to[tady](https://releases.aspose.com/).
+ Odpověď 2: Ano, funkce Aspose.PSD pro Javu můžete prozkoumat pomocí bezplatné zkušební verze. Stáhněte si to[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu dokumentaci k Aspose.PSD pro Java?
 
- A3: Viz dokumentace[tady](https://reference.aspose.com/psd/java/).
+ A3: Viz dokumentace[zde](https://reference.aspose.com/psd/java/).
 
 ### Q4: Jak mohu získat dočasné licence pro Aspose.PSD pro Java?
 
- A4: Získejte dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Získejte dočasné licence[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Potřebujete podporu nebo máte otázky?
 
- A5: Navštivte fórum Aspose.PSD[tady](https://forum.aspose.com/c/psd/34).
+ A5: Navštivte fórum Aspose.PSD[zde](https://forum.aspose.com/c/psd/34).

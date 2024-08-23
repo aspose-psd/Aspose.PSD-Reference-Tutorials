@@ -99,7 +99,7 @@ A1: Absolutnie! Aspose.PSD dla Java to potężna biblioteka przeznaczona do prof
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 3: Tak, możesz skorzystać z bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć szczegółową dokumentację?
 
@@ -107,4 +107,4 @@ A1: Absolutnie! Aspose.PSD dla Java to potężna biblioteka przeznaczona do prof
 
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?
 
- Odpowiedź 5: Dołącz do forum społeczności.[Tutaj](https://forum.aspose.com/c/psd/34) w przypadku jakichkolwiek pytań dotyczących wsparcia.
+ Odpowiedź 5: Dołącz do forum społeczności[Tutaj](https://forum.aspose.com/c/psd/34) w przypadku jakichkolwiek pytań dotyczących wsparcia.

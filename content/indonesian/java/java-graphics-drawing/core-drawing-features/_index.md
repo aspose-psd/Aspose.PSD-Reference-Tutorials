@@ -16,16 +16,15 @@ Sebelum masuk ke tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
 ### Aspose.PSD untuk Instalasi Java
 Untuk mulai menggunakan Aspose.PSD untuk Java, Anda harus mengintegrasikannya ke dalam proyek Anda. Inilah cara Anda mengaturnya:
 1. Unduh Aspose.PSD untuk Java
-   -  Mengunjungi[Unduh Halaman](https://releases.aspose.com/psd/java/) dan dapatkan versi terbaru Aspose.PSD untuk Java.
+   -  Kunjungi[halaman unduh](https://releases.aspose.com/psd/java/) dan dapatkan versi terbaru Aspose.PSD untuk Java.
    - Ekstrak arsip yang diunduh ke lokasi pilihan Anda.
 2. Mengimpor Aspose.PSD ke Proyek Anda
    - Dalam proyek Java Anda, sertakan file JAR Aspose.PSD. Anda biasanya dapat melakukan ini dengan menambahkannya ke jalur pembangunan proyek Anda atau menggunakan alat otomatisasi pembangunan seperti Maven atau Gradle.
-Sekarang setelah semuanya siap, mari jelajahi cara memanfaatkan Aspose.PSD untuk fitur menggambar inti Java langkah demi langkah.
+Sekarang setelah semuanya siap, mari jelajahi cara memanfaatkan Aspose.PSD untuk fitur menggambar inti Java selangkah demi selangkah.
 ## Paket Impor
 Sebelum Anda memulai coding, impor paket yang diperlukan untuk menggunakan kelas dan metode Aspose.PSD secara efektif dalam aplikasi Java Anda:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Langkah 2: Memanipulasi Piksel
 Setelah gambar dimuat, Anda dapat memanipulasi pikselnya. Berikut cara memuat dan mengubah piksel:
 ```java
-// Memuat piksel wilayah tertentu (misalnya, persegi panjang 100x10 dimulai dari pojok kiri atas)
+//Memuat piksel wilayah tertentu (misalnya, persegi panjang 100x10 dimulai dari pojok kiri atas)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Ubah piksel (misalnya, terapkan efek gradien)
 for (int i = 0; i < pixels.length; i++) {

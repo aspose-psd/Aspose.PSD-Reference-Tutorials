@@ -87,17 +87,17 @@ image.Save(outpath, saveOptions);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès à dessiner des arcs à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre des possibilités infinies pour créer des graphiques époustouflants dans vos applications.
+Félicitations! Vous avez appris avec succès à dessiner des arcs à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre des possibilités infinies pour créer des graphiques époustouflants dans vos applications.
 
 ## FAQ
 
 ### Q1 : Où puis-je trouver la documentation d’Aspose.PSD pour .NET ?
 
- A1 : La documentation peut être trouvée.[ici](https://reference.aspose.com/psd/net/).
+ A1 : La documentation peut être trouvée[ici](https://reference.aspose.com/psd/net/).
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A2 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A2 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q3 : Existe-t-il un forum communautaire pour le support d'Aspose.PSD ?
 
@@ -105,8 +105,8 @@ Toutes nos félicitations! Vous avez appris avec succès à dessiner des arcs à
 
 ### Q4 : Où puis-je acheter une licence pour Aspose.PSD ?
 
- A4 : Vous pouvez acheter une licence.[ici](https://purchase.aspose.com/buy).
+ A4 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
 
 ### Q5 : Puis-je essayer Aspose.PSD pour .NET gratuitement avant d’acheter ?
 
- A5 : Oui, vous pouvez télécharger un essai gratuit.[ici](https://releases.aspose.com/).
+ A5 : Oui, vous pouvez télécharger un essai gratuit[ici](https://releases.aspose.com/).

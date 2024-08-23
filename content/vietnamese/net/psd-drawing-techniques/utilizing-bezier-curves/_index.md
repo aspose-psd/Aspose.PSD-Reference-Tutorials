@@ -21,7 +21,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những �
 
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định sự hiểu biết cơ bản về ngôn ngữ lập trình C#.
 
-- Thư mục Tài liệu: Xác định đường dẫn đến thư mục tài liệu của bạn trong`dataDir` Biến đổi.
+- Thư mục Tài liệu: Xác định đường dẫn đến thư mục tài liệu của bạn trong`dataDir` biến.
 
 ## Nhập không gian tên
 
@@ -43,7 +43,7 @@ saveOptions.BitsPerPixel = 32;
 
 ## Bước 2: Khởi tạo hình ảnh và đồ họa
 
- Bây giờ, hãy tạo một phiên bản của`Image` lớp và khởi tạo một`Graphics` sự vật. Bước này rất cần thiết cho việc vẽ và thao tác với hình ảnh:
+ Bây giờ, hãy tạo một thể hiện của`Image` lớp và khởi tạo một`Graphics` sự vật. Bước này rất cần thiết cho việc vẽ và thao tác với hình ảnh:
 
 ```csharp
 using (Image image = new PsdImage(100, 100))
@@ -101,7 +101,7 @@ A3: Chắc chắn rồi! Aspose.PSD for .NET được thiết kế riêng cho c�
 
 ### Câu hỏi 4: Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.PSD dành cho .NET ở đâu?
 
- A4: Tham gia cộng đồng Aspose.PSD tại[diễn đàn này](https://forum.aspose.com/c/psd/34) để thảo luận và hỗ trợ.
+A4: Tham gia cộng đồng Aspose.PSD tại[diễn đàn này](https://forum.aspose.com/c/psd/34) để thảo luận và hỗ trợ.
 
 ### Câu hỏi 5: Có tài nguyên miễn phí nào để học Aspose.PSD cho .NET không?
 

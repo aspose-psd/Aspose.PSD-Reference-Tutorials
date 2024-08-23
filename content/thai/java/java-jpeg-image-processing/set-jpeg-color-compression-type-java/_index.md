@@ -12,13 +12,12 @@ url: /th/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเจาะลึกโค้ด ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 1. ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
-2.  Aspose.PSD สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/psd/java/).
 3. ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
 ## แพ็คเกจนำเข้า
 ก่อนอื่น คุณจะต้องนำเข้าแพ็คเกจที่จำเป็นจากไลบรารี Aspose.PSD การนำเข้าเหล่านี้มีความสำคัญอย่างยิ่งต่อการจัดการไฟล์ PSD และการใช้การตั้งค่า JPEG ที่ต้องการ
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -37,7 +36,7 @@ JpegOptions options = new JpegOptions();
 options.setColorType(JpegCompressionColorMode.Grayscale);
 options.setCompressionType(JpegCompressionMode.Progressive);
 ```
-## ขั้นตอนที่ 3: บันทึกรูปภาพ
+## ขั้นตอนที่ 3: บันทึกภาพ
 สุดท้าย คุณจะบันทึกรูปภาพที่ถูกปรับแต่งโดยใช้ตัวเลือกที่ระบุ ขั้นตอนนี้จะส่งออกภาพ JPEG ด้วยการตั้งค่าสีและการบีบอัดที่ต้องการ
 ```java
 image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
@@ -48,7 +47,7 @@ image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ### Aspose.PSD สำหรับ Java คืออะไร
 Aspose.PSD สำหรับ Java เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการไฟล์ PSD และ PSB ช่วยให้สามารถดำเนินการออกแบบกราฟิกได้หลากหลายโดยทางโปรแกรม
 ### ฉันสามารถใช้ Aspose.PSD สำหรับ Java ได้ฟรีหรือไม่
- ใช่ คุณสามารถใช้[ทดลองฟรี](https://releases.aspose.com/) ของ Aspose.PSD สำหรับ Java หากต้องการคุณสมบัติครบถ้วน คุณต้องซื้อใบอนุญาต
+ ใช่ คุณสามารถใช้[ทดลองใช้ฟรี](https://releases.aspose.com/) ของ Aspose.PSD สำหรับ Java หากต้องการคุณสมบัติครบถ้วน คุณต้องซื้อใบอนุญาต
 ### JpegCompressionColorMode และ JpegCompressionMode คืออะไร
 `JpegCompressionColorMode` และ`JpegCompressionMode` เป็นการแจงนับในไลบรารี Aspose.PSD ที่ระบุโหมดสีและประเภทการบีบอัดสำหรับรูปภาพ JPEG ตามลำดับ
 ### ฉันจะหาเอกสารสำหรับ Aspose.PSD สำหรับ Java ได้ที่ไหน

@@ -8,7 +8,7 @@ weight: 11
 url: /es/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
 ## Introducción
-Agregar un patrón de capa de trazo a una imagen en Java puede parecer una tarea desalentadora, pero con Aspose.PSD para Java, es más fácil de lo que piensa. Ya sea que esté diseñando gráficos o trabajando en aplicaciones de edición de fotografías, esta guía lo guiará a través del proceso paso a paso. ¿Listo para comenzar? ¡Vamos a sumergirnos!
+Agregar un patrón de capa de trazo a una imagen en Java puede parecer una tarea desalentadora, pero con Aspose.PSD para Java, es más fácil de lo que piensa. Ya sea que esté diseñando gráficos o trabajando en aplicaciones de edición de fotografías, esta guía lo guiará a través del proceso paso a paso. ¿Listo para empezar? ¡Vamos a sumergirnos!
 ## Requisitos previos
 Antes de comenzar, necesitará algunas cosas:
 - Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su sistema.
@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;

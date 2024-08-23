@@ -9,7 +9,7 @@ url: /tr/java/advanced-techniques/support-interrupt-monitor/
 ---
 ## giriiş
 
-Java geliştirme alanında Aspose.PSD, çeşitli görüntü işleme görevlerini yerine getirmeye yönelik güçlü bir araç olarak öne çıkıyor. Pek çok özelliği arasında Interrupt Monitor desteği, geliştiricilerin görüntü işleme iş akışları üzerinde sahip olduğu kontrolü ve esnekliği artıran çok önemli bir özelliktir. Bu eğitimde, Aspose.PSD for Java'daki Interrupt Monitor'den nasıl yararlanılarak görüntü dönüştürme süreçlerini etkin bir şekilde yönetip kesintiye uğratacağımızı inceleyeceğiz.
+Java geliştirme alanında Aspose.PSD, çeşitli görüntü işleme görevlerini yerine getirmeye yönelik güçlü bir araç olarak öne çıkıyor. Pek çok özelliği arasında Interrupt Monitor desteği, geliştiricilerin görüntü işleme iş akışları üzerinde sahip olduğu kontrolü ve esnekliği artıran çok önemli bir özelliktir. Bu eğitimde, Aspose.PSD for Java'da görüntü dönüştürme süreçlerini etkili bir şekilde yönetmek ve kesintiye uğratmak için Interrupt Monitor'den nasıl yararlanılacağını inceleyeceğiz.
 
 ## Önkoşullar
 
@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Şimdi, Interrupt Monitor'ü Aspose.PSD for Java projenize entegre etmek için örnek kodu adım adım kılavuza ayıralım.
+Şimdi, Interrupt Monitor'ü Aspose.PSD for Java projenize dahil etmek için örnek kodu adım adım kılavuza ayıralım.
 
 ## 1. Adım: Belge Dizininizi Ayarlayın
 
@@ -77,7 +77,7 @@ Görüntü dönüştürme işlemi için yeni bir iş parçacığı başlatın ve
 ## Adım 5: Süreci Durdurun
 
 ```java
-    // Süreci kesintiye uğratın
+    //Süreci kesintiye uğratın
     monitor.interrupt();
     System.out.println("Interrupting the save thread #" + thread.getId() + " at " + getDateTime().toString());
 
@@ -106,11 +106,11 @@ Cevap1: Aspose.PSD for Java'daki Interrupt Monitor, geliştiricilerin görüntü
 
 ### S2: Java için Aspose.PSD kütüphanesini nasıl edinebilirim?
 
-Cevap2: Aspose.PSD for Java kütüphanesini indirebilirsiniz.[Burada](https://releases.aspose.com/psd/java/).
+ Cevap2: Aspose.PSD for Java kütüphanesini indirebilirsiniz[Burada](https://releases.aspose.com/psd/java/).
 
 ### S3: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
- Cevap3: Evet, Aspose.PSD'nin ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap3: Evet, Aspose.PSD'nin ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for Java desteğini nerede bulabilirim?
 
@@ -118,4 +118,4 @@ Cevap2: Aspose.PSD for Java kütüphanesini indirebilirsiniz.[Burada](https://re
 
 ### S5: Aspose.PSD for Java lisansını nasıl satın alabilirim?
 
- Cevap5: Aspose.PSD for Java lisansını satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+Cevap5: Aspose.PSD for Java lisansını satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

@@ -84,15 +84,15 @@ Tebrikler! Aspose.PSD for .NET'i kullanarak başarıyla eliptik şekiller oluşt
 
 ### S1: Aspose.PSD for .NET belgelerini nerede bulabilirim?
 
- A1: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/).
+ A1: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
 
 ### S2: Aspose.PSD for .NET'i nasıl indirebilirim?
 
- Cevap2: Sürüm sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/psd/net/).
+ A2: Sürüm sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/psd/net/).
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
@@ -100,4 +100,4 @@ Tebrikler! Aspose.PSD for .NET'i kullanarak başarıyla eliptik şekiller oluşt
 
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
- Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

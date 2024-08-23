@@ -111,7 +111,7 @@ A2: Absolutnie! Aspose.PSD zapewnia szereg opcji transformacji warstw.
 
 ### P3: Gdzie mogę znaleźć dodatkową dokumentację Aspose.PSD?
 
- Odpowiedź 3: Możesz zapoznać się z dokumentacją.[Tutaj](https://reference.aspose.com/psd/java/).
+ Odpowiedź 3: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/psd/java/).
 
 ### P4: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
 
@@ -119,4 +119,4 @@ A2: Absolutnie! Aspose.PSD zapewnia szereg opcji transformacji warstw.
 
 ### P5: Czy istnieją fora społeczności dotyczące wsparcia Aspose.PSD?
 
- Odpowiedź 5: Tak, możesz znaleźć wsparcie i dyskusje.[Tutaj](https://forum.aspose.com/c/psd/34).
+ Odpowiedź 5: Tak, możesz znaleźć wsparcie i dyskusje[Tutaj](https://forum.aspose.com/c/psd/34).

@@ -8,7 +8,7 @@ weight: 13
 url: /sv/java/psd-conversion/cropping-psd-converting-png/
 ---
 ## Introduktion
-I Java-utvecklingens dynamiska värld är det avgörande att behärska effektiv bildbehandling. Denna handledning guidar dig genom processen att beskära PSD-filer när du konverterar dem till PNG med hjälp av det kraftfulla Aspose.PSD för Java-biblioteket. I slutet av denna steg-för-steg-guide kommer du att vara utrustad med kunskapen för att förbättra dina Java-applikationer med sömlös bildmanipulation.
+Java-utvecklingens dynamiska värld är det avgörande att behärska effektiv bildbehandling. Denna handledning guidar dig genom processen att beskära PSD-filer när du konverterar dem till PNG med hjälp av det kraftfulla Aspose.PSD för Java-biblioteket. I slutet av denna steg-för-steg-guide kommer du att vara utrustad med kunskapen för att förbättra dina Java-applikationer med sömlös bildmanipulation.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 - Grundläggande kunskaper i Java-programmering.
@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## Steg 3: Definiera beskärningsregion
 ```java
-//Skapa en instans av klassen Rectangle genom att skicka x, y, bredd och höjd
+// Skapa en instans av klassen Rectangle genom att skicka x, y, bredd och höjd
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## Steg 4: Beskär PSD-bild
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // Skapa en instans av klassen PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Steg 6: Spara beskuren bild som PNG.
+## Steg 6: Spara beskuren bild som PNG
 ```java
 // Ange utdatasökväg och PngOptions för att konvertera PSD-filen till PNG och spara utdata
 String destName = dataDir + "export.png";

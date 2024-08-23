@@ -7,18 +7,17 @@ type: docs
 weight: 13
 url: /cs/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
-## Úvod
+## Zavedení
 V dnešní digitální době je správa a manipulace s obrázky běžnou nutností, ať už pro vývoj webu, grafický design nebo softwarové inženýrství. Pokud hledáte výkonný nástroj pro práci se soubory PSD a jejich převod do formátu JPEG se specifickým nastavením barev a komprese, nehledejte nic jiného než Aspose.PSD for Java. Tento tutoriál vás provede procesem nastavení barev a typů komprese JPEG pomocí této robustní knihovny.
 ## Předpoklady
 Než se ponoříte do kódu, ujistěte se, že máte následující předpoklady:
 1. Java Development Kit (JDK) nainstalovaný ve vašem systému.
-2.  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/psd/java/).
 3. Základní znalost programování v Javě.
 ## Importujte balíčky
 Nejprve budete muset importovat potřebné balíčky z knihovny Aspose.PSD. Tyto importy jsou klíčové pro práci se soubory PSD a aplikaci požadovaných nastavení JPEG.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -52,6 +51,6 @@ Aspose.PSD for Java je knihovna Java, která umožňuje vývojářům vytvářet
 ### Co jsou JpegCompressionColorMode a JpegCompressionMode?
 `JpegCompressionColorMode` a`JpegCompressionMode` jsou výčty v knihovně Aspose.PSD, které určují barevný režim a typ komprese pro obrázky JPEG.
 ### Kde najdu dokumentaci k Aspose.PSD pro Javu?
- Dokumentaci najdete[tady](https://reference.aspose.com/psd/java/).
+ Dokumentaci najdete[zde](https://reference.aspose.com/psd/java/).
 ### Je Aspose.PSD for Java vhodný pro webové aplikace?
 Ano, Aspose.PSD for Java lze integrovat do webových aplikací pro zpracování úloh zpracování obrazu na straně serveru.

@@ -14,7 +14,7 @@ url: /th/net/psd-file-manipulation/crop-psd-file/
 -  Aspose.PSD สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถดาวน์โหลดได้จาก[Aspose.PSD สำหรับเอกสาร .NET](https://reference.aspose.com/psd/net/).
 - สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ของคุณ รวมถึง Visual Studio หรือ IDE ที่ต้องการ
 ## นำเข้าเนมสเปซ
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นในโครงการของคุณ:
+เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นไปยังโปรเจ็กต์ของคุณ:
 ```csharp
 using Aspose.PSD.FileFormats.Png;
 using Aspose.PSD.ImageOptions;
@@ -63,7 +63,7 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 
 ### คำถามที่ 3: มีการทดลองใช้ฟรีหรือไม่?
 
- A3: ได้ คุณสามารถสำรวจ Aspose.PSD ได้ด้วยการทดลองใช้ฟรี ดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ A3: ได้ คุณสามารถสำรวจ Aspose.PSD ได้ด้วยการทดลองใช้ฟรี ดาวน์โหลดเลย[ที่นี่](https://releases.aspose.com/).
 
 ### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.PSD ได้ที่ไหน
 

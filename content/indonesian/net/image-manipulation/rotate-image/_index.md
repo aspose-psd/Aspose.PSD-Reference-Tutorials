@@ -53,7 +53,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-Itu dia! Hanya dengan beberapa baris kode, Anda telah berhasil memutar gambar menggunakan Aspose.PSD untuk .NET.
+Itu saja! Hanya dengan beberapa baris kode, Anda telah berhasil memutar gambar menggunakan Aspose.PSD untuk .NET.
 
 ## Kesimpulan
 
@@ -67,11 +67,11 @@ Dalam tutorial ini, kita telah menjelajahi dasar-dasar memutar gambar menggunaka
 
 ### Q2: Apakah Aspose.PSD kompatibel dengan berbagai format gambar?
 
- Sangat. Aspose.PSD mendukung berbagai format gambar, termasuk PSD, JPEG, PNG, dan banyak lagi. Periksalah[dokumentasi](https://reference.aspose.com/psd/net/) untuk daftar lengkapnya.
+ Sangat. Aspose.PSD mendukung berbagai format gambar, termasuk PSD, JPEG, PNG, dan banyak lagi. Periksa[dokumentasi](https://reference.aspose.com/psd/net/) untuk daftar lengkapnya.
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- Mengunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) di situs web Aspose untuk mendapatkan lisensi sementara untuk tujuan evaluasi.
+ Kunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) di situs web Aspose untuk mendapatkan lisensi sementara untuk tujuan evaluasi.
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.PSD?
 

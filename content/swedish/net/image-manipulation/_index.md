@@ -49,7 +49,7 @@ Upptäck kraften i Aspose.PSD för .NET genom att enkelt rotera bilder i specifi
 
 ## Lägga till övertoningseffekter till bilder
 
- Förvandla dina bilder med fängslande gradienteffekter med Aspose.PSD för .NET. Vår steg-för-steg[handledning](./adding-gradient-effects/) guidar dig genom processen och hjälper dig uppnå kreativa visuella transformationer utan ansträngning.
+ Förvandla dina bilder med fängslande gradienteffekter med Aspose.PSD för .NET. Vår steg-för-steg[handledning](./adding-gradient-effects/) guidar dig genom processen och hjälper dig att uppnå kreativa visuella transformationer utan ansträngning.
 
 ## Lägga till mönstereffekter till bilder
 
@@ -57,7 +57,7 @@ Förbättra dina bilder med fängslande mönstereffekter med Aspose.PSD för .NE
 
 ## Lägga till signatur till bilder
 
- Lär dig hur du lägger till signaturer sömlöst till dina .NET-bildprojekt med Aspose.PSD. Vår steg-för-steg[guide](./adding-signature-to-images/) säkerställer en smidig process, så att du kan anpassa dina skapelser utan ansträngning.
+ Lär dig hur du lägger till signaturer sömlöst till dina .NET-bildprojekt med Aspose.PSD. Vår steg-för-steg[guide](./adding-signature-to-images/) säkerställer en smidig process, vilket gör att du kan anpassa dina skapelser utan ansträngning.
 
 ## Stöder olika signaturtyper
 
@@ -69,7 +69,7 @@ Förbättra dina bilder med fängslande mönstereffekter med Aspose.PSD för .NE
 
 ## Stödjer yttre glödeffekt
 
-Lås upp potentialen för Outer Glow Effect i Aspose.PSD för .NET. Förhöj dina bilddesigner med detta[handledning](./supporting-outer-glow-effect/), lägga till en touch av briljans till din grafik.
+Lås upp potentialen för Outer Glow Effect i Aspose.PSD för .NET. Förhöj dina bilddesigner med detta[handledning](./supporting-outer-glow-effect/), vilket ger en touch av briljans till din grafik.
 
 ## Rendering Gradient Overlay Effekt
 
@@ -81,8 +81,8 @@ Lås upp potentialen för Outer Glow Effect i Aspose.PSD för .NET. Förhöj din
 
 ## Självstudier för bildmanipulation
 ### [Kombinera bilder i Aspose.PSD för .NET](./combine-images/)
-Kombinera bilder utan ansträngning i .NET med Aspose.PSD. Följ vår steg-för-steg-handledning för sömlös bildmanipulation.
-### [Beskär bilder med rektangel i Aspose.PSD för .NET](./crop-image-rectangle/)
+Kombinera bilder utan ansträngning i .NET med Aspose.PSD. Följ vår steg-för-steg handledning för sömlös bildmanipulation.
+### [Beskär bilder efter rektangel i Aspose.PSD för .NET](./crop-image-rectangle/)
 Förbättra dina färdigheter i .NET-bildmanipulering med Aspose.PSD. Lär dig steg-för-steg bildbeskärning med hjälp av rektanglar för precision.
 ### [Beskär bilder med Shifts i Aspose.PSD för .NET](./crop-image-shifts/)
 Lär dig att beskära bilder utan ansträngning med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för exakta bildjusteringar.

@@ -92,4 +92,4 @@ A2: 예, 여러 조정 레이어를 쌓아 복잡한 이미지 조작을 수행�
 
 ### Q5: Aspose.PSD의 임시 라이선스는 어떻게 얻을 수 있나요?
 
-A5: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+A5: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).

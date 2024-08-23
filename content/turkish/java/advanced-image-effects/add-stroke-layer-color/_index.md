@@ -111,7 +111,7 @@ A2: Kesinlikle! Aspose.PSD, en yeni PSD dosya formatı spesifikasyonlarına ayak
 
 ### S3: Aspose.PSD'yi kullanırken istisnaları nasıl halledebilirim?
 
- A3: Bkz.[destek Forumu](https://forum.aspose.com/c/psd/34) İstisnaların ele alınması ve sorun giderme konusunda yardım için.
+ A3: Bkz.[destek forumu](https://forum.aspose.com/c/psd/34) İstisnaların ele alınması ve sorun giderme konusunda yardım için.
 
 ### S4: Satın almadan önce Aspose.PSD'yi deneyebilir miyim?
 

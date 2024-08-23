@@ -96,7 +96,7 @@ R2: Sí, Aspose.PSD para .NET ofrece varias propiedades para ajustar los efectos
 
 ### P3: ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para .NET?
 
- R3: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ R3: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P4: ¿Aspose.PSD para .NET es compatible con .NET Core?
 

@@ -14,7 +14,7 @@ Apakah Anda siap untuk meningkatkan keterampilan menggambar Anda ke level beriku
 
 ## Menguasai Fitur Menggambar Inti di Aspose.PSD untuk .NET
 
- Selami fitur gambar inti Aspose.PSD untuk .NET dengan tutorial komprehensif kami. Baik Anda seorang pengembang berpengalaman atau pemula, panduan langkah demi langkah kami akan membantu Anda meningkatkan keterampilan pemrosesan gambar dengan mudah.[Fitur Menggambar Inti Utama](./mastering-core-drawing-features/)
+ Selami fitur menggambar inti Aspose.PSD untuk .NET dengan tutorial komprehensif kami. Baik Anda seorang pengembang berpengalaman atau pemula, panduan langkah demi langkah kami akan membantu Anda meningkatkan keterampilan pemrosesan gambar dengan mudah.[Fitur Menggambar Inti Utama](./mastering-core-drawing-features/)
 
 ## Menggambar Busur dengan Aspose.PSD untuk .NET
 

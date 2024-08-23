@@ -63,7 +63,7 @@ A1: 예, .NET용 Aspose.PSD는 모든 .NET 응용 프로그램과 원활하게 �
 
 ### Q2: .NET용 Aspose.PSD에 대한 무료 평가판이 있습니까?
 
- A2: 예, 무료 평가판을 통해 .NET용 Aspose.PSD를 탐색할 수 있습니다. 다운로드 해[여기](https://releases.aspose.com/).
+ A2: 예, 무료 평가판을 통해 .NET용 Aspose.PSD를 탐색할 수 있습니다. 다운로드[여기](https://releases.aspose.com/).
 
 ### Q3: .NET용 Aspose.PSD에 대한 설명서는 어디에서 찾을 수 있습니까?
 

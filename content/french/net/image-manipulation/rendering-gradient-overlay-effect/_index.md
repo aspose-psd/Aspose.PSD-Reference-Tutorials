@@ -67,7 +67,7 @@ Utilisez la bibliothèque Aspose.PSD pour charger l'image PSD, permettant ainsi 
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à restituer l'effet de superposition de dégradé dans Aspose.PSD pour .NET. Libérez votre créativité et explorez les possibilités infinies qu'offre cette bibliothèque pour la conception graphique.
+Félicitations! Vous avez réussi à restituer l'effet de superposition de dégradé dans Aspose.PSD pour .NET. Libérez votre créativité et explorez les possibilités infinies qu'offre cette bibliothèque pour la conception graphique.
 
 ## FAQ
 

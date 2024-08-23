@@ -9,11 +9,11 @@ url: /hu/net/image-processing/apply-gaussian-wiener-filters/
 ---
 ## Bevezetés
 
-A .NET-et használó képfeldolgozás területén az Aspose.PSD olyan hatékony eszközkészletként tűnik ki, amely képessé teszi a fejlesztőket a képek egyszerű manipulálására. Az egyik különösen hasznos funkció a Gauss- és Wiener-szűrők alkalmazása. Ezek a szűrők döntő szerepet játszanak a képminőség javításában, a zaj csökkentésében és az optimális vizuális vonzerő biztosításában.
+A .NET-t használó képfeldolgozás területén az Aspose.PSD olyan hatékony eszközkészletként tűnik ki, amely képessé teszi a fejlesztőket a képek egyszerű manipulálására. Az egyik különösen hasznos funkció a Gauss- és Wiener-szűrők alkalmazása. Ezek a szűrők döntő szerepet játszanak a képminőség javításában, a zaj csökkentésében és az optimális vizuális vonzerő biztosításában.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a Gaussian és Wiener szűrők Aspose.PSD-vel történő alkalmazásába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülne a Gauss- és Wiener-szűrők Aspose.PSD-vel történő alkalmazásába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 1. Aspose.PSD for .NET: Töltse le és telepítse a könyvtárat a[Aspose.PSD a .NET dokumentációhoz](https://reference.aspose.com/psd/net/).
 
@@ -70,7 +70,7 @@ options.Grayscale = true;
 
 ## 4. lépés: Szűrők alkalmazása
 
- Alkalmazza a létrehozott szűrőbeállításokat a`RasterImage` tárgy:
+ Alkalmazza a létrehozott szűrőbeállításokat a`RasterImage` objektum:
 
 ```csharp
 rasterImage.Filter(image.Bounds, options);
@@ -87,7 +87,7 @@ image.Save(destName, new GifOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen alkalmazta a Gauss- és Wiener-szűrőket, hogy javítsa a kép minőségét az Aspose.PSD for .NET segítségével. Ezek a szűrők felbecsülhetetlen értékűnek bizonyulnak különböző forgatókönyvekben, a fényképek zajcsökkentésétől a tervezési projektek grafikai elemeinek finomításáig.
+Gratulálok! Sikeresen alkalmazta a Gauss- és Wiener-szűrőket, hogy javítsa a kép minőségét az Aspose.PSD for .NET segítségével. Ezek a szűrők felbecsülhetetlen értékűnek bizonyulnak különböző forgatókönyvekben, a fényképek zajcsökkentésétől a tervezési projektek grafikai elemeinek finomításáig.
 
 ## GYIK
 

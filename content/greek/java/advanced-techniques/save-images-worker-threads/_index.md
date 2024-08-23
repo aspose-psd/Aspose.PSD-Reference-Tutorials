@@ -42,7 +42,7 @@ import java.util.Date;
 
 ```java
 public class SaveImageWorker {
-    // ... (Ανατρέξτε στον παρεχόμενο κωδικό για δηλώσεις μεταβλητών)
+    //... (Ανατρέξτε στον παρεχόμενο κωδικό για δηλώσεις μεταβλητών)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Κατασκευαστική λογική
@@ -94,7 +94,7 @@ public class MainApplication {
 }
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να αποθηκεύετε εικόνες χρησιμοποιώντας νήματα εργασίας με το Aspose.PSD για Java. Αυτή η προσέγγιση εξασφαλίζει αποτελεσματική επεξεργασία εικόνας με το πρόσθετο πλεονέκτημα του απρόσκοπτου χειρισμού των διακοπών.
 
@@ -106,11 +106,11 @@ A1: Ναι, το Aspose.PSD για Java παρέχει υποστήριξη πο
 
 ### Ε2: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.PSD για Java;
 
- A2: Μπορείτε να ανατρέξετε στην τεκμηρίωση.[εδώ](https://reference.aspose.com/psd/java/) για ολοκληρωμένες πληροφορίες σχετικά με το Aspose.PSD για Java.
+A2: Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://reference.aspose.com/psd/java/) για ολοκληρωμένες πληροφορίες σχετικά με το Aspose.PSD για Java.
 
 ### Ε3: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.PSD για Java;
 
- A3: Μπορείτε να πάρετε μια προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/) για να εξερευνήσετε τις πλήρεις δυνατότητες του Aspose.PSD για Java.
+ A3: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για να εξερευνήσετε τις πλήρεις δυνατότητες του Aspose.PSD για Java.
 
 ### Ε4: Ποιες επιλογές υποστήριξης είναι διαθέσιμες για το Aspose.PSD για Java;
 

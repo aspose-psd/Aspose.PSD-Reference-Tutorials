@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -93,4 +92,4 @@ image.save(outpath, saveOptions);
 ### 이미지를 BMP 이외의 형식으로 내보낼 수 있나요?
 예, Java용 Aspose.PSD는 PNG, JPEG, TIFF 등과 같은 다양한 형식으로 이미지 내보내기를 지원합니다.
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
- 방문하다[Java 문서용 Aspose.PSD](https://reference.aspose.com/psd/java/) 포괄적인 가이드와 코드 샘플을 확인하세요.## 완전한 소스 코드
+ 방문[Java 문서용 Aspose.PSD](https://reference.aspose.com/psd/java/) 포괄적인 가이드와 코드 샘플을 확인하세요.## 완전한 소스 코드

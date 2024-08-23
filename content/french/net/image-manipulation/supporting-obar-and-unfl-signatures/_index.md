@@ -96,13 +96,13 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez implémenté avec succès la prise en charge des signatures ObAr et UnFl dans Aspose.PSD pour .NET. Cette fonctionnalité ouvre de nouvelles possibilités d'édition et de manipulation avancées d'images dans vos applications .NET.
+Félicitations! Vous avez implémenté avec succès la prise en charge des signatures ObAr et UnFl dans Aspose.PSD pour .NET. Cette fonctionnalité ouvre de nouvelles possibilités d'édition et de manipulation avancées d'images dans vos applications .NET.
 
 ## FAQ
 
 ### Q1 : Aspose.PSD est-il compatible avec les derniers frameworks .NET ?
 
- A1 : Aspose.PSD met régulièrement à jour sa compatibilité. Se référer au[Documentation](https://reference.aspose.com/psd/net/) pour les dernières informations.
+ A1 : Aspose.PSD met régulièrement à jour sa compatibilité. Référez-vous au[documentation](https://reference.aspose.com/psd/net/) pour les dernières informations.
 
 ### Q2 : Où puis-je trouver de l'assistance pour Aspose.PSD ?
 
@@ -110,7 +110,7 @@ Toutes nos félicitations! Vous avez implémenté avec succès la prise en charg
 
 ### Q3 : Puis-je essayer Aspose.PSD avant d’acheter ?
 
- A3 : Oui, vous pouvez explorer une version d'essai gratuite.[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez explorer une version d'essai gratuite[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 

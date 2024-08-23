@@ -16,7 +16,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy beállítot
 ### Aspose.PSD a Java telepítéshez
 Az Aspose.PSD for Java használatának megkezdéséhez integrálnia kell a projektbe. A következőképpen állíthatja be:
 1. Töltse le az Aspose.PSD-t Java-hoz
-   -  Meglátogatni a[letöltési oldal](https://releases.aspose.com/psd/java/) és szerezze be az Aspose.PSD for Java legújabb verzióját.
+   -  Látogassa meg a[letöltési oldal](https://releases.aspose.com/psd/java/) és szerezze be az Aspose.PSD for Java legújabb verzióját.
    - Csomagolja ki a letöltött archívumot egy választott helyre.
 2. Az Aspose.PSD importálása a projektbe
    - Java-projektjében vegye fel az Aspose.PSD JAR fájlokat. Ezt általában úgy teheti meg, hogy hozzáadja őket a projekt felépítési útvonalához, vagy egy összeállítás-automatizálási eszközt használ, például a Maven vagy a Gradle.
@@ -25,7 +25,6 @@ Most, hogy mindent beállított, nézzük meg, hogyan lehet lépésről lépésr
 A kódolás megkezdése előtt importálja a szükséges csomagokat az Aspose.PSD osztályok és metódusok hatékony használatához a Java alkalmazásban:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -38,9 +37,9 @@ String loadpath = dataDir + "sample.psd";
 PsdImage image = new PsdImage(loadpath);
 ```
 ## 2. lépés: Manipulálja a képpontokat
-kép betöltése után módosíthatja a képpontjait. Így töltheti be és módosíthatja a képpontokat:
+A kép betöltése után módosíthatja a képpontjait. Így töltheti be és módosíthatja a képpontokat:
 ```java
-// Egy adott régió képpontjainak betöltése (pl. egy 100x10-es téglalap a bal felső saroktól kezdve)
+//Egy adott régió képpontjainak betöltése (pl. egy 100x10-es téglalap a bal felső saroktól kezdve)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Módosítsa a képpontokat (pl. gradiens effektus alkalmazása)
 for (int i = 0; i < pixels.length; i++) {

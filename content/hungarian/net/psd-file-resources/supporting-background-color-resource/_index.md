@@ -66,7 +66,7 @@ using (var image = (PsdImage)Image.Load(sourceFilePath))
 Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ```
 ## Következtetés
-Gratulálunk! Sikeresen manipulálta a PSD-lemezkép BackgroundColorResource-ját az Aspose.PSD for .NET használatával. Ez csak a kezdete annak, amit ezzel a hatékony könyvtárral elérhet.
+Gratulálok! Sikeresen manipulálta a PSD-lemezkép BackgroundColorResource-ját az Aspose.PSD for .NET használatával. Ez csak a kezdete annak, amit ezzel a hatékony könyvtárral elérhet.
 
 ## GYIK
 
@@ -76,7 +76,7 @@ Gratulálunk! Sikeresen manipulálta a PSD-lemezkép BackgroundColorResource-já
 
 ### 2. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
-2. válasz: Igen, az Aspose.PSD használható kereskedelmi és nem kereskedelmi projektekben is. Ellenőrizd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
+2. válasz: Igen, az Aspose.PSD használható kereskedelmi és nem kereskedelmi projektekben is. Ellenőrizze a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
@@ -84,7 +84,7 @@ Gratulálunk! Sikeresen manipulálta a PSD-lemezkép BackgroundColorResource-já
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- V4: Igen, ingyenes próbaverziót kaphat a webhelyről[itt](https://releases.aspose.com/).
+ A4: Igen, ingyenes próbaverziót kaphat a webhelyről[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan lehet ideiglenes engedélyt szerezni?
 

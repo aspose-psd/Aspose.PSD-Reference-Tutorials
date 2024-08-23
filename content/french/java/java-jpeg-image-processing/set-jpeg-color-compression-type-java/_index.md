@@ -12,13 +12,12 @@ url: /fr/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ## Conditions préalables
 Avant de plonger dans le code, assurez-vous d'avoir les prérequis suivants :
 1. Kit de développement Java (JDK) installé sur votre système.
-2.  Aspose.PSD pour la bibliothèque Java. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD pour la bibliothèque Java. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/psd/java/).
 3. Une compréhension de base de la programmation Java.
 ## Importer des packages
 Tout d’abord, vous devrez importer les packages nécessaires depuis la bibliothèque Aspose.PSD. Ces importations sont cruciales pour gérer les fichiers PSD et appliquer les paramètres JPEG souhaités.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

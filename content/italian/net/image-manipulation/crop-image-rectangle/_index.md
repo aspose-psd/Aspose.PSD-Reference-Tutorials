@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/net/image-manipulation/crop-image-rectangle/
 ---
-## introduzione
+## Introduzione
 
 Nel regno della programmazione .NET, manipolare e migliorare le immagini è un compito comune e Aspose.PSD per .NET è una potente libreria che semplifica questo processo. Questo tutorial si concentra su una tecnica di manipolazione delle immagini fondamentale ma cruciale: ritagliare le immagini in base a un rettangolo. Alla fine di questa guida avrai una solida conoscenza di come ritagliare le immagini con precisione utilizzando Aspose.PSD per .NET.
 
@@ -105,7 +105,7 @@ A3: Aspose.PSD per .NET è progettato per gestire immagini di varie dimensioni. 
 
 ### Q4: È disponibile una versione di prova per Aspose.PSD per .NET?
 
- R4: Sì, puoi esplorare le funzionalità della libreria ottenendo una prova gratuita.[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi esplorare le funzionalità della libreria ottenendo una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso trovare ulteriore supporto o assistenza?
 

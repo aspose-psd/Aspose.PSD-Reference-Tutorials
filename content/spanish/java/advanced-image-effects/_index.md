@@ -12,11 +12,11 @@ url: /es/java/advanced-image-effects/
 
 ## Agregar efectos de degradado en Aspose.PSD para Java
 
- Transforme sus imágenes Java con cautivadores efectos de degradado sin esfuerzo. Nuestra guía paso a paso garantiza un proceso de integración perfecto, permitiéndole mejorar sus imágenes con impresionantes gradientes. Mira el tutorial[aquí](./add-gradient-effects/)para darle a tus imágenes un toque vibrante y profesional.
+ Transforme sus imágenes Java con cautivadores efectos de degradado sin esfuerzo. Nuestra guía paso a paso garantiza un proceso de integración perfecto, permitiéndole mejorar sus imágenes con impresionantes gradientes. Mira el tutorial[aquí](./add-gradient-effects/) para darle a tus imágenes un toque vibrante y profesional.
 
 ## Agregar una nueva capa normal a PSD con Aspose.PSD para Java
 
- Aprenda el arte de agregar una nueva capa normal a archivos PSD usando Aspose.PSD para Java. Nuestro tutorial detallado lo guía a través del proceso, asegurando una manipulación fluida de los archivos PSD. Eleva tus habilidades de diseño siguiendo nuestra guía[aquí](./add-new-regular-layer/) y desbloquear nuevas dimensiones en el diseño gráfico.
+Aprenda el arte de agregar una nueva capa normal a archivos PSD usando Aspose.PSD para Java. Nuestro tutorial detallado lo guía a través del proceso, asegurando una manipulación fluida de los archivos PSD. Eleva tus habilidades de diseño siguiendo nuestra guía[aquí](./add-new-regular-layer/) y desbloquear nuevas dimensiones en el diseño gráfico.
 
 ## Agregar efectos de patrón en Aspose.PSD para Java
 
@@ -24,7 +24,7 @@ url: /es/java/advanced-image-effects/
 
 ## Agregar una firma a una imagen con Aspose.PSD para Java
 
-Explore la perfecta integración de firmas en imágenes utilizando Aspose.PSD para Java. Nuestra guía detallada lo guiará a través del proceso, desde importar los paquetes necesarios hasta mejorar las capacidades gráficas de su aplicación Java. Mira el tutorial[aquí](./add-signature-to-image/) y añade un toque personalizado a tus imágenes.
+ Explore la perfecta integración de firmas en imágenes utilizando Aspose.PSD para Java. Nuestra guía detallada lo guiará a través del proceso, desde importar los paquetes necesarios hasta mejorar las capacidades gráficas de su aplicación Java. Mira el tutorial[aquí](./add-signature-to-image/) y añade un toque personalizado a tus imágenes.
 
 ## Agregar color de capa de trazo en Aspose.PSD para Java
 

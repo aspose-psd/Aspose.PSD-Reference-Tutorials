@@ -34,7 +34,7 @@ Ga op een reis vol creatief meesterschap met onze Aspose.PSD voor .NET-tutorials
 ### [Ondersteuning van achtergrondkleurbronnen in Aspose.PSD voor .NET](./supporting-background-color-resource/)
 Beheers Aspose.PSD voor .NET met onze stapsgewijze handleiding. Manipuleer PSD-afbeeldingen moeiteloos. Download nu uw gratis proefversie!
 ### [Ondersteuning van grensinformatiebronnen in Aspose.PSD voor .NET](./supporting-border-information-resource/)
-Ontdek Aspose.PSD voor .NET's Border Information Resource-functie voor verbeterde beeldvorming. Volg onze tutorial voor naadloze integratie. Download nu!
+Ontdek Aspose.PSD voor .NET's Border Information Resource-functie voor verbeterde beeldvorming. Volg onze tutorial voor naadloze integratie. Nu downloaden!
 ### [Ondersteuning van werkpadbronnen in Aspose.PSD voor .NET](./supporting-working-path-resource/)
 Ontdek de kracht van 'WorkingPathResource' in Aspose.PSD voor .NET. Verbeter de beeldprecisie met deze stapsgewijze handleiding.
 ### [Ondersteuning van zwart-witbronnen (Blwh) in Aspose.PSD voor .NET](./supporting-black-and-white-blwh-resource/)

@@ -62,7 +62,7 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 Répétez ces étapes pour les autres calques si nécessaire.
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès à travailler avec des couches de support au format AI à l'aide d'Aspose.PSD pour .NET. Explorez les fonctionnalités et la documentation étendues de la bibliothèque[ici](https://reference.aspose.com/psd/net/).
+Félicitations! Vous avez appris avec succès à travailler avec des couches de support au format AI à l'aide d'Aspose.PSD pour .NET. Explorez les fonctionnalités et la documentation étendues de la bibliothèque[ici](https://reference.aspose.com/psd/net/).
 
 ## FAQ
 

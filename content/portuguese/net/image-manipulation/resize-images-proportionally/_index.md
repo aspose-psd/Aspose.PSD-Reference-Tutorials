@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Determine a nova largura e altura da imagem redimensionada. Neste exemplo, a largura e a altura são divididas pela metade, mas você pode ajustar esses valores com base em suas necessidades.
+Determine a nova largura e altura da imagem redimensionada. Neste exemplo, a largura e a altura são divididas pela metade, mas você pode ajustar esses valores com base nas suas necessidades.
 
 ## Etapa 3: salve a imagem redimensionada
 

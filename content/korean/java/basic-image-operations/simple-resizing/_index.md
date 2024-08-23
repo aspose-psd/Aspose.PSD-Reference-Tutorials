@@ -15,7 +15,7 @@ url: /ko/java/basic-image-operations/simple-resizing/
 
 Aspose.PSD를 사용하여 이미지 크기 조정 여정을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1. JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하십시오. 최신 버전은 다음 사이트에서 다운로드할 수 있습니다.[자바 웹사이트](https://www.oracle.com/java/).
+1.  JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하십시오. 최신 버전은 다음 사이트에서 다운로드할 수 있습니다.[자바 웹사이트](https://www.oracle.com/java/).
 
 2.  Java용 Aspose.PSD: Aspose.PSD 라이브러리를 다운로드하고 설치합니다. 필요한 패키지는 다음에서 찾을 수 있습니다.[Java 다운로드 페이지용 Aspose.PSD](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ A2: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 이미지 조�
 
 ### Q4: 구매하기 전에 Java용 Aspose.PSD를 사용해 볼 수 있나요?
 
- A4: 물론이죠! 활용[무료 평가판](https://releases.aspose.com/) 도서관의 기능을 탐색합니다.
+ A4: 물론이죠! 활용[무료 평가판](https://releases.aspose.com/)도서관의 기능을 탐색합니다.
 
 ### Q5: Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 

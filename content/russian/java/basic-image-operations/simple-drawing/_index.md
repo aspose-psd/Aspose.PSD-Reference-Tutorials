@@ -16,7 +16,7 @@ url: /ru/java/basic-image-operations/simple-drawing/
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
 
 - На вашем компьютере установлен Java Development Kit (JDK).
--  Aspose.PSD для библиотеки Java. Вы можете скачать его с сайта[Aspose.PSD для документации Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD для библиотеки Java. Вы можете скачать его с сайта[Aspose.PSD для документации Java](https://reference.aspose.com/psd/java/).
 
 ## Импортировать пакеты
 
@@ -90,7 +90,7 @@ graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10
 //ExEnd:DrawBlueRectangle
 ```
 
-## Шаг 4. Сохраните изменения.
+## Шаг 4. Сохраните изменения
 
 Наконец, сохраните копию загруженного PSD-файла, включая изменения:
 

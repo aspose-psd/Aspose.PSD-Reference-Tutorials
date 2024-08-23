@@ -59,7 +59,7 @@ Graphics graphics = new Graphics(canvas);
 
 ## 3. Adım: Resme İmza Ekleme
 
- Kullan`DrawImage` İmzayı birincil görüntüye ekleme yöntemi. Konumu gerektiği gibi ayarlayın. Bu örnekte ikincil görseli birincil görselin sağ alt kısmına yerleştirmeye çalışıyoruz:
+ Şunu kullanın:`DrawImage` İmzayı birincil görüntüye ekleme yöntemi. Konumu gerektiği gibi ayarlayın. Bu örnekte ikincil görseli birincil görselin sağ alt kısmına yerleştirmeye çalışıyoruz:
 
 ```java
 //ExStart:AddSignatureToImage

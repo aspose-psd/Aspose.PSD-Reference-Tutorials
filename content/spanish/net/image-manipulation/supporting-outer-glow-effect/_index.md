@@ -23,7 +23,7 @@ Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes re
 
 ## Importar espacios de nombres
 
-En esta sección, importaremos los espacios de nombres necesarios para iniciar nuestra implementación del efecto de brillo exterior. Sigue estos pasos:
+En esta sección, importaremos los espacios de nombres necesarios para iniciar nuestra implementación del efecto de brillo exterior. Siga estos pasos:
 
 ```csharp
 using System;
@@ -113,4 +113,4 @@ R1: Sí, Aspose.PSD admite una amplia gama de marcos .NET, lo que garantiza la c
 
 ### P5: ¿Puedo comprar Aspose.PSD para .NET?
 
- R5: Sí, explore las opciones de licencia y realice su compra.[aquí](https://purchase.aspose.com/buy).
+ R5: Sí, explore las opciones de licencia y realice su compra[aquí](https://purchase.aspose.com/buy).

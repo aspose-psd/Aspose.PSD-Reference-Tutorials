@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/net/psd-file-manipulation/export-psd-to-gif/
 ---
-## Úvod
+## Zavedení
 Aspose.PSD for .NET je výkonná knihovna, která usnadňuje práci s obrázky PSD v aplikacích .NET. Mezi jeho všestranné funkce patří možnost exportovat obrázky PSD do formátu GIF. Tento podrobný průvodce vás provede celým procesem a zajistí vám bezproblémovou integraci této funkce do vašich projektů .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
@@ -46,7 +46,7 @@ File.Delete(outputGif);
 ```
 Proveďte veškeré nezbytné vyčištění, jako je odstranění dočasných souborů.
 ## Závěr
-Gratulujeme! Úspěšně jste exportovali obrázek PSD do formátu GIF pomocí Aspose.PSD pro .NET. Tato schopnost otevírá nové možnosti pro práci s obrázky PSD ve vašich aplikacích .NET.
+Gratuluji! Úspěšně jste exportovali obrázek PSD do formátu GIF pomocí Aspose.PSD pro .NET. Tato schopnost otevírá nové možnosti pro práci s obrázky PSD ve vašich aplikacích .NET.
 ## FAQ
 
 ### Q1: Je Aspose.PSD pro .NET vhodný pro práci s animovanými PSD?

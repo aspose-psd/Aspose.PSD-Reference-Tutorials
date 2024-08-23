@@ -67,11 +67,11 @@ Neste tutorial, exploramos os fundamentos da rotação de imagens usando Aspose.
 
 ### Q2: O Aspose.PSD é compatível com vários formatos de imagem?
 
- Absolutamente. Aspose.PSD oferece suporte a uma ampla variedade de formatos de imagem, incluindo PSD, JPEG, PNG e muito mais. Verifica a[documentação](https://reference.aspose.com/psd/net/) para a lista completa.
+ Absolutamente. Aspose.PSD oferece suporte a uma ampla variedade de formatos de imagem, incluindo PSD, JPEG, PNG e muito mais. Verifique o[documentação](https://reference.aspose.com/psd/net/) para a lista completa.
 
 ### Q3: Como posso obter uma licença temporária para Aspose.PSD?
 
- Visite a[página de licença temporária](https://purchase.aspose.com/temporary-license/) no site Aspose para obter uma licença temporária para fins de avaliação.
+ Visite o[página de licença temporária](https://purchase.aspose.com/temporary-license/) no site Aspose para obter uma licença temporária para fins de avaliação.
 
 ### Q4: Onde posso encontrar suporte para Aspose.PSD?
 
@@ -79,4 +79,4 @@ Neste tutorial, exploramos os fundamentos da rotação de imagens usando Aspose.
 
 ### Q5: Posso comprar Aspose.PSD para uso comercial?
 
- Certamente. Explore o[página de compra](https://purchase.aspose.com/buy) para adquirir uma licença adaptada às suas necessidades.
+ Certamente. Explorar o[página de compra](https://purchase.aspose.com/buy) para adquirir uma licença adaptada às suas necessidades.

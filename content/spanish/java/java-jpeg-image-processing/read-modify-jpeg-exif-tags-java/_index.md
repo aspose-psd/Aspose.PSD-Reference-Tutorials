@@ -19,7 +19,6 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 Primero lo primero, importemos los paquetes necesarios. Abra su IDE de Java y cree un nuevo proyecto Java. Luego, incluya la biblioteca Aspose.PSD para Java en las dependencias de su proyecto.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -47,7 +46,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 }
 ```
 ## Paso 3: extraer datos EXIF
-Ahora que tenemos el recurso de miniaturas, podemos extraer de él los datos EXIF. Los datos EXIF incluyen información valiosa como el nombre del propietario de la cámara, el valor de apertura, la orientación y más.
+Ahora que tenemos el recurso de miniaturas, podemos extraer los datos EXIF de él. Los datos EXIF incluyen información valiosa como el nombre del propietario de la cámara, el valor de apertura, la orientación y más.
 ```java
 JpegExifData exifData = thumbnail.getJpegOptions().getExifData();
 if (exifData != null) {
@@ -58,8 +57,8 @@ if (exifData != null) {
     System.out.println("Compression: " + exifData.getCompression());
 }
 ```
-## Paso 4: Modificar datos EXIF
-Después de leer los datos EXIF, es posible que desees modificar algunos de sus campos. Así es como puedes hacerlo:
+## Paso 4: modificar los datos EXIF
+Después de leer los datos EXIF, es posible que desee modificar algunos de sus campos. Así es como puedes hacerlo:
 ```java
 if (exifData != null) {
     exifData.setCameraOwnerName("New Camera Owner");
@@ -81,7 +80,7 @@ try {
 ```
 
 ## Conclusión
-¡Y ahí lo tienes! Si sigue estos pasos, podrá leer y modificar fácilmente etiquetas JPEG EXIF utilizando Aspose.PSD para Java. Esta poderosa biblioteca facilita el manejo de metadatos de imágenes. Así que adelante y pruébalo en tus propios proyectos. ¡Feliz codificación!
+¡Y ahí lo tienes! Siguiendo estos pasos, podrá leer y modificar fácilmente etiquetas JPEG EXIF utilizando Aspose.PSD para Java. Esta poderosa biblioteca facilita el manejo de metadatos de imágenes. Así que adelante y pruébalo en tus propios proyectos. ¡Feliz codificación!
 ## Preguntas frecuentes
 ### ¿Qué son los datos EXIF?
 Los datos EXIF (formato de archivo de imagen intercambiable) contienen metadatos sobre una imagen, como la configuración y la orientación de la cámara.
@@ -90,6 +89,6 @@ Los datos EXIF (formato de archivo de imagen intercambiable) contienen metadatos
 ### ¿Aspose.PSD para Java es compatible con todas las versiones de Java?
 Aspose.PSD para Java es compatible con Java SE 7 y superior.
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.PSD para Java?
- Revisar la[documentación](https://reference.aspose.com/psd/java/) para más detalles.
+ Mira el[documentación](https://reference.aspose.com/psd/java/) para más detalles.
 ### ¿Cómo obtengo soporte para Aspose.PSD para Java?
  Puede obtener apoyo del[Foro de soporte de PSD de Aspose](https://forum.aspose.com/c/psd/34).

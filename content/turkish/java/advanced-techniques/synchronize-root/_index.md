@@ -74,7 +74,7 @@ Cevap1: Evet, Aspose.PSD for Java, Java sürüm 6 ve üzeri ile uyumludur.
 
 ### S2: Aspose.PSD'yi ticari projeler için kullanabilir miyim?
 
- Cevap2: Evet, Aspose.PSD'yi hem kişisel hem de ticari projeler için kullanabilirsiniz. Lisans ayrıntıları için şu adresi ziyaret edin:[Burada](https://purchase.aspose.com/buy).
+Cevap2: Evet, Aspose.PSD'yi hem kişisel hem de ticari projeler için kullanabilirsiniz. Lisans ayrıntıları için şu adresi ziyaret edin:[Burada](https://purchase.aspose.com/buy).
 
 ### S3: Aspose.PSD desteğini nerede bulabilirim?
 
@@ -82,7 +82,7 @@ Cevap1: Evet, Aspose.PSD for Java, Java sürüm 6 ve üzeri ile uyumludur.
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- C4: Evet, Aspose.PSD'nin ücretsiz deneme sürümünü ziyaret ederek keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, adresini ziyaret ederek Aspose.PSD'nin ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.PSD için nasıl geçici lisans alabilirim?
 

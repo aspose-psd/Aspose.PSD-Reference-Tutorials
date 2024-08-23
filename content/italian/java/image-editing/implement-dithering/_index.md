@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /it/java/image-editing/implement-dithering/
 ---
-## introduzione
+## Introduzione
 
 Se stai cercando di migliorare la qualità visiva delle tue immagini raster in Java, Aspose.PSD fornisce una soluzione potente. In questa guida passo passo, esploreremo come implementare il dithering utilizzando Aspose.PSD per Java. Il dithering è una tecnica che aggiunge un certo grado di rumore alle immagini, riducendo le bande di colore e migliorando la qualità complessiva dell'immagine.
 

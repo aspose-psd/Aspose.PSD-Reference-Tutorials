@@ -79,7 +79,7 @@ using (Image image = new PsdImage(100, 100))
 ## الخطوة 5: رسم خطوط مستمرة
 
 ```csharp
-    // ارسم أربعة خطوط متواصلة من خلال تحديد كائن القلم الذي يحتوي على فرشاة صلبة ذات لون أحمر وبنيتين نقطيتين
+    // ارسم خطًا رباعيًا متواصلًا من خلال تحديد كائن القلم الذي يحتوي على فرشاة صلبة بلون أحمر وبنيتين نقطيتين
     graphic.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(9, 9), new Point(9, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Aqua)), new Point(9, 90), new Point(90, 90));
     graphic.DrawLine(new Pen(new SolidBrush(Color.Black)), new Point(90, 90), new Point(90, 9));
@@ -98,7 +98,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### س1: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ .NET؟
 
- ج1: الوثائق متاحة.[هنا](https://reference.aspose.com/psd/net/).
+ ج1: الوثائق متاحة[هنا](https://reference.aspose.com/psd/net/).
 
 ### س2: كيف يمكنني تنزيل Aspose.PSD لـ .NET؟
 
@@ -106,7 +106,7 @@ using (Image image = new PsdImage(100, 100))
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ .NET؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س 4: أين يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
@@ -114,4 +114,4 @@ using (Image image = new PsdImage(100, 100))
 
 ### س5: هل أحتاج إلى ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
- ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

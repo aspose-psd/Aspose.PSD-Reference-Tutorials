@@ -19,7 +19,6 @@ url: /th/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ก่อนที่คุณจะเริ่มเขียนโค้ด ให้นำเข้าแพ็คเกจที่จำเป็นเพื่อใช้ฟังก์ชัน Aspose.PSD:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

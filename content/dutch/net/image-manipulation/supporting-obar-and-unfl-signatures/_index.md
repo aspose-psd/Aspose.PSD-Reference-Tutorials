@@ -102,7 +102,7 @@ Gefeliciteerd! U hebt met succes ondersteuning voor ObAr- en UnFl-handtekeningen
 
 ### Vraag 1: Is Aspose.PSD compatibel met de nieuwste .NET-frameworks?
 
- A1: Aspose.PSD werkt de compatibiliteit regelmatig bij. Verwijs naar de[documentatie](https://reference.aspose.com/psd/net/) voor de laatste informatie.
+ A1: Aspose.PSD werkt de compatibiliteit regelmatig bij. Raadpleeg de[documentatie](https://reference.aspose.com/psd/net/) voor de laatste informatie.
 
 ### Vraag 2: Waar kan ik ondersteuning vinden voor Aspose.PSD?
 
@@ -110,11 +110,11 @@ Gefeliciteerd! U hebt met succes ondersteuning voor ObAr- en UnFl-handtekeningen
 
 ### Vraag 3: Kan ik Aspose.PSD uitproberen voordat ik een aankoop doe?
 
- A3: Ja, u kunt een gratis proefversie uitproberen.[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefversie uitproberen[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
 
- A4: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) voor tijdelijke licentieopties.
+ A4: Bezoek[deze koppeling](https://purchase.aspose.com/temporary-license/) voor tijdelijke licentieopties.
 
 ### V5: Waar kan ik Aspose.PSD voor .NET kopen?
 

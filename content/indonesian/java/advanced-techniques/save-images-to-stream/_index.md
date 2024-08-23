@@ -9,7 +9,7 @@ url: /id/java/advanced-techniques/save-images-to-stream/
 ---
 ## Perkenalan
 
-Dalam tutorial ini, kita akan mempelajari cara menyimpan gambar ke aliran menggunakan Aspose.PSD untuk Java. Aspose.PSD adalah perpustakaan Java yang kuat untuk memproses dan memanipulasi file PSD (Photoshop Document). Jika Anda ingin menyempurnakan aplikasi Java Anda dengan kemampuan menyimpan gambar PSD ke aliran, ikuti langkah-langkah yang dijelaskan dalam panduan ini.
+Dalam tutorial ini, kita akan mempelajari cara menyimpan gambar ke aliran menggunakan Aspose.PSD untuk Java. Aspose.PSD adalah perpustakaan Java yang kuat untuk memproses dan memanipulasi file PSD (Photoshop Document). Jika Anda ingin menyempurnakan aplikasi Java Anda dengan kemampuan menyimpan gambar PSD ke aliran, ikuti langkah-langkah yang diuraikan dalam panduan ini.
 
 ## Prasyarat
 
@@ -41,7 +41,7 @@ Sekarang, mari kita bagi prosesnya menjadi beberapa langkah untuk menyimpan gamb
 String dataDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"`dengan jalur ke direktori tempat file PSD Anda berada.
+ Mengganti`"Your Document Directory"` dengan jalur ke direktori tempat file PSD Anda berada.
 
 ## Langkah 2: Tentukan Sumber dan Tujuan
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Membuat`FileOutputStream` untuk file tujuan dan simpan gambar PSD ke aliran menggunakan opsi PNG.
+ Buat sebuah`FileOutputStream`untuk file tujuan dan simpan gambar PSD ke aliran menggunakan opsi PNG.
 
 Ulangi langkah-langkah ini sesuai kebutuhan untuk kasus penggunaan spesifik Anda.
 
@@ -86,9 +86,9 @@ A1: Ya, Aspose.PSD banyak digunakan dalam proyek Java profesional untuk manipula
 
  A2: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi.
 
-### Q3: Dapatkah saya mencoba Aspose.PSD sebelum membeli?
+### Q3: Bisakah saya mencoba Aspose.PSD sebelum membeli?
 
-A3: Ya, Anda dapat menjelajahi a[uji coba gratis](https://releases.aspose.com/) untuk mengevaluasi kemampuan Aspose.PSD.
+ A3: Ya, Anda dapat menjelajahi a[uji coba gratis](https://releases.aspose.com/) untuk mengevaluasi kemampuan Aspose.PSD.
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 

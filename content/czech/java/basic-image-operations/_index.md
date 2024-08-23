@@ -8,7 +8,7 @@ weight: 25
 url: /cs/java/basic-image-operations/
 ---
 
-## Úvod
+## Zavedení
 
 Jste připraveni odhalit tajemství grafického designu? Ponořte se do světa manipulace s obrázky s Aspose.PSD pro Javu. V této komplexní sérii výukových programů vás provedeme různými základními operacemi s obrázky, které vám umožní bez námahy vytvářet úžasné vizuály.
 
@@ -18,7 +18,7 @@ Jste připraveni odhalit tajemství grafického designu? Ponořte se do světa m
 
 ## Zjednodušená změna velikosti
 
- Efektivně manipulujte s velikostmi obrázků pomocí programu[Aspose.PSD pro Javu](./simple-resizing/)Náš uživatelsky přívětivý průvodce zjednodušuje proces změny velikosti a zajišťuje, že pochopíte každý detail. Tento návod pokrývá vše od základů až po pokročilé techniky. Ponořte se a plynule transformujte své obrázky s Aspose.PSD.
+ Efektivně manipulujte s velikostmi obrázků pomocí programu[Aspose.PSD pro Javu](./simple-resizing/). Náš uživatelsky přívětivý průvodce zjednodušuje proces změny velikosti a zajišťuje, že pochopíte každý detail. Tento návod pokrývá vše od základů až po pokročilé techniky. Ponořte se a plynule transformujte své obrázky s Aspose.PSD.
 
 ## Zesilující efekty: Podpora režimů prolnutí
 
@@ -30,7 +30,7 @@ Jste připraveni odhalit tajemství grafického designu? Ponořte se do světa m
 
 ## Transparency Unveiled: Ověřte průhlednost obrázku
 
- Prozkoumejte oblast ověřování průhlednosti obrazu pomocí[Aspose.PSD pro Javu](./verify-image-transparency/)Tento tutoriál bezproblémově integruje transparentnost do vašich návrhů s podrobnou dokumentací a vynikající podporou komunity. Povyšte své designové projekty s jistotou ověřené průhlednosti obrazu pomocí Aspose.PSD pro Java.
+ Prozkoumejte oblast ověřování průhlednosti obrazu pomocí[Aspose.PSD pro Javu](./verify-image-transparency/). Tento tutoriál bezproblémově integruje transparentnost do vašich návrhů s podrobnou dokumentací a vynikající podporou komunity. Povyšte své designové projekty s jistotou ověřené průhlednosti obrazu pomocí Aspose.PSD pro Java.
 
 Na závěr tyto výukové programy poskytují holistické pochopení základních operací s obrázky pomocí Aspose.PSD pro Javu. Ať už jste začátečník nebo zkušený designér, odemkněte potenciál grafického designu pomocí našich podrobných průvodců. Ponořte se do toho a nechte rozkvést svou kreativitu!
 ## Výukové programy pro základní operace s obrázky

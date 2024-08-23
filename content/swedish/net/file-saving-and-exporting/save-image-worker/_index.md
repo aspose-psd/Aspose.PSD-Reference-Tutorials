@@ -92,11 +92,11 @@ finally
 
 ### F2: Var kan jag hitta omfattande dokumentation för Aspose.PSD för .NET?
 
-S2: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
+S2: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- A3: Ja, du kan få en gratis provperiod.[här](https://releases.aspose.com/).
+ A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 
@@ -104,4 +104,4 @@ S2: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/n
 
 ### F5: Kan jag köpa en tillfällig licens för Aspose.PSD för .NET?
 
- A5: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

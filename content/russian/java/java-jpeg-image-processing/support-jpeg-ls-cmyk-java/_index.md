@@ -20,7 +20,6 @@ url: /ru/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 Для начала вам необходимо импортировать необходимые пакеты из библиотеки Aspose.PSD. Вот как вы можете это сделать:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -54,7 +53,7 @@ image.save(dataDir + "output.jpg", options);
 PsdImage image1 = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
 ## Шаг 5. Настройте параметры JPEG для сжатия без потерь
-Для второго изображения давайте настроим параметры сохранения его со сжатием без потерь.
+Для второго изображения настроим параметры сохранения его со сжатием без потерь.
 ```java
 JpegOptions options1 = new JpegOptions();
 options1.setColorType(JpegCompressionColorMode.Cmyk);

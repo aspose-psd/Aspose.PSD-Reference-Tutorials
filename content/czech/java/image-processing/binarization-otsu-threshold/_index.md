@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/java/image-processing/binarization-otsu-threshold/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v tomto podrobném průvodci prováděním binarizace pomocí Otsu Threshold v Aspose.PSD pro Javu! V tomto tutoriálu prozkoumáme, jak využít knihovnu Aspose.PSD for Java k vylepšení vašich schopností zpracování obrazu. Binarizace pomocí Otsu Threshold je výkonná technika pro segmentaci obrazu as Aspose.PSD se stává přímočarou a efektivní.
 
@@ -17,7 +17,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 
 - Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené funkční vývojové prostředí Java.
 
-- Aspose.PSD for Java Library: Stáhněte si a nainstalujte knihovnu Aspose.PSD for Java. Odkaz ke stažení najdete[tady](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java Library: Stáhněte si a nainstalujte knihovnu Aspose.PSD for Java. Odkaz ke stažení najdete[zde](https://releases.aspose.com/psd/java/).
 
 - Vzorový soubor PSD: Připravte si vzorový soubor PSD pro testování procesu binarizace pomocí Otsu Threshold.
 
@@ -80,7 +80,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak provádět binarizaci pomocí Otsu Threshold v Aspose.PSD pro Javu. Tato technika může výrazně zlepšit segmentaci obrazu ve vašich aplikacích Java.
+Gratuluji! Úspěšně jste se naučili, jak provádět binarizaci pomocí Otsu Threshold v Aspose.PSD pro Javu. Tato technika může výrazně zlepšit segmentaci obrazu ve vašich aplikacích Java.
 
 ## FAQ
 
@@ -90,16 +90,16 @@ A1: Binarizace s Otsu Threshold je metoda používaná pro segmentaci obrazu, kt
 
 ### Q2: Mohu používat Aspose.PSD pro Javu zdarma?
 
- Odpověď 2: Aspose.PSD for Java je komerční knihovna, ale její funkce můžete prozkoumat pomocí bezplatné zkušební verze. Pochopit to[tady](https://releases.aspose.com/).
+ Odpověď 2: Aspose.PSD for Java je komerční knihovna, ale její funkce můžete prozkoumat pomocí bezplatné zkušební verze. Získejte to[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu dokumentaci Aspose.PSD pro Java?
 
-A3: Dokumentace je k dispozici.[tady](https://reference.aspose.com/psd/java/).
+A3: Dokumentace je k dispozici[zde](https://reference.aspose.com/psd/java/).
 
 ### Q4: Jak získám podporu pro Aspose.PSD pro Java?
 
- A4: Navštivte fórum Aspose.PSD[tady](https://forum.aspose.com/c/psd/34) za podporu komunity.
+ A4: Navštivte fórum Aspose.PSD[zde](https://forum.aspose.com/c/psd/34) za podporu komunity.
 
 ### Q5: Je k dispozici dočasná licence pro Aspose.PSD pro Java?
 
- A5: Ano, můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

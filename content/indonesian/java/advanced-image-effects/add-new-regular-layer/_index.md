@@ -111,12 +111,12 @@ A2: Tentu saja! Aspose.PSD menyediakan berbagai opsi transformasi untuk lapisan.
 
 ### Q3: Di mana saya dapat menemukan dokumentasi Aspose.PSD tambahan?
 
- A3: Anda dapat merujuk ke dokumentasi.[Di Sini](https://reference.aspose.com/psd/java/).
+ A3: Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.aspose.com/psd/java/).
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- A4: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk opsi lisensi sementara.
+ A4: Kunjungi[tautan ini](https://purchase.aspose.com/temporary-license/) untuk opsi lisensi sementara.
 
 ### Q5: Apakah ada forum komunitas untuk dukungan Aspose.PSD?
 
- A5: Ya, Anda dapat menemukan dukungan dan diskusi.[Di Sini](https://forum.aspose.com/c/psd/34).
+ A5: Ya, Anda dapat menemukan dukungan dan diskusi[Di Sini](https://forum.aspose.com/c/psd/34).

@@ -19,7 +19,6 @@ Innan vi dyker in i handledningen, låt oss täcka förutsättningarna. Här är
 Först till kvarn, låt oss importera de nödvändiga paketen. Dessa importer är viktiga för att arbeta med Aspose.PSD-biblioteket och hantera bildkonverteringar.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.JpegOptions;
@@ -41,7 +40,7 @@ Nu när din PSB-fil är laddad måste du ställa in alternativen för JPG-konver
 JpegOptions jpgOptions = new JpegOptions();
 jpgOptions.setQuality(95);
 ```
- Här skapar vi en`JpegOptions` objekt och ställ in kvaliteten på 95. Du kan justera detta värde för att kontrollera komprimeringen och kvaliteten på den utgående bilden.
+Här skapar vi en`JpegOptions` objekt och ställ in kvaliteten på 95. Du kan justera detta värde för att kontrollera komprimeringen och kvaliteten på den utgående bilden.
 ## Steg 4: Spara bilden som JPG
 Med alternativen inställda är du redo att spara din PSB-fil som en JPG. Det är här den faktiska konverteringen sker.
 ```java
@@ -63,7 +62,7 @@ Aspose.PSD för Java är ett bibliotek som tillåter utvecklare att manipulera o
 ### Kan jag prova Aspose.PSD för Java innan jag köper?
  Ja, du kan ladda ner en gratis testversion av Aspose.PSD för Java från[nedladdningssida](https://releases.aspose.com/). Detta gör att du kan utvärdera biblioteket och dess funktioner innan du gör ett köp.
 ### Hur får jag en tillfällig licens för Aspose.PSD för Java?
-Du kan få en tillfällig licens från[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/). Detta gör att du kan använda alla funktioner i biblioteket under en begränsad period.
+ Du kan få en tillfällig licens från[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/). Detta gör att du kan använda alla funktioner i biblioteket under en begränsad period.
 ### Finns det support tillgängligt om jag stöter på problem?
  Absolut! Du får tillgång till support via[Aspose.PSD supportforum](https://forum.aspose.com/c/psd/34). Supportteamet är lyhört och redo att hjälpa dig med eventuella problem eller frågor du kan ha.
 ### Kan jag justera kvaliteten på JPG-utdata?

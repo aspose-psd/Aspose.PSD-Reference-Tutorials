@@ -19,7 +19,6 @@ Przed kontynuowaniem tego samouczka upewnij się, że spełnione są następują
 Na początek upewnij się, że zaimportowałeś niezbędne pakiety do swojego projektu Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -57,14 +56,14 @@ if (jfif != null) {
 ```
 Jeśli dane JFIF są obecne, możesz je wyodrębnić i wykorzystać w swojej aplikacji.
 ## Krok 4: Wyodrębnij dane EXIF (opcjonalnie)
-Opcjonalnie, w razie potrzeby, wyodrębnij dane EXIF z zasobu miniatur.
+Opcjonalnie, jeśli to konieczne, wyodrębnij dane EXIF z zasobu miniatur.
 ```java
 JpegExifData exif = thumbnail.getJpegOptions().getExifData();
 if (exif != null) {
     // Wyodrębnij dane i proces EXIF.
 }
 ```
-Ten krok umożliwia odzyskanie informacji EXIF powiązanych z miniaturą i pracę z nimi.
+Ten krok umożliwia pobranie informacji EXIF powiązanych z miniaturą i pracę z nimi.
 
 ## Wniosek
 tym samouczku omówiliśmy, jak wyodrębnić miniatury z obrazów JFIF przy użyciu Aspose.PSD dla Java. Wykonując kroki opisane powyżej, możesz efektywnie obsługiwać zadania wyodrębniania miniatur w aplikacjach Java. Aspose.PSD zapewnia solidną funkcjonalność do pracy z różnymi formatami obrazów, zapewniając elastyczność i niezawodność w zadaniach przetwarzania obrazu.

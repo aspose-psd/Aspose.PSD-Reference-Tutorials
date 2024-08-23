@@ -64,7 +64,7 @@ if (f.exists()) {
 Bây giờ bạn đã xuất thành công hình ảnh trong môi trường đa luồng bằng Aspose.PSD cho Java!
 ## Phần kết luận
 Trong hướng dẫn này, chúng tôi đã khám phá quy trình xuất hình ảnh liền mạch bằng Aspose.PSD cho Java trong thiết lập đa luồng. Nâng cao khả năng xử lý hình ảnh của ứng dụng Java của bạn với sức mạnh của Aspose.PSD.
-## Các câu hỏi thường gặp
+## Câu hỏi thường gặp
 ### Aspose.PSD có tương thích với tất cả các phiên bản Java không?
 Aspose.PSD tương thích với Java 1.7 và các phiên bản mới hơn.
 ### Tôi có thể xử lý nhiều hình ảnh đồng thời bằng Aspose.PSD không?

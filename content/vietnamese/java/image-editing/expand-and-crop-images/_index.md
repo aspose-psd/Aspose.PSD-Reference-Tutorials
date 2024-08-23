@@ -93,7 +93,7 @@ Câu trả lời 2: Hoàn toàn có thể, Aspose.PSD cung cấp giấy phép th
 
 ### Câu hỏi 3: Có bất kỳ hạn chế nào đối với các định dạng tệp hình ảnh được hỗ trợ không?
 
- Câu trả lời 3: Aspose.PSD hỗ trợ nhiều định dạng tệp hình ảnh khác nhau, bao gồm PSD, JPEG, PNG, v.v. Tham khảo đến[tài liệu](https://reference.aspose.com/psd/java/) để có danh sách đầy đủ.
+ Câu trả lời 3: Aspose.PSD hỗ trợ nhiều định dạng tệp hình ảnh khác nhau, bao gồm PSD, JPEG, PNG, v.v. Tham khảo[tài liệu](https://reference.aspose.com/psd/java/) để có danh sách đầy đủ.
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho các truy vấn liên quan đến Aspose.PSD?
 

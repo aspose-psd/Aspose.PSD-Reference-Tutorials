@@ -41,7 +41,7 @@ Bây giờ, hãy chia quy trình thành nhiều bước để lưu hình ảnh v
 String dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"`với đường dẫn đến thư mục chứa tệp PSD của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn đến thư mục chứa tệp PSD của bạn.
 
 ## Bước 2: Chỉ định nguồn và đích
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Tạo một`FileOutputStream` cho tệp đích và lưu hình ảnh PSD vào luồng bằng các tùy chọn PNG.
+ Tạo một`FileOutputStream`cho tệp đích và lưu hình ảnh PSD vào luồng bằng các tùy chọn PNG.
 
 Lặp lại các bước này nếu cần cho trường hợp sử dụng cụ thể của bạn.
 
@@ -88,7 +88,7 @@ Câu trả lời 1: Có, Aspose.PSD được sử dụng rộng rãi trong các 
 
 ### Câu 3: Tôi có thể dùng thử Aspose.PSD trước khi mua không?
 
-A3: Có, bạn có thể khám phá một[dùng thử miễn phí](https://releases.aspose.com/) để đánh giá khả năng của Aspose.PSD.
+ A3: Có, bạn có thể khám phá một[dùng thử miễn phí](https://releases.aspose.com/) để đánh giá khả năng của Aspose.PSD.
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 

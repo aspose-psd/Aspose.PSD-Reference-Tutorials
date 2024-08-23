@@ -53,11 +53,11 @@ psdImage.Save(destName, pngOptions);
 ```
 ## Kesimpulan
 
-Selamat! Anda telah berhasil merender teks dengan warna berbeda di lapisan teks menggunakan Aspose.PSD untuk .NET. Kemampuan yang kuat ini membuka banyak kemungkinan untuk memanipulasi dan menyempurnakan file PSD secara terprogram.
+Selamat! Anda telah berhasil merender teks dengan warna berbeda di lapisan teks menggunakan Aspose.PSD untuk .NET. Kemampuan canggih ini membuka banyak kemungkinan untuk memanipulasi dan menyempurnakan file PSD secara terprogram.
 
 ## FAQ
 
-### Q1: Bisakah saya menggunakan Aspose.PSD untuk .NET dengan aplikasi .NET apa pun?
+### Q1: Dapatkah saya menggunakan Aspose.PSD untuk .NET dengan aplikasi .NET apa pun?
 
 A1: Ya, Aspose.PSD untuk .NET dirancang untuk bekerja secara lancar dengan aplikasi .NET apa pun, memberikan fleksibilitas dan kemudahan integrasi.
 
@@ -67,7 +67,7 @@ A1: Ya, Aspose.PSD untuk .NET dirancang untuk bekerja secara lancar dengan aplik
 
 ### Q3: Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk .NET?
 
- A3: Dokumentasi terperinci tersedia.[Di Sini](https://reference.aspose.com/psd/net/) untuk membantu Anda memahami dan mengimplementasikan berbagai fitur Aspose.PSD untuk .NET.
+ A3: Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/psd/net/) untuk membantu Anda memahami dan menerapkan berbagai fitur Aspose.PSD untuk .NET.
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 

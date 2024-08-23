@@ -34,7 +34,7 @@ url: /zh-hant/net/psd-file-resources/
 ### [支援 Aspose.PSD for .NET 中的背景顏色資源](./supporting-background-color-resource/)
 透過我們的逐步指南掌握 Aspose.PSD for .NET。輕鬆操作 PSD 影像。立即下載免費試用版！
 ### [在 Aspose.PSD for .NET 中支援邊界資訊資源](./supporting-border-information-resource/)
-探索 Aspose.PSD for .NET 的邊界資訊資源功能以增強成像。按照我們的教程進行無縫整合。現在下載！
+探索 Aspose.PSD for .NET 的邊界資訊資源功能以增強成像。按照我們的教程進行無縫整合。立即下載！
 ### [支援 Aspose.PSD for .NET 中的工作路徑資源](./supporting-working-path-resource/)
 探索 Aspose.PSD for .NET 中「WorkingPathResource」的強大功能。透過此逐步指南提高影像精度。
 ### [支援 Aspose.PSD for .NET 中的黑白 (Blwh) 資源](./supporting-black-and-white-blwh-resource/)

@@ -67,11 +67,11 @@ S1: Nej, Aspose.PSD är speciellt utformad för .NET-applikationer.
 
 ### F2: Krävs en licens för att använda Aspose.PSD?
 
- A2: Ja, du behöver en giltig licens. Förstår[här](https://purchase.aspose.com/buy).
+ A2: Ja, du behöver en giltig licens. Få det[här](https://purchase.aspose.com/buy).
 
 ### F3: Kan jag prova Aspose.PSD gratis innan jag köper en licens?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta detaljerad dokumentation för Aspose.PSD?
 

@@ -17,7 +17,7 @@ url: /ru/net/image-adjustment/gamma-adjustment/
 
 -  Библиотека Aspose.PSD для .NET: убедитесь, что у вас установлена библиотека Aspose.PSD для .NET. Вы можете скачать его[здесь](https://releases.aspose.com/psd/net/).
 
-- .NET Framework. В этом руководстве предполагается, что у вас есть базовые знания о разработке .NET и установлена .NET Framework.
+- .NET Framework. В этом руководстве предполагается, что вы имеете базовое представление о разработке .NET и у вас установлена .NET Framework.
 
 - Интегрированная среда разработки (IDE). Выберите предпочитаемую среду IDE для разработки .NET, например Visual Studio.
 
@@ -84,7 +84,7 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Вопрос 1: Где я могу найти документацию Aspose.PSD?
 
- A1: вы можете обратиться к документации[здесь](https://reference.aspose.com/psd/net/).
+ A1: Вы можете обратиться к документации[здесь](https://reference.aspose.com/psd/net/).
 
 ### Вопрос 2: Как загрузить Aspose.PSD для .NET?
 

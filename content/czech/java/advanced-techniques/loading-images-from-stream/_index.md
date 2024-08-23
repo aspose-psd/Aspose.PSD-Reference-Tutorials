@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /cs/java/advanced-techniques/loading-images-from-stream/
 ---
-## Úvod
+## Zavedení
 
 Aspose.PSD for Java je knihovna bohatá na funkce, která umožňuje vývojářům bezproblémově pracovat se soubory PSD a provádět různé úlohy zpracování obrazu. V tomto tutoriálu se zaměříme na základní kroky k načtení obrázků ze streamu pomocí Aspose.PSD pro Javu.
 
@@ -78,11 +78,11 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
-Gratulujeme! Úspěšně jste načetli obrázek ze streamu pomocí Aspose.PSD for Java.
+Gratuluji! Úspěšně jste načetli obrázek ze streamu pomocí Aspose.PSD for Java.
 
 ## Závěr
 
- Aspose.PSD for Java umožňuje vývojářům pracovat se soubory PSD bez námahy. Tento výukový program poskytl stručného průvodce načítáním obrázků ze streamu. Prozkoumat[dokumentace](https://reference.aspose.com/psd/java/) pro další podrobnosti a možnosti.
+Aspose.PSD for Java umožňuje vývojářům pracovat se soubory PSD bez námahy. Tento výukový program poskytl stručného průvodce načítáním obrázků ze streamu. Prozkoumat[dokumentace](https://reference.aspose.com/psd/java/) pro další podrobnosti a možnosti.
 
 ## FAQ
 
@@ -92,7 +92,7 @@ A1: Rozhodně! Aspose.PSD for Java vyniká v úlohách dávkového zpracování 
 
 ### Q2: Mohu vyzkoušet Aspose.PSD pro Java před nákupem?
 
- A2: Ano, můžete prozkoumat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A2: Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu podporu pro Aspose.PSD pro Java?
 
@@ -100,7 +100,7 @@ A1: Rozhodně! Aspose.PSD for Java vyniká v úlohách dávkového zpracování 
 
 ### Q4: Potřebuji dočasnou licenci pro testovací účely?
 
- A4: Získejte dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro testování Aspose.PSD pro Javu.
+ A4: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro testování Aspose.PSD pro Javu.
 
 ### Q5: Kde mohu zakoupit Aspose.PSD pro Java?
 

@@ -140,7 +140,7 @@ Selamat! Anda telah berhasil membuat metadata XMP untuk gambar menggunakan Aspos
 
 A1: Ya, Aspose.PSD mendukung berbagai format gambar, memberikan keserbagunaan dalam menangani berbagai jenis file.
 
-### Q2: Bisakah saya memanipulasi metadata yang ada menggunakan Aspose.PSD?
+### Q2: Dapatkah saya memanipulasi metadata yang ada menggunakan Aspose.PSD?
 
 A2: Tentu saja, Aspose.PSD memungkinkan Anda untuk mengubah dan memperbarui metadata yang ada dalam gambar.
 
@@ -150,7 +150,7 @@ A3: Aspose.PSD dirancang untuk menangani gambar dengan berbagai ukuran, memastik
 
 ### Q4: Apakah ada versi uji coba yang tersedia untuk Aspose.PSD?
 
- A4: Ya, Anda dapat mengeksplorasi kemampuan Aspose.PSD dengan mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengeksplorasi kemampuan Aspose.PSD dengan mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.PSD?
 

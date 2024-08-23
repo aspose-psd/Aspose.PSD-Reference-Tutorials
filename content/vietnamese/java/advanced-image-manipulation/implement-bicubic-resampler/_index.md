@@ -43,7 +43,7 @@ String filePath = dataDir + "sample_bicubic.psd";
 PsdImage image = (PsdImage)Image.load(filePath);
 ```
 
-## Bước 2: Thay đổi kích thước bằng phép chập khối
+## Bước 2: Thay đổi kích thước bằng Cubic Convolution
 
 Bây giờ, hãy triển khai Bicubic Resampler bằng thuật toán Cubic Convolution. Bước này liên quan đến việc thay đổi kích thước hình ảnh đã tải theo kích thước mong muốn.
 
@@ -86,7 +86,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java hỗ trợ nhiều định dạng h
 
 ### Câu hỏi 4: Tôi có thể tải xuống thư viện Aspose.PSD cho Java không?
 
- A4: Có, tải xuống thư viện từ trang phát hành.[đây](https://releases.aspose.com/psd/java/).
+ A4: Có, tải xuống thư viện từ trang phát hành[đây](https://releases.aspose.com/psd/java/).
 
 ### Câu hỏi 5: Làm cách nào để mua Aspose.PSD cho Java?
 

@@ -8,14 +8,14 @@ weight: 10
 url: /it/net/psd-file-manipulation/support-layers-ai-format/
 ---
 Benvenuti nella nostra guida passo passo su come sfruttare Aspose.PSD per .NET per gestire i livelli di supporto nei file in formato AI. Aspose.PSD semplifica le attività complesse, rendendo più semplice per gli sviluppatori lavorare con i file AI nelle loro applicazioni .NET. In questo tutorial tratteremo i prerequisiti, importeremo gli spazi dei nomi e suddivideremo ogni esempio in più passaggi per garantire un'esperienza di apprendimento fluida.
-## introduzione
+## Introduzione
 ### Cos'è Aspose.PSD?
 Aspose.PSD per .NET è una potente libreria che consente agli sviluppatori di manipolare ed elaborare file Adobe Photoshop, incluso il formato AI (Adobe Illustrator). In questo tutorial ci concentreremo sul supporto dei livelli nei file AI, mostrando come estrarre informazioni preziose da ciascun livello.
 ## Prerequisiti
 Prima di immergerci nel tutorial, assicurati di avere quanto segue:
 1.  Aspose.PSD per .NET Library: scarica e installa la libreria da[Sito web Aspose.PSD](https://releases.aspose.com/psd/net/).
 2. Ambiente di sviluppo: assicurati di disporre di un ambiente di sviluppo .NET funzionante, incluso Visual Studio.
-3. File AI di esempio: scarica il file AI di esempio, "form_8_2l3_7.ai", da[questo link](Your-Download-Link).
+3. File AI di esempio: scarica il file AI di esempio, "form_8_2l3_7.ai", da[questo collegamento](Your-Download-Link).
 ## Importa spazi dei nomi
 Per iniziare, importa gli spazi dei nomi necessari nel tuo progetto .NET:
 ```csharp

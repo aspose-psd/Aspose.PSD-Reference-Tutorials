@@ -94,4 +94,4 @@ A2：是的，Aspose.PSD 支援多種影像格式，包括 PSD、BMP、JPEG、PN
 
 ### Q5：Aspose.PSD for Java 有免費試用版嗎？
 
- A5：是的，您可以探索免費試用版。[這裡](https://releases.aspose.com/).
+ A5：是的，您可以探索免費試用版[這裡](https://releases.aspose.com/).

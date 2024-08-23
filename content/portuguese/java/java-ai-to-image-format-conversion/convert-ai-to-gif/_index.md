@@ -12,7 +12,7 @@ Converter arquivos AI (Adobe Illustrator) em GIFs em Java pode parecer uma taref
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter o seguinte:
 - Java Development Kit (JDK): Certifique-se de ter o JDK instalado em sua máquina.
--  Biblioteca Aspose.PSD para Java: Baixe a biblioteca do[Página de download do Aspose.PSD para Java](https://releases.aspose.com/psd/java/).
+- Biblioteca Aspose.PSD para Java: Baixe a biblioteca do[Página de download do Aspose.PSD para Java](https://releases.aspose.com/psd/java/).
 - Ambiente de Desenvolvimento Integrado (IDE): Um IDE como IntelliJ IDEA, Eclipse ou NetBeans para escrever e executar seu código Java.
 - Arquivo AI: o arquivo do Adobe Illustrator que você deseja converter.
 ## Importar pacotes
@@ -20,7 +20,6 @@ Primeiramente, vamos importar os pacotes necessários. Isso incluirá o pacote p
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -30,7 +29,7 @@ Vamos dividir o processo em etapas simples e fáceis de seguir.
 Abra seu IDE e crie um novo projeto Java. Dê um nome relevante, como "AItoGIFConverter".
 ### 1.2 Adicione Aspose.PSD ao seu projeto
  Baixe a biblioteca Aspose.PSD para Java em[aqui](https://releases.aspose.com/psd/java/). Após o download, adicione a biblioteca ao caminho de construção do seu projeto. Geralmente, isso pode ser feito clicando com o botão direito do mouse em seu projeto no IDE, navegando até as configurações do caminho de construção e adicionando o arquivo JAR externo.
-## Etapa 2: carregue o arquivo AI
+## Etapa 2: carregar o arquivo AI
 ### 2.1 Definir os caminhos dos arquivos
 Especifique os caminhos para o arquivo AI de origem e o arquivo GIF de saída. Para simplificar, usaremos uma variável string para o diretório.
 ```java
@@ -80,7 +79,7 @@ Aí está! Com apenas algumas linhas de código, você pode converter um arquivo
 Aspose.PSD for Java é uma ferramenta versátil que pode lidar com uma ampla gama de tarefas de manipulação de imagens. Portanto, quer você esteja trabalhando em uma ferramenta de design gráfico, em um aplicativo automatizado de processamento de imagens ou apenas precise converter arquivos para um projeto específico, o Aspose.PSD tem o que você precisa.
 ## Perguntas frequentes
 ### O que é Aspose.PSD para Java?
-Aspose.PSD for Java é uma biblioteca que permite aos desenvolvedores criar, editar e converter PSD e outros arquivos de imagem em aplicativos Java.
+Aspose.PSD para Java é uma biblioteca que permite aos desenvolvedores criar, editar e converter PSD e outros arquivos de imagem em aplicativos Java.
 ### Posso usar Aspose.PSD para Java gratuitamente?
  Você pode obter um teste gratuito no[Página de download do Aspose.PSD](https://releases.aspose.com/) , mas para obter funcionalidade completa, você precisará adquirir uma licença de[aqui](https://purchase.aspose.com/buy).
 ### Quais são os requisitos de sistema para Aspose.PSD para Java?

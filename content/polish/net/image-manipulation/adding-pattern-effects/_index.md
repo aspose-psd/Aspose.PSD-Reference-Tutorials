@@ -95,11 +95,11 @@ O1: Tak, możesz definiować niestandardowe wzorce i stosować je za pomocą Asp
 
 ### P2: Czy Aspose.PSD dla .NET jest kompatybilny ze wszystkimi formatami obrazów?
 
-Odpowiedź 2: Aspose.PSD obsługuje przede wszystkim format PSD (Adobe Photoshop), ale zapewnia także funkcję konwersji obrazów do i z innych formatów.
+O2: Aspose.PSD obsługuje przede wszystkim format PSD (Adobe Photoshop), ale zapewnia także funkcję konwersji obrazów do i z innych formatów.
 
 ### P3: Jak mogę dostosować przezroczystość nakładki wzoru?
 
- A3: Zmodyfikuj`Opacity` własność`PatternOverlayEffect` aby dostosować poziom krycia.
+ A3: Zmodyfikuj`Opacity` własność`PatternOverlayEffect` aby dostosować poziom przezroczystości.
 
 ### P4: Czy istnieją jakieś ograniczenia dotyczące wymiarów wzoru?
 

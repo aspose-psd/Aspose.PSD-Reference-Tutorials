@@ -1,6 +1,6 @@
 ---
-title: Java로 타원 그리기
-linktitle: Java로 타원 그리기
+title: Java에서 타원 그리기
+linktitle: Java에서 타원 그리기
 second_title: Aspose.PSD 자바 API
 description: 정확한 그래픽 디자인과 이미지 조작을 위해 Aspose.PSD를 사용하여 Java에서 타원을 그리는 방법을 알아보세요. 단계별 튜토리얼을 마스터하세요.
 type: docs
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Graphics graphics = new Graphics(image);
 ```java
 graphics.clear(Color.getYellow());
 ```
-## 5단계: 점선 타원을 그립니다.
+## 5단계: 점선 타원 그리기
 빨간색의 Pen 개체를 사용하여 지정된 Rectangle 내에 점선 타원을 그립니다.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

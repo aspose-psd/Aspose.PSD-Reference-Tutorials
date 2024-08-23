@@ -98,7 +98,7 @@ Grattis! Du har framgångsrikt lärt dig hur man ritar linjer effektivt med Aspo
 
 ### F1: Var kan jag hitta dokumentationen för Aspose.PSD för .NET?
 
- S1: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
+ S1: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
 
 ### F2: Hur kan jag ladda ner Aspose.PSD för .NET?
 
@@ -106,7 +106,7 @@ Grattis! Du har framgångsrikt lärt dig hur man ritar linjer effektivt med Aspo
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag få support för Aspose.PSD för .NET?
 
@@ -114,4 +114,4 @@ Grattis! Du har framgångsrikt lärt dig hur man ritar linjer effektivt med Aspo
 
 ### F5: Behöver jag en tillfällig licens för Aspose.PSD för .NET?
 
- S5: Vid behov kan du få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ S5: Vid behov kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

@@ -1,21 +1,21 @@
 ---
-title: Aspose.PSD for Java を使用して画像の明るさを調整する
+title: Aspose.PSD for Java で画像の明るさを調整する
 linktitle: 画像の明るさを調整する
 second_title: Aspose.PSD Java API
-description: Aspose.PSD を使用して Java で画像の明るさを強化します。画像の明るさをプログラムで調整するためのステップバイステップのガイド。
+description: Aspose.PSD を使用して Java で画像の明るさを強化します。プログラムで画像の明るさを調整するためのステップバイステップ ガイド。
 type: docs
 weight: 21
 url: /ja/java/advanced-techniques/adjust-brightness/
 ---
 ## 導入
 
-画像を強化することは、グラフィック デザインやデジタル写真では一般的な要件です。 Aspose.PSD for Java は、画像の明るさをプログラムで調整するための強力なソリューションを提供します。このチュートリアルでは、Aspose.PSD for Java ライブラリを利用して画像の明るさを調整する方法を段階的に説明します。
+画像の強調は、グラフィック デザインやデジタル写真では一般的な要件です。Aspose.PSD for Java は、プログラムで画像の明るさを調整するための強力なソリューションを提供します。このチュートリアルでは、Aspose.PSD for Java ライブラリを使用して画像の明るさを調整する方法を段階的に説明します。
 
 ## 前提条件
 
 チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
 
--  Aspose.PSD for Java ライブラリ: からライブラリをダウンロードしてインストールします。[Java 用 Aspose.PSD ドキュメント](https://reference.aspose.com/psd/java/).
+-  Aspose.PSD for Javaライブラリ:ライブラリを以下のサイトからダウンロードしてインストールします。[Aspose.PSD for Java ドキュメント](https://reference.aspose.com/psd/java/).
 
 ## パッケージのインポート
 
@@ -30,80 +30,80 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-ここで、画像の明るさを調整するプロセスを簡単な手順に分けてみましょう。
+ここで、画像の明るさを調整するプロセスを簡単な手順に分解してみましょう。
 
-## ステップ 1: 画像をロードする
+## ステップ1: 画像を読み込む
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "AdjustBrightness_out.tiff";
 
-//既存の画像を RasterImage クラスのインスタンスにロードします
+//既存の画像をRasterImageクラスのインスタンスに読み込みます
 Image image = Image.load(sourceFile);
-// Image のオブジェクトを RasterImage にキャストします
+// Image のオブジェクトを RasterImage にキャストする
 RasterImage rasterImage = (RasterImage) image;
 
-//RasterImage がキャッシュされているかどうかを確認し、パフォーマンスを向上させるために RasterImage をキャッシュします
+//RasterImage がキャッシュされているかどうかを確認し、パフォーマンスを向上させるために RasterImage をキャッシュします。
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
-このステップでは、ターゲット画像をロードし、それを`RasterImage`さらなる処理のために。
+このステップでは、ターゲット画像をロードし、`RasterImage`さらに処理するため。
 
-## ステップ 2: 明るさを調整する
+## ステップ2: 明るさを調整する
 
 ```java
 //明るさを調整する
 rasterImage.adjustBrightness(-50);
 ```
 
-ここで使用するのは、`adjustBrightness`画像の明るさを変更する方法です。この例では、明るさを 50 単位減少させますが、要件に基づいてこの値をカスタマイズできます。
+ここでは、`adjustBrightness`画像の明るさを変更する方法。この例では明るさを 50 単位下げていますが、この値は必要に応じてカスタマイズできます。
 
-## ステップ 3: TiffOptions を設定する
+## ステップ3: TiffOptionsを設定する
 
 ```java
 int[] ushort = {8, 8, 8};
-//結果のイメージの TiffOptions のインスタンスを作成します。
+//結果画像のTiffOptionsインスタンスを作成する
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-を設定します。`TiffOptions`調整した画像を保存します。を調整します。`bitsPerSample`そして`photometric`特定のニーズに基づいたプロパティ。
+設定する`TiffOptions`調整した画像を保存するためのものです。`bitsPerSample`そして`photometric`特定のニーズに基づいたプロパティ。
 
-## ステップ 4: 結果のイメージを保存する
+## ステップ4: 結果画像を保存する
 
 ```java
-//結果の画像を保存します
+//結果画像を保存する
 rasterImage.save(destName, tiffOptions);
 ```
 
-最後に、指定したファイルを使用して変更した画像を保存します。`TiffOptions`.
+最後に、指定された方法で変更した画像を保存します。`TiffOptions`.
 
 ## 結論
 
-Aspose.PSD for Java を使用すると、プログラムによる画像の明るさの調整が簡単になります。このチュートリアルでは、Java アプリケーションにこの機能を実装するための包括的なガイドを提供しました。
+Aspose.PSD for Java を使用すると、プログラムで画像の明るさを簡単に調整できます。このチュートリアルでは、Java アプリケーションでこの機能を実装するための包括的なガイドを提供します。
 
 ## よくある質問
 
-### Q1: PSD 以外の画像フォーマットでも明るさを調整できますか?
+### Q1: PSD以外の画像形式でも明るさを調整できますか？
 
-A1: はい、Aspose.PSD for Java は、JPEG、PNG、TIFF などのさまざまな画像形式をサポートしています。
+A1: はい、Aspose.PSD for Java は JPEG、PNG、TIFF などのさまざまな画像形式をサポートしています。
 
-### Q2: 画像調整プロセス中にエラーが発生した場合はどうすればよいですか?
+### Q2: 画像調整プロセス中にエラーが発生した場合、どのように対処すればよいですか?
 
-A2: try-catch ブロックを使用してエラー処理を実装し、発生する可能性のある例外を管理できます。
+A2: 発生する可能性のある例外を管理するために、try-catch ブロックを使用してエラー処理を実装できます。
 
-### Q3: 明るさの調整範囲に制限はありますか?
+### Q3: 明るさ調整の範囲に制限はありますか？
 
-A3: 画像の内容や形式によって調整範囲は異なりますが、Aspose.PSD では柔軟にカスタマイズできます。
+A3: 調整範囲は画像の内容と形式によって異なりますが、Aspose.PSD では柔軟にカスタマイズできます。
 
 ### Q4: Aspose.PSD for Java を商用プロジェクトで使用できますか?
 
- A4: はい、Aspose.PSD for Java は商用ライブラリであり、次からライセンスを取得できます。[ここ](https://purchase.aspose.com/buy).
+ A4: はい、Aspose.PSD for Javaは商用ライブラリであり、ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/buy).
 
-### Q5: Aspose.PSD for Java の無料トライアルはありますか?
+### Q5: Aspose.PSD for Java の無料試用版はありますか?
 
  A5: はい、無料トライアルでライブラリを探索できます。[ここ](https://releases.aspose.com/).

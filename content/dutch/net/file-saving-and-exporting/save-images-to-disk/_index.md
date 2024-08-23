@@ -85,8 +85,8 @@ A1: Ja, Aspose.PSD ondersteunt een verscheidenheid aan afbeeldingsformaten, waar
 
 ### Vraag 4: Hoe verkrijg ik een tijdelijke licentie?
 
- A4: U kunt een tijdelijke licentie aanschaffen.[hier](https://purchase.aspose.com/temporary-license/).
+ A4: U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Waar kan ik Aspose.PSD voor .NET kopen?
 
- A5: U kunt Aspose.PSD kopen voor .NET.[hier](https://purchase.aspose.com/buy).
+ A5: U kunt Aspose.PSD kopen voor .NET[hier](https://purchase.aspose.com/buy).

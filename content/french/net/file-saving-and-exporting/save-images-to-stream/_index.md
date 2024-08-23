@@ -68,7 +68,7 @@ using (Image image = Image.Load(sourceFile))
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment enregistrer des images dans un flux à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités de manipulation d'images dans vos applications .NET.
+Félicitations! Vous avez appris avec succès comment enregistrer des images dans un flux à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités de manipulation d'images dans vos applications .NET.
 
 ## FAQ
 
@@ -76,17 +76,17 @@ Toutes nos félicitations! Vous avez appris avec succès comment enregistrer des
 
  A1 : Oui, Aspose.PSD prend en charge divers formats d'image, notamment PSD, PNG, JPEG, etc. Consultez la documentation[ici](https://reference.aspose.com/psd/net/) pour une liste complète.
 
-### Q2 : Comment puis-je obtenir de l'assistance pour Aspose.PSD ?
+### Q2 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
 
  A2 : Visitez le forum d'assistance Aspose.PSD[ici](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide et du soutien communautaire.
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
- A3 : Oui, vous pouvez bénéficier d’un essai gratuit.[ici](https://releases.aspose.com/)pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.
+ A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/)pour explorer les fonctionnalités d'Aspose.PSD avant de faire un achat.
 
 ### Q4 : Comment puis-je obtenir une licence temporaire ?
 
- A4 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests et d’évaluation.
+ A4 : Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests et d’évaluation.
 
 ### Q5 : Où puis-je acheter Aspose.PSD ?
 

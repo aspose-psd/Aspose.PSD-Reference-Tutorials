@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## Steg 4: Definiera skiftvärden för beskärning
 
-Ange skiftvärdena för vänster, höger, övre och nedre sidor av bilden. Justera dessa värden baserat på dina beskärningskrav.
+Ange skiftvärden för vänster, höger, övre och nedre sidor av bilden. Justera dessa värden baserat på dina beskärningskrav.
 
 ```csharp
 int leftShift = 10;
@@ -96,7 +96,7 @@ S1: Ja, Aspose.PSD stöder olika bildformat, så att du kan beskära bilder i fo
 
 ### F3: Hur får jag en tillfällig licens för Aspose.PSD för .NET?
 
- S3: Du kan skaffa en tillfällig licens för teständamål.[här](https://purchase.aspose.com/temporary-license/).
+ S3: Du kan skaffa en tillfällig licens för teständamål[här](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Var kan jag hitta ytterligare stöd och diskussioner relaterade till Aspose.PSD?
 

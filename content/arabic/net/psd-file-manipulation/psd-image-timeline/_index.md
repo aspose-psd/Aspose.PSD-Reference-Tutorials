@@ -15,7 +15,7 @@ url: /ar/net/psd-file-manipulation/psd-image-timeline/
 -  تم تثبيت Aspose.PSD لـ .NET. يمكنك تنزيل أحدث إصدار[هنا](https://releases.aspose.com/psd/net/).
 - محرر تعليمات برمجية مثل Visual Studio للتنفيذ السلس.
 ## استيراد مساحات الأسماء
-في مشروع C# الخاص بك، تأكد من استيراد مساحات الأسماء اللازمة للوصول إلى وظائف Aspose.PSD:
+في مشروع C# الخاص بك، تأكد من استيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.PSD:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -71,7 +71,7 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 
 ### س3: هل يمكنني تجربة Aspose.PSD مجانًا قبل شراء الترخيص؟
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية.[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD؟
 

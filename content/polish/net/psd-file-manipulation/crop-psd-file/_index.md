@@ -8,7 +8,7 @@ weight: 19
 url: /pl/net/psd-file-manipulation/crop-psd-file/
 ---
 ## Wstęp
-dziedzinie programowania .NET Aspose.PSD wyróżnia się jako potężny zestaw narzędzi do płynnej obsługi plików PSD (dokument Photoshop). Jeśli chodzi o manipulowanie obrazami, kadrowanie jest podstawową operacją, a Aspose.PSD upraszcza ten proces dla programistów .NET. W tym samouczku omówimy, jak przycinać pliki PSD za pomocą Aspose.PSD dla .NET, zapewniając przewodnik krok po kroku.
+W dziedzinie programowania .NET Aspose.PSD wyróżnia się jako potężny zestaw narzędzi do płynnej obsługi plików PSD (dokument Photoshop). Jeśli chodzi o manipulowanie obrazami, kadrowanie jest podstawową operacją, a Aspose.PSD upraszcza ten proces dla programistów .NET. W tym samouczku omówimy, jak przycinać pliki PSD za pomocą Aspose.PSD dla .NET, zapewniając przewodnik krok po kroku.
 ## Warunki wstępne
 Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
 -  Aspose.PSD dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Można go pobrać z[Dokumentacja Aspose.PSD dla .NET](https://reference.aspose.com/psd/net/).
@@ -38,7 +38,7 @@ Zaimplementuj poprawną metodę kadrowania dla plików PSD. Określ parametry pr
 ```csharp
 image.Crop(new Rectangle(10, 30, 100, 100));
 ```
-Dostosuj wartości w konstruktorze Rectangle zgodnie ze swoimi wymaganiami dotyczącymi kadrowania.
+Dostosuj wartości w konstruktorze Rectangle zgodnie z wymaganiami dotyczącymi przycinania.
 ## Krok 5: Zapisz przycięty obraz
 Zapisz przycięty obraz w formatach PSD i PNG:
 ```csharp

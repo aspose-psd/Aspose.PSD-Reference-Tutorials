@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -75,7 +74,7 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 ### Aspose.PSD는 고성능 애플리케이션에 적합합니까?
 물론 Aspose.PSD는 성능과 메모리 효율성에 최적화되어 있습니다.
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
- 방문하다[Aspose.PSD 자바 문서](https://reference.aspose.com/psd/java/) 포괄적인 가이드 및 API 참조를 확인하세요.
+ 방문[Aspose.PSD 자바 문서](https://reference.aspose.com/psd/java/) 포괄적인 가이드 및 API 참조를 확인하세요.
 ### Aspose.PSD는 내보내기를 위한 여러 이미지 형식을 지원합니까?
 예, Aspose.PSD는 BMP, PNG, JPEG 및 TIFF와 같은 다양한 형식으로 내보내기를 지원합니다.
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?

@@ -19,7 +19,6 @@ url: /zh-hant/java/java-psb-to-image-format-conversion/convert-psb-to-psd-java/
 首先，在 Java 檔案中匯入必要的 Aspose.PSD 類別：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
@@ -40,7 +39,7 @@ options.setFileFormatVersion(FileFormatVersion.Psd);
 ```
 這裡，`FileFormatVersion.Psd`確保輸出檔為 PSD 格式。
 ## 步驟 3：儲存轉換後的 PSD 文件
-使用載入的 PSB 影像和選項儲存轉換後的 PSD 檔案：
+使用載入的 PSB 映像和選項儲存轉換後的 PSD 檔案：
 ```java
 image.save(dataDir + "ConvertFromPsb_out.psd", options);
 ```

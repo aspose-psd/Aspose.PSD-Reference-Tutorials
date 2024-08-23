@@ -2,20 +2,20 @@
 title: .NET के लिए Aspose.PSD में कार्य पथ संसाधन का समर्थन करना
 linktitle: सहायक कार्य पथ संसाधन
 second_title: Aspose.PSD .NET एपीआई
-description: .NET के लिए Aspose.PSD में 'वर्किंगपाथरिसोर्स' की शक्ति का अन्वेषण करें। इस चरण-दर-चरण मार्गदर्शिका के साथ छवि परिशुद्धता बढ़ाएँ।
+description: .NET के लिए Aspose.PSD में 'WorkingPathResource' की शक्ति का अन्वेषण करें। इस चरण-दर-चरण मार्गदर्शिका के साथ छवि परिशुद्धता बढ़ाएँ।
 type: docs
 weight: 12
 url: /hi/net/psd-file-resources/supporting-working-path-resource/
 ---
 ## परिचय
-यदि आप एक .NET डेवलपर हैं जो इमेज प्रोसेसिंग के साथ काम कर रहे हैं, तो .NET के लिए Aspose.PSD आपके लिए उपयुक्त समाधान है। इस ट्यूटोरियल में, हम Aspose.PSD में 'वर्किंगपाथरिसोर्स' संसाधन की शक्ति का उपयोग करने के बारे में गहराई से जानेंगे। यह महत्वपूर्ण सुविधा फसल संचालन की सटीकता को बढ़ाती है, यह सुनिश्चित करती है कि आपकी छवियां बिल्कुल आवश्यकतानुसार तैयार की गई हैं।
+यदि आप इमेज प्रोसेसिंग के साथ काम करने वाले .NET डेवलपर हैं, तो .NET के लिए Aspose.PSD आपके लिए सबसे अच्छा समाधान है। इस ट्यूटोरियल में, हम Aspose.PSD में 'WorkingPathResource' संसाधन की शक्ति का गहराई से उपयोग करेंगे। यह महत्वपूर्ण विशेषता क्रॉप ऑपरेशन की सटीकता को बढ़ाती है, यह सुनिश्चित करती है कि आपकी छवियों को बिल्कुल आवश्यकतानुसार तैयार किया गया है।
 ## आवश्यक शर्तें
-इससे पहले कि हम इस यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+इससे पहले कि हम इस यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित चीजें हैं:
 - C# और .NET विकास का बुनियादी ज्ञान।
--  .NET लाइब्रेरी के लिए Aspose.PSD स्थापित। यदि नहीं, तो इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/psd/net/).
-- आपके पसंदीदा आईडीई के साथ एक कामकाजी माहौल स्थापित किया गया।
+-  Aspose.PSD for .NET लाइब्रेरी स्थापित है। यदि नहीं, तो इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/psd/net/).
+- आपके पसंदीदा IDE के साथ स्थापित कार्य वातावरण.
 ## नामस्थान आयात करें
-अपने प्रोजेक्ट में, Aspose.PSD के लिए आवश्यक नामस्थान आयात करना सुनिश्चित करें:
+अपने प्रोजेक्ट में, Aspose.PSD के लिए आवश्यक नामस्थानों को आयात करना सुनिश्चित करें:
 ```csharp
 using System;
 using System.IO;
@@ -24,38 +24,38 @@ using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Resources;
 ```
 ## चरण 1: कार्यशील निर्देशिकाएँ सेट करें
-अपने दस्तावेज़ और आउटपुट निर्देशिकाओं को परिभाषित करके प्रारंभ करें:
+अपने दस्तावेज़ और आउटपुट निर्देशिकाओं को परिभाषित करके आरंभ करें:
 ```csharp
 string baseFolder = "Your Document Directory";
 string outputFolder = "Your Output Directory";
 ```
-## चरण 2: छवि लोड करें और काटें
-अब, आइए मुख्य कार्यक्षमता पर ध्यान दें। अपनी PSD फ़ाइल लोड करें, 'वर्किंगपाथरिसोर्स' संसाधन खोजें, और क्रॉप ऑपरेशन करें:
+## चरण 2: छवि लोड करें और क्रॉप करें
+अब, चलिए मुख्य कार्यक्षमता में आते हैं। अपनी PSD फ़ाइल लोड करें, 'WorkingPathResource' संसाधन खोजें, और क्रॉप ऑपरेशन करें:
 ```csharp
 string sourceFile = Path.Combine(baseFolder, "WorkingPathResourceInput.psd");
 string outputFile = Path.Combine(outputFolder, "WorkingPathResourceOutput.psd");
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {
-    // वर्किंगपाथरिसोर्स संसाधन खोजें।
+    // WorkingPathResource संसाधन खोजें.
     ResourceBlock[] imageResources = psdImage.ImageResources;
     WorkingPathResource workingPathResource = null;
-    // ... (वर्किंगपाथ रिसोर्स की जांच जारी रखें)
+    // ... (वर्किंगपाथरिसोर्स की जांच जारी रखें)
     
-    //काटें और बचाएं.
+    //काटें और बचाएँ.
     psdImage.Crop(0, 500, 0, 200);
     psdImage.Save(outputFile);
 }
 ```
-## चरण 3: परिवर्तन सत्यापित करें
+## चरण 3: परिवर्तनों को सत्यापित करें
 क्रॉप ऑपरेशन के बाद, सहेजी गई छवि को लोड करें और परिवर्तनों की पुष्टि करें:
 ```csharp
 using (var psdImage = (PsdImage)Image.Load(outputFile))
 {
-    // वर्किंगपाथरिसोर्स संसाधन खोजें।
+    // WorkingPathResource संसाधन खोजें.
     ResourceBlock[] imageResources = psdImage.ImageResources;
     WorkingPathResource workingPathResource = null;
-    // ... (वर्किंगपाथ रिसोर्स की जांच जारी रखें)
-    // परिवर्तन सत्यापित करें.
+    // ... (वर्किंगपाथरिसोर्स की जांच जारी रखें)
+    // परिवर्तनों को सत्यापित करें.
     BezierKnotRecord record = workingPathResource.Paths[3] as BezierKnotRecord;
     if (record.Points[0].X != 4630510 || record.Points[0].Y != 22761088)
     {
@@ -65,26 +65,26 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 ```
 ## निष्कर्ष
 
-बधाई हो! आपने .NET के लिए Aspose.PSD में 'वर्किंगपाथरिसोर्स' के उपयोग में सफलतापूर्वक महारत हासिल कर ली है। यह सुविधा आपकी छवि प्रसंस्करण क्षमताओं को बढ़ाती है, जिससे आपकी परियोजनाओं में सटीकता और दक्षता सुनिश्चित होती है।
+बधाई हो! आपने .NET के लिए Aspose.PSD में 'WorkingPathResource' के उपयोग में सफलतापूर्वक महारत हासिल कर ली है। यह सुविधा आपकी छवि प्रसंस्करण क्षमताओं को बढ़ाती है, जिससे आपकी परियोजनाओं में सटीकता और दक्षता सुनिश्चित होती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: मुझे .NET के लिए Aspose.PSD के लिए दस्तावेज़ कहां मिल सकते हैं?
+### प्रश्न 1: मैं .NET के लिए Aspose.PSD का दस्तावेज़ कहां पा सकता हूं?
 
- A1: व्यापक दस्तावेज़ीकरण का अन्वेषण करें[यहाँ](https://reference.aspose.com/psd/net/).
+ A1: विस्तृत दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/psd/net/).
 
-### Q2: मैं .NET के लिए Aspose.PSD कैसे डाउनलोड कर सकता हूं?
+### प्रश्न 2: मैं .NET के लिए Aspose.PSD कैसे डाउनलोड कर सकता हूं?
 
  A2: लाइब्रेरी डाउनलोड करें[यहाँ](https://releases.aspose.com/psd/net/).
 
-### Q3: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+### प्रश्न 3: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ3: हां, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं।[यहाँ](https://releases.aspose.com/).
+ A3: हां, आप निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
 
-### Q4: मुझे .NET के लिए Aspose.PSD के लिए समर्थन कहां मिल सकता है?
+### प्रश्न 4: मुझे .NET के लिए Aspose.PSD का समर्थन कहां मिल सकता है?
 
- A4: पर समर्थन मांगें[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34).
+ A4: निम्नलिखित पर समर्थन मांगें[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34).
 
-### Q5: अस्थायी लाइसेंस की आवश्यकता है?
+### प्रश्न 5: क्या आपको अस्थायी लाइसेंस की आवश्यकता है?
 
- A5: एक अस्थायी लाइसेंस प्राप्त करें.[यहाँ](https://purchase.aspose.com/temporary-license/).
+ A5: अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).

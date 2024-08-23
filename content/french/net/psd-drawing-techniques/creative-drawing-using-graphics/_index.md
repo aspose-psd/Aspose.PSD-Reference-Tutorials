@@ -95,13 +95,13 @@ Enregistrez l'image modifiée dans le répertoire spécifié avec le format de f
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à créer un graphique visuellement attrayant à l'aide de la classe Graphics dans Aspose.PSD pour .NET. Ce didacticiel ne fait qu'effleurer la surface de ce que vous pouvez réaliser avec Aspose.PSD, alors n'hésitez pas à explorer des fonctionnalités plus avancées et à libérer votre créativité !
+Félicitations! Vous avez réussi à créer un graphique visuellement attrayant à l'aide de la classe Graphics dans Aspose.PSD pour .NET. Ce didacticiel ne fait qu'effleurer la surface de ce que vous pouvez réaliser avec Aspose.PSD, alors n'hésitez pas à explorer des fonctionnalités plus avancées et à libérer votre créativité !
 
 ## FAQ
 
 ### Q1 : Puis-je utiliser Aspose.PSD pour .NET dans mes projets commerciaux ?
 
-A1 : Oui, Aspose.PSD pour .NET est disponible pour un usage commercial. Vérifiez[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
+A1 : Oui, Aspose.PSD pour .NET est disponible pour un usage commercial. Découvrez le[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour .NET ?
 
@@ -109,7 +109,7 @@ A1 : Oui, Aspose.PSD pour .NET est disponible pour un usage commercial. Vérifie
 
 ### Q3 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour .NET ?
 
- A3 : La documentation complète est disponible.[ici](https://reference.aspose.com/psd/net/).
+ A3 : La documentation complète est disponible[ici](https://reference.aspose.com/psd/net/).
 
 ### Q4 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 
@@ -117,4 +117,4 @@ A1 : Oui, Aspose.PSD pour .NET est disponible pour un usage commercial. Vérifie
 
 ### Q5 : Ai-je besoin d’une licence temporaire pour Aspose.PSD pour .NET ?
 
- R5 : Si vous avez besoin d'une licence temporaire, vous pouvez l'obtenir.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Si vous avez besoin d'un permis temporaire, vous pouvez l'obtenir[ici](https://purchase.aspose.com/temporary-license/).

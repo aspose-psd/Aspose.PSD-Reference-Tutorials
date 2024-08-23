@@ -46,7 +46,7 @@ File.Delete(outputGif);
 ```
 Hajtsa végre a szükséges tisztítást, például törölje az ideiglenes fájlokat.
 ## Következtetés
-Gratulálunk! Sikeresen exportált egy PSD-képet GIF formátumba az Aspose.PSD for .NET használatával. Ez a képesség új lehetőségeket nyit meg a PSD-képek kezelésében a .NET-alkalmazásokban.
+Gratulálok! Sikeresen exportált egy PSD-képet GIF formátumba az Aspose.PSD for .NET használatával. Ez a képesség új lehetőségeket nyit meg a PSD-képek kezelésében a .NET-alkalmazásokban.
 ## GYIK
 
 ### 1. kérdés: Az Aspose.PSD for .NET alkalmas animált PSD-k kezelésére?
@@ -59,7 +59,7 @@ Gratulálunk! Sikeresen exportált egy PSD-képet GIF formátumba az Aspose.PSD 
 
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 
- A3: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) tesztelési célból ideiglenes engedélyt szerezni.
+ A3: Látogassa meg[ezt a linket](https://purchase.aspose.com/temporary-license/) tesztelési célból ideiglenes engedélyt szerezni.
 
 ### 4. kérdés: Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.PSD for .NET számára?
 

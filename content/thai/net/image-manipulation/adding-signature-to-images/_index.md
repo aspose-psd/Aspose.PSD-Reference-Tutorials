@@ -37,7 +37,7 @@ using Aspose.PSD.ImageOptions;
 string dataDir = "Your Document Directory";
 ```
 
-## ขั้นตอนที่ 2: โหลดภาพหลัก
+## ขั้นตอนที่ 2: โหลดรูปภาพหลัก
 
  สร้างอินสแตนซ์ของ`Image` คลาสและโหลดรูปภาพหลักที่คุณต้องการเพิ่มลายเซ็นลงไป
 
@@ -76,7 +76,7 @@ graphics.DrawImage(signature, new Point(canvas.Height - signature.Height, canvas
 canvas.Save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 ```
 
-ตอนนี้ คุณได้เพิ่มลายเซ็นให้กับรูปภาพโดยใช้ Aspose.PSD สำหรับ .NET สำเร็จแล้ว!
+ตอนนี้ คุณได้เพิ่มลายเซ็นให้กับรูปภาพโดยใช้ Aspose.PSD สำหรับ .NET เรียบร้อยแล้ว!
 
 ## บทสรุป
 

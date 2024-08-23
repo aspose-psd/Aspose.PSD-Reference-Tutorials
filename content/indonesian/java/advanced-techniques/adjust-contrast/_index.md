@@ -94,11 +94,11 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, memberikan fleksibilitas da
 
 ### Q2: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- A2: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A2: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Di mana saya dapat menemukan dokumentasi Aspose.PSD?
 
-A3: Dokumentasi tersedia.[Di Sini](https://reference.aspose.com/psd/java/).
+A3: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/java/).
 
 ### Q4: Opsi dukungan apa yang tersedia untuk Aspose.PSD?
 

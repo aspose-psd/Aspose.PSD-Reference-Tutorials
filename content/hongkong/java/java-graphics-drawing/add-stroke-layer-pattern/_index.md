@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
@@ -54,7 +53,7 @@ int[] newPattern = new int[]
 Rectangle newPatternBounds = new Rectangle(0, 0, 4, 4);
 UUID guid = UUID.randomUUID();
 ```
-此圖案資料將用於建立新的筆畫效果。
+此圖案資料將用於建立新的筆劃效果。
 ## 步驟 3： 存取描邊效果
 要修改描邊效果，您需要存取特定圖層及其混合選項。
 ```java
@@ -127,7 +126,7 @@ catch (Exception e)
 ```
 此步驟驗證圖案資料是否已正確應用於筆畫效果。
 ## 結論
-現在你就得到它了！您已使用 Aspose.PSD for Java 成功將描邊圖層圖案新增至 PSD 檔案。透過執行以下步驟，您可以輕鬆自訂和增強影像。快樂編碼！
+現在你就擁有了！您已使用 Aspose.PSD for Java 成功將描邊圖層圖案新增至 PSD 檔案。透過執行以下步驟，您可以輕鬆自訂和增強影像。快樂編碼！
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.PSD？
 Aspose.PSD for Java 是一個函式庫，可讓開發人員以程式設計方式建立、編輯和轉換 PSD（Photoshop 文件）檔案。

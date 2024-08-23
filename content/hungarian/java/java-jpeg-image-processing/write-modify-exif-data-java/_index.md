@@ -1,8 +1,8 @@
 ---
-title: Írja és módosítsa az EXIF adatokat Java nyelven
-linktitle: Írja és módosítsa az EXIF adatokat Java nyelven
+title: Írjon és módosítson EXIF-adatokat Java nyelven
+linktitle: Írjon és módosítson EXIF-adatokat Java nyelven
 second_title: Aspose.PSD Java API
-description: Tanulja meg, hogyan írhat és módosíthat EXIF-adatokat PSD-fájlokban az Aspose.PSD for Java segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban.
+description: Tanulja meg, hogyan írhat és módosíthat EXIF-adatokat PSD-fájlokban az Aspose.PSD for Java használatával ebben az átfogó, lépésről-lépésre szóló útmutatóban.
 type: docs
 weight: 22
 url: /hu/java/java-jpeg-image-processing/write-modify-exif-data-java/
@@ -20,7 +20,6 @@ Mielőtt belemerülne a kódba, győződjön meg róla, hogy mindent megfelelőe
 Először is importálnia kell a szükséges csomagokat a Java projektbe. Íme, hogyan kell csinálni:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -28,7 +27,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Ezek az importálások lehetővé teszik a PSD-fájlokkal való munkát, az EXIF-adatok kezelését és az Aspose.PSD hatékony funkcióinak használatát.
+Ezek az importálások lehetővé teszik a PSD-fájlok kezelését, az EXIF-adatok kezelését és az Aspose.PSD hatékony funkcióinak használatát.
 Most, hogy mindent beállított, bontsuk le a folyamatot egyszerű, könnyen követhető lépésekre.
 ## 1. lépés: Töltse be a PSD-képet
 Először is be kell töltenie a PSD-fájlt a projektbe. A következőképpen teheti meg:
@@ -48,7 +47,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 Ebben a lépésben azonosítja a miniatűr erőforrást a képforrások közül.
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
-    // Bontsa ki az EXIF-adatokat a miniatűr erőforrásból
+    // Az EXIF-adatok kinyerése az indexkép-erőforrásból
 }
 ```
 ## 4. lépés: EXIF adatok kibontása és nyomtatása
@@ -56,11 +55,11 @@ Miután azonosította a bélyegkép-erőforrást, a következő lépés az EXIF-
 ```java
 JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
 if (exif != null) {
-    // EXIF-adatok nyomtatása
+    // EXIF adatok nyomtatása
 }
 ```
-## 5. lépés: Módosítsa az EXIF adatokat
-Most jön a szórakoztató rész – az EXIF-adatok módosítása. Így állíthatja be a LensMake, a WhiteBalance és a Flash információkat.
+## 5. lépés: Módosítsa az EXIF-adatokat
+Most jön a szórakoztató rész – az EXIF adatok módosítása. Így állíthatja be a LensMake, a WhiteBalance és a Flash információkat.
 ```java
 exif.setLensMake("Sony");
 exif.setWhiteBalance(ExifWhiteBalance.Auto);
@@ -73,9 +72,9 @@ image.save(dataDir + "Modified_Zebras_Serengeti.psd");
 ```
 ## Következtetés
 És megvan! Sikeresen megtanulta, hogyan írhat és módosíthat EXIF-adatokat PSD-fájlokban az Aspose.PSD for Java használatával. Ez a hatékony könyvtár leegyszerűsíti az összetett képformátumokkal való munkát, így értékes eszköz a grafikus fájlokkal dolgozó fejlesztők számára. 
- Részletesebb információkért tekintse meg a[Aspose.PSD dokumentáció](https://reference.aspose.com/psd/java/) . Ha bármilyen problémába ütközik, a[Támogatói fórum](https://forum.aspose.com/c/psd/34) remek hely a segítségnyújtáshoz. Ne felejtse el felfedezni a[ingyenes próbaverzió](https://releases.aspose.com/) és fontolja meg az engedély megvásárlását[itt](https://purchase.aspose.com/buy) a teljes funkciókért.
+ Részletesebb információkért tekintse meg a[Aspose.PSD dokumentáció](https://reference.aspose.com/psd/java/) . Ha bármilyen problémába ütközik, a[Támogatási fórum](https://forum.aspose.com/c/psd/34) remek hely a segítségnyújtáshoz. Ne felejtse el felfedezni a[ingyenes próbaverzió](https://releases.aspose.com/) és fontolja meg az engedély megvásárlását[itt](https://purchase.aspose.com/buy) a teljes funkciókért.
 ## GYIK
-### Mik azok az EXIF-adatok?
+### Mi az EXIF adat?
 Az EXIF (Exchangeable Image File Format) adatok képfájlokba ágyazott metaadatok, amelyek olyan információkat tartalmaznak, mint a kamerabeállítások, dátum, idő és hely.
 ### Az Aspose.PSD képes más képformátumokat kezelni?
 Igen, az Aspose.PSD különféle képformátumokat támogat, beleértve a PNG, JPEG, BMP és GIF formátumokat.

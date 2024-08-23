@@ -7,9 +7,9 @@ type: docs
 weight: 12
 url: /it/java/basic-image-operations/support-blend-modes/
 ---
-## introduzione
+## Introduzione
 
-Aspose.PSD per Java è una potente libreria che fornisce ampio supporto per le modalità di fusione, consentendo agli sviluppatori di migliorare le proprie capacità di elaborazione delle immagini. In questo tutorial, approfondiremo il mondo delle modalità di fusione, esplorando come sfruttarle in modo efficace utilizzando Aspose.PSD per Java. Che tu sia uno sviluppatore esperto o un principiante nella manipolazione delle immagini, questa guida ti fornirà le conoscenze necessarie per sfruttare tutto il potenziale delle modalità di fusione nelle tue applicazioni Java.
+Aspose.PSD per Java è una potente libreria che fornisce ampio supporto per le modalità di fusione, consentendo agli sviluppatori di migliorare le proprie capacità di elaborazione delle immagini. In questo tutorial, approfondiremo il mondo delle modalità di fusione, esplorando come sfruttarle in modo efficace utilizzando Aspose.PSD per Java. Che tu sia uno sviluppatore esperto o un principiante nella manipolazione delle immagini, questa guida ti fornirà le conoscenze per sfruttare tutto il potenziale delle modalità di fusione nelle tue applicazioni Java.
 
 ## Prerequisiti
 
@@ -17,7 +17,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
 - Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java funzionante configurato sul tuo computer.
 
--  Aspose.PSD per Java Library: scarica la libreria da[sito web](https://releases.aspose.com/psd/java/) e seguire le istruzioni di installazione.
+- Aspose.PSD per Java Library: scarica la libreria da[sito web](https://releases.aspose.com/psd/java/) e seguire le istruzioni di installazione.
 
 - Directory dei documenti: prepara una directory per archiviare i tuoi file PSD, poiché lavoreremo con varie modalità di fusione utilizzando file PSD di esempio.
 
@@ -73,7 +73,7 @@ Imposta l'opacità di livelli specifici nei file PSD. Qui impostiamo l'opacità 
 // Imposta l'opacità al 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Salva come PNG con il 50% di opacità.
+// Salva come PNG con il 50% di opacità
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

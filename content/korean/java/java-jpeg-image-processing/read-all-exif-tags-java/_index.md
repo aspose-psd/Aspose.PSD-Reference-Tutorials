@@ -8,7 +8,7 @@ weight: 17
 url: /ko/java/java-jpeg-image-processing/read-all-exif-tags-java/
 ---
 ## 소개
-Java 개발 영역에서는 이미지에서 메타데이터를 처리하고 추출하는 것이 일반적인 작업이며, 특히 PSD(Photoshop Document) 파일을 처리할 때 더욱 그렇습니다. EXIF(Exchangeable Image File Format) 태그에는 카메라 설정, 위치 등과 같은 이미지에 대한 정보를 제공하는 귀중한 메타데이터가 포함되어 있습니다. 이 튜토리얼에서는 PSD 파일을 조작하기 위한 강력한 라이브러리인 Aspose.PSD for Java를 사용하여 EXIF 태그를 효율적으로 읽는 데 중점을 둡니다.
+Java 개발 영역에서는 이미지에서 메타데이터를 처리하고 추출하는 것이 일반적인 작업이며, 특히 PSD(Photoshop Document) 파일을 처리할 때 더욱 그렇습니다. EXIF(Exchangeable Image File Format) 태그에는 카메라 설정, 위치 등과 같은 이미지에 대한 정보를 제공하는 중요한 메타데이터가 포함되어 있습니다. 이 튜토리얼에서는 PSD 파일을 조작하기 위한 강력한 라이브러리인 Aspose.PSD for Java를 사용하여 EXIF 태그를 효율적으로 읽는 방법에 중점을 둡니다.
 ## 전제조건
 이 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
 - Java 프로그래밍에 대한 기본 지식.
@@ -19,7 +19,6 @@ Java 개발 영역에서는 이미지에서 메타데이터를 처리하고 추�
 시작하려면 Java용 Aspose.PSD에서 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

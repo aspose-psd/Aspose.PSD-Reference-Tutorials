@@ -121,7 +121,7 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter un calque de trait avec un motif dans Aspose.PSD pour .NET. Cette bibliothèque polyvalente permet aux développeurs de créer des conceptions visuellement attrayantes et d'améliorer la flexibilité des fichiers PSD.
+Félicitations! Vous avez appris avec succès comment ajouter un calque de trait avec un motif dans Aspose.PSD pour .NET. Cette bibliothèque polyvalente permet aux développeurs de créer des conceptions visuellement attrayantes et d'améliorer la flexibilité des fichiers PSD.
 
 ## FAQ
 
@@ -131,11 +131,11 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec différentes versions de Visu
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
+ A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
 
 ### Q3 : Existe-t-il des exemples de fichiers PSD disponibles pour les tests ?
 
- A3 : Vous pouvez trouver des exemples de fichiers PSD dans la documentation.[ici](https://reference.aspose.com/psd/net/).
+ A3 : Vous pouvez trouver des exemples de fichiers PSD dans la documentation[ici](https://reference.aspose.com/psd/net/).
 
 ### Q4 : Aspose.PSD est-il adapté au traitement par lots de fichiers PSD ?
 

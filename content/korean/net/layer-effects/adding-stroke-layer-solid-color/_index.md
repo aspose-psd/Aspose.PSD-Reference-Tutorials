@@ -34,7 +34,7 @@ using Aspose.PSD.FileFormats.Core.Blending;
 
 ## 1단계: PSD 파일 로드
 
-스트로크 레이어로 향상시키려는 PSD 파일을 로드하는 것부터 시작합니다. 파일 경로가 올바른지 확인하세요.
+스트로크 레이어로 향상시키려는 PSD 파일을 로드하는 것부터 시작하세요. 파일 경로가 올바른지 확인하세요.
 
 ```csharp
 string dataDir = "Your Document Directory";

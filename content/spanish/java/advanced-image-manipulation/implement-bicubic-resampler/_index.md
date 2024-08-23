@@ -35,7 +35,7 @@ import com.aspose.psd.imageoptions.PsdOptions;
 
 ## Paso 1: cargue la imagen
 
-Comience cargando la imagen cuyo tamaño desea cambiar en su aplicación Java. Utilizar el`Image.load` método de Aspose.PSD.
+Comience cargando la imagen cuyo tamaño desea cambiar en su aplicación Java. Utilice el`Image.load` método de Aspose.PSD.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -64,7 +64,7 @@ imageBellStripes.resize(300, 300, ResizeType.Bell);
 imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 ```
 
-Repita estos pasos según sea necesario para su caso de uso específico, ajustando parámetros como las rutas de los archivos y las dimensiones en consecuencia.
+Repita estos pasos según sea necesario para su caso de uso específico, ajustando parámetros como las rutas de archivo y las dimensiones en consecuencia.
 
 ## Conclusión
 
@@ -76,7 +76,7 @@ Repita estos pasos según sea necesario para su caso de uso específico, ajustan
 
 R1: Sí, Aspose.PSD para Java admite varios formatos de imagen, incluidos PSD, PNG, JPEG y más.
 
-### P2: ¿Hay disponible una licencia temporal para Aspose.PSD para Java?
+### P2: ¿Hay una licencia temporal disponible para Aspose.PSD para Java?
 
  R2: Sí, puede obtener una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/).
 
@@ -86,7 +86,7 @@ R1: Sí, Aspose.PSD para Java admite varios formatos de imagen, incluidos PSD, P
 
 ### P4: ¿Puedo descargar la biblioteca Aspose.PSD para Java?
 
- R4: Sí, descargue la biblioteca desde la página de lanzamientos.[aquí](https://releases.aspose.com/psd/java/).
+ R4: Sí, descargue la biblioteca desde la página de lanzamientos[aquí](https://releases.aspose.com/psd/java/).
 
 ### P5: ¿Cómo compro Aspose.PSD para Java?
 

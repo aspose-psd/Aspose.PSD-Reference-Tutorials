@@ -12,7 +12,7 @@ url: /ko/java/advanced-techniques/
 Java 이미지 처리 기술을 향상시킬 준비가 되셨습니까? Java용 Aspose.PSD를 사용하여 포괄적인 튜토리얼을 살펴보고 고급 기술의 영역을 열어보세요. 몇 가지 주요 튜토리얼을 자세히 살펴보겠습니다.
 
 ## Java용 Aspose.PSD를 사용하여 이미지 그레이스케일
-Aspose.PSD를 사용하여 Java에서 이미지를 쉽게 그레이스케일링하는 기술을 알아보세요. 우리의 단계별 튜토리얼은 프로세스를 안내하여 원활한 결과를 보장합니다.[더 읽어보세요](./grayscale-image/)
+ Aspose.PSD를 사용하여 Java에서 이미지를 손쉽게 그레이스케일링하는 기술을 알아보세요. 우리의 단계별 튜토리얼은 프로세스를 안내하여 원활한 결과를 보장합니다.[더 읽어보세요](./grayscale-image/)
 
 ## Java용 Aspose.PSD를 사용하여 스트림에서 이미지 로드
  Aspose.PSD를 사용하여 Java에서 PSD 이미지를 원활하게 로드하는 복잡한 과정을 알아보세요. 우리의 상세한 가이드는 효율적인 이미지 처리를 보장합니다.[더 읽어보세요](./loading-images-from-stream/)
@@ -23,10 +23,10 @@ Aspose.PSD를 사용하여 Java에서 이미지를 쉽게 그레이스케일링�
 더 많은 것을 원하시나요? 다양한 색상으로 텍스트를 렌더링하는 방법, 작업자 스레드를 사용하여 이미지를 효율적으로 저장하는 방법, 글꼴 관리에 대한 포괄적인 가이드를 살펴보세요. Aspose.PSD를 사용하여 이미지 디자인과 Java 개발을 향상시키세요.
 
 ## 텍스트 레이어에서 다양한 색상으로 텍스트 렌더링
-Aspose.PSD for Java를 사용하여 PSD 텍스트 레이어에서 다양한 색상으로 텍스트를 렌더링하는 기술을 알아보세요. 우리의 단계별 가이드는 원활한 결과를 보장합니다.[더 읽어보세요](./render-text-different-colors/)
+ Aspose.PSD for Java를 사용하여 PSD 텍스트 레이어에서 다양한 색상으로 텍스트를 렌더링하는 기술을 알아보세요. 우리의 단계별 가이드는 원활한 결과를 보장합니다.[더 읽어보세요](./render-text-different-colors/)
 
 ## Java용 Aspose.PSD를 사용하여 작업자 스레드를 사용하여 이미지 저장
- Aspose.PSD를 사용하여 Java에서 멀티스레드 이미지 처리를 살펴보세요. 작업자 스레드를 사용하여 이미지를 효율적으로 저장하는 기술을 익히십시오.[더 읽어보세요](./save-images-worker-threads/)
+Aspose.PSD를 사용하여 Java에서 멀티스레드 이미지 처리를 살펴보세요. 작업자 스레드를 사용하여 이미지를 효율적으로 저장하는 기술을 익히십시오.[더 읽어보세요](./save-images-worker-threads/)
 
 ## Java용 Aspose.PSD에서 누락된 글꼴을 대체하기 위한 설정
  Aspose.PSD for Java에서 누락된 글꼴을 교체하는 방법에 대한 포괄적인 가이드를 살펴보세요. 원활한 글꼴 관리로 이미지 디자인을 향상시키세요.[더 읽어보세요](./settings-replacing-missing-fonts/)

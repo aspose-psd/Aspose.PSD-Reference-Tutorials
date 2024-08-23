@@ -50,7 +50,7 @@ String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Шаг 3. Загрузите и кэшируйте изображение.
+## Шаг 3. Загрузите и кэшируйте изображение
 
  Загрузите PSD-файл в`RasterImage` объект и кэшировать его данные.
 
@@ -69,7 +69,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 
 ## Шаг 5. Сохраните обрезанное изображение
 
- Сохраните обрезанное изображение, используя определенный прямоугольник и`JpegOptions` класс.
+ Сохраните обрезанное изображение, используя определенный прямоугольник и`JpegOptions` сорт.
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);
@@ -101,4 +101,4 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 
 ### В5: Есть ли бесплатная пробная версия?
 
- О5: Да, вы можете изучить Aspose.PSD с помощью бесплатной пробной версии. Загрузить[здесь](https://releases.aspose.com/).
+ О5: Да, вы можете изучить Aspose.PSD с помощью бесплатной пробной версии. Загрузите это[здесь](https://releases.aspose.com/).

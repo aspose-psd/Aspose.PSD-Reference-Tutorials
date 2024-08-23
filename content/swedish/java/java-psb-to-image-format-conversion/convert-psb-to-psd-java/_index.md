@@ -19,7 +19,6 @@ Innan du dyker in i konverteringsprocessen, se till att du har följande föruts
 Importera först de nödvändiga Aspose.PSD-klasserna i din Java-fil:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.FileFormatVersion;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
@@ -44,7 +43,7 @@ Spara den konverterade PSD-filen med den laddade PSB-bilden och alternativen:
 ```java
 image.save(dataDir + "ConvertFromPsb_out.psd", options);
 ```
- Byta ut`"ConvertFromPsb_out.psd"` med önskat utdatafilnamn och sökväg.
+ Ersätta`"ConvertFromPsb_out.psd"` med önskat utdatafilnamn och sökväg.
 
 ## Slutsats
 Genom att följa dessa steg har du framgångsrikt konverterat en PSB-fil till PSD-format med Aspose.PSD för Java. Denna funktion förbättrar dina Java-applikationer genom att tillhandahålla sömlös integration med Photoshop-filformat.

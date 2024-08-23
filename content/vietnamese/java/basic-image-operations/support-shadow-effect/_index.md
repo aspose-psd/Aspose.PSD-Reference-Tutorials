@@ -99,7 +99,7 @@ A1: Chắc chắn rồi! Aspose.PSD cho Java là một thư viện mạnh mẽ �
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể khám phá phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Q4: Tôi có thể tìm tài liệu chi tiết ở đâu?
 
@@ -107,4 +107,4 @@ A1: Chắc chắn rồi! Aspose.PSD cho Java là một thư viện mạnh mẽ �
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho Java?
 
- A5: Tham gia diễn đàn cộng đồng.[đây](https://forum.aspose.com/c/psd/34) cho bất kỳ truy vấn hỗ trợ.
+ A5: Tham gia diễn đàn cộng đồng[đây](https://forum.aspose.com/c/psd/34) cho bất kỳ truy vấn hỗ trợ.

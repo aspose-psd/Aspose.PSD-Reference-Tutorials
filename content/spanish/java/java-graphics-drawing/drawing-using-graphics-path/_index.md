@@ -12,7 +12,7 @@ Crear y manipular imágenes mediante programación puede ser una tarea apasionan
 ## Requisitos previos
 Antes de pasar a la parte de codificación, asegúrese de tener los siguientes requisitos previos:
 1.  Kit de desarrollo de Java (JDK): una versión estable de JDK instalada en su máquina. Puedes descargarlo desde[sitio de oráculo](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Biblioteca Aspose.PSD para Java: Descargue la biblioteca Aspose.PSD para Java desde[aquí](https://releases.aspose.com/psd/java/). Después de la descarga, agregue el archivo JAR a la ruta de clases de su proyecto.
+2.  Biblioteca Aspose.PSD para Java: Descargue la biblioteca Aspose.PSD para Java desde[aquí](https://releases.aspose.com/psd/java/). Después de la descarga, agregue el archivo JAR a la ruta de clase de su proyecto.
 3. Entorno de desarrollo integrado (IDE): ya sea Eclipse, IntelliJ IDEA o cualquier otro, necesita un IDE para escribir y ejecutar código Java.
 Con estos requisitos previos implementados, exploremos cómo crear imágenes visualmente atractivas utilizando la clase Graphics Path.
 ## Importar paquetes
@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Aspose.PSD es una biblioteca que permite a los desarrolladores trabajar con arch
 ### ¿Puedo usar Aspose.PSD para formatos distintos a PSD?
 A partir de esta guía, Aspose.PSD se ocupa específicamente de archivos PSD pero ofrece extensiones para manejar diferentes formatos de imagen.
 ### ¿Hay una versión de prueba disponible para Aspose.PSD?
- Sí, puedes acceder a una prueba gratuita de Aspose.PSD.[aquí](https://releases.aspose.com/).
+ Sí, puedes acceder a una prueba gratuita de Aspose.PSD[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo comprar Aspose.PSD?
  Puedes comprar Aspose.PSD desde[aquí](https://purchase.aspose.com/buy).
 ### ¿Dónde puedo obtener soporte para Aspose.PSD?

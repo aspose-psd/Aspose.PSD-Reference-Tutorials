@@ -15,7 +15,7 @@ url: /ar/java/advanced-image-effects/add-stroke-layer-color/
 
 قبل الشروع في هذه الرحلة الإبداعية، تأكد من توفر المتطلبات الأساسية التالية:
 
--  مكتبة Aspose.PSD: قم بتنزيل وإعداد مكتبة Aspose.PSD باتباع الخطوات التالية:[توثيق](https://reference.aspose.com/psd/java/).
+-  مكتبة Aspose.PSD: قم بتنزيل وإعداد مكتبة Aspose.PSD باتباع الخطوات التالية:[الوثائق](https://reference.aspose.com/psd/java/).
 
 - Java Development Kit (JDK): تأكد من تثبيت Java على نظامك.
 

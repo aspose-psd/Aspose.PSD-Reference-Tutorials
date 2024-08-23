@@ -17,7 +17,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 1. Java-utvecklingsmiljö: Se till att du har en Java-utvecklingsmiljö inställd på din maskin.
 
-2. Aspose.PSD Library: Ladda ner och installera Aspose.PSD-biblioteket för Java från[här](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD Library: Ladda ner och installera Aspose.PSD-biblioteket för Java från[här](https://releases.aspose.com/psd/java/).
 
 3. PSD-dokument: Förbered ett PSD-dokument där du vill använda färgöverläggseffekten.
 
@@ -109,4 +109,4 @@ S2: Ja, Aspose.PSD är kompatibel med populära Java IDEs som Eclipse och Intell
 
 ### F5: Finns det några gratis provversioner tillgängliga för Aspose.PSD?
 
- A5: Ja, utforska[gratis provperiod](https://releases.aspose.com/)version innan du gör ett köp.
+ A5: Ja, utforska[gratis provperiod](https://releases.aspose.com/) version innan du gör ett köp.

@@ -14,18 +14,17 @@ Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin ol
 - Java programlamanın temel bilgisi.
 - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
 - IntelliJ IDEA veya Eclipse gibi Java için IDE (Entegre Geliştirme Ortamı).
--  Java kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[Java İndirme sayfası için Aspose.PSD](https://releases.aspose.com/psd/java/).
+- Java kütüphanesi için Aspose.PSD. adresinden indirebilirsiniz.[Java İndirme sayfası için Aspose.PSD](https://releases.aspose.com/psd/java/).
 ## Paketleri İçe Aktar
 Öncelikle gerekli paketleri Aspose.PSD ve Java'dan içe aktarın:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Aspose.PSD kullanarak Java'da EXIF segmentine küçük resim ekleme işlemini ayrıntılı adımlara ayıralım:
+Aspose.PSD'yi kullanarak Java'da EXIF segmentine küçük resim ekleme işlemini ayrıntılı adımlara ayıralım:
 ## 1. Adım: PSD Görüntüsünü Yükleyin
 PSD görüntü dosyasını bir PsdImage nesnesine yükleyin.
 ```java

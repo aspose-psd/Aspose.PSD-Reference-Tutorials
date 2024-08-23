@@ -9,7 +9,7 @@ url: /hu/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
 ## Bevezetés
 
-A Java-fejlesztés folyamatosan változó környezetében a hatékony képfeldolgozás kulcsfontosságú szempont, amellyel a fejlesztők gyakran küzdenek. Az Aspose.PSD for Java hatékony megoldásként jelenik meg, zökkenőmentes élményt nyújtva a képek átméretezéséhez a Resize Type Enumeration további előnyével. Ebben az oktatóanyagban az Aspose.PSD for Java használatával történő képek átméretezésének bonyolultságaiba fogunk belemenni, az egyes lépéseket lebontva az átfogó megértés érdekében.
+A Java-fejlesztés folyamatosan változó környezetében a hatékony képfeldolgozás kulcsfontosságú szempont, amellyel a fejlesztők gyakran küzdenek. Az Aspose.PSD for Java hatékony megoldásként jelenik meg, zökkenőmentes élményt nyújtva a képek átméretezéséhez a Resize Type Enumeration további előnyével. Ebben az oktatóanyagban a képek Aspose.PSD for Java használatával történő átméretezésének bonyolultságába fogunk beleásni, az egyes lépéseket lebontva az átfogó megértés érdekében.
 
 ## Előfeltételek
 
@@ -73,7 +73,7 @@ A1: Abszolút! Az Aspose.PSD for Java célja, hogy bármilyen méretű projektet
 
 ### 2. kérdés: Használhatok a Lanczos Resample-től eltérő átméretezési típust?
 
-2. válasz: Igen, az Aspose.PSD for Java különféle átméretezési típusokat kínál, mint például a Nearest Neighbor, Bicubic és egyebek. Tekintse meg a dokumentációt egy átfogó listaért.
+2. válasz: Igen, az Aspose.PSD for Java különféle átméretezési típusokat kínál, mint például a Nearest Neighbour, Bicubic és egyebek. Tekintse meg a dokumentációt egy átfogó listaért.
 
 ### 3. kérdés: Hol találok további támogatást az Aspose.PSD for Java számára?
 
@@ -81,8 +81,8 @@ A1: Abszolút! Az Aspose.PSD for Java célja, hogy bármilyen méretű projektet
 
 ### 4. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
 
- V5: Ideiglenes engedély megszerzéséhez látogasson el a következő oldalra[ez a link](https://purchase.aspose.com/temporary-license/).
+ V5: Ideiglenes engedély megszerzéséhez látogasson el a következő oldalra[ezt a linket](https://purchase.aspose.com/temporary-license/).

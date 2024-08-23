@@ -49,7 +49,7 @@ Ubah penundaan frame tertentu. Di sini, kami mengubah penundaan frame 2 menjadi 
 timeline.Frames[1].Delay = 15;
 ```
 ## Langkah 5: Edit Status Lapisan
-Ubah opacity 'Layer 1' pada frame tertentu. Dalam contoh ini, kami mengatur opacity menjadi 50 pada frame 2:
+Ubah opacity 'Layer 1' pada frame tertentu. Dalam contoh ini, kami mengatur opacity ke 50 pada frame 2:
 ```csharp
 LayerState layerState11 = timeline.Frames[1].LayerStates[1];
 layerState11.Opacity = 50;
@@ -99,11 +99,11 @@ A2: Kelas Timeline dirancang khusus untuk gambar PSD. Untuk manipulasi GIF, liha
 
 ### Q3: Di mana saya dapat menemukan dukungan tambahan atau mendiskusikan masalah?
 
- A3: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas dan diskusi isu.
+ A3: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas dan diskusi masalah.
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
- A4: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Apa manfaat utama menggunakan Aspose.PSD untuk .NET?
 

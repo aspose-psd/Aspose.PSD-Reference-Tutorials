@@ -2,7 +2,7 @@
 title: Konversi PSB Java ke Format Gambar
 linktitle: Konversi PSB Java ke Format Gambar
 second_title: Asumsikan.PSD Java API
-description: Konversi PSB ke JPG, PDF, dan PSD dengan mudah di Java menggunakan Aspose.PSD. Ikuti tutorial kami untuk konversi gambar yang lancar dan tingkatkan proyek Anda.
+description: Konversi PSB ke JPG, PDF, dan PSD dengan mudah di Java menggunakan Aspose.PSD. Ikuti tutorial kami untuk konversi gambar yang lancar dan sempurnakan proyek Anda.
 type: docs
 weight: 22
 url: /id/java/java-psb-to-image-format-conversion/

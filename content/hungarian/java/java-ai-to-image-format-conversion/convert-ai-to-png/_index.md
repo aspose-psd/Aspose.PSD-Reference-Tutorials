@@ -19,13 +19,12 @@ Mielőtt elkezdenénk, néhány dolgot meg kell tennie:
 Először is importálnia kell a szükséges Aspose.PSD csomagokat a Java projektbe. Állítsuk be a környezetedet.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 Most, hogy beállítottuk a környezetünket, bontsuk le az átalakítási folyamatot könnyen követhető lépésekre.
-## 1. lépés: Töltse be az AI-fájlt
+## 1. lépés: Töltse be az AI fájlt
 Az átalakítási folyamat első lépése az AI-fájl betöltése a Java alkalmazásba az Aspose.PSD könyvtár használatával.
 ```java
 String dataDir = "Your Document Directory"; 
@@ -44,7 +43,7 @@ Végül mentse a betöltött AI-fájlt PNG-képként a megadott beállításokka
 String outFileName = dataDir + "34992OStroke.png";
 image.save(outFileName, options);
 ```
-És ez az! Az AI-fájlt sikeresen konvertáltuk PNG-re.
+És ennyi! Az AI-fájlt sikeresen konvertáltuk PNG-re.
 ## Következtetés
 Az Aspose.PSD segítségével gyerekjáték az AI-fájlok PNG-re konvertálása Java nyelven. Az ebben az útmutatóban ismertetett lépések követésével könnyedén integrálhatja ezt a funkciót Java-alkalmazásaiba. Akár grafikus alkalmazáson dolgozik, akár fájlok kötegelt konvertálására van szüksége, az Aspose.PSD biztosítja a munka hatékony elvégzéséhez szükséges eszközöket.
 ## GYIK

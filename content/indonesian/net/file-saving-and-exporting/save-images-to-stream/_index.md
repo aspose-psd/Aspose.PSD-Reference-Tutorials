@@ -82,11 +82,11 @@ Selamat! Anda telah berhasil mempelajari cara menyimpan gambar ke aliran menggun
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda bisa mendapatkan uji coba gratis.[Di Sini](https://releases.aspose.com/)untuk menjelajahi fitur Aspose.PSD sebelum melakukan pembelian.
+ A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/)untuk menjelajahi fitur Aspose.PSD sebelum melakukan pembelian.
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara?
 
- A4: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+ A4: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
 
 ### Q5: Dimana saya bisa membeli Aspose.PSD?
 

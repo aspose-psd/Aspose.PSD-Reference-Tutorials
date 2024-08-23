@@ -13,7 +13,7 @@ När det gäller .NET-utveckling framstår Aspose.PSD som ett kraftfullt verktyg
 
 ## Förutsättningar
 
-Innan du börjar med den här handledningen, se till att du har följande:
+Innan du börjar med denna handledning, se till att du har följande:
 
 ### 1. Aspose.PSD för .NET Library
  Se till att du har Aspose.PSD för .NET-biblioteket installerat i ditt projekt. Om inte kan du ladda ner den från[här](https://releases.aspose.com/psd/net/).
@@ -102,7 +102,7 @@ A2: Måtten är anpassningsbara; justera parametrarna i metoden Image.Create i e
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- A3: Ja, du kan komma åt den kostnadsfria provperioden.[här](https://releases.aspose.com/).
+ A3: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.PSD?
 
@@ -110,4 +110,4 @@ A2: Måtten är anpassningsbara; justera parametrarna i metoden Image.Create i e
 
 ### F5: Finns tillfälliga licenser tillgängliga?
 
- A5: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

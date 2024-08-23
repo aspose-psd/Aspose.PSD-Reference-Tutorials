@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -66,7 +65,7 @@ hatchbrush.setHatchStyle(HatchStyle.Vertical);
 graphics.fillPath(hatchbrush, graphicspath);
 ```
 ในขั้นตอนนี้ เราวาดเส้นทางโดยใช้ปากกาสีน้ำเงิน และเติมด้วยรูปแบบฟักแนวตั้งโดยใช้แปรงฟัก
-## ขั้นตอนที่ 4: บันทึกภาพ
+## ขั้นตอนที่ 4: บันทึกรูปภาพ
 สุดท้าย ให้บันทึกรูปภาพลงในไฟล์:
 ```java
 String dataDir = "Your Document Directory";

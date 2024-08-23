@@ -79,7 +79,7 @@ finally
 
 ## Következtetés
 
-Gratulálunk! Sikeresen renderelt szöveget különböző színekkel egy szövegrétegben az Aspose.PSD for Java segítségével. Ez az oktatóanyag alapot nyújt a PSD-fájlok szövegkezeléséhez, lehetőséget teremtve a kreatív és dinamikus képgenerálásra.
+Gratulálok! Sikeresen renderelt szöveget különböző színekkel egy szövegrétegben az Aspose.PSD for Java segítségével. Ez az oktatóanyag alapot nyújt a PSD-fájlok szövegkezeléséhez, lehetőséget teremtve a kreatív és dinamikus képgenerálásra.
 
 ## GYIK
 

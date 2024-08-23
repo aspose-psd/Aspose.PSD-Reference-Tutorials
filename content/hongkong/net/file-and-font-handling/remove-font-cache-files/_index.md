@@ -88,7 +88,7 @@ A2：雖然可能，但建議刪除字體快取文件，以防止應用程式中
 
 ### Q4：Aspose.PSD for .NET 有臨時授權嗎？
 
- A4：是的，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
+ A4：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
 
 ### Q5：我可以購買 Aspose.PSD for .NET 嗎？
 

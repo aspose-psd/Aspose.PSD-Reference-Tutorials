@@ -96,4 +96,4 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Q5: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
- A5: 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).

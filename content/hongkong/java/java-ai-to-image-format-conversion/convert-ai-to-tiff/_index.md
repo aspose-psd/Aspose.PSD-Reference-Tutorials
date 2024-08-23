@@ -12,7 +12,7 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 ## 先決條件
 在深入轉換過程之前，請確保您具備以下條件：
 1. Java 開發工具包 (JDK)：確保安裝了 JDK 8 或更高版本。
-2.  Aspose.PSD for Java：下載[Aspose.PSD for Java 函式庫](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD for Java：下載[Aspose.PSD for Java 函式庫](https://releases.aspose.com/psd/java/).
 3. 整合開發環境 (IDE)：您選擇的任何 IDE（例如 IntelliJ IDEA、Eclipse）。
 4. AI 檔案：您要轉換的 Adobe Illustrator (.ai) 檔案。
 5. TiffOptions：指定 TIFF 格式詳細資訊時必需的。
@@ -20,14 +20,13 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 首先，您需要從 Aspose.PSD 匯入必要的套件。這些套件提供了處理 AI 和 TIFF 檔案所需的類別和方法。
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 ## 第 1 步：設定您的項目
 在開始編碼之前，請設定專案環境。確保您已將 Aspose.PSD for Java 新增至專案的依賴項。這可以透過直接包含 JAR 檔案或使用 Maven 或 Gradle 等建置工具來完成。
-## 第二步：載入AI文件
+## 第2步：載入AI文件
 若要開始轉換，請使用 Aspose.PSD 載入 AI 檔案。此步驟至關重要，因為它將 AI 檔案的內容讀取到`AiImage`目的。
 ```java
 String dataDir = "Your Document Directory";
@@ -46,7 +45,7 @@ Aspose.PSD 提供了各種選項來配置 TIFF 檔案格式。在此範例中，
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.TiffDeflateRgba);
 ```
 ## 步驟5：將AI檔案另存為TIFF
-最後，使用`save`方法將AI檔案轉換並儲存為TIFF檔案。這一步完成了轉換過程。
+最後，使用`save`方法將 AI 檔案轉換並儲存為 TIFF 檔案。這一步完成了轉換過程。
 ```java
 image.save(outFileName, tiffOptions);
 ```

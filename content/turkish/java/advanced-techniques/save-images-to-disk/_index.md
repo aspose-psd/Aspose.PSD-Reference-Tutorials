@@ -68,7 +68,7 @@ Aspose.PSD ile sorunsuz bir süreç sağlamak için, kaydetmek istediğiniz her 
 
 ## Çözüm
 
-Aspose.PSD for Java ile görüntüleri diske kaydetmek, görüntü işlemede basit ama önemli bir görevdir. Kütüphanenin yetenekleri ve özetlenen adımlarla, bu işlevselliği Java uygulamalarınıza zahmetsizce entegre edebilirsiniz.
+Aspose.PSD for Java ile görüntüleri diske kaydetmek, görüntü işlemede basit ama önemli bir görevdir. Kitaplığın yetenekleri ve özetlenen adımlarla, bu işlevselliği Java uygulamalarınıza zahmetsizce entegre edebilirsiniz.
 
 ## SSS'ler
 
@@ -90,4 +90,4 @@ Cevap1: Evet, Aspose.PSD for Java, JPEG, BMP, TIFF ve daha fazlası dahil olmak 
 
 ### S5: Aspose.PSD for Java için geçici lisanslar mevcut mu?
 
- Cevap5: Evet, geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

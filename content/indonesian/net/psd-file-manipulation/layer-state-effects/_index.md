@@ -73,12 +73,12 @@ Selamat! Anda telah berhasil bekerja dengan Layer State Effects di Aspose.PSD un
 
 ### A3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat menjelajahi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara?
 
- A4: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Butuh dukungan atau ada pertanyaan?
+### Q5: Butuh dukungan atau punya pertanyaan?
 
  A5: Bergabunglah dengan[Forum komunitas Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk bantuan.

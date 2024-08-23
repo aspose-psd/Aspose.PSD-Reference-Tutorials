@@ -50,7 +50,7 @@ Siap membawa desain grafis Java Anda ke level berikutnya? Kuasai efek gambar tin
 
 Buka potensi Aspose.PSD untuk Java dan mulailah perjalanan kreativitas dan inovasi. Tutorial kami memberikan panduan yang Anda perlukan untuk menjadi pengembang pemrosesan gambar Java yang mahir. Selami, jelajahi, dan tingkatkan keterampilan Anda hari ini!
 ## Aspose.PSD untuk Tutorial Java
-### [Pengolahan citra](./image-processing/)
+### [Pemrosesan Gambar](./image-processing/)
 Buka potensi Aspose.PSD untuk Java dalam pemrosesan gambar. Pelajari cara menerapkan filter Gaussian, Wiener, Median, dan Motion Wiener langkah demi langkah.
 ### [Konversi PSD](./psd-conversion/)
 Tingkatkan pemrosesan gambar Java Anda dengan Aspose.PSD! Pelajari cara mengonversi CMYK PSD ke CMYK TIFF, menguasai konversi warna, memotong file PSD, dan banyak lagi. 
@@ -69,6 +69,20 @@ Jelajahi Aspose.PSD untuk tutorial Java tentang gambar grafis. Pelajari cara men
 ### [Konversi Java AI ke Format Gambar](./java-ai-to-image-format-conversion/)
 Konversi file AI dengan mudah ke berbagai format di Java menggunakan Aspose.PSD. Ikuti panduan komprehensif kami untuk konversi gambar yang lancar dan berkualitas tinggi.
 ### [Konversi PSB Java ke Format Gambar](./java-psb-to-image-format-conversion/)
-Konversi PSB ke JPG, PDF, dan PSD dengan mudah di Java menggunakan Aspose.PSD. Ikuti tutorial kami untuk konversi gambar yang lancar dan sempurnakan proyek Anda.
+Konversi PSB ke JPG, PDF, dan PSD dengan mudah di Java menggunakan Aspose.PSD. Ikuti tutorial kami untuk konversi gambar yang lancar dan tingkatkan proyek Anda.
 ### [Pemrosesan Gambar Java JPEG](./java-jpeg-image-processing/)
 Temukan Aspose.PSD untuk tutorial Java. Pelajari cara menangani pemrosesan EXIF, JFIF, JPEG, dan lainnya dengan panduan langkah demi langkah dan contoh kode.
+### [Mengoptimalkan File PNG](./optimizing-png-files/)
+Jelajahi tutorial komprehensif untuk mengoptimalkan file PNG menggunakan Aspose.PSD untuk Java, yang mencakup filter, perubahan warna latar belakang, kompresi, resolusi, kedalaman bit, dan transparansi.
+### [Memodifikasi dan Mengonversi Gambar PSD](./modifying-converting-psd-images/)
+Sempurnakan file PSD Anda dengan berbagai penyesuaian dan efek menggunakan Aspose.PSD untuk Java. Tutorial langkah demi langkah untuk manipulasi warna, tanda air, dan banyak lagi.
+### [Modifikasi dan Konversi Gambar PSD](./psd-image-modification-conversion/)
+Temukan tutorial penting Aspose.PSD untuk Java. Pelajari cara menangani file PSD, mengekspor lapisan, menerapkan efek, dan banyak lagi dengan panduan langkah demi langkah.
+### [Manajemen dan Efek Lapisan PSD](./psd-layer-management-effects/)
+Jelajahi tutorial komprehensif tentang manajemen dan efek lapisan PSD dengan Aspose.PSD untuk Java. Pelajari cara menggabungkan, meratakan, dan menyesuaikan lapisan PSD dengan mudah.
+### [Fitur dan Efek Lapisan PSD Tingkat Lanjut](./advanced-psd-layer-features-effects/)
+Jelajahi fitur dan efek lapisan PSD tingkat lanjut dengan Aspose.PSD untuk Java. Pelajari cara memanipulasi lapisan, menambahkan efek, dan mendukung berbagai sumber daya dalam file PSD.
+### [Kompresi dan Konfigurasi Gambar TIFF](./tiff-image-compression-configuration/)
+Kelola gambar TIFF secara efisien dengan Aspose.PSD untuk Java. Pelajari cara mengompresi, mengonfigurasi, dan menerapkan kompresi Adobe Deflate ke file TIFF dengan tutorial langkah demi langkah kami.
+### [Bekerja dengan File PSD](./working-with-psd-files/)
+Jelajahi tutorial Aspose.PSD untuk Java yang komprehensif, termasuk cara mengekspor grup lapisan PSD ke gambar dan memanipulasi sumber daya Clbl, Infx, dan Lspf.

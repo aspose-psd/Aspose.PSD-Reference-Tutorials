@@ -25,7 +25,6 @@ Now that you have everything set up, let's explore how to leverage Aspose.PSD fo
 Before you start coding, import the necessary packages to use Aspose.PSD classes and methods effectively in your Java application:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```

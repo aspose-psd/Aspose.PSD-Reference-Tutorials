@@ -103,7 +103,7 @@ Cevap2: Timeline sınıfı özellikle PSD görüntüleri için tasarlanmıştır
 
 ### S4: Aspose.PSD for .NET için nasıl geçici lisans alabilirim?
 
- Cevap4: Geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.PSD for .NET kullanmanın temel faydaları nelerdir?
 

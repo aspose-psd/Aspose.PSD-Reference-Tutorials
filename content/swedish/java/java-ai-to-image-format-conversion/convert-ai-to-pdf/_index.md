@@ -18,7 +18,6 @@ Innan vi börjar med koden, se till att du har följande förutsättningar på p
 För att komma igång med koden måste du importera de nödvändiga Aspose.PSD-paketen. Så här kan du göra det:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -31,7 +30,7 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.pdf";
 ```
- Byta ut`"Your Document Directory"` med den faktiska sökvägen där din AI-fil finns. Detta steg säkerställer att du har rätt sökvägar till dina käll- och målfiler.
+ Ersätta`"Your Document Directory"` med den faktiska sökvägen där din AI-fil finns. Detta steg säkerställer att du har rätt sökvägar till dina käll- och målfiler.
 ## Steg 2: Ladda AI-bilden
 Därefter måste du ladda din AI-fil med Aspose.PSD. Så här kan du göra det:
 ```java
@@ -56,14 +55,14 @@ image.save(outFileName, options);
  Den här raden kommer att konvertera din AI-bild till en PDF-fil på den angivna sökvägen. Se till att`outFileName` pekar på önskad utgångsplats.
 
 ## Slutsats
-Att konvertera AI-filer till PDF-filer i Java med Aspose.PSD är enkelt och effektivt. Genom att följa stegen som beskrivs i den här guiden kan du enkelt integrera den här funktionen i dina applikationer, vilket gör det enkelt att hantera vektorgrafik och illustrationer i PDF-format. Oavsett om du är en utvecklare, en designer eller bara utforskar möjligheterna med AI- och PDF-konverteringar, erbjuder Aspose.PSD en sömlös upplevelse.
+Att konvertera AI-filer till PDF-filer i Java med Aspose.PSD är enkelt och effektivt. Genom att följa stegen som beskrivs i den här guiden kan du enkelt integrera denna funktion i dina applikationer, vilket gör det enkelt att hantera vektorgrafik och illustrationer i PDF-format. Oavsett om du är en utvecklare, en designer eller bara utforskar möjligheterna med AI- och PDF-konverteringar, erbjuder Aspose.PSD en sömlös upplevelse.
 ## FAQ's
 ### Vad är Aspose.PSD för Java?
 Aspose.PSD är ett kraftfullt bibliotek som låter utvecklare arbeta med Photoshop- och Illustrator-filer i Java. Den stöder läsning, skrivning och konvertering av PSD- och AI-filer.
 ### Kan jag prova Aspose.PSD gratis?
  Ja! Du kan få en tillfällig licens eller ladda ner en gratis provversion från[Aspose släpper](https://releases.aspose.com/psd/java/).
 ### Vilka filformat stöder Aspose.PSD?
- Aspose.PSD stöder en mängd olika format inklusive PSD, AI, TIFF, BMP och mer. Kolla[dokumentation](https://reference.aspose.com/psd/java/) för hela listan.
+ Aspose.PSD stöder en mängd olika format inklusive PSD, AI, TIFF, BMP och mer. Kontrollera[dokumentation](https://reference.aspose.com/psd/java/) för hela listan.
 ### Hur kan jag få support för Aspose.PSD?
  Du kan besöka[Aspose Forum](https://forum.aspose.com/c/psd/34) för alla frågor eller problem du kan stöta på.
 ### Var kan jag köpa en licens för Aspose.PSD?

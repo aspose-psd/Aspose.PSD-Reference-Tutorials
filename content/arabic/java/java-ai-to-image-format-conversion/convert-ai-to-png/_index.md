@@ -8,7 +8,7 @@ weight: 13
 url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 ---
 ## مقدمة
-هل تتطلع إلى تحويل ملفات Adobe Illustrator (.AI) إلى صور PNG باستخدام Java؟ لقد جئت إلى المكان المناسب! في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة باستخدام مكتبة Aspose.PSD القوية لـ Java. سيساعدك هذا الدليل على فهم كيفية تحويل ملفات AI بسلاسة إلى ملفات PNG عالية الجودة باستخدام بضعة أسطر فقط من التعليمات البرمجية. دعونا نتعمق في الأمر!
+هل تتطلع إلى تحويل ملفات Adobe Illustrator (.AI) إلى صور PNG باستخدام Java؟ لقد أتيت إلى المكان الصحيح! في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة باستخدام مكتبة Aspose.PSD القوية لـ Java. سيساعدك هذا الدليل على فهم كيفية تحويل ملفات AI بسلاسة إلى ملفات PNG عالية الجودة باستخدام بضعة أسطر فقط من التعليمات البرمجية. دعونا نتعمق في الأمر!
 ## المتطلبات الأساسية
 قبل أن نبدأ، هناك بعض الأشياء التي يجب أن تكون لديك:
 1. Java Development Kit (JDK): تأكد من تثبيت JDK 8 أو أعلى على جهازك.
@@ -19,7 +19,6 @@ url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 أولاً، ستحتاج إلى استيراد حزم Aspose.PSD الضرورية إلى مشروع Java الخاص بك. دعونا إعداد البيئة الخاصة بك.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;

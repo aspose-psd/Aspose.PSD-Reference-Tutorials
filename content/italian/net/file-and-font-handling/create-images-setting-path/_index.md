@@ -9,7 +9,7 @@ url: /it/net/file-and-font-handling/create-images-setting-path/
 ---
 Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente strumento per manipolare e creare immagini. In questo tutorial, approfondiremo il processo di creazione di immagini utilizzando Aspose.PSD per .NET impostando un percorso. Segui queste istruzioni passo passo per sbloccare il potenziale di questa versatile libreria.
 
-## introduzione
+## Introduzione
 
 Aspose.PSD per .NET consente agli sviluppatori di lavorare senza problemi con i file Photoshop, consentendo la creazione, la manipolazione e la trasformazione delle immagini. Questo tutorial si concentra sui passaggi essenziali per creare immagini impostando un percorso utilizzando Aspose.PSD nell'ambiente .NET.
 
@@ -93,7 +93,7 @@ A2: Assolutamente! Aspose.PSD consente di eseguire l'elaborazione batch di immag
 
 ### Q4: È disponibile una prova gratuita?
 
- A4: Sì, puoi accedere a una prova gratuita di Aspose.PSD.[Qui](https://releases.aspose.com/).
+ A4: Sì, puoi accedere a una prova gratuita di Aspose.PSD[Qui](https://releases.aspose.com/).
 
 ### Q5: Come posso ottenere supporto o chiedere assistenza?
 

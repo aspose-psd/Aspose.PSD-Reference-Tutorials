@@ -82,7 +82,7 @@ betűtípus-gyorsítótár kényszerítése az Aspose.PSD for .NET-ben egy egysz
 
 ### 2. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 
- A2: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) tesztelési célú ideiglenes engedély megszerzésére.
+ A2: Látogassa meg[ezt a linket](https://purchase.aspose.com/temporary-license/) tesztelési célú ideiglenes engedély megszerzésére.
 
 ### 3. kérdés: Hol találom az Aspose.PSD for .NET részletes dokumentációját?
 

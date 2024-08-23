@@ -31,7 +31,7 @@ using Aspose.PSD.ImageOptions;
 
 ## Krok 1: Skonfiguruj projekt
 
- Upewnij się, że masz projekt skonfigurowany ze zintegrowanym Aspose.PSD dla .NET. Jeśli nie, postępuj zgodnie z[dokumentacja](https://reference.aspose.com/psd/net/) w celu uzyskania pomocy.
+ Upewnij się, że masz projekt skonfigurowany ze zintegrowanym Aspose.PSD dla .NET. Jeśli nie, postępuj zgodnie z[dokumentacja](https://reference.aspose.com/psd/net/) w celu uzyskania wskazówek.
 
 ## Krok 2: Załaduj obraz
 

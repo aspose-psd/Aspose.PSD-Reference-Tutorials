@@ -12,7 +12,7 @@ Konwersja plików AI (Adobe Illustrator) na pliki GIF w Javie może wydawać si�
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 - Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowany pakiet JDK.
--  Aspose.PSD dla biblioteki Java: Pobierz bibliotekę z[Strona pobierania Aspose.PSD dla Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD dla biblioteki Java: Pobierz bibliotekę z[Strona pobierania Aspose.PSD dla Java](https://releases.aspose.com/psd/java/).
 - Zintegrowane środowisko programistyczne (IDE): IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans, do pisania i uruchamiania kodu Java.
 - Plik AI: plik programu Adobe Illustrator, który chcesz przekonwertować.
 ## Importuj pakiety
@@ -20,7 +20,6 @@ Na początek zaimportujmy niezbędne pakiety. Będzie to obejmować podstawowy p
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -39,7 +38,7 @@ String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
 ### 2.2 Załaduj plik AI
- Użyj`Image.load` metoda ładowania pliku AI. Ta metoda wczytuje plik AI do pliku`AiImage` obiekt.
+ Skorzystaj z`Image.load` metoda ładowania pliku AI. Ta metoda wczytuje plik AI do pliku`AiImage` obiekt.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```

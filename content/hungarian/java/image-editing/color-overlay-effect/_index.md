@@ -17,7 +17,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 
 1. Java fejlesztői környezet: Győződjön meg arról, hogy be van állítva Java fejlesztői környezet a gépén.
 
-2. Aspose.PSD Library: Töltse le és telepítse a Java Aspose.PSD könyvtárat a webhelyről[itt](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD Library: Töltse le és telepítse a Java Aspose.PSD könyvtárat a webhelyről[itt](https://releases.aspose.com/psd/java/).
 
 3. PSD-dokumentum: Készítsen PSD-dokumentumot, ahol alkalmazni kívánja a Color Overlay Effect-et.
 
@@ -81,13 +81,13 @@ Adja meg a Color Overlay Effect kívánt színét és átlátszatlanságát. Nyu
 im.save(psdPathAfterChange);
 ```
 
-változások megtekintéséhez mentse a PSD-fájlt a Color Overlay Effect alkalmazása után.
+A változások megtekintéséhez mentse a PSD-fájlt a Color Overlay Effect alkalmazása után.
 
 Ismételje meg ezeket a lépéseket a Java-projektben, hogy életre keltse képeit magával ragadó színes rátétekkel!
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta a Color Overlay Effect alkalmazását az Aspose.PSD for Java használatával. Kísérletezzen különféle színekkel és átlátszatlanságokkal, hogy szabadjára engedje kreativitását a képszerkesztésben.
+Gratulálok! Sikeresen megtanulta a Color Overlay Effect alkalmazását az Aspose.PSD for Java használatával. Kísérletezzen különféle színekkel és átlátszatlanságokkal, hogy szabadjára engedje kreativitását a képszerkesztésben.
 
 ## GYIK
 
@@ -101,7 +101,7 @@ Gratulálunk! Sikeresen megtanulta a Color Overlay Effect alkalmazását az Aspo
 
 ### 3. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
- V3: Igen, az Aspose.PSD személyes és kereskedelmi projektekhez is használható. Látogatás[itt](https://purchase.aspose.com/buy) az engedély részleteiért.
+ V3: Igen, az Aspose.PSD személyes és kereskedelmi projektekhez is használható. Látogatás[itt](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
@@ -109,4 +109,4 @@ Gratulálunk! Sikeresen megtanulta a Color Overlay Effect alkalmazását az Aspo
 
 ### 5. kérdés: Rendelkezésre állnak ingyenes próbaverziók az Aspose.PSD számára?
 
- V5: Igen, fedezze fel a[ingyenes próbaverzió](https://releases.aspose.com/)verziót vásárlás előtt.
+ V5: Igen, fedezze fel a[ingyenes próbaverzió](https://releases.aspose.com/) verziót vásárlás előtt.

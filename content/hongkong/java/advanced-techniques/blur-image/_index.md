@@ -87,7 +87,7 @@ A1：當然！ Aspose.PSD 附帶全面的文件來指導所有技能水平的開
 
 ### Q3：有免費試用嗎？
 
- A3: 是的，您可以獲得免費試用。[這裡](https://releases.aspose.com/).
+ A3：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
 
 ### Q4：在哪裡可以找到 Aspose.PSD for Java 的支援？
 
@@ -95,4 +95,4 @@ A1：當然！ Aspose.PSD 附帶全面的文件來指導所有技能水平的開
 
 ### Q5：如何取得Aspose.PSD的臨時授權？
 
- A5: 您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).

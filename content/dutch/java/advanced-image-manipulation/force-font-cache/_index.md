@@ -16,7 +16,7 @@ Wilt u het cachen van lettertypen optimaliseren met Aspose.PSD voor Java? Letter
 Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
 - Java Development Kit (JDK) op uw computer geïnstalleerd.
--  Aspose.PSD voor Java-bibliotheek gedownload van de[download link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD voor Java-bibliotheek gedownload van de[downloadlink](https://releases.aspose.com/psd/java/).
 - Een voorbeeld-PSD-bestand voor testdoeleinden.
 
 Nu je alles hebt ingesteld, gaan we verder met de tutorial.
@@ -76,7 +76,7 @@ A1: Aspose.PSD voor Java is ontworpen om met verschillende Java-versies te werke
 
 ### Vraag 2: Kan ik Aspose.PSD voor commerciële doeleinden gebruiken?
 
- A2: Ja, Aspose.PSD wordt geleverd met flexibele licentieopties, inclusief commercieel gebruik. Bezoek de[aankooppagina](https://purchase.aspose.com/buy) voor meer details.
+ A2: Ja, Aspose.PSD wordt geleverd met flexibele licentieopties, inclusief commercieel gebruik. Bezoek de[aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 

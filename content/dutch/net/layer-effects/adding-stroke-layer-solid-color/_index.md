@@ -85,7 +85,7 @@ colorStroke.BlendMode = BlendMode.Color;
 
 ## Stap 4: Sla de bewerkte afbeelding op
 
-Sla de afbeelding op nadat u de wijzigingen in de streeklaag hebt aangebracht:
+Sla de afbeelding op nadat u de wijzigingen in de streeklaag hebt toegepast:
 
 ```csharp
 string exportPath = dataDir + "StrokeGradientChanged.psd";

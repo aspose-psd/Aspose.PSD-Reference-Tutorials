@@ -44,7 +44,7 @@ Aspose.PSD for Java'da oluşturma alt gölgelerini uygulamaya yönelik adım ad�
 ### [Aspose.PSD for Java ile Görüntüyü Orantılı Olarak Yeniden Boyutlandır](./resize-image-proportionally/)
 Aspose.PSD ile Java uygulamalarınızı güçlendirin. Kılavuzumuz, görüntüleri orantılı olarak zahmetsizce yeniden boyutlandırma sürecinde size yol gösterir.
 
-## Yeniden Boyutlandırma Türü Numaralandırma ile Görüntüyü Yeniden Boyutlandırma Ustalığı
+## Yeniden Boyutlandırma Türü Numaralandırmayla Görüntüyü Yeniden Boyutlandırma Ustalığı
 ### [Aspose.PSD for Java'da Yeniden Boyutlandırma Türü Numaralandırması ile yeniden boyutlandırma](./resizing-with-resize-type-enumeration/)
 Aspose.PSD ile Java'da resim yeniden boyutlandırma konusunda ustalaşın. Yeniden Boyutlandırma Türü Numaralandırmayı kullanan adım adım kılavuzumuz hassasiyet ve verimlilik sağlar.
 
@@ -67,7 +67,7 @@ Aspose.PSD for Java Bicubic Resampler ile Java görüntüsünün yeniden boyutla
 ### [Aspose.PSD for Java'da Kayıplı GIF Kompresörünü Uygulama](./implement-lossy-gif-compressor/)
 Java'nın Kayıplı GIF Kompresörü için Aspose.PSD ile web görsellerinizi sorunsuz bir şekilde optimize edin. Verimli uygulama için adım adım kılavuzumuzu izleyin. 
 ### [Java için Aspose.PSD'de Ayarlama Katmanını Ters Çevir](./invert-adjustment-layer/)
-Aspose.PSD for Java'daki Tersine Çevirme Ayarlama Katmanını keşfedin. Kusursuz PSD dosyası manipülasyonu için güçlü bir Java kütüphanesi.
+Aspose.PSD for Java'daki Ters Çevirme Ayarlama Katmanını keşfedin. Kusursuz PSD dosyası manipülasyonu için güçlü bir Java kütüphanesi.
 ### [Java için Aspose.PSD'de İşleme Renk Efekti Uygula](./rendering-color-effect/)
 Aspose.PSD'yi kullanarak Java uygulamalarınızı dinamik renk katmanlarıyla geliştirin. Kusursuz entegrasyon ve çarpıcı görsel efektler için adım adım kılavuzumuzu izleyin.
 ### [Aspose.PSD for Java'da Rendering Drop Shadow'u uygulayın](./rendering-drop-shadow/)

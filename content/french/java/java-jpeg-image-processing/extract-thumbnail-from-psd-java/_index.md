@@ -18,7 +18,6 @@ Avant de commencer, assurez-vous d'avoir la configuration suivante :
 Pour commencer, incluez le package Aspose.PSD nécessaire dans votre classe Java :
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -67,7 +66,7 @@ Dans ce didacticiel, nous avons exploré comment extraire des vignettes de fichi
 ### Qu’est-ce qu’Aspose.PSD ?
 Aspose.PSD est une bibliothèque Java qui permet aux développeurs de travailler avec PSD et d'autres formats de fichiers image par programme.
 ### Où puis-je trouver plus de documentation sur Aspose.PSD pour Java ?
- Vous pouvez vous référer au[Documentation](https://reference.aspose.com/psd/java/) pour des références API détaillées et des exemples.
+ Vous pouvez vous référer au[documentation](https://reference.aspose.com/psd/java/) pour des références API détaillées et des exemples.
 ### Puis-je essayer Aspose.PSD gratuitement avant d’acheter ?
  Oui, vous pouvez télécharger un[essai gratuit](https://releases.aspose.com/) pour évaluer les capacités de la bibliothèque.
 ### Comment puis-je obtenir des licences temporaires pour Aspose.PSD ?

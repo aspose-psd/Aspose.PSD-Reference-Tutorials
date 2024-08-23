@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 
 ## Krok 2: Załaduj obraz
 
- Skorzystaj z`Image.load` metoda ładowania pliku PSD do instancji`PsdImage` . Aplikować`PsdLoadOptions` i ustaw domyślną czcionkę zastępczą, w tym przypadku „Arial”.
+ Skorzystaj z`Image.load` metoda ładowania pliku PSD do instancji`PsdImage` . Zastosuj`PsdLoadOptions` i ustaw domyślną czcionkę zastępczą, w tym przypadku „Arial”.
 
 ```java
 PsdLoadOptions psdLoadOptions = new PsdLoadOptions(); 

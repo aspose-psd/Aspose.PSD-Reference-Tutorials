@@ -42,7 +42,7 @@ Laten we het proces van het opslaan van afbeeldingen met werkthreads in eenvoudi
 
 ```java
 public class SaveImageWorker {
-    // ... (Zie de meegeleverde code voor variabele declaraties)
+    //... (Zie de meegeleverde code voor variabele declaraties)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Constructorlogica
@@ -106,11 +106,11 @@ A1: Ja, Aspose.PSD voor Java biedt ondersteuning voor multi-threading, waardoor 
 
 ### V2: Waar kan ik gedetailleerde documentatie vinden voor Aspose.PSD voor Java?
 
- A2: U kunt de documentatie raadplegen.[hier](https://reference.aspose.com/psd/java/) voor uitgebreide informatie over Aspose.PSD voor Java.
+A2: U kunt de documentatie raadplegen[hier](https://reference.aspose.com/psd/java/) voor uitgebreide informatie over Aspose.PSD voor Java.
 
 ### V3: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor Java?
 
- A3: U kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/) om de volledige mogelijkheden van Aspose.PSD voor Java te verkennen.
+ A3: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/) om de volledige mogelijkheden van Aspose.PSD voor Java te verkennen.
 
 ### V4: Welke ondersteuningsopties zijn beschikbaar voor Aspose.PSD voor Java?
 

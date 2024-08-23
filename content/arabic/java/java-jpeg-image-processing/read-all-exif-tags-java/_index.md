@@ -19,22 +19,21 @@ url: /ar/java/java-jpeg-image-processing/read-all-exif-tags-java/
 للبدء، قم باستيراد الحزم الضرورية من Aspose.PSD لـ Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-ستسمح لك هذه الواردات بالعمل مع صور PSD واستخراج بيانات تعريف EXIF بكفاءة.
+ستسمح لك هذه الواردات بالعمل مع صور PSD واستخراج بيانات EXIF التعريفية بكفاءة.
 ## الخطوة 1: قم بتحميل صورة PSD
-أولاً، تحتاج إلى تحميل ملف الصورة PSD الذي تريد استخراج علامات EXIF منه:
+أولاً، تحتاج إلى تحميل ملف صورة PSD الذي تريد استخراج علامات EXIF منه:
 ```java
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");
 ```
  يستبدل`"Your_Document_Directory/"` مع المسار إلى الدليل الخاص بك الذي يحتوي على ملف PSD، و`"your_image.psd"` مع اسم الملف الفعلي.
 ## الخطوة 2: التكرار على موارد الصورة
-بعد ذلك، قم بالتكرار عبر موارد الصورة للعثور على بيانات EXIF:
+بعد ذلك، قم بالتكرار عبر موارد الصور للعثور على بيانات EXIF:
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || 

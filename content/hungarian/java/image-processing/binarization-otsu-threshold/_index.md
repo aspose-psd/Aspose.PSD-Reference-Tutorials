@@ -80,7 +80,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan kell végrehajtani a binarizálást az Otsu Threshold segítségével az Aspose.PSD for Java-ban. Ez a technika jelentősen javíthatja a képszegmentálást a Java-alkalmazásokban.
+Gratulálok! Sikeresen megtanulta, hogyan kell végrehajtani a binarizálást az Otsu Threshold segítségével az Aspose.PSD for Java-ban. Ez a technika jelentősen javíthatja a képszegmentálást a Java-alkalmazásokban.
 
 ## GYIK
 
@@ -94,7 +94,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell végrehajtani a binarizálást a
 
 ### 3. kérdés: Hol találom az Aspose.PSD for Java dokumentációját?
 
-A3: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/java/).
+A3: A dokumentáció elérhető[itt](https://reference.aspose.com/psd/java/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
 
@@ -102,4 +102,4 @@ A3: A dokumentáció elérhető.[itt](https://reference.aspose.com/psd/java/).
 
 ### 5. kérdés: Rendelkezésre áll ideiglenes licenc az Aspose.PSD for Java számára?
 
- V5: Igen, beszerezhet ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

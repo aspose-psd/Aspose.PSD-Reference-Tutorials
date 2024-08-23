@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /it/net/image-effects/render-drop-shadow/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nel nostro tutorial passo passo sul rendering degli effetti ombra esterna in Aspose.PSD per .NET! Se stai cercando di migliorare le tue capacità di manipolazione delle immagini utilizzando Aspose.PSD, sei nel posto giusto. In questa guida ti guideremo attraverso il processo di applicazione semplice degli effetti ombra esterna alle tue immagini.
 
@@ -107,7 +107,7 @@ A2: Assolutamente! Sentiti libero di modificare il codice per soddisfare le tue 
 
 ### Q4: È disponibile una prova gratuita per Aspose.PSD per .NET?
 
- R4: Sì, puoi esplorare una prova gratuita.[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi esplorare una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Come posso ottenere supporto o chiedere assistenza con Aspose.PSD per .NET?
 

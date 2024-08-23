@@ -73,7 +73,7 @@ Ismételje meg ezeket a lépéseket, és állítsa be a paramétereket az adott 
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan alkalmazhat Gauss- és Wiener-szűrőket színes képekre az Aspose.PSD for Java segítségével. Kísérletezzen különböző paraméterekkel a kívánt hatások elérése és a képek javítása érdekében.
+Gratulálok! Sikeresen megtanulta, hogyan alkalmazhat Gauss- és Wiener-szűrőket színes képekre az Aspose.PSD for Java segítségével. Kísérletezzen különböző paraméterekkel a kívánt hatások elérése és a képek javítása érdekében.
 
 ## GYIK
 
@@ -87,7 +87,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan alkalmazhat Gauss- és Wiener-szűrő
 
 ### 3. kérdés: Hogyan kezelhetem a kivételeket a képfeldolgozás során?
 
- 3. válasz: Csomagolja a kódot try-catch blokkokba, hogy kecsesen kezelje a kivételeket. Hivatkozni[Aspose.PSD dokumentáció](https://reference.aspose.com/psd/java/) további részletekért.
+ 3. válasz: Csomagolja a kódot try-catch blokkokba, hogy kecsesen kezelje a kivételeket. Lásd[Aspose.PSD dokumentáció](https://reference.aspose.com/psd/java/) további részletekért.
 
 ### 4. kérdés: Alkalmazhatok több szűrőt egymás után?
 

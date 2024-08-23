@@ -8,7 +8,7 @@ weight: 19
 url: /tr/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
 ## giriiş
-Java ile PSD dosya işleme dünyasına dalmak mı istiyorsunuz? PSD görsellerinden belirli EXIF etiketlerinin nasıl okunacağını anlamak istiyorsanız doğru yerdesiniz. Bu eğitim, ortamınızın kurulumundan ayrıntılı EXIF verilerinin çıkarılmasına kadar Aspose.PSD for Java'yı kullanmanın tüm süreci boyunca size yol gösterecektir. Başlayalım!
+Java ile PSD dosya işleme dünyasına dalmak mı istiyorsunuz? PSD görsellerinden belirli EXIF etiketlerinin nasıl okunacağını öğrenmek istiyorsanız doğru yerdesiniz. Bu eğitim, ortamınızın kurulumundan ayrıntılı EXIF verilerinin çıkarılmasına kadar Aspose.PSD for Java'yı kullanmanın tüm süreci boyunca size yol gösterecektir. Hadi başlayalım!
 ## Önkoşullar
 Kodun ayrıntılarına girmeden önce, uygulamanız gereken birkaç şey var:
 1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle JDK web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -19,7 +19,6 @@ Kodun ayrıntılarına girmeden önce, uygulamanız gereken birkaç şey var:
 Öncelikle gerekli Aspose.PSD paketlerini Java projenize aktarmanız gerekecek. Bunu nasıl ayarlayacağınız aşağıda açıklanmıştır.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -31,7 +30,7 @@ Başlamak için PSD dosyanızı uygulamaya yüklemeniz gerekir. Dosya yolunuzun 
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
- Bu adımda PSD dosyasını kullanarak yüklüyoruz.`Image.load()` yöntem.`PsdImage` sınıfı PSD görüntüsünü temsil etmek için kullanılır ve PSD'ye özgü işlevlere erişmek için yüklenen görüntüyü bu sınıfa aktarırız.
+ Bu adımda PSD dosyasını kullanarak yüklüyoruz.`Image.load()` Yöntem.`PsdImage` sınıfı PSD görüntüsünü temsil etmek için kullanılır ve PSD'ye özgü işlevlere erişmek için yüklenen görüntüyü bu sınıfa aktarırız.
 ## Adım 2: Görüntü Kaynaklarını Yineleyin
 Şimdi, genellikle EXIF verilerini içeren küçük resim kaynağını bulmak için görüntü kaynakları üzerinde yinelememiz gerekiyor.
 ```java
@@ -42,9 +41,9 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     }
 }
 ```
- Bir kullanarak görüntü kaynakları arasında dolaşıyoruz.`for` döngü. Amaç, örnekleri olan kaynakları belirlemektir.`ThumbnailResource` veya`Thumbnail4Resource`çünkü bunlar EXIF verilerini tutan türlerdir.
+ Bir kullanarak görüntü kaynakları arasında dolaşıyoruz.`for` döngü. Amaç, örnekleri olan kaynakları belirlemektir.`ThumbnailResource` veya`Thumbnail4Resource`, çünkü bunlar EXIF verilerini tutan türlerdir.
 ## Adım 3: EXIF Verilerini Çıkarın
-Küçük resim kaynağını belirledikten sonra EXIF verisini çıkartıp konsola yazdırıyoruz.
+Küçük resim kaynağını belirledikten sonra EXIF verilerini çıkarıp konsola yazdırıyoruz.
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource) {
     JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
@@ -60,7 +59,7 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
  Bir kullanıyoruz`if` Kaynağın bir örneği olup olmadığını kontrol etmek için ifade`ThumbnailResource` . Eğer öyleyse, onu atarız ve geri alırız.`JpegOptions` erişmek için`ExifData`Son olarak WhiteBalance, Pixel Dimensions, ISOSpeed ve FocalLength gibi çeşitli EXIF etiketlerinin çıktısını alıyoruz.
 
 ## Çözüm
-Bu adımları izleyerek Aspose.PSD for Java kullanarak bir PSD görüntüsünden belirli EXIF etiketlerini nasıl okuyacağınızı öğrendiniz. Bu süreç görselin yüklenmesini, kaynakları üzerinde yineleme yapılmasını, küçük resim kaynağının tanımlanmasını ve EXIF verilerinin çıkarılmasını içerir. Bu bilgiyle artık PSD dosyalarınızdaki EXIF verilerini keşfedip işleyebilir, böylece daha karmaşık görüntü işleme görevlerine olanak tanıyabilirsiniz.
+Bu adımları izleyerek Aspose.PSD for Java kullanarak bir PSD görüntüsünden belirli EXIF etiketlerini nasıl okuyacağınızı öğrendiniz. Bu süreç, görüntünün yüklenmesini, kaynakları üzerinde yineleme yapılmasını, küçük resim kaynağının tanımlanmasını ve EXIF verilerinin çıkarılmasını içerir. Bu bilgiyle artık PSD dosyalarınızdaki EXIF verilerini keşfedebilir ve işleyebilir, böylece daha karmaşık görüntü işleme görevlerine olanak tanıyabilirsiniz.
 ## SSS'ler
 ### EXIF verileri nedir?
 EXIF (Değiştirilebilir Görüntü Dosyası Formatı) verileri, görüntü dosyalarına gömülü olan ve kamera ayarları, tarih ve saat ile görüntü boyutları gibi bilgileri içeren meta verilerdir.

@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /cs/java/image-editing/implement-dithering/
 ---
-## Úvod
+## Zavedení
 
 Pokud chcete zlepšit vizuální kvalitu rastrových obrázků v Javě, Aspose.PSD poskytuje výkonné řešení. V tomto podrobném průvodci prozkoumáme, jak implementovat dithering pomocí Aspose.PSD pro Java. Dithering je technika, která do obrázků přidává určitý stupeň šumu, snižuje pruhování barev a zlepšuje celkovou kvalitu obrazu.
 
@@ -43,7 +43,7 @@ String sourceFile = dataDir + "sample.psd";
 PsdImage image = (PsdImage)Image.load(sourceFile);
 ```
 
-## Krok 2: Proveďte dithering
+## Krok 2: Proveďte rozklad
 
 Dále proveďte na načteném obrázku rozklad Floyda Steinberga. Tato technika pomáhá redukovat barevné pruhy a zvyšuje kvalitu obrazu.
 
@@ -73,7 +73,7 @@ Implementace rozkladu rastrových obrázků v Aspose.PSD pro Java je přímočar
 
 Odpověď 1: Ano, Aspose.PSD for Java podporuje rozklad pro různé formáty rastrových obrázků.
 
-### Q2: Jak dithering zlepšuje kvalitu obrazu?
+### Q2: Jak rozklad zlepšuje kvalitu obrazu?
 
 A2: Dithering snižuje barevné pruhy zavedením řízeného šumu, což má za následek hladší přechod.
 

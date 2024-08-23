@@ -51,7 +51,7 @@ Dans cette étape, nous initialisons une instance de la classe PsdImage et un ob
 ## Étape 2 : Création de GraphicsPath et de la figure
 
 ```csharp
-// Créez une instance de GraphicsPath et une instance de Figure, ajoutez EllipseShape, RectangleShape et TextShape à la figure.
+// Créez une instance de GraphicsPath et une instance de Figure, ajoutez EllipseShape, RectangleShape et TextShape à la figure
 GraphicsPath graphicspath = new GraphicsPath();
 Figure figure = new Figure();
 figure.AddShape(new EllipseShape(new RectangleF(0, 0, 499, 499)));
@@ -79,7 +79,7 @@ Dans cette dernière étape, nous dessinons le chemin à l'aide de la méthode D
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez implémenté avec succès le dessin avec GraphicsPath à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités pour travailler avec des fichiers Photoshop dans vos applications .NET.
+Félicitations! Vous avez implémenté avec succès le dessin avec GraphicsPath à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités pour travailler avec des fichiers Photoshop dans vos applications .NET.
 
 ## FAQ
 
@@ -101,4 +101,4 @@ A4 : Oui, Aspose.PSD pour .NET fournit des fonctionnalités permettant de travai
 
 ### Q5 : Où puis-je trouver la documentation d'Aspose.PSD pour .NET ?
 
- R5 : La documentation est disponible.[ici](https://reference.aspose.com/psd/net/).
+ A5 : La documentation est disponible[ici](https://reference.aspose.com/psd/net/).

@@ -19,7 +19,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 - Environnement de développement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre machine.
 
--  Exemple de fichier PSD : préparez un exemple de fichier PSD que vous souhaitez faire pivoter. Ajuste le`sourceFile` variable dans l'exemple de code avec le chemin d'accès à votre fichier PSD.
+-  Exemple de fichier PSD : préparez un exemple de fichier PSD que vous souhaitez faire pivoter. Ajustez le`sourceFile` variable dans l'exemple de code avec le chemin d'accès à votre fichier PSD.
 
 ## Importer des packages
 
@@ -61,7 +61,7 @@ image.save(destName, new JpegOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à faire pivoter une image à l’aide d’Aspose.PSD pour Java. Cette bibliothèque simple mais puissante ouvre un monde de possibilités de manipulation d'images dans vos applications Java.
+Félicitations! Vous avez réussi à faire pivoter une image à l’aide d’Aspose.PSD pour Java. Cette bibliothèque simple mais puissante ouvre un monde de possibilités de manipulation d'images dans vos applications Java.
 
 ## FAQ
 
@@ -83,4 +83,4 @@ A2 : Absolument ! Aspose.PSD offre la flexibilité nécessaire pour appliquer de
 
 ### Q5 : Comment puis-je obtenir une licence temporaire ?
 
- R5 : Si vous avez besoin d’un permis temporaire, vous pouvez en obtenir un.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un[ici](https://purchase.aspose.com/temporary-license/).

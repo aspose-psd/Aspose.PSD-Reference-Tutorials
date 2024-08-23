@@ -1,6 +1,6 @@
 ---
 title: Làm việc với Chế độ hòa trộn trong Aspose.PSD cho .NET
-linktitle: Làm việc với chế độ hòa trộn
+linktitle: Làm việc với chế độ hoà trộn
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của chế độ hòa trộn trong Aspose.PSD cho .NET. Hướng dẫn này hướng dẫn bạn áp dụng các chế độ hòa trộn khác nhau bằng các ví dụ từng bước.
 type: docs

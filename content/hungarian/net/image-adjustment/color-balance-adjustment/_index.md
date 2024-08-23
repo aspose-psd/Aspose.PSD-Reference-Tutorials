@@ -74,7 +74,7 @@ Sikeresen alkalmazta a Color Balance Adjustment funkciót a PSD-fájlban az Aspo
 
 ## Következtetés
 
-Gratulálunk! Megtanulta, hogyan javíthatja PSD-képeinek színegyensúlyát az Aspose.PSD for .NET segítségével. Kísérletezzen különböző egyensúlyi értékekkel a kívánt vizuális hatások eléréséhez.
+Gratulálok! Megtanulta, hogyan javíthatja PSD-képeinek színegyensúlyát az Aspose.PSD for .NET segítségével. Kísérletezzen különböző egyensúlyi értékekkel a kívánt vizuális hatások eléréséhez.
 
 ## GYIK
 

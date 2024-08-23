@@ -12,7 +12,7 @@ url: /ru/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 ## Предварительные условия
 Прежде чем приступить к процессу конвертации, убедитесь, что у вас есть следующее:
 1. Java Development Kit (JDK): убедитесь, что у вас установлен JDK 8 или более поздней версии.
-2.  Aspose.PSD для Java: Загрузите[Aspose.PSD для библиотеки Java](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD для Java: Загрузите[Aspose.PSD для библиотеки Java](https://releases.aspose.com/psd/java/).
 3. Интегрированная среда разработки (IDE): любая IDE по вашему выбору (например, IntelliJ IDEA, Eclipse).
 4. AI-файл: файл Adobe Illustrator (.ai), который вы хотите преобразовать.
 5. TiffOptions: требуется для указания деталей формата TIFF.
@@ -20,7 +20,6 @@ url: /ru/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 Сначала вам необходимо импортировать необходимые пакеты из Aspose.PSD. Эти пакеты предоставляют классы и методы, необходимые для обработки файлов AI и TIFF.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.tiff.enums.TiffExpectedFormat;
 import com.aspose.psd.imageoptions.TiffOptions;
@@ -28,13 +27,13 @@ import com.aspose.psd.imageoptions.TiffOptions;
 ## Шаг 1. Настройте свой проект
 Прежде чем приступить к написанию кода, настройте среду проекта. Убедитесь, что вы добавили Aspose.PSD для Java в зависимости вашего проекта. Это можно сделать, включив файлы JAR напрямую или используя инструмент сборки, такой как Maven или Gradle.
 ## Шаг 2. Загрузите AI-файл
- Чтобы начать преобразование, загрузите AI-файл с помощью Aspose.PSD. Этот шаг имеет решающее значение, поскольку он считывает содержимое вашего AI-файла в`AiImage` Объект Object.
+ Чтобы начать преобразование, загрузите файл AI с помощью Aspose.PSD. Этот шаг имеет решающее значение, поскольку он считывает содержимое вашего AI-файла в`AiImage` объект.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
- Здесь,`dataDir`— это каталог, в котором хранится ваш AI-файл. Измените путь соответствующим образом, чтобы он соответствовал местоположению вашего файла.
+ Здесь,`dataDir` — это каталог, в котором хранится ваш AI-файл. Измените путь соответствующим образом, чтобы он соответствовал местоположению вашего файла.
 ## Шаг 3. Определите выходной файл
 Затем укажите путь к выходному файлу, в котором будет сохранен преобразованный файл TIFF.
 ```java

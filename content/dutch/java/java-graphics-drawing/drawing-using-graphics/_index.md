@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -79,4 +78,4 @@ Absoluut, Aspose.PSD is geoptimaliseerd voor prestaties en geheugenefficiëntie.
 ### Ondersteunt Aspose.PSD meerdere afbeeldingsformaten voor export?
 Ja, Aspose.PSD ondersteunt het exporteren naar verschillende formaten zoals BMP, PNG, JPEG en TIFF.
 ### Hoe kan ik ondersteuning of hulp krijgen als ik problemen tegenkom?
-Neem contact op met de Aspose.PSD-gemeenschap op de[Helpforum](https://forum.aspose.com/c/psd/34) of overweeg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor prioritaire ondersteuning.
+Neem contact op met de Aspose.PSD-gemeenschap op de[ondersteuningsforum](https://forum.aspose.com/c/psd/34) of overweeg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor prioritaire ondersteuning.

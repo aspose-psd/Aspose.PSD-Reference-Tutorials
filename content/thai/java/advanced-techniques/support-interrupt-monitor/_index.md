@@ -77,7 +77,7 @@ try {
 ## ขั้นตอนที่ 5: ขัดจังหวะกระบวนการ
 
 ```java
-    // ขัดจังหวะกระบวนการ
+    //ขัดจังหวะกระบวนการ
     monitor.interrupt();
     System.out.println("Interrupting the save thread #" + thread.getId() + " at " + getDateTime().toString());
 
@@ -106,7 +106,7 @@ try {
 
 ### คำถามที่ 2: ฉันจะรับไลบรารี Aspose.PSD สำหรับ Java ได้อย่างไร
 
-A2: คุณสามารถดาวน์โหลดไลบรารี Aspose.PSD สำหรับ Java ได้[ที่นี่](https://releases.aspose.com/psd/java/).
+ A2: คุณสามารถดาวน์โหลดไลบรารี Aspose.PSD สำหรับ Java ได้[ที่นี่](https://releases.aspose.com/psd/java/).
 
 ### คำถามที่ 3: Aspose.PSD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
 
@@ -118,4 +118,4 @@ A2: คุณสามารถดาวน์โหลดไลบรารี 
 
 ### คำถามที่ 5: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร
 
- A5: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.PSD สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
+A5: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.PSD สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).

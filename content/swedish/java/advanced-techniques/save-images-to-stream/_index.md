@@ -9,7 +9,7 @@ url: /sv/java/advanced-techniques/save-images-to-stream/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man sparar bilder i en ström med Aspose.PSD för Java. Aspose.PSD är ett kraftfullt Java-bibliotek för att bearbeta och manipulera PSD-filer (Photoshop Document). Om du vill förbättra din Java-applikation med möjligheten att spara PSD-bilder till en ström, följ stegen som beskrivs i den här guiden.
+den här handledningen kommer vi att utforska hur man sparar bilder i en ström med Aspose.PSD för Java. Aspose.PSD är ett kraftfullt Java-bibliotek för att bearbeta och manipulera PSD-filer (Photoshop Document). Om du vill förbättra din Java-applikation med möjligheten att spara PSD-bilder till en ström, följ stegen som beskrivs i den här guiden.
 
 ## Förutsättningar
 
@@ -41,7 +41,7 @@ Låt oss nu dela upp processen i flera steg för att spara bilder i en ström:
 String dataDir = "Your Document Directory";
 ```
 
- Byta ut`"Your Document Directory"`med sökvägen till katalogen där din PSD-fil finns.
+ Ersätta`"Your Document Directory"` med sökvägen till katalogen där din PSD-fil finns.
 
 ## Steg 2: Ange källa och destination
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Skapa en`FileOutputStream` för målfilen och spara PSD-bilden i strömmen med PNG-alternativ.
+ Skapa en`FileOutputStream`för målfilen och spara PSD-bilden i strömmen med PNG-alternativ.
 
 Upprepa dessa steg efter behov för ditt specifika användningsfall.
 
@@ -88,7 +88,7 @@ S1: Ja, Aspose.PSD används ofta i professionella Java-projekt för effektiv PSD
 
 ### F3: Kan jag prova Aspose.PSD innan jag köper?
 
-A3: Ja, du kan utforska en[gratis provperiod](https://releases.aspose.com/) för att utvärdera Aspose.PSD:s kapacitet.
+ A3: Ja, du kan utforska en[gratis provperiod](https://releases.aspose.com/) för att utvärdera Aspose.PSD:s kapacitet.
 
 ### F4: Hur kan jag få en tillfällig licens för Aspose.PSD?
 

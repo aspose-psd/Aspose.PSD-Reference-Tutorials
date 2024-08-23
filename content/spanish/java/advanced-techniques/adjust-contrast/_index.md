@@ -94,7 +94,7 @@ R1: Sí, Aspose.PSD admite varios formatos de imagen, lo que brinda flexibilidad
 
 ### P2: ¿Cómo puedo obtener una licencia temporal para Aspose.PSD?
 
- R2: Puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ A2: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P3: ¿Dónde puedo encontrar la documentación de Aspose.PSD?
 

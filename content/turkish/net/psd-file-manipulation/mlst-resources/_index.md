@@ -77,7 +77,7 @@ Cevap1: Evet, Aspose.PSD for .NET, çeşitli Photoshop sürümlerinde oluşturul
 
 ### S3: Aspose.PSD for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 
-A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/).
+A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
 
 ### S4: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
@@ -85,4 +85,4 @@ A3: Belgeler mevcuttur.[Burada](https://reference.aspose.com/psd/net/).
 
 ### S5: Aspose.PSD for .NET lisansını nasıl satın alabilirim?
 
- A5: Bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ A5: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

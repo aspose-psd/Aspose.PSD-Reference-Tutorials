@@ -87,7 +87,7 @@ image.Save(destName, new GifOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appliqué avec succès les filtres gaussiens et Wiener pour améliorer la qualité de votre image à l'aide d'Aspose.PSD pour .NET. Ces filtres s'avèrent inestimables dans divers scénarios, de la réduction du bruit dans les photographies au raffinement des éléments graphiques dans les projets de conception.
+Félicitations! Vous avez appliqué avec succès les filtres gaussiens et Wiener pour améliorer la qualité de votre image à l'aide d'Aspose.PSD pour .NET. Ces filtres s'avèrent inestimables dans divers scénarios, de la réduction du bruit dans les photographies au raffinement des éléments graphiques dans les projets de conception.
 
 ## FAQ
 
@@ -97,7 +97,7 @@ A1 : Oui, Aspose.PSD prend en charge divers formats d'image, notamment PSD, BMP,
 
 ### Q2 : Quelle est l'importance de la taille du rayon et de la valeur de lissage dans les options de filtre ?
 
-A2 : La taille du rayon détermine la zone sur laquelle le filtre opère, tandis que la valeur de lissage influence le niveau de lissage appliqué à l'image.
+A2 : La taille du rayon détermine la zone sur laquelle le filtre opère, tandis que la valeur de lissage influence le niveau de lissage appliqué à l'image.
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 

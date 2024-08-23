@@ -72,7 +72,7 @@ Evet, Aspose.PSD, gelişmiş işlevsellik için diğer Java görüntü işleme k
 ### Aspose.PSD for Java'da daha fazla renk profili mevcut mu?
 Evet, Aspose.PSD çok çeşitli renk profillerini destekleyerek çeşitli görüntü manipülasyonlarına olanak tanır.
 ### Aspose.PSD toplu görüntü işleme görevleri için uygun mudur?
-Kesinlikle, Aspose.PSD toplu görüntü işlemede üstündür, bu da onu tekrarlanan görevlerin otomatikleştirilmesi için ideal kılar.
+Aspose.PSD kesinlikle toplu görüntü işlemede üstündür, bu da onu tekrarlanan görevlerin otomatikleştirilmesi için ideal kılar.
 ### Aspose.PSD ile renk dönüşümü sırasındaki hataları nasıl halledebilirim?
 Sorun giderme ve rehberlik için Aspose.PSD forumundaki kapsamlı belgelerden ve topluluk desteğinden yararlanın.
 ### Test amaçlı geçici bir lisans mevcut mu?

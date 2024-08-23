@@ -106,7 +106,7 @@ settings.TransparencyPoints[1].Opacity = 100;
 psdImage.Save(outputFilePath);
 ```
 
-Itu dia! Anda telah berhasil menambahkan Efek Gradient Overlay ke lapisan menggunakan Aspose.PSD untuk .NET.
+Itu saja! Anda telah berhasil menambahkan Efek Gradient Overlay ke lapisan menggunakan Aspose.PSD untuk .NET.
 
 ## Kesimpulan
 
@@ -128,7 +128,7 @@ A2: Ya, Anda dapat menerapkan berbagai efek, termasuk Gradient Overlay, ke satu 
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A4: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 

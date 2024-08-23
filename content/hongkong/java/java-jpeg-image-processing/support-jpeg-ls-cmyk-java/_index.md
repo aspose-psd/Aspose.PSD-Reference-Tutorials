@@ -20,7 +20,6 @@ url: /zh-hant/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 首先，您需要從 Aspose.PSD 庫匯入必要的套件。您可以按照以下方法執行此操作：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -70,7 +69,7 @@ image1.save(dataDir + "output2.jpg", options1);
 ## 結論
 恭喜！您已經成功學習如何使用 Aspose.PSD for Java 支援具有 CMYK 顏色模式的 JPEG-LS。透過遵循本教程，您現在可以處理 PSD 檔案並將其轉換為具有不同壓縮設定的 JPEG。這個功能強大的庫使操作圖像變得容易，透過這些步驟，您就可以順利成為影像處理專家。
 ## 常見問題解答
-### 什麼是CMYK色彩模式？
+### 什麼是CMYK顏色模式？
 CMYK 代表青色、洋紅色、黃色和基底色（黑色）。它是彩色印刷中使用的顏色模型。
 ### 什麼是 JPEG-LS？
 JPEG-LS 是連續色調影像的無損/近無損壓縮標準。

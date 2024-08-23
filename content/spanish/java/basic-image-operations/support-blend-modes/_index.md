@@ -17,7 +17,7 @@ Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java funcional configurado en su máquina.
 
--  Biblioteca Aspose.PSD para Java: descargue la biblioteca desde[sitio web](https://releases.aspose.com/psd/java/) y siga las instrucciones de instalación.
+- Biblioteca Aspose.PSD para Java: descargue la biblioteca desde[sitio web](https://releases.aspose.com/psd/java/) y siga las instrucciones de instalación.
 
 - Directorio de documentos: prepare un directorio para almacenar sus archivos PSD, ya que trabajaremos con varios modos de combinación utilizando archivos PSD de ejemplo.
 
@@ -58,7 +58,7 @@ Exporte los archivos PSD cargados al formato PNG. Ajuste las opciones de exporta
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Guárdelo como PNG con 100% de opacidad.
+// Guardar como PNG con 100% de opacidad
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Establezca la opacidad de capas específicas en los archivos PSD. Aquí, configu
 // Establecer opacidad al 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Guárdelo como PNG con 50% de opacidad.
+// Guardar como PNG con 50% de opacidad
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

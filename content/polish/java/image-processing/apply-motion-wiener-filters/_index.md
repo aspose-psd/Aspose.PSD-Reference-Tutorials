@@ -104,8 +104,8 @@ Odpowiedź 2: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, zape
 
 ### P4: Czy mogę wypróbować Aspose.PSD dla Java przed zakupem?
 
- Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak uzyskać tymczasową licencję na Aspose.PSD dla Java?
 
-A5: Zdobądź licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
+A5: Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.

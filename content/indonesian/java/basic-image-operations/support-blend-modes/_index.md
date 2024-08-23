@@ -17,7 +17,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java yang berfungsi di mesin Anda.
 
--  Aspose.PSD untuk Java Library: Unduh perpustakaan dari[situs web](https://releases.aspose.com/psd/java/) dan ikuti petunjuk instalasi.
+- Aspose.PSD untuk Java Library: Unduh perpustakaan dari[situs web](https://releases.aspose.com/psd/java/) dan ikuti petunjuk instalasi.
 
 - Direktori Dokumen: Siapkan direktori untuk menyimpan file PSD Anda, karena kita akan bekerja dengan berbagai mode campuran menggunakan contoh file PSD.
 

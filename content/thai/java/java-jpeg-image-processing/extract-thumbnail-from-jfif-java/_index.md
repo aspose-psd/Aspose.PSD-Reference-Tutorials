@@ -19,7 +19,6 @@ url: /th/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ในการเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้นำเข้าแพ็คเกจที่จำเป็นในโปรเจ็กต์ Java ของคุณแล้ว:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -64,7 +63,7 @@ if (exif != null) {
     // แยกข้อมูลและกระบวนการ EXIF
 }
 ```
-ขั้นตอนนี้ช่วยให้คุณสามารถดึงและทำงานกับข้อมูล EXIF ที่เกี่ยวข้องกับภาพขนาดย่อได้
+ขั้นตอนนี้ช่วยให้คุณสามารถดึงข้อมูลและทำงานกับข้อมูล EXIF ที่เกี่ยวข้องกับภาพขนาดย่อได้
 
 ## บทสรุป
 ในบทช่วยสอนนี้ เราได้กล่าวถึงวิธีการดึงภาพขนาดย่อจากรูปภาพ JFIF โดยใช้ Aspose.PSD สำหรับ Java ด้วยการทำตามขั้นตอนที่อธิบายไว้ข้างต้น คุณสามารถจัดการงานการแยกภาพขนาดย่อในแอปพลิเคชัน Java ของคุณได้อย่างมีประสิทธิภาพ Aspose.PSD มอบฟังก์ชันการทำงานที่มีประสิทธิภาพสำหรับการทำงานกับรูปแบบภาพต่างๆ ทำให้มั่นใจได้ถึงความยืดหยุ่นและความน่าเชื่อถือในงานการประมวลผลภาพ

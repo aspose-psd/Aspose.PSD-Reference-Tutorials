@@ -102,7 +102,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### P1: ¿Aspose.PSD es compatible con los últimos frameworks .NET?
 
- R1: Aspose.PSD actualiza periódicamente su compatibilidad. Referirse a[documentación](https://reference.aspose.com/psd/net/) para obtener la información más reciente.
+ R1: Aspose.PSD actualiza periódicamente su compatibilidad. Consulte el[documentación](https://reference.aspose.com/psd/net/) para obtener la información más reciente.
 
 ### P2: ¿Dónde puedo encontrar soporte para Aspose.PSD?
 
@@ -110,7 +110,7 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 
 ### P3: ¿Puedo probar Aspose.PSD antes de comprarlo?
 
- R3: Sí, puedes explorar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes explorar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener una licencia temporal para Aspose.PSD?
 

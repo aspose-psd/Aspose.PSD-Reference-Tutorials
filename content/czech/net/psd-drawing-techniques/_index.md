@@ -8,7 +8,7 @@ weight: 28
 url: /cs/net/psd-drawing-techniques/
 ---
 
-## Úvod
+## Zavedení
 
 Jste připraveni posunout své dovednosti kreslení na další úroveň s Aspose.PSD pro .NET? Naše výukové programy pokrývají řadu technik, které vám umožní vytvářet podmanivou grafiku a zlepšit vaše schopnosti zpracování obrazu.
 
@@ -34,7 +34,7 @@ Jste připraveni posunout své dovednosti kreslení na další úroveň s Aspose
 
 ## Konstrukce obdélníků v Aspose.PSD pro .NET
 
-Prozkoumejte umění kreslení obdélníků v .NET s Aspose.PSD. Náš podrobný průvodce zajišťuje bezproblémovou integraci a umožňuje vám bez námahy pozvednout vaši hru manipulace s obrázky. Začněte ještě dnes![Výuka sestavování obdélníků](./constructing-rectangles/)
+Prozkoumejte umění kreslení obdélníků v .NET s Aspose.PSD. Náš podrobný průvodce zajišťuje bezproblémovou integraci a umožňuje vám bez námahy pozvednout vaši hru manipulace s obrázky. Začněte ještě dnes![Výukový program Konstrukce obdélníků](./constructing-rectangles/)
 
 ## Kreativní kreslení pomocí grafiky v Aspose.PSD pro .NET
 

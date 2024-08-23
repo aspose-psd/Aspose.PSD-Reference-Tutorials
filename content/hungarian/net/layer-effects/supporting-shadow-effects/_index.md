@@ -104,7 +104,7 @@ Most már sikeresen támogatta az árnyékeffektusokat a képen az Aspose.PSD fo
 
 ### 4. kérdés: Hol találhatok további támogatást és közösségi megbeszéléseket?
 
- A4: Csatlakozzon a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) támogatást keresni és párbeszédet folytatni a közösséggel.
+ A4: Csatlakozzon a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) támogatást kérni és párbeszédet folytatni a közösséggel.
 
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.PSD for .NET fájlt a vásárlás előtt?
 

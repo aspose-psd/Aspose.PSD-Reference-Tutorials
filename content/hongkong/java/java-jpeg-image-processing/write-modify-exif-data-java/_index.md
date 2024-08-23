@@ -20,7 +20,6 @@ url: /zh-hant/java/java-jpeg-image-processing/write-modify-exif-data-java/
 首先，您需要在 Java 專案中匯入必要的套件。操作方法如下：
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -38,7 +37,7 @@ PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
 此程式碼片段從您指定的目錄載入 PSD 映像。
 ## 第 2 步：迭代圖像資源
-接下來，您需要迭代圖像資源以尋找縮圖資源。這是 EXIF 資料通常以 JPEG 格式儲存的地方。
+接下來，您需要迭代圖像資源以尋找縮圖資源。 EXIF 資料通常以 JPEG 格式儲存在此處。
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     //檢查縮圖資源
@@ -48,18 +47,18 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 在此步驟中，您將從圖像資源中識別縮圖資源。
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
-    //從縮圖資源中提取EXIF數據
+    //從縮圖資源中提取 EXIF 數據
 }
 ```
-## 第四步：提取並列印EXIF數據
-識別出縮圖資源後，下一步就是提取 EXIF 資料並將其列印到控制台。
+## 第 4 步：提取並列印 EXIF 數據
+識別縮圖資源後，下一步就是提取 EXIF 資料並將其列印到控制台。
 ```java
 JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
 if (exif != null) {
-    //列印EXIF數據
+    //列印 EXIF 數據
 }
 ```
-## 第五步：修改EXIF數據
+## 第5步：修改EXIF數據
 現在到了有趣的部分——修改 EXIF 數據。以下是設定 LensMake、WhiteBalance 和 Flash 資訊的方法。
 ```java
 exif.setLensMake("Sony");
@@ -72,7 +71,7 @@ exif.setFlash(ExifFlash.Fired);
 image.save(dataDir + "Modified_Zebras_Serengeti.psd");
 ```
 ## 結論
-現在你就得到它了！您已經成功學習如何使用 Aspose.PSD for Java 在 PSD 檔案中寫入和修改 EXIF 資料。這個強大的庫簡化了複雜圖像格式的處理，使其成為處理圖形文件的開發人員的寶貴工具。 
+現在你就擁有了！您已經成功學習如何使用 Aspose.PSD for Java 在 PSD 檔案中寫入和修改 EXIF 資料。這個強大的庫簡化了複雜圖像格式的處理，使其成為處理圖形文件的開發人員的寶貴工具。 
 欲了解更多詳細信息，請查看[Aspose.PSD 文檔](https://reference.aspose.com/psd/java/)。如果您遇到任何問題，[支援論壇](https://forum.aspose.com/c/psd/34)是個獲得幫助的好地方。不要忘記探索[免費試用](https://releases.aspose.com/)並考慮購買許可證[這裡](https://purchase.aspose.com/buy)以獲得完整的功能。
 ## 常見問題解答
 ### 什麼是 EXIF 資料？

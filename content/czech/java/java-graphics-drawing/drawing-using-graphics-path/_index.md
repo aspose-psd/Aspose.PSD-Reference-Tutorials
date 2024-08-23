@@ -7,12 +7,12 @@ type: docs
 weight: 19
 url: /cs/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
-## Úvod
+## Zavedení
 Vytváření a manipulace s obrázky programově může být pro vývojáře v Javě vzrušujícím úkolem, zejména při použití knihoven jako Aspose.PSD. V tomto tutoriálu se ponoříme do procesu kreslení složité grafiky pomocí třídy Graphics Path v Javě s Aspose.PSD.
 ## Předpoklady
 Než přejdeme k části kódování, ujistěte se, že máte následující předpoklady:
 1.  Java Development Kit (JDK): Stabilní verze JDK nainstalovaná na vašem počítači. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.PSD for Java Library: Stáhněte si knihovnu Aspose.PSD for Java z[tady](https://releases.aspose.com/psd/java/). Po stažení přidejte soubor JAR do cesty třídy vašeho projektu.
+2.  Aspose.PSD for Java Library: Stáhněte si knihovnu Aspose.PSD for Java z[zde](https://releases.aspose.com/psd/java/). Po stažení přidejte soubor JAR do cesty třídy vašeho projektu.
 3. Integrované vývojové prostředí (IDE): Ať už je to Eclipse, IntelliJ IDEA nebo jakékoli jiné, k psaní a spouštění kódu Java potřebujete IDE.
 S těmito předpoklady se podíváme na to, jak vytvořit vizuálně poutavé obrázky pomocí třídy Graphics Path.
 ## Importujte balíčky
@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,8 +80,8 @@ Aspose.PSD je knihovna, která umožňuje vývojářům pracovat se soubory Phot
 ### Mohu použít Aspose.PSD pro jiné formáty než PSD?
 Od této příručky se Aspose.PSD konkrétně zabývá soubory PSD, ale nabízí rozšíření pro práci s různými formáty obrázků.
 ### Je k dispozici zkušební verze pro Aspose.PSD?
- Ano, máte přístup k bezplatné zkušební verzi Aspose.PSD.[tady](https://releases.aspose.com/).
+ Ano, máte přístup k bezplatné zkušební verzi Aspose.PSD[zde](https://releases.aspose.com/).
 ### Jak mohu zakoupit Aspose.PSD?
- Aspose.PSD můžete zakoupit od[tady](https://purchase.aspose.com/buy).
+ Aspose.PSD můžete zakoupit od[zde](https://purchase.aspose.com/buy).
 ### Kde mohu získat podporu pro Aspose.PSD?
 Můžete hledat podporu a diskuse na[Asposeho fórum](https://forum.aspose.com/c/psd/34).

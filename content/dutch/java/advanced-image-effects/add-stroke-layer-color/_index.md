@@ -111,7 +111,7 @@ A2: Absoluut! Aspose.PSD houdt gelijke tred met de nieuwste PSD-bestandsformaats
 
 ### Vraag 3: Hoe ga ik om met uitzonderingen tijdens het gebruik van Aspose.PSD?
 
- A3: Raadpleeg de[Helpforum](https://forum.aspose.com/c/psd/34) voor hulp bij het afhandelen van uitzonderingen en het oplossen van problemen.
+ A3: Raadpleeg de[ondersteuningsforum](https://forum.aspose.com/c/psd/34) voor hulp bij het afhandelen van uitzonderingen en het oplossen van problemen.
 
 ### Vraag 4: Kan ik Aspose.PSD uitproberen voordat ik een aankoop doe?
 

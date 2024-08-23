@@ -7,7 +7,7 @@ type: docs
 weight: 18
 url: /it/java/java-graphics-drawing/drawing-using-graphics/
 ---
-## introduzione
+## Introduzione
 Nella programmazione Java, disegnare e manipolare le immagini a livello di codice è una potente funzionalità di cui spesso gli sviluppatori hanno bisogno. Questo tutorial si concentra sull'utilizzo di Aspose.PSD per Java, una solida libreria che consente agli sviluppatori di creare e modificare file PSD, nonché di eseguire varie operazioni grafiche come disegnare forme, applicare pennelli ed esportare immagini. Questa guida ti guiderà attraverso il processo di disegno utilizzando la grafica in Java con Aspose.PSD, suddividendo ogni passaggio per garantire chiarezza e comprensione.
 ## Prerequisiti
 Prima di immergerti in questo tutorial, assicurati di possedere i seguenti prerequisiti:
@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -75,8 +74,8 @@ Sì, Aspose.PSD supporta un'ampia gamma di operazioni tra cui la manipolazione d
 ### Aspose.PSD è adatto per applicazioni ad alte prestazioni?
 Assolutamente, Aspose.PSD è ottimizzato per prestazioni ed efficienza della memoria.
 ### Dove posso trovare altri esempi e documentazione?
- Visitare il[Aspose.PSD documentazione Java](https://reference.aspose.com/psd/java/) per guide complete e riferimenti API.
+ Visita il[Aspose.PSD documentazione Java](https://reference.aspose.com/psd/java/) per guide complete e riferimenti API.
 ### Aspose.PSD supporta più formati di immagine per l'esportazione?
 Sì, Aspose.PSD supporta l'esportazione in vari formati come BMP, PNG, JPEG e TIFF.
 ### Come posso ottenere supporto o assistenza se riscontro problemi?
-Contatta la comunità Aspose.PSD su[Forum di assistenza](https://forum.aspose.com/c/psd/34) oppure considera a[licenza temporanea](https://purchase.aspose.com/temporary-license/) per il sostegno prioritario.
+Contatta la comunità Aspose.PSD su[forum di supporto](https://forum.aspose.com/c/psd/34) oppure considera a[licenza temporanea](https://purchase.aspose.com/temporary-license/) per il sostegno prioritario.

@@ -14,18 +14,17 @@ url: /ko/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 - Java 프로그래밍에 대한 기본 지식.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 - IntelliJ IDEA 또는 Eclipse와 같은 Java용 IDE(통합 개발 환경).
--  Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[Java 다운로드 페이지용 Aspose.PSD](https://releases.aspose.com/psd/java/).
+- Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[Java 다운로드 페이지용 Aspose.PSD](https://releases.aspose.com/psd/java/).
 ## 패키지 가져오기
 먼저 Aspose.PSD 및 Java에서 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-Aspose.PSD를 사용하여 Java에서 EXIF 세그먼트에 썸네일을 추가하는 과정을 세부 단계로 나누어 보겠습니다.
+Aspose.PSD를 사용하여 Java의 EXIF 세그먼트에 썸네일을 추가하는 과정을 세부 단계로 나누어 보겠습니다.
 ## 1단계: PSD 이미지 로드
 PSD 이미지 파일을 PsdImage 개체에 로드합니다.
 ```java

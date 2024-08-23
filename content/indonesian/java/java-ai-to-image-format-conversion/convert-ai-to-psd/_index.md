@@ -12,15 +12,14 @@ Apakah Anda ingin mengonversi file AI (Adobe Illustrator) ke file PSD (Adobe Pho
 ## Prasyarat
 Sebelum kita mulai, ada beberapa hal yang perlu Anda siapkan:
 1. Java Development Kit (JDK): Pastikan Anda menginstal JDK 8 atau lebih tinggi di sistem Anda.
-2.  Aspose.PSD untuk Java: Unduh perpustakaan Aspose.PSD untuk Java dari[Unduh Halaman](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD untuk Java: Unduh perpustakaan Aspose.PSD untuk Java dari[halaman unduh](https://releases.aspose.com/psd/java/).
 3. Lingkungan Pengembangan Terpadu (IDE): IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan mengeksekusi kode Java Anda.
 4. File AI: File Adobe Illustrator yang ingin Anda konversi.
-5. Aspose Lisensi Sementara (Opsional): Untuk fungsionalitas penuh tanpa batasan, Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/).
+5.  Aspose Lisensi Sementara (Opsional): Untuk fungsionalitas penuh tanpa batasan, Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/).
 ## Paket Impor
 Pertama, mari kita siapkan proyek kita dengan mengimpor paket yang diperlukan. Anda harus memasukkan Aspose.PSD untuk Java di classpath proyek Anda. Berikut cara melakukannya:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -58,9 +57,9 @@ Dan itu dia! Anda telah berhasil mengonversi file AI ke file PSD menggunakan Asp
 ### Apa itu Aspose.PSD untuk Java?
 Aspose.PSD untuk Java adalah perpustakaan tangguh yang memungkinkan pengembang membuat, mengedit, dan mengonversi file Photoshop (PSD dan PSB) dalam aplikasi Java tanpa memerlukan Adobe Photoshop.
 ### Bisakah saya menggunakan Aspose.PSD untuk Java secara gratis?
- Aspose.PSD untuk Java menawarkan uji coba gratis, yang dapat Anda unduh dari[halaman uji coba gratis](https://releases.aspose.com/) . Untuk fitur lengkapnya a[lisensi](https://purchase.aspose.com/buy) Dibutuhkan.
+ Aspose.PSD untuk Java menawarkan uji coba gratis, yang dapat Anda unduh dari[halaman uji coba gratis](https://releases.aspose.com/) . Untuk fitur lengkapnya a[lisensi](https://purchase.aspose.com/buy) diperlukan.
 ### Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
-Anda dapat memperoleh lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+ Anda dapat memperoleh lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 ### Apakah mungkin untuk mengkonversi file PSD kembali ke file AI?
 Saat ini, Aspose.PSD untuk Java tidak mendukung konversi file PSD kembali ke file AI. Ini berfokus pada penanganan file PSD dan PSB.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?

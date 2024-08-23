@@ -31,7 +31,7 @@ Aspose.PSD för .NET ger utvecklare möjlighet att lyfta bildbehandling till nya
  Vår[handledning](./apply-bradley-threshold/) introducerar Bradley Threshold i Aspose.PSD för .NET. Förbättra bildsegmenteringen med denna effektiva binariseringsteknik. Följ vår steg-för-steg-guide för att utnyttja denna kraftfulla funktion.
 
 ## Slutsats
-Med Aspose.PSD för .NET tutorials blir bildbehandling en konstform. Lyft dina projekt med dessa tekniker och låt dina bilder tala volym. Besök vår lista över Aspose.PSD för .NET Tutorials för mer djupgående guider och frigör den fulla potentialen av bildbehandling i dina applikationer.
+Med Aspose.PSD för .NET tutorials blir bildbehandling en konstform. Lyft dina projekt med dessa tekniker och låt dina bilder tala volym. Besök vår lista över Aspose.PSD för .NET Tutorials för mer djupgående guider och frigör den fulla potentialen med bildbehandling i dina applikationer.
 
 ## Självstudier för bildbehandling
 ### [Använda Gauss- och Wienerfilter i Aspose.PSD för .NET](./apply-gaussian-wiener-filters/)

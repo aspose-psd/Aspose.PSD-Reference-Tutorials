@@ -17,7 +17,7 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các đi�
 
 - Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java đang hoạt động trên máy của mình.
 
--  Aspose.PSD cho Thư viện Java: Tải xuống thư viện từ[trang mạng](https://releases.aspose.com/psd/java/) và làm theo hướng dẫn cài đặt.
+- Aspose.PSD cho Thư viện Java: Tải xuống thư viện từ[trang web](https://releases.aspose.com/psd/java/) và làm theo hướng dẫn cài đặt.
 
 - Thư mục Tài liệu: Chuẩn bị một thư mục để lưu trữ các tệp PSD của bạn, vì chúng tôi sẽ làm việc với các chế độ hòa trộn khác nhau bằng cách sử dụng các tệp PSD mẫu.
 
@@ -58,7 +58,7 @@ Xuất các tệp PSD đã tải sang định dạng PNG. Điều chỉnh các t
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Lưu dưới dạng PNG với độ mờ 100%.
+// Lưu dưới dạng PNG với độ mờ 100%
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ im.save(pngExportPath100, saveOptions);
 // Đặt độ mờ thành 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Lưu dưới dạng PNG với độ mờ 50%.
+// Lưu dưới dạng PNG với độ mờ 50%
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 

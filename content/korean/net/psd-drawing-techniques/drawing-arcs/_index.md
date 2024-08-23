@@ -97,7 +97,7 @@ image.Save(outpath, saveOptions);
 
 ### Q2: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
 
- A2: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A2: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Aspose.PSD 지원을 위한 커뮤니티 포럼이 있습니까?
 
@@ -105,7 +105,7 @@ image.Save(outpath, saveOptions);
 
 ### Q4: Aspose.PSD 라이선스는 어디서 구입할 수 있나요?
 
- A4: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A4: 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
 ### Q5: 구매하기 전에 .NET용 Aspose.PSD를 무료로 사용해 볼 수 있나요?
 

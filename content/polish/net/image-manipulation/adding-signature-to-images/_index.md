@@ -61,7 +61,7 @@ using (Image signature = Image.Load(dataDir + "sample.psd"))
 
 ## Krok 4: Zainicjuj grafikę i narysuj podpis
 
- Utwórz instancję`Graphics` class i zainicjuj ją przy użyciu obiektu obrazu podstawowego. Użyj`DrawImage` metoda dodania podpisu w żądanym miejscu na obrazie głównym.
+ Utwórz instancję`Graphics` class i zainicjuj ją przy użyciu obiektu obrazu podstawowego. Skorzystaj z`DrawImage` metoda dodania podpisu w żądanym miejscu na obrazie głównym.
 
 ```csharp
 Graphics graphics = new Graphics(canvas);
@@ -102,4 +102,4 @@ Odpowiedź 3: Możesz zaimplementować bloki try-catch, aby sprawnie obsługiwa�
 
 ### P5: Czy mogę wypróbować Aspose.PSD przed zakupem?
 
- Odpowiedź 5: Z pewnością dostępny jest bezpłatny okres próbny.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 5: Z pewnością dostępny jest bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).

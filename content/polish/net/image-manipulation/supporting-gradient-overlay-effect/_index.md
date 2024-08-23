@@ -106,7 +106,7 @@ settings.TransparencyPoints[1].Opacity = 100;
 psdImage.Save(outputFilePath);
 ```
 
-Otóż to! Pomyślnie dodałeś efekt nakładki gradientu do warstwy przy użyciu Aspose.PSD dla .NET.
+To wszystko! Pomyślnie dodałeś efekt nakładki gradientu do warstwy przy użyciu Aspose.PSD dla .NET.
 
 ## Wniosek
 
@@ -128,8 +128,8 @@ Odpowiedź 2: Tak, możesz zastosować różne efekty, w tym nakładkę gradient
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.PSD?
 
- A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
+ A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.

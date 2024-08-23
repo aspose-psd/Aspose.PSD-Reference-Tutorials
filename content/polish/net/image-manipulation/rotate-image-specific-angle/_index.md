@@ -103,4 +103,4 @@ Odpowiedź 3: Chociaż nie jest to obowiązkowe, buforowanie danych może znaczn
 
 ### P5: Czy mogę wypróbować Aspose.PSD przed zakupem?
 
- A5: Oczywiście! Chwyć swoje[bezpłatna wersja próbna](https://releases.aspose.com/) poznać możliwości biblioteki.
+ A5: Oczywiście! Chwyć swoje[bezpłatna wersja próbna](https://releases.aspose.com/)poznać możliwości biblioteki.

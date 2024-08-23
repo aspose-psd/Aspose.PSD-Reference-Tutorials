@@ -89,7 +89,7 @@ image.Save(outpath, saveOptions);
 
 ### س1: هل يمكنني استخدام Aspose.PSD لـ .NET في المشاريع غير التجارية؟
 
- ج1: نعم، يمكن استخدام Aspose.PSD لـ .NET في المشاريع التجارية وغير التجارية. افحص ال[تفاصيل الترخيص](https://purchase.aspose.com/buy) للمزيد من المعلومات.
+ ج1: نعم، يمكن استخدام Aspose.PSD لـ .NET في المشاريع التجارية وغير التجارية. تحقق من[تفاصيل الترخيص](https://purchase.aspose.com/buy) لمزيد من المعلومات.
 
 ### س2: كيف يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
 
@@ -101,8 +101,8 @@ image.Save(outpath, saveOptions);
 
 ### س4: أين يمكنني العثور على دعم المجتمع لـ Aspose.PSD لـ .NET؟
 
- ج4: انضم إلى مجتمع Aspose.PSD على[هذا المنتدى](https://forum.aspose.com/c/psd/34) للمناقشة والدعم.
+ج4: انضم إلى مجتمع Aspose.PSD على[هذا المنتدى](https://forum.aspose.com/c/psd/34) للمناقشات والدعم.
 
 ### س5: هل توجد أي موارد مجانية لتعلم Aspose.PSD لـ .NET؟
 
- ج5: اكتشف[توثيق](https://reference.aspose.com/psd/net/) للحصول على أدلة وأمثلة شاملة.
+ ج5: اكتشف[الوثائق](https://reference.aspose.com/psd/net/) للحصول على أدلة وأمثلة شاملة.

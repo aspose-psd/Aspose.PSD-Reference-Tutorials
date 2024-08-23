@@ -109,7 +109,7 @@ A1: 예, .NET용 Aspose.PSD는 상업용으로 사용할 수 있습니다. 확�
 
 ### Q3: .NET용 Aspose.PSD에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
 
- A3: 포괄적인 문서가 제공됩니다.[여기](https://reference.aspose.com/psd/net/).
+ A3: 포괄적인 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/psd/net/).
 
 ### Q4: .NET용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 

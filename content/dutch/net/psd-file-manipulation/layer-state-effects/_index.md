@@ -73,12 +73,12 @@ Gefeliciteerd! Je hebt met succes gewerkt met Layer State Effects in Aspose.PSD 
 
 ### A3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefperiode uitproberen.[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 
 ### Vraag 4: Hoe krijg ik een tijdelijke licentie?
 
- A4: Verkrijg een tijdelijke licentie.[hier](https://purchase.aspose.com/temporary-license/).
+ A4: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Ondersteuning nodig of vragen?
 
- A5: Sluit je aan bij de[Aspose.PSD-communityforum](https://forum.aspose.com/c/psd/34) Voor assistentie.
+ A5: Sluit je aan bij de[Aspose.PSD-communityforum](https://forum.aspose.com/c/psd/34) voor hulp.

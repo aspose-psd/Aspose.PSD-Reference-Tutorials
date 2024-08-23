@@ -33,7 +33,7 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Teraz podzielmy przykładowy kod na przewodnik krok po kroku dotyczący integracji Monitora przerwań z projektem Aspose.PSD for Java.
+Podzielmy teraz przykładowy kod na przewodnik krok po kroku dotyczący włączenia Monitora przerwań do projektu Aspose.PSD for Java.
 
 ## Krok 1: Ustaw katalog dokumentów
 
@@ -77,7 +77,7 @@ Zainicjuj nowy wątek dla procesu konwersji obrazu i wprowadź limit czasu, aby 
 ## Krok 5: Przerwij proces
 
 ```java
-    // Przerwij proces
+    //Przerwij proces
     monitor.interrupt();
     System.out.println("Interrupting the save thread #" + thread.getId() + " at " + getDateTime().toString());
 
@@ -102,15 +102,15 @@ Włączenie obsługi Monitora przerwań do projektów Aspose.PSD for Java umożl
 
 ### P1: Co to jest monitor przerwań w Aspose.PSD dla Java?
 
-O1: Monitor przerwań w Aspose.PSD dla Java umożliwia programistom zarządzanie procesami konwersji obrazów i przerywanie ich, zwiększając kontrolę i elastyczność.
+Odpowiedź 1: Monitor przerwań w Aspose.PSD dla Java umożliwia programistom zarządzanie procesami konwersji obrazów i przerywanie ich, zwiększając kontrolę i elastyczność.
 
 ### P2: Jak mogę uzyskać bibliotekę Aspose.PSD dla Java?
 
-O2: Możesz pobrać bibliotekę Aspose.PSD dla Java.[Tutaj](https://releases.aspose.com/psd/java/).
+ O2: Możesz pobrać bibliotekę Aspose.PSD dla Java[Tutaj](https://releases.aspose.com/psd/java/).
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
- Odpowiedź 3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PSD[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla Java?
 
@@ -118,4 +118,4 @@ O2: Możesz pobrać bibliotekę Aspose.PSD dla Java.[Tutaj](https://releases.asp
 
 ### P5: Jak mogę kupić licencję na Aspose.PSD dla Java?
 
- A5: Możesz kupić licencję na Aspose.PSD dla Java.[Tutaj](https://purchase.aspose.com/buy).
+A5: Możesz kupić licencję na Aspose.PSD dla Java[Tutaj](https://purchase.aspose.com/buy).

@@ -1,6 +1,6 @@
 ---
-title: Voeg een miniatuur toe aan het EXIF-segment in Java
-linktitle: Voeg een miniatuur toe aan het EXIF-segment in Java
+title: Miniatuur toevoegen aan EXIF-segment in Java
+linktitle: Miniatuur toevoegen aan EXIF-segment in Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u metagegevens van afbeeldingen kunt verbeteren met miniaturen met behulp van Aspose.PSD voor Java. Volg onze stapsgewijze handleiding voor naadloze integratie. voor naadloze integratie.
 type: docs
@@ -14,12 +14,11 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 - Basiskennis van Java-programmeren.
 - Java Development Kit (JDK) op uw systeem geïnstalleerd.
 - IDE (Integrated Development Environment) voor Java, zoals IntelliJ IDEA of Eclipse.
--  Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[Aspose.PSD voor Java-downloadpagina](https://releases.aspose.com/psd/java/).
+- Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden van de[Aspose.PSD voor Java-downloadpagina](https://releases.aspose.com/psd/java/).
 ## Pakketten importeren
 Importeer eerst de benodigde pakketten uit Aspose.PSD en Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -57,7 +56,7 @@ image.save(dataDir + "output.psd");
 Het toevoegen van een miniatuur aan het EXIF-segment in Java met behulp van Aspose.PSD is een eenvoudig proces dat de bruikbaarheid van metagegevens van afbeeldingen verbetert. Door de stappen in deze zelfstudie te volgen, kunt u uw afbeeldingen efficiënt verrijken met voorbeeldminiaturen.
 
 ## Veelgestelde vragen
-### Wat zijn EXIF-metagegevens?
+### Wat zijn EXIF-metadata?
 EXIF-metagegevens zijn ingebedde informatie in digitale afbeeldingen, waaronder camera-instellingen, datum en andere details.
 ### Waarom een miniatuur toevoegen aan EXIF?
 Het toevoegen van een miniatuur verbetert de gebruikerservaring door snelle afbeeldingsvoorbeelden mogelijk te maken zonder de hele afbeelding te laden.

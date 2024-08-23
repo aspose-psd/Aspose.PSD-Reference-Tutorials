@@ -17,9 +17,9 @@ Trước khi bắt tay vào hướng dẫn này, hãy đảm bảo bạn có s�
 
 1. Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên máy của mình.
 
-2. Thư viện Aspose.PSD: Tải xuống và cài đặt thư viện Aspose.PSD từ[trang mạng](https://releases.aspose.com/psd/java/).
+2. Thư viện Aspose.PSD: Tải xuống và cài đặt thư viện Aspose.PSD từ[trang web](https://releases.aspose.com/psd/java/).
 
-3.  Tệp PSD mẫu: Chuẩn bị sẵn tệp PSD mẫu để thử nghiệm. Bạn có thể dùng[sample.psd](Thư mục tài liệu của bạn/sample.psd) cho hướng dẫn này.
+3.  Tệp PSD mẫu: Chuẩn bị sẵn tệp PSD mẫu để thử nghiệm. Bạn có thể sử dụng[sample.psd](Thư mục tài liệu của bạn/sample.psd) cho hướng dẫn này.
 
 ## Gói nhập khẩu
 
@@ -61,7 +61,7 @@ String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-Và bạn có nó rồi đấy! Bạn đã thay đổi kích thước hình ảnh thành công bằng cách sử dụng Bảng liệt kê loại thay đổi kích thước trong Aspose.PSD cho Java.
+Và bạn có nó! Bạn đã thay đổi kích thước hình ảnh thành công bằng cách sử dụng Bảng liệt kê loại thay đổi kích thước trong Aspose.PSD cho Java.
 
 Tóm lại, Aspose.PSD cho Java cung cấp một nền tảng mạnh mẽ để thao tác hình ảnh và Bảng liệt kê loại thay đổi kích thước bổ sung thêm một lớp tính linh hoạt cho quy trình này. Cho dù bạn đang làm việc trên một dự án nhỏ hay một ứng dụng quy mô lớn, việc nắm vững các bước này sẽ giúp bạn xử lý việc thay đổi kích thước hình ảnh một cách liền mạch.
 
@@ -81,7 +81,7 @@ Câu trả lời 2: Có, Aspose.PSD cho Java cung cấp nhiều loại thay đ�
 
 ### Câu hỏi 4: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- Đ4: Có, bạn có thể truy cập phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ A4: Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
 

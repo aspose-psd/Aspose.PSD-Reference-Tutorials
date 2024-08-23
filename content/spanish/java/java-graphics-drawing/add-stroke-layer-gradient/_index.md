@@ -8,7 +8,7 @@ weight: 10
 url: /es/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
 ## Introducción
-¿Alguna vez te has preguntado cómo agregar un degradado de capa de trazo a tus imágenes usando Java? Bueno, ¡estás en el lugar correcto! Hoy nos sumergimos en el mundo de Aspose.PSD para Java, una potente biblioteca que le ayuda a manipular archivos PSD con facilidad. Ya seas un desarrollador principiante o experimentado, esta guía paso a paso te guiará a través del proceso de agregar un degradado de capa de trazo a tus archivos PSD. Así que ¡abróchate el cinturón y prepárate para mejorar tus habilidades de edición gráfica!
+¿Alguna vez te has preguntado cómo agregar un degradado de capa de trazo a tus imágenes usando Java? Bueno, ¡estás en el lugar correcto! Hoy nos sumergimos en el mundo de Aspose.PSD para Java, una potente biblioteca que le ayuda a manipular archivos PSD con facilidad. Ya seas un principiante o un desarrollador experimentado, esta guía paso a paso te guiará a través del proceso de agregar un degradado de capa de trazo a tus archivos PSD. Así que ¡abróchate el cinturón y prepárate para mejorar tus habilidades de edición gráfica!
 ## Requisitos previos
 Antes de comenzar, hay algunas cosas que debes tener en cuenta. Asegúrate de tener lo siguiente:
 1.  Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su sistema. Puedes descargarlo desde[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -21,7 +21,6 @@ Primero lo primero, importemos los paquetes necesarios. Estos nos permitirán ut
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;

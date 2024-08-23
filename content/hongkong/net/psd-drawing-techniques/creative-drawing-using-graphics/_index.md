@@ -109,7 +109,7 @@ A2：是的，您可以從[發布頁面](https://releases.aspose.com/).
 
 ### Q3：在哪裡可以找到 Aspose.PSD for .NET 的詳細文件？
 
-A3：提供全面的文件。[這裡](https://reference.aspose.com/psd/net/).
+A3：提供全面的文檔[這裡](https://reference.aspose.com/psd/net/).
 
 ### 問題 4：如何獲得 Aspose.PSD for .NET 支援？
 
@@ -117,4 +117,4 @@ A3：提供全面的文件。[這裡](https://reference.aspose.com/psd/net/).
 
 ### Q5：我需要 Aspose.PSD for .NET 的臨時授權嗎？
 
- A5：如果您需要臨時許可證，您可以獲得它。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：如果您需要臨時許可證，您可以獲得它[這裡](https://purchase.aspose.com/temporary-license/).

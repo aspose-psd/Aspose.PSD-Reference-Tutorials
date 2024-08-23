@@ -38,7 +38,7 @@ Konversi AI ke GIF di Java dengan Aspose.PSD, panduan sederhana dan efisien untu
 ### [Konversi AI ke JPG di Java](./convert-ai-to-jpg/)
 Konversikan file AI ke JPG di Java dengan mudah menggunakan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk konversi gambar berkualitas tinggi.
 ### [Konversi AI ke PDF di Java](./convert-ai-to-pdf/)
-Pelajari cara mengonversi file AI ke PDF di Java menggunakan Aspose.PSD. Ikuti panduan langkah demi langkah kami yang terperinci untuk mengelola konversi file Anda secara efisien.
+Pelajari cara mengonversi file AI ke PDF di Java menggunakan Aspose.PSD. Ikuti panduan terperinci langkah demi langkah kami untuk mengelola konversi file Anda secara efisien.
 ### [Konversi AI ke PNG di Java](./convert-ai-to-png/)
 Konversi AI ke PNG dengan mudah di Java menggunakan Aspose.PSD dengan panduan ini. Pelajari cara memuat, mengatur opsi, dan menyimpan file AI Anda sebagai gambar PNG dengan mudah.
 ### [Konversi AI ke PSD di Java](./convert-ai-to-psd/)

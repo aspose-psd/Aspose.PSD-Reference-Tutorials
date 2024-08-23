@@ -79,7 +79,7 @@ finally
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à restituer du texte avec différentes couleurs dans un calque de texte à l'aide d'Aspose.PSD pour Java. Ce didacticiel vous fournit les bases de la manipulation de texte dans les fichiers PSD, ouvrant ainsi des possibilités de génération d'images créatives et dynamiques.
+Félicitations! Vous avez réussi à restituer du texte avec différentes couleurs dans un calque de texte à l'aide d'Aspose.PSD pour Java. Ce didacticiel vous fournit les bases de la manipulation de texte dans les fichiers PSD, ouvrant ainsi des possibilités de génération d'images créatives et dynamiques.
 
 ## FAQ
 

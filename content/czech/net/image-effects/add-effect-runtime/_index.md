@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/net/image-effects/add-effect-runtime/
 ---
-## Úvod
+## Zavedení
 
 Zvýšení vizuální přitažlivosti obrázků je běžným požadavkem v aplikacích grafického designu a zpracování obrázků. V tomto tutoriálu prozkoumáme, jak přidávat efekty za běhu pomocí Aspose.PSD pro .NET. Aspose.PSD je výkonné API, které umožňuje vývojářům bezproblémově pracovat se soubory Adobe Photoshop. 
 
@@ -16,7 +16,7 @@ Zvýšení vizuální přitažlivosti obrázků je běžným požadavkem v aplik
 Než se ponoříme do podrobného průvodce, ujistěte se, že máte následující:
 
 - Základní znalost C# a .NET frameworku.
--  Aspose.PSD pro .NET nainstalován. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET nainstalován. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/net/).
 
 ## Importovat jmenné prostory
 
@@ -91,7 +91,7 @@ A3: Aspose.PSD nabízí širokou škálu efektů, ale je vhodné se podívat do 
 
 ### Q4: Jak mohu získat dočasnou licenci pro testovací účely?
 
- A4: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
+ A4: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
 
 ### Q5: Kde najdu další podporu a komunitní diskuse?
 

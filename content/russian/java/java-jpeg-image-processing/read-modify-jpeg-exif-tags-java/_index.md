@@ -2,24 +2,23 @@
 title: Чтение и изменение тегов JPEG EXIF в Java
 linktitle: Чтение и изменение тегов JPEG EXIF в Java
 second_title: Aspose.PSD Java API
-description: Узнайте, как читать и изменять теги JPEG EXIF с помощью Aspose.PSD для Java, в этом пошаговом руководстве. Идеально подходит для разработчиков, которые хотят легко обрабатывать метаданные изображений.
+description: В этом пошаговом руководстве вы узнаете, как читать и изменять теги JPEG EXIF с помощью Aspose.PSD для Java. Идеально подходит для разработчиков, которые хотят легко обрабатывать метаданные изображений.
 type: docs
 weight: 18
 url: /ru/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
 ## Введение
-Привет! Вы когда-нибудь задумывались, как можно читать и изменять теги JPEG EXIF с помощью Java? Если да, то вы находитесь в правильном месте! Это руководство шаг за шагом проведет вас через весь процесс использования Aspose.PSD для Java. Независимо от того, являетесь ли вы опытным разработчиком или новичком, к концу этого руководства вы сможете работать с тегами JPEG EXIF как профессионал. Итак, давайте погрузимся!
+Привет! Вы когда-нибудь задумывались, как читать и изменять теги JPEG EXIF с помощью Java? Если да, то вы находитесь в правильном месте! Это руководство шаг за шагом проведет вас через весь процесс использования Aspose.PSD для Java. Независимо от того, являетесь ли вы опытным разработчиком или новичком, к концу этого руководства вы сможете работать с тегами JPEG EXIF как профессионал. Итак, давайте погрузимся!
 ## Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 1.  Комплект разработки Java (JDK): убедитесь, что в вашей системе установлен JDK. Вы можете скачать его с сайта[веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Библиотека Aspose.PSD для Java. Вам необходимо загрузить библиотеку Aspose.PSD для Java. Получите это от[Страница релизов Aspose](https://releases.aspose.com/psd/java/).
+2.  Библиотека Aspose.PSD для Java: Вам необходимо загрузить библиотеку Aspose.PSD для Java. Получите это от[Страница релизов Aspose](https://releases.aspose.com/psd/java/).
 3. Интегрированная среда разработки (IDE). IDE, такая как IntelliJ IDEA или Eclipse, упростит процесс кодирования.
 4. Базовые знания Java. Для изучения этого руководства необходимо фундаментальное понимание Java.
 ## Импортировать пакеты
 Перво-наперво, давайте импортируем необходимые пакеты. Откройте Java IDE и создайте новый проект Java. Затем включите библиотеку Aspose.PSD для Java в зависимости вашего проекта.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -58,8 +57,8 @@ if (exifData != null) {
     System.out.println("Compression: " + exifData.getCompression());
 }
 ```
-## Шаг 4: Измените данные EXIF
-После прочтения данных EXIF вы можете захотеть изменить некоторые из его полей. Вот как вы можете это сделать:
+## Шаг 4. Измените данные EXIF
+После прочтения данных EXIF вы можете изменить некоторые из их полей. Вот как вы можете это сделать:
 ```java
 if (exifData != null) {
     exifData.setCameraOwnerName("New Camera Owner");
@@ -70,7 +69,7 @@ if (exifData != null) {
     thumbnail.getJpegOptions().setExifData(exifData);
 }
 ```
-## Шаг 5. Сохраните изменения.
+## Шаг 5: сохраните изменения
 Наконец, после изменения данных EXIF, сохраните изменения в новом PSD-файле.
 ```java
 try {
@@ -90,6 +89,6 @@ try {
 ### Совместим ли Aspose.PSD для Java со всеми версиями Java?
 Aspose.PSD для Java поддерживает Java SE 7 и выше.
 ### Где я могу найти дополнительную документацию по Aspose.PSD для Java?
- Проверьте[документация](https://reference.aspose.com/psd/java/) Больше подробностей.
+ Проверьте[документация](https://reference.aspose.com/psd/java/) для более подробной информации.
 ### Как мне получить поддержку Aspose.PSD для Java?
  Вы можете получить поддержку от[Форум поддержки Aspose PSD](https://forum.aspose.com/c/psd/34).

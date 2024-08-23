@@ -75,7 +75,7 @@ imageOptions.setSource(stream);
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Buat sebuah contoh dari`Image` dengan mengundang`create` metode, melewati konfigurasi`BmpOptions` dan menentukan dimensi gambar.
+ Buat sebuah contoh dari`Image` dengan memanggil`create` metode, melewati konfigurasi`BmpOptions` dan menentukan dimensi gambar.
 
 ## Langkah 6: Pemrosesan Gambar
 
@@ -105,11 +105,11 @@ A1: Ya, Aspose.PSD dirancang untuk berintegrasi secara mulus dengan perpustakaan
 
 ### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
 
- A3: Ya, Anda dapat mengakses uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- A4: Dapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Apa saja persyaratan sistem untuk Aspose.PSD?
 

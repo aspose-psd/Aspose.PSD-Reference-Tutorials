@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /it/java/advanced-image-manipulation/rendering-color-effect/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nella nostra guida completa sull'applicazione degli effetti cromatici di rendering utilizzando Aspose.PSD per Java. Se stai cercando di migliorare le tue applicazioni Java con straordinari effetti visivi e sovrapposizioni di colori dinamici, sei nel posto giusto. In questo tutorial ti guideremo attraverso il processo passo dopo passo, assicurandoti di poter integrare facilmente la potenza di Aspose.PSD nei tuoi progetti.
 
@@ -17,7 +17,7 @@ Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisi
 
 - Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java funzionante sul tuo computer.
 
--  Aspose.PSD per Java: scarica e installa la libreria Aspose.PSD da[questo link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD per Java: scarica e installa la libreria Aspose.PSD da[questo collegamento](https://releases.aspose.com/psd/java/).
 
 ## Importa pacchetti
 

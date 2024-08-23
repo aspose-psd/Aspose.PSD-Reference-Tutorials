@@ -21,7 +21,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következők vannak a hely�
 
 ### 2. Az Aspose.PSD névtér ismerete
 
- A lépések hatékony végrehajtásához elengedhetetlen, hogy ismerjük az Aspose.PSD névteret. Utal[dokumentáció](https://reference.aspose.com/psd/net/) részletes információkért.
+ A lépések hatékony végrehajtásához elengedhetetlen, hogy ismerjük az Aspose.PSD névteret. Lásd a[dokumentáció](https://reference.aspose.com/psd/net/) részletes információkért.
 
 ## Névterek importálása
 
@@ -88,7 +88,7 @@ Ezen egyszerű lépések követésével hatékonyan eltávolíthatja a betűtíp
 
 ### 4. kérdés: Rendelkezésre áll ideiglenes licenc az Aspose.PSD for .NET számára?
 
- V4: Igen, ideiglenes engedélyt kaphat.[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+ V4: Igen, ideiglenes engedélyt kaphat[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t .NET-hez?
 

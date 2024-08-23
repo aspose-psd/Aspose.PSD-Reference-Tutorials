@@ -15,7 +15,7 @@ Görüntü işleme dünyasında, renkli bir görüntüyü ikili görüntüye dö
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
--  Aspose.PSD for .NET: Aspose.PSD for .NET kitaplığını indirip yükleyin.[İndirme: {link](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD for .NET: Aspose.PSD for .NET kitaplığını indirip yükleyin.[indirme bağlantısı](https://releases.aspose.com/psd/net/).
 - Belge Dizini: Örnek PSD dosyalarınızı saklamak için bir dizin ayarlayın.
 
 ## Ad Alanlarını İçe Aktar

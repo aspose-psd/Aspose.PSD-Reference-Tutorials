@@ -80,7 +80,7 @@ Mentse el a végső kombinált képet.
 image.Save();
 ```
 
-Gratulálunk! Sikeresen kombinált két képet az Aspose.PSD for .NET használatával.
+Gratulálok! Sikeresen kombinált két képet az Aspose.PSD for .NET használatával.
 
 ## Következtetés
 
@@ -102,8 +102,8 @@ Ebben az oktatóanyagban végigvezettük a képek Aspose.PSD használatával tö
 
 ### 4. kérdés: Elérhető az Aspose.PSD ingyenes próbaverziója?
 
- 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.PSD-hez?
 
-V5: Igen, kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+V5: Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

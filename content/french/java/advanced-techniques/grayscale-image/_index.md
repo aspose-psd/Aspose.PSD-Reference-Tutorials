@@ -81,17 +81,17 @@ Répétez ces étapes pour toutes les images supplémentaires que vous souhaitez
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à mettre en niveaux de gris une image à l'aide d'Aspose.PSD pour Java. Ce processus simple mais puissant peut être intégré à diverses applications, améliorant ainsi vos capacités de traitement d'image.
+Félicitations! Vous avez réussi à mettre en niveaux de gris une image à l'aide d'Aspose.PSD pour Java. Ce processus simple mais puissant peut être intégré à diverses applications, améliorant ainsi vos capacités de traitement d'image.
 
 ## FAQ
 
 ### Q1 : Puis-je utiliser Aspose.PSD pour Java pour des projets commerciaux ?
 
-A1 : Oui, Aspose.PSD pour Java est disponible pour un usage commercial. Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+ A1 : Oui, Aspose.PSD pour Java est disponible pour un usage commercial. Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
 
 ### Q2 : Existe-t-il une version d’essai gratuite d’Aspose.PSD pour Java ?
 
- A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.PSD pour Java avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
+ A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.PSD pour Java avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je trouver la documentation pour Aspose.PSD pour Java ?
 

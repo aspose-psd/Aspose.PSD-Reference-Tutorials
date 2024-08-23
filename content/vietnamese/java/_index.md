@@ -50,11 +50,11 @@ Bạn đã sẵn sàng đưa thiết kế đồ họa Java của mình lên mộ
 
 Mở khóa tiềm năng của Aspose.PSD cho Java và bắt tay vào hành trình sáng tạo và đổi mới. Hướng dẫn của chúng tôi cung cấp hướng dẫn bạn cần để trở thành nhà phát triển xử lý hình ảnh Java thành thạo. Hãy tham gia, khám phá và nâng cao kỹ năng của bạn ngay hôm nay!
 ## Aspose.PSD cho các hướng dẫn Java
-### [Đang xử lý hình ảnh](./image-processing/)
+### [Xử lý hình ảnh](./image-processing/)
 Khai phá tiềm năng của Aspose.PSD cho Java trong xử lý hình ảnh. Tìm hiểu cách áp dụng các bộ lọc Gaussian, Wiener, Median và Motion Wiener theo từng bước.
 ### [Chuyển đổi PSD](./psd-conversion/)
 Tăng cường xử lý hình ảnh Java của bạn với Aspose.PSD! Tìm hiểu cách chuyển đổi CMYK PSD sang CMYK TIFF, chuyển đổi màu chính, cắt tệp PSD, v.v. 
-### [Kỹ thuật tiên tiến](./advanced-techniques/)
+### [Kỹ thuật nâng cao](./advanced-techniques/)
 Dễ dàng nắm vững các kỹ thuật nâng cao trong xử lý ảnh Java với các hướng dẫn của Aspose.PSD. Thang độ xám, tải, chuyển đổi, hiển thị văn bản, lưu hiệu quả và hơn thế nữa!
 ### [Chỉnh sửa hình ảnh](./image-editing/)
 Khám phá sự kỳ diệu của Hiệu ứng lớp phủ màu, hợp nhất hình ảnh và xử lý hình ảnh liền mạch với Aspose.PSD. Nâng cao khả năng chỉnh sửa hình ảnh của bạn với hướng dẫn của chúng tôi.
@@ -72,3 +72,17 @@ Dễ dàng chuyển đổi các tệp AI sang các định dạng khác nhau tro
 Dễ dàng chuyển đổi PSB sang JPG, PDF và PSD trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn của chúng tôi để chuyển đổi hình ảnh liền mạch và cải thiện dự án của bạn.
 ### [Xử lý ảnh JPEG của Java](./java-jpeg-image-processing/)
 Khám phá Aspose.PSD để biết các hướng dẫn về Java. Tìm hiểu cách xử lý xử lý EXIF, JFIF, JPEG, v.v. bằng hướng dẫn từng bước và ví dụ về mã.
+### [Tối ưu hóa tệp PNG](./optimizing-png-files/)
+Khám phá các hướng dẫn toàn diện để tối ưu hóa tệp PNG bằng Aspose.PSD cho Java, bao gồm các bộ lọc, thay đổi màu nền, nén, độ phân giải, độ sâu bit và độ trong suốt.
+### [Sửa đổi và chuyển đổi hình ảnh PSD](./modifying-converting-psd-images/)
+Nâng cao các tệp PSD của bạn bằng nhiều điều chỉnh và hiệu ứng khác nhau bằng Aspose.PSD cho Java. Hướng dẫn từng bước về thao tác màu, hình mờ, v.v.
+### [Sửa đổi và chuyển đổi hình ảnh PSD](./psd-image-modification-conversion/)
+Khám phá các hướng dẫn Aspose.PSD cần thiết cho Java. Tìm hiểu cách xử lý tệp PSD, xuất lớp, áp dụng hiệu ứng và hơn thế nữa với hướng dẫn từng bước.
+### [Quản lý và hiệu ứng lớp PSD](./psd-layer-management-effects/)
+Khám phá các hướng dẫn toàn diện về quản lý lớp PSD và các hiệu ứng với Aspose.PSD cho Java. Tìm hiểu cách hợp nhất, làm phẳng và tùy chỉnh các lớp PSD một cách dễ dàng.
+### [Các tính năng và hiệu ứng của lớp PSD nâng cao](./advanced-psd-layer-features-effects/)
+Khám phá các tính năng và hiệu ứng lớp PSD nâng cao với Aspose.PSD cho Java. Tìm hiểu cách thao tác các lớp, thêm hiệu ứng và hỗ trợ các tài nguyên khác nhau trong tệp PSD.
+### [Cấu hình và nén ảnh TIFF](./tiff-image-compression-configuration/)
+Quản lý hiệu quả hình ảnh TIFF bằng Aspose.PSD cho Java. Tìm hiểu cách nén, định cấu hình và áp dụng tính năng nén Adobe Deflate cho các tệp TIFF bằng hướng dẫn từng bước của chúng tôi.
+### [Làm việc với tệp PSD](./working-with-psd-files/)
+Khám phá các hướng dẫn toàn diện về Aspose.PSD cho Java, bao gồm cách xuất các nhóm lớp PSD sang hình ảnh và thao tác các tài nguyên Clbl, Infx và Lspf.

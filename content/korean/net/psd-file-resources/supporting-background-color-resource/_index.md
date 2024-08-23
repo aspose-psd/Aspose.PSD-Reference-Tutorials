@@ -76,7 +76,7 @@ A1: Aspose.PSD는 광범위한 PSD 버전을 지원하여 대부분의 파일과
 
 ### Q2: Aspose.PSD를 상업용 프로젝트에 사용할 수 있나요?
 
-A2: 예, 상업용 및 비상업적 프로젝트 모두에서 Aspose.PSD를 사용할 수 있습니다. 을 체크 해봐[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
+A2: 예, 상업용 및 비상업적 프로젝트 모두에서 Aspose.PSD를 사용할 수 있습니다. 확인해보세요[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
 
 ### Q3: Aspose.PSD에 대한 지원은 어떻게 받을 수 있나요?
 

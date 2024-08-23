@@ -20,7 +20,6 @@ Sebelum mendalami kodenya, pastikan Anda telah menyiapkan semuanya dengan benar.
 Pertama, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda. Berikut cara melakukannya:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -31,14 +30,14 @@ import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 Impor ini akan memungkinkan Anda bekerja dengan file PSD, memanipulasi data EXIF, dan memanfaatkan fitur canggih Aspose.PSD.
 Sekarang setelah semuanya siap, mari kita bagi prosesnya menjadi langkah-langkah sederhana dan mudah diikuti.
 ## Langkah 1: Muat Gambar PSD
-Untuk memulainya, Anda perlu memuat file PSD ke dalam proyek Anda. Inilah cara Anda melakukannya:
+Untuk memulainya, Anda perlu memuat file PSD ke proyek Anda. Inilah cara Anda melakukannya:
 ```java
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
 Cuplikan kode ini memuat gambar PSD dari direktori yang Anda tentukan.
 ## Langkah 2: Ulangi Sumber Daya Gambar
-Selanjutnya, Anda perlu mengulangi sumber daya gambar untuk menemukan sumber daya thumbnail. Di sinilah biasanya data EXIF disimpan dalam format JPEG.
+Selanjutnya, Anda perlu mengulangi sumber daya gambar untuk menemukan sumber daya thumbnail. Di sinilah data EXIF biasanya disimpan dalam format JPEG.
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     // Periksa sumber daya thumbnail

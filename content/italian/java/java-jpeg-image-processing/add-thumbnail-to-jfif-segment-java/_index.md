@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
-## introduzione
+## Introduzione
 Nell'ambito dello sviluppo Java, l'integrazione delle capacità di elaborazione delle immagini è fondamentale per varie applicazioni, che vanno dalla semplice manipolazione delle immagini a complesse attività di progettazione grafica. Aspose.PSD per Java si distingue come una potente libreria progettata per gestire facilmente i file PSD (Photoshop Document). Questo tutorial si concentra su un'attività specifica: aggiungere una miniatura al segmento JFIF di un'immagine utilizzando Aspose.PSD per Java. Alla fine di questa guida imparerai come eseguire questa operazione passo dopo passo, assicurandoti di comprendere a fondo ogni parte.
 ## Prerequisiti
 Prima di immergerti in questo tutorial, assicurati di aver impostato i seguenti prerequisiti:
@@ -19,7 +19,6 @@ Prima di immergerti in questo tutorial, assicurati di aver impostato i seguenti 
 Prima di iniziare a scrivere codice, importa i pacchetti necessari per utilizzare le funzionalità Aspose.PSD:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

@@ -86,7 +86,7 @@ A1: 예, Aspose.PSD는 최신 .NET 프레임워크와 호환됩니다.
 
 ### Q4: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
 
- A4: 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: 구매하기 전에 Aspose.PSD를 무료로 사용해 볼 수 있나요?
 

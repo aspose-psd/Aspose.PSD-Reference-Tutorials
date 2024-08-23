@@ -25,7 +25,6 @@ url: /ar/java/java-graphics-drawing/core-drawing-features/
 قبل البدء في البرمجة، قم باستيراد الحزم اللازمة لاستخدام فئات وطرق Aspose.PSD بشكل فعال في تطبيق Java الخاص بك:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## الخطوة 2: التعامل مع البكسل
 بمجرد تحميل الصورة، يمكنك التعامل مع وحدات البكسل الخاصة بها. إليك كيفية تحميل وحدات البكسل وتعديلها:
 ```java
-// تحميل وحدات البكسل لمنطقة معينة (على سبيل المثال، مستطيل مقاس 100 × 10 يبدأ من الزاوية العلوية اليسرى)
+//تحميل وحدات البكسل لمنطقة معينة (على سبيل المثال، مستطيل مقاس 100 × 10 يبدأ من الزاوية العلوية اليسرى)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // تعديل وحدات البكسل (على سبيل المثال، تطبيق تأثير متدرج)
 for (int i = 0; i < pixels.length; i++) {
@@ -69,4 +68,4 @@ image.save(outpath, new BmpOptions());
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
  يزور[Aspose.PSD الترخيص المؤقت](https://purchase.aspose.com/temporary-license/) صفحة الحصول على ترخيص مؤقت.
 ### أين يمكنني العثور على المزيد من المساعدة والموارد الخاصة بـ Aspose.PSD لـ Java؟
- اكتشف ال[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للحصول على دعم المجتمع والنصائح والموارد الإضافية.
+ استكشف[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للحصول على دعم المجتمع والنصائح والموارد الإضافية.

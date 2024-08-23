@@ -12,13 +12,12 @@ url: /el/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ## Προαπαιτούμενα
 Πριν βουτήξετε στον κώδικα, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 1. Το Java Development Kit (JDK) είναι εγκατεστημένο στο σύστημά σας.
-2.  Aspose.PSD για βιβλιοθήκη Java. Μπορείτε να το κατεβάσετε από το[δικτυακός τόπος](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD για βιβλιοθήκη Java. Μπορείτε να το κατεβάσετε από το[δικτυακός τόπος](https://releases.aspose.com/psd/java/).
 3. Βασική κατανόηση του προγραμματισμού Java.
 ## Εισαγωγή πακέτων
 Πρώτα πράγματα πρώτα, θα χρειαστεί να εισαγάγετε τα απαραίτητα πακέτα από τη βιβλιοθήκη Aspose.PSD. Αυτές οι εισαγωγές είναι ζωτικής σημασίας για το χειρισμό αρχείων PSD και την εφαρμογή των επιθυμητών ρυθμίσεων JPEG.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -42,7 +41,7 @@ options.setCompressionType(JpegCompressionMode.Progressive);
 ```java
 image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ```
-## συμπέρασμα
+## Σύναψη
 Ο χειρισμός των ιδιοτήτων της εικόνας μέσω προγραμματισμού μπορεί να εξοικονομήσει σημαντικό χρόνο και προσπάθεια, ειδικά όταν αντιμετωπίζετε μεγάλους όγκους εικόνων ή πολύπλοκες εργασίες γραφικών. Το Aspose.PSD για Java παρέχει ένα ισχυρό, ευέλικτο σύνολο εργαλείων για το χειρισμό αρχείων PSD και τη μετατροπή τους σε JPEG με συγκεκριμένες ρυθμίσεις. Ακολουθώντας αυτόν τον οδηγό, θα πρέπει να μπορείτε να ορίσετε εύκολα τα χρώματα και τους τύπους συμπίεσης JPEG για τις εικόνες σας.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.PSD για Java;

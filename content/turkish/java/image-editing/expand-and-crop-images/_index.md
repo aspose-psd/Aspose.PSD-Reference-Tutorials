@@ -93,7 +93,7 @@ Cevap2: Aspose.PSD kesinlikle geliştiricilere ticari lisanslar sağlayarak hem 
 
 ### S3: Desteklenen resim dosyası formatlarında herhangi bir sınırlama var mı?
 
- Cevap3: Aspose.PSD, PSD, JPEG, PNG ve daha fazlası dahil olmak üzere çeşitli görüntü dosyası formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/psd/java/) tam bir liste için.
+ Cevap3: Aspose.PSD, PSD, JPEG, PNG ve daha fazlası dahil olmak üzere çeşitli görüntü dosyası formatlarını destekler. Şuraya bakın:[dokümantasyon](https://reference.aspose.com/psd/java/) tam bir liste için.
 
 ### S4: Aspose.PSD ile ilgili sorgular için nasıl destek alabilirim?
 

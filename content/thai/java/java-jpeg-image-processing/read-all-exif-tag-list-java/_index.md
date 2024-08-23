@@ -18,7 +18,6 @@ url: /th/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นจาก Aspose.PSD สำหรับ Java ในโปรเจ็กต์ของคุณ:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -32,7 +31,7 @@ String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "example.psd");
 ```
 ## ขั้นตอนที่ 2: ทำซ้ำทรัพยากรรูปภาพ
-จากนั้นวนซ้ำทรัพยากรรูปภาพเพื่อค้นหาข้อมูล EXIF :
+จากนั้น วนซ้ำทรัพยากรรูปภาพเพื่อค้นหาข้อมูล EXIF:
 ```java
 for(int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {

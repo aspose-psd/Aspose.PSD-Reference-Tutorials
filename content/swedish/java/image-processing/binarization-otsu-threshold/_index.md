@@ -90,11 +90,11 @@ A1: Binarisering med Otsu Threshold är en metod som används för bildsegmenter
 
 ### F2: Kan jag använda Aspose.PSD för Java gratis?
 
- S2: Aspose.PSD för Java är ett kommersiellt bibliotek, men du kan utforska dess funktioner med en gratis provperiod. Förstår[här](https://releases.aspose.com/).
+ S2: Aspose.PSD för Java är ett kommersiellt bibliotek, men du kan utforska dess funktioner med en gratis provperiod. Få det[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta Aspose.PSD för Java-dokumentation?
 
-S3: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/java/).
+S3: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/java/).
 
 ### F4: Hur får jag support för Aspose.PSD för Java?
 
@@ -102,4 +102,4 @@ S3: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/j
 
 ### F5: Finns det en tillfällig licens tillgänglig för Aspose.PSD för Java?
 
- A5: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

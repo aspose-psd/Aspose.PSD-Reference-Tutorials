@@ -21,7 +21,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 ### 2. Làm quen với không gian tên Aspose.PSD
 
- Để triển khai các bước một cách hiệu quả, điều cần thiết là phải làm quen với không gian tên Aspose.PSD. Tham khảo đến[tài liệu](https://reference.aspose.com/psd/net/) để biết thông tin chi tiết.
+ Để triển khai các bước một cách hiệu quả, điều cần thiết là phải làm quen với không gian tên Aspose.PSD. Tham khảo[tài liệu](https://reference.aspose.com/psd/net/) để biết thông tin chi tiết.
 
 ## Nhập không gian tên
 
@@ -88,7 +88,7 @@ Câu trả lời 2: Mặc dù có thể nhưng bạn nên xóa các tệp bộ n
 
 ### Câu hỏi 4: Có giấy phép tạm thời dành cho Aspose.PSD dành cho .NET không?
 
- A4: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+ A4: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET không?
 

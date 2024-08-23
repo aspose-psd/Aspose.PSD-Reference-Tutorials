@@ -67,7 +67,7 @@ using (Image image = Image.Load(sourceFile))
 
 ### س2: هل Aspose.PSD متوافق مع تنسيقات الصور المختلفة؟
 
- قطعاً. يدعم Aspose.PSD مجموعة واسعة من تنسيقات الصور، بما في ذلك PSD وJPEG وPNG والمزيد. افحص ال[توثيق](https://reference.aspose.com/psd/net/) للحصول على القائمة الكاملة.
+ قطعاً. يدعم Aspose.PSD مجموعة واسعة من تنسيقات الصور، بما في ذلك PSD وJPEG وPNG والمزيد. تحقق من[الوثائق](https://reference.aspose.com/psd/net/) للحصول على القائمة الكاملة.
 
 ### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
@@ -79,4 +79,4 @@ using (Image image = Image.Load(sourceFile))
 
 ### س5: هل يمكنني شراء Aspose.PSD للاستخدام التجاري؟
 
- بالتأكيد. اكتشف ال[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على ترخيص يناسب احتياجاتك.
+ بالتأكيد. استكشف[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على ترخيص يناسب احتياجاتك.

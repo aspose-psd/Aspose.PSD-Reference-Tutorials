@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -45,7 +44,7 @@ Voordat u gaat tekenen, maakt u het grafische oppervlak schoon met een specifiek
 ```java
 graphics.clear(Color.getYellow());
 ```
-## Stap 5: Teken een gestippelde ellips.
+## Stap 5: Teken een gestippelde ellips
 Gebruik een Pen-object met een rode kleur en teken een gestippelde ellips binnen een opgegeven rechthoek.
 ```java
 graphics.drawEllipse(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));

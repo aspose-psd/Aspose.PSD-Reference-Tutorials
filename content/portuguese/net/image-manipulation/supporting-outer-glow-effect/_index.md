@@ -23,7 +23,7 @@ Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requis
 
 ## Importar namespaces
 
-Nesta seção, importaremos os namespaces necessários para iniciar nossa implementação do Outer Glow Effect. Siga esses passos:
+Nesta seção, importaremos os namespaces necessários para iniciar nossa implementação do Outer Glow Effect. Siga estas etapas:
 
 ```csharp
 using System;
@@ -77,7 +77,7 @@ string outputPng = Path.Combine(outputDir, "output261.png");
 image.Save(outputPng, new PngOptions());
 ```
 
-## Etapa 6: limpeza
+## Etapa 6: limpar
 
 ```csharp
 File.Delete(outputPng);
@@ -113,4 +113,4 @@ A1: Sim, Aspose.PSD oferece suporte a uma ampla variedade de estruturas .NET, ga
 
 ### Q5: Posso comprar Aspose.PSD para .NET?
 
- R5: Sim, explore as opções de licenciamento e faça sua compra.[aqui](https://purchase.aspose.com/buy).
+ A5: Sim, explore as opções de licenciamento e faça sua compra[aqui](https://purchase.aspose.com/buy).

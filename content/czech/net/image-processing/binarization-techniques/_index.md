@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/net/image-processing/binarization-techniques/
 ---
-## Úvod
+## Zavedení
 
 Ve světě zpracování obrazu je schopnost převést barevný obraz na binární zásadním krokem. Binarizace pomáhá zjednodušit složité obrázky jejich zmenšením na černobílé pixely, což usnadňuje analýzu a extrahování informací. Aspose.PSD for .NET poskytuje výkonné nástroje pro manipulaci s obrázky, včetně robustních technik binarizace. V tomto tutoriálu prozkoumáme metodu BinarizationWithFixedThreshold a provedeme vás její implementací pomocí Aspose.PSD pro .NET.
 

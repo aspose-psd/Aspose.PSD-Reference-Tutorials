@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /it/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nella nostra guida passo passo sulla regolazione dell'opacità dell'effetto ombra in Aspose.PSD per .NET! In questo tutorial ti guideremo attraverso il processo di utilizzo della proprietà Opacity di DropShadowEffect. Aspose.PSD per .NET è una potente libreria che ti consente di lavorare senza problemi con i file PSD nelle tue applicazioni .NET.
 
@@ -96,7 +96,7 @@ A2: Sì, Aspose.PSD per .NET offre varie proprietà per la regolazione fine degl
 
 ### Q3: Come posso ottenere una licenza temporanea per Aspose.PSD per .NET?
 
- A3: Puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/).
+ A3: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Aspose.PSD per .NET è compatibile con .NET Core?
 

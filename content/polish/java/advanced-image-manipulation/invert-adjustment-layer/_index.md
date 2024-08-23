@@ -88,8 +88,8 @@ Odpowiedź 2: Tak, możesz łączyć wiele warstw dopasowania, aby uzyskać zło
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?
 
- Odpowiedź 4: Tak, możesz skorzystać z bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 4: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
 
-Odpowiedź 5: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+Odpowiedź 5: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

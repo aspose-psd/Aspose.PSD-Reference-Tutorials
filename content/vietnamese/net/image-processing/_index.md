@@ -1,6 +1,6 @@
 ---
-title: Đang xử lý hình ảnh
-linktitle: Đang xử lý hình ảnh
+title: Xử lý hình ảnh
+linktitle: Xử lý hình ảnh
 second_title: API Aspose.PSD .NET
 description: Dễ dàng nâng cao chất lượng hình ảnh với hướng dẫn Aspose.PSD cho .NET. Tìm hiểu các kỹ thuật như bộ lọc Gaussian và Wiener, chuyển đổi màu, nhị phân hóa, v.v.
 type: docs
@@ -25,7 +25,7 @@ Aspose.PSD for .NET trao quyền cho các nhà phát triển nâng khả năng x
  Đi sâu vào thế giới chuyển đổi màu sắc với[hướng dẫn](./color-conversion-default-icc-profiles/). Aspose.PSD for .NET cho phép bạn cập nhật cấu hình màu, đảm bảo hình ảnh sống động và chính xác. Khám phá các sắc thái của sự chuyển đổi màu sắc để làm cho hình ảnh của bạn thực sự nổi bật.
 
 ## Chuyển đổi thang độ xám hình ảnh một cách dễ dàng
- bên trong[hướng dẫn](./grayscaling-images/)chúng tôi sẽ chỉ cho bạn cách áp dụng các hiệu ứng thang độ xám một cách dễ dàng. Aspose.PSD for .NET đơn giản hóa quy trình điều chỉnh thang độ xám, cho phép bạn thêm nét tinh tế cho hình ảnh của mình một cách dễ dàng.
+ trong[hướng dẫn](./grayscaling-images/)chúng tôi sẽ chỉ cho bạn cách áp dụng các hiệu ứng thang độ xám một cách dễ dàng. Aspose.PSD for .NET đơn giản hóa quy trình điều chỉnh thang độ xám, cho phép bạn thêm nét tinh tế cho hình ảnh của mình một cách dễ dàng.
 
 ## Phân đoạn hình ảnh với ngưỡng Bradley
  Của chúng tôi[hướng dẫn](./apply-bradley-threshold/) giới thiệu Ngưỡng Bradley trong Aspose.PSD cho .NET. Tăng cường phân đoạn hình ảnh bằng kỹ thuật nhị phân hóa hiệu quả này. Hãy làm theo hướng dẫn từng bước của chúng tôi để tận dụng tính năng mạnh mẽ này.

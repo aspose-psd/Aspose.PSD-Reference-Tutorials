@@ -114,4 +114,4 @@ Image 인스턴스를 만들고 Graphics 클래스를 초기화하여 배경색�
 
 ### Q5: .NET용 Aspose.PSD에 대한 임시 라이선스가 필요합니까?
 
- A5: 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 필요한 경우 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

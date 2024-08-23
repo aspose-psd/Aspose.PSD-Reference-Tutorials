@@ -1,6 +1,6 @@
 ---
-title: Resim düzenleme
-linktitle: Resim düzenleme
+title: Görüntü Düzenleme
+linktitle: Görüntü Düzenleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Renk Kaplama Efektlerinin, görüntü birleştirmenin ve kusursuz görüntü işlemenin büyüsünü keşfedin. Kılavuzlarımızla resim düzenleme oyununuzu geliştirin.
 type: docs
@@ -13,7 +13,7 @@ Görüntü düzenleme ustalığının dünyasına hoş geldiniz! Bu eğitim kole
 
 ## Aspose.PSD for Java'da Renk Kaplama Efekti Uygulama
 
- Büyüleyici dünyasını serbest bırakın[Aspose.PSD for Java'da Renk Kaplama Efektleri](./color-overlay-effect/). Kapsamlı, adım adım kılavuzumuzla resim düzenleme becerilerinizi geliştirin. Canlı katmanlar aracılığıyla görüntülerinizi zahmetsizce dönüştürmenin büyüsüne dalın.
+ Büyüleyici dünyasını açığa çıkarın[Aspose.PSD for Java'da Renk Kaplama Efektleri](./color-overlay-effect/). Kapsamlı, adım adım kılavuzumuzla resim düzenleme becerilerinizi geliştirin. Canlı katmanlar aracılığıyla görüntülerinizi zahmetsizce dönüştürmenin büyüsüne dalın.
 
 ## Aspose.PSD for Java'yı kullanarak Görüntüleri Birleştirin
 
@@ -25,11 +25,11 @@ Görüntü düzenleme ustalığının dünyasına hoş geldiniz! Bu eğitim kole
 
 ## Aspose.PSD for Java'da Yolu Ayarlayarak Görüntü Oluşturun
 
- Çarpıcı bir tasarım yaratmak için bir yolculuğa çıkın[PSD görselleri](./create-image-by-setting-path/) Java için Aspose.PSD'yi kullanıyorum. Adım adım kılavuzumuz, yolları ayarlayarak büyüleyici görüntüler oluşturmak için kusursuz bir süreç sağlar. Görüntü oluşturma dünyasına kolaylıkla dalın.
+ Çarpıcı bir tasarım yaratmak için bir yolculuğa çıkın[PSD görselleri](./create-image-by-setting-path/) Java için Aspose.PSD'yi kullanıyorum. Adım adım kılavuzumuz, yolları belirleyerek büyüleyici görüntüler oluşturmak için kusursuz bir süreç sağlar. Görüntü oluşturma dünyasına kolaylıkla dalın.
 
 ## Java için Aspose.PSD'de Akışı Kullanarak Görüntü Oluşturun
 
- kullanarak görüntü oluşturma sanatında ustalaşın.[Canlı Yayınlar](./create-image-using-stream/) Java için Aspose.PSD'de. Kılavuzumuz verimli görüntü işlemeye yönelik açık bir yol sağlar. Adımları izleyin ve Aspose.PSD for Java aracılığıyla yaratıcı vizyonlarınızı hayata geçirin.
+ kullanarak görüntü oluşturma sanatında ustalaşın.[akışlar](./create-image-using-stream/) Java için Aspose.PSD'de. Kılavuzumuz verimli görüntü işlemeye yönelik net bir yol sağlar. Adımları izleyin ve Aspose.PSD for Java aracılığıyla yaratıcı vizyonlarınızı hayata geçirin.
 
 ## Java için Aspose.PSD'de Görüntüyü Dikdörtgenle Kırp
 

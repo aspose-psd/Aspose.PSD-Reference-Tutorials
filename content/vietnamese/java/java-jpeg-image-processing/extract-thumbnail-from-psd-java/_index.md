@@ -18,7 +18,6 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn đã thiết lậ
 Để bắt đầu, hãy đưa gói Aspose.PSD cần thiết vào lớp Java của bạn:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;

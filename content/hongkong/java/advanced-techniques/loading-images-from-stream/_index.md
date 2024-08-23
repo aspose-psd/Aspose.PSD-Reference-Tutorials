@@ -82,7 +82,7 @@ psdImage.save(outputStream, new PngOptions());
 
 ## 結論
 
- Aspose.PSD for Java 讓開發人員能夠輕鬆處理 PSD 檔案。本教程提供了有關從流加載圖像的簡明指南。探索[文件](https://reference.aspose.com/psd/java/)了解更多詳細資訊和功能。
+Aspose.PSD for Java 讓開發人員能夠輕鬆處理 PSD 檔案。本教程提供了有關從流加載圖像的簡明指南。探索[文件](https://reference.aspose.com/psd/java/)了解更多詳細資訊和功能。
 
 ## 常見問題解答
 
@@ -92,15 +92,15 @@ A1：當然！ Aspose.PSD for Java 擅長大量影像處理任務，提供效率
 
 ### Q2：我可以在購買前試用 Aspose.PSD for Java 嗎？
 
- A2：是的，您可以探索免費試用版。[這裡](https://releases.aspose.com/).
+ A2：是的，您可以探索免費試用版[這裡](https://releases.aspose.com/).
 
 ### Q3：在哪裡可以找到 Aspose.PSD for Java 的支援？
 
- A3：加入社區[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)尋求幫助和討論。
+A3：加入社區[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)尋求幫助和討論。
 
 ### Q4：我需要臨時許可證才能進行測試嗎？
 
- A4：獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/)用於測試 Java 的 Aspose.PSD。
+ A4：取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試 Java 的 Aspose.PSD。
 
 ### Q5: 哪裡可以購買 Aspose.PSD for Java？
 

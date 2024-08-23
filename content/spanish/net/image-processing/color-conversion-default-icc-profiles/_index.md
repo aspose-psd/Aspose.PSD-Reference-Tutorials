@@ -96,7 +96,7 @@ R3: Por supuesto, Aspose.PSD proporciona herramientas eficientes para el procesa
 
 ### P4: ¿Puedo utilizar Aspose.PSD para proyectos comerciales?
 
- R4: Sí, puedes comprar una licencia.[aquí](https://purchase.aspose.com/buy) para uso comercial.
+ R4: Sí, puedes comprar una licencia[aquí](https://purchase.aspose.com/buy) para uso comercial.
 
 ### P5: ¿Dónde puedo encontrar soporte comunitario para Aspose.PSD para .NET?
 

@@ -15,7 +15,7 @@ Bugünkü dersimizde, etkili görüntü işlemeyi kolaylaştıran güçlü bir k
 
 Aspose.PSD ile görüntü yeniden boyutlandırma yolculuğumuza başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-1. Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü adresinden indirebilirsiniz.[Java web sitesi](https://www.oracle.com/java/).
+1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü adresinden indirebilirsiniz.[Java web sitesi](https://www.oracle.com/java/).
 
 2.  Aspose.PSD for Java: Aspose.PSD kitaplığını indirip yükleyin. Gerekli paketleri şurada bulabilirsiniz:[Java indirme sayfası için Aspose.PSD](https://releases.aspose.com/psd/java/).
 
@@ -96,7 +96,7 @@ C2: Evet, Aspose.PSD çeşitli görüntü formatlarını destekleyerek görünt�
 
 ### S4: Satın almadan önce Aspose.PSD for Java'yı deneyebilir miyim?
 
- A4: Kesinlikle! Kullanın[ücretsiz deneme sürümü](https://releases.aspose.com/) Kütüphanenin yeteneklerini keşfetmek için.
+ A4: Kesinlikle! Kullanın[ücretsiz deneme sürümü](https://releases.aspose.com/)Kütüphanenin yeteneklerini keşfetmek için.
 
 ### S5: Aspose.PSD for Java desteğini nasıl alabilirim?
 

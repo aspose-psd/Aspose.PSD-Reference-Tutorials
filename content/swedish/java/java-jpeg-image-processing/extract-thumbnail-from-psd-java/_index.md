@@ -18,7 +18,6 @@ Innan vi börjar, se till att du har följande inställning:
 För att komma igång, inkludera det nödvändiga Aspose.PSD-paketet i din Java-klass:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -30,7 +29,7 @@ Ladda först PSD-filen som innehåller miniatyrbilden du vill extrahera.
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_file.psd");
 ```
- Byta ut`"Your_Document_Directory/"` med katalogsökvägen där din PSD-fil finns, och`"your_file.psd"` med namnet på din PSD-fil.
+ Ersätta`"Your_Document_Directory/"` med katalogsökvägen där din PSD-fil finns, och`"your_file.psd"` med namnet på din PSD-fil.
 ## Steg 2: Iterera över bildresurser
 Iterera genom bildresurserna för att hitta miniatyrbildsresursen.
 ```java
@@ -38,7 +37,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource) {
         ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
         
-        // Extrahera miniatyrdata
+        // Extrahera miniatyrbildsdata
         int[] data = thumbnail.getThumbnailArgb32Data();
         
         // Skapa en ny bild med den extraherade miniatyrdatan

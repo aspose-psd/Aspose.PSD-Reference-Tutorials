@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Steg 4: Applicera Gaussian Blur Filter.
+## Steg 4: Applicera Gaussian Blur Filter
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Slutsats
 
-Grattis! Du har suddat en bild med Aspose.PSD för .NET. Denna handledning ger en inblick i funktionerna i Aspose.PSD och öppnar dörren till en mängd möjligheter för bildmanipulation i dina .NET-applikationer.
+Grattis! Du har suddat en bild med Aspose.PSD för .NET. Den här handledningen ger en inblick i funktionerna i Aspose.PSD och öppnar dörren till en myriad av möjligheter för bildmanipulation i dina .NET-applikationer.
 
 ## FAQ's
 

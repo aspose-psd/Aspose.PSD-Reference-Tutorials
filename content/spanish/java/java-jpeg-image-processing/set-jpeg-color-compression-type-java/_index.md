@@ -12,13 +12,12 @@ En la era digital actual, gestionar y manipular imágenes es una necesidad comú
 ## Requisitos previos
 Antes de profundizar en el código, asegúrese de tener los siguientes requisitos previos:
 1. Kit de desarrollo de Java (JDK) instalado en su sistema.
-2.  Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/psd/java/).
 3. Un conocimiento básico de la programación Java.
 ## Importar paquetes
 Lo primero es lo primero, deberá importar los paquetes necesarios de la biblioteca Aspose.PSD. Estas importaciones son cruciales para manejar archivos PSD y aplicar la configuración JPEG deseada.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -48,7 +47,7 @@ La manipulación de las propiedades de la imagen mediante programación puede ah
 ### ¿Qué es Aspose.PSD para Java?
 Aspose.PSD para Java es una biblioteca de Java que permite a los desarrolladores crear, editar y manipular archivos PSD y PSB, lo que permite una amplia gama de operaciones de diseño gráfico mediante programación.
 ### ¿Puedo utilizar Aspose.PSD para Java de forma gratuita?
- Sí, puedes usar un[prueba gratis](https://releases.aspose.com/) de Aspose.PSD para Java. Para obtener todas las funciones, debe adquirir una licencia.
+ Sí, puedes usar un[prueba gratuita](https://releases.aspose.com/) de Aspose.PSD para Java. Para obtener todas las funciones, debe adquirir una licencia.
 ### ¿Qué son JpegCompressionColorMode y JpegCompressionMode?
 `JpegCompressionColorMode` y`JpegCompressionMode` son enumeraciones en la biblioteca Aspose.PSD que especifican el modo de color y el tipo de compresión para imágenes JPEG, respectivamente.
 ### ¿Dónde puedo encontrar la documentación de Aspose.PSD para Java?

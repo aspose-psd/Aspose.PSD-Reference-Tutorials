@@ -52,7 +52,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
 ```
 ## Következtetés
 
-Gratulálunk! Sikeresen elsajátította a betűtípus-csere művészetét az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár rugalmasságot és hatékonyságot biztosít a hiányzó betűtípusok kezelésében, így a tervek sértetlenek maradnak.
+Gratulálok! Sikeresen elsajátította a betűtípus-csere művészetét az Aspose.PSD for .NET használatával. Ez a nagy teljesítményű könyvtár rugalmasságot és hatékonyságot biztosít a hiányzó betűtípusok kezelésében, így a tervek sértetlenek maradnak.
 
 ## GYIK
 
@@ -68,9 +68,9 @@ Gratulálunk! Sikeresen elsajátította a betűtípus-csere művészetét az Asp
 
  A3: Látogassa meg dedikált oldalunkat[fórum](https://forum.aspose.com/c/psd/34) szakértői segítségért.
 
-### 4. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.PSD számára?
+### 4. kérdés: Rendelkezésre állnak ideiglenes licencek az Aspose.PSD számára?
 
- V4: Igen, ideiglenes engedélyt kaphat.[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Igen, ideiglenes engedélyt kaphat[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol találom az Aspose.PSD átfogó dokumentációját?
 

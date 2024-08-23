@@ -80,7 +80,7 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET, memastik
 
 ### Q4: Apakah lisensi sementara tersedia untuk Aspose.PSD untuk .NET?
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.PSD untuk .NET.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A4: Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.PSD untuk .NET[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk .NET?
 

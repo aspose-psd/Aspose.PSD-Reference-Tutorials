@@ -73,7 +73,7 @@ A1：是的，Aspose.PSD for Java 旨在與其他 Java 程式庫無縫協作，�
 
 ### Q2: 有免費試用嗎？
 
- A2：是的，您可以透過免費試用版探索 Aspose.PSD for Java。訪問[這個連結](https://releases.aspose.com/)開始。
+ A2：是的，您可以透過免費試用版探索 Aspose.PSD for Java。訪問[這個連結](https://releases.aspose.com/)開始吧。
 
 ### Q3：哪裡可以找到詳細的文件？
 
@@ -85,4 +85,4 @@ A1：是的，Aspose.PSD for Java 旨在與其他 Java 程式庫無縫協作，�
 
 ### Q5：測試需要臨時許可證嗎？
 
- A5：如果您正在測試該庫，您可以獲得臨時許可證。[這裡](https://purchase.aspose.com/temporary-license/).
+ A5：如果您正在測試該庫，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).

@@ -41,7 +41,7 @@ is_root: true
 - [การประมวลผลภาพ](./java/image-processing/)
 - [การแปลงไฟล์ PSD](./java/psd-conversion/)
 - [เทคนิคขั้นสูง](./java/advanced-techniques/)
-- [การแก้ไขรูปภาพ](./java/image-editing/)
+- [การแก้ไขภาพ](./java/image-editing/)
 - [การจัดการภาพขั้นสูง](./java/advanced-image-manipulation/)
 - [การใช้งานภาพขั้นพื้นฐาน](./java/basic-image-operations/)
 - [เอฟเฟกต์ภาพขั้นสูง](./java/advanced-image-effects/)

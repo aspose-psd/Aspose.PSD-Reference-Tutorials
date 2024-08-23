@@ -86,7 +86,7 @@ Ismételje meg a hasonló lépéseket a színátmenet és a minta kitöltésekor
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan adhat körvonal-effektusokat a rétegekhez az Aspose.PSD for .NET használatával. Kísérletezzen különböző beállításokkal, hogy elérje a kívánt vizuális hatást a képeken.
+Gratulálok! Sikeresen megtanulta, hogyan adhat körvonal-effektusokat a rétegekhez az Aspose.PSD for .NET használatával. Kísérletezzen különböző beállításokkal, hogy elérje a kívánt vizuális hatást a képeken.
 
 ## GYIK
 

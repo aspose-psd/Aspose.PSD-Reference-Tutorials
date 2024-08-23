@@ -61,7 +61,7 @@ GifOptions gifExport = new GifOptions();
 gifExport.setMaxDiff(200);
 ```
 
-## Étape 5 : Enregistrez le GIF compressé.
+## Étape 5 : Enregistrer le GIF compressé
 
  Enregistrez l'image GIF compressée à l'aide du`image.save` méthode avec le spécifié`GifOptions`.
 
@@ -71,7 +71,7 @@ image.save(destName, gifExport);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez implémenté avec succès un compresseur GIF avec perte à l'aide d'Aspose.PSD pour Java. Cette fonctionnalité puissante vous permet d'optimiser vos images pour le Web sans compromettre la qualité.
+Félicitations! Vous avez implémenté avec succès un compresseur GIF avec perte à l'aide d'Aspose.PSD pour Java. Cette fonctionnalité puissante vous permet d'optimiser vos images pour le Web sans compromettre la qualité.
 
 ## FAQ
 
@@ -85,12 +85,12 @@ A1 : Aspose.PSD pour Java est une bibliothèque puissante permettant de travaill
 
 ### Q3 : Où puis-je trouver la documentation d'Aspose.PSD pour Java ?
 
-R3 : La documentation est disponible.[ici](https://reference.aspose.com/psd/java/).
+A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/java/).
 
 ### Q4 : Existe-t-il un essai gratuit ?
 
- A4 : Oui, vous pouvez accéder à l'essai gratuit.[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q5 : Comment puis-je acheter Aspose.PSD pour Java ?
 
- A5 : Vous pouvez acheter la bibliothèque.[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter la bibliothèque[ici](https://purchase.aspose.com/buy).

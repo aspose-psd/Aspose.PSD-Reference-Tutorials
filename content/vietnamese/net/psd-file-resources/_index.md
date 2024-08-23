@@ -18,7 +18,7 @@ Trong lĩnh vực thiết kế đồ họa, việc thành thạo thao tác màu 
 
 ## Hỗ trợ tài nguyên thông tin biên giới trong Aspose.PSD cho .NET
 
-Đưa những cải tiến về hình ảnh của bạn lên một tầm cao mới với tính năng Tài nguyên thông tin đường viền của Aspose.PSD cho .NET. Hướng dẫn của chúng tôi cung cấp hướng dẫn toàn diện, đảm bảo bạn khai thác sức mạnh của tài nguyên này để nâng cao hình ảnh. Khám phá sự tinh tế của sự tích hợp liền mạch và nâng cao khả năng thiết kế của bạn. Sẵn sàng để đi sâu vào? Tải về ngay bây giờ và chuyển đổi các dự án của bạn!
+Đưa những cải tiến về hình ảnh của bạn lên một tầm cao mới với tính năng Tài nguyên thông tin đường viền của Aspose.PSD cho .NET. Hướng dẫn của chúng tôi cung cấp hướng dẫn toàn diện, đảm bảo bạn khai thác sức mạnh của tài nguyên này để nâng cao hình ảnh. Khám phá sự tinh tế của việc tích hợp liền mạch và nâng cao khả năng thiết kế của bạn. Sẵn sàng để đi sâu vào? Tải về ngay bây giờ và chuyển đổi các dự án của bạn!
 
 ## Hỗ trợ tài nguyên đường dẫn làm việc trong Aspose.PSD cho .NET
 
@@ -32,9 +32,9 @@ Bắt tay vào hành trình làm chủ sáng tạo với hướng dẫn Aspose.P
 
 ## Hướng dẫn về tài nguyên tệp PSD
 ### [Hỗ trợ tài nguyên màu nền trong Aspose.PSD cho .NET](./supporting-background-color-resource/)
-Làm chủ Aspose.PSD cho .NET với hướng dẫn từng bước của chúng tôi. Thao tác hình ảnh PSD dễ dàng. Tải về dùng thử ngay!
+Làm chủ Aspose.PSD cho .NET với hướng dẫn từng bước của chúng tôi. Thao tác hình ảnh PSD dễ dàng. Tải xuống bản dùng thử miễn phí của bạn ngay bây giờ!
 ### [Hỗ trợ tài nguyên thông tin biên giới trong Aspose.PSD cho .NET](./supporting-border-information-resource/)
-Khám phá Aspose.PSD để biết tính năng Tài nguyên thông tin biên giới của .NET để nâng cao hình ảnh. Hãy làm theo hướng dẫn của chúng tôi để tích hợp liền mạch. Tải ngay!
+Khám phá Aspose.PSD để biết tính năng Tài nguyên thông tin biên giới của .NET để nâng cao hình ảnh. Hãy làm theo hướng dẫn của chúng tôi để tích hợp liền mạch. Tải về ngay bây giờ!
 ### [Hỗ trợ tài nguyên đường dẫn làm việc trong Aspose.PSD cho .NET](./supporting-working-path-resource/)
 Khám phá sức mạnh của 'WorkingPathResource' trong Aspose.PSD cho .NET. Nâng cao độ chính xác của hình ảnh với hướng dẫn từng bước này.
 ### [Hỗ trợ tài nguyên đen trắng (Blwh) trong Aspose.PSD cho .NET](./supporting-black-and-white-blwh-resource/)

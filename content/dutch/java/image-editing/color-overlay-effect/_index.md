@@ -17,7 +17,7 @@ Voordat we ingaan op de zelfstudie, moet u ervoor zorgen dat u aan de volgende v
 
 1. Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw computer is geïnstalleerd.
 
-2. Aspose.PSD-bibliotheek: Download en installeer de Aspose.PSD-bibliotheek voor Java van[hier](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD-bibliotheek: Download en installeer de Aspose.PSD-bibliotheek voor Java van[hier](https://releases.aspose.com/psd/java/).
 
 3. PSD-document: bereid een PSD-document voor waarop u het kleuroverlay-effect wilt toepassen.
 
@@ -109,4 +109,4 @@ A2: Ja, Aspose.PSD is compatibel met populaire Java IDE's zoals Eclipse en Intel
 
 ### Vraag 5: Zijn er gratis proefversies beschikbaar voor Aspose.PSD?
 
- A5: Ja, verken de[gratis proefperiode](https://releases.aspose.com/)versie voordat u een aankoop doet.
+ A5: Ja, verken de[gratis proefperiode](https://releases.aspose.com/) versie voordat u een aankoop doet.

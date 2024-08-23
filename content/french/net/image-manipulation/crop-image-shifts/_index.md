@@ -82,7 +82,7 @@ rasterImage.Save(destName, new JpegOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment recadrer des images par décalage à l'aide d'Aspose.PSD pour .NET. Cette fonctionnalité puissante vous offre la précision et le contrôle nécessaires à diverses tâches de traitement d’image.
+Félicitations! Vous avez appris avec succès comment recadrer des images par décalage à l'aide d'Aspose.PSD pour .NET. Cette fonctionnalité puissante vous offre la précision et le contrôle nécessaires à diverses tâches de traitement d’image.
 
 ## FAQ
 
@@ -96,7 +96,7 @@ A1 : Oui, Aspose.PSD prend en charge différents formats d'image, vous permettan
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour .NET ?
 
- A3 : Vous pouvez acquérir une licence temporaire à des fins de test.[ici](https://purchase.aspose.com/temporary-license/).
+ A3 : Vous pouvez acquérir une licence temporaire à des fins de test[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q4 : Où puis-je trouver une assistance supplémentaire et des discussions liées à Aspose.PSD ?
 

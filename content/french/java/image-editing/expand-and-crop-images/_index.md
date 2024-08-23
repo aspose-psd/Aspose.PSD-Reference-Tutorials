@@ -75,7 +75,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-Toutes nos félicitations! Vous avez réussi à agrandir et à recadrer une image à l'aide d'Aspose.PSD pour Java.
+Félicitations! Vous avez réussi à agrandir et à recadrer une image à l'aide d'Aspose.PSD pour Java.
 
 ## Conclusion
 
@@ -93,7 +93,7 @@ A2 : Absolument, Aspose.PSD fournit des licences commerciales aux développeurs,
 
 ### Q3 : Existe-t-il des limitations sur les formats de fichiers image pris en charge ?
 
- A3 : Aspose.PSD prend en charge une variété de formats de fichiers image, notamment PSD, JPEG, PNG, etc. Se référer au[Documentation](https://reference.aspose.com/psd/java/) pour une liste complète.
+ A3 : Aspose.PSD prend en charge une variété de formats de fichiers image, notamment PSD, JPEG, PNG, etc. Référez-vous au[documentation](https://reference.aspose.com/psd/java/) pour une liste complète.
 
 ### Q4 : Comment puis-je obtenir de l'aide pour les requêtes liées à Aspose.PSD ?
 
@@ -101,4 +101,4 @@ A2 : Absolument, Aspose.PSD fournit des licences commerciales aux développeurs,
 
 ### Q5 : Existe-t-il un essai gratuit ?
 
- A5 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
+ A5 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).

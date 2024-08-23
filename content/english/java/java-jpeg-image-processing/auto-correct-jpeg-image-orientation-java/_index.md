@@ -20,7 +20,6 @@ Before diving into this tutorial, ensure you have the following prerequisites se
 Before starting with the example, make sure to import the necessary packages from Aspose.PSD for Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

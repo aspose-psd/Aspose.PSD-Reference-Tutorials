@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Mentse el a kivágott képet PSD formátumban a megadott útvonalon.
 
-## 5. lépés: Mentse el a kivágott képet PNG-ként.
+## 5. lépés: Mentse el a kivágott képet PNG-ként
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -83,7 +83,7 @@ Ezenkívül mentse a kivágott képet PNG formátumban meghatározott beállít�
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan vághat le PSD-fájlt az Aspose.PSD for Java használatával. Ez az oktatóanyag alapvető megértést nyújt a kulcsfontosságú lépésekről, lehetővé téve, hogy ezt a funkciót zökkenőmentesen integrálja Java-alkalmazásaiba.
+Gratulálok! Sikeresen megtanulta, hogyan vághat le PSD-fájlt az Aspose.PSD for Java használatával. Ez az oktatóanyag alapvető megértést nyújt a kulcsfontosságú lépésekről, lehetővé téve, hogy ezt a funkciót zökkenőmentesen integrálja Java-alkalmazásaiba.
 
 ## GYIK
 
@@ -97,7 +97,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan vághat le PSD-fájlt az Aspose.PSD f
 
 ### 3. kérdés: Vannak-e licencelési megfontolások az Aspose.PSD for Java használatához?
 
- A3: Igen, lásd a[Aspose.PSD for Java vásárlási oldal](https://purchase.aspose.com/buy) az engedély részleteiért.
+ A3: Igen, lásd a[Aspose.PSD for Java vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez Java-val kapcsolatos problémák esetén?
 
@@ -105,4 +105,4 @@ Gratulálunk! Sikeresen megtanulta, hogyan vághat le PSD-fájlt az Aspose.PSD f
 
 ### 5. kérdés: Kipróbálhatom az Aspose.PSD for Java fájlt vásárlás előtt?
 
- 5. válasz: Igen, fedezze fel a funkciókat ingyenes próbaverzióval.[itt](https://releases.aspose.com/).
+ 5. válasz: Igen, fedezze fel a funkciókat ingyenes próbaverzióval[itt](https://releases.aspose.com/).

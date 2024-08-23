@@ -15,7 +15,7 @@ url: /ko/net/file-and-font-handling/font-replacement/
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-- .NET용 Aspose.PSD: Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+- .NET용 Aspose.PSD: Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 
 - .NET 환경: 컴퓨터에 작동하는 .NET 개발 환경을 설정합니다.
 

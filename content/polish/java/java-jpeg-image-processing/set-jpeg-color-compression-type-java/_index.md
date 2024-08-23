@@ -8,17 +8,16 @@ weight: 13
 url: /pl/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
 ## Wstęp
-W dzisiejszej erze cyfrowej zarządzanie obrazami i manipulowanie nimi jest powszechną koniecznością, czy to przy tworzeniu stron internetowych, projektowaniu graficznym, czy inżynierii oprogramowania. Jeśli szukasz potężnego narzędzia do obsługi plików PSD i konwertowania ich do formatu JPEG z określonymi ustawieniami kolorów i kompresji, nie szukaj dalej niż Aspose.PSD dla Java. Ten samouczek poprowadzi Cię przez proces ustawiania kolorów i typów kompresji JPEG przy użyciu tej solidnej biblioteki.
+W dzisiejszej erze cyfrowej zarządzanie obrazami i manipulowanie nimi jest powszechną koniecznością, niezależnie od tego, czy chodzi o tworzenie stron internetowych, projektowanie graficzne, czy inżynierię oprogramowania. Jeśli szukasz potężnego narzędzia do obsługi plików PSD i konwertowania ich do formatu JPEG z określonymi ustawieniami kolorów i kompresji, nie szukaj dalej niż Aspose.PSD dla Java. Ten samouczek poprowadzi Cię przez proces ustawiania kolorów i typów kompresji JPEG przy użyciu tej solidnej biblioteki.
 ## Warunki wstępne
 Zanim zagłębisz się w kod, upewnij się, że spełniasz następujące wymagania wstępne:
 1. Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-2.  Aspose.PSD dla biblioteki Java. Można go pobrać z[strona internetowa](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD dla biblioteki Java. Można go pobrać z[strona internetowa](https://releases.aspose.com/psd/java/).
 3. Podstawowa znajomość programowania w języku Java.
 ## Importuj pakiety
 Po pierwsze, musisz zaimportować niezbędne pakiety z biblioteki Aspose.PSD. Importy te mają kluczowe znaczenie dla obsługi plików PSD i stosowania żądanych ustawień JPEG.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

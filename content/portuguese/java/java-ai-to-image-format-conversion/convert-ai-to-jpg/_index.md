@@ -21,7 +21,6 @@ Primeiramente, precisamos importar os pacotes necessários para lidar com nossa 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ Antes de começarmos a codificar, certifique-se de que seu ambiente de desenvolv
 -  Baixe Aspose.PSD: Obtenha a biblioteca do[Página de lançamentos do Aspose](https://releases.aspose.com/psd/java/).
 - Adicione Aspose.PSD ao seu projeto: inclua os arquivos JAR no caminho de construção do seu projeto.
 ## Etapa 2: carregue seu arquivo AI
- A primeira etapa em nosso código é carregar o arquivo AI usando o`AiImage` aula. Esta classe nos permite trabalhar perfeitamente com arquivos do Adobe Illustrator.
+ primeira etapa em nosso código é carregar o arquivo AI usando o`AiImage` aula. Esta classe nos permite trabalhar perfeitamente com arquivos do Adobe Illustrator.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

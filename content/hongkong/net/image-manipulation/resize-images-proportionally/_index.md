@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-確定調整後的影像的新寬度和高度。在本例中，寬度和高度減半，但您可以根據您的要求調整這些值。
+確定調整後的影像的新寬度和高度。在此範例中，寬度和高度減半，但您可以根據您的要求調整這些值。
 
 ## 第 3 步：儲存調整大小的影像
 
@@ -95,7 +95,7 @@ A3：是的，Aspose.PSD for .NET 提供了廣泛的功能，包括裁剪、旋�
 
 ### 問題 4：Aspose.PSD for .NET 是否有免費試用版？
 
- A4：是的，您可以透過免費試用來探索 Aspose.PSD for .NET 的功能。訪問[這裡](https://releases.aspose.com/)開始。
+ A4：是的，您可以透過免費試用來探索 Aspose.PSD for .NET 的功能。訪問[這裡](https://releases.aspose.com/)開始吧。
 
 ### Q5：在哪裡可以找到 Aspose.PSD for .NET 支援？
 

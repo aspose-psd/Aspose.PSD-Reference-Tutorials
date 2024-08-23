@@ -17,7 +17,7 @@ url: /zh-hant/java/image-editing/color-overlay-effect/
 
 1. Java 開發環境：確保您的電腦上設定了 Java 開發環境。
 
-2. Aspose.PSD 函式庫：下載並安裝適用於 Java 的 Aspose.PSD 函式庫[這裡](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD 函式庫：下載並安裝適用於 Java 的 Aspose.PSD 函式庫[這裡](https://releases.aspose.com/psd/java/).
 
 3. PSD 文件：準備一個要套用顏色疊加效果的 PSD 文件。
 

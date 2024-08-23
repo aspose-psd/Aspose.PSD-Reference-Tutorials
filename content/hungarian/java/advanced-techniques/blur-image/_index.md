@@ -87,7 +87,7 @@ A1: Abszolút! Az Aspose.PSD átfogó dokumentációval rendelkezik, amely minde
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- V3: Igen, ingyenes próbaverziót kaphat.[itt](https://releases.aspose.com/).
+ V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok támogatást az Aspose.PSD for Java számára?
 
@@ -95,4 +95,4 @@ A1: Abszolút! Az Aspose.PSD átfogó dokumentációval rendelkezik, amely minde
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
- V5: Kaphat ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

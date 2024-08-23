@@ -15,7 +15,7 @@ Dalam bidang pengembangan .NET, Aspose.PSD menonjol sebagai alat yang ampuh untu
 
 Sebelum masuk ke tutorial, pastikan Anda memiliki hal berikut:
 
--  Aspose.PSD untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.PSD. Jika belum, Anda dapat mendownloadnya dari[Unduh Halaman](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.PSD. Jika belum, Anda dapat mendownloadnya dari[halaman unduh](https://releases.aspose.com/psd/net/).
 
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda dengan Visual Studio atau IDE pilihan lainnya.
 
@@ -89,7 +89,7 @@ Dalam tutorial ini, kita menjelajahi dunia kurva Bezier yang menakjubkan di Aspo
 
 ### Q1: Dapatkah saya menggunakan Aspose.PSD untuk .NET dalam proyek non-komersial?
 
- A1: Ya, Aspose.PSD untuk .NET dapat digunakan dalam proyek komersial dan non-komersial. Periksalah[rincian lisensi](https://purchase.aspose.com/buy) untuk informasi lebih lanjut.
+ A1: Ya, Aspose.PSD untuk .NET dapat digunakan dalam proyek komersial dan non-komersial. Periksa[rincian lisensi](https://purchase.aspose.com/buy) untuk informasi lebih lanjut.
 
 ### Q2: Bagaimana saya bisa mendapatkan lisensi sementara untuk tujuan pengujian?
 
@@ -101,7 +101,7 @@ A3: Tentu saja! Aspose.PSD untuk .NET disesuaikan untuk tugas pemrosesan dan pen
 
 ### Q4: Di mana saya dapat menemukan dukungan komunitas untuk Aspose.PSD untuk .NET?
 
- A4: Bergabunglah dengan komunitas Aspose.PSD di[forum ini](https://forum.aspose.com/c/psd/34) untuk diskusi dan dukungan.
+A4: Bergabunglah dengan komunitas Aspose.PSD di[forum ini](https://forum.aspose.com/c/psd/34) untuk diskusi dan dukungan.
 
 ### Q5: Apakah ada sumber daya gratis untuk mempelajari Aspose.PSD untuk .NET?
 

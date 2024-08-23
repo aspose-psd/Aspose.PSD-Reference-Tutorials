@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /it/java/advanced-image-manipulation/resize-image-proportionally/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nella nostra guida passo passo sul ridimensionamento proporzionale delle immagini utilizzando Aspose.PSD per Java. Se stai cercando di migliorare le tue applicazioni Java con efficienti funzionalità di ridimensionamento delle immagini, sei nel posto giusto. In questo tutorial ti guideremo attraverso il processo utilizzando passaggi chiari e concisi.
 
@@ -64,7 +64,7 @@ String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-E il gioco è fatto! Hai ridimensionato con successo un'immagine proporzionalmente utilizzando Aspose.PSD per Java.
+Ed ecco qua! Hai ridimensionato con successo un'immagine proporzionalmente utilizzando Aspose.PSD per Java.
 
 ## Conclusione
 
@@ -78,11 +78,11 @@ In questo tutorial, abbiamo trattato i passaggi essenziali per ridimensionare le
 
 ### Q2: Posso utilizzare Aspose.PSD per progetti commerciali?
 
- A2: Sì, puoi. Visitare il[pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli sulla licenza.
+ A2: Sì, puoi. Visita il[pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli sulla licenza.
 
 ### Q3: Sono disponibili licenze temporanee a scopo di test?
 
- R3: Sì, puoi ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/) Per la valutazione.
+ R3: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) per la valutazione.
 
 ### Q4: Dove posso trovare supporto per Aspose.PSD?
 

@@ -82,7 +82,7 @@ psdImage.save(outputStream, new PngOptions());
 
 ## Conclusión
 
- Aspose.PSD para Java permite a los desarrolladores manejar archivos PSD sin esfuerzo. Este tutorial proporcionó una guía concisa sobre cómo cargar imágenes desde una secuencia. Explorar el[documentación](https://reference.aspose.com/psd/java/) para más detalles y capacidades.
+Aspose.PSD para Java permite a los desarrolladores manejar archivos PSD sin esfuerzo. Este tutorial proporcionó una guía concisa sobre cómo cargar imágenes desde una secuencia. Explora el[documentación](https://reference.aspose.com/psd/java/) para más detalles y capacidades.
 
 ## Preguntas frecuentes
 
@@ -92,7 +92,7 @@ R1: ¡Absolutamente! Aspose.PSD para Java sobresale en tareas de procesamiento d
 
 ### P2: ¿Puedo probar Aspose.PSD para Java antes de comprarlo?
 
- R2: Sí, puedes explorar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+ R2: Sí, puedes explorar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar soporte para Aspose.PSD para Java?
 
@@ -100,7 +100,7 @@ R1: ¡Absolutamente! Aspose.PSD para Java sobresale en tareas de procesamiento d
 
 ### P4: ¿Necesito una licencia temporal para realizar pruebas?
 
- R4: Obtenga una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para probar Aspose.PSD para Java.
+ A4: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para probar Aspose.PSD para Java.
 
 ### P5: ¿Dónde puedo comprar Aspose.PSD para Java?
 

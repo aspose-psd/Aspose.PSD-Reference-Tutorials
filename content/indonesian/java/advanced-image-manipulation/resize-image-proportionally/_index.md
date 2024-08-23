@@ -74,15 +74,15 @@ Dalam tutorial ini, kami membahas langkah-langkah penting untuk mengubah ukuran 
 
 ### Q1: Apakah Aspose.PSD kompatibel dengan semua format gambar?
 
- A1: Aspose.PSD mendukung berbagai format gambar, termasuk PSD, PNG, JPEG, dan lainnya. Periksalah[dokumentasi](https://reference.aspose.com/psd/java/) untuk daftar lengkap.
+ A1: Aspose.PSD mendukung berbagai format gambar, termasuk PSD, PNG, JPEG, dan lainnya. Periksa[dokumentasi](https://reference.aspose.com/psd/java/) untuk daftar lengkap.
 
 ### Q2: Dapatkah saya menggunakan Aspose.PSD untuk proyek komersial?
 
- A2: Ya, Anda bisa. Mengunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+ A2: Ya, Anda bisa. Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
 
 ### Q3: Apakah lisensi sementara tersedia untuk tujuan pengujian?
 
- A3: Ya, Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+ A3: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.PSD?
 

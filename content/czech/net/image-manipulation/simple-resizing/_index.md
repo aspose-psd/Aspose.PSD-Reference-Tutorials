@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /cs/net/image-manipulation/simple-resizing/
 ---
-## Úvod
+## Zavedení
 
 V dynamické sféře vývoje .NET je manipulace s obrázky běžnou nutností. Aspose.PSD for .NET přichází k záchraně se svými výkonnými schopnostmi, které poskytují bezproblémový zážitek pro změnu velikosti obrazu. V tomto tutoriálu se ponoříme do jednoduchého, ale zásadního procesu změny velikosti obrázků pomocí Aspose.PSD pro .NET. Připoutejte se, když se vydáme na cestu k vylepšení vašich dovedností zpracování obrazu.
 
@@ -62,7 +62,7 @@ string destName = dataDir + @"SimpleResizing_out.jpg";
 image.Save(destName, new JpegOptions());
 ```
 
-A to je vše! Úspěšně jste změnili velikost obrázku pomocí Aspose.PSD pro .NET.
+A je to! Úspěšně jste změnili velikost obrázku pomocí Aspose.PSD pro .NET.
 
 ## Závěr
 

@@ -11,7 +11,7 @@ url: /nl/net/layer-effects/supporting-shadow-effects/
 
 Het toevoegen van schaduweffecten aan afbeeldingen kan de visuele aantrekkingskracht aanzienlijk vergroten en een meer meeslepende gebruikerservaring creëren. Aspose.PSD voor .NET biedt een krachtige oplossing voor het ondersteunen van schaduweffecten in uw afbeeldingen, waardoor u verschillende parameters kunt aanpassen en de gewenste visuele effecten kunt bereiken.
 
-In deze zelfstudie begeleiden we u door het proces van het ondersteunen van schaduweffecten met Aspose.PSD voor .NET. Voordat we in de stappen duiken, moeten we ervoor zorgen dat u aan de noodzakelijke vereisten voldoet.
+In deze zelfstudie begeleiden we u bij het ondersteunen van schaduweffecten met Aspose.PSD voor .NET. Voordat we in de stappen duiken, moeten we ervoor zorgen dat u aan de noodzakelijke vereisten voldoet.
 
 ## Vereisten
 

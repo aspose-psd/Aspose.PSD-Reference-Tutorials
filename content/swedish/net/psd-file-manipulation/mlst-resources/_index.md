@@ -73,11 +73,11 @@ S1: Ja, Aspose.PSD för .NET stöder PSD-filer skapade i olika Photoshop-version
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.PSD för .NET?
 
- S2: Ja, du kan ladda ner en gratis provversion från[släpper sida](https://releases.aspose.com/).
+ S2: Ja, du kan ladda ner en gratis testversion från[släpper sida](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta detaljerad dokumentation för Aspose.PSD för .NET?
 
-S3: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
+S3: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 
@@ -85,4 +85,4 @@ S3: Dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/n
 
 ### F5: Hur köper jag en licens för Aspose.PSD för .NET?
 
- A5: Du kan köpa en licens.[här](https://purchase.aspose.com/buy).
+ A5: Du kan köpa en licens[här](https://purchase.aspose.com/buy).

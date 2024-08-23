@@ -12,14 +12,13 @@ Java를 사용하여 Adobe Illustrator(.AI) 파일을 PNG 이미지로 변환하
 ## 전제조건
 시작하기 전에 준비해야 할 몇 가지 사항이 있습니다.
 1. JDK(Java Development Kit): 컴퓨터에 JDK 8 이상이 설치되어 있는지 확인하세요.
-2.  Java용 Aspose.PSD: Java용 Aspose.PSD 라이브러리가 필요합니다. 다음에서 다운로드할 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/psd/java/) 아니면[무료 시험판](https://releases.aspose.com/).
+2.  Java용 Aspose.PSD: Java용 Aspose.PSD 라이브러리가 필요합니다. 다음에서 다운로드할 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/psd/java/) 아니면[무료 평가판](https://releases.aspose.com/).
 3. 통합 개발 환경(IDE): IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 모든 Java IDE.
 4. Java 기본 지식: Java 프로그래밍에 대한 기본적인 이해가 도움이 됩니다.
 ## 패키지 가져오기
 먼저 필요한 Aspose.PSD 패키지를 Java 프로젝트로 가져와야 합니다. 환경을 설정해 보겠습니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -51,7 +50,7 @@ Aspose.PSD를 사용하면 Java에서 AI 파일을 PNG로 쉽게 변환할 수 �
 ### Aspose.PSD란 무엇인가요?
 Aspose.PSD는 개발자가 PSD(Photoshop) 및 기타 Adobe 파일 형식으로 작업할 수 있도록 하는 Java 라이브러리입니다. 편집, 변환, 렌더링 등 다양한 작업을 지원합니다.
 ### Aspose.PSD를 무료로 사용할 수 있나요?
- Aspose.PSD를 다음과 함께 사용할 수 있습니다.[무료 시험판](https://releases.aspose.com/) , 그러나 전체 기능을 사용하려면 라이센스를 구입해야 합니다. 당신은 또한[임시면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+ Aspose.PSD를 다음과 함께 사용할 수 있습니다.[무료 평가판](https://releases.aspose.com/) , 그러나 전체 기능을 사용하려면 라이센스를 구입해야 합니다. 당신은 또한[임시면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
 ### Aspose.PSD는 어떤 파일 형식을 지원합니까?
 Aspose.PSD는 PSD, PSB, AI 및 기타 Adobe 파일 형식을 지원합니다. PNG, JPEG, BMP, TIFF 등 다양한 이미지 형식으로 변환할 수 있습니다.
 ### Aspose.PSD는 모든 Java 버전과 호환됩니까?

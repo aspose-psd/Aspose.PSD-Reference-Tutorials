@@ -13,10 +13,10 @@ url: /hu/net/image-processing/
 Az Aspose.PSD for .NET lehetővé teszi a fejlesztők számára, hogy a képfeldolgozást új magasságokba emeljék. Ebben az oktatóanyag-sorozatban különféle technikákat és szűrőket mutatunk be a képminőség zökkenőmentes javítása érdekében. Akár a zajcsökkentést, akár az optimális látványt, akár a hatékony binarizálást szeretné elérni, az Aspose.PSD for .NET mindent megtalál.
 
 ## Gauss- és Wiener-szűrők alkalmazása képjavítás céljából
- Fedezze fel a képjavítás titkait Gauss- és Wiener-szűrőkkel. Miénkben[oktatóanyag](./apply-gaussian-wiener-filters/), lépésről lépésre végigvezetjük a folyamaton. Fedezze fel, hogy az Aspose.PSD for .NET hogyan csökkentheti erőfeszítés nélkül a zajt, így biztosítva, hogy a képek olyan tisztaságot érjenek el, amely magával ragadja a nézőket.
+ Fedezze fel a képjavítás titkait Gauss- és Wiener-szűrőkkel. A miénkben[oktatóanyag](./apply-gaussian-wiener-filters/), lépésről lépésre végigvezetjük a folyamaton. Fedezze fel, hogy az Aspose.PSD for .NET hogyan csökkentheti erőfeszítés nélkül a zajt, így biztosítva, hogy a képek olyan tisztaságot érjenek el, amely magával ragadja a nézőket.
 
 ## Színes képek javítása medián és bécsi szűrőkkel
- Miénkben[oktatóanyag](./apply-median-wiener-filters-color-images/)a színes képfeldolgozás világát fedezzük fel. Az Aspose.PSD for .NET lehetővé teszi a színes képek javítását és zajtalanítását Median és Wiener szűrőkkel. Kövesse zökkenőmentes, lépésenkénti útmutatónkat, hogy kiemelje látványvilágának élénk részleteit.
+ A miénkben[oktatóanyag](./apply-median-wiener-filters-color-images/)a színes képfeldolgozás világát fedezzük fel. Az Aspose.PSD for .NET lehetővé teszi a színes képek javítását és zajtalanítását Median és Wiener szűrőkkel. Kövesse zökkenőmentes, lépésenkénti útmutatónkat, hogy kiemelje látványvilágának élénk részleteit.
 
 ## Binarizációs technikák elsajátítása
  Azok számára, akik színes képeket szeretnének binárissá konvertálni, a mi[oktatóanyag](./binarization-techniques/) fejlett binarizációs technikákat fed le. A BinarizationWithFixedThreshold metódus az Aspose.PSD for .NET-ben egyszerűvé és hatékonysá teszi a folyamatot, biztosítva a képek egyértelmű kommunikációját.
@@ -25,7 +25,7 @@ Az Aspose.PSD for .NET lehetővé teszi a fejlesztők számára, hogy a képfeld
  Merüljön el mélyen a színkonverzió világában nálunk[oktatóanyag](./color-conversion-default-icc-profiles/). Az Aspose.PSD for .NET lehetővé teszi a színprofilok frissítését, garantálva az élénk és pontos látványt. Fedezze fel a színátalakítás árnyalatait, hogy képei valóban feltűnjenek.
 
 ## Szürkeárnyalatos képek könnyedén
- Ban,-ben[oktatóanyag](./grayscaling-images/)megmutatjuk, hogyan alkalmazhat könnyedén szürkeárnyalatos effektusokat. Az Aspose.PSD for .NET leegyszerűsíti a szürkeárnyalatos folyamatot, lehetővé téve, hogy könnyedén hozzáadjon egy csipetnyi kifinomultságot a képekhez.
+ A[oktatóanyag](./grayscaling-images/)megmutatjuk, hogyan alkalmazhat könnyedén szürkeárnyalatos effektusokat. Az Aspose.PSD for .NET leegyszerűsíti a szürkeárnyalatos folyamatot, lehetővé téve, hogy könnyedén hozzáadjon egy csipetnyi kifinomultságot a képekhez.
 
 ## Képszegmentálás Bradley küszöbértékkel
  A miénk[oktatóanyag](./apply-bradley-threshold/) bevezeti a Bradley Threshold-t az Aspose.PSD for .NET-hez. Fokozza a képszegmentálást ezzel a hatékony binarizálási technikával. Kövesse lépésről lépésre útmutatónkat, hogy kihasználja ezt a hatékony funkciót.

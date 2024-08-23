@@ -44,7 +44,7 @@ using (var image = Image.Load(sourceFile))
     {
         rasterImage.CacheData();
     }
-    // Continue para o próximo passo...
+    // Continue para a próxima etapa...
 }
 //ExEnd:LoadImage
 ```
@@ -56,13 +56,13 @@ Nesta etapa, ajustaremos o contraste da imagem carregada.
 ```csharp
 //ExStart: Ajustar Contraste
 rasterImage.AdjustContrast(50); // Ajuste o contraste em 50%
-// Continue para o próximo passo...
+// Continue para a próxima etapa...
 //ExEnd:AjustarContraste
 ```
 
 ## Etapa 3: criar opções TIFF
 
- Crie uma instância de`TiffOptions` Para a imagem resultante, defina várias propriedades e salve a imagem no formato TIFF.
+ Crie uma instância de`TiffOptions` para a imagem resultante, defina várias propriedades e salve a imagem no formato TIFF.
 
 ```csharp
 //ExStart:CreateTiffOptions
@@ -92,12 +92,12 @@ A1: Aspose.PSD para .NET foi projetado para ser amigável ao desenvolvedor, torn
 
 ### Q3: Existe um teste gratuito disponível?
 
- A3: Sim, você pode explorar uma avaliação gratuita do Aspose.PSD para .NET.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode explorar uma avaliação gratuita do Aspose.PSD para .NET[aqui](https://releases.aspose.com/).
 
 ### Q4: Onde posso encontrar suporte para Aspose.PSD para .NET?
 
- A4: Visite o fórum de suporte Aspose.PSD para .NET[aqui](https://forum.aspose.com/c/psd/34) para assistência.
+ A4: Visite o fórum de suporte Aspose.PSD para .NET[aqui](https://forum.aspose.com/c/psd/34) para obter assistência.
 
 ### P5: Como posso obter uma licença temporária?
 
- A5: Se necessário, você pode obter uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Se necessário, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

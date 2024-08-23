@@ -16,7 +16,7 @@ Java 개발 세계에서 이미지 조작은 일반적인 작업이며 Java용 A
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/psd/java/).
+- Java 라이브러리용 Aspose.PSD. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/psd/java/).
 
 ## 패키지 가져오기
 
@@ -100,7 +100,7 @@ A1: 예, Java용 Aspose.PSD는 다양한 Java 프레임워크와 통합되어 �
 
 ### Q4: Java용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
- A4: 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A4: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Java용 Aspose.PSD에서 자르기에 지원되는 이미지 형식은 무엇입니까?
 

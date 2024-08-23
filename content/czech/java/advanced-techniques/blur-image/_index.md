@@ -7,7 +7,7 @@ type: docs
 weight: 24
 url: /cs/java/advanced-techniques/blur-image/
 ---
-## Úvod
+## Zavedení
 
 Ve světě vývoje v Javě je vylepšování a manipulace s obrázky běžným požadavkem. Pokud chcete do svých obrázků přidat efekt rozostření programově, Aspose.PSD for Java je mocný nástroj, který celý proces zjednodušuje. Tento výukový program vás provede kroky rozmazání obrázku pomocí Aspose.PSD a zajistí, že bez námahy dosáhnete profesionálních výsledků.
 
@@ -16,7 +16,7 @@ Ve světě vývoje v Javě je vylepšování a manipulace s obrázky běžným p
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD pro knihovnu Java. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/java/).
 - Základní znalost programování v Javě.
 
 ## Importujte balíčky
@@ -83,11 +83,11 @@ A1: Rozhodně! Aspose.PSD přichází s komplexní dokumentací, která má vés
 
 ### Q2: Mohu použít Aspose.PSD pro komerční projekty?
 
- A2: Ano, můžete. Návštěva[tady](https://purchase.aspose.com/buy) prozkoumat možnosti licencování.
+ A2: Ano, můžete. Návštěva[zde](https://purchase.aspose.com/buy) prozkoumat možnosti licencování.
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.PSD pro Java?
 
@@ -95,4 +95,4 @@ A1: Rozhodně! Aspose.PSD přichází s komplexní dokumentací, která má vés
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.PSD?
 
- A5: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

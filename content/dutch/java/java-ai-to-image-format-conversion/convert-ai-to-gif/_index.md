@@ -12,7 +12,7 @@ Het converteren van AI-bestanden (Adobe Illustrator) naar GIF's in Java lijkt mi
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 - Java Development Kit (JDK): Zorg ervoor dat JDK op uw computer is geïnstalleerd.
--  Aspose.PSD voor Java Library: Download de bibliotheek van de[Aspose.PSD voor Java-downloadpagina](https://releases.aspose.com/psd/java/).
+- Aspose.PSD voor Java Library: Download de bibliotheek van de[Aspose.PSD voor Java-downloadpagina](https://releases.aspose.com/psd/java/).
 - Integrated Development Environment (IDE): Een IDE zoals IntelliJ IDEA, Eclipse of NetBeans voor het schrijven en uitvoeren van uw Java-code.
 - AI-bestand: het Adobe Illustrator-bestand dat u wilt converteren.
 ## Pakketten importeren
@@ -20,7 +20,6 @@ Laten we eerst de benodigde pakketten importeren. Dit omvat het kernpakket Aspos
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -56,13 +55,13 @@ options.setDoPaletteCorrection(false);
 ```
 ## Stap 4: Sla de AI op als GIF
 ### 4.1 Sla de afbeelding op
- Gebruik ten slotte de`save` werkwijze van de`AiImage` object om het AI-bestand als GIF op te slaan.
+ Gebruik ten slotte de`save` werkwijze van de`AiImage` object om het AI-bestand op te slaan als een GIF.
 ```java
 image.save(outFileName, options);
 ```
 ## Stap 5: Uitzonderingen afhandelen
 ### 5.1 Verpak uw code in een Try-Catch-blok
-Om eventuele uitzonderingen af te handelen, plaatst u uw code in een try-catch-blok. Dit zorgt ervoor dat uw toepassing correct fouten kan afhandelen, zoals problemen met het bestand niet gevonden of met lees-/schrijfrechten.
+Om eventuele uitzonderingen af te handelen, plaatst u uw code in een try-catch-blok. Dit zorgt ervoor dat uw toepassing correct fouten kan afhandelen, zoals problemen met het niet gevonden bestand of problemen met lees-/schrijfrechten.
 ```java
 try {
     AiImage image = (AiImage) Image.load(sourceFileName);

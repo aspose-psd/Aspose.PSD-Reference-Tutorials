@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
-## introduzione
+## Introduzione
 Ti sei mai chiesto come aggiungere un gradiente del livello del tratto alle tue immagini utilizzando Java? Bene, sei nel posto giusto! Oggi ci immergiamo nel mondo di Aspose.PSD per Java, una potente libreria che ti aiuta a manipolare facilmente i file PSD. Che tu sia un principiante o uno sviluppatore esperto, questa guida passo passo ti guiderà attraverso il processo di aggiunta di un gradiente del livello tratto ai tuoi file PSD. Quindi, allacciati le cinture e preparati a migliorare le tue capacità di editing grafico!
 ## Prerequisiti
 Prima di iniziare, ci sono alcune cose che devi avere a posto. Assicurati di avere quanto segue:
@@ -21,7 +21,6 @@ Per prima cosa importiamo i pacchetti necessari. Questi ci consentiranno di util
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.BlendMode;
 import com.aspose.psd.fileformats.psd.layers.IGradientColorPoint;
@@ -145,7 +144,7 @@ Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
 ## Conclusione
-E il gioco è fatto! Ora sai come aggiungere e manipolare i gradienti del livello del tratto nei file PSD utilizzando Aspose.PSD per Java. Questo tutorial ha trattato il caricamento del file PSD, l'accesso e la modifica degli effetti del tratto e il salvataggio delle modifiche. Con queste competenze, puoi creare gradienti visivamente accattivanti e personalizzare i tuoi file PSD in base alle tue esigenze.
+Ed ecco qua! Ora sai come aggiungere e manipolare i gradienti del livello del tratto nei file PSD utilizzando Aspose.PSD per Java. Questo tutorial ha trattato il caricamento del file PSD, l'accesso e la modifica degli effetti del tratto e il salvataggio delle modifiche. Con queste competenze, puoi creare gradienti visivamente accattivanti e personalizzare i tuoi file PSD in base alle tue esigenze.
 ## Domande frequenti
 ### Cos'è Aspose.PSD per Java?
 Aspose.PSD per Java è una libreria che consente agli sviluppatori di lavorare con file PSD in applicazioni Java, fornendo funzionalità per creare, manipolare e convertire file PSD.

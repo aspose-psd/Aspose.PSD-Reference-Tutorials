@@ -102,12 +102,12 @@ A2: Wymiary można dostosować; odpowiednio dostosuj parametry w metodzie Image.
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla .NET?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD?
 
- A4: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczne.
+ A4: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
 
 ### P5: Czy dostępne są licencje tymczasowe?
 
- Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

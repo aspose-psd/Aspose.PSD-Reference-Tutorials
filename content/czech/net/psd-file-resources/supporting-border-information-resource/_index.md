@@ -2,13 +2,13 @@
 title: Podpora Border Information Resource v Aspose.PSD pro .NET
 linktitle: Podpora hraničního informačního zdroje
 second_title: Aspose.PSD .NET API
-description: Prozkoumejte funkci Border Information Resource Aspose.PSD for .NET pro vylepšené zobrazování. Postupujte podle našeho návodu pro bezproblémovou integraci. Stáhnout teď!
+description: Prozkoumejte funkci Border Information Resource Aspose.PSD for .NET pro vylepšené zobrazování. Postupujte podle našeho návodu pro bezproblémovou integraci. Stáhnout nyní!
 type: docs
 weight: 11
 url: /cs/net/psd-file-resources/supporting-border-information-resource/
 ---
-## Úvod
-Vítejte v našem podrobném průvodci o využití funkce Border Information Resource v Aspose.PSD pro .NET. V tomto tutoriálu vás provedeme procesem práce s Border Information Resources pomocí Aspose.PSD, výkonné zobrazovací knihovny .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento kurz si klade za cíl objasnit bezproblémovou integraci Border Information Resources do vašich projektů.
+## Zavedení
+Vítejte v našem podrobném průvodci o využití funkce Border Information Resource v Aspose.PSD pro .NET. V tomto tutoriálu vás provedeme procesem práce s Border Information Resources pomocí Aspose.PSD, výkonné zobrazovací knihovny .NET. Ať už jste ostřílený vývojář nebo teprve začínáte, tento kurz si klade za cíl objasnit bezproblémové začlenění Border Information Resources do vašich projektů.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte následující:
 -  Aspose.PSD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[Web Aspose.PSD](https://releases.aspose.com/psd/net/).
@@ -66,7 +66,7 @@ Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 Pomocí těchto kroků můžete bez problémů integrovat funkci Border Information Resource do svého projektu Aspose.PSD for .NET.
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak používat Border Information Resources s Aspose.PSD pro .NET. Experimentujte s různými parametry a prozkoumejte rozsáhlé možnosti této knihovny pro vylepšení vašich obrazových projektů.
+Gratuluji! Úspěšně jste se naučili, jak používat Border Information Resources s Aspose.PSD pro .NET. Experimentujte s různými parametry a prozkoumejte rozsáhlé možnosti této knihovny pro vylepšení vašich obrazových projektů.
 
 ## FAQ
 
@@ -80,12 +80,12 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi.[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu?
 
- A4: Navštivte[Fórum podpory Aspose.PSD](https://forum.aspose.com/c/psd/34) pro pomoc.
+ A4: Navštivte[Fórum podpory Aspose.PSD](https://forum.aspose.com/c/psd/34) o pomoc.
 
 ### Q5: Jsou k dispozici dočasné licence?
 
- A5: Ano, můžete získat dočasné licence.[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Ano, můžete získat dočasné licence[zde](https://purchase.aspose.com/temporary-license/).

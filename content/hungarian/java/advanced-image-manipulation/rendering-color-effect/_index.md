@@ -17,7 +17,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 
 - Java fejlesztői környezet: Győződjön meg arról, hogy a gépén van működő Java fejlesztői környezet.
 
--  Aspose.PSD for Java: Töltse le és telepítse az Aspose.PSD könyvtárat innen[ez a link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD for Java: Töltse le és telepítse az Aspose.PSD könyvtárat innen[ezt a linket](https://releases.aspose.com/psd/java/).
 
 ## Csomagok importálása
 
@@ -73,7 +73,7 @@ im.save(pngExportPath, saveOptions);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen alkalmazta a renderelő színeffektusokat az Aspose.PSD for Java használatával. Ez a hatékony könyvtár a lehetőségek világát nyitja meg a Java-alkalmazások grafikus manipulálásához.
+Gratulálok! Sikeresen alkalmazta a renderelő színeffektusokat az Aspose.PSD for Java használatával. Ez a hatékony könyvtár a lehetőségek világát nyitja meg a Java-alkalmazások grafikus manipulálásához.
 
 ## GYIK
 

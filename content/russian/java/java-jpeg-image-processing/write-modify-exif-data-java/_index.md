@@ -20,7 +20,6 @@ url: /ru/java/java-jpeg-image-processing/write-modify-exif-data-java/
 Сначала вам необходимо импортировать необходимые пакеты в ваш Java-проект. Вот как это сделать:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -48,7 +47,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 На этом этапе вы определите ресурс миниатюры среди ресурсов изображений.
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
-    // Извлеките данные EXIF из ресурса миниатюр
+    // Извлеките данные EXIF из ресурса миниатюр.
 }
 ```
 ## Шаг 4. Извлеките и распечатайте данные EXIF
@@ -76,7 +75,7 @@ image.save(dataDir + "Modified_Zebras_Serengeti.psd");
  Для получения более подробной информации ознакомьтесь с[Aspose.PSD Документация](https://reference.aspose.com/psd/java/) . Если у вас возникнут какие-либо проблемы,[Форум поддержки](https://forum.aspose.com/c/psd/34) это отличное место, чтобы получить помощь. Не забудьте изучить[бесплатная пробная версия](https://releases.aspose.com/) и рассмотрите возможность приобретения лицензии[здесь](https://purchase.aspose.com/buy) для полных функций.
 ## Часто задаваемые вопросы
 ### Что такое EXIF-данные?
-Данные EXIF (сменный формат файлов изображений) — это метаданные, встроенные в файлы изображений, содержащие такую информацию, как настройки камеры, дата, время и местоположение.
+Данные EXIF (формат сменных файлов изображений) — это метаданные, встроенные в файлы изображений, содержащие такую информацию, как настройки камеры, дата, время и местоположение.
 ### Может ли Aspose.PSD обрабатывать другие форматы изображений?
 Да, Aspose.PSD поддерживает различные форматы изображений, включая PNG, JPEG, BMP и GIF.
 ### Является ли Aspose.PSD для Java бесплатным?

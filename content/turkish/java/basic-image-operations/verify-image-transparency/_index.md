@@ -16,7 +16,7 @@ Resimlerle mi çalışıyorsunuz ve şeffaflığı sağlamanız mı gerekiyor? A
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan emin olun.
--  Aspose.PSD for Java: Aspose.PSD for Java kütüphanesini indirip yükleyin. Kütüphaneyi ve belgeleri şu adreste bulabilirsiniz:[İnternet sitesi](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD for Java: Aspose.PSD for Java kütüphanesini indirip yükleyin. Kütüphaneyi ve belgeleri şu adreste bulabilirsiniz:[web sitesi](https://releases.aspose.com/psd/java/).
 
 ## Paketleri İçe Aktar
 
@@ -73,16 +73,16 @@ C1: Evet, Aspose.PSD for Java, diğer Java kütüphaneleriyle sorunsuz çalışa
 
 ### S2: Ücretsiz deneme sürümü var mı?
 
- Cevap2: Evet, Aspose.PSD for Java'yı ücretsiz deneme sürümüyle keşfedebilirsiniz. Ziyaret etmek[bu bağlantı](https://releases.aspose.com/) başlamak.
+ Cevap2: Evet, Aspose.PSD for Java'yı ücretsiz deneme sürümüyle keşfedebilirsiniz. Ziyaret etmek[bu bağlantı](https://releases.aspose.com/) başlamak için.
 
 ### S3: Ayrıntılı belgeleri nerede bulabilirim?
 
- A3: Bkz.[dokümantasyon](https://reference.aspose.com/psd/java/)Aspose.PSD for Java'nın kullanımı hakkında kapsamlı bilgi için.
+ A3: Bkz.[dokümantasyon](https://reference.aspose.com/psd/java/) Aspose.PSD for Java'nın kullanımı hakkında kapsamlı bilgi için.
 
 ### S4: Nasıl destek alabilirim?
 
- Cevap4: Aspose.PSD topluluğuna katılın[destek Forumu](https://forum.aspose.com/c/psd/34) yardım istemek ve diğer geliştiricilerle bağlantı kurmak için.
+ Cevap4: Aspose.PSD topluluğuna katılın[destek forumu](https://forum.aspose.com/c/psd/34) yardım istemek ve diğer geliştiricilerle bağlantı kurmak için.
 
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
- Y5: Kitaplığı test ediyorsanız geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Kitaplığı test ediyorsanız geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

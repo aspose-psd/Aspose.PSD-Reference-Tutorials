@@ -29,11 +29,11 @@ url: /zh-hant/java/image-processing/
 
 ## 二值化的釋放：固定閾值和大津閾值
 
-透過我們的教學深入了解影像分割的世界[固定閾值二值化](./binarization-fixed-threshold/)和[使用 Otsu 閾值進行二值化](./binarization-otsu-threshold/)在 Java 的 Aspose.PSD 中。探索固定閾值和大津閾值，這是無縫轉換影像的強大技術。揭開有效影像二值化背後的秘密，並為您的 Java 影像處理任務增添一絲精確度。
+透過我們的教學深入了解影像分割的世界[固定閾值二值化](./binarization-fixed-threshold/)和[使用 Otsu 閾值進行二值化](./binarization-otsu-threshold/)在 Aspose.PSD for Java 中。探索固定閾值和大津閾值，這是無縫轉換影像的強大技術。揭開有效影像二值化背後的秘密，並為您的 Java 影像處理任務增添一絲精確度。
 
 ## 利用 Bradley 閾值提升影像質量
 
-精度與效率的結合[布拉德利閾值](./bradley-thresholding/)在 Java 的 Aspose.PSD 中。透過我們的逐步指南了解增強影像品質的藝術。釋放該技術的潛力，實現有效的影像二值化，確保您的視覺效果清晰銳利。
+精度與效率的結合[布拉德利閾值](./bradley-thresholding/)在 Aspose.PSD for Java 中。透過我們的逐步指南了解增強影像品質的藝術。釋放該技術的潛力，實現有效的影像二值化，確保您的視覺效果清晰銳利。
 
 ## Java 中的無縫 PSD 檔案裁剪
 

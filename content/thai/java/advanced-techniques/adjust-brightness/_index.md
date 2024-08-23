@@ -32,7 +32,7 @@ import com.aspose.psd.imageoptions.TiffOptions;
 
 ตอนนี้ เรามาแบ่งขั้นตอนการปรับความสว่างของภาพออกเป็นขั้นตอนง่ายๆ กัน:
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 
 ```java
 String dataDir = "Your Document Directory";
@@ -76,7 +76,7 @@ tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ## ขั้นตอนที่ 4: บันทึกรูปภาพผลลัพธ์
 
 ```java
-// บันทึกภาพผลลัพธ์
+// บันทึกภาพที่ได้
 rasterImage.save(destName, tiffOptions);
 ```
 

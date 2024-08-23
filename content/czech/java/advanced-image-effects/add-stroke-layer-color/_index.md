@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/java/advanced-image-effects/add-stroke-layer-color/
 ---
-## Úvod
+## Zavedení
 
 Odemkněte potenciál grafického designu vaší Java aplikace s Aspose.PSD. V tomto tutoriálu se ponoříme do fascinujícího světa přidávání barvy vrstvy tahu pomocí Aspose.PSD pro Java. Vylepšete svou grafiku tahy, které praskají, a bez námahy vytvářejte vizuálně přitažlivé návrhy.
 
@@ -68,7 +68,7 @@ StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().
 
 ## Krok 4: Ověřte vlastnosti tahu
 
-Ujistěte se, že vlastnosti zdvihu jsou podle očekávání.
+Ujistěte se, že vlastnosti zdvihu jsou očekávané.
 
 ```java
 Assert.areEqual(BlendMode.Normal, colorStroke.getBlendMode());
@@ -97,7 +97,7 @@ im.save(exportPath);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste přidali barvu vrstvy tahu do svého souboru PSD pomocí Aspose.PSD for Java. Experimentujte s různými barvami a nastaveními, abyste své grafické návrhy oživili.
+Gratuluji! Úspěšně jste přidali barvu vrstvy tahu do svého souboru PSD pomocí Aspose.PSD for Java. Experimentujte s různými barvami a nastaveními, abyste své grafické návrhy oživili.
 
 ## FAQ
 
@@ -111,7 +111,7 @@ A2: Rozhodně! Aspose.PSD drží krok s nejnovějšími specifikacemi formátu s
 
 ### Q3: Jak mohu zpracovat výjimky při používání Aspose.PSD?
 
- A3: Viz[Fórum podpory](https://forum.aspose.com/c/psd/34) za pomoc při zpracování výjimek a odstraňování problémů.
+ A3: Viz[fórum podpory](https://forum.aspose.com/c/psd/34) za pomoc při zpracování výjimek a odstraňování problémů.
 
 ### Q4: Mohu vyzkoušet Aspose.PSD před nákupem?
 

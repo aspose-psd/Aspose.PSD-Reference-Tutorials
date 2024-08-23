@@ -13,7 +13,7 @@ Bienvenido a una guía completa sobre conversión de color utilizando perfiles I
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 1.  Biblioteca Aspose.PSD para Java: asegúrese de tener instalada la biblioteca Aspose.PSD. Puedes descargarlo desde el[lanzamientos](https://releases.aspose.com/psd/java/) página.
 2. Entorno de desarrollo Java: un entorno de desarrollo Java que funcione es esencial para ejecutar el código. Asegúrese de tener Java instalado en su sistema.
-3. Perfiles ICC: obtenga los perfiles ICC necesarios para la conversión de color. Puede encontrar perfiles adecuados, como`eciRGB_v2.icc` y`ISOcoated_v2_FullGamut4.icc`, de fuentes confiables.
+3.  Perfiles ICC: obtenga los perfiles ICC necesarios para la conversión de color. Puede encontrar perfiles adecuados, como`eciRGB_v2.icc` y`ISOcoated_v2_FullGamut4.icc`, de fuentes confiables.
 ## Importar paquetes
 En su proyecto Java, importe los paquetes Aspose.PSD necesarios. Asegúrese de tener las dependencias necesarias incluidas en la configuración de su proyecto.
 ```java
@@ -70,7 +70,7 @@ Siga estos pasos cuidadosamente para realizar la conversión de color utilizando
 En este tutorial, exploramos el proceso de conversión de color utilizando perfiles ICC en Aspose.PSD para Java. Comprender la importancia de una representación precisa del color es crucial en diversas aplicaciones y con Aspose.PSD, tiene una poderosa herramienta a su disposición.
 ## Preguntas frecuentes
 ### ¿Puedo utilizar perfiles ICC personalizados con Aspose.PSD para Java?
-Sí tu puedes. Simplemente reemplace los perfiles ICC proporcionados con sus perfiles personalizados en el código.
+Sí, puedes. Simplemente reemplace los perfiles ICC proporcionados con sus perfiles personalizados en el código.
 ### ¿Cómo puedo manejar las diferencias de color en las imágenes resultantes?
 Ajuste los perfiles ICC y la configuración de color para ajustar el proceso de conversión de color.
 ### ¿Aspose.PSD es adecuado para el procesamiento por lotes de imágenes?

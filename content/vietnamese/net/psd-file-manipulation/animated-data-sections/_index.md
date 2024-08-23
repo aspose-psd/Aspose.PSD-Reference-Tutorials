@@ -12,7 +12,7 @@ Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi v�
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 - Kiến thức cơ bản về lập trình C# và .NET.
-- Aspose.PSD cho .NET được cài đặt. Nếu bạn chưa cài đặt nó, bạn có thể tải xuống từ[đây](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD cho .NET được cài đặt. Nếu bạn chưa cài đặt nó, bạn có thể tải xuống từ[đây](https://releases.aspose.com/psd/net/).
 - Trình chỉnh sửa mã như Visual Studio để triển khai liền mạch.
 ## Nhập không gian tên
 Trong mã C# của bạn, hãy đảm bảo bạn nhập các vùng tên cần thiết để làm việc với Aspose.PSD:

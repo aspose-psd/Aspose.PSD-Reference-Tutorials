@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /it/java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
-## introduzione
+## Introduzione
 
 Nel mondo dello sviluppo Java, ottenere un ridimensionamento delle immagini di alta qualità è un requisito comune. Aspose.PSD per Java fornisce una potente soluzione con il suo Bicubic Resampler. Questa guida passo passo ti guiderà attraverso il processo di implementazione del Bicubic Resampler utilizzando Aspose.PSD per Java. Al termine di questo tutorial sarai in grado di migliorare le tue applicazioni Java con funzionalità di ridimensionamento delle immagini superiori.
 
@@ -86,7 +86,7 @@ A1: Sì, Aspose.PSD per Java supporta vari formati di immagine, inclusi PSD, PNG
 
 ### Q4: Posso scaricare la libreria Aspose.PSD per Java?
 
- R4: Sì, scarica la libreria dalla pagina delle versioni.[Qui](https://releases.aspose.com/psd/java/).
+ R4: Sì, scarica la libreria dalla pagina delle versioni[Qui](https://releases.aspose.com/psd/java/).
 
 ### Q5: Come posso acquistare Aspose.PSD per Java?
 

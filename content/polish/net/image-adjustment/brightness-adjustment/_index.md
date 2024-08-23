@@ -23,7 +23,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 ## Importuj przestrzenie nazw
 
-swoim projekcie .NET uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.PSD. Dodaj następujące przestrzenie nazw do swojego kodu:
+projekcie .NET uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.PSD. Dodaj następujące przestrzenie nazw do swojego kodu:
 
 ```csharp
 using Aspose.PSD.FileFormats.Psd;
@@ -80,7 +80,7 @@ Aspose.PSD dla .NET upraszcza proces wdrażania regulacji jasności w plikach PS
 
 ### P1: Gdzie mogę znaleźć dokumentację Aspose.PSD dla .NET?
 
- Odpowiedź 1: Dokumentacja jest dostępna.[Tutaj](https://reference.aspose.com/psd/net/).
+ Odpowiedź 1: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/net/).
 
 ### P2: Jak mogę pobrać bibliotekę Aspose.PSD dla .NET?
 
@@ -88,7 +88,7 @@ Aspose.PSD dla .NET upraszcza proces wdrażania regulacji jasności w plikach PS
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla .NET?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego.[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD dla .NET upraszcza proces wdrażania regulacji jasności w plikach PS
 
 ### P5: Jak uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
- Odpowiedź 5: Możesz nabyć licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

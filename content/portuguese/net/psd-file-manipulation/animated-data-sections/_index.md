@@ -12,7 +12,7 @@ Bem-vindo ao nosso guia completo sobre como lidar com seções de dados animados
 ## Pré-requisitos
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos:
 - Conhecimento básico de programação C# e .NET.
-- Aspose.PSD para .NET instalado. Se você ainda não o instalou, você pode baixá-lo em[aqui](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD para .NET instalado. Se você ainda não o instalou, você pode baixá-lo em[aqui](https://releases.aspose.com/psd/net/).
 - Um editor de código como o Visual Studio para implementação perfeita.
 ## Importar namespaces
 Em seu código C#, certifique-se de importar os namespaces necessários para trabalhar com Aspose.PSD:

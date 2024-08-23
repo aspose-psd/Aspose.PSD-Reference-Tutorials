@@ -16,7 +16,7 @@ Trong thế giới phát triển Java, thao tác với hình ảnh là một nhi
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
--  Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/psd/java/).
+- Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[trang web](https://releases.aspose.com/psd/java/).
 
 ## Gói nhập khẩu
 
@@ -92,7 +92,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java có thể được tích hợp vớ
 
 ### Câu hỏi 2: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
- A2: Có, bạn có thể truy cập phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ A2: Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm thêm hỗ trợ hoặc hỗ trợ ở đâu?
 
@@ -100,7 +100,7 @@ Câu trả lời 1: Có, Aspose.PSD cho Java có thể được tích hợp vớ
 
 ### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho Java?
 
- A4: Bạn có thể có được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ A4: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Các định dạng hình ảnh được hỗ trợ để cắt xén trong Aspose.PSD cho Java là gì?
 

@@ -41,7 +41,7 @@ import java.io.FileOutputStream;
 String dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"`PSD dosyanızın bulunduğu dizinin yolu ile birlikte.
+ Yer değiştirmek`"Your Document Directory"` PSD dosyanızın bulunduğu dizinin yolu ile birlikte.
 
 ## Adım 2: Kaynağı ve Hedefi Belirleyin
 
@@ -68,7 +68,7 @@ FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
- Oluşturmak`FileOutputStream` hedef dosya için ve PNG seçeneklerini kullanarak PSD görüntüsünü akışa kaydedin.
+ Bir oluştur`FileOutputStream`hedef dosya için ve PNG seçeneklerini kullanarak PSD görüntüsünü akışa kaydedin.
 
 Özel kullanım durumunuz için bu adımları gerektiği kadar tekrarlayın.
 
@@ -88,7 +88,7 @@ Cevap1: Evet, Aspose.PSD, profesyonel Java projelerinde verimli PSD dosyası man
 
 ### S3: Satın almadan önce Aspose.PSD'yi deneyebilir miyim?
 
-A3: Evet, keşfedebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.PSD'nin yeteneklerini değerlendirmek için.
+ A3: Evet, keşfedebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.PSD'nin yeteneklerini değerlendirmek için.
 
 ### S4: Aspose.PSD için nasıl geçici lisans alabilirim?
 

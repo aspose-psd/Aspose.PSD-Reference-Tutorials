@@ -8,7 +8,7 @@ weight: 11
 url: /vi/java/psd-conversion/color-conversion-default-profiles/
 ---
 ## Giới thiệu
-Trong lĩnh vực phát triển Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ để làm việc với hình ảnh. Trong số nhiều tính năng của nó, chuyển đổi màu bằng cách sử dụng cấu hình mặc định là một khía cạnh quan trọng cho phép các nhà phát triển thao tác và nâng cao cấu hình màu của hình ảnh. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình chuyển đổi màu bằng Aspose.PSD cho Java, cung cấp hướng dẫn từng bước.
+Trong lĩnh vực phát triển Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ để làm việc với hình ảnh. Trong số nhiều tính năng của nó, chuyển đổi màu bằng cấu hình mặc định là một khía cạnh quan trọng cho phép các nhà phát triển thao tác và nâng cao cấu hình màu của hình ảnh. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình chuyển đổi màu bằng Aspose.PSD cho Java, cung cấp hướng dẫn từng bước.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 - Kiến thức cơ bản về lập trình Java.

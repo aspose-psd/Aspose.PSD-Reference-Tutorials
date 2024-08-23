@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/image-editing/create-xmp-metadata/
 ---
-## Úvod
+## Zavedení
 
 V oblasti vývoje v Javě je správa a manipulace s metadaty obrázků zásadní pro různé aplikace. Aspose.PSD for Java vyniká jako výkonný nástroj pro práci se soubory PSD a v tomto tutoriálu se ponoříme do vytváření metadat XMP pomocí této robustní knihovny.
 
@@ -16,7 +16,7 @@ V oblasti vývoje v Javě je správa a manipulace s metadaty obrázků zásadní
 Než se pustíme do tohoto tutoriálu, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Mít na svém systému nainstalovanou Javu a základní znalosti programování v Javě.
--  Aspose.PSD Library: Stáhněte si a nastavte knihovnu Aspose.PSD pro Javu. Najdete zde knihovnu a podrobnou dokumentaci[tady](https://reference.aspose.com/psd/java/).
+-  Aspose.PSD Library: Stáhněte si a nastavte knihovnu Aspose.PSD pro Javu. Najdete zde knihovnu a podrobnou dokumentaci[zde](https://reference.aspose.com/psd/java/).
 - Your Document Directory: Definujte adresář, kde jsou uloženy vaše soubory dokumentů.
 
 ## Importujte balíčky
@@ -132,7 +132,7 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste vytvořili metadata XMP pro obrázek pomocí Aspose.PSD for Java. Tento výukový program vás vybavil základními kroky k bezproblémovému vylepšení a správě metadat ve vašich aplikacích Java.
+Gratuluji! Úspěšně jste vytvořili metadata XMP pro obrázek pomocí Aspose.PSD for Java. Tento výukový program vás vybavil základními kroky k bezproblémovému vylepšení a správě metadat ve vašich aplikacích Java.
 
 ## FAQ
 
@@ -150,7 +150,7 @@ Odpověď 3: Aspose.PSD je navržen pro zpracování obrázků různých velikos
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.PSD?
 
- A4: Ano, můžete prozkoumat možnosti Aspose.PSD získáním bezplatné zkušební verze.[tady](https://releases.aspose.com/).
+ A4: Ano, můžete prozkoumat možnosti Aspose.PSD získáním bezplatné zkušební verze[zde](https://releases.aspose.com/).
 
 ### Q5: Kde mohu hledat podporu pro dotazy související s Aspose.PSD?
 

@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /cs/net/layer-effects/supporting-shadow-effects/
 ---
-## Úvod
+## Zavedení
 
 Přidání stínových efektů do obrázků může výrazně zlepšit vizuální přitažlivost a vytvořit působivější uživatelský zážitek. Aspose.PSD for .NET poskytuje výkonné řešení pro podporu stínových efektů ve vašich obrázcích, což vám umožňuje přizpůsobit různé parametry a dosáhnout požadovaných vizuálních efektů.
 
@@ -18,7 +18,7 @@ V tomto tutoriálu vás provedeme procesem podpory stínových efektů pomocí A
 Než začnete, ujistěte se, že máte na svém místě následující:
 
 -  Aspose.PSD for .NET Library: Stáhněte a nainstalujte knihovnu z[Stránka pro stahování Aspose.PSD pro .NET](https://releases.aspose.com/psd/net/).
-- Adresář dokumentů: Vytvořte adresář, do kterého budete ukládat soubory PSD.
+- Adresář dokumentů: Vytvořte adresář, kam budete ukládat soubory PSD.
 
 ## Importovat jmenné prostory
 

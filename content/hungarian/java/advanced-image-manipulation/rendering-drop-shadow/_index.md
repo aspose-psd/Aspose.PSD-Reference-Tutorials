@@ -1,6 +1,6 @@
 ---
 title: Alkalmazza az árnyékolás megjelenítését az Aspose.PSD for Java fájlban
-linktitle: Alkalmazza a Rendering Drop Shadow-t
+linktitle: Alkalmazza a rendering vetett árnyékot
 second_title: Aspose.PSD Java API
 description: Fedezze fel az Aspose.PSD for Java programban a vetési árnyékok alkalmazásának lépésről lépésre szóló útmutatóját, amellyel könnyedén fejlesztheti képfeldolgozási készségeit.
 type: docs

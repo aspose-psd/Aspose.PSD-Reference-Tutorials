@@ -17,7 +17,7 @@ Antes de começarmos, certifique-se de ter os seguintes pré-requisitos em vigor
 
 - Ambiente de desenvolvimento Java: certifique-se de ter um ambiente de desenvolvimento Java funcional configurado em sua máquina.
 
--  Biblioteca Aspose.PSD para Java: Baixe a biblioteca do[local na rede Internet](https://releases.aspose.com/psd/java/) e siga as instruções de instalação.
+- Biblioteca Aspose.PSD para Java: Baixe a biblioteca do[site](https://releases.aspose.com/psd/java/) e siga as instruções de instalação.
 
 - Diretório de documentos: Prepare um diretório para armazenar seus arquivos PSD, pois trabalharemos com vários modos de mesclagem usando arquivos PSD de exemplo.
 
@@ -58,7 +58,7 @@ Exporte os arquivos PSD carregados para o formato PNG. Ajuste as opções de exp
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
-// Salve como PNG com 100% de opacidade.
+// Salve como PNG com 100% de opacidade
 String pngExportPath100 = dataDir + "BlendMode" + files[i] + "_Test100.png";
 im.save(pngExportPath100, saveOptions);
 
@@ -73,7 +73,7 @@ Defina a opacidade de camadas específicas nos arquivos PSD. Aqui, definimos a o
 // Defina a opacidade para 50%
 im.getLayers()[1].setOpacity((byte)127);
 
-// Salve como PNG com 50% de opacidade.
+// Salve como PNG com 50% de opacidade
 String pngExportPath50 = dataDir + "BlendMode" + files[i] + "_Test50.png";
 im.save(pngExportPath50, saveOptions);
 
@@ -94,7 +94,7 @@ A1: Sim, Aspose.PSD para Java pode ser integrado com outras bibliotecas de proce
 
 ### Q2: Há alguma limitação no tamanho dos arquivos PSD que o Aspose.PSD for Java pode suportar?
 
-A2: Aspose.PSD para Java foi projetado para lidar com arquivos PSD grandes de forma eficiente, mas é recomendado verificar a documentação para limitações de tamanho específicas.
+A2: Aspose.PSD para Java foi projetado para lidar com arquivos PSD grandes com eficiência, mas é recomendável verificar a documentação para limitações de tamanho específicas.
 
 ### Q3: Como posso obter uma licença temporária para Aspose.PSD para Java?
 

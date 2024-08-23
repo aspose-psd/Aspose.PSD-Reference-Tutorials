@@ -79,7 +79,7 @@ A2: 물론이죠! Aspose.PSD는 특정 요구 사항을 충족하기 위해 사�
 
 ### Q4: 무료 평가판이 제공됩니까?
 
- A4: 예, Aspose.PSD를 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
+ A4: 예, Aspose.PSD를 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
 
 ### Q5: 임시 라이센스는 어떻게 얻나요?
 

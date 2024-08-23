@@ -150,7 +150,7 @@ A3: O Aspose.PSD foi projetado para lidar com imagens de diversos tamanhos, gara
 
 ### Q4: Existe uma versão de teste disponível para Aspose.PSD?
 
- A4: Sim, você pode explorar os recursos do Aspose.PSD obtendo uma avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A4: Sim, você pode explorar os recursos do Aspose.PSD obtendo uma avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P5: Onde posso buscar suporte para consultas relacionadas ao Aspose.PSD?
 

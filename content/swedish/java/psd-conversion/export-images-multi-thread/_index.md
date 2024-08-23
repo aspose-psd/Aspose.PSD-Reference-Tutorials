@@ -74,4 +74,4 @@ Ja, Aspose.PSD stöder multi-threading, vilket gör att du kan bearbeta flera bi
 ### Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
  Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 ### Hur kan jag få en tillfällig licens för Aspose.PSD?
- Besök[den här länken](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens.
+ Besök[denna länk](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens.

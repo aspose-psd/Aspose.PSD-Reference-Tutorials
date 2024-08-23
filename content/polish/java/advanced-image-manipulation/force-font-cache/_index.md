@@ -76,7 +76,7 @@ O1: Aspose.PSD for Java jest zaprojektowany do współpracy z różnymi wersjami
 
 ### P2: Czy mogę używać Aspose.PSD do celów komercyjnych?
 
- Odpowiedź 2: Tak, Aspose.PSD oferuje elastyczne opcje licencjonowania, w tym wykorzystanie komercyjne. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) po więcej szczegółów.
+ Odpowiedź 2: Tak, Aspose.PSD oferuje elastyczne opcje licencjonowania, w tym wykorzystanie komercyjne. Odwiedź[strona zakupu](https://purchase.aspose.com/buy) aby uzyskać więcej szczegółów.
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 

@@ -121,7 +121,7 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá mintázatú körvonalréteget az Aspose.PSD for .NET-hez. Ez a sokoldalú könyvtár lehetővé teszi a fejlesztők számára, hogy tetszetős terveket hozzanak létre, és fokozzák a PSD-fájlok rugalmasságát.
+Gratulálok! Sikeresen megtanulta, hogyan adhat hozzá mintázatú körvonalréteget az Aspose.PSD for .NET-hez. Ez a sokoldalú könyvtár lehetővé teszi a fejlesztők számára, hogy tetszetős terveket hozzanak létre, és növeljék a PSD-fájlok rugalmasságát.
 
 ## GYIK
 
@@ -135,7 +135,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá mintázatú körvonalré
 
 ### 3. kérdés: Vannak-e tesztelhető PSD-mintafájlok?
 
- 3. válasz: A minta PSD-fájlokat a dokumentációban találja.[itt](https://reference.aspose.com/psd/net/).
+ 3. válasz: A minta PSD-fájlokat a dokumentációban találja[itt](https://reference.aspose.com/psd/net/).
 
 ### 4. kérdés: Az Aspose.PSD alkalmas PSD-fájlok kötegelt feldolgozására?
 

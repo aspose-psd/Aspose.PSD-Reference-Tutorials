@@ -81,7 +81,7 @@ R2: Sí, Aspose.PSD para Java ofrece varios tipos de cambio de tamaño, como Vec
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
 
- R4: Sí, puedes acceder a una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+ R4: Sí, puedes acceder a una versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para Java?
 

@@ -12,7 +12,7 @@ Welkom bij onze uitgebreide handleiding over het omgaan met geanimeerde gegevens
 ## Vereisten
 Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
 - Basiskennis van programmeren in C# en .NET.
-- Aspose.PSD voor .NET geïnstalleerd. Als u het nog niet hebt geïnstalleerd, kunt u het downloaden van[hier](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD voor .NET geïnstalleerd. Als u het nog niet hebt geïnstalleerd, kunt u het downloaden van[hier](https://releases.aspose.com/psd/net/).
 - Een code-editor zoals Visual Studio voor een naadloze implementatie.
 ## Naamruimten importeren
 Zorg ervoor dat u in uw C#-code de benodigde naamruimten importeert om met Aspose.PSD te werken:

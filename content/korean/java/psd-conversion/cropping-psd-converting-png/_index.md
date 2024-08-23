@@ -34,7 +34,7 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 ## 3단계: 작물 영역 정의
 ```java
-//x, y, 너비 및 높이를 전달하여 Rectangle 클래스의 인스턴스를 만듭니다.
+// x, y, 너비 및 높이를 전달하여 Rectangle 클래스의 인스턴스를 만듭니다.
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 ## 4단계: PSD 이미지 자르기
@@ -47,7 +47,7 @@ image.crop(cropRegion);
 // PngOptions 클래스의 인스턴스 만들기
 PngOptions pngOptions = new PngOptions();
 ```
-## 6단계: 자른 이미지를 PNG로 저장합니다.
+## 6단계: 자른 이미지를 PNG로 저장
 ```java
 // 출력 경로와 PngOptions를 제공하여 PSD 파일을 PNG로 변환하고 출력을 저장합니다.
 String destName = dataDir + "export.png";
@@ -63,6 +63,6 @@ image.save(destName, pngOptions);
 ### Java용 Aspose.PSD 라이선스가 필요합니까?
  예, 상업적으로 사용하려면 유효한 라이센스가 필요합니다. 당신은 그것을 얻을 수 있습니다[구매 제안](https://purchase.aspose.com/buy).
 ### Java용 Aspose.PSD에 대한 도움을 구하거나 문제를 보고하려면 어떻게 해야 합니까?
- 방문하다[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 도움을 구하고, 경험을 공유하고, 발생한 문제를 보고합니다.
+ 방문[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 도움을 구하고, 경험을 공유하고, 발생한 문제를 보고합니다.
 ### 구매하기 전에 Java용 Aspose.PSD를 사용해 볼 수 있나요?
  틀림없이! 무료 평가판을 통해 라이브러리 기능을 살펴보세요.[여기](https://releases.aspose.com/).

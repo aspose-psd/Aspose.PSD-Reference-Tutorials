@@ -8,7 +8,7 @@ weight: 12
 url: /pl/java/java-graphics-drawing/core-drawing-features/
 ---
 ## Wstęp
-W dzisiejszej epoce cyfrowej narzędzia do doskonalenia, które umożliwiają programistom manipulowanie i programowe tworzenie obrazów, są bezcenne. Aspose.PSD for Java wyróżnia się solidnym rozwiązaniem do obsługi plików PSD, oferującym mnóstwo funkcji ułatwiających przetwarzanie, manipulowanie i konwersję obrazów bezpośrednio w aplikacjach Java. Ten samouczek zagłębia się w podstawowe możliwości rysowania Aspose.PSD dla Java, prowadząc Cię przez niezbędne kroki, aby uwolnić jego pełny potencjał.
+W dzisiejszej epoce cyfrowej narzędzia do doskonalenia, które umożliwiają programistom manipulowanie i programowe tworzenie obrazów, są bezcenne. Aspose.PSD for Java wyróżnia się solidnym rozwiązaniem do obsługi plików PSD, oferującym niezliczoną ilość funkcji ułatwiających przetwarzanie, manipulowanie i konwersję obrazów bezpośrednio w aplikacjach Java. Ten samouczek zagłębia się w podstawowe możliwości rysowania Aspose.PSD dla Java, prowadząc Cię przez niezbędne kroki, aby uwolnić jego pełny potencjał.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
 ### Środowisko programistyczne Java
@@ -16,7 +16,7 @@ Zanim przejdziesz do samouczka, upewnij się, że masz skonfigurowane następuj�
 ### Aspose.PSD do instalacji Java
 Aby rozpocząć korzystanie z Aspose.PSD dla Java, musisz zintegrować go ze swoim projektem. Oto jak możesz to skonfigurować:
 1. Pobierz Aspose.PSD dla Java
-   -  Odwiedzić[strona pobierania](https://releases.aspose.com/psd/java/) i uzyskaj najnowszą wersję Aspose.PSD dla Java.
+   -  Odwiedź[strona pobierania](https://releases.aspose.com/psd/java/) i uzyskaj najnowszą wersję Aspose.PSD dla Java.
    - Wyodrębnij pobrane archiwum do wybranej lokalizacji.
 2. Importowanie Aspose.PSD do Twojego projektu
    - Do projektu Java dołącz pliki JAR Aspose.PSD. Zazwyczaj można to zrobić, dodając je do ścieżki kompilacji projektu lub korzystając z narzędzia do automatyzacji kompilacji, takiego jak Maven lub Gradle.
@@ -25,7 +25,6 @@ Teraz, gdy już wszystko skonfigurowałeś, przyjrzyjmy się krok po kroku, jak 
 Zanim zaczniesz kodować, zaimportuj niezbędne pakiety, aby efektywnie używać klas i metod Aspose.PSD w aplikacji Java:
 ```java
 import com.aspose.psd.Rectangle;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -40,7 +39,7 @@ PsdImage image = new PsdImage(loadpath);
 ## Krok 2: Manipuluj pikselami
 Po załadowaniu obrazu możesz manipulować jego pikselami. Oto jak możesz ładować i modyfikować piksele:
 ```java
-// Załaduj piksele określonego regionu (np. prostokąt 100x10 zaczynając od lewego górnego rogu)
+//Załaduj piksele określonego regionu (np. prostokąt 100x10 zaczynając od lewego górnego rogu)
 int[] pixels = image.loadArgb32Pixels(new Rectangle(0, 0, 100, 10));
 // Modyfikuj piksele (np. zastosuj efekt gradientu)
 for (int i = 0; i < pixels.length; i++) {

@@ -46,7 +46,7 @@ string dataDir = RunExamples.GetDataDir_DrawingAndFormattingImages();
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 
-## Шаг 2. Создайте новое изображение.
+## Шаг 2. Создайте новое изображение
 
 ```csharp
 // Создайте новое изображение для примера.
@@ -169,4 +169,4 @@ A3: Aspose.PSD может обрабатывать изображения раз
 
 ### Вопрос 5: Существует ли форум сообщества для поддержки Aspose.PSD?
 
- О: Да, вы можете найти поддержку и обсуждения на сайте.[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ О: Да, вы можете найти поддержку и обсуждения на[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).

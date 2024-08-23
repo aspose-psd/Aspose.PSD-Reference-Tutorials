@@ -64,7 +64,7 @@ if (f.exists()) {
 現在您已經使用 Aspose.PSD for Java 在多執行緒環境中成功匯出了圖片！
 ## 結論
 在本教程中，我們探索了在多執行緒設定中使用 Aspose.PSD for Java 匯出影像的無縫過程。透過 Aspose.PSD 的強大功能，提升 Java 應用程式的影像處理能力。
-## 經常問的問題
+## 常見問題解答
 ### Aspose.PSD 與所有 Java 版本相容嗎？
 Aspose.PSD與Java 1.7及更高版本相容。
 ### 我可以使用 Aspose.PSD 同時處理多個影像嗎？

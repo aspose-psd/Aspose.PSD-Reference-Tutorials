@@ -59,7 +59,7 @@ psdImage.Save(outputFile);
 ```
 ## Következtetés
 
-Gratulálunk! Sikeresen dolgozott az Aspose.PSD for .NET Layer State Effects funkciójával. Kísérletezzen különböző effektusokkal, hogy fokozza PSD-fájlok vizuális vonzerejét.
+Gratulálok! Sikeresen dolgozott az Aspose.PSD for .NET Layer State Effects funkciójával. Kísérletezzen különböző effektusokkal, hogy fokozza PSD-fájlok vizuális vonzerejét.
 
 ## GYIK
 
@@ -73,11 +73,11 @@ Gratulálunk! Sikeresen dolgozott az Aspose.PSD for .NET Layer State Effects fun
 
 ### 3. válasz: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
- V4: Szerezzen ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/).
+ V4: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Támogatásra van szüksége, vagy kérdései vannak?
 

@@ -20,7 +20,6 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 Először is importálja a szükséges csomagokat az Aspose.PSD for Java használatához:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -42,7 +41,7 @@ image.save(dataDir + "Simple_output.pdf", new PdfOptions());
 Zárja be a betöltési és mentési műveleteket a try-catch blokkba, hogy kezelje a fájlkezelés vagy átalakítás során előforduló esetleges kivételeket.
 ```java
 try {
-    // PSD-ből PDF-be konvertáló kód itt
+    // PSD-ből PDF konvertáló kód itt
 } catch (Exception e) {
     System.out.println(e.getMessage());
 }
@@ -57,7 +56,7 @@ Az Aspose.PSD for Java a PSD fájltípusok széles skáláját támogatja, bele�
 ### Az Aspose.PSD for Java alkalmas PSD-fájlok kötegelt feldolgozására?
 Igen, a fejlesztők kihasználhatják az Aspose.PSD for Java-t kötegelt feldolgozási feladatokhoz, például több PSD-fájl egyidejű konvertálásához PDF-be.
 ### Hol találok további támogatást az Aspose.PSD for Java számára?
- Meglátogatni a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) közösségi támogatásra, valamint más felhasználókkal és fejlesztőkkel való kapcsolattartásra.
+ Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) közösségi támogatásra, valamint más felhasználókkal és fejlesztőkkel való kapcsolattartásra.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
  Ideiglenes licencet tesztelési célból kérhet[itt](https://purchase.aspose.com/temporary-license/).
 ### Milyen előnyei vannak az Aspose.PSD for Java használatának más könyvtárakhoz képest?

@@ -18,7 +18,6 @@ url: /ar/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 للبدء، قم بتضمين حزمة Aspose.PSD الضرورية في فئة Java الخاصة بك:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
@@ -67,7 +66,7 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 ### ما هو Aspose.PSD؟
 Aspose.PSD هي مكتبة Java تسمح للمطورين بالعمل مع PSD وتنسيقات ملفات الصور الأخرى برمجيًا.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.PSD لـ Java؟
- يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/psd/java/) للحصول على مراجع وأمثلة تفصيلية لواجهة برمجة التطبيقات.
+ يمكنك الرجوع إلى[الوثائق](https://reference.aspose.com/psd/java/) للحصول على مراجع وأمثلة تفصيلية لواجهة برمجة التطبيقات.
 ### هل يمكنني تجربة Aspose.PSD مجانًا قبل الشراء؟
  نعم يمكنك تحميل أ[تجربة مجانية](https://releases.aspose.com/) لتقييم إمكانيات المكتبة.
 ### كيف يمكنني الحصول على تراخيص مؤقتة لـ Aspose.PSD؟

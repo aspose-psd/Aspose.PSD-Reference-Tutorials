@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -68,7 +67,7 @@ Explicación:
 - `controlX2`, `controlY2`: Segundo punto de control.
 - `endX`, `endY`: Punto final de la curva.
 ## Paso 6: dibuja la curva de Bézier
- Utilizar el`drawBezier()` Método para dibujar la curva de Bézier en la imagen usando el método previamente definido.`Pen` y puntos de control.
+ Utilice el`drawBezier()` Método para dibujar la curva de Bézier en la imagen usando el método previamente definido.`Pen` y puntos de control.
 ```java
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```

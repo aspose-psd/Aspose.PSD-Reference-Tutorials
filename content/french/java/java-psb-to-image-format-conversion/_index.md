@@ -8,7 +8,7 @@ weight: 22
 url: /fr/java/java-psb-to-image-format-conversion/
 ---
 ## Introduction
-Avez-vous du mal à convertir des fichiers PSB en Java ? Nous avons ce qu'il vous faut! Avec Aspose.PSD, convertir des fichiers PSB en différents formats d'image est un jeu d'enfant. Que vous ayez besoin de convertir en JPG, PDF ou PSD, nos didacticiels détaillés vous guideront à chaque étape du processus. Voyons comment simplifier la gestion de vos fichiers graphiques avec ces didacticiels faciles à suivre.
+Avez-vous du mal à convertir des fichiers PSB en Java ? Nous avons ce qu'il vous faut ! Avec Aspose.PSD, convertir des fichiers PSB en différents formats d'image est un jeu d'enfant. Que vous ayez besoin de convertir en JPG, PDF ou PSD, nos didacticiels détaillés vous guideront à chaque étape du processus. Voyons comment simplifier la gestion de vos fichiers graphiques avec ces didacticiels faciles à suivre.
 
 ## Convertir PSB en JPG en Java
 

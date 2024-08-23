@@ -12,11 +12,11 @@ Készen áll arra, hogy Java grafikai terveit a következő szintre emelje? Az A
 
 ## Gradiens effektusok hozzáadása az Aspose.PSD for Java fájlhoz
 
- Alakítsa át Java-képeit lenyűgöző színátmenet-effektusokkal könnyedén. Lépésről lépésre bemutatott útmutatónk biztosítja a zökkenőmentes integrációs folyamatot, lehetővé téve, hogy lenyűgöző színátmenetekkel javítsa vizuálisan. Nézze meg az oktatóanyagot[itt](./add-gradient-effects/)hogy a képek élénk és professzionális megjelenést kapjanak.
+ Alakítsa át Java-képeit lenyűgöző színátmenet-effektusokkal könnyedén. Lépésről lépésre bemutatott útmutatónk biztosítja a zökkenőmentes integrációs folyamatot, lehetővé téve, hogy lenyűgöző színátmenetekkel javítsa vizuálisan. Nézze meg az oktatóanyagot[itt](./add-gradient-effects/) hogy a képek élénk és professzionális megjelenést kapjanak.
 
 ## Új normál réteg hozzáadása a PSD-hez az Aspose.PSD for Java segítségével
 
- Tanulja meg a PSD-fájlokhoz új normál réteg hozzáadásának művészetét az Aspose.PSD for Java segítségével. Részletes oktatóanyagunk végigvezeti a folyamaton, biztosítva a PSD-fájlok zökkenőmentes kezelését. Növelje tervezési készségeit útmutatónk követésével[itt](./add-new-regular-layer/) és új dimenziókat nyithat meg a grafikai tervezésben.
+Tanulja meg a PSD-fájlokhoz új normál réteg hozzáadásának művészetét az Aspose.PSD for Java segítségével. Részletes oktatóanyagunk végigvezeti a folyamaton, biztosítva a PSD-fájlok zökkenőmentes kezelését. Növelje tervezési készségeit útmutatónk követésével[itt](./add-new-regular-layer/) és új dimenziókat nyithat meg a grafikai tervezésben.
 
 ## Mintaeffektusok hozzáadása az Aspose.PSD for Java fájlhoz
 
@@ -24,7 +24,7 @@ Készen áll arra, hogy Java grafikai terveit a következő szintre emelje? Az A
 
 ## Aláírás hozzáadása egy képhez az Aspose.PSD for Java segítségével
 
-Fedezze fel az aláírások zökkenőmentes integrálását a képekbe az Aspose.PSD for Java használatával. Részletes útmutatónk végigvezeti a folyamaton, a szükséges csomagok importálásától a Java-alkalmazás grafikus képességeinek fejlesztéséig. Nézze meg az oktatóanyagot[itt](./add-signature-to-image/) és adjon személyre szabott hangulatot a képekhez.
+ Fedezze fel az aláírások zökkenőmentes integrálását a képekbe az Aspose.PSD for Java használatával. Részletes útmutatónk végigvezeti a folyamaton, a szükséges csomagok importálásától a Java-alkalmazás grafikus képességeinek fejlesztéséig. Nézze meg az oktatóanyagot[itt](./add-signature-to-image/) és adjon személyre szabott hangulatot a képekhez.
 
 ## Stroke Layer Color hozzáadása az Aspose.PSD for Java fájlhoz
 

@@ -73,16 +73,16 @@ A1: Ja, Aspose.PSD voor Java is ontworpen om naadloos samen te werken met andere
 
 ### Vraag 2: Is er een gratis proefversie beschikbaar?
 
- A2: Ja, u kunt Aspose.PSD voor Java verkennen met een gratis proefperiode. Bezoek[deze link](https://releases.aspose.com/) starten.
+ A2: Ja, u kunt Aspose.PSD voor Java verkennen met een gratis proefperiode. Bezoek[deze koppeling](https://releases.aspose.com/) om aan de slag te gaan.
 
 ### Vraag 3: Waar kan ik gedetailleerde documentatie vinden?
 
- A3: Raadpleeg de[documentatie](https://reference.aspose.com/psd/java/)voor uitgebreide informatie over het gebruik van Aspose.PSD voor Java.
+ A3: Raadpleeg de[documentatie](https://reference.aspose.com/psd/java/) voor uitgebreide informatie over het gebruik van Aspose.PSD voor Java.
 
 ### Vraag 4: Hoe kan ik ondersteuning krijgen?
 
- A4: Sluit u aan bij de Aspose.PSD-gemeenschap op de[Helpforum](https://forum.aspose.com/c/psd/34) om hulp te zoeken en in contact te komen met andere ontwikkelaars.
+ A4: Sluit u aan bij de Aspose.PSD-gemeenschap op de[ondersteuningsforum](https://forum.aspose.com/c/psd/34) om hulp te zoeken en in contact te komen met andere ontwikkelaars.
 
 ### Vraag 5: Heb ik een tijdelijke licentie nodig om te testen?
 
- A5: Als u de bibliotheek test, kunt u een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Als u de bibliotheek test, kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).

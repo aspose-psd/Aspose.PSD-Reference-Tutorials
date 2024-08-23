@@ -42,7 +42,7 @@ Hãy chia nhỏ quá trình lưu hình ảnh bằng các luồng công việc th
 
 ```java
 public class SaveImageWorker {
-    // ... (Tham khảo mã được cung cấp để khai báo biến)
+    //... (Tham khảo mã được cung cấp để khai báo biến)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Logic xây dựng
@@ -106,11 +106,11 @@ Câu trả lời 1: Có, Aspose.PSD cho Java cung cấp hỗ trợ đa luồng, 
 
 ### Câu hỏi 2: Tôi có thể tìm tài liệu chi tiết về Aspose.PSD cho Java ở đâu?
 
- A2: Bạn có thể tham khảo tài liệu.[đây](https://reference.aspose.com/psd/java/) để biết thông tin toàn diện về Aspose.PSD cho Java.
+A2: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/psd/java/) để biết thông tin toàn diện về Aspose.PSD cho Java.
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
 
- A3: Bạn có thể nhận được giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/) để khám phá toàn bộ khả năng của Aspose.PSD cho Java.
+ A3: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để khám phá toàn bộ khả năng của Aspose.PSD cho Java.
 
 ### Câu hỏi 4: Aspose.PSD dành cho Java có những tùy chọn hỗ trợ nào?
 

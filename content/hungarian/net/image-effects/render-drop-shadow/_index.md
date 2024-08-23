@@ -85,7 +85,7 @@ im.Save(pngExportPath, saveOptions);
 
 Mentse el a módosított képet az alkalmazott árnyék effektussal PNG formátumban.
 
-És ez az! Sikeresen előállított egy árnyékhatást az Aspose.PSD for .NET használatával.
+És ennyi! Sikeresen előállított egy árnyékhatást az Aspose.PSD for .NET használatával.
 
 ## Következtetés
 
@@ -107,7 +107,7 @@ A2: Abszolút! Nyugodtan állítsa be a kódot, hogy megfeleljen egyedi követel
 
 ### 4. kérdés: Elérhető ingyenes próbaverzió az Aspose.PSD for .NET számára?
 
- 4. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.PSD for .NET-hez?
 

@@ -87,9 +87,9 @@ En este tutorial, exploramos el fascinante mundo de las curvas de Bézier en Asp
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo utilizar Aspose.PSD para .NET en proyectos no comerciales?
+### P1: ¿Puedo usar Aspose.PSD para .NET en proyectos no comerciales?
 
- R1: Sí, Aspose.PSD para .NET se puede utilizar en proyectos comerciales y no comerciales. Comprobar el[detalles de la licencia](https://purchase.aspose.com/buy) para más información.
+ R1: Sí, Aspose.PSD para .NET se puede utilizar en proyectos comerciales y no comerciales. Compruebe el[detalles de la licencia](https://purchase.aspose.com/buy) para más información.
 
 ### P2: ¿Cómo puedo obtener una licencia temporal para realizar pruebas?
 
@@ -101,7 +101,7 @@ R3: ¡Absolutamente! Aspose.PSD para .NET está diseñado para tareas de edició
 
 ### P4: ¿Dónde puedo encontrar soporte comunitario para Aspose.PSD para .NET?
 
- A4: Únase a la comunidad Aspose.PSD en[este foro](https://forum.aspose.com/c/psd/34) para discusión y apoyo.
+A4: Únase a la comunidad Aspose.PSD en[este foro](https://forum.aspose.com/c/psd/34) para discusiones y apoyo.
 
 ### P5: ¿Existen recursos gratuitos para aprender Aspose.PSD para .NET?
 

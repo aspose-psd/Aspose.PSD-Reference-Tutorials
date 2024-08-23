@@ -9,7 +9,7 @@ url: /id/net/image-manipulation/
 ---
 ## Perkenalan
 
-Manipulasi gambar adalah keterampilan penting bagi setiap pengembang atau desainer yang bekerja dengan .NET, dan Asumsikan.PSD untuk .NET menyediakan perangkat canggih untuk meningkatkan kemampuan Anda. Dalam tutorial ini, kita akan mempelajari berbagai teknik manipulasi gambar yang dapat diterapkan dengan mulus[Aspose.PSD](https://www.aspose.com/products/psd).
+Manipulasi gambar adalah keterampilan penting bagi pengembang atau desainer mana pun yang bekerja dengan .NET, dan Asumsikan.PSD untuk .NET menyediakan perangkat canggih untuk meningkatkan kemampuan Anda. Dalam tutorial ini, kita akan mempelajari berbagai teknik manipulasi gambar yang dapat diterapkan dengan mulus[Aspose.PSD](https://www.aspose.com/products/psd).
 
 ## Menggabungkan Gambar
 
@@ -95,7 +95,7 @@ Pelajari cara memutar gambar dengan mudah di .NET dengan Aspose.PSD. Ikuti tutor
 ### [Memutar Gambar pada Sudut Tertentu di Aspose.PSD untuk .NET](./rotate-image-specific-angle/)
 Jelajahi kekuatan Aspose.PSD untuk .NET. Putar gambar dengan mudah pada sudut tertentu. Unduh perpustakaan dan mulailah memanipulasi gambar dengan lancar.
 ### [Mengubah Ukuran Gambar Secara Sederhana di Aspose.PSD untuk .NET](./simple-resizing/)
-Ubah ukuran gambar master dengan Aspose.PSD untuk .NET. Efisien, mulus, dan bertenaga. Tingkatkan proyek .NET Anda dengan mudah.
+Ubah ukuran gambar master dengan Aspose.PSD untuk .NET. Efisien, mulus, dan kuat. Tingkatkan proyek .NET Anda dengan mudah.
 ### [Memverifikasi Transparansi Gambar di Aspose.PSD untuk .NET](./verifying-image-transparency/)
 Jelajahi panduan langkah demi langkah tentang memverifikasi transparansi gambar di Aspose.PSD untuk .NET.
 ### [Menambahkan Efek Gradien ke Gambar di Aspose.PSD untuk .NET](./adding-gradient-effects/)

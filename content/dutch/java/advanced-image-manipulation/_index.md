@@ -32,7 +32,7 @@ Optimaliseer uw webafbeeldingen naadloos met Aspose.PSD voor de Lossy GIF-compre
 ### [Aanpassingslaag omkeren in Aspose.PSD voor Java](./invert-adjustment-layer/)
 Duik in de kracht van de Invert Adjustment Layer in Aspose.PSD voor Java. Ontketen naadloze manipulatie van PSD-bestanden met onze uitgebreide tutorial.
 
-## Dynamische kleuroverlays met weergavekleureffect
+## Dynamische kleuroverlays met renderingkleureffect
 ### [Pas het renderingkleureffect toe in Aspose.PSD voor Java](./rendering-color-effect/)
 Verbeter uw Java-applicaties met dynamische kleuroverlays met Aspose.PSD. Onze gids zorgt voor naadloze integratie en verbluffende visuele effecten.
 

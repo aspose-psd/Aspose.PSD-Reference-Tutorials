@@ -18,7 +18,7 @@ Készen állsz, hogy feltárd a grafikai tervezés titkait? Merüljön el a kép
 
 ## Átméretezés egyszerűen
 
- Hatékonyan módosíthatja a képméreteket programozottan[Aspose.PSD Java-hoz](./simple-resizing/)Felhasználóbarát útmutatónk leegyszerűsíti az átméretezési folyamatot, biztosítva, hogy minden részletet megértsen. Az alapoktól a haladó technikákig ez az oktatóanyag mindent lefed. Merüljön el és alakítsa át képeit zökkenőmentesen az Aspose.PSD segítségével.
+ Hatékonyan módosíthatja a képméreteket programozottan[Aspose.PSD Java-hoz](./simple-resizing/). Felhasználóbarát útmutatónk leegyszerűsíti az átméretezési folyamatot, biztosítva, hogy minden részletet megértsen. Az alapoktól a haladó technikákig ez az oktatóanyag mindent lefed. Merüljön el és alakítsa át képeit zökkenőmentesen az Aspose.PSD segítségével.
 
 ## Erősítő effektusok: Támogatja a keverési módokat
 
@@ -30,7 +30,7 @@ Készen állsz, hogy feltárd a grafikai tervezés titkait? Merüljön el a kép
 
 ## Átlátszóság bemutatva: Ellenőrizze a kép átlátszóságát
 
- Fedezze fel a képátlátszóság ellenőrzésének birodalmát[Aspose.PSD Java-hoz](./verify-image-transparency/)Ez az oktatóanyag zökkenőmentesen integrálja az átláthatóságot a tervekbe, részletes dokumentációval és kiváló közösségi támogatással. Emelje fel tervezési projektjeit az igazolt képátlátszóság biztosításával az Aspose.PSD for Java használatával.
+ Fedezze fel a képátlátszóság ellenőrzésének birodalmát[Aspose.PSD Java-hoz](./verify-image-transparency/). Ez az oktatóanyag zökkenőmentesen integrálja az átláthatóságot a tervekbe, részletes dokumentációval és kiváló közösségi támogatással. Emelje fel tervezési projektjeit az igazolt képátlátszóság biztosításával az Aspose.PSD for Java használatával.
 
 Összefoglalva, ezek az oktatóanyagok az Aspose.PSD for Java használatával kapcsolatos alapvető képműveletek holisztikus megértését nyújtják. Akár kezdő, akár tapasztalt tervező, lépésről lépésre szóló útmutatóinkkal tárja fel a grafikai tervezésben rejlő lehetőségeket. Merüljön el, és hagyja, hogy kreativitásod virágozzon!
 ## Alapvető képkezelési oktatóanyagok

@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /it/java/advanced-image-effects/add-signature-to-image/
 ---
-## introduzione
+## Introduzione
 
 Nel vasto mondo dello sviluppo Java, incorporare le firme nelle immagini è diventato un requisito comune. Aspose.PSD per Java emerge come uno strumento potente, fornendo agli sviluppatori soluzioni continue per la manipolazione delle immagini, inclusa l'aggiunta di firme. In questo tutorial, esploreremo passo dopo passo come aggiungere una firma a un'immagine utilizzando Aspose.PSD per Java.
 

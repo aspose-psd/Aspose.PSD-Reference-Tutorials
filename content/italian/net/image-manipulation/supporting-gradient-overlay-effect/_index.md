@@ -7,7 +7,7 @@ type: docs
 weight: 18
 url: /it/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questo tutorial completo sul supporto dell'effetto di sovrapposizione sfumatura in Aspose.PSD per .NET! Se desideri migliorare le capacità grafiche della tua applicazione .NET, questa guida passo passo è qui per aiutarti. Approfondiremo le complessità della creazione e della modifica dell'effetto di sovrapposizione sfumatura in un livello utilizzando Aspose.PSD, una potente libreria che semplifica l'elaborazione delle immagini.
 
@@ -128,7 +128,7 @@ R2: Sì, puoi applicare vari effetti, inclusa la sovrapposizione gradiente, a un
 
 ### Q4: È disponibile una prova gratuita?
 
- R4: Sì, puoi accedere a una prova gratuita.[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Come posso ottenere supporto per Aspose.PSD?
 

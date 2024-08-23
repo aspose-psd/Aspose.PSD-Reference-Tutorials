@@ -108,13 +108,13 @@ Selamat! Anda telah berhasil menerapkan dukungan untuk tanda tangan ObAr dan UnF
 
  A2: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
 
-### Q3: Dapatkah saya mencoba Aspose.PSD sebelum membeli?
+### Q3: Bisakah saya mencoba Aspose.PSD sebelum membeli?
 
- A3: Ya, Anda dapat menjelajahi versi uji coba gratis.[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
- A4: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk opsi lisensi sementara.
+ A4: Kunjungi[tautan ini](https://purchase.aspose.com/temporary-license/) untuk opsi lisensi sementara.
 
 ### Q5: Di mana saya dapat membeli Aspose.PSD untuk .NET?
 

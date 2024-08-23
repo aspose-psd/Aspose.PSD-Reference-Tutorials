@@ -50,13 +50,13 @@ Java grafik tasarımlarınızı bir sonraki seviyeye taşımaya hazır mısını
 
 Aspose.PSD for Java'nın potansiyelini açığa çıkarın ve yaratıcılık ve yenilik yolculuğuna çıkın. Eğitimlerimiz, yetkin bir Java görüntü işleme geliştiricisi olmanız için ihtiyaç duyduğunuz rehberliği sağlar. Bugün dalın, keşfedin ve becerilerinizi geliştirin!
 ## Java Eğitimleri için Aspose.PSD
-### [Görüntü işleme](./image-processing/)
+### [Görüntü İşleme](./image-processing/)
 Görüntü işlemede Aspose.PSD for Java'nın potansiyelini ortaya çıkarın. Gaussian, Wiener, Median ve Motion Wiener filtrelerini adım adım uygulamayı öğrenin.
 ### [PSD Dönüşümü](./psd-conversion/)
 Aspose.PSD ile Java görüntü işlemenizi güçlendirin! CMYK PSD'yi CMYK TIFF'e dönüştürmeyi, ana renk dönüştürmeyi, PSD dosyalarını kırpmayı ve daha fazlasını öğrenin. 
 ### [İleri Teknikler](./advanced-techniques/)
 Aspose.PSD eğitimleriyle Java görüntü işlemede gelişmiş tekniklere zahmetsizce hakim olun. Gri tonlamalı, metin yükleyin, dönüştürün, işleyin, verimli bir şekilde kaydedin ve daha fazlasını yapın!
-### [Resim düzenleme](./image-editing/)
+### [Görüntü Düzenleme](./image-editing/)
 Aspose.PSD ile Renk Kaplama Efektlerinin, görüntü birleştirmenin ve kusursuz görüntü işlemenin büyüsünü keşfedin. Kılavuzlarımızla resim düzenleme oyununuzu geliştirin.
 ### [Gelişmiş Görüntü İşleme](./advanced-image-manipulation/)
 Aspose.PSD for Java ile gelişmiş görüntü işleme eğitimlerini keşfedin. Verimli yazı tipi değiştirmeyi, yazı tipi önbelleğe almayı zorlamayı, bikübik yeniden örnekleyiciyi uygulamayı ve daha fazlasını öğrenin.
@@ -72,3 +72,17 @@ Aspose.PSD'yi kullanarak AI dosyalarını Java'daki çeşitli formatlara zahmets
 Aspose.PSD'yi kullanarak PSB'yi Java'da kolayca JPG, PDF ve PSD'ye dönüştürün. Sorunsuz görüntü dönüşümleri için eğitimlerimizi takip edin ve projelerinizi geliştirin.
 ### [Java JPEG Görüntü İşleme](./java-jpeg-image-processing/)
 Aspose.PSD for Java eğitimlerini keşfedin. Adım adım kılavuzlar ve kod örnekleriyle EXIF, JFIF, JPEG işlemeyi ve daha fazlasını yönetmeyi öğrenin.
+### [PNG Dosyalarını Optimize Etme](./optimizing-png-files/)
+Aspose.PSD for Java kullanarak PNG dosyalarını optimize etmeye yönelik, filtreleri, arka plan rengi değişikliklerini, sıkıştırmayı, çözünürlüğü, bit derinliğini ve şeffaflığı kapsayan kapsamlı eğitimleri keşfedin.
+### [PSD Görüntülerini Değiştirme ve Dönüştürme](./modifying-converting-psd-images/)
+Aspose.PSD for Java'yı kullanarak PSD dosyalarınızı çeşitli ayarlamalar ve efektlerle geliştirin. Renk manipülasyonu, filigranlar ve daha fazlası için adım adım eğitimler.
+### [PSD Görüntüsü Değiştirme ve Dönüştürme](./psd-image-modification-conversion/)
+Java için temel Aspose.PSD eğitimlerini keşfedin. Adım adım kılavuzlarla PSD dosyalarını kullanmayı, katmanları dışa aktarmayı, efekt uygulamayı ve daha fazlasını öğrenin.
+### [PSD Katman Yönetimi ve Efektleri](./psd-layer-management-effects/)
+Aspose.PSD for Java ile PSD katman yönetimi ve efektleri hakkındaki kapsamlı eğitimleri keşfedin. PSD katmanlarını zahmetsizce birleştirmeyi, düzleştirmeyi ve özelleştirmeyi öğrenin.
+### [Gelişmiş PSD Katmanı Özellikleri ve Efektleri](./advanced-psd-layer-features-effects/)
+Aspose.PSD for Java ile gelişmiş PSD katmanı özelliklerini ve efektlerini keşfedin. Katmanları değiştirmeyi, efekt eklemeyi ve PSD dosyalarındaki çeşitli kaynakları desteklemeyi öğrenin.
+### [TIFF Görüntü Sıkıştırma ve Yapılandırma](./tiff-image-compression-configuration/)
+Aspose.PSD for Java ile TIFF görüntülerini verimli bir şekilde yönetin. Adım adım eğitimlerimizle Adobe Deflate sıkıştırmasını sıkıştırmayı, yapılandırmayı ve TIFF dosyalarına uygulamayı öğrenin.
+### [PSD Dosyalarıyla Çalışmak](./working-with-psd-files/)
+PSD katman gruplarının görüntülere nasıl aktarılacağı ve Clbl, Infx ve Lspf kaynaklarının nasıl işleneceği de dahil olmak üzere kapsamlı Aspose.PSD for Java eğitimlerini keşfedin.

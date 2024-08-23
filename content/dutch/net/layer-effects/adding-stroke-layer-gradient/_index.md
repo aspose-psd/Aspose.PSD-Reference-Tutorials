@@ -106,7 +106,7 @@ A1: Ja, Aspose.PSD voor .NET is compatibel met verschillende .NET-frameworks.
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A2: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A2: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
@@ -118,4 +118,4 @@ A1: Ja, Aspose.PSD voor .NET is compatibel met verschillende .NET-frameworks.
 
 ### V5: Hoe koop ik een licentie voor Aspose.PSD voor .NET?
 
- A5: U kunt een licentie kopen.[hier](https://purchase.aspose.com/buy).
+ A5: U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).

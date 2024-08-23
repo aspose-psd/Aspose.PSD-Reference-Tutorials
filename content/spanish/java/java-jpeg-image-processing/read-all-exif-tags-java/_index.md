@@ -19,7 +19,6 @@ Antes de sumergirse en este tutorial, asegúrese de tener lo siguiente:
 Para comenzar, importe los paquetes necesarios desde Aspose.PSD para Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -27,7 +26,7 @@ import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
 Estas importaciones le permitirán trabajar con imágenes PSD y extraer metadatos EXIF de manera eficiente.
 ## Paso 1: cargue la imagen PSD
-Primero, debe cargar el archivo de imagen PSD del que desea extraer las etiquetas EXIF:
+Primero, debe cargar el archivo de imagen PSD del cual desea extraer las etiquetas EXIF:
 ```java
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_image.psd");

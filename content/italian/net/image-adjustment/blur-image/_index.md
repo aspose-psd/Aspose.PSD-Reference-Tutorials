@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /it/net/image-adjustment/blur-image/
 ---
-## introduzione
+## Introduzione
 
 Nel regno dello sviluppo .NET, Aspose.PSD si rivela un potente alleato per la manipolazione delle immagini. Questo tutorial si concentra su un'attività specifica: sfocare un'immagine utilizzando Aspose.PSD per .NET. Se desideri migliorare le tue capacità di elaborazione delle immagini o semplicemente cerchi un modo efficiente per sfocare le immagini a livello di codice, sei nel posto giusto.
 
@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Passaggio 4: applica il filtro Sfocatura gaussiana.
+## Passaggio 4: applica il filtro Sfocatura gaussiana
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Ecco, il`GaussianBlurFilterOptions` class viene utilizzata con un raggio specificato di 15 sia per la sfocatura orizzontale che verticale.
+ Ecco, il`GaussianBlurFilterOptions` viene utilizzata con un raggio specificato di 15 sia per la sfocatura orizzontale che verticale.
 
 ## Passaggio 5: salva l'immagine sfocata
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Conclusione
 
-Congratulazioni! Hai sfocato con successo un'immagine utilizzando Aspose.PSD per .NET. Questo tutorial fornisce uno sguardo alle funzionalità di Aspose.PSD e apre le porte a una moltitudine di possibilità per la manipolazione delle immagini nelle applicazioni .NET.
+Congratulazioni! Hai sfocato con successo un'immagine utilizzando Aspose.PSD per .NET. Questo tutorial fornisce uno sguardo alle funzionalità di Aspose.PSD e apre le porte a una miriade di possibilità per la manipolazione delle immagini nelle applicazioni .NET.
 
 ## Domande frequenti
 

@@ -20,7 +20,6 @@ url: /th/java/java-jpeg-image-processing/write-modify-exif-data-java/
 ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นในโปรเจ็กต์ Java ของคุณ ต่อไปนี้เป็นวิธีดำเนินการ:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.exif.enums.ExifFlash;
 import com.aspose.psd.exif.enums.ExifWhiteBalance;
@@ -38,7 +37,7 @@ PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
 ข้อมูลโค้ดนี้จะโหลดรูปภาพ PSD จากไดเรกทอรีที่คุณระบุ
 ## ขั้นตอนที่ 2: ทำซ้ำทรัพยากรรูปภาพ
-ถัดไป คุณต้องวนซ้ำทรัพยากรรูปภาพเพื่อค้นหาทรัพยากรภาพขนาดย่อ นี่คือที่ที่ข้อมูล EXIF มักถูกจัดเก็บในรูปแบบ JPEG
+ถัดไป คุณต้องวนซ้ำทรัพยากรรูปภาพเพื่อค้นหาทรัพยากรภาพขนาดย่อ นี่คือที่ที่ข้อมูล EXIF มักจะถูกจัดเก็บในรูปแบบ JPEG
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     // ตรวจสอบทรัพยากรภาพขนาดย่อ
@@ -52,7 +51,7 @@ if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageR
 }
 ```
 ## ขั้นตอนที่ 4: แยกและพิมพ์ข้อมูล EXIF
-เมื่อคุณระบุทรัพยากรภาพขนาดย่อแล้ว ขั้นตอนต่อไปคือการแยกข้อมูล EXIF และพิมพ์ลงในคอนโซล
+เมื่อคุณระบุทรัพยากรภาพขนาดย่อแล้ว ขั้นตอนต่อไปคือการดึงข้อมูล EXIF และพิมพ์ลงในคอนโซล
 ```java
 JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
 if (exif != null) {
@@ -73,7 +72,7 @@ image.save(dataDir + "Modified_Zebras_Serengeti.psd");
 ```
 ## บทสรุป
 และคุณก็ได้แล้ว! คุณได้เรียนรู้วิธีเขียนและแก้ไขข้อมูล EXIF ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java เรียบร้อยแล้ว ไลบรารีอันทรงพลังนี้ทำให้การทำงานกับรูปแบบรูปภาพที่ซับซ้อนง่ายขึ้น ทำให้เป็นเครื่องมืออันมีค่าสำหรับนักพัฒนาที่ทำงานกับไฟล์กราฟิก 
- สำหรับข้อมูลโดยละเอียดเพิ่มเติม โปรดดูที่[เอกสาร Aspose.PSD](https://reference.aspose.com/psd/java/) - หากคุณพบปัญหาใดๆ[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34) เป็นสถานที่ที่ดีเยี่ยมในการขอความช่วยเหลือ อย่าลืมไปสำรวจ[ทดลองฟรี](https://releases.aspose.com/) และพิจารณาซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy) เพื่อคุณสมบัติที่ครบครัน
+ สำหรับข้อมูลโดยละเอียดเพิ่มเติม โปรดดูที่[เอกสาร Aspose.PSD](https://reference.aspose.com/psd/java/) - หากคุณพบปัญหาใดๆ[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34) เป็นสถานที่ที่ดีเยี่ยมในการขอความช่วยเหลือ อย่าลืมไปสำรวจ[ทดลองใช้ฟรี](https://releases.aspose.com/) และพิจารณาซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy) เพื่อคุณสมบัติที่ครบครัน
 ## คำถามที่พบบ่อย
 ### ข้อมูล EXIF คืออะไร?
 ข้อมูล EXIF (รูปแบบไฟล์ภาพที่แลกเปลี่ยนได้) คือข้อมูลเมตาที่ฝังอยู่ในไฟล์ภาพ ซึ่งมีข้อมูลต่างๆ เช่น การตั้งค่ากล้อง วันที่ เวลา และสถานที่

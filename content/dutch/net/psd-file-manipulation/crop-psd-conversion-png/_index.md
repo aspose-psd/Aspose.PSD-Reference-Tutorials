@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Maak een exemplaar van de klasse PngOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Stap 5: Sla de bijgesneden afbeelding op als PNG.
+## Stap 5: Sla de bijgesneden afbeelding op als PNG
 ```csharp
 // Roep de opslagmethode aan, geef het uitvoerpad op en PngOptions om het PSD-bestand naar PNG te converteren en de uitvoer op te slaan
 string destName = dataDir + @"export.png";
@@ -60,11 +60,11 @@ Gefeliciteerd! U hebt met succes geleerd hoe u PSD-bestanden kunt bijsnijden wan
 
 ### Vraag 1: Kan ik deze bibliotheek in een commercieel project gebruiken?
 
- A1: Ja, Aspose.PSD voor .NET is beschikbaar voor commercieel gebruik. Verwijzen naar[Aspose.PSD-licenties](https://purchase.aspose.com/buy) voor details.
+ A1: Ja, Aspose.PSD voor .NET is beschikbaar voor commercieel gebruik. Raadpleeg[Aspose.PSD-licenties](https://purchase.aspose.com/buy) voor details.
 
 ### Vraag 2: Is er een gratis proefversie beschikbaar?
 
- A2: Absoluut! U kunt een gratis proefversie verkennen[hier](https://releases.aspose.com/).
+A2: Absoluut! U kunt een gratis proefversie verkennen[hier](https://releases.aspose.com/).
 
 ### V3: Waar kan ik ondersteuning vinden voor Aspose.PSD voor .NET?
 

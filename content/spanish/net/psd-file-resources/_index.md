@@ -34,7 +34,7 @@ Embárquese en un viaje de dominio creativo con nuestros tutoriales de Aspose.PS
 ### [Compatibilidad con el recurso de color de fondo en Aspose.PSD para .NET](./supporting-background-color-resource/)
 Domine Aspose.PSD para .NET con nuestra guía paso a paso. Manipule imágenes PSD sin esfuerzo. ¡Descarga tu prueba gratuita ahora!
 ### [Recurso de información de bordes de soporte en Aspose.PSD para .NET](./supporting-border-information-resource/)
-Explore Aspose.PSD para obtener la función de recursos de información de bordes de .NET para obtener imágenes mejoradas. Siga nuestro tutorial para una integración perfecta. ¡Descargar ahora!
+Explore Aspose.PSD para obtener la función de recursos de información de bordes de .NET para obtener imágenes mejoradas. Siga nuestro tutorial para una integración perfecta. ¡Descárgalo ahora!
 ### [Recurso de ruta de trabajo compatible con Aspose.PSD para .NET](./supporting-working-path-resource/)
 Explore el poder de 'WorkingPathResource' en Aspose.PSD para .NET. Mejore la precisión de la imagen con esta guía paso a paso.
 ### [Compatibilidad con el recurso en blanco y negro (Blwh) en Aspose.PSD para .NET](./supporting-black-and-white-blwh-resource/)

@@ -76,7 +76,7 @@ Enfin, appliquez les filtres gaussiens et Wiener configurés au RasterImage et e
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment appliquer les filtres gaussiens et Wiener à l'aide d'Aspose.PSD pour Java. Expérimentez avec différents paramètres pour obtenir les améliorations d’image souhaitées.
+Félicitations! Vous avez appris avec succès comment appliquer les filtres gaussiens et Wiener à l'aide d'Aspose.PSD pour Java. Expérimentez avec différents paramètres pour obtenir les améliorations d’image souhaitées.
 
 ## FAQ
 
@@ -94,8 +94,8 @@ A2 : La version d'essai présente des limites et vous pouvez explorer toutes l
 
 ### Q4 : Existe-t-il une licence temporaire disponible à des fins de test ?
 
- A4 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour Java ?
 
- A5 : Reportez-vous au[Documentation](https://reference.aspose.com/psd/java/) pour des informations détaillées.
+ A5 : Reportez-vous au[documentation](https://reference.aspose.com/psd/java/) pour des informations détaillées.

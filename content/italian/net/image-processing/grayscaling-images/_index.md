@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /it/net/image-processing/grayscaling-images/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nel nostro tutorial completo sulle immagini in scala di grigi utilizzando Aspose.PSD per .NET! La scala di grigi è una tecnica potente che può migliorare l'attrattiva visiva delle tue immagini convertendole in sfumature di grigio. In questa guida ti guideremo attraverso il processo per ottenere straordinari effetti in scala di grigi senza sforzo.
 
@@ -51,7 +51,7 @@ string destName = dataDir + @"Grayscaling_out.jpg";
 
 using (Image image = Image.Load(sourceFile))
 {
-    // Un codice aggiuntivo verrà aggiunto nei passaggi successivi.
+    // Il codice aggiuntivo verrà aggiunto nei passaggi successivi.
 }
 ```
 

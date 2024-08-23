@@ -70,7 +70,7 @@ image.save(exportPathPsd, new PsdOptions());
 
 Enregistrez l'image recadrée au format PSD en utilisant le chemin spécifié.
 
-## Étape 5 : Enregistrez l’image recadrée au format PNG.
+## Étape 5 : Enregistrer l’image recadrée au format PNG
 
 ```java
 String exportPathPng = dataDir + "CropTest.png";
@@ -83,7 +83,7 @@ De plus, enregistrez l'image recadrée au format PNG avec des options spécifiqu
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment recadrer un fichier PSD à l'aide d'Aspose.PSD pour Java. Ce didacticiel fournit une compréhension fondamentale des étapes clés impliquées, vous permettant d'intégrer cette fonctionnalité de manière transparente dans vos applications Java.
+Félicitations! Vous avez appris avec succès comment recadrer un fichier PSD à l'aide d'Aspose.PSD pour Java. Ce didacticiel fournit une compréhension fondamentale des étapes clés impliquées, vous permettant d'intégrer cette fonctionnalité de manière transparente dans vos applications Java.
 
 ## FAQ
 
@@ -105,4 +105,4 @@ A2 : Oui, Aspose.PSD pour Java est optimisé pour les performances, ce qui le re
 
 ### Q5 : Puis-je essayer Aspose.PSD pour Java avant d’acheter ?
 
- A5 : Oui, explorez les fonctionnalités avec un essai gratuit disponible.[ici](https://releases.aspose.com/).
+ A5 : Oui, explorez les fonctionnalités avec un essai gratuit disponible[ici](https://releases.aspose.com/).

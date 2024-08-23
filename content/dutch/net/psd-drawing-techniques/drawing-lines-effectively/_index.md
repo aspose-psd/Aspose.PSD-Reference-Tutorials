@@ -92,13 +92,13 @@ Teken vier doorlopende lijnen met verschillende kleuren met behulp van effen pen
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt met succes geleerd hoe je lijnen effectief kunt tekenen met Aspose.PSD voor .NET. Deze krachtige bibliotheek opent een wereld aan mogelijkheden voor beeldmanipulatie in uw .NET-applicaties.
+Gefeliciteerd! Je hebt met succes geleerd hoe je lijnen effectief kunt tekenen met Aspose.PSD voor .NET. Deze krachtige bibliotheek opent een wereld aan mogelijkheden voor beeldmanipulatie in uw .NET-toepassingen.
 
 ## Veelgestelde vragen
 
 ### V1: Waar kan ik de documentatie voor Aspose.PSD voor .NET vinden?
 
- A1: De documentatie is beschikbaar.[hier](https://reference.aspose.com/psd/net/).
+ A1: De documentatie is beschikbaar[hier](https://reference.aspose.com/psd/net/).
 
 ### V2: Hoe kan ik Aspose.PSD downloaden voor .NET?
 
@@ -106,7 +106,7 @@ Gefeliciteerd! Je hebt met succes geleerd hoe je lijnen effectief kunt tekenen m
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor .NET?
 
- A3: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
@@ -114,4 +114,4 @@ Gefeliciteerd! Je hebt met succes geleerd hoe je lijnen effectief kunt tekenen m
 
 ### V5: Heb ik een tijdelijke licentie nodig voor Aspose.PSD voor .NET?
 
- A5: Indien nodig kunt u een tijdelijke licentie verkrijgen.[hier](https://purchase.aspose.com/temporary-license/).
+ A5: Indien nodig kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).

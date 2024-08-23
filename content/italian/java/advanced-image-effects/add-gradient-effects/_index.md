@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/java/advanced-image-effects/add-gradient-effects/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti nel tutorial sull'aggiunta di effetti sfumati in Aspose.PSD per Java! Se stai cercando di migliorare le tue immagini con straordinarie sovrapposizioni di gradienti, sei nel posto giusto. In questa guida ti guideremo attraverso il processo utilizzando Aspose.PSD, una potente libreria Java per l'elaborazione delle immagini.
 
@@ -113,7 +113,7 @@ Congratulazioni! Hai imparato con successo come aggiungere effetti sfumati alle 
 
 ### Q1: Posso applicare più effetti sfumati a una singola immagine?
 
-R1: Sì, puoi applicare più effetti sfumatura ripetendo i passaggi di modifica per ciascun effetto.
+R1: Sì, puoi applicare più effetti sfumati ripetendo i passaggi di modifica per ciascun effetto.
 
 ### Q2: Quali altri effetti posso combinare con le sovrapposizioni di gradienti?
 
@@ -125,7 +125,7 @@ A2: Aspose.PSD fornisce una varietà di effetti, tra cui ombre, bagliori e altro
 
 ### Q4: È disponibile una versione di prova per Aspose.PSD per Java?
 
- R4: Sì, puoi ottenere una prova gratuita.[Qui](https://releases.aspose.com/).
+ R4: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso acquistare una licenza per Aspose.PSD per Java?
 

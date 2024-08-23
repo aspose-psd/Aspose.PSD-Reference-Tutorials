@@ -2,14 +2,14 @@
 title: Přidání přechodových efektů do obrázků v Aspose.PSD pro .NET
 linktitle: Přidání přechodových efektů do obrázků
 second_title: Aspose.PSD .NET API
-description: Vylepšete své obrázky podmanivými efekty přechodu pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného návodu pro kreativní vizuální transformace.
+description: Vylepšete své obrázky pomocí podmanivých přechodových efektů pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného návodu pro kreativní vizuální transformace.
 type: docs
 weight: 11
 url: /cs/net/image-manipulation/adding-gradient-effects/
 ---
-## Úvod
+## Zavedení
 
-Vylepšení obrázků pomocí přechodových efektů může vašemu vizuálnímu obsahu dodat podmanivý rozměr. Aspose.PSD for .NET poskytuje výkonnou platformu pro integraci přechodových překryvů do vašich obrázků. V tomto tutoriálu vás provedeme procesem přidávání efektů přechodu pomocí Aspose.PSD pro .NET.
+Vylepšení obrázků pomocí přechodových efektů může vašemu vizuálnímu obsahu dodat podmanivý rozměr. Aspose.PSD for .NET poskytuje výkonnou platformu pro začlenění přechodových překryvů do vašich obrázků. V tomto tutoriálu vás provedeme procesem přidávání efektů přechodu pomocí Aspose.PSD pro .NET.
 
 ## Předpoklady
 
@@ -87,7 +87,7 @@ settings.HorizontalOffset = 15;
 settings.VerticalOffset = 11;
 settings.Reverse = true;
 
-// Přidat nový barevný bod
+// Přidejte nový barevný bod
 // ...
 
 // Změnit umístění předchozího bodu
@@ -139,7 +139,7 @@ Odpověď 2: Aspose.PSD for .NET podporuje různé formáty souborů obrázků, 
 
 ### Q3: Je k dispozici zkušební verze pro Aspose.PSD pro .NET?
 
-Odpověď 3: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET stažením bezplatné zkušební verze z[tady](https://releases.aspose.com/).
+Odpověď 3: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET stažením bezplatné zkušební verze z[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 

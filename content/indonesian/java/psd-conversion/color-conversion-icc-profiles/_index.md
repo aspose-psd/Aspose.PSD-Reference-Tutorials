@@ -13,7 +13,7 @@ Selamat datang di panduan komprehensif tentang konversi warna menggunakan profil
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 1.  Aspose.PSD untuk Perpustakaan Java: Pastikan Anda telah menginstal perpustakaan Aspose.PSD. Anda dapat mengunduhnya dari[rilis](https://releases.aspose.com/psd/java/) halaman.
 2. Lingkungan Pengembangan Java: Lingkungan pengembangan Java yang berfungsi sangat penting untuk mengeksekusi kode. Pastikan Anda telah menginstal Java di sistem Anda.
-3. Profil ICC: Dapatkan profil ICC yang diperlukan untuk konversi warna. Anda dapat menemukan profil yang sesuai, seperti`eciRGB_v2.icc` Dan`ISOcoated_v2_FullGamut4.icc`, dari sumber terpercaya.
+3.  Profil ICC: Dapatkan profil ICC yang diperlukan untuk konversi warna. Anda dapat menemukan profil yang sesuai, seperti`eciRGB_v2.icc` Dan`ISOcoated_v2_FullGamut4.icc`, dari sumber terpercaya.
 ## Paket Impor
 Di proyek Java Anda, impor paket Aspose.PSD yang diperlukan. Pastikan Anda memiliki dependensi yang diperlukan yang disertakan dalam pengaturan proyek Anda.
 ```java
@@ -70,7 +70,7 @@ Ikuti langkah-langkah berikut dengan cermat untuk melakukan konversi warna mengg
 Dalam tutorial ini, kami menjelajahi proses konversi warna menggunakan profil ICC di Aspose.PSD untuk Java. Memahami pentingnya representasi warna yang akurat sangat penting dalam berbagai aplikasi, dan dengan Aspose.PSD, Anda memiliki alat canggih yang dapat Anda gunakan.
 ## FAQ
 ### Bisakah saya menggunakan profil ICC khusus dengan Aspose.PSD untuk Java?
-Ya kamu bisa. Cukup ganti profil ICC yang disediakan dengan profil khusus Anda di kode.
+Ya, kamu bisa. Cukup ganti profil ICC yang disediakan dengan profil khusus Anda di kode.
 ### Bagaimana cara menangani perbedaan warna pada gambar yang dihasilkan?
 Sesuaikan profil ICC dan pengaturan warna untuk menyempurnakan proses konversi warna.
 ### Apakah Aspose.PSD cocok untuk pemrosesan gambar secara batch?

@@ -32,7 +32,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 Теперь давайте разобьем реализацию Bradley Thresholding на несколько этапов:
 
-## Шаг 1. Загрузите изображение.
+## Шаг 1. Загрузите изображение
 
 ```java
 String dataDir = "Your Document Directory";

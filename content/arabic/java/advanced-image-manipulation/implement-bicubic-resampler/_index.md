@@ -35,7 +35,7 @@ import com.aspose.psd.imageoptions.PsdOptions;
 
 ## الخطوة 1: تحميل الصورة
 
-ابدأ بتحميل الصورة التي تريد تغيير حجمها إلى تطبيق Java الخاص بك. استخدم ال`Image.load` الطريقة من Aspose.PSD.
+ابدأ بتحميل الصورة التي تريد تغيير حجمها إلى تطبيق Java الخاص بك. استخدم`Image.load` الطريقة من Aspose.PSD.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,7 +86,7 @@ imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 
 ### س4: هل يمكنني تنزيل Aspose.PSD لمكتبة Java؟
 
- ج4: نعم، قم بتحميل المكتبة من صفحة الإصدارات.[هنا](https://releases.aspose.com/psd/java/).
+ ج4: نعم، قم بتحميل المكتبة من صفحة الإصدارات[هنا](https://releases.aspose.com/psd/java/).
 
 ### س5: كيف يمكنني شراء Aspose.PSD لـ Java؟
 

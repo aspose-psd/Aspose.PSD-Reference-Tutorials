@@ -21,7 +21,6 @@ Allereerst moeten we de benodigde pakketten importeren om onze beeldconversietaa
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -29,11 +28,11 @@ Deze imports brengen de essentiële klassen binnen voor het laden van AI-bestand
 Laten we het conversieproces opsplitsen in eenvoudige, beheersbare stappen. Volg ons en zet uw AI-bestanden moeiteloos om in JPG's.
 ## Stap 1: Stel uw omgeving in
 Voordat we beginnen met coderen, zorg ervoor dat uw ontwikkelomgeving correct is ingesteld. Zorg ervoor dat de Aspose.PSD voor Java-bibliotheek aan uw project is toegevoegd.
--  Download en installeer JDK: Als u dat nog niet heeft gedaan, download en installeer dan de JDK van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
+-  JDK downloaden en installeren: als u dat nog niet heeft gedaan, downloadt en installeert u de JDK van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Download Aspose.PSD: Haal de bibliotheek op van de[Aspose-releasespagina](https://releases.aspose.com/psd/java/).
 - Voeg Aspose.PSD toe aan uw project: neem de JAR-bestanden op in het buildpad van uw project.
 ## Stap 2: Laad uw AI-bestand
- De eerste stap in onze code is het laden van het AI-bestand met behulp van de`AiImage` klas. Met deze klasse kunnen we naadloos met Adobe Illustrator-bestanden werken.
+De eerste stap in onze code is het laden van het AI-bestand met behulp van de`AiImage` klas. Met deze klasse kunnen we naadloos met Adobe Illustrator-bestanden werken.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";

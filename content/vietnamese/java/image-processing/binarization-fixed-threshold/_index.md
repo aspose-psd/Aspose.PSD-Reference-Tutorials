@@ -96,8 +96,8 @@ Câu trả lời 1:Có, Aspose.PSD hỗ trợ nhiều định dạng hình ảnh
 
 ### Câu hỏi 4: Làm cách nào để mua thư viện Aspose.PSD?
 
- Câu trả lời 4: Bạn có thể mua thư viện Aspose.PSD.[đây](https://purchase.aspose.com/buy).
+ Câu trả lời 4: Bạn có thể mua thư viện Aspose.PSD[đây](https://purchase.aspose.com/buy).
 
 ### Câu 5: Có phiên bản dùng thử miễn phí không?
 
- Câu trả lời 5: Có, bạn có thể khám phá các khả năng của Aspose.PSD bằng phiên bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 5: Có, bạn có thể khám phá các khả năng của Aspose.PSD bằng phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).

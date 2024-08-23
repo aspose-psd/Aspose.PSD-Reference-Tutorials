@@ -11,7 +11,7 @@ url: /ar/java/psd-conversion/cmyk-psd-to-cmyk-tiff/
 مرحبًا بك في دليلنا الشامل حول استخدام Aspose.PSD لـ Java لتحويل CMYK PSD إلى CMYK TIFF بسلاسة. Aspose.PSD هي مكتبة Java قوية مصممة لمعالجة ملفات PSD وتحويلها، وتقدم مجموعة من الميزات لمعالجة المستندات بشكل احترافي. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل CMYK PSD إلى CMYK TIFF باستخدام Aspose.PSD لـ Java.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
--  Aspose.PSD لمكتبة Java: تأكد من تثبيت Aspose.PSD لمكتبة Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/psd/java/).
+- Aspose.PSD لمكتبة Java: تأكد من تثبيت Aspose.PSD لمكتبة Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/psd/java/).
 - بيئة تطوير Java: قم بإعداد بيئة تطوير Java على جهازك.
 - نموذج ملف PSD: قم بإعداد نموذج ملف CMYK PSD الذي تريد تحويله.
 ## حزم الاستيراد
@@ -46,7 +46,7 @@ image.save(destName, new TiffOptions(TiffExpectedFormat.TiffLzwCmyk));
 احفظ صورة PSD المحملة كملف CMYK TIFF باستخدام الخيارات المحددة.
 ## خاتمة
 تهانينا! لقد نجحت في تحويل ملف CMYK PSD إلى CMYK TIFF باستخدام Aspose.PSD لـ Java. تعمل هذه المكتبة القوية على تبسيط العملية وتوفر المرونة في التعامل مع ملفات PSD برمجياً.
-## أسئلة مكررة
+## الأسئلة المتداولة
 ### هل Aspose.PSD متوافق مع جميع إصدارات Java؟
 نعم، تم تصميم Aspose.PSD for Java ليكون متوافقًا مع جميع الإصدارات الرئيسية من Java.
 ### هل يمكنني تحويل ملفات PSD بأوضاع ألوان مختلفة باستخدام Aspose.PSD؟

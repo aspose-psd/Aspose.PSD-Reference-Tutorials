@@ -42,7 +42,7 @@ import java.util.Date;
 
 ```java
 public class SaveImageWorker {
-    // ... (راجع الكود المقدم للإعلانات المتغيرة)
+    //... (راجع الكود المقدم للإعلانات المتغيرة)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // منطق المنشئ
@@ -79,7 +79,7 @@ public String ThreadProc() {
 
 ## الخطوة 3: استخدام SaveImageWorker
 
- في تطبيقك الرئيسي، قم بإنشاء مثيل لـ`SaveImageWorker` واستخدامها لحفظ الصور مع سلاسل العمليات:
+ في تطبيقك الرئيسي، قم بإنشاء مثيل لـ`SaveImageWorker` واستخدامها لحفظ الصور باستخدام سلاسل العمليات:
 
 ```java
 public class MainApplication {
@@ -106,11 +106,11 @@ public class MainApplication {
 
 ### س2: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD لـ Java؟
 
- ج2: يمكنك الرجوع إلى الوثائق.[هنا](https://reference.aspose.com/psd/java/) للحصول على معلومات شاملة حول Aspose.PSD لـ Java.
+ج2: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/psd/java/) للحصول على معلومات شاملة حول Aspose.PSD لـ Java.
 
 ### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
- ج3: يمكنك الحصول على ترخيص مؤقت.[هنا](https://purchase.aspose.com/temporary-license/) لاستكشاف الإمكانات الكاملة لـ Aspose.PSD لـ Java.
+ ج3: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لاستكشاف الإمكانات الكاملة لـ Aspose.PSD لـ Java.
 
 ### س4: ما هي خيارات الدعم المتوفرة لـ Aspose.PSD لـ Java؟
 

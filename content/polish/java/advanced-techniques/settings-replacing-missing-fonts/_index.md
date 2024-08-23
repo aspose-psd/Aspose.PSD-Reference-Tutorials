@@ -9,7 +9,7 @@ url: /pl/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
 ## Wstęp
 
-W dynamicznym środowisku programowania w języku Java zarządzanie brakującymi czcionkami w plikach PSD i ich zastępowanie może być kluczowym aspektem tworzenia atrakcyjnych wizualnie i wolnych od błędów obrazów. Aspose.PSD dla Java przychodzi na ratunek dzięki swoim zaawansowanym funkcjom, dzięki którym wymiana czcionek przebiega bezproblemowo. W tym samouczku omówimy kroki zastępowania brakujących czcionek przy użyciu Aspose.PSD dla Java, zapewniając, że Twoje obrazy zachowają integralność estetyczną.
+dynamicznym środowisku programowania w języku Java zarządzanie brakującymi czcionkami w plikach PSD i ich zastępowanie może być kluczowym aspektem tworzenia atrakcyjnych wizualnie i wolnych od błędów obrazów. Aspose.PSD dla Java przychodzi na ratunek dzięki swoim zaawansowanym funkcjom, dzięki którym wymiana czcionek przebiega bezproblemowo. W tym samouczku omówimy kroki zastępowania brakujących czcionek przy użyciu Aspose.PSD dla Java, zapewniając, że Twoje obrazy zachowają integralność estetyczną.
 
 ## Warunki wstępne
 
@@ -97,7 +97,7 @@ Odpowiedź 2: Tak, możesz określić niestandardowe czcionki zastępcze zgodnie
 
 ### P3: Czy dostępne są opcje licencjonowania dla Aspose.PSD?
 
- Odpowiedź 3: Zapoznaj się z opcjami licencjonowania.[Tutaj](https://purchase.aspose.com/buy)aby wybrać najlepszy plan dla swoich potrzeb.
+ Odpowiedź 3: Zapoznaj się z opcjami licencjonowania[Tutaj](https://purchase.aspose.com/buy) aby wybrać najlepszy plan dla swoich potrzeb.
 
 ### P4: Czy istnieje forum społecznościowe dotyczące wsparcia Aspose.PSD?
 

@@ -12,7 +12,7 @@ url: /es/net/psd-file-manipulation/animated-data-sections/
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de tener los siguientes requisitos previos:
 - Conocimientos básicos de programación en C# y .NET.
-- Aspose.PSD para .NET instalado. Si aún no lo has instalado, puedes descargarlo desde[aquí](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD para .NET instalado. Si aún no lo has instalado, puedes descargarlo desde[aquí](https://releases.aspose.com/psd/net/).
 - Un editor de código como Visual Studio para una implementación perfecta.
 ## Importar espacios de nombres
 En su código C#, asegúrese de importar los espacios de nombres necesarios para trabajar con Aspose.PSD:

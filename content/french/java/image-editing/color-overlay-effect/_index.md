@@ -17,7 +17,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 1. Environnement de développement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre machine.
 
-2. Bibliothèque Aspose.PSD : téléchargez et installez la bibliothèque Aspose.PSD pour Java à partir de[ici](https://releases.aspose.com/psd/java/).
+2.  Bibliothèque Aspose.PSD : téléchargez et installez la bibliothèque Aspose.PSD pour Java à partir de[ici](https://releases.aspose.com/psd/java/).
 
 3. Document PSD : préparez un document PSD dans lequel vous souhaitez appliquer l'effet de superposition de couleurs.
 
@@ -87,7 +87,7 @@ Répétez ces étapes dans votre projet Java pour donner vie à vos images avec 
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment appliquer un effet de superposition de couleurs à l'aide d'Aspose.PSD pour Java. Expérimentez avec différentes couleurs et opacités pour libérer votre créativité dans l'édition d'images.
+Félicitations! Vous avez appris avec succès comment appliquer un effet de superposition de couleurs à l'aide d'Aspose.PSD pour Java. Expérimentez avec différentes couleurs et opacités pour libérer votre créativité dans l'édition d'images.
 
 ## FAQ
 
@@ -109,4 +109,4 @@ A2 : Oui, Aspose.PSD est compatible avec les IDE Java populaires comme Eclipse e
 
 ### Q5 : Existe-t-il des options d'essai gratuit disponibles pour Aspose.PSD ?
 
- A5 : Oui, explorez le[essai gratuit](https://releases.aspose.com/)version avant de faire un achat.
+ A5 : Oui, explorez le[essai gratuit](https://releases.aspose.com/) version avant de faire un achat.

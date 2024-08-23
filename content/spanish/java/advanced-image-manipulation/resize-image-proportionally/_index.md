@@ -74,7 +74,7 @@ En este tutorial, cubrimos los pasos esenciales para cambiar el tamaño de las i
 
 ### P1: ¿Aspose.PSD es compatible con todos los formatos de imagen?
 
- R1: Aspose.PSD admite varios formatos de imagen, incluidos PSD, PNG, JPEG y más. Comprobar el[documentación](https://reference.aspose.com/psd/java/) para obtener una lista completa.
+ R1: Aspose.PSD admite varios formatos de imagen, incluidos PSD, PNG, JPEG y más. Compruebe el[documentación](https://reference.aspose.com/psd/java/) para obtener una lista completa.
 
 ### P2: ¿Puedo utilizar Aspose.PSD para proyectos comerciales?
 
@@ -82,7 +82,7 @@ En este tutorial, cubrimos los pasos esenciales para cambiar el tamaño de las i
 
 ### P3: ¿Hay licencias temporales disponibles para fines de prueba?
 
- R3: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) Para evaluar.
+ R3: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para evaluación.
 
 ### P4: ¿Dónde puedo encontrar soporte para Aspose.PSD?
 

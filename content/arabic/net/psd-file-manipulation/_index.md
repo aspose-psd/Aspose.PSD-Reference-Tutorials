@@ -64,7 +64,7 @@ url: /ar/net/psd-file-manipulation/
 ### [العمل مع تأثيرات حالة الطبقة في Aspose.PSD لـ .NET](./layer-state-effects/)
 تعلم كيفية استخدام تأثيرات حالة الطبقة في Aspose.PSD لـ .NET. قم بتحسين ملفات PSD الخاصة بك باستخدام Drop Shadow وGradient Overlay والمزيد. دليل تعليمي سهل.
 ### [التعامل مع موارد MLST في Aspose.PSD لـ .NET](./mlst-resources/)
-تعلم كيفية التعامل مع حالات الطبقة في ملفات Photoshop باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة للتعامل بكفاءة مع موارد MLST.
+تعلم كيفية التعامل مع حالات الطبقة في ملفات Photoshop باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة للتعامل الفعال مع موارد MLST.
 ### [خاصية الخط الزمني لصورة PSD في Aspose.PSD لـ .NET](./psd-image-timeline-property/)
 استكشف العالم الديناميكي لمعالجة الصور باستخدام Aspose.PSD لـ .NET. التعامل مع الجداول الزمنية PSD دون عناء. قم بتنزيل المكتبة الآن!
 ### [العمل مع الجدول الزمني في Aspose.PSD لـ .NET](./timeline/)

@@ -53,7 +53,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
-Det är allt! Med bara några rader kod har du framgångsrikt roterat en bild med Aspose.PSD för .NET.
+Det är det! Med bara några rader kod har du framgångsrikt roterat en bild med Aspose.PSD för .NET.
 
 ## Slutsats
 
@@ -67,7 +67,7 @@ den här handledningen har vi utforskat grunderna för att rotera bilder med Asp
 
 ### F2: Är Aspose.PSD kompatibel med olika bildformat?
 
- Absolut. Aspose.PSD stöder ett brett utbud av bildformat, inklusive PSD, JPEG, PNG och mer. Kolla[dokumentation](https://reference.aspose.com/psd/net/) för hela listan.
+ Absolut. Aspose.PSD stöder ett brett utbud av bildformat, inklusive PSD, JPEG, PNG och mer. Kontrollera[dokumentation](https://reference.aspose.com/psd/net/) för hela listan.
 
 ### F3: Hur kan jag få en tillfällig licens för Aspose.PSD?
 

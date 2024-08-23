@@ -21,7 +21,6 @@ import static com.aspose.psd.ColorAdjustType.Pen;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -47,7 +46,7 @@ int height = 200;
 int startAngle = 45;
 int sweepAngle = 270;
 ```
-호의 크기 및 위치 지정에 대한 특정 요구 사항에 따라 이러한 값을 조정하십시오.
+호의 크기 및 위치 지정에 대한 특정 요구 사항에 따라 이러한 값을 조정합니다.
 ## 4단계: 호 그리기 및 저장
  다음을 사용하여 호를 그립니다.`drawArc` 의 방법`Graphics` 클래스를 선택하고 이미지를 저장합니다.
 ```java
@@ -74,4 +73,4 @@ Java용 Aspose.PSD를 사용하여 프로그래밍 방식으로 호를 그리는
 ### Aspose.PSD는 BMP 이외의 형식으로 내보내기를 지원합니까?
 예, Aspose.PSD는 PNG, JPEG, TIFF, GIF 등 다양한 형식으로 내보내기를 지원합니다.
 ### Aspose.PSD에 대한 추가 지원과 리소스는 어디서 찾을 수 있나요?
- 방문하다[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 커뮤니티 지원, 문서 및 업데이트를 위해.
+ 방문[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 커뮤니티 지원, 문서 및 업데이트를 위해.

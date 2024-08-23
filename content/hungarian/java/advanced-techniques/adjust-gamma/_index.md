@@ -85,7 +85,7 @@ rasterImage.save(destName, tiffOptions);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen beállította egy kép gammáját az Aspose.PSD for Java használatával. Ez a folyamat lehetővé teszi a fejlesztők számára, hogy erőfeszítés nélkül javítsák a képminőséget, hozzájárulva a vizuálisan tetszetős felhasználói élményhez.
+Gratulálok! Sikeresen beállította egy kép gammáját az Aspose.PSD for Java használatával. Ez a folyamat lehetővé teszi a fejlesztők számára, hogy erőfeszítés nélkül javítsák a képminőséget, hozzájárulva a vizuálisan tetszetős felhasználói élményhez.
 
 ## GYIK
 

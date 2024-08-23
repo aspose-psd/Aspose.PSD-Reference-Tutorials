@@ -98,4 +98,4 @@ A1: عتبة برادلي هي أسلوب يستخدم لثنائية الصور
 
 ### س5: أين يمكنني العثور على المزيد من الدعم والموارد؟
 
- ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع واستكشاف[توثيق](https://reference.aspose.com/psd/java/) للحصول على معلومات مفصلة.
+ ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع واستكشاف[الوثائق](https://reference.aspose.com/psd/java/) للحصول على معلومات مفصلة.

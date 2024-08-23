@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Hozzon létre egy példányt a PngOptions osztályból
 PngOptions pngOptions = new PngOptions();
 ```
-## 5. lépés: Mentse el a kivágott képet PNG formátumban.
+## 5. lépés: Mentse el a kivágott képet PNG formátumban
 ```csharp
 // Hívja meg a mentési módszert, adja meg a kimeneti elérési utat és a PngOptions parancsot a PSD-fájl PNG-re konvertálásához és a kimenet mentéséhez
 string destName = dataDir + @"export.png";
@@ -54,17 +54,17 @@ image.Save(destName, pngOptions);
 ```
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan vághatja le a PSD-fájlokat, amikor PNG-re konvertálja azokat az Aspose.PSD for .NET használatával. Ez a képesség felbecsülhetetlen értékű lehet különféle képfeldolgozási forgatókönyvekben.
+Gratulálok! Sikeresen megtanulta, hogyan vághatja le a PSD-fájlokat, amikor PNG-re konvertálja azokat az Aspose.PSD for .NET használatával. Ez a képesség felbecsülhetetlen értékű lehet különféle képfeldolgozási forgatókönyvekben.
 
 ## GYIK
 
 ### 1. kérdés: Használhatom ezt a könyvtárat egy kereskedelmi projektben?
 
- 1. válasz: Igen, az Aspose.PSD for .NET elérhető kereskedelmi használatra. Hivatkozni[Aspose.PSD Licensing](https://purchase.aspose.com/buy) a részletekért.
+ 1. válasz: Igen, az Aspose.PSD for .NET elérhető kereskedelmi használatra. Lásd[Aspose.PSD Licensing](https://purchase.aspose.com/buy) részletekért.
 
 ### 2. kérdés: Van ingyenes próbaverzió?
 
- A2: Abszolút! Megtekintheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+A2: Abszolút! Megtekintheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hol találok támogatást az Aspose.PSD for .NET számára?
 

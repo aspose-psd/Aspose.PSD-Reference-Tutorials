@@ -1,6 +1,6 @@
 ---
-title: Tracer des lignes en Java
-linktitle: Tracer des lignes en Java
+title: Dessiner des lignes en Java
+linktitle: Dessiner des lignes en Java
 second_title: API Java Aspose.PSD
 description: Apprenez à dessiner des lignes dans des fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce didacticiel complet. Boostez vos compétences en développement Java.
 type: docs
@@ -24,7 +24,6 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -49,7 +48,7 @@ Tracez deux lignes pointillées diagonales à l'aide d'un objet Stylo bleu :
 graphic.drawLine(new Pen(Color.getBlue()), 9, 9, 90, 90);
 graphic.drawLine(new Pen(Color.getBlue()), 9, 90, 90, 9);
 ```
-## Étape 5 : Tracez des lignes continues
+## Étape 5 : tracer des lignes continues
 Tracez quatre lignes continues à l'aide d'objets Pen de différentes couleurs :
 ```java
 graphic.drawLine(new Pen(new SolidBrush(Color.getRed())), new Point(9, 9), new Point(9, 90));
@@ -66,7 +65,7 @@ image.save(outpath);
 En suivant ces étapes, vous avez réussi à tracer des lignes dans un fichier PSD à l'aide d'Aspose.PSD pour Java. Ce didacticiel couvrait l'initialisation d'une image PSD, la configuration des graphiques, le dessin de différents types de lignes et l'enregistrement de l'image résultante.
 ## FAQ
 ### Qu’est-ce qu’Aspose.PSD pour Java ?
-Aspose.PSD pour Java est une puissante bibliothèque Java permettant de travailler avec des fichiers PSD par programme.
+Aspose.PSD pour Java est une puissante bibliothèque Java permettant de travailler avec des fichiers PSD par programmation.
 ### Où puis-je trouver la documentation d’Aspose.PSD pour Java ?
  Vous pouvez trouver la documentation[ici](https://reference.aspose.com/psd/java/).
 ### Puis-je essayer Aspose.PSD pour Java avant d’acheter ?

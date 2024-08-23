@@ -80,7 +80,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment effectuer une binarisation avec le seuil Otsu dans Aspose.PSD pour Java. Cette technique peut améliorer considérablement la segmentation des images dans vos applications Java.
+Félicitations! Vous avez appris avec succès comment effectuer une binarisation avec le seuil Otsu dans Aspose.PSD pour Java. Cette technique peut améliorer considérablement la segmentation des images dans vos applications Java.
 
 ## FAQ
 
@@ -94,7 +94,7 @@ A1 : La binarisation avec Otsu Threshold est une méthode utilisée pour la segm
 
 ### Q3 : Où puis-je trouver la documentation Aspose.PSD pour Java ?
 
-R3 : La documentation est disponible.[ici](https://reference.aspose.com/psd/java/).
+A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/java/).
 
 ### Q4 : Comment puis-je obtenir du support pour Aspose.PSD pour Java ?
 
@@ -102,4 +102,4 @@ R3 : La documentation est disponible.[ici](https://reference.aspose.com/psd/ja
 
 ### Q5 : Existe-t-il une licence temporaire disponible pour Aspose.PSD pour Java ?
 
- A5 : Oui, vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

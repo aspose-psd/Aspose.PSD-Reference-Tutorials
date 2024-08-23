@@ -17,7 +17,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di mesin Anda.
 
-2. Perpustakaan Aspose.PSD: Unduh dan instal perpustakaan Aspose.PSD untuk Java dari[Di Sini](https://releases.aspose.com/psd/java/).
+2.  Perpustakaan Aspose.PSD: Unduh dan instal perpustakaan Aspose.PSD untuk Java dari[Di Sini](https://releases.aspose.com/psd/java/).
 
 3. Dokumen PSD: Siapkan dokumen PSD tempat Anda ingin menerapkan Efek Hamparan Warna.
 
@@ -81,7 +81,7 @@ Tentukan warna dan opasitas yang diinginkan untuk Efek Hamparan Warna. Jangan ra
 im.save(psdPathAfterChange);
 ```
 
-Simpan file PSD setelah menerapkan Color Overlay Effect untuk melihat perubahannya.
+Simpan file PSD setelah menerapkan Efek Color Overlay untuk melihat perubahannya.
 
 Ulangi langkah-langkah ini di proyek Java Anda untuk menghidupkan gambar Anda dengan hamparan warna yang menawan!
 
@@ -91,7 +91,7 @@ Selamat! Anda telah berhasil mempelajari cara menerapkan Efek Hamparan Warna men
 
 ## FAQ
 
-### Q1: Bisakah saya menerapkan beberapa Efek Hamparan Warna ke satu file PSD?
+### Q1: Dapatkah saya menerapkan beberapa Efek Hamparan Warna ke satu file PSD?
 
 A1: Tidak, satu lapisan hanya dapat menerapkan satu Efek Hamparan Warna.
 
@@ -109,4 +109,4 @@ A2: Ya, Aspose.PSD kompatibel dengan IDE Java populer seperti Eclipse dan Intell
 
 ### Q5: Apakah ada opsi uji coba gratis yang tersedia untuk Aspose.PSD?
 
- A5: Ya, jelajahi[uji coba gratis](https://releases.aspose.com/)versi sebelum melakukan pembelian.
+ A5: Ya, jelajahi[uji coba gratis](https://releases.aspose.com/) versi sebelum melakukan pembelian.

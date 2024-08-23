@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/layer-effects/adding-stroke-layer-pattern/
 ---
-## Úvod
+## Zavedení
 
 Vylepšení souborů PSD (Photoshop Document) vrstvami tahů a vzory může dodat vašim návrhům dynamický nádech. V tomto tutoriálu prozkoumáme, jak využít Aspose.PSD pro .NET k snadnému přidání vrstvy tahu se vzorem do vašich souborů PSD. Aspose.PSD je výkonná .NET knihovna, která poskytuje komplexní podporu pro manipulaci se soubory PSD, což z ní činí neocenitelný nástroj pro vývojáře i designéry.
 
@@ -17,7 +17,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 - Základní znalost programovacího jazyka C#.
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.PSD pro .NET knihovnu, kterou si můžete stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET knihovnu, kterou si můžete stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 ## Importovat jmenné prostory
 
@@ -121,7 +121,7 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak přidat vrstvu tahu se vzorem v Aspose.PSD pro .NET. Tato všestranná knihovna umožňuje vývojářům vytvářet vizuálně přitažlivé návrhy a zvyšovat flexibilitu souborů PSD.
+Gratuluji! Úspěšně jste se naučili, jak přidat vrstvu tahu se vzorem v Aspose.PSD pro .NET. Tato všestranná knihovna umožňuje vývojářům vytvářet vizuálně přitažlivé návrhy a zvyšovat flexibilitu souborů PSD.
 
 ## FAQ
 
@@ -131,11 +131,11 @@ Odpověď 1: Ano, Aspose.PSD for .NET je kompatibilní s různými verzemi sady 
 
 ### Q2: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A2: Návštěva[tady](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+ A2: Návštěva[zde](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
 
 ### Q3: Jsou k dispozici nějaké ukázkové soubory PSD pro testování?
 
- Odpověď 3: Vzorové soubory PSD najdete v dokumentaci.[tady](https://reference.aspose.com/psd/net/).
+ Odpověď 3: Vzorové soubory PSD najdete v dokumentaci[zde](https://reference.aspose.com/psd/net/).
 
 ### Q4: Je Aspose.PSD vhodný pro dávkové zpracování souborů PSD?
 

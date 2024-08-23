@@ -19,7 +19,6 @@ Before proceeding with this tutorial, ensure you have the following prerequisite
 To begin, make sure you have imported the necessary packages in your Java project:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.jpeg.JFIFData;
 import com.aspose.psd.fileformats.psd.PsdImage;

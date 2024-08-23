@@ -74,7 +74,7 @@ String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-Och det är allt! Du har framgångsrikt tillämpat binarisering med en fast tröskel med Aspose.PSD för Java.
+Och det är det! Du har framgångsrikt tillämpat binarisering med en fast tröskel med Aspose.PSD för Java.
 
 ## Slutsats
 
@@ -96,8 +96,8 @@ S1: Ja, Aspose.PSD stöder olika bildformat, vilket gör binarisering tillämpba
 
 ### F4: Hur köper jag Aspose.PSD-biblioteket?
 
- S4: Du kan köpa Aspose.PSD-biblioteket.[här](https://purchase.aspose.com/buy).
+ S4: Du kan köpa Aspose.PSD-biblioteket[här](https://purchase.aspose.com/buy).
 
 ### F5: Finns det en gratis testversion tillgänglig?
 
- S5: Ja, du kan utforska funktionerna i Aspose.PSD med en gratis testversion.[här](https://releases.aspose.com/).
+ S5: Ja, du kan utforska funktionerna i Aspose.PSD med en gratis testversion[här](https://releases.aspose.com/).

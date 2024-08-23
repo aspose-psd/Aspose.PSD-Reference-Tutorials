@@ -15,7 +15,7 @@ url: /ko/net/image-adjustment/gamma-adjustment/
 
 구현을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
--  .NET 라이브러리용 Aspose.PSD: .NET용 Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/psd/net/).
+-  .NET 라이브러리용 Aspose.PSD: .NET용 Aspose.PSD 라이브러리가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/net/).
 
 - .NET Framework: 이 자습서에서는 사용자가 .NET 개발에 대한 기본 지식을 갖고 있고 .NET Framework가 설치되어 있다고 가정합니다.
 
@@ -100,4 +100,4 @@ rasterImage.Save(destName, tiffOptions);
 
 ### Q5: 임시 라이센스가 필요합니까?
 
- A5: 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 필요한 경우 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

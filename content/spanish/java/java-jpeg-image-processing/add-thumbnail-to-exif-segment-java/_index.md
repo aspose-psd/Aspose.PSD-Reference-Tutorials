@@ -14,12 +14,11 @@ Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisito
 - Conocimientos básicos de programación Java.
 - Kit de desarrollo de Java (JDK) instalado en su sistema.
 - IDE (Entorno de desarrollo integrado) para Java, como IntelliJ IDEA o Eclipse.
--  Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[Página de descarga de Aspose.PSD para Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[Página de descarga de Aspose.PSD para Java](https://releases.aspose.com/psd/java/).
 ## Importar paquetes
 Primero, importe los paquetes necesarios desde Aspose.PSD y Java:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

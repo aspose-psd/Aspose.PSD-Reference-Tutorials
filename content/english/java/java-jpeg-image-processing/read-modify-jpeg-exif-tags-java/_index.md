@@ -19,7 +19,6 @@ Before we start, make sure you have the following:
 First things first, let’s import the necessary packages. Open your Java IDE and create a new Java project. Then, include the Aspose.PSD for Java library in your project dependencies.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

@@ -99,7 +99,7 @@ A1: Kesinlikle! Aspose.PSD for Java, profesyonel grafik tasarım görevleri içi
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Ayrıntılı belgeleri nerede bulabilirim?
 
@@ -107,4 +107,4 @@ A1: Kesinlikle! Aspose.PSD for Java, profesyonel grafik tasarım görevleri içi
 
 ### S5: Aspose.PSD for Java desteğini nasıl alabilirim?
 
- A5: Topluluk forumuna katılın.[Burada](https://forum.aspose.com/c/psd/34) herhangi bir destek sorgusu için.
+ A5: Topluluk forumuna katılın[Burada](https://forum.aspose.com/c/psd/34) herhangi bir destek sorgusu için.

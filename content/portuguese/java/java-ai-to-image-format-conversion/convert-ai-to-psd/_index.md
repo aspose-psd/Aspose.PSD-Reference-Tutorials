@@ -15,12 +15,11 @@ Antes de começarmos, há algumas coisas que você precisa ter em mente:
 2.  Aspose.PSD para Java: Baixe a biblioteca Aspose.PSD para Java no[página de download](https://releases.aspose.com/psd/java/).
 3. Ambiente de Desenvolvimento Integrado (IDE): Um IDE como IntelliJ IDEA ou Eclipse para escrever e executar seu código Java.
 4. Arquivo AI: O arquivo do Adobe Illustrator que você deseja converter.
-5. Licença temporária Aspose (opcional): Para funcionalidade completa sem limitações, você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/).
+5.  Licença temporária Aspose (opcional): Para funcionalidade completa sem limitações, você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/).
 ## Importar pacotes
 Primeiro, vamos configurar nosso projeto importando os pacotes necessários. Você precisará incluir Aspose.PSD para Java no classpath do seu projeto. Veja como fazer isso:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
@@ -60,7 +59,7 @@ Aspose.PSD para Java é uma biblioteca robusta que permite aos desenvolvedores c
 ### Posso usar Aspose.PSD para Java gratuitamente?
  Aspose.PSD for Java oferece uma avaliação gratuita, que você pode baixar no[página de teste gratuito](https://releases.aspose.com/) . Para recursos completos, um[licença](https://purchase.aspose.com/buy) é necessário.
 ### Como obtenho uma licença temporária do Aspose.PSD para Java?
-Você pode obter uma licença temporária do[página de licença temporária](https://purchase.aspose.com/temporary-license/).
+ Você pode obter uma licença temporária do[página de licença temporária](https://purchase.aspose.com/temporary-license/).
 ### É possível converter arquivos PSD de volta em arquivos AI?
 Atualmente, Aspose.PSD para Java não oferece suporte à conversão de arquivos PSD de volta em arquivos AI. Ele se concentra no manuseio de arquivos PSD e PSB.
 ### Onde posso encontrar mais exemplos e documentação?

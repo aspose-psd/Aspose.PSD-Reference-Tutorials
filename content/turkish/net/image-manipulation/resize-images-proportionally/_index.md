@@ -50,7 +50,7 @@ using (Image image = Image.Load(sourceFile))
 }
 ```
 
- Kaynak görüntüyü şunu kullanarak yükleyin:`Image.Load` yöntem.
+ Kaynak görüntüyü şunu kullanarak yükleyin:`Image.Load` Yöntem.
 
 ## Adım 2: Genişliği ve Yüksekliği Belirleyin
 
@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Yeniden boyutlandırılan görüntünün yeni genişliğini ve yüksekliğini belirleyin. Bu örnekte genişlik ve yükseklik yarıya indirilmiştir ancak bu değerleri ihtiyaçlarınıza göre ayarlayabilirsiniz.
+Yeniden boyutlandırılan görüntünün yeni genişliğini ve yüksekliğini belirleyin. Bu örnekte genişlik ve yükseklik yarıya indirilmiştir ancak bu değerleri gereksinimlerinize göre ayarlayabilirsiniz.
 
 ## 3. Adım: Yeniden Boyutlandırılan Resmi Kaydedin
 
@@ -95,7 +95,7 @@ Cevap3: Evet, Aspose.PSD for .NET, görüntülere kırpma, döndürme ve filtre 
 
 ### S4: Aspose.PSD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, Aspose.PSD for .NET'in özelliklerini ücretsiz denemeyle keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) başlamak.
+ Cevap4: Evet, Aspose.PSD for .NET'in özelliklerini ücretsiz denemeyle keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) başlamak için.
 
 ### S5: Aspose.PSD for .NET desteğini nerede bulabilirim?
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/image-editing/color-overlay-effect/
 ---
-## Úvod
+## Zavedení
 
 Vítejte ve světě grafického designu a manipulace s obrázky pomocí Aspose.PSD pro Javu! V tomto tutoriálu se ponoříme do použití efektu překrytí barev pro vylepšení vašich obrázků. Tato výkonná knihovna Java vám umožňuje efektivně pracovat se soubory PSD a poskytuje širokou škálu funkcí pro zpracování obrazu.
 
@@ -17,7 +17,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 
 1. Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí Java.
 
-2. Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD pro Javu z[tady](https://releases.aspose.com/psd/java/).
+2.  Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD pro Javu z[zde](https://releases.aspose.com/psd/java/).
 
 3. Dokument PSD: Připravte dokument PSD, na který chcete použít efekt překrytí barev.
 
@@ -87,7 +87,7 @@ Opakujte tyto kroky ve svém projektu Java, abyste oživili své obrázky pomoc�
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak aplikovat efekt překrytí barev pomocí Aspose.PSD pro Java. Experimentujte s různými barvami a neprůhledností, abyste popustili uzdu své kreativitě při úpravách obrázků.
+Gratuluji! Úspěšně jste se naučili, jak aplikovat efekt překrytí barev pomocí Aspose.PSD pro Java. Experimentujte s různými barvami a neprůhledností, abyste popustili uzdu své kreativitě při úpravách obrázků.
 
 ## FAQ
 
@@ -101,7 +101,7 @@ Odpověď 2: Ano, Aspose.PSD je kompatibilní s populárními Java IDE jako Ecli
 
 ### Q3: Mohu použít Aspose.PSD pro komerční projekty?
 
- A3: Ano, Aspose.PSD lze použít pro osobní i komerční projekty. Návštěva[tady](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
+ A3: Ano, Aspose.PSD lze použít pro osobní i komerční projekty. Návštěva[zde](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD?
 
@@ -109,4 +109,4 @@ Odpověď 2: Ano, Aspose.PSD je kompatibilní s populárními Java IDE jako Ecli
 
 ### Q5: Existují nějaké bezplatné zkušební možnosti dostupné pro Aspose.PSD?
 
- A5: Ano, prozkoumejte[zkušební verze zdarma](https://releases.aspose.com/)verzi před nákupem.
+ A5: Ano, prozkoumejte[zkušební verze zdarma](https://releases.aspose.com/) verzi před nákupem.

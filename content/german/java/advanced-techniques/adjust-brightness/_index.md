@@ -1,7 +1,7 @@
 ---
 title: Passen Sie die Helligkeit eines Bildes mit Aspose.PSD für Java an
-linktitle: Passen Sie die Helligkeit eines Bildes an
-second_title: Aspose.PSD Java-API
+linktitle: Helligkeit eines Bildes anpassen
+second_title: Aspose.PSD Java API
 description: Verbessern Sie die Bildhelligkeit in Java mit Aspose.PSD. Schritt-für-Schritt-Anleitung zum programmgesteuerten Anpassen der Bildhelligkeit.
 type: docs
 weight: 21
@@ -9,13 +9,13 @@ url: /de/java/advanced-techniques/adjust-brightness/
 ---
 ## Einführung
 
-Die Verbesserung von Bildern ist eine häufige Anforderung im Grafikdesign und in der digitalen Fotografie. Aspose.PSD für Java bietet eine leistungsstarke Lösung zum programmgesteuerten Anpassen der Bildhelligkeit. In diesem Tutorial erfahren Sie Schritt für Schritt, wie Sie die Aspose.PSD für Java-Bibliothek verwenden, um die Helligkeit eines Bildes anzupassen.
+Die Verbesserung von Bildern ist eine häufige Anforderung im Grafikdesign und in der Digitalfotografie. Aspose.PSD für Java bietet eine leistungsstarke Lösung zum programmgesteuerten Anpassen der Bildhelligkeit. In diesem Tutorial erfahren Sie Schritt für Schritt, wie Sie die Helligkeit eines Bildes mithilfe der Bibliothek Aspose.PSD für Java anpassen können.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
--  Aspose.PSD für Java-Bibliothek: Laden Sie die Bibliothek von herunter und installieren Sie sie[Aspose.PSD für Java-Dokumentation](https://reference.aspose.com/psd/java/).
+-  Aspose.PSD für Java-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von der[Aspose.PSD für Java-Dokumentation](https://reference.aspose.com/psd/java/).
 
 ## Pakete importieren
 
@@ -30,7 +30,7 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-Lassen Sie uns nun den Vorgang zum Anpassen der Helligkeit eines Bildes in einfache Schritte unterteilen:
+Lassen Sie uns nun den Vorgang zum Anpassen der Helligkeit eines Bildes in einfache Schritte aufschlüsseln:
 
 ## Schritt 1: Laden Sie das Bild
 
@@ -41,16 +41,16 @@ String destName = dataDir + "AdjustBrightness_out.tiff";
 
 // Laden Sie ein vorhandenes Bild in eine Instanz der RasterImage-Klasse
 Image image = Image.load(sourceFile);
-// Bildobjekt in RasterImage umwandeln
+// Konvertieren Sie das Objekt von Image in RasterImage
 RasterImage rasterImage = (RasterImage) image;
 
-// Überprüfen Sie, ob RasterImage zwischengespeichert ist, und speichern Sie RasterImage zwischen, um eine bessere Leistung zu erzielen
+// Überprüfen Sie, ob RasterImage zwischengespeichert ist, und cachen Sie RasterImage für eine bessere Leistung
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
- In diesem Schritt laden wir das Zielbild und wandeln es in ein um`RasterImage` zur Weiterverarbeitung.
+ In diesem Schritt laden wir das Zielbild und konvertieren es in ein`RasterImage` zur weiteren Verarbeitung.
 
 ## Schritt 2: Helligkeit anpassen
 
@@ -59,7 +59,7 @@ if (!rasterImage.isCached()) {
 rasterImage.adjustBrightness(-50);
 ```
 
- Hier verwenden wir die`adjustBrightness`Methode zum Ändern der Helligkeit des Bildes. In diesem Beispiel verringern wir die Helligkeit um 50 Einheiten, Sie können diesen Wert jedoch entsprechend Ihren Anforderungen anpassen.
+ Hier verwenden wir die`adjustBrightness`Methode zum Ändern der Helligkeit des Bildes. In diesem Beispiel verringern wir die Helligkeit um 50 Einheiten, aber Sie können diesen Wert Ihren Anforderungen entsprechend anpassen.
 
 ## Schritt 3: TiffOptions festlegen
 
@@ -71,7 +71,7 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Konfigurieren Sie die`TiffOptions` zum Speichern des angepassten Bildes. Verstelle die`bitsPerSample` Und`photometric` Immobilien basierend auf Ihren spezifischen Bedürfnissen.
+ Konfigurieren Sie die`TiffOptions` zum Speichern des angepassten Bildes. Passen Sie die`bitsPerSample` Und`photometric` Eigenschaften basierend auf Ihren spezifischen Anforderungen.
 
 ## Schritt 4: Speichern Sie das resultierende Bild
 
@@ -80,30 +80,30 @@ tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 rasterImage.save(destName, tiffOptions);
 ```
 
- Speichern Sie abschließend das geänderte Bild mit dem angegebenen`TiffOptions`.
+ Speichern Sie das geänderte Bild abschließend unter dem angegebenen`TiffOptions`.
 
 ## Abschluss
 
-Das programmgesteuerte Anpassen der Helligkeit eines Bildes ist mit Aspose.PSD für Java ganz einfach. Dieses Tutorial bietet eine umfassende Anleitung zur Implementierung dieser Funktionalität in Ihren Java-Anwendungen.
+Mit Aspose.PSD für Java können Sie die Helligkeit eines Bildes ganz einfach programmgesteuert anpassen. Dieses Tutorial bietet eine umfassende Anleitung zur Implementierung dieser Funktion in Ihren Java-Anwendungen.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich die Helligkeit in anderen Bildformaten außer PSD anpassen?
+### F1: Kann ich die Helligkeit auch in anderen Bildformaten als PSD anpassen?
 
 A1: Ja, Aspose.PSD für Java unterstützt verschiedene Bildformate wie JPEG, PNG und TIFF.
 
 ### F2: Wie kann ich mit Fehlern während des Bildanpassungsprozesses umgehen?
 
-A2: Sie können die Fehlerbehandlung mithilfe von Try-Catch-Blöcken implementieren, um möglicherweise auftretende Ausnahmen zu verwalten.
+A2: Sie können die Fehlerbehandlung mithilfe von Try-Catch-Blöcken implementieren, um eventuell auftretende Ausnahmen zu verwalten.
 
-### F3: Gibt es eine Grenze für den Bereich der Helligkeitsanpassung?
+### F3: Gibt es eine Grenze für den Bereich der Helligkeitseinstellung?
 
-A3: Der Anpassungsbereich hängt vom Bildinhalt und -format ab, aber Aspose.PSD bietet Flexibilität bei der Anpassung.
+A3: Der Anpassungsumfang hängt vom Bildinhalt und -format ab, aber Aspose.PSD bietet Flexibilität bei der Anpassung.
 
 ### F4: Kann ich Aspose.PSD für Java in kommerziellen Projekten verwenden?
 
- A4: Ja, Aspose.PSD für Java ist eine kommerzielle Bibliothek und Sie können eine Lizenz von erhalten[Hier](https://purchase.aspose.com/buy).
+ A4: Ja, Aspose.PSD für Java ist eine kommerzielle Bibliothek und Sie können eine Lizenz erhalten von[Hier](https://purchase.aspose.com/buy).
 
-### F5: Gibt es eine kostenlose Testversion für Aspose.PSD für Java?
+### F5: Gibt es eine kostenlose Testversion von Aspose.PSD für Java?
 
- A5: Ja, Sie können die Bibliothek mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).
+ A5: Ja, Sie können die Bibliothek mit einer kostenlosen Testversion erkunden von[Hier](https://releases.aspose.com/).

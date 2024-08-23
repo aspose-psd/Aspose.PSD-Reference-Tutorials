@@ -50,7 +50,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName, new PsdLoadOptions(
     image.Save(Path.Combine(outputFolder, outputs[2]), new JpegOptions { DefaultReplacementFont = "Times New Roman" });
 }
 ```
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε κατακτήσει με επιτυχία την τέχνη της αντικατάστασης γραμματοσειρών χρησιμοποιώντας το Aspose.PSD για .NET. Αυτή η ισχυρή βιβλιοθήκη παρέχει ευελιξία και αποτελεσματικότητα στο χειρισμό γραμματοσειρών που λείπουν, διασφαλίζοντας ότι τα σχέδιά σας παραμένουν ανέπαφα.
 
@@ -70,8 +70,8 @@ A1: Ναι, το Aspose.PSD σάς επιτρέπει να αντικαθιστ�
 
 ### Ε4: Διατίθενται προσωρινές άδειες χρήσης για το Aspose.PSD;
 
- A4: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια.[εδώ](https://purchase.aspose.com/temporary-license/).
+ A4: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε5: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το Aspose.PSD;
 
- A5: Ανατρέξτε στις λεπτομέρειες[τεκμηρίωση](https://reference.aspose.com/psd/net/) για εις βάθος πληροφορίες σχετικά με τις λειτουργίες Aspose.PSD.
+ A5: Ανατρέξτε στα αναλυτικά[απόδειξη με έγγραφα](https://reference.aspose.com/psd/net/) για εις βάθος πληροφορίες σχετικά με τις λειτουργίες Aspose.PSD.

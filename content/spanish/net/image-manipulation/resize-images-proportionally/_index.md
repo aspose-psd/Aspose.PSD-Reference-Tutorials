@@ -95,7 +95,7 @@ R3: Sí, Aspose.PSD para .NET ofrece una amplia gama de funciones, que incluyen 
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.PSD para .NET?
 
- R4: Sí, puede explorar las capacidades de Aspose.PSD para .NET con una prueba gratuita. Visita[aquí](https://releases.aspose.com/) Para empezar.
+ R4: Sí, puede explorar las capacidades de Aspose.PSD para .NET con una prueba gratuita. Visita[aquí](https://releases.aspose.com/) para empezar.
 
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.PSD para .NET?
 

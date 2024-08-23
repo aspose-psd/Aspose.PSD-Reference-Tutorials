@@ -112,7 +112,7 @@ dublinCorePackage.addValue("dc:movie", "Barfly");
 ## Stap 10: Voeg het DublinCore-pakket toe aan XMP-metagegevens
 
 ```java
-// Voeg DublinCore-pakket toe aan XMP-metadata
+// Voeg DublinCore-pakket toe aan XMP-metagegevens
 xmpData.addPackage(dublinCorePackage);
 ```
 
@@ -150,7 +150,7 @@ A3: Aspose.PSD is ontworpen om afbeeldingen van verschillende formaten te verwer
 
 ### V4: Is er een proefversie beschikbaar voor Aspose.PSD?
 
- A4: Ja, u kunt de mogelijkheden van Aspose.PSD verkennen door een gratis proefperiode aan te vragen.[hier](https://releases.aspose.com/).
+ A4: Ja, u kunt de mogelijkheden van Aspose.PSD verkennen door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
 
 ### V5: Waar kan ik ondersteuning zoeken voor Aspose.PSD-gerelateerde vragen?
 

@@ -159,7 +159,7 @@ A1: Aspose.PSD는 주로 PSD(Adobe Photoshop) 파일 형식에 중점을 두고 
 
 A2: 예, Aspose.PSD를 사용하면 기존 XMP 메타데이터를 읽고 수정할 수 있습니다.
 
-### Q3: .NET용 Aspose.PSD를 사용할 때 이미지 크기에 제한이 있습니까?
+### Q3: .NET용 Aspose.PSD를 사용할 때 이미지 크기에 제한이 있나요?
 
 A3: Aspose.PSD는 다양한 크기의 이미지를 처리할 수 있지만 매우 큰 이미지에는 추가 고려 사항이 필요할 수 있습니다.
 

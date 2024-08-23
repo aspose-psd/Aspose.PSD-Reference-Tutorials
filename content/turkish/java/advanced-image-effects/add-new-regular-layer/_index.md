@@ -111,7 +111,7 @@ A2: Kesinlikle! Aspose.PSD, katmanlar için çeşitli dönüştürme seçenekler
 
 ### S3: Ek Aspose.PSD belgelerini nerede bulabilirim?
 
- A3: Belgelere başvurabilirsiniz.[Burada](https://reference.aspose.com/psd/java/).
+ A3: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/psd/java/).
 
 ### S4: Aspose.PSD için nasıl geçici lisans alabilirim?
 
@@ -119,4 +119,4 @@ A2: Kesinlikle! Aspose.PSD, katmanlar için çeşitli dönüştürme seçenekler
 
 ### S5: Aspose.PSD desteği için herhangi bir topluluk forumu var mı?
 
- A5: Evet, destek ve tartışmalar bulabilirsiniz.[Burada](https://forum.aspose.com/c/psd/34).
+ A5: Evet, destek ve tartışmalar bulabilirsiniz[Burada](https://forum.aspose.com/c/psd/34).

@@ -87,7 +87,7 @@ rasterCachedImage.save(destName, new JpegOptions());
 
 ### Q1：我可以將Aspose.PSD for Java用於商業專案嗎？
 
-A1：是的，Aspose.PSD for Java 可用於商業用途。您可以購買許可證[這裡](https://purchase.aspose.com/buy).
+ A1：是的，Aspose.PSD for Java 可用於商業用途。您可以購買許可證[這裡](https://purchase.aspose.com/buy).
 
 ### Q2：Aspose.PSD for Java 有免費試用版嗎？
 

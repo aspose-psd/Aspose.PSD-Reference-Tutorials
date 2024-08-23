@@ -20,7 +20,6 @@ url: /ar/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 للبدء، تحتاج إلى استيراد الحزم الضرورية من مكتبة Aspose.PSD. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;

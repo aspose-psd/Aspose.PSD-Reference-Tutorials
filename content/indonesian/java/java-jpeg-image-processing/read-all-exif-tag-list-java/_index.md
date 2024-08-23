@@ -18,7 +18,6 @@ Sebelum mendalami tutorial ini, pastikan Anda telah menyiapkan prasyarat berikut
 Untuk memulai, impor paket yang diperlukan dari Aspose.PSD untuk Java di proyek Anda:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

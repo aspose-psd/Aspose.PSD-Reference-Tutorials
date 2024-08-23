@@ -9,7 +9,7 @@ url: /cs/net/image-manipulation/rotate-image-specific-angle/
 ---
 Pokud se ponoříte do světa manipulace s obrázky pomocí .NET, Aspose.PSD poskytuje výkonné řešení. V tomto tutoriálu vás provedeme procesem otáčení obrázku pod určitým úhlem pomocí Aspose.PSD. Než se vrhneme na kroky, připravíme jeviště úvodem.
 
-## Úvod
+## Zavedení
 
 Aspose.PSD for .NET je všestranná knihovna, která umožňuje vývojářům bezproblémově pracovat s formáty PSD a rastrových obrázků. Jednou z jeho klíčových vlastností je schopnost otáčet obrázky v přesných úhlech, což poskytuje flexibilitu při manipulaci s obrázky. Tento tutoriál vás provede kroky k otočení obrázku v určitém úhlu pomocí Aspose.PSD for .NET.
 
@@ -81,7 +81,7 @@ Uložte otočený obrázek se zadanými možnostmi (v tomto případě jako JPEG
 
 ## Závěr
 
- Gratulujeme! Úspěšně jste otočili obrázek v určitém úhlu pomocí Aspose.PSD pro .NET. Tato knihovna poskytuje robustní sadu nástrojů pro manipulaci s obrázky a tento tutoriál je jen špičkou ledovce. Prozkoumat[dokumentace](https://reference.aspose.com/psd/net/) pro více funkcí a možností.
+ Gratuluji! Úspěšně jste otočili obrázek v určitém úhlu pomocí Aspose.PSD pro .NET. Tato knihovna poskytuje robustní sadu nástrojů pro manipulaci s obrázky a tento tutoriál je jen špičkou ledovce. Prozkoumat[dokumentace](https://reference.aspose.com/psd/net/) pro více funkcí a možností.
 
 ## FAQ
 
@@ -103,4 +103,4 @@ Odpověď 3: I když to není povinné, ukládání dat do mezipaměti může v�
 
 ### Q5: Mohu vyzkoušet Aspose.PSD před nákupem?
 
- A5: Určitě! Chyťte se[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat možnosti knihovny.
+ A5: Určitě! Chyťte se[zkušební verze zdarma](https://releases.aspose.com/)prozkoumat možnosti knihovny.

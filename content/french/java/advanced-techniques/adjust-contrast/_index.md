@@ -84,7 +84,7 @@ rasterImage.save(destName, tiffOptions);
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à ajuster le contraste d'une image à l'aide d'Aspose.PSD pour Java. Ce tutoriel a couvert les étapes essentielles, de l'importation des packages à la sauvegarde de l'image traitée.
+Félicitations! Vous avez réussi à ajuster le contraste d'une image à l'aide d'Aspose.PSD pour Java. Ce tutoriel a couvert les étapes essentielles, de l'importation des packages à la sauvegarde de l'image traitée.
 
 ## FAQ
 
@@ -94,11 +94,11 @@ A1 : Oui, Aspose.PSD prend en charge différents formats d'image, offrant ainsi 
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
- A2 : Vous pouvez obtenir une licence temporaire.[ici](https://purchase.aspose.com/temporary-license/).
+ A2 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q3 : Où puis-je trouver la documentation Aspose.PSD ?
 
-R3 : La documentation est disponible.[ici](https://reference.aspose.com/psd/java/).
+A3 : La documentation est disponible[ici](https://reference.aspose.com/psd/java/).
 
 ### Q4 : Quelles options de support sont disponibles pour Aspose.PSD ?
 

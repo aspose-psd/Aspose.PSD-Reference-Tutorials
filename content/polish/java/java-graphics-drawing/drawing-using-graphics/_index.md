@@ -24,7 +24,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.brushes.LinearGradientBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -75,7 +74,7 @@ Tak, Aspose.PSD obsługuje szeroki zakres operacji, w tym manipulację warstwami
 ### Czy Aspose.PSD nadaje się do zastosowań o wysokiej wydajności?
 Oczywiście, Aspose.PSD jest zoptymalizowany pod kątem wydajności i wydajności pamięci.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Odwiedzić[Dokumentacja Java Aspose.PSD](https://reference.aspose.com/psd/java/) w celu uzyskania kompleksowych przewodników i referencji API.
+ Odwiedź[Dokumentacja Java Aspose.PSD](https://reference.aspose.com/psd/java/) w celu uzyskania kompleksowych przewodników i referencji API.
 ### Czy Aspose.PSD obsługuje wiele formatów obrazów do eksportu?
 Tak, Aspose.PSD obsługuje eksport do różnych formatów, takich jak BMP, PNG, JPEG i TIFF.
 ### Jak mogę uzyskać wsparcie lub pomoc, jeśli napotkam problemy?

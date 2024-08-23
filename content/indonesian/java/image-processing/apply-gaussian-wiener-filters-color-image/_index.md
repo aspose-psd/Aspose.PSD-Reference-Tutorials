@@ -87,7 +87,7 @@ A2: Ya, Aspose.PSD menyediakan beragam opsi filter untuk memenuhi kebutuhan pemr
 
 ### Q3: Bagaimana cara menangani pengecualian selama pemrosesan gambar?
 
- A3: Bungkus kode Anda dalam blok coba-tangkap untuk menangani pengecualian dengan baik. Mengacu pada[Dokumentasi Aspose.PSD](https://reference.aspose.com/psd/java/) untuk lebih jelasnya.
+ A3: Bungkus kode Anda dalam blok coba-tangkap untuk menangani pengecualian dengan baik. Lihat[Dokumentasi Aspose.PSD](https://reference.aspose.com/psd/java/) untuk lebih jelasnya.
 
 ### Q4: Bisakah saya menerapkan beberapa filter secara berurutan?
 

@@ -80,7 +80,7 @@ C1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur ve geli�
 
 ### S4: Aspose.PSD for .NET için geçici lisanslar mevcut mu?
 
- Cevap4: Evet, Aspose.PSD for .NET için geçici lisanslar alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Evet, Aspose.PSD for .NET için geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.PSD for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 

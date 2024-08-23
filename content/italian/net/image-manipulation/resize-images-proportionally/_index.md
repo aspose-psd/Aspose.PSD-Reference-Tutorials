@@ -9,7 +9,7 @@ url: /it/net/image-manipulation/resize-images-proportionally/
 ---
 Nel regno della manipolazione delle immagini, Aspose.PSD per .NET si distingue come un potente toolkit, fornendo agli sviluppatori la capacità di ridimensionare proporzionalmente le immagini con facilità. In questa guida passo passo ti guideremo attraverso il processo di ridimensionamento delle immagini utilizzando Aspose.PSD per .NET, assicurandoti che le tue immagini mantengano le loro proporzioni in modo impeccabile.
 
-## introduzione
+## Introduzione
 
 Ridimensionare le immagini proporzionalmente è un compito comune in molte applicazioni e Aspose.PSD per .NET semplifica questo processo per gli sviluppatori. Che tu stia lavorando su un'applicazione Web, un software desktop o un'app mobile, capire come ridimensionare le immagini preservandone le proporzioni è fondamentale per mantenere l'impatto visivo e la coerenza.
 
@@ -63,7 +63,7 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Determina la nuova larghezza e altezza per l'immagine ridimensionata. In questo esempio la larghezza e l'altezza sono dimezzate, ma puoi regolare questi valori in base alle tue esigenze.
+Determina la nuova larghezza e altezza per l'immagine ridimensionata. In questo esempio, la larghezza e l'altezza sono dimezzate, ma puoi modificare questi valori in base alle tue esigenze.
 
 ## Passaggio 3: salva l'immagine ridimensionata
 

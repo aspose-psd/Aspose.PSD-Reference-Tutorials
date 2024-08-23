@@ -7,13 +7,13 @@ type: docs
 weight: 26
 url: /cs/net/image-manipulation/
 ---
-## Úvod
+## Zavedení
 
 Manipulace s obrázky je zásadní dovedností pro každého vývojáře nebo návrháře pracujícího s .NET a Aspose.PSD pro .NET poskytuje výkonnou sadu nástrojů pro vylepšení vašich schopností. V tomto tutoriálu se ponoříme do různých technik manipulace s obrázky, které lze bez problémů použít[Aspose.PSD](https://www.aspose.com/products/psd).
 
 ## Kombinování obrázků
 
- Pokud jste někdy přemýšleli, jak snadno sloučit obrázky v .NET, toto[tutorial](./combine-images/) je váš průvodce. S Aspose.PSD se kombinování obrázků stává jednoduchým a přesným procesem. Postupujte podle našich podrobných pokynů a zdokonalte své dovednosti v oblasti manipulace s obrázky.
+ Pokud jste někdy přemýšleli, jak snadno sloučit obrázky v .NET, toto[konzultace](./combine-images/) je váš průvodce. S Aspose.PSD se kombinování obrázků stává jednoduchým a přesným procesem. Postupujte podle našich podrobných pokynů a zdokonalte své dovednosti v oblasti manipulace s obrázky.
 
 ## Oříznutí obrázků podle obdélníku
 
@@ -29,11 +29,11 @@ Dynamické rozšiřování a ořezávání obrázků dodává vašim projektům 
 
 ## Proporcionální změna velikosti obrázků
 
- Prozkoumejte svět proporcionální změny velikosti obrazu s Aspose.PSD. Stáhněte si knihovnu, sledujte naši[tutorial](./resize-images-proportionally/)a rozšiřte své možnosti zpracování obrazu v .NET. Efektivita a přesnost zaručena.
+ Prozkoumejte svět proporcionální změny velikosti obrazu s Aspose.PSD. Stáhněte si knihovnu, sledujte naši[konzultace](./resize-images-proportionally/)a rozšiřte své možnosti zpracování obrazu v .NET. Efektivita a přesnost zaručena.
 
-## Otáčení obrázku
+## Otočení obrázku
 
- Rotace je základní dovedností manipulace s obrázky. Naučte se bez námahy otáčet obrázky v .NET s Aspose.PSD. Náš krok za krokem[tutorial](./rotate-image/) vás provede procesem a zpřístupní jej pro všechny úrovně dovedností.
+ Rotace je základní dovedností manipulace s obrázky. Naučte se otáčet obrázky bez námahy v .NET s Aspose.PSD. Náš krok za krokem[konzultace](./rotate-image/) vás provede procesem a zpřístupní jej pro všechny úrovně dovedností.
 
 ## Otočení obrázku pod určitým úhlem
 
@@ -49,7 +49,7 @@ Objevte sílu Aspose.PSD pro .NET snadným otáčením obrázků ve specifickýc
 
 ## Přidání přechodových efektů do obrázků
 
- Transformujte své obrázky pomocí podmanivých přechodových efektů pomocí Aspose.PSD for .NET. Náš krok za krokem[tutorial](./adding-gradient-effects/) vás provede celým procesem a pomůže vám dosáhnout kreativních vizuálních transformací bez námahy.
+ Transformujte své obrázky pomocí podmanivých přechodových efektů pomocí Aspose.PSD for .NET. Náš krok za krokem[konzultace](./adding-gradient-effects/) vás provede celým procesem a pomůže vám dosáhnout kreativních vizuálních transformací bez námahy.
 
 ## Přidání vzorových efektů do obrázků
 
@@ -61,7 +61,7 @@ Vylepšete své obrázky pomocí podmanivých vzorových efektů pomocí Aspose.
 
 ## Podpora různých typů podpisů
 
- Prozkoumejte Aspose.PSD for .NET a bez námahy podpořte různé typy podpisů v souborech PSD. Tento[tutorial](./supporting-different-signature-types/) poskytuje přehled o optimalizaci vašeho pracovního postupu a přizpůsobení se různým požadavkům na podpis.
+ Prozkoumejte Aspose.PSD for .NET a bez námahy podpořte různé typy podpisů v souborech PSD. Tento[konzultace](./supporting-different-signature-types/) poskytuje přehled o optimalizaci vašeho pracovního postupu a přizpůsobení se různým požadavkům na podpis.
 
 ## Podpora podpisů ObAr a UnFl
 
@@ -69,7 +69,7 @@ Vylepšete své obrázky pomocí podmanivých vzorových efektů pomocí Aspose.
 
 ## Podpora efektu vnější záře
 
-Odemkněte potenciál efektu vnější záře v Aspose.PSD pro .NET. Zvedněte tím své návrhy obrázků[tutorial](./supporting-outer-glow-effect/), což dodá vaší grafice nádech lesku.
+Odemkněte potenciál efektu vnější záře v Aspose.PSD pro .NET. Zvedněte tím své návrhy obrázků[konzultace](./supporting-outer-glow-effect/), což dodá vaší grafice nádech lesku.
 
 ## Efekt překrytí gradientu vykreslování
 
@@ -77,7 +77,7 @@ Odemkněte potenciál efektu vnější záře v Aspose.PSD pro .NET. Zvedněte t
 
 ## Podpora efektu překrytí přechodem
 
- Vylepšete svou grafiku v .NET pomocí Aspose.PSD. Tento[tutorial](./supporting-gradient-overlay-effect/) vás provede podporou efektů překrytí přechodem a nabídne kreativní výhodu vašim návrhům. 
+ Vylepšete svou grafiku v .NET pomocí Aspose.PSD. Tento[konzultace](./supporting-gradient-overlay-effect/) vás provede podporou efektů překrytí přechodem a nabídne kreativní výhodu vašim návrhům. 
 
 ## Výukové programy pro manipulaci s obrázky
 ### [Kombinování obrázků v Aspose.PSD pro .NET](./combine-images/)
@@ -91,7 +91,7 @@ Naučte se dynamicky rozbalovat a ořezávat obrázky pomocí Aspose.PSD pro .NE
 ### [Proporcionální změna velikosti obrázků v Aspose.PSD pro .NET](./resize-images-proportionally/)
 Prozkoumejte bezproblémovou změnu velikosti obrázku s Aspose.PSD pro .NET. Stáhněte si knihovnu, postupujte podle našeho návodu a vylepšete své možnosti zpracování obrazu.
 ### [Otočení obrázku v Aspose.PSD pro .NET](./rotate-image/)
-Naučte se bez námahy otáčet obrázky v .NET s Aspose.PSD. Postupujte podle našeho podrobného návodu.
+Naučte se otáčet obrázky bez námahy v .NET s Aspose.PSD. Postupujte podle našeho podrobného návodu.
 ### [Otočení obrázku pod určitým úhlem v Aspose.PSD pro .NET](./rotate-image-specific-angle/)
 Prozkoumejte sílu Aspose.PSD pro .NET. Otočte snímky bez námahy ve specifických úhlech. Stáhněte si knihovnu a začněte bez problémů manipulovat s obrázky.
 ### [Jednoduchá změna velikosti obrázků v Aspose.PSD pro .NET](./simple-resizing/)
@@ -99,7 +99,7 @@ Hlavní změna velikosti obrázku s Aspose.PSD pro .NET. Efektivní, bezproblém
 ### [Ověření průhlednosti obrázku v Aspose.PSD pro .NET](./verifying-image-transparency/)
 Prozkoumejte podrobného průvodce ověřením průhlednosti obrázku v Aspose.PSD pro .NET.
 ### [Přidání přechodových efektů do obrázků v Aspose.PSD pro .NET](./adding-gradient-effects/)
-Vylepšete své obrázky podmanivými efekty přechodu pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného návodu pro kreativní vizuální transformace.
+Vylepšete své obrázky pomocí podmanivých přechodových efektů pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného návodu pro kreativní vizuální transformace.
 ### [Přidání vzorových efektů do obrázků v Aspose.PSD pro .NET](./adding-pattern-effects/)
 Vylepšete své obrázky pomocí podmanivých vzorových efektů pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného průvodce a plynule přidejte vlastní vzory.
 ### [Přidání podpisu do obrázků pomocí Aspose.PSD pro .NET](./adding-signature-to-images/)

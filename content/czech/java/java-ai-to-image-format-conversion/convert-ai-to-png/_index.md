@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 ---
-## Úvod
+## Zavedení
 Chcete převést soubory Adobe Illustrator (.AI) na obrázky PNG pomocí Javy? Jste na správném místě! V tomto tutoriálu vás provedeme procesem krok za krokem pomocí výkonné knihovny Aspose.PSD for Java. Tato příručka vám pomůže pochopit, jak plynule převést soubory AI na vysoce kvalitní soubory PNG pomocí několika řádků kódu. Pojďme se rovnou ponořit!
 ## Předpoklady
 Než začneme, je třeba mít připraveno několik věcí:
@@ -19,7 +19,6 @@ Než začneme, je třeba mít připraveno několik věcí:
 Nejprve budete muset importovat potřebné balíčky Aspose.PSD do vašeho projektu Java. Pojďme nastavit vaše prostředí.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
@@ -44,7 +43,7 @@ Nakonec uložte načtený soubor AI jako obrázek PNG pomocí zadaných možnost
 String outFileName = dataDir + "34992OStroke.png";
 image.save(outFileName, options);
 ```
-A to je vše! Váš soubor AI byl úspěšně převeden na PNG.
+A je to! Váš soubor AI byl úspěšně převeden na PNG.
 ## Závěr
 Převod souborů AI do PNG v Javě je s Aspose.PSD hračkou. Podle kroků uvedených v této příručce můžete tuto funkci snadno integrovat do svých aplikací Java. Ať už pracujete na grafické aplikaci nebo potřebujete dávkově převádět soubory, Aspose.PSD poskytuje nástroje, které potřebujete k efektivnímu provedení práce.
 ## FAQ

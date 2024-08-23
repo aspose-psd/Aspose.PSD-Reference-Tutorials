@@ -17,7 +17,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 -  Aspose.PSD för .NET: Se till att du har Aspose.PSD-biblioteket installerat. Du kan ladda ner den från[släpp sida](https://releases.aspose.com/psd/net/).
 
--  Dokumentkatalog: Skapa en katalog för dina dokument i ditt projekt. Byta ut`"Your Document Directory"` i kodavsnitten med den faktiska sökvägen.
+-  Dokumentkatalog: Skapa en katalog för dina dokument i ditt projekt. Ersätta`"Your Document Directory"` i kodavsnitten med den faktiska sökvägen.
 
 ## Importera namnområden
 
@@ -109,7 +109,7 @@ S1: Ja, Aspose.PSD för .NET är tillgängligt för kommersiellt bruk. Kolla in[
 
 ### F3: Var kan jag hitta detaljerad dokumentation för Aspose.PSD för .NET?
 
- S3: Den omfattande dokumentationen finns tillgänglig.[här](https://reference.aspose.com/psd/net/).
+ S3: Den omfattande dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/net/).
 
 ### F4: Hur kan jag få support för Aspose.PSD för .NET?
 
@@ -117,4 +117,4 @@ S1: Ja, Aspose.PSD för .NET är tillgängligt för kommersiellt bruk. Kolla in[
 
 ### F5: Behöver jag en tillfällig licens för Aspose.PSD för .NET?
 
- S5: Om du behöver en tillfällig licens kan du få den.[här](https://purchase.aspose.com/temporary-license/).
+ S5: Om du behöver en tillfällig licens kan du få den[här](https://purchase.aspose.com/temporary-license/).

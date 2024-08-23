@@ -74,7 +74,7 @@ I den här handledningen täckte vi de väsentliga stegen för att ändra storle
 
 ### F1: Är Aspose.PSD kompatibel med alla bildformat?
 
- S1: Aspose.PSD stöder olika bildformat, inklusive PSD, PNG, JPEG och mer. Kolla[dokumentation](https://reference.aspose.com/psd/java/) för en omfattande lista.
+ S1: Aspose.PSD stöder olika bildformat, inklusive PSD, PNG, JPEG och mer. Kontrollera[dokumentation](https://reference.aspose.com/psd/java/) för en omfattande lista.
 
 ### F2: Kan jag använda Aspose.PSD för kommersiella projekt?
 
@@ -82,7 +82,7 @@ I den här handledningen täckte vi de väsentliga stegen för att ändra storle
 
 ### F3: Finns tillfälliga licenser tillgängliga för teständamål?
 
- A3: Ja, du kan få en tillfällig licens.[här](https://purchase.aspose.com/temporary-license/) för utvärdering.
+ A3: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för utvärdering.
 
 ### F4: Var kan jag hitta support för Aspose.PSD?
 

@@ -101,4 +101,4 @@ A4: Com certeza! Os modos de mesclagem podem ser combinados com outros recursos 
 
 ### Q5: Existe um fórum da comunidade para suporte do Aspose.PSD?
 
- R5: Sim, você pode encontrar suporte e se conectar com outros usuários no[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+ R5: Sim, você pode encontrar suporte e conectar-se com outros usuários no[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).

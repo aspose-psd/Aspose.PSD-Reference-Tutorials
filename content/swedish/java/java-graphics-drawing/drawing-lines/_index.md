@@ -8,7 +8,7 @@ weight: 16
 url: /sv/java/java-graphics-drawing/drawing-lines/
 ---
 ## Introduktion
-Inom Java-utvecklingsområdet är det en kraftfull förmåga att manipulera och skapa PSD-filer (Photoshop Document) programmatiskt. Aspose.PSD för Java ger utvecklare möjlighet att utföra olika uppgifter som att rita linjer, former och bilder direkt i PSD-filer. Denna handledning guidar dig genom processen att rita linjer med Aspose.PSD för Java, och ger tydliga steg och exempel som hjälper dig att komma igång snabbt.
+Inom Java-utvecklingsområdet är det en kraftfull förmåga att manipulera och skapa PSD-filer (Photoshop Document) programmatiskt. Aspose.PSD för Java ger utvecklare möjlighet att utföra olika uppgifter som att rita linjer, former och bilder direkt i PSD-filer. Denna handledning guidar dig genom processen att rita linjer med Aspose.PSD för Java, och ger dig tydliga steg och exempel som hjälper dig att snabbt komma igång.
 ## Förutsättningar
 Innan du dyker in i den här handledningen, se till att du har följande förutsättningar:
 - Grundläggande kunskaper i programmeringsspråket Java.
@@ -24,13 +24,12 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.Point;
 import com.aspose.psd.brushes.SolidBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
 ## Steg 1: Konfigurera ditt projekt
 Börja med att skapa ett nytt Java-projekt i din IDE och lägga till Aspose.PSD för Java till dina beroenden. Du kan ladda ner biblioteket från[Aspose.PSD för Java nedladdning](https://releases.aspose.com/psd/java/).
-## Steg 2: Initiera PSD-bilden
+## Steg 2: Initiera PSD-bild
 Initiera en PSD-bild med en specificerad bredd och höjd:
 ```java
 String dataDir = "Your Document Directory";

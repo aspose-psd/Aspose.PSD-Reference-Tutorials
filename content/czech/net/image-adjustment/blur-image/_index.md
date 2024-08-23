@@ -7,15 +7,15 @@ type: docs
 weight: 13
 url: /cs/net/image-adjustment/blur-image/
 ---
-## Úvod
+## Zavedení
 
-V oblasti vývoje .NET se Aspose.PSD ukazuje jako mocný spojenec pro manipulaci s obrázky. Tento tutoriál se zaměřuje na konkrétní úkol: rozmazání obrázku pomocí Aspose.PSD pro .NET. Pokud toužíte vylepšit své dovednosti v oblasti zpracování obrázků nebo jednoduše hledáte efektivní způsob, jak obrázky programově rozmazat, jste na správném místě.
+V oblasti vývoje .NET se Aspose.PSD ukazuje jako mocný spojenec pro manipulaci s obrázky. Tento tutoriál se zaměřuje na konkrétní úkol: rozmazání obrázku pomocí Aspose.PSD pro .NET. Pokud toužíte vylepšit své schopnosti zpracování obrázků nebo jednoduše hledáte efektivní způsob, jak obrázky programově rozmazat, jste na správném místě.
 
 ## Předpoklady
 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.PSD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[tady](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PSD. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/net/).
 
 - Vývojové prostředí: Nastavte vývojové prostředí .NET a mějte základní znalosti jazyka C#.
 
@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Krok 4: Použijte filtr Gaussian Blur Filter.
+## Krok 4: Použijte filtr Gaussian Blur Filter
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Tady,`GaussianBlurFilterOptions` třída se používá se zadaným poloměrem 15 pro horizontální i vertikální rozmazání.
+ Tady,`GaussianBlurFilterOptions` třída se používá se specifikovaným poloměrem 15 pro horizontální i vertikální rozmazání.
 
 ## Krok 5: Uložte rozmazaný obrázek
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste rozmazali obrázek pomocí Aspose.PSD pro .NET. Tento tutoriál poskytuje letmý pohled do možností Aspose.PSD a otevírá dveře mnoha možnostem manipulace s obrázky ve vašich aplikacích .NET.
+Gratuluji! Úspěšně jste rozmazali obrázek pomocí Aspose.PSD pro .NET. Tento tutoriál poskytuje letmý pohled do možností Aspose.PSD a otevírá dveře k nesčetným možnostem manipulace s obrázky ve vašich aplikacích .NET.
 
 ## FAQ
 
@@ -84,11 +84,11 @@ Odpověď 1: Ano, Aspose.PSD vám umožňuje aplikovat filtry s různými parame
 
 ### Q2: Je Aspose.PSD kompatibilní se všemi formáty obrázků?
 
-Odpověď 2: Aspose.PSD sice podporuje širokou škálu obrazových formátů, ale je vhodné si prohlédnout dokumentaci pro úplný seznam a všechny aspekty specifické pro daný formát.
+A2: Zatímco Aspose.PSD podporuje širokou škálu obrazových formátů, je vhodné zkontrolovat dokumentaci pro úplný seznam a všechny aspekty specifické pro formát.
 
 ### Q3: Jak mohu získat dočasnou licenci pro Aspose.PSD?
 
- A3: Můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
+ A3: Můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
 
 ### Q4: Existují v Aspose.PSD další funkce pro manipulaci s obrázky?
 

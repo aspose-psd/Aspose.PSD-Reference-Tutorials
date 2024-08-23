@@ -1,27 +1,27 @@
 ---
-title: Proportionale Größenänderung von Bildern in Aspose.PSD für .NET
-linktitle: Proportionale Größenänderung von Bildern
-second_title: Aspose.PSD .NET-API
-description: Entdecken Sie die nahtlose Größenänderung von Bildern mit Aspose.PSD für .NET. Laden Sie die Bibliothek herunter, folgen Sie unserem Tutorial und erweitern Sie Ihre Bildverarbeitungsfunktionen.
+title: Proportionale Größenanpassung von Bildern in Aspose.PSD für .NET
+linktitle: Proportionale Größenanpassung von Bildern
+second_title: Aspose.PSD .NET API
+description: Entdecken Sie die nahtlose Größenanpassung von Bildern mit Aspose.PSD für .NET. Laden Sie die Bibliothek herunter, folgen Sie unserem Tutorial und verbessern Sie Ihre Bildverarbeitungsfunktionen.
 type: docs
 weight: 14
 url: /de/net/image-manipulation/resize-images-proportionally/
 ---
-Im Bereich der Bildbearbeitung sticht Aspose.PSD für .NET als leistungsstarkes Toolkit hervor, das Entwicklern die Möglichkeit bietet, die Größe von Bildern problemlos proportional zu ändern. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Größenänderung von Bildern mit Aspose.PSD für .NET und stellen so sicher, dass Ihre Bilder ihre Proportionen einwandfrei beibehalten.
+Im Bereich der Bildbearbeitung sticht Aspose.PSD für .NET als leistungsstarkes Toolkit hervor, das Entwicklern die Möglichkeit bietet, Bilder problemlos proportional zu skalieren. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Größenänderung von Bildern mit Aspose.PSD für .NET und stellen sicher, dass Ihre Bilder ihre Proportionen einwandfrei beibehalten.
 
 ## Einführung
 
-Die proportionale Größenänderung von Bildern ist in vielen Anwendungen eine häufige Aufgabe, und Aspose.PSD für .NET vereinfacht diesen Prozess für Entwickler. Unabhängig davon, ob Sie an einer Webanwendung, einer Desktop-Software oder einer mobilen App arbeiten, ist es für die Aufrechterhaltung der visuellen Attraktivität und Konsistenz von entscheidender Bedeutung, zu wissen, wie man die Größe von Bildern ändert und gleichzeitig ihr Seitenverhältnis beibehält.
+Die proportionale Größenanpassung von Bildern ist in vielen Anwendungen eine gängige Aufgabe, und Aspose.PSD für .NET vereinfacht diesen Vorgang für Entwickler. Egal, ob Sie an einer Webanwendung, Desktop-Software oder mobilen App arbeiten: Um die visuelle Attraktivität und Konsistenz zu wahren, ist es entscheidend, zu wissen, wie Sie die Größe von Bildern unter Beibehaltung ihres Seitenverhältnisses anpassen.
 
 ## Voraussetzungen
 
-Bevor Sie mit Aspose.PSD für .NET in die Magie der Größenänderung eintauchen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie sich in die Größenänderungsmagie mit Aspose.PSD für .NET stürzen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.PSD für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.PSD für .NET-Bibliothek installiert haben. Sie können es hier herunterladen[Aspose.PSD für .NET-Versionen](https://releases.aspose.com/psd/net/) Seite.
+1.  Aspose.PSD für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.PSD für .NET-Bibliothek installiert haben. Sie können sie von der[Aspose.PSD für .NET-Versionen](https://releases.aspose.com/psd/net/) Seite.
 
-2. Dokumentenverzeichnis: Erstellen Sie ein Verzeichnis zum Speichern Ihrer Dokumente und ersetzen Sie „Ihr Dokumentenverzeichnis“ im bereitgestellten Code durch den tatsächlichen Pfad zu diesem Verzeichnis.
+2. Dokumentverzeichnis: Erstellen Sie ein Verzeichnis zum Speichern Ihrer Dokumente und ersetzen Sie „Ihr Dokumentverzeichnis“ im bereitgestellten Code durch den tatsächlichen Pfad zu diesem Verzeichnis.
 
-Nachdem Sie nun die Voraussetzungen geschaffen haben, beginnen wir mit der Schritt-für-Schritt-Anleitung.
+Nachdem Sie nun die Voraussetzungen geschaffen haben, können wir mit der Schritt-für-Schritt-Anleitung beginnen.
 
 ## Namespaces importieren
 
@@ -34,7 +34,7 @@ Importieren Sie die erforderlichen Namespaces, um auf die erforderlichen Klassen
 ## Schritt 1: Laden Sie das Bild
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
 
 string sourceFile = dataDir + @"sample.psd";
@@ -46,16 +46,16 @@ using (Image image = Image.Load(sourceFile))
 	{
 		image.CacheData();
 	}
-	// Die restlichen Schritte gehen hierher
+	// Die restlichen Schritte finden Sie hier
 }
 ```
 
- Laden Sie das Quellbild mit`Image.Load` Methode.
+ Laden Sie das Quellbild mit dem`Image.Load` Verfahren.
 
-## Schritt 2: Breite und Höhe angeben
+## Schritt 2: Breite und Höhe festlegen
 
 ```csharp
-// Breite und Höhe angeben
+// Breite und Höhe festlegen
 int newWidth = image.Width / 2;
 image.ResizeWidthProportionally(newWidth);
 
@@ -63,9 +63,9 @@ int newHeight = image.Height / 2;
 image.ResizeHeightProportionally(newHeight);
 ```
 
-Bestimmen Sie die neue Breite und Höhe für das in der Größe geänderte Bild. In diesem Beispiel werden Breite und Höhe halbiert, Sie können diese Werte jedoch je nach Ihren Anforderungen anpassen.
+Bestimmen Sie die neue Breite und Höhe für das skalierte Bild. In diesem Beispiel werden Breite und Höhe halbiert, Sie können diese Werte jedoch Ihren Anforderungen entsprechend anpassen.
 
-## Schritt 3: Speichern Sie das in der Größe geänderte Bild
+## Schritt 3: Speichern Sie das skalierte Bild
 
 ```csharp
 string destName = dataDir + @"SimpleResizeImageProportionally_out.png";
@@ -73,29 +73,29 @@ string destName = dataDir + @"SimpleResizeImageProportionally_out.png";
 image.Save(destName, new PngOptions());
 ```
 
- Speichern Sie das verkleinerte Bild mit`Save` Methode mit angegebenen Optionen. In diesem Fall speichern wir es als PNG-Datei.
+ Speichern Sie das skalierte Bild mit dem`Save` Methode mit angegebenen Optionen. In diesem Fall speichern wir es als PNG-Datei.
 
 ## Abschluss
 
-Die proportionale Größenänderung von Bildern in Aspose.PSD für .NET ist ein unkomplizierter Prozess, der Ihren Bildverarbeitungsworkflow aufwertet. Dieser Leitfaden vermittelt Ihnen das Wissen, diese Funktionalität nahtlos in Ihre Anwendungen zu integrieren.
+Die proportionale Größenanpassung von Bildern in Aspose.PSD für .NET ist ein unkomplizierter Vorgang, der Ihren Bildverarbeitungs-Workflow aufwertet. Dieser Leitfaden hat Ihnen das Wissen vermittelt, diese Funktionalität nahtlos in Ihre Anwendungen zu integrieren.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### F1: Kann ich die Größe von Bildern auf bestimmte Abmessungen ändern?
 
-A1: Ja, Sie können die neue Breite und Höhe entsprechend Ihren Anforderungen im Code anpassen.
+A1: Ja, Sie können die neue Breite und Höhe im Code Ihren Anforderungen entsprechend anpassen.
 
-### F2: Ist Aspose.PSD für .NET für die Größenänderung von Batch-Bildern geeignet?
+### F2: Ist Aspose.PSD für .NET für die Stapelgrößenänderung von Bildern geeignet?
 
-A2: Auf jeden Fall! Sie können diese Schritte in eine Schleife zur Stapelverarbeitung mehrerer Bilder integrieren.
+A2: Absolut! Sie können diese Schritte in eine Schleife zur Stapelverarbeitung mehrerer Bilder integrieren.
 
-### F3: Gibt es in Aspose.PSD für .NET weitere Bildbearbeitungsfunktionen?
+### F3: Gibt es in Aspose.PSD für .NET andere Bildbearbeitungsfunktionen?
 
-A3: Ja, Aspose.PSD für .NET bietet eine Vielzahl von Funktionen, einschließlich Zuschneiden, Drehen und Anwenden von Filtern auf Bilder.
+A3: Ja, Aspose.PSD für .NET bietet eine breite Palette an Funktionen, darunter Zuschneiden, Drehen und Anwenden von Filtern auf Bilder.
 
 ### F4: Gibt es eine kostenlose Testversion für Aspose.PSD für .NET?
 
- A4: Ja, Sie können die Funktionen von Aspose.PSD für .NET mit einer kostenlosen Testversion erkunden. Besuchen[Hier](https://releases.aspose.com/) um loszulegen.
+ A4: Ja, Sie können die Funktionen von Aspose.PSD für .NET mit einer kostenlosen Testversion erkunden. Besuchen Sie[Hier](https://releases.aspose.com/) um loszulegen.
 
 ### F5: Wo finde ich Unterstützung für Aspose.PSD für .NET?
 

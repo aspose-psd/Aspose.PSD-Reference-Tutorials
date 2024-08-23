@@ -17,7 +17,7 @@ Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten v
 
 - Java-ontwikkelomgeving: Zorg ervoor dat u een werkende Java-ontwikkelomgeving op uw computer hebt.
 
--  Aspose.PSD voor Java: Download en installeer de Aspose.PSD-bibliotheek van[deze link](https://releases.aspose.com/psd/java/).
+-  Aspose.PSD voor Java: Download en installeer de Aspose.PSD-bibliotheek van[deze koppeling](https://releases.aspose.com/psd/java/).
 
 ## Pakketten importeren
 

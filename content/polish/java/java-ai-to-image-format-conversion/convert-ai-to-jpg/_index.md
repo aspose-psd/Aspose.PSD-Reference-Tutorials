@@ -21,7 +21,6 @@ Po pierwsze, musimy zaimportować niezbędne pakiety do obsługi naszego zadania
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
@@ -33,7 +32,7 @@ Zanim zaczniemy kodować, upewnij się, że środowisko programistyczne jest pop
 -  Pobierz Aspose.PSD: Pobierz bibliotekę z[Strona z wydaniami Aspose](https://releases.aspose.com/psd/java/).
 - Dodaj Aspose.PSD do swojego projektu: Dołącz pliki JAR do ścieżki kompilacji projektu.
 ## Krok 2: Załaduj plik AI
- Pierwszym krokiem w naszym kodzie jest załadowanie pliku AI za pomocą`AiImage` klasa. Ta klasa pozwala nam bezproblemowo pracować z plikami Adobe Illustrator.
+Pierwszym krokiem w naszym kodzie jest załadowanie pliku AI za pomocą`AiImage` klasa. Ta klasa pozwala nam bezproblemowo pracować z plikami Adobe Illustrator.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
@@ -78,7 +77,7 @@ Konwersja plików AI do JPG w Javie jest prosta dzięki bibliotece Aspose.PSD. W
 Aspose.PSD for Java to interfejs API języka Java do pracy z plikami programów Photoshop i Illustrator, oferujący szeroki zakres funkcji do manipulowania obrazami.
 ### Czy mogę ustawić różne poziomy jakości wyjściowego pliku JPG?
  Tak, możesz dostosować ustawienie jakości w`JpegOptions` do kontrolowania jakości i rozmiaru wyjściowego pliku JPG.
-### Czy korzystanie z Aspose.PSD dla Java jest bezpłatne?
+### Czy korzystanie z Aspose.PSD dla Java jest darmowe?
 Aspose.PSD oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Czy muszę mieć zainstalowany program Adobe Illustrator, aby korzystać z tej biblioteki?
 Nie, nie potrzebujesz zainstalowanego programu Adobe Illustrator. Aspose.PSD obsługuje formaty plików niezależnie.

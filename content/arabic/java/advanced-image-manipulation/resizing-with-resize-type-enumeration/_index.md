@@ -19,7 +19,7 @@ url: /ar/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 
 2. مكتبة Aspose.PSD: قم بتنزيل وتثبيت مكتبة Aspose.PSD من ملف[موقع إلكتروني](https://releases.aspose.com/psd/java/).
 
-3.  نموذج ملف PSD: احصل على نموذج ملف PSD جاهز للتجربة. يمكنك استخدام ال[Sample.psd](ملف Document Directory/sample.psd) لهذا البرنامج التعليمي.
+3.  نموذج ملف PSD: احصل على نموذج ملف PSD جاهز للتجربة. يمكنك استخدام[Sample.psd](ملف Document Directory/sample.psd) لهذا البرنامج التعليمي.
 
 ## حزم الاستيراد
 
@@ -61,7 +61,7 @@ String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-وهناك لديك! لقد قمت بتغيير حجم الصورة بنجاح باستخدام Resize Type Enumeration في Aspose.PSD لـ Java.
+وهنا لديك! لقد قمت بتغيير حجم الصورة بنجاح باستخدام Resize Type Enumeration في Aspose.PSD لـ Java.
 
 في الختام، يوفر Aspose.PSD for Java منصة قوية لمعالجة الصور، ويضيف Resize Type Enumeration طبقة من المرونة إلى هذه العملية. سواء كنت تعمل على مشروع صغير أو تطبيق واسع النطاق، فإن إتقان هذه الخطوات سيمكنك من التعامل مع تغيير حجم الصورة بسلاسة.
 
@@ -81,7 +81,7 @@ image.save(destName, new JpegOptions());
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
- ج4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية.[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 

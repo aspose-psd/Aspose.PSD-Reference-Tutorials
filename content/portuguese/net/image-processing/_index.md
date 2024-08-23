@@ -13,10 +13,10 @@ url: /pt/net/image-processing/
 Aspose.PSD para .NET capacita os desenvolvedores a elevar o processamento de imagens a novos patamares. Nesta série de tutoriais, nos aprofundaremos em várias técnicas e filtros para melhorar a qualidade da imagem de maneira perfeita. Esteja você buscando redução de ruído, apelo visual ideal ou binarização eficaz, o Aspose.PSD para .NET tem o que você precisa.
 
 ## Aplicando Filtros Gaussianos e Wiener para Melhoramento de Imagem
- Desvende os segredos do aprimoramento de imagens com filtros Gaussianos e Wiener. Na nossa[tutorial](./apply-gaussian-wiener-filters/), orientamos você passo a passo durante o processo. Descubra como o Aspose.PSD for .NET pode reduzir o ruído sem esforço, garantindo que suas imagens atinjam um nível de clareza que cative os espectadores.
+ Desvende os segredos do aprimoramento de imagens com filtros Gaussianos e Wiener. Em nosso[tutorial](./apply-gaussian-wiener-filters/), orientamos você passo a passo durante o processo. Descubra como o Aspose.PSD for .NET pode reduzir o ruído sem esforço, garantindo que suas imagens atinjam um nível de clareza que cative os espectadores.
 
 ## Aprimorando imagens coloridas com filtros de mediana e Wiener
- Na nossa[tutorial](./apply-median-wiener-filters-color-images/)exploramos o mundo do processamento de imagens coloridas. Aspose.PSD para .NET permite aprimorar e eliminar ruído de imagens coloridas com filtros Median e Wiener. Siga nosso guia passo a passo para realçar os detalhes vibrantes em seus visuais.
+ Em nosso[tutorial](./apply-median-wiener-filters-color-images/)exploramos o mundo do processamento de imagens coloridas. Aspose.PSD para .NET permite aprimorar e eliminar ruído de imagens coloridas com filtros Median e Wiener. Siga nosso guia passo a passo para realçar os detalhes vibrantes em seus visuais.
 
 ## Dominando as técnicas de binarização
  Para quem deseja converter imagens coloridas em binárias, nosso[tutorial](./binarization-techniques/) abrange técnicas avançadas de binarização. O método BinarizationWithFixedThreshold em Aspose.PSD para .NET torna o processo simples e eficaz, garantindo que suas imagens se comuniquem com clareza.

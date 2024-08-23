@@ -68,7 +68,7 @@ using (Image image = new PsdImage(100, 100))
 ## Paso 5: dibuja una forma de elipse continua
 
 ```csharp
-    //Dibuje una forma de elipse continua especificando que el objeto Pluma tenga un pincel sólido de color azul y un Rectángulo circundante.
+    //Dibuje una forma de elipse continua especificando que el objeto Pluma tenga un pincel sólido de color azul y un Rectángulo circundante
     graphic.DrawEllipse(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 
     // Exportar imagen a formato de archivo bmp.
@@ -88,11 +88,11 @@ using (Image image = new PsdImage(100, 100))
 
 ### P2: ¿Cómo descargo Aspose.PSD para .NET?
 
- R2: Puede descargarlo desde la página de lanzamiento.[aquí](https://releases.aspose.com/psd/net/).
+ A2: Puedes descargarlo desde la página de lanzamiento.[aquí](https://releases.aspose.com/psd/net/).
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
+ R3: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 
@@ -100,4 +100,4 @@ using (Image image = new PsdImage(100, 100))
 
 ### P5: ¿Necesito una licencia temporal para realizar pruebas?
 
- R5: Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

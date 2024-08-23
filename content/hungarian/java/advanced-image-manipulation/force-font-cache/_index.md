@@ -9,7 +9,7 @@ url: /hu/java/advanced-image-manipulation/force-font-cache/
 ---
 ## Bevezetés
 
-Optimalizálni szeretné a betűtípus-gyorsítótárat az Aspose.PSD for Java segítségével? A betűtípus-gyorsítótár kulcsfontosságú szerepet játszik a Java-alkalmazások teljesítményének javításában, különösen összetett képfeldolgozási feladatok esetén. Ebben az átfogó útmutatóban végigvezetjük a betűtípus-gyorsítótár kényszerítésének folyamatán az Aspose.PSD for Java használatával. Akár tapasztalt fejlesztő, akár csak most kezdi a Java képfeldolgozást, ez az oktatóanyag úgy készült, hogy segítsen zökkenőmentesen integrálni a betűtípus-gyorsítótárat projektjeibe.
+Optimalizálni szeretné a betűtípus-gyorsítótárat az Aspose.PSD for Java segítségével? A betűtípus-gyorsítótár kulcsfontosságú szerepet játszik a Java-alkalmazások teljesítményének javításában, különösen összetett képfeldolgozási feladatok esetén. Ebben az átfogó útmutatóban végigvezetjük a betűtípus-gyorsítótár kényszerítésének folyamatán az Aspose.PSD for Java használatával. Akár tapasztalt fejlesztő, akár csak most kezdi a Java képfeldolgozást, ez az oktatóanyag célja, hogy segítsen zökkenőmentesen integrálni a font-gyorsítótárat projektjeibe.
 
 ## Előfeltételek
 
@@ -66,7 +66,7 @@ A betűkészlet-telepítési késleltetés után töltse be újra a PSD-képet. 
 
 ## Következtetés
 
-Gratulálunk! Sikeresen kényszerítette a betűtípus-gyorsítótárat az Aspose.PSD for Java használatával. A betűtípus-gyorsítótár a képfeldolgozás optimalizálásának alapvető eleme, az Aspose.PSD pedig zökkenőmentessé teszi a Java-fejlesztők számára.
+Gratulálok! Sikeresen kényszerítette a betűtípus-gyorsítótárat az Aspose.PSD for Java használatával. A betűtípus-gyorsítótár a képfeldolgozás optimalizálásának alapvető eleme, az Aspose.PSD pedig zökkenőmentessé teszi a Java-fejlesztők számára.
 
 ## GYIK
 
@@ -76,7 +76,7 @@ Gratulálunk! Sikeresen kényszerítette a betűtípus-gyorsítótárat az Aspos
 
 ### 2. kérdés: Használhatom az Aspose.PSD-t kereskedelmi célokra?
 
- 2. válasz: Igen, az Aspose.PSD rugalmas licencelési lehetőségeket kínál, beleértve a kereskedelmi felhasználást is. Meglátogatni a[vásárlási oldal](https://purchase.aspose.com/buy) további részletekért.
+ 2. válasz: Igen, az Aspose.PSD rugalmas licencelési lehetőségeket kínál, beleértve a kereskedelmi felhasználást is. Látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy) további részletekért.
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 

@@ -81,4 +81,4 @@ psdImage.Save(outputFile);
 
 ### В5: Нужна поддержка или есть вопросы?
 
- A5: Присоединяйтесь к[Форум сообщества Aspose.PSD](https://forum.aspose.com/c/psd/34) для оказания помощи.
+ A5: Присоединяйтесь к[Форум сообщества Aspose.PSD](https://forum.aspose.com/c/psd/34) за помощь.

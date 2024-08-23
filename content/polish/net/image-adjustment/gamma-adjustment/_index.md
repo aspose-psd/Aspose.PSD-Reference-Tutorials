@@ -88,16 +88,16 @@ Gratulacje! Pomyślnie zaimplementowałeś regulację gamma przy użyciu Aspose.
 
 ### P2: Jak pobrać Aspose.PSD dla .NET?
 
- Odpowiedź 2: Możesz pobrać bibliotekę.[Tutaj](https://releases.aspose.com/psd/net/).
+ Odpowiedź 2: Możesz pobrać bibliotekę[Tutaj](https://releases.aspose.com/psd/net/).
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- A3: Tak, możesz uzyskać bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).
+ A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę uzyskać wsparcie dla Aspose.PSD?
 
- Odpowiedź 4: Możesz odwiedzić forum pomocy technicznej.[Tutaj](https://forum.aspose.com/c/psd/34).
+ Odpowiedź 4: Możesz odwiedzić forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/psd/34).
 
 ### P5: Czy potrzebuję licencji tymczasowej?
 
- Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

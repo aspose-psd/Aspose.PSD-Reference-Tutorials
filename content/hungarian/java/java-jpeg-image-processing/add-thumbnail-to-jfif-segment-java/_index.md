@@ -19,7 +19,6 @@ Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy beáll
 A kódolás megkezdése előtt importálja a szükséges csomagokat az Aspose.PSD funkciók használatához:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

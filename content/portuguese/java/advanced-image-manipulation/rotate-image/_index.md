@@ -19,7 +19,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 
 - Ambiente de desenvolvimento Java: certifique-se de ter um ambiente de desenvolvimento Java configurado em sua máquina.
 
--  Arquivo PSD de amostra: prepare um arquivo PSD de amostra que você deseja girar. Ajusta a`sourceFile` variável no código de exemplo com o caminho para seu arquivo PSD.
+-  Arquivo PSD de amostra: prepare um arquivo PSD de amostra que você deseja girar. Ajuste o`sourceFile` variável no código de exemplo com o caminho para seu arquivo PSD.
 
 ## Importar pacotes
 
@@ -79,8 +79,8 @@ A2: Com certeza! Aspose.PSD oferece flexibilidade para aplicar rotações person
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode explorar Aspose.PSD com um[teste grátis](https://releases.aspose.com/).
+ A4: Sim, você pode explorar Aspose.PSD com um[teste gratuito](https://releases.aspose.com/).
 
 ### P5: Como obtenho uma licença temporária?
 
- R5: Se precisar de uma licença temporária, você pode obter uma.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Se precisar de uma licença temporária, você pode obter uma[aqui](https://purchase.aspose.com/temporary-license/).

@@ -17,7 +17,7 @@ Neste tutorial, percorreremos o processo de implementação do ajuste de brilho 
 
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
--  Biblioteca Aspose.PSD for .NET: Baixe e instale a biblioteca Aspose.PSD for .NET do[Link para Download](https://releases.aspose.com/psd/net/).
+-  Biblioteca Aspose.PSD for .NET: Baixe e instale a biblioteca Aspose.PSD for .NET do[link para baixar](https://releases.aspose.com/psd/net/).
 
 -  Diretório de documentos: configure um diretório para armazenar seus arquivos PSD e atualizar o`dataDir` variável no trecho de código fornecido com o caminho para o diretório do documento.
 
@@ -80,7 +80,7 @@ Aspose.PSD for .NET simplifica o processo de implementação de ajustes de brilh
 
 ### Q1: Onde posso encontrar a documentação do Aspose.PSD para .NET?
 
- A1: A documentação está disponível.[aqui](https://reference.aspose.com/psd/net/).
+ A1: A documentação está disponível[aqui](https://reference.aspose.com/psd/net/).
 
 ### Q2: Como posso baixar a biblioteca Aspose.PSD para .NET?
 
@@ -88,7 +88,7 @@ Aspose.PSD for .NET simplifica o processo de implementação de ajustes de brilh
 
 ### Q3: Existe uma avaliação gratuita disponível para Aspose.PSD para .NET?
 
- A3: Sim, você pode acessar a avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q4: Onde posso obter suporte para Aspose.PSD para .NET?
 
@@ -96,4 +96,4 @@ Aspose.PSD for .NET simplifica o processo de implementação de ajustes de brilh
 
 ### P5: Como obtenho uma licença temporária do Aspose.PSD para .NET?
 
- A5: Você pode adquirir uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

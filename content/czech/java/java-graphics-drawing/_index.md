@@ -8,7 +8,7 @@ weight: 20
 url: /cs/java/java-graphics-drawing/
 ---
 
-## Úvod
+## Zavedení
 
 Vývojáři Java, jste připraveni zlepšit své dovednosti v oblasti kreslení grafiky? Ať už vytváříte složitou grafiku pro profesionální projekty, nebo se jen vrtíte, naše výukové programy Aspose.PSD pro Java vám pomohou. Pojďme se ponořit do některých nejzásadnějších výukových programů, o kterých potřebujete vědět.
 

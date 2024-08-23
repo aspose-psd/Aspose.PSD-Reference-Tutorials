@@ -72,7 +72,7 @@ image.Save(destName, new GifOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appliqué avec succès les filtres médians et Wiener pour débruiter les images couleur à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités pour le traitement d'images dans vos applications .NET.
+Félicitations! Vous avez appliqué avec succès les filtres médians et Wiener pour débruiter les images couleur à l'aide d'Aspose.PSD pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités pour le traitement d'images dans vos applications .NET.
 
 ## FAQ
 

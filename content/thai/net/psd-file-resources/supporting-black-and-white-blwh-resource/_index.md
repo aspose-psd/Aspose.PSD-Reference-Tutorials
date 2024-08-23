@@ -22,7 +22,7 @@ using Aspose.PSD.FileFormats.Psd.Layers.AdjustmentLayers;
 using Aspose.PSD.FileFormats.Psd.Layers.LayerResources;
 using System;
 ```
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: โหลดรูปภาพ
 โหลดอิมเมจต้นฉบับโดยใช้ Aspose.PSD:
 ```csharp
 string sourceFileName = "YourImage.psd";

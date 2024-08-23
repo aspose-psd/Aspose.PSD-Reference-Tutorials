@@ -86,7 +86,7 @@ A1: Bradley Thresholding är en metod som används för bildbinarisering, vilket
 
 ### F2: Hur väljer man rätt tröskelvärde?
 
-S2: Tröskelvärdet beror på din bilds egenskaper. Experimentera med olika värden för att hitta det optimala.
+S2: Tröskelvärdet beror på din bilds egenskaper. Experimentera med olika värden för att hitta den optimala.
 
 ### F3: Kan jag tillämpa Bradley Thresholding på andra bildformat?
 

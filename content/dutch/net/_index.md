@@ -12,7 +12,7 @@ Ontgrendel het volledige potentieel van Aspose.PSD voor .NET met onze uitgebreid
 
 ## Verbeter uw beeldverwerkingsvaardigheden
 
-### [Afbeelding verwerken](./image-processing/)
+### [Beeldverwerking](./image-processing/)
 
 Verbeter moeiteloos de beeldkwaliteit met Aspose.PSD voor .NET-tutorials. Duik in technieken zoals Gaussiaanse en Wiener-filters, kleurconversie, binarisatie en meer. Transformeer gewone afbeeldingen in verbluffende visuele meesterwerken met onze gedetailleerde tutorials.
 
@@ -78,7 +78,7 @@ Ontgrendel het volledige potentieel van Aspose.PSD voor .NET met onze tutorials.
 
 Neem Aspose.PSD voor .NET vandaag nog op in uw projecten en wees getuige van een transformatieve reis in beeldverwerking en -manipulatie. Verbeter uw vaardigheden, optimaliseer uw workflow en creëer moeiteloos visueel verbluffende applicaties. Duik nu in onze tutorials!
 ## Uitgebreide tutorials en voorbeelden van Aspose.PSD voor .NET 
-### [Afbeelding verwerken](./image-processing/)
+### [Beeldverwerking](./image-processing/)
 Verbeter moeiteloos de beeldkwaliteit met Aspose.PSD voor .NET-tutorials. Leer technieken zoals Gaussiaanse en Wiener-filters, kleurconversie, binarisatie en meer.
 ### [Manipulatie van PSD-bestanden](./psd-file-manipulation/)
 Verwerk moeiteloos AI-formaatlagen met Aspose.PSD voor .NET. Leer PSD-afbeeldingen naar GIF exporteren, geanimeerde gegevenssecties verwerken en laagstatussen manipuleren. 
@@ -91,9 +91,9 @@ Ontgrendel het potentieel van beeldaanpassing met Aspose.PSD voor .NET. Bekijk t
 ### [Afbeeldingseffecten](./image-effects/)
 Ontdek de magie van laageffecten met Aspose.PSD voor .NET! Verbeter uw vaardigheden op het gebied van beeldmanipulatie door lijn-, schaduw- en overvloeimodi toe te voegen.
 ### [Beeldmanipulatie](./image-manipulation/)
-Verbeter uw .NET-projecten met Aspose.PSD! Leer moeiteloos technieken voor beeldmanipulatie, zoals combineren, bijsnijden, vergroten/verkleinen, roteren en effecten toevoegen.
+Verbeter uw .NET-projecten met Aspose.PSD! Leer moeiteloos beeldmanipulatietechnieken zoals combineren, bijsnijden, vergroten/verkleinen, roteren en effecten toevoegen.
 ### [Bestands- en lettertypeverwerking](./file-and-font-handling/)
-Verbeter uw .NET-ontwikkeling met Aspose.PSD-tutorials. Leer lettertypevervanging, het maken van XMP-metagegevens en cachebeheer voor optimale workflow-efficiëntie.
+Breng uw .NET-ontwikkeling naar een hoger niveau met Aspose.PSD-tutorials. Leer lettertypevervanging, het maken van XMP-metagegevens en cachebeheer voor optimale workflow-efficiëntie.
 ### [PSD-tekentechnieken](./psd-drawing-techniques/)
 Ontgrendel het potentieel van Aspose.PSD voor .NET met onze tutorials! Beheers de belangrijkste tekenfuncties, maak verbluffende graphics en verbeter uw vaardigheden op het gebied van beeldmanipulatie.
 ### [Laageffecten](./layer-effects/)

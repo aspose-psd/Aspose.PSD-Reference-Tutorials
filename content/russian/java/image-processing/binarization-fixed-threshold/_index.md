@@ -74,7 +74,7 @@ String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-Вот и все! Вы успешно применили бинаризацию с фиксированным порогом, используя Aspose.PSD для Java.
+И все! Вы успешно применили бинаризацию с фиксированным порогом, используя Aspose.PSD для Java.
 
 ## Заключение
 

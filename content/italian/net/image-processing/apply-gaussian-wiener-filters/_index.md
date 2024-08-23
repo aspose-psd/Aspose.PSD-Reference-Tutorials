@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/net/image-processing/apply-gaussian-wiener-filters/
 ---
-## introduzione
+## Introduzione
 
 Nel campo dell'elaborazione delle immagini utilizzando .NET, Aspose.PSD si distingue come un potente toolkit che consente agli sviluppatori di manipolare le immagini con facilità. Una caratteristica particolarmente utile è l'applicazione dei filtri gaussiani e Wiener. Questi filtri svolgono un ruolo cruciale nel migliorare la qualità dell'immagine, ridurre il rumore e garantire un aspetto visivo ottimale.
 
@@ -61,7 +61,7 @@ if (rasterImage == null)
 
 ## Passaggio 3: creare opzioni di filtro gaussiano e Wiener
 
- Crea un'istanza di`GaussWienerFilterOptions` classe, specificando la dimensione del raggio e il valore di arrotondamento:
+ Crea un'istanza di`GaussWienerFilterOptions` classe, specificando la dimensione del raggio e il valore uniforme:
 
 ```csharp
 GaussWienerFilterOptions options = new GaussWienerFilterOptions(12, 3);

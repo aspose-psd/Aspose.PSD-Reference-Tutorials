@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/net/file-saving-and-exporting/save-images-to-stream/
 ---
-## introduzione
+## Introduzione
 
 Nel mondo in continua evoluzione dello sviluppo .NET, Aspose.PSD si distingue come un potente strumento per gestire le immagini con precisione ed efficienza. Se stai cercando di salvare immagini in uno stream utilizzando Aspose.PSD per .NET, sei nel posto giusto. Questo tutorial ti guiderà attraverso il processo, suddividendolo in passaggi facili da seguire.
 
@@ -82,11 +82,11 @@ Congratulazioni! Hai imparato con successo come salvare le immagini in un flusso
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi ottenere una prova gratuita.[Qui](https://releases.aspose.com/)per esplorare le funzionalità di Aspose.PSD prima di effettuare un acquisto.
+ R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/)per esplorare le funzionalità di Aspose.PSD prima di effettuare un acquisto.
 
 ### Q4: Come posso ottenere una licenza temporanea?
 
- A4: È possibile ottenere una licenza temporanea.[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test e valutazione.
+ A4: È possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test e valutazione.
 
 ### Q5: Dove posso acquistare Aspose.PSD?
 

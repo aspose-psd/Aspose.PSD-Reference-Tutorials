@@ -67,13 +67,13 @@ Használja az Aspose.PSD könyvtárat a PSD lemezkép betöltéséhez, lehetőv�
 
 ## Következtetés
 
-Gratulálunk! Sikeresen előállította a Gradient Overlay Effectet az Aspose.PSD for .NET fájlban. Engedje szabadjára kreativitását, és fedezze fel a könyvtár által a grafikai tervezés végtelen lehetőségeit.
+Gratulálok! Sikeresen előállította a Gradient Overlay Effectet az Aspose.PSD for .NET fájlban. Engedje szabadjára kreativitását, és fedezze fel a könyvtár által a grafikai tervezés végtelen lehetőségeit.
 
 ## GYIK
 
 ### 1. kérdés: Alkalmazhatom a Gradient Overlay Effectet több rétegre egyidejűleg?
 
-1. válasz: Nem, a Gradient Overlay Effect az egyes rétegekre vonatkozik, lehetővé téve a testreszabott és réteges effektusokat.
+1. válasz: Nem, a Gradient Overlay Effect egyedi rétegekre kerül alkalmazásra, lehetővé téve a testreszabott és réteges effektusokat.
 
 ### 2. kérdés: Az Aspose.PSD kompatibilis a legújabb .NET keretrendszerekkel?
 

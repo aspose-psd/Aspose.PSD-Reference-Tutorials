@@ -26,7 +26,7 @@ using System;
 using System.IO;
 ```
 ## Krok 1: Załaduj plik AI
-Załaduj plik AI do swojej aplikacji za pomocą następującego kodu:
+Załaduj plik AI do swojej aplikacji, używając następującego kodu:
 ```csharp
 string sourceFilePath = Path.Combine(dataDir, "form_8_2l3_7.ai");
 using (AiImage image = (AiImage)Image.Load(sourceFilePath))

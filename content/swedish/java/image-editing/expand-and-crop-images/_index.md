@@ -9,7 +9,7 @@ url: /sv/java/image-editing/expand-and-crop-images/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man använder Aspose.PSD för Java för att expandera och beskära bilder effektivt. Aspose.PSD är ett kraftfullt bibliotek som ger ett brett utbud av funktioner för att arbeta med PSD-filer i Java-applikationer. I den här guiden kommer vi att täcka de nödvändiga förutsättningarna, importera paket och dela upp varje steg med detaljerade förklaringar.
+den här handledningen kommer vi att utforska hur man använder Aspose.PSD för Java för att expandera och beskära bilder effektivt. Aspose.PSD är ett kraftfullt bibliotek som ger ett brett utbud av funktioner för att arbeta med PSD-filer i Java-applikationer. I den här guiden kommer vi att täcka de nödvändiga förutsättningarna, importera paket och dela upp varje steg med detaljerade förklaringar.
 
 ## Förutsättningar
 
@@ -93,7 +93,7 @@ S2: Absolut, Aspose.PSD tillhandahåller kommersiella licenser för utvecklare, 
 
 ### F3: Finns det några begränsningar för de bildfilformat som stöds?
 
- S3: Aspose.PSD stöder en mängd olika bildfilformat, inklusive PSD, JPEG, PNG och mer. Referera till[dokumentation](https://reference.aspose.com/psd/java/) för en komplett lista.
+ S3: Aspose.PSD stöder en mängd olika bildfilformat, inklusive PSD, JPEG, PNG och mer. Se till[dokumentation](https://reference.aspose.com/psd/java/) för en komplett lista.
 
 ### F4: Hur kan jag få support för Aspose.PSD-relaterade frågor?
 
@@ -101,4 +101,4 @@ S2: Absolut, Aspose.PSD tillhandahåller kommersiella licenser för utvecklare, 
 
 ### F5: Finns det en gratis provperiod?
 
- S5: Ja, du kan utforska Aspose.PSD med en gratis provperiod. Ladda ner det[här](https://releases.aspose.com/).
+ S5: Ja, du kan utforska Aspose.PSD med en gratis provperiod. Ladda ner den[här](https://releases.aspose.com/).

@@ -111,11 +111,11 @@ A2: Com certeza! Aspose.PSD acompanha as especificações mais recentes de forma
 
 ### Q3: Como lidar com exceções ao usar Aspose.PSD?
 
- A3: Consulte o[Fórum de suporte](https://forum.aspose.com/c/psd/34) para obter assistência no tratamento de exceções e solução de problemas.
+ A3: Consulte o[fórum de suporte](https://forum.aspose.com/c/psd/34) para obter assistência no tratamento de exceções e solução de problemas.
 
 ### Q4: Posso experimentar o Aspose.PSD antes de comprar?
 
- A4: Certamente! Pegue um[teste grátis](https://releases.aspose.com/) para explorar os recursos do Aspose.PSD antes de assumir um compromisso.
+ A4: Certamente! Pegue um[teste gratuito](https://releases.aspose.com/) para explorar os recursos do Aspose.PSD antes de assumir um compromisso.
 
 ### Q5: Onde posso obter uma licença temporária para Aspose.PSD?
 

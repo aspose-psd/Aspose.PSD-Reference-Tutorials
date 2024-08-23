@@ -17,7 +17,7 @@ Mielőtt belemerülne az oktatóanyagba, győződjön meg arról, hogy a követk
 
 -  Aspose.PSD for .NET Library: Győződjön meg arról, hogy a könyvtár telepítve van. Ha nem, akkor letöltheti a[kiadási oldal](https://releases.aspose.com/psd/net/).
 
-- .NET-környezet: Győződjön meg arról, hogy a gépén be van állítva .NET fejlesztői környezet.
+- .NET-környezet: Győződjön meg arról, hogy a számítógépén be van állítva .NET fejlesztői környezet.
 
 - Mintakép: Készítsen egy mintaképet PSD formátumban, amellyel dolgozni szeretne.
 
@@ -61,7 +61,7 @@ using (RasterImage rasterImage = (RasterImage)Image.Load(sourceFile))
 
 ## 4. lépés: Határozza meg az eltolási értékeket a vágáshoz
 
-Adja meg az eltolási értékeket a kép bal, jobb, felső és alsó oldalán. Állítsa be ezeket az értékeket a vágási igények alapján.
+Adja meg az eltolási értékeket a kép bal, jobb, felső és alsó oldalán. Állítsa be ezeket az értékeket a vágási követelmények alapján.
 
 ```csharp
 int leftShift = 10;
@@ -82,7 +82,7 @@ rasterImage.Save(destName, new JpegOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan lehet képeket váltani műszakban az Aspose.PSD for .NET használatával. Ez a hatékony funkció biztosítja a különféle képfeldolgozási feladatokhoz szükséges pontosságot és vezérlést.
+Gratulálok! Sikeresen megtanulta, hogyan lehet képeket váltani műszakban az Aspose.PSD for .NET használatával. Ez a hatékony funkció biztosítja a különféle képfeldolgozási feladatokhoz szükséges pontosságot és vezérlést.
 
 ## GYIK
 
@@ -96,7 +96,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan lehet képeket váltani műszakban az
 
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 
- 3. válasz: Tesztelési célra ideiglenes licencet szerezhet.[itt](https://purchase.aspose.com/temporary-license/).
+ 3. válasz: Tesztelési célra ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 4. kérdés: Hol találhatok további támogatást és megbeszéléseket az Aspose.PSD-vel kapcsolatban?
 

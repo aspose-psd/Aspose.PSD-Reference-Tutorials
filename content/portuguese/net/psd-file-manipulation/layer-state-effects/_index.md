@@ -12,7 +12,7 @@ Bem-vindo ao nosso tutorial abrangente sobre como trabalhar com efeitos de estad
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 -  Aspose.PSD para .NET: Certifique-se de ter a biblioteca instalada. Você pode baixá-lo no[Página de lançamentos do Aspose.PSD para .NET](https://releases.aspose.com/psd/net/).
-- Diretório de documentos: configure um diretório onde seus arquivos PSD são armazenados.
+- Diretório de documentos: Configure um diretório onde seus arquivos PSD são armazenados.
 - Diretório de saída: Crie um diretório onde os arquivos PSD modificados serão salvos.
 Agora, vamos prosseguir com o guia passo a passo.
 ## Importar namespaces
@@ -73,12 +73,12 @@ Parabéns! Você trabalhou com sucesso com Layer State Effects em Aspose.PSD par
 
 ### A3: Existe um teste gratuito disponível?
 
- A3: Sim, você pode explorar uma avaliação gratuita.[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P4: Como posso obter uma licença temporária?
 
- A4: Obtenha uma licença temporária.[aqui](https://purchase.aspose.com/temporary-license/).
+ A4: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Precisa de suporte ou tem dúvidas?
 
- A5: Junte-se ao[Fórum da comunidade Aspose.PSD](https://forum.aspose.com/c/psd/34) para assistência.
+ A5: Junte-se ao[Fórum da comunidade Aspose.PSD](https://forum.aspose.com/c/psd/34) para obter assistência.

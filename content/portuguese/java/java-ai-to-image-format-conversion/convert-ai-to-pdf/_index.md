@@ -18,7 +18,6 @@ Antes de começarmos com o código, certifique-se de ter os seguintes pré-requi
 Para começar com o código, você precisa importar os pacotes Aspose.PSD necessários. Veja como você pode fazer isso:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
@@ -53,7 +52,7 @@ Isso define a qualidade JPEG de todas as imagens do PDF para o nível máximo.
 ```java
 image.save(outFileName, options);
 ```
- Esta linha converterá sua imagem AI em um arquivo PDF no caminho especificado. Garanta que`outFileName` aponta para o local de saída desejado.
+ Esta linha converterá sua imagem AI em um arquivo PDF no caminho especificado. Certifique-se de que`outFileName` aponta para o local de saída desejado.
 
 ## Conclusão
 Converter arquivos AI em PDFs em Java usando Aspose.PSD é simples e eficiente. Seguindo as etapas descritas neste guia, você pode integrar facilmente essa funcionalidade em seus aplicativos, simplificando o manuseio de gráficos vetoriais e ilustrações em formato PDF. Seja você um desenvolvedor, um designer ou apenas explorando as possibilidades de conversões de IA e PDF, o Aspose.PSD oferece uma experiência perfeita.
@@ -63,7 +62,7 @@ Aspose.PSD é uma biblioteca poderosa que permite aos desenvolvedores trabalhar 
 ### Posso experimentar o Aspose.PSD gratuitamente?
  Sim! Você pode obter uma licença temporária ou baixar uma avaliação gratuita em[Aspose Lançamentos](https://releases.aspose.com/psd/java/).
 ### Quais formatos de arquivo o Aspose.PSD suporta?
- Aspose.PSD suporta uma variedade de formatos, incluindo PSD, AI, TIFF, BMP e muito mais. Verifica a[documentação](https://reference.aspose.com/psd/java/) para a lista completa.
+ Aspose.PSD suporta uma variedade de formatos, incluindo PSD, AI, TIFF, BMP e muito mais. Verifique o[documentação](https://reference.aspose.com/psd/java/) para a lista completa.
 ### Como posso obter suporte para Aspose.PSD?
  Você pode visitar o[Aspor Fórum](https://forum.aspose.com/c/psd/34) para quaisquer dúvidas ou problemas que você possa encontrar.
 ### Onde posso comprar uma licença para Aspose.PSD?

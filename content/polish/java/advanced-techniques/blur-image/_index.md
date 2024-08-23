@@ -87,7 +87,7 @@ A1: Absolutnie! Aspose.PSD zawiera obszerną dokumentację, która pomoże progr
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- A3: Tak, możesz uzyskać bezpłatną wersję próbną.[Tutaj](https://releases.aspose.com/).
+ A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.PSD dla Java?
 
@@ -95,4 +95,4 @@ A1: Absolutnie! Aspose.PSD zawiera obszerną dokumentację, która pomoże progr
 
 ### P5: Jak uzyskać tymczasową licencję na Aspose.PSD?
 
- Odpowiedź 5: Możesz uzyskać licencję tymczasową.[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

@@ -57,7 +57,7 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## 4. lépés: Alkalmazza a Gauss-elmosódás szűrőt.
+## 4. lépés: Alkalmazza a Gauss-elmosódás szűrőt
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Következtetés
 
-Gratulálunk! Sikeresen elhomályosított egy képet az Aspose.PSD for .NET használatával. Ez az oktatóanyag bepillantást nyújt az Aspose.PSD képességeibe, és megnyitja az ajtót a .NET-alkalmazások képkezelési lehetőségei előtt.
+Gratulálok! Sikeresen elhomályosított egy képet az Aspose.PSD for .NET használatával. Ez az oktatóanyag bepillantást nyújt az Aspose.PSD képességeibe, és számtalan lehetőség előtt nyitja meg az ajtót a .NET-alkalmazások képkezelésére.
 
 ## GYIK
 

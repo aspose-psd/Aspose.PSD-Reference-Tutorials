@@ -86,7 +86,7 @@ Ismételje meg ezeket a lépéseket a zökkenőmentes képfeldolgozáshoz az Asp
 
 ## Következtetés
 
-Gratulálunk! Sikeresen navigált a Motion Wiener szűrők alkalmazásában az Aspose.PSD for Java használatával. Fedezze fel a további lehetőségeket, és fokozza képfeldolgozási képességeit ezzel a sokoldalú könyvtárral.
+Gratulálok! Sikeresen navigált a Motion Wiener szűrők alkalmazásában az Aspose.PSD for Java használatával. Fedezze fel a további lehetőségeket, és fokozza képfeldolgozási képességeit ezzel a sokoldalú könyvtárral.
 
 ## GYIK
 
@@ -104,8 +104,8 @@ Gratulálunk! Sikeresen navigált a Motion Wiener szűrők alkalmazásában az A
 
 ### 4. kérdés: Kipróbálhatom az Aspose.PSD for Java fájlt vásárlás előtt?
 
- 4. válasz: Igen, felfedezheti az ingyenes próbaverziót.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
 
-V5: Szerezzen ideiglenes engedélyt.[itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+V5: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.

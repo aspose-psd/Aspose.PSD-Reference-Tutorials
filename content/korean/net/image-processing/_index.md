@@ -16,7 +16,7 @@ url: /ko/net/image-processing/
  가우시안 및 위너 필터를 사용하여 이미지 향상의 비밀을 밝혀보세요. 우리의[지도 시간](./apply-gaussian-wiener-filters/), 프로세스를 단계별로 안내해 드립니다. .NET용 Aspose.PSD가 어떻게 노이즈를 쉽게 줄여 이미지가 보는 사람의 마음을 사로잡는 선명도를 얻을 수 있는지 알아보세요.
 
 ## Median 및 Wiener 필터를 사용하여 컬러 이미지 향상
- 우리의[지도 시간](./apply-median-wiener-filters-color-images/)우리는 컬러 이미지 처리의 세계를 탐험합니다. .NET용 Aspose.PSD를 사용하면 중앙값 및 Wiener 필터를 사용하여 컬러 이미지를 향상하고 노이즈를 제거할 수 있습니다. 우리의 완벽한 단계별 가이드를 따라 영상의 생생한 디테일을 끌어내세요.
+ 우리의[지도 시간](./apply-median-wiener-filters-color-images/)우리는 컬러 이미지 처리의 세계를 탐구합니다. .NET용 Aspose.PSD를 사용하면 중앙값 및 Wiener 필터를 사용하여 컬러 이미지를 향상하고 노이즈를 제거할 수 있습니다. 우리의 완벽한 단계별 가이드를 따라 영상의 생생한 디테일을 끌어내세요.
 
 ## 이진화 기술 익히기
  컬러 이미지를 바이너리로 변환하려는 사람들을 위해[지도 시간](./binarization-techniques/) 고급 이진화 기술을 다룹니다. .NET용 Aspose.PSD의 BinarizationWithFixedThreshold 메서드는 프로세스를 간단하고 효과적으로 만들어 이미지가 명확하게 전달되도록 합니다.

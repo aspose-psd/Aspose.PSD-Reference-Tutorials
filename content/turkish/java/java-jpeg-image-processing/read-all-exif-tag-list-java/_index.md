@@ -18,7 +18,6 @@ Bu eğitime dalmadan önce aşağıdaki önkoşulların ayarlandığından emin 
 Başlamak için gerekli paketleri Aspose.PSD for Java'dan projenize aktarın:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
@@ -49,7 +48,7 @@ for(int i = 0; i < image.getImageResources().length; i++) {
 ```
 
 ## Çözüm
-Sonuç olarak Aspose.PSD for Java'dan yararlanmak, EXIF meta verilerini PSD dosyalarından çıkarma görevini basitleştirir. Bu eğitimde, bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre etmek için gerekli adımlarla donatıldınız.
+Sonuç olarak, Aspose.PSD for Java'dan yararlanmak, EXIF meta verilerini PSD dosyalarından çıkarma görevini basitleştirir. Bu eğitimde, bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre etmek için gerekli adımlarla donatıldınız.
 ## SSS'ler
 ### Java için Aspose.PSD nedir?
 Aspose.PSD for Java, Java geliştiricilerinin Photoshop'un kurulu olmasına gerek kalmadan PSD dosyalarıyla çalışmasına olanak tanıyan bir kütüphanedir.

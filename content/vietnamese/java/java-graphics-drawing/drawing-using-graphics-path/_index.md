@@ -28,7 +28,6 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.RectangleF;
 import com.aspose.psd.StringFormat;
 import com.aspose.psd.brushes.HatchBrush;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.shapes.EllipseShape;
 import com.aspose.psd.shapes.RectangleShape;
@@ -81,7 +80,7 @@ Aspose.PSD là một thư viện cho phép các nhà phát triển làm việc v
 ### Tôi có thể sử dụng Aspose.PSD cho các định dạng khác ngoài PSD không?
 Theo hướng dẫn này, Aspose.PSD xử lý cụ thể các tệp PSD nhưng cung cấp các tiện ích mở rộng để xử lý các định dạng hình ảnh khác nhau.
 ### Có phiên bản dùng thử cho Aspose.PSD không?
- Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.PSD.[đây](https://releases.aspose.com/).
+ Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.PSD[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể mua Aspose.PSD?
  Bạn có thể mua Aspose.PSD từ[đây](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận hỗ trợ cho Aspose.PSD ở đâu?

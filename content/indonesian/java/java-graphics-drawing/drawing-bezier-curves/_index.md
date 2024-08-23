@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -68,7 +67,7 @@ Penjelasan:
 - `controlX2`, `controlY2`: Titik kontrol kedua.
 - `endX`, `endY`: Titik akhir kurva.
 ## Langkah 6: Gambar Kurva Bezier
- Menggunakan`drawBezier()` metode untuk menggambar kurva Bezier pada gambar menggunakan yang telah ditentukan sebelumnya`Pen` dan titik kontrol.
+ Gunakan`drawBezier()` metode untuk menggambar kurva Bezier pada gambar menggunakan yang telah ditentukan sebelumnya`Pen` dan titik kontrol.
 ```java
 graphics.drawBezier(blackPen, startX, startY, controlX1, controlY1, controlX2, controlY2, endX, endY);
 ```
@@ -93,4 +92,4 @@ Ya, Aspose.PSD untuk Java mendukung gambar resolusi tinggi dengan manajemen memo
 ### Bisakah saya mengekspor gambar ke format selain BMP?
 Ya, Aspose.PSD untuk Java mendukung ekspor gambar ke berbagai format seperti PNG, JPEG, TIFF, dll.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Mengunjungi[Aspose.PSD untuk dokumentasi Java](https://reference.aspose.com/psd/java/) untuk panduan komprehensif dan contoh kode.## Kode Sumber Lengkap
+ Kunjungi[Aspose.PSD untuk dokumentasi Java](https://reference.aspose.com/psd/java/) untuk panduan komprehensif dan contoh kode.## Kode Sumber Lengkap

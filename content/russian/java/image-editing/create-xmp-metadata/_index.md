@@ -44,7 +44,7 @@ import com.aspose.psd.xmp.schemas.photoshop.PhotoshopPackage;
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 
-## Шаг 2. Создайте новое изображение.
+## Шаг 2. Создайте новое изображение
 
 ```java
 // Создайте совершенно новое изображение для примера.

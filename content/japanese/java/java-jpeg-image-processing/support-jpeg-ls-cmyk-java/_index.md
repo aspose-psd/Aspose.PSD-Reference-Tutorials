@@ -1,40 +1,39 @@
 ---
-title: Java での CMYK を使用した JPEG-LS のサポート
-linktitle: Java での CMYK を使用した JPEG-LS のサポート
+title: Java での CMYK による JPEG-LS のサポート
+linktitle: Java での CMYK による JPEG-LS のサポート
 second_title: Aspose.PSD Java API
-description: Aspose.PSD を使用して Java で CMYK を使用した JPEG-LS をサポートする方法を学びます。ステップバイステップのガイドに従って、画像の処理と変換を簡単に行ってください。
+description: Aspose.PSD を使用して Java で CMYK による JPEG-LS をサポートする方法を学びます。ステップバイステップのガイドに従って、画像処理と変換を簡単に実行します。
 type: docs
 weight: 21
 url: /ja/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ---
 ## 導入
-Java を使用した画像処理の世界に飛び込んでみませんか?経験豊富な開発者でも、初心者でも、Aspose.PSD for Java に関するこのチュートリアルでは、CMYK カラー モードで JPEG-LS をサポートするプロセスを説明します。すぐに始めて、創造力を発揮してみましょう!
+Java を使用した画像処理の世界に飛び込んでみませんか? 熟練した開発者でも、初心者でも、この Aspose.PSD for Java のチュートリアルでは、CMYK カラー モードで JPEG-LS をサポートするプロセスについて説明します。すぐに始め、創造力を解き放ちましょう。
 ## 前提条件
-このチュートリアルの核心部分に入る前に、いくつかの前提条件を満たしている必要があります。
-1.  Java Development Kit (JDK): システムに JDK がインストールされていることを確認してください。からダウンロードできます。[オラクルのWebサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Java 用 Aspose.PSD: Aspose.PSD ライブラリが必要です。からダウンロードしてください。[アスポーズリリース](https://releases.aspose.com/psd/java/)ページ。
-3. 統合開発環境 (IDE): IntelliJ IDEA や Eclipse などの IDE を使用すると、コードの作成とデバッグが容易になります。
-4. Java の基本知識: このチュートリアルは、Java プログラミングの基本を理解していることを前提としています。
-これらの前提条件をすべて準備したら、準備完了です。
+このチュートリアルの詳細に入る前に、いくつかの前提条件を満たす必要があります。
+1.  Java開発キット（JDK）：システムにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
+2.  Aspose.PSD for Java: Aspose.PSDライブラリが必要です。[Aspose リリース](https://releases.aspose.com/psd/java/)ページ。
+3. 統合開発環境 (IDE): IntelliJ IDEA や Eclipse などの IDE を使用すると、コードの作成とデバッグが簡単になります。
+4. Java の基礎知識: このチュートリアルでは、Java プログラミングの基本的な知識があることを前提としています。
+これらの前提条件がすべて整ったら、準備完了です。
 ## パッケージのインポート
-開始するには、Aspose.PSD ライブラリから必要なパッケージをインポートする必要があります。その方法は次のとおりです。
+まず、Aspose.PSD ライブラリから必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
-## ステップ 1: PSD 画像をロードする
-まず最初に、処理する PSD 画像をロードする必要があります。このステップは当社の事業の基盤となるため、非常に重要です。
+## ステップ1: PSDイメージを読み込む
+まず最初に、処理する PSD 画像を読み込む必要があります。このステップは操作の基盤となるため、非常に重要です。
 ```java
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
 
-## ステップ 2: CMYK の JPEG オプションを設定する
-PSD 画像をロードしたので、CMYK カラー モードで JPEG として保存するためのオプションを設定します。
+## ステップ2: CMYKのJPEGオプションを設定する
+PSD 画像が読み込まれたので、CMYK カラー モードで JPEG として保存するためのオプションを設定します。
 ```java
 JpegOptions options = new JpegOptions();
 options.setColorType(JpegCompressionColorMode.Cmyk);
@@ -43,18 +42,18 @@ options.setRgbColorProfile(null);
 options.setCmykColorProfile(null);
 ```
 
-## ステップ 3: 画像を CMYK を含む JPEG として保存する
-オプションを設定すると、CMYK カラー モードで画像を JPEG ファイルとして保存できるようになります。
+## ステップ3: CMYKでJPEGとして画像を保存する
+オプションを設定すると、CMYK カラー モードの JPEG ファイルとして画像を保存できるようになります。
 ```java
 image.save(dataDir + "output.jpg", options);
 ```
-## ステップ 4: 別の PSD 画像をロードする (オプション)
-別の PSD 画像を操作したい場合、または追加の処理を実行したい場合は、別の PSD ファイルをロードできます。
+## ステップ4: 別のPSD画像を読み込む（オプション）
+別の PSD 画像を操作したり、追加の処理を実行したりする場合は、別の PSD ファイルを読み込むことができます。
 ```java
 PsdImage image1 = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
-## ステップ 5: 可逆圧縮用の JPEG オプションを設定する
-番目の画像については、可逆圧縮で保存するためのオプションを設定しましょう。
+## ステップ5: ロスレス圧縮用のJPEGオプションを設定する
+番目の画像については、ロスレス圧縮で保存するためのオプションを設定しましょう。
 ```java
 JpegOptions options1 = new JpegOptions();
 options1.setColorType(JpegCompressionColorMode.Cmyk);
@@ -62,21 +61,21 @@ options1.setCompressionType(JpegCompressionMode.Lossless);
 options1.setRgbColorProfile(null);
 options1.setCmykColorProfile(null);
 ```
-## ステップ 6: 2 番目の画像を可逆圧縮を使用して JPEG として保存する
-最後に、2 番目の画像を CMYK カラー モードと可逆圧縮を使用して JPEG ファイルとして保存します。
+## ステップ6: 2番目の画像をロスレス圧縮のJPEGとして保存する
+最後に、2 番目の画像を CMYK カラー モードとロスレス圧縮を使用して JPEG ファイルとして保存します。
 ```java
 image1.save(dataDir + "output2.jpg", options1);
 ```
 ## 結論
-おめでとう！ Aspose.PSD for Java を使用して、CMYK カラー モードで JPEG-LS をサポートする方法を学習しました。このチュートリアルに従うことで、PSD ファイルを処理し、異なる圧縮設定を使用して JPEG に変換できるようになります。この強力なライブラリを使用すると、画像の操作が簡単になります。これらの手順を実行すれば、画像処理のプロへの道はすぐに進みます。
+おめでとうございます。Aspose.PSD for Java を使用して CMYK カラー モードで JPEG-LS をサポートする方法を学習しました。このチュートリアルに従うことで、PSD ファイルを処理し、さまざまな圧縮設定で JPEG に変換できるようになりました。この強力なライブラリを使用すると、画像を簡単に操作できます。これらの手順に従うことで、画像処理のプロになることができます。
 ## よくある質問
-### CMYKカラーモードとは何ですか?
-CMYKはシアン、マゼンタ、イエロー、キー（ブラック）の略です。カラー印刷で使用するカラーモデルです。
+### CMYK カラーモードとは何ですか?
+CMYK は、シアン、マゼンタ、イエロー、キー (ブラック) の略です。カラー印刷で使用されるカラー モデルです。
 ### JPEG-LSとは何ですか?
-JPEG-LS は、連続階調画像用の可逆/ほぼ可逆圧縮規格です。
+JPEG-LS は、連続階調画像用のロスレス/ほぼロスレスの圧縮規格です。
 ### Aspose.PSD で他の圧縮モードを使用できますか?
-はい、Aspose.PSD は、ロスレスや JPEG などのさまざまな圧縮モードをサポートしています。
+はい、Aspose.PSD は Lossless や JPEG を含むさまざまな圧縮モードをサポートしています。
 ### Aspose.PSD を使用するにはライセンスが必要ですか?
-はい、ライセンスが必要です。を得ることができます[仮免許](https://purchase.aspose.com/temporary-license/)試験用。
-### Aspose.PSD に関するその他のドキュメントはどこで見つけられますか?
-完全なドキュメントを見つけることができます[ここ](https://reference.aspose.com/psd/java/).
+はい、ライセンスが必要です。[一時ライセンス](https://purchase.aspose.com/temporary-license/)試験目的のため。
+### Aspose.PSD に関する詳細なドキュメントはどこで見つかりますか?
+完全なドキュメントは以下をご覧ください[ここ](https://reference.aspose.com/psd/java/).

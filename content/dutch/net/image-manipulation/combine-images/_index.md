@@ -102,8 +102,8 @@ A2: Ja, Aspose.PSD kan voor zowel persoonlijke als commerciële doeleinden worde
 
 ### V4: Is er een gratis proefversie beschikbaar voor Aspose.PSD?
 
- A4: Ja, u heeft toegang tot de gratis proefperiode.[hier](https://releases.aspose.com/).
+ A4: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V5: Kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD?
 
-A5: Ja, u kunt een tijdelijke licentie krijgen.[hier](https://purchase.aspose.com/temporary-license/).
+A5: Ja, u kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).

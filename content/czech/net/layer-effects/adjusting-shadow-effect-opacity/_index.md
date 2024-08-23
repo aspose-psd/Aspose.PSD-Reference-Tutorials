@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
-## Úvod
+## Zavedení
 
 Vítejte v našem podrobném průvodci nastavením krytí stínového efektu v Aspose.PSD pro .NET! V tomto tutoriálu vás provedeme procesem využití vlastnosti Opacity DropShadowEffect. Aspose.PSD for .NET je výkonná knihovna, která vám umožní bezproblémově pracovat se soubory PSD ve vašich aplikacích .NET.
 
@@ -15,7 +15,7 @@ Vítejte v našem podrobném průvodci nastavením krytí stínového efektu v A
 
 Než se pustíme do výukového programu, ujistěte se, že máte následující:
 
--  Knihovna Aspose.PSD for .NET: Ujistěte se, že máte v projektu nainstalovanou knihovnu Aspose.PSD for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/psd/net/).
+-  Knihovna Aspose.PSD for .NET: Ujistěte se, že máte v projektu nainstalovanou knihovnu Aspose.PSD for .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/psd/net/).
 
 - Adresář dokumentů: Nastavte adresář pro váš vstupní soubor PSD.
 
@@ -82,7 +82,7 @@ File.Delete(outputImage200);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste upravili neprůhlednost stínového efektu v Aspose.PSD pro .NET. Tento tutoriál poskytuje přímočarý návod, jak vylepšit obrázky PSD různými krytími stínů.
+Gratuluji! Úspěšně jste upravili neprůhlednost stínového efektu v Aspose.PSD pro .NET. Tento tutoriál poskytuje přímočarý návod, jak vylepšit obrázky PSD různými krytími stínů.
 
 ## FAQ
 
@@ -96,7 +96,7 @@ A2: Ano, Aspose.PSD pro .NET nabízí různé vlastnosti pro jemné doladění s
 
 ### Q3: Jak mohu získat dočasnou licenci pro Aspose.PSD pro .NET?
 
- A3: Můžete získat dočasnou licenci.[tady](https://purchase.aspose.com/temporary-license/).
+ A3: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Je Aspose.PSD for .NET kompatibilní s .NET Core?
 

@@ -19,7 +19,6 @@ Java 개발 영역에서 이미지 처리 기능을 통합하는 것은 단순�
 코딩을 시작하기 전에 Aspose.PSD 기능을 사용하는 데 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.exif.JpegExifData;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;

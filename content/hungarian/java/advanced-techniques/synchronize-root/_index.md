@@ -22,7 +22,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 
 ## Csomagok importálása
 
-kezdéshez importálnia kell a szükséges csomagokat a Java projektbe. Ezek a csomagok kulcsfontosságúak az Aspose.PSD funkció eléréséhez és használatához.
+A kezdéshez importálnia kell a szükséges csomagokat a Java projektbe. Ezek a csomagok kulcsfontosságúak az Aspose.PSD funkció eléréséhez és használatához.
 
 ```java
 import com.aspose.psd.StreamContainer;
@@ -64,7 +64,7 @@ finally
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta a gyökér szinkronizálását az Aspose.PSD for Java használatával. Ez a folyamat létfontosságú a biztonságos és hatékony adatfolyam-műveletek biztosításához a Java-alkalmazásokban.
+Gratulálok! Sikeresen megtanulta a gyökér szinkronizálását az Aspose.PSD for Java használatával. Ez a folyamat létfontosságú a biztonságos és hatékony adatfolyam-műveletek biztosításához a Java-alkalmazásokban.
 
 ## GYIK
 
@@ -74,7 +74,7 @@ Gratulálunk! Sikeresen megtanulta a gyökér szinkronizálását az Aspose.PSD 
 
 ### 2. kérdés: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
 
- 2. válasz: Igen, az Aspose.PSD használható személyes és kereskedelmi projektekhez is. Az engedélyezés részleteiért látogasson el a webhelyre[itt](https://purchase.aspose.com/buy).
+2. válasz: Igen, az Aspose.PSD használható személyes és kereskedelmi projektekhez is. Az engedélyezés részleteiért látogasson el a webhelyre[itt](https://purchase.aspose.com/buy).
 
 ### 3. kérdés: Hol találok támogatást az Aspose.PSD-hez?
 
@@ -82,7 +82,7 @@ Gratulálunk! Sikeresen megtanulta a gyökér szinkronizálását az Aspose.PSD 
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, felfedezheti az Aspose.PSD ingyenes próbaverzióját, ha felkeresi.[itt](https://releases.aspose.com/).
+ 4. válasz: Igen, felfedezheti az Aspose.PSD ingyenes próbaverzióját, ha felkeresi[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 

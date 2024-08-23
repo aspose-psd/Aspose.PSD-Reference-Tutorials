@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /it/java/advanced-image-effects/add-new-regular-layer/
 ---
-## introduzione
+## Introduzione
 
 Benvenuti in questo tutorial completo sull'utilizzo di Aspose.PSD per Java per aggiungere un nuovo livello regolare a un file PSD. Aspose.PSD è una potente libreria Java che consente agli sviluppatori di manipolare e lavorare in modo efficiente con i file PSD. In questo tutorial ti guideremo attraverso il processo di aggiunta di un nuovo livello regolare a un file PSD, fornendo passaggi dettagliati ed esempi di codice.
 
@@ -111,12 +111,12 @@ A2: Assolutamente! Aspose.PSD fornisce una gamma di opzioni di trasformazione pe
 
 ### Q3: Dove posso trovare ulteriore documentazione Aspose.PSD?
 
- R3: È possibile fare riferimento alla documentazione.[Qui](https://reference.aspose.com/psd/java/).
+ R3: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/psd/java/).
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
- A4: Visita[questo link](https://purchase.aspose.com/temporary-license/) per le opzioni di licenza temporanea.
+ A4: Visita[questo collegamento](https://purchase.aspose.com/temporary-license/) per le opzioni di licenza temporanea.
 
 ### Q5: Esistono forum della community per il supporto di Aspose.PSD?
 
- A5: Sì, puoi trovare supporto e discussioni.[Qui](https://forum.aspose.com/c/psd/34).
+ A5: Sì, puoi trovare supporto e discussioni[Qui](https://forum.aspose.com/c/psd/34).

@@ -17,7 +17,7 @@ url: /zh-hant/net/image-processing/grayscaling-images/
 
 -  Aspose.PSD for .NET Library：從以下位置下載並安裝該程式庫：[Aspose.PSD 文檔](https://reference.aspose.com/psd/net/).
 
-- 開發環境：確保您設定了有效的 .NET 開發環境。
+- 開發環境：確保您已設定有效的 .NET 開發環境。
 
 - 影像檔案：準備 PSD 格式的範例影像檔案以進行灰階處理。
 

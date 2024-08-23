@@ -42,7 +42,7 @@ Mari kita uraikan proses penyimpanan gambar menggunakan thread pekerja menjadi b
 
 ```java
 public class SaveImageWorker {
-    // ... (Lihat kode yang disediakan untuk deklarasi variabel)
+    //... (Lihat kode yang disediakan untuk deklarasi variabel)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
         // Logika konstruktor
@@ -106,11 +106,11 @@ A1: Ya, Aspose.PSD untuk Java menyediakan dukungan untuk multi-threading, memung
 
 ### Q2: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk Java?
 
- A2: Anda dapat merujuk ke dokumentasi.[Di Sini](https://reference.aspose.com/psd/java/) untuk informasi komprehensif tentang Aspose.PSD untuk Java.
+A2: Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.aspose.com/psd/java/) untuk informasi komprehensif tentang Aspose.PSD untuk Java.
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
 
- A3: Anda bisa mendapatkan lisensi sementara.[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menjelajahi kemampuan penuh Aspose.PSD untuk Java.
+ A3: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menjelajahi kemampuan penuh Aspose.PSD untuk Java.
 
 ### Q4: Opsi dukungan apa yang tersedia untuk Aspose.PSD untuk Java?
 

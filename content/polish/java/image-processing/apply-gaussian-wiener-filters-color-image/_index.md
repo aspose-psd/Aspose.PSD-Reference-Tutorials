@@ -87,7 +87,7 @@ Odpowiedź 2: Tak, Aspose.PSD zapewnia różnorodne opcje filtrów odpowiadając
 
 ### P3: Jak mogę obsługiwać wyjątki podczas przetwarzania obrazu?
 
- O3: Zawiń swój kod w bloki try-catch, aby sprawnie obsługiwać wyjątki. Odnosić się do[Dokumentacja Aspose.PSD](https://reference.aspose.com/psd/java/) po więcej szczegółów.
+ O3: Zawiń swój kod w bloki try-catch, aby sprawnie obsługiwać wyjątki. Patrz[Dokumentacja Aspose.PSD](https://reference.aspose.com/psd/java/) aby uzyskać więcej szczegółów.
 
 ### P4: Czy mogę zastosować wiele filtrów po kolei?
 

@@ -7,9 +7,9 @@ type: docs
 weight: 18
 url: /cs/java/image-editing/expand-and-crop-images/
 ---
-## Úvod
+## Zavedení
 
-V tomto tutoriálu prozkoumáme, jak používat Aspose.PSD pro Java k efektivnímu rozšiřování a ořezávání obrázků. Aspose.PSD je výkonná knihovna, která poskytuje širokou škálu funkcí pro práci se soubory PSD v aplikacích Java. V této příručce pokryjeme nezbytné předpoklady, import balíčků a rozebereme každý krok podrobným vysvětlením.
+tomto tutoriálu prozkoumáme, jak používat Aspose.PSD pro Java k efektivnímu rozšiřování a ořezávání obrázků. Aspose.PSD je výkonná knihovna, která poskytuje širokou škálu funkcí pro práci se soubory PSD v aplikacích Java. V této příručce pokryjeme nezbytné předpoklady, import balíčků a rozebereme každý krok podrobným vysvětlením.
 
 ## Předpoklady
 
@@ -17,7 +17,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
 
-2.  Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD. Knihovnu najdete[tady](https://releases.aspose.com/psd/java/).
+2.  Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD. Knihovnu najdete[zde](https://releases.aspose.com/psd/java/).
 
 ## Importujte balíčky
 
@@ -75,7 +75,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-Gratulujeme! Úspěšně jste rozšířili a ořízli obrázek pomocí Aspose.PSD pro Java.
+Gratuluji! Úspěšně jste rozšířili a ořízli obrázek pomocí Aspose.PSD pro Java.
 
 ## Závěr
 
@@ -93,7 +93,7 @@ A2: Aspose.PSD samozřejmě poskytuje komerční licence pro vývojáře, což u
 
 ### Q3: Existují nějaká omezení pro podporované formáty obrazových souborů?
 
- Odpověď 3: Aspose.PSD podporuje různé formáty souborů obrázků, včetně PSD, JPEG, PNG a dalších. Odkazovat na[dokumentace](https://reference.aspose.com/psd/java/) pro úplný seznam.
+ Odpověď 3: Aspose.PSD podporuje různé formáty souborů obrázků, včetně PSD, JPEG, PNG a dalších. Viz[dokumentace](https://reference.aspose.com/psd/java/) pro úplný seznam.
 
 ### Q4: Jak mohu získat podporu pro dotazy související s Aspose.PSD?
 
@@ -101,4 +101,4 @@ A2: Aspose.PSD samozřejmě poskytuje komerční licence pro vývojáře, což u
 
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
- A5: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhnout to[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhněte si to[zde](https://releases.aspose.com/).

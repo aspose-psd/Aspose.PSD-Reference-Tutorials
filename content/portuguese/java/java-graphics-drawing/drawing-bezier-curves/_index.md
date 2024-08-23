@@ -21,7 +21,6 @@ import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
@@ -48,7 +47,7 @@ graphics.clear(Color.getYellow());
 Explicação:
 - `clear()` O método define a cor de fundo da superfície gráfica.
 ## Etapa 4: inicializar a caneta para desenho
- Configurar um`Pen` objeto com propriedades como cor e largura para definir como a curva será desenhada.
+ Configure um`Pen` objeto com propriedades como cor e largura para definir como a curva será desenhada.
 ```java
 Pen blackPen = new Pen(Color.getBlack(), 3);
 ```
@@ -93,4 +92,4 @@ Sim, Aspose.PSD para Java oferece suporte a imagens de alta resolução com gere
 ### Posso exportar a imagem para formatos diferentes de BMP?
 Sim, Aspose.PSD para Java suporta a exportação de imagens para vários formatos como PNG, JPEG, TIFF, etc.
 ### Onde posso encontrar mais exemplos e documentação?
- Visite a[Documentação Aspose.PSD para Java](https://reference.aspose.com/psd/java/) para guias abrangentes e exemplos de código.## Código-fonte completo
+ Visite o[Documentação Aspose.PSD para Java](https://reference.aspose.com/psd/java/) para guias abrangentes e exemplos de código.## Código-fonte completo

@@ -17,7 +17,7 @@ Java용 Aspose.PSD를 사용한 그래픽 디자인 및 이미지 조작의 세�
 
 1. Java 개발 환경: 컴퓨터에 Java 개발 환경이 설정되어 있는지 확인하십시오.
 
-2. Aspose.PSD 라이브러리: 다음에서 Java용 Aspose.PSD 라이브러리를 다운로드하고 설치합니다.[여기](https://releases.aspose.com/psd/java/).
+2.  Aspose.PSD 라이브러리: 다음에서 Java용 Aspose.PSD 라이브러리를 다운로드하고 설치합니다.[여기](https://releases.aspose.com/psd/java/).
 
 3. PSD 문서: 컬러 오버레이 효과를 적용할 PSD 문서를 준비합니다.
 
@@ -109,4 +109,4 @@ A2: 예, Aspose.PSD는 Eclipse 및 IntelliJ와 같은 널리 사용되는 Java I
 
 ### Q5: Aspose.PSD에 사용할 수 있는 무료 평가판 옵션이 있습니까?
 
- A5: 그렇습니다.[무료 시험판](https://releases.aspose.com/)구매하기 전에 버전을 확인하세요.
+ A5: 그렇습니다.[무료 평가판](https://releases.aspose.com/) 구매하기 전에 버전을 확인하세요.

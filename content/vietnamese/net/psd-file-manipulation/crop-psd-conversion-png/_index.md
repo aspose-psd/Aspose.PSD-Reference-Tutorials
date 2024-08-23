@@ -46,7 +46,7 @@ image.Crop(cropRectangle);
 // Tạo một thể hiện của lớp PNGOptions
 PngOptions pngOptions = new PngOptions();
 ```
-## Bước 5: Lưu hình ảnh đã cắt dưới dạng PNG.
+## Bước 5: Lưu hình ảnh đã cắt dưới dạng PNG
 ```csharp
 // Gọi phương thức lưu, cung cấp đường dẫn đầu ra và PNGOptions để chuyển đổi tệp PSD thành PNG và lưu đầu ra
 string destName = dataDir + @"export.png";
@@ -64,7 +64,7 @@ Chúc mừng! Bạn đã học thành công cách cắt các tệp PSD khi chuy�
 
 ### Q2: Có bản dùng thử miễn phí không?
 
- A2: Chắc chắn rồi! Bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+A2: Chắc chắn rồi! Bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.PSD cho .NET ở đâu?
 

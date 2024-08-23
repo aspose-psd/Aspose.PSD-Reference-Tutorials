@@ -2,7 +2,7 @@
 title: Mengubah Ukuran Gambar Secara Sederhana di Aspose.PSD untuk .NET
 linktitle: Mengubah Ukuran Gambar Secara Sederhana
 second_title: Asumsikan.PSD .NET API
-description: Ubah ukuran gambar master dengan Aspose.PSD untuk .NET. Efisien, mulus, dan bertenaga. Tingkatkan proyek .NET Anda dengan mudah.
+description: Ubah ukuran gambar master dengan Aspose.PSD untuk .NET. Efisien, mulus, dan kuat. Tingkatkan proyek .NET Anda dengan mudah.
 type: docs
 weight: 17
 url: /id/net/image-manipulation/simple-resizing/
@@ -70,7 +70,7 @@ Menguasai pengubahan ukuran gambar adalah keterampilan mendasar dalam perangkat 
 
 ## FAQ
 
-### Q1: Dapatkah saya mengubah ukuran gambar ke rasio aspek tertentu menggunakan Aspose.PSD untuk .NET?
+### Q1: Bisakah saya mengubah ukuran gambar ke rasio aspek tertentu menggunakan Aspose.PSD untuk .NET?
 
 A1: Ya, Anda dapat mempertahankan rasio aspek tertentu sambil mengubah ukuran gambar dengan menyesuaikan lebar atau tinggi.
 

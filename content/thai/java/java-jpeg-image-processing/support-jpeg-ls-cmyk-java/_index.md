@@ -1,6 +1,6 @@
 ---
-title: รองรับ JPEG-LS พร้อม CMYK ในภาษา Java
-linktitle: รองรับ JPEG-LS พร้อม CMYK ในภาษา Java
+title: รองรับ JPEG-LS พร้อม CMYK ใน Java
+linktitle: รองรับ JPEG-LS พร้อม CMYK ใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีรองรับ JPEG-LS ด้วย CMYK ใน Java โดยใช้ Aspose.PSD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการประมวลผลและการแปลงรูปภาพที่ง่ายดาย
 type: docs
@@ -20,7 +20,6 @@ url: /th/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจที่จำเป็นจากไลบรารี Aspose.PSD ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
 ```java
 import com.aspose.psd.Image;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -54,7 +53,7 @@ image.save(dataDir + "output.jpg", options);
 PsdImage image1 = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
 ## ขั้นตอนที่ 5: ตั้งค่าตัวเลือก JPEG สำหรับการบีบอัดแบบไม่สูญเสียข้อมูล
-สำหรับภาพที่ 2 มาตั้งค่าตัวเลือกเพื่อบันทึกด้วยการบีบอัดแบบไม่สูญเสียข้อมูล
+สำหรับภาพที่ 2 มาตั้งค่าตัวเลือกสำหรับการบันทึกด้วยการบีบอัดแบบไม่สูญเสียข้อมูล
 ```java
 JpegOptions options1 = new JpegOptions();
 options1.setColorType(JpegCompressionColorMode.Cmyk);

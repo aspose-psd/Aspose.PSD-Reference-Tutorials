@@ -9,7 +9,7 @@ url: /es/net/image-adjustment/contrast-adjustment/
 ---
 ## Introducción
 
-¡Bienvenido a esta guía completa sobre cómo implementar el ajuste de contraste en Aspose.PSD para .NET! En este tutorial, exploraremos el proceso de mejorar el contraste de una imagen usando Aspose.PSD, una potente biblioteca de imágenes .NET. Al final de esta guía, tendrá un conocimiento sólido de cómo aplicar ajustes de contraste a sus imágenes sin problemas.
+¡Bienvenido a esta guía completa sobre cómo implementar el ajuste de contraste en Aspose.PSD para .NET! En este tutorial, exploraremos el proceso de mejorar el contraste de una imagen usando Aspose.PSD, una poderosa biblioteca de imágenes .NET. Al final de esta guía, tendrá un conocimiento sólido de cómo aplicar ajustes de contraste a sus imágenes sin problemas.
 
 ## Requisitos previos
 
@@ -62,7 +62,7 @@ rasterImage.AdjustContrast(50); // Ajustar el contraste en un 50%.
 
 ## Paso 3: crear opciones TIFF
 
- Crear una instancia de`TiffOptions` Para la imagen resultante, establezca varias propiedades y guarde la imagen en formato TIFF.
+ Crear una instancia de`TiffOptions` para la imagen resultante, establezca varias propiedades y guarde la imagen en formato TIFF.
 
 ```csharp
 //ExStart:Crear opciones Tiff
@@ -92,12 +92,12 @@ R1: Aspose.PSD para .NET está diseñado para ser fácil de usar para los desarr
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puede explorar una prueba gratuita de Aspose.PSD para .NET.[aquí](https://releases.aspose.com/).
+ R3: Sí, puede explorar una prueba gratuita de Aspose.PSD para .NET[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo encontrar soporte para Aspose.PSD para .NET?
 
- R4: Visite el foro de soporte de Aspose.PSD para .NET[aquí](https://forum.aspose.com/c/psd/34) para asistencia.
+ R4: Visite el foro de soporte de Aspose.PSD para .NET[aquí](https://forum.aspose.com/c/psd/34) para obtener ayuda.
 
 ### P5: ¿Cómo puedo obtener una licencia temporal?
 
- R5: Si es necesario, puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Si es necesario, puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

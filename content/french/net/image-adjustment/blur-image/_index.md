@@ -57,13 +57,13 @@ using (var image = Image.Load(sourceFile))
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-## Étape 4 : appliquez le filtre de flou gaussien.
+## Étape 4 : appliquer le filtre de flou gaussien
 
 ```csharp
 rasterImage.Filter(rasterImage.Bounds, new GaussianBlurFilterOptions(15, 15));
 ```
 
- Ici le`GaussianBlurFilterOptions` La classe est utilisée avec un rayon spécifié de 15 pour le flou horizontal et vertical.
+ Ici, le`GaussianBlurFilterOptions` La classe est utilisée avec un rayon spécifié de 15 pour le flou horizontal et vertical.
 
 ## Étape 5 : Enregistrez l'image floue
 
@@ -74,7 +74,7 @@ rasterImage.Save(destName, new GifOptions());
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à flouter une image à l’aide d’Aspose.PSD pour .NET. Ce didacticiel donne un aperçu des capacités d'Aspose.PSD et ouvre la porte à une multitude de possibilités de manipulation d'images dans vos applications .NET.
+Félicitations! Vous avez réussi à flouter une image à l’aide d’Aspose.PSD pour .NET. Ce didacticiel donne un aperçu des capacités d'Aspose.PSD et ouvre la porte à une myriade de possibilités de manipulation d'images dans vos applications .NET.
 
 ## FAQ
 

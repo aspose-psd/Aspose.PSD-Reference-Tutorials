@@ -1,6 +1,6 @@
 ---
-title: Đang xử lý hình ảnh
-linktitle: Đang xử lý hình ảnh
+title: Xử lý hình ảnh
+linktitle: Xử lý hình ảnh
 second_title: API Java Aspose.PSD
 description: Khai phá tiềm năng của Aspose.PSD cho Java trong xử lý hình ảnh. Tìm hiểu cách áp dụng các bộ lọc Gaussian, Wiener, Median và Motion Wiener theo từng bước.
 type: docs

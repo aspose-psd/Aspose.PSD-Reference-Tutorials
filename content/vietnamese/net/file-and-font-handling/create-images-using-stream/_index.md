@@ -102,7 +102,7 @@ A2: Kích thước có thể tùy chỉnh; điều chỉnh các thông số tron
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí dành cho Aspose.PSD cho .NET không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí.[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD?
 
@@ -110,4 +110,4 @@ A2: Kích thước có thể tùy chỉnh; điều chỉnh các thông số tron
 
 ### Câu hỏi 5: Có giấy phép tạm thời không?
 
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời.[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

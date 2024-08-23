@@ -107,7 +107,7 @@ im.Save(exportPath);
 ตรวจสอบว่ามีการใช้การแก้ไขสำเร็จหรือไม่:
 
 ```csharp
-// ทดสอบไฟล์หลังจากแก้ไข
+// ทดสอบไฟล์หลังแก้ไข
 using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 {
     var gradientOverlay = (GradientOverlayEffect)im.Layers[1].BlendingOptions.Effects[0];

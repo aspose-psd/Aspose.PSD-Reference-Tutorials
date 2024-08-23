@@ -150,7 +150,7 @@ A3: Aspose.PSD는 다양한 크기의 이미지를 처리하도록 설계되어 
 
 ### Q4: Aspose.PSD에 사용할 수 있는 평가판이 있습니까?
 
- A4: 예, 무료 평가판을 획득하여 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+ A4: 예, 무료 평가판을 통해 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q5: Aspose.PSD 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
 

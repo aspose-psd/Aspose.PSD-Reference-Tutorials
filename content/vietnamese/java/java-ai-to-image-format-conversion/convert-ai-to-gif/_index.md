@@ -12,7 +12,7 @@ Chuyển đổi tệp AI (Adobe Illustrator) thành GIF trong Java có vẻ như
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
 - Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình.
--  Aspose.PSD cho Thư viện Java: Tải xuống thư viện từ[Trang tải xuống Aspose.PSD cho Java](https://releases.aspose.com/psd/java/).
+- Aspose.PSD cho Thư viện Java: Tải xuống thư viện từ[Trang tải xuống Aspose.PSD cho Java](https://releases.aspose.com/psd/java/).
 - Môi trường phát triển tích hợp (IDE): Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans để viết và chạy mã Java của bạn.
 - Tệp AI: Tệp Adobe Illustrator bạn muốn chuyển đổi.
 ## Gói nhập khẩu
@@ -20,7 +20,6 @@ Trước tiên, hãy nhập các gói cần thiết. Điều này sẽ bao gồm
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ImageOptionsBase;
-import com.aspose.psd.examples.Utils.Utils;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
@@ -30,7 +29,7 @@ Hãy chia nhỏ quy trình thành các bước đơn giản, dễ thực hiện.
 Mở IDE của bạn và tạo một dự án Java mới. Đặt tên gì đó có liên quan, chẳng hạn như "AItoGIFConverter".
 ### 1.2 Thêm Aspose.PSD vào dự án của bạn
  Tải xuống thư viện Aspose.PSD cho Java từ[đây](https://releases.aspose.com/psd/java/). Sau khi tải xuống, hãy thêm thư viện vào đường dẫn xây dựng dự án của bạn. Điều này thường có thể được thực hiện bằng cách nhấp chuột phải vào dự án của bạn trong IDE, điều hướng đến cài đặt đường dẫn xây dựng và thêm tệp JAR bên ngoài.
-## Bước 2: Tải file AI
+## Bước 2: Tải tệp AI
 ### 2.1 Xác định đường dẫn tệp
 Chỉ định đường dẫn cho tệp AI nguồn và tệp GIF đầu ra. Để đơn giản, chúng ta sẽ sử dụng biến chuỗi cho thư mục.
 ```java
@@ -38,8 +37,8 @@ String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.gif";
 ```
-### 2.2 Tải file AI
- Sử dụng`Image.load` phương pháp tải tệp AI của bạn. Phương pháp này đọc tệp AI thành một`AiImage` sự vật.
+### 2.2 Tải tệp AI
+ Sử dụng`Image.load` phương pháp tải tệp AI của bạn. Phương pháp này đọc tệp AI vào một`AiImage` sự vật.
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
@@ -56,7 +55,7 @@ options.setDoPaletteCorrection(false);
 ```
 ## Bước 4: Lưu AI dưới dạng GIF
 ### 4.1 Lưu hình ảnh
- Cuối cùng, sử dụng`save` phương pháp của`AiImage` đối tượng lưu file AI dưới dạng GIF.
+ Cuối cùng, sử dụng`save` phương pháp của`AiImage` đối tượng để lưu tệp AI dưới dạng GIF.
 ```java
 image.save(outFileName, options);
 ```

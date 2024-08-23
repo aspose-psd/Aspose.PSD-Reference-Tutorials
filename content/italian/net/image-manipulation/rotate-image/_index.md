@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /it/net/image-manipulation/rotate-image/
 ---
-## introduzione
+## Introduzione
 
 Se ti stai immergendo nel mondo della manipolazione delle immagini utilizzando .NET, Aspose.PSD è il tuo strumento di riferimento per un'elaborazione delle immagini fluida ed efficiente. In questo tutorial, ci concentreremo su un'attività fondamentale: ruotare un'immagine utilizzando Aspose.PSD per .NET. Seguici mentre suddividiamo il processo in passaggi semplici e attuabili.
 
@@ -71,7 +71,7 @@ In questo tutorial, abbiamo esplorato le basi della rotazione delle immagini uti
 
 ### Q3: Come posso ottenere una licenza temporanea per Aspose.PSD?
 
- Visitare il[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) sul sito Aspose per ottenere una licenza temporanea a scopo di valutazione.
+ Visita il[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) sul sito Aspose per ottenere una licenza temporanea a scopo di valutazione.
 
 ### Q4: Dove posso trovare supporto per Aspose.PSD?
 
@@ -79,4 +79,4 @@ In questo tutorial, abbiamo esplorato le basi della rotazione delle immagini uti
 
 ### Q5: Posso acquistare Aspose.PSD per uso commerciale?
 
- Certamente. Esplorare la[pagina di acquisto](https://purchase.aspose.com/buy) per acquisire una licenza su misura per le tue esigenze.
+ Certamente. Esplora il[pagina di acquisto](https://purchase.aspose.com/buy) per acquisire una licenza su misura per le tue esigenze.

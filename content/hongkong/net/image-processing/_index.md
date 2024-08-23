@@ -25,7 +25,7 @@ Aspose.PSD for .NET 使開發人員能夠將影像處理提升到新的高度。
 與我們一起深入了解顏色轉換的世界[教學](./color-conversion-default-icc-profiles/)。 Aspose.PSD for .NET 可讓您更新色彩設定文件，保證充滿活力且準確的視覺效果。揭露色彩變換的細微差別，讓您的影像真正脫穎而出。
 
 ## 輕鬆灰階影像
-在裡面[教學](./grayscaling-images/)，我們向您展示如何輕鬆應用灰階效果。 Aspose.PSD for .NET 簡化了灰階處理過程，讓您可以輕鬆地為影像添加精緻感。
+在[教學](./grayscaling-images/)，我們向您展示如何輕鬆應用灰階效果。 Aspose.PSD for .NET 簡化了灰階處理過程，讓您可以輕鬆地為影像添加精緻感。
 
 ## 使用 Bradley 閾值進行影像分割
 我們的[教學](./apply-bradley-threshold/)在 Aspose.PSD for .NET 中引入 Bradley 閾值。利用這種有效的二值化技術來增強影像分割。請按照我們的逐步指南來利用這項強大的功能。

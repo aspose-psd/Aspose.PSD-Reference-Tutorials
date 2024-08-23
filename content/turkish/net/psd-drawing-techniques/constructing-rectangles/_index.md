@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 
 -  Ortam Kurulumu: Aspose.PSD entegreli, çalışan bir .NET geliştirme ortamına sahip olun. Henüz yapmadıysanız, bkz.[dokümantasyon](https://reference.aspose.com/psd/net/) Kurulum talimatları için.
 
--  Aspose.PSD'yi İndirin: Aspose.PSD kitaplığını şu adresten indirdiğinizden emin olun:[İndirme: {link](https://releases.aspose.com/psd/net/).
+-  Aspose.PSD'yi İndirin: Aspose.PSD kitaplığını şu adresten indirdiğinizden emin olun:[indirme bağlantısı](https://releases.aspose.com/psd/net/).
 
 -  Lisans Alın: Aspose.PSD'yi üretim ortamında kullanıyorsanız geçerli bir lisansınız olduğundan emin olun. Bir tane alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya bir kullanın[geçici lisans](https://purchase.aspose.com/temporary-license/) test için.
 

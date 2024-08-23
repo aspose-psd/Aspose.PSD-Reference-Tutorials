@@ -81,17 +81,17 @@ Ismételje meg ezeket a lépéseket minden további szürkeárnyalatos képhez.
 
 ## Következtetés
 
-Gratulálunk! Sikeresen szürkeárnyalatosított egy képet az Aspose.PSD for Java használatával. Ez az egyszerű, de nagy teljesítményű folyamat különféle alkalmazásokba integrálható, javítva ezzel a képfeldolgozási képességeket.
+Gratulálok! Sikeresen szürkeárnyalatosított egy képet az Aspose.PSD for Java használatával. Ez az egyszerű, de nagy teljesítményű folyamat különféle alkalmazásokba integrálható, javítva ezzel a képfeldolgozási képességeket.
 
 ## GYIK
 
 ### 1. kérdés: Használhatom az Aspose.PSD for Java-t kereskedelmi projektekhez?
 
-1. válasz: Igen, az Aspose.PSD for Java kereskedelmi használatra elérhető. Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+ 1. válasz: Igen, az Aspose.PSD for Java kereskedelmi használatra elérhető. Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
 
 ### 2. kérdés: Létezik ingyenes próbaverzió az Aspose.PSD for Java számára?
 
- 2. válasz: Igen, egy ingyenes próbaverzióval felfedezheti az Aspose.PSD for Java szolgáltatásait. Töltsd le[itt](https://releases.aspose.com/).
+ 2. válasz: Igen, egy ingyenes próbaverzióval felfedezheti az Aspose.PSD for Java szolgáltatásait. Töltse le[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hol találom az Aspose.PSD for Java dokumentációját?
 

@@ -106,7 +106,7 @@ A2: Absolut! Efter att ha kombinerat bilder kan du ytterligare manipulera den re
 
 ### F4: Finns det en gratis testversion tillgänglig för Aspose.PSD?
 
- S4: Ja, du kan utforska Aspose.PSD med en gratis provperiod.[här](https://releases.aspose.com/).
+ S4: Ja, du kan utforska Aspose.PSD med en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F5: Var kan jag hitta stöd för Aspose.PSD-relaterade frågor?
 
