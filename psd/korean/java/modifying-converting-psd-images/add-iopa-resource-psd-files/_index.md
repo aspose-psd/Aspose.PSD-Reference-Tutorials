@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에 IOPA 리소스 추가
 linktitle: Java를 사용하여 PSD 파일에 IOPA 리소스 추가
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 가이드를 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에 IOPA 리소스를 추가하는 방법을 알아보세요. 효과적인 그래픽 조작을 위한 간단한 단계.
-type: docs
 weight: 15
 url: /ko/java/modifying-converting-psd-images/add-iopa-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에 IOPA 리소스 추가
+
 ## 소개
 전문가처럼 PSD 파일을 조작하고 싶나요? 레이어 속성을 변경하는 완벽한 방법을 찾으면서 Photoshop의 PSD 형식의 미로에 깊숙이 빠져들었다면 좋은 결과가 있을 것입니다. Java용 Aspose.PSD를 사용하여 PSD 파일에 IOPA 리소스를 추가하는 방법을 살펴보겠습니다. 이 강력한 라이브러리를 사용하면 PSD 파일과 원활하게 상호 작용할 수 있으므로 채우기 불투명도와 같은 레이어 속성을 그 어느 때보다 쉽게 수정할 수 있습니다.
 이제 좋아하는 커피잔을 들고 편안히 앉아 PSD 파일을 향상시키는 흥미로운 여정을 시작해 보세요. 이 튜토리얼이 끝나면 IOPA 리소스를 사용하여 PSD 문서를 자신있게 조작하여 그래픽 디자인 작업을 쉽게 수행할 수 있게 됩니다.
@@ -91,3 +97,9 @@ IOPA는 "이미지 불투명도" 리소스를 나타냅니다. PSD 파일에서 
 예, 유효한 PSD 파일이라면 가지고 있는 모든 PSD 파일에 대해 이러한 작업을 수행할 수 있습니다.
 ### Aspose.PSD에 대한 지원은 어디서 받을 수 있나요?  
  지원을 받으려면 다음을 방문하세요.[지원 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

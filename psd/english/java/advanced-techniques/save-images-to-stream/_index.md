@@ -3,10 +3,16 @@ title: Save Images to Stream with Aspose.PSD for Java
 linktitle: Save Images to Stream
 second_title: Aspose.PSD Java API
 description: Explore how to save PSD images to a stream using Aspose.PSD for Java. Follow our step-by-step guide for efficient image processing.
-type: docs
 weight: 16
 url: /java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save Images to Stream with Aspose.PSD for Java
+
 ## Introduction
 
 In this tutorial, we'll explore how to save images to a stream using Aspose.PSD for Java. Aspose.PSD is a powerful Java library for processing and manipulating PSD (Photoshop Document) files. If you want to enhance your Java application with the ability to save PSD images to a stream, follow the steps outlined in this guide.
@@ -97,3 +103,10 @@ A4: Get a temporary license [here](https://purchase.aspose.com/temporary-license
 ### Q5: Where can I buy the full version of Aspose.PSD for Java?
 
 A5: Purchase the full version [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

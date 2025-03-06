@@ -3,10 +3,16 @@ title: Appliquer un effet de trait avec un remplissage de couleur dans PSD - Jav
 linktitle: Appliquer un effet de trait avec un remplissage de couleur dans PSD - Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment appliquer un effet de trait avec un remplissage de couleur à vos fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez ce guide étape par étape pour améliorer facilement vos images.
-type: docs
 weight: 21
 url: /fr/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer un effet de trait avec un remplissage de couleur dans PSD - Java
+
 ## Introduction
 
 Dans ce guide, nous vous guiderons tout au long du processus d'application d'un effet de trait avec un remplissage de couleur à vos fichiers PSD à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou tout juste débutant, ce didacticiel étape par étape vous facilitera la tâche. Nous couvrirons tout, de la configuration de votre environnement à l'enregistrement de l'image finale avec les effets appliqués.
@@ -144,3 +150,9 @@ Pour annuler les modifications, vous devrez recharger le fichier PSD d'origine a
 
 ### L'utilisation de la bibliothèque Aspose.PSD pour Java est-elle gratuite ?
  Aspose.PSD pour Java propose un essai gratuit, mais pour un accès complet à toutes les fonctionnalités, vous devrez acheter une licence. Vous pouvez explorer le[acheter des options](https://purchase.aspose.com/buy)sur leur site Internet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: คุณสมบัติไทม์ไลน์รูปภาพ PSD
 linktitle: คุณสมบัติไทม์ไลน์รูปภาพ PSD
 second_title: Aspose.PSD .NET API
 description: สำรวจโลกแห่งการประมวลผลภาพแบบไดนามิกด้วย Aspose.PSD สำหรับ .NET จัดการไทม์ไลน์ PSD ได้อย่างง่ายดาย ดาวน์โหลดห้องสมุดทันที!
-type: docs
 weight: 15
 url: /th/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติไทม์ไลน์รูปภาพ PSD ใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 ในภูมิทัศน์ที่เปลี่ยนแปลงตลอดเวลาของการพัฒนา .NET การก้าวนำหน้าเป็นสิ่งสำคัญ Aspose.PSD สำหรับ .NET กลายเป็นเครื่องมืออันทรงพลังที่นำเสนอฟีเจอร์มากมายเพื่อเพิ่มความสามารถในการประมวลผลภาพของคุณ คุณสมบัติเด่นประการหนึ่งคือคุณสมบัติไทม์ไลน์ของรูปภาพ PSD ซึ่งช่วยให้คุณจัดการไทม์ไลน์ของรูปภาพ PSD ของคุณได้แบบไดนามิก
 ## ข้อกำหนดเบื้องต้น
@@ -85,3 +91,9 @@ Aspose.PSD สำหรับ .NET ช่วยให้นักพัฒนา
 ### คำถามที่ 5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.PSD สำหรับ .NET ได้ที่ไหน
 
  A5: สำรวจเอกสารประกอบที่ครอบคลุม[ที่นี่](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

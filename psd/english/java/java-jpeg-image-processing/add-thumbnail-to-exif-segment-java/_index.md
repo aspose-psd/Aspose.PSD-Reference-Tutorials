@@ -3,10 +3,16 @@ title: Add Thumbnail to EXIF Segment in Java
 linktitle: Add Thumbnail to EXIF Segment in Java
 second_title: Aspose.PSD Java API
 description: Learn how to enhance image metadata with thumbnails using Aspose.PSD for Java. Follow our step-by-step guide for seamless integration.for seamless integration.
-type: docs
 weight: 10
 url: /java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Thumbnail to EXIF Segment in Java
+
 ## Introduction
 In this tutorial, we will explore how to enhance image metadata by adding a thumbnail to the EXIF segment using Aspose.PSD for Java. EXIF (Exchangeable Image File Format) metadata plays a crucial role in digital photography, providing valuable information such as camera settings, date, and location. Adding a thumbnail enhances user experience by previewing images efficiently.
 ## Prerequisites
@@ -66,3 +72,10 @@ You can download Aspose.PSD for Java from [here](https://releases.aspose.com/psd
 You can obtain a temporary license for Aspose.PSD from [here](https://purchase.aspose.com/temporary-license/).
 ### How do I get support for Aspose.PSD?
 For support, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

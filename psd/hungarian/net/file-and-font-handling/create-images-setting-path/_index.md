@@ -3,10 +3,16 @@ title: Képek létrehozása az Aspose.PSD for .NET elérési útjának megadás�
 linktitle: Képek létrehozása elérési út beállításával
 second_title: Aspose.PSD .NET API
 description: Fedezze fel a képalkotást az Aspose.PSD for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat, és szabadítsa fel ennek a nagy teljesítményű könyvtárnak a lehetőségeit.
-type: docs
 weight: 11
 url: /hu/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek létrehozása az Aspose.PSD for .NET elérési útjának megadásával
+
 A .NET fejlesztés területén az Aspose.PSD hatékony eszköz a képek manipulálására és létrehozására. Ebben az oktatóanyagban az Aspose.PSD for .NET használatával történő képek létrehozásának folyamatába fogunk belemenni egy elérési út beállításával. Kövesse ezeket a lépésenkénti utasításokat, hogy kiaknázhassa e sokoldalú könyvtárban rejlő lehetőségeket.
 
 ## Bevezetés
@@ -98,3 +104,9 @@ A2: Abszolút! Az Aspose.PSD lehetővé teszi a kötegelt képfeldolgozást, íg
 ### 5. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) kapcsolatba lépni a közösséggel, és segítséget kérni szakértőktől.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

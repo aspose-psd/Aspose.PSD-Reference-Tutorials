@@ -3,10 +3,16 @@ title: Stosowanie progu Bradleya w Aspose.PSD dla .NET
 linktitle: Stosowanie progu Bradleya
 second_title: Aspose.PSD API .NET
 description: Ulepsz segmentację obrazu za pomocą Bradley Threshold w Aspose.PSD dla .NET. Przewodnik krok po kroku dotyczący skutecznej binaryzacji.
-type: docs
 weight: 15
 url: /pl/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stosowanie progu Bradleya w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w naszym obszernym samouczku na temat stosowania Bradley Threshold w Aspose.PSD dla .NET. Aspose.PSD dla .NET to potężna biblioteka, która umożliwia pracę z plikami Photoshopa w aplikacjach .NET. Bradley Thresholding to technika stosowana do binaryzacji obrazu, pomagająca skutecznie oddzielić obiekty od tła.
@@ -90,3 +96,9 @@ Odpowiedź 1: Tak, metoda progowa Bradleya to wszechstronna technika odpowiednia
 ### P5: Gdzie mogę kupić licencję na Aspose.PSD?
 
  Odpowiedź 5: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

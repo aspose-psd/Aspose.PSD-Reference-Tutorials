@@ -3,10 +3,16 @@ title: Nhập hình ảnh vào các lớp PSD bằng Aspose.PSD Java
 linktitle: Nhập hình ảnh vào các lớp PSD bằng Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách nhập hình ảnh vào các lớp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 17
 url: /vi/java/psd-image-modification-conversion/import-images-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhập hình ảnh vào các lớp PSD bằng Aspose.PSD Java
+
 ## Giới thiệu
 Khi nói đến làm việc với các tệp PSD, việc có các công cụ phù hợp có thể tạo ra sự khác biệt. Cho dù bạn đang tham gia vào thiết kế đồ họa, nghệ thuật kỹ thuật số hay thậm chí chỉ đang cố gắng thêm gia vị cho bài thuyết trình của mình, việc hiểu cách thao tác các lớp PSD có thể mở ra một thế giới sáng tạo. Trong hướng dẫn này, bạn sẽ tìm hiểu cách nhập hình ảnh vào các lớp PSD bằng Aspose.PSD cho Java. Hướng dẫn này được thiết kế để hướng dẫn bạn qua từng bước một cách đơn giản và hấp dẫn. Vì vậy, hãy uống một tách cà phê và cùng tìm hiểu chi tiết về thao tác hình ảnh trong các tệp PSD.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Aspose.PSD cho Java là một thư viện cho phép các nhà phát triển làm
  Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia Aspose.
 ### Làm cách nào để mua giấy phép Aspose.PSD cho Java?
  Bạn có thể mua giấy phép bằng cách truy cập[Trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

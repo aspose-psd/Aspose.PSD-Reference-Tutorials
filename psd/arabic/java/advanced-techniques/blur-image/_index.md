@@ -3,10 +3,16 @@ title: قم بطمس الصورة باستخدام Aspose.PSD لـ Java
 linktitle: طمس صورة
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية تعتيم الصور في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة للحصول على نتائج احترافية.
-type: docs
 weight: 24
 url: /ar/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بطمس الصورة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java، يعد تحسين الصور ومعالجتها مطلبًا شائعًا. إذا كنت تتطلع إلى إضافة تأثير تمويه إلى صورك برمجيًا، فإن Aspose.PSD for Java هي أداة قوية تعمل على تبسيط العملية. سيرشدك هذا البرنامج التعليمي خلال خطوات تعتيم الصورة باستخدام Aspose.PSD، مما يضمن لك تحقيق نتائج احترافية دون عناء.
@@ -96,3 +102,9 @@ rasterImage.save(destName, new GifOptions());
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

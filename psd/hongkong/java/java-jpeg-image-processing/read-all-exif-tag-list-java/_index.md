@@ -3,10 +3,16 @@ title: 用 Java 讀取所有 EXIF 標籤列表
 linktitle: 用 Java 讀取所有 EXIF 標籤列表
 second_title: Aspose.PSD Java API
 description: 透過我們全面的教學和程式碼範例，了解如何使用 Aspose.PSD for Java 從 PSD 檔案中提取 EXIF 元資料。
-type: docs
 weight: 16
 url: /zh-hant/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用 Java 讀取所有 EXIF 標籤列表
+
 ### 介紹
 在 Java 開發領域，管理和操作 PSD 檔案是許多應用程式的關鍵要求。 Aspose.PSD for Java 提供了一個以程式設計方式處理 Photoshop Document (PSD) 檔案的強大解決方案，為開發人員提供了一套無縫讀取、寫入和修改 PSD 檔案的工具。本教學將引導您完成使用 Aspose.PSD for Java 從 PSD 檔案中讀取所有 EXIF 標籤的過程。最後，您將清楚了解如何擷取和利用 PSD 影像中嵌入的 EXIF 元資料。
 ### 先決條件
@@ -60,3 +66,9 @@ Aspose.PSD for Java 是一個函式庫，可讓 Java 開發人員在不需要安
 是的，它支援讀取和寫入 PSD 檔案。
 ### 在哪裡可以獲得 Aspose.PSD for Java 的支援？
 如需支持，請訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

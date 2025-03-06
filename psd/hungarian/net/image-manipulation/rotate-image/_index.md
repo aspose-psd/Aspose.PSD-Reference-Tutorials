@@ -3,10 +3,16 @@ title: Kép elforgatása az Aspose.PSD for .NET fájlban
 linktitle: Kép elforgatása
 second_title: Aspose.PSD .NET API
 description: Tanulja meg a képeket könnyedén elforgatni .NET-ben az Aspose.PSD segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat.
-type: docs
 weight: 15
 url: /hu/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép elforgatása az Aspose.PSD for .NET fájlban
+
 ## Bevezetés
 
 Ha a .NET használatával történő képmanipuláció világába merül, az Aspose.PSD a tökéletes eszköz a zökkenőmentes és hatékony képfeldolgozáshoz. Ebben az oktatóanyagban egy alapvető feladatra összpontosítunk – egy kép elforgatására az Aspose.PSD for .NET használatával. Kövesse a folyamatot egyszerű, végrehajtható lépésekre bontva.
@@ -80,3 +86,9 @@ Ebben az oktatóanyagban megvizsgáltuk a képek elforgatásának alapjait az As
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t kereskedelmi használatra?
 
  Biztosan. Fedezze fel a[vásárlási oldal](https://purchase.aspose.com/buy) hogy az Ön igényeire szabott licencet szerezzen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

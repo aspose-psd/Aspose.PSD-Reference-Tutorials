@@ -3,10 +3,16 @@ title: Add Watermark to PSD Files with Aspose.PSD for Java
 linktitle: Add Watermark to PSD Files with Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to add a watermark to your PSD files effortlessly using Aspose.PSD for Java. Protect your images with a simple step-by-step guide.
-type: docs
 weight: 18
 url: /java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Watermark to PSD Files with Aspose.PSD for Java
+
 ## Introduction
 Watermarks are a subtle but effective way to protect your images and communicate ownership. Whether you're a photographer showcasing your portfolio or a designer presenting your latest work, adding a watermark can be crucial to maintaining your brand identity. In this tutorial, we’ll delve into how to effortlessly add watermarks to your PSD files using Aspose.PSD for Java. So, grab a cup of coffee, get comfy, and let’s get started!
 ## Prerequisites
@@ -90,3 +96,9 @@ Yes! Change the alpha value in `Color.fromArgb()` to change the opacity of the w
 Yes, you can save in various formats like JPEG or BMP. Just replace `PngOptions()` with the desired options.
 ### Where can I find more help?
 For detailed queries, you can visit the [Aspose forums](https://forum.aspose.com/c/psd/34) or check their [documentation](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

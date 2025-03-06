@@ -3,10 +3,16 @@ title: Vẽ cung bằng Aspose.PSD cho .NET
 linktitle: Vẽ cung bằng Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của Aspose.PSD dành cho .NET trong việc vẽ các cung một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để có đồ họa tuyệt đẹp trong ứng dụng của bạn.
-type: docs
 weight: 11
 url: /vi/net/psd-drawing-techniques/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ cung bằng Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách vẽ cung bằng Aspose.PSD cho .NET! Aspose.PSD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Adobe Photoshop (.psd) trong các ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ tập trung vào việc tạo các cung tròn hấp dẫn về mặt hình ảnh bằng thư viện Aspose.PSD.
@@ -110,3 +116,10 @@ Chúc mừng! Bạn đã học thành công cách vẽ vòng cung bằng Aspose.
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD cho .NET miễn phí trước khi mua không?
 
  Câu trả lời 5: Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

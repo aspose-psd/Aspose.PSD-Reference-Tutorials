@@ -3,10 +3,16 @@ title: Lägg till nivåjusteringslager i PSD
 linktitle: Lägg till nivåjusteringslager i PSD
 second_title: Aspose.PSD Java API
 description: Lär dig hur du effektivt lägger till ett nivåjusteringslager i dina PSD-filer med Aspose.PSD för Java. Öka dina färdigheter i bildredigering.
-type: docs
 weight: 16
 url: /sv/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till nivåjusteringslager i PSD
+
 ## Introduktion
 När det kommer till bildredigering kan hantering av nivåer göra en värld av skillnad när det gäller livlighet och klarhet i dina foton. Ett praktiskt verktyg i Photoshop-arsenalen är "Level Adjustment Layer", som låter dig justera tonomfånget och färgbalansen för dina bilder. I den här guiden går vi igenom hur du implementerar ett nivåjusteringslager i en PSD-fil med Aspose.PSD för Java. Så, ta din Java IDE.
 ## Förutsättningar
@@ -88,3 +94,9 @@ Ja! Aspose erbjuder en gratis provperiod för att testa biblioteket innan du kö
  Absolut! Du kan ställa frågor och få stöd i[Aspose forum](https://forum.aspose.com/c/psd/34).
 ### Hur kan jag få en tillfällig licens för Aspose.PSD?
  Du kan ansöka om en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

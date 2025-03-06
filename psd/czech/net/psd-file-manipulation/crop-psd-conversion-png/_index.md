@@ -3,10 +3,16 @@ title: Oříznutí souborů PSD při převodu na PNG v Aspose.PSD pro .NET
 linktitle: Oříznutí souborů PSD při převodu do PNG
 second_title: Aspose.PSD .NET API
 description: Naučte se, jak bez námahy oříznout soubory PSD pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémový převod do formátu PNG.
-type: docs
 weight: 18
 url: /cs/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznutí souborů PSD při převodu na PNG v Aspose.PSD pro .NET
+
 ## Zavedení
 V oblasti vývoje .NET je manipulace a konverze obrázků běžným úkolem. Aspose.PSD for .NET poskytuje výkonnou sadu nástrojů pro zefektivnění tohoto procesu. Jedním z častých požadavků je oříznutí souborů PSD před jejich převedením na PNG. V tomto tutoriálu krok za krokem se ponoříme do procesu pomocí Aspose.PSD pro .NET.
 ## Předpoklady
@@ -77,3 +83,9 @@ A2: Rozhodně! Můžete prozkoumat bezplatnou zkušební verzi[zde](https://rele
 ### Q5: Jsou v dokumentaci k dispozici nějaké příklady nebo výukové programy?
 
  A5: Ano, můžete najít komplexní dokumentaci a příklady[zde](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

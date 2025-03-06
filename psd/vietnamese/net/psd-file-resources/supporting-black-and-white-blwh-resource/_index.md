@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên đen trắng trong Aspose.PSD cho .NET
 linktitle: Hỗ trợ tài nguyên đen trắng (Blwh)
 second_title: API Aspose.PSD .NET
 description: Khám phá tính năng chỉnh sửa hình ảnh nâng cao với Aspose.PSD cho .NET. Tìm hiểu cách thành thạo các lớp điều chỉnh Đen và Trắng để kiểm soát chính xác các thành phần hình ảnh.
-type: docs
 weight: 13
 url: /vi/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên đen trắng trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Trong thế giới năng động của phương tiện truyền thông kỹ thuật số, chỉnh sửa hình ảnh đóng một vai trò then chốt trong việc tạo ra những hình ảnh hấp dẫn. Aspose.PSD cho .NET trao quyền cho các nhà phát triển nâng khả năng xử lý hình ảnh của họ lên một tầm cao mới. Trong hướng dẫn này, chúng ta sẽ khám phá sự hỗ trợ cho các lớp điều chỉnh Đen và Trắng trong Aspose.PSD, cho phép bạn tinh chỉnh hình ảnh một cách chính xác.
 ## Điều kiện tiên quyết
@@ -89,3 +95,9 @@ A2: Chắc chắn rồi! Aspose.PSD cho phép bạn xếp chồng nhiều lớp 
 ### Câu hỏi 5: Có hình ảnh mẫu nào để thử nghiệm điều chỉnh Đen trắng không?
 
 Câu trả lời 5: Có, bạn có thể tìm thấy hình ảnh mẫu trong tài liệu Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

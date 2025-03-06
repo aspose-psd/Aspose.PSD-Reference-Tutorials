@@ -3,10 +3,16 @@ title: Mendukung Layer Mask di File PSD dengan Java
 linktitle: Mendukung Layer Mask di File PSD dengan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mendukung layer mask dalam file PSD menggunakan Aspose.PSD untuk Java melalui tutorial langkah demi langkah yang komprehensif.
-type: docs
 weight: 18
 url: /id/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Layer Mask di File PSD dengan Java
+
 ## Perkenalan
 Saat bekerja dengan file PSD, layer mask memainkan peran penting dalam menyempurnakan desain Anda dan menyederhanakan alur kerja kreatif Anda. Dalam tutorial ini, kita akan mendalami cara mendukung layer mask menggunakan pustaka Aspose.PSD untuk Java. Jika Anda seorang calon pengembang, perancang, atau seseorang yang ingin memanipulasi file PSD secara terprogram, Anda berada di tempat yang tepat! Kami akan memandu Anda melalui prasyarat, mengimpor paket yang diperlukan, dan memandu langkah-langkah yang diperlukan untuk mengekspor PSD Anda dengan masker kompleks ke dalam format PNG. Mari kita mulai!
 ## Prasyarat
@@ -83,3 +89,9 @@ Aspose.PSD menawarkan uji coba gratis yang dapat diunduh dari situs mereka. Untu
 Jika file PSD Anda tidak berisi masker apa pun, ekspor akan tetap berhasil, tetapi Anda tidak akan melihat efek apa pun yang diberikan oleh lapisan masker.
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?  
  Untuk pertanyaan atau masalah apa pun, Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/psd/34) untuk bantuan dari dukungan Aspose dan komunitas pengguna.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java için Aspose.PSD'de Görüntüyü Dikdörtgenle Kırp
 linktitle: Resmi Dikdörtgene Göre Kırp
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java'nın kesintisiz görüntü kırpma özelliklerini keşfedin. Aspose.PSD for Java'yı kullanarak görüntüleri zahmetsizce kırpmak için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 15
 url: /tr/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.PSD'de Görüntüyü Dikdörtgenle Kırp
+
 ## giriiş
 
 Java geliştirme dünyasında görüntüleri değiştirmek yaygın bir görevdir ve Aspose.PSD for Java, görüntü işleme için güçlü bir çözüm sunar. Bu eğitimde, Aspose.PSD for Java'yı kullanarak bir görüntüyü dikdörtgen şeklinde kırpma sürecinde size rehberlik edeceğiz. Bunu kolaylıkla başarmak için aşağıdaki adımları izleyin.
@@ -105,3 +111,9 @@ Cevap1: Evet, Aspose.PSD for Java, çeşitli Java çerçeveleriyle entegre edile
 ### S5: Aspose.PSD for Java'da kırpma için desteklenen görüntü formatları nelerdir?
 
 Cevap5: Aspose.PSD for Java, PSD, PNG, JPEG ve daha fazlasını içeren çeşitli görüntü formatlarını destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

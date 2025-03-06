@@ -3,10 +3,16 @@ title: Použití Bradleyho prahu v Aspose.PSD pro .NET
 linktitle: Použití Bradleyho prahu
 second_title: Aspose.PSD .NET API
 description: Vylepšete segmentaci obrazu pomocí Bradley Threshold v Aspose.PSD pro .NET. Návod krok za krokem pro efektivní binarizaci.
-type: docs
 weight: 15
 url: /cs/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použití Bradleyho prahu v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vítejte v našem komplexním tutoriálu o aplikaci Bradley Threshold v Aspose.PSD pro .NET. Aspose.PSD for .NET je výkonná knihovna, která vám umožňuje pracovat se soubory Photoshopu ve vašich aplikacích .NET. Bradley Thresholding je technika používaná pro binarizaci obrazu, která pomáhá efektivně oddělovat objekty od pozadí.
@@ -90,3 +96,9 @@ A1: Ano, Bradley Thresholding je všestranná technika vhodná pro různé typy 
 ### Q5: Kde mohu zakoupit licenci pro Aspose.PSD?
 
  A5: Můžete si koupit licenci[zde](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

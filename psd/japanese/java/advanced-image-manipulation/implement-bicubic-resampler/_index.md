@@ -3,10 +3,16 @@ title: Aspose.PSD for Java でバイキュービック リサンプラーを実�
 linktitle: バイキュービックリサンプラーを実装する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java Bicubic Resampler を使用して、Java イメージのサイズ変更を強化します。優れた結果を得るには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java でバイキュービック リサンプラーを実装する
+
 ## 導入
 
 Java 開発の世界では、高品質の画像サイズ変更を実現することが一般的な要件です。Aspose.PSD for Java は、Bicubic Resampler による強力なソリューションを提供します。このステップ バイ ステップ ガイドでは、Aspose.PSD for Java を使用して Bicubic Resampler を実装するプロセスについて説明します。このチュートリアルを完了すると、優れた画像サイズ変更機能を使用して Java アプリケーションを強化できるようになります。
@@ -91,3 +97,9 @@ A1: はい、Aspose.PSD for Java は PSD、PNG、JPEG など、さまざまな�
 ### Q5: Aspose.PSD for Java を購入するにはどうすればよいですか?
 
  A5: Aspose.PSD for Javaは購入ページからご購入いただけます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

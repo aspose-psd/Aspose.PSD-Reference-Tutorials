@@ -3,10 +3,16 @@ title: Változtassa meg a keverési módot a Gradiens Overlay Effectben
 linktitle: Változtassa meg a keverési módot a Gradiens Overlay Effectben
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan módosíthatja a keverési módot színátmenetes átfedésben az Aspose.PSD for Java segítségével. Útmutató lépésről lépésre lenyűgöző grafikák készítéséhez.
-type: docs
 weight: 19
 url: /hu/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Változtassa meg a keverési módot a Gradiens Overlay Effectben
+
 ## Bevezetés
 Szeretnéd feldobni grafikai tervezésű játékodat néhány fejlett technikával? Talán programozottan szeretné kezelni a Photoshop-fájlok rétegeit? Ha igen, akkor jó helyen jársz! Ebben az oktatóanyagban végigvezetjük a színátmenet átfedő effektusok keverési módjának megváltoztatásának lépésein az Aspose.PSD for Java használatával. Akár tapasztalt fejlesztő, akár kezdő tervező, ezek a technikák elérhetőek és hatékonyak projektjeihez. 
 ## Előfeltételek
@@ -77,3 +83,9 @@ Különféle műveleteket hajthat végre, beleértve a rétegek szerkesztését,
  Igen! Látogassa meg az Aspose támogatási fórumát[itt](https://forum.aspose.com/c/psd/34) a közösség és a technikai személyzet segítségéért.
 ### Vásárolhatok ideiglenes licencet az Aspose.PSD-hez?
  Teljesen! Ideiglenes jogosítványt igényelhet[itt](https://purchase.aspose.com/temporary-license/) a teljes szolgáltatás korlátozás nélküli tesztelésére.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

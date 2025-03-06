@@ -3,10 +3,16 @@ title: Расширяйте и обрезайте изображения с по
 linktitle: Развернуть и обрезать изображения
 second_title: Aspose.PSD Java API
 description: Узнайте, как расширять и обрезать изображения в Java с помощью Aspose.PSD. Пошаговое руководство по эффективной обработке изображений.
-type: docs
 weight: 18
 url: /ru/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширяйте и обрезайте изображения с помощью Aspose.PSD для Java
+
 ## Введение
 
 В этом уроке мы рассмотрим, как использовать Aspose.PSD для Java для эффективного расширения и обрезки изображений. Aspose.PSD — мощная библиотека, предоставляющая широкий набор функций для работы с PSD-файлами в Java-приложениях. В этом руководстве мы рассмотрим необходимые предварительные условия, импорт пакетов и разберем каждый шаг с подробными объяснениями.
@@ -102,3 +108,9 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 ### В5: Есть ли бесплатная пробная версия?
 
  О5: Да, вы можете изучить Aspose.PSD с помощью бесплатной пробной версии. Загрузите это[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

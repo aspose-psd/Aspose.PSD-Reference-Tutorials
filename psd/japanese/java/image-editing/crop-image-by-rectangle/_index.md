@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で画像を四角形に切り取る
 linktitle: 画像を長方形で切り取る
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して、Java でのシームレスな画像切り抜き機能を試してみましょう。Aspose.PSD for Java を使用して画像を簡単に切り抜くには、ステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で画像を四角形に切り取る
+
 ## 導入
 
 Java 開発の世界では、画像の操作は一般的なタスクであり、Aspose.PSD for Java は画像処理のための強力なソリューションを提供します。このチュートリアルでは、Aspose.PSD for Java を使用して画像を四角形で切り取るプロセスについて説明します。これを簡単に実現するには、以下の手順に従ってください。
@@ -105,3 +111,9 @@ A1: はい、Aspose.PSD for Java はさまざまな Java フレームワーク�
 ### Q5: Aspose.PSD for Java でトリミングできる画像形式は何ですか?
 
 A5: Aspose.PSD for Java は、PSD、PNG、JPEG など、さまざまな画像形式をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

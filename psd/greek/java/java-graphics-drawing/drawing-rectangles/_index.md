@@ -3,10 +3,16 @@ title: Σχεδιάζοντας ορθογώνια σε Java
 linktitle: Σχεδιάζοντας ορθογώνια σε Java
 second_title: Aspose.PSD Java API
 description: Μάθετε να σχεδιάζετε ορθογώνια σε εικόνες χρησιμοποιώντας το Aspose.PSD για Java. Αυτό το σεμινάριο καθοδηγεί τους προγραμματιστές Java βήμα προς βήμα. Ιδανικό για εργασίες χειρισμού εικόνας.
-type: docs
 weight: 17
 url: /el/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σχεδιάζοντας ορθογώνια σε Java
+
 ## Εισαγωγή
 Στον κόσμο της ανάπτυξης Java, ο χειρισμός και η δημιουργία εικόνων μέσω προγραμματισμού είναι μια κοινή απαίτηση σε διάφορες εφαρμογές. Μια τέτοια εργασία που συναντάται συχνά είναι η σχεδίαση σχημάτων σαν ορθογώνια σε εικόνες. Το Aspose.PSD για Java παρέχει ένα ισχυρό σύνολο εργαλείων και λειτουργιών για να επιτευχθεί αυτό αποτελεσματικά. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία σχεδίασης ορθογωνίων σε μια εικόνα χρησιμοποιώντας το Aspose.PSD για Java, βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -84,3 +90,9 @@ image.save(outpath, saveOptions);
  Μπορείτε να εξερευνήσετε περισσότερα παραδείγματα και λεπτομερή τεκμηρίωση για το[Aspose.PSD για τεκμηρίωση Java](https://reference.aspose.com/psd/java/).
 ### Το Aspose.PSD για Java υποστηρίζει άλλες μορφές εικόνας εκτός από το BMP;
 Ναι, το Aspose.PSD για Java υποστηρίζει ένα ευρύ φάσμα μορφών εικόνας, συμπεριλαμβανομένων των PNG, JPEG, TIFF και GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

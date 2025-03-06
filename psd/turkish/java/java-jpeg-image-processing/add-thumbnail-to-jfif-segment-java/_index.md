@@ -3,10 +3,16 @@ title: Java'da JFIF Segmentine Küçük Resim Ekleme
 linktitle: Java'da JFIF Segmentine Küçük Resim Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD'yi kullanarak Java'da bir PSD görüntüsüne nasıl küçük resim ekleyeceğinizi adım adım öğrenin. Görüntü işleme yeteneklerini geliştirmek isteyen Java geliştiricileri için idealdir.
-type: docs
 weight: 11
 url: /tr/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da JFIF Segmentine Küçük Resim Ekleme
+
 ## giriiş
 Java geliştirme alanında, görüntü işleme yeteneklerinin entegre edilmesi, basit görüntü manipülasyonlarından karmaşık grafik tasarım görevlerine kadar çeşitli uygulamalar için çok önemlidir. Aspose.PSD for Java, PSD (Photoshop Document) dosyalarını kolaylıkla işlemek için tasarlanmış güçlü bir kütüphane olarak öne çıkıyor. Bu eğitim belirli bir göreve odaklanıyor: Aspose.PSD for Java kullanarak bir görüntünün JFIF segmentine küçük resim eklemek. Bu kılavuzun sonunda, her bir parçayı iyice kavramanızı sağlayacak şekilde bunu adım adım nasıl gerçekleştireceğinizi öğreneceksiniz.
 ## Önkoşullar
@@ -90,3 +96,9 @@ Aspose.PSD for Java, Java geliştiricilerinin PSD dosyalarını programlı olara
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose.PSD'nin deneme indirme sayfası](https://releases.aspose.com/).
 ### Aspose.PSD for Java desteğini nasıl alabilirim?
  Destek için şu adresi ziyaret edin:[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

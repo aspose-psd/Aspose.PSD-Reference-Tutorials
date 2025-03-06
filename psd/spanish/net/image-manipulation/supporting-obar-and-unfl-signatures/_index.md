@@ -3,10 +3,16 @@ title: Compatibilidad con firmas ObAr y UnFl en Aspose.PSD para .NET
 linktitle: Compatible con firmas ObAr y UnFl
 second_title: API Aspose.PSD .NET
 description: Explore el poder de Aspose.PSD para .NET al admitir firmas ObAr y UnFl. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 15
 url: /es/net/image-manipulation/supporting-obar-and-unfl-signatures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compatibilidad con firmas ObAr y UnFl en Aspose.PSD para .NET
+
 ## Introducción
 
 En el ámbito del desarrollo .NET, Aspose.PSD se destaca como una poderosa herramienta para manipular y procesar archivos de Photoshop. Entre sus ricas funciones, la compatibilidad con firmas ObAr y UnFl es crucial para la edición avanzada de imágenes. Este tutorial lo guiará a través del proceso, desglosando cada paso para garantizar una implementación perfecta.
@@ -119,3 +125,9 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 ### P5: ¿Dónde puedo comprar Aspose.PSD para .NET?
 
  A5: Puedes comprar Aspose.PSD[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

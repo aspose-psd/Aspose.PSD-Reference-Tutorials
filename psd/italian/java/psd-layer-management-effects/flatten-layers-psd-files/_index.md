@@ -3,10 +3,16 @@ title: Appiattisci i livelli nei file PSD utilizzando Aspose.PSD Java
 linktitle: Appiattisci i livelli nei file PSD utilizzando Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Appiattisci e unisci i livelli nei file PSD senza sforzo utilizzando Aspose.PSD per Java. Segui questa guida passo passo per semplificare la gestione dei file PSD.
-type: docs
 weight: 13
 url: /it/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appiattisci i livelli nei file PSD utilizzando Aspose.PSD Java
+
 ## Introduzione
 
 Ti sei mai trovato a lavorare con file Photoshop e desideri un modo più semplice per gestire quei livelli complessi? Bene, sei fortunato! Oggi ci immergiamo nel mondo di Aspose.PSD per Java, un potente strumento che semplifica il lavoro con i file PSD a livello di codice. Una delle funzionalità utili che esploreremo è l'appiattimento dei livelli. Sia che tu voglia appiattire un'intera immagine o unire selettivamente livelli specifici, Aspose.PSD per Java ti copre. Questo tutorial ti guiderà attraverso il processo, passo dopo passo, assicurandoti di essere pronto ad affrontare i tuoi file PSD con sicurezza.
@@ -150,3 +156,9 @@ Sì, puoi unire i livelli con diversi metodi di fusione utilizzando Aspose.PSD e
 
 ### Cosa succede se provo a unire livelli non adiacenti?  
 Aspose.PSD ti consente di unire qualsiasi livello indipendentemente dal suo ordine nella pila di livelli. Il processo di fusione combinerà i livelli selezionati come specificato.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

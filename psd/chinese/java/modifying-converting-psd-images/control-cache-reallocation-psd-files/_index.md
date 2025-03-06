@@ -3,10 +3,16 @@ title: 控制 PSD 文件中的缓存重新分配
 linktitle: 控制 PSD 文件中的缓存重新分配
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 管理 PSD 文件中的缓存重新分配。了解如何有效优化内存和文件处理 - 非常适合开发人员。
-type: docs
 weight: 22
 url: /zh/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 控制 PSD 文件中的缓存重新分配
+
 ## 介绍
 当以编程方式处理图像和 Photoshop 文件时，效率是一个关键因素。Aspose.PSD for Java 提供强大的功能来无缝管理和操作 PSD 文件。优化性能的基本方面之一是控制缓存重新分配。缓存管理有助于保持内存和磁盘使用之间的平衡，确保您的应用程序运行顺畅，不会出现意外崩溃或减速。 
 ## 先决条件
@@ -127,3 +133,9 @@ Aspose.PSD 是一个供.NET 和 Java 开发人员以编程方式创建、操作�
 Aspose.PSD 是一个付费库，但你可以先从其网站上的免费试用版开始。[网站](https://releases.aspose.com/).
 ### 如果我不处理物体会发生什么情况？
 不处置对象可能会导致内存泄漏，从而导致应用程序使用比必要更多的资源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Modification et conversion d'images PSD
 linktitle: Modification et conversion d'images PSD
 second_title: API Java Aspose.PSD
 description: Découvrez les didacticiels essentiels Aspose.PSD pour Java. Apprenez à gérer les fichiers PSD, à exporter des calques, à appliquer des effets et bien plus encore grâce à des guides étape par étape.
-type: docs
 weight: 22
 url: /fr/java/psd-image-modification-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modification et conversion d'images PSD
+
 ## Introduction
 
 Bienvenue dans notre guide sur l'utilisation d'Aspose.PSD pour Java ! Cette collection de didacticiels est conçue pour aider les développeurs et les graphistes à travailler efficacement avec les fichiers PSD. Que vous cherchiez à modifier des images, à gérer des calques ou à appliquer des effets, nous avons ce qu'il vous faut. Passons à quelques didacticiels clés qui amélioreront vos compétences en traitement d'image.
@@ -102,3 +108,9 @@ Découvrez comment gérer les calques de réglage du mélangeur de canaux RVB et
 Améliorez vos images PSD sans effort avec Java en utilisant Aspose.PSD. Suivez ce guide texposureo pour gérer les calques de réglage étape par étape.
 ### [Gérer le calque de réglage du filtre photo dans PSD - Java](./manage-photo-filter-adjustment-layer-psd/)
 Découvrez comment gérer les calques de réglage des filtres photo dans les fichiers PSD avec Aspose.PSD pour Java. Suivez ce guide pour modifier et ajouter des filtres sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

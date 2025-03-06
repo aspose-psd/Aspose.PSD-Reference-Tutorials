@@ -3,10 +3,16 @@ title: Maak een afbeelding met Stream in Aspose.PSD voor Java
 linktitle: Maak een afbeelding met Stream
 second_title: Aspose.PSD Java-API
 description: Leer hoe u afbeeldingen kunt maken met behulp van stream in Aspose.PSD voor Java. Volg deze stapsgewijze handleiding voor een efficiënte beeldverwerking.
-type: docs
 weight: 14
 url: /nl/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een afbeelding met Stream in Aspose.PSD voor Java
+
 ## Invoering
 
 Op het gebied van Java-ontwikkeling onderscheidt Aspose.PSD zich als een robuuste bibliotheek voor beeldverwerking. Een van de krachtige functies is de mogelijkheid om afbeeldingen te maken met behulp van streams, wat flexibiliteit en efficiëntie biedt bij het verwerken van afbeeldingsgegevens. Deze tutorial leidt u door het proces van het maken van afbeeldingen met behulp van stream in Aspose.PSD voor Java, en biedt een praktische ervaring met stapsgewijze instructies.
@@ -114,3 +120,9 @@ A1: Ja, Aspose.PSD is ontworpen om naadloos te integreren met andere Java-biblio
 ### V5: Wat zijn de systeemvereisten voor Aspose.PSD?
 
  A5: Raadpleeg de[documentatie](https://reference.aspose.com/psd/java/) voor gedetailleerde systeemvereisten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

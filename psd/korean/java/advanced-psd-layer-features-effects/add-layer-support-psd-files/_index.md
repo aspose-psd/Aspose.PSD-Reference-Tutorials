@@ -3,10 +3,16 @@ title: Aspose.PSD Java를 사용하여 PSD 파일에 대한 레이어 지원 추
 linktitle: Aspose.PSD Java를 사용하여 PSD 파일에 대한 레이어 지원 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 레이어가 있는 PSD 파일을 PNG 형식으로 쉽게 관리하고 변환하세요! 그래픽 조작이 필요한 개발자에게 적합합니다.
-type: docs
 weight: 13
 url: /ko/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java를 사용하여 PSD 파일에 대한 레이어 지원 추가
+
 ## 소개
 그래픽 디자인과 디지털 아트 분야에서는 PSD(Photoshop Document) 파일로 작업하는 것이 일반적입니다. 이러한 파일에는 독립적으로 조작할 수 있는 여러 레이어가 포함되어 유연성과 창의성을 제공하는 경우가 많습니다. 하지만 Java 애플리케이션에서 이러한 파일을 사용하여 작업해야 하면 어떻게 될까요? 글쎄, 이것이 Aspose.PSD가 작동하는 곳입니다! 이 기사에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에 대한 레이어 지원을 추가하는 방법을 살펴보겠습니다. 우리는 이것을 따라하기 쉬운 단계로 나누어 초보자부터 전문가까지 누구나 쉽게 접근할 수 있도록 하겠습니다.
 ## 전제조건
@@ -101,3 +107,9 @@ Aspose.PSD for Java는 Photoshop을 설치하지 않고도 PSD 파일을 조작�
  Aspose 포럼에서 지원에 액세스할 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
 ### PNG에서 PSD로 다시 변환할 수 있나요?
 Aspose.PSD 라이브러리는 다른 형식을 PSD로 다시 변환하는 것보다 PSD 파일을 읽고 조작하는 데 더 중점을 둡니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

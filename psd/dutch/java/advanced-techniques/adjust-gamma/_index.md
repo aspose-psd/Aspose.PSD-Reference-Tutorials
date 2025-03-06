@@ -3,10 +3,16 @@ title: Pas het gamma van een afbeelding aan met Aspose.PSD voor Java
 linktitle: Pas de gamma van een afbeelding aan
 second_title: Aspose.PSD Java-API
 description: Leer moeiteloos het beeldgamma aanpassen met Aspose.PSD voor Java. Volg onze stap-voor-stap handleiding voor een optimaal resultaat.
-type: docs
 weight: 23
 url: /nl/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas het gamma van een afbeelding aan met Aspose.PSD voor Java
+
 ## Invoering
 
 Op het gebied van beeldverwerking is het aanpassen van het gamma van een afbeelding een cruciale stap om de visuele aantrekkingskracht ervan te vergroten. Aspose.PSD voor Java biedt een krachtige oplossing voor Java-ontwikkelaars om moeiteloos beeldgamma te manipuleren. In deze zelfstudie onderzoeken we hoe u gamma kunt aanpassen met Aspose.PSD, waarbij we elke stap opsplitsen om een naadloze implementatie te garanderen.
@@ -108,3 +114,9 @@ Gefeliciteerd! U hebt het gamma van een afbeelding met succes aangepast met Aspo
 ### V5: Waar kan ik ondersteuning zoeken voor Aspose.PSD?
 
  A5: Bezoek voor ondersteuning het Aspose.PSD-forum op[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

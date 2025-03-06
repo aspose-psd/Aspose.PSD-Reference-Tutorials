@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中加入圖案效果
 linktitle: 添加圖案效果
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 輕鬆增強您的 Java 影像圖案。按照我們的逐步教學添加迷人的圖案效果。
-type: docs
 weight: 12
 url: /zh-hant/java/advanced-image-effects/add-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中加入圖案效果
+
 ## 介紹
 
 在 Java 開發領域，增強影像模式是一項常見任務，Aspose.PSD for Java 為此提供了強大的解決方案。本教學將引導您使用 Aspose.PSD 添加圖案效果的過程，確保您的影像透過獨特的疊加和增強功能脫穎而出。
@@ -138,3 +144,9 @@ A1：Aspose.PSD for Java 設計為獨立工作，但如果需要，您可以將�
 ### Q5：我可以獲得 Aspose.PSD for Java 的臨時授權嗎？
 
 A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adicionando efeitos de gradiente a imagens em Aspose.PSD para .NET
 linktitle: Adicionando efeitos de gradiente às imagens
 second_title: API Aspose.PSD .NET
 description: Aprimore suas imagens com efeitos gradientes cativantes usando Aspose.PSD para .NET. Siga nosso tutorial passo a passo para transformações visuais criativas.
-type: docs
 weight: 11
 url: /pt/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando efeitos de gradiente a imagens em Aspose.PSD para .NET
+
 ## Introdução
 
 Aprimorar imagens com efeitos gradientes pode adicionar uma dimensão cativante ao seu conteúdo visual. Aspose.PSD for .NET fornece uma plataforma poderosa para incorporar sobreposições de gradiente em suas imagens. Neste tutorial, orientaremos você no processo de adição de efeitos de gradiente usando Aspose.PSD para .NET.
@@ -148,3 +154,9 @@ A3: Sim, você pode explorar os recursos do Aspose.PSD para .NET baixando a aval
 ### Q5: Onde posso comprar Aspose.PSD para .NET?
 
  A5: Você pode comprar a biblioteca no[Página de compra do Aspose.PSD para .NET](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

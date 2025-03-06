@@ -3,10 +3,16 @@ title: Thuộc tính dòng thời gian của hình ảnh PSD trong Aspose.PSD ch
 linktitle: Thuộc tính dòng thời gian của hình ảnh PSD
 second_title: API Aspose.PSD .NET
 description: Khám phá thế giới xử lý hình ảnh năng động với Aspose.PSD cho .NET. Thao tác các mốc thời gian PSD một cách dễ dàng. Tải thư viện ngay bây giờ!
-type: docs
 weight: 15
 url: /vi/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính dòng thời gian của hình ảnh PSD trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Trong bối cảnh phát triển .NET không ngừng phát triển, việc đón đầu xu hướng là điều cần thiết. Aspose.PSD for .NET nổi lên như một công cụ mạnh mẽ, cung cấp vô số tính năng để nâng cao khả năng xử lý hình ảnh của bạn. Một tính năng đáng chú ý là Thuộc tính dòng thời gian của hình ảnh PSD, cho phép bạn thao tác linh hoạt dòng thời gian của hình ảnh PSD.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.PSD cho .NET ở đâu?
 
  A5: Khám phá tài liệu toàn diện[đây](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

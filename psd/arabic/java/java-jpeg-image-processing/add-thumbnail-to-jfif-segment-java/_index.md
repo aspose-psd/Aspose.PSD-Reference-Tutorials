@@ -3,10 +3,16 @@ title: أضف صورة مصغرة إلى مقطع JFIF في Java
 linktitle: أضف صورة مصغرة إلى مقطع JFIF في Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة صورة مصغرة إلى صورة PSD في Java باستخدام Aspose.PSD خطوة بخطوة. مثالي لمطوري Java الذين يتطلعون إلى تحسين قدرات معالجة الصور.
-type: docs
 weight: 11
 url: /ar/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف صورة مصغرة إلى مقطع JFIF في Java
+
 ## مقدمة
 في مجال تطوير Java، يعد دمج قدرات معالجة الصور أمرًا بالغ الأهمية لمختلف التطبيقات، بدءًا من معالجة الصور البسيطة وحتى مهام التصميم الجرافيكي المعقدة. تتميز Aspose.PSD for Java بأنها مكتبة قوية مصممة للتعامل مع ملفات PSD (مستندات Photoshop) بسهولة. يركز هذا البرنامج التعليمي على مهمة محددة: إضافة صورة مصغرة إلى مقطع JFIF من الصورة باستخدام Aspose.PSD لـ Java. بحلول نهاية هذا الدليل، سوف تتعلم كيفية إنجاز هذا خطوة بخطوة، مما يضمن فهم كل جزء بدقة.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ Aspose.PSD for Java هي مكتبة تسمح لمطوري Java بمعالجة م
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[صفحة التنزيل التجريبي لـ Aspose.PSD](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.PSD لـ Java؟
  للحصول على الدعم، قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

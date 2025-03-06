@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で楕円形を作成する
 linktitle: Aspose.PSD for .NET で楕円形を作成する
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD を使用して .NET で楕円形を描画する方法を学びます。コード例付きのステップバイステップ ガイド。魅力的なグラフィックを簡単に作成できます。
-type: docs
 weight: 13
 url: /ja/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で楕円形を作成する
+
 ## 導入
 
 Aspose.PSD for .NET を使用して楕円形を作成するための包括的なガイドへようこそ。Aspose.PSD は、開発者が Adobe Photoshop を必要とせずに Photoshop ファイルを操作および変換できるようにする強力な .NET ライブラリです。このチュートリアルでは、ライブラリを使用して楕円形を描画するプロセスについて説明します。
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### Q5: テストには一時ライセンスが必要ですか?
 
  A5: はい、臨時免許証を取得することができます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

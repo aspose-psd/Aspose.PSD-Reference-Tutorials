@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntüleri Dikdörtgenle Kırpma
 linktitle: Görüntüleri Dikdörtgene Göre Kırpma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD ile .NET görüntü işleme becerilerinizi geliştirin. Hassasiyet için dikdörtgenleri kullanarak adım adım görüntü kırpmayı öğrenin.
-type: docs
 weight: 11
 url: /tr/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntüleri Dikdörtgenle Kırpma
+
 ## giriiş
 
 .NET programlama alanında görüntüleri değiştirmek ve geliştirmek yaygın bir görevdir ve Aspose.PSD for .NET bu süreci kolaylaştıran güçlü bir kütüphanedir. Bu eğitim, temel ama çok önemli bir görüntü işleme tekniğine odaklanıyor: görüntüleri bir dikdörtgenle kırpma. Bu kılavuzun sonunda Aspose.PSD for .NET kullanarak görüntülerin nasıl hassas bir şekilde kırpılacağına dair sağlam bir anlayışa sahip olacaksınız.
@@ -110,3 +116,9 @@ Cevap3: Aspose.PSD for .NET, çeşitli boyutlardaki görüntüleri işlemek içi
 ### S5: Nerede ek destek veya yardım bulabilirim?
 
  A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34)toplulukla bağlantı kurmak ve destek aramak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

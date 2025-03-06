@@ -3,10 +3,16 @@ title: Aspose.PSD for Java を使用して TIFF ファイルを圧縮する
 linktitle: Aspose.PSD for Java を使用して TIFF ファイルを圧縮する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して、品質を犠牲にすることなく TIFF ファイルを効率的に圧縮します。詳細なガイドに従ってワークフローを効率化します。
-type: docs
 weight: 10
 url: /ja/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java を使用して TIFF ファイルを圧縮する
+
 ## 導入
 
 大規模なグラフィック デザイン プロジェクトに取り組んでいて、PSD ファイルがシステムを圧迫しているとします。これらのファイルを共有するか、後で使用するために保存する必要がありますが、サイズが大きすぎて処理できません。そこで、PSD ファイルを TIFF 形式に圧縮すると便利です。TIFF ファイルは、品質とサイズのバランスが取れているため、保存と共有に最適です。このチュートリアルでは、Aspose.PSD for Java を使用して TIFF ファイルを圧縮するプロセスについて説明します。これにより、画像がコンパクトになりながらも品質が維持されます。
@@ -142,3 +148,9 @@ Aspose.PSD for Java は主に PSD ファイルを処理しますが、これら�
 ### グレースケール圧縮は画像の品質にどのような影響を与えますか?
 
 グレースケール圧縮により、画像内の色の数が減り、視覚的な詳細が減少する可能性があります。ただし、特定の種類の画像では、このトレードオフは最小限であり、ファイル サイズが大幅に削減される可能性があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

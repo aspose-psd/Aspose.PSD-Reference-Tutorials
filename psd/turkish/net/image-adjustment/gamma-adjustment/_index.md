@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Gama Ayarlamasının Uygulanması
 linktitle: Gama Ayarlamasının Uygulanması
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'in gücünü Gama Ayarlamanın uygulanmasına ilişkin adım adım kılavuzumuzla keşfedin. Görüntü parlaklığına ve kontrastına zahmetsizce ince ayar yapın.
-type: docs
 weight: 12
 url: /tr/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Gama Ayarlamasının Uygulanması
+
 ## giriiş
 
 Aspose.PSD for .NET'te Gama Ayarlamasının uygulanmasına ilişkin bu kapsamlı kılavuza hoş geldiniz! Gama ayarı, bir görüntünün parlaklığına ve kontrastına ince ayar yapmanızı sağlayan çok önemli bir görüntü işleme tekniğidir. Bu eğitimde, .NET için güçlü Aspose.PSD kütüphanesini kullanarak süreç boyunca size yol göstereceğiz.
@@ -101,3 +107,9 @@ Tebrikler! Aspose.PSD for .NET'i kullanarak Gama Ayarını başarıyla uyguladı
 ### S5: Geçici bir lisansa ihtiyacım var mı?
 
  Cevap5: Gerekirse geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

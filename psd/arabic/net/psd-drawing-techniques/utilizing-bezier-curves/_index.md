@@ -3,10 +3,16 @@ title: استخدام منحنيات Bezier في Aspose.PSD لـ .NET
 linktitle: استخدام منحنيات بيزيير
 second_title: Aspose.PSD.NET API
 description: أطلق العنان لقوة منحنيات Bezier في Aspose.PSD لـ .NET! تعلم خطوة بخطوة مع هذا البرنامج التعليمي. ارفع مستوى لعبة التصميم الجرافيكي الخاصة بك اليوم.
-type: docs
 weight: 12
 url: /ar/net/psd-drawing-techniques/utilizing-bezier-curves/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام منحنيات Bezier في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.PSD كأداة قوية لمعالجة الصور. ومن بين ميزاته، تضيف القدرة على العمل مع منحنيات Bezier بعدًا ديناميكيًا للتصميم الجرافيكي. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام منحنيات Bezier في Aspose.PSD لـ .NET. اربط حزام الأمان بينما نستكشف الخطوات اللازمة لإنشاء منحنيات مذهلة تعزز إبداعاتك المرئية.
@@ -106,3 +112,9 @@ image.Save(outpath, saveOptions);
 ### س5: هل توجد أي موارد مجانية لتعلم Aspose.PSD لـ .NET؟
 
  ج5: اكتشف[الوثائق](https://reference.aspose.com/psd/net/) للحصول على أدلة وأمثلة شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

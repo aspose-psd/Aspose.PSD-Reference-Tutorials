@@ -3,10 +3,16 @@ title: قم بتوسيع الصور واقتصاصها باستخدام Aspose.P
 linktitle: توسيع واقتصاص الصور
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية توسيع الصور واقتصاصها في Java باستخدام Aspose.PSD. دليل خطوة بخطوة لمعالجة الصور بكفاءة.
-type: docs
 weight: 18
 url: /ar/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتوسيع الصور واقتصاصها باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.PSD لـ Java لتوسيع الصور واقتصاصها بكفاءة. Aspose.PSD هي مكتبة قوية توفر مجموعة واسعة من الميزات للعمل مع ملفات PSD في تطبيقات Java. في هذا الدليل، سنغطي المتطلبات الأساسية اللازمة، واستيراد الحزم، وتقسيم كل خطوة مع شرح مفصل.
@@ -102,3 +108,9 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
  ج5: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. قم بتنزيله[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

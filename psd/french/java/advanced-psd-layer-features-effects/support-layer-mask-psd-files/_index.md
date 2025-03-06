@@ -3,10 +3,16 @@ title: Prise en charge du masque de calque dans les fichiers PSD avec Java
 linktitle: Prise en charge du masque de calque dans les fichiers PSD avec Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment prendre en charge les masques de calque dans les fichiers PSD à l'aide d'Aspose.PSD pour Java grâce à un didacticiel complet étape par étape.
-type: docs
 weight: 18
 url: /fr/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du masque de calque dans les fichiers PSD avec Java
+
 ## Introduction
 Lorsqu'il s'agit de travailler avec des fichiers PSD, les masques de calque jouent un rôle essentiel dans l'amélioration de vos conceptions et la rationalisation de votre flux de travail créatif. Dans ce didacticiel, nous verrons en profondeur comment prendre en charge les masques de calque à l'aide de la bibliothèque Aspose.PSD pour Java. Si vous êtes un aspirant développeur, concepteur ou quelqu'un qui cherche à manipuler des fichiers PSD par programmation, vous êtes au bon endroit ! Nous vous guiderons à travers les conditions préalables, importerons les packages nécessaires et passerons en revue les étapes nécessaires pour exporter votre PSD avec des masques complexes au format PNG. Commençons !
 ## Conditions préalables
@@ -83,3 +89,9 @@ Aspose.PSD propose un essai gratuit qui peut être téléchargé depuis leur sit
 Si votre fichier PSD ne contient aucun masque, l'exportation réussira quand même, mais vous ne verrez aucun effet que les masques de calque fourniraient.
 ### Où puis-je obtenir de l'aide si j'ai des problèmes ?  
  Pour toute question ou problème, vous pouvez visiter le[forum d'assistance](https://forum.aspose.com/c/psd/34) pour obtenir l'aide du support Aspose et de la communauté des utilisateurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

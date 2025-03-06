@@ -3,10 +3,16 @@ title: Rendre le calque de texte pivoté dans les fichiers PSD à l'aide de Java
 linktitle: Rendre le calque de texte pivoté dans les fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment extraire et restituer des calques de texte pivotés à partir de fichiers PSD à l'aide d'Aspose.PSD pour Java. Ce guide étape par étape couvre tout, de la configuration à l'exportation.
-type: docs
 weight: 18
 url: /fr/java/psd-layer-management-effects/render-rotated-text-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre le calque de texte pivoté dans les fichiers PSD à l'aide de Java
+
 ## Introduction
 
 Avez-vous déjà reçu un fichier PSD avec des calques de texte mystérieusement inclinés ? Peut-être en avez-vous créé un vous-même et souhaitez-vous l'exporter tout en préservant cette rotation artistique. Aspose.PSD pour Java vient à la rescousse ! Cette puissante bibliothèque vous permet de manipuler et de restituer des fichiers PSD, y compris la gestion de ces satanés calques de texte pivotés. 
@@ -135,3 +141,9 @@ Oui, la gestion de fichiers PSD volumineux peut nécessiter beaucoup de ressourc
 ### Comment puis-je obtenir de l'assistance pour Aspose.PSD pour Java ?
 
 Aspose propose différents canaux d'assistance, y compris leur documentation ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)), forums en ligne ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) et des options de support dédiées pour les utilisateurs sous licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

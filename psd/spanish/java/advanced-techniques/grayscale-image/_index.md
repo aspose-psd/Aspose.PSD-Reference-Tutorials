@@ -3,10 +3,16 @@ title: Escala de grises de una imagen usando Aspose.PSD para Java
 linktitle: Escala de grises de una imagen
 second_title: API de Java Aspose.PSD
 description: Explore Aspose.PSD para Java y aprenda cómo escalar imágenes en escala de grises sin esfuerzo con nuestro tutorial paso a paso.
-type: docs
 weight: 10
 url: /es/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Escala de grises de una imagen usando Aspose.PSD para Java
+
 ## Introducción
 
 En el ámbito del procesamiento de imágenes, convertir una imagen a escala de grises es una operación fundamental. Aspose.PSD para Java proporciona una potente solución para que los desarrolladores de Java lo logren sin problemas. En este tutorial, lo guiaremos a través del proceso de escala de grises de una imagen usando Aspose.PSD, asegurando que incluso los principiantes puedan seguirlo sin esfuerzo.
@@ -104,3 +110,9 @@ Repita estos pasos para cualquier imagen adicional que desee poner en escala de 
 ### P5: ¿Necesita ayuda o tiene preguntas?
 
  R5: Visite el foro Aspose.PSD[aquí](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

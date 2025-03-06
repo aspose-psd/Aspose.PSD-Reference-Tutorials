@@ -3,10 +3,16 @@ title: تسوية الطبقات في ملفات PSD باستخدام Aspose.PSD
 linktitle: تسوية الطبقات في ملفات PSD باستخدام Aspose.PSD Java
 second_title: Aspose.PSD جافا API
 description: قم بتسوية ودمج الطبقات في ملفات PSD بسهولة باستخدام Aspose.PSD لـ Java. اتبع هذا الدليل التفصيلي خطوة بخطوة لتبسيط إدارة ملفات PSD الخاصة بك.
-type: docs
 weight: 13
 url: /ar/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تسوية الطبقات في ملفات PSD باستخدام Aspose.PSD Java
+
 ## مقدمة
 
 هل سبق لك أن وجدت نفسك تعمل باستخدام ملفات Photoshop وأردت الحصول على طريقة أسهل لإدارة تلك الطبقات المعقدة؟ حسنًا، أنت محظوظ! اليوم، نحن نتعمق في عالم Aspose.PSD لـ Java، وهي أداة قوية تجعل من السهل العمل مع ملفات PSD برمجيًا. إحدى الميزات المفيدة التي سنستكشفها هي تسطيح الطبقات. سواء كنت تريد تسوية الصورة بأكملها أو دمج طبقات معينة بشكل انتقائي، فإن Aspose.PSD for Java هو ما تحتاجه. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن أنك مستعد للتعامل مع ملفات PSD الخاصة بك بثقة.
@@ -150,3 +156,9 @@ img.save(exportPath);
 
 ### ماذا يحدث إذا حاولت دمج الطبقات غير المتجاورة؟  
 يسمح لك Aspose.PSD بدمج أي طبقات بغض النظر عن ترتيبها في مكدس الطبقات. ستقوم عملية الدمج بدمج الطبقات المحددة كما هو محدد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

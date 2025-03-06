@@ -3,10 +3,16 @@ title: Konstruowanie prostokątów w Aspose.PSD dla .NET
 linktitle: Konstruowanie prostokątów
 second_title: Aspose.PSD API .NET
 description: Poznaj sztukę rysowania prostokątów w .NET za pomocą Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Bez wysiłku podnieś poziom swojej gry w manipulację obrazem.
-type: docs
 weight: 15
 url: /pl/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konstruowanie prostokątów w Aspose.PSD dla .NET
+
 ## Wstęp
 
 dynamicznej sferze rozwoju .NET Aspose.PSD wyróżnia się jako potężne narzędzie do obsługi manipulacji obrazami. Ten samouczek skupia się na podstawowym zadaniu: konstruowaniu prostokątów przy użyciu Aspose.PSD dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik krok po kroku przeprowadzi Cię przez proces, zapewniając dokładne zrozumienie każdej koncepcji.
@@ -94,3 +100,9 @@ A4: Użycie 32 bpp pozwala na bogatszą reprezentację kolorów, umożliwiając 
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?
 
  Odpowiedź 5: Tak, możesz eksplorować Aspose.PSD w ramach bezpłatnego okresu próbnego. Pobierz to[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

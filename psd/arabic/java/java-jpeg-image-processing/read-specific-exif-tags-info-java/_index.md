@@ -3,10 +3,16 @@ title: اقرأ معلومات علامات EXIF المحددة في Java
 linktitle: اقرأ معلومات علامات EXIF المحددة في Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية قراءة علامات EXIF محددة من صور PSD باستخدام Aspose.PSD لـ Java من خلال برنامجنا التعليمي خطوة بخطوة. تعزيز مهارات معالجة الصور الخاصة بك.
-type: docs
 weight: 19
 url: /ar/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اقرأ معلومات علامات EXIF المحددة في Java
+
 ## مقدمة
 هل تتطلع للتعمق في عالم معالجة ملفات PSD باستخدام Java؟ إذا كنت تريد فهم كيفية قراءة علامات EXIF محددة من صور PSD، فأنت في المكان الصحيح. سيرشدك هذا البرنامج التعليمي خلال العملية بأكملها باستخدام Aspose.PSD لـ Java، بدءًا من إعداد بيئتك وحتى استخراج بيانات EXIF التفصيلية. دعونا نبدأ!
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
 يدعم Aspose.PSD العديد من تنسيقات Adobe Photoshop، بما في ذلك PSD وPSB والمزيد. كما يوفر أيضًا خيارات لتحويل هذه التنسيقات إلى تنسيقات أخرى مثل PNG وJPEG وTIFF وما إلى ذلك.
 ### كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
  يمكنك الحصول على الدعم من خلال Aspose.PSD[المنتدى](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 对图像进行灰度化
 linktitle: 将图像灰度化
 second_title: Aspose.PSD Java API
 description: 探索 Aspose.PSD for Java 并学习如何通过我们的分步教程轻松地将图像灰度化。
-type: docs
 weight: 10
 url: /zh/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 对图像进行灰度化
+
 ## 介绍
 
 在图像处理领域，将图像转换为灰度是一项基本操作。Aspose.PSD for Java 为 Java 开发人员提供了强大的解决方案，可无缝实现此操作。在本教程中，我们将指导您完成使用 Aspose.PSD 对图像进行灰度化的过程，确保即使是初学者也可以轻松跟上。
@@ -104,3 +110,9 @@ rasterCachedImage.save(destName, new JpegOptions());
 ### Q5：需要支持或有疑问？
 
  A5：访问 Aspose.PSD 论坛[这里](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

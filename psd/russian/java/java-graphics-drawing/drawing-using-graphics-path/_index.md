@@ -3,10 +3,16 @@ title: Рисование с использованием графическог
 linktitle: Рисование с использованием графического пути в Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как создавать сложную графику на Java, используя класс Graphics Path Aspose.PSD. Это руководство проведет вас через каждый шаг создания потрясающих изображений.
-type: docs
 weight: 19
 url: /ru/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование с использованием графического пути в Java
+
 ## Введение
 Программное создание изображений и управление ими может оказаться интересной задачей для разработчиков Java, особенно при использовании таких библиотек, как Aspose.PSD. В этом уроке мы погрузимся в процесс рисования сложной графики с использованием класса Graphics Path в Java с помощью Aspose.PSD.
 ## Предварительные условия
@@ -85,3 +91,9 @@ Aspose.PSD — это библиотека, которая позволяет р
  Вы можете приобрести Aspose.PSD на сайте[здесь](https://purchase.aspose.com/buy).
 ### Где я могу получить поддержку для Aspose.PSD?
 Вы можете обратиться за поддержкой и обсуждениями на[Форум Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

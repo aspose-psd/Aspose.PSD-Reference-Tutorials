@@ -3,10 +3,16 @@ title: Laageffecten
 linktitle: Laageffecten
 second_title: Aspose.PSD .NET-API
 description: Ontdek de magie van laageffecten met Aspose.PSD voor .NET! Verbeter uw vaardigheden op het gebied van beeldmanipulatie door lijn-, schaduw- en overvloeimodi toe te voegen.
-type: docs
 weight: 29
 url: /nl/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laageffecten
+
 ## Invoering
 
 Ontketen het volledige potentieel van uw beeldmanipulatie-inspanningen met Aspose.PSD voor .NET. Deze uitgebreide gids laat u kennismaken met een groot aantal laageffecten die uw creatieve proces zullen transformeren. Van streken en schaduwen tot overvloeimodi: u kunt uw ontwerpen moeiteloos naar een hoger niveau tillen.
@@ -54,3 +60,9 @@ Verbeter uw afbeeldingen met Aspose.PSD voor .NET! Leer stap voor stap schaduwef
 Leer hoe u de dekking van schaduweffecten in Aspose.PSD voor .NET kunt aanpassen met deze uitgebreide zelfstudie.
 ### [Werken met overvloeimodi in Aspose.PSD voor .NET](./working-with-blend-modes/)
 Ontdek de kracht van overvloeimodi in Aspose.PSD voor .NET. Deze tutorial begeleidt u bij het toepassen van verschillende overvloeimodi met stapsgewijze voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

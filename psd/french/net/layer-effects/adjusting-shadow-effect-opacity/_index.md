@@ -3,10 +3,16 @@ title: Ajustement de l'opacité de l'effet d'ombre dans Aspose.PSD pour .NET
 linktitle: Ajustement de l'opacité de l'effet d'ombre
 second_title: API Aspose.PSD.NET
 description: Découvrez comment ajuster l'opacité de l'effet d'ombre dans Aspose.PSD pour .NET avec ce didacticiel complet.
-type: docs
 weight: 15
 url: /fr/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustement de l'opacité de l'effet d'ombre dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur l'ajustement de l'opacité de l'effet d'ombre dans Aspose.PSD pour .NET ! Dans ce didacticiel, nous vous guiderons tout au long du processus d'utilisation de la propriété Opacity de DropShadowEffect. Aspose.PSD pour .NET est une bibliothèque puissante qui vous permet de travailler de manière transparente avec des fichiers PSD dans vos applications .NET.
@@ -105,3 +111,9 @@ A4 : Oui, Aspose.PSD pour .NET est compatible avec .NET Framework et .NET Core.
 ### Q5 : Où puis-je trouver le support communautaire pour Aspose.PSD pour .NET ?
 
  A5 : Visitez le[Forums Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien et les discussions de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

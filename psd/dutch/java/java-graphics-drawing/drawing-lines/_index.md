@@ -3,10 +3,16 @@ title: Lijnen tekenen op Java
 linktitle: Lijnen tekenen op Java
 second_title: Aspose.PSD Java-API
 description: Leer met deze uitgebreide tutorial hoe u lijnen in PSD-bestanden tekent met Aspose.PSD voor Java. Verbeter uw Java-ontwikkelvaardigheden.
-type: docs
 weight: 16
 url: /nl/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijnen tekenen op Java
+
 ## Invoering
 Op het gebied van Java-ontwikkeling is het programmatisch manipuleren en creëren van PSD-bestanden (Photoshop Document) een krachtige mogelijkheid. Aspose.PSD voor Java stelt ontwikkelaars in staat verschillende taken uit te voeren, zoals het rechtstreeks tekenen van lijnen, vormen en afbeeldingen in PSD-bestanden. Deze tutorial begeleidt u bij het tekenen van lijnen met Aspose.PSD voor Java en biedt duidelijke stappen en voorbeelden waarmee u snel aan de slag kunt.
 ## Vereisten
@@ -74,3 +80,9 @@ Aspose.PSD voor Java is een krachtige Java-bibliotheek voor het programmatisch w
  Ga voor technische ondersteuning naar de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34).
 ### Waar kan ik een tijdelijke licentie voor Aspose.PSD voor Java verkrijgen?
  U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

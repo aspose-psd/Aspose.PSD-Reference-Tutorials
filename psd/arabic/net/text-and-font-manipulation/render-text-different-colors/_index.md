@@ -3,10 +3,16 @@ title: إتقان عرض النص في ملفات PSD باستخدام Aspose.PS
 linktitle: عرض النص بألوان مختلفة في طبقات النص
 second_title: Aspose.PSD.NET API
 description: قم بتحسين تطبيقات .NET الخاصة بك عن طريق إتقان عرض النص بألوان متنوعة في ملفات PSD باستخدام Aspose.PSD. ارفع قدرات التصميم الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/text-and-font-manipulation/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان عرض النص في ملفات PSD باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي خطوة بخطوة حول عرض النص بألوان مختلفة في طبقات النص باستخدام Aspose.PSD لـ .NET. Aspose.PSD عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بمعالجة ملفات PSD ومعالجتها بسلاسة. في هذا البرنامج التعليمي، سنركز على مهمة محددة: عرض النص بألوان مختلفة في طبقات النص.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ psdImage.Save(destName, pngOptions);
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.PSD لـ .NET؟
 
  ج5: نعم، إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

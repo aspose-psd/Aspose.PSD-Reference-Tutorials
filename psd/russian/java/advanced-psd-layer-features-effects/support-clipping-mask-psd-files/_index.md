@@ -3,10 +3,16 @@ title: Поддержка обтравочной маски в файлах PSD 
 linktitle: Поддержка обтравочной маски в файлах PSD с помощью Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как поддерживать обтравочные маски в файлах PSD с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству, чтобы легко манипулировать PSD-изображениями.
-type: docs
 weight: 16
 url: /ru/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка обтравочной маски в файлах PSD с помощью Aspose.PSD Java
+
 ## Введение
 В современную эпоху цифрового искусства и дизайна PSD-файлы Adobe Photoshop являются краеугольным камнем творчества. Эти файлы позволяют дизайнерам использовать слои, маски и различные эффекты, чтобы воплотить свои идеи в жизнь. Но что произойдет, если вам понадобится программно манипулировать этими файлами? Вот тут-то и вступает в игру Aspose.PSD для Java! Это надежная библиотека, которая позволяет вам легко управлять PSD-файлами и манипулировать ими. В этом уроке мы подробнее рассмотрим, как поддерживать обтравочные маски в файлах PSD с помощью Aspose.PSD для Java. 
 ## Предварительные условия
@@ -73,3 +79,9 @@ im.dispose();
  Да! Вы можете получить доступ к бесплатной пробной версии Aspose.PSD.[здесь](https://releases.aspose.com/).
 ### Как мне получить поддержку по проблемам Aspose.PSD?
  По любым вопросам или проблемам вы можете получить поддержку на форуме Aspose.[здесь](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

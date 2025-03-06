@@ -3,10 +3,16 @@ title: Importer des images dans des couches PSD à l'aide d'Aspose.PSD Java
 linktitle: Importer des images dans des couches PSD à l'aide d'Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Apprenez à importer des images dans des couches PSD à l'aide d'Aspose.PSD pour Java avec ce guide complet étape par étape.
-type: docs
 weight: 17
 url: /fr/java/psd-image-modification-conversion/import-images-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Importer des images dans des couches PSD à l'aide d'Aspose.PSD Java
+
 ## Introduction
 Lorsqu’il s’agit de travailler avec des fichiers PSD, disposer des bons outils peut faire toute la différence. Que vous soyez impliqué dans la conception graphique, l'art numérique ou même que vous essayiez simplement de pimenter vos présentations, comprendre comment manipuler les calques PSD peut débloquer un monde de créativité. Dans ce didacticiel, vous apprendrez à importer des images dans des calques PSD à l'aide d'Aspose.PSD pour Java. Ce guide est conçu pour vous guider à travers chaque étape d'une manière simple et engageante. Alors, prenez une tasse de café et plongeons dans le vif du sujet de la manipulation d'images dans les fichiers PSD.
 ## Conditions préalables
@@ -85,3 +91,9 @@ Oui! Aspose possède des bibliothèques pour divers langages de programmation, n
  Vous pouvez visiter le[Forum d'assistance Aspose](https://forum.aspose.com/c/psd/34) pour obtenir l’aide de la communauté et des experts Aspose.
 ### Comment acheter une licence pour Aspose.PSD pour Java ?
  Vous pouvez acheter une licence en visitant le[Page d'achat Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

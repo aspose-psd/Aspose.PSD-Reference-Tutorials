@@ -3,10 +3,16 @@ title: Suportando camadas em formato AI com Aspose.PSD para .NET
 linktitle: Suportando camadas em formato AI com Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Aprenda a lidar com camadas de formato AI sem esforço com Aspose.PSD para .NET. Siga nosso guia passo a passo para integração e manipulação perfeitas.
-type: docs
 weight: 10
 url: /pt/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suportando camadas em formato AI com Aspose.PSD para .NET
+
 Bem-vindo ao nosso guia passo a passo sobre como aproveitar o Aspose.PSD para .NET para lidar com camadas de suporte em arquivos no formato AI. Aspose.PSD simplifica tarefas complexas, tornando mais fácil para os desenvolvedores trabalharem com arquivos AI em seus aplicativos .NET. Neste tutorial, abordaremos os pré-requisitos, a importação de namespaces e dividiremos cada exemplo em várias etapas para garantir uma experiência de aprendizado perfeita.
 ## Introdução
 ### O que é Aspose.PSD?
@@ -85,3 +91,9 @@ A2: Sim, Aspose.PSD fornece funcionalidade para trabalhar com camadas de texto e
 ### Q5: Quais formatos de imagem são suportados para salvar pelo Aspose.PSD?
 
 A5: Aspose.PSD suporta vários formatos, incluindo PSD, PNG, JPEG e muito mais.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

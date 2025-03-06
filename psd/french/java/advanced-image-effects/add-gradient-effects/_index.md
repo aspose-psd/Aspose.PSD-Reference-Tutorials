@@ -3,10 +3,16 @@ title: Ajouter des effets de dégradé dans Aspose.PSD pour Java
 linktitle: Ajouter des effets de dégradé
 second_title: API Java Aspose.PSD
 description: Améliorez vos images Java avec des effets de dégradé époustouflants à l'aide d'Aspose.PSD. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 10
 url: /fr/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des effets de dégradé dans Aspose.PSD pour Java
+
 ## Introduction
 
 Bienvenue dans le didacticiel sur l'ajout d'effets de dégradé dans Aspose.PSD pour Java ! Si vous souhaitez améliorer vos images avec de superbes superpositions de dégradés, vous êtes au bon endroit. Dans ce guide, nous vous guiderons tout au long du processus à l'aide d'Aspose.PSD, une puissante bibliothèque Java pour le traitement d'images.
@@ -130,3 +136,9 @@ A2 : Aspose.PSD fournit une variété d’effets, notamment des ombres, des lue
 ### Q5 : Où puis-je acheter une licence pour Aspose.PSD pour Java ?
 
  A5 : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour obtenir des informations sur les licences.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

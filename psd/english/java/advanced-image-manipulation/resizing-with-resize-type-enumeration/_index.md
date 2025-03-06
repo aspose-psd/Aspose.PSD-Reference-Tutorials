@@ -3,10 +3,16 @@ title: Resizing with Resize Type Enumeration in Aspose.PSD for Java
 linktitle: Resizing with Resize Type Enumeration
 second_title: Aspose.PSD Java API
 description: Master image resizing in Java with Aspose.PSD. Step-by-step guide using Resize Type Enumeration. 
-type: docs
 weight: 18
 url: /java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resizing with Resize Type Enumeration in Aspose.PSD for Java
+
 ## Introduction
 
 In the ever-evolving landscape of Java development, efficient image processing is a crucial aspect that developers often grapple with. Aspose.PSD for Java emerges as a powerful solution, providing a seamless experience for resizing images with the added advantage of the Resize Type Enumeration. In this tutorial, we'll delve into the intricacies of resizing images using Aspose.PSD for Java, breaking down each step to ensure a comprehensive understanding.
@@ -86,3 +92,10 @@ A4: Yes, you can access a free trial version [here](https://releases.aspose.com/
 ### Q5: How can I obtain a temporary license for Aspose.PSD for Java?
 
 A5: To obtain a temporary license, visit [this link](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

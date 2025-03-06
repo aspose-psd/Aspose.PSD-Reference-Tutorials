@@ -3,10 +3,16 @@ title: Обрезка PSD-файлов с помощью Aspose.PSD для .NET
 linktitle: Обрезка PSD-файлов с помощью Aspose.PSD для .NET
 second_title: Aspose.PSD .NET API
 description: Изучите искусство обрезки PSD-файлов в .NET с помощью универсального набора инструментов Aspose.PSD. Улучшите свою игру по манипулированию изображениями без особых усилий.
-type: docs
 weight: 19
 url: /ru/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обрезка PSD-файлов с помощью Aspose.PSD для .NET
+
 ## Введение
 В сфере разработки .NET Aspose.PSD выделяется как мощный набор инструментов для беспрепятственной обработки файлов PSD (документ Photoshop). Когда дело доходит до манипулирования изображениями, обрезка является фундаментальной операцией, и Aspose.PSD упрощает этот процесс для разработчиков .NET. В этом уроке мы рассмотрим, как обрезать PSD-файлы с помощью Aspose.PSD для .NET, предоставив вам пошаговое руководство.
 ## Предварительные условия
@@ -72,3 +78,9 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 ### Вопрос 5: Нужна ли мне временная лицензия для целей тестирования?
 
  О5: Да, если вам нужна временная лицензия, вы можете ее получить.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

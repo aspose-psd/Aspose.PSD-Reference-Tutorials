@@ -3,10 +3,16 @@ title: Выполните простое рисование с помощью As
 linktitle: Выполнить простое рисование
 second_title: Aspose.PSD Java API
 description: Узнайте, как рисовать фигуры в файлах PSD с помощью Aspose.PSD для Java. В этом пошаговом руководстве описывается создание, добавление слоев и рисование с примерами кода.
-type: docs
 weight: 10
 url: /ru/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Выполните простое рисование с помощью Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по выполнению простого рисования с помощью Aspose.PSD для Java! В этом уроке мы изучим основы создания нового PSD-документа, добавления слоев и рисования фигур разными цветами. Aspose.PSD для Java — это мощная библиотека, которая позволяет программно манипулировать PSD-файлами, предоставляя обширные функциональные возможности для задач графического дизайна.
@@ -125,3 +131,9 @@ image.save(outPsdFilePath);
 ### Вопрос 5: Доступны ли временные лицензии для Aspose.PSD для Java?
 
  О5: Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

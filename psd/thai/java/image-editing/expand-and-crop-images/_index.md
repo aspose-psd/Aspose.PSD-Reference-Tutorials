@@ -3,10 +3,16 @@ title: ขยายและครอบตัดรูปภาพด้วย 
 linktitle: ขยายและครอบตัดรูปภาพ
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีขยายและครอบตัดรูปภาพใน Java โดยใช้ Aspose.PSD คำแนะนำทีละขั้นตอนเพื่อการประมวลผลภาพที่มีประสิทธิภาพ
-type: docs
 weight: 18
 url: /th/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ขยายและครอบตัดรูปภาพด้วย Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Aspose.PSD สำหรับ Java เพื่อขยายและครอบตัดรูปภาพอย่างมีประสิทธิภาพ Aspose.PSD เป็นไลบรารีที่มีประสิทธิภาพซึ่งมีคุณสมบัติมากมายสำหรับการทำงานกับไฟล์ PSD ในแอปพลิเคชัน Java ในคู่มือนี้ เราจะครอบคลุมถึงข้อกำหนดเบื้องต้นที่จำเป็น การนำเข้าแพ็คเกจ และแจกแจงแต่ละขั้นตอนพร้อมคำอธิบายโดยละเอียด
@@ -102,3 +108,9 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 ### คำถามที่ 5: มีการทดลองใช้ฟรีหรือไม่?
 
  A5: ได้ คุณสามารถสำรวจ Aspose.PSD ได้ด้วยการทดลองใช้ฟรี ดาวน์โหลดเลย[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

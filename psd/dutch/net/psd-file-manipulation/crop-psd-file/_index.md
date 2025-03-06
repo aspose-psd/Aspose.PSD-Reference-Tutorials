@@ -3,10 +3,16 @@ title: PSD-bestanden bijsnijden met Aspose.PSD voor .NET
 linktitle: PSD-bestanden bijsnijden met Aspose.PSD voor .NET
 second_title: Aspose.PSD .NET-API
 description: Ontdek de kunst van het bijsnijden van PSD-bestanden in .NET met Aspose.PSD, een veelzijdige toolkit. Breng uw beeldmanipulatiespel moeiteloos naar een hoger niveau.
-type: docs
 weight: 19
 url: /nl/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD-bestanden bijsnijden met Aspose.PSD voor .NET
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.PSD zich als een krachtige toolkit voor het naadloos verwerken van PSD-bestanden (Photoshop Document). Als het gaat om het manipuleren van afbeeldingen, is bijsnijden een fundamentele handeling, en Aspose.PSD vereenvoudigt dit proces voor .NET-ontwikkelaars. In deze zelfstudie onderzoeken we hoe u PSD-bestanden kunt bijsnijden met Aspose.PSD voor .NET, waarbij u een stapsgewijze handleiding krijgt.
 ## Vereisten
@@ -72,3 +78,9 @@ A1: Ja, Aspose.PSD wordt regelmatig bijgewerkt om compatibiliteit met de nieuwst
 ### Vraag 5: Heb ik een tijdelijke licentie nodig voor testdoeleinden?
 
  A5: Ja, als u een tijdelijke licentie nodig heeft, kunt u er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

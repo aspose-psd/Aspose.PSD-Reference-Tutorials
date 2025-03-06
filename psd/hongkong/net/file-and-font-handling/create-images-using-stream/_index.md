@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中使用串流建立映像
 linktitle: 使用串流創建圖像
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 中的串流建立映像。請按照我們的逐步指南進行高效率的影像處理。
-type: docs
 weight: 12
 url: /zh-hant/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中使用串流建立映像
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.PSD 作為影像處理的強大工具脫穎而出。一項特別有用的功能是能夠使用串流建立影像，從而提供處理影像資料的靈活性和效率。本逐步指南將引導您完成整個過程，分解每個元素以確保無縫體驗。在我們深入之前，讓我們先介紹一下先決條件。
@@ -111,3 +117,9 @@ A2: 尺寸可自訂；相應地調整 Image.Create 方法中的參數。
 ### Q5：有臨時許可證嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

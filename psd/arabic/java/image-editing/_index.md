@@ -3,10 +3,16 @@ title: تحرير الصور
 linktitle: تحرير الصور
 second_title: Aspose.PSD جافا API
 description: اكتشف سحر تأثيرات تراكب الألوان ودمج الصور والمعالجة السلسة للصور باستخدام Aspose.PSD. ارفع مستوى لعبة تحرير الصور الخاصة بك مع أدلةنا.
-type: docs
 weight: 23
 url: /ar/java/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحرير الصور
+
 ## مقدمة 
 
 مرحبًا بك في عالم إتقان تحرير الصور! في هذه المجموعة من البرامج التعليمية، نتعمق في الإمكانات القوية لـ Aspose.PSD لـ Java، ونرشدك خلال فن تحسين الصور ودمجها ومعالجتها دون عناء. سواء كنت مطورًا متمرسًا أو بدأت للتو، انضم إلينا في هذه الرحلة لاكتشاف سحر تأثيرات تراكب الألوان ودمج الصور وإنشاء بيانات تعريف XMP ومعالجة الصور بسلاسة. ارفع مستوى لعبة التحرير الخاصة بك باستخدام أدلة خطوة بخطوة تكشف عن إمكانات Aspose.PSD لـ Java، مما يوفر لك المهارات اللازمة لتحويل إبداعاتك المرئية. دعونا نتعمق ونستكشف عالم تحرير الصور الرائع!
@@ -67,3 +73,9 @@ url: /ar/java/image-editing/
 قم بتحسين جودة الصورة باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لتنفيذ التدرج والتخلص من نطاقات الألوان.
 ### [قم بتوسيع الصور واقتصاصها باستخدام Aspose.PSD لـ Java](./expand-and-crop-images/)
 تعرف على كيفية توسيع الصور واقتصاصها في Java باستخدام Aspose.PSD. دليل خطوة بخطوة لمعالجة الصور بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

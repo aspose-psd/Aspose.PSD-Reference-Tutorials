@@ -3,10 +3,16 @@ title: Modificando e convertendo imagens PSD
 linktitle: Modificando e convertendo imagens PSD
 second_title: API Java Aspose.PSD
 description: Aprimore seus arquivos PSD com vários ajustes e efeitos usando Aspose.PSD para Java. Tutoriais passo a passo para manipulação de cores, marcas d'água e muito mais.
-type: docs
 weight: 21
 url: /pt/java/modifying-converting-psd-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modificando e convertendo imagens PSD
+
 ## Introdução
 
 Aspose.PSD for Java fornece um kit de ferramentas versátil para trabalhar com arquivos PSD, oferecendo inúmeras opções para modificar e aprimorar suas imagens. Quer você seja um designer experiente ou esteja apenas começando, nossos tutoriais foram elaborados para ajudá-lo a aproveitar todo o potencial do Aspose.PSD. Aqui está um resumo de tutoriais que você pode explorar para dominar vários aspectos da manipulação de PSD.
@@ -102,3 +108,9 @@ Gerencie a realocação de cache em arquivos PSD usando Aspose.PSD para Java. Ap
 Aprenda a criar arquivos PSD indexados com Aspose.PSD para Java em nosso guia passo a passo. Cadastre-se agora para explorar infinitas possibilidades artísticas.
 ### [Crie miniaturas de arquivos PSD usando Java](./create-thumbnails-psd-files/)
 Aprenda como criar miniaturas de arquivos PSD sem esforço usando Java e Aspose.PSD. Siga nosso guia passo a passo para um processamento de imagem perfeito.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

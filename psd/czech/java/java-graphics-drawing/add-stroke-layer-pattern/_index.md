@@ -3,10 +3,16 @@ title: Jak přidat vzor vrstvy tahu v Javě
 linktitle: Jak přidat vzor vrstvy tahu v Javě
 second_title: Aspose.PSD Java API
 description: Naučte se, jak přidat vzor vrstvy tahu do souborů PSD pomocí Aspose.PSD for Java. Chcete-li své obrázky snadno vylepšit, postupujte podle tohoto podrobného průvodce.
-type: docs
 weight: 11
 url: /cs/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak přidat vzor vrstvy tahu v Javě
+
 ## Zavedení
 Přidání vzoru vrstvy tahu do obrázku v Javě může znít jako skličující úkol, ale s Aspose.PSD pro Javu je to jednodušší, než si myslíte. Ať už navrhujete grafiku nebo pracujete na aplikacích pro úpravu fotografií, tato příručka vás provede procesem krok za krokem. Jste připraveni začít? Pojďme se ponořit!
 ## Předpoklady
@@ -138,3 +144,9 @@ Aspose.PSD for Java je knihovna, která umožňuje vývojářům vytvářet, upr
  Podporu můžete získat na fórech komunity Aspose[zde](https://forum.aspose.com/c/psd/34).
 ### Jaké jsou systémové požadavky pro Aspose.PSD pro Java?
 Pro vývoj potřebujete nainstalovaný JDK a IDE. Knihovna podporuje více operačních systémů včetně Windows, Linux a macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

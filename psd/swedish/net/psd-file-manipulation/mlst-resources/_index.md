@@ -3,10 +3,16 @@ title: Bemästra MLST-resurshantering i Aspose.PSD för .NET
 linktitle: Hantera MLST-resurser
 second_title: Aspose.PSD .NET API
 description: Lär dig att manipulera lagertillstånd i Photoshop-filer med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för effektiv MLST-resurshantering.
-type: docs
 weight: 14
 url: /sv/net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra MLST-resurshantering i Aspose.PSD för .NET
+
 ## Introduktion
 Välkommen till den djupgående handledningen om hantering av MLST-resurser (Multiple Layer States) i Aspose.PSD för .NET. Aspose.PSD för .NET är ett kraftfullt bibliotek som ger omfattande möjligheter att arbeta med Photoshop-filer. I den här handledningen kommer vi att fokusera på stödet för MLST Resources, som erbjuder en lågnivåmekanism för att effektivt manipulera lagertillstånd.
 ## Förutsättningar
@@ -86,3 +92,9 @@ S3: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/ne
 ### F5: Hur köper jag en licens för Aspose.PSD för .NET?
 
  A5: Du kan köpa en licens[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

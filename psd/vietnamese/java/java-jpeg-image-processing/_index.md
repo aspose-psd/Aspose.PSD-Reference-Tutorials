@@ -3,10 +3,16 @@ title: Xử lý ảnh JPEG của Java
 linktitle: Xử lý ảnh JPEG của Java
 second_title: API Java Aspose.PSD
 description: Khám phá Aspose.PSD để biết các hướng dẫn về Java. Tìm hiểu cách xử lý xử lý EXIF, JFIF, JPEG, v.v. bằng hướng dẫn từng bước và ví dụ về mã.
-type: docs
 weight: 23
 url: /vi/java/java-jpeg-image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý ảnh JPEG của Java
+
 
 ## Giới thiệu
 
@@ -78,3 +84,9 @@ Tìm hiểu cách thao tác với tệp PSD và lưu chúng dưới dạng JPEG 
 Tìm hiểu cách hỗ trợ JPEG-LS với CMYK trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý và chuyển đổi hình ảnh dễ dàng.
 ### [Viết và sửa đổi dữ liệu EXIF trong Java](./write-modify-exif-data-java/)
 Tìm hiểu cách viết và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

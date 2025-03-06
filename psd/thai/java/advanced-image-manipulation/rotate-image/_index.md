@@ -3,10 +3,16 @@ title: หมุนรูปภาพใน Aspose.PSD สำหรับ Java
 linktitle: หมุนรูปภาพ
 second_title: Aspose.PSD Java API
 description: สำรวจการหมุนภาพใน Java ได้อย่างง่ายดายด้วย Aspose.PSD หมุน พลิก และบันทึกไฟล์ PSD ได้อย่างง่ายดาย
-type: docs
 weight: 19
 url: /th/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# หมุนรูปภาพใน Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 Aspose.PSD สำหรับ Java มอบชุดคุณสมบัติอันทรงพลังสำหรับการทำงานกับรูปภาพ ช่วยให้นักพัฒนาจัดการและประมวลผลไฟล์ PSD ได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะเน้นไปที่งานเฉพาะอย่างหนึ่ง นั่นคือ การหมุนรูปภาพ ไม่ว่าคุณกำลังสร้างแอปพลิเคชันแก้ไขรูปภาพหรือเพียงแค่ต้องปรับการวางแนวของรูปภาพ Aspose.PSD จะทำให้กระบวนการนี้ตรงไปตรงมา
@@ -84,3 +90,9 @@ A2: แน่นอน! Aspose.PSD มอบความยืดหยุ่น
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
 
  A5: หากคุณต้องการใบอนุญาตชั่วคราว คุณสามารถขอรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

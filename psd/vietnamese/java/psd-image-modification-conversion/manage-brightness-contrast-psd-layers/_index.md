@@ -3,10 +3,16 @@ title: Quản lý độ sáng và độ tương phản trong các lớp PSD - Ja
 linktitle: Quản lý độ sáng và độ tương phản trong các lớp PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách điều chỉnh độ sáng và độ tương phản trong tệp PSD bằng Aspose.PSD cho Java một cách dễ dàng. Lý tưởng cho các nhà phát triển và thiết kế đồ họa.
-type: docs
 weight: 21
 url: /vi/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý độ sáng và độ tương phản trong các lớp PSD - Java
+
 ## Giới thiệu
 
 Bạn có phải là nhà thiết kế đồ họa hay nhà phát triển thường xuyên làm việc với các tệp PSD (Tài liệu Photoshop) không? Bạn có thấy mình cần điều chỉnh độ sáng và độ tương phản của các lớp trong các tệp này nhưng thiếu bí quyết để tự động hóa tác vụ này bằng Java không? Vâng, bạn thật may mắn! Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách quản lý độ sáng và độ tương phản trong các lớp PSD bằng thư viện Aspose.PSD cho Java. Điều này không chỉ giúp bạn tiết kiệm thời gian mà còn nâng cao quy trình làm việc sáng tạo của bạn. Hãy xắn tay áo lên và bắt đầu!
@@ -125,3 +131,9 @@ Aspose.PSD cho Java là thư viện cho phép các nhà phát triển thao tác 
 
 ### Tôi có thể tìm hỗ trợ bổ sung cho Aspose.PSD ở đâu?
  Bạn có thể nhận hỗ trợ cho Aspose.PSD trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

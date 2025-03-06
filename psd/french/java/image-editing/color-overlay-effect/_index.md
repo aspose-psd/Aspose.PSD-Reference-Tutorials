@@ -3,10 +3,16 @@ title: Appliquer un effet de superposition de couleurs dans Aspose.PSD pour Java
 linktitle: Appliquer un effet de superposition de couleurs
 second_title: API Java Aspose.PSD
 description: Découvrez la magie des effets de superposition de couleurs dans Aspose.PSD pour Java. Améliorez votre jeu d'édition d'images avec ce guide étape par étape.
-type: docs
 weight: 10
 url: /fr/java/image-editing/color-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer un effet de superposition de couleurs dans Aspose.PSD pour Java
+
 ## Introduction
 
 Bienvenue dans le monde de la conception graphique et de la manipulation d'images utilisant Aspose.PSD pour Java ! Dans ce didacticiel, nous verrons comment appliquer un effet de superposition de couleurs pour améliorer vos images. Cette puissante bibliothèque Java vous permet de travailler efficacement avec des fichiers PSD, en fournissant un large éventail de fonctionnalités pour le traitement d'images.
@@ -110,3 +116,9 @@ A2 : Oui, Aspose.PSD est compatible avec les IDE Java populaires comme Eclipse e
 ### Q5 : Existe-t-il des options d'essai gratuit disponibles pour Aspose.PSD ?
 
  A5 : Oui, explorez le[essai gratuit](https://releases.aspose.com/) version avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

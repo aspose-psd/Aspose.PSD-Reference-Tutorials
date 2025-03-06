@@ -3,10 +3,16 @@ title: قم بإجراء رسم بسيط باستخدام Aspose.PSD لـ Java
 linktitle: تنفيذ رسم بسيط
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية رسم الأشكال في ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا الدليل خطوة بخطوة إنشاء الطبقات وإضافتها والرسم باستخدام أمثلة التعليمات البرمجية.
-type: docs
 weight: 10
 url: /ar/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإجراء رسم بسيط باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي خطوة بخطوة حول إجراء رسم بسيط باستخدام Aspose.PSD لـ Java! في هذا البرنامج التعليمي، سوف نستكشف أساسيات إنشاء مستند PSD جديد، وإضافة الطبقات، ورسم الأشكال بألوان مختلفة. Aspose.PSD for Java هي مكتبة قوية تمكنك من التعامل مع ملفات PSD برمجياً، مما يوفر وظائف واسعة النطاق لمهام تصميم الرسومات.
@@ -125,3 +131,9 @@ image.save(outPsdFilePath);
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.PSD لـ Java؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

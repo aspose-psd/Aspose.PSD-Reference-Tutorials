@@ -3,10 +3,16 @@ title: Tự động sửa hướng hình ảnh JPEG trong Java
 linktitle: Tự động sửa hướng hình ảnh JPEG trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách tự động sửa hướng hình ảnh JPEG trong Java bằng Aspose.PSD. Nâng cao kỹ năng xử lý hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tự động sửa hướng hình ảnh JPEG trong Java
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc thao tác và tối ưu hóa hình ảnh theo chương trình đã trở thành một nhiệm vụ quan trọng đối với các nhà phát triển trên nhiều lĩnh vực khác nhau. Aspose.PSD cho Java trao quyền cho các nhà phát triển các công cụ mạnh mẽ để xử lý PSD, JPEG và các định dạng hình ảnh khác một cách hiệu quả. Hướng dẫn này đi sâu vào một nhiệm vụ cụ thể: tự động sửa hướng hình ảnh JPEG bằng Aspose.PSD cho Java. Cho dù bạn đang xây dựng một ứng dụng chỉnh sửa ảnh, quản lý tài nguyên hình ảnh trong hệ thống quản lý nội dung hay tự động hóa quy trình xử lý hình ảnh, hướng dẫn này sẽ trang bị cho bạn kiến thức cần thiết để tích hợp liền mạch chức năng này vào các ứng dụng Java của bạn.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Có, nó hỗ trợ nhiều tác vụ xử lý hình ảnh khác nhau như thay 
  Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/psd/java/).
 ### Tôi có thể dùng thử Aspose.PSD cho Java miễn phí không?
  Có, bạn có thể dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

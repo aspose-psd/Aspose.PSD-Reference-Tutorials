@@ -3,10 +3,16 @@ title: Vẽ hình chữ nhật trong Java
 linktitle: Vẽ hình chữ nhật trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách vẽ hình chữ nhật trên hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn này hướng dẫn các nhà phát triển Java từng bước. Hoàn hảo cho các tác vụ xử lý hình ảnh.
-type: docs
 weight: 17
 url: /vi/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ hình chữ nhật trong Java
+
 ## Giới thiệu
 Trong thế giới phát triển Java, thao tác và tạo hình ảnh theo chương trình là một yêu cầu chung trên nhiều ứng dụng khác nhau. Một công việc như vậy thường gặp là vẽ các hình dạng như hình chữ nhật lên hình ảnh. Aspose.PSD cho Java cung cấp một bộ công cụ và chức năng mạnh mẽ để thực hiện việc này một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình vẽ hình chữ nhật trên ảnh bằng Aspose.PSD cho Java.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Có, Aspose.PSD cho Java được thiết kế để xử lý hình ảnh hiệu
  Bạn có thể khám phá thêm các ví dụ và tài liệu chi tiết về[Aspose.PSD cho tài liệu Java](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD cho Java có hỗ trợ các định dạng hình ảnh khác ngoài BMP không?
 Có, Aspose.PSD cho Java hỗ trợ nhiều định dạng hình ảnh bao gồm PNG, JPEG, TIFF và GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lägg till Channel Mixer Adjustment Layer i PSD
 linktitle: Lägg till Channel Mixer Adjustment Layer i PSD
 second_title: Aspose.PSD Java API
 description: Förbättra dina PSD-filer med Channel Mixer Adjustment Layers med Aspose.PSD för Java. Lär dig färgmanipuleringstekniker steg för steg för levande bilder.
-type: docs
 weight: 10
 url: /sv/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till Channel Mixer Adjustment Layer i PSD
+
 ## Introduktion
 Den grafiska designens värld är full av möjligheter, men ibland kan det kännas som att få det perfekta utseendet som att vandra genom en tät skog utan karta. Har du någonsin känt att dina bilder bara saknar den där "wow"-faktorn? Tja, det är där justeringslager spelar in! Idag dyker vi in på hur man lägger till Channel Mixer Adjustment Layers med Aspose.PSD för Java. Detta är ett snyggt verktyg som låter dig göra exakta färgjusteringar av dina PSD-filer, vilket säkerställer att dina bilder poppar upp och imponerar.
 
@@ -167,3 +173,9 @@ Aspose.PSD är i första hand utformad för att arbeta med PSD-filer, men Aspose
 
 ### Finns det något sätt att få en tillfällig licens för Aspose.PSD?
  Ja! Du kan ansöka om en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

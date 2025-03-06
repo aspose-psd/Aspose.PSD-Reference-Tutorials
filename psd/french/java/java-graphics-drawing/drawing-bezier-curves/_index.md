@@ -3,10 +3,16 @@ title: Dessiner des courbes de Bézier en Java
 linktitle: Dessiner des courbes de Bézier en Java
 second_title: API Java Aspose.PSD
 description: Apprenez à dessiner des courbes de Bézier en Java à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape avec des exemples de code.
-type: docs
 weight: 14
 url: /fr/java/java-graphics-drawing/drawing-bezier-curves/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dessiner des courbes de Bézier en Java
+
 ## Introduction
 En programmation Java, dessiner des formes complexes comme les courbes de Bézier peut grandement améliorer l'attrait visuel des applications. Aspose.PSD pour Java fournit des fonctionnalités robustes pour faciliter efficacement ces tâches. Ce didacticiel vous guidera pas à pas tout au long du processus de dessin des courbes de Bézier à l'aide d'Aspose.PSD pour Java, vous permettant de créer facilement des graphiques visuellement attrayants.
 ## Conditions préalables
@@ -93,3 +99,9 @@ Oui, Aspose.PSD pour Java prend en charge les images haute résolution avec une 
 Oui, Aspose.PSD pour Java prend en charge l'exportation d'images vers différents formats tels que PNG, JPEG, TIFF, etc.
 ### Où puis-je trouver plus d’exemples et de documentation ?
  Visitez le[Documentation Aspose.PSD pour Java](https://reference.aspose.com/psd/java/) pour des guides complets et des exemples de code.## Code source complet
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

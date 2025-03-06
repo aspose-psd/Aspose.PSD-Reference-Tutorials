@@ -3,10 +3,16 @@ title: Извлечь миниатюру из PSD в Java
 linktitle: Извлечь миниатюру из PSD в Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как извлечь миниатюры из файлов PSD с помощью Aspose.PSD для Java. Это пошаговое руководство охватывает все от настройки до сохранения извлеченных изображений.
-type: docs
 weight: 15
 url: /ru/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечь миниатюру из PSD в Java
+
 ## Введение
 В этом уроке мы рассмотрим, как извлечь миниатюры из файлов PSD с помощью Aspose.PSD для Java. Миниатюры могут быть полезны для быстрого предварительного просмотра или для создания уменьшенных версий изображений, встроенных в документы PSD. Давайте углубимся в шаги, необходимые для достижения этой цели с помощью Aspose.PSD.
 ## Предварительные условия
@@ -73,3 +79,9 @@ Aspose.PSD — это библиотека Java, которая позволяе
  Временные лицензии можно получить[здесь](https://purchase.aspose.com/temporary-license/).
 ### Подходит ли Aspose.PSD для коммерческого использования?
 Да, Aspose.PSD можно использовать как для личных, так и для коммерческих проектов в соответствии с условиями лицензирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

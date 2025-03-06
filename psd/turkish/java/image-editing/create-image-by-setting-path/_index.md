@@ -3,10 +3,16 @@ title: Aspose.PSD for Java'da Yolu Ayarlayarak Görüntü Oluşturun
 linktitle: Yolu Ayarlayarak Görüntü Oluşturun
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD görüntüleri oluşturmayı öğrenin. Sorunsuz görüntü oluşturmak için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java'da Yolu Ayarlayarak Görüntü Oluşturun
+
 ## giriiş
 
 Aspose.PSD for Java kullanarak görsel oluşturmayı anlatan bu adım adım eğitime hoş geldiniz. Bu kılavuzda, bir PSD görüntüsü oluşturmak için yolun nasıl ayarlanacağını ve seçeneklerin nasıl yapılandırılacağını keşfedeceğiz. Aspose.PSD, Photoshop dosyalarıyla çalışmak için güçlü bir Java kitaplığıdır ve görüntüleri programlı olarak işlemek ve oluşturmak için kusursuz bir yol sunar.
@@ -107,3 +113,9 @@ Cevap1: Evet, Aspose.PSD çeşitli Java Entegre Geliştirme Ortamları (IDE'ler)
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
  Cevap5: Test amaçlı geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

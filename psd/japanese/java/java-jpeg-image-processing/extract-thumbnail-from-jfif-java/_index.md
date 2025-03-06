@@ -3,10 +3,16 @@ title: JavaでJFIFからサムネイルを抽出する
 linktitle: JavaでJFIFからサムネイルを抽出する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して JFIF 画像からサムネイルを抽出する方法を学びます。ステップバイステップのガイドとコード例を含む包括的なチュートリアルです。
-type: docs
 weight: 14
 url: /ja/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# JavaでJFIFからサムネイルを抽出する
+
 ## 導入
 このチュートリアルでは、Aspose.PSD for Java を使用して JFIF 画像からサムネイルを抽出する方法について説明します。Aspose.PSD は、開発者が PSD、PSB、BMP、JPEG、PNG などの画像形式をプログラムで操作および処理できるようにする強力な Java ライブラリです。サムネイルの抽出は、特に大量の画像セットやマルチメディア アプリケーションを扱う場合、画像処理でよく行われるタスクです。
 ## 前提条件
@@ -78,3 +84,9 @@ Aspose.PSD for Java は、開発者が PSD、PSB、BMP、JPEG、PNG などの画
 ドキュメントは以下からご覧いただけます[ここ](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD for Java のサポートを受けるにはどうすればよいですか?
  Aspose.PSDコミュニティフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

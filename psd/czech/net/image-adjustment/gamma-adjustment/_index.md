@@ -3,10 +3,16 @@ title: Implementace Gamma Adjustment v Aspose.PSD pro .NET
 linktitle: Implementace Gamma Adjustment
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte sílu Aspose.PSD pro .NET pomocí našeho podrobného průvodce implementací Gamma Adjustment. Bez námahy dolaďte jas a kontrast obrazu.
-type: docs
 weight: 12
 url: /cs/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementace Gamma Adjustment v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vítejte v tomto komplexním průvodci implementací Gamma Adjustment v Aspose.PSD pro .NET! Nastavení gama je klíčová technika zpracování obrazu, která umožňuje jemně doladit jas a kontrast obrazu. V tomto tutoriálu vás provedeme procesem pomocí výkonné knihovny Aspose.PSD pro .NET.
@@ -101,3 +107,9 @@ Gratuluji! Úspěšně jste implementovali Gamma Adjustment pomocí Aspose.PSD p
 ### Q5: Potřebuji dočasnou licenci?
 
  A5: V případě potřeby můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

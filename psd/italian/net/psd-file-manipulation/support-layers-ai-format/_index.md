@@ -3,10 +3,16 @@ title: Supporto di livelli in formato AI con Aspose.PSD per .NET
 linktitle: Supporto di livelli in formato AI con Aspose.PSD per .NET
 second_title: API Aspose.PSD .NET
 description: Impara a gestire i livelli del formato AI senza sforzo con Aspose.PSD per .NET. Segui la nostra guida passo passo per un'integrazione e una manipolazione perfette.
-type: docs
 weight: 10
 url: /it/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporto di livelli in formato AI con Aspose.PSD per .NET
+
 Benvenuti nella nostra guida passo passo su come sfruttare Aspose.PSD per .NET per gestire i livelli di supporto nei file in formato AI. Aspose.PSD semplifica le attività complesse, rendendo più semplice per gli sviluppatori lavorare con i file AI nelle loro applicazioni .NET. In questo tutorial tratteremo i prerequisiti, importeremo gli spazi dei nomi e suddivideremo ogni esempio in più passaggi per garantire un'esperienza di apprendimento fluida.
 ## Introduzione
 ### Cos'è Aspose.PSD?
@@ -85,3 +91,9 @@ A2: Sì, Aspose.PSD fornisce funzionalità per lavorare con i livelli di testo n
 ### Q5: Quali formati di immagine sono supportati per il salvataggio da Aspose.PSD?
 
 R5: Aspose.PSD supporta vari formati, tra cui PSD, PNG, JPEG e altri.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

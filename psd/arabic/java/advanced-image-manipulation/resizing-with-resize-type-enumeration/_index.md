@@ -3,10 +3,16 @@ title: تغيير الحجم باستخدام تغيير حجم النوع في 
 linktitle: تغيير الحجم مع تغيير حجم نوع التعداد
 second_title: Aspose.PSD جافا API
 description: تغيير حجم الصورة الرئيسية في Java باستخدام Aspose.PSD. دليل خطوة بخطوة باستخدام Resize Type Enumeration.
-type: docs
 weight: 18
 url: /ar/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير الحجم باستخدام تغيير حجم النوع في Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مشهد تطوير Java الدائم التطور، تعد المعالجة الفعالة للصور جانبًا حاسمًا غالبًا ما يتعامل معه المطورون. يظهر Aspose.PSD for Java كحل قوي، حيث يوفر تجربة سلسة لتغيير حجم الصور مع ميزة إضافية تتمثل في Resize Type Enumeration. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات تغيير حجم الصور باستخدام Aspose.PSD لـ Java، مع تفصيل كل خطوة لضمان الفهم الشامل.
@@ -86,3 +92,9 @@ image.save(destName, new JpegOptions());
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
  ج5: للحصول على ترخيص مؤقت قم بزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تراكب تأثيرات الألوان على الصور في Aspose.PS
 linktitle: تراكب تأثيرات الألوان على الصور
 second_title: Aspose.PSD.NET API
 description: اكتشف سحر Aspose.PSD لـ .NET من خلال برنامجنا التعليمي حول تراكب تأثيرات الألوان. ارفع مستوى لعبة معالجة الصور الخاصة بك دون عناء.
-type: docs
 weight: 11
 url: /ar/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تراكب تأثيرات الألوان على الصور في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 يوفر Aspose.PSD for .NET مجموعة قوية من الميزات لمعالجة الصور، مما يسمح للمطورين بتحقيق تأثيرات مذهلة دون عناء. إحدى هذه الإمكانات هي تراكب تأثيرات الألوان على الصور. في هذا البرنامج التعليمي، سنركز على تأثير ColorOverlay ونوضح كيفية تطبيقه على الصورة، وتحويل جاذبيتها البصرية.
@@ -98,3 +104,9 @@ A1: نعم، Aspose.PSD for .NET متوافق مع أطر عمل .NET المتن
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

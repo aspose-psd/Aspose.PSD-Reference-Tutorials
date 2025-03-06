@@ -3,10 +3,16 @@ title: Przycinanie obrazów przez przesunięcia w Aspose.PSD dla .NET
 linktitle: Przycinanie obrazów metodą Shift
 second_title: Aspose.PSD API .NET
 description: Naucz się bez wysiłku przycinać obrazy za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać precyzyjną regulację obrazu.
-type: docs
 weight: 12
 url: /pl/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przycinanie obrazów przez przesunięcia w Aspose.PSD dla .NET
+
 ## Wstęp
 
 W dziedzinie programowania .NET Aspose.PSD wyróżnia się jako potężny zestaw narzędzi do zadań przetwarzania obrazu. Jedną z jego godnych uwagi funkcji jest możliwość precyzyjnego przycinania obrazów dzięki funkcji „Kadrowanie przez przesunięcie”. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces płynnego przycinania obrazów przy użyciu Aspose.PSD dla .NET.
@@ -105,3 +111,10 @@ O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, umożliwiając przycina
 ### P5: Czy mogę kupić Aspose.PSD dla .NET bezpośrednio ze strony internetowej?
 
  Odpowiedź 5: Tak, możesz bezpiecznie kupić bibliotekę w witrynie[strona zakupu](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

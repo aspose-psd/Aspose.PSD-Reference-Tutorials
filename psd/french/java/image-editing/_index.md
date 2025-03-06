@@ -3,10 +3,16 @@ title: Édition d'images
 linktitle: Édition d'images
 second_title: API Java Aspose.PSD
 description: Découvrez la magie des effets de superposition de couleurs, de la fusion d'images et du traitement transparent des images avec Aspose.PSD. Améliorez votre jeu d'édition d'images avec nos guides.
-type: docs
 weight: 23
 url: /fr/java/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Édition d'images
+
 ## Introduction 
 
 Bienvenue dans le royaume de la maîtrise de l'édition d'images ! Dans cette collection de didacticiels, nous explorons les puissantes capacités d'Aspose.PSD pour Java, vous guidant dans l'art d'améliorer, de combiner et de manipuler des images sans effort. Que vous soyez un développeur chevronné ou tout juste débutant, rejoignez-nous dans ce voyage pour découvrir la magie des effets de superposition de couleurs, de la fusion d'images, de la création de métadonnées XMP et du traitement transparent des images. Améliorez votre jeu d'édition avec des guides étape par étape qui dévoilent le potentiel d'Aspose.PSD pour Java, vous fournissant les compétences nécessaires pour transformer vos créations visuelles. Plongeons et explorons le monde fascinant de l'édition d'images !
@@ -67,3 +73,9 @@ Maîtrisez le recadrage d'images avec Aspose.PSD pour Java. Un tutoriel complet 
 Améliorez la qualité de l'image avec Aspose.PSD pour Java. Suivez notre guide étape par étape pour mettre en œuvre le tramage et éliminer les bandes de couleurs.
 ### [Développez et recadrez les images avec Aspose.PSD pour Java](./expand-and-crop-images/)
 Découvrez comment agrandir et recadrer des images en Java à l'aide d'Aspose.PSD. Guide étape par étape pour un traitement d’image efficace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

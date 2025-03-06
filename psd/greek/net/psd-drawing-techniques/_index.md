@@ -3,10 +3,16 @@ title: Τεχνικές σχεδίασης PSD
 linktitle: Τεχνικές σχεδίασης PSD
 second_title: Aspose.PSD .NET API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.PSD για .NET με τα σεμινάρια μας! Κατακτήστε τις βασικές λειτουργίες σχεδίασης, δημιουργήστε εκπληκτικά γραφικά και αναβαθμίστε τις δεξιότητές σας στον χειρισμό της εικόνας.
-type: docs
 weight: 28
 url: /el/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τεχνικές σχεδίασης PSD
+
 
 ## Εισαγωγή
 
@@ -61,3 +67,9 @@ Master Aspose.PSD για τις βασικές δυνατότητες σχεδί
 Ξεκλειδώστε τις καλλιτεχνικές σας δυνατότητες με το Aspose.PSD για .NET! Ακολουθήστε το σεμινάριο μας για δημιουργικό σχέδιο με χρήση γραφικών.
 ### [Υλοποίηση σχεδίασης με GraphicsPath στο Aspose.PSD για .NET](./implementing-drawing-with-graphicspath/)
 Εξερευνήστε τη δύναμη του Aspose.PSD για .NET σε αυτό το βήμα προς βήμα σεμινάριο σχεδίασης με το GraphicsPath. Βελτιώστε τις εφαρμογές σας .NET με προηγμένο χειρισμό αρχείων Photoshop.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

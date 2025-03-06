@@ -3,10 +3,16 @@ title: Aspose.PSD Java के साथ PSD परतों के लिए भ
 linktitle: Aspose.PSD Java के साथ PSD परतों के लिए भरण अपारदर्शिता सेट करें
 second_title: Aspose.PSD जावा एपीआई
 description: इस चरण-दर-चरण मार्गदर्शिका में Aspose.PSD for Java का उपयोग करके PSD परतों के लिए भरण अपारदर्शिता सेट करना सीखें। अपने ग्राफ़िक डिज़ाइन प्रोजेक्ट को कुशलतापूर्वक बढ़ाएँ।
-type: docs
 weight: 13
 url: /hi/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java के साथ PSD परतों के लिए भरण अपारदर्शिता सेट करें
+
 ## परिचय
 क्या आप अक्सर खुद को डिज़ाइन फ़ाइलों में बदलाव करते हुए पाते हैं, ताकि वह बेहतरीन विज़ुअल इफ़ेक्ट प्राप्त कर सकें? चाहे आप एक अनुभवी ग्राफ़िक डिज़ाइनर हों या PSD फ़ाइलों में हेरफेर करने वाले एक नवोदित डेवलपर, लेयर प्रॉपर्टीज़ को एडजस्ट करने का तरीका जानना बहुत फ़र्क डाल सकता है। आज, हम Aspose.PSD for Java का उपयोग करके PSD फ़ाइल में लेयर्स के लिए फ़िल अपारदर्शिता सेट करने के तरीके के बारे में गहराई से जानेंगे। अपनी लेयर्स को आकर्षक टुकड़ों में बदलने के लिए तैयार हैं? चलिए शुरू करते हैं!
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ im.save(exportPath);
 भरण अपारदर्शिता के अलावा, आप Aspose.PSD का उपयोग करके परत दृश्यता, सम्मिश्रण मोड, स्थिति, आकार और बहुत कुछ में हेरफेर कर सकते हैं।
 ### मैं Java के लिए Aspose.PSD पर अधिक दस्तावेज़ कहां पा सकता हूं?
  आप विस्तृत दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

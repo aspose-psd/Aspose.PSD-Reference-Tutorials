@@ -3,10 +3,16 @@ title: Làm việc với các tệp hình ảnh không nén trong PSD bằng Jav
 linktitle: Làm việc với các tệp hình ảnh không nén trong PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách làm việc với các tệp hình ảnh không nén ở định dạng PSD bằng Java và thư viện Aspose.PSD trong hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 27
 url: /vi/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với các tệp hình ảnh không nén trong PSD bằng Java
+
 ## Giới thiệu
 Khi nói đến làm việc với các tài liệu Photoshop (PSD) trong Java, điều quan trọng là phải hiểu cách thao tác và lưu các tệp hình ảnh phong phú này một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách sử dụng Aspose.PSD, một API mạnh mẽ giúp đơn giản hóa việc quản lý tệp PSD, bao gồm cả cách làm việc với hình ảnh không nén. Cho dù bạn là nhà phát triển đang tìm cách nâng cao ứng dụng của mình bằng đồ họa phong phú hay bạn chỉ muốn xử lý các tệp PSD trong Java mà không gặp rắc rối, hướng dẫn này sẽ hướng dẫn bạn từng bước. Sẵn sàng để bắt đầu? Hãy nhảy vào!
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Có sẵn bản dùng thử miễn phí, nhưng để sử dụng rộng rãi v�
  Bạn có thể tiếp cận thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34) để được hỗ trợ.
 ### Aspose.PSD có hỗ trợ lưu ở các định dạng khác ngoài PSD không?
 Có, Aspose.PSD cho phép lưu ở các định dạng khác nhau như PNG, JPEG, v.v., tùy thuộc vào yêu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Támogassa az Infx-erőforrást PSD-fájlokban Java-val
 linktitle: Támogassa az Infx-erőforrást PSD-fájlokban Java-val
 second_title: Aspose.PSD Java API
 description: Ezzel az átfogó, lépésről lépésre bemutató oktatóanyaggal megtudhatja, hogyan kezelheti az Infx Resource-t PSD-fájlokban az Aspose.PSD for Java segítségével. Tökéletes minden szintű fejlesztő számára.
-type: docs
 weight: 13
 url: /hu/java/working-with-psd-files/support-infx-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Támogassa az Infx-erőforrást PSD-fájlokban Java-val
+
 ## Bevezetés
 
 PSD (Photoshop Document) fájlokkal való munka Java nyelven ijesztőnek tűnhet, de nem kell annak lennie. Képzelje el, hogy van egy többrétegű PSD-fájlja, amely különféle erőforrásokat tartalmaz, és bizonyos erőforrásokat – például az InfxResource-t – módosítania kell, miközben biztosítja, hogy a fájl sértetlensége sértetlen maradjon. Itt lép be az Aspose.PSD for Java, amely intuitív API-t kínál a PSD-fájlok zökkenőmentes kezeléséhez. Ebben az oktatóanyagban végigvezetjük, hogyan kereshet meg, szerkeszthet és menthet el egy InfxResource-t PSD-fájlban az Aspose.PSD for Java használatával. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató a lehető legegyszerűbbé teszi a PSD-források kezelését.
@@ -155,3 +161,9 @@ A változtatások mentése után azok véglegesek, hacsak nem készít biztonsá
 ### Automatizálhatom több PSD-fájl módosítását az Aspose.PSD for Java használatával?
 
 Igen, létrehozhat szkripteket több PSD-fájl kötegelt feldolgozásához, mindegyik fájlon ugyanazokat a módosításokat alkalmazva.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

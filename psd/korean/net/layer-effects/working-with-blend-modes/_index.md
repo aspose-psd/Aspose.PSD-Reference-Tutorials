@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 블렌드 모드 작업
 linktitle: 블렌드 모드 작업
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 블렌드 모드의 강력한 기능을 살펴보세요. 이 튜토리얼에서는 단계별 예제를 통해 다양한 블렌드 모드를 적용하는 과정을 안내합니다.
-type: docs
 weight: 16
 url: /ko/net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 블렌드 모드 작업
+
 ## 소개
 
 이미지 처리 기능을 향상시키려는 .NET 개발자라면 .NET용 Aspose.PSD는 다양한 블렌드 모드를 원활하게 사용할 수 있는 강력한 도구입니다. 블렌드 모드는 레이어가 서로 혼합되는 방식을 정의하여 이미지를 조작하는 데 중요한 역할을 합니다. 이 단계별 가이드에서는 블렌드 모드의 세계를 살펴보고 이를 .NET 애플리케이션에서 효과적으로 사용하는 방법을 보여줍니다.
@@ -102,3 +108,9 @@ A4: 물론이죠! 고급 이미지 조작을 위해 블렌드 모드를 다른 A
 ### Q5: Aspose.PSD 지원을 위한 커뮤니티 포럼이 있습니까?
 
  A5: 예, 다음 사이트에서 지원을 찾고 다른 사용자와 연결할 수 있습니다.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 스트리밍에 이미지 저장
 linktitle: 스트림에 이미지 저장
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 이미지를 스트림에 저장하는 방법을 살펴보세요. 효율적인 이미지 처리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 16
 url: /ko/java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 스트리밍에 이미지 저장
+
 ## 소개
 
 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지를 스트림에 저장하는 방법을 살펴보겠습니다. Aspose.PSD는 PSD(Photoshop Document) 파일을 처리하고 조작하기 위한 강력한 Java 라이브러리입니다. PSD 이미지를 스트림에 저장하는 기능으로 Java 애플리케이션을 향상시키려면 이 가이드에 설명된 단계를 따르세요.
@@ -97,3 +103,9 @@ A1: 예, Aspose.PSD는 효율적인 PSD 파일 조작을 위해 전문 Java 프�
 ### Q5: Java용 Aspose.PSD 정식 버전은 어디서 구입할 수 있나요?
 
  A5: 정식 버전을 구입하세요[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

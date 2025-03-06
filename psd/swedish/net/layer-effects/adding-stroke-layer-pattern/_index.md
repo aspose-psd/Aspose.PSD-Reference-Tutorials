@@ -3,10 +3,16 @@ title: Lägger till Stroke Layer med mönster i Aspose.PSD för .NET
 linktitle: Lägga till Stroke Layer med mönster
 second_title: Aspose.PSD .NET API
 description: Förbättra dina PSD-filer med strecklager och mönster med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 13
 url: /sv/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägger till Stroke Layer med mönster i Aspose.PSD för .NET
+
 ## Introduktion
 
 Att förbättra dina PSD-filer (Photoshop Document) med strecklager och mönster kan ge en dynamisk touch till dina mönster. I den här handledningen kommer vi att utforska hur du kan utnyttja Aspose.PSD för .NET för att enkelt lägga till ett strecklager med ett mönster till dina PSD-filer. Aspose.PSD är ett kraftfullt .NET-bibliotek som ger omfattande stöd för att manipulera PSD-filer, vilket gör det till ett ovärderligt verktyg för både utvecklare och designers.
@@ -144,3 +150,9 @@ S4: Absolut, Aspose.PSD för .NET ger robust stöd för batchbearbetning.
 ### F5: Var kan jag söka hjälp eller delta i samhällsdiskussionerna?
 
  A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) för stöd och gemenskapsinteraktioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

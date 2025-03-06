@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中調整陰影效果不透明度
 linktitle: 調整陰影效果不透明度
 second_title: Aspose.PSD .NET API
 description: 透過這個綜合教程，了解如何在 Aspose.PSD for .NET 中調整陰影效果不透明度。
-type: docs
 weight: 15
 url: /zh-hant/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中調整陰影效果不透明度
+
 ## 介紹
 
 歡迎來到我們在 Aspose.PSD for .NET 中調整陰影效果不透明度的逐步指南！在本教學中，我們將引導您完成使用 DropShadowEffect 的 Opacity 屬性的過程。 Aspose.PSD for .NET 是一個功能強大的程式庫，可讓您在 .NET 應用程式中無縫地使用 PSD 檔案。
@@ -105,3 +111,9 @@ A4：是的，Aspose.PSD for .NET 與 .NET Framework 和 .NET Core 相容。
 ### 問題 5：在哪裡可以找到 Aspose.PSD for .NET 的社群支援？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

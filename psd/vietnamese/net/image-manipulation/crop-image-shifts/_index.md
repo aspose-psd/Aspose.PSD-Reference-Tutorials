@@ -3,10 +3,16 @@ title: Cắt xén hình ảnh theo ca trong Aspose.PSD cho .NET
 linktitle: Cắt ảnh theo ca
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách cắt ảnh dễ dàng bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để điều chỉnh hình ảnh chính xác.
-type: docs
 weight: 12
 url: /vi/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt xén hình ảnh theo ca trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.PSD nổi bật như một bộ công cụ mạnh mẽ cho các tác vụ xử lý hình ảnh. Một trong những tính năng đáng chú ý của nó là khả năng cắt ảnh một cách chính xác nhờ chức năng 'Cắt theo ca'. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình cắt xén hình ảnh một cách liền mạch bằng Aspose.PSD cho .NET.
@@ -105,3 +111,10 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET trực tiếp từ trang web không?
 
  Câu trả lời 5: Có, bạn có thể mua thư viện một cách an toàn từ[trang mua hàng](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

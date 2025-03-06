@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 경로를 설정하여 이미지 생성
 linktitle: 경로를 설정하여 이미지 생성
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 이미지 생성을 살펴보세요. 단계별 가이드를 따라 이 강력한 라이브러리의 잠재력을 최대한 활용해 보세요.
-type: docs
 weight: 11
 url: /ko/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 경로를 설정하여 이미지 생성
+
 .NET 개발 영역에서 Aspose.PSD는 이미지를 조작하고 생성하는 강력한 도구로 돋보입니다. 이 튜토리얼에서는 경로를 설정하여 .NET용 Aspose.PSD를 사용하여 이미지를 생성하는 과정을 살펴보겠습니다. 이 다용도 라이브러리의 잠재력을 활용하려면 다음 단계별 지침을 따르십시오.
 
 ## 소개
@@ -98,3 +104,9 @@ A2: 물론이죠! Aspose.PSD를 사용하면 일괄 이미지 처리를 수행�
 ### Q5: 어떻게 지원을 받거나 도움을 구할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 지역사회와 연결하고 전문가의 도움을 구합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

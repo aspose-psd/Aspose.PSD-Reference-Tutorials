@@ -3,10 +3,16 @@ title: XMP-metaadatok létrehozása az Aspose.PSD-ben .NET-hez
 linktitle: XMP metaadatok létrehozása
 second_title: Aspose.PSD .NET API
 description: Fedezze fel az XMP metaadatok létrehozását az Aspose.PSD for .NET fájlban. Javítsa a képrendezést a zökkenőmentes manipulációval.
-type: docs
 weight: 10
 url: /hu/net/file-and-font-handling/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XMP-metaadatok létrehozása az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 .NET fejlesztés dinamikus világában a képek precíz manipulálása számos alkalmazás kulcsfontosságú eleme. Ez az oktatóanyag az XMP metaadatok létrehozását mutatja be az Aspose.PSD for .NET-ben, amely egy hatékony könyvtár, amely leegyszerűsíti a képfeldolgozási feladatokat. Az XMP (Extensible Metadata Platform) lehetővé teszi metaadatok beágyazását a képfájlokba, megkönnyítve a képekkel kapcsolatos információk hatékony rendszerezését és visszakeresését.
@@ -170,3 +176,9 @@ Gratulálok! Sikeresen létrehozta az XMP metaadatokat az Aspose.PSD for .NET f�
 ### 5. kérdés: Létezik közösségi fórum az Aspose.PSD támogatására?
 
  V: Igen, támogatást és vitákat találhat a webhelyen[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

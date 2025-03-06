@@ -3,10 +3,16 @@ title: Java JPEG Image Processing
 linktitle: Java JPEG Image Processing
 second_title: Aspose.PSD Java API
 description: Discover Aspose.PSD for Java tutorials. Learn to handle EXIF, JFIF, JPEG processing, and more with step-by-step guides and code examples.
-type: docs
 weight: 23
 url: /java/java-jpeg-image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java JPEG Image Processing
+
 
 ## Introduction
 
@@ -78,3 +84,9 @@ Learn how to manipulate PSD files and save them as JPEGs in Java using Aspose.PS
 Learn how to support JPEG-LS with CMYK in Java using Aspose.PSD. Follow our step-by-step guide for easy image processing and conversion.
 ### [Write and Modify EXIF Data in Java](./write-modify-exif-data-java/)
 Learn to write and modify EXIF data in PSD files using Aspose.PSD for Java with this comprehensive, step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

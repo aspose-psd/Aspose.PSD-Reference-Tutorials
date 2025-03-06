@@ -3,10 +3,16 @@ title: Kép kivágása Shifts segítségével az Aspose.PSD for Java fájlban
 linktitle: Kép kivágása műszakokkal
 second_title: Aspose.PSD Java API
 description: Képkivágás mestere az Aspose.PSD for Java segítségével. Átfogó oktatóanyag a zökkenőmentes képkezeléshez.
-type: docs
 weight: 16
 url: /hu/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép kivágása Shifts segítségével az Aspose.PSD for Java fájlban
+
 ## Bevezetés
 
 Java-alapú képfeldolgozás területén az Aspose.PSD kiemelkedően hatékony eszköz a képek rendkívüli pontosságú manipulálására és javítására. Az Aspose.PSD egyik legfontosabb jellemzője, hogy zökkenőmentesen képes kivágni a képeket. Ebben az oktatóanyagban az Aspose.PSD for Java segítségével történő képkivágás művészetébe fogunk beleásni. A végére fel lesz szerelve azokkal a készségekkel, amelyek segítségével könnyedén kivághatja a képeket az Ön specifikációinak megfelelően.
@@ -115,3 +121,10 @@ Ebben az oktatóanyagban az Aspose.PSD for Java segítségével történő képk
 ### 5. kérdés: Vannak olyan mintaprojektek, amelyek bemutatják az Aspose.PSD funkcióit?
 
  V5: Fedezze fel a dokumentációt és a példákat itt[Aspose.PSD Java dokumentáció](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

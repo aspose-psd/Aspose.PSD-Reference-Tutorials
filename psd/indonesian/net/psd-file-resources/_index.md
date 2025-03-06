@@ -3,10 +3,16 @@ title: Sumber File PSD
 linktitle: Sumber File PSD
 second_title: Asumsikan.PSD .NET API
 description: Buka potensi penuh Aspose.PSD untuk .NET dengan tutorial kami. Kuasai warna latar belakang, informasi batas, jalur kerja, dan sumber daya hitam-putih dengan mulus.
-type: docs
 weight: 31
 url: /id/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sumber File PSD
+
 
 ## Perkenalan
 
@@ -39,3 +45,9 @@ Jelajahi Aspose.PSD untuk fitur Sumber Informasi Perbatasan .NET untuk pencitraa
 Jelajahi kekuatan 'WorkingPathResource' di Aspose.PSD untuk .NET. Tingkatkan presisi gambar dengan panduan langkah demi langkah ini.
 ### [Mendukung Sumber Daya Hitam Putih (Blwh) di Aspose.PSD untuk .NET](./supporting-black-and-white-blwh-resource/)
 Jelajahi pengeditan gambar tingkat lanjut dengan Aspose.PSD untuk .NET. Pelajari cara menguasai lapisan penyesuaian Hitam dan Putih untuk kontrol yang tepat atas elemen gambar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

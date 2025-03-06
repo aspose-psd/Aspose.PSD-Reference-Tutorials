@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 将图像保存到磁盘
 linktitle: 将图像保存到磁盘
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 轻松将图像保存到磁盘。一个用于 PSD 文件操作的强大 Java 库。
-type: docs
 weight: 15
 url: /zh/java/advanced-techniques/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 将图像保存到磁盘
+
 ## 介绍
 
 Aspose.PSD for Java 使开发人员能够轻松处理 PSD 文件。将图像保存到磁盘是图像处理的一个基本方面，而 Aspose.PSD 简化了此操作。在本指南中，我们将深入研究使用 Aspose.PSD 保存图像的过程，确保您对必要的步骤有充分的了解。
@@ -91,3 +97,9 @@ A1：是的，Aspose.PSD for Java 支持各种图像格式，包括 JPEG、BMP�
 ### 问题5: Aspose.PSD for Java 有临时许可证吗？
 
  A5：是的，您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

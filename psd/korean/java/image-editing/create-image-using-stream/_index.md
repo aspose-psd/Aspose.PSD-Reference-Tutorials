@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 Stream을 사용하여 이미지 생성
 linktitle: 스트림을 사용하여 이미지 생성
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD에서 스트림을 사용하여 이미지를 생성하는 방법을 알아보세요. 효율적인 이미지 처리를 위해 이 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 Stream을 사용하여 이미지 생성
+
 ## 소개
 
 Java 개발 영역에서 Aspose.PSD는 이미지 처리를 위한 강력한 라이브러리로 돋보입니다. 강력한 기능 중 하나는 스트림을 사용하여 이미지를 생성하여 이미지 데이터 처리에 유연성과 효율성을 제공하는 기능입니다. 이 튜토리얼에서는 Java용 Aspose.PSD의 스트림을 사용하여 이미지를 생성하는 과정을 안내하고 단계별 지침을 통해 실습 경험을 제공합니다.
@@ -114,3 +120,9 @@ A1: 예, Aspose.PSD는 다른 Java 라이브러리와 원활하게 통합되어 
 ### Q5: Aspose.PSD의 시스템 요구 사항은 무엇입니까?
 
  A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/psd/java/) 자세한 시스템 요구사항을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

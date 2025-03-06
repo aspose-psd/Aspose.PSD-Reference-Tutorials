@@ -3,10 +3,16 @@ title: PSD képmódosítás és átalakítás
 linktitle: PSD képmódosítás és átalakítás
 second_title: Aspose.PSD Java API
 description: Fedezze fel az alapvető Aspose.PSD for Java oktatóanyagokat. Ismerje meg a PSD-fájlok kezelését, a rétegek exportálását, az effektusok alkalmazását és még sok mást a lépésenkénti útmutatók segítségével.
-type: docs
 weight: 22
 url: /hu/java/psd-image-modification-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD képmódosítás és átalakítás
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.PSD for Java használatáról szóló útmutatónkban! Ez az oktatóanyag-gyűjtemény célja, hogy segítse a fejlesztőket és a grafikusokat a PSD-fájlokkal való hatékony munkavégzésben. Akár képeket szeretne módosítani, akár rétegeket kezelni, akár effektusokat szeretne alkalmazni, mi mindent megtalál. Ugorjunk bele néhány kulcsfontosságú oktatóanyagba, amelyek fejlesztik képfeldolgozási készségeidet.
@@ -102,3 +108,9 @@ Fedezze fel, hogyan kezelheti az RGB és CMYK Channel Mixer beállítási réteg
 Az Aspose.PSD segítségével könnyedén javíthatja PSD-képeit a Java segítségével. Kövesse ezt az útmutatót, hogy lépésről lépésre kezelje a beállítási rétegeket.
 ### [Fényképszűrő-beállító réteg kezelése PSD-ben – Java](./manage-photo-filter-adjustment-layer-psd/)
 Ismerje meg, hogyan kezelheti a PSD-fájlok fotószűrő-beállító rétegeit az Aspose.PSD for Java segítségével. Kövesse ezt az útmutatót a szűrők könnyű szerkesztéséhez és hozzáadásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

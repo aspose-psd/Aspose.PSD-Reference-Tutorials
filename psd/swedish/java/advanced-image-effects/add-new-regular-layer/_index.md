@@ -3,10 +3,16 @@ title: Lägg till ett nytt vanligt lager till PSD med Aspose.PSD för Java
 linktitle: Lägg till ett nytt vanligt lager till PSD
 second_title: Aspose.PSD Java API
 description: Lär dig hur du lägger till ett nytt vanligt lager till PSD-filer med Aspose.PSD för Java. Följ vår steg-för-steg-guide för sömlös PSD-manipulation.
-type: docs
 weight: 11
 url: /sv/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till ett nytt vanligt lager till PSD med Aspose.PSD för Java
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om hur du använder Aspose.PSD för Java för att lägga till ett nytt vanligt lager till en PSD-fil. Aspose.PSD är ett kraftfullt Java-bibliotek som tillåter utvecklare att manipulera och arbeta med PSD-filer effektivt. I den här handledningen guidar vi dig genom processen att lägga till ett nytt vanligt lager till en PSD-fil, med detaljerade steg och kodexempel.
@@ -120,3 +126,9 @@ A2: Absolut! Aspose.PSD tillhandahåller en rad transformationsalternativ för l
 ### F5: Finns det några forum för Aspose.PSD-stöd?
 
  A5: Ja, du kan hitta stöd och diskussioner[här](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

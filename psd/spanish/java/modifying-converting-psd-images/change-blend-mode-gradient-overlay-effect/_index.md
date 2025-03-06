@@ -3,10 +3,16 @@ title: Cambiar el modo de fusión en el efecto de superposición de degradado
 linktitle: Cambiar el modo de fusión en el efecto de superposición de degradado
 second_title: API de Java Aspose.PSD
 description: Aprenda a cambiar el modo de fusión en el efecto de superposición de degradado con Aspose.PSD para Java. Guía paso a paso para crear gráficos impresionantes.
-type: docs
 weight: 19
 url: /es/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar el modo de fusión en el efecto de superposición de degradado
+
 ## Introducción
 ¿Estás buscando mejorar tu juego de diseño gráfico con algunas técnicas avanzadas? ¿Quizás quieras manipular capas en tus archivos de Photoshop mediante programación? Si es así, ¡has venido al lugar correcto! En este tutorial, lo guiaremos a través de los pasos para cambiar el modo de fusión de un efecto de superposición de degradado usando Aspose.PSD para Java. Ya sea que sea un desarrollador experimentado o un diseñador en ciernes, encontrará estas técnicas accesibles y poderosas para sus proyectos. 
 ## Requisitos previos
@@ -77,3 +83,9 @@ Puede realizar una variedad de operaciones, incluida la edición de capas, la mo
  ¡Sí! Puedes visitar el foro de soporte de Aspose.[aquí](https://forum.aspose.com/c/psd/34) para ayuda de la comunidad y personal técnico.
 ### ¿Puedo comprar una licencia temporal para Aspose.PSD?
  ¡Absolutamente! Puedes solicitar una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para probar todas las funciones sin restricciones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

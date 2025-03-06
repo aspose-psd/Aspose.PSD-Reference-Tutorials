@@ -3,10 +3,16 @@ title: Exportation d'images PSD au format GIF dans Aspose.PSD pour .NET
 linktitle: Exportation d'images PSD au format GIF
 second_title: API Aspose.PSD.NET
 description: Découvrez comment exporter des images PSD au format GIF dans .NET à l'aide d'Aspose.PSD. Un guide complet avec des instructions étape par étape.
-type: docs
 weight: 11
 url: /fr/net/psd-file-manipulation/export-psd-to-gif/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation d'images PSD au format GIF dans Aspose.PSD pour .NET
+
 ## Introduction
 Aspose.PSD pour .NET est une bibliothèque puissante qui facilite l'utilisation d'images PSD dans les applications .NET. Parmi ses fonctionnalités polyvalentes figure la possibilité d’exporter des images PSD au format GIF. Ce guide étape par étape vous guidera tout au long du processus, garantissant que vous pouvez intégrer de manière transparente cette fonctionnalité dans vos projets .NET.
 ## Conditions préalables
@@ -68,3 +74,9 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge l'exportation de fichiers PSD a
 ### Q5 : Où puis-je acheter Aspose.PSD pour .NET ?
 
  A5 : Pour acheter la bibliothèque, visitez le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Основные операции с изображениями
 linktitle: Основные операции с изображениями
 second_title: Aspose.PSD Java API
 description: Совершенствуйте свои навыки графического дизайна с помощью обучающих программ Aspose.PSD для Java. Изучите рисование, изменение размера, режимы наложения и проверку прозрачности в пошаговом руководстве.
-type: docs
 weight: 25
 url: /ru/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Основные операции с изображениями
+
 
 ## Введение
 
@@ -44,3 +50,9 @@ url: /ru/java/basic-image-operations/
 Узнайте, как добавлять к изображениям захватывающие эффекты теней с помощью Aspose.PSD для Java. Улучшите свой графический дизайн с помощью этого пошагового руководства.
 ### [Проверьте прозрачность изображения с помощью Aspose.PSD для Java](./verify-image-transparency/)
 Узнайте больше о проверке прозрачности изображений с помощью Aspose.PSD для Java. Простая интеграция, подробная документация и отличная поддержка сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

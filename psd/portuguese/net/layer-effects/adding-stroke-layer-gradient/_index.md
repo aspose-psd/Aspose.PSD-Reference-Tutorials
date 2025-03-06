@@ -3,10 +3,16 @@ title: Adicionando camada de traço com gradiente em Aspose.PSD para .NET
 linktitle: Adicionando camada de traço com gradiente
 second_title: API Aspose.PSD .NET
 description: Aprenda como adicionar uma camada de traço gradiente em Aspose.PSD para .NET. Eleve suas habilidades de manipulação de imagens com este tutorial abrangente.
-type: docs
 weight: 12
 url: /pt/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando camada de traço com gradiente em Aspose.PSD para .NET
+
 ## Introdução
 
 Se você deseja aprimorar seus aplicativos .NET com efeitos gráficos impressionantes, Aspose.PSD for .NET é a solução ideal. Neste tutorial, nos aprofundaremos no processo de adição de uma camada de traço com gradiente usando Aspose.PSD para .NET. Este guia passo a passo irá capacitá-lo a elevar o apelo visual de suas imagens sem esforço.
@@ -119,3 +125,9 @@ A1: Sim, Aspose.PSD for .NET é compatível com vários frameworks .NET.
 ### P5: Como faço para adquirir uma licença do Aspose.PSD para .NET?
 
  A5: Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

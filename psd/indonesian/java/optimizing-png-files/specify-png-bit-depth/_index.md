@@ -3,10 +3,16 @@ title: Tentukan Kedalaman Bit PNG di Aspose.PSD untuk Java
 linktitle: Tentukan Kedalaman Bit PNG di Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menentukan kedalaman bit PNG menggunakan Aspose.PSD untuk Java dalam tutorial langkah demi langkah yang mendetail ini.
-type: docs
 weight: 14
 url: /id/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Kedalaman Bit PNG di Aspose.PSD untuk Java
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan keterampilan pemrosesan gambar menggunakan Aspose.PSD untuk Java? Anda berada di tempat yang tepat! Tutorial ini akan memandu Anda melalui proses menentukan kedalaman bit PNG saat mengonversi file PSD ke format PNG. Dengan bantuan Aspose.PSD, Anda akan merasa cukup mudah untuk memanipulasi gambar Anda. Baik Anda sedang mengembangkan proyek pribadi kecil atau aplikasi yang lebih besar, mengontrol kualitas gambar melalui kedalaman bit dapat berdampak signifikan pada hasil akhir.
 ## Prasyarat
@@ -74,3 +80,9 @@ Ya, Anda dapat mencoba perpustakaan dengan uji coba gratis yang dapat Anda temuk
  Untuk izin sementara, Anda dapat mengajukan permohonan[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Jenis gambar apa yang dapat saya konversi?
 Aspose.PSD terutama berhubungan dengan file PSD, tetapi mendukung konversi ke berbagai format seperti PNG, JPEG, dan TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

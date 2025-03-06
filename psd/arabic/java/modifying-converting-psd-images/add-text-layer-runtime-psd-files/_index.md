@@ -3,10 +3,16 @@ title: إضافة طبقة نصية في وقت التشغيل في ملفات P
 linktitle: إضافة طبقة نصية في وقت التشغيل في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة طبقات النص ديناميكيًا إلى ملفات PSD باستخدام Java مع Aspose.PSD. اتبع هذا البرنامج التعليمي خطوة بخطوة للتعرف على إمكانيات الأتمتة المثيرة.
-type: docs
 weight: 17
 url: /ar/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة طبقة نصية في وقت التشغيل في ملفات PSD باستخدام Java
+
 ## مقدمة
 إذا كنت قد عملت مع Photoshop من قبل، فأنت تعرف مدى قوته في تحرير الصور. ولكن ماذا لو أخبرتك أنه يمكنك أتمتة بعض هذه المهام باستخدام Java؟ تخيل إضافة طبقات النص ديناميكيًا إلى ملفات PSD الخاصة بك برمجيًا. رائع، أليس كذلك؟ في هذا البرنامج التعليمي، سنتعمق في كيفية إضافة طبقة نص إلى ملف PSD بسرعة باستخدام مكتبة Aspose.PSD لـ Java. لذا، شمر عن سواعدك، ودعنا نبدأ في ذلك!
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ im.save(psdPath);
 نعم، طالما أن لديك واجهة Java خلفية، يمكنك الاستفادة من هذا الأسلوب في تطبيقات الويب.
 ### أين يمكنني الحصول على الدعم إذا واجهت مشاكل؟
  تحقق من[Aspose منتديات الدعم](https://forum.aspose.com/c/psd/34) حيث يمكن للمجتمع وفريق Aspose مساعدتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

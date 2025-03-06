@@ -3,10 +3,16 @@ title: Arbeta med Save Image Worker i Aspose.PSD för .NET
 linktitle: Arbeta med Save Image Worker
 second_title: Aspose.PSD .NET API
 description: Lär dig att använda Aspose.PSD för .NETs Save Image Worker för sömlös bildformatskonvertering med avbrottshantering.
-type: docs
 weight: 12
 url: /sv/net/file-saving-and-exporting/save-image-worker/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med Save Image Worker i Aspose.PSD för .NET
+
 ## Introduktion
 
  Inom .NET-utvecklingsområdet tillhandahåller Aspose.PSD en kraftfull verktygslåda för att arbeta med bilder. En nyckelaspekt är`SaveImageWorker` klass, som spelar en avgörande roll för att konvertera bilder från ett format till ett annat. Denna handledning guidar dig genom processen att arbeta med`SaveImageWorker` i Aspose.PSD för .NET, som bryter ner varje steg för tydlighet och enkel implementering.
@@ -105,3 +111,9 @@ S2: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/psd/ne
 ### F5: Kan jag köpa en tillfällig licens för Aspose.PSD för .NET?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ondersteuning van verschillende handtekeningtypen in Aspose.PSD voor .NET
 linktitle: Ondersteuning van verschillende handtekeningtypen
 second_title: Aspose.PSD .NET-API
 description: Ontdek Aspose.PSD voor .NET en ondersteun moeiteloos verschillende handtekeningtypen in uw PSD-bestanden.
-type: docs
 weight: 14
 url: /nl/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van verschillende handtekeningtypen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom in de wereld van Aspose.PSD voor .NET, een krachtige bibliotheek waarmee ontwikkelaars PSD-bestanden naadloos kunnen verwerken. In deze zelfstudie onderzoeken we het proces van het ondersteunen van verschillende handtekeningtypen in Aspose.PSD voor .NET. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze stapsgewijze handleiding begeleidt u helder en nauwkeurig door het proces.
@@ -79,3 +85,10 @@ Gefeliciteerd! U hebt met succes verschillende handtekeningtypen ondersteund in 
 ### Q5: Op zoek naar een tijdelijke licentie?
 
  A5: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

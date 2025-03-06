@@ -3,10 +3,16 @@ title: Java で PSD ファイル内の Infx リソースをサポートする
 linktitle: Java で PSD ファイル内の Infx リソースをサポートする
 second_title: Aspose.PSD Java API
 description: この包括的なステップバイステップのチュートリアルで、Aspose.PSD for Java を使用して PSD ファイル内の Infx リソースを操作する方法を学びます。あらゆるレベルの開発者に最適です。
-type: docs
 weight: 13
 url: /ja/java/working-with-psd-files/support-infx-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で PSD ファイル内の Infx リソースをサポートする
+
 ## 導入
 
 Java で PSD (Photoshop Document) ファイルを操作するのは難しそうに思えるかもしれませんが、そうである必要はありません。さまざまなリソースを含む多層 PSD ファイルがあり、ファイルの整合性を保ちながら、InfxResource などの特定のリソースを変更する必要がある場合を想像してください。ここで Aspose.PSD for Java が役に立ちます。Aspose.PSD for Java は、PSD ファイルをシームレスに管理するための直感的な API を提供します。このチュートリアルでは、Aspose.PSD for Java を使用して PSD ファイルで InfxResource を検索、編集、保存する方法について説明します。熟練した開発者でも、初心者でも、このガイドを読めば PSD リソースをできるだけ簡単に処理できます。
@@ -155,3 +161,9 @@ try {
 ### Aspose.PSD for Java を使用して複数の PSD ファイルの変更を自動化できますか?
 
 はい、スクリプトを作成して複数の PSD ファイルをバッチ処理し、各ファイルに同じ変更を適用することができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

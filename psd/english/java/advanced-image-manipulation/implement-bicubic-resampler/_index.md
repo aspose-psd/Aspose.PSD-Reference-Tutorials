@@ -3,10 +3,16 @@ title: Implement Bicubic Resampler in Aspose.PSD for Java
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 description: Enhance Java image resizing with Aspose.PSD for Java Bicubic Resampler. Follow our step-by-step guide for superior results.
-type: docs
 weight: 12
 url: /java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implement Bicubic Resampler in Aspose.PSD for Java
+
 ## Introduction
 
 In the world of Java development, achieving high-quality image resizing is a common requirement. Aspose.PSD for Java provides a powerful solution with its Bicubic Resampler. This step-by-step guide will walk you through the process of implementing the Bicubic Resampler using Aspose.PSD for Java. By the end of this tutorial, you'll be equipped to enhance your Java applications with superior image resizing capabilities.
@@ -91,3 +97,10 @@ A4: Yes, download the library from the releases page [here](https://releases.asp
 ### Q5: How do I purchase Aspose.PSD for Java?
 
 A5: You can purchase Aspose.PSD for Java from the purchase page [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

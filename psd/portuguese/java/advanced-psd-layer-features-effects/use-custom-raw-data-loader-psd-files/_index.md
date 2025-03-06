@@ -3,10 +3,16 @@ title: Use o carregador de dados brutos personalizado em arquivos PSD - Java
 linktitle: Use o carregador de dados brutos personalizado em arquivos PSD - Java
 second_title: API Java Aspose.PSD
 description: Aprenda como usar um carregador de dados brutos personalizado em arquivos PSD com Java! Este guia passo a passo cobre tudo, desde a configuração até a limpeza de recursos.
-type: docs
 weight: 29
 url: /pt/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Use o carregador de dados brutos personalizado em arquivos PSD - Java
+
 ## Introdução
 Trabalhar com arquivos PSD em Java pode parecer complicado, especialmente quando se trata de lidar com dados brutos. Não tenha medo! Ao usar Aspose.PSD para Java, você pode facilmente manipular e extrair dados brutos de pixels de arquivos PSD usando carregadores personalizados. Este guia o ajudará passo a passo no processo de implementação de um carregador de dados brutos personalizado. Cobriremos todos os pré-requisitos necessários, importaremos os pacotes necessários e dividiremos o código em etapas gerenciáveis e simples de seguir.
 ## Pré-requisitos
@@ -90,3 +96,9 @@ Aspose.PSD para Java é uma biblioteca que permite aos desenvolvedores manipular
  Para apoio e assistência comunitária, você pode visitar o[Aspor fórum](https://forum.aspose.com/c/psd/34).
 ### Como posso obter uma licença temporária para Aspose.PSD?  
 Você pode adquirir uma licença temporária para avaliar todos os recursos visitando o[página de licença temporária](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

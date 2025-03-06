@@ -3,10 +3,16 @@ title: Drawing Using Graphics in Java
 linktitle: Drawing Using Graphics in Java
 second_title: Aspose.PSD Java API
 description: Learn how to draw graphics in Java using Aspose.PSD step-by-step. Create shapes, apply colors, and export images effortlessly.
-type: docs
 weight: 18
 url: /java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Using Graphics in Java
+
 ## Introduction
 In Java programming, drawing and manipulating images programmatically is a powerful capability that developers often need. This tutorial focuses on using Aspose.PSD for Java, a robust library that enables developers to create and edit PSD files, as well as perform various graphics operations like drawing shapes, applying brushes, and exporting images. This guide will walk you through the process of drawing using graphics in Java with Aspose.PSD, breaking down each step to ensure clarity and understanding.
 ## Prerequisites
@@ -79,3 +85,10 @@ Visit the [Aspose.PSD Java documentation](https://reference.aspose.com/psd/java/
 Yes, Aspose.PSD supports exporting to various formats such as BMP, PNG, JPEG, and TIFF.
 ### How can I get support or assistance if I encounter issues?
 Reach out to the Aspose.PSD community on the [support forum](https://forum.aspose.com/c/psd/34) or consider a [temporary license](https://purchase.aspose.com/temporary-license/) for priority support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

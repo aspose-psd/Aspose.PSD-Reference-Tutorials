@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 从流加载图像
 linktitle: 从流中加载图像
 second_title: Aspose.PSD Java API
 description: 学习使用 Aspose.PSD 在 Java 中无缝加载 PSD 图像。按照我们的分步指南进行高效的图像处理。
-type: docs
 weight: 11
 url: /zh/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 从流加载图像
+
 ## 介绍
 
 Aspose.PSD for Java 是一个功能丰富的库，允许开发人员无缝处理 PSD 文件，执行各种图像处理任务。在本教程中，我们将重点介绍使用 Aspose.PSD for Java 从流中加载图像的基本步骤。
@@ -105,3 +111,9 @@ A3：加入社区[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)寻求帮
 ### Q5: 在哪里可以购买 Aspose.PSD for Java？
 
  A5：访问[购买页面](https://purchase.aspose.com/buy)获取 Aspose.PSD for Java。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Degrade Kaplama Efektini Destekleme
 linktitle: Degrade Kaplama Efektini Destekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD ile .NET'teki grafikleri geliştirin. Bu eğitim, Degrade Kaplama Efektlerini destekleme konusunda size yol gösterir.
-type: docs
 weight: 18
 url: /tr/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Degrade Kaplama Efektini Destekleme
+
 ## giriiş
 
 Aspose.PSD for .NET'te Gradient Overlay Effect'i desteklemeye yönelik bu kapsamlı eğitime hoş geldiniz! .NET uygulamanızın grafik yeteneklerini geliştirmek istiyorsanız bu adım adım kılavuz size yardımcı olmak için burada. Görüntü işlemeyi kolaylaştıran güçlü bir kütüphane olan Aspose.PSD'yi kullanarak bir katmanda Degrade Kaplama Efekti oluşturmanın ve düzenlemenin inceliklerini inceleyeceğiz.
@@ -133,3 +139,9 @@ Cevap2: Evet, Degrade Kaplama dahil olmak üzere çeşitli efektleri tek bir kat
 ### S5: Aspose.PSD için nasıl destek alabilirim?
 
  A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

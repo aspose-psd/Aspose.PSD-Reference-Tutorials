@@ -3,10 +3,16 @@ title: Java を使用して PSD レイヤー グループを画像にエクス�
 linktitle: Java を使用して PSD レイヤー グループを画像にエクスポートする
 second_title: Aspose.PSD Java API
 description: このステップバイステップ ガイドでは、Aspose.PSD for Java を使用して PSD レイヤー グループを画像にエクスポートする方法を学習します。開発者やデザイナーに最適です。
-type: docs
 weight: 10
 url: /ja/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PSD レイヤー グループを画像にエクスポートする
+
 ## 導入
 
 デジタル デザインの世界では、レイヤーの管理と作品の特定の部分のエクスポートは、ゲーム チェンジャーになる可能性があります。この見事なマルチレイヤー Photoshop (PSD) ファイルがあり、特定のレイヤー グループだけを画像としてエクスポートしたいとします。難しいように思えますか? 難しい必要はありません。Aspose.PSD for Java を使用すると、このタスクは管理できるだけでなく、非常に簡単になります。この記事では、プロセスをわかりやすい手順に分解して説明します。最後には、PSD レイヤーをプロのように処理するノウハウを身に付けることができます。
@@ -119,3 +125,9 @@ contentFolder.save(outputDir + "content.png", new PngOptions());
 
 ### Aspose.PSD for Java の一時ライセンスを取得するにはどうすればよいですか?
 臨時免許証は、[Aspose 購入ページ](https://purchase.aspose.com/temporary-license/)これにより、ライブラリの全機能をテストできるようになります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

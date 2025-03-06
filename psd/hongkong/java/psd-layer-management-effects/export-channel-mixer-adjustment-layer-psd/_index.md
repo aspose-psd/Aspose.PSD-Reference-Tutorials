@@ -3,10 +3,16 @@ title: 在 PSD 中匯出頻道混合器調整圖層 - Java
 linktitle: 在 PSD 中匯出頻道混合器調整圖層 - Java
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 中匯出頻道混合器調整圖層。修改 RGB 和 CMYK 圖層、儲存變更以及匯出為 PNG 的逐步指南。
-type: docs
 weight: 14
 url: /zh-hant/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 中匯出頻道混合器調整圖層 - Java
+
 ## 介紹
 
 當涉及影像編輯時，尤其是 Adobe Photoshop 檔案 (PSD) 時，有效管理圖層是關鍵。在這些圖層中，通道混合器調整圖層在調整影像的色彩平衡方面起著至關重要的作用。如果您是一位希望以程式設計方式操作這些層的 Java 開發人員，那麼您很幸運！在本文中，我們將引導您完成使用 Aspose.PSD for Java 匯出通道混合器調整圖層的過程。讀完本指南後，您將能夠處理 RGB 和 CMYK 通道混合器調整圖層、儲存變更以及以 PSD 和 PNG 格式匯出最終影像。
@@ -168,3 +174,9 @@ img.save(pngExportPath, options);
 
 ### 我需要許可證才能使用 Aspose.PSD for Java 嗎？  
 是的，Aspose.PSD for Java 是授權產品。您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/)用於測試或購買完整許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

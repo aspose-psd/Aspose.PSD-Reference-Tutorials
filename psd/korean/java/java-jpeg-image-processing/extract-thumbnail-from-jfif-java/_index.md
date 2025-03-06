@@ -3,10 +3,16 @@ title: Java의 JFIF에서 썸네일 추출
 linktitle: Java의 JFIF에서 썸네일 추출
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD for Java를 사용하여 JFIF 이미지에서 썸네일을 추출하는 방법을 알아보세요. 단계별 가이드와 코드 예제가 포함된 종합 튜토리얼입니다.
-type: docs
 weight: 14
 url: /ko/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 JFIF에서 썸네일 추출
+
 ## 소개
 이 튜토리얼에서는 Aspose.PSD for Java를 사용하여 JFIF 이미지에서 썸네일을 추출하는 방법을 살펴보겠습니다. Aspose.PSD는 개발자가 PSD, PSB, BMP, JPEG, PNG 및 기타 이미지 형식을 프로그래밍 방식으로 조작하고 작업할 수 있도록 하는 강력한 Java 라이브러리입니다. 썸네일 추출은 이미지 처리에서 일반적인 작업이며, 특히 대규모 이미지 세트나 멀티미디어 애플리케이션을 처리할 때 더욱 그렇습니다.
 ## 전제조건
@@ -78,3 +84,9 @@ Aspose.PSD for Java는 개발자가 프로그래밍 방식으로 PSD, PSB, BMP, 
  문서를 찾을 수 있습니다[여기](https://reference.aspose.com/psd/java/).
 ### Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
  Aspose.PSD 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

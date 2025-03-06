@@ -3,10 +3,16 @@ title: Změňte režim prolnutí v Efektu překrytí přechodem
 linktitle: Změňte režim prolnutí v Efektu překrytí přechodem
 second_title: Aspose.PSD Java API
 description: Naučte se, jak změnit režim prolnutí v efektu překrytí přechodem pomocí Aspose.PSD pro Java. Podrobný průvodce vytvářením úžasné grafiky.
-type: docs
 weight: 19
 url: /cs/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte režim prolnutí v Efektu překrytí přechodem
+
 ## Zavedení
 Chcete povýšit svou hru s grafickým designem o některé pokročilé techniky? Možná chcete programově manipulovat s vrstvami v souborech Photoshopu? Pokud ano, pak jste na správném místě! V tomto tutoriálu vás provedeme kroky ke změně režimu prolnutí efektu překrytí přechodem pomocí Aspose.PSD pro Java. Ať už jste zkušený vývojář nebo začínající designér, tyto techniky najdete pro vaše projekty dostupné a výkonné. 
 ## Předpoklady
@@ -77,3 +83,9 @@ Můžete provádět různé operace, včetně úprav vrstev, úprav efektů, zm�
  Ano! Můžete navštívit fórum podpory Aspose[zde](https://forum.aspose.com/c/psd/34) za pomoc od komunity a technického personálu.
 ### Mohu si zakoupit dočasnou licenci pro Aspose.PSD?
  Absolutně! Můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) testovat plné funkce bez omezení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

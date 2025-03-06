@@ -3,10 +3,16 @@ title: Werken met PSD-bestanden
 linktitle: Werken met PSD-bestanden
 second_title: Aspose.PSD Java-API
 description: Ontdek uitgebreide Aspose.PSD voor Java-tutorials, inclusief hoe u PSD-laaggroepen naar afbeeldingen kunt exporteren en Clbl-, Infx- en Lspf-bronnen kunt manipuleren.
-type: docs
 weight: 26
 url: /nl/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met PSD-bestanden
+
 
 ## Invoering
 
@@ -37,3 +43,9 @@ Leer hoe u Clbl Resource in PSD-bestanden kunt ondersteunen en manipuleren met b
 Leer hoe u Infx Resource in PSD-bestanden kunt manipuleren met Aspose.PSD voor Java met deze uitgebreide, stapsgewijze zelfstudie. Perfect voor ontwikkelaars van alle niveaus.
 ### [Ondersteuning van Lspf-bronnen in PSD-bestanden met behulp van Java](./support-lspf-resource-psd-files/)
 Leer hoe u Lspf Resource in PSD-bestanden kunt ondersteunen en manipuleren met behulp van Aspose.PSD voor Java met onze stapsgewijze handleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

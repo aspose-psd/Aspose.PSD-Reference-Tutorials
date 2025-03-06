@@ -3,10 +3,16 @@ title: Implement Lossy GIF Compressor in Aspose.PSD for Java
 linktitle: Implement Lossy GIF Compressor
 second_title: Aspose.PSD Java API
 description: Optimize your web images seamlessly with Aspose.PSD for Java's Lossy GIF Compressor. Follow our step-by-step guide for efficient implementation. 
-type: docs
 weight: 13
 url: /java/advanced-image-manipulation/implement-lossy-gif-compressor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implement Lossy GIF Compressor in Aspose.PSD for Java
+
 ## Introduction
 
 In the ever-evolving world of web development, optimizing images for performance is crucial. Aspose.PSD for Java provides a powerful solution to achieve this with its Lossy GIF Compressor. In this tutorial, we'll walk through the process of implementing a Lossy GIF Compressor using Aspose.PSD for Java step by step.
@@ -94,3 +100,10 @@ A4: Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Q5: How can I purchase Aspose.PSD for Java?
 
 A5: You can purchase the library [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

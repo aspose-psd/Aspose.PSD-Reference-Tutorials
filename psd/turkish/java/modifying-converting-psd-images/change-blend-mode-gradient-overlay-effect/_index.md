@@ -3,10 +3,16 @@ title: Degrade Kaplama Efektinde Karışım Modunu Değiştirme
 linktitle: Degrade Kaplama Efektinde Karışım Modunu Değiştirme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java ile degrade kaplama efektinde karışım modunu nasıl değiştireceğinizi öğrenin. Çarpıcı grafikler oluşturmak için adım adım kılavuz.
-type: docs
 weight: 19
 url: /tr/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Degrade Kaplama Efektinde Karışım Modunu Değiştirme
+
 ## giriiş
 Grafik tasarım oyununuzu bazı gelişmiş tekniklerle geliştirmek mi istiyorsunuz? Belki Photoshop dosyalarınızdaki katmanları programlı olarak değiştirmek istiyorsunuz? Eğer öyleyse, o zaman doğru yere geldiniz! Bu eğitimde, Aspose.PSD for Java'yı kullanarak degrade kaplama efektinin karışım modunu değiştirme adımlarında size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yetişmekte olan bir tasarımcı olun, bu teknikleri projeleriniz için hem erişilebilir hem de güçlü bulacaksınız. 
 ## Önkoşullar
@@ -77,3 +83,9 @@ Katmanları düzenleme, efektleri değiştirme, metni değiştirme ve daha fazla
  Evet! Aspose destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/psd/34) Topluluktan ve teknik personelden yardım için.
 ### Aspose.PSD için geçici bir lisans satın alabilir miyim?
  Kesinlikle! Geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) tüm özellikleri kısıtlama olmaksızın test etmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

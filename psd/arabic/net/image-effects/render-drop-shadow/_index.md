@@ -3,10 +3,16 @@ title: عرض تأثير Drop Shadow في Aspose.PSD لـ .NET
 linktitle: تقديم تأثير الظل المسقط
 second_title: Aspose.PSD.NET API
 description: اكتشف قوة Aspose.PSD لـ .NET في هذا البرنامج التعليمي، وإتقان فن عرض تأثيرات الظل المسقط الجذابة.
-type: docs
 weight: 12
 url: /ar/net/image-effects/render-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض تأثير Drop Shadow في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي خطوة بخطوة حول عرض تأثيرات الظل المسقط في Aspose.PSD لـ .NET! إذا كنت تتطلع إلى تحسين مهاراتك في معالجة الصور باستخدام Aspose.PSD، فقد وصلت إلى المكان الصحيح. في هذا الدليل، سنرشدك خلال عملية تطبيق تأثيرات الظل المسقط على صورك بسهولة.
@@ -112,3 +118,9 @@ im.Save(pngExportPath, saveOptions);
 ### س5: كيف يمكنني الحصول على الدعم أو طلب المساعدة فيما يتعلق بـ Aspose.PSD لـ .NET؟
 
  ج5: قم بزيارة منتدى Aspose.PSD[هنا](https://forum.aspose.com/c/psd/34) للتواصل مع المجتمع وطلب مشورة الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Wymuś pamięć podręczną czcionek za pomocą Aspose.PSD dla Java
 linktitle: Wymuś pamięć podręczną czcionek
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak wymusić pamięć podręczną czcionek przy użyciu Aspose.PSD dla Java. Zoptymalizuj przetwarzanie obrazu i zwiększ wydajność, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 11
 url: /pl/java/advanced-image-manipulation/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wymuś pamięć podręczną czcionek za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Czy chcesz zoptymalizować buforowanie czcionek za pomocą Aspose.PSD dla Java? Buforowanie czcionek odgrywa kluczową rolę w zwiększaniu wydajności aplikacji Java, szczególnie w przypadku złożonych zadań przetwarzania obrazu. W tym obszernym przewodniku przeprowadzimy Cię przez proces wymuszania pamięci podręcznej czcionek przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z przetwarzaniem obrazów w języku Java, ten samouczek ma na celu pomóc Ci bezproblemowo zintegrować buforowanie czcionek z Twoimi projektami.
@@ -89,3 +95,9 @@ O1: Aspose.PSD for Java jest zaprojektowany do współpracy z różnymi wersjami
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
  Odpowiedź 5: Jeśli potrzebujesz licencji tymczasowej, odwiedź stronę[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

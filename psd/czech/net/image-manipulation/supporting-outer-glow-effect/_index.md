@@ -3,10 +3,16 @@ title: Podpora efektu vnější záře v Aspose.PSD pro .NET
 linktitle: Podpora efektu vnější záře
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte sílu Outer Glow Effect v Aspose.PSD pro .NET. Vylepšete své návrhy obrázků pomocí tohoto podrobného návodu.
-type: docs
 weight: 16
 url: /cs/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora efektu vnější záře v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vítejte v našem podrobném průvodci o podpoře efektu vnější záře v Aspose.PSD pro .NET. Aspose.PSD je výkonná knihovna, která umožňuje bezproblémovou manipulaci se soubory PSD v aplikacích .NET. V tomto tutoriálu prozkoumáme implementaci efektu vnější záře a poskytneme podrobný návod, jak jej integrovat do vašich projektů.
@@ -114,3 +120,9 @@ A1: Ano, Aspose.PSD podporuje širokou škálu .NET frameworků, což zajišťuj
 ### Q5: Mohu zakoupit Aspose.PSD pro .NET?
 
  A5: Ano, prozkoumejte možnosti licencování a proveďte nákup[zde](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

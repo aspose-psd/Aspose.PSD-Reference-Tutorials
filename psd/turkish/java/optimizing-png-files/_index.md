@@ -3,10 +3,16 @@ title: PNG Dosyalarını Optimize Etme
 linktitle: PNG Dosyalarını Optimize Etme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak PNG dosyalarını optimize etmeye yönelik, filtreleri, arka plan rengi değişikliklerini, sıkıştırmayı, çözünürlüğü, bit derinliğini ve şeffaflığı kapsayan kapsamlı eğitimleri keşfedin.
-type: docs
 weight: 20
 url: /tr/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PNG Dosyalarını Optimize Etme
+
 ## giriiş
 
 Aspose.PSD for Java ile PNG dosya optimizasyonunda uzmanlaşmak mı istiyorsunuz? Ayrıntılı eğitimlerimiz, görsellerinizin parlamasını sağlamak için bilmeniz gereken her şeyi kapsar. Filtre uygulamaktan arka plan renklerini değiştirmeye ve dosyaları sıkıştırmaya, çözünürlükleri ayarlamaya kadar bu kılavuzda ihtiyacınız olan her şey mevcuttur. PNG dosyalarınızdan en iyi şekilde yararlanmanızı sağlamak için her konuyu adım adım inceleyelim!
@@ -48,3 +54,9 @@ Bu ayrıntılı, adım adım eğitimle Aspose.PSD for Java kullanarak PNG dosya 
 Bu ayrıntılı adım adım eğitimde Aspose.PSD for Java'yı kullanarak PNG bit derinliğini nasıl belirleyeceğinizi öğrenin.
 ### [Aspose.PSD for Java'da PNG Şeffaflığını Ayarlama](./set-png-transparency/)
 Kolay, adım adım eğitimle Aspose.PSD for Java'da PNG şeffaflığını nasıl ayarlayacağınızı öğrenin. Geliştiriciler ve grafik tasarımcıları için mükemmeldir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การลบไฟล์แคชแบบอักษรใน Aspose
 linktitle: การลบไฟล์แคชแบบอักษร
 second_title: Aspose.PSD .NET API
 description: เพิ่มประสิทธิภาพ Aspose.PSD สำหรับ .NET ด้วยการลบไฟล์แคชแบบอักษร ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการดำเนินการที่ราบรื่น
-type: docs
 weight: 15
 url: /th/net/file-and-font-handling/remove-font-cache-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การลบไฟล์แคชแบบอักษรใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 คุณกำลังเผชิญกับความท้าทายเกี่ยวกับแบบอักษรในขณะที่ทำงานกับ Aspose.PSD สำหรับ .NET หรือไม่? การลบไฟล์แคชแบบอักษรอาจเป็นกุญแจสำคัญในการแก้ไขปัญหาเหล่านี้อย่างมีประสิทธิภาพ ในบทช่วยสอนที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน ก่อนที่เราจะดำน้ำ มาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว
@@ -93,3 +99,9 @@ A2: แม้ว่าเป็นไปได้ ขอแนะนำให้
 ### คำถามที่ 5: ฉันสามารถซื้อ Aspose.PSD สำหรับ .NET ได้หรือไม่
 
  A5: แน่นอน! เยี่ยม[ที่นี่](https://purchase.aspose.com/buy) เพื่อสำรวจตัวเลือกการซื้อสำหรับ Aspose.PSD สำหรับ .NET
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java için Aspose.PSD ile Bir Görüntünün Gamasını Ayarlama
 linktitle: Bir Görüntünün Gamasını Ayarlama
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak görüntü gammasını zahmetsizce ayarlamayı öğrenin. En iyi sonuçları elde etmek için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 23
 url: /tr/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.PSD ile Bir Görüntünün Gamasını Ayarlama
+
 ## giriiş
 
 Görüntü işleme alanında, bir görüntünün gamasını ayarlamak, görsel çekiciliğini artırmak için çok önemli bir adımdır. Aspose.PSD for Java, Java geliştiricilerinin görüntü gammasını zahmetsizce işlemesi için güçlü bir çözüm sunar. Bu eğitimde, Aspose.PSD'yi kullanarak gammayı nasıl ayarlayacağınızı keşfedeceğiz ve sorunsuz bir uygulama sağlamak için her adımı ayrıntılı olarak inceleyeceğiz.
@@ -108,3 +114,9 @@ Tebrikler! Aspose.PSD for Java'yı kullanarak bir görüntünün gammasını ba�
 ### S5: Aspose.PSD için nereden destek alabilirim?
 
  Cevap5: Destek için Aspose.PSD forumunu ziyaret edin:[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

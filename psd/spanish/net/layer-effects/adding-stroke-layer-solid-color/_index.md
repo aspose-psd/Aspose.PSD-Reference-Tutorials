@@ -3,10 +3,16 @@ title: Agregar capa de trazo con color sólido en Aspose.PSD para .NET
 linktitle: Agregar capa de trazo con color sólido
 second_title: API Aspose.PSD .NET
 description: Mejore sus habilidades de manipulación de imágenes .NET con Aspose.PSD. Aprende a agregar capas de trazos con colores sólidos paso a paso.
-type: docs
 weight: 11
 url: /es/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar capa de trazo con color sólido en Aspose.PSD para .NET
+
 ## Introducción
 
 En el ámbito del desarrollo .NET, la creación de imágenes visualmente atractivas es un requisito común. Aspose.PSD para .NET proporciona un potente conjunto de herramientas para manipular y mejorar imágenes sin problemas. Una de las características esenciales es agregar una capa de trazo con un color sólido, que aporta vitalidad y profundidad a sus imágenes. En este tutorial, lo guiaremos a través del proceso paso a paso utilizando Aspose.PSD para .NET.
@@ -130,3 +136,9 @@ R2: ¡Absolutamente! Aspose.PSD para .NET es un producto comercial y puede utili
 ### P5: ¿Cómo puedo obtener soporte para Aspose.PSD para .NET?
 
  A5: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para buscar ayuda y conectarse con la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

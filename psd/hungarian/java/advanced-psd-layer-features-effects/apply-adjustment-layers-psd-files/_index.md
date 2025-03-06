@@ -3,10 +3,16 @@ title: Alkalmazzon korrekciós rétegeket a PSD-fájlokban Java használatával
 linktitle: Alkalmazzon korrekciós rétegeket a PSD-fájlokban Java használatával
 second_title: Aspose.PSD Java API
 description: Ebből a fejlesztőknek szóló, lépésről lépésre szóló útmutatóból megtudhatja, hogyan alkalmazhat korrekciós rétegeket PSD-fájlokban az Aspose.PSD for Java használatával.
-type: docs
 weight: 15
 url: /hu/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazzon korrekciós rétegeket a PSD-fájlokban Java használatával
+
 ## Bevezetés
 Ön Java-fejlesztő, aki szeretné javítani a PSD-fájlokban tárolt képeket? Ha igen, akkor jó helyen jársz! Ebben a cikkben megvizsgáljuk, hogyan alkalmazhatunk korrekciós rétegeket a PSD-fájlokban a Java Aspose.PSD-könyvtár használatával. Akár személyes projekten, akár professzionális alkalmazáson dolgozik, a PSD-fájlok kezelésének megértése jelentősen megnövelheti szoftvere képességeit. 
 
@@ -97,3 +103,9 @@ Nem, nem kell Photoshop. Az Aspose.PSD függetlenül működik a PSD-fájlok pro
 Meglátogathatja a dokumentációs oldalt[itt](https://reference.aspose.com/psd/java/) funkciók, osztályok és módszerek felfedezéséhez.
 ### Hogyan kaphatok támogatást az Aspose termékekhez?
  A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/psd/34) ahol kérdéseket tehet fel és megoldásokat találhat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

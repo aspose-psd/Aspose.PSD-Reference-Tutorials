@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.PSD में MLST संसाधन प्
 linktitle: एमएलएसटी संसाधनों का प्रबंधन
 second_title: Aspose.PSD .NET एपीआई
 description: .NET के लिए Aspose.PSD के साथ फ़ोटोशॉप फ़ाइलों में लेयर स्टेट्स में हेरफेर करना सीखें। कुशल MLST संसाधन हैंडलिंग के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
-type: docs
 weight: 14
 url: /hi/net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.PSD में MLST संसाधन प्रबंधन में महारत हासिल करना
+
 ## परिचय
 Aspose.PSD for .NET में MLST (मल्टीपल लेयर स्टेट्स) रिसोर्स को हैंडल करने के बारे में गहन ट्यूटोरियल में आपका स्वागत है। Aspose.PSD for .NET एक शक्तिशाली लाइब्रेरी है जो फ़ोटोशॉप फ़ाइलों के साथ काम करने के लिए व्यापक क्षमताएँ प्रदान करती है। इस ट्यूटोरियल में, हम MLST रिसोर्स के समर्थन पर ध्यान केंद्रित करेंगे, जो लेयर स्टेट्स को कुशलतापूर्वक हेरफेर करने के लिए एक निम्न-स्तरीय तंत्र प्रदान करता है।
 ## आवश्यक शर्तें
@@ -86,3 +92,9 @@ A3: दस्तावेज़ उपलब्ध है[यहाँ](https://
 ### प्रश्न 5: मैं .NET के लिए Aspose.PSD का लाइसेंस कैसे खरीदूं?
 
  A5: आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

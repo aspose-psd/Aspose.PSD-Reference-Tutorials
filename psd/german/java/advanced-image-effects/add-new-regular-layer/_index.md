@@ -3,10 +3,16 @@ title: Fügen Sie PSD mit Aspose.PSD für Java eine neue reguläre Ebene hinzu
 linktitle: Fügen Sie PSD eine neue normale Ebene hinzu
 second_title: Aspose.PSD Java API
 description: Erfahren Sie, wie Sie mit Aspose.PSD für Java PSD-Dateien eine neue reguläre Ebene hinzufügen. Folgen Sie unserer Schritt-für-Schritt-Anleitung zur nahtlosen PSD-Bearbeitung.
-type: docs
 weight: 11
 url: /de/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie PSD mit Aspose.PSD für Java eine neue reguläre Ebene hinzu
+
 ## Einführung
 
 Willkommen zu diesem umfassenden Tutorial zur Verwendung von Aspose.PSD für Java, um einer PSD-Datei eine neue reguläre Ebene hinzuzufügen. Aspose.PSD ist eine leistungsstarke Java-Bibliothek, mit der Entwickler PSD-Dateien effizient bearbeiten und damit arbeiten können. In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens einer neuen regulären Ebene zu einer PSD-Datei und liefern detaillierte Schritte und Codebeispiele.
@@ -120,3 +126,9 @@ A2: Auf jeden Fall! Aspose.PSD bietet eine Reihe von Transformationsoptionen fü
 ### F5: Gibt es Community-Foren für Aspose.PSD-Support?
 
  A5: Ja, Sie finden Support und Diskussionen[Hier](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

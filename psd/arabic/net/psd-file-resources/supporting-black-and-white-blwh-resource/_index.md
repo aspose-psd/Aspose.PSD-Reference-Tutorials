@@ -3,10 +3,16 @@ title: دعم الموارد بالأبيض والأسود في Aspose.PSD لـ 
 linktitle: دعم الموارد بالأبيض والأسود (Blwh).
 second_title: Aspose.PSD.NET API
 description: استكشف التحرير المتقدم للصور باستخدام Aspose.PSD لـ .NET. تعلم كيفية إتقان طبقات الضبط بالأبيض والأسود للتحكم الدقيق في عناصر الصورة.
-type: docs
 weight: 13
 url: /ar/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم الموارد بالأبيض والأسود في Aspose.PSD لـ .NET
+
 ## مقدمة
 في عالم الوسائط الرقمية الديناميكي، يلعب تحرير الصور دورًا محوريًا في إنشاء صور جذابة. يعمل Aspose.PSD for .NET على تمكين المطورين من الارتقاء بقدراتهم في معالجة الصور إلى المستوى التالي. في هذا البرنامج التعليمي، سنستكشف دعم طبقات الضبط بالأبيض والأسود في Aspose.PSD، مما يتيح لك ضبط الصور بدقة.
 ## المتطلبات الأساسية
@@ -89,3 +95,9 @@ Console.WriteLine("SupportForBlwhResource executed successfully");
 ### س 5: هل هناك أي نماذج صور متاحة لاختبار تعديلات الأسود والأبيض؟
 
 ج5: نعم، يمكنك العثور على نماذج الصور في وثائق Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

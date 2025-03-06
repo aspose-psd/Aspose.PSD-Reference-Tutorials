@@ -3,10 +3,16 @@ title: Zmiana rozmiaru za pomocą wyliczenia typu zmiany rozmiaru w Aspose.PSD d
 linktitle: Zmiana rozmiaru za pomocą wyliczenia typu zmiany rozmiaru
 second_title: Aspose.PSD API Java
 description: Opanuj zmianę rozmiaru obrazu w Javie za pomocą Aspose.PSD. Przewodnik krok po kroku dotyczący wyliczania typu zmiany rozmiaru.
-type: docs
 weight: 18
 url: /pl/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmiana rozmiaru za pomocą wyliczenia typu zmiany rozmiaru w Aspose.PSD dla Java
+
 ## Wstęp
 
 W stale zmieniającym się środowisku programowania w języku Java wydajne przetwarzanie obrazu jest kluczowym aspektem, z którym często borykają się programiści. Aspose.PSD dla Java jawi się jako potężne rozwiązanie, zapewniające płynną zmianę rozmiaru obrazów z dodatkową zaletą wyliczania typu zmiany rozmiaru. W tym samouczku zagłębimy się w zawiłości zmiany rozmiaru obrazów przy użyciu Aspose.PSD dla Java, dzieląc każdy krok, aby zapewnić wszechstronne zrozumienie.
@@ -86,3 +92,9 @@ O2: Tak, Aspose.PSD dla Java oferuje różne typy zmiany rozmiaru, takie jak Naj
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla Java?
 
  A5: Aby uzyskać tymczasową licencję, odwiedź stronę[ten link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

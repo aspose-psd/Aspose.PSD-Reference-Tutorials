@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 평면화된 PSD 파일 감지
 linktitle: Java용 Aspose.PSD를 사용하여 평면화된 PSD 파일 감지
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 튜토리얼에서 Java용 Aspose.PSD를 사용하여 평면화된 PSD 파일을 감지하는 방법을 단계별로 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 평면화된 PSD 파일 감지
+
 ## 소개
 
 Java용 Aspose.PSD를 사용하여 PSD(Photoshop Document) 파일 조작의 세계에 오신 것을 환영합니다! Photoshop 파일의 레이어 작업이 필요했지만 어디서부터 시작해야 할지 몰랐다면 잘 찾아오셨습니다. 이 튜토리얼에서는 Aspose.PSD를 사용하여 PSD 파일이 병합되었는지 여부를 감지하는 방법을 살펴보겠습니다. PSD를 병합한다는 것은 해당 레이어의 모든 레이어가 단일 통합 레이어로 병합되어 나중에 편집이 약간 까다로워질 수 있음을 의미합니다. 이 가이드가 끝나면 PSD 파일의 중요한 측면을 확인할 수 있게 됩니다. 자리에 앉아 커피를 마시고 뛰어들어 보세요!
@@ -77,3 +83,9 @@ System.out.println(psdImage.isFlatten());
 
 ### Aspose.PSD를 무료로 테스트할 수 있는 방법이 있나요?
  전적으로! 다음에서 평가판을 다운로드하여 무료 평가판을 시작할 수 있습니다.[이 링크](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

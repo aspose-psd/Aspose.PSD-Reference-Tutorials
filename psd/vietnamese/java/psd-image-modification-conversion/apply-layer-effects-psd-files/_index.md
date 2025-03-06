@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng lớp trong tệp PSD bằng Java
 linktitle: Áp dụng hiệu ứng lớp trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách áp dụng các hiệu ứng lớp trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn này bao gồm việc tải PSD, truy cập các lớp và lưu hình ảnh đã sửa đổi.
-type: docs
 weight: 19
 url: /vi/java/psd-image-modification-conversion/apply-layer-effects-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng lớp trong tệp PSD bằng Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ mơ ước được thao tác trực tiếp những kiệt tác xếp lớp tuyệt đẹp đó ở định dạng PSD thông qua mã chưa? Chà, với sức mạnh của Aspose.PSD dành cho Java, giấc mơ đó sẽ trở thành hiện thực! Hướng dẫn này sẽ hướng dẫn bạn các bước áp dụng hiệu ứng lớp trong tệp PSD bằng cách sử dụng Java, giúp bạn tự động hóa các tác vụ và mở khóa một cấp độ kiểm soát sáng tạo hoàn toàn mới. 
@@ -111,3 +117,9 @@ Mặc dù Aspose.PSD cung cấp các khả năng mở rộng để sửa đổi 
 
 ### Tôi có thể tìm thêm thông tin và hỗ trợ ở đâu?
 Tài liệu Aspose.PSD ([Aspose.PSD cho tài liệu Java](https://reference.aspose.com/psd/java/)) là một nguồn tài nguyên có giá trị cho thông tin chuyên sâu. Nếu bạn gặp sự cố hoặc có thắc mắc, diễn đàn Aspose ([Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34)) là nơi tuyệt vời để tìm kiếm sự trợ giúp từ cộng đồng và sự hỗ trợ của Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

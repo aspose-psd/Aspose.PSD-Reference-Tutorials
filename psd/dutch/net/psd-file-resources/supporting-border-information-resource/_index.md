@@ -3,10 +3,16 @@ title: Ondersteuning van grensinformatiebronnen in Aspose.PSD voor .NET
 linktitle: Ondersteunende grensinformatiebron
 second_title: Aspose.PSD .NET-API
 description: Ontdek Aspose.PSD voor .NET's Border Information Resource-functie voor verbeterde beeldvorming. Volg onze tutorial voor naadloze integratie. Nu downloaden!
-type: docs
 weight: 11
 url: /nl/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van grensinformatiebronnen in Aspose.PSD voor .NET
+
 ## Invoering
 Welkom bij onze stapsgewijze handleiding voor het gebruik van de Border Information Resource-functie in Aspose.PSD voor .NET. In deze zelfstudie leiden we u door het proces van het werken met Border Information Resources met behulp van Aspose.PSD, een krachtige .NET-beeldbibliotheek. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorial is bedoeld om duidelijkheid te bieden over het naadloos integreren van Border Information Resources in uw projecten.
 ## Vereisten
@@ -89,3 +95,9 @@ A1: Ja, Aspose.PSD voor .NET is compatibel met verschillende .NET-frameworks.
 ### Vraag 5: Zijn er tijdelijke licenties beschikbaar?
 
  A5: Ja, u kunt tijdelijke licenties verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

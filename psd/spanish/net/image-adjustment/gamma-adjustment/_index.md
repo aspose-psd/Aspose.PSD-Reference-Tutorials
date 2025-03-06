@@ -3,10 +3,16 @@ title: Implementación del ajuste gamma en Aspose.PSD para .NET
 linktitle: Implementación del ajuste gamma
 second_title: API Aspose.PSD .NET
 description: Explore el poder de Aspose.PSD para .NET con nuestra guía paso a paso sobre cómo implementar el ajuste gamma. Ajuste el brillo y el contraste de la imagen sin esfuerzo.
-type: docs
 weight: 12
 url: /es/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementación del ajuste gamma en Aspose.PSD para .NET
+
 ## Introducción
 
 ¡Bienvenido a esta guía completa sobre la implementación del ajuste gamma en Aspose.PSD para .NET! El ajuste gamma es una técnica de procesamiento de imágenes crucial que le permite ajustar el brillo y el contraste de una imagen. En este tutorial, lo guiaremos a través del proceso utilizando la poderosa biblioteca Aspose.PSD para .NET.
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### P5: ¿Necesito una licencia temporal?
 
  R5: Si es necesario, puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Implementering av ljusstyrkajustering i Aspose.PSD för .NET
 linktitle: Implementering av ljusstyrkajustering
 second_title: Aspose.PSD .NET API
 description: Utforska kraften i Aspose.PSD för .NET för att justera bildens ljusstyrka. Följ vår steg-för-steg-guide för sömlös implementering.
-type: docs
 weight: 10
 url: /sv/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementering av ljusstyrkajustering i Aspose.PSD för .NET
+
 ## Introduktion
 
 Att förbättra och justera bildattribut är ett vanligt krav i olika applikationer, och Aspose.PSD för .NET tillhandahåller en kraftfull lösning för att manipulera PSD-filer sömlöst. En sådan manipulation är justering av ljusstyrkan, vilket gör att du enkelt kan ändra ljusstyrkan på en bild.
@@ -97,3 +103,9 @@ Aspose.PSD för .NET förenklar processen att implementera ljusstyrkajusteringar
 ### F5: Hur får jag en tillfällig licens för Aspose.PSD för .NET?
 
  S5: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

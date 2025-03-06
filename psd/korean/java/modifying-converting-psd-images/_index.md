@@ -3,10 +3,16 @@ title: PSD 이미지 수정 및 변환
 linktitle: PSD 이미지 수정 및 변환
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD for Java를 사용하여 다양한 조정 및 효과로 PSD 파일을 향상하세요. 색상 조작, 워터마크 등에 대한 단계별 튜토리얼입니다.
-type: docs
 weight: 21
 url: /ko/java/modifying-converting-psd-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 이미지 수정 및 변환
+
 ## 소개
 
 Aspose.PSD for Java는 PSD 파일 작업을 위한 다목적 툴킷을 제공하여 이미지 수정 및 향상을 위한 다양한 옵션을 제공합니다. 숙련된 디자이너이든 이제 막 시작하는 디자이너이든 상관없이 저희 튜토리얼은 Aspose.PSD의 잠재력을 최대한 활용하는 데 도움이 되도록 설계되었습니다. 다음은 PSD 조작의 다양한 측면을 익히기 위해 탐색할 수 있는 튜토리얼 모음입니다.
@@ -102,3 +108,9 @@ Java용 Aspose.PSD를 사용하여 PSD 파일의 캐시 재할당을 관리합�
 단계별 가이드에서 Java용 Aspose.PSD를 사용하여 색인화된 PSD 파일을 만드는 방법을 알아보세요. 지금 가입하여 끝없는 예술적 가능성을 탐험해보세요.
 ### [Java를 사용하여 PSD 파일에서 축소판 만들기](./create-thumbnails-psd-files/)
 Java 및 Aspose.PSD를 사용하여 PSD 파일에서 썸네일을 쉽게 만드는 방법을 알아보세요. 원활한 이미지 처리를 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

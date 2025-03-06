@@ -3,10 +3,16 @@ title: 處理 PSD 中未壓縮的圖像流物件 - Java
 linktitle: 處理 PSD 中未壓縮的圖像流物件 - Java
 second_title: Aspose.PSD Java API
 description: 透過這個易於遵循的指南，掌握使用 Aspose.PSD for Java 處理 PSD 中的未壓縮影像流。非常適合開發人員和設計師。
-type: docs
 weight: 26
 url: /zh-hant/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 處理 PSD 中未壓縮的圖像流物件 - Java
+
 ## 介紹
 歡迎來到 Java 映像處理的世界！今天，我們將深入研究使用 Aspose.PSD for Java 處理未壓縮的圖像流物件。無論您是尋求自動化工作流程的圖形設計師，還是尋求將強大的圖像處理功能整合到應用程式中的軟體開發人員，本指南都是為您量身定制的。我們將介紹從先決條件到結論的所有內容，確保您充分了解如何開始使用 Aspose.PSD。
 ## 先決條件
@@ -92,3 +98,9 @@ Aspose.PSD 是一個 .NET 程式庫，可讓開發人員以程式設計方式建
 絕對地！您可以在以下方面尋求協助[Aspose 支援論壇](https://forum.aspose.com/c/psd/34).
 ### 如何取得 Aspose.PSD 的臨時授權？
 只需訪問[臨時許可證頁面](https://purchase.aspose.com/temporary-license/)開始吧。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

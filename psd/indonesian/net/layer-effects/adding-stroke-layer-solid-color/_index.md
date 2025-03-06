@@ -3,10 +3,16 @@ title: Menambahkan Layer Stroke dengan Warna Solid di Aspose.PSD untuk .NET
 linktitle: Menambahkan Layer Stroke dengan Warna Solid
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan keterampilan manipulasi gambar .NET Anda dengan Aspose.PSD. Pelajari cara menambahkan lapisan guratan dengan warna solid langkah demi langkah.
-type: docs
 weight: 11
 url: /id/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Layer Stroke dengan Warna Solid di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, membuat gambar yang menarik secara visual merupakan kebutuhan umum. Aspose.PSD untuk .NET menyediakan seperangkat alat canggih untuk memanipulasi dan menyempurnakan gambar dengan mulus. Salah satu fitur penting adalah menambahkan lapisan guratan dengan warna solid, yang menghadirkan semangat dan kedalaman pada gambar Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah menggunakan Aspose.PSD untuk .NET.
@@ -130,3 +136,9 @@ A2: Tentu saja! Aspose.PSD untuk .NET adalah produk komersial, dan Anda dapat me
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk .NET?
 
  A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk mencari bantuan dan berhubungan dengan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

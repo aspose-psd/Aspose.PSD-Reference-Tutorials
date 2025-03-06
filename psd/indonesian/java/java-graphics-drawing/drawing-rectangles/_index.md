@@ -3,10 +3,16 @@ title: Menggambar Persegi Panjang di Java
 linktitle: Menggambar Persegi Panjang di Java
 second_title: Asumsikan.PSD Java API
 description: Belajar menggambar persegi panjang pada gambar menggunakan Aspose.PSD untuk Java. Tutorial ini memandu pengembang Java langkah demi langkah. Sempurna untuk tugas manipulasi gambar.
-type: docs
 weight: 17
 url: /id/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Persegi Panjang di Java
+
 ## Perkenalan
 Dalam dunia pengembangan Java, memanipulasi dan menghasilkan gambar secara terprogram merupakan persyaratan umum di berbagai aplikasi. Salah satu tugas yang sering ditemui adalah menggambar bentuk seperti persegi panjang pada gambar. Aspose.PSD untuk Java menyediakan seperangkat alat dan fungsi yang kuat untuk mencapai hal ini secara efisien. Tutorial ini akan memandu Anda melalui proses menggambar persegi panjang pada gambar menggunakan Aspose.PSD untuk Java, langkah demi langkah.
 ## Prasyarat
@@ -84,3 +90,9 @@ Ya, Aspose.PSD untuk Java dirancang untuk pemrosesan gambar berkinerja tinggi de
  Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci di[Aspose.PSD untuk dokumentasi Java](https://reference.aspose.com/psd/java/).
 ### Apakah Aspose.PSD untuk Java mendukung format gambar lain selain BMP?
 Ya, Aspose.PSD untuk Java mendukung berbagai format gambar termasuk PNG, JPEG, TIFF, dan GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

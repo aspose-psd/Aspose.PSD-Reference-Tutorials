@@ -3,10 +3,16 @@ title: Como adicionar padrão de camada de traço em Java
 linktitle: Como adicionar padrão de camada de traço em Java
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar um padrão de camada de traço a arquivos PSD usando Aspose.PSD para Java. Siga este guia passo a passo para aprimorar suas imagens facilmente.
-type: docs
 weight: 11
 url: /pt/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Como adicionar padrão de camada de traço em Java
+
 ## Introdução
 Adicionar um padrão de camada de traço a uma imagem em Java pode parecer uma tarefa difícil, mas com Aspose.PSD para Java é mais fácil do que você pensa. Esteja você projetando gráficos ou trabalhando em aplicativos de edição de fotos, este guia irá guiá-lo passo a passo pelo processo. Pronto para começar? Vamos mergulhar!
 ## Pré-requisitos
@@ -138,3 +144,9 @@ Aspose.PSD para Java é uma biblioteca que permite aos desenvolvedores criar, ed
  Você pode obter suporte nos fóruns da comunidade Aspose[aqui](https://forum.aspose.com/c/psd/34).
 ### Quais são os requisitos de sistema para Aspose.PSD para Java?
 Você precisa do JDK instalado e de um IDE para desenvolvimento. A biblioteca oferece suporte a vários sistemas operacionais, incluindo Windows, Linux e macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

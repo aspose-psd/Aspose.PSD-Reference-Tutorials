@@ -3,10 +3,16 @@ title: العمل مع ملفات PSD
 linktitle: العمل مع ملفات PSD
 second_title: Aspose.PSD جافا API
 description: استكشف البرامج التعليمية الشاملة لـ Aspose.PSD for Java، بما في ذلك كيفية تصدير مجموعات طبقات PSD إلى الصور ومعالجة موارد Clbl وInfx وLspf.
-type: docs
 weight: 26
 url: /ar/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع ملفات PSD
+
 
 ## مقدمة
 
@@ -37,3 +43,9 @@ url: /ar/java/working-with-psd-files/
 تعرف على كيفية التعامل مع Infx Resource في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال هذا البرنامج التعليمي الشامل خطوة بخطوة. مثالية للمطورين من جميع المستويات.
 ### [دعم موارد Lspf في ملفات PSD باستخدام Java](./support-lspf-resource-psd-files/)
 أتقن كيفية دعم Lspf Resource ومعالجته في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال دليلنا خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 고급 PSD 레이어 기능 및 효과
 linktitle: 고급 PSD 레이어 기능 및 효과
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 고급 PSD 레이어 기능과 효과를 살펴보세요. PSD 파일에서 레이어를 조작하고, 효과를 추가하고, 다양한 리소스를 지원하는 방법을 알아보세요.
-type: docs
 weight: 24
 url: /ko/java/advanced-psd-layer-features-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 PSD 레이어 기능 및 효과
+
 ## 소개
 
 Java를 사용하여 PSD 파일의 잠재력을 최대한 활용하고 싶으십니까? 숙련된 개발자이든 이제 막 시작하는 개발자이든 PSD 파일 조작을 마스터하면 프로젝트를 크게 향상시킬 수 있습니다. Aspose.PSD for Java를 사용하면 PSD 레이어와 효과에 대해 자세히 알아볼 수 있는 강력한 라이브러리를 손쉽게 사용할 수 있어 복잡한 그래픽 파일을 손쉽게 생성하고 관리할 수 있습니다.
@@ -111,3 +117,9 @@ Aspose.PSD와 함께 Java를 사용하여 PSD 파일의 텍스트 레이어 경�
 Java용 Aspose.PSD를 사용하여 PSD 파일의 텍스트 레이어를 쉽게 업데이트하는 방법을 알아보세요. 원활한 텍스트 편집을 위한 단계별 가이드를 따르세요.
 ### [PSD 파일에서 사용자 정의 원시 데이터 로더 사용 - Java](./use-custom-raw-data-loader-psd-files/)
 Java를 사용하여 PSD 파일에서 사용자 정의 원시 데이터 로더를 사용하는 방법을 알아보세요! 이 단계별 가이드에서는 설정부터 리소스 정리까지 모든 것을 다룹니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

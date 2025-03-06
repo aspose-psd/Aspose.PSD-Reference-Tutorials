@@ -3,10 +3,16 @@ title: Árnyékhatás átlátszatlanságának beállítása az Aspose.PSD for .N
 linktitle: Az árnyékhatás átlátszatlanságának beállítása
 second_title: Aspose.PSD .NET API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan állíthatja be az árnyékhatások átlátszatlanságát az Aspose.PSD for .NET-ben.
-type: docs
 weight: 15
 url: /hu/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Árnyékhatás átlátszatlanságának beállítása az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.PSD for .NET árnyékhatás átlátszatlanságának beállításáról szóló, lépésről lépésre szóló útmutatónkban! Ebben az oktatóanyagban végigvezetjük a DropShadowEffect Opacity tulajdonságának használatán. Az Aspose.PSD for .NET egy hatékony könyvtár, amely lehetővé teszi a .NET-alkalmazásaiban található PSD-fájlok zökkenőmentes kezelését.
@@ -105,3 +111,9 @@ Gratulálok! Sikeresen beállította az Aspose.PSD for .NET árnyékhatás átl�
 ### 5. kérdés: Hol találok közösségi támogatást az Aspose.PSD for .NET-hez?
 
  A5: Látogassa meg a[Aspose.PSD fórumok](https://forum.aspose.com/c/psd/34) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

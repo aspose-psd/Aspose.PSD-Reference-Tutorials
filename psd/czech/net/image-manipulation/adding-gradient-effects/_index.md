@@ -3,10 +3,16 @@ title: Přidání přechodových efektů do obrázků v Aspose.PSD pro .NET
 linktitle: Přidání přechodových efektů do obrázků
 second_title: Aspose.PSD .NET API
 description: Vylepšete své obrázky pomocí podmanivých přechodových efektů pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného návodu pro kreativní vizuální transformace.
-type: docs
 weight: 11
 url: /cs/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání přechodových efektů do obrázků v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vylepšení obrázků pomocí přechodových efektů může vašemu vizuálnímu obsahu dodat podmanivý rozměr. Aspose.PSD for .NET poskytuje výkonnou platformu pro začlenění přechodových překryvů do vašich obrázků. V tomto tutoriálu vás provedeme procesem přidávání efektů přechodu pomocí Aspose.PSD pro .NET.
@@ -148,3 +154,9 @@ Odpověď 3: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET stažením b
 ### Q5: Kde mohu zakoupit Aspose.PSD pro .NET?
 
  A5: Knihovnu si můžete zakoupit od[Aspose.PSD pro stránku nákupu .NET](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

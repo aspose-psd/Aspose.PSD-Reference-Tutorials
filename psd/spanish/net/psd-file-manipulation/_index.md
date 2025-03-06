@@ -3,10 +3,16 @@ title: Manipulación de archivos PSD
 linktitle: Manipulación de archivos PSD
 second_title: API Aspose.PSD .NET
 description: Maneje sin esfuerzo capas de formato AI con Aspose.PSD para .NET. Aprenda a exportar imágenes PSD a GIF, manejar secciones de datos animadas y manipular estados de capas.
-type: docs
 weight: 21
 url: /es/net/psd-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de archivos PSD
+
 ## Introducción
 
 Domina el arte de la manipulación de PSD con Aspose.PSD para .NET. Desde el manejo de capas de formato AI hasta la exportación de GIF y la navegación por secciones de datos animados, esta serie de tutoriales lo guiará sin problemas. Mejore las imágenes con efectos de estado de capa, líneas de tiempo y recorte eficiente. Aspose.PSD para .NET potencia su viaje creativo, ofreciendo tutoriales paso a paso y un entorno multiproceso para una exportación óptima de imágenes. Mejore sus habilidades y transforme su experiencia de diseño con Aspose.PSD para .NET.
@@ -77,3 +83,9 @@ Aprenda a recortar archivos PSD sin esfuerzo usando Aspose.PSD para .NET. Siga n
 Explore el arte de recortar archivos PSD en .NET con Aspose.PSD, un conjunto de herramientas versátil. Mejora tu juego de manipulación de imágenes sin esfuerzo.
 ### [Exportación de imágenes en un entorno multiproceso con Aspose.PSD para .NET](./export-images-multi-thread/)
 Mejore el procesamiento de imágenes .NET con Aspose.PSD: exporte imágenes en un entorno multiproceso. Aumente el rendimiento y la eficiencia sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

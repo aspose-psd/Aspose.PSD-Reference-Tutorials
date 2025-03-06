@@ -3,10 +3,16 @@ title: TIFF-bildkomprimering och -konfiguration
 linktitle: TIFF-bildkomprimering och -konfiguration
 second_title: Aspose.PSD Java API
 description: Hantera TIFF-bilder effektivt med Aspose.PSD för Java. Lär dig att komprimera, konfigurera och tillämpa Adobe Deflate-komprimering på TIFF-filer med våra steg-för-steg handledningar.
-type: docs
 weight: 25
 url: /sv/java/tiff-image-compression-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# TIFF-bildkomprimering och -konfiguration
+
 ## Introduktion
 
 Att hantera TIFF-bilder kan vara knepigt, men med Aspose.PSD för Java kan du hantera dessa uppgifter med lätthet. Oavsett om du behöver komprimera TIFF-filer, konfigurera alternativ eller använda specifika komprimeringstekniker som Adobe Deflate, ger våra handledningar omfattande vägledning för att förenkla dessa processer. Här är en titt på hur du kan få ut det mesta av Aspose.PSD för Java för dina TIFF-bildhanteringsbehov.
@@ -36,3 +42,9 @@ Lär dig hur du konfigurerar TIFF-alternativ i Aspose.PSD för Java med en steg-
 Lär dig hur du tillämpar Adobe Deflate-komprimering på TIFF-bilder med Aspose.PSD för Java. Steg-för-steg-guide för effektiv bildbehandling.
 ### [Tillämpa Deflate Compression på TIFF-filer med Java](./apply-deflate-compression-tiff-files/)
 Lär dig hur du tillämpar deflate-komprimering på TIFF-filer med Aspose.PSD för Java. Följ vår steg-för-steg-guide för att effektivt minska filstorleken utan att förlora kvalitet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

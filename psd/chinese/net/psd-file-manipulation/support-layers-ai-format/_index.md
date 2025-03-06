@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 支持 AI 格式的图层
 linktitle: 使用 Aspose.PSD for .NET 支持 AI 格式的图层
 second_title: Aspose.PSD .NET API
 description: 学习使用 Aspose.PSD for .NET 轻松处理 AI 格式图层。按照我们的分步指南进行无缝集成和操作。
-type: docs
 weight: 10
 url: /zh/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 支持 AI 格式的图层
+
 欢迎阅读我们的分步指南，了解如何利用 Aspose.PSD for .NET 处理 AI 格式文件中的支持层。Aspose.PSD 简化了复杂的任务，使开发人员更容易在其 .NET 应用程序中处理 AI 文件。在本教程中，我们将介绍先决条件、导入命名空间，并将每个示例分解为多个步骤，以确保无缝的学习体验。
 ## 介绍
 ### 什么是 Aspose.PSD？
@@ -85,3 +91,9 @@ A2：是的，Aspose.PSD 提供了处理 AI 文件中的文本层的功能。
 ### Q5：Aspose.PSD 支持保存哪些图像格式？
 
 A5：Aspose.PSD 支持多种格式，包括 PSD、PNG、JPEG 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

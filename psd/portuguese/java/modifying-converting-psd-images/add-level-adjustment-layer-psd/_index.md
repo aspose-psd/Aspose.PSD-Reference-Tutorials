@@ -3,10 +3,16 @@ title: Adicionar camada de ajuste de nível em PSD
 linktitle: Adicionar camada de ajuste de nível em PSD
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar efetivamente uma camada de ajuste de nível em seus arquivos PSD usando Aspose.PSD para Java. Eleve suas habilidades de edição de imagens.
-type: docs
 weight: 16
 url: /pt/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar camada de ajuste de nível em PSD
+
 ## Introdução
 Quando se trata de edição de imagens, o gerenciamento de níveis pode fazer uma grande diferença na vibração e clareza de suas fotos. Uma ferramenta útil no arsenal do Photoshop é a “Camada de ajuste de nível”, que permite ajustar a faixa de tons e o equilíbrio de cores de suas imagens. Neste guia, orientaremos você sobre como implementar uma camada de ajuste de nível em um arquivo PSD usando Aspose.PSD para Java. Então, pegue seu Java IDE.
 ## Pré-requisitos
@@ -88,3 +94,9 @@ Sim! Aspose oferece um teste gratuito para testar a biblioteca antes de comprar.
  Absolutamente! Você pode tirar dúvidas e obter suporte no[Aspor fórum](https://forum.aspose.com/c/psd/34).
 ### Como posso obter uma licença temporária para Aspose.PSD?
  Você pode solicitar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

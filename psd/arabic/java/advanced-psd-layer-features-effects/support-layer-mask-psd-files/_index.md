@@ -3,10 +3,16 @@ title: دعم قناع الطبقة في ملفات PSD مع Java
 linktitle: دعم قناع الطبقة في ملفات PSD مع Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية دعم أقنعة الطبقة في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال برنامج تعليمي شامل خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم قناع الطبقة في ملفات PSD مع Java
+
 ## مقدمة
 عندما يتعلق الأمر بالعمل مع ملفات PSD، تلعب أقنعة الطبقات دورًا محوريًا في تحسين تصميماتك وتبسيط سير العمل الإبداعي. في هذا البرنامج التعليمي، سنتعمق في كيفية دعم أقنعة الطبقة باستخدام مكتبة Aspose.PSD لـ Java. إذا كنت مطورًا أو مصممًا طموحًا أو شخصًا يتطلع إلى التعامل مع ملفات PSD برمجيًا، فأنت في المكان الصحيح! سنرشدك خلال المتطلبات الأساسية، ونستورد الحزم الضرورية، ونستعرض الخطوات اللازمة لتصدير ملف PSD الخاص بك باستخدام الأقنعة المعقدة إلى تنسيق PNG. دعونا نبدأ!
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ im.save(exportPath, saveOptions);
 إذا كان ملف PSD الخاص بك لا يحتوي على أي أقنعة، فستظل عملية التصدير ناجحة، ولكنك لن ترى أي تأثيرات قد توفرها أقنعة الطبقة.
 ### أين يمكنني الحصول على الدعم إذا كان لدي مشاكل؟  
  لأية أسئلة أو مشاكل، يمكنك زيارة[منتدى الدعم](https://forum.aspose.com/c/psd/34) للحصول على المساعدة من دعم Aspose ومجتمع المستخدمين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

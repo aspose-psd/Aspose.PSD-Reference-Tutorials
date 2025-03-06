@@ -3,10 +3,16 @@ title: رسم منحنيات بيزيير في جافا
 linktitle: رسم منحنيات بيزيير في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية رسم منحنيات Bezier في Java باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 14
 url: /ar/java/java-graphics-drawing/drawing-bezier-curves/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم منحنيات بيزيير في جافا
+
 ## مقدمة
 في برمجة Java، يمكن أن يؤدي رسم الأشكال المعقدة مثل منحنيات Bezier إلى تحسين المظهر المرئي للتطبيقات بشكل كبير. يوفر Aspose.PSD for Java وظائف قوية لتسهيل مثل هذه المهام بكفاءة. سيرشدك هذا البرنامج التعليمي خلال عملية رسم منحنيات Bezier خطوة بخطوة باستخدام Aspose.PSD لـ Java، مما يتيح لك إنشاء رسومات جذابة بصريًا بسهولة.
 ## المتطلبات الأساسية
@@ -93,3 +99,9 @@ image.save(outpath, saveOptions);
 نعم، يدعم Aspose.PSD for Java تصدير الصور إلى تنسيقات مختلفة مثل PNG وJPEG وTIFF وما إلى ذلك.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
  قم بزيارة[Aspose.PSD لوثائق جافا](https://reference.aspose.com/psd/java/) للحصول على أدلة شاملة ونماذج التعليمات البرمجية. ## كود المصدر الكامل
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

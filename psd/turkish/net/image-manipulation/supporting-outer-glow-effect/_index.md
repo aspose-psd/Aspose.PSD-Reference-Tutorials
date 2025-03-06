@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Dış Işıma Efektini Destekleme
 linktitle: Dış Işıma Efektini Destekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'te Outer Glow Effect'in gücünü keşfedin. Bu adım adım eğitimle görsel tasarımlarınızı geliştirin.
-type: docs
 weight: 16
 url: /tr/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Dış Işıma Efektini Destekleme
+
 ## giriiş
 
 Aspose.PSD for .NET'te Dış Işıma Efektini desteklemeye yönelik adım adım kılavuzumuza hoş geldiniz. Aspose.PSD, .NET uygulamalarında PSD dosyalarının kusursuz şekilde işlenmesini sağlayan güçlü bir kütüphanedir. Bu eğitimde, Dış Işıma Efektinin uygulanmasını inceleyeceğiz ve bunu projelerinize entegre etmek için ayrıntılı bir yol göstereceğiz.
@@ -114,3 +120,9 @@ Cevap1: Evet, Aspose.PSD çok çeşitli .NET çerçevelerini destekleyerek çeş
 ### S5: .NET için Aspose.PSD'yi satın alabilir miyim?
 
  Cevap5: Evet, lisanslama seçeneklerini araştırın ve satın alma işleminizi yapın[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Bir Görüntüyü Belirli Bir Açıda Döndürme
 linktitle: Bir Görüntüyü Belirli Bir Açıda Döndürme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java ile Java'da görüntü döndürmeyi keşfedin. Görüntüleri belirli açılarda zahmetsizce döndürün.
-type: docs
 weight: 20
 url: /tr/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Bir Görüntüyü Belirli Bir Açıda Döndürme
+
 ## giriiş
 
 Java geliştirmenin dinamik dünyasında, görüntüleri değiştirmek çeşitli uygulamalar için ortak bir gereksinimdir. Aspose.PSD for Java, görüntü döndürme işlemini zahmetsizce gerçekleştirmek için güçlü özellikler sunan sağlam bir çözüm olarak ortaya çıkıyor. Bu eğitimde, Aspose.PSD for Java'yı kullanarak bir görüntüyü belirli bir açıda döndürme sürecinde size rehberlik edeceğiz. Ayrıntılara dalmadan önce bazı önkoşullarla zemini hazırlayalım.
@@ -117,3 +123,9 @@ Aspose.PSD for Java öncelikle arka uç görüntü işlemeye odaklanır. Gerçek
 ### S5: Aspose.PSD için yardım isteyebileceğim bir topluluk forumu var mı?
 
  Evet, ziyaret edebilirsiniz[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) toplulukla etkileşime geçmek, sorular sormak ve yardım istemek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

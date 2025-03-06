@@ -3,10 +3,16 @@ title: Aspose.PSD for Java を使用して PSD ファイルに透かしを追加
 linktitle: Aspose.PSD for Java を使用して PSD ファイルに透かしを追加する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイルに簡単に透かしを追加する方法を学びます。簡単なステップバイステップ ガイドで画像を保護します。
-type: docs
 weight: 18
 url: /ja/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java を使用して PSD ファイルに透かしを追加する
+
 ## 導入
 透かしは、画像を保護し、所有権を伝えるための、さりげないながらも効果的な方法です。ポートフォリオを披露する写真家でも、最新の作品を発表するデザイナーでも、透かしを追加することはブランド アイデンティティの維持に不可欠です。このチュートリアルでは、Aspose.PSD for Java を使用して PSD ファイルに透かしを簡単に追加する方法について詳しく説明します。では、コーヒーを 1 杯飲んで、くつろいで、始めましょう。
 ## 前提条件
@@ -90,3 +96,9 @@ psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
 はい、JPEGやBMPなどのさまざまな形式で保存できます。`PngOptions()`希望するオプションを選択します。
 ### さらに詳しいサポートはどこで受けられますか?
 詳しい問い合わせについては、[Aspose フォーラム](https://forum.aspose.com/c/psd/34)またはチェックしてください[ドキュメント](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Áp dụng tính năng nén giảm phát cho tệp TIFF bằng Java
 linktitle: Áp dụng tính năng nén giảm phát cho tệp TIFF bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách áp dụng tính năng nén giảm phát cho tệp TIFF bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để giảm kích thước tệp một cách hiệu quả mà không làm giảm chất lượng.
-type: docs
 weight: 13
 url: /vi/java/tiff-image-compression-configuration/apply-deflate-compression-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng tính năng nén giảm phát cho tệp TIFF bằng Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ làm việc với các tệp hình ảnh lớn và tự hỏi làm cách nào để giảm kích thước của chúng mà không ảnh hưởng đến chất lượng chưa? Nếu bạn đang xử lý các tệp TIFF, bạn thật may mắn! Trong bài viết này, chúng ta sẽ đi sâu vào thế giới nén hình ảnh, đặc biệt tập trung vào cách áp dụng nén giảm phát cho các tệp TIFF bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn có thể xử lý các tệp hình ảnh của mình một cách dễ dàng. Vì vậy, hãy bắt đầu!
@@ -92,3 +98,9 @@ Mức độ nén phụ thuộc vào độ phức tạp của hình ảnh. Nói c
 
 ### Tôi có cần bất kỳ công cụ đặc biệt nào để sử dụng Aspose.PSD cho Java không?
 Bạn chỉ cần một môi trường phát triển Java và thư viện Aspose.PSD cho Java mà bạn có thể tải xuống từ các liên kết được cung cấp ở trên.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

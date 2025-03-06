@@ -3,10 +3,16 @@ title: Cắt tệp PSD bằng Aspose.PSD cho Java
 linktitle: Cắt tập tin PSD
 second_title: API Java Aspose.PSD
 description: Khám phá việc cắt tệp PSD liền mạch trong Java với Aspose.PSD. Dễ dàng tích hợp độ chính xác và hiệu quả vào các tác vụ xử lý hình ảnh của bạn.
-type: docs
 weight: 17
 url: /vi/java/image-processing/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt tệp PSD bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, việc quản lý và thao tác với các tệp PSD (Tài liệu Photoshop) là một yêu cầu phổ biến. Aspose.PSD cho Java nổi lên như một công cụ mạnh mẽ, đơn giản hóa quá trình cắt xén tệp PSD một cách hiệu quả và chính xác. Hướng dẫn từng bước này sẽ hướng dẫn bạn những điều cơ bản về cắt xén tệp PSD bằng Aspose.PSD cho Java, đảm bảo bạn nắm bắt kỹ lưỡng từng khái niệm.
@@ -106,3 +112,9 @@ Câu trả lời 2: Có, Aspose.PSD dành cho Java được tối ưu hóa về 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
 
  Câu trả lời 5: Có, hãy khám phá các tính năng bằng bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 高级图像效果
 linktitle: 高级图像效果
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 提升您的 Java 图形设计！无缝掌握高级图像效果 - 从渐变和图案到签名和笔触。
-type: docs
 weight: 26
 url: /zh/java/advanced-image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高级图像效果
+
 ## 介绍
 您准备好将您的 Java 图形设计提升到新的水平了吗？Aspose.PSD for Java 为您开启了使用高级效果增强图像的无限可能。在本综合指南中，我们将带您完成一系列教程，每个教程都侧重于使用 Aspose.PSD 进行图像处理的一个独特方面。
 
@@ -42,3 +48,9 @@ url: /zh/java/advanced-image-effects/
 探索使用 Aspose.PSD for Java 将签名无缝集成到图像中。按照我们的分步指南，导入必要的软件包，并增强 Java 应用程序的图形功能。
 ### [在 Aspose.PSD for Java 中添加描边图层颜色](./add-stroke-layer-color/)
 通过我们关于添加描边层颜色的分步指南探索 Aspose.PSD for Java 的强大功能。轻松提升您的图形设计。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

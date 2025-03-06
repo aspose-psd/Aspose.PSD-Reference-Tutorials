@@ -3,10 +3,16 @@ title: Thay đổi kích thước hình ảnh theo tỷ lệ với Aspose.PSD ch
 linktitle: Thay đổi kích thước hình ảnh theo tỷ lệ
 second_title: API Java Aspose.PSD
 description: Nâng cao các ứng dụng Java của bạn với Aspose.PSD. Làm theo hướng dẫn của chúng tôi để thay đổi kích thước hình ảnh một cách dễ dàng. Hãy nâng cao khả năng xử lý hình ảnh của bạn ngay hôm nay.
-type: docs
 weight: 17
 url: /vi/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kích thước hình ảnh theo tỷ lệ với Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thay đổi kích thước hình ảnh theo tỷ lệ bằng Aspose.PSD cho Java. Nếu bạn đang tìm cách nâng cao các ứng dụng Java của mình bằng khả năng thay đổi kích thước hình ảnh hiệu quả thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình bằng các bước rõ ràng và ngắn gọn.
@@ -92,3 +98,9 @@ Trong hướng dẫn này, chúng tôi đã trình bày các bước cần thi�
 
  A5: Tham khảo tài liệu chi tiết[đây](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

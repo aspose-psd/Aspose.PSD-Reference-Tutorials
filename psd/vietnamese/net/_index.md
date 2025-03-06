@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.PSD cho .NET
 linktitle: Hướng dẫn Aspose.PSD cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Dễ dàng nâng cao chất lượng hình ảnh với hướng dẫn Aspose.PSD cho .NET. Xử lý hình ảnh thành thạo, thao tác tệp PSD, xử lý văn bản và phông chữ, v.v.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.PSD cho .NET
+
 ## Giới thiệu
 Khai phá toàn bộ tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn và ví dụ toàn diện của chúng tôi. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới làm quen với lĩnh vực xử lý hình ảnh, hướng dẫn từng bước của chúng tôi sẽ giúp bạn nâng cao các dự án .NET của mình một cách dễ dàng.
 
@@ -100,3 +105,9 @@ Khai phá tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn củ
 Nắm vững các cải tiến hình ảnh động trong Aspose.PSD cho .NET. Nâng cao khả năng xử lý hình ảnh của bạn bằng các hướng dẫn về cách thêm, xếp chồng và hiển thị các hiệu ứng tuyệt đẹp trong thời gian chạy.
 ### [Tài nguyên tệp PSD](./psd-file-resources/)
 Khai phá toàn bộ tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn của chúng tôi. Làm chủ màu nền, thông tin đường viền, đường dẫn làm việc và các tài nguyên đen trắng một cách liền mạch. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

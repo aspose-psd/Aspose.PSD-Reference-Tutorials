@@ -3,10 +3,16 @@ title: Otočení obrázku pod určitým úhlem v Aspose.PSD pro .NET
 linktitle: Otočení obrázku pod určitým úhlem
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte sílu Aspose.PSD pro .NET. Otočte snímky bez námahy ve specifických úhlech. Stáhněte si knihovnu a začněte bez problémů manipulovat s obrázky.
-type: docs
 weight: 16
 url: /cs/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Otočení obrázku pod určitým úhlem v Aspose.PSD pro .NET
+
 Pokud se ponoříte do světa manipulace s obrázky pomocí .NET, Aspose.PSD poskytuje výkonné řešení. V tomto tutoriálu vás provedeme procesem otáčení obrázku pod určitým úhlem pomocí Aspose.PSD. Než se vrhneme na kroky, připravíme jeviště úvodem.
 
 ## Zavedení
@@ -104,3 +110,9 @@ Odpověď 3: I když to není povinné, ukládání dat do mezipaměti může v�
 ### Q5: Mohu vyzkoušet Aspose.PSD před nákupem?
 
  A5: Určitě! Chyťte se[zkušební verze zdarma](https://releases.aspose.com/)prozkoumat možnosti knihovny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

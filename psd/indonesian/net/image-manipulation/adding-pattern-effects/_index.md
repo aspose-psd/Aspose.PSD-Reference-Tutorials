@@ -3,10 +3,16 @@ title: Menambahkan Efek Pola ke Gambar di Aspose.PSD untuk .NET
 linktitle: Menambahkan Efek Pola pada Gambar
 second_title: Asumsikan.PSD .NET API
 description: Sempurnakan gambar Anda dengan efek pola menawan menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan pola khusus dengan lancar.
-type: docs
 weight: 12
 url: /id/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Efek Pola ke Gambar di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Menyempurnakan gambar dengan efek pola dapat menghadirkan dimensi baru pada desain Anda. Aspose.PSD untuk .NET memberikan solusi ampuh untuk menambahkan hamparan pola ke gambar dengan mulus, memungkinkan Anda membuat grafik visual yang menakjubkan. Tutorial langkah demi langkah ini akan memandu Anda melalui proses penambahan efek pola menggunakan Aspose.PSD untuk .NET.
@@ -108,3 +114,9 @@ A4: Dimensi pola fleksibel, memungkinkan Anda membuat pola dengan berbagai ukura
 ### Q5: Dapatkah saya menggunakan Aspose.PSD untuk .NET dalam proyek komersial?
 
 A5: Ya, Anda dapat menggunakan Aspose.PSD untuk .NET dalam proyek komersial. Untuk detail lisensi, kunjungi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

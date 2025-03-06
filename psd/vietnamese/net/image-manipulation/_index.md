@@ -3,10 +3,16 @@ title: Thao tác hình ảnh
 linktitle: Thao tác hình ảnh
 second_title: API Aspose.PSD .NET
 description: Nâng cao các dự án .NET của bạn với Aspose.PSD! Tìm hiểu các kỹ thuật xử lý hình ảnh như kết hợp, cắt xén, thay đổi kích thước, xoay và thêm hiệu ứng một cách dễ dàng.
-type: docs
 weight: 26
 url: /vi/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác hình ảnh
+
 ## Giới thiệu
 
 Thao tác hình ảnh là một kỹ năng quan trọng đối với bất kỳ nhà phát triển hoặc nhà thiết kế nào làm việc với .NET và Aspose.PSD cho .NET cung cấp bộ công cụ mạnh mẽ để nâng cao khả năng của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các kỹ thuật xử lý hình ảnh khác nhau có thể được áp dụng liền mạch bằng cách sử dụng[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Khám phá sức mạnh của Hiệu ứng ánh sáng bên ngoài trong Aspose.P
 Nắm vững nghệ thuật kết xuất Hiệu ứng lớp phủ chuyển màu trong Aspose.PSD cho .NET. Nâng cao kỹ năng thiết kế đồ họa của bạn với hướng dẫn từng bước này.
 ### [Hỗ trợ hiệu ứng lớp phủ chuyển màu trong Aspose.PSD cho .NET](./supporting-gradient-overlay-effect/)
 Nâng cao đồ họa trong .NET với Aspose.PSD. Hướng dẫn này hướng dẫn bạn cách hỗ trợ Hiệu ứng lớp phủ chuyển màu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

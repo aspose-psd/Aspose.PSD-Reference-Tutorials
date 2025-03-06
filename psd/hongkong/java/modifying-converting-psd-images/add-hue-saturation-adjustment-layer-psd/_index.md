@@ -3,10 +3,16 @@ title: 加入色相飽和度調整圖層到PSD
 linktitle: 加入色相飽和度調整圖層到PSD
 second_title: Aspose.PSD Java API
 description: 在這個全面的逐步教學中，了解如何使用 Aspose.PSD for Java 將色調飽和度調整圖層新增至 PSD。增強您的圖形設計工作流程。
-type: docs
 weight: 14
 url: /zh-hant/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 加入色相飽和度調整圖層到PSD
+
 ## 介紹
 在圖形設計中，色彩處理起著至關重要的作用，具體來說，調整色調、飽和度和亮度可以極大地改變任何影像的情緒和品質。實現此目的的有效方法是使用 Photoshop 中的調整圖層（PSD 檔案）。如果您希望使用 Java 以程式設計方式增強 PSD 文件，Aspose.PSD 庫可以為您提供協助！本教學將引導您完成為 PSD 檔案新增色相飽和度調整圖層的步驟，讓您的工作流程更有效率。
 在本指南中，我們將涵蓋從匯入必要的套件到程式碼範例的具體細節的所有內容。
@@ -102,3 +108,9 @@ img.save(psdPathAfterNewLayerChange);
 是的，您可以使用 Aspose.PSD 自動執行和批次處理多個 PSD 檔案。
 ### Aspose.PSD 是免費的嗎？
 Aspose.PSD提供免費試用，但長期使用需要授權。您可以查看定價[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

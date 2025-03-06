@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で画像を比例的にサイズ変更する
 linktitle: 画像を比例的にサイズ変更
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して Java アプリケーションを強化します。ガイドに従って、簡単に画像を比例的にサイズ変更します。今すぐ画像処理機能を強化しましょう。
-type: docs
 weight: 17
 url: /ja/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で画像を比例的にサイズ変更する
+
 ## 導入
 
 Aspose.PSD for Java を使用して画像を比例的にサイズ変更する手順を説明したガイドへようこそ。効率的な画像サイズ変更機能を使用して Java アプリケーションを強化したい場合は、ここが最適な場所です。このチュートリアルでは、明確で簡潔な手順を使用してプロセスを順を追って説明します。
@@ -92,3 +98,9 @@ image.save(destName, new PngOptions());
 
  A5: 詳細なドキュメントを参照してください[ここ](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

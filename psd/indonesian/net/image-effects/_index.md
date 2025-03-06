@@ -3,10 +3,16 @@ title: Efek Gambar
 linktitle: Efek Gambar
 second_title: Asumsikan.PSD .NET API
 description: Kuasai peningkatan gambar dinamis di Aspose.PSD untuk .NET. Tingkatkan pemrosesan gambar Anda dengan tutorial tentang menambahkan, melapisi, dan merender efek menakjubkan saat runtime.
-type: docs
 weight: 25
 url: /id/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efek Gambar
+
 
 ## Perkenalan
 
@@ -34,3 +40,9 @@ Jelajahi penyempurnaan gambar dinamis menggunakan Aspose.PSD untuk .NET. Tambahk
 Jelajahi keajaiban Aspose.PSD untuk .NET dengan tutorial kami tentang overlay efek warna. Tingkatkan permainan pemrosesan gambar Anda dengan mudah.
 ### [Merender Efek Drop Shadow di Aspose.PSD untuk .NET](./render-drop-shadow/)
 Jelajahi kekuatan Aspose.PSD untuk .NET dalam tutorial ini, kuasai seni rendering efek drop shadow yang menawan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

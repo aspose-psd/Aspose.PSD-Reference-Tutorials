@@ -3,10 +3,16 @@ title: เบลอภาพโดยใช้ Aspose.PSD สำหรับ Jav
 linktitle: เบลอภาพ
 second_title: Aspose.PSD Java API
 description: เรียนรู้การเบลอภาพใน Java ด้วย Aspose.PSD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ระดับมืออาชีพ
-type: docs
 weight: 24
 url: /th/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เบลอภาพโดยใช้ Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 ในโลกของการพัฒนา Java การปรับปรุงและการจัดการอิมเมจถือเป็นข้อกำหนดทั่วไป หากคุณต้องการเพิ่มเอฟเฟกต์เบลอให้กับรูปภาพของคุณโดยทางโปรแกรม Aspose.PSD สำหรับ Java เป็นเครื่องมืออันทรงพลังที่ทำให้กระบวนการง่ายขึ้น บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการเบลอภาพโดยใช้ Aspose.PSD เพื่อให้มั่นใจว่าคุณจะได้ผลลัพธ์ระดับมืออาชีพได้อย่างง่ายดาย
@@ -96,3 +102,9 @@ A1: แน่นอน! Aspose.PSD มาพร้อมกับเอกสา
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร
 
  A5: คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

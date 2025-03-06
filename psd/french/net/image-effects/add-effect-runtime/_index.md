@@ -3,10 +3,16 @@ title: Ajout d'effets au moment de l'exécution dans Aspose.PSD pour .NET
 linktitle: Ajout d'effets au moment de l'exécution
 second_title: API Aspose.PSD.NET
 description: Explorez les améliorations d'images dynamiques à l'aide d'Aspose.PSD pour .NET. Ajoutez facilement des effets au moment de l’exécution.
-type: docs
 weight: 10
 url: /fr/net/image-effects/add-effect-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout d'effets au moment de l'exécution dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Améliorer l’attrait visuel des images est une exigence courante dans les applications de conception graphique et de traitement d’images. Dans ce didacticiel, nous verrons comment ajouter des effets au moment de l'exécution à l'aide d'Aspose.PSD pour .NET. Aspose.PSD est une API puissante qui permet aux développeurs de travailler de manière transparente avec les fichiers Adobe Photoshop. 
@@ -96,3 +102,9 @@ A3 : Aspose.PSD offre une large gamme d'effets, mais il est conseillé de consul
 ### Q5 : Où puis-je trouver du soutien supplémentaire et des discussions communautaires ?
 
  A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour du soutien et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

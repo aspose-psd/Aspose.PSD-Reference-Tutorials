@@ -3,10 +3,16 @@ title: قم بتعيين عتامة التعبئة لطبقات PSD باستخد
 linktitle: قم بتعيين عتامة التعبئة لطبقات PSD باستخدام Aspose.PSD Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية ضبط عتامة التعبئة لطبقات PSD باستخدام Aspose.PSD لـ Java في هذا الدليل التفصيلي خطوة بخطوة. تعزيز مشاريع التصميم الجرافيكي الخاصة بك بكفاءة.
-type: docs
 weight: 13
 url: /ar/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين عتامة التعبئة لطبقات PSD باستخدام Aspose.PSD Java
+
 ## مقدمة
 هل تجد نفسك غالبًا تقوم بتعديل ملفات التصميم، محاولًا تحقيق هذا التأثير البصري المثالي؟ سواء كنت مصمم رسومات متمرسًا أو مطورًا ناشئًا يتطلع إلى التعامل مع ملفات PSD، فإن معرفة كيفية ضبط خصائص الطبقة يمكن أن تُحدث فرقًا كبيرًا. اليوم، سنتعمق في كيفية ضبط عتامة التعبئة للطبقات في ملف PSD باستخدام Aspose.PSD لـ Java. هل أنت مستعد لتحويل طبقاتك إلى قطع لافتة للنظر؟ دعونا نبدأ!
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ im.save(exportPath);
 إلى جانب عتامة التعبئة، يمكنك التعامل مع رؤية الطبقة وأوضاع المزج والموضع والحجم والمزيد باستخدام Aspose.PSD.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.PSD لـ Java؟
  يمكنك الرجوع إلى الوثائق الشاملة[هنا](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

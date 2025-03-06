@@ -3,10 +3,16 @@ title: Java で PSD ファイルに斜めの透かしを追加する
 linktitle: Java で PSD ファイルに斜めの透かしを追加する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD で Java を使用して PSD ファイルに斜めの透かしを簡単に追加する方法を学びます。自信を持って画像を強化するためのステップバイステップ ガイドです。
-type: docs
 weight: 12
 url: /ja/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で PSD ファイルに斜めの透かしを追加する
+
 ## 導入
 今日のデジタル世界では、印象的なビジュアルが大きな違いを生みます。作品を保護したいデザイナーにとっても、画像にブランドを追加したいマーケティング担当者にとっても、透かしの適用は不可欠です。このチュートリアルでは、PSD ファイルを操作する強力なライブラリである Aspose.PSD を使用して、Java で PSD ファイルに斜めの透かしを追加する方法を説明します。
 ## 前提条件
@@ -97,3 +103,9 @@ Aspose.PSD は、Adobe Photoshop を必要とせずに PSD ファイルを操作
 はい、お電話ください`drawString`透かしをさらに追加するには、異なるパラメータを使用してメソッドを複数回実行します。
 ### Aspose.PSD の詳細情報はどこで入手できますか?
 ドキュメントを確認することができます[ここ](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

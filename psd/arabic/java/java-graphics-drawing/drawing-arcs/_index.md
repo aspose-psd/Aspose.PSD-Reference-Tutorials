@@ -3,10 +3,16 @@ title: رسم الأقواس في جافا
 linktitle: رسم الأقواس في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية رسم الأقواس في Java باستخدام Aspose.PSD لـ Java. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية للتطبيقات الرسومية.
-type: docs
 weight: 13
 url: /ar/java/java-graphics-drawing/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الأقواس في جافا
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية رسم الأقواس باستخدام مكتبة Aspose.PSD لـ Java. يمكن أن يكون رسم الأقواس برمجيًا مفيدًا في العديد من التطبيقات مثل واجهات المستخدم الرسومية أو الرسوم البيانية أو المرئيات المخصصة. يوفر Aspose.PSD for Java وظائف قوية لمعالجة وإنشاء ملفات PSD (مستندات Photoshop)، بما في ذلك القدرة على رسم أشكال مثل الأقواس بخصائص قابلة للتخصيص.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ image.save(outputPath, saveOptions);
 نعم، يدعم Aspose.PSD التصدير إلى مجموعة متنوعة من التنسيقات بما في ذلك PNG وJPEG وTIFF وGIF وغيرها.
 ### أين يمكنني العثور على دعم وموارد إضافية لـ Aspose.PSD؟
  قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للحصول على دعم المجتمع والتوثيق والتحديثات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

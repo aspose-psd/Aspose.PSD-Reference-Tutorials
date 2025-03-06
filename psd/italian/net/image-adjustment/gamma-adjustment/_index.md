@@ -3,10 +3,16 @@ title: Implementazione della regolazione gamma in Aspose.PSD per .NET
 linktitle: Implementazione della regolazione gamma
 second_title: API Aspose.PSD .NET
 description: Esplora la potenza di Aspose.PSD per .NET con la nostra guida passo passo sull'implementazione della regolazione gamma. Ottimizza facilmente la luminosità e il contrasto dell'immagine.
-type: docs
 weight: 12
 url: /it/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementazione della regolazione gamma in Aspose.PSD per .NET
+
 ## Introduzione
 
 Benvenuti in questa guida completa sull'implementazione della regolazione gamma in Aspose.PSD per .NET! La regolazione gamma è una tecnica fondamentale di elaborazione delle immagini che consente di ottimizzare la luminosità e il contrasto di un'immagine. In questo tutorial ti guideremo attraverso il processo utilizzando la potente libreria Aspose.PSD per .NET.
@@ -101,3 +107,9 @@ Congratulazioni! Hai implementato con successo la regolazione gamma utilizzando 
 ### Q5: Ho bisogno di una licenza temporanea?
 
  R5: Se necessario, è possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

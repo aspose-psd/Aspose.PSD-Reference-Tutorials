@@ -3,10 +3,16 @@ title: Làm việc với Chế độ hòa trộn trong Aspose.PSD cho .NET
 linktitle: Làm việc với chế độ hoà trộn
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của chế độ hòa trộn trong Aspose.PSD cho .NET. Hướng dẫn này hướng dẫn bạn áp dụng các chế độ hòa trộn khác nhau bằng các ví dụ từng bước.
-type: docs
 weight: 16
 url: /vi/net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Chế độ hòa trộn trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Nếu bạn là nhà phát triển .NET đang tìm cách nâng cao khả năng xử lý hình ảnh của mình, Aspose.PSD for .NET là một công cụ mạnh mẽ cho phép bạn làm việc liền mạch với nhiều chế độ hòa trộn khác nhau. Chế độ hòa trộn đóng một vai trò quan trọng trong việc xử lý hình ảnh bằng cách xác định cách các lớp hòa trộn với nhau. Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào thế giới của các chế độ hòa trộn và trình bày cách sử dụng chúng hiệu quả trong các ứng dụng .NET của bạn.
@@ -102,3 +108,9 @@ A4: Chắc chắn rồi! Chế độ hòa trộn có thể được kết hợp 
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
 
  Câu trả lời 5: Có, bạn có thể tìm thấy sự hỗ trợ và kết nối với những người dùng khác trên[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

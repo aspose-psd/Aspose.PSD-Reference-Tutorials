@@ -3,10 +3,16 @@ title: Recurso de información de bordes de soporte en PSD - Java
 linktitle: Recurso de información de bordes de soporte en PSD - Java
 second_title: API de Java Aspose.PSD
 description: Domine la manipulación de bordes en archivos PSD con Aspose.PSD para Java. Aprenda a modificar el ancho del borde, las unidades y más mediante pasos fáciles de seguir. Mejore sus diseños PSD mediante programación.
-type: docs
 weight: 23
 url: /es/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recurso de información de bordes de soporte en PSD - Java
+
 ## Introducción
 
 ¿Alguna vez has sentido la necesidad de modificar esos molestos bordes de tus archivos PSD mediante programación? Bueno, ¡no te preocupes más! Aspose.PSD para Java viene al rescate, ofreciendo una forma poderosa y fácil de usar para manipular recursos de información de bordes dentro de sus archivos PSD. Esta guía completa lo guiará paso a paso a través del proceso, permitiéndole tomar el control de sus fronteras como nunca antes.
@@ -136,3 +142,9 @@ Aspose.PSD está optimizado para el rendimiento, pero el manejo de archivos PSD 
 ### ¿Dónde puedo encontrar más información y soporte?
 
 La documentación de Aspose.PSD para Java es un excelente recurso para obtener detalles detallados sobre la API y sus capacidades. También puede visitar los foros de Aspose para obtener ayuda e interactuar con otros desarrolladores. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

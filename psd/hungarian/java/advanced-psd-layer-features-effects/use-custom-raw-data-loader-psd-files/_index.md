@@ -3,10 +3,16 @@ title: Használja az egyéni nyers adatbetöltőt a PSD-fájlokban – Java
 linktitle: Használja az egyéni nyers adatbetöltőt a PSD-fájlokban – Java
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan használhat egyéni nyersadat-betöltőt PSD-fájlokban Java-val! Ez a lépésenkénti útmutató a beállítástól az erőforrás-tisztításig mindenre kiterjed.
-type: docs
 weight: 29
 url: /hu/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Használja az egyéni nyers adatbetöltőt a PSD-fájlokban – Java
+
 ## Bevezetés
 A PSD-fájlokkal való munka Java nyelven elsöprőnek tűnhet, különösen, ha nyers adatok kezeléséről van szó. Ne félj! Az Aspose.PSD for Java használatával egyszerűen kezelheti és kinyerheti a nyers pixeladatokat PSD-fájlokból egyéni betöltőkkel. Ez az útmutató lépésről lépésre segít az egyéni nyersadat-betöltő megvalósításának folyamatában. Lefedjük az összes szükséges előfeltételt, importáljuk a szükséges csomagokat, és a kódot könnyen követhető, kezelhető lépésekre bontjuk.
 ## Előfeltételek
@@ -90,3 +96,9 @@ Az Aspose.PSD for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztő
  Támogatásért és közösségi segítségért látogassa meg a[Aspose fórum](https://forum.aspose.com/c/psd/34).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?  
 Ideiglenes licencet szerezhet az összes funkció értékeléséhez, ha ellátogat a webhelyre[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

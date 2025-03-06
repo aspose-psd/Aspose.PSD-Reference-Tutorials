@@ -3,10 +3,16 @@ title: Thêm lớp nét với màu đồng nhất trong Aspose.PSD cho .NET
 linktitle: Thêm lớp Stroke với màu đồng nhất
 second_title: API Aspose.PSD .NET
 description: Nâng cao kỹ năng xử lý hình ảnh .NET của bạn với Aspose.PSD. Tìm hiểu cách thêm các lớp nét với màu đồng nhất theo từng bước.
-type: docs
 weight: 11
 url: /vi/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp nét với màu đồng nhất trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, việc tạo ra những hình ảnh hấp dẫn về mặt trực quan là một yêu cầu chung. Aspose.PSD for .NET cung cấp một bộ công cụ mạnh mẽ để thao tác và nâng cao hình ảnh một cách liền mạch. Một trong những tính năng cần thiết là thêm một lớp nét vẽ có màu đồng nhất, mang lại sự sống động và chiều sâu cho hình ảnh của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng Aspose.PSD cho .NET.
@@ -130,3 +136,9 @@ A2: Chắc chắn rồi! Aspose.PSD cho .NET là một sản phẩm thương m�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho .NET?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để tìm kiếm sự hỗ trợ và kết nối với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

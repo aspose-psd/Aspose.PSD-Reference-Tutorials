@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Lspf dalam File PSD menggunakan Java
 linktitle: Mendukung Sumber Daya Lspf dalam File PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Kuasai cara mendukung dan memanipulasi Sumber Daya Lspf dalam file PSD menggunakan Aspose.PSD untuk Java dengan panduan langkah demi langkah kami.
-type: docs
 weight: 14
 url: /id/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Lspf dalam File PSD menggunakan Java
+
 ## Perkenalan
 
 Apakah Anda seorang pengembang yang ingin terjun ke dunia manipulasi file PSD? Nah, Anda datang ke tempat yang tepat! Saat bekerja dengan file PSD, Anda sering kali perlu menangani berbagai sumber daya lapisan, seperti LspfResource. Sumber daya ini sangat penting untuk mengelola pengaturan perlindungan lapisan seperti perlindungan komposit, posisi, dan transparansi dalam file PSD. Dalam tutorial komprehensif ini, kita akan mempelajari cara mendukung dan memanipulasi LspfResource di file PSD menggunakan Java dengan bantuan Aspose.PSD untuk Java.
@@ -182,3 +188,9 @@ Jika Anda tidak memverifikasi perubahannya, ada risiko bahwa pengaturan tersebut
 
 ### Bisakah saya membatalkan perubahan yang dilakukan pada LspfResource setelah menyimpan file?  
 Setelah file disimpan, membatalkan perubahan secara langsung tidak dapat dilakukan. Namun, Anda dapat memuat ulang file asli dan menerapkan kembali perubahan sesuai kebutuhan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

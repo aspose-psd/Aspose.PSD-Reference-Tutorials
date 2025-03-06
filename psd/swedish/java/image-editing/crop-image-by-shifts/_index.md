@@ -3,10 +3,16 @@ title: Beskär bild med Shifts i Aspose.PSD för Java
 linktitle: Beskär bild med Shifts
 second_title: Aspose.PSD Java API
 description: Bemästra bildbeskärning med Aspose.PSD för Java. En omfattande handledning för sömlös bildmanipulation.
-type: docs
 weight: 16
 url: /sv/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beskär bild med Shifts i Aspose.PSD för Java
+
 ## Introduktion
 
 Inom Java-baserad bildbehandling framstår Aspose.PSD som ett kraftfullt verktyg för att manipulera och förbättra bilder med yttersta precision. En av nyckelfunktionerna som skiljer Aspose.PSD åt är dess förmåga att utföra bildbeskärning sömlöst. I den här handledningen kommer vi att fördjupa oss i konsten att beskära bilder med Aspose.PSD för Java. I slutet kommer du att vara utrustad med färdigheter för att enkelt beskära bilder enligt dina specifikationer.
@@ -115,3 +121,10 @@ S2: Absolut, du kan utföra flera beskärningsoperationer sekventiellt på samma
 ### F5: Finns det några exempel på projekt som visar Aspose.PSD-funktioner?
 
  S5: Utforska dokumentationen och exemplen på[Aspose.PSD Java-dokumentation](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

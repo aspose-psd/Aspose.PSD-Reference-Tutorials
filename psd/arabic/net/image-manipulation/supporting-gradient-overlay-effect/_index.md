@@ -3,10 +3,16 @@ title: دعم تأثير تراكب التدرج في Aspose.PSD لـ .NET
 linktitle: دعم تأثير تراكب التدرج
 second_title: Aspose.PSD.NET API
 description: قم بتحسين الرسومات في .NET باستخدام Aspose.PSD. يرشدك هذا البرنامج التعليمي إلى دعم تأثيرات Gradient Overlay.
-type: docs
 weight: 18
 url: /ar/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم تأثير تراكب التدرج في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول دعم تأثير Gradient Overlay في Aspose.PSD لـ .NET! إذا كنت تتطلع إلى تحسين القدرات الرسومية لتطبيق .NET الخاص بك، فهذا الدليل التفصيلي موجود هنا لمساعدتك. سوف نتعمق في تعقيدات إنشاء وتحرير تأثير Gradient Overlay في طبقة باستخدام Aspose.PSD، وهي مكتبة قوية تعمل على تبسيط معالجة الصور.
@@ -133,3 +139,9 @@ A1: Aspose.PSD for .NET متوافق مع .NET Framework و.NET Core.
 ### س5: كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agregar efectos de trazo a capas en Aspose.PSD para .NET
 linktitle: Agregar efectos de trazo a capas
 second_title: API Aspose.PSD .NET
 description: Mejore la estética de la imagen con Aspose.PSD para .NET. Aprenda a agregar efectos de trazo paso a paso. Descargue, compre o pruebe la prueba gratuita ahora.
-type: docs
 weight: 10
 url: /es/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar efectos de trazo a capas en Aspose.PSD para .NET
+
 ## Introducción
 
 Bienvenido a este tutorial paso a paso sobre cómo agregar efectos de trazo a capas en Aspose.PSD para .NET. Mejorar el atractivo visual de sus imágenes es muy sencillo con el efecto de trazo, y Aspose.PSD lo hace perfecto para los desarrolladores de .NET. En esta guía, lo guiaremos a través del proceso, brindándole pasos claros y ejemplos para ayudarlo a dominar esta poderosa característica.
@@ -109,3 +115,9 @@ R4: Sí, puedes recorrer varios archivos PSD y aplicar el efecto de trazo usando
 ### P5: ¿Puedo utilizar la versión de prueba antes de comprar Aspose.PSD?
 
  R5: ¡Por supuesto! Agarra el[prueba gratuita](https://releases.aspose.com/) para explorar las capacidades de Aspose.PSD antes de realizar una compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

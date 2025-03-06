@@ -3,10 +3,16 @@ title: छवि समायोजन
 linktitle: छवि समायोजन
 second_title: Aspose.PSD .NET एपीआई
 description: .NET के लिए Aspose.PSD के साथ छवि समायोजन की क्षमता को अनलॉक करें। छवि हेरफेर में महारत हासिल करने के लिए चमक, कंट्रास्ट और रंग संतुलन पर ट्यूटोरियल का अन्वेषण करें।
-type: docs
 weight: 24
 url: /hi/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि समायोजन
+
 ## परिचय
 
 क्या आप अपनी छवि हेरफेर कौशल को बढ़ाने के लिए तैयार हैं? छवि समायोजन पर हमारे व्यापक ट्यूटोरियल के साथ .NET के लिए Aspose.PSD की दुनिया में गोता लगाएँ। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, हमारे चरण-दर-चरण मार्गदर्शिकाएँ आपको छवियों को आसानी से बढ़ाने के लिए सशक्त बनाएगी।
@@ -42,3 +48,9 @@ url: /hi/net/image-adjustment/
 .NET के लिए Aspose.PSD के साथ आसानी से छवियों को धुंधला करना सीखें। अपने C# प्रोजेक्ट में सहज छवि हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [.NET के लिए Aspose.PSD में रंग संतुलन समायोजन लागू करना](./color-balance-adjustment/)
 Aspose.PSD for .NET के कलर बैलेंस एडजस्टमेंट फीचर के साथ PSD इमेज के रंगों को आसानी से निखारें। शानदार नतीजों के लिए हमारी चरण-दर-चरण गाइड का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

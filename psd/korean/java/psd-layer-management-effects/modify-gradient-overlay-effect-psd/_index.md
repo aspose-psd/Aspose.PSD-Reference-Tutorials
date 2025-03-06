@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD에서 그라디언트 오버레이 효과 수정
 linktitle: Java를 사용하여 PSD에서 그라디언트 오버레이 효과 수정
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에서 그라데이션 오버레이 효과를 수정하는 방법을 알아보세요. PSD 파일을 효율적으로 자동화하고 사용자 정의하려면 가이드를 따르십시오.
-type: docs
 weight: 12
 url: /ko/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD에서 그라디언트 오버레이 효과 수정
+
 ## 소개
 
 Java를 통해 디지털 예술의 세계로 뛰어들 준비가 되셨습니까? Photoshop 파일(PSD)로 작업 중이고 이를 프로그래밍 방식으로 조작하고 싶다면 좋은 선택이 될 것입니다. 오늘은 Aspose.PSD for Java를 사용하여 PSD 파일에서 그라데이션 오버레이 효과를 수정하는 방법을 살펴보겠습니다. 그래픽 디자인 작업을 자동화하려는 개발자이거나 단순히 프로세스에 대해 궁금한 사람이라면 이 튜토리얼이 단계별로 안내할 것입니다. 결국에는 Photoshop을 열지 않고도 이미지에 전문적인 느낌을 추가할 수 있는 지식을 갖게 될 것입니다.
@@ -152,3 +158,9 @@ Aspose.PSD for Java를 사용하면 그림자, 내부 광선, 외부 광선 등�
 
 ### PSD 파일의 변경 사항을 어떻게 되돌리나요?  
 아직 파일을 저장하지 않은 경우 원본 PSD 파일을 다시 로드하면 됩니다. 이미 저장한 경우 백업에서 복원하거나 프로그래밍 방식으로 변경 사항을 실행 취소해야 합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

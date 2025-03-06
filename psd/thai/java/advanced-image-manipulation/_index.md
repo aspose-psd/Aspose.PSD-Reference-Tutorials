@@ -3,10 +3,16 @@ title: การจัดการภาพขั้นสูง
 linktitle: การจัดการภาพขั้นสูง
 second_title: Aspose.PSD Java API
 description: สำรวจบทช่วยสอนการจัดการรูปภาพขั้นสูงด้วย Aspose.PSD สำหรับ Java เรียนรู้การเปลี่ยนแบบอักษรที่มีประสิทธิภาพ บังคับให้แคชแบบอักษร ใช้ตัวขยายตัวอย่างแบบ bicubic และอื่นๆ อีกมากมาย
-type: docs
 weight: 24
 url: /th/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการภาพขั้นสูง
+
 
 ## การแนะนำ
 
@@ -80,3 +86,9 @@ url: /th/java/advanced-image-manipulation/
 สำรวจการหมุนภาพใน Java ได้อย่างง่ายดายด้วย Aspose.PSD หมุน พลิก และบันทึกไฟล์ PSD ได้อย่างง่ายดาย
 ### [หมุนรูปภาพในมุมเฉพาะด้วย Aspose.PSD สำหรับ Java](./rotate-image-specific-angle/)
 สำรวจการหมุนภาพใน Java ด้วย Aspose.PSD สำหรับ Java หมุนภาพได้อย่างง่ายดายในมุมที่กำหนด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

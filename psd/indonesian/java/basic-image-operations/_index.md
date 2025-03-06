@@ -3,10 +3,16 @@ title: Operasi Gambar Dasar
 linktitle: Operasi Gambar Dasar
 second_title: Asumsikan.PSD Java API
 description: Tingkatkan keterampilan desain grafis Anda dengan Aspose.PSD untuk tutorial Java. Pelajari menggambar, mengubah ukuran, mode campuran, dan verifikasi transparansi dalam panduan langkah demi langkah.
-type: docs
 weight: 25
 url: /id/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi Gambar Dasar
+
 
 ## Perkenalan
 
@@ -44,3 +50,9 @@ Tingkatkan pemrosesan gambar di Java dengan Aspose.PSD. Pelajari cara memanfaatk
 Pelajari cara menambahkan efek bayangan menawan ke gambar menggunakan Aspose.PSD untuk Java. Tingkatkan desain grafis Anda dengan tutorial langkah demi langkah ini.
 ### [Verifikasi Transparansi Gambar dengan Aspose.PSD untuk Java](./verify-image-transparency/)
 Jelajahi verifikasi transparansi gambar dengan Aspose.PSD untuk Java. Integrasi yang mudah, dokumentasi terperinci, dan dukungan komunitas yang sangat baik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java 中使用圖形路徑繪圖
 linktitle: 在 Java 中使用圖形路徑繪圖
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD 的 Graphics Path 類別在 Java 中建立複雜的圖形。本教學將引導您完成創建令人驚嘆的圖像的每個步驟。
-type: docs
 weight: 19
 url: /zh-hant/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用圖形路徑繪圖
+
 ## 介紹
 對於 Java 開發人員來說，以程式設計方式建立和操作影像可能是一項令人興奮的任務，尤其是在使用 Aspose.PSD 等程式庫時。在本教程中，我們將深入研究使用 Java 中的 Graphics Path 類別和 Aspose.PSD 繪製複雜圖形的過程。
 ## 先決條件
@@ -85,3 +91,9 @@ Aspose.PSD 是一個庫，允許開發人員使用 Photoshop 檔案並以程式�
 您可以從以下位置購買 Aspose.PSD[這裡](https://purchase.aspose.com/buy).
 ### 我在哪裡可以獲得 Aspose.PSD 支援？
 您可以尋求支持和討論[Aspose 的論壇](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

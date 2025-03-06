@@ -3,10 +3,16 @@ title: Admite el efecto de brillo exterior en Aspose.PSD para .NET
 linktitle: Apoyando el efecto de brillo exterior
 second_title: API Aspose.PSD .NET
 description: Explore el poder del efecto de brillo exterior en Aspose.PSD para .NET. Mejore sus diseños de imágenes con este tutorial paso a paso.
-type: docs
 weight: 16
 url: /es/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite el efecto de brillo exterior en Aspose.PSD para .NET
+
 ## Introducción
 
 Bienvenido a nuestra guía paso a paso sobre cómo admitir el efecto de brillo exterior en Aspose.PSD para .NET. Aspose.PSD es una poderosa biblioteca que permite la manipulación perfecta de archivos PSD en aplicaciones .NET. En este tutorial, exploraremos la implementación del efecto de brillo exterior y brindaremos un tutorial detallado para integrarlo en sus proyectos.
@@ -114,3 +120,9 @@ R1: Sí, Aspose.PSD admite una amplia gama de marcos .NET, lo que garantiza la c
 ### P5: ¿Puedo comprar Aspose.PSD para .NET?
 
  R5: Sí, explore las opciones de licencia y realice su compra[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

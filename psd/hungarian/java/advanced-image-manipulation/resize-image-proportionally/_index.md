@@ -3,10 +3,16 @@ title: A kép arányos átméretezése az Aspose.PSD for Java segítségével
 linktitle: Kép arányos átméretezése
 second_title: Aspose.PSD Java API
 description: Bővítse Java-alkalmazásait az Aspose.PSD segítségével. Kövesse útmutatónkat a képek arányos átméretezéséhez, könnyedén. Növelje képkezelési képességeit még ma.
-type: docs
 weight: 17
 url: /hu/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A kép arányos átméretezése az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük a képek arányos átméretezéséről szóló, lépésről lépésre szóló útmutatónkban az Aspose.PSD for Java használatával. Ha Java-alkalmazásait hatékony képátméretezési lehetőségekkel szeretné bővíteni, akkor jó helyen jár. Ebben az oktatóanyagban világos és tömör lépésekkel végigvezetjük a folyamaton.
@@ -92,3 +98,9 @@ Ebben az oktatóanyagban bemutattuk a képek arányos átméretezésének alapve
 
  V5: Lásd a részletes dokumentációt[itt](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Binarización con umbral fijo en Aspose.PSD para Java
 linktitle: Binarización con umbral fijo
 second_title: API de Java Aspose.PSD
 description: Explore la binarización con umbral fijo en Aspose.PSD para Java. Transforme imágenes sin problemas con nuestra guía paso a paso.
-type: docs
 weight: 14
 url: /es/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarización con umbral fijo en Aspose.PSD para Java
+
 ## Introducción
 
 En el ámbito del desarrollo de Java, Aspose.PSD demuestra ser una poderosa herramienta para tareas de procesamiento de imágenes. Una de esas operaciones esenciales es la binarización, una técnica que simplifica las imágenes convirtiéndolas a formato binario. Este tutorial lo guiará a través del proceso de lograr la binarización con un umbral fijo usando Aspose.PSD para Java. Abróchese el cinturón mientras exploramos los pasos involucrados en este viaje transformador del procesamiento de imágenes.
@@ -101,3 +107,9 @@ R1:Sí, Aspose.PSD admite varios formatos de imagen, lo que hace que la binariza
 ### P5: ¿Existe una versión de prueba gratuita disponible?
 
  R5: Sí, puedes explorar las capacidades de Aspose.PSD con una versión de prueba gratuita[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

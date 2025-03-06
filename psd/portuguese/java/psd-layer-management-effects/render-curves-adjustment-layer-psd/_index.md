@@ -3,10 +3,16 @@ title: Camada de ajuste de curvas de renderização em arquivos PSD - Java
 linktitle: Camada de ajuste de curvas de renderização em arquivos PSD - Java
 second_title: API Java Aspose.PSD
 description: Aprenda como renderizar e ajustar camadas de ajuste de curvas em arquivos PSD usando Aspose.PSD para Java com este guia passo a passo detalhado.
-type: docs
 weight: 16
 url: /pt/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Camada de ajuste de curvas de renderização em arquivos PSD - Java
+
 ## Introdução
 
 camada de ajuste de curvas do Photoshop é como uma varinha mágica para aprimorar imagens. Imagine que você é um artista ajustando as cores e tons de sua obra-prima – cada ajuste de curva permite controlar o equilíbrio de luz e cor com incrível precisão. Se você estiver trabalhando com arquivos PSD e precisar manipular essas curvas programaticamente, Aspose.PSD para Java é sua ferramenta ideal. Neste guia, veremos como renderizar e ajustar camadas de ajuste de curvas em arquivos PSD usando Aspose.PSD para Java. Esteja você atualizando tons de imagem ou exportando seus resultados, este tutorial cobrirá tudo que você precisa para começar.
@@ -146,3 +152,9 @@ Não, o Aspose.PSD para Java funciona independentemente do Photoshop, permitindo
 
 ### Onde posso encontrar suporte para Aspose.PSD para Java?
  Para suporte, você pode visitar o[Aspose fórum de suporte](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

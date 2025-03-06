@@ -3,10 +3,16 @@ title: Modifier l'effet de superposition de dégradé dans PSD à l'aide de Java
 linktitle: Modifier l'effet de superposition de dégradé dans PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment modifier l'effet de superposition de dégradé dans un fichier PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide pour automatiser et personnaliser efficacement vos fichiers PSD.
-type: docs
 weight: 12
 url: /fr/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier l'effet de superposition de dégradé dans PSD à l'aide de Java
+
 ## Introduction
 
 Êtes-vous prêt à plonger dans le monde de l’art numérique avec Java ? Si vous travaillez avec des fichiers Photoshop (PSD) et que vous souhaitez les manipuler par programme, vous allez vous régaler. Aujourd'hui, nous allons explorer comment modifier l'effet de superposition de dégradé dans un fichier PSD à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur cherchant à automatiser des tâches de conception graphique ou simplement curieux de connaître le processus, ce tutoriel vous guidera étape par étape. À la fin, vous aurez les connaissances nécessaires pour ajouter une touche professionnelle à vos images sans jamais ouvrir Photoshop.
@@ -152,3 +158,9 @@ Aspose.PSD pour Java vous permet d'appliquer divers effets, tels que des ombres 
 
 ### Comment annuler les modifications apportées à un fichier PSD ?  
 Si vous n'avez pas encore enregistré le fichier, vous pouvez simplement recharger le fichier PSD d'origine. Si vous l'avez déjà enregistré, vous devrez le restaurer à partir d'une sauvegarde ou annuler les modifications par programme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

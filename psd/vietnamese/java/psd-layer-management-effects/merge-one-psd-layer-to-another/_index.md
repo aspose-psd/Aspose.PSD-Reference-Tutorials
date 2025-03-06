@@ -3,10 +3,16 @@ title: Hợp nhất một lớp PSD sang lớp khác bằng Java
 linktitle: Hợp nhất một lớp PSD sang lớp khác bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách hợp nhất các lớp từ tệp PSD này sang tệp khác bằng Aspose.PSD cho Java với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa quá trình thiết kế của bạn.
-type: docs
 weight: 10
 url: /vi/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất một lớp PSD sang lớp khác bằng Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ thấy mình cần hợp nhất các lớp từ tệp PSD này sang tệp khác trong khi làm việc với các tài liệu Adobe Photoshop theo chương trình chưa? Cho dù bạn đang tự động hóa các quy trình thiết kế hay quản lý một bộ sưu tập lớn các hình ảnh xếp lớp, Aspose.PSD cho Java đều cung cấp bộ công cụ mạnh mẽ để thao tác trực tiếp với các tệp PSD thông qua mã Java của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình hợp nhất một lớp PSD với một lớp khác bằng Aspose.PSD cho Java. Bạn không chỉ học cách hợp nhất các lớp liền mạch mà còn khám phá cách làm việc với các tệp PSD trong môi trường Java dễ dàng như thế nào. Sẵn sàng để đi sâu vào? Hãy bắt đầu!
@@ -119,3 +125,9 @@ Khi các lớp được hợp nhất, thao tác sẽ không thể đảo ngượ
 
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho Java?
  Bạn có thể nhận được giấy phép tạm thời từ[trang web giả định](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

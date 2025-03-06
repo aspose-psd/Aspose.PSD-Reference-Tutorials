@@ -3,10 +3,16 @@ title: Zastosuj filtry Gaussa i Wienera do obrazów kolorowych za pomocą Aspose
 linktitle: Zastosuj filtry Gaussa i Wienera do obrazów kolorowych
 second_title: Aspose.PSD API Java
 description: Ulepsz swoje kolorowe obrazy bez wysiłku dzięki Aspose.PSD dla Java. Naucz się krok po kroku stosować filtry Gaussa i Wienera, aby uzyskać oszałamiające rezultaty wizualne.
-type: docs
 weight: 11
 url: /pl/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj filtry Gaussa i Wienera do obrazów kolorowych za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Witamy w tym obszernym samouczku dotyczącym stosowania filtrów Gaussa i Wienera do kolorowych obrazów przy użyciu Aspose.PSD dla Java. W tym przewodniku omówimy krok po kroku, jak ulepszyć kolorowe obrazy za pomocą tych potężnych filtrów, zapewniając umiejętności optymalizacji treści wizualnych.
@@ -96,3 +102,9 @@ Odpowiedź 4: Tak, możesz połączyć wiele filtrów w celu uzyskania złożony
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.PSD?
 
  A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

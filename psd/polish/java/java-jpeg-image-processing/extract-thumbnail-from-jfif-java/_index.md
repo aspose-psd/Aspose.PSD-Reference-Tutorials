@@ -3,10 +3,16 @@ title: Wyodrębnij miniaturę z JFIF w Javie
 linktitle: Wyodrębnij miniaturę z JFIF w Javie
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak wyodrębnić miniatury z obrazów JFIF przy użyciu Aspose.PSD dla Java. Obszerny samouczek z przewodnikiem krok po kroku i przykładami kodu.
-type: docs
 weight: 14
 url: /pl/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij miniaturę z JFIF w Javie
+
 ## Wstęp
 W tym samouczku przyjrzymy się, jak wyodrębnić miniatury z obrazów JFIF za pomocą Aspose.PSD dla Java. Aspose.PSD to potężna biblioteka Java, która umożliwia programistom programową manipulację i pracę z plikami PSD, PSB, BMP, JPEG, PNG i innymi formatami obrazów. Wyodrębnianie miniatur jest częstym zadaniem podczas przetwarzania obrazów, szczególnie w przypadku dużych zestawów obrazów lub aplikacji multimedialnych.
 ## Warunki wstępne
@@ -78,3 +84,9 @@ Aspose.PSD for Java to biblioteka Java, która umożliwia programistom programow
  Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/psd/java/).
 ### Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?
  Możesz uzyskać pomoc na forum społeczności Aspose.PSD[Tutaj](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

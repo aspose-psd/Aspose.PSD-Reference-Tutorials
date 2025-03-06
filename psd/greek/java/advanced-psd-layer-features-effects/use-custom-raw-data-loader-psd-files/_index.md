@@ -3,10 +3,16 @@ title: Χρησιμοποιήστε το Custom Raw Data Loader σε αρχεί�
 linktitle: Χρησιμοποιήστε το Custom Raw Data Loader σε αρχεία PSD - Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να χρησιμοποιείτε έναν προσαρμοσμένο φορτωτή ακατέργαστων δεδομένων σε αρχεία PSD με Java! Αυτός ο οδηγός βήμα προς βήμα καλύπτει τα πάντα, από τη ρύθμιση έως την εκκαθάριση πόρων.
-type: docs
 weight: 29
 url: /el/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χρησιμοποιήστε το Custom Raw Data Loader σε αρχεία PSD - Java
+
 ## Εισαγωγή
 Η εργασία με αρχεία PSD σε Java μπορεί να φαίνεται συντριπτική, ειδικά όταν πρόκειται για το χειρισμό μη επεξεργασμένων δεδομένων. Μη φοβάσαι! Χρησιμοποιώντας το Aspose.PSD για Java, μπορείτε εύκολα να χειριστείτε και να εξαγάγετε ακατέργαστα δεδομένα pixel από αρχεία PSD χρησιμοποιώντας προσαρμοσμένους φορτωτές. Αυτός ο οδηγός θα σας βοηθήσει βήμα προς βήμα στη διαδικασία υλοποίησης ενός προσαρμοσμένου προγράμματος φόρτωσης ακατέργαστων δεδομένων. Θα καλύψουμε όλες τις απαραίτητες προϋποθέσεις, θα εισαγάγουμε τα απαιτούμενα πακέτα και θα αναλύσουμε τον κώδικα σε διαχειρίσιμα βήματα που είναι απλά να ακολουθηθούν.
 ## Προαπαιτούμενα
@@ -90,3 +96,9 @@ try {
  Για υποστήριξη και κοινοτική βοήθεια, μπορείτε να επισκεφτείτε το[Aspose φόρουμ](https://forum.aspose.com/c/psd/34).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;  
 Μπορείτε να αποκτήσετε μια προσωρινή άδεια για την αξιολόγηση όλων των δυνατοτήτων μεταβαίνοντας στο[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

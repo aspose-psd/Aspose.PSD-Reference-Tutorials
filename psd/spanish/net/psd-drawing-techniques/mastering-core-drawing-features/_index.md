@@ -3,10 +3,16 @@ title: Dominar las funciones básicas de dibujo en Aspose.PSD para .NET
 linktitle: Dominar las funciones básicas de dibujo
 second_title: API Aspose.PSD .NET
 description: Domine Aspose.PSD para las funciones de dibujo principales de .NET con nuestro tutorial paso a paso. Mejore las habilidades de procesamiento de imágenes sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/psd-drawing-techniques/mastering-core-drawing-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar las funciones básicas de dibujo en Aspose.PSD para .NET
+
 ## Introducción
 
 Libere todo el potencial de Aspose.PSD para .NET dominando sus funciones principales de dibujo. En este completo tutorial, lo guiaremos a través de los pasos esenciales para mejorar sus capacidades de procesamiento de imágenes utilizando Aspose.PSD. Si es un desarrollador experimentado o un recién llegado al mundo de .NET, este tutorial le brindará el conocimiento para manipular imágenes de manera eficiente y aprovechar el poder de Aspose.PSD.
@@ -110,3 +116,9 @@ image.Save(outpath, new BmpOptions());
 ### P5: ¿Dónde puedo obtener soporte para Aspose.PSD para .NET?
 
  A5: Visita el foro de soporte[aquí](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

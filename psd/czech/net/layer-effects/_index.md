@@ -3,10 +3,16 @@ title: Efekty vrstvy
 linktitle: Efekty vrstvy
 second_title: Aspose.PSD .NET API
 description: Objevte kouzlo efektů vrstev s Aspose.PSD pro .NET! Zlepšete své dovednosti manipulace s obrázky tím, že se naučíte přidávat režimy tahu, stínu a prolnutí.
-type: docs
 weight: 29
 url: /cs/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efekty vrstvy
+
 ## Zavedení
 
 Uvolněte plný potenciál vašich snah o manipulaci s obrázky s Aspose.PSD pro .NET. Tento obsáhlý průvodce vám představí nesčetné množství efektů vrstev, které změní váš tvůrčí proces. Od tahů a stínů až po režimy prolnutí, pozvedněte své návrhy bez námahy.
@@ -54,3 +60,9 @@ Vylepšete své obrázky pomocí Aspose.PSD pro .NET! Naučte se podporovat stí
 Naučte se, jak upravit neprůhlednost stínového efektu v Aspose.PSD pro .NET pomocí tohoto komplexního kurzu.
 ### [Práce s režimy prolnutí v Aspose.PSD pro .NET](./working-with-blend-modes/)
 Prozkoumejte sílu režimů prolnutí v Aspose.PSD pro .NET. Tento výukový program vás provede použitím různých režimů prolnutí pomocí příkladů krok za krokem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

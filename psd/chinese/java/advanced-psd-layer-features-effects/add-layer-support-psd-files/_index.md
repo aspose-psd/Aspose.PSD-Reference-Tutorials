@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD Java 为 PSD 文件添加图层支持
 linktitle: 使用 Aspose.PSD Java 为 PSD 文件添加图层支持
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 轻松管理带图层的 PSD 文件并将其转换为 PNG 格式！非常适合需要图形处理的开发人员。
-type: docs
 weight: 13
 url: /zh/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD Java 为 PSD 文件添加图层支持
+
 ## 介绍
 在平面设计和数字艺术领域，使用 PSD（Photoshop 文档）文件是常态。这些文件通常包含多个可独立操作的图层，从而提供灵活性和创造力。但是，当您需要在 Java 应用程序中处理这些文件时会发生什么？好吧，这就是 Aspose.PSD 发挥作用的地方！在本文中，我们将深入研究如何使用 Aspose.PSD for Java 为 PSD 文件添加图层支持。我们将把它分解为易于遵循的步骤，让从初学者到专业人士的任何人都能轻松掌握。
 ## 先决条件
@@ -101,3 +107,9 @@ Aspose.PSD for Java 是一个.NET 库，允许您无需安装 Photoshop 即可�
 您可以在 Aspose 论坛获得支持[这里](https://forum.aspose.com/c/psd/34).
 ### 我可以从 PNG 转换回 PSD 吗？
 Aspose.PSD 库更侧重于读取和操作 PSD 文件，而不是将其他格式转换回 PSD。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

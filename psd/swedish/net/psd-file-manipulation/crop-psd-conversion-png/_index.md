@@ -3,10 +3,16 @@ title: Beskär PSD-filer vid konvertering till PNG i Aspose.PSD för .NET
 linktitle: Beskär PSD-filer vid konvertering till PNG
 second_title: Aspose.PSD .NET API
 description: Lär dig hur du beskär PSD-filer utan ansträngning med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för sömlös konvertering till PNG.
-type: docs
 weight: 18
 url: /sv/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beskär PSD-filer vid konvertering till PNG i Aspose.PSD för .NET
+
 ## Introduktion
 Inom .NET-utveckling är det en vanlig uppgift att manipulera och konvertera bilder. Aspose.PSD för .NET tillhandahåller en kraftfull uppsättning verktyg för att effektivisera denna process. Ett vanligt krav är att beskära PSD-filer innan du konverterar dem till PNG. I denna steg-för-steg handledning kommer vi att fördjupa oss i processen med Aspose.PSD för .NET.
 ## Förutsättningar
@@ -77,3 +83,9 @@ A2: Absolut! Du kan utforska en gratis testversion[här](https://releases.aspose
 ### F5: Finns det några exempel eller tutorials tillgängliga i dokumentationen?
 
  S5: Ja, du kan hitta omfattande dokumentation och exempel[här](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

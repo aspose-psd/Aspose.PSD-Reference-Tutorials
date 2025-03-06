@@ -3,10 +3,16 @@ title: Размытие изображения с помощью Aspose.PSD дл
 linktitle: Размытие изображения
 second_title: Aspose.PSD Java API
 description: Научитесь размывать изображения в Java с помощью Aspose.PSD. Следуйте нашему пошаговому руководству для достижения профессиональных результатов.
-type: docs
 weight: 24
 url: /ru/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Размытие изображения с помощью Aspose.PSD для Java
+
 ## Введение
 
 В мире разработки Java улучшение изображений и манипулирование ими является обычным требованием. Если вы хотите программно добавить эффект размытия к своим изображениям, Aspose.PSD для Java — мощный инструмент, который упрощает этот процесс. Это руководство проведет вас через этапы размытия изображения с помощью Aspose.PSD, гарантируя, что вы легко достигнете профессиональных результатов.
@@ -96,3 +102,9 @@ Aspose.PSD для Java упрощает задачи обработки изоб
 ### В5: Как мне получить временную лицензию на Aspose.PSD?
 
  A5: Вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

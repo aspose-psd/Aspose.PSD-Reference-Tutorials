@@ -3,10 +3,16 @@ title: Basis beeldbewerkingen
 linktitle: Basis beeldbewerkingen
 second_title: Aspose.PSD Java-API
 description: Verbeter uw grafische ontwerpvaardigheden met Aspose.PSD voor Java-tutorials. Leer tekenen, vergroten/verkleinen, overvloeimodi en transparantieverificatie in een stapsgewijze handleiding.
-type: docs
 weight: 25
 url: /nl/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Basis beeldbewerkingen
+
 
 ## Invoering
 
@@ -44,3 +50,9 @@ Verbeter de beeldverwerking in Java met Aspose.PSD. Leer hoe u overvloeimodi kun
 Leer hoe u boeiende schaduweffecten aan afbeeldingen kunt toevoegen met Aspose.PSD voor Java. Verbeter uw grafisch ontwerp met deze stapsgewijze zelfstudie.
 ### [Controleer de transparantie van afbeeldingen met Aspose.PSD voor Java](./verify-image-transparency/)
 Ontdek de verificatie van afbeeldingstransparantie met Aspose.PSD voor Java. Eenvoudige integratie, gedetailleerde documentatie en uitstekende community-ondersteuning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

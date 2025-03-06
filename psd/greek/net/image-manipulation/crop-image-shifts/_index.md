@@ -3,10 +3,16 @@ title: Περικοπή εικόνων κατά Shifts στο Aspose.PSD για 
 linktitle: Περικοπή εικόνων κατά βάρδιες
 second_title: Aspose.PSD .NET API
 description: Μάθετε να περικόβετε εικόνες χωρίς κόπο χρησιμοποιώντας το Aspose.PSD για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα για ακριβείς ρυθμίσεις εικόνας.
-type: docs
 weight: 12
 url: /el/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περικοπή εικόνων κατά Shifts στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Στον τομέα της ανάπτυξης .NET, το Aspose.PSD ξεχωρίζει ως ένα ισχυρό κιτ εργαλείων για εργασίες επεξεργασίας εικόνας. Ένα από τα αξιοσημείωτα χαρακτηριστικά του είναι η δυνατότητα περικοπής εικόνων με ακρίβεια, χάρη στη λειτουργία «Cropping by Shifts». Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία της απρόσκοπτης περικοπής εικόνων χρησιμοποιώντας το Aspose.PSD για .NET.
@@ -105,3 +111,10 @@ A1: Ναι, το Aspose.PSD υποστηρίζει διάφορες μορφές
 ### Ε5: Μπορώ να αγοράσω το Aspose.PSD για .NET απευθείας από τον ιστότοπο;
 
  A5: Ναι, μπορείτε να αγοράσετε τη βιβλιοθήκη με ασφάλεια από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

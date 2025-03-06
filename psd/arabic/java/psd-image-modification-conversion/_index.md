@@ -3,10 +3,16 @@ title: تعديل وتحويل الصور PSD
 linktitle: تعديل وتحويل الصور PSD
 second_title: Aspose.PSD جافا API
 description: اكتشف Aspose.PSD الأساسي لبرامج Java التعليمية. تعلم كيفية التعامل مع ملفات PSD، وتصدير الطبقات، وتطبيق التأثيرات، والمزيد باستخدام الأدلة خطوة بخطوة.
-type: docs
 weight: 22
 url: /ar/java/psd-image-modification-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل وتحويل الصور PSD
+
 ## مقدمة
 
 مرحبًا بك في دليلنا حول استخدام Aspose.PSD لـ Java! تم تصميم هذه المجموعة من البرامج التعليمية لمساعدة المطورين ومصممي الجرافيك على العمل بكفاءة مع ملفات PSD. سواء كنت تتطلع إلى تعديل الصور، أو إدارة الطبقات، أو تطبيق التأثيرات، فلدينا كل ما تحتاجه. دعنا نتعمق في بعض البرامج التعليمية الأساسية التي من شأنها تحسين مهاراتك في معالجة الصور.
@@ -102,3 +108,9 @@ url: /ar/java/psd-image-modification-conversion/
 قم بتحسين صور PSD الخاصة بك بسهولة باستخدام Java باستخدام Aspose.PSD. اتبع هذا الدليل texposureo لإدارة طبقات الضبط خطوة بخطوة.
 ### [إدارة طبقة تعديل مرشح الصور في PSD - Java](./manage-photo-filter-adjustment-layer-psd/)
 تعرف على كيفية إدارة طبقات ضبط مرشح الصور في ملفات PSD باستخدام Aspose.PSD لـ Java. اتبع هذا الدليل لتحرير المرشحات وإضافتها بسهولة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

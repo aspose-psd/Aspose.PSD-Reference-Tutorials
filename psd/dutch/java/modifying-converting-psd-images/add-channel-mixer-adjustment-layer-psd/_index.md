@@ -3,10 +3,16 @@ title: Voeg aanpassingslaag voor kanaalmixer toe in PSD
 linktitle: Voeg aanpassingslaag voor kanaalmixer toe in PSD
 second_title: Aspose.PSD Java-API
 description: Verbeter uw PSD-bestanden met Channel Mixer-aanpassingslagen met behulp van Aspose.PSD voor Java. Leer stap voor stap kleurmanipulatietechnieken voor levendige beelden.
-type: docs
 weight: 10
 url: /nl/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg aanpassingslaag voor kanaalmixer toe in PSD
+
 ## Invoering
 De wereld van grafisch ontwerp barst van de mogelijkheden, maar soms kan het krijgen van de perfecte look het gevoel geven dat je zonder kaart door een dicht bos dwaalt. Heeft u ooit het gevoel gehad dat uw afbeeldingen gewoon die ‘wauw’-factor missen? Welnu, dat is waar aanpassingslagen een rol gaan spelen! Vandaag duiken we in hoe je Channel Mixer-aanpassingslagen kunt toevoegen met Aspose.PSD voor Java. Dit is een handig hulpmiddel waarmee u nauwkeurige kleuraanpassingen in uw PSD-bestanden kunt aanbrengen, zodat uw afbeeldingen eruit springen en indruk maken.
 
@@ -167,3 +173,9 @@ Aspose.PSD is in de eerste plaats ontworpen voor het werken met PSD-bestanden, m
 
 ### Is er een manier om een tijdelijke licentie voor Aspose.PSD te krijgen?
  Ja! U kunt een tijdelijke vergunning aanvragen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

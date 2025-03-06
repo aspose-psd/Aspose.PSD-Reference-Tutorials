@@ -3,10 +3,16 @@ title: Olvassa el a specifikus EXIF-címkék információit a Java nyelven
 linktitle: Olvassa el a specifikus EXIF-címkék információit a Java nyelven
 second_title: Aspose.PSD Java API
 description: Lépésről lépésre bemutatott oktatóanyagunkból megtudhatja, hogyan lehet PSD-képekből bizonyos EXIF-címkéket olvasni az Aspose.PSD for Java használatával. Fejlessze képfeldolgozási készségeit.
-type: docs
 weight: 19
 url: /hu/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvassa el a specifikus EXIF-címkék információit a Java nyelven
+
 ## Bevezetés
 Szeretne belemerülni a Java PSD-fájlkezelés világába? Ha meg szeretné érteni, hogyan lehet konkrét EXIF-címkéket olvasni PSD-képekből, akkor jó helyen jár. Ez az oktatóanyag végigvezeti az Aspose.PSD for Java teljes folyamatán, a környezet beállításától a részletes EXIF-adatok kinyeréséig. Kezdjük is!
 ## Előfeltételek
@@ -71,3 +77,9 @@ Igen, az Aspose.PSD lehetővé teszi az EXIF-adatok olvasását és módosítás
 Az Aspose.PSD különféle Adobe Photoshop formátumokat támogat, beleértve a PSD-t, PSB-t és még sok mást. Lehetőségeket biztosít ezen formátumok konvertálására is, például PNG, JPEG, TIFF stb.
 ### Hogyan kaphatok támogatást az Aspose.PSD-hez?
  Az Aspose.PSD-n keresztül kaphat támogatást[fórum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

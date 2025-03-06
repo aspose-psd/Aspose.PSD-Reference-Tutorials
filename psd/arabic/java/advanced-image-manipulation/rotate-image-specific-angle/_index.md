@@ -3,10 +3,16 @@ title: قم بتدوير الصورة بزاوية محددة باستخدام A
 linktitle: تدوير الصورة على زاوية محددة
 second_title: Aspose.PSD جافا API
 description: استكشف تدوير الصور في Java باستخدام Aspose.PSD لـ Java. قم بتدوير الصور بسهولة على زوايا محددة.
-type: docs
 weight: 20
 url: /ar/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتدوير الصورة بزاوية محددة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java الديناميكي، تعد معالجة الصور مطلبًا شائعًا لمختلف التطبيقات. يظهر Aspose.PSD for Java كحل قوي، حيث يوفر ميزات قوية للتعامل مع تدوير الصور بسهولة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تدوير الصورة بزاوية محددة باستخدام Aspose.PSD لـ Java. قبل الغوص في التفاصيل، دعونا نمهد الطريق ببعض المتطلبات الأساسية.
@@ -117,3 +123,9 @@ image.save(destName, new JpegOptions());
 ### س5: هل يوجد منتدى مجتمعي لـ Aspose.PSD حيث يمكنني طلب المساعدة؟
 
  نعم يمكنك زيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للتواصل مع المجتمع وطرح الأسئلة وطلب المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

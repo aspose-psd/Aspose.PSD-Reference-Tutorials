@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 新增簽名到映像
 linktitle: 使用 Aspose.PSD for .NET 新增簽名到映像
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 增強您的 .NET 影像專案。了解如何使用我們的逐步指南無縫添加簽名。
-type: docs
 weight: 13
 url: /zh-hant/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 新增簽名到映像
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.PSD 作為操作和增強影像的強大工具脫穎而出。如果您想知道如何使用 Aspose.PSD for .NET 向圖像無縫添加簽名，那麼您來對地方了。本逐步指南將引導您完成整個過程，確保您掌握將簽名輕鬆融入圖像的藝術。
@@ -103,3 +109,9 @@ A3：您可以實作 try-catch 區塊來優雅地處理異常。
 ### Q5: 我可以在購買前試用Aspose.PSD嗎？
 
  A5: 當然，可以免費試用[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

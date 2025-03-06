@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中实现 Gamma 调整
 linktitle: 实施 Gamma 调整
 second_title: Aspose.PSD .NET API
 description: 通过我们关于实施 Gamma 调整的分步指南探索 Aspose.PSD for .NET 的强大功能。轻松微调图像亮度和对比度。
-type: docs
 weight: 12
 url: /zh/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中实现 Gamma 调整
+
 ## 介绍
 
 欢迎阅读有关在 Aspose.PSD for .NET 中实现 Gamma 调整的综合指南！Gamma 调整是一种重要的图像处理技术，可让您微调图像的亮度和对比度。在本教程中，我们将使用强大的 Aspose.PSD for .NET 库引导您完成该过程。
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### Q5：我需要临时驾照吗？
 
  A5: 如果需要，您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

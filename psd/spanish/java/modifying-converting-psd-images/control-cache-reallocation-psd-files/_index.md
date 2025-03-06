@@ -3,10 +3,16 @@ title: Controlar la reasignación de caché en archivos PSD
 linktitle: Controlar la reasignación de caché en archivos PSD
 second_title: API de Java Aspose.PSD
 description: Administre la reasignación de caché en archivos PSD usando Aspose.PSD para Java. Aprenda cómo optimizar la memoria y el manejo de archivos de manera eficiente, ideal para desarrolladores.
-type: docs
 weight: 22
 url: /es/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Controlar la reasignación de caché en archivos PSD
+
 ## Introducción
 Cuando se trabaja con imágenes y archivos de Photoshop mediante programación, la eficiencia es un factor clave. Aspose.PSD para Java ofrece funciones sólidas para administrar y manipular archivos PSD sin problemas. Uno de los aspectos fundamentales para optimizar el rendimiento es controlar la reasignación de caché. La administración de caché ayuda a mantener el equilibrio entre el uso de la memoria y el disco, lo que garantiza que su aplicación se ejecute sin problemas, sin fallas ni desaceleraciones inesperadas. 
 ## Requisitos previos
@@ -127,3 +133,9 @@ Aspose.PSD es una biblioteca para que los desarrolladores de .NET y Java creen, 
 Aspose.PSD es una biblioteca paga, pero puedes comenzar con una prueba gratuita disponible en su[sitio web](https://releases.aspose.com/).
 ### ¿Qué pasa si no me deshago de los objetos?
 No deshacerse de los objetos puede provocar pérdidas de memoria, lo que hace que su aplicación utilice más recursos de los necesarios.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

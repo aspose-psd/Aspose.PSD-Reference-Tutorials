@@ -3,10 +3,16 @@ title: Képek vágása eltolásokkal az Aspose.PSD-ben .NET-hez
 linktitle: Képek vágása műszakokkal
 second_title: Aspose.PSD .NET API
 description: Tanulja meg a képeket könnyedén kivágni az Aspose.PSD for .NET használatával. Kövesse lépésről lépésre útmutatónkat a pontos képbeállításokhoz.
-type: docs
 weight: 12
 url: /hu/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek vágása eltolásokkal az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 A .NET fejlesztés területén az Aspose.PSD a képfeldolgozási feladatok hatékony eszközkészleteként tűnik ki. Egyik figyelemreméltó tulajdonsága, hogy a „Cropping by Shifts” funkciónak köszönhetően precízen le tudja vágni a képeket. Ebben a lépésenkénti útmutatóban végigvezetjük a képek zökkenőmentes kivágásának folyamatán az Aspose.PSD for .NET használatával.
@@ -105,3 +111,10 @@ Gratulálok! Sikeresen megtanulta, hogyan lehet képeket váltani műszakban az 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t .NET-hez közvetlenül a webhelyről?
 
  V5: Igen, biztonságosan megvásárolhatja a könyvtárat a[vásárlási oldal](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

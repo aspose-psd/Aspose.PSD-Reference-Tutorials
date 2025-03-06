@@ -3,10 +3,16 @@ title: Définir la résolution du fichier PNG avec Aspose.PSD pour Java
 linktitle: Définir la résolution du fichier PNG avec Aspose.PSD pour Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment définir la résolution d'un fichier PNG à l'aide d'Aspose.PSD pour Java avec ce didacticiel détaillé étape par étape. Optimisez vos images en un rien de temps.
-type: docs
 weight: 13
 url: /fr/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la résolution du fichier PNG avec Aspose.PSD pour Java
+
 ## Introduction
 Cherchez-vous à optimiser la résolution de votre fichier PNG à l’aide de Java ? Si la réponse est oui, alors vous êtes au bon endroit ! Aujourd'hui, nous allons plonger dans le monde d'Aspose.PSD pour Java, une puissante bibliothèque permettant de manipuler les fichiers Photoshop PSD et de les convertir vers d'autres formats comme PNG. Que vous soyez un développeur spécialisé dans le traitement d'images ou simplement quelqu'un souhaitant améliorer la qualité de l'image par programmation, ce guide est conçu pour vous. 
 Dans ce didacticiel complet, nous couvrirons tout, des conditions préalables aux instructions détaillées étape par étape pour définir efficacement la résolution du fichier PNG. Alors, prenez votre collation préférée et commençons !
@@ -71,3 +77,9 @@ Oui, même si un essai gratuit est disponible, une licence valide est requise po
 Aspose.PSD gère de nombreux problèmes courants, mais si un fichier est gravement corrompu, il risque de ne pas se charger. Gardez toujours une sauvegarde.
 ### Aspose.PSD est-il adapté aux applications hautes performances ?
 Oui, il est conçu pour gérer efficacement des fichiers volumineux et convient aux tâches de traitement d’images gourmandes en performances.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

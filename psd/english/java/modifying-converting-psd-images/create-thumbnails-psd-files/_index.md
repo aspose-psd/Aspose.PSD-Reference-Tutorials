@@ -3,10 +3,16 @@ title: Create Thumbnails from PSD Files using Java
 linktitle: Create Thumbnails from PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn how to effortlessly create thumbnails from PSD files using Java and Aspose.PSD. Follow our step-by-step guide for seamless image processing.
-type: docs
 weight: 24
 url: /java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Thumbnails from PSD Files using Java
+
 ## Introduction
 In the world of graphic design, working with PSD (Photoshop Document) files is commonplace. Whether you’re a seasoned developer, a graphic designer, or just someone wanting to dive into image processing, creating thumbnails from PSD files can save you time and streamline your workflow. This tutorial will guide you through the entire process using Aspose.PSD for Java. Not only is Aspose.PSD a robust library for managing Photoshop files, but it also makes the task at hand intuitive and manageable. Are you ready to learn how to create thumbnails from PSD files efficiently?
 ## Prerequisites
@@ -112,3 +118,9 @@ In this example, we saved the thumbnails in BMP format, but Aspose.PSD supports 
 No, Aspose.PSD works independently of Photoshop.
 ### Where can I find more information about Aspose.PSD?
 You can check out the [Aspose.PSD documentation](https://reference.aspose.com/psd/java/) for more details, tutorials, and resources.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

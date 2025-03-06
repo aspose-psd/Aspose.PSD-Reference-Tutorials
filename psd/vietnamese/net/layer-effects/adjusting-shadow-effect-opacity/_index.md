@@ -3,10 +3,16 @@ title: Điều chỉnh độ mờ của hiệu ứng đổ bóng trong Aspose.PS
 linktitle: Điều chỉnh độ mờ của hiệu ứng đổ bóng
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách điều chỉnh độ mờ của hiệu ứng đổ bóng trong Aspose.PSD cho .NET với hướng dẫn toàn diện này.
-type: docs
 weight: 15
 url: /vi/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điều chỉnh độ mờ của hiệu ứng đổ bóng trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách điều chỉnh độ mờ của hiệu ứng đổ bóng trong Aspose.PSD cho .NET! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng thuộc tính Opacity của DropShadowEffect. Aspose.PSD for .NET là một thư viện mạnh mẽ cho phép bạn làm việc liền mạch với các tệp PSD trong ứng dụng .NET của mình.
@@ -105,3 +111,9 @@ Câu trả lời 4: Có, Aspose.PSD cho .NET tương thích với cả .NET Fram
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.PSD dành cho .NET ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

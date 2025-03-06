@@ -1,12 +1,17 @@
 ---
 title: Tutoriels complets et exemples d'Aspose.PSD pour .NET
 linktitle: Aspose.PSD pour les didacticiels .NET
-type: docs
 weight: 10
 url: /fr/net/
 description: Améliorez sans effort la qualité de l'image avec les didacticiels Aspose.PSD pour .NET. Maîtrisez le traitement des images, la manipulation des fichiers PSD, la gestion du texte et des polices, et bien plus encore.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriels complets et exemples d'Aspose.PSD pour .NET
+
 ## Introduction
 Libérez tout le potentiel d’Aspose.PSD pour .NET avec nos didacticiels et exemples complets. Que vous soyez un développeur chevronné ou un nouveau venu dans le traitement d'images, nos guides étape par étape vous permettront d'améliorer vos projets .NET sans effort.
 
@@ -100,3 +105,9 @@ Libérez le potentiel d’Aspose.PSD pour .NET avec nos tutoriels ! Maîtrisez 
 Maîtrisez les améliorations d’images dynamiques dans Aspose.PSD pour .NET. Améliorez votre traitement d'image avec des didacticiels sur l'ajout, la superposition et le rendu d'effets époustouflants au moment de l'exécution.
 ### [Ressources de fichiers PSD](./psd-file-resources/)
 Libérez tout le potentiel d’Aspose.PSD pour .NET avec nos tutoriels. Maîtrisez de manière transparente la couleur d’arrière-plan, les informations de bordure, le chemin de travail et les ressources en noir et blanc. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

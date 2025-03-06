@@ -3,10 +3,16 @@ title: 高级图像处理
 linktitle: 高级图像处理
 second_title: Aspose.PSD Java API
 description: 探索 Aspose.PSD for Java 的高级图像处理教程。学习高效字体替换、强制字体缓存、实现双三次重采样器等。
-type: docs
 weight: 24
 url: /zh/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高级图像处理
+
 
 ## 介绍
 
@@ -80,3 +86,9 @@ url: /zh/java/advanced-image-manipulation/
 使用 Aspose.PSD 轻松探索 Java 中的图像旋转。轻松旋转、翻转和保存 PSD 文件。
 ### [使用 Aspose.PSD for Java 以特定角度旋转图像](./rotate-image-specific-angle/)
 使用 Aspose.PSD for Java 探索 Java 中的图像旋转。轻松以特定角度旋转图像。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

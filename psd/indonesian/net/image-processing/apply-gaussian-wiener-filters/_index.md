@@ -3,10 +3,16 @@ title: Menerapkan Filter Gaussian dan Wiener di Aspose.PSD untuk .NET
 linktitle: Menerapkan Filter Gaussian dan Wiener
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan kualitas gambar dengan mudah dengan Aspose.PSD untuk .NET. Terapkan filter Gaussian dan Wiener untuk pengurangan kebisingan dan daya tarik visual yang optimal.
-type: docs
 weight: 10
 url: /id/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Filter Gaussian dan Wiener di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Di bidang pemrosesan gambar menggunakan .NET, Aspose.PSD menonjol sebagai perangkat canggih yang memberdayakan pengembang untuk memanipulasi gambar dengan mudah. Salah satu fitur yang sangat berguna adalah penerapan filter Gaussian dan Wiener. Filter ini memainkan peran penting dalam meningkatkan kualitas gambar, mengurangi noise, dan memastikan daya tarik visual yang optimal.
@@ -110,3 +116,10 @@ A2: Ukuran radius menentukan area di mana filter beroperasi, sedangkan nilai keh
 ### Q5: Apakah tersedia versi uji coba gratis Aspose.PSD?
 
  A5: Ya, Anda dapat menjelajahi fitur Aspose.PSD dengan mengunduh[versi percobaan gratis](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

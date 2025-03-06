@@ -3,10 +3,16 @@ title: PSD での境界情報リソースのサポート - Java
 linktitle: PSD での境界情報リソースのサポート - Java
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイルの境界線の操作をマスターします。わかりやすい手順で境界線の幅、単位などを変更する方法を学習します。プログラムによって PSD デザインを強化します。
-type: docs
 weight: 23
 url: /ja/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD での境界情報リソースのサポート - Java
+
 ## 導入
 
 PSD ファイル内の厄介な境界線をプログラムで調整する必要を感じたことはありませんか? もう心配する必要はありません! Aspose.PSD for Java が役に立ち、PSD ファイル内の境界線情報リソースを操作するための強力で使いやすい方法を提供します。 この包括的なガイドでは、プロセスをステップごとに説明し、これまでにない方法で境界線を制御できるようにします。
@@ -136,3 +142,9 @@ Aspose.PSD はパフォーマンスが最適化されていますが、大きな
 ### さらに詳しい情報やサポートはどこで入手できますか?
 
 Aspose.PSD for Java ドキュメントは、API とその機能に関する詳細な情報を提供する優れたリソースです。また、Aspose フォーラムにアクセスしてサポートを受けたり、他の開発者と交流したりすることもできます。 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

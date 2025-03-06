@@ -3,10 +3,16 @@ title: Εντοπίστε ισοπεδωμένα αρχεία PSD χρησιμο
 linktitle: Εντοπίστε ισοπεδωμένα αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να εντοπίζετε ισοπεδωμένα αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java, βήμα προς βήμα σε αυτό το περιεκτικό σεμινάριο.
-type: docs
 weight: 10
 url: /el/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εντοπίστε ισοπεδωμένα αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον κόσμο της διαχείρισης αρχείων PSD (Photoshop Document) με το Aspose.PSD για Java! Εάν χρειάστηκε ποτέ να εργαστείτε με επίπεδα σε αρχεία Photoshop, αλλά δεν ξέρατε από πού να ξεκινήσετε, είστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στο πώς να εντοπίσουμε εάν ένα αρχείο PSD έχει ισοπεδωθεί χρησιμοποιώντας το Aspose.PSD. Η ισοπέδωση ενός PSD σημαίνει ότι όλα τα επίπεδα του συγχωνεύονται σε ένα ενιαίο, ενοποιημένο επίπεδο, το οποίο μπορεί να κάνει την επεξεργασία λίγο δύσκολη στη συνέχεια. Μέχρι το τέλος αυτού του οδηγού, θα είστε εξοπλισμένοι για να ελέγξετε για αυτήν την κρίσιμη πτυχή των αρχείων PSD σας. Καθίστε καλά, πάρτε τον καφέ σας και πάμε να βουτήξουμε!
@@ -77,3 +83,9 @@ System.out.println(psdImage.isFlatten());
 
 ### Υπάρχει τρόπος να δοκιμάσω το Aspose.PSD δωρεάν;
  Απολύτως! Μπορείτε να ξεκινήσετε μια δωρεάν δοκιμή κατεβάζοντας μια δοκιμαστική έκδοση από[αυτόν τον σύνδεσμο](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Бинаризация с фиксированным порогом в As
 linktitle: Бинаризация с фиксированным порогом
 second_title: Aspose.PSD Java API
 description: Изучите бинаризацию с фиксированным порогом в Aspose.PSD для Java. С легкостью преобразуйте изображения с помощью нашего пошагового руководства.
-type: docs
 weight: 14
 url: /ru/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Бинаризация с фиксированным порогом в Aspose.PSD для Java
+
 ## Введение
 
 В области разработки Java Aspose.PSD оказался мощным инструментом для задач обработки изображений. Одной из таких важных операций является бинаризация — метод, который упрощает изображения путем преобразования их в двоичную форму. Это руководство проведет вас через процесс достижения бинаризации с фиксированным порогом с использованием Aspose.PSD для Java. Пристегнитесь, пока мы изучаем этапы этого преобразующего процесса обработки изображений.
@@ -101,3 +107,9 @@ rasterCachedImage.save(destName, new JpegOptions());
 ### В5: Существует ли бесплатная пробная версия?
 
  О5: Да, вы можете изучить возможности Aspose.PSD с помощью бесплатной пробной версии.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

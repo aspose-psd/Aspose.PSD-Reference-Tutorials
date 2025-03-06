@@ -3,10 +3,16 @@ title: 使用 Java 設定 PSD 檔案中文字部分的格式
 linktitle: 使用 Java 設定 PSD 檔案中文字部分的格式
 second_title: Aspose.PSD Java API
 description: 在這本簡單易懂的指南中，學習使用 Java 和 Aspose.PSD 來格式化 PSD 檔案中的文字部分。非常適合開發人員和設計師。
-type: docs
 weight: 14
 url: /zh-hant/java/psd-image-modification-conversion/format-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 設定 PSD 檔案中文字部分的格式
+
 ## 介紹
 
 在我們日益視覺化的世界中，有效操作圖形和文字的能力是無價的。無論您是設計師、開發人員，還是只是想要創建令人驚嘆的視覺效果的人，簡化這些流程的軟體工具都可以改變遊戲規則。 Aspose.PSD for Java 就是這樣一個工具，它是一個功能強大的函式庫，可讓您以程式設計方式處理 Photoshop PSD 檔案。在本文中，我們將探討如何使用 Java 格式化 PSD 檔案中的文字部分。 
@@ -188,3 +194,9 @@ Aspose.PSD for Java 是一個函式庫，允許開發人員以程式設計方式
 
 ### 在哪裡可以找到有關 Aspose.PSD 的更多資訊？
 詳細的使用情境和API參考可以查看文檔[這裡](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавьте диагональный водяной знак в PSD-
 linktitle: Добавьте диагональный водяной знак в PSD-файлы с помощью Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как легко добавить диагональный водяной знак в PSD-файлы с помощью Java с Aspose.PSD. Пошаговое руководство для уверенного улучшения ваших изображений.
-type: docs
 weight: 12
 url: /ru/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте диагональный водяной знак в PSD-файлы с помощью Java
+
 ## Введение
 В современном цифровом мире наличие яркого изображения может иметь решающее значение. Независимо от того, являетесь ли вы дизайнером, желающим защитить свою работу, или маркетологом, желающим добавить фирменный стиль к изображениям, нанесение водяного знака имеет важное значение. В этом уроке мы рассмотрим, как добавить диагональный водяной знак в PSD-файлы с помощью Java с помощью Aspose.PSD, мощной библиотеки для работы с PSD-файлами.
 ## Предварительные условия
@@ -97,3 +103,9 @@ Aspose.PSD — это библиотека Java, используемая для
  Да, вы можете позвонить в`drawString` используйте этот метод несколько раз с разными параметрами, чтобы добавить больше водяных знаков.
 ### Где я могу найти дополнительную информацию о Aspose.PSD?
  Вы можете проверить документацию[здесь](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

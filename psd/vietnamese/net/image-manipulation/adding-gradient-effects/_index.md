@@ -3,10 +3,16 @@ title: Thêm hiệu ứng chuyển màu vào hình ảnh trong Aspose.PSD cho .N
 linktitle: Thêm hiệu ứng chuyển màu vào hình ảnh
 second_title: API Aspose.PSD .NET
 description: Nâng cao hình ảnh của bạn bằng các hiệu ứng chuyển màu quyến rũ bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có những chuyển đổi hình ảnh sáng tạo.
-type: docs
 weight: 11
 url: /vi/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng chuyển màu vào hình ảnh trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Cải thiện hình ảnh bằng hiệu ứng chuyển màu có thể thêm chiều hướng quyến rũ cho nội dung hình ảnh của bạn. Aspose.PSD for .NET cung cấp một nền tảng mạnh mẽ để kết hợp các lớp phủ chuyển màu vào hình ảnh của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hiệu ứng chuyển màu bằng Aspose.PSD cho .NET.
@@ -148,3 +154,9 @@ Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspos
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể mua thư viện từ[Aspose.PSD cho trang mua hàng .NET](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodawanie warstwy obrysu z jednolitym kolorem w Aspose.PSD dla .NET
 linktitle: Dodawanie warstwy obrysu z jednolitym kolorem
 second_title: Aspose.PSD API .NET
 description: Zwiększ swoje umiejętności manipulacji obrazami .NET dzięki Aspose.PSD. Naucz się krok po kroku dodawać warstwy obrysów w jednolitych kolorach.
-type: docs
 weight: 11
 url: /pl/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie warstwy obrysu z jednolitym kolorem w Aspose.PSD dla .NET
+
 ## Wstęp
 
 W dziedzinie programowania .NET powszechnym wymogiem jest tworzenie atrakcyjnych wizualnie obrazów. Aspose.PSD dla .NET zapewnia potężny zestaw narzędzi do płynnego manipulowania i ulepszania obrazów. Jedną z podstawowych funkcji jest dodanie warstwy obrysu o jednolitym kolorze, która nadaje obrazom żywotność i głębię. W tym samouczku przeprowadzimy Cię krok po kroku przez proces korzystania z Aspose.PSD dla .NET.
@@ -130,3 +136,9 @@ A2: Absolutnie! Aspose.PSD dla .NET jest produktem komercyjnym i możesz go uży
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.PSD dla .NET?
 
  A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) szukać pomocy i nawiązywać kontakt ze społecznością.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 支援 PSD 中的長度記錄資料屬性 - Java
 linktitle: 支援 PSD 中的長度記錄資料屬性 - Java
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD 在 Java 中操作具有長度記錄資料屬性的 PSD 檔案。請按照此逐步指南了解所有詳細資訊。
-type: docs
 weight: 14
 url: /zh-hant/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 支援 PSD 中的長度記錄資料屬性 - Java
+
 ## 介紹
 您是否曾經使用過 Photoshop 檔案並希望以程式設計方式操作圖層或形狀？如果是這樣，您已經偶然發現了 Aspose.PSD for Java 程式庫的魅力。這個強大的工具允許開發人員透過 Java 程式碼無縫地互動和修改 PSD 檔案。在今天的文章中，我們將深入探討如何使用此程式庫支援 PSD 檔案中的長度記錄資料屬性。 
 無論您是經驗豐富的 Java 開發人員還是剛起步，本指南都將逐步引導您了解您需要了解的所有內容。最後，您將能夠開啟 PSD 檔案、修改其向量形狀屬性並儲存變更 — 所有這些都無需離開舒適的 Java 環境。讓我們捲起袖子，跳起來吧！
@@ -96,3 +102,9 @@ Aspose.PSD for Java 是一個函式庫，允許開發人員使用 Java 以程式
 是的，Aspose 為不同的程式語言提供了各種函式庫，包括 .NET 和 Python。
 ### 在哪裡可以找到 Aspose.PSD 的文檔？
 您可以存取完整的文檔[這裡](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中加入純色描邊圖層
 linktitle: 加入純色描邊圖層
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 增強您的 .NET 影像處理技能。學習逐步加入純色描邊圖層。
-type: docs
 weight: 11
 url: /zh-hant/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中加入純色描邊圖層
+
 ## 介紹
 
 在 .NET 開發領域，創建具有視覺吸引力的圖像是一項常見要求。 Aspose.PSD for .NET 提供了一組強大的工具來無縫地操作和增強影像。基本功能之一是添加純色描邊圖層，這可以為您的影像帶來活力和深度。在本教程中，我們將指導您使用 Aspose.PSD for .NET 逐步完成流程。
@@ -130,3 +136,9 @@ A2：當然！ Aspose.PSD for .NET 是一個商業產品，您可以透過購買
 ### Q5：如何獲得 Aspose.PSD for .NET 支援？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)尋求協助並與社區建立聯繫。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

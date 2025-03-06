@@ -3,10 +3,16 @@ title: اضبط جاما الصورة باستخدام Aspose.PSD لـ Java
 linktitle: ضبط جاما الصورة
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية ضبط جاما الصورة بسهولة باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة للحصول على أفضل النتائج.
-type: docs
 weight: 23
 url: /ar/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اضبط جاما الصورة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مجال معالجة الصور، يعد ضبط جاما الصورة خطوة حاسمة لتعزيز جاذبيتها البصرية. يوفر Aspose.PSD for Java حلاً قويًا لمطوري Java لمعالجة جاما الصور دون عناء. في هذا البرنامج التعليمي، سنستكشف كيفية ضبط جاما باستخدام Aspose.PSD، مع تفصيل كل خطوة لضمان التنفيذ السلس.
@@ -108,3 +114,9 @@ rasterImage.save(destName, tiffOptions);
 ### س5: أين يمكنني طلب الدعم لـ Aspose.PSD؟
 
  ج5: للحصول على الدعم، قم بزيارة منتدى Aspose.PSD على[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

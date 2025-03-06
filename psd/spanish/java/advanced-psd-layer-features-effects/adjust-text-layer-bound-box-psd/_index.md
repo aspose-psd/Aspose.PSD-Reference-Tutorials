@@ -3,10 +3,16 @@ title: Ajustar el cuadro delimitado de la capa de texto en PSD usando Java
 linktitle: Ajustar el cuadro delimitado de la capa de texto en PSD usando Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a ajustar los límites de la capa de texto en archivos PSD usando Java con Aspose.PSD. Guía sencilla con instrucciones paso a paso.
-type: docs
 weight: 25
 url: /es/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustar el cuadro delimitado de la capa de texto en PSD usando Java
+
 ## Introducción
 Cuando se trata de manipular documentos de Photoshop mediante programación, la biblioteca Aspose.PSD para Java brilla. Si buscas ajustar los límites de una capa de texto en un archivo PSD, ¡has llegado al lugar correcto! Este tutorial lo llevará paso a paso a través del proceso de ajuste del cuadro delimitado de la capa de texto usando Java.
 Con ejemplos fáciles de seguir y un toque de tono conversacional para mantener el interés, descubrirá que manipular archivos PSD no es tan desalentador como podría parecer. Si es un desarrollador experimentado o recién está comenzando con Java, aquí encontrará información valiosa. Sumerjámonos en el apasionante mundo de la manipulación de PSD.
@@ -80,3 +86,9 @@ Sí, Aspose.PSD está disponible para varias plataformas de programación, inclu
 Puede encontrar apoyo y debates comunitarios sobre sus[Foro Aspose](https://forum.aspose.com/c/psd/34).
 ### ¿Existe una versión de prueba disponible para Aspose.PSD?
  ¡Sí! Puede descargar una versión de prueba gratuita desde[Aspose sitio web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

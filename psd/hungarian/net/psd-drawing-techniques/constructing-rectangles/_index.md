@@ -3,10 +3,16 @@ title: Téglalapok létrehozása az Aspose.PSD-ben .NET-hez
 linktitle: Téglalapok építése
 second_title: Aspose.PSD .NET API
 description: Fedezze fel a téglalapok rajzolásának művészetét .NET-ben az Aspose.PSD segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében. Emelje fel a képmanipulációs játékot könnyedén.
-type: docs
 weight: 15
 url: /hu/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Téglalapok létrehozása az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 .NET fejlesztés dinamikus területén az Aspose.PSD a képkezelés hatékony eszközeként tűnik ki. Ez az oktatóanyag egy alapvető feladatra összpontosít: téglalapok létrehozására az Aspose.PSD for .NET használatával. Akár tapasztalt fejlesztő, akár csak most kezdi, ez a lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy minden koncepciót alaposan megértsen.
@@ -94,3 +100,9 @@ A4: A 32 Bpp használata gazdagabb színmegjelenítést tesz lehetővé, amely r
 ### 5. kérdés: Elérhető az Aspose.PSD ingyenes próbaverziója?
 
  5. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval. Töltse le[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

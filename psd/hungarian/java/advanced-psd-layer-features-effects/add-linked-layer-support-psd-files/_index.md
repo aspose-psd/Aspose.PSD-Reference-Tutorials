@@ -3,10 +3,16 @@ title: Adjon hozzá csatolt réteg támogatást a PSD-fájlokhoz Java használat
 linktitle: Adjon hozzá csatolt réteg támogatást a PSD-fájlokhoz Java használatával
 second_title: Aspose.PSD Java API
 description: Ebből a részletes, lépésenkénti oktatóanyagból megtudhatja, hogyan adhat hozzá csatolt rétegek támogatását PSD-fájlokhoz az Aspose.PSD for Java használatával. Tökéletes tervezőknek és fejlesztőknek.
-type: docs
 weight: 19
 url: /hu/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá csatolt réteg támogatást a PSD-fájlokhoz Java használatával
+
 ## Bevezetés
 Az Adobe Photoshop .PSD fájljai sokoldalú rétegkezelési képességeik miatt a grafikusok és a digitális művészek kedvencei. Ahogy belemerül a PSD-fájlok programozott kezelésének világába, érdemes lehet felfedezni, hogyan javíthatják az összekapcsolt rétegek a munkafolyamatot. Az összekapcsolt rétegek lehetővé teszik a felhasználók számára, hogy fenntartsák a független rétegfunkciókat, miközben azokat összefüggő egységként kezelik. Írja be az Aspose.PSD for Java-t, egy hatékony könyvtárat, amely a Photoshop-fájlokkal való munkavégzést gyerekjáték. 
 Ebben a cikkben részletesen megvizsgáljuk, hogyan adhat hozzá csatolt réteg támogatást PSD-fájlokhoz a Java Aspose.PSD-könyvtárával. Akár tapasztalt fejlesztő, akár kezdő, ez a lépésről-lépésre mutató útmutató segít zökkenőmentesen eligazodni a feladaton.
@@ -99,3 +105,9 @@ Igen, Java-alapú könyvtárként minden Java-t támogató platformon fut.
  Megtekintheti a kiterjedt dokumentációt[itt](https://reference.aspose.com/psd/java/).
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?
  Ha bármilyen problémába ütközik, segítséget találhat a[támogatási fórum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

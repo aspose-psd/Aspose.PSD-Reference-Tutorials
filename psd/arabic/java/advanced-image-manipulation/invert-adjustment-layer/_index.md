@@ -3,10 +3,16 @@ title: عكس طبقة الضبط في Aspose.PSD لـ Java
 linktitle: عكس طبقة التعديل
 second_title: Aspose.PSD جافا API
 description: استكشف طبقة الضبط العكسية في Aspose.PSD لـ Java. مكتبة Java قوية لمعالجة ملفات PSD بسلاسة.
-type: docs
 weight: 14
 url: /ar/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عكس طبقة الضبط في Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول تنفيذ طبقة الضبط العكسي في Aspose.PSD لـ Java. في هذا البرنامج التعليمي، سوف نستكشف الميزات القوية لـ Aspose.PSD، وهي مكتبة Java تسمح بالمعالجة السلسة لملفات PSD. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى معالجة الصور، فقد تم تصميم هذا البرنامج التعليمي لمساعدتك على فهم طبقة الضبط العكسي وتنفيذها بكفاءة.
@@ -93,3 +99,9 @@ A1: يدعم Aspose.PSD Java 6.0 والإصدارات الأحدث.
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
 ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

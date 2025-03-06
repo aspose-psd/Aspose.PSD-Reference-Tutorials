@@ -3,10 +3,16 @@ title: Couche de réglage des courbes de rendu dans les fichiers PSD - Java
 linktitle: Couche de réglage des courbes de rendu dans les fichiers PSD - Java
 second_title: API Java Aspose.PSD
 description: Apprenez à restituer et à ajuster les calques de réglage des courbes dans les fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce guide détaillé étape par étape.
-type: docs
 weight: 16
 url: /fr/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Couche de réglage des courbes de rendu dans les fichiers PSD - Java
+
 ## Introduction
 
 Le calque de réglage des courbes de Photoshop est comme une baguette magique pour améliorer les images. Imaginez que vous êtes un artiste peaufinant les couleurs et les tons de votre chef-d'œuvre : chaque réglage de courbe vous permet de contrôler la lumière et l'équilibre des couleurs avec une précision incroyable. Si vous travaillez avec des fichiers PSD et devez manipuler ces courbes par programme, Aspose.PSD pour Java est votre outil de prédilection. Dans ce guide, nous expliquerons comment restituer et ajuster les calques de réglage des courbes dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Que vous mettiez à jour les tons de l'image ou que vous exportiez vos résultats, ce didacticiel couvrira tout ce dont vous avez besoin pour commencer.
@@ -146,3 +152,9 @@ Non, Aspose.PSD pour Java fonctionne indépendamment de Photoshop, vous permetta
 
 ### Où puis-je trouver de l’assistance pour Aspose.PSD pour Java ?
  Pour obtenir de l'aide, vous pouvez visiter le[Forum d'assistance Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

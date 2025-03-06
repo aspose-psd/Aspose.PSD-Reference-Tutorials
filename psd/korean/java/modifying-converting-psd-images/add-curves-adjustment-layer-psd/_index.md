@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD에 곡선 조정 레이어 추가
 linktitle: Java를 사용하여 PSD에 곡선 조정 레이어 추가
 second_title: Aspose.PSD 자바 API
 description: 이 자세한 튜토리얼에서 Java용 Aspose.PSD를 사용하여 PSD 파일에 곡선 조정 레이어를 추가하는 방법을 알아보세요. 이미지를 쉽게 향상시키세요.
-type: docs
 weight: 11
 url: /ko/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD에 곡선 조정 레이어 추가
+
 ## 소개
 PSD 형식의 이미지를 조작하려고 할 때 막힌 적이 있습니까? 신예 그래픽 디자이너이든 숙련된 전문가이든 Photoshop 파일을 사용하여 작업하는 것은 때때로 미로를 탐색하는 것처럼 느껴질 수 있습니다. 다행히 이 프로세스를 단순화하는 도구인 Aspose.PSD for Java가 있습니다. 이 튜토리얼에서는 Aspose.PSD를 사용하여 PSD 파일에 곡선 조정 레이어를 추가하여 이미지 편집 작업을 더 쉽고 효율적으로 만드는 방법을 자세히 살펴보겠습니다. 단계별 안내를 통해 전통적으로 이미지 조작과 관련된 복잡성에 얽매이지 않고 전문가처럼 이미지를 향상시킬 수 있습니다.
 ## 전제조건
@@ -94,3 +100,9 @@ Aspose.PSD는 Java를 포함한 다양한 프로그래밍 언어로 Photoshop PS
 전적으로! Aspose.PSD를 사용하면 PSD 파일의 다양한 레이어 유형을 조작할 수 있습니다.
 ### 추가 문서는 어디서 찾을 수 있나요?
  자세한 문서를 보려면 다음을 방문하세요.[Java 문서용 Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

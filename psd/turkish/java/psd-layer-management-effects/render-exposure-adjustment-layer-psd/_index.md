@@ -3,10 +3,16 @@ title: PSD Dosyalarında Pozlama Ayarlama Katmanını Oluşturma - Java
 linktitle: PSD Dosyalarında Pozlama Ayarlama Katmanını Oluşturma - Java
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki pozlama katmanlarını nasıl oluşturacağınızı ve ayarlayacağınızı öğrenin. Pozlama katmanlarını değiştirmek ve eklemek için kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD Dosyalarında Pozlama Ayarlama Katmanını Oluşturma - Java
+
 ## giriiş
 
 Photoshop PSD dosyalarıyla mı çalışıyorsunuz ve pozlamayı ayarlamanız veya programlı olarak bir poz ayarlama katmanı eklemeniz mi gerekiyor? İster mevcut katmanlarda ince ayarlar yapıyor ister yenilerini ekliyor olun, Aspose.PSD for Java bu görevleri yerine getirmeniz için güçlü ve sezgisel bir yol sunar. Bu kılavuzda, PSD dosyalarındaki pozlama ayarlama katmanlarını oluşturmak ve değiştirmek için Aspose.PSD for Java'nın nasıl kullanılacağını açıklayacağız. Bu eğitimin sonunda, mevcut katmanlardaki pozlama ayarlarını nasıl ayarlayacağınızı ve PSD dosyalarınıza yeni pozlama ayarlama katmanlarını nasıl ekleyeceğinizi öğreneceksiniz. Hadi dalalım!
@@ -138,3 +144,9 @@ Evet, Aspose.PSD for Java, metin katmanları, ayarlama katmanları ve görüntü
 ### Aspose.PSD for Java desteğini nasıl alabilirim?
 
  Destek için şu adresi ziyaret edebilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/psd/34) soru sorabileceğiniz ve topluluktan yardım alabileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

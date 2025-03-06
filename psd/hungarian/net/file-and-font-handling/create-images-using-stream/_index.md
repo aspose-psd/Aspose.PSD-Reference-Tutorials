@@ -3,10 +3,16 @@ title: Képek létrehozása Stream használatával az Aspose.PSD for .NET-ben
 linktitle: Képek létrehozása a Stream segítségével
 second_title: Aspose.PSD .NET API
 description: Ismerje meg, hogyan hozhat létre képeket adatfolyamok segítségével az Aspose.PSD for .NET fájlban. Kövesse lépésről lépésre útmutatónkat a hatékony képkezelés érdekében.
-type: docs
 weight: 12
 url: /hu/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek létrehozása Stream használatával az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 
 A .NET fejlesztés területén az Aspose.PSD a képkezelés hatékony eszköze. Az egyik különösen hasznos funkció a képek streamek segítségével történő létrehozásának lehetősége, ami rugalmasságot és hatékonyságot biztosít a képadatok kezelésében. Ez a lépésenkénti útmutató végigvezeti a folyamaton, az egyes elemeket lebontva a zökkenőmentes élmény érdekében. Mielőtt belemerülnénk, fedjük le az előfeltételeket.
@@ -111,3 +117,9 @@ A2: A méretek testreszabhatók; állítsa be ennek megfelelően az Image.Create
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

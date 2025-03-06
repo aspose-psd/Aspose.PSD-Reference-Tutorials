@@ -3,10 +3,16 @@ title: Xây dựng hình chữ nhật trong Aspose.PSD cho .NET
 linktitle: Xây dựng hình chữ nhật
 second_title: API Aspose.PSD .NET
 description: Khám phá nghệ thuật vẽ hình chữ nhật trong .NET với Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Nâng cao trò chơi thao tác hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xây dựng hình chữ nhật trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET năng động, Aspose.PSD nổi bật như một công cụ mạnh mẽ để xử lý thao tác hình ảnh. Hướng dẫn này tập trung vào một nhiệm vụ cơ bản: xây dựng hình chữ nhật bằng Aspose.PSD cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình, đảm bảo bạn nắm bắt kỹ lưỡng từng khái niệm.
@@ -94,3 +100,9 @@ Câu trả lời 1: Có, Aspose.PSD được thiết kế để hoạt động v
 ### Câu hỏi 5: Aspose.PSD có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể khám phá Aspose.PSD với bản dùng thử miễn phí. Tải xuống[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

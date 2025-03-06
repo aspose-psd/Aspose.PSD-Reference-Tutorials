@@ -3,10 +3,16 @@ title: 이미지 처리
 linktitle: 이미지 처리
 second_title: Aspose.PSD .NET API
 description: .NET 튜토리얼용 Aspose.PSD를 사용하여 이미지 품질을 손쉽게 향상하세요. 가우시안 및 위너 필터, 색상 변환, 이진화 등과 같은 기술을 알아보세요.
-type: docs
 weight: 20
 url: /ko/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 처리
+
 
 ## 소개
 
@@ -46,3 +52,9 @@ Median 및 Wiener 필터를 사용하여 .NET용 Aspose.PSD로 컬러 이미지�
 .NET용 Aspose.PSD를 사용하여 이미지에 그레이스케일 효과를 손쉽게 적용하는 방법을 알아보세요.
 ### [.NET용 Aspose.PSD에 Bradley 임계값 적용](./apply-bradley-threshold/)
 .NET용 Aspose.PSD에서 Bradley Threshold를 사용하여 이미지 분할을 향상합니다. 효과적인 이진화를 위한 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

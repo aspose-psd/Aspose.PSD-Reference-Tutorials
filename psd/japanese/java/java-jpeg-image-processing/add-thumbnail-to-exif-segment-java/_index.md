@@ -3,10 +3,16 @@ title: Java で EXIF セグメントにサムネイルを追加する
 linktitle: Java で EXIF セグメントにサムネイルを追加する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用してサムネイルで画像メタデータを強化する方法を学びます。シームレスな統合のために、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で EXIF セグメントにサムネイルを追加する
+
 ## 導入
 このチュートリアルでは、Aspose.PSD for Java を使用して EXIF セグメントにサムネイルを追加することで、画像のメタデータを強化する方法について説明します。EXIF (Exchangeable Image File Format) メタデータは、カメラの設定、日付、場所などの貴重な情報を提供し、デジタル写真で重要な役割を果たします。サムネイルを追加すると、画像を効率的にプレビューできるため、ユーザー エクスペリエンスが向上します。
 ## 前提条件
@@ -66,3 +72,9 @@ EXIF メタデータは、カメラの設定、日付、その他の詳細を含
  Aspose.PSDの一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD のサポートを受けるにはどうすればよいですか?
 サポートについては、[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

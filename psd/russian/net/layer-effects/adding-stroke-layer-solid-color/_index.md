@@ -3,10 +3,16 @@ title: Добавление слоя обводки со сплошным цве
 linktitle: Добавление слоя с обводкой сплошным цветом
 second_title: Aspose.PSD .NET API
 description: Совершенствуйте свои навыки манипулирования изображениями .NET с помощью Aspose.PSD. Научитесь шаг за шагом добавлять слои обводки со сплошными цветами.
-type: docs
 weight: 11
 url: /ru/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление слоя обводки со сплошным цветом в Aspose.PSD для .NET
+
 ## Введение
 
 В сфере разработки .NET создание визуально привлекательных изображений является распространенным требованием. Aspose.PSD для .NET предоставляет мощный набор инструментов для беспрепятственного управления и улучшения изображений. Одной из важных функций является добавление слоя обводки со сплошным цветом, который придает вашим изображениям яркость и глубину. В этом руководстве мы шаг за шагом проведем вас через весь процесс с использованием Aspose.PSD для .NET.
@@ -130,3 +136,9 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 ### Вопрос 5: Как я могу получить поддержку Aspose.PSD для .NET?
 
  A5: Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) искать помощи и общаться с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

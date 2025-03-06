@@ -3,10 +3,16 @@ title: Thêm lớp nét với gradient trong Aspose.PSD cho .NET
 linktitle: Thêm lớp nét với gradient
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách thêm lớp nét chuyển màu trong Aspose.PSD cho .NET. Nâng cao kỹ năng xử lý hình ảnh của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 12
 url: /vi/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp nét với gradient trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Nếu bạn đang tìm cách nâng cao các ứng dụng .NET của mình bằng các hiệu ứng đồ họa ấn tượng, Aspose.PSD cho .NET là giải pháp phù hợp cho bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thêm một lớp nét vẽ có độ dốc bằng Aspose.PSD cho .NET. Hướng dẫn từng bước này sẽ giúp bạn nâng cao sức hấp dẫn trực quan của hình ảnh một cách dễ dàng.
@@ -119,3 +125,9 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 ### Câu hỏi 5: Làm cách nào để mua giấy phép Aspose.PSD cho .NET?
 
  A5: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: البرنامج التعليمي لتصدير الصور متعددة ا
 linktitle: تصدير الصور في بيئة متعددة الخيوط
 second_title: Aspose.PSD جافا API
 description: اكتشف قوة Aspose.PSD لـ Java في تصدير الصور في بيئة متعددة الخيوط. ارفع قدرات تطبيق Java الخاص بك!
-type: docs
 weight: 14
 url: /ar/java/psd-conversion/export-images-multi-thread/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# البرنامج التعليمي لتصدير الصور متعددة الخيوط - Aspose.PSD لـ Java
+
 ## مقدمة
 هل تتطلع إلى تحسين قدرات تصدير الصور لتطبيق Java الخاص بك في بيئة متعددة الخيوط؟ Aspose.PSD لـ Java هو الحل الأمثل! في هذا البرنامج التعليمي، سنرشدك خلال عملية تصدير الصور باستخدام Aspose.PSD في إعداد متعدد الخيوط. استعد لفتح إمكانات تطبيق Java الخاص بك.
 ## المتطلبات الأساسية
@@ -75,3 +81,9 @@ Aspose.PSD متوافق مع Java 1.7 والإصدارات الأحدث.
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
  يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

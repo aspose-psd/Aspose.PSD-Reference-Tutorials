@@ -3,10 +3,16 @@ title: Ajuster la luminosité d'une image avec Aspose.PSD pour Java
 linktitle: Ajuster la luminosité d'une image
 second_title: API Java Aspose.PSD
 description: Améliorez la luminosité de l'image en Java avec Aspose.PSD. Guide étape par étape pour ajuster la luminosité de l’image par programmation.
-type: docs
 weight: 21
 url: /fr/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajuster la luminosité d'une image avec Aspose.PSD pour Java
+
 ## Introduction
 
 L'amélioration des images est une exigence courante dans la conception graphique et la photographie numérique. Aspose.PSD pour Java fournit une solution puissante pour ajuster la luminosité de l'image par programme. Dans ce didacticiel, nous explorerons comment utiliser la bibliothèque Aspose.PSD pour Java pour ajuster la luminosité d'une image, étape par étape.
@@ -107,3 +113,9 @@ A3 : La plage de réglage dépend du contenu et du format de l'image, mais Aspos
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
 
  A5 : Oui, vous pouvez explorer la bibliothèque avec un essai gratuit à partir de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

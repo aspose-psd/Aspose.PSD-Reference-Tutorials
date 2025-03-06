@@ -3,10 +3,16 @@ title: تدوير الطبقات في ملفات PSD باستخدام Java
 linktitle: تدوير الطبقات في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: اكتشف كيفية تدوير الطبقات بسهولة في ملفات PSD باستخدام Aspose.PSD لـ Java باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 21
 url: /ar/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تدوير الطبقات في ملفات PSD باستخدام Java
+
 ## مقدمة
 في عالم التصميم الجرافيكي، يعد العمل باستخدام ملفات Photoshop (PSD) نشاطًا شائعًا. سواء كنت مصممًا متمرسًا أو بدأت للتو في التعامل مع الصور، فإن معرفة كيفية تدوير الطبقات في ملفات PSD يمكن أن توفر الوقت. ولكن هنا يصبح الأمر صعبًا: لا يستطيع الجميع الوصول إلى Adobe Photoshop، ولا يريدون تعلم واجهته المعقدة. وهنا يأتي دور Java، مما يسهل التعامل مع ملفات PSD برمجيًا. في هذه المقالة، سنستكشف مكتبة Aspose.PSD القوية لـ Java، والتي تتيح لك العمل مع ملفات PSD بسلاسة، بما في ذلك الطبقات الدوارة. لذلك، شمر عن سواعدك ودعنا نتعمق في جعل سير عمل التصميم الخاص بك أكثر سلاسة!
 ## المتطلبات الأساسية
@@ -89,3 +95,9 @@ im.save(psdPath);
  يمكنك العثور على وثائق شاملة في[وثائق Aspose.PSD](https://reference.aspose.com/psd/java/).
 ### ماذا لو واجهت مشاكل أثناء استخدام Aspose.PSD؟
  تواصل للحصول على المساعدة عبر[منتدى الدعم Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

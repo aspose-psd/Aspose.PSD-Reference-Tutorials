@@ -3,10 +3,16 @@ title: 高级技术
 linktitle: 高级技术
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 教程轻松掌握 Java 图像处理的高级技术。灰度、加载、转换、渲染文本、高效保存等等！
-type: docs
 weight: 22
 url: /zh/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高级技术
+
 ## 介绍
 
 您准备好提升您的 Java 图像处理技能了吗？深入了解 Aspose.PSD for Java 的全面教程，解锁先进技术领域。让我们详细了解一些关键教程：
@@ -85,3 +91,9 @@ url: /zh/java/advanced-techniques/
 学习使用 Aspose.PSD for Java 轻松调整图像伽玛。按照我们的分步指南获得最佳效果。
 ### [使用 Aspose.PSD for Java 模糊图像](./blur-image/)
 学习使用 Aspose.PSD 在 Java 中模糊图像。按照我们的分步指南获得专业效果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中套用高斯和維納濾波器
 linktitle: 應用高斯和維納濾波器
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 輕鬆提升影像品質。應用高斯和維納濾波器來降低雜訊並獲得最佳視覺吸引力。
-type: docs
 weight: 10
 url: /zh-hant/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中套用高斯和維納濾波器
+
 ## 介紹
 
 在使用 .NET 進行影像處理的領域中，Aspose.PSD 作為一個功能強大的工具包脫穎而出，使開發人員能夠輕鬆操作影像。一個特別有用的功能是高斯和維納濾波器的應用。這些濾鏡在提高影像品質、減少雜訊和確保最佳視覺吸引力方面發揮著至關重要的作用。
@@ -110,3 +116,10 @@ A2：半徑大小決定了濾波器運作的區域，而平滑值則影響應用
 ### Q5：Aspose.PSD 有免費試用版嗎？
 
  A5：是的，您可以透過下載Aspose.PSD來探索Aspose.PSD的功能[免費試用版](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

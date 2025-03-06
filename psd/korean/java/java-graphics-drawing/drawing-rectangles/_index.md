@@ -3,10 +3,16 @@ title: Java로 직사각형 그리기
 linktitle: Java로 직사각형 그리기
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 이미지에 직사각형을 그리는 방법을 알아보세요. 이 튜토리얼은 Java 개발자를 단계별로 안내합니다. 이미지 조작 작업에 적합합니다.
-type: docs
 weight: 17
 url: /ko/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java로 직사각형 그리기
+
 ## 소개
 Java 개발 세계에서 프로그래밍 방식으로 이미지를 조작하고 생성하는 것은 다양한 애플리케이션에 걸쳐 공통 요구 사항입니다. 자주 접하게 되는 작업 중 하나는 이미지에 직사각형과 같은 모양을 그리는 것입니다. Aspose.PSD for Java는 이를 효율적으로 수행하기 위한 강력한 도구 및 기능 세트를 제공합니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지에 직사각형을 그리는 과정을 단계별로 안내합니다.
 ## 전제조건
@@ -84,3 +90,9 @@ Aspose.PSD for Java는 직사각형 외에도 타원, 선, 다각형 등 다양�
  더 많은 예제와 자세한 문서를 탐색할 수 있습니다.[Java 문서용 Aspose.PSD](https://reference.aspose.com/psd/java/).
 ### Java용 Aspose.PSD는 BMP 외에 다른 이미지 형식을 지원합니까?
 예, Java용 Aspose.PSD는 PNG, JPEG, TIFF 및 GIF를 포함한 광범위한 이미지 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

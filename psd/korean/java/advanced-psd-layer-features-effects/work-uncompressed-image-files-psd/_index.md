@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD에서 압축되지 않은 이미지 파일 작�
 linktitle: Java를 사용하여 PSD에서 압축되지 않은 이미지 파일 작업
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 단계별 튜토리얼에서 Java 및 Aspose.PSD 라이브러리를 사용하여 PSD 형식의 압축되지 않은 이미지 파일로 작업하는 방법을 알아보세요.
-type: docs
 weight: 27
 url: /ko/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD에서 압축되지 않은 이미지 파일 작업
+
 ## 소개
 Java에서 Photoshop 문서(PSD)로 작업할 때 이러한 풍부한 이미지 파일을 효과적으로 조작하고 저장하는 방법을 이해하는 것이 중요합니다. 이 튜토리얼에서는 압축되지 않은 이미지 작업을 포함하여 PSD 파일 관리를 단순화하는 강력한 API인 Aspose.PSD를 사용하는 방법을 자세히 살펴보겠습니다. 풍부한 그래픽으로 애플리케이션을 향상하려는 개발자이거나 번거로움 없이 Java에서 PSD 파일을 처리하려는 개발자라면 이 가이드가 모든 단계를 안내해 드립니다. 시작할 준비가 되셨나요? 뛰어들자!
 ## 전제조건
@@ -84,3 +90,9 @@ Aspose.PSD for Java는 개발자가 Photoshop PSD 파일을 프로그래밍 방�
  다음을 통해 연락하실 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34) 도움을 위해.
 ### Aspose.PSD는 PSD 이외의 형식으로의 저장을 지원합니까?
 예, Aspose.PSD를 사용하면 요구 사항에 따라 PNG, JPEG 등과 같은 다양한 형식으로 저장할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Image Effects
 linktitle: Image Effects
 second_title: Aspose.PSD .NET API
 description: Master dynamic image enhancements in Aspose.PSD for .NET. Elevate your image processing with tutorials on adding, overlaying, and rendering stunning effects at runtime.
-type: docs
 weight: 25
 url: /net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Image Effects
+
 
 ## Introduction
 
@@ -34,3 +40,9 @@ Explore dynamic image enhancements using Aspose.PSD for .NET. Add effects at run
 Explore the magic of Aspose.PSD for .NET with our tutorial on overlaying color effects. Elevate your image processing game effortlessly.
 ### [Rendering Drop Shadow Effect in Aspose.PSD for .NET](./render-drop-shadow/)
 Explore the power of Aspose.PSD for .NET in this tutorial, mastering the art of rendering captivating drop shadow effects.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

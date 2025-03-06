@@ -3,10 +3,16 @@ title: Làm việc với Dòng thời gian trong Aspose.PSD cho .NET
 linktitle: Làm việc với Dòng thời gian
 second_title: API Aspose.PSD .NET
 description: Tăng cường thao tác hình ảnh PSD với Aspose.PSD cho lớp .NET Timeline. Kiểm soát các thuộc tính khung, trạng thái lớp và giải phóng khả năng sáng tạo một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Dòng thời gian trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Trong thế giới năng động của thiết kế đồ họa và xử lý hình ảnh, khả năng kiểm soát và vận dụng dòng thời gian của hình ảnh là rất quan trọng. Aspose.PSD for .NET cung cấp một giải pháp mạnh mẽ với lớp Timeline của nó. Tính năng cấp cao này cho phép người dùng thực hiện các thay đổi đối với dòng thời gian của PsdImage, chẳng hạn như thay đổi độ trễ khung hình, chỉnh sửa trạng thái lớp trên các khung hình cụ thể, v.v.
 ## Điều kiện tiên quyết
@@ -108,3 +114,9 @@ Câu trả lời 2: Lớp Dòng thời gian được thiết kế đặc biệt 
 ### Câu hỏi 5: Lợi ích chính của việc sử dụng Aspose.PSD cho .NET là gì?
 
 Câu trả lời 5: Aspose.PSD cho .NET cung cấp khả năng xử lý hình ảnh nâng cao, thao tác với tệp PSD và kết xuất hiệu suất cao.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

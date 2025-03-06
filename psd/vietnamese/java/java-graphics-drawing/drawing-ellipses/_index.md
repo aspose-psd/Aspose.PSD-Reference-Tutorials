@@ -3,10 +3,16 @@ title: Vẽ hình elip trong Java
 linktitle: Vẽ hình elip trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách vẽ hình elip trong Java bằng Aspose.PSD để thiết kế đồ họa và thao tác hình ảnh chính xác. Làm chủ các hướng dẫn từng bước.
-type: docs
 weight: 15
 url: /vi/java/java-graphics-drawing/drawing-ellipses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ hình elip trong Java
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ học cách vẽ hình elip bằng Aspose.PSD cho Java. Aspose.PSD là một thư viện mạnh mẽ cho phép các nhà phát triển Java làm việc với các tệp PSD và xử lý hình ảnh một cách dễ dàng. Vẽ các hình dạng như hình elip là một nhiệm vụ cơ bản trong xử lý hình ảnh và thiết kế đồ họa. Bằng cách làm theo hướng dẫn này, bạn sẽ có được trải nghiệm thực tế trong việc tạo hình elip theo chương trình bằng Aspose.PSD.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Aspose.PSD cung cấp phiên bản dùng thử miễn phí, cho phép bạn đá
 Aspose.PSD hỗ trợ lưu hình ảnh sang nhiều định dạng khác nhau bao gồm BMP, PNG, JPEG và PSD.
 ### Aspose.PSD có phù hợp để sử dụng cho doanh nghiệp không?
 Có, Aspose.PSD được thiết kế cho các tác vụ xử lý hình ảnh cấp doanh nghiệp và chuyên nghiệp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ondersteuning van Clbl-bron in PSD-bestanden met behulp van Java
 linktitle: Ondersteuning van Clbl-bron in PSD-bestanden met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u Clbl Resource in PSD-bestanden kunt ondersteunen en manipuleren met behulp van Aspose.PSD voor Java. Deze gedetailleerde handleiding behandelt de vereisten, stapsgewijze instructies en veelgestelde vragen.
-type: docs
 weight: 12
 url: /nl/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van Clbl-bron in PSD-bestanden met behulp van Java
+
 ## Invoering
 
  Heeft u ooit met PSD-bestanden gewerkt en moest u laagbronnen programmatisch manipuleren? Als je een Java-ontwikkelaar bent, heb je geluk! Met Aspose.PSD voor Java kunt u eenvoudig PSD-bestanden beheren en bewerken, inclusief het verwerken van de`ClblResource`—een speciale hulpbron die het samenvoegen van geknipte elementen regelt. In deze tutorial gaan we dieper in op hoe je de`ClblResource` in uw PSD-bestanden met behulp van Java. Uiteindelijk zult u goed toegerust zijn om deze hulpbron in uw projecten te gebruiken, zodat u volledige controle heeft over het uiterlijk van uw gelaagde afbeeldingen.
@@ -156,3 +162,9 @@ Ja, voor volledige functionaliteit is een licentie vereist. Je kunt een[tijdelij
 
 ### Hoe ga ik om met grote PSD-bestanden?  
 Aspose.PSD voor Java is ontworpen om grote PSD-bestanden efficiënt te verwerken, maar u moet ervoor zorgen dat uw systeem over voldoende geheugen en verwerkingskracht beschikt voor optimale prestaties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

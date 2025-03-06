@@ -3,10 +3,16 @@ title: إضافة التوقيع إلى الصور باستخدام Aspose.PSD �
 linktitle: إضافة التوقيع إلى الصور باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: قم بتحسين مشاريع صور .NET الخاصة بك باستخدام Aspose.PSD. تعرف على كيفية إضافة التوقيعات بسلاسة باستخدام دليلنا خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة التوقيع إلى الصور باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.PSD كأداة قوية لمعالجة الصور وتحسينها. إذا كنت قد تساءلت يومًا عن كيفية إضافة توقيع إلى الصور بسهولة باستخدام Aspose.PSD لـ .NET، فأنت في المكان الصحيح. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يضمن إتقان فن دمج التوقيعات في صورك دون عناء.
@@ -103,3 +109,9 @@ canvas.Save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 ### س5: هل يمكنني تجربة Aspose.PSD قبل الشراء؟
 
  ج5: بالتأكيد، تتوفر نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

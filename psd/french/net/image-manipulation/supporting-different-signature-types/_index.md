@@ -3,10 +3,16 @@ title: Prise en charge de différents types de signatures dans Aspose.PSD pour .
 linktitle: Prise en charge de différents types de signature
 second_title: API Aspose.PSD.NET
 description: Explorez Aspose.PSD pour .NET et prenez en charge sans effort différents types de signatures dans vos fichiers PSD.
-type: docs
 weight: 14
 url: /fr/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de différents types de signatures dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.PSD pour .NET, une bibliothèque puissante qui permet aux développeurs de gérer les fichiers PSD de manière transparente. Dans ce didacticiel, nous explorerons le processus de prise en charge de différents types de signature dans Aspose.PSD pour .NET. Que vous soyez un développeur chevronné ou débutant, ce guide étape par étape vous guidera tout au long du processus avec clarté et précision.
@@ -79,3 +85,10 @@ Félicitations! Vous avez pris en charge avec succès différents types de signa
 ### Q5 : Vous recherchez une licence temporaire ?
 
  A5 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에 레이어 효과 적용
 linktitle: Java를 사용하여 PSD 파일에 레이어 효과 적용
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에 레이어 효과를 적용하는 방법을 알아보세요. 이 튜토리얼에서는 PSD 로드, 레이어 액세스 및 수정된 이미지 저장을 다룹니다.
-type: docs
 weight: 19
 url: /ko/java/psd-image-modification-conversion/apply-layer-effects-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에 레이어 효과 적용
+
 ## 소개
 
 PSD 형식의 아름다운 레이어 걸작을 코드를 통해 직접 조작하는 꿈을 꾸어본 적이 있습니까? 글쎄, Java용 Aspose.PSD의 힘으로 그 꿈이 현실이 됩니다! 이 가이드는 Java를 사용하여 PSD 파일에 레이어 효과를 적용하는 단계를 안내하여 작업을 자동화하고 완전히 새로운 수준의 창의적인 제어 기능을 제공합니다. 
@@ -111,3 +117,9 @@ Aspose.PSD는 기존 레이어 효과를 수정하기 위한 광범위한 기능
 
 ### 자세한 정보와 지원은 어디서 찾을 수 있나요?
 Aspose.PSD 문서([Java 문서용 Aspose.PSD](https://reference.aspose.com/psd/java/))은 심층적인 정보를 얻을 수 있는 귀중한 리소스입니다. 문제가 발생하거나 질문이 있는 경우 Aspose 포럼([Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34))는 커뮤니티와 Aspose 지원으로부터 도움을 구할 수 있는 좋은 장소입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

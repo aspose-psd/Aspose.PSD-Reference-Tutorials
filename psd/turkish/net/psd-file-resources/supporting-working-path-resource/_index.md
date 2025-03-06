@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Çalışma Yolu Kaynağını Destekleme
 linktitle: Destekleyici Çalışma Yolu Kaynağı
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'te 'WorkingPathResource'un gücünü keşfedin. Bu adım adım kılavuzla görüntü hassasiyetini artırın.
-type: docs
 weight: 12
 url: /tr/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Çalışma Yolu Kaynağını Destekleme
+
 ## giriiş
 Görüntü işlemeyle çalışan bir .NET geliştiricisiyseniz Aspose.PSD for .NET sizin için çözümdür. Bu eğitimde Aspose.PSD'deki 'WorkingPathResource' kaynağının gücünden yararlanmaya derinlemesine bakacağız. Bu çok önemli özellik, Kırpma işleminin hassasiyetini artırarak görsellerinizin tam olarak gerektiği gibi uyarlanmasını sağlar.
 ## Önkoşullar
@@ -88,3 +94,9 @@ Tebrikler! Aspose.PSD for .NET'te 'WorkingPathResource' kullanımında başarıl
 ### S5: Geçici bir lisansa mı ihtiyacınız var?
 
  Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

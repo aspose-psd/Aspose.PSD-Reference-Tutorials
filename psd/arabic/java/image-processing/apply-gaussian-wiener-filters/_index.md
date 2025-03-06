@@ -3,10 +3,16 @@ title: قم بتطبيق مرشحات Gaussian وWiener في Aspose.PSD لـ Jav
 linktitle: تطبيق مرشحات غاوسي و وينر
 second_title: Aspose.PSD جافا API
 description: قم بتحسين معالجة صور Java الخاصة بك باستخدام Aspose.PSD. تعلم كيفية تطبيق مرشحات Gaussian وWiener خطوة بخطوة للحصول على نتائج مرئية مذهلة.
-type: docs
 weight: 10
 url: /ar/java/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق مرشحات Gaussian وWiener في Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي الشامل حول تطبيق مرشحات Gaussian وWiener في Aspose.PSD لـ Java! في هذا الدليل، سنرشدك خلال عملية تحسين صورك باستخدام هذه المرشحات القوية. يوفر Aspose.PSD for Java مجموعة قوية من الميزات لمعالجة الصور، ومع تطبيق مرشحات Gaussian وWiener، يمكنك الحصول على صور أكثر سلاسة ودقة.
@@ -99,3 +105,9 @@ A1: نعم، يدعم Aspose.PSD for Java تنسيقات صور متنوعة ت�
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD لـ Java؟
 
  ج5: راجع[الوثائق](https://reference.aspose.com/psd/java/) للحصول على معلومات متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

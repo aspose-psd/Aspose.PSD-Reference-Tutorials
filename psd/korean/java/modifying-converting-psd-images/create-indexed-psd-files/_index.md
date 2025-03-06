@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 인덱싱된 PSD 파일 만들기
 linktitle: Java용 Aspose.PSD를 사용하여 인덱싱된 PSD 파일 만들기
 second_title: Aspose.PSD 자바 API
 description: 단계별 가이드에서 Java용 Aspose.PSD를 사용하여 색인화된 PSD 파일을 만드는 방법을 알아보세요. 지금 가입하여 끝없는 예술적 가능성을 탐험해보세요.
-type: docs
 weight: 23
 url: /ko/java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 인덱싱된 PSD 파일 만들기
+
 ## 소개
 프로그래밍 방식으로 그래픽을 만드는 것은 단순한 예술이 아닙니다. 그것은 기술과 상상력의 혼합입니다. 이 창의적인 영역의 강력한 도구 중 하나는 개발자가 Photoshop 문서를 조작할 수 있는 엄청난 기능을 갖춘 라이브러리인 Aspose.PSD for Java입니다. 이 튜토리얼에서는 Aspose.PSD를 사용하여 색인화된 PSD 파일을 만드는 방법을 자세히 살펴보고 시작하는 데 도움이 되는 단계별 가이드를 제공합니다. 숙련된 개발자이든 이제 막 코딩 여정을 시작하는 사람이든 이 가이드는 프로세스를 원활하게 안내합니다.
 ## 전제조건
@@ -108,3 +114,9 @@ Aspose.PSD for Java는 Java를 사용하여 프로그래밍 방식으로 PSD(Pho
  임시 라이센스를 요청할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD에 대한 지원은 어디서 받을 수 있나요?
  Aspose 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

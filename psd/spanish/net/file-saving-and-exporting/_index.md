@@ -3,10 +3,16 @@ title: Guardar y exportar archivos
 linktitle: Guardar y exportar archivos
 second_title: API Aspose.PSD .NET
 description: Domine el guardado y exportación de imágenes sin esfuerzo con Aspose.PSD para .NET. Siga nuestros tutoriales paso a paso para operaciones eficientes de disco y transmisión.
-type: docs
 weight: 23
 url: /es/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar y exportar archivos
+
 ## Introducción
 
 Si alguna vez se ha enfrentado a las complejidades de guardar y exportar imágenes en sus proyectos .NET, no está solo. El ámbito digital exige precisión y, cuando se trata de imágenes, el proceso se vuelve aún más crucial. Afortunadamente, Aspose.PSD para .NET está aquí para simplificar su viaje, ofreciendo soluciones perfectas para guardar imágenes en disco y transmitirlas.
@@ -32,3 +38,9 @@ Aprenda a guardar imágenes en el disco usando Aspose.PSD para .NET. Siga esta g
 Explore el poder de Aspose.PSD para .NET y aprenda cómo guardar imágenes en una secuencia sin esfuerzo. Siga nuestra guía paso a paso para una integración perfecta.
 ### [Trabajar con Save Image Worker en Aspose.PSD para .NET](./save-image-worker/)
 Aprenda a utilizar Aspose.PSD para Save Image Worker de .NET para una conversión perfecta del formato de imagen con manejo de interrupciones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

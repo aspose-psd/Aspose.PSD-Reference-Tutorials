@@ -3,10 +3,16 @@ title: PSD 파일의 인터럽트 모니터 지원 - Java
 linktitle: PSD 파일의 인터럽트 모니터 지원 - Java
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD의 인터럽트 모니터를 사용하여 Java에서 장기 실행 PSD 변환을 중단합니다. 우아한 중단을 구현하고 사용자 경험을 개선하는 방법을 알아보세요.
-type: docs
 weight: 24
 url: /ko/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 파일의 인터럽트 모니터 지원 - Java
+
 ## 소개
 
 이 포괄적인 가이드는 Java 애플리케이션에서 인터럽트 모니터를 활용하는 데 필요한 지식을 제공합니다. 전제 조건을 자세히 살펴보고, 필요한 패키지를 가져오는 과정을 안내하고, 코드 예제를 사용하여 프로세스를 명확한 단계별 지침으로 나누어 보겠습니다. 그러니 버클을 채우고 PSD 변환을 제어할 준비를 하십시오!
@@ -127,3 +133,9 @@ if (outputFile.exists()) {
 ### 인터럽트 모니터를 사용하면 성능에 영향이 있습니까?
 
  인터럽트 모니터 사용에 따른 성능 오버헤드는 일반적으로 최소화됩니다. 그러나 인터럽트 검사 빈도는`SaveImageWorker` 성능에 영향을 줄 수 있습니다. 대응성과 효율성 사이의 균형을 유지하는 것이 중요합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

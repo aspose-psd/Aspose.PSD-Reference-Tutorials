@@ -3,10 +3,16 @@ title: TIFF में Adobe Deflate Compression लागू करें - Java
 linktitle: TIFF में Adobe Deflate Compression लागू करें - Java
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java का उपयोग करके TIFF छवियों पर Adobe Deflate संपीड़न लागू करना सीखें। कुशल छवि प्रसंस्करण के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 12
 url: /hi/java/tiff-image-compression-configuration/apply-adobe-deflate-compression-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# TIFF में Adobe Deflate Compression लागू करें - Java
+
 ## परिचय
 
 क्या आपने कभी सोचा है कि गुणवत्ता से समझौता किए बिना अपनी TIFF छवियों को कुशलतापूर्वक कैसे संपीड़ित किया जाए? यदि आप बड़ी छवि फ़ाइलों से निपट रहे हैं, तो आप शायद धीमी लोडिंग समय और भंडारण समस्याओं के दर्द को जानते होंगे। यहीं पर Adobe Deflate संपीड़न काम आता है, और Aspose.PSD for Java के साथ, आप इसे आसानी से अपनी परियोजनाओं में लागू कर सकते हैं। यह ट्यूटोरियल आपको TIFF छवि पर Adobe Deflate संपीड़न को चरण दर चरण लागू करने के बारे में बताएगा। शुरू करने के लिए तैयार हैं? चलिए शुरू करते हैं!
@@ -125,3 +131,9 @@ tiffImage.save(dataDir + "TIFFwithAdobeDeflateCompression_output.tif");
 
 ### क्या मैं Java के लिए Aspose.PSD के साथ अन्य छवि प्रारूपों में हेरफेर कर सकता हूं?
 बिल्कुल! Aspose.PSD PSD, PNG, JPEG, आदि जैसे विभिन्न प्रारूपों का समर्थन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

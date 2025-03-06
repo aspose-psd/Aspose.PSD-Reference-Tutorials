@@ -3,10 +3,16 @@ title: Bagaimana Menambahkan Pola Lapisan Stroke di Java
 linktitle: Bagaimana Menambahkan Pola Lapisan Stroke di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan pola lapisan guratan ke file PSD menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah ini untuk menyempurnakan gambar Anda dengan mudah.
-type: docs
 weight: 11
 url: /id/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bagaimana Menambahkan Pola Lapisan Stroke di Java
+
 ## Perkenalan
 Menambahkan pola lapisan guratan ke gambar di Java mungkin terdengar seperti tugas yang menakutkan, namun dengan Aspose.PSD untuk Java, ini lebih mudah dari yang Anda kira. Baik Anda mendesain grafis atau mengerjakan aplikasi pengeditan foto, panduan ini akan memandu Anda melalui prosesnya langkah demi langkah. Siap untuk memulai? Ayo selami!
 ## Prasyarat
@@ -138,3 +144,9 @@ Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang membuat, 
  Anda bisa mendapatkan dukungan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/psd/34).
 ### Apa saja persyaratan sistem untuk Aspose.PSD untuk Java?
 Anda perlu menginstal JDK dan IDE untuk pengembangan. Perpustakaan mendukung beberapa sistem operasi termasuk Windows, Linux, dan macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

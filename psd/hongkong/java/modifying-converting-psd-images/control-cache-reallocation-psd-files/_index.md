@@ -3,10 +3,16 @@ title: 控制 PSD 檔案中的快取重新分配
 linktitle: 控制 PSD 檔案中的快取重新分配
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 管理 PSD 檔案中的快取重新分配。了解如何有效優化記憶體和檔案處理—這對於開發人員來說是理想的選擇。
-type: docs
 weight: 22
 url: /zh-hant/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 控制 PSD 檔案中的快取重新分配
+
 ## 介紹
 當以程式方式處理影像和 Photoshop 檔案時，效率是關鍵因素。 Aspose.PSD for Java 提供了強大的功能來無縫管理和操作 PSD 檔案。優化效能的基本面向之一是控制快取重新分配。快取管理有助於保持記憶體和磁碟使用之間的平衡，確保您的應用程式平穩運行，不會出現意外崩潰或速度減慢。 
 ## 先決條件
@@ -127,3 +133,9 @@ Aspose.PSD 是一個供 .NET 和 Java 開發人員以程式設計方式建立、
 Aspose.PSD 是一個付費庫，但您可以從他們的免費試用版開始[網站](https://releases.aspose.com/).
 ### 如果我不丟棄物品會怎樣？
 不釋放物件可能會導致記憶體洩漏，導致應用程式使用不必要的資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

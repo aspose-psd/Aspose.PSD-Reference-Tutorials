@@ -3,10 +3,16 @@ title: Создание эллиптических фигур с помощью 
 linktitle: Создание эллиптических фигур с помощью Aspose.PSD для .NET
 second_title: Aspose.PSD .NET API
 description: Узнайте, как рисовать эллиптические фигуры в .NET с помощью Aspose.PSD. Пошаговое руководство с примерами кода. Создавайте потрясающую графику без особых усилий.
-type: docs
 weight: 13
 url: /ru/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание эллиптических фигур с помощью Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по созданию эллиптических фигур с помощью Aspose.PSD для .NET. Aspose.PSD — это мощная библиотека .NET, которая позволяет разработчикам манипулировать файлами Photoshop и конвертировать их без необходимости использования Adobe Photoshop. В этом уроке мы познакомим вас с процессом рисования эллиптических фигур с помощью библиотеки.
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### В5: Нужна ли мне временная лицензия для тестирования?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Compatible con efectos de sombra en Aspose.PSD para .NET
 linktitle: Efectos de sombra compatibles
 second_title: API Aspose.PSD .NET
 description: ¡Mejore sus imágenes con Aspose.PSD para .NET! Aprenda a admitir efectos de sombra paso a paso. Descárguelo ahora para disfrutar de una experiencia visualmente impresionante.
-type: docs
 weight: 14
 url: /es/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compatible con efectos de sombra en Aspose.PSD para .NET
+
 ## Introducción
 
 Agregar efectos de sombra a las imágenes puede mejorar significativamente el atractivo visual y crear una experiencia de usuario más inmersiva. Aspose.PSD para .NET proporciona una solución poderosa para admitir efectos de sombra en sus imágenes, lo que le permite personalizar varios parámetros y lograr los efectos visuales deseados.
@@ -109,3 +115,9 @@ R2: Sí, Aspose.PSD para .NET admite una amplia gama de formatos de archivos PSD
 ### P5: ¿Puedo probar Aspose.PSD para .NET de forma gratuita antes de comprarlo?
 
  R5: Sí, puedes descargar una versión de prueba gratuita desde[página de lanzamientos](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

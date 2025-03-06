@@ -3,10 +3,16 @@ title: Binaryzacja ze stałym progiem w Aspose.PSD dla Java
 linktitle: Binaryzacja ze stałym progiem
 second_title: Aspose.PSD API Java
 description: Poznaj binaryzację ze stałym progiem w Aspose.PSD dla Java. Bezproblemowo przekształcaj obrazy, korzystając z naszego przewodnika krok po kroku.
-type: docs
 weight: 14
 url: /pl/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binaryzacja ze stałym progiem w Aspose.PSD dla Java
+
 ## Wstęp
 
 W dziedzinie programowania w języku Java Aspose.PSD okazuje się potężnym narzędziem do zadań przetwarzania obrazu. Jedną z takich niezbędnych operacji jest binaryzacja, technika upraszczająca obrazy poprzez konwersję ich do postaci binarnej. Ten samouczek poprowadzi Cię przez proces osiągania binaryzacji ze stałym progiem przy użyciu Aspose.PSD dla Java. Zapnij pasy, gdy będziemy odkrywać etapy tej transformacyjnej podróży w zakresie przetwarzania obrazu.
@@ -101,3 +107,9 @@ O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, dzięki czemu binaryzac
 ### P5: Czy dostępna jest bezpłatna wersja próbna?
 
  Odpowiedź 5: Tak, możesz poznać możliwości Aspose.PSD dzięki bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

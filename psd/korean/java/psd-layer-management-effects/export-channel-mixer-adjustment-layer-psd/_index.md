@@ -3,10 +3,16 @@ title: PSD에서 채널 믹서 조정 레이어 내보내기 - Java
 linktitle: PSD에서 채널 믹서 조정 레이어 내보내기 - Java
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD에서 채널 믹서 조정 레이어를 내보내는 방법을 알아보세요. RGB 및 CMYK 레이어 수정, 변경 사항 저장, PNG로 내보내기에 대한 단계별 가이드입니다.
-type: docs
 weight: 14
 url: /ko/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에서 채널 믹서 조정 레이어 내보내기 - Java
+
 ## 소개
 
 이미지 편집, 특히 Adobe Photoshop 파일(PSD)의 경우 레이어를 효율적으로 관리하는 것이 중요합니다. 이러한 레이어 중에서 채널 믹서 조정 레이어는 이미지의 색상 균형을 조정하는 데 중요한 역할을 합니다. 이러한 레이어를 프로그래밍 방식으로 조작하려는 Java 개발자라면 운이 좋을 것입니다! 이 문서에서는 Java용 Aspose.PSD를 사용하여 채널 믹서 조정 레이어를 내보내는 과정을 안내합니다. 이 가이드가 끝나면 RGB 및 CMYK 채널 믹서 조정 레이어를 처리하고, 변경 사항을 저장하고, 최종 이미지를 PSD 및 PNG 형식으로 내보낼 수 있게 됩니다.
@@ -168,3 +174,9 @@ RGB 이미지와 마찬가지로 내보내기 경로를 정의하고 CMYK 이미
 
 ### Java용 Aspose.PSD를 사용하려면 라이센스가 필요합니까?  
  예, Aspose.PSD for Java는 라이선스 제품입니다. 당신은 얻을 수 있습니다[임시면허](https://purchase.aspose.com/temporary-license/) 정식 라이센스를 테스트하거나 구매하려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Optimalizace souborů PNG
 linktitle: Optimalizace souborů PNG
 second_title: Aspose.PSD Java API
 description: Prozkoumejte komplexní výukové programy pro optimalizaci souborů PNG pomocí Aspose.PSD pro Java, které zahrnují filtry, změny barev pozadí, kompresi, rozlišení, bitovou hloubku a průhlednost.
-type: docs
 weight: 20
 url: /cs/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimalizace souborů PNG
+
 ## Zavedení
 
 Chcete zvládnout optimalizaci souborů PNG pomocí Aspose.PSD pro Javu? Naše podrobné návody pokrývají vše, co potřebujete vědět, aby vaše obrázky zazářily. Od použití filtrů po změnu barev pozadí a komprimaci souborů až po nastavení rozlišení, tato příručka vás pokryje. Pojďme se ponořit do každého tématu krok za krokem, abychom zajistili, že ze svých souborů PNG vytěžíte maximum!
@@ -48,3 +54,9 @@ Prozkoumejte, jak nastavit rozlišení souboru PNG pomocí Aspose.PSD for Java s
 Zjistěte, jak určit bitovou hloubku PNG pomocí Aspose.PSD pro Javu v tomto podrobném návodu krok za krokem.
 ### [Nastavte průhlednost PNG v Aspose.PSD pro Javu](./set-png-transparency/)
 Naučte se, jak nastavit průhlednost PNG v Aspose.PSD pro Java, pomocí jednoduchého návodu krok za krokem. Ideální pro vývojáře a grafiky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

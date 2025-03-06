@@ -3,10 +3,16 @@ title: Agregar capa de trazo con degradado en Aspose.PSD para .NET
 linktitle: Agregar capa de trazo con degradado
 second_title: API Aspose.PSD .NET
 description: Aprenda cómo agregar una capa de trazo degradado en Aspose.PSD para .NET. Mejore sus habilidades de manipulación de imágenes con este completo tutorial.
-type: docs
 weight: 12
 url: /es/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar capa de trazo con degradado en Aspose.PSD para .NET
+
 ## Introducción
 
 Si busca mejorar sus aplicaciones .NET con impresionantes efectos gráficos, Aspose.PSD para .NET es su solución ideal. En este tutorial, profundizaremos en el proceso de agregar una capa de trazo con un degradado usando Aspose.PSD para .NET. Esta guía paso a paso le permitirá mejorar el atractivo visual de sus imágenes sin esfuerzo.
@@ -119,3 +125,9 @@ R1: Sí, Aspose.PSD para .NET es compatible con varios marcos .NET.
 ### P5: ¿Cómo compro una licencia de Aspose.PSD para .NET?
 
  R5: Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

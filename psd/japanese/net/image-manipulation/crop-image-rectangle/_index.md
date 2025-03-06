@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で四角形による画像の切り抜き
 linktitle: 画像を長方形で切り取る
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD を使用して .NET 画像操作スキルを強化します。精度を高めるために長方形を使用して画像をトリミングする手順を学習します。
-type: docs
 weight: 11
 url: /ja/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で四角形による画像の切り抜き
+
 ## 導入
 
 .NET プログラミングの分野では、画像の操作と強化は一般的なタスクであり、Aspose.PSD for .NET はこのプロセスを簡素化する強力なライブラリです。このチュートリアルでは、基本的でありながら重要な画像操作テクニックである、四角形による画像の切り取りに焦点を当てます。このガイドを読み終える頃には、Aspose.PSD for .NET を使用して画像を正確に切り取る方法をしっかりと理解できるようになります。
@@ -110,3 +116,9 @@ A3: Aspose.PSD for .NET は、さまざまなサイズの画像を処理する�
 ### Q5: 追加のサポートや支援はどこで受けられますか?
 
  A5: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティとつながり、サポートを求める。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

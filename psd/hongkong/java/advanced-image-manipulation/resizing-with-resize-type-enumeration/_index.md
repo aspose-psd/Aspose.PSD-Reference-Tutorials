@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 中的調整大小類型枚舉調整大小
 linktitle: 使用調整大小類型枚舉調整大小
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 在 Java 中掌握影像大小調整。使用調整大小類型枚舉的逐步指南。
-type: docs
 weight: 18
 url: /zh-hant/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 中的調整大小類型枚舉調整大小
+
 ## 介紹
 
 在不斷發展的 Java 開發環境中，高效能的影像處理是開發人員經常要解決的關鍵問題。 Aspose.PSD for Java 成為一個強大的解決方案，提供了調整影像大小的無縫體驗，並具有調整大小類型枚舉的附加優勢。在本教程中，我們將深入研究使用 Aspose.PSD for Java 調整圖像大小的複雜性，分解每個步驟以確保全面理解。
@@ -86,3 +92,9 @@ A2：是的，Aspose.PSD for Java 提供了各種調整大小類型，例如最�
 ### Q5: 如何取得 Aspose.PSD for Java 的臨時授權？
 
  A5：若要取得臨時許可證，請訪問[這個連結](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

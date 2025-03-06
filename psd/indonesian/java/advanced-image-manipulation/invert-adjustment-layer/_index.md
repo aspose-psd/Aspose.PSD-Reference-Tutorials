@@ -3,10 +3,16 @@ title: Balikkan Lapisan Penyesuaian di Aspose.PSD untuk Java
 linktitle: Balikkan Lapisan Penyesuaian
 second_title: Asumsikan.PSD Java API
 description: Jelajahi Lapisan Penyesuaian Balik di Aspose.PSD untuk Java. Pustaka Java yang kuat untuk manipulasi file PSD tanpa hambatan.
-type: docs
 weight: 14
 url: /id/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Balikkan Lapisan Penyesuaian di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang penerapan Invert Adjustment Layer di Aspose.PSD untuk Java. Dalam tutorial ini, kita akan menjelajahi fitur-fitur canggih Aspose.PSD, perpustakaan Java yang memungkinkan manipulasi file PSD dengan lancar. Baik Anda seorang pengembang berpengalaman atau pendatang baru dalam pemrosesan gambar, tutorial ini dirancang untuk membantu Anda memahami dan menerapkan Lapisan Penyesuaian Pembalikan secara efisien.
@@ -93,3 +99,9 @@ A2: Ya, Anda dapat menumpuk beberapa lapisan penyesuaian untuk mencapai manipula
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
 A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

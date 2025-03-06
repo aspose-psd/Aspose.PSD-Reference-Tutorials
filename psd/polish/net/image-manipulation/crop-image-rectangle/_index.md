@@ -3,10 +3,16 @@ title: Przycinanie obrazów według prostokąta w Aspose.PSD dla .NET
 linktitle: Przycinanie obrazów według prostokąta
 second_title: Aspose.PSD API .NET
 description: Zwiększ swoje umiejętności manipulacji obrazami .NET dzięki Aspose.PSD. Dowiedz się, jak krok po kroku przycinać obraz za pomocą prostokątów, aby uzyskać precyzję.
-type: docs
 weight: 11
 url: /pl/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przycinanie obrazów według prostokąta w Aspose.PSD dla .NET
+
 ## Wstęp
 
 W dziedzinie programowania .NET manipulowanie i ulepszanie obrazów jest częstym zadaniem, a Aspose.PSD dla .NET to potężna biblioteka, która upraszcza ten proces. Ten samouczek skupia się na podstawowej, ale kluczowej technice manipulacji obrazem – przycinaniu obrazów przez prostokąt. Pod koniec tego przewodnika będziesz mieć solidną wiedzę na temat precyzyjnego przycinania obrazów przy użyciu Aspose.PSD dla .NET.
@@ -110,3 +116,9 @@ O3: Aspose.PSD dla .NET jest przeznaczony do obsługi obrazów o różnych rozmi
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc?
 
  A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34)nawiązać kontakt ze społecznością i szukać wsparcia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

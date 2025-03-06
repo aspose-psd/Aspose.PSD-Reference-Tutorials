@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中添加带渐变的描边层
 linktitle: 添加渐变描边图层
 second_title: Aspose.PSD .NET API
 description: 了解如何在 Aspose.PSD for .NET 中添加渐变描边层。通过本综合教程提升您的图像处理技能。
-type: docs
 weight: 12
 url: /zh/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中添加带渐变的描边层
+
 ## 介绍
 
 如果您希望通过令人惊叹的图形效果增强 .NET 应用程序，Aspose.PSD for .NET 就是您的首选解决方案。在本教程中，我们将深入研究使用 Aspose.PSD for .NET 添加渐变描边层的过程。本分步指南将使您能够轻松提升图像的视觉吸引力。
@@ -119,3 +125,9 @@ A1：是的，Aspose.PSD for .NET 与各种.NET 框架兼容。
 ### Q5：如何购买 Aspose.PSD for .NET 的许可证？
 
  A5：您可以购买许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

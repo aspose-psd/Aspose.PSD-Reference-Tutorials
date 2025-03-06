@@ -3,10 +3,16 @@ title: PSD 드로잉 기법
 linktitle: PSD 드로잉 기법
 second_title: Aspose.PSD .NET API
 description: 튜토리얼을 통해 .NET용 Aspose.PSD의 잠재력을 발휘해보세요! 핵심 그리기 기능을 익히고, 멋진 그래픽을 만들고, 이미지 조작 기술을 향상시키세요.
-type: docs
 weight: 28
 url: /ko/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 드로잉 기법
+
 
 ## 소개
 
@@ -61,3 +67,9 @@ Aspose.PSD를 사용하여 .NET에서 직사각형을 그리는 기술을 살펴
 .NET용 Aspose.PSD로 예술적 잠재력을 발휘해보세요! 그래픽을 사용하여 창의적인 그림을 그리는 튜토리얼을 따라해보세요.
 ### [.NET용 Aspose.PSD에서 GraphicsPath를 사용하여 그리기 구현](./implementing-drawing-with-graphicspath/)
 GraphicsPath를 사용한 그리기에 대한 단계별 튜토리얼에서 .NET용 Aspose.PSD의 강력한 기능을 살펴보세요. 고급 Photoshop 파일 조작을 통해 .NET 애플리케이션을 강화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

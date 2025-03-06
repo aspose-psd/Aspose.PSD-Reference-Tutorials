@@ -3,10 +3,16 @@ title: Kelola Lapisan Penyesuaian Eksposur di PSD menggunakan Java
 linktitle: Kelola Lapisan Penyesuaian Eksposur di PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Sempurnakan gambar PSD Anda dengan mudah dengan Java menggunakan Aspose.PSD. Ikuti panduan ini untuk mengelola lapisan penyesuaian eksposur langkah demi langkah.
-type: docs
 weight: 23
 url: /id/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Lapisan Penyesuaian Eksposur di PSD menggunakan Java
+
 ## Perkenalan
 Ketika bekerja dengan file Photoshop secara terprogram, terutama jika Anda mendalami pengeditan atau manipulasi gambar, perpustakaan Aspose.PSD untuk Java benar-benar merupakan terobosan baru. Salah satu fitur canggih yang dapat Anda manfaatkan adalah Lapisan Penyesuaian Eksposur, yang memungkinkan Anda meningkatkan atau mengubah pengaturan eksposur gambar Anda secara sederhana dan efektif. Tutorial ini akan memandu Anda melalui setiap langkah untuk mengelola lapisan penyesuaian eksposur dalam file PSD menggunakan Java.
 ## Prasyarat
@@ -92,3 +98,9 @@ Ya, Aspose.PSD dapat diintegrasikan ke dalam aplikasi web, memungkinkan manipula
  Anda dapat mengakses dukungan komunitas di forum Aspose[Di Sini](https://forum.aspose.com/c/psd/34).
 ### Apakah ada contoh proyek yang tersedia untuk memulai?
  Ya, Anda dapat menemukan contoh proyek dan dokumentasi di[Halaman Referensi Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

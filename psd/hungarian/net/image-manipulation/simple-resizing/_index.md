@@ -3,10 +3,16 @@ title: A képek egyszerű átméretezése az Aspose.PSD-ben .NET-hez
 linktitle: A képek egyszerű átméretezése
 second_title: Aspose.PSD .NET API
 description: Fő képméretezés az Aspose.PSD for .NET segítségével. Hatékony, zökkenőmentes és erőteljes. Emelje fel .NET-projektjeit könnyedén.
-type: docs
 weight: 17
 url: /hu/net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A képek egyszerű átméretezése az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 A .NET fejlesztés dinamikus birodalmában a képek manipulálása általános szükséglet. A .NET-hez készült Aspose.PSD nagy teljesítményű képességeivel segít, és zökkenőmentes élményt nyújt a képméretezéshez. Ebben az oktatóanyagban a képek Aspose.PSD for .NET használatával történő átméretezésének egyszerű, de létfontosságú folyamatába fogunk beleásni. Kapcsold be, amikor elindulunk egy utazásra, hogy fejleszd képfeldolgozási készségeidet.
@@ -89,3 +95,9 @@ A2: Abszolút! Az Aspose.PSD for .NET számos képformátumot támogat, beleért
 ### 5. kérdés: Hogyan kaphatok támogatást, vagy hogyan léphetek kapcsolatba a közösséggel az Aspose.PSD for .NET-hez?
 
  A5: Látogassa meg a[Aspose.PSD for .NET Forum](https://forum.aspose.com/c/psd/34) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Změňte velikost obrázku proporcionálně pomocí Aspose.PSD pro Javu
 linktitle: Změňte velikost obrázku proporcionálně
 second_title: Aspose.PSD Java API
 description: Vylepšete své Java aplikace pomocí Aspose.PSD. Postupujte podle našeho průvodce a změňte velikost obrázků proporcionálně bez námahy. Zvyšte své možnosti zpracování obrazu ještě dnes.
-type: docs
 weight: 17
 url: /cs/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte velikost obrázku proporcionálně pomocí Aspose.PSD pro Javu
+
 ## Zavedení
 
 Vítejte v našem podrobném průvodci proporcionální změnou velikosti obrázků pomocí Aspose.PSD pro Java. Pokud chcete vylepšit své Java aplikace o efektivní možnosti změny velikosti obrázků, jste na správném místě. V tomto tutoriálu vás provedeme procesem pomocí jasných a stručných kroků.
@@ -92,3 +98,9 @@ V tomto tutoriálu jsme probrali základní kroky k proporcionální změně vel
 
  A5: Viz podrobná dokumentace[zde](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD의 이진화 기술
 linktitle: 이진화 기술
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD의 고급 이진화 기술을 살펴보세요. BinarizationWithFixedThreshold 메서드를 사용하여 컬러 이미지를 바이너리로 쉽게 변환하세요.
-type: docs
 weight: 12
 url: /ko/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD의 이진화 기술
+
 ## 소개
 
 이미지 처리 세계에서 컬러 이미지를 이진 이미지로 변환하는 능력은 중요한 단계입니다. 이진화는 복잡한 이미지를 흑백 픽셀로 줄여 단순화함으로써 정보를 더 쉽게 분석하고 추출하는 데 도움이 됩니다. .NET용 Aspose.PSD는 강력한 이진화 기술을 포함하여 이미지 조작을 위한 강력한 도구를 제공합니다. 이 자습서에서는 BinarizationWithFixedThreshold 메서드를 살펴보고 .NET용 Aspose.PSD를 사용하여 구현하는 과정을 안내합니다.
@@ -104,3 +110,9 @@ A3: 캐싱은 이미지 데이터를 메모리에 저장하여 반복적인 로�
 ### Q5: Aspose.PSD에 사용할 수 있는 평가판이 있습니까?
 
  A5: 예, 액세스할 수 있습니다.[무료 평가판](https://releases.aspose.com/)구매하기 전에 Aspose.PSD의 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

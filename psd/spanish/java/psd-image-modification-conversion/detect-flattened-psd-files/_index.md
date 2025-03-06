@@ -3,10 +3,16 @@ title: Detectar archivos PSD aplanados usando Aspose.PSD para Java
 linktitle: Detectar archivos PSD aplanados usando Aspose.PSD para Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo detectar archivos PSD aplanados usando Aspose.PSD para Java, paso a paso en este completo tutorial.
-type: docs
 weight: 10
 url: /es/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detectar archivos PSD aplanados usando Aspose.PSD para Java
+
 ## Introducción
 
 ¡Bienvenido al mundo de la manipulación de archivos PSD (Documentos de Photoshop) con Aspose.PSD para Java! Si alguna vez necesitó trabajar con capas en archivos de Photoshop pero no sabía por dónde empezar, está en el lugar correcto. En este tutorial, profundizaremos en cómo detectar si un archivo PSD está aplanado usando Aspose.PSD. Aplanar un PSD significa que todas sus capas se fusionan en una sola capa unificada, lo que puede dificultar un poco la edición posterior. Al final de esta guía, estará equipado para verificar este aspecto crucial de sus archivos PSD. ¡Siéntate, toma tu café y sumergámonos!
@@ -77,3 +83,9 @@ Desafortunadamente, una vez que se aplana un PSD, no se pueden recuperar las cap
 
 ### ¿Existe alguna forma de probar Aspose.PSD de forma gratuita?
  ¡Absolutamente! Puede iniciar una prueba gratuita descargando una versión de prueba desde[este enlace](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

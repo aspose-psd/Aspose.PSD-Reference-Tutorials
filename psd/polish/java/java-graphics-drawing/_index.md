@@ -3,10 +3,16 @@ title: Rysunek graficzny w Javie
 linktitle: Rysunek graficzny w Javie
 second_title: Aspose.PSD API Java
 description: Zapoznaj się z samouczkami Aspose.PSD for Java na temat rysowania grafiki. Naucz się dodawać obrysy, rysować kształty i manipulować plikami PSD, korzystając z przewodników krok po kroku.
-type: docs
 weight: 20
 url: /pl/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rysunek graficzny w Javie
+
 
 ## Wstęp
 
@@ -75,3 +81,9 @@ Naucz się rysować prostokąty na obrazach za pomocą Aspose.PSD dla Java. Ten 
 Dowiedz się, jak krok po kroku rysować grafikę w Javie przy użyciu Aspose.PSD. Twórz kształty, stosuj kolory i eksportuj obrazy bez wysiłku.
 ### [Rysowanie przy użyciu ścieżki graficznej w Javie](./drawing-using-graphics-path/)
 Dowiedz się, jak tworzyć złożone grafiki w Javie, korzystając z klasy Graphics Path w Aspose.PSD. Ten samouczek przeprowadzi Cię przez każdy etap tworzenia oszałamiającego obrazu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

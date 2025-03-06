@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 국경 정보 리소스 지원
 linktitle: 국경 정보 자원 지원
 second_title: Aspose.PSD .NET API
 description: 향상된 이미징을 위한 .NET의 경계 정보 리소스 기능용 Aspose.PSD를 살펴보세요. 원활한 통합을 위해 튜토리얼을 따르세요. 지금 다운로드하세요!
-type: docs
 weight: 11
 url: /ko/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 국경 정보 리소스 지원
+
 ## 소개
 .NET용 Aspose.PSD의 국경 정보 리소스 기능 활용에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 강력한 .NET 이미징 라이브러리인 Aspose.PSD를 사용하여 국경 정보 리소스로 작업하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 국경 정보 리소스를 프로젝트에 원활하게 통합하는 방법을 명확하게 제공하는 것을 목표로 합니다.
 ## 전제조건
@@ -89,3 +95,9 @@ A1: 예, .NET용 Aspose.PSD는 다양한 .NET 프레임워크와 호환됩니다
 ### Q5: 임시 라이센스를 사용할 수 있습니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

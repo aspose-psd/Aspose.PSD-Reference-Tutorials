@@ -3,10 +3,16 @@ title: Propriétés des données d'enregistrement de longueur de prise en charge
 linktitle: Propriétés des données d'enregistrement de longueur de prise en charge dans PSD - Java
 second_title: API Java Aspose.PSD
 description: Apprenez à manipuler des fichiers PSD avec des propriétés de données d'enregistrement de longueur en Java à l'aide d'Aspose.PSD. Suivez ce guide étape par étape pour tous les détails.
-type: docs
 weight: 14
 url: /fr/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propriétés des données d'enregistrement de longueur de prise en charge dans PSD - Java
+
 ## Introduction
 Avez-vous déjà travaillé avec des fichiers Photoshop et souhaitez manipuler des calques ou des formes par programme ? Si tel est le cas, vous êtes tombé sur la beauté de la bibliothèque Aspose.PSD pour Java. Cet outil puissant permet aux développeurs d'interagir et de modifier les fichiers PSD de manière transparente via le code Java. Dans l'article d'aujourd'hui, nous verrons comment prendre en charge les propriétés des données d'enregistrement de longueur dans un fichier PSD à l'aide de cette bibliothèque. 
 Que vous soyez un développeur Java chevronné ou un débutant, ce guide vous guidera à travers tout ce que vous devez savoir, étape par étape. À la fin, vous pourrez ouvrir un fichier PSD, modifier ses propriétés de forme vectorielle et enregistrer vos modifications, le tout sans quitter le confort de votre environnement Java. Retroussons nos manches et sautons le pas !
@@ -96,3 +102,9 @@ Vous pouvez manipuler des calques, des formes, des textes, des opérations de tr
 Oui, Aspose propose diverses bibliothèques pour différents langages de programmation, notamment .NET et Python.
 ### Où puis-je trouver la documentation pour Aspose.PSD ?
  Vous pouvez accéder à la documentation complète[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

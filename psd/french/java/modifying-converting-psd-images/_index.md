@@ -3,10 +3,16 @@ title: Modification et conversion d'images PSD
 linktitle: Modification et conversion d'images PSD
 second_title: API Java Aspose.PSD
 description: Améliorez vos fichiers PSD avec divers ajustements et effets à l'aide d'Aspose.PSD pour Java. Didacticiels étape par étape sur la manipulation des couleurs, les filigranes et bien plus encore.
-type: docs
 weight: 21
 url: /fr/java/modifying-converting-psd-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modification et conversion d'images PSD
+
 ## Introduction
 
 Aspose.PSD pour Java fournit une boîte à outils polyvalente pour travailler avec des fichiers PSD, offrant de nombreuses options pour modifier et améliorer vos images. Que vous soyez un designer chevronné ou que vous débutiez tout juste, nos tutoriels sont conçus pour vous aider à exploiter tout le potentiel d'Aspose.PSD. Voici un tour d'horizon des didacticiels que vous pouvez explorer pour maîtriser divers aspects de la manipulation PSD.
@@ -102,3 +108,9 @@ Gérez la réallocation du cache dans les fichiers PSD à l'aide d'Aspose.PSD po
 Apprenez à créer des fichiers PSD indexés avec Aspose.PSD pour Java dans notre guide étape par étape. Inscrivez-vous maintenant pour explorer des possibilités artistiques infinies.
 ### [Créer des vignettes à partir de fichiers PSD à l'aide de Java](./create-thumbnails-psd-files/)
 Apprenez à créer sans effort des vignettes à partir de fichiers PSD à l'aide de Java et Aspose.PSD. Suivez notre guide étape par étape pour un traitement d’image fluide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

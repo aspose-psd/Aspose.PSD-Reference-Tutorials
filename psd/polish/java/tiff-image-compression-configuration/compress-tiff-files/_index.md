@@ -3,10 +3,16 @@ title: Kompresuj pliki TIFF za pomocą Aspose.PSD dla Java
 linktitle: Kompresuj pliki TIFF za pomocą Aspose.PSD dla Java
 second_title: Aspose.PSD API Java
 description: Efektywnie kompresuj pliki TIFF przy użyciu Aspose.PSD dla Java bez utraty jakości. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby usprawnić przepływ pracy.
-type: docs
 weight: 10
 url: /pl/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompresuj pliki TIFF za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Wyobraź sobie, że pracujesz nad dużym projektem graficznym, a pliki PSD obciążają Twój system. Musisz udostępnić te pliki lub zapisać je do późniejszego wykorzystania, ale ich rozmiar jest po prostu zbyt duży, aby sobie z nimi poradzić. W tym miejscu przydaje się kompresja plików PSD do formatu TIFF. Pliki TIFF zapewniają równowagę pomiędzy jakością i rozmiarem, dzięki czemu idealnie nadają się do przechowywania i udostępniania. W tym samouczku przeprowadzimy Cię przez proces kompresji plików TIFF przy użyciu Aspose.PSD dla Java, dzięki czemu Twoje obrazy będą kompaktowe, a jednocześnie zachowają swoją jakość.
@@ -142,3 +148,9 @@ Aspose.PSD dla Java obsługuje głównie pliki PSD, ale zapewnia szeroką obsłu
 ### Jak kompresja skali szarości wpływa na jakość obrazu?
 
 Kompresja skali szarości zmniejsza liczbę kolorów obrazu, co może prowadzić do zmniejszenia szczegółowości obrazu. Jednak w przypadku niektórych typów obrazów kompromis ten jest minimalny i może skutkować znacznym zmniejszeniem rozmiaru pliku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा ग्राफिक्स ड्राइंग
 linktitle: जावा ग्राफिक्स ड्राइंग
 second_title: Aspose.PSD जावा एपीआई
 description: ग्राफिक्स ड्राइंग पर Aspose.PSD for Java ट्यूटोरियल देखें। स्ट्रोक जोड़ना, आकृतियाँ बनाना और चरण-दर-चरण गाइड के साथ PSD फ़ाइलों में हेरफेर करना सीखें।
-type: docs
 weight: 20
 url: /hi/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा ग्राफिक्स ड्राइंग
+
 
 ## परिचय
 
@@ -75,3 +81,9 @@ Aspose.PSD for Java का उपयोग करके Java में बेज
 Aspose.PSD का उपयोग करके जावा में ग्राफ़िक्स बनाना सीखें। आसानी से आकृतियाँ बनाएँ, रंग लगाएँ और छवियाँ निर्यात करें।
 ### [जावा में ग्राफ़िक्स पथ का उपयोग करके आरेखण](./drawing-using-graphics-path/)
 Aspose.PSD के Graphics Path क्लास का उपयोग करके Java में जटिल ग्राफ़िक्स बनाना सीखें। यह ट्यूटोरियल आपको शानदार इमेज बनाने के प्रत्येक चरण के बारे में बताता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

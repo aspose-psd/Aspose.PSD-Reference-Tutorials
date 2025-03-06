@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntüleri Genişletme ve Kırpma
 linktitle: Görüntüleri Genişletme ve Kırpma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'i kullanarak görüntüleri dinamik olarak nasıl genişleteceğinizi ve kırpacağınızı öğrenin. Sorunsuz görüntü işleme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntüleri Genişletme ve Kırpma
+
 ## giriiş
 
 Aspose.PSD for .NET, geliştiricilerin .NET uygulamalarında çeşitli görüntü formatlarıyla çalışmasına olanak tanıyan kapsamlı bir görüntüleme kitaplığıdır. Öne çıkan özelliklerinden biri, görüntüleri kolaylıkla değiştirebilme yeteneğidir. Bu eğitimde, görüntüleri genişletmeye ve kırpmaya odaklanacağız ve size Aspose.PSD kullanarak bu görevleri gerçekleştirmeniz için uygulamalı bir kılavuz sunacağız.
@@ -98,3 +104,9 @@ Cevap1: Evet, Aspose.PSD, JPEG, PNG, GIF ve daha fazlasını içeren çok çeşi
 ### S5: Aspose.PSD for .NET'i nereden satın alabilirim?
 
  Cevap5: Kütüphaneyi şu adresten satın alabilirsiniz:[Aspose.PSD Satın Alma Sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

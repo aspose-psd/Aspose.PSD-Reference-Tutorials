@@ -3,10 +3,16 @@ title: Đặt độ mờ tô cho các lớp PSD bằng Aspose.PSD Java
 linktitle: Đặt độ mờ tô cho các lớp PSD bằng Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách đặt độ mờ tô cho các lớp PSD bằng Aspose.PSD cho Java trong hướng dẫn từng bước này. Nâng cao hiệu quả các dự án thiết kế đồ họa của bạn.
-type: docs
 weight: 13
 url: /vi/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt độ mờ tô cho các lớp PSD bằng Aspose.PSD Java
+
 ## Giới thiệu
 Bạn có thường thấy mình phải chỉnh sửa các file thiết kế, cố gắng đạt được hiệu ứng hình ảnh hoàn hảo đó không? Cho dù bạn là một nhà thiết kế đồ họa dày dạn hay một nhà phát triển mới bắt đầu muốn thao tác với các tệp PSD, việc biết cách điều chỉnh các thuộc tính của lớp có thể tạo ra sự khác biệt. Hôm nay, chúng ta sẽ đi sâu vào cách đặt độ mờ cho các lớp trong tệp PSD bằng Aspose.PSD cho Java. Bạn đã sẵn sàng biến các lớp của mình thành những phần bắt mắt chưa? Hãy bắt đầu!
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Có, bằng cách lặp qua các lớp bằng vòng lặp, bạn có thể đặ
 Bên cạnh độ mờ của lớp nền, bạn có thể thao tác mức độ hiển thị của lớp, chế độ hòa trộn, vị trí, kích thước, v.v. bằng cách sử dụng Aspose.PSD.
 ### Tôi có thể tìm thêm tài liệu về Aspose.PSD cho Java ở đâu?
  Bạn có thể tham khảo tài liệu đầy đủ[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: احفظ الصور للبث باستخدام Aspose.PSD لـ Java
 linktitle: حفظ الصور للدفق
 second_title: Aspose.PSD جافا API
 description: اكتشف كيفية حفظ صور PSD في دفق باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لمعالجة الصور بكفاءة.
-type: docs
 weight: 16
 url: /ar/java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ الصور للبث باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية حفظ الصور في التدفق باستخدام Aspose.PSD لـ Java. Aspose.PSD هي مكتبة Java قوية لمعالجة ومعالجة ملفات PSD (مستندات Photoshop). إذا كنت ترغب في تحسين تطبيق Java الخاص بك من خلال القدرة على حفظ صور PSD في التدفق، فاتبع الخطوات الموضحة في هذا الدليل.
@@ -97,3 +103,9 @@ psdImage.save(outputStream, new PngOptions());
 ### س5: أين يمكنني شراء الإصدار الكامل من Aspose.PSD لـ Java؟
 
  ج5: قم بشراء النسخة الكاملة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

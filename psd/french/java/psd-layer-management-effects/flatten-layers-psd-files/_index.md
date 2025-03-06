@@ -3,10 +3,16 @@ title: Aplatir les calques dans les fichiers PSD à l'aide d'Aspose.PSD Java
 linktitle: Aplatir les calques dans les fichiers PSD à l'aide d'Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Aplatissez et fusionnez facilement les calques dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez ce guide étape par étape pour simplifier la gestion de vos fichiers PSD.
-type: docs
 weight: 13
 url: /fr/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplatir les calques dans les fichiers PSD à l'aide d'Aspose.PSD Java
+
 ## Introduction
 
 Vous est-il déjà arrivé de travailler avec des fichiers Photoshop et de souhaiter un moyen plus simple de gérer ces calques complexes ? Eh bien, vous avez de la chance ! Aujourd'hui, nous plongeons dans le monde d'Aspose.PSD pour Java, un outil puissant qui facilite l'utilisation de fichiers PSD par programmation. L'une des fonctionnalités pratiques que nous explorerons est l'aplatissement des calques. Que vous souhaitiez aplatir une image entière ou fusionner sélectivement des calques spécifiques, Aspose.PSD pour Java est là pour vous. Ce didacticiel vous guidera tout au long du processus, étape par étape, pour vous assurer que vous êtes prêt à aborder vos fichiers PSD en toute confiance.
@@ -150,3 +156,9 @@ Oui, vous pouvez fusionner des calques avec différents modes de fusion à l'aid
 
 ### Que se passe-t-il si j'essaie de fusionner des calques qui ne sont pas adjacents ?  
 Aspose.PSD vous permet de fusionner n'importe quel calque quel que soit son ordre dans la pile de calques. Le processus de fusion combinera les calques sélectionnés comme spécifié.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

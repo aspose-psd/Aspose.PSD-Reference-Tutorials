@@ -3,10 +3,16 @@ title: Exportáljon csatornakeverő-beállító réteget PSD-be - Java
 linktitle: Exportáljon csatornakeverő-beállító réteget PSD-be - Java
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan exportálhat csatornakeverő-beállító rétegeket PSD-ben az Aspose.PSD for Java segítségével. Útmutató lépésről lépésre az RGB és CMYK rétegek módosításához, a változtatások mentéséhez és PNG formátumba exportálásához.
-type: docs
 weight: 14
 url: /hu/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportáljon csatornakeverő-beállító réteget PSD-be - Java
+
 ## Bevezetés
 
 Ha képszerkesztésről van szó, különösen az Adobe Photoshop-fájlok (PSD) esetében, kulcsfontosságú a rétegek hatékony kezelése. Ezen rétegek közül a Channel Mixer Adjustment Layer döntő szerepet játszik a kép színegyensúlyának beállításában. Ha Ön Java-fejlesztő, aki ezeket a rétegeket szeretné programozottan manipulálni, szerencséje van! Ebben a cikkben végigvezetjük a Channel Mixer Adjustment Layers exportálási folyamatán az Aspose.PSD for Java használatával. Az útmutató végére jól felkészült lesz az RGB és CMYK csatornakeverő beállítási rétegeinek kezelésére, a módosítások mentésére és a végső kép exportálására mind PSD, mind PNG formátumban.
@@ -168,3 +174,9 @@ Igen, az Aspose.PSD for Java segítségével végigpörgetheti a PSD-fájlok kö
 
 ### Szükségem van licencre az Aspose.PSD for Java használatához?  
  Igen, az Aspose.PSD for Java licencelt termék. Megszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) teszteléshez vagy teljes licenc vásárlásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

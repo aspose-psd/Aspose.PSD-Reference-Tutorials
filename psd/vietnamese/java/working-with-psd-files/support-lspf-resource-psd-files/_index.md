@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên Lspf trong tệp PSD bằng Java
 linktitle: Hỗ trợ tài nguyên Lspf trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Nắm vững cách hỗ trợ và thao tác Tài nguyên Lspf trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 14
 url: /vi/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên Lspf trong tệp PSD bằng Java
+
 ## Giới thiệu
 
 Bạn có phải là nhà phát triển muốn đi sâu vào thế giới thao tác với tệp PSD không? Vâng, bạn đã đến đúng nơi! Khi làm việc với các tệp PSD, bạn thường cần xử lý nhiều tài nguyên lớp khác nhau, chẳng hạn như LspfResource. Tài nguyên này rất quan trọng để quản lý các cài đặt bảo vệ lớp như bảo vệ tổng hợp, vị trí và độ trong suốt trong tệp PSD. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách hỗ trợ và thao tác LspfResource trong các tệp PSD bằng Java với sự trợ giúp của Aspose.PSD cho Java.
@@ -182,3 +188,9 @@ Nếu bạn không xác minh các thay đổi thì có nguy cơ các cài đặt
 
 ### Tôi có thể hoàn tác các thay đổi được thực hiện đối với LspfResource sau khi lưu tệp không?  
 Sau khi tệp được lưu, bạn không thể hoàn tác các thay đổi trực tiếp. Tuy nhiên, bạn có thể tải lại tệp gốc và áp dụng lại các thay đổi nếu cần.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

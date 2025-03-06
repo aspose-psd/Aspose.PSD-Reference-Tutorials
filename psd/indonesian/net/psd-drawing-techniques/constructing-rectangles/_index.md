@@ -3,10 +3,16 @@ title: Membangun Persegi Panjang di Aspose.PSD untuk .NET
 linktitle: Membangun Persegi Panjang
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi seni menggambar persegi panjang di .NET dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar. Tingkatkan permainan manipulasi gambar Anda dengan mudah.
-type: docs
 weight: 15
 url: /id/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membangun Persegi Panjang di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam ranah dinamis pengembangan .NET, Aspose.PSD menonjol sebagai alat yang ampuh untuk menangani manipulasi gambar. Tutorial ini berfokus pada tugas mendasar: membuat persegi panjang menggunakan Aspose.PSD untuk .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, memastikan Anda memahami setiap konsep secara menyeluruh.
@@ -94,3 +100,9 @@ A4: Menggunakan 32 Bpp memungkinkan representasi warna yang lebih kaya, memungki
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
 
  A5: Ya, Anda dapat menjelajahi Aspose.PSD dengan uji coba gratis. Unduh itu[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

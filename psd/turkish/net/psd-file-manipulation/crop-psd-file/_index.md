@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET ile PSD Dosyalarını Kırpma
 linktitle: Aspose.PSD for .NET ile PSD Dosyalarını Kırpma
 second_title: Aspose.PSD .NET API'si
 description: Çok yönlü bir araç seti olan Aspose.PSD ile .NET'te PSD dosyası kırpma sanatını keşfedin. Görüntü işleme oyununuzu zahmetsizce yükseltin.
-type: docs
 weight: 19
 url: /tr/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET ile PSD Dosyalarını Kırpma
+
 ## giriiş
 .NET geliştirme alanında Aspose.PSD, PSD (Photoshop Belgesi) dosyalarını sorunsuz bir şekilde işlemek için güçlü bir araç seti olarak öne çıkıyor. Görüntülerin işlenmesi söz konusu olduğunda kırpma temel bir işlemdir ve Aspose.PSD, .NET geliştiricileri için bu süreci basitleştirir. Bu eğitimde, Aspose.PSD for .NET kullanarak PSD dosyalarının nasıl kırpılacağını keşfedeceğiz ve size adım adım bir kılavuz sunacağız.
 ## Önkoşullar
@@ -72,3 +78,9 @@ Cevap1: Evet, Aspose.PSD, en yeni .NET çerçeveleriyle uyumluluğun sağlanmas�
 ### S5: Test amacıyla geçici bir lisansa ihtiyacım var mı?
 
  Cevap5: Evet, geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

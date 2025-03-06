@@ -3,10 +3,16 @@ title: Ekspor Lapisan Penyesuaian Mixer Saluran di PSD - Java
 linktitle: Ekspor Lapisan Penyesuaian Mixer Saluran di PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengekspor Lapisan Penyesuaian Mixer Saluran di PSD menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah untuk memodifikasi lapisan RGB dan CMYK, menyimpan perubahan, dan mengekspor ke PNG.
-type: docs
 weight: 14
 url: /id/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Lapisan Penyesuaian Mixer Saluran di PSD - Java
+
 ## Perkenalan
 
 Ketika mengedit gambar, terutama dengan file Adobe Photoshop (PSD), mengelola lapisan secara efisien adalah kuncinya. Di antara lapisan-lapisan ini, Lapisan Penyesuaian Mixer Saluran memainkan peran penting dalam mengubah keseimbangan warna suatu gambar. Jika Anda seorang pengembang Java yang ingin memanipulasi lapisan ini secara terprogram, Anda beruntung! Pada artikel ini, kami akan memandu Anda melalui proses mengekspor Lapisan Penyesuaian Pengaduk Saluran menggunakan Aspose.PSD untuk Java. Di akhir panduan ini, Anda akan diperlengkapi dengan baik untuk menangani Lapisan Penyesuaian Mixer Saluran RGB dan CMYK, menyimpan perubahan, dan mengekspor gambar akhir Anda dalam format PSD dan PNG.
@@ -168,3 +174,9 @@ Ya, Anda dapat menelusuri direktori file PSD dan menerapkan penyesuaian yang sam
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PSD untuk Java?  
  Ya, Aspose.PSD untuk Java adalah produk berlisensi. Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk menguji atau membeli lisensi penuh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

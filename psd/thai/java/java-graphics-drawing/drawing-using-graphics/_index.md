@@ -3,10 +3,16 @@ title: การวาดภาพโดยใช้กราฟิกใน Jav
 linktitle: การวาดภาพโดยใช้กราฟิกใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีการวาดกราฟิกใน Java โดยใช้ Aspose.PSD ทีละขั้นตอน สร้างรูปทรง ใส่สี และส่งออกรูปภาพได้อย่างง่ายดาย
-type: docs
 weight: 18
 url: /th/java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดภาพโดยใช้กราฟิกใน Java
+
 ## การแนะนำ
 ในการเขียนโปรแกรม Java การวาดและจัดการรูปภาพโดยทางโปรแกรมถือเป็นความสามารถอันทรงพลังที่นักพัฒนามักต้องการ บทช่วยสอนนี้มุ่งเน้นไปที่การใช้ Aspose.PSD สำหรับ Java ซึ่งเป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถสร้างและแก้ไขไฟล์ PSD รวมถึงดำเนินการกราฟิกต่างๆ เช่น การวาดรูปทรง การใช้แปรง และการส่งออกรูปภาพ คู่มือนี้จะแนะนำคุณตลอดขั้นตอนการวาดภาพโดยใช้กราฟิกใน Java ด้วย Aspose.PSD โดยแจกแจงรายละเอียดแต่ละขั้นตอนเพื่อให้มั่นใจในความชัดเจนและความเข้าใจ
 ## ข้อกำหนดเบื้องต้น
@@ -79,3 +85,9 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 ใช่ Aspose.PSD รองรับการส่งออกเป็นรูปแบบต่างๆ เช่น BMP, PNG, JPEG และ TIFF
 ### ฉันจะรับการสนับสนุนหรือความช่วยเหลือได้อย่างไรหากฉันประสบปัญหา
 ติดต่อชุมชน Aspose.PSD ได้ที่[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34) หรือพิจารณาก[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับการสนับสนุนลำดับความสำคัญ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

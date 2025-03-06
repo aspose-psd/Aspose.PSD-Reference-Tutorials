@@ -3,10 +3,16 @@ title: Aspose.PSD Java를 사용하여 PSD 파일의 시트 색상 강조 표시
 linktitle: Aspose.PSD Java를 사용하여 PSD 파일의 시트 색상 강조 표시
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에서 시트 색상을 강조 표시하는 방법을 알아보세요. Java에서 이미지 조작 기술을 향상하려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 19
 url: /ko/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java를 사용하여 PSD 파일의 시트 색상 강조 표시
+
 ## 소개
 
 이미지 조작에 대해 알아보고 Java를 사용하여 디지털 창작물을 향상시키려고 하시나요? 숙련된 개발자이든 이제 막 시작하는 개발자이든 PSD 파일로 작업하면 가능성의 세계가 열릴 수 있습니다. PSD 파일은 계층화된 이미지 편집을 위한 업계 표준이며, Java용 Aspose.PSD의 강력한 기능을 사용하면 Java 애플리케이션 내에서 이러한 파일을 쉽게 조작할 수 있습니다. 오늘은 PSD 파일에서 시트 색상을 강조하여 디자인을 가장 생동감 있게 돋보이게 하는 방법을 살펴보겠습니다.
@@ -142,3 +148,9 @@ Aspose.PSD for Java는 개발자가 PSD 파일을 프로그래밍 방식으로 �
 
 ### PSD 파일에서 여러 레이어를 한 번에 강조 표시할 수 있나요?
 예, PSD 파일의 레이어를 반복하면서 각 레이어에 원하는 시트 색상 강조 표시를 개별적으로 적용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

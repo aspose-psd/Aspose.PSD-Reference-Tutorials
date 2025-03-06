@@ -3,10 +3,16 @@ title: Határinformációs erőforrás támogatása az Aspose.PSD-ben .NET-hez
 linktitle: Támogató határinformációs forrás
 second_title: Aspose.PSD .NET API
 description: Fedezze fel az Aspose.PSD-t a .NET Border Information Resource szolgáltatásához a továbbfejlesztett képalkotás érdekében. Kövesse oktatóanyagunkat a zökkenőmentes integráció érdekében. Töltse le most!
-type: docs
 weight: 11
 url: /hu/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Határinformációs erőforrás támogatása az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 Üdvözöljük lépésenkénti útmutatónkban az Aspose.PSD for .NET Határinformációs erőforrás funkciójának használatáról. Ebben az oktatóanyagban végigvezetjük a Border Information Resources kezelésének folyamatán az Aspose.PSD, egy hatékony .NET képalkotó könyvtár használatával. Akár tapasztalt fejlesztő, akár csak most kezdő, ennek az oktatóanyagnak a célja, hogy világossá tegye a határinformációs erőforrások zökkenőmentes beépítését projektjeibe.
 ## Előfeltételek
@@ -89,3 +95,9 @@ Gratulálok! Sikeresen megtanulta a Border Information Resources használatát a
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek?
 
  V5: Igen, beszerezhet ideiglenes engedélyeket[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodaj warstwę wypełnienia kolorem do plików PSD przy użyciu języka J
 linktitle: Dodaj warstwę wypełnienia kolorem do plików PSD przy użyciu języka Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak łatwo dodać warstwę wypełnienia kolorem do plików PSD przy użyciu Java i Aspose.PSD. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby szybciej projektować.
-type: docs
 weight: 20
 url: /pl/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj warstwę wypełnienia kolorem do plików PSD przy użyciu języka Java
+
 ## Wstęp
 Czy zdarzyło Ci się kiedyś programowo manipulować plikami programu Photoshop, na przykład w celu dodania odrobiny koloru do projektu? Cóż, trafiłeś we właściwe miejsce. W tym artykule opisujemy, jak dodać warstwę wypełnienia kolorem do plików PSD (dokument programu Photoshop) przy użyciu języka Java i biblioteki Aspose.PSD. Pomyśl o plikach PSD jak o płótnie, na którym za pomocą zaledwie kilku linijek kodu możesz je pomalować na nowo.
 ## Warunki wstępne
@@ -87,3 +93,9 @@ Można pracować z plikami PSD i manipulować ich warstwami, efektami i innymi w
  Wsparcie możesz uzyskać poprzez[Forum wsparcia Aspose](https://forum.aspose.com/c/psd/34).
 ### Gdzie mogę kupić Aspose.PSD?  
  Licencję możesz kupić poprzez[Strona zakupu Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

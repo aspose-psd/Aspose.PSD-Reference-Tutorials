@@ -3,10 +3,16 @@ title: 用Java繪製圓弧
 linktitle: 用Java繪製圓弧
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 Java 中繪製弧線。帶有圖形應用程式程式碼範例的逐步教學。
-type: docs
 weight: 13
 url: /zh-hant/java/java-graphics-drawing/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用Java繪製圓弧
+
 ## 介紹
 在本教程中，我們將探索如何使用 Aspose.PSD for Java 函式庫繪製弧線。以程式方式繪製圓弧可用於各種應用程序，例如圖形使用者介面、圖表或自訂視覺化。 Aspose.PSD for Java 提供了強大的功能來操作和建立 PSD（Photoshop 文件）文件，包括繪製具有可自訂屬性的弧形等形狀的能力。
 ## 先決條件
@@ -74,3 +80,9 @@ image.save(outputPath, saveOptions);
 是的，Aspose.PSD 支援匯出為多種格式，包括 PNG、JPEG、TIFF 和 GIF 等。
 ### 在哪裡可以找到 Aspose.PSD 的其他支援和資源？
 參觀[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)取得社群支援、文件和更新。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

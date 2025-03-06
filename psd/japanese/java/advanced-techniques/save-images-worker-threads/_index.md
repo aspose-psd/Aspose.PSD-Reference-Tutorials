@@ -3,10 +3,16 @@ title: Aspose.PSD for Java でワーカー スレッドを使用して画像を�
 linktitle: ワーカースレッドを使用して画像を保存する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して、Java でのマルチスレッド画像処理を学習します。ワーカー スレッドを使用して画像を効率的に保存する方法を学びます。
-type: docs
 weight: 14
 url: /ja/java/advanced-techniques/save-images-worker-threads/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java でワーカー スレッドを使用して画像を保存する
+
 ## 導入
 
 Java で画像処理機能を強化する準備はできていますか? Aspose.PSD for Java をぜひご利用ください。このチュートリアルでは、ワーカー スレッドを使用して画像を保存するプロセスを説明し、最適なパフォーマンスと効率性を確保します。Aspose.PSD を使用したマルチスレッド画像処理の世界に飛び込んでみましょう。
@@ -119,3 +125,9 @@ A2: ドキュメントを参照してください[ここ](https://reference.aspo
 ### Q5: Aspose.PSD for Java はどこで購入できますか?
 
  A5: Aspose.PSD for Javaを購入するには、[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

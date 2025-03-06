@@ -1,12 +1,17 @@
 ---
 title: دروس وأمثلة شاملة لـ Aspose.PSD لـ Java
 linktitle: Aspose.PSD لبرامج جافا التعليمية
-type: docs
 weight: 10
 url: /ar/java/
 description: أطلق العنان لقوة Aspose.PSD لـ Java في معالجة الصور! أتقن استخدام المرشحات مثل Gaussian وWiener وMedian وMotion Wiener مع برامج تعليمية خطوة بخطوة.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس وأمثلة شاملة لـ Aspose.PSD لـ Java
+
 
 ## مقدمة
 
@@ -86,3 +91,9 @@ is_root: true
 قم بإدارة صور TIFF بكفاءة باستخدام Aspose.PSD لـ Java. تعلم كيفية ضغط وتكوين وتطبيق ضغط Adobe Deflate على ملفات TIFF من خلال برامجنا التعليمية خطوة بخطوة.
 ### [العمل مع ملفات PSD](./working-with-psd-files/)
 استكشف البرامج التعليمية الشاملة لـ Aspose.PSD for Java، بما في ذلك كيفية تصدير مجموعات طبقات PSD إلى الصور ومعالجة موارد Clbl وInfx وLspf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

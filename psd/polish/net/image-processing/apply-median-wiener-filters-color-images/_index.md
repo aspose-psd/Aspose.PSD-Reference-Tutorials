@@ -3,10 +3,16 @@ title: Stosowanie filtrów medianowych i wienerowskich w obrazach kolorowych za 
 linktitle: Stosowanie filtrów medianowych i wienerowskich w obrazach kolorowych za pomocą Aspose.PSD dla .NET
 second_title: Aspose.PSD API .NET
 description: Ulepszaj i usuwaj szumy kolorowych obrazów za pomocą Aspose.PSD dla .NET przy użyciu filtrów medianowych i wienerowskich. Przewodnik krok po kroku dotyczący płynnego przetwarzania obrazu.
-type: docs
 weight: 11
 url: /pl/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stosowanie filtrów medianowych i wienerowskich w obrazach kolorowych za pomocą Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym stosowania filtrów medianowych i wienerowskich w kolorowych obrazach przy użyciu Aspose.PSD dla .NET. Aspose.PSD to potężna biblioteka, która umożliwia programistom .NET bezproblemową pracę z plikami PSD. W tym samouczku omówimy proces stosowania filtrów medianowych i wienerowskich w celu uwydatniania i usuwania szumów kolorowych obrazów.
@@ -95,3 +101,9 @@ O2: Możesz zaimplementować bloki try-catch do obsługi wyjątków, które mog�
 ### P5: Jak uzyskać tymczasową licencję na Aspose.PSD?
 
  A5: Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

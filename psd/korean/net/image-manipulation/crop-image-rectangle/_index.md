@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 직사각형으로 이미지 자르기
 linktitle: 직사각형으로 이미지 자르기
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 .NET 이미지 조작 기술을 향상하세요. 정확성을 위해 직사각형을 사용하여 이미지 자르기를 단계별로 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 직사각형으로 이미지 자르기
+
 ## 소개
 
 .NET 프로그래밍 영역에서는 이미지를 조작하고 향상시키는 것이 일반적인 작업이며 .NET용 Aspose.PSD는 이 프로세스를 단순화하는 강력한 라이브러리입니다. 이 튜토리얼은 기본적이면서도 중요한 이미지 조작 기술, 즉 이미지를 직사각형으로 자르는 기술에 중점을 둡니다. 이 가이드를 마치면 .NET용 Aspose.PSD를 사용하여 이미지를 정밀하게 자르는 방법을 확실하게 이해하게 될 것입니다.
@@ -110,3 +116,9 @@ A3: .NET용 Aspose.PSD는 다양한 크기의 이미지를 처리하도록 설�
 ### Q5: 추가 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34)지역 사회와 연결하고 지원을 구합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

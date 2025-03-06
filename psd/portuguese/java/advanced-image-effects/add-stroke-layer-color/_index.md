@@ -3,10 +3,16 @@ title: Adicionar cor da camada de traço em Aspose.PSD para Java
 linktitle: Adicionar cor da camada de traço
 second_title: API Java Aspose.PSD
 description: Explore o poder do Aspose.PSD para Java com nosso guia passo a passo sobre como adicionar cores à camada de traço. Eleve seus designs gráficos sem esforço.
-type: docs
 weight: 14
 url: /pt/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar cor da camada de traço em Aspose.PSD para Java
+
 ## Introdução
 
 Desbloqueie o potencial do design gráfico do seu aplicativo Java com Aspose.PSD. Neste tutorial, mergulharemos no fascinante mundo da adição de cores à camada de traço usando Aspose.PSD para Java. Aprimore seus gráficos com traços que se destacam, criando designs visualmente atraentes sem esforço.
@@ -120,3 +126,9 @@ A2: Com certeza! Aspose.PSD acompanha as especificações mais recentes de forma
 ### Q5: Onde posso obter uma licença temporária para Aspose.PSD?
 
  A5: Obtenha um[licença temporária](https://purchase.aspose.com/temporary-license/) para Aspose.PSD avaliar suas capacidades em seus projetos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

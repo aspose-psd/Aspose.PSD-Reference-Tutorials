@@ -3,10 +3,16 @@ title: Tạo hình ảnh bằng Stream trong Aspose.PSD cho Java
 linktitle: Tạo hình ảnh bằng luồng
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách tạo hình ảnh bằng luồng trong Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước này để xử lý hình ảnh hiệu quả.
-type: docs
 weight: 14
 url: /vi/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình ảnh bằng Stream trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, Aspose.PSD nổi bật như một thư viện mạnh mẽ để xử lý hình ảnh. Một trong những tính năng mạnh mẽ của nó là khả năng tạo hình ảnh bằng luồng, mang lại sự linh hoạt và hiệu quả trong việc xử lý dữ liệu hình ảnh. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình tạo hình ảnh bằng cách sử dụng luồng trong Aspose.PSD cho Java, cung cấp trải nghiệm thực tế với hướng dẫn từng bước.
@@ -114,3 +120,9 @@ Câu trả lời 1: Có, Aspose.PSD được thiết kế để tích hợp li�
 ### Câu hỏi 5: Yêu cầu hệ thống đối với Aspose.PSD là gì?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/psd/java/) để biết các yêu cầu chi tiết của hệ thống.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

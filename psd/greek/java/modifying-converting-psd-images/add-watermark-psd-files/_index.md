@@ -3,10 +3,16 @@ title: Προσθήκη υδατογραφήματος σε αρχεία PSD μ�
 linktitle: Προσθήκη υδατογραφήματος σε αρχεία PSD με το Aspose.PSD για Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να προσθέτετε ένα υδατογράφημα στα αρχεία PSD σας χωρίς κόπο χρησιμοποιώντας το Aspose.PSD για Java. Προστατέψτε τις εικόνες σας με έναν απλό οδηγό βήμα προς βήμα.
-type: docs
 weight: 18
 url: /el/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη υδατογραφήματος σε αρχεία PSD με το Aspose.PSD για Java
+
 ## Εισαγωγή
 Τα υδατογραφήματα είναι ένας λεπτός αλλά αποτελεσματικός τρόπος για να προστατεύσετε τις εικόνες σας και να επικοινωνήσετε την ιδιοκτησία σας. Είτε είστε φωτογράφος που παρουσιάζει το χαρτοφυλάκιό σας είτε σχεδιαστής που παρουσιάζει την πιο πρόσφατη δουλειά σας, η προσθήκη ενός υδατογραφήματος μπορεί να είναι ζωτικής σημασίας για τη διατήρηση της ταυτότητας της επωνυμίας σας. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στο πώς να προσθέτετε εύκολα υδατογραφήματα στα αρχεία PSD σας χρησιμοποιώντας το Aspose.PSD για Java. Λοιπόν, πιείτε ένα φλιτζάνι καφέ, νιώστε άνετα και ας ξεκινήσουμε!
 ## Προαπαιτούμενα
@@ -90,3 +96,9 @@ psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
  Ναι, μπορείτε να αποθηκεύσετε σε διάφορες μορφές όπως JPEG ή BMP. Απλώς αντικαταστήστε`PngOptions()` με τις επιθυμητές επιλογές.
 ### Πού μπορώ να βρω περισσότερη βοήθεια;
  Για λεπτομερείς απορίες, μπορείτε να επισκεφτείτε το[Aspose φόρουμ](https://forum.aspose.com/c/psd/34) ή ελέγξτε τους[απόδειξη με έγγραφα](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

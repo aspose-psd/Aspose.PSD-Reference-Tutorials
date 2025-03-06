@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 中的 Stream 创建图像
 linktitle: 使用 Stream 创建图像
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 中的流创建图像。按照我们的分步指南进行高效的图像处理。
-type: docs
 weight: 12
 url: /zh/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 中的 Stream 创建图像
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.PSD 是一款功能强大的图像处理工具。一个特别有用的功能是能够使用流创建图像，从而提供处理图像数据的灵活性和效率。本分步指南将引导您完成整个过程，分解每个元素以确保无缝体验。在深入研究之前，让我们先介绍一下先决条件。
@@ -111,3 +117,9 @@ A2：尺寸是可自定义的；相应地调整 Image.Create 方法中的参数�
 ### Q5：有临时执照吗？
 
  A5：是的，您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java kullanarak TIFF Dosyalarına Deflate Sıkıştırmasını Uygulayın
 linktitle: Java kullanarak TIFF Dosyalarına Deflate Sıkıştırmasını Uygulayın
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak TIFF dosyalarına deflate sıkıştırmasını nasıl uygulayacağınızı öğrenin. Kaliteyi kaybetmeden dosya boyutunu verimli bir şekilde azaltmak için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/tiff-image-compression-configuration/apply-deflate-compression-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak TIFF Dosyalarına Deflate Sıkıştırmasını Uygulayın
+
 ## giriiş
 
 Hiç büyük görüntü dosyalarıyla çalıştınız mı ve kaliteden ödün vermeden boyutlarını nasıl küçülteceğinizi merak ettiniz mi? TIFF dosyalarıyla uğraşıyorsanız şanslısınız! Bu makalede, görüntü sıkıştırma dünyasına dalacağız ve özellikle Aspose.PSD for Java kullanarak TIFF dosyalarına deflate sıkıştırmanın nasıl uygulanacağına odaklanacağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz süreç boyunca size adım adım yol gösterecek ve görüntü dosyalarınızı kolaylıkla yönetebilmenizi sağlayacaktır. Öyleyse başlayalım!
@@ -92,3 +98,9 @@ Sıkıştırma miktarı görüntünün karmaşıklığına bağlıdır. Genel ol
 
 ### Aspose.PSD for Java'yı kullanmak için herhangi bir özel araca ihtiyacım var mı?
 Yalnızca bir Java geliştirme ortamına ve yukarıda verilen bağlantılardan indirebileceğiniz Aspose.PSD for Java kütüphanesine ihtiyacınız vardır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

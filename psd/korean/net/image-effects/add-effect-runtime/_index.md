@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 런타임에 효과 추가
 linktitle: 런타임에 효과 추가
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 동적 이미지 향상을 살펴보세요. 런타임에 효과를 쉽게 추가하세요.
-type: docs
 weight: 10
 url: /ko/net/image-effects/add-effect-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 런타임에 효과 추가
+
 ## 소개
 
 이미지의 시각적 매력을 향상시키는 것은 그래픽 디자인 및 이미지 처리 응용 프로그램의 일반적인 요구 사항입니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 런타임에 효과를 추가하는 방법을 살펴보겠습니다. Aspose.PSD는 개발자가 Adobe Photoshop 파일을 원활하게 사용할 수 있게 해주는 강력한 API입니다. 
@@ -96,3 +102,9 @@ A3: Aspose.PSD는 광범위한 효과를 제공하지만 지원되는 효과에 
 ### Q5: 추가 지원 및 커뮤니티 토론은 어디에서 찾을 수 있습니까?
 
  A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

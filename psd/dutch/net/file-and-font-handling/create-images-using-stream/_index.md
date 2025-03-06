@@ -3,10 +3,16 @@ title: Afbeeldingen maken met Stream in Aspose.PSD voor .NET
 linktitle: Afbeeldingen maken met behulp van Stream
 second_title: Aspose.PSD .NET-API
 description: Leer hoe u afbeeldingen kunt maken met behulp van streams in Aspose.PSD voor .NET. Volg onze stapsgewijze handleiding voor efficiënte beeldmanipulatie.
-type: docs
 weight: 12
 url: /nl/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen maken met Stream in Aspose.PSD voor .NET
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.PSD zich als een krachtig hulpmiddel voor beeldmanipulatie. Een bijzonder nuttige functie is de mogelijkheid om afbeeldingen te maken met behulp van streams, wat flexibiliteit en efficiëntie biedt bij het verwerken van afbeeldingsgegevens. Deze stapsgewijze handleiding leidt u door het proces, waarbij elk element wordt opgesplitst om een naadloze ervaring te garanderen. Voordat we erin duiken, laten we eerst de vereisten bespreken.
@@ -111,3 +117,9 @@ A2: De afmetingen zijn aanpasbaar; pas de parameters in de Image.Create-methode 
 ### Vraag 5: Zijn er tijdelijke licenties beschikbaar?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

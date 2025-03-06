@@ -3,10 +3,16 @@ title: Speciális képmanipuláció
 linktitle: Speciális képmanipuláció
 second_title: Aspose.PSD Java API
 description: Fedezze fel a fejlett képkezelési oktatóanyagokat az Aspose.PSD for Java segítségével. Tanuljon meg hatékony betűkészlet-cserét, kényszerítse a betűtípus gyorsítótárazását, hajtsa végre a bicubic resampler-t stb.
-type: docs
 weight: 24
 url: /hu/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speciális képmanipuláció
+
 
 ## Bevezetés
 
@@ -80,3 +86,9 @@ Mester képméretezés Java nyelven az Aspose.PSD segítségével. Lépésről l
 Fedezze fel a Java képforgatását könnyedén az Aspose.PSD segítségével. Forgassa el, fordítsa meg és mentse el a PSD-fájlokat egyszerűen.
 ### [Forgassa el a képet meghatározott szögben az Aspose.PSD for Java segítségével](./rotate-image-specific-angle/)
 Fedezze fel a képforgatást Java nyelven az Aspose.PSD for Java segítségével. Könnyedén elforgathatja a képeket meghatározott szögekből.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

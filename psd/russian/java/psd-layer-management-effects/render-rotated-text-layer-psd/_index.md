@@ -3,10 +3,16 @@ title: Рендеринг слоя повернутого текста в фай
 linktitle: Рендеринг слоя повернутого текста в файлах PSD с использованием Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как извлекать и отображать повернутые текстовые слои из файлов PSD с помощью Aspose.PSD для Java. Это пошаговое руководство охватывает все от настройки до экспорта.
-type: docs
 weight: 18
 url: /ru/java/psd-layer-management-effects/render-rotated-text-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг слоя повернутого текста в файлах PSD с использованием Java
+
 ## Введение
 
 Вы когда-нибудь получали PSD-файл с текстовыми слоями, таинственным образом наклоненными под углом? Возможно, вы сами создали его и хотите экспортировать, сохранив при этом художественную ротацию. На помощь приходит Aspose.PSD для Java! Эта мощная библиотека позволяет вам манипулировать и визуализировать PSD-файлы, включая обработку надоедливых слоев повернутого текста. 
@@ -135,3 +141,9 @@ try {
 ### Как я могу получить поддержку Aspose.PSD для Java?
 
 Aspose предлагает различные каналы поддержки, включая документацию ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)), интернет-форумы ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)), а также специальные варианты поддержки для лицензированных пользователей.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

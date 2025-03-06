@@ -3,10 +3,16 @@ title: Blurring an Image in Aspose.PSD for .NET
 linktitle: Blurring an Image
 second_title: Aspose.PSD .NET API
 description: Learn how to blur images effortlessly with Aspose.PSD for .NET. A step-by-step guide for seamless image manipulation in your C# projects.
-type: docs
 weight: 13
 url: /net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Blurring an Image in Aspose.PSD for .NET
+
 ## Introduction
 
 In the realm of .NET development, Aspose.PSD proves to be a powerful ally for image manipulation. This tutorial focuses on a specific task: blurring an image using Aspose.PSD for .NET. If you're eager to enhance your image processing skills or simply looking for an efficient way to blur images programmatically, you're in the right place.
@@ -97,3 +103,10 @@ A4: Absolutely! Aspose.PSD offers a comprehensive set of features, including res
 ### Q5: Where can I seek help or connect with the Aspose.PSD community?
 
 A5: For any queries or discussions, head over to the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

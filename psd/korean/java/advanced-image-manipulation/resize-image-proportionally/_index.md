@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 이미지 크기를 비례적으로 �
 linktitle: 이미지 크기를 비례적으로 조정
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD로 Java 애플리케이션을 강화하세요. 저희 가이드를 따라 이미지 크기를 비례적으로 쉽게 조정하세요. 지금 이미지 처리 능력을 향상시키십시오.
-type: docs
 weight: 17
 url: /ko/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 이미지 크기를 비례적으로 조정
+
 ## 소개
 
 Java용 Aspose.PSD를 사용하여 이미지 크기를 비례적으로 조정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 효율적인 이미지 크기 조정 기능으로 Java 애플리케이션을 향상시키려는 경우 제대로 찾아오셨습니다. 이 튜토리얼에서는 명확하고 간결한 단계를 사용하여 프로세스를 안내합니다.
@@ -92,3 +98,9 @@ image.save(destName, new PngOptions());
 
  A5: 자세한 문서를 참조하세요.[여기](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

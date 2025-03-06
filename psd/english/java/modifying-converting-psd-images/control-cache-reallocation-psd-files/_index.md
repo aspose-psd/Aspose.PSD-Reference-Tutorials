@@ -3,10 +3,16 @@ title: Control Cache Reallocation in PSD Files
 linktitle: Control Cache Reallocation in PSD Files
 second_title: Aspose.PSD Java API
 description: Manage cache reallocation in PSD files using Aspose.PSD for Java. Learn how to optimize memory and file handling efficiently—ideal for developers.
-type: docs
 weight: 22
 url: /java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Control Cache Reallocation in PSD Files
+
 ## Introduction
 When working with images and Photoshop files programmatically, efficiency is a key factor. Aspose.PSD for Java offers robust features to manage and manipulate PSD files seamlessly. One of the fundamental aspects of optimizing performance is controlling cache reallocation. Cache management helps in maintaining the balance between memory and disk usage, ensuring your application runs smoothly, without unexpected crashes or slowdowns. 
 ## Prerequisites
@@ -127,3 +133,10 @@ Yes, you can specify a different directory by using `Cache.setCacheFolder("Your 
 Aspose.PSD is a paid library, but you can start with a free trial available on their [website](https://releases.aspose.com/).
 ### What happens if I don’t dispose of objects?
 Not disposing of objects can lead to memory leaks, causing your application to use more resources than necessary.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

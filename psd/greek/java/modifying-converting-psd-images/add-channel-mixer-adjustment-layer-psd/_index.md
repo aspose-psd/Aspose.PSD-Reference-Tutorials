@@ -3,10 +3,16 @@ title: Προσθήκη επιπέδου προσαρμογής μείκτη κ�
 linktitle: Προσθήκη επιπέδου προσαρμογής μείκτη καναλιών σε PSD
 second_title: Aspose.PSD Java API
 description: Βελτιώστε τα αρχεία PSD με τα επίπεδα προσαρμογής μείκτη καναλιού χρησιμοποιώντας το Aspose.PSD για Java. Μάθετε τεχνικές χειρισμού χρωμάτων βήμα προς βήμα για ζωντανές εικόνες.
-type: docs
 weight: 10
 url: /el/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη επιπέδου προσαρμογής μείκτη καναλιών σε PSD
+
 ## Εισαγωγή
 Ο κόσμος της γραφιστικής είναι γεμάτος δυνατότητες, αλλά μερικές φορές, η τέλεια εμφάνιση μπορεί να μοιάζει σαν να περιπλανιέσαι μέσα σε ένα πυκνό δάσος χωρίς χάρτη. Έχετε νιώσει ποτέ ότι οι εικόνες σας στερούνται αυτόν τον παράγοντα "wow"; Λοιπόν, εκεί μπαίνουν στο παιχνίδι τα επίπεδα προσαρμογής! Σήμερα, εξετάζουμε τον τρόπο προσθήκης επιπέδων προσαρμογής μείκτη καναλιού χρησιμοποιώντας το Aspose.PSD για Java. Αυτό είναι ένα εξαιρετικό εργαλείο που σας επιτρέπει να κάνετε ακριβείς προσαρμογές χρωμάτων στα αρχεία PSD σας, διασφαλίζοντας ότι οι εικόνες σας εμφανίζονται και εντυπωσιάζουν.
 
@@ -167,3 +173,9 @@ img1.save(psdPathAfterChangeCmyk);
 
 ### Υπάρχει τρόπος να αποκτήσετε μια προσωρινή άδεια για το Aspose.PSD;
  Ναί! Μπορείτε να κάνετε αίτηση για προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

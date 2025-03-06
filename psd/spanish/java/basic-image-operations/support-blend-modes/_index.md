@@ -3,10 +3,16 @@ title: Admite modos de fusión en Aspose.PSD para Java
 linktitle: Modos de fusión compatibles
 second_title: API de Java Aspose.PSD
 description: Mejore el procesamiento de imágenes en Java con Aspose.PSD. Aprenda a aprovechar los modos de fusión para obtener efectos sorprendentes.
-type: docs
 weight: 12
 url: /es/java/basic-image-operations/support-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite modos de fusión en Aspose.PSD para Java
+
 ## Introducción
 
 Aspose.PSD para Java es una potente biblioteca que proporciona un amplio soporte para modos de fusión, lo que permite a los desarrolladores mejorar sus capacidades de procesamiento de imágenes. En este tutorial, profundizaremos en el mundo de los modos de combinación y exploraremos cómo aprovecharlos de manera efectiva usando Aspose.PSD para Java. Ya sea que sea un desarrollador experimentado o un novato en la manipulación de imágenes, esta guía le brindará los conocimientos necesarios para aprovechar todo el potencial de los modos de combinación en sus aplicaciones Java.
@@ -107,3 +113,9 @@ R2: Aspose.PSD para Java está diseñado para manejar archivos PSD grandes de ma
 ### P5: ¿Puedo personalizar aún más los modos de fusión según los requisitos de mi aplicación?
 
 R5: ¡Absolutamente! Aspose.PSD para Java proporciona flexibilidad, permitiéndole personalizar los modos de combinación según sus necesidades específicas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

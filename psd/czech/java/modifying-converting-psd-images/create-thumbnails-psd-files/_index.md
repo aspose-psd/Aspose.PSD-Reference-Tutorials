@@ -3,10 +3,16 @@ title: Vytvářejte miniatury ze souborů PSD pomocí Java
 linktitle: Vytvářejte miniatury ze souborů PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak snadno vytvářet miniatury ze souborů PSD pomocí Java a Aspose.PSD. Postupujte podle našeho podrobného průvodce pro bezproblémové zpracování obrazu.
-type: docs
 weight: 24
 url: /cs/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvářejte miniatury ze souborů PSD pomocí Java
+
 ## Zavedení
 Ve světě grafického designu je práce se soubory PSD (Photoshop Document) samozřejmostí. Ať už jste zkušený vývojář, grafik nebo jen někdo, kdo se chce ponořit do zpracování obrázků, vytváření miniatur ze souborů PSD vám může ušetřit čas a zefektivnit váš pracovní postup. Tento tutoriál vás provede celým procesem pomocí Aspose.PSD pro Javu. Aspose.PSD je nejen robustní knihovna pro správu souborů Photoshopu, ale také umožňuje intuitivní a zvládnutelný úkol. Jste připraveni naučit se efektivně vytvářet miniatury ze souborů PSD?
 ## Předpoklady
@@ -112,3 +118,9 @@ V tomto příkladu jsme uložili náhledy ve formátu BMP, ale Aspose.PSD podpor
 Ne, Aspose.PSD funguje nezávisle na Photoshopu.
 ### Kde najdu více informací o Aspose.PSD?
  Můžete se podívat na[Dokumentace Aspose.PSD](https://reference.aspose.com/psd/java/) pro více podrobností, výukových programů a zdrojů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

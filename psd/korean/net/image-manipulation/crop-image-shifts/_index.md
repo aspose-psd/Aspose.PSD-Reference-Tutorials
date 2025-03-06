@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 교대로 이미지 자르기
 linktitle: 교대로 이미지 자르기
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 손쉽게 이미지를 자르는 방법을 알아보세요. 정확한 이미지 조정을 위해서는 단계별 가이드를 따르십시오.
-type: docs
 weight: 12
 url: /ko/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 교대로 이미지 자르기
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.PSD는 이미지 처리 작업을 위한 강력한 툴킷으로 돋보입니다. 주목할만한 기능 중 하나는 '교대로 자르기' 기능 덕분에 이미지를 정밀하게 자르는 기능입니다. 이 단계별 가이드에서는 .NET용 Aspose.PSD를 사용하여 이미지를 원활하게 자르는 과정을 안내합니다.
@@ -105,3 +111,10 @@ A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하므로 JPEG, PNG �
 ### Q5: 웹사이트에서 직접 .NET용 Aspose.PSD를 구입할 수 있나요?
 
  A5: 예, 다음 사이트에서 안전하게 라이브러리를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

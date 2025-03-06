@@ -3,10 +3,16 @@ title: Agregue soporte para capas vinculadas en archivos PSD usando Java
 linktitle: Agregue soporte para capas vinculadas en archivos PSD usando Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo agregar compatibilidad con capas vinculadas en archivos PSD usando Aspose.PSD para Java con este tutorial detallado paso a paso. Perfecto para diseñadores y desarrolladores.
-type: docs
 weight: 19
 url: /es/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue soporte para capas vinculadas en archivos PSD usando Java
+
 ## Introducción
 Los archivos .PSD de Adobe Photoshop son los favoritos entre los diseñadores gráficos y artistas digitales debido a sus versátiles capacidades de administración de capas. A medida que se sumerge en el mundo de la manipulación de archivos PSD mediante programación, es posible que desee explorar cómo las capas vinculadas pueden mejorar su flujo de trabajo. Las capas vinculadas permiten a los usuarios mantener funcionalidades de capas independientes mientras las mantienen administradas como una unidad cohesiva. Ingrese a Aspose.PSD para Java, una poderosa biblioteca que facilita el trabajo con archivos de Photoshop. 
 En este artículo, analizaremos detalladamente cómo agregar compatibilidad con capas vinculadas en archivos PSD utilizando la biblioteca Aspose.PSD en Java. Ya sea que sea un desarrollador experimentado o un novato, esta guía paso a paso lo ayudará a realizar la tarea sin problemas.
@@ -99,3 +105,9 @@ Sí, como biblioteca basada en Java, se ejecuta en cualquier plataforma que admi
  Puedes explorar la extensa documentación.[aquí](https://reference.aspose.com/psd/java/).
 ### ¿Cómo puedo obtener soporte si tengo problemas?
  Si tiene algún problema, puede encontrar ayuda en el[foro de soporte](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

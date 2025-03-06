@@ -3,10 +3,16 @@ title: So fügen Sie in Java ein Strichebenenmuster hinzu
 linktitle: So fügen Sie in Java ein Strichebenenmuster hinzu
 second_title: Aspose.PSD Java API
 description: Erfahren Sie, wie Sie mit Aspose.PSD für Java ein Strichebenenmuster zu PSD-Dateien hinzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Bilder ganz einfach zu verbessern.
-type: docs
 weight: 11
 url: /de/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# So fügen Sie in Java ein Strichebenenmuster hinzu
+
 ## Einführung
 Das Hinzufügen eines Strichebenenmusters zu einem Bild in Java mag wie eine gewaltige Aufgabe klingen, aber mit Aspose.PSD für Java ist es einfacher als Sie denken. Egal, ob Sie Grafiken entwerfen oder an Fotobearbeitungsanwendungen arbeiten, diese Anleitung führt Sie Schritt für Schritt durch den Prozess. Bereit, loszulegen? Tauchen wir ein!
 ## Voraussetzungen
@@ -138,3 +144,9 @@ Aspose.PSD für Java ist eine Bibliothek, mit der Entwickler PSD-Dateien (Photos
  Sie können Unterstützung in den Aspose-Community-Foren erhalten[Hier](https://forum.aspose.com/c/psd/34).
 ### Was sind die Systemanforderungen für Aspose.PSD für Java?
 Sie benötigen JDK und eine IDE für die Entwicklung. Die Bibliothek unterstützt mehrere Betriebssysteme, darunter Windows, Linux und macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

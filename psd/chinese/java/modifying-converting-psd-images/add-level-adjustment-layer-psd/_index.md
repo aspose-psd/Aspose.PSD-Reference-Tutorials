@@ -3,10 +3,16 @@ title: 在 PSD 中添加色阶调整层
 linktitle: 在 PSD 中添加色阶调整层
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 文件中有效添加色阶调整层。提升您的图像编辑技能。
-type: docs
 weight: 16
 url: /zh/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 中添加色阶调整层
+
 ## 介绍
 在图像编辑方面，管理色阶可以对照片的活力和清晰度产生巨大影响。Photoshop 工具库中的一个方便的工具是“色阶调整层”，它允许您调整图像的色调范围和色彩平衡。在本指南中，我们将引导您了解如何使用 Aspose.PSD for Java 在 PSD 文件中实现色阶调整层。所以，请准备好您的 Java IDE。
 ## 先决条件
@@ -88,3 +94,9 @@ im.save(psdPathAfterChange);
 当然！您可以在[Aspose 论坛](https://forum.aspose.com/c/psd/34).
 ### 如何获得 Aspose.PSD 的临时许可证？
 您可以申请临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

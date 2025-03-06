@@ -3,10 +3,16 @@ title: Saving Images to Stream with Aspose.PSD for .NET
 linktitle: Saving Images to Stream with Aspose.PSD for .NET
 second_title: Aspose.PSD .NET API
 description: Explore the power of Aspose.PSD for .NET and learn how to save images to a stream effortlessly. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 11
 url: /net/file-saving-and-exporting/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Saving Images to Stream with Aspose.PSD for .NET
+
 ## Introduction
 
 In the ever-evolving world of .NET development, Aspose.PSD stands out as a powerful tool for handling images with precision and efficiency. If you're looking to save images to a stream using Aspose.PSD for .NET, you're in the right place. This tutorial will guide you through the process, breaking it down into easy-to-follow steps.
@@ -91,3 +97,10 @@ A4: You can obtain a temporary license [here](https://purchase.aspose.com/tempor
 ### Q5: Where can I buy Aspose.PSD?
 
 A5: You can purchase Aspose.PSD [here](https://purchase.aspose.com/buy) to unlock its full potential for your development needs.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

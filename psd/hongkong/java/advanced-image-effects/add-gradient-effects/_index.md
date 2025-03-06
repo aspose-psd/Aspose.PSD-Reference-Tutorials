@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中加入漸變效果
 linktitle: 增加漸變效果
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 以令人驚嘆的漸變效果增強您的 Java 影像。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 10
 url: /zh-hant/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中加入漸變效果
+
 ## 介紹
 
 歡迎來到 Aspose.PSD for Java 中新增漸層效果的教學！如果您希望透過令人驚嘆的漸層疊加來增強影像，那麼您來對地方了。在本指南中，我們將引導您使用 Aspose.PSD（一個強大的圖像處理 Java 程式庫）完成整個過程。
@@ -130,3 +136,9 @@ A2：Aspose.PSD提供了多種效果，包括陰影、發光等。瀏覽文件�
 ### Q5：在哪裡可以購買 Aspose.PSD for Java 的授權？
 
  A5：訪問[購買頁面](https://purchase.aspose.com/buy)取得許可資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

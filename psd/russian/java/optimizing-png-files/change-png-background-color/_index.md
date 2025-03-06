@@ -3,10 +3,16 @@ title: Изменить цвет фона PNG в Aspose.PSD для Java
 linktitle: Изменить цвет фона PNG в Aspose.PSD для Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как изменить цвет фона PNG в Aspose.PSD для Java, с помощью этого пошагового руководства. Включены простые инструкции и практические примеры.
-type: docs
 weight: 11
 url: /ru/java/optimizing-png-files/change-png-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменить цвет фона PNG в Aspose.PSD для Java
+
 ## Введение
 Поскольку веб-разработка продолжает развиваться, потребность в гибком редактировании изображений становится все более явной. При обработке изображений изменение цвета фона может изменить общий вид и целостность дизайна. Откройте для себя Aspose.PSD для Java — мощную библиотеку, которая удовлетворит все ваши потребности в манипуляциях с PSD-файлами. В этом уроке мы подробно рассмотрим, как изменить цвет фона PNG с помощью Aspose.PSD. К концу вы не только освоите базовые манипуляции с изображениями, но и будете готовы решать более сложные задачи. Давайте начнем!
 ## Предварительные условия
@@ -94,3 +100,9 @@ pngImage.save(dataDir + "ChangeBackground_out.png");
 Aspose.PSD поддерживает множество форматов, включая PNG, JPEG, BMP, TIFF и другие.
 ### Как я могу получить поддержку, если у меня возникнут проблемы?  
  Вы можете обратиться к[Форум поддержки Aspose](https://forum.aspose.com/c/psd/34) за помощь.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

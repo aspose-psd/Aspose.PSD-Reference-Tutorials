@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 壓縮 PNG 文件
 linktitle: 使用 Aspose.PSD for Java 壓縮 PNG 文件
 second_title: Aspose.PSD Java API
 description: 學習使用 Aspose.PSD for Java 高效壓縮 PNG 檔案。本教學將引導您完成程式碼實現，確保最佳的文件處理。
-type: docs
 weight: 12
 url: /zh-hant/java/optimizing-png-files/compress-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 壓縮 PNG 文件
+
 ## 介紹
 
 當談到在軟體開發中處理影像時，一款脫穎而出的工具是 Aspose.PSD for Java。這個強大的程式庫允許開發人員無縫地操作 Photoshop 檔案 (PSD)。無論您是優化網站圖像、縮短載入時間，還是只是獲得圖形的最佳質量，了解如何有效使用此程式庫都可以改變遊戲規則。在本教程中，我們將深入研究一個實際範例 - 使用 Aspose.PSD for Java 壓縮 PNG 檔案。讓我們開始吧！
@@ -111,3 +117,9 @@ Aspose.PSD for Java 是一個允許開發人員以程式設計方式操作 Photo
 
 ### 在哪裡可以找到有關 Aspose.PSD for Java 的更多文件？  
 您可以在以下位置找到詳細的文件和範例[Aspose.PSD 參考](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

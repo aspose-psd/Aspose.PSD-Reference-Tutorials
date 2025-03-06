@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에 그라데이션 효과 추가
 linktitle: 그라데이션 효과 추가
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 놀라운 그라데이션 효과로 Java 이미지를 향상하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에 그라데이션 효과 추가
+
 ## 소개
 
 Java용 Aspose.PSD에 그라데이션 효과를 추가하는 방법에 대한 튜토리얼에 오신 것을 환영합니다! 멋진 그라데이션 오버레이로 이미지를 향상시키고 싶다면 잘 찾아오셨습니다. 이 가이드에서는 이미지 처리를 위한 강력한 Java 라이브러리인 Aspose.PSD를 사용하는 프로세스를 안내합니다.
@@ -130,3 +136,9 @@ A2: Aspose.PSD는 그림자, 광선 등을 포함한 다양한 효과를 제공�
 ### Q5: Java용 Aspose.PSD 라이선스는 어디서 구입할 수 있나요?
 
  A5: 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) 라이센스 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

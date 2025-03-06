@@ -3,10 +3,16 @@ title: Lagereffekter
 linktitle: Lagereffekter
 second_title: Aspose.PSD .NET API
 description: Upptäck magin med lagereffekter med Aspose.PSD för .NET! Öka dina färdigheter i bildmanipulering genom att lära dig lägga till linje-, skugg- och blandningslägen.
-type: docs
 weight: 29
 url: /sv/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lagereffekter
+
 ## Introduktion
 
 Släpp loss den fulla potentialen av dina bildmanipuleringssträvanden med Aspose.PSD för .NET. Den här omfattande guiden introducerar dig till en myriad av lagereffekter som kommer att förvandla din kreativa process. Från drag och skuggor till blandningslägen, lyft dina mönster utan ansträngning.
@@ -54,3 +60,9 @@ Förbättra dina bilder med Aspose.PSD för .NET! Lär dig att stödja skuggeffe
 Lär dig hur du justerar opaciteten för skuggeffekter i Aspose.PSD för .NET med denna omfattande handledning.
 ### [Arbeta med blandningslägen i Aspose.PSD för .NET](./working-with-blend-modes/)
 Utforska kraften i blandningslägen i Aspose.PSD för .NET. Denna handledning guidar dig genom att tillämpa olika blandningslägen med steg-för-steg-exempel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

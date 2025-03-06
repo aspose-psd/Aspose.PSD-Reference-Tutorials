@@ -3,10 +3,16 @@ title: Convert AI to GIF in Java
 linktitle: Convert AI to GIF in Java
 second_title: Aspose.PSD Java API
 description: Convert AI to GIF in Java with Aspose.PSD a simple, efficient guide for developers. Learn prerequisites, steps, and FAQs for seamless conversion.
-type: docs
 weight: 10
 url: /java/java-ai-to-image-format-conversion/convert-ai-to-gif/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert AI to GIF in Java
+
 ## Introduction
 Converting AI (Adobe Illustrator) files to GIFs in Java might seem like a daunting task, but with Aspose.PSD for Java, it's a breeze. This powerful library provides a seamless way to manipulate and convert image files in various formats, making your development process smooth and efficient. Whether you're a seasoned developer or just starting out, this guide will walk you through the steps to convert AI files to GIFs using Aspose.PSD for Java. Let's dive in!
 ## Prerequisites
@@ -88,3 +94,10 @@ You need to have JDK installed on your system. The library itself is platform-in
 Yes, you can find the documentation [here](https://reference.aspose.com/psd/java/).
 ### How do I get support for Aspose.PSD for Java?
 You can get support from the Aspose community and support team on their [forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

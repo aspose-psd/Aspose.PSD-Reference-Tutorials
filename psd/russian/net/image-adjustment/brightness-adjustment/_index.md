@@ -3,10 +3,16 @@ title: Реализация регулировки яркости в Aspose.PSD 
 linktitle: Реализация регулировки яркости
 second_title: Aspose.PSD .NET API
 description: Исследуйте возможности Aspose.PSD для .NET при настройке яркости изображения. Следуйте нашему пошаговому руководству для беспрепятственного внедрения.
-type: docs
 weight: 10
 url: /ru/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Реализация регулировки яркости в Aspose.PSD для .NET
+
 ## Введение
 
 Улучшение и настройка атрибутов изображения является общим требованием в различных приложениях, и Aspose.PSD для .NET предоставляет мощное решение для беспрепятственного управления PSD-файлами. Одной из таких манипуляций является регулировка яркости, позволяющая легко изменять яркость изображения.
@@ -97,3 +103,9 @@ Aspose.PSD для .NET упрощает процесс настройки ярк
 ### Вопрос 5: Как получить временную лицензию на Aspose.PSD для .NET?
 
  О5: Вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

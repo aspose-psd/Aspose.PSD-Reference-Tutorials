@@ -3,10 +3,16 @@ title: Utwórz obraz, ustawiając ścieżkę w Aspose.PSD dla Java
 linktitle: Utwórz obraz, ustawiając ścieżkę
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak tworzyć obrazy PSD przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo generować obrazy.
-type: docs
 weight: 13
 url: /pl/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz obraz, ustawiając ścieżkę w Aspose.PSD dla Java
+
 ## Wstęp
 
 Witamy w tym samouczku krok po kroku dotyczącym tworzenia obrazów przy użyciu Aspose.PSD dla Java. W tym przewodniku omówimy, jak ustawić ścieżkę i skonfigurować opcje generowania obrazu PSD. Aspose.PSD to potężna biblioteka Java do pracy z plikami Photoshopa, zapewniająca płynny sposób programowego manipulowania i tworzenia obrazów.
@@ -107,3 +113,9 @@ O1: Tak, Aspose.PSD bezproblemowo współpracuje z różnymi zintegrowanymi śro
 ### P5: Czy potrzebuję tymczasowej licencji do testowania?
 
  Odpowiedź 5: Możesz uzyskać tymczasową licencję do celów testowych[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

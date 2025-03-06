@@ -3,10 +3,16 @@ title: Aspose.PSD for Java を使用して特定の角度で画像を回転す�
 linktitle: 特定の角度で画像を回転する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して、Java で画像の回転を体験してください。特定の角度で画像を簡単に回転できます。
-type: docs
 weight: 20
 url: /ja/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java を使用して特定の角度で画像を回転する
+
 ## 導入
 
 Java 開発のダイナミックな世界では、画像の操作はさまざまなアプリケーションで共通の要件です。Aspose.PSD for Java は、画像の回転を簡単に処理できる強力な機能を備えた堅牢なソリューションとして登場しました。このチュートリアルでは、Aspose.PSD for Java を使用して特定の角度で画像を回転するプロセスについて説明します。詳細に入る前に、いくつかの前提条件を設定しましょう。
@@ -117,3 +123,9 @@ Aspose.PSD for Java は、主にバックエンドの画像処理に重点を置
 ### Q5: Aspose.PSD に関してサポートを求めることができるコミュニティ フォーラムはありますか?
 
 はい、訪問することができます[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティに参加し、質問し、支援を求めることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

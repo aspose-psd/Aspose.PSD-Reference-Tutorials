@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 將新的常規圖層新增至 PSD
 linktitle: 為 PSD 新增的常規圖層
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 為 PSD 檔案新增新的常規圖層。請按照我們的逐步指南進行無縫 PSD 操作。
-type: docs
 weight: 11
 url: /zh-hant/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 將新的常規圖層新增至 PSD
+
 ## 介紹
 
 歡迎來到這個關於使用 Aspose.PSD for Java 為 PSD 檔案新增新的常規圖層的綜合教學。 Aspose.PSD 是一個功能強大的 Java 程式庫，可讓開發人員有效地操作和使用 PSD 檔案。在本教程中，我們將指導您完成向 PSD 檔案添加新的常規圖層的過程，並提供詳細的步驟和程式碼範例。
@@ -120,3 +126,9 @@ A2：當然！ Aspose.PSD 提供了一系列圖層轉換選項。
 ### Q5：是否有支援 Aspose.PSD 的社群論壇？
 
  A5：是的，您可以找到支持和討論[這裡](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

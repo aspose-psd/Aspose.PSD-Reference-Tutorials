@@ -3,10 +3,16 @@ title: Hiệu ứng hình ảnh nâng cao
 linktitle: Hiệu ứng hình ảnh nâng cao
 second_title: API Java Aspose.PSD
 description: Nâng cao thiết kế đồ họa Java của bạn với Aspose.PSD! Làm chủ các hiệu ứng hình ảnh nâng cao một cách liền mạch – từ độ dốc và mẫu cho đến chữ ký và nét vẽ.
-type: docs
 weight: 26
 url: /vi/java/advanced-image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiệu ứng hình ảnh nâng cao
+
 ## Giới thiệu
 Bạn đã sẵn sàng đưa các thiết kế đồ họa Java của mình lên một tầm cao mới chưa? Aspose.PSD cho Java mở ra một thế giới khả năng nâng cao hình ảnh của bạn bằng các hiệu ứng nâng cao. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn một loạt hướng dẫn, mỗi hướng dẫn tập trung vào một khía cạnh độc đáo của thao tác hình ảnh bằng Aspose.PSD.
 
@@ -42,3 +48,9 @@ Dễ dàng nâng cao các mẫu hình ảnh Java của bạn với Aspose.PSD ch
 Khám phá sự tích hợp liền mạch của chữ ký vào hình ảnh với Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi, nhập các gói cần thiết và nâng cao khả năng đồ họa của ứng dụng Java của bạn.
 ### [Thêm màu lớp nét trong Aspose.PSD cho Java](./add-stroke-layer-color/)
 Khám phá sức mạnh của Aspose.PSD cho Java với hướng dẫn từng bước của chúng tôi về cách thêm màu lớp nét vẽ. Nâng cao thiết kế đồ họa của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

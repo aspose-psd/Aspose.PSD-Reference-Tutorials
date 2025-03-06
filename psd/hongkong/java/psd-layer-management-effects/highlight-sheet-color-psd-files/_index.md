@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD Java 在 PSD 檔案中反白顯示圖紙顏色
 linktitle: 使用 Aspose.PSD Java 在 PSD 檔案中反白顯示圖紙顏色
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 檔案中突出顯示圖紙顏色。按照我們的逐步指南來增強您的 Java 影像處理技能。
-type: docs
 weight: 19
 url: /zh-hant/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD Java 在 PSD 檔案中反白顯示圖紙顏色
+
 ## 介紹
 
 您是否希望深入研究影像處理並使用 Java 增強您的數位創作？無論您是經驗豐富的開發人員還是剛起步，使用 PSD 檔案都可以開啟一個充滿可能性的世界。 PSD 檔案是分層影像編輯的業界標準，借助 Aspose.PSD for Java 的強大功能，您可以在 Java 應用程式中輕鬆操作這些檔案。今天，我們將介紹如何突出顯示 PSD 檔案中的圖紙顏色，確保您的設計以最生動的方式脫穎而出。
@@ -142,3 +148,9 @@ Aspose.PSD for Java 是一個函式庫，允許開發人員以程式設計方式
 
 ### 我可以在 PSD 檔案中同時突出顯示多個圖層嗎？
 是的，您可以循環瀏覽 PSD 檔案中的圖層，並將所需的圖紙顏色反白顯示單獨套用到每個圖層。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

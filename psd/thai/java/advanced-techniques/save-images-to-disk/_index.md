@@ -3,10 +3,16 @@ title: บันทึกรูปภาพลงดิสก์ด้วย Asp
 linktitle: บันทึกภาพลงดิสก์
 second_title: Aspose.PSD Java API
 description: บันทึกรูปภาพลงดิสก์ได้อย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ Java ไลบรารี Java ที่ทรงพลังสำหรับการจัดการไฟล์ PSD
-type: docs
 weight: 15
 url: /th/java/advanced-techniques/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกรูปภาพลงดิสก์ด้วย Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 Aspose.PSD สำหรับ Java ช่วยให้นักพัฒนาสามารถจัดการไฟล์ PSD ได้อย่างง่ายดาย การบันทึกภาพลงดิสก์ถือเป็นลักษณะพื้นฐานของการประมวลผลภาพ และ Aspose.PSD จะปรับปรุงการดำเนินการนี้ให้มีประสิทธิภาพยิ่งขึ้น ในคู่มือนี้ เราจะเจาะลึกกระบวนการบันทึกภาพด้วย Aspose.PSD เพื่อให้แน่ใจว่าคุณมีความเข้าใจอย่างถ่องแท้เกี่ยวกับขั้นตอนที่จำเป็น
@@ -91,3 +97,9 @@ psdImage.save(destName, new PngOptions());
 ### คำถามที่ 5: Aspose.PSD สำหรับ Java มีใบอนุญาตชั่วคราวหรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

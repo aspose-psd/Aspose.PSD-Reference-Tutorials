@@ -3,10 +3,16 @@ title: Rozwiń i przytnij obrazy za pomocą Aspose.PSD dla Java
 linktitle: Rozwiń i przytnij obrazy
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak rozszerzać i przycinać obrazy w Javie przy użyciu Aspose.PSD. Przewodnik krok po kroku dotyczący wydajnego przetwarzania obrazu.
-type: docs
 weight: 18
 url: /pl/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozwiń i przytnij obrazy za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 tym samouczku odkryjemy, jak używać Aspose.PSD dla Java do wydajnego rozwijania i przycinania obrazów. Aspose.PSD to potężna biblioteka zapewniająca szeroką gamę funkcji do pracy z plikami PSD w aplikacjach Java. W tym przewodniku omówimy niezbędne wymagania wstępne, importowanie pakietów i podzielimy każdy krok ze szczegółowymi wyjaśnieniami.
@@ -102,3 +108,9 @@ Odpowiedź 2: Oczywiście, Aspose.PSD zapewnia licencje komercyjne dla programis
 ### P5: Czy dostępny jest bezpłatny okres próbny?
 
  Odpowiedź 5: Tak, możesz eksplorować Aspose.PSD w ramach bezpłatnego okresu próbnego. Pobierz to[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

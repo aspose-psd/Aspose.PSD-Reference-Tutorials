@@ -3,10 +3,16 @@ title: Definir cor JPEG e tipo de compactação em Java
 linktitle: Definir cor JPEG e tipo de compactação em Java
 second_title: API Java Aspose.PSD
 description: Aprenda como definir a cor e o tipo de compactação JPEG em Java usando Aspose.PSD. Este guia passo a passo torna o processamento de imagens fácil e eficiente.
-type: docs
 weight: 13
 url: /pt/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir cor JPEG e tipo de compactação em Java
+
 ## Introdução
 Na era digital de hoje, gerenciar e manipular imagens é uma necessidade comum, seja para desenvolvimento web, design gráfico ou engenharia de software. Se você está procurando uma ferramenta poderosa para lidar com arquivos PSD e convertê-los em JPEG com configurações específicas de cor e compactação, não procure mais, Aspose.PSD para Java. Este tutorial irá guiá-lo através do processo de configuração de cores e tipos de compactação JPEG usando esta biblioteca robusta.
 ## Pré-requisitos
@@ -54,3 +60,9 @@ Aspose.PSD para Java é uma biblioteca Java que permite aos desenvolvedores cria
  Você pode encontrar a documentação[aqui](https://reference.aspose.com/psd/java/).
 ### O Aspose.PSD para Java é adequado para aplicações web?
 Sim, o Aspose.PSD para Java pode ser integrado a aplicativos da web para lidar com tarefas de processamento de imagens no lado do servidor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

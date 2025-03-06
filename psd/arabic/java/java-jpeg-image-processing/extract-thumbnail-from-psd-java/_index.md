@@ -3,10 +3,16 @@ title: استخراج الصورة المصغرة من PSD في جافا
 linktitle: استخراج الصورة المصغرة من PSD في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية استخراج الصور المصغرة من ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا الدليل التفصيلي كل شيء بدءًا من الإعداد وحتى حفظ الصور المستخرجة.
-type: docs
 weight: 15
 url: /ar/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج الصورة المصغرة من PSD في جافا
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية استخراج الصور المصغرة من ملفات PSD باستخدام Aspose.PSD لـ Java. يمكن أن تكون الصور المصغرة مفيدة للمعاينات السريعة أو لإنشاء إصدارات أصغر من الصور المضمنة في مستندات PSD. دعنا نتعمق في الخطوات المطلوبة لتحقيق ذلك باستخدام Aspose.PSD.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ Aspose.PSD هي مكتبة Java تسمح للمطورين بالعمل مع PSD 
  يمكن الحصول على التراخيص المؤقتة من[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل Aspose.PSD مناسب للاستخدام التجاري؟
 نعم، يمكن استخدام Aspose.PSD لكل من المشاريع الشخصية والتجارية بموجب شروط الترخيص الخاصة به.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

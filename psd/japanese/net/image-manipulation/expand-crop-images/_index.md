@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で画像を拡大および切り取る
 linktitle: 画像の拡大と切り取り
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を使用して画像を動的に拡大およびトリミングする方法を学びます。シームレスな画像操作については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で画像を拡大および切り取る
+
 ## 導入
 
 Aspose.PSD for .NET は、開発者が .NET アプリケーションでさまざまな画像形式を扱えるようにする包括的な画像ライブラリです。その優れた機能の 1 つは、画像を簡単に操作できることです。このチュートリアルでは、画像の拡大と切り取りに焦点を当て、Aspose.PSD を使用してこれらのタスクを実行するための実践的なガイドを提供します。
@@ -98,3 +104,9 @@ A4: 臨時免許証は[Aspose.PSD 一時ライセンス](https://purchase.aspose
 ### Q5: Aspose.PSD for .NET はどこで購入できますか?
 
 A5: 図書館は[Aspose.PSD 購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

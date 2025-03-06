@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD의 글꼴 교체
 linktitle: 글꼴 교체
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 .NET 개발 워크플로를 향상하세요. 단계별 가이드를 사용하여 PSD 파일의 글꼴을 원활하게 교체하는 방법을 알아보세요. 문서 처리의 일관성과 유연성을 손쉽게 달성하세요.
-type: docs
 weight: 13
 url: /ko/net/file-and-font-handling/font-replacement/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD의 글꼴 교체
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.PSD는 Photoshop 파일 작업을 위한 강력한 도구로 돋보입니다. 많은 기능 중에서 특히 유용한 기능 중 하나는 글꼴 교체입니다. 이 기능을 통해 개발자는 PSD 파일의 글꼴을 원활하게 교체하여 문서 처리의 일관성과 유연성을 보장할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 글꼴 교체와 관련된 단계를 살펴보겠습니다.
@@ -94,3 +100,9 @@ A4: 튜토리얼은 교체 프로세스에 중점을 두고 있지만 Aspose.PSD
 ### Q5: Aspose.PSD는 레이어 효과가 있는 텍스트 레이어의 글꼴 교체를 지원합니까?
 
 A5: 예, .NET용 Aspose.PSD는 레이어 효과가 있는 텍스트 레이어의 글꼴 교체를 지원하여 포괄적인 글꼴 처리를 보장합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Java 處理 PSD 中的未壓縮映像文件
 linktitle: 使用 Java 處理 PSD 中的未壓縮映像文件
 second_title: Aspose.PSD Java API
 description: 在這個全面的逐步教學中，了解如何使用 Java 和 Aspose.PSD 庫處理 PSD 格式的未壓縮映像檔。
-type: docs
 weight: 27
 url: /zh-hant/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 處理 PSD 中的未壓縮映像文件
+
 ## 介紹
 在使用 Java 處理 Photoshop 文件 (PSD) 時，了解如何有效地操作和保存這些豐富的影像檔案至關重要。在本教程中，我們將深入探討 Aspose.PSD 的使用，這是一個強大的 API，可以簡化 PSD 檔案的管理，包括處理未壓縮的映像。無論您是希望透過豐富的圖形增強應用程式的開發人員，還是只想輕鬆地在 Java 中處理 PSD 文件，本指南都將引導您完成該過程的每一步。準備好開始了嗎？讓我們跳進去吧！
 ## 先決條件
@@ -84,3 +90,9 @@ Aspose.PSD for Java 是一個 Java 函式庫，可讓開發人員以程式設計
 您可以透過[Aspose 支援論壇](https://forum.aspose.com/c/psd/34)尋求幫助。
 ### Aspose.PSD 是否支援以 PSD 以外的格式儲存？
 是的，Aspose.PSD 允許根據您的要求儲存為不同的格式，例如 PNG、JPEG 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

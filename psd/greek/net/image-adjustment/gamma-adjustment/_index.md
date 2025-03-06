@@ -3,10 +3,16 @@ title: Εφαρμογή προσαρμογής γάμμα στο Aspose.PSD γι
 linktitle: Εφαρμογή προσαρμογής γάμμα
 second_title: Aspose.PSD .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.PSD για .NET με τον αναλυτικό οδηγό μας για την εφαρμογή της προσαρμογής Gamma. Ρυθμίστε τη φωτεινότητα και την αντίθεση της εικόνας χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή προσαρμογής γάμμα στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό για την εφαρμογή της προσαρμογής Gamma στο Aspose.PSD για .NET! Η ρύθμιση γάμμα είναι μια κρίσιμη τεχνική επεξεργασίας εικόνας που σας επιτρέπει να προσαρμόσετε τη φωτεινότητα και την αντίθεση μιας εικόνας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.PSD για .NET.
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια;
 
  A5: Εάν απαιτείται, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

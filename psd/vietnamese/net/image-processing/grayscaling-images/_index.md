@@ -3,10 +3,16 @@ title: Hình ảnh có thang độ xám với Aspose.PSD cho .NET
 linktitle: Hình ảnh có thang độ xám với Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách dễ dàng áp dụng các hiệu ứng thang độ xám cho hình ảnh bằng Aspose.PSD cho .NET.
-type: docs
 weight: 14
 url: /vi/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hình ảnh có thang độ xám với Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về thang độ xám hình ảnh bằng Aspose.PSD cho .NET! Thang độ xám là một kỹ thuật mạnh mẽ có thể nâng cao sức hấp dẫn trực quan cho hình ảnh của bạn bằng cách chuyển đổi chúng thành các sắc thái xám. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đạt được hiệu ứng thang độ xám tuyệt đẹp một cách dễ dàng.
@@ -108,3 +114,9 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Làm cách nào để mua giấy phép Aspose.PSD cho .NET?
 
  Câu trả lời 5: Bạn có thể mua giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

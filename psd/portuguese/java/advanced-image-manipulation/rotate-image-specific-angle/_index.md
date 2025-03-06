@@ -3,10 +3,16 @@ title: Gire uma imagem em um ângulo específico com Aspose.PSD para Java
 linktitle: Girar uma imagem em um ângulo específico
 second_title: API Java Aspose.PSD
 description: Explore a rotação de imagens em Java com Aspose.PSD para Java. Gire imagens sem esforço em ângulos específicos.
-type: docs
 weight: 20
 url: /pt/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gire uma imagem em um ângulo específico com Aspose.PSD para Java
+
 ## Introdução
 
 No mundo dinâmico do desenvolvimento Java, a manipulação de imagens é um requisito comum para vários aplicativos. Aspose.PSD para Java surge como uma solução robusta, fornecendo recursos poderosos para lidar com a rotação de imagens sem esforço. Neste tutorial, iremos guiá-lo através do processo de rotação de uma imagem em um ângulo específico usando Aspose.PSD para Java. Antes de mergulhar nos detalhes, vamos definir alguns pré-requisitos.
@@ -117,3 +123,9 @@ Aspose.PSD para Java concentra-se principalmente no processamento de imagens de 
 ### Q5: Existe um fórum da comunidade para Aspose.PSD onde posso procurar ajuda?
 
  Sim, você pode visitar o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para se envolver com a comunidade, fazer perguntas e buscar assistência.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

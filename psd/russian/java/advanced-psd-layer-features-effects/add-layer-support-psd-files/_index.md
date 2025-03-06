@@ -3,10 +3,16 @@ title: Добавьте поддержку слоев для PSD-файлов с
 linktitle: Добавьте поддержку слоев для PSD-файлов с помощью Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Легко управляйте и конвертируйте PSD-файлы со слоями в формат PNG с помощью Aspose.PSD для Java! Идеально подходит для разработчиков, нуждающихся в манипуляциях с графикой.
-type: docs
 weight: 13
 url: /ru/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте поддержку слоев для PSD-файлов с помощью Aspose.PSD Java
+
 ## Введение
 В мире графического дизайна и цифрового искусства работа с файлами PSD (Photoshop Document) является нормой. Эти файлы часто содержат несколько слоев, которыми можно манипулировать независимо, что обеспечивает гибкость и творческий подход. Но что произойдет, если вам понадобится работать с этими файлами в Java-приложении? Что ж, именно здесь в игру вступает Aspose.PSD! В этой статье мы углубимся в то, как добавить поддержку слоев для файлов PSD с помощью Aspose.PSD для Java. Мы разобьем это на простые шаги, которые сделают его доступным для любого, от новичка до профессионала.
 ## Предварительные условия
@@ -101,3 +107,9 @@ Aspose.PSD для Java — это библиотека .NET, которая по
  Вы можете получить доступ к поддержке на форуме Aspose.[здесь](https://forum.aspose.com/c/psd/34).
 ### Могу ли я конвертировать обратно из PNG в PSD?
 Библиотека Aspose.PSD больше ориентирована на чтение и обработку файлов PSD, а не на преобразование других форматов обратно в PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

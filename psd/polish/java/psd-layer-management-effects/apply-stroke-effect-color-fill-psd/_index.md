@@ -3,10 +3,16 @@ title: Zastosuj efekt obrysu z wypełnieniem kolorem w PSD - Java
 linktitle: Zastosuj efekt obrysu z wypełnieniem kolorem w PSD - Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak zastosować efekt obrysu z wypełnieniem kolorem do plików PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby z łatwością ulepszać swoje obrazy.
-type: docs
 weight: 21
 url: /pl/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj efekt obrysu z wypełnieniem kolorem w PSD - Java
+
 ## Wstęp
 
 tym przewodniku przeprowadzimy Cię przez proces stosowania efektu obrysu z wypełnieniem kolorem do plików PSD przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek krok po kroku ułatwi Ci wykonanie pracy. Omówimy wszystko, od skonfigurowania środowiska po zapisanie końcowego obrazu z zastosowanymi efektami.
@@ -144,3 +150,9 @@ Aby cofnąć zmiany, przed zapisaniem jakichkolwiek modyfikacji należy ponownie
 
 ### Czy korzystanie z biblioteki Aspose.PSD for Java jest bezpłatne?
  Aspose.PSD dla Java oferuje bezpłatną wersję próbną, ale aby uzyskać pełny dostęp do wszystkich funkcji, należy zakupić licencję. Możesz zwiedzać[kup opcje](https://purchase.aspose.com/buy)na ich stronie internetowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

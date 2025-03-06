@@ -3,10 +3,16 @@ title: Kết hợp hình ảnh bằng Aspose.PSD cho Java
 linktitle: Kết hợp hình ảnh
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách hợp nhất hình ảnh trong Java với Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để kết hợp hình ảnh liền mạch.
-type: docs
 weight: 11
 url: /vi/java/image-editing/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết hợp hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực lập trình Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ để thao tác và xử lý hình ảnh. Một trong những tính năng đáng chú ý của nó là khả năng kết hợp nhiều hình ảnh một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình hợp nhất hai hình ảnh thành một tệp PSD bằng Aspose.PSD cho Java.
@@ -111,3 +117,9 @@ A2: Chắc chắn rồi! Sau khi kết hợp các hình ảnh, bạn có thể t
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho các truy vấn liên quan đến Aspose.PSD ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

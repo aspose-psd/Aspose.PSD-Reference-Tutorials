@@ -3,10 +3,16 @@ title: Přidejte vrstvu barevné výplně do souborů PSD pomocí Java
 linktitle: Přidejte vrstvu barevné výplně do souborů PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak snadno přidat vrstvu barevné výplně do souborů PSD pomocí Java a Aspose.PSD. Postupujte podle našeho podrobného návodu pro rychlejší návrhy.
-type: docs
 weight: 20
 url: /cs/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vrstvu barevné výplně do souborů PSD pomocí Java
+
 ## Zavedení
 Přistihli jste se někdy, že potřebujete programově manipulovat se soubory Photoshopu, třeba abyste do návrhu přidali šplouchnutí barvy? No, přistáli jste na správném místě. V tomto článku se ponoříme do toho, jak přidat vrstvu barevné výplně do souborů PSD (Photoshop Document) pomocí Javy a knihovny Aspose.PSD. Představte si své soubory PSD jako plátno a pomocí několika řádků kódu je můžete znovu nakreslit.
 ## Předpoklady
@@ -87,3 +93,9 @@ Můžete pracovat se soubory PSD a manipulovat s jejich vrstvami, efekty a dalš
  Podporu můžete získat prostřednictvím[Aspose Support Forum](https://forum.aspose.com/c/psd/34).
 ### Kde mohu koupit Aspose.PSD?  
  Licenci si můžete zakoupit prostřednictvím[Aspose Nákup stránky](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 누락된 글꼴을 바꾸기 위한 설정
 linktitle: 누락된 글꼴을 대체하기 위한 설정
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD의 잠재력을 발휘해보세요! 단계별 가이드를 통해 누락된 글꼴을 원활하게 교체하는 방법을 알아보세요. 지금 귀하의 디자인 능력을 향상시켜 보세요.
-type: docs
 weight: 11
 url: /ko/net/text-and-font-manipulation/replace-missing-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 누락된 글꼴을 바꾸기 위한 설정
+
 ## 소개
 글꼴 교체가 간편해지는 .NET용 Aspose.PSD의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 Aspose.PSD를 사용하여 PSD 파일에서 누락된 글꼴을 설정하고 교체하는 복잡한 프로세스를 자세히 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 단계별 가이드를 통해 글꼴 관련 문제를 쉽게 처리할 수 있습니다.
 ## 전제조건
@@ -75,3 +81,9 @@ A1: 예, Aspose.PSD를 사용하면 레이어별로 글꼴을 선택적으로 �
 ### Q5: Aspose.PSD에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 
  A5: 자세한 내용을 참조하세요.[선적 서류 비치](https://reference.aspose.com/psd/net/) Aspose.PSD 기능에 대한 심층적인 통찰력을 얻으려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

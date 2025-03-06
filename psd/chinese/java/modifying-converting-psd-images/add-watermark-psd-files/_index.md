@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 为 PSD 文件添加水印
 linktitle: 使用 Aspose.PSD for Java 为 PSD 文件添加水印
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 轻松为您的 PSD 文件添加水印。通过简单的分步指南保护您的图像。
-type: docs
 weight: 18
 url: /zh/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 为 PSD 文件添加水印
+
 ## 介绍
 水印是一种微妙但有效的方式来保护您的图像并传达所有权。无论您是展示作品集的摄影师还是展示最新作品的设计师，添加水印对于维护您的品牌形象都至关重要。在本教程中，我们将深入研究如何使用 Aspose.PSD for Java 轻松地将水印添加到您的 PSD 文件中。所以，喝杯咖啡，舒服地坐下，让我们开始吧！
 ## 先决条件
@@ -90,3 +96,9 @@ psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
 是的，您可以保存为各种格式，如 JPEG 或 BMP。只需替换`PngOptions()`选择所需的选项。
 ### 在哪里可以找到更多帮助？
 如需详细查询，您可以访问[Aspose 论坛](https://forum.aspose.com/c/psd/34)或查看他们的[文档](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

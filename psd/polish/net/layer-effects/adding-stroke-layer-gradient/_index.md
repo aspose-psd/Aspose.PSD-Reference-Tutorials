@@ -3,10 +3,16 @@ title: Dodawanie warstwy obrysu z gradientem w Aspose.PSD dla .NET
 linktitle: Dodawanie warstwy obrysu z gradientem
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak dodać warstwę obrysu gradientu w Aspose.PSD dla .NET. Podnieś swoje umiejętności manipulacji obrazami dzięki temu obszernemu samouczkowi.
-type: docs
 weight: 12
 url: /pl/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie warstwy obrysu z gradientem w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Jeśli chcesz ulepszyć swoje aplikacje .NET za pomocą oszałamiających efektów graficznych, Aspose.PSD dla .NET jest rozwiązaniem dla Ciebie. W tym samouczku zagłębimy się w proces dodawania warstwy obrysu z gradientem za pomocą Aspose.PSD dla .NET. Ten przewodnik krok po kroku pomoże Ci bez wysiłku podnieść atrakcyjność wizualną swoich obrazów.
@@ -119,3 +125,9 @@ O1: Tak, Aspose.PSD dla .NET jest kompatybilny z różnymi frameworkami .NET.
 ### P5: Jak kupić licencję na Aspose.PSD dla .NET?
 
  Odpowiedź 5: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

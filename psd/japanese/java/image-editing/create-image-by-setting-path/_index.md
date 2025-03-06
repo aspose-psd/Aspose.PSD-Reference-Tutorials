@@ -3,10 +3,16 @@ title: Aspose.PSD for Java でパスを設定して画像を作成する
 linktitle: パスを設定して画像を作成する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD 画像を作成する方法を学びます。シームレスな画像生成については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java でパスを設定して画像を作成する
+
 ## 導入
 
 Aspose.PSD for Java を使用して画像を作成する手順を説明したチュートリアルへようこそ。このガイドでは、パスを設定し、PSD 画像を生成するためのオプションを構成する方法について説明します。Aspose.PSD は、Photoshop ファイルを操作する強力な Java ライブラリであり、プログラムで画像を操作および作成するためのシームレスな方法を提供します。
@@ -107,3 +113,9 @@ A1: はい、Aspose.PSD はさまざまな Java 統合開発環境 (IDE) とシ�
 ### Q5: テストには一時ライセンスが必要ですか?
 
  A5: テスト目的で臨時ライセンスを取得することができます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

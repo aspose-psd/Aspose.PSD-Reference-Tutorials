@@ -3,10 +3,16 @@ title: 使用 Java 从 PSD 中提取缩略图
 linktitle: 使用 Java 从 PSD 中提取缩略图
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 从 PSD 文件中提取缩略图。本分步指南涵盖了从设置到保存提取图像的所有内容。
-type: docs
 weight: 15
 url: /zh/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 从 PSD 中提取缩略图
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.PSD for Java 从 PSD 文件中提取缩略图。缩略图可用于快速预览或创建嵌入在 PSD 文档中的图像的较小版本。让我们深入了解使用 Aspose.PSD 实现此目的所需的步骤。
 ## 先决条件
@@ -73,3 +79,9 @@ Aspose.PSD 是一个 Java 库，允许开发人员以编程方式处理 PSD 和�
 临时许可证可从[这里](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD 适合商业用途吗？
 是的，根据许可条款，Aspose.PSD 可用于个人和商业项目。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

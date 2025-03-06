@@ -3,10 +3,16 @@ title: Gebruik aangepaste onbewerkte gegevenslader in PSD-bestanden - Java
 linktitle: Gebruik aangepaste onbewerkte gegevenslader in PSD-bestanden - Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u een aangepaste onbewerkte gegevenslader in PSD-bestanden kunt gebruiken met Java! Deze stapsgewijze handleiding behandelt alles, van het instellen tot het opschonen van bronnen.
-type: docs
 weight: 29
 url: /nl/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gebruik aangepaste onbewerkte gegevenslader in PSD-bestanden - Java
+
 ## Invoering
 Werken met PSD-bestanden in Java kan overweldigend lijken, vooral als het gaat om het verwerken van onbewerkte gegevens. Vrees niet! Door Aspose.PSD voor Java te gebruiken, kunt u eenvoudig onbewerkte pixelgegevens uit PSD-bestanden manipuleren en extraheren met behulp van aangepaste laders. Deze handleiding helpt u stap voor stap door het implementatieproces van een aangepaste lader voor onbewerkte gegevens. We behandelen alle noodzakelijke vereisten, importeren de vereiste pakketten en splitsen de code op in beheersbare stappen die eenvoudig te volgen zijn.
 ## Vereisten
@@ -90,3 +96,9 @@ Aspose.PSD voor Java is een bibliotheek waarmee ontwikkelaars PSD-bestanden prog
  Voor ondersteuning en gemeenschapshulp kunt u terecht op de[Aspose-forum](https://forum.aspose.com/c/psd/34).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?  
  kunt een tijdelijke licentie verkrijgen om alle functies te evalueren door naar de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

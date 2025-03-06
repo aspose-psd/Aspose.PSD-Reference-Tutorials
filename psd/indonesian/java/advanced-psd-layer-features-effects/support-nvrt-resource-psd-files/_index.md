@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Nvrt dalam File PSD menggunakan Java
 linktitle: Mendukung Sumber Daya Nvrt dalam File PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Temukan cara mendukung sumber daya Nvrt dalam file PSD menggunakan Java. Belajar memuat file dan mengekstrak sumber daya berharga dengan mudah menggunakan Aspose.PSD.
-type: docs
 weight: 10
 url: /id/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Nvrt dalam File PSD menggunakan Java
+
 ## Perkenalan
 Saat bekerja dengan file Photoshop (PSD) di Java, ada banyak hal yang dapat Anda lakukan. Baik Anda mengembangkan editor grafis, mengotomatiskan tugas, atau menangani desain secara terprogram, memahami cara memanipulasi file PSD sangatlah penting. Dalam panduan ini, kita mendalami aspek tertentu—mendukung Sumber Daya Nvrt (Penyesuaian Pembalikan) dalam file PSD menggunakan pustaka Aspose.PSD untuk Java.
 ## Prasyarat
@@ -90,3 +96,9 @@ Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipul
  Sangat! Anda bisa mendapatkan uji coba gratis Aspose.PSD untuk Java[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
  Anda dapat mengajukan pertanyaan dan mendapatkan dukungan di forum Aspose:[Asumsikan Dukungan](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

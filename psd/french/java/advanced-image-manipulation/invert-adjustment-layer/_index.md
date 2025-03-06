@@ -3,10 +3,16 @@ title: Inverser la couche de réglage dans Aspose.PSD pour Java
 linktitle: Inverser le calque de réglage
 second_title: API Java Aspose.PSD
 description: Explorez la couche de réglage inversée dans Aspose.PSD pour Java. Une puissante bibliothèque Java pour une manipulation transparente des fichiers PSD.
-type: docs
 weight: 14
 url: /fr/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Inverser la couche de réglage dans Aspose.PSD pour Java
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur la mise en œuvre de la couche de réglage inversée dans Aspose.PSD pour Java. Dans ce didacticiel, nous explorerons les puissantes fonctionnalités d'Aspose.PSD, une bibliothèque Java qui permet une manipulation transparente des fichiers PSD. Que vous soyez un développeur chevronné ou un nouveau venu dans le traitement d'images, ce didacticiel est conçu pour vous aider à comprendre et à implémenter efficacement le calque de réglage inversé.
@@ -93,3 +99,9 @@ A2 : Oui, vous pouvez empiler plusieurs calques de réglage pour réaliser des 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
 A5 : Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chỉ định độ sâu bit PNG trong Aspose.PSD cho Java
 linktitle: Chỉ định độ sâu bit PNG trong Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách chỉ định độ sâu bit PNG bằng Aspose.PSD cho Java trong hướng dẫn từng bước chi tiết này.
-type: docs
 weight: 14
 url: /vi/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định độ sâu bit PNG trong Aspose.PSD cho Java
+
 ## Giới thiệu
 Bạn đang muốn nâng cao kỹ năng xử lý hình ảnh của mình bằng Aspose.PSD cho Java? Bạn đang ở đúng nơi! Hướng dẫn này sẽ hướng dẫn bạn quy trình chỉ định độ sâu bit PNG trong khi chuyển đổi tệp PSD sang định dạng PNG. Với sự trợ giúp của Aspose.PSD, bạn sẽ thấy việc thao tác với hình ảnh của mình khá đơn giản. Cho dù bạn đang phát triển một dự án cá nhân nhỏ hay một ứng dụng lớn hơn, việc kiểm soát chất lượng hình ảnh thông qua độ sâu bit có thể tác động đáng kể đến kết quả cuối cùng.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Có, bạn có thể dùng thử thư viện với bản dùng thử miễn phí
  Để có giấy phép tạm thời, bạn có thể nộp đơn[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể chuyển đổi loại hình ảnh nào?
 Aspose.PSD chủ yếu xử lý các tệp PSD nhưng nó hỗ trợ chuyển đổi sang nhiều định dạng khác nhau như PNG, JPEG và TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

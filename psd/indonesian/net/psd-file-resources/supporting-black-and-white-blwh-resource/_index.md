@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Hitam Putih di Aspose.PSD untuk .NET
 linktitle: Mendukung Sumber Daya Hitam Putih (Blwh).
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi pengeditan gambar tingkat lanjut dengan Aspose.PSD untuk .NET. Pelajari cara menguasai lapisan penyesuaian Hitam dan Putih untuk kontrol yang tepat atas elemen gambar.
-type: docs
 weight: 13
 url: /id/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Hitam Putih di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Dalam dunia media digital yang dinamis, pengeditan gambar memainkan peran penting dalam menciptakan visual yang menawan. Aspose.PSD untuk .NET memberdayakan pengembang untuk meningkatkan kemampuan manipulasi gambar mereka ke tingkat berikutnya. Dalam tutorial ini, kita akan menjelajahi dukungan untuk lapisan penyesuaian Hitam Putih di Aspose.PSD, memungkinkan Anda menyempurnakan gambar dengan presisi.
 ## Prasyarat
@@ -89,3 +95,9 @@ A2: Tentu saja! Aspose.PSD memungkinkan Anda menumpuk beberapa lapisan penyesuai
 ### Q5: Apakah ada contoh gambar yang tersedia untuk menguji penyesuaian Hitam Putih?
 
 A5: Ya, Anda dapat menemukan contoh gambar di dokumentasi Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

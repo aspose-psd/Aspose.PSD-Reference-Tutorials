@@ -3,10 +3,16 @@ title: Oříznutí souborů PSD pomocí Aspose.PSD pro .NET
 linktitle: Oříznutí souborů PSD pomocí Aspose.PSD pro .NET
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte umění ořezávání souborů PSD v .NET s Aspose.PSD, všestrannou sadou nástrojů. Zvyšte svou hru manipulace s obrázky bez námahy.
-type: docs
 weight: 19
 url: /cs/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznutí souborů PSD pomocí Aspose.PSD pro .NET
+
 ## Zavedení
 V oblasti vývoje .NET vyniká Aspose.PSD jako výkonná sada nástrojů pro bezproblémovou manipulaci se soubory PSD (Photoshop Document). Pokud jde o manipulaci s obrázky, oříznutí je základní operací a Aspose.PSD zjednodušuje tento proces pro vývojáře .NET. V tomto tutoriálu prozkoumáme, jak oříznout soubory PSD pomocí Aspose.PSD pro .NET, a poskytneme vám průvodce krok za krokem.
 ## Předpoklady
@@ -72,3 +78,9 @@ Odpověď 1: Ano, Aspose.PSD je pravidelně aktualizován, aby byla zajištěna 
 ### Q5: Potřebuji dočasnou licenci pro testovací účely?
 
  A5: Ano, pokud potřebujete dočasnou licenci, můžete ji získat[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

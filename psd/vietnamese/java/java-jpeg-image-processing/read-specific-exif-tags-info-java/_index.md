@@ -3,10 +3,16 @@ title: Đọc thông tin thẻ EXIF cụ thể trong Java
 linktitle: Đọc thông tin thẻ EXIF cụ thể trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách đọc các thẻ EXIF cụ thể từ hình ảnh PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng xử lý hình ảnh của bạn.
-type: docs
 weight: 19
 url: /vi/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc thông tin thẻ EXIF cụ thể trong Java
+
 ## Giới thiệu
 Bạn đang muốn đi sâu vào thế giới thao tác tệp PSD bằng Java? Nếu bạn muốn hiểu cách đọc các thẻ EXIF cụ thể từ hình ảnh PSD thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn toàn bộ quá trình sử dụng Aspose.PSD cho Java, từ thiết lập môi trường của bạn đến trích xuất dữ liệu EXIF chi tiết. Hãy bắt đầu!
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Có, Aspose.PSD cho phép bạn đọc và sửa đổi dữ liệu EXIF. Bạn 
 Aspose.PSD hỗ trợ nhiều định dạng Adobe Photoshop khác nhau, bao gồm PSD, PSB, v.v. Nó cũng cung cấp các tùy chọn để chuyển đổi các định dạng này sang các định dạng khác như PNG, JPEG, TIFF, v.v.
 ### Làm cách nào để nhận được hỗ trợ cho Aspose.PSD?
  Bạn có thể nhận được hỗ trợ thông qua Aspose.PSD[diễn đàn](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Java 將一個 PSD 圖層合併到另一個圖層
 linktitle: 使用 Java 將一個 PSD 圖層合併到另一個圖層
 second_title: Aspose.PSD Java API
 description: 透過我們的逐步教學，了解如何使用 Aspose.PSD for Java 將一個 PSD 檔案中的圖層合併到另一個 PSD 檔案中。非常適合自動化您的設計流程。
-type: docs
 weight: 10
 url: /zh-hant/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 將一個 PSD 圖層合併到另一個圖層
+
 ## 介紹
 
 您是否曾經發現自己在以程式設計方式處理 Adobe Photoshop 文件時需要將一個 PSD 檔案中的圖層合併到另一個 PSD 檔案中？無論您是自動化設計流程還是管理大量分層影像，Aspose.PSD for Java 都提供了一個強大的工具包，可以直接透過 Java 程式碼操作 PSD 檔案。在本指南中，我們將引導您完成使用 Aspose.PSD for Java 將一個 PSD 圖層合併到另一個 PSD 圖層的過程。您不僅將學習如何無縫合併圖層，還將發現在 Java 環境中使用 PSD 檔案是多麼容易。準備好潛入了嗎？讓我們開始吧！
@@ -119,3 +125,9 @@ im2.save(exportPath);
 
 ### 如何取得 Aspose.PSD for Java 的臨時授權？
 您可以從以下機構獲得臨時許可證[阿斯普斯網站](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

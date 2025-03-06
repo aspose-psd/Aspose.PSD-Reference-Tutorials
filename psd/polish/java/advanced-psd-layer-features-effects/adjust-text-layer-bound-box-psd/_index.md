@@ -3,10 +3,16 @@ title: Dostosuj ramkę związaną z warstwą tekstową w formacie PSD przy użyc
 linktitle: Dostosuj ramkę związaną z warstwą tekstową w formacie PSD przy użyciu języka Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak dostosować granice warstw tekstowych w plikach PSD przy użyciu Java z Aspose.PSD. Prosty przewodnik z instrukcjami krok po kroku.
-type: docs
 weight: 25
 url: /pl/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj ramkę związaną z warstwą tekstową w formacie PSD przy użyciu języka Java
+
 ## Wstęp
 Jeśli chodzi o programowe manipulowanie dokumentami programu Photoshop, biblioteka Aspose.PSD dla języka Java świeci jasno. Jeśli chcesz dostosować granice warstwy tekstowej w pliku PSD, trafiłeś we właściwe miejsce! Ten samouczek przeprowadzi Cię krok po kroku przez proces dostosowywania pola powiązanego warstwy tekstowej przy użyciu języka Java.
 Dzięki łatwym do zrozumienia przykładom i odrobinie konwersacyjnego tonu, aby utrzymać zainteresowanie, przekonasz się, że manipulowanie plikami PSD nie jest tak trudne, jak mogłoby się wydawać. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z Javą, znajdziesz tutaj cenne informacje. Zanurzmy się w ekscytujący świat manipulacji PSD.
@@ -80,3 +86,9 @@ Tak, Aspose.PSD jest dostępny dla różnych platform programistycznych, w tym .
 Możesz znaleźć wsparcie i dyskusje społeczności na ich temat[Forum Aspose](https://forum.aspose.com/c/psd/34).
 ### Czy dostępna jest wersja próbna dla Aspose.PSD?
  Tak! Możesz pobrać bezpłatną wersję próbną ze strony[Strona Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Infx dalam File PSD dengan Java
 linktitle: Mendukung Sumber Daya Infx dalam File PSD dengan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara memanipulasi Sumber Daya Infx dalam file PSD menggunakan Aspose.PSD untuk Java dengan tutorial langkah demi langkah yang komprehensif ini. Sempurna untuk pengembang dari semua tingkatan.
-type: docs
 weight: 13
 url: /id/java/working-with-psd-files/support-infx-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Infx dalam File PSD dengan Java
+
 ## Perkenalan
 
 Bekerja dengan file PSD (Photoshop Document) di Java mungkin tampak menakutkan, tetapi sebenarnya tidak demikian. Bayangkan Anda memiliki file PSD berlapis-lapis yang berisi berbagai sumber daya, dan Anda perlu memodifikasi sumber daya tertentu—seperti InfxResource—sambil memastikan integritas file tetap utuh. Di situlah Aspose.PSD untuk Java berperan, menawarkan API intuitif untuk mengelola file PSD dengan lancar. Dalam tutorial ini, kita akan mempelajari cara menemukan, mengedit, dan menyimpan InfxResource dalam file PSD menggunakan Aspose.PSD untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan membuat penanganan sumber daya PSD semudah mungkin.
@@ -155,3 +161,9 @@ Setelah perubahan disimpan, perubahan tersebut bersifat permanen kecuali Anda me
 ### Bisakah saya mengotomatiskan modifikasi beberapa file PSD menggunakan Aspose.PSD untuk Java?
 
 Ya, Anda dapat membuat skrip untuk memproses beberapa file PSD secara batch, menerapkan modifikasi yang sama pada setiap file.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

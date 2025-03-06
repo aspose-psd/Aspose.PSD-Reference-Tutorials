@@ -3,10 +3,16 @@ title: Render Curves Adjustment Layer in PSD Files - Java
 linktitle: Render Curves Adjustment Layer in PSD Files - Java
 second_title: Aspose.PSD Java API
 description: Learn how to render and adjust Curves Adjustment Layers in PSD files using Aspose.PSD for Java with this detailed step-by-step guide.
-type: docs
 weight: 16
 url: /java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Curves Adjustment Layer in PSD Files - Java
+
 ## Introduction
 
 Photoshop’s Curves Adjustment Layer is like a magic wand for enhancing images. Imagine you’re an artist tweaking the colors and tones of your masterpiece—each curve adjustment lets you control the light and color balance with incredible precision. If you’re working with PSD files and need to manipulate these curves programmatically, Aspose.PSD for Java is your go-to tool. In this guide, we'll walk through how to render and adjust Curves Adjustment Layers in PSD files using Aspose.PSD for Java. Whether you’re updating image tones or exporting your results, this tutorial will cover everything you need to get started.
@@ -146,3 +152,10 @@ You can download a free trial version of Aspose.PSD for Java from the [Aspose re
 
 ### Where can I find support for Aspose.PSD for Java?
 For support, you can visit the [Aspose support forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

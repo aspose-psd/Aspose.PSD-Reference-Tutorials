@@ -3,10 +3,16 @@ title: Aspose.PSD for Java'da Rendering Drop Shadow'u uygulayın
 linktitle: Oluşturma Alt Gölgesini Uygula
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'da görüntü işleme alt gölgelerini uygulamaya yönelik adım adım kılavuzu keşfedin ve görüntü işleme becerilerinizi zahmetsizce geliştirin.
-type: docs
 weight: 16
 url: /tr/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java'da Rendering Drop Shadow'u uygulayın
+
 ## giriiş
 
 Java ile görüntü işlemeye başlıyorsanız, Aspose.PSD, PSD dosyalarının sorunsuz ve verimli şekilde işlenmesi için başvuracağınız araçtır. Bu eğitimde Aspose.PSD for Java kullanarak alt gölge oluşturma sürecini inceleyeceğiz. Sizin için adımları sıralarken kemerlerinizi bağlayın.
@@ -125,3 +131,9 @@ Cevap3: Aspose.PSD, çok çeşitli PSD dosya sürümleriyle uyumluluk sağlayara
 ### S5: Satın almadan önce Aspose.PSD'yi test edebilir miyim?
 
  A5: Kesinlikle, kullanın[ücretsiz deneme](https://releases.aspose.com/) Bir satın alma işlemine başlamadan önce yetenekleri keşfetmek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

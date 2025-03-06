@@ -3,10 +3,16 @@ title: PSD-bestandsbronnen
 linktitle: PSD-bestandsbronnen
 second_title: Aspose.PSD .NET-API
 description: Ontgrendel het volledige potentieel van Aspose.PSD voor .NET met onze tutorials. Beheers achtergrondkleur, randinformatie, werkpad en zwart-witbronnen naadloos.
-type: docs
 weight: 31
 url: /nl/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD-bestandsbronnen
+
 
 ## Invoering
 
@@ -39,3 +45,9 @@ Ontdek Aspose.PSD voor .NET's Border Information Resource-functie voor verbeterd
 Ontdek de kracht van 'WorkingPathResource' in Aspose.PSD voor .NET. Verbeter de beeldprecisie met deze stapsgewijze handleiding.
 ### [Ondersteuning van zwart-witbronnen (Blwh) in Aspose.PSD voor .NET](./supporting-black-and-white-blwh-resource/)
 Ontdek geavanceerde beeldbewerking met Aspose.PSD voor .NET. Leer de zwart-witaanpassingslagen onder de knie te krijgen voor nauwkeurige controle over afbeeldingselementen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

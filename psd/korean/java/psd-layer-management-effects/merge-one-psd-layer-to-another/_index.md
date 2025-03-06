@@ -3,10 +3,16 @@ title: Java를 사용하여 한 PSD 레이어를 다른 PSD 레이어에 병합
 linktitle: Java를 사용하여 한 PSD 레이어를 다른 PSD 레이어에 병합
 second_title: Aspose.PSD 자바 API
 description: 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 한 PSD 파일의 레이어를 다른 PSD 파일로 병합하는 방법을 알아보세요. 설계 프로세스를 자동화하는 데 적합합니다.
-type: docs
 weight: 10
 url: /ko/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 한 PSD 레이어를 다른 PSD 레이어에 병합
+
 ## 소개
 
 Adobe Photoshop 문서를 프로그래밍 방식으로 작업하는 동안 한 PSD 파일의 레이어를 다른 PSD 파일에 병합해야 하는 경우가 있었습니까? 디자인 프로세스를 자동화하든, 대규모 계층 이미지 컬렉션을 관리하든 관계없이 Aspose.PSD for Java는 Java 코드를 통해 직접 PSD 파일을 조작할 수 있는 강력한 툴킷을 제공합니다. 이 가이드에서는 Java용 Aspose.PSD를 사용하여 한 PSD 레이어를 다른 PSD 레이어에 병합하는 과정을 안내합니다. 레이어를 원활하게 병합하는 방법을 배울 뿐만 아니라 Java 환경에서 PSD 파일로 작업하는 것이 얼마나 쉬운지 알게 됩니다. 다이빙할 준비가 되셨나요? 시작해 봅시다!
@@ -119,3 +125,9 @@ Java용 Aspose.PSD를 사용하면 한 PSD 파일의 레이어를 다른 PSD 파
 
 ### Java용 Aspose.PSD의 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시면허를 발급받으실 수 있습니다.[Aspose 웹사이트](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

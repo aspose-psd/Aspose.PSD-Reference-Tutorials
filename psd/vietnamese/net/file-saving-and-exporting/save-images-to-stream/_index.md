@@ -3,10 +3,16 @@ title: Lưu hình ảnh để phát trực tuyến bằng Aspose.PSD cho .NET
 linktitle: Lưu hình ảnh để phát trực tuyến bằng Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của Aspose.PSD cho .NET và tìm hiểu cách lưu hình ảnh vào luồng một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/net/file-saving-and-exporting/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu hình ảnh để phát trực tuyến bằng Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET không ngừng phát triển, Aspose.PSD nổi bật như một công cụ mạnh mẽ để xử lý hình ảnh với độ chính xác và hiệu quả. Nếu bạn đang tìm cách lưu hình ảnh vào luồng bằng Aspose.PSD cho .NET thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nó thành các bước dễ thực hiện.
@@ -91,3 +97,9 @@ Chúc mừng! Bạn đã học thành công cách lưu hình ảnh vào luồng 
 ### Câu 5: Tôi có thể mua Aspose.PSD ở đâu?
 
  Câu trả lời 5: Bạn có thể mua Aspose.PSD[đây](https://purchase.aspose.com/buy) để khai thác toàn bộ tiềm năng của nó cho nhu cầu phát triển của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

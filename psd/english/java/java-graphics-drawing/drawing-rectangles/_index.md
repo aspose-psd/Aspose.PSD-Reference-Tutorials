@@ -3,10 +3,16 @@ title: Drawing Rectangles in Java
 linktitle: Drawing Rectangles in Java
 second_title: Aspose.PSD Java API
 description: Learn to draw rectangles on images using Aspose.PSD for Java. This tutorial guides Java developers step-by-step. Perfect for image manipulation tasks.
-type: docs
 weight: 17
 url: /java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Rectangles in Java
+
 ## Introduction
 In the world of Java development, manipulating and generating images programmatically is a common requirement across various applications. One such task often encountered is drawing shapes like rectangles onto images. Aspose.PSD for Java provides a robust set of tools and functionalities to accomplish this efficiently. This tutorial will guide you through the process of drawing rectangles on an image using Aspose.PSD for Java, step-by-step.
 ## Prerequisites
@@ -84,3 +90,10 @@ Yes, Aspose.PSD for Java is designed for high-performance image processing with 
 You can explore more examples and detailed documentation on the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).
 ### Does Aspose.PSD for Java support other image formats besides BMP?
 Yes, Aspose.PSD for Java supports a wide range of image formats including PNG, JPEG, TIFF, and GIF.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

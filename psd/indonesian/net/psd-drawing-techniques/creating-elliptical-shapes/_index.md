@@ -3,10 +3,16 @@ title: Membuat Bentuk Elips dengan Aspose.PSD untuk .NET
 linktitle: Membuat Bentuk Elips dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menggambar bentuk elips di .NET menggunakan Aspose.PSD. Panduan langkah demi langkah dengan contoh kode. Buat grafik yang menakjubkan dengan mudah.
-type: docs
 weight: 13
 url: /id/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Bentuk Elips dengan Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang membuat bentuk elips menggunakan Aspose.PSD untuk .NET. Aspose.PSD adalah perpustakaan .NET yang kuat yang memungkinkan pengembang untuk memanipulasi dan mengkonversi file Photoshop tanpa memerlukan Adobe Photoshop. Dalam tutorial ini, kami akan memandu Anda melalui proses menggambar bentuk elips menggunakan perpustakaan.
@@ -101,3 +107,9 @@ Selamat! Anda telah berhasil membuat bentuk elips menggunakan Aspose.PSD untuk .
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

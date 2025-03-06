@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中有效繪製線條
 linktitle: 有效地畫線
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 探索在 .NET 應用程式中繪製線條的藝術。按照我們的綜合教學輕鬆提升您的影像處理技能。
-type: docs
 weight: 14
 url: /zh-hant/net/psd-drawing-techniques/drawing-lines-effectively/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中有效繪製線條
+
 ## 介紹
 
 歡迎來到這個關於在 Aspose.PSD for .NET 中有效繪製線條的逐步教學！ Aspose.PSD 是一個功能強大的函式庫，可在 .NET 應用程式中實現無縫影像處理和操作。在本指南中，我們將重點放在使用 Aspose.PSD 庫創建引人注目的線條。
@@ -115,3 +121,9 @@ using (Image image = new PsdImage(100, 100))
 ### Q5：我需要 Aspose.PSD for .NET 的臨時授權嗎？
 
  A5：如果需要，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

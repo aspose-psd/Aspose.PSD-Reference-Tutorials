@@ -3,10 +3,16 @@ title: Aspose.PSD Java kullanarak PSD Dosyalarındaki Katmanları Düzleştirin
 linktitle: Aspose.PSD Java kullanarak PSD Dosyalarındaki Katmanları Düzleştirin
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki katmanları zahmetsizce düzleştirin ve birleştirin. PSD dosya yönetiminizi basitleştirmek için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java kullanarak PSD Dosyalarındaki Katmanları Düzleştirin
+
 ## giriiş
 
 Kendinizi hiç Photoshop dosyalarıyla çalışırken buldunuz mu ve bu karmaşık katmanları yönetmenin daha kolay bir yolunu istediniz mi? Şanslısın! Bugün, PSD dosyalarıyla programlı olarak çalışmayı kolaylaştıran güçlü bir araç olan Aspose.PSD for Java dünyasına dalıyoruz. Keşfedeceğimiz kullanışlı özelliklerden biri katmanları düzleştirmektir. İster bir görüntünün tamamını düzleştirmek, ister belirli katmanları seçerek birleştirmek isteyin, Aspose.PSD for Java ihtiyacınızı karşılar. Bu eğitim, süreç boyunca size adım adım rehberlik edecek ve PSD dosyalarınızla güvenle ilgilenmeye hazır olmanızı sağlayacaktır.
@@ -150,3 +156,9 @@ Evet, Aspose.PSD'yi kullanarak katmanları farklı karıştırma modlarıyla bir
 
 ### Bitişik olmayan katmanları birleştirmeye çalışırsam ne olur?  
 Aspose.PSD, katman yığınındaki sıralarına bakılmaksızın tüm katmanları birleştirmenize olanak tanır. Birleştirme işlemi seçilen katmanları belirtildiği gibi birleştirecektir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajuste a gama de uma imagem com Aspose.PSD para Java
 linktitle: Ajustar gama de uma imagem
 second_title: API Java Aspose.PSD
 description: Aprenda a ajustar a gama da imagem sem esforço usando Aspose.PSD para Java. Siga nosso guia passo a passo para obter os melhores resultados.
-type: docs
 weight: 23
 url: /pt/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajuste a gama de uma imagem com Aspose.PSD para Java
+
 ## Introdução
 
 No domínio do processamento de imagens, ajustar a gama de uma imagem é um passo crucial para melhorar o seu apelo visual. Aspose.PSD para Java oferece uma solução poderosa para desenvolvedores Java manipularem facilmente a gama de imagens. Neste tutorial, exploraremos como ajustar gama usando Aspose.PSD, detalhando cada etapa para garantir uma implementação perfeita.
@@ -108,3 +114,9 @@ Parabéns! Você ajustou com sucesso a gama de uma imagem usando Aspose.PSD para
 ### Q5: Onde posso procurar suporte para Aspose.PSD?
 
  A5: Para suporte, visite o fórum Aspose.PSD em[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

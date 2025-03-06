@@ -3,10 +3,16 @@ title: إضافة تأثيرات متدرجة إلى الصور في Aspose.PSD 
 linktitle: إضافة تأثيرات متدرجة على الصور
 second_title: Aspose.PSD.NET API
 description: قم بتحسين صورك بتأثيرات متدرجة جذابة باستخدام Aspose.PSD لـ .NET. اتبع البرنامج التعليمي خطوة بخطوة للتحولات البصرية الإبداعية.
-type: docs
 weight: 11
 url: /ar/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة تأثيرات متدرجة إلى الصور في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 يمكن أن يؤدي تحسين الصور بتأثيرات متدرجة إلى إضافة بُعد آسر إلى المحتوى المرئي الخاص بك. يوفر Aspose.PSD for .NET منصة قوية لدمج التراكبات المتدرجة في صورك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة تأثيرات التدرج باستخدام Aspose.PSD لـ .NET.
@@ -148,3 +154,9 @@ A1: نعم، يمكنك تطبيق تأثيرات التدرج على طبقات
 ### س5: أين يمكنني شراء Aspose.PSD لـ .NET؟
 
  ج5: يمكنك شراء المكتبة من[Aspose.PSD لصفحة شراء .NET](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

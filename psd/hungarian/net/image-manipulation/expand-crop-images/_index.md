@@ -3,10 +3,16 @@ title: Képek kibontása és kivágása az Aspose.PSD-ben .NET-hez
 linktitle: Képek kibontása és kivágása
 second_title: Aspose.PSD .NET API
 description: Ismerje meg, hogyan lehet dinamikusan bővíteni és körbevágni képeket az Aspose.PSD for .NET használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes képkezeléshez.
-type: docs
 weight: 13
 url: /hu/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek kibontása és kivágása az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 Az Aspose.PSD for .NET egy átfogó képalkotó könyvtár, amely lehetővé teszi a fejlesztők számára, hogy különféle képformátumokkal dolgozzanak .NET-alkalmazásaikban. Egyik kiemelkedő tulajdonsága a képek egyszerű manipulálása. Ebben az oktatóanyagban a képek kibontására és kivágására összpontosítunk, és gyakorlati útmutatót adunk ezeknek a feladatoknak az Aspose.PSD használatával való végrehajtásához.
@@ -98,3 +104,9 @@ Gratulálok! Sikeresen megtanulta, hogyan bővítheti és vághatja le a képeke
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.PSD-t .NET-hez?
 
  V5: Megvásárolhatja a könyvtárat a[Aspose.PSD vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

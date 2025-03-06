@@ -3,10 +3,16 @@ title: دعم الطبقات بتنسيق AI باستخدام Aspose.PSD لـ .N
 linktitle: دعم الطبقات بتنسيق AI باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: تعلم كيفية التعامل مع طبقات تنسيق الذكاء الاصطناعي بسهولة باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل والمعالجة السلسة.
-type: docs
 weight: 10
 url: /ar/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم الطبقات بتنسيق AI باستخدام Aspose.PSD لـ .NET
+
 مرحبًا بك في دليلنا خطوة بخطوة حول الاستفادة من Aspose.PSD لـ .NET للتعامل مع الطبقات الداعمة في ملفات بتنسيق AI. يعمل Aspose.PSD على تبسيط المهام المعقدة، مما يسهل على المطورين العمل مع ملفات AI في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سنقوم بتغطية المتطلبات الأساسية واستيراد مساحات الأسماء وتقسيم كل مثال إلى خطوات متعددة لضمان تجربة تعليمية سلسة.
 ## مقدمة
 ### ما هو Aspose.PSD؟
@@ -85,3 +91,9 @@ A1: نعم، Aspose.PSD متوافق مع أحدث إصدارات .NET Framework
 ### س5: ما هي تنسيقات الصور المدعومة للحفظ بواسطة Aspose.PSD؟
 
 ج5: يدعم Aspose.PSD التنسيقات المختلفة، بما في ذلك PSD وPNG وJPEG والمزيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

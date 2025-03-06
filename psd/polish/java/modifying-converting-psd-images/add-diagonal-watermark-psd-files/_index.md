@@ -3,10 +3,16 @@ title: Dodaj ukośny znak wodny do plików PSD za pomocą Java
 linktitle: Dodaj ukośny znak wodny do plików PSD za pomocą Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak łatwo dodać ukośny znak wodny do plików PSD przy użyciu Java z Aspose.PSD. Przewodnik krok po kroku, jak pewnie poprawić swoje zdjęcia.
-type: docs
 weight: 12
 url: /pl/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj ukośny znak wodny do plików PSD za pomocą Java
+
 ## Wstęp
 W dzisiejszym cyfrowym świecie posiadanie uderzającego obrazu może mieć ogromne znaczenie. Niezależnie od tego, czy jesteś projektantem chcącym chronić swoją pracę, czy marketerem chcącym dodać branding do obrazów, zastosowanie znaku wodnego jest niezbędne. W tym samouczku omówimy, jak dodać ukośny znak wodny do plików PSD przy użyciu Java i Aspose.PSD, potężnej biblioteki do manipulowania plikami PSD.
 ## Warunki wstępne
@@ -97,3 +103,9 @@ Absolutnie! Można dostosować wartość alfa w SolidBrush, aby zmienić przezro
  Tak, możesz zadzwonić do`drawString` metodę wielokrotnie z różnymi parametrami, aby dodać więcej znaków wodnych.
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PSD?
  Możesz sprawdzić dokumentację[Tutaj](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

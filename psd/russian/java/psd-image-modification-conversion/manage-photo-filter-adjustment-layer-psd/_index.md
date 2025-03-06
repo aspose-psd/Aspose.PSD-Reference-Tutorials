@@ -3,10 +3,16 @@ title: Управление корректирующим слоем фотофи
 linktitle: Управление корректирующим слоем фотофильтра в PSD — Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как управлять корректирующими слоями фотофильтра в файлах PSD с помощью Aspose.PSD для Java. Следуйте этому руководству, чтобы без труда редактировать и добавлять фильтры.
-type: docs
 weight: 24
 url: /ru/java/psd-image-modification-conversion/manage-photo-filter-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление корректирующим слоем фотофильтра в PSD — Java
+
 ## Введение
 Вы разработчик, желающий расширить свои возможности редактирования графики с помощью Java? Ну, вы в правильном месте! Сегодня мы углубимся в то, как управлять корректирующими слоями фотофильтра с помощью Aspose.PSD для Java. Эта мощная библиотека позволяет легко манипулировать PSD-файлами, обеспечивая эффективный рабочий процесс в графическом дизайне. Если вы хотите добавить эффекты или отредактировать существующие слои, мы предоставим вам пошаговое руководство, которое упростит этот процесс.
 ## Предварительные условия
@@ -107,3 +113,9 @@ Aspose.PSD — это библиотека .NET и Java для создания,
  Вы можете купить программное обеспечение у[эта ссылка](https://purchase.aspose.com/buy).
 ### Доступна ли поддержка Aspose.PSD?
  Абсолютно! Вы можете получить поддержку через форум поддержки Aspose.[здесь](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

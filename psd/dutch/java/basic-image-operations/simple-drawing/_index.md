@@ -3,10 +3,16 @@ title: Voer eenvoudig tekenen uit met Aspose.PSD voor Java
 linktitle: Voer een eenvoudige tekening uit
 second_title: Aspose.PSD Java-API
 description: Leer hoe u vormen in PSD-bestanden tekent met Aspose.PSD voor Java. Deze stapsgewijze handleiding behandelt het maken, toevoegen van lagen en tekenen met codevoorbeelden.
-type: docs
 weight: 10
 url: /nl/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voer eenvoudig tekenen uit met Aspose.PSD voor Java
+
 ## Invoering
 
 Welkom bij deze stapsgewijze handleiding voor het uitvoeren van eenvoudige tekeningen met Aspose.PSD voor Java! In deze zelfstudie verkennen we de basisprincipes van het maken van een nieuw PSD-document, het toevoegen van lagen en het tekenen van vormen met verschillende kleuren. Aspose.PSD voor Java is een krachtige bibliotheek waarmee u PSD-bestanden programmatisch kunt manipuleren, waardoor uitgebreide functionaliteit wordt geboden voor grafische ontwerptaken.
@@ -125,3 +131,9 @@ A1: Ja, Aspose.PSD voor Java biedt uitgebreide functionaliteit voor het bewerken
 ### V5: Zijn er tijdelijke licenties beschikbaar voor Aspose.PSD voor Java?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

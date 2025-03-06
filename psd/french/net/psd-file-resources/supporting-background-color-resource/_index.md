@@ -3,10 +3,16 @@ title: Prise en charge de la ressource de couleur d'arrière-plan dans Aspose.PS
 linktitle: Ressource de couleur d’arrière-plan prise en charge
 second_title: API Aspose.PSD.NET
 description: Maîtrisez Aspose.PSD pour .NET avec notre guide étape par étape. Manipulez les images PSD sans effort. Téléchargez votre essai gratuit maintenant !
-type: docs
 weight: 10
 url: /fr/net/psd-file-resources/supporting-background-color-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de la ressource de couleur d'arrière-plan dans Aspose.PSD pour .NET
+
 ## Introduction
 Libérez tout le potentiel d’Aspose.PSD pour .NET en plongeant dans un didacticiel complet. Ce guide vous fournira les connaissances nécessaires pour exploiter efficacement les capacités d'Aspose.PSD. Que vous soyez un développeur chevronné ou un débutant, suivez-nous pendant que nous décomposons chaque aspect en étapes gérables, rendant ainsi votre parcours avec Aspose.PSD fluide.
 ## Conditions préalables
@@ -89,3 +95,9 @@ A2 : Oui, vous pouvez utiliser Aspose.PSD dans des projets commerciaux et non co
 ### Q5 : Comment obtenir un permis temporaire ?
 
  A5 : Suivez les étapes indiquées sur le[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

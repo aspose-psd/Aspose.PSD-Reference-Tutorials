@@ -3,10 +3,16 @@ title: Adicionar suporte de camada para arquivos PSD usando Aspose.PSD Java
 linktitle: Adicionar suporte de camada para arquivos PSD usando Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Gerencie e converta facilmente arquivos PSD com camadas para o formato PNG usando Aspose.PSD para Java! Perfeito para desenvolvedores que precisam de manipulação gráfica.
-type: docs
 weight: 13
 url: /pt/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar suporte de camada para arquivos PSD usando Aspose.PSD Java
+
 ## Introdução
 No mundo do design gráfico e da arte digital, trabalhar com arquivos PSD (Photoshop Document) é a norma. Esses arquivos geralmente contêm múltiplas camadas que podem ser manipuladas de forma independente, oferecendo flexibilidade e criatividade. Mas o que acontece quando você precisa trabalhar com esses arquivos em uma aplicação Java? Bem, é aqui que o Aspose.PSD entra em ação! Neste artigo, veremos como adicionar suporte de camada para arquivos PSD usando Aspose.PSD para Java. Dividiremos isso em etapas fáceis de seguir, tornando-o acessível para qualquer pessoa, do iniciante ao profissional.
 ## Pré-requisitos
@@ -101,3 +107,9 @@ Sim! Embora seja principalmente para arquivos PSD, o Aspose também oferece bibl
  Você pode acessar o suporte no fórum Aspose[aqui](https://forum.aspose.com/c/psd/34).
 ### Posso converter de PNG para PSD?
 A biblioteca Aspose.PSD concentra-se mais na leitura e manipulação de arquivos PSD do que na conversão de outros formatos de volta para PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

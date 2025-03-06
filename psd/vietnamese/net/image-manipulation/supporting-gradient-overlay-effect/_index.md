@@ -3,10 +3,16 @@ title: Hỗ trợ hiệu ứng lớp phủ chuyển màu trong Aspose.PSD cho .N
 linktitle: Hỗ trợ hiệu ứng lớp phủ chuyển màu
 second_title: API Aspose.PSD .NET
 description: Nâng cao đồ họa trong .NET với Aspose.PSD. Hướng dẫn này hướng dẫn bạn cách hỗ trợ Hiệu ứng lớp phủ chuyển màu.
-type: docs
 weight: 18
 url: /vi/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ hiệu ứng lớp phủ chuyển màu trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách hỗ trợ Hiệu ứng lớp phủ chuyển màu trong Aspose.PSD cho .NET! Nếu bạn đang tìm cách nâng cao khả năng đồ họa của ứng dụng .NET, hướng dẫn từng bước này sẵn sàng hỗ trợ bạn. Chúng ta sẽ đi sâu vào sự phức tạp của việc tạo và chỉnh sửa Hiệu ứng lớp phủ chuyển màu trong một lớp bằng Aspose.PSD, một thư viện mạnh mẽ giúp đơn giản hóa việc xử lý hình ảnh.
@@ -133,3 +139,9 @@ Câu trả lời 2: Có, bạn có thể áp dụng nhiều hiệu ứng khác n
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

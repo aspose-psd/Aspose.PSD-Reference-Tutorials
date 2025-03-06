@@ -3,10 +3,16 @@ title: Atur Opasitas Isi untuk Lapisan PSD dengan Aspose.PSD Java
 linktitle: Atur Opasitas Isi untuk Lapisan PSD dengan Aspose.PSD Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengatur opacity isian untuk lapisan PSD menggunakan Aspose.PSD untuk Java dalam panduan langkah demi langkah ini. Tingkatkan proyek desain grafis Anda secara efisien.
-type: docs
 weight: 13
 url: /id/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Opasitas Isi untuk Lapisan PSD dengan Aspose.PSD Java
+
 ## Perkenalan
 Apakah Anda sering mengubah file desain, mencoba mencapai efek visual yang sempurna? Baik Anda seorang desainer grafis berpengalaman atau pengembang pemula yang ingin memanipulasi file PSD, mengetahui cara menyesuaikan properti lapisan dapat membuat perbedaan besar. Hari ini, kita akan mendalami cara mengatur opacity isian untuk lapisan dalam file PSD menggunakan Aspose.PSD untuk Java. Siap mengubah lapisan Anda menjadi potongan yang menarik? Mari kita mulai!
 ## Prasyarat
@@ -74,3 +80,9 @@ Ya, dengan melakukan iterasi melalui lapisan menggunakan loop, Anda dapat mengat
 Selain opacity isian, Anda dapat memanipulasi visibilitas lapisan, mode campuran, posisi, ukuran, dan lainnya menggunakan Aspose.PSD.
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PSD untuk Java?
  Anda dapat merujuk ke dokumentasi komprehensif[Di Sini](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

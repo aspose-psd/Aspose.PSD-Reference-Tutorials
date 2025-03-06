@@ -3,10 +3,16 @@ title: Thay thế màu trong tệp PSD bằng Aspose.PSD cho Java
 linktitle: Thay thế màu trong tệp PSD bằng Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thay thế màu trong tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước dễ dàng này để xử lý hình ảnh của bạn một cách hiệu quả.
-type: docs
 weight: 21
 url: /vi/java/modifying-converting-psd-images/color-replacement-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay thế màu trong tệp PSD bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 Bạn đang muốn thao tác các tệp PSD của mình theo chương trình? Bạn đã đến đúng nơi! Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu bước chân vào thế giới xử lý hình ảnh, việc sử dụng Aspose.PSD cho Java giúp việc thay thế màu trong các tệp PSD trở nên dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá cách dễ dàng thay thế các màu cụ thể trong tệp PSD của bạn chỉ bằng một vài dòng mã. Hãy uống một tách cà phê và cùng bắt tay vào thực hiện nào!
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Aspose.PSD cho Java là một thư viện mạnh mẽ cho phép các nhà phát 
  Nếu gặp bất kỳ vấn đề gì, bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34) để được hỗ trợ.
 ### Làm thế nào tôi có thể có được giấy phép tạm thời?
  Bạn có thể yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm một cách đầy đủ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

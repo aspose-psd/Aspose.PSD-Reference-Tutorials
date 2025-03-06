@@ -3,10 +3,16 @@ title: Werken met tijdlijn in Aspose.PSD voor .NET
 linktitle: Werken met tijdlijn
 second_title: Aspose.PSD .NET-API
 description: Verbeter PSD-beeldmanipulatie met Aspose.PSD voor .NET Timeline-klasse. Beheer frame-eigenschappen en laagstatussen en ontketen moeiteloos creatieve mogelijkheden.
-type: docs
 weight: 16
 url: /nl/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met tijdlijn in Aspose.PSD voor .NET
+
 ## Invoering
 In de dynamische wereld van grafisch ontwerp en beeldmanipulatie is het vermogen om de tijdlijn van afbeeldingen te controleren en te manipuleren cruciaal. Aspose.PSD voor .NET biedt een krachtige oplossing met zijn Timeline-klasse. Met deze hoogwaardige functie kunnen gebruikers wijzigingen aanbrengen in de tijdlijn van PsdImage, zoals het wijzigen van framevertraging, het bewerken van laagstatussen op specifieke frames en meer.
 ## Vereisten
@@ -108,3 +114,9 @@ A2: De klasse Tijdlijn is speciaal ontworpen voor PSD-afbeeldingen. Voor GIF-man
 ### V5: Wat zijn de belangrijkste voordelen van het gebruik van Aspose.PSD voor .NET?
 
 A5: Aspose.PSD voor .NET biedt geavanceerde beeldverwerkingsmogelijkheden, manipulatie van PSD-bestanden en hoogwaardige weergave.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

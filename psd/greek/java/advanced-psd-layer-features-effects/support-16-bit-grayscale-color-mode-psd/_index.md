@@ -3,10 +3,16 @@ title: Υποστήριξη 16-bit Grayscale Color Mode σε PSD - Java
 linktitle: Υποστήριξη 16-bit Grayscale Color Mode σε PSD - Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να εφαρμόζετε τη λειτουργία χρώματος κλίμακας του γκρι 16-bit σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java με αυτόν τον αναλυτικό, βήμα προς βήμα εκμάθηση.
-type: docs
 weight: 11
 url: /el/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υποστήριξη 16-bit Grayscale Color Mode σε PSD - Java
+
 ## Εισαγωγή
 Όταν βουτάτε στον κόσμο της γραφιστικής και της χειραγώγησης εικόνας, η κατανόηση του τρόπου εργασίας με διαφορετικές λειτουργίες χρώματος είναι σαν να έχετε ένα μυστικό όπλο. Ειδικότερα, η κλίμακα του γκρι 16-bit μπορεί να αλλάξει το παιχνίδι, δίνοντας στις εικόνες σας αυτό το εκπληκτικό βάθος και λεπτομέρεια που τις κάνει πραγματικά λαμπερές. Λοιπόν, είστε έτοιμοι να εξερευνήσετε αυτήν την ισχυρή δυνατότητα χρησιμοποιώντας το Aspose.PSD για Java; Εάν έχετε έτοιμο τον εξοπλισμό κωδικοποίησης, ας περάσουμε αμέσως σε αυτό.
 ## Προαπαιτούμενα
@@ -126,3 +132,9 @@ finally {
  Μπορείτε να ελέγξετε το[απόδειξη με έγγραφα](https://reference.aspose.com/psd/java/) για πιο αναλυτικά παραδείγματα και σεμινάρια.
 ### Πώς μπορώ να αγοράσω άδεια χρήσης για το Aspose.PSD;
  Μπορείτε να αγοράσετε μια άδεια μεταβαίνοντας στο[Σελίδα αγοράς Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

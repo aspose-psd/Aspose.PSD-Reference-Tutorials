@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntülere Renk Efektlerini Kaplama
 linktitle: Renk Efektlerini Görüntülere Yerleştirme
 second_title: Aspose.PSD .NET API'si
 description: Renk efektlerinin üst üste bindirilmesiyle ilgili eğitimimizle Aspose.PSD for .NET'in büyüsünü keşfedin. Görüntü işleme oyununuzu zahmetsizce yükseltin.
-type: docs
 weight: 11
 url: /tr/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntülere Renk Efektlerini Kaplama
+
 ## giriiş
 
 Aspose.PSD for .NET, görüntü işleme için güçlü bir dizi özellik sunarak geliştiricilerin çarpıcı efektleri zahmetsizce elde etmelerine olanak tanır. Bu yeteneklerden biri, görüntülerin üzerine renk efektlerinin yerleştirilmesidir. Bu eğitimde ColorOverlay efektine odaklanacağız ve bunun bir görüntüye nasıl uygulanarak görsel çekiciliğini dönüştüreceğini göstereceğiz.
@@ -98,3 +104,9 @@ Cevap3: Evet, ücretsiz deneme sürümünü indirerek Aspose.PSD for .NET'in yet
 ### S5: Aspose.PSD for .NET için geçici bir lisans alabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

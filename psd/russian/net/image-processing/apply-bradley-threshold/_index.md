@@ -3,10 +3,16 @@ title: Применение порога Брэдли в Aspose.PSD для .NET
 linktitle: Применение порога Брэдли
 second_title: Aspose.PSD .NET API
 description: Улучшите сегментацию изображений с помощью Bradley Threshold в Aspose.PSD для .NET. Пошаговое руководство по эффективной бинаризации.
-type: docs
 weight: 15
 url: /ru/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение порога Брэдли в Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по применению порога Брэдли в Aspose.PSD для .NET. Aspose.PSD для .NET — это мощная библиотека, позволяющая работать с файлами Photoshop в ваших .NET-приложениях. Bradley Thresholding — это метод, используемый для бинаризации изображений, помогающий эффективно отделять объекты от фона.
@@ -90,3 +96,9 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 ### В5: Где я могу приобрести лицензию на Aspose.PSD?
 
  A5: Вы можете купить лицензию[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

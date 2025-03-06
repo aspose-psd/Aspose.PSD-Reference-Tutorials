@@ -3,10 +3,16 @@ title: PSD 파일 조작
 linktitle: PSD 파일 조작
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 AI 형식 레이어를 손쉽게 처리하세요. PSD 이미지를 GIF로 내보내고, 애니메이션 데이터 섹션을 처리하고, 레이어 상태를 조작하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/psd-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 파일 조작
+
 ## 소개
 
 .NET용 Aspose.PSD를 사용하여 PSD 조작 기술을 마스터하세요. AI 형식 레이어 처리부터 GIF 내보내기, 애니메이션 데이터 섹션 탐색까지 이 튜토리얼 시리즈가 원활하게 안내합니다. 레이어 상태 효과, 타임라인, 효율적인 자르기를 통해 이미지를 향상하세요. .NET용 Aspose.PSD는 최적의 이미지 내보내기를 위한 단계별 튜토리얼과 멀티스레드 환경을 제공하여 창의적인 여정을 강화합니다. .NET용 Aspose.PSD를 사용하여 기술을 향상하고 디자인 경험을 변화시키세요.
@@ -77,3 +83,9 @@ Aspose.PSD를 사용하여 .NET에서 PSD 이미지를 GIF 형식으로 내보�
 다목적 툴킷인 Aspose.PSD를 사용하여 .NET에서 PSD 파일 자르기 기술을 살펴보세요. 이미지 조작 게임을 쉽게 향상시켜 보세요.
 ### [.NET용 Aspose.PSD를 사용하여 멀티스레드 환경에서 이미지 내보내기](./export-images-multi-thread/)
 Aspose.PSD를 사용하여 .NET 이미지 처리 향상: 멀티스레드 환경에서 이미지를 내보냅니다. 손쉽게 성능과 효율성을 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

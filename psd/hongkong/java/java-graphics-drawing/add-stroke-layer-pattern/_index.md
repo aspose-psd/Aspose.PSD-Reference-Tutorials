@@ -3,10 +3,16 @@ title: 如何在 Java 中加入描邊圖層圖案
 linktitle: 如何在 Java 中加入描邊圖層圖案
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 將描邊圖層圖案新增至 PSD 檔案。請按照此逐步指南輕鬆增強您的影像。
-type: docs
 weight: 11
 url: /zh-hant/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何在 Java 中加入描邊圖層圖案
+
 ## 介紹
 在 Java 中為影像添加描邊圖層圖案可能聽起來是一項艱鉅的任務，但使用 Aspose.PSD for Java，這比您想像的要容易。無論您是設計圖形還是使用照片編輯應用程序，本指南都將逐步引導您完成整個過程。準備好開始了嗎？讓我們深入了解吧！
 ## 先決條件
@@ -138,3 +144,9 @@ Aspose.PSD for Java 是一個函式庫，可讓開發人員以程式設計方式
 您可以從 Aspose 社群論壇獲得支持[這裡](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD for Java 有哪些系統需求？
 您需要安裝 JDK 和 IDE 來進行開發。該庫支援多種作業系統，包括 Windows、Linux 和 macOS。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

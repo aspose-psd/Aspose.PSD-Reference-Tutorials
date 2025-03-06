@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 직사각형으로 이미지 자르기
 linktitle: 직사각형으로 이미지 자르기
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java의 원활한 이미지 자르기 기능을 살펴보세요. Java용 Aspose.PSD를 사용하여 이미지를 쉽게 자르려면 단계별 가이드를 따르세요.
-type: docs
 weight: 15
 url: /ko/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 직사각형으로 이미지 자르기
+
 ## 소개
 
 Java 개발 세계에서 이미지 조작은 일반적인 작업이며 Java용 Aspose.PSD는 이미지 처리를 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지를 직사각형으로 자르는 과정을 안내합니다. 이를 쉽게 달성하려면 아래 단계를 따르십시오.
@@ -105,3 +111,9 @@ A1: 예, Java용 Aspose.PSD는 다양한 Java 프레임워크와 통합되어 �
 ### Q5: Java용 Aspose.PSD에서 자르기에 지원되는 이미지 형식은 무엇입니까?
 
 A5: Java용 Aspose.PSD는 PSD, PNG, JPEG 등을 포함한 다양한 이미지 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

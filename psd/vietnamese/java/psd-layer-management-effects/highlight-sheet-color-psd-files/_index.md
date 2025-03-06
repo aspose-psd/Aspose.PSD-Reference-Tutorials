@@ -3,10 +3,16 @@ title: Đánh dấu màu trang tính trong tệp PSD bằng cách sử dụng As
 linktitle: Đánh dấu màu trang tính trong tệp PSD bằng cách sử dụng Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách đánh dấu màu trang tính trong tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để nâng cao kỹ năng xử lý hình ảnh của bạn trong Java.
-type: docs
 weight: 19
 url: /vi/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đánh dấu màu trang tính trong tệp PSD bằng cách sử dụng Aspose.PSD Java
+
 ## Giới thiệu
 
 Bạn đang muốn đi sâu vào thao tác hình ảnh và nâng cao khả năng sáng tạo kỹ thuật số của mình bằng Java? Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, làm việc với các tệp PSD có thể mở ra vô số khả năng. Các tệp PSD là tiêu chuẩn công nghiệp để chỉnh sửa hình ảnh theo lớp và với sức mạnh của Aspose.PSD dành cho Java, bạn có thể dễ dàng thao tác các tệp này trong các ứng dụng Java của mình. Hôm nay, chúng ta sẽ hướng dẫn cách làm nổi bật màu sắc của trang tính trong tệp PSD, đảm bảo thiết kế của bạn nổi bật theo cách sống động nhất có thể.
@@ -142,3 +148,9 @@ Khi các thay đổi được lưu vào một tệp, chúng không thể đượ
 
 ### Tôi có thể đánh dấu nhiều lớp cùng một lúc trong tệp PSD không?
 Có, bạn có thể lặp qua các lớp trong tệp PSD và áp dụng vùng đánh dấu màu trang tính mong muốn cho từng lớp riêng lẻ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

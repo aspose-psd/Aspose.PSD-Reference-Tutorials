@@ -3,10 +3,16 @@ title: Implementing Brightness Adjustment in Aspose.PSD for .NET
 linktitle: Implementing Brightness Adjustment
 second_title: Aspose.PSD .NET API
 description: Explore the power of Aspose.PSD for .NET in adjusting image brightness. Follow our step-by-step guide for seamless implementation.
-type: docs
 weight: 10
 url: /net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementing Brightness Adjustment in Aspose.PSD for .NET
+
 ## Introduction
 
 Enhancing and adjusting image attributes is a common requirement in various applications, and Aspose.PSD for .NET provides a powerful solution for manipulating PSD files seamlessly. One such manipulation is brightness adjustment, allowing you to modify the brightness of an image effortlessly.
@@ -97,3 +103,10 @@ A4: For support, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
 ### Q5: How do I obtain a temporary license for Aspose.PSD for .NET?
 
 A5: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

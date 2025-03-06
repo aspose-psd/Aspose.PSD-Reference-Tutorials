@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntüleri Kaydırarak Kırpma
 linktitle: Görüntüleri Kaydırarak Kırpma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'i kullanarak görüntüleri zahmetsizce kırpmayı öğrenin. Hassas görüntü ayarları için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntüleri Kaydırarak Kırpma
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.PSD, görüntü işleme görevleri için güçlü bir araç seti olarak öne çıkıyor. Dikkate değer özelliklerinden biri, 'Vardiyalarla Kırpma' işlevi sayesinde görüntüleri hassas bir şekilde kırpabilme yeteneğidir. Bu adım adım kılavuzda, Aspose.PSD for .NET kullanarak görüntüleri sorunsuz bir şekilde kırpma sürecinde size yol göstereceğiz.
@@ -105,3 +111,10 @@ Cevap1: Evet, Aspose.PSD çeşitli görüntü formatlarını destekleyerek JPEG,
 ### S5: Aspose.PSD for .NET'i doğrudan web sitesinden satın alabilir miyim?
 
  Cevap5: Evet, kütüphaneyi güvenli bir şekilde satın alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

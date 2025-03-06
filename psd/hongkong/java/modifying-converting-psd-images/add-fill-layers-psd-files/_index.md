@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中將填充層新增至 PSD 文件
 linktitle: 在 Aspose.PSD for Java 中將填充層新增至 PSD 文件
 second_title: Aspose.PSD Java API
 description: 透過我們的逐步指南，了解如何使用 Aspose.PSD 在 Java 中為 PSD 檔案新增填充層。增強您的設計。
-type: docs
 weight: 13
 url: /zh-hant/java/modifying-converting-psd-images/add-fill-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中將填充層新增至 PSD 文件
+
 ## 介紹
 如果您曾經涉足過圖形設計或處理過 Photoshop 文檔，您就會知道圖層的重要性。圖層可讓您建立構圖、保持元素獨特並套用效果，而不會損失原始影像品質。今天，我們將重點介紹如何使用 Aspose.PSD for Java 為 PSD 檔案新增填充層。它不僅簡單，而且是增強設計的好方法，無需任何繁瑣的手動流程。
 ## 先決條件
@@ -90,3 +96,9 @@ psdImage.dispose();
 您可以存取完整的文檔[這裡](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD 有支持社區嗎？
 是的，您可以從 Aspose 論壇上的社區獲得幫助[這裡](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

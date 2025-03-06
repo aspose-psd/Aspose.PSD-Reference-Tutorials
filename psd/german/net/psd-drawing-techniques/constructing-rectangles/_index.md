@@ -3,10 +3,16 @@ title: Erstellen von Rechtecken in Aspose.PSD für .NET
 linktitle: Rechtecke konstruieren
 second_title: Aspose.PSD .NET API
 description: Entdecken Sie die Kunst des Zeichnens von Rechtecken in .NET mit Aspose.PSD. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Integration. Verbessern Sie Ihre Bildbearbeitung mühelos.
-type: docs
 weight: 15
 url: /de/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen von Rechtecken in Aspose.PSD für .NET
+
 ## Einführung
 
 Im dynamischen Bereich der .NET-Entwicklung sticht Aspose.PSD als leistungsstarkes Tool zur Bildbearbeitung hervor. Dieses Tutorial konzentriert sich auf eine grundlegende Aufgabe: das Erstellen von Rechtecken mit Aspose.PSD für .NET. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess und stellt sicher, dass Sie jedes Konzept gründlich verstehen.
@@ -94,3 +100,9 @@ A4: Die Verwendung von 32 Bpp ermöglicht eine sattere Farbdarstellung und somit
 ### F5: Gibt es eine kostenlose Testversion für Aspose.PSD?
 
  A5: Ja, Sie können Aspose.PSD mit einer kostenlosen Testversion erkunden. Laden Sie es herunter[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

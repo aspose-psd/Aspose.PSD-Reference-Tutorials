@@ -3,10 +3,16 @@ title: Beskär bilder efter rektangel i Aspose.PSD för .NET
 linktitle: Beskär bilder efter rektangel
 second_title: Aspose.PSD .NET API
 description: Förbättra dina färdigheter i .NET-bildmanipulering med Aspose.PSD. Lär dig steg-för-steg bildbeskärning med hjälp av rektanglar för precision.
-type: docs
 weight: 11
 url: /sv/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beskär bilder efter rektangel i Aspose.PSD för .NET
+
 ## Introduktion
 
 Inom .NET-programmering är det en vanlig uppgift att manipulera och förbättra bilder, och Aspose.PSD för .NET är ett kraftfullt bibliotek som förenklar denna process. Den här handledningen fokuserar på en grundläggande men ändå avgörande teknik för bildmanipulering - beskära bilder med en rektangel. I slutet av den här guiden har du en gedigen förståelse för hur du beskära bilder med precision med Aspose.PSD för .NET.
@@ -110,3 +116,9 @@ S3: Aspose.PSD för .NET är utformad för att hantera bilder av olika storlekar
 ### F5: Var kan jag hitta ytterligare stöd eller hjälp?
 
  A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34)att få kontakt med samhället och söka stöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

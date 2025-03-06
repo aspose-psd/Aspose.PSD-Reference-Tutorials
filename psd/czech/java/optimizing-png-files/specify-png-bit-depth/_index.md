@@ -3,10 +3,16 @@ title: Zadejte bitovou hloubku PNG v Aspose.PSD pro Javu
 linktitle: Zadejte bitovou hloubku PNG v Aspose.PSD pro Javu
 second_title: Aspose.PSD Java API
 description: Zjistěte, jak určit bitovou hloubku PNG pomocí Aspose.PSD pro Javu v tomto podrobném návodu krok za krokem.
-type: docs
 weight: 14
 url: /cs/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zadejte bitovou hloubku PNG v Aspose.PSD pro Javu
+
 ## Zavedení
 Chcete zlepšit své dovednosti zpracování obrazu pomocí Aspose.PSD pro Java? Jste na správném místě! Tento tutoriál vás provede procesem zadávání bitové hloubky PNG při převodu souborů PSD do formátu PNG. S pomocí Aspose.PSD zjistíte, že manipulace s obrázky je docela jednoduchá. Ať už vyvíjíte malý osobní projekt nebo větší aplikaci, ovládání kvality obrazu prostřednictvím bitové hloubky může výrazně ovlivnit konečný výstup.
 ## Předpoklady
@@ -74,3 +80,9 @@ Ano, můžete si knihovnu vyzkoušet pomocí bezplatné zkušební verze, kterou
  O dočasnou licenci můžete požádat[zde](https://purchase.aspose.com/temporary-license/).
 ### Jaký typ obrázků mohu převést?
 Aspose.PSD se primárně zabývá soubory PSD, ale podporuje převod do různých formátů, jako je PNG, JPEG a TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bagaimana Menambahkan Gradien Lapisan Stroke di Java
 linktitle: Bagaimana Menambahkan Gradien Lapisan Stroke di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan dan menyesuaikan gradien lapisan guratan dalam file PSD menggunakan Aspose.PSD untuk Java dengan tutorial langkah demi langkah yang komprehensif ini.
-type: docs
 weight: 10
 url: /id/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bagaimana Menambahkan Gradien Lapisan Stroke di Java
+
 ## Perkenalan
 Pernah bertanya-tanya bagaimana cara menambahkan gradien lapisan guratan ke gambar Anda menggunakan Java? Nah, Anda berada di tempat yang tepat! Hari ini, kita menyelami dunia Aspose.PSD untuk Java, perpustakaan canggih yang membantu Anda memanipulasi file PSD dengan mudah. Baik Anda seorang pemula atau pengembang berpengalaman, panduan langkah demi langkah ini akan memandu Anda melalui proses menambahkan gradien lapisan guratan ke file PSD Anda. Jadi, bersiaplah dan bersiaplah untuk meningkatkan keterampilan mengedit grafis Anda!
 ## Prasyarat
@@ -156,3 +162,9 @@ Sangat! Aspose.PSD untuk Java menyediakan API komprehensif untuk membuat dan mem
 Ya, Anda dapat menerapkan berbagai efek seperti bayangan, cahaya, dan lainnya menggunakan Aspose.PSD untuk Java.
 ### Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk Java?
  Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

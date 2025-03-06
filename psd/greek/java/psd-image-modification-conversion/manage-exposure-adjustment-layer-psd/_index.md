@@ -3,10 +3,16 @@ title: Διαχειριστείτε το επίπεδο προσαρμογής �
 linktitle: Διαχειριστείτε το επίπεδο προσαρμογής έκθεσης σε PSD χρησιμοποιώντας Java
 second_title: Aspose.PSD Java API
 description: Βελτιώστε τις εικόνες PSD σας χωρίς κόπο με Java χρησιμοποιώντας το Aspose.PSD. Ακολουθήστε αυτόν τον οδηγό για να διαχειριστείτε τα επίπεδα προσαρμογής έκθεσης βήμα προς βήμα.
-type: docs
 weight: 23
 url: /el/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχειριστείτε το επίπεδο προσαρμογής έκθεσης σε PSD χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Όταν πρόκειται να εργαστείτε με αρχεία Photoshop μέσω προγραμματισμού, ειδικά εάν ασχολείστε με την επεξεργασία ή τη χειραγώγηση εικόνων, η βιβλιοθήκη Aspose.PSD για Java είναι πραγματικά μια αλλαγή του παιχνιδιού. Ένα από τα ισχυρά χαρακτηριστικά που μπορείτε να χρησιμοποιήσετε είναι το Exposure Adjustment Layer, το οποίο σας επιτρέπει να βελτιώσετε ή να τροποποιήσετε τις ρυθμίσεις έκθεσης των εικόνων σας απλά και αποτελεσματικά. Αυτό το σεμινάριο θα σας καθοδηγήσει σε κάθε βήμα για να διαχειριστείτε τα επίπεδα προσαρμογής έκθεσης σε ένα αρχείο PSD χρησιμοποιώντας Java.
 ## Προαπαιτούμενα
@@ -92,3 +98,9 @@ img.save(psdPathAfterChange);
  Μπορείτε να αποκτήσετε πρόσβαση στην υποστήριξη της κοινότητας στα φόρουμ του Aspose[εδώ](https://forum.aspose.com/c/psd/34).
 ### Υπάρχει διαθέσιμο δείγμα έργου για να ξεκινήσετε;
  Ναι, μπορείτε να βρείτε δείγματα έργων και τεκμηρίωσης στο[Σελίδα αναφοράς Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

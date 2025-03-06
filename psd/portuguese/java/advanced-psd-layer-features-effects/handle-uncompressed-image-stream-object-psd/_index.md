@@ -3,10 +3,16 @@ title: Lidar com objeto de fluxo de imagem não compactado em PSD - Java
 linktitle: Lidar com objeto de fluxo de imagem não compactado em PSD - Java
 second_title: API Java Aspose.PSD
 description: Domine o manuseio de fluxos de imagens não compactados em PSD usando Aspose.PSD para Java com este guia fácil de seguir. Perfeito para desenvolvedores e designers.
-type: docs
 weight: 26
 url: /pt/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidar com objeto de fluxo de imagem não compactado em PSD - Java
+
 ## Introdução
 Bem-vindo ao mundo da manipulação de imagens em Java! Hoje, estamos nos aprofundando no tratamento de objetos de fluxo de imagem não compactados usando Aspose.PSD para Java. Seja você um designer gráfico que busca automatizar seus fluxos de trabalho ou um desenvolvedor de software que busca integrar poderosas habilidades de processamento de imagens em seus aplicativos, este guia foi feito sob medida para você. Examinaremos tudo, desde os pré-requisitos até a conclusão, garantindo que você tenha um conhecimento sólido de como começar a usar o Aspose.PSD.
 ## Pré-requisitos
@@ -92,3 +98,9 @@ Aspose.PSD é uma biblioteca .NET que permite aos desenvolvedores criar, editar 
  Absolutamente! Você pode procurar ajuda no[Aspose fórum de suporte](https://forum.aspose.com/c/psd/34).
 ### Como posso obter uma licença temporária para Aspose.PSD?
  Basta visitar o[página de licença temporária](https://purchase.aspose.com/temporary-license/) para começar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

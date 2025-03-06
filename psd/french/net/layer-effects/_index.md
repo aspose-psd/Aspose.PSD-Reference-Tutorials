@@ -3,10 +3,16 @@ title: Effets de calque
 linktitle: Effets de calque
 second_title: API Aspose.PSD.NET
 description: Découvrez la magie des effets de calque avec Aspose.PSD pour .NET ! Améliorez vos compétences en manipulation d'images en apprenant à ajouter des modes de trait, d'ombre et de fusion.
-type: docs
 weight: 29
 url: /fr/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effets de calque
+
 ## Introduction
 
 Libérez tout le potentiel de vos efforts de manipulation d’images avec Aspose.PSD pour .NET. Ce guide complet vous présente une myriade d'effets de calque qui transformeront votre processus créatif. Des traits et ombres aux modes de fusion, rehaussez vos créations sans effort.
@@ -54,3 +60,9 @@ Améliorez vos images avec Aspose.PSD pour .NET ! Apprenez à prendre en charge
 Découvrez comment ajuster l'opacité de l'effet d'ombre dans Aspose.PSD pour .NET avec ce didacticiel complet.
 ### [Travailler avec les modes de fusion dans Aspose.PSD pour .NET](./working-with-blend-modes/)
 Explorez la puissance des modes de fusion dans Aspose.PSD pour .NET. Ce didacticiel vous guide dans l'application de différents modes de fusion avec des exemples étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

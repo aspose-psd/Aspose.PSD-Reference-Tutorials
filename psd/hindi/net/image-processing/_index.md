@@ -3,10 +3,16 @@ title: मूर्ति प्रोद्योगिकी
 linktitle: मूर्ति प्रोद्योगिकी
 second_title: Aspose.PSD .NET एपीआई
 description: .NET ट्यूटोरियल के लिए Aspose.PSD के साथ आसानी से छवि गुणवत्ता बढ़ाएँ। गॉसियन और वीनर फ़िल्टर, रंग रूपांतरण, बाइनरीकरण और बहुत कुछ जैसी तकनीकें सीखें।
-type: docs
 weight: 20
 url: /hi/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# मूर्ति प्रोद्योगिकी
+
 
 ## परिचय
 
@@ -46,3 +52,9 @@ Aspose.PSD for .NET डेवलपर्स को इमेज प्रोस
 .NET के लिए Aspose.PSD का उपयोग करके छवियों पर आसानी से ग्रेस्केल प्रभाव लागू करना सीखें।
 ### [.NET के लिए Aspose.PSD में ब्रैडली थ्रेशोल्ड लागू करना](./apply-bradley-threshold/)
 .NET के लिए Aspose.PSD में ब्रैडली थ्रेशोल्ड का उपयोग करके छवि विभाजन को बेहतर बनाएँ। प्रभावी बाइनरीकरण के लिए चरण-दर-चरण मार्गदर्शिका।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

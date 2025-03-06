@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 创建椭圆形
 linktitle: 使用 Aspose.PSD for .NET 创建椭圆形
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD 在 .NET 中绘制椭圆形。带有代码示例的分步指南。轻松创建令人惊叹的图形。
-type: docs
 weight: 13
 url: /zh/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 创建椭圆形
+
 ## 介绍
 
 欢迎阅读我们关于使用 Aspose.PSD for .NET 创建椭圆形的综合指南。Aspose.PSD 是一个功能强大的 .NET 库，允许开发人员操作和转换 Photoshop 文件，而无需 Adobe Photoshop。在本教程中，我们将引导您完成使用该库绘制椭圆形的过程。
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### Q5：我需要临时执照才能进行测试吗？
 
  A5：是的，您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

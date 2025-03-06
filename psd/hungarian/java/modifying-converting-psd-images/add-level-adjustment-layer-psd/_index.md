@@ -3,10 +3,16 @@ title: Szintbeállító réteg hozzáadása a PSD-hez
 linktitle: Szintbeállító réteg hozzáadása a PSD-hez
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan adhat hozzá hatékonyan Level Adjustment Layer-t PSD-fájljaihoz az Aspose.PSD for Java segítségével. Növelje képszerkesztési készségeit.
-type: docs
 weight: 16
 url: /hu/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szintbeállító réteg hozzáadása a PSD-hez
+
 ## Bevezetés
 Ami a képszerkesztést illeti, a szintek kezelése világméretű változást hozhat a fényképek élénkségében és tisztaságában. A Photoshop arzenáljának egyik praktikus eszköze a "Level Adjustment Layer", amely lehetővé teszi a képek tónustartományának és színegyensúlyának beállítását. Ebben az útmutatóban végigvezetjük, hogyan valósíthat meg egy szintbeállító réteget PSD-fájlban az Aspose.PSD for Java használatával. Tehát fogd meg a Java IDE-t.
 ## Előfeltételek
@@ -88,3 +94,9 @@ Igen! Az Aspose ingyenes próbaverziót kínál a könyvtár tesztelésére a v�
  Teljesen! Kérdéseket tehet fel és támogatást kérhet a[Aspose fórum](https://forum.aspose.com/c/psd/34).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
  Ideiglenes jogosítványt igényelhet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

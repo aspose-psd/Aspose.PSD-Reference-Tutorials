@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 创建索引 PSD 文件
 linktitle: 使用 Aspose.PSD for Java 创建索引 PSD 文件
 second_title: Aspose.PSD Java API
 description: 在我们的分步指南中学习如何使用 Aspose.PSD for Java 创建索引 PSD 文件。立即加入，探索无限的艺术可能性。
-type: docs
 weight: 23
 url: /zh/java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 创建索引 PSD 文件
+
 ## 介绍
 以编程方式创建图形不仅仅是一门艺术；它是技术和想象力的融合。这个创意领域的一个强大工具是 Aspose.PSD for Java，这是一个功能强大的库，允许开发人员处理 Photoshop 文档。在本教程中，我们将深入介绍如何使用 Aspose.PSD 创建索引 PSD 文件，并附带分步指南以帮助您入门。无论您是经验丰富的开发人员还是刚刚开始编码之旅，本指南都将引导您无缝完成整个过程。
 ## 先决条件
@@ -108,3 +114,9 @@ Aspose.PSD for Java 是一个库，可以使用 Java 以编程方式操作 PSD�
 您可以申请临时执照[这里](https://purchase.aspose.com/temporary-license/).
 ### 我可以在哪里获得 Aspose.PSD 的支持？
 您可以从 Aspose 论坛获得支持[这里](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

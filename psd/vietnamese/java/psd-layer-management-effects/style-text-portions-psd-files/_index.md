@@ -3,10 +3,16 @@ title: Tạo kiểu cho các phần văn bản trong tệp PSD bằng Java
 linktitle: Tạo kiểu cho các phần văn bản trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Làm chủ kiểu văn bản PSD với Aspose.PSD cho Java. Tìm hiểu cách sửa đổi, tạo và tạo kiểu cho các phần văn bản một cách dễ dàng. Nâng cao thiết kế PSD của bạn.
-type: docs
 weight: 22
 url: /vi/java/psd-layer-management-effects/style-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo kiểu cho các phần văn bản trong tệp PSD bằng Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ muốn thêm sức mạnh bổ sung đó vào các lớp văn bản của mình trong tệp PSD chưa? Aspose.PSD dành cho Java cung cấp cho bạn khả năng không chỉ thao tác văn bản mà còn tạo kiểu cho từng phần riêng lẻ với độ chính xác đáng kinh ngạc. Hướng dẫn toàn diện này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước, từ thiết lập môi trường cho đến tạo các thành phần văn bản có phong cách ấn tượng trong PSD của bạn.
@@ -177,3 +183,9 @@ Mặc dù không được hỗ trợ trực tiếp nhưng bạn có thể đạt
 
 ### Có bất kỳ hạn chế nào về số lượng phần văn bản hoặc ký tự có thể được xử lý không?
 Những hạn chế thực tế phụ thuộc vào tài nguyên hệ thống và độ phức tạp của tệp PSD. Tuy nhiên, Aspose.PSD cho Java được thiết kế để xử lý các tệp PSD lớn một cách hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

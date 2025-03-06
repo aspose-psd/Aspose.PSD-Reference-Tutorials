@@ -3,10 +3,16 @@ title: Thêm hỗ trợ lớp cho tệp PSD bằng cách sử dụng Aspose.PSD 
 linktitle: Thêm hỗ trợ lớp cho tệp PSD bằng cách sử dụng Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Dễ dàng quản lý và chuyển đổi các tệp PSD có lớp sang định dạng PNG bằng Aspose.PSD cho Java! Hoàn hảo cho các nhà phát triển cần thao tác đồ họa.
-type: docs
 weight: 13
 url: /vi/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hỗ trợ lớp cho tệp PSD bằng cách sử dụng Aspose.PSD Java
+
 ## Giới thiệu
 Trong thế giới thiết kế đồ họa và nghệ thuật kỹ thuật số, làm việc với các tệp PSD (Tài liệu Photoshop) là điều bình thường. Những tệp này thường chứa nhiều lớp có thể được thao tác độc lập, mang lại sự linh hoạt và sáng tạo. Nhưng điều gì sẽ xảy ra khi bạn cần làm việc với những tệp này trong ứng dụng Java? Chà, đây chính là lúc Aspose.PSD phát huy tác dụng! Trong bài viết này, chúng ta sẽ đi sâu vào cách thêm hỗ trợ lớp cho các tệp PSD bằng Aspose.PSD cho Java. Chúng tôi sẽ chia điều này thành các bước dễ thực hiện, giúp mọi người từ người mới bắt đầu đến chuyên nghiệp đều có thể tiếp cận được.
 ## Điều kiện tiên quyết
@@ -101,3 +107,9 @@ Aspose.PSD cho Java là thư viện .NET cho phép bạn thao tác với các t�
  Bạn có thể truy cập hỗ trợ trong diễn đàn Aspose[đây](https://forum.aspose.com/c/psd/34).
 ### Tôi có thể chuyển đổi lại từ PNG sang PSD không?
 Thư viện Aspose.PSD tập trung nhiều hơn vào việc đọc và thao tác với các tệp PSD hơn là chuyển đổi các định dạng khác trở lại PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

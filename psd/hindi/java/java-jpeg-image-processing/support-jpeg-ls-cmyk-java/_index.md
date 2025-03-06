@@ -3,10 +3,16 @@ title: जावा में CMYK के साथ JPEG-LS के लिए स
 linktitle: जावा में CMYK के साथ JPEG-LS के लिए समर्थन
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD का उपयोग करके Java में CMYK के साथ JPEG-LS का समर्थन करना सीखें। आसान इमेज प्रोसेसिंग और रूपांतरण के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
-type: docs
 weight: 21
 url: /hi/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में CMYK के साथ JPEG-LS के लिए समर्थन
+
 ## परिचय
 क्या आप जावा का उपयोग करके इमेज प्रोसेसिंग की दुनिया में गोता लगाना चाहते हैं? चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, जावा के लिए Aspose.PSD पर यह ट्यूटोरियल आपको CMYK कलर मोड के साथ JPEG-LS को सपोर्ट करने की प्रक्रिया के बारे में बताएगा। चलिए सीधे शुरू करते हैं और अपनी रचनात्मकता को आगे बढ़ाते हैं!
 ## आवश्यक शर्तें
@@ -79,3 +85,9 @@ JPEG-LS सतत-टोन छवियों के लिए हानि र
  हां, आपको लाइसेंस की जरूरत है। आप लाइसेंस प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) परीक्षण प्रयोजनों के लिए।
 ### मैं Aspose.PSD पर अधिक दस्तावेज़ कहां पा सकता हूं?
  आप पूरा दस्तावेज़ यहाँ पा सकते हैं[यहाँ](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

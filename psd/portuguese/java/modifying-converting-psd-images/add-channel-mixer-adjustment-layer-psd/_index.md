@@ -3,10 +3,16 @@ title: Adicionar camada de ajuste do mixer de canais no PSD
 linktitle: Adicionar camada de ajuste do mixer de canais no PSD
 second_title: API Java Aspose.PSD
 description: Aprimore seus arquivos PSD com camadas de ajuste do mixer de canais usando Aspose.PSD para Java. Aprenda técnicas de manipulação de cores passo a passo para obter imagens vibrantes.
-type: docs
 weight: 10
 url: /pt/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar camada de ajuste do mixer de canais no PSD
+
 ## Introdução
 O mundo do design gráfico está repleto de possibilidades, mas às vezes, obter o visual perfeito pode ser como passear por uma floresta densa sem mapa. Você já sentiu que falta aquele fator “uau” em suas imagens? Bem, é aí que as camadas de ajuste entram em ação! Hoje, estamos nos aprofundando em como adicionar camadas de ajuste do mixer de canais usando Aspose.PSD para Java. Esta é uma ferramenta bacana que permite fazer ajustes precisos de cores em seus arquivos PSD, garantindo que suas imagens se destaquem e impressionem.
 
@@ -167,3 +173,9 @@ Aspose.PSD foi projetado principalmente para trabalhar com arquivos PSD, mas o p
 
 ### Existe uma maneira de obter uma licença temporária para Aspose.PSD?
  Sim! Você pode solicitar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

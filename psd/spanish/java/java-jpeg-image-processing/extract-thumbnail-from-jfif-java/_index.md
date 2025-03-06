@@ -3,10 +3,16 @@ title: Extraer miniatura de JFIF en Java
 linktitle: Extraer miniatura de JFIF en Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a extraer miniaturas de imágenes JFIF usando Aspose.PSD para Java. Tutorial completo con guía paso a paso y ejemplos de código.
-type: docs
 weight: 14
 url: /es/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraer miniatura de JFIF en Java
+
 ## Introducción
 En este tutorial, exploraremos cómo extraer miniaturas de imágenes JFIF usando Aspose.PSD para Java. Aspose.PSD es una poderosa biblioteca de Java que permite a los desarrolladores manipular y trabajar con PSD, PSB, BMP, JPEG, PNG y otros formatos de imagen mediante programación. Extraer miniaturas es una tarea común en el procesamiento de imágenes, especialmente cuando se trata de grandes conjuntos de imágenes o aplicaciones multimedia.
 ## Requisitos previos
@@ -78,3 +84,9 @@ Aspose.PSD para Java es una biblioteca de Java que permite a los desarrolladores
  Puedes encontrar la documentación.[aquí](https://reference.aspose.com/psd/java/).
 ### ¿Cómo puedo obtener soporte para Aspose.PSD para Java?
  Puede obtener soporte en el foro de la comunidad Aspose.PSD.[aquí](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

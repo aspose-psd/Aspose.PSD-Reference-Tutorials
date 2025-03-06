@@ -3,10 +3,16 @@ title: PSD Dosyalarında İşleme Eğrileri Ayarlama Katmanı - Java
 linktitle: PSD Dosyalarında İşleme Eğrileri Ayarlama Katmanı - Java
 second_title: Aspose.PSD Java API'si
 description: Bu ayrıntılı adım adım kılavuzla Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki Eğri Ayarlama Katmanlarını nasıl oluşturacağınızı ve ayarlayacağınızı öğrenin.
-type: docs
 weight: 16
 url: /tr/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD Dosyalarında İşleme Eğrileri Ayarlama Katmanı - Java
+
 ## giriiş
 
 Photoshop'un Eğri Ayarlama Katmanı, görüntüleri geliştirmek için sihirli bir değnek gibidir. Başyapıtınızın renklerinde ve tonlarında ince ayar yapan bir sanatçı olduğunuzu hayal edin; her eğri ayarı, ışık ve renk dengesini inanılmaz bir hassasiyetle kontrol etmenize olanak tanır. PSD dosyalarıyla çalışıyorsanız ve bu eğrileri programlı olarak değiştirmeniz gerekiyorsa, Aspose.PSD for Java başvurulacak aracınızdır. Bu kılavuzda, Aspose.PSD for Java kullanarak PSD dosyalarındaki Eğri Ayarlama Katmanlarının nasıl oluşturulacağını ve ayarlanacağını açıklayacağız. İster görüntü tonlarını güncelliyor ister sonuçlarınızı dışa aktarıyor olun, bu eğitim, başlamak için ihtiyacınız olan her şeyi kapsayacaktır.
@@ -146,3 +152,9 @@ Hayır, Aspose.PSD for Java, Photoshop'tan bağımsız olarak çalışarak PSD d
 
 ### Aspose.PSD for Java desteğini nerede bulabilirim?
  Destek için şu adresi ziyaret edebilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

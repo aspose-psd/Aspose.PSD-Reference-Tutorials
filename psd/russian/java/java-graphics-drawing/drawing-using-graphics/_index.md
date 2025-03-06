@@ -3,10 +3,16 @@ title: Рисование с использованием графики в Java
 linktitle: Рисование с использованием графики в Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как шаг за шагом рисовать графику на Java с помощью Aspose.PSD. Создавайте фигуры, применяйте цвета и экспортируйте изображения без особых усилий.
-type: docs
 weight: 18
 url: /ru/java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование с использованием графики в Java
+
 ## Введение
 В программировании на Java программное рисование и манипулирование изображениями — это мощная возможность, которая часто нужна разработчикам. В этом руководстве основное внимание уделяется использованию Aspose.PSD для Java, надежной библиотеки, которая позволяет разработчикам создавать и редактировать PSD-файлы, а также выполнять различные графические операции, такие как рисование фигур, применение кистей и экспорт изображений. Это руководство проведет вас через процесс рисования с использованием графики на Java с помощью Aspose.PSD, разбив каждый шаг, чтобы обеспечить ясность и понимание.
 ## Предварительные условия
@@ -79,3 +85,9 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 Да, Aspose.PSD поддерживает экспорт в различные форматы, такие как BMP, PNG, JPEG и TIFF.
 ### Как я могу получить поддержку или помощь, если у меня возникнут проблемы?
 Свяжитесь с сообществом Aspose.PSD на[форум поддержки](https://forum.aspose.com/c/psd/34) или рассмотреть[временная лицензия](https://purchase.aspose.com/temporary-license/) для приоритетной поддержки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

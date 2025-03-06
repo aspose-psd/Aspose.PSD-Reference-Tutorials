@@ -3,10 +3,16 @@ title: Avancerad bildbehandling
 linktitle: Avancerad bildbehandling
 second_title: Aspose.PSD Java API
 description: Utforska avancerade självstudier för bildmanipulering med Aspose.PSD för Java. Lär dig effektivt byte av teckensnitt, tvinga teckensnittscache, implementera bikubisk resampler och mer.
-type: docs
 weight: 24
 url: /sv/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Avancerad bildbehandling
+
 
 ## Introduktion
 
@@ -80,3 +86,9 @@ Master bildstorleksändring i Java med Aspose.PSD. Steg-för-steg-guide med hjä
 Utforska bildrotation i Java utan ansträngning med Aspose.PSD. Rotera, vänd och spara PSD-filer enkelt.
 ### [Rotera en bild på en specifik vinkel med Aspose.PSD för Java](./rotate-image-specific-angle/)
 Utforska bildrotation i Java med Aspose.PSD för Java. Rotera bilder utan ansträngning i specifika vinklar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

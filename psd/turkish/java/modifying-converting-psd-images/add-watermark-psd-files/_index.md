@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile PSD Dosyalarına Filigran Ekleme
 linktitle: Aspose.PSD for Java ile PSD Dosyalarına Filigran Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza zahmetsizce nasıl filigran ekleyeceğinizi öğrenin. Basit, adım adım kılavuzla görsellerinizi koruyun.
-type: docs
 weight: 18
 url: /tr/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile PSD Dosyalarına Filigran Ekleme
+
 ## giriiş
 Filigranlar, görsellerinizi korumanın ve sahipliğinizi belirtmenin ince ama etkili bir yoludur. İster portfolyonuzu sergileyen bir fotoğrafçı olun ister en son çalışmanızı sunan bir tasarımcı olun, filigran eklemek marka kimliğinizi korumak açısından çok önemli olabilir. Bu eğitimde Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza nasıl zahmetsizce filigran ekleyeceğinizi açıklayacağız. O halde bir fincan kahve alın, rahatlayın ve başlayalım!
 ## Önkoşullar
@@ -90,3 +96,9 @@ Ve işte karşınızda! Aspose.PSD for Java'yı kullanarak PSD dosyanıza başar
  Evet, JPEG veya BMP gibi çeşitli formatlarda kaydedebilirsiniz. Sadece değiştir`PngOptions()` İstenilen seçeneklerle.
 ### Daha fazla yardımı nerede bulabilirim?
  Detaylı sorularınız için adresini ziyaret edebilirsiniz.[forumlar](https://forum.aspose.com/c/psd/34) veya kontrol edin[dokümantasyon](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

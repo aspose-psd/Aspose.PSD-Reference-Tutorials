@@ -3,10 +3,16 @@ title: Реализация настройки контрастности в Asp
 linktitle: Реализация настройки контрастности
 second_title: Aspose.PSD .NET API
 description: Узнайте, как реализовать настройку контрастности в Aspose.PSD для .NET, с помощью этого пошагового руководства.
-type: docs
 weight: 11
 url: /ru/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Реализация настройки контрастности в Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по реализации настройки контрастности в Aspose.PSD для .NET! В этом уроке мы рассмотрим процесс повышения контрастности изображения с помощью Aspose.PSD, мощной библиотеки обработки изображений .NET. К концу этого руководства вы получите четкое представление о том, как плавно применять настройки контрастности к изображениям.
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### В5: Как я могу получить временную лицензию?
 
  О5: При необходимости вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

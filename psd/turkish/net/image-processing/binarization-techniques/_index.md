@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te İkilileştirme Teknikleri
 linktitle: İkilileştirme Teknikleri
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'teki gelişmiş ikilileştirme tekniklerini keşfedin. BinarizationWithFixedThreshold yöntemini kullanarak renkli görüntüleri ikili formata kolaylıkla dönüştürün.
-type: docs
 weight: 12
 url: /tr/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te İkilileştirme Teknikleri
+
 ## giriiş
 
 Görüntü işleme dünyasında, renkli bir görüntüyü ikili görüntüye dönüştürme yeteneği çok önemli bir adımdır. İkilileştirme, karmaşık görüntüleri siyah beyaz piksellere indirgeyerek basitleştirmeye yardımcı olur ve bilgilerin analiz edilmesini ve çıkarılmasını kolaylaştırır. Aspose.PSD for .NET, güçlü ikilileştirme teknikleri de dahil olmak üzere görüntü işleme için güçlü araçlar sağlar. Bu eğitimde BinarizationWithFixedThreshold yöntemini inceleyeceğiz ve Aspose.PSD for .NET kullanarak uygulanması konusunda size rehberlik edeceğiz.
@@ -104,3 +110,9 @@ Cevap3: Önbelleğe alma, görüntü verilerini bellekte depolayarak performans�
 ### S5: Aspose.PSD'nin deneme sürümü mevcut mu?
 
  A5: Evet, erişebilirsiniz[ücretsiz deneme](https://releases.aspose.com/)Satın alma işlemi yapmadan önce Aspose.PSD'nin özelliklerini keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

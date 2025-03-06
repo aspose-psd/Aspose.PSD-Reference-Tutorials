@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Stream Kullanarak Görüntü Oluşturma
 linktitle: Akışı Kullanarak Görüntü Oluşturma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'te akışları kullanarak nasıl görüntü oluşturacağınızı öğrenin. Etkili görüntü işleme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Stream Kullanarak Görüntü Oluşturma
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.PSD, görüntü işleme için güçlü bir araç olarak öne çıkıyor. Özellikle kullanışlı özelliklerden biri, görüntü verilerinin işlenmesinde esneklik ve verimlilik sağlayan akışları kullanarak görüntüler oluşturma yeteneğidir. Bu adım adım kılavuz, kusursuz bir deneyim sağlamak için her bir öğeyi parçalara ayırarak süreç boyunca size yol gösterecektir. Konuya girmeden önce önkoşulları ele alalım.
@@ -111,3 +117,9 @@ A2: Boyutlar özelleştirilebilir; Image.Create yöntemindeki parametreleri buna
 ### S5: Geçici lisanslar mevcut mu?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

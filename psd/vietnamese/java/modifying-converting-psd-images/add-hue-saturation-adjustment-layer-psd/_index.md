@@ -3,10 +3,16 @@ title: Thêm lớp điều chỉnh độ bão hòa Hue vào PSD
 linktitle: Thêm lớp điều chỉnh độ bão hòa Hue vào PSD
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm các lớp điều chỉnh độ bão hòa màu sắc vào PSD bằng Aspose.PSD cho Java trong hướng dẫn từng bước toàn diện này. Nâng cao quy trình làm việc thiết kế đồ họa của bạn.
-type: docs
 weight: 14
 url: /vi/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp điều chỉnh độ bão hòa Hue vào PSD
+
 ## Giới thiệu
 Khi nói đến thiết kế đồ họa, thao tác màu sắc đóng một vai trò quan trọng—cụ thể, việc điều chỉnh màu sắc, độ bão hòa và độ sáng có thể biến đổi mạnh mẽ tâm trạng và chất lượng của bất kỳ hình ảnh nào. Một cách hiệu quả để đạt được điều này là sử dụng các lớp điều chỉnh trong Photoshop (tệp PSD). Nếu bạn đang tìm cách nâng cao các tệp PSD của mình theo chương trình bằng cách sử dụng Java, thì thư viện Aspose.PSD sẵn sàng trợ giúp! Hướng dẫn này sẽ hướng dẫn bạn qua các bước để thêm Lớp điều chỉnh độ bão hòa Huế vào các tệp PSD của bạn, giúp quy trình công việc của bạn hiệu quả và hiệu quả hơn.
 Trong hướng dẫn này, chúng tôi sẽ đề cập đến mọi thứ từ việc nhập các gói cần thiết đến các chi tiết thực tế của các ví dụ về mã.
@@ -102,3 +108,9 @@ Không, Aspose.PSD là một thư viện độc lập hoạt động độc lậ
 Có, bạn có thể tự động hóa và xử lý hàng loạt nhiều tệp PSD bằng Aspose.PSD.
 ### Aspose.PSD có miễn phí không?
 Aspose.PSD cung cấp bản dùng thử miễn phí nhưng cần có giấy phép để sử dụng lâu dài. Bạn có thể xem giá[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

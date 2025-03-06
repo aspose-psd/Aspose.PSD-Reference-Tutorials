@@ -3,10 +3,16 @@ title: Menggambar Menggunakan Jalur Grafik di Java
 linktitle: Menggambar Menggunakan Jalur Grafik di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara membuat grafik kompleks di Java menggunakan kelas Graphics Path Aspose.PSD. Tutorial ini memandu Anda melalui setiap langkah untuk pembuatan gambar yang menakjubkan.
-type: docs
 weight: 19
 url: /id/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Menggunakan Jalur Grafik di Java
+
 ## Perkenalan
 Membuat dan memanipulasi gambar secara terprogram bisa menjadi tugas yang menarik bagi pengembang Java, terutama saat menggunakan perpustakaan seperti Aspose.PSD. Dalam tutorial ini, kita akan mendalami proses menggambar grafik kompleks menggunakan kelas Graphics Path di Java dengan Aspose.PSD.
 ## Prasyarat
@@ -85,3 +91,9 @@ Pada panduan ini, Aspose.PSD secara khusus menangani file PSD tetapi menawarkan 
  Anda dapat membeli Aspose.PSD dari[Di Sini](https://purchase.aspose.com/buy).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 Anda dapat mencari dukungan dan diskusi di[forum Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

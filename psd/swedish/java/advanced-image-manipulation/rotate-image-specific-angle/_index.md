@@ -3,10 +3,16 @@ title: Rotera en bild på en specifik vinkel med Aspose.PSD för Java
 linktitle: Rotera en bild i en specifik vinkel
 second_title: Aspose.PSD Java API
 description: Utforska bildrotation i Java med Aspose.PSD för Java. Rotera bilder utan ansträngning i specifika vinklar.
-type: docs
 weight: 20
 url: /sv/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rotera en bild på en specifik vinkel med Aspose.PSD för Java
+
 ## Introduktion
 
 I den dynamiska världen av Java-utveckling är manipulering av bilder ett vanligt krav för olika applikationer. Aspose.PSD för Java framstår som en robust lösning som ger kraftfulla funktioner för att enkelt hantera bildrotation. I den här handledningen kommer vi att guida dig genom processen att rotera en bild i en specifik vinkel med Aspose.PSD för Java. Innan vi dyker in i detaljerna, låt oss sätta scenen med några förutsättningar.
@@ -117,3 +123,9 @@ Aspose.PSD för Java fokuserar främst på backend-bildbehandling. För förhand
 ### F5: Finns det ett communityforum för Aspose.PSD där jag kan söka hjälp?
 
  Ja, du kan besöka[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) att engagera sig i samhället, ställa frågor och söka hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

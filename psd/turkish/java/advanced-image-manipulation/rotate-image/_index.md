@@ -3,10 +3,16 @@ title: Aspose.PSD for Java'da Görüntü Döndürme
 linktitle: Bir Görüntüyü Döndürme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java'da görüntü döndürmeyi zahmetsizce keşfedin. PSD dosyalarını kolayca döndürün, çevirin ve kaydedin.
-type: docs
 weight: 19
 url: /tr/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java'da Görüntü Döndürme
+
 ## giriiş
 
 Aspose.PSD for Java, görüntülerle çalışmak için güçlü bir dizi özellik sunarak geliştiricilerin PSD dosyalarını verimli bir şekilde yönetmesine ve işlemesine olanak tanır. Bu eğitimde belirli bir göreve odaklanacağız: bir görüntüyü döndürme. İster bir fotoğraf düzenleme uygulaması oluşturuyor olun ister yalnızca bir görüntünün yönünü ayarlamanız gerekiyor olsun, Aspose.PSD süreci kolaylaştırır.
@@ -84,3 +90,9 @@ A2: Kesinlikle! Aspose.PSD, özel gereksinimlerinizi karşılamak için özel ro
 ### S5: Geçici lisansı nasıl edinebilirim?
 
  Cevap5: Geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gérer la couche de réglage du mélangeur de canaux dans PSD - Java
 linktitle: Gérer la couche de réglage du mélangeur de canaux dans PSD - Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment gérer les calques de réglage du mélangeur de canaux RVB et CMJN dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Améliorez vos compétences en matière d'édition d'images.
-type: docs
 weight: 22
 url: /fr/java/psd-image-modification-conversion/manage-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer la couche de réglage du mélangeur de canaux dans PSD - Java
+
 ## Introduction
 Photoshop a transformé notre façon de concevoir l'édition d'images, mais soyons réalistes : gérer des fichiers d'images complexes peut parfois donner l'impression de déchiffrer une langue étrangère. Heureusement, en utilisant Aspose.PSD pour Java, vous pouvez gérer et manipuler des fichiers Photoshop de manière transparente sans avoir besoin d'un diplôme en conception graphique. Dans ce guide, nous plongeons dans un didacticiel qui explique comment gérer les calques de réglage du mixeur de canaux dans les fichiers PSD à l'aide de Java. Prêt à libérer l'artiste numérique qui sommeille en vous ? Commençons !
 ## Conditions préalables
@@ -114,3 +120,9 @@ Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de trava
 Bien qu'il soit principalement destiné au PSD, Aspose.PSD peut également gérer d'autres formats tels que PSB et plus encore, élargissant ainsi sa convivialité.
 ### Où puis-je obtenir de l’aide pour Aspose.PSD ?
  Vous pouvez demander de l'aide et du soutien sur leur[forum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

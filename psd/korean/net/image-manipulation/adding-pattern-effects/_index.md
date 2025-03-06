@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD의 이미지에 패턴 효과 추가
 linktitle: 이미지에 패턴 효과 추가
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 매혹적인 패턴 효과로 이미지를 향상하세요. 단계별 가이드에 따라 사용자 정의 패턴을 원활하게 추가하세요.
-type: docs
 weight: 12
 url: /ko/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD의 이미지에 패턴 효과 추가
+
 ## 소개
 
 패턴 효과로 이미지를 향상하면 디자인에 새로운 차원을 가져올 수 있습니다. .NET용 Aspose.PSD는 패턴 오버레이를 이미지에 원활하게 추가하여 시각적으로 놀라운 그래픽을 만들 수 있는 강력한 솔루션을 제공합니다. 이 단계별 튜토리얼은 .NET용 Aspose.PSD를 사용하여 패턴 효과를 추가하는 과정을 안내합니다.
@@ -108,3 +114,9 @@ A4: 패턴 치수가 유연하여 다양한 크기의 패턴을 만들 수 있�
 ### Q5: 상용 프로젝트에서 .NET용 Aspose.PSD를 사용할 수 있습니까?
 
 A5: 예, 상업용 프로젝트에서 .NET용 Aspose.PSD를 사용할 수 있습니다. 라이선스에 대한 자세한 내용을 보려면 다음을 방문하세요.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

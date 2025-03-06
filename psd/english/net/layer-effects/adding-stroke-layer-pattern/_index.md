@@ -3,10 +3,16 @@ title: Adding Stroke Layer with Pattern in Aspose.PSD for .NET
 linktitle: Adding Stroke Layer with Pattern
 second_title: Aspose.PSD .NET API
 description: Enhance your PSD files with stroke layers and patterns using Aspose.PSD for .NET. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 13
 url: /net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Stroke Layer with Pattern in Aspose.PSD for .NET
+
 ## Introduction
 
 Enhancing your PSD (Photoshop Document) files with stroke layers and patterns can add a dynamic touch to your designs. In this tutorial, we'll explore how to leverage Aspose.PSD for .NET to effortlessly add a stroke layer with a pattern to your PSD files. Aspose.PSD is a powerful .NET library that provides comprehensive support for manipulating PSD files, making it an invaluable tool for developers and designers alike.
@@ -144,3 +150,10 @@ A4: Absolutely, Aspose.PSD for .NET provides robust support for batch processing
 ### Q5: Where can I seek assistance or participate in the community discussions?
 
 A5: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for support and community interactions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

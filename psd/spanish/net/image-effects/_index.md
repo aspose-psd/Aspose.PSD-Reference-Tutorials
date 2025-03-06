@@ -3,10 +3,16 @@ title: Efectos de imagen
 linktitle: Efectos de imagen
 second_title: API Aspose.PSD .NET
 description: Domine las mejoras de imágenes dinámicas en Aspose.PSD para .NET. Mejore su procesamiento de imágenes con tutoriales sobre cómo agregar, superponer y generar efectos sorprendentes en tiempo de ejecución.
-type: docs
 weight: 25
 url: /es/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efectos de imagen
+
 
 ## Introducción
 
@@ -34,3 +40,9 @@ Explore mejoras de imágenes dinámicas utilizando Aspose.PSD para .NET. Agregue
 Explore la magia de Aspose.PSD para .NET con nuestro tutorial sobre superposición de efectos de color. Mejora tu juego de procesamiento de imágenes sin esfuerzo.
 ### [Representación del efecto de sombra paralela en Aspose.PSD para .NET](./render-drop-shadow/)
 Explore el poder de Aspose.PSD para .NET en este tutorial, dominando el arte de representar cautivadores efectos de sombra paralela.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

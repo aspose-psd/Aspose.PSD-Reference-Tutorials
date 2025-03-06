@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中簡單調整圖片大小
 linktitle: 簡單調整影像大小
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 調整影像大小。高效、無縫且強大。輕鬆提升您的 .NET 專案。
-type: docs
 weight: 17
 url: /zh-hant/net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中簡單調整圖片大小
+
 ## 介紹
 
 在 .NET 開發的動態領域中，操作影像是常見的需要。 Aspose.PSD for .NET 以其強大的功能來救援，為影像調整大小提供無縫體驗。在本教程中，我們將深入研究使用 Aspose.PSD for .NET 調整圖像大小的簡單但關鍵的過程。請繫好安全帶，我們將踏上增強您的影像處理技能的旅程。
@@ -89,3 +95,9 @@ A3：是的，您可以獲得 Aspose.PSD for .NET 的臨時許可證，以便在
 ### 問題 5：如何獲得 Aspose.PSD for .NET 的支援或與社群連結？
 
  A5：訪問[Aspose.PSD for .NET 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

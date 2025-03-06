@@ -3,10 +3,16 @@ title: Bildeffekter
 linktitle: Bildeffekter
 second_title: Aspose.PSD .NET API
 description: Bemästra dynamiska bildförbättringar i Aspose.PSD för .NET. Lyft din bildbehandling med handledningar om att lägga till, lägga över och rendera fantastiska effekter under körning.
-type: docs
 weight: 25
 url: /sv/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bildeffekter
+
 
 ## Introduktion
 
@@ -34,3 +40,9 @@ Utforska dynamiska bildförbättringar med Aspose.PSD för .NET. Lägg till effe
 Utforska magin med Aspose.PSD för .NET med vår handledning om överlagring av färgeffekter. Lyft ditt bildbehandlingsspel utan ansträngning.
 ### [Rendering av skuggaeffekt i Aspose.PSD för .NET](./render-drop-shadow/)
 Utforska kraften i Aspose.PSD för .NET i den här handledningen och bemästra konsten att återge fängslande skuggeffekter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

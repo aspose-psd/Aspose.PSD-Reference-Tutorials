@@ -3,10 +3,16 @@ title: Read and Modify JPEG EXIF Tags in Java
 linktitle: Read and Modify JPEG EXIF Tags in Java
 second_title: Aspose.PSD Java API
 description: Learn how to read and modify JPEG EXIF tags using Aspose.PSD for Java in this step-by-step guide. Perfect for developers looking to handle image metadata effortlessly.
-type: docs
 weight: 18
 url: /java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Read and Modify JPEG EXIF Tags in Java
+
 ## Introduction
 Hey there! Have you ever wondered how you can read and modify JPEG EXIF tags using Java? If so, you’re in the right place! This tutorial will guide you through the process step-by-step using Aspose.PSD for Java. Whether you're a seasoned developer or a newbie, by the end of this guide, you'll be able to handle JPEG EXIF tags like a pro. So, let’s dive in!
 ## Prerequisites
@@ -92,3 +98,10 @@ Aspose.PSD for Java supports Java SE 7 and above.
 Check out the [documentation](https://reference.aspose.com/psd/java/) for more details.
 ### How do I get support for Aspose.PSD for Java?
 You can get support from the [Aspose PSD support forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

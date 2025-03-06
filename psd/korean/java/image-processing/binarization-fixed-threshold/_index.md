@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 고정 임계값을 사용한 이진화
 linktitle: 고정 임계값을 사용한 이진화
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD에서 고정 임계값을 사용하여 이진화를 살펴보세요. 단계별 가이드를 통해 이미지를 원활하게 변환하세요.
-type: docs
 weight: 14
 url: /ko/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 고정 임계값을 사용한 이진화
+
 ## 소개
 
 Java 개발 영역에서 Aspose.PSD는 이미지 처리 작업을 위한 강력한 도구임이 입증되었습니다. 이러한 필수 작업 중 하나는 이미지를 이진 형식으로 변환하여 단순화하는 기술인 이진화입니다. 이 튜토리얼은 Java용 Aspose.PSD를 사용하여 고정 임계값으로 이진화를 달성하는 프로세스를 안내합니다. 이 혁신적인 이미지 처리 여정과 관련된 단계를 탐색하면서 버클을 채우세요.
@@ -101,3 +107,9 @@ A1:예, Aspose.PSD는 다양한 이미지 형식을 지원하므로 이진화를
 ### Q5: 무료 평가판을 사용할 수 있나요?
 
  A5: 예, 무료 평가판을 통해 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

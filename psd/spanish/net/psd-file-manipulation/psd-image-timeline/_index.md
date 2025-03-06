@@ -3,10 +3,16 @@ title: Manejo de la línea de tiempo de imágenes PSD en Aspose.PSD para .NET
 linktitle: Manejo de la línea de tiempo de imágenes PSD
 second_title: API Aspose.PSD .NET
 description: Aprenda a manejar líneas de tiempo de imágenes PSD sin esfuerzo usando Aspose.PSD para .NET. Agregue marcos, cambie sin problemas y mejore sus habilidades de edición de imágenes.
-type: docs
 weight: 17
 url: /es/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo de la línea de tiempo de imágenes PSD en Aspose.PSD para .NET
+
 ## Introducción
 En el dinámico mundo del procesamiento de imágenes, Aspose.PSD para .NET se destaca como un potente conjunto de herramientas que proporciona soluciones sólidas para manejar líneas de tiempo de imágenes PSD. Ya sea que sea un desarrollador experimentado o un entusiasta de la codificación, este tutorial lo guiará a través del proceso de utilización de Aspose.PSD para manipular líneas de tiempo de imágenes con facilidad.
 ## Requisitos previos
@@ -80,3 +86,9 @@ R1: No, Aspose.PSD está diseñado específicamente para aplicaciones .NET.
 ### P5: ¿Necesita ayuda o tiene preguntas?
 
  A5: Visite el foro de la comunidad Aspose.PSD[aquí](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

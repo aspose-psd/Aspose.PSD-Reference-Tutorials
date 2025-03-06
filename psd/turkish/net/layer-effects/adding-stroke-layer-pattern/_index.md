@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Desenli Kontur Katmanı Ekleme
 linktitle: Desenli Kontur Katmanı Ekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'i kullanarak PSD dosyalarınızı kontur katmanları ve desenlerle geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Desenli Kontur Katmanı Ekleme
+
 ## giriiş
 
 PSD (Photoshop Belgesi) dosyalarınızı kontur katmanları ve desenlerle geliştirmek tasarımlarınıza dinamik bir dokunuş katabilir. Bu eğitimde, PSD dosyalarınıza desenli kontur katmanını zahmetsizce eklemek için Aspose.PSD for .NET'ten nasıl yararlanabileceğinizi keşfedeceğiz. Aspose.PSD, PSD dosyalarının işlenmesi için kapsamlı destek sağlayan güçlü bir .NET kitaplığıdır; bu da onu hem geliştiriciler hem de tasarımcılar için paha biçilmez bir araç haline getirir.
@@ -144,3 +150,9 @@ Cevap4: Aspose.PSD for .NET kesinlikle toplu işleme için güçlü bir destek s
 ### S5: Nereden yardım alabilirim veya topluluk tartışmalarına katılabilirim?
 
  A5: ziyaret edin[Aspose.PSD Forumu](https://forum.aspose.com/c/psd/34) destek ve topluluk etkileşimleri için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

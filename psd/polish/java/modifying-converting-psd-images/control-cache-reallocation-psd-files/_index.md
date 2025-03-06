@@ -3,10 +3,16 @@ title: Kontroluj realokację pamięci podręcznej w plikach PSD
 linktitle: Kontroluj realokację pamięci podręcznej w plikach PSD
 second_title: Aspose.PSD API Java
 description: Zarządzaj realokacją pamięci podręcznej w plikach PSD za pomocą Aspose.PSD dla Java. Dowiedz się, jak efektywnie optymalizować pamięć i obsługę plików — idealne rozwiązanie dla programistów.
-type: docs
 weight: 22
 url: /pl/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kontroluj realokację pamięci podręcznej w plikach PSD
+
 ## Wstęp
 Podczas programowej pracy z obrazami i plikami programu Photoshop wydajność jest kluczowym czynnikiem. Aspose.PSD dla Java oferuje solidne funkcje do płynnego zarządzania plikami PSD i manipulowania nimi. Jednym z podstawowych aspektów optymalizacji wydajności jest kontrolowanie realokacji pamięci podręcznej. Zarządzanie pamięcią podręczną pomaga w utrzymaniu równowagi pomiędzy wykorzystaniem pamięci i dysku, zapewniając płynne działanie aplikacji, bez nieoczekiwanych awarii i spowolnień. 
 ## Warunki wstępne
@@ -127,3 +133,9 @@ Aspose.PSD to biblioteka dla programistów .NET i Java służąca do programoweg
 Aspose.PSD jest biblioteką płatną, ale możesz zacząć od bezpłatnej wersji próbnej dostępnej na ich stronie[strona internetowa](https://releases.aspose.com/).
 ### Co się stanie, jeśli nie wyrzucę przedmiotów?
 Niepozbywanie się obiektów może prowadzić do wycieków pamięci, co powoduje, że aplikacja zużywa więcej zasobów, niż to konieczne.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

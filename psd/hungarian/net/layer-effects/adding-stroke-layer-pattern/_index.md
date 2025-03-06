@@ -3,10 +3,16 @@ title: Körvonalas réteg hozzáadása mintával az Aspose.PSD for .NET-hez
 linktitle: Körvonalas réteg hozzáadása mintával
 second_title: Aspose.PSD .NET API
 description: Javítsa ki PSD-fájljait körvonalrétegekkel és -mintákkal az Aspose.PSD for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 13
 url: /hu/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Körvonalas réteg hozzáadása mintával az Aspose.PSD for .NET-hez
+
 ## Bevezetés
 
 A PSD (Photoshop Document) fájlok körvonalrétegekkel és mintázatokkal történő javítása dinamikus hatást kölcsönöz a terveknek. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja fel az Aspose.PSD-t .NET-hez, hogy könnyedén adjon hozzá mintázatú körvonalréteget a PSD-fájlokhoz. Az Aspose.PSD egy hatékony .NET-könyvtár, amely átfogó támogatást nyújt a PSD-fájlok kezeléséhez, így a fejlesztők és a tervezők számára egyaránt felbecsülhetetlen értékű eszköz.
@@ -144,3 +150,9 @@ Gratulálok! Sikeresen megtanulta, hogyan adhat hozzá mintázatú körvonalrét
 ### 5. kérdés: Hol kérhetek segítséget vagy vehetek részt a közösségi megbeszéléseken?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) támogatásért és közösségi interakciókért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

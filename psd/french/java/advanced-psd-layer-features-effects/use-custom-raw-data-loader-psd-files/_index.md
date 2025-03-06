@@ -3,10 +3,16 @@ title: Utiliser un chargeur de données brutes personnalisé dans les fichiers P
 linktitle: Utiliser un chargeur de données brutes personnalisé dans les fichiers PSD - Java
 second_title: API Java Aspose.PSD
 description: Apprenez à utiliser un chargeur de données brutes personnalisé dans des fichiers PSD avec Java ! Ce guide étape par étape couvre tout, de la configuration au nettoyage des ressources.
-type: docs
 weight: 29
 url: /fr/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utiliser un chargeur de données brutes personnalisé dans les fichiers PSD - Java
+
 ## Introduction
 Travailler avec des fichiers PSD en Java peut sembler fastidieux, surtout lorsqu'il s'agit de gérer des données brutes. N'ayez crainte ! En utilisant Aspose.PSD pour Java, vous pouvez facilement manipuler et extraire des données de pixels brutes à partir de fichiers PSD à l'aide de chargeurs personnalisés. Ce guide vous aidera étape par étape tout au long du processus de mise en œuvre d'un chargeur de données brutes personnalisé. Nous couvrirons toutes les conditions préalables nécessaires, importerons les packages requis et décomposerons le code en étapes gérables et simples à suivre.
 ## Conditions préalables
@@ -90,3 +96,9 @@ Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de manip
  Pour obtenir du soutien et de l'assistance communautaire, vous pouvez visiter le[Forum Aspose](https://forum.aspose.com/c/psd/34).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?  
 Vous pouvez acquérir une licence temporaire pour évaluer toutes les fonctionnalités en visitant le[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

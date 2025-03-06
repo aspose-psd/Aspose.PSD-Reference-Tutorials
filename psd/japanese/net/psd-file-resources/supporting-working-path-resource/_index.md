@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET での作業パス リソースのサポート
 linktitle: サポート作業パスリソース
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET の「WorkingPathResource」の威力をご覧ください。このステップバイステップ ガイドで画像の精度を高めます。
-type: docs
 weight: 12
 url: /ja/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET での作業パス リソースのサポート
+
 ## 導入
 画像処理に携わる .NET 開発者にとって、Aspose.PSD for .NET は頼りになるソリューションです。このチュートリアルでは、Aspose.PSD の「WorkingPathResource」リソースのパワーを詳しく見ていきます。この重要な機能により、切り抜き操作の精度が向上し、画像が正確に必要に応じて調整されます。
 ## 前提条件
@@ -88,3 +94,9 @@ A4: サポートを求める[Aspose.PSD フォーラム](https://forum.aspose.co
 ### Q5: 一時ライセンスが必要ですか?
 
  A5: 臨時免許証を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rétegeffektusok
 linktitle: Rétegeffektusok
 second_title: Aspose.PSD .NET API
 description: Fedezze fel a rétegeffektusok varázsát az Aspose.PSD for .NET segítségével! Fejlessze képkezelési készségeit, ha megtanulja hozzáadni a körvonal-, árnyék- és keverési módokat.
-type: docs
 weight: 29
 url: /hu/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rétegeffektusok
+
 ## Bevezetés
 
 Engedje szabadjára képmanipulációs törekvéseinek teljes potenciálját az Aspose.PSD for .NET segítségével. Ez az átfogó útmutató bemutatja számtalan olyan rétegeffektust, amelyek átalakítják kreatív folyamatát. A vonásoktól és az árnyékoktól a keverési módokig, könnyedén emelheti fel a terveit.
@@ -54,3 +60,9 @@ Javítsa képeit az Aspose.PSD for .NET segítségével! Ismerje meg az árnyék
 Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan állíthatja be az árnyékhatások átlátszatlanságát az Aspose.PSD for .NET-ben.
 ### [Keverési módok használata az Aspose.PSD for .NET-ben](./working-with-blend-modes/)
 Fedezze fel a keverési módok erejét az Aspose.PSD for .NET-ben. Ez az oktatóanyag lépésről lépésre bemutatja a különféle keverési módok alkalmazását.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

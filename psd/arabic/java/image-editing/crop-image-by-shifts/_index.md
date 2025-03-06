@@ -3,10 +3,16 @@ title: قص الصورة عن طريق التحولات في Aspose.PSD لجاف
 linktitle: اقتصاص الصورة عن طريق التحولات
 second_title: Aspose.PSD جافا API
 description: اقتصاص الصور الرئيسي باستخدام Aspose.PSD لـ Java. برنامج تعليمي شامل لمعالجة الصور بسلاسة.
-type: docs
 weight: 16
 url: /ar/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص الصورة عن طريق التحولات في Aspose.PSD لجافا
+
 ## مقدمة
 
 في عالم معالجة الصور المستندة إلى Java، يبرز Aspose.PSD كأداة قوية لمعالجة الصور وتحسينها بأقصى قدر من الدقة. إحدى الميزات الرئيسية التي تميز Aspose.PSD هي قدرته على إجراء قص الصورة بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في فن قص الصور باستخدام Aspose.PSD لـ Java. وفي النهاية، ستكون مجهزًا بالمهارات اللازمة لاقتصاص الصور بسهولة وفقًا لمواصفاتك.
@@ -115,3 +121,10 @@ rasterImage.save(destName, new JpegOptions());
 ### س 5: هل هناك أية مشاريع نموذجية تعرض وظائف Aspose.PSD؟
 
  ج5: استكشف الوثائق والأمثلة في[وثائق جافا Aspose.PSD](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

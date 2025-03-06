@@ -3,10 +3,16 @@ title: การวาดส่วนโค้งใน Java
 linktitle: การวาดส่วนโค้งใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีการวาดส่วนโค้งใน Java โดยใช้ Aspose.PSD สำหรับ Java บทช่วยสอนทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับแอปพลิเคชันกราฟิก
-type: docs
 weight: 13
 url: /th/java/java-graphics-drawing/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดส่วนโค้งใน Java
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการวาดรูปส่วนโค้งโดยใช้ Aspose.PSD สำหรับไลบรารี Java การวาดส่วนโค้งโดยทางโปรแกรมอาจมีประโยชน์ในแอปพลิเคชันต่างๆ เช่น ส่วนติดต่อผู้ใช้แบบกราฟิก การสร้างแผนภูมิ หรือการแสดงภาพแบบกำหนดเอง Aspose.PSD สำหรับ Java มีฟังก์ชันที่มีประสิทธิภาพในการจัดการและสร้างไฟล์ PSD (เอกสาร Photoshop) รวมถึงความสามารถในการวาดรูปร่าง เช่น ส่วนโค้งด้วยคุณสมบัติที่ปรับแต่งได้
 ## ข้อกำหนดเบื้องต้น
@@ -74,3 +80,9 @@ image.save(outputPath, saveOptions);
 ใช่ Aspose.PSD รองรับการส่งออกเป็นรูปแบบต่างๆ เช่น PNG, JPEG, TIFF และ GIF และอื่นๆ
 ### ฉันจะรับการสนับสนุนและทรัพยากรเพิ่มเติมสำหรับ Aspose.PSD ได้จากที่ใด
  เยี่ยมชม[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34) สำหรับการสนับสนุนชุมชน เอกสาร และการอัปเดต
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

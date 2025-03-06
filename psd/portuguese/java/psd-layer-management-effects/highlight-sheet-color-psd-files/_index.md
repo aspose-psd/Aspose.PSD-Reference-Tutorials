@@ -3,10 +3,16 @@ title: Destaque a cor da folha em arquivos PSD usando Aspose.PSD Java
 linktitle: Destaque a cor da folha em arquivos PSD usando Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Aprenda como destacar cores de folhas em arquivos PSD usando Aspose.PSD para Java. Siga nosso guia passo a passo para aprimorar suas habilidades de manipulação de imagens em Java.
-type: docs
 weight: 19
 url: /pt/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Destaque a cor da folha em arquivos PSD usando Aspose.PSD Java
+
 ## Introdução
 
 Você quer mergulhar na manipulação de imagens e aprimorar suas criações digitais usando Java? Quer você seja um desenvolvedor experiente ou esteja apenas começando, trabalhar com arquivos PSD pode abrir um mundo de possibilidades. Os arquivos PSD são o padrão da indústria para edição de imagens em camadas e, com o poder do Aspose.PSD para Java, você pode manipular esses arquivos sem esforço em seus aplicativos Java. Hoje, veremos como destacar cores de folhas em arquivos PSD, garantindo que seus designs se destaquem da maneira mais vibrante possível.
@@ -142,3 +148,9 @@ Depois que as alterações forem salvas em um arquivo, elas não poderão ser de
 
 ### Posso destacar várias camadas de uma vez em um arquivo PSD?
 Sim, você pode percorrer as camadas em um arquivo PSD e aplicar o destaque da cor da folha desejada a cada camada individualmente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

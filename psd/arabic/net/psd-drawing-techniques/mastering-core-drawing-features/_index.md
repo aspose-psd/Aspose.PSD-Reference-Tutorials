@@ -3,10 +3,16 @@ title: إتقان ميزات الرسم الأساسية في Aspose.PSD لـ .N
 linktitle: إتقان ميزات الرسم الأساسية
 second_title: Aspose.PSD.NET API
 description: أتقن استخدام Aspose.PSD لميزات الرسم الأساسية لـ .NET من خلال برنامجنا التعليمي خطوة بخطوة. تعزيز مهارات معالجة الصور دون عناء.
-type: docs
 weight: 10
 url: /ar/net/psd-drawing-techniques/mastering-core-drawing-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان ميزات الرسم الأساسية في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة لـ Aspose.PSD لـ .NET من خلال إتقان ميزات الرسم الأساسية الخاصة به. في هذا البرنامج التعليمي الشامل، سنرشدك خلال الخطوات الأساسية لتحسين قدرات معالجة الصور لديك باستخدام Aspose.PSD. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى عالم .NET، فإن هذا البرنامج التعليمي سيزودك بالمعرفة اللازمة لمعالجة الصور بكفاءة وتسخير قوة Aspose.PSD.
@@ -110,3 +116,9 @@ image.Save(outpath, new BmpOptions());
 ### س5: أين يمكنني الحصول على دعم Aspose.PSD لـ .NET؟
 
  ج5: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

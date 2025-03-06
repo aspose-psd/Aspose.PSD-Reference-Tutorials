@@ -3,10 +3,16 @@ title: Támogassa az Lspf-erőforrást PSD-fájlokban Java használatával
 linktitle: Támogassa az Lspf-erőforrást PSD-fájlokban Java használatával
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan támoga
-type: docs
 weight: 14
 url: /hu/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Támogassa az Lspf-erőforrást PSD-fájlokban Java használatával
+
 ## Bevezetés
 
 Ön fejlesztő, aki szeretne belemerülni a PSD-fájlkezelés világába? Nos, jó helyre jött! Amikor PSD fájlokkal dolgozik, gyakran különböző rétegerőforrásokat kell kezelnie, például az LspfResource-t. Ez az erőforrás kulcsfontosságú a rétegvédelmi beállítások, például a PSD-fájlok összetett, pozíció- és átlátszósági védelmének kezeléséhez. Ebben az átfogó oktatóanyagban megvizsgáljuk, hogyan támogassa és kezelje az LspfResource-t PSD-fájlokban Java használatával az Aspose.PSD for Java segítségével.
@@ -182,3 +188,9 @@ Ha nem ellenőrzi a módosításokat, fennáll annak a veszélye, hogy a beáll�
 
 ### Visszavonhatom az LspfResource módosításait a fájl mentése után?  
 fájl mentése után a módosítások közvetlen visszavonása nem lehetséges. Szükség esetén azonban újratöltheti az eredeti fájlt, és újra alkalmazhatja a módosításokat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

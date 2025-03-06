@@ -3,10 +3,16 @@ title: Master Animated PSD Handling in Aspose.PSD for .NET
 linktitle: Handling Animated Data Sections
 second_title: Aspose.PSD .NET API
 description: Enhance your C# skills with our step-by-step guide on handling animated data sections in Aspose.PSD for .NET. Download now for a seamless PSD manipulation experience!
-type: docs
 weight: 12
 url: /net/psd-file-manipulation/animated-data-sections/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Animated PSD Handling in Aspose.PSD for .NET
+
 ## Introduction
 Welcome to our comprehensive guide on handling animated data sections in Aspose.PSD for .NET! If you're looking to enhance your PSD image manipulation skills, particularly when dealing with animated data, you've come to the right place. In this tutorial, we'll walk you through the process step by step, ensuring you grasp each concept thoroughly.
 ## Prerequisites
@@ -107,3 +113,10 @@ A4: Aspose.PSD for .NET can handle PSD files of various sizes, but extremely lar
 ### Q5: How can I seek additional support or assistance?
 
 A5: Visit our [forum](https://forum.aspose.com/c/psd/34) for community support or refer to the [documentation](https://reference.aspose.com/psd/net/) for detailed information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

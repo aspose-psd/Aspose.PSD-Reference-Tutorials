@@ -3,10 +3,16 @@ title: Simpan Gambar untuk Streaming dengan Aspose.PSD untuk Java
 linktitle: Simpan Gambar ke Streaming
 second_title: Asumsikan.PSD Java API
 description: Jelajahi cara menyimpan gambar PSD ke aliran menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk pemrosesan gambar yang efisien.
-type: docs
 weight: 16
 url: /id/java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Gambar untuk Streaming dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyimpan gambar ke aliran menggunakan Aspose.PSD untuk Java. Aspose.PSD adalah perpustakaan Java yang kuat untuk memproses dan memanipulasi file PSD (Photoshop Document). Jika Anda ingin menyempurnakan aplikasi Java Anda dengan kemampuan menyimpan gambar PSD ke aliran, ikuti langkah-langkah yang diuraikan dalam panduan ini.
@@ -97,3 +103,9 @@ A1: Ya, Aspose.PSD banyak digunakan dalam proyek Java profesional untuk manipula
 ### Q5: Di mana saya dapat membeli Aspose.PSD versi lengkap untuk Java?
 
  A5: Beli versi lengkap[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

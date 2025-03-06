@@ -3,10 +3,16 @@ title: เพิ่ม Curves Adjustment Layer ใน PSD โดยใช้ Jav
 linktitle: เพิ่ม Curves Adjustment Layer ใน PSD โดยใช้ Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีเพิ่มเลเยอร์การปรับเส้นโค้งลงในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ในบทช่วยสอนโดยละเอียดนี้ ปรับปรุงภาพของคุณได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่ม Curves Adjustment Layer ใน PSD โดยใช้ Java
+
 ## การแนะนำ
 คุณเคยพบว่าตัวเองติดอยู่ในขณะที่พยายามจัดการรูปภาพในรูปแบบ PSD หรือไม่? ไม่ว่าคุณจะเป็นนักออกแบบกราฟิกหน้าใหม่หรือมือโปรผู้ช่ำชอง การทำงานกับไฟล์ Photoshop บางครั้งอาจรู้สึกเหมือนกำลังอยู่ในเขาวงกต โชคดีที่มีเครื่องมือที่ทำให้กระบวนการนี้ง่ายขึ้น - Aspose.PSD สำหรับ Java ในบทช่วยสอนนี้ เราจะเจาะลึกวิธีการเพิ่มเลเยอร์การปรับเส้นโค้งลงในไฟล์ PSD โดยใช้ Aspose.PSD ซึ่งจะทำให้งานแก้ไขภาพของคุณง่ายขึ้นและมีประสิทธิภาพมากขึ้น ด้วยคำแนะนำทีละขั้นตอน คุณจะสามารถปรับปรุงภาพของคุณอย่างมืออาชีพโดยไม่ต้องจมอยู่กับความซับซ้อนที่เกี่ยวข้องกับการจัดการภาพแบบดั้งเดิม
 ## ข้อกำหนดเบื้องต้น
@@ -94,3 +100,9 @@ Aspose.PSD เป็นไลบรารีสำหรับประมวล
 อย่างแน่นอน! Aspose.PSD ช่วยให้สามารถจัดการเลเยอร์ประเภทต่างๆ ในไฟล์ PSD ได้
 ### ฉันจะหาเอกสารเพิ่มเติมได้จากที่ไหน?
  สำหรับเอกสารโดยละเอียด โปรดไปที่[Aspose.PSD สำหรับเอกสาร Java](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Сохраняйте изображения на диск с помощь
 linktitle: Сохранение изображений на диск
 second_title: Aspose.PSD Java API
 description: Легко сохраняйте изображения на диск с помощью Aspose.PSD для Java. Мощная библиотека Java для работы с PSD-файлами.
-type: docs
 weight: 15
 url: /ru/java/advanced-techniques/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохраняйте изображения на диск с помощью Aspose.PSD для Java
+
 ## Введение
 
 Aspose.PSD для Java позволяет разработчикам легко обрабатывать PSD-файлы. Сохранение изображений на диск является фундаментальным аспектом обработки изображений, и Aspose.PSD упрощает эту операцию. В этом руководстве мы углубимся в процесс сохранения изображений с помощью Aspose.PSD, чтобы вы имели четкое представление о необходимых шагах.
@@ -91,3 +97,9 @@ psdImage.save(destName, new PngOptions());
 ### Вопрос 5: Доступны ли временные лицензии для Aspose.PSD для Java?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

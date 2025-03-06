@@ -3,10 +3,16 @@ title: استيراد الصور إلى طبقات PSD باستخدام Aspose.P
 linktitle: استيراد الصور إلى طبقات PSD باستخدام Aspose.PSD Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية استيراد الصور إلى طبقات PSD باستخدام Aspose.PSD لـ Java باستخدام هذا الدليل الشامل خطوة بخطوة.
-type: docs
 weight: 17
 url: /ar/java/psd-image-modification-conversion/import-images-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استيراد الصور إلى طبقات PSD باستخدام Aspose.PSD Java
+
 ## مقدمة
 عندما يتعلق الأمر بالعمل مع ملفات PSD، فإن امتلاك الأدوات المناسبة يمكن أن يحدث فرقًا كبيرًا. سواء كنت منخرطًا في التصميم الجرافيكي، أو الفن الرقمي، أو حتى مجرد محاولة إضفاء الإثارة على عروضك التقديمية، فإن فهم كيفية التعامل مع طبقات PSD يمكن أن يفتح لك عالمًا من الإبداع. ستتعلم في هذا البرنامج التعليمي كيفية استيراد الصور إلى طبقات PSD باستخدام Aspose.PSD لـ Java. تم تصميم هذا الدليل لإرشادك خلال كل خطوة بطريقة بسيطة وجذابة. لذلك، تناول فنجانًا من القهوة، ودعنا نتعمق في التفاصيل الجوهرية لمعالجة الصور في ملفات PSD.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ Aspose.PSD for Java هي مكتبة تمكن المطورين من العمل م
  يمكنك زيارة[منتدى الدعم Aspose](https://forum.aspose.com/c/psd/34) للحصول على المساعدة من المجتمع وخبراء Aspose.
 ### كيف يمكنني شراء ترخيص Aspose.PSD لـ Java؟
  يمكنك شراء ترخيص عن طريق زيارة[Aspose صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

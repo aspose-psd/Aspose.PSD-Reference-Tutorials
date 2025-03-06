@@ -3,10 +3,16 @@ title: Tambahkan Warna Layer Stroke di Aspose.PSD untuk Java
 linktitle: Tambahkan Warna Lapisan Goresan
 second_title: Asumsikan.PSD Java API
 description: Jelajahi kekuatan Aspose.PSD untuk Java dengan panduan langkah demi langkah kami dalam menambahkan warna lapisan guratan. Tingkatkan desain grafis Anda dengan mudah.
-type: docs
 weight: 14
 url: /id/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Warna Layer Stroke di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Buka potensi desain grafis aplikasi Java Anda dengan Aspose.PSD. Dalam tutorial ini, kita akan mempelajari dunia menarik dalam menambahkan warna lapisan guratan menggunakan Aspose.PSD untuk Java. Sempurnakan grafis Anda dengan guratan yang menonjol, ciptakan desain yang menarik secara visual dengan mudah.
@@ -120,3 +126,9 @@ A2: Tentu saja! Aspose.PSD mengikuti spesifikasi format file PSD terbaru, memast
 ### Q5: Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD?
 
  A5: Dapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk Aspose.PSD untuk mengevaluasi kemampuannya dalam proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

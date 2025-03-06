@@ -3,10 +3,16 @@ title: Admite capas en formato AI con Aspose.PSD para .NET
 linktitle: Admite capas en formato AI con Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Aprenda a manejar capas de formato AI sin esfuerzo con Aspose.PSD para .NET. Siga nuestra guía paso a paso para una integración y manipulación perfectas.
-type: docs
 weight: 10
 url: /es/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite capas en formato AI con Aspose.PSD para .NET
+
 Bienvenido a nuestra guía paso a paso sobre cómo aprovechar Aspose.PSD para .NET para manejar capas de soporte en archivos de formato AI. Aspose.PSD simplifica tareas complejas, facilitando a los desarrolladores trabajar con archivos AI en sus aplicaciones .NET. En este tutorial, cubriremos los requisitos previos, la importación de espacios de nombres y dividiremos cada ejemplo en varios pasos para garantizar una experiencia de aprendizaje perfecta.
 ## Introducción
 ### ¿Qué es Aspose.PSD?
@@ -85,3 +91,9 @@ R2: Sí, Aspose.PSD proporciona funcionalidad para trabajar con capas de texto e
 ### P5: ¿Qué formatos de imagen se pueden guardar con Aspose.PSD?
 
 R5: Aspose.PSD admite varios formatos, incluidos PSD, PNG, JPEG y más.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

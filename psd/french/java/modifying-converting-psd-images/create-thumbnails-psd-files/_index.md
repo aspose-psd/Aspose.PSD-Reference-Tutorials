@@ -3,10 +3,16 @@ title: Créer des vignettes à partir de fichiers PSD à l'aide de Java
 linktitle: Créer des vignettes à partir de fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à créer sans effort des vignettes à partir de fichiers PSD à l'aide de Java et Aspose.PSD. Suivez notre guide étape par étape pour un traitement d’image fluide.
-type: docs
 weight: 24
 url: /fr/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer des vignettes à partir de fichiers PSD à l'aide de Java
+
 ## Introduction
 Dans le monde de la conception graphique, travailler avec des fichiers PSD (Photoshop Document) est monnaie courante. Que vous soyez un développeur chevronné, un graphiste ou simplement quelqu'un souhaitant vous lancer dans le traitement d'images, la création de vignettes à partir de fichiers PSD peut vous faire gagner du temps et rationaliser votre flux de travail. Ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.PSD pour Java. Aspose.PSD est non seulement une bibliothèque robuste pour gérer les fichiers Photoshop, mais elle rend également la tâche à accomplir intuitive et gérable. Êtes-vous prêt à apprendre à créer efficacement des vignettes à partir de fichiers PSD ?
 ## Conditions préalables
@@ -112,3 +118,9 @@ Dans cet exemple, nous avons enregistré les vignettes au format BMP, mais Aspos
 Non, Aspose.PSD fonctionne indépendamment de Photoshop.
 ### Où puis-je trouver plus d’informations sur Aspose.PSD ?
  Vous pouvez consulter le[Documentation Aspose.PSD](https://reference.aspose.com/psd/java/) pour plus de détails, de didacticiels et de ressources.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

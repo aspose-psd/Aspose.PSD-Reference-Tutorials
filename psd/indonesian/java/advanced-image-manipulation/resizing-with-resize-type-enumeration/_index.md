@@ -3,10 +3,16 @@ title: Mengubah ukuran dengan Resize Type Enumeration di Aspose.PSD untuk Java
 linktitle: Mengubah ukuran dengan Resize Type Enumeration
 second_title: Asumsikan.PSD Java API
 description: Ubah ukuran gambar master di Java dengan Aspose.PSD. Panduan langkah demi langkah menggunakan Resize Type Enumeration.
-type: docs
 weight: 18
 url: /id/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah ukuran dengan Resize Type Enumeration di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam lanskap pengembangan Java yang terus berkembang, pemrosesan gambar yang efisien adalah aspek penting yang sering dihadapi oleh pengembang. Aspose.PSD untuk Java muncul sebagai solusi ampuh, memberikan pengalaman mulus untuk mengubah ukuran gambar dengan keuntungan tambahan dari Resize Type Enumeration. Dalam tutorial ini, kita akan mempelajari seluk-beluk mengubah ukuran gambar menggunakan Aspose.PSD untuk Java, menguraikan setiap langkah untuk memastikan pemahaman yang komprehensif.
@@ -86,3 +92,9 @@ A2: Ya, Aspose.PSD untuk Java menawarkan berbagai tipe pengubahan ukuran, sepert
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
 
  A5: Untuk mendapatkan lisensi sementara, kunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ضغط ملفات TIFF باستخدام Aspose.PSD لـ Java
 linktitle: ضغط ملفات TIFF باستخدام Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: يمكنك ضغط ملفات TIFF بكفاءة باستخدام Aspose.PSD لـ Java دون التضحية بالجودة. اتبع دليلنا التفصيلي لتبسيط سير عملك.
-type: docs
 weight: 10
 url: /ar/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضغط ملفات TIFF باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 تخيل أنك تعمل على مشروع تصميم رسومي واسع النطاق، وأن ملفات PSD الخاصة بك تؤثر على نظامك. تحتاج إلى مشاركة هذه الملفات أو تخزينها لاستخدامها لاحقًا، ولكن حجمها كبير جدًا بحيث يصعب التعامل معه. وهذا هو المكان الذي يكون فيه ضغط ملفات PSD إلى تنسيق TIFF مفيدًا. توفر ملفات TIFF التوازن بين الجودة والحجم، مما يجعلها مثالية للتخزين والمشاركة. في هذا البرنامج التعليمي، سنرشدك خلال عملية ضغط ملفات TIFF باستخدام Aspose.PSD لـ Java، مما يضمن أن صورك مضغوطة مع احتفاظها بجودتها.
@@ -142,3 +148,9 @@ psdImage.save(dataDir + "SampleTiff_out.tiff", outputSettings);
 ### كيف يؤثر ضغط التدرج الرمادي على جودة الصورة؟
 
 يؤدي ضغط التدرج الرمادي إلى تقليل عدد الألوان في الصورة، مما قد يؤدي إلى تقليل التفاصيل المرئية. ومع ذلك، بالنسبة لأنواع معينة من الصور، تكون هذه المقايضة ضئيلة ويمكن أن تؤدي إلى تقليل حجم الملف بشكل كبير.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

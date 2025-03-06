@@ -3,10 +3,16 @@ title: 在 PSD 檔案中使用自訂原始資料載入器 - Java
 linktitle: 在 PSD 檔案中使用自訂原始資料載入器 - Java
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Java 在 PSD 檔案中使用自訂原始資料載入器！本逐步指南涵蓋了從設定到資源清理的所有內容。
-type: docs
 weight: 29
 url: /zh-hant/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 檔案中使用自訂原始資料載入器 - Java
+
 ## 介紹
 在 Java 中處理 PSD 檔案似乎讓人不知所措，尤其是在處理原始資料時。不要害怕！透過使用 Aspose.PSD for Java，您可以使用自訂載入器輕鬆操作並從 PSD 檔案中提取原始像素資料。本指南將協助您逐步完成自訂原始資料載入器的實作過程。我們將介紹所有必要的先決條件，匯入所需的套件，並將程式碼分解為易於遵循的可管理步驟。
 ## 先決條件
@@ -90,3 +96,9 @@ Aspose.PSD for Java 是一個函式庫，允許開發人員以程式設計方式
 如需支援和社區協助，您可以訪問[Aspose論壇](https://forum.aspose.com/c/psd/34).
 ### 如何取得 Aspose.PSD 的臨時授權？  
 您可以透過造訪取得臨時許可證來評估所有功能[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

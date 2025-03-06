@@ -3,10 +3,16 @@ title: Adicione uma nova camada regular ao PSD com Aspose.PSD para Java
 linktitle: Adicione uma nova camada regular ao PSD
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar uma nova camada regular a arquivos PSD usando Aspose.PSD para Java. Siga nosso guia passo a passo para uma manipulação perfeita de PSD.
-type: docs
 weight: 11
 url: /pt/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicione uma nova camada regular ao PSD com Aspose.PSD para Java
+
 ## Introdução
 
 Bem-vindo a este tutorial abrangente sobre como usar Aspose.PSD para Java para adicionar uma nova camada regular a um arquivo PSD. Aspose.PSD é uma poderosa biblioteca Java que permite aos desenvolvedores manipular e trabalhar com arquivos PSD de forma eficiente. Neste tutorial, orientaremos você no processo de adição de uma nova camada regular a um arquivo PSD, fornecendo etapas detalhadas e exemplos de código.
@@ -120,3 +126,9 @@ A2: Com certeza! Aspose.PSD oferece uma variedade de opções de transformação
 ### Q5: Existe algum fórum da comunidade para suporte do Aspose.PSD?
 
  A5: Sim, você pode encontrar suporte e discussões[aqui](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

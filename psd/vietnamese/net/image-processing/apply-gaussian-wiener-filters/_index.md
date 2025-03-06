@@ -3,10 +3,16 @@ title: Áp dụng bộ lọc Gaussian và Wiener trong Aspose.PSD cho .NET
 linktitle: Áp dụng bộ lọc Gaussian và Wiener
 second_title: API Aspose.PSD .NET
 description: Nâng cao chất lượng hình ảnh một cách dễ dàng với Aspose.PSD cho .NET. Áp dụng bộ lọc Gaussian và Wiener để giảm nhiễu và thu hút thị giác tối ưu.
-type: docs
 weight: 10
 url: /vi/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng bộ lọc Gaussian và Wiener trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý hình ảnh bằng .NET, Aspose.PSD nổi bật như một bộ công cụ mạnh mẽ cho phép các nhà phát triển thao tác hình ảnh một cách dễ dàng. Một tính năng đặc biệt hữu ích là ứng dụng bộ lọc Gaussian và Wiener. Những bộ lọc này đóng một vai trò quan trọng trong việc nâng cao chất lượng hình ảnh, giảm nhiễu và đảm bảo sự hấp dẫn thị giác tối ưu.
@@ -110,3 +116,10 @@ A2: Kích thước bán kính xác định khu vực mà bộ lọc hoạt độ
 ### Câu hỏi 5: Có phiên bản dùng thử miễn phí của Aspose.PSD không?
 
  Câu trả lời 5: Có, bạn có thể khám phá các tính năng của Aspose.PSD bằng cách tải xuống[phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

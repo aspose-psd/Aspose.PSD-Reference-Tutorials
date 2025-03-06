@@ -3,10 +3,16 @@ title: Dodaj warstwę regulacji poziomu w PSD
 linktitle: Dodaj warstwę regulacji poziomu w PSD
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak skutecznie dodawać warstwę dostosowania poziomu do plików PSD przy użyciu Aspose.PSD dla Java. Podnieś swoje umiejętności edycji obrazu.
-type: docs
 weight: 16
 url: /pl/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj warstwę regulacji poziomu w PSD
+
 ## Wstęp
 Jeśli chodzi o edycję obrazu, zarządzanie poziomami może znacząco wpłynąć na intensywność i wyrazistość zdjęć. Przydatnym narzędziem w arsenale Photoshopa jest „Warstwa regulacji poziomu”, która umożliwia dostosowanie zakresu tonalnego i balansu kolorów obrazów. W tym przewodniku przeprowadzimy Cię przez proces implementowania warstwy dostosowania poziomu w pliku PSD przy użyciu Aspose.PSD dla Java. Więc chwyć swoje Java IDE.
 ## Warunki wstępne
@@ -88,3 +94,9 @@ Tak! Aspose oferuje bezpłatną wersję próbną w celu przetestowania bibliotek
  Absolutnie! Możesz zadawać pytania i uzyskać wsparcie w[forum dyskusyjne](https://forum.aspose.com/c/psd/34).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
  Możesz ubiegać się o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

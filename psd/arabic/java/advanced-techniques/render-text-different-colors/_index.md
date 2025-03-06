@@ -3,10 +3,16 @@ title: عرض النص بألوان مختلفة في طبقة النص باست
 linktitle: عرض النص بألوان مختلفة في طبقة النص
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية عرض النص بألوان مختلفة في طبقة نص PSD باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة للحصول على نتائج سلسة.
-type: docs
 weight: 13
 url: /ar/java/advanced-techniques/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض النص بألوان مختلفة في طبقة النص باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول عرض النص بألوان مختلفة في طبقة نص باستخدام Aspose.PSD لـ Java. Aspose.PSD هي مكتبة Java قوية تسمح لك بمعالجة ملفات Photoshop برمجيًا، مما يوفر لك إمكانات واسعة للعمل مع تنسيقات ملفات PSD وPSB.
@@ -102,3 +108,9 @@ finally
 ### س5: هل هناك دروس أخرى متاحة لـ Aspose.PSD؟
 
  ج5: نعم، اكتشف[وثائق Aspose.PSD](https://reference.aspose.com/psd/java/) لمزيد من الدروس والأمثلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

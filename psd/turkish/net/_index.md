@@ -1,12 +1,17 @@
 ---
 title: Aspose.PSD for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
 linktitle: .NET için Aspose.PSD Eğitimleri
-type: docs
 weight: 10
 url: /tr/net/
 description: Aspose.PSD for .NET eğitimleriyle görüntü kalitesini zahmetsizce geliştirin. Görüntü işlemede, PSD dosyası işlemede, metin ve yazı tipi işlemede ve daha fazlasında ustalaşın.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
+
 ## giriiş
 Kapsamlı eğitimlerimiz ve örneklerimizle Aspose.PSD for .NET'in tüm potansiyelini ortaya çıkarın. İster deneyimli bir geliştirici olun ister görüntü işlemeye yeni başlayan biri olun, adım adım kılavuzlarımız .NET projelerinizi zahmetsizce geliştirmenize yardımcı olacaktır.
 
@@ -100,3 +105,9 @@ Eğitimlerimizle Aspose.PSD for .NET'in potansiyelini ortaya çıkarın! Temel �
 Aspose.PSD for .NET'te dinamik görüntü iyileştirmelerinde ustalaşın. Çalışma zamanında çarpıcı efektler ekleme, üst üste bindirme ve işleme hakkındaki eğitimlerle görüntü işleme becerilerinizi geliştirin.
 ### [PSD Dosya Kaynakları](./psd-file-resources/)
 Eğitimlerimizle Aspose.PSD for .NET'in tüm potansiyelini ortaya çıkarın. Arka plan rengine, kenarlık bilgilerine, çalışma yoluna ve siyah beyaz kaynaklara sorunsuz bir şekilde hakim olun. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

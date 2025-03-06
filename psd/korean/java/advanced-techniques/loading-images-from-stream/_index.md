@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 스트림에서 이미지 로드
 linktitle: 스트림에서 이미지 로드
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java에서 PSD 이미지를 원활하게 로드하는 방법을 알아보세요. 효율적인 이미지 처리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 스트림에서 이미지 로드
+
 ## 소개
 
 Aspose.PSD for Java는 개발자가 PSD 파일을 원활하게 사용하여 다양한 이미지 처리 작업을 수행할 수 있도록 하는 기능이 풍부한 라이브러리입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 스트림에서 이미지를 로드하는 필수 단계에 중점을 둘 것입니다.
@@ -105,3 +111,9 @@ A1: 물론이죠! Aspose.PSD for Java는 일괄 이미지 처리 작업에 탁�
 ### Q5: Java용 Aspose.PSD를 어디서 구입할 수 있나요?
 
  A5: 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) Java용 Aspose.PSD를 획득합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

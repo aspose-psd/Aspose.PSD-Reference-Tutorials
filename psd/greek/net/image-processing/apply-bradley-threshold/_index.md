@@ -3,10 +3,16 @@ title: Εφαρμογή Bradley Threshold στο Aspose.PSD για .NET
 linktitle: Εφαρμογή Bradley Threshold
 second_title: Aspose.PSD .NET API
 description: Βελτιώστε την τμηματοποίηση εικόνας χρησιμοποιώντας το Bradley Threshold στο Aspose.PSD για .NET. Ένας βήμα προς βήμα οδηγός για αποτελεσματική δυαδοποίηση.
-type: docs
 weight: 15
 url: /el/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή Bradley Threshold στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο περιεκτικό μας σεμινάριο σχετικά με την εφαρμογή Bradley Threshold στο Aspose.PSD για .NET. Το Aspose.PSD για .NET είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε με αρχεία Photoshop στις εφαρμογές σας .NET. Το Bradley Thresholding είναι μια τεχνική που χρησιμοποιείται για τη δυαδοποίηση εικόνων, βοηθώντας στον αποτελεσματικό διαχωρισμό αντικειμένων από το φόντο.
@@ -90,3 +96,9 @@ A1: Ναι, το Bradley Thresholding είναι μια ευέλικτη τεχ�
 ### Ε5: Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.PSD;
 
  A5: Μπορείτε να αγοράσετε μια άδεια[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

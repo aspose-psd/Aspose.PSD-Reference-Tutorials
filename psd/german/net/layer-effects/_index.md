@@ -3,10 +3,16 @@ title: Ebeneneffekte
 linktitle: Ebeneneffekte
 second_title: Aspose.PSD .NET API
 description: Entdecken Sie die Magie der Ebeneneffekte mit Aspose.PSD für .NET! Verbessern Sie Ihre Bildbearbeitungsfähigkeiten, indem Sie lernen, Strich-, Schatten- und Mischmodi hinzuzufügen.
-type: docs
 weight: 29
 url: /de/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ebeneneffekte
+
 ## Einführung
 
 Entfesseln Sie das volle Potenzial Ihrer Bildbearbeitungsbemühungen mit Aspose.PSD für .NET. Dieser umfassende Leitfaden stellt Ihnen eine Vielzahl von Ebeneneffekten vor, die Ihren kreativen Prozess verändern werden. Von Strichen und Schatten bis hin zu Mischmodi – verbessern Sie Ihre Designs mühelos.
@@ -54,3 +60,9 @@ Verbessern Sie Ihre Bilder mit Aspose.PSD für .NET! Erfahren Sie Schritt für S
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie die Deckkraft von Schatteneffekten in Aspose.PSD für .NET anpassen.
 ### [Arbeiten mit Blend-Modi in Aspose.PSD für .NET](./working-with-blend-modes/)
 Entdecken Sie die Leistungsfähigkeit der Mischmodi in Aspose.PSD für .NET. Dieses Tutorial führt Sie anhand von Beispielen Schritt für Schritt durch die Anwendung verschiedener Mischmodi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

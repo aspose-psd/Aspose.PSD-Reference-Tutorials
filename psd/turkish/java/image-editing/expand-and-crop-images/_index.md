@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Görüntüleri Genişletin ve Kırpın
 linktitle: Görüntüleri Genişletin ve Kırpın
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD'yi kullanarak Java'da görüntüleri nasıl genişleteceğinizi ve kırpacağınızı öğrenin. Verimli görüntü işleme için adım adım kılavuz.
-type: docs
 weight: 18
 url: /tr/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Görüntüleri Genişletin ve Kırpın
+
 ## giriiş
 
 Bu eğitimde, görüntüleri verimli bir şekilde genişletmek ve kırpmak için Aspose.PSD for Java'nın nasıl kullanılacağını keşfedeceğiz. Aspose.PSD, Java uygulamalarında PSD dosyalarıyla çalışmak için çok çeşitli özellikler sunan güçlü bir kütüphanedir. Bu kılavuzda gerekli önkoşulları, paketleri içe aktarmayı ele alacağız ve her adımı ayrıntılı açıklamalarla ele alacağız.
@@ -102,3 +108,9 @@ Cevap2: Aspose.PSD kesinlikle geliştiricilere ticari lisanslar sağlayarak hem 
 ### S5: Ücretsiz deneme sürümü var mı?
 
  Cevap5: Evet, Aspose.PSD'yi ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

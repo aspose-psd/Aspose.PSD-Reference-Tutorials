@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中透過移位裁切影像
 linktitle: 透過移位裁剪影像
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 掌握影像裁切。無縫影像處理的綜合教程。
-type: docs
 weight: 16
 url: /zh-hant/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中透過移位裁切影像
+
 ## 介紹
 
 在基於 Java 的影像處理領域，Aspose.PSD 作為以最高精度操作和增強影像的強大工具而脫穎而出。 Aspose.PSD 與眾不同的關鍵功能之一是它能夠無縫執行影像裁切。在本教程中，我們將深入研究使用 Aspose.PSD for Java 進行影像裁切的藝術。最後，您將具備根據您的規格輕鬆裁剪影像的技能。
@@ -115,3 +121,10 @@ A2：當然，您可以對同一張影像依序執行多次裁切操作。
 ### Q5：是否有展示 Aspose.PSD 功能的範例項目？
 
  A5：瀏覽文件和範例：[Aspose.PSD Java 文檔](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

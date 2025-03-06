@@ -3,10 +3,16 @@ title: Tambahkan Gambar Kecil ke Segmen EXIF di Java
 linktitle: Tambahkan Gambar Kecil ke Segmen EXIF di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menyempurnakan metadata gambar dengan gambar mini menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gambar Kecil ke Segmen EXIF di Java
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menyempurnakan metadata gambar dengan menambahkan thumbnail ke segmen EXIF menggunakan Aspose.PSD untuk Java. Metadata EXIF (Exchangeable Image File Format) memainkan peran penting dalam fotografi digital, memberikan informasi berharga seperti pengaturan kamera, tanggal, dan lokasi. Menambahkan gambar mini meningkatkan pengalaman pengguna dengan melihat pratinjau gambar secara efisien.
 ## Prasyarat
@@ -66,3 +72,9 @@ Menambahkan thumbnail meningkatkan pengalaman pengguna dengan memungkinkan prati
  Anda dapat memperoleh lisensi sementara untuk Aspose.PSD dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PSD?
  Untuk dukungan, kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

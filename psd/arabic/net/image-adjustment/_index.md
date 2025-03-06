@@ -3,10 +3,16 @@ title: تعديل الصورة
 linktitle: تعديل الصورة
 second_title: Aspose.PSD.NET API
 description: أطلق العنان لإمكانيات تعديل الصورة باستخدام Aspose.PSD لـ .NET. استكشف البرامج التعليمية حول السطوع والتباين وتوازن الألوان لإتقان معالجة الصور.
-type: docs
 weight: 24
 url: /ar/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل الصورة
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى مهاراتك في معالجة الصور؟ انغمس في عالم Aspose.PSD لـ .NET من خلال برامجنا التعليمية الشاملة حول تعديل الصورة. سواء كنت مطورًا متمرسًا أو بدأت للتو، ستمكنك أدلتنا خطوة بخطوة من تحسين الصور دون عناء.
@@ -42,3 +48,9 @@ url: /ar/net/image-adjustment/
 تعرف على كيفية تعتيم الصور بسهولة باستخدام Aspose.PSD لـ .NET. دليل خطوة بخطوة لمعالجة الصور بسلاسة في مشاريع C# الخاصة بك.
 ### [تطبيق ضبط توازن اللون في Aspose.PSD لـ .NET](./color-balance-adjustment/)
 قم بتحسين ألوان صور PSD بسهولة باستخدام Aspose.PSD لميزة ضبط توازن الألوان الخاصة بـ .NET. اتبع دليلنا خطوة بخطوة للحصول على نتائج مذهلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Establezca la opacidad de relleno para capas PSD con Aspose.PSD Java
 linktitle: Establezca la opacidad de relleno para capas PSD con Aspose.PSD Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a configurar la opacidad de relleno para capas PSD usando Aspose.PSD para Java en esta guía paso a paso. Mejore sus proyectos de diseño gráfico de manera eficiente.
-type: docs
 weight: 13
 url: /es/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establezca la opacidad de relleno para capas PSD con Aspose.PSD Java
+
 ## Introducción
 ¿Te encuentras a menudo modificando archivos de diseño, tratando de lograr ese efecto visual perfecto? Ya sea que sea un diseñador gráfico experimentado o un desarrollador en ciernes que busca manipular archivos PSD, saber cómo ajustar las propiedades de las capas puede marcar la diferencia. Hoy profundizaremos en cómo configurar la opacidad de relleno para capas en un archivo PSD usando Aspose.PSD para Java. ¿Listo para convertir tus capas en piezas llamativas? ¡Empecemos!
 ## Requisitos previos
@@ -74,3 +80,9 @@ Sí, al recorrer las capas mediante un bucle, puede establecer la opacidad de ca
 Además de la opacidad del relleno, puedes manipular la visibilidad de la capa, los modos de fusión, la posición, el tamaño y más usando Aspose.PSD.
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.PSD para Java?
  Puede consultar la documentación completa.[aquí](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

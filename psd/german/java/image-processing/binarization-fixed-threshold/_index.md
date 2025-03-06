@@ -3,10 +3,16 @@ title: Binärisierung mit festem Schwellenwert in Aspose.PSD für Java
 linktitle: Binärisierung mit festem Schwellenwert
 second_title: Aspose.PSD Java API
 description: Entdecken Sie die Binarisierung mit festem Schwellenwert in Aspose.PSD für Java. Transformieren Sie Bilder nahtlos mit unserer Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 14
 url: /de/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binärisierung mit festem Schwellenwert in Aspose.PSD für Java
+
 ## Einführung
 
 Im Bereich der Java-Entwicklung erweist sich Aspose.PSD als leistungsstarkes Tool für Bildverarbeitungsaufgaben. Eine dieser grundlegenden Operationen ist die Binarisierung, eine Technik, die Bilder vereinfacht, indem sie in eine binäre Form umgewandelt werden. Dieses Tutorial führt Sie durch den Prozess der Binarisierung mit einem festen Schwellenwert unter Verwendung von Aspose.PSD für Java. Schnall dich an, während wir die Schritte dieser transformativen Bildverarbeitungsreise erkunden.
@@ -101,3 +107,9 @@ A1: Ja, Aspose.PSD unterstützt verschiedene Bildformate, sodass die Binärisier
 ### F5: Gibt es eine kostenlose Testversion?
 
  A5: Ja, Sie können die Funktionen von Aspose.PSD mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

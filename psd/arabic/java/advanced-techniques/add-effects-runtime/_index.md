@@ -3,10 +3,16 @@ title: أضف تأثيرات في وقت التشغيل باستخدام Aspose.
 linktitle: إضافة تأثيرات في وقت التشغيل
 second_title: Aspose.PSD جافا API
 description: استكشف التكامل السلس لـ Aspose.PSD لـ Java لإضافة تأثيرات جذابة إلى الصور ديناميكيًا. ارفع مستوى تطوير Java لديك من خلال هذا البرنامج التعليمي البديهي.
-type: docs
 weight: 20
 url: /ar/java/advanced-techniques/add-effects-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف تأثيرات في وقت التشغيل باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java، يعد إضافة تأثيرات ديناميكية إلى الصور متطلبًا شائعًا. باستخدام Aspose.PSD for Java، وهي مكتبة Java قوية ومتعددة الاستخدامات، يمكنك بسهولة إضافة تأثيرات في وقت التشغيل لتحسين صورك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة التأثيرات خطوة بخطوة، باستخدام أمثلة واضحة وتعليمات سهلة المتابعة.
@@ -95,3 +101,9 @@ im.save(exportPath);
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
  ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

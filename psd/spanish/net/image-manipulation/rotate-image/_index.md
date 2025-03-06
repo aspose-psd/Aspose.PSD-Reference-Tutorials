@@ -3,10 +3,16 @@ title: Rotar una imagen en Aspose.PSD para .NET
 linktitle: Girar una imagen
 second_title: API Aspose.PSD .NET
 description: Aprenda a rotar imágenes sin esfuerzo en .NET con Aspose.PSD. Sigue nuestro tutorial paso a paso.
-type: docs
 weight: 15
 url: /es/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rotar una imagen en Aspose.PSD para .NET
+
 ## Introducción
 
 Si se está sumergiendo en el mundo de la manipulación de imágenes utilizando .NET, Aspose.PSD es su herramienta de referencia para un procesamiento de imágenes eficiente y sin problemas. En este tutorial, nos centraremos en una tarea fundamental: rotar una imagen usando Aspose.PSD para .NET. Siga las instrucciones mientras desglosamos el proceso en pasos simples y prácticos.
@@ -80,3 +86,9 @@ En este tutorial, exploramos los conceptos básicos de la rotación de imágenes
 ### P5: ¿Puedo comprar Aspose.PSD para uso comercial?
 
  Ciertamente. Explora el[pagina de compra](https://purchase.aspose.com/buy) para adquirir una licencia adaptada a sus necesidades.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

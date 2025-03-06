@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 누락된 글꼴을 대체하기 위한 설정
 linktitle: 누락된 글꼴 교체를 위한 설정
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD for Java에서 누락된 글꼴을 교체하는 방법에 대한 포괄적인 가이드를 살펴보세요. 원활한 글꼴 관리로 이미지 디자인을 향상시키세요.
-type: docs
 weight: 17
 url: /ko/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 누락된 글꼴을 대체하기 위한 설정
+
 ## 소개
 
 Java 개발의 동적 영역에서 PSD 파일의 누락된 글꼴을 관리하고 교체하는 것은 시각적으로 매력적이고 오류 없는 이미지를 만드는 데 중요한 측면일 수 있습니다. Java용 Aspose.PSD는 강력한 기능을 통해 글꼴 교체를 원활하게 진행합니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 누락된 글꼴을 대체하는 단계를 탐색하여 이미지의 미적 무결성을 유지합니다.
@@ -106,3 +112,9 @@ A2: 예, 디자인 요구 사항에 따라 사용자 정의 대체 글꼴을 지
 ### Q5: Aspose.PSD의 임시 라이선스는 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스 받기[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

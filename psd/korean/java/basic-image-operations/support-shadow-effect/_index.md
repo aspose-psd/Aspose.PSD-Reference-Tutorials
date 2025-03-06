@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 그림자 효과 지원
 linktitle: 그림자 효과 지원
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 이미지에 매력적인 그림자 효과를 추가하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 그래픽 디자인의 수준을 높이세요.
-type: docs
 weight: 13
 url: /ko/java/basic-image-operations/support-shadow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 그림자 효과 지원
+
 ## 소개
 
 그림자 효과로 이미지를 향상시키는 것은 깊이와 현실감을 더하는 그래픽 디자인의 일반적인 관행입니다. Java용 Aspose.PSD는 그림자 효과에 대한 강력한 지원을 제공하므로 개발자는 이러한 효과를 Java 애플리케이션에 쉽게 통합할 수 있습니다. 이 튜토리얼에서는 Aspose.PSD를 사용하여 그림자 효과를 지원하는 방법을 단계별로 살펴보겠습니다.
@@ -108,3 +114,9 @@ A1: 물론이죠! Aspose.PSD for Java는 전문적인 그래픽 디자인 작업
 ### Q5: Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 커뮤니티 포럼에 참여하세요[여기](https://forum.aspose.com/c/psd/34) 지원 문의사항이 있는 경우
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

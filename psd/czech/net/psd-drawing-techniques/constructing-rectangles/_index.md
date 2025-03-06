@@ -3,10 +3,16 @@ title: Konstrukce obdélníků v Aspose.PSD pro .NET
 linktitle: Konstrukce obdélníků
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte umění kreslení obdélníků v .NET s Aspose.PSD. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci. Zvyšte svou hru manipulace s obrázky bez námahy.
-type: docs
 weight: 15
 url: /cs/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konstrukce obdélníků v Aspose.PSD pro .NET
+
 ## Zavedení
 
 dynamické sféře vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci s obrázky. Tento tutoriál se zaměřuje na základní úkol: vytváření obdélníků pomocí Aspose.PSD pro .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vás provede celým procesem a zajistí, že důkladně pochopíte každý koncept.
@@ -94,3 +100,9 @@ A4: Použití 32 Bpp umožňuje bohatší zobrazení barev, což umožňuje deta
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
 
  A5: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhněte si to[zde](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

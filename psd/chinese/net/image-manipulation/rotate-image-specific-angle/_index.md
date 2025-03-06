@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中以特定角度旋转图像
 linktitle: 以特定角度旋转图像
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 的强大功能。轻松以特定角度旋转图像。下载库并开始无缝处理图像。
-type: docs
 weight: 16
 url: /zh/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中以特定角度旋转图像
+
 如果您正在深入研究使用 .NET 进行图像处理的世界，Aspose.PSD 提供了一个强大的解决方案。在本教程中，我们将指导您使用 Aspose.PSD 以特定角度旋转图像的过程。在深入介绍这些步骤之前，让我们先进行介绍。
 
 ## 介绍
@@ -104,3 +110,9 @@ A3：虽然不是强制性的，但缓存数据可以显著提高性能，尤其
 ### Q5：我可以在购买之前试用 Aspose.PSD 吗？
 
  A5：当然可以！拿起你的[免费试用](https://releases.aspose.com/)探索图书馆的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

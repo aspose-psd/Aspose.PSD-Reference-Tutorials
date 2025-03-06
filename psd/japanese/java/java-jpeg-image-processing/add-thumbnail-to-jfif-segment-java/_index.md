@@ -3,10 +3,16 @@ title: Java で JFIF セグメントにサムネイルを追加する
 linktitle: Java で JFIF セグメントにサムネイルを追加する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して Java で PSD 画像にサムネイルを追加する方法を段階的に学習します。画像処理機能を強化したい Java 開発者に最適です。
-type: docs
 weight: 11
 url: /ja/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で JFIF セグメントにサムネイルを追加する
+
 ## 導入
 Java 開発の分野では、単純な画像操作から複雑なグラフィック デザイン タスクまで、さまざまなアプリケーションで画像処理機能を統合することが非常に重要です。Aspose.PSD for Java は、PSD (Photoshop Document) ファイルを簡単に処理できるように設計された強力なライブラリです。このチュートリアルでは、Aspose.PSD for Java を使用して画像の JFIF セグメントにサムネイルを追加するという特定のタスクに焦点を当てています。このガイドの最後までに、各部分を完全に理解しながら、このタスクを段階的に実行する方法を学びます。
 ## 前提条件
@@ -90,3 +96,9 @@ Aspose.PSD for Java は、Java 開発者が PSD ファイルをプログラム�
 はい、無料トライアルはここからダウンロードできます。[Aspose.PSD の試用版ダウンロード ページ](https://releases.aspose.com/).
 ### Aspose.PSD for Java のサポートを受けるにはどうすればよいですか?
 サポートについては、[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

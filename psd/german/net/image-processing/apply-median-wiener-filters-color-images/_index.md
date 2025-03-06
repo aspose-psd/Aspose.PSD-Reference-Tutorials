@@ -3,10 +3,16 @@ title: Anwenden von Median- und Wiener-Filtern in Farbbildern mit Aspose.PSD fü
 linktitle: Anwenden von Median- und Wiener-Filtern in Farbbildern mit Aspose.PSD für .NET
 second_title: Aspose.PSD .NET API
 description: Verbessern und beseitigen Sie Rauschen in Farbbildern mit Aspose.PSD für .NET unter Verwendung von Median- und Wiener-Filtern. Schritt-für-Schritt-Anleitung für die nahtlose Bildverarbeitung.
-type: docs
 weight: 11
 url: /de/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anwenden von Median- und Wiener-Filtern in Farbbildern mit Aspose.PSD für .NET
+
 ## Einführung
 
 Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Anwenden von Median- und Wiener-Filtern in Farbbildern mit Aspose.PSD für .NET. Aspose.PSD ist eine leistungsstarke Bibliothek, die es .NET-Entwicklern ermöglicht, nahtlos mit PSD-Dateien zu arbeiten. In diesem Tutorial erkunden wir den Prozess der Anwendung von Median- und Wiener-Filtern zur Verbesserung und Rauschminderung von Farbbildern.
@@ -95,3 +101,9 @@ A2: Sie können Try-Catch-Blöcke implementieren, um Ausnahmen zu behandeln, die
 ### F5: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD?
 
  A5: Eine vorläufige Lizenz erhalten Sie bei[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

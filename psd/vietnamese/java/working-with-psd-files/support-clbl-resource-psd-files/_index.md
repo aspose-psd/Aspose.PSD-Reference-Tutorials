@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên Clbl trong tệp PSD bằng Java
 linktitle: Hỗ trợ tài nguyên Clbl trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách hỗ trợ và thao tác Tài nguyên Clbl trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn chi tiết này bao gồm các điều kiện tiên quyết, hướng dẫn từng bước và Câu hỏi thường gặp.
-type: docs
 weight: 12
 url: /vi/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên Clbl trong tệp PSD bằng Java
+
 ## Giới thiệu
 
  Bạn đã bao giờ thấy mình làm việc với các tệp PSD và cần thao tác các tài nguyên lớp theo chương trình chưa? Nếu bạn là nhà phát triển Java thì bạn thật may mắn! Với Aspose.PSD cho Java, bạn có thể dễ dàng quản lý và chỉnh sửa các tệp PSD, bao gồm cả việc xử lý`ClblResource`—một tài nguyên đặc biệt kiểm soát sự pha trộn của các phần tử bị cắt bớt. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào cách bạn có thể hỗ trợ và điều khiển`ClblResource` trong các tệp PSD của bạn bằng Java. Cuối cùng, bạn sẽ được trang bị tốt để xử lý tài nguyên này trong các dự án của mình, đảm bảo bạn có toàn quyền kiểm soát giao diện của các hình ảnh xếp lớp của mình.
@@ -156,3 +162,9 @@ Có, cần có giấy phép để có đầy đủ chức năng. Bạn có thể
 
 ### Làm cách nào để xử lý các tệp PSD lớn?  
 Aspose.PSD cho Java được thiết kế để xử lý hiệu quả các tệp PSD lớn, nhưng bạn nên đảm bảo hệ thống của mình có đủ bộ nhớ và khả năng xử lý để có hiệu suất tối ưu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

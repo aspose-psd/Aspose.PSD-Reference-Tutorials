@@ -3,10 +3,16 @@ title: Przytnij obraz za pomocą przesunięć w Aspose.PSD dla Java
 linktitle: Przytnij obraz za pomocą przesunięć
 second_title: Aspose.PSD API Java
 description: Opanuj kadrowanie obrazu za pomocą Aspose.PSD dla Java. Obszerny samouczek dotyczący płynnej manipulacji obrazem.
-type: docs
 weight: 16
 url: /pl/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przytnij obraz za pomocą przesunięć w Aspose.PSD dla Java
+
 ## Wstęp
 
 dziedzinie przetwarzania obrazów w oparciu o Java, Aspose.PSD wyróżnia się jako potężne narzędzie do manipulowania i ulepszania obrazów z najwyższą precyzją. Jedną z kluczowych cech wyróżniających Aspose.PSD jest możliwość płynnego przycinania obrazu. W tym samouczku zagłębimy się w sztukę przycinania obrazów przy użyciu Aspose.PSD dla Java. Na koniec będziesz wyposażony w umiejętności łatwego przycinania obrazów zgodnie ze swoimi specyfikacjami.
@@ -115,3 +121,10 @@ Odpowiedź 2: Oczywiście możesz wykonać wiele operacji przycinania sekwencyjn
 ### P5: Czy są jakieś przykładowe projekty prezentujące funkcjonalności Aspose.PSD?
 
  A5: Zapoznaj się z dokumentacją i przykładami pod adresem[Dokumentacja Java Aspose.PSD](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

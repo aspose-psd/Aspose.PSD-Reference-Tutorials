@@ -3,10 +3,16 @@ title: 如何在 Java 中加入描邊圖層漸變
 linktitle: 如何在 Java 中加入描邊圖層漸變
 second_title: Aspose.PSD Java API
 description: 透過這個全面的逐步教學，了解如何使用 Aspose.PSD for Java 在 PSD 檔案中新增和自訂筆觸圖層漸層。
-type: docs
 weight: 10
 url: /zh-hant/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何在 Java 中加入描邊圖層漸變
+
 ## 介紹
 有沒有想過如何使用 Java 為影像添加描邊圖層漸層？嗯，您來對地方了！今天，我們將深入了解 Aspose.PSD for Java 的世界，這是一個功能強大的程式庫，可幫助您輕鬆操作 PSD 檔案。無論您是初學者還是經驗豐富的開發人員，本逐步指南都將引導您完成為 PSD 檔案添加描邊圖層漸層的過程。因此，請係好安全帶，準備好提高您的圖形編輯技能！
 ## 先決條件
@@ -156,3 +162,9 @@ Aspose.PSD for Java 是一個函式庫，可讓開發人員在 Java 應用程式
 是的，您可以使用 Aspose.PSD for Java 應用各種效果，例如陰影、發光等。
 ### 在哪裡可以找到 Aspose.PSD for Java 的文檔？
 你可以找到文檔[這裡](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

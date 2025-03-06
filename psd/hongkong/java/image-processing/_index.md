@@ -3,10 +3,16 @@ title: 影像處理
 linktitle: 影像處理
 second_title: Aspose.PSD Java API
 description: 釋放 Aspose.PSD for Java 在影像處理方面的潛力。逐步學習應用高斯、維納、中位數和運動維納濾波器。
-type: docs
 weight: 20
 url: /zh-hant/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 影像處理
+
 ## 介紹
 
 借助 Aspose.PSD for Java，影像處理成為一趟令人興奮的旅程，該工具包使開發人員能夠增強視覺內容。從基礎技術到進階流程，本教學系列深入探討了使 Aspose.PSD 成為 Java 影像處理首選解決方案的功能。
@@ -57,3 +63,9 @@ url: /zh-hant/java/image-processing/
 使用 Aspose.PSD for Java 中的 Bradley 閾值增強影像品質。請按照我們的逐步指南進行有效的影像二值化。
 ### [使用 Aspose.PSD for Java 裁切 PSD 文件](./crop-psd-file/)
 使用 Aspose.PSD 探索 Java 中的無縫 PSD 檔案裁切。輕鬆地將精度和效率整合到您的影像處理任務中。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

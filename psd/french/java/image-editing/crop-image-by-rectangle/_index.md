@@ -3,10 +3,16 @@ title: Recadrer l'image par rectangle dans Aspose.PSD pour Java
 linktitle: Recadrer l'image par rectangle
 second_title: API Java Aspose.PSD
 description: Explorez les capacités de recadrage d'images transparentes en Java avec Aspose.PSD. Suivez notre guide étape par étape pour recadrer des images sans effort à l'aide d'Aspose.PSD pour Java.
-type: docs
 weight: 15
 url: /fr/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrer l'image par rectangle dans Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le monde du développement Java, la manipulation d'images est une tâche courante et Aspose.PSD pour Java fournit une solution puissante pour le traitement d'images. Dans ce didacticiel, nous vous guiderons tout au long du processus de recadrage d'une image par un rectangle à l'aide d'Aspose.PSD pour Java. Suivez les étapes ci-dessous pour y parvenir facilement.
@@ -105,3 +111,9 @@ A1 : Oui, Aspose.PSD pour Java peut être intégré à divers frameworks Java, o
 ### Q5 : Quels sont les formats d'image pris en charge pour le recadrage dans Aspose.PSD pour Java ?
 
 A5 : Aspose.PSD pour Java prend en charge divers formats d'image, notamment PSD, PNG, JPEG, etc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

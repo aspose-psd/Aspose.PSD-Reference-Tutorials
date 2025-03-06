@@ -3,10 +3,16 @@ title: Java AI를 이미지 형식으로 변환
 linktitle: Java AI를 이미지 형식으로 변환
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 AI 파일을 Java의 다양한 형식으로 쉽게 변환합니다. 원활한 고품질 이미지 변환을 위한 포괄적인 가이드를 따르세요.
-type: docs
 weight: 21
 url: /ko/java/java-ai-to-image-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java AI를 이미지 형식으로 변환
+
 
 ## 소개
 
@@ -45,3 +51,9 @@ Aspose.PSD를 사용하여 Java에서 AI 파일을 PDF로 변환하는 방법을
 쉬운 단계별 가이드를 통해 Aspose.PSD를 사용하여 Java에서 AI를 PSD로 변환하세요. 빠르고 원활한 파일 변환이 필요한 개발자에게 적합합니다.
 ### [Java에서 AI를 TIFF로 변환](./convert-ai-to-tiff/)
 Aspose.PSD를 사용하여 AI를 Java의 TIFF로 쉽게 변환하세요. 개발자를 위한 단계별 가이드. 다운로드, 설정 및 코드 조각이 포함되어 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

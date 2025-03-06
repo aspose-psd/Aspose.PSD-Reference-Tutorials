@@ -3,10 +3,16 @@ title: Загрузка изображений из потока с помощь
 linktitle: Загрузка изображений из потока
 second_title: Aspose.PSD Java API
 description: Научитесь легко загружать PSD-изображения на Java с помощью Aspose.PSD. Следуйте нашему пошаговому руководству для эффективной обработки изображений.
-type: docs
 weight: 11
 url: /ru/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Загрузка изображений из потока с помощью Aspose.PSD для Java
+
 ## Введение
 
 Aspose.PSD для Java — это многофункциональная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами PSD, выполняя различные задачи по обработке изображений. В этом уроке мы сосредоточимся на основных шагах по загрузке изображений из потока с помощью Aspose.PSD для Java.
@@ -105,3 +111,9 @@ Aspose.PSD для Java позволяет разработчикам легко 
 ### Вопрос 5: Где я могу приобрести Aspose.PSD для Java?
 
  A5: Посетите[страница покупки](https://purchase.aspose.com/buy) приобрести Aspose.PSD для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

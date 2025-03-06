@@ -3,10 +3,16 @@ title: Tambahkan Tanda Air Diagonal ke File PSD dengan Java
 linktitle: Tambahkan Tanda Air Diagonal ke File PSD dengan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mudah menambahkan tanda air diagonal ke file PSD menggunakan Java dengan Aspose.PSD. Panduan langkah demi langkah untuk menyempurnakan gambar Anda dengan percaya diri.
-type: docs
 weight: 12
 url: /id/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Tanda Air Diagonal ke File PSD dengan Java
+
 ## Perkenalan
 Di dunia digital saat ini, memiliki visual yang mencolok dapat membuat perbedaan besar. Baik Anda seorang desainer yang ingin melindungi karya Anda atau pemasar yang ingin menambahkan merek pada gambar, menerapkan tanda air sangatlah penting. Dalam tutorial ini, kita akan mempelajari cara menambahkan tanda air diagonal ke file PSD menggunakan Java dengan bantuan Aspose.PSD, perpustakaan yang kuat untuk memanipulasi file PSD.
 ## Prasyarat
@@ -97,3 +103,9 @@ Sangat! Anda dapat menyesuaikan nilai alpha di SolidBrush untuk mengubah transpa
  Ya, Anda dapat menghubungi`drawString` metode beberapa kali dengan parameter berbeda untuk menambahkan lebih banyak tanda air.
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PSD?
  Anda dapat memeriksa dokumentasinya[Di Sini](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

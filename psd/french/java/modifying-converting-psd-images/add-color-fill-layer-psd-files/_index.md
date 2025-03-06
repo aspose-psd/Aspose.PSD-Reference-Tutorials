@@ -3,10 +3,16 @@ title: Ajouter une couche de remplissage de couleur aux fichiers PSD à l'aide d
 linktitle: Ajouter une couche de remplissage de couleur aux fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter facilement un calque de remplissage de couleur aux fichiers PSD à l'aide de Java et Aspose.PSD. Suivez notre tutoriel étape par étape pour des conceptions plus rapides.
-type: docs
 weight: 20
 url: /fr/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une couche de remplissage de couleur aux fichiers PSD à l'aide de Java
+
 ## Introduction
 Avez-vous déjà eu besoin de manipuler des fichiers Photoshop par programme, peut-être pour ajouter une touche de couleur à un dessin ? Eh bien, vous avez atterri au bon endroit. Dans cet article, nous expliquons comment ajouter un calque de remplissage de couleur aux fichiers PSD (Photoshop Document) à l'aide de Java et de la bibliothèque Aspose.PSD. Considérez vos fichiers PSD comme une toile et, avec seulement quelques lignes de code, vous pouvez les repeindre.
 ## Conditions préalables
@@ -87,3 +93,9 @@ Vous pouvez travailler avec des fichiers PSD et manipuler leurs calques, effets 
  Vous pouvez obtenir de l'aide via le[Forum d'assistance Aspose](https://forum.aspose.com/c/psd/34).
 ### Où puis-je acheter Aspose.PSD ?  
  Vous pouvez acheter une licence via le[Page d'achat Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

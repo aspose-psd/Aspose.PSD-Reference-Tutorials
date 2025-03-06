@@ -3,10 +3,16 @@ title: Munka PSD fájlokkal
 linktitle: Munka PSD fájlokkal
 second_title: Aspose.PSD Java API
 description: Fedezze fel az átfogó Aspose.PSD for Java oktatóanyagot, beleértve a PSD-rétegcsoportok képekké való exportálását, valamint a Clbl, Infx és Lspf erőforrások kezelését.
-type: docs
 weight: 26
 url: /hu/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Munka PSD fájlokkal
+
 
 ## Bevezetés
 
@@ -37,3 +43,9 @@ Ismerje meg, hogyan támogathatja és kezelheti a Clbl-erőforrást PSD-fájlokb
 Ezzel az átfogó, lépésről lépésre bemutató oktatóanyaggal megtudhatja, hogyan kezelheti az Infx Resource-t PSD-fájlokban az Aspose.PSD for Java segítségével. Tökéletes minden szintű fejlesztő számára.
 ### [Támogassa az Lspf-erőforrást PSD-fájlokban Java használatával](./support-lspf-resource-psd-files/)
 Ismerje meg, hogyan támoga
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

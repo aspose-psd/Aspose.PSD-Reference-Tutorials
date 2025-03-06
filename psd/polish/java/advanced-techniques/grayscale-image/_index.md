@@ -3,10 +3,16 @@ title: Skala szarości obrazu przy użyciu Aspose.PSD dla Java
 linktitle: Skala szarości obrazu
 second_title: Aspose.PSD API Java
 description: Przeglądaj Aspose.PSD dla Java i dowiedz się, jak bez wysiłku skalować obrazy w skali szarości, korzystając z naszego samouczka krok po kroku.
-type: docs
 weight: 10
 url: /pl/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skala szarości obrazu przy użyciu Aspose.PSD dla Java
+
 ## Wstęp
 
 W dziedzinie przetwarzania obrazu konwersja obrazu do skali szarości jest operacją podstawową. Aspose.PSD dla Java zapewnia zaawansowane rozwiązanie dla programistów Java, umożliwiające bezproblemowe osiągnięcie tego celu. W tym samouczku przeprowadzimy Cię przez proces skalowania obrazu w skali szarości przy użyciu Aspose.PSD, dzięki czemu nawet początkujący będą mogli bez trudu go wykonać.
@@ -104,3 +110,9 @@ Gratulacje! Pomyślnie przeskalowałeś obraz w skali szarości przy użyciu Asp
 ### P5: Potrzebujesz wsparcia lub masz pytania?
 
  A5: Odwiedź forum Aspose.PSD[Tutaj](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

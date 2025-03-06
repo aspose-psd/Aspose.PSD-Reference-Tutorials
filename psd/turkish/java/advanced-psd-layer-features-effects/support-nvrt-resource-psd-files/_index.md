@@ -3,10 +3,16 @@ title: Java kullanarak PSD Dosyalarında Nvrt Kaynağını Destekleyin
 linktitle: Java kullanarak PSD Dosyalarında Nvrt Kaynağını Destekleyin
 second_title: Aspose.PSD Java API'si
 description: Java kullanarak PSD dosyalarında Nvrt kaynaklarının nasıl destekleneceğini keşfedin. Aspose.PSD ile dosyaları yüklemeyi ve değerli kaynakları zahmetsizce çıkarmayı öğrenin.
-type: docs
 weight: 10
 url: /tr/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PSD Dosyalarında Nvrt Kaynağını Destekleyin
+
 ## giriiş
 Java'da Photoshop dosyalarıyla (PSD) çalışmak söz konusu olduğunda yapabileceğiniz sayısız şey vardır. İster bir grafik düzenleyici geliştiriyor olun, ister görevleri otomatikleştiriyor olun, ister tasarımları programlı olarak yönetiyor olun, PSD dosyalarının nasıl değiştirileceğini anlamak çok önemlidir. Bu kılavuzda, Aspose.PSD for Java kütüphanesini kullanarak PSD dosyalarındaki Nvrt (Tersine Çevirme Ayarı) Kaynağını destekleme gibi belirli bir hususu ele alıyoruz.
 ## Önkoşullar
@@ -90,3 +96,9 @@ Aspose.PSD for Java, geliştiricilerin PSD dosyalarını Java kodu aracılığı
  Kesinlikle! Aspose.PSD for Java'nın ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.PSD için nasıl destek alabilirim?
  Aspose forumunda soru sorabilir ve destek alabilirsiniz:[Destek Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف طبقة ضبط مازج القنوات في PSD
 linktitle: أضف طبقة ضبط مازج القنوات في PSD
 second_title: Aspose.PSD جافا API
 description: قم بتحسين ملفات PSD الخاصة بك باستخدام طبقات ضبط Channel Mixer باستخدام Aspose.PSD لـ Java. تعلم تقنيات معالجة الألوان خطوة بخطوة للحصول على صور نابضة بالحياة.
-type: docs
 weight: 10
 url: /ar/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف طبقة ضبط مازج القنوات في PSD
+
 ## مقدمة
 عالم التصميم الجرافيكي مليء بالإمكانيات، ولكن في بعض الأحيان، قد يبدو الحصول على المظهر المثالي وكأنه يتجول في غابة كثيفة بدون خريطة. هل شعرت يومًا أن صورك تفتقر إلى عامل "الإبهار"؟ حسنًا، هنا يأتي دور طبقات الضبط! اليوم، سنتعمق في كيفية إضافة طبقات ضبط مازج القنوات باستخدام Aspose.PSD لـ Java. هذه أداة أنيقة تسمح لك بإجراء تعديلات دقيقة على الألوان لملفات PSD الخاصة بك، مما يضمن ظهور صورك وإبهارها.
 
@@ -167,3 +173,9 @@ img1.save(psdPathAfterChangeCmyk);
 
 ### هل هناك طريقة للحصول على ترخيص مؤقت لـ Aspose.PSD؟
  نعم! يمكنك التقدم بطلب للحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

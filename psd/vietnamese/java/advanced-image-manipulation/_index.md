@@ -3,10 +3,16 @@ title: Thao tác hình ảnh nâng cao
 linktitle: Thao tác hình ảnh nâng cao
 second_title: API Java Aspose.PSD
 description: Khám phá các hướng dẫn thao tác hình ảnh nâng cao với Aspose.PSD cho Java. Tìm hiểu cách thay thế phông chữ hiệu quả, buộc bộ nhớ đệm phông chữ, triển khai bộ lấy mẫu lại hai khối, v.v.
-type: docs
 weight: 24
 url: /vi/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác hình ảnh nâng cao
+
 
 ## Giới thiệu
 
@@ -80,3 +86,9 @@ Làm chủ việc thay đổi kích thước hình ảnh trong Java bằng Aspos
 Khám phá xoay hình ảnh trong Java một cách dễ dàng với Aspose.PSD. Xoay, lật và lưu tệp PSD dễ dàng.
 ### [Xoay hình ảnh trên một góc cụ thể bằng Aspose.PSD cho Java](./rotate-image-specific-angle/)
 Khám phá xoay hình ảnh trong Java với Aspose.PSD cho Java. Xoay hình ảnh dễ dàng trên các góc cụ thể.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

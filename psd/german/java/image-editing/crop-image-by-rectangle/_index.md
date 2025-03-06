@@ -3,10 +3,16 @@ title: Bild per Rechteck in Aspose.PSD für Java zuschneiden
 linktitle: Bild rechteckig zuschneiden
 second_title: Aspose.PSD Java API
 description: Entdecken Sie die nahtlosen Bildzuschneidefunktionen in Java mit Aspose.PSD. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Bilder mühelos mit Aspose.PSD für Java zuzuschneiden.
-type: docs
 weight: 15
 url: /de/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bild per Rechteck in Aspose.PSD für Java zuschneiden
+
 ## Einführung
 
 In der Welt der Java-Entwicklung ist die Bildbearbeitung eine gängige Aufgabe, und Aspose.PSD für Java bietet eine leistungsstarke Lösung für die Bildverarbeitung. In diesem Tutorial führen wir Sie durch den Prozess des Zuschneidens eines Bildes um ein Rechteck mit Aspose.PSD für Java. Befolgen Sie die folgenden Schritte, um dies problemlos zu erreichen.
@@ -105,3 +111,9 @@ A1: Ja, Aspose.PSD für Java kann in verschiedene Java-Frameworks integriert wer
 ### F5: Welche Bildformate werden zum Zuschneiden in Aspose.PSD für Java unterstützt?
 
 A5: Aspose.PSD für Java unterstützt verschiedene Bildformate, darunter PSD, PNG, JPEG und mehr.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

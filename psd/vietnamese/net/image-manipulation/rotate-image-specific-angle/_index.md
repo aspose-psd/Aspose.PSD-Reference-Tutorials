@@ -3,10 +3,16 @@ title: Xoay hình ảnh trên một góc cụ thể trong Aspose.PSD cho .NET
 linktitle: Xoay hình ảnh trên một góc cụ thể
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của Aspose.PSD cho .NET. Xoay hình ảnh dễ dàng trên các góc cụ thể. Tải thư viện xuống và bắt đầu thao tác với hình ảnh một cách liền mạch.
-type: docs
 weight: 16
 url: /vi/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xoay hình ảnh trên một góc cụ thể trong Aspose.PSD cho .NET
+
 Nếu bạn đang đi sâu vào thế giới xử lý hình ảnh bằng .NET, Aspose.PSD cung cấp một giải pháp mạnh mẽ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xoay hình ảnh theo một góc cụ thể bằng Aspose.PSD. Trước khi đi sâu vào các bước, hãy bắt đầu bằng phần giới thiệu.
 
 ## Giới thiệu
@@ -104,3 +110,9 @@ Câu trả lời 3: Mặc dù không bắt buộc nhưng dữ liệu bộ nhớ 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD trước khi mua không?
 
  A5: Chắc chắn rồi! Lấy của bạn[dùng thử miễn phí](https://releases.aspose.com/)để khám phá các khả năng của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

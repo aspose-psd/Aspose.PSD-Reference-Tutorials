@@ -3,10 +3,16 @@ title: การสร้างรูปทรงวงรีด้วย Aspose
 linktitle: การสร้างรูปทรงวงรีด้วย Aspose.PSD สำหรับ .NET
 second_title: Aspose.PSD .NET API
 description: เรียนรู้วิธีการวาดรูปทรงวงรีใน .NET โดยใช้ Aspose.PSD คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด สร้างกราฟิกที่น่าทึ่งได้อย่างง่ายดาย
-type: docs
 weight: 13
 url: /th/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างรูปทรงวงรีด้วย Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คู่มือที่ครอบคลุมของเราเกี่ยวกับการสร้างรูปทรงวงรีโดยใช้ Aspose.PSD สำหรับ .NET Aspose.PSD เป็นไลบรารี .NET อันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการและแปลงไฟล์ Photoshop ได้โดยไม่ต้องใช้ Adobe Photoshop ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการวาดรูปทรงวงรีโดยใช้ไลบรารี
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### คำถามที่ 5: ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวในการทดสอบหรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

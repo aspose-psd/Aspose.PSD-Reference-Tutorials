@@ -3,10 +3,16 @@ title: قم بتطبيق مرشحات Gaussian وWiener للصور الملون�
 linktitle: قم بتطبيق مرشحات Gaussian وWiener للصور الملونة
 second_title: Aspose.PSD جافا API
 description: قم بتحسين صورك الملونة بسهولة باستخدام Aspose.PSD لـ Java. تعلم كيفية تطبيق مرشحات Gaussian وWiener خطوة بخطوة للحصول على نتائج مرئية مذهلة.
-type: docs
 weight: 11
 url: /ar/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق مرشحات Gaussian وWiener للصور الملونة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تطبيق مرشحات Gaussian وWiener للصور الملونة باستخدام Aspose.PSD لـ Java. في هذا الدليل، سنستكشف خطوة بخطوة كيفية تحسين صورك الملونة باستخدام هذه المرشحات القوية، مما يوفر لك المهارات اللازمة لتحسين المحتوى المرئي الخاص بك.
@@ -96,3 +102,9 @@ A1: نعم، يمكنك تطبيق مرشحات Gaussian وWiener على الص�
 ### س5: أين يمكنني طلب الدعم للاستعلامات المتعلقة بـ Aspose.PSD؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

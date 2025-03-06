@@ -3,10 +3,16 @@ title: تطبيق ضبط توازن اللون في Aspose.PSD لـ .NET
 linktitle: تطبيق ضبط توازن اللون
 second_title: Aspose.PSD.NET API
 description: قم بتحسين ألوان صور PSD بسهولة باستخدام Aspose.PSD لميزة ضبط توازن الألوان الخاصة بـ .NET. اتبع دليلنا خطوة بخطوة للحصول على نتائج مذهلة.
-type: docs
 weight: 14
 url: /ar/net/image-adjustment/color-balance-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق ضبط توازن اللون في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تطبيق ضبط توازن اللون في Aspose.PSD لـ .NET! Aspose.PSD هي مكتبة .NET قوية تتيح للمطورين العمل مع ملفات PSD بكفاءة. في هذا البرنامج التعليمي، سوف نركز على ميزة ضبط توازن اللون، مما يتيح لك تحسين توازن الألوان لصور PSD الخاصة بك بسهولة.
@@ -97,3 +103,10 @@ im.Save(outputPath);
 ### س5: ما هي خيارات الدعم المتوفرة لـ Aspose.PSD لـ .NET؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع والمناقشات.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

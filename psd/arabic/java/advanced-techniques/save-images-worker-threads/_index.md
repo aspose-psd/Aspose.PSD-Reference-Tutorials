@@ -3,10 +3,16 @@ title: احفظ الصور باستخدام مؤشرات الترابط العا
 linktitle: حفظ الصور باستخدام مؤشرات الترابط العاملة
 second_title: Aspose.PSD جافا API
 description: استكشف معالجة الصور متعددة الخيوط في Java باستخدام Aspose.PSD. تعلم كيفية حفظ الصور بكفاءة باستخدام سلاسل العمليات.
-type: docs
 weight: 14
 url: /ar/java/advanced-techniques/save-images-worker-threads/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ الصور باستخدام مؤشرات الترابط العاملة مع Aspose.PSD لـ Java
+
 ## مقدمة
 
 هل أنت مستعد لتعزيز قدرات معالجة الصور لديك في Java؟ لا تنظر إلى أبعد من Aspose.PSD لـ Java. في هذا البرنامج التعليمي، سنرشدك خلال عملية حفظ الصور باستخدام سلاسل العمليات، مما يضمن الأداء والكفاءة الأمثل. دعونا نتعمق في عالم معالجة الصور متعددة الخيوط باستخدام Aspose.PSD!
@@ -119,3 +125,9 @@ public class MainApplication {
 ### س5: أين يمكنني شراء Aspose.PSD لـ Java؟
 
  ج5: لشراء Aspose.PSD لـ Java، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

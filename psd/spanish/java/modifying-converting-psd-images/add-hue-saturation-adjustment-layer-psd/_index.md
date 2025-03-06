@@ -3,10 +3,16 @@ title: Agregar capa de ajuste de saturación de tono a PSD
 linktitle: Agregar capa de ajuste de saturación de tono a PSD
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo agregar capas de ajuste de saturación de tono a PSD usando Aspose.PSD para Java en este completo tutorial paso a paso. Mejore su flujo de trabajo de diseño gráfico.
-type: docs
 weight: 14
 url: /es/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar capa de ajuste de saturación de tono a PSD
+
 ## Introducción
 Cuando se trata de diseño gráfico, la manipulación del color juega un papel fundamental; específicamente, ajustar el tono, la saturación y la luminosidad puede transformar drásticamente el estado de ánimo y la calidad de cualquier imagen. Una forma eficaz de lograrlo es mediante el uso de capas de ajuste en Photoshop (archivos PSD). Si está buscando mejorar sus archivos PSD mediante programación usando Java, ¡la biblioteca Aspose.PSD está aquí para ayudarlo! Este tutorial lo guiará a través de los pasos para agregar una capa de ajuste de saturación de tono a sus archivos PSD, haciendo que sus flujos de trabajo sean más productivos y eficientes.
 En esta guía, cubriremos todo, desde la importación de paquetes necesarios hasta los detalles esenciales de los ejemplos de código.
@@ -102,3 +108,9 @@ No, Aspose.PSD es una biblioteca independiente que funciona independientemente d
 Sí, puedes automatizar y procesar por lotes varios archivos PSD con Aspose.PSD.
 ### ¿Aspose.PSD es gratuito?
 Aspose.PSD ofrece una prueba gratuita, pero se requiere una licencia para un uso prolongado. Puedes ver precios[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

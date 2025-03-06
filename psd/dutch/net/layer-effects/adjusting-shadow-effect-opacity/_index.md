@@ -3,10 +3,16 @@ title: De dekking van schaduweffecten aanpassen in Aspose.PSD voor .NET
 linktitle: De dekking van het schaduweffect aanpassen
 second_title: Aspose.PSD .NET-API
 description: Leer hoe u de dekking van schaduweffecten in Aspose.PSD voor .NET kunt aanpassen met deze uitgebreide zelfstudie.
-type: docs
 weight: 15
 url: /nl/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# De dekking van schaduweffecten aanpassen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding voor het aanpassen van de dekking van schaduweffecten in Aspose.PSD voor .NET! In deze zelfstudie begeleiden we u bij het gebruik van de eigenschap Opacity van DropShadowEffect. Aspose.PSD voor .NET is een krachtige bibliotheek waarmee u naadloos met PSD-bestanden in uw .NET-toepassingen kunt werken.
@@ -105,3 +111,9 @@ A4: Ja, Aspose.PSD voor .NET is compatibel met zowel .NET Framework als .NET Cor
 ### V5: Waar kan ik community-ondersteuning vinden voor Aspose.PSD voor .NET?
 
  A5: Bezoek de[Aspose.PSD-forums](https://forum.aspose.com/c/psd/34) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 글꼴 캐시 강제 적용
 linktitle: 글꼴 캐시 강제
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 단계별 글꼴 캐시 관리를 살펴보세요. 이 강력한 .NET 라이브러리를 사용하여 정확한 렌더링을 보장하세요.
-type: docs
 weight: 14
 url: /ko/net/file-and-font-handling/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 글꼴 캐시 강제 적용
+
 ## 소개
 
 .NET용 Aspose.PSD는 .NET 애플리케이션에서 PSD 파일 작업을 위한 강력한 도구를 제공합니다. 필수 기능 중 하나는 글꼴 캐시를 강제 적용하여 PSD 파일이 일관되고 정확한 렌더링을 유지하도록 하는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose.PSD에서 글꼴 캐시를 강제하는 프로세스를 단계별로 안내합니다.
@@ -95,3 +101,9 @@ A1: 예, .NET용 Aspose.PSD는 다양한 PSD 파일 버전을 지원하여 포�
 ### Q5: .NET용 Aspose.PSD를 직접 구매할 수 있나요?
 
  A5: 예, 다음을 통해 .NET용 Aspose.PSD를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

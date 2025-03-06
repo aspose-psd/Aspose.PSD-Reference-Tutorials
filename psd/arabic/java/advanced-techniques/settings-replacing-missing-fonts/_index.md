@@ -3,10 +3,16 @@ title: إعدادات استبدال الخطوط المفقودة في Aspose.P
 linktitle: إعدادات استبدال الخطوط المفقودة
 second_title: Aspose.PSD جافا API
 description: استكشف دليلاً شاملاً حول استبدال الخطوط المفقودة في Aspose.PSD لـ Java. ارفع مستوى تصميم صورتك من خلال إدارة الخطوط بسلاسة.
-type: docs
 weight: 17
 url: /ar/java/advanced-techniques/settings-replacing-missing-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعدادات استبدال الخطوط المفقودة في Aspose.PSD لـ Java
+
 ## مقدمة
 
 في المجال الديناميكي لتطوير Java، يمكن أن تكون إدارة الخطوط المفقودة واستبدالها في ملفات PSD الخاصة بك جانبًا مهمًا لإنشاء صور جذابة وخالية من الأخطاء. يأتي Aspose.PSD for Java إلى الإنقاذ بميزاته القوية، مما يجعل عملية استبدال الخط عملية سلسة. في هذا البرنامج التعليمي، سنستكشف خطوات استبدال الخطوط المفقودة باستخدام Aspose.PSD لـ Java، مما يضمن احتفاظ صورك بسلامتها الجمالية.
@@ -106,3 +112,9 @@ psdImage.save(destName, options);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

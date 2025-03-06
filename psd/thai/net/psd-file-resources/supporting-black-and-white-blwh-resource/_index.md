@@ -3,10 +3,16 @@ title: สนับสนุนทรัพยากรขาวดำใน Asp
 linktitle: สนับสนุนทรัพยากรขาวดำ (Blwh)
 second_title: Aspose.PSD .NET API
 description: สำรวจการแก้ไขภาพขั้นสูงด้วย Aspose.PSD สำหรับ .NET เรียนรู้การใช้เลเยอร์การปรับแต่งขาวดำอย่างเชี่ยวชาญเพื่อการควบคุมองค์ประกอบภาพอย่างแม่นยำ
-type: docs
 weight: 13
 url: /th/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สนับสนุนทรัพยากรขาวดำใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 ในโลกแบบไดนามิกของสื่อดิจิทัล การแก้ไขภาพมีบทบาทสำคัญในการสร้างภาพที่น่าดึงดูด Aspose.PSD สำหรับ .NET ช่วยให้นักพัฒนายกระดับความสามารถในการจัดการรูปภาพของตนขึ้นไปอีกระดับ ในบทช่วยสอนนี้ เราจะสำรวจการรองรับเลเยอร์การปรับแต่งขาวดำใน Aspose.PSD ซึ่งช่วยให้คุณปรับแต่งรูปภาพได้อย่างแม่นยำ
 ## ข้อกำหนดเบื้องต้น
@@ -89,3 +95,9 @@ A2: แน่นอน! Aspose.PSD ช่วยให้คุณสามาร
 ### คำถามที่ 5: มีภาพตัวอย่างสำหรับทดสอบการปรับแต่งขาวดำหรือไม่
 
 A5: ได้ คุณสามารถค้นหารูปภาพตัวอย่างได้ในเอกสารประกอบของ Aspose.PSD
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

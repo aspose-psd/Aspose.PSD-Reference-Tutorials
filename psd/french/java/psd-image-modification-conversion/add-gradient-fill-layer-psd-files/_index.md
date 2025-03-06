@@ -3,10 +3,16 @@ title: Ajouter une couche de remplissage dégradé dans les fichiers PSD avec Ja
 linktitle: Ajouter une couche de remplissage dégradé dans les fichiers PSD avec Java
 second_title: API Java Aspose.PSD
 description: Modifiez les calques de remplissage dégradé dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Découvrez comment modifier les couleurs, la transparence et d’autres propriétés de dégradé par programmation.
-type: docs
 weight: 15
 url: /fr/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une couche de remplissage dégradé dans les fichiers PSD avec Java
+
 ## Introduction
 
 Avez-vous déjà eu envie d'une touche supplémentaire de magie visuelle pour vos fichiers PSD ? Les dégradés offrent un moyen étonnant d'ajouter de la profondeur et de la dimension à vos créations. Mais que se passe-t-il si vous souhaitez manipuler ces dégradés par programme à l’aide de Java ? Aspose.PSD vient à la rescousse ! Ce guide complet vous permettra de modifier les calques de remplissage dégradé dans les fichiers PSD à l'aide d'Aspose.PSD, vous guidant étape par étape tout au long de ce processus passionnant.
@@ -167,3 +173,9 @@ L'impact sur les performances dépend de la complexité du dégradé et du nombr
 
 ### Puis-je appliquer cette technique à plusieurs calques de remplissage dégradé dans un fichier PSD ?
 Oui, vous pouvez parcourir les calques et appliquer les modifications à chaque calque de remplissage dégradé qui répond à vos critères.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

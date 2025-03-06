@@ -3,10 +3,16 @@ title: Implémenter le rééchantillonneur bicubique dans Aspose.PSD pour Java
 linktitle: Implémenter le rééchantillonneur bicubique
 second_title: API Java Aspose.PSD
 description: Améliorez le redimensionnement des images Java avec Aspose.PSD pour Java Bicubic Resampler. Suivez notre guide étape par étape pour des résultats supérieurs.
-type: docs
 weight: 12
 url: /fr/java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implémenter le rééchantillonneur bicubique dans Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le monde du développement Java, obtenir un redimensionnement d’image de haute qualité est une exigence courante. Aspose.PSD pour Java fournit une solution puissante avec son rééchantillonneur bicubique. Ce guide étape par étape vous guidera tout au long du processus d'implémentation du rééchantillonneur bicubique à l'aide d'Aspose.PSD pour Java. À la fin de ce didacticiel, vous serez en mesure d'améliorer vos applications Java avec des capacités supérieures de redimensionnement d'image.
@@ -91,3 +97,9 @@ A1 : Oui, Aspose.PSD pour Java prend en charge divers formats d'image, notamment
 ### Q5 : Comment puis-je acheter Aspose.PSD pour Java ?
 
  A5 : Vous pouvez acheter Aspose.PSD pour Java à partir de la page d'achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

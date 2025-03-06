@@ -3,10 +3,16 @@ title: Làm mờ hình ảnh trong Aspose.PSD cho .NET
 linktitle: Làm mờ hình ảnh
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách làm mờ hình ảnh dễ dàng bằng Aspose.PSD cho .NET. Hướng dẫn từng bước để thao tác hình ảnh liền mạch trong các dự án C# của bạn.
-type: docs
 weight: 13
 url: /vi/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm mờ hình ảnh trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.PSD chứng tỏ là một đồng minh đắc lực cho việc xử lý hình ảnh. Hướng dẫn này tập trung vào một tác vụ cụ thể: làm mờ hình ảnh bằng Aspose.PSD cho .NET. Nếu bạn mong muốn nâng cao kỹ năng xử lý hình ảnh của mình hoặc chỉ đơn giản là tìm kiếm một cách hiệu quả để làm mờ hình ảnh theo chương trình thì bạn đã đến đúng nơi.
@@ -97,3 +103,9 @@ A4: Chắc chắn rồi! Aspose.PSD cung cấp một bộ tính năng toàn di�
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp hoặc kết nối với cộng đồng Aspose.PSD ở đâu?
 
  Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc thảo luận nào, hãy truy cập[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Comment ajouter un motif de calque de trait en Java
 linktitle: Comment ajouter un motif de calque de trait en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter un motif de calque de trait aux fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez ce guide étape par étape pour améliorer facilement vos images.
-type: docs
 weight: 11
 url: /fr/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comment ajouter un motif de calque de trait en Java
+
 ## Introduction
 Ajouter un motif de calque de trait à une image en Java peut sembler une tâche ardue, mais avec Aspose.PSD pour Java, c'est plus facile que vous ne le pensez. Que vous conceviez des graphiques ou travailliez sur des applications de retouche photo, ce guide vous guidera pas à pas tout au long du processus. Prêt à commencer ? Allons-y !
 ## Conditions préalables
@@ -138,3 +144,9 @@ Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de crée
  Vous pouvez obtenir de l'aide sur les forums de la communauté Aspose[ici](https://forum.aspose.com/c/psd/34).
 ### Quelle est la configuration système requise pour Aspose.PSD pour Java ?
 Vous avez besoin d'installer JDK et d'un IDE pour le développement. La bibliothèque prend en charge plusieurs systèmes d'exploitation, notamment Windows, Linux et macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

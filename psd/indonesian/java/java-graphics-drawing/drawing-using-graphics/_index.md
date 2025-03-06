@@ -3,10 +3,16 @@ title: Menggambar Menggunakan Grafik di Java
 linktitle: Menggambar Menggunakan Grafik di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggambar grafik di Java menggunakan Aspose.PSD langkah demi langkah. Buat bentuk, terapkan warna, dan ekspor gambar dengan mudah.
-type: docs
 weight: 18
 url: /id/java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Menggunakan Grafik di Java
+
 ## Perkenalan
 Dalam pemrograman Java, menggambar dan memanipulasi gambar secara terprogram adalah kemampuan hebat yang sering kali dibutuhkan oleh pengembang. Tutorial ini berfokus pada penggunaan Aspose.PSD untuk Java, perpustakaan tangguh yang memungkinkan pengembang membuat dan mengedit file PSD, serta melakukan berbagai operasi grafis seperti menggambar bentuk, menerapkan kuas, dan mengekspor gambar. Panduan ini akan memandu Anda melalui proses menggambar menggunakan grafik di Java dengan Aspose.PSD, merinci setiap langkah untuk memastikan kejelasan dan pemahaman.
 ## Prasyarat
@@ -79,3 +85,9 @@ Tentu saja, Aspose.PSD dioptimalkan untuk kinerja dan efisiensi memori.
 Ya, Aspose.PSD mendukung ekspor ke berbagai format seperti BMP, PNG, JPEG, dan TIFF.
 ### Bagaimana saya bisa mendapatkan dukungan atau bantuan jika saya mengalami masalah?
 Jangkau komunitas Aspose.PSD di[forum dukungan](https://forum.aspose.com/c/psd/34) atau pertimbangkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk dukungan prioritas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

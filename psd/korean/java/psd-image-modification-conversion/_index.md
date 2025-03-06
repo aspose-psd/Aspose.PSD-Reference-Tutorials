@@ -3,10 +3,16 @@ title: PSD 이미지 수정 및 변환
 linktitle: PSD 이미지 수정 및 변환
 second_title: Aspose.PSD 자바 API
 description: Java 튜토리얼용 필수 Aspose.PSD를 찾아보세요. 단계별 가이드를 통해 PSD 파일 처리, 레이어 내보내기, 효과 적용 등의 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/psd-image-modification-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 이미지 수정 및 변환
+
 ## 소개
 
 Java용 Aspose.PSD 사용 가이드에 오신 것을 환영합니다! 이 튜토리얼 컬렉션은 개발자와 그래픽 디자이너가 PSD 파일을 효율적으로 사용하는 데 도움이 되도록 설계되었습니다. 이미지 수정, 레이어 관리, 효과 적용 등 무엇을 원하시든 저희가 도와드리겠습니다. 이미지 처리 기술을 향상시켜 줄 몇 가지 주요 튜토리얼을 살펴보겠습니다.
@@ -102,3 +108,9 @@ Java용 Aspose.PSD를 사용하여 PSD 파일에서 RGB 및 CMYK 채널 믹서 �
 Aspose.PSD를 사용하여 Java로 손쉽게 PSD 이미지를 향상하세요. 이 가이드를 따라 조정 레이어를 단계별로 관리하세요.
 ### [PSD에서 사진 필터 조정 레이어 관리 - Java](./manage-photo-filter-adjustment-layer-psd/)
 Java용 Aspose.PSD를 사용하여 PSD 파일의 사진 필터 조정 레이어를 관리하는 방법을 알아보세요. 필터를 손쉽게 편집하고 추가하려면 이 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

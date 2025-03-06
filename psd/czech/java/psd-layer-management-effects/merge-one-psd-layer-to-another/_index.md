@@ -3,10 +3,16 @@ title: Sloučit jednu vrstvu PSD do druhé pomocí Javy
 linktitle: Sloučit jednu vrstvu PSD do druhé pomocí Javy
 second_title: Aspose.PSD Java API
 description: Naučte se, jak sloučit vrstvy z jednoho souboru PSD do druhého pomocí Aspose.PSD for Java, v našem podrobném tutoriálu. Ideální pro automatizaci vašich návrhových procesů.
-type: docs
 weight: 10
 url: /cs/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučit jednu vrstvu PSD do druhé pomocí Javy
+
 ## Zavedení
 
 Přistihli jste se někdy, že při programové práci s dokumenty Adobe Photoshop potřebujete sloučit vrstvy z jednoho souboru PSD do druhého? Ať už automatizujete procesy návrhu nebo spravujete velkou sbírku vrstvených obrázků, Aspose.PSD for Java nabízí výkonnou sadu nástrojů pro manipulaci se soubory PSD přímo prostřednictvím kódu Java. V této příručce vás provedeme procesem sloučení jedné vrstvy PSD do druhé pomocí Aspose.PSD for Java. Nejen, že se naučíte plynule slučovat vrstvy, ale také zjistíte, jak snadné je pracovat se soubory PSD v prostředí Java. Jste připraveni se ponořit? Začněme!
@@ -119,3 +125,9 @@ Jakmile jsou vrstvy sloučeny, operace není vratná. Vždy mějte zálohu svýc
 
 ### Jak získám dočasnou licenci pro Aspose.PSD pro Javu?
  Dočasnou licenci můžete získat od[Aspose webové stránky](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

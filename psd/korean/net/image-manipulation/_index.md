@@ -3,10 +3,16 @@ title: 이미지 조작
 linktitle: 이미지 조작
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD로 .NET 프로젝트를 향상시키세요! 결합, 자르기, 크기 조정, 회전 및 효과 추가와 같은 이미지 조작 기술을 쉽게 배우십시오.
-type: docs
 weight: 26
 url: /ko/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 조작
+
 ## 소개
 
 이미지 조작은 .NET을 사용하는 모든 개발자나 디자이너에게 필수적인 기술이며 .NET용 Aspose.PSD는 기능을 향상시키는 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 다음을 사용하여 원활하게 적용할 수 있는 다양한 이미지 조작 기술을 살펴보겠습니다.[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ ObAr 및 UnFl 서명을 지원하는 .NET용 Aspose.PSD의 강력한 기능을 �
 .NET용 Aspose.PSD에서 그라데이션 오버레이 효과 렌더링 기술을 마스터하세요. 이 단계별 튜토리얼을 통해 그래픽 디자인 기술을 향상해보세요.
 ### [.NET용 Aspose.PSD에서 그라데이션 오버레이 효과 지원](./supporting-gradient-overlay-effect/)
 Aspose.PSD를 사용하여 .NET의 그래픽을 향상하세요. 이 튜토리얼에서는 그라데이션 오버레이 효과를 지원하는 방법을 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

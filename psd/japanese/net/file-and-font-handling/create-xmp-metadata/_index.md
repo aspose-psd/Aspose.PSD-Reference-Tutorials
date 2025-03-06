@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で XMP メタデータを作成する
 linktitle: XMPメタデータの作成
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET での XMP メタデータの作成について説明します。シームレスな操作で画像の整理を強化します。
-type: docs
 weight: 10
 url: /ja/net/file-and-font-handling/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で XMP メタデータを作成する
+
 ## 導入
 
 .NET 開発のダイナミックな世界では、画像を正確に操作することが多くのアプリケーションにとって重要な要素です。このチュートリアルでは、画像処理タスクを簡素化する強力なライブラリである Aspose.PSD for .NET での XMP メタデータの作成について説明します。XMP (Extensible Metadata Platform) を使用すると、画像ファイル内にメタデータを埋め込むことができ、画像に関連する情報の効率的な整理と取得が容易になります。
@@ -170,3 +176,9 @@ A4: 最新の .NET Framework バージョンおよび業界標準との互換性
 ### Q5: Aspose.PSD サポートのコミュニティ フォーラムはありますか?
 
  A: はい、サポートやディスカッションは[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

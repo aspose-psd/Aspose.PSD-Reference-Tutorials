@@ -3,10 +3,16 @@ title: إنشاء الصور عن طريق تحديد المسار في Aspose.P
 linktitle: إنشاء الصور عن طريق تحديد المسار
 second_title: Aspose.PSD.NET API
 description: استكشف إنشاء الصور باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة وأطلق العنان لإمكانات هذه المكتبة القوية.
-type: docs
 weight: 11
 url: /ar/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء الصور عن طريق تحديد المسار في Aspose.PSD لـ .NET
+
 في مجال تطوير .NET، يبرز Aspose.PSD كأداة قوية لمعالجة الصور وإنشائها. في هذا البرنامج التعليمي، سوف نتعمق في عملية إنشاء الصور باستخدام Aspose.PSD لـ .NET عن طريق تحديد المسار. اتبع هذه التعليمات خطوة بخطوة لفتح إمكانات هذه المكتبة متعددة الاستخدامات.
 
 ## مقدمة
@@ -98,3 +104,9 @@ using (Image image = Image.Create(psdOptions, 500, 500))
 ### س5: كيف يمكنني الحصول على الدعم أو طلب المساعدة؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للتواصل مع المجتمع وطلب المساعدة من الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

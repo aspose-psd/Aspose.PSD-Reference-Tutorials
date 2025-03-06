@@ -3,10 +3,16 @@ title: Java ile PSD Dosyalarına Degrade Dolgu Katmanı Ekleme
 linktitle: Java ile PSD Dosyalarına Degrade Dolgu Katmanı Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarındaki degrade dolgu katmanlarını değiştirin. Renkleri, şeffaflığı ve diğer degrade özelliklerini programlı olarak nasıl değiştireceğinizi öğrenin.
-type: docs
 weight: 15
 url: /tr/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile PSD Dosyalarına Degrade Dolgu Katmanı Ekleme
+
 ## giriiş
 
 Hiç PSD dosyalarınız için ekstra görsel sihir dokunuşunu arzuladınız mı? Degradeler, tasarımlarınıza derinlik ve boyut katmanın çarpıcı bir yolunu sunar. Peki ya bu degradeleri Java kullanarak programlı olarak değiştirmek isterseniz? Aspose.PSD kurtarmaya geliyor! Bu kapsamlı kılavuz, Aspose.PSD'yi kullanarak PSD dosyalarındaki degrade dolgu katmanlarını değiştirmenizi sağlayacak ve heyecan verici süreçte sizi adım adım yönlendirecektir.
@@ -167,3 +173,9 @@ Performans etkisi, degradenin karmaşıklığına ve yapılan değişiklik sayı
 
 ### Bu tekniği bir PSD dosyasındaki birden fazla degrade dolgu katmanına uygulayabilir miyim?
 Evet, katmanlar arasında geçiş yapabilir ve değişiklikleri kriterlerinizi karşılayan her degrade dolgu katmanına uygulayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

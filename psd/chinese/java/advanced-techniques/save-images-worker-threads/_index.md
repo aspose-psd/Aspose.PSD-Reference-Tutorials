@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 的工作线程保存图像
 linktitle: 使用工作线程保存图像
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 探索 Java 中的多线程图像处理。学习使用工作线程高效保存图像。
-type: docs
 weight: 14
 url: /zh/java/advanced-techniques/save-images-worker-threads/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 的工作线程保存图像
+
 ## 介绍
 
 您准备好增强 Java 中的图像处理能力了吗？Aspose.PSD for Java 就是您的最佳选择。在本教程中，我们将指导您完成使用工作线程保存图像的过程，确保最佳性能和效率。让我们使用 Aspose.PSD 深入探索多线程图像处理的世界吧！
@@ -119,3 +125,9 @@ A2：您可以参考文档[这里](https://reference.aspose.com/psd/java/)有关
 ### Q5: 在哪里可以购买 Aspose.PSD for Java？
 
  A5: 要购买 Aspose.PSD for Java，请访问[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

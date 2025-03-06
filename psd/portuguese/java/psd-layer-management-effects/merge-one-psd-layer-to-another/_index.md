@@ -3,10 +3,16 @@ title: Mesclar uma camada PSD com outra usando Java
 linktitle: Mesclar uma camada PSD com outra usando Java
 second_title: API Java Aspose.PSD
 description: Aprenda como mesclar camadas de um arquivo PSD em outro usando Aspose.PSD para Java com nosso tutorial passo a passo. Perfeito para automatizar seus processos de design.
-type: docs
 weight: 10
 url: /pt/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesclar uma camada PSD com outra usando Java
+
 ## Introdução
 
 Você já precisou mesclar camadas de um arquivo PSD em outro enquanto trabalhava com documentos do Adobe Photoshop programaticamente? Esteja você automatizando processos de design ou gerenciando uma grande coleção de imagens em camadas, o Aspose.PSD para Java oferece um kit de ferramentas poderoso para manipular arquivos PSD diretamente por meio de seu código Java. Neste guia, orientaremos você no processo de mesclagem de uma camada PSD em outra usando Aspose.PSD para Java. Você não apenas aprenderá como mesclar camadas perfeitamente, mas também descobrirá como é fácil trabalhar com arquivos PSD em um ambiente Java. Pronto para mergulhar? Vamos começar!
@@ -119,3 +125,9 @@ Depois que as camadas são mescladas, a operação não é reversível. Sempre m
 
 ### Como obtenho uma licença temporária do Aspose.PSD para Java?
  Você pode obter uma licença temporária do[Aspor site](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

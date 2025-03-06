@@ -3,10 +3,16 @@ title: जावा का उपयोग करके एक PSD लेयर 
 linktitle: जावा का उपयोग करके एक PSD लेयर को दूसरे में मर्ज करें
 second_title: Aspose.PSD जावा एपीआई
 description: हमारे चरण-दर-चरण ट्यूटोरियल के साथ Aspose.PSD for Java का उपयोग करके एक PSD फ़ाइल से परतों को दूसरे में मर्ज करना सीखें। आपकी डिज़ाइन प्रक्रियाओं को स्वचालित करने के लिए बिल्कुल सही।
-type: docs
 weight: 10
 url: /hi/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके एक PSD लेयर को दूसरे में मर्ज करें
+
 ## परिचय
 
 क्या आपको कभी Adobe Photoshop दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करते समय एक PSD फ़ाइल से दूसरी में लेयर्स मर्ज करने की ज़रूरत महसूस हुई है? चाहे आप डिज़ाइन प्रक्रियाओं को स्वचालित कर रहे हों या लेयर्ड इमेज के बड़े संग्रह का प्रबंधन कर रहे हों, Aspose.PSD for Java आपके Java कोड के ज़रिए PSD फ़ाइलों में सीधे हेरफेर करने के लिए एक शक्तिशाली टूलकिट प्रदान करता है। इस गाइड में, हम आपको Aspose.PSD for Java का उपयोग करके एक PSD लेयर को दूसरी में मर्ज करने की प्रक्रिया से अवगत कराएँगे। न केवल आप सीखेंगे कि लेयर्स को सहजता से कैसे मर्ज किया जाए, बल्कि आप यह भी जानेंगे कि Java वातावरण में PSD फ़ाइलों के साथ काम करना कितना आसान है। शुरू करने के लिए तैयार हैं? चलिए शुरू करते हैं!
@@ -119,3 +125,9 @@ Aspose.PSD for Java का उपयोग करते समय एक PSD फ
 
 ### मैं Java के लिए Aspose.PSD हेतु अस्थायी लाइसेंस कैसे प्राप्त करूं?
  आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[Aspose वेबसाइट](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

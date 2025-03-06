@@ -3,10 +3,16 @@ title: Создание миниатюр из файлов PSD с помощью
 linktitle: Создание миниатюр из файлов PSD с помощью Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как легко создавать миниатюры из файлов PSD с помощью Java и Aspose.PSD. Следуйте нашему пошаговому руководству для бесшовной обработки изображений.
-type: docs
 weight: 24
 url: /ru/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание миниатюр из файлов PSD с помощью Java
+
 ## Введение
 В мире графического дизайна работа с файлами PSD (Photoshop Document) является обычным явлением. Независимо от того, являетесь ли вы опытным разработчиком, графическим дизайнером или просто человеком, желающим погрузиться в обработку изображений, создание миниатюр из файлов PSD может сэкономить вам время и оптимизировать рабочий процесс. Это руководство проведет вас через весь процесс использования Aspose.PSD для Java. Aspose.PSD не только представляет собой надежную библиотеку для управления файлами Photoshop, но также делает поставленную задачу интуитивно понятной и управляемой. Готовы ли вы научиться эффективно создавать миниатюры из PSD-файлов?
 ## Предварительные условия
@@ -112,3 +118,9 @@ Aspose.PSD — это библиотека Java, которая позволяе
 Нет, Aspose.PSD работает независимо от Photoshop.
 ### Где я могу найти дополнительную информацию о Aspose.PSD?
  Вы можете проверить[Документация Aspose.PSD](https://reference.aspose.com/psd/java/) для получения более подробной информации, учебных пособий и ресурсов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

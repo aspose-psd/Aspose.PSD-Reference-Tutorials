@@ -3,10 +3,16 @@ title: Penyesuaian Gambar
 linktitle: Penyesuaian Gambar
 second_title: Asumsikan.PSD .NET API
 description: Buka potensi penyesuaian gambar dengan Aspose.PSD untuk .NET. Jelajahi tutorial tentang kecerahan, kontras, dan keseimbangan warna untuk menguasai manipulasi gambar.
-type: docs
 weight: 24
 url: /id/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penyesuaian Gambar
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan manipulasi gambar Anda? Selami dunia Aspose.PSD untuk .NET dengan tutorial komprehensif kami tentang penyesuaian gambar. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah kami akan memberdayakan Anda untuk menyempurnakan gambar dengan mudah.
@@ -42,3 +48,9 @@ Jelajahi kekuatan Aspose.PSD untuk .NET dengan panduan langkah demi langkah kami
 Pelajari cara memburamkan gambar dengan mudah dengan Aspose.PSD untuk .NET. Panduan langkah demi langkah untuk manipulasi gambar yang lancar di proyek C# Anda.
 ### [Menerapkan Penyesuaian Keseimbangan Warna di Aspose.PSD untuk .NET](./color-balance-adjustment/)
 Sempurnakan warna gambar PSD dengan mudah dengan Aspose.PSD untuk fitur Penyesuaian Keseimbangan Warna .NET. Ikuti panduan langkah demi langkah kami untuk hasil yang menakjubkan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

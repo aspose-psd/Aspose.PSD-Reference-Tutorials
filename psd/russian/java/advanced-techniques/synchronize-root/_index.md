@@ -3,10 +3,16 @@ title: Синхронизируйте Root с помощью Aspose.PSD для J
 linktitle: Синхронизировать корень
 second_title: Aspose.PSD Java API
 description: Узнайте, как синхронизировать root с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству для эффективных операций с потоками Java.
-type: docs
 weight: 19
 url: /ru/java/advanced-techniques/synchronize-root/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Синхронизируйте Root с помощью Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по синхронизации root с помощью Aspose.PSD для Java. В этом уроке мы познакомим вас с процессом синхронизации вашего root-прав с помощью мощной библиотеки Aspose.PSD. Независимо от того, являетесь ли вы опытным разработчиком или новичком в программировании на Java, это пошаговое руководство поможет вам легко усвоить эту концепцию.
@@ -87,3 +93,9 @@ finally
 ### В5: Как я могу получить временную лицензию на Aspose.PSD?
 
  A5: Чтобы получить временную лицензию, посетите[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

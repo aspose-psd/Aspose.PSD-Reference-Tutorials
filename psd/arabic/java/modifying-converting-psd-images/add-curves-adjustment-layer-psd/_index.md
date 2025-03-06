@@ -3,10 +3,16 @@ title: أضف طبقة ضبط المنحنيات في PSD باستخدام Java
 linktitle: أضف طبقة ضبط المنحنيات في PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة طبقة ضبط المنحنيات إلى ملف PSD باستخدام Aspose.PSD لـ Java في هذا البرنامج التعليمي المفصل. تعزيز الصور الخاصة بك بسهولة.
-type: docs
 weight: 11
 url: /ar/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف طبقة ضبط المنحنيات في PSD باستخدام Java
+
 ## مقدمة
 هل وجدت نفسك عالقًا أثناء محاولتك معالجة الصور بتنسيق PSD؟ سواء كنت مصمم رسومات ناشئًا أو محترفًا متمرسًا، فإن العمل باستخدام ملفات Photoshop قد يبدو أحيانًا وكأنه يتنقل في متاهة. لحسن الحظ، هناك أداة تعمل على تبسيط هذه العملية - Aspose.PSD لـ Java. في هذا البرنامج التعليمي، سنتعمق في كيفية إضافة طبقة ضبط المنحنيات إلى ملف PSD باستخدام Aspose.PSD، مما يجعل مهام تحرير الصور الخاصة بك أسهل وأكثر كفاءة. من خلال التوجيه خطوة بخطوة، ستتمكن من تحسين صورك مثل المحترفين دون التورط في التعقيدات المرتبطة تقليديًا بمعالجة الصور.
 ## المتطلبات الأساسية
@@ -94,3 +100,9 @@ Aspose.PSD هي مكتبة لمعالجة ملفات Photoshop PSD بلغات ا
 قطعاً! يسمح Aspose.PSD بمعالجة أنواع الطبقات المختلفة في ملفات PSD.
 ### أين يمكنني العثور على المزيد من الوثائق؟
  للحصول على وثائق مفصلة، قم بزيارة[Aspose.PSD لمستندات جافا](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Effetti di livello
 linktitle: Effetti di livello
 second_title: API Aspose.PSD .NET
 description: Scopri la magia degli effetti di livello con Aspose.PSD per .NET! Migliora le tue capacità di manipolazione delle immagini imparando ad aggiungere modalità tratto, ombra e fusione.
-type: docs
 weight: 29
 url: /it/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effetti di livello
+
 ## Introduzione
 
 Scatena tutto il potenziale dei tuoi sforzi di manipolazione delle immagini con Aspose.PSD per .NET. Questa guida completa ti presenta una miriade di effetti di livello che trasformeranno il tuo processo creativo. Dai tratti e le ombre alle modalità di fusione, migliora i tuoi progetti senza sforzo.
@@ -54,3 +60,9 @@ Migliora le tue immagini con Aspose.PSD per .NET! Impara a supportare gli effett
 Scopri come regolare l'opacità dell'effetto ombra in Aspose.PSD per .NET con questo tutorial completo.
 ### [Lavorare con le modalità di fusione in Aspose.PSD per .NET](./working-with-blend-modes/)
 Esplora la potenza delle modalità di fusione in Aspose.PSD per .NET. Questo tutorial ti guida attraverso l'applicazione di varie modalità di fusione con esempi passo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

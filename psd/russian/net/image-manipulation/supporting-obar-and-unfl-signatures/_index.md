@@ -3,10 +3,16 @@ title: Поддержка подписей ObAr и UnFl в Aspose.PSD для .NE
 linktitle: Поддержка подписей ObAr и UnFl
 second_title: Aspose.PSD .NET API
 description: Исследуйте возможности Aspose.PSD для .NET в поддержке подписей ObAr и UnFl. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 15
 url: /ru/net/image-manipulation/supporting-obar-and-unfl-signatures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка подписей ObAr и UnFl в Aspose.PSD для .NET
+
 ## Введение
 
 В сфере .NET-разработки Aspose.PSD выделяется как мощный инструмент для манипулирования и обработки файлов Photoshop. Среди его богатых функций поддержка подписей ObAr и UnFl имеет решающее значение для расширенного редактирования изображений. Это руководство проведет вас через весь процесс, разбив каждый шаг, чтобы обеспечить плавную реализацию.
@@ -119,3 +125,9 @@ Console.WriteLine("SupportOfObArAndUnFlSignatures executed successfully");
 ### Вопрос 5: Где я могу приобрести Aspose.PSD для .NET?
 
  A5: Вы можете купить Aspose.PSD[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

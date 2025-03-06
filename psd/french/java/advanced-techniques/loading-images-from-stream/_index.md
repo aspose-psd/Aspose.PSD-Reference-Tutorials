@@ -3,10 +3,16 @@ title: Chargement d'images à partir d'un flux avec Aspose.PSD pour Java
 linktitle: Chargement d'images à partir d'un flux
 second_title: API Java Aspose.PSD
 description: Apprenez à charger des images PSD de manière transparente en Java à l'aide d'Aspose.PSD. Suivez notre guide étape par étape pour un traitement d’image efficace.
-type: docs
 weight: 11
 url: /fr/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chargement d'images à partir d'un flux avec Aspose.PSD pour Java
+
 ## Introduction
 
 Aspose.PSD pour Java est une bibliothèque riche en fonctionnalités qui permet aux développeurs de travailler de manière transparente avec des fichiers PSD, en effectuant diverses tâches de traitement d'image. Dans ce didacticiel, nous nous concentrerons sur les étapes essentielles pour charger des images à partir d'un flux à l'aide d'Aspose.PSD pour Java.
@@ -105,3 +111,9 @@ A1 : Absolument ! Aspose.PSD pour Java excelle dans les tâches de traitement d'
 ### Q5 : Où puis-je acheter Aspose.PSD pour Java ?
 
  A5 : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour acquérir Aspose.PSD pour Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

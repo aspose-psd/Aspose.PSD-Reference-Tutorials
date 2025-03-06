@@ -3,10 +3,16 @@ title: Dodawanie efektów wzorów do obrazów w Aspose.PSD dla .NET
 linktitle: Dodawanie efektów wzorów do obrazów
 second_title: Aspose.PSD API .NET
 description: Ulepsz swoje obrazy za pomocą urzekających efektów wzorów za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo dodawać niestandardowe wzory.
-type: docs
 weight: 12
 url: /pl/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie efektów wzorów do obrazów w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Uszlachetnianie obrazów efektami wzorów może nadać Twoim projektom nowy wymiar. Aspose.PSD dla .NET zapewnia potężne rozwiązanie do płynnego dodawania nakładek wzorów do obrazów, umożliwiając tworzenie oszałamiającej wizualnie grafiki. Ten samouczek krok po kroku poprowadzi Cię przez proces dodawania efektów wzorców przy użyciu Aspose.PSD dla .NET.
@@ -108,3 +114,9 @@ A4: Wymiary wzoru są elastyczne, co pozwala na tworzenie wzorów o różnych ro
 ### P5: Czy mogę używać Aspose.PSD dla .NET w projektach komercyjnych?
 
 O5: Tak, możesz używać Aspose.PSD dla .NET w projektach komercyjnych. Aby uzyskać szczegółowe informacje na temat licencji, odwiedź stronę[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

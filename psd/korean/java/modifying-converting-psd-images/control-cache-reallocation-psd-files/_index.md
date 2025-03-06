@@ -3,10 +3,16 @@ title: PSD 파일의 캐시 재할당 제어
 linktitle: PSD 파일의 캐시 재할당 제어
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일의 캐시 재할당을 관리합니다. 개발자에게 이상적인 메모리 및 파일 처리를 효율적으로 최적화하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 파일의 캐시 재할당 제어
+
 ## 소개
 이미지와 Photoshop 파일을 프로그래밍 방식으로 작업할 때 효율성이 핵심 요소입니다. Aspose.PSD for Java는 PSD 파일을 원활하게 관리하고 조작할 수 있는 강력한 기능을 제공합니다. 성능 최적화의 기본 측면 중 하나는 캐시 재할당을 제어하는 것입니다. 캐시 관리는 메모리와 디스크 사용량 사이의 균형을 유지하여 예상치 못한 충돌이나 속도 저하 없이 애플리케이션이 원활하게 실행되도록 보장합니다. 
 ## 전제조건
@@ -127,3 +133,9 @@ Aspose.PSD는 .NET 및 Java 개발자가 Photoshop(PSD) 파일을 프로그래�
 Aspose.PSD는 유료 라이브러리이지만 다음에서 제공되는 무료 평가판으로 시작할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### 물건을 처리하지 않으면 어떻게 되나요?
 객체를 삭제하지 않으면 메모리 누수가 발생하여 애플리케이션이 필요 이상으로 더 많은 리소스를 사용하게 될 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

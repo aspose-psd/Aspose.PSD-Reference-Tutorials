@@ -3,10 +3,16 @@ title: Dostosuj kontrast obrazu za pomocą Aspose.PSD dla Java
 linktitle: Dostosuj kontrast obrazu
 second_title: Aspose.PSD API Java
 description: Poznaj świat regulacji kontrastu obrazu w Javie za pomocą Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną manipulację obrazem.
-type: docs
 weight: 22
 url: /pl/java/advanced-techniques/adjust-contrast/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj kontrast obrazu za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 dziedzinie przetwarzania obrazów w Javie Aspose.PSD wyróżnia się jako potężne narzędzie. Wśród niezliczonych funkcji częstym wymaganiem jest regulacja kontrastu obrazu. Ten samouczek przeprowadzi Cię przez proces dostosowywania kontrastu obrazu przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik pomoże Ci opanować ten istotny aspekt manipulacji obrazami.
@@ -107,3 +113,9 @@ A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/java/).
 ### P5: Czy mogę kupić Aspose.PSD?
 
  A5: Tak, możesz kupić Aspose.PSD[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

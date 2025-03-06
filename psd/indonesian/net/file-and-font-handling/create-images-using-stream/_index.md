@@ -3,10 +3,16 @@ title: Membuat Gambar Menggunakan Stream di Aspose.PSD untuk .NET
 linktitle: Membuat Gambar Menggunakan Stream
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara membuat gambar menggunakan aliran di Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi gambar yang efisien.
-type: docs
 weight: 12
 url: /id/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Gambar Menggunakan Stream di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.PSD menonjol sebagai alat yang ampuh untuk manipulasi gambar. Salah satu fitur yang sangat berguna adalah kemampuan untuk membuat gambar menggunakan aliran, memberikan fleksibilitas dan efisiensi dalam menangani data gambar. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, menguraikan setiap elemen untuk memastikan pengalaman yang lancar. Sebelum kita mendalaminya, mari kita bahas prasyaratnya.
@@ -111,3 +117,9 @@ A2: Dimensinya dapat disesuaikan; sesuaikan parameter dalam metode Image.Create.
 ### Q5: Apakah lisensi sementara tersedia?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

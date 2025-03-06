@@ -3,10 +3,16 @@ title: Suporte a recursos SoCo em arquivos PSD usando Java
 linktitle: Suporte a recursos SoCo em arquivos PSD usando Java
 second_title: API Java Aspose.PSD
 description: Aprenda como manipular recursos SoCo em arquivos PSD usando Aspose.PSD para Java com este tutorial passo a passo.
-type: docs
 weight: 22
 url: /pt/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte a recursos SoCo em arquivos PSD usando Java
+
 ## Introdução
 Trabalhar com arquivos PSD pode ser como navegar em um labirinto complexo, especialmente se você estiver mergulhando nas complexidades de camadas e recursos. Felizmente, ferramentas como Aspose.PSD para Java podem simplificar esse processo, permitindo que os desenvolvedores manipulem arquivos do Photoshop programaticamente. Neste tutorial, veremos como oferecer suporte a recursos SoCo em arquivos PSD usando Java, tornando sua vida muito mais fácil. 
 Quer você seja um desenvolvedor experiente ou esteja apenas começando no mundo do processamento de imagens, este guia reduzirá as complexidades em etapas fáceis de entender, garantindo que você termine sua jornada com um conhecimento sólido.
@@ -111,3 +117,9 @@ Aspose.PSD for Java é uma biblioteca que permite aos desenvolvedores manipular 
  Sim, há um dedicado[fórum de suporte](https://forum.aspose.com/c/psd/34).
 ### Que tipos de recursos posso manipular em um arquivo PSD?
 Você pode manipular vários recursos, incluindo camadas, camadas de preenchimento e recursos SoCo dentro do arquivo PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

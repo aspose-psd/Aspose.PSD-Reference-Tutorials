@@ -3,10 +3,16 @@ title: Mở rộng và cắt hình ảnh bằng Aspose.PSD cho Java
 linktitle: Mở rộng và cắt hình ảnh
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách mở rộng và cắt hình ảnh trong Java bằng Aspose.PSD. Hướng dẫn từng bước để xử lý hình ảnh hiệu quả.
-type: docs
 weight: 18
 url: /vi/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mở rộng và cắt hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.PSD cho Java để mở rộng và cắt xén hình ảnh một cách hiệu quả. Aspose.PSD là một thư viện mạnh mẽ cung cấp nhiều tính năng để làm việc với các tệp PSD trong các ứng dụng Java. Trong hướng dẫn này, chúng tôi sẽ đề cập đến các điều kiện tiên quyết cần thiết, nhập gói và chia nhỏ từng bước kèm theo giải thích chi tiết.
@@ -102,3 +108,9 @@ Câu trả lời 2: Hoàn toàn có thể, Aspose.PSD cung cấp giấy phép th
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể khám phá Aspose.PSD với bản dùng thử miễn phí. Tải xuống[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

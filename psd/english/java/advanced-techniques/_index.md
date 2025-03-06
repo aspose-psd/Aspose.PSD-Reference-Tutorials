@@ -3,10 +3,16 @@ title: Advanced Techniques
 linktitle: Advanced Techniques
 second_title: Aspose.PSD Java API
 description: Effortlessly master advanced techniques in Java image processing with Aspose.PSD tutorials. Grayscale, load, convert, render text, save efficiently, and more!
-type: docs
 weight: 22
 url: /java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Techniques
+
 ## Introduction
 
 Are you ready to elevate your Java image processing skills? Dive into our comprehensive tutorials with Aspose.PSD for Java, unlocking a realm of advanced techniques. Let's explore some key tutorials in detail:
@@ -85,3 +91,9 @@ Explore the world of image contrast adjustment in Java with Aspose.PSD. Follow o
 Learn to adjust image gamma effortlessly using Aspose.PSD for Java. Follow our step-by-step guide for optimal results.
 ### [Blur an Image using Aspose.PSD for Java](./blur-image/)
 Learn to blur images in Java with Aspose.PSD. Follow our step-by-step guide for professional results.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

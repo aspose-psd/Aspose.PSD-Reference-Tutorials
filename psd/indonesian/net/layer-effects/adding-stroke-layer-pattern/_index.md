@@ -3,10 +3,16 @@ title: Menambahkan Layer Stroke dengan Pola di Aspose.PSD untuk .NET
 linktitle: Menambahkan Layer Stroke dengan Pola
 second_title: Asumsikan.PSD .NET API
 description: Sempurnakan file PSD Anda dengan lapisan dan pola guratan menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 13
 url: /id/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Layer Stroke dengan Pola di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Meningkatkan file PSD (Photoshop Document) Anda dengan lapisan dan pola guratan dapat menambahkan sentuhan dinamis pada desain Anda. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.PSD untuk .NET untuk dengan mudah menambahkan lapisan guratan dengan pola ke file PSD Anda. Aspose.PSD adalah perpustakaan .NET yang kuat yang menyediakan dukungan komprehensif untuk memanipulasi file PSD, menjadikannya alat yang sangat berharga bagi pengembang dan desainer.
@@ -144,3 +150,9 @@ A4: Tentu saja, Aspose.PSD untuk .NET memberikan dukungan kuat untuk pemrosesan 
 ### Q5: Dimana saya bisa mencari bantuan atau berpartisipasi dalam diskusi komunitas?
 
  A5: Kunjungi[Forum Asumsikan.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan interaksi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

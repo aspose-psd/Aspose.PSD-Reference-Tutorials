@@ -3,10 +3,16 @@ title: Add Hue Saturation Adjustment Layer to PSD
 linktitle: Add Hue Saturation Adjustment Layer to PSD
 second_title: Aspose.PSD Java API
 description: Learn how to add hue saturation adjustment layers to PSD using Aspose.PSD for Java in this comprehensive, step-by-step tutorial. Enhance your graphic design workflow.
-type: docs
 weight: 14
 url: /java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Hue Saturation Adjustment Layer to PSD
+
 ## Introduction
 When it comes to graphic design, color manipulation plays a pivotal role—specifically, tweaking hue, saturation, and lightness can drastically transform the mood and quality of any image. One effective way to achieve this is through the use of adjustment layers in Photoshop (PSD files). If you're looking to enhance your PSD files programmatically using Java, the Aspose.PSD library is here to help! This tutorial will take you through the steps to add a Hue Saturation Adjustment Layer to your PSD files, making your workflows more productive and efficient.
 In this guide, we’ll cover everything from importing necessary packages to the nitty-gritty details of the code examples.
@@ -102,3 +108,10 @@ No, Aspose.PSD is a standalone library that works independently of Photoshop.
 Yes, you can automate and batch process multiple PSD files with Aspose.PSD.
 ### Is Aspose.PSD free?
 Aspose.PSD offers a free trial, but a license is required for long-term use. You can view pricing [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

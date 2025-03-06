@@ -3,10 +3,16 @@ title: Recurso de ruta de trabajo compatible con Aspose.PSD para .NET
 linktitle: Recurso de ruta de trabajo de apoyo
 second_title: API Aspose.PSD .NET
 description: Explore el poder de 'WorkingPathResource' en Aspose.PSD para .NET. Mejore la precisión de la imagen con esta guía paso a paso.
-type: docs
 weight: 12
 url: /es/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recurso de ruta de trabajo compatible con Aspose.PSD para .NET
+
 ## Introducción
 Si es un desarrollador de .NET que trabaja con procesamiento de imágenes, Aspose.PSD para .NET es su solución preferida. En este tutorial, profundizaremos en cómo aprovechar el poder del recurso 'WorkingPathResource' en Aspose.PSD. Esta característica crucial mejora la precisión de la operación de recorte, asegurando que sus imágenes se adapten exactamente según sea necesario.
 ## Requisitos previos
@@ -88,3 +94,9 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 ### P5: ¿Necesita una licencia temporal?
 
  A5: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

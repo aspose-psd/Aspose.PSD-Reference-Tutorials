@@ -1,12 +1,17 @@
 ---
 title: Aspose.PSD for .NET 的综合教程和示例
 linktitle: Aspose.PSD for .NET 教程
-type: docs
 weight: 10
 url: /zh/net/
 description: 使用 Aspose.PSD for .NET 教程轻松提高图像质量。掌握图像处理、PSD 文件操作、文本和字体处理等。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET 的综合教程和示例
+
 ## 介绍
 通过我们全面的教程和示例，释放 Aspose.PSD for .NET 的全部潜力。无论您是经验丰富的开发人员还是图像处理新手，我们的分步指南都可以帮助您轻松增强 .NET 项目。
 
@@ -100,3 +105,9 @@ is_root: true
 掌握 Aspose.PSD for .NET 中的动态图像增强功能。通过有关在运行时添加、叠加和渲染惊人效果的教程来提升您的图像处理能力。
 ### [PSD 文件资源](./psd-file-resources/)
 通过我们的教程释放 Aspose.PSD for .NET 的全部潜力。无缝掌握背景颜色、边框信息、工作路径和黑白资源。 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

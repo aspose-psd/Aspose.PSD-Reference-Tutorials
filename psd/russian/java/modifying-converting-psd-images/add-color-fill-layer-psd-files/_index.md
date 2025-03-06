@@ -3,10 +3,16 @@ title: Добавьте слой цветовой заливки в PSD-файл
 linktitle: Добавьте слой цветовой заливки в PSD-файлы с помощью Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как легко добавить слой цветовой заливки в PSD-файлы с помощью Java и Aspose.PSD. Следуйте нашему пошаговому руководству, чтобы быстрее создавать проекты.
-type: docs
 weight: 20
 url: /ru/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте слой цветовой заливки в PSD-файлы с помощью Java
+
 ## Введение
 Вам когда-нибудь приходилось программно манипулировать файлами Photoshop, например, чтобы добавить в дизайн немного цвета? Что ж, вы попали в нужное место. В этой статье мы углубимся в то, как добавить слой цветовой заливки в файлы PSD (документ Photoshop) с помощью Java и библиотеки Aspose.PSD. Думайте о своих PSD-файлах как о холсте, и с помощью всего лишь нескольких строк кода вы можете нарисовать их заново.
 ## Предварительные условия
@@ -87,3 +93,9 @@ Aspose.PSD — мощная библиотека для работы с PSD-фа
  Вы можете получить поддержку через[Форум поддержки Aspose](https://forum.aspose.com/c/psd/34).
 ### Где я могу купить Aspose.PSD?  
  Вы можете приобрести лицензию через[Страница Aspose покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

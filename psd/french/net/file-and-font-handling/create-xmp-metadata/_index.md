@@ -3,10 +3,16 @@ title: Création de métadonnées XMP dans Aspose.PSD pour .NET
 linktitle: Création de métadonnées XMP
 second_title: API Aspose.PSD.NET
 description: Explorez la création de métadonnées XMP dans Aspose.PSD pour .NET. Améliorez l’organisation des images grâce à une manipulation transparente.
-type: docs
 weight: 10
 url: /fr/net/file-and-font-handling/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de métadonnées XMP dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le monde dynamique du développement .NET, la manipulation des images avec précision est un aspect crucial de nombreuses applications. Ce didacticiel explore la création de métadonnées XMP dans Aspose.PSD pour .NET, une bibliothèque puissante qui simplifie les tâches de traitement d'image. XMP (Extensible Metadata Platform) vous permet d'intégrer des métadonnées dans des fichiers image, facilitant ainsi une organisation et une récupération efficaces des informations associées aux images.
@@ -170,3 +176,9 @@ A4 : Des mises à jour sont régulièrement publiées pour garantir la compatib
 ### Q5 : Existe-t-il un forum communautaire pour le support d'Aspose.PSD ?
 
  R : Oui, vous pouvez trouver du soutien et des discussions sur le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PSD 文件操作
 linktitle: PSD 文件操作
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 轻松处理 AI 格式图层。学习将 PSD 图像导出为 GIF、处理动画数据部分以及操作图层状态。
-type: docs
 weight: 21
 url: /zh/net/psd-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 文件操作
+
 ## 介绍
 
 使用 Aspose.PSD for .NET 掌握 PSD 操作技巧。从处理 AI 格式图层到导出 GIF 和浏览动画数据部分，本教程系列将为您提供无缝指导。使用图层状态效果、时间轴和高效裁剪增强图像。Aspose.PSD for .NET 为您的创意之旅提供助力，提供分步教程和多线程环境以实现最佳图像导出。使用 Aspose.PSD for .NET 提升您的技能并改变您的设计体验。
@@ -77,3 +83,9 @@ url: /zh/net/psd-file-manipulation/
 使用多功能工具包 Aspose.PSD 探索 .NET 中 PSD 文件裁剪的艺术。轻松提升您的图像处理能力。
 ### [使用 Aspose.PSD for .NET 在多线程环境中导出图像](./export-images-multi-thread/)
 使用 Aspose.PSD 增强 .NET 图像处理：在多线程环境中导出图像。轻松提高性能和效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

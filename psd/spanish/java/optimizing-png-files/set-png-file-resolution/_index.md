@@ -3,10 +3,16 @@ title: Establecer la resolución del archivo PNG con Aspose.PSD para Java
 linktitle: Establecer la resolución del archivo PNG con Aspose.PSD para Java
 second_title: API de Java Aspose.PSD
 description: Explore cómo configurar la resolución de un archivo PNG usando Aspose.PSD para Java con este tutorial detallado paso a paso. Optimice sus imágenes en poco tiempo.
-type: docs
 weight: 13
 url: /es/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer la resolución del archivo PNG con Aspose.PSD para Java
+
 ## Introducción
 ¿Está buscando optimizar la resolución de su archivo PNG usando Java? Si la respuesta es sí, ¡has llegado al lugar correcto! Hoy profundizaremos en el mundo de Aspose.PSD para Java, una poderosa biblioteca para manipular archivos PSD de Photoshop y convertirlos a otros formatos como PNG. Si es un desarrollador que incursiona en el procesamiento de imágenes o simplemente alguien que desea mejorar la calidad de la imagen mediante programación, esta guía está diseñada para usted. 
 En este completo tutorial, cubriremos todo, desde los requisitos previos hasta instrucciones detalladas paso a paso para configurar de manera efectiva la resolución del archivo PNG. Así que toma tu bocadillo favorito y ¡comencemos!
@@ -71,3 +77,9 @@ Sí, si bien hay una prueba gratuita disponible, se requiere una licencia válid
 Aspose.PSD soluciona muchos problemas comunes, pero si un archivo está gravemente dañado, es posible que no se cargue. Mantenga siempre una copia de seguridad.
 ### ¿Aspose.PSD es adecuado para aplicaciones de alto rendimiento?
 Sí, está diseñado para manejar archivos grandes de manera eficiente y es adecuado para tareas de procesamiento de imágenes que requieren un alto rendimiento.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 감마 조정 구현
 linktitle: 감마 조정 구현
 second_title: Aspose.PSD .NET API
 description: 감마 조정 구현에 대한 단계별 가이드를 통해 .NET용 Aspose.PSD의 강력한 기능을 살펴보세요. 이미지 밝기와 대비를 손쉽게 미세 조정하세요.
-type: docs
 weight: 12
 url: /ko/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 감마 조정 구현
+
 ## 소개
 
 .NET용 Aspose.PSD에서 감마 조정 구현에 대한 포괄적인 가이드에 오신 것을 환영합니다! 감마 조정은 이미지의 밝기와 대비를 미세 조정할 수 있는 중요한 이미지 처리 기술입니다. 이 튜토리얼에서는 .NET용 강력한 Aspose.PSD 라이브러리를 사용하는 프로세스를 안내합니다.
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### Q5: 임시 라이센스가 필요합니까?
 
  A5: 필요한 경우 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

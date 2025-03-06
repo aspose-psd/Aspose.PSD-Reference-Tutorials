@@ -3,10 +3,16 @@ title: Kết xuất văn bản với các màu khác nhau trong lớp văn bản
 linktitle: Hiển thị văn bản với các màu khác nhau trong lớp văn bản
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách hiển thị văn bản với các màu khác nhau trong lớp văn bản PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được kết quả liền mạch.
-type: docs
 weight: 13
 url: /vi/java/advanced-techniques/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất văn bản với các màu khác nhau trong lớp văn bản bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách hiển thị văn bản với các màu khác nhau trong một lớp văn bản bằng Aspose.PSD cho Java. Aspose.PSD là một thư viện Java mạnh mẽ cho phép bạn thao tác các tệp Photoshop theo chương trình, cung cấp cho bạn khả năng mở rộng để làm việc với các định dạng tệp PSD và PSB.
@@ -102,3 +108,9 @@ Câu trả lời 1: Aspose.PSD được thiết kế chủ yếu cho Java, nhưn
 ### Câu hỏi 5: Có hướng dẫn nào khác dành cho Aspose.PSD không?
 
  A5: Có, hãy khám phá[Tài liệu Aspose.PSD](https://reference.aspose.com/psd/java/) để biết thêm hướng dẫn và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

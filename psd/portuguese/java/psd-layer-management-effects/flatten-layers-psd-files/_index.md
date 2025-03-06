@@ -3,10 +3,16 @@ title: Achatar camadas em arquivos PSD usando Aspose.PSD Java
 linktitle: Achatar camadas em arquivos PSD usando Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Achate e mescle camadas em arquivos PSD sem esforço usando Aspose.PSD para Java. Siga este guia passo a passo para simplificar o gerenciamento de arquivos PSD.
-type: docs
 weight: 13
 url: /pt/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Achatar camadas em arquivos PSD usando Aspose.PSD Java
+
 ## Introdução
 
 Você já trabalhou com arquivos do Photoshop e desejou uma maneira mais fácil de gerenciar essas camadas complexas? Bem, você está com sorte! Hoje, estamos mergulhando no mundo do Aspose.PSD para Java, uma ferramenta poderosa que facilita o trabalho programático com arquivos PSD. Um dos recursos úteis que exploraremos é o nivelamento de camadas. Se você deseja nivelar uma imagem inteira ou mesclar seletivamente camadas específicas, o Aspose.PSD para Java tem o que você precisa. Este tutorial irá guiá-lo através do processo, passo a passo, garantindo que você esteja pronto para lidar com seus arquivos PSD com confiança.
@@ -150,3 +156,9 @@ Sim, você pode mesclar camadas com diferentes modos de mesclagem usando Aspose.
 
 ### O que acontece se eu tentar mesclar camadas que não são adjacentes?  
 Aspose.PSD permite mesclar quaisquer camadas, independentemente de sua ordem na pilha de camadas. O processo de mesclagem combinará as camadas selecionadas conforme especificado.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

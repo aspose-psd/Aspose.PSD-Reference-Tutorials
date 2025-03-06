@@ -3,10 +3,16 @@ title: Zmień rozmiar obrazu proporcjonalnie za pomocą Aspose.PSD dla Java
 linktitle: Zmień rozmiar obrazu proporcjonalnie
 second_title: Aspose.PSD API Java
 description: Ulepsz swoje aplikacje Java za pomocą Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem, aby bez wysiłku zmieniać rozmiar obrazów proporcjonalnie. Już dziś zwiększ swoje możliwości w zakresie obsługi obrazów.
-type: docs
 weight: 17
 url: /pl/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmień rozmiar obrazu proporcjonalnie za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym proporcjonalnej zmiany rozmiaru obrazów przy użyciu Aspose.PSD dla Java. Jeśli chcesz ulepszyć swoje aplikacje Java dzięki wydajnym możliwościom zmiany rozmiaru obrazu, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez ten proces, stosując jasne i zwięzłe kroki.
@@ -92,3 +98,9 @@ W tym samouczku omówiliśmy podstawowe kroki proporcjonalnej zmiany rozmiaru ob
 
  Odpowiedź 5: Zapoznaj się ze szczegółową dokumentacją[Tutaj](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

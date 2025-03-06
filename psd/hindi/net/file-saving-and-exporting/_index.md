@@ -3,10 +3,16 @@ title: फ़ाइल सहेजना और निर्यात करन
 linktitle: फ़ाइल सहेजना और निर्यात करना
 second_title: Aspose.PSD .NET एपीआई
 description: .NET के लिए Aspose.PSD के साथ आसानी से इमेज सेविंग और एक्सपोर्ट करना सीखें। कुशल डिस्क और स्ट्रीम संचालन के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-type: docs
 weight: 23
 url: /hi/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# फ़ाइल सहेजना और निर्यात करना
+
 ## परिचय
 
 अगर आपने कभी अपने .NET प्रोजेक्ट में इमेज को सेव करने और एक्सपोर्ट करने की पेचीदगियों से जूझा है, तो आप अकेले नहीं हैं। डिजिटल क्षेत्र में सटीकता की आवश्यकता होती है, और जब बात इमेज की आती है, तो यह प्रक्रिया और भी महत्वपूर्ण हो जाती है। सौभाग्य से, .NET के लिए Aspose.PSD आपकी यात्रा को आसान बनाने के लिए यहाँ है, जो डिस्क और स्ट्रीम में इमेज को सेव करने के लिए सहज समाधान प्रदान करता है।
@@ -32,3 +38,9 @@ url: /hi/net/file-saving-and-exporting/
 .NET के लिए Aspose.PSD की शक्ति का अन्वेषण करें और जानें कि छवियों को आसानी से स्ट्रीम में कैसे सहेजा जाए। सहज एकीकरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [.NET के लिए Aspose.PSD में सेव इमेज वर्कर के साथ कार्य करना](./save-image-worker/)
 .NET के सेव इमेज वर्कर के लिए Aspose.PSD का उपयोग करना सीखें, ताकि रुकावट से निपटने के साथ सहज छवि प्रारूप रूपांतरण किया जा सके।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

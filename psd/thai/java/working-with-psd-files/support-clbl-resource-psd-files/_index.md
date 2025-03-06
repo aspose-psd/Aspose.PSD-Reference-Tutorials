@@ -3,10 +3,16 @@ title: สนับสนุนทรัพยากร Clbl ในไฟล์ 
 linktitle: สนับสนุนทรัพยากร Clbl ในไฟล์ PSD โดยใช้ Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีการสนับสนุนและจัดการทรัพยากร Clbl ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java คู่มือโดยละเอียดนี้ครอบคลุมข้อกำหนดเบื้องต้น คำแนะนำทีละขั้นตอน และคำถามที่พบบ่อย
-type: docs
 weight: 12
 url: /th/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สนับสนุนทรัพยากร Clbl ในไฟล์ PSD โดยใช้ Java
+
 ## การแนะนำ
 
  คุณเคยพบว่าตัวเองทำงานกับไฟล์ PSD และจำเป็นต้องจัดการทรัพยากรเลเยอร์โดยทางโปรแกรมหรือไม่? หากคุณเป็นนักพัฒนา Java คุณโชคดี! ด้วย Aspose.PSD สำหรับ Java คุณสามารถจัดการและแก้ไขไฟล์ PSD ได้อย่างง่ายดาย รวมถึงการจัดการไฟล์`ClblResource`—ทรัพยากรพิเศษที่ควบคุมการผสมองค์ประกอบที่ถูกตัด ในบทช่วยสอนนี้ เราจะเจาะลึกถึงวิธีที่คุณสามารถสนับสนุนและจัดการได้`ClblResource` ในไฟล์ PSD ของคุณโดยใช้ Java ในตอนท้าย คุณจะมีความพร้อมในการจัดการทรัพยากรนี้ในโครงการของคุณ ทำให้คุณมั่นใจได้ว่าคุณจะสามารถควบคุมลักษณะที่ปรากฏของรูปภาพเลเยอร์ของคุณได้อย่างเต็มที่
@@ -156,3 +162,9 @@ private static ClblResource getClblResource(PsdImage im) throws Exception {
 
 ### ฉันจะจัดการไฟล์ PSD ขนาดใหญ่ได้อย่างไร  
 Aspose.PSD สำหรับ Java ได้รับการออกแบบมาเพื่อจัดการไฟล์ PSD ขนาดใหญ่ได้อย่างมีประสิทธิภาพ แต่คุณควรตรวจสอบให้แน่ใจว่าระบบของคุณมีหน่วยความจำและพลังการประมวลผลเพียงพอเพื่อประสิทธิภาพสูงสุด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

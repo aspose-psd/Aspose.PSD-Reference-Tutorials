@@ -3,10 +3,16 @@ title: Mastering Layer State Effects in Aspose.PSD for .NET
 linktitle: Working with Layer State Effects
 second_title: Aspose.PSD .NET API
 description: Learn to use Layer State Effects in Aspose.PSD for .NET. Enhance your PSD files with Drop Shadow, Gradient Overlay, and more. Easy tutorial guide.
-type: docs
 weight: 13
 url: /net/psd-file-manipulation/layer-state-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Layer State Effects in Aspose.PSD for .NET
+
 ## Introduction
 Welcome to our comprehensive tutorial on working with Layer State Effects in Aspose.PSD for .NET. Layer State Effects play a crucial role in enhancing the visual appeal of your images by adding effects to different layers. In this guide, we will walk you through the process of utilizing Aspose.PSD for .NET to harness the power of Layer State Effects efficiently.
 ## Prerequisites
@@ -82,3 +88,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: Need support or have questions?
 
 A5: Join the [Aspose.PSD community forum](https://forum.aspose.com/c/psd/34) for assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 외부 광선 효과 지원
 linktitle: 외부 광선 효과 지원
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 외부 광선 효과의 강력한 기능을 살펴보세요. 이 단계별 튜토리얼을 통해 이미지 디자인을 향상시키세요.
-type: docs
 weight: 16
 url: /ko/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 외부 광선 효과 지원
+
 ## 소개
 
 .NET용 Aspose.PSD의 외부 광선 효과 지원에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.PSD는 .NET 애플리케이션에서 PSD 파일을 원활하게 조작할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 외부 광선 효과의 구현을 살펴보고 이를 프로젝트에 통합하기 위한 자세한 연습을 제공합니다.
@@ -114,3 +120,9 @@ A1: 예, Aspose.PSD는 광범위한 .NET 프레임워크를 지원하여 다양�
 ### Q5: .NET용 Aspose.PSD를 구입할 수 있나요?
 
  A5: 예, 라이선스 옵션을 살펴보고 구매하세요.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

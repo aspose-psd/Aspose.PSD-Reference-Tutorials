@@ -3,10 +3,16 @@ title: Rendre le texte avec différentes couleurs dans le calque de texte à l'a
 linktitle: Rendre le texte avec différentes couleurs dans le calque de texte
 second_title: API Java Aspose.PSD
 description: Découvrez comment restituer du texte avec différentes couleurs dans un calque de texte PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour des résultats transparents.
-type: docs
 weight: 13
 url: /fr/java/advanced-techniques/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre le texte avec différentes couleurs dans le calque de texte à l'aide d'Aspose.PSD pour Java
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur le rendu du texte avec différentes couleurs dans un calque de texte à l'aide d'Aspose.PSD pour Java. Aspose.PSD est une puissante bibliothèque Java qui vous permet de manipuler des fichiers Photoshop par programme, vous offrant des fonctionnalités étendues pour travailler avec les formats de fichiers PSD et PSB.
@@ -102,3 +108,9 @@ A1 : Aspose.PSD est principalement conçu pour Java, mais Aspose fournit des bib
 ### Q5 : Existe-t-il d'autres didacticiels disponibles pour Aspose.PSD ?
 
  A5 : Oui, explorez le[Documentation Aspose.PSD](https://reference.aspose.com/psd/java/) pour plus de tutoriels et d'exemples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

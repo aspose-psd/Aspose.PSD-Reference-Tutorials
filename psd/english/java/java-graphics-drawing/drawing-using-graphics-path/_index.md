@@ -3,10 +3,16 @@ title: Drawing Using Graphics Path in Java
 linktitle: Drawing Using Graphics Path in Java
 second_title: Aspose.PSD Java API
 description: Learn how to create complex graphics in Java using Aspose.PSD's Graphics Path class. This tutorial guides you through each step for stunning image creation.
-type: docs
 weight: 19
 url: /java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Using Graphics Path in Java
+
 ## Introduction
 Creating and manipulating images programmatically can be an exciting task for Java developers, especially when using libraries like Aspose.PSD. In this tutorial, we will dive into the process of drawing complex graphics using the Graphics Path class in Java with Aspose.PSD.
 ## Prerequisites
@@ -85,3 +91,10 @@ Yes, you can access a free trial of Aspose.PSD [here](https://releases.aspose.co
 You can purchase Aspose.PSD from [here](https://purchase.aspose.com/buy).
 ### Where can I get support for Aspose.PSD?
 You can seek support and discussions on [Aspose’s forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ngưỡng Bradley trong Aspose.PSD cho Java
 linktitle: Ngưỡng Bradley
 second_title: API Java Aspose.PSD
 description: Nâng cao chất lượng hình ảnh với Ngưỡng Bradley trong Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để nhị phân hóa hình ảnh hiệu quả.
-type: docs
 weight: 16
 url: /vi/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ngưỡng Bradley trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách triển khai Ngưỡng Bradley trong Aspose.PSD cho Java. Hướng dẫn này sẽ hướng dẫn bạn quy trình áp dụng Ngưỡng Bradley để nâng cao chất lượng hình ảnh của bạn. Aspose.PSD cho Java cung cấp một bộ công cụ mạnh mẽ để xử lý hình ảnh và Ngưỡng Bradley là một kỹ thuật có giá trị để nhị phân hóa hình ảnh.
@@ -99,3 +105,9 @@ Câu trả lời 4: Có, bạn có thể sử dụng các phương pháp bổ su
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ và nguồn lực ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được hỗ trợ cộng đồng và khám phá[tài liệu](https://reference.aspose.com/psd/java/) để biết thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Podpora Black and White Resource v Aspose.PSD pro .NET
 linktitle: Podpora černobílého (Blwh) zdroje
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte pokročilé úpravy obrázků s Aspose.PSD pro .NET. Naučte se ovládat vrstvy úprav Black and White pro přesnou kontrolu nad prvky obrazu.
-type: docs
 weight: 13
 url: /cs/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora Black and White Resource v Aspose.PSD pro .NET
+
 ## Zavedení
 V dynamickém světě digitálních médií hraje editace obrázků klíčovou roli při vytváření podmanivých vizuálů. Aspose.PSD for .NET umožňuje vývojářům posunout jejich možnosti manipulace s obrázky na další úroveň. V tomto tutoriálu prozkoumáme podporu vrstev úprav Black and White v Aspose.PSD, což vám umožní přesně doladit obrázky.
 ## Předpoklady
@@ -89,3 +95,9 @@ A2: Rozhodně! Aspose.PSD umožňuje skládat více vrstev úprav, což umožňu
 ### Otázka 5: Jsou k dispozici nějaké ukázkové obrázky pro testování úprav černobílé?
 
 A5: Ano, můžete najít ukázkové obrázky v dokumentaci Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

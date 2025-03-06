@@ -3,10 +3,16 @@ title: Ajuste o brilho de uma imagem com Aspose.PSD para Java
 linktitle: Ajustar o brilho de uma imagem
 second_title: API Java Aspose.PSD
 description: Aumente o brilho da imagem em Java com Aspose.PSD. Guia passo a passo para ajustar o brilho da imagem de forma programática.
-type: docs
 weight: 21
 url: /pt/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajuste o brilho de uma imagem com Aspose.PSD para Java
+
 ## Introdução
 
 Aprimorar imagens é um requisito comum em design gráfico e fotografia digital. Aspose.PSD para Java fornece uma solução poderosa para ajustar o brilho da imagem de forma programática. Neste tutorial, exploraremos como utilizar a biblioteca Aspose.PSD para Java para ajustar o brilho de uma imagem, passo a passo.
@@ -107,3 +113,9 @@ A3: A faixa de ajuste depende do conteúdo e formato da imagem, mas Aspose.PSD o
 ### Q5: Existe uma avaliação gratuita disponível para Aspose.PSD para Java?
 
  A5: Sim, você pode explorar a biblioteca com uma avaliação gratuita de[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

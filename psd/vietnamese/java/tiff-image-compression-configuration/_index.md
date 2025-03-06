@@ -3,10 +3,16 @@ title: Cấu hình và nén ảnh TIFF
 linktitle: Cấu hình và nén ảnh TIFF
 second_title: API Java Aspose.PSD
 description: Quản lý hiệu quả hình ảnh TIFF bằng Aspose.PSD cho Java. Tìm hiểu cách nén, định cấu hình và áp dụng tính năng nén Adobe Deflate cho các tệp TIFF bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 25
 url: /vi/java/tiff-image-compression-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình và nén ảnh TIFF
+
 ## Giới thiệu
 
 Việc quản lý hình ảnh TIFF có thể phức tạp, nhưng với Aspose.PSD cho Java, bạn có thể xử lý các tác vụ này một cách dễ dàng. Cho dù bạn cần nén tệp TIFF, định cấu hình tùy chọn hay áp dụng các kỹ thuật nén cụ thể như Adobe Deflate, hướng dẫn của chúng tôi đều cung cấp hướng dẫn toàn diện để đơn giản hóa các quy trình này. Dưới đây là cách bạn có thể tận dụng tối đa Aspose.PSD cho Java cho nhu cầu quản lý hình ảnh TIFF của mình.
@@ -36,3 +42,9 @@ Tìm hiểu cách định cấu hình các tùy chọn TIFF trong Aspose.PSD cho
 Tìm hiểu cách áp dụng tính năng nén Adobe Deflate cho hình ảnh TIFF bằng Aspose.PSD cho Java. Hướng dẫn từng bước để xử lý hình ảnh hiệu quả.
 ### [Áp dụng tính năng nén giảm phát cho tệp TIFF bằng Java](./apply-deflate-compression-tiff-files/)
 Tìm hiểu cách áp dụng tính năng nén giảm phát cho tệp TIFF bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để giảm kích thước tệp một cách hiệu quả mà không làm giảm chất lượng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

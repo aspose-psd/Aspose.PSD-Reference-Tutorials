@@ -3,10 +3,16 @@ title: Támogassa a határinformációs erőforrást PSD-ben - Java
 linktitle: Támogassa a határinformációs erőforrást PSD-ben - Java
 second_title: Aspose.PSD Java API
 description: Főszegély-manipuláció PSD-fájlokban az Aspose.PSD for Java segítségével. Ismerje meg a szegély szélességének, mértékegységeinek és egyebek módosítását az egyszerűen követhető lépések segítségével. Programozottan javíthatja PSD-terveit.
-type: docs
 weight: 23
 url: /hu/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Támogassa a határinformációs erőforrást PSD-ben - Java
+
 ## Bevezetés
 
 Érezte már valaha annak szükségességét, hogy programozottan módosítsa a PSD-fájlok bosszantó szegélyeit? Nos, ne izgulj tovább! Aspose.PSD for Java jön a segítségre, hatékony és felhasználóbarát módot kínálva a PSD-fájlokon belüli határinformációs erőforrások manipulálására. Ez az átfogó útmutató lépésről lépésre végigvezeti Önt a folyamaton, és lehetővé teszi, hogy a határok felett még soha nem látott irányítást szerezzen.
@@ -136,3 +142,9 @@ Az Aspose.PSD a teljesítményre van optimalizálva, de a nagy PSD-fájlok kezel
 ### Hol találhatok további információt és támogatást?
 
 Az Aspose.PSD for Java dokumentáció kiváló forrás az API-val és képességeivel kapcsolatos részletes információkhoz. Felkeresheti az Aspose fórumait is, ha segítségre van szüksége, és kapcsolatba léphet más fejlesztőkkel. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

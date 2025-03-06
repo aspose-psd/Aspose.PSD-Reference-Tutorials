@@ -3,10 +3,16 @@ title: Cắt tệp PSD bằng Aspose.PSD cho .NET
 linktitle: Cắt tệp PSD bằng Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Khám phá nghệ thuật cắt tệp PSD trong .NET với Aspose.PSD, một bộ công cụ đa năng. Nâng cao trò chơi thao tác hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 19
 url: /vi/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt tệp PSD bằng Aspose.PSD cho .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, Aspose.PSD nổi bật như một bộ công cụ mạnh mẽ để xử lý các tệp PSD (Tài liệu Photoshop) một cách liền mạch. Khi nói đến thao tác hình ảnh, cắt xén là một thao tác cơ bản và Aspose.PSD đơn giản hóa quy trình này cho các nhà phát triển .NET. Trong hướng dẫn này, chúng tôi sẽ khám phá cách cắt các tệp PSD bằng Aspose.PSD cho .NET, cung cấp cho bạn hướng dẫn từng bước.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Câu trả lời 1: Có, Aspose.PSD được cập nhật thường xuyên để
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, nếu bạn cần giấy phép tạm thời, bạn có thể lấy giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

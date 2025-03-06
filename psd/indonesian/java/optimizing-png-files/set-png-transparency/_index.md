@@ -3,10 +3,16 @@ title: Atur Transparansi PNG di Aspose.PSD untuk Java
 linktitle: Atur Transparansi PNG di Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengatur transparansi PNG di Aspose.PSD untuk Java dengan tutorial langkah demi langkah yang mudah. Sempurna untuk pengembang dan desainer grafis.
-type: docs
 weight: 15
 url: /id/java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Transparansi PNG di Aspose.PSD untuk Java
+
 ## Perkenalan
 Dalam hal memanipulasi dan mengelola grafik, terutama di lingkungan profesional, memilih alat yang tepat sangatlah penting. Salah satu alat yang menonjol dalam bidang manipulasi grafis adalah Aspose.PSD untuk Java. Pustaka ini memungkinkan pengembang untuk bekerja secara lancar dengan file Photoshop (PSD) langsung di aplikasi Java mereka. Ini seperti memiliki fitur-fitur canggih Photoshop di ujung jari Anda, tanpa kurva pembelajaran yang curam! Hari ini, kita mendalami fitur spesifik: mengatur transparansi PNG menggunakan Aspose.PSD untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui langkah-langkahnya.
 ## Prasyarat
@@ -67,3 +73,9 @@ Sangat! Anda dapat mengunduh Aspose.PSD versi uji coba gratis[Di Sini](https://r
  Anda dapat mengunjungi[Asumsikan Forum Dukungan](https://forum.aspose.com/c/psd/34) untuk bantuan dan dukungan masyarakat.
 ### Bisakah saya mengatur beberapa warna transparan?
 Saat ini, perpustakaan memungkinkan Anda mengatur satu warna transparan per gambar PNG. Namun, Anda dapat memanipulasi berbagai lapisan dalam file PSD sebelum mengekspor jika diperlukan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

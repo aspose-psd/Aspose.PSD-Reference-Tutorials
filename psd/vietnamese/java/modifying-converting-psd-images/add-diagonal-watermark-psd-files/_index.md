@@ -3,10 +3,16 @@ title: Thêm hình mờ chéo vào tệp PSD bằng Java
 linktitle: Thêm hình mờ chéo vào tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách dễ dàng thêm hình mờ chéo vào tệp PSD bằng Java với Aspose.PSD. Hướng dẫn từng bước để nâng cao hình ảnh của bạn một cách tự tin.
-type: docs
 weight: 12
 url: /vi/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình mờ chéo vào tệp PSD bằng Java
+
 ## Giới thiệu
 Trong thế giới kỹ thuật số ngày nay, việc có một hình ảnh nổi bật có thể tạo nên sự khác biệt. Cho dù bạn là nhà thiết kế đang tìm cách bảo vệ tác phẩm của mình hay nhà tiếp thị muốn thêm thương hiệu vào hình ảnh thì việc áp dụng hình mờ là điều cần thiết. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm hình mờ chéo vào tệp PSD bằng Java với sự trợ giúp của Aspose.PSD, một thư viện mạnh mẽ để thao tác với tệp PSD.
 ## Điều kiện tiên quyết
@@ -97,3 +103,9 @@ Tuyệt đối! Bạn có thể điều chỉnh giá trị alpha trong SolidBrus
  Có, bạn có thể gọi`drawString` phương pháp nhiều lần với các tham số khác nhau để thêm nhiều hình mờ.
 ### Tôi có thể tìm thêm thông tin về Aspose.PSD ở đâu?
  Bạn có thể kiểm tra tài liệu[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

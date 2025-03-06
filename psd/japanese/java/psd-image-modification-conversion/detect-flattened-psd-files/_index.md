@@ -3,10 +3,16 @@ title: Aspose.PSD for Java を使用してフラット化された PSD ファイ
 linktitle: Aspose.PSD for Java を使用してフラット化された PSD ファイルを検出する
 second_title: Aspose.PSD Java API
 description: この包括的なチュートリアルでは、Aspose.PSD for Java を使用してフラット化された PSD ファイルを検出する方法を段階的に学習します。
-type: docs
 weight: 10
 url: /ja/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java を使用してフラット化された PSD ファイルを検出する
+
 ## 導入
 
 Aspose.PSD for Java による PSD (Photoshop Document) ファイル操作の世界へようこそ! Photoshop ファイルでレイヤーを操作する必要があったものの、どこから始めればよいか分からなかったという方にとって、ここは最適な場所です。このチュートリアルでは、Aspose.PSD を使用して PSD ファイルがフラット化されているかどうかを検出する方法について詳しく説明します。PSD をフラット化すると、すべてのレイヤーが 1 つの統合されたレイヤーに結合されるため、後で編集するのが少し難しくなります。このガイドを読み終えると、PSD ファイルのこの重要な側面をチェックできるようになります。落ち着いて、コーヒーを片手に、早速始めましょう!
@@ -77,3 +83,9 @@ System.out.println(psdImage.isFlatten());
 
 ### Aspose.PSD を無料でテストする方法はありますか?
 もちろんです！無料トライアルは、こちらから試用版をダウンロードして開始できます。[このリンク](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

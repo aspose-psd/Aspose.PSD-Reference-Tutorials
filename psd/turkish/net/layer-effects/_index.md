@@ -3,10 +3,16 @@ title: Katman Efektleri
 linktitle: Katman Efektleri
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile katman efektlerinin büyüsünü keşfedin! Kontur, gölge ve karışım modları eklemeyi öğrenerek görüntü işleme becerilerinizi geliştirin.
-type: docs
 weight: 29
 url: /tr/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Katman Efektleri
+
 ## giriiş
 
 Aspose.PSD for .NET ile görüntü işleme çabalarınızın tüm potansiyelini ortaya çıkarın. Bu kapsamlı kılavuz, yaratıcı sürecinizi dönüştürecek sayısız katman efektini size tanıtıyor. Konturlardan gölgelerden karışım modlarına kadar tasarımlarınızı zahmetsizce geliştirin.
@@ -54,3 +60,9 @@ Aspose.PSD for .NET ile görsellerinizi geliştirin! Gölge efektlerini adım ad
 Bu kapsamlı eğitimle Aspose.PSD for .NET'te gölge efekti opaklığını nasıl ayarlayacağınızı öğrenin.
 ### [Aspose.PSD for .NET'te Karışım Modlarıyla Çalışmak](./working-with-blend-modes/)
 Aspose.PSD for .NET'te karışım modlarının gücünü keşfedin. Bu eğitim, adım adım örneklerle çeşitli karışım modlarının uygulanmasında size yol gösterir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

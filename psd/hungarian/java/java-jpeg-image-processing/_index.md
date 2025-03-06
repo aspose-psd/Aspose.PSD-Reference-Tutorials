@@ -3,10 +3,16 @@ title: Java JPEG képfeldolgozás
 linktitle: Java JPEG képfeldolgozás
 second_title: Aspose.PSD Java API
 description: Fedezze fel az Aspose.PSD for Java oktatóanyagát. Ismerje meg az EXIF-, JFIF-, JPEG-feldolgozás és egyebek kezelését a lépésenkénti útmutatók és kódpéldák segítségével.
-type: docs
 weight: 23
 url: /hu/java/java-jpeg-image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java JPEG képfeldolgozás
+
 
 ## Bevezetés
 
@@ -78,3 +84,9 @@ Ismerje meg, hogyan kezelheti a PSD-fájlokat, és hogyan mentheti azokat JPEG-k
 Ismerje meg, hogyan támogassa a JPEG-LS-t a CMYK-val a Java nyelven az Aspose.PSD használatával. Kövesse lépésről lépésre útmutatónkat az egyszerű képfeldolgozás és konvertálás érdekében.
 ### [Írjon és módosítson EXIF-adatokat Java nyelven](./write-modify-exif-data-java/)
 Tanulja meg, hogyan írhat és módosíthat EXIF-adatokat PSD-fájlokban az Aspose.PSD for Java használatával ebben az átfogó, lépésről-lépésre szóló útmutatóban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

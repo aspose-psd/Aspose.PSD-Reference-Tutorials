@@ -3,10 +3,16 @@ title: Adding Stroke Effects to Layers in Aspose.PSD for .NET
 linktitle: Adding Stroke Effects to Layers
 second_title: Aspose.PSD .NET API
 description: Enhance image aesthetics with Aspose.PSD for .NET. Learn to add stroke effects step-by-step. Download, buy, or try the free trial now.
-type: docs
 weight: 10
 url: /net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Stroke Effects to Layers in Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to this step-by-step tutorial on adding stroke effects to layers in Aspose.PSD for .NET. Enhancing the visual appeal of your images is a breeze with the stroke effect, and Aspose.PSD makes it seamless for .NET developers. In this guide, we'll walk you through the process, providing clear steps and examples to help you master this powerful feature.
@@ -109,3 +115,10 @@ A4: Yes, you can loop through multiple PSD files and apply the stroke effect usi
 ### Q5: Can I use the trial version before purchasing Aspose.PSD?
 
 A5: Certainly! Grab the [free trial](https://releases.aspose.com/) to explore Aspose.PSD's capabilities before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

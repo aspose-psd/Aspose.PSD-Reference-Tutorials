@@ -3,10 +3,16 @@ title: การประมวลผลภาพ
 linktitle: การประมวลผลภาพ
 second_title: Aspose.PSD .NET API
 description: เพิ่มคุณภาพของภาพได้อย่างง่ายดายด้วย Aspose.PSD สำหรับบทช่วยสอน .NET เรียนรู้เทคนิคต่างๆ เช่น ฟิลเตอร์เกาส์เซียนและวีเนอร์ การแปลงสี ไบนาไรซ์ และอื่นๆ อีกมากมาย
-type: docs
 weight: 20
 url: /th/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การประมวลผลภาพ
+
 
 ## การแนะนำ
 
@@ -46,3 +52,9 @@ Aspose.PSD สำหรับ .NET ช่วยให้นักพัฒนา
 เรียนรู้วิธีใช้เอฟเฟกต์ระดับสีเทากับรูปภาพอย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ .NET
 ### [การใช้ Bradley Threshold ใน Aspose.PSD สำหรับ .NET](./apply-bradley-threshold/)
 ปรับปรุงการแบ่งส่วนภาพโดยใช้ Bradley Threshold ใน Aspose.PSD สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับไบนาไรเซชันที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

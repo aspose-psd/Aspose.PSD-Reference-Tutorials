@@ -3,10 +3,16 @@ title: تصدير مجموعة طبقات PSD إلى صورة باستخدام J
 linktitle: تصدير مجموعة طبقات PSD إلى صورة باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تصدير مجموعات طبقات PSD إلى الصور باستخدام Aspose.PSD لـ Java باستخدام هذا الدليل التفصيلي خطوة بخطوة. مثالية للمطورين والمصممين.
-type: docs
 weight: 10
 url: /ar/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير مجموعة طبقات PSD إلى صورة باستخدام Java
+
 ## مقدمة
 
 في عالم التصميم الرقمي، يمكن أن تؤدي إدارة الطبقات وتصدير أجزاء معينة من عملك إلى تغيير قواعد اللعبة. تخيل أنك حصلت على ملف Photoshop (PSD) المذهل متعدد الطبقات، وتريد تصدير مجموعة معينة فقط من الطبقات كصورة. يبدو الأمر صعبا، أليس كذلك؟ حسنا، لا يجب أن يكون! مع Aspose.PSD لـ Java، لا تصبح هذه المهمة سهلة الإدارة فحسب، بل تصبح بسيطة تمامًا. ستوجهك هذه المقالة خلال العملية، وتقسمها إلى خطوات سهلة المتابعة. وفي النهاية، سيكون لديك المعرفة اللازمة للتعامل مع طبقات PSD كالمحترفين.
@@ -119,3 +125,9 @@ contentFolder.save(outputDir + "content.png", new PngOptions());
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
  يمكنك الحصول على ترخيص مؤقت من[Aspose صفحة الشراء](https://purchase.aspose.com/temporary-license/). سيسمح لك ذلك باختبار الوظائف الكاملة للمكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

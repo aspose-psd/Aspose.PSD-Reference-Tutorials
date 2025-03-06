@@ -3,10 +3,16 @@ title: 在 PSD 中管理照片濾鏡調整圖層 - Java
 linktitle: 在 PSD 中管理照片濾鏡調整圖層 - Java
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 管理 PSD 檔案中的照片濾鏡調整圖層。按照本指南輕鬆編輯和添加過濾器。
-type: docs
 weight: 24
 url: /zh-hant/java/psd-image-modification-conversion/manage-photo-filter-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 中管理照片濾鏡調整圖層 - Java
+
 ## 介紹
 您是希望使用 Java 增強圖形編輯能力的開發人員嗎？嗯，您來對地方了！今天，我們將深入研究如何使用 Aspose.PSD for Java 管理照片濾鏡調整圖層。這個強大的程式庫使您能夠無縫地操作 PSD 文件，從而實現高效的圖形設計工作流程。無論您是想新增效果還是編輯現有圖層，我們都會為您提供簡化流程的逐步指南。
 ## 先決條件
@@ -107,3 +113,9 @@ Aspose.PSD 是一個用於建立、編輯和轉換 PSD 檔案的 .NET 和 Java �
 您可以從以下位置購買該軟體[這個連結](https://purchase.aspose.com/buy).
 ### 是否支援 Aspose.PSD？
 絕對地！您可以透過 Aspose 支援論壇獲得支持[這裡](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

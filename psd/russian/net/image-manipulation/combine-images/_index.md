@@ -3,10 +3,16 @@ title: Объединение изображений в Aspose.PSD для .NET
 linktitle: Объединение изображений
 second_title: Aspose.PSD .NET API
 description: Легко объединяйте изображения в .NET с помощью Aspose.PSD. Следуйте нашему пошаговому руководству, чтобы без проблем манипулировать изображениями.
-type: docs
 weight: 10
 url: /ru/net/image-manipulation/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Объединение изображений в Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по объединению изображений с помощью Aspose.PSD для .NET! Aspose.PSD — это мощная библиотека .NET, которая позволяет разработчикам беспрепятственно работать с файлами Adobe Photoshop. В этом уроке мы проведем вас через процесс объединения изображений с помощью Aspose.PSD, предоставив практические примеры и подробные инструкции.
@@ -107,3 +113,9 @@ image.Save();
 ### В5: Могу ли я получить временную лицензию на Aspose.PSD?
 
 О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

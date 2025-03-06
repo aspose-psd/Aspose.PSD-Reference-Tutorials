@@ -3,10 +3,16 @@ title: تنفيذ ضبط السطوع في Aspose.PSD لـ .NET
 linktitle: تنفيذ تعديل السطوع
 second_title: Aspose.PSD.NET API
 description: اكتشف قوة Aspose.PSD لـ .NET في ضبط سطوع الصورة. اتبع دليلنا خطوة بخطوة للتنفيذ السلس.
-type: docs
 weight: 10
 url: /ar/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ ضبط السطوع في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 يعد تحسين سمات الصورة وضبطها متطلبًا شائعًا في العديد من التطبيقات، ويوفر Aspose.PSD for .NET حلاً قويًا لمعالجة ملفات PSD بسلاسة. أحد هذه المعالجات هو تعديل السطوع، مما يسمح لك بتعديل سطوع الصورة دون عناء.
@@ -97,3 +103,9 @@ rasterImage.Save(destName, tiffOptions);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

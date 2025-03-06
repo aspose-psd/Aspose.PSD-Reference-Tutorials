@@ -3,10 +3,16 @@ title: Chuyển đổi AI sang JPG trong Java
 linktitle: Chuyển đổi AI sang JPG trong Java
 second_title: API Java Aspose.PSD
 description: Chuyển đổi tệp AI sang JPG trong Java dễ dàng với Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi hình ảnh chất lượng cao.
-type: docs
 weight: 11
 url: /vi/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi AI sang JPG trong Java
+
 ## Giới thiệu
 Bạn đang muốn chuyển đổi các tệp AI (Adobe Illustrator) sang định dạng JPG bằng Java? Đừng tìm đâu xa! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn toàn bộ quá trình sử dụng Aspose.PSD cho Java, một thư viện mạnh mẽ và linh hoạt giúp thao tác hình ảnh trở nên dễ dàng. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ cung cấp cho bạn mọi thứ bạn cần biết.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Aspose.PSD cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua
 Không, bạn không cần cài đặt Adobe Illustrator. Aspose.PSD xử lý các định dạng tệp một cách độc lập.
 ### Tôi có thể tìm thêm tài liệu về Aspose.PSD cho Java ở đâu?
  Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

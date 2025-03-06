@@ -3,10 +3,16 @@ title: Supporting Working Path Resource in Aspose.PSD for .NET
 linktitle: Supporting Working Path Resource
 second_title: Aspose.PSD .NET API
 description: Explore the power of 'WorkingPathResource' in Aspose.PSD for .NET. Enhance image precision with this step-by-step guide.
-type: docs
 weight: 12
 url: /net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporting Working Path Resource in Aspose.PSD for .NET
+
 ## Introduction
 If you're a .NET developer working with image processing, Aspose.PSD for .NET is your go-to solution. In this tutorial, we'll dive deep into harnessing the power of the 'WorkingPathResource' resource in Aspose.PSD. This crucial feature enhances the precision of the Crop operation, ensuring your images are tailored exactly as needed.
 ## Prerequisites
@@ -88,3 +94,10 @@ A4: Seek support on the [Aspose.PSD forums](https://forum.aspose.com/c/psd/34).
 ### Q5: Need a temporary license?
 
 A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

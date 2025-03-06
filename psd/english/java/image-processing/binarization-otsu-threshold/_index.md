@@ -3,10 +3,16 @@ title: Binarization with Otsu Threshold in Aspose.PSD for Java
 linktitle: Binarization with Otsu Threshold
 second_title: Aspose.PSD Java API
 description: Explore Binarization with Otsu Threshold in Aspose.PSD for Java. A powerful image segmentation technique.
-type: docs
 weight: 15
 url: /java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarization with Otsu Threshold in Aspose.PSD for Java
+
 ## Introduction
 
 Welcome to this step-by-step guide on performing Binarization with Otsu Threshold in Aspose.PSD for Java! In this tutorial, we will explore how to leverage the Aspose.PSD for Java library to enhance your image processing capabilities. Binarization with Otsu Threshold is a powerful technique for image segmentation, and with Aspose.PSD, it becomes both straightforward and efficient.
@@ -103,3 +109,10 @@ A4: Visit the Aspose.PSD forum [here](https://forum.aspose.com/c/psd/34) for com
 ### Q5: Is there a temporary license available for Aspose.PSD for Java?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

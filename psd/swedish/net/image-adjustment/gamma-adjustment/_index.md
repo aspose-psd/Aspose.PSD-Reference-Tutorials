@@ -3,10 +3,16 @@ title: Implementering av gammajustering i Aspose.PSD för .NET
 linktitle: Implementering av gammajustering
 second_title: Aspose.PSD .NET API
 description: Utforska kraften i Aspose.PSD för .NET med vår steg-för-steg-guide för implementering av Gamma Adjustment. Finjustera bildens ljusstyrka och kontrast utan ansträngning.
-type: docs
 weight: 12
 url: /sv/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementering av gammajustering i Aspose.PSD för .NET
+
 ## Introduktion
 
 Välkommen till denna omfattande guide om implementering av Gamma Adjustment i Aspose.PSD för .NET! Gammajustering är en avgörande bildbehandlingsteknik som låter dig finjustera ljusstyrkan och kontrasten i en bild. I den här handledningen går vi igenom processen med det kraftfulla Aspose.PSD-biblioteket för .NET.
@@ -101,3 +107,9 @@ Grattis! Du har framgångsrikt implementerat Gamma Adjustment med Aspose.PSD fö
 ### F5: Behöver jag en tillfällig licens?
 
  S5: Vid behov kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

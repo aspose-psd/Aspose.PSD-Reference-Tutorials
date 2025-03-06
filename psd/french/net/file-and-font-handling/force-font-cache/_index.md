@@ -3,10 +3,16 @@ title: Forcer le cache de polices dans Aspose.PSD pour .NET
 linktitle: Forcer le cache des polices
 second_title: API Aspose.PSD.NET
 description: Explorez la gestion du cache de polices étape par étape dans Aspose.PSD pour .NET. Assurez un rendu précis avec cette puissante bibliothèque .NET.
-type: docs
 weight: 14
 url: /fr/net/file-and-font-handling/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Forcer le cache de polices dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Aspose.PSD pour .NET fournit des outils puissants pour travailler avec des fichiers PSD dans vos applications .NET. Une fonctionnalité essentielle est la possibilité de forcer le cache des polices, garantissant ainsi que vos fichiers PSD conservent un rendu cohérent et précis. Dans ce didacticiel, nous vous guiderons pas à pas tout au long du processus de forçage du cache des polices dans Aspose.PSD pour .NET.
@@ -95,3 +101,9 @@ A1 : Oui, Aspose.PSD pour .NET prend en charge différentes versions de fichiers
 ### Q5 : Puis-je acheter Aspose.PSD pour .NET directement ?
 
  A5 : Oui, vous pouvez acheter Aspose.PSD pour .NET via le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

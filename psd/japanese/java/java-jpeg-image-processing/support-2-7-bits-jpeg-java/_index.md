@@ -3,10 +3,16 @@ title: Java での 2 ビットおよび 7 ビット JPEG のサポート
 linktitle: Java での 2 ビットおよび 7 ビット JPEG のサポート
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して Java で PSD ファイルを操作し、JPEG として保存する方法を学びます。コード例付きのステップバイステップ ガイド。初心者にもプロにも最適です。
-type: docs
 weight: 20
 url: /ja/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での 2 ビットおよび 7 ビット JPEG のサポート
+
 ## 導入
 こんにちは！Java を使用した画像処理の世界に飛び込む準備はできていますか？今日は、PSD ファイルの操作と変換を簡単に行うことができる強力なツールである Aspose.PSD for Java ライブラリについて説明します。具体的には、2 ビットおよび 7 ビットの JPEG の処理方法について説明します。このチュートリアルでは、前提条件から詳細な手順まで、知っておく必要のあるすべてのことを説明します。さあ、シートベルトを締めて、楽しくてためになる旅に出発しましょう！
 ## 前提条件
@@ -74,3 +80,9 @@ Aspose.PSD for Java は、Java アプリケーションで PSD ファイルを�
 Aspose.PSD for Java は、PSD、JPEG、PNG、BMP、TIFF など、さまざまな画像形式をサポートしています。
 ### Aspose.PSD for Java の無料試用版はありますか?
 はい、ダウンロードできます[無料トライアル](https://releases.aspose.com/)購入前にライブラリの機能をテストします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

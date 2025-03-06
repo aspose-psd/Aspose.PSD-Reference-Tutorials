@@ -3,10 +3,16 @@ title: Ondersteuning van SoCo-bronnen in PSD-bestanden met behulp van Java
 linktitle: Ondersteuning van SoCo-bronnen in PSD-bestanden met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u SoCo-bronnen in PSD-bestanden kunt manipuleren met Aspose.PSD voor Java met deze stapsgewijze zelfstudie.
-type: docs
 weight: 22
 url: /nl/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van SoCo-bronnen in PSD-bestanden met behulp van Java
+
 ## Invoering
 Werken met PSD-bestanden kan een beetje lijken op het navigeren door een complex labyrint, vooral als je je verdiept in de fijne kneepjes van lagen en bronnen. Gelukkig kunnen tools als Aspose.PSD voor Java dit proces vereenvoudigen, waardoor ontwikkelaars Photoshop-bestanden programmatisch kunnen manipuleren. In deze tutorial laten we zien hoe u SoCo-bronnen binnen PSD-bestanden kunt ondersteunen met behulp van Java, waardoor uw leven een stuk eenvoudiger wordt. 
 Of u nu een doorgewinterde ontwikkelaar bent of gewoon aan het begin staat van de wereld van beeldverwerking, deze gids zal de complexiteit in begrijpelijke stappen terugbrengen, zodat u uw reis met een goed begrip kunt afsluiten.
@@ -111,3 +117,9 @@ Aspose.PSD voor Java is een bibliotheek waarmee ontwikkelaars PSD-bestanden binn
  Ja, er is een speciale[ondersteuningsforum](https://forum.aspose.com/c/psd/34).
 ### Welke soorten bronnen kan ik manipuleren in een PSD-bestand?
 U kunt verschillende bronnen manipuleren, waaronder lagen, opvullagen en SoCo-bronnen binnen het PSD-bestand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

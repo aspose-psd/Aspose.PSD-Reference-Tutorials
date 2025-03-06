@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET ile Eliptik Şekiller Oluşturma
 linktitle: Aspose.PSD for .NET ile Eliptik Şekiller Oluşturma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD'yi kullanarak .NET'te eliptik şekillerin nasıl çizileceğini öğrenin. Kod örnekleri içeren adım adım kılavuz. Zahmetsizce çarpıcı grafikler oluşturun.
-type: docs
 weight: 13
 url: /tr/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET ile Eliptik Şekiller Oluşturma
+
 ## giriiş
 
 Aspose.PSD for .NET kullanarak eliptik şekiller oluşturmaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. Aspose.PSD, geliştiricilerin Adobe Photoshop gerektirmeden Photoshop dosyalarını değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir .NET kitaplığıdır. Bu eğitimde, kütüphaneyi kullanarak eliptik şekiller çizme sürecinde size yol göstereceğiz.
@@ -101,3 +107,9 @@ Tebrikler! Aspose.PSD for .NET'i kullanarak başarıyla eliptik şekiller oluşt
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

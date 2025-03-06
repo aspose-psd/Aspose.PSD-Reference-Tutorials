@@ -3,10 +3,16 @@ title: Bélyegkép kibontása a PSD-ből Java nyelven
 linktitle: Bélyegkép kibontása a PSD-ből Java nyelven
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan bonthat ki miniatűröket PSD-fájlokból az Aspose.PSD for Java használatával. Ez a részletes útmutató a beállítástól a kinyert képek mentéséig mindent lefed.
-type: docs
 weight: 15
 url: /hu/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bélyegkép kibontása a PSD-ből Java nyelven
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet miniatűröket kivonni PSD-fájlokból az Aspose.PSD for Java segítségével. A miniatűrök hasznosak lehetnek a gyors előnézetekhez vagy a PSD dokumentumokba ágyazott képek kisebb verzióinak létrehozásához. Vessen egy pillantást az Aspose.PSD használatához szükséges lépésekre.
 ## Előfeltételek
@@ -73,3 +79,9 @@ Az Aspose.PSD egy Java-könyvtár, amely lehetővé teszi a fejlesztők számár
  Ideiglenes engedélyek szerezhetők be[itt](https://purchase.aspose.com/temporary-license/).
 ### Az Aspose.PSD alkalmas kereskedelmi használatra?
 Igen, az Aspose.PSD felhasználható személyes és kereskedelmi projektekhez is a licencfeltételei szerint.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

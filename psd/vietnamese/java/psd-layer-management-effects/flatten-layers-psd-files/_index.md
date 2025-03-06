@@ -3,10 +3,16 @@ title: Làm phẳng các lớp trong tệp PSD bằng cách sử dụng Aspose.P
 linktitle: Làm phẳng các lớp trong tệp PSD bằng cách sử dụng Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Làm phẳng và hợp nhất các lớp trong tệp PSD một cách dễ dàng bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước này để đơn giản hóa việc quản lý tệp PSD của bạn.
-type: docs
 weight: 13
 url: /vi/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm phẳng các lớp trong tệp PSD bằng cách sử dụng Aspose.PSD Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ thấy mình làm việc với các tệp Photoshop và mong muốn có một cách dễ dàng hơn để quản lý các lớp phức tạp đó chưa? Vâng, bạn thật may mắn! Hôm nay, chúng ta sẽ đi sâu vào thế giới Aspose.PSD cho Java, một công cụ mạnh mẽ giúp bạn dễ dàng làm việc với các tệp PSD theo chương trình. Một trong những tính năng tiện dụng mà chúng ta sẽ khám phá là làm phẳng các lớp. Cho dù bạn muốn làm phẳng toàn bộ hình ảnh hay hợp nhất có chọn lọc các lớp cụ thể, Aspose.PSD cho Java đều đáp ứng được nhu cầu của bạn. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, từng bước một, đảm bảo bạn sẵn sàng xử lý các tệp PSD của mình một cách tự tin.
@@ -150,3 +156,9 @@ Có, bạn có thể hợp nhất các lớp với các chế độ hòa trộn 
 
 ### Điều gì xảy ra nếu tôi cố gắng hợp nhất các lớp không liền kề nhau?  
 Aspose.PSD cho phép bạn hợp nhất bất kỳ lớp nào bất kể thứ tự của chúng trong ngăn xếp lớp. Quá trình hợp nhất sẽ kết hợp các lớp đã chọn theo quy định.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Administrar la capa de ajuste del filtro de fotos en PSD - Java
 linktitle: Administrar la capa de ajuste del filtro de fotos en PSD - Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a administrar las capas de ajuste del filtro de fotografías en archivos PSD con Aspose.PSD para Java. Siga esta guía para editar y agregar filtros sin esfuerzo.
-type: docs
 weight: 24
 url: /es/java/psd-image-modification-conversion/manage-photo-filter-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar la capa de ajuste del filtro de fotos en PSD - Java
+
 ## Introducción
 ¿Es usted un desarrollador que busca mejorar sus capacidades de edición gráfica utilizando Java? Bueno, ¡estás en el lugar correcto! Hoy, profundizaremos en cómo administrar las capas de ajuste del filtro de fotografías usando Aspose.PSD para Java. Esta poderosa biblioteca le permite manipular archivos PSD sin problemas, lo que permite un flujo de trabajo eficiente en diseño gráfico. Ya sea que desee agregar efectos o editar capas existentes, lo cubrimos con una guía paso a paso que simplifica el proceso.
 ## Requisitos previos
@@ -107,3 +113,9 @@ Aspose.PSD es una biblioteca .NET y Java para crear, editar y convertir archivos
  Puedes comprar el software en[este enlace](https://purchase.aspose.com/buy).
 ### ¿Hay soporte disponible para Aspose.PSD?
  ¡Absolutamente! Puede obtener soporte a través del foro de soporte de Aspose[aquí](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

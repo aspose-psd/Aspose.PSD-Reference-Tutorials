@@ -3,10 +3,16 @@ title: Skalowanie szarości obrazów za pomocą Aspose.PSD dla .NET
 linktitle: Skalowanie szarości obrazów za pomocą Aspose.PSD dla .NET
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak bez wysiłku zastosować efekty skali szarości do obrazów za pomocą Aspose.PSD dla .NET.
-type: docs
 weight: 14
 url: /pl/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skalowanie szarości obrazów za pomocą Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w naszym kompleksowym samouczku na temat skalowania obrazów przy użyciu Aspose.PSD dla .NET! Skalowanie szarości to zaawansowana technika, która może poprawić atrakcyjność wizualną obrazów poprzez konwersję ich na odcienie szarości. W tym przewodniku przeprowadzimy Cię przez proces łatwego uzyskiwania oszałamiających efektów w skali szarości.
@@ -108,3 +114,9 @@ O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, w tym PSD, BMP, PNG i J
 ### P5: Jak kupić licencję na Aspose.PSD dla .NET?
 
  Odpowiedź 5: Możesz kupić licencję w witrynie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

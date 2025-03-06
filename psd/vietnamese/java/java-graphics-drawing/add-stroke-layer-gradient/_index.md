@@ -3,10 +3,16 @@ title: Cách thêm gradient lớp nét trong Java
 linktitle: Cách thêm gradient lớp nét trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm và tùy chỉnh độ dốc của lớp nét trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 10
 url: /vi/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cách thêm gradient lớp nét trong Java
+
 ## Giới thiệu
 Bạn đã bao giờ tự hỏi làm cách nào để thêm gradient lớp nét vào hình ảnh của mình bằng Java chưa? Vâng, bạn đang ở đúng nơi! Hôm nay, chúng ta sẽ đi sâu vào thế giới Aspose.PSD cho Java, một thư viện mạnh mẽ giúp bạn thao tác các tệp PSD một cách dễ dàng. Cho dù bạn là người mới bắt đầu hay một nhà phát triển dày dạn kinh nghiệm, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quá trình thêm gradient lớp nét vào các tệp PSD của bạn. Vì vậy, hãy thắt dây an toàn và sẵn sàng nâng cao kỹ năng chỉnh sửa đồ họa của bạn!
 ## Điều kiện tiên quyết
@@ -156,3 +162,9 @@ Tuyệt đối! Aspose.PSD cho Java cung cấp các API toàn diện để tạo
 Có, bạn có thể áp dụng nhiều hiệu ứng khác nhau như bóng, ánh sáng, v.v. bằng cách sử dụng Aspose.PSD cho Java.
 ### Tôi có thể tìm tài liệu về Aspose.PSD cho Java ở đâu?
  Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

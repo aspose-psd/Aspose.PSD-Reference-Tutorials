@@ -3,10 +3,16 @@ title: Tạo siêu dữ liệu XMP trong Aspose.PSD cho .NET
 linktitle: Tạo siêu dữ liệu XMP
 second_title: API Aspose.PSD .NET
 description: Khám phá việc tạo siêu dữ liệu XMP trong Aspose.PSD cho .NET. Tăng cường tổ chức hình ảnh với thao tác liền mạch.
-type: docs
 weight: 10
 url: /vi/net/file-and-font-handling/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo siêu dữ liệu XMP trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, việc xử lý hình ảnh một cách chính xác là một khía cạnh quan trọng của nhiều ứng dụng. Hướng dẫn này khám phá cách tạo siêu dữ liệu XMP trong Aspose.PSD cho .NET, một thư viện mạnh mẽ giúp đơn giản hóa các tác vụ xử lý hình ảnh. XMP (Nền tảng siêu dữ liệu mở rộng) cho phép bạn nhúng siêu dữ liệu vào các tệp hình ảnh, tạo điều kiện thuận lợi cho việc tổ chức và truy xuất thông tin liên quan đến hình ảnh một cách hiệu quả.
@@ -170,3 +176,9 @@ Câu trả lời 4: Các bản cập nhật được phát hành thường xuyê
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
 
  Đáp: Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận trên[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

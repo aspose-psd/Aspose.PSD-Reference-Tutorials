@@ -3,10 +3,16 @@ title: PSD फ़ाइलों में इंटरप्ट मॉनिट
 linktitle: PSD फ़ाइलों में इंटरप्ट मॉनिटर के लिए समर्थन - जावा
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD के इंटरप्ट मॉनिटर का उपयोग करके जावा में लंबे समय से चल रहे PSD रूपांतरणों को बाधित करें। जानें कि कैसे सुंदर रुकावट को लागू किया जाए और उपयोगकर्ता अनुभव को बेहतर बनाया जाए।
-type: docs
 weight: 24
 url: /hi/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD फ़ाइलों में इंटरप्ट मॉनिटर के लिए समर्थन - जावा
+
 ## परिचय
 
 यह व्यापक गाइड आपको अपने जावा अनुप्रयोगों में इंटरप्ट मॉनिटर का लाभ उठाने के लिए ज्ञान से लैस करेगी। हम पूर्वापेक्षाओं में गहराई से जाएंगे, आपको आवश्यक पैकेज आयात करने में मार्गदर्शन करेंगे, और कोड उदाहरणों का उपयोग करके प्रक्रिया को स्पष्ट, चरण-दर-चरण निर्देशों में विभाजित करेंगे। तो, तैयार हो जाइए और अपने PSD रूपांतरणों पर नियंत्रण रखने के लिए तैयार हो जाइए!
@@ -127,3 +133,9 @@ if (outputFile.exists()) {
 ### क्या इंटरप्ट मॉनिटर के उपयोग से प्रदर्शन पर कोई प्रभाव पड़ता है?
 
  इंटरप्ट मॉनिटर का उपयोग करने का प्रदर्शन ओवरहेड आम तौर पर न्यूनतम होता है। हालाँकि, इंटरप्ट चेक की आवृत्ति`SaveImageWorker` प्रदर्शन पर असर पड़ सकता है। जवाबदेही और दक्षता के बीच संतुलन बनाना ज़रूरी है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

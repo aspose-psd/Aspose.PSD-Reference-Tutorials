@@ -3,10 +3,16 @@ title: Een afbeelding in een specifieke hoek roteren in Aspose.PSD voor .NET
 linktitle: Een afbeelding in een specifieke hoek roteren
 second_title: Aspose.PSD .NET-API
 description: Ontdek de kracht van Aspose.PSD voor .NET. Roteer afbeeldingen moeiteloos onder specifieke hoeken. Download de bibliotheek en begin met het naadloos manipuleren van afbeeldingen.
-type: docs
 weight: 16
 url: /nl/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Een afbeelding in een specifieke hoek roteren in Aspose.PSD voor .NET
+
 Als je je verdiept in de wereld van beeldmanipulatie met .NET, biedt Aspose.PSD een krachtige oplossing. In deze zelfstudie begeleiden we u bij het roteren van een afbeelding onder een specifieke hoek met behulp van Aspose.PSD. Voordat we in de stappen duiken, laten we eerst een introductie geven.
 
 ## Invoering
@@ -104,3 +110,9 @@ A3: Hoewel het niet verplicht is, kan het cachen van gegevens de prestaties aanz
 ### Vraag 5: Kan ik Aspose.PSD uitproberen voordat ik een aankoop doe?
 
  A5: Zeker! Grijp uw[gratis proefperiode](https://releases.aspose.com/)om de mogelijkheden van de bibliotheek te verkennen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

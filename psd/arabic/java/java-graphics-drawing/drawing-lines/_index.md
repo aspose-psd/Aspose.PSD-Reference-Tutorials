@@ -3,10 +3,16 @@ title: رسم الخطوط في جافا
 linktitle: رسم الخطوط في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية رسم الخطوط في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال هذا البرنامج التعليمي الشامل. تعزيز مهارات تطوير جافا لديك.
-type: docs
 weight: 16
 url: /ar/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الخطوط في جافا
+
 ## مقدمة
 في مجال تطوير Java، تعد معالجة وإنشاء ملفات PSD (مستندات Photoshop) برمجيًا قدرة قوية. يمكّن Aspose.PSD for Java المطورين من أداء مهام متنوعة مثل رسم الخطوط والأشكال والصور مباشرة داخل ملفات PSD. سيرشدك هذا البرنامج التعليمي خلال عملية رسم الخطوط باستخدام Aspose.PSD لـ Java، ويقدم خطوات وأمثلة واضحة لمساعدتك على البدء بسرعة.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ Aspose.PSD for Java هي مكتبة Java قوية للعمل مع ملفات PSD
  للحصول على الدعم الفني، قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
 ### أين يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

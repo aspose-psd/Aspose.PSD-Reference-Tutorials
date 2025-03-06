@@ -3,10 +3,16 @@ title: Prise en charge du masque d'écrêtage dans les fichiers PSD avec Aspose.
 linktitle: Prise en charge du masque d'écrêtage dans les fichiers PSD avec Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment prendre en charge les masques d'écrêtage dans les fichiers PSD avec Aspose.PSD pour Java. Suivez notre guide étape par étape pour manipuler facilement les images PSD.
-type: docs
 weight: 16
 url: /fr/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du masque d'écrêtage dans les fichiers PSD avec Aspose.PSD Java
+
 ## Introduction
 À l'ère actuelle de l'art et du design numériques, les fichiers PSD d'Adobe Photoshop sont la pierre angulaire de la créativité. Ces fichiers permettent aux concepteurs d'utiliser des calques, des masques et divers effets pour donner vie à leurs visions. Mais que se passe-t-il lorsque vous devez manipuler ces fichiers par programme ? C'est là qu'Aspose.PSD pour Java entre en jeu ! C'est une bibliothèque robuste qui vous permet de gérer et de manipuler les fichiers PSD sans effort. Dans ce didacticiel, nous examinerons de plus près comment prendre en charge les masques d'écrêtage dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. 
 ## Conditions préalables
@@ -73,3 +79,9 @@ Oui, Aspose.PSD vous permet de manipuler des fichiers PSD, notamment en modifian
  Oui! Vous pouvez accéder à une version d'essai gratuite d'Aspose.PSD[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l'aide pour les problèmes Aspose.PSD ?
  Pour toute question ou problème, vous pouvez obtenir de l'aide via le forum Aspose[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

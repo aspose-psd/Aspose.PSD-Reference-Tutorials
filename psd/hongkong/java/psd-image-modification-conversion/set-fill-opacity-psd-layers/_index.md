@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD Java 設定 PSD 圖層的填滿不透明度
 linktitle: 使用 Aspose.PSD Java 設定 PSD 圖層的填滿不透明度
 second_title: Aspose.PSD Java API
 description: 在此逐步指南中了解如何使用 Aspose.PSD for Java 設定 PSD 圖層的填滿不透明度。有效增強您的圖形設計項目。
-type: docs
 weight: 13
 url: /zh-hant/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD Java 設定 PSD 圖層的填滿不透明度
+
 ## 介紹
 您是否經常發現自己調整設計文件，試圖實現完美的視覺效果？無論您是經驗豐富的圖形設計師還是希望操作 PSD 檔案的新晉開發人員，了解如何調整圖層屬性都可以發揮重要作用。今天，我們將深入探討如何使用 Aspose.PSD for Java 設定 PSD 檔案中圖層的填滿不透明度。準備好將你的圖層變成引人注目的作品了嗎？讓我們開始吧！
 ## 先決條件
@@ -74,3 +80,9 @@ im.save(exportPath);
 除了填滿不透明度之外，您還可以使用 Aspose.PSD 操縱圖層可見性、混合模式、位置、大小等。
 ### 在哪裡可以找到有關 Aspose.PSD for Java 的更多文件？
 您可以參考綜合文檔[這裡](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

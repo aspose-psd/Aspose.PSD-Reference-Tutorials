@@ -3,10 +3,16 @@ title: PSD에 색조 채도 조정 레이어 추가
 linktitle: PSD에 색조 채도 조정 레이어 추가
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 단계별 튜토리얼에서 Java용 Aspose.PSD를 사용하여 PSD에 색조 채도 조정 레이어를 추가하는 방법을 알아보세요. 그래픽 디자인 작업흐름을 향상시키세요.
-type: docs
 weight: 14
 url: /ko/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에 색조 채도 조정 레이어 추가
+
 ## 소개
 그래픽 디자인의 경우 색상 조작이 중추적인 역할을 합니다. 특히 색상, 채도, 밝기를 조정하면 이미지의 분위기와 품질이 크게 바뀔 수 있습니다. 이를 달성하는 한 가지 효과적인 방법은 Photoshop(PSD 파일)에서 조정 레이어를 사용하는 것입니다. Java를 사용하여 프로그래밍 방식으로 PSD 파일을 향상시키려는 경우 Aspose.PSD 라이브러리가 도움이 될 것입니다! 이 튜토리얼에서는 PSD 파일에 색조 채도 조정 레이어를 추가하여 작업 흐름을 더욱 생산적이고 효율적으로 만드는 단계를 안내합니다.
 이 가이드에서는 필요한 패키지 가져오기부터 코드 예제의 핵심 세부 정보까지 모든 내용을 다룹니다.
@@ -102,3 +108,9 @@ img.save(psdPathAfterNewLayerChange);
 예, Aspose.PSD를 사용하면 여러 PSD 파일을 자동화하고 일괄 처리할 수 있습니다.
 ### Aspose.PSD는 무료인가요?
 Aspose.PSD는 무료 평가판을 제공하지만 장기간 사용하려면 라이센스가 필요합니다. 가격을 보실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

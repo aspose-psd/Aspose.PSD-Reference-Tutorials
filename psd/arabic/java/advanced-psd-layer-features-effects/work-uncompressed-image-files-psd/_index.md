@@ -3,10 +3,16 @@ title: العمل مع ملفات الصور غير المضغوطة في PSD ب
 linktitle: العمل مع ملفات الصور غير المضغوطة في PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية العمل مع ملفات الصور غير المضغوطة بتنسيق PSD باستخدام Java ومكتبة Aspose.PSD في هذا البرنامج التعليمي الشامل خطوة بخطوة.
-type: docs
 weight: 27
 url: /ar/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع ملفات الصور غير المضغوطة في PSD باستخدام Java
+
 ## مقدمة
 عندما يتعلق الأمر بالعمل مع مستندات Photoshop (PSD) في Java، فمن الضروري فهم كيفية التعامل مع ملفات الصور الغنية هذه وحفظها بفعالية. في هذا البرنامج التعليمي، سنتعمق في استخدام Aspose.PSD، وهي واجهة برمجة تطبيقات قوية تعمل على تبسيط إدارة ملفات PSD، بما في ذلك العمل مع الصور غير المضغوطة. سواء كنت مطورًا يتطلع إلى تحسين تطبيقك باستخدام رسومات غنية أو كنت تريد فقط معالجة ملفات PSD في Java دون أي متاعب، فإن هذا الدليل سيرشدك خلال كل خطوة على الطريق. هل أنت مستعد للبدء؟ دعونا نقفز!
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ Aspose.PSD for Java هي مكتبة Java تسمح للمطورين بالعمل 
  يمكنك التواصل من خلال[Aspose منتدى الدعم](https://forum.aspose.com/c/psd/34) للحصول على المساعدة.
 ### هل يدعم Aspose.PSD الحفظ بتنسيقات أخرى غير PSD؟
 نعم، يسمح Aspose.PSD بالحفظ بتنسيقات مختلفة مثل PNG وJPEG والمزيد، وفقًا لمتطلباتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

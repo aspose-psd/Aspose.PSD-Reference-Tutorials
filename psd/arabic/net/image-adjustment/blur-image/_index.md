@@ -3,10 +3,16 @@ title: طمس صورة في Aspose.PSD لـ .NET
 linktitle: عدم وضوح الصورة
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية تعتيم الصور بسهولة باستخدام Aspose.PSD لـ .NET. دليل خطوة بخطوة لمعالجة الصور بسلاسة في مشاريع C# الخاصة بك.
-type: docs
 weight: 13
 url: /ar/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# طمس صورة في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، يثبت Aspose.PSD أنه حليف قوي لمعالجة الصور. يركز هذا البرنامج التعليمي على مهمة محددة: طمس الصورة باستخدام Aspose.PSD لـ .NET. إذا كنت حريصًا على تحسين مهارات معالجة الصور لديك أو تبحث ببساطة عن طريقة فعالة لطمس الصور برمجيًا، فأنت في المكان الصحيح.
@@ -97,3 +103,9 @@ rasterImage.Save(destName, new GifOptions());
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.PSD؟
 
  ج5: إذا كانت لديك أية استفسارات أو مناقشات، توجه إلى[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

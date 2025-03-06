@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD에 내부 그림자 레이어 효과 추가
 linktitle: Java를 사용하여 PSD에 내부 그림자 레이어 효과 추가
 second_title: Aspose.PSD 자바 API
 description: 팁과 모범 사례가 포함된 이 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에 내부 그림자 효과를 추가하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD에 내부 그림자 레이어 효과 추가
+
 ## 소개
 그래픽 디자인 프로그래밍의 세계로 뛰어들 준비가 되셨나요? 프로그래밍 방식으로 PSD 파일을 조작하고 싶다면 올바른 위치에 오셨습니다! 오늘은 Aspose.PSD for Java를 사용하여 PSD(Photoshop Document)에 내부 그림자 레이어 효과를 추가하는 방법을 살펴보겠습니다. 이 강력한 라이브러리를 통해 Java 개발자는 PSD 파일을 효율적으로 사용하여 간단한 편집부터 복잡한 효과까지 다양한 이미지 조작이 가능합니다.
 ## 전제조건
@@ -102,3 +108,9 @@ Aspose.PSD는 개발자가 레이어 효과, 마스크 및 이미지 속성을 �
 Aspose.PSD는 상용 제품입니다. 그러나 Aspose를 통해 제공되는 무료 평가판을 사용할 수 있습니다.
 ### 추가 문서는 어디서 찾을 수 있나요?  
  Aspose.PSD에 대한 포괄적인 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

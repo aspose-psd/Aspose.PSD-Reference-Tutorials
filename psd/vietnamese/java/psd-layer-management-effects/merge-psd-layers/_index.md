@@ -3,10 +3,16 @@ title: Hợp nhất các lớp PSD với Aspose.PSD cho Java
 linktitle: Hợp nhất các lớp PSD với Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách hợp nhất các lớp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn tự động hóa các tác vụ xử lý hình ảnh.
-type: docs
 weight: 11
 url: /vi/java/psd-layer-management-effects/merge-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất các lớp PSD với Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ tự hỏi làm thế nào các nhà thiết kế đồ họa có được những hình ảnh phức tạp, nhiều lớp đó trong Photoshop chưa? Bí mật thường nằm ở việc quản lý và hợp nhất các lớp trong tệp PSD. Nếu bạn đang làm việc với các tệp PSD trong Java, việc hợp nhất các lớp có thể rất quan trọng để tạo hình ảnh tổng hợp, giảm kích thước tệp hoặc chuẩn bị hình ảnh để xuất. Tuy nhiên, việc giải quyết nhiệm vụ này theo chương trình nghe có vẻ khó khăn. Nhập Aspose.PSD cho Java, bộ công cụ tối ưu của bạn để xử lý các tệp PSD một cách dễ dàng. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn quy trình hợp nhất các lớp PSD bằng Aspose.PSD cho Java. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách thao tác các lớp và lưu hình ảnh cuối cùng ở các định dạng khác nhau—tất cả đều từ bên trong ứng dụng Java của bạn.
@@ -105,3 +111,9 @@ Không, Aspose.PSD cho Java hoạt động độc lập với Photoshop. Nó cho
 
 ### Điều gì xảy ra nếu tôi không đặt tùy chọn hình ảnh trước khi lưu?
 Nếu bạn không đặt tùy chọn hình ảnh, Aspose.PSD cho Java sẽ sử dụng cài đặt mặc định cho định dạng đầu ra. Tuy nhiên, cách tốt nhất là chỉ định các tùy chọn để đảm bảo đầu ra đáp ứng yêu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

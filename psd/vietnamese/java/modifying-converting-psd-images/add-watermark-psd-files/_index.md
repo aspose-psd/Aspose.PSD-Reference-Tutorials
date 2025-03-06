@@ -3,10 +3,16 @@ title: Thêm hình mờ vào tệp PSD bằng Aspose.PSD cho Java
 linktitle: Thêm hình mờ vào tệp PSD bằng Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm hình mờ vào tệp PSD của bạn một cách dễ dàng bằng Aspose.PSD cho Java. Bảo vệ hình ảnh của bạn bằng hướng dẫn từng bước đơn giản.
-type: docs
 weight: 18
 url: /vi/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình mờ vào tệp PSD bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 Hình mờ là một cách tinh tế nhưng hiệu quả để bảo vệ hình ảnh của bạn và truyền đạt quyền sở hữu. Cho dù bạn là một nhiếp ảnh gia giới thiệu portfolio hay một nhà thiết kế đang giới thiệu tác phẩm mới nhất của mình thì việc thêm hình mờ có thể rất quan trọng để duy trì bản sắc thương hiệu của bạn. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm hình mờ vào tệp PSD của bạn một cách dễ dàng bằng Aspose.PSD cho Java. Vì vậy, hãy lấy một tách cà phê, thoải mái và bắt đầu!
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Và bạn có nó! Bạn đã thêm thành công hình mờ vào tệp PSD của
  Có, bạn có thể lưu ở nhiều định dạng khác nhau như JPEG hoặc BMP. Chỉ cần thay thế`PngOptions()` với các tùy chọn mong muốn.
 ### Tôi có thể tìm thêm trợ giúp ở đâu?
  Để được giải đáp chi tiết, bạn có thể truy cập[diễn đàn giả định](https://forum.aspose.com/c/psd/34) hoặc kiểm tra của họ[tài liệu](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

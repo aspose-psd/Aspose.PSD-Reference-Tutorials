@@ -3,10 +3,16 @@ title: Tutoriel d'exportation d'images multithread - Aspose.PSD pour Java
 linktitle: Exporter des images dans un environnement multithread
 second_title: API Java Aspose.PSD
 description: Découvrez la puissance d'Aspose.PSD pour Java pour exporter des images dans un environnement multithread. Élevez les capacités de votre application Java !
-type: docs
 weight: 14
 url: /fr/java/psd-conversion/export-images-multi-thread/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriel d'exportation d'images multithread - Aspose.PSD pour Java
+
 ## Introduction
 Cherchez-vous à améliorer les capacités d'exportation d'images de votre application Java dans un environnement multithread ? Aspose.PSD pour Java est la solution parfaite ! Dans ce didacticiel, nous vous guiderons tout au long du processus d'exportation d'images à l'aide d'Aspose.PSD dans une configuration multithread. Préparez-vous à libérer le potentiel de votre application Java.
 ## Conditions préalables
@@ -75,3 +81,9 @@ Oui, Aspose.PSD prend en charge le multithreading, vous permettant de traiter pl
  Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
  Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

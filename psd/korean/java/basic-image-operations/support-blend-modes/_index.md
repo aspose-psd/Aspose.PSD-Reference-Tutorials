@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 블렌드 모드 지원
 linktitle: 블렌드 모드 지원
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java의 이미지 처리를 향상하세요. 놀라운 효과를 위해 블렌드 모드를 활용하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/java/basic-image-operations/support-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 블렌드 모드 지원
+
 ## 소개
 
 Aspose.PSD for Java는 블렌드 모드에 대한 광범위한 지원을 제공하는 강력한 라이브러리로, 개발자가 이미지 처리 기능을 향상시킬 수 있습니다. 이 튜토리얼에서는 블렌드 모드의 세계를 탐구하고 Java용 Aspose.PSD를 사용하여 블렌드 모드를 효과적으로 활용하는 방법을 탐구합니다. 숙련된 개발자이든 이미지 조작 초보자이든 이 가이드는 Java 애플리케이션에서 블렌드 모드의 잠재력을 최대한 활용할 수 있는 지식을 제공합니다.
@@ -107,3 +113,9 @@ A2: Java용 Aspose.PSD는 대용량 PSD 파일을 효율적으로 처리하도�
 ### Q5: 내 응용 프로그램의 요구 사항에 따라 혼합 모드를 추가로 사용자 정의할 수 있습니까?
 
 A5: 물론이죠! Java용 Aspose.PSD는 유연성을 제공하므로 특정 요구 사항에 따라 블렌드 모드를 사용자 정의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

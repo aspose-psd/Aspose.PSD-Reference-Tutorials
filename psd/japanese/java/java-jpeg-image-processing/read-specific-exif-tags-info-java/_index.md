@@ -3,10 +3,16 @@ title: Javaで特定のEXIFタグ情報を読み取る
 linktitle: Javaで特定のEXIFタグ情報を読み取る
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD 画像から特定の EXIF タグを読み取る方法を、ステップバイステップのチュートリアルで学習します。画像処理スキルを向上させます。
-type: docs
 weight: 19
 url: /ja/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Javaで特定のEXIFタグ情報を読み取る
+
 ## 導入
 Java で PSD ファイルを操作する世界に飛び込んでみませんか? PSD 画像から特定の EXIF タグを読み取る方法を理解したいなら、ここが最適な場所です。このチュートリアルでは、環境の設定から詳細な EXIF データの抽出まで、Aspose.PSD for Java を使用したプロセス全体を順を追って説明します。さあ、始めましょう!
 ## 前提条件
@@ -71,3 +77,9 @@ EXIF (Exchangeable Image File Format) データは、画像ファイル内に埋
 Aspose.PSD は、PSD、PSB など、さまざまな Adobe Photoshop 形式をサポートしています。また、これらの形式を PNG、JPEG、TIFF などの他の形式に変換するオプションも提供します。
 ### Aspose.PSD のサポートを受けるにはどうすればよいですか?
  Aspose.PSDを通じてサポートを受けることができます[フォーラム](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

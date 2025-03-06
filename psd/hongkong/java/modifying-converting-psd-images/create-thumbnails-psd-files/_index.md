@@ -3,10 +3,16 @@ title: 使用 Java 從 PSD 檔案建立縮圖
 linktitle: 使用 Java 從 PSD 檔案建立縮圖
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Java 和 Aspose.PSD 輕鬆地從 PSD 檔案建立縮圖。請遵循我們的無縫影像處理逐步指南。
-type: docs
 weight: 24
 url: /zh-hant/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 從 PSD 檔案建立縮圖
+
 ## 介紹
 在圖形設計領域，使用 PSD（Photoshop 文件）檔案是很常見的。無論您是經驗豐富的開發人員、圖形設計師，還是只是想深入研究影像處理，從 PSD 檔案建立縮圖都可以節省您的時間並簡化您的工作流程。本教學將引導您完成使用 Aspose.PSD for Java 的整個過程。 Aspose.PSD 不僅是一個用於管理 Photoshop 檔案的強大庫，而且還使手頭上的任務直觀且易於管理。您準備好學習如何有效率地從 PSD 檔案建立縮圖了嗎？
 ## 先決條件
@@ -112,3 +118,9 @@ Aspose.PSD 是一個 Java 程式庫，可讓開發人員使用 Photoshop 文件�
 不，Aspose.PSD 獨立於 Photoshop 工作。
 ### 在哪裡可以找到有關 Aspose.PSD 的更多資訊？
 您可以查看[Aspose.PSD 文檔](https://reference.aspose.com/psd/java/)了解更多詳細資訊、教學和資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

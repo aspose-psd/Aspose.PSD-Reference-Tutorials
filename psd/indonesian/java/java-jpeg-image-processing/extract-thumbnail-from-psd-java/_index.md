@@ -3,10 +3,16 @@ title: Ekstrak Thumbnail dari PSD di Java
 linktitle: Ekstrak Thumbnail dari PSD di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengekstrak thumbnail dari file PSD menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah ini mencakup semuanya mulai dari pengaturan hingga menyimpan gambar yang diekstraksi.
-type: docs
 weight: 15
 url: /id/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Thumbnail dari PSD di Java
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengekstrak thumbnail dari file PSD menggunakan Aspose.PSD untuk Java. Thumbnail dapat berguna untuk pratinjau cepat atau untuk membuat versi gambar lebih kecil yang tertanam dalam dokumen PSD. Mari selami langkah-langkah yang diperlukan untuk mencapai hal ini menggunakan Aspose.PSD.
 ## Prasyarat
@@ -73,3 +79,9 @@ Aspose.PSD adalah perpustakaan Java yang memungkinkan pengembang untuk bekerja d
  Lisensi sementara dapat diperoleh dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Apakah Aspose.PSD cocok untuk penggunaan komersial?
 Ya, Aspose.PSD dapat digunakan untuk proyek pribadi dan komersial berdasarkan ketentuan lisensinya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

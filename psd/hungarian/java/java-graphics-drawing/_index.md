@@ -3,10 +3,16 @@ title: Java grafikus rajz
 linktitle: Java grafikus rajz
 second_title: Aspose.PSD Java API
 description: Fedezze fel az Aspose.PSD for Java oktatóanyagát a grafikus rajzokról. Ismerje meg a körvonalak hozzáadását, alakzatok rajzolását és a PSD-fájlok kezelését lépésről lépésre.
-type: docs
 weight: 20
 url: /hu/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java grafikus rajz
+
 
 ## Bevezetés
 
@@ -75,3 +81,9 @@ Tanuljon meg téglalapokat rajzolni a képekre az Aspose.PSD for Java segítség
 Ismerje meg, hogyan rajzolhat grafikát Java nyelven az Aspose.PSD használatával lépésről lépésre. Hozzon létre formákat, alkalmazzon színeket, és könnyedén exportálja a képeket.
 ### [Rajzolás Graphics Path használatával Java nyelven](./drawing-using-graphics-path/)
 Ismerje meg, hogyan hozhat létre összetett grafikákat Java nyelven az Aspose.PSD Graphics Path osztályával. Ez az oktatóanyag végigvezeti Önt a lenyűgöző képalkotás minden lépésén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

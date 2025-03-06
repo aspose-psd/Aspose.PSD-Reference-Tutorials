@@ -3,10 +3,16 @@ title: Java を使用して PSD ファイル内の Lspf リソースをサポー
 linktitle: Java を使用して PSD ファイル内の Lspf リソースをサポートする
 second_title: Aspose.PSD Java API
 description: ステップバイステップ ガイドに従って、Aspose.PSD for Java を使用して PSD ファイル内の Lspf リソースをサポートおよび操作する方法を習得します。
-type: docs
 weight: 14
 url: /ja/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PSD ファイル内の Lspf リソースをサポートする
+
 ## 導入
 
 PSD ファイルの操作の世界に飛び込みたい開発者ですか? まさに、正しい場所に来ました! PSD ファイルを操作する場合、LspfResource などのさまざまなレイヤー リソースを処理する必要があることがよくあります。このリソースは、PSD ファイル内の合成、位置、透明度の保護などのレイヤー保護設定を管理するために不可欠です。この包括的なチュートリアルでは、Aspose.PSD for Java を使用して、Java で PSD ファイル内の LspfResource をサポートおよび操作する方法を説明します。
@@ -182,3 +188,9 @@ PSD ファイル内の LspfResource は、合成、位置、透明度の保護�
 
 ### ファイルを保存した後、LspfResource に加えた変更を元に戻すことはできますか?  
 ファイルを保存すると、変更を直接元に戻すことはできません。ただし、必要に応じて元のファイルを再読み込みして変更を再度適用することはできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

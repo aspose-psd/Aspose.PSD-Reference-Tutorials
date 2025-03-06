@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中新增圖案效果
 linktitle: 為影像添加圖案效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 透過迷人的圖案效果增強影像。按照我們的逐步指南無縫添加自訂圖案。
-type: docs
 weight: 12
 url: /zh-hant/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中新增圖案效果
+
 ## 介紹
 
 透過圖案效果增強影像可以為您的設計帶來新的維度。 Aspose.PSD for .NET 提供了一個強大的解決方案，可以將圖案疊加無縫添加到圖像中，從而使您能夠創建視覺上令人驚嘆的圖形。本逐步教學將引導您完成使用 Aspose.PSD for .NET 新增圖案效果的過程。
@@ -108,3 +114,9 @@ A4: 圖案尺寸靈活，讓您可以創建各種尺寸的圖案。
 ### Q5：我可以在商業專案中使用Aspose.PSD for .NET嗎？
 
 A5：是的，您可以在商業專案中使用Aspose.PSD for .NET。有關許可詳細信息，請訪問[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

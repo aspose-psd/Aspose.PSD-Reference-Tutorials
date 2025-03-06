@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中设置 PNG 透明度
 linktitle: 在 Aspose.PSD for Java 中设置 PNG 透明度
 second_title: Aspose.PSD Java API
 description: 通过简单的分步教程学习如何在 Aspose.PSD for Java 中设置 PNG 透明度。非常适合开发人员和图形设计师。
-type: docs
 weight: 15
 url: /zh/java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中设置 PNG 透明度
+
 ## 介绍
 在处理和管理图形时，尤其是在专业环境中，选择正确的工具至关重要。在图形处理领域，一个脱颖而出的工具是 Aspose.PSD for Java。该库允许开发人员在其 Java 应用程序中无缝处理 Photoshop (PSD) 文件。这就像拥有 Photoshop 的强大功能一样触手可及，而无需陡峭的学习曲线！今天，我们将深入研究一项特定功能：使用 Aspose.PSD for Java 设置 PNG 透明度。无论您是经验丰富的开发人员还是刚刚入门，本指南都将引导您完成这些步骤。
 ## 先决条件
@@ -67,3 +73,9 @@ Aspose.PSD for Java 是一个库，允许开发人员在 Java 应用程序中使
 您可以访问[Aspose 支持论坛](https://forum.aspose.com/c/psd/34)寻求援助和社区支持。
 ### 我可以设置多种透明颜色吗？
 目前，该库允许您为每个 PNG 图像设置一种透明颜色。但是，如果需要，您可以在导出之前操作 PSD 文件中的各个图层。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

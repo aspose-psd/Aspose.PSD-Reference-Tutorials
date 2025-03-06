@@ -3,10 +3,16 @@ title: Hur man lägger till Stroke Layer Pattern i Java
 linktitle: Hur man lägger till Stroke Layer Pattern i Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du lägger till ett strecklagermönster till PSD-filer med Aspose.PSD för Java. Följ denna steg-för-steg-guide för att enkelt förbättra dina bilder.
-type: docs
 weight: 11
 url: /sv/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hur man lägger till Stroke Layer Pattern i Java
+
 ## Introduktion
 Att lägga till ett strecklagermönster till en bild i Java kan låta som en skrämmande uppgift, men med Aspose.PSD för Java är det enklare än du tror. Oavsett om du designar grafik eller arbetar med fotoredigeringsapplikationer, kommer den här guiden att leda dig genom processen steg för steg. Redo att börja? Låt oss dyka in!
 ## Förutsättningar
@@ -138,3 +144,9 @@ Aspose.PSD för Java är ett bibliotek som låter utvecklare skapa, redigera och
  Du kan få stöd från Asposes communityforum[här](https://forum.aspose.com/c/psd/34).
 ### Vilka är systemkraven för Aspose.PSD för Java?
 Du behöver JDK installerat och en IDE för utveckling. Biblioteket stöder flera operativsystem inklusive Windows, Linux och macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter un calque de réglage de la saturation de la teinte au PSD
 linktitle: Ajouter un calque de réglage de la saturation de la teinte au PSD
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter des couches de réglage de saturation de teinte au PSD à l'aide d'Aspose.PSD pour Java dans ce didacticiel complet, étape par étape. Améliorez votre flux de travail de conception graphique.
-type: docs
 weight: 14
 url: /fr/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un calque de réglage de la saturation de la teinte au PSD
+
 ## Introduction
 En matière de conception graphique, la manipulation des couleurs joue un rôle central : en particulier, modifier la teinte, la saturation et la luminosité peut transformer radicalement l'ambiance et la qualité de n'importe quelle image. Un moyen efficace d’y parvenir consiste à utiliser des calques de réglage dans Photoshop (fichiers PSD). Si vous souhaitez améliorer vos fichiers PSD par programmation à l'aide de Java, la bibliothèque Aspose.PSD est là pour vous aider ! Ce didacticiel vous guidera à travers les étapes pour ajouter un calque de réglage de saturation de teinte à vos fichiers PSD, rendant ainsi vos flux de travail plus productifs et efficaces.
 Dans ce guide, nous aborderons tout, de l'importation des packages nécessaires aux détails essentiels des exemples de code.
@@ -102,3 +108,9 @@ Non, Aspose.PSD est une bibliothèque autonome qui fonctionne indépendamment de
 Oui, vous pouvez automatiser et traiter par lots plusieurs fichiers PSD avec Aspose.PSD.
 ### Aspose.PSD est-il gratuit ?
 Aspose.PSD propose un essai gratuit, mais une licence est requise pour une utilisation à long terme. Vous pouvez consulter les prix[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

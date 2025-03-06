@@ -3,10 +3,16 @@ title: Técnicas de desenho PSD
 linktitle: Técnicas de desenho PSD
 second_title: API Aspose.PSD .NET
 description: Desbloqueie o potencial do Aspose.PSD para .NET com nossos tutoriais! Domine os principais recursos de desenho, crie gráficos impressionantes e aprimore suas habilidades de manipulação de imagens.
-type: docs
 weight: 28
 url: /pt/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Técnicas de desenho PSD
+
 
 ## Introdução
 
@@ -61,3 +67,9 @@ Explore a arte de desenhar retângulos em .NET com Aspose.PSD. Siga nosso guia p
 Desbloqueie seu potencial artístico com Aspose.PSD para .NET! Siga nosso tutorial para desenho criativo usando gráficos.
 ### [Implementando Desenho com GraphicsPath em Aspose.PSD para .NET](./implementing-drawing-with-graphicspath/)
 Explore o poder do Aspose.PSD para .NET neste tutorial passo a passo sobre desenho com GraphicsPath. Aprimore seus aplicativos .NET com manipulação avançada de arquivos do Photoshop.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

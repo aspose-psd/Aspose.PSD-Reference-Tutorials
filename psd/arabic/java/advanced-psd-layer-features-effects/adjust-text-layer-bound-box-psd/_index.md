@@ -3,10 +3,16 @@ title: ضبط مربع ربط طبقة النص في PSD باستخدام Java
 linktitle: ضبط مربع ربط طبقة النص في PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية ضبط حدود طبقة النص في ملفات PSD باستخدام Java مع Aspose.PSD. دليل بسيط مع تعليمات خطوة بخطوة.
-type: docs
 weight: 25
 url: /ar/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط مربع ربط طبقة النص في PSD باستخدام Java
+
 ## مقدمة
 عندما يتعلق الأمر بمعالجة مستندات Photoshop برمجيًا، فإن مكتبة Aspose.PSD الخاصة بـ Java تتألق بشكل مشرق. إذا كنت تتطلع إلى ضبط حدود طبقة النص في ملف PSD، فقد وصلت إلى المكان الصحيح! سيأخذك هذا البرنامج التعليمي خطوة بخطوة خلال عملية ضبط المربع المرتبط بطبقة النص باستخدام Java.
 من خلال الأمثلة سهلة المتابعة ولمسة من نغمة المحادثة لإبقاء الأمور جذابة، ستجد أن التعامل مع ملفات PSD ليس أمرًا شاقًا كما قد يبدو. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Java، فستجد رؤى قيمة هنا. دعونا نتعمق في عالم معالجة PSD المثير.
@@ -80,3 +86,9 @@ Aspose.PSD هي مكتبة قوية لمعالجة ملفات Adobe Photoshop ب
 يمكنك العثور على الدعم ومناقشات المجتمع على[منتدى أسبوز](https://forum.aspose.com/c/psd/34).
 ### هل هناك نسخة تجريبية متاحة لـ Aspose.PSD؟
  نعم! يمكنك تنزيل نسخة تجريبية مجانية من[موقع أسبوز](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

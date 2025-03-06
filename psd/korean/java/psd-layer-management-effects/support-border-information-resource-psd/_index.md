@@ -3,10 +3,16 @@ title: PSD에서 국경 정보 리소스 지원 - Java
 linktitle: PSD에서 국경 정보 리소스 지원 - Java
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일의 마스터 테두리 조작. 따라하기 쉬운 단계를 통해 테두리 너비, 단위 등을 수정하는 방법을 알아보세요. 프로그래밍 방식으로 PSD 디자인을 향상하세요.
-type: docs
 weight: 23
 url: /ko/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에서 국경 정보 리소스 지원 - Java
+
 ## 소개
 
 프로그래밍 방식으로 PSD 파일의 성가신 테두리를 조정해야 한다고 느낀 적이 있습니까? 이제 더 이상 걱정하지 마세요! Java용 Aspose.PSD가 PSD 파일 내의 국경 정보 리소스를 조작할 수 있는 강력하고 사용자 친화적인 방법을 제공하여 구출되었습니다. 이 포괄적인 가이드는 프로세스를 단계별로 안내하여 이전과는 전혀 다른 방식으로 국경을 통제할 수 있도록 지원합니다.
@@ -136,3 +142,9 @@ Aspose.PSD는 성능에 최적화되어 있지만 대용량 PSD 파일을 처리
 ### 자세한 정보와 지원은 어디서 찾을 수 있나요?
 
 Java용 Aspose.PSD 문서는 API 및 해당 기능에 대한 심층적인 세부 정보를 제공하는 훌륭한 리소스입니다. Aspose 포럼을 방문하여 도움을 받고 다른 개발자와 상호 작용할 수도 있습니다. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

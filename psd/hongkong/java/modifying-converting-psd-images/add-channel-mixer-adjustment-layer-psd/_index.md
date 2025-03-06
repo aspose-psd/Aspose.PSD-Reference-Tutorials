@@ -3,10 +3,16 @@ title: 在 PSD 中加入通道混合器調整圖層
 linktitle: 在 PSD 中加入通道混合器調整圖層
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 透過通道混合器調整圖層增強您的 PSD 檔案。逐步學習色彩處理技術以獲得充滿活力的影像。
-type: docs
 weight: 10
 url: /zh-hant/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 中加入通道混合器調整圖層
+
 ## 介紹
 平面設計的世界充滿了可能性，但有時，獲得完美的外觀就像在沒有地圖的情況下漫步在茂密的森林中一樣。您是否曾經覺得您的影像缺乏那種「哇」的因素？好吧，這就是調整圖層發揮作用的地方！今天，我們將深入研究如何使用 Aspose.PSD for Java 新增通道混合器調整圖層。這是一個漂亮的工具，可讓您對 PSD 檔案進行精確的色彩調整，確保您的影像引人注目且令人印象深刻。
 
@@ -167,3 +173,9 @@ Aspose.PSD 主要設計用於處理 PSD 文件，但 Aspose 套件包含適用�
 
 ### 有沒有辦法取得 Aspose.PSD 的臨時授權？
 是的！您可以申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Пропорционально измените размер изобра
 linktitle: Измените размер изображения пропорционально
 second_title: Aspose.PSD Java API
 description: Улучшите свои Java-приложения с помощью Aspose.PSD. Следуйте нашему руководству, чтобы легко и пропорционально изменить размер изображений. Расширьте свои возможности обработки изображений уже сегодня.
-type: docs
 weight: 17
 url: /ru/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Пропорционально измените размер изображения с помощью Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по пропорциональному изменению размера изображений с помощью Aspose.PSD для Java. Если вы хотите улучшить свои Java-приложения с помощью эффективных возможностей изменения размера изображений, вы попали по адресу. В этом уроке мы покажем вам весь процесс, используя четкие и краткие шаги.
@@ -92,3 +98,9 @@ image.save(destName, new PngOptions());
 
  A5: обратитесь к подробной документации.[здесь](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

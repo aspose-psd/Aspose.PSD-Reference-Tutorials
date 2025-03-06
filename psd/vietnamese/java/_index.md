@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.PSD cho Java
 linktitle: Aspose.PSD cho các hướng dẫn Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Khai phá sức mạnh của Aspose.PSD cho Java trong xử lý ảnh! Các bộ lọc chính như Gaussian, Wiener, Median và Motion Wiener với hướng dẫn từng bước.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.PSD cho Java
+
 
 ## Giới thiệu
 
@@ -86,3 +91,9 @@ Khám phá các tính năng và hiệu ứng lớp PSD nâng cao với Aspose.PS
 Quản lý hiệu quả hình ảnh TIFF bằng Aspose.PSD cho Java. Tìm hiểu cách nén, định cấu hình và áp dụng tính năng nén Adobe Deflate cho các tệp TIFF bằng hướng dẫn từng bước của chúng tôi.
 ### [Làm việc với tệp PSD](./working-with-psd-files/)
 Khám phá các hướng dẫn toàn diện về Aspose.PSD cho Java, bao gồm cách xuất các nhóm lớp PSD sang hình ảnh và thao tác các tài nguyên Clbl, Infx và Lspf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

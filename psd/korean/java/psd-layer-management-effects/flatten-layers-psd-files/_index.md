@@ -3,10 +3,16 @@ title: Aspose.PSD Java를 사용하여 PSD 파일의 레이어 병합
 linktitle: Aspose.PSD Java를 사용하여 PSD 파일의 레이어 병합
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일의 레이어를 쉽게 병합하고 병합할 수 있습니다. PSD 파일 관리를 단순화하려면 이 단계별 가이드를 따르십시오.
-type: docs
 weight: 13
 url: /ko/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java를 사용하여 PSD 파일의 레이어 병합
+
 ## 소개
 
 Photoshop 파일로 작업하면서 복잡한 레이어를 더 쉽게 관리할 수 있는 방법을 원한 적이 있습니까? 글쎄, 당신은 운이 좋다! 오늘 우리는 PSD 파일을 프로그래밍 방식으로 쉽게 작업할 수 있게 해주는 강력한 도구인 Java용 Aspose.PSD의 세계에 대해 알아봅니다. 우리가 살펴볼 편리한 기능 중 하나는 레이어를 병합하는 것입니다. 전체 이미지를 병합하려는 경우나 특정 레이어를 선택적으로 병합하려는 경우 Java용 Aspose.PSD를 사용하면 됩니다. 이 튜토리얼에서는 프로세스를 단계별로 안내하여 PSD 파일을 자신 있게 다룰 수 있도록 준비합니다.
@@ -150,3 +156,9 @@ PSD 파일의 레이어 작업은 종종 미로를 탐색하는 것처럼 느껴
 
 ### 인접하지 않은 레이어를 병합하려고 하면 어떻게 되나요?  
 Aspose.PSD를 사용하면 레이어 스택의 순서에 관계없이 모든 레이어를 병합할 수 있습니다. 병합 프로세스는 선택한 레이어를 지정된 대로 결합합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

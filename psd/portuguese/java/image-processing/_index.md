@@ -3,10 +3,16 @@ title: Processamento de imagem
 linktitle: Processamento de imagem
 second_title: API Java Aspose.PSD
 description: Desbloqueie o potencial do Aspose.PSD para Java no processamento de imagens. Aprenda a aplicar os filtros Gaussiano, Wiener, Mediana e Motion Wiener passo a passo.
-type: docs
 weight: 20
 url: /pt/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Processamento de imagem
+
 ## Introdução
 
 O processamento de imagens se torna uma jornada emocionante com Aspose.PSD for Java, um kit de ferramentas que capacita os desenvolvedores a aprimorar o conteúdo visual. De técnicas fundamentais a processos avançados, esta série de tutoriais investiga os recursos que tornam o Aspose.PSD uma solução ideal para processamento de imagens Java.
@@ -57,3 +63,9 @@ Explore a binarização com Otsu Threshold em Aspose.PSD para Java. Uma poderosa
 Melhore a qualidade da imagem com Bradley Thresholding em Aspose.PSD para Java. Siga nosso guia passo a passo para uma binarização de imagens eficaz.
 ### [Cortar arquivo PSD usando Aspose.PSD para Java](./crop-psd-file/)
 Explore o corte perfeito de arquivos PSD em Java com Aspose.PSD. Integre facilmente precisão e eficiência em suas tarefas de manipulação de imagens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

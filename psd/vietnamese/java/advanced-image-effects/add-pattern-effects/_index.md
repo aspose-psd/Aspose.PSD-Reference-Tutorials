@@ -3,10 +3,16 @@ title: Thêm hiệu ứng mẫu trong Aspose.PSD cho Java
 linktitle: Thêm hiệu ứng mẫu
 second_title: API Java Aspose.PSD
 description: Dễ dàng nâng cao các mẫu hình ảnh Java của bạn với Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để thêm các hiệu ứng hoa văn quyến rũ.
-type: docs
 weight: 12
 url: /vi/java/advanced-image-effects/add-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng mẫu trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, việc nâng cao các mẫu hình ảnh là một nhiệm vụ phổ biến và Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ cho việc này. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm hiệu ứng mẫu bằng Aspose.PSD, đảm bảo rằng hình ảnh của bạn nổi bật với các lớp phủ và cải tiến độc đáo.
@@ -138,3 +144,9 @@ Câu trả lời 1: Aspose.PSD cho Java được thiết kế để hoạt độ
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.PSD cho Java không?
 
 A5: Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

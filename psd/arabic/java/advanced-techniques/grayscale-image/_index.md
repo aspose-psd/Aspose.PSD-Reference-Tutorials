@@ -3,10 +3,16 @@ title: تدرج الرمادي في الصورة باستخدام Aspose.PSD ل�
 linktitle: تدرج الرمادي صورة
 second_title: Aspose.PSD جافا API
 description: استكشف Aspose.PSD لـ Java وتعرف على كيفية تدرج الصور الرمادية بسهولة من خلال برنامجنا التعليمي خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تدرج الرمادي في الصورة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مجال معالجة الصور، يعد تحويل الصورة إلى التدرج الرمادي عملية أساسية. يوفر Aspose.PSD for Java حلاً قويًا لمطوري Java لتحقيق ذلك بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تغيير التدرج الرمادي للصورة باستخدام Aspose.PSD، مما يضمن أنه حتى المبتدئين يمكنهم المتابعة دون عناء.
@@ -104,3 +110,9 @@ rasterCachedImage.save(destName, new JpegOptions());
 ### س5: هل تحتاج إلى دعم أو لديك أسئلة؟
 
  ج5: قم بزيارة منتدى Aspose.PSD[هنا](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

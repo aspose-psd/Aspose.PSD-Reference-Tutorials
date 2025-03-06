@@ -3,10 +3,16 @@ title: Tambahkan Thumbnail ke Segmen JFIF di Java
 linktitle: Tambahkan Thumbnail ke Segmen JFIF di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan thumbnail ke gambar PSD di Java menggunakan Aspose.PSD langkah demi langkah. Ideal untuk pengembang Java yang ingin meningkatkan kemampuan pemrosesan gambar.
-type: docs
 weight: 11
 url: /id/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Thumbnail ke Segmen JFIF di Java
+
 ## Perkenalan
 Dalam bidang pengembangan Java, mengintegrasikan kemampuan pemrosesan gambar sangat penting untuk berbagai aplikasi, mulai dari manipulasi gambar sederhana hingga tugas desain grafis yang kompleks. Aspose.PSD untuk Java menonjol sebagai perpustakaan canggih yang dirancang untuk menangani file PSD (Dokumen Photoshop) dengan mudah. Tutorial ini berfokus pada tugas tertentu: menambahkan thumbnail ke segmen JFIF pada gambar menggunakan Aspose.PSD untuk Java. Di akhir panduan ini, Anda akan mempelajari cara melakukannya langkah demi langkah, memastikan Anda memahami setiap bagian secara menyeluruh.
 ## Prasyarat
@@ -90,3 +96,9 @@ Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang Java mema
  Ya, Anda dapat mengunduh uji coba gratis dari[Halaman unduh uji coba Aspose.PSD](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk Java?
  Untuk dukungan, kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

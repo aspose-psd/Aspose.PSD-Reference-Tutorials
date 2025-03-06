@@ -3,10 +3,16 @@ title: छवि हेरफेर
 linktitle: छवि हेरफेर
 second_title: Aspose.PSD .NET एपीआई
 description: Aspose.PSD के साथ अपने .NET प्रोजेक्ट को उन्नत करें! संयोजन, क्रॉपिंग, आकार बदलने, घुमाने और प्रभाव जोड़ने जैसी छवि हेरफेर तकनीकों को आसानी से सीखें।
-type: docs
 weight: 26
 url: /hi/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि हेरफेर
+
 ## परिचय
 
 .NET के साथ काम करने वाले किसी भी डेवलपर या डिज़ाइनर के लिए इमेज मैनिपुलेशन एक महत्वपूर्ण कौशल है, और .NET के लिए Aspose.PSD आपकी क्षमताओं को बढ़ाने के लिए एक शक्तिशाली टूलकिट प्रदान करता है। इस ट्यूटोरियल में, हम विभिन्न इमेज मैनिपुलेशन तकनीकों पर चर्चा करेंगे जिन्हें उपयोग करके सहजता से लागू किया जा सकता है।[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ ObAr और UnFl सिग्नेचर को सपोर्ट करने
 .NET के लिए Aspose.PSD में ग्रेडिएंट ओवरले इफ़ेक्ट रेंडर करने की कला में महारत हासिल करें। इस चरण-दर-चरण ट्यूटोरियल के साथ अपने ग्राफ़िक डिज़ाइन कौशल को बढ़ाएँ।
 ### [.NET के लिए Aspose.PSD में ग्रेडिएंट ओवरले प्रभाव का समर्थन करना](./supporting-gradient-overlay-effect/)
 Aspose.PSD के साथ .NET में ग्राफ़िक्स को बेहतर बनाएँ। यह ट्यूटोरियल आपको ग्रेडिएंट ओवरले इफ़ेक्ट का समर्थन करने में मार्गदर्शन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

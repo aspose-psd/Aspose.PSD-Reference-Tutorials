@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 흑백 리소스 지원
 linktitle: 흑백(Blwh) 리소스 지원
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 고급 이미지 편집을 살펴보세요. 이미지 요소를 정밀하게 제어하기 위해 흑백 조정 레이어를 마스터하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 흑백 리소스 지원
+
 ## 소개
 디지털 미디어의 역동적인 세계에서 이미지 편집은 매력적인 영상을 만드는 데 중추적인 역할을 합니다. .NET용 Aspose.PSD는 개발자가 이미지 조작 기능을 한 단계 더 발전시킬 수 있도록 지원합니다. 이 튜토리얼에서는 Aspose.PSD의 흑백 조정 레이어 지원을 살펴보고 이미지를 정밀하게 미세 조정할 수 있습니다.
 ## 전제조건
@@ -89,3 +95,9 @@ A2: 물론이죠! Aspose.PSD를 사용하면 여러 조정 레이어를 쌓아�
 ### Q5: 흑백 조정을 테스트하는 데 사용할 수 있는 샘플 이미지가 있습니까?
 
 A5: 예, Aspose.PSD 설명서에서 샘플 이미지를 찾을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

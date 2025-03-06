@@ -3,10 +3,16 @@ title: Detecteer afgeplatte PSD-bestanden met Aspose.PSD voor Java
 linktitle: Detecteer afgeplatte PSD-bestanden met Aspose.PSD voor Java
 second_title: Aspose.PSD Java-API
 description: Leer stap voor stap hoe u afgeplatte PSD-bestanden kunt detecteren met Aspose.PSD voor Java in deze uitgebreide zelfstudie.
-type: docs
 weight: 10
 url: /nl/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detecteer afgeplatte PSD-bestanden met Aspose.PSD voor Java
+
 ## Invoering
 
 Welkom in de wereld van PSD-bestandsmanipulatie (Photoshop Document) met Aspose.PSD voor Java! Als u ooit met lagen in Photoshop-bestanden heeft moeten werken, maar niet wist waar u moest beginnen, bent u hier op de juiste plek. In deze zelfstudie gaan we dieper in op hoe u kunt detecteren of een PSD-bestand is afgevlakt met behulp van Aspose.PSD. Het afvlakken van een PSD betekent dat alle lagen worden samengevoegd tot één enkele, uniforme laag, wat het achteraf bewerken een beetje lastig kan maken. Aan het einde van deze handleiding bent u in staat om dit cruciale aspect van uw PSD-bestanden te controleren. Ga zitten, pak je koffie en laten we erin duiken!
@@ -77,3 +83,9 @@ Ja! Aspose.PSD kan verschillende beeldformaten verwerken en biedt uitgebreide fu
 
 ### Is er een manier om Aspose.PSD gratis te testen?
  Absoluut! U kunt een gratis proefperiode starten door een proefversie te downloaden van[deze koppeling](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

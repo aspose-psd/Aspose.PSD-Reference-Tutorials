@@ -3,10 +3,16 @@ title: Podpora SoCo Resource v souborech PSD pomocí Java
 linktitle: Podpora SoCo Resource v souborech PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Naučte se manipulovat se zdroji SoCo v souborech PSD pomocí Aspose.PSD for Java pomocí tohoto podrobného tutoriálu.
-type: docs
 weight: 22
 url: /cs/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora SoCo Resource v souborech PSD pomocí Java
+
 ## Zavedení
 Práce se soubory PSD může být trochu jako navigace ve složitém labyrintu, zvláště pokud se noříte do složitosti vrstev a zdrojů. Naštěstí nástroje jako Aspose.PSD for Java mohou tento proces zjednodušit a umožnit vývojářům manipulovat se soubory Photoshopu programově. V tomto tutoriálu si projdeme, jak podporovat zdroje SoCo v souborech PSD pomocí Javy, což vám hodně usnadní život. 
 Ať už jste ostřílený vývojář nebo si jen namočíte nohy do světa zpracování obrazu, tento průvodce zbaví složitosti do stravitelných kroků a zajistí, že svou cestu dokončíte se solidním porozuměním.
@@ -111,3 +117,9 @@ Aspose.PSD for Java je knihovna, která umožňuje vývojářům manipulovat se 
  Ano, existuje vyhrazená[fórum podpory](https://forum.aspose.com/c/psd/34).
 ### jakými typy zdrojů mohu v souboru PSD manipulovat?
 V souboru PSD můžete manipulovat s různými prostředky, včetně vrstev, vrstev výplně a prostředků SoCo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

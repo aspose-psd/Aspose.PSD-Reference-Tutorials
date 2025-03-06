@@ -3,10 +3,16 @@ title: Techniky kreslení PSD
 linktitle: Techniky kreslení PSD
 second_title: Aspose.PSD .NET API
 description: Odemkněte potenciál Aspose.PSD pro .NET pomocí našich výukových programů! Zvládněte základní rysy kreslení, vytvářejte úžasnou grafiku a zdokonalte své dovednosti v manipulaci s obrázky.
-type: docs
 weight: 28
 url: /cs/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Techniky kreslení PSD
+
 
 ## Zavedení
 
@@ -61,3 +67,9 @@ Prozkoumejte umění kreslení obdélníků v .NET s Aspose.PSD. Postupujte podl
 Odemkněte svůj umělecký potenciál s Aspose.PSD pro .NET! Postupujte podle našeho návodu pro kreativní kreslení pomocí grafiky.
 ### [Implementace kreslení pomocí GraphicsPath v Aspose.PSD pro .NET](./implementing-drawing-with-graphicspath/)
 Prozkoumejte sílu Aspose.PSD pro .NET v tomto podrobném tutoriálu o kreslení pomocí GraphicsPath. Vylepšete své aplikace .NET pomocí pokročilé manipulace se soubory Photoshopu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

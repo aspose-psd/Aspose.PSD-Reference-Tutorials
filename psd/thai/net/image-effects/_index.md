@@ -3,10 +3,16 @@ title: เอฟเฟ็กต์ภาพ
 linktitle: เอฟเฟ็กต์ภาพ
 second_title: Aspose.PSD .NET API
 description: การปรับปรุงรูปภาพไดนามิกหลักใน Aspose.PSD สำหรับ .NET ยกระดับการประมวลผลภาพของคุณด้วยบทช่วยสอนเกี่ยวกับการเพิ่ม การซ้อนทับ และการเรนเดอร์เอฟเฟกต์อันน่าทึ่ง ณ รันไทม์
-type: docs
 weight: 25
 url: /th/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เอฟเฟ็กต์ภาพ
+
 
 ## การแนะนำ
 
@@ -34,3 +40,9 @@ url: /th/net/image-effects/
 สำรวจความมหัศจรรย์ของ Aspose.PSD สำหรับ .NET ด้วยบทช่วยสอนของเราเกี่ยวกับเอฟเฟกต์สีซ้อนทับ ยกระดับเกมการประมวลผลภาพของคุณอย่างง่ายดาย
 ### [การแสดงเอฟเฟกต์ Drop Shadow ใน Aspose.PSD สำหรับ .NET](./render-drop-shadow/)
 สำรวจพลังของ Aspose.PSD สำหรับ .NET ในบทช่วยสอนนี้ ฝึกฝนศิลปะแห่งการเรนเดอร์เอฟเฟกต์เงาตกกระทบที่น่าหลงใหล
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: A PSD kép idővonalának kezelése az Aspose.PSD for .NET-ben
 linktitle: A PSD kép idővonalának kezelése
 second_title: Aspose.PSD .NET API
 description: Tanulja meg könnyedén kezelni a PSD-képek idővonalait az Aspose.PSD for .NET segítségével. Adjon hozzá kereteket, váltson zökkenőmentesen, és javítsa képszerkesztési készségeit.
-type: docs
 weight: 17
 url: /hu/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A PSD kép idővonalának kezelése az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 A képfeldolgozás dinamikus világában az Aspose.PSD for .NET hatékony eszköztárként tűnik ki, amely robusztus megoldásokat kínál a PSD-képek idővonalainak kezelésére. Akár tapasztalt fejlesztő, akár kódolás-rajongó, ez az oktatóanyag végigvezeti Önt az Aspose.PSD használatával a képek idővonalainak egyszerű manipulálásához.
 ## Előfeltételek
@@ -80,3 +86,9 @@ Gratulálok! Sikeresen navigált a PSD-képek idővonalainak kezelésének bonyo
 ### 5. kérdés: Segítségre van szüksége, vagy kérdései vannak?
 
  5. válasz: Látogassa meg az Aspose.PSD közösségi fórumot[itt](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

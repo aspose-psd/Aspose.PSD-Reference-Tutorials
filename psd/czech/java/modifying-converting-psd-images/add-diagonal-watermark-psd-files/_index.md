@@ -3,10 +3,16 @@ title: Přidejte diagonální vodoznak do souborů PSD pomocí Java
 linktitle: Přidejte diagonální vodoznak do souborů PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak snadno přidat diagonální vodoznak do souborů PSD pomocí Java s Aspose.PSD. Podrobný průvodce, jak své snímky sebevědomě vylepšit.
-type: docs
 weight: 12
 url: /cs/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte diagonální vodoznak do souborů PSD pomocí Java
+
 ## Zavedení
 V dnešním digitálním světě může mít výrazný vizuál zásadní význam. Ať už jste návrhář, který chce chránit svou práci, nebo obchodník, který chce přidat do obrázků značku, použití vodoznaku je zásadní. V tomto tutoriálu prozkoumáme, jak přidat diagonální vodoznak do souborů PSD pomocí Javy s pomocí Aspose.PSD, výkonné knihovny pro manipulaci se soubory PSD.
 ## Předpoklady
@@ -97,3 +103,9 @@ Absolutně! Můžete upravit hodnotu alfa v SolidBrush a změnit průhlednost.
  Ano, můžete zavolat na`drawString` metoda vícekrát s různými parametry pro přidání více vodoznaků.
 ### Kde najdu více informací o Aspose.PSD?
  Můžete zkontrolovat dokumentaci[zde](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

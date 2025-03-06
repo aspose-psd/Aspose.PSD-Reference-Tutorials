@@ -3,10 +3,16 @@ title: Java kullanarak PSD'ye Eğri Ayarlama Katmanı ekleme
 linktitle: Java kullanarak PSD'ye Eğri Ayarlama Katmanı ekleme
 second_title: Aspose.PSD Java API'si
 description: Bu ayrıntılı eğitimde Aspose.PSD for Java kullanarak bir PSD dosyasına Eğri Ayarlama katmanını nasıl ekleyeceğinizi öğrenin. Resimlerinizi kolayca geliştirin.
-type: docs
 weight: 11
 url: /tr/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PSD'ye Eğri Ayarlama Katmanı ekleme
+
 ## giriiş
 PSD formatındaki görselleri değiştirmeye çalışırken kendinizi hiç sıkışmış halde buldunuz mu? İster yeni yetişen bir grafik tasarımcı, ister deneyimli bir profesyonel olun, Photoshop dosyalarıyla çalışmak bazen bir labirentte gezinmek gibi gelebilir. Neyse ki bu süreci kolaylaştıran bir araç var: Aspose.PSD for Java. Bu eğitimde Aspose.PSD kullanarak bir PSD dosyasına Eğri Ayarlama katmanını nasıl ekleyeceğinizi inceleyerek görüntü düzenleme görevlerinizi daha kolay ve verimli hale getireceğiz. Adım adım rehberlikle, geleneksel olarak görüntü manipülasyonuyla ilişkilendirilen karmaşıklıklara takılıp kalmadan, görüntülerinizi bir profesyonel gibi geliştirebileceksiniz.
 ## Önkoşullar
@@ -94,3 +100,9 @@ Hayır, Aspose.PSD ile çalışmak için Photoshop'un makinenizde kurulu olması
 Kesinlikle! Aspose.PSD, PSD dosyalarındaki çeşitli katman türlerinin manipülasyonuna olanak tanır.
 ### Daha fazla belgeyi nerede bulabilirim?
  Ayrıntılı belgeler için şu adresi ziyaret edin:[Java belgeleri için Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

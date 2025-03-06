@@ -3,10 +3,16 @@ title: 圖層效果
 linktitle: 圖層效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 探索圖層效果的魔力！透過學習添加描邊、陰影和混合模式來提高您的影像處理技能。
-type: docs
 weight: 29
 url: /zh-hant/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 圖層效果
+
 ## 介紹
 
 使用 Aspose.PSD for .NET 充分發揮影像處理的潛力。這本綜合指南向您介紹了無數的圖層效果，這些效果將改變您的創作過程。從描邊和陰影到混合模式，輕鬆提升您的設計。
@@ -54,3 +60,9 @@ url: /zh-hant/net/layer-effects/
 透過這個綜合教程，了解如何在 Aspose.PSD for .NET 中調整陰影效果不透明度。
 ### [在 Aspose.PSD for .NET 中使用混合模式](./working-with-blend-modes/)
 探索 Aspose.PSD for .NET 中混合模式的強大功能。本教學透過逐步範例指導您應用各種混合模式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

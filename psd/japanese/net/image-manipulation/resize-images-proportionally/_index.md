@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で画像を比例的にサイズ変更する
 linktitle: 画像を比例的にサイズ変更する
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET でシームレスな画像サイズ変更を体験してください。ライブラリをダウンロードし、チュートリアルに従って、画像処理機能を強化してください。
-type: docs
 weight: 14
 url: /ja/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で画像を比例的にサイズ変更する
+
 画像操作の分野では、Aspose.PSD for .NET は強力なツールキットとして際立っており、開発者に画像の比率を維持したまま簡単にサイズを変更する機能を提供します。このステップ バイ ステップ ガイドでは、Aspose.PSD for .NET を使用して画像のサイズを変更するプロセスを順を追って説明し、画像の比率が完璧に維持されるようにします。
 
 ## 導入
@@ -100,3 +106,9 @@ A3: はい、Aspose.PSD for .NET には、画像の切り取り、回転、フ�
 ### Q5: Aspose.PSD for .NET のサポートはどこで見つかりますか?
 
  A5: 訪問[Aspose.PSD for .NET フォーラム](https://forum.aspose.com/c/psd/34)コミュニティのサポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

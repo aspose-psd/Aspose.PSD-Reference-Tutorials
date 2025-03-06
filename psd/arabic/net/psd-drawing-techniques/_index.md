@@ -3,10 +3,16 @@ title: تقنيات الرسم PSD
 linktitle: تقنيات الرسم PSD
 second_title: Aspose.PSD.NET API
 description: أطلق العنان لإمكانات Aspose.PSD لـ .NET من خلال برامجنا التعليمية! أتقن ميزات الرسم الأساسية وأنشئ رسومات مذهلة وارفع مهاراتك في معالجة الصور.
-type: docs
 weight: 28
 url: /ar/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقنيات الرسم PSD
+
 
 ## مقدمة
 
@@ -61,3 +67,9 @@ url: /ar/net/psd-drawing-techniques/
 أطلق العنان لإمكاناتك الفنية باستخدام Aspose.PSD لـ .NET! اتبع برنامجنا التعليمي للرسم الإبداعي باستخدام الرسومات.
 ### [تنفيذ الرسم باستخدام GraphicsPath في Aspose.PSD لـ .NET](./implementing-drawing-with-graphicspath/)
 اكتشف قوة Aspose.PSD لـ .NET في هذا البرنامج التعليمي خطوة بخطوة حول الرسم باستخدام GraphicsPath. قم بتحسين تطبيقات .NET الخاصة بك من خلال المعالجة المتقدمة لملفات Photoshop.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

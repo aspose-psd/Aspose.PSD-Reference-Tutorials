@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 밝기 조정 구현
 linktitle: 밝기 조정 구현
 second_title: Aspose.PSD .NET API
 description: 이미지 밝기 조정 시 .NET용 Aspose.PSD의 강력한 기능을 살펴보세요. 원활한 구현을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 밝기 조정 구현
+
 ## 소개
 
 이미지 속성을 강화하고 조정하는 것은 다양한 애플리케이션의 일반적인 요구 사항이며 .NET용 Aspose.PSD는 PSD 파일을 원활하게 조작하기 위한 강력한 솔루션을 제공합니다. 이러한 조작 중 하나는 밝기 조정으로, 이미지의 밝기를 쉽게 수정할 수 있습니다.
@@ -97,3 +103,9 @@ rasterImage.Save(destName, tiffOptions);
 ### Q5: .NET용 Aspose.PSD의 임시 라이선스를 어떻게 얻나요?
 
  A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

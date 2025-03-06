@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 为图像添加签名
 linktitle: 使用 Aspose.PSD for .NET 为图像添加签名
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 增强您的 .NET 图像项目。了解如何使用我们的分步指南无缝添加签名。
-type: docs
 weight: 13
 url: /zh/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 为图像添加签名
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.PSD 是处理和增强图像的强大工具。如果您想知道如何使用 Aspose.PSD for .NET 无缝地将签名添加到图像中，那么您来对地方了。本分步指南将引导您完成整个过程，确保您轻松掌握将签名合并到图像中的技巧。
@@ -103,3 +109,9 @@ A3：您可以实现 try-catch 块来优雅地处理异常。
 ### Q5：我可以在购买之前试用 Aspose.PSD 吗？
 
  A5：当然可以，可以免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

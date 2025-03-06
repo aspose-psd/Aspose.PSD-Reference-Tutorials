@@ -3,10 +3,16 @@ title: 画像操作
 linktitle: 画像操作
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD を使用して .NET プロジェクトを向上させましょう。結合、切り取り、サイズ変更、回転、効果の追加などの画像操作テクニックを簡単に学習できます。
-type: docs
 weight: 26
 url: /ja/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 画像操作
+
 ## 導入
 
 画像操作は.NETで作業する開発者やデザイナーにとって不可欠なスキルであり、アポーズ.PSD for .NETはあなたの能力を高めるための強力なツールキットを提供します。このチュートリアルでは、シームレスに適用できるさまざまな画像操作テクニックについて詳しく説明します。[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Aspose.PSD for .NET の外側グロー効果の威力を探ります。このス
 Aspose.PSD for .NET でグラデーション オーバーレイ効果をレンダリングする技術を習得します。このステップバイステップのチュートリアルでグラフィック デザイン スキルを向上させましょう。
 ### [Aspose.PSD for .NET でのグラデーション オーバーレイ効果のサポート](./supporting-gradient-overlay-effect/)
 Aspose.PSD を使用して .NET のグラフィックを強化します。このチュートリアルでは、グラデーション オーバーレイ効果のサポートについて説明します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

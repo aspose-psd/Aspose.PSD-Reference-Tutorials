@@ -3,10 +3,16 @@ title: Manipulacja obrazem
 linktitle: Manipulacja obrazem
 second_title: Aspose.PSD API .NET
 description: Podnieś poziom swoich projektów .NET dzięki Aspose.PSD! Poznaj techniki manipulacji obrazami, takie jak łączenie, kadrowanie, zmiana rozmiaru, obracanie i bezproblemowe dodawanie efektów.
-type: docs
 weight: 26
 url: /pl/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja obrazem
+
 ## Wstęp
 
 Manipulacja obrazami jest istotną umiejętnością każdego programisty lub projektanta pracującego z .NET, a Aspose.PSD dla .NET zapewnia potężny zestaw narzędzi zwiększających Twoje możliwości. W tym samouczku zagłębimy się w różne techniki manipulacji obrazami, które można bezproblemowo zastosować za pomocą[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Poznaj moc efektu Outer Glow w Aspose.PSD dla .NET. Ulepsz swoje projekty obraz�
 Opanuj sztukę renderowania efektu nakładki gradientowej w Aspose.PSD dla .NET. Podnieś swoje umiejętności projektowania graficznego dzięki temu samouczkowi krok po kroku.
 ### [Obsługa efektu nakładki gradientowej w Aspose.PSD dla .NET](./supporting-gradient-overlay-effect/)
 Ulepsz grafikę w .NET dzięki Aspose.PSD. Ten samouczek przeprowadzi Cię przez obsługę efektów nakładki gradientowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 組合影像
 linktitle: 合併影像
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD 在 Java 中合併影像。請按照我們的逐步指南進行無縫影像組合。
-type: docs
 weight: 11
 url: /zh-hant/java/image-editing/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 組合影像
+
 ## 介紹
 
 在 Java 程式設計領域，Aspose.PSD 作為操作和處理影像的強大工具脫穎而出。其值得注意的功能之一是能夠無縫組合多個影像。本教學將引導您完成使用 Aspose.PSD for Java 將兩個影像合併為單一 PSD 檔案的過程。
@@ -111,3 +117,9 @@ A4：是的，您可以免費試用 Aspose.PSD[這裡](https://releases.aspose.c
 ### Q5：在哪裡可以找到 Aspose.PSD 相關查詢的支援？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

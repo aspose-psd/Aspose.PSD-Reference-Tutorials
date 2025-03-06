@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET 支援漸層疊加效果
 linktitle: 支援漸層疊加效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 來增強 .NET 中的圖形。本教學將引導您完成支援漸層疊加效果。
-type: docs
 weight: 18
 url: /zh-hant/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET 支援漸層疊加效果
+
 ## 介紹
 
 歡迎來到這個關於在 Aspose.PSD for .NET 中支援漸層疊加效果的綜合教學！如果您希望增強 .NET 應用程式的圖形功能，本逐步指南可為您提供協助。我們將深入研究使用 Aspose.PSD（一個可簡化影像處理的強大庫）在圖層中創建和編輯漸變疊加效果的複雜性。
@@ -133,3 +139,9 @@ A2：是的，您可以將各種效果（包括漸層疊加）套用到單一圖
 ### Q5：如何獲得 Aspose.PSD 的支援？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

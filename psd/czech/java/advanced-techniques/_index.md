@@ -3,10 +3,16 @@ title: Pokročilé techniky
 linktitle: Pokročilé techniky
 second_title: Aspose.PSD Java API
 description: Osvojte si bez námahy pokročilé techniky zpracování obrazu v Javě pomocí výukových programů Aspose.PSD. Stupně šedi, načítat, převádět, vykreslovat text, efektivně ukládat a další!
-type: docs
 weight: 22
 url: /cs/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilé techniky
+
 ## Zavedení
 
 Jste připraveni zlepšit své dovednosti v oblasti zpracování obrazu Java? Ponořte se do našich komplexních výukových programů s Aspose.PSD pro Javu a odemkněte tak říši pokročilých technik. Podívejme se podrobně na některé klíčové tutoriály:
@@ -85,3 +91,9 @@ Prozkoumejte svět úpravy kontrastu obrazu v Javě s Aspose.PSD. Postupujte pod
 Naučte se bez námahy upravovat gamu obrazu pomocí Aspose.PSD pro Javu. Pro optimální výsledky postupujte podle našeho podrobného průvodce.
 ### [Rozostření obrázku pomocí Aspose.PSD pro Javu](./blur-image/)
 Naučte se rozmazávat obrázky v Javě pomocí Aspose.PSD. Postupujte podle našeho podrobného průvodce pro profesionální výsledky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

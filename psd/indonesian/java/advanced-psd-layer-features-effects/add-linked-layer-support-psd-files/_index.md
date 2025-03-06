@@ -3,10 +3,16 @@ title: Tambahkan Dukungan Lapisan Tertaut di File PSD menggunakan Java
 linktitle: Tambahkan Dukungan Lapisan Tertaut di File PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan dukungan lapisan tertaut dalam file PSD menggunakan Aspose.PSD untuk Java dengan tutorial langkah demi langkah yang mendetail ini. Sempurna untuk desainer dan pengembang.
-type: docs
 weight: 19
 url: /id/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Dukungan Lapisan Tertaut di File PSD menggunakan Java
+
 ## Perkenalan
 File .PSD Adobe Photoshop adalah favorit di kalangan desainer grafis dan seniman digital karena kemampuan manajemen lapisannya yang serbaguna. Saat Anda mendalami dunia manipulasi file PSD secara terprogram, Anda mungkin ingin menjelajahi bagaimana lapisan tertaut dapat meningkatkan alur kerja Anda. Lapisan tertaut memungkinkan pengguna untuk mempertahankan fungsionalitas lapisan independen sekaligus menjaganya tetap dikelola sebagai unit yang kohesif. Masuk ke Aspose.PSD untuk Java, perpustakaan canggih yang membuat bekerja dengan file Photoshop menjadi mudah. 
 Pada artikel ini, kita akan melihat secara mendetail cara menambahkan dukungan lapisan tertaut dalam file PSD menggunakan pustaka Aspose.PSD di Java. Baik Anda seorang pengembang berpengalaman atau pemula, panduan langkah demi langkah ini akan membantu Anda menavigasi tugas dengan lancar.
@@ -99,3 +105,9 @@ Ya, sebagai perpustakaan berbasis Java, perpustakaan ini berjalan pada platform 
  Anda dapat menjelajahi dokumentasi ekstensif[Di Sini](https://reference.aspose.com/psd/java/).
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
  Jika Anda mengalami masalah apa pun, Anda dapat menemukan bantuan di[forum dukungan](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

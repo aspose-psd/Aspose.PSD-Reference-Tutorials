@@ -3,10 +3,16 @@ title: Wsparcie dla zasobu informacji o granicach w formacie PSD — Java
 linktitle: Wsparcie dla zasobu informacji o granicach w formacie PSD — Java
 second_title: Aspose.PSD API Java
 description: Opanuj manipulację granicami w plikach PSD za pomocą Aspose.PSD dla Java. Dowiedz się, jak modyfikować szerokość obramowania, jednostki i inne parametry, wykonując łatwe do wykonania kroki. Programowo ulepszaj swoje projekty PSD.
-type: docs
 weight: 23
 url: /pl/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wsparcie dla zasobu informacji o granicach w formacie PSD — Java
+
 ## Wstęp
 
 Czy kiedykolwiek czułeś potrzebę programowego dostosowania tych nieznośnych granic w plikach PSD? Cóż, nie martw się więcej! Z pomocą przychodzi Aspose.PSD for Java, oferujący potężny i przyjazny dla użytkownika sposób manipulowania zasobami informacji granicznych w plikach PSD. Ten kompleksowy przewodnik przeprowadzi Cię przez ten proces krok po kroku, umożliwiając Ci przejęcie kontroli nad granicami jak nigdy dotąd.
@@ -136,3 +142,9 @@ Aspose.PSD jest zoptymalizowany pod kątem wydajności, ale obsługa dużych pli
 ### Gdzie mogę znaleźć więcej informacji i wsparcia?
 
 Dokumentacja Aspose.PSD for Java jest doskonałym źródłem szczegółowych informacji na temat interfejsu API i jego możliwości. Możesz także odwiedzić fora Aspose, aby uzyskać pomoc i nawiązać kontakt z innymi programistami. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

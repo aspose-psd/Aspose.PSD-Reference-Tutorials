@@ -3,10 +3,16 @@ title: Tải hình ảnh vào tệp PSD bằng Aspose.PSD cho Java
 linktitle: Tải hình ảnh vào tệp PSD bằng Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Dễ dàng tải hình ảnh vào tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước này để tự động hóa các tác vụ xử lý hình ảnh của bạn một cách hiệu quả.
-type: docs
 weight: 20
 url: /vi/java/psd-image-modification-conversion/load-images-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải hình ảnh vào tệp PSD bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Khi làm việc với các tệp hình ảnh, đặc biệt là trong môi trường thiết kế chuyên nghiệp, khả năng thao tác các tệp Layered PSD (Tài liệu Photoshop) theo chương trình sẽ mở ra một thế giới tự động hóa và hiệu quả. Hãy tưởng tượng bạn có thể tải hình ảnh, thêm chúng dưới dạng lớp và lưu chúng—tất cả đều thông qua cấu trúc mã rõ ràng và đơn giản. Với Aspose.PSD cho Java, đây không chỉ là một khả năng; đó là thực tế mà bạn có thể dễ dàng kết hợp vào các dự án của mình. Hãy cùng tìm hiểu cách bạn có thể tải hình ảnh vào tệp PSD một cách liền mạch.
@@ -167,3 +173,9 @@ Bạn có thể tải nhiều hình ảnh raster khác nhau (như JPEG, PNG) và
 ### Tôi có thể tìm thêm tài liệu về Aspose.PSD ở đâu?
 
  Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

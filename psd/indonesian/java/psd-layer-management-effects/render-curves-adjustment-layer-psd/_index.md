@@ -3,10 +3,16 @@ title: Render Lapisan Penyesuaian Kurva dalam File PSD - Java
 linktitle: Render Lapisan Penyesuaian Kurva dalam File PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara merender dan menyesuaikan Lapisan Penyesuaian Kurva dalam file PSD menggunakan Aspose.PSD untuk Java dengan panduan langkah demi langkah yang mendetail ini.
-type: docs
 weight: 16
 url: /id/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Lapisan Penyesuaian Kurva dalam File PSD - Java
+
 ## Perkenalan
 
 Lapisan Penyesuaian Kurva Photoshop seperti tongkat ajaib untuk menyempurnakan gambar. Bayangkan Anda seorang seniman yang mengubah warna dan corak karya Anda—setiap penyesuaian kurva memungkinkan Anda mengontrol keseimbangan cahaya dan warna dengan presisi luar biasa. Jika Anda bekerja dengan file PSD dan perlu memanipulasi kurva ini secara terprogram, Aspose.PSD untuk Java adalah alat bantu Anda. Dalam panduan ini, kita akan membahas cara merender dan menyesuaikan Lapisan Penyesuaian Kurva dalam file PSD menggunakan Aspose.PSD untuk Java. Baik Anda memperbarui corak gambar atau mengekspor hasil, tutorial ini akan mencakup semua yang Anda perlukan untuk memulai.
@@ -146,3 +152,9 @@ Tidak, Aspose.PSD untuk Java bekerja secara independen dari Photoshop, memungkin
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PSD untuk Java?
  Untuk dukungan, Anda dapat mengunjungi[Asumsikan forum dukungan](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

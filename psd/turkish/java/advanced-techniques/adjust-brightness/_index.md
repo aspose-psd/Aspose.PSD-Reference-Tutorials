@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Bir Görüntünün Parlaklığını Ayarlama
 linktitle: Bir Görüntünün Parlaklığını Ayarlama
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java'da görüntü parlaklığını artırın. Görüntü parlaklığını programlı olarak ayarlamak için adım adım kılavuz.
-type: docs
 weight: 21
 url: /tr/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Bir Görüntünün Parlaklığını Ayarlama
+
 ## giriiş
 
 Görüntüleri geliştirmek grafik tasarım ve dijital fotoğrafçılıkta yaygın bir gerekliliktir. Aspose.PSD for Java, görüntü parlaklığını programlı olarak ayarlamak için güçlü bir çözüm sunar. Bu eğitimde, bir görüntünün parlaklığını adım adım ayarlamak için Aspose.PSD for Java kütüphanesini nasıl kullanabileceğimizi keşfedeceğiz.
@@ -107,3 +113,9 @@ Cevap3: Ayar aralığı görüntü içeriğine ve formatına bağlıdır, ancak 
 ### S5: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, kütüphaneyi ücretsiz deneme sürümüyle keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Leia todas as tags EXIF em Java
 linktitle: Leia todas as tags EXIF em Java
 second_title: API Java Aspose.PSD
 description: Aprenda a extrair tags EXIF de imagens PSD usando Aspose.PSD para Java. Siga nosso guia passo a passo para extração eficiente de metadados.
-type: docs
 weight: 17
 url: /pt/java/java-jpeg-image-processing/read-all-exif-tags-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leia todas as tags EXIF em Java
+
 ## Introdução
 No domínio do desenvolvimento Java, manipular e extrair metadados de imagens é uma tarefa comum, especialmente quando se trata de arquivos PSD (Photoshop Document). As tags EXIF (Exchangeable Image File Format) contêm metadados valiosos que fornecem informações sobre a imagem, como configurações da câmera, localização e muito mais. Este tutorial se concentra no uso de Aspose.PSD for Java, uma biblioteca poderosa para manipulação de arquivos PSD, para ler tags EXIF com eficiência.
 ## Pré-requisitos
@@ -65,3 +71,9 @@ Aspose.PSD para Java é uma biblioteca Java usada para processar e manipular arq
  Visite o fórum Aspose.PSD[aqui](https://forum.aspose.com/c/psd/34) para qualquer dúvida de suporte.
 ### Preciso de uma licença para usar Aspose.PSD para Java?
  Sim, você pode comprar uma licença[aqui](https://purchase.aspose.com/buy) ou obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

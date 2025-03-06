@@ -3,10 +3,16 @@ title: Thêm màu lớp nét trong Aspose.PSD cho Java
 linktitle: Thêm màu lớp nét
 second_title: API Java Aspose.PSD
 description: Khám phá sức mạnh của Aspose.PSD cho Java với hướng dẫn từng bước của chúng tôi về cách thêm màu lớp nét vẽ. Nâng cao thiết kế đồ họa của bạn một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm màu lớp nét trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Khai phá tiềm năng thiết kế đồ họa của ứng dụng Java của bạn với Aspose.PSD. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới hấp dẫn của việc thêm màu lớp nét vẽ bằng Aspose.PSD cho Java. Nâng cao đồ họa của bạn bằng những nét vẽ nổi bật, dễ dàng tạo ra các thiết kế hấp dẫn về mặt hình ảnh.
@@ -120,3 +126,9 @@ A2: Chắc chắn rồi! Aspose.PSD theo kịp các thông số kỹ thuật đ�
 ### Câu hỏi 5: Tôi có thể lấy giấy phép tạm thời cho Aspose.PSD ở đâu?
 
  A5: Có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để Aspose.PSD đánh giá khả năng của nó trong các dự án của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

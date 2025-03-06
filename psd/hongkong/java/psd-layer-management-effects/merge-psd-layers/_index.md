@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 合併 PSD 圖層
 linktitle: 使用 Aspose.PSD for Java 合併 PSD 圖層
 second_title: Aspose.PSD Java API
 description: 透過此逐步教學，了解如何使用 Aspose.PSD for Java 合併 PSD 圖層。非常適合希望自動化影像處理任務的開發人員。
-type: docs
 weight: 11
 url: /zh-hant/java/psd-layer-management-effects/merge-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 合併 PSD 圖層
+
 ## 介紹
 
 有沒有想過平面設計師如何在 Photoshop 中實現那些複雜的分層影像？秘密通常在於管理和合併 PSD 檔案中的圖層。如果您使用 Java 處理 PSD 文件，合併圖層對於建立合成影像、減少文件大小或準備匯出影像至關重要。但是，以程式方式解決此任務可能聽起來令人畏懼。輸入 Aspose.PSD for Java，您輕鬆處理 PSD 檔案的終極工具包。無論您是經驗豐富的開發人員還是剛入門，本教學都將引導您完成使用 Aspose.PSD for Java 合併 PSD 圖層的過程。讀完本指南後，您將深入了解如何操作圖層並以不同格式儲存最終影像 - 所有這些都在您的 Java 應用程式中進行。
@@ -105,3 +111,9 @@ psdImage.save(dataDir + "MergePSDlayers_output.jpg", jpgOptions);
 
 ### 如果我在保存之前沒有設定圖像選項會發生什麼？
 如果您不設定影像選項，Aspose.PSD for Java 將使用輸出格式的預設設定。但是，最好指定選項以確保輸出符合您的要求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

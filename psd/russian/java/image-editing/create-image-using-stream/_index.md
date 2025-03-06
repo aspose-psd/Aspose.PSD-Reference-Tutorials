@@ -3,10 +3,16 @@ title: Создайте изображение с помощью Stream в Aspos
 linktitle: Создать изображение с помощью потока
 second_title: Aspose.PSD Java API
 description: Узнайте, как создавать изображения с использованием потока в Aspose.PSD для Java. Следуйте этому пошаговому руководству для эффективной обработки изображений.
-type: docs
 weight: 14
 url: /ru/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создайте изображение с помощью Stream в Aspose.PSD для Java
+
 ## Введение
 
 В области разработки Java Aspose.PSD выделяется как надежная библиотека для обработки изображений. Одной из его мощных функций является возможность создавать изображения с использованием потоков, что обеспечивает гибкость и эффективность обработки данных изображений. Это руководство проведет вас через процесс создания изображений с использованием потока в Aspose.PSD для Java, предоставляя практический опыт с пошаговыми инструкциями.
@@ -114,3 +120,9 @@ image.save(desName);
 ### В5: Каковы системные требования для Aspose.PSD?
 
  A5: См.[документация](https://reference.aspose.com/psd/java/) подробные системные требования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

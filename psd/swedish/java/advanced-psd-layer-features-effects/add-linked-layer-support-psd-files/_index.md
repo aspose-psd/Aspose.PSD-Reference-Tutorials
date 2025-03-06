@@ -3,10 +3,16 @@ title: Lägg till stöd för länkat lager i PSD-filer med Java
 linktitle: Lägg till stöd för länkat lager i PSD-filer med Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du lägger till stöd för länkade lager i PSD-filer med Aspose.PSD för Java med denna detaljerade steg-för-steg handledning. Perfekt för designers och utvecklare.
-type: docs
 weight: 19
 url: /sv/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till stöd för länkat lager i PSD-filer med Java
+
 ## Introduktion
 Adobe Photoshops .PSD-filer är en favorit bland grafiska designers och digitala artister på grund av deras mångsidiga lagerhanteringsmöjligheter. När du dyker in i världen av att manipulera PSD-filer programmatiskt, kanske du vill utforska hur länkade lager kan förbättra ditt arbetsflöde. Länkade lager tillåter användare att behålla oberoende lagerfunktioner samtidigt som de hanteras som en sammanhållen enhet. Gå in i Aspose.PSD för Java, ett kraftfullt bibliotek som gör det enkelt att arbeta med Photoshop-filer. 
 den här artikeln tar vi en detaljerad titt på hur man lägger till stöd för länkade lager i PSD-filer med Aspose.PSD-biblioteket i Java. Oavsett om du är en erfaren utvecklare eller nybörjare, hjälper den här steg-för-steg-guiden dig att navigera genom uppgiften sömlöst.
@@ -99,3 +105,9 @@ Ja, som ett Java-baserat bibliotek körs det på vilken plattform som helst som 
  Du kan utforska den omfattande dokumentationen[här](https://reference.aspose.com/psd/java/).
 ### Hur kan jag få support om jag stöter på problem?
  Om du stöter på några problem kan du få hjälp i[supportforum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

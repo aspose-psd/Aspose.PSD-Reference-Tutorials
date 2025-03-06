@@ -3,10 +3,16 @@ title: Kreslení obdélníků v Javě
 linktitle: Kreslení obdélníků v Javě
 second_title: Aspose.PSD Java API
 description: Naučte se kreslit obdélníky na obrázky pomocí Aspose.PSD pro Java. Tento tutoriál krok za krokem provede vývojáře Java. Ideální pro úkoly manipulace s obrázky.
-type: docs
 weight: 17
 url: /cs/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kreslení obdélníků v Javě
+
 ## Zavedení
 Ve světě vývoje v Javě je manipulace a programové generování obrázků běžným požadavkem napříč různými aplikacemi. Jedním z takových úkolů, se kterými se často setkáváme, je kreslení tvarů, jako jsou obdélníky, na obrázky. Aspose.PSD for Java poskytuje robustní sadu nástrojů a funkcí, jak toho dosáhnout efektivně. Tento tutoriál vás krok za krokem provede procesem kreslení obdélníků na obrázek pomocí Aspose.PSD for Java.
 ## Předpoklady
@@ -84,3 +90,9 @@ Ano, Aspose.PSD for Java je navržen pro vysoce výkonné zpracování obrazu s 
  Další příklady a podrobnou dokumentaci můžete prozkoumat na[Aspose.PSD pro dokumentaci Java](https://reference.aspose.com/psd/java/).
 ### Podporuje Aspose.PSD for Java jiné obrazové formáty kromě BMP?
 Ano, Aspose.PSD for Java podporuje širokou škálu obrazových formátů včetně PNG, JPEG, TIFF a GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

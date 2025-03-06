@@ -3,10 +3,16 @@ title: Stosowanie filtrów Gaussa i Wienera w Aspose.PSD dla .NET
 linktitle: Stosowanie filtrów Gaussa i Wienera
 second_title: Aspose.PSD API .NET
 description: Popraw jakość obrazu bez wysiłku dzięki Aspose.PSD dla .NET. Zastosuj filtry Gaussa i Wienera, aby uzyskać redukcję szumów i optymalną atrakcyjność wizualną.
-type: docs
 weight: 10
 url: /pl/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stosowanie filtrów Gaussa i Wienera w Aspose.PSD dla .NET
+
 ## Wstęp
 
 W dziedzinie przetwarzania obrazów przy użyciu platformy .NET Aspose.PSD wyróżnia się jako potężny zestaw narzędzi, który umożliwia programistom łatwe manipulowanie obrazami. Szczególnie przydatną funkcją jest zastosowanie filtrów Gaussa i Wienera. Filtry te odgrywają kluczową rolę w poprawie jakości obrazu, redukcji szumów i zapewnieniu optymalnej atrakcyjności wizualnej.
@@ -110,3 +116,10 @@ Odpowiedź 2: Rozmiar promienia określa obszar, na którym działa filtr, natom
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?
 
  O5: Tak, możesz poznać funkcje Aspose.PSD, pobierając plik[bezpłatna wersja próbna](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

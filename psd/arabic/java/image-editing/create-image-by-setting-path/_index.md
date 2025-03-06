@@ -3,10 +3,16 @@ title: قم بإنشاء صورة عن طريق تحديد المسار في Asp
 linktitle: إنشاء صورة عن طريق تحديد المسار
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إنشاء صور PSD باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لإنشاء صور سلسة.
-type: docs
 weight: 13
 url: /ar/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء صورة عن طريق تحديد المسار في Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول إنشاء الصور باستخدام Aspose.PSD لـ Java. في هذا الدليل، سوف نستكشف كيفية تعيين المسار وتكوين الخيارات لإنشاء صورة PSD. Aspose.PSD هي مكتبة Java قوية للعمل مع ملفات Photoshop، مما يوفر طريقة سلسة لمعالجة الصور وإنشائها برمجيًا.
@@ -107,3 +113,9 @@ image.save();
 ### س5: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Размытие изображения в Aspose.PSD для .NET
 linktitle: Размытие изображения
 second_title: Aspose.PSD .NET API
 description: Узнайте, как легко размыть изображения с помощью Aspose.PSD для .NET. Пошаговое руководство по беспрепятственному манипулированию изображениями в проектах C#.
-type: docs
 weight: 13
 url: /ru/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Размытие изображения в Aspose.PSD для .NET
+
 ## Введение
 
 В сфере разработки .NET Aspose.PSD оказывается мощным союзником при манипулировании изображениями. Это руководство посвящено конкретной задаче: размытию изображения с помощью Aspose.PSD для .NET. Если вы хотите улучшить свои навыки обработки изображений или просто ищете эффективный способ программного размытия изображений, вы попали по адресу.
@@ -97,3 +103,9 @@ rasterImage.Save(destName, new GifOptions());
 ### Вопрос 5: Где я могу обратиться за помощью или связаться с сообществом Aspose.PSD?
 
  A5: По любым вопросам или обсуждениям перейдите на[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

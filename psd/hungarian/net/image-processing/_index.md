@@ -3,10 +3,16 @@ title: Képfeldolgozás
 linktitle: Képfeldolgozás
 second_title: Aspose.PSD .NET API
 description: Könnyedén javíthatja a képminőséget az Aspose.PSD for .NET oktatóanyaggal. Tanuljon meg olyan technikákat, mint a Gauss- és Wiener-szűrők, a színkonverzió, a binarizálás és még sok más.
-type: docs
 weight: 20
 url: /hu/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képfeldolgozás
+
 
 ## Bevezetés
 
@@ -46,3 +52,9 @@ Fedezze fel a színkonverziót az Aspose.PSD for .NET-ben. Tanulja meg frissíte
 Ismerje meg, hogyan alkalmazhat könnyedén szürkeárnyalatos effektusokat a képekre az Aspose.PSD for .NET segítségével.
 ### [A Bradley Threshold alkalmazása az Aspose.PSD-ben .NET-hez](./apply-bradley-threshold/)
 Javítsa a képszegmentálást a Bradley Threshold segítségével az Aspose.PSD for .NET-ben. Lépésről lépésre szóló útmutató a hatékony binarizáláshoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

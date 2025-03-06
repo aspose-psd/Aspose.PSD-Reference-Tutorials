@@ -3,10 +3,16 @@ title: Támogassa a hosszrögzítési adattulajdonságokat PSD-ben - Java
 linktitle: Támogassa a hosszrögzítési adattulajdonságokat PSD-ben - Java
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan kezelhet PSD-fájlokat hosszú rekord adattulajdonságokkal Java nyelven az Aspose.PSD használatával. Kövesse ezt a lépésről lépésre szóló útmutatót az összes részletért.
-type: docs
 weight: 14
 url: /hu/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Támogassa a hosszrögzítési adattulajdonságokat PSD-ben - Java
+
 ## Bevezetés
 Dolgozott már Photoshop-fájlokkal, és szeretett volna programozottan kezelni a rétegeket vagy alakzatokat? Ha igen, akkor belebotlott az Aspose.PSD for Java könyvtár szépségébe. Ez a hatékony eszköz lehetővé teszi a fejlesztők számára, hogy a Java kódon keresztül zökkenőmentesen kezeljék és módosítsák a PSD fájlokat. A mai cikkünkben megvizsgáljuk, hogyan lehet támogatni a hosszúságú rekord adattulajdonságait egy PSD-fájlban ezzel a könyvtárral. 
 Akár tapasztalt Java-fejlesztő vagy, akár csak most kezdi, ez az útmutató lépésről lépésre végigvezeti Önt mindenen, amit tudnia kell. A végére megnyithat egy PSD-fájlt, módosíthatja a vektor alakzat tulajdonságait, és mentheti a változtatásokat – mindezt anélkül, hogy elhagyná Java-környezete kényelmét. Tegyük fel az ingujjunkat és ugorjunk be!
@@ -96,3 +102,9 @@ A PSD-fájlokon belül kezelhet rétegeket, alakzatokat, szövegeket, útvonalm�
 Igen, az Aspose különféle programkönyvtárakat kínál különböző programozási nyelvekhez, beleértve a .NET-t és a Python-t.
 ### Hol találom az Aspose.PSD dokumentációját?
  Hozzáférhet a teljes dokumentációhoz[itt](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

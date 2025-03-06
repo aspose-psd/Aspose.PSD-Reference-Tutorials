@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中旋转图像
 linktitle: 旋转图像
 second_title: Aspose.PSD .NET API
 description: 学习使用 Aspose.PSD 在 .NET 中轻松旋转图像。按照我们的分步教程进行操作。
-type: docs
 weight: 15
 url: /zh/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中旋转图像
+
 ## 介绍
 
 如果您正在使用 .NET 进行图像处理，Aspose.PSD 是您进行无缝高效图像处理的首选工具。在本教程中，我们将重点介绍一项基本任务 - 使用 Aspose.PSD for .NET 旋转图像。请继续关注，我们将该过程分解为简单、可操作的步骤。
@@ -80,3 +86,9 @@ using (Image image = Image.Load(sourceFile))
 ### Q5：我可以购买 Aspose.PSD 用于商业用途吗？
 
 当然。探索[购买页面](https://purchase.aspose.com/buy)获取满足您需求的许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

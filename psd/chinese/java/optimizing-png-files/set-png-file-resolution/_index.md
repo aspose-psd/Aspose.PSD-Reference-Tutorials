@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 设置 PNG 文件分辨率
 linktitle: 使用 Aspose.PSD for Java 设置 PNG 文件分辨率
 second_title: Aspose.PSD Java API
 description: 通过本详细的分步教程了解如何使用 Aspose.PSD for Java 设置 PNG 文件分辨率。立即优化您的图像。
-type: docs
 weight: 13
 url: /zh/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 设置 PNG 文件分辨率
+
 ## 介绍
 您是否希望使用 Java 优化 PNG 文件分辨率？如果答案是肯定的，那么您来对地方了！今天，我们将深入研究 Aspose.PSD for Java 的世界，这是一个功能强大的库，用于处理 Photoshop PSD 文件并将其转换为其他格式（如 PNG）。无论您是涉足图像处理的开发人员，还是只想通过编程来提高图像质量的人，本指南都是为您量身定制的。 
 在本综合教程中，我们将介绍从先决条件到详细分步说明的所有内容，以便有效地设置 PNG 文件分辨率。所以，拿上你最喜欢的零食，让我们开始吧！
@@ -71,3 +77,9 @@ psdImage.save(dataDir + "SettingResolution_output.png", options);
 Aspose.PSD 可处理许多常见问题，但如果文件严重损坏，则可能无法加载。请务必保留备份。
 ### Aspose.PSD 适合高性能应用程序吗？
 是的，它旨在高效处理大文件，适合性能密集型的图像处理任务。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

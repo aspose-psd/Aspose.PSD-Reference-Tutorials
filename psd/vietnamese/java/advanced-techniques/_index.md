@@ -3,10 +3,16 @@ title: Kỹ thuật nâng cao
 linktitle: Kỹ thuật nâng cao
 second_title: API Java Aspose.PSD
 description: Dễ dàng nắm vững các kỹ thuật nâng cao trong xử lý ảnh Java với các hướng dẫn của Aspose.PSD. Thang độ xám, tải, chuyển đổi, hiển thị văn bản, lưu hiệu quả và hơn thế nữa!
-type: docs
 weight: 22
 url: /vi/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật nâng cao
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng xử lý ảnh Java của mình chưa? Đi sâu vào các hướng dẫn toàn diện của chúng tôi với Aspose.PSD cho Java, mở khóa một lĩnh vực kỹ thuật nâng cao. Hãy cùng khám phá một số hướng dẫn chính một cách chi tiết:
@@ -85,3 +91,9 @@ Khám phá thế giới điều chỉnh độ tương phản hình ảnh trong J
 Tìm hiểu cách điều chỉnh gamma hình ảnh một cách dễ dàng bằng Aspose.PSD cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để có kết quả tối ưu.
 ### [Làm mờ hình ảnh bằng Aspose.PSD cho Java](./blur-image/)
 Tìm hiểu cách làm mờ hình ảnh trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được kết quả chuyên nghiệp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

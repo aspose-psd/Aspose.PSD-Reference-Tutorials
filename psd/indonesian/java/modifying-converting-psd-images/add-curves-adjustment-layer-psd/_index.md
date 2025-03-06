@@ -3,10 +3,16 @@ title: Tambahkan Lapisan Penyesuaian Kurva di PSD menggunakan Java
 linktitle: Tambahkan Lapisan Penyesuaian Kurva di PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan lapisan Penyesuaian Kurva ke file PSD menggunakan Aspose.PSD untuk Java dalam tutorial mendetail ini. Sempurnakan gambar Anda dengan mudah.
-type: docs
 weight: 11
 url: /id/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Lapisan Penyesuaian Kurva di PSD menggunakan Java
+
 ## Perkenalan
 Pernahkah Anda terjebak saat mencoba memanipulasi gambar dalam format PSD? Baik Anda seorang desainer grafis pemula atau profesional berpengalaman, bekerja dengan file Photoshop terkadang terasa seperti menavigasi labirin. Untungnya, ada alat yang menyederhanakan proses ini - Aspose.PSD untuk Java. Dalam tutorial ini, kita akan mempelajari cara menambahkan lapisan Penyesuaian Kurva ke file PSD menggunakan Aspose.PSD, membuat tugas pengeditan gambar Anda lebih mudah dan efisien. Dengan panduan langkah demi langkah, Anda akan dapat menyempurnakan gambar Anda seperti seorang profesional tanpa terjebak dalam kerumitan yang biasanya dikaitkan dengan manipulasi gambar.
 ## Prasyarat
@@ -94,3 +100,9 @@ Tidak, Anda tidak perlu menginstal Photoshop di mesin Anda untuk bekerja dengan 
 Sangat! Aspose.PSD memungkinkan manipulasi berbagai jenis lapisan dalam file PSD.
 ### Di mana saya dapat menemukan dokumentasi lainnya?
  Untuk dokumentasi terperinci, kunjungi[Aspose.PSD untuk dokumen Java](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

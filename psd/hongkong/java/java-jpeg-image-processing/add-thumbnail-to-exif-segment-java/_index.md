@@ -3,10 +3,16 @@ title: 在 Java 中將縮圖新增至 EXIF 段
 linktitle: 在 Java 中將縮圖新增至 EXIF 段
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 透過縮圖增強影像元資料。請遵循我們的無縫集成分步指南。
-type: docs
 weight: 10
 url: /zh-hant/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中將縮圖新增至 EXIF 段
+
 ## 介紹
 在本教程中，我們將探索如何透過使用 Aspose.PSD for Java 將縮圖新增至 EXIF 段來增強影像元資料。 EXIF（可交換影像檔案格式）元資料在數位攝影中發揮著至關重要的作用，提供相機設定、日期和位置等有價值的資訊。新增縮圖可透過有效預覽影像來增強使用者體驗。
 ## 先決條件
@@ -66,3 +72,9 @@ EXIF 元資料是數位影像中的嵌入訊息，包括相機設定、日期和
 您可以從以下位置取得 Aspose.PSD 的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 如何獲得 Aspose.PSD 支援？
 如需支持，請訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

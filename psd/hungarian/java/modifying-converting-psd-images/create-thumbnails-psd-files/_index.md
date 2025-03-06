@@ -3,10 +3,16 @@ title: Bélyegképek létrehozása PSD-fájlokból Java használatával
 linktitle: Bélyegképek létrehozása PSD-fájlokból Java használatával
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan hozhat létre könnyedén miniatűröket PSD-fájlokból a Java és az Aspose.PSD használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes képfeldolgozás érdekében.
-type: docs
 weight: 24
 url: /hu/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bélyegképek létrehozása PSD-fájlokból Java használatával
+
 ## Bevezetés
 grafikai tervezés világában mindennapos a PSD (Photoshop Document) fájlokkal való munka. Legyen szó tapasztalt fejlesztőről, grafikusról vagy csak valaki, aki szeretne belemerülni a képfeldolgozásba, a PSD-fájlokból készített miniatűrök időt takaríthatnak meg, és egyszerűsíthetik a munkafolyamatot. Ez az oktatóanyag végigvezeti a teljes folyamaton az Aspose.PSD for Java használatával. Az Aspose.PSD nem csak egy robusztus könyvtár a Photoshop-fájlok kezelésére, hanem intuitívvá és kezelhetővé is teszi az adott feladatot. Készen áll arra, hogy megtanulja, hogyan lehet hatékonyan létrehozni miniatűröket PSD-fájlokból?
 ## Előfeltételek
@@ -112,3 +118,9 @@ Ebben a példában a bélyegképeket BMP formátumban mentettük el, de az Aspos
 Nem, az Aspose.PSD a Photoshoptól függetlenül működik.
 ### Hol találhatok több információt az Aspose.PSD-ről?
  Megnézheti a[Aspose.PSD dokumentáció](https://reference.aspose.com/psd/java/) további részletekért, oktatóanyagokért és forrásokért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

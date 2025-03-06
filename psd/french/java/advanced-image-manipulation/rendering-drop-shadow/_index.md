@@ -3,10 +3,16 @@ title: Appliquer le rendu de l'ombre portée dans Aspose.PSD pour Java
 linktitle: Appliquer l'ombre portée du rendu
 second_title: API Java Aspose.PSD
 description: Explorez le guide étape par étape pour appliquer le rendu des ombres portées dans Aspose.PSD pour Java, améliorant ainsi vos compétences en traitement d'image sans effort.
-type: docs
 weight: 16
 url: /fr/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer le rendu de l'ombre portée dans Aspose.PSD pour Java
+
 ## Introduction
 
 Si vous vous lancez dans le traitement d'images avec Java, Aspose.PSD est votre outil incontournable pour une manipulation transparente et efficace des fichiers PSD. Dans ce didacticiel, nous explorerons le processus d'application d'une ombre portée de rendu à l'aide d'Aspose.PSD pour Java. Attachez votre ceinture, pendant que nous décomposons les étapes pour vous.
@@ -125,3 +131,9 @@ A3 : Aspose.PSD offre une compatibilité avec une large gamme de versions de fi
 ### Q5 : Puis-je tester Aspose.PSD avant de faire un achat ?
 
  A5 : Absolument, utilisez le[essai gratuit](https://releases.aspose.com/) pour explorer les capacités avant de vous engager dans un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

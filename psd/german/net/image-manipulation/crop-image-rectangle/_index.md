@@ -3,10 +3,16 @@ title: Zuschneiden von Bildern per Rechteck in Aspose.PSD für .NET
 linktitle: Bilder rechteckig zuschneiden
 second_title: Aspose.PSD .NET API
 description: Verbessern Sie Ihre .NET-Bildbearbeitungsfähigkeiten mit Aspose.PSD. Erfahren Sie Schritt für Schritt, wie Sie Bilder mit Rechtecken präzise zuschneiden.
-type: docs
 weight: 11
 url: /de/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zuschneiden von Bildern per Rechteck in Aspose.PSD für .NET
+
 ## Einführung
 
 Im Bereich der .NET-Programmierung ist das Bearbeiten und Verbessern von Bildern eine gängige Aufgabe, und Aspose.PSD für .NET ist eine leistungsstarke Bibliothek, die diesen Prozess vereinfacht. Dieses Tutorial konzentriert sich auf eine grundlegende, aber entscheidende Bildbearbeitungstechnik – das Zuschneiden von Bildern mit einem Rechteck. Am Ende dieses Handbuchs verfügen Sie über ein solides Verständnis dafür, wie Sie Bilder mit Aspose.PSD für .NET präzise zuschneiden können.
@@ -110,3 +116,9 @@ A3: Aspose.PSD für .NET ist für die Verarbeitung von Bildern verschiedener Gr�
 ### F5: Wo finde ich zusätzliche Unterstützung oder Hilfe?
 
  A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34)um Kontakt mit der Community aufzunehmen und Unterstützung zu suchen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

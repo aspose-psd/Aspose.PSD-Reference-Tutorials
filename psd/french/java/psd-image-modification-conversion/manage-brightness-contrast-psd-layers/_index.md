@@ -3,10 +3,16 @@ title: Gérer la luminosité et le contraste dans les calques PSD - Java
 linktitle: Gérer la luminosité et le contraste dans les calques PSD - Java
 second_title: API Java Aspose.PSD
 description: Apprenez à régler la luminosité et le contraste dans les fichiers PSD à l'aide d'Aspose.PSD pour Java sans effort. Idéal pour les développeurs et les graphistes.
-type: docs
 weight: 21
 url: /fr/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer la luminosité et le contraste dans les calques PSD - Java
+
 ## Introduction
 
 Êtes-vous un graphiste ou un développeur qui travaille fréquemment avec des fichiers PSD (Photoshop Document) ? Avez-vous besoin d'ajuster la luminosité et le contraste des calques de ces fichiers, mais vous n'avez pas le savoir-faire nécessaire pour automatiser cette tâche à l'aide de Java ? Eh bien, vous avez de la chance ! Dans ce didacticiel, nous allons expliquer comment gérer la luminosité et le contraste dans les calques PSD à l'aide de la bibliothèque Aspose.PSD pour Java. Cela vous fera non seulement gagner du temps, mais améliorera également votre flux de travail créatif. Retroussons nos manches et commençons !
@@ -125,3 +131,9 @@ Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de manip
 
 ### Où puis-je trouver une assistance supplémentaire pour Aspose.PSD ?
  Vous pouvez obtenir de l'aide pour Aspose.PSD sur leur[forum d'assistance](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

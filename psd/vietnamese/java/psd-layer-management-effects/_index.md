@@ -3,10 +3,16 @@ title: Quản lý và hiệu ứng lớp PSD
 linktitle: Quản lý và hiệu ứng lớp PSD
 second_title: API Java Aspose.PSD
 description: Khám phá các hướng dẫn toàn diện về quản lý lớp PSD và các hiệu ứng với Aspose.PSD cho Java. Tìm hiểu cách hợp nhất, làm phẳng và tùy chỉnh các lớp PSD một cách dễ dàng.
-type: docs
 weight: 23
 url: /vi/java/psd-layer-management-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý và hiệu ứng lớp PSD
+
 ## Giới thiệu
 
 Bạn có phải là nhà phát triển đang làm việc với các tệp PSD? Việc quản lý các lớp và áp dụng hiệu ứng có thể phức tạp, nhưng với Aspose.PSD cho Java, bạn có thể hợp lý hóa các tác vụ này một cách dễ dàng. Hãy cùng đi sâu vào một số hướng dẫn thực tế để giúp bạn nâng cao kỹ năng xử lý hình ảnh trong Java.
@@ -70,3 +76,9 @@ Làm chủ kiểu văn bản PSD với Aspose.PSD cho Java. Tìm hiểu cách s�
 Thao tác đường viền thành thạo trong tệp PSD với Aspose.PSD cho Java. Tìm hiểu cách sửa đổi độ rộng đường viền, đơn vị, v.v. thông qua các bước dễ thực hiện. Nâng cao thiết kế PSD của bạn theo chương trình.
 ### [Hỗ trợ giám sát ngắt trong tệp PSD - Java](./support-interrupt-monitor-psd-files/)
 Ngắt các chuyển đổi PSD chạy dài trong Java bằng Trình theo dõi ngắt của Aspose.PSD. Tìm hiểu cách triển khai sự gián đoạn một cách duyên dáng và cải thiện trải nghiệm người dùng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

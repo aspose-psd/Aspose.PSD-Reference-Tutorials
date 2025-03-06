@@ -3,10 +3,16 @@ title: Appliquer des effets de calque dans des fichiers PSD à l'aide de Java
 linktitle: Appliquer des effets de calque dans des fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment appliquer des effets de calque dans des fichiers PSD à l'aide d'Aspose.PSD pour Java. Ce didacticiel couvre le chargement des PSD, l'accès aux calques et l'enregistrement de l'image modifiée.
-type: docs
 weight: 19
 url: /fr/java/psd-image-modification-conversion/apply-layer-effects-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer des effets de calque dans des fichiers PSD à l'aide de Java
+
 ## Introduction
 
 Avez-vous déjà rêvé de manipuler ces magnifiques chefs-d'œuvre en couches au format PSD directement via le code ? Eh bien, avec la puissance d'Aspose.PSD pour Java, ce rêve devient réalité ! Ce guide vous guidera à travers les étapes d'application d'effets de calque dans vos fichiers PSD à l'aide de Java, vous permettant d'automatiser les tâches et de débloquer un tout nouveau niveau de contrôle créatif. 
@@ -111,3 +117,9 @@ Bien qu'Aspose.PSD offre des fonctionnalités étendues pour modifier les effets
 
 ### Où puis-je trouver plus d’informations et d’assistance ?
 La documentation Aspose.PSD ([Documentation Aspose.PSD pour Java](https://reference.aspose.com/psd/java/)) est une ressource précieuse pour des informations détaillées. Si vous rencontrez des problèmes ou avez des questions, les forums Aspose ([Forum Aspose.PSD](https://forum.aspose.com/c/psd/34)) sont un excellent endroit pour demander l'aide de la communauté et le soutien d'Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

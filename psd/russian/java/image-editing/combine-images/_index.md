@@ -3,10 +3,16 @@ title: Объедините изображения с помощью Aspose.PSD 
 linktitle: Объединить изображения
 second_title: Aspose.PSD Java API
 description: Узнайте, как объединять изображения в Java с помощью Aspose.PSD. Следуйте нашему пошаговому руководству, чтобы создать бесшовную комбинацию изображений.
-type: docs
 weight: 11
 url: /ru/java/image-editing/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Объедините изображения с помощью Aspose.PSD для Java
+
 ## Введение
 
 В области программирования на Java Aspose.PSD выделяется как мощный инструмент для манипулирования и обработки изображений. Одной из его примечательных особенностей является возможность плавного объединения нескольких изображений. Это руководство проведет вас через процесс объединения двух изображений в один PSD-файл с помощью Aspose.PSD для Java.
@@ -111,3 +117,9 @@ A1: Aspose.PSD в первую очередь ориентирован на фо
 ### Вопрос 5: Где я могу найти поддержку для запросов, связанных с Aspose.PSD?
 
  A5: Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

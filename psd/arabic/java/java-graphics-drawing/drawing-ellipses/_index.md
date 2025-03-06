@@ -3,10 +3,16 @@ title: رسم القطع الناقص في جافا
 linktitle: رسم القطع الناقص في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية رسم الأشكال البيضاوية في Java باستخدام Aspose.PSD لتصميم رسومي دقيق ومعالجة الصور. إتقان الدروس خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/java/java-graphics-drawing/drawing-ellipses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم القطع الناقص في جافا
+
 ## مقدمة
 في هذا البرنامج التعليمي، ستتعلم كيفية رسم الأشكال البيضاوية باستخدام Aspose.PSD لـ Java. Aspose.PSD هي مكتبة قوية تسمح لمطوري Java بالعمل مع ملفات PSD ومعالجة الصور بسهولة. يعد رسم الأشكال مثل القطع الناقص مهمة أساسية في معالجة الصور والتصميم الجرافيكي. باتباع هذا الدليل، ستكتسب خبرة عملية في إنشاء علامات الحذف برمجيًا باستخدام Aspose.PSD.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ image.save(outputPath, saveOptions);
 يدعم Aspose.PSD حفظ الصور بتنسيقات مختلفة بما في ذلك BMP وPNG وJPEG وPSD.
 ### هل Aspose.PSD مناسب للاستخدام المؤسسي؟
 نعم، تم تصميم Aspose.PSD لمهام معالجة الصور الاحترافية وعلى مستوى المؤسسات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

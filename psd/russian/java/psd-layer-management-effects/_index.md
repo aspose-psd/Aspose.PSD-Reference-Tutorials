@@ -3,10 +3,16 @@ title: Управление слоями PSD и эффекты
 linktitle: Управление слоями PSD и эффекты
 second_title: Aspose.PSD Java API
 description: Изучите подробные руководства по управлению слоями PSD и эффектам с помощью Aspose.PSD для Java. Научитесь легко объединять, выравнивать и настраивать слои PSD.
-type: docs
 weight: 23
 url: /ru/java/psd-layer-management-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление слоями PSD и эффекты
+
 ## Введение
 
 Вы разработчик, работающий с PSD-файлами? Управление слоями и применение эффектов может оказаться непростым делом, но с помощью Aspose.PSD для Java вы можете легко упростить эти задачи. Давайте углубимся в несколько практических руководств, которые помогут вам улучшить свои навыки работы с изображениями в Java.
@@ -70,3 +76,9 @@ PSD-файлы часто содержат различные эффекты, т
 Научитесь манипулировать границами в PSD-файлах с помощью Aspose.PSD для Java. Научитесь изменять ширину границы, единицы измерения и многое другое, выполнив простые шаги. Усовершенствуйте свои PSD-проекты программно.
 ### [Поддержка монитора прерываний в PSD-файлах — Java](./support-interrupt-monitor-psd-files/)
 Прерывайте длительные преобразования PSD в Java с помощью монитора прерываний Aspose.PSD. Узнайте, как реализовать плавное прерывание и улучшить взаимодействие с пользователем.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

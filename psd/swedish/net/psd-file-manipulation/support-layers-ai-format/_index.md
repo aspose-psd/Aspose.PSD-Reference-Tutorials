@@ -3,10 +3,16 @@ title: Stödjer lager i AI-format med Aspose.PSD för .NET
 linktitle: Stödjer lager i AI-format med Aspose.PSD för .NET
 second_title: Aspose.PSD .NET API
 description: Lär dig hantera AI-formatlager utan ansträngning med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för sömlös integration och manipulation.
-type: docs
 weight: 10
 url: /sv/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stödjer lager i AI-format med Aspose.PSD för .NET
+
 Välkommen till vår steg-för-steg-guide om hur du använder Aspose.PSD för .NET för att hantera stödjande lager i AI-formatfiler. Aspose.PSD förenklar komplexa uppgifter, vilket gör det lättare för utvecklare att arbeta med AI-filer i sina .NET-applikationer. I den här självstudien kommer vi att täcka förutsättningarna, importera namnutrymmen och dela upp varje exempel i flera steg för att säkerställa en sömlös inlärningsupplevelse.
 ## Introduktion
 ### Vad är Aspose.PSD?
@@ -85,3 +91,9 @@ S2: Ja, Aspose.PSD tillhandahåller funktionalitet för att arbeta med textlager
 ### F5: Vilka bildformat stöds för att spara av Aspose.PSD?
 
 S5: Aspose.PSD stöder olika format, inklusive PSD, PNG, JPEG och mer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

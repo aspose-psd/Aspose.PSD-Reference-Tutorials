@@ -3,10 +3,16 @@ title: Support Lspf Resource in PSD Files using Java
 linktitle: Support Lspf Resource in PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Master how to support and manipulate Lspf Resource in PSD files using Aspose.PSD for Java with our step-by-step guide.
-type: docs
 weight: 14
 url: /java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Support Lspf Resource in PSD Files using Java
+
 ## Introduction
 
 Are you a developer looking to dive into the world of PSD file manipulation? Well, you've come to the right place! When working with PSD files, you often need to handle various layer resources, such as the LspfResource. This resource is crucial for managing layer protection settings like composite, position, and transparency protections in a PSD file. In this comprehensive tutorial, we’ll explore how to support and manipulate the LspfResource in PSD files using Java with the help of Aspose.PSD for Java.
@@ -182,3 +188,10 @@ If you don’t verify the changes, there’s a risk that the settings might not 
 
 ### Can I undo changes made to LspfResource after saving the file?  
 Once the file is saved, undoing changes directly is not possible. However, you can reload the original file and reapply the changes as needed.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

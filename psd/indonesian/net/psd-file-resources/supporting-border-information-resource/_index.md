@@ -3,10 +3,16 @@ title: Mendukung Sumber Informasi Perbatasan di Aspose.PSD untuk .NET
 linktitle: Mendukung Sumber Informasi Perbatasan
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi Aspose.PSD untuk fitur Sumber Informasi Perbatasan .NET untuk pencitraan yang ditingkatkan. Ikuti tutorial kami untuk integrasi yang lancar. Unduh sekarang!
-type: docs
 weight: 11
 url: /id/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Informasi Perbatasan di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan fitur Sumber Daya Informasi Perbatasan di Aspose.PSD untuk .NET. Dalam tutorial ini, kami akan memandu Anda melalui proses bekerja dengan Sumber Daya Informasi Perbatasan menggunakan Aspose.PSD, perpustakaan pencitraan .NET yang kuat. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini bertujuan untuk memberikan kejelasan dalam menggabungkan Sumber Daya Informasi Perbatasan dengan lancar ke dalam proyek Anda.
 ## Prasyarat
@@ -89,3 +95,9 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET.
 ### Q5: Apakah lisensi sementara tersedia?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

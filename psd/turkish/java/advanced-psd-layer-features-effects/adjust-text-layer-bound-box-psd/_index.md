@@ -3,10 +3,16 @@ title: Java kullanarak PSD'de Metin Katmanı Bağlı Kutuyu Ayarlama
 linktitle: Java kullanarak PSD'de Metin Katmanı Bağlı Kutuyu Ayarlama
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java kullanarak PSD dosyalarındaki metin katmanı sınırlarını ayarlamayı öğrenin. Adım adım talimatlar içeren basit kılavuz.
-type: docs
 weight: 25
 url: /tr/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PSD'de Metin Katmanı Bağlı Kutuyu Ayarlama
+
 ## giriiş
 Photoshop belgelerinin programlı olarak işlenmesi söz konusu olduğunda, Java için Aspose.PSD kütüphanesi göz kamaştırıyor. Bir PSD dosyasındaki metin katmanının sınırlarını ayarlamak istiyorsanız doğru yere geldiniz! Bu eğitim, Java kullanarak metin katmanının ilişkili kutusunu ayarlama sürecinde size adım adım yol gösterecektir.
 Takip edilmesi kolay örnekler ve işleri ilgi çekici kılmak için konuşma tonuyla, PSD dosyalarını değiştirmenin sanıldığı kadar göz korkutucu olmadığını göreceksiniz. İster deneyimli bir geliştirici olun ister Java'ya yeni başlıyor olun, burada değerli bilgiler bulacaksınız. PSD manipülasyonunun heyecan verici dünyasına dalalım.
@@ -80,3 +86,9 @@ Evet, Aspose.PSD, Java'nın yanı sıra .NET ve Python da dahil olmak üzere çe
 Destek ve topluluk tartışmalarını kendi sitelerinde bulabilirsiniz.[Aspose Forumu](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD'nin deneme sürümü mevcut mu?
  Evet! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Web sitesi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

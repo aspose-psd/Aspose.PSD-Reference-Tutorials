@@ -3,10 +3,16 @@ title: Dodaj warstwę dopasowania krzywych w PSD przy użyciu Java
 linktitle: Dodaj warstwę dopasowania krzywych w PSD przy użyciu Java
 second_title: Aspose.PSD API Java
 description: W tym szczegółowym samouczku dowiesz się, jak dodać warstwę dopasowania krzywych do pliku PSD przy użyciu Aspose.PSD dla Java. Z łatwością ulepszaj swoje obrazy.
-type: docs
 weight: 11
 url: /pl/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj warstwę dopasowania krzywych w PSD przy użyciu Java
+
 ## Wstęp
 Czy kiedykolwiek utknąłeś podczas próby manipulowania obrazami w formacie PSD? Niezależnie od tego, czy jesteś początkującym grafikiem, czy doświadczonym profesjonalistą, praca z plikami programu Photoshop może czasami przypominać poruszanie się po labiryncie. Na szczęście istnieje narzędzie, które upraszcza ten proces - Aspose.PSD dla Java. W tym samouczku omówimy, jak dodać warstwę dopasowania krzywych do pliku PSD za pomocą Aspose.PSD, dzięki czemu zadania edycji obrazu będą łatwiejsze i wydajniejsze. Dzięki wskazówkom krok po kroku będziesz w stanie ulepszać swoje obrazy jak profesjonalista, nie zagłębiając się w zawiłości tradycyjnie kojarzone z manipulacją obrazami.
 ## Warunki wstępne
@@ -94,3 +100,9 @@ Nie, nie potrzebujesz zainstalowanego programu Photoshop na swoim komputerze, ab
 Absolutnie! Aspose.PSD umożliwia manipulowanie różnymi typami warstw w plikach PSD.
 ### Gdzie mogę znaleźć więcej dokumentacji?
  Szczegółową dokumentację znajdziesz na stronie[Aspose.PSD dla dokumentów Java](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

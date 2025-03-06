@@ -3,10 +3,16 @@ title: Aspose.PSD for Java kullanarak PNG Dosyalarını Sıkıştırın
 linktitle: Aspose.PSD for Java kullanarak PNG Dosyalarını Sıkıştırın
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PNG dosyalarını verimli bir şekilde sıkıştırmayı öğrenin. Bu eğitim, en iyi dosya işlemeyi sağlayarak kod uygulaması boyunca size rehberlik eder.
-type: docs
 weight: 12
 url: /tr/java/optimizing-png-files/compress-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java kullanarak PNG Dosyalarını Sıkıştırın
+
 ## giriiş
 
 Yazılım geliştirmede görüntülerin işlenmesi söz konusu olduğunda öne çıkan araçlardan biri Aspose.PSD for Java'dır. Bu güçlü kitaplık, geliştiricilerin Photoshop dosyalarını (PSD) sorunsuz bir şekilde işlemesine olanak tanır. İster bir web sitesi için görselleri optimize ediyor, ister yükleme sürelerini artırıyor, ister grafiklerinizden en iyi kaliteyi elde ediyor olun, bu kütüphaneyi etkili bir şekilde nasıl kullanacağınızı anlamak oyunun kurallarını değiştirebilir. Bu eğitimde, Aspose.PSD for Java kullanarak PNG dosyalarını sıkıştırmak gibi pratik bir örneğe bakacağız. Hadi başlayalım!
@@ -111,3 +117,9 @@ Dosya yollarınızı bir kez daha kontrol edin, gerekli içe aktarma işlemlerin
 
 ### Aspose.PSD for Java hakkında daha fazla belgeyi nerede bulabilirim?  
  Ayrıntılı belgeleri ve örnekleri şu adreste bulabilirsiniz:[Aspose.PSD referansı](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

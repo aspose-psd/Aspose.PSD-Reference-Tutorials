@@ -3,10 +3,16 @@ title: Buat File PSD Terindeks menggunakan Aspose.PSD untuk Java
 linktitle: Buat File PSD Terindeks menggunakan Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara membuat file PSD yang diindeks dengan Aspose.PSD untuk Java dalam panduan langkah demi langkah kami. Bergabunglah sekarang untuk menjelajahi kemungkinan artistik tanpa batas.
-type: docs
 weight: 23
 url: /id/java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat File PSD Terindeks menggunakan Aspose.PSD untuk Java
+
 ## Perkenalan
 Membuat grafik secara terprogram bukan hanya sebuah seni; itu adalah perpaduan antara teknologi dan imajinasi. Salah satu alat canggih dalam domain kreatif ini adalah Aspose.PSD untuk Java, perpustakaan yang sangat mumpuni yang memungkinkan pengembang memanipulasi dokumen Photoshop. Dalam tutorial ini, kita akan mendalami cara membuat file PSD yang diindeks menggunakan Aspose.PSD, lengkap dengan panduan langkah demi langkah untuk membantu Anda memulai. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan coding, panduan ini akan memandu Anda melalui prosesnya dengan lancar.
 ## Prasyarat
@@ -108,3 +114,9 @@ Tidak, Anda dapat membuat dan memanipulasi file PSD tanpa Photoshop, karena Aspo
  Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD?
  Anda bisa mendapatkan dukungan dari forum Aspose[Di Sini](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Appliquer des calques de réglage dans des fichiers PSD à l'aide de Java
 linktitle: Appliquer des calques de réglage dans des fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à appliquer des calques de réglage dans les fichiers PSD à l'aide d'Aspose.PSD pour Java dans ce guide complet étape par étape pour les développeurs.
-type: docs
 weight: 15
 url: /fr/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer des calques de réglage dans des fichiers PSD à l'aide de Java
+
 ## Introduction
 Êtes-vous un développeur Java cherchant à améliorer les images stockées dans des fichiers PSD ? Si c'est le cas, vous êtes au bon endroit ! Dans cet article, nous verrons comment appliquer des calques de réglage dans les fichiers PSD à l'aide de la bibliothèque Aspose.PSD pour Java. Que vous travailliez sur un projet personnel ou sur une application professionnelle, comprendre comment manipuler les fichiers PSD peut augmenter considérablement les capacités de votre logiciel. 
 
@@ -97,3 +103,9 @@ Non, vous n'avez pas besoin de Photoshop. Aspose.PSD fonctionne indépendamment 
 Vous pouvez visiter la page de documentation[ici](https://reference.aspose.com/psd/java/) pour explorer les fonctionnalités, les classes et les méthodes.
 ### Comment puis-je obtenir de l'aide pour les produits Aspose ?
  Vous pouvez accéder à l'assistance via le[Forum Aspose](https://forum.aspose.com/c/psd/34) où vous pouvez poser des questions et trouver des solutions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Práce s časovou osou v Aspose.PSD pro .NET
 linktitle: Práce s časovou osou
 second_title: Aspose.PSD .NET API
 description: Vylepšete manipulaci s obrázky PSD pomocí třídy Aspose.PSD for .NET Timeline. Ovládejte vlastnosti rámce, stavy vrstev a uvolněte kreativní možnosti bez námahy.
-type: docs
 weight: 16
 url: /cs/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s časovou osou v Aspose.PSD pro .NET
+
 ## Zavedení
 dynamickém světě grafického designu a manipulace s obrázky je schopnost ovládat a manipulovat s časovou osou obrázků zásadní. Aspose.PSD for .NET poskytuje výkonné řešení se svou třídou Timeline. Tato funkce na vysoké úrovni umožňuje uživatelům provádět změny na časové ose PsdImage, jako je změna zpoždění snímku, úprava stavu vrstev na konkrétních snímcích a další.
 ## Předpoklady
@@ -108,3 +114,9 @@ A2: Třída Timeline je speciálně navržena pro obrázky PSD. Informace o mani
 ### Q5: Jaké jsou hlavní výhody používání Aspose.PSD pro .NET?
 
 Odpověď 5: Aspose.PSD for .NET nabízí pokročilé možnosti zpracování obrazu, manipulaci se soubory PSD a vysoce výkonné vykreslování.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

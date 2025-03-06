@@ -3,10 +3,16 @@ title: PSD에 채널 믹서 조정 레이어 추가
 linktitle: PSD에 채널 믹서 조정 레이어 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 채널 믹서 조정 레이어로 PSD 파일을 향상하세요. 생생한 이미지를 위한 색상 조작 기술을 단계별로 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에 채널 믹서 조정 레이어 추가
+
 ## 소개
 그래픽 디자인의 세계는 가능성으로 가득 차 있지만 때로는 완벽한 모습을 얻는 것이 지도 없이 울창한 숲을 헤매는 것처럼 느껴질 수도 있습니다. 이미지에 "와우" 요소가 부족하다고 느낀 적이 있습니까? 글쎄, 조정 레이어가 작동하는 곳입니다! 오늘은 Java용 Aspose.PSD를 사용하여 채널 믹서 조정 레이어를 추가하는 방법을 살펴보겠습니다. 이것은 PSD 파일의 색상을 정밀하게 조정하여 이미지를 돋보이고 인상적으로 만들 수 있는 멋진 도구입니다.
 
@@ -167,3 +173,9 @@ Aspose.PSD는 주로 PSD 파일 작업을 위해 설계되었지만 Aspose 제�
 
 ### Aspose.PSD에 대한 임시 라이센스를 얻을 수 있는 방법이 있나요?
  예! 임시면허를 신청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

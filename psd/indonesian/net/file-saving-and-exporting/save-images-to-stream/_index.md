@@ -3,10 +3,16 @@ title: Menyimpan Gambar ke Streaming dengan Aspose.PSD untuk .NET
 linktitle: Menyimpan Gambar ke Streaming dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan Aspose.PSD untuk .NET dan pelajari cara menyimpan gambar ke aliran dengan mudah. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/net/file-saving-and-exporting/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan Gambar ke Streaming dengan Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET yang terus berkembang, Aspose.PSD menonjol sebagai alat yang ampuh untuk menangani gambar dengan presisi dan efisiensi. Jika Anda ingin menyimpan gambar ke aliran menggunakan Aspose.PSD untuk .NET, Anda berada di tempat yang tepat. Tutorial ini akan memandu Anda melalui prosesnya, membaginya menjadi langkah-langkah yang mudah diikuti.
@@ -91,3 +97,9 @@ Selamat! Anda telah berhasil mempelajari cara menyimpan gambar ke aliran menggun
 ### Q5: Dimana saya bisa membeli Aspose.PSD?
 
  A5: Anda dapat membeli Aspose.PSD[Di Sini](https://purchase.aspose.com/buy) untuk membuka potensi penuhnya untuk kebutuhan pengembangan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

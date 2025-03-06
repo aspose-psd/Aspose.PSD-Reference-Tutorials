@@ -3,10 +3,16 @@ title: Lijnlaag met verloop toevoegen in Aspose.PSD voor .NET
 linktitle: Lijnlaag met verloop toevoegen
 second_title: Aspose.PSD .NET-API
 description: Leer hoe u een verlooplaag met verloop toevoegt in Aspose.PSD voor .NET. Verbeter uw vaardigheden op het gebied van beeldmanipulatie met deze uitgebreide tutorial.
-type: docs
 weight: 12
 url: /nl/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijnlaag met verloop toevoegen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Als u uw .NET-applicaties wilt verbeteren met verbluffende grafische effecten, is Aspose.PSD voor .NET uw beste oplossing. In deze zelfstudie verdiepen we ons in het proces van het toevoegen van een lijnlaag met een verloop met behulp van Aspose.PSD voor .NET. Met deze stapsgewijze handleiding kunt u de visuele aantrekkingskracht van uw afbeeldingen moeiteloos verbeteren.
@@ -119,3 +125,9 @@ A1: Ja, Aspose.PSD voor .NET is compatibel met verschillende .NET-frameworks.
 ### V5: Hoe koop ik een licentie voor Aspose.PSD voor .NET?
 
  A5: U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

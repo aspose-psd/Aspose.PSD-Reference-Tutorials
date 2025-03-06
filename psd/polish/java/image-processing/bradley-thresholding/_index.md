@@ -3,10 +3,16 @@ title: Bradley Thresholding w Aspose.PSD dla Java
 linktitle: Próg Bradleya
 second_title: Aspose.PSD API Java
 description: Popraw jakość obrazu dzięki Bradley Thresholding w Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywną binaryzację obrazu.
-type: docs
 weight: 16
 url: /pl/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bradley Thresholding w Aspose.PSD dla Java
+
 ## Wstęp
 
 Witamy w tym obszernym przewodniku na temat wdrażania Bradley Thresholding w Aspose.PSD dla Java. Ten samouczek przeprowadzi Cię przez proces stosowania funkcji Bradley Thresholding w celu poprawy jakości zdjęć. Aspose.PSD dla Java zapewnia potężny zestaw narzędzi do przetwarzania obrazów, a Bradley Thresholding to cenna technika binaryzacji obrazów.
@@ -99,3 +105,9 @@ O4: Tak, możesz skorzystać z dodatkowych metod dostarczonych przez Aspose.PSD,
 ### P5: Gdzie mogę znaleźć więcej wsparcia i zasobów?
 
  A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) o wsparcie społeczności i poznaj[dokumentacja](https://reference.aspose.com/psd/java/) aby uzyskać szczegółowe informacje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

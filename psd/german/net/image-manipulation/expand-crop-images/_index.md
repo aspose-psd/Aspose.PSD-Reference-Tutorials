@@ -3,10 +3,16 @@ title: Erweitern und Zuschneiden von Bildern in Aspose.PSD für .NET
 linktitle: Bilder vergrößern und zuschneiden
 second_title: Aspose.PSD .NET API
 description: Erfahren Sie, wie Sie Bilder mit Aspose.PSD für .NET dynamisch erweitern und zuschneiden. Folgen Sie unserer Schritt-für-Schritt-Anleitung zur nahtlosen Bildbearbeitung.
-type: docs
 weight: 13
 url: /de/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erweitern und Zuschneiden von Bildern in Aspose.PSD für .NET
+
 ## Einführung
 
 Aspose.PSD für .NET ist eine umfassende Bildbibliothek, die es Entwicklern ermöglicht, in ihren .NET-Anwendungen mit verschiedenen Bildformaten zu arbeiten. Eines ihrer herausragenden Merkmale ist die Möglichkeit, Bilder mühelos zu bearbeiten. In diesem Tutorial konzentrieren wir uns auf das Erweitern und Zuschneiden von Bildern und bieten Ihnen eine praktische Anleitung zum Erledigen dieser Aufgaben mit Aspose.PSD.
@@ -98,3 +104,9 @@ A1: Ja, Aspose.PSD unterstützt eine Vielzahl von Bildformaten, darunter JPEG, P
 ### F5: Wo kann ich Aspose.PSD für .NET kaufen?
 
  A5: Die Bibliothek gibt es im[Aspose.PSD-Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

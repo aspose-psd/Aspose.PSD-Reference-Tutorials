@@ -3,10 +3,16 @@ title: ميزات وتأثيرات طبقة PSD المتقدمة
 linktitle: ميزات وتأثيرات طبقة PSD المتقدمة
 second_title: Aspose.PSD جافا API
 description: اكتشف ميزات وتأثيرات طبقة PSD المتقدمة باستخدام Aspose.PSD لـ Java. تعلم كيفية التعامل مع الطبقات وإضافة التأثيرات ودعم الموارد المتنوعة في ملفات PSD.
-type: docs
 weight: 24
 url: /ar/java/advanced-psd-layer-features-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ميزات وتأثيرات طبقة PSD المتقدمة
+
 ## مقدمة
 
 هل تتطلع إلى إطلاق الإمكانات الكاملة لملفات PSD باستخدام Java؟ سواء كنت مطورًا متمرسًا أو بدأت للتو، فإن إتقان معالجة ملفات PSD يمكن أن يعزز مشاريعك بشكل كبير. مع Aspose.PSD لـ Java، لديك مكتبة قوية في متناول يدك تسمح لك بالتعمق في طبقات وتأثيرات PSD، مما يتيح لك إنشاء ملفات رسومية معقدة وإدارتها دون عناء.
@@ -111,3 +117,9 @@ url: /ar/java/advanced-psd-layer-features-effects/
 تعرف على كيفية تحديث طبقات النص في ملفات PSD بسهولة باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لتحرير النص بسلاسة.
 ### [استخدم أداة تحميل البيانات الأولية المخصصة في ملفات PSD - Java](./use-custom-raw-data-loader-psd-files/)
 تعرف على كيفية استخدام أداة تحميل البيانات الأولية المخصصة في ملفات PSD باستخدام Java! يغطي هذا الدليل خطوة بخطوة كل شيء بدءًا من الإعداد وحتى تنظيف الموارد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

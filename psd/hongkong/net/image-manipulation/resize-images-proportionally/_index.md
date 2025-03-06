@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中按比例調整影像大小
 linktitle: 按比例調整影像大小
 second_title: Aspose.PSD .NET API
 description: 探索使用 Aspose.PSD for .NET 無縫調整圖片大小。下載該庫，按照我們的教程進行操作，並增強您的圖像處理能力。
-type: docs
 weight: 14
 url: /zh-hant/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中按比例調整影像大小
+
 在影像處理領域，Aspose.PSD for .NET 作為一個強大的工具包脫穎而出，為開發人員提供了輕鬆按比例調整影像大小的功能。在本逐步指南中，我們將引導您完成使用 Aspose.PSD for .NET 調整影像大小的過程，確保您的影像完美地保持其比例。
 
 ## 介紹
@@ -100,3 +106,9 @@ A3：是的，Aspose.PSD for .NET 提供了廣泛的功能，包括裁剪、旋�
 ### Q5：在哪裡可以找到 Aspose.PSD for .NET 支援？
 
  A5：訪問[Aspose.PSD for .NET 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

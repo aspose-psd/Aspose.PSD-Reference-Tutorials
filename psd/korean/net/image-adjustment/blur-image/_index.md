@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 이미지 흐리게 하기
 linktitle: 이미지 흐리게 하기
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 손쉽게 이미지를 흐리게 하는 방법을 알아보세요. C# 프로젝트에서 원활한 이미지 조작을 위한 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 이미지 흐리게 하기
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.PSD는 이미지 조작을 위한 강력한 동맹임이 입증되었습니다. 이 튜토리얼은 .NET용 Aspose.PSD를 사용하여 이미지를 흐리게 하는 특정 작업에 중점을 둡니다. 이미지 처리 기술을 강화하고 싶거나 단순히 프로그래밍 방식으로 이미지를 흐리게 하는 효율적인 방법을 찾고 있다면 잘 찾아오셨습니다.
@@ -97,3 +103,9 @@ A4: 물론이죠! Aspose.PSD는 크기 조정, 자르기, 색상 조정을 포�
 ### Q5: 어디서 도움을 구하거나 Aspose.PSD 커뮤니티에 연결할 수 있나요?
 
  A5: 질문이나 토론이 있는 경우[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 將影像旋轉特定角度
 linktitle: 將影像旋轉特定角度
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 探索 Java 中的影像旋轉。輕鬆地將影像旋轉到特定角度。
-type: docs
 weight: 20
 url: /zh-hant/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 將影像旋轉特定角度
+
 ## 介紹
 
 在 Java 開發的動態世界中，操作圖像是各種應用程式的常見需求。 Aspose.PSD for Java 成為一個強大的解決方案，提供強大的功能來輕鬆處理影像旋轉。在本教程中，我們將引導您完成使用 Aspose.PSD for Java 將圖像旋轉特定角度的過程。在深入了解細節之前，讓我們先來了解一些先決條件。
@@ -117,3 +123,9 @@ Aspose.PSD for Java 主要關注後端影像處理。對於即時影像預覽，
 ### Q5：是否有 Aspose.PSD 社群論壇可供我尋求協助？
 
 是的，您可以訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)與社區互動、提出問題並尋求協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD Java를 사용하여 PSD 레이어의 채우기 불투명도 �
 linktitle: Aspose.PSD Java를 사용하여 PSD 레이어의 채우기 불투명도 설정
 second_title: Aspose.PSD 자바 API
 description: 이 단계별 가이드에서 Java용 Aspose.PSD를 사용하여 PSD 레이어의 채우기 불투명도를 설정하는 방법을 알아보세요. 그래픽 디자인 프로젝트를 효율적으로 향상하세요.
-type: docs
 weight: 13
 url: /ko/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java를 사용하여 PSD 레이어의 채우기 불투명도 설정
+
 ## 소개
 완벽한 시각적 효과를 얻기 위해 디자인 파일을 수정하는 경우가 자주 있습니까? 숙련된 그래픽 디자이너이든 PSD 파일을 조작하려는 신진 개발자이든 레이어 속성을 조정하는 방법을 알면 큰 차이를 만들 수 있습니다. 오늘은 Aspose.PSD for Java를 사용하여 PSD 파일의 레이어 채우기 불투명도를 설정하는 방법에 대해 자세히 알아 보겠습니다. 레이어를 눈길을 끄는 작품으로 바꿀 준비가 되셨나요? 시작해 봅시다!
 ## 전제조건
@@ -74,3 +80,9 @@ im.save(exportPath);
 채우기 불투명도 외에도 Aspose.PSD를 사용하여 레이어 가시성, 혼합 모드, 위치, 크기 등을 조작할 수 있습니다.
 ### Java용 Aspose.PSD에 대한 추가 문서는 어디서 찾을 수 있나요?
  종합 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

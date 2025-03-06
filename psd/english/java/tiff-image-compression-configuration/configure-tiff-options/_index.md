@@ -3,10 +3,16 @@ title: Configure TIFF Options in Aspose.PSD for Java
 linktitle: Configure TIFF Options in Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to configure TIFF options in Aspose.PSD for Java with a step-by-step guide. Master image manipulation by saving PSD files as high-quality TIFFs.
-type: docs
 weight: 11
 url: /java/tiff-image-compression-configuration/configure-tiff-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configure TIFF Options in Aspose.PSD for Java
+
 ## Introduction
 
 We'll start by discussing the prerequisites you'll need to have in place before diving into the coding. Then, we'll move on to importing the necessary packages and, finally, guide you through a step-by-step tutorial on configuring TIFF options in your PSD files. By the end of this article, you'll not only understand the process but also have practical experience in applying it.
@@ -86,3 +92,9 @@ To ensure the best quality, choose a lossless compression format like LZW or ZIP
 
 ### Do I need a license to use Aspose.PSD for Java?
 Yes, Aspose.PSD for Java requires a valid license. You can obtain a temporary license for evaluation purposes from the Aspose website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

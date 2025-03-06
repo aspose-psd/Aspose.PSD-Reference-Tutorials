@@ -3,10 +3,16 @@ title: Gérer la couche de réglage de l'exposition dans PSD à l'aide de Java
 linktitle: Gérer la couche de réglage de l'exposition dans PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Améliorez vos images PSD sans effort avec Java en utilisant Aspose.PSD. Suivez ce guide pour gérer les calques de réglage de l'exposition étape par étape.
-type: docs
 weight: 23
 url: /fr/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer la couche de réglage de l'exposition dans PSD à l'aide de Java
+
 ## Introduction
 Lorsqu'il s'agit de travailler avec des fichiers Photoshop par programmation, surtout si vous vous lancez dans l'édition ou la manipulation d'images, la bibliothèque Aspose.PSD pour Java change vraiment la donne. L'une des fonctionnalités puissantes que vous pouvez utiliser est le calque de réglage de l'exposition, qui vous permet d'améliorer ou de modifier les paramètres d'exposition de vos images de manière simple et efficace. Ce didacticiel vous guidera à travers chaque étape de la gestion des calques de réglage de l'exposition dans un fichier PSD à l'aide de Java.
 ## Conditions préalables
@@ -92,3 +98,9 @@ Oui, Aspose.PSD peut être intégré aux applications Web, permettant la manipul
  Vous pouvez accéder au support de la communauté sur les forums Aspose[ici](https://forum.aspose.com/c/psd/34).
 ### Existe-t-il un exemple de projet disponible pour commencer ?
  Oui, vous pouvez trouver des exemples de projets et de la documentation sur le[Page de référence Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

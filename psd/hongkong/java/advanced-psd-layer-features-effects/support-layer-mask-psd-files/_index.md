@@ -3,10 +3,16 @@ title: 使用 Java 支援 PSD 檔案中的圖層蒙版
 linktitle: 使用 Java 支援 PSD 檔案中的圖層蒙版
 second_title: Aspose.PSD Java API
 description: 透過全面的逐步教程，了解如何使用 Aspose.PSD for Java 支援 PSD 檔案中的圖層蒙版。
-type: docs
 weight: 18
 url: /zh-hant/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 支援 PSD 檔案中的圖層蒙版
+
 ## 介紹
 在處理 PSD 檔案時，圖層蒙版在增強設計和簡化創意工作流程方面發揮關鍵作用。在本教程中，我們將深入探討如何使用 Java 的 Aspose.PSD 庫支援圖層蒙版。如果您是一位有抱負的開發人員、設計師或希望以程式設計方式操作 PSD 檔案的人，那麼您來對地方了！我們將指導您完成先決條件、匯入必要的套件，並逐步完成將具有複雜遮罩的 PSD 匯出為 PNG 格式所需的步驟。讓我們開始吧！
 ## 先決條件
@@ -83,3 +89,9 @@ Aspose.PSD 提供免費試用版，可從其網站下載。為了持續使用，
 如果您的 PSD 檔案不包含任何蒙版，匯出仍然會成功，但您不會看到圖層蒙版提供的任何效果。
 ### 如果我遇到問題，我可以在哪裡獲得支援？  
 如有任何疑問或問題，您可以訪問[支援論壇](https://forum.aspose.com/c/psd/34)尋求 Aspose 支援和用戶社群的幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

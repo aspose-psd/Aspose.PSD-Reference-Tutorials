@@ -3,10 +3,16 @@ title: Prise en charge de la ressource Nvrt dans les fichiers PSD à l'aide de J
 linktitle: Prise en charge de la ressource Nvrt dans les fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment prendre en charge les ressources Nvrt dans les fichiers PSD à l'aide de Java. Apprenez à charger des fichiers et à extraire des ressources précieuses sans effort avec Aspose.PSD.
-type: docs
 weight: 10
 url: /fr/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de la ressource Nvrt dans les fichiers PSD à l'aide de Java
+
 ## Introduction
 Lorsqu'il s'agit de travailler avec des fichiers Photoshop (PSD) en Java, vous pouvez faire d'innombrables choses. Que vous développiez un éditeur graphique, automatisiez des tâches ou gériez des conceptions par programme, il est crucial de comprendre comment manipuler les fichiers PSD. Dans ce guide, nous abordons un aspect spécifique : la prise en charge de la ressource Nvrt (Invert Adjustment) dans les fichiers PSD à l'aide de la bibliothèque Aspose.PSD pour Java.
 ## Conditions préalables
@@ -90,3 +96,9 @@ Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de manip
  Absolument! Vous pouvez obtenir un essai gratuit d'Aspose.PSD pour Java[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l'aide pour Aspose.PSD ?
  Vous pouvez poser des questions et obtenir de l'aide sur le forum Aspose :[Aspose le support](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

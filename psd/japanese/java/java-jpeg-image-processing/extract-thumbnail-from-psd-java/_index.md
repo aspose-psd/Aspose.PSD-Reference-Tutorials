@@ -3,10 +3,16 @@ title: JavaでPSDからサムネイルを抽出する
 linktitle: JavaでPSDからサムネイルを抽出する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイルからサムネイルを抽出する方法を学びます。このステップバイステップ ガイドでは、セットアップから抽出した画像の保存まですべてをカバーしています。
-type: docs
 weight: 15
 url: /ja/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# JavaでPSDからサムネイルを抽出する
+
 ## 導入
 このチュートリアルでは、Aspose.PSD for Java を使用して PSD ファイルからサムネイルを抽出する方法について説明します。サムネイルは、簡単なプレビューや、PSD ドキュメントに埋め込まれた画像の小さいバージョンを作成する場合に便利です。Aspose.PSD を使用してこれを実現するために必要な手順について詳しく見ていきましょう。
 ## 前提条件
@@ -73,3 +79,9 @@ Aspose.PSD は、開発者が PSD やその他の画像ファイル形式をプ�
 一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD は商用利用に適していますか?
 はい、Aspose.PSD はライセンス条件に従って個人プロジェクトと商用プロジェクトの両方に使用できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

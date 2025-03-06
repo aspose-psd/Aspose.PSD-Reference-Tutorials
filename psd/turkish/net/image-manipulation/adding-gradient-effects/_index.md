@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntülere Degrade Efektleri Ekleme
 linktitle: Görüntülere Degrade Efektleri Ekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'i kullanarak görüntülerinizi büyüleyici degrade efektleriyle geliştirin. Yaratıcı görsel dönüşümler için adım adım eğitimimizi takip edin.
-type: docs
 weight: 11
 url: /tr/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntülere Degrade Efektleri Ekleme
+
 ## giriiş
 
 Görüntüleri degrade efektleriyle geliştirmek, görsel içeriğinize büyüleyici bir boyut katabilir. Aspose.PSD for .NET, görsellerinize degrade kaplamalar eklemek için güçlü bir platform sağlar. Bu eğitimde Aspose.PSD for .NET'i kullanarak degrade efektleri ekleme sürecinde size rehberlik edeceğiz.
@@ -148,3 +154,9 @@ C3: Evet, Aspose.PSD for .NET'in yeteneklerini aşağıdaki ücretsiz deneme sü
 ### S5: Aspose.PSD for .NET'i nereden satın alabilirim?
 
  Cevap5: Kütüphaneyi şu adresten satın alabilirsiniz:[Aspose.PSD for .NET Satın Alma Sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

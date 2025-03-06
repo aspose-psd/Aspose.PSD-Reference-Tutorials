@@ -3,10 +3,16 @@ title: Prise en charge de la ressource Lspf dans les fichiers PSD à l'aide de J
 linktitle: Prise en charge de la ressource Lspf dans les fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à prendre en charge et à manipuler la ressource Lspf dans les fichiers PSD à l'aide d'Aspose.PSD pour Java avec notre guide étape par étape.
-type: docs
 weight: 14
 url: /fr/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de la ressource Lspf dans les fichiers PSD à l'aide de Java
+
 ## Introduction
 
 Êtes-vous un développeur souhaitant vous plonger dans le monde de la manipulation de fichiers PSD ? Eh bien, vous êtes au bon endroit ! Lorsque vous travaillez avec des fichiers PSD, vous devez souvent gérer diverses ressources de couche, telles que LspfResource. Cette ressource est cruciale pour gérer les paramètres de protection des calques tels que les protections de composition, de position et de transparence dans un fichier PSD. Dans ce didacticiel complet, nous explorerons comment prendre en charge et manipuler LspfResource dans les fichiers PSD à l'aide de Java à l'aide d'Aspose.PSD pour Java.
@@ -182,3 +188,9 @@ Si vous ne vérifiez pas les modifications, il existe un risque que les paramèt
 
 ### Puis-je annuler les modifications apportées à LspfResource après avoir enregistré le fichier ?  
 Une fois le fichier enregistré, il n’est pas possible d’annuler directement les modifications. Cependant, vous pouvez recharger le fichier d'origine et réappliquer les modifications si nécessaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

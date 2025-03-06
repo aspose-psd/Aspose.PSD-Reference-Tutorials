@@ -3,10 +3,16 @@ title: Сохранение изображений на диск с помощь
 linktitle: Сохранение изображений на диск с помощью Aspose.PSD для .NET
 second_title: Aspose.PSD .NET API
 description: Узнайте, как сохранять изображения на диск с помощью Aspose.PSD для .NET. Следуйте этому пошаговому руководству для эффективной обработки изображений.
-type: docs
 weight: 10
 url: /ru/net/file-saving-and-exporting/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранение изображений на диск с помощью Aspose.PSD для .NET
+
 ## Введение
 
 В динамичном мире разработки .NET Aspose.PSD выделяется как надежное решение для беспрепятственной обработки изображений PSD. Это руководство проведет вас через процесс сохранения изображений на диск с помощью Aspose.PSD для .NET. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь программирования, это пошаговое руководство поможет вам эффективно использовать возможности Aspose.PSD.
@@ -90,3 +96,9 @@ Aspose.PSD для .NET упрощает задачи обработки изоб
 ### Вопрос 5: Где я могу приобрести Aspose.PSD для .NET?
 
  A5: Вы можете купить Aspose.PSD для .NET.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

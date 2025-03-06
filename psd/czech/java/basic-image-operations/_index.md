@@ -3,10 +3,16 @@ title: Základní obrazové operace
 linktitle: Základní obrazové operace
 second_title: Aspose.PSD Java API
 description: Zvyšte své dovednosti v oblasti grafického designu pomocí výukových programů Aspose.PSD for Java. Naučte se kreslení, změnu velikosti, režimy prolnutí a ověřování průhlednosti v podrobném průvodci.
-type: docs
 weight: 25
 url: /cs/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Základní obrazové operace
+
 
 ## Zavedení
 
@@ -44,3 +50,9 @@ Vylepšete zpracování obrazu v Javě pomocí Aspose.PSD. Naučte se využívat
 Naučte se, jak přidat podmanivé stínové efekty do obrázků pomocí Aspose.PSD pro Java. Pozvedněte svůj grafický design pomocí tohoto podrobného návodu.
 ### [Ověřte průhlednost obrazu pomocí Aspose.PSD pro Java](./verify-image-transparency/)
 Prozkoumejte ověření průhlednosti obrazu pomocí Aspose.PSD pro Java. Snadná integrace, podrobná dokumentace a vynikající podpora komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

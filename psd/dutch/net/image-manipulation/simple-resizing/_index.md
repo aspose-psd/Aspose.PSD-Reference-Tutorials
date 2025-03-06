@@ -3,10 +3,16 @@ title: Eenvoudig het formaat van afbeeldingen wijzigen in Aspose.PSD voor .NET
 linktitle: Eenvoudig het formaat van afbeeldingen wijzigen
 second_title: Aspose.PSD .NET-API
 description: Het formaat van de hoofdafbeelding wijzigen met Aspose.PSD voor .NET. Efficiënt, naadloos en krachtig. Breng uw .NET-projecten moeiteloos naar een hoger niveau.
-type: docs
 weight: 17
 url: /nl/net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eenvoudig het formaat van afbeeldingen wijzigen in Aspose.PSD voor .NET
+
 ## Invoering
 
 In het dynamische domein van .NET-ontwikkeling is het manipuleren van afbeeldingen een algemene noodzaak. Aspose.PSD voor .NET komt te hulp met zijn krachtige mogelijkheden en biedt een naadloze ervaring voor het wijzigen van de grootte van afbeeldingen. In deze zelfstudie verdiepen we ons in het eenvoudige maar cruciale proces van het wijzigen van het formaat van afbeeldingen met Aspose.PSD voor .NET. Zet uw gordel vast terwijl we aan een reis beginnen om uw beeldverwerkingsvaardigheden te verbeteren.
@@ -89,3 +95,9 @@ A3: Ja, u kunt een tijdelijke licentie voor Aspose.PSD voor .NET verkrijgen om d
 ### V5: Hoe kan ik ondersteuning krijgen of verbinding maken met de community voor Aspose.PSD voor .NET?
 
  A5: Bezoek de[Aspose.PSD voor .NET Forum](https://forum.aspose.com/c/psd/34) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

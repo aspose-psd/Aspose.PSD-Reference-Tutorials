@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中创建 XMP 元数据
 linktitle: 创建 XMP 元数据
 second_title: Aspose.PSD .NET API
 description: 探索在 Aspose.PSD for .NET 中创建 XMP 元数据。通过无缝操作增强图像组织。
-type: docs
 weight: 10
 url: /zh/net/file-and-font-handling/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中创建 XMP 元数据
+
 ## 介绍
 
 在动态的 .NET 开发世界中，精确处理图像是许多应用程序的关键方面。本教程探讨了在 Aspose.PSD for .NET 中创建 XMP 元数据，这是一个功能强大的库，可简化图像处理任务。XMP（可扩展元数据平台）使您能够将元数据嵌入图像文件中，从而促进高效组织和检索与图像相关的信息。
@@ -170,3 +176,9 @@ A4：定期发布更新以确保与最新的 .NET 框架版本和行业标准兼
 ### Q5：是否有一个针对 Aspose.PSD 支持的社区论坛？
 
 答：是的，您可以在[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

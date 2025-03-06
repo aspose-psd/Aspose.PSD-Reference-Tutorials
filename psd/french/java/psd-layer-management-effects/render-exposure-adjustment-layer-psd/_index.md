@@ -3,10 +3,16 @@ title: Rendu du calque de réglage de l'exposition dans les fichiers PSD - Java
 linktitle: Rendu du calque de réglage de l'exposition dans les fichiers PSD - Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment restituer et ajuster les calques d'exposition dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Guide étape par étape avec des exemples de code pour modifier et ajouter des couches d'exposition.
-type: docs
 weight: 15
 url: /fr/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu du calque de réglage de l'exposition dans les fichiers PSD - Java
+
 ## Introduction
 
 Travaillez-vous avec des fichiers Photoshop PSD et devez-vous ajuster l'exposition ou ajouter un calque de réglage de l'exposition par programme ? Que vous modifiiez des couches existantes ou en ajoutiez de nouvelles, Aspose.PSD pour Java offre un moyen puissant et intuitif de gérer ces tâches. Dans ce guide, nous expliquerons comment utiliser Aspose.PSD pour Java pour restituer et modifier les calques de réglage d'exposition dans les fichiers PSD. À la fin de ce didacticiel, vous saurez comment ajuster les paramètres d'exposition dans les calques existants et ajouter de nouveaux calques de réglage d'exposition à vos fichiers PSD. Allons-y !
@@ -138,3 +144,9 @@ Oui, Aspose.PSD pour Java prend en charge différents types de calques, notammen
 ### Comment puis-je obtenir de l'assistance pour Aspose.PSD pour Java ?
 
  Pour obtenir de l'aide, vous pouvez visiter le[Forum d'assistance Aspose](https://forum.aspose.com/c/psd/34) où vous pouvez poser des questions et obtenir de l'aide de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

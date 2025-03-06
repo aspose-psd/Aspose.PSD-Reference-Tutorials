@@ -3,10 +3,16 @@ title: Suporte a diferentes tipos de assinatura em Aspose.PSD para .NET
 linktitle: Suportando Diferentes Tipos de Assinatura
 second_title: API Aspose.PSD .NET
 description: Explore Aspose.PSD para .NET e suporte facilmente diferentes tipos de assinatura em seus arquivos PSD.
-type: docs
 weight: 14
 url: /pt/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte a diferentes tipos de assinatura em Aspose.PSD para .NET
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.PSD for .NET, uma biblioteca poderosa que permite aos desenvolvedores lidar com arquivos PSD perfeitamente. Neste tutorial, exploraremos o processo de suporte a diferentes tipos de assinatura no Aspose.PSD para .NET. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia passo a passo irá guiá-lo pelo processo com clareza e precisão.
@@ -79,3 +85,10 @@ Parabéns! Você ofereceu suporte com sucesso a diferentes tipos de assinatura n
 ### Q5: Procurando uma licença temporária?
 
  A5: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

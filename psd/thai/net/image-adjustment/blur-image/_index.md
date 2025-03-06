@@ -3,10 +3,16 @@ title: การเบลอภาพใน Aspose.PSD สำหรับ .NET
 linktitle: การเบลอภาพ
 second_title: Aspose.PSD .NET API
 description: เรียนรู้วิธีเบลอภาพอย่างง่ายดายด้วย Aspose.PSD สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการปรับแต่งภาพที่ราบรื่นในโปรเจ็กต์ C# ของคุณ
-type: docs
 weight: 13
 url: /th/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเบลอภาพใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 ในขอบเขตของการพัฒนา .NET นั้น Aspose.PSD พิสูจน์ให้เห็นแล้วว่าเป็นพันธมิตรที่ทรงพลังสำหรับการปรับแต่งภาพ บทช่วยสอนนี้มุ่งเน้นไปที่งานเฉพาะ: การทำภาพเบลอโดยใช้ Aspose.PSD สำหรับ .NET หากคุณกระตือรือร้นที่จะพัฒนาทักษะการประมวลผลภาพของคุณ หรือเพียงแค่มองหาวิธีที่มีประสิทธิภาพในการเบลอภาพโดยทางโปรแกรม แสดงว่าคุณมาถูกที่แล้ว
@@ -97,3 +103,9 @@ A4: แน่นอน! Aspose.PSD นำเสนอชุดคุณสมบ
 ### คำถามที่ 5: ฉันจะขอความช่วยเหลือหรือติดต่อกับชุมชน Aspose.PSD ได้ที่ไหน
 
  A5: หากมีข้อสงสัยหรือข้อหารือใดๆ โปรดไปที่[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Эффекты изображения
 linktitle: Эффекты изображения
 second_title: Aspose.PSD .NET API
 description: Освойте динамические улучшения изображений в Aspose.PSD для .NET. Усовершенствуйте обработку изображений с помощью руководств по добавлению, наложению и рендерингу потрясающих эффектов во время выполнения.
-type: docs
 weight: 25
 url: /ru/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Эффекты изображения
+
 
 ## Введение
 
@@ -34,3 +40,9 @@ url: /ru/net/image-effects/
 Откройте для себя магию Aspose.PSD для .NET с помощью нашего руководства по наложению цветовых эффектов. Улучшите свою игру по обработке изображений без особых усилий.
 ### [Рендеринг эффекта тени в Aspose.PSD для .NET](./render-drop-shadow/)
 Изучите возможности Aspose.PSD для .NET в этом руководстве и овладейте искусством создания захватывающих эффектов тени.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

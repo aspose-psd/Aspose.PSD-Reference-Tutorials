@@ -3,10 +3,16 @@ title: Java を使用して PSD ファイルに IOPA リソースを追加する
 linktitle: Java を使用して PSD ファイルに IOPA リソースを追加する
 second_title: Aspose.PSD Java API
 description: この包括的なガイドでは、Aspose.PSD for Java を使用して IOPA リソースを PSD ファイルに追加する方法を説明します。効果的なグラフィック操作のための簡単な手順です。
-type: docs
 weight: 15
 url: /ja/java/modifying-converting-psd-images/add-iopa-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PSD ファイルに IOPA リソースを追加する
+
 ## 導入
 PSD ファイルをプロのように操作したいですか? Photoshop の PSD 形式の迷宮に深く入り込み、レイヤー プロパティを変更する最適な方法を探していたことがあれば、きっと役に立つはずです。Aspose.PSD for Java を使用して PSD ファイルに IOPA リソースを追加する方法について詳しく説明します。この強力なライブラリを使用すると、PSD ファイルをシームレスに操作できるため、塗りつぶしの不透明度などのレイヤー プロパティの変更がこれまで以上に簡単になります。
 では、お気に入りのコーヒーマグを手に取り、ゆったりと腰を下ろして、PSD ファイルを強化するこのエキサイティングな旅を始めましょう。このチュートリアルの最後までに、IOPA リソースを使用して PSD ドキュメントを自信を持って操作できるようになり、グラフィック デザイン作業が楽になります。
@@ -91,3 +97,9 @@ IOPA は「Image-Opacity」リソースの略です。PSD ファイル内のレ�
 はい、有効な PSD ファイルであれば、どの PSD ファイルでもこれらの操作を実行できます。
 ### Aspose.PSD のサポートはどこで受けられますか?  
 サポートについては、[サポートフォーラム](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

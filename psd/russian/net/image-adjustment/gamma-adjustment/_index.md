@@ -3,10 +3,16 @@ title: Реализация настройки гаммы в Aspose.PSD для .
 linktitle: Реализация гамма-коррекции
 second_title: Aspose.PSD .NET API
 description: Изучите возможности Aspose.PSD для .NET с помощью нашего пошагового руководства по реализации настройки гаммы. Легко настройте яркость и контрастность изображения.
-type: docs
 weight: 12
 url: /ru/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Реализация настройки гаммы в Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по реализации настройки гаммы в Aspose.PSD для .NET! Гамма-коррекция — это важнейший метод обработки изображений, который позволяет точно настроить яркость и контрастность изображения. В этом уроке мы покажем вам весь процесс с использованием мощной библиотеки Aspose.PSD для .NET.
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### В5: Нужна ли мне временная лицензия?
 
  О5: При необходимости вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

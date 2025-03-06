@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 將影像儲存到串流
 linktitle: 將影像儲存到流中
 second_title: Aspose.PSD Java API
 description: 探索如何使用 Aspose.PSD for Java 將 PSD 影像儲存到流中。請按照我們的逐步指南進行高效率的影像處理。
-type: docs
 weight: 16
 url: /zh-hant/java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 將影像儲存到串流
+
 ## 介紹
 
 在本教程中，我們將探討如何使用 Aspose.PSD for Java 將圖像儲存到串流中。 Aspose.PSD 是一個功能強大的 Java 程式庫，用於處理和操作 PSD（Photoshop 文件）檔案。如果您想增強 Java 應用程序，使其能夠將 PSD 圖像保存到流中，請按照本指南中概述的步驟進行操作。
@@ -97,3 +103,9 @@ A1：是的，Aspose.PSD 廣泛應用於專業 Java 專案中，以實現高效�
 ### Q5: 哪裡可以購買完整版的 Aspose.PSD for Java？
 
  A5：購買完整版[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

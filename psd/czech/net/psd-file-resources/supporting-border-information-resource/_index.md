@@ -3,10 +3,16 @@ title: Podpora Border Information Resource v Aspose.PSD pro .NET
 linktitle: Podpora hraničního informačního zdroje
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte funkci Border Information Resource Aspose.PSD for .NET pro vylepšené zobrazování. Postupujte podle našeho návodu pro bezproblémovou integraci. Stáhnout nyní!
-type: docs
 weight: 11
 url: /cs/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora Border Information Resource v Aspose.PSD pro .NET
+
 ## Zavedení
 Vítejte v našem podrobném průvodci o využití funkce Border Information Resource v Aspose.PSD pro .NET. V tomto tutoriálu vás provedeme procesem práce s Border Information Resources pomocí Aspose.PSD, výkonné zobrazovací knihovny .NET. Ať už jste ostřílený vývojář nebo teprve začínáte, tento kurz si klade za cíl objasnit bezproblémové začlenění Border Information Resources do vašich projektů.
 ## Předpoklady
@@ -89,3 +95,9 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 ### Q5: Jsou k dispozici dočasné licence?
 
  A5: Ano, můžete získat dočasné licence[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

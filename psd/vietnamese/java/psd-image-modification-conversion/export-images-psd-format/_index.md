@@ -3,10 +3,16 @@ title: Xuất hình ảnh sang định dạng PSD bằng Java
 linktitle: Xuất hình ảnh sang định dạng PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách xuất hình ảnh sang định dạng PSD bằng Aspose.PSD cho Java trong hướng dẫn từng bước đơn giản. Hoàn hảo cho các nhà phát triển và thiết kế đồ họa.
-type: docs
 weight: 11
 url: /vi/java/psd-image-modification-conversion/export-images-psd-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất hình ảnh sang định dạng PSD bằng Java
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế đồ họa, làm việc với các hình ảnh nhiều lớp là điều cần thiết và định dạng PSD của Adobe Photoshop đã trở thành lựa chọn hàng đầu của các chuyên gia. Bạn có thể tự hỏi: "Làm cách nào tôi có thể thao tác và lưu hình ảnh của mình ở định dạng này bằng Java?" Vâng, bạn đang ở đúng nơi! Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng sức mạnh của Aspose.PSD cho Java để tạo và xuất hình ảnh ở định dạng PSD một cách liền mạch. Vì vậy, hãy thoải mái, thưởng thức đồ ăn nhẹ và cùng khám phá thế giới xử lý hình ảnh!
@@ -117,3 +123,9 @@ Có, Aspose.PSD cho phép bạn mở, chỉnh sửa và lưu các tệp PSD hi�
 
 ### Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp sự cố?
  Để được hỗ trợ, bạn có thể truy cập[diễn đàn giả định](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

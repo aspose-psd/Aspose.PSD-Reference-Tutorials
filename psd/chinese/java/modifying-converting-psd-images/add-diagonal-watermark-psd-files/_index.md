@@ -3,10 +3,16 @@ title: 使用 Java 为 PSD 文件添加对角水印
 linktitle: 使用 Java 为 PSD 文件添加对角水印
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Java 和 Aspose.PSD 轻松地将对角线水印添加到 PSD 文件。循序渐进的指南可帮助您自信地增强图像。
-type: docs
 weight: 12
 url: /zh/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 为 PSD 文件添加对角水印
+
 ## 介绍
 在当今的数字世界中，拥有引人注目的视觉效果可以带来巨大的改变。无论您是想要保护自己作品的设计师，还是想要在图像中添加品牌标识的营销人员，添加水印都是必不可少的。在本教程中，我们将探索如何在 Aspose.PSD（一个用于处理 PSD 文件的强大库）的帮助下使用 Java 向 PSD 文件添加对角水印。
 ## 先决条件
@@ -97,3 +103,9 @@ Aspose.PSD 是一个 Java 库，用于处理和操作 PSD 文件，而无需 Ado
 是的，您可以致电`drawString`该方法多次使用不同的参数来添加更多水印。
 ### 在哪里可以找到有关 Aspose.PSD 的更多信息？
 您可以查看文档[这里](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

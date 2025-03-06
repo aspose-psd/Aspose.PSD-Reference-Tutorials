@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에 그라디언트 채우기 레이어 �
 linktitle: Java를 사용하여 PSD 파일에 그라디언트 채우기 레이어 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일의 그라데이션 채우기 레이어를 수정합니다. 프로그래밍 방식으로 색상, 투명도 및 기타 그라데이션 속성을 변경하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에 그라디언트 채우기 레이어 추가
+
 ## 소개
 
 PSD 파일에 시각적 마법을 더하고 싶었던 적이 있습니까? 그라디언트는 디자인에 깊이와 입체감을 더할 수 있는 놀라운 방법을 제공합니다. 하지만 Java를 사용하여 이러한 그라데이션을 프로그래밍 방식으로 조작하려면 어떻게 해야 할까요? Aspose.PSD가 구출해 드립니다! 이 포괄적인 가이드는 Aspose.PSD를 사용하여 PSD 파일 내에서 그라데이션 채우기 레이어를 수정할 수 있도록 지원하여 흥미로운 프로세스를 단계별로 안내합니다.
@@ -167,3 +173,9 @@ Aspose.PSD는 현재 선형 그래디언트를 지원합니다. 향후 버전에
 
 ### PSD 파일의 여러 그래디언트 채우기 레이어에 이 기술을 적용할 수 있습니까?
 예, 레이어를 반복하고 기준에 맞는 각 그라디언트 채우기 레이어에 수정 사항을 적용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

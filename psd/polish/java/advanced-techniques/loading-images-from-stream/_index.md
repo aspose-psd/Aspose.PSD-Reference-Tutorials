@@ -3,10 +3,16 @@ title: Ładowanie obrazów ze strumienia za pomocą Aspose.PSD dla Java
 linktitle: Ładowanie obrazów ze strumienia
 second_title: Aspose.PSD API Java
 description: Naucz się płynnie ładować obrazy PSD w Javie przy użyciu Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie przetwarzać obrazy.
-type: docs
 weight: 11
 url: /pl/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ładowanie obrazów ze strumienia za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Aspose.PSD dla Java to bogata w funkcje biblioteka, która umożliwia programistom bezproblemową pracę z plikami PSD, wykonując różne zadania przetwarzania obrazu. W tym samouczku skupimy się na podstawowych krokach ładowania obrazów ze strumienia przy użyciu Aspose.PSD dla Java.
@@ -105,3 +111,9 @@ A1: Absolutnie! Aspose.PSD for Java wyróżnia się w zadaniach wsadowego przetw
 ### P5: Gdzie mogę kupić Aspose.PSD dla Java?
 
  A5: Odwiedź[strona zakupu](https://purchase.aspose.com/buy) nabyć Aspose.PSD dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

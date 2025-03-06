@@ -3,10 +3,16 @@ title: الرسم باستخدام الرسومات في جافا
 linktitle: الرسم باستخدام الرسومات في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية رسم الرسومات في Java باستخدام Aspose.PSD خطوة بخطوة. قم بإنشاء الأشكال وتطبيق الألوان وتصدير الصور دون عناء.
-type: docs
 weight: 18
 url: /ar/java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الرسم باستخدام الرسومات في جافا
+
 ## مقدمة
 في برمجة Java، يعد رسم الصور ومعالجتها برمجيًا قدرة قوية يحتاجها المطورون غالبًا. يركز هذا البرنامج التعليمي على استخدام Aspose.PSD for Java، وهي مكتبة قوية تمكن المطورين من إنشاء ملفات PSD وتحريرها، بالإضافة إلى تنفيذ عمليات رسومية متنوعة مثل رسم الأشكال وتطبيق الفرش وتصدير الصور. سيرشدك هذا الدليل خلال عملية الرسم باستخدام الرسومات في Java باستخدام Aspose.PSD، مع تفصيل كل خطوة لضمان الوضوح والفهم.
 ## المتطلبات الأساسية
@@ -79,3 +85,9 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 نعم، يدعم Aspose.PSD التصدير إلى تنسيقات مختلفة مثل BMP، وPNG، وJPEG، وTIFF.
 ### كيف يمكنني الحصول على الدعم أو المساعدة إذا واجهت مشاكل؟
 تواصل مع مجتمع Aspose.PSD على[منتدى الدعم](https://forum.aspose.com/c/psd/34) أو النظر في أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لدعم الأولوية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

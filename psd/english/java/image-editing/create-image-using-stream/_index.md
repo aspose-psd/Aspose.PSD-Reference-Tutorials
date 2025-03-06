@@ -3,10 +3,16 @@ title: Create Image using Stream in Aspose.PSD for Java
 linktitle: Create Image using Stream
 second_title: Aspose.PSD Java API
 description: Learn how to create images using stream in Aspose.PSD for Java. Follow this step-by-step guide for efficient image processing.
-type: docs
 weight: 14
 url: /java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Image using Stream in Aspose.PSD for Java
+
 ## Introduction
 
 In the realm of Java development, Aspose.PSD stands out as a robust library for image processing. One of its powerful features is the ability to create images using streams, offering flexibility and efficiency in handling image data. This tutorial will guide you through the process of creating images using stream in Aspose.PSD for Java, providing a hands-on experience with step-by-step instructions.
@@ -114,3 +120,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: What are the system requirements for Aspose.PSD?
 
 A5: Refer to the [documentation](https://reference.aspose.com/psd/java/) for detailed system requirements.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

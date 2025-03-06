@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Düz Renkli Kontur Katmanı Ekleme
 linktitle: Düz Renkle Kontur Katmanı Ekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD ile .NET görüntü işleme becerilerinizi geliştirin. Adım adım düz renklerle kontur katmanları eklemeyi öğrenin.
-type: docs
 weight: 11
 url: /tr/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Düz Renkli Kontur Katmanı Ekleme
+
 ## giriiş
 
 .NET geliştirme alanında görsel olarak çekici görseller oluşturmak ortak bir gerekliliktir. Aspose.PSD for .NET, görüntüleri sorunsuz bir şekilde işlemek ve geliştirmek için güçlü bir araç seti sağlar. Temel özelliklerden biri, görüntülerinize canlılık ve derinlik katan düz renkli bir kontur katmanı eklemektir. Bu eğitimde Aspose.PSD for .NET'i kullanarak süreç boyunca size adım adım rehberlik edeceğiz.
@@ -130,3 +136,9 @@ A2: Kesinlikle! Aspose.PSD for .NET ticari bir üründür, lisans satın alarak 
 ### S5: Aspose.PSD for .NET desteğini nasıl alabilirim?
 
  A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) yardım istemek ve toplulukla bağlantı kurmak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

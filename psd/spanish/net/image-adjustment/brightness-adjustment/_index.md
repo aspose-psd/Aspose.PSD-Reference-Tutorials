@@ -3,10 +3,16 @@ title: Implementación del ajuste de brillo en Aspose.PSD para .NET
 linktitle: Implementación del ajuste de brillo
 second_title: API Aspose.PSD .NET
 description: Explore el poder de Aspose.PSD para .NET para ajustar el brillo de la imagen. Siga nuestra guía paso a paso para una implementación perfecta.
-type: docs
 weight: 10
 url: /es/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementación del ajuste de brillo en Aspose.PSD para .NET
+
 ## Introducción
 
 Mejorar y ajustar los atributos de la imagen es un requisito común en varias aplicaciones, y Aspose.PSD para .NET proporciona una poderosa solución para manipular archivos PSD sin problemas. Una de esas manipulaciones es el ajuste del brillo, que le permite modificar el brillo de una imagen sin esfuerzo.
@@ -97,3 +103,9 @@ Aspose.PSD para .NET simplifica el proceso de implementación de ajustes de bril
 ### P5: ¿Cómo obtengo una licencia temporal de Aspose.PSD para .NET?
 
  R5: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

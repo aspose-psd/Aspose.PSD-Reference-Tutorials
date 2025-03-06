@@ -3,10 +3,16 @@ title: Thêm hiệu ứng khi chạy với Aspose.PSD cho Java
 linktitle: Thêm hiệu ứng khi chạy
 second_title: API Java Aspose.PSD
 description: Khám phá khả năng tích hợp liền mạch của Aspose.PSD cho Java để tự động thêm các hiệu ứng quyến rũ vào hình ảnh. Nâng cao khả năng phát triển Java của bạn với hướng dẫn trực quan này.
-type: docs
 weight: 20
 url: /vi/java/advanced-techniques/add-effects-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng khi chạy với Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, việc thêm các hiệu ứng động vào hình ảnh là một yêu cầu chung. Với Aspose.PSD cho Java, một thư viện Java mạnh mẽ và linh hoạt, bạn có thể dễ dàng thêm các hiệu ứng trong thời gian chạy để nâng cao hình ảnh của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hiệu ứng từng bước, sử dụng các ví dụ rõ ràng và hướng dẫn dễ làm theo.
@@ -95,3 +101,9 @@ Câu trả lời 2: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
  Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

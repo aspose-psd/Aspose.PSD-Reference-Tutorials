@@ -3,10 +3,16 @@ title: Tambahkan Efek Gradien di Aspose.PSD untuk Java
 linktitle: Tambahkan Efek Gradien
 second_title: Asumsikan.PSD Java API
 description: Sempurnakan gambar Java Anda dengan efek gradien yang menakjubkan menggunakan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Efek Gradien di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial menambahkan efek gradien di Aspose.PSD untuk Java! Jika Anda ingin menyempurnakan gambar Anda dengan hamparan gradien yang menakjubkan, Anda berada di tempat yang tepat. Dalam panduan ini, kami akan memandu Anda melalui proses menggunakan Aspose.PSD, perpustakaan Java yang kuat untuk pemrosesan gambar.
@@ -130,3 +136,9 @@ A2: Aspose.PSD menyediakan berbagai efek, termasuk bayangan, cahaya, dan banyak 
 ### Q5: Di mana saya dapat membeli lisensi Aspose.PSD untuk Java?
 
  A5: Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk informasi perizinan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавить миниатюру в сегмент EXIF в Java
 linktitle: Добавить миниатюру в сегмент EXIF в Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как улучшить метаданные изображений с помощью миниатюр с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить миниатюру в сегмент EXIF в Java
+
 ## Введение
 В этом уроке мы рассмотрим, как улучшить метаданные изображения, добавив миниатюру в сегмент EXIF с помощью Aspose.PSD для Java. Метаданные EXIF (формат сменных файлов изображений) играют решающую роль в цифровой фотографии, предоставляя ценную информацию, такую как настройки камеры, дату и местоположение. Добавление миниатюр повышает удобство работы пользователя за счет эффективного предварительного просмотра изображений.
 ## Предварительные условия
@@ -66,3 +72,9 @@ image.save(dataDir + "output.psd");
  Вы можете получить временную лицензию для Aspose.PSD на сайте[здесь](https://purchase.aspose.com/temporary-license/).
 ### Как мне получить поддержку для Aspose.PSD?
  Для получения поддержки посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

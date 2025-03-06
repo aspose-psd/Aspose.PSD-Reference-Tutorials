@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya SoCo dalam File PSD menggunakan Java
 linktitle: Mendukung Sumber Daya SoCo dalam File PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara memanipulasi sumber daya SoCo dalam file PSD menggunakan Aspose.PSD untuk Java dengan tutorial langkah demi langkah ini.
-type: docs
 weight: 22
 url: /id/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya SoCo dalam File PSD menggunakan Java
+
 ## Perkenalan
 Bekerja dengan file PSD bisa seperti menavigasi labirin yang kompleks, terutama jika Anda mendalami seluk-beluk lapisan dan sumber daya. Untungnya, alat seperti Aspose.PSD untuk Java dapat menyederhanakan proses ini, memungkinkan pengembang untuk memanipulasi file Photoshop secara terprogram. Dalam tutorial ini, kami akan membahas cara mendukung sumber daya SoCo dalam file PSD menggunakan Java, membuat hidup Anda jauh lebih mudah. 
 Baik Anda seorang pengembang berpengalaman atau baru saja terjun ke dunia pemrosesan gambar, panduan ini akan menguraikan kerumitan menjadi langkah-langkah yang mudah dipahami, memastikan bahwa Anda menyelesaikan perjalanan Anda dengan pemahaman yang kuat.
@@ -111,3 +117,9 @@ Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipul
  Ya, ada yang berdedikasi[forum dukungan](https://forum.aspose.com/c/psd/34).
 ### Jenis sumber daya apa yang dapat saya manipulasi dalam file PSD?
 Anda dapat memanipulasi berbagai sumber daya, termasuk lapisan, lapisan isian, dan sumber daya SoCo dalam file PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

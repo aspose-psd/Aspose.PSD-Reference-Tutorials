@@ -3,10 +3,16 @@ title: PSD 图层管理和效果
 linktitle: PSD 图层管理和效果
 second_title: Aspose.PSD Java API
 description: 探索有关使用 Aspose.PSD for Java 进行 PSD 图层管理和效果的全面教程。学习如何轻松合并、展平和自定义 PSD 图层。
-type: docs
 weight: 23
 url: /zh/java/psd-layer-management-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 图层管理和效果
+
 ## 介绍
 
 您是使用 PSD 文件的开发人员吗？管理图层和应用效果可能会很棘手，但使用 Aspose.PSD for Java，您可以毫不费力地简化这些任务。让我们深入了解一些实用教程，以帮助您提高 Java 中的图像处理技能。
@@ -70,3 +76,9 @@ Aspose.PSD for Java 不只是管理层；它还优化了整个 PSD 工作流程�
 使用 Aspose.PSD for Java 掌握 PSD 文件中的边框操作。通过简单易懂的步骤学习如何修改边框宽度、单位等。通过编程增强您的 PSD 设计。
 ### [支持 PSD 文件中的中断监视器 - Java](./support-interrupt-monitor-psd-files/)
 使用 Aspose.PSD 的中断监视器中断 Java 中长时间运行的 PSD 转换。了解如何实现优雅中断并改善用户体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm tài nguyên IOPA vào tệp PSD bằng Java
 linktitle: Thêm tài nguyên IOPA vào tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm tài nguyên IOPA vào tệp PSD bằng Aspose.PSD cho Java với hướng dẫn toàn diện này. Các bước đơn giản để thao tác đồ họa hiệu quả.
-type: docs
 weight: 15
 url: /vi/java/modifying-converting-psd-images/add-iopa-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm tài nguyên IOPA vào tệp PSD bằng Java
+
 ## Giới thiệu
 Bạn có muốn thao tác với các tệp PSD như một người chuyên nghiệp không? Nếu bạn đã từng chìm đắm trong mê cung các định dạng PSD của Photoshop và tìm kiếm phương pháp hoàn hảo để thay đổi các thuộc tính của lớp thì bạn sẽ được thưởng thức. Chúng tôi đang tìm hiểu cách thêm tài nguyên IOPA vào tệp PSD bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này cho phép bạn tương tác liền mạch với các tệp PSD, giúp việc sửa đổi các thuộc tính lớp như độ mờ của màu nền trở nên dễ dàng hơn bao giờ hết.
 Vì vậy, hãy lấy cốc cà phê yêu thích của bạn, ngồi lại và bắt đầu cuộc hành trình thú vị nhằm nâng cao các tệp PSD của bạn. Khi kết thúc hướng dẫn này, bạn sẽ có thể tự tin thao tác các tài liệu PSD của mình bằng tài nguyên IOPA, giúp công việc thiết kế đồ họa của bạn trở nên dễ dàng.
@@ -91,3 +97,9 @@ IOPA là viết tắt của Tài nguyên "Độ mờ hình ảnh". Nó sửa đ�
 Có, miễn là đó là tệp PSD hợp lệ, bạn có thể thực hiện các thao tác này trên bất kỳ tệp PSD nào mà bạn có.
 ### Tôi có thể nhận hỗ trợ cho Aspose.PSD ở đâu?  
  Để được hỗ trợ, bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

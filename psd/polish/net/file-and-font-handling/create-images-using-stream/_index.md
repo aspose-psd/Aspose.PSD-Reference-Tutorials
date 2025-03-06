@@ -3,10 +3,16 @@ title: Tworzenie obrazów przy użyciu strumienia w Aspose.PSD dla .NET
 linktitle: Tworzenie obrazów za pomocą strumienia
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak tworzyć obrazy za pomocą strumieni w Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie manipulować obrazami.
-type: docs
 weight: 12
 url: /pl/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie obrazów przy użyciu strumienia w Aspose.PSD dla .NET
+
 ## Wstęp
 
 W dziedzinie rozwoju .NET Aspose.PSD wyróżnia się jako potężne narzędzie do manipulacji obrazami. Szczególnie przydatną funkcją jest możliwość tworzenia obrazów przy użyciu strumieni, zapewniająca elastyczność i wydajność w obsłudze danych obrazu. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, rozkładając każdy element, aby zapewnić bezproblemową obsługę. Zanim zagłębimy się w szczegóły, omówmy wymagania wstępne.
@@ -111,3 +117,9 @@ A2: Wymiary można dostosować; odpowiednio dostosuj parametry w metodzie Image.
 ### P5: Czy dostępne są licencje tymczasowe?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

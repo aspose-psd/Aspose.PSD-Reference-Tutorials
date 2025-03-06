@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 그림자 효과 지원
 linktitle: 그림자 효과 지원
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD로 이미지를 향상하세요! 그림자 효과를 지원하는 방법을 단계별로 알아보세요. 지금 다운로드하여 시각적으로 놀라운 경험을 즐겨보세요.
-type: docs
 weight: 14
 url: /ko/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 그림자 효과 지원
+
 ## 소개
 
 이미지에 그림자 효과를 추가하면 시각적 매력이 크게 향상되고 더욱 몰입도 높은 사용자 경험을 만들 수 있습니다. .NET용 Aspose.PSD는 이미지의 그림자 효과를 지원하는 강력한 솔루션을 제공하므로 다양한 매개변수를 사용자 정의하고 원하는 시각 효과를 얻을 수 있습니다.
@@ -109,3 +115,9 @@ A2: 예, .NET용 Aspose.PSD는 광범위한 PSD 파일 형식을 지원하여 �
 ### Q5: 구매하기 전에 .NET용 Aspose.PSD를 무료로 사용해 볼 수 있나요?
 
  A5: 예, 다음 사이트에서 무료 평가판을 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

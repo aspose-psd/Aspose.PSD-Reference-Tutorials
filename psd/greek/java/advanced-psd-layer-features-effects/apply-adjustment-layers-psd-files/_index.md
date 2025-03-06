@@ -3,10 +3,16 @@ title: Εφαρμογή επιπέδων προσαρμογής σε αρχεί�
 linktitle: Εφαρμογή επιπέδων προσαρμογής σε αρχεία PSD χρησιμοποιώντας Java
 second_title: Aspose.PSD Java API
 description: Μάθετε να εφαρμόζετε επίπεδα προσαρμογής σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java σε αυτόν τον πλήρη οδηγό βήμα προς βήμα για προγραμματιστές.
-type: docs
 weight: 15
 url: /el/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή επιπέδων προσαρμογής σε αρχεία PSD χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Είστε προγραμματιστής Java που θέλετε να βελτιώσετε τις εικόνες που είναι αποθηκευμένες σε αρχεία PSD; Αν ναι, είστε στο σωστό μέρος! Σε αυτό το άρθρο, θα διερευνήσουμε πώς να εφαρμόσουμε επίπεδα προσαρμογής σε αρχεία PSD χρησιμοποιώντας τη βιβλιοθήκη Aspose.PSD για Java. Είτε εργάζεστε σε ένα προσωπικό έργο είτε σε μια επαγγελματική εφαρμογή, η κατανόηση του τρόπου χειρισμού αρχείων PSD μπορεί να αυξήσει σημαντικά τις δυνατότητες του λογισμικού σας. 
 
@@ -97,3 +103,9 @@ img.save(exportPath2);
 Μπορείτε να επισκεφτείτε τη σελίδα τεκμηρίωσης[εδώ](https://reference.aspose.com/psd/java/) για να εξερευνήσετε χαρακτηριστικά, κλάσεις και μεθόδους.
 ### Πώς μπορώ να λάβω υποστήριξη για τα προϊόντα Aspose;
  Μπορείτε να αποκτήσετε πρόσβαση στην υποστήριξη μέσω του[Aspose φόρουμ](https://forum.aspose.com/c/psd/34) όπου μπορείτε να κάνετε ερωτήσεις και να βρείτε λύσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

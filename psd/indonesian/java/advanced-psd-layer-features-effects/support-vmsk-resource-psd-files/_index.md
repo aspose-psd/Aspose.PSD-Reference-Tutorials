@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Vmsk dalam File PSD dengan Java
 linktitle: Mendukung Sumber Daya Vmsk dalam File PSD dengan Java
 second_title: Asumsikan.PSD Java API
 description: Kelola sumber daya Vmsk dengan mudah dalam file PSD menggunakan Aspose.PSD untuk Java. Tutorial komprehensif langkah demi langkah yang ideal untuk pengembang dan desainer.
-type: docs
 weight: 23
 url: /id/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Vmsk dalam File PSD dengan Java
+
 ## Perkenalan
 Ketika bekerja dengan file PSD (Photoshop Document), mengelola sumber daya sangatlah penting, terutama ketika mengintegrasikan fitur-fitur khusus seperti sumber daya Vmsk (Vector Mask). Sumber daya Vmsk dapat memberdayakan desainer dengan menambahkan bentuk vektor yang kompleks, memungkinkan mereka membuat grafik yang menakjubkan dengan mudah. Dalam panduan ini, kami akan melakukan pendekatan langsung untuk menunjukkan kepada Anda cara mendukung sumber daya Vmsk dalam file PSD menggunakan Aspose.PSD untuk Java. Baik Anda seorang pengembang yang ingin menyempurnakan aplikasi Anda atau seorang desainer yang mencari otomatisasi, tutorial ini akan memandu Anda melalui proses langkah demi langkah, sehingga mudah untuk diikuti dan diterapkan.
 ## Prasyarat
@@ -128,3 +134,9 @@ Anda dapat menyimpannya kembali sebagai file PSD atau mengekspornya ke format la
  Ya, Anda dapat mengakses uji coba gratis Aspose.PSD untuk menguji fitur-fiturnya. Kunjungi[tautan uji coba gratis](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
  Anda dapat bergabung dengan[Asumsikan forum](https://forum.aspose.com/c/psd/34)untuk dukungan dan bantuan pemecahan masalah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

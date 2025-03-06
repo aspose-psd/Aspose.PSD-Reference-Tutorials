@@ -3,10 +3,16 @@ title: Arbeta med tidslinje i Aspose.PSD för .NET
 linktitle: Arbeta med tidslinje
 second_title: Aspose.PSD .NET API
 description: Förbättra PSD-bildmanipulation med Aspose.PSD för .NET Timeline-klassen. Kontrollera ramegenskaper, lagertillstånd och släpp lös kreativa möjligheter utan ansträngning.
-type: docs
 weight: 16
 url: /sv/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med tidslinje i Aspose.PSD för .NET
+
 ## Introduktion
 den dynamiska världen av grafisk design och bildmanipulation är förmågan att kontrollera och manipulera bilders tidslinje avgörande. Aspose.PSD för .NET ger en kraftfull lösning med sin tidslinjeklass. Denna funktion på hög nivå gör det möjligt för användare att göra ändringar i tidslinjen för PsdImage, som att ändra bildrutefördröjning, redigera lagertillstånd på specifika bildrutor och mer.
 ## Förutsättningar
@@ -108,3 +114,9 @@ S2: Klassen Tidslinje är speciellt utformad för PSD-bilder. För GIF-manipulat
 ### F5: Vilka är de viktigaste fördelarna med att använda Aspose.PSD för .NET?
 
 S5: Aspose.PSD för .NET erbjuder avancerade bildbehandlingsmöjligheter, PSD-filmanipulation och högpresterande rendering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

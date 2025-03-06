@@ -3,10 +3,16 @@ title: Geef PNG-bitdiepte op in Aspose.PSD voor Java
 linktitle: Geef PNG-bitdiepte op in Aspose.PSD voor Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u de PNG-bitdiepte kunt opgeven met Aspose.PSD voor Java in deze gedetailleerde stapsgewijze zelfstudie.
-type: docs
 weight: 14
 url: /nl/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geef PNG-bitdiepte op in Aspose.PSD voor Java
+
 ## Invoering
 Wilt u uw beeldverwerkingsvaardigheden verbeteren met Aspose.PSD voor Java? Je bent op de juiste plek! Deze tutorial begeleidt u bij het opgeven van de PNG-bitdiepte tijdens het converteren van PSD-bestanden naar PNG-indeling. Met behulp van Aspose.PSD zult u merken dat het vrij eenvoudig is om uw afbeeldingen te manipuleren. Of u nu een klein persoonlijk project of een grotere toepassing ontwikkelt, het beheersen van de beeldkwaliteit via bitdiepte kan de uiteindelijke uitvoer aanzienlijk beïnvloeden.
 ## Vereisten
@@ -74,3 +80,9 @@ Ja, u kunt de bibliotheek uitproberen met een gratis proefversie die u kunt vind
  U kunt een tijdelijke vergunning aanvragen[hier](https://purchase.aspose.com/temporary-license/).
 ### Welk type afbeeldingen kan ik converteren?
 Aspose.PSD houdt zich voornamelijk bezig met PSD-bestanden, maar ondersteunt conversie naar verschillende formaten zoals PNG, JPEG en TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

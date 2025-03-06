@@ -3,10 +3,16 @@ title: Desenfoque una imagen usando Aspose.PSD para Java
 linktitle: Desenfocar una imagen
 second_title: API de Java Aspose.PSD
 description: Aprenda a desenfocar imágenes en Java con Aspose.PSD. Siga nuestra guía paso a paso para obtener resultados profesionales.
-type: docs
 weight: 24
 url: /es/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Desenfoque una imagen usando Aspose.PSD para Java
+
 ## Introducción
 
 En el mundo del desarrollo de Java, mejorar y manipular imágenes es un requisito común. Si buscas agregar un efecto de desenfoque a tus imágenes mediante programación, Aspose.PSD para Java es una poderosa herramienta que simplifica el proceso. Este tutorial lo guiará a través de los pasos para desenfocar una imagen usando Aspose.PSD, asegurándose de lograr resultados profesionales sin esfuerzo.
@@ -96,3 +102,9 @@ R1: ¡Absolutamente! Aspose.PSD viene con documentación completa para guiar a l
 ### P5: ¿Cómo obtengo una licencia temporal para Aspose.PSD?
 
  R5: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

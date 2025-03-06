@@ -3,10 +3,16 @@ title: Agregar capa de trazo con patrón en Aspose.PSD para .NET
 linktitle: Agregar capa de trazo con patrón
 second_title: API Aspose.PSD .NET
 description: Mejore sus archivos PSD con capas de trazos y patrones usando Aspose.PSD para .NET. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 13
 url: /es/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar capa de trazo con patrón en Aspose.PSD para .NET
+
 ## Introducción
 
 Mejorar sus archivos PSD (Documento de Photoshop) con capas de trazos y patrones puede agregar un toque dinámico a sus diseños. En este tutorial, exploraremos cómo aprovechar Aspose.PSD para .NET para agregar sin esfuerzo una capa de trazo con un patrón a sus archivos PSD. Aspose.PSD es una poderosa biblioteca .NET que brinda soporte integral para manipular archivos PSD, lo que la convierte en una herramienta invaluable tanto para desarrolladores como para diseñadores.
@@ -144,3 +150,9 @@ R4: Por supuesto, Aspose.PSD para .NET proporciona un soporte sólido para el pr
 ### P5: ¿Dónde puedo buscar ayuda o participar en las discusiones comunitarias?
 
  A5: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para apoyo e interacciones comunitarias.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD Java を使用して PSD ファイルのレイヤーをフラ�
 linktitle: Aspose.PSD Java を使用して PSD ファイルのレイヤーをフラット化する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用すると、PSD ファイル内のレイヤーを簡単にフラット化および結合できます。このステップ バイ ステップ ガイドに従って、PSD ファイルの管理を簡素化してください。
-type: docs
 weight: 13
 url: /ja/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java を使用して PSD ファイルのレイヤーをフラット化する
+
 ## 導入
 
 Photoshop ファイルで作業していて、複雑なレイヤーをもっと簡単に管理したいと思ったことはありませんか? いいえ、そんなことはありません! 今日は、プログラムで PSD ファイルを簡単に操作できる強力なツールである Aspose.PSD for Java の世界に飛び込みます。ここで取り上げる便利な機能の 1 つは、レイヤーのフラット化です。画像全体をフラット化する場合も、特定のレイヤーを選択的に結合する場合も、Aspose.PSD for Java が対応します。このチュートリアルでは、PSD ファイルに自信を持って取り組めるように、プロセスをステップごとに説明します。
@@ -150,3 +156,9 @@ PSD ファイル内のレイヤーの操作は、迷路を進むような感じ�
 
 ### 隣接していないレイヤーを結合しようとするとどうなりますか?  
 Aspose.PSD では、レイヤー スタック内の順序に関係なく、任意のレイヤーを結合できます。結合プロセスでは、選択したレイヤーが指定どおりに結合します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

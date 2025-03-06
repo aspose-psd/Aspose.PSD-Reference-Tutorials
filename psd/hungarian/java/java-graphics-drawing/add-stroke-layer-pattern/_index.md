@@ -3,10 +3,16 @@ title: Stroke Layer Pattern hozzáadása Java-ban
 linktitle: Stroke Layer Pattern hozzáadása Java-ban
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan adhat hozzá körvonal-rétegmintát PSD-fájlokhoz az Aspose.PSD for Java használatával. Kövesse ezt a lépésenkénti útmutatót a képek egyszerű javításához.
-type: docs
 weight: 11
 url: /hu/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stroke Layer Pattern hozzáadása Java-ban
+
 ## Bevezetés
 körvonalréteg-minta hozzáadása egy képhez Java nyelven ijesztő feladatnak tűnhet, de az Aspose.PSD for Java segítségével ez egyszerűbb, mint gondolná. Akár grafikát tervez, akár fotószerkesztő alkalmazásokkal dolgozik, ez az útmutató lépésről lépésre végigvezeti a folyamaton. Készen áll az indulásra? Merüljünk el!
 ## Előfeltételek
@@ -138,3 +144,9 @@ Az Aspose.PSD for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztő
  Támogatást kaphat az Aspose közösségi fórumokon[itt](https://forum.aspose.com/c/psd/34).
 ### Mik az Aspose.PSD for Java rendszerkövetelményei?
 A fejlesztéshez telepíteni kell a JDK-t és egy IDE-t. A könyvtár több operációs rendszert támogat, beleértve a Windowst, a Linuxot és a macOS-t.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

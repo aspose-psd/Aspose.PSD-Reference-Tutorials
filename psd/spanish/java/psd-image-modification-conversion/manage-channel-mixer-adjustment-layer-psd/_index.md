@@ -3,10 +3,16 @@ title: Administrar la capa de ajuste del mezclador de canales en PSD - Java
 linktitle: Administrar la capa de ajuste del mezclador de canales en PSD - Java
 second_title: API de Java Aspose.PSD
 description: Descubra cómo administrar las capas de ajuste del mezclador de canales RGB y CMYK en archivos PSD usando Aspose.PSD para Java. Mejore sus habilidades de edición de imágenes.
-type: docs
 weight: 22
 url: /es/java/psd-image-modification-conversion/manage-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar la capa de ajuste del mezclador de canales en PSD - Java
+
 ## Introducción
 Photoshop ha transformado la forma en que pensamos sobre la edición de imágenes, pero seamos realistas: manejar archivos de imágenes complejos a veces puede parecer como descifrar un idioma extranjero. Afortunadamente, al usar Aspose.PSD para Java, puedes administrar y manipular archivos de Photoshop sin problemas sin necesidad de tener un título en diseño gráfico. En esta guía, nos sumergimos en un tutorial que explica cómo administrar las capas de ajuste del Mezclador de canales en archivos PSD usando Java. ¿Listo para dar rienda suelta al artista digital que llevas dentro? ¡Empecemos!
 ## Requisitos previos
@@ -114,3 +120,9 @@ Aspose.PSD para Java es una biblioteca que permite a los desarrolladores trabaja
 Aunque principalmente para PSD, Aspose.PSD también puede manejar otros formatos como PSB y más, ampliando así su usabilidad.
 ### ¿Dónde puedo obtener soporte para Aspose.PSD?
  Puede buscar ayuda y apoyo en su[foro](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

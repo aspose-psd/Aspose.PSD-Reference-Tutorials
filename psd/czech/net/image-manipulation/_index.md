@@ -3,10 +3,16 @@ title: Manipulace s obrázky
 linktitle: Manipulace s obrázky
 second_title: Aspose.PSD .NET API
 description: Zvyšte své .NET projekty s Aspose.PSD! Naučte se techniky manipulace s obrázky, jako je kombinování, ořezávání, změna velikosti, otáčení a přidávání efektů bez námahy.
-type: docs
 weight: 26
 url: /cs/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s obrázky
+
 ## Zavedení
 
 Manipulace s obrázky je zásadní dovedností pro každého vývojáře nebo návrháře pracujícího s .NET a Aspose.PSD pro .NET poskytuje výkonnou sadu nástrojů pro vylepšení vašich schopností. V tomto tutoriálu se ponoříme do různých technik manipulace s obrázky, které lze bez problémů použít[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Prozkoumejte sílu Outer Glow Effect v Aspose.PSD pro .NET. Vylepšete své náv
 Osvojte si umění vykreslování Gradient Overlay Effect v Aspose.PSD pro .NET. Zvyšte své dovednosti v oblasti grafického designu pomocí tohoto podrobného návodu.
 ### [Podpora efektu překrytí přechodem v Aspose.PSD pro .NET](./supporting-gradient-overlay-effect/)
 Vylepšete grafiku v .NET pomocí Aspose.PSD. Tento výukový program vás provede podporou efektů překrytí přechodem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

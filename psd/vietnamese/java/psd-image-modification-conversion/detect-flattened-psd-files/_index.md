@@ -3,10 +3,16 @@ title: Phát hiện các tệp PSD bị phẳng bằng Aspose.PSD cho Java
 linktitle: Phát hiện các tệp PSD bị phẳng bằng Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách phát hiện các tệp PSD bị làm phẳng bằng Aspose.PSD cho Java, từng bước trong hướng dẫn toàn diện này.
-type: docs
 weight: 10
 url: /vi/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phát hiện các tệp PSD bị phẳng bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thao tác tệp PSD (Tài liệu Photoshop) với Aspose.PSD cho Java! Nếu bạn đã từng cần làm việc với các lớp trong tệp Photoshop nhưng không biết bắt đầu từ đâu thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách phát hiện xem tệp PSD có bị làm phẳng hay không bằng Aspose.PSD. Làm phẳng một PSD có nghĩa là tất cả các lớp của nó được hợp nhất thành một lớp thống nhất duy nhất, điều này có thể khiến việc chỉnh sửa sau đó trở nên khó khăn một chút. Đến cuối hướng dẫn này, bạn sẽ được trang bị để kiểm tra khía cạnh quan trọng này của các tệp PSD của mình. Hãy ngồi yên, lấy cà phê của bạn và bắt đầu!
@@ -77,3 +83,9 @@ Thật không may, một khi PSD bị làm phẳng, bạn không thể khôi ph�
 
 ### Có cách nào để kiểm tra Aspose.PSD miễn phí không?
  Tuyệt đối! Bạn có thể bắt đầu dùng thử miễn phí bằng cách tải xuống phiên bản dùng thử từ[liên kết này](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

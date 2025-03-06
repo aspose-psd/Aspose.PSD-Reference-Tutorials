@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中模糊影像
 linktitle: 模糊影像
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 輕鬆模糊影像。在 C# 專案中進行無縫影像操作的逐步指南。
-type: docs
 weight: 13
 url: /zh-hant/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中模糊影像
+
 ## 介紹
 
 在.NET 開發領域，Aspose.PSD 被證明是影像處理的強大盟友。本教學重點在於特定任務：使用 Aspose.PSD for .NET 模糊影像。如果您渴望提高影像處理技能或只是尋找一種以程式方式模糊影像的有效方法，那麼您來對地方了。
@@ -97,3 +103,9 @@ A4：當然！ Aspose.PSD 提供了一套全面的功能，包括調整大小、
 ### Q5：我可以在哪裡尋求協助或與 Aspose.PSD 社群聯繫？
 
  A5：如有任何疑問或討論，請訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

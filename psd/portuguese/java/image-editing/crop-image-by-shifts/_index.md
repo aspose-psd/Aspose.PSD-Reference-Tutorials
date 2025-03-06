@@ -3,10 +3,16 @@ title: Cortar imagem por turnos em Aspose.PSD para Java
 linktitle: Cortar imagem por turnos
 second_title: API Java Aspose.PSD
 description: Domine o corte de imagens com Aspose.PSD para Java. Um tutorial abrangente para manipulação perfeita de imagens.
-type: docs
 weight: 16
 url: /pt/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cortar imagem por turnos em Aspose.PSD para Java
+
 ## Introdução
 
 No domínio do processamento de imagens baseado em Java, Aspose.PSD se destaca como uma ferramenta poderosa para manipular e aprimorar imagens com a máxima precisão. Um dos principais recursos que diferenciam o Aspose.PSD é sua capacidade de realizar o corte de imagens perfeitamente. Neste tutorial, nos aprofundaremos na arte de cortar imagens usando Aspose.PSD para Java. No final, você estará equipado com as habilidades necessárias para cortar imagens sem esforço de acordo com suas especificações.
@@ -115,3 +121,10 @@ A2: Com certeza, você pode realizar várias operações de corte sequencialment
 ### Q5: Há algum projeto de amostra apresentando as funcionalidades do Aspose.PSD?
 
  A5: Explore a documentação e os exemplos em[Documentação Java Aspose.PSD](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

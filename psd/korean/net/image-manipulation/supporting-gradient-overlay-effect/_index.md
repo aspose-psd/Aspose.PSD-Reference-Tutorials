@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 그라데이션 오버레이 효과 지원
 linktitle: 그라디언트 오버레이 효과 지원
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 .NET의 그래픽을 향상하세요. 이 튜토리얼에서는 그라데이션 오버레이 효과를 지원하는 방법을 안내합니다.
-type: docs
 weight: 18
 url: /ko/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 그라데이션 오버레이 효과 지원
+
 ## 소개
 
 .NET용 Aspose.PSD에서 그라데이션 오버레이 효과를 지원하는 포괄적인 튜토리얼에 오신 것을 환영합니다! .NET 애플리케이션의 그래픽 기능을 향상시키려는 경우 이 단계별 가이드가 도움이 될 것입니다. 이미지 처리를 단순화하는 강력한 라이브러리인 Aspose.PSD를 사용하여 레이어에서 그라데이션 오버레이 효과를 생성하고 편집하는 복잡한 과정을 살펴보겠습니다.
@@ -133,3 +139,9 @@ A2: 예, 그라데이션 오버레이를 포함한 다양한 효과를 단일 �
 ### Q5: Aspose.PSD에 대한 지원은 어떻게 받을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

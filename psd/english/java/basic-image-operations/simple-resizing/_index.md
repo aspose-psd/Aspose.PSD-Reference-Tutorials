@@ -3,10 +3,16 @@ title: Perform Simple Resizing with Aspose.PSD for Java
 linktitle: Perform Simple Resizing
 second_title: Aspose.PSD Java API
 description: Learn to resize images programmatically with Aspose.PSD for Java. Follow our step-by-step guide for efficient image manipulation.
-type: docs
 weight: 11
 url: /java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Perform Simple Resizing with Aspose.PSD for Java
+
 ## Introduction
 
 In today's tutorial, we'll delve into the process of simple image resizing using Aspose.PSD for Java, a powerful library that facilitates efficient image manipulation. If you're a Java developer seeking a seamless way to resize images programmatically, you're in the right place.
@@ -101,3 +107,10 @@ A4: Certainly! Utilize the [free trial version](https://releases.aspose.com/) to
 ### Q5: How can I get support for Aspose.PSD for Java?
 
 A5: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for assistance and community support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

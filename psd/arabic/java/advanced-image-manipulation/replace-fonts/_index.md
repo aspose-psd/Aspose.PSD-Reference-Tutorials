@@ -3,10 +3,16 @@ title: استبدال الخطوط في Aspose.PSD لجافا
 linktitle: استبدال الخطوط
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية استبدال الخطوط في الصور باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة للتعامل مع الخطوط بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/advanced-image-manipulation/replace-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استبدال الخطوط في Aspose.PSD لجافا
+
 ## مقدمة
 
 في عالم تطوير Java الديناميكي، يعد التعامل مع الصور مطلبًا شائعًا. يوفر Aspose.PSD for Java حلاً قويًا للتعامل مع ملفات PSD، مما يسمح للمطورين باستبدال الخطوط داخل الصور بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية استبدال الخطوط خطوة بخطوة باستخدام Aspose.PSD لـ Java.
@@ -84,3 +90,9 @@ A1: نعم، يدعم Aspose.PSD تنسيقات الصور المختلفة، م
 ### س5: أين يمكنني العثور على دعم إضافي أو مناقشة المشكلات المتعلقة بـ Aspose.PSD؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

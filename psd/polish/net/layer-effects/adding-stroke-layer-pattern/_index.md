@@ -3,10 +3,16 @@ title: Dodawanie warstwy obrysu ze wzorem w Aspose.PSD dla .NET
 linktitle: Dodawanie warstwy obrysu ze wzorem
 second_title: Aspose.PSD API .NET
 description: Wzbogacaj swoje pliki PSD warstwami obrysów i wzorami za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 13
 url: /pl/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie warstwy obrysu ze wzorem w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Ulepszanie plików PSD (dokument programu Photoshop) warstwami obrysów i wzorami może dodać dynamiczny akcent do Twoich projektów. W tym samouczku odkryjemy, jak wykorzystać Aspose.PSD dla .NET, aby bez wysiłku dodać warstwę obrysu ze wzorem do plików PSD. Aspose.PSD to potężna biblioteka .NET, która zapewnia kompleksową obsługę manipulowania plikami PSD, co czyni ją nieocenionym narzędziem zarówno dla programistów, jak i projektantów.
@@ -144,3 +150,9 @@ Odpowiedź 4: Oczywiście, Aspose.PSD dla .NET zapewnia solidną obsługę przet
 ### P5: Gdzie mogę szukać pomocy lub wziąć udział w dyskusjach społeczności?
 
  A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie i interakcje społeczne.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

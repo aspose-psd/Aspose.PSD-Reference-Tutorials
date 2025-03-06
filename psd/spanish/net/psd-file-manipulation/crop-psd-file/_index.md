@@ -3,10 +3,16 @@ title: Recortar archivos PSD con Aspose.PSD para .NET
 linktitle: Recortar archivos PSD con Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Explore el arte de recortar archivos PSD en .NET con Aspose.PSD, un conjunto de herramientas versátil. Mejora tu juego de manipulación de imágenes sin esfuerzo.
-type: docs
 weight: 19
 url: /es/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recortar archivos PSD con Aspose.PSD para .NET
+
 ## Introducción
 En el ámbito del desarrollo .NET, Aspose.PSD se destaca como un poderoso conjunto de herramientas para manejar archivos PSD (Documentos de Photoshop) sin problemas. Cuando se trata de manipular imágenes, recortar es una operación fundamental y Aspose.PSD simplifica este proceso para los desarrolladores de .NET. En este tutorial, exploraremos cómo recortar archivos PSD usando Aspose.PSD para .NET, proporcionándole una guía paso a paso.
 ## Requisitos previos
@@ -72,3 +78,9 @@ R1: Sí, Aspose.PSD se actualiza periódicamente para garantizar la compatibilid
 ### P5: ¿Necesito una licencia temporal para realizar pruebas?
 
  R5: Sí, si necesita una licencia temporal, puede obtener una[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

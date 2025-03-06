@@ -3,10 +3,16 @@ title: Komprimujte soubory TIFF pomocí Aspose.PSD pro Java
 linktitle: Komprimujte soubory TIFF pomocí Aspose.PSD pro Java
 second_title: Aspose.PSD Java API
 description: Efektivně komprimujte soubory TIFF pomocí Aspose.PSD for Java bez obětování kvality. Postupujte podle našeho podrobného průvodce a zefektivněte svůj pracovní postup.
-type: docs
 weight: 10
 url: /cs/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komprimujte soubory TIFF pomocí Aspose.PSD pro Java
+
 ## Zavedení
 
 Představte si, že pracujete na rozsáhlém projektu grafického designu a vaše soubory PSD zatěžují váš systém. Tyto soubory musíte sdílet nebo je uložit pro pozdější použití, ale jejich velikost je prostě příliš velká. Zde se hodí komprimace souborů PSD do formátu TIFF. Soubory TIFF nabízejí rovnováhu mezi kvalitou a velikostí, takže jsou ideální pro ukládání a sdílení. V tomto tutoriálu vás provedeme procesem komprese souborů TIFF pomocí Aspose.PSD pro Java, čímž zajistíme, že vaše obrázky budou kompaktní a přitom si zachovají svou kvalitu.
@@ -142,3 +148,9 @@ Aspose.PSD for Java primárně zpracovává soubory PSD, ale poskytuje rozsáhlo
 ### Jak komprese stupňů šedi ovlivňuje kvalitu obrazu?
 
 Komprese stupňů šedi snižuje počet barev v obrázku, což může vést ke snížení vizuálních detailů. U určitých typů obrázků je však tento kompromis minimální a může vést k výraznému zmenšení velikosti souboru.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

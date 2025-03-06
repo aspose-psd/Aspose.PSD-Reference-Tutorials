@@ -3,10 +3,16 @@ title: 마스터링 색상 변환 튜토리얼 - Java용 Aspose.PSD
 linktitle: 기본 프로필을 사용한 색상 변환
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD로 Java 이미지 처리를 강화하세요! 생생한 맞춤형 이미지를 위해 기본 프로필을 사용하여 색상 변환을 알아보세요. 지금 탐험해보세요!
-type: docs
 weight: 11
 url: /ko/java/psd-conversion/color-conversion-default-profiles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 마스터링 색상 변환 튜토리얼 - Java용 Aspose.PSD
+
 ## 소개
 Java 개발 영역에서 Aspose.PSD는 이미지 작업을 위한 강력한 도구로 돋보입니다. 많은 기능 중에서 기본 프로필을 사용한 색상 변환은 개발자가 이미지의 색상 프로필을 조작하고 향상시킬 수 있는 중요한 측면입니다. 이 튜토리얼은 Java용 Aspose.PSD를 사용하여 색상 변환 과정을 안내하고 단계별 연습을 제공합니다.
 ## 전제조건
@@ -77,3 +83,9 @@ image.save(dataDir + "Cmyk_Default_profiles.jpg", options);
 문제 해결 및 지침을 위해 Aspose.PSD 포럼의 포괄적인 문서 및 커뮤니티 지원을 활용하세요.
 ### 테스트 목적으로 임시 라이센스를 사용할 수 있나요?
 예, Aspose.PSD의 임시 라이선스를 얻어 테스트 단계에서 해당 기능을 탐색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PSD에 레벨 조정 레이어 추가
 linktitle: PSD에 레벨 조정 레이어 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에 레벨 조정 레이어를 효과적으로 추가하는 방법을 알아보세요. 이미지 편집 기술을 향상해보세요.
-type: docs
 weight: 16
 url: /ko/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에 레벨 조정 레이어 추가
+
 ## 소개
 이미지 편집의 경우 레벨을 관리하면 사진의 생동감과 선명도가 크게 달라질 수 있습니다. Photoshop 무기고에 있는 편리한 도구 중 하나는 이미지의 색조 범위와 색상 균형을 조정할 수 있는 "레벨 조정 레이어"입니다. 이 가이드에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에 레벨 조정 레이어를 구현하는 방법을 안내합니다. 이제 Java IDE를 구입하세요.
 ## 전제조건
@@ -88,3 +94,9 @@ Java용 Aspose.PSD를 사용하여 PSD 파일에 레벨 조정 레이어를 추�
  전적으로! 질문을 하고 지원을 받을 수 있습니다.[포럼을 Aspose](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD의 임시 라이센스를 어떻게 얻을 수 있나요?
  임시면허를 신청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

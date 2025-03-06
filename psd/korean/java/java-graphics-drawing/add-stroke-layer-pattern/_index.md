@@ -3,10 +3,16 @@ title: Java에서 스트로크 레이어 패턴을 추가하는 방법
 linktitle: Java에서 스트로크 레이어 패턴을 추가하는 방법
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에 스트로크 레이어 패턴을 추가하는 방법을 알아보세요. 이미지를 쉽게 향상하려면 이 단계별 가이드를 따르십시오.
-type: docs
 weight: 11
 url: /ko/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 스트로크 레이어 패턴을 추가하는 방법
+
 ## 소개
 Java에서 이미지에 획 레이어 패턴을 추가하는 것은 어려운 작업처럼 들릴 수 있지만 Java용 Aspose.PSD를 사용하면 생각보다 쉽습니다. 그래픽을 디자인하든 사진 편집 응용 프로그램을 사용하든 이 가이드는 프로세스를 단계별로 안내합니다. 시작할 준비가 되셨나요? 뛰어들어보자!
 ## 전제조건
@@ -138,3 +144,9 @@ Aspose.PSD for Java는 개발자가 프로그래밍 방식으로 PSD(Photoshop D
  Aspose 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
 ### Java용 Aspose.PSD의 시스템 요구 사항은 무엇입니까?
 개발을 위해서는 JDK가 설치되어 있어야 하고 IDE가 필요합니다. 라이브러리는 Windows, Linux 및 macOS를 포함한 여러 운영 체제를 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تصدير طبقات PSD إلى الصور النقطية باستخدا
 linktitle: تصدير طبقات PSD إلى الصور النقطية باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية تصدير طبقات PSD إلى صور PNG باستخدام Aspose.PSD لـ Java. أطلق العنان للمعالجة السلسة للملفات من خلال برنامجنا التعليمي التفصيلي خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/java/psd-image-modification-conversion/export-psd-layers-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير طبقات PSD إلى الصور النقطية باستخدام Java
+
 ## مقدمة
 
 في عالم التصميم الرقمي، يمكن أن يكون العمل باستخدام الصور ذات الطبقات بمثابة نعمة وتحدي في نفس الوقت. تخيل أنك قضيت ساعات في إنشاء صورة رائعة في Photoshop (تنسيق PSD)، مكتملة بطبقات متعددة تضفي الحيوية على تصميمك. الآن، قد ترغب في تصدير تلك الطبقات بشكل مستقل لاستخدامها مرة أخرى! هذا هو المكان الذي يلعب فيه Aspose.PSD for Java، مما يؤدي إلى أتمتة المهمة الشاقة المتمثلة في تصدير كل طبقة من ملف PSD الخاص بك إلى صور نقطية، مثل PNG، دون عناء. في هذا الدليل الشامل، سنأخذك خلال العملية الكاملة لتصدير طبقات PSD باستخدام Java، خطوة بخطوة.
@@ -99,3 +105,9 @@ Aspose.PSD for Java هي مكتبة تمكن المطورين من العمل م
 
 ### أين يمكنني شراء ترخيص Aspose.PSD؟
  يمكنك بسهولة شراء ترخيص لـ Aspose.PSD من صفحة الشراء الخاصة بهم[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

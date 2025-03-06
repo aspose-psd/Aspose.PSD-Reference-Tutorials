@@ -3,10 +3,16 @@ title: Menangani Objek Aliran Gambar Tidak Terkompresi di PSD - Java
 linktitle: Menangani Objek Aliran Gambar Tidak Terkompresi di PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Kuasai penanganan aliran gambar yang tidak terkompresi di PSD menggunakan Aspose.PSD untuk Java dengan panduan yang mudah diikuti ini. Sempurna untuk pengembang dan desainer.
-type: docs
 weight: 26
 url: /id/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Objek Aliran Gambar Tidak Terkompresi di PSD - Java
+
 ## Perkenalan
 Selamat datang di dunia manipulasi gambar di Java! Hari ini, kami mendalami penanganan objek aliran gambar yang tidak terkompresi menggunakan Aspose.PSD untuk Java. Baik Anda seorang desainer grafis yang ingin mengotomatiskan alur kerja Anda atau pengembang perangkat lunak yang ingin mengintegrasikan kemampuan pemrosesan gambar yang kuat ke dalam aplikasi Anda, panduan ini dirancang khusus untuk Anda. Kami akan membahas semuanya mulai dari prasyarat hingga kesimpulan, memastikan bahwa Anda memiliki pemahaman yang kuat tentang cara memulai Aspose.PSD.
 ## Prasyarat
@@ -92,3 +98,9 @@ Aspose.PSD adalah perpustakaan .NET yang memungkinkan pengembang membuat, menged
  Sangat! Anda dapat mencari bantuan di[Asumsikan forum dukungan](https://forum.aspose.com/c/psd/34).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD?
  Kunjungi saja[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk memulai.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

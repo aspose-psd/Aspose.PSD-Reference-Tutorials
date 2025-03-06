@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.PSD-re Java-hoz
 linktitle: Aspose.PSD for Java oktatóanyagok
-type: docs
 weight: 10
 url: /hu/java/
 description: Fedezze fel az Aspose.PSD for Java képességeit a képfeldolgozásban! Mesterszűrők, mint például a Gaussian, Wiener, Median és Motion Wiener, lépésről lépésre bemutatott útmutatókkal.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.PSD-re Java-hoz
+
 
 ## Bevezetés
 
@@ -86,3 +91,9 @@ Fedezze fel a fejlett PSD-réteg funkcióit és effektusait az Aspose.PSD for Ja
 Hatékonyan kezelheti a TIFF-képeket az Aspose.PSD for Java segítségével. Ismerje meg, hogyan tömörítheti, konfigurálhatja és alkalmazhatja az Adobe Deflate tömörítést TIFF-fájlokra lépésenkénti oktatóanyagaink segítségével.
 ### [Munka PSD fájlokkal](./working-with-psd-files/)
 Fedezze fel az átfogó Aspose.PSD for Java oktatóanyagot, beleértve a PSD-rétegcsoportok képekké való exportálását, valamint a Clbl, Infx és Lspf erőforrások kezelését.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

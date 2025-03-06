@@ -3,10 +3,16 @@ title: Rendering Drop Shadow Effect in Aspose.PSD for .NET
 linktitle: Rendering Drop Shadow Effect
 second_title: Aspose.PSD .NET API
 description: Explore the power of Aspose.PSD for .NET in this tutorial, mastering the art of rendering captivating drop shadow effects.
-type: docs
 weight: 12
 url: /net/image-effects/render-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendering Drop Shadow Effect in Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to our step-by-step tutorial on rendering drop shadow effects in Aspose.PSD for .NET! If you're looking to enhance your image manipulation skills using Aspose.PSD, you've come to the right place. In this guide, we'll walk you through the process of applying drop shadow effects to your images with ease.
@@ -112,3 +118,10 @@ A4: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### Q5: How can I get support or seek assistance with Aspose.PSD for .NET?
 
 A5: Visit the Aspose.PSD forum [here](https://forum.aspose.com/c/psd/34) to engage with the community and seek expert advice.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

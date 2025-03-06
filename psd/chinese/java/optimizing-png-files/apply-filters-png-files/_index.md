@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中将滤镜应用于 PNG 文件
 linktitle: 在 Aspose.PSD for Java 中将滤镜应用于 PNG 文件
 second_title: Aspose.PSD Java API
 description: 通过本详细指南了解如何在 Aspose.PSD for Java 中将滤镜应用于 PNG 图像。简单的步骤即可获得令人惊叹的图像效果。
-type: docs
 weight: 10
 url: /zh/java/optimizing-png-files/apply-filters-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中将滤镜应用于 PNG 文件
+
 ## 介绍
 您是否希望使用 Aspose.PSD for Java 增强您的 PNG 文件？您来对地方了！在今天的文章中，我们将探讨如何使用这个多功能库将滤镜应用于 PNG 图像。无论您是初出茅庐的程序员还是经验丰富的开发人员，本指南都将以清晰简洁的方式引导您完成每个步骤。到最后，您将对如何像专业人士一样处理图像有扎实的理解。
 ## 先决条件
@@ -65,3 +71,9 @@ Aspose.PSD for Java 是一个库，允许开发人员使用 PSD 文件并操作�
 Aspose.PSD 支持多种 PNG 滤镜类型，包括 Paeth、Sub、Up、Average 和 None。您可以根据需要进行选择。
 ### 在哪里可以找到针对 Aspose.PSD 问题的支持？  
 您可以通过访问 Aspose 论坛获得帮助和支持[这里](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

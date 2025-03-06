@@ -3,10 +3,16 @@ title: دعم قناع القطع في ملفات PSD باستخدام Aspose.PS
 linktitle: دعم قناع القطع في ملفات PSD باستخدام Aspose.PSD Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية دعم أقنعة القطع في ملفات PSD باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة للتعامل بسهولة مع صور PSD.
-type: docs
 weight: 16
 url: /ar/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم قناع القطع في ملفات PSD باستخدام Aspose.PSD Java
+
 ## مقدمة
 في عصر الفن الرقمي والتصميم الحالي، تعد ملفات Adobe Photoshop PSD بمثابة حجر الزاوية للإبداع. تسمح هذه الملفات للمصممين باستخدام الطبقات والأقنعة والمؤثرات المتنوعة لإضفاء الحيوية على رؤيتهم. ولكن ماذا يحدث عندما تحتاج إلى معالجة هذه الملفات برمجياً؟ وهنا يأتي دور Aspose.PSD لـ Java! إنها مكتبة قوية تسمح لك بإدارة ملفات PSD ومعالجتها بسهولة. في هذا البرنامج التعليمي، سنلقي نظرة فاحصة على كيفية دعم أقنعة القطع في ملفات PSD باستخدام Aspose.PSD لـ Java. 
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ im.dispose();
  نعم! يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.PSD[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم لمشاكل Aspose.PSD؟
  لأية استفسارات أو مشكلات، يمكنك الحصول على الدعم من خلال منتدى Aspose[هنا](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Java 将图像导出为 PSD 格式
 linktitle: 使用 Java 将图像导出为 PSD 格式
 second_title: Aspose.PSD Java API
 description: 通过简单的分步指南学习如何使用 Aspose.PSD for Java 将图像导出为 PSD 格式。非常适合开发人员和图形设计师。
-type: docs
 weight: 11
 url: /zh/java/psd-image-modification-conversion/export-images-psd-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 将图像导出为 PSD 格式
+
 ## 介绍
 
 在平面设计领域，处理分层图像是必不可少的，而 Adobe Photoshop 的 PSD 格式已成为专业人士的首选。您可能会问自己：“如何使用 Java 处理和保存这种格式的图像？”好吧，您来对地方了！在本教程中，我们将探讨如何利用 Aspose.PSD for Java 的强大功能无缝创建和导出 PSD 格式的图像。所以，舒服地躺下，吃点零食，让我们进入图像处理的世界吧！
@@ -117,3 +123,9 @@ Aspose.PSD for Java 是一个功能强大的库，可用于在 Java 应用程序
 
 ### 如果我遇到问题，如何获得支持？
 如需支持，您可以访问[Aspose 论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

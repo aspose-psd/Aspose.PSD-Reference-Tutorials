@@ -3,10 +3,16 @@ title: วิธีเพิ่มรูปแบบเลเยอร์ Stroke
 linktitle: วิธีเพิ่มรูปแบบเลเยอร์ Stroke ใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีเพิ่มรูปแบบเลเยอร์สโตรกให้กับไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อปรับปรุงภาพของคุณอย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# วิธีเพิ่มรูปแบบเลเยอร์ Stroke ใน Java
+
 ## การแนะนำ
 การเพิ่มรูปแบบเลเยอร์สโตรกให้กับรูปภาพใน Java อาจฟังดูเป็นงานที่น่ากังวล แต่ด้วย Aspose.PSD สำหรับ Java มันง่ายกว่าที่คุณคิด ไม่ว่าคุณจะออกแบบกราฟิกหรือใช้งานแอพพลิเคชั่นแก้ไขภาพ คู่มือนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน พร้อมที่จะเริ่มต้นหรือยัง? มาดำน้ำกันเถอะ!
 ## ข้อกำหนดเบื้องต้น
@@ -138,3 +144,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารีที่ช
  คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose[ที่นี่](https://forum.aspose.com/c/psd/34).
 ### ความต้องการของระบบสำหรับ Aspose.PSD สำหรับ Java คืออะไร
 คุณต้องติดตั้ง JDK และ IDE เพื่อการพัฒนา ไลบรารีรองรับระบบปฏิบัติการหลายระบบรวมถึง Windows, Linux และ macOS
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

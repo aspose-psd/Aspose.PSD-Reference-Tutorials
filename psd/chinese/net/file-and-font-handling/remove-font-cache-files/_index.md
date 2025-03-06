@@ -3,10 +3,16 @@ title: 删除 Aspose.PSD for .NET 中的字体缓存文件
 linktitle: 删除字体缓存文件
 second_title: Aspose.PSD .NET API
 description: 通过删除字体缓存文件来优化 Aspose.PSD for .NET 的性能。按照我们的分步指南进行无缝执行。
-type: docs
 weight: 15
 url: /zh/net/file-and-font-handling/remove-font-cache-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 删除 Aspose.PSD for .NET 中的字体缓存文件
+
 ## 介绍
 
 在使用 Aspose.PSD for .NET 时，您是否遇到了与字体相关的挑战？删除字体缓存文件可能是有效解决这些问题的关键。在本综合教程中，我们将逐步指导您完成该过程。在深入研究之前，让我们确保您拥有所需的一切。
@@ -93,3 +99,9 @@ A2：如果可能，建议删除字体缓存文件，以防止应用程序中出
 ### Q5: 我可以购买 Aspose.PSD for .NET 吗？
 
  A5：当然可以！访问[这里](https://purchase.aspose.com/buy)探索 Aspose.PSD for .NET 的购买选项。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

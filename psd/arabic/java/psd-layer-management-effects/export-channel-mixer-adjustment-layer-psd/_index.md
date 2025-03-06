@@ -3,10 +3,16 @@ title: تصدير طبقة ضبط مازج القنوات في PSD - Java
 linktitle: تصدير طبقة ضبط مازج القنوات في PSD - Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تصدير طبقات ضبط مازج القنوات في PSD باستخدام Aspose.PSD لـ Java. دليل خطوة بخطوة لتعديل طبقات RGB وCMYK وحفظ التغييرات والتصدير إلى PNG.
-type: docs
 weight: 14
 url: /ar/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير طبقة ضبط مازج القنوات في PSD - Java
+
 ## مقدمة
 
 عندما يتعلق الأمر بتحرير الصور، خاصة مع ملفات Adobe Photoshop (PSD)، فإن إدارة الطبقات بكفاءة هي المفتاح. ومن بين هذه الطبقات، تلعب طبقة ضبط مازج القنوات دورًا حاسمًا في تعديل توازن الألوان في الصورة. إذا كنت أحد مطوري Java وتتطلع إلى التعامل مع هذه الطبقات برمجيًا، فأنت محظوظ! في هذه المقالة، سنرشدك خلال عملية تصدير طبقات ضبط مازج القنوات باستخدام Aspose.PSD لـ Java. بحلول نهاية هذا الدليل، ستكون مجهزًا جيدًا للتعامل مع طبقات ضبط خلاط القنوات RGB وCMYK، وحفظ تغييراتك، وتصدير صورتك النهائية بتنسيقي PSD وPNG.
@@ -168,3 +174,9 @@ img.save(pngExportPath, options);
 
 ### هل أحتاج إلى ترخيص لاستخدام Aspose.PSD لـ Java؟  
  نعم، Aspose.PSD for Java هو منتج مرخص. يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للاختبار أو شراء ترخيص كامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

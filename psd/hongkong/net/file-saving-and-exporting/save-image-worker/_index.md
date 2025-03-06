@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中使用 Save Image Worker
 linktitle: 使用儲存影像工作器
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 的 Save Image Worker 進行無縫影像格式轉換和中斷處理。
-type: docs
 weight: 12
 url: /zh-hant/net/file-saving-and-exporting/save-image-worker/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中使用 Save Image Worker
+
 ## 介紹
 
 在.NET 開發領域，Aspose.PSD 提供了一個強大的影像處理工具包。一個關鍵方面是`SaveImageWorker`類，它在將圖像從一種格式轉換為另一種格式方面起著至關重要的作用。本教學將引導您完成使用`SaveImageWorker`在 Aspose.PSD for .NET 中，為了清晰和易於實施而分解每個步驟。
@@ -105,3 +111,9 @@ A2：文檔可用[這裡](https://reference.aspose.com/psd/net/).
 ### Q5：我可以購買 Aspose.PSD for .NET 的臨時授權嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PNG 파일 최적화
 linktitle: PNG 파일 최적화
 second_title: Aspose.PSD 자바 API
 description: 필터, 배경색 변경, 압축, 해상도, 비트 깊이 및 투명도를 다루는 Java용 Aspose.PSD를 사용하여 PNG 파일을 최적화하기 위한 포괄적인 튜토리얼을 살펴보세요.
-type: docs
 weight: 20
 url: /ko/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PNG 파일 최적화
+
 ## 소개
 
 Java용 Aspose.PSD를 사용하여 PNG 파일 최적화를 마스터하고 싶으십니까? 우리의 상세한 튜토리얼은 이미지를 빛나게 하기 위해 알아야 할 모든 것을 다룹니다. 필터 적용부터 배경색 변경, 파일 압축, 해상도 설정까지 이 가이드에서 다뤘습니다. PNG 파일을 최대한 활용할 수 있도록 각 주제를 단계별로 살펴보겠습니다!
@@ -48,3 +54,9 @@ Java용 Aspose.PSD를 사용하여 PNG 파일을 효율적으로 압축하는 �
 이 상세한 단계별 튜토리얼에서 Java용 Aspose.PSD를 사용하여 PNG 비트 깊이를 지정하는 방법을 알아보세요.
 ### [Java용 Aspose.PSD에서 PNG 투명도 설정](./set-png-transparency/)
 쉬운 단계별 튜토리얼을 통해 Java용 Aspose.PSD에서 PNG 투명도를 설정하는 방법을 알아보세요. 개발자와 그래픽 디자이너에게 적합합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

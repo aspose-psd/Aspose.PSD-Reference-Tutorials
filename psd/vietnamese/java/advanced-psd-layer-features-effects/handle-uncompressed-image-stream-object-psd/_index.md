@@ -3,10 +3,16 @@ title: Xử lý đối tượng luồng hình ảnh không nén trong PSD - Java
 linktitle: Xử lý đối tượng luồng hình ảnh không nén trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Xử lý thành thạo các luồng hình ảnh không nén trong PSD bằng Aspose.PSD cho Java với hướng dẫn dễ làm theo này. Hoàn hảo cho các nhà phát triển và nhà thiết kế.
-type: docs
 weight: 26
 url: /vi/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý đối tượng luồng hình ảnh không nén trong PSD - Java
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới thao tác hình ảnh trong Java! Hôm nay, chúng ta sẽ đi sâu vào xử lý các đối tượng luồng hình ảnh không nén bằng Aspose.PSD cho Java. Cho dù bạn là nhà thiết kế đồ họa đang tìm cách tự động hóa quy trình công việc hay nhà phát triển phần mềm đang tìm cách tích hợp khả năng xử lý hình ảnh mạnh mẽ vào ứng dụng của mình thì hướng dẫn này được thiết kế riêng cho bạn. Chúng tôi sẽ hướng dẫn mọi thứ từ điều kiện tiên quyết đến kết luận, đảm bảo rằng bạn hiểu rõ về cách bắt đầu với Aspose.PSD.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Aspose.PSD là thư viện .NET cho phép các nhà phát triển tạo, chỉnh
  Tuyệt đối! Bạn có thể tìm kiếm sự giúp đỡ trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
  Chỉ cần ghé thăm[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để bắt đầu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

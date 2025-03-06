@@ -3,10 +3,16 @@ title: Prise en charge de la ressource Clbl dans les fichiers PSD à l'aide de J
 linktitle: Prise en charge de la ressource Clbl dans les fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment prendre en charge et manipuler la ressource Clbl dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Ce guide détaillé couvre les conditions préalables, les instructions étape par étape et les FAQ.
-type: docs
 weight: 12
 url: /fr/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de la ressource Clbl dans les fichiers PSD à l'aide de Java
+
 ## Introduction
 
  Avez-vous déjà travaillé avec des fichiers PSD et avez-vous dû manipuler des ressources de couches par programme ? Si vous êtes un développeur Java, vous avez de la chance ! Avec Aspose.PSD pour Java, vous pouvez facilement gérer et modifier des fichiers PSD, y compris la gestion des`ClblResource` une ressource spéciale qui contrôle la fusion des éléments découpés. Dans ce didacticiel, nous verrons en profondeur comment vous pouvez prendre en charge et manipuler le`ClblResource` dans vos fichiers PSD en utilisant Java. À la fin, vous serez bien équipé pour gérer cette ressource dans vos projets, vous assurant ainsi un contrôle total sur l'apparence de vos images en couches.
@@ -156,3 +162,9 @@ Oui, une licence est requise pour bénéficier de toutes les fonctionnalités. V
 
 ### Comment gérer des fichiers PSD volumineux ?  
 Aspose.PSD pour Java est conçu pour gérer efficacement les fichiers PSD volumineux, mais vous devez vous assurer que votre système dispose d'une mémoire et d'une puissance de traitement adéquates pour des performances optimales.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

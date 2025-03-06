@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 단색으로 획 레이어 추가
 linktitle: 단색으로 획 레이어 추가
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 .NET 이미지 조작 기술을 향상하세요. 단색으로 획 레이어를 추가하는 방법을 단계별로 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 단색으로 획 레이어 추가
+
 ## 소개
 
 .NET 개발 영역에서는 시각적으로 매력적인 이미지를 만드는 것이 일반적인 요구 사항입니다. .NET용 Aspose.PSD는 이미지를 원활하게 조작하고 향상시킬 수 있는 강력한 도구 세트를 제공합니다. 필수 기능 중 하나는 단색의 획 레이어를 추가하여 이미지에 생동감과 깊이를 더하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 프로세스를 단계별로 안내합니다.
@@ -130,3 +136,9 @@ A2: 물론이죠! Aspose.PSD for .NET은 상용 제품이므로 라이선스를 
 ### Q5: .NET용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 도움을 구하고 지역 사회와 연결됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

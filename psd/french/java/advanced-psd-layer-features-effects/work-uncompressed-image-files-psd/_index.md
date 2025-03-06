@@ -3,10 +3,16 @@ title: Travailler avec des fichiers image non compressés dans PSD à l'aide de 
 linktitle: Travailler avec des fichiers image non compressés dans PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à travailler avec des fichiers image non compressés au format PSD à l'aide de Java et de la bibliothèque Aspose.PSD dans ce didacticiel complet, étape par étape.
-type: docs
 weight: 27
 url: /fr/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des fichiers image non compressés dans PSD à l'aide de Java
+
 ## Introduction
 Lorsqu'il s'agit de travailler avec des documents Photoshop (PSD) en Java, il est crucial de comprendre comment manipuler et enregistrer efficacement ces riches fichiers d'images. Dans ce didacticiel, nous approfondirons l'utilisation d'Aspose.PSD, une API robuste qui simplifie la gestion des fichiers PSD, notamment l'utilisation d'images non compressées. Que vous soyez un développeur cherchant à améliorer votre application avec des graphiques riches ou que vous souhaitiez simplement traiter des fichiers PSD en Java sans problème, ce guide vous guidera à chaque étape du processus. Prêt à commencer ? Allons-y !
 ## Conditions préalables
@@ -84,3 +90,9 @@ Un essai gratuit est disponible, mais pour une utilisation intensive et un accè
  Vous pouvez contacter via le[Forum d'assistance Aspose](https://forum.aspose.com/c/psd/34) pour obtenir de l'aide.
 ### Aspose.PSD prend-il en charge l’enregistrement dans des formats autres que PSD ?
 Oui, Aspose.PSD permet d'enregistrer dans différents formats tels que PNG, JPEG, etc., en fonction de vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

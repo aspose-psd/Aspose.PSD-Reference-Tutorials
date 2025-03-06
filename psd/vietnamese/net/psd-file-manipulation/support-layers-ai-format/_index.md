@@ -3,10 +3,16 @@ title: Hỗ trợ các lớp ở định dạng AI với Aspose.PSD cho .NET
 linktitle: Hỗ trợ các lớp ở định dạng AI với Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách xử lý các lớp định dạng AI một cách dễ dàng với Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp và thao tác liền mạch.
-type: docs
 weight: 10
 url: /vi/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ các lớp ở định dạng AI với Aspose.PSD cho .NET
+
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách tận dụng Aspose.PSD cho .NET để xử lý các lớp hỗ trợ trong tệp định dạng AI. Aspose.PSD đơn giản hóa các tác vụ phức tạp, giúp các nhà phát triển làm việc với các tệp AI trong ứng dụng .NET của họ dễ dàng hơn. Trong hướng dẫn này, chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập vùng tên và chia từng ví dụ thành nhiều bước để đảm bảo trải nghiệm học tập liền mạch.
 ## Giới thiệu
 ### Aspose.PSD là gì?
@@ -85,3 +91,9 @@ Câu trả lời 2: Có, Aspose.PSD cung cấp chức năng hoạt động với
 ### Câu hỏi 5: Aspose.PSD hỗ trợ lưu những định dạng hình ảnh nào?
 
 Câu trả lời 5: Aspose.PSD hỗ trợ nhiều định dạng khác nhau, bao gồm PSD, PNG, JPEG, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

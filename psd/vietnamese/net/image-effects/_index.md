@@ -3,10 +3,16 @@ title: Hiệu ứng hình ảnh
 linktitle: Hiệu ứng hình ảnh
 second_title: API Aspose.PSD .NET
 description: Nắm vững các cải tiến hình ảnh động trong Aspose.PSD cho .NET. Nâng cao khả năng xử lý hình ảnh của bạn bằng các hướng dẫn về cách thêm, xếp chồng và hiển thị các hiệu ứng tuyệt đẹp trong thời gian chạy.
-type: docs
 weight: 25
 url: /vi/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiệu ứng hình ảnh
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Khám phá các cải tiến hình ảnh động bằng Aspose.PSD cho .NET. Th�
 Khám phá sự kỳ diệu của Aspose.PSD cho .NET với hướng dẫn của chúng tôi về các hiệu ứng lớp phủ màu. Nâng cao trò chơi xử lý hình ảnh của bạn một cách dễ dàng.
 ### [Hiển thị hiệu ứng đổ bóng trong Aspose.PSD cho .NET](./render-drop-shadow/)
 Khám phá sức mạnh của Aspose.PSD cho .NET trong hướng dẫn này, nắm vững nghệ thuật kết xuất các hiệu ứng đổ bóng quyến rũ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

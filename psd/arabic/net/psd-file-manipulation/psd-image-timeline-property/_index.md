@@ -3,10 +3,16 @@ title: خاصية الخط الزمني لصورة PSD في Aspose.PSD لـ .NET
 linktitle: خاصية الجدول الزمني لصورة PSD
 second_title: Aspose.PSD.NET API
 description: استكشف العالم الديناميكي لمعالجة الصور باستخدام Aspose.PSD لـ .NET. التعامل مع الجداول الزمنية PSD دون عناء. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 15
 url: /ar/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خاصية الخط الزمني لصورة PSD في Aspose.PSD لـ .NET
+
 ## مقدمة
 في مشهد تطوير .NET الدائم التطور، يعد البقاء في الطليعة أمرًا ضروريًا. يظهر Aspose.PSD for .NET كأداة قوية تقدم العديد من الميزات لتحسين قدرات معالجة الصور لديك. إحدى الميزات الجديرة بالملاحظة هي خاصية الجدول الزمني لصورة PSD، والتي تسمح لك بمعالجة الجدول الزمني لصور PSD الخاصة بك ديناميكيًا.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.PSD لـ .NET؟
 
  ج5: استكشف الوثائق الشاملة[هنا](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

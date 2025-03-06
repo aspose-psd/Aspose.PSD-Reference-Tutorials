@@ -3,10 +3,16 @@ title: Merender Efek Drop Shadow di Aspose.PSD untuk .NET
 linktitle: Merender Efek Drop Shadow
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan Aspose.PSD untuk .NET dalam tutorial ini, kuasai seni rendering efek drop shadow yang menawan.
-type: docs
 weight: 12
 url: /id/net/image-effects/render-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Merender Efek Drop Shadow di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah kami tentang rendering efek drop shadow di Aspose.PSD untuk .NET! Jika Anda ingin meningkatkan keterampilan manipulasi gambar menggunakan Aspose.PSD, Anda datang ke tempat yang tepat. Dalam panduan ini, kami akan memandu Anda melalui proses penerapan efek drop shadow ke gambar Anda dengan mudah.
@@ -112,3 +118,9 @@ A2: Tentu saja! Jangan ragu untuk menyesuaikan kode untuk memenuhi kebutuhan spe
 ### Q5: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan dengan Aspose.PSD untuk .NET?
 
  A5: Kunjungi forum Aspose.PSD[Di Sini](https://forum.aspose.com/c/psd/34) untuk terlibat dengan komunitas dan mencari nasihat ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

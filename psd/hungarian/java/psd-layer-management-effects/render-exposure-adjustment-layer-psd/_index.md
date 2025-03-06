@@ -3,10 +3,16 @@ title: Render Exposure Adjustment Layer PSD-fájlokban – Java
 linktitle: Render Exposure Adjustment Layer PSD-fájlokban – Java
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan lehet megjeleníteni és beállítani az expozíciós rétegeket PSD-fájlokban az Aspose.PSD for Java segítségével. Lépésről lépésre útmutató kódpéldákkal az expozíciós rétegek módosításához és hozzáadásához.
-type: docs
 weight: 15
 url: /hu/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Exposure Adjustment Layer PSD-fájlokban – Java
+
 ## Bevezetés
 
 Photoshop PSD fájlokkal dolgozik, és programozottan módosítania kell az expozíciót, vagy hozzá kell adnia egy expozícióbeállító réteget? Akár meglévő rétegeket módosít, akár újakat ad hozzá, az Aspose.PSD for Java hatékony és intuitív módszert kínál ezeknek a feladatoknak a kezelésére. Ebben az útmutatóban végigvezetjük az Aspose.PSD for Java használatát a PSD-fájlok expozíciókorrekciós rétegeinek megjelenítéséhez és módosításához. Ennek az oktatóanyagnak a végére tudni fogja, hogyan módosíthatja az expozíciós beállításokat a meglévő rétegekben, és hogyan adhat hozzá új megvilágításbeállítási rétegeket PSD-fájlokhoz. Merüljünk el!
@@ -138,3 +144,9 @@ Igen, az Aspose.PSD for Java különféle típusú rétegeket támogat, beleért
 ### Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
 
  Támogatásért látogassa meg a[Aspose támogatási fórum](https://forum.aspose.com/c/psd/34) ahol kérdéseket tehet fel, és segítséget kérhet a közösségtől.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

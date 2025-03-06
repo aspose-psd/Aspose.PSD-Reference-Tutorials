@@ -3,10 +3,16 @@ title: Podpora Working Path Resource v Aspose.PSD pro .NET
 linktitle: Podpora zdrojů pracovní cesty
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte sílu 'WorkingPathResource' v Aspose.PSD pro .NET. Vylepšete přesnost obrazu pomocí tohoto podrobného průvodce.
-type: docs
 weight: 12
 url: /cs/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora Working Path Resource v Aspose.PSD pro .NET
+
 ## Zavedení
 Pokud jste vývojář .NET pracující se zpracováním obrazu, Aspose.PSD pro .NET je vaším řešením. V tomto tutoriálu se ponoříme hluboko do využití síly zdroje 'WorkingPathResource' v Aspose.PSD. Tato klíčová funkce zvyšuje přesnost operace oříznutí a zajišťuje, že vaše snímky budou přizpůsobeny přesně podle potřeby.
 ## Předpoklady
@@ -88,3 +94,9 @@ Gratuluji! Úspěšně jste zvládli použití 'WorkingPathResource' v Aspose.PS
 ### Q5: Potřebujete dočasnou licenci?
 
  A5: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

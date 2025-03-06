@@ -3,10 +3,16 @@ title: การวาดภาพกราฟิก Java
 linktitle: การวาดภาพกราฟิก Java
 second_title: Aspose.PSD Java API
 description: สำรวจ Aspose.PSD สำหรับบทช่วยสอน Java เกี่ยวกับการวาดภาพกราฟิก เรียนรู้วิธีการเพิ่มเส้นขีด วาดรูปร่าง และจัดการไฟล์ PSD พร้อมคำแนะนำทีละขั้นตอน
-type: docs
 weight: 20
 url: /th/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดภาพกราฟิก Java
+
 
 ## การแนะนำ
 
@@ -75,3 +81,9 @@ Aspose.PSD สำหรับ Java อัดแน่นไปด้วยคว
 เรียนรู้วิธีการวาดกราฟิกใน Java โดยใช้ Aspose.PSD ทีละขั้นตอน สร้างรูปทรง ใส่สี และส่งออกรูปภาพได้อย่างง่ายดาย
 ### [การวาดภาพโดยใช้เส้นทางกราฟิกใน Java](./drawing-using-graphics-path/)
 เรียนรู้วิธีสร้างกราฟิกที่ซับซ้อนใน Java โดยใช้คลาส Graphics Path ของ Aspose.PSD บทช่วยสอนนี้จะแนะนำคุณตลอดแต่ละขั้นตอนในการสร้างภาพที่น่าทึ่ง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

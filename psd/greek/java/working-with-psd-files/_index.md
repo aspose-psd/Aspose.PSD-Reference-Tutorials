@@ -3,10 +3,16 @@ title: Εργασία με αρχεία PSD
 linktitle: Εργασία με αρχεία PSD
 second_title: Aspose.PSD Java API
 description: Εξερευνήστε ολοκληρωμένα μαθήματα Aspose.PSD για Java, συμπεριλαμβανομένου του τρόπου εξαγωγής ομάδων επιπέδων PSD σε εικόνες και χειρισμού πόρων Clbl, Infx και Lspf.
-type: docs
 weight: 26
 url: /el/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με αρχεία PSD
+
 
 ## Εισαγωγή
 
@@ -37,3 +43,9 @@ url: /el/java/working-with-psd-files/
 Μάθετε πώς να χειρίζεστε τον πόρο Infx σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java με αυτόν τον περιεκτικό, βήμα προς βήμα εκμάθηση. Ιδανικό για προγραμματιστές όλων των επιπέδων.
 ### [Υποστήριξη πόρων Lspf σε αρχεία PSD χρησιμοποιώντας Java](./support-lspf-resource-psd-files/)
 Μάθετε πώς να υποστηρίζετε και να χειρίζεστε τον πόρο Lspf σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java με τον αναλυτικό οδηγό μας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

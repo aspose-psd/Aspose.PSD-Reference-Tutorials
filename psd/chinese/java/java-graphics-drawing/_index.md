@@ -3,10 +3,16 @@ title: Java图形绘制
 linktitle: Java图形绘制
 second_title: Aspose.PSD Java API
 description: 探索 Aspose.PSD for Java 图形绘制教程。通过分步指南学习如何添加描边、绘制形状和操作 PSD 文件。
-type: docs
 weight: 20
 url: /zh/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java图形绘制
+
 
 ## 介绍
 
@@ -75,3 +81,9 @@ Aspose.PSD for Java 具有强大的图像处理功能。本教程将探索核心
 逐步了解如何使用 Aspose.PSD 在 Java 中绘制图形。轻松创建形状、应用颜色和导出图像。
 ### [在 Java 中使用图形路径进行绘图](./drawing-using-graphics-path/)
 了解如何使用 Aspose.PSD 的 Graphics Path 类在 Java 中创建复杂图形。本教程将指导您完成创建精美图像的每个步骤。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

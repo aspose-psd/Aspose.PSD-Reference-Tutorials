@@ -3,10 +3,16 @@ title: Spłaszcz warstwy w plikach PSD za pomocą Aspose.PSD Java
 linktitle: Spłaszcz warstwy w plikach PSD za pomocą Aspose.PSD Java
 second_title: Aspose.PSD API Java
 description: Spłaszczaj i łącz warstwy w plikach PSD bez wysiłku, korzystając z Aspose.PSD dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uprościć zarządzanie plikami PSD.
-type: docs
 weight: 13
 url: /pl/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spłaszcz warstwy w plikach PSD za pomocą Aspose.PSD Java
+
 ## Wstęp
 
 Czy kiedykolwiek zdarzyło Ci się pracować z plikami Photoshopa i marzyłeś o łatwiejszym sposobie zarządzania złożonymi warstwami? Cóż, masz szczęście! Dzisiaj zagłębiamy się w świat Aspose.PSD dla Java, potężnego narzędzia, dzięki któremu programowa praca z plikami PSD jest dziecinnie prosta. Jedną z przydatnych funkcji, które omówimy, jest spłaszczanie warstw. Niezależnie od tego, czy chcesz spłaszczyć cały obraz, czy selektywnie połączyć określone warstwy, Aspose.PSD dla Java Ci to umożliwi. Ten samouczek przeprowadzi Cię przez ten proces krok po kroku, upewniając się, że możesz bez obaw zająć się plikami PSD.
@@ -150,3 +156,9 @@ Tak, możesz łączyć warstwy o różnych trybach mieszania za pomocą Aspose.P
 
 ### Co się stanie, jeśli spróbuję połączyć warstwy, które nie sąsiadują ze sobą?  
 Aspose.PSD umożliwia łączenie dowolnych warstw niezależnie od ich kolejności na stosie warstw. Proces scalania połączy wybrane warstwy zgodnie z określonymi ustawieniami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

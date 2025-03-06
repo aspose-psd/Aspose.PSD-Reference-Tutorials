@@ -3,10 +3,16 @@ title: Add Diagonal Watermark to PSD Files with Java
 linktitle: Add Diagonal Watermark to PSD Files with Java
 second_title: Aspose.PSD Java API
 description: Learn how to easily add a diagonal watermark to PSD files using Java with Aspose.PSD. Step-by-step guide to enhance your images confidently.
-type: docs
 weight: 12
 url: /java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Diagonal Watermark to PSD Files with Java
+
 ## Introduction
 In today's digital world, having a striking visual can make all the difference. Whether you're a designer looking to protect your work or a marketer wanting to add branding to images, applying a watermark is essential. In this tutorial, we'll explore how to add a diagonal watermark to PSD files using Java with the help of Aspose.PSD, a powerful library for manipulating PSD files.
 ## Prerequisites
@@ -97,3 +103,10 @@ Absolutely! You can adjust the alpha value in the SolidBrush to change the trans
 Yes, you can call the `drawString` method multiple times with different parameters to add more watermarks.
 ### Where can I find more information about Aspose.PSD?
 You can check the documentation [here](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

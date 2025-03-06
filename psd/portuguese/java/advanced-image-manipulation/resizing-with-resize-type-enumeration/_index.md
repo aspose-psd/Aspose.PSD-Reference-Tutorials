@@ -3,10 +3,16 @@ title: Redimensionando com enumeração de tipo de redimensionamento em Aspose.P
 linktitle: Redimensionando com enumeração de tipo de redimensionamento
 second_title: API Java Aspose.PSD
 description: Domine o redimensionamento de imagens em Java com Aspose.PSD. Guia passo a passo usando a enumeração de tipo de redimensionamento.
-type: docs
 weight: 18
 url: /pt/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Redimensionando com enumeração de tipo de redimensionamento em Aspose.PSD para Java
+
 ## Introdução
 
 No cenário em constante evolução do desenvolvimento Java, o processamento eficiente de imagens é um aspecto crucial com o qual os desenvolvedores frequentemente enfrentam. Aspose.PSD para Java surge como uma solução poderosa, fornecendo uma experiência perfeita para redimensionar imagens com a vantagem adicional da enumeração de tipo de redimensionamento. Neste tutorial, nos aprofundaremos nos meandros do redimensionamento de imagens usando Aspose.PSD para Java, detalhando cada etapa para garantir uma compreensão abrangente.
@@ -86,3 +92,9 @@ A2: Sim, Aspose.PSD para Java oferece vários tipos de redimensionamento, como v
 ### P5: Como posso obter uma licença temporária do Aspose.PSD para Java?
 
  A5: Para obter uma licença temporária, visite[este link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

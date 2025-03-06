@@ -3,10 +3,16 @@ title: Geben Sie die PNG-Bittiefe in Aspose.PSD für Java an
 linktitle: Geben Sie die PNG-Bittiefe in Aspose.PSD für Java an
 second_title: Aspose.PSD Java API
 description: Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie die PNG-Bittiefe mit Aspose.PSD für Java festlegen.
-type: docs
 weight: 14
 url: /de/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geben Sie die PNG-Bittiefe in Aspose.PSD für Java an
+
 ## Einführung
 Möchten Sie Ihre Bildverarbeitungsfähigkeiten mit Aspose.PSD für Java verbessern? Dann sind Sie hier richtig! Dieses Tutorial führt Sie durch den Prozess der Festlegung der PNG-Bittiefe beim Konvertieren von PSD-Dateien in das PNG-Format. Mithilfe von Aspose.PSD werden Sie feststellen, dass die Bearbeitung Ihrer Bilder ganz einfach ist. Egal, ob Sie ein kleines persönliches Projekt oder eine größere Anwendung entwickeln, die Steuerung der Bildqualität durch die Bittiefe kann das Endergebnis erheblich beeinflussen.
 ## Voraussetzungen
@@ -74,3 +80,9 @@ Ja, Sie können die Bibliothek mit einer kostenlosen Testversion ausprobieren. D
  Für eine vorübergehende Lizenz können Sie beantragen[Hier](https://purchase.aspose.com/temporary-license/).
 ### Welche Art von Bildern kann ich konvertieren?
 Aspose.PSD befasst sich hauptsächlich mit PSD-Dateien, unterstützt jedoch die Konvertierung in verschiedene Formate wie PNG, JPEG und TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

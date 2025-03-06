@@ -3,10 +3,16 @@ title: Ratakan Lapisan dalam File PSD menggunakan Aspose.PSD Java
 linktitle: Ratakan Lapisan dalam File PSD menggunakan Aspose.PSD Java
 second_title: Asumsikan.PSD Java API
 description: Ratakan dan gabungkan lapisan dalam file PSD dengan mudah menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah ini untuk menyederhanakan pengelolaan file PSD Anda.
-type: docs
 weight: 13
 url: /id/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ratakan Lapisan dalam File PSD menggunakan Aspose.PSD Java
+
 ## Perkenalan
 
 Pernahkah Anda bekerja dengan file Photoshop dan menginginkan cara yang lebih mudah untuk mengelola lapisan kompleks tersebut? Nah, Anda beruntung! Hari ini, kita mendalami dunia Aspose.PSD untuk Java, alat canggih yang memudahkan bekerja dengan file PSD secara terprogram. Salah satu fitur praktis yang akan kita jelajahi adalah meratakan lapisan. Baik Anda ingin meratakan seluruh gambar atau menggabungkan lapisan tertentu secara selektif, Aspose.PSD untuk Java siap membantu Anda. Tutorial ini akan memandu Anda melalui proses, langkah demi langkah, memastikan Anda siap menangani file PSD Anda dengan percaya diri.
@@ -150,3 +156,9 @@ Ya, Anda dapat menggabungkan lapisan dengan mode campuran berbeda menggunakan As
 
 ### Apa yang terjadi jika saya mencoba menggabungkan lapisan yang tidak berdekatan?  
 Aspose.PSD memungkinkan Anda untuk menggabungkan lapisan apa pun terlepas dari urutannya di tumpukan lapisan. Proses penggabungan akan menggabungkan lapisan-lapisan yang dipilih sesuai yang ditentukan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

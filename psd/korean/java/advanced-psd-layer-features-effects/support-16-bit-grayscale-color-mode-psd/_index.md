@@ -3,10 +3,16 @@ title: PSD에서 16비트 회색조 색상 모드 지원 - Java
 linktitle: PSD에서 16비트 회색조 색상 모드 지원 - Java
 second_title: Aspose.PSD 자바 API
 description: 이 상세한 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 16비트 회색조 색상 모드를 구현하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에서 16비트 회색조 색상 모드 지원 - Java
+
 ## 소개
 그래픽 디자인과 이미지 조작의 세계에 뛰어들 때 다양한 색상 모드로 작업하는 방법을 이해하는 것은 비밀 무기를 갖는 것과 같습니다. 특히 16비트 그레이스케일은 이미지에 놀라운 깊이와 디테일을 부여하여 이미지를 더욱 돋보이게 만들어 게임의 판도를 바꿀 수 있습니다. 그렇다면 Java용 Aspose.PSD를 사용하여 이 강력한 기능을 탐색할 준비가 되셨습니까? 코딩 장비가 준비되었으면 바로 시작해 보겠습니다.
 ## 전제조건
@@ -126,3 +132,9 @@ finally {
  당신은 확인할 수 있습니다[선적 서류 비치](https://reference.aspose.com/psd/java/) 더 자세한 예제와 튜토리얼을 확인하세요.
 ### Aspose.PSD 라이선스는 어떻게 구매하나요?
  방문하시면 라이센스를 구매하실 수 있습니다.[구매 페이지 제안](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

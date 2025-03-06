@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에서 Nvrt 리소스 지원
 linktitle: Java를 사용하여 PSD 파일에서 Nvrt 리소스 지원
 second_title: Aspose.PSD 자바 API
 description: Java를 사용하여 PSD 파일에서 Nvrt 리소스를 지원하는 방법을 알아보세요. Aspose.PSD를 사용하여 손쉽게 파일을 로드하고 귀중한 리소스를 추출하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에서 Nvrt 리소스 지원
+
 ## 소개
 Java에서 Photoshop 파일(PSD)로 작업할 때 할 수 있는 일은 셀 수 없이 많습니다. 그래픽 편집기를 개발하든, 작업을 자동화하든, 프로그래밍 방식으로 디자인을 처리하든 PSD 파일을 조작하는 방법을 이해하는 것이 중요합니다. 이 가이드에서는 Java 라이브러리용 Aspose.PSD를 사용하여 PSD 파일에서 Nvrt(역 조정) 리소스를 지원하는 특정 측면을 살펴보겠습니다.
 ## 전제조건
@@ -90,3 +96,9 @@ Aspose.PSD for Java는 개발자가 Java 코드를 통해 PSD 파일을 원활�
  전적으로! Java용 Aspose.PSD 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.PSD에 대한 지원은 어떻게 받을 수 있나요?
  Aspose 포럼에서 질문하고 지원을 받을 수 있습니다.[지원하다](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

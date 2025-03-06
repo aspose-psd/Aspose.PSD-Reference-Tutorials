@@ -3,10 +3,16 @@ title: Java에서 스트로크 레이어 그라디언트를 추가하는 방법
 linktitle: Java에서 스트로크 레이어 그라디언트를 추가하는 방법
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에 스트로크 레이어 그라데이션을 추가하고 사용자 정의하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 스트로크 레이어 그라디언트를 추가하는 방법
+
 ## 소개
 Java를 사용하여 이미지에 획 레이어 그라데이션을 추가하는 방법이 궁금하신가요? 글쎄, 당신은 바로 이곳에 있어요! 오늘 우리는 PSD 파일을 쉽게 조작하는 데 도움이 되는 강력한 라이브러리인 Aspose.PSD for Java의 세계에 대해 알아봅니다. 초보자이든 숙련된 개발자이든 이 단계별 가이드는 PSD 파일에 스트로크 레이어 그래디언트를 추가하는 과정을 안내합니다. 그러니 버클을 채우고 그래픽 편집 기술을 향상할 준비를 하세요!
 ## 전제조건
@@ -156,3 +162,9 @@ Aspose.PSD for Java는 개발자가 Java 애플리케이션에서 PSD 파일을 
 예, Java용 Aspose.PSD를 사용하여 그림자, 광선 등과 같은 다양한 효과를 적용할 수 있습니다.
 ### Java용 Aspose.PSD에 대한 설명서는 어디에서 찾을 수 있나요?
  문서를 찾을 수 있습니다[여기](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

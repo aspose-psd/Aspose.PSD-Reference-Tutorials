@@ -3,10 +3,16 @@ title: قم بتطبيق مرشحات Median وWiener باستخدام Aspose.PS
 linktitle: قم بتطبيق مرشحات Median وWiener
 second_title: Aspose.PSD جافا API
 description: اكتشف قوة معالجة الصور في Java باستخدام Aspose.PSD. تعرف على كيفية تطبيق مرشحات Median وWiener خطوة بخطوة. تعزيز جودة الصورة دون عناء.
-type: docs
 weight: 12
 url: /ar/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق مرشحات Median وWiener باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم برمجة Java، يبرز Aspose.PSD كأداة قوية لمعالجة الصور ومعالجتها. إحدى الوظائف الرئيسية التي تقدمها هي تطبيق مرشحات Median وWiener، التي تلعب دورًا حاسمًا في تحسين جودة الصورة وتقليل الضوضاء. سيرشدك هذا الدليل خطوة بخطوة خلال عملية تطبيق هذه المرشحات باستخدام Aspose.PSD لـ Java.
@@ -101,3 +107,9 @@ image.save(destName, new GifOptions());
 ### س5: كيف يمكنني شراء Aspose.PSD لـ Java؟
 
  ج5: يمكنك شراء المنتج[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

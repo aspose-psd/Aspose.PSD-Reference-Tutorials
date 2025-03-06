@@ -3,10 +3,16 @@ title: Áp dụng các lớp điều chỉnh trong tệp PSD bằng Java
 linktitle: Áp dụng các lớp điều chỉnh trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách áp dụng các lớp điều chỉnh trong tệp PSD bằng Aspose.PSD cho Java trong hướng dẫn từng bước đầy đủ này dành cho nhà phát triển.
-type: docs
 weight: 15
 url: /vi/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng các lớp điều chỉnh trong tệp PSD bằng Java
+
 ## Giới thiệu
 Bạn có phải là nhà phát triển Java đang tìm cách cải thiện hình ảnh được lưu trữ trong tệp PSD không? Nếu vậy, bạn đang ở đúng nơi! Trong bài viết này, chúng ta sẽ khám phá cách áp dụng các lớp điều chỉnh trong tệp PSD bằng thư viện Aspose.PSD cho Java. Cho dù bạn đang làm việc trên một dự án cá nhân hay một ứng dụng chuyên nghiệp, việc hiểu cách thao tác với các tệp PSD có thể nâng cao đáng kể khả năng của phần mềm của bạn. 
 
@@ -97,3 +103,9 @@ Không, bạn không cần Photoshop. Aspose.PSD hoạt động độc lập đ�
 Bạn có thể truy cập trang tài liệu[đây](https://reference.aspose.com/psd/java/) để khám phá các tính năng, lớp và phương thức.
 ### Làm cách nào để nhận được hỗ trợ cho các sản phẩm Aspose?
  Bạn có thể truy cập hỗ trợ thông qua[diễn đàn giả định](https://forum.aspose.com/c/psd/34) nơi bạn có thể đặt câu hỏi và tìm giải pháp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

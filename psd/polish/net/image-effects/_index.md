@@ -3,10 +3,16 @@ title: Efekty obrazu
 linktitle: Efekty obrazu
 second_title: Aspose.PSD API .NET
 description: Opanuj dynamiczne ulepszenia obrazu w Aspose.PSD dla .NET. Ulepsz przetwarzanie obrazu dzięki samouczkom dotyczącym dodawania, nakładania i renderowania oszałamiających efektów w czasie wykonywania.
-type: docs
 weight: 25
 url: /pl/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efekty obrazu
+
 
 ## Wstęp
 
@@ -34,3 +40,9 @@ Poznaj dynamiczne ulepszenia obrazu za pomocą Aspose.PSD dla .NET. Z łatwości
 Odkryj magię Aspose.PSD dla .NET dzięki naszemu samouczkowi na temat nakładania efektów kolorystycznych. Bez wysiłku podnieś poziom swojej gry w przetwarzanie obrazu.
 ### [Renderowanie efektu cienia w Aspose.PSD dla .NET](./render-drop-shadow/)
 Odkryj moc Aspose.PSD dla .NET w tym samouczku, opanowując sztukę renderowania zniewalających efektów cienia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hozzon létre képet az Aspose.PSD for Java elérési útjának megadás�
 linktitle: Hozzon létre képet az elérési út beállításával
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan hozhat létre PSD-képeket az Aspose.PSD for Java használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes képgeneráláshoz.
-type: docs
 weight: 13
 url: /hu/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre képet az Aspose.PSD for Java elérési útjának megadásával
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre bemutatott oktatóanyagban, amely az Aspose.PSD for Java használatával képeket készít. Ebben az útmutatóban megvizsgáljuk, hogyan állíthatja be az elérési utat és konfigurálhatja a beállításokat a PSD-kép létrehozásához. Az Aspose.PSD egy hatékony Java-könyvtár a Photoshop-fájlokkal való munkavégzéshez, zökkenőmentes módot biztosítva a képek programozott manipulálására és létrehozására.
@@ -107,3 +113,9 @@ Ebben az oktatóanyagban megvizsgáltuk a képek készítésének folyamatát az
 ### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
 
  5. válasz: Tesztelési célra ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

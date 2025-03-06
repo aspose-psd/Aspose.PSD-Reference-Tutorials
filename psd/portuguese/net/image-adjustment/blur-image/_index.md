@@ -3,10 +3,16 @@ title: Desfocando uma imagem em Aspose.PSD para .NET
 linktitle: Desfocando uma imagem
 second_title: API Aspose.PSD .NET
 description: Aprenda como desfocar imagens sem esforço com Aspose.PSD para .NET. Um guia passo a passo para manipulação perfeita de imagens em seus projetos C#.
-type: docs
 weight: 13
 url: /pt/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Desfocando uma imagem em Aspose.PSD para .NET
+
 ## Introdução
 
 No domínio do desenvolvimento .NET, Aspose.PSD prova ser um poderoso aliado para manipulação de imagens. Este tutorial se concentra em uma tarefa específica: desfocar uma imagem usando Aspose.PSD para .NET. Se você deseja aprimorar suas habilidades de processamento de imagens ou simplesmente procura uma maneira eficiente de desfocar imagens programaticamente, você está no lugar certo.
@@ -97,3 +103,9 @@ A4: Com certeza! Aspose.PSD oferece um conjunto abrangente de recursos, incluind
 ### Q5: Onde posso procurar ajuda ou me conectar com a comunidade Aspose.PSD?
 
  A5: Para qualquer dúvida ou discussão, vá para o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

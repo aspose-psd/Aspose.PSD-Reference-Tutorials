@@ -3,10 +3,16 @@ title: إدارة طبقة ضبط التعريض في PSD باستخدام Java
 linktitle: إدارة طبقة ضبط التعريض في PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: قم بتحسين صور PSD الخاصة بك بسهولة باستخدام Java باستخدام Aspose.PSD. اتبع هذا الدليل لإدارة طبقات ضبط التعريض الضوئي خطوة بخطوة.
-type: docs
 weight: 23
 url: /ar/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة طبقة ضبط التعريض في PSD باستخدام Java
+
 ## مقدمة
 عندما يتعلق الأمر بالعمل مع ملفات Photoshop برمجيًا، خاصة إذا كنت تتعمق في تحرير الصور أو معالجتها، فإن مكتبة Aspose.PSD الخاصة بـ Java تُغير قواعد اللعبة حقًا. إحدى الميزات القوية التي يمكنك استخدامها هي طبقة ضبط التعريض، والتي تتيح لك تحسين أو تعديل إعدادات التعريض لصورك ببساطة وفعالية. سيرشدك هذا البرنامج التعليمي خلال كل خطوة لإدارة طبقات ضبط التعريض داخل ملف PSD باستخدام Java.
 ## المتطلبات الأساسية
@@ -92,3 +98,9 @@ Aspose.PSD for Java هي مكتبة تتيح لك العمل مع ملفات Pho
  يمكنك الوصول إلى دعم المجتمع على منتديات Aspose[هنا](https://forum.aspose.com/c/psd/34).
 ### هل هناك نموذج مشروع متاح للبدء؟
  نعم، يمكنك العثور على نماذج المشاريع والوثائق على الموقع[Aspose.PSD الصفحة المرجعية](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

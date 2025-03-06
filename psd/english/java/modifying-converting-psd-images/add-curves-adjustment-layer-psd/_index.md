@@ -3,10 +3,16 @@ title: Add Curves Adjustment Layer in PSD using Java
 linktitle: Add Curves Adjustment Layer in PSD using Java
 second_title: Aspose.PSD Java API
 description: Learn how to add a Curves Adjustment layer to a PSD file using Aspose.PSD for Java in this detailed tutorial. Enhance your images easily.
-type: docs
 weight: 11
 url: /java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Curves Adjustment Layer in PSD using Java
+
 ## Introduction
 Have you ever found yourself stuck while trying to manipulate images in a PSD format? Whether you’re a budding graphic designer or a seasoned pro, working with Photoshop files can sometimes feel like navigating a labyrinth. Fortunately, there's a tool that simplifies this process - Aspose.PSD for Java. In this tutorial, we’ll delve into how to add a Curves Adjustment layer to a PSD file using Aspose.PSD, making your image editing tasks easier and more efficient. With step-by-step guidance, you’ll be able to enhance your images like a pro without getting bogged down in the complexities traditionally associated with image manipulation.
 ## Prerequisites
@@ -94,3 +100,10 @@ No, you do not need Photoshop installed on your machine to work with Aspose.PSD.
 Absolutely! Aspose.PSD allows manipulation of various layer types in PSD files.
 ### Where can I find more documentation?
 For detailed documentation, visit the [Aspose.PSD for Java docs](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

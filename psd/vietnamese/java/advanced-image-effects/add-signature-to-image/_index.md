@@ -3,10 +3,16 @@ title: Thêm chữ ký vào hình ảnh bằng Aspose.PSD cho Java
 linktitle: Thêm chữ ký vào hình ảnh
 second_title: API Java Aspose.PSD
 description: Khám phá sự tích hợp liền mạch của chữ ký vào hình ảnh với Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi, nhập các gói cần thiết và nâng cao khả năng đồ họa của ứng dụng Java của bạn.
-type: docs
 weight: 13
 url: /vi/java/advanced-image-effects/add-signature-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm chữ ký vào hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java rộng lớn, việc kết hợp chữ ký vào hình ảnh đã trở thành một yêu cầu chung. Aspose.PSD cho Java nổi lên như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển các giải pháp liền mạch để thao tác với hình ảnh, bao gồm cả việc bổ sung chữ ký. Trong hướng dẫn này, chúng ta sẽ khám phá từng bước cách thêm chữ ký vào hình ảnh bằng Aspose.PSD cho Java.
@@ -95,3 +101,10 @@ Câu trả lời 2: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
 
  A5: Có, bạn có thể nhận được một[dùng thử miễn phí](https://releases.aspose.com/)để khám phá các tính năng trước khi mua hàng.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

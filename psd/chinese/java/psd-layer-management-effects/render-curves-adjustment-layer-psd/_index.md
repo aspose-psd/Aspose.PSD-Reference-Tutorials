@@ -3,10 +3,16 @@ title: PSD 文件中的渲染曲线调整层 - Java
 linktitle: PSD 文件中的渲染曲线调整层 - Java
 second_title: Aspose.PSD Java API
 description: 通过详细的分步指南学习如何使用 Aspose.PSD for Java 在 PSD 文件中渲染和调整曲线调整层。
-type: docs
 weight: 16
 url: /zh/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 文件中的渲染曲线调整层 - Java
+
 ## 介绍
 
 Photoshop 的曲线调整层就像是增强图像的魔杖。想象一下，您是一位艺术家，正在调整杰作的颜色和色调——每次曲线调整都可以让您以惊人的精度控制光线和色彩平衡。如果您正在使用 PSD 文件并需要以编程方式操作这些曲线，那么 Aspose.PSD for Java 就是您的首选工具。在本指南中，我们将介绍如何使用 Aspose.PSD for Java 在 PSD 文件中渲染和调整曲线调整层。无论您是更新图像色调还是导出结果，本教程都将涵盖您入门所需的一切。
@@ -146,3 +152,9 @@ Photoshop 中的曲线调整层允许您通过修改 RGB 曲线来调整图像�
 
 ### 在哪里可以找到对 Aspose.PSD for Java 的支持？
 如需支持，您可以访问[Aspose 支持论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

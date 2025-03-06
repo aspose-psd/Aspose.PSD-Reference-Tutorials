@@ -3,10 +3,16 @@ title: Manipulación de imágenes
 linktitle: Manipulación de imágenes
 second_title: API Aspose.PSD .NET
 description: ¡Mejore sus proyectos .NET con Aspose.PSD! Aprenda técnicas de manipulación de imágenes como combinar, recortar, cambiar el tamaño, rotar y agregar efectos sin esfuerzo.
-type: docs
 weight: 26
 url: /es/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de imágenes
+
 ## Introducción
 
 La manipulación de imágenes es una habilidad vital para cualquier desarrollador o diseñador que trabaje con .NET, y Aspose.PSD para .NET proporciona un potente conjunto de herramientas para mejorar sus capacidades. En este tutorial, profundizaremos en varias técnicas de manipulación de imágenes que se pueden aplicar sin problemas usando[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Explore el poder del efecto de brillo exterior en Aspose.PSD para .NET. Mejore s
 Domine el arte de renderizar el efecto de superposición de degradado en Aspose.PSD para .NET. Mejora tus habilidades de diseño gráfico con este tutorial paso a paso.
 ### [Admite el efecto de superposición de degradado en Aspose.PSD para .NET](./supporting-gradient-overlay-effect/)
 Mejore los gráficos en .NET con Aspose.PSD. Este tutorial le guiará en la compatibilidad con efectos de superposición de degradado.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aplicar efeito de traço com preenchimento de cor em PSD - Java
 linktitle: Aplicar efeito de traço com preenchimento de cor em PSD - Java
 second_title: API Java Aspose.PSD
 description: Aprenda como aplicar um efeito de traço com preenchimento de cor aos seus arquivos PSD usando Aspose.PSD para Java. Siga este guia passo a passo para aprimorar suas imagens com facilidade.
-type: docs
 weight: 21
 url: /pt/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar efeito de traço com preenchimento de cor em PSD - Java
+
 ## Introdução
 
 Neste guia, orientaremos você no processo de aplicação de um efeito de traço com preenchimento de cor em seus arquivos PSD usando Aspose.PSD para Java. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este tutorial passo a passo facilitará a realização do trabalho. Abordaremos tudo, desde a configuração do seu ambiente até salvar a imagem final com os efeitos aplicados.
@@ -144,3 +150,9 @@ Para reverter as alterações, você precisará recarregar o arquivo PSD origina
 
 ### O uso da biblioteca Aspose.PSD para Java é gratuito?
  Aspose.PSD for Java oferece uma avaliação gratuita, mas para acesso total a todos os recursos, você precisará adquirir uma licença. Você pode explorar o[opções de compra](https://purchase.aspose.com/buy)em seu site.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

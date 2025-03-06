@@ -3,10 +3,16 @@ title: Zmień tryb mieszania w efekcie nakładki gradientowej
 linktitle: Zmień tryb mieszania w efekcie nakładki gradientowej
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak zmienić tryb mieszania w efekcie nakładki gradientu za pomocą Aspose.PSD dla Java. Przewodnik krok po kroku dotyczący tworzenia oszałamiającej grafiki.
-type: docs
 weight: 19
 url: /pl/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmień tryb mieszania w efekcie nakładki gradientowej
+
 ## Wstęp
 Czy chcesz ulepszyć swoją grę w zakresie projektowania graficznego za pomocą zaawansowanych technik? Być może chcesz programowo manipulować warstwami w plikach Photoshopa? Jeśli tak, to trafiłeś we właściwe miejsce! W tym samouczku przeprowadzimy Cię przez kolejne etapy zmiany trybu mieszania efektu nakładki gradientowej przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym projektantem, techniki te będą zarówno dostępne, jak i skuteczne w Twoich projektach. 
 ## Warunki wstępne
@@ -77,3 +83,9 @@ Można wykonywać różne operacje, w tym edytować warstwy, modyfikować efekty
  Tak! Możesz odwiedzić forum wsparcia Aspose[Tutaj](https://forum.aspose.com/c/psd/34) o pomoc ze strony społeczności i personelu technicznego.
 ### Czy mogę kupić tymczasową licencję na Aspose.PSD?
  Absolutnie! Możesz ubiegać się o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) aby przetestować pełne funkcje bez ograniczeń.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

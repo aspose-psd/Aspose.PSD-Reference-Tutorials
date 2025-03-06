@@ -3,10 +3,16 @@ title: Chuyển đổi AI sang PDF trong Java
 linktitle: Chuyển đổi AI sang PDF trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách chuyển đổi tệp AI sang PDF trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn chi tiết từng bước của chúng tôi để quản lý hiệu quả việc chuyển đổi tệp của bạn.
-type: docs
 weight: 12
 url: /vi/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi AI sang PDF trong Java
+
 ## Giới thiệu
 Bạn đang làm việc với các tệp Adobe Illustrator và cần chuyển đổi chúng sang định dạng PDF trong ứng dụng Java của mình? Cho dù bạn đang xử lý đồ họa vector, hình minh họa hay tệp thiết kế, việc chuyển đổi tệp AI sang PDF có thể rất quan trọng cho mục đích tài liệu, chia sẻ và in ấn. Trong hướng dẫn này, chúng ta sẽ khám phá cách bạn có thể dễ dàng chuyển đổi các tệp AI sang PDF bằng Aspose.PSD cho Java. Aspose.PSD là một thư viện mạnh mẽ giúp đơn giản hóa thao tác và chuyển đổi PSD, AI và các định dạng hình ảnh khác. Vì vậy, hãy cùng đi sâu vào chi tiết của quá trình chuyển đổi này!
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Aspose.PSD là một thư viện mạnh mẽ cho phép các nhà phát triển l
  Bạn có thể ghé thăm[Diễn đàn Aspose](https://forum.aspose.com/c/psd/34) cho bất kỳ câu hỏi hoặc vấn đề nào bạn có thể gặp phải.
 ### Tôi có thể mua giấy phép cho Aspose.PSD ở đâu?
  Bạn có thể mua giấy phép trực tiếp từ[Trang mua hàng của Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

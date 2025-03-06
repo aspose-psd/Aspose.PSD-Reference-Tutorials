@@ -3,10 +3,16 @@ title: Adding Pattern Effects to Images in Aspose.PSD for .NET
 linktitle: Adding Pattern Effects to Images
 second_title: Aspose.PSD .NET API
 description: Enhance your images with captivating pattern effects using Aspose.PSD for .NET. Follow our step-by-step guide to add custom patterns seamlessly.
-type: docs
 weight: 12
 url: /net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Pattern Effects to Images in Aspose.PSD for .NET
+
 ## Introduction
 
 Enhancing images with pattern effects can bring a new dimension to your designs. Aspose.PSD for .NET provides a powerful solution to seamlessly add pattern overlays to images, allowing you to create visually stunning graphics. This step-by-step tutorial will guide you through the process of adding pattern effects using Aspose.PSD for .NET.
@@ -108,3 +114,10 @@ A4: The pattern dimensions are flexible, allowing you to create patterns of vari
 ### Q5: Can I use Aspose.PSD for .NET in commercial projects?
 
 A5: Yes, you can use Aspose.PSD for .NET in commercial projects. For licensing details, visit [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

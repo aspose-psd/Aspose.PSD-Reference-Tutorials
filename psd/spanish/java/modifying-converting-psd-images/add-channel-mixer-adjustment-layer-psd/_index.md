@@ -3,10 +3,16 @@ title: Agregar capa de ajuste del mezclador de canales en PSD
 linktitle: Agregar capa de ajuste del mezclador de canales en PSD
 second_title: API de Java Aspose.PSD
 description: Mejore sus archivos PSD con capas de ajuste del mezclador de canales usando Aspose.PSD para Java. Aprenda técnicas de manipulación del color paso a paso para obtener imágenes vibrantes.
-type: docs
 weight: 10
 url: /es/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar capa de ajuste del mezclador de canales en PSD
+
 ## Introducción
 El mundo del diseño gráfico está repleto de posibilidades, pero a veces conseguir el aspecto perfecto puede parecer como deambular por un denso bosque sin un mapa. ¿Alguna vez has sentido que a tus imágenes les falta ese factor "sorpresa"? Bueno, ¡ahí es donde entran en juego las capas de ajuste! Hoy, profundizaremos en cómo agregar capas de ajuste del mezclador de canales usando Aspose.PSD para Java. Esta es una herramienta ingeniosa que le permite realizar ajustes de color precisos en sus archivos PSD, asegurando que sus imágenes destaquen e impresionen.
 
@@ -167,3 +173,9 @@ Aspose.PSD está diseñado principalmente para trabajar con archivos PSD, pero l
 
 ### ¿Existe alguna forma de obtener una licencia temporal para Aspose.PSD?
  ¡Sí! Puedes solicitar una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

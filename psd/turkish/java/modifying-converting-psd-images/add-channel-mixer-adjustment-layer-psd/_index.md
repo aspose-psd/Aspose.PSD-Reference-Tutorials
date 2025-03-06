@@ -3,10 +3,16 @@ title: PSD'ye Kanal Karıştırıcı Ayarlama Katmanı Ekleme
 linktitle: PSD'ye Kanal Karıştırıcı Ayarlama Katmanı Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarınızı Kanal Karıştırıcı Ayarlama Katmanları ile geliştirin. Canlı görüntüler için renk manipülasyon tekniklerini adım adım öğrenin.
-type: docs
 weight: 10
 url: /tr/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD'ye Kanal Karıştırıcı Ayarlama Katmanı Ekleme
+
 ## giriiş
 Grafik tasarım dünyası olasılıklarla doludur, ancak bazen mükemmel görünümü elde etmek, yoğun bir ormanda haritasız dolaşmak gibi hissettirebilir. Hiç resimlerinizin bu "vay" faktörünün eksik olduğunu hissettiniz mi? İşte burada ayar katmanları devreye giriyor! Bugün Aspose.PSD for Java'yı kullanarak Kanal Karıştırıcı Ayarlama Katmanlarını nasıl ekleyeceğimizi inceliyoruz. Bu, PSD dosyalarınızda hassas renk ayarlamaları yapmanıza olanak tanıyan, görsellerinizin öne çıkmasını ve etkileyici olmasını sağlayan şık bir araçtır.
 
@@ -167,3 +173,9 @@ Aspose.PSD öncelikle PSD dosyalarıyla çalışmak üzere tasarlanmıştır anc
 
 ### Aspose.PSD için geçici lisans almanın bir yolu var mı?
  Evet! Geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

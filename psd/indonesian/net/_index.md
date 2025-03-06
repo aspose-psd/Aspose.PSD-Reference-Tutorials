@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.PSD untuk .NET
 linktitle: Aspose.PSD untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Tingkatkan kualitas gambar dengan mudah menggunakan Aspose.PSD untuk tutorial .NET. Pemrosesan gambar master, manipulasi file PSD, penanganan teks dan font, dan banyak lagi.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.PSD untuk .NET
+
 ## Perkenalan
 Buka potensi penuh Aspose.PSD untuk .NET dengan tutorial dan contoh komprehensif kami. Baik Anda seorang pengembang berpengalaman atau pendatang baru dalam pemrosesan gambar, panduan langkah demi langkah kami akan memberdayakan Anda untuk menyempurnakan proyek .NET Anda dengan mudah.
 
@@ -100,3 +105,9 @@ Buka potensi Aspose.PSD untuk .NET dengan tutorial kami! Kuasai fitur menggambar
 Kuasai peningkatan gambar dinamis di Aspose.PSD untuk .NET. Tingkatkan pemrosesan gambar Anda dengan tutorial tentang menambahkan, melapisi, dan merender efek menakjubkan saat runtime.
 ### [Sumber File PSD](./psd-file-resources/)
 Buka potensi penuh Aspose.PSD untuk .NET dengan tutorial kami. Kuasai warna latar belakang, informasi batas, jalur kerja, dan sumber daya hitam-putih dengan mulus. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

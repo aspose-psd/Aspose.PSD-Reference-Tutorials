@@ -3,10 +3,16 @@ title: Anwenden von Gauß- und Wiener-Filtern in Aspose.PSD für .NET
 linktitle: Anwenden von Gauß- und Wiener-Filtern
 second_title: Aspose.PSD .NET API
 description: Verbessern Sie die Bildqualität mühelos mit Aspose.PSD für .NET. Wenden Sie Gauß- und Wiener-Filter zur Rauschunterdrückung und für optimale Optik an.
-type: docs
 weight: 10
 url: /de/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anwenden von Gauß- und Wiener-Filtern in Aspose.PSD für .NET
+
 ## Einführung
 
 Im Bereich der Bildverarbeitung mit .NET sticht Aspose.PSD als leistungsstarkes Toolkit hervor, mit dem Entwickler Bilder mühelos bearbeiten können. Eine besonders nützliche Funktion ist die Anwendung von Gauß- und Wiener-Filtern. Diese Filter spielen eine entscheidende Rolle bei der Verbesserung der Bildqualität, der Reduzierung von Rauschen und der Gewährleistung einer optimalen visuellen Attraktivität.
@@ -110,3 +116,10 @@ A2: Die Radiusgröße bestimmt den Bereich, über den der Filter arbeitet, währ
 ### F5: Gibt es eine kostenlose Testversion von Aspose.PSD?
 
  A5: Ja, Sie können die Funktionen von Aspose.PSD erkunden, indem Sie die[kostenlose Testversion](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

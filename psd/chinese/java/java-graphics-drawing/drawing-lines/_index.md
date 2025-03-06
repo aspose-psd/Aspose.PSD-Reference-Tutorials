@@ -3,10 +3,16 @@ title: 在 Java 中绘制线条
 linktitle: 在 Java 中绘制线条
 second_title: Aspose.PSD Java API
 description: 通过本综合教程学习如何使用 Aspose.PSD for Java 在 PSD 文件中绘制线条。提升您的 Java 开发技能。
-type: docs
 weight: 16
 url: /zh/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中绘制线条
+
 ## 介绍
 在 Java 开发领域，以编程方式操作和创建 PSD（Photoshop 文档）文件是一项强大的功能。Aspose.PSD for Java 使开发人员能够执行各种任务，例如直接在 PSD 文件中绘制线条、形状和图像。本教程将指导您完成使用 Aspose.PSD for Java 绘制线条的过程，提供清晰的步骤和示例以帮助您快速入门。
 ## 先决条件
@@ -74,3 +80,9 @@ Aspose.PSD for Java 是一个功能强大的 Java 库，可以以编程方式处
 如需技术支持，请访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34).
 ### 我可以在哪里获得 Aspose.PSD for Java 的临时许可证？
 您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

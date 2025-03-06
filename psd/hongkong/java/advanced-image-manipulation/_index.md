@@ -3,10 +3,16 @@ title: 進階影像處理
 linktitle: 進階影像處理
 second_title: Aspose.PSD Java API
 description: 探索使用 Aspose.PSD for Java 的進階影像處理教學。學習高效的字體替換、強製字體快取、實施雙三次重採樣器等等。
-type: docs
 weight: 24
 url: /zh-hant/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 進階影像處理
+
 
 ## 介紹
 
@@ -80,3 +86,9 @@ url: /zh-hant/java/advanced-image-manipulation/
 使用 Aspose.PSD 輕鬆探索 Java 中的影像旋轉。輕鬆旋轉、翻轉和儲存 PSD 檔案。
 ### [使用 Aspose.PSD for Java 將影像旋轉特定角度](./rotate-image-specific-angle/)
 使用 Aspose.PSD for Java 探索 Java 中的影像旋轉。輕鬆地將影像旋轉到特定角度。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

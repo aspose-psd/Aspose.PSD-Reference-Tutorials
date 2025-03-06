@@ -3,10 +3,16 @@ title: Obsługa efektu nakładki gradientowej w Aspose.PSD dla .NET
 linktitle: Wspieranie efektu nakładki gradientowej
 second_title: Aspose.PSD API .NET
 description: Ulepsz grafikę w .NET dzięki Aspose.PSD. Ten samouczek przeprowadzi Cię przez obsługę efektów nakładki gradientowej.
-type: docs
 weight: 18
 url: /pl/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa efektu nakładki gradientowej w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku na temat obsługi efektu nakładki gradientu w Aspose.PSD dla .NET! Jeśli chcesz ulepszyć możliwości graficzne swojej aplikacji .NET, ten przewodnik krok po kroku jest tutaj, aby Ci pomóc. Zagłębimy się w zawiłości tworzenia i edycji efektu nakładki gradientu na warstwie przy użyciu Aspose.PSD, potężnej biblioteki upraszczającej przetwarzanie obrazu.
@@ -133,3 +139,9 @@ Odpowiedź 2: Tak, możesz zastosować różne efekty, w tym nakładkę gradient
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.PSD?
 
  A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

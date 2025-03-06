@@ -3,10 +3,16 @@ title: 使用 Java 將顏色填充層新增至 PSD 文件
 linktitle: 使用 Java 將顏色填充層新增至 PSD 文件
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Java 和 Aspose.PSD 輕鬆地將顏色填滿圖層新增至 PSD 檔案。按照我們的逐步教學進行更快的設計。
-type: docs
 weight: 20
 url: /zh-hant/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 將顏色填充層新增至 PSD 文件
+
 ## 介紹
 您是否曾經發現自己需要以程式設計方式操作 Photoshop 文件，也許是為了為設計添加一抹色彩？好吧，您來對地方了。在本文中，我們將深入探討如何使用 Java 和 Aspose.PSD 函式庫為 PSD（Photoshop 文件）檔案新增色彩填滿圖層。將 PSD 檔案視為畫布，只需幾行程式碼，您就可以重新繪製它們。
 ## 先決條件
@@ -87,3 +93,9 @@ Aspose.PSD 是一個功能強大的函式庫，用於使用各種程式語言（
 您可以透過以下方式獲得支持[Aspose 支援論壇](https://forum.aspose.com/c/psd/34).
 ### 在哪裡可以購買 Aspose.PSD？  
 您可以透過以下方式購買許可證[Aspose 購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

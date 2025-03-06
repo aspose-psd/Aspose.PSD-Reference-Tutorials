@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で PNG ビット深度を指定する
 linktitle: Aspose.PSD for Java で PNG ビット深度を指定する
 second_title: Aspose.PSD Java API
 description: この詳細なステップバイステップのチュートリアルでは、Aspose.PSD for Java を使用して PNG ビット深度を指定する方法を学習します。
-type: docs
 weight: 14
 url: /ja/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で PNG ビット深度を指定する
+
 ## 導入
 Aspose.PSD for Java を使用して画像処理スキルを向上させたいとお考えですか? まさにうってつけの場所です! このチュートリアルでは、PSD ファイルを PNG 形式に変換する際に PNG ビット深度を指定する手順を説明します。Aspose.PSD を使用すると、画像の操作が非常に簡単になります。小規模な個人プロジェクトを開発する場合でも、大規模なアプリケーションを開発する場合でも、ビット深度によって画像の品質を制御すると、最終的な出力に大きな影響を与える可能性があります。
 ## 前提条件
@@ -74,3 +80,9 @@ Aspose.PSD for Java は、Java アプリケーションで PSD ファイルを�
 一時ライセンスを申請するには[ここ](https://purchase.aspose.com/temporary-license/).
 ### どのような種類の画像を変換できますか?
 Aspose.PSD は主に PSD ファイルを扱いますが、PNG、JPEG、TIFF などのさまざまな形式への変換もサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

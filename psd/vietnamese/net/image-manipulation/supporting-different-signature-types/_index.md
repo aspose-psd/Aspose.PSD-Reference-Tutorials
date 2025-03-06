@@ -3,10 +3,16 @@ title: Hỗ trợ các loại chữ ký khác nhau trong Aspose.PSD cho .NET
 linktitle: Hỗ trợ các loại chữ ký khác nhau
 second_title: API Aspose.PSD .NET
 description: Khám phá Aspose.PSD cho .NET và dễ dàng hỗ trợ các loại chữ ký khác nhau trong tệp PSD của bạn.
-type: docs
 weight: 14
 url: /vi/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ các loại chữ ký khác nhau trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.PSD cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển xử lý các tệp PSD một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình hỗ trợ các loại chữ ký khác nhau trong Aspose.PSD cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình một cách rõ ràng và chính xác.
@@ -79,3 +85,10 @@ Chúc mừng! Bạn đã hỗ trợ thành công các loại chữ ký khác nha
 ### Câu 5: Đang xin giấy phép tạm thời?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

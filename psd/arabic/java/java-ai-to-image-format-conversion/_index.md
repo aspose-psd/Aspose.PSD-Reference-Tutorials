@@ -3,10 +3,16 @@ title: Java AI لتحويل تنسيق الصورة
 linktitle: Java AI لتحويل تنسيق الصورة
 second_title: Aspose.PSD جافا API
 description: قم بتحويل ملفات AI بسهولة إلى تنسيقات مختلفة في Java باستخدام Aspose.PSD. اتبع أدلتنا الشاملة لتحويلات صور سلسة وعالية الجودة.
-type: docs
 weight: 21
 url: /ar/java/java-ai-to-image-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java AI لتحويل تنسيق الصورة
+
 
 ## مقدمة
 
@@ -45,3 +51,9 @@ url: /ar/java/java-ai-to-image-format-conversion/
 قم بتحويل AI إلى PSD في Java باستخدام Aspose.PSD من خلال دليلنا السهل خطوة بخطوة. مثالي للمطورين الذين يحتاجون إلى تحويل سريع وسلس للملفات.
 ### [تحويل AI إلى TIFF في جافا](./convert-ai-to-tiff/)
 قم بتحويل AI إلى TIFF في Java بسهولة باستخدام Aspose.PSD. دليل خطوة بخطوة للمطورين. تم تضمين التنزيل والإعداد ومقتطفات التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

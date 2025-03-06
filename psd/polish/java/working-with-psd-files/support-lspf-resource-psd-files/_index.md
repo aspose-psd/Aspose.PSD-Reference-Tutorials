@@ -3,10 +3,16 @@ title: Obsługa zasobów Lspf w plikach PSD przy użyciu języka Java
 linktitle: Obsługa zasobów Lspf w plikach PSD przy użyciu języka Java
 second_title: Aspose.PSD API Java
 description: Opanuj obsługę i manipulowanie zasobami Lspf w plikach PSD przy użyciu Aspose.PSD dla Java, korzystając z naszego przewodnika krok po kroku.
-type: docs
 weight: 14
 url: /pl/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa zasobów Lspf w plikach PSD przy użyciu języka Java
+
 ## Wstęp
 
 Czy jesteś programistą i chcesz zanurzyć się w świecie manipulacji plikami PSD? Cóż, trafiłeś we właściwe miejsce! Podczas pracy z plikami PSD często trzeba obsługiwać różne zasoby warstw, takie jak LspfResource. Zasób ten ma kluczowe znaczenie przy zarządzaniu ustawieniami ochrony warstw, takimi jak zabezpieczenia kompozytu, położenia i przezroczystości w pliku PSD. W tym obszernym samouczku odkryjemy, jak obsługiwać i manipulować zasobami LspfResource w plikach PSD przy użyciu języka Java za pomocą Aspose.PSD dla języka Java.
@@ -182,3 +188,9 @@ Jeśli nie zweryfikujesz zmian, istnieje ryzyko, że ustawienia mogą nie zosta�
 
 ### Czy mogę cofnąć zmiany wprowadzone w LspfResource po zapisaniu pliku?  
 Po zapisaniu pliku bezpośrednie cofnięcie zmian nie jest możliwe. Można jednak ponownie załadować oryginalny plik i ponownie zastosować zmiany, jeśli zajdzie taka potrzeba.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

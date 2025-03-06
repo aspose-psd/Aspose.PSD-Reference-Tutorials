@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中使用 Stream 建立映像
 linktitle: 使用串流創建圖像
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 中的串流建立映像。請按照此逐步指南進行高效率的影像處理。
-type: docs
 weight: 14
 url: /zh-hant/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中使用 Stream 建立映像
+
 ## 介紹
 
 在 Java 開發領域，Aspose.PSD 作為強大的影像處理庫脫穎而出。其強大的功能之一是能夠使用串流創建圖像，從而提供處理圖像資料的靈活性和效率。本教學將引導您完成在 Aspose.PSD for Java 中使用串流建立影像的過程，透過逐步說明提供實作體驗。
@@ -114,3 +120,9 @@ A1：是的，Aspose.PSD 旨在與其他 Java 程式庫無縫集成，為您的�
 ### Q5：Aspose.PSD 有哪些系統需求？
 
  A5：請參閱[文件](https://reference.aspose.com/psd/java/)了解詳細的系統需求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

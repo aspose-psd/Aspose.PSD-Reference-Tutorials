@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET でさまざまな署名タイプをサポート
 linktitle: さまざまな署名タイプのサポート
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を試して、PSD ファイル内のさまざまな署名タイプを簡単にサポートします。
-type: docs
 weight: 14
 url: /ja/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET でさまざまな署名タイプをサポート
+
 ## 導入
 
 Aspose.PSD for .NET の世界へようこそ。これは、開発者が PSD ファイルをシームレスに処理できるようにする強力なライブラリです。このチュートリアルでは、Aspose.PSD for .NET でさまざまな署名タイプをサポートするプロセスについて説明します。熟練した開発者でも、初心者でも、このステップ バイ ステップ ガイドはプロセスを明確かつ正確に説明します。
@@ -79,3 +85,10 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 ### Q5: 一時ライセンスをお探しですか?
 
  A5: 臨時免許証を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

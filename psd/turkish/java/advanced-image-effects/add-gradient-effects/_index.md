@@ -3,10 +3,16 @@ title: Aspose.PSD for Java'ya Degrade Efektleri Ekleme
 linktitle: Degrade Efektleri Ekle
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD'yi kullanarak Java görsellerinizi çarpıcı degrade efektleriyle geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java'ya Degrade Efektleri Ekleme
+
 ## giriiş
 
 Aspose.PSD for Java'da degrade efektleri ekleme eğitimine hoş geldiniz! Çarpıcı degrade kaplamalarla görsellerinizi geliştirmek istiyorsanız doğru yerdesiniz. Bu kılavuzda, görüntü işlemeye yönelik güçlü bir Java kütüphanesi olan Aspose.PSD'yi kullanarak süreç boyunca size yol göstereceğiz.
@@ -130,3 +136,9 @@ Cevap2: Aspose.PSD, gölgeler, parlamalar ve daha fazlasını içeren çeşitli 
 ### S5: Aspose.PSD for Java lisansını nereden satın alabilirim?
 
  A5: ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans bilgileri için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

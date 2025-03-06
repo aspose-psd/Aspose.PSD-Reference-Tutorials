@@ -3,10 +3,16 @@ title: Trabalhando com linha do tempo em Aspose.PSD para .NET
 linktitle: Trabalhando com linha do tempo
 second_title: API Aspose.PSD .NET
 description: Aprimore a manipulação de imagens PSD com a classe Aspose.PSD para .NET Timeline. Controle as propriedades dos quadros, os estados das camadas e libere possibilidades criativas sem esforço.
-type: docs
 weight: 16
 url: /pt/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com linha do tempo em Aspose.PSD para .NET
+
 ## Introdução
 No mundo dinâmico do design gráfico e da manipulação de imagens, a capacidade de controlar e manipular a linha do tempo das imagens é crucial. Aspose.PSD for .NET fornece uma solução poderosa com sua classe Timeline. Este recurso de alto nível permite que os usuários façam alterações na linha do tempo do PsdImage, como alterar o atraso do quadro, editar estados da camada em quadros específicos e muito mais.
 ## Pré-requisitos
@@ -108,3 +114,9 @@ A2: A classe Timeline foi projetada especificamente para imagens PSD. Para manip
 ### P5: Quais são os principais benefícios de usar Aspose.PSD para .NET?
 
 A5: Aspose.PSD para .NET oferece recursos avançados de processamento de imagem, manipulação de arquivos PSD e renderização de alto desempenho.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

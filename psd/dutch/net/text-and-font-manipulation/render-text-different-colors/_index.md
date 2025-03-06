@@ -3,10 +3,16 @@ title: Beheersing van tekstweergave in PSD-bestanden met Aspose.PSD voor .NET
 linktitle: Tekst weergeven met verschillende kleuren in tekstlagen
 second_title: Aspose.PSD .NET-API
 description: Verbeter uw .NET-toepassingen door tekstweergave met diverse kleuren in PSD-bestanden te beheersen met behulp van Aspose.PSD. Vergroot moeiteloos uw ontwerpmogelijkheden.
-type: docs
 weight: 10
 url: /nl/net/text-and-font-manipulation/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van tekstweergave in PSD-bestanden met Aspose.PSD voor .NET
+
 ## Invoering
 Welkom bij onze stapsgewijze zelfstudie over het weergeven van tekst met verschillende kleuren in tekstlagen met Aspose.PSD voor .NET. Aspose.PSD is een krachtige API waarmee ontwikkelaars PSD-bestanden naadloos kunnen manipuleren en verwerken. In deze zelfstudie concentreren we ons op een specifieke taak: tekst met verschillende kleuren weergeven in tekstlagen.
 ## Vereisten
@@ -76,3 +82,9 @@ A1: Ja, Aspose.PSD voor .NET is ontworpen om naadloos samen te werken met elke .
 ### V5: Zijn er tijdelijke licenties beschikbaar voor Aspose.PSD voor .NET?
 
  A5: Ja, als u een tijdelijke licentie nodig heeft, kunt u er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Java 读取特定 EXIF 标签信息
 linktitle: 使用 Java 读取特定 EXIF 标签信息
 second_title: Aspose.PSD Java API
 description: 通过我们的分步教程学习如何使用 Aspose.PSD for Java 从 PSD 图像读取特定的 EXIF 标签。提高您的图像处理技能。
-type: docs
 weight: 19
 url: /zh/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 读取特定 EXIF 标签信息
+
 ## 介绍
 您是否想深入了解使用 Java 进行 PSD 文件操作的世界？如果您想了解如何从 PSD 图像中读取特定的 EXIF 标签，那么您来对地方了。本教程将引导您完成使用 Aspose.PSD for Java 的整个过程，从设置环境到提取详细的 EXIF 数据。让我们开始吧！
 ## 先决条件
@@ -71,3 +77,9 @@ EXIF（可交换图像文件格式）数据是嵌入在图像文件中的元数�
 Aspose.PSD 支持各种 Adobe Photoshop 格式，包括 PSD、PSB 等。它还提供将这些格式转换为其他格式（如 PNG、JPEG、TIFF 等）的选项。
 ### 如何获得 Aspose.PSD 的支持？
 您可以通过 Aspose.PSD 获得支持[论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

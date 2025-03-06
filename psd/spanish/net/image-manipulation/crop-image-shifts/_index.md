@@ -3,10 +3,16 @@ title: Recortar imágenes por turnos en Aspose.PSD para .NET
 linktitle: Recortar imágenes por turnos
 second_title: API Aspose.PSD .NET
 description: Aprenda a recortar imágenes sin esfuerzo usando Aspose.PSD para .NET. Siga nuestra guía paso a paso para realizar ajustes de imagen precisos.
-type: docs
 weight: 12
 url: /es/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recortar imágenes por turnos en Aspose.PSD para .NET
+
 ## Introducción
 
 En el ámbito del desarrollo .NET, Aspose.PSD se destaca como un poderoso conjunto de herramientas para tareas de procesamiento de imágenes. Una de sus características destacables es la posibilidad de recortar imágenes con precisión, gracias a la funcionalidad 'Recortar por turnos'. En esta guía paso a paso, lo guiaremos a través del proceso de recortar imágenes sin problemas usando Aspose.PSD para .NET.
@@ -105,3 +111,10 @@ R1: Sí, Aspose.PSD admite varios formatos de imagen, lo que le permite recortar
 ### P5: ¿Puedo comprar Aspose.PSD para .NET directamente desde el sitio web?
 
  R5: Sí, puede comprar la biblioteca de forma segura en[pagina de compra](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

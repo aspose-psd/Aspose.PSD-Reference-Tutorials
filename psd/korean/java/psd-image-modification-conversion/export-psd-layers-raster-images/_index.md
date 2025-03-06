@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 레이어를 래스터 이미지로 내보내기
 linktitle: Java를 사용하여 PSD 레이어를 래스터 이미지로 내보내기
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 레이어를 PNG 이미지로 내보내는 방법을 알아보세요. 자세한 단계별 튜토리얼을 통해 원활한 파일 조작을 잠금해제하세요.
-type: docs
 weight: 12
 url: /ko/java/psd-image-modification-conversion/export-psd-layers-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 레이어를 래스터 이미지로 내보내기
+
 ## 소개
 
 디지털 디자인의 세계에서 레이어 이미지로 작업하는 것은 도움이 될 수도 있고 어려울 수도 있습니다. Photoshop(PSD 형식)에서 디자인에 생기를 불어넣는 여러 레이어로 완성된 환상적인 이미지를 만드는 데 몇 시간을 보냈다고 상상해 보십시오. 이제 추가 사용을 위해 해당 레이어를 독립적으로 내보내고 싶을 수도 있습니다! 여기에서 Java용 Aspose.PSD가 작동하여 PSD 파일의 각 레이어를 PNG와 같은 래스터 이미지로 내보내는 지루한 작업을 손쉽게 자동화합니다. 이 종합 가이드에서는 Java를 사용하여 PSD 레이어를 내보내는 전체 프로세스를 단계별로 안내합니다.
@@ -99,3 +105,9 @@ Aspose 커뮤니티에서 도움과 지원을 구할 수 있습니다. 지원 �
 
 ### Aspose.PSD 라이선스는 어디서 구매할 수 있나요?
  구매 페이지에서 Aspose.PSD 라이선스를 쉽게 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

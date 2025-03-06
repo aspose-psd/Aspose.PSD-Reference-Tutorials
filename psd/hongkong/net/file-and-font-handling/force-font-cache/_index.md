@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中強製字體緩存
 linktitle: 強製字體快取
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 中的逐步字體快取管理。使用這個強大的 .NET 函式庫確保精確渲染。
-type: docs
 weight: 14
 url: /zh-hant/net/file-and-font-handling/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中強製字體緩存
+
 ## 介紹
 
 Aspose.PSD for .NET 提供了強大的工具來在 .NET 應用程式中處理 PSD 檔案。一項基本功能是強製字體快取的能力，確保您的 PSD 檔案保持一致和準確的渲染。在本教程中，我們將逐步引導您完成在 Aspose.PSD for .NET 中強制進行字體快取的過程。
@@ -95,3 +101,9 @@ A1：是的，Aspose.PSD for .NET支援各種PSD檔案版本，提供全面的�
 ### Q5：我可以直接購買Aspose.PSD for .NET嗎？
 
  A5：是的，您可以透過以下方式購買 Aspose.PSD for .NET[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

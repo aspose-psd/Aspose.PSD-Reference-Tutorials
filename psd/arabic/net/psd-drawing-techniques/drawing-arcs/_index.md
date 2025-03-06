@@ -3,10 +3,16 @@ title: رسم الأقواس باستخدام Aspose.PSD لـ .NET
 linktitle: رسم الأقواس باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: اكتشف قوة Aspose.PSD لـ .NET في رسم الأقواس دون عناء. اتبع برنامجنا التعليمي خطوة بخطوة للحصول على رسومات مذهلة في تطبيقاتك.
-type: docs
 weight: 11
 url: /ar/net/psd-drawing-techniques/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الأقواس باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي الشامل حول رسم الأقواس باستخدام Aspose.PSD لـ .NET! Aspose.PSD هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات Adobe Photoshop (.psd) في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سوف نركز على إنشاء أقواس جذابة بصريًا باستخدام مكتبة Aspose.PSD.
@@ -110,3 +116,10 @@ image.Save(outpath, saveOptions);
 ### س5: هل يمكنني تجربة Aspose.PSD لـ .NET مجانًا قبل الشراء؟
 
  ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cập nhật lớp văn bản trong tệp PSD bằng Aspose.PSD Java
 linktitle: Cập nhật lớp văn bản trong tệp PSD bằng Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách cập nhật các lớp văn bản trong tệp PSD một cách dễ dàng bằng Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chỉnh sửa văn bản liền mạch.
-type: docs
 weight: 28
 url: /vi/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cập nhật lớp văn bản trong tệp PSD bằng Aspose.PSD Java
+
 ## Giới thiệu
 Khi nói đến thiết kế đồ họa, các tệp PSD của Photoshop là một yếu tố không thể thiếu. Chúng đóng vai trò là huyết mạch cho nhiều nhà sáng tạo dựa vào các lớp và tùy chỉnh văn bản trong dự án của họ. Nhưng nếu bạn cần cập nhật các lớp văn bản đó trong tệp PSD theo chương trình thì sao? Với Aspose.PSD cho Java, bạn có thể thực hiện những thay đổi đó một cách liền mạch mà không cần mở Photoshop! Hãy cùng tìm hiểu cách cập nhật các lớp văn bản trong tệp PSD bằng thư viện mạnh mẽ này.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Có, bạn có thể cập nhật hình ảnh, lớp văn bản và thậm chí 
  Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể kiểm tra nó[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm hỗ trợ cho Aspose.PSD ở đâu?
 Bạn có thể đặt câu hỏi và tìm kiếm sự hỗ trợ trong[diễn đàn giả định](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

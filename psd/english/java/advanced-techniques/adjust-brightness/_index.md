@@ -3,10 +3,16 @@ title: Adjust Brightness of an Image with Aspose.PSD for Java
 linktitle: Adjust Brightness of an Image
 second_title: Aspose.PSD Java API
 description: Enhance image brightness in Java with Aspose.PSD. Step-by-step guide to adjust image brightness programmatically. 
-type: docs
 weight: 21
 url: /java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjust Brightness of an Image with Aspose.PSD for Java
+
 ## Introduction
 
 Enhancing images is a common requirement in graphic design and digital photography. Aspose.PSD for Java provides a powerful solution for adjusting image brightness programmatically. In this tutorial, we'll explore how to utilize the Aspose.PSD for Java library to adjust the brightness of an image, step by step.
@@ -107,3 +113,10 @@ A4: Yes, Aspose.PSD for Java is a commercial library, and you can obtain a licen
 ### Q5: Is there a free trial available for Aspose.PSD for Java?
 
 A5: Yes, you can explore the library with a free trial from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

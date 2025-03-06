@@ -3,10 +3,16 @@ title: Blur an Image using Aspose.PSD for Java
 linktitle: Blur an Image
 second_title: Aspose.PSD Java API
 description: Learn to blur images in Java with Aspose.PSD. Follow our step-by-step guide for professional results.
-type: docs
 weight: 24
 url: /java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Blur an Image using Aspose.PSD for Java
+
 ## Introduction
 
 In the world of Java development, enhancing and manipulating images is a common requirement. If you're looking to add a blur effect to your images programmatically, Aspose.PSD for Java is a powerful tool that simplifies the process. This tutorial will guide you through the steps of blurring an image using Aspose.PSD, ensuring you achieve professional results effortlessly.
@@ -96,3 +102,10 @@ A4: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for any supp
 ### Q5: How do I obtain a temporary license for Aspose.PSD?
 
 A5: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

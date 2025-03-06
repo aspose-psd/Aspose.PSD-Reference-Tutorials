@@ -3,10 +3,16 @@ title: Wenden Sie Gauß- und Wiener-Filter für Farbbilder mit Aspose.PSD für J
 linktitle: Anwenden von Gauß- und Wiener-Filtern für Farbbilder
 second_title: Aspose.PSD Java API
 description: Verbessern Sie Ihre Farbbilder mühelos mit Aspose.PSD für Java. Erfahren Sie Schritt für Schritt, wie Sie Gauß- und Wiener-Filter anwenden, um beeindruckende visuelle Ergebnisse zu erzielen.
-type: docs
 weight: 11
 url: /de/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wenden Sie Gauß- und Wiener-Filter für Farbbilder mit Aspose.PSD für Java an
+
 ## Einführung
 
 Willkommen zu diesem umfassenden Tutorial zum Anwenden von Gauß- und Wiener-Filtern für Farbbilder mit Aspose.PSD für Java. In dieser Anleitung zeigen wir Ihnen Schritt für Schritt, wie Sie Ihre Farbbilder mit diesen leistungsstarken Filtern verbessern können, und vermitteln Ihnen die Fähigkeiten zur Optimierung Ihrer visuellen Inhalte.
@@ -96,3 +102,9 @@ A4: Ja, Sie können mehrere Filter verketten, um komplexe Bildverarbeitungseffek
 ### F5: Wo kann ich Unterstützung bei Fragen zu Aspose.PSD erhalten?
 
  A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

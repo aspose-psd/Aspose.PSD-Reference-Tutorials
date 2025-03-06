@@ -3,10 +3,16 @@ title: Gerenciar camada de ajuste de exposição em PSD usando Java
 linktitle: Gerenciar camada de ajuste de exposição em PSD usando Java
 second_title: API Java Aspose.PSD
 description: Aprimore suas imagens PSD sem esforço com Java usando Aspose.PSD. Siga este guia para gerenciar as camadas de ajuste de exposição passo a passo.
-type: docs
 weight: 23
 url: /pt/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar camada de ajuste de exposição em PSD usando Java
+
 ## Introdução
 Quando se trata de trabalhar programaticamente com arquivos do Photoshop, especialmente se você estiver mergulhando na edição ou manipulação de imagens, a biblioteca Aspose.PSD para Java é realmente uma virada de jogo. Um dos recursos poderosos que você pode utilizar é a camada de ajuste de exposição, que permite aprimorar ou modificar as configurações de exposição de suas imagens de forma simples e eficaz. Este tutorial irá guiá-lo em todas as etapas para gerenciar camadas de ajuste de exposição em um arquivo PSD usando Java.
 ## Pré-requisitos
@@ -92,3 +98,9 @@ Sim, o Aspose.PSD pode ser integrado a aplicações web, permitindo a manipulaç
  Você pode acessar o suporte da comunidade nos fóruns Aspose[aqui](https://forum.aspose.com/c/psd/34).
 ### Existe um projeto de amostra disponível para começar?
  Sim, você pode encontrar exemplos de projetos e documentação no site[Página de referência do Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

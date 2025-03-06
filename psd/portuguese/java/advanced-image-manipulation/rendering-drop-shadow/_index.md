@@ -3,10 +3,16 @@ title: Aplicar sombra projetada de renderização em Aspose.PSD para Java
 linktitle: Aplicar sombra projetada de renderização
 second_title: API Java Aspose.PSD
 description: Explore o guia passo a passo para aplicar sombras projetadas de renderização em Aspose.PSD para Java, aprimorando suas habilidades de processamento de imagens sem esforço.
-type: docs
 weight: 16
 url: /pt/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar sombra projetada de renderização em Aspose.PSD para Java
+
 ## Introdução
 
 Se você está mergulhando no processamento de imagens com Java, Aspose.PSD é sua ferramenta ideal para manipulação contínua e eficiente de arquivos PSD. Neste tutorial, exploraremos o processo de aplicação de uma sombra projetada de renderização usando Aspose.PSD para Java. Aperte o cinto, pois detalhamos as etapas para você.
@@ -125,3 +131,9 @@ A3: Aspose.PSD oferece compatibilidade com uma ampla gama de versões de arquivo
 ### Q5: Posso testar o Aspose.PSD antes de fazer uma compra?
 
  A5: Com certeza, use o[teste gratuito](https://releases.aspose.com/) para explorar os recursos antes de se comprometer com uma compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

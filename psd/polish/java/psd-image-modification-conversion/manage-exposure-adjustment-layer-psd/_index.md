@@ -3,10 +3,16 @@ title: Zarządzaj warstwą regulacji ekspozycji w PSD przy użyciu języka Java
 linktitle: Zarządzaj warstwą regulacji ekspozycji w PSD przy użyciu języka Java
 second_title: Aspose.PSD API Java
 description: Ulepsz swoje obrazy PSD bez wysiłku dzięki Javie i Aspose.PSD. Postępuj zgodnie z tym przewodnikiem, aby krok po kroku zarządzać warstwami dopasowania ekspozycji.
-type: docs
 weight: 23
 url: /pl/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj warstwą regulacji ekspozycji w PSD przy użyciu języka Java
+
 ## Wstęp
 Jeśli chodzi o programową pracę z plikami Photoshopa, zwłaszcza jeśli zajmujesz się edycją lub manipulacją obrazami, biblioteka Aspose.PSD dla Java naprawdę zmienia zasady gry. Jedną z zaawansowanych funkcji, z których możesz skorzystać, jest warstwa regulacji ekspozycji, która pozwala w prosty i skuteczny sposób poprawiać lub modyfikować ustawienia ekspozycji obrazów. Ten samouczek przeprowadzi Cię przez każdy etap zarządzania warstwami dopasowania ekspozycji w pliku PSD przy użyciu języka Java.
 ## Warunki wstępne
@@ -92,3 +98,9 @@ Tak, Aspose.PSD można zintegrować z aplikacjami internetowymi, umożliwiając 
  Możesz uzyskać dostęp do wsparcia społeczności na forach Aspose[Tutaj](https://forum.aspose.com/c/psd/34).
 ### Czy dostępny jest przykładowy projekt na początek?
  Tak, przykładowe projekty i dokumentację można znaleźć na stronie[Strona referencyjna Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

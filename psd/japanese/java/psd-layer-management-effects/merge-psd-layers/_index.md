@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で PSD レイヤーを結合する
 linktitle: Aspose.PSD for Java で PSD レイヤーを結合する
 second_title: Aspose.PSD Java API
 description: このステップバイステップのチュートリアルで、Aspose.PSD for Java を使用して PSD レイヤーを結合する方法を学びます。画像処理タスクを自動化したい開発者に最適です。
-type: docs
 weight: 11
 url: /ja/java/psd-layer-management-effects/merge-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で PSD レイヤーを結合する
+
 ## 導入
 
 グラフィック デザイナーが Photoshop で複雑なレイヤー イメージをどのように実現しているか疑問に思ったことはありませんか。その秘密は、多くの場合、PSD ファイル内のレイヤーの管理と結合にあります。Java で PSD ファイルを扱う場合、レイヤーの結合は、合成イメージの作成、ファイル サイズの縮小、またはイメージのエクスポートの準備に不可欠です。しかし、このタスクをプログラムで実行すると、困難に思えるかもしれません。そこで、PSD ファイルを簡単に処理できる究極のツールキットである Aspose.PSD for Java をご利用ください。熟練した開発者でも、初心者でも、このチュートリアルでは、Aspose.PSD for Java を使用して PSD レイヤーを結合するプロセスを順を追って説明します。このガイドを読み終える頃には、レイヤーを操作して最終イメージをさまざまな形式で保存する方法をしっかりと理解できるようになります。これらはすべて、Java アプリケーション内から実行できます。
@@ -105,3 +111,9 @@ psdImage.save(dataDir + "MergePSDlayers_output.jpg", jpgOptions);
 
 ### 保存する前に画像オプションを設定しないとどうなりますか?
 画像オプションを設定しない場合、Aspose.PSD for Java は出力形式にデフォルト設定を使用します。ただし、出力が要件を満たすようにオプションを指定することをお勧めします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

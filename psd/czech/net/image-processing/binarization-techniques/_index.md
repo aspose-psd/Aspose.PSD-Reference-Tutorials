@@ -3,10 +3,16 @@ title: Binarizační techniky v Aspose.PSD pro .NET
 linktitle: Binarizační techniky
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte pokročilé techniky binarizace v Aspose.PSD pro .NET. Převeďte barevné obrázky na binární snadno pomocí metody BinarizationWithFixedThreshold.
-type: docs
 weight: 12
 url: /cs/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarizační techniky v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Ve světě zpracování obrazu je schopnost převést barevný obraz na binární zásadním krokem. Binarizace pomáhá zjednodušit složité obrázky jejich zmenšením na černobílé pixely, což usnadňuje analýzu a extrahování informací. Aspose.PSD for .NET poskytuje výkonné nástroje pro manipulaci s obrázky, včetně robustních technik binarizace. V tomto tutoriálu prozkoumáme metodu BinarizationWithFixedThreshold a provedeme vás její implementací pomocí Aspose.PSD pro .NET.
@@ -104,3 +110,9 @@ Odpověď 3: Ukládání do mezipaměti zlepšuje výkon ukládáním obrazovýc
 ### Q5: Je k dispozici zkušební verze pro Aspose.PSD?
 
  A5: Ano, máte přístup k[zkušební verze zdarma](https://releases.aspose.com/) prozkoumání funkcí Aspose.PSD před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zastosuj renderowanie cienia w Aspose.PSD dla Java
 linktitle: Zastosuj cień renderowania
 second_title: Aspose.PSD API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym stosowania cieni renderujących w Aspose.PSD dla Java, bez wysiłku poprawiając umiejętności przetwarzania obrazu.
-type: docs
 weight: 16
 url: /pl/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj renderowanie cienia w Aspose.PSD dla Java
+
 ## Wstęp
 
 Jeśli zaczynasz przygodę z przetwarzaniem obrazów w Javie, Aspose.PSD to idealne narzędzie do płynnej i wydajnej manipulacji plikami PSD. W tym samouczku omówimy proces stosowania cienia renderującego przy użyciu Aspose.PSD dla Java. Zapnij pasy, my rozkładamy dla Ciebie stopnie.
@@ -125,3 +131,9 @@ O3: Aspose.PSD zapewnia kompatybilność z szeroką gamą wersji plików PSD, za
 ### P5: Czy mogę przetestować Aspose.PSD przed dokonaniem zakupu?
 
  Odpowiedź 5: Oczywiście, użyj[bezpłatna wersja próbna](https://releases.aspose.com/) aby poznać możliwości przed podjęciem decyzji o zakupie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 기본 및 ICC 프로파일을 사용한 색상 
 linktitle: 기본 및 ICC 프로파일을 사용한 색상 변환
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 색상 변환을 살펴보세요. 색상 프로필을 업데이트하여 생생하고 정확한 시각 효과를 보장하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/image-processing/color-conversion-default-icc-profiles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 기본 및 ICC 프로파일을 사용한 색상 변환
+
 ## 소개
 
 색상 변환은 이미지 조작의 기본 측면으로, 디지털 이미지에서 색상이 표현되는 방식에 영향을 미칩니다. .NET용 Aspose.PSD는 색상 프로필을 원활하게 처리할 수 있는 포괄적인 도구를 제공하여 이 프로세스를 단순화합니다.
@@ -101,3 +107,9 @@ A3: 물론 Aspose.PSD는 이미지 일괄 처리를 위한 효율적인 도구�
 ### Q5: .NET용 Aspose.PSD에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Xử lý hình ảnh
 linktitle: Xử lý hình ảnh
 second_title: API Java Aspose.PSD
 description: Khai phá tiềm năng của Aspose.PSD cho Java trong xử lý hình ảnh. Tìm hiểu cách áp dụng các bộ lọc Gaussian, Wiener, Median và Motion Wiener theo từng bước.
-type: docs
 weight: 20
 url: /vi/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý hình ảnh
+
 ## Giới thiệu
 
 Xử lý hình ảnh trở thành một hành trình thú vị với Aspose.PSD cho Java, bộ công cụ hỗ trợ các nhà phát triển nâng cao nội dung trực quan. Từ các kỹ thuật cơ bản đến các quy trình nâng cao, loạt bài hướng dẫn này đi sâu vào các tính năng giúp Aspose.PSD trở thành giải pháp phù hợp để xử lý hình ảnh Java.
@@ -57,3 +63,9 @@ Khám phá nhị phân hóa với ngưỡng Otsu trong Aspose.PSD cho Java. Mộ
 Nâng cao chất lượng hình ảnh với Ngưỡng Bradley trong Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để nhị phân hóa hình ảnh hiệu quả.
 ### [Cắt tệp PSD bằng Aspose.PSD cho Java](./crop-psd-file/)
 Khám phá việc cắt tệp PSD liền mạch trong Java với Aspose.PSD. Dễ dàng tích hợp độ chính xác và hiệu quả vào các tác vụ xử lý hình ảnh của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

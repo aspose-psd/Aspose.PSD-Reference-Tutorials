@@ -3,10 +3,16 @@ title: 고급 이미지 조작
 linktitle: 고급 이미지 조작
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 고급 이미지 조작 튜토리얼을 살펴보세요. 효율적인 글꼴 교체, 글꼴 캐싱 강제 실행, 쌍입방 리샘플러 구현 등에 대해 알아보세요.
-type: docs
 weight: 24
 url: /ko/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 이미지 조작
+
 
 ## 소개
 
@@ -80,3 +86,9 @@ Aspose.PSD를 사용하여 Java에서 마스터 이미지 크기를 조정합니
 Aspose.PSD를 사용하여 Java에서 이미지 회전을 손쉽게 탐색해 보세요. PSD 파일을 쉽게 회전하고 뒤집고 저장할 수 있습니다.
 ### [Java용 Aspose.PSD를 사용하여 특정 각도로 이미지 회전](./rotate-image-specific-angle/)
 Java용 Aspose.PSD를 사용하여 Java에서 이미지 회전을 살펴보세요. 특정 각도로 이미지를 쉽게 회전할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

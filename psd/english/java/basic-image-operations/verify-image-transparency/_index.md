@@ -3,10 +3,16 @@ title: Verify Image Transparency with Aspose.PSD for Java
 linktitle: Verify Image Transparency
 second_title: Aspose.PSD Java API
 description: Explore image transparency verification with Aspose.PSD for Java. Easy integration, detailed documentation, and excellent community support.
-type: docs
 weight: 14
 url: /java/basic-image-operations/verify-image-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verify Image Transparency with Aspose.PSD for Java
+
 ## Introduction
 
 Are you working with images and need to ensure transparency? Aspose.PSD for Java provides a powerful solution for verifying image transparency, allowing you to manipulate and analyze image files effortlessly. In this step-by-step guide, we'll walk you through the process of verifying image transparency using Aspose.PSD for Java.
@@ -86,3 +92,10 @@ A4: Join the Aspose.PSD community on the [support forum](https://forum.aspose.co
 ### Q5: Do I need a temporary license for testing?
 
 A5: If you're testing the library, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

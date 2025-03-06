@@ -3,10 +3,16 @@ title: Gradient Effects hozzáadása az Aspose.PSD for Java fájlhoz
 linktitle: Színátmenet effektusok hozzáadása
 second_title: Aspose.PSD Java API
 description: Javítsa Java-képeit lenyűgöző színátmenet-effektusokkal az Aspose.PSD segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradient Effects hozzáadása az Aspose.PSD for Java fájlhoz
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.PSD for Java színátmeneti effektusok hozzáadásával foglalkozó oktatóanyagban! Ha lenyűgöző színátmenetes fedvényekkel szeretné javítani képeit, akkor jó helyen jár. Ebben az útmutatóban végigvezetjük a folyamaton az Aspose.PSD segítségével, amely egy hatékony Java-könyvtár képfeldolgozáshoz.
@@ -130,3 +136,9 @@ Gratulálok! Sikeresen megtanulta, hogyan adhat színátmenet effektusokat a ké
 ### 5. kérdés: Hol vásárolhatok licencet az Aspose.PSD for Java számára?
 
  A5: Látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

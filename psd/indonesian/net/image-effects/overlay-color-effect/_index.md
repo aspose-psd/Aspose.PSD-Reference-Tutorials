@@ -3,10 +3,16 @@ title: Melapisi Efek Warna pada Gambar di Aspose.PSD untuk .NET
 linktitle: Melapisi Efek Warna pada Gambar
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi keajaiban Aspose.PSD untuk .NET dengan tutorial kami tentang overlay efek warna. Tingkatkan permainan pemrosesan gambar Anda dengan mudah.
-type: docs
 weight: 11
 url: /id/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Melapisi Efek Warna pada Gambar di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Aspose.PSD untuk .NET menyediakan serangkaian fitur canggih untuk pemrosesan gambar, memungkinkan pengembang mencapai efek menakjubkan dengan mudah. Salah satu kemampuan tersebut adalah melapisi efek warna pada gambar. Dalam tutorial ini, kita akan fokus pada efek ColorOverlay dan mendemonstrasikan cara menerapkannya pada gambar, mengubah daya tarik visualnya.
@@ -98,3 +104,9 @@ A3: Ya, Anda dapat menjelajahi kemampuan Aspose.PSD untuk .NET dengan mengunduh 
 ### Q5: Bisakah saya mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

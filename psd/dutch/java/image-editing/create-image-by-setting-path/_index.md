@@ -3,10 +3,16 @@ title: Maak een afbeelding door het pad in te stellen in Aspose.PSD voor Java
 linktitle: Maak een afbeelding door het pad in te stellen
 second_title: Aspose.PSD Java-API
 description: Leer hoe u PSD-afbeeldingen kunt maken met Aspose.PSD voor Java. Volg onze stapsgewijze handleiding voor het naadloos genereren van afbeeldingen.
-type: docs
 weight: 13
 url: /nl/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een afbeelding door het pad in te stellen in Aspose.PSD voor Java
+
 ## Invoering
 
 Welkom bij deze stapsgewijze zelfstudie over het maken van afbeeldingen met Aspose.PSD voor Java. In deze handleiding onderzoeken we hoe u het pad instelt en opties configureert om een PSD-afbeelding te genereren. Aspose.PSD is een krachtige Java-bibliotheek voor het werken met Photoshop-bestanden, die een naadloze manier biedt om afbeeldingen programmatisch te manipuleren en te creëren.
@@ -107,3 +113,9 @@ A1: Ja, Aspose.PSD werkt naadloos samen met verschillende Java Integrated Develo
 ### Vraag 5: Heb ik een tijdelijke licentie nodig om te testen?
 
  A5: U kunt een tijdelijke licentie verkrijgen voor testdoeleinden[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

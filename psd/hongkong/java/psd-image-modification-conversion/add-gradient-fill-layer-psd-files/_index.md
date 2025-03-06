@@ -3,10 +3,16 @@ title: 使用 Java 在 PSD 檔案中新增漸層填滿層
 linktitle: 使用 Java 在 PSD 檔案中新增漸層填滿層
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 修改 PSD 檔案中的漸層填滿圖層。了解如何以程式設計方式變更顏色、透明度和其他漸層屬性。
-type: docs
 weight: 15
 url: /zh-hant/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PSD 檔案中新增漸層填滿層
+
 ## 介紹
 
 是否曾經渴望為 PSD 檔案增添額外的視覺魔力？漸變提供了一種令人驚嘆的方式來增加設計的深度和維度。但是，如果您想使用 Java 以程式設計方式操作這些漸層該怎麼辦？ Aspose.PSD 來救援！這份綜合指南將使您能夠使用 Aspose.PSD 修改 PSD 檔案中的漸層填充層，帶您逐步完成令人興奮的過程。
@@ -167,3 +173,9 @@ Aspose.PSD 目前支援線性漸層。雖然未來版本可能支援其他漸變
 
 ### 我可以將此技術應用於 PSD 檔案中的多個漸層填充層嗎？
 是的，您可以迭代圖層並將修改套用到滿足您的條件的每個漸層填滿圖層。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter la prise en charge des couches liées dans les fichiers PSD à l'
 linktitle: Ajouter la prise en charge des couches liées dans les fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter la prise en charge des couches liées dans les fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce didacticiel détaillé étape par étape. Parfait pour les concepteurs et les développeurs.
-type: docs
 weight: 19
 url: /fr/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter la prise en charge des couches liées dans les fichiers PSD à l'aide de Java
+
 ## Introduction
 Les fichiers .PSD d'Adobe Photoshop sont les favoris des graphistes et des artistes numériques en raison de leurs capacités polyvalentes de gestion des calques. Alors que vous plongez dans le monde de la manipulation de fichiers PSD par programmation, vous souhaiterez peut-être découvrir comment les couches liées peuvent améliorer votre flux de travail. Les couches liées permettent aux utilisateurs de conserver des fonctionnalités de couche indépendantes tout en les gardant gérées comme une unité cohérente. Entrez Aspose.PSD pour Java, une bibliothèque puissante qui facilite l'utilisation des fichiers Photoshop. 
 Dans cet article, nous examinerons en détail comment ajouter la prise en charge des couches liées dans les fichiers PSD à l'aide de la bibliothèque Aspose.PSD en Java. Que vous soyez un développeur chevronné ou un novice, ce guide étape par étape vous aidera à naviguer dans la tâche en toute transparence.
@@ -99,3 +105,9 @@ Oui, en tant que bibliothèque basée sur Java, elle fonctionne sur n'importe qu
  Vous pouvez explorer la documentation complète[ici](https://reference.aspose.com/psd/java/).
 ### Comment puis-je obtenir de l'aide si je rencontre des problèmes ?
  Si vous rencontrez des problèmes, vous pouvez trouver de l'aide dans le[forum d'assistance](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

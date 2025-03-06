@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中在執行時加入效果
 linktitle: 在運行時加入效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 探索動態影像增強功能。運行時輕鬆添加效果。
-type: docs
 weight: 10
 url: /zh-hant/net/image-effects/add-effect-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中在執行時加入效果
+
 ## 介紹
 
 增強影像的視覺吸引力是圖形設計和影像處理應用中的常見要求。在本教學中，我們將探討如何使用 Aspose.PSD for .NET 在執行階段新增效果。 Aspose.PSD 是一個功能強大的 API，可讓開發人員無縫地處理 Adobe Photoshop 檔案。 
@@ -96,3 +102,9 @@ A3：Aspose.PSD 提供了廣泛的效果，但建議檢查文件以了解支援�
 ### Q5：我可以在哪裡找到更多支持和社區討論？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以尋求支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

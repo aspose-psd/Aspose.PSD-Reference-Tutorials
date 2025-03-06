@@ -3,10 +3,16 @@ title: Přidání vrstvy tahu se vzorem v Aspose.PSD pro .NET
 linktitle: Přidání vrstvy tahu se vzorem
 second_title: Aspose.PSD .NET API
 description: Vylepšete své soubory PSD pomocí vrstev a vzorů tahů pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 13
 url: /cs/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání vrstvy tahu se vzorem v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vylepšení souborů PSD (Photoshop Document) vrstvami tahů a vzory může dodat vašim návrhům dynamický nádech. V tomto tutoriálu prozkoumáme, jak využít Aspose.PSD pro .NET k snadnému přidání vrstvy tahu se vzorem do vašich souborů PSD. Aspose.PSD je výkonná .NET knihovna, která poskytuje komplexní podporu pro manipulaci se soubory PSD, což z ní činí neocenitelný nástroj pro vývojáře i designéry.
@@ -144,3 +150,9 @@ A4: Aspose.PSD pro .NET samozřejmě poskytuje robustní podporu pro dávkové z
 ### Q5: Kde mohu vyhledat pomoc nebo se zúčastnit diskusí komunity?
 
  A5: Navštivte[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) za podporu a komunikaci s komunitou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

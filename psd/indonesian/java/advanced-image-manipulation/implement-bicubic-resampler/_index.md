@@ -3,10 +3,16 @@ title: Menerapkan Bicubic Resampler di Aspose.PSD untuk Java
 linktitle: Menerapkan Bicubic Resampler
 second_title: Asumsikan.PSD Java API
 description: Tingkatkan pengubahan ukuran gambar Java dengan Aspose.PSD untuk Java Bicubic Resampler. Ikuti panduan langkah demi langkah kami untuk hasil yang unggul.
-type: docs
 weight: 12
 url: /id/java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Bicubic Resampler di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam dunia pengembangan Java, mencapai pengubahan ukuran gambar berkualitas tinggi merupakan persyaratan umum. Aspose.PSD untuk Java memberikan solusi ampuh dengan Bicubic Resampler-nya. Panduan langkah demi langkah ini akan memandu Anda melalui proses penerapan Bicubic Resampler menggunakan Aspose.PSD untuk Java. Di akhir tutorial ini, Anda akan diperlengkapi untuk menyempurnakan aplikasi Java Anda dengan kemampuan pengubahan ukuran gambar yang unggul.
@@ -91,3 +97,9 @@ A1: Ya, Aspose.PSD untuk Java mendukung berbagai format gambar, termasuk PSD, PN
 ### Q5: Bagaimana cara membeli Aspose.PSD untuk Java?
 
  A5: Anda dapat membeli Aspose.PSD untuk Java dari halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

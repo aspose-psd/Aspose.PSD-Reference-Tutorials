@@ -3,10 +3,16 @@ title: 在 Java 中繪製矩形
 linktitle: 在 Java 中繪製矩形
 second_title: Aspose.PSD Java API
 description: 學習使用 Aspose.PSD for Java 在圖像上繪製矩形。本教學逐步指導 Java 開發人員。非常適合影像處理任務。
-type: docs
 weight: 17
 url: /zh-hant/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中繪製矩形
+
 ## 介紹
 在 Java 開發領域，以程式設計方式操作和產生影像是各種應用程式的常見要求。經常遇到的一項此類任務是在圖像上繪製矩形等形狀。 Aspose.PSD for Java 提供了一組強大的工具和功能來有效地完成此任務。本教學將引導您逐步完成使用 Aspose.PSD for Java 在影像上繪製矩形的過程。
 ## 先決條件
@@ -84,3 +90,9 @@ Aspose.PSD for Java除了矩形之外還支援繪製橢圓、直線和多邊形�
 您可以探索更多範例和詳細文檔[Aspose.PSD for Java 文檔](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD for Java 是否支援 BMP 以外的其他影像格式？
 是的，Aspose.PSD for Java 支援多種影像格式，包括 PNG、JPEG、TIFF 和 GIF。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

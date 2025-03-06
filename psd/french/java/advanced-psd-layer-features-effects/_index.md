@@ -3,10 +3,16 @@ title: Fonctionnalités et effets avancés du calque PSD
 linktitle: Fonctionnalités et effets avancés du calque PSD
 second_title: API Java Aspose.PSD
 description: Explorez les fonctionnalités et effets avancés de la couche PSD avec Aspose.PSD pour Java. Apprenez à manipuler des calques, à ajouter des effets et à prendre en charge diverses ressources dans les fichiers PSD.
-type: docs
 weight: 24
 url: /fr/java/advanced-psd-layer-features-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fonctionnalités et effets avancés du calque PSD
+
 ## Introduction
 
 Cherchez-vous à libérer tout le potentiel des fichiers PSD avec Java ? Que vous soyez un développeur chevronné ou que vous débutiez, la maîtrise de la manipulation de fichiers PSD peut améliorer considérablement vos projets. Avec Aspose.PSD pour Java, vous disposez d'une bibliothèque robuste à portée de main qui vous permet de plonger en profondeur dans les couches et les effets PSD, vous permettant ainsi de créer et de gérer des fichiers graphiques complexes sans effort.
@@ -111,3 +117,9 @@ Apprenez à travailler avec des fichiers image non compressés au format PSD à 
 Découvrez comment mettre facilement à jour les calques de texte dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une édition de texte fluide.
 ### [Utiliser un chargeur de données brutes personnalisé dans les fichiers PSD - Java](./use-custom-raw-data-loader-psd-files/)
 Apprenez à utiliser un chargeur de données brutes personnalisé dans des fichiers PSD avec Java ! Ce guide étape par étape couvre tout, de la configuration au nettoyage des ressources.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

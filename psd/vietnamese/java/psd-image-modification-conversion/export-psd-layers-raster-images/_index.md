@@ -3,10 +3,16 @@ title: Xuất các lớp PSD sang hình ảnh raster bằng Java
 linktitle: Xuất các lớp PSD sang hình ảnh raster bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách xuất các lớp PSD thành hình ảnh PNG bằng Aspose.PSD cho Java. Mở khóa thao tác tệp liền mạch với hướng dẫn từng bước chi tiết của chúng tôi.
-type: docs
 weight: 12
 url: /vi/java/psd-image-modification-conversion/export-psd-layers-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất các lớp PSD sang hình ảnh raster bằng Java
+
 ## Giới thiệu
 
 Trong thế giới thiết kế kỹ thuật số, làm việc với các hình ảnh xếp lớp có thể vừa là lợi ích vừa là thách thức. Hãy tưởng tượng bạn đã dành hàng giờ để tạo ra một hình ảnh tuyệt vời trong Photoshop (định dạng PSD), hoàn chỉnh với nhiều lớp giúp thiết kế của bạn trở nên sống động. Bây giờ, bạn có thể muốn xuất các lớp đó một cách độc lập để sử dụng tiếp! Đây là lúc Aspose.PSD cho Java phát huy tác dụng, dễ dàng tự động hóa công việc tẻ nhạt là xuất từng lớp từ tệp PSD của bạn thành hình ảnh raster, chẳng hạn như PNG. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn toàn bộ quá trình xuất các lớp PSD bằng Java, từng bước một.
@@ -99,3 +105,9 @@ Bạn có thể tìm kiếm sự giúp đỡ và hỗ trợ từ cộng đồng 
 
 ### Tôi có thể mua giấy phép cho Aspose.PSD ở đâu?
  Bạn có thể dễ dàng mua giấy phép cho Aspose.PSD từ trang mua hàng của họ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Suporte a recursos preto e branco em Aspose.PSD para .NET
 linktitle: Apoiando o recurso preto e branco (Blwh)
 second_title: API Aspose.PSD .NET
 description: Explore a edição avançada de imagens com Aspose.PSD para .NET. Aprenda a dominar as camadas de ajuste em preto e branco para obter controle preciso dos elementos da imagem.
-type: docs
 weight: 13
 url: /pt/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte a recursos preto e branco em Aspose.PSD para .NET
+
 ## Introdução
 No mundo dinâmico da mídia digital, a edição de imagens desempenha um papel fundamental na criação de visuais cativantes. Aspose.PSD para .NET capacita os desenvolvedores a levar seus recursos de manipulação de imagens para o próximo nível. Neste tutorial, exploraremos o suporte para camadas de ajuste de preto e branco no Aspose.PSD, permitindo ajustar imagens com precisão.
 ## Pré-requisitos
@@ -89,3 +95,9 @@ A2: Com certeza! Aspose.PSD permite empilhar várias camadas de ajuste, permitin
 ### P5: Há alguma imagem de amostra disponível para testar ajustes em preto e branco?
 
 A5: Sim, você pode encontrar imagens de exemplo na documentação do Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

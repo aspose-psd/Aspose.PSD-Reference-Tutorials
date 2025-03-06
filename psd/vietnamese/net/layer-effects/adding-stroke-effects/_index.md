@@ -3,10 +3,16 @@ title: Thêm hiệu ứng nét vẽ vào các lớp trong Aspose.PSD cho .NET
 linktitle: Thêm hiệu ứng đột quỵ vào các lớp
 second_title: API Aspose.PSD .NET
 description: Nâng cao tính thẩm mỹ của hình ảnh với Aspose.PSD cho .NET. Tìm hiểu cách thêm hiệu ứng nét theo từng bước. Tải xuống, mua hoặc dùng thử bản dùng thử miễn phí ngay bây giờ.
-type: docs
 weight: 10
 url: /vi/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng nét vẽ vào các lớp trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thêm hiệu ứng nét vẽ vào các lớp trong Aspose.PSD cho .NET. Việc nâng cao sự hấp dẫn trực quan cho hình ảnh của bạn thật dễ dàng với hiệu ứng nét vẽ và Aspose.PSD làm cho việc này trở nên liền mạch đối với các nhà phát triển .NET. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, cung cấp các bước và ví dụ rõ ràng để giúp bạn nắm vững tính năng mạnh mẽ này.
@@ -109,3 +115,9 @@ Câu trả lời 4: Có, bạn có thể lặp qua nhiều tệp PSD và áp d�
 ### Câu hỏi 5: Tôi có thể sử dụng phiên bản dùng thử trước khi mua Aspose.PSD không?
 
  A5: Chắc chắn rồi! Lấy[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các khả năng của Aspose.PSD trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

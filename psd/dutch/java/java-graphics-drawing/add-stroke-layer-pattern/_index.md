@@ -3,10 +3,16 @@ title: Hoe u een lijnlaagpatroon kunt toevoegen in Java
 linktitle: Hoe u een lijnlaagpatroon kunt toevoegen in Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u een streeklaagpatroon aan PSD-bestanden kunt toevoegen met Aspose.PSD voor Java. Volg deze stapsgewijze handleiding om uw afbeeldingen eenvoudig te verbeteren.
-type: docs
 weight: 11
 url: /nl/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoe u een lijnlaagpatroon kunt toevoegen in Java
+
 ## Invoering
 Het toevoegen van een lijnlaagpatroon aan een afbeelding in Java klinkt misschien als een hele klus, maar met Aspose.PSD voor Java is het eenvoudiger dan u denkt. Of u nu afbeeldingen ontwerpt of aan fotobewerkingsprogramma's werkt, deze handleiding begeleidt u stap voor stap door het proces. Klaar om aan de slag te gaan? Laten we erin duiken!
 ## Vereisten
@@ -138,3 +144,9 @@ Aspose.PSD voor Java is een bibliotheek waarmee ontwikkelaars PSD-bestanden (Pho
  U kunt ondersteuning krijgen van de Aspose-communityforums[hier](https://forum.aspose.com/c/psd/34).
 ### Wat zijn de systeemvereisten voor Aspose.PSD voor Java?
 Je hebt JDK nodig en een IDE voor ontwikkeling. De bibliotheek ondersteunt meerdere besturingssystemen, waaronder Windows, Linux en macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

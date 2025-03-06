@@ -3,10 +3,16 @@ title: Thao tác văn bản và phông chữ
 linktitle: Thao tác văn bản và phông chữ
 second_title: API Aspose.PSD .NET
 description: Tối đa hóa các ứng dụng .NET của bạn với hướng dẫn Aspose.PSD cho .NET! Tìm hiểu cách hiển thị văn bản với màu sắc sống động và thay thế các phông chữ bị thiếu một cách liền mạch.
-type: docs
 weight: 22
 url: /vi/net/text-and-font-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác văn bản và phông chữ
+
 
 ## Giới thiệu
 
@@ -45,3 +51,9 @@ Bạn đã sẵn sàng chinh phục các thử thách về phông chữ trong �
 Nâng cao các ứng dụng .NET của bạn bằng cách làm chủ khả năng hiển thị văn bản với màu sắc đa dạng trong tệp PSD bằng Aspose.PSD. Nâng cao khả năng thiết kế của bạn một cách dễ dàng.
 ### [Cài đặt thay thế phông chữ bị thiếu trong Aspose.PSD cho .NET](./replace-missing-fonts/)
 Khai phá tiềm năng của Aspose.PSD cho .NET! Tìm hiểu cách thay thế phông chữ bị thiếu một cách liền mạch bằng hướng dẫn từng bước của chúng tôi. Hãy nâng tầm trò chơi thiết kế của bạn ngay hôm nay.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Estrai la miniatura da PSD in Java
 linktitle: Estrai la miniatura da PSD in Java
 second_title: API Java Aspose.PSD
 description: Scopri come estrarre le miniature dai file PSD utilizzando Aspose.PSD per Java. Questa guida passo passo copre tutto, dalla configurazione al salvataggio delle immagini estratte.
-type: docs
 weight: 15
 url: /it/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrai la miniatura da PSD in Java
+
 ## Introduzione
 In questo tutorial esploreremo come estrarre le miniature dai file PSD utilizzando Aspose.PSD per Java. Le miniature possono essere utili per anteprime rapide o per creare versioni più piccole di immagini incorporate nei documenti PSD. Immergiamoci nei passaggi necessari per raggiungere questo obiettivo utilizzando Aspose.PSD.
 ## Prerequisiti
@@ -73,3 +79,9 @@ Aspose.PSD è una libreria Java che consente agli sviluppatori di lavorare con P
  È possibile ottenere licenze temporanee da[Qui](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD è adatto per l'uso commerciale?
 Sì, Aspose.PSD può essere utilizzato sia per progetti personali che commerciali secondo i termini di licenza.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

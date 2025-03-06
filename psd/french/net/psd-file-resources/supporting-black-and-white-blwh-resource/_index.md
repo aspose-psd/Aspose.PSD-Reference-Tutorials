@@ -3,10 +3,16 @@ title: Prise en charge des ressources noir et blanc dans Aspose.PSD pour .NET
 linktitle: Prise en charge de la ressource noir et blanc (Blwh)
 second_title: API Aspose.PSD.NET
 description: Explorez l'édition d'images avancée avec Aspose.PSD pour .NET. Apprenez à maîtriser les calques de réglage noir et blanc pour un contrôle précis des éléments de l'image.
-type: docs
 weight: 13
 url: /fr/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge des ressources noir et blanc dans Aspose.PSD pour .NET
+
 ## Introduction
 Dans le monde dynamique des médias numériques, l’édition d’images joue un rôle central dans la création de visuels captivants. Aspose.PSD pour .NET permet aux développeurs de faire passer leurs capacités de manipulation d'images au niveau supérieur. Dans ce didacticiel, nous explorerons la prise en charge des calques de réglage noir et blanc dans Aspose.PSD, vous permettant d'affiner les images avec précision.
 ## Conditions préalables
@@ -89,3 +95,9 @@ A2 : Absolument ! Aspose.PSD vous permet d'empiler plusieurs calques de réglage
 ### Q5 : Existe-t-il des exemples d’images disponibles pour tester les réglages du noir et blanc ?
 
 A5 : Oui, vous pouvez trouver des exemples d’images dans la documentation Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

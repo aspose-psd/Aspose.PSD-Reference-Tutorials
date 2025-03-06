@@ -3,10 +3,16 @@ title: Aláírás hozzáadása a képekhez az Aspose.PSD for .NET segítségéve
 linktitle: Aláírás hozzáadása a képekhez az Aspose.PSD for .NET segítségével
 second_title: Aspose.PSD .NET API
 description: Javítsa ki .NET képprojektjeit az Aspose.PSD segítségével. Ismerje meg, hogyan adhat hozzá aláírásokat zökkenőmentesen a lépésenkénti útmutatónk segítségével.
-type: docs
 weight: 13
 url: /hu/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aláírás hozzáadása a képekhez az Aspose.PSD for .NET segítségével
+
 ## Bevezetés
 
 A .NET fejlesztés területén az Aspose.PSD hatékony eszköz a képek manipulálására és javítására. Ha valaha is azon töprengett, hogyan adhat zökkenőmentesen aláírást a képekhez az Aspose.PSD for .NET használatával, akkor jó helyen jár. Ez a lépésenkénti útmutató végigvezeti Önt a folyamaton, biztosítva, hogy elsajátítsa az aláírások könnyed beillesztésének művészetét a képekbe.
@@ -103,3 +109,9 @@ V1: Igen, minden további aláírásnál megismételheti a folyamatot.
 ### 5. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
  5. válasz: Természetesen ingyenes próbaverzió áll rendelkezésre[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

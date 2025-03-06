@@ -3,10 +3,16 @@ title: Použijte efekt tahu s barevnou výplní v PSD - Java
 linktitle: Použijte efekt tahu s barevnou výplní v PSD - Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak aplikovat efekt tahu s barevnou výplní na vaše soubory PSD pomocí Aspose.PSD for Java. Postupujte podle tohoto podrobného průvodce, abyste své obrázky snadno vylepšili.
-type: docs
 weight: 21
 url: /cs/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použijte efekt tahu s barevnou výplní v PSD - Java
+
 ## Zavedení
 
 této příručce vás provedeme procesem aplikace efektu tahu s barevnou výplní na vaše soubory PSD pomocí Aspose.PSD for Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný návod vám usnadní práci. Pokryjeme vše od nastavení vašeho prostředí až po uložení finálního obrázku s aplikovanými efekty.
@@ -144,3 +150,9 @@ Chcete-li vrátit změny, budete muset před uložením jakýchkoli úprav znovu
 
 ### Je knihovna Aspose.PSD for Java k použití zdarma?
  Aspose.PSD for Java nabízí bezplatnou zkušební verzi, ale pro plný přístup ke všem funkcím byste si museli zakoupit licenci. Můžete prozkoumat[koupit opce](https://purchase.aspose.com/buy)na jejich webových stránkách.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

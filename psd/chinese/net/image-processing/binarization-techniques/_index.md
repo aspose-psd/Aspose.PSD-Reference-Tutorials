@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET 中的二值化技术
 linktitle: 二值化技术
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 中的高级二值化技术。使用 BinarizationWithFixedThreshold 方法轻松将彩色图像转换为二进制。
-type: docs
 weight: 12
 url: /zh/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET 中的二值化技术
+
 ## 介绍
 
 在图像处理领域，将彩色图像转换为二进制图像的能力是至关重要的一步。二值化有助于将复杂图像简化为黑白像素，从而更易于分析和提取信息。Aspose.PSD for .NET 提供了强大的图像处理工具，包括强大的二值化技术。在本教程中，我们将探索 BinarizationWithFixedThreshold 方法并指导您使用 Aspose.PSD for .NET 实现该方法。
@@ -104,3 +110,9 @@ A3：缓存通过将图像数据存储在内存中来提高性能，减少了重
 ### 问题5: Aspose.PSD 有试用版吗？
 
  A5：是的，您可以访问[免费试用](https://releases.aspose.com/)在购买之前探索 Aspose.PSD 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

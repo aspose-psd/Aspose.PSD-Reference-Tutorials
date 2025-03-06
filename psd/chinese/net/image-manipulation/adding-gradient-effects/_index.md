@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中为图像添加渐变效果
 linktitle: 为图像添加渐变效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 通过迷人的渐变效果增强您的图像。按照我们的分步教程进行创意视觉转换。
-type: docs
 weight: 11
 url: /zh/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中为图像添加渐变效果
+
 ## 介绍
 
 使用渐变效果增强图像可以为您的视觉内容增添迷人的维度。Aspose.PSD for .NET 提供了一个强大的平台，可将渐变叠加层合并到您的图像中。在本教程中，我们将指导您完成使用 Aspose.PSD for .NET 添加渐变效果的过程。
@@ -148,3 +154,9 @@ A3：是的，您可以通过下载免费试用版来探索 Aspose.PSD for .NET 
 ### Q5: 我可以在哪里购买 Aspose.PSD for .NET？
 
 A5：您可以从[Aspose.PSD for .NET 购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で簡単な描画を実行する
 linktitle: 簡単な描画を実行する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイルに図形を描画する方法を学びます。このステップ バイ ステップ ガイドでは、コード例を使用して、レイヤーの作成、追加、描画について説明します。
-type: docs
 weight: 10
 url: /ja/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で簡単な描画を実行する
+
 ## 導入
 
 Aspose.PSD for Java を使用して簡単な描画を実行するためのステップバイステップ ガイドへようこそ。このチュートリアルでは、新しい PSD ドキュメントの作成、レイヤーの追加、さまざまな色での図形の描画の基本について説明します。Aspose.PSD for Java は、PSD ファイルをプログラムで操作できる強力なライブラリであり、グラフィック デザイン タスクに幅広い機能を提供します。
@@ -125,3 +131,9 @@ A3: はい、無料試用版をご利用いただけます[ここ](https://relea
 ### Q5: Aspose.PSD for Java の一時ライセンスは利用できますか?
 
 A5: はい、一時ライセンスを取得することができます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

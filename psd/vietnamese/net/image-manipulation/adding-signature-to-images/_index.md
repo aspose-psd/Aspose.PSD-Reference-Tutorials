@@ -3,10 +3,16 @@ title: Thêm chữ ký vào hình ảnh bằng Aspose.PSD cho .NET
 linktitle: Thêm chữ ký vào hình ảnh bằng Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Nâng cao các dự án hình ảnh .NET của bạn với Aspose.PSD. Tìm hiểu cách thêm chữ ký một cách liền mạch bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 13
 url: /vi/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm chữ ký vào hình ảnh bằng Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.PSD nổi bật như một công cụ mạnh mẽ để thao tác và nâng cao hình ảnh. Nếu bạn từng thắc mắc cách thêm chữ ký vào hình ảnh một cách liền mạch bằng Aspose.PSD cho .NET thì bạn đã đến đúng nơi. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình, đảm bảo bạn nắm vững nghệ thuật kết hợp chữ ký vào hình ảnh của mình một cách dễ dàng.
@@ -103,3 +109,9 @@ Câu trả lời 3: Bạn có thể triển khai các khối thử bắt để x
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD trước khi mua không?
 
  Câu trả lời 5: Chắc chắn, có bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

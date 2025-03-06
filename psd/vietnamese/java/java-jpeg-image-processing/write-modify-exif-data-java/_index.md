@@ -3,10 +3,16 @@ title: Viết và sửa đổi dữ liệu EXIF trong Java
 linktitle: Viết và sửa đổi dữ liệu EXIF trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách viết và sửa đổi dữ liệu EXIF trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 22
 url: /vi/java/java-jpeg-image-processing/write-modify-exif-data-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Viết và sửa đổi dữ liệu EXIF trong Java
+
 ## Giới thiệu
 Bạn đang muốn thao tác dữ liệu EXIF trong tệp PSD bằng Java? Nếu có thì bạn đang ở đúng nơi! Hướng dẫn toàn diện này sẽ hướng dẫn bạn các bước để viết và sửa đổi dữ liệu EXIF trong Java bằng thư viện Aspose.PSD mạnh mẽ. 
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Bạn có thể sử dụng bản dùng thử miễn phí, nhưng để có đ�
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể sử dụng Aspose.PSD để xử lý hàng loạt hình ảnh không?
 Có, bạn có thể xử lý nhiều hình ảnh cùng lúc bằng các tính năng mạnh mẽ của Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 在彩色影像中套用中位數和維納濾�
 linktitle: 使用 Aspose.PSD for .NET 在彩色影像中套用中位數和維納濾波器
 second_title: Aspose.PSD .NET API
 description: 使用中位數和維納濾波器，透過 Aspose.PSD for .NET 增強彩色影像並進行去噪。無縫影像處理的逐步指南。
-type: docs
 weight: 11
 url: /zh-hant/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 在彩色影像中套用中位數和維納濾波器
+
 ## 介紹
 
 歡迎閱讀本逐步指南，以了解如何使用 Aspose.PSD for .NET 在彩色影像中套用中值濾波器和維納濾波器。 Aspose.PSD 是一個功能強大的程式庫，可讓 .NET 開發人員無縫地處理 PSD 檔案。在本教程中，我們將探索應用中值濾波器和維納濾波器來增強彩色影像並對其進行去雜訊的過程。
@@ -95,3 +101,9 @@ A2：您可以實作try-catch區塊來處理使用Aspose.PSD進行影像處理�
 ### Q5：如何取得Aspose.PSD的臨時授權？
 
 A5：您可以從以下地點獲得臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

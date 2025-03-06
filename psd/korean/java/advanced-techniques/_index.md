@@ -3,10 +3,16 @@ title: 고급 기술
 linktitle: 고급 기술
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD 튜토리얼을 통해 Java 이미지 처리의 고급 기술을 쉽게 익힐 수 있습니다. 그레이스케일, 로드, 변환, 텍스트 렌더링, 효율적인 저장 등!
-type: docs
 weight: 22
 url: /ko/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 기술
+
 ## 소개
 
 Java 이미지 처리 기술을 향상시킬 준비가 되셨습니까? Java용 Aspose.PSD를 사용하여 포괄적인 튜토리얼을 살펴보고 고급 기술의 영역을 열어보세요. 몇 가지 주요 튜토리얼을 자세히 살펴보겠습니다.
@@ -85,3 +91,9 @@ Aspose.PSD를 사용하여 Java의 이미지 대비 조정 세계를 탐험해�
 Java용 Aspose.PSD를 사용하여 이미지 감마를 손쉽게 조정하는 방법을 알아보세요. 최적의 결과를 얻으려면 단계별 가이드를 따르십시오.
 ### [Java용 Aspose.PSD를 사용하여 이미지 흐리게 하기](./blur-image/)
 Aspose.PSD를 사용하여 Java에서 이미지를 흐리게 만드는 방법을 알아보세요. 전문적인 결과를 얻으려면 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

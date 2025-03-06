@@ -3,10 +3,16 @@ title: Přidejte podporu Linked Layer do souborů PSD pomocí Java
 linktitle: Přidejte podporu Linked Layer do souborů PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak přidat podporu propojené vrstvy v souborech PSD pomocí Aspose.PSD for Java, pomocí tohoto podrobného návodu krok za krokem. Ideální pro designéry a vývojáře.
-type: docs
 weight: 19
 url: /cs/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte podporu Linked Layer do souborů PSD pomocí Java
+
 ## Zavedení
 Soubory .PSD Adobe Photoshopu jsou oblíbené mezi grafickými designéry a digitálními umělci díky jejich všestranným možnostem správy vrstev. Když se ponoříte do světa programové manipulace se soubory PSD, možná budete chtít prozkoumat, jak mohou propojené vrstvy zlepšit váš pracovní postup. Propojené vrstvy umožňují uživatelům udržovat nezávislé funkce vrstev a zároveň je spravovat jako soudržnou jednotku. Zadejte Aspose.PSD for Java, výkonnou knihovnu, se kterou je práce se soubory Photoshopu hračkou. 
 tomto článku se podrobně podíváme na to, jak přidat podporu propojené vrstvy do souborů PSD pomocí knihovny Aspose.PSD v Javě. Ať už jste zkušený vývojář nebo nováček, tento podrobný průvodce vám pomůže hladce procházet úkolem.
@@ -99,3 +105,9 @@ Ano, jako knihovna založená na Javě běží na jakékoli platformě, která J
  Můžete prozkoumat rozsáhlou dokumentaci[zde](https://reference.aspose.com/psd/java/).
 ### Jak mohu získat podporu, pokud narazím na problémy?
  Pokud narazíte na nějaké problémy, můžete najít pomoc v[fórum podpory](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

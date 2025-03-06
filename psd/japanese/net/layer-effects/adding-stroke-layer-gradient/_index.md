@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET でグラデーション付きのストローク レ�
 linktitle: グラデーション付きのストロークレイヤーの追加
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET でグラデーション ストローク レイヤーを追加する方法を学びます。この包括的なチュートリアルで画像操作スキルを高めましょう。
-type: docs
 weight: 12
 url: /ja/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET でグラデーション付きのストローク レイヤーを追加する
+
 ## 導入
 
 .NET アプリケーションを魅力的なグラフィック効果で強化したい場合、Aspose.PSD for .NET が最適なソリューションです。このチュートリアルでは、Aspose.PSD for .NET を使用して、グラデーション付きのストローク レイヤーを追加するプロセスを詳しく説明します。このステップ バイ ステップ ガイドにより、画像の視覚的な魅力を簡単に高めることができます。
@@ -119,3 +125,9 @@ A1: はい、Aspose.PSD for .NET はさまざまな .NET フレームワーク�
 ### Q5: Aspose.PSD for .NET のライセンスを購入するにはどうすればよいですか?
 
  A5: ライセンスを購入することができます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

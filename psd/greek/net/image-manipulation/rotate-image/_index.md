@@ -3,10 +3,16 @@ title: Περιστροφή εικόνας στο Aspose.PSD για .NET
 linktitle: Περιστροφή εικόνας
 second_title: Aspose.PSD .NET API
 description: Μάθετε να περιστρέφετε εικόνες χωρίς κόπο στο .NET με το Aspose.PSD. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας.
-type: docs
 weight: 15
 url: /el/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περιστροφή εικόνας στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Εάν βουτάτε στον κόσμο της χειραγώγησης εικόνας χρησιμοποιώντας το .NET, το Aspose.PSD είναι το εργαλείο σας για απρόσκοπτη και αποτελεσματική επεξεργασία εικόνας. Σε αυτό το σεμινάριο, θα επικεντρωθούμε σε μια βασική εργασία – την περιστροφή μιας εικόνας χρησιμοποιώντας το Aspose.PSD για .NET. Ακολουθήστε τη διαδικασία καθώς αναλύουμε τη διαδικασία σε απλά βήματα.
@@ -80,3 +86,9 @@ using (Image image = Image.Load(sourceFile))
 ### Ε5: Μπορώ να αγοράσω το Aspose.PSD για εμπορική χρήση;
 
  Σίγουρα. Εξερευνήστε το[σελίδα αγοράς](https://purchase.aspose.com/buy) να αποκτήσετε άδεια προσαρμοσμένη στις ανάγκες σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

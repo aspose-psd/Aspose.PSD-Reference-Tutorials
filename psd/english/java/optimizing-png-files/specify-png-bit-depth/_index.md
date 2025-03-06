@@ -3,10 +3,16 @@ title: Specify PNG Bit Depth in Aspose.PSD for Java
 linktitle: Specify PNG Bit Depth in Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to specify PNG bit depth using Aspose.PSD for Java in this detailed step-by-step tutorial.
-type: docs
 weight: 14
 url: /java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specify PNG Bit Depth in Aspose.PSD for Java
+
 ## Introduction
 Are you looking to enhance your image processing skills using Aspose.PSD for Java? You’re in the right place! This tutorial will guide you through the process of specifying PNG bit depth while converting PSD files to PNG format. With the help of Aspose.PSD, you’ll find it's quite straightforward to manipulate your images. Whether you're developing a small personal project or a larger application, controlling image quality through bit depth can significantly impact the final output.
 ## Prerequisites
@@ -74,3 +80,10 @@ Yes, you can try out the library with a free trial which you can find [here](htt
 For a temporary license, you can apply [here](https://purchase.aspose.com/temporary-license/).
 ### What type of images can I convert?
 Aspose.PSD primarily deals with PSD files, but it supports conversion to various formats like PNG, JPEG, and TIFF.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

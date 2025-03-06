@@ -3,10 +3,16 @@ title: Execute desenhos simples com Aspose.PSD para Java
 linktitle: Execute um desenho simples
 second_title: API Java Aspose.PSD
 description: Aprenda como desenhar formas em arquivos PSD usando Aspose.PSD para Java. Este guia passo a passo aborda a criação, adição de camadas e desenho com exemplos de código.
-type: docs
 weight: 10
 url: /pt/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Execute desenhos simples com Aspose.PSD para Java
+
 ## Introdução
 
 Bem-vindo a este guia passo a passo sobre como realizar desenhos simples usando Aspose.PSD para Java! Neste tutorial, exploraremos os fundamentos da criação de um novo documento PSD, adicionando camadas e desenhando formas com cores diferentes. Aspose.PSD para Java é uma biblioteca poderosa que permite manipular arquivos PSD programaticamente, fornecendo ampla funcionalidade para tarefas de design gráfico.
@@ -125,3 +131,9 @@ A1: Sim, Aspose.PSD para Java oferece ampla funcionalidade para editar e manipul
 ### P5: As licenças temporárias estão disponíveis para Aspose.PSD para Java?
 
  A5: Sim, você pode obter uma licença temporária de[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

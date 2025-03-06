@@ -3,10 +3,16 @@ title: Bradley Threshold toepassen in Aspose.PSD voor .NET
 linktitle: Bradley-drempel toepassen
 second_title: Aspose.PSD .NET-API
 description: Verbeter beeldsegmentatie met Bradley Threshold in Aspose.PSD voor .NET. Een stap-voor-stap handleiding voor effectieve binarisatie.
-type: docs
 weight: 15
 url: /nl/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bradley Threshold toepassen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom bij onze uitgebreide tutorial over het toepassen van Bradley Threshold in Aspose.PSD voor .NET. Aspose.PSD voor .NET is een krachtige bibliotheek waarmee u met Photoshop-bestanden kunt werken in uw .NET-toepassingen. Bradley Thresholding is een techniek die wordt gebruikt voor het binariseren van afbeeldingen, waardoor objecten effectief van de achtergrond worden gescheiden.
@@ -90,3 +96,9 @@ A1: Ja, Bradley Thresholding is een veelzijdige techniek die geschikt is voor ve
 ### V5: Waar kan ik een licentie voor Aspose.PSD kopen?
 
  A5: U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

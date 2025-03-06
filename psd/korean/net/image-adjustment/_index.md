@@ -3,10 +3,16 @@ title: 이미지 조정
 linktitle: 이미지 조정
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 이미지 조정의 잠재력을 활용해 보세요. 이미지 조작을 마스터하기 위한 밝기, 대비 및 색상 균형에 대한 튜토리얼을 살펴보세요.
-type: docs
 weight: 24
 url: /ko/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 조정
+
 ## 소개
 
 이미지 조작 기술을 향상시킬 준비가 되셨나요? 이미지 조정에 대한 포괄적인 튜토리얼을 통해 .NET용 Aspose.PSD의 세계에 빠져보세요. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 단계별 가이드를 통해 손쉽게 이미지를 향상할 수 있습니다.
@@ -42,3 +48,9 @@ url: /ko/net/image-adjustment/
 .NET용 Aspose.PSD를 사용하여 손쉽게 이미지를 흐리게 하는 방법을 알아보세요. C# 프로젝트에서 원활한 이미지 조작을 위한 단계별 가이드입니다.
 ### [.NET용 Aspose.PSD에서 색상 균형 조정 적용](./color-balance-adjustment/)
 .NET용 Aspose.PSD의 색상 균형 조정 기능을 사용하여 PSD 이미지 색상을 손쉽게 향상하세요. 놀라운 결과를 얻으려면 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

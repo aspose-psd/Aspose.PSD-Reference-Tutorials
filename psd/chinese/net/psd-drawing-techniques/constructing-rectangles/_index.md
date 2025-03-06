@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中构建矩形
 linktitle: 构造矩形
 second_title: Aspose.PSD .NET API
 description: 探索使用 Aspose.PSD 在 .NET 中绘制矩形的艺术。按照我们的分步指南进行无缝集成。轻松提升您的图像处理能力。
-type: docs
 weight: 15
 url: /zh/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中构建矩形
+
 ## 介绍
 
 在动态的 .NET 开发领域，Aspose.PSD 是处理图像处理的强大工具。本教程重点介绍一项基本任务：使用 Aspose.PSD for .NET 构建矩形。无论您是经验丰富的开发人员还是刚刚入门，本分步指南都将引导您完成整个过程，确保您彻底掌握每个概念。
@@ -94,3 +100,9 @@ A4：使用 32 Bpp 可以实现更丰富的色彩呈现，从而实现更细致�
 ### Q5：Aspose.PSD 有免费试用版吗？
 
  A5：是的，您可以免费试用 Aspose.PSD。下载[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

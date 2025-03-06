@@ -3,10 +3,16 @@ title: Imagens em escala de cinza com Aspose.PSD para .NET
 linktitle: Imagens em escala de cinza com Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Aprenda como aplicar efeitos de escala de cinza a imagens sem esforço usando Aspose.PSD para .NET.
-type: docs
 weight: 14
 url: /pt/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imagens em escala de cinza com Aspose.PSD para .NET
+
 ## Introdução
 
 Bem-vindo ao nosso tutorial abrangente sobre imagens em escala de cinza usando Aspose.PSD para .NET! Grayscaling é uma técnica poderosa que pode melhorar o apelo visual de suas imagens, convertendo-as em tons de cinza. Neste guia, orientaremos você no processo de obtenção de efeitos impressionantes em tons de cinza sem esforço.
@@ -108,3 +114,9 @@ A1: Sim, Aspose.PSD suporta vários formatos de imagem, incluindo PSD, BMP, PNG 
 ### P5: Como faço para adquirir uma licença do Aspose.PSD para .NET?
 
  A5: Você pode comprar uma licença no[página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

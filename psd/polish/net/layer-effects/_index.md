@@ -3,10 +3,16 @@ title: Efekty warstw
 linktitle: Efekty warstw
 second_title: Aspose.PSD API .NET
 description: Odkryj magię efektów warstwowych z Aspose.PSD dla .NET! Podnieś swoje umiejętności manipulacji obrazem, ucząc się dodawać tryby obrysu, cienia i mieszania.
-type: docs
 weight: 29
 url: /pl/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efekty warstw
+
 ## Wstęp
 
 Uwolnij pełny potencjał swoich wysiłków w zakresie manipulacji obrazami dzięki Aspose.PSD dla .NET. Ten obszerny przewodnik przedstawia niezliczoną ilość efektów warstw, które odmienią Twój proces twórczy. Od pociągnięć i cieni po tryby mieszania — bez wysiłku ulepszaj swoje projekty.
@@ -54,3 +60,9 @@ Ulepsz swoje obrazy za pomocą Aspose.PSD dla .NET! Naucz się krok po kroku wsp
 Dowiedz się, jak dostosować krycie efektu cienia w Aspose.PSD dla .NET, korzystając z tego wszechstronnego samouczka.
 ### [Praca z trybami mieszania w Aspose.PSD dla .NET](./working-with-blend-modes/)
 Poznaj moc trybów mieszania w Aspose.PSD dla .NET. W tym samouczku znajdziesz szczegółowe przykłady stosowania różnych trybów mieszania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

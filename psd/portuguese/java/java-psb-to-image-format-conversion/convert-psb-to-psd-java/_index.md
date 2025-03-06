@@ -3,10 +3,16 @@ title: Converter PSB em PSD em Java
 linktitle: Converter PSB em PSD em Java
 second_title: API Java Aspose.PSD
 description: Aprenda como converter PSB para PSD em Java perfeitamente usando Aspose.PSD, aprimorando o gerenciamento de arquivos gráficos em seus aplicativos.
-type: docs
 weight: 12
 url: /pt/java/java-psb-to-image-format-conversion/convert-psb-to-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter PSB em PSD em Java
+
 ## Introdução
 No domínio do desenvolvimento Java, a manipulação eficiente de arquivos gráficos é crucial. Este tutorial se concentra em aproveitar o Aspose.PSD para Java para converter perfeitamente arquivos PSB (Photoshop Big) para o formato PSD (Photoshop Document). Seguindo essas etapas, você pode integrar esse recurso aos seus aplicativos Java sem esforço.
 ## Pré-requisitos
@@ -58,3 +64,9 @@ Sim, a biblioteca garante conversão de alta fidelidade, preservando a qualidade
 Sim, o Aspose.PSD para Java pode ser perfeitamente integrado em aplicativos Java de desktop e baseados na web.
 ### Onde posso encontrar mais suporte ou assistência para Aspose.PSD para Java?
  Para obter mais assistência, visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

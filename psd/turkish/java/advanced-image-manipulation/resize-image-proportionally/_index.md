@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Görüntüyü Orantılı Olarak Yeniden Boyutland
 linktitle: Görüntüyü Orantılı Olarak Yeniden Boyutlandır
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java uygulamalarınızı geliştirin. Görüntüleri orantılı olarak zahmetsizce yeniden boyutlandırmak için kılavuzumuzu izleyin. Görüntü işleme yeteneklerinizi bugün artırın.
-type: docs
 weight: 17
 url: /tr/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Görüntüyü Orantılı Olarak Yeniden Boyutlandır
+
 ## giriiş
 
 Aspose.PSD for Java kullanarak görüntüleri orantılı olarak yeniden boyutlandırmaya yönelik adım adım kılavuzumuza hoş geldiniz. Java uygulamalarınızı etkili görüntü yeniden boyutlandırma özellikleriyle geliştirmek istiyorsanız doğru yere geldiniz. Bu eğitimde, açık ve özlü adımları kullanarak süreç boyunca size yol göstereceğiz.
@@ -92,3 +98,9 @@ Bu eğitimde, Java için Aspose.PSD kütüphanesini kullanarak görüntüleri or
 
  A5: Ayrıntılı belgelere bakın[Burada](https://reference.aspose.com/psd/java/).
 '
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiunta del livello tratto con motivo in Aspose.PSD per .NET
 linktitle: Aggiunta di un livello di tratto con motivo
 second_title: API Aspose.PSD .NET
 description: Migliora i tuoi file PSD con livelli e modelli di tratti utilizzando Aspose.PSD per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 13
 url: /it/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiunta del livello tratto con motivo in Aspose.PSD per .NET
+
 ## Introduzione
 
 Migliorare i tuoi file PSD (documenti Photoshop) con livelli e motivi di tratto può aggiungere un tocco dinamico ai tuoi progetti. In questo tutorial esploreremo come sfruttare Aspose.PSD per .NET per aggiungere facilmente un livello di tratto con un pattern ai tuoi file PSD. Aspose.PSD è una potente libreria .NET che fornisce un supporto completo per la manipolazione dei file PSD, rendendolo uno strumento inestimabile sia per sviluppatori che per designer.
@@ -144,3 +150,9 @@ A4: Assolutamente, Aspose.PSD per .NET fornisce un solido supporto per l'elabora
 ### D5: Dove posso chiedere assistenza o partecipare alle discussioni della community?
 
  A5: Visita il[Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) per il supporto e le interazioni con la comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiungi filigrana ai file PSD con Aspose.PSD per Java
 linktitle: Aggiungi filigrana ai file PSD con Aspose.PSD per Java
 second_title: API Java Aspose.PSD
 description: Scopri come aggiungere una filigrana ai tuoi file PSD senza sforzo utilizzando Aspose.PSD per Java. Proteggi le tue immagini con una semplice guida passo passo.
-type: docs
 weight: 18
 url: /it/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi filigrana ai file PSD con Aspose.PSD per Java
+
 ## Introduzione
 Le filigrane sono un modo sottile ma efficace per proteggere le tue immagini e comunicarne la proprietà. Che tu sia un fotografo che mostra il tuo portfolio o un designer che presenta il tuo ultimo lavoro, l'aggiunta di una filigrana può essere fondamentale per mantenere l'identità del tuo marchio. In questo tutorial, approfondiremo come aggiungere facilmente filigrane ai tuoi file PSD utilizzando Aspose.PSD per Java. Quindi prendi una tazza di caffè, mettiti comodo e cominciamo!
 ## Prerequisiti
@@ -90,3 +96,9 @@ Ed ecco qua! Hai aggiunto con successo una filigrana al tuo file PSD utilizzando
  Sì, puoi salvare in vari formati come JPEG o BMP. Basta sostituire`PngOptions()` con le opzioni desiderate.
 ### Dove posso trovare ulteriore aiuto?
  Per domande dettagliate, è possibile visitare il[Aspose forum](https://forum.aspose.com/c/psd/34) o controlla il loro[documentazione](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

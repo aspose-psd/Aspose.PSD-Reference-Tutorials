@@ -3,10 +3,16 @@ title: Поддержка эффекта внешнего свечения в As
 linktitle: Поддержка эффекта внешнего свечения
 second_title: Aspose.PSD .NET API
 description: Исследуйте возможности эффекта внешнего свечения в Aspose.PSD для .NET. Улучшите свой дизайн изображений с помощью этого пошагового руководства.
-type: docs
 weight: 16
 url: /ru/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка эффекта внешнего свечения в Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по поддержке эффекта внешнего свечения в Aspose.PSD для .NET. Aspose.PSD — это мощная библиотека, которая позволяет легко манипулировать PSD-файлами в приложениях .NET. В этом уроке мы рассмотрим реализацию эффекта внешнего свечения и предоставим подробное пошаговое руководство по его интеграции в ваши проекты.
@@ -114,3 +120,9 @@ Console.WriteLine("SupportOfOuterGlowEffect executed successfully");
 ### Вопрос 5: Могу ли я приобрести Aspose.PSD для .NET?
 
  О5: Да, изучите варианты лицензирования и совершите покупку.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

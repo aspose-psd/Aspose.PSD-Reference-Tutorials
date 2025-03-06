@@ -3,10 +3,16 @@ title: Gabungkan Gambar menggunakan Aspose.PSD untuk Java
 linktitle: Gabungkan Gambar
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggabungkan gambar di Java dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk kombinasi gambar yang mulus.
-type: docs
 weight: 11
 url: /id/java/image-editing/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gabungkan Gambar menggunakan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Di bidang pemrograman Java, Aspose.PSD menonjol sebagai alat yang ampuh untuk memanipulasi dan memproses gambar. Salah satu fiturnya yang patut diperhatikan adalah kemampuan untuk menggabungkan banyak gambar dengan mulus. Tutorial ini akan memandu Anda melalui proses menggabungkan dua gambar menjadi satu file PSD menggunakan Aspose.PSD untuk Java.
@@ -111,3 +117,9 @@ A2: Tentu saja! Setelah menggabungkan gambar, Anda dapat memanipulasi lebih lanj
 ### Q5: Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.PSD?
 
  A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Oříznutí obrázků podle obdélníku v Aspose.PSD pro .NET
 linktitle: Oříznutí obrázků podle obdélníku
 second_title: Aspose.PSD .NET API
 description: Vylepšete své dovednosti manipulace s obrázky .NET pomocí Aspose.PSD. Naučte se krok za krokem ořezávání obrázků pomocí obdélníků pro přesnost.
-type: docs
 weight: 11
 url: /cs/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznutí obrázků podle obdélníku v Aspose.PSD pro .NET
+
 ## Zavedení
 
 V oblasti programování .NET je manipulace a vylepšování obrázků běžným úkolem a Aspose.PSD for .NET je výkonná knihovna, která tento proces zjednodušuje. Tento tutoriál se zaměřuje na základní, ale klíčovou techniku manipulace s obrázky – oříznutí obrázků podle obdélníku. Na konci této příručky budete dobře rozumět tomu, jak přesně oříznout obrázky pomocí Aspose.PSD pro .NET.
@@ -110,3 +116,9 @@ A3: Aspose.PSD for .NET je navržen pro zpracování obrázků různých velikos
 ### Q5: Kde najdu další podporu nebo pomoc?
 
  A5: Navštivte[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34)spojit se s komunitou a hledat podporu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

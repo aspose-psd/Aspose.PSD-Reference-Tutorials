@@ -3,10 +3,16 @@ title: Mendukung Tanda Tangan ObAr dan UnFl di Aspose.PSD untuk .NET
 linktitle: Mendukung Tanda Tangan ObAr dan UnFl
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan Aspose.PSD untuk .NET dalam mendukung tanda tangan ObAr dan UnFl. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 15
 url: /id/net/image-manipulation/supporting-obar-and-unfl-signatures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Tanda Tangan ObAr dan UnFl di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.PSD menonjol sebagai alat yang ampuh untuk memanipulasi dan memproses file Photoshop. Di antara fitur-fiturnya yang kaya, dukungan tanda tangan ObAr dan UnFl sangat penting untuk pengeditan gambar tingkat lanjut. Tutorial ini akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk memastikan penerapan yang lancar.
@@ -119,3 +125,9 @@ Selamat! Anda telah berhasil menerapkan dukungan untuk tanda tangan ObAr dan UnF
 ### Q5: Di mana saya dapat membeli Aspose.PSD untuk .NET?
 
  A5: Anda dapat membeli Aspose.PSD[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

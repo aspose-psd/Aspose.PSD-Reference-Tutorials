@@ -3,10 +3,16 @@ title: 使用Java在PSD中加入內陰影層效果
 linktitle: 使用Java在PSD中加入內陰影層效果
 second_title: Aspose.PSD Java API
 description: 透過此逐步教學（包括提示和最佳實踐），了解如何使用 Aspose.PSD for Java 為 PSD 檔案添加內部陰影效果。
-type: docs
 weight: 12
 url: /zh-hant/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用Java在PSD中加入內陰影層效果
+
 ## 介紹
 您準備好進入圖形設計程式設計的世界了嗎？如果您曾經希望以程式方式操作 PSD 文件，那麼您來對地方了！今天，我們將探討如何使用 Aspose.PSD for Java 將內部陰影層效果新增至 PSD（Photoshop 文件）。這個功能強大的函式庫使 Java 開發人員能夠有效率地處理 PSD 文件，從而實現從簡單編輯到複雜效果的一系列影像操作。
 ## 先決條件
@@ -102,3 +108,9 @@ Aspose.PSD 是一個用於處理 PSD 檔案的 Java 程式庫，可讓開發人�
 Aspose.PSD是一個商業產品；但是，您可以使用 Aspose 提供的免費試用版。
 ### 在哪裡可以找到更多文件？  
 您可以找到 Aspose.PSD 的綜合文檔[這裡](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

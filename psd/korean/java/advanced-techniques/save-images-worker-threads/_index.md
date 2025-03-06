@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 작업자 스레드를 사용하여 �
 linktitle: 작업자 스레드를 사용하여 이미지 저장
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java에서 다중 스레드 이미지 처리를 살펴보세요. 작업자 스레드를 사용하여 이미지를 효율적으로 저장하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/java/advanced-techniques/save-images-worker-threads/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 작업자 스레드를 사용하여 이미지 저장
+
 ## 소개
 
 Java의 이미지 처리 기능을 향상시킬 준비가 되셨습니까? Java용 Aspose.PSD만 있으면 됩니다. 이 튜토리얼에서는 최적의 성능과 효율성을 보장하기 위해 작업자 스레드를 사용하여 이미지를 저장하는 과정을 안내합니다. Aspose.PSD를 사용하여 멀티스레드 이미지 처리의 세계로 뛰어들어 봅시다!
@@ -119,3 +125,9 @@ A2: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/p
 ### Q5: Java용 Aspose.PSD를 어디서 구입할 수 있나요?
 
  A5: Java용 Aspose.PSD를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

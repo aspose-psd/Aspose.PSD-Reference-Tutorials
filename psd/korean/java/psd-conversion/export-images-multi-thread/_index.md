@@ -3,10 +3,16 @@ title: 멀티스레드 이미지 내보내기 튜토리얼 - Java용 Aspose.PSD
 linktitle: 멀티스레드 환경에서 이미지 내보내기
 second_title: Aspose.PSD 자바 API
 description: 멀티스레드 환경에서 이미지를 내보낼 때 Java용 Aspose.PSD의 강력한 기능을 살펴보세요. Java 애플리케이션의 기능을 향상시키세요!
-type: docs
 weight: 14
 url: /ko/java/psd-conversion/export-images-multi-thread/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 멀티스레드 이미지 내보내기 튜토리얼 - Java용 Aspose.PSD
+
 ## 소개
 멀티스레드 환경에서 Java 애플리케이션의 이미지 내보내기 기능을 향상시키고 싶으십니까? Java용 Aspose.PSD는 완벽한 솔루션입니다! 이 튜토리얼에서는 멀티 스레드 설정에서 Aspose.PSD를 사용하여 이미지를 내보내는 과정을 안내합니다. Java 애플리케이션의 잠재력을 발휘할 준비를 하십시오.
 ## 전제조건
@@ -75,3 +81,9 @@ Aspose.PSD는 Java 1.7 이상 버전과 호환됩니다.
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.PSD에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  방문하다[이 링크](https://purchase.aspose.com/temporary-license/) 임시면허를 취득하기 위해
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

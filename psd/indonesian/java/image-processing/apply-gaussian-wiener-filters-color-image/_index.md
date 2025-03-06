@@ -3,10 +3,16 @@ title: Terapkan Filter Gaussian dan Wiener untuk Gambar Berwarna dengan Aspose.P
 linktitle: Terapkan Filter Gaussian dan Wiener untuk Gambar Berwarna
 second_title: Asumsikan.PSD Java API
 description: Sempurnakan gambar berwarna Anda dengan mudah dengan Aspose.PSD untuk Java. Pelajari cara menerapkan filter Gaussian dan Wiener langkah demi langkah untuk hasil visual yang menakjubkan.
-type: docs
 weight: 11
 url: /id/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Filter Gaussian dan Wiener untuk Gambar Berwarna dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang penerapan filter Gaussian dan Wiener untuk gambar berwarna menggunakan Aspose.PSD untuk Java. Dalam panduan ini, kita akan menjelajahi langkah demi langkah bagaimana menyempurnakan gambar berwarna Anda dengan filter canggih ini, yang memberi Anda keterampilan untuk mengoptimalkan konten visual Anda.
@@ -96,3 +102,9 @@ A4: Ya, Anda dapat merangkai beberapa filter untuk mencapai efek pemrosesan gamb
 ### Q5: Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.PSD?
 
  A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

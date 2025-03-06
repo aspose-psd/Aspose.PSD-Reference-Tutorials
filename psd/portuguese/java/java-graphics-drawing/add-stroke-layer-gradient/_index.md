@@ -3,10 +3,16 @@ title: Como adicionar gradiente de camada de traço em Java
 linktitle: Como adicionar gradiente de camada de traço em Java
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar e personalizar gradientes de camada de traçado em arquivos PSD usando Aspose.PSD para Java com este tutorial passo a passo abrangente.
-type: docs
 weight: 10
 url: /pt/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Como adicionar gradiente de camada de traço em Java
+
 ## Introdução
 Já se perguntou como adicionar um gradiente de camada de traço às suas imagens usando Java? Bem, você está no lugar certo! Hoje estamos mergulhando no mundo do Aspose.PSD para Java, uma biblioteca poderosa que ajuda você a manipular arquivos PSD com facilidade. Quer você seja um desenvolvedor iniciante ou experiente, este guia passo a passo irá orientá-lo no processo de adição de um gradiente de camada de traço aos seus arquivos PSD. Então, aperte o cinto e prepare-se para aprimorar suas habilidades de edição gráfica!
 ## Pré-requisitos
@@ -156,3 +162,9 @@ Absolutamente! Aspose.PSD para Java fornece APIs abrangentes para criar e manipu
 Sim, você pode aplicar vários efeitos como sombra, brilho e muito mais usando Aspose.PSD para Java.
 ### Onde posso encontrar a documentação do Aspose.PSD para Java?
  Você pode encontrar a documentação[aqui](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

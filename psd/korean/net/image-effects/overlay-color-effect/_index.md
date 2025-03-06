@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD의 이미지에 색상 효과 오버레이
 linktitle: 이미지에 색상 효과 오버레이
 second_title: Aspose.PSD .NET API
 description: 색상 효과 오버레이에 대한 튜토리얼을 통해 .NET용 Aspose.PSD의 마법을 탐험해보세요. 귀하의 이미지 처리 게임을 손쉽게 향상시켜 보세요.
-type: docs
 weight: 11
 url: /ko/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD의 이미지에 색상 효과 오버레이
+
 ## 소개
 
 .NET용 Aspose.PSD는 이미지 처리를 위한 강력한 기능 세트를 제공하므로 개발자는 쉽게 놀라운 효과를 얻을 수 있습니다. 그러한 기능 중 하나는 이미지에 색상 효과를 오버레이하는 것입니다. 이 튜토리얼에서는 ColorOverlay 효과에 중점을 두고 이를 이미지에 적용하여 시각적 매력을 변화시키는 방법을 보여줍니다.
@@ -98,3 +104,9 @@ A3: 예, 무료 평가판을 다운로드하여 .NET용 Aspose.PSD의 기능을 
 ### Q5: .NET용 Aspose.PSD의 임시 라이선스를 얻을 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

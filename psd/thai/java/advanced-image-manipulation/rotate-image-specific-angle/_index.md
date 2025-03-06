@@ -3,10 +3,16 @@ title: หมุนรูปภาพในมุมเฉพาะด้วย 
 linktitle: หมุนภาพในมุมเฉพาะ
 second_title: Aspose.PSD Java API
 description: สำรวจการหมุนภาพใน Java ด้วย Aspose.PSD สำหรับ Java หมุนภาพได้อย่างง่ายดายในมุมที่กำหนด
-type: docs
 weight: 20
 url: /th/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# หมุนรูปภาพในมุมเฉพาะด้วย Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 ในโลกแบบไดนามิกของการพัฒนา Java การจัดการรูปภาพเป็นข้อกำหนดทั่วไปสำหรับแอปพลิเคชันต่างๆ Aspose.PSD สำหรับ Java กลายเป็นโซลูชันที่แข็งแกร่ง โดยมอบฟีเจอร์อันทรงพลังในการจัดการการหมุนภาพได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการหมุนรูปภาพในมุมที่กำหนดโดยใช้ Aspose.PSD สำหรับ Java ก่อนที่จะเจาะลึกรายละเอียด เรามาเริ่มขั้นตอนด้วยข้อกำหนดเบื้องต้นกันก่อน
@@ -117,3 +123,9 @@ Aspose.PSD สำหรับ Java มุ่งเน้นไปที่กา
 ### คำถามที่ 5: มีฟอรัมชุมชนสำหรับ Aspose.PSD ที่ฉันสามารถขอความช่วยเหลือได้หรือไม่
 
  ใช่คุณสามารถเยี่ยมชม[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34) เพื่อมีส่วนร่วมกับชุมชน ถามคำถาม และขอความช่วยเหลือ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

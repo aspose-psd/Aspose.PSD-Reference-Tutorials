@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 글꼴 캐시 강제 적용
 linktitle: 강제 글꼴 캐시
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 글꼴 캐시를 강제하는 방법을 알아보세요. 이 단계별 가이드를 통해 이미지 처리를 최적화하고 성능을 향상하세요.
-type: docs
 weight: 11
 url: /ko/java/advanced-image-manipulation/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 글꼴 캐시 강제 적용
+
 ## 소개
 
 Java용 Aspose.PSD를 사용하여 글꼴 캐싱을 최적화하려고 하시나요? 글꼴 캐싱은 특히 복잡한 이미지 처리 작업을 처리할 때 Java 애플리케이션의 성능을 향상시키는 데 중요한 역할을 합니다. 이 종합 가이드에서는 Java용 Aspose.PSD를 사용하여 글꼴 캐시를 강제하는 프로세스를 안내합니다. 숙련된 개발자이든 이제 막 Java 이미지 처리를 시작하는 개발자이든 이 튜토리얼은 글꼴 캐싱을 프로젝트에 원활하게 통합하는 데 도움이 되도록 설계되었습니다.
@@ -89,3 +95,9 @@ A1: Aspose.PSD for Java는 다양한 Java 버전에서 작동하도록 설계되
 ### Q5: 임시 라이센스는 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스가 필요한 경우[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

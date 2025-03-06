@@ -3,10 +3,16 @@ title: احفظ الصور على القرص باستخدام Aspose.PSD لـ Ja
 linktitle: حفظ الصور على القرص
 second_title: Aspose.PSD جافا API
 description: احفظ الصور على القرص بسهولة باستخدام Aspose.PSD لـ Java. مكتبة Java قوية لمعالجة ملفات PSD.
-type: docs
 weight: 15
 url: /ar/java/advanced-techniques/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ الصور على القرص باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 يعمل Aspose.PSD for Java على تمكين المطورين من التعامل مع ملفات PSD دون عناء. يعد حفظ الصور على القرص أحد الجوانب الأساسية لمعالجة الصور، ويقوم Aspose.PSD بتبسيط هذه العملية. في هذا الدليل، سنتعمق في عملية حفظ الصور باستخدام Aspose.PSD، مما يضمن أن لديك فهمًا قويًا للخطوات الضرورية.
@@ -91,3 +97,9 @@ psdImage.save(destName, new PngOptions());
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.PSD لـ Java؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

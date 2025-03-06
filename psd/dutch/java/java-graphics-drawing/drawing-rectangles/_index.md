@@ -3,10 +3,16 @@ title: Rechthoeken tekenen in Java
 linktitle: Rechthoeken tekenen in Java
 second_title: Aspose.PSD Java-API
 description: Leer rechthoeken op afbeeldingen tekenen met Aspose.PSD voor Java. Deze tutorial begeleidt Java-ontwikkelaars stap voor stap. Perfect voor beeldmanipulatietaken.
-type: docs
 weight: 17
 url: /nl/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rechthoeken tekenen in Java
+
 ## Invoering
 In de wereld van Java-ontwikkeling is het programmatisch manipuleren en genereren van afbeeldingen een veel voorkomende vereiste voor verschillende toepassingen. Een van die taken die vaak voorkomen, is het tekenen van vormen zoals rechthoeken op afbeeldingen. Aspose.PSD voor Java biedt een robuuste set tools en functionaliteiten om dit efficiënt te bereiken. Deze tutorial begeleidt u stap voor stap bij het tekenen van rechthoeken op een afbeelding met Aspose.PSD voor Java.
 ## Vereisten
@@ -84,3 +90,9 @@ Ja, Aspose.PSD voor Java is ontworpen voor krachtige beeldverwerking met uitgebr
  U kunt meer voorbeelden en gedetailleerde documentatie bekijken op de website[Aspose.PSD voor Java-documentatie](https://reference.aspose.com/psd/java/).
 ### Ondersteunt Aspose.PSD voor Java naast BMP ook andere afbeeldingsformaten?
 Ja, Aspose.PSD voor Java ondersteunt een breed scala aan afbeeldingsindelingen, waaronder PNG, JPEG, TIFF en GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

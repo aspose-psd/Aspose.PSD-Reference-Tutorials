@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で画像を回転する
 linktitle: 画像を回転する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用すると、Java で画像の回転を簡単に実行できます。PSD ファイルを簡単に回転、反転、保存できます。
-type: docs
 weight: 19
 url: /ja/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で画像を回転する
+
 ## 導入
 
 Aspose.PSD for Java は、画像を操作する強力な機能セットを提供し、開発者が PSD ファイルを効率的に操作および処理できるようにします。このチュートリアルでは、画像の回転という特定のタスクに焦点を当てます。写真編集アプリケーションを構築する場合でも、単に画像の方向を調整する必要がある場合でも、Aspose.PSD を使用するとプロセスが簡単になります。
@@ -84,3 +90,9 @@ A2: もちろんです! Aspose.PSD は、特定の要件を満たすためにカ
 ### Q5: 一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 臨時免許証が必要な場合は取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET ile Renkli Görüntülere Medyan ve Wiener Filtreleri
 linktitle: Aspose.PSD for .NET ile Renkli Görüntülere Medyan ve Wiener Filtreleri Uygulama
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile Medyan ve Wiener Filtrelerini kullanarak renkli görüntüleri geliştirin ve gürültüsünü giderin. Sorunsuz görüntü işleme için adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET ile Renkli Görüntülere Medyan ve Wiener Filtreleri Uygulama
+
 ## giriiş
 
 Aspose.PSD for .NET kullanarak renkli görüntülerde Medyan ve Wiener Filtrelerini uygulamaya yönelik bu adım adım kılavuza hoş geldiniz. Aspose.PSD, .NET geliştiricilerinin PSD dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, renkli görüntüleri geliştirmek ve gürültüyü gidermek için Medyan ve Wiener Filtrelerini uygulama sürecini inceleyeceğiz.
@@ -95,3 +101,9 @@ Cevap2: Aspose.PSD'yi kullanarak görüntü işleme sırasında oluşabilecek is
 ### S5: Aspose.PSD için geçici lisansı nasıl edinebilirim?
 
  Cevap5: Geçici lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

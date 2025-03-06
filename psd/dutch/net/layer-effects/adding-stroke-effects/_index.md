@@ -3,10 +3,16 @@ title: Lijneffecten toevoegen aan lagen in Aspose.PSD voor .NET
 linktitle: Lijneffecten aan lagen toevoegen
 second_title: Aspose.PSD .NET-API
 description: Verbeter de beeldesthetiek met Aspose.PSD voor .NET. Leer stap voor stap hoe u streekeffecten kunt toevoegen. Download, koop of probeer nu de gratis proefversie.
-type: docs
 weight: 10
 url: /nl/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijneffecten toevoegen aan lagen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom bij deze stapsgewijze zelfstudie over het toevoegen van streekeffecten aan lagen in Aspose.PSD voor .NET. Het verbeteren van de visuele aantrekkingskracht van uw afbeeldingen is een fluitje van een cent met het lijneffect, en Aspose.PSD maakt het naadloos voor .NET-ontwikkelaars. In deze handleiding leiden we u door het proces en geven we duidelijke stappen en voorbeelden om u te helpen deze krachtige functie onder de knie te krijgen.
@@ -109,3 +115,9 @@ A4: Ja, u kunt meerdere PSD-bestanden doorlopen en het lijneffect op een vergeli
 ### V5: Kan ik de proefversie gebruiken voordat ik Aspose.PSD aanschaf?
 
  A5: Zeker! Grijp de[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van Aspose.PSD te verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Arbeiten mit der Zeitleiste in Aspose.PSD für .NET
 linktitle: Arbeiten mit der Zeitleiste
 second_title: Aspose.PSD .NET API
 description: Verbessern Sie die PSD-Bildbearbeitung mit der Aspose.PSD für die .NET Timeline-Klasse. Steuern Sie Rahmeneigenschaften und Ebenenzustände und entfesseln Sie mühelos kreative Möglichkeiten.
-type: docs
 weight: 16
 url: /de/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeiten mit der Zeitleiste in Aspose.PSD für .NET
+
 ## Einführung
 In der dynamischen Welt des Grafikdesigns und der Bildbearbeitung ist die Fähigkeit, die Zeitleiste von Bildern zu steuern und zu bearbeiten, von entscheidender Bedeutung. Aspose.PSD für .NET bietet mit seiner Timeline-Klasse eine leistungsstarke Lösung. Mit dieser hochrangigen Funktion können Benutzer Änderungen an der Zeitleiste von PsdImage vornehmen, z. B. die Frame-Verzögerung ändern, Ebenenzustände in bestimmten Frames bearbeiten und vieles mehr.
 ## Voraussetzungen
@@ -108,3 +114,9 @@ A2: Die Timeline-Klasse ist speziell für PSD-Bilder konzipiert. Informationen z
 ### F5: Was sind die wichtigsten Vorteile der Verwendung von Aspose.PSD für .NET?
 
 A5: Aspose.PSD für .NET bietet erweiterte Bildverarbeitungsfunktionen, PSD-Dateibearbeitung und Hochleistungs-Rendering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

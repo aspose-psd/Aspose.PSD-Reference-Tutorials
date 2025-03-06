@@ -3,10 +3,16 @@ title: Gérer le calque de réglage du filtre photo dans PSD - Java
 linktitle: Gérer le calque de réglage du filtre photo dans PSD - Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment gérer les calques de réglage des filtres photo dans les fichiers PSD avec Aspose.PSD pour Java. Suivez ce guide pour modifier et ajouter des filtres sans effort.
-type: docs
 weight: 24
 url: /fr/java/psd-image-modification-conversion/manage-photo-filter-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer le calque de réglage du filtre photo dans PSD - Java
+
 ## Introduction
 Êtes-vous un développeur cherchant à améliorer vos capacités d’édition graphique à l’aide de Java ? Eh bien, vous êtes au bon endroit ! Aujourd'hui, nous examinons comment gérer les calques de réglage des filtres photo à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque vous permet de manipuler les fichiers PSD de manière transparente, permettant un flux de travail efficace en matière de conception graphique. Que vous souhaitiez ajouter des effets ou modifier des calques existants, nous vous proposons un guide étape par étape qui simplifie le processus.
 ## Conditions préalables
@@ -107,3 +113,9 @@ Aspose.PSD est une bibliothèque .NET et Java pour créer, modifier et convertir
  Vous pouvez acheter le logiciel auprès de[ce lien](https://purchase.aspose.com/buy).
 ### Existe-t-il une assistance disponible pour Aspose.PSD ?
  Absolument! Vous pouvez obtenir de l'aide via le forum d'assistance Aspose[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

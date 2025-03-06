@@ -3,10 +3,16 @@ title: Chuyển đổi PSD
 linktitle: Chuyển đổi PSD
 second_title: API Java Aspose.PSD
 description: Tăng cường xử lý hình ảnh Java của bạn với Aspose.PSD! Tìm hiểu cách chuyển đổi CMYK PSD sang CMYK TIFF, chuyển đổi màu chính, cắt tệp PSD, v.v.
-type: docs
 weight: 21
 url: /vi/java/psd-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi PSD
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng khai thác toàn bộ tiềm năng của Aspose.PSD cho Java chưa? Đi sâu vào Hướng dẫn chuyển đổi PSD toàn diện của chúng tôi và khám phá sự tích hợp liền mạch của các tính năng tiên tiến. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu xử lý hình ảnh bằng Java, những hướng dẫn từng bước này sẽ giúp bạn nâng cao khả năng xử lý tài liệu và hình ảnh của mình lên một tầm cao mới.
@@ -43,3 +49,9 @@ Tìm hiểu cách cắt các tệp PSD và chuyển đổi chúng thành PNG b�
 Khám phá sức mạnh của Aspose.PSD cho Java trong việc xuất hình ảnh trong môi trường đa luồng. Nâng cao khả năng của ứng dụng Java của bạn!
 ### [Chuyển đổi các lớp ảnh GIF thành TIFF bằng Aspose.PSD cho Java](./gif-image-layers-to-tiff/)
 Dễ dàng chuyển đổi các lớp hình ảnh GIF sang định dạng TIFF trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

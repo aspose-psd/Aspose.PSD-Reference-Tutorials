@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET を使用した PSD ファイルでのテキスト �
 linktitle: テキストレイヤーで異なる色でテキストをレンダリングする
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD を使用して PSD ファイルで多様な色を使用したテキスト レンダリングを習得し、.NET アプリケーションを強化します。デザイン機能を簡単に向上できます。
-type: docs
 weight: 10
 url: /ja/net/text-and-font-manipulation/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET を使用した PSD ファイルでのテキスト レンダリングの習得
+
 ## 導入
 Aspose.PSD for .NET を使用してテキスト レイヤーでさまざまな色のテキストをレンダリングする手順を説明したチュートリアルへようこそ。Aspose.PSD は、開発者が PSD ファイルをシームレスに操作および処理できるようにする強力な API です。このチュートリアルでは、テキスト レイヤーでさまざまな色のテキストをレンダリングするという特定のタスクに焦点を当てます。
 ## 前提条件
@@ -76,3 +82,9 @@ A1: はい、Aspose.PSD for .NET は、あらゆる .NET アプリケーショ�
 ### Q5: Aspose.PSD for .NET の一時ライセンスは利用できますか?
 
  A5: はい、臨時免許証が必要な場合は取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

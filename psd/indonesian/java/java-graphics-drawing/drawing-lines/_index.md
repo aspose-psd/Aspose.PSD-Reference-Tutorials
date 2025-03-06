@@ -3,10 +3,16 @@ title: Menggambar Garis di Jawa
 linktitle: Menggambar Garis di Jawa
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggambar garis di file PSD menggunakan Aspose.PSD untuk Java dengan tutorial komprehensif ini. Tingkatkan keterampilan pengembangan Java Anda.
-type: docs
 weight: 16
 url: /id/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Garis di Jawa
+
 ## Perkenalan
 Dalam bidang pengembangan Java, memanipulasi dan membuat file PSD (Photoshop Document) secara terprogram merupakan kemampuan yang hebat. Aspose.PSD untuk Java memberdayakan pengembang untuk melakukan berbagai tugas seperti menggambar garis, bentuk, dan gambar langsung dalam file PSD. Tutorial ini akan memandu Anda melalui proses menggambar garis menggunakan Aspose.PSD untuk Java, memberikan langkah-langkah dan contoh yang jelas untuk membantu Anda memulai dengan cepat.
 ## Prasyarat
@@ -74,3 +80,9 @@ Aspose.PSD untuk Java adalah perpustakaan Java yang kuat untuk bekerja dengan fi
  Untuk dukungan teknis, kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 ### Di mana saya bisa mendapatkan lisensi sementara Aspose.PSD untuk Java?
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

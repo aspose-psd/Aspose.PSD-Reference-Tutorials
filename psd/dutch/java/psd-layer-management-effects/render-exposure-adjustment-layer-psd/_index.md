@@ -3,10 +3,16 @@ title: Render belichtingsaanpassingslaag in PSD-bestanden - Java
 linktitle: Render belichtingsaanpassingslaag in PSD-bestanden - Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u belichtingslagen in PSD-bestanden kunt renderen en aanpassen met Aspose.PSD voor Java. Stapsgewijze handleiding met codevoorbeelden voor het wijzigen en toevoegen van belichtingslagen.
-type: docs
 weight: 15
 url: /nl/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render belichtingsaanpassingslaag in PSD-bestanden - Java
+
 ## Invoering
 
 Werkt u met Photoshop PSD-bestanden en moet u de belichting aanpassen of programmatisch een belichtingsaanpassingslaag toevoegen? Of u nu bestaande lagen aanpast of nieuwe toevoegt, Aspose.PSD voor Java biedt een krachtige en intuïtieve manier om deze taken uit te voeren. In deze handleiding laten we zien hoe u Aspose.PSD voor Java kunt gebruiken om belichtingsaanpassingslagen in PSD-bestanden weer te geven en te wijzigen. Aan het einde van deze zelfstudie weet u hoe u de belichtingsinstellingen in bestaande lagen kunt aanpassen en nieuwe belichtingsaanpassingslagen aan uw PSD-bestanden kunt toevoegen. Laten we erin duiken!
@@ -138,3 +144,9 @@ Ja, Aspose.PSD voor Java ondersteunt verschillende soorten lagen, waaronder teks
 ### Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor Java?
 
  Voor ondersteuning kunt u terecht op de[Aspose-ondersteuningsforum](https://forum.aspose.com/c/psd/34) waar u vragen kunt stellen en hulp kunt krijgen van de gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

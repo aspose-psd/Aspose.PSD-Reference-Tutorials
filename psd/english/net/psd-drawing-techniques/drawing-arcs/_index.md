@@ -3,10 +3,16 @@ title: Drawing Arcs with Aspose.PSD for .NET
 linktitle: Drawing Arcs with Aspose.PSD for .NET
 second_title: Aspose.PSD .NET API
 description: Explore the power of Aspose.PSD for .NET in drawing arcs effortlessly. Follow our step-by-step tutorial for stunning graphics in your applications.
-type: docs
 weight: 11
 url: /net/psd-drawing-techniques/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Arcs with Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to our comprehensive tutorial on drawing arcs using Aspose.PSD for .NET! Aspose.PSD is a powerful library that allows developers to work with Adobe Photoshop files (.psd) in their .NET applications. In this tutorial, we will focus on creating visually appealing arcs using the Aspose.PSD library.
@@ -111,3 +117,10 @@ A4: You can buy a license [here](https://purchase.aspose.com/buy).
 
 A5: Yes, you can download a free trial [here](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

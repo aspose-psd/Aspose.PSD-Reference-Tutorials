@@ -3,10 +3,16 @@ title: Práce se soubory PSD
 linktitle: Práce se soubory PSD
 second_title: Aspose.PSD Java API
 description: Prozkoumejte komplexní výukové programy Aspose.PSD for Java, včetně toho, jak exportovat skupiny vrstev PSD do obrázků a manipulovat se zdroji Clbl, Infx a Lspf.
-type: docs
 weight: 26
 url: /cs/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce se soubory PSD
+
 
 ## Zavedení
 
@@ -37,3 +43,9 @@ Naučte se, jak podporovat a manipulovat s Clbl Resource v souborech PSD pomocí
 Naučte se, jak manipulovat s Infx Resource v souborech PSD pomocí Aspose.PSD for Java, pomocí tohoto komplexního, podrobného tutoriálu. Ideální pro vývojáře všech úrovní.
 ### [Podpora Lspf Resource v souborech PSD pomocí Java](./support-lspf-resource-psd-files/)
 Naučte se, jak podporovat a manipulovat s Lspf Resource v souborech PSD pomocí Aspose.PSD for Java, pomocí našeho podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Comment ajouter un dégradé de calque de trait en Java
 linktitle: Comment ajouter un dégradé de calque de trait en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter et personnaliser des dégradés de calques de traits dans des fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce didacticiel complet étape par étape.
-type: docs
 weight: 10
 url: /fr/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comment ajouter un dégradé de calque de trait en Java
+
 ## Introduction
 Vous êtes-vous déjà demandé comment ajouter un dégradé de calque de trait à vos images à l'aide de Java ? Eh bien, vous êtes au bon endroit ! Aujourd'hui, nous plongeons dans le monde d'Aspose.PSD pour Java, une bibliothèque puissante qui vous aide à manipuler facilement les fichiers PSD. Que vous soyez un débutant ou un développeur chevronné, ce guide étape par étape vous guidera tout au long du processus d'ajout d'un dégradé de calque de trait à vos fichiers PSD. Alors, attachez votre ceinture et préparez-vous à améliorer vos compétences en édition graphique !
 ## Conditions préalables
@@ -156,3 +162,9 @@ Absolument! Aspose.PSD pour Java fournit des API complètes pour créer et manip
 Oui, vous pouvez appliquer divers effets comme l'ombre, la lueur, etc. à l'aide d'Aspose.PSD pour Java.
 ### Où puis-je trouver la documentation d’Aspose.PSD pour Java ?
  Vous pouvez trouver la documentation[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

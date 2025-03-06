@@ -3,10 +3,16 @@ title: Adicionar suporte de camada vinculada em arquivos PSD usando Java
 linktitle: Adicionar suporte de camada vinculada em arquivos PSD usando Java
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar suporte de camada vinculada em arquivos PSD usando Aspose.PSD para Java com este tutorial passo a passo detalhado. Perfeito para designers e desenvolvedores.
-type: docs
 weight: 19
 url: /pt/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar suporte de camada vinculada em arquivos PSD usando Java
+
 ## Introdução
 Os arquivos .PSD do Adobe Photoshop são os favoritos entre designers gráficos e artistas digitais devido aos seus versáteis recursos de gerenciamento de camadas. À medida que você mergulha no mundo da manipulação de arquivos PSD programaticamente, você pode querer explorar como as camadas vinculadas podem aprimorar seu fluxo de trabalho. As camadas vinculadas permitem que os usuários mantenham funcionalidades de camadas independentes, ao mesmo tempo que as mantêm gerenciadas como uma unidade coesa. Digite Aspose.PSD para Java, uma biblioteca poderosa que facilita muito o trabalho com arquivos do Photoshop. 
 Neste artigo, daremos uma olhada detalhada em como adicionar suporte a camadas vinculadas em arquivos PSD usando a biblioteca Aspose.PSD em Java. Quer você seja um desenvolvedor experiente ou novato, este guia passo a passo o ajudará a navegar pela tarefa sem problemas.
@@ -99,3 +105,9 @@ Sim, como uma biblioteca baseada em Java, ela roda em qualquer plataforma que su
  Você pode explorar a extensa documentação[aqui](https://reference.aspose.com/psd/java/).
 ### Como posso obter suporte se tiver problemas?
  Se você encontrar algum problema, você pode encontrar ajuda no[fórum de suporte](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

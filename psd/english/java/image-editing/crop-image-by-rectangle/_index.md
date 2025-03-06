@@ -3,10 +3,16 @@ title: Crop Image by Rectangle in Aspose.PSD for Java
 linktitle: Crop Image by Rectangle
 second_title: Aspose.PSD Java API
 description: Explore the seamless image cropping capabilities in Java with Aspose.PSD. Follow our step-by-step guide to crop images effortlessly using Aspose.PSD for Java.
-type: docs
 weight: 15
 url: /java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crop Image by Rectangle in Aspose.PSD for Java
+
 ## Introduction
 
 In the world of Java development, manipulating images is a common task, and Aspose.PSD for Java provides a powerful solution for image processing. In this tutorial, we will guide you through the process of cropping an image by a rectangle using Aspose.PSD for Java. Follow the steps below to achieve this with ease.
@@ -105,3 +111,10 @@ A4: You can acquire a temporary license [here](https://purchase.aspose.com/tempo
 ### Q5: What are the supported image formats for cropping in Aspose.PSD for Java?
 
 A5: Aspose.PSD for Java supports various image formats, including PSD, PNG, JPEG, and more.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

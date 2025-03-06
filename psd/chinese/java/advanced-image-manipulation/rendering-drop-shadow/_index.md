@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中应用渲染阴影
 linktitle: 应用渲染阴影
 second_title: Aspose.PSD Java API
 description: 探索在 Aspose.PSD for Java 中应用渲染阴影的分步指南，轻松增强您的图像处理技能。
-type: docs
 weight: 16
 url: /zh/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中应用渲染阴影
+
 ## 介绍
 
 如果您正在使用 Java 进行图像处理，Aspose.PSD 是您无缝高效地处理 PSD 文件的首选工具。在本教程中，我们将探索使用 Aspose.PSD for Java 应用渲染阴影的过程。系好安全带，我们将为您分解步骤。
@@ -125,3 +131,9 @@ A3：Aspose.PSD 与多种 PSD 文件版本兼容，确保多功能性。
 ### Q5: 我可以在购买之前测试 Aspose.PSD 吗？
 
  A5：当然，使用[免费试用](https://releases.aspose.com/)在决定购买之前探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

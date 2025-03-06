@@ -3,10 +3,16 @@ title: Tải hình ảnh từ luồng bằng Aspose.PSD cho Java
 linktitle: Đang tải hình ảnh từ luồng
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách tải hình ảnh PSD một cách liền mạch trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý hình ảnh hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải hình ảnh từ luồng bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Aspose.PSD cho Java là một thư viện giàu tính năng cho phép các nhà phát triển làm việc liền mạch với các tệp PSD, thực hiện nhiều tác vụ xử lý hình ảnh khác nhau. Trong hướng dẫn này, chúng tôi sẽ tập trung vào các bước cần thiết để tải hình ảnh từ luồng bằng Aspose.PSD cho Java.
@@ -105,3 +111,9 @@ A1: Chắc chắn rồi! Aspose.PSD dành cho Java vượt trội trong các tá
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho Java ở đâu?
 
  A5: Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để có được Aspose.PSD cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

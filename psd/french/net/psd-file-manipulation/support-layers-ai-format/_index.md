@@ -3,10 +3,16 @@ title: Prise en charge des couches au format AI avec Aspose.PSD pour .NET
 linktitle: Prise en charge des couches au format AI avec Aspose.PSD pour .NET
 second_title: API Aspose.PSD.NET
 description: Apprenez à gérer les couches de format AI sans effort avec Aspose.PSD pour .NET. Suivez notre guide étape par étape pour une intégration et une manipulation transparentes.
-type: docs
 weight: 10
 url: /fr/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge des couches au format AI avec Aspose.PSD pour .NET
+
 Bienvenue dans notre guide étape par étape sur l'utilisation d'Aspose.PSD pour .NET pour gérer les couches de prise en charge dans les fichiers au format AI. Aspose.PSD simplifie les tâches complexes, permettant aux développeurs de travailler plus facilement avec des fichiers AI dans leurs applications .NET. Dans ce didacticiel, nous aborderons les conditions préalables, l'importation d'espaces de noms et diviserons chaque exemple en plusieurs étapes pour garantir une expérience d'apprentissage transparente.
 ## Introduction
 ### Qu’est-ce qu’Aspose.PSD ?
@@ -85,3 +91,9 @@ A2 : Oui, Aspose.PSD fournit des fonctionnalités permettant de travailler avec 
 ### Q5 : Quels formats d'image sont pris en charge pour l'enregistrement par Aspose.PSD ?
 
 A5 : Aspose.PSD prend en charge divers formats, notamment PSD, PNG, JPEG, etc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

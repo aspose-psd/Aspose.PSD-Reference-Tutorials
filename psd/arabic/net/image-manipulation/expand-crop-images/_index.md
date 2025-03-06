@@ -3,10 +3,16 @@ title: توسيع الصور واقتصاصها في Aspose.PSD لـ .NET
 linktitle: توسيع واقتصاص الصور
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية توسيع الصور واقتصاصها ديناميكيًا باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة لمعالجة الصور بسلاسة.
-type: docs
 weight: 13
 url: /ar/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# توسيع الصور واقتصاصها في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 Aspose.PSD for .NET عبارة عن مكتبة تصوير شاملة تتيح للمطورين العمل مع تنسيقات صور متنوعة في تطبيقات .NET الخاصة بهم. إحدى ميزاته البارزة هي القدرة على معالجة الصور بسهولة. في هذا البرنامج التعليمي، سنركز على توسيع الصور واقتصاصها، مما يوفر لك دليلًا عمليًا لتحقيق هذه المهام باستخدام Aspose.PSD.
@@ -98,3 +104,9 @@ rasterImage.Save(destName, new JpegOptions(), destRect);
 ### س5: أين يمكنني شراء Aspose.PSD لـ .NET؟
 
  ج5: يمكنك شراء المكتبة من[صفحة شراء Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

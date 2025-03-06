@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Warna Latar Belakang di Aspose.PSD untuk .NET
 linktitle: Mendukung Sumber Daya Warna Latar Belakang
 second_title: Asumsikan.PSD .NET API
 description: Kuasai Aspose.PSD untuk .NET dengan panduan langkah demi langkah kami. Memanipulasi gambar PSD dengan mudah. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 10
 url: /id/net/psd-file-resources/supporting-background-color-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Warna Latar Belakang di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Buka potensi penuh Aspose.PSD untuk .NET saat kita mempelajari tutorial komprehensif. Panduan ini akan membekali Anda dengan pengetahuan untuk memanfaatkan kemampuan Aspose.PSD secara efektif. Baik Anda seorang pengembang berpengalaman atau pemula, ikuti terus saat kami membagi setiap aspek menjadi langkah-langkah yang dapat dikelola, sehingga membuat perjalanan Anda dengan Aspose.PSD lancar.
 ## Prasyarat
@@ -89,3 +95,9 @@ A2: Ya, Anda dapat menggunakan Aspose.PSD di proyek komersial dan non-komersial.
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
  A5: Ikuti langkah-langkah di[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

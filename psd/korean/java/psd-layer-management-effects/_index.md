@@ -3,10 +3,16 @@ title: PSD 레이어 관리 및 효과
 linktitle: PSD 레이어 관리 및 효과
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD for Java를 사용하여 PSD 레이어 관리 및 효과에 대한 포괄적인 튜토리얼을 살펴보세요. PSD 레이어를 손쉽게 병합, 병합 및 사용자 정의하는 방법을 알아보세요.
-type: docs
 weight: 23
 url: /ko/java/psd-layer-management-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 레이어 관리 및 효과
+
 ## 소개
 
 PSD 파일을 작업하는 개발자이신가요? 레이어 관리 및 효과 적용은 까다로울 수 있지만 Java용 Aspose.PSD를 사용하면 이러한 작업을 쉽게 간소화할 수 있습니다. Java에서 이미지 조작 기술을 향상시키는 데 도움이 되는 몇 가지 실용적인 튜토리얼을 살펴보겠습니다.
@@ -70,3 +76,9 @@ Java용 Aspose.PSD를 사용하여 PSD 텍스트 스타일을 마스터하세요
 Java용 Aspose.PSD를 사용하여 PSD 파일의 마스터 테두리 조작. 따라하기 쉬운 단계를 통해 테두리 너비, 단위 등을 수정하는 방법을 알아보세요. 프로그래밍 방식으로 PSD 디자인을 향상하세요.
 ### [PSD 파일의 인터럽트 모니터 지원 - Java](./support-interrupt-monitor-psd-files/)
 Aspose.PSD의 인터럽트 모니터를 사용하여 Java에서 장기 실행 PSD 변환을 중단합니다. 우아한 중단을 구현하고 사용자 경험을 개선하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

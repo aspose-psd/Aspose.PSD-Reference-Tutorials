@@ -3,10 +3,16 @@ title: Αλλαγή μεγέθους εικόνας ανάλογα με το Asp
 linktitle: Αλλαγή μεγέθους εικόνας ανάλογα
 second_title: Aspose.PSD Java API
 description: Βελτιώστε τις εφαρμογές σας Java με το Aspose.PSD. Ακολουθήστε τον οδηγό μας για να αλλάξετε το μέγεθος των εικόνων αναλογικά χωρίς κόπο. Ενισχύστε τις δυνατότητες χειρισμού της εικόνας σας σήμερα.
-type: docs
 weight: 17
 url: /el/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή μεγέθους εικόνας ανάλογα με το Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την αναλογική αλλαγή μεγέθους εικόνων χρησιμοποιώντας το Aspose.PSD για Java. Αν θέλετε να βελτιώσετε τις εφαρμογές σας Java με αποτελεσματικές δυνατότητες αλλαγής μεγέθους εικόνας, έχετε έρθει στο σωστό μέρος. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χρησιμοποιώντας σαφή και συνοπτικά βήματα.
@@ -92,3 +98,9 @@ image.save(destName, new PngOptions());
 
  A5: Ανατρέξτε στη λεπτομερή τεκμηρίωση[εδώ](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

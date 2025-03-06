@@ -3,10 +3,16 @@ title: 更改渐变叠加效果中的混合模式
 linktitle: 更改渐变叠加效果中的混合模式
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 更改渐变叠加效果中的混合模式。创建精美图形的分步指南。
-type: docs
 weight: 19
 url: /zh/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 更改渐变叠加效果中的混合模式
+
 ## 介绍
 您是否希望通过一些高级技术来提升您的图形设计水平？也许您想以编程方式操作 Photoshop 文件中的图层？如果是这样，那么您来对地方了！在本教程中，我们将引导您完成使用 Aspose.PSD for Java 更改渐变叠加效果的混合模式的步骤。无论您是经验丰富的开发人员还是崭露头角的设计师，您都会发现这些技术对您的项目来说既易于使用又功能强大。 
 ## 先决条件
@@ -77,3 +83,9 @@ Aspose.PSD for Java 是一个允许开发人员以编程方式操作 Photoshop P
 是的！您可以访问 Aspose 支持论坛[这里](https://forum.aspose.com/c/psd/34)寻求社区和技术人员的帮助。
 ### 我可以购买 Aspose.PSD 的临时许可证吗？
 当然可以！你可以申请临时驾照[这里](https://purchase.aspose.com/temporary-license/)不受限制地测试全部功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

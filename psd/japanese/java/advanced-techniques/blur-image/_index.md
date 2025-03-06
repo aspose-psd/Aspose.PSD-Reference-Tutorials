@@ -3,10 +3,16 @@ title: Aspose.PSD for Java を使用して画像をぼかす
 linktitle: 画像をぼかす
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して Java で画像をぼかす方法を学びます。プロフェッショナルな結果を得るには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 24
 url: /ja/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java を使用して画像をぼかす
+
 ## 導入
 
 Java 開発の世界では、画像の強調と操作は一般的な要件です。プログラムで画像にぼかし効果を追加したい場合は、Aspose.PSD for Java がそのプロセスを簡素化する強力なツールです。このチュートリアルでは、Aspose.PSD を使用して画像をぼかす手順を説明し、簡単にプロフェッショナルな結果を実現できるようにします。
@@ -96,3 +102,9 @@ A1: もちろんです! Aspose.PSD には、あらゆるスキル レベルの�
 ### Q5: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

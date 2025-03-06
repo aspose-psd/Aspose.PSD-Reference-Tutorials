@@ -3,10 +3,16 @@ title: Memotong File PSD saat Mengonversi ke PNG di Aspose.PSD untuk .NET
 linktitle: Memotong File PSD saat Mengonversi ke PNG
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara memotong file PSD dengan mudah menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi ke PNG tanpa hambatan.
-type: docs
 weight: 18
 url: /id/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memotong File PSD saat Mengonversi ke PNG di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, memanipulasi dan mengonversi gambar adalah tugas yang umum. Aspose.PSD untuk .NET menyediakan seperangkat alat canggih untuk menyederhanakan proses ini. Salah satu persyaratan yang sering dilakukan adalah memotong file PSD sebelum mengonversinya ke PNG. Dalam tutorial langkah demi langkah ini, kita akan mempelajari proses menggunakan Aspose.PSD untuk .NET.
 ## Prasyarat
@@ -77,3 +83,9 @@ A2: Tentu saja! Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://re
 ### Q5: Apakah ada contoh atau tutorial yang tersedia di dokumentasi?
 
  A5: Ya, Anda dapat menemukan dokumentasi dan contoh yang komprehensif[Di Sini](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

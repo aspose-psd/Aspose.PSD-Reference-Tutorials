@@ -3,10 +3,16 @@ title: Aspose.PSD for Java kullanarak Düzleştirilmiş PSD Dosyalarını Algıl
 linktitle: Aspose.PSD for Java kullanarak Düzleştirilmiş PSD Dosyalarını Algılama
 second_title: Aspose.PSD Java API'si
 description: Bu kapsamlı eğitimde Aspose.PSD for Java kullanarak düzleştirilmiş PSD dosyalarını nasıl tespit edeceğinizi adım adım öğrenin.
-type: docs
 weight: 10
 url: /tr/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java kullanarak Düzleştirilmiş PSD Dosyalarını Algılama
+
 ## giriiş
 
 Aspose.PSD for Java ile PSD (Photoshop Belgesi) dosya işleme dünyasına hoş geldiniz! Photoshop dosyalarındaki katmanlarla çalışmanız gerektiyse ancak nereden başlayacağınızı bilmiyorsanız doğru yerdesiniz. Bu eğitimde, Aspose.PSD kullanılarak bir PSD dosyasının düzleştirilip düzleştirilmediğini nasıl tespit edeceğimizi inceleyeceğiz. PSD'yi düzleştirmek, tüm katmanlarının tek bir birleşik katmanda birleştirilmesi anlamına gelir; bu da daha sonra düzenlemeyi biraz zorlaştırabilir. Bu kılavuzun sonunda PSD dosyalarınızın bu önemli yönünü kontrol edebilecek donanıma sahip olacaksınız. Sıkı durun, kahvenizi alın ve dalalım!
@@ -77,3 +83,9 @@ Evet! Aspose.PSD, çeşitli görüntü formatlarını işleyebilir ve görüntü
 
 ### Aspose.PSD'yi ücretsiz test etmenin bir yolu var mı?
  Kesinlikle! Deneme sürümünü indirerek ücretsiz denemeyi başlatabilirsiniz.[bu bağlantı](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: เน้นสีชีตในไฟล์ PSD โดยใช้ Aspo
 linktitle: เน้นสีชีตในไฟล์ PSD โดยใช้ Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีเน้นสีชีตในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อพัฒนาทักษะการจัดการภาพของคุณใน Java
-type: docs
 weight: 19
 url: /th/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เน้นสีชีตในไฟล์ PSD โดยใช้ Aspose.PSD Java
+
 ## การแนะนำ
 
 คุณกำลังมองหาการเจาะลึกในการจัดการภาพและปรับปรุงการสร้างสรรค์ดิจิทัลของคุณโดยใช้ Java หรือไม่? ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นใช้งาน ไฟล์ PSD ก็สามารถเปิดโลกแห่งความเป็นไปได้ได้ ไฟล์ PSD เป็นมาตรฐานอุตสาหกรรมสำหรับการแก้ไขภาพแบบเลเยอร์ และด้วยประสิทธิภาพของ Aspose.PSD สำหรับ Java คุณสามารถจัดการไฟล์เหล่านี้ภายในแอปพลิเคชัน Java ของคุณได้อย่างง่ายดาย วันนี้ เราจะอธิบายวิธีการเน้นสีชีตในไฟล์ PSD เพื่อให้มั่นใจว่าการออกแบบของคุณโดดเด่นในรูปแบบที่มีชีวิตชีวามากที่สุดเท่าที่จะเป็นไปได้
@@ -142,3 +148,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารีที่ช
 
 ### ฉันสามารถเน้นหลายเลเยอร์พร้อมกันในไฟล์ PSD ได้หรือไม่
 ได้ คุณสามารถวนซ้ำเลเยอร์ต่างๆ ในไฟล์ PSD และใช้ไฮไลต์สีชีตที่ต้องการกับแต่ละเลเยอร์ทีละเลเยอร์ได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

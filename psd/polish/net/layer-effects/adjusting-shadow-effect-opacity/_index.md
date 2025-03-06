@@ -3,10 +3,16 @@ title: Dostosowywanie krycia efektu cienia w Aspose.PSD dla .NET
 linktitle: Dostosowywanie krycia efektu cienia
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak dostosować krycie efektu cienia w Aspose.PSD dla .NET, korzystając z tego wszechstronnego samouczka.
-type: docs
 weight: 15
 url: /pl/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosowywanie krycia efektu cienia w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym dostosowywania krycia efektu cienia w Aspose.PSD dla .NET! W tym samouczku przeprowadzimy Cię przez proces wykorzystania właściwości Opacity elementu DropShadowEffect. Aspose.PSD dla .NET to potężna biblioteka, która pozwala na płynną pracę z plikami PSD w aplikacjach .NET.
@@ -105,3 +111,9 @@ O4: Tak, Aspose.PSD dla .NET jest kompatybilny zarówno z .NET Framework, jak i 
 ### P5: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.PSD dla .NET?
 
  A5: Odwiedź[Fora Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

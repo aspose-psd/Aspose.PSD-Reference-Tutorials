@@ -3,10 +3,16 @@ title: Mettez en surbrillance la couleur de la feuille dans les fichiers PSD à 
 linktitle: Mettez en surbrillance la couleur de la feuille dans les fichiers PSD à l'aide d'Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment mettre en évidence les couleurs des feuilles dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour améliorer vos compétences en manipulation d'images en Java.
-type: docs
 weight: 19
 url: /fr/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mettez en surbrillance la couleur de la feuille dans les fichiers PSD à l'aide d'Aspose.PSD Java
+
 ## Introduction
 
 Cherchez-vous à vous plonger dans la manipulation d’images et à améliorer vos créations numériques à l’aide de Java ? Que vous soyez un développeur chevronné ou débutant, travailler avec des fichiers PSD peut ouvrir un monde de possibilités. Les fichiers PSD constituent la norme industrielle pour l'édition d'images en couches et, grâce à la puissance d'Aspose.PSD pour Java, vous pouvez manipuler ces fichiers sans effort dans vos applications Java. Aujourd'hui, nous allons expliquer comment mettre en évidence les couleurs des feuilles dans les fichiers PSD, afin de garantir que vos conceptions se démarquent de la manière la plus éclatante possible.
@@ -142,3 +148,9 @@ Une fois les modifications enregistrées dans un fichier, elles ne peuvent pas �
 
 ### Puis-je mettre en évidence plusieurs calques à la fois dans un fichier PSD ?
 Oui, vous pouvez parcourir les calques d'un fichier PSD et appliquer la couleur de surbrillance souhaitée à chaque calque individuellement.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

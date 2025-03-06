@@ -3,10 +3,16 @@ title: Java kullanarak PSD Dosyalarından Küçük Resimler Oluşturun
 linktitle: Java kullanarak PSD Dosyalarından Küçük Resimler Oluşturun
 second_title: Aspose.PSD Java API'si
 description: Java ve Aspose.PSD kullanarak PSD dosyalarından zahmetsizce küçük resimler oluşturmayı öğrenin. Sorunsuz görüntü işleme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 24
 url: /tr/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PSD Dosyalarından Küçük Resimler Oluşturun
+
 ## giriiş
 Grafik tasarım dünyasında PSD (Photoshop Belgesi) dosyalarıyla çalışmak olağan bir durumdur. İster deneyimli bir geliştirici, ister grafik tasarımcı, ister yalnızca görüntü işlemeye dalmak isteyen biri olun, PSD dosyalarından küçük resimler oluşturmak size zaman kazandırabilir ve iş akışınızı kolaylaştırabilir. Bu eğitim Aspose.PSD for Java'yı kullanarak tüm süreç boyunca size rehberlik edecektir. Aspose.PSD yalnızca Photoshop dosyalarını yönetmek için güçlü bir kütüphane olmakla kalmaz, aynı zamanda eldeki görevi sezgisel ve yönetilebilir hale getirir. PSD dosyalarından verimli bir şekilde küçük resimler oluşturmayı öğrenmeye hazır mısınız?
 ## Önkoşullar
@@ -112,3 +118,9 @@ Bu örnekte küçük resimleri BMP formatında kaydettik ancak Aspose.PSD başka
 Hayır, Aspose.PSD Photoshop'tan bağımsız olarak çalışır.
 ### Aspose.PSD hakkında daha fazla bilgiyi nerede bulabilirim?
  Şunu kontrol edebilirsiniz:[Aspose.PSD belgeleri](https://reference.aspose.com/psd/java/) Daha fazla ayrıntı, öğreticiler ve kaynaklar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

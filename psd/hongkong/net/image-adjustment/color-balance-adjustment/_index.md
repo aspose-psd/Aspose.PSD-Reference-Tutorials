@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中套用色彩平衡調整
 linktitle: 應用色彩平衡調整
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 的色彩平衡調整功能輕鬆增強 PSD 影像色彩。按照我們的逐步指南獲得令人驚嘆的結果。
-type: docs
 weight: 14
 url: /zh-hant/net/image-adjustment/color-balance-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中套用色彩平衡調整
+
 ## 介紹
 
 歡迎閱讀這份關於在 Aspose.PSD for .NET 中應用色彩平衡調整的綜合指南！ Aspose.PSD 是一個功能強大的 .NET 程式庫，可讓開發人員有效率地處理 PSD 檔案。在本教學中，我們將重點介紹色彩平衡調整功能，讓您輕鬆增強 PSD 影像的色彩平衡。
@@ -97,3 +103,10 @@ A2：當然！ Aspose.PSD為PSD檔案提供高效率的批次功能。
 ### 問題 5：Aspose.PSD for .NET 有哪些支援選項？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持和討論。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

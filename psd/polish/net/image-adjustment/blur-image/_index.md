@@ -3,10 +3,16 @@ title: Rozmycie obrazu w Aspose.PSD dla .NET
 linktitle: Zamazanie obrazu
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak bez wysiłku rozmyć obrazy za pomocą Aspose.PSD dla .NET. Przewodnik krok po kroku dotyczący płynnej manipulacji obrazami w projektach C#.
-type: docs
 weight: 13
 url: /pl/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozmycie obrazu w Aspose.PSD dla .NET
+
 ## Wstęp
 
 W dziedzinie rozwoju .NET Aspose.PSD okazuje się potężnym sojusznikiem w manipulacji obrazami. Ten samouczek skupia się na konkretnym zadaniu: rozmyciu obrazu przy użyciu Aspose.PSD dla .NET. Jeśli chcesz udoskonalić swoje umiejętności przetwarzania obrazu lub po prostu szukasz skutecznego sposobu na programowe rozmycie obrazów, jesteś we właściwym miejscu.
@@ -97,3 +103,9 @@ A4: Absolutnie! Aspose.PSD oferuje kompleksowy zestaw funkcji, w tym zmianę roz
 ### P5: Gdzie mogę szukać pomocy lub nawiązać kontakt ze społecznością Aspose.PSD?
 
  Odpowiedź 5: W przypadku jakichkolwiek pytań lub dyskusji przejdź do[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

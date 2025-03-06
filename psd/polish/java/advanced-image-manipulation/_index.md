@@ -3,10 +3,16 @@ title: Zaawansowana manipulacja obrazem
 linktitle: Zaawansowana manipulacja obrazem
 second_title: Aspose.PSD API Java
 description: Poznaj zaawansowane samouczki dotyczące manipulacji obrazami w Aspose.PSD dla Java. Dowiedz się, jak efektywnie zastępować czcionki, wymuszać buforowanie czcionek, wdrażać moduł resamplera dwusześciennego i nie tylko.
-type: docs
 weight: 24
 url: /pl/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zaawansowana manipulacja obrazem
+
 
 ## Wstęp
 
@@ -80,3 +86,9 @@ Opanuj zmianę rozmiaru obrazu w Javie za pomocą Aspose.PSD. Przewodnik krok po
 Przeglądaj rotację obrazu w Javie bez wysiłku dzięki Aspose.PSD. Z łatwością obracaj, odwracaj i zapisuj pliki PSD.
 ### [Obróć obraz pod określonym kątem za pomocą Aspose.PSD dla Java](./rotate-image-specific-angle/)
 Poznaj rotację obrazu w Javie za pomocą Aspose.PSD dla Java. Obracaj obrazy bez wysiłku pod określonym kątem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

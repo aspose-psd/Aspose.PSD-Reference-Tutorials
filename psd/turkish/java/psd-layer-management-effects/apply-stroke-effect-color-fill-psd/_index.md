@@ -3,10 +3,16 @@ title: PSD'de Renk Dolgusu ile Kontur Efekti Uygulama - Java
 linktitle: PSD'de Renk Dolgusu ile Kontur Efekti Uygulama - Java
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza renk dolgulu kontur efektini nasıl uygulayacağınızı öğrenin. Resimlerinizi kolaylıkla geliştirmek için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 21
 url: /tr/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD'de Renk Dolgusu ile Kontur Efekti Uygulama - Java
+
 ## giriiş
 
 Bu kılavuzda, Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza renkli dolgulu kontur efekti uygulama sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım eğitim işi tamamlamanızı kolaylaştıracaktır. Ortamınızı ayarlamaktan son görüntüyü uygulanan efektlerle kaydetmeye kadar her şeyi ele alacağız.
@@ -144,3 +150,9 @@ Değişiklikleri geri almak için, herhangi bir değişikliği kaydetmeden önce
 
 ### Aspose.PSD for Java kütüphanesinin kullanımı ücretsiz midir?
  Aspose.PSD for Java ücretsiz deneme sürümü sunuyor ancak tüm özelliklere tam erişim için bir lisans satın almanız gerekiyor. Keşfedebilirsiniz[satın alma seçenekleri](https://purchase.aspose.com/buy)kendi web sitesinde.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

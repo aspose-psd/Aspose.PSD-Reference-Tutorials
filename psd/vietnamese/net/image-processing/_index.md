@@ -3,10 +3,16 @@ title: Xử lý hình ảnh
 linktitle: Xử lý hình ảnh
 second_title: API Aspose.PSD .NET
 description: Dễ dàng nâng cao chất lượng hình ảnh với hướng dẫn Aspose.PSD cho .NET. Tìm hiểu các kỹ thuật như bộ lọc Gaussian và Wiener, chuyển đổi màu, nhị phân hóa, v.v.
-type: docs
 weight: 20
 url: /vi/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý hình ảnh
+
 
 ## Giới thiệu
 
@@ -46,3 +52,9 @@ Khám phá chuyển đổi màu trong Aspose.PSD cho .NET. Tìm hiểu cách c�
 Tìm hiểu cách dễ dàng áp dụng các hiệu ứng thang độ xám cho hình ảnh bằng Aspose.PSD cho .NET.
 ### [Áp dụng Ngưỡng Bradley trong Aspose.PSD cho .NET](./apply-bradley-threshold/)
 Nâng cao khả năng phân đoạn hình ảnh bằng Ngưỡng Bradley trong Aspose.PSD cho .NET. Hướng dẫn từng bước để nhị phân hóa hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

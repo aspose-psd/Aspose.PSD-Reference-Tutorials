@@ -3,10 +3,16 @@ title: Export PSD Layer Group to Image using Java
 linktitle: Export PSD Layer Group to Image using Java
 second_title: Aspose.PSD Java API
 description: Learn how to export PSD layer groups to images using Aspose.PSD for Java with this step-by-step guide. Perfect for developers and designers.
-type: docs
 weight: 10
 url: /java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export PSD Layer Group to Image using Java
+
 ## Introduction
 
 In the world of digital design, managing layers and exporting specific parts of your work can be a game-changer. Imagine you've got this stunning multi-layered Photoshop (PSD) file, and you want to export just a certain group of layers as an image. Sounds tricky, right? Well, it doesn’t have to be! With Aspose.PSD for Java, this task becomes not only manageable but downright simple. This article will walk you through the process, breaking it down into easy-to-follow steps. By the end, you'll have the know-how to handle PSD layers like a pro.
@@ -119,3 +125,10 @@ Yes, you can modify the layers, such as applying transformations or effects, bef
 
 ### How can I get a temporary license for Aspose.PSD for Java?
 You can obtain a temporary license from the [Aspose purchase page](https://purchase.aspose.com/temporary-license/). This will allow you to test the full functionality of the library.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

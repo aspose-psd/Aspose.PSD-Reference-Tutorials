@@ -3,10 +3,16 @@ title: PSD'ye Seviye Ayarlama Katmanı Ekleme
 linktitle: PSD'ye Seviye Ayarlama Katmanı Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza etkili bir Düzey Ayarlama Katmanı eklemeyi öğrenin. Resim düzenleme becerilerinizi geliştirin.
-type: docs
 weight: 16
 url: /tr/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD'ye Seviye Ayarlama Katmanı Ekleme
+
 ## giriiş
 Görüntü düzenleme söz konusu olduğunda seviyeleri yönetmek, fotoğraflarınızın canlılığı ve netliği açısından büyük fark yaratabilir. Photoshop cephaneliğindeki kullanışlı araçlardan biri, resimlerinizin ton aralığını ve renk dengesini ayarlamanıza olanak tanıyan "Seviye Ayarlama Katmanı"dır. Bu kılavuzda, Aspose.PSD for Java kullanarak bir PSD dosyasında Seviye Ayarlama Katmanını nasıl uygulayacağınız konusunda size yol göstereceğiz. O halde Java IDE'nizi alın.
 ## Önkoşullar
@@ -88,3 +94,9 @@ Evet! Aspose, satın almadan önce kütüphaneyi test etmek için ücretsiz bir 
  Kesinlikle! Soru sorabilir ve destek alabilirsiniz.[Forumu aspose](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD için nasıl geçici lisans alabilirim?
  Geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

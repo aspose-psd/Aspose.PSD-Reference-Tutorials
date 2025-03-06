@@ -3,10 +3,16 @@ title: Σχέδιο γραφικών Java
 linktitle: Σχέδιο γραφικών Java
 second_title: Aspose.PSD Java API
 description: Εξερευνήστε τα μαθήματα Aspose.PSD για Java σχετικά με τη σχεδίαση γραφικών. Μάθετε να προσθέτετε πινελιές, να σχεδιάζετε σχήματα και να χειρίζεστε αρχεία PSD με οδηγούς βήμα προς βήμα.
-type: docs
 weight: 20
 url: /el/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σχέδιο γραφικών Java
+
 
 ## Εισαγωγή
 
@@ -75,3 +81,9 @@ url: /el/java/java-graphics-drawing/
 Μάθετε πώς να σχεδιάζετε γραφικά σε Java χρησιμοποιώντας το Aspose.PSD βήμα προς βήμα. Δημιουργήστε σχήματα, εφαρμόστε χρώματα και εξάγετε εικόνες χωρίς κόπο.
 ### [Σχέδιο με χρήση διαδρομής γραφικών σε Java](./drawing-using-graphics-path/)
 Μάθετε πώς να δημιουργείτε σύνθετα γραφικά σε Java χρησιμοποιώντας την κλάση Graphics Path του Aspose.PSD. Αυτό το σεμινάριο σας καθοδηγεί σε κάθε βήμα για εκπληκτική δημιουργία εικόνων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

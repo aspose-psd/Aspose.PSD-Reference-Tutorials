@@ -3,10 +3,16 @@ title: Suporta modo de cores em escala de cinza de 16 bits em PSD - Java
 linktitle: Suporta modo de cores em escala de cinza de 16 bits em PSD - Java
 second_title: API Java Aspose.PSD
 description: Aprenda como implementar o modo de cores em escala de cinza de 16 bits em arquivos PSD usando Aspose.PSD para Java com este tutorial passo a passo detalhado.
-type: docs
 weight: 11
 url: /pt/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporta modo de cores em escala de cinza de 16 bits em PSD - Java
+
 ## Introdução
 Quando você está mergulhando no mundo do design gráfico e da manipulação de imagens, entender como trabalhar com diferentes modos de cores é como ter uma arma secreta. Em particular, a escala de cinza de 16 bits pode mudar o jogo, dando às suas imagens aquela profundidade e detalhes impressionantes que realmente as fazem se destacar. Então, você está pronto para explorar esse recurso poderoso usando Aspose.PSD para Java? Se você tem seu equipamento de codificação pronto, vamos direto ao assunto.
 ## Pré-requisitos
@@ -126,3 +132,9 @@ Absolutamente! Aspose.PSD suporta vários modos de cores, para que você possa t
  Você pode conferir o[documentação](https://reference.aspose.com/psd/java/) para exemplos e tutoriais mais detalhados.
 ### Como posso adquirir uma licença para Aspose.PSD?
  Você pode comprar uma licença visitando o[Aspose página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: دمج طبقات PSD مع Aspose.PSD لجافا
 linktitle: دمج طبقات PSD مع Aspose.PSD لجافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية دمج طبقات PSD باستخدام Aspose.PSD لـ Java من خلال هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين الذين يتطلعون إلى أتمتة مهام معالجة الصور.
-type: docs
 weight: 11
 url: /ar/java/psd-layer-management-effects/merge-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج طبقات PSD مع Aspose.PSD لجافا
+
 ## مقدمة
 
 هل تساءلت يومًا كيف يحقق مصممو الجرافيك تلك الصور المعقدة ذات الطبقات في Photoshop؟ غالبًا ما يكمن السر في إدارة الطبقات ودمجها داخل ملفات PSD. إذا كنت تعمل مع ملفات PSD في Java، فقد يكون دمج الطبقات أمرًا ضروريًا لإنشاء صور مركبة، أو تقليل حجم الملف، أو إعداد صورة للتصدير. لكن التعامل مع هذه المهمة برمجيًا قد يبدو أمرًا شاقًا. أدخل Aspose.PSD for Java، مجموعة الأدوات المثالية للتعامل مع ملفات PSD بسهولة. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا البرنامج التعليمي خلال عملية دمج طبقات PSD باستخدام Aspose.PSD لـ Java. بحلول نهاية هذا الدليل، سيكون لديك فهم قوي لكيفية التعامل مع الطبقات وحفظ الصورة النهائية بتنسيقات مختلفة، كل ذلك من داخل تطبيق Java الخاص بك.
@@ -105,3 +111,9 @@ psdImage.save(dataDir + "MergePSDlayers_output.jpg", jpgOptions);
 
 ### ماذا يحدث إذا لم أقم بضبط خيارات الصورة قبل الحفظ؟
 إذا لم تقم بتعيين خيارات الصورة، فسيستخدم Aspose.PSD لـ Java الإعدادات الافتراضية لتنسيق الإخراج. ومع ذلك، فمن الممارسات الجيدة تحديد الخيارات للتأكد من أن المخرجات تلبي متطلباتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

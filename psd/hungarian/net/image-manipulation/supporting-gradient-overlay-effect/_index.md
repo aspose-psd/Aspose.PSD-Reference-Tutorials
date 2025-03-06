@@ -3,10 +3,16 @@ title: Gradient Overlay Effect támogatása az Aspose.PSD-ben .NET-hez
 linktitle: Gradient Overlay Effect támogatása
 second_title: Aspose.PSD .NET API
 description: Javítsa a grafikát a .NET-ben az Aspose.PSD segítségével. Ez az oktatóanyag végigvezeti Önt a Gradient Overlay Effects támogatásán.
-type: docs
 weight: 18
 url: /hu/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradient Overlay Effect támogatása az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban az Aspose.PSD for .NET Gradient Overlay Effect támogatásáról! Ha javítani szeretné .NET-alkalmazása grafikus képességeit, ez a lépésenkénti útmutató segít Önnek. Megvizsgáljuk a Gradient Overlay Effect egy rétegben történő létrehozásának és szerkesztésének bonyolultságát az Aspose.PSD segítségével, amely egy hatékony könyvtár, amely leegyszerűsíti a képfeldolgozást.
@@ -133,3 +139,9 @@ Ebben az oktatóanyagban megvizsgáltuk a Gradient Overlay Effect támogatásán
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

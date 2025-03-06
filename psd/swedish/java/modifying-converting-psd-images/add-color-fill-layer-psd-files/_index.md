@@ -3,10 +3,16 @@ title: Lägg till färgfyllningsskikt till PSD-filer med Java
 linktitle: Lägg till färgfyllningsskikt till PSD-filer med Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du enkelt lägger till ett färgfyllningslager till PSD-filer med Java och Aspose.PSD. Följ vår steg-för-steg handledning för snabbare design.
-type: docs
 weight: 20
 url: /sv/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till färgfyllningsskikt till PSD-filer med Java
+
 ## Introduktion
 Har du någonsin sett dig själv i behov av att manipulera Photoshop-filer programmatiskt, kanske för att lägga till en färgklick till en design? Nåväl, du har landat på rätt ställe. I den här artikeln går vi in på hur man lägger till ett färgfyllningslager till PSD-filer (Photoshop Document) med hjälp av Java och Aspose.PSD-biblioteket. Se dina PSD-filer som en duk, och med bara några rader kod kan du måla dem på nytt.
 ## Förutsättningar
@@ -87,3 +93,9 @@ Du kan arbeta med PSD-filer och manipulera deras lager, effekter och andra egens
  Du kan få stöd genom[Aspose Support Forum](https://forum.aspose.com/c/psd/34).
 ### Var kan jag köpa Aspose.PSD?  
  Du kan köpa en licens via[Aspose köpsida](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

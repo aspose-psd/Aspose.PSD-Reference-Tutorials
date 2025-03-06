@@ -3,10 +3,16 @@ title: Użyj niestandardowego modułu ładującego surowe dane w plikach PSD - J
 linktitle: Użyj niestandardowego modułu ładującego surowe dane w plikach PSD - Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak używać niestandardowego modułu ładującego surowe dane w plikach PSD w Javie! Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po czyszczenie zasobów.
-type: docs
 weight: 29
 url: /pl/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Użyj niestandardowego modułu ładującego surowe dane w plikach PSD - Java
+
 ## Wstęp
 Praca z plikami PSD w Javie może wydawać się przytłaczająca, szczególnie jeśli chodzi o obsługę surowych danych. Nie bój się! Używając Aspose.PSD dla Java, możesz łatwo manipulować i wyodrębniać surowe dane pikseli z plików PSD za pomocą niestandardowych programów ładujących. Ten przewodnik pomoże Ci krok po kroku przez proces wdrażania niestandardowego modułu ładującego surowe dane. Omówimy wszystkie niezbędne wymagania wstępne, zaimportujemy wymagane pakiety i podzielimy kod na łatwe do wykonania kroki, które są łatwe do wykonania.
 ## Warunki wstępne
@@ -90,3 +96,9 @@ Aspose.PSD dla Java to biblioteka, która pozwala programistom programowo manipu
  Aby uzyskać wsparcie i pomoc społeczności, możesz odwiedzić stronę[forum dyskusyjne](https://forum.aspose.com/c/psd/34).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.PSD?  
 Możesz nabyć tymczasową licencję na ocenę wszystkich funkcji, odwiedzając stronę[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

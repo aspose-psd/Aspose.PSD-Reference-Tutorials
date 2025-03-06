@@ -3,10 +3,16 @@ title: Stroke Layer hozzáadása színátmenettel az Aspose.PSD for .NET-hez
 linktitle: Körvonalas réteg hozzáadása színátmenettel
 second_title: Aspose.PSD .NET API
 description: Ismerje meg, hogyan adhat hozzá színátmenetes körvonalréteget az Aspose.PSD for .NET-hez. Növelje képkezelési készségeit ezzel az átfogó oktatóanyaggal.
-type: docs
 weight: 12
 url: /hu/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stroke Layer hozzáadása színátmenettel az Aspose.PSD for .NET-hez
+
 ## Bevezetés
 
 Ha .NET-alkalmazásait lenyűgöző grafikai effektusokkal szeretné továbbfejleszteni, az Aspose.PSD for .NET a legjobb megoldás. Ebben az oktatóanyagban az Aspose.PSD for .NET használatával történő átmenet réteg hozzáadásának folyamatát mutatjuk be. Ez a lépésenkénti útmutató lehetővé teszi, hogy könnyedén növelje képei vizuális vonzerejét.
@@ -119,3 +125,9 @@ Gratulálok! Sikeresen hozzáadott egy körvonal-réteget színátmenettel az As
 ### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.PSD for .NET számára?
 
  V5: Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

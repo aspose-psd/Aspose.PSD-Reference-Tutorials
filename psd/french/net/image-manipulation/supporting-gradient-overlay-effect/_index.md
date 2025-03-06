@@ -3,10 +3,16 @@ title: Prise en charge de l'effet de superposition de dégradé dans Aspose.PSD 
 linktitle: Prise en charge de l'effet de superposition de dégradé
 second_title: API Aspose.PSD.NET
 description: Améliorez les graphiques dans .NET avec Aspose.PSD. Ce didacticiel vous guide dans la prise en charge des effets de superposition de dégradé.
-type: docs
 weight: 18
 url: /fr/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de l'effet de superposition de dégradé dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur la prise en charge de l'effet de superposition de dégradé dans Aspose.PSD pour .NET ! Si vous souhaitez améliorer les capacités graphiques de votre application .NET, ce guide étape par étape est là pour vous aider. Nous approfondirons les subtilités de la création et de la modification de l'effet de superposition de dégradé dans un calque à l'aide d'Aspose.PSD, une bibliothèque puissante qui simplifie le traitement des images.
@@ -133,3 +139,9 @@ A2 : Oui, vous pouvez appliquer divers effets, notamment la superposition de d�
 ### Q5 : Comment puis-je obtenir de l'aide pour Aspose.PSD ?
 
  A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

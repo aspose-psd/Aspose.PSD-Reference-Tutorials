@@ -3,10 +3,16 @@ title: Настройте гамму изображения с помощью As
 linktitle: Настройка гаммы изображения
 second_title: Aspose.PSD Java API
 description: Научитесь легко настраивать гамму изображения с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству для достижения оптимальных результатов.
-type: docs
 weight: 23
 url: /ru/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте гамму изображения с помощью Aspose.PSD для Java
+
 ## Введение
 
 В области обработки изображений настройка гаммы изображения является важным шагом для повышения его визуальной привлекательности. Aspose.PSD для Java предлагает мощное решение для разработчиков Java, позволяющее легко манипулировать гаммой изображений. В этом уроке мы рассмотрим, как настроить гамму с помощью Aspose.PSD, разбив каждый шаг, чтобы обеспечить плавную реализацию.
@@ -108,3 +114,9 @@ rasterImage.save(destName, tiffOptions);
 ### В5: Где я могу получить поддержку для Aspose.PSD?
 
  A5: Для получения поддержки посетите форум Aspose.PSD по адресу:[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

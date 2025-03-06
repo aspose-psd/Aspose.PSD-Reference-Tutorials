@@ -3,10 +3,16 @@ title: Přidání vrstvy tahu s plnou barvou v Aspose.PSD pro .NET
 linktitle: Přidání vrstvy tahu s plnou barvou
 second_title: Aspose.PSD .NET API
 description: Vylepšete své dovednosti manipulace s obrázky .NET pomocí Aspose.PSD. Naučte se krok za krokem přidávat vrstvy tahu s plnými barvami.
-type: docs
 weight: 11
 url: /cs/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání vrstvy tahu s plnou barvou v Aspose.PSD pro .NET
+
 ## Zavedení
 
 V oblasti vývoje .NET je vytváření vizuálně přitažlivých obrázků běžným požadavkem. Aspose.PSD for .NET poskytuje výkonnou sadu nástrojů pro bezproblémovou manipulaci a vylepšování obrázků. Jednou ze základních funkcí je přidání vrstvy tahu s plnou barvou, která dodá vašim obrázkům živost a hloubku. V tomto tutoriálu vás provedeme procesem krok za krokem pomocí Aspose.PSD pro .NET.
@@ -130,3 +136,9 @@ A2: Rozhodně! Aspose.PSD for .NET je komerční produkt a můžete jej použív
 ### Q5: Jak mohu získat podporu pro Aspose.PSD pro .NET?
 
  A5: Navštivte[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) vyhledat pomoc a spojit se s komunitou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

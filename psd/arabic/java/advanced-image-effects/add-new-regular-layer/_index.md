@@ -3,10 +3,16 @@ title: أضف طبقة عادية جديدة إلى PSD باستخدام Aspose.
 linktitle: أضف طبقة عادية جديدة إلى PSD
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة طبقة عادية جديدة إلى ملفات PSD باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لمعالجة ملفات PSD بسلاسة.
-type: docs
 weight: 11
 url: /ar/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف طبقة عادية جديدة إلى PSD باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول استخدام Aspose.PSD لـ Java لإضافة طبقة عادية جديدة إلى ملف PSD. Aspose.PSD هي مكتبة Java قوية تتيح للمطورين التعامل مع ملفات PSD والعمل معها بكفاءة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة طبقة عادية جديدة إلى ملف PSD، مع توفير الخطوات التفصيلية وأمثلة التعليمات البرمجية.
@@ -120,3 +126,9 @@ A1: نعم، يدعم Aspose.PSD Java 8 والإصدارات الأحدث.
 ### س5: هل هناك أية منتديات مجتمعية لدعم Aspose.PSD؟
 
  ج5: نعم، يمكنك العثور على الدعم والمناقشات[هنا](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

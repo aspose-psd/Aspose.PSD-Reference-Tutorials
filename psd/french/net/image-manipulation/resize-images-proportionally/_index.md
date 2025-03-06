@@ -3,10 +3,16 @@ title: Redimensionner les images proportionnellement dans Aspose.PSD pour .NET
 linktitle: Redimensionner les images proportionnellement
 second_title: API Aspose.PSD.NET
 description: Explorez le redimensionnement transparent des images avec Aspose.PSD pour .NET. Téléchargez la bibliothèque, suivez notre tutoriel et améliorez vos capacités de traitement d'image.
-type: docs
 weight: 14
 url: /fr/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Redimensionner les images proportionnellement dans Aspose.PSD pour .NET
+
 Dans le domaine de la manipulation d'images, Aspose.PSD pour .NET se distingue comme une boîte à outils puissante, offrant aux développeurs la possibilité de redimensionner facilement les images proportionnellement. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de redimensionnement des images à l'aide d'Aspose.PSD pour .NET, garantissant ainsi que vos images conservent parfaitement leurs proportions.
 
 ## Introduction
@@ -100,3 +106,9 @@ A3 : Oui, Aspose.PSD pour .NET offre un large éventail de fonctionnalités, no
 ### Q5 : Où puis-je trouver du support pour Aspose.PSD pour .NET ?
 
  A5 : Visitez le[Aspose.PSD pour le forum .NET](https://forum.aspose.com/c/psd/34) pour le soutien et les discussions de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

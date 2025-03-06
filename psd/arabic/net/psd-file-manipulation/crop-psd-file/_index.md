@@ -3,10 +3,16 @@ title: قص ملفات PSD باستخدام Aspose.PSD لـ .NET
 linktitle: قص ملفات PSD باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: استكشف فن قص ملفات PSD في .NET باستخدام Aspose.PSD، وهي مجموعة أدوات متعددة الاستخدامات. ارفع مستوى لعبة معالجة الصور الخاصة بك دون عناء.
-type: docs
 weight: 19
 url: /ar/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص ملفات PSD باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 في مجال تطوير .NET، يبرز Aspose.PSD كمجموعة أدوات قوية للتعامل مع ملفات PSD (مستندات Photoshop) بسلاسة. عندما يتعلق الأمر بمعالجة الصور، يعد الاقتصاص عملية أساسية، ويعمل Aspose.PSD على تبسيط هذه العملية لمطوري .NET. في هذا البرنامج التعليمي، سنستكشف كيفية قص ملفات PSD باستخدام Aspose.PSD لـ .NET، مما يوفر لك دليلًا خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ image.Save(exportPathPng, new PngOptions() { ColorType = PngColorType.TruecolorW
 ### س5: هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
 
  ج5: نعم، إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

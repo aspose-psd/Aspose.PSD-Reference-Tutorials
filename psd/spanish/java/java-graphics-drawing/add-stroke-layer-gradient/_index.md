@@ -3,10 +3,16 @@ title: Cómo agregar degradado de capa de trazo en Java
 linktitle: Cómo agregar degradado de capa de trazo en Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a agregar y personalizar gradientes de capa de trazo en archivos PSD usando Aspose.PSD para Java con este completo tutorial paso a paso.
-type: docs
 weight: 10
 url: /es/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cómo agregar degradado de capa de trazo en Java
+
 ## Introducción
 ¿Alguna vez te has preguntado cómo agregar un degradado de capa de trazo a tus imágenes usando Java? Bueno, ¡estás en el lugar correcto! Hoy nos sumergimos en el mundo de Aspose.PSD para Java, una potente biblioteca que le ayuda a manipular archivos PSD con facilidad. Ya seas un principiante o un desarrollador experimentado, esta guía paso a paso te guiará a través del proceso de agregar un degradado de capa de trazo a tus archivos PSD. Así que ¡abróchate el cinturón y prepárate para mejorar tus habilidades de edición gráfica!
 ## Requisitos previos
@@ -156,3 +162,9 @@ Aspose.PSD para Java es una biblioteca que permite a los desarrolladores trabaja
 Sí, puedes aplicar varios efectos como sombras, brillos y más usando Aspose.PSD para Java.
 ### ¿Dónde puedo encontrar la documentación de Aspose.PSD para Java?
  Puedes encontrar la documentación.[aquí](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Podpora vrstev ve formátu AI s Aspose.PSD pro .NET
 linktitle: Podpora vrstev ve formátu AI s Aspose.PSD pro .NET
 second_title: Aspose.PSD .NET API
 description: Naučte se bez námahy zacházet s vrstvami formátu AI s Aspose.PSD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci a manipulaci.
-type: docs
 weight: 10
 url: /cs/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora vrstev ve formátu AI s Aspose.PSD pro .NET
+
 Vítejte v našem podrobném průvodci, jak využít Aspose.PSD pro .NET ke zpracování podpůrných vrstev v souborech formátu AI. Aspose.PSD zjednodušuje složité úkoly a usnadňuje vývojářům práci se soubory AI v jejich aplikacích .NET. V tomto tutoriálu si probereme předpoklady, import jmenných prostorů a rozdělíme každý příklad do několika kroků, abychom zajistili bezproblémové učení.
 ## Zavedení
 ### Co je Aspose.PSD?
@@ -85,3 +91,9 @@ Odpověď 2: Ano, Aspose.PSD poskytuje funkce pro práci s textovými vrstvami v
 ### Q5: Jaké formáty obrázků jsou podporovány pro ukládání pomocí Aspose.PSD?
 
 Odpověď 5: Aspose.PSD podporuje různé formáty, včetně PSD, PNG, JPEG a dalších.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

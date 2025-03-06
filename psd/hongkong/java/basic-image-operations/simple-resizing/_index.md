@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 執行簡單的大小調整
 linktitle: 執行簡單的大小調整
 second_title: Aspose.PSD Java API
 description: 了解使用 Aspose.PSD for Java 以程式調整影像大小。請按照我們的逐步指南進行高效率的影像處理。
-type: docs
 weight: 11
 url: /zh-hant/java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 執行簡單的大小調整
+
 ## 介紹
 
 在今天的教程中，我們將深入研究使用 Aspose.PSD for Java 進行簡單圖像大小調整的過程，這是一個功能強大的庫，可促進高效的圖像操作。如果您是 Java 開發人員，正在尋求一種以程式設計方式無縫調整影像大小的方法，那麼您來對地方了。
@@ -101,3 +107,9 @@ A2：是的，Aspose.PSD 支援各種影像格式，為您的影像處理任務�
 ### Q5：如何獲得 Aspose.PSD for Java 的支援？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)尋求幫助和社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

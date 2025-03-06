@@ -3,10 +3,16 @@ title: Criando formas elípticas com Aspose.PSD para .NET
 linktitle: Criando formas elípticas com Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Aprenda como desenhar formas elípticas em .NET usando Aspose.PSD. Guia passo a passo com exemplos de código. Crie gráficos impressionantes sem esforço.
-type: docs
 weight: 13
 url: /pt/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando formas elípticas com Aspose.PSD para .NET
+
 ## Introdução
 
 Bem-vindo ao nosso guia completo sobre como criar formas elípticas usando Aspose.PSD para .NET. Aspose.PSD é uma biblioteca .NET poderosa que permite aos desenvolvedores manipular e converter arquivos do Photoshop sem a necessidade do Adobe Photoshop. Neste tutorial, orientaremos você no processo de desenho de formas elípticas usando a biblioteca.
@@ -101,3 +107,9 @@ Parabéns! Você criou formas elípticas com sucesso usando Aspose.PSD para .NET
 ### P5: Preciso de uma licença temporária para testes?
 
  A5: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

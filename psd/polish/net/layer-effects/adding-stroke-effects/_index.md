@@ -3,10 +3,16 @@ title: Dodawanie efektów obrysu do warstw w Aspose.PSD dla .NET
 linktitle: Dodawanie efektów obrysu do warstw
 second_title: Aspose.PSD API .NET
 description: Popraw estetykę obrazu dzięki Aspose.PSD dla .NET. Naucz się dodawać efekty obrysów krok po kroku. Pobierz, kup lub wypróbuj bezpłatną wersję próbną już teraz.
-type: docs
 weight: 10
 url: /pl/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie efektów obrysu do warstw w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w tym samouczku krok po kroku dotyczącym dodawania efektów obrysu do warstw w Aspose.PSD dla .NET. Zwiększenie atrakcyjności wizualnej obrazów jest proste dzięki efektowi obrysu, a Aspose.PSD sprawia, że jest to płynne dla programistów .NET. W tym przewodniku przeprowadzimy Cię przez cały proces, podając jasne kroki i przykłady, które pomogą Ci opanować tę zaawansowaną funkcję.
@@ -109,3 +115,9 @@ Odpowiedź 4: Tak, możesz przeglądać wiele plików PSD w pętli i stosować e
 ### P5: Czy mogę skorzystać z wersji próbnej przed zakupem Aspose.PSD?
 
  A5: Oczywiście! Chwyć[bezpłatna wersja próbna](https://releases.aspose.com/) aby poznać możliwości Aspose.PSD przed dokonaniem zakupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

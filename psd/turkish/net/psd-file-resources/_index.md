@@ -3,10 +3,16 @@ title: PSD Dosya Kaynakları
 linktitle: PSD Dosya Kaynakları
 second_title: Aspose.PSD .NET API'si
 description: Eğitimlerimizle Aspose.PSD for .NET'in tüm potansiyelini ortaya çıkarın. Arka plan rengine, kenarlık bilgilerine, çalışma yoluna ve siyah beyaz kaynaklara sorunsuz bir şekilde hakim olun.
-type: docs
 weight: 31
 url: /tr/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD Dosya Kaynakları
+
 
 ## giriiş
 
@@ -39,3 +45,9 @@ Gelişmiş görüntüleme için Aspose.PSD for .NET'in Sınır Bilgi Kaynağı �
 Aspose.PSD for .NET'te 'WorkingPathResource'un gücünü keşfedin. Bu adım adım kılavuzla görüntü hassasiyetini artırın.
 ### [Aspose.PSD for .NET'te Siyah Beyaz (Blwh) Kaynağını Destekleme](./supporting-black-and-white-blwh-resource/)
 Aspose.PSD for .NET ile gelişmiş görüntü düzenlemeyi keşfedin. Görüntü öğeleri üzerinde hassas kontrol sağlamak için Siyah Beyaz ayarlama katmanlarında ustalaşmayı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

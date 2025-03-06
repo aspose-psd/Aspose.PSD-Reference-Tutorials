@@ -3,10 +3,16 @@ title: Java 中对 2 位和 7 位 JPEG 的支持
 linktitle: Java 中对 2 位和 7 位 JPEG 的支持
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD 在 Java 中操作 PSD 文件并将其保存为 JPEG。带有代码示例的分步指南。非常适合初学者和专业人士。
-type: docs
 weight: 20
 url: /zh/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 中对 2 位和 7 位 JPEG 的支持
+
 ## 介绍
 大家好！您准备好使用 Java 深入研究图像处理了吗？今天，我们将探索 Aspose.PSD for Java 库，这是一个功能强大的工具，可让您轻松操作和转换 PSD 文件。具体来说，我们将研究如何处理 2 位和 7 位 JPEG。本教程将带您了解您需要了解的所有内容，从先决条件到详细的分步说明。所以，系好安全带，准备好开始一段有趣且内容丰富的旅程吧！
 ## 先决条件
@@ -74,3 +80,9 @@ Aspose.PSD for Java 是一个功能强大的库，可让您在 Java 应用程序
 Aspose.PSD for Java 支持各种图像格式，包括 PSD、JPEG、PNG、BMP、TIFF 等。
 ### Aspose.PSD for Java 有免费试用版吗？
 是的，你可以下载[免费试用](https://releases.aspose.com/)在购买之前测试一下图书馆的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

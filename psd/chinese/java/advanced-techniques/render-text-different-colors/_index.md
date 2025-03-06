@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 在文本层中渲染不同颜色的文本
 linktitle: 在文本层中以不同颜色渲染文本
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 文本层中渲染不同颜色的文本。按照我们的分步指南获得无缝结果。
-type: docs
 weight: 13
 url: /zh/java/advanced-techniques/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 在文本层中渲染不同颜色的文本
+
 ## 介绍
 
 欢迎阅读我们的分步指南，了解如何使用 Aspose.PSD for Java 在文本层中渲染不同颜色的文本。Aspose.PSD 是一个功能强大的 Java 库，允许您以编程方式操作 Photoshop 文件，为您提供处理 PSD 和 PSB 文件格式的广泛功能。
@@ -102,3 +108,9 @@ A1：Aspose.PSD 主要为 Java 设计，但 Aspose 为各种编程语言提供�
 ### Q5: 还有其他关于 Aspose.PSD 的教程吗？
 
  A5：是的，探索[Aspose.PSD 文档](https://reference.aspose.com/psd/java/)了解更多教程和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

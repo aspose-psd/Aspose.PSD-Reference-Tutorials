@@ -3,10 +3,16 @@ title: Flou d'une image dans Aspose.PSD pour .NET
 linktitle: Brouiller une image
 second_title: API Aspose.PSD.NET
 description: Apprenez à flouter des images sans effort avec Aspose.PSD pour .NET. Un guide étape par étape pour une manipulation transparente des images dans vos projets C#.
-type: docs
 weight: 13
 url: /fr/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Flou d'une image dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.PSD s’avère être un allié puissant pour la manipulation d’images. Ce didacticiel se concentre sur une tâche spécifique : flouter une image à l'aide d'Aspose.PSD pour .NET. Si vous souhaitez améliorer vos compétences en traitement d'images ou si vous recherchez simplement un moyen efficace de flouter les images par programmation, vous êtes au bon endroit.
@@ -97,3 +103,9 @@ A4 : Absolument ! Aspose.PSD offre un ensemble complet de fonctionnalités, nota
 ### Q5 : Où puis-je demander de l'aide ou me connecter à la communauté Aspose.PSD ?
 
  A5 : Pour toute question ou discussion, rendez-vous sur le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

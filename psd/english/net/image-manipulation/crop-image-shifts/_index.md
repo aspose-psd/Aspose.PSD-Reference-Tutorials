@@ -3,10 +3,16 @@ title: Cropping Images by Shifts in Aspose.PSD for .NET
 linktitle: Cropping Images by Shifts
 second_title: Aspose.PSD .NET API
 description: Learn to crop images effortlessly using Aspose.PSD for .NET. Follow our step-by-step guide for precise image adjustments.
-type: docs
 weight: 12
 url: /net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cropping Images by Shifts in Aspose.PSD for .NET
+
 ## Introduction
 
 In the realm of .NET development, Aspose.PSD stands out as a powerful toolkit for image processing tasks. One of its notable features is the ability to crop images with precision, thanks to the 'Cropping by Shifts' functionality. In this step-by-step guide, we will walk you through the process of cropping images seamlessly using Aspose.PSD for .NET.
@@ -106,3 +112,10 @@ A4: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for support 
 
 A5: Yes, you can purchase the library securely from the [purchase page](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bekerja dengan File PSD
 linktitle: Bekerja dengan File PSD
 second_title: Asumsikan.PSD Java API
 description: Jelajahi tutorial Aspose.PSD untuk Java yang komprehensif, termasuk cara mengekspor grup lapisan PSD ke gambar dan memanipulasi sumber daya Clbl, Infx, dan Lspf.
-type: docs
 weight: 26
 url: /id/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan File PSD
+
 
 ## Perkenalan
 
@@ -37,3 +43,9 @@ Pelajari cara mendukung dan memanipulasi Sumber Daya Clbl dalam file PSD menggun
 Pelajari cara memanipulasi Sumber Daya Infx dalam file PSD menggunakan Aspose.PSD untuk Java dengan tutorial langkah demi langkah yang komprehensif ini. Sempurna untuk pengembang dari semua tingkatan.
 ### [Mendukung Sumber Daya Lspf dalam File PSD menggunakan Java](./support-lspf-resource-psd-files/)
 Kuasai cara mendukung dan memanipulasi Sumber Daya Lspf dalam file PSD menggunakan Aspose.PSD untuk Java dengan panduan langkah demi langkah kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

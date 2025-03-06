@@ -3,10 +3,16 @@ title: Aplicar filtros Gaussianos e Wiener para imagens coloridas com Aspose.PSD
 linktitle: Aplicar filtros Gaussianos e Wiener para imagens coloridas
 second_title: API Java Aspose.PSD
 description: Aprimore suas imagens coloridas sem esforço com Aspose.PSD para Java. Aprenda a aplicar filtros Gaussianos e Wiener passo a passo para obter resultados visuais impressionantes.
-type: docs
 weight: 11
 url: /pt/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar filtros Gaussianos e Wiener para imagens coloridas com Aspose.PSD para Java
+
 ## Introdução
 
 Bem-vindo a este tutorial abrangente sobre a aplicação de filtros Gaussianos e Wiener para imagens coloridas usando Aspose.PSD para Java. Neste guia, exploraremos passo a passo como aprimorar suas imagens coloridas com esses filtros poderosos, fornecendo a você as habilidades necessárias para otimizar seu conteúdo visual.
@@ -96,3 +102,9 @@ A4: Sim, você pode encadear vários filtros para obter efeitos complexos de pro
 ### P5: Onde posso buscar suporte para consultas relacionadas ao Aspose.PSD?
 
  A5: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para apoio e discussões da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

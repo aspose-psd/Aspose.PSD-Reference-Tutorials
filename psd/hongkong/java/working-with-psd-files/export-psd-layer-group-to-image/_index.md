@@ -3,10 +3,16 @@ title: 使用 Java 將 PSD 圖層群組匯出到影像
 linktitle: 使用 Java 將 PSD 圖層群組匯出到影像
 second_title: Aspose.PSD Java API
 description: 透過此逐步指南，了解如何使用 Aspose.PSD for Java 將 PSD 圖層群組匯出到影像。非常適合開發人員和設計師。
-type: docs
 weight: 10
 url: /zh-hant/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 將 PSD 圖層群組匯出到影像
+
 ## 介紹
 
 在數位設計領域，管理層和匯出工作的特定部分可能會改變遊戲規則。想像一下，您已經有了這個令人驚嘆的多層 Photoshop (PSD) 文件，並且您只想將特定的圖層群組匯出為圖像。聽起來很棘手，對吧？好吧，不一定是這樣！有了 Aspose.PSD for Java，這項任務不僅變得易於管理，而且變得非常簡單。本文將引導您完成整個過程，並將其分解為易於遵循的步驟。最後，您將掌握如何像專業人士一樣處理 PSD 圖層。
@@ -119,3 +125,9 @@ contentFolder.save(outputDir + "content.png", new PngOptions());
 
 ### 如何取得 Aspose.PSD for Java 的臨時授權？
 您可以從以下機構獲得臨時許可證[Aspose購買頁面](https://purchase.aspose.com/temporary-license/)。這將使您能夠測試該庫的完整功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

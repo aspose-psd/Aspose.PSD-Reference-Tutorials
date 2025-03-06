@@ -3,10 +3,16 @@ title: Erweitern und zuschneiden Sie Bilder mit Aspose.PSD für Java
 linktitle: Bilder vergrößern und zuschneiden
 second_title: Aspose.PSD Java API
 description: Erfahren Sie, wie Sie mit Aspose.PSD Bilder in Java vergrößern und zuschneiden. Schritt-für-Schritt-Anleitung zur effizienten Bildverarbeitung.
-type: docs
 weight: 18
 url: /de/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erweitern und zuschneiden Sie Bilder mit Aspose.PSD für Java
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.PSD für Java Bilder effizient vergrößern und zuschneiden können. Aspose.PSD ist eine leistungsstarke Bibliothek, die eine Vielzahl von Funktionen für die Arbeit mit PSD-Dateien in Java-Anwendungen bietet. In diesem Handbuch behandeln wir die erforderlichen Voraussetzungen, das Importieren von Paketen und erläutern jeden Schritt ausführlich.
@@ -102,3 +108,9 @@ A2: Auf jeden Fall. Aspose.PSD bietet Entwicklern kommerzielle Lizenzen und erm�
 ### F5: Gibt es eine kostenlose Testversion?
 
  A5: Ja, Sie können Aspose.PSD mit einer kostenlosen Testversion erkunden. Laden Sie es herunter[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

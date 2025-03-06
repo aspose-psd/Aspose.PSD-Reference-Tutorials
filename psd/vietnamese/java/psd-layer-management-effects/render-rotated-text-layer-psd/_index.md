@@ -3,10 +3,16 @@ title: Kết xuất lớp văn bản xoay trong tệp PSD bằng Java
 linktitle: Kết xuất lớp văn bản xoay trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách trích xuất và hiển thị các lớp văn bản được xoay từ tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến xuất.
-type: docs
 weight: 18
 url: /vi/java/psd-layer-management-effects/render-rotated-text-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất lớp văn bản xoay trong tệp PSD bằng Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ nhận được một tệp PSD có các lớp văn bản bị nghiêng một góc một cách bí ẩn chưa? Có thể bạn đã tự tạo một cái và muốn xuất nó trong khi vẫn bảo tồn vòng quay nghệ thuật đó. Aspose.PSD dành cho Java đã ra tay giải cứu! Thư viện mạnh mẽ này cho phép bạn thao tác và hiển thị các tệp PSD, bao gồm cả việc xử lý các lớp văn bản xoay khó chịu đó. 
@@ -135,3 +141,9 @@ Có, việc xử lý các tệp PSD lớn có thể tốn nhiều tài nguyên. 
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho Java?
 
 Aspose cung cấp nhiều kênh hỗ trợ khác nhau, bao gồm cả tài liệu của họ ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)), diễn đàn trực tuyến ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) và các tùy chọn hỗ trợ dành riêng cho người dùng được cấp phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

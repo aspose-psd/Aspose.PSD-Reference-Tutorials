@@ -3,10 +3,16 @@ title: Cách thêm mẫu lớp nét trong Java
 linktitle: Cách thêm mẫu lớp nét trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm mẫu lớp nét vào tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước này để cải thiện hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cách thêm mẫu lớp nét trong Java
+
 ## Giới thiệu
 Việc thêm mẫu lớp nét vẽ vào hình ảnh trong Java nghe có vẻ là một nhiệm vụ khó khăn, nhưng với Aspose.PSD cho Java, điều đó dễ dàng hơn bạn nghĩ. Cho dù bạn đang thiết kế đồ họa hay làm việc trên các ứng dụng chỉnh sửa ảnh, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình từng bước. Sẵn sàng để bắt đầu? Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -138,3 +144,9 @@ Aspose.PSD cho Java là thư viện cho phép các nhà phát triển tạo, ch�
  Bạn có thể nhận được hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/psd/34).
 ### Yêu cầu hệ thống đối với Aspose.PSD cho Java là gì?
 Bạn cần cài đặt JDK và IDE để phát triển. Thư viện hỗ trợ nhiều hệ điều hành bao gồm Windows, Linux và macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

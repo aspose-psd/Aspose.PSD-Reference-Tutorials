@@ -3,10 +3,16 @@ title: تأثيرات الصورة
 linktitle: تأثيرات الصورة
 second_title: Aspose.PSD.NET API
 description: إتقان تحسينات الصورة الديناميكية في Aspose.PSD لـ .NET. ارفع مستوى معالجة الصور الخاصة بك من خلال البرامج التعليمية حول إضافة تأثيرات مذهلة وتراكبها وعرضها في وقت التشغيل.
-type: docs
 weight: 25
 url: /ar/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تأثيرات الصورة
+
 
 ## مقدمة
 
@@ -34,3 +40,9 @@ url: /ar/net/image-effects/
 اكتشف سحر Aspose.PSD لـ .NET من خلال برنامجنا التعليمي حول تراكب تأثيرات الألوان. ارفع مستوى لعبة معالجة الصور الخاصة بك دون عناء.
 ### [عرض تأثير Drop Shadow في Aspose.PSD لـ .NET](./render-drop-shadow/)
 اكتشف قوة Aspose.PSD لـ .NET في هذا البرنامج التعليمي، وإتقان فن عرض تأثيرات الظل المسقط الجذابة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

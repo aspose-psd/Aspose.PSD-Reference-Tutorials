@@ -3,10 +3,16 @@ title: Dessiner des ellipses en Java
 linktitle: Dessiner des ellipses en Java
 second_title: API Java Aspose.PSD
 description: Apprenez à dessiner des ellipses en Java à l'aide d'Aspose.PSD pour une conception graphique et une manipulation d'images précises. Maîtrisez des didacticiels étape par étape.
-type: docs
 weight: 15
 url: /fr/java/java-graphics-drawing/drawing-ellipses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dessiner des ellipses en Java
+
 ## Introduction
 Dans ce didacticiel, vous apprendrez à dessiner des ellipses à l'aide d'Aspose.PSD pour Java. Aspose.PSD est une bibliothèque puissante qui permet aux développeurs Java de travailler avec des fichiers PSD et de manipuler facilement des images. Dessiner des formes comme des ellipses est une tâche fondamentale en traitement d’image et en conception graphique. En suivant ce guide, vous acquerrez une expérience pratique dans la création d'ellipses par programme à l'aide d'Aspose.PSD.
 ## Conditions préalables
@@ -76,3 +82,9 @@ Aspose.PSD propose une version d'essai gratuite, vous permettant d'évaluer ses 
 Aspose.PSD prend en charge l'enregistrement d'images dans divers formats, notamment BMP, PNG, JPEG et PSD.
 ### Aspose.PSD est-il adapté à une utilisation en entreprise ?
 Oui, Aspose.PSD est conçu pour les tâches de traitement d'images professionnelles et de niveau entreprise.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

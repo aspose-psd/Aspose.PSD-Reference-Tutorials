@@ -3,10 +3,16 @@ title: 使用 Java 對 TIFF 檔案套用 Deflate 壓縮
 linktitle: 使用 Java 對 TIFF 檔案套用 Deflate 壓縮
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 對 TIFF 檔案套用 deflate 壓縮。按照我們的逐步指南有效減小檔案大小而不損失品質。
-type: docs
 weight: 13
 url: /zh-hant/java/tiff-image-compression-configuration/apply-deflate-compression-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 對 TIFF 檔案套用 Deflate 壓縮
+
 ## 介紹
 
 您是否曾經處理過大型影像文件，並想知道如何在不影響品質的情況下減少其大小？如果您正在處理 TIFF 文件，那麼您很幸運！在本文中，我們將深入研究影像壓縮的世界，特別關注如何使用 Aspose.PSD for Java 對 TIFF 檔案套用 deflate 壓縮。無論您是經驗豐富的開發人員還是剛起步，本指南都將逐步引導您完成整個過程，確保您可以輕鬆處理影像檔案。那麼，就讓我們開始吧！
@@ -92,3 +98,9 @@ Deflate 壓縮是一種無損資料壓縮演算法，可以在不遺失任何資
 
 ### 我需要任何特殊工具才能使用 Aspose.PSD for Java 嗎？
 您只需要一個 Java 開發環境和 Aspose.PSD for Java 程式庫，您可以從上面提供的連結下載該程式庫。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

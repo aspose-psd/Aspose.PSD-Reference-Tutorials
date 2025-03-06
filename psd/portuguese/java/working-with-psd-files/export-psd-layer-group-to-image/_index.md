@@ -3,10 +3,16 @@ title: Exportar grupo de camadas PSD para imagem usando Java
 linktitle: Exportar grupo de camadas PSD para imagem usando Java
 second_title: API Java Aspose.PSD
 description: Aprenda como exportar grupos de camadas PSD para imagens usando Aspose.PSD para Java com este guia passo a passo. Perfeito para desenvolvedores e designers.
-type: docs
 weight: 10
 url: /pt/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportar grupo de camadas PSD para imagem usando Java
+
 ## Introdução
 
 No mundo do design digital, gerenciar camadas e exportar partes específicas do seu trabalho pode mudar o jogo. Imagine que você tem este impressionante arquivo Photoshop (PSD) de múltiplas camadas e deseja exportar apenas um determinado grupo de camadas como uma imagem. Parece complicado, certo? Bem, não precisa ser! Com Aspose.PSD para Java, essa tarefa se torna não apenas gerenciável, mas totalmente simples. Este artigo orientará você no processo, dividindo-o em etapas fáceis de seguir. No final, você terá o conhecimento necessário para lidar com camadas PSD como um profissional.
@@ -119,3 +125,9 @@ Sim, você pode modificar as camadas, como aplicar transformações ou efeitos, 
 
 ### Como posso obter uma licença temporária do Aspose.PSD para Java?
  Você pode obter uma licença temporária do[Aspose página de compra](https://purchase.aspose.com/temporary-license/). Isso permitirá que você teste toda a funcionalidade da biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

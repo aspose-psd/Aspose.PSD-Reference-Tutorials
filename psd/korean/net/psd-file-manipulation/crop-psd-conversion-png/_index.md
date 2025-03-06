@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 PNG로 변환할 때 PSD 파일 자르기
 linktitle: PNG로 변환할 때 PSD 파일 자르기
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 PSD 파일을 쉽게 자르는 방법을 알아보세요. PNG로 원활하게 변환하려면 단계별 가이드를 따르세요.
-type: docs
 weight: 18
 url: /ko/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 PNG로 변환할 때 PSD 파일 자르기
+
 ## 소개
 .NET 개발 영역에서는 이미지를 조작하고 변환하는 것이 일반적인 작업입니다. .NET용 Aspose.PSD는 이 프로세스를 간소화하는 강력한 도구 세트를 제공합니다. 자주 발생하는 요구 사항 중 하나는 PSD 파일을 PNG로 변환하기 전에 자르는 것입니다. 이 단계별 튜토리얼에서는 .NET용 Aspose.PSD를 사용하는 프로세스를 자세히 살펴보겠습니다.
 ## 전제조건
@@ -77,3 +83,9 @@ A2: 물론이죠! 무료 평가판을 탐색할 수 있습니다.[여기](https:
 ### Q5: 설명서에 사용 가능한 예제나 튜토리얼이 있습니까?
 
  A5: 예, 포괄적인 문서와 예제를 찾을 수 있습니다.[여기](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

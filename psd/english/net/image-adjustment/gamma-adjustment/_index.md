@@ -3,10 +3,16 @@ title: Implementing Gamma Adjustment in Aspose.PSD for .NET
 linktitle: Implementing Gamma Adjustment
 second_title: Aspose.PSD .NET API
 description: Explore the power of Aspose.PSD for .NET with our step-by-step guide on implementing Gamma Adjustment. Fine-tune image brightness and contrast effortlessly.
-type: docs
 weight: 12
 url: /net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementing Gamma Adjustment in Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to this comprehensive guide on implementing Gamma Adjustment in Aspose.PSD for .NET! Gamma adjustment is a crucial image processing technique that allows you to fine-tune the brightness and contrast of an image. In this tutorial, we will walk you through the process using the powerful Aspose.PSD library for .NET.
@@ -101,3 +107,10 @@ A4: You can visit the support forum [here](https://forum.aspose.com/c/psd/34).
 ### Q5: Do I need a temporary license?
 
 A5: If required, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التعامل مع الجدول الزمني لصورة PSD في Aspose.
 linktitle: التعامل مع الجدول الزمني لصورة PSD
 second_title: Aspose.PSD.NET API
 description: تعلم كيفية التعامل مع المخططات الزمنية لصور PSD بسهولة باستخدام Aspose.PSD لـ .NET. أضف الإطارات، وقم بالتبديل بسلاسة، وعزز مهاراتك في تحرير الصور.
-type: docs
 weight: 17
 url: /ar/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع الجدول الزمني لصورة PSD في Aspose.PSD لـ .NET
+
 ## مقدمة
 في العالم الديناميكي لمعالجة الصور، يبرز Aspose.PSD for .NET كمجموعة أدوات قوية توفر حلولاً قوية للتعامل مع الجداول الزمنية لصور PSD. سواء كنت مطورًا متمرسًا أو متحمسًا للبرمجة، سيرشدك هذا البرنامج التعليمي خلال عملية استخدام Aspose.PSD لمعالجة المخططات الزمنية للصور بسهولة.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: قم بزيارة منتدى مجتمع Aspose.PSD[هنا](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

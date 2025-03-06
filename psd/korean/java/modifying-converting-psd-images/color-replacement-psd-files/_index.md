@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 PSD 파일의 색상 교체
 linktitle: Java용 Aspose.PSD를 사용하여 PSD 파일의 색상 교체
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일의 색상을 바꾸는 방법을 알아보세요. 이미지를 효율적으로 조작하려면 이 쉬운 단계별 가이드를 따르십시오.
-type: docs
 weight: 21
 url: /ko/java/modifying-converting-psd-images/color-replacement-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 PSD 파일의 색상 교체
+
 ## 소개
 PSD 파일을 프로그래밍 방식으로 조작하려고 하시나요? 당신은 올바른 장소에 도착했습니다! 노련한 개발자이거나 이미지 조작의 세계에 처음 입문한 경우에도 Java용 Aspose.PSD를 사용하면 PSD 파일의 색상 교체가 매우 쉬워집니다. 이 가이드에서는 단 몇 줄의 코드만으로 PSD 파일의 특정 색상을 쉽게 바꾸는 방법을 살펴보겠습니다. 커피 한잔 마시고, 다이빙에 빠져봅시다!
 ## 전제조건
@@ -77,3 +83,9 @@ Aspose.PSD for Java는 개발자가 Java를 사용하여 PSD 파일을 효율적
  문제가 발생하면 다음을 방문하세요.[지원 포럼](https://forum.aspose.com/c/psd/34) 도움을 위해.
 ### 임시 라이센스는 어떻게 얻을 수 있나요?
  다음을 요청할 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 제품을 완전히 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

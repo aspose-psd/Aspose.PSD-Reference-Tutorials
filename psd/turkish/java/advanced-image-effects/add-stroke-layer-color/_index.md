@@ -3,10 +3,16 @@ title: Aspose.PSD for Java'da Kontur Katmanı Rengi Ekleme
 linktitle: Kontur Katmanı Rengi Ekle
 second_title: Aspose.PSD Java API'si
 description: Kontur katmanı rengi eklemeyle ilgili adım adım kılavuzumuzla Aspose.PSD for Java'nın gücünü keşfedin. Grafik tasarımlarınızı zahmetsizce yükseltin.
-type: docs
 weight: 14
 url: /tr/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java'da Kontur Katmanı Rengi Ekleme
+
 ## giriiş
 
 Aspose.PSD ile Java uygulamanızın grafik tasarımının potansiyelini ortaya çıkarın. Bu derste Aspose.PSD for Java'yı kullanarak kontur katmanı rengi eklemenin büyüleyici dünyasına gireceğiz. Görsel olarak çekici tasarımları zahmetsizce yaratarak grafiklerinizi öne çıkan vuruşlarla geliştirin.
@@ -120,3 +126,9 @@ A2: Kesinlikle! Aspose.PSD, en yeni PSD dosya formatı spesifikasyonlarına ayak
 ### S5: Aspose.PSD için nereden geçici lisans alabilirim?
 
  A5: Bir tane edinin[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.PSD'nin projelerinizdeki yeteneklerini değerlendirmesi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

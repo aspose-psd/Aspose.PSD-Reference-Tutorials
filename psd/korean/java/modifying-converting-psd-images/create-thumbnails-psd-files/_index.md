@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에서 축소판 만들기
 linktitle: Java를 사용하여 PSD 파일에서 축소판 만들기
 second_title: Aspose.PSD 자바 API
 description: Java 및 Aspose.PSD를 사용하여 PSD 파일에서 썸네일을 쉽게 만드는 방법을 알아보세요. 원활한 이미지 처리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 24
 url: /ko/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에서 축소판 만들기
+
 ## 소개
 그래픽 디자인 세계에서는 PSD(Photoshop Document) 파일로 작업하는 것이 흔한 일입니다. 노련한 개발자, 그래픽 디자이너 또는 이미지 처리에 대해 자세히 알고 싶은 사람이라면 PSD 파일에서 썸네일을 만들면 시간을 절약하고 작업 흐름을 간소화할 수 있습니다. 이 튜토리얼은 Aspose.PSD for Java를 사용하는 전체 프로세스를 안내합니다. Aspose.PSD는 Photoshop 파일 관리를 위한 강력한 라이브러리일 뿐만 아니라 작업을 직관적이고 관리하기 쉽게 만듭니다. PSD 파일에서 썸네일을 효율적으로 만드는 방법을 배울 준비가 되셨습니까?
 ## 전제조건
@@ -112,3 +118,9 @@ Aspose.PSD는 개발자가 Photoshop 파일 작업을 할 수 있게 해주는 J
 아니요, Aspose.PSD는 Photoshop과 독립적으로 작동합니다.
 ### Aspose.PSD에 대한 자세한 정보는 어디서 찾을 수 있나요?
  당신은 확인할 수 있습니다[Aspose.PSD 문서](https://reference.aspose.com/psd/java/) 자세한 내용, 튜토리얼, 리소스를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

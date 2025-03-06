@@ -3,10 +3,16 @@ title: Support Length Record Data Properties in PSD - Java
 linktitle: Support Length Record Data Properties in PSD - Java
 second_title: Aspose.PSD Java API
 description: Learn how to manipulate PSD files with length record data properties in Java using Aspose.PSD. Follow this step-by-step guide for all the details.
-type: docs
 weight: 14
 url: /java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Support Length Record Data Properties in PSD - Java
+
 ## Introduction
 Have you ever worked with Photoshop files and wanted to manipulate layers or shapes programmatically? If so, you’ve stumbled upon the beauty of the Aspose.PSD for Java library. This powerful tool allows developers to interact with and modify PSD files seamlessly through Java code. In today’s article, we’ll be diving into how to support length record data properties in a PSD file using this library. 
 Whether you’re a seasoned Java developer or just starting out, this guide will walk you through everything you need to know, step by step. By the end, you’ll be able to open a PSD file, modify its vector shape properties, and save your changes—all without leaving the comfort of your Java environment. Let's roll up our sleeves and jump in!
@@ -96,3 +102,10 @@ You can manipulate layers, shapes, texts, path operations, and much more within 
 Yes, Aspose offers various libraries for different programming languages, including .NET and Python.
 ### Where can I find the documentation for Aspose.PSD?
 You can access the complete documentation [here](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidejte barvu vrstvy tahu v Aspose.PSD pro Javu
 linktitle: Přidat barvu vrstvy tahu
 second_title: Aspose.PSD Java API
 description: Prozkoumejte sílu Aspose.PSD pro Java pomocí našeho podrobného průvodce přidáním barvy vrstvy tahu. Vylepšete své grafické návrhy bez námahy.
-type: docs
 weight: 14
 url: /cs/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte barvu vrstvy tahu v Aspose.PSD pro Javu
+
 ## Zavedení
 
 Odemkněte potenciál grafického designu vaší Java aplikace s Aspose.PSD. V tomto tutoriálu se ponoříme do fascinujícího světa přidávání barvy vrstvy tahu pomocí Aspose.PSD pro Java. Vylepšete svou grafiku tahy, které praskají, a bez námahy vytvářejte vizuálně přitažlivé návrhy.
@@ -120,3 +126,9 @@ A2: Rozhodně! Aspose.PSD drží krok s nejnovějšími specifikacemi formátu s
 ### Q5: Kde mohu získat dočasnou licenci pro Aspose.PSD?
 
  A5: Získejte a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro Aspose.PSD k vyhodnocení jeho schopností ve vašich projektech.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

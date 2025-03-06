@@ -3,10 +3,16 @@ title: 支援 PSD 檔案中的中斷監視器 - Java
 linktitle: 支援 PSD 檔案中的中斷監視器 - Java
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 的中斷監視器中斷 Java 中長時間執行的 PSD 轉換。了解如何實現優雅的中斷並改善用戶體驗。
-type: docs
 weight: 24
 url: /zh-hant/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 支援 PSD 檔案中的中斷監視器 - Java
+
 ## 介紹
 
 這份綜合指南將為您提供在 Java 應用程式中利用中斷監視器的知識。我們將深入研究先決條件，引導您匯入必要的套件，並使用程式碼範例將流程分解為清晰的逐步說明。因此，請繫好安全帶，準備好掌控您的 PSD 轉換！
@@ -127,3 +133,9 @@ if (outputFile.exists()) {
 ### 使用中斷監視器對效能有影響嗎？
 
 使用中斷監視器的效能開銷通常是最小的。然而，中斷檢查的頻率`SaveImageWorker`會影響性能。在反應能力和效率之間取得平衡至關重要。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

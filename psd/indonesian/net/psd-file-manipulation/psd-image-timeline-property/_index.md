@@ -3,10 +3,16 @@ title: Properti Timeline Gambar PSD di Aspose.PSD untuk .NET
 linktitle: Properti Garis Waktu Gambar PSD
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi dunia pemrosesan gambar yang dinamis dengan Aspose.PSD untuk .NET. Memanipulasi garis waktu PSD dengan mudah. Unduh perpustakaannya sekarang!
-type: docs
 weight: 15
 url: /id/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Properti Timeline Gambar PSD di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Dalam lanskap pengembangan .NET yang terus berkembang, menjadi yang terdepan sangatlah penting. Aspose.PSD untuk .NET muncul sebagai alat yang ampuh, menawarkan banyak fitur untuk meningkatkan kemampuan pemrosesan gambar Anda. Salah satu fitur penting adalah Properti Garis Waktu Gambar PSD, yang memungkinkan Anda memanipulasi garis waktu gambar PSD Anda secara dinamis.
 ## Prasyarat
@@ -85,3 +91,9 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET, memastik
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk .NET?
 
  A5: Jelajahi dokumentasi yang komprehensif[Di Sini](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

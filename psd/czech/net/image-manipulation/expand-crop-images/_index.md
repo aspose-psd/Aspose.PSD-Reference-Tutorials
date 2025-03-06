@@ -3,10 +3,16 @@ title: Rozšiřování a ořezávání obrázků v Aspose.PSD pro .NET
 linktitle: Rozšiřování a ořezávání obrázků
 second_title: Aspose.PSD .NET API
 description: Naučte se dynamicky rozbalovat a ořezávat obrázky pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou manipulaci s obrázky.
-type: docs
 weight: 13
 url: /cs/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozšiřování a ořezávání obrázků v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Aspose.PSD for .NET je komplexní knihovna pro zpracování obrázků, která umožňuje vývojářům pracovat s různými formáty obrázků v jejich aplikacích .NET. Jednou z jeho výjimečných vlastností je schopnost snadno manipulovat s obrázky. V tomto tutoriálu se zaměříme na rozšiřování a ořezávání obrázků a poskytneme vám praktického průvodce k dosažení těchto úkolů pomocí Aspose.PSD.
@@ -98,3 +104,9 @@ Odpověď 1: Ano, Aspose.PSD podporuje širokou škálu obrazových formátů, v
 ### Q5: Kde mohu zakoupit Aspose.PSD pro .NET?
 
  A5: Knihovnu si můžete koupit na[Nákupní stránka Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

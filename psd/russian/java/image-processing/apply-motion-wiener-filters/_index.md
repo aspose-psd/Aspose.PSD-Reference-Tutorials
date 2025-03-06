@@ -3,10 +3,16 @@ title: Примените фильтры Винера движения с пом
 linktitle: Применить фильтры Винера движения
 second_title: Aspose.PSD Java API
 description: Освойте обработку изображений на Java с помощью Aspose.PSD. Применяйте фильтры Винера движения без особых усилий, используя наше пошаговое руководство.
-type: docs
 weight: 13
 url: /ru/java/image-processing/apply-motion-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените фильтры Винера движения с помощью Aspose.PSD для Java
+
 ## Введение
 
 В динамичном мире обработки изображений Aspose.PSD для Java выступает в качестве мощного инструмента, позволяющего разработчикам легко применять фильтры Винера движения. Это пошаговое руководство проведет вас через весь процесс, сделав манипулирование изображениями доступной задачей для разработчиков Java.
@@ -109,3 +115,9 @@ image.save(destName, new GifOptions());
 ### Вопрос 5: Как получить временную лицензию на Aspose.PSD для Java?
 
 A5: Приобретите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для целей тестирования и оценки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

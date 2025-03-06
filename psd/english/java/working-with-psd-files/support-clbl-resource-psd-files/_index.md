@@ -3,10 +3,16 @@ title: Support Clbl Resource in PSD Files using Java
 linktitle: Support Clbl Resource in PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn how to support and manipulate Clbl Resource in PSD files using Aspose.PSD for Java. This detailed guide covers prerequisites, step-by-step instructions, and FAQs.
-type: docs
 weight: 12
 url: /java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Support Clbl Resource in PSD Files using Java
+
 ## Introduction
 
 Have you ever found yourself working with PSD files and needed to manipulate layer resources programmatically? If you’re a Java developer, you’re in luck! With Aspose.PSD for Java, you can easily manage and edit PSD files, including handling the `ClblResource`—a special resource that controls the blending of clipped elements. In this tutorial, we’ll dive deep into how you can support and manipulate the `ClblResource` in your PSD files using Java. By the end, you’ll be well-equipped to handle this resource in your projects, ensuring you have full control over the appearance of your layered images.
@@ -156,3 +162,10 @@ Yes, a license is required for full functionality. You can get a [temporary lice
 
 ### How do I handle large PSD files?  
 Aspose.PSD for Java is designed to efficiently handle large PSD files, but you should ensure your system has adequate memory and processing power for optimal performance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

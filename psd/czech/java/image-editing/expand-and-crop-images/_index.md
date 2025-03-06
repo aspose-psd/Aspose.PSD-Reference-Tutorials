@@ -3,10 +3,16 @@ title: Rozbalte a ořízněte obrázky pomocí Aspose.PSD pro Javu
 linktitle: Rozbalte a ořízněte obrázky
 second_title: Aspose.PSD Java API
 description: Naučte se, jak rozbalit a oříznout obrázky v Javě pomocí Aspose.PSD. Návod krok za krokem pro efektivní zpracování obrazu.
-type: docs
 weight: 18
 url: /cs/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozbalte a ořízněte obrázky pomocí Aspose.PSD pro Javu
+
 ## Zavedení
 
 tomto tutoriálu prozkoumáme, jak používat Aspose.PSD pro Java k efektivnímu rozšiřování a ořezávání obrázků. Aspose.PSD je výkonná knihovna, která poskytuje širokou škálu funkcí pro práci se soubory PSD v aplikacích Java. V této příručce pokryjeme nezbytné předpoklady, import balíčků a rozebereme každý krok podrobným vysvětlením.
@@ -102,3 +108,9 @@ A2: Aspose.PSD samozřejmě poskytuje komerční licence pro vývojáře, což u
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
  A5: Ano, můžete prozkoumat Aspose.PSD s bezplatnou zkušební verzí. Stáhněte si to[zde](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

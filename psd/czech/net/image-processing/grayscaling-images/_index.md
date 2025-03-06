@@ -3,10 +3,16 @@ title: Odstínění šedi obrázků s Aspose.PSD pro .NET
 linktitle: Odstínění šedi obrázků s Aspose.PSD pro .NET
 second_title: Aspose.PSD .NET API
 description: Naučte se, jak bez námahy aplikovat efekty stupňů šedi na obrázky pomocí Aspose.PSD for .NET.
-type: docs
 weight: 14
 url: /cs/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odstínění šedi obrázků s Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vítejte v našem komplexním tutoriálu o obrázcích ve stupních šedi pomocí Aspose.PSD pro .NET! Stupňování šedi je výkonná technika, která může zvýšit vizuální přitažlivost vašich obrázků tím, že je převede do odstínů šedé. V této příručce vás provedeme procesem dosažení úžasných efektů ve stupních šedi bez námahy.
@@ -108,3 +114,9 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků, včetně PSD,
 ### Q5: Jak mohu zakoupit licenci pro Aspose.PSD pro .NET?
 
  A5: Můžete si koupit licenci od[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

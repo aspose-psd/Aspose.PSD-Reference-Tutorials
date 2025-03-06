@@ -3,10 +3,16 @@ title: إنشاء صور مصغرة من ملفات PSD باستخدام Java
 linktitle: إنشاء صور مصغرة من ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إنشاء صور مصغرة من ملفات PSD بسهولة باستخدام Java وAspose.PSD. اتبع دليلنا خطوة بخطوة لمعالجة الصور بسلاسة.
-type: docs
 weight: 24
 url: /ar/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء صور مصغرة من ملفات PSD باستخدام Java
+
 ## مقدمة
 في عالم التصميم الجرافيكي، يعد العمل باستخدام ملفات PSD (مستندات Photoshop) أمرًا شائعًا. سواء كنت مطورًا متمرسًا، أو مصمم رسومات، أو مجرد شخص يرغب في التعمق في معالجة الصور، فإن إنشاء صور مصغرة من ملفات PSD يمكن أن يوفر لك الوقت ويبسط سير عملك. سيرشدك هذا البرنامج التعليمي خلال العملية بأكملها باستخدام Aspose.PSD لـ Java. لا تعتبر Aspose.PSD مكتبة قوية لإدارة ملفات Photoshop فحسب، بل إنها تجعل المهمة التي بين يديك بديهية وسهلة الإدارة أيضًا. هل أنت مستعد لتعلم كيفية إنشاء صور مصغرة من ملفات PSD بكفاءة؟
 ## المتطلبات الأساسية
@@ -112,3 +118,9 @@ Aspose.PSD هي مكتبة Java تسمح للمطورين بالعمل مع مل
 لا، Aspose.PSD يعمل بشكل مستقل عن Photoshop.
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.PSD؟
  يمكنك الاطلاع على[وثائق Aspose.PSD](https://reference.aspose.com/psd/java/) لمزيد من التفاصيل والبرامج التعليمية والموارد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

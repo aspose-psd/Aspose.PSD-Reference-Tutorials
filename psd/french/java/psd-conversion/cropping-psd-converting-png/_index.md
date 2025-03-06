@@ -3,10 +3,16 @@ title: Recadrage du PSD lors de la conversion en PNG avec Aspose.PSD pour Java
 linktitle: Recadrage du PSD lors de la conversion en PNG
 second_title: API Java Aspose.PSD
 description: Apprenez à recadrer des fichiers PSD et à les convertir en PNG à l'aide d'Aspose.PSD pour Java. Améliorez vos applications Java avec un traitement d'image efficace.
-type: docs
 weight: 13
 url: /fr/java/psd-conversion/cropping-psd-converting-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrage du PSD lors de la conversion en PNG avec Aspose.PSD pour Java
+
 ## Introduction
 Dans le monde dynamique du développement Java, maîtriser un traitement d’image efficace est crucial. Ce didacticiel vous guidera tout au long du processus de recadrage des fichiers PSD lors de leur conversion en PNG à l'aide de la puissante bibliothèque Aspose.PSD pour Java. À la fin de ce guide étape par étape, vous disposerez des connaissances nécessaires pour améliorer vos applications Java grâce à une manipulation transparente des images.
 ## Conditions préalables
@@ -66,3 +72,9 @@ Absolument! Aspose.PSD est conçu pour gérer efficacement des images volumineus
  Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour demander de l'aide, partager vos expériences et signaler tout problème que vous rencontrez.
 ### Puis-je essayer Aspose.PSD pour Java avant d’acheter ?
  Certainement! Explorez les fonctionnalités de la bibliothèque avec un essai gratuit disponible[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

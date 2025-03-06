@@ -3,10 +3,16 @@ title: Expand and Crop Images with Aspose.PSD for Java
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
 description: Learn how to expand and crop images in Java using Aspose.PSD. Step-by-step guide for efficient image processing.
-type: docs
 weight: 18
 url: /java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Expand and Crop Images with Aspose.PSD for Java
+
 ## Introduction
 
 In this tutorial, we'll explore how to use Aspose.PSD for Java to expand and crop images efficiently. Aspose.PSD is a powerful library that provides a wide range of features for working with PSD files in Java applications. In this guide, we'll cover the necessary prerequisites, importing packages, and break down each step with detailed explanations.
@@ -102,3 +108,10 @@ A4: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to seek assi
 ### Q5: Is there a free trial available?
 
 A5: Yes, you can explore Aspose.PSD with a free trial. Download it [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

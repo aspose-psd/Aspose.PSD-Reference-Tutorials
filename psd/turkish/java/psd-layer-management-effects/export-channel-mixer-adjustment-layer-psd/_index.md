@@ -3,10 +3,16 @@ title: PSD'de Kanal Karıştırıcı Ayarlama Katmanını Dışa Aktarma - Java
 linktitle: PSD'de Kanal Karıştırıcı Ayarlama Katmanını Dışa Aktarma - Java
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak Kanal Karıştırıcı Ayarlama Katmanlarını PSD'ye nasıl aktaracağınızı öğrenin. RGB ve CMYK katmanlarını değiştirmek, değişiklikleri kaydetmek ve PNG'ye aktarmak için adım adım kılavuz.
-type: docs
 weight: 14
 url: /tr/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD'de Kanal Karıştırıcı Ayarlama Katmanını Dışa Aktarma - Java
+
 ## giriiş
 
 Görüntü düzenleme söz konusu olduğunda, özellikle Adobe Photoshop dosyalarında (PSD), katmanları verimli bir şekilde yönetmek çok önemlidir. Bu katmanlar arasında Kanal Karıştırıcı Ayarlama Katmanı, görüntünün renk dengesinin ayarlanmasında çok önemli bir rol oynar. Bu katmanları programlı olarak değiştirmek isteyen bir Java geliştiricisiyseniz, şanslısınız! Bu makalede, Aspose.PSD for Java kullanarak Kanal Karıştırıcı Ayarlama Katmanlarını dışa aktarma sürecinde size yol göstereceğiz. Bu kılavuzun sonunda RGB ve CMYK Kanal Karıştırıcı Ayarlama Katmanlarını kullanma, değişikliklerinizi kaydetme ve son görüntünüzü hem PSD hem de PNG formatlarında dışa aktarma konusunda iyi bir donanıma sahip olacaksınız.
@@ -168,3 +174,9 @@ Evet, Aspose.PSD for Java'yı kullanarak PSD dosyalarından oluşan bir dizinde 
 
 ### Aspose.PSD for Java'yı kullanmak için lisansa ihtiyacım var mı?  
  Evet, Aspose.PSD for Java lisanslı bir üründür. Bir[geçici lisans](https://purchase.aspose.com/temporary-license/) Tam lisansı test etmek veya satın almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

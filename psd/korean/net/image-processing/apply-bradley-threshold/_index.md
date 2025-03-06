@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에 Bradley 임계값 적용
 linktitle: Bradley 임계값 적용
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 Bradley Threshold를 사용하여 이미지 분할을 향상합니다. 효과적인 이진화를 위한 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에 Bradley 임계값 적용
+
 ## 소개
 
 .NET용 Aspose.PSD에 Bradley Threshold를 적용하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. .NET용 Aspose.PSD는 .NET 애플리케이션에서 Photoshop 파일로 작업할 수 있는 강력한 라이브러리입니다. Bradley Thresholding은 이미지 이진화에 사용되는 기술로, 배경에서 개체를 효과적으로 분리하는 데 도움이 됩니다.
@@ -90,3 +96,9 @@ A1: 예, Bradley Thresholding은 다양한 이미지 유형에 적합한 다용�
 ### Q5: Aspose.PSD 라이선스는 어디서 구입할 수 있나요?
 
  A5: 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

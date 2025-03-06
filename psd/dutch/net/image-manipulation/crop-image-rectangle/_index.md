@@ -3,10 +3,16 @@ title: Afbeeldingen bijsnijden per rechthoek in Aspose.PSD voor .NET
 linktitle: Afbeeldingen bijsnijden per rechthoek
 second_title: Aspose.PSD .NET-API
 description: Verbeter uw vaardigheden op het gebied van beeldmanipulatie in .NET met Aspose.PSD. Leer stapsgewijs afbeeldingen bijsnijden met behulp van rechthoeken voor precisie.
-type: docs
 weight: 11
 url: /nl/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen bijsnijden per rechthoek in Aspose.PSD voor .NET
+
 ## Invoering
 
 Op het gebied van .NET-programmering is het manipuleren en verbeteren van afbeeldingen een veel voorkomende taak, en Aspose.PSD voor .NET is een krachtige bibliotheek die dit proces vereenvoudigt. Deze tutorial richt zich op een fundamentele maar cruciale techniek voor beeldmanipulatie: afbeeldingen bijsnijden in een rechthoek. Aan het einde van deze handleiding heeft u een goed begrip van hoe u afbeeldingen nauwkeurig kunt bijsnijden met Aspose.PSD voor .NET.
@@ -110,3 +116,9 @@ A3: Aspose.PSD voor .NET is ontworpen om afbeeldingen van verschillende formaten
 ### Vraag 5: Waar kan ik aanvullende ondersteuning of assistentie vinden?
 
  A5: Bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34)om verbinding te maken met de gemeenschap en steun te zoeken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

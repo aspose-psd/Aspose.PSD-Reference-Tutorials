@@ -3,10 +3,16 @@ title: Поддержка слоев в формате AI с помощью Aspo
 linktitle: Поддержка слоев в формате AI с помощью Aspose.PSD для .NET
 second_title: Aspose.PSD .NET API
 description: Научитесь легко обрабатывать слои формата AI с помощью Aspose.PSD для .NET. Следуйте нашему пошаговому руководству для беспрепятственной интеграции и манипулирования.
-type: docs
 weight: 10
 url: /ru/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка слоев в формате AI с помощью Aspose.PSD для .NET
+
 Добро пожаловать в наше пошаговое руководство по использованию Aspose.PSD для .NET для обработки вспомогательных слоев в файлах формата AI. Aspose.PSD упрощает сложные задачи, упрощая разработчикам работу с AI-файлами в своих .NET-приложениях. В этом руководстве мы рассмотрим предварительные требования, импорт пространств имен и разобьем каждый пример на несколько шагов, чтобы обеспечить беспрепятственное обучение.
 ## Введение
 ### Что такое Aspose.PSD?
@@ -85,3 +91,9 @@ image.Save(outputFilePath + ".png", new PngOptions() { ColorType = PngColorType.
 ### Вопрос 5: Какие форматы изображений поддерживает Aspose.PSD для сохранения?
 
 A5: Aspose.PSD поддерживает различные форматы, включая PSD, PNG, JPEG и другие.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

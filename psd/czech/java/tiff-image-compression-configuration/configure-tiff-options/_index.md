@@ -3,10 +3,16 @@ title: Nakonfigurujte možnosti TIFF v Aspose.PSD pro Javu
 linktitle: Nakonfigurujte možnosti TIFF v Aspose.PSD pro Javu
 second_title: Aspose.PSD Java API
 description: Naučte se, jak konfigurovat možnosti TIFF v Aspose.PSD pro Java, pomocí podrobného průvodce. Ovládněte manipulaci s obrázky ukládáním souborů PSD jako vysoce kvalitních souborů TIFF.
-type: docs
 weight: 11
 url: /cs/java/tiff-image-compression-configuration/configure-tiff-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nakonfigurujte možnosti TIFF v Aspose.PSD pro Javu
+
 ## Zavedení
 
 Začneme diskusí o předpokladech, které musíte mít, než se ponoříte do kódování. Poté přejdeme k importu potřebných balíčků a nakonec vás provedeme podrobným návodem na konfiguraci možností TIFF v souborech PSD. Na konci tohoto článku budete nejen rozumět procesu, ale budete mít také praktické zkušenosti s jeho aplikací.
@@ -86,3 +92,9 @@ Pro zajištění nejlepší kvality zvolte bezeztrátový kompresní formát jak
 
 ### Potřebuji licenci k používání Aspose.PSD pro Javu?
 Ano, Aspose.PSD pro Java vyžaduje platnou licenci. Dočasnou licenci pro účely hodnocení můžete získat z webu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

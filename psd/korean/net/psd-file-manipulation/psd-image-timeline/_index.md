@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 PSD 이미지 타임라인 처리
 linktitle: PSD 이미지 타임라인 처리
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 PSD 이미지 타임라인을 손쉽게 처리하는 방법을 알아보세요. 프레임을 추가하고, 원활하게 전환하고, 이미지 편집 기술을 향상시키세요.
-type: docs
 weight: 17
 url: /ko/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 PSD 이미지 타임라인 처리
+
 ## 소개
 이미지 처리의 역동적인 세계에서 .NET용 Aspose.PSD는 PSD 이미지 타임라인 처리를 위한 강력한 솔루션을 제공하는 강력한 툴킷으로 돋보입니다. 숙련된 개발자이든 코딩 매니아이든 이 튜토리얼은 Aspose.PSD를 활용하여 이미지 타임라인을 쉽게 조작하는 과정을 안내합니다.
 ## 전제조건
@@ -80,3 +86,9 @@ A1: 아니요, Aspose.PSD는 .NET 애플리케이션용으로 특별히 설계�
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
  A5: Aspose.PSD 커뮤니티 포럼을 방문하세요.[여기](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

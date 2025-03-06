@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 對彩色影像套用高斯和維納濾波器
 linktitle: 對彩色影像應用高斯和維納濾波器
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 輕鬆增強您的彩色影像。逐步學習應用高斯和維納濾波器以獲得令人驚嘆的視覺效果。
-type: docs
 weight: 11
 url: /zh-hant/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 對彩色影像套用高斯和維納濾波器
+
 ## 介紹
 
 歡迎來到這個關於使用 Aspose.PSD for Java 對彩色影像應用高斯和維納濾波器的綜合教學。在本指南中，我們將逐步探索如何使用這些強大的濾鏡增強彩色影像，為您提供優化視覺內容的技能。
@@ -96,3 +102,9 @@ A4：是的，您可以連結多個濾鏡來實現複雜的影像處理效果。
 ### Q5：我可以在哪裡尋求 Aspose.PSD 相關查詢的支援？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

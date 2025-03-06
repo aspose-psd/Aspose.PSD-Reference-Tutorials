@@ -3,10 +3,16 @@ title: الثنائية مع العتبة الثابتة في Aspose.PSD لـ Ja
 linktitle: الثنائية مع عتبة ثابتة
 second_title: Aspose.PSD جافا API
 description: استكشف الثنائية باستخدام العتبة الثابتة في Aspose.PSD لـ Java. قم بتحويل الصور بسلاسة باستخدام دليلنا خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الثنائية مع العتبة الثابتة في Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مجال تطوير Java، أثبت Aspose.PSD أنه أداة قوية لمهام معالجة الصور. إحدى هذه العمليات الأساسية هي Binarization، وهي تقنية تعمل على تبسيط الصور عن طريق تحويلها إلى شكل ثنائي. سيرشدك هذا البرنامج التعليمي خلال عملية تحقيق الثنائية باستخدام عتبة ثابتة باستخدام Aspose.PSD لـ Java. استعد بينما نستكشف الخطوات المتضمنة في رحلة معالجة الصور التحويلية هذه.
@@ -101,3 +107,9 @@ rasterCachedImage.save(destName, new JpegOptions());
 ### س5: هل تتوفر نسخة تجريبية مجانية؟
 
  ج5: نعم، يمكنك استكشاف إمكانيات Aspose.PSD من خلال إصدار تجريبي مجاني[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

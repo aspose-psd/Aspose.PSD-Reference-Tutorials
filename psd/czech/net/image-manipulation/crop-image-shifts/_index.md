@@ -3,10 +3,16 @@ title: Oříznutí obrázků pomocí posunů v Aspose.PSD pro .NET
 linktitle: Oříznutí obrázků pomocí posunů
 second_title: Aspose.PSD .NET API
 description: Naučte se bez námahy ořezávat obrázky pomocí Aspose.PSD pro .NET. Postupujte podle našeho podrobného průvodce pro přesné úpravy obrazu.
-type: docs
 weight: 12
 url: /cs/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznutí obrázků pomocí posunů v Aspose.PSD pro .NET
+
 ## Zavedení
 
 V oblasti vývoje .NET vyniká Aspose.PSD jako výkonná sada nástrojů pro úlohy zpracování obrazu. Jednou z jeho pozoruhodných vlastností je schopnost přesně ořezávat obrázky díky funkci „Cropping by Shifts“. V tomto podrobném průvodci vás provedeme procesem bezproblémového oříznutí obrázků pomocí Aspose.PSD pro .NET.
@@ -105,3 +111,10 @@ Odpověď 1: Ano, Aspose.PSD podporuje různé formáty obrázků, což vám umo
 ### Q5: Mohu zakoupit Aspose.PSD pro .NET přímo z webu?
 
  A5: Ano, můžete si knihovnu bezpečně zakoupit od[nákupní stránku](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

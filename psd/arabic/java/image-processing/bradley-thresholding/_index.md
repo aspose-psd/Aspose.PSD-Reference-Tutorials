@@ -3,10 +3,16 @@ title: عتبة برادلي في Aspose.PSD لجافا
 linktitle: عتبة برادلي
 second_title: Aspose.PSD جافا API
 description: قم بتحسين جودة الصورة باستخدام Bradley Thresholding في Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لتحقيق الثنائية الفعالة للصور.
-type: docs
 weight: 16
 url: /ar/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عتبة برادلي في Aspose.PSD لجافا
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تطبيق Bradley Thresholding في Aspose.PSD لـ Java. سيرشدك هذا البرنامج التعليمي خلال عملية تطبيق Bradley Thresholding لتحسين جودة صورك. يوفر Aspose.PSD for Java مجموعة قوية من الأدوات لمعالجة الصور، ويعتبر Bradley Thresholding تقنية قيمة لثنائية الصور.
@@ -99,3 +105,9 @@ A1: عتبة برادلي هي أسلوب يستخدم لثنائية الصور
 ### س5: أين يمكنني العثور على المزيد من الدعم والموارد؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع واستكشاف[الوثائق](https://reference.aspose.com/psd/java/) للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

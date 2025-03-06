@@ -3,10 +3,16 @@ title: Aspose.PSD for Java 中的 Bradley 阈值
 linktitle: 布拉德利阈值
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 中的 Bradley Thresholding 增强图像质量。按照我们的分步指南进行有效的图像二值化。
-type: docs
 weight: 16
 url: /zh/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java 中的 Bradley 阈值
+
 ## 介绍
 
 欢迎阅读有关在 Aspose.PSD for Java 中实施 Bradley 阈值的综合指南。本教程将引导您完成应用 Bradley 阈值来提高图像质量的过程。Aspose.PSD for Java 提供了一套强大的图像处理工具，而 Bradley 阈值是一种有价值的图像二值化技术。
@@ -99,3 +105,9 @@ A4：是的，您可以使用 Aspose.PSD 提供的其他方法在保存更改之
 ### Q5：我可以在哪里找到更多支持和资源？
 
  A5：访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)寻求社区支持并探索[文档](https://reference.aspose.com/psd/java/)了解详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

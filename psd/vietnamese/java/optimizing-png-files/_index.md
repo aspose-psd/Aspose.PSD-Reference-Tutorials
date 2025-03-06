@@ -3,10 +3,16 @@ title: Tối ưu hóa tệp PNG
 linktitle: Tối ưu hóa tệp PNG
 second_title: API Java Aspose.PSD
 description: Khám phá các hướng dẫn toàn diện để tối ưu hóa tệp PNG bằng Aspose.PSD cho Java, bao gồm các bộ lọc, thay đổi màu nền, nén, độ phân giải, độ sâu bit và độ trong suốt.
-type: docs
 weight: 20
 url: /vi/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tối ưu hóa tệp PNG
+
 ## Giới thiệu
 
 Bạn đang muốn làm chủ việc tối ưu hóa tệp PNG với Aspose.PSD cho Java? Hướng dẫn chi tiết của chúng tôi bao gồm mọi thứ bạn cần biết để làm cho hình ảnh của bạn tỏa sáng. Từ việc áp dụng các bộ lọc đến thay đổi màu nền và nén tệp cho đến cài đặt độ phân giải, hướng dẫn này sẽ giúp bạn. Hãy đi sâu vào từng chủ đề từng bước để đảm bảo bạn tận dụng tối đa các tệp PNG của mình!
@@ -48,3 +54,9 @@ Khám phá cách đặt độ phân giải tệp PNG bằng Aspose.PSD cho Java 
 Tìm hiểu cách chỉ định độ sâu bit PNG bằng Aspose.PSD cho Java trong hướng dẫn từng bước chi tiết này.
 ### [Đặt độ trong suốt PNG trong Aspose.PSD cho Java](./set-png-transparency/)
 Tìm hiểu cách đặt độ trong suốt của PNG trong Aspose.PSD cho Java bằng hướng dẫn từng bước dễ dàng. Hoàn hảo cho các nhà phát triển và thiết kế đồ họa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일의 텍스트 부분 서식 지정
 linktitle: Java를 사용하여 PSD 파일의 텍스트 부분 서식 지정
 second_title: Aspose.PSD 자바 API
 description: 따라하기 쉬운 이 가이드에서 Aspose.PSD와 함께 Java를 사용하여 PSD 파일의 텍스트 부분 형식을 지정하는 방법을 알아보세요. 개발자와 디자이너에게 적합합니다.
-type: docs
 weight: 14
 url: /ko/java/psd-image-modification-conversion/format-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일의 텍스트 부분 서식 지정
+
 ## 소개
 
 점점 더 시각적으로 변하는 세상에서 그래픽과 텍스트를 효과적으로 조작하는 능력은 매우 중요합니다. 디자이너, 개발자 또는 단순히 놀라운 시각적 효과를 창출하려는 사람이든 관계없이 이러한 프로세스를 단순화하는 소프트웨어 도구는 판도를 바꿀 수 있습니다. 그러한 도구 중 하나는 Photoshop PSD 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리인 Java용 Aspose.PSD입니다. 이 기사에서는 Java를 사용하여 PSD 파일의 텍스트 부분 형식을 지정하는 방법을 살펴보겠습니다. 
@@ -188,3 +194,9 @@ JDK(Java Development Kit), Aspose.PSD 라이브러리 및 Java 프로그래밍�
 
 ### Aspose.PSD에 대한 자세한 정보는 어디서 찾을 수 있나요?
  자세한 사용 시나리오 및 API 참조에 대한 설명서를 확인할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

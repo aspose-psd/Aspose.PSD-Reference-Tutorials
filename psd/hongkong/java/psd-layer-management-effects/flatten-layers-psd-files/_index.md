@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD Java 展平 PSD 檔案中的圖層
 linktitle: 使用 Aspose.PSD Java 展平 PSD 檔案中的圖層
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 輕鬆展平和合併 PSD 檔案中的圖層。請按照此逐步指南來簡化 PSD 檔案管理。
-type: docs
 weight: 13
 url: /zh-hant/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD Java 展平 PSD 檔案中的圖層
+
 ## 介紹
 
 您是否曾經發現自己正在使用 Photoshop 檔案並希望有一種更簡單的方法來管理這些複雜的圖層？嗯，你很幸運！今天，我們將深入了解 Aspose.PSD for Java 的世界，這是一個功能強大的工具，可以讓以程式設計方式處理 PSD 檔案變得輕而易舉。我們將探索的便利功能之一是展平圖層。無論您想要拼合整個影像或選擇性地合併特定圖層，Aspose.PSD for Java 都能滿足您的需求。本教學將逐步引導您完成整個過程，確保您準備好自信地處理 PSD 檔案。
@@ -150,3 +156,9 @@ img.save(exportPath);
 
 ### 如果我嘗試合併不相鄰的圖層會發生什麼情況？  
 Aspose.PSD 可讓您合併任何圖層，無論其在圖層堆疊中的順序為何。合併過程將依指定組合所選圖層。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

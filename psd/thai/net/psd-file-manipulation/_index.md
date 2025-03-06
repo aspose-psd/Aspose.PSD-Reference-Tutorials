@@ -3,10 +3,16 @@ title: การจัดการไฟล์ PSD
 linktitle: การจัดการไฟล์ PSD
 second_title: Aspose.PSD .NET API
 description: จัดการเลเยอร์รูปแบบ AI ได้อย่างง่ายดายด้วย Aspose.PSD สำหรับ .NET เรียนรู้การส่งออกรูปภาพ PSD เป็น GIF จัดการส่วนข้อมูลภาพเคลื่อนไหว และจัดการสถานะของเลเยอร์
-type: docs
 weight: 21
 url: /th/net/psd-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการไฟล์ PSD
+
 ## การแนะนำ
 
 ฝึกฝนศิลปะการจัดการ PSD ด้วย Aspose.PSD สำหรับ .NET ตั้งแต่การจัดการเลเยอร์รูปแบบ AI ไปจนถึงการส่งออก GIF และการนำทางส่วนข้อมูลภาพเคลื่อนไหว ชุดบทช่วยสอนนี้จะแนะนำคุณได้อย่างราบรื่น ปรับปรุงรูปภาพด้วยเอฟเฟกต์สถานะเลเยอร์ ไทม์ไลน์ และการครอบตัดที่มีประสิทธิภาพ Aspose.PSD สำหรับ .NET ส่งเสริมการเดินทางที่สร้างสรรค์ของคุณ โดยนำเสนอบทช่วยสอนทีละขั้นตอนและสภาพแวดล้อมแบบมัลติเธรดเพื่อการส่งออกรูปภาพที่เหมาะสมที่สุด ยกระดับทักษะของคุณและเปลี่ยนประสบการณ์การออกแบบของคุณด้วย Aspose.PSD สำหรับ .NET
@@ -77,3 +83,9 @@ url: /th/net/psd-file-manipulation/
 สำรวจศิลปะของการครอบตัดไฟล์ PSD ใน .NET ด้วย Aspose.PSD ซึ่งเป็นชุดเครื่องมืออเนกประสงค์ ยกระดับเกมการจัดการภาพของคุณอย่างง่ายดาย
 ### [การส่งออกรูปภาพในสภาพแวดล้อมแบบมัลติเธรดด้วย Aspose.PSD สำหรับ .NET](./export-images-multi-thread/)
 ปรับปรุงการประมวลผลภาพ .NET ด้วย Aspose.PSD: ส่งออกรูปภาพในสภาพแวดล้อมแบบมัลติเธรด เพิ่มประสิทธิภาพและประสิทธิผลได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

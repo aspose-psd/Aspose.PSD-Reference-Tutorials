@@ -3,10 +3,16 @@ title: Thay thế Phông chữ trong Aspose.PSD cho Java
 linktitle: Thay thế phông chữ
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thay thế phông chữ trong hình ảnh bằng Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để thao tác phông chữ hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/advanced-image-manipulation/replace-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay thế Phông chữ trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của phát triển Java, thao tác với hình ảnh là một yêu cầu phổ biến. Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để xử lý các tệp PSD, cho phép các nhà phát triển thay thế phông chữ trong hình ảnh một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thay thế phông chữ từng bước bằng cách sử dụng Aspose.PSD cho Java.
@@ -84,3 +90,9 @@ Câu trả lời 2: Không, bạn có thể chỉ định bất kỳ phông ch�
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc thảo luận về các vấn đề liên quan đến Aspose.PSD ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

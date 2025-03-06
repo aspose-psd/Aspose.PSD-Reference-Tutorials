@@ -3,10 +3,16 @@ title: Manipulasi File PSD
 linktitle: Manipulasi File PSD
 second_title: Asumsikan.PSD .NET API
 description: Tangani lapisan format AI dengan mudah dengan Aspose.PSD untuk .NET. Pelajari cara mengekspor gambar PSD ke GIF, menangani bagian data animasi, dan memanipulasi status lapisan.
-type: docs
 weight: 21
 url: /id/net/psd-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi File PSD
+
 ## Perkenalan
 
 Kuasai seni manipulasi PSD dengan Aspose.PSD untuk .NET. Mulai dari menangani lapisan format AI hingga mengekspor GIF dan menavigasi bagian data animasi, seri tutorial ini memandu Anda dengan lancar. Sempurnakan gambar dengan efek status lapisan, garis waktu, dan pemangkasan yang efisien. Aspose.PSD untuk .NET memberdayakan perjalanan kreatif Anda, menawarkan tutorial langkah demi langkah dan lingkungan multi-utas untuk ekspor gambar optimal. Tingkatkan keterampilan Anda dan ubah pengalaman desain Anda dengan Aspose.PSD untuk .NET.
@@ -77,3 +83,9 @@ Pelajari cara memotong file PSD dengan mudah menggunakan Aspose.PSD untuk .NET. 
 Jelajahi seni pemotongan file PSD di .NET dengan Aspose.PSD, perangkat serbaguna. Tingkatkan permainan manipulasi gambar Anda dengan mudah.
 ### [Mengekspor Gambar di Lingkungan Multi-Threaded dengan Aspose.PSD untuk .NET](./export-images-multi-thread/)
 Tingkatkan pemrosesan gambar .NET dengan Aspose.PSD: Ekspor gambar dalam lingkungan multi-utas. Tingkatkan kinerja dan efisiensi dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

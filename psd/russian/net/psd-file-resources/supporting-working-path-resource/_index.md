@@ -3,10 +3,16 @@ title: Поддержка ресурса рабочего пути в Aspose.PSD
 linktitle: Поддержка ресурса рабочего пути
 second_title: Aspose.PSD .NET API
 description: Исследуйте возможности WorkingPathResource в Aspose.PSD для .NET. Повысьте точность изображения с помощью этого пошагового руководства.
-type: docs
 weight: 12
 url: /ru/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка ресурса рабочего пути в Aspose.PSD для .NET
+
 ## Введение
 Если вы разработчик .NET, занимающийся обработкой изображений, Aspose.PSD для .NET — ваше идеальное решение. В этом уроке мы углубимся в использование возможностей ресурса WorkingPathResource в Aspose.PSD. Эта важная функция повышает точность операции обрезки, гарантируя, что ваши изображения будут адаптированы именно так, как необходимо.
 ## Предварительные условия
@@ -88,3 +94,9 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 ### В5: Нужна временная лицензия?
 
  A5: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

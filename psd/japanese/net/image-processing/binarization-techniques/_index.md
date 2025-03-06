@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET のバイナリ化テクニック
 linktitle: 二値化技術
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET の高度な 2 値化手法について説明します。BinarizationWithFixedThreshold メソッドを使用して、カラー画像を簡単に 2 値化します。
-type: docs
 weight: 12
 url: /ja/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET のバイナリ化テクニック
+
 ## 導入
 
 画像処理の世界では、カラー画像をバイナリ画像に変換する機能は重要なステップです。バイナリ化により、複雑な画像を白黒のピクセルに減らして簡素化できるため、情報の分析や抽出が容易になります。Aspose.PSD for .NET は、堅牢なバイナリ化技術を含む、画像操作のための強力なツールを提供します。このチュートリアルでは、BinarizationWithFixedThreshold メソッドについて説明し、Aspose.PSD for .NET を使用して実装する方法について説明します。
@@ -104,3 +110,9 @@ A3: キャッシュにより、画像データがメモリに保存され、繰�
 ### Q5: Aspose.PSD の試用版はありますか?
 
  A5: はい、アクセスできます。[無料トライアル](https://releases.aspose.com/)購入する前に Aspose.PSD の機能を調べてください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

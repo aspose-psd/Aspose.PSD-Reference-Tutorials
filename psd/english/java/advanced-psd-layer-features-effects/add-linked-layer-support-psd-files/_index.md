@@ -3,10 +3,16 @@ title: Add Linked Layer Support in PSD Files using Java
 linktitle: Add Linked Layer Support in PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn how to add linked layer support in PSD files using Aspose.PSD for Java with this detailed step-by-step tutorial. Perfect for designers and developers.
-type: docs
 weight: 19
 url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Linked Layer Support in PSD Files using Java
+
 ## Introduction
 Adobe Photoshop's .PSD files are a favorite among graphic designers and digital artists due to their versatile layer management capabilities. As you dive into the world of manipulating PSD files programmatically, you might want to explore how linked layers can enhance your workflow. Linked layers allow users to maintain independent layer functionalities while keeping them managed as a cohesive unit. Enter Aspose.PSD for Java, a powerful library that makes working with Photoshop files a breeze. 
 In this article, we'll take a detailed look at how to add linked layer support in PSD files using the Aspose.PSD library in Java. Whether you’re a seasoned developer or a novice, this step-by-step guide will help you navigate through the task seamlessly.
@@ -99,3 +105,10 @@ Yes, you can try Aspose.PSD for Java for free. Check the [free trial link](https
 You can explore the extensive documentation [here](https://reference.aspose.com/psd/java/).
 ### How can I get support if I run into issues?
 If you encounter any issues, you can find help in the [support forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adjon hozzá egy új normál réteget a PSD-hez az Aspose.PSD for Java se
 linktitle: Adjon hozzá egy új szabályos réteget a PSD-hez
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan adhat hozzá új normál réteget PSD-fájlokhoz az Aspose.PSD for Java használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes PSD-manipuláció érdekében.
-type: docs
 weight: 11
 url: /hu/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá egy új normál réteget a PSD-hez az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban, amely az Aspose.PSD for Java használatáról szól, amellyel egy új normál réteget adhat hozzá egy PSD-fájlhoz. Az Aspose.PSD egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan kezeljék a PSD-fájlokat és dolgozzanak velük. Ebben az oktatóanyagban végigvezetjük Önt egy új normál réteg PSD-fájlhoz való hozzáadásának folyamatán, részletes lépésekkel és kódpéldákkal.
@@ -120,3 +126,9 @@ A2: Abszolút! Az Aspose.PSD számos átalakítási lehetőséget biztosít a r�
 ### 5. kérdés: Vannak közösségi fórumok az Aspose.PSD támogatására?
 
  V5: Igen, találhat támogatást és megbeszéléseket[itt](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

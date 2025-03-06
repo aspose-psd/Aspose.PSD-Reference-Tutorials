@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中使用 Otsu 阈值进行二值化
 linktitle: 使用 Otsu 阈值进行二值化
 second_title: Aspose.PSD Java API
 description: 在 Aspose.PSD for Java 中探索使用 Otsu Threshold 进行二值化。一种强大的图像分割技术。
-type: docs
 weight: 15
 url: /zh/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中使用 Otsu 阈值进行二值化
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何在 Aspose.PSD for Java 中使用 Otsu Threshold 执行二值化！在本教程中，我们将探索如何利用 Aspose.PSD for Java 库来增强您的图像处理能力。使用 Otsu Threshold 进行二值化是一种强大的图像分割技术，使用 Aspose.PSD 后，该技术变得既简单又高效。
@@ -103,3 +109,9 @@ A3：文档可用[这里](https://reference.aspose.com/psd/java/).
 ### 问题5：Aspose.PSD for Java 是否有临时许可证？
 
  A5：是的，您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

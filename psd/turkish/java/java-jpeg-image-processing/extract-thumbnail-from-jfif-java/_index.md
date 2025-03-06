@@ -3,10 +3,16 @@ title: Küçük Resmi Java'da JFIF'den Çıkarın
 linktitle: Küçük Resmi Java'da JFIF'den Çıkarın
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak JFIF görüntülerinden küçük resimleri nasıl çıkaracağınızı öğrenin. Adım adım kılavuz ve kod örnekleri içeren kapsamlı eğitim.
-type: docs
 weight: 14
 url: /tr/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Küçük Resmi Java'da JFIF'den Çıkarın
+
 ## giriiş
 Bu eğitimde Aspose.PSD for Java kullanarak JFIF görüntülerinden küçük resimlerin nasıl çıkarılacağını inceleyeceğiz. Aspose.PSD, geliştiricilerin PSD, PSB, BMP, JPEG, PNG ve diğer görüntü formatlarını programlı olarak değiştirmesine ve bunlarla çalışmasına olanak tanıyan güçlü bir Java kitaplığıdır. Küçük resimlerin çıkarılması, özellikle büyük resim kümeleri veya multimedya uygulamalarıyla uğraşırken, görüntü işlemede yaygın bir görevdir.
 ## Önkoşullar
@@ -78,3 +84,9 @@ Aspose.PSD for Java, geliştiricilerin PSD, PSB, BMP, JPEG, PNG ve diğer görü
  Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD for Java desteğini nasıl alabilirim?
  Aspose.PSD topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

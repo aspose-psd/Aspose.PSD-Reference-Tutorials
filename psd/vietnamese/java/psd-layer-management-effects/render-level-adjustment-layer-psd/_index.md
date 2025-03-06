@@ -3,10 +3,16 @@ title: Lớp điều chỉnh mức kết xuất trong tệp PSD - Java
 linktitle: Lớp điều chỉnh mức kết xuất trong tệp PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách dễ dàng nâng cao độ tương phản và độ sống động của hình ảnh bằng Aspose.PSD cho Java. Các lớp điều chỉnh cấp độ chính với hướng dẫn từng bước này.
-type: docs
 weight: 17
 url: /vi/java/psd-layer-management-effects/render-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lớp điều chỉnh mức kết xuất trong tệp PSD - Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ mở một tệp PSD chỉ để thấy hình ảnh thiếu độ tương phản hoặc độ sống động chưa? Đừng sợ, các chiến binh chỉnh sửa hình ảnh! Aspose.PSD dành cho Java được giải cứu nhờ khả năng thao tác Lớp điều chỉnh cấp độ mạnh mẽ. Hướng dẫn này sẽ trang bị cho bạn kiến thức để tinh chỉnh hình ảnh của bạn bằng cách sử dụng Cấp độ một cách dễ dàng. 
@@ -138,3 +144,9 @@ Có, bạn có thể kết hợp mã này vào tập lệnh xử lý vòng lặp
 
 ### Tôi có thể tìm thêm thông tin và hỗ trợ ở đâu?
 Aspose cung cấp tài liệu mở rộng ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)) và một diễn đàn hỗ trợ ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) nếu có bất kỳ câu hỏi hoặc vấn đề nào bạn có thể gặp phải.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

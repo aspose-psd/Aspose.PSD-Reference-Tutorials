@@ -3,10 +3,16 @@ title: Enregistrement d'images à diffuser avec Aspose.PSD pour .NET
 linktitle: Enregistrement d'images à diffuser avec Aspose.PSD pour .NET
 second_title: API Aspose.PSD.NET
 description: Explorez la puissance d'Aspose.PSD pour .NET et apprenez à enregistrer des images dans un flux sans effort. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 11
 url: /fr/net/file-saving-and-exporting/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrement d'images à diffuser avec Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le monde en constante évolution du développement .NET, Aspose.PSD se distingue comme un outil puissant pour gérer les images avec précision et efficacité. Si vous souhaitez enregistrer des images dans un flux à l'aide d'Aspose.PSD pour .NET, vous êtes au bon endroit. Ce didacticiel vous guidera tout au long du processus, en le décomposant en étapes faciles à suivre.
@@ -91,3 +97,9 @@ Félicitations! Vous avez appris avec succès comment enregistrer des images dan
 ### Q5 : Où puis-je acheter Aspose.PSD ?
 
  A5 : Vous pouvez acheter Aspose.PSD[ici](https://purchase.aspose.com/buy) pour libérer tout son potentiel pour vos besoins de développement.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

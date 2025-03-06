@@ -3,10 +3,16 @@ title: Sesuaikan Kotak Bound Lapisan Teks di PSD menggunakan Java
 linktitle: Sesuaikan Kotak Bound Lapisan Teks di PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menyesuaikan batas lapisan teks dalam file PSD menggunakan Java dengan Aspose.PSD. Panduan sederhana dengan petunjuk langkah demi langkah.
-type: docs
 weight: 25
 url: /id/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Kotak Bound Lapisan Teks di PSD menggunakan Java
+
 ## Perkenalan
 Dalam hal memanipulasi dokumen Photoshop secara terprogram, perpustakaan Aspose.PSD untuk Java sangat unggul. Jika Anda ingin menyesuaikan batas lapisan teks dalam file PSD, Anda berada di tempat yang tepat! Tutorial ini akan membawa Anda langkah demi langkah melalui proses penyesuaian kotak terikat lapisan teks menggunakan Java.
 Dengan contoh yang mudah diikuti dan sentuhan nada percakapan untuk membuat semuanya tetap menarik, Anda akan menemukan bahwa memanipulasi file PSD tidaklah sesulit kedengarannya. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan Java, Anda akan menemukan wawasan berharga di sini. Mari selami dunia manipulasi PSD yang menarik.
@@ -80,3 +86,9 @@ Ya, Aspose.PSD tersedia untuk berbagai platform pemrograman, termasuk .NET dan P
 Anda dapat menemukan dukungan dan diskusi komunitas di situs mereka[Asumsikan Forum](https://forum.aspose.com/c/psd/34).
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.PSD?
  Ya! Anda dapat mengunduh versi uji coba gratis dari[Asumsikan situs web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

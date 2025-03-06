@@ -3,10 +3,16 @@ title: Aplicar efecto de trazo con relleno de color en PSD - Java
 linktitle: Aplicar efecto de trazo con relleno de color en PSD - Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a aplicar un efecto de trazo con relleno de color a sus archivos PSD usando Aspose.PSD para Java. Siga esta guía paso a paso para mejorar sus imágenes con facilidad.
-type: docs
 weight: 21
 url: /es/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar efecto de trazo con relleno de color en PSD - Java
+
 ## Introducción
 
 En esta guía, lo guiaremos a través del proceso de aplicar un efecto de trazo con un relleno de color a sus archivos PSD usando Aspose.PSD para Java. Ya sea que sea un desarrollador experimentado o esté comenzando, este tutorial paso a paso le facilitará realizar el trabajo. Cubriremos todo, desde configurar su entorno hasta guardar la imagen final con los efectos aplicados.
@@ -144,3 +150,9 @@ Para revertir los cambios, deberá volver a cargar el archivo PSD original antes
 
 ### ¿La biblioteca Aspose.PSD para Java es de uso gratuito?
  Aspose.PSD para Java ofrece una prueba gratuita, pero para tener acceso completo a todas las funciones, deberá comprar una licencia. Puedes explorar el[comprar opciones](https://purchase.aspose.com/buy)en su sitio web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

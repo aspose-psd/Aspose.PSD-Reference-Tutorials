@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 将图像保存到磁盘
 linktitle: 使用 Aspose.PSD for .NET 将图像保存到磁盘
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 将图像保存到磁盘。按照此分步指南进行高效的图像处理。
-type: docs
 weight: 10
 url: /zh/net/file-saving-and-exporting/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 将图像保存到磁盘
+
 ## 介绍
 
 在动态的 .NET 开发世界中，Aspose.PSD 脱颖而出，成为无缝处理 PSD 图像的强大解决方案。本教程将指导您完成使用 Aspose.PSD for .NET 将图像保存到磁盘的过程。无论您是经验丰富的开发人员还是刚刚开始编码之旅，本分步指南都将帮助您有效利用 Aspose.PSD 的强大功能。
@@ -90,3 +96,9 @@ A1：是的，Aspose.PSD 支持多种图像格式，确保您的开发项目的�
 ### Q5: 我可以在哪里购买 Aspose.PSD for .NET？
 
  A5：您可以购买 Aspose.PSD for .NET[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

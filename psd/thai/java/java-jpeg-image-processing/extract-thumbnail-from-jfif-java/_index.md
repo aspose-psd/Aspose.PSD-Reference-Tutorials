@@ -3,10 +3,16 @@ title: แยกรูปขนาดย่อจาก JFIF ใน Java
 linktitle: แยกรูปขนาดย่อจาก JFIF ใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีแยกภาพขนาดย่อจากรูปภาพ JFIF โดยใช้ Aspose.PSD สำหรับ Java บทช่วยสอนที่ครอบคลุมพร้อมคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด
-type: docs
 weight: 14
 url: /th/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกรูปขนาดย่อจาก JFIF ใน Java
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีแยกภาพขนาดย่อจากรูปภาพ JFIF โดยใช้ Aspose.PSD สำหรับ Java Aspose.PSD เป็นไลบรารี Java อันทรงพลังที่ช่วยให้นักพัฒนาจัดการและทำงานกับ PSD, PSB, BMP, JPEG, PNG และรูปแบบรูปภาพอื่น ๆ โดยทางโปรแกรม การแยกภาพขนาดย่อเป็นงานทั่วไปในการประมวลผลภาพ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับภาพชุดใหญ่หรือแอปพลิเคชันมัลติมีเดีย
 ## ข้อกำหนดเบื้องต้น
@@ -78,3 +84,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารี Java ที
  คุณสามารถค้นหาเอกสาร[ที่นี่](https://reference.aspose.com/psd/java/).
 ### ฉันจะรับการสนับสนุน Aspose.PSD สำหรับ Java ได้อย่างไร
  คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.PSD[ที่นี่](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

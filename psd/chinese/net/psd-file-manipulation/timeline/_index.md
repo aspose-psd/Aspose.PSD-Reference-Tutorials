@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中使用时间线
 linktitle: 使用时间轴
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET Timeline 类增强 PSD 图像处理。轻松控制帧属性、图层状态并释放创意潜力。
-type: docs
 weight: 16
 url: /zh/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中使用时间线
+
 ## 介绍
 在动态的图形设计和图像处理世界中，控制和操作图像时间线的能力至关重要。Aspose.PSD for .NET 通过其 Timeline 类提供了强大的解决方案。此高级功能使用户能够更改 PsdImage 的时间线，例如更改帧延迟、编辑特定帧上的图层状态等。
 ## 先决条件
@@ -108,3 +114,9 @@ A2：Timeline 类是专门针对 PSD 图片设计的，GIF 操作可以参考 As
 ### Q5: 使用 Aspose.PSD for .NET 的主要好处是什么？
 
 A5：Aspose.PSD for .NET 提供高级图像处理功能、PSD 文件处理和高性能渲染。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

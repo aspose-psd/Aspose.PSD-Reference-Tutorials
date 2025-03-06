@@ -3,10 +3,16 @@ title: Aspose.PSD for Java でメディアン フィルターとウィーナー 
 linktitle: 中央値フィルターとウィーナーフィルターを適用する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して、Java での画像処理の威力を探ります。Median フィルターと Wiener フィルターを段階的に適用する方法を学びます。画像の品質を簡単に向上させます。
-type: docs
 weight: 12
 url: /ja/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java でメディアン フィルターとウィーナー フィルターを適用する
+
 ## 導入
 
 Java プログラミングの分野では、Aspose.PSD は画像の操作と処理のための強力なツールとして際立っています。このツールが提供する主要な機能の 1 つは、画像の品質を向上させ、ノイズを減らす上で重要な役割を果たしているメディアン フィルターとウィーナー フィルターの適用です。このステップ バイ ステップ ガイドでは、Aspose.PSD for Java を使用してこれらのフィルターを適用する手順を説明します。
@@ -101,3 +107,9 @@ A1: はい、Aspose.PSD は幅広い画像形式をサポートしているた�
 ### Q5: Aspose.PSD for Java を購入するにはどうすればよいですか?
 
 A5: 商品を購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

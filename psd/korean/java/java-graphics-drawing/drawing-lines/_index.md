@@ -3,10 +3,16 @@ title: Java로 선 그리기
 linktitle: Java로 선 그리기
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에 선을 그리는 방법을 알아보세요. Java 개발 기술을 향상시키세요.
-type: docs
 weight: 16
 url: /ko/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java로 선 그리기
+
 ## 소개
 Java 개발 영역에서 PSD(Photoshop Document) 파일을 프로그래밍 방식으로 조작하고 생성하는 것은 강력한 기능입니다. Aspose.PSD for Java는 개발자가 PSD 파일 내에서 직접 선, 모양, 이미지 그리기 등 다양한 작업을 수행할 수 있도록 지원합니다. 이 튜토리얼은 Java용 Aspose.PSD를 사용하여 선을 그리는 과정을 안내하고, 빠르게 시작하는 데 도움이 되는 명확한 단계와 예제를 제공합니다.
 ## 전제조건
@@ -74,3 +80,9 @@ Aspose.PSD for Java는 PSD 파일을 프로그래밍 방식으로 작업하기 �
  기술 지원을 받으려면 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
 ### Java용 Aspose.PSD의 임시 라이선스는 어디서 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

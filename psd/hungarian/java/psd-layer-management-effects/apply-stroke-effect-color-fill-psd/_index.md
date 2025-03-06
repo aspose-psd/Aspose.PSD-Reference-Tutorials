@@ -3,10 +3,16 @@ title: Alkalmazza a Stroke Effect színkitöltést a PSD-ben - Java
 linktitle: Alkalmazza a Stroke Effect színkitöltést a PSD-ben - Java
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan alkalmazhat körvonal-effektust színkitöltéssel a PSD-fájlokra az Aspose.PSD for Java segítségével. Kövesse ezt a lépésenkénti útmutatót a képek egyszerű javításához.
-type: docs
 weight: 21
 url: /hu/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazza a Stroke Effect színkitöltést a PSD-ben - Java
+
 ## Bevezetés
 
 Ebben az útmutatóban végigvezetjük az Aspose.PSD for Java használatával színkitöltésű körvonal-effektus alkalmazásának folyamatán a PSD-fájlokon. Akár tapasztalt fejlesztő vagy, akár csak most kezded, ez a lépésről lépésre ismertetett oktatóanyag megkönnyíti a munka elvégzését. A környezet beállításától a végső kép elmentéséig az alkalmazott effektusokkal mindenre kiterjedünk.
@@ -144,3 +150,9 @@ A módosítások visszaállításához újra kell töltenie az eredeti PSD-fájl
 
 ### Ingyenesen használható az Aspose.PSD for Java könyvtár?
  Az Aspose.PSD for Java ingyenes próbaverziót kínál, de az összes funkcióhoz való teljes hozzáféréshez licencet kell vásárolnia. Feltárhatod a[opciók vásárlása](https://purchase.aspose.com/buy) honlapjukon.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

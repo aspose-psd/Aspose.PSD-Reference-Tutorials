@@ -3,10 +3,16 @@ title: Obsługa warstw w formacie AI za pomocą Aspose.PSD dla .NET
 linktitle: Obsługa warstw w formacie AI za pomocą Aspose.PSD dla .NET
 second_title: Aspose.PSD API .NET
 description: Naucz się bez wysiłku obsługiwać warstwy w formacie AI dzięki Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację i manipulację.
-type: docs
 weight: 10
 url: /pl/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa warstw w formacie AI za pomocą Aspose.PSD dla .NET
+
 Witamy w naszym przewodniku krok po kroku dotyczącym wykorzystania Aspose.PSD dla .NET do obsługi warstw pomocniczych w plikach w formacie AI. Aspose.PSD upraszcza złożone zadania, ułatwiając programistom pracę z plikami AI w aplikacjach .NET. W tym samouczku omówimy wymagania wstępne, importowanie przestrzeni nazw i podzielimy każdy przykład na wiele kroków, aby zapewnić bezproblemową naukę.
 ## Wstęp
 ### Co to jest Aspose.PSD?
@@ -85,3 +91,9 @@ Odpowiedź 2: Tak, Aspose.PSD zapewnia funkcjonalność do pracy z warstwami tek
 ### P5: Jakie formaty obrazów są obsługiwane przy zapisywaniu przez Aspose.PSD?
 
 O5: Aspose.PSD obsługuje różne formaty, w tym PSD, PNG, JPEG i inne.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

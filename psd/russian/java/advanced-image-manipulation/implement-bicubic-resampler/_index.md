@@ -3,10 +3,16 @@ title: Реализуйте бикубический ресэмплер в Aspos
 linktitle: Реализуйте бикубический передискретизатор
 second_title: Aspose.PSD Java API
 description: Улучшите изменение размера изображения Java с помощью Aspose.PSD для Java Bicubic Resampler. Следуйте нашему пошаговому руководству для достижения превосходных результатов.
-type: docs
 weight: 12
 url: /ru/java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Реализуйте бикубический ресэмплер в Aspose.PSD для Java
+
 ## Введение
 
 В мире разработки Java достижение высококачественного изменения размера изображения является распространенным требованием. Aspose.PSD для Java предоставляет мощное решение с помощью Bicubic Resampler. Это пошаговое руководство проведет вас через процесс реализации Bicubic Resampler с использованием Aspose.PSD для Java. К концу этого руководства вы будете готовы расширить свои Java-приложения за счет превосходных возможностей изменения размера изображений.
@@ -91,3 +97,9 @@ imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 ### Вопрос 5: Как мне приобрести Aspose.PSD для Java?
 
  О5: Вы можете приобрести Aspose.PSD для Java на странице покупки.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

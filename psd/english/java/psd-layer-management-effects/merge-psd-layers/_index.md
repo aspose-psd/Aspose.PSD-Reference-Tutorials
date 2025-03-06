@@ -3,10 +3,16 @@ title: Merge PSD Layers with Aspose.PSD for Java
 linktitle: Merge PSD Layers with Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to merge PSD layers using Aspose.PSD for Java with this step-by-step tutorial. Perfect for developers looking to automate image processing tasks.
-type: docs
 weight: 11
 url: /java/psd-layer-management-effects/merge-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Merge PSD Layers with Aspose.PSD for Java
+
 ## Introduction
 
 Ever wondered how graphic designers achieve those intricate, layered images in Photoshop? The secret often lies in managing and merging layers within PSD files. If you're working with PSD files in Java, merging layers can be crucial for creating composite images, reducing file size, or preparing an image for export. But, tackling this task programmatically might sound daunting. Enter Aspose.PSD for Java, your ultimate toolkit for handling PSD files with ease. Whether you're a seasoned developer or just getting started, this tutorial will walk you through the process of merging PSD layers using Aspose.PSD for Java. By the end of this guide, you'll have a solid understanding of how to manipulate layers and save the final image in different formats—all from within your Java application.
@@ -105,3 +111,10 @@ No, Aspose.PSD for Java operates independently of Photoshop. It allows you to wo
 
 ### What happens if I don't set image options before saving?
 If you don't set image options, Aspose.PSD for Java will use default settings for the output format. However, it's good practice to specify options to ensure the output meets your requirements.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

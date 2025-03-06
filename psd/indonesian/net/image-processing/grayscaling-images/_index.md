@@ -3,10 +3,16 @@ title: Gambar Grayscaling dengan Aspose.PSD untuk .NET
 linktitle: Gambar Grayscaling dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menerapkan efek skala abu-abu dengan mudah ke gambar menggunakan Aspose.PSD untuk .NET.
-type: docs
 weight: 14
 url: /id/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gambar Grayscaling dengan Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif kami tentang gambar skala abu-abu menggunakan Aspose.PSD untuk .NET! Grayscaling adalah teknik ampuh yang dapat meningkatkan daya tarik visual gambar Anda dengan mengubahnya menjadi nuansa abu-abu. Dalam panduan ini, kami akan memandu Anda melalui proses mencapai efek skala abu-abu yang menakjubkan dengan mudah.
@@ -108,3 +114,9 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, termasuk PSD, BMP, PNG, dan
 ### Q5: Bagaimana cara membeli lisensi Aspose.PSD untuk .NET?
 
  A5: Anda dapat membeli lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

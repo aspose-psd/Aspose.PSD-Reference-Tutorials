@@ -3,10 +3,16 @@ title: Kết xuất lớp điền mẫu trong tệp PSD bằng Java
 linktitle: Kết xuất lớp điền mẫu trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách sử dụng Aspose.PSD cho Java để hiển thị các lớp điền mẫu trong tệp PSD với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 24
 url: /vi/java/advanced-psd-layer-features-effects/render-pattern-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất lớp điền mẫu trong tệp PSD bằng Java
+
 ## Giới thiệu
 Trong lĩnh vực thiết kế đồ họa, làm việc với các tài liệu Photoshop (PSD) chưa bao giờ mượt mà hơn nhờ các công cụ như Aspose.PSD cho Java. Nếu bạn đang dấn thân vào thế giới thao tác PSD, việc hiểu cách hiển thị các lớp tô màu mẫu một cách hiệu quả có thể giúp bạn tiết kiệm rất nhiều thời gian. Hãy tưởng tượng bạn có thể tự động hóa quy trình thiết kế hoặc điều chỉnh các lớp theo chương trình. Khá tuyệt phải không? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước cần thiết để tải tệp PSD, thao tác các lớp của nó và quản lý việc điền mẫu bằng Java. Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -134,3 +140,9 @@ Aspose.PSD cho Java là một thư viện cho phép các nhà phát triển làm
  Tuyệt đối! Bạn có thể nhận được sự giúp đỡ từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34).
 ### Tôi nên làm gì nếu gặp sự cố khi sử dụng Aspose.PSD?  
  Kiểm tra tài liệu để biết các mẹo khắc phục sự cố hoặc tìm kiếm trợ giúp trong phần[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

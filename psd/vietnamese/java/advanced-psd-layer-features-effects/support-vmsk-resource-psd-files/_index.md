@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên Vmsk trong tệp PSD bằng Java
 linktitle: Hỗ trợ tài nguyên Vmsk trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Quản lý dễ dàng tài nguyên Vmsk trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn toàn diện, từng bước lý tưởng cho cả nhà phát triển và nhà thiết kế.
-type: docs
 weight: 23
 url: /vi/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên Vmsk trong tệp PSD bằng Java
+
 ## Giới thiệu
 Khi làm việc với các tệp PSD (Tài liệu Photoshop), việc quản lý tài nguyên là rất quan trọng, đặc biệt là khi tích hợp các tính năng đặc biệt như tài nguyên Vmsk (Vector Mask). Tài nguyên Vmsk có thể trao quyền cho các nhà thiết kế bằng cách thêm các hình dạng vector phức tạp, cho phép họ tạo ra đồ họa tuyệt đẹp một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ thực hiện phương pháp thực hành để chỉ cho bạn cách hỗ trợ tài nguyên Vmsk trong tệp PSD bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển đang tìm cách nâng cao ứng dụng của mình hay nhà thiết kế đang tìm kiếm tự động hóa, hướng dẫn này sẽ hướng dẫn bạn qua quy trình từng bước, giúp bạn dễ dàng theo dõi và triển khai.
 ## Điều kiện tiên quyết
@@ -128,3 +134,9 @@ Bạn có thể lưu chúng trở lại dưới dạng tệp PSD hoặc xuất c
  Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.PSD để kiểm tra các tính năng của nó. Ghé thăm[liên kết dùng thử miễn phí](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD?
  Bạn có thể tham gia[diễn đàn giả định](https://forum.aspose.com/c/psd/34)để được hỗ trợ và trợ giúp khắc phục sự cố.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

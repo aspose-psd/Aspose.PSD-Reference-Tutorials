@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 擴充和裁切影像
 linktitle: 擴展和裁剪圖像
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD 在 Java 中擴充和裁切影像。高效影像處理的分步指南。
-type: docs
 weight: 18
 url: /zh-hant/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 擴充和裁切影像
+
 ## 介紹
 
 在本教程中，我們將探討如何使用 Aspose.PSD for Java 有效地擴展和裁剪圖像。 Aspose.PSD 是一個功能強大的函式庫，提供了在 Java 應用程式中處理 PSD 檔案的廣泛功能。在本指南中，我們將介紹必要的先決條件、匯入包，並透過詳細說明分解每個步驟。
@@ -102,3 +108,9 @@ A2：當然，Aspose.PSD 為開發人員提供商業許可，允許其在個人�
 ### Q5: 有免費試用嗎？
 
  A5：是的，您可以透過免費試用來探索 Aspose.PSD。下載它[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

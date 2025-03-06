@@ -3,10 +3,16 @@ title: Exporter un groupe de calques PSD vers une image à l'aide de Java
 linktitle: Exporter un groupe de calques PSD vers une image à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment exporter des groupes de calques PSD vers des images à l'aide d'Aspose.PSD pour Java avec ce guide étape par étape. Parfait pour les développeurs et les concepteurs.
-type: docs
 weight: 10
 url: /fr/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter un groupe de calques PSD vers une image à l'aide de Java
+
 ## Introduction
 
 Dans le monde de la conception numérique, la gestion des calques et l’exportation de parties spécifiques de votre travail peuvent changer la donne. Imaginez que vous disposez de ce superbe fichier Photoshop (PSD) multicouche et que vous souhaitez exporter uniquement un certain groupe de calques sous forme d'image. Cela semble délicat, non ? Eh bien, ce n’est pas obligatoire ! Avec Aspose.PSD pour Java, cette tâche devient non seulement gérable mais carrément simple. Cet article vous guidera tout au long du processus, en le décomposant en étapes faciles à suivre. À la fin, vous aurez le savoir-faire nécessaire pour gérer les calques PSD comme un pro.
@@ -119,3 +125,9 @@ Oui, vous pouvez modifier les calques, par exemple en appliquant des transformat
 
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
  Vous pouvez obtenir une licence temporaire auprès du[Page d'achat Aspose](https://purchase.aspose.com/temporary-license/). Cela vous permettra de tester toutes les fonctionnalités de la bibliothèque.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodaj warstwę dopasowania nasycenia odcienia do PSD
 linktitle: Dodaj warstwę dopasowania nasycenia odcienia do PSD
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak dodać warstwy dopasowania nasycenia odcienia do PSD przy użyciu Aspose.PSD dla Java, w tym kompleksowym samouczku krok po kroku. Ulepsz swój proces projektowania graficznego.
-type: docs
 weight: 14
 url: /pl/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj warstwę dopasowania nasycenia odcienia do PSD
+
 ## Wstęp
 Jeśli chodzi o projektowanie graficzne, manipulacja kolorami odgrywa kluczową rolę — w szczególności poprawianie odcienia, nasycenia i jasności może radykalnie zmienić nastrój i jakość każdego obrazu. Jednym ze skutecznych sposobów osiągnięcia tego jest użycie warstw dopasowania w programie Photoshop (pliki PSD). Jeśli chcesz programowo ulepszyć swoje pliki PSD przy użyciu języka Java, biblioteka Aspose.PSD jest tutaj, aby Ci pomóc! Ten samouczek przeprowadzi Cię przez kolejne etapy dodawania warstwy dopasowania nasycenia odcienia do plików PSD, dzięki czemu Twoja praca stanie się bardziej produktywna i wydajna.
 tym przewodniku omówimy wszystko, od importowania niezbędnych pakietów po najdrobniejsze szczegóły przykładów kodu.
@@ -102,3 +108,9 @@ Nie, Aspose.PSD to samodzielna biblioteka działająca niezależnie od programu 
 Tak, możesz zautomatyzować i przetwarzać wsadowo wiele plików PSD za pomocą Aspose.PSD.
 ### Czy Aspose.PSD jest darmowy?
 Aspose.PSD oferuje bezpłatną wersję próbną, ale do długotrwałego użytkowania wymagana jest licencja. Możesz zobaczyć ceny[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: دعم تأثير الظل في Aspose.PSD لجافا
 linktitle: دعم تأثير الظل
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة تأثيرات الظل الجذابة إلى الصور باستخدام Aspose.PSD لـ Java. ارفع مستوى تصميمك الجرافيكي من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/java/basic-image-operations/support-shadow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم تأثير الظل في Aspose.PSD لجافا
+
 ## مقدمة
 
 يعد تحسين الصور بتأثيرات الظل ممارسة شائعة في التصميم الجرافيكي، مما يضيف العمق والواقعية. يوفر Aspose.PSD for Java دعمًا قويًا لتأثيرات الظل، مما يسمح للمطورين بدمج هذه التأثيرات بسهولة في تطبيقات Java الخاصة بهم. في هذا البرنامج التعليمي، سنستكشف كيفية دعم تأثيرات الظل باستخدام Aspose.PSD، خطوة بخطوة.
@@ -108,3 +114,9 @@ im.save(psdPathAfterChange);
 ### س5: كيف يمكنني الحصول على دعم Aspose.PSD لـ Java؟
 
  ج5: انضم إلى منتدى المجتمع[هنا](https://forum.aspose.com/c/psd/34) لأية استفسارات الدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

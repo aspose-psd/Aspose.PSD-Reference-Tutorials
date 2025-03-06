@@ -3,10 +3,16 @@ title: Enregistrer des images à diffuser avec Aspose.PSD pour Java
 linktitle: Enregistrer des images pour diffuser
 second_title: API Java Aspose.PSD
 description: Découvrez comment enregistrer des images PSD dans un flux à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour un traitement d’image efficace.
-type: docs
 weight: 16
 url: /fr/java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer des images à diffuser avec Aspose.PSD pour Java
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment enregistrer des images dans un flux à l'aide d'Aspose.PSD pour Java. Aspose.PSD est une puissante bibliothèque Java pour traiter et manipuler les fichiers PSD (Photoshop Document). Si vous souhaitez améliorer votre application Java avec la possibilité d'enregistrer des images PSD dans un flux, suivez les étapes décrites dans ce guide.
@@ -97,3 +103,9 @@ A1 : Oui, Aspose.PSD est largement utilisé dans les projets Java professionnels
 ### Q5 : Où puis-je acheter la version complète d'Aspose.PSD pour Java ?
 
  A5 : Achetez la version complète[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

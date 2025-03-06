@@ -3,10 +3,16 @@ title: レイヤー効果
 linktitle: レイヤー効果
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET でレイヤー効果の魔法を発見しましょう。ストローク、シャドウ、ブレンド モードの追加方法を学習して、画像操作スキルを向上させましょう。
-type: docs
 weight: 29
 url: /ja/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# レイヤー効果
+
 ## 導入
 
 Aspose.PSD for .NET を使用すると、画像操作の可能性を最大限に引き出すことができます。この包括的なガイドでは、クリエイティブ プロセスを変革するさまざまなレイヤー効果を紹介します。ストロークやシャドウからブレンド モードまで、デザインを簡単に向上させることができます。
@@ -54,3 +60,9 @@ Aspose.PSD for .NET で画像を強化しましょう。影の効果をサポー
 この包括的なチュートリアルで、Aspose.PSD for .NET で影の効果の不透明度を調整する方法を学びます。
 ### [Aspose.PSD for .NET でのブレンド モードの操作](./working-with-blend-modes/)
 Aspose.PSD for .NET のブレンド モードの威力を探ります。このチュートリアルでは、ステップ バイ ステップの例を使用して、さまざまなブレンド モードを適用する方法について説明します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

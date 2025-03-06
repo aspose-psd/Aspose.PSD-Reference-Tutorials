@@ -3,10 +3,16 @@ title: Mediaan- en Wiener-filters toepassen in kleurenafbeeldingen met Aspose.PS
 linktitle: Mediaan- en Wiener-filters toepassen in kleurenafbeeldingen met Aspose.PSD voor .NET
 second_title: Aspose.PSD .NET-API
 description: Verbeter kleurenafbeeldingen en verwijder de ruis met Aspose.PSD voor .NET met behulp van Median- en Wiener-filters. Stapsgewijze handleiding voor naadloze beeldverwerking.
-type: docs
 weight: 11
 url: /nl/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mediaan- en Wiener-filters toepassen in kleurenafbeeldingen met Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom bij deze stapsgewijze handleiding voor het toepassen van Mediaan- en Wiener-filters in kleurenafbeeldingen met Aspose.PSD voor .NET. Aspose.PSD is een krachtige bibliotheek waarmee .NET-ontwikkelaars naadloos met PSD-bestanden kunnen werken. In deze zelfstudie onderzoeken we het proces van het toepassen van Mediaan- en Wiener-filters om kleurenafbeeldingen te verbeteren en ruis te verminderen.
@@ -95,3 +101,9 @@ A2: U kunt try-catch-blokken implementeren om uitzonderingen af te handelen die 
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD?
 
  A5: U kunt een tijdelijke licentie krijgen van[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

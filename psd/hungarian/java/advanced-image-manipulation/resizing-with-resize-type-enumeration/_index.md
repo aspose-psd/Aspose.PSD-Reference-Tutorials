@@ -3,10 +3,16 @@ title: Átméretezés a Resize Type Enumeration segítségével az Aspose.PSD fo
 linktitle: Átméretezés Resize Type Enumeration segítségével
 second_title: Aspose.PSD Java API
 description: Mester képméretezés Java nyelven az Aspose.PSD segítségével. Lépésről lépésre a Resize Type Enumeration használatával.
-type: docs
 weight: 18
 url: /hu/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átméretezés a Resize Type Enumeration segítségével az Aspose.PSD for Java fájlban
+
 ## Bevezetés
 
 A Java-fejlesztés folyamatosan változó környezetében a hatékony képfeldolgozás kulcsfontosságú szempont, amellyel a fejlesztők gyakran küzdenek. Az Aspose.PSD for Java hatékony megoldásként jelenik meg, zökkenőmentes élményt nyújtva a képek átméretezéséhez a Resize Type Enumeration további előnyével. Ebben az oktatóanyagban a képek Aspose.PSD for Java használatával történő átméretezésének bonyolultságába fogunk beleásni, az egyes lépéseket lebontva az átfogó megértés érdekében.
@@ -86,3 +92,9 @@ A1: Abszolút! Az Aspose.PSD for Java célja, hogy bármilyen méretű projektet
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
 
  V5: Ideiglenes engedély megszerzéséhez látogasson el a következő oldalra[ezt a linket](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

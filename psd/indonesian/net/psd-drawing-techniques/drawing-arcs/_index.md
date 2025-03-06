@@ -3,10 +3,16 @@ title: Menggambar Busur dengan Aspose.PSD untuk .NET
 linktitle: Menggambar Busur dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan Aspose.PSD untuk .NET dalam menggambar busur dengan mudah. Ikuti tutorial langkah demi langkah kami untuk mendapatkan grafik menakjubkan di aplikasi Anda.
-type: docs
 weight: 11
 url: /id/net/psd-drawing-techniques/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Busur dengan Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif kami tentang menggambar busur menggunakan Aspose.PSD untuk .NET! Aspose.PSD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Adobe Photoshop (.psd) di aplikasi .NET mereka. Dalam tutorial ini, kita akan fokus membuat busur yang menarik secara visual menggunakan perpustakaan Aspose.PSD.
@@ -110,3 +116,10 @@ Selamat! Anda telah berhasil mempelajari cara menggambar busur menggunakan Aspos
 ### Q5: Dapatkah saya mencoba Aspose.PSD untuk .NET secara gratis sebelum membeli?
 
  A5: Ya, Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rileva file PSD appiattiti utilizzando Aspose.PSD per Java
 linktitle: Rileva file PSD appiattiti utilizzando Aspose.PSD per Java
 second_title: API Java Aspose.PSD
 description: Scopri come rilevare i file PSD appiattiti utilizzando Aspose.PSD per Java, passo dopo passo in questo tutorial completo.
-type: docs
 weight: 10
 url: /it/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rileva file PSD appiattiti utilizzando Aspose.PSD per Java
+
 ## Introduzione
 
 Benvenuti nel mondo della manipolazione dei file PSD (Photoshop Document) con Aspose.PSD per Java! Se ti è mai capitato di dover lavorare con i livelli nei file Photoshop ma non sai da dove cominciare, sei nel posto giusto. In questo tutorial, approfondiremo come rilevare se un file PSD è stato appiattito utilizzando Aspose.PSD. Appiattire un PSD significa che tutti i suoi livelli vengono uniti in un unico livello unificato, il che può rendere la modifica un po' complicata in seguito. Alla fine di questa guida sarai in grado di verificare questo aspetto cruciale dei tuoi file PSD. Siediti, prendi il tuo caffè e tuffiamoci!
@@ -77,3 +83,9 @@ SÌ! Aspose.PSD può gestire vari formati di immagine, fornendo funzionalità es
 
 ### C'è un modo per testare Aspose.PSD gratuitamente?
  Assolutamente! Puoi iniziare una prova gratuita scaricando una versione di prova da[questo collegamento](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zdroje souborů PSD
 linktitle: Zdroje souborů PSD
 second_title: Aspose.PSD .NET API
 description: Odemkněte plný potenciál Aspose.PSD pro .NET pomocí našich výukových programů. Bezproblémově si osvojte barvu pozadí, informace o ohraničení, pracovní cestu a černobílé zdroje.
-type: docs
 weight: 31
 url: /cs/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zdroje souborů PSD
+
 
 ## Zavedení
 
@@ -39,3 +45,9 @@ Prozkoumejte funkci Border Information Resource Aspose.PSD for .NET pro vylepše
 Prozkoumejte sílu 'WorkingPathResource' v Aspose.PSD pro .NET. Vylepšete přesnost obrazu pomocí tohoto podrobného průvodce.
 ### [Podpora Black and White (Blwh) Resource v Aspose.PSD pro .NET](./supporting-black-and-white-blwh-resource/)
 Prozkoumejte pokročilé úpravy obrázků s Aspose.PSD pro .NET. Naučte se ovládat vrstvy úprav Black and White pro přesnou kontrolu nad prvky obrazu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

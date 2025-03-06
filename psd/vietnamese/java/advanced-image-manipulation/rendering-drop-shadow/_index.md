@@ -3,10 +3,16 @@ title: Áp dụng kết xuất bóng đổ trong Aspose.PSD cho Java
 linktitle: Áp dụng đổ bóng kết xuất
 second_title: API Java Aspose.PSD
 description: Khám phá hướng dẫn từng bước để áp dụng kết xuất bóng đổ trong Aspose.PSD cho Java, nâng cao kỹ năng xử lý hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng kết xuất bóng đổ trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Nếu bạn đang tìm hiểu sâu về xử lý hình ảnh bằng Java, Aspose.PSD là công cụ phù hợp để bạn thao tác liền mạch và hiệu quả với các tệp PSD. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình áp dụng hiệu ứng đổ bóng kết xuất bằng Aspose.PSD cho Java. Hãy thắt dây an toàn khi chúng tôi chia nhỏ các bước cho bạn.
@@ -125,3 +131,9 @@ Câu trả lời 3: Aspose.PSD cung cấp khả năng tương thích với nhi�
 ### Câu hỏi 5: Tôi có thể kiểm tra Aspose.PSD trước khi mua hàng không?
 
  Câu trả lời 5: Chắc chắn rồi, hãy sử dụng[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các khả năng trước khi cam kết mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

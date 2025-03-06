@@ -3,10 +3,16 @@ title: Voeg een kleurvullaag toe aan PSD-bestanden met behulp van Java
 linktitle: Voeg een kleurvullaag toe aan PSD-bestanden met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u eenvoudig een kleuropvullaag aan PSD-bestanden kunt toevoegen met behulp van Java en Aspose.PSD. Volg onze stap-voor-stap handleiding voor snellere ontwerpen.
-type: docs
 weight: 20
 url: /nl/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een kleurvullaag toe aan PSD-bestanden met behulp van Java
+
 ## Invoering
 Ooit gemerkt dat u Photoshop-bestanden programmatisch moest manipuleren, misschien om een vleugje kleur aan een ontwerp toe te voegen? Nou, je bent op de juiste plek beland. In dit artikel gaan we dieper in op het toevoegen van een kleuropvullaag aan PSD-bestanden (Photoshop Document) met behulp van Java en de Aspose.PSD-bibliotheek. Beschouw uw PSD-bestanden als een canvas en met slechts een paar regels code kunt u ze opnieuw schilderen.
 ## Vereisten
@@ -87,3 +93,9 @@ kunt met PSD-bestanden werken en de lagen, effecten en andere eigenschappen erva
  U kunt ondersteuning krijgen via de[Aspose-ondersteuningsforum](https://forum.aspose.com/c/psd/34).
 ### Waar kan ik Aspose.PSD kopen?  
  U kunt een licentie aanschaffen via de[Aspose aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

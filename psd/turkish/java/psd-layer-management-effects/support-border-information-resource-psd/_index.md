@@ -3,10 +3,16 @@ title: PSD'de Sınır Bilgi Kaynağını Destekleyin - Java
 linktitle: PSD'de Sınır Bilgi Kaynağını Destekleyin - Java
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java ile PSD dosyalarında kenarlık manipülasyonunda ustalaşın. Takip edilmesi kolay adımlarla kenarlık genişliğini, birimleri ve daha fazlasını değiştirmeyi öğrenin. PSD tasarımlarınızı programlı olarak geliştirin.
-type: docs
 weight: 23
 url: /tr/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD'de Sınır Bilgi Kaynağını Destekleyin - Java
+
 ## giriiş
 
 Hiç PSD dosyalarınızdaki sinir bozucu sınırları programlı olarak değiştirme ihtiyacı hissettiniz mi? Artık endişelenmeyin! Aspose.PSD for Java, PSD dosyalarınızdaki sınır bilgisi kaynaklarını yönetmenize yönelik güçlü ve kullanıcı dostu bir yol sunarak imdadınıza yetişiyor. Bu kapsamlı kılavuz, süreç boyunca size adım adım yol gösterecek ve sınırlarınızı daha önce hiç olmadığı şekilde kontrol altına almanıza yardımcı olacaktır.
@@ -136,3 +142,9 @@ Aspose.PSD performans için optimize edilmiştir ancak büyük PSD dosyalarını
 ### Daha fazla bilgi ve desteği nerede bulabilirim?
 
 Aspose.PSD for Java belgeleri, API ve yetenekleri hakkında derinlemesine ayrıntılar için mükemmel bir kaynaktır. Ayrıca yardım almak ve diğer geliştiricilerle etkileşimde bulunmak için Aspose forumlarını da ziyaret edebilirsiniz. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

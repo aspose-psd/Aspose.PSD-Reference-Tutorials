@@ -3,10 +3,16 @@ title: Enregistrement d'images sur disque avec Aspose.PSD pour .NET
 linktitle: Enregistrement d'images sur disque avec Aspose.PSD pour .NET
 second_title: API Aspose.PSD.NET
 description: Découvrez comment enregistrer des images sur le disque à l'aide d'Aspose.PSD pour .NET. Suivez ce guide étape par étape pour un traitement d’image efficace.
-type: docs
 weight: 10
 url: /fr/net/file-saving-and-exporting/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrement d'images sur disque avec Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le monde dynamique du développement .NET, Aspose.PSD se distingue comme une solution robuste pour gérer les images PSD de manière transparente. Ce didacticiel vous guidera tout au long du processus d'enregistrement des images sur le disque à l'aide d'Aspose.PSD pour .NET. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours de codage, ce guide étape par étape vous aidera à exploiter efficacement la puissance d'Aspose.PSD.
@@ -90,3 +96,9 @@ A1 : Oui, Aspose.PSD prend en charge une variété de formats d'image, garantiss
 ### Q5 : Où puis-je acheter Aspose.PSD pour .NET ?
 
  A5 : Vous pouvez acheter Aspose.PSD pour .NET[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

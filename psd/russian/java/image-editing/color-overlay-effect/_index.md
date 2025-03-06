@@ -3,10 +3,16 @@ title: Примените эффект наложения цвета в Aspose.P
 linktitle: Применить эффект наложения цвета
 second_title: Aspose.PSD Java API
 description: Откройте для себя магию эффектов наложения цвета в Aspose.PSD для Java. Улучшите свою игру по редактированию изображений с помощью этого пошагового руководства.
-type: docs
 weight: 10
 url: /ru/java/image-editing/color-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените эффект наложения цвета в Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в мир графического дизайна и манипулирования изображениями с помощью Aspose.PSD для Java! В этом уроке мы углубимся в применение эффекта наложения цвета для улучшения ваших изображений. Эта мощная библиотека Java позволяет эффективно работать с PSD-файлами, предоставляя широкий набор функций для обработки изображений.
@@ -110,3 +116,9 @@ A1: Нет, к одному слою может быть применен тол
 ### Вопрос 5: Существуют ли какие-либо бесплатные пробные версии для Aspose.PSD?
 
  A5: Да, изучите[бесплатная пробная версия](https://releases.aspose.com/) версию перед совершением покупки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

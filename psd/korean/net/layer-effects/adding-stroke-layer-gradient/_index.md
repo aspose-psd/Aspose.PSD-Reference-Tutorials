@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에 그라데이션이 포함된 스트로크 레이어
 linktitle: 그라디언트를 사용하여 획 레이어 추가
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 그라데이션 스트로크 레이어를 추가하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 이미지 조작 기술을 향상시키세요.
-type: docs
 weight: 12
 url: /ko/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에 그라데이션이 포함된 스트로크 레이어 추가
+
 ## 소개
 
 놀라운 그래픽 효과로 .NET 애플리케이션을 향상시키려는 경우 .NET용 Aspose.PSD가 가장 적합한 솔루션입니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 그라데이션이 포함된 스트로크 레이어를 추가하는 과정을 자세히 살펴보겠습니다. 이 단계별 가이드를 통해 이미지의 시각적 매력을 쉽게 높일 수 있습니다.
@@ -119,3 +125,9 @@ A1: 예, .NET용 Aspose.PSD는 다양한 .NET 프레임워크와 호환됩니다
 ### Q5: .NET용 Aspose.PSD 라이선스를 어떻게 구매하나요?
 
  A5: 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

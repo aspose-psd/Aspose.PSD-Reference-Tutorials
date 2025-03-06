@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에 렌더링 그림자 적용
 linktitle: 렌더링 그림자 적용
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD for Java에서 렌더링 그림자를 적용하여 이미지 처리 기술을 손쉽게 향상시키는 단계별 가이드를 살펴보세요.
-type: docs
 weight: 16
 url: /ko/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에 렌더링 그림자 적용
+
 ## 소개
 
 Java를 사용하여 이미지 처리를 시작하는 경우 Aspose.PSD는 PSD 파일을 원활하고 효율적으로 조작하기 위한 도구입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 렌더링 그림자를 적용하는 과정을 살펴보겠습니다. 버클을 채우세요. 우리가 당신을 위해 단계를 분석해 드릴 것입니다.
@@ -125,3 +131,9 @@ A3: Aspose.PSD는 다양한 PSD 파일 버전과의 호환성을 제공하여 �
 ### Q5: 구매하기 전에 Aspose.PSD를 테스트할 수 있나요?
 
  A5: 물론입니다.[무료 평가판](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

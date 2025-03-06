@@ -3,10 +3,16 @@ title: जावा में आयत बनाना
 linktitle: जावा में आयत बनाना
 second_title: Aspose.PSD जावा एपीआई
 description: जावा के लिए Aspose.PSD का उपयोग करके छवियों पर आयत बनाना सीखें। यह ट्यूटोरियल जावा डेवलपर्स को चरण-दर-चरण मार्गदर्शन करता है। छवि हेरफेर कार्यों के लिए बिल्कुल सही।
-type: docs
 weight: 17
 url: /hi/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में आयत बनाना
+
 ## परिचय
 जावा विकास की दुनिया में, प्रोग्रामेटिक रूप से छवियों को हेरफेर करना और उत्पन्न करना विभिन्न अनुप्रयोगों में एक सामान्य आवश्यकता है। ऐसा ही एक कार्य अक्सर छवियों पर आयतों जैसी आकृतियाँ बनाना होता है। Aspose.PSD for Java इसे कुशलतापूर्वक पूरा करने के लिए उपकरणों और कार्यात्मकताओं का एक मजबूत सेट प्रदान करता है। यह ट्यूटोरियल आपको Aspose.PSD for Java का उपयोग करके छवि पर आयत बनाने की प्रक्रिया के माध्यम से चरण-दर-चरण मार्गदर्शन करेगा।
 ## आवश्यक शर्तें
@@ -84,3 +90,9 @@ image.save(outpath, saveOptions);
  आप अधिक उदाहरण और विस्तृत दस्तावेज़ देख सकते हैं[Aspose.PSD for Java दस्तावेज़ीकरण](https://reference.aspose.com/psd/java/).
 ### क्या Aspose.PSD for Java BMP के अलावा अन्य छवि प्रारूपों का समर्थन करता है?
 हां, Java के लिए Aspose.PSD PNG, JPEG, TIFF और GIF सहित छवि प्रारूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

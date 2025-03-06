@@ -3,10 +3,16 @@ title: Görüntü İşleme
 linktitle: Görüntü İşleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD ile .NET projelerinizi geliştirin! Zahmetsizce birleştirme, kırpma, yeniden boyutlandırma, döndürme ve efekt ekleme gibi görüntü işleme tekniklerini öğrenin.
-type: docs
 weight: 26
 url: /tr/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü İşleme
+
 ## giriiş
 
 Görüntü manipülasyonu, .NET ile çalışan herhangi bir geliştirici veya tasarımcı için hayati bir beceridir ve Aspose.PSD for .NET, yeteneklerinizi geliştirmek için güçlü bir araç seti sağlar. Bu derste, kullanılarak sorunsuz bir şekilde uygulanabilecek çeşitli görüntü işleme tekniklerini inceleyeceğiz.[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Aspose.PSD for .NET'te Outer Glow Effect'in gücünü keşfedin. Bu adım adım 
 Aspose.PSD for .NET'te Degrade Kaplama Efekti oluşturma sanatında ustalaşın. Bu adım adım eğitimle grafik tasarım becerilerinizi geliştirin.
 ### [Aspose.PSD for .NET'te Degrade Kaplama Efektini Destekleme](./supporting-gradient-overlay-effect/)
 Aspose.PSD ile .NET'teki grafikleri geliştirin. Bu eğitim, Degrade Kaplama Efektlerini destekleme konusunda size yol gösterir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

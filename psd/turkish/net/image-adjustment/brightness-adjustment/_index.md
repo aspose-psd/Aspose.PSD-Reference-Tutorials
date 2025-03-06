@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Parlaklık Ayarını Uygulama
 linktitle: Parlaklık Ayarını Uygulama
 second_title: Aspose.PSD .NET API'si
 description: Görüntü parlaklığını ayarlama konusunda Aspose.PSD for .NET'in gücünü keşfedin. Sorunsuz uygulama için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Parlaklık Ayarını Uygulama
+
 ## giriiş
 
 Görüntü niteliklerini geliştirmek ve ayarlamak çeşitli uygulamalarda yaygın bir gereksinimdir ve Aspose.PSD for .NET, PSD dosyalarını sorunsuz bir şekilde işlemek için güçlü bir çözüm sunar. Bu tür manipülasyonlardan biri, bir görüntünün parlaklığını zahmetsizce değiştirmenize olanak tanıyan parlaklık ayarıdır.
@@ -97,3 +103,9 @@ Aspose.PSD for .NET, PSD dosyalarında parlaklık ayarlarının uygulanması sü
 ### S5: Aspose.PSD for .NET için geçici lisansı nasıl edinebilirim?
 
  Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

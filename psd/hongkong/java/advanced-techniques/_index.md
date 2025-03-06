@@ -3,10 +3,16 @@ title: 先進技術
 linktitle: 先進技術
 second_title: Aspose.PSD Java API
 description: 透過 Aspose.PSD 教學輕鬆掌握 Java 影像處理的進階技術。灰階、載入、轉換、渲染文字、高效保存等等！
-type: docs
 weight: 22
 url: /zh-hant/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 先進技術
+
 ## 介紹
 
 您準備好提升 Java 影像處理技能了嗎？深入了解我們的 Aspose.PSD for Java 綜合教程，解鎖高級技術領域。讓我們詳細探討一些關鍵教學：
@@ -85,3 +91,9 @@ url: /zh-hant/java/advanced-techniques/
 學習使用 Aspose.PSD for Java 輕鬆調整圖像伽瑪。請遵循我們的逐步指南以獲得最佳結果。
 ### [使用 Aspose.PSD for Java 模糊影像](./blur-image/)
 學習使用 Aspose.PSD 在 Java 中模糊影像。遵循我們的逐步指南以獲得專業結果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

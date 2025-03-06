@@ -3,10 +3,16 @@ title: التلاعب بالنصوص والخطوط
 linktitle: التلاعب بالنصوص والخطوط
 second_title: Aspose.PSD.NET API
 description: قم بتعظيم تطبيقات .NET الخاصة بك باستخدام Aspose.PSD لبرامج .NET التعليمية! تعلم كيفية عرض النص بألوان نابضة بالحياة واستبدال الخطوط المفقودة بسلاسة.
-type: docs
 weight: 22
 url: /ar/net/text-and-font-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالنصوص والخطوط
+
 
 ## مقدمة
 
@@ -45,3 +51,9 @@ url: /ar/net/text-and-font-manipulation/
 قم بتحسين تطبيقات .NET الخاصة بك عن طريق إتقان عرض النص بألوان متنوعة في ملفات PSD باستخدام Aspose.PSD. ارفع قدرات التصميم الخاصة بك دون عناء.
 ### [إعداد استبدال الخطوط المفقودة في Aspose.PSD لـ .NET](./replace-missing-fonts/)
 أطلق العنان لإمكانات Aspose.PSD لـ .NET! تعلم كيفية استبدال الخطوط المفقودة بسلاسة من خلال دليلنا التفصيلي خطوة بخطوة. ارفع مستوى لعبة التصميم الخاصة بك اليوم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

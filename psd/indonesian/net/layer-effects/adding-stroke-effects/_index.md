@@ -3,10 +3,16 @@ title: Menambahkan Efek Stroke ke Lapisan di Aspose.PSD untuk .NET
 linktitle: Menambahkan Efek Stroke ke Layers
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan estetika gambar dengan Aspose.PSD untuk .NET. Pelajari cara menambahkan efek guratan selangkah demi selangkah. Unduh, beli, atau coba uji coba gratis sekarang.
-type: docs
 weight: 10
 url: /id/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Efek Stroke ke Lapisan di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang menambahkan efek guratan ke lapisan di Aspose.PSD untuk .NET. Meningkatkan daya tarik visual gambar Anda sangatlah mudah dengan efek guratan, dan Aspose.PSD menjadikannya lancar bagi pengembang .NET. Dalam panduan ini, kami akan memandu Anda melalui prosesnya, memberikan langkah-langkah dan contoh yang jelas untuk membantu Anda menguasai fitur canggih ini.
@@ -109,3 +115,9 @@ A4: Ya, Anda dapat mengulang beberapa file PSD dan menerapkan efek guratan mengg
 ### Q5: Dapatkah saya menggunakan versi uji coba sebelum membeli Aspose.PSD?
 
  A5: Tentu saja! Ambil itu[uji coba gratis](https://releases.aspose.com/) untuk mengeksplorasi kemampuan Aspose.PSD sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

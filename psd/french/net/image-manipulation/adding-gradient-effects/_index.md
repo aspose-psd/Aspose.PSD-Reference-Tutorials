@@ -3,10 +3,16 @@ title: Ajout d'effets de dégradé aux images dans Aspose.PSD pour .NET
 linktitle: Ajout d'effets de dégradé aux images
 second_title: API Aspose.PSD.NET
 description: Améliorez vos images avec des effets de dégradé captivants à l'aide d'Aspose.PSD pour .NET. Suivez notre tutoriel étape par étape pour des transformations visuelles créatives.
-type: docs
 weight: 11
 url: /fr/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout d'effets de dégradé aux images dans Aspose.PSD pour .NET
+
 ## Introduction
 
 L'amélioration des images avec des effets de dégradé peut ajouter une dimension captivante à votre contenu visuel. Aspose.PSD pour .NET fournit une plate-forme puissante pour incorporer des superpositions de dégradés dans vos images. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'effets de dégradé à l'aide d'Aspose.PSD pour .NET.
@@ -148,3 +154,9 @@ A3 : Oui, vous pouvez explorer les capacités d'Aspose.PSD pour .NET en téléc
 ### Q5 : Où puis-je acheter Aspose.PSD pour .NET ?
 
  A5 : Vous pouvez acheter la bibliothèque auprès du[Page d'achat Aspose.PSD pour .NET](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

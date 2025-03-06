@@ -3,10 +3,16 @@ title: JPEG képtájolás automatikus javítása Java nyelven
 linktitle: JPEG képtájolás automatikus javítása Java nyelven
 second_title: Aspose.PSD Java API
 description: Ismerje meg a JPEG kép tájolásának automatikus javítását Java nyelven az Aspose.PSD segítségével. Fejlessze képfeldolgozási készségeit könnyedén.
-type: docs
 weight: 12
 url: /hu/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# JPEG képtájolás automatikus javítása Java nyelven
+
 ## Bevezetés
 A mai digitális korban a képek programozott manipulálása és optimalizálása döntő fontosságú feladattá vált a fejlesztők számára a különböző területeken. Az Aspose.PSD for Java robusztus eszközökkel ruházza fel a fejlesztőket a PSD, JPEG és más képformátumok hatékony kezelésére. Ez az oktatóanyag egy konkrét feladattal foglalkozik: a JPEG kép tájolásának automatikus javítása az Aspose.PSD for Java segítségével. Akár fotószerkesztő alkalmazást épít, akár tartalomkezelő rendszerben kezeli a képerőforrásokat, akár automatizálja a képfeldolgozási munkafolyamatokat, ez az útmutató felvértezi a szükséges ismeretekkel ahhoz, hogy zökkenőmentesen integrálja ezt a funkciót Java-alkalmazásaiba.
 ## Előfeltételek
@@ -71,3 +77,9 @@ Igen, támogatja a különféle képkezelési feladatokat, például az átmére
  Átfogó dokumentáció áll rendelkezésre[itt](https://reference.aspose.com/psd/java/).
 ### Kipróbálhatom ingyenesen az Aspose.PSD for Java-t?
  Igen, ingyenes próbaverziót kaphat a webhelyen[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

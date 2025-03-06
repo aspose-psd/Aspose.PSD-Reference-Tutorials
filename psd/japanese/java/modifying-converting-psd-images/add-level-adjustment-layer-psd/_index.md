@@ -3,10 +3,16 @@ title: PSDにレベル調整レイヤーを追加する
 linktitle: PSDにレベル調整レイヤーを追加する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイルにレベル調整レイヤーを効果的に追加する方法を学習します。画像編集スキルを向上させます。
-type: docs
 weight: 16
 url: /ja/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSDにレベル調整レイヤーを追加する
+
 ## 導入
 画像編集では、レベルを管理すると、写真の鮮やかさと鮮明さに大きく影響します。Photoshop の便利なツールの 1 つに「レベル調整レイヤー」があります。これを使用すると、画像の色調範囲と色バランスを微調整できます。このガイドでは、Aspose.PSD for Java を使用して PSD ファイルにレベル調整レイヤーを実装する方法を説明します。それでは、Java IDE を入手してください。
 ## 前提条件
@@ -88,3 +94,9 @@ Aspose.PSD for Java を使用して PSD ファイルにレベル調整レイヤ�
 もちろんです！質問やサポートは[Aspose フォーラム](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 一時免許を申請することができます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for Java에서 경로를 설정하여 이미지 생성
 linktitle: 경로를 설정하여 이미지 생성
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 이미지를 만드는 방법을 알아보세요. 원활한 이미지 생성을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java에서 경로를 설정하여 이미지 생성
+
 ## 소개
 
 Java용 Aspose.PSD를 사용하여 이미지를 만드는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. 이 가이드에서는 PSD 이미지를 생성하기 위해 경로를 설정하고 옵션을 구성하는 방법을 살펴보겠습니다. Aspose.PSD는 Photoshop 파일 작업을 위한 강력한 Java 라이브러리로, 프로그래밍 방식으로 이미지를 조작하고 생성하는 원활한 방법을 제공합니다.
@@ -107,3 +113,9 @@ A1: 예, Aspose.PSD는 다양한 Java 통합 개발 환경(IDE)과 원활하게 
 ### Q5: 테스트하려면 임시 라이센스가 필요합니까?
 
  A5: 테스트 목적으로 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

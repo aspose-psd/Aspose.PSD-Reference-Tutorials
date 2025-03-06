@@ -3,10 +3,16 @@ title: Περικοπή εικόνων κατά Rectangle στο Aspose.PSD γι
 linktitle: Περικοπή εικόνων ανά ορθογώνιο
 second_title: Aspose.PSD .NET API
 description: Βελτιώστε τις δεξιότητές σας στο χειρισμό εικόνας .NET με το Aspose.PSD. Μάθετε βήμα προς βήμα την περικοπή εικόνας χρησιμοποιώντας ορθογώνια για ακρίβεια.
-type: docs
 weight: 11
 url: /el/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περικοπή εικόνων κατά Rectangle στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Στον τομέα του προγραμματισμού .NET, ο χειρισμός και η βελτίωση εικόνων είναι μια κοινή εργασία και το Aspose.PSD για .NET είναι μια ισχυρή βιβλιοθήκη που απλοποιεί αυτή τη διαδικασία. Αυτό το σεμινάριο εστιάζει σε μια θεμελιώδη αλλά κρίσιμη τεχνική χειρισμού εικόνας - την περικοπή εικόνων από ένα ορθογώνιο. Μέχρι το τέλος αυτού του οδηγού, θα έχετε πλήρη κατανόηση του τρόπου περικοπής εικόνων με ακρίβεια χρησιμοποιώντας το Aspose.PSD για .NET.
@@ -110,3 +116,9 @@ A3: Το Aspose.PSD για .NET έχει σχεδιαστεί για να χει
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη ή βοήθεια;
 
  A5: Επισκεφθείτε το[Φόρουμ Aspose.PSD](https://forum.aspose.com/c/psd/34)να συνδεθείτε με την κοινότητα και να αναζητήσετε υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθέστε διαγώνιο υδατογράφημα σε αρχ�
 linktitle: Προσθέστε διαγώνιο υδατογράφημα σε αρχεία PSD με Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να προσθέτετε εύκολα ένα διαγώνιο υδατογράφημα σε αρχεία PSD χρησιμοποιώντας Java με το Aspose.PSD. Οδηγός βήμα προς βήμα για να βελτιώσετε τις εικόνες σας με αυτοπεποίθηση.
-type: docs
 weight: 12
 url: /el/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε διαγώνιο υδατογράφημα σε αρχεία PSD με Java
+
 ## Εισαγωγή
 Στον σημερινό ψηφιακό κόσμο, η ύπαρξη μιας εντυπωσιακής οπτικής μπορεί να κάνει τη διαφορά. Είτε είστε σχεδιαστής που θέλει να προστατεύσει την εργασία σας είτε έμπορος που θέλει να προσθέσει επωνυμία σε εικόνες, η εφαρμογή ενός υδατογραφήματος είναι απαραίτητη. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να προσθέσετε ένα διαγώνιο υδατογράφημα σε αρχεία PSD χρησιμοποιώντας Java με τη βοήθεια του Aspose.PSD, μιας ισχυρής βιβλιοθήκης για τον χειρισμό αρχείων PSD.
 ## Προαπαιτούμενα
@@ -97,3 +103,9 @@ psdImage.save(dataDir + "AddDiagnolWatermark_output.png", new PngOptions());
  Ναι, μπορείτε να καλέσετε το`drawString` μέθοδος πολλές φορές με διαφορετικές παραμέτρους για να προσθέσετε περισσότερα υδατογραφήματα.
 ### Πού μπορώ να βρω περισσότερες πληροφορίες για το Aspose.PSD;
  Μπορείτε να ελέγξετε την τεκμηρίωση[εδώ](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

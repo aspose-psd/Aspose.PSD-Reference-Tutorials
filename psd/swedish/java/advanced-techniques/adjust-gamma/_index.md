@@ -3,10 +3,16 @@ title: Justera gamma för en bild med Aspose.PSD för Java
 linktitle: Justera gamma för en bild
 second_title: Aspose.PSD Java API
 description: Lär dig att justera bildgamma utan ansträngning med Aspose.PSD för Java. Följ vår steg-för-steg-guide för optimala resultat.
-type: docs
 weight: 23
 url: /sv/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Justera gamma för en bild med Aspose.PSD för Java
+
 ## Introduktion
 
 Inom bildbehandlingsområdet är justering av gamma för en bild ett avgörande steg för att förbättra dess visuella tilltalande. Aspose.PSD för Java erbjuder en kraftfull lösning för Java-utvecklare för att enkelt manipulera bildgamma. I den här handledningen kommer vi att undersöka hur man justerar gamma med Aspose.PSD, och bryta ner varje steg för att säkerställa en sömlös implementering.
@@ -108,3 +114,9 @@ Grattis! Du har framgångsrikt justerat gamma för en bild med Aspose.PSD för J
 ### F5: Var kan jag söka support för Aspose.PSD?
 
  S5: För support, besök Aspose.PSD-forumet på[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

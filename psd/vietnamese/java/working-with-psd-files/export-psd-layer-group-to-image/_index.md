@@ -3,10 +3,16 @@ title: Xuất nhóm lớp PSD sang hình ảnh bằng Java
 linktitle: Xuất nhóm lớp PSD sang hình ảnh bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách xuất các nhóm lớp PSD thành hình ảnh bằng Aspose.PSD cho Java với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và nhà thiết kế.
-type: docs
 weight: 10
 url: /vi/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất nhóm lớp PSD sang hình ảnh bằng Java
+
 ## Giới thiệu
 
 Trong thế giới thiết kế kỹ thuật số, việc quản lý các lớp và xuất các phần cụ thể trong tác phẩm của bạn có thể là yếu tố thay đổi cuộc chơi. Hãy tưởng tượng bạn có tệp Photoshop (PSD) nhiều lớp tuyệt đẹp này và bạn chỉ muốn xuất một nhóm lớp nhất định dưới dạng hình ảnh. Nghe có vẻ khó khăn phải không? Chà, nó không nhất thiết phải như vậy! Với Aspose.PSD cho Java, nhiệm vụ này không chỉ dễ quản lý mà còn hết sức đơn giản. Bài viết này sẽ hướng dẫn bạn thực hiện quy trình, chia nó thành các bước dễ thực hiện. Cuối cùng, bạn sẽ có bí quyết để xử lý các lớp PSD như một người chuyên nghiệp.
@@ -119,3 +125,9 @@ Có, bạn có thể sửa đổi các lớp, chẳng hạn như áp dụng các
 
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
  Bạn có thể xin giấy phép tạm thời từ[Trang mua hàng](https://purchase.aspose.com/temporary-license/). Điều này sẽ cho phép bạn kiểm tra đầy đủ chức năng của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

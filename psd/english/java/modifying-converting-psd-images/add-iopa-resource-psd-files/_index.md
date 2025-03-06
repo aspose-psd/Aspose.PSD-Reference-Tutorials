@@ -3,10 +3,16 @@ title: Add IOPA Resource to PSD Files using Java
 linktitle: Add IOPA Resource to PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn how to add IOPA resources to PSD files using Aspose.PSD for Java with this comprehensive guide. Simple steps for effective graphic manipulation.
-type: docs
 weight: 15
 url: /java/modifying-converting-psd-images/add-iopa-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add IOPA Resource to PSD Files using Java
+
 ## Introduction
 Do you want to manipulate PSD files like a pro? If you’ve ever found yourself deep in the labyrinth of Photoshop’s PSD formats, hunting for the perfect method to change layer properties, then you're in for a treat. We’re diving into how to add IOPA resources to PSD files using Aspose.PSD for Java. This powerful library allows you to seamlessly interact with PSD files, making it easier than ever to modify layer properties like fill opacity.
 So, grab your favorite coffee mug, sit back, and let’s get started on this exciting journey of enhancing your PSD files. By the end of this tutorial, you'll be able to confidently manipulate your PSD documents with IOPA resources, making your graphic design tasks a breeze.
@@ -91,3 +97,10 @@ IOPA stands for "Image-Opacity" Resource. It modifies how transparent a layer ap
 Yes, as long as it's a valid PSD file, you can perform these operations on any PSD files you have.
 ### Where can I get support for Aspose.PSD?  
 For support, you can visit their [support forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

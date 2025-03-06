@@ -3,10 +3,16 @@ title: قم بقص ملف PSD باستخدام Aspose.PSD لـ Java
 linktitle: قص ملف PSD
 second_title: Aspose.PSD جافا API
 description: استكشف إمكانية قص ملفات PSD بسلاسة في Java باستخدام Aspose.PSD. يمكنك دمج الدقة والكفاءة بسهولة في مهام معالجة الصور الخاصة بك.
-type: docs
 weight: 17
 url: /ar/java/image-processing/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بقص ملف PSD باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java، تعد إدارة ملفات PSD (مستندات Photoshop) ومعالجتها متطلبًا شائعًا. يظهر Aspose.PSD for Java كأداة قوية تعمل على تبسيط عملية قص ملفات PSD بكفاءة ودقة. سيرشدك هذا الدليل خطوة بخطوة عبر أساسيات اقتصاص ملف PSD باستخدام Aspose.PSD لـ Java، مما يضمن استيعاب كل مفهوم بدقة.
@@ -106,3 +112,9 @@ image.save(exportPathPng, options);
 ### س5: هل يمكنني تجربة Aspose.PSD لـ Java قبل الشراء؟
 
  ج5: نعم، استكشف الميزات من خلال النسخة التجريبية المجانية المتاحة[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

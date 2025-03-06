@@ -3,10 +3,16 @@ title: Zastosuj filtry do plików PNG w Aspose.PSD dla Java
 linktitle: Zastosuj filtry do plików PNG w Aspose.PSD dla Java
 second_title: Aspose.PSD API Java
 description: Dzięki temu szczegółowemu przewodnikowi dowiesz się, jak stosować filtry do obrazów PNG w Aspose.PSD dla Java. Proste kroki, aby uzyskać oszałamiające rezultaty obrazu.
-type: docs
 weight: 10
 url: /pl/java/optimizing-png-files/apply-filters-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj filtry do plików PNG w Aspose.PSD dla Java
+
 ## Wstęp
 Czy chcesz ulepszyć swoje pliki PNG za pomocą Aspose.PSD dla Java? Trafiłeś we właściwe miejsce! W dzisiejszym artykule omówimy, jak zastosować filtry do obrazów PNG przy użyciu tej wszechstronnej biblioteki. Niezależnie od tego, czy jesteś początkującym programistą, czy doświadczonym programistą, ten przewodnik przeprowadzi Cię przez każdy krok w jasny i zwięzły sposób. Na koniec będziesz mieć solidną wiedzę, jak manipulować obrazami jak profesjonalista.
 ## Warunki wstępne
@@ -65,3 +71,9 @@ Aspose.PSD dla Java to biblioteka, która umożliwia programistom pracę z plika
 Aspose.PSD obsługuje wiele typów filtrów PNG, w tym Paeth, Sub, Up, Average i None. Możesz wybrać według swoich potrzeb.
 ### Gdzie mogę znaleźć pomoc dotyczącą problemów z Aspose.PSD?  
  Możesz uzyskać pomoc i wsparcie odwiedzając Forum Aspose[Tutaj](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

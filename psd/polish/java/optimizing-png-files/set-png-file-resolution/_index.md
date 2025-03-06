@@ -3,10 +3,16 @@ title: Ustaw rozdzielczość pliku PNG za pomocą Aspose.PSD dla Java
 linktitle: Ustaw rozdzielczość pliku PNG za pomocą Aspose.PSD dla Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak ustawić rozdzielczość pliku PNG przy użyciu Aspose.PSD dla Java, korzystając z tego szczegółowego samouczka krok po kroku. Zoptymalizuj swoje obrazy w mgnieniu oka.
-type: docs
 weight: 13
 url: /pl/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw rozdzielczość pliku PNG za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 Czy chcesz zoptymalizować rozdzielczość pliku PNG przy użyciu języka Java? Jeśli odpowiedź brzmi tak, to trafiłeś we właściwe miejsce! Dzisiaj zagłębimy się w świat Aspose.PSD dla Java, potężnej biblioteki do manipulowania plikami PSD programu Photoshop i konwertowania ich do innych formatów, takich jak PNG. Niezależnie od tego, czy jesteś programistą zajmującym się przetwarzaniem obrazów, czy po prostu osobą, która chce programowo poprawić jakość obrazu, ten przewodnik jest stworzony dla Ciebie. 
 tym obszernym samouczku omówimy wszystko, od wymagań wstępnych po szczegółowe instrukcje krok po kroku, jak skutecznie ustawić rozdzielczość pliku PNG. Zatem chwyć swoją ulubioną przekąskę i zaczynajmy!
@@ -71,3 +77,9 @@ Tak, dopóki dostępny jest bezpłatny okres próbny, do dalszego korzystania po
 Aspose.PSD radzi sobie z wieloma typowymi problemami, ale jeśli plik jest poważnie uszkodzony, może się nie załadować. Zawsze noś kopię zapasową.
 ### Czy Aspose.PSD nadaje się do zastosowań o wysokiej wydajności?
 Tak, został zaprojektowany do wydajnej obsługi dużych plików i nadaje się do zadań przetwarzania obrazu wymagających dużej wydajności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

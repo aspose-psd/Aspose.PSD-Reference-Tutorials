@@ -3,10 +3,16 @@ title: Aspose.PSD for Java 支持中断监视器
 linktitle: 支持中断监视器
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 解锁图像处理中的控制。学习中断流程以实现灵活的工作流程。
-type: docs
 weight: 18
 url: /zh/java/advanced-techniques/support-interrupt-monitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java 支持中断监视器
+
 ## 介绍
 
 在 Java 开发领域，Aspose.PSD 是处理各种图像处理任务的强大工具。在其众多功能中，对中断监视器的支持是一个关键方面，它增强了开发人员对图像处理工作流程的控制和灵活性。在本教程中，我们将深入研究如何利用 Aspose.PSD for Java 中的中断监视器来有效地管理和中断图像转换过程。
@@ -119,3 +125,9 @@ A3：是的，您可以免费试用 Aspose.PSD[这里](https://releases.aspose.c
 ### Q5：如何购买 Aspose.PSD for Java 的许可证？
 
 A5: 您可以购买 Aspose.PSD for Java 的许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: อ่านแท็ก EXIF ทั้งหมดใน Java
 linktitle: อ่านแท็ก EXIF ทั้งหมดใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีแยกแท็ก EXIF จากอิมเมจ PSD โดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการดึงข้อมูลเมตาที่มีประสิทธิภาพ
-type: docs
 weight: 17
 url: /th/java/java-jpeg-image-processing/read-all-exif-tags-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# อ่านแท็ก EXIF ทั้งหมดใน Java
+
 ## การแนะนำ
 ในด้านการพัฒนา Java การจัดการและการแยกข้อมูลเมตาจากรูปภาพถือเป็นงานทั่วไป โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับไฟล์ PSD (เอกสาร Photoshop) แท็ก EXIF (รูปแบบไฟล์ภาพที่แลกเปลี่ยนได้) มีข้อมูลเมตาอันมีค่าที่ให้ข้อมูลเกี่ยวกับภาพ เช่น การตั้งค่ากล้อง ตำแหน่ง และอื่นๆ บทช่วยสอนนี้เน้นที่การใช้ Aspose.PSD สำหรับ Java ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการไฟล์ PSD เพื่ออ่านแท็ก EXIF อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -65,3 +71,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารี Java ที
  เยี่ยมชมฟอรั่ม Aspose.PSD[ที่นี่](https://forum.aspose.com/c/psd/34) สำหรับข้อสงสัยการสนับสนุนใด ๆ
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.PSD สำหรับ Java หรือไม่
  ใช่ คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy) หรือได้รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

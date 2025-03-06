@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD를 사용하여 AI 형식의 레이어 지원
 linktitle: .NET용 Aspose.PSD를 사용하여 AI 형식의 레이어 지원
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 AI 형식 레이어를 손쉽게 처리하는 방법을 알아보세요. 원활한 통합 및 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD를 사용하여 AI 형식의 레이어 지원
+
 .NET용 Aspose.PSD를 활용하여 AI 형식 파일의 지원 레이어를 처리하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.PSD는 복잡한 작업을 단순화하여 개발자가 .NET 애플리케이션에서 AI 파일 작업을 더 쉽게 할 수 있도록 해줍니다. 이 튜토리얼에서는 사전 요구 사항, 네임스페이스 가져오기를 다루고 각 예제를 여러 단계로 나누어 원활한 학습 환경을 보장합니다.
 ## 소개
 ### Aspose.PSD란 무엇인가요?
@@ -85,3 +91,9 @@ A2: 예, Aspose.PSD는 AI 파일의 텍스트 레이어로 작업하는 기능�
 ### Q5: Aspose.PSD 저장에 지원되는 이미지 형식은 무엇입니까?
 
 A5: Aspose.PSD는 PSD, PNG, JPEG 등을 포함한 다양한 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

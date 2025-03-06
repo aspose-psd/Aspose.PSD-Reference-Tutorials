@@ -3,10 +3,16 @@ title: Alkalmazzon Gauss- és Wiener-szűrőket az Aspose.PSD for Java-ban
 linktitle: Alkalmazzon Gauss- és Wiener-szűrőket
 second_title: Aspose.PSD Java API
 description: Fokozza a Java képfeldolgozást az Aspose.PSD segítségével. Ismerje meg a Gauss- és Wiener-szűrők alkalmazását lépésről lépésre a lenyűgöző vizuális eredmények érdekében.
-type: docs
 weight: 10
 url: /hu/java/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazzon Gauss- és Wiener-szűrőket az Aspose.PSD for Java-ban
+
 ## Bevezetés
 
 Üdvözöljük átfogó oktatóanyagunkban a Gauss- és Wiener-szűrők alkalmazásáról az Aspose.PSD for Java-ban! Ebben az útmutatóban végigvezetjük Önt, hogyan javíthatja képeit ezekkel a hatékony szűrőkkel. Az Aspose.PSD for Java robusztus funkciókat kínál a képfeldolgozáshoz, a Gauss- és Wiener-szűrők alkalmazásával pedig simább és kifinomultabb képeket érhet el.
@@ -99,3 +105,9 @@ Gratulálok! Sikeresen megtanulta a Gauss- és Wiener-szűrők alkalmazását az
 ### 5. kérdés: Hol találom az Aspose.PSD for Java részletes dokumentációját?
 
  A5: Lásd a[dokumentáció](https://reference.aspose.com/psd/java/) mélyreható tájékoztatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Propriedade da linha do tempo da imagem PSD em Aspose.PSD para .NET
 linktitle: Propriedade da linha do tempo da imagem PSD
 second_title: API Aspose.PSD .NET
 description: Explore o mundo dinâmico do processamento de imagens com Aspose.PSD para .NET. Manipule cronogramas PSD sem esforço. Baixe a biblioteca agora!
-type: docs
 weight: 15
 url: /pt/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propriedade da linha do tempo da imagem PSD em Aspose.PSD para .NET
+
 ## Introdução
 No cenário em constante evolução do desenvolvimento do .NET, manter-se à frente da curva é essencial. Aspose.PSD for .NET surge como uma ferramenta poderosa, oferecendo uma infinidade de recursos para aprimorar suas capacidades de processamento de imagens. Um recurso digno de nota é a propriedade PSD Image Timeline, que permite manipular dinamicamente a linha do tempo de suas imagens PSD.
 ## Pré-requisitos
@@ -85,3 +91,9 @@ A1: Sim, Aspose.PSD for .NET é compatível com vários frameworks .NET, garanti
 ### P5: Onde posso encontrar documentação detalhada do Aspose.PSD para .NET?
 
  A5: Explore a documentação abrangente[aqui](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

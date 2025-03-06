@@ -3,10 +3,16 @@ title: ปรับแกมม่าของรูปภาพด้วย Asp
 linktitle: ปรับแกมม่าของรูปภาพ
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีปรับแกมมาของภาพได้อย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้ได้ผลลัพธ์ที่ดีที่สุด
-type: docs
 weight: 23
 url: /th/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ปรับแกมม่าของรูปภาพด้วย Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 ในขอบเขตของการประมวลผลภาพ การปรับแกมม่าของภาพเป็นขั้นตอนสำคัญในการเพิ่มความน่าดึงดูดทางสายตา Aspose.PSD สำหรับ Java นำเสนอโซลูชันอันทรงพลังสำหรับนักพัฒนา Java เพื่อจัดการแกมมาของภาพได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะสำรวจวิธีปรับแกมม่าโดยใช้ Aspose.PSD โดยแจกแจงรายละเอียดแต่ละขั้นตอนเพื่อให้แน่ใจว่าการใช้งานจะราบรื่น
@@ -108,3 +114,9 @@ rasterImage.save(destName, tiffOptions);
 ### คำถามที่ 5: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.PSD ได้ที่ไหน
 
  A5: สำหรับการสนับสนุน โปรดไปที่ฟอรัม Aspose.PSD ที่[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 壓縮 TIFF 文件
 linktitle: 使用 Aspose.PSD for Java 壓縮 TIFF 文件
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 高效壓縮 TIFF 文件，而不犧牲品質。請遵循我們的詳細指南來簡化您的工作流程。
-type: docs
 weight: 10
 url: /zh-hant/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 壓縮 TIFF 文件
+
 ## 介紹
 
 想像一下，您正在從事一個大型圖形設計項目，而您的 PSD 檔案正在拖垮您的系統。您需要共享這些文件或儲存它們以供以後使用，但其大小太大而難以處理。這就是將 PSD 檔案壓縮為 TIFF 格式派上用場的地方。 TIFF 檔案在品質和大小之間取得了平衡，使其成為儲存和共享的理想選擇。在本教程中，我們將引導您完成使用 Aspose.PSD for Java 壓縮 TIFF 檔案的過程，確保您的影像緊湊但保持其品質。
@@ -142,3 +148,9 @@ Aspose.PSD for Java 主要處理 PSD 文件，但它提供了將這些文件轉�
 ### 灰階壓縮如何影響影像品質？
 
 灰階壓縮會減少影像中的色彩數量，從而導致視覺細節減少。然而，對於某些類型的圖像，這種權衡是最小的，並且可能會導致檔案大小顯著減少。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

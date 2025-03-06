@@ -3,10 +3,16 @@ title: Pokročilá manipulace s obrázky
 linktitle: Pokročilá manipulace s obrázky
 second_title: Aspose.PSD Java API
 description: Prozkoumejte pokročilé výukové programy pro manipulaci s obrázky s Aspose.PSD pro Javu. Naučte se efektivní nahrazování písem, vynucené ukládání písem do mezipaměti, implementujte bikubický resampler a další.
-type: docs
 weight: 24
 url: /cs/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilá manipulace s obrázky
+
 
 ## Zavedení
 
@@ -80,3 +86,9 @@ Zvládněte změnu velikosti obrázku v Javě s Aspose.PSD. Podrobný průvodce 
 Prozkoumejte rotaci obrazu v Javě bez námahy s Aspose.PSD. Snadno otáčejte, překlápějte a ukládejte soubory PSD.
 ### [Otočte obrázek v určitém úhlu pomocí Aspose.PSD pro Javu](./rotate-image-specific-angle/)
 Prozkoumejte rotaci obrazu v Javě s Aspose.PSD pro Javu. Otočte snímky bez námahy ve specifických úhlech.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

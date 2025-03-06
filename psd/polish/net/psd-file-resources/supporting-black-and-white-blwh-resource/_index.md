@@ -3,10 +3,16 @@ title: Obsługa zasobów czarno-białych w Aspose.PSD dla .NET
 linktitle: Dodatkowe zasoby czarno-białe (Blwh).
 second_title: Aspose.PSD API .NET
 description: Poznaj zaawansowaną edycję obrazów za pomocą Aspose.PSD dla .NET. Naucz się opanowywać warstwy dopasowania Czarno-białego, aby uzyskać precyzyjną kontrolę nad elementami obrazu.
-type: docs
 weight: 13
 url: /pl/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa zasobów czarno-białych w Aspose.PSD dla .NET
+
 ## Wstęp
 W dynamicznym świecie mediów cyfrowych edycja obrazu odgrywa kluczową rolę w tworzeniu urzekających efektów wizualnych. Aspose.PSD dla .NET umożliwia programistom przeniesienie możliwości manipulacji obrazami na wyższy poziom. W tym samouczku omówimy obsługę warstw dopasowania Czarno-biały w Aspose.PSD, umożliwiając precyzyjne dopasowywanie obrazów.
 ## Warunki wstępne
@@ -89,3 +95,9 @@ A2: Absolutnie! Aspose.PSD pozwala na układanie wielu warstw dopasowania, umoż
 ### P5: Czy dostępne są przykładowe obrazy do testowania regulacji czerni i bieli?
 
 O5: Tak, przykładowe obrazy można znaleźć w dokumentacji Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

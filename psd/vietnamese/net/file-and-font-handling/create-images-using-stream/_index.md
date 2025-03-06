@@ -3,10 +3,16 @@ title: Tạo hình ảnh bằng cách sử dụng luồng trong Aspose.PSD cho .
 linktitle: Tạo hình ảnh bằng luồng
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách tạo hình ảnh bằng luồng trong Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hình ảnh hiệu quả.
-type: docs
 weight: 12
 url: /vi/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình ảnh bằng cách sử dụng luồng trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.PSD nổi bật như một công cụ mạnh mẽ để xử lý hình ảnh. Một tính năng đặc biệt hữu ích là khả năng tạo hình ảnh bằng luồng, mang lại sự linh hoạt và hiệu quả trong việc xử lý dữ liệu hình ảnh. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng yếu tố để đảm bảo trải nghiệm liền mạch. Trước khi đi sâu vào, hãy đề cập đến các điều kiện tiên quyết.
@@ -111,3 +117,9 @@ A2: Kích thước có thể tùy chỉnh; điều chỉnh các thông số tron
 ### Câu hỏi 5: Có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

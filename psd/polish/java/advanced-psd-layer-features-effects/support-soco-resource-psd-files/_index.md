@@ -3,10 +3,16 @@ title: Obsługa zasobów SoCo w plikach PSD przy użyciu języka Java
 linktitle: Obsługa zasobów SoCo w plikach PSD przy użyciu języka Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak manipulować zasobami SoCo w plikach PSD przy użyciu Aspose.PSD dla Java, korzystając z tego samouczka krok po kroku.
-type: docs
 weight: 22
 url: /pl/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa zasobów SoCo w plikach PSD przy użyciu języka Java
+
 ## Wstęp
 Praca z plikami PSD może przypominać poruszanie się po skomplikowanym labiryncie, zwłaszcza jeśli zagłębiasz się w zawiłości warstw i zasobów. Na szczęście narzędzia takie jak Aspose.PSD dla Java mogą uprościć ten proces, umożliwiając programistom programowe manipulowanie plikami Photoshopa. W tym samouczku omówimy, jak obsługiwać zasoby SoCo w plikach PSD przy użyciu języka Java, co znacznie ułatwi Ci życie. 
 Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę ze światem przetwarzania obrazów, ten przewodnik rozłoży złożoność na zrozumiałe etapy, dzięki czemu zakończysz swoją podróż z solidnym zrozumieniem.
@@ -111,3 +117,9 @@ Aspose.PSD for Java to biblioteka umożliwiająca programistom manipulowanie pli
  Tak, jest dedykowany[forum wsparcia](https://forum.aspose.com/c/psd/34).
 ### Jakimi rodzajami zasobów mogę manipulować w pliku PSD?
 W pliku PSD można manipulować różnymi zasobami, w tym warstwami, warstwami wypełnień i zasobami SoCo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

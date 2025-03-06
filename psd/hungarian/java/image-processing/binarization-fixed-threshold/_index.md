@@ -3,10 +3,16 @@ title: Binarizálás fix küszöbértékkel az Aspose.PSD for Java-ban
 linktitle: Binarizálás fix küszöbértékkel
 second_title: Aspose.PSD Java API
 description: Fedezze fel a binarizációt a Fix Threshold segítségével az Aspose.PSD for Java-ban. A képeket zökkenőmentesen alakíthatja át lépésről lépésre szóló útmutatónkkal.
-type: docs
 weight: 14
 url: /hu/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarizálás fix küszöbértékkel az Aspose.PSD for Java-ban
+
 ## Bevezetés
 
 A Java fejlesztés területén az Aspose.PSD hatékony eszköznek bizonyul a képfeldolgozási feladatokhoz. Az egyik ilyen alapvető művelet a Binarization, egy olyan technika, amely leegyszerűsíti a képeket bináris formába alakításával. Ez az oktatóanyag végigvezeti Önt a fix küszöbértékkel történő binarizálás elérésének folyamatán az Aspose.PSD for Java használatával. Kapcsolódjon ki, miközben felfedezi ennek az átalakuló képfeldolgozási útnak a lépéseit.
@@ -101,3 +107,9 @@ V1: Igen, az Aspose.PSD különféle képformátumokat támogat, így a binariz�
 ### 5. kérdés: Elérhető ingyenes próbaverzió?
 
  5. válasz: Igen, felfedezheti az Aspose.PSD képességeit egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

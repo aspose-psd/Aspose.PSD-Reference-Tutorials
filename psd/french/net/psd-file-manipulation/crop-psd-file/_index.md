@@ -3,10 +3,16 @@ title: Recadrage de fichiers PSD avec Aspose.PSD pour .NET
 linktitle: Recadrage de fichiers PSD avec Aspose.PSD pour .NET
 second_title: API Aspose.PSD.NET
 description: Explorez l'art du recadrage de fichiers PSD dans .NET avec Aspose.PSD, une boîte à outils polyvalente. Élevez votre jeu de manipulation d’images sans effort.
-type: docs
 weight: 19
 url: /fr/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrage de fichiers PSD avec Aspose.PSD pour .NET
+
 ## Introduction
 Dans le domaine du développement .NET, Aspose.PSD se distingue comme une boîte à outils puissante pour gérer de manière transparente les fichiers PSD (Photoshop Document). Lorsqu'il s'agit de manipuler des images, le recadrage est une opération fondamentale et Aspose.PSD simplifie ce processus pour les développeurs .NET. Dans ce didacticiel, nous explorerons comment recadrer des fichiers PSD à l'aide d'Aspose.PSD pour .NET, en vous fournissant un guide étape par étape.
 ## Conditions préalables
@@ -72,3 +78,9 @@ A1 : Oui, Aspose.PSD est régulièrement mis à jour pour garantir la compatibil
 ### Q5 : Ai-je besoin d’une licence temporaire à des fins de test ?
 
  A5 : Oui, si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

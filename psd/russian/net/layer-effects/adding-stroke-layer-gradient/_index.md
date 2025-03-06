@@ -3,10 +3,16 @@ title: Добавление слоя обводки с градиентом в A
 linktitle: Добавление слоя обводки с градиентом
 second_title: Aspose.PSD .NET API
 description: Узнайте, как добавить слой градиентной обводки в Aspose.PSD для .NET. Совершенствуйте свои навыки манипулирования изображениями с помощью этого подробного руководства.
-type: docs
 weight: 12
 url: /ru/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление слоя обводки с градиентом в Aspose.PSD для .NET
+
 ## Введение
 
 Если вы хотите улучшить свои .NET-приложения с помощью потрясающих графических эффектов, Aspose.PSD для .NET — ваше идеальное решение. В этом уроке мы углубимся в процесс добавления слоя обводки с градиентом с помощью Aspose.PSD для .NET. Это пошаговое руководство поможет вам без особых усилий повысить визуальную привлекательность ваших изображений.
@@ -119,3 +125,9 @@ im.Save(exportPath);
 ### Вопрос 5: Как приобрести лицензию на Aspose.PSD для .NET?
 
  A5: Вы можете купить лицензию[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

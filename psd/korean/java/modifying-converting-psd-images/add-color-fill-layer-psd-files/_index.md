@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에 색상 채우기 레이어 추가
 linktitle: Java를 사용하여 PSD 파일에 색상 채우기 레이어 추가
 second_title: Aspose.PSD 자바 API
 description: Java 및 Aspose.PSD를 사용하여 PSD 파일에 색상 채우기 레이어를 쉽게 추가하는 방법을 알아보세요. 보다 빠른 디자인을 위해 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 20
 url: /ko/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에 색상 채우기 레이어 추가
+
 ## 소개
 디자인에 화려한 색상을 추가하기 위해 Photoshop 파일을 프로그래밍 방식으로 조작해야 했던 적이 있습니까? 글쎄, 당신은 올바른 장소에 도착했습니다. 이 기사에서는 Java 및 Aspose.PSD 라이브러리를 사용하여 PSD(Photoshop Document) 파일에 색상 채우기 레이어를 추가하는 방법을 살펴보겠습니다. PSD 파일을 캔버스로 생각하면 단 몇 줄의 코드만으로 PSD 파일을 새로 칠할 수 있습니다.
 ## 전제조건
@@ -87,3 +93,9 @@ PSD 파일로 작업하고 레이어, 효과 및 기타 속성을 조작할 수 
  통해 지원을 받으실 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD는 어디서 구입할 수 있나요?  
  다음을 통해 라이센스를 구입할 수 있습니다.[Aspose 구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

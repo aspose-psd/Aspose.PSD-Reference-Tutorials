@@ -3,10 +3,16 @@ title: Beheer de belichtingsaanpassingslaag in PSD met behulp van Java
 linktitle: Beheer de belichtingsaanpassingslaag in PSD met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Verbeter uw PSD-afbeeldingen moeiteloos met Java met behulp van Aspose.PSD. Volg deze handleiding om stap voor stap de belichtingsaanpassingslagen te beheren.
-type: docs
 weight: 23
 url: /nl/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer de belichtingsaanpassingslaag in PSD met behulp van Java
+
 ## Invoering
 Als het gaat om het programmatisch werken met Photoshop-bestanden, vooral als je je bezighoudt met het bewerken of manipuleren van afbeeldingen, is de Aspose.PSD-bibliotheek voor Java echt een game changer. Een van de krachtige functies die u kunt gebruiken is de belichtingsaanpassingslaag, waarmee u de belichtingsinstellingen van uw afbeeldingen eenvoudig en effectief kunt verbeteren of wijzigen. Deze tutorial begeleidt u bij elke stap voor het beheren van belichtingsaanpassingslagen in een PSD-bestand met behulp van Java.
 ## Vereisten
@@ -92,3 +98,9 @@ Ja, Aspose.PSD kan worden geïntegreerd in webapplicaties, waardoor beeldmanipul
  U kunt toegang krijgen tot communityondersteuning op de Aspose-forums[hier](https://forum.aspose.com/c/psd/34).
 ### Is er een voorbeeldproject beschikbaar om mee aan de slag te gaan?
  Ja, u kunt voorbeeldprojecten en documentatie vinden op de website[Aspose.PSD Referentiepagina](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

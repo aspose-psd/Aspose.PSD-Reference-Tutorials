@@ -3,10 +3,16 @@ title: Conversion PSD
 linktitle: Conversion PSD
 second_title: API Java Aspose.PSD
 description: Boostez votre traitement d'images Java avec Aspose.PSD ! Apprenez à convertir le PSD CMJN en TIFF CMJN, à maîtriser la conversion des couleurs, à recadrer les fichiers PSD, etc.
-type: docs
 weight: 21
 url: /fr/java/psd-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversion PSD
+
 ## Introduction
 
 Êtes-vous prêt à exploiter tout le potentiel d’Aspose.PSD pour Java ? Plongez dans nos didacticiels complets de conversion PSD et explorez l'intégration transparente de fonctionnalités de pointe. Que vous soyez un développeur chevronné ou que vous débutiez tout juste dans le traitement d'images Java, ces guides étape par étape vous permettront d'élever vos capacités de traitement de documents et d'images vers de nouveaux sommets.
@@ -43,3 +49,9 @@ Apprenez à recadrer des fichiers PSD et à les convertir en PNG à l'aide d'Asp
 Découvrez la puissance d'Aspose.PSD pour Java pour exporter des images dans un environnement multithread. Élevez les capacités de votre application Java !
 ### [Convertir les calques d'images GIF en TIFF avec Aspose.PSD pour Java](./gif-image-layers-to-tiff/)
 Convertissez sans effort les calques d'images GIF au format TIFF en Java à l'aide d'Aspose.PSD. Suivez notre guide étape par étape pour une intégration transparente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rozmazání obrázku v Aspose.PSD pro .NET
 linktitle: Rozmazání obrázku
 second_title: Aspose.PSD .NET API
 description: Naučte se, jak snadno rozmazat obrázky pomocí Aspose.PSD pro .NET. Podrobný průvodce pro bezproblémovou manipulaci s obrázky ve vašich projektech C#.
-type: docs
 weight: 13
 url: /cs/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozmazání obrázku v Aspose.PSD pro .NET
+
 ## Zavedení
 
 V oblasti vývoje .NET se Aspose.PSD ukazuje jako mocný spojenec pro manipulaci s obrázky. Tento tutoriál se zaměřuje na konkrétní úkol: rozmazání obrázku pomocí Aspose.PSD pro .NET. Pokud toužíte vylepšit své schopnosti zpracování obrázků nebo jednoduše hledáte efektivní způsob, jak obrázky programově rozmazat, jste na správném místě.
@@ -97,3 +103,9 @@ A4: Rozhodně! Aspose.PSD nabízí komplexní sadu funkcí, včetně změny veli
 ### Q5: Kde mohu vyhledat pomoc nebo se spojit s komunitou Aspose.PSD?
 
  A5: V případě jakýchkoli dotazů nebo diskuzí přejděte na[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

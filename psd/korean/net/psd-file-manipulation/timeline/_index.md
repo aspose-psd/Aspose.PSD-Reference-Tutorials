@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 타임라인 작업
 linktitle: 타임라인 작업
 second_title: Aspose.PSD .NET API
 description: .NET Timeline 클래스용 Aspose.PSD를 사용하여 PSD 이미지 조작을 향상시킵니다. 프레임 속성, 레이어 상태를 제어하고 창의적인 가능성을 손쉽게 활용하세요.
-type: docs
 weight: 16
 url: /ko/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 타임라인 작업
+
 ## 소개
 그래픽 디자인과 이미지 조작의 역동적인 세계에서는 이미지의 타임라인을 제어하고 조작하는 능력이 매우 중요합니다. .NET용 Aspose.PSD는 Timeline 클래스를 통해 강력한 솔루션을 제공합니다. 이 고급 기능을 통해 사용자는 프레임 지연 변경, 특정 프레임의 레이어 상태 편집 등과 같은 PsdImage의 타임라인을 변경할 수 있습니다.
 ## 전제조건
@@ -108,3 +114,9 @@ A2: Timeline 클래스는 PSD 이미지용으로 특별히 설계되었습니다
 ### Q5: .NET용 Aspose.PSD를 사용하면 어떤 주요 이점이 있습니까?
 
 A5: .NET용 Aspose.PSD는 고급 이미지 처리 기능, PSD 파일 조작 및 고성능 렌더링을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

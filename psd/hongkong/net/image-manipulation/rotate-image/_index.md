@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中旋轉影像
 linktitle: 旋轉影像
 second_title: Aspose.PSD .NET API
 description: 學習使用 Aspose.PSD 在 .NET 中輕鬆旋轉影像。請按照我們的逐步教學進行操作。
-type: docs
 weight: 15
 url: /zh-hant/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中旋轉影像
+
 ## 介紹
 
 如果您正在使用 .NET 深入研究影像處理世界，Aspose.PSD 是您無縫、高效影像處理的首選工具。在本教程中，我們將重點放在一項基本任務 - 使用 Aspose.PSD for .NET 旋轉圖像。請跟隨我們將流程分解為簡單、可操作的步驟。
@@ -80,3 +86,9 @@ using (Image image = Image.Load(sourceFile))
 ### Q5：我可以購買Aspose.PSD用於商業用途嗎？
 
 當然。探索[購買頁面](https://purchase.aspose.com/buy)取得適合您需求的許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

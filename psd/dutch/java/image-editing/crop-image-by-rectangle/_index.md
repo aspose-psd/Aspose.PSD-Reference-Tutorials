@@ -3,10 +3,16 @@ title: Afbeelding bijsnijden per rechthoek in Aspose.PSD voor Java
 linktitle: Afbeelding bijsnijden per rechthoek
 second_title: Aspose.PSD Java-API
 description: Ontdek de naadloze mogelijkheden voor het bijsnijden van afbeeldingen in Java met Aspose.PSD. Volg onze stapsgewijze handleiding om afbeeldingen moeiteloos bij te snijden met Aspose.PSD voor Java.
-type: docs
 weight: 15
 url: /nl/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeelding bijsnijden per rechthoek in Aspose.PSD voor Java
+
 ## Invoering
 
 In de wereld van Java-ontwikkeling is het manipuleren van afbeeldingen een veel voorkomende taak, en Aspose.PSD voor Java biedt een krachtige oplossing voor beeldverwerking. In deze zelfstudie begeleiden we u bij het proces van het bijsnijden van een afbeelding in een rechthoek met behulp van Aspose.PSD voor Java. Volg de onderstaande stappen om dit gemakkelijk te bereiken.
@@ -105,3 +111,9 @@ A1: Ja, Aspose.PSD voor Java kan worden geïntegreerd met verschillende Java-fra
 ### Vraag 5: Wat zijn de ondersteunde afbeeldingsindelingen voor bijsnijden in Aspose.PSD voor Java?
 
 A5: Aspose.PSD voor Java ondersteunt verschillende afbeeldingsformaten, waaronder PSD, PNG, JPEG en meer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

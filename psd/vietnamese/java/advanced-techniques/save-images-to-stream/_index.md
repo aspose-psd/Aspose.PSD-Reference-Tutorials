@@ -3,10 +3,16 @@ title: Lưu hình ảnh vào luồng bằng Aspose.PSD cho Java
 linktitle: Lưu hình ảnh vào luồng
 second_title: API Java Aspose.PSD
 description: Khám phá cách lưu hình ảnh PSD vào luồng bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý hình ảnh hiệu quả.
-type: docs
 weight: 16
 url: /vi/java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu hình ảnh vào luồng bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu hình ảnh vào luồng bằng Aspose.PSD cho Java. Aspose.PSD là một thư viện Java mạnh mẽ để xử lý và thao tác các tệp PSD (Tài liệu Photoshop). Nếu bạn muốn nâng cao khả năng lưu hình ảnh PSD vào luồng của ứng dụng Java của mình, hãy làm theo các bước được nêu trong hướng dẫn này.
@@ -97,3 +103,9 @@ Câu trả lời 1: Có, Aspose.PSD được sử dụng rộng rãi trong các 
 ### Câu hỏi 5: Tôi có thể mua phiên bản đầy đủ của Aspose.PSD cho Java ở đâu?
 
  A5: Mua phiên bản đầy đủ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

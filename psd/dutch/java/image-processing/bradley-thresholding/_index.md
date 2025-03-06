@@ -3,10 +3,16 @@ title: Bradley-drempelwaarde in Aspose.PSD voor Java
 linktitle: Bradley drempelwaarde
 second_title: Aspose.PSD Java-API
 description: Verbeter de beeldkwaliteit met Bradley Thresholding in Aspose.PSD voor Java. Volg onze stapsgewijze handleiding voor effectieve binarisatie van afbeeldingen.
-type: docs
 weight: 16
 url: /nl/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bradley-drempelwaarde in Aspose.PSD voor Java
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het implementeren van Bradley Thresholding in Aspose.PSD voor Java. Deze tutorial leidt u door het proces van het toepassen van Bradley Thresholding om de kwaliteit van uw afbeeldingen te verbeteren. Aspose.PSD voor Java biedt een krachtige set tools voor beeldverwerking, en Bradley Thresholding is een waardevolle techniek voor het binariseren van afbeeldingen.
@@ -99,3 +105,9 @@ A4: Ja, u kunt aanvullende methoden van Aspose.PSD gebruiken om een voorbeeld va
 ### Vraag 5: Waar kan ik meer ondersteuning en hulpmiddelen vinden?
 
  A5: Bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) voor gemeenschapsondersteuning en verken de[documentatie](https://reference.aspose.com/psd/java/) voor gedetailleerde informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Putar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java
 linktitle: Memutar Gambar pada Sudut Tertentu
 second_title: Asumsikan.PSD Java API
 description: Jelajahi rotasi gambar di Java dengan Aspose.PSD untuk Java. Putar gambar dengan mudah pada sudut tertentu.
-type: docs
 weight: 20
 url: /id/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Putar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam dunia perkembangan Java yang dinamis, memanipulasi gambar merupakan persyaratan umum untuk berbagai aplikasi. Aspose.PSD untuk Java muncul sebagai solusi tangguh, menyediakan fitur canggih untuk menangani rotasi gambar dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses memutar gambar pada sudut tertentu menggunakan Aspose.PSD untuk Java. Sebelum mendalami detailnya, mari kita siapkan tahapan dengan beberapa prasyarat.
@@ -117,3 +123,9 @@ Aspose.PSD untuk Java terutama berfokus pada pemrosesan gambar backend. Untuk pr
 ### Q5: Apakah ada forum komunitas untuk Aspose.PSD tempat saya dapat mencari bantuan?
 
  Ya, Anda dapat mengunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk terlibat dengan masyarakat, mengajukan pertanyaan, dan mencari bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

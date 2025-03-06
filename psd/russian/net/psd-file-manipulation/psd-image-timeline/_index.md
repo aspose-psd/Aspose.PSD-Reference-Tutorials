@@ -3,10 +3,16 @@ title: Обработка временной шкалы PSD-изображени
 linktitle: Обработка временной шкалы PSD-изображения
 second_title: Aspose.PSD .NET API
 description: Научитесь легко обрабатывать временные рамки изображений PSD, используя Aspose.PSD для .NET. Добавляйте рамки, плавно переключайтесь и совершенствуйте свои навыки редактирования изображений.
-type: docs
 weight: 17
 url: /ru/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка временной шкалы PSD-изображения в Aspose.PSD для .NET
+
 ## Введение
 В динамичном мире обработки изображений Aspose.PSD для .NET выделяется как мощный набор инструментов, предоставляющий надежные решения для обработки временных шкал изображений PSD. Независимо от того, являетесь ли вы опытным разработчиком или энтузиастом кодирования, это руководство проведет вас через процесс использования Aspose.PSD для простого управления временными шкалами изображений.
 ## Предварительные условия
@@ -80,3 +86,9 @@ Console.WriteLine("SupportOfPsdImageTimelineProperty executed successfully");
 ### В5: Нужна помощь или есть вопросы?
 
  A5: Посетите форум сообщества Aspose.PSD.[здесь](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

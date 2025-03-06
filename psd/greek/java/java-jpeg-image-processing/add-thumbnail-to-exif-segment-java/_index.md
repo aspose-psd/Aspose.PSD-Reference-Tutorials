@@ -3,10 +3,16 @@ title: Προσθήκη μικρογραφίας στο τμήμα EXIF σε Jav
 linktitle: Προσθήκη μικρογραφίας στο τμήμα EXIF σε Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να βελτιώνετε τα μεταδεδομένα εικόνας με μικρογραφίες χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 10
 url: /el/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη μικρογραφίας στο τμήμα EXIF σε Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να βελτιώσουμε τα μεταδεδομένα εικόνας προσθέτοντας μια μικρογραφία στο τμήμα EXIF χρησιμοποιώντας το Aspose.PSD για Java. Τα μεταδεδομένα EXIF (Exchangeable Image File Format) διαδραματίζουν κρίσιμο ρόλο στην ψηφιακή φωτογραφία, παρέχοντας πολύτιμες πληροφορίες όπως ρυθμίσεις κάμερας, ημερομηνία και τοποθεσία. Η προσθήκη μιας μικρογραφίας βελτιώνει την εμπειρία του χρήστη κάνοντας προεπισκόπηση εικόνων αποτελεσματικά.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ image.save(dataDir + "output.psd");
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια για το Aspose.PSD από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD;
  Για υποστήριξη, επισκεφθείτε το[Φόρουμ Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

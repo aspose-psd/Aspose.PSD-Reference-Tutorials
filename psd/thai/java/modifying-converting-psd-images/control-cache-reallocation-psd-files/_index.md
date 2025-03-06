@@ -3,10 +3,16 @@ title: ควบคุมการจัดสรรแคชในไฟล์ 
 linktitle: ควบคุมการจัดสรรแคชในไฟล์ PSD
 second_title: Aspose.PSD Java API
 description: จัดการการจัดสรรแคชใหม่ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java เรียนรู้วิธีเพิ่มประสิทธิภาพหน่วยความจำและการจัดการไฟล์อย่างมีประสิทธิภาพ เหมาะสำหรับนักพัฒนา
-type: docs
 weight: 22
 url: /th/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ควบคุมการจัดสรรแคชในไฟล์ PSD
+
 ## การแนะนำ
 เมื่อทำงานกับรูปภาพและไฟล์ Photoshop โดยทางโปรแกรม ประสิทธิภาพถือเป็นปัจจัยสำคัญ Aspose.PSD สำหรับ Java นำเสนอฟีเจอร์ที่มีประสิทธิภาพในการจัดการและจัดการไฟล์ PSD ได้อย่างราบรื่น ลักษณะพื้นฐานประการหนึ่งของการเพิ่มประสิทธิภาพการทำงานคือการควบคุมการจัดสรรแคชใหม่ การจัดการแคชช่วยในการรักษาสมดุลระหว่างการใช้หน่วยความจำและดิสก์ ทำให้มั่นใจได้ว่าแอปพลิเคชันของคุณทำงานได้อย่างราบรื่น โดยไม่มีการหยุดทำงานหรือการชะลอตัวที่ไม่คาดคิด 
 ## ข้อกำหนดเบื้องต้น
@@ -127,3 +133,9 @@ Aspose.PSD เป็นไลบรารีสำหรับนักพัฒ
 Aspose.PSD เป็นไลบรารีที่ต้องชำระเงิน แต่คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีได้[เว็บไซต์](https://releases.aspose.com/).
 ### จะเกิดอะไรขึ้นหากฉันไม่ทิ้งสิ่งของ?
 การไม่ทิ้งวัตถุอาจทำให้หน่วยความจำรั่ว ส่งผลให้แอปพลิเคชันของคุณใช้ทรัพยากรเกินความจำเป็น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

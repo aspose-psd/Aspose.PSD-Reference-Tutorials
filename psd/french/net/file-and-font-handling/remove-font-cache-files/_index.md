@@ -3,10 +3,16 @@ title: Suppression des fichiers de cache de polices dans Aspose.PSD pour .NET
 linktitle: Suppression des fichiers de cache de polices
 second_title: API Aspose.PSD.NET
 description: Optimisez Aspose.PSD pour les performances .NET en supprimant les fichiers de cache de polices. Suivez notre guide étape par étape pour une exécution fluide.
-type: docs
 weight: 15
 url: /fr/net/file-and-font-handling/remove-font-cache-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suppression des fichiers de cache de polices dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Rencontrez-vous des défis liés aux polices lorsque vous travaillez avec Aspose.PSD pour .NET ? La suppression des fichiers de cache de polices pourrait être la clé pour résoudre efficacement ces problèmes. Dans ce didacticiel complet, nous vous guiderons étape par étape tout au long du processus. Avant de plonger, assurons-nous que vous disposez de tout ce dont vous avez besoin.
@@ -93,3 +99,9 @@ A2 : Bien que cela soit possible, il est recommandé de supprimer les fichiers 
 ### Q5 : Puis-je acheter Aspose.PSD pour .NET ?
 
  A5 : Certainement ! Visite[ici](https://purchase.aspose.com/buy) pour explorer les options d’achat d’Aspose.PSD pour .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

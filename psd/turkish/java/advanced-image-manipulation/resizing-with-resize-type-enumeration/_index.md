@@ -3,10 +3,16 @@ title: Aspose.PSD for Java'da Yeniden Boyutlandırma Türü Numaralandırması i
 linktitle: Yeniden Boyutlandırma Türü Numaralandırmasıyla Yeniden Boyutlandırma
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java'da resim yeniden boyutlandırma konusunda ustalaşın. Yeniden Boyutlandırma Türü Numaralandırmasını kullanan adım adım kılavuz.
-type: docs
 weight: 18
 url: /tr/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java'da Yeniden Boyutlandırma Türü Numaralandırması ile yeniden boyutlandırma
+
 ## giriiş
 
 Java geliştirmenin sürekli gelişen ortamında verimli görüntü işleme, geliştiricilerin sıklıkla uğraştığı çok önemli bir husustur. Aspose.PSD for Java, Yeniden Boyutlandırma Türü Numaralandırmanın ek avantajıyla görüntüleri yeniden boyutlandırmak için kusursuz bir deneyim sağlayan güçlü bir çözüm olarak ortaya çıkıyor. Bu eğitimde, Aspose.PSD for Java kullanarak görüntüleri yeniden boyutlandırmanın inceliklerini inceleyeceğiz ve kapsamlı bir anlayış sağlamak için her adımı ayrıntılı olarak ele alacağız.
@@ -86,3 +92,9 @@ C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bicubic ve daha fazlası gibi �
 ### S5: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici bir lisans almak için şu adresi ziyaret edin:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تصميم أجزاء النص في ملفات PSD باستخدام Java
 linktitle: تصميم أجزاء النص في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: إتقان تصميم نص PSD باستخدام Aspose.PSD لـ Java. تعلم كيفية تعديل أجزاء النص وإنشائها وتصميمها بسهولة. تعزيز تصاميم PSD الخاصة بك.
-type: docs
 weight: 22
 url: /ar/java/psd-layer-management-effects/style-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصميم أجزاء النص في ملفات PSD باستخدام Java
+
 ## مقدمة
 
 هل أردت يومًا إضافة تلك الجاذبية الإضافية إلى طبقات النص في ملفات PSD؟ يمنحك Aspose.PSD for Java القدرة ليس فقط على التعامل مع النص، ولكن أيضًا لتصميم الأجزاء الفردية بدقة مذهلة. سيأخذك هذا الدليل الشامل خلال العملية خطوة بخطوة، بدءًا من إعداد البيئة الخاصة بك وحتى إنشاء عناصر نصية ذات تصميم مذهل داخل ملفات PSD الخاصة بك.
@@ -177,3 +183,9 @@ psdImage.save(outPsdFilePath);
 
 ### هل هناك أي قيود على عدد أجزاء النص أو الأحرف التي يمكن التعامل معها؟
 تعتمد القيود العملية على موارد النظام ومدى تعقيد ملف PSD. ومع ذلك، تم تصميم Aspose.PSD for Java للتعامل مع ملفات PSD الكبيرة بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

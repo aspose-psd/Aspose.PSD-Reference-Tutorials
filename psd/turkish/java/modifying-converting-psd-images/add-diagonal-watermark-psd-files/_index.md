@@ -3,10 +3,16 @@ title: Java ile PSD Dosyalarına Çapraz Filigran Ekleme
 linktitle: Java ile PSD Dosyalarına Çapraz Filigran Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java kullanarak PSD dosyalarına nasıl kolayca çapraz filigran ekleyeceğinizi öğrenin. Resimlerinizi güvenle geliştirmek için adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile PSD Dosyalarına Çapraz Filigran Ekleme
+
 ## giriiş
 Günümüzün dijital dünyasında çarpıcı bir görsele sahip olmak büyük fark yaratabilir. İster işinizi korumak isteyen bir tasarımcı olun, ister görsellere marka eklemek isteyen bir pazarlamacı olun, filigran uygulamak çok önemlidir. Bu derste, PSD dosyalarını işlemek için güçlü bir kütüphane olan Aspose.PSD'nin yardımıyla Java kullanarak PSD dosyalarına çapraz filigranın nasıl ekleneceğini keşfedeceğiz.
 ## Önkoşullar
@@ -97,3 +103,9 @@ Kesinlikle! Şeffaflığı değiştirmek için SolidBrush'taki alfa değerini ay
  Evet, arayabilirsiniz`drawString` Daha fazla filigran eklemek için yöntemi farklı parametrelerle birden çok kez kullanın.
 ### Aspose.PSD hakkında daha fazla bilgiyi nerede bulabilirim?
  Belgeleri kontrol edebilirsiniz[Burada](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

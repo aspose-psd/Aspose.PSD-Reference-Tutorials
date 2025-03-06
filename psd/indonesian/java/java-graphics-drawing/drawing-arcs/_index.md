@@ -3,10 +3,16 @@ title: Menggambar Busur di Java
 linktitle: Menggambar Busur di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggambar busur di Java menggunakan Aspose.PSD untuk Java. Tutorial langkah demi langkah dengan contoh kode untuk aplikasi grafis.
-type: docs
 weight: 13
 url: /id/java/java-graphics-drawing/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Busur di Java
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggambar busur menggunakan perpustakaan Aspose.PSD untuk Java. Menggambar busur secara terprogram dapat berguna dalam berbagai aplikasi seperti antarmuka pengguna grafis, pembuatan bagan, atau visualisasi khusus. Aspose.PSD untuk Java menyediakan fungsionalitas yang kuat untuk memanipulasi dan membuat file PSD (Photoshop Document), termasuk kemampuan menggambar bentuk seperti busur dengan properti yang dapat disesuaikan.
 ## Prasyarat
@@ -74,3 +80,9 @@ Tentu saja, Aspose.PSD menyediakan fitur ekstensif untuk memanipulasi dan membua
 Ya, Aspose.PSD mendukung ekspor ke berbagai format termasuk PNG, JPEG, TIFF, dan GIF, antara lain.
 ### Di mana saya dapat menemukan dukungan dan sumber daya tambahan untuk Aspose.PSD?
  Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas, dokumentasi, dan pembaruan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

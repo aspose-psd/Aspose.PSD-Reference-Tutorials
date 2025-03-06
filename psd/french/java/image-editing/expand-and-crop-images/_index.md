@@ -3,10 +3,16 @@ title: Développez et recadrez les images avec Aspose.PSD pour Java
 linktitle: Agrandir et recadrer les images
 second_title: API Java Aspose.PSD
 description: Découvrez comment agrandir et recadrer des images en Java à l'aide d'Aspose.PSD. Guide étape par étape pour un traitement d’image efficace.
-type: docs
 weight: 18
 url: /fr/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Développez et recadrez les images avec Aspose.PSD pour Java
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment utiliser Aspose.PSD pour Java pour agrandir et recadrer efficacement les images. Aspose.PSD est une bibliothèque puissante qui offre un large éventail de fonctionnalités pour travailler avec des fichiers PSD dans des applications Java. Dans ce guide, nous aborderons les conditions préalables nécessaires, l'importation de packages et détaillerons chaque étape avec des explications détaillées.
@@ -102,3 +108,9 @@ A2 : Absolument, Aspose.PSD fournit des licences commerciales aux développeurs,
 ### Q5 : Existe-t-il un essai gratuit ?
 
  A5 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

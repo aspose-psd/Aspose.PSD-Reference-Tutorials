@@ -3,10 +3,16 @@ title: Lägger till Stroke Layer med solid färg i Aspose.PSD för .NET
 linktitle: Lägga till Stroke Layer med solid färg
 second_title: Aspose.PSD .NET API
 description: Förbättra dina färdigheter i .NET-bildmanipulering med Aspose.PSD. Lär dig att lägga till strecklager med solida färger steg för steg.
-type: docs
 weight: 11
 url: /sv/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägger till Stroke Layer med solid färg i Aspose.PSD för .NET
+
 ## Introduktion
 
 När det gäller .NET-utveckling är det ett vanligt krav att skapa visuellt tilltalande bilder. Aspose.PSD för .NET tillhandahåller en kraftfull uppsättning verktyg för att manipulera och förbättra bilder sömlöst. En av de väsentliga funktionerna är att lägga till ett strecklager med enfärgad färg, vilket ger liv och djup till dina bilder. I denna handledning guidar vi dig genom processen steg för steg med Aspose.PSD för .NET.
@@ -130,3 +136,9 @@ A2: Absolut! Aspose.PSD för .NET är en kommersiell produkt, och du kan använd
 ### F5: Hur kan jag få support för Aspose.PSD för .NET?
 
  A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) att söka hjälp och få kontakt med samhället.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

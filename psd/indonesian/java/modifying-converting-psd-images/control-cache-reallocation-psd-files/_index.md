@@ -3,10 +3,16 @@ title: Kontrol Realokasi Cache di File PSD
 linktitle: Kontrol Realokasi Cache di File PSD
 second_title: Asumsikan.PSD Java API
 description: Kelola realokasi cache di file PSD menggunakan Aspose.PSD untuk Java. Pelajari cara mengoptimalkan memori dan penanganan file secara efisien—ideal bagi pengembang.
-type: docs
 weight: 22
 url: /id/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kontrol Realokasi Cache di File PSD
+
 ## Perkenalan
 Saat bekerja dengan gambar dan file Photoshop secara terprogram, efisiensi adalah faktor kuncinya. Aspose.PSD untuk Java menawarkan fitur canggih untuk mengelola dan memanipulasi file PSD dengan lancar. Salah satu aspek mendasar dalam mengoptimalkan kinerja adalah mengendalikan realokasi cache. Manajemen cache membantu menjaga keseimbangan antara penggunaan memori dan disk, memastikan aplikasi Anda berjalan dengan lancar, tanpa crash atau perlambatan yang tidak terduga. 
 ## Prasyarat
@@ -127,3 +133,9 @@ Aspose.PSD adalah perpustakaan bagi pengembang .NET dan Java untuk membuat, mema
 Aspose.PSD adalah perpustakaan berbayar, tetapi Anda dapat memulai dengan uji coba gratis yang tersedia di perpustakaan mereka[situs web](https://releases.aspose.com/).
 ### Apa yang terjadi jika saya tidak membuang benda?
 Tidak membuang objek dapat menyebabkan kebocoran memori, menyebabkan aplikasi Anda menggunakan lebih banyak sumber daya daripada yang diperlukan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

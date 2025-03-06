@@ -3,10 +3,16 @@ title: PSD 文件资源
 linktitle: PSD 文件资源
 second_title: Aspose.PSD .NET API
 description: 通过我们的教程释放 Aspose.PSD for .NET 的全部潜力。无缝掌握背景颜色、边框信息、工作路径和黑白资源。
-type: docs
 weight: 31
 url: /zh/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 文件资源
+
 
 ## 介绍
 
@@ -39,3 +45,9 @@ url: /zh/net/psd-file-resources/
 探索 Aspose.PSD for .NET 中“WorkingPathResource”的强大功能。通过本分步指南提高图像精度。
 ### [在 Aspose.PSD for .NET 中支持黑白 (Blwh) 资源](./supporting-black-and-white-blwh-resource/)
 探索使用 Aspose.PSD for .NET 进行高级图像编辑。学习掌握黑白调整层，以精确控制图像元素。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

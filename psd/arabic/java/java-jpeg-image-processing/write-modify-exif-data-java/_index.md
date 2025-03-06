@@ -3,10 +3,16 @@ title: كتابة وتعديل بيانات EXIF في جافا
 linktitle: كتابة وتعديل بيانات EXIF في جافا
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية كتابة بيانات EXIF وتعديلها في ملفات PSD باستخدام Aspose.PSD لـ Java باستخدام هذا الدليل الشامل المفصّل خطوة بخطوة.
-type: docs
 weight: 22
 url: /ar/java/java-jpeg-image-processing/write-modify-exif-data-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كتابة وتعديل بيانات EXIF في جافا
+
 ## مقدمة
 هل تتطلع إلى معالجة بيانات EXIF في ملفات PSD باستخدام Java؟ إذا كانت الإجابة بنعم، فأنت في المكان الصحيح! سيرشدك هذا الدليل الشامل خلال خطوات كتابة بيانات EXIF وتعديلها في Java باستخدام مكتبة Aspose.PSD القوية. 
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ image.save(dataDir + "Modified_Zebras_Serengeti.psd");
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل يمكنني استخدام Aspose.PSD لمعالجة الصور دفعة واحدة؟
 نعم، يمكنك معالجة صور متعددة دفعة واحدة باستخدام ميزات Aspose.PSD القوية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

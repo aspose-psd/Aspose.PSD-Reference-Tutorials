@@ -3,10 +3,16 @@ title: Propriété de chronologie de l'image PSD dans Aspose.PSD pour .NET
 linktitle: Propriété de chronologie de l'image PSD
 second_title: API Aspose.PSD.NET
 description: Explorez le monde dynamique du traitement d'images avec Aspose.PSD pour .NET. Manipulez les chronologies PSD sans effort. Téléchargez la bibliothèque maintenant !
-type: docs
 weight: 15
 url: /fr/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propriété de chronologie de l'image PSD dans Aspose.PSD pour .NET
+
 ## Introduction
 Dans le paysage en constante évolution du développement .NET, il est essentiel de garder une longueur d’avance. Aspose.PSD pour .NET apparaît comme un outil puissant, offrant une multitude de fonctionnalités pour améliorer vos capacités de traitement d'image. Une fonctionnalité remarquable est la propriété PSD Image Timeline, qui vous permet de manipuler dynamiquement la chronologie de vos images PSD.
 ## Conditions préalables
@@ -85,3 +91,9 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec divers frameworks .NET, garan
 ### Q5 : Où puis-je trouver une documentation détaillée pour Aspose.PSD pour .NET ?
 
  A5 : Explorez la documentation complète[ici](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

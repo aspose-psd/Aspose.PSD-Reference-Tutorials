@@ -3,10 +3,16 @@ title: 使用 Java 在 PSD 文件中渲染旋转文本层
 linktitle: 使用 Java 在 PSD 文件中渲染旋转文本层
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 从 PSD 文件中提取和渲染旋转文本层。本分步指南涵盖从设置到导出的所有内容。
-type: docs
 weight: 18
 url: /zh/java/psd-layer-management-effects/render-rotated-text-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PSD 文件中渲染旋转文本层
+
 ## 介绍
 
 您是否曾经收到过文本层莫名其妙地倾斜的 PSD 文件？也许您自己创建了一个，并希望在导出时保留这种艺术旋转效果。Aspose.PSD for Java 可以帮您解决这一问题！这个功能强大的库使您能够操作和渲染 PSD 文件，包括处理那些令人讨厌的旋转文本层。 
@@ -135,3 +141,9 @@ try {
 ### 如何获得 Aspose.PSD for Java 的支持？
 
 Aspose 提供各种支持渠道，包括其文档（[https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/))、在线论坛（[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) 以及针对授权用户专门的支持选项。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

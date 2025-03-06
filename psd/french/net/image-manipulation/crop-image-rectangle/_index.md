@@ -3,10 +3,16 @@ title: Recadrage d'images par rectangle dans Aspose.PSD pour .NET
 linktitle: Recadrage des images par rectangle
 second_title: API Aspose.PSD.NET
 description: Améliorez vos compétences en manipulation d'images .NET avec Aspose.PSD. Apprenez le recadrage d'images étape par étape à l'aide de rectangles pour plus de précision.
-type: docs
 weight: 11
 url: /fr/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrage d'images par rectangle dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le domaine de la programmation .NET, la manipulation et l'amélioration des images sont une tâche courante, et Aspose.PSD pour .NET est une bibliothèque puissante qui simplifie ce processus. Ce didacticiel se concentre sur une technique de manipulation d'image fondamentale mais cruciale : le recadrage des images par un rectangle. À la fin de ce guide, vous aurez une solide compréhension de la façon de recadrer des images avec précision à l'aide d'Aspose.PSD pour .NET.
@@ -110,3 +116,9 @@ A3 : Aspose.PSD pour .NET est conçu pour gérer des images de différentes tail
 ### Q5 : Où puis-je trouver une assistance ou une assistance supplémentaire ?
 
  A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34)pour se connecter avec la communauté et chercher du soutien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

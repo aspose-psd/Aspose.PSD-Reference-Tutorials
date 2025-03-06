@@ -3,10 +3,16 @@ title: Hỗ trợ hiệu ứng đổ bóng trong Aspose.PSD cho .NET
 linktitle: Hỗ trợ hiệu ứng đổ bóng
 second_title: API Aspose.PSD .NET
 description: Nâng cao hình ảnh của bạn với Aspose.PSD cho .NET! Tìm hiểu cách hỗ trợ hiệu ứng đổ bóng từng bước. Tải xuống ngay bây giờ để có trải nghiệm trực quan tuyệt đẹp.
-type: docs
 weight: 14
 url: /vi/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ hiệu ứng đổ bóng trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Việc thêm hiệu ứng đổ bóng vào hình ảnh có thể nâng cao đáng kể sự hấp dẫn trực quan và tạo ra trải nghiệm người dùng sâu sắc hơn. Aspose.PSD for .NET cung cấp một giải pháp mạnh mẽ để hỗ trợ hiệu ứng đổ bóng trong hình ảnh của bạn, cho phép bạn tùy chỉnh các thông số khác nhau và đạt được hiệu ứng hình ảnh mong muốn.
@@ -109,3 +115,9 @@ Câu trả lời 2: Có, Aspose.PSD cho .NET hỗ trợ nhiều định dạng t
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.PSD cho .NET miễn phí trước khi mua không?
 
  Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[trang phát hành](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

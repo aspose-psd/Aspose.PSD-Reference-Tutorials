@@ -3,10 +3,16 @@ title: Obracanie obrazu pod określonym kątem w Aspose.PSD dla .NET
 linktitle: Obracanie obrazu pod określonym kątem
 second_title: Aspose.PSD API .NET
 description: Poznaj moc Aspose.PSD dla .NET. Obracaj obrazy bez wysiłku pod określonym kątem. Pobierz bibliotekę i zacznij płynnie manipulować obrazami.
-type: docs
 weight: 16
 url: /pl/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obracanie obrazu pod określonym kątem w Aspose.PSD dla .NET
+
 Jeśli zagłębiasz się w świat manipulacji obrazami za pomocą .NET, Aspose.PSD zapewnia potężne rozwiązanie. W tym samouczku przeprowadzimy Cię przez proces obracania obrazu pod określonym kątem za pomocą Aspose.PSD. Zanim przejdziemy do kolejnych kroków, przygotujmy scenę wprowadzeniem.
 
 ## Wstęp
@@ -104,3 +110,9 @@ Odpowiedź 3: Chociaż nie jest to obowiązkowe, buforowanie danych może znaczn
 ### P5: Czy mogę wypróbować Aspose.PSD przed zakupem?
 
  A5: Oczywiście! Chwyć swoje[bezpłatna wersja próbna](https://releases.aspose.com/)poznać możliwości biblioteki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

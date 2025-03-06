@@ -3,10 +3,16 @@ title: Görüntü Efektleri
 linktitle: Görüntü Efektleri
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'te dinamik görüntü iyileştirmelerinde ustalaşın. Çalışma zamanında çarpıcı efektler ekleme, üst üste bindirme ve işleme hakkındaki eğitimlerle görüntü işleme becerilerinizi geliştirin.
-type: docs
 weight: 25
 url: /tr/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü Efektleri
+
 
 ## giriiş
 
@@ -34,3 +40,9 @@ Aspose.PSD for .NET'i kullanarak dinamik görüntü iyileştirmelerini keşfedin
 Renk efektlerinin üst üste bindirilmesiyle ilgili eğitimimizle Aspose.PSD for .NET'in büyüsünü keşfedin. Görüntü işleme oyununuzu zahmetsizce yükseltin.
 ### [Aspose.PSD for .NET'te Alt Gölge Efekti Oluşturma](./render-drop-shadow/)
 Bu eğitimde Aspose.PSD for .NET'in gücünü keşfedin ve büyüleyici alt gölge efektleri oluşturma sanatında ustalaşın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

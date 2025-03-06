@@ -3,10 +3,16 @@ title: 掌握 Aspose.PSD for .NET 中的 MLST 资源处理
 linktitle: 处理 MLST 资源
 second_title: Aspose.PSD .NET API
 description: 学习使用 Aspose.PSD for .NET 操作 Photoshop 文件中的图层状态。按照我们的分步指南进行高效的 MLST 资源处理。
-type: docs
 weight: 14
 url: /zh/net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.PSD for .NET 中的 MLST 资源处理
+
 ## 介绍
 欢迎阅读有关在 Aspose.PSD for .NET 中处理 MLST（多层状态）资源的深入教程。Aspose.PSD for .NET 是一个功能强大的库，可提供处理 Photoshop 文件的广泛功能。在本教程中，我们将重点介绍 MLST 资源的支持，提供一种有效操作层状态的低级机制。
 ## 先决条件
@@ -86,3 +92,9 @@ A3：文档可用[这里](https://reference.aspose.com/psd/net/).
 ### Q5：如何购买 Aspose.PSD for .NET 的许可证？
 
  A5：您可以购买许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

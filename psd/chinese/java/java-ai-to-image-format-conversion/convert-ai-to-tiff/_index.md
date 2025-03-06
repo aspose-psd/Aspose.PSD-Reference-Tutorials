@@ -3,10 +3,16 @@ title: 使用 Java 将 AI 转换为 TIFF
 linktitle: 使用 Java 将 AI 转换为 TIFF
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 轻松将 Java 中的 AI 转换为 TIFF。为开发人员提供分步指南。包含下载、设置和代码片段。
-type: docs
 weight: 15
 url: /zh/java/java-ai-to-image-format-conversion/convert-ai-to-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 将 AI 转换为 TIFF
+
 ## 介绍
 将 AI 文件转换为 TIFF 格式是处理图形文件的开发人员的常见要求。这项任务乍一看似乎很艰巨，但使用 Aspose.PSD for Java，它就变得简单了。无论您是想保持矢量图形的质量还是将其转换为广泛支持的光栅格式，Aspose.PSD for Java 都能满足您的需求。
 ## 先决条件
@@ -63,3 +69,9 @@ image.save(outFileName, tiffOptions);
 是的，你可以下载[免费试用](https://releases.aspose.com/)来测试这些功能。
 ### 在哪里可以获得 Aspose.PSD for Java 的支持？
 您可以在[Aspose.PSD 支持论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

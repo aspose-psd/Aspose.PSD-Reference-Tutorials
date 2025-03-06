@@ -3,10 +3,16 @@ title: Mengekspor Gambar di Lingkungan Multi-Threaded dengan Aspose.PSD untuk .N
 linktitle: Mengekspor Gambar di Lingkungan Multi-Threaded dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan pemrosesan gambar .NET dengan Aspose.PSD. Ekspor gambar dalam lingkungan multi-utas. Tingkatkan kinerja dan efisiensi dengan mudah.
-type: docs
 weight: 20
 url: /id/net/psd-file-manipulation/export-images-multi-thread/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Gambar di Lingkungan Multi-Threaded dengan Aspose.PSD untuk .NET
+
 Dalam bidang pengembangan .NET, mengelola dan memanipulasi gambar secara efisien sangatlah penting. Aspose.PSD untuk .NET memberdayakan pengembang dengan alat canggih untuk menangani file PSD dengan lancar. Dalam panduan langkah demi langkah ini, kita akan menjelajahi proses mengekspor gambar dalam lingkungan multi-thread menggunakan Aspose.PSD untuk .NET.
 ## Perkenalan
 Aspose.PSD untuk .NET adalah API canggih yang memungkinkan pengembang bekerja dengan file Photoshop (PSD) secara terprogram. Tutorial ini mempelajari seluk-beluk mengekspor gambar, khususnya di lingkungan multi-thread. Multi-threading dapat meningkatkan kinerja secara signifikan dengan memparalelkan tugas, menjadikannya teknik yang berharga untuk pemrosesan gambar.
@@ -77,3 +83,9 @@ A1: Ya, Aspose.PSD untuk .NET mendukung berbagai versi file Photoshop, memastika
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
  A5: Kunjungi[tautan ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

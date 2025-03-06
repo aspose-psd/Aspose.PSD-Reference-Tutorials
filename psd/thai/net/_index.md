@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.PSD สำหรับ .NET
 linktitle: Aspose.PSD สำหรับบทช่วยสอน .NET
-type: docs
 weight: 10
 url: /th/net/
 description: เพิ่มคุณภาพของภาพได้อย่างง่ายดายด้วย Aspose.PSD สำหรับบทช่วยสอน .NET การประมวลผลภาพหลัก การจัดการไฟล์ PSD การจัดการข้อความและแบบอักษร และอื่นๆ
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 ปลดล็อกศักยภาพทั้งหมดของ Aspose.PSD สำหรับ .NET ด้วยบทช่วยสอนและตัวอย่างที่ครอบคลุมของเรา ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ในการประมวลผลภาพ คำแนะนำทีละขั้นตอนของเราจะช่วยให้คุณปรับปรุงโครงการ .NET ของคุณได้อย่างง่ายดาย
 
@@ -100,3 +105,9 @@ is_root: true
 การปรับปรุงรูปภาพไดนามิกหลักใน Aspose.PSD สำหรับ .NET ยกระดับการประมวลผลภาพของคุณด้วยบทช่วยสอนเกี่ยวกับการเพิ่ม การซ้อนทับ และการเรนเดอร์เอฟเฟกต์อันน่าทึ่ง ณ รันไทม์
 ### [ทรัพยากรไฟล์ PSD](./psd-file-resources/)
 ปลดล็อกศักยภาพทั้งหมดของ Aspose.PSD สำหรับ .NET ด้วยบทช่วยสอนของเรา สีพื้นหลังหลัก ข้อมูลเส้นขอบ เส้นทางการทำงาน และทรัพยากรขาวดำได้อย่างราบรื่น 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

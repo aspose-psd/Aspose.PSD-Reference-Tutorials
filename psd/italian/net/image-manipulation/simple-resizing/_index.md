@@ -3,10 +3,16 @@ title: Ridimensionamento semplice delle immagini in Aspose.PSD per .NET
 linktitle: Ridimensionamento semplice delle immagini
 second_title: API Aspose.PSD .NET
 description: Ridimensionamento dell'immagine principale con Aspose.PSD per .NET. Efficiente, continuo e potente. Migliora i tuoi progetti .NET senza sforzo.
-type: docs
 weight: 17
 url: /it/net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ridimensionamento semplice delle immagini in Aspose.PSD per .NET
+
 ## Introduzione
 
 Nel regno dinamico dello sviluppo .NET, la manipolazione delle immagini è una necessità comune. Aspose.PSD per .NET viene in soccorso con le sue potenti funzionalità, fornendo un'esperienza fluida per il ridimensionamento delle immagini. In questo tutorial, approfondiremo il processo semplice ma cruciale di ridimensionamento delle immagini utilizzando Aspose.PSD per .NET. Allacciate le cinture mentre intraprendiamo un viaggio per migliorare le vostre capacità di elaborazione delle immagini.
@@ -89,3 +95,9 @@ A3: Sì, è possibile ottenere una licenza temporanea per Aspose.PSD per .NET pe
 ### Q5: Come posso ottenere supporto o connettermi con la community per Aspose.PSD per .NET?
 
  A5: Visita il[Aspose.PSD per il forum .NET](https://forum.aspose.com/c/psd/34) per il supporto e le discussioni della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

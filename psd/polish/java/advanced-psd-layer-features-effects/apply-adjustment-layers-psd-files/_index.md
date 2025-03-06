@@ -3,10 +3,16 @@ title: Zastosuj warstwy dopasowania w plikach PSD przy użyciu języka Java
 linktitle: Zastosuj warstwy dopasowania w plikach PSD przy użyciu języka Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak stosować warstwy dopasowania w plikach PSD przy użyciu Aspose.PSD dla Java, w tym kompletnym przewodniku krok po kroku dla programistów.
-type: docs
 weight: 15
 url: /pl/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj warstwy dopasowania w plikach PSD przy użyciu języka Java
+
 ## Wstęp
 Czy jesteś programistą Java i chcesz ulepszyć obrazy przechowywane w plikach PSD? Jeśli tak, jesteś we właściwym miejscu! W tym artykule przyjrzymy się, jak zastosować warstwy dopasowania w plikach PSD przy użyciu biblioteki Aspose.PSD dla Java. Niezależnie od tego, czy pracujesz nad osobistym projektem, czy profesjonalną aplikacją, zrozumienie sposobu manipulowania plikami PSD może znacząco podnieść możliwości Twojego oprogramowania. 
 
@@ -97,3 +103,9 @@ Nie, nie potrzebujesz Photoshopa. Aspose.PSD działa niezależnie, aby programow
 Możesz odwiedzić stronę z dokumentacją[Tutaj](https://reference.aspose.com/psd/java/) do eksplorowania funkcji, klas i metod.
 ### Jak uzyskać wsparcie dla produktów Aspose?
  Dostęp do pomocy technicznej można uzyskać za pośrednictwem[forum dyskusyjne](https://forum.aspose.com/c/psd/34) gdzie możesz zadawać pytania i znajdować rozwiązania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

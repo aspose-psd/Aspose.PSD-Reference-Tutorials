@@ -3,10 +3,16 @@ title: Képbeállítás
 linktitle: Képbeállítás
 second_title: Aspose.PSD .NET API
 description: Használja ki a képbeállítás lehetőségeit az Aspose.PSD for .NET segítségével. Fedezze fel a fényerőről, kontrasztról és színegyensúlyról szóló oktatóanyagokat, hogy elsajátítsa a képkezelést.
-type: docs
 weight: 24
 url: /hu/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képbeállítás
+
 ## Bevezetés
 
 Készen állsz, hogy javítsd képmanipulációs készségeidet? Merüljön el az Aspose.PSD for .NET világában a képbeállításról szóló átfogó oktatóanyagaink segítségével. Akár tapasztalt fejlesztő, akár csak most kezdi, lépésről lépésre szóló útmutatóink segítségével könnyedén javíthatja a képeket.
@@ -42,3 +48,9 @@ Fedezze fel az Aspose.PSD for .NET erejét a Gamma Adjustment megvalósításár
 Tanulja meg, hogyan lehet könnyedén elmosni a képeket az Aspose.PSD for .NET segítségével. Lépésről lépésre szóló útmutató a zökkenőmentes képkezeléshez a C# projektekben.
 ### [Színegyensúly-beállítás alkalmazása az Aspose.PSD-ben .NET-hez](./color-balance-adjustment/)
 Fokozza a PSD-képszíneket könnyedén az Aspose.PSD-vel a .NET színegyensúly-beállítási funkciójához. Kövesse lépésről lépésre útmutatónkat a lenyűgöző eredményekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

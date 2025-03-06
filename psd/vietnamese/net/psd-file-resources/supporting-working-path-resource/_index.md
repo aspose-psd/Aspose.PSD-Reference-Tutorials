@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên đường dẫn làm việc trong Aspose.PSD cho 
 linktitle: Hỗ trợ tài nguyên đường dẫn làm việc
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của 'WorkingPathResource' trong Aspose.PSD cho .NET. Nâng cao độ chính xác của hình ảnh với hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên đường dẫn làm việc trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Nếu bạn là nhà phát triển .NET làm việc về xử lý hình ảnh, Aspose.PSD cho .NET là giải pháp phù hợp cho bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc khai thác sức mạnh của tài nguyên 'WorkingPathResource' trong Aspose.PSD. Tính năng quan trọng này nâng cao độ chính xác của thao tác Cắt, đảm bảo hình ảnh của bạn được điều chỉnh chính xác khi cần.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Chúc mừng! Bạn đã thành thạo cách sử dụng 'WorkingPathResource' t
 ### Q5: Cần giấy phép tạm thời?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

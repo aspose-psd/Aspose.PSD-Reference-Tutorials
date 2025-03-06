@@ -3,10 +3,16 @@ title: Kết hợp hình ảnh trong Aspose.PSD cho .NET
 linktitle: Kết hợp hình ảnh
 second_title: API Aspose.PSD .NET
 description: Kết hợp hình ảnh dễ dàng trong .NET với Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hình ảnh liền mạch.
-type: docs
 weight: 10
 url: /vi/net/image-manipulation/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết hợp hình ảnh trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách kết hợp hình ảnh bằng Aspose.PSD cho .NET! Aspose.PSD là một thư viện .NET mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Adobe Photoshop. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kết hợp hình ảnh bằng Aspose.PSD, cung cấp cho bạn các ví dụ thực tế và các bước chi tiết.
@@ -107,3 +113,9 @@ Câu trả lời 2: Có, Aspose.PSD có thể được sử dụng cho cả mụ
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.PSD không?
 
 A5: Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

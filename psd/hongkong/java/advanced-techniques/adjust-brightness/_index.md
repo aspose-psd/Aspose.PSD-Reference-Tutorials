@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 調整影像的亮度
 linktitle: 調整影像的亮度
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 在 Java 中增強影像亮度。以程式方式調整影像亮度的逐步指南。
-type: docs
 weight: 21
 url: /zh-hant/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 調整影像的亮度
+
 ## 介紹
 
 增強影像是平面設計和數位攝影中的常見要求。 Aspose.PSD for Java 提供了一個強大的解決方案，可以程式方式調整影像亮度。在本教程中，我們將逐步探索如何利用 Aspose.PSD for Java 函式庫來調整影像的亮度。
@@ -107,3 +113,9 @@ A3：調整的範圍取決於圖像內容和格式，但Aspose.PSD提供了客�
 ### Q5：Aspose.PSD for Java 有免費試用版嗎？
 
 A5：是的，您可以透過免費試用來探索該庫[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

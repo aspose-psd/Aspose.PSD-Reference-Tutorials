@@ -3,10 +3,16 @@ title: Stöd 16-bitars gråskala färgläge i PSD - Java
 linktitle: Stöd 16-bitars gråskala färgläge i PSD - Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du implementerar 16-bitars gråskalefärgläge i PSD-filer med Aspose.PSD för Java med denna detaljerade steg-för-steg-handledning.
-type: docs
 weight: 11
 url: /sv/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stöd 16-bitars gråskala färgläge i PSD - Java
+
 ## Introduktion
 När du dyker in i världen av grafisk design och bildmanipulation är det som att ha ett hemligt vapen att förstå hur man arbetar med olika färglägen. I synnerhet kan 16-bitars gråskala vara en spelomvandlare, vilket ger dina bilder det fantastiska djupet och detaljerna som verkligen får dem att poppa upp. Så är du redo att utforska denna kraftfulla funktion med Aspose.PSD för Java? Om du har din kodningsutrustning redo, låt oss hoppa direkt in i det.
 ## Förutsättningar
@@ -126,3 +132,9 @@ Absolut! Aspose.PSD stöder olika färglägen, så att du kan arbeta med RGB, CM
  Du kan kolla in[dokumentation](https://reference.aspose.com/psd/java/) för mer djupgående exempel och handledning.
 ### Hur köper jag en licens för Aspose.PSD?
  Du kan köpa en licens genom att besöka[Aspose köpsida](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

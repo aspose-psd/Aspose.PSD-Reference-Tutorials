@@ -3,10 +3,16 @@ title: Working with Timeline in Aspose.PSD for .NET
 linktitle: Working with Timeline
 second_title: Aspose.PSD .NET API
 description: Enhance PSD image manipulation with Aspose.PSD for .NET Timeline class. Control frame properties, layer states, and unleash creative possibilities effortlessly.
-type: docs
 weight: 16
 url: /net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Timeline in Aspose.PSD for .NET
+
 ## Introduction
 In the dynamic world of graphic design and image manipulation, the ability to control and manipulate the timeline of images is crucial. Aspose.PSD for .NET provides a powerful solution with its Timeline class. This high-level feature enables users to make changes to the timeline of PsdImage, such as altering frame delay, editing layer states on specific frames, and more.
 ## Prerequisites
@@ -108,3 +114,10 @@ A4: Acquire a temporary license [here](https://purchase.aspose.com/temporary-lic
 ### Q5: What are the key benefits of using Aspose.PSD for .NET?
 
 A5: Aspose.PSD for .NET offers advanced image processing capabilities, PSD file manipulation, and high-performance rendering.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

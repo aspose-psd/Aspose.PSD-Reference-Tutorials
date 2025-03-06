@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 색상 오버레이 효과 적용
 linktitle: 색상 오버레이 효과 적용
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD에서 색상 오버레이 효과의 마법을 발견해 보세요. 이 단계별 가이드를 통해 이미지 편집 게임의 수준을 높이세요.
-type: docs
 weight: 10
 url: /ko/java/image-editing/color-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 색상 오버레이 효과 적용
+
 ## 소개
 
 Java용 Aspose.PSD를 사용한 그래픽 디자인 및 이미지 조작의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 색상 오버레이 효과를 적용하여 이미지를 향상시키는 방법을 살펴보겠습니다. 이 강력한 Java 라이브러리를 사용하면 PSD 파일을 효율적으로 작업할 수 있으며 이미지 처리를 위한 다양한 기능을 제공합니다.
@@ -110,3 +116,9 @@ A2: 예, Aspose.PSD는 Eclipse 및 IntelliJ와 같은 널리 사용되는 Java I
 ### Q5: Aspose.PSD에 사용할 수 있는 무료 평가판 옵션이 있습니까?
 
  A5: 그렇습니다.[무료 평가판](https://releases.aspose.com/) 구매하기 전에 버전을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

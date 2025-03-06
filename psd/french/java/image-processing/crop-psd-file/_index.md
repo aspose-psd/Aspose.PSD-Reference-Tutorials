@@ -3,10 +3,16 @@ title: Recadrer le fichier PSD à l'aide d'Aspose.PSD pour Java
 linktitle: Recadrer le fichier PSD
 second_title: API Java Aspose.PSD
 description: Explorez le recadrage transparent de fichiers PSD en Java avec Aspose.PSD. Intégrez sans effort précision et efficacité dans vos tâches de manipulation d’images.
-type: docs
 weight: 17
 url: /fr/java/image-processing/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrer le fichier PSD à l'aide d'Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le monde du développement Java, la gestion et la manipulation des fichiers PSD (Photoshop Document) sont une exigence courante. Aspose.PSD pour Java apparaît comme un outil puissant, simplifiant le processus de recadrage des fichiers PSD avec efficacité et précision. Ce guide étape par étape vous guidera à travers les bases du recadrage d'un fichier PSD à l'aide d'Aspose.PSD pour Java, en vous assurant de bien comprendre chaque concept.
@@ -106,3 +112,9 @@ A2 : Oui, Aspose.PSD pour Java est optimisé pour les performances, ce qui le re
 ### Q5 : Puis-je essayer Aspose.PSD pour Java avant d’acheter ?
 
  A5 : Oui, explorez les fonctionnalités avec un essai gratuit disponible[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

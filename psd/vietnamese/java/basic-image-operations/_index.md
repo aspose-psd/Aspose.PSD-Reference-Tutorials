@@ -3,10 +3,16 @@ title: Các thao tác hình ảnh cơ bản
 linktitle: Các thao tác hình ảnh cơ bản
 second_title: API Java Aspose.PSD
 description: Nâng cao kỹ năng thiết kế đồ họa của bạn với các hướng dẫn Aspose.PSD cho Java. Tìm hiểu cách vẽ, thay đổi kích thước, chế độ hòa trộn và xác minh độ trong suốt trong hướng dẫn từng bước.
-type: docs
 weight: 25
 url: /vi/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các thao tác hình ảnh cơ bản
+
 
 ## Giới thiệu
 
@@ -44,3 +50,9 @@ Tăng cường xử lý hình ảnh trong Java với Aspose.PSD. Tìm hiểu cá
 Tìm hiểu cách thêm hiệu ứng đổ bóng quyến rũ vào hình ảnh bằng Aspose.PSD cho Java. Nâng cao thiết kế đồ họa của bạn với hướng dẫn từng bước này.
 ### [Xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho Java](./verify-image-transparency/)
 Khám phá xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho Java. Tích hợp dễ dàng, tài liệu chi tiết và hỗ trợ cộng đồng tuyệt vời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

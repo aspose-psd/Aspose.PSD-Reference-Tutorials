@@ -3,10 +3,16 @@ title: Layer Effects
 linktitle: Layer Effects
 second_title: Aspose.PSD .NET API
 description: Discover the magic of layer effects with Aspose.PSD for .NET! Elevate your image manipulation skills by learning to add stroke, shadow, and blend modes.
-type: docs
 weight: 29
 url: /net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Layer Effects
+
 ## Introduction
 
 Unleash the full potential of your image manipulation endeavors with Aspose.PSD for .NET. This comprehensive guide introduces you to a myriad of layer effects that will transform your creative process. From strokes and shadows to blend modes, elevate your designs effortlessly.
@@ -54,3 +60,9 @@ Enhance your images with Aspose.PSD for .NET! Learn to support shadow effects st
 Learn how to adjust shadow effect opacity in Aspose.PSD for .NET with this comprehensive tutorial.
 ### [Working with Blend Modes in Aspose.PSD for .NET](./working-with-blend-modes/)
 Explore the power of blend modes in Aspose.PSD for .NET. This tutorial guides you through applying various blend modes with step-by-step examples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Faire pivoter une image selon un angle spécifique avec Aspose.PSD pour J
 linktitle: Faire pivoter une image selon un angle spécifique
 second_title: API Java Aspose.PSD
 description: Explorez la rotation des images en Java avec Aspose.PSD pour Java. Faites pivoter les images sans effort selon des angles spécifiques.
-type: docs
 weight: 20
 url: /fr/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Faire pivoter une image selon un angle spécifique avec Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le monde dynamique du développement Java, la manipulation d’images est une exigence courante pour diverses applications. Aspose.PSD pour Java apparaît comme une solution robuste, offrant des fonctionnalités puissantes pour gérer sans effort la rotation des images. Dans ce didacticiel, nous vous guiderons tout au long du processus de rotation d'une image selon un angle spécifique à l'aide d'Aspose.PSD pour Java. Avant de plonger dans les détails, préparons le terrain avec quelques prérequis.
@@ -117,3 +123,9 @@ Aspose.PSD pour Java se concentre principalement sur le traitement des images ba
 ### Q5 : Existe-t-il un forum communautaire pour Aspose.PSD où je peux demander de l'aide ?
 
  Oui, vous pouvez visiter le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour interagir avec la communauté, poser des questions et demander de l’aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

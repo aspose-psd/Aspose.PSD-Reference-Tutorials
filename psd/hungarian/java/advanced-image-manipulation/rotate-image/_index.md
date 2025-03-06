@@ -3,10 +3,16 @@ title: Kép forgatása az Aspose.PSD for Java fájlban
 linktitle: Kép elforgatása
 second_title: Aspose.PSD Java API
 description: Fedezze fel a Java képforgatását könnyedén az Aspose.PSD segítségével. Forgassa el, fordítsa meg és mentse el a PSD-fájlokat egyszerűen.
-type: docs
 weight: 19
 url: /hu/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép forgatása az Aspose.PSD for Java fájlban
+
 ## Bevezetés
 
 Az Aspose.PSD for Java hatékony funkciókat kínál a képekkel való munkavégzéshez, lehetővé téve a fejlesztők számára a PSD-fájlok hatékony kezelését és feldolgozását. Ebben az oktatóanyagban egy konkrét feladatra összpontosítunk: egy kép elforgatására. Függetlenül attól, hogy fotószerkesztő alkalmazást épít, vagy egyszerűen csak a kép tájolását kell módosítania, az Aspose.PSD egyszerűvé teszi a folyamatot.
@@ -84,3 +90,9 @@ A2: Abszolút! Az Aspose.PSD rugalmasságot biztosít az egyedi elforgatások al
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
  V5: Ha ideiglenes engedélyre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

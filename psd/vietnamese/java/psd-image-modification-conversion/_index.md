@@ -3,10 +3,16 @@ title: Sửa đổi và chuyển đổi hình ảnh PSD
 linktitle: Sửa đổi và chuyển đổi hình ảnh PSD
 second_title: API Java Aspose.PSD
 description: Khám phá các hướng dẫn Aspose.PSD cần thiết cho Java. Tìm hiểu cách xử lý tệp PSD, xuất lớp, áp dụng hiệu ứng và hơn thế nữa với hướng dẫn từng bước.
-type: docs
 weight: 22
 url: /vi/java/psd-image-modification-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi và chuyển đổi hình ảnh PSD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn sử dụng Aspose.PSD cho Java của chúng tôi! Bộ sưu tập hướng dẫn này được thiết kế để giúp các nhà phát triển và nhà thiết kế đồ họa làm việc hiệu quả với các tệp PSD. Cho dù bạn đang tìm cách sửa đổi hình ảnh, quản lý lớp hay áp dụng hiệu ứng, chúng tôi đều sẵn sàng hỗ trợ bạn. Hãy cùng tìm hiểu một số hướng dẫn chính giúp nâng cao kỹ năng xử lý hình ảnh của bạn.
@@ -102,3 +108,9 @@ Khám phá cách quản lý các lớp điều chỉnh Bộ trộn kênh RGB và
 Nâng cao hình ảnh PSD của bạn một cách dễ dàng bằng Java bằng cách sử dụng Aspose.PSD. Hãy làm theo hướng dẫn này để quản lý các lớp điều chỉnh theo từng bước.
 ### [Quản lý lớp điều chỉnh bộ lọc ảnh trong PSD - Java](./manage-photo-filter-adjustment-layer-psd/)
 Tìm hiểu cách quản lý Lớp điều chỉnh bộ lọc ảnh trong tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn này để chỉnh sửa và thêm bộ lọc một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

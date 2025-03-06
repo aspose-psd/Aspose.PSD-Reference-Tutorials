@@ -3,10 +3,16 @@ title: Sửa đổi và chuyển đổi hình ảnh PSD
 linktitle: Sửa đổi và chuyển đổi hình ảnh PSD
 second_title: API Java Aspose.PSD
 description: Nâng cao các tệp PSD của bạn bằng nhiều điều chỉnh và hiệu ứng khác nhau bằng Aspose.PSD cho Java. Hướng dẫn từng bước về thao tác màu, hình mờ, v.v.
-type: docs
 weight: 21
 url: /vi/java/modifying-converting-psd-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi và chuyển đổi hình ảnh PSD
+
 ## Giới thiệu
 
 Aspose.PSD cho Java cung cấp bộ công cụ linh hoạt để làm việc với các tệp PSD, cung cấp nhiều tùy chọn để sửa đổi và nâng cao hình ảnh của bạn. Cho dù bạn là một nhà thiết kế dày dạn hay chỉ mới bắt đầu, các hướng dẫn của chúng tôi đều được thiết kế để giúp bạn tận dụng tối đa tiềm năng của Aspose.PSD. Dưới đây là tổng hợp các hướng dẫn mà bạn có thể khám phá để nắm vững các khía cạnh khác nhau của thao tác PSD.
@@ -102,3 +108,9 @@ Quản lý phân bổ lại bộ đệm trong tệp PSD bằng Aspose.PSD cho Ja
 Tìm hiểu cách tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Java trong hướng dẫn từng bước của chúng tôi. Tham gia ngay để khám phá khả năng nghệ thuật vô tận.
 ### [Tạo hình thu nhỏ từ tệp PSD bằng Java](./create-thumbnails-psd-files/)
 Tìm hiểu cách dễ dàng tạo hình thu nhỏ từ tệp PSD bằng Java và Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý hình ảnh liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

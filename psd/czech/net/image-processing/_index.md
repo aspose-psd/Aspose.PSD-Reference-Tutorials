@@ -3,10 +3,16 @@ title: Zpracování obrazu
 linktitle: Zpracování obrazu
 second_title: Aspose.PSD .NET API
 description: Vylepšete kvalitu obrazu bez námahy pomocí výukových programů Aspose.PSD pro .NET. Naučte se techniky, jako jsou Gaussovy a Wienerovy filtry, převod barev, binarizace a další.
-type: docs
 weight: 20
 url: /cs/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zpracování obrazu
+
 
 ## Zavedení
 
@@ -46,3 +52,9 @@ Prozkoumejte převod barev v Aspose.PSD pro .NET. Naučte se aktualizovat barevn
 Naučte se, jak bez námahy aplikovat efekty stupňů šedi na obrázky pomocí Aspose.PSD for .NET.
 ### [Použití Bradleyho prahu v Aspose.PSD pro .NET](./apply-bradley-threshold/)
 Vylepšete segmentaci obrazu pomocí Bradley Threshold v Aspose.PSD pro .NET. Návod krok za krokem pro efektivní binarizaci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mettre à l'échelle des gris une image à l'aide d'Aspose.PSD pour Java
 linktitle: Échelle de gris une image
 second_title: API Java Aspose.PSD
 description: Explorez Aspose.PSD pour Java et apprenez à mettre en niveaux de gris des images sans effort grâce à notre didacticiel étape par étape.
-type: docs
 weight: 10
 url: /fr/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mettre à l'échelle des gris une image à l'aide d'Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le domaine du traitement d’images, la conversion d’une image en niveaux de gris est une opération fondamentale. Aspose.PSD for Java fournit une solution puissante permettant aux développeurs Java d'y parvenir de manière transparente. Dans ce didacticiel, nous vous guiderons tout au long du processus de mise à l'échelle des gris d'une image à l'aide d'Aspose.PSD, garantissant que même les débutants peuvent suivre sans effort.
@@ -104,3 +110,9 @@ Félicitations! Vous avez réussi à mettre en niveaux de gris une image à l'ai
 ### Q5 : Besoin d'aide ou avez-vous des questions ?
 
  A5 : Visitez le forum Aspose.PSD[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

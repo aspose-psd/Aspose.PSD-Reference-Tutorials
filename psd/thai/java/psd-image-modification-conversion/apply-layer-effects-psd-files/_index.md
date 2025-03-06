@@ -3,10 +3,16 @@ title: ใช้เอฟเฟกต์เลเยอร์ในไฟล์ 
 linktitle: ใช้เอฟเฟกต์เลเยอร์ในไฟล์ PSD โดยใช้ Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีใช้เอฟเฟกต์เลเยอร์ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java บทช่วยสอนนี้ครอบคลุมถึงการโหลด PSD การเข้าถึงเลเยอร์ และการบันทึกภาพที่แก้ไข
-type: docs
 weight: 19
 url: /th/java/psd-image-modification-conversion/apply-layer-effects-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้เอฟเฟกต์เลเยอร์ในไฟล์ PSD โดยใช้ Java
+
 ## การแนะนำ
 
 คุณเคยใฝ่ฝันที่จะจัดการกับผลงานชิ้นเอกที่มีเลเยอร์สวยงามเหล่านั้นในรูปแบบ PSD โดยตรงผ่านโค้ดหรือไม่? ด้วยพลังของ Aspose.PSD สำหรับ Java ความฝันนั้นก็กลายเป็นความจริง! คู่มือนี้จะแนะนำคุณตลอดขั้นตอนการใช้เอฟเฟกต์เลเยอร์ในไฟล์ PSD ของคุณโดยใช้ Java ซึ่งช่วยให้คุณทำงานอัตโนมัติและปลดล็อกการควบคุมครีเอทีฟในระดับใหม่ทั้งหมด 
@@ -111,3 +117,9 @@ image.save(exportPath, options);
 
 ### ฉันจะหาข้อมูลเพิ่มเติมและการสนับสนุนได้ที่ไหน?
 เอกสาร Aspose.PSD ([Aspose.PSD สำหรับเอกสาร Java](https://reference.aspose.com/psd/java/)) เป็นแหล่งข้อมูลอันทรงคุณค่าสำหรับข้อมูลเชิงลึก หากคุณพบปัญหาหรือมีคำถาม ฟอรัม Aspose ([ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34)) เป็นสถานที่ที่ดีเยี่ยมในการขอความช่วยเหลือจากชุมชนและการสนับสนุนจาก Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

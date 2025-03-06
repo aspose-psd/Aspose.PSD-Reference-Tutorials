@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中通过设置路径创建图像
 linktitle: 通过设置路径创建图像
 second_title: Aspose.PSD .NET API
 description: 探索使用 Aspose.PSD for .NET 进行图像创建。按照我们的分步指南，释放这个强大库的潜力。
-type: docs
 weight: 11
 url: /zh/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中通过设置路径创建图像
+
 在 .NET 开发领域，Aspose.PSD 是处理和创建图像的强大工具。在本教程中，我们将通过设置路径深入研究使用 Aspose.PSD for .NET 创建图像的过程。按照这些分步说明来解锁这个多功能库的潜力。
 
 ## 介绍
@@ -98,3 +104,9 @@ A2：当然！Aspose.PSD 允许您执行批量图像处理，从而可以高效�
 ### Q5：我如何获得支持或寻求帮助？
 
  A5：访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)与社区联系并寻求专家的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

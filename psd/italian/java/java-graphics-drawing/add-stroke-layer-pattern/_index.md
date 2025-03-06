@@ -3,10 +3,16 @@ title: Come aggiungere il modello di livello del tratto in Java
 linktitle: Come aggiungere il modello di livello del tratto in Java
 second_title: API Java Aspose.PSD
 description: Scopri come aggiungere un modello di livello tratto ai file PSD utilizzando Aspose.PSD per Java. Segui questa guida passo passo per migliorare facilmente le tue immagini.
-type: docs
 weight: 11
 url: /it/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Come aggiungere il modello di livello del tratto in Java
+
 ## Introduzione
 Aggiungere un modello di livello tratto a un'immagine in Java potrebbe sembrare un compito arduo, ma con Aspose.PSD per Java è più facile di quanto pensi. Che tu stia progettando grafica o lavorando su applicazioni di fotoritocco, questa guida ti guiderà attraverso il processo passo dopo passo. Pronti per iniziare? Immergiamoci!
 ## Prerequisiti
@@ -138,3 +144,9 @@ Aspose.PSD per Java è una libreria che consente agli sviluppatori di creare, mo
  Puoi ottenere supporto dai forum della comunità Aspose[Qui](https://forum.aspose.com/c/psd/34).
 ### Quali sono i requisiti di sistema per Aspose.PSD per Java?
 È necessario che JDK sia installato e un IDE per lo sviluppo. La libreria supporta più sistemi operativi tra cui Windows, Linux e macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

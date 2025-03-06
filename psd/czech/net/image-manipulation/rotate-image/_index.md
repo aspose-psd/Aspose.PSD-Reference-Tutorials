@@ -3,10 +3,16 @@ title: Otočení obrázku v Aspose.PSD pro .NET
 linktitle: Otočení obrázku
 second_title: Aspose.PSD .NET API
 description: Naučte se otáčet obrázky bez námahy v .NET s Aspose.PSD. Postupujte podle našeho podrobného návodu.
-type: docs
 weight: 15
 url: /cs/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Otočení obrázku v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Pokud se ponoříte do světa manipulace s obrázky pomocí .NET, Aspose.PSD je váš oblíbený nástroj pro bezproblémové a efektivní zpracování obrázků. V tomto tutoriálu se zaměříme na základní úkol – otáčení obrázku pomocí Aspose.PSD for .NET. Následujte, jak celý proces rozdělíme do jednoduchých, proveditelných kroků.
@@ -80,3 +86,9 @@ tomto tutoriálu jsme prozkoumali základy otáčení obrázků pomocí Aspose.P
 ### Q5: Mohu zakoupit Aspose.PSD pro komerční použití?
 
  Jistě. Prozkoumat[nákupní stránku](https://purchase.aspose.com/buy) získat licenci přizpůsobenou vašim potřebám.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

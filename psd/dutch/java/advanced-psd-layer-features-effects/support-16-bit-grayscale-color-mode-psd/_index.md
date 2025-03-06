@@ -3,10 +3,16 @@ title: Ondersteuning van 16-bit grijswaardenkleurmodus in PSD - Java
 linktitle: Ondersteuning van 16-bit grijswaardenkleurmodus in PSD - Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u de 16-bits grijswaardenkleurmodus in PSD-bestanden implementeert met behulp van Aspose.PSD voor Java met deze gedetailleerde stapsgewijze zelfstudie.
-type: docs
 weight: 11
 url: /nl/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van 16-bit grijswaardenkleurmodus in PSD - Java
+
 ## Invoering
 Als je in de wereld van grafisch ontwerp en beeldmanipulatie duikt, is het begrijpen van hoe je met verschillende kleurmodi werkt, alsof je een geheim wapen hebt. Met name 16-bits grijstinten kunnen een gamechanger zijn, waardoor uw afbeeldingen de verbluffende diepte en details krijgen die ze echt laten opvallen. Dus, ben je klaar om deze krachtige functie te verkennen met Aspose.PSD voor Java? Als u uw codeeruitrusting gereed heeft, gaan we er meteen mee aan de slag.
 ## Vereisten
@@ -126,3 +132,9 @@ Absoluut! Aspose.PSD ondersteunt verschillende kleurmodi, zodat u ook met RGB, C
  Je kunt de[documentatie](https://reference.aspose.com/psd/java/) voor meer diepgaande voorbeelden en tutorials.
 ### Hoe koop ik een licentie voor Aspose.PSD?
  U kunt een licentie kopen door naar de website te gaan[Aspose aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

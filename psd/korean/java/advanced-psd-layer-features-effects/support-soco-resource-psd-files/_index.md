@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에서 SoCo 리소스 지원
 linktitle: Java를 사용하여 PSD 파일에서 SoCo 리소스 지원
 second_title: Aspose.PSD 자바 API
 description: 이 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 SoCo 리소스를 조작하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에서 SoCo 리소스 지원
+
 ## 소개
 PSD 파일 작업은 복잡한 미로를 탐색하는 것과 다소 유사할 수 있습니다. 특히 복잡한 레이어와 리소스를 자세히 살펴보는 경우에는 더욱 그렇습니다. 다행스럽게도 Java용 Aspose.PSD와 같은 도구를 사용하면 이 프로세스를 단순화하여 개발자가 프로그래밍 방식으로 Photoshop 파일을 조작할 수 있습니다. 이 튜토리얼에서는 Java를 사용하여 PSD 파일 내에서 SoCo 리소스를 지원하여 삶을 훨씬 쉽게 만드는 방법을 안내합니다. 
 숙련된 개발자이든 이미지 처리 세계에 처음 입문한 개발자이든 이 가이드는 복잡성을 이해하기 쉬운 단계로 줄여 확실한 이해를 바탕으로 여정을 마칠 수 있도록 도와줍니다.
@@ -111,3 +117,9 @@ Aspose.PSD for Java는 개발자가 Java 애플리케이션 내에서 PSD 파일
  예, 전담 부서가 있습니다[지원 포럼](https://forum.aspose.com/c/psd/34).
 ### PSD 파일에서 어떤 유형의 리소스를 조작할 수 있나요?
 PSD 파일 내의 레이어, 채우기 레이어, SoCo 리소스 등 다양한 리소스를 조작할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Przycinanie plików PSD za pomocą Aspose.PSD dla .NET
 linktitle: Przycinanie plików PSD za pomocą Aspose.PSD dla .NET
 second_title: Aspose.PSD API .NET
 description: Poznaj sztukę przycinania plików PSD w .NET dzięki Aspose.PSD, wszechstronnemu zestawowi narzędzi. Bez wysiłku podnieś poziom swojej gry w manipulację obrazem.
-type: docs
 weight: 19
 url: /pl/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przycinanie plików PSD za pomocą Aspose.PSD dla .NET
+
 ## Wstęp
 W dziedzinie programowania .NET Aspose.PSD wyróżnia się jako potężny zestaw narzędzi do płynnej obsługi plików PSD (dokument Photoshop). Jeśli chodzi o manipulowanie obrazami, kadrowanie jest podstawową operacją, a Aspose.PSD upraszcza ten proces dla programistów .NET. W tym samouczku omówimy, jak przycinać pliki PSD za pomocą Aspose.PSD dla .NET, zapewniając przewodnik krok po kroku.
 ## Warunki wstępne
@@ -72,3 +78,9 @@ O1: Tak, Aspose.PSD jest regularnie aktualizowany, aby zapewnić kompatybilnoś�
 ### P5: Czy potrzebuję tymczasowej licencji do celów testowych?
 
  Odpowiedź 5: Tak, jeśli potrzebujesz licencji tymczasowej, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PSD 파일의 렌더 노출 조정 레이어 - Java
 linktitle: PSD 파일의 렌더 노출 조정 레이어 - Java
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일의 노출 레이어를 렌더링하고 조정하는 방법을 알아보세요. 노출 레이어 수정 및 추가에 대한 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 파일의 렌더 노출 조정 레이어 - Java
+
 ## 소개
 
 Photoshop PSD 파일로 작업 중이며 프로그래밍 방식으로 노출을 조정하거나 노출 조정 레이어를 추가해야 합니까? 기존 레이어를 조정하든 새 레이어를 추가하든 Aspose.PSD for Java는 이러한 작업을 처리하는 강력하고 직관적인 방법을 제공합니다. 이 가이드에서는 Java용 Aspose.PSD를 사용하여 PSD 파일의 노출 조정 레이어를 렌더링하고 수정하는 방법을 안내합니다. 이 튜토리얼을 마치면 기존 레이어의 노출 설정을 조정하고 PSD 파일에 새 노출 조정 레이어를 추가하는 방법을 알게 됩니다. 뛰어들어보자!
@@ -138,3 +144,9 @@ Aspose.PSD for Java는 Java를 사용하여 프로그래밍 방식으로 PSD 파
 ### Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 
  지원을 받으려면 다음을 방문하세요.[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34) 질문을 하고 커뮤니티로부터 도움을 받을 수 있는 곳입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

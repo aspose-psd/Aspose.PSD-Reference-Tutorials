@@ -3,10 +3,16 @@ title: PSD Dosyalarında Önbellek Yeniden Tahsilatını Kontrol Etme
 linktitle: PSD Dosyalarında Önbellek Yeniden Tahsilatını Kontrol Etme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak PSD dosyalarında önbellek yeniden tahsisini yönetin. Geliştiriciler için ideal olan belleği ve dosya işlemeyi verimli bir şekilde nasıl optimize edeceğinizi öğrenin.
-type: docs
 weight: 22
 url: /tr/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD Dosyalarında Önbellek Yeniden Tahsilatını Kontrol Etme
+
 ## giriiş
 Görüntülerle ve Photoshop dosyalarıyla programlı olarak çalışırken verimlilik önemli bir faktördür. Aspose.PSD for Java, PSD dosyalarını sorunsuz bir şekilde yönetmek ve işlemek için güçlü özellikler sunar. Performansı optimize etmenin temel yönlerinden biri, önbellek yeniden tahsisinin kontrol edilmesidir. Önbellek yönetimi, bellek ve disk kullanımı arasındaki dengenin korunmasına yardımcı olarak uygulamanızın beklenmedik çökmeler veya yavaşlamalar olmadan sorunsuz bir şekilde çalışmasını sağlar. 
 ## Önkoşullar
@@ -127,3 +133,9 @@ Aspose.PSD, .NET ve Java geliştiricilerinin Photoshop (PSD) dosyalarını progr
 Aspose.PSD ücretli bir kütüphanedir, ancak kendi sitelerinde bulunan ücretsiz deneme sürümüyle başlayabilirsiniz.[web sitesi](https://releases.aspose.com/).
 ### Nesneleri atmazsam ne olur?
 Nesnelerin atılmaması bellek sızıntılarına yol açarak uygulamanızın gereğinden fazla kaynak kullanmasına neden olabilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

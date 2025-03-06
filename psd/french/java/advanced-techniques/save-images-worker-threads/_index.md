@@ -3,10 +3,16 @@ title: Enregistrer des images à l'aide de Worker Threads avec Aspose.PSD pour J
 linktitle: Enregistrer des images à l'aide de threads de travail
 second_title: API Java Aspose.PSD
 description: Explorez le traitement d'images multithread en Java avec Aspose.PSD. Apprenez à enregistrer efficacement des images à l’aide de threads de travail.
-type: docs
 weight: 14
 url: /fr/java/advanced-techniques/save-images-worker-threads/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer des images à l'aide de Worker Threads avec Aspose.PSD pour Java
+
 ## Introduction
 
 Êtes-vous prêt à améliorer vos capacités de traitement d’images en Java ? Ne cherchez pas plus loin que Aspose.PSD pour Java. Dans ce didacticiel, nous vous guiderons tout au long du processus d'enregistrement des images à l'aide de threads de travail, garantissant ainsi des performances et une efficacité optimales. Plongeons dans le monde du traitement d'images multithread avec Aspose.PSD !
@@ -119,3 +125,9 @@ A2 : Vous pouvez vous référer à la documentation[ici](https://reference.aspo
 ### Q5 : Où puis-je acheter Aspose.PSD pour Java ?
 
  A5 : Pour acheter Aspose.PSD pour Java, visitez le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

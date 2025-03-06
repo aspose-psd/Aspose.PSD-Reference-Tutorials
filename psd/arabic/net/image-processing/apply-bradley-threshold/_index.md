@@ -3,10 +3,16 @@ title: تطبيق عتبة برادلي في Aspose.PSD لـ .NET
 linktitle: تطبيق عتبة برادلي
 second_title: Aspose.PSD.NET API
 description: تحسين تجزئة الصورة باستخدام Bradley Threshold في Aspose.PSD لـ .NET. دليل خطوة بخطوة لتحقيق الثنائية الفعالة.
-type: docs
 weight: 15
 url: /ar/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق عتبة برادلي في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي الشامل حول تطبيق Bradley Threshold في Aspose.PSD لـ .NET. Aspose.PSD for .NET هي مكتبة قوية تتيح لك العمل مع ملفات Photoshop في تطبيقات .NET الخاصة بك. تعد تقنية Bradley Thresholding تقنية تستخدم في ثنائية الصورة، مما يساعد على فصل الكائنات عن الخلفية بشكل فعال.
@@ -90,3 +96,9 @@ A1: نعم، تعد تقنية Bradley Thresholding تقنية متعددة ال
 ### س5: أين يمكنني شراء ترخيص Aspose.PSD؟
 
  ج5: يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

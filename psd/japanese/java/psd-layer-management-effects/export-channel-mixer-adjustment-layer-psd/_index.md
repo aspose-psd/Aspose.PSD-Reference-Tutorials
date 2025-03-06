@@ -3,10 +3,16 @@ title: チャンネルミキサー調整レイヤーを PSD でエクスポー�
 linktitle: チャンネルミキサー調整レイヤーを PSD でエクスポート - Java
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して、チャンネル ミキサー調整レイヤーを PSD にエクスポートする方法を学びます。RGB および CMYK レイヤーを変更し、変更を保存し、PNG にエクスポートするためのステップ バイ ステップ ガイド。
-type: docs
 weight: 14
 url: /ja/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# チャンネルミキサー調整レイヤーを PSD でエクスポート - Java
+
 ## 導入
 
 画像編集、特に Adobe Photoshop ファイル (PSD) では、レイヤーを効率的に管理することが重要です。これらのレイヤーの中で、チャンネル ミキサー調整レイヤーは、画像のカラー バランスを微調整する上で重要な役割を果たします。これらのレイヤーをプログラムで操作したい Java 開発者にとって、これは朗報です。この記事では、Aspose.PSD for Java を使用してチャンネル ミキサー調整レイヤーをエクスポートするプロセスについて説明します。このガイドを読み終えると、RGB および CMYK チャンネル ミキサー調整レイヤーの処理、変更の保存、最終画像の PSD 形式と PNG 形式のエクスポートができるようになります。
@@ -168,3 +174,9 @@ RGB 画像の場合と同様に、エクスポート パスを定義し、アル
 
 ### Aspose.PSD for Java を使用するにはライセンスが必要ですか?  
 はい、Aspose.PSD for Javaはライセンス製品です。[一時ライセンス](https://purchase.aspose.com/temporary-license/)テスト用に、またはフルライセンスを購入してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

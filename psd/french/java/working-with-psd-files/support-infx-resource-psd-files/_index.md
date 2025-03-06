@@ -3,10 +3,16 @@ title: Prise en charge des ressources Infx dans les fichiers PSD avec Java
 linktitle: Prise en charge des ressources Infx dans les fichiers PSD avec Java
 second_title: API Java Aspose.PSD
 description: Apprenez à manipuler la ressource Infx dans les fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce didacticiel complet, étape par étape. Parfait pour les développeurs de tous niveaux.
-type: docs
 weight: 13
 url: /fr/java/working-with-psd-files/support-infx-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge des ressources Infx dans les fichiers PSD avec Java
+
 ## Introduction
 
 Travailler avec des fichiers PSD (Photoshop Document) en Java peut sembler intimidant, mais ce n'est pas obligatoire. Imaginez que vous disposez d'un fichier PSD multicouche qui contient diverses ressources et que vous devez en modifier des ressources spécifiques, telles que InfxResource, tout en garantissant que l'intégrité du fichier reste intacte. C'est là qu'intervient Aspose.PSD pour Java, offrant une API intuitive pour gérer de manière transparente les fichiers PSD. Dans ce didacticiel, nous expliquerons comment rechercher, modifier et enregistrer une InfxResource dans un fichier PSD à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce guide rendra la gestion des ressources PSD aussi simple que possible.
@@ -155,3 +161,9 @@ Une fois les modifications enregistrées, elles sont permanentes, sauf si vous c
 ### Puis-je automatiser la modification de plusieurs fichiers PSD à l’aide d’Aspose.PSD pour Java ?
 
 Oui, vous pouvez créer des scripts pour traiter par lots plusieurs fichiers PSD, en appliquant les mêmes modifications à chaque fichier.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

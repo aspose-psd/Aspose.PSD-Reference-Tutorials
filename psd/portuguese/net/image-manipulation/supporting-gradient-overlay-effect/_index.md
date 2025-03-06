@@ -3,10 +3,16 @@ title: Suporte ao efeito de sobreposição de gradiente em Aspose.PSD para .NET
 linktitle: Efeito de sobreposição de gradiente de suporte
 second_title: API Aspose.PSD .NET
 description: Aprimore gráficos em .NET com Aspose.PSD. Este tutorial orienta você no suporte a efeitos de sobreposição de gradiente.
-type: docs
 weight: 18
 url: /pt/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte ao efeito de sobreposição de gradiente em Aspose.PSD para .NET
+
 ## Introdução
 
 Bem-vindo a este tutorial abrangente sobre suporte ao efeito Gradient Overlay no Aspose.PSD para .NET! Se você deseja aprimorar os recursos gráficos do seu aplicativo .NET, este guia passo a passo está aqui para ajudá-lo. Iremos nos aprofundar nos meandros da criação e edição do efeito Gradient Overlay em uma camada usando Aspose.PSD, uma biblioteca poderosa que simplifica o processamento de imagens.
@@ -133,3 +139,9 @@ A2: Sim, você pode aplicar vários efeitos, incluindo Gradient Overlay, a uma �
 ### Q5: Como posso obter suporte para Aspose.PSD?
 
  A5: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para apoio comunitário.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

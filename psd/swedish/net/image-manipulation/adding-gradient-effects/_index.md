@@ -3,10 +3,16 @@ title: Lägga till gradienteffekter till bilder i Aspose.PSD för .NET
 linktitle: Lägga till övertoningseffekter till bilder
 second_title: Aspose.PSD .NET API
 description: Förbättra dina bilder med fängslande gradienteffekter med Aspose.PSD för .NET. Följ vår steg-för-steg handledning för kreativa visuella transformationer.
-type: docs
 weight: 11
 url: /sv/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägga till gradienteffekter till bilder i Aspose.PSD för .NET
+
 ## Introduktion
 
 Att förbättra bilder med gradienteffekter kan lägga till en fängslande dimension till ditt visuella innehåll. Aspose.PSD för .NET ger en kraftfull plattform för att integrera övertoningsöverlägg i dina bilder. I den här handledningen guidar vi dig genom processen att lägga till gradienteffekter med Aspose.PSD för .NET.
@@ -148,3 +154,9 @@ S3: Ja, du kan utforska funktionerna hos Aspose.PSD för .NET genom att ladda ne
 ### F5: Var kan jag köpa Aspose.PSD för .NET?
 
  S5: Du kan köpa biblioteket från[Aspose.PSD för .NET-köpsida](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

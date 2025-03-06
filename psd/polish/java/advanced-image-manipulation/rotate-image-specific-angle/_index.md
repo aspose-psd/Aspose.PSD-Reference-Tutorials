@@ -3,10 +3,16 @@ title: Obróć obraz pod określonym kątem za pomocą Aspose.PSD dla Java
 linktitle: Obróć obraz pod określonym kątem
 second_title: Aspose.PSD API Java
 description: Poznaj rotację obrazu w Javie za pomocą Aspose.PSD dla Java. Obracaj obrazy bez wysiłku pod określonym kątem.
-type: docs
 weight: 20
 url: /pl/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obróć obraz pod określonym kątem za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 W dynamicznym świecie programowania w języku Java manipulowanie obrazami jest powszechnym wymogiem w przypadku różnych aplikacji. Aspose.PSD dla Java jawi się jako solidne rozwiązanie, zapewniające zaawansowane funkcje umożliwiające bezproblemową obsługę rotacji obrazu. W tym samouczku przeprowadzimy Cię przez proces obracania obrazu pod określonym kątem przy użyciu Aspose.PSD dla Java. Zanim zagłębimy się w szczegóły, przygotujmy scenę z pewnymi warunkami wstępnymi.
@@ -117,3 +123,9 @@ Aspose.PSD dla Java koncentruje się przede wszystkim na przetwarzaniu obrazów 
 ### P5: Czy istnieje forum społecznościowe dla Aspose.PSD, na którym mogę szukać pomocy?
 
  Tak, możesz odwiedzić[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) aby nawiązać kontakt ze społecznością, zadawać pytania i szukać pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

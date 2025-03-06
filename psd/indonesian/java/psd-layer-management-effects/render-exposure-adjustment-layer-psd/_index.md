@@ -3,10 +3,16 @@ title: Render Lapisan Penyesuaian Eksposur dalam File PSD - Java
 linktitle: Render Lapisan Penyesuaian Eksposur dalam File PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara merender dan menyesuaikan lapisan eksposur dalam file PSD menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah dengan contoh kode untuk memodifikasi dan menambahkan lapisan eksposur.
-type: docs
 weight: 15
 url: /id/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Lapisan Penyesuaian Eksposur dalam File PSD - Java
+
 ## Perkenalan
 
 Apakah Anda bekerja dengan file Photoshop PSD dan perlu menyesuaikan eksposur atau menambahkan lapisan penyesuaian eksposur secara terprogram? Baik Anda mengubah lapisan yang ada atau menambahkan yang baru, Aspose.PSD untuk Java menyediakan cara yang ampuh dan intuitif untuk menangani tugas-tugas ini. Dalam panduan ini, kita akan mempelajari cara menggunakan Aspose.PSD untuk Java untuk merender dan memodifikasi lapisan penyesuaian eksposur dalam file PSD. Di akhir tutorial ini, Anda akan mengetahui cara menyesuaikan pengaturan eksposur di lapisan yang ada dan menambahkan lapisan penyesuaian eksposur baru ke file PSD Anda. Ayo selami!
@@ -138,3 +144,9 @@ Ya, Aspose.PSD untuk Java mendukung berbagai jenis lapisan, termasuk lapisan tek
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk Java?
 
  Untuk dukungan, Anda dapat mengunjungi[Asumsikan forum dukungan](https://forum.aspose.com/c/psd/34) di mana Anda dapat mengajukan pertanyaan dan mendapatkan bantuan dari komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

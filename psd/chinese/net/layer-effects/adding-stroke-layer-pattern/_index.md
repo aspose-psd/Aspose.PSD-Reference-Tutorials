@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中添加带图案的描边层
 linktitle: 添加带图案的描边图层
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 通过描边图层和图案增强您的 PSD 文件。按照我们的分步指南进行无缝集成。
-type: docs
 weight: 13
 url: /zh/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中添加带图案的描边层
+
 ## 介绍
 
 使用描边图层和图案增强 PSD（Photoshop 文档）文件可以为您的设计增添动感。在本教程中，我们将探索如何利用 Aspose.PSD for .NET 轻松地将带有图案的描边图层添加到您的 PSD 文件中。Aspose.PSD 是一个功能强大的 .NET 库，为操作 PSD 文件提供全面支持，使其成为开发人员和设计人员的宝贵工具。
@@ -144,3 +150,9 @@ A4：当然，Aspose.PSD for .NET 为批处理提供了强大的支持。
 ### Q5：我可以在哪里寻求帮助或参与社区讨论？
 
  A5：访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)用于支持和社区互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

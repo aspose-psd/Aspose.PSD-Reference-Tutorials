@@ -3,10 +3,16 @@ title: Aspose.PSD for Java में Otsu Threshold के साथ Binarizatio
 linktitle: ओत्सु थ्रेशोल्ड के साथ बाइनरीकरण
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java में Otsu Threshold के साथ Binarization का अन्वेषण करें। एक शक्तिशाली छवि विभाजन तकनीक।
-type: docs
 weight: 15
 url: /hi/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java में Otsu Threshold के साथ Binarization
+
 ## परिचय
 
 Aspose.PSD for Java में Otsu Threshold के साथ Binarization करने के इस चरण-दर-चरण गाइड में आपका स्वागत है! इस ट्यूटोरियल में, हम यह पता लगाएंगे कि अपनी इमेज प्रोसेसिंग क्षमताओं को बढ़ाने के लिए Aspose.PSD for Java लाइब्रेरी का लाभ कैसे उठाया जाए। Otsu Threshold के साथ Binarization इमेज सेगमेंटेशन के लिए एक शक्तिशाली तकनीक है, और Aspose.PSD के साथ, यह सरल और कुशल दोनों हो जाता है।
@@ -103,3 +109,9 @@ A3: दस्तावेज़ उपलब्ध है[यहाँ](https://
 ### प्रश्न 5: क्या Java के लिए Aspose.PSD के लिए कोई अस्थायी लाइसेंस उपलब्ध है?
 
  A5: हां, आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

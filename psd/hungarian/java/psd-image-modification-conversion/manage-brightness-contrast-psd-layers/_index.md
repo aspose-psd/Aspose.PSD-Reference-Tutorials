@@ -3,10 +3,16 @@ title: A fényerő és a kontraszt kezelése a PSD-rétegekben – Java
 linktitle: A fényerő és a kontraszt kezelése a PSD-rétegekben – Java
 second_title: Aspose.PSD Java API
 description: Tanulja meg könnyedén beállítani a fényerőt és a kontrasztot a PSD-fájlokban az Aspose.PSD for Java segítségével. Ideális fejlesztők és grafikusok számára.
-type: docs
 weight: 21
 url: /hu/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A fényerő és a kontraszt kezelése a PSD-rétegekben – Java
+
 ## Bevezetés
 
 Ön grafikus vagy fejlesztő, aki gyakran dolgozik PSD (Photoshop Document) fájlokkal? Úgy találja, hogy módosítania kell ezekben a fájlokban a rétegek fényerejét és kontrasztját, de hiányzik a know-how ennek a feladatnak a Java használatával történő automatizálásához? Nos, szerencséd van! Ebben az oktatóanyagban azt mutatjuk be, hogyan lehet kezelni a fényerőt és a kontrasztot a PSD-rétegekben a Java Aspose.PSD-könyvtár használatával. Ezzel nem csak időt takarít meg, hanem javítja kreatív munkafolyamatát is. Tegyük fel az ingujjunkat és kezdjük!
@@ -125,3 +131,9 @@ Az Aspose.PSD for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztő
 
 ### Hol találok további támogatást az Aspose.PSD-hez?
  Az Aspose.PSD-hez támogatást kaphat az ő oldalukon[támogatási fórum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

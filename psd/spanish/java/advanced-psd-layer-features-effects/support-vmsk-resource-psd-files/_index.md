@@ -3,10 +3,16 @@ title: Admite recursos Vmsk en archivos PSD con Java
 linktitle: Admite recursos Vmsk en archivos PSD con Java
 second_title: API de Java Aspose.PSD
 description: Administre sin esfuerzo los recursos de Vmsk en archivos PSD usando Aspose.PSD para Java. Un tutorial completo paso a paso ideal tanto para desarrolladores como para diseñadores.
-type: docs
 weight: 23
 url: /es/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite recursos Vmsk en archivos PSD con Java
+
 ## Introducción
 Cuando se trata de trabajar con archivos PSD (Documento de Photoshop), administrar los recursos es crucial, especialmente cuando se integran funciones especiales como el recurso Vmsk (Máscara vectorial). Los recursos de Vmsk pueden empoderar a los diseñadores agregando formas vectoriales complejas, permitiéndoles crear gráficos impresionantes sin esfuerzo. En esta guía, adoptaremos un enfoque práctico para mostrarle cómo admitir recursos de Vmsk en archivos PSD usando Aspose.PSD para Java. Ya sea que sea un desarrollador que busca mejorar su aplicación o un diseñador que busca automatización, este tutorial lo guiará a través del proceso paso a paso, haciéndolo fácil de seguir e implementar.
 ## Requisitos previos
@@ -128,3 +134,9 @@ Puede guardarlos como archivos PSD o exportarlos a otros formatos como PNG, JPEG
  Sí, puede acceder a una prueba gratuita de Aspose.PSD para probar sus funciones. Visita el[enlace de prueba gratuito](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.PSD?
  Puedes unirte al[asponer foro](https://forum.aspose.com/c/psd/34)para obtener soporte y ayuda para la solución de problemas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

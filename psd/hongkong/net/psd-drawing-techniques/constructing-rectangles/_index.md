@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中建構矩形
 linktitle: 構造矩形
 second_title: Aspose.PSD .NET API
 description: 探索使用 Aspose.PSD 在 .NET 中繪製矩形的藝術。請按照我們的逐步指南進行無縫整合。輕鬆提升您的影像處理遊戲等級。
-type: docs
 weight: 15
 url: /zh-hant/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中建構矩形
+
 ## 介紹
 
 在 .NET 開發的動態領域中，Aspose.PSD 作為處理影像操作的強大工具脫穎而出。本教學重點在於一項基本任務：使用 Aspose.PSD for .NET 建立矩形。無論您是經驗豐富的開發人員還是新手，本逐步指南都將引導您完成整個過程，確保您徹底掌握每個概念。
@@ -94,3 +100,9 @@ A4：使用 32 Bpp 可以實現更豐富的色彩表現，從而實現更細緻�
 ### Q5：Aspose.PSD 有免費試用版嗎？
 
  A5：是的，您可以透過免費試用來探索 Aspose.PSD。下載它[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

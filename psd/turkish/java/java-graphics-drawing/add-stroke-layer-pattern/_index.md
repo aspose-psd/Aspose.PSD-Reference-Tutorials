@@ -3,10 +3,16 @@ title: Java'da Kontur Katmanı Deseni Nasıl Eklenir
 linktitle: Java'da Kontur Katmanı Deseni Nasıl Eklenir
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak PSD dosyalarına kontur katmanı desenini nasıl ekleyeceğinizi öğrenin. Resimlerinizi kolayca geliştirmek için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Kontur Katmanı Deseni Nasıl Eklenir
+
 ## giriiş
 Java'da bir görüntüye kontur katmanı deseni eklemek göz korkutucu bir görev gibi görünebilir, ancak Aspose.PSD for Java ile bu düşündüğünüzden daha kolaydır. İster grafik tasarlıyor olun ister fotoğraf düzenleme uygulamaları üzerinde çalışıyor olun, bu kılavuz süreç boyunca size adım adım yol gösterecektir. Başlamaya hazır mısınız? Hadi dalalım!
 ## Önkoşullar
@@ -138,3 +144,9 @@ Aspose.PSD for Java, geliştiricilerin PSD (Photoshop Belgesi) dosyalarını pro
  Aspose topluluk forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD for Java'nın sistem gereksinimleri nelerdir?
 Geliştirme için JDK'nın kurulu olması ve bir IDE'ye ihtiyacınız var. Kütüphane, Windows, Linux ve macOS dahil olmak üzere birden fazla işletim sistemini destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

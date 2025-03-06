@@ -3,10 +3,16 @@ title: Đặt độ phân giải tệp PNG với Aspose.PSD cho Java
 linktitle: Đặt độ phân giải tệp PNG với Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Khám phá cách đặt độ phân giải tệp PNG bằng Aspose.PSD cho Java với hướng dẫn từng bước chi tiết này. Tối ưu hóa hình ảnh của bạn trong thời gian không.
-type: docs
 weight: 13
 url: /vi/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt độ phân giải tệp PNG với Aspose.PSD cho Java
+
 ## Giới thiệu
 Bạn đang tìm cách tối ưu hóa độ phân giải tệp PNG của mình bằng Java? Nếu câu trả lời là có thì bạn đã đến đúng chỗ rồi! Hôm nay, chúng ta sẽ đi sâu vào thế giới Aspose.PSD cho Java, một thư viện mạnh mẽ để thao tác các tệp Photoshop PSD và chuyển đổi chúng sang các định dạng khác như PNG. Cho dù bạn là nhà phát triển đang tìm hiểu về xử lý hình ảnh hay chỉ là người muốn nâng cao chất lượng hình ảnh theo chương trình thì hướng dẫn này đều được thiết kế riêng cho bạn. 
 Trong hướng dẫn toàn diện này, chúng tôi sẽ đề cập đến mọi thứ từ điều kiện tiên quyết đến hướng dẫn chi tiết từng bước để thiết lập độ phân giải tệp PNG một cách hiệu quả. Vì vậy, hãy lấy món ăn nhẹ yêu thích của bạn và bắt đầu!
@@ -71,3 +77,9 @@ Có, mặc dù có bản dùng thử miễn phí nhưng cần có giấy phép h
 Aspose.PSD xử lý nhiều vấn đề thường gặp, nhưng nếu tệp bị hỏng nghiêm trọng, tệp có thể không tải được. Luôn giữ một bản sao lưu.
 ### Aspose.PSD có phù hợp với các ứng dụng hiệu suất cao không?
 Có, nó được thiết kế để xử lý các tệp lớn một cách hiệu quả và phù hợp với các tác vụ xử lý hình ảnh đòi hỏi nhiều hiệu năng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

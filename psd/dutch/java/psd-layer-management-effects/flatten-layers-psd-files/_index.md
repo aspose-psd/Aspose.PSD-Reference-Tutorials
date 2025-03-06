@@ -3,10 +3,16 @@ title: Maak lagen in PSD-bestanden plat met Aspose.PSD Java
 linktitle: Maak lagen in PSD-bestanden plat met Aspose.PSD Java
 second_title: Aspose.PSD Java-API
 description: Maak lagen in PSD-bestanden moeiteloos plat en voeg ze samen met Aspose.PSD voor Java. Volg deze stapsgewijze handleiding om uw PSD-bestandsbeheer te vereenvoudigen.
-type: docs
 weight: 13
 url: /nl/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak lagen in PSD-bestanden plat met Aspose.PSD Java
+
 ## Invoering
 
 Heeft u ooit met Photoshop-bestanden gewerkt en wenste u een eenvoudigere manier om die complexe lagen te beheren? Nou, je hebt geluk! Vandaag duiken we in de wereld van Aspose.PSD voor Java, een krachtig hulpmiddel dat het een fluitje van een cent maakt om programmatisch met PSD-bestanden te werken. Een van de handige functies die we gaan onderzoeken is het afvlakken van lagen. Of u nu een hele afbeelding wilt afvlakken of selectief specifieke lagen wilt samenvoegen, Aspose.PSD voor Java heeft de oplossing. Deze tutorial begeleidt u stap voor stap door het proces, zodat u er zeker van bent dat u met vertrouwen aan de slag kunt met uw PSD-bestanden.
@@ -150,3 +156,9 @@ Ja, u kunt lagen met verschillende overvloeimodi samenvoegen met Aspose.PSD, en 
 
 ### Wat gebeurt er als ik probeer lagen samen te voegen die niet aangrenzend zijn?  
 Met Aspose.PSD kunt u alle lagen samenvoegen, ongeacht hun volgorde in de lagenstapel. Het samenvoegproces combineert de geselecteerde lagen zoals gespecificeerd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

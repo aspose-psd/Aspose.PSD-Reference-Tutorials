@@ -3,10 +3,16 @@ title: Implémenter le tramage pour les images raster dans Aspose.PSD pour Java
 linktitle: Implémenter le tramage pour les images raster
 second_title: API Java Aspose.PSD
 description: Améliorez la qualité de l'image avec Aspose.PSD pour Java. Suivez notre guide étape par étape pour mettre en œuvre le tramage et éliminer les bandes de couleurs.
-type: docs
 weight: 17
 url: /fr/java/image-editing/implement-dithering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implémenter le tramage pour les images raster dans Aspose.PSD pour Java
+
 ## Introduction
 
 Si vous cherchez à améliorer la qualité visuelle de vos images raster en Java, Aspose.PSD fournit une solution puissante. Dans ce guide étape par étape, nous explorerons comment implémenter le tramage à l'aide d'Aspose.PSD pour Java. Le tramage est une technique qui ajoute un certain degré de bruit aux images, réduisant ainsi les bandes de couleurs et améliorant la qualité globale de l'image.
@@ -88,3 +94,9 @@ A4 : Oui, Aspose.PSD propose diverses méthodes de tramage, permettant une flexi
 ### Q5 : Puis-je intégrer Aspose.PSD pour Java dans mon projet Java existant ?
 
 A5 : Oui, Aspose.PSD peut être facilement intégré à votre projet Java pour un traitement d'image transparent.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

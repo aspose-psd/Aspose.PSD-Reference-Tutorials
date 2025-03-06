@@ -3,10 +3,16 @@ title: Διαχειριστείτε τη φωτεινότητα και την α
 linktitle: Διαχειριστείτε τη φωτεινότητα και την αντίθεση σε επίπεδα PSD - Java
 second_title: Aspose.PSD Java API
 description: Μάθετε να προσαρμόζετε τη φωτεινότητα και την αντίθεση σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java χωρίς κόπο. Ιδανικό για προγραμματιστές και γραφίστες.
-type: docs
 weight: 21
 url: /el/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχειριστείτε τη φωτεινότητα και την αντίθεση σε επίπεδα PSD - Java
+
 ## Εισαγωγή
 
 Είστε γραφίστας ή προγραμματιστής που εργάζεστε συχνά με αρχεία PSD (Photoshop Document); Θεωρείτε ότι χρειάζεται να προσαρμόσετε τη φωτεινότητα και την αντίθεση των επιπέδων σε αυτά τα αρχεία, αλλά δεν έχετε την τεχνογνωσία για να αυτοματοποιήσετε αυτήν την εργασία χρησιμοποιώντας Java; Λοιπόν, είσαι τυχερός! Σε αυτό το σεμινάριο, θα εξετάσουμε πώς να διαχειριστείτε τη φωτεινότητα και την αντίθεση σε επίπεδα PSD χρησιμοποιώντας τη βιβλιοθήκη Aspose.PSD για Java. Αυτό όχι μόνο θα σας εξοικονομήσει χρόνο, αλλά θα ενισχύσει και τη δημιουργική ροή εργασίας σας. Ας σηκώσουμε τα μανίκια και ας ξεκινήσουμε!
@@ -125,3 +131,9 @@ im.save(psdPathAfterChange);
 
 ### Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.PSD;
  Μπορείτε να λάβετε υποστήριξη για το Aspose.PSD στο δικό τους[φόρουμ υποστήριξης](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

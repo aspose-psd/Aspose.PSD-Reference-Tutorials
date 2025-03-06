@@ -3,10 +3,16 @@ title: Java'da Dikdörtgen Çizimi
 linktitle: Java'da Dikdörtgen Çizimi
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak görüntülere dikdörtgenler çizmeyi öğrenin. Bu eğitim, Java geliştiricilerine adım adım rehberlik eder. Görüntü işleme görevleri için mükemmeldir.
-type: docs
 weight: 17
 url: /tr/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Dikdörtgen Çizimi
+
 ## giriiş
 Java geliştirme dünyasında, görüntüleri programlı olarak değiştirmek ve oluşturmak, çeşitli uygulamalarda ortak bir gereksinimdir. Sıklıkla karşılaşılan bu tür görevlerden biri, görüntülerin üzerine dikdörtgen gibi şekiller çizmek. Aspose.PSD for Java, bunu verimli bir şekilde gerçekleştirmek için güçlü bir araç ve işlevsellik seti sağlar. Bu eğitim, Aspose.PSD for Java kullanarak bir görüntü üzerinde dikdörtgenler çizme sürecinde size adım adım rehberlik edecektir.
 ## Önkoşullar
@@ -84,3 +90,9 @@ Evet, Aspose.PSD for Java, hem basit hem de karmaşık işlemlere yönelik kapsa
  Daha fazla örneği ve ayrıntılı belgeleri inceleyebilirsiniz.[Java belgeleri için Aspose.PSD](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD for Java, BMP'nin yanı sıra diğer görüntü formatlarını da destekliyor mu?
 Evet, Aspose.PSD for Java PNG, JPEG, TIFF ve GIF dahil çok çeşitli görüntü formatlarını destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Θολώστε μια εικόνα χρησιμοποιώντας το As
 linktitle: Θολώστε μια εικόνα
 second_title: Aspose.PSD Java API
 description: Μάθετε να θολώνετε εικόνες σε Java με το Aspose.PSD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για επαγγελματικά αποτελέσματα.
-type: docs
 weight: 24
 url: /el/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Θολώστε μια εικόνα χρησιμοποιώντας το Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Στον κόσμο της ανάπτυξης Java, η βελτίωση και ο χειρισμός εικόνων είναι μια κοινή απαίτηση. Αν θέλετε να προσθέσετε ένα εφέ θαμπώματος στις εικόνες σας μέσω προγραμματισμού, το Aspose.PSD για Java είναι ένα ισχυρό εργαλείο που απλοποιεί τη διαδικασία. Αυτό το σεμινάριο θα σας καθοδηγήσει στα βήματα θόλωσης μιας εικόνας χρησιμοποιώντας το Aspose.PSD, διασφαλίζοντας ότι επιτυγχάνετε επαγγελματικά αποτελέσματα χωρίς κόπο.
@@ -96,3 +102,9 @@ rasterImage.save(destName, new GifOptions());
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;
 
  A5: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

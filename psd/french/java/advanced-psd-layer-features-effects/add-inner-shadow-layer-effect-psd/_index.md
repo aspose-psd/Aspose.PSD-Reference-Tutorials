@@ -3,10 +3,16 @@ title: Ajouter un effet de calque d'ombre interne dans PSD avec Java
 linktitle: Ajouter un effet de calque d'ombre interne dans PSD avec Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter un effet d'ombre interne aux fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce didacticiel étape par étape, comprenant des conseils et des bonnes pratiques.
-type: docs
 weight: 12
 url: /fr/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un effet de calque d'ombre interne dans PSD avec Java
+
 ## Introduction
 Êtes-vous prêt à plonger dans le monde de la programmation de conception graphique ? Si vous avez déjà souhaité manipuler des fichiers PSD par programme, vous êtes au bon endroit ! Aujourd'hui, nous allons explorer comment ajouter un effet de calque d'ombre interne à un PSD (document Photoshop) à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque permet aux développeurs Java de travailler efficacement avec des fichiers PSD, permettant ainsi toute une gamme de manipulations d'images, depuis de simples modifications jusqu'à des effets complexes.
 ## Conditions préalables
@@ -102,3 +108,9 @@ Absolument! Vous pouvez appliquer plusieurs effets en accédant à chaque type d
 Aspose.PSD est un produit commercial ; cependant, vous pouvez utiliser un essai gratuit disponible via Aspose.
 ### Où puis-je trouver plus de documentation ?  
  Vous pouvez trouver une documentation complète pour Aspose.PSD[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

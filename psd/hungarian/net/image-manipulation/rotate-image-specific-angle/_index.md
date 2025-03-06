@@ -3,10 +3,16 @@ title: Kép elforgatása meghatározott szögben az Aspose.PSD for .NET fájlban
 linktitle: Kép elforgatása meghatározott szögben
 second_title: Aspose.PSD .NET API
 description: Fedezze fel az Aspose.PSD for .NET erejét. Könnyedén elforgathatja a képeket meghatározott szögekből. Töltse le a könyvtárat, és kezdje el a képek zökkenőmentes kezelését.
-type: docs
 weight: 16
 url: /hu/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép elforgatása meghatározott szögben az Aspose.PSD for .NET fájlban
+
 Ha elmélyül a .NET-es képkezelés világában, az Aspose.PSD hatékony megoldást kínál. Ebben az oktatóanyagban végigvezetjük a kép adott szögben történő elforgatásán az Aspose.PSD használatával. Mielőtt belemerülnénk a lépésekbe, egy bemutatkozással állítsuk be a terepet.
 
 ## Bevezetés
@@ -104,3 +110,9 @@ A2: Abszolút! Az Aspose.PSD a formátumok széles skáláját támogatja, bele�
 ### 5. kérdés: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?
 
  A5: Természetesen! Fogd meg[ingyenes próbaverzió](https://releases.aspose.com/)hogy feltárja a könyvtár lehetőségeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

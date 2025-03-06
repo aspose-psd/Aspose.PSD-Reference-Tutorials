@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Medyan ve Wiener Filtrelerini Uygulayın
 linktitle: Medyan ve Wiener Filtrelerini Uygula
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD ile Java'da görüntü işlemenin gücünü keşfedin. Medyan ve Wiener Filtrelerini adım adım nasıl uygulayacağınızı öğrenin. Görüntü kalitesini zahmetsizce artırın.
-type: docs
 weight: 12
 url: /tr/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Medyan ve Wiener Filtrelerini Uygulayın
+
 ## giriiş
 
 Java programlama alanında Aspose.PSD, görüntü işleme ve işleme için güçlü bir araç olarak öne çıkıyor. Sunduğu temel işlevlerden biri, görüntü kalitesinin artırılmasında ve gürültünün azaltılmasında çok önemli bir rol oynayan Medyan ve Wiener Filtrelerinin uygulanmasıdır. Bu adım adım kılavuz, Aspose.PSD for Java kullanarak bu filtreleri uygulama sürecinde size yol gösterecektir.
@@ -101,3 +107,9 @@ Cevap1: Evet, Aspose.PSD çok çeşitli görüntü formatlarını destekler, bu 
 ### S5: Java için Aspose.PSD'yi nasıl satın alabilirim?
 
  A5: Ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pemrosesan Gambar
 linktitle: Pemrosesan Gambar
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan kualitas gambar dengan mudah menggunakan Aspose.PSD untuk tutorial .NET. Pelajari teknik seperti filter Gaussian dan Wiener, konversi warna, binerisasi, dan banyak lagi.
-type: docs
 weight: 20
 url: /id/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pemrosesan Gambar
+
 
 ## Perkenalan
 
@@ -46,3 +52,9 @@ Jelajahi konversi warna di Aspose.PSD untuk .NET. Pelajari cara memperbarui prof
 Pelajari cara menerapkan efek skala abu-abu dengan mudah ke gambar menggunakan Aspose.PSD untuk .NET.
 ### [Menerapkan Bradley Threshold di Aspose.PSD untuk .NET](./apply-bradley-threshold/)
 Tingkatkan segmentasi gambar menggunakan Bradley Threshold di Aspose.PSD untuk .NET. Panduan langkah demi langkah untuk binarisasi yang efektif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

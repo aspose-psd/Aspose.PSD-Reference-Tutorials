@@ -3,10 +3,16 @@ title: العمل مع Save Image Worker في Aspose.PSD لـ .NET
 linktitle: العمل مع عامل حفظ الصورة
 second_title: Aspose.PSD.NET API
 description: تعرّف على كيفية استخدام Aspose.PSD لـ Save Image Worker الخاص بـ .NET لتحويل تنسيق الصور بشكل سلس مع معالجة الانقطاعات.
-type: docs
 weight: 12
 url: /ar/net/file-saving-and-exporting/save-image-worker/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع Save Image Worker في Aspose.PSD لـ .NET
+
 ## مقدمة
 
  في مجال تطوير .NET، يوفر Aspose.PSD مجموعة أدوات قوية للعمل مع الصور. أحد الجوانب الرئيسية هو`SaveImageWorker` class، والتي تلعب دورًا حاسمًا في تحويل الصور من تنسيق إلى آخر. سيرشدك هذا البرنامج التعليمي خلال عملية العمل مع`SaveImageWorker` في Aspose.PSD لـ .NET، مع تفصيل كل خطوة لتحقيق الوضوح وسهولة التنفيذ.
@@ -105,3 +111,9 @@ finally
 ### س5: هل يمكنني شراء ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

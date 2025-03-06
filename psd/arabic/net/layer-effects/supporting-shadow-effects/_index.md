@@ -3,10 +3,16 @@ title: دعم تأثيرات الظل في Aspose.PSD لـ .NET
 linktitle: دعم تأثيرات الظل
 second_title: Aspose.PSD.NET API
 description: قم بتحسين صورك باستخدام Aspose.PSD لـ .NET! تعلم كيفية دعم تأثيرات الظل خطوة بخطوة. قم بالتنزيل الآن للحصول على تجربة مذهلة بصريًا.
-type: docs
 weight: 14
 url: /ar/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم تأثيرات الظل في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 يمكن أن تؤدي إضافة تأثيرات الظل إلى الصور إلى تحسين المظهر المرئي بشكل كبير وإنشاء تجربة مستخدم أكثر غامرة. يوفر Aspose.PSD for .NET حلاً قويًا لدعم تأثيرات الظل في صورك، مما يسمح لك بتخصيص معلمات مختلفة وتحقيق التأثيرات المرئية المطلوبة.
@@ -109,3 +115,9 @@ image.Save(psdPathAfterChange);
 ### س5: هل يمكنني تجربة Aspose.PSD لـ .NET مجانًا قبل الشراء؟
 
  ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[صفحة الإصدارات](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

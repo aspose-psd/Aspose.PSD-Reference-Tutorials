@@ -3,10 +3,16 @@ title: قص الصورة حسب المستطيل في Aspose.PSD لـ Java
 linktitle: اقتصاص الصورة بواسطة المستطيل
 second_title: Aspose.PSD جافا API
 description: اكتشف إمكانات قص الصور السلسة في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة لاقتصاص الصور بسهولة باستخدام Aspose.PSD لـ Java.
-type: docs
 weight: 15
 url: /ar/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص الصورة حسب المستطيل في Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java، تعد معالجة الصور مهمة شائعة، ويوفر Aspose.PSD for Java حلاً قويًا لمعالجة الصور. في هذا البرنامج التعليمي، سنرشدك خلال عملية اقتصاص صورة بواسطة مستطيل باستخدام Aspose.PSD لـ Java. اتبع الخطوات أدناه لتحقيق ذلك بكل سهولة.
@@ -105,3 +111,9 @@ rasterImage.save(destName, new JpegOptions());
 ### س5: ما هي تنسيقات الصور المدعومة للاقتصاص في Aspose.PSD لـ Java؟
 
 ج5: يدعم Aspose.PSD for Java تنسيقات صور متنوعة، بما في ذلك PSD وPNG وJPEG والمزيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

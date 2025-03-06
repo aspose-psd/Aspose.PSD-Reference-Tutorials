@@ -3,10 +3,16 @@ title: Добавьте эффекты узора в Aspose.PSD для Java
 linktitle: Добавить эффекты узора
 second_title: Aspose.PSD Java API
 description: Улучшите свои шаблоны изображений Java без особых усилий с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству, чтобы добавить захватывающие эффекты узора.
-type: docs
 weight: 12
 url: /ru/java/advanced-image-effects/add-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте эффекты узора в Aspose.PSD для Java
+
 ## Введение
 
 В мире разработки Java улучшение шаблонов изображений является распространенной задачей, и Aspose.PSD для Java предоставляет надежное решение для этой цели. Это руководство проведет вас через процесс добавления эффектов узора с помощью Aspose.PSD, гарантируя, что ваши изображения будут выделяться уникальными наложениями и улучшениями.
@@ -138,3 +144,9 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 ### В5: Могу ли я получить временную лицензию на Aspose.PSD для Java?
 
 О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

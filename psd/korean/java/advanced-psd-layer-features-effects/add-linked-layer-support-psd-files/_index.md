@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에 연결된 레이어 지원 추가
 linktitle: Java를 사용하여 PSD 파일에 연결된 레이어 지원 추가
 second_title: Aspose.PSD 자바 API
 description: 이 상세한 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에 연결된 레이어 지원을 추가하는 방법을 알아보세요. 디자이너와 개발자에게 적합합니다.
-type: docs
 weight: 19
 url: /ko/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에 연결된 레이어 지원 추가
+
 ## 소개
 Adobe Photoshop의 .PSD 파일은 다양한 레이어 관리 기능으로 인해 그래픽 디자이너와 디지털 아티스트 사이에서 인기가 높습니다. 프로그래밍 방식으로 PSD 파일을 조작하는 세계에 뛰어들면서 연결된 레이어가 작업 흐름을 어떻게 향상시킬 수 있는지 살펴보고 싶을 수도 있습니다. 연결된 레이어를 사용하면 사용자는 독립적인 레이어 기능을 유지하면서 응집력 있는 단위로 관리할 수 있습니다. Photoshop 파일 작업을 쉽게 만들어주는 강력한 라이브러리인 Aspose.PSD for Java를 입력하세요. 
 이 기사에서는 Java에서 Aspose.PSD 라이브러리를 사용하여 PSD 파일에 연결된 레이어 지원을 추가하는 방법을 자세히 살펴보겠습니다. 숙련된 개발자이든 초보자이든 이 단계별 가이드는 작업을 원활하게 진행하는 데 도움이 될 것입니다.
@@ -99,3 +105,9 @@ Aspose.PSD for Java는 개발자가 Photoshop PSD 파일을 프로그래밍 방�
  광범위한 문서를 탐색할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
 ### 문제가 발생할 경우 어떻게 지원을 받을 수 있나요?
  문제가 발생하면 다음에서 도움을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

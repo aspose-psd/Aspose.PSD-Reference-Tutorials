@@ -3,10 +3,16 @@ title: Pangkas Gambar dengan Pergeseran di Aspose.PSD untuk Java
 linktitle: Pangkas Gambar dengan Pergeseran
 second_title: Asumsikan.PSD Java API
 description: Kuasai pemotongan gambar dengan Aspose.PSD untuk Java. Tutorial komprehensif untuk manipulasi gambar tanpa hambatan.
-type: docs
 weight: 16
 url: /id/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pangkas Gambar dengan Pergeseran di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Di bidang pemrosesan gambar berbasis Java, Aspose.PSD menonjol sebagai alat yang ampuh untuk memanipulasi dan menyempurnakan gambar dengan presisi maksimal. Salah satu fitur utama yang membedakan Aspose.PSD adalah kemampuannya untuk melakukan pemotongan gambar dengan mulus. Dalam tutorial ini, kita akan mempelajari seni memotong gambar menggunakan Aspose.PSD untuk Java. Pada akhirnya, Anda akan dibekali dengan keterampilan untuk memotong gambar dengan mudah sesuai spesifikasi Anda.
@@ -115,3 +121,10 @@ A2: Tentu saja, Anda dapat melakukan beberapa operasi pemotongan secara beruruta
 ### Q5: Apakah ada contoh proyek yang menampilkan fungsionalitas Aspose.PSD?
 
  A5: Jelajahi dokumentasi dan contoh di[Dokumentasi Java Aspose.PSD](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

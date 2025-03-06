@@ -3,10 +3,16 @@ title: 使用 PSD 檔案
 linktitle: 使用 PSD 檔案
 second_title: Aspose.PSD Java API
 description: 探索全面的 Aspose.PSD for Java 教學課程，包括如何將 PSD 圖層群組匯出到影像以及操作 Clbl、Infx 和 Lspf 資源。
-type: docs
 weight: 26
 url: /zh-hant/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 PSD 檔案
+
 
 ## 介紹
 
@@ -37,3 +43,9 @@ Infx 資源可能很棘手，但透過正確的指導，您可以使用 Aspose.P
 透過這個全面的逐步教學，了解如何使用 Aspose.PSD for Java 操作 PSD 檔案中的 Infx 資源。非常適合各個層級的開發人員。
 ### [使用 Java 支援 PSD 檔案中的 Lspf 資源](./support-lspf-resource-psd-files/)
 透過我們的逐步指南，掌握如何使用 Aspose.PSD for Java 支援和操作 PSD 檔案中的 Lspf 資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

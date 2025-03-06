@@ -3,10 +3,16 @@ title: Wspieranie zasobów ścieżki roboczej w Aspose.PSD dla .NET
 linktitle: Zasoby pomocnicze dotyczące ścieżki roboczej
 second_title: Aspose.PSD API .NET
 description: Poznaj moc „WorkingPathResource” w Aspose.PSD dla .NET. Zwiększ precyzję obrazu dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 12
 url: /pl/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wspieranie zasobów ścieżki roboczej w Aspose.PSD dla .NET
+
 ## Wstęp
 Jeśli jesteś programistą .NET pracującym nad przetwarzaniem obrazów, Aspose.PSD dla .NET będzie rozwiązaniem dla Ciebie. W tym samouczku zagłębimy się w wykorzystanie mocy zasobu „WorkingPathResource” w Aspose.PSD. Ta kluczowa funkcja zwiększa precyzję operacji kadrowania, zapewniając, że obrazy będą dokładnie dopasowane do potrzeb.
 ## Warunki wstępne
@@ -88,3 +94,9 @@ Gratulacje! Pomyślnie opanowałeś użycie „WorkingPathResource” w Aspose.P
 ### P5: Potrzebujesz tymczasowej licencji?
 
  A5: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

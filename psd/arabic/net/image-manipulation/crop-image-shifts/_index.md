@@ -3,10 +3,16 @@ title: قص الصور عن طريق التحولات في Aspose.PSD لـ .NET
 linktitle: قص الصور عن طريق التحولات
 second_title: Aspose.PSD.NET API
 description: تعلم كيفية اقتصاص الصور بسهولة باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة لإجراء تعديلات دقيقة على الصورة.
-type: docs
 weight: 12
 url: /ar/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص الصور عن طريق التحولات في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.PSD كمجموعة أدوات قوية لمهام معالجة الصور. إحدى ميزاته البارزة هي القدرة على اقتصاص الصور بدقة، وذلك بفضل وظيفة "الاقتصاص حسب التحولات". في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية قص الصور بسلاسة باستخدام Aspose.PSD for .NET.
@@ -105,3 +111,10 @@ rasterImage.Save(destName, new JpegOptions());
 ### س5: هل يمكنني شراء Aspose.PSD لـ .NET مباشرةً من موقع الويب؟
 
  ج5: نعم، يمكنك شراء المكتبة بشكل آمن من[صفحة الشراء](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

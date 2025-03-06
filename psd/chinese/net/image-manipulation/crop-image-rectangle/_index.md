@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中通过矩形裁剪图像
 linktitle: 按矩形裁剪图像
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 增强您的 .NET 图像处理技能。逐步了解如何使用矩形进行精确图像裁剪。
-type: docs
 weight: 11
 url: /zh/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中通过矩形裁剪图像
+
 ## 介绍
 
 在 .NET 编程领域，处理和增强图像是一项常见任务，而 Aspose.PSD for .NET 是一个功能强大的库，可简化此过程。本教程重点介绍一种基本但至关重要的图像处理技术 - 通过矩形裁剪图像。在本指南结束时，您将对如何使用 Aspose.PSD for .NET 精确裁剪图像有一个扎实的理解。
@@ -110,3 +116,9 @@ A3: Aspose.PSD for .NET 旨在处理各种尺寸的图像。但是，处理超�
 ### Q5：我可以在哪里找到额外的支持或帮助？
 
  A5：访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)与社区联系并寻求支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

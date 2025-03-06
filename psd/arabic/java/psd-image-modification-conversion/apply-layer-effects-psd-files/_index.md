@@ -3,10 +3,16 @@ title: تطبيق تأثيرات الطبقة في ملفات PSD باستخدا
 linktitle: تطبيق تأثيرات الطبقة في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تطبيق تأثيرات الطبقة في ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا البرنامج التعليمي تحميل ملفات PSD والوصول إلى الطبقات وحفظ الصورة المعدلة.
-type: docs
 weight: 19
 url: /ar/java/psd-image-modification-conversion/apply-layer-effects-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق تأثيرات الطبقة في ملفات PSD باستخدام Java
+
 ## مقدمة
 
 هل حلمت يومًا بمعالجة تلك التحف الجميلة ذات الطبقات بتنسيق PSD مباشرةً من خلال التعليمات البرمجية؟ حسنًا، مع قوة Aspose.PSD لـ Java، يصبح هذا الحلم حقيقة! سيرشدك هذا الدليل خلال خطوات تطبيق تأثيرات الطبقة في ملفات PSD الخاصة بك باستخدام Java، مما يمكّنك من أتمتة المهام وفتح مستوى جديد تمامًا من التحكم الإبداعي. 
@@ -111,3 +117,9 @@ image.save(exportPath, options);
 
 ### أين يمكنني العثور على مزيد من المعلومات والدعم؟
 وثائق Aspose.PSD ([Aspose.PSD لوثائق جافا](https://reference.aspose.com/psd/java/)) يعد مصدرًا قيمًا للحصول على معلومات متعمقة. إذا واجهت مشكلات أو كانت لديك أسئلة، فمنتديات Aspose ([منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34)) مكان رائع لطلب المساعدة من المجتمع ودعم Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

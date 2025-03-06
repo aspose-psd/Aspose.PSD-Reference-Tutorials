@@ -3,10 +3,16 @@ title: Merge One PSD Layer to Another using Java
 linktitle: Merge One PSD Layer to Another using Java
 second_title: Aspose.PSD Java API
 description: Learn how to merge layers from one PSD file into another using Aspose.PSD for Java with our step-by-step tutorial. Perfect for automating your design processes.
-type: docs
 weight: 10
 url: /java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Merge One PSD Layer to Another using Java
+
 ## Introduction
 
 Have you ever found yourself needing to merge layers from one PSD file into another while working with Adobe Photoshop documents programmatically? Whether you're automating design processes or managing a large collection of layered images, Aspose.PSD for Java offers a powerful toolkit to manipulate PSD files directly through your Java code. In this guide, we’ll walk you through the process of merging one PSD layer into another using Aspose.PSD for Java. Not only will you learn how to seamlessly merge layers, but you'll also discover how easy it is to work with PSD files in a Java environment. Ready to dive in? Let’s get started!
@@ -119,3 +125,10 @@ The `mergeLayerTo()` method follows the default merging behavior. For more custo
 
 ### How do I get a temporary license for Aspose.PSD for Java?
 You can get a temporary license from the [Aspose website](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

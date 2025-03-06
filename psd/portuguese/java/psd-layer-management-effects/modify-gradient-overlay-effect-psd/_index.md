@@ -3,10 +3,16 @@ title: Modifique o efeito de sobreposição de gradiente em PSD usando Java
 linktitle: Modifique o efeito de sobreposição de gradiente em PSD usando Java
 second_title: API Java Aspose.PSD
 description: Aprenda como modificar o efeito Gradient Overlay em um arquivo PSD usando Aspose.PSD para Java. Siga nosso guia para automatizar e personalizar seus arquivos PSD com eficiência.
-type: docs
 weight: 12
 url: /pt/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifique o efeito de sobreposição de gradiente em PSD usando Java
+
 ## Introdução
 
 Você está pronto para mergulhar no mundo da arte digital com Java? Se você estiver trabalhando com arquivos do Photoshop (PSD) e quiser manipulá-los programaticamente, você terá uma surpresa. Hoje vamos explorar como modificar o efeito de sobreposição de gradiente em um arquivo PSD usando Aspose.PSD para Java. Seja você um desenvolvedor que deseja automatizar tarefas de design gráfico ou alguém simplesmente curioso sobre o processo, este tutorial irá guiá-lo passo a passo. Ao final, você terá conhecimento para adicionar um toque profissional às suas imagens sem nunca abrir o Photoshop.
@@ -152,3 +158,9 @@ Aspose.PSD para Java permite aplicar vários efeitos, como sombras projetadas, b
 
 ### Como reverto as alterações feitas em um arquivo PSD?  
 Se você ainda não salvou o arquivo, basta recarregar o arquivo PSD original. Se você já o salvou, será necessário restaurá-lo a partir de um backup ou desfazer as alterações programaticamente
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

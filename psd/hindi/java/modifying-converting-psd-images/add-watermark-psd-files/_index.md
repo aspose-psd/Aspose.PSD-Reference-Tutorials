@@ -3,10 +3,16 @@ title: Aspose.PSD for Java के साथ PSD फ़ाइलों में 
 linktitle: Aspose.PSD for Java के साथ PSD फ़ाइलों में वॉटरमार्क जोड़ें
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java का उपयोग करके आसानी से अपनी PSD फ़ाइलों में वॉटरमार्क जोड़ना सीखें। एक सरल चरण-दर-चरण मार्गदर्शिका के साथ अपनी छवियों को सुरक्षित करें।
-type: docs
 weight: 18
 url: /hi/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java के साथ PSD फ़ाइलों में वॉटरमार्क जोड़ें
+
 ## परिचय
 वॉटरमार्क आपकी छवियों की सुरक्षा करने और स्वामित्व का संचार करने का एक सूक्ष्म लेकिन प्रभावी तरीका है। चाहे आप अपने पोर्टफोलियो को प्रदर्शित करने वाले फ़ोटोग्राफ़र हों या अपने नवीनतम काम को प्रस्तुत करने वाले डिज़ाइनर, वॉटरमार्क जोड़ना आपकी ब्रांड पहचान को बनाए रखने के लिए महत्वपूर्ण हो सकता है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.PSD का उपयोग करके अपनी PSD फ़ाइलों में आसानी से वॉटरमार्क जोड़ने के तरीके के बारे में जानेंगे। तो, एक कप कॉफ़ी लें, आराम से बैठें और शुरू करें!
 ## आवश्यक शर्तें
@@ -90,3 +96,9 @@ psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
  हां, आप JPEG या BMP जैसे विभिन्न प्रारूपों में सहेज सकते हैं। बस बदलें`PngOptions()` वांछित विकल्पों के साथ.
 ### मुझे और अधिक सहायता कहां मिल सकती है?
  विस्तृत जानकारी के लिए आप यहां जा सकते हैं[Aspose फ़ोरम](https://forum.aspose.com/c/psd/34) या उनकी जाँच करें[प्रलेखन](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

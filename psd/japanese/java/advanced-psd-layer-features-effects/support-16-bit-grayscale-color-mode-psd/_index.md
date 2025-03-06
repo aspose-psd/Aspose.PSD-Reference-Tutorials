@@ -3,10 +3,16 @@ title: PSD で 16 ビット グレースケール カラー モードをサポ�
 linktitle: PSD で 16 ビット グレースケール カラー モードをサポート - Java
 second_title: Aspose.PSD Java API
 description: この詳細なステップバイステップのチュートリアルで、Aspose.PSD for Java を使用して PSD ファイルに 16 ビット グレースケール カラー モードを実装する方法を学びます。
-type: docs
 weight: 11
 url: /ja/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD で 16 ビット グレースケール カラー モードをサポート - Java
+
 ## 導入
 グラフィック デザインや画像操作の世界に飛び込むとき、さまざまなカラー モードの操作方法を理解することは、秘密兵器を持っているようなものです。特に、16 ビット グレースケールは画期的なものであり、画像に驚くほどの深みとディテールを与えて、本当に目立つようにします。では、Aspose.PSD for Java を使用してこの強力な機能を探索する準備はできていますか? コーディング ギアの準備ができたら、すぐに始めましょう。
 ## 前提条件
@@ -126,3 +132,9 @@ finally {
 ぜひチェックしてみてください[ドキュメント](https://reference.aspose.com/psd/java/)より詳細な例とチュートリアルについては、こちらをご覧ください。
 ### Aspose.PSD のライセンスを購入するにはどうすればよいですか?
 ライセンスを購入するには、[Aspose 購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

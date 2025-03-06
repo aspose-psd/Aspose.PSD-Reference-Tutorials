@@ -3,10 +3,16 @@ title: Gestisci il livello di regolazione dell'esposizione in PSD utilizzando Ja
 linktitle: Gestisci il livello di regolazione dell'esposizione in PSD utilizzando Java
 second_title: API Java Aspose.PSD
 description: Migliora le tue immagini PSD senza sforzo con Java utilizzando Aspose.PSD. Segui questa guida per gestire i livelli di regolazione dell'esposizione passo dopo passo.
-type: docs
 weight: 23
 url: /it/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestisci il livello di regolazione dell'esposizione in PSD utilizzando Java
+
 ## Introduzione
 Quando si tratta di lavorare con i file Photoshop a livello di codice, soprattutto se ti stai immergendo nell'editing o nella manipolazione delle immagini, la libreria Aspose.PSD per Java è davvero un punto di svolta. Una delle potenti funzionalità che puoi utilizzare è il livello di regolazione dell'esposizione, che ti consente di migliorare o modificare le impostazioni di esposizione delle tue immagini in modo semplice ed efficace. Questo tutorial ti guiderà attraverso ogni passaggio per gestire i livelli di regolazione dell'esposizione all'interno di un file PSD utilizzando Java.
 ## Prerequisiti
@@ -92,3 +98,9 @@ Sì, Aspose.PSD può essere integrato in applicazioni web, consentendo la manipo
  È possibile accedere al supporto della comunità sui forum Aspose[Qui](https://forum.aspose.com/c/psd/34).
 ### È disponibile un progetto di esempio per iniziare?
  Sì, puoi trovare progetti di esempio e documentazione su[Pagina di riferimento Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Примените фильтры Гаусса и Винера в Aspose.
 linktitle: Примените фильтры Гаусса и Винера
 second_title: Aspose.PSD Java API
 description: Улучшите обработку изображений Java с помощью Aspose.PSD. Научитесь шаг за шагом применять фильтры Гаусса и Винера для получения потрясающих визуальных результатов.
-type: docs
 weight: 10
 url: /ru/java/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените фильтры Гаусса и Винера в Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по применению фильтров Гаусса и Винера в Aspose.PSD для Java! В этом руководстве мы покажем вам процесс улучшения ваших изображений с помощью этих мощных фильтров. Aspose.PSD для Java предоставляет мощный набор функций для обработки изображений, а с применением фильтров Гаусса и Винера вы можете добиться более плавных и четких изображений.
@@ -99,3 +105,9 @@ image.save(destName, new GifOptions());
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.PSD для Java?
 
  A5: См.[документация](https://reference.aspose.com/psd/java/) для более подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

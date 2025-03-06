@@ -3,10 +3,16 @@ title: การใช้การปรับความคมชัดใน 
 linktitle: การใช้การปรับคอนทราสต์
 second_title: Aspose.PSD .NET API
 description: เรียนรู้วิธีใช้งานการปรับคอนทราสต์ใน Aspose.PSD สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 11
 url: /th/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้การปรับความคมชัดใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คู่มือที่ครอบคลุมเกี่ยวกับการนำการปรับคอนทราสต์ไปใช้ใน Aspose.PSD สำหรับ .NET! ในบทช่วยสอนนี้ เราจะสำรวจกระบวนการเพิ่มคอนทราสต์ของรูปภาพโดยใช้ Aspose.PSD ซึ่งเป็นไลบรารีรูปภาพ .NET อันทรงพลัง ในตอนท้ายของคู่มือนี้ คุณจะมีความเข้าใจที่ชัดเจนเกี่ยวกับวิธีการใช้การปรับคอนทราสต์กับรูปภาพของคุณได้อย่างราบรื่น
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
 
  A5: หากจำเป็น คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

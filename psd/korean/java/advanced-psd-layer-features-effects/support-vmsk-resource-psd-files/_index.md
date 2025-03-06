@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에서 Vmsk 리소스 지원
 linktitle: Java를 사용하여 PSD 파일에서 Vmsk 리소스 지원
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일의 Vmsk 리소스를 손쉽게 관리하세요. 개발자와 디자이너 모두에게 이상적인 포괄적인 단계별 튜토리얼입니다.
-type: docs
 weight: 23
 url: /ko/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에서 Vmsk 리소스 지원
+
 ## 소개
 PSD(Photoshop 문서) 파일 작업 시 리소스 관리는 매우 중요하며, 특히 Vmsk(벡터 마스크) 리소스와 같은 특수 기능을 통합할 때는 더욱 그렇습니다. Vmsk 리소스는 복잡한 벡터 모양을 추가하여 디자이너가 손쉽게 멋진 그래픽을 만들 수 있도록 지원합니다. 이 가이드에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에서 Vmsk 리소스를 지원하는 방법을 보여주기 위해 실무적인 접근 방식을 취하겠습니다. 애플리케이션을 향상시키려는 개발자이거나 자동화를 원하는 디자이너라면 이 튜토리얼에서는 프로세스를 단계별로 안내하여 쉽게 따라하고 구현할 수 있습니다.
 ## 전제조건
@@ -128,3 +134,9 @@ PSD 파일로 다시 저장하거나 PNG, JPEG 등과 같은 다른 형식으로
  예, Aspose.PSD 무료 평가판에 액세스하여 기능을 테스트할 수 있습니다. 방문[무료 평가판 링크](https://releases.aspose.com/).
 ### Aspose.PSD에 대한 지원은 어떻게 받을 수 있나요?
  당신은[포럼을 Aspose](https://forum.aspose.com/c/psd/34)지원 및 문제 해결 도움을 받으려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

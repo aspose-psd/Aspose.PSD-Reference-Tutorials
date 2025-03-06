@@ -3,10 +3,16 @@ title: Lưu và xuất tệp
 linktitle: Lưu và xuất tệp
 second_title: API Aspose.PSD .NET
 description: Dễ dàng làm chủ việc lưu và xuất hình ảnh bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để vận hành ổ đĩa và luồng hiệu quả.
-type: docs
 weight: 23
 url: /vi/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu và xuất tệp
+
 ## Giới thiệu
 
 Nếu bạn đã từng vật lộn với sự phức tạp của việc lưu và xuất hình ảnh trong các dự án .NET của mình thì bạn không đơn độc. Lĩnh vực kỹ thuật số đòi hỏi độ chính xác và khi nói đến hình ảnh, quy trình này càng trở nên quan trọng hơn. May mắn thay, Aspose.PSD dành cho .NET sẵn sàng đơn giản hóa hành trình của bạn, cung cấp các giải pháp liền mạch để lưu hình ảnh vào đĩa và truyền trực tuyến.
@@ -32,3 +38,9 @@ Tìm hiểu cách lưu hình ảnh vào đĩa bằng Aspose.PSD cho .NET. Hãy l
 Khám phá sức mạnh của Aspose.PSD cho .NET và tìm hiểu cách lưu hình ảnh vào luồng một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Làm việc với Save Image Worker trong Aspose.PSD cho .NET](./save-image-worker/)
 Tìm hiểu cách sử dụng Aspose.PSD cho Save Image Worker của .NET để chuyển đổi định dạng hình ảnh liền mạch mà không bị gián đoạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

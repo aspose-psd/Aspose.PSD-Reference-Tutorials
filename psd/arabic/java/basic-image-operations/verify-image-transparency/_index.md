@@ -3,10 +3,16 @@ title: تحقق من شفافية الصورة باستخدام Aspose.PSD لـ 
 linktitle: التحقق من شفافية الصورة
 second_title: Aspose.PSD جافا API
 description: استكشف التحقق من شفافية الصورة باستخدام Aspose.PSD لـ Java. التكامل السهل والوثائق التفصيلية والدعم المجتمعي الممتاز.
-type: docs
 weight: 14
 url: /ar/java/basic-image-operations/verify-image-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحقق من شفافية الصورة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 هل تعمل مع الصور وتحتاج إلى ضمان الشفافية؟ يوفر Aspose.PSD for Java حلاً قويًا للتحقق من شفافية الصورة، مما يسمح لك بمعالجة ملفات الصور وتحليلها بسهولة. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية التحقق من شفافية الصورة باستخدام Aspose.PSD لـ Java.
@@ -86,3 +92,9 @@ if (opacity == 0) {
 ### س5: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 
  ج5: إذا كنت تقوم باختبار المكتبة، فيمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

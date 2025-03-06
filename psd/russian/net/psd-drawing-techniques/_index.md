@@ -3,10 +3,16 @@ title: Методы рисования PSD
 linktitle: Методы рисования PSD
 second_title: Aspose.PSD .NET API
 description: Раскройте потенциал Aspose.PSD для .NET с помощью наших руководств! Овладейте основными функциями рисования, создавайте потрясающую графику и совершенствуйте свои навыки манипулирования изображениями.
-type: docs
 weight: 28
 url: /ru/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Методы рисования PSD
+
 
 ## Введение
 
@@ -61,3 +67,9 @@ url: /ru/net/psd-drawing-techniques/
 Раскройте свой художественный потенциал с помощью Aspose.PSD для .NET! Следуйте нашему руководству по творческому рисованию с использованием графики.
 ### [Реализация рисования с помощью GraphicsPath в Aspose.PSD для .NET](./implementing-drawing-with-graphicspath/)
 Изучите возможности Aspose.PSD для .NET в этом пошаговом руководстве по рисованию с помощью GraphicsPath. Усовершенствуйте свои .NET-приложения с помощью расширенных возможностей работы с файлами Photoshop.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

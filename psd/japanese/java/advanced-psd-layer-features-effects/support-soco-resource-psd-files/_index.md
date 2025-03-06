@@ -3,10 +3,16 @@ title: Java を使用して PSD ファイルで SoCo リソースをサポート
 linktitle: Java を使用して PSD ファイルで SoCo リソースをサポートする
 second_title: Aspose.PSD Java API
 description: このステップバイステップのチュートリアルで、Aspose.PSD for Java を使用して PSD ファイル内の SoCo リソースを操作する方法を学習します。
-type: docs
 weight: 22
 url: /ja/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PSD ファイルで SoCo リソースをサポートする
+
 ## 導入
 PSD ファイルの操作は、複雑な迷路を進むようなもので、特にレイヤーやリソースの複雑な部分に踏み込む場合はそうです。幸い、Aspose.PSD for Java などのツールを使用すると、このプロセスが簡素化され、開発者は Photoshop ファイルをプログラムで操作できます。このチュートリアルでは、Java を使用して PSD ファイル内の SoCo リソースをサポートする方法を説明します。これにより、作業がはるかに簡単になります。 
 熟練した開発者であっても、画像処理の世界に足を踏み入れたばかりであっても、このガイドでは複雑な部分をわかりやすいステップに分解して、しっかりと理解した状態で開発を終えられるようにします。
@@ -111,3 +117,9 @@ Aspose.PSD for Java は、開発者が Java アプリケーション内で PSD �
 はい、専用の[サポートフォーラム](https://forum.aspose.com/c/psd/34).
 ### PSD ファイルではどのような種類のリソースを操作できますか?
 PSD ファイル内で、レイヤー、塗りつぶしレイヤー、SoCo リソースなど、さまざまなリソースを操作できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

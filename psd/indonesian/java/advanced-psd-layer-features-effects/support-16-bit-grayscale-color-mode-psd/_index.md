@@ -3,10 +3,16 @@ title: Mendukung Mode Warna Grayscale 16-bit di PSD - Java
 linktitle: Mendukung Mode Warna Grayscale 16-bit di PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menerapkan mode warna skala abu-abu 16-bit dalam file PSD menggunakan Aspose.PSD untuk Java dengan tutorial langkah demi langkah yang mendetail ini.
-type: docs
 weight: 11
 url: /id/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Mode Warna Grayscale 16-bit di PSD - Java
+
 ## Perkenalan
 Saat Anda terjun ke dunia desain grafis dan manipulasi gambar, memahami cara bekerja dengan mode warna berbeda seperti memiliki senjata rahasia. Secara khusus, skala abu-abu 16-bit dapat menjadi terobosan baru, memberikan gambar Anda kedalaman dan detail menakjubkan yang benar-benar membuatnya menonjol. Jadi, apakah Anda siap menjelajahi fitur canggih ini menggunakan Aspose.PSD untuk Java? Jika Anda sudah menyiapkan peralatan pengkodean, mari langsung ke dalamnya.
 ## Prasyarat
@@ -126,3 +132,9 @@ Sangat! Aspose.PSD mendukung berbagai mode warna, sehingga Anda dapat bekerja de
  Anda dapat memeriksanya[dokumentasi](https://reference.aspose.com/psd/java/) untuk contoh dan tutorial lebih mendalam.
 ### Bagaimana cara membeli lisensi Aspose.PSD?
  Anda dapat membeli lisensi dengan mengunjungi[Asumsikan halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

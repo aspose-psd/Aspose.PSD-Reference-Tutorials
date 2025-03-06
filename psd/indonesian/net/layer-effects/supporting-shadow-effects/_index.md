@@ -3,10 +3,16 @@ title: Mendukung Efek Bayangan di Aspose.PSD untuk .NET
 linktitle: Mendukung Efek Bayangan
 second_title: Asumsikan.PSD .NET API
 description: Sempurnakan gambar Anda dengan Aspose.PSD untuk .NET! Belajarlah untuk mendukung efek bayangan langkah demi langkah. Unduh sekarang untuk pengalaman visual yang menakjubkan.
-type: docs
 weight: 14
 url: /id/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Efek Bayangan di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Menambahkan efek bayangan pada gambar dapat meningkatkan daya tarik visual secara signifikan dan menciptakan pengalaman pengguna yang lebih mendalam. Aspose.PSD untuk .NET memberikan solusi ampuh untuk mendukung efek bayangan pada gambar Anda, memungkinkan Anda menyesuaikan berbagai parameter dan mencapai efek visual yang diinginkan.
@@ -109,3 +115,9 @@ A2: Ya, Aspose.PSD untuk .NET mendukung berbagai format file PSD, memastikan kom
 ### Q5: Dapatkah saya mencoba Aspose.PSD untuk .NET secara gratis sebelum membeli?
 
  A5: Ya, Anda dapat mengunduh versi uji coba gratis dari[halaman rilis](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

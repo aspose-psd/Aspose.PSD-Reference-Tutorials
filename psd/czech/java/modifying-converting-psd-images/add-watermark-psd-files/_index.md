@@ -3,10 +3,16 @@ title: Přidejte vodoznak do souborů PSD pomocí Aspose.PSD pro Java
 linktitle: Přidejte vodoznak do souborů PSD pomocí Aspose.PSD pro Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak přidat vodoznak do souborů PSD bez námahy pomocí Aspose.PSD pro Java. Chraňte své snímky pomocí jednoduchého průvodce krok za krokem.
-type: docs
 weight: 18
 url: /cs/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vodoznak do souborů PSD pomocí Aspose.PSD pro Java
+
 ## Zavedení
 Vodoznaky jsou nenápadným, ale účinným způsobem, jak chránit obrázky a komunikovat vlastnictví. Ať už jste fotograf předvádějící své portfolio nebo designér prezentující svou nejnovější práci, přidání vodoznaku může být zásadní pro udržení identity vaší značky. V tomto tutoriálu se ponoříme do toho, jak bez námahy přidat vodoznaky do souborů PSD pomocí Aspose.PSD pro Java. Takže si dejte šálek kávy, udělejte si pohodlí a můžeme začít!
 ## Předpoklady
@@ -90,3 +96,9 @@ tady to máte! Úspěšně jste přidali vodoznak do svého souboru PSD pomocí 
  Ano, můžete ukládat v různých formátech, jako je JPEG nebo BMP. Stačí vyměnit`PngOptions()` s požadovanými možnostmi.
 ### Kde najdu další pomoc?
  Pro podrobné dotazy můžete navštívit[Aspose fóra](https://forum.aspose.com/c/psd/34) nebo zkontrolovat jejich[dokumentace](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

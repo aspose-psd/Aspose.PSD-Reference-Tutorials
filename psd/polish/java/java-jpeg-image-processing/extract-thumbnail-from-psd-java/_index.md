@@ -3,10 +3,16 @@ title: Wyodrębnij miniaturę z PSD w Javie
 linktitle: Wyodrębnij miniaturę z PSD w Javie
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak wyodrębnić miniatury z plików PSD za pomocą Aspose.PSD dla Java. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po zapisywanie wyodrębnionych obrazów.
-type: docs
 weight: 15
 url: /pl/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij miniaturę z PSD w Javie
+
 ## Wstęp
 tym samouczku przyjrzymy się, jak wyodrębnić miniatury z plików PSD za pomocą Aspose.PSD dla Java. Miniatury mogą być przydatne do szybkiego podglądu lub tworzenia mniejszych wersji obrazów osadzonych w dokumentach PSD. Przyjrzyjmy się krokom wymaganym do osiągnięcia tego celu za pomocą Aspose.PSD.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ Aspose.PSD to biblioteka Java, która umożliwia programistom programową pracę
  Licencje tymczasowe można uzyskać od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Czy Aspose.PSD nadaje się do użytku komercyjnego?
 Tak, Aspose.PSD może być używany zarówno do projektów osobistych, jak i komercyjnych zgodnie z warunkami licencji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

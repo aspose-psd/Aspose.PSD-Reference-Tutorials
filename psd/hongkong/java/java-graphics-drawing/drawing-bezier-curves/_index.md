@@ -3,10 +3,16 @@ title: 用Java繪製貝塞爾曲線
 linktitle: 用Java繪製貝塞爾曲線
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 Java 中繪製貝塞爾曲線。請按照我們的逐步指南和程式碼範例進行操作。
-type: docs
 weight: 14
 url: /zh-hant/java/java-graphics-drawing/drawing-bezier-curves/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用Java繪製貝塞爾曲線
+
 ## 介紹
 在Java程式設計中，繪製貝塞爾曲線等複雜形狀可以大大增強應用程式的視覺吸引力。 Aspose.PSD for Java 提供了強大的功能來有效率地完成此類任務。本教學將引導您完成使用 Aspose.PSD for Java 逐步繪製貝塞爾曲線的過程，讓您輕鬆建立具有視覺吸引力的圖形。
 ## 先決條件
@@ -93,3 +99,9 @@ image.save(outpath, saveOptions);
 是的，Aspose.PSD for Java 支援將影像匯出為各種格式，如 PNG、JPEG、TIFF 等。
 ### 在哪裡可以找到更多範例和文件？
 參觀[Aspose.PSD for Java 文檔](https://reference.aspose.com/psd/java/)取得綜合指南和程式碼範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

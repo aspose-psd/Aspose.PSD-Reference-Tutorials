@@ -3,10 +3,16 @@ title: Εργασία με το Timeline στο Aspose.PSD για .NET
 linktitle: Εργασία με το Timeline
 second_title: Aspose.PSD .NET API
 description: Βελτιώστε τον χειρισμό εικόνας PSD με το Aspose.PSD για την κλάση Timeline .NET. Ελέγξτε τις ιδιότητες του πλαισίου, τις καταστάσεις επιπέδων και απελευθερώστε δημιουργικές δυνατότητες χωρίς κόπο.
-type: docs
 weight: 16
 url: /el/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με το Timeline στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο του γραφικού σχεδιασμού και της χειραγώγησης εικόνων, η ικανότητα ελέγχου και χειρισμού του χρονοδιαγράμματος των εικόνων είναι ζωτικής σημασίας. Το Aspose.PSD για .NET παρέχει μια ισχυρή λύση με την κλάση Timeline. Αυτή η δυνατότητα υψηλού επιπέδου επιτρέπει στους χρήστες να κάνουν αλλαγές στο χρονοδιάγραμμα του PsdImage, όπως αλλαγή της καθυστέρησης καρέ, επεξεργασία καταστάσεων επιπέδου σε συγκεκριμένα καρέ και πολλά άλλα.
 ## Προαπαιτούμενα
@@ -108,3 +114,9 @@ A2: Η κλάση Timeline έχει σχεδιαστεί ειδικά για ε�
 ### Ε5: Ποια είναι τα βασικά οφέλη από τη χρήση του Aspose.PSD για .NET;
 
 A5: Το Aspose.PSD για .NET προσφέρει προηγμένες δυνατότητες επεξεργασίας εικόνας, χειρισμό αρχείων PSD και απόδοση υψηλής απόδοσης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

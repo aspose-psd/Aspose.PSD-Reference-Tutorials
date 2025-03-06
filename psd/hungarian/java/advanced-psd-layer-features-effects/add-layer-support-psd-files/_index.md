@@ -3,10 +3,16 @@ title: Adjon hozzá rétegtámogatást a PSD-fájlokhoz az Aspose.PSD Java haszn
 linktitle: Adjon hozzá rétegtámogatást a PSD-fájlokhoz az Aspose.PSD Java használatával
 second_title: Aspose.PSD Java API
 description: Az Aspose.PSD for Java segítségével könnyedén kezelheti és konvertálhatja a réteges PSD-fájlokat PNG formátumba! Tökéletes azoknak a fejlesztőknek, akiknek grafikus manipulációra van szükségük.
-type: docs
 weight: 13
 url: /hu/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá rétegtámogatást a PSD-fájlokhoz az Aspose.PSD Java használatával
+
 ## Bevezetés
 grafikai tervezés és a digitális művészet világában a PSD (Photoshop Document) fájlokkal való munka a norma. Ezek a fájlok gyakran több réteget tartalmaznak, amelyek egymástól függetlenül kezelhetők, rugalmasságot és kreativitást kínálva. De mi történik, ha ezekkel a fájlokkal kell dolgoznia egy Java alkalmazásban? Nos, itt jön képbe az Aspose.PSD! Ebben a cikkben bemutatjuk, hogyan adhatunk rétegtámogatást a PSD-fájlokhoz az Aspose.PSD for Java használatával. Ezt könnyen követhető lépésekre bontjuk, így a kezdőtől a profiig bárki számára elérhetővé tesszük.
 ## Előfeltételek
@@ -101,3 +107,9 @@ Igen! Bár elsősorban a PSD-fájlokhoz, az Aspose számos más formátumhoz is 
  A támogatást az Aspose fórumon érheti el[itt](https://forum.aspose.com/c/psd/34).
 ### Vissza lehet konvertálni PNG-ről PSD-re?
 Az Aspose.PSD könyvtár inkább a PSD-fájlok olvasására és manipulálására összpontosít, nem pedig más formátumok PSD-re konvertálására.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter une vignette au segment JFIF en Java
 linktitle: Ajouter une vignette au segment JFIF en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter une vignette à une image PSD en Java à l'aide d'Aspose.PSD, étape par étape. Idéal pour les développeurs Java cherchant à améliorer les capacités de traitement d'images.
-type: docs
 weight: 11
 url: /fr/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une vignette au segment JFIF en Java
+
 ## Introduction
 Dans le domaine du développement Java, l'intégration de capacités de traitement d'images est cruciale pour diverses applications, allant des simples manipulations d'images aux tâches de conception graphique complexes. Aspose.PSD pour Java se distingue comme une bibliothèque puissante conçue pour gérer facilement les fichiers PSD (Photoshop Document). Ce didacticiel se concentre sur une tâche spécifique : ajouter une vignette au segment JFIF d'une image à l'aide d'Aspose.PSD pour Java. À la fin de ce guide, vous apprendrez comment y parvenir étape par étape, en vous assurant de bien maîtriser chaque partie.
 ## Conditions préalables
@@ -90,3 +96,9 @@ Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs Java de 
  Oui, vous pouvez télécharger un essai gratuit à partir de[Page de téléchargement d'essai d'Aspose.PSD](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l'assistance pour Aspose.PSD pour Java ?
  Pour obtenir de l'aide, visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

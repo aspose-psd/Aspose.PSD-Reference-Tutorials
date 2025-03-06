@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 작업 경로 리소스 지원
 linktitle: 작업 경로 리소스 지원
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 'WorkingPathResource'의 강력한 기능을 살펴보세요. 이 단계별 가이드를 통해 이미지 정밀도를 향상하세요.
-type: docs
 weight: 12
 url: /ko/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 작업 경로 리소스 지원
+
 ## 소개
 이미지 처리 작업을 하는 .NET 개발자라면 .NET용 Aspose.PSD가 가장 적합한 솔루션입니다. 이 튜토리얼에서는 Aspose.PSD에서 'WorkingPathResource' 리소스의 기능을 활용하는 방법을 자세히 살펴보겠습니다. 이 중요한 기능은 자르기 작업의 정밀도를 향상시켜 이미지가 필요에 따라 정확하게 맞춰지도록 보장합니다.
 ## 전제조건
@@ -88,3 +94,9 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 ### Q5: 임시 라이센스가 필요합니까?
 
  A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

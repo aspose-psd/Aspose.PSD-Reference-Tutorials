@@ -3,10 +3,16 @@ title: 優化 PNG 文件
 linktitle: 優化 PNG 文件
 second_title: Aspose.PSD Java API
 description: 探索使用 Aspose.PSD for Java 優化 PNG 檔案的綜合教程，涵蓋濾鏡、背景顏色變更、壓縮、解析度、位元深度和透明度。
-type: docs
 weight: 20
 url: /zh-hant/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 優化 PNG 文件
+
 ## 介紹
 
 您是否希望掌握使用 Aspose.PSD for Java 優化 PNG 檔案的方法？我們詳細的教學涵蓋了讓您的圖像閃閃發光所需了解的一切。從應用濾鏡到變更背景顏色，從壓縮檔案到設定分辨率，本指南均涵蓋了您的所有內容。讓我們逐步深入研究每個主題，以確保您充分利用 PNG 檔案！
@@ -48,3 +54,9 @@ PNG 檔案的透明度可以為您的圖像增添專業感。使用 Aspose.PSD f
 在此詳細的逐步教學中了解如何使用 Aspose.PSD for Java 指定 PNG 位元深度。
 ### [在 Aspose.PSD for Java 中設定 PNG 透明度](./set-png-transparency/)
 透過簡單的逐步教學，了解如何在 Aspose.PSD for Java 中設定 PNG 透明度。非常適合開發人員和平面設計師。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

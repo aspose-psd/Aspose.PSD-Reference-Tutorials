@@ -3,10 +3,16 @@ title: แปลง AI เป็น PSD ใน Java
 linktitle: แปลง AI เป็น PSD ใน Java
 second_title: Aspose.PSD Java API
 description: แปลง AI เป็น PSD ใน Java โดยใช้ Aspose.PSD พร้อมคำแนะนำทีละขั้นตอนง่ายๆ ของเรา เหมาะสำหรับนักพัฒนาที่ต้องการการแปลงไฟล์ที่รวดเร็วและราบรื่น
-type: docs
 weight: 14
 url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลง AI เป็น PSD ใน Java
+
 ## การแนะนำ
 คุณต้องการแปลงไฟล์ AI (Adobe Illustrator) เป็นไฟล์ PSD (Adobe Photoshop) โดยใช้ Java หรือไม่? คุณอยู่ในสถานที่ที่เหมาะสม! วันนี้ เราจะมาสำรวจวิธีการทำงานนี้ให้สำเร็จโดยใช้ไลบรารี Aspose.PSD สำหรับ Java อันทรงพลัง คู่มือนี้จะอธิบายทุกสิ่งที่คุณจำเป็นต้องรู้ ตั้งแต่ข้อกำหนดเบื้องต้นไปจนถึงคำแนะนำทีละขั้นตอนโดยละเอียด มาเจาะลึกและแปลงไฟล์การออกแบบของคุณได้อย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -64,3 +70,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารีที่ม
 ปัจจุบัน Aspose.PSD สำหรับ Java ไม่รองรับการแปลงไฟล์ PSD กลับเป็นไฟล์ AI มุ่งเน้นไปที่การจัดการไฟล์ PSD และ PSB
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
  คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่[Aspose.PSD สำหรับหน้าเอกสารประกอบ Java](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

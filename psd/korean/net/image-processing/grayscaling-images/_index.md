@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD를 사용하여 이미지 그레이스케일링
 linktitle: .NET용 Aspose.PSD를 사용하여 이미지 그레이스케일링
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 이미지에 그레이스케일 효과를 손쉽게 적용하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD를 사용하여 이미지 그레이스케일링
+
 ## 소개
 
 .NET용 Aspose.PSD를 사용한 그레이스케일 이미지에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 그레이스케일링은 이미지를 회색 음영으로 변환하여 이미지의 시각적 매력을 향상시킬 수 있는 강력한 기술입니다. 이 가이드에서는 놀라운 그레이스케일 효과를 손쉽게 달성하는 과정을 안내해 드립니다.
@@ -108,3 +114,9 @@ A1: 예, Aspose.PSD는 PSD, BMP, PNG 및 JPEG를 포함한 다양한 이미지 �
 ### Q5: .NET용 Aspose.PSD 라이선스를 어떻게 구매하나요?
 
  A5: 다음에서 라이센스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

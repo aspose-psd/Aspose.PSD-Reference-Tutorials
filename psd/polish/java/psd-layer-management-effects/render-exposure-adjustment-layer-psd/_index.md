@@ -3,10 +3,16 @@ title: Renderuj warstwę dopasowania ekspozycji w plikach PSD — Java
 linktitle: Renderuj warstwę dopasowania ekspozycji w plikach PSD — Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak renderować i dostosowywać warstwy ekspozycji w plikach PSD przy użyciu Aspose.PSD dla Java. Przewodnik krok po kroku z przykładami kodu dotyczącymi modyfikowania i dodawania warstw ekspozycji.
-type: docs
 weight: 15
 url: /pl/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderuj warstwę dopasowania ekspozycji w plikach PSD — Java
+
 ## Wstęp
 
 Czy pracujesz z plikami PSD programu Photoshop i chcesz dostosować ekspozycję lub programowo dodać warstwę dopasowania ekspozycji? Niezależnie od tego, czy poprawiasz istniejące warstwy, czy dodajesz nowe, Aspose.PSD dla Java zapewnia potężny i intuicyjny sposób obsługi tych zadań. W tym przewodniku omówimy, jak używać Aspose.PSD dla Java do renderowania i modyfikowania warstw dopasowania ekspozycji w plikach PSD. Pod koniec tego samouczka będziesz wiedział, jak dostosować ustawienia ekspozycji w istniejących warstwach i dodać nowe warstwy dopasowania ekspozycji do plików PSD. Zanurzmy się!
@@ -138,3 +144,9 @@ Tak, Aspose.PSD for Java obsługuje różne typy warstw, w tym warstwy tekstowe,
 ### Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?
 
  Aby uzyskać pomoc, możesz odwiedzić stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/psd/34) gdzie możesz zadawać pytania i uzyskać pomoc od społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

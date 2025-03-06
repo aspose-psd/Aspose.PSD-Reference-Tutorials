@@ -3,10 +3,16 @@ title: Πώς να προσθέσετε μοτίβο επιπέδου Stroke σ�
 linktitle: Πώς να προσθέσετε μοτίβο επιπέδου Stroke στην Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε ένα μοτίβο επιπέδου stroke σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να βελτιώσετε εύκολα τις εικόνες σας.
-type: docs
 weight: 11
 url: /el/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πώς να προσθέσετε μοτίβο επιπέδου Stroke στην Java
+
 ## Εισαγωγή
 Η προσθήκη ενός μοτίβου στρώματος περιγράμματος σε μια εικόνα σε Java μπορεί να ακούγεται σαν μια τρομακτική εργασία, αλλά με το Aspose.PSD για Java, είναι πιο εύκολο από ό,τι νομίζετε. Είτε σχεδιάζετε γραφικά είτε εργάζεστε σε εφαρμογές επεξεργασίας φωτογραφιών, αυτός ο οδηγός θα σας καθοδηγήσει βήμα προς βήμα στη διαδικασία. Είστε έτοιμοι να ξεκινήσετε; Ας βουτήξουμε!
 ## Προαπαιτούμενα
@@ -138,3 +144,9 @@ catch (Exception e)
  Μπορείτε να λάβετε υποστήριξη από τα φόρουμ της κοινότητας Aspose[εδώ](https://forum.aspose.com/c/psd/34).
 ### Ποιες είναι οι απαιτήσεις συστήματος για το Aspose.PSD για Java;
 Χρειάζεστε εγκατεστημένο το JDK και ένα IDE για ανάπτυξη. Η βιβλιοθήκη υποστηρίζει πολλαπλά λειτουργικά συστήματα, συμπεριλαμβανομένων των Windows, Linux και macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menggabungkan Gambar di Aspose.PSD untuk .NET
 linktitle: Menggabungkan Gambar
 second_title: Asumsikan.PSD .NET API
 description: Gabungkan gambar dengan mudah di .NET dengan Aspose.PSD. Ikuti tutorial langkah demi langkah kami untuk manipulasi gambar yang lancar.
-type: docs
 weight: 10
 url: /id/net/image-manipulation/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggabungkan Gambar di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah kami tentang menggabungkan gambar menggunakan Aspose.PSD untuk .NET! Aspose.PSD adalah perpustakaan .NET yang kuat yang memungkinkan pengembang untuk bekerja dengan file Adobe Photoshop dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses menggabungkan gambar menggunakan Aspose.PSD, memberi Anda contoh praktis dan langkah-langkah mendetail.
@@ -107,3 +113,9 @@ A2: Ya, Aspose.PSD dapat digunakan untuk tujuan pribadi dan komersial. Periksa d
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.PSD?
 
 A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

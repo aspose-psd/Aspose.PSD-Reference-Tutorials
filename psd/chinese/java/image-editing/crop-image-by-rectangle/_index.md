@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中通过矩形裁剪图像
 linktitle: 按矩形裁剪图片
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 探索 Java 中的无缝图像裁剪功能。按照我们的分步指南，使用 Aspose.PSD for Java 轻松裁剪图像。
-type: docs
 weight: 15
 url: /zh/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中通过矩形裁剪图像
+
 ## 介绍
 
 在 Java 开发领域，处理图像是一项常见任务，而 Aspose.PSD for Java 为图像处理提供了强大的解决方案。在本教程中，我们将指导您使用 Aspose.PSD for Java 通过矩形裁剪图像的过程。按照以下步骤轻松实现此目的。
@@ -105,3 +111,9 @@ A1：是的，Aspose.PSD for Java 可以与各种 Java 框架集成，为您的�
 ### Q5：Aspose.PSD for Java 支持裁剪哪些图像格式？
 
 A5：Aspose.PSD for Java 支持各种图像格式，包括 PSD、PNG、JPEG 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

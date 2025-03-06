@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 对图像进行灰度化
 linktitle: 使用 Aspose.PSD for .NET 对图像进行灰度化
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 轻松地将灰度效果应用于图像。
-type: docs
 weight: 14
 url: /zh/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 对图像进行灰度化
+
 ## 介绍
 
 欢迎阅读我们关于使用 Aspose.PSD for .NET 对图像进行灰度化的综合教程！灰度化是一种强大的技术，可以通过将图像转换为灰色来增强图像的视觉吸引力。在本指南中，我们将引导您轻松完成实现令人惊叹的灰度效果的过程。
@@ -108,3 +114,9 @@ A1：是的，Aspose.PSD 支持各种图像格式，包括 PSD、BMP、PNG 和 J
 ### Q5：如何购买 Aspose.PSD for .NET 的许可证？
 
  A5：您可以从[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

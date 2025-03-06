@@ -3,10 +3,16 @@ title: 修改和轉換 PSD 影像
 linktitle: 修改和轉換 PSD 影像
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 透過各種調整和效果增強您的 PSD 檔案。有關顏色處理、浮水印等的逐步教學。
-type: docs
 weight: 21
 url: /zh-hant/java/modifying-converting-psd-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 修改和轉換 PSD 影像
+
 ## 介紹
 
 Aspose.PSD for Java 提供了一個用於處理 PSD 檔案的多功能工具包，提供了多種修改和增強影像的選項。無論您是經驗豐富的設計師還是新手，我們的教學課程都旨在幫助您充分利用 Aspose.PSD 的潛力。您可以探索以下教學綜述來掌握 PSD 操作的各個面向。
@@ -102,3 +108,9 @@ Aspose.PSD for Java 提供了一個用於處理 PSD 檔案的多功能工具包�
 在我們的逐步指南中了解如何使用 Aspose.PSD for Java 建立索引 PSD 檔案。現在就加入，探索無限的藝術可能性。
 ### [使用 Java 從 PSD 檔案建立縮圖](./create-thumbnails-psd-files/)
 了解如何使用 Java 和 Aspose.PSD 輕鬆地從 PSD 檔案建立縮圖。請遵循我們的無縫影像處理逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

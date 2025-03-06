@@ -3,10 +3,16 @@ title: Java kullanarak PSD'deki Degrade Kaplama Efektini Değiştirme
 linktitle: Java kullanarak PSD'deki Degrade Kaplama Efektini Değiştirme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'yı kullanarak bir PSD dosyasındaki Degrade Kaplama efektini nasıl değiştireceğinizi öğrenin. PSD dosyalarınızı verimli bir şekilde otomatikleştirmek ve özelleştirmek için kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PSD'deki Degrade Kaplama Efektini Değiştirme
+
 ## giriiş
 
 Java ile dijital sanat dünyasına dalmaya hazır mısınız? Photoshop dosyalarıyla (PSD) çalışıyorsanız ve bunları programlı olarak değiştirmek istiyorsanız, çok iyi bir fırsatla karşı karşıyasınız. Bugün Aspose.PSD for Java kullanarak bir PSD dosyasındaki degrade kaplama efektini nasıl değiştirebileceğimizi keşfedeceğiz. İster grafik tasarım görevlerini otomatikleştirmek isteyen bir geliştirici olun, ister yalnızca süreci merak eden biri olun, bu eğitim size adım adım rehberlik edecektir. Sonunda, Photoshop'u hiç açmadan resimlerinize profesyonel bir dokunuş katacak bilgiye sahip olacaksınız.
@@ -152,3 +158,9 @@ Aspose.PSD for Java, alt gölgeler, iç ışımalar, dış ışımalar ve daha f
 
 ### PSD dosyasında yapılan değişiklikleri nasıl geri alabilirim?  
 Dosyayı henüz kaydetmediyseniz orijinal PSD dosyasını yeniden yükleyebilirsiniz. Zaten kaydettiyseniz, bir yedekten geri yüklemeniz veya değişiklikleri programlı olarak geri almanız gerekir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

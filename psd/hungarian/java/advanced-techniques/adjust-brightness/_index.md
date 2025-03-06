@@ -3,10 +3,16 @@ title: Állítsa be a kép fényerejét az Aspose.PSD for Java segítségével
 linktitle: Állítsa be a kép fényerejét
 second_title: Aspose.PSD Java API
 description: Növelje a kép fényerejét Java nyelven az Aspose.PSD segítségével. Útmutató lépésről lépésre a kép fényerejének programozott beállításához.
-type: docs
 weight: 21
 url: /hu/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a kép fényerejét az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 képek javítása általános követelmény a grafikai tervezésben és a digitális fényképezésben. Az Aspose.PSD for Java hatékony megoldást kínál a kép fényerejének programozott beállítására. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan használhatjuk az Aspose.PSD for Java könyvtárat a kép fényerejének beállítására.
@@ -107,3 +113,9 @@ A kép fényerejének programozott beállítása egyszerű az Aspose.PSD for Jav
 ### 5. kérdés: Elérhető az Aspose.PSD for Java ingyenes próbaverziója?
 
  5. válasz: Igen, felfedezheti a könyvtárat egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

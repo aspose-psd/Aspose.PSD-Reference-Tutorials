@@ -3,10 +3,16 @@ title: Implementing Drawing with GraphicsPath in Aspose.PSD for .NET
 linktitle: Implementing Drawing with GraphicsPath
 second_title: Aspose.PSD .NET API
 description: Explore the power of Aspose.PSD for .NET in this step-by-step tutorial on drawing with GraphicsPath. Enhance your .NET applications with advanced Photoshop file manipulation.
-type: docs
 weight: 17
 url: /net/psd-drawing-techniques/implementing-drawing-with-graphicspath/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementing Drawing with GraphicsPath in Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to our step-by-step guide on implementing drawing with GraphicsPath in Aspose.PSD for .NET. Aspose.PSD for .NET is a powerful library that allows developers to work with Photoshop files in their .NET applications. In this tutorial, we will focus on the process of drawing using GraphicsPath, providing you with a comprehensive understanding of the steps involved.
@@ -102,3 +108,10 @@ A4: Yes, Aspose.PSD for .NET provides functionality to work with layers in Photo
 ### Q5: Where can I find the documentation for Aspose.PSD for .NET?
 
 A5: The documentation is available [here](https://reference.aspose.com/psd/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

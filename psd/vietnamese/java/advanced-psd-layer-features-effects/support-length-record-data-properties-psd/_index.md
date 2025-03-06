@@ -3,10 +3,16 @@ title: Hỗ trợ thuộc tính dữ liệu bản ghi độ dài trong PSD - Jav
 linktitle: Hỗ trợ thuộc tính dữ liệu bản ghi độ dài trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thao tác các tệp PSD với thuộc tính dữ liệu bản ghi độ dài trong Java bằng Aspose.PSD. Thực hiện theo hướng dẫn từng bước này để biết tất cả các chi tiết.
-type: docs
 weight: 14
 url: /vi/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ thuộc tính dữ liệu bản ghi độ dài trong PSD - Java
+
 ## Giới thiệu
 Bạn đã bao giờ làm việc với các tệp Photoshop và muốn thao tác các lớp hoặc hình dạng theo chương trình chưa? Nếu vậy, bạn đã vô tình khám phá ra vẻ đẹp của thư viện Aspose.PSD dành cho Java. Công cụ mạnh mẽ này cho phép các nhà phát triển tương tác và sửa đổi các tệp PSD một cách liền mạch thông qua mã Java. Trong bài viết hôm nay, chúng ta sẽ đi sâu vào cách hỗ trợ các thuộc tính dữ liệu bản ghi độ dài trong tệp PSD bằng thư viện này. 
 Cho dù bạn là nhà phát triển Java dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn mọi thứ bạn cần biết, từng bước một. Cuối cùng, bạn sẽ có thể mở tệp PSD, sửa đổi các thuộc tính hình dạng vectơ của nó và lưu các thay đổi của mình—tất cả mà không cần rời khỏi môi trường Java của bạn. Hãy xắn tay áo lên và nhảy vào!
@@ -96,3 +102,9 @@ Bạn có thể thao tác các lớp, hình dạng, văn bản, thao tác đư�
 Có, Aspose cung cấp nhiều thư viện khác nhau cho các ngôn ngữ lập trình khác nhau, bao gồm .NET và Python.
 ### Tôi có thể tìm tài liệu về Aspose.PSD ở đâu?
  Bạn có thể truy cập tài liệu đầy đủ[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hiệu ứng lớp phủ màu trên hình ảnh trong Aspose.PSD cho .NET
 linktitle: Hiệu ứng màu chồng lên hình ảnh
 second_title: API Aspose.PSD .NET
 description: Khám phá sự kỳ diệu của Aspose.PSD cho .NET với hướng dẫn của chúng tôi về các hiệu ứng lớp phủ màu. Nâng cao trò chơi xử lý hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiệu ứng lớp phủ màu trên hình ảnh trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Aspose.PSD for .NET cung cấp một bộ tính năng mạnh mẽ để xử lý hình ảnh, cho phép các nhà phát triển đạt được các hiệu ứng tuyệt đẹp một cách dễ dàng. Một khả năng như vậy là phủ các hiệu ứng màu lên hình ảnh. Trong hướng dẫn này, chúng ta sẽ tập trung vào hiệu ứng ColorOverlay và trình bày cách áp dụng nó cho hình ảnh, biến đổi sự hấp dẫn trực quan của nó.
@@ -98,3 +104,9 @@ Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspos
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.PSD cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

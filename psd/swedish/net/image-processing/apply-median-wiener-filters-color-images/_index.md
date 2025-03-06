@@ -3,10 +3,16 @@ title: Använda median- och wienerfilter i färgbilder med Aspose.PSD för .NET
 linktitle: Använda median- och wienerfilter i färgbilder med Aspose.PSD för .NET
 second_title: Aspose.PSD .NET API
 description: Förbättra och försvaga färgbilder med Aspose.PSD för .NET med Median- och Wiener-filter. Steg-för-steg-guide för sömlös bildbehandling.
-type: docs
 weight: 11
 url: /sv/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Använda median- och wienerfilter i färgbilder med Aspose.PSD för .NET
+
 ## Introduktion
 
 Välkommen till den här steg-för-steg-guiden för att använda median- och wienerfilter i färgbilder med Aspose.PSD för .NET. Aspose.PSD är ett kraftfullt bibliotek som gör det möjligt för .NET-utvecklare att arbeta med PSD-filer sömlöst. I den här handledningen kommer vi att utforska processen med att använda median- och wienerfilter för att förbättra och försvaga färgbilder.
@@ -95,3 +101,9 @@ S2: Du kan implementera try-catch-block för att hantera undantag som kan uppst�
 ### F5: Hur får jag en tillfällig licens för Aspose.PSD?
 
  A5: Du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konversi PSB ke JPG di Java
 linktitle: Konversi PSB ke JPG di Java
 second_title: Asumsikan.PSD Java API
 description: Konversi PSB ke JPG dengan mudah di Java dengan Aspose.PSD. Ikuti panduan terperinci kami untuk konversi gambar yang lancar. Unduh, coba, dan beli Aspose.PSD.
-type: docs
 weight: 10
 url: /id/java/java-psb-to-image-format-conversion/convert-psb-to-jpg-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi PSB ke JPG di Java
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang mengonversi file PSB ke format JPG menggunakan Aspose.PSD untuk Java! Jika Anda berurusan dengan file PSB—file Photoshop yang besar dan berlapis—dan perlu mengonversinya ke format JPG yang lebih didukung secara universal, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah. Pada akhirnya, Anda akan dapat dengan mudah mengonversi file PSB Anda ke JPG.
 ## Prasyarat
@@ -67,3 +73,9 @@ Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipul
  Sangat! Anda dapat mengakses dukungan melalui[Forum dukungan Aspose.PSD](https://forum.aspose.com/c/psd/34). Tim dukungan responsif dan siap membantu Anda dengan masalah atau pertanyaan apa pun yang mungkin Anda miliki.
 ### Bisakah saya menyesuaikan kualitas keluaran JPG?
  Ya, Anda dapat mengatur kualitas keluaran JPG dengan mengatur`Quality` properti di`JpegOptions` obyek. Nilainya berkisar dari 0 hingga 100, dengan nilai yang lebih tinggi menunjukkan kualitas yang lebih baik dan kompresi yang lebih rendah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

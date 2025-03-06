@@ -3,10 +3,16 @@ title: Δημιουργία ελλειπτικών σχημάτων με το As
 linktitle: Δημιουργία ελλειπτικών σχημάτων με το Aspose.PSD για .NET
 second_title: Aspose.PSD .NET API
 description: Μάθετε πώς να σχεδιάζετε ελλειπτικά σχήματα σε .NET χρησιμοποιώντας το Aspose.PSD. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα. Δημιουργήστε εκπληκτικά γραφικά χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία ελλειπτικών σχημάτων με το Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τη δημιουργία ελλειπτικών σχημάτων χρησιμοποιώντας το Aspose.PSD για .NET. Το Aspose.PSD είναι μια ισχυρή βιβλιοθήκη .NET που επιτρέπει στους προγραμματιστές να χειρίζονται και να μετατρέπουν αρχεία Photoshop χωρίς να απαιτείται το Adobe Photoshop. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία σχεδίασης ελλειπτικών σχημάτων χρησιμοποιώντας τη βιβλιοθήκη.
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια για δοκιμή;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

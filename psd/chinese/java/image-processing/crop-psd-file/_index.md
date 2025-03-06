@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 裁剪 PSD 文件
 linktitle: 裁剪 PSD 文件
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 探索 Java 中的无缝 PSD 文件裁剪。轻松将精度和效率融入您的图像处理任务中。
-type: docs
 weight: 17
 url: /zh/java/image-processing/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 裁剪 PSD 文件
+
 ## 介绍
 
 在 Java 开发领域，管理和操作 PSD（Photoshop 文档）文件是一项常见要求。Aspose.PSD for Java 是一款功能强大的工具，可高效、精确地简化 PSD 文件的裁剪过程。本分步指南将引导您了解使用 Aspose.PSD for Java 裁剪 PSD 文件的基本知识，确保您彻底掌握每个概念。
@@ -106,3 +112,9 @@ A2：是的，Aspose.PSD for Java 针对性能进行了优化，适合大规模�
 ### Q5: 我可以在购买之前试用 Aspose.PSD for Java 吗？
 
  A5：是的，可以通过免费试用探索其功能[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

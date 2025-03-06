@@ -3,10 +3,16 @@ title: Vytvořte obrázek nastavením cesty v Aspose.PSD pro Javu
 linktitle: Vytvořte obrázek nastavením cesty
 second_title: Aspose.PSD Java API
 description: Naučte se vytvářet obrázky PSD pomocí Aspose.PSD for Java. Postupujte podle našeho podrobného průvodce pro bezproblémové generování obrázků.
-type: docs
 weight: 13
 url: /cs/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte obrázek nastavením cesty v Aspose.PSD pro Javu
+
 ## Zavedení
 
 Vítejte v tomto podrobném návodu k vytváření obrázků pomocí Aspose.PSD pro Javu. V této příručce prozkoumáme, jak nastavit cestu a nakonfigurovat možnosti pro generování obrazu PSD. Aspose.PSD je výkonná Java knihovna pro práci se soubory Photoshopu, která poskytuje bezproblémový způsob programové manipulace a vytváření obrázků.
@@ -107,3 +113,9 @@ A1: Ano, Aspose.PSD bezproblémově funguje s různými Java Integrated Developm
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
  A5: Můžete získat dočasnou licenci pro testovací účely[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

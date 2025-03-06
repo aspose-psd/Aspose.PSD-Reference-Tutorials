@@ -3,10 +3,16 @@ title: Xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho Java
 linktitle: Xác minh độ trong suốt của hình ảnh
 second_title: API Java Aspose.PSD
 description: Khám phá xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho Java. Tích hợp dễ dàng, tài liệu chi tiết và hỗ trợ cộng đồng tuyệt vời.
-type: docs
 weight: 14
 url: /vi/java/basic-image-operations/verify-image-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Bạn đang làm việc với hình ảnh và cần đảm bảo tính minh bạch? Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để xác minh độ trong suốt của hình ảnh, cho phép bạn thao tác và phân tích các tệp hình ảnh một cách dễ dàng. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình xác minh độ trong suốt của hình ảnh bằng Aspose.PSD cho Java.
@@ -86,3 +92,9 @@ Câu trả lời 1: Có, Aspose.PSD cho Java được thiết kế để hoạt 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
  Câu trả lời 5: Nếu bạn đang thử nghiệm thư viện, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

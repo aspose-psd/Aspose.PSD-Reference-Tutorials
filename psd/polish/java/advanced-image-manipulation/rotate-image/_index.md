@@ -3,10 +3,16 @@ title: Obróć obraz w Aspose.PSD dla Java
 linktitle: Obróć obraz
 second_title: Aspose.PSD API Java
 description: Przeglądaj rotację obrazu w Javie bez wysiłku dzięki Aspose.PSD. Z łatwością obracaj, odwracaj i zapisuj pliki PSD.
-type: docs
 weight: 19
 url: /pl/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obróć obraz w Aspose.PSD dla Java
+
 ## Wstęp
 
 Aspose.PSD dla Java zapewnia potężny zestaw funkcji do pracy z obrazami, umożliwiając programistom efektywne manipulowanie i przetwarzanie plików PSD. W tym samouczku skupimy się na jednym konkretnym zadaniu: obracaniu obrazu. Niezależnie od tego, czy tworzysz aplikację do edycji zdjęć, czy po prostu chcesz dostosować orientację obrazu, Aspose.PSD sprawia, że proces jest prosty.
@@ -84,3 +90,9 @@ A2: Absolutnie! Aspose.PSD zapewnia elastyczność stosowania niestandardowych r
 ### P5: Jak uzyskać licencję tymczasową?
 
  Odpowiedź 5: Jeśli potrzebujesz licencji tymczasowej, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

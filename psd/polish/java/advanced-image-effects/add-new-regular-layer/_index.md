@@ -3,10 +3,16 @@ title: Dodaj nową zwykłą warstwę do PSD za pomocą Aspose.PSD dla Java
 linktitle: Dodaj nową zwykłą warstwę do PSD
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak dodać nową zwykłą warstwę do plików PSD przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo manipulować plikami PSD.
-type: docs
 weight: 11
 url: /pl/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj nową zwykłą warstwę do PSD za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku dotyczącym używania Aspose.PSD dla Java w celu dodania nowej zwykłej warstwy do pliku PSD. Aspose.PSD to potężna biblioteka Java, która pozwala programistom efektywnie manipulować plikami PSD i pracować z nimi. W tym samouczku przeprowadzimy Cię przez proces dodawania nowej zwykłej warstwy do pliku PSD, podając szczegółowe kroki i przykłady kodu.
@@ -120,3 +126,9 @@ A2: Absolutnie! Aspose.PSD zapewnia szereg opcji transformacji warstw.
 ### P5: Czy istnieją fora społeczności dotyczące wsparcia Aspose.PSD?
 
  Odpowiedź 5: Tak, możesz znaleźć wsparcie i dyskusje[Tutaj](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中支持阴影效果
 linktitle: 支持阴影效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 增强您的图像！逐步学习支持阴影效果。立即下载，享受视觉震撼的体验。
-type: docs
 weight: 14
 url: /zh/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中支持阴影效果
+
 ## 介绍
 
 在图像中添加阴影效果可以显著增强视觉吸引力并创造更具沉浸感的用户体验。Aspose.PSD for .NET 提供了强大的解决方案来支持图像中的阴影效果，允许您自定义各种参数并实现所需的视觉效果。
@@ -109,3 +115,9 @@ A2：是的，Aspose.PSD for .NET 支持多种 PSD 文件格式，确保与最�
 ### Q5：在购买之前我可以免费试用 Aspose.PSD for .NET 吗？
 
  A5：是的，您可以从[发布页面](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

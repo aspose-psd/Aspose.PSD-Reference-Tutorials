@@ -3,10 +3,16 @@ title: Renderizar capa de ajuste de exposición en archivos PSD - Java
 linktitle: Renderizar capa de ajuste de exposición en archivos PSD - Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a renderizar y ajustar capas de exposición en archivos PSD usando Aspose.PSD para Java. Guía paso a paso con ejemplos de código para modificar y agregar capas de exposición.
-type: docs
 weight: 15
 url: /es/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderizar capa de ajuste de exposición en archivos PSD - Java
+
 ## Introducción
 
 ¿Está trabajando con archivos PSD de Photoshop y necesita ajustar la exposición o agregar una capa de ajuste de exposición mediante programación? Ya sea que esté modificando capas existentes o agregando otras nuevas, Aspose.PSD para Java proporciona una forma poderosa e intuitiva de manejar estas tareas. En esta guía, explicaremos cómo usar Aspose.PSD para Java para renderizar y modificar capas de ajuste de exposición en archivos PSD. Al final de este tutorial, sabrá cómo ajustar la configuración de exposición en capas existentes y agregar nuevas capas de ajuste de exposición a sus archivos PSD. ¡Vamos a sumergirnos!
@@ -138,3 +144,9 @@ Sí, Aspose.PSD para Java admite varios tipos de capas, incluidas capas de texto
 ### ¿Cómo puedo obtener soporte para Aspose.PSD para Java?
 
  Para obtener soporte, puede visitar el[Aspose foro de soporte](https://forum.aspose.com/c/psd/34) donde puede hacer preguntas y obtener ayuda de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

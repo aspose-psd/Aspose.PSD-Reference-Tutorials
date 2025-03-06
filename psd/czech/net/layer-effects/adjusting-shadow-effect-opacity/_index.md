@@ -3,10 +3,16 @@ title: Úprava krytí stínového efektu v Aspose.PSD pro .NET
 linktitle: Úprava krytí stínového efektu
 second_title: Aspose.PSD .NET API
 description: Naučte se, jak upravit neprůhlednost stínového efektu v Aspose.PSD pro .NET pomocí tohoto komplexního kurzu.
-type: docs
 weight: 15
 url: /cs/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Úprava krytí stínového efektu v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vítejte v našem podrobném průvodci nastavením krytí stínového efektu v Aspose.PSD pro .NET! V tomto tutoriálu vás provedeme procesem využití vlastnosti Opacity DropShadowEffect. Aspose.PSD for .NET je výkonná knihovna, která vám umožní bezproblémově pracovat se soubory PSD ve vašich aplikacích .NET.
@@ -105,3 +111,9 @@ Odpověď 4: Ano, Aspose.PSD for .NET je kompatibilní s .NET Framework i .NET C
 ### Q5: Kde najdu podporu komunity pro Aspose.PSD pro .NET?
 
  A5: Navštivte[Aspose.PSD fóra](https://forum.aspose.com/c/psd/34) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

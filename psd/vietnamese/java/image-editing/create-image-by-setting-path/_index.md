@@ -3,10 +3,16 @@ title: Tạo hình ảnh bằng cách đặt đường dẫn trong Aspose.PSD ch
 linktitle: Tạo hình ảnh bằng cách đặt đường dẫn
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách tạo hình ảnh PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo hình ảnh liền mạch.
-type: docs
 weight: 13
 url: /vi/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình ảnh bằng cách đặt đường dẫn trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước về cách tạo hình ảnh bằng Aspose.PSD cho Java. Trong hướng dẫn này, chúng ta sẽ khám phá cách đặt đường dẫn và định cấu hình các tùy chọn để tạo hình ảnh PSD. Aspose.PSD là một thư viện Java mạnh mẽ để làm việc với các tệp Photoshop, cung cấp một cách liền mạch để thao tác và tạo hình ảnh theo chương trình.
@@ -107,3 +113,9 @@ Câu trả lời 1: Có, Aspose.PSD hoạt động trơn tru với nhiều Môi 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
  Câu trả lời 5: Bạn có thể xin giấy phép tạm thời cho mục đích thử nghiệm[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aláírás hozzáadása egy képhez az Aspose.PSD for Java segítségéve
 linktitle: Aláírás hozzáadása egy képhez
 second_title: Aspose.PSD Java API
 description: Fedezze fel az aláírások zökkenőmentes integrálását a képekbe az Aspose.PSD for Java segítségével. Kövesse lépésről lépésre útmutatónkat, importálja a szükséges csomagokat, és javítsa Java-alkalmazása grafikus képességeit.
-type: docs
 weight: 13
 url: /hu/java/advanced-image-effects/add-signature-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aláírás hozzáadása egy képhez az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 A Java fejlesztések hatalmas világában az aláírások beépítése a képekbe általános követelmény lett. Az Aspose.PSD for Java hatékony eszközként jelenik meg, amely zökkenőmentes megoldásokat kínál a fejlesztőknek a képek manipulálására, beleértve az aláírások hozzáadását is. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan adhatunk aláírást egy képhez az Aspose.PSD for Java használatával.
@@ -95,3 +101,10 @@ Ismételje meg ezeket a lépéseket a Java alkalmazásban, hogy zökkenőmentese
 ### 5. kérdés: Kipróbálhatom az Aspose.PSD for Java fájlt vásárlás előtt?
 
  V5: Igen, kaphat a[ingyenes próbaverzió](https://releases.aspose.com/)hogy vásárlás előtt fedezze fel a funkciókat.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

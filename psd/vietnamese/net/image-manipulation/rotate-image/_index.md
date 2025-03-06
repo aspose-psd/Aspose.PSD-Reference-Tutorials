@@ -3,10 +3,16 @@ title: Xoay hình ảnh trong Aspose.PSD cho .NET
 linktitle: Xoay một hình ảnh
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách xoay hình ảnh dễ dàng trong .NET với Aspose.PSD. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 15
 url: /vi/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xoay hình ảnh trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Nếu bạn đang đi sâu vào thế giới xử lý hình ảnh bằng .NET, Aspose.PSD là công cụ phù hợp để xử lý hình ảnh liền mạch và hiệu quả. Trong hướng dẫn này, chúng ta sẽ tập trung vào một nhiệm vụ cơ bản – xoay hình ảnh bằng Aspose.PSD cho .NET. Hãy làm theo khi chúng tôi chia quy trình thành các bước đơn giản, có thể thực hiện được.
@@ -80,3 +86,9 @@ Trong hướng dẫn này, chúng ta đã khám phá những kiến thức cơ b
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho mục đích thương mại không?
 
  Chắc chắn. Khám phá[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép phù hợp với nhu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

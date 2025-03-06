@@ -3,10 +3,16 @@ title: Aspose.PSD Java를 사용하여 PSD 레이어로 이미지 가져오기
 linktitle: Aspose.PSD Java를 사용하여 PSD 레이어로 이미지 가져오기
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 단계별 가이드를 통해 Java용 Aspose.PSD를 사용하여 이미지를 PSD 레이어로 가져오는 방법을 알아보세요.
-type: docs
 weight: 17
 url: /ko/java/psd-image-modification-conversion/import-images-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java를 사용하여 PSD 레이어로 이미지 가져오기
+
 ## 소개
 PSD 파일 작업 시 올바른 도구를 사용하면 큰 차이를 만들 수 있습니다. 그래픽 디자인, 디지털 아트에 참여하거나 프레젠테이션을 더욱 멋지게 꾸미려는 경우에도 PSD 레이어를 조작하는 방법을 이해하면 창의성의 세계를 열어줄 수 있습니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지를 PSD 레이어로 가져오는 방법을 배웁니다. 이 가이드는 간단하고 흥미로운 방식으로 각 단계를 안내하도록 설계되었습니다. 이제 커피 한 잔을 들고 PSD 파일의 이미지 조작에 대한 핵심을 살펴보겠습니다.
 ## 전제조건
@@ -85,3 +91,9 @@ Aspose.PSD for Java는 개발자가 PSD 파일을 사용하여 레이어, 이미
  당신은 방문 할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34) 커뮤니티와 Aspose 전문가의 도움을 받으세요.
 ### Java용 Aspose.PSD 라이선스를 어떻게 구매하나요?
  다음 사이트를 방문하여 라이센스를 구입할 수 있습니다.[구매 페이지 제안](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

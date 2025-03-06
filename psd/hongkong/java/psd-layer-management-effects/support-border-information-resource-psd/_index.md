@@ -3,10 +3,16 @@ title: 支援 PSD 中的邊境資訊資源 - Java
 linktitle: 支援 PSD 中的邊境資訊資源 - Java
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 掌握 PSD 檔案中的邊框操作。透過易於遵循的步驟學習修改邊框寬度、單位等。以程式設計方式增強您的 PSD 設計。
-type: docs
 weight: 23
 url: /zh-hant/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 支援 PSD 中的邊境資訊資源 - Java
+
 ## 介紹
 
 您是否曾經覺得需要以程式設計方式調整 PSD 檔案中那些令人討厭的邊框？好吧，不用再擔心了！ Aspose.PSD for Java 可以解決這個問題，它提供了一種強大且用戶友好的方式來操作 PSD 檔案中的邊框資訊資源。這份全面的指南將逐步引導您完成整個過程，使您能夠以前所未有的方式控制您的邊界。
@@ -136,3 +142,9 @@ Aspose.PSD 針對效能進行了最佳化，但處理大型 PSD 檔案可能需�
 ### 我可以在哪裡找到更多資訊和支援？
 
 Aspose.PSD for Java 文件是關於 API 及其功能的深入詳細資訊的優秀資源。您也可以造訪 Aspose 論壇尋求協助並與其他開發人員互動。 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: วิธีเพิ่มการไล่ระดับสี Stroke
 linktitle: วิธีเพิ่มการไล่ระดับสี Stroke Layer ใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีเพิ่มและปรับแต่งการไล่ระดับสีเลเยอร์สโตรกในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java พร้อมบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้
-type: docs
 weight: 10
 url: /th/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# วิธีเพิ่มการไล่ระดับสี Stroke Layer ใน Java
+
 ## การแนะนำ
 เคยสงสัยบ้างไหมว่าจะเพิ่มการไล่ระดับสีเลเยอร์สโตรกให้กับรูปภาพของคุณโดยใช้ Java ได้อย่างไร? คุณอยู่ในสถานที่ที่เหมาะสม! วันนี้ เรากำลังดำดิ่งสู่โลกของ Aspose.PSD สำหรับ Java ซึ่งเป็นไลบรารีอันทรงพลังที่ช่วยให้คุณจัดการไฟล์ PSD ได้อย่างง่ายดาย ไม่ว่าคุณจะเป็นมือใหม่หรือนักพัฒนาที่มีประสบการณ์ คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดขั้นตอนการเพิ่มการไล่ระดับสีเลเยอร์เส้นขีดให้กับไฟล์ PSD ของคุณ ดังนั้น รัดเข็มขัดให้พร้อมและเตรียมพร้อมที่จะพัฒนาทักษะการแก้ไขกราฟิกของคุณ!
 ## ข้อกำหนดเบื้องต้น
@@ -156,3 +162,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารีที่ช
 ใช่ คุณสามารถใช้เอฟเฟ็กต์ต่างๆ เช่น เงา เรืองแสง และอื่นๆ โดยใช้ Aspose.PSD สำหรับ Java
 ### ฉันจะหาเอกสารสำหรับ Aspose.PSD สำหรับ Java ได้ที่ไหน
  คุณสามารถค้นหาเอกสาร[ที่นี่](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

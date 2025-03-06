@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET での影効果のサポート
 linktitle: 影の効果をサポートする
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET で画像を強化しましょう。影の効果をサポートする方法をステップごとに学習します。今すぐダウンロードして、視覚的に素晴らしい体験をお楽しみください。
-type: docs
 weight: 14
 url: /ja/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET での影効果のサポート
+
 ## 導入
 
 画像に影の効果を追加すると、視覚的な魅力が大幅に向上し、より没入感のあるユーザー エクスペリエンスを実現できます。Aspose.PSD for .NET は、画像内の影の効果をサポートする強力なソリューションを提供し、さまざまなパラメーターをカスタマイズして、必要な視覚効果を実現できます。
@@ -109,3 +115,9 @@ A2: はい、Aspose.PSD for .NET は幅広い PSD ファイル形式をサポー
 ### Q5: 購入前に Aspose.PSD for .NET を無料で試すことはできますか?
 
  A5: はい、無料試用版をこちらからダウンロードできます。[リリースページ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

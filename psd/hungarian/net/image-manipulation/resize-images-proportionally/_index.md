@@ -3,10 +3,16 @@ title: Képek arányos átméretezése az Aspose.PSD-ben .NET-hez
 linktitle: Képek arányos átméretezése
 second_title: Aspose.PSD .NET API
 description: Fedezze fel a zökkenőmentes képméretezést az Aspose.PSD for .NET segítségével. Töltse le a könyvtárat, kövesse oktatóanyagunkat, és javítsa képfeldolgozási képességeit.
-type: docs
 weight: 14
 url: /hu/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek arányos átméretezése az Aspose.PSD-ben .NET-hez
+
 képkezelés területén az Aspose.PSD for .NET hatékony eszköztárként tűnik ki, amely lehetővé teszi a fejlesztők számára a képek arányos egyszerű átméretezését. Ebben a részletes útmutatóban végigvezetjük a képek átméretezésén az Aspose.PSD for .NET használatával, így biztosítva, hogy képei hibátlanul megőrizzék arányaikat.
 
 ## Bevezetés
@@ -100,3 +106,9 @@ A2: Abszolút! Ezeket a lépéseket beépítheti egy hurokba több kép kötegel
 ### 5. kérdés: Hol találok támogatást az Aspose.PSD for .NET számára?
 
  A5: Látogassa meg a[Aspose.PSD .NET fórumhoz](https://forum.aspose.com/c/psd/34) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

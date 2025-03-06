@@ -3,10 +3,16 @@ title: Prise en charge du moniteur d'interruption dans les fichiers PSD - Java
 linktitle: Prise en charge du moniteur d'interruption dans les fichiers PSD - Java
 second_title: API Java Aspose.PSD
 description: Interrompez les conversions PSD de longue durée en Java à l'aide du moniteur d'interruption d'Aspose.PSD. Découvrez comment mettre en œuvre une interruption gracieuse et améliorer l'expérience utilisateur.
-type: docs
 weight: 24
 url: /fr/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du moniteur d'interruption dans les fichiers PSD - Java
+
 ## Introduction
 
 Ce guide complet vous fournira les connaissances nécessaires pour exploiter Interrupt Monitor dans vos applications Java. Nous examinerons les conditions préalables, vous guiderons dans l'importation des packages nécessaires et décomposerons le processus en instructions claires, étape par étape, à l'aide d'exemples de code. Alors, attachez votre ceinture et préparez-vous à prendre le contrôle de vos conversions PSD !
@@ -127,3 +133,9 @@ Bien que l'exemple se concentre sur la conversion PSD en PNG, Interrupt Monitor 
 ### L'utilisation d'Interrupt Monitor a-t-elle des implications en termes de performances ?
 
  La surcharge de performances liée à l’utilisation d’Interrupt Monitor est généralement minime. Cependant, la fréquence des contrôles d'interruption au sein de la`SaveImageWorker` peut avoir un impact sur les performances. Il est essentiel de trouver un équilibre entre réactivité et efficacité.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

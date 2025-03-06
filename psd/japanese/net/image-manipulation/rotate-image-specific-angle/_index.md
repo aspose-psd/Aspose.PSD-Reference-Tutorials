@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で画像を特定の角度に回転する
 linktitle: 特定の角度で画像を回転する
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET のパワーを体験してください。特定の角度で画像を簡単に回転できます。ライブラリをダウンロードして、シームレスな画像操作を開始してください。
-type: docs
 weight: 16
 url: /ja/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で画像を特定の角度に回転する
+
 .NET で画像操作の世界に足を踏み入れようとしている場合、Aspose.PSD は強力なソリューションを提供します。このチュートリアルでは、Aspose.PSD を使用して特定の角度で画像を回転するプロセスについて説明します。手順に進む前に、概要を説明して準備を整えましょう。
 
 ## 導入
@@ -104,3 +110,9 @@ A3: 必須ではありませんが、データをキャッシュすると、特�
 ### Q5: 購入前に Aspose.PSD を試すことはできますか?
 
  A5: もちろんです！[無料トライアル](https://releases.aspose.com/)ライブラリの機能を調べます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تطبيق طبقات الضبط في ملفات PSD باستخدام Jav
 linktitle: تطبيق طبقات الضبط في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تطبيق طبقات الضبط في ملفات PSD باستخدام Aspose.PSD لـ Java في هذا الدليل الكامل خطوة بخطوة للمطورين.
-type: docs
 weight: 15
 url: /ar/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق طبقات الضبط في ملفات PSD باستخدام Java
+
 ## مقدمة
 هل أنت مطور Java وتتطلع إلى تحسين الصور المخزنة في ملفات PSD؟ إذا كان الأمر كذلك، فأنت في المكان الصحيح! في هذه المقالة، سنستكشف كيفية تطبيق طبقات الضبط في ملفات PSD باستخدام مكتبة Aspose.PSD لـ Java. سواء كنت تعمل على مشروع شخصي أو تطبيق احترافي، فإن فهم كيفية التعامل مع ملفات PSD يمكن أن يؤدي إلى رفع قدرات برنامجك بشكل كبير. 
 
@@ -97,3 +103,9 @@ Aspose.PSD هي مكتبة تتيح للمطورين تحميل ملفات Photo
 يمكنك زيارة صفحة الوثائق[هنا](https://reference.aspose.com/psd/java/) لاستكشاف الميزات والفئات والأساليب.
 ### كيف يمكنني الحصول على الدعم لمنتجات Aspose؟
  يمكنك الوصول إلى الدعم عبر[منتدى Aspose](https://forum.aspose.com/c/psd/34) حيث يمكنك طرح الأسئلة وإيجاد الحلول.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

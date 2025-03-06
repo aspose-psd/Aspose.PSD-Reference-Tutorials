@@ -3,10 +3,16 @@ title: 使用 Java 在 PSD 文件中应用调整图层
 linktitle: 使用 Java 在 PSD 文件中应用调整图层
 second_title: Aspose.PSD Java API
 description: 在本面向开发人员的完整分步指南中，学习如何使用 Aspose.PSD for Java 在 PSD 文件中应用调整层。
-type: docs
 weight: 15
 url: /zh/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PSD 文件中应用调整图层
+
 ## 介绍
 您是想增强 PSD 文件中存储的图像的 Java 开发人员吗？如果是这样，那么您来对地方了！在本文中，我们将探讨如何使用 Java 的 Aspose.PSD 库在 PSD 文件中应用调整层。无论您是在处理个人项目还是专业应用程序，了解如何操作 PSD 文件都可以显著提升软件的功能。 
 
@@ -97,3 +103,9 @@ Aspose.PSD 是一个库，允许开发人员在 Java 应用程序中加载、操
 您可以访问文档页面[这里](https://reference.aspose.com/psd/java/)探索特征、类别和方法。
 ### 如何获得 Aspose 产品的支持？
 您可以通过以下方式获得支持[Aspose 论坛](https://forum.aspose.com/c/psd/34)您可以在这里提出问题并找到解决方案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

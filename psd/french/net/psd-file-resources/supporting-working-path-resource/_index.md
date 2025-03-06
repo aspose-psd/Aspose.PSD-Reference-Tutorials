@@ -3,10 +3,16 @@ title: Prise en charge de la ressource de chemin de travail dans Aspose.PSD pour
 linktitle: Ressource de chemin de travail de soutien
 second_title: API Aspose.PSD.NET
 description: Découvrez la puissance de « WorkingPathResource » dans Aspose.PSD pour .NET. Améliorez la précision de l'image avec ce guide étape par étape.
-type: docs
 weight: 12
 url: /fr/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de la ressource de chemin de travail dans Aspose.PSD pour .NET
+
 ## Introduction
 Si vous êtes un développeur .NET travaillant avec le traitement d'images, Aspose.PSD pour .NET est votre solution incontournable. Dans ce didacticiel, nous allons approfondir l'exploitation de la puissance de la ressource « WorkingPathResource » dans Aspose.PSD. Cette fonctionnalité cruciale améliore la précision de l’opération de recadrage, garantissant que vos images sont adaptées exactement selon vos besoins.
 ## Conditions préalables
@@ -88,3 +94,9 @@ Félicitations! Vous maîtrisez avec succès l’utilisation de « WorkingPathRe
 ### Q5 : Besoin d'un permis temporaire ?
 
  A5 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

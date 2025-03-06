@@ -3,10 +3,16 @@ title: Lưu hình ảnh vào đĩa bằng Aspose.PSD cho Java
 linktitle: Lưu hình ảnh vào đĩa
 second_title: API Java Aspose.PSD
 description: Lưu hình ảnh vào đĩa dễ dàng bằng Aspose.PSD cho Java. Một thư viện Java mạnh mẽ để thao tác với tệp PSD.
-type: docs
 weight: 15
 url: /vi/java/advanced-techniques/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu hình ảnh vào đĩa bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Aspose.PSD cho Java trao quyền cho các nhà phát triển xử lý các tệp PSD một cách dễ dàng. Lưu hình ảnh vào đĩa là một khía cạnh cơ bản của xử lý hình ảnh và Aspose.PSD hợp lý hóa hoạt động này. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào quy trình lưu hình ảnh bằng Aspose.PSD, đảm bảo bạn hiểu rõ về các bước cần thiết.
@@ -91,3 +97,9 @@ Câu trả lời 1: Có, Aspose.PSD cho Java hỗ trợ nhiều định dạng h
 ### Câu hỏi 5: Có giấy phép tạm thời cho Aspose.PSD dành cho Java không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

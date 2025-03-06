@@ -3,10 +3,16 @@ title: Ajouter une couleur de calque de trait dans Aspose.PSD pour Java
 linktitle: Ajouter une couleur de calque de trait
 second_title: API Java Aspose.PSD
 description: Explorez la puissance d'Aspose.PSD pour Java avec notre guide étape par étape sur l'ajout de couleur de calque de trait. Élevez vos créations graphiques sans effort.
-type: docs
 weight: 14
 url: /fr/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une couleur de calque de trait dans Aspose.PSD pour Java
+
 ## Introduction
 
 Libérez le potentiel de la conception graphique de votre application Java avec Aspose.PSD. Dans ce didacticiel, nous plongerons dans le monde fascinant de l'ajout de couleur de calque de trait à l'aide d'Aspose.PSD pour Java. Améliorez vos graphiques avec des traits éclatants, créant ainsi des designs visuellement attrayants sans effort.
@@ -120,3 +126,9 @@ A2 : Absolument ! Aspose.PSD suit le rythme des dernières spécifications de fo
 ### Q5 : Où puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
  A5 : Obtenez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour Aspose.PSD pour évaluer ses capacités dans vos projets.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

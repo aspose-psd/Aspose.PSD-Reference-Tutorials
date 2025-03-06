@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中支持背景颜色资源
 linktitle: 支持背景颜色资源
 second_title: Aspose.PSD .NET API
 description: 使用我们的分步指南掌握 Aspose.PSD for .NET。轻松处理 PSD 图像。立即下载免费试用版！
-type: docs
 weight: 10
 url: /zh/net/psd-file-resources/supporting-background-color-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中支持背景颜色资源
+
 ## 介绍
 随着我们深入研究全面的教程，释放 Aspose.PSD for .NET 的全部潜力。本指南将为您提供有效利用 Aspose.PSD 功能的知识。无论您是经验丰富的开发人员还是初学者，请跟随我们将每个方面分解为可管理的步骤，使您的 Aspose.PSD 之旅变得无缝衔接。
 ## 先决条件
@@ -89,3 +95,9 @@ A2：是的，您可以在商业和非商业项目中使用 Aspose.PSD。检查[
 ### Q5：如何取得临时驾照？
 
  A5：按照[临时执照页面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

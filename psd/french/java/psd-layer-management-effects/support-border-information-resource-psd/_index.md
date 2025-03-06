@@ -3,10 +3,16 @@ title: Prise en charge des ressources d'informations sur les frontières dans PS
 linktitle: Prise en charge des ressources d'informations sur les frontières dans PSD - Java
 second_title: API Java Aspose.PSD
 description: Maîtrisez la manipulation des bordures dans les fichiers PSD avec Aspose.PSD pour Java. Apprenez à modifier la largeur des bordures, les unités et bien plus encore grâce à des étapes faciles à suivre. Améliorez vos conceptions PSD par programmation.
-type: docs
 weight: 23
 url: /fr/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge des ressources d'informations sur les frontières dans PSD - Java
+
 ## Introduction
 
 Avez-vous déjà ressenti le besoin de modifier ces bordures embêtantes dans vos fichiers PSD par programmation ? Eh bien, ne vous inquiétez plus ! Aspose.PSD pour Java vient à la rescousse, offrant un moyen puissant et convivial de manipuler les ressources d'informations sur les frontières dans vos fichiers PSD. Ce guide complet vous guidera étape par étape tout au long du processus, vous permettant ainsi de prendre le contrôle de vos frontières comme jamais auparavant.
@@ -136,3 +142,9 @@ Aspose.PSD est optimisé pour les performances, mais la gestion de fichiers PSD 
 ### Où puis-je trouver plus d’informations et d’assistance ?
 
 La documentation Aspose.PSD pour Java est une excellente ressource pour des détails détaillés sur l'API et ses fonctionnalités. Vous pouvez également visiter les forums Aspose pour obtenir de l'aide et interagir avec d'autres développeurs. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

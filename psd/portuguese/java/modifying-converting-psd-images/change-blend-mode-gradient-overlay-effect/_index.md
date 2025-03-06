@@ -3,10 +3,16 @@ title: Alterar o modo de mesclagem no efeito de sobreposição de gradiente
 linktitle: Alterar o modo de mesclagem no efeito de sobreposição de gradiente
 second_title: API Java Aspose.PSD
 description: Aprenda como alterar o modo de mesclagem no efeito de sobreposição de gradiente com Aspose.PSD para Java. Guia passo a passo para criar gráficos impressionantes.
-type: docs
 weight: 19
 url: /pt/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alterar o modo de mesclagem no efeito de sobreposição de gradiente
+
 ## Introdução
 Você está procurando elevar seu jogo de design gráfico com algumas técnicas avançadas? Talvez você queira manipular camadas em seus arquivos do Photoshop de forma programática? Se sim, então você veio ao lugar certo! Neste tutorial, orientaremos você nas etapas para alterar o modo de mesclagem de um efeito de sobreposição de gradiente usando Aspose.PSD para Java. Seja você um desenvolvedor experiente ou um designer iniciante, você encontrará essas técnicas acessíveis e poderosas para seus projetos. 
 ## Pré-requisitos
@@ -77,3 +83,9 @@ Você pode realizar uma variedade de operações, incluindo edição de camadas,
  Sim! Você pode visitar o fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/psd/34) pela ajuda da comunidade e da equipe técnica.
 ### Posso comprar uma licença temporária para Aspose.PSD?
  Absolutamente! Você pode solicitar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para testar recursos completos sem restrições.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

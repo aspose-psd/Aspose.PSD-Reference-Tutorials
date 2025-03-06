@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Katmanlara Kontur Efektleri Ekleme
 linktitle: Katmanlara Kontur Efektleri Ekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile görüntü estetiğini geliştirin. Adım adım vuruş efektleri eklemeyi öğrenin. Ücretsiz deneme sürümünü şimdi indirin, satın alın veya deneyin.
-type: docs
 weight: 10
 url: /tr/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Katmanlara Kontur Efektleri Ekleme
+
 ## giriiş
 
 Aspose.PSD for .NET'te katmanlara kontur efektleri eklemeye yönelik bu adım adım eğitime hoş geldiniz. Kontur efektiyle görsellerinizin görsel çekiciliğini artırmak çok kolaydır ve Aspose.PSD, bunu .NET geliştiricileri için kusursuz hale getirir. Bu kılavuzda, bu güçlü özellikte uzmanlaşmanıza yardımcı olacak net adımlar ve örnekler sunarak süreç boyunca size yol göstereceğiz.
@@ -109,3 +115,9 @@ Cevap4: Evet, birden fazla PSD dosyası arasında geçiş yapabilir ve benzer bi
 ### S5: Aspose.PSD'yi satın almadan önce deneme sürümünü kullanabilir miyim?
 
  A5: Kesinlikle! Yakala[ücretsiz deneme](https://releases.aspose.com/) satın almadan önce Aspose.PSD'nin yeteneklerini keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

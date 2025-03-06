@@ -3,10 +3,16 @@ title: Convert PSB to PDF in Java
 linktitle: Convert PSB to PDF in Java
 second_title: Aspose.PSD Java API
 description: Learn how to convert PSD files to PDF in Java effortlessly using Aspose.PSD. Ideal for developers looking to streamline graphic file handling.
-type: docs
 weight: 11
 url: /java/java-psb-to-image-format-conversion/convert-psb-to-pdf-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert PSB to PDF in Java
+
 ## Introduction
 In the realm of Java development, handling and manipulating PSD (Photoshop Document) files efficiently is crucial for various applications. Aspose.PSD for Java provides robust capabilities to work with PSD files, enabling developers to convert PSD files into different formats like PDF seamlessly. This tutorial will guide you through the process of converting a PSD file (specifically a PSB file) into a PDF using Aspose.PSD for Java. Whether you're a seasoned developer or just starting with Java programming, this step-by-step guide will help you integrate this functionality into your projects effectively.
 ## Prerequisites
@@ -61,3 +67,10 @@ Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community su
 You can request a temporary license for testing purposes from [here](https://purchase.aspose.com/temporary-license/).
 ### What are the advantages of using Aspose.PSD for Java over other libraries?
 Aspose.PSD for Java offers comprehensive features for PSD manipulation with excellent performance and reliable support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

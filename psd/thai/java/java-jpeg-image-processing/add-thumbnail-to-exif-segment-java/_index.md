@@ -3,10 +3,16 @@ title: เพิ่มรูปขนาดย่อให้กับ EXIF Segm
 linktitle: เพิ่มรูปขนาดย่อให้กับ EXIF Segment ใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีปรับปรุงข้อมูลเมตาของรูปภาพด้วยภาพขนาดย่อโดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่นเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 10
 url: /th/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มรูปขนาดย่อให้กับ EXIF Segment ใน Java
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีปรับปรุงข้อมูลเมตาของรูปภาพโดยการเพิ่มภาพขนาดย่อให้กับส่วน EXIF โดยใช้ Aspose.PSD สำหรับ Java ข้อมูลเมตา EXIF (รูปแบบไฟล์ภาพที่แลกเปลี่ยนได้) มีบทบาทสำคัญในการถ่ายภาพดิจิทัล โดยให้ข้อมูลที่มีค่า เช่น การตั้งค่ากล้อง วันที่ และสถานที่ การเพิ่มภาพขนาดย่อช่วยปรับปรุงประสบการณ์ผู้ใช้ด้วยการดูตัวอย่างภาพอย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -66,3 +72,9 @@ image.save(dataDir + "output.psd");
  คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD ได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.PSD ได้อย่างไร
  สำหรับการสนับสนุนโปรดไปที่[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

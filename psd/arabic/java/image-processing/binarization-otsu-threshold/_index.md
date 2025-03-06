@@ -3,10 +3,16 @@ title: الثنائية مع عتبة Otsu في Aspose.PSD لـ Java
 linktitle: الثنائية مع عتبة أوتسو
 second_title: Aspose.PSD جافا API
 description: استكشف الثنائية باستخدام Otsu Threshold في Aspose.PSD لـ Java. تقنية قوية لتجزئة الصور.
-type: docs
 weight: 15
 url: /ar/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الثنائية مع عتبة Otsu في Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل المفصل خطوة بخطوة حول إجراء عملية Binarization باستخدام Otsu Threshold في Aspose.PSD لـ Java! في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من مكتبة Aspose.PSD لـ Java لتحسين قدرات معالجة الصور لديك. تعد الثنائية باستخدام Otsu Threshold تقنية قوية لتجزئة الصور، ومع Aspose.PSD، تصبح واضحة وفعالة.
@@ -103,3 +109,9 @@ A1: يعتبر Binarization باستخدام عتبة Otsu أسلوبًا يست
 ### س5: هل يتوفر ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

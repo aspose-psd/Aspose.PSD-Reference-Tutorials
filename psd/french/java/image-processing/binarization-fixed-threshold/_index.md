@@ -3,10 +3,16 @@ title: Binarisation avec seuil fixe dans Aspose.PSD pour Java
 linktitle: Binarisation avec seuil fixe
 second_title: API Java Aspose.PSD
 description: Explorez la binarisation avec seuil fixe dans Aspose.PSD pour Java. Transformez les images en toute transparence avec notre guide étape par étape.
-type: docs
 weight: 14
 url: /fr/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarisation avec seuil fixe dans Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le domaine du développement Java, Aspose.PSD s'avère être un outil puissant pour les tâches de traitement d'images. L'une de ces opérations essentielles est la binarisation, une technique qui simplifie les images en les convertissant sous forme binaire. Ce didacticiel vous guidera tout au long du processus de réalisation de la binarisation avec un seuil fixe à l'aide d'Aspose.PSD pour Java. Attachez votre ceinture pendant que nous explorons les étapes impliquées dans ce parcours transformateur de traitement d’image.
@@ -101,3 +107,9 @@ A1 : Oui, Aspose.PSD prend en charge différents formats d'image, ce qui rend la
 ### Q5 : Existe-t-il une version d'essai gratuite disponible ?
 
  A5 : Oui, vous pouvez explorer les capacités d'Aspose.PSD avec une version d'essai gratuite[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beskär bild efter rektangel i Aspose.PSD för Java
 linktitle: Beskär bild efter rektangel
 second_title: Aspose.PSD Java API
 description: Utforska de sömlösa bildbeskärningsfunktionerna i Java med Aspose.PSD. Följ vår steg-för-steg-guide för att beskära bilder utan ansträngning med Aspose.PSD för Java.
-type: docs
 weight: 15
 url: /sv/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beskär bild efter rektangel i Aspose.PSD för Java
+
 ## Introduktion
 
 I Java-utvecklingsvärlden är manipulering av bilder en vanlig uppgift, och Aspose.PSD för Java tillhandahåller en kraftfull lösning för bildbehandling. I den här handledningen kommer vi att guida dig genom processen att beskära en bild med en rektangel med Aspose.PSD för Java. Följ stegen nedan för att uppnå detta enkelt.
@@ -105,3 +111,9 @@ S1: Ja, Aspose.PSD för Java kan integreras med olika Java-ramverk, vilket ger f
 ### F5: Vilka bildformat stöds för beskärning i Aspose.PSD för Java?
 
 S5: Aspose.PSD för Java stöder olika bildformat, inklusive PSD, PNG, JPEG och mer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

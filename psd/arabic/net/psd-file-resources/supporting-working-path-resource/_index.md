@@ -3,10 +3,16 @@ title: دعم موارد مسار العمل في Aspose.PSD لـ .NET
 linktitle: دعم موارد مسار العمل
 second_title: Aspose.PSD.NET API
 description: اكتشف قوة 'WorkingPathResource' في Aspose.PSD لـ .NET. قم بتعزيز دقة الصورة باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم موارد مسار العمل في Aspose.PSD لـ .NET
+
 ## مقدمة
 إذا كنت مطور .NET تعمل على معالجة الصور، فإن Aspose.PSD for .NET هو الحل الأمثل لك. في هذا البرنامج التعليمي، سوف نتعمق في استغلال قوة مورد "WorkingPathResource" في Aspose.PSD. تعمل هذه الميزة المهمة على تحسين دقة عملية الاقتصاص، مما يضمن تصميم صورك حسب الحاجة تمامًا.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ using (var psdImage = (PsdImage)Image.Load(outputFile))
 ### س5: هل تحتاج إلى ترخيص مؤقت؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

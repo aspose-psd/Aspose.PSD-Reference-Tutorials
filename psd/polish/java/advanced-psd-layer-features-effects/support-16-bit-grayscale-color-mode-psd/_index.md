@@ -3,10 +3,16 @@ title: Obsługa 16-bitowego trybu kolorów w skali szarości w formacie PSD — 
 linktitle: Obsługa 16-bitowego trybu kolorów w skali szarości w formacie PSD — Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak zaimplementować 16-bitowy tryb kolorów w skali szarości w plikach PSD przy użyciu Aspose.PSD dla Java, korzystając ze szczegółowego samouczka krok po kroku.
-type: docs
 weight: 11
 url: /pl/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa 16-bitowego trybu kolorów w skali szarości w formacie PSD — Java
+
 ## Wstęp
 Kiedy nurkujesz w świecie projektowania graficznego i manipulacji obrazami, zrozumienie, jak pracować z różnymi trybami kolorów, jest jak posiadanie tajnej broni. W szczególności 16-bitowa skala szarości może zmienić zasady gry, nadając obrazom oszałamiającą głębię i szczegółowość, które naprawdę dodają im blasku. Czy jesteś gotowy na poznanie tej potężnej funkcji przy użyciu Aspose.PSD dla Java? Jeśli masz gotowy sprzęt do kodowania, przejdźmy od razu do niego.
 ## Warunki wstępne
@@ -126,3 +132,9 @@ Absolutnie! Aspose.PSD obsługuje różne tryby kolorów, dzięki czemu możesz 
  Możesz sprawdzić[dokumentacja](https://reference.aspose.com/psd/java/) aby uzyskać bardziej szczegółowe przykłady i samouczki.
 ### Jak kupić licencję na Aspose.PSD?
  Licencję możesz kupić odwiedzając stronę[Strona zakupu Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

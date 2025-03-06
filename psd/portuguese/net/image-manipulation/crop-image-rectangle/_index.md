@@ -3,10 +3,16 @@ title: Cortando imagens por retângulo em Aspose.PSD para .NET
 linktitle: Cortar imagens por retângulo
 second_title: API Aspose.PSD .NET
 description: Aprimore suas habilidades de manipulação de imagens .NET com Aspose.PSD. Aprenda o corte de imagens passo a passo usando retângulos para maior precisão.
-type: docs
 weight: 11
 url: /pt/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cortando imagens por retângulo em Aspose.PSD para .NET
+
 ## Introdução
 
 No domínio da programação .NET, manipular e aprimorar imagens é uma tarefa comum, e Aspose.PSD para .NET é uma biblioteca poderosa que simplifica esse processo. Este tutorial se concentra em uma técnica de manipulação de imagem fundamental, porém crucial: cortar imagens em um retângulo. Ao final deste guia, você terá um conhecimento sólido de como cortar imagens com precisão usando Aspose.PSD para .NET.
@@ -110,3 +116,9 @@ A3: Aspose.PSD para .NET foi projetado para lidar com imagens de vários tamanho
 ### P5: Onde posso encontrar suporte ou assistência adicional?
 
  A5: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34)para se conectar com a comunidade e buscar apoio.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

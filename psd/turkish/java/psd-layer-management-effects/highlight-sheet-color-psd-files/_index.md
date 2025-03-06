@@ -3,10 +3,16 @@ title: Aspose.PSD Java kullanarak PSD Dosyalarında Sayfa Rengini Vurgulayın
 linktitle: Aspose.PSD Java kullanarak PSD Dosyalarında Sayfa Rengini Vurgulayın
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak PSD dosyalarındaki sayfa renklerini nasıl vurgulayacağınızı öğrenin. Java'da görüntü işleme becerilerinizi geliştirmek için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 19
 url: /tr/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java kullanarak PSD Dosyalarında Sayfa Rengini Vurgulayın
+
 ## giriiş
 
 Java kullanarak görüntü manipülasyonuna dalmak ve dijital yaratımlarınızı geliştirmek mi istiyorsunuz? İster deneyimli bir geliştirici olun ister yeni başlıyor olun, PSD dosyalarıyla çalışmak bir olasılıklar dünyasının kapılarını açabilir. PSD dosyaları, katmanlı görüntü düzenlemede endüstri standardıdır ve Aspose.PSD for Java'nın gücüyle, bu dosyaları Java uygulamalarınızda zahmetsizce değiştirebilirsiniz. Bugün, tasarımlarınızın mümkün olan en canlı şekilde öne çıkmasını sağlamak için PSD dosyalarındaki sayfa renklerini nasıl vurgulayacağınızı anlatacağız.
@@ -142,3 +148,9 @@ Değişiklikler bir dosyaya kaydedildikten sonra geri alınamaz. Ancak, gerekti�
 
 ### Bir PSD dosyasında aynı anda birden fazla katmanı vurgulayabilir miyim?
 Evet, bir PSD dosyasındaki katmanlar arasında geçiş yapabilir ve istediğiniz sayfa rengi vurgusunu her katmana ayrı ayrı uygulayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

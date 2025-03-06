@@ -3,10 +3,16 @@ title: Vẽ đường trong Java
 linktitle: Vẽ đường trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách vẽ đường trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn toàn diện này. Nâng cao kỹ năng phát triển Java của bạn.
-type: docs
 weight: 16
 url: /vi/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ đường trong Java
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, việc thao tác và tạo các tệp PSD (Tài liệu Photoshop) theo chương trình là một khả năng mạnh mẽ. Aspose.PSD cho Java trao quyền cho các nhà phát triển thực hiện nhiều tác vụ khác nhau như vẽ đường, hình dạng và hình ảnh trực tiếp trong tệp PSD. Hướng dẫn này sẽ hướng dẫn bạn quy trình vẽ đường bằng Aspose.PSD cho Java, cung cấp các bước và ví dụ rõ ràng để giúp bạn bắt đầu nhanh chóng.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Aspose.PSD for Java là một thư viện Java mạnh mẽ để làm việc v�
  Để được hỗ trợ kỹ thuật, hãy truy cập[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
 ### Tôi có thể lấy giấy phép tạm thời cho Aspose.PSD cho Java ở đâu?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

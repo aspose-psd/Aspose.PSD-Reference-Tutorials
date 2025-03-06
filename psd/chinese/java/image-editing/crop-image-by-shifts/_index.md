@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中通过 Shifts 裁剪图像
 linktitle: 通过 Shift 裁剪图片
 second_title: Aspose.PSD Java API
 description: 掌握使用 Aspose.PSD for Java 进行图像裁剪。无缝图像处理的综合教程。
-type: docs
 weight: 16
 url: /zh/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中通过 Shifts 裁剪图像
+
 ## 介绍
 
 在基于 Java 的图像处理领域，Aspose.PSD 是一款功能强大的工具，能够以极高的精度处理和增强图像。Aspose.PSD 的一大特色是它能够无缝地执行图像裁剪。在本教程中，我们将深入研究使用 Aspose.PSD for Java 进行图像裁剪的技巧。最后，您将掌握根据您的要求轻松裁剪图像的技能。
@@ -115,3 +121,10 @@ A2：当然可以，您可以在同一张图像上连续执行多次裁剪操作
 ### Q5：有没有展示 Aspose.PSD 功能的示例项目？
 
  A5：浏览以下文档和示例[Aspose.PSD Java 文档](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

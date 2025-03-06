@@ -3,10 +3,16 @@ title: Handling PSD Image Timeline in Aspose.PSD for .NET
 linktitle: Handling PSD Image Timeline
 second_title: Aspose.PSD .NET API
 description: Learn to handle PSD image timelines effortlessly using Aspose.PSD for .NET. Add frames, switch seamlessly, and enhance your image editing skills.
-type: docs
 weight: 17
 url: /net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling PSD Image Timeline in Aspose.PSD for .NET
+
 ## Introduction
 In the dynamic world of image processing, Aspose.PSD for .NET stands out as a powerful toolkit, providing robust solutions for handling PSD image timelines. Whether you're a seasoned developer or a coding enthusiast, this tutorial will guide you through the process of utilizing Aspose.PSD to manipulate image timelines with ease.
 ## Prerequisites
@@ -80,3 +86,10 @@ A4: Refer to the documentation [here](https://reference.aspose.com/psd/net/).
 ### Q5: Need assistance or have questions?
 
 A5: Visit the Aspose.PSD community forum [here](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

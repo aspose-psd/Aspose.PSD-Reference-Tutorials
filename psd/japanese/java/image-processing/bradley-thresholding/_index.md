@@ -3,10 +3,16 @@ title: Aspose.PSD for Java での Bradley しきい値処理
 linktitle: ブラッドリー閾値
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java の Bradley しきい値処理を使用して画像の品質を向上させます。効果的な画像の 2 値化については、ステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 16
 url: /ja/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java での Bradley しきい値処理
+
 ## 導入
 
 Aspose.PSD for Java で Bradley しきい値処理を実装するための包括的なガイドへようこそ。このチュートリアルでは、Bradley しきい値処理を適用して画像の品質を向上させるプロセスについて説明します。Aspose.PSD for Java は、画像処理用の強力なツール セットを提供し、Bradley しきい値処理は画像の 2 値化に役立つ手法です。
@@ -99,3 +105,9 @@ A4: はい、変更を保存する前に、Aspose.PSD が提供する追加の�
 ### Q5: さらなるサポートやリソースはどこで見つかりますか?
 
  A5: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティのサポートと探索[ドキュメント](https://reference.aspose.com/psd/java/)詳細情報については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

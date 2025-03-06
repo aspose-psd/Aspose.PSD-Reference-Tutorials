@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中指定 PNG 位深度
 linktitle: 在 Aspose.PSD for Java 中指定 PNG 位深度
 second_title: Aspose.PSD Java API
 description: 在本详细的分步教程中学习如何使用 Aspose.PSD for Java 指定 PNG 位深度。
-type: docs
 weight: 14
 url: /zh/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中指定 PNG 位深度
+
 ## 介绍
 您是否希望使用 Aspose.PSD for Java 来提高图像处理技能？您来对地方了！本教程将指导您在将 PSD 文件转换为 PNG 格式时指定 PNG 位深度的过程。借助 Aspose.PSD，您会发现处理图像非常简单。无论您是在开发小型个人项目还是大型应用程序，通过位深度控制图像质量都会对最终输出产生重大影响。
 ## 先决条件
@@ -74,3 +80,9 @@ Aspose.PSD for Java 是一个用于在 Java 应用程序中处理 PSD 文件的�
 您可以申请临时驾照[这里](https://purchase.aspose.com/temporary-license/).
 ### 我可以转换什么类型的图像？
 Aspose.PSD 主要处理 PSD 文件，但它支持转换为 PNG、JPEG 和 TIFF 等各种格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

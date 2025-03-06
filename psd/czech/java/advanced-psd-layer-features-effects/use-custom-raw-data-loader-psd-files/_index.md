@@ -3,10 +3,16 @@ title: Použijte Custom Raw Data Loader v souborech PSD - Java
 linktitle: Použijte Custom Raw Data Loader v souborech PSD - Java
 second_title: Aspose.PSD Java API
 description: Naučte se používat vlastní zavaděč nezpracovaných dat v souborech PSD s Javou! Tento podrobný průvodce pokrývá vše od nastavení až po vyčištění zdrojů.
-type: docs
 weight: 29
 url: /cs/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použijte Custom Raw Data Loader v souborech PSD - Java
+
 ## Zavedení
 Práce se soubory PSD v Javě se může zdát zdrcující, zejména pokud jde o zpracování nezpracovaných dat. Neboj se! Pomocí Aspose.PSD for Java můžete snadno manipulovat a extrahovat nezpracovaná pixelová data ze souborů PSD pomocí vlastních zavaděčů. Tato příručka vám pomůže krok za krokem projít procesem implementace vlastního zavaděče nezpracovaných dat. Pokryjeme všechny nezbytné předpoklady, naimportujeme požadované balíčky a rozdělíme kód do zvládnutelných kroků, které lze snadno dodržet.
 ## Předpoklady
@@ -90,3 +96,9 @@ Aspose.PSD for Java je knihovna, která vývojářům umožňuje programově man
  Pro podporu a pomoc komunity můžete navštívit stránku[Aspose fórum](https://forum.aspose.com/c/psd/34).
 ### Jak mohu získat dočasnou licenci pro Aspose.PSD?  
 Dočasnou licenci k vyhodnocení všech funkcí můžete získat návštěvou stránky[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

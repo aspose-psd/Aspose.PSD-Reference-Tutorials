@@ -3,10 +3,16 @@ title: Java를 사용하여 이미지를 PSD 형식으로 내보내기
 linktitle: Java를 사용하여 이미지를 PSD 형식으로 내보내기
 second_title: Aspose.PSD 자바 API
 description: 간단한 단계별 가이드를 통해 Java용 Aspose.PSD를 사용하여 이미지를 PSD 형식으로 내보내는 방법을 알아보세요. 개발자와 그래픽 디자이너에게 적합합니다.
-type: docs
 weight: 11
 url: /ko/java/psd-image-modification-conversion/export-images-psd-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 이미지를 PSD 형식으로 내보내기
+
 ## 소개
 
 그래픽 디자인 영역에서는 레이어 이미지 작업이 필수적이며 Adobe Photoshop의 PSD 형식은 전문가들이 선호하는 형식이 되었습니다. "Java를 사용하여 이 형식으로 이미지를 어떻게 조작하고 저장할 수 있습니까?"라고 자문할 수도 있습니다. 글쎄, 당신은 바로 이곳에 있어요! 이 튜토리얼에서는 Java용 Aspose.PSD의 기능을 활용하여 PSD 형식의 이미지를 원활하게 생성하고 내보내는 방법을 살펴보겠습니다. 그럼 편안하게 간식을 드시고 이미지 처리의 세계로 빠져보세요!
@@ -117,3 +123,9 @@ Aspose.PSD for Java는 Java 애플리케이션에서 Photoshop PSD 파일 작업
 
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
  지원을 받으려면 다음을 방문하세요.[포럼을 Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

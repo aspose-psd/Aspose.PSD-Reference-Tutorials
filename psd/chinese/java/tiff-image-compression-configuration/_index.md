@@ -3,10 +3,16 @@ title: TIFF 图像压缩和配置
 linktitle: TIFF 图像压缩和配置
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 高效管理 TIFF 图像。通过我们的分步教程学习如何压缩、配置和将 Adobe Deflate 压缩应用于 TIFF 文件。
-type: docs
 weight: 25
 url: /zh/java/tiff-image-compression-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# TIFF 图像压缩和配置
+
 ## 介绍
 
 管理 TIFF 图像可能很棘手，但使用 Aspose.PSD for Java，您可以轻松处理这些任务。无论您需要压缩 TIFF 文件、配置选项还是应用 Adobe Deflate 等特定压缩技术，我们的教程都会提供全面的指导来简化这些过程。下面介绍如何充分利用 Aspose.PSD for Java 来满足您的 TIFF 图像管理需求。
@@ -36,3 +42,9 @@ TIFF 文件以高质量而闻名，但可能非常大。为了解决这个问题
 了解如何使用 Aspose.PSD for Java 将 Adobe Deflate 压缩应用于 TIFF 图像。高效图像处理的分步指南。
 ### [使用 Java 对 TIFF 文件应用 Deflate 压缩](./apply-deflate-compression-tiff-files/)
 了解如何使用 Aspose.PSD for Java 对 TIFF 文件应用 deflate 压缩。按照我们的分步指南，有效减小文件大小而不损失质量。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

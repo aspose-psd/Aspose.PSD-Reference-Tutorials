@@ -3,10 +3,16 @@ title: 使用 Java 支援 PSD 檔案中的 SoCo 資源
 linktitle: 使用 Java 支援 PSD 檔案中的 SoCo 資源
 second_title: Aspose.PSD Java API
 description: 透過此逐步教學，了解如何使用 Aspose.PSD for Java 操作 PSD 檔案中的 SoCo 資源。
-type: docs
 weight: 22
 url: /zh-hant/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 支援 PSD 檔案中的 SoCo 資源
+
 ## 介紹
 使用 PSD 檔案有點像在複雜的迷宮中導航，尤其是當您深入研究錯綜複雜的圖層和資源時。幸運的是，Aspose.PSD for Java 等工具可以簡化此過程，使開發人員能夠以程式設計方式操作 Photoshop 檔案。在本教程中，我們將介紹如何使用 Java 支援 PSD 檔案中的 SoC 資源，讓您的生活變得更加輕鬆。 
 無論您是經驗豐富的開發人員還是剛剛涉足影像處理領域，本指南都會將複雜性分解為易於理解的步驟，確保您在充分理解的情況下完成您的旅程。
@@ -111,3 +117,9 @@ Aspose.PSD for Java 是一個函式庫，允許開發人員在其 Java 應用程
 是的，有專門的[支援論壇](https://forum.aspose.com/c/psd/34).
 ### 我可以在 PSD 檔案中操作哪些類型的資源？
 您可以操作各種資源，包括 PSD 檔案中的圖層、填滿圖層和 SoC 資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

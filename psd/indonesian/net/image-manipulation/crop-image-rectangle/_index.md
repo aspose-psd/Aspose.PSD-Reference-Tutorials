@@ -3,10 +3,16 @@ title: Memotong Gambar berdasarkan Rectangle di Aspose.PSD untuk .NET
 linktitle: Memotong Gambar berdasarkan Persegi Panjang
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan keterampilan manipulasi gambar .NET Anda dengan Aspose.PSD. Pelajari pemotongan gambar langkah demi langkah menggunakan persegi panjang untuk presisi.
-type: docs
 weight: 11
 url: /id/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memotong Gambar berdasarkan Rectangle di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Di bidang pemrograman .NET, memanipulasi dan menyempurnakan gambar adalah tugas umum, dan Aspose.PSD untuk .NET adalah perpustakaan canggih yang menyederhanakan proses ini. Tutorial ini berfokus pada teknik manipulasi gambar yang mendasar namun penting – memotong gambar dengan persegi panjang. Di akhir panduan ini, Anda akan memiliki pemahaman yang kuat tentang cara memotong gambar dengan presisi menggunakan Aspose.PSD untuk .NET.
@@ -110,3 +116,9 @@ A3: Aspose.PSD untuk .NET dirancang untuk menangani gambar dengan berbagai ukura
 ### Q5: Di mana saya bisa mendapatkan dukungan atau bantuan tambahan?
 
  A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34)untuk terhubung dengan komunitas dan mencari dukungan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

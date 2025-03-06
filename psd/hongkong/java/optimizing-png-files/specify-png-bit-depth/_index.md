@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中指定 PNG 位元深度
 linktitle: 在 Aspose.PSD for Java 中指定 PNG 位元深度
 second_title: Aspose.PSD Java API
 description: 在此詳細的逐步教學中了解如何使用 Aspose.PSD for Java 指定 PNG 位元深度。
-type: docs
 weight: 14
 url: /zh-hant/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中指定 PNG 位元深度
+
 ## 介紹
 您是否希望使用 Aspose.PSD for Java 來提升您的影像處理技能？您來對地方了！本教學將引導您完成在將 PSD 檔案轉換為 PNG 格式時指定 PNG 位元深度的過程。在Aspose.PSD的幫助下，您會發現操作圖像非常簡單。無論您是開發小型個人專案還是大型應用程序，透過位元深度控制影像品質都會顯著影響最終輸出。
 ## 先決條件
@@ -74,3 +80,9 @@ Aspose.PSD for Java 是一個用於在 Java 應用程式中處理 PSD 檔案的�
 如需臨時許可證，您可以申請[這裡](https://purchase.aspose.com/temporary-license/).
 ### 我可以轉換什麼類型的圖像？
 Aspose.PSD 主要處理 PSD 文件，但它支援轉換為各種格式，如 PNG、JPEG 和 TIFF。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ubah Ukuran Gambar Secara Proporsional dengan Aspose.PSD untuk Java
 linktitle: Ubah Ukuran Gambar Secara Proporsional
 second_title: Asumsikan.PSD Java API
 description: Sempurnakan aplikasi Java Anda dengan Aspose.PSD. Ikuti panduan kami untuk mengubah ukuran gambar secara proporsional dengan mudah. Tingkatkan kemampuan penanganan gambar Anda hari ini.
-type: docs
 weight: 17
 url: /id/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Ukuran Gambar Secara Proporsional dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang mengubah ukuran gambar secara proporsional menggunakan Aspose.PSD untuk Java. Jika Anda ingin menyempurnakan aplikasi Java dengan kemampuan pengubahan ukuran gambar yang efisien, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui proses menggunakan langkah-langkah yang jelas dan ringkas.
@@ -92,3 +98,9 @@ Dalam tutorial ini, kami membahas langkah-langkah penting untuk mengubah ukuran 
 
  A5: Lihat dokumentasi rinci[Di Sini](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

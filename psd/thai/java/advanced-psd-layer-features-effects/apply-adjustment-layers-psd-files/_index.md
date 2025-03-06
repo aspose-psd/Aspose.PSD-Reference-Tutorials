@@ -3,10 +3,16 @@ title: ใช้เลเยอร์การปรับในไฟล์ PSD
 linktitle: ใช้เลเยอร์การปรับในไฟล์ PSD โดยใช้ Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีใช้เลเยอร์การปรับในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ในคำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
-type: docs
 weight: 15
 url: /th/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้เลเยอร์การปรับในไฟล์ PSD โดยใช้ Java
+
 ## การแนะนำ
 คุณเป็นนักพัฒนา Java ที่ต้องการปรับปรุงภาพที่จัดเก็บไว้ในไฟล์ PSD หรือไม่? ถ้าเป็นเช่นนั้น คุณมาถูกที่แล้ว! ในบทความนี้ เราจะสำรวจวิธีการใช้เลเยอร์การปรับในไฟล์ PSD โดยใช้ไลบรารี Aspose.PSD สำหรับ Java ไม่ว่าคุณจะทำงานในโครงการส่วนตัวหรือแอปพลิเคชันระดับมืออาชีพ การทำความเข้าใจวิธีจัดการไฟล์ PSD สามารถยกระดับความสามารถของซอฟต์แวร์ของคุณได้อย่างมาก 
 
@@ -97,3 +103,9 @@ Aspose.PSD เป็นไลบรารีที่ช่วยให้นั
 คุณสามารถเยี่ยมชมหน้าเอกสารประกอบ[ที่นี่](https://reference.aspose.com/psd/java/) เพื่อสำรวจคุณสมบัติ คลาส และวิธีการ
 ### ฉันจะรับการสนับสนุนสำหรับผลิตภัณฑ์ Aspose ได้อย่างไร
  คุณสามารถเข้าถึงการสนับสนุนผ่านทาง[ฟอรั่ม Aspose](https://forum.aspose.com/c/psd/34) ที่คุณสามารถถามคำถามและค้นหาแนวทางแก้ไขได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 文件保存和导出
 linktitle: 文件保存和导出
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 轻松掌握图像保存和导出。按照我们的分步教程进行高效的磁盘和流操作。
-type: docs
 weight: 23
 url: /zh/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文件保存和导出
+
 ## 介绍
 
 如果您曾经在 .NET 项目中遇到过保存和导出图像的复杂问题，那么您并不孤单。数字领域需要精确度，而当涉及到图像时，这个过程就变得更加关键。幸运的是，Aspose.PSD for .NET 可以简化您的旅程，提供将图像保存到磁盘和流的无缝解决方案。
@@ -32,3 +38,9 @@ url: /zh/net/file-saving-and-exporting/
 探索 Aspose.PSD for .NET 的强大功能，并学习如何轻松将图像保存到流中。按照我们的分步指南进行无缝集成。
 ### [在 Aspose.PSD for .NET 中使用 Save Image Worker](./save-image-worker/)
 学习使用 Aspose.PSD for .NET 的 Save Image Worker 进行无缝图像格式转换和中断处理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

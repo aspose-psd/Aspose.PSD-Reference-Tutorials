@@ -3,10 +3,16 @@ title: Ange PNG-bitdjup i Aspose.PSD för Java
 linktitle: Ange PNG-bitdjup i Aspose.PSD för Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du anger PNG-bitdjup med Aspose.PSD för Java i denna detaljerade steg-för-steg-handledning.
-type: docs
 weight: 14
 url: /sv/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange PNG-bitdjup i Aspose.PSD för Java
+
 ## Introduktion
 Vill du förbättra dina färdigheter i bildbehandling med Aspose.PSD för Java? Du är på rätt plats! Denna handledning guidar dig genom processen att ange PNG-bitdjup medan du konverterar PSD-filer till PNG-format. Med hjälp av Aspose.PSD kommer du att upptäcka att det är ganska enkelt att manipulera dina bilder. Oavsett om du utvecklar ett litet personligt projekt eller en större applikation, kan kontroll av bildkvaliteten genom bitdjup påverka den slutliga produktionen avsevärt.
 ## Förutsättningar
@@ -74,3 +80,9 @@ Ja, du kan prova biblioteket med en gratis provperiod som du kan hitta[här](htt
  För en tillfällig licens kan du ansöka[här](https://purchase.aspose.com/temporary-license/).
 ### Vilken typ av bilder kan jag konvertera?
 Aspose.PSD handlar främst om PSD-filer, men det stöder konvertering till olika format som PNG, JPEG och TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: دعم مراقبة المقاطعة في ملفات PSD - Java
 linktitle: دعم مراقبة المقاطعة في ملفات PSD - Java
 second_title: Aspose.PSD جافا API
 description: قم بمقاطعة تحويلات PSD طويلة الأمد في Java باستخدام Aspose.PSD's Interrupt Monitor. تعرف على كيفية تنفيذ المقاطعة الرشيقة وتحسين تجربة المستخدم.
-type: docs
 weight: 24
 url: /ar/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم مراقبة المقاطعة في ملفات PSD - Java
+
 ## مقدمة
 
 سيزودك هذا الدليل الشامل بالمعرفة اللازمة للاستفادة من Interrupt Monitor في تطبيقات Java الخاصة بك. سنتعمق في المتطلبات الأساسية، ونرشدك خلال عملية استيراد الحزم الضرورية، ونقسم العملية إلى تعليمات واضحة خطوة بخطوة باستخدام أمثلة التعليمات البرمجية. لذا، استعد واستعد للتحكم في تحويلات PSD الخاصة بك!
@@ -127,3 +133,9 @@ if (outputFile.exists()) {
 ### هل هناك أي آثار على الأداء لاستخدام مراقب المقاطعة؟
 
  يكون عبء الأداء الناتج عن استخدام "مراقبة المقاطعة" ضئيلًا بشكل عام. ومع ذلك، فإن تكرار عمليات التحقق من المقاطعة داخل`SaveImageWorker` يمكن أن تؤثر على الأداء. من الضروري تحقيق التوازن بين الاستجابة والكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

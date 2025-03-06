@@ -3,10 +3,16 @@ title: Java'daki Tüm EXIF Etiket Listesini Okuyun
 linktitle: Java'daki Tüm EXIF Etiket Listesini Okuyun
 second_title: Aspose.PSD Java API'si
 description: Kapsamlı eğitimimiz ve kod örneklerimiz ile Aspose.PSD for Java kullanarak PSD dosyalarından EXIF meta verilerini nasıl çıkaracağınızı öğrenin.
-type: docs
 weight: 16
 url: /tr/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'daki Tüm EXIF Etiket Listesini Okuyun
+
 ### giriiş
 Java geliştirme alanında, PSD dosyalarını yönetmek ve değiştirmek birçok uygulama için çok önemli bir gerekliliktir. Aspose.PSD for Java, Photoshop Belgesi (PSD) dosyalarının programlı olarak işlenmesi için güçlü bir çözüm sunarak geliştiricilere PSD dosyalarını sorunsuz bir şekilde okumak, yazmak ve değiştirmek için bir araç paketi sunar. Bu eğitim, Aspose.PSD for Java kullanarak bir PSD dosyasındaki tüm EXIF etiketlerini okuma sürecinde size rehberlik edecektir. Sonunda, PSD görüntülerine gömülü EXIF meta verilerinin nasıl çıkarılacağı ve kullanılacağı konusunda net bir anlayışa sahip olacaksınız.
 ### Önkoşullar
@@ -60,3 +66,9 @@ Aspose.PSD for Java, Java geliştiricilerinin Photoshop'un kurulu olmasına gere
 Evet, hem PSD dosyalarından okumayı hem de PSD dosyalarına yazmayı destekler.
 ### Aspose.PSD for Java desteğini nereden alabilirim?
  Destek için şu adresi ziyaret edin:[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

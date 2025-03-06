@@ -3,10 +3,16 @@ title: Добавление эффектов обводки к слоям в Asp
 linktitle: Добавление эффектов обводки к слоям
 second_title: Aspose.PSD .NET API
 description: Улучшите эстетику изображений с помощью Aspose.PSD для .NET. Научитесь добавлять эффекты обводки шаг за шагом. Загрузите, купите или попробуйте бесплатную пробную версию прямо сейчас.
-type: docs
 weight: 10
 url: /ru/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление эффектов обводки к слоям в Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по добавлению эффектов обводки к слоям в Aspose.PSD для .NET. Улучшить визуальную привлекательность ваших изображений очень просто с помощью эффекта обводки, а Aspose.PSD упрощает эту задачу для разработчиков .NET. В этом руководстве мы покажем вам весь процесс, предоставив четкие инструкции и примеры, которые помогут вам освоить эту мощную функцию.
@@ -109,3 +115,9 @@ colorFillSettings.Color = Color.Green;
 ### В5: Могу ли я использовать пробную версию перед покупкой Aspose.PSD?
 
  А5: Конечно! Возьмите[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить возможности Aspose.PSD перед покупкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

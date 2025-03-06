@@ -3,10 +3,16 @@ title: Végezzen egyszerű átméretezést az Aspose.PSD for Java segítségéve
 linktitle: Végezzen egyszerű átméretezést
 second_title: Aspose.PSD Java API
 description: Ismerje meg a képek programozott átméretezését az Aspose.PSD for Java segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony képkezelés érdekében.
-type: docs
 weight: 11
 url: /hu/java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Végezzen egyszerű átméretezést az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 A mai oktatóanyagban az Aspose.PSD for Java segítségével történő egyszerű képátméretezés folyamatába fogunk belemenni, amely egy hatékony könyvtár, amely megkönnyíti a hatékony képkezelést. Ha Ön Java-fejlesztő, aki zökkenőmentes módot keres a képek programozott átméretezésére, akkor jó helyen jár.
@@ -101,3 +107,9 @@ A1: Abszolút! A mellékelt oktatóanyag bemutatja, hogyan lehet átméretezni a
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) segítségért és közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD Java 支援 PSD 檔案中的剪切遮罩
 linktitle: 使用 Aspose.PSD Java 支援 PSD 檔案中的剪切遮罩
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 支援 PSD 檔案中的剪貼蒙版。按照我們的逐步指南輕鬆操作 PSD 影像。
-type: docs
 weight: 16
 url: /zh-hant/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD Java 支援 PSD 檔案中的剪切遮罩
+
 ## 介紹
 在當今的數位藝術和設計時代，Adobe Photoshop 的 PSD 檔案是創造力的基石。這些文件允許設計人員使用圖層、蒙版和各種效果來實現他們的願景。但是，當您需要以程式設計方式操作這些文件時會發生什麼？這就是 Aspose.PSD for Java 發揮作用的地方！它是一個強大的庫，可讓您輕鬆管理和操作 PSD 檔案。在本教程中，我們將詳細了解如何使用 Aspose.PSD for Java 支援 PSD 檔案中的剪切遮罩。 
 ## 先決條件
@@ -73,3 +79,9 @@ im.dispose();
 是的！您可以存取 Aspose.PSD 的免費試用版[這裡](https://releases.aspose.com/).
 ### 如何獲得 Aspose.PSD 問題的支援？
 對於任何疑問或問題，您可以透過 Aspose 論壇獲得支持[這裡](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

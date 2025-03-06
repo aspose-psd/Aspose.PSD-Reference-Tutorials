@@ -3,10 +3,16 @@ title: PNG fájlok optimalizálása
 linktitle: PNG fájlok optimalizálása
 second_title: Aspose.PSD Java API
 description: Fedezze fel az átfogó oktatóanyagokat a PNG-fájlok optimalizálásához az Aspose.PSD for Java használatával, beleértve a szűrőket, a háttérszín módosításait, a tömörítést, a felbontást, a bitmélységet és az átlátszóságot.
-type: docs
 weight: 20
 url: /hu/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PNG fájlok optimalizálása
+
 ## Bevezetés
 
 Szeretné elsajátítani a PNG-fájlok optimalizálását az Aspose.PSD for Java segítségével? Részletes oktatóanyagaink mindent lefednek, amit tudnod kell a képek ragyogásához. A szűrők alkalmazásától a háttérszín megváltoztatásáig és a fájlok tömörítésétől a felbontások beállításáig ez az útmutató mindenre kiterjed. Lépésről lépésre merüljön el az egyes témákban, hogy a legtöbbet hozza ki PNG-fájljaiból!
@@ -48,3 +54,9 @@ Fedezze fel, hogyan állíthat be PNG-fájlfelbontást az Aspose.PSD for Java ha
 Ebben a részletes, lépésenkénti oktatóanyagban megtudhatja, hogyan adhat meg PNG bitmélységet az Aspose.PSD for Java használatával.
 ### [Állítsa be a PNG átlátszóságát az Aspose.PSD for Java fájlban](./set-png-transparency/)
 Ismerje meg, hogyan állíthatja be a PNG átlátszóságát az Aspose.PSD for Java alkalmazásban egy egyszerű, lépésről lépésre bemutatott oktatóanyag segítségével. Tökéletes fejlesztők és grafikusok számára.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

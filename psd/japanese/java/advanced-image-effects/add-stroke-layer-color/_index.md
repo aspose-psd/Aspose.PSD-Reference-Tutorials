@@ -3,10 +3,16 @@ title: Aspose.PSD for Java でストローク レイヤーの色を追加する
 linktitle: ストロークレイヤーカラーを追加
 second_title: Aspose.PSD Java API
 description: ストローク レイヤー カラーの追加に関するステップ バイ ステップ ガイドを使用して、Aspose.PSD for Java のパワーを体験してください。グラフィック デザインを簡単に向上できます。
-type: docs
 weight: 14
 url: /ja/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java でストローク レイヤーの色を追加する
+
 ## 導入
 
 Aspose.PSD を使用すると、Java アプリケーションのグラフィック デザインの可能性を最大限に引き出すことができます。このチュートリアルでは、Aspose.PSD for Java を使用してストローク レイヤーの色を追加する魅力的な世界を詳しく見ていきます。目立つストロークでグラフィックを強化し、視覚的に魅力的なデザインを簡単に作成します。
@@ -120,3 +126,9 @@ A2: もちろんです! Aspose.PSD は最新の PSD ファイル形式仕様に�
 ### Q5: Aspose.PSD の一時ライセンスはどこで入手できますか?
 
  A5: 取得する[一時ライセンス](https://purchase.aspose.com/temporary-license/)Aspose.PSD を使用して、プロジェクトでその機能を評価します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

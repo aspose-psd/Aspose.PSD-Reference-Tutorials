@@ -3,10 +3,16 @@ title: Aspose.PSD Java를 사용하여 PSD 파일에서 RGB 색상 지원
 linktitle: Aspose.PSD Java를 사용하여 PSD 파일에서 RGB 색상 지원
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에서 생생한 RGB 색상을 잠금 해제하세요! 단계별 가이드를 따라 이미지를 손쉽게 향상하고 저장하세요.
-type: docs
 weight: 20
 url: /ko/java/advanced-psd-layer-features-effects/support-rgb-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java를 사용하여 PSD 파일에서 RGB 색상 지원
+
 ## 소개
 Photoshop 파일을 프로그래밍 방식으로 처리할 때 다양한 색상 형식의 이미지를 읽고, 조작하고, 저장하는 능력은 개발자에게 매우 중요합니다. Aspose.PSD for Java는 PSD 파일 작업을 위한 강력한 프레임워크를 제공하므로 RGB 색상 모드, 특히 채널당 16비트를 사용하는 고품질 파일을 그 어느 때보다 쉽게 지원할 수 있습니다. 이 가이드에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에서 RGB 색상을 지원하는 방법을 살펴보겠습니다. 이제 코딩 모자를 잡고 다채로운 이미지 처리의 세계로 뛰어들어 봅시다!
 ## 전제조건
@@ -88,3 +94,9 @@ image.save(outputFilePathJpg, saveOptions);
 예, Aspose.PSD에서는 효과 및 필터 적용을 포함한 다양한 조작이 가능합니다.
 ### 초보자도 Java용 Aspose.PSD를 쉽게 사용할 수 있나요?  
 몇 가지 기본 Java 지식만 있으면 광범위한 문서를 통해 초보자도 비교적 쉽게 시작할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

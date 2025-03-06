@@ -3,10 +3,16 @@ title: رسم رسومات جافا
 linktitle: رسم رسومات جافا
 second_title: Aspose.PSD جافا API
 description: استكشف دروس Aspose.PSD لـ Java حول رسم الرسومات. تعلم كيفية إضافة الحدود ورسم الأشكال ومعالجة ملفات PSD باستخدام أدلة خطوة بخطوة.
-type: docs
 weight: 20
 url: /ar/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم رسومات جافا
+
 
 ## مقدمة
 
@@ -75,3 +81,9 @@ url: /ar/java/java-graphics-drawing/
 تعرف على كيفية رسم الرسومات في Java باستخدام Aspose.PSD خطوة بخطوة. قم بإنشاء الأشكال وتطبيق الألوان وتصدير الصور دون عناء.
 ### [الرسم باستخدام مسار الرسومات في جافا](./drawing-using-graphics-path/)
 تعرف على كيفية إنشاء رسومات معقدة في Java باستخدام فئة مسار الرسومات الخاصة بـ Aspose.PSD. يرشدك هذا البرنامج التعليمي خلال كل خطوة لإنشاء صور مذهلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

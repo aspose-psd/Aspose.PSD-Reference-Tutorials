@@ -3,10 +3,16 @@ title: Tambahkan Lapisan Penyesuaian Level di PSD
 linktitle: Tambahkan Lapisan Penyesuaian Level di PSD
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan Lapisan Penyesuaian Level secara efektif di file PSD Anda menggunakan Aspose.PSD untuk Java. Tingkatkan keterampilan mengedit gambar Anda.
-type: docs
 weight: 16
 url: /id/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Lapisan Penyesuaian Level di PSD
+
 ## Perkenalan
 Dalam hal pengeditan gambar, mengelola level dapat membuat perbedaan besar dalam kecerahan dan kejernihan foto Anda. Salah satu alat praktis di gudang Photoshop adalah "Level Adjustment Layer," yang memungkinkan Anda mengubah rentang nada dan keseimbangan warna gambar Anda. Dalam panduan ini, kami akan memandu Anda tentang cara mengimplementasikan Lapisan Penyesuaian Level dalam file PSD menggunakan Aspose.PSD untuk Java. Jadi, ambil IDE Java Anda.
 ## Prasyarat
@@ -88,3 +94,9 @@ Ya! Aspose menawarkan uji coba gratis untuk menguji perpustakaan sebelum membeli
  Sangat! Anda dapat mengajukan pertanyaan dan mendapatkan dukungan di[Asumsikan forum](https://forum.aspose.com/c/psd/34).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD?
  Anda dapat mengajukan permohonan izin sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

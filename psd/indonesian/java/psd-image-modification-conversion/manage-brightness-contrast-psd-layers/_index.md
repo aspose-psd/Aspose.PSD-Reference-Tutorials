@@ -3,10 +3,16 @@ title: Kelola Kecerahan dan Kontras di Lapisan PSD - Java
 linktitle: Kelola Kecerahan dan Kontras di Lapisan PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menyesuaikan kecerahan dan kontras dalam file PSD menggunakan Aspose.PSD untuk Java dengan mudah. Ideal untuk pengembang dan desainer grafis.
-type: docs
 weight: 21
 url: /id/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Kecerahan dan Kontras di Lapisan PSD - Java
+
 ## Perkenalan
 
 Apakah Anda seorang desainer grafis atau pengembang yang sering bekerja dengan file PSD (Photoshop Document)? Apakah Anda merasa perlu menyesuaikan kecerahan dan kontras lapisan dalam file ini tetapi tidak memiliki pengetahuan untuk mengotomatiskan tugas ini menggunakan Java? Nah, Anda beruntung! Dalam tutorial ini, kita akan mendalami cara mengelola kecerahan dan kontras di lapisan PSD menggunakan pustaka Aspose.PSD untuk Java. Ini tidak hanya menghemat waktu Anda tetapi juga meningkatkan alur kerja kreatif Anda. Mari menyingsingkan lengan baju dan memulai!
@@ -125,3 +131,9 @@ Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipul
 
 ### Di mana saya dapat menemukan dukungan tambahan untuk Aspose.PSD?
  Anda bisa mendapatkan dukungan untuk Aspose.PSD di situs mereka[forum dukungan](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

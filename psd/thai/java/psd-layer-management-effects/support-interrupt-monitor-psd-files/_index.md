@@ -3,10 +3,16 @@ title: รองรับ Interrupt Monitor ในไฟล์ PSD - Java
 linktitle: รองรับ Interrupt Monitor ในไฟล์ PSD - Java
 second_title: Aspose.PSD Java API
 description: ขัดจังหวะการแปลง PSD ที่ใช้เวลานานใน Java โดยใช้ Interrupt Monitor ของ Aspose.PSD เรียนรู้วิธีใช้งานการหยุดชะงักอย่างค่อยเป็นค่อยไปและปรับปรุงประสบการณ์ผู้ใช้
-type: docs
 weight: 24
 url: /th/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับ Interrupt Monitor ในไฟล์ PSD - Java
+
 ## การแนะนำ
 
 คู่มือที่ครอบคลุมนี้จะช่วยให้คุณมีความรู้ในการใช้ประโยชน์จาก Interrupt Monitor ในแอปพลิเคชัน Java ของคุณ เราจะเจาะลึกข้อกำหนดเบื้องต้น อธิบายขั้นตอนการนำเข้าแพ็คเกจที่จำเป็น และแจกแจงกระบวนการออกเป็นคำแนะนำทีละขั้นตอนที่ชัดเจนโดยใช้ตัวอย่างโค้ด ดังนั้น รัดเข็มขัดและเตรียมพร้อมที่จะควบคุมการแปลง PSD ของคุณ!
@@ -127,3 +133,9 @@ if (outputFile.exists()) {
 ### มีผลกระทบต่อประสิทธิภาพการทำงานใดๆ จากการใช้ Interrupt Monitor หรือไม่
 
  โดยทั่วไปค่าใช้จ่ายด้านประสิทธิภาพในการใช้ Interrupt Monitor นั้นน้อยมาก อย่างไรก็ตามความถี่ของการตรวจสอบการขัดจังหวะภายใน`SaveImageWorker` สามารถส่งผลกระทบต่อประสิทธิภาพการทำงานได้ สิ่งสำคัญคือต้องสร้างสมดุลระหว่างการตอบสนองและประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

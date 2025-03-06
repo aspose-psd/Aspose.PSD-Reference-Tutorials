@@ -3,10 +3,16 @@ title: تحويل AI إلى PDF في جافا
 linktitle: تحويل AI إلى PDF في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تحويل ملفات AI إلى PDF في Java باستخدام Aspose.PSD. اتبع دليلنا التفصيلي خطوة بخطوة لإدارة تحويلات ملفاتك بكفاءة.
-type: docs
 weight: 12
 url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل AI إلى PDF في جافا
+
 ## مقدمة
 هل تعمل باستخدام ملفات Adobe Illustrator وتحتاج إلى تحويلها إلى تنسيق PDF في تطبيق Java الخاص بك؟ سواء كنت تتعامل مع رسومات متجهة أو رسوم توضيحية أو ملفات تصميم، فإن تحويل ملفات AI إلى ملفات PDF يمكن أن يكون أمرًا بالغ الأهمية لأغراض التوثيق والمشاركة والطباعة. في هذا الدليل، سنستكشف كيف يمكنك تحويل ملفات AI إلى PDF بسهولة باستخدام Aspose.PSD لـ Java. Aspose.PSD هي مكتبة قوية تعمل على تبسيط معالجة وتحويل PSD وAI وتنسيقات الصور الأخرى. لذلك، دعونا نتعمق في تفاصيل عملية التحويل هذه!
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ Aspose.PSD هي مكتبة قوية تتيح للمطورين العمل مع م
  يمكنك زيارة[منتدى أسبوز](https://forum.aspose.com/c/psd/34) لأية أسئلة أو مشاكل قد تواجهها.
 ### أين يمكنني شراء ترخيص Aspose.PSD؟
  يمكنك شراء ترخيص مباشرة من[صفحة شراء Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

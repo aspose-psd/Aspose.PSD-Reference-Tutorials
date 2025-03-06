@@ -3,10 +3,16 @@ title: Thêm lớp điền vào tệp PSD trong Aspose.PSD cho Java
 linktitle: Thêm lớp điền vào tệp PSD trong Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm lớp tô màu vào tệp PSD trong Java bằng Aspose.PSD với hướng dẫn từng bước của chúng tôi. Nâng cao thiết kế của bạn.
-type: docs
 weight: 13
 url: /vi/java/modifying-converting-psd-images/add-fill-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp điền vào tệp PSD trong Aspose.PSD cho Java
+
 ## Giới thiệu
 Nếu bạn đã từng học thiết kế đồ họa hoặc làm việc trên các tài liệu Photoshop, bạn sẽ biết các lớp quan trọng như thế nào. Các lớp cho phép bạn xây dựng bố cục, giữ các phần tử khác biệt và áp dụng các hiệu ứng mà không làm giảm chất lượng hình ảnh gốc. Hôm nay, chúng ta sẽ tập trung vào việc sử dụng Aspose.PSD cho Java để thêm các lớp tô màu vào tệp PSD của bạn. Nó không chỉ dễ dàng mà còn là một cách tuyệt vời để nâng cao thiết kế của bạn mà không cần bất kỳ quy trình thủ công rườm rà nào.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Bạn có thể khám phá bản dùng thử miễn phí của Aspose.PSD cho Ja
  Bạn có thể truy cập tài liệu đầy đủ[đây](https://reference.aspose.com/psd/java/).
 ### Có cộng đồng hỗ trợ nào cho Aspose.PSD không?
  Có, bạn có thể nhận trợ giúp từ cộng đồng trên diễn đàn Aspose[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Поддержка ресурса пограничной информац
 linktitle: Поддержка ресурса пограничной информации
 second_title: Aspose.PSD .NET API
 description: Изучите функцию ресурса информации о границах Aspose.PSD for .NET для улучшения обработки изображений. Следуйте нашему руководству для бесшовной интеграции. Загрузите сейчас!
-type: docs
 weight: 11
 url: /ru/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка ресурса пограничной информации в Aspose.PSD для .NET
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по использованию функции ресурса пограничной информации в Aspose.PSD для .NET. В этом руководстве мы познакомим вас с процессом работы с ресурсами пограничной информации с использованием Aspose.PSD, мощной библиотеки изображений .NET. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, цель этого руководства — дать ясность в вопросе беспрепятственного включения ресурсов пограничной информации в ваши проекты.
 ## Предварительные условия
@@ -89,3 +95,9 @@ Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ### Вопрос 5: Доступны ли временные лицензии?
 
  О5: Да, вы можете получить временные лицензии.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

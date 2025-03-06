@@ -3,10 +3,16 @@ title: 掌握 Aspose.PSD for .NET 中的图层状态效果
 linktitle: 使用图层状态效果
 second_title: Aspose.PSD .NET API
 description: 学习在 Aspose.PSD for .NET 中使用图层状态效果。使用阴影、渐变叠加等增强您的 PSD 文件。简单的教程指南。
-type: docs
 weight: 13
 url: /zh/net/psd-file-manipulation/layer-state-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.PSD for .NET 中的图层状态效果
+
 ## 介绍
 欢迎阅读我们关于在 Aspose.PSD for .NET 中使用图层状态效果的全面教程。图层状态效果通过向不同图层添加效果，在增强图像的视觉吸引力方面发挥着至关重要的作用。在本指南中，我们将引导您完成利用 Aspose.PSD for .NET 有效利用图层状态效果的过程。
 ## 先决条件
@@ -82,3 +88,9 @@ psdImage.Save(outputFile);
 ### Q5：需要支持或有疑问？
 
  A5：加入[Aspose.PSD 社区论坛](https://forum.aspose.com/c/psd/34)寻求帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

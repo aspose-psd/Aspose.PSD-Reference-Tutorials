@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng lớp phủ màu trong Aspose.PSD cho Java
 linktitle: Áp dụng hiệu ứng lớp phủ màu
 second_title: API Java Aspose.PSD
 description: Khám phá sự kỳ diệu của Hiệu ứng lớp phủ màu trong Aspose.PSD cho Java. Nâng cao khả năng chỉnh sửa hình ảnh của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 10
 url: /vi/java/image-editing/color-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng lớp phủ màu trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thiết kế đồ họa và xử lý hình ảnh bằng Aspose.PSD cho Java! Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc áp dụng Hiệu ứng Lớp phủ Màu để nâng cao hình ảnh của bạn. Thư viện Java mạnh mẽ này cho phép bạn làm việc với các tệp PSD một cách hiệu quả, cung cấp nhiều chức năng để xử lý hình ảnh.
@@ -110,3 +116,9 @@ Câu trả lời 2: Có, Aspose.PSD tương thích với các IDE Java phổ bi�
 ### Câu hỏi 5: Có bất kỳ tùy chọn dùng thử miễn phí nào cho Aspose.PSD không?
 
  A5: Có, hãy khám phá[dùng thử miễn phí](https://releases.aspose.com/) phiên bản trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

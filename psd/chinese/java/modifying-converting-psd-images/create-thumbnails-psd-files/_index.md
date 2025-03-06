@@ -3,10 +3,16 @@ title: 使用 Java 从 PSD 文件创建缩略图
 linktitle: 使用 Java 从 PSD 文件创建缩略图
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Java 和 Aspose.PSD 轻松地从 PSD 文件创建缩略图。按照我们的分步指南进行无缝图像处理。
-type: docs
 weight: 24
 url: /zh/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 从 PSD 文件创建缩略图
+
 ## 介绍
 在平面设计领域，使用 PSD（Photoshop 文档）文件很常见。无论您是经验丰富的开发人员、平面设计师，还是只想深入研究图像处理的人，从 PSD 文件创建缩略图都可以节省您的时间并简化您的工作流程。本教程将指导您使用 Aspose.PSD for Java 完成整个过程。Aspose.PSD 不仅是一个用于管理 Photoshop 文件的强大库，而且还使手头的任务变得直观和易于管理。您准备好学习如何高效地从 PSD 文件创建缩略图了吗？
 ## 先决条件
@@ -112,3 +118,9 @@ Aspose.PSD 是一个 Java 库，允许开发人员使用 Photoshop 文件，从�
 不，Aspose.PSD 独立于 Photoshop 运行。
 ### 在哪里可以找到有关 Aspose.PSD 的更多信息？
 您可以查看[Aspose.PSD 文档](https://reference.aspose.com/psd/java/)了解更多详细信息、教程和资源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sloučit vrstvy v souborech PSD pomocí Aspose.PSD Java
 linktitle: Sloučit vrstvy v souborech PSD pomocí Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Sloučit a sloučit vrstvy v souborech PSD bez námahy pomocí Aspose.PSD pro Java. Postupujte podle tohoto podrobného průvodce pro zjednodušení správy souborů PSD.
-type: docs
 weight: 13
 url: /cs/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučit vrstvy v souborech PSD pomocí Aspose.PSD Java
+
 ## Zavedení
 
 Už jste někdy zjistili, že pracujete se soubory Photoshopu a přáli jste si jednodušší způsob, jak spravovat tyto složité vrstvy? Tak to máš štěstí! Dnes se ponoříme do světa Aspose.PSD for Java, mocného nástroje, díky kterému je práce se soubory PSD programově hračkou. Jednou z užitečných funkcí, kterou prozkoumáme, je zploštění vrstev. Ať už chcete sloučit celý obrázek nebo selektivně sloučit konkrétní vrstvy, Aspose.PSD pro Java vás pokryje. Tento tutoriál vás provede procesem krok za krokem a zajistí, že budete připraveni se svými soubory PSD s jistotou pracovat.
@@ -150,3 +156,9 @@ Ano, pomocí Aspose.PSD můžete sloučit vrstvy s různými režimy prolnutí a
 
 ### Co se stane, když se pokusím sloučit vrstvy, které spolu nesousedí?  
 Aspose.PSD umožňuje sloučit libovolné vrstvy bez ohledu na jejich pořadí v zásobníku vrstev. Proces slučování zkombinuje vybrané vrstvy podle specifikace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

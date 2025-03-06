@@ -3,10 +3,16 @@ title: حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET
 linktitle: حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET. اتبع هذا الدليل التفصيلي خطوة بخطوة لمعالجة الصور بكفاءة.
-type: docs
 weight: 10
 url: /ar/net/file-saving-and-exporting/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير .NET، يبرز Aspose.PSD كحل قوي للتعامل مع صور PSD بسلاسة. سيرشدك هذا البرنامج التعليمي خلال عملية حفظ الصور على القرص باستخدام Aspose.PSD لـ .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو رحلة البرمجة الخاصة بك، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على الاستفادة من قوة Aspose.PSD بشكل فعال.
@@ -90,3 +96,9 @@ using (Image image = Image.Load(sourceFile))
 ### س5: أين يمكنني شراء Aspose.PSD لـ .NET؟
 
  ج5: يمكنك شراء Aspose.PSD لـ .NET[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

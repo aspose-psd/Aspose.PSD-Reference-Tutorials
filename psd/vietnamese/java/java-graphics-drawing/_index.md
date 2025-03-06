@@ -3,10 +3,16 @@ title: Vẽ đồ họa Java
 linktitle: Vẽ đồ họa Java
 second_title: API Java Aspose.PSD
 description: Khám phá Aspose.PSD để biết các hướng dẫn Java về vẽ đồ họa. Tìm hiểu cách thêm nét, vẽ hình và thao tác với tệp PSD bằng hướng dẫn từng bước.
-type: docs
 weight: 20
 url: /vi/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ đồ họa Java
+
 
 ## Giới thiệu
 
@@ -75,3 +81,9 @@ Tìm hiểu cách vẽ hình chữ nhật trên hình ảnh bằng Aspose.PSD ch
 Tìm hiểu cách vẽ đồ họa trong Java bằng Aspose.PSD theo từng bước. Tạo hình dạng, áp dụng màu sắc và xuất hình ảnh một cách dễ dàng.
 ### [Vẽ bằng đường dẫn đồ họa trong Java](./drawing-using-graphics-path/)
 Tìm hiểu cách tạo đồ họa phức tạp trong Java bằng lớp Đường dẫn đồ họa của Aspose.PSD. Hướng dẫn này hướng dẫn bạn từng bước để tạo ra hình ảnh tuyệt đẹp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

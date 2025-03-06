@@ -3,10 +3,16 @@ title: Beskär bilder med Shifts i Aspose.PSD för .NET
 linktitle: Beskär bilder med Shifts
 second_title: Aspose.PSD .NET API
 description: Lär dig att beskära bilder utan ansträngning med Aspose.PSD för .NET. Följ vår steg-för-steg-guide för exakta bildjusteringar.
-type: docs
 weight: 12
 url: /sv/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beskär bilder med Shifts i Aspose.PSD för .NET
+
 ## Introduktion
 
 Inom .NET-utvecklingens område framstår Aspose.PSD som en kraftfull verktygslåda för bildbehandlingsuppgifter. En av dess anmärkningsvärda egenskaper är möjligheten att beskära bilder med precision, tack vare funktionen "Cropping by Shifts". I den här steg-för-steg-guiden går vi igenom processen att beskära bilder sömlöst med Aspose.PSD för .NET.
@@ -105,3 +111,10 @@ S1: Ja, Aspose.PSD stöder olika bildformat, så att du kan beskära bilder i fo
 ### F5: Kan jag köpa Aspose.PSD för .NET direkt från webbplatsen?
 
  S5: Ja, du kan köpa biblioteket säkert från[köpsidan](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

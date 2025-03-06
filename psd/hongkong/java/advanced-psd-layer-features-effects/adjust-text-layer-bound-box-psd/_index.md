@@ -3,10 +3,16 @@ title: 使用 Java 調整 PSD 中的文字圖層邊界框
 linktitle: 使用 Java 調整 PSD 中的文字圖層邊界框
 second_title: Aspose.PSD Java API
 description: 學習使用 Java 和 Aspose.PSD 調整 PSD 檔案中的文字圖層邊界。帶有逐步說明的簡單指南。
-type: docs
 weight: 25
 url: /zh-hant/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 調整 PSD 中的文字圖層邊界框
+
 ## 介紹
 當談到以程式方式操作 Photoshop 文件時，Java 版的 Aspose.PSD 庫大放異彩。如果您想要調整 PSD 檔案中文字圖層的邊界，那麼您來對地方了！本教學將引導您逐步完成使用 Java 調整文字圖層邊界框的過程。
 借助易於理解的範例和讓事情變得有趣的對話語氣，您會發現操作 PSD 檔案並不像聽起來那麼令人畏懼。無論您是經驗豐富的開發人員還是剛開始使用 Java，您都會在這裡找到有價值的見解。讓我們深入了解 PSD 操作的令人興奮的世界。
@@ -80,3 +86,9 @@ Aspose.PSD 是一個功能強大的程式庫，用於以程式設計方式操作
 您可以在他們的網站上找到支持和社區討論[Aspose論壇](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD 有試用版嗎？
 是的！您可以從以下位置下載免費試用版[阿斯普斯網站](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

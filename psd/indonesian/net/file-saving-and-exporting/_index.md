@@ -3,10 +3,16 @@ title: Menyimpan dan Mengekspor File
 linktitle: Menyimpan dan Mengekspor File
 second_title: Asumsikan.PSD .NET API
 description: Kuasai penyimpanan dan ekspor gambar dengan mudah menggunakan Aspose.PSD untuk .NET. Ikuti tutorial langkah demi langkah kami untuk pengoperasian disk dan streaming yang efisien.
-type: docs
 weight: 23
 url: /id/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan dan Mengekspor File
+
 ## Perkenalan
 
 Jika Anda pernah bergulat dengan seluk-beluk menyimpan dan mengekspor gambar di proyek .NET, Anda tidak sendirian. Dunia digital menuntut ketelitian, dan jika menyangkut gambar, prosesnya menjadi lebih penting. Untungnya, Aspose.PSD untuk .NET hadir untuk menyederhanakan perjalanan Anda, menawarkan solusi sempurna untuk menyimpan gambar ke disk dan streaming.
@@ -32,3 +38,9 @@ Pelajari cara menyimpan gambar ke disk menggunakan Aspose.PSD untuk .NET. Ikuti 
 Jelajahi kekuatan Aspose.PSD untuk .NET dan pelajari cara menyimpan gambar ke aliran dengan mudah. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
 ### [Bekerja dengan Save Image Worker di Aspose.PSD untuk .NET](./save-image-worker/)
 Pelajari cara menggunakan Aspose.PSD untuk Save Image Worker .NET untuk konversi format gambar yang lancar dengan penanganan interupsi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Detect Flattened PSD Files using Aspose.PSD for Java
 linktitle: Detect Flattened PSD Files using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to detect flattened PSD files using Aspose.PSD for Java, step by step in this comprehensive tutorial.
-type: docs
 weight: 10
 url: /java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detect Flattened PSD Files using Aspose.PSD for Java
+
 ## Introduction
 
 Welcome to the world of PSD (Photoshop Document) file manipulation with Aspose.PSD for Java! If you've ever needed to work with layers in Photoshop files but didn’t know where to begin, you’re in the right place. In this tutorial, we’ll delve into how to detect whether a PSD file is flattened using Aspose.PSD. Flattening a PSD means that all of its layers are merged into a single, unified layer, which can make editing a bit tricky afterward. By the end of this guide, you’ll be equipped to check for this crucial aspect of your PSD files. Sit tight, grab your coffee, and let's dive in!
@@ -77,3 +83,10 @@ Simply download the library from [here](https://releases.aspose.com/psd/java/) a
 
 ### Is there a way to test Aspose.PSD for free?
 Absolutely! You can start a free trial by downloading a trial version from [this link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

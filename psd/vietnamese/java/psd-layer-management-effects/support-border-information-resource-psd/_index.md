@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên thông tin biên giới trong PSD - Java
 linktitle: Hỗ trợ tài nguyên thông tin biên giới trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Thao tác đường viền thành thạo trong tệp PSD với Aspose.PSD cho Java. Tìm hiểu cách sửa đổi độ rộng đường viền, đơn vị, v.v. thông qua các bước dễ thực hiện. Nâng cao thiết kế PSD của bạn theo chương trình.
-type: docs
 weight: 23
 url: /vi/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên thông tin biên giới trong PSD - Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ cảm thấy cần phải điều chỉnh các đường viền phiền toái đó trong các tệp PSD của mình theo chương trình chưa? Thôi, đừng băn khoăn nữa! Aspose.PSD for Java ra đời, cung cấp một cách mạnh mẽ và thân thiện với người dùng để thao tác các tài nguyên thông tin đường viền trong các tệp PSD của bạn. Hướng dẫn toàn diện này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước, giúp bạn có thể kiểm soát biên giới của mình hơn bao giờ hết.
@@ -136,3 +142,9 @@ Aspose.PSD được tối ưu hóa về hiệu suất nhưng việc xử lý cá
 ### Tôi có thể tìm thêm thông tin và hỗ trợ ở đâu?
 
 Tài liệu Aspose.PSD dành cho Java là một nguồn tài nguyên tuyệt vời để cung cấp thông tin chi tiết chuyên sâu về API và các khả năng của nó. Bạn cũng có thể truy cập diễn đàn Aspose để được hỗ trợ và tương tác với các nhà phát triển khác. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

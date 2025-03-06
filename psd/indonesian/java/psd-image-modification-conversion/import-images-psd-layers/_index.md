@@ -3,10 +3,16 @@ title: Impor Gambar ke Lapisan PSD menggunakan Aspose.PSD Java
 linktitle: Impor Gambar ke Lapisan PSD menggunakan Aspose.PSD Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengimpor gambar ke lapisan PSD menggunakan Aspose.PSD untuk Java dengan panduan langkah demi langkah yang komprehensif ini.
-type: docs
 weight: 17
 url: /id/java/psd-image-modification-conversion/import-images-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impor Gambar ke Lapisan PSD menggunakan Aspose.PSD Java
+
 ## Perkenalan
 Ketika bekerja dengan file PSD, memiliki alat yang tepat dapat membuat perbedaan besar. Baik Anda terlibat dalam desain grafis, seni digital, atau bahkan hanya mencoba untuk membumbui presentasi Anda, memahami cara memanipulasi lapisan PSD dapat membuka dunia kreativitas. Dalam tutorial ini, Anda akan mempelajari cara mengimpor gambar ke lapisan PSD menggunakan Aspose.PSD untuk Java. Panduan ini dirancang untuk memandu Anda melalui setiap langkah dengan cara yang sederhana dan menarik. Jadi, ambillah secangkir kopi, dan mari selami seluk beluk manipulasi gambar dalam file PSD.
 ## Prasyarat
@@ -85,3 +91,9 @@ Ya! Aspose memiliki perpustakaan untuk berbagai bahasa pemrograman, termasuk .NE
  Anda dapat mengunjungi[Asumsikan Forum Dukungan](https://forum.aspose.com/c/psd/34) untuk mendapatkan bantuan dari masyarakat dan pakar Aspose.
 ### Bagaimana cara membeli lisensi Aspose.PSD untuk Java?
  Anda dapat membeli lisensi dengan mengunjungi[Asumsikan halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

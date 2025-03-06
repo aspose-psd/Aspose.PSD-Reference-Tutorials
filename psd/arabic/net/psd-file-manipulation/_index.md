@@ -3,10 +3,16 @@ title: معالجة ملفات PSD
 linktitle: معالجة ملفات PSD
 second_title: Aspose.PSD.NET API
 description: تعامل بسهولة مع طبقات تنسيق AI باستخدام Aspose.PSD لـ .NET. تعلم كيفية تصدير صور PSD إلى GIF، والتعامل مع أقسام البيانات المتحركة، ومعالجة حالات الطبقة.
-type: docs
 weight: 21
 url: /ar/net/psd-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة ملفات PSD
+
 ## مقدمة
 
 أتقن فن معالجة PSD باستخدام Aspose.PSD لـ .NET. بدءًا من التعامل مع طبقات تنسيق الذكاء الاصطناعي وحتى تصدير صور GIF والتنقل بين أقسام البيانات المتحركة، ترشدك سلسلة البرامج التعليمية هذه بسلاسة. قم بتحسين الصور باستخدام تأثيرات حالة الطبقة والجداول الزمنية والاقتصاص الفعال. يعمل Aspose.PSD for .NET على تمكين رحلتك الإبداعية، حيث يقدم برامج تعليمية خطوة بخطوة وبيئة متعددة الخيوط لتصدير الصور بشكل مثالي. ارفع مهاراتك وقم بتحويل تجربة التصميم الخاصة بك باستخدام Aspose.PSD لـ .NET.
@@ -77,3 +83,9 @@ url: /ar/net/psd-file-manipulation/
 استكشف فن قص ملفات PSD في .NET باستخدام Aspose.PSD، وهي مجموعة أدوات متعددة الاستخدامات. ارفع مستوى لعبة معالجة الصور الخاصة بك دون عناء.
 ### [تصدير الصور في بيئة متعددة الخيوط باستخدام Aspose.PSD لـ .NET](./export-images-multi-thread/)
 تحسين معالجة الصور .NET باستخدام Aspose.PSD: تصدير الصور في بيئة متعددة الخيوط. تعزيز الأداء والكفاءة دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

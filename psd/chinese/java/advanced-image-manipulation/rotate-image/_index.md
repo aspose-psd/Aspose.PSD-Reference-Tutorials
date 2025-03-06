@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中旋转图像
 linktitle: 旋转图像
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 轻松探索 Java 中的图像旋转。轻松旋转、翻转和保存 PSD 文件。
-type: docs
 weight: 19
 url: /zh/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中旋转图像
+
 ## 介绍
 
 Aspose.PSD for Java 提供了一组强大的图像处理功能，使开发人员能够高效地操作和处理 PSD 文件。在本教程中，我们将重点介绍一项特定任务：旋转图像。无论您是构建照片编辑应用程序还是只需要调整图像的方向，Aspose.PSD 都可以让该过程变得简单。
@@ -84,3 +90,9 @@ A2：当然！Aspose.PSD 可以灵活地应用自定义旋转以满足您的特�
 ### Q5：如何取得临时驾照？
 
  A5：如果您需要临时驾照，您可以申请一个[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

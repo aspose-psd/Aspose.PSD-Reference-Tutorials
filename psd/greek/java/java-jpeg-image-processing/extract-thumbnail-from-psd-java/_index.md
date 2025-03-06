@@ -3,10 +3,16 @@ title: Εξαγωγή μικρογραφίας από το PSD σε Java
 linktitle: Εξαγωγή μικρογραφίας από το PSD σε Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να εξάγετε μικρογραφίες από αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τα πάντα, από τη ρύθμιση έως την αποθήκευση εξαγόμενων εικόνων.
-type: docs
 weight: 15
 url: /el/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή μικρογραφίας από το PSD σε Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να εξαγάγετε μικρογραφίες από αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Οι μικρογραφίες μπορούν να είναι χρήσιμες για γρήγορες προεπισκοπήσεις ή για τη δημιουργία μικρότερων εκδόσεων εικόνων που είναι ενσωματωμένες σε έγγραφα PSD. Ας βουτήξουμε στα βήματα που απαιτούνται για να το πετύχουμε αυτό χρησιμοποιώντας το Aspose.PSD.
 ## Προαπαιτούμενα
@@ -73,3 +79,9 @@ for (int i = 0; i < image.getImageResources().length; i++) {
  Οι προσωρινές άδειες μπορούν να ληφθούν από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Είναι το Aspose.PSD κατάλληλο για εμπορική χρήση;
 Ναι, το Aspose.PSD μπορεί να χρησιμοποιηθεί τόσο για προσωπικά όσο και για εμπορικά έργα υπό τους όρους αδειοδότησης του.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

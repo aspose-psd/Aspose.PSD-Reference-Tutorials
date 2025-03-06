@@ -3,10 +3,16 @@ title: Créer des fichiers PSD indexés à l'aide d'Aspose.PSD pour Java
 linktitle: Créer des fichiers PSD indexés à l'aide d'Aspose.PSD pour Java
 second_title: API Java Aspose.PSD
 description: Apprenez à créer des fichiers PSD indexés avec Aspose.PSD pour Java dans notre guide étape par étape. Inscrivez-vous maintenant pour explorer des possibilités artistiques infinies.
-type: docs
 weight: 23
 url: /fr/java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer des fichiers PSD indexés à l'aide d'Aspose.PSD pour Java
+
 ## Introduction
 Créer des graphiques par programmation n'est pas seulement un art ; c'est un mélange de technologie et d'imagination. Un outil puissant dans ce domaine créatif est Aspose.PSD pour Java, une bibliothèque extrêmement performante qui permet aux développeurs de manipuler des documents Photoshop. Dans ce didacticiel, nous allons approfondir la création de fichiers PSD indexés à l'aide d'Aspose.PSD, accompagné d'un guide étape par étape pour vous aider à démarrer. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours de codage, ce guide vous guidera tout au long du processus de manière transparente.
 ## Conditions préalables
@@ -108,3 +114,9 @@ Non, vous pouvez créer et manipuler des fichiers PSD sans Photoshop, car Aspose
  Vous pouvez demander une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je obtenir de l’aide pour Aspose.PSD ?
  Vous pouvez obtenir de l'aide sur le forum Aspose[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

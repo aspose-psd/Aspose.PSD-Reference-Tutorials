@@ -3,10 +3,16 @@ title: Adicionando efeitos de padrão a imagens em Aspose.PSD para .NET
 linktitle: Adicionando efeitos de padrão às imagens
 second_title: API Aspose.PSD .NET
 description: Aprimore suas imagens com efeitos de padrão cativantes usando Aspose.PSD para .NET. Siga nosso guia passo a passo para adicionar padrões personalizados perfeitamente.
-type: docs
 weight: 12
 url: /pt/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando efeitos de padrão a imagens em Aspose.PSD para .NET
+
 ## Introdução
 
 Aprimorar imagens com efeitos de padrão pode trazer uma nova dimensão aos seus designs. Aspose.PSD para .NET fornece uma solução poderosa para adicionar sobreposições de padrões às imagens, permitindo criar gráficos visualmente impressionantes. Este tutorial passo a passo irá guiá-lo através do processo de adição de efeitos de padrão usando Aspose.PSD para .NET.
@@ -108,3 +114,9 @@ A4: As dimensões do padrão são flexíveis, permitindo criar padrões de vári
 ### Q5: Posso usar Aspose.PSD para .NET em projetos comerciais?
 
 A5: Sim, você pode usar Aspose.PSD para .NET em projetos comerciais. Para detalhes de licenciamento, visite[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

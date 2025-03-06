@@ -3,10 +3,16 @@ title: Voeg de ene PSD-laag samen met de andere met behulp van Java
 linktitle: Voeg de ene PSD-laag samen met de andere met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u lagen van het ene PSD-bestand in het andere kunt samenvoegen met Aspose.PSD voor Java met onze stapsgewijze zelfstudie. Perfect voor het automatiseren van uw ontwerpprocessen.
-type: docs
 weight: 10
 url: /nl/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg de ene PSD-laag samen met de andere met behulp van Java
+
 ## Invoering
 
 Heeft u ooit gemerkt dat u lagen van het ene PSD-bestand in het andere moest samenvoegen terwijl u programmatisch met Adobe Photoshop-documenten werkte? Of u nu ontwerpprocessen automatiseert of een grote verzameling gelaagde afbeeldingen beheert, Aspose.PSD voor Java biedt een krachtige toolkit om PSD-bestanden rechtstreeks via uw Java-code te manipuleren. In deze handleiding leiden we u door het proces van het samenvoegen van de ene PSD-laag naar de andere met behulp van Aspose.PSD voor Java. Je leert niet alleen hoe je lagen naadloos kunt samenvoegen, maar je ontdekt ook hoe gemakkelijk het is om met PSD-bestanden te werken in een Java-omgeving. Klaar om erin te duiken? Laten we beginnen!
@@ -119,3 +125,9 @@ Zodra de lagen zijn samengevoegd, is de bewerking niet meer omkeerbaar. Bewaar a
 
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.PSD voor Java?
  U kunt een tijdelijke licentie verkrijgen bij de[Aspose-website](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

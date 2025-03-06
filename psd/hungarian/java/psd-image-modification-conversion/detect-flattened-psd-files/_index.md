@@ -3,10 +3,16 @@ title: A laposított PSD-fájlok észlelése az Aspose.PSD for Java segítségé
 linktitle: A laposított PSD-fájlok észlelése az Aspose.PSD for Java segítségével
 second_title: Aspose.PSD Java API
 description: Ebben az átfogó oktatóanyagban lépésről lépésre megtudhatja, hogyan észlelheti a lapított PSD-fájlokat az Aspose.PSD for Java segítségével.
-type: docs
 weight: 10
 url: /hu/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A laposított PSD-fájlok észlelése az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük a PSD (Photoshop Document) fájlkezelés világában az Aspose.PSD for Java segítségével! Ha valaha is kellett rétegekkel dolgoznia a Photoshop-fájlokban, de nem tudta, hol kezdje, akkor jó helyen jár. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan állapítható meg, hogy egy PSD-fájl az Aspose.PSD használatával összeomlott-e. A PSD simítása azt jelenti, hogy az összes rétege egyetlen, egységes rétegbe egyesül, ami később kissé bonyolulttá teheti a szerkesztést. Ennek az útmutatónak a végére fel kell készülnie arra, hogy ellenőrizze PSD-fájljainak ezt a fontos szempontját. Ülj le, igyál egy kávét, és merüljünk bele!
@@ -77,3 +83,9 @@ Igen! Az Aspose.PSD különféle képformátumokat képes kezelni, és széles k
 
 ### Van mód az Aspose.PSD ingyenes tesztelésére?
  Teljesen! Ingyenes próbaverziót indíthat, ha letölti a próbaverziót a webhelyről[ezt a linket](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

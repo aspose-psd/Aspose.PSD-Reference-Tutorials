@@ -3,10 +3,16 @@ title: Export Channel Mixer Adjustment Layer in PSD - Java
 linktitle: Export Channel Mixer Adjustment Layer in PSD - Java
 second_title: Aspose.PSD Java API
 description: Learn how to export Channel Mixer Adjustment Layers in PSD using Aspose.PSD for Java. Step-by-step guide to modify RGB and CMYK layers, save changes, and export to PNG.
-type: docs
 weight: 14
 url: /java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export Channel Mixer Adjustment Layer in PSD - Java
+
 ## Introduction
 
 When it comes to image editing, especially with Adobe Photoshop files (PSD), managing layers efficiently is key. Among these layers, the Channel Mixer Adjustment Layer plays a crucial role in tweaking the color balance of an image. If you're a Java developer looking to manipulate these layers programmatically, you're in luck! In this article, we'll walk you through the process of exporting Channel Mixer Adjustment Layers using Aspose.PSD for Java. By the end of this guide, you'll be well-equipped to handle RGB and CMYK Channel Mixer Adjustment Layers, save your changes, and export your final image in both PSD and PNG formats.
@@ -168,3 +174,10 @@ Using `PngOptions` with `TruecolorWithAlpha` ensures high-quality exports with t
 
 ### Do I need a license to use Aspose.PSD for Java?  
 Yes, Aspose.PSD for Java is a licensed product. You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for testing or purchase a full license.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi định dạng Java PSB sang hình ảnh
 linktitle: Chuyển đổi định dạng Java PSB sang hình ảnh
 second_title: API Java Aspose.PSD
 description: Dễ dàng chuyển đổi PSB sang JPG, PDF và PSD trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn của chúng tôi để chuyển đổi hình ảnh liền mạch và cải thiện dự án của bạn.
-type: docs
 weight: 22
 url: /vi/java/java-psb-to-image-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi định dạng Java PSB sang hình ảnh
+
 ## Giới thiệu
 Bạn đang gặp khó khăn khi chuyển đổi tệp PSB trong Java? Chúng tôi đã bảo vệ bạn! Với Aspose.PSD, việc chuyển đổi tệp PSB sang các định dạng hình ảnh khác nhau thật dễ dàng. Cho dù bạn cần chuyển đổi sang JPG, PDF hay PSD, hướng dẫn chi tiết của chúng tôi sẽ hướng dẫn bạn từng bước. Hãy cùng tìm hiểu cách bạn có thể đơn giản hóa việc xử lý tệp đồ họa của mình bằng những hướng dẫn dễ thực hiện này.
 
@@ -31,3 +37,9 @@ Dễ dàng chuyển đổi PSB sang JPG trong Java bằng Aspose.PSD. Hãy làm 
 Tìm hiểu cách chuyển đổi tệp PSD sang PDF trong Java một cách dễ dàng bằng Aspose.PSD. Lý tưởng cho các nhà phát triển muốn hợp lý hóa việc xử lý tệp đồ họa.
 ### [Chuyển đổi PSB sang PSD trong Java](./convert-psb-to-psd-java/)
 Tìm hiểu cách chuyển đổi PSB sang PSD trong Java một cách liền mạch bằng Aspose.PSD, nâng cao khả năng quản lý tệp đồ họa trong ứng dụng của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

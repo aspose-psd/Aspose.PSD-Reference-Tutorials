@@ -3,10 +3,16 @@ title: Adicionar camada de ajuste de curvas em PSD usando Java
 linktitle: Adicionar camada de ajuste de curvas em PSD usando Java
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar uma camada de ajuste de curvas a um arquivo PSD usando Aspose.PSD para Java neste tutorial detalhado. Aprimore suas imagens facilmente.
-type: docs
 weight: 11
 url: /pt/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar camada de ajuste de curvas em PSD usando Java
+
 ## Introdução
 Você já ficou preso ao tentar manipular imagens em formato PSD? Quer você seja um designer gráfico iniciante ou um profissional experiente, trabalhar com arquivos do Photoshop às vezes pode parecer como navegar em um labirinto. Felizmente, existe uma ferramenta que simplifica esse processo - Aspose.PSD para Java. Neste tutorial, vamos nos aprofundar em como adicionar uma camada de ajuste de curvas a um arquivo PSD usando Aspose.PSD, tornando suas tarefas de edição de imagens mais fáceis e eficientes. Com orientação passo a passo, você poderá aprimorar suas imagens como um profissional, sem se prender às complexidades tradicionalmente associadas à manipulação de imagens.
 ## Pré-requisitos
@@ -94,3 +100,9 @@ Não, você não precisa do Photoshop instalado em sua máquina para trabalhar c
 Absolutamente! Aspose.PSD permite a manipulação de vários tipos de camadas em arquivos PSD.
 ### Onde posso encontrar mais documentação?
  Para documentação detalhada, visite o[Documentos Aspose.PSD para Java](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

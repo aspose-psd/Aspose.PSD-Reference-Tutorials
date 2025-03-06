@@ -3,10 +3,16 @@ title: Skala abu-abu pada Gambar menggunakan Aspose.PSD untuk Java
 linktitle: Skala abu-abu pada Gambar
 second_title: Asumsikan.PSD Java API
 description: Jelajahi Aspose.PSD untuk Java dan pelajari cara membuat gambar skala abu-abu dengan mudah menggunakan tutorial langkah demi langkah kami.
-type: docs
 weight: 10
 url: /id/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skala abu-abu pada Gambar menggunakan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam bidang pemrosesan gambar, mengubah gambar menjadi skala abu-abu adalah operasi mendasar. Aspose.PSD untuk Java memberikan solusi ampuh bagi pengembang Java untuk mencapai hal ini dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses penskalaan gambar menjadi abu-abu menggunakan Aspose.PSD, memastikan bahwa pemula pun dapat mengikutinya dengan mudah.
@@ -104,3 +110,9 @@ Selamat! Anda telah berhasil mengubah skala gambar menjadi abu-abu menggunakan A
 ### Q5: Butuh dukungan atau punya pertanyaan?
 
  A5: Kunjungi forum Aspose.PSD[Di Sini](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

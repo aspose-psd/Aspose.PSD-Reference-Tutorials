@@ -3,10 +3,16 @@ title: Détecter les fichiers PSD aplatis à l'aide d'Aspose.PSD pour Java
 linktitle: Détecter les fichiers PSD aplatis à l'aide d'Aspose.PSD pour Java
 second_title: API Java Aspose.PSD
 description: Apprenez à détecter les fichiers PSD aplatis à l'aide d'Aspose.PSD pour Java, étape par étape dans ce didacticiel complet.
-type: docs
 weight: 10
 url: /fr/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Détecter les fichiers PSD aplatis à l'aide d'Aspose.PSD pour Java
+
 ## Introduction
 
 Bienvenue dans le monde de la manipulation de fichiers PSD (Photoshop Document) avec Aspose.PSD pour Java ! Si vous avez déjà eu besoin de travailler avec des calques dans des fichiers Photoshop mais que vous ne saviez pas par où commencer, vous êtes au bon endroit. Dans ce didacticiel, nous verrons comment détecter si un fichier PSD est aplati à l'aide d'Aspose.PSD. Aplatir un PSD signifie que tous ses calques sont fusionnés en un seul calque unifié, ce qui peut rendre l'édition un peu délicate par la suite. À la fin de ce guide, vous serez en mesure de vérifier cet aspect crucial de vos fichiers PSD. Asseyez-vous bien, prenez votre café et plongeons-nous !
@@ -77,3 +83,9 @@ Oui! Aspose.PSD peut gérer différents formats d'image, offrant des fonctionnal
 
 ### Existe-t-il un moyen de tester Aspose.PSD gratuitement ?
  Absolument! Vous pouvez démarrer un essai gratuit en téléchargeant une version d'essai à partir de[ce lien](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

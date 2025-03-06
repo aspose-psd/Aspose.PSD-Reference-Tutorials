@@ -3,10 +3,16 @@ title: Obrazové efekty
 linktitle: Obrazové efekty
 second_title: Aspose.PSD .NET API
 description: Ovládněte vylepšení dynamického obrazu v Aspose.PSD pro .NET. Vylepšete své zpracování obrazu pomocí výukových programů o přidávání, překrývání a vykreslování úžasných efektů za běhu.
-type: docs
 weight: 25
 url: /cs/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obrazové efekty
+
 
 ## Zavedení
 
@@ -34,3 +40,9 @@ Prozkoumejte vylepšení dynamického obrazu pomocí Aspose.PSD pro .NET. Snadno
 Prozkoumejte kouzlo Aspose.PSD pro .NET s naším výukovým programem o překrývání barevných efektů. Zvyšte svou hru zpracování obrazu bez námahy.
 ### [Vykreslování efektu vrženého stínu v Aspose.PSD pro .NET](./render-drop-shadow/)
 Prozkoumejte sílu Aspose.PSD pro .NET v tomto tutoriálu a ovládněte umění vykreslování úchvatných efektů vrženého stínu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

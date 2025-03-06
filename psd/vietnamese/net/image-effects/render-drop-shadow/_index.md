@@ -3,10 +3,16 @@ title: Hiển thị hiệu ứng đổ bóng trong Aspose.PSD cho .NET
 linktitle: Kết xuất hiệu ứng đổ bóng
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của Aspose.PSD cho .NET trong hướng dẫn này, nắm vững nghệ thuật kết xuất các hiệu ứng đổ bóng quyến rũ.
-type: docs
 weight: 12
 url: /vi/net/image-effects/render-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị hiệu ứng đổ bóng trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách hiển thị hiệu ứng đổ bóng trong Aspose.PSD cho .NET! Nếu bạn đang tìm cách nâng cao kỹ năng xử lý hình ảnh của mình bằng Aspose.PSD, thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng hiệu ứng đổ bóng cho hình ảnh của bạn một cách dễ dàng.
@@ -112,3 +118,9 @@ A2: Chắc chắn rồi! Vui lòng điều chỉnh mã để đáp ứng các y�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp với Aspose.PSD cho .NET?
 
  Câu 5: Truy cập diễn đàn Aspose.PSD[đây](https://forum.aspose.com/c/psd/34) để tham gia với cộng đồng và tìm kiếm lời khuyên của chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

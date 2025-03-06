@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에서 레이어 마스크 지원
 linktitle: Java를 사용하여 PSD 파일에서 레이어 마스크 지원
 second_title: Aspose.PSD 자바 API
 description: 포괄적인 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 레이어 마스크를 지원하는 방법을 알아보세요.
-type: docs
 weight: 18
 url: /ko/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에서 레이어 마스크 지원
+
 ## 소개
 PSD 파일 작업 시 레이어 마스크는 디자인을 향상하고 창의적인 작업 흐름을 간소화하는 데 중추적인 역할을 합니다. 이 튜토리얼에서는 Java용 Aspose.PSD 라이브러리를 사용하여 레이어 마스크를 지원하는 방법을 자세히 살펴보겠습니다. 야심 찬 개발자, 디자이너 또는 프로그래밍 방식으로 PSD 파일을 조작하려는 사람이라면 올바른 위치에 있습니다! 전제 조건을 안내하고, 필요한 패키지를 가져오고, 복잡한 마스크가 포함된 PSD를 PNG 형식으로 내보내는 데 필요한 단계를 안내합니다. 시작해 봅시다!
 ## 전제조건
@@ -83,3 +89,9 @@ Aspose.PSD는 해당 사이트에서 다운로드할 수 있는 무료 평가판
 PSD 파일에 마스크가 포함되어 있지 않은 경우 내보내기는 성공하지만 레이어 마스크가 제공하는 효과는 표시되지 않습니다.
 ### 문제가 있는 경우 어디서 지원을 받을 수 있나요?  
  질문이나 문제가 있는 경우[지원 포럼](https://forum.aspose.com/c/psd/34) Aspose 지원 및 사용자 커뮤니티의 도움을 받으십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

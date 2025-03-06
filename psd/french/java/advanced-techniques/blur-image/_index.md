@@ -3,10 +3,16 @@ title: Flou d'une image à l'aide d'Aspose.PSD pour Java
 linktitle: Flou une image
 second_title: API Java Aspose.PSD
 description: Apprenez à flouter des images en Java avec Aspose.PSD. Suivez notre guide étape par étape pour des résultats professionnels.
-type: docs
 weight: 24
 url: /fr/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Flou d'une image à l'aide d'Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le monde du développement Java, l’amélioration et la manipulation des images sont une exigence courante. Si vous cherchez à ajouter un effet de flou à vos images par programme, Aspose.PSD pour Java est un outil puissant qui simplifie le processus. Ce didacticiel vous guidera à travers les étapes de floutage d'une image à l'aide d'Aspose.PSD, vous garantissant ainsi d'obtenir des résultats professionnels sans effort.
@@ -96,3 +102,9 @@ A1 : Absolument ! Aspose.PSD est livré avec une documentation complète pour gu
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
  A5 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

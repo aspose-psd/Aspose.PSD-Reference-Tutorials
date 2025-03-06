@@ -3,10 +3,16 @@ title: Rita rektanglar i Java
 linktitle: Rita rektanglar i Java
 second_title: Aspose.PSD Java API
 description: Lär dig att rita rektanglar på bilder med Aspose.PSD för Java. Denna handledning guidar Java-utvecklare steg-för-steg. Perfekt för bildmanipuleringsuppgifter.
-type: docs
 weight: 17
 url: /sv/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rita rektanglar i Java
+
 ## Introduktion
 I en värld av Java-utveckling är manipulering och generering av bilder programmatiskt ett vanligt krav i olika applikationer. En sådan uppgift som man ofta stöter på är att rita former som rektanglar på bilder. Aspose.PSD för Java tillhandahåller en robust uppsättning verktyg och funktioner för att åstadkomma detta effektivt. Denna handledning guidar dig genom processen att rita rektanglar på en bild med Aspose.PSD för Java, steg-för-steg.
 ## Förutsättningar
@@ -84,3 +90,9 @@ Ja, Aspose.PSD för Java är designad för högpresterande bildbehandling med om
  Du kan utforska fler exempel och detaljerad dokumentation om[Aspose.PSD för Java-dokumentation](https://reference.aspose.com/psd/java/).
 ### Stöder Aspose.PSD för Java andra bildformat förutom BMP?
 Ja, Aspose.PSD för Java stöder ett brett utbud av bildformat inklusive PNG, JPEG, TIFF och GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

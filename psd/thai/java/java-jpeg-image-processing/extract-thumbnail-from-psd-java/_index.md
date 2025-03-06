@@ -3,10 +3,16 @@ title: แยกรูปขนาดย่อจาก PSD ใน Java
 linktitle: แยกรูปขนาดย่อจาก PSD ใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีแยกภาพขนาดย่อจากไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าไปจนถึงการบันทึกภาพที่แยกออกมา
-type: docs
 weight: 15
 url: /th/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกรูปขนาดย่อจาก PSD ใน Java
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีแยกภาพขนาดย่อจากไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ภาพขนาดย่อมีประโยชน์สำหรับการดูตัวอย่างอย่างรวดเร็วหรือสำหรับการสร้างรูปภาพขนาดเล็กที่ฝังอยู่ในเอกสาร PSD มาดูรายละเอียดขั้นตอนที่จำเป็นเพื่อให้บรรลุเป้าหมายนี้โดยใช้ Aspose.PSD กันดีกว่า
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ Aspose.PSD เป็นไลบรารี Java ที่ช่วยให้
  สามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD เหมาะสำหรับการใช้งานเชิงพาณิชย์หรือไม่
 ใช่ Aspose.PSD สามารถใช้กับทั้งโครงการส่วนบุคคลและเชิงพาณิชย์ภายใต้เงื่อนไขสิทธิ์การใช้งาน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

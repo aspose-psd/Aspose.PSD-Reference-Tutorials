@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET でストリームを使用して画像を作成す�
 linktitle: ストリームを使用して画像を作成する
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET でストリームを使用して画像を作成する方法を学びます。効率的な画像操作については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET でストリームを使用して画像を作成する
+
 ## 導入
 
 .NET 開発の分野では、Aspose.PSD は画像操作の強力なツールとして際立っています。特に便利な機能の 1 つは、ストリームを使用して画像を作成する機能です。これにより、画像データの処理に柔軟性と効率性がもたらされます。このステップ バイ ステップ ガイドでは、シームレスなエクスペリエンスを実現するために各要素を分解しながら、プロセスを順を追って説明します。作業に入る前に、前提条件を確認しましょう。
@@ -111,3 +117,9 @@ A2: サイズはカスタマイズ可能です。それに応じて Image.Create
 ### Q5: 一時ライセンスは利用できますか?
 
  A5: はい、臨時免許証を取得することができます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

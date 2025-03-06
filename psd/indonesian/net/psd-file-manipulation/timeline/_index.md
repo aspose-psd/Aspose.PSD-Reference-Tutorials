@@ -3,10 +3,16 @@ title: Bekerja dengan Timeline di Aspose.PSD untuk .NET
 linktitle: Bekerja dengan Garis Waktu
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan manipulasi gambar PSD dengan Aspose.PSD untuk kelas .NET Timeline. Kontrol properti bingkai, status lapisan, dan bebaskan kemungkinan kreatif dengan mudah.
-type: docs
 weight: 16
 url: /id/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Timeline di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Dalam dunia desain grafis dan manipulasi gambar yang dinamis, kemampuan untuk mengontrol dan memanipulasi garis waktu gambar sangatlah penting. Aspose.PSD untuk .NET memberikan solusi yang kuat dengan kelas Timeline-nya. Fitur tingkat tinggi ini memungkinkan pengguna untuk membuat perubahan pada timeline PsdImage, seperti mengubah penundaan frame, mengedit status lapisan pada frame tertentu, dan banyak lagi.
 ## Prasyarat
@@ -108,3 +114,9 @@ A2: Kelas Timeline dirancang khusus untuk gambar PSD. Untuk manipulasi GIF, liha
 ### Q5: Apa manfaat utama menggunakan Aspose.PSD untuk .NET?
 
 A5: Aspose.PSD untuk .NET menawarkan kemampuan pemrosesan gambar tingkat lanjut, manipulasi file PSD, dan rendering performa tinggi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

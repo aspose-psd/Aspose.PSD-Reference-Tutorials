@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中支援不同的簽章類型
 linktitle: 支援不同的簽名類型
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 並輕鬆支援 PSD 檔案中的不同簽章類型。
-type: docs
 weight: 14
 url: /zh-hant/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中支援不同的簽章類型
+
 ## 介紹
 
 歡迎來到 Aspose.PSD for .NET 的世界，這是一個功能強大的程式庫，使開發人員能夠無縫處理 PSD 檔案。在本教程中，我們將探索 Aspose.PSD for .NET 支援不同簽章類型的過程。無論您是經驗豐富的開發人員還是新手，本逐步指南都將清晰且準確地引導您完成整個過程。
@@ -79,3 +85,10 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 ### Q5: 正在尋找臨時許可證？
 
  A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

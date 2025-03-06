@@ -3,10 +3,16 @@ title: Állítsa be a Text Layer Bound Boxot a PSD-ben Java használatával
 linktitle: Állítsa be a Text Layer Bound Boxot a PSD-ben Java használatával
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan állíthatja be a szövegréteg határait PSD-fájlokban Java használatával az Aspose.PSD-vel. Egyszerű útmutató lépésről lépésre.
-type: docs
 weight: 25
 url: /hu/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a Text Layer Bound Boxot a PSD-ben Java használatával
+
 ## Bevezetés
 Ha a Photoshop-dokumentumok programozott kezeléséről van szó, a Java Aspose.PSD-könyvtára ragyogóan ragyog. Ha egy PSD-fájl szövegrétegének határait szeretné módosítani, akkor jó helyen jár! Ez az oktatóanyag lépésről lépésre végigvezeti a szövegréteg kötött dobozának Java használatával történő módosításán.
 Könnyen követhető példákkal és egy kis beszélgetési hangnemrel, hogy a dolgok lebilincselődjenek, rá fog jönni, hogy a PSD-fájlok kezelése nem olyan ijesztő, mint amilyennek hangzik. Akár tapasztalt fejlesztő, akár csak most kezdi a Java használatát, itt értékes ismereteket talál. Merüljünk el a PSD-manipuláció izgalmas világában.
@@ -80,3 +86,9 @@ Igen, az Aspose.PSD a Java mellett különféle programozási platformokhoz is e
 Támogatást és közösségi beszélgetéseket találhat rajtuk[Aspose fórum](https://forum.aspose.com/c/psd/34).
 ### Elérhető az Aspose.PSD próbaverziója?
  Igen! Ingyenes próbaverziót letölthet a webhelyről[Aspose honlapja](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

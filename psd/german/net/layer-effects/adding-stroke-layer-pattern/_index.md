@@ -3,10 +3,16 @@ title: Hinzufügen einer Strichebene mit Muster in Aspose.PSD für .NET
 linktitle: Strichebene mit Muster hinzufügen
 second_title: Aspose.PSD .NET API
 description: Verbessern Sie Ihre PSD-Dateien mit Strichebenen und Mustern mithilfe von Aspose.PSD für .NET. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 13
 url: /de/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hinzufügen einer Strichebene mit Muster in Aspose.PSD für .NET
+
 ## Einführung
 
 Durch die Verbesserung Ihrer PSD-Dateien (Photoshop-Dokumente) mit Strichebenen und Mustern können Sie Ihren Designs eine dynamische Note verleihen. In diesem Tutorial erfahren Sie, wie Sie Aspose.PSD für .NET nutzen können, um Ihren PSD-Dateien mühelos eine Strichebene mit einem Muster hinzuzufügen. Aspose.PSD ist eine leistungsstarke .NET-Bibliothek, die umfassende Unterstützung für die Bearbeitung von PSD-Dateien bietet und damit ein unverzichtbares Werkzeug für Entwickler und Designer darstellt.
@@ -144,3 +150,9 @@ A4: Absolut, Aspose.PSD für .NET bietet robuste Unterstützung für die Stapelv
 ### F5: Wo kann ich Hilfe suchen oder an den Community-Diskussionen teilnehmen?
 
  A5: Besuchen Sie die[Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) für Support und Community-Interaktionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

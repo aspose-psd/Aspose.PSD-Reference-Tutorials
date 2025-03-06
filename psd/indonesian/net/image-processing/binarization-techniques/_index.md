@@ -3,10 +3,16 @@ title: Teknik Binarisasi di Aspose.PSD untuk .NET
 linktitle: Teknik Binarisasi
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi teknik binarisasi tingkat lanjut di Aspose.PSD untuk .NET. Ubah gambar berwarna menjadi biner dengan mudah menggunakan metode BinarizationWithFixedThreshold.
-type: docs
 weight: 12
 url: /id/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teknik Binarisasi di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam dunia pemrosesan gambar, kemampuan untuk mengubah gambar berwarna menjadi gambar biner merupakan langkah yang krusial. Binarisasi membantu menyederhanakan gambar kompleks dengan mereduksinya menjadi piksel hitam putih, sehingga memudahkan analisis dan ekstraksi informasi. Aspose.PSD untuk .NET menyediakan alat canggih untuk manipulasi gambar, termasuk teknik binarisasi yang kuat. Dalam tutorial ini, kita akan menjelajahi metode BinarizationWithFixedThreshold dan memandu Anda melalui implementasinya menggunakan Aspose.PSD untuk .NET.
@@ -104,3 +110,9 @@ A3: Caching meningkatkan kinerja dengan menyimpan data gambar di memori, mengura
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.PSD?
 
  A5: Ya, Anda dapat mengakses[uji coba gratis](https://releases.aspose.com/)untuk menjelajahi fitur Aspose.PSD sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

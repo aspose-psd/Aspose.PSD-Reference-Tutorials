@@ -3,10 +3,16 @@ title: Chỉnh sửa hình ảnh
 linktitle: Chỉnh sửa hình ảnh
 second_title: API Java Aspose.PSD
 description: Khám phá sự kỳ diệu của Hiệu ứng lớp phủ màu, hợp nhất hình ảnh và xử lý hình ảnh liền mạch với Aspose.PSD. Nâng cao khả năng chỉnh sửa hình ảnh của bạn với hướng dẫn của chúng tôi.
-type: docs
 weight: 23
 url: /vi/java/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa hình ảnh
+
 ## Giới thiệu 
 
 Chào mừng bạn đến với lĩnh vực chỉnh sửa hình ảnh thành thạo! Trong bộ sưu tập hướng dẫn này, chúng tôi đi sâu vào các khả năng mạnh mẽ của Aspose.PSD cho Java, hướng dẫn bạn nghệ thuật nâng cao, kết hợp và thao tác hình ảnh một cách dễ dàng. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hãy tham gia cùng chúng tôi trong hành trình này để khám phá sự kỳ diệu của Hiệu ứng lớp phủ màu, hợp nhất hình ảnh, tạo siêu dữ liệu XMP và xử lý hình ảnh liền mạch. Nâng cao trò chơi chỉnh sửa của bạn bằng các hướng dẫn từng bước giúp làm sáng tỏ tiềm năng của Aspose.PSD cho Java, cung cấp cho bạn các kỹ năng để biến đổi các sáng tạo trực quan của bạn. Hãy cùng khám phá thế giới chỉnh sửa hình ảnh hấp dẫn!
@@ -67,3 +73,9 @@ Làm chủ việc cắt xén hình ảnh bằng Aspose.PSD cho Java. Hướng d�
 Nâng cao chất lượng hình ảnh với Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để triển khai phối màu và loại bỏ dải màu.
 ### [Mở rộng và cắt hình ảnh bằng Aspose.PSD cho Java](./expand-and-crop-images/)
 Tìm hiểu cách mở rộng và cắt hình ảnh trong Java bằng Aspose.PSD. Hướng dẫn từng bước để xử lý hình ảnh hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

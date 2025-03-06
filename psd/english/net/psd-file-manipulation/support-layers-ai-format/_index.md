@@ -3,10 +3,16 @@ title: Supporting Layers in AI Format with Aspose.PSD for .NET
 linktitle: Supporting Layers in AI Format with Aspose.PSD for .NET
 second_title: Aspose.PSD .NET API
 description: Learn to handle AI format layers effortlessly with Aspose.PSD for .NET. Follow our step-by-step guide for seamless integration and manipulation.
-type: docs
 weight: 10
 url: /net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporting Layers in AI Format with Aspose.PSD for .NET
+
 Welcome to our step-by-step guide on leveraging Aspose.PSD for .NET to handle supporting layers in AI format files. Aspose.PSD simplifies complex tasks, making it easier for developers to work with AI files in their .NET applications. In this tutorial, we'll cover the prerequisites, importing namespaces, and break down each example into multiple steps to ensure a seamless learning experience.
 ## Introduction
 ### What is Aspose.PSD?
@@ -85,3 +91,10 @@ A4: Get a temporary license [here](https://purchase.aspose.com/temporary-license
 ### Q5: What image formats are supported for saving by Aspose.PSD?
 
 A5: Aspose.PSD supports various formats, including PSD, PNG, JPEG, and more.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

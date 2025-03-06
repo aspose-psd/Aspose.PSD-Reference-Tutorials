@@ -3,10 +3,16 @@ title: Stöder olika signaturtyper i Aspose.PSD för .NET
 linktitle: Stöder olika signaturtyper
 second_title: Aspose.PSD .NET API
 description: Utforska Aspose.PSD för .NET och stödja olika signaturtyper utan ansträngning i dina PSD-filer.
-type: docs
 weight: 14
 url: /sv/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stöder olika signaturtyper i Aspose.PSD för .NET
+
 ## Introduktion
 
 Välkommen till världen av Aspose.PSD för .NET, ett kraftfullt bibliotek som ger utvecklare möjlighet att hantera PSD-filer sömlöst. I den här handledningen kommer vi att utforska processen för att stödja olika signaturtyper i Aspose.PSD för .NET. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här steg-för-steg-guiden att leda dig genom processen med klarhet och precision.
@@ -79,3 +85,10 @@ Grattis! Du har framgångsrikt stödjat olika signaturtyper i Aspose.PSD för .N
 ### F5: Letar du efter en tillfällig licens?
 
  A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cắt hình ảnh theo ca trong Aspose.PSD cho Java
 linktitle: Cắt ảnh theo ca
 second_title: API Java Aspose.PSD
 description: Làm chủ việc cắt xén hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn toàn diện về thao tác hình ảnh liền mạch.
-type: docs
 weight: 16
 url: /vi/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt hình ảnh theo ca trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý hình ảnh dựa trên Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ để thao tác và nâng cao hình ảnh với độ chính xác tối đa. Một trong những tính năng chính làm nên sự khác biệt của Aspose.PSD là khả năng thực hiện cắt xén hình ảnh một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào nghệ thuật cắt ảnh bằng Aspose.PSD cho Java. Cuối cùng, bạn sẽ được trang bị các kỹ năng để dễ dàng cắt ảnh theo thông số kỹ thuật của mình.
@@ -115,3 +121,10 @@ Câu trả lời 2: Hoàn toàn có thể, bạn có thể thực hiện nhiều
 ### Câu hỏi 5: Có dự án mẫu nào giới thiệu các chức năng của Aspose.PSD không?
 
  Câu trả lời 5: Khám phá tài liệu và ví dụ tại[Tài liệu Java Aspose.PSD](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

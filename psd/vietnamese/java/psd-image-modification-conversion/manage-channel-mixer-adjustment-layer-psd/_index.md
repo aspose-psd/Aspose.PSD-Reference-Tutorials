@@ -3,10 +3,16 @@ title: Quản lý lớp điều chỉnh bộ trộn kênh trong PSD - Java
 linktitle: Quản lý lớp điều chỉnh bộ trộn kênh trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Khám phá cách quản lý các lớp điều chỉnh Bộ trộn kênh RGB và CMYK trong tệp PSD bằng Aspose.PSD cho Java. Nâng cao kỹ năng chỉnh sửa hình ảnh của bạn.
-type: docs
 weight: 22
 url: /vi/java/psd-image-modification-conversion/manage-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý lớp điều chỉnh bộ trộn kênh trong PSD - Java
+
 ## Giới thiệu
 Photoshop đã thay đổi cách chúng ta nghĩ về chỉnh sửa hình ảnh, nhưng hãy thành thật mà nói - việc xử lý các tệp hình ảnh phức tạp đôi khi có thể giống như giải mã một ngôn ngữ nước ngoài. Rất may, bằng cách sử dụng Aspose.PSD cho Java, bạn có thể quản lý và thao tác các tệp Photoshop một cách liền mạch mà không cần bằng cấp về thiết kế đồ họa. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào phần hướng dẫn giải thích cách quản lý các lớp điều chỉnh Bộ trộn kênh trong tệp PSD bằng Java. Sẵn sàng để giải phóng nghệ sĩ kỹ thuật số bên trong của bạn? Hãy bắt đầu!
 ## Điều kiện tiên quyết
@@ -114,3 +120,9 @@ Aspose.PSD cho Java là một thư viện cho phép các nhà phát triển làm
 Mặc dù chủ yếu dành cho PSD, Aspose.PSD cũng có thể xử lý các định dạng khác như PSB và hơn thế nữa, do đó mở rộng khả năng sử dụng của nó.
 ### Tôi có thể nhận hỗ trợ cho Aspose.PSD ở đâu?
  Bạn có thể tìm kiếm sự giúp đỡ và hỗ trợ trên[diễn đàn](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

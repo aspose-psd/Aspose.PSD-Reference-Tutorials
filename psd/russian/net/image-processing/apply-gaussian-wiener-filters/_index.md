@@ -3,10 +3,16 @@ title: Применение фильтров Гаусса и Винера в Asp
 linktitle: Применение фильтров Гаусса и Винера
 second_title: Aspose.PSD .NET API
 description: Повышайте качество изображений без особых усилий с помощью Aspose.PSD для .NET. Применяйте фильтры Гаусса и Винера для снижения шума и оптимальной визуальной привлекательности.
-type: docs
 weight: 10
 url: /ru/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение фильтров Гаусса и Винера в Aspose.PSD для .NET
+
 ## Введение
 
 В области обработки изображений с использованием .NET Aspose.PSD выделяется как мощный набор инструментов, который позволяет разработчикам с легкостью манипулировать изображениями. Одной из особенно полезных функций является применение фильтров Гаусса и Винера. Эти фильтры играют решающую роль в повышении качества изображения, снижении шума и обеспечении оптимальной визуальной привлекательности.
@@ -110,3 +116,10 @@ A2: Размер радиуса определяет область, над ко
 ### Вопрос 5: Доступна ли бесплатная пробная версия Aspose.PSD?
 
  О5: Да, вы можете изучить возможности Aspose.PSD, загрузив[бесплатная пробная версия](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

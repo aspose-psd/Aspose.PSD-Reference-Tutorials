@@ -3,10 +3,16 @@ title: 使用 Java 在 PSD 中添加曲线调整层
 linktitle: 使用 Java 在 PSD 中添加曲线调整层
 second_title: Aspose.PSD Java API
 description: 在本详细教程中学习如何使用 Aspose.PSD for Java 将曲线调整层添加到 PSD 文件。轻松增强您的图像。
-type: docs
 weight: 11
 url: /zh/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PSD 中添加曲线调整层
+
 ## 介绍
 您是否曾在尝试处理 PSD 格式的图像时遇到困难？无论您是初出茅庐的平面设计师还是经验丰富的专业人士，处理 Photoshop 文件有时都感觉像是在迷宫中穿行。幸运的是，有一个工具可以简化此过程 - Aspose.PSD for Java。在本教程中，我们将深入研究如何使用 Aspose.PSD 向 PSD 文件添加曲线调整层，使您的图像编辑任务更轻松、更高效。通过分步指导，您将能够像专业人士一样增强图像，而不会陷入传统图像处理相关的复杂性。
 ## 先决条件
@@ -94,3 +100,9 @@ Aspose.PSD 是一个用于使用各种编程语言（包括 Java）处理 Photos
 当然！Aspose.PSD 允许操作 PSD 文件中的各种图层类型。
 ### 在哪里可以找到更多文档？
 如需详细文档，请访问[Aspose.PSD for Java 文档](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

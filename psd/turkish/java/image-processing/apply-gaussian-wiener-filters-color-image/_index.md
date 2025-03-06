@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Renkli Görüntülere Gauss ve Wiener Filtreleri 
 linktitle: Renkli Görüntülere Gauss ve Wiener Filtreleri Uygulayın
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java ile renkli görüntülerinizi zahmetsizce geliştirin. Çarpıcı görsel sonuçlar için Gauss ve Wiener filtrelerini adım adım uygulamayı öğrenin.
-type: docs
 weight: 11
 url: /tr/java/image-processing/apply-gaussian-wiener-filters-color-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Renkli Görüntülere Gauss ve Wiener Filtreleri Uygulayın
+
 ## giriiş
 
 Aspose.PSD for Java kullanarak renkli görüntülere Gauss ve Wiener filtrelerinin uygulanmasına ilişkin bu kapsamlı eğitime hoş geldiniz. Bu kılavuzda, renkli görsellerinizi bu güçlü filtrelerle nasıl geliştirebileceğinizi adım adım keşfederek görsel içeriğinizi optimize etme becerilerini sağlayacağız.
@@ -96,3 +102,9 @@ Cevap4: Evet, karmaşık görüntü işleme efektleri elde etmek için birden fa
 ### S5: Aspose.PSD ile ilgili sorgular için nereden destek alabilirim?
 
  A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

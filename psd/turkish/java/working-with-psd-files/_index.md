@@ -3,10 +3,16 @@ title: PSD Dosyalarıyla Çalışmak
 linktitle: PSD Dosyalarıyla Çalışmak
 second_title: Aspose.PSD Java API'si
 description: PSD katman gruplarının görüntülere nasıl aktarılacağı ve Clbl, Infx ve Lspf kaynaklarının nasıl işleneceği de dahil olmak üzere kapsamlı Aspose.PSD for Java eğitimlerini keşfedin.
-type: docs
 weight: 26
 url: /tr/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD Dosyalarıyla Çalışmak
+
 
 ## giriiş
 
@@ -37,3 +43,9 @@ Aspose.PSD for Java kullanarak PSD dosyalarında Clbl Kaynağını nasıl destek
 Bu kapsamlı, adım adım eğitimle Aspose.PSD for Java kullanarak PSD dosyalarındaki Infx Kaynağını nasıl değiştireceğinizi öğrenin. Her seviyedeki geliştiriciler için mükemmeldir.
 ### [Java kullanarak PSD Dosyalarında Lspf Kaynağını Destekleyin](./support-lspf-resource-psd-files/)
 Adım adım kılavuzumuzla Aspose.PSD for Java'yı kullanarak PSD dosyalarında Lspf Kaynağını nasıl destekleyeceğinizi ve değiştireceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

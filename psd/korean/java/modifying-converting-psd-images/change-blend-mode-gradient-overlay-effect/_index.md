@@ -3,10 +3,16 @@ title: 그라디언트 오버레이 효과에서 혼합 모드 변경
 linktitle: 그라디언트 오버레이 효과에서 혼합 모드 변경
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 그라데이션 오버레이 효과의 블렌드 모드를 변경하는 방법을 알아보세요. 멋진 그래픽을 만들기 위한 단계별 가이드입니다.
-type: docs
 weight: 19
 url: /ko/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 그라디언트 오버레이 효과에서 혼합 모드 변경
+
 ## 소개
 몇 가지 고급 기술을 사용하여 그래픽 디자인 게임을 향상시키고 싶으십니까? 프로그래밍 방식으로 Photoshop 파일의 레이어를 조작하고 싶습니까? 그렇다면 제대로 찾아오셨습니다! 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 그라데이션 오버레이 효과의 혼합 모드를 변경하는 단계를 안내합니다. 노련한 개발자이든 신진 디자이너이든 관계없이 프로젝트에 이러한 기술이 접근 가능하고 강력하다는 것을 알게 될 것입니다. 
 ## 전제조건
@@ -77,3 +83,9 @@ Aspose.PSD for Java는 개발자가 Photoshop PSD 파일을 프로그래밍 방�
  예! Aspose 지원 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/psd/34) 커뮤니티 및 기술 직원의 도움이 필요합니다.
 ### Aspose.PSD의 임시 라이선스를 구입할 수 있나요?
  전적으로! 임시면허를 신청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 제한 없이 전체 기능을 테스트합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

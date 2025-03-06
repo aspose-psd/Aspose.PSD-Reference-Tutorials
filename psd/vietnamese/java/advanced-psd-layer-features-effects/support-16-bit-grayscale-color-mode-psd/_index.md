@@ -3,10 +3,16 @@ title: Hỗ trợ Chế độ màu thang độ xám 16 bit trong PSD - Java
 linktitle: Hỗ trợ Chế độ màu thang độ xám 16 bit trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách triển khai chế độ màu thang độ xám 16 bit trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn chi tiết từng bước này.
-type: docs
 weight: 11
 url: /vi/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ Chế độ màu thang độ xám 16 bit trong PSD - Java
+
 ## Giới thiệu
 Khi bạn bước vào thế giới thiết kế đồ họa và xử lý hình ảnh, việc hiểu cách làm việc với các chế độ màu khác nhau giống như sở hữu một vũ khí bí mật. Đặc biệt, thang độ xám 16 bit có thể thay đổi cuộc chơi, mang lại cho hình ảnh của bạn độ sâu và chi tiết ấn tượng khiến chúng thực sự nổi bật. Vậy, bạn đã sẵn sàng khám phá tính năng mạnh mẽ này bằng Aspose.PSD cho Java chưa? Nếu bạn đã chuẩn bị sẵn thiết bị mã hóa, hãy bắt tay vào thực hiện ngay.
 ## Điều kiện tiên quyết
@@ -126,3 +132,9 @@ Tuyệt đối! Aspose.PSD hỗ trợ nhiều chế độ màu khác nhau, vì v
  Bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/psd/java/) để biết thêm các ví dụ và hướng dẫn chuyên sâu hơn.
 ### Làm cách nào để mua giấy phép cho Aspose.PSD?
  Bạn có thể mua giấy phép bằng cách truy cập[Trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

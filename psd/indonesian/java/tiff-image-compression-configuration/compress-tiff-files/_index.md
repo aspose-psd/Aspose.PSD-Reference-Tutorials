@@ -3,10 +3,16 @@ title: Kompres File TIFF menggunakan Aspose.PSD untuk Java
 linktitle: Kompres File TIFF menggunakan Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Kompres file TIFF secara efisien menggunakan Aspose.PSD untuk Java tanpa mengorbankan kualitas. Ikuti panduan terperinci kami untuk menyederhanakan alur kerja Anda.
-type: docs
 weight: 10
 url: /id/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompres File TIFF menggunakan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Bayangkan Anda sedang mengerjakan proyek desain grafis berskala besar, dan file PSD membebani sistem Anda. Anda perlu membagikan file-file ini atau menyimpannya untuk digunakan nanti, tetapi ukurannya terlalu besar untuk ditangani. Di situlah mengompresi file PSD Anda ke dalam format TIFF berguna. File TIFF menawarkan keseimbangan antara kualitas dan ukuran, menjadikannya ideal untuk penyimpanan dan berbagi. Dalam tutorial ini, kami akan memandu Anda melalui proses mengompresi file TIFF menggunakan Aspose.PSD untuk Java, memastikan gambar Anda kompak namun tetap mempertahankan kualitasnya.
@@ -142,3 +148,9 @@ Aspose.PSD untuk Java terutama menangani file PSD, tetapi menyediakan dukungan e
 ### Bagaimana kompresi skala abu-abu mempengaruhi kualitas gambar?
 
 Kompresi skala abu-abu mengurangi jumlah warna pada gambar, yang dapat menyebabkan pengurangan detail visual. Namun, untuk jenis gambar tertentu, pengorbanan ini minimal dan dapat mengakibatkan pengurangan ukuran file secara signifikan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

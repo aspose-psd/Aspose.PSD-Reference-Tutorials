@@ -3,10 +3,16 @@ title: ใช้ตัวกรอง Motion Wiener โดยใช้ Aspose.PS
 linktitle: ใช้ฟิลเตอร์ Motion Wiener
 second_title: Aspose.PSD Java API
 description: การประมวลผลภาพหลักใน Java ด้วย Aspose.PSD ใช้ตัวกรอง Motion Wiener ได้อย่างง่ายดายโดยใช้คำแนะนำทีละขั้นตอนของเรา
-type: docs
 weight: 13
 url: /th/java/image-processing/apply-motion-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้ตัวกรอง Motion Wiener โดยใช้ Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 ในโลกแบบไดนามิกของการประมวลผลภาพ Aspose.PSD สำหรับ Java กลายเป็นเครื่องมืออันทรงพลัง ซึ่งช่วยให้นักพัฒนาสามารถใช้ Motion Wiener Filters ได้อย่างง่ายดาย คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ ทำให้การจัดการรูปภาพเป็นงานที่นักพัฒนา Java สามารถเข้าถึงได้
@@ -109,3 +115,9 @@ image.save(destName, new GifOptions());
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร
 
 A5: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบและประเมินผล
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

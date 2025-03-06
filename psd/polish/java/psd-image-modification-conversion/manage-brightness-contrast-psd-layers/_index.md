@@ -3,10 +3,16 @@ title: Zarządzanie jasnością i kontrastem w warstwach PSD — Java
 linktitle: Zarządzanie jasnością i kontrastem w warstwach PSD — Java
 second_title: Aspose.PSD API Java
 description: Naucz się bez wysiłku regulować jasność i kontrast w plikach PSD za pomocą Aspose.PSD dla Java. Idealny dla programistów i grafików.
-type: docs
 weight: 21
 url: /pl/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie jasnością i kontrastem w warstwach PSD — Java
+
 ## Wstęp
 
 Czy jesteś grafikiem lub programistą, który często pracuje z plikami PSD (dokument Photoshopa)? Czy uważasz, że musisz dostosować jasność i kontrast warstw w tych plikach, ale brakuje Ci wiedzy, jak zautomatyzować to zadanie za pomocą Java? Cóż, masz szczęście! W tym samouczku omówimy, jak zarządzać jasnością i kontrastem w warstwach PSD przy użyciu biblioteki Aspose.PSD dla Java. Dzięki temu nie tylko zaoszczędzisz czas, ale także usprawnisz twórczy przepływ pracy. Zakasamy rękawy i zaczynamy!
@@ -125,3 +131,9 @@ Aspose.PSD dla Java to biblioteka, która pozwala programistom programowo manipu
 
 ### Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.PSD?
  Możesz uzyskać wsparcie dla Aspose.PSD na ich stronie[forum wsparcia](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hỗ trợ giám sát ngắt trong tệp PSD - Java
 linktitle: Hỗ trợ giám sát ngắt trong tệp PSD - Java
 second_title: API Java Aspose.PSD
 description: Ngắt các chuyển đổi PSD chạy dài trong Java bằng Trình theo dõi ngắt của Aspose.PSD. Tìm hiểu cách triển khai sự gián đoạn một cách duyên dáng và cải thiện trải nghiệm người dùng.
-type: docs
 weight: 24
 url: /vi/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ giám sát ngắt trong tệp PSD - Java
+
 ## Giới thiệu
 
 Hướng dẫn toàn diện này sẽ trang bị cho bạn kiến thức để tận dụng Trình giám sát ngắt trong các ứng dụng Java của bạn. Chúng tôi sẽ đi sâu vào các điều kiện tiên quyết, hướng dẫn bạn cách nhập các gói cần thiết và chia nhỏ quy trình thành các hướng dẫn rõ ràng từng bước bằng cách sử dụng các ví dụ về mã. Vì vậy, hãy thắt dây an toàn và sẵn sàng kiểm soát các chuyển đổi PSD của bạn!
@@ -127,3 +133,9 @@ Mặc dù ví dụ tập trung vào chuyển đổi PSD sang PNG, nhưng Interru
 ### Có bất kỳ tác động nào về hiệu suất khi sử dụng Trình giám sát ngắt không?
 
  Chi phí hoạt động của việc sử dụng Trình giám sát ngắt nhìn chung là tối thiểu. Tuy nhiên, tần suất kiểm tra ngắt trong`SaveImageWorker` có thể ảnh hưởng đến hiệu suất. Điều cần thiết là đạt được sự cân bằng giữa khả năng đáp ứng và hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

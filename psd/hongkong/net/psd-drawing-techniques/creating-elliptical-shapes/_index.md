@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 建立橢圓形狀
 linktitle: 使用 Aspose.PSD for .NET 建立橢圓形狀
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD 在 .NET 中繪製橢圓形。帶有程式碼範例的分步指南。輕鬆創建令人驚嘆的圖形。
-type: docs
 weight: 13
 url: /zh-hant/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 建立橢圓形狀
+
 ## 介紹
 
 歡迎閱讀我們有關使用 Aspose.PSD for .NET 建立橢圓形狀的綜合指南。 Aspose.PSD 是一個功能強大的.NET 程式庫，可讓開發人員操作和轉換 Photoshop 文件，而無需 Adobe Photoshop。在本教程中，我們將引導您完成使用該庫繪製橢圓形狀的過程。
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### Q5：測試需要臨時許可證嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

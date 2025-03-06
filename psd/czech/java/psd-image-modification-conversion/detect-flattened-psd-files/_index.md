@@ -3,10 +3,16 @@ title: Detekujte sloučené soubory PSD pomocí Aspose.PSD pro Java
 linktitle: Detekujte sloučené soubory PSD pomocí Aspose.PSD pro Java
 second_title: Aspose.PSD Java API
 description: Zjistěte, jak detekovat sloučené soubory PSD pomocí Aspose.PSD for Java, krok za krokem v tomto komplexním tutoriálu.
-type: docs
 weight: 10
 url: /cs/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detekujte sloučené soubory PSD pomocí Aspose.PSD pro Java
+
 ## Zavedení
 
 Vítejte ve světě manipulace se soubory PSD (Photoshop Document) pomocí Aspose.PSD pro Javu! Pokud jste někdy potřebovali pracovat s vrstvami v souborech Photoshopu, ale nevěděli jste, kde začít, jste na správném místě. V tomto tutoriálu se ponoříme do toho, jak zjistit, zda je soubor PSD sloučen pomocí Aspose.PSD. Zploštění PSD znamená, že všechny jeho vrstvy jsou sloučeny do jediné sjednocené vrstvy, což může později trochu zkomplikovat úpravy. Na konci této příručky budete připraveni zkontrolovat tento zásadní aspekt vašich souborů PSD. Posaďte se, dejte si kávu a pojďme se ponořit!
@@ -77,3 +83,9 @@ Ano! Aspose.PSD umí pracovat s různými formáty obrázků a poskytuje rozsáh
 
 ### Existuje způsob, jak otestovat Aspose.PSD zdarma?
  Absolutně! Bezplatnou zkušební verzi můžete zahájit stažením zkušební verze z[tento odkaz](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

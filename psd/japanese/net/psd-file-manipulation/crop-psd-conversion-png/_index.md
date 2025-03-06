@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で PSD ファイルを PNG に変換するときに�
 linktitle: PNG に変換するときに PSD ファイルをトリミングする
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を使用して PSD ファイルを簡単に切り抜く方法を学びます。PNG へのシームレスな変換については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 18
 url: /ja/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で PSD ファイルを PNG に変換するときに切り取る
+
 ## 導入
 .NET 開発の分野では、画像の操作と変換は一般的なタスクです。Aspose.PSD for .NET は、このプロセスを効率化する強力なツール セットを提供します。よくある要件の 1 つは、PSD ファイルを PNG に変換する前にトリミングすることです。このステップ バイ ステップのチュートリアルでは、Aspose.PSD for .NET を使用してこのプロセスを詳しく説明します。
 ## 前提条件
@@ -77,3 +83,9 @@ A4: 臨時免許証が必要な場合は取得できます[ここ](https://purch
 ### Q5: ドキュメントには例やチュートリアルはありますか?
 
  A5: はい、包括的なドキュメントと例を見つけることができます[ここ](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Prise en charge des effets d'ombre dans Aspose.PSD pour .NET
 linktitle: Prise en charge des effets d'ombre
 second_title: API Aspose.PSD.NET
 description: Améliorez vos images avec Aspose.PSD pour .NET ! Apprenez à prendre en charge les effets d'ombre étape par étape. Téléchargez-le maintenant pour une expérience visuellement époustouflante.
-type: docs
 weight: 14
 url: /fr/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge des effets d'ombre dans Aspose.PSD pour .NET
+
 ## Introduction
 
 L'ajout d'effets d'ombre aux images peut améliorer considérablement l'attrait visuel et créer une expérience utilisateur plus immersive. Aspose.PSD pour .NET fournit une solution puissante pour prendre en charge les effets d'ombre dans vos images, vous permettant de personnaliser divers paramètres et d'obtenir les effets visuels souhaités.
@@ -109,3 +115,9 @@ A2 : Oui, Aspose.PSD pour .NET prend en charge un large éventail de formats de
 ### Q5 : Puis-je essayer Aspose.PSD pour .NET gratuitement avant d’acheter ?
 
  A5 : Oui, vous pouvez télécharger une version d'essai gratuite à partir du[page des versions](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

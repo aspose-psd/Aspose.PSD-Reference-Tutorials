@@ -3,10 +3,16 @@ title: รองรับโหมดสีโทนสีเทา 16 บิต
 linktitle: รองรับโหมดสีโทนสีเทา 16 บิตใน PSD - Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีใช้งานโหมดสีระดับสีเทา 16 บิตในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java พร้อมบทช่วยสอนแบบละเอียดทีละขั้นตอนนี้
-type: docs
 weight: 11
 url: /th/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับโหมดสีโทนสีเทา 16 บิตใน PSD - Java
+
 ## การแนะนำ
 เมื่อคุณดำดิ่งสู่โลกแห่งการออกแบบกราฟิกและการปรับแต่งภาพ การทำความเข้าใจวิธีการทำงานในโหมดสีต่างๆ ก็เหมือนกับการมีอาวุธลับ โดยเฉพาะอย่างยิ่ง ระดับสีเทา 16 บิตสามารถเป็นตัวเปลี่ยนเกมได้ ทำให้ภาพของคุณมีความลึกและรายละเอียดที่น่าทึ่งจนทำให้ภาพดูโดดเด่นอย่างแท้จริง คุณพร้อมที่จะสำรวจคุณสมบัติอันทรงพลังนี้โดยใช้ Aspose.PSD สำหรับ Java แล้วหรือยัง? หากคุณมีอุปกรณ์การเขียนโค้ดพร้อมแล้ว มาเริ่มกันเลย
 ## ข้อกำหนดเบื้องต้น
@@ -126,3 +132,9 @@ finally {
  คุณสามารถตรวจสอบได้ที่[เอกสารประกอบ](https://reference.aspose.com/psd/java/) สำหรับตัวอย่างและบทช่วยสอนเชิงลึกเพิ่มเติม
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PSD ได้อย่างไร
  คุณสามารถซื้อใบอนุญาตได้โดยไปที่[กำหนดหน้าการซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

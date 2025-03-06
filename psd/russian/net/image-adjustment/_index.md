@@ -3,10 +3,16 @@ title: Настройка изображения
 linktitle: Настройка изображения
 second_title: Aspose.PSD .NET API
 description: Раскройте потенциал настройки изображений с помощью Aspose.PSD для .NET. Изучите руководства по яркости, контрастности и цветовому балансу, чтобы освоить манипуляции с изображениями.
-type: docs
 weight: 24
 url: /ru/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка изображения
+
 ## Введение
 
 Готовы ли вы улучшить свои навыки манипулирования изображениями? Погрузитесь в мир Aspose.PSD для .NET с помощью наших подробных руководств по настройке изображений. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, наши пошаговые руководства помогут вам легко улучшить изображения.
@@ -42,3 +48,9 @@ url: /ru/net/image-adjustment/
 Узнайте, как легко размыть изображения с помощью Aspose.PSD для .NET. Пошаговое руководство по беспрепятственному манипулированию изображениями в проектах C#.
 ### [Применение настройки цветового баланса в Aspose.PSD для .NET](./color-balance-adjustment/)
 Улучшайте цвета PSD-изображений без особых усилий с помощью функции регулировки цветового баланса Aspose.PSD for .NET. Следуйте нашему пошаговому руководству, чтобы получить потрясающие результаты.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 이미지 처리
 linktitle: 이미지 처리
 second_title: Aspose.PSD 자바 API
 description: 이미지 처리에서 Java용 Aspose.PSD의 잠재력을 활용해 보세요. Gaussian, Wiener, Median 및 Motion Wiener 필터를 단계별로 적용하는 방법을 알아보세요.
-type: docs
 weight: 20
 url: /ko/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 처리
+
 ## 소개
 
 개발자가 시각적 콘텐츠를 향상시킬 수 있는 툴킷인 Aspose.PSD for Java를 사용하면 이미지 처리가 흥미로운 여정이 됩니다. 기본 기술부터 고급 프로세스까지 이 튜토리얼 시리즈는 Aspose.PSD를 Java 이미지 처리를 위한 솔루션으로 만드는 기능을 자세히 설명합니다.
@@ -57,3 +63,9 @@ Java용 Aspose.PSD에서 Otsu 임계값을 사용하여 이진화를 살펴보�
 Java용 Aspose.PSD의 Bradley Thresholding을 사용하여 이미지 품질을 향상합니다. 효과적인 이미지 이진화를 위한 단계별 가이드를 따르세요.
 ### [Java용 Aspose.PSD를 사용하여 PSD 파일 자르기](./crop-psd-file/)
 Aspose.PSD를 사용하여 Java에서 원활한 PSD 파일 자르기를 탐색하세요. 이미지 조작 작업에 정밀도와 효율성을 손쉽게 통합하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kontrasztbeállítás megvalósítása az Aspose.PSD for .NET-ben
 linktitle: A kontrasztbeállítás végrehajtása
 second_title: Aspose.PSD .NET API
 description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan valósíthatja meg a kontraszt beállítását az Aspose.PSD for .NET-ben.
-type: docs
 weight: 11
 url: /hu/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kontrasztbeállítás megvalósítása az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban az Aspose.PSD for .NET kontrasztbeállításának megvalósításáról! Ebben az oktatóanyagban a kép kontrasztjának növelésének folyamatát vizsgáljuk meg az Aspose.PSD, egy hatékony .NET képalkotási könyvtár használatával. Az útmutató végére alapos ismerete lesz arról, hogyan alkalmazhat zökkenőmentesen kontrasztbeállításokat a képeken.
@@ -101,3 +107,9 @@ Ebben az oktatóanyagban megvizsgáltuk a képkontraszt növelésének folyamat�
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
  V5: Szükség esetén ideiglenes engedélyt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

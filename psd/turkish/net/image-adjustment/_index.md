@@ -3,10 +3,16 @@ title: Görüntü Ayarı
 linktitle: Görüntü Ayarı
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile görüntü ayarlama potansiyelini ortaya çıkarın. Görüntü manipülasyonunda ustalaşmak için parlaklık, kontrast ve renk dengesi hakkındaki eğitimleri keşfedin.
-type: docs
 weight: 24
 url: /tr/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü Ayarı
+
 ## giriiş
 
 Görüntü işleme becerilerinizi geliştirmeye hazır mısınız? Görüntü ayarlamaya ilişkin kapsamlı eğitimlerimizle Aspose.PSD for .NET dünyasına dalın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, adım adım kılavuzlarımız görselleri zahmetsizce geliştirmenize yardımcı olacaktır.
@@ -42,3 +48,9 @@ Aspose.PSD for .NET'in gücünü Gama Ayarlamanın uygulanmasına ilişkin adım
 Aspose.PSD for .NET ile görüntüleri zahmetsizce nasıl bulanıklaştıracağınızı öğrenin. C# projelerinizde kusursuz görüntü işleme için adım adım kılavuz.
 ### [Aspose.PSD for .NET'te Renk Dengesi Ayarını Uygulama](./color-balance-adjustment/)
 Aspose.PSD for .NET'in Renk Dengesi Ayarlama özelliği ile PSD görüntü renklerini zahmetsizce geliştirin. Çarpıcı sonuçlar için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

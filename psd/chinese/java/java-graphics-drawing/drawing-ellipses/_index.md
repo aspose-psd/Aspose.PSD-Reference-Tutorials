@@ -3,10 +3,16 @@ title: 在 Java 中绘制椭圆
 linktitle: 在 Java 中绘制椭圆
 second_title: Aspose.PSD Java API
 description: 学习如何使用 Aspose.PSD 在 Java 中绘制椭圆，以实现精确的图形设计和图像处理。掌握分步教程。
-type: docs
 weight: 15
 url: /zh/java/java-graphics-drawing/drawing-ellipses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中绘制椭圆
+
 ## 介绍
 在本教程中，您将学习如何使用 Aspose.PSD for Java 绘制椭圆。Aspose.PSD 是一个功能强大的库，允许 Java 开发人员使用 PSD 文件并轻松处理图像。绘制椭圆等形状是图像处理和图形设计中的一项基本任务。通过遵循本指南，您将获得使用 Aspose.PSD 以编程方式创建椭圆的实践经验。
 ## 先决条件
@@ -76,3 +82,9 @@ Aspose.PSD 提供免费试用版，让您可以在购买之前评估其功能。
 Aspose.PSD 支持将图像保存为各种格式，包括 BMP、PNG、JPEG 和 PSD。
 ### Aspose.PSD 适合企业使用吗？
 是的，Aspose.PSD 专为专业和企业级图像处理任务而设计。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

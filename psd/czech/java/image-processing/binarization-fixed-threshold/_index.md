@@ -3,10 +3,16 @@ title: Binarizace s pevným prahem v Aspose.PSD pro Javu
 linktitle: Binarizace s pevným prahem
 second_title: Aspose.PSD Java API
 description: Prozkoumejte binarizaci s pevným prahem v Aspose.PSD pro Javu. Bezproblémově transformujte obrázky pomocí našeho podrobného průvodce.
-type: docs
 weight: 14
 url: /cs/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarizace s pevným prahem v Aspose.PSD pro Javu
+
 ## Zavedení
 
 V oblasti vývoje v Javě se Aspose.PSD ukazuje jako mocný nástroj pro úlohy zpracování obrazu. Jednou z takových zásadních operací je binarizace, technika, která zjednodušuje obrázky tím, že je převádí do binární podoby. Tento tutoriál vás provede procesem dosažení binarizace s pevným prahem pomocí Aspose.PSD pro Java. Připoutejte se, až prozkoumáme kroky této cesty transformativního zpracování obrazu.
@@ -101,3 +107,9 @@ A1:Ano, Aspose.PSD podporuje různé formáty obrázků, díky čemuž je binari
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
  A5: Ano, můžete prozkoumat možnosti Aspose.PSD pomocí bezplatné zkušební verze[zde](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

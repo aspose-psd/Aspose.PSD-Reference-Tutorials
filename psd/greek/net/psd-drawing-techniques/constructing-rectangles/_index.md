@@ -3,10 +3,16 @@ title: Κατασκευάζοντας ορθογώνια στο Aspose.PSD γι�
 linktitle: Κατασκευάζοντας ορθογώνια
 second_title: Aspose.PSD .NET API
 description: Εξερευνήστε την τέχνη της σχεδίασης ορθογωνίων στο .NET με το Aspose.PSD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση. Ανεβάστε το παιχνίδι χειρισμού εικόνας σας χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατασκευάζοντας ορθογώνια στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Στον δυναμικό τομέα της ανάπτυξης .NET, το Aspose.PSD ξεχωρίζει ως ένα ισχυρό εργαλείο για το χειρισμό της επεξεργασίας εικόνας. Αυτό το σεμινάριο εστιάζει σε μια βασική εργασία: κατασκευή ορθογωνίων χρησιμοποιώντας Aspose.PSD για .NET. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία, διασφαλίζοντας ότι κατανοείτε πλήρως κάθε έννοια.
@@ -94,3 +100,9 @@ A4: Η χρήση 32 Bpp επιτρέπει πιο πλούσια χρωματι
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.PSD;
 
  A5: Ναι, μπορείτε να εξερευνήσετε το Aspose.PSD με μια δωρεάν δοκιμή. Κατεβάστε το[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

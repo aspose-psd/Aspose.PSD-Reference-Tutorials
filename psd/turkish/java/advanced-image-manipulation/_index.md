@@ -3,10 +3,16 @@ title: Gelişmiş Görüntü İşleme
 linktitle: Gelişmiş Görüntü İşleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java ile gelişmiş görüntü işleme eğitimlerini keşfedin. Verimli yazı tipi değiştirmeyi, yazı tipi önbelleğe almayı zorlamayı, bikübik yeniden örnekleyiciyi uygulamayı ve daha fazlasını öğrenin.
-type: docs
 weight: 24
 url: /tr/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gelişmiş Görüntü İşleme
+
 
 ## giriiş
 
@@ -80,3 +86,9 @@ Aspose.PSD ile Java'da resim yeniden boyutlandırma konusunda ustalaşın. Yenid
 Aspose.PSD ile Java'da görüntü döndürmeyi zahmetsizce keşfedin. PSD dosyalarını kolayca döndürün, çevirin ve kaydedin.
 ### [Aspose.PSD for Java ile Bir Görüntüyü Belirli Bir Açıda Döndürme](./rotate-image-specific-angle/)
 Aspose.PSD for Java ile Java'da görüntü döndürmeyi keşfedin. Görüntüleri belirli açılarda zahmetsizce döndürün.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

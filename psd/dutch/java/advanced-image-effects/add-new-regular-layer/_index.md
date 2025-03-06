@@ -3,10 +3,16 @@ title: Voeg een nieuwe reguliere laag toe aan PSD met Aspose.PSD voor Java
 linktitle: Voeg een nieuwe reguliere laag toe aan PSD
 second_title: Aspose.PSD Java-API
 description: Leer hoe u een nieuwe reguliere laag aan PSD-bestanden kunt toevoegen met Aspose.PSD voor Java. Volg onze stapsgewijze handleiding voor naadloze PSD-manipulatie.
-type: docs
 weight: 11
 url: /nl/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een nieuwe reguliere laag toe aan PSD met Aspose.PSD voor Java
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het gebruik van Aspose.PSD voor Java om een nieuwe reguliere laag aan een PSD-bestand toe te voegen. Aspose.PSD is een krachtige Java-bibliotheek waarmee ontwikkelaars PSD-bestanden efficiënt kunnen manipuleren en ermee kunnen werken. In deze zelfstudie begeleiden we u bij het toevoegen van een nieuwe reguliere laag aan een PSD-bestand, met gedetailleerde stappen en codevoorbeelden.
@@ -120,3 +126,9 @@ A2: Absoluut! Aspose.PSD biedt een reeks transformatieopties voor lagen.
 ### Vraag 5: Zijn er communityforums voor Aspose.PSD-ondersteuning?
 
  A5: Ja, u kunt ondersteuning en discussies vinden[hier](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

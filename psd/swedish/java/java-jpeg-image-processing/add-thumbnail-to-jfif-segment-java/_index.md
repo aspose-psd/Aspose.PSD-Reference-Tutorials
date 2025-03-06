@@ -3,10 +3,16 @@ title: Lägg till miniatyrbild till JFIF-segmentet i Java
 linktitle: Lägg till miniatyrbild till JFIF-segmentet i Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du lägger till en miniatyrbild till en PSD-bild i Java med Aspose.PSD steg-för-steg. Idealisk för Java-utvecklare som vill förbättra bildbehandlingskapaciteten.
-type: docs
 weight: 11
 url: /sv/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till miniatyrbild till JFIF-segmentet i Java
+
 ## Introduktion
 Inom Java-utvecklingen är det avgörande att integrera bildbehandlingsmöjligheter för olika applikationer, allt från enkla bildmanipulationer till komplexa grafiska designuppgifter. Aspose.PSD för Java utmärker sig som ett kraftfullt bibliotek utformat för att hantera PSD-filer (Photoshop Document) med lätthet. Denna handledning fokuserar på en specifik uppgift: lägga till en miniatyrbild till JFIF-segmentet av en bild med Aspose.PSD för Java. I slutet av den här guiden kommer du att lära dig hur du utför detta steg-för-steg, så att du förstår varje del grundligt.
 ## Förutsättningar
@@ -90,3 +96,9 @@ Aspose.PSD för Java är ett bibliotek som tillåter Java-utvecklare att manipul
  Ja, du kan ladda ner en gratis testversion från[Aspose.PSD:s nedladdningssida för provversionen](https://releases.aspose.com/).
 ### Hur kan jag få support för Aspose.PSD för Java?
  För support, besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

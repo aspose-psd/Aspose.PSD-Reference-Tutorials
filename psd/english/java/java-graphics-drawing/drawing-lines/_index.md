@@ -3,10 +3,16 @@ title: Drawing Lines in Java
 linktitle: Drawing Lines in Java
 second_title: Aspose.PSD Java API
 description: Learn how to draw lines in PSD files using Aspose.PSD for Java with this comprehensive tutorial. Boost your Java development skills.
-type: docs
 weight: 16
 url: /java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Lines in Java
+
 ## Introduction
 In the realm of Java development, manipulating and creating PSD (Photoshop Document) files programmatically is a powerful capability. Aspose.PSD for Java empowers developers to perform various tasks such as drawing lines, shapes, and images directly within PSD files. This tutorial will guide you through the process of drawing lines using Aspose.PSD for Java, providing clear steps and examples to help you get started quickly.
 ## Prerequisites
@@ -74,3 +80,10 @@ Yes, you can get a free trial [here](https://releases.aspose.com/).
 For technical support, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
 ### Where can I obtain a temporary license for Aspose.PSD for Java?
 You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

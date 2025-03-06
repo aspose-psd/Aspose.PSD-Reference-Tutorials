@@ -3,10 +3,16 @@ title: Správa vrstvy úpravy expozice v PSD pomocí Java
 linktitle: Správa vrstvy úpravy expozice v PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Vylepšete své obrázky PSD bez námahy pomocí Javy pomocí Aspose.PSD. Postupujte podle této příručky pro správu vrstev úprav expozice krok za krokem.
-type: docs
 weight: 23
 url: /cs/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa vrstvy úpravy expozice v PSD pomocí Java
+
 ## Zavedení
 Pokud jde o programovou práci se soubory Photoshopu, zejména pokud se ponoříte do úprav nebo manipulace s obrázky, knihovna Aspose.PSD pro Javu skutečně změní hru. Jednou z výkonných funkcí, které můžete využít, je vrstva úpravy expozice, která vám umožňuje jednoduše a efektivně vylepšit nebo upravit nastavení expozice vašich snímků. Tento tutoriál vás provede každým krokem ke správě vrstev úprav expozice v souboru PSD pomocí Javy.
 ## Předpoklady
@@ -92,3 +98,9 @@ Ano, Aspose.PSD lze integrovat do webových aplikací, což umožňuje manipulac
  K podpoře komunity můžete přistupovat na fórech Aspose[zde](https://forum.aspose.com/c/psd/34).
 ### Je k dispozici vzorový projekt pro začátek?
  Ano, vzorové projekty a dokumentaci najdete na[Referenční stránka Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

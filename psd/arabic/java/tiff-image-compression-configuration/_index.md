@@ -3,10 +3,16 @@ title: ضغط الصور وتكوينها TIFF
 linktitle: ضغط الصور وتكوينها TIFF
 second_title: Aspose.PSD جافا API
 description: قم بإدارة صور TIFF بكفاءة باستخدام Aspose.PSD لـ Java. تعلم كيفية ضغط وتكوين وتطبيق ضغط Adobe Deflate على ملفات TIFF من خلال برامجنا التعليمية خطوة بخطوة.
-type: docs
 weight: 25
 url: /ar/java/tiff-image-compression-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضغط الصور وتكوينها TIFF
+
 ## مقدمة
 
 قد تكون إدارة صور TIFF أمرًا صعبًا، ولكن باستخدام Aspose.PSD لـ Java، يمكنك التعامل مع هذه المهام بسهولة. سواء كنت بحاجة إلى ضغط ملفات TIFF، أو تكوين الخيارات، أو تطبيق تقنيات ضغط معينة مثل Adobe Deflate، فإن برامجنا التعليمية توفر إرشادات شاملة لتبسيط هذه العمليات. فيما يلي نظرة على كيفية تحقيق أقصى استفادة من Aspose.PSD لـ Java لتلبية احتياجات إدارة صور TIFF الخاصة بك.
@@ -36,3 +42,9 @@ url: /ar/java/tiff-image-compression-configuration/
 تعرف على كيفية تطبيق ضغط Adobe Deflate على صور TIFF باستخدام Aspose.PSD لـ Java. دليل خطوة بخطوة لمعالجة الصور بكفاءة.
 ### [قم بتطبيق ضغط الانكماش على ملفات TIFF باستخدام Java](./apply-deflate-compression-tiff-files/)
 تعرف على كيفية تطبيق ضغط التفريغ على ملفات TIFF باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لتقليل حجم الملف بكفاءة دون فقدان الجودة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

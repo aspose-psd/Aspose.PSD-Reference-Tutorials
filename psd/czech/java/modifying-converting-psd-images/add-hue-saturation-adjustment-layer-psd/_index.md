@@ -3,10 +3,16 @@ title: Přidejte vrstvu pro úpravu sytosti odstínu do PSD
 linktitle: Přidejte vrstvu pro úpravu sytosti odstínu do PSD
 second_title: Aspose.PSD Java API
 description: Naučte se, jak přidat vrstvy úprav sytosti odstínu do PSD pomocí Aspose.PSD pro Java, v tomto komplexním, podrobném tutoriálu. Vylepšete svůj pracovní postup grafického designu.
-type: docs
 weight: 14
 url: /cs/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vrstvu pro úpravu sytosti odstínu do PSD
+
 ## Zavedení
 Pokud jde o grafický design, manipulace s barvami hraje klíčovou roli – konkrétně vyladění odstínu, sytosti a světlosti může drasticky změnit náladu a kvalitu jakéhokoli obrázku. Jedním z účinných způsobů, jak toho dosáhnout, je použití vrstev úprav ve Photoshopu (soubory PSD). Pokud chcete vylepšit své soubory PSD programově pomocí Javy, pomůže vám knihovna Aspose.PSD! Tento výukový program vás provede kroky k přidání vrstvy pro úpravu sytosti odstínu do vašich souborů PSD, díky čemuž budou vaše pracovní postupy produktivnější a efektivnější.
 této příručce pokryjeme vše od importu nezbytných balíčků až po hrubé detaily příkladů kódu.
@@ -102,3 +108,9 @@ Ne, Aspose.PSD je samostatná knihovna, která funguje nezávisle na Photoshopu.
 Ano, pomocí Aspose.PSD můžete automatizovat a dávkově zpracovávat více souborů PSD.
 ### Je Aspose.PSD zdarma?
 Aspose.PSD nabízí bezplatnou zkušební verzi, ale pro dlouhodobé používání je nutná licence. Můžete se podívat na ceny[zde](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiunta di un livello di tratto con gradiente in Aspose.PSD per .NET
 linktitle: Aggiunta di un livello di tratto con sfumatura
 second_title: API Aspose.PSD .NET
 description: Scopri come aggiungere un livello di tratto sfumato in Aspose.PSD per .NET. Migliora le tue capacità di manipolazione delle immagini con questo tutorial completo.
-type: docs
 weight: 12
 url: /it/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiunta di un livello di tratto con gradiente in Aspose.PSD per .NET
+
 ## Introduzione
 
 Se stai cercando di migliorare le tue applicazioni .NET con effetti grafici straordinari, Aspose.PSD per .NET è la soluzione giusta. In questo tutorial, approfondiremo il processo di aggiunta di un livello di tratto con una sfumatura utilizzando Aspose.PSD per .NET. Questa guida passo passo ti consentirà di migliorare l'attrattiva visiva delle tue immagini senza sforzo.
@@ -119,3 +125,9 @@ A1: Sì, Aspose.PSD per .NET è compatibile con vari framework .NET.
 ### Q5: Come posso acquistare una licenza per Aspose.PSD per .NET?
 
  A5: È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

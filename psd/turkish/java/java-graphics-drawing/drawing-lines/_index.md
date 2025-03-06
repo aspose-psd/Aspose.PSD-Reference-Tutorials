@@ -3,10 +3,16 @@ title: Java'da Çizgi Çizimi
 linktitle: Java'da Çizgi Çizimi
 second_title: Aspose.PSD Java API'si
 description: Bu kapsamlı eğitimle Aspose.PSD for Java'yı kullanarak PSD dosyalarında nasıl çizgi çizeceğinizi öğrenin. Java geliştirme becerilerinizi geliştirin.
-type: docs
 weight: 16
 url: /tr/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Çizgi Çizimi
+
 ## giriiş
 Java geliştirme alanında, PSD (Photoshop Belgesi) dosyalarını programlı olarak değiştirmek ve oluşturmak güçlü bir yetenektir. Aspose.PSD for Java, geliştiricilerin doğrudan PSD dosyaları içerisinde çizgi, şekil ve görüntü çizme gibi çeşitli görevleri gerçekleştirmesine olanak sağlar. Bu eğitim, Aspose.PSD for Java kullanarak çizgi çizme sürecinde size rehberlik edecek ve hızlı bir şekilde başlamanıza yardımcı olacak net adımlar ve örnekler sunacaktır.
 ## Önkoşullar
@@ -74,3 +80,9 @@ Aspose.PSD for Java, PSD dosyalarıyla programlı olarak çalışmak için güç
  Teknik destek için şu adresi ziyaret edin:[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD for Java için nereden geçici lisans alabilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

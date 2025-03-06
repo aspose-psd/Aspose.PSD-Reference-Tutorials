@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 이미지 확장 및 자르기
 linktitle: 이미지 확장 및 자르기
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 이미지를 동적으로 확장하고 자르는 방법을 알아보세요. 원활한 이미지 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 이미지 확장 및 자르기
+
 ## 소개
 
 .NET용 Aspose.PSD는 개발자가 .NET 애플리케이션에서 다양한 이미지 형식으로 작업할 수 있는 포괄적인 이미징 라이브러리입니다. 뛰어난 기능 중 하나는 이미지를 쉽게 조작할 수 있다는 것입니다. 이 튜토리얼에서는 이미지 확장 및 자르기에 중점을 두고 Aspose.PSD를 사용하여 이러한 작업을 수행하기 위한 실습 가이드를 제공합니다.
@@ -98,3 +104,9 @@ A1: 예, Aspose.PSD는 JPEG, PNG, GIF 등을 포함한 광범위한 이미지 �
 ### Q5: .NET용 Aspose.PSD를 어디서 구입할 수 있나요?
 
  A5: 도서관은 다음에서 구입할 수 있습니다.[Aspose.PSD 구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dibujar usando la ruta de gráficos en Java
 linktitle: Dibujar usando la ruta de gráficos en Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a crear gráficos complejos en Java utilizando la clase Graphics Path de Aspose.PSD. Este tutorial lo guía en cada paso para crear imágenes impresionantes.
-type: docs
 weight: 19
 url: /es/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dibujar usando la ruta de gráficos en Java
+
 ## Introducción
 Crear y manipular imágenes mediante programación puede ser una tarea apasionante para los desarrolladores de Java, especialmente cuando se utilizan bibliotecas como Aspose.PSD. En este tutorial, nos sumergiremos en el proceso de dibujar gráficos complejos usando la clase Graphics Path en Java con Aspose.PSD.
 ## Requisitos previos
@@ -85,3 +91,9 @@ A partir de esta guía, Aspose.PSD se ocupa específicamente de archivos PSD per
  Puedes comprar Aspose.PSD desde[aquí](https://purchase.aspose.com/buy).
 ### ¿Dónde puedo obtener soporte para Aspose.PSD?
 Puede buscar apoyo y debates sobre[Foro de Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: บังคับให้แคชแบบอักษรด้วย 
 linktitle: บังคับให้แคชแบบอักษร
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีบังคับแคชแบบอักษรโดยใช้ Aspose.PSD สำหรับ Java ปรับการประมวลผลภาพให้เหมาะสมและเพิ่มประสิทธิภาพด้วยคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 11
 url: /th/java/advanced-image-manipulation/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บังคับให้แคชแบบอักษรด้วย Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 คุณกำลังมองหาวิธีเพิ่มประสิทธิภาพการแคชแบบอักษรด้วย Aspose.PSD สำหรับ Java หรือไม่? การแคชแบบอักษรมีบทบาทสำคัญในการเพิ่มประสิทธิภาพแอปพลิเคชัน Java ของคุณ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับงานการประมวลผลภาพที่ซับซ้อน ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการบังคับใช้แคชแบบอักษรโดยใช้ Aspose.PSD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นด้วยการประมวลผลภาพ Java บทช่วยสอนนี้ออกแบบมาเพื่อช่วยให้คุณรวมการแคชแบบอักษรเข้ากับโปรเจ็กต์ของคุณได้อย่างราบรื่น
@@ -89,3 +95,9 @@ image1.save(dataDir + "HasFont.psd");
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
 
  A5: หากคุณต้องการใบอนุญาตชั่วคราว โปรดไปที่[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

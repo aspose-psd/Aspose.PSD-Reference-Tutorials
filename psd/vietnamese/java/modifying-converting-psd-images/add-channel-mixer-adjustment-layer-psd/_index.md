@@ -3,10 +3,16 @@ title: Thêm lớp điều chỉnh bộ trộn kênh trong PSD
 linktitle: Thêm lớp điều chỉnh bộ trộn kênh trong PSD
 second_title: API Java Aspose.PSD
 description: Nâng cao các tệp PSD của bạn với Lớp điều chỉnh bộ trộn kênh bằng Aspose.PSD cho Java. Tìm hiểu từng bước kỹ thuật xử lý màu sắc để có được hình ảnh sống động.
-type: docs
 weight: 10
 url: /vi/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp điều chỉnh bộ trộn kênh trong PSD
+
 ## Giới thiệu
 Thế giới thiết kế đồ họa đang bùng nổ với nhiều khả năng, nhưng đôi khi, việc có được vẻ ngoài hoàn hảo có thể khiến bạn cảm thấy như đang lang thang trong một khu rừng rậm rạp mà không có bản đồ. Bạn đã bao giờ cảm thấy rằng hình ảnh của mình thiếu yếu tố "wow" chưa? Chà, đó là lúc các lớp điều chỉnh phát huy tác dụng! Hôm nay, chúng ta sẽ đi sâu vào cách thêm Lớp điều chỉnh bộ trộn kênh bằng Aspose.PSD cho Java. Đây là một công cụ tiện lợi cho phép bạn thực hiện điều chỉnh màu sắc chính xác cho các tệp PSD của mình, đảm bảo hình ảnh của bạn nổi bật và ấn tượng.
 
@@ -167,3 +173,9 @@ Aspose.PSD được thiết kế chủ yếu để làm việc với các tệp 
 
 ### Có cách nào để có được giấy phép tạm thời cho Aspose.PSD không?
  Đúng! Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

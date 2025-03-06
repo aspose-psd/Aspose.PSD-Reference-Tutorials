@@ -3,10 +3,16 @@ title: تحويل AI إلى PNG في جافا
 linktitle: تحويل AI إلى PNG في جافا
 second_title: Aspose.PSD جافا API
 description: قم بتحويل AI إلى PNG بسهولة في Java باستخدام Aspose.PSD باستخدام هذا الدليل. تعرف على كيفية تحميل ملفات AI وتعيين الخيارات وحفظها كصور PNG دون عناء.
-type: docs
 weight: 13
 url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل AI إلى PNG في جافا
+
 ## مقدمة
 هل تتطلع إلى تحويل ملفات Adobe Illustrator (.AI) إلى صور PNG باستخدام Java؟ لقد أتيت إلى المكان الصحيح! في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة باستخدام مكتبة Aspose.PSD القوية لـ Java. سيساعدك هذا الدليل على فهم كيفية تحويل ملفات AI بسلاسة إلى ملفات PNG عالية الجودة باستخدام بضعة أسطر فقط من التعليمات البرمجية. دعونا نتعمق في الأمر!
 ## المتطلبات الأساسية
@@ -57,3 +63,9 @@ Aspose.PSD هي مكتبة Java تمكن المطورين من العمل مع P
 Aspose.PSD متوافق مع JDK 8 والإصدارات الأحدث. تأكد من تثبيت إصدار JDK المناسب.
 ### أين يمكنني العثور على المزيد من الوثائق؟
  يمكنك العثور على وثائق مفصلة عن[صفحة وثائق Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

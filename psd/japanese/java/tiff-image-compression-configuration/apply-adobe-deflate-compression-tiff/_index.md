@@ -3,10 +3,16 @@ title: Adobe Deflate 圧縮を TIFF に適用する - Java
 linktitle: Adobe Deflate 圧縮を TIFF に適用する - Java
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して Adobe Deflate 圧縮を TIFF 画像に適用する方法を学びます。効率的な画像処理のためのステップバイステップ ガイド。
-type: docs
 weight: 12
 url: /ja/java/tiff-image-compression-configuration/apply-adobe-deflate-compression-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adobe Deflate 圧縮を TIFF に適用する - Java
+
 ## 導入
 
 品質を落とさずに TIFF 画像を効率的に圧縮する方法を考えたことはありませんか? 大きな画像ファイルを扱っている場合、読み込み時間が遅くなったり、ストレージの問題に悩まされたことがあるでしょう。そこで役立つのが Adobe Deflate 圧縮です。Aspose.PSD for Java を使用すると、プロジェクトに簡単に実装できます。このチュートリアルでは、Adobe Deflate 圧縮を TIFF 画像に適用する手順を段階的に説明します。準備はできましたか? さあ、始めましょう!
@@ -125,3 +131,9 @@ Adobe Deflate は、品質を損なうことなく TIFF 画像のサイズを縮
 
 ### Aspose.PSD for Java で他の画像形式を操作できますか?
 もちろんです! Aspose.PSD は、PSD、PNG、JPEG など、さまざまな形式をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

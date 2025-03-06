@@ -3,10 +3,16 @@ title: Gamma-aanpassing implementeren in Aspose.PSD voor .NET
 linktitle: Gamma-aanpassing implementeren
 second_title: Aspose.PSD .NET-API
 description: Ontdek de kracht van Aspose.PSD voor .NET met onze stapsgewijze handleiding voor het implementeren van Gamma-aanpassing. Stel de helderheid en het contrast van het beeld moeiteloos af.
-type: docs
 weight: 12
 url: /nl/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gamma-aanpassing implementeren in Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het implementeren van Gamma-aanpassing in Aspose.PSD voor .NET! Gamma-aanpassing is een cruciale beeldverwerkingstechniek waarmee u de helderheid en het contrast van een afbeelding kunt verfijnen. In deze zelfstudie leiden we u door het proces met behulp van de krachtige Aspose.PSD-bibliotheek voor .NET.
@@ -101,3 +107,9 @@ Gefeliciteerd! U hebt Gamma-aanpassing met succes geïmplementeerd met Aspose.PS
 ### Vraag 5: Heb ik een tijdelijke licentie nodig?
 
  A5: Indien nodig kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

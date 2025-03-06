@@ -3,10 +3,16 @@ title: Criando imagens definindo o caminho em Aspose.PSD para .NET
 linktitle: Criando imagens definindo o caminho
 second_title: API Aspose.PSD .NET
 description: Explore a criação de imagens com Aspose.PSD para .NET. Siga nosso guia passo a passo e libere o potencial desta poderosa biblioteca.
-type: docs
 weight: 11
 url: /pt/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando imagens definindo o caminho em Aspose.PSD para .NET
+
 No domínio do desenvolvimento .NET, Aspose.PSD se destaca como uma ferramenta poderosa para manipulação e criação de imagens. Neste tutorial, nos aprofundaremos no processo de criação de imagens usando Aspose.PSD para .NET, definindo um caminho. Siga estas instruções passo a passo para desbloquear o potencial desta biblioteca versátil.
 
 ## Introdução
@@ -98,3 +104,9 @@ A2: Com certeza! Aspose.PSD permite realizar processamento de imagens em lote, t
 ### P5: Como posso obter suporte ou procurar assistência?
 
  A5: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para se conectar com a comunidade e buscar ajuda de especialistas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

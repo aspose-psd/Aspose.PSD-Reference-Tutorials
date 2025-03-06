@@ -3,10 +3,16 @@ title: Menerapkan Penyesuaian Gamma di Aspose.PSD untuk .NET
 linktitle: Menerapkan Penyesuaian Gamma
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan Aspose.PSD untuk .NET dengan panduan langkah demi langkah kami dalam menerapkan Penyesuaian Gamma. Sempurnakan kecerahan dan kontras gambar dengan mudah.
-type: docs
 weight: 12
 url: /id/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Penyesuaian Gamma di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang penerapan Penyesuaian Gamma di Aspose.PSD untuk .NET! Penyesuaian gamma adalah teknik pemrosesan gambar penting yang memungkinkan Anda menyempurnakan kecerahan dan kontras gambar. Dalam tutorial ini, kami akan memandu Anda melalui proses menggunakan perpustakaan Aspose.PSD yang kuat untuk .NET.
@@ -101,3 +107,9 @@ Selamat! Anda telah berhasil menerapkan Penyesuaian Gamma menggunakan Aspose.PSD
 ### Q5: Apakah saya memerlukan lisensi sementara?
 
  A5: Jika diperlukan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

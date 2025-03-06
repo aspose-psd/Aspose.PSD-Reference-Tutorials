@@ -3,10 +3,16 @@ title: Ekspor Grup Lapisan PSD ke Gambar menggunakan Java
 linktitle: Ekspor Grup Lapisan PSD ke Gambar menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengekspor grup lapisan PSD ke gambar menggunakan Aspose.PSD untuk Java dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan desainer.
-type: docs
 weight: 10
 url: /id/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Grup Lapisan PSD ke Gambar menggunakan Java
+
 ## Perkenalan
 
 Dalam dunia desain digital, mengelola lapisan dan mengekspor bagian tertentu dari karya Anda dapat menjadi terobosan baru. Bayangkan Anda memiliki file Photoshop (PSD) berlapis-lapis yang menakjubkan ini, dan Anda hanya ingin mengekspor sekelompok lapisan tertentu sebagai gambar. Kedengarannya rumit, bukan? Ya, tidak harus begitu! Dengan Aspose.PSD untuk Java, tugas ini tidak hanya dapat dikelola tetapi juga sangat sederhana. Artikel ini akan memandu Anda melalui prosesnya, membaginya menjadi langkah-langkah yang mudah diikuti. Pada akhirnya, Anda akan memiliki pengetahuan untuk menangani lapisan PSD seperti seorang profesional.
@@ -119,3 +125,9 @@ Ya, Anda dapat memodifikasi lapisan, seperti menerapkan transformasi atau efek, 
 
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD untuk Java?
  Anda dapat memperoleh lisensi sementara dari[Asumsikan halaman pembelian](https://purchase.aspose.com/temporary-license/). Ini akan memungkinkan Anda menguji fungsionalitas penuh perpustakaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

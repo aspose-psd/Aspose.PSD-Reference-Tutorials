@@ -3,10 +3,16 @@ title: Render Curves Adjustment Layer PSD-fájlokban – Java
 linktitle: Render Curves Adjustment Layer PSD-fájlokban – Java
 second_title: Aspose.PSD Java API
 description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan renderelheti le és állíthatja be a PSD-fájlok görbéi igazító rétegeit az Aspose.PSD for Java segítségével.
-type: docs
 weight: 16
 url: /hu/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Curves Adjustment Layer PSD-fájlokban – Java
+
 ## Bevezetés
 
 Photoshop Curves Adjustment Layer olyan, mint egy varázspálca a képek javításához. Képzelje el, hogy Ön egy művész, aki remekműve színeit és tónusait módosítja – minden görbe beállítással hihetetlen pontossággal szabályozhatja a fény- és színegyensúlyt. Ha PSD-fájlokkal dolgozik, és ezeket a görbéket programozottan kell manipulálnia, az Aspose.PSD for Java a legjobb eszköz. Ebben az útmutatóban bemutatjuk, hogyan lehet megjeleníteni és beállítani a görbék korrekciós rétegeit PSD-fájlokban az Aspose.PSD for Java használatával. Akár a képtónusokat frissíti, akár az eredményeket exportálja, ez az oktatóanyag mindent lefed, amire szüksége van az induláshoz.
@@ -146,3 +152,9 @@ Nem, az Aspose.PSD for Java a Photoshoptól függetlenül működik, lehetővé 
 
 ### Hol találok támogatást az Aspose.PSD for Java számára?
  Támogatásért látogassa meg a[Aspose támogatási fórum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

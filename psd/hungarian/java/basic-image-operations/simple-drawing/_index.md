@@ -3,10 +3,16 @@ title: Végezzen egyszerű rajzot az Aspose.PSD for Java segítségével
 linktitle: Végezzen egyszerű rajzot
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan rajzolhat alakzatokat PSD-fájlokba az Aspose.PSD for Java segítségével. Ez a lépésenkénti útmutató bemutatja a létrehozást, a rétegek hozzáadását és a kódpéldákkal történő rajzolást.
-type: docs
 weight: 10
 url: /hu/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Végezzen egyszerű rajzot az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre szóló útmutatóban az egyszerű rajzolás végrehajtásáról az Aspose.PSD for Java használatával! Ebben az oktatóanyagban egy új PSD-dokumentum létrehozásának, a rétegek hozzáadásának és a különböző színű alakzatok rajzolásának alapjait fedezzük fel. Az Aspose.PSD for Java egy hatékony könyvtár, amely lehetővé teszi a PSD-fájlok programozott kezelését, és széleskörű funkcionalitást biztosít a grafikai tervezési feladatokhoz.
@@ -125,3 +131,9 @@ Gratulálok! Sikeresen hajtott végre egyszerű rajzolást az Aspose.PSD for Jav
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek az Aspose.PSD for Java számára?
 
  5. válasz: Igen, ideiglenes engedélyt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

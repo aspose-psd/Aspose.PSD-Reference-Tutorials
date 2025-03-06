@@ -3,10 +3,16 @@ title: Jelölje ki a Lap színét a PSD-fájlokban az Aspose.PSD Java használat
 linktitle: Jelölje ki a Lap színét a PSD-fájlokban az Aspose.PSD Java használatával
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan emelheti ki a lapszíneket PSD-fájlokban az Aspose.PSD for Java segítségével. Kövesse lépésről lépésre útmutatónkat, hogy javítsa képkezelési készségeit Java nyelven.
-type: docs
 weight: 19
 url: /hu/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jelölje ki a Lap színét a PSD-fájlokban az Aspose.PSD Java használatával
+
 ## Bevezetés
 
 Szeretne belemerülni a képkezelésbe, és javítani szeretné digitális alkotásait a Java segítségével? Akár tapasztalt fejlesztő, akár csak most kezdi, a PSD-fájlokkal való munka a lehetőségek világát nyithatja meg. A PSD-fájlok a réteges képszerkesztés iparági szabványai, és az Aspose.PSD for Java erejével könnyedén kezelheti ezeket a fájlokat a Java-alkalmazásokon belül. Ma végigvezetjük a lapszínek kiemelését a PSD-fájlokban, így biztosítva, hogy a tervek a lehető legélénkebb módon tűnjenek ki.
@@ -142,3 +148,9 @@ Ha a változtatásokat elmentette egy fájlba, azokat nem lehet visszavonni. Bá
 
 ### Kiemelhetek több réteget egyszerre egy PSD-fájlban?
 Igen, végigpörgetheti a PSD-fájl rétegeit, és minden rétegre külön-külön alkalmazhatja a kívánt lapszín kiemelést.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

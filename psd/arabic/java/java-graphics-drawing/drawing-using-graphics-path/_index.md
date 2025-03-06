@@ -3,10 +3,16 @@ title: الرسم باستخدام مسار الرسومات في جافا
 linktitle: الرسم باستخدام مسار الرسومات في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إنشاء رسومات معقدة في Java باستخدام فئة مسار الرسومات الخاصة بـ Aspose.PSD. يرشدك هذا البرنامج التعليمي خلال كل خطوة لإنشاء صور مذهلة.
-type: docs
 weight: 19
 url: /ar/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الرسم باستخدام مسار الرسومات في جافا
+
 ## مقدمة
 يمكن أن يكون إنشاء الصور ومعالجتها برمجيًا مهمة مثيرة لمطوري Java، خاصة عند استخدام مكتبات مثل Aspose.PSD. في هذا البرنامج التعليمي، سوف نتعمق في عملية رسم الرسومات المعقدة باستخدام فئة Graphics Path في Java باستخدام Aspose.PSD.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ Aspose.PSD هي مكتبة تتيح للمطورين العمل مع ملفات 
  يمكنك شراء Aspose.PSD من[هنا](https://purchase.aspose.com/buy).
 ### أين يمكنني الحصول على الدعم لـ Aspose.PSD؟
 يمكنك طلب الدعم والمناقشات حول[منتدى Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

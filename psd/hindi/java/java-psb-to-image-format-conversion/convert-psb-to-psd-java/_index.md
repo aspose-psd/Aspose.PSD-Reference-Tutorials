@@ -3,10 +3,16 @@ title: जावा में PSB को PSD में बदलें
 linktitle: जावा में PSB को PSD में बदलें
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD का उपयोग करके जावा में PSB को PSD में सहजता से परिवर्तित करना सीखें, जिससे आपके अनुप्रयोगों में ग्राफिक फ़ाइल प्रबंधन में सुधार हो।
-type: docs
 weight: 12
 url: /hi/java/java-psb-to-image-format-conversion/convert-psb-to-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में PSB को PSD में बदलें
+
 ## परिचय
 जावा विकास के क्षेत्र में, ग्राफिक फ़ाइलों को कुशलतापूर्वक हेरफेर करना महत्वपूर्ण है। यह ट्यूटोरियल जावा के लिए Aspose.PSD का लाभ उठाने पर ध्यान केंद्रित करता है ताकि PSB (फ़ोटोशॉप बिग) फ़ाइलों को PSD (फ़ोटोशॉप दस्तावेज़) प्रारूप में आसानी से परिवर्तित किया जा सके। इन चरणों का पालन करके, आप इस क्षमता को अपने जावा अनुप्रयोगों में आसानी से एकीकृत कर सकते हैं।
 ## आवश्यक शर्तें
@@ -58,3 +64,9 @@ image.save(dataDir + "ConvertFromPsb_out.psd", options);
 हां, Aspose.PSD for Java को डेस्कटॉप और वेब-आधारित Java अनुप्रयोगों दोनों में सहजता से एकीकृत किया जा सकता है।
 ### मैं Aspose.PSD for Java के लिए आगे समर्थन या सहायता कहां पा सकता हूं?
  अधिक सहायता के लिए कृपया यहां जाएं[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

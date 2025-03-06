@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile PSD'ye Yeni Bir Normal Katman Ekleme
 linktitle: PSD'ye Yeni Bir Normal Katman Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak PSD dosyalarına nasıl yeni bir normal katman ekleyeceğinizi öğrenin. Kusursuz PSD manipülasyonu için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile PSD'ye Yeni Bir Normal Katman Ekleme
+
 ## giriiş
 
 Bir PSD dosyasına yeni bir normal katman eklemek için Aspose.PSD for Java'nın kullanımına ilişkin bu kapsamlı eğitime hoş geldiniz. Aspose.PSD, geliştiricilerin PSD dosyalarını verimli bir şekilde yönetmesine ve bunlarla çalışmasına olanak tanıyan güçlü bir Java kitaplığıdır. Bu eğitimde, ayrıntılı adımlar ve kod örnekleri sunarak, PSD dosyasına yeni bir normal katman ekleme sürecinde size rehberlik edeceğiz.
@@ -120,3 +126,9 @@ A2: Kesinlikle! Aspose.PSD, katmanlar için çeşitli dönüştürme seçenekler
 ### S5: Aspose.PSD desteği için herhangi bir topluluk forumu var mı?
 
  A5: Evet, destek ve tartışmalar bulabilirsiniz[Burada](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

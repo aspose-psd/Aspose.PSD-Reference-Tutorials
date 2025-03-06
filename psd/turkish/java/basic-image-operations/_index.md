@@ -3,10 +3,16 @@ title: Temel Görüntü İşlemleri
 linktitle: Temel Görüntü İşlemleri
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java eğitimleriyle grafik tasarım becerilerinizi geliştirin. Adım adım kılavuzla çizim, yeniden boyutlandırma, karışım modları ve şeffaflık doğrulamayı öğrenin.
-type: docs
 weight: 25
 url: /tr/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Temel Görüntü İşlemleri
+
 
 ## giriiş
 
@@ -44,3 +50,9 @@ Aspose.PSD ile Java'da görüntü işlemeyi geliştirin. Çarpıcı efektler iç
 Aspose.PSD for Java kullanarak görüntülere büyüleyici gölge efektlerini nasıl ekleyeceğinizi öğrenin. Bu adım adım eğitimle grafik tasarımınızı geliştirin.
 ### [Aspose.PSD for Java ile Görüntü Şeffaflığını Doğrulayın](./verify-image-transparency/)
 Aspose.PSD for Java ile görüntü şeffaflığı doğrulamasını keşfedin. Kolay entegrasyon, ayrıntılı belgeler ve mükemmel topluluk desteği.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng Stroke với Color Fill trong PSD - Java
 linktitle: Áp dụng hiệu ứng Stroke với Color Fill trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách áp dụng hiệu ứng nét vẽ với màu tô cho các tệp PSD của bạn bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước này để cải thiện hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 21
 url: /vi/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng Stroke với Color Fill trong PSD - Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng hiệu ứng nét vẽ với màu tô cho các tệp PSD của bạn bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn hoàn thành công việc dễ dàng. Chúng tôi sẽ đề cập đến mọi thứ từ thiết lập môi trường của bạn đến lưu hình ảnh cuối cùng với các hiệu ứng được áp dụng.
@@ -144,3 +150,9 @@ Tuyệt đối! Bạn có thể lặp qua một thư mục chứa các tệp PSD
 
 ### Thư viện Aspose.PSD cho Java có được sử dụng miễn phí không?
  Aspose.PSD cho Java cung cấp bản dùng thử miễn phí nhưng để có quyền truy cập đầy đủ vào tất cả các tính năng, bạn cần phải mua giấy phép. Bạn có thể khám phá[quyền chọn mua](https://purchase.aspose.com/buy)trên trang web của họ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

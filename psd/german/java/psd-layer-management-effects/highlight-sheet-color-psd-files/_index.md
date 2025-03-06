@@ -3,10 +3,16 @@ title: Markieren Sie die Blattfarbe in PSD-Dateien mit Aspose.PSD Java
 linktitle: Markieren Sie die Blattfarbe in PSD-Dateien mit Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Erfahren Sie, wie Sie mit Aspose.PSD für Java Blattfarben in PSD-Dateien hervorheben. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Ihre Bildbearbeitungsfähigkeiten in Java zu verbessern.
-type: docs
 weight: 19
 url: /de/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Markieren Sie die Blattfarbe in PSD-Dateien mit Aspose.PSD Java
+
 ## Einführung
 
 Möchten Sie in die Bildbearbeitung eintauchen und Ihre digitalen Kreationen mit Java verbessern? Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, die Arbeit mit PSD-Dateien kann Ihnen eine Welt voller Möglichkeiten eröffnen. PSD-Dateien sind der Industriestandard für die Bearbeitung von Bildern mit Ebenen, und mit der Leistung von Aspose.PSD für Java können Sie diese Dateien mühelos in Ihren Java-Anwendungen bearbeiten. Heute zeigen wir Ihnen, wie Sie Blattfarben in PSD-Dateien hervorheben, damit Ihre Designs so lebendig wie möglich hervorstechen.
@@ -142,3 +148,9 @@ Sobald Änderungen an einer Datei gespeichert wurden, können sie nicht mehr rü
 
 ### Kann ich in einer PSD-Datei mehrere Ebenen gleichzeitig hervorheben?
 Ja, Sie können die Ebenen in einer PSD-Datei durchlaufen und die gewünschte Blattfarbhervorhebung auf jede Ebene einzeln anwenden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

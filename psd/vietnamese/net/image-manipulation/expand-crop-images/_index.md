@@ -3,10 +3,16 @@ title: Mở rộng và cắt xén hình ảnh trong Aspose.PSD cho .NET
 linktitle: Mở rộng và cắt xén hình ảnh
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách tự động mở rộng và cắt xén hình ảnh bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hình ảnh liền mạch.
-type: docs
 weight: 13
 url: /vi/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mở rộng và cắt xén hình ảnh trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Aspose.PSD for .NET là một thư viện hình ảnh toàn diện cho phép các nhà phát triển làm việc với nhiều định dạng hình ảnh khác nhau trong các ứng dụng .NET của họ. Một trong những tính năng nổi bật của nó là khả năng xử lý hình ảnh một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc mở rộng và cắt xén hình ảnh, cung cấp cho bạn hướng dẫn thực hành để đạt được những tác vụ này bằng cách sử dụng Aspose.PSD.
@@ -98,3 +104,9 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET ở đâu?
 
  A5: Bạn có thể mua thư viện tại[Trang mua Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 多線程圖像導出教程 - Aspose.PSD for Java
 linktitle: 在多線程環境中導出圖像
 second_title: Aspose.PSD Java API
 description: 探索 Aspose.PSD for Java 在多執行緒環境中匯出影像的強大功能。提升您的 Java 應用程式的能力！
-type: docs
 weight: 14
 url: /zh-hant/java/psd-conversion/export-images-multi-thread/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 多線程圖像導出教程 - Aspose.PSD for Java
+
 ## 介紹
 您是否希望在多執行緒環境中增強 Java 應用程式的圖像導出功能？ Aspose.PSD for Java 是完美的解決方案！在本教程中，我們將指導您完成在多執行緒設定中使用 Aspose.PSD 匯出影像的過程。準備好釋放 Java 應用程式的潛力。
 ## 先決條件
@@ -75,3 +81,9 @@ Aspose.PSD與Java 1.7及更高版本相容。
 是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### 如何取得 Aspose.PSD 的臨時授權？
 訪問[這個連結](https://purchase.aspose.com/temporary-license/)獲得臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

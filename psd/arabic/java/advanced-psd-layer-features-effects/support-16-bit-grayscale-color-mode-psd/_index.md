@@ -3,10 +3,16 @@ title: دعم وضع الألوان بتدرج الرمادي 16 بت في PSD -
 linktitle: دعم وضع الألوان بتدرج الرمادي 16 بت في PSD - Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تنفيذ وضع الألوان بتدرج رمادي 16 بت في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال هذا البرنامج التعليمي التفصيلي خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم وضع الألوان بتدرج الرمادي 16 بت في PSD - Java
+
 ## مقدمة
 عندما تغوص في عالم التصميم الجرافيكي ومعالجة الصور، فإن فهم كيفية العمل مع أوضاع الألوان المختلفة يشبه امتلاك سلاح سري. على وجه الخصوص، يمكن أن يغير التدرج الرمادي 16 بت قواعد اللعبة، مما يمنح صورك عمقًا مذهلاً وتفاصيل تجعلها بارزة حقًا. إذًا، هل أنت مستعد لاستكشاف هذه الميزة القوية باستخدام Aspose.PSD لـ Java؟ إذا كانت لديك معدات البرمجة الخاصة بك جاهزة، فلننتقل إليها مباشرة.
 ## المتطلبات الأساسية
@@ -126,3 +132,9 @@ finally {
  يمكنك الاطلاع على[الوثائق](https://reference.aspose.com/psd/java/) لمزيد من الأمثلة والبرامج التعليمية المتعمقة.
 ### كيف يمكنني شراء ترخيص لـ Aspose.PSD؟
  يمكنك شراء ترخيص عن طريق زيارة[Aspose صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

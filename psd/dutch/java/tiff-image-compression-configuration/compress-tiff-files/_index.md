@@ -3,10 +3,16 @@ title: Comprimeer TIFF-bestanden met Aspose.PSD voor Java
 linktitle: Comprimeer TIFF-bestanden met Aspose.PSD voor Java
 second_title: Aspose.PSD Java-API
 description: Comprimeer TIFF-bestanden efficiënt met Aspose.PSD voor Java zonder dat dit ten koste gaat van de kwaliteit. Volg onze gedetailleerde gids om uw workflow te stroomlijnen.
-type: docs
 weight: 10
 url: /nl/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprimeer TIFF-bestanden met Aspose.PSD voor Java
+
 ## Invoering
 
 Stel u voor dat u aan een grootschalig grafisch ontwerpproject werkt en dat uw PSD-bestanden uw systeem zwaar belasten. U moet deze bestanden delen of opslaan voor later gebruik, maar de omvang is gewoon te groot. Dat is waar het comprimeren van uw PSD-bestanden naar TIFF-formaat van pas komt. TIFF-bestanden bieden een balans tussen kwaliteit en grootte, waardoor ze ideaal zijn voor opslag en delen. In deze zelfstudie leiden we u door het proces van het comprimeren van TIFF-bestanden met Aspose.PSD voor Java, zodat uw afbeeldingen compact zijn en toch hun kwaliteit behouden.
@@ -142,3 +148,9 @@ Aspose.PSD voor Java verwerkt voornamelijk PSD-bestanden, maar biedt uitgebreide
 ### Hoe beïnvloedt grijswaardencompressie de beeldkwaliteit?
 
 Grijswaardencompressie vermindert het aantal kleuren in de afbeelding, wat kan leiden tot een vermindering van de visuele details. Voor bepaalde soorten afbeeldingen is deze afweging echter minimaal en kan deze resulteren in een aanzienlijke verkleining van de bestandsgrootte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

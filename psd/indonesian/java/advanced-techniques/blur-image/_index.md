@@ -3,10 +3,16 @@ title: Memburamkan Gambar menggunakan Aspose.PSD untuk Java
 linktitle: Memburamkan Gambar
 second_title: Asumsikan.PSD Java API
 description: Belajar memburamkan gambar di Java dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk hasil profesional.
-type: docs
 weight: 24
 url: /id/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memburamkan Gambar menggunakan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam dunia pengembangan Java, menyempurnakan dan memanipulasi gambar merupakan kebutuhan umum. Jika Anda ingin menambahkan efek buram pada gambar Anda secara terprogram, Aspose.PSD untuk Java adalah alat canggih yang menyederhanakan prosesnya. Tutorial ini akan memandu Anda melalui langkah-langkah mengaburkan gambar menggunakan Aspose.PSD, memastikan Anda mencapai hasil profesional dengan mudah.
@@ -96,3 +102,9 @@ A1: Tentu saja! Aspose.PSD hadir dengan dokumentasi komprehensif untuk memandu p
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
  A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

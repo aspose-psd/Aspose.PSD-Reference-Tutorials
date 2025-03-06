@@ -3,10 +3,16 @@ title: Προσθήκη Stroke Layer με στερεό χρώμα στο Aspose.
 linktitle: Προσθήκη Stroke Layer με συμπαγές χρώμα
 second_title: Aspose.PSD .NET API
 description: Βελτιώστε τις δεξιότητές σας στο χειρισμό εικόνας .NET με το Aspose.PSD. Μάθετε να προσθέτετε στρώσεις περιγράμματος με συμπαγή χρώματα βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη Stroke Layer με στερεό χρώμα στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Στον τομέα της ανάπτυξης .NET, η δημιουργία οπτικά ελκυστικών εικόνων είναι μια κοινή απαίτηση. Το Aspose.PSD για .NET παρέχει ένα ισχυρό σύνολο εργαλείων για τον απρόσκοπτο χειρισμό και τη βελτίωση των εικόνων. Ένα από τα βασικά χαρακτηριστικά είναι η προσθήκη μιας στρώσης stroke με ένα συμπαγές χρώμα, που φέρνει ζωντάνια και βάθος στις εικόνες σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε βήμα προς βήμα στη διαδικασία χρησιμοποιώντας το Aspose.PSD για .NET.
@@ -130,3 +136,9 @@ A1: Ναι, το Aspose.PSD για .NET ενημερώνεται τακτικά 
 ### Ε5: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD για .NET;
 
  A5: Επισκεφθείτε το[Φόρουμ Aspose.PSD](https://forum.aspose.com/c/psd/34) να αναζητήσει βοήθεια και να συνδεθεί με την κοινότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

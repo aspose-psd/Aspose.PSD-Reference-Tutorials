@@ -3,10 +3,16 @@ title: Mengubah Ukuran Gambar Secara Proporsional di Aspose.PSD untuk .NET
 linktitle: Mengubah Ukuran Gambar Secara Proporsional
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi pengubahan ukuran gambar tanpa hambatan dengan Aspose.PSD untuk .NET. Unduh perpustakaan, ikuti tutorial kami, dan tingkatkan kemampuan pemrosesan gambar Anda.
-type: docs
 weight: 14
 url: /id/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah Ukuran Gambar Secara Proporsional di Aspose.PSD untuk .NET
+
 Dalam bidang manipulasi gambar, Aspose.PSD untuk .NET menonjol sebagai perangkat canggih yang memberikan pengembang kemampuan untuk mengubah ukuran gambar secara proporsional dengan mudah. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengubah ukuran gambar menggunakan Aspose.PSD untuk .NET, memastikan gambar Anda mempertahankan proporsinya dengan sempurna.
 
 ## Perkenalan
@@ -100,3 +106,9 @@ A3: Ya, Aspose.PSD untuk .NET menawarkan berbagai fitur, termasuk memotong, memu
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.PSD untuk .NET?
 
  A5: Kunjungi[Aspose.PSD untuk forum .NET](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

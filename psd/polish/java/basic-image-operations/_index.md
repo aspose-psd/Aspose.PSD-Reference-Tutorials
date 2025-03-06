@@ -3,10 +3,16 @@ title: Podstawowe operacje na obrazach
 linktitle: Podstawowe operacje na obrazach
 second_title: Aspose.PSD API Java
 description: Podnieś swoje umiejętności projektowania graficznego dzięki samouczkom Aspose.PSD for Java. Naucz się rysować, zmieniać rozmiar, tryby mieszania i weryfikować przezroczystość w przewodniku krok po kroku.
-type: docs
 weight: 25
 url: /pl/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podstawowe operacje na obrazach
+
 
 ## Wstęp
 
@@ -44,3 +50,9 @@ Ulepsz przetwarzanie obrazu w Javie dzięki Aspose.PSD. Naucz się wykorzystywa�
 Dowiedz się, jak dodawać urzekające efekty cieni do obrazów przy użyciu Aspose.PSD dla Java. Ulepsz swój projekt graficzny dzięki temu samouczkowi krok po kroku.
 ### [Sprawdź przezroczystość obrazu za pomocą Aspose.PSD dla Java](./verify-image-transparency/)
 Poznaj weryfikację przezroczystości obrazu za pomocą Aspose.PSD dla Java. Łatwa integracja, szczegółowa dokumentacja i doskonałe wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mendukung Lapisan dalam Format AI dengan Aspose.PSD untuk .NET
 linktitle: Mendukung Lapisan dalam Format AI dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menangani lapisan format AI dengan mudah dengan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi dan manipulasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Lapisan dalam Format AI dengan Aspose.PSD untuk .NET
+
 Selamat datang di panduan langkah demi langkah kami dalam memanfaatkan Aspose.PSD untuk .NET guna menangani lapisan pendukung dalam file berformat AI. Aspose.PSD menyederhanakan tugas-tugas kompleks, sehingga memudahkan pengembang untuk bekerja dengan file AI di aplikasi .NET mereka. Dalam tutorial ini, kita akan membahas prasyarat, mengimpor namespace, dan membagi setiap contoh menjadi beberapa langkah untuk memastikan pengalaman pembelajaran yang lancar.
 ## Perkenalan
 ### Apa itu Aspose.PSD?
@@ -85,3 +91,9 @@ A2: Ya, Aspose.PSD menyediakan fungsionalitas untuk bekerja dengan lapisan teks 
 ### Q5: Format gambar apa yang didukung untuk disimpan oleh Aspose.PSD?
 
 A5: Aspose.PSD mendukung berbagai format, termasuk PSD, PNG, JPEG, dan lainnya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

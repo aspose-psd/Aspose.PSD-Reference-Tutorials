@@ -3,10 +3,16 @@ title: 使用 Java 支援 PSD 檔案中的 Lspf 資源
 linktitle: 使用 Java 支援 PSD 檔案中的 Lspf 資源
 second_title: Aspose.PSD Java API
 description: 透過我們的逐步指南，掌握如何使用 Aspose.PSD for Java 支援和操作 PSD 檔案中的 Lspf 資源。
-type: docs
 weight: 14
 url: /zh-hant/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 支援 PSD 檔案中的 Lspf 資源
+
 ## 介紹
 
 您是一位想要深入 PSD 檔案操作世界的開發人員嗎？那麼，您來對地方了！使用 PSD 檔案時，您經常需要處理各種圖層資源，例如 LspfResource。此資源對於管理 PSD 檔案中的複合、位置和透明度保護等圖層保護設定至關重要。在這個綜合教程中，我們將探索如何在 Aspose.PSD for Java 的幫助下使用 Java 支援和操作 PSD 檔案中的 LspfResource。
@@ -182,3 +188,9 @@ PSD 檔案中的 LspfResource 處理圖層保護設置，例如合成、位置�
 
 ### 儲存檔案後是否可以撤銷對 LspfResource 所做的變更？  
 文件儲存後，無法直接撤銷變更。但是，您可以重新載入原始檔案並根據需要重新套用變更。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

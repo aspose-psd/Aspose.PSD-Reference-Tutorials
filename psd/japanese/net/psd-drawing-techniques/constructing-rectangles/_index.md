@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で四角形を作成する
 linktitle: 長方形の構築
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD を使用して、.NET で四角形を描画する技術を学んでください。シームレスな統合については、当社のステップバイステップ ガイドに従ってください。画像操作のスキルを簡単に向上できます。
-type: docs
 weight: 15
 url: /ja/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で四角形を作成する
+
 ## 導入
 
 .NET 開発の動的な領域では、Aspose.PSD は画像操作を処理するための強力なツールとして際立っています。このチュートリアルでは、基本的なタスクである Aspose.PSD for .NET を使用して四角形を作成する方法に焦点を当てています。熟練した開発者でも、初心者でも、このステップ バイ ステップ ガイドではプロセスを順を追って説明し、各概念を徹底的に理解できるようにします。
@@ -94,3 +100,9 @@ A4: 32 Bpp を使用すると、より豊かな色彩表現が可能になり、
 ### Q5: Aspose.PSD の無料試用版はありますか?
 
  A5: はい、Aspose.PSDを無料トライアルで試すことができます。ダウンロードしてください。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

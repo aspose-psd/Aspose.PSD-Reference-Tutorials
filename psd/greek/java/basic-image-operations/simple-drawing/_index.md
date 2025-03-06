@@ -3,10 +3,16 @@ title: Εκτελέστε απλό σχέδιο με το Aspose.PSD για Java
 linktitle: Εκτελέστε απλό σχέδιο
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να σχεδιάζετε σχήματα σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τη δημιουργία, την προσθήκη επιπέδων και τη σχεδίαση με παραδείγματα κώδικα.
-type: docs
 weight: 10
 url: /el/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκτελέστε απλό σχέδιο με το Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον οδηγό βήμα προς βήμα για την εκτέλεση απλών σχεδίων χρησιμοποιώντας το Aspose.PSD για Java! Σε αυτό το σεμινάριο, θα εξερευνήσουμε τα βασικά για τη δημιουργία ενός νέου εγγράφου PSD, την προσθήκη επιπέδων και τη σχεδίαση σχημάτων με διαφορετικά χρώματα. Το Aspose.PSD για Java είναι μια ισχυρή βιβλιοθήκη που σας δίνει τη δυνατότητα να χειρίζεστε αρχεία PSD μέσω προγραμματισμού, παρέχοντας εκτεταμένη λειτουργικότητα για εργασίες γραφικού σχεδιασμού.
@@ -125,3 +131,9 @@ A1: Ναι, το Aspose.PSD για Java παρέχει εκτεταμένες λ
 ### Ε5: Διατίθενται προσωρινές άδειες χρήσης για το Aspose.PSD για Java;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

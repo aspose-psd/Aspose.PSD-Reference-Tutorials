@@ -3,10 +3,16 @@ title: Pangkas Gambar dengan Rectangle di Aspose.PSD untuk Java
 linktitle: Pangkas Gambar berdasarkan Persegi Panjang
 second_title: Asumsikan.PSD Java API
 description: Jelajahi kemampuan pemotongan gambar yang lancar di Java dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk memotong gambar dengan mudah menggunakan Aspose.PSD untuk Java.
-type: docs
 weight: 15
 url: /id/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pangkas Gambar dengan Rectangle di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam dunia pengembangan Java, memanipulasi gambar adalah tugas umum, dan Aspose.PSD untuk Java memberikan solusi canggih untuk pemrosesan gambar. Dalam tutorial ini, kami akan memandu Anda melalui proses memotong gambar persegi panjang menggunakan Aspose.PSD untuk Java. Ikuti langkah-langkah di bawah ini untuk mencapainya dengan mudah.
@@ -105,3 +111,9 @@ A1: Ya, Aspose.PSD untuk Java dapat diintegrasikan dengan berbagai kerangka kerj
 ### Q5: Apa saja format gambar yang didukung untuk dipotong di Aspose.PSD untuk Java?
 
 A5: Aspose.PSD untuk Java mendukung berbagai format gambar, termasuk PSD, PNG, JPEG, dan lainnya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

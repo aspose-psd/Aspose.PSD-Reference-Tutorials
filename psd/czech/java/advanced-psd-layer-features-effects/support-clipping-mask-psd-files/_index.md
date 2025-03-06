@@ -3,10 +3,16 @@ title: Podpora ořezové masky v souborech PSD s Aspose.PSD Java
 linktitle: Podpora ořezové masky v souborech PSD s Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak podporovat ořezové masky v souborech PSD pomocí Aspose.PSD for Java. Postupujte podle našeho podrobného průvodce pro snadnou manipulaci s obrázky PSD.
-type: docs
 weight: 16
 url: /cs/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora ořezové masky v souborech PSD s Aspose.PSD Java
+
 ## Zavedení
 dnešní době digitálního umění a designu jsou soubory PSD Adobe Photoshop základním kamenem kreativity. Tyto soubory umožňují návrhářům používat vrstvy, masky a různé efekty k oživení jejich vizí. Co se ale stane, když potřebujete s těmito soubory manipulovat programově? To je místo, kde Aspose.PSD pro Java přichází do hry! Je to robustní knihovna, která vám umožňuje snadno spravovat a manipulovat se soubory PSD. V tomto tutoriálu se blíže podíváme na to, jak podporovat ořezové masky v souborech PSD pomocí Aspose.PSD pro Javu. 
 ## Předpoklady
@@ -73,3 +79,9 @@ Ano, Aspose.PSD vám umožňuje manipulovat se soubory PSD, včetně úprav vrst
  Ano! Máte přístup k bezplatné zkušební verzi Aspose.PSD[zde](https://releases.aspose.com/).
 ### Jak získám podporu pro problémy Aspose.PSD?
  V případě jakýchkoli dotazů nebo problémů můžete získat podporu prostřednictvím fóra Aspose[zde](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

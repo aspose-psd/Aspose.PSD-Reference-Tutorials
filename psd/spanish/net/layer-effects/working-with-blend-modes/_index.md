@@ -3,10 +3,16 @@ title: Trabajar con modos de fusión en Aspose.PSD para .NET
 linktitle: Trabajar con modos de fusión
 second_title: API Aspose.PSD .NET
 description: Explore el poder de los modos de fusión en Aspose.PSD para .NET. Este tutorial lo guía en la aplicación de varios modos de fusión con ejemplos paso a paso.
-type: docs
 weight: 16
 url: /es/net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabajar con modos de fusión en Aspose.PSD para .NET
+
 ## Introducción
 
 Si es un desarrollador de .NET y busca mejorar sus capacidades de procesamiento de imágenes, Aspose.PSD para .NET es una poderosa herramienta que le permite trabajar con varios modos de fusión sin problemas. Los modos de fusión juegan un papel crucial en la manipulación de imágenes al definir cómo las capas se combinan entre sí. En esta guía paso a paso, profundizaremos en el mundo de los modos de combinación y demostraremos cómo usarlos de manera efectiva en sus aplicaciones .NET.
@@ -102,3 +108,9 @@ R4: ¡Absolutamente! Los modos de fusión se pueden combinar con otras funciones
 ### P5: ¿Existe un foro comunitario para soporte de Aspose.PSD?
 
  R5: Sí, puede encontrar soporte y conectarse con otros usuarios en el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manage Channel Mixer Adjustment Layer in PSD - Java
 linktitle: Manage Channel Mixer Adjustment Layer in PSD - Java
 second_title: Aspose.PSD Java API
 description: Discover how to manage RGB and CMYK Channel Mixer adjustment layers in PSD files using Aspose.PSD for Java. Enhance your image editing skills.
-type: docs
 weight: 22
 url: /java/psd-image-modification-conversion/manage-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Channel Mixer Adjustment Layer in PSD - Java
+
 ## Introduction
 Photoshop has transformed the way we think about image editing, but let’s face it — handling complex image files can sometimes feel like deciphering a foreign language. Thankfully, using Aspose.PSD for Java, you can manage and manipulate Photoshop files seamlessly without needing a degree in graphic design. In this guide, we're diving into a tutorial that explains how to manage Channel Mixer adjustment layers in PSD files using Java. Ready to unleash your inner digital artist? Let’s get started!
 ## Prerequisites
@@ -114,3 +120,10 @@ Yes, Aspose offers a free trial version that you can download [here](https://rel
 While primarily for PSD, Aspose.PSD can also handle other formats such as PSB and more, thus broadening its usability.
 ### Where can I get support for Aspose.PSD?
 You can seek help and support on their [forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

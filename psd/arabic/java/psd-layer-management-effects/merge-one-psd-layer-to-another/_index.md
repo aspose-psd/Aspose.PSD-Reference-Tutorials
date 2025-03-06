@@ -3,10 +3,16 @@ title: دمج طبقة PSD واحدة إلى أخرى باستخدام Java
 linktitle: دمج طبقة PSD واحدة إلى أخرى باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية دمج الطبقات من ملف PSD إلى آخر باستخدام Aspose.PSD لـ Java من خلال برنامجنا التعليمي خطوة بخطوة. مثالي لأتمتة عمليات التصميم الخاصة بك.
-type: docs
 weight: 10
 url: /ar/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج طبقة PSD واحدة إلى أخرى باستخدام Java
+
 ## مقدمة
 
 هل سبق لك أن وجدت نفسك بحاجة إلى دمج الطبقات من ملف PSD إلى آخر أثناء العمل مع مستندات Adobe Photoshop برمجياً؟ سواء كنت تقوم بأتمتة عمليات التصميم أو إدارة مجموعة كبيرة من الصور ذات الطبقات، فإن Aspose.PSD for Java يقدم مجموعة أدوات قوية لمعالجة ملفات PSD مباشرة من خلال كود Java الخاص بك. في هذا الدليل، سنرشدك خلال عملية دمج طبقة PSD في طبقة أخرى باستخدام Aspose.PSD لـ Java. لن تتعلم فقط كيفية دمج الطبقات بسلاسة، ولكنك ستكتشف أيضًا مدى سهولة العمل مع ملفات PSD في بيئة Java. على استعداد للغوص في؟ دعونا نبدأ!
@@ -119,3 +125,9 @@ im2.save(exportPath);
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
  يمكنك الحصول على ترخيص مؤقت من[موقع أسبوز](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

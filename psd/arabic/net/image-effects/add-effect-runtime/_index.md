@@ -3,10 +3,16 @@ title: إضافة تأثيرات في وقت التشغيل في Aspose.PSD لـ
 linktitle: إضافة تأثيرات في وقت التشغيل
 second_title: Aspose.PSD.NET API
 description: اكتشف تحسينات الصورة الديناميكية باستخدام Aspose.PSD لـ .NET. أضف التأثيرات في وقت التشغيل بسهولة.
-type: docs
 weight: 10
 url: /ar/net/image-effects/add-effect-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة تأثيرات في وقت التشغيل في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 يعد تعزيز المظهر المرئي للصور متطلبًا شائعًا في تطبيقات التصميم الجرافيكي ومعالجة الصور. في هذا البرنامج التعليمي، سوف نستكشف كيفية إضافة تأثيرات في وقت التشغيل باستخدام Aspose.PSD لـ .NET. Aspose.PSD عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Adobe Photoshop بسلاسة. 
@@ -96,3 +102,9 @@ im.Save(exportPath);
 ### س5: أين يمكنني العثور على دعم إضافي ومناقشات مجتمعية؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

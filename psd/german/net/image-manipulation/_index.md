@@ -3,10 +3,16 @@ title: Bildbearbeitung
 linktitle: Bildbearbeitung
 second_title: Aspose.PSD .NET API
 description: Verbessern Sie Ihre .NET-Projekte mit Aspose.PSD! Lernen Sie mühelos Bildbearbeitungstechniken wie Kombinieren, Zuschneiden, Ändern der Größe, Drehen und Hinzufügen von Effekten.
-type: docs
 weight: 26
 url: /de/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bildbearbeitung
+
 ## Einführung
 
 Bildbearbeitung ist eine wichtige Fähigkeit für jeden Entwickler oder Designer, der mit .NET arbeitet, und Aspose.PSD für .NET bietet ein leistungsstarkes Toolkit zur Erweiterung Ihrer Fähigkeiten. In diesem Tutorial werden wir uns mit verschiedenen Bildbearbeitungstechniken befassen, die nahtlos angewendet werden können mit[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Entdecken Sie die Leistungsfähigkeit des Outer-Glow-Effekts in Aspose.PSD für 
 Meistern Sie die Kunst des Renderns von Gradient Overlay-Effekten in Aspose.PSD für .NET. Verbessern Sie Ihre Grafikdesignfähigkeiten mit diesem Schritt-für-Schritt-Tutorial.
 ### [Unterstützung des Gradient-Overlay-Effekts in Aspose.PSD für .NET](./supporting-gradient-overlay-effect/)
 Verbessern Sie Grafiken in .NET mit Aspose.PSD. Dieses Tutorial führt Sie durch die Unterstützung von Gradient Overlay-Effekten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

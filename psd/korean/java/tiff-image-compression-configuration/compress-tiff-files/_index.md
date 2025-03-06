@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 TIFF 파일 압축
 linktitle: Java용 Aspose.PSD를 사용하여 TIFF 파일 압축
 second_title: Aspose.PSD 자바 API
 description: 품질 저하 없이 Java용 Aspose.PSD를 사용하여 TIFF 파일을 효율적으로 압축합니다. 작업 흐름을 간소화하려면 자세한 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 TIFF 파일 압축
+
 ## 소개
 
 대규모 그래픽 디자인 프로젝트를 진행 중이고 PSD 파일이 시스템을 무겁게 짓누르고 있다고 상상해 보십시오. 이러한 파일을 공유하거나 나중에 사용하기 위해 저장해야 하지만 크기가 너무 커서 처리할 수 없습니다. 이때 PSD 파일을 TIFF 형식으로 압축하는 것이 유용합니다. TIFF 파일은 품질과 크기 간의 균형을 제공하므로 저장 및 공유에 이상적입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 TIFF 파일을 압축하는 과정을 안내하여 이미지를 컴팩트하면서도 품질을 유지하도록 합니다.
@@ -142,3 +148,9 @@ Java용 Aspose.PSD는 주로 PSD 파일을 처리하지만 이러한 파일을 T
 ### 그레이스케일 압축은 이미지 품질에 어떤 영향을 줍니까?
 
 회색조 압축은 이미지의 색상 수를 줄여 시각적 세부 묘사를 감소시킬 수 있습니다. 그러나 특정 유형의 이미지에서는 이러한 절충이 최소화되어 파일 크기가 크게 줄어들 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中使用混合模式
 linktitle: 使用混合模式
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 中混合模式的強大功能。本教學透過逐步範例指導您應用各種混合模式。
-type: docs
 weight: 16
 url: /zh-hant/net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中使用混合模式
+
 ## 介紹
 
 如果您是希望增強影像處理能力的 .NET 開發人員，Aspose.PSD for .NET 是一款功能強大的工具，可讓您無縫地使用各種混合模式。混合模式透過定義圖層如何相互混合，在操作影像中發揮至關重要的作用。在本逐步指南中，我們將深入研究混合模式的世界，並示範如何在 .NET 應用程式中有效地使用它們。
@@ -102,3 +108,9 @@ A4：當然！混合模式可以與其他 Aspose.PSD 功能結合使用，以進
 ### Q5：有 Aspose.PSD 支援的社群論壇嗎？
 
  A5：是的，您可以在[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

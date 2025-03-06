@@ -3,10 +3,16 @@ title: Эффекты слоя
 linktitle: Эффекты слоя
 second_title: Aspose.PSD .NET API
 description: Откройте для себя магию эффектов слоев с помощью Aspose.PSD для .NET! Совершенствуйте свои навыки манипулирования изображениями, научившись добавлять режимы обводки, тени и наложения.
-type: docs
 weight: 29
 url: /ru/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Эффекты слоя
+
 ## Введение
 
 Раскройте весь потенциал ваших усилий по манипулированию изображениями с помощью Aspose.PSD для .NET. Это подробное руководство познакомит вас с множеством эффектов слоев, которые изменят ваш творческий процесс. От штрихов и теней до режимов наложения — усовершенствуйте свои проекты без особых усилий.
@@ -54,3 +60,9 @@ url: /ru/net/layer-effects/
 Узнайте, как настроить непрозрачность эффекта тени в Aspose.PSD для .NET, с помощью этого подробного руководства.
 ### [Работа с режимами наложения в Aspose.PSD для .NET](./working-with-blend-modes/)
 Исследуйте возможности режимов наложения в Aspose.PSD для .NET. В этом уроке вы научитесь применять различные режимы наложения с пошаговыми примерами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

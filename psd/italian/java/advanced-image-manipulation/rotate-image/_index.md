@@ -3,10 +3,16 @@ title: Ruota un'immagine in Aspose.PSD per Java
 linktitle: Ruota un'immagine
 second_title: API Java Aspose.PSD
 description: Esplora la rotazione delle immagini in Java senza sforzo con Aspose.PSD. Ruota, capovolgi e salva facilmente i file PSD.
-type: docs
 weight: 19
 url: /it/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ruota un'immagine in Aspose.PSD per Java
+
 ## Introduzione
 
 Aspose.PSD per Java fornisce un potente set di funzionalità per lavorare con le immagini, consentendo agli sviluppatori di manipolare ed elaborare in modo efficiente i file PSD. In questo tutorial ci concentreremo su un'attività specifica: ruotare un'immagine. Che tu stia creando un'applicazione di fotoritocco o semplicemente abbia bisogno di regolare l'orientamento di un'immagine, Aspose.PSD semplifica il processo.
@@ -84,3 +90,9 @@ A2: Assolutamente! Aspose.PSD offre flessibilità per l'applicazione di rotazion
 ### Q5: Come posso ottenere una licenza temporanea?
 
  R5: Se hai bisogno di una licenza temporanea, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

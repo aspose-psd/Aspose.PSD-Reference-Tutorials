@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Zaman Çizelgesi ile Çalışmak
 linktitle: Zaman Çizelgesi ile Çalışmak
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET Timeline sınıfı ile PSD görüntü işlemeyi geliştirin. Çerçeve özelliklerini, katman durumlarını kontrol edin ve yaratıcı olasılıkları zahmetsizce ortaya çıkarın.
-type: docs
 weight: 16
 url: /tr/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Zaman Çizelgesi ile Çalışmak
+
 ## giriiş
 Grafik tasarımın ve görüntü manipülasyonunun dinamik dünyasında, görüntülerin zaman çizelgesini kontrol etme ve değiştirme yeteneği çok önemlidir. Aspose.PSD for .NET, Timeline sınıfıyla güçlü bir çözüm sunar. Bu üst düzey özellik, kullanıcıların PsdImage'ın zaman çizelgesinde kare gecikmesini değiştirmek, belirli karelerdeki katman durumlarını düzenlemek ve daha fazlası gibi değişiklikler yapmasına olanak tanır.
 ## Önkoşullar
@@ -108,3 +114,9 @@ Cevap2: Timeline sınıfı özellikle PSD görüntüleri için tasarlanmıştır
 ### S5: Aspose.PSD for .NET kullanmanın temel faydaları nelerdir?
 
 Cevap5: Aspose.PSD for .NET, gelişmiş görüntü işleme yetenekleri, PSD dosya işleme ve yüksek performanslı işleme sunar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cambio de tamaño simple de imágenes en Aspose.PSD para .NET
 linktitle: Cambio de tamaño simple de imágenes
 second_title: API Aspose.PSD .NET
 description: Cambio de tamaño de imagen maestra con Aspose.PSD para .NET. Eficiente, fluido y potente. Mejore sus proyectos .NET sin esfuerzo.
-type: docs
 weight: 17
 url: /es/net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambio de tamaño simple de imágenes en Aspose.PSD para .NET
+
 ## Introducción
 
 En el ámbito dinámico del desarrollo .NET, la manipulación de imágenes es una necesidad común. Aspose.PSD para .NET viene al rescate con sus poderosas capacidades, brindando una experiencia perfecta para cambiar el tamaño de imágenes. En este tutorial, profundizaremos en el proceso simple pero crucial de cambiar el tamaño de las imágenes usando Aspose.PSD para .NET. Abróchese el cinturón mientras nos embarcamos en un viaje para mejorar sus habilidades de procesamiento de imágenes.
@@ -89,3 +95,9 @@ R3: Sí, puede obtener una licencia temporal de Aspose.PSD para .NET para evalua
 ### P5: ¿Cómo puedo obtener soporte o conectarme con la comunidad para Aspose.PSD para .NET?
 
  A5: Visita el[Foro Aspose.PSD para .NET](https://forum.aspose.com/c/psd/34) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

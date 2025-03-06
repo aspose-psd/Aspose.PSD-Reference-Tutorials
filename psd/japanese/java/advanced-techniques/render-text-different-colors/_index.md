@@ -3,10 +3,16 @@ title: Aspose.PSD for Java を使用してテキスト レイヤーに異なる�
 linktitle: テキストレイヤーで異なる色でテキストをレンダリングする
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して、PSD テキスト レイヤーでさまざまな色のテキストをレンダリングする方法を学びます。シームレスな結果を得るには、ステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/java/advanced-techniques/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java を使用してテキスト レイヤーに異なる色のテキストをレンダリングする
+
 ## 導入
 
 Aspose.PSD for Java を使用してテキスト レイヤーでさまざまな色のテキストをレンダリングする手順を説明したガイドへようこそ。Aspose.PSD は、Photoshop ファイルをプログラムで操作できる強力な Java ライブラリで、PSD および PSB ファイル形式を操作するための幅広い機能を提供します。
@@ -102,3 +108,9 @@ A1: Aspose.PSD は主に Java 向けに設計されていますが、Aspose は�
 ### Q5: Aspose.PSD に関する他のチュートリアルはありますか?
 
  A5: はい、[Aspose.PSD ドキュメント](https://reference.aspose.com/psd/java/)その他のチュートリアルと例については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

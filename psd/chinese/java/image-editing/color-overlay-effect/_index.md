@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中应用颜色叠加效果
 linktitle: 应用颜色叠加效果
 second_title: Aspose.PSD Java API
 description: 探索 Aspose.PSD for Java 中色彩叠加效果的神奇之处。通过本分步指南提升您的图像编辑能力。
-type: docs
 weight: 10
 url: /zh/java/image-editing/color-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中应用颜色叠加效果
+
 ## 介绍
 
 欢迎来到使用 Aspose.PSD for Java 进行图形设计和图像处理的世界！在本教程中，我们将深入研究如何应用颜色叠加效果来增强图像。这个功能强大的 Java 库可让您高效地处理 PSD 文件，提供多种图像处理功能。
@@ -110,3 +116,9 @@ A1：不可以，一个图层只能应用一种颜色叠加效果。
 ### Q5：Aspose.PSD 有免费试用选项吗？
 
  A5：是的，探索[免费试用](https://releases.aspose.com/)版本之前进行购买。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thang màu xám cho hình ảnh bằng Aspose.PSD cho Java
 linktitle: Thang độ xám một hình ảnh
 second_title: API Java Aspose.PSD
 description: Khám phá Aspose.PSD cho Java và tìm hiểu cách chuyển đổi thang độ xám sang hình ảnh một cách dễ dàng bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 10
 url: /vi/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thang màu xám cho hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý ảnh, chuyển đổi ảnh sang thang độ xám là một thao tác cơ bản. Aspose.PSD for Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Java để đạt được điều này một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển thang độ xám cho hình ảnh bằng Aspose.PSD, đảm bảo rằng ngay cả những người mới bắt đầu cũng có thể làm theo một cách dễ dàng.
@@ -104,3 +110,9 @@ Chúc mừng! Bạn đã chuyển đổi thang độ xám thành công cho một
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
 
  Câu 5: Truy cập diễn đàn Aspose.PSD[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

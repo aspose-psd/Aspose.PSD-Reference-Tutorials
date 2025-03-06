@@ -3,10 +3,16 @@ title: Adja hozzá a Stroke Layer Color-t az Aspose.PSD for Java fájlhoz
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 description: Fedezze fel az Aspose.PSD for Java erejét lépésenkénti útmutatónkkal a körvonalréteg színének hozzáadásával kapcsolatban. Emelje fel grafikai terveit könnyedén.
-type: docs
 weight: 14
 url: /hu/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a Stroke Layer Color-t az Aspose.PSD for Java fájlhoz
+
 ## Bevezetés
 
 Az Aspose.PSD segítségével bontsa ki a Java-alkalmazások grafikai tervezésében rejlő lehetőségeket. Ebben az oktatóanyagban elmélyülünk az Aspose.PSD for Java használatával körvonal-rétegszín hozzáadásának lenyűgöző világában. Fejlessze grafikáját felbukkanó vonásokkal, és könnyedén készítsen tetszetős terveket.
@@ -120,3 +126,9 @@ A2: Abszolút! Az Aspose.PSD lépést tart a legújabb PSD fájlformátum-specif
 ### 5. kérdés: Hol szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
  A5: Szerezzen be a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy az Aspose.PSD értékelje a képességeit a projektekben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

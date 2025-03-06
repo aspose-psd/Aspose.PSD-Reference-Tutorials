@@ -3,10 +3,16 @@ title: Сведение слоев в PSD-файлах с помощью Aspose.
 linktitle: Сведение слоев в PSD-файлах с помощью Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Сглаживайте и объединяйте слои в PSD-файлах без особых усилий с помощью Aspose.PSD для Java. Следуйте этому пошаговому руководству, чтобы упростить управление PSD-файлами.
-type: docs
 weight: 13
 url: /ru/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сведение слоев в PSD-файлах с помощью Aspose.PSD Java
+
 ## Введение
 
 Вы когда-нибудь работали с файлами Photoshop и мечтали о более простом способе управления этими сложными слоями? Что ж, вам повезло! Сегодня мы погружаемся в мир Aspose.PSD для Java, мощного инструмента, который упрощает программную работу с PSD-файлами. Одна из удобных функций, которые мы рассмотрим, — это сведение слоев. Если вы хотите сгладить все изображение или выборочно объединить отдельные слои, Aspose.PSD для Java поможет вам. Это руководство шаг за шагом проведет вас через этот процесс, гарантируя, что вы будете готовы с уверенностью приступить к работе с PSD-файлами.
@@ -150,3 +156,9 @@ img.save(exportPath);
 
 ### Что произойдет, если я попытаюсь объединить несмежные слои?  
 Aspose.PSD позволяет объединять любые слои независимо от их порядка в стеке слоев. Процесс слияния объединит выбранные слои, как указано.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

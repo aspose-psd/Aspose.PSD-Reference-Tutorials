@@ -3,10 +3,16 @@ title: Aspose.PSD for Java を使用してストリームから画像を読み�
 linktitle: ストリームから画像を読み込む
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して Java で PSD 画像をシームレスに読み込む方法を学びます。効率的な画像処理については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java を使用してストリームから画像を読み込む
+
 ## 導入
 
 Aspose.PSD for Java は、開発者が PSD ファイルをシームレスに操作し、さまざまな画像処理タスクを実行できるようにする機能豊富なライブラリです。このチュートリアルでは、Aspose.PSD for Java を使用してストリームから画像を読み込むための基本的な手順に焦点を当てます。
@@ -105,3 +111,9 @@ A3: コミュニティに参加する[Aspose.PSD フォーラム](https://forum.
 ### Q5: Aspose.PSD for Java はどこで購入できますか?
 
  A5: 訪問[購入ページ](https://purchase.aspose.com/buy) Aspose.PSD for Java を取得します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

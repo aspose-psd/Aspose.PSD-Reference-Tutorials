@@ -3,10 +3,16 @@ title: Gérer un objet de flux d'images non compressé dans PSD - Java
 linktitle: Gérer un objet de flux d'images non compressé dans PSD - Java
 second_title: API Java Aspose.PSD
 description: Maîtrisez la gestion des flux d'images non compressés dans PSD à l'aide d'Aspose.PSD pour Java avec ce guide facile à suivre. Parfait pour les développeurs et les concepteurs.
-type: docs
 weight: 26
 url: /fr/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer un objet de flux d'images non compressé dans PSD - Java
+
 ## Introduction
 Bienvenue dans le monde de la manipulation d'images en Java ! Aujourd'hui, nous approfondissons la gestion des objets de flux d'images non compressés à l'aide d'Aspose.PSD pour Java. Que vous soyez un graphiste cherchant à automatiser vos flux de travail ou un développeur de logiciels cherchant à intégrer de puissantes capacités de traitement d'image dans vos applications, ce guide est conçu spécialement pour vous. Nous passerons en revue tout, des conditions préalables à la conclusion, en veillant à ce que vous ayez une solide compréhension de la façon de démarrer avec Aspose.PSD.
 ## Conditions préalables
@@ -92,3 +98,9 @@ Aspose.PSD est une bibliothèque .NET qui permet aux développeurs de créer, mo
  Absolument! Vous pouvez demander de l'aide sur le[Forum d'assistance Aspose](https://forum.aspose.com/c/psd/34).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
  Visitez simplement le[page de licence temporaire](https://purchase.aspose.com/temporary-license/) pour commencer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

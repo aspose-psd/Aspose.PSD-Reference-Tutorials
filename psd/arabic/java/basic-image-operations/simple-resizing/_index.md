@@ -3,10 +3,16 @@ title: قم بإجراء تغيير حجم بسيط باستخدام Aspose.PSD 
 linktitle: تنفيذ تغيير الحجم البسيط
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية تغيير حجم الصور برمجيًا باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لمعالجة الصور بكفاءة.
-type: docs
 weight: 11
 url: /ar/java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإجراء تغيير حجم بسيط باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في البرنامج التعليمي اليوم، سنتعمق في عملية تغيير حجم الصورة البسيطة باستخدام Aspose.PSD for Java، وهي مكتبة قوية تسهل معالجة الصور بكفاءة. إذا كنت مطور Java وتبحث عن طريقة سلسة لتغيير حجم الصور برمجيًا، فأنت في المكان الصحيح.
@@ -101,3 +107,9 @@ image.save(destName, new JpegOptions());
 ### س5: كيف يمكنني الحصول على دعم Aspose.PSD لـ Java؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للمساعدة والدعم المجتمعي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

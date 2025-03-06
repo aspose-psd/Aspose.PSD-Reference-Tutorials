@@ -3,10 +3,16 @@ title: Cắt hình ảnh theo hình chữ nhật trong Aspose.PSD cho .NET
 linktitle: Cắt ảnh theo hình chữ nhật
 second_title: API Aspose.PSD .NET
 description: Nâng cao kỹ năng xử lý hình ảnh .NET của bạn với Aspose.PSD. Tìm hiểu từng bước cắt xén hình ảnh bằng cách sử dụng hình chữ nhật để có độ chính xác.
-type: docs
 weight: 11
 url: /vi/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt hình ảnh theo hình chữ nhật trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực lập trình .NET, thao tác và nâng cao hình ảnh là một nhiệm vụ phổ biến và Aspose.PSD cho .NET là một thư viện mạnh mẽ giúp đơn giản hóa quá trình này. Hướng dẫn này tập trung vào kỹ thuật xử lý hình ảnh cơ bản nhưng quan trọng – cắt hình ảnh theo hình chữ nhật. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách cắt hình ảnh một cách chính xác bằng cách sử dụng Aspose.PSD cho .NET.
@@ -110,3 +116,9 @@ Câu trả lời 3: Aspose.PSD for .NET được thiết kế để xử lý cá
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc hỗ trợ ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34)để kết nối với cộng đồng và tìm kiếm sự hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

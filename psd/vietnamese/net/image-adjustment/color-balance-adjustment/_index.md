@@ -3,10 +3,16 @@ title: Áp dụng Điều chỉnh Cân bằng Màu trong Aspose.PSD cho .NET
 linktitle: Áp dụng điều chỉnh cân bằng màu
 second_title: API Aspose.PSD .NET
 description: Dễ dàng nâng cao màu sắc hình ảnh PSD với tính năng Điều chỉnh Cân bằng Màu của Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả tuyệt vời.
-type: docs
 weight: 14
 url: /vi/net/image-adjustment/color-balance-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Điều chỉnh Cân bằng Màu trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách áp dụng Điều chỉnh Cân bằng Màu trong Aspose.PSD cho .NET! Aspose.PSD là một thư viện .NET mạnh mẽ cho phép các nhà phát triển làm việc với các tệp PSD một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ tập trung vào tính năng Điều chỉnh Cân bằng Màu, cho phép bạn nâng cao độ cân bằng màu của hình ảnh PSD một cách dễ dàng.
@@ -97,3 +103,10 @@ A2: Chắc chắn rồi! Aspose.PSD cung cấp khả năng xử lý hàng loạt
 ### Câu hỏi 5: Aspose.PSD dành cho .NET có những tùy chọn hỗ trợ nào?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và thảo luận.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

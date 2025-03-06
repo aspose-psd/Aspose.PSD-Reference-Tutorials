@@ -3,10 +3,16 @@ title: Xử lý Dòng thời gian hình ảnh PSD trong Aspose.PSD cho .NET
 linktitle: Xử lý dòng thời gian hình ảnh PSD
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách xử lý các mốc thời gian của hình ảnh PSD một cách dễ dàng bằng Aspose.PSD cho .NET. Thêm khung hình, chuyển đổi liền mạch và nâng cao kỹ năng chỉnh sửa hình ảnh của bạn.
-type: docs
 weight: 17
 url: /vi/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý Dòng thời gian hình ảnh PSD trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Trong thế giới xử lý hình ảnh năng động, Aspose.PSD cho .NET nổi bật như một bộ công cụ mạnh mẽ, cung cấp các giải pháp mạnh mẽ để xử lý các mốc thời gian của hình ảnh PSD. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người đam mê mã hóa, hướng dẫn này sẽ hướng dẫn bạn quy trình sử dụng Aspose.PSD để thao tác các dòng thời gian của hình ảnh một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -80,3 +86,9 @@ Câu trả lời 1: Không, Aspose.PSD được thiết kế đặc biệt cho c
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
 
  Câu trả lời 5: Truy cập diễn đàn cộng đồng Aspose.PSD[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

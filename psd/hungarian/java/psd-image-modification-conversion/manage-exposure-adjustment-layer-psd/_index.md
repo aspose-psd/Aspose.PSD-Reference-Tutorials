@@ -3,10 +3,16 @@ title: Az expozíciókorrekciós réteg kezelése PSD-ben Java használatával
 linktitle: Az expozíciókorrekciós réteg kezelése PSD-ben Java használatával
 second_title: Aspose.PSD Java API
 description: Az Aspose.PSD segítségével könnyedén javíthatja PSD-képeit a Java segítségével. Kövesse ezt az útmutatót az expozíciókorrekciós rétegek lépésről lépésre történő kezeléséhez.
-type: docs
 weight: 23
 url: /hu/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az expozíciókorrekciós réteg kezelése PSD-ben Java használatával
+
 ## Bevezetés
 Ha programozottan kell dolgozni a Photoshop-fájlokkal, különösen, ha a képszerkesztésben vagy -manipulációban merül fel, a Java Aspose.PSD könyvtára valóban játékmódot jelent. Az egyik hatékony funkció, amelyet használhat, az Exposure Adjustment Layer, amely lehetővé teszi a képek expozíciós beállításainak egyszerű és hatékony javítását vagy módosítását. Ez az oktatóanyag végigvezeti Önt a PSD-fájlon belüli expozíciókorrekciós rétegek Java használatával történő kezelésének minden lépésén.
 ## Előfeltételek
@@ -92,3 +98,9 @@ Igen, az Aspose.PSD integrálható webes alkalmazásokba, lehetővé téve a sze
  A közösségi támogatást az Aspose fórumain érheti el[itt](https://forum.aspose.com/c/psd/34).
 ### Van-e mintaprojekt az induláshoz?
  Igen, mintaprojekteket és dokumentációkat találhat a webhelyen[Aspose.PSD referenciaoldal](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

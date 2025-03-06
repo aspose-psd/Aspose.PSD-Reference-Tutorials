@@ -3,10 +3,16 @@ title: 影像處理
 linktitle: 影像處理
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 提升您的 .NET 專案！輕鬆學習影像處理技術，如組合、裁剪、調整大小、旋轉和添加效果。
-type: docs
 weight: 26
 url: /zh-hant/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 影像處理
+
 ## 介紹
 
 影像處理對於任何使用 .NET 的開發人員或設計人員來說都是一項至關重要的技能，而 Aspose.PSD for .NET 提供了一個強大的工具包來增強您的能力。在本教程中，我們將深入研究可以無縫應用的各種影像處理技術[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ url: /zh-hant/net/image-manipulation/
 掌握在 Aspose.PSD for .NET 中渲染漸層疊加效果的藝術。透過此逐步教學提升您的圖形設計技能。
 ### [Aspose.PSD for .NET 支援漸層疊加效果](./supporting-gradient-overlay-effect/)
 使用 Aspose.PSD 來增強 .NET 中的圖形。本教學將引導您完成支援漸層疊加效果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

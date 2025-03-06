@@ -3,10 +3,16 @@ title: 在 PSD 中应用带颜色填充的描边效果 - Java
 linktitle: 在 PSD 中应用带颜色填充的描边效果 - Java
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 将带有颜色填充的描边效果应用于 PSD 文件。按照此分步指南轻松增强图像。
-type: docs
 weight: 21
 url: /zh/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 中应用带颜色填充的描边效果 - Java
+
 ## 介绍
 
 在本指南中，我们将引导您使用 Aspose.PSD for Java 将带有颜色填充的描边效果应用于 PSD 文件的过程。无论您是经验丰富的开发人员还是刚刚入门，本分步教程都将帮助您轻松完成工作。我们将介绍从设置环境到保存应用效果的最终图像的所有内容。
@@ -144,3 +150,9 @@ im.save(exportPathPng, option);
 
 ### Aspose.PSD for Java 库可以免费使用吗？
  Aspose.PSD for Java 提供免费试用，但要完全访问所有功能，您需要购买许可证。您可以探索[购买期权](https://purchase.aspose.com/buy)在他们的网站上。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

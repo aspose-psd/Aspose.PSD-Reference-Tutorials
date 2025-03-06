@@ -3,10 +3,16 @@ title: Use Custom Raw Data Loader in PSD Files - Java
 linktitle: Use Custom Raw Data Loader in PSD Files - Java
 second_title: Aspose.PSD Java API
 description: Learn how to use a custom raw data loader in PSD files with Java! This step-by-step guide covers everything from setup to resource cleanup.
-type: docs
 weight: 29
 url: /java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Use Custom Raw Data Loader in PSD Files - Java
+
 ## Introduction
 Working with PSD files in Java can seem overwhelming, especially when it comes to handling raw data. Fear not! By using Aspose.PSD for Java, you can easily manipulate and extract raw pixel data from PSD files using custom loaders. This guide will help you step-by-step through the process of implementing a custom raw data loader. We’ll cover all necessary prerequisites, import the required packages, and break down the code into manageable steps that are simple to follow.
 ## Prerequisites
@@ -90,3 +96,10 @@ Yes, Aspose.PSD offers a free trial version that you can access [here](https://r
 For support and community assistance, you can visit the [Aspose forum](https://forum.aspose.com/c/psd/34).
 ### How can I obtain a temporary license for Aspose.PSD?  
 You can acquire a temporary license to evaluate all features by visiting the [temporary license page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

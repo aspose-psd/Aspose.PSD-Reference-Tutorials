@@ -3,10 +3,16 @@ title: Χειρισμός εικόνας
 linktitle: Χειρισμός εικόνας
 second_title: Aspose.PSD .NET API
 description: Αναβαθμίστε τα έργα σας .NET με το Aspose.PSD! Μάθετε τεχνικές χειρισμού εικόνας όπως ο συνδυασμός, η περικοπή, η αλλαγή μεγέθους, η περιστροφή και η προσθήκη εφέ χωρίς κόπο.
-type: docs
 weight: 26
 url: /el/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εικόνας
+
 ## Εισαγωγή
 
 Ο χειρισμός εικόνας είναι ζωτικής σημασίας δεξιότητα για κάθε προγραμματιστή ή σχεδιαστή που εργάζεται με .NET και το Aspose.PSD για .NET παρέχει μια ισχυρή εργαλειοθήκη για να βελτιώσετε τις δυνατότητές σας. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε διάφορες τεχνικές χειρισμού εικόνας που μπορούν να εφαρμοστούν απρόσκοπτα χρησιμοποιώντας[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ url: /el/net/image-manipulation/
 Κατακτήστε την τέχνη της απόδοσης Gradient Overlay Effect στο Aspose.PSD για .NET. Αναβαθμίστε τις δεξιότητές σας στο γραφικό σχεδιασμό με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Υποστήριξη Gradient Overlay Effect στο Aspose.PSD για .NET](./supporting-gradient-overlay-effect/)
 Βελτιώστε τα γραφικά στο .NET με το Aspose.PSD. Αυτό το σεμινάριο σάς καθοδηγεί στην υποστήριξη των εφέ επικάλυψης κλίσης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidání vrstvy tahu s přechodem v Aspose.PSD pro .NET
 linktitle: Přidání vrstvy tahu s přechodem
 second_title: Aspose.PSD .NET API
 description: Naučte se přidat vrstvu přechodu tahu v Aspose.PSD pro .NET. Zlepšete své dovednosti manipulace s obrázky pomocí tohoto komplexního návodu.
-type: docs
 weight: 12
 url: /cs/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání vrstvy tahu s přechodem v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Pokud chcete vylepšit své aplikace .NET úžasnými grafickými efekty, Aspose.PSD pro .NET je vaším řešením. V tomto tutoriálu se ponoříme do procesu přidávání vrstvy tahu s přechodem pomocí Aspose.PSD pro .NET. Tento podrobný průvodce vám umožní bez námahy zvýšit vizuální přitažlivost vašich obrázků.
@@ -119,3 +125,9 @@ A1: Ano, Aspose.PSD pro .NET je kompatibilní s různými .NET frameworky.
 ### Q5: Jak mohu zakoupit licenci pro Aspose.PSD pro .NET?
 
  A5: Můžete si koupit licenci[zde](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

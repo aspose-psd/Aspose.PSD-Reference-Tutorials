@@ -3,10 +3,16 @@ title: Implémentation du réglage de la luminosité dans Aspose.PSD pour .NET
 linktitle: Implémentation du réglage de la luminosité
 second_title: API Aspose.PSD.NET
 description: Découvrez la puissance d'Aspose.PSD pour .NET pour ajuster la luminosité de l'image. Suivez notre guide étape par étape pour une mise en œuvre transparente.
-type: docs
 weight: 10
 url: /fr/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implémentation du réglage de la luminosité dans Aspose.PSD pour .NET
+
 ## Introduction
 
 L'amélioration et l'ajustement des attributs d'image sont une exigence courante dans diverses applications, et Aspose.PSD pour .NET fournit une solution puissante pour manipuler les fichiers PSD de manière transparente. L'une de ces manipulations est le réglage de la luminosité, qui vous permet de modifier la luminosité d'une image sans effort.
@@ -97,3 +103,9 @@ Aspose.PSD pour .NET simplifie le processus de mise en œuvre des ajustements de
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour .NET ?
 
  A5 : Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

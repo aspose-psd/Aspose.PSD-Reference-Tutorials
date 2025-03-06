@@ -3,10 +3,16 @@ title: Admite el efecto de superposición de degradado en Aspose.PSD para .NET
 linktitle: Admite el efecto de superposición de degradado
 second_title: API Aspose.PSD .NET
 description: Mejore los gráficos en .NET con Aspose.PSD. Este tutorial le guiará en la compatibilidad con efectos de superposición de degradado.
-type: docs
 weight: 18
 url: /es/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite el efecto de superposición de degradado en Aspose.PSD para .NET
+
 ## Introducción
 
 ¡Bienvenido a este completo tutorial sobre cómo admitir el efecto de superposición de degradado en Aspose.PSD para .NET! Si está buscando mejorar las capacidades gráficas de su aplicación .NET, esta guía paso a paso está aquí para ayudarlo. Profundizaremos en las complejidades de crear y editar el efecto de superposición de degradado en una capa usando Aspose.PSD, una poderosa biblioteca que simplifica el procesamiento de imágenes.
@@ -133,3 +139,9 @@ R2: Sí, puedes aplicar varios efectos, incluida la Superposición de degradado,
 ### P5: ¿Cómo puedo obtener soporte para Aspose.PSD?
 
  A5: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para el apoyo de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

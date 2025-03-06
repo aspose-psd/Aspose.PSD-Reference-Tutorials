@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中向图层添加描边效果
 linktitle: 为图层添加描边效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 增强图像美感。逐步学习添加描边效果。立即下载、购买或试用免费试用版。
-type: docs
 weight: 10
 url: /zh/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中向图层添加描边效果
+
 ## 介绍
 
 欢迎阅读本分步教程，了解如何在 Aspose.PSD for .NET 中向图层添加描边效果。使用描边效果可以轻松增强图像的视觉吸引力，Aspose.PSD 让 .NET 开发人员可以轻松完成此操作。在本指南中，我们将引导您完成整个过程，提供清晰的步骤和示例，帮助您掌握这一强大功能。
@@ -109,3 +115,9 @@ A4：是的，您可以循环遍历多个 PSD 文件并使用类似的方法应�
 ### Q5: 在购买 Aspose.PSD 之前我可以使用试用版吗？
 
  A5：当然可以！抓住[免费试用](https://releases.aspose.com/)在购买之前探索 Aspose.PSD 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

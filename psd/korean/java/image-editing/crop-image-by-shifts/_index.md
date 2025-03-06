@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 교대로 이미지 자르기
 linktitle: 교대로 이미지 자르기
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용한 마스터 이미지 자르기. 원활한 이미지 조작을 위한 포괄적인 튜토리얼입니다.
-type: docs
 weight: 16
 url: /ko/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 교대로 이미지 자르기
+
 ## 소개
 
 Java 기반 이미지 처리 영역에서 Aspose.PSD는 이미지를 최대한 정확하게 조작하고 향상시키는 강력한 도구로 돋보입니다. Aspose.PSD를 차별화하는 주요 기능 중 하나는 이미지 자르기를 원활하게 수행하는 기능입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지 자르기 기술을 자세히 살펴보겠습니다. 결국, 귀하는 귀하의 사양에 따라 이미지를 쉽게 자르는 기술을 갖추게 될 것입니다.
@@ -115,3 +121,10 @@ A2: 물론, 동일한 이미지에 대해 여러 자르기 작업을 순차적�
 ### Q5: Aspose.PSD 기능을 보여주는 샘플 프로젝트가 있습니까?
 
  A5: 다음에서 문서와 예제를 살펴보세요.[Aspose.PSD 자바 문서](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

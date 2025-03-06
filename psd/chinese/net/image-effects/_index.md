@@ -3,10 +3,16 @@ title: 图像效果
 linktitle: 图像效果
 second_title: Aspose.PSD .NET API
 description: 掌握 Aspose.PSD for .NET 中的动态图像增强功能。通过有关在运行时添加、叠加和渲染惊人效果的教程来提升您的图像处理能力。
-type: docs
 weight: 25
 url: /zh/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 图像效果
+
 
 ## 介绍
 
@@ -34,3 +40,9 @@ url: /zh/net/image-effects/
 通过我们的叠加色彩效果教程探索 Aspose.PSD for .NET 的神奇之处。轻松提升您的图像处理能力。
 ### [在 Aspose.PSD for .NET 中渲染阴影效果](./render-drop-shadow/)
 在本教程中探索 Aspose.PSD for .NET 的强大功能，掌握渲染迷人阴影效果的艺术。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lägger till Stroke Layer med Gradient i Aspose.PSD för .NET
 linktitle: Lägga till Stroke Layer med Gradient
 second_title: Aspose.PSD .NET API
 description: Lär dig hur du lägger till ett gradientlinjelager i Aspose.PSD för .NET. Öka dina färdigheter i bildmanipulation med denna omfattande handledning.
-type: docs
 weight: 12
 url: /sv/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägger till Stroke Layer med Gradient i Aspose.PSD för .NET
+
 ## Introduktion
 
 Om du vill förbättra dina .NET-applikationer med fantastiska grafiska effekter, är Aspose.PSD för .NET din bästa lösning. I den här handledningen kommer vi att fördjupa oss i processen att lägga till ett strecklager med en gradient med Aspose.PSD för .NET. Denna steg-för-steg-guide ger dig möjlighet att lyfta dina bilders visuella tilltal utan ansträngning.
@@ -119,3 +125,9 @@ S1: Ja, Aspose.PSD för .NET är kompatibel med olika .NET-ramverk.
 ### F5: Hur köper jag en licens för Aspose.PSD för .NET?
 
  A5: Du kan köpa en licens[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD의 레이어에 획 효과 추가
 linktitle: 레이어에 획 효과 추가
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 이미지 미학을 향상하세요. 단계별로 획 효과를 추가하는 방법을 알아보세요. 지금 무료 평가판을 다운로드, 구매 또는 사용해 보세요.
-type: docs
 weight: 10
 url: /ko/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD의 레이어에 획 효과 추가
+
 ## 소개
 
 .NET용 Aspose.PSD의 레이어에 스트로크 효과를 추가하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. 획 효과를 사용하면 이미지의 시각적 매력을 쉽게 향상할 수 있으며 Aspose.PSD를 사용하면 .NET 개발자가 원활하게 작업할 수 있습니다. 이 가이드에서는 이 강력한 기능을 익히는 데 도움이 되는 명확한 단계와 예를 제공하면서 프로세스를 안내합니다.
@@ -109,3 +115,9 @@ A4: 예, 여러 PSD 파일을 반복하고 유사한 접근 방식을 사용하�
 ### Q5: Aspose.PSD를 구매하기 전에 평가판을 사용할 수 있나요?
 
  A5: 물론이죠! 잡아[무료 평가판](https://releases.aspose.com/) 구매하기 전에 Aspose.PSD의 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

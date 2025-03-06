@@ -3,10 +3,16 @@ title: تنفيذ ثبات الصور النقطية في Aspose.PSD لـ Java
 linktitle: تنفيذ ثبات الصور النقطية
 second_title: Aspose.PSD جافا API
 description: قم بتحسين جودة الصورة باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لتنفيذ التدرج والتخلص من نطاقات الألوان.
-type: docs
 weight: 17
 url: /ar/java/image-editing/implement-dithering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ ثبات الصور النقطية في Aspose.PSD لـ Java
+
 ## مقدمة
 
 إذا كنت تتطلع إلى تحسين الجودة المرئية لصورك النقطية في Java، فإن Aspose.PSD يوفر حلاً قويًا. في هذا الدليل خطوة بخطوة، سنستكشف كيفية تنفيذ ثبات الألوان باستخدام Aspose.PSD لـ Java. يعد Dithering تقنية تضيف درجة من التشويش إلى الصور، مما يقلل من نطاقات الألوان ويحسن جودة الصورة بشكل عام.
@@ -88,3 +94,9 @@ A2: يعمل ثبات الألوان على تقليل نطاقات الألوا
 ### س5: هل يمكنني دمج Aspose.PSD لـ Java في مشروع Java الحالي الخاص بي؟
 
 ج5: نعم، يمكن دمج Aspose.PSD بسهولة في مشروع Java الخاص بك لمعالجة الصور بشكل سلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

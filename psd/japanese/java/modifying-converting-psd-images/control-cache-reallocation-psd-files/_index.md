@@ -3,10 +3,16 @@ title: PSD ファイル内のキャッシュの再割り当てを制御する
 linktitle: PSD ファイル内のキャッシュの再割り当てを制御する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイル内のキャッシュの再割り当てを管理します。メモリとファイル処理を効率的に最適化する方法を学習します。開発者に最適です。
-type: docs
 weight: 22
 url: /ja/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD ファイル内のキャッシュの再割り当てを制御する
+
 ## 導入
 画像や Photoshop ファイルをプログラムで操作する場合、効率は重要な要素です。Aspose.PSD for Java は、PSD ファイルをシームレスに管理および操作するための強力な機能を提供します。パフォーマンスを最適化する基本的な側面の 1 つは、キャッシュの再割り当てを制御することです。キャッシュ管理は、メモリとディスクの使用量のバランスを維持し、予期しないクラッシュや速度低下を起こさずにアプリケーションがスムーズに実行されるようにするのに役立ちます。 
 ## 前提条件
@@ -127,3 +133,9 @@ Aspose.PSD は、.NET および Java 開発者が Photoshop (PSD) ファイル�
 Aspose.PSDは有料のライブラリですが、無料トライアルで始めることもできます。[Webサイト](https://releases.aspose.com/).
 ### 物を処分しないとどうなりますか?
 オブジェクトを破棄しないとメモリ リークが発生し、アプリケーションが必要以上に多くのリソースを使用する可能性があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

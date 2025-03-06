@@ -3,10 +3,16 @@ title: Agregue marcas de agua a archivos PSD con Aspose.PSD para Java
 linktitle: Agregue marcas de agua a archivos PSD con Aspose.PSD para Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo agregar una marca de agua a sus archivos PSD sin esfuerzo usando Aspose.PSD para Java. Protege tus imágenes con una sencilla guía paso a paso.
-type: docs
 weight: 18
 url: /es/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue marcas de agua a archivos PSD con Aspose.PSD para Java
+
 ## Introducción
 Las marcas de agua son una forma sutil pero eficaz de proteger sus imágenes y comunicar su propiedad. Ya sea que sea un fotógrafo que muestra su portafolio o un diseñador que presenta su último trabajo, agregar una marca de agua puede ser crucial para mantener la identidad de su marca. En este tutorial, profundizaremos en cómo agregar fácilmente marcas de agua a sus archivos PSD usando Aspose.PSD para Java. Así que toma una taza de café, ponte cómodo y ¡comencemos!
 ## Requisitos previos
@@ -90,3 +96,9 @@ Al ejecutar esta línea, inmortalizas efectivamente tu trabajo en un nuevo forma
  Sí, puedes guardar en varios formatos como JPEG o BMP. Solo reemplaza`PngOptions()` con las opciones deseadas.
 ### ¿Dónde puedo encontrar más ayuda?
  Para consultas detalladas, puede visitar el[Asponer foros](https://forum.aspose.com/c/psd/34) o comprobar su[documentación](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Admite recursos Nvrt en archivos PSD usando Java
 linktitle: Admite recursos Nvrt en archivos PSD usando Java
 second_title: API de Java Aspose.PSD
 description: Descubra cómo admitir recursos Nvrt en archivos PSD usando Java. Aprenda a cargar archivos y extraer recursos valiosos sin esfuerzo con Aspose.PSD.
-type: docs
 weight: 10
 url: /es/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite recursos Nvrt en archivos PSD usando Java
+
 ## Introducción
 Cuando se trata de trabajar con archivos de Photoshop (PSD) en Java, hay innumerables cosas que puedes hacer. Ya sea que esté desarrollando un editor de gráficos, automatizando tareas o manejando diseños mediante programación, comprender cómo manipular archivos PSD es crucial. En esta guía, nos sumergimos en un aspecto específico: admitir el recurso Nvrt (Ajuste de inversión) en archivos PSD utilizando la biblioteca Aspose.PSD para Java.
 ## Requisitos previos
@@ -90,3 +96,9 @@ Aspose.PSD para Java es una biblioteca que permite a los desarrolladores manipul
  ¡Absolutamente! Puede obtener una prueba gratuita de Aspose.PSD para Java[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.PSD?
  Puede hacer preguntas y obtener soporte en el foro de Aspose:[Aspose soporte](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

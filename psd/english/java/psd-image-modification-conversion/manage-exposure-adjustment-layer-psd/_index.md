@@ -3,10 +3,16 @@ title: Manage Exposure Adjustment Layer in PSD using Java
 linktitle: Manage Exposure Adjustment Layer in PSD using Java
 second_title: Aspose.PSD Java API
 description: Enhance your PSD images effortlessly with Java using Aspose.PSD. Follow this guide to manage exposure adjustment layers step-by-step.
-type: docs
 weight: 23
 url: /java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Exposure Adjustment Layer in PSD using Java
+
 ## Introduction
 When it comes to working with Photoshop files programmatically, especially if you're diving into image editing or manipulation, the Aspose.PSD library for Java is truly a game changer. One of the powerful features you can utilize is the Exposure Adjustment Layer, which allows you to enhance or modify the exposure settings of your images simply and effectively. This tutorial will guide you through every step to manage exposure adjustment layers within a PSD file using Java.
 ## Prerequisites
@@ -92,3 +98,10 @@ Yes, while there is a free trial available, a valid license is required for exte
 You can access community support on the Aspose forums [here](https://forum.aspose.com/c/psd/34).
 ### Is there a sample project available for getting started?
 Yes, you can find sample projects and documentation on the [Aspose.PSD Reference page](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

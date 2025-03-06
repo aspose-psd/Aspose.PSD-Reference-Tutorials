@@ -3,10 +3,16 @@ title: Kỹ thuật vẽ PSD
 linktitle: Kỹ thuật vẽ PSD
 second_title: API Aspose.PSD .NET
 description: Khai phá tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn của chúng tôi! Nắm vững các tính năng vẽ cốt lõi, tạo đồ họa tuyệt đẹp và nâng cao kỹ năng xử lý hình ảnh của bạn.
-type: docs
 weight: 28
 url: /vi/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật vẽ PSD
+
 
 ## Giới thiệu
 
@@ -61,3 +67,9 @@ Khám phá nghệ thuật vẽ hình chữ nhật trong .NET với Aspose.PSD. H
 Mở khóa tiềm năng nghệ thuật của bạn với Aspose.PSD cho .NET! Hãy làm theo hướng dẫn của chúng tôi để vẽ sáng tạo bằng Đồ họa.
 ### [Triển khai Vẽ bằng GraphicsPath trong Aspose.PSD cho .NET](./implementing-drawing-with-graphicspath/)
 Khám phá sức mạnh của Aspose.PSD cho .NET trong hướng dẫn từng bước về cách vẽ bằng GraphicsPath. Nâng cao các ứng dụng .NET của bạn bằng thao tác tệp Photoshop nâng cao.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

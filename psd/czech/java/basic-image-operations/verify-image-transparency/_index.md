@@ -3,10 +3,16 @@ title: Ověřte průhlednost obrazu pomocí Aspose.PSD pro Java
 linktitle: Ověřte průhlednost obrázku
 second_title: Aspose.PSD Java API
 description: Prozkoumejte ověření průhlednosti obrazu pomocí Aspose.PSD pro Java. Snadná integrace, podrobná dokumentace a vynikající podpora komunity.
-type: docs
 weight: 14
 url: /cs/java/basic-image-operations/verify-image-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ověřte průhlednost obrazu pomocí Aspose.PSD pro Java
+
 ## Zavedení
 
 Pracujete s obrázky a potřebujete zajistit průhlednost? Aspose.PSD for Java poskytuje výkonné řešení pro ověřování průhlednosti obrázků, které vám umožňuje snadno manipulovat a analyzovat soubory obrázků. V tomto podrobném průvodci vás provedeme procesem ověření průhlednosti obrázku pomocí Aspose.PSD for Java.
@@ -86,3 +92,9 @@ Odpověď 1: Ano, Aspose.PSD for Java je navržen tak, aby bezproblémově spolu
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
  A5: Pokud testujete knihovnu, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

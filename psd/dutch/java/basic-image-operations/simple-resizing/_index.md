@@ -3,10 +3,16 @@ title: Voer eenvoudig formaatwijzigingen uit met Aspose.PSD voor Java
 linktitle: Voer een eenvoudige formaatwijziging uit
 second_title: Aspose.PSD Java-API
 description: Leer het formaat van afbeeldingen programmatisch wijzigen met Aspose.PSD voor Java. Volg onze stapsgewijze handleiding voor efficiënte beeldmanipulatie.
-type: docs
 weight: 11
 url: /nl/java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voer eenvoudig formaatwijzigingen uit met Aspose.PSD voor Java
+
 ## Invoering
 
 In de tutorial van vandaag gaan we dieper in op het proces van het eenvoudig aanpassen van de grootte van afbeeldingen met behulp van Aspose.PSD voor Java, een krachtige bibliotheek die efficiënte beeldmanipulatie mogelijk maakt. Als u een Java-ontwikkelaar bent en op zoek bent naar een naadloze manier om het formaat van afbeeldingen programmatisch te wijzigen, dan bent u hier op de juiste plek.
@@ -101,3 +107,9 @@ A2: Ja, Aspose.PSD ondersteunt verschillende afbeeldingsformaten, wat veelzijdig
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor Java?
 
  A5: Bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) voor hulp en gemeenschapsondersteuning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

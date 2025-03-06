@@ -3,10 +3,16 @@ title: Pas lijneffect toe met kleurvulling in PSD - Java
 linktitle: Pas lijneffect toe met kleurvulling in PSD - Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u een streekeffect met kleurvulling op uw PSD-bestanden kunt toepassen met Aspose.PSD voor Java. Volg deze stapsgewijze handleiding om uw afbeeldingen eenvoudig te verbeteren.
-type: docs
 weight: 21
 url: /nl/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas lijneffect toe met kleurvulling in PSD - Java
+
 ## Invoering
 
 In deze handleiding begeleiden we u bij het toepassen van een streekeffect met kleurvulling op uw PSD-bestanden met behulp van Aspose.PSD voor Java. Of u nu een doorgewinterde ontwikkelaar bent of net begint, met deze stapsgewijze zelfstudie kunt u de klus gemakkelijk klaren. We behandelen alles, van het instellen van uw omgeving tot het opslaan van de uiteindelijke afbeelding met de toegepaste effecten.
@@ -144,3 +150,9 @@ Om de wijzigingen ongedaan te maken, moet u het originele PSD-bestand opnieuw la
 
 ### Is de Aspose.PSD voor Java-bibliotheek gratis te gebruiken?
  Aspose.PSD voor Java biedt een gratis proefperiode, maar voor volledige toegang tot alle functies moet u een licentie aanschaffen. Je kunt de[koop opties](https://purchase.aspose.com/buy)op hun website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

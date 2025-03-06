@@ -3,10 +3,16 @@ title: Optimizing PNG Files
 linktitle: Optimizing PNG Files
 second_title: Aspose.PSD Java API
 description: Explore comprehensive tutorials for optimizing PNG files using Aspose.PSD for Java, covering filters, background color changes, compression, resolution, bit depth, and transparency.
-type: docs
 weight: 20
 url: /java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimizing PNG Files
+
 ## Introduction
 
 Are you looking to master PNG file optimization with Aspose.PSD for Java? Our detailed tutorials cover everything you need to know to make your images shine. From applying filters to changing background colors, and compressing files to setting resolutions, this guide has you covered. Let’s dive into each topic step-by-step to ensure you get the most out of your PNG files!
@@ -48,3 +54,9 @@ Explore how to set PNG file resolution using Aspose.PSD for Java with this detai
 Learn how to specify PNG bit depth using Aspose.PSD for Java in this detailed step-by-step tutorial.
 ### [Set PNG Transparency in Aspose.PSD for Java](./set-png-transparency/)
 Learn how to set PNG transparency in Aspose.PSD for Java with an easy step-by-step tutorial. Perfect for developers and graphic designers.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

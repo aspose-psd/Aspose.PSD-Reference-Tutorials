@@ -3,10 +3,16 @@ title: Hỗ trợ Clipping Mask trong tệp PSD với Aspose.PSD Java
 linktitle: Hỗ trợ Clipping Mask trong tệp PSD với Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách hỗ trợ cắt mặt nạ trong tệp PSD bằng Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để dễ dàng thao tác với hình ảnh PSD.
-type: docs
 weight: 16
 url: /vi/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ Clipping Mask trong tệp PSD với Aspose.PSD Java
+
 ## Giới thiệu
 Trong thời đại thiết kế và nghệ thuật kỹ thuật số ngày nay, các tệp PSD của Adobe Photoshop là nền tảng của sự sáng tạo. Những tệp này cho phép các nhà thiết kế sử dụng các lớp, mặt nạ và các hiệu ứng khác nhau để biến tầm nhìn của họ thành hiện thực. Nhưng điều gì sẽ xảy ra khi bạn cần thao tác với các tệp này theo chương trình? Đó là lúc Aspose.PSD dành cho Java phát huy tác dụng! Đó là một thư viện mạnh mẽ cho phép bạn quản lý và thao tác các tệp PSD một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ xem xét kỹ hơn cách hỗ trợ cắt mặt nạ trong tệp PSD bằng Aspose.PSD cho Java. 
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Có, Aspose.PSD cho phép bạn thao tác với các tệp PSD, bao gồm chỉn
  Đúng! Bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.PSD[đây](https://releases.aspose.com/).
 ### Làm cách nào để nhận được hỗ trợ cho các vấn đề về Aspose.PSD?
  Đối với bất kỳ thắc mắc hoặc vấn đề nào, bạn có thể nhận hỗ trợ thông qua diễn đàn Aspose[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

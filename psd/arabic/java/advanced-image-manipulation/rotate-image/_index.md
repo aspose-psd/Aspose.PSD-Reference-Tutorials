@@ -3,10 +3,16 @@ title: قم بتدوير الصورة في Aspose.PSD لـ Java
 linktitle: تدوير صورة
 second_title: Aspose.PSD جافا API
 description: استكشف تدوير الصور في Java بسهولة باستخدام Aspose.PSD. قم بتدوير ملفات PSD وقلبها وحفظها بسهولة.
-type: docs
 weight: 19
 url: /ar/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتدوير الصورة في Aspose.PSD لـ Java
+
 ## مقدمة
 
 يوفر Aspose.PSD for Java مجموعة قوية من الميزات للعمل مع الصور، مما يسمح للمطورين بمعالجة ملفات PSD ومعالجتها بكفاءة. في هذا البرنامج التعليمي، سنركز على مهمة واحدة محددة: تدوير الصورة. سواء كنت تقوم بإنشاء تطبيق لتحرير الصور أو تحتاج ببساطة إلى ضبط اتجاه الصورة، فإن Aspose.PSD يجعل العملية واضحة.
@@ -84,3 +90,9 @@ A1: نعم، يدعم Aspose.PSD تنسيقات الصور المختلفة، ب
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

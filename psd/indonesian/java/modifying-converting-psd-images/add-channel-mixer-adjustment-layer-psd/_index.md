@@ -3,10 +3,16 @@ title: Tambahkan Lapisan Penyesuaian Mixer Saluran di PSD
 linktitle: Tambahkan Lapisan Penyesuaian Mixer Saluran di PSD
 second_title: Asumsikan.PSD Java API
 description: Sempurnakan file PSD Anda dengan Lapisan Penyesuaian Pengaduk Saluran menggunakan Aspose.PSD untuk Java. Pelajari teknik manipulasi warna selangkah demi selangkah untuk mendapatkan gambar yang hidup.
-type: docs
 weight: 10
 url: /id/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Lapisan Penyesuaian Mixer Saluran di PSD
+
 ## Perkenalan
 Dunia desain grafis penuh dengan berbagai kemungkinan, namun terkadang, mendapatkan tampilan yang sempurna terasa seperti berjalan-jalan di hutan lebat tanpa peta. Pernahkah Anda merasa gambar Anda kurang memiliki faktor "wow"? Nah, di situlah lapisan penyesuaian berperan! Hari ini, kita mempelajari cara menambahkan Lapisan Penyesuaian Pengaduk Saluran menggunakan Aspose.PSD untuk Java. Ini adalah alat bagus yang memungkinkan Anda membuat penyesuaian warna yang tepat pada file PSD Anda, memastikan gambar Anda menonjol dan mengesankan.
 
@@ -167,3 +173,9 @@ Aspose.PSD terutama dirancang untuk bekerja dengan file PSD, tetapi rangkaian As
 
 ### Apakah ada cara untuk mendapatkan lisensi sementara untuk Aspose.PSD?
  Ya! Anda dapat mengajukan permohonan izin sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

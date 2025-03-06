@@ -3,10 +3,16 @@ title: Java에서 EXIF 데이터 쓰기 및 수정
 linktitle: Java에서 EXIF 데이터 쓰기 및 수정
 second_title: Aspose.PSD 자바 API
 description: 이 포괄적인 단계별 가이드를 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 EXIF 데이터를 작성하고 수정하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/java-jpeg-image-processing/write-modify-exif-data-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 EXIF 데이터 쓰기 및 수정
+
 ## 소개
 Java를 사용하여 PSD 파일의 EXIF 데이터를 조작하려고 하시나요? 그렇다면, 당신은 올바른 위치에 있습니다! 이 포괄적인 가이드는 강력한 Aspose.PSD 라이브러리를 사용하여 Java에서 EXIF 데이터를 작성하고 수정하는 단계를 안내합니다. 
 ## 전제조건
@@ -84,3 +90,9 @@ EXIF(Exchangeable Image File Format) 데이터는 이미지 파일에 포함된 
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### 이미지 일괄 처리에 Aspose.PSD를 사용할 수 있나요?
 예, Aspose.PSD의 강력한 기능을 사용하여 여러 이미지를 일괄 처리할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

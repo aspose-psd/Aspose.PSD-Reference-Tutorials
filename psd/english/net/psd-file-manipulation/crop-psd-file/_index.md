@@ -3,10 +3,16 @@ title: Cropping PSD Files with Aspose.PSD for .NET
 linktitle: Cropping PSD Files with Aspose.PSD for .NET
 second_title: Aspose.PSD .NET API
 description: Explore the art of PSD file cropping in .NET with Aspose.PSD, a versatile toolkit. Elevate your image manipulation game effortlessly.
-type: docs
 weight: 19
 url: /net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cropping PSD Files with Aspose.PSD for .NET
+
 ## Introduction
 In the realm of .NET development, Aspose.PSD stands out as a powerful toolkit for handling PSD (Photoshop Document) files seamlessly. When it comes to manipulating images, cropping is a fundamental operation, and Aspose.PSD simplifies this process for .NET developers. In this tutorial, we will explore how to crop PSD files using Aspose.PSD for .NET, providing you with a step-by-step guide.
 ## Prerequisites
@@ -72,3 +78,10 @@ A4: For any queries or assistance, visit the [Aspose.PSD forum](https://forum.as
 ### Q5: Do I need a temporary license for testing purposes?
 
 A5: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

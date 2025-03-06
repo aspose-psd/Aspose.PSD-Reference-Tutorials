@@ -3,10 +3,16 @@ title: Buat Gambar dengan Mengatur Jalur di Aspose.PSD untuk Java
 linktitle: Buat Gambar dengan Mengatur Jalur
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara membuat gambar PSD menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk menghasilkan gambar dengan lancar.
-type: docs
 weight: 13
 url: /id/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Gambar dengan Mengatur Jalur di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang membuat gambar menggunakan Aspose.PSD untuk Java. Dalam panduan ini, kita akan mempelajari cara mengatur jalur dan mengonfigurasi opsi untuk menghasilkan gambar PSD. Aspose.PSD adalah perpustakaan Java yang kuat untuk bekerja dengan file Photoshop, menyediakan cara yang mulus untuk memanipulasi dan membuat gambar secara terprogram.
@@ -107,3 +113,9 @@ A1: Ya, Aspose.PSD bekerja secara lancar dengan berbagai Lingkungan Pengembangan
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
  A5: Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

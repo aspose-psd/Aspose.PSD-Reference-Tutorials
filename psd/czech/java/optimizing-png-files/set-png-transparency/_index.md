@@ -3,10 +3,16 @@ title: Nastavte průhlednost PNG v Aspose.PSD pro Javu
 linktitle: Nastavte průhlednost PNG v Aspose.PSD pro Javu
 second_title: Aspose.PSD Java API
 description: Naučte se, jak nastavit průhlednost PNG v Aspose.PSD pro Java, pomocí jednoduchého návodu krok za krokem. Ideální pro vývojáře a grafiky.
-type: docs
 weight: 15
 url: /cs/java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte průhlednost PNG v Aspose.PSD pro Javu
+
 ## Zavedení
 Pokud jde o manipulaci a správu grafiky, zejména v profesionálních prostředích, je rozhodující výběr správných nástrojů. Jedním z nástrojů, který vyniká v oblasti manipulace s grafikou, je Aspose.PSD pro Javu. Tato knihovna umožňuje vývojářům bezproblémově pracovat se soubory Photoshopu (PSD) přímo v jejich aplikacích Java. Je to jako mít výkonné funkce Photoshopu na dosah ruky, bez strmé křivky učení! Dnes se ponoříme do specifické funkce: nastavení průhlednosti PNG pomocí Aspose.PSD pro Javu. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede jednotlivými kroky.
 ## Předpoklady
@@ -67,3 +73,9 @@ Absolutně! Můžete si stáhnout bezplatnou zkušební verzi Aspose.PSD[zde](ht
  Můžete navštívit[Aspose Support Forum](https://forum.aspose.com/c/psd/34) za pomoc a podporu komunity.
 ### Mohu nastavit více průhledných barev?
 V současné době vám knihovna umožňuje nastavit jednu průhlednou barvu na obrázek PNG. V případě potřeby však můžete před exportem manipulovat s různými vrstvami v souboru PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

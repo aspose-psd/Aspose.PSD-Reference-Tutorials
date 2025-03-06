@@ -3,10 +3,16 @@ title: Modificação e conversão de imagem PSD
 linktitle: Modificação e conversão de imagem PSD
 second_title: API Java Aspose.PSD
 description: Descubra tutoriais essenciais do Aspose.PSD para Java. Aprenda a lidar com arquivos PSD, exportar camadas, aplicar efeitos e muito mais com guias passo a passo.
-type: docs
 weight: 22
 url: /pt/java/psd-image-modification-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modificação e conversão de imagem PSD
+
 ## Introdução
 
 Bem-vindo ao nosso guia sobre como usar Aspose.PSD para Java! Esta coleção de tutoriais foi projetada para ajudar desenvolvedores e designers gráficos a trabalhar de maneira eficiente com arquivos PSD. Esteja você procurando modificar imagens, gerenciar camadas ou aplicar efeitos, nós temos o que você precisa. Vamos mergulhar em alguns tutoriais importantes que irão aprimorar suas habilidades de processamento de imagens.
@@ -102,3 +108,9 @@ Descubra como gerenciar camadas de ajuste do Mixer de canais RGB e CMYK em arqui
 Aprimore suas imagens PSD sem esforço com Java usando Aspose.PSD. Siga este guia para gerenciar as camadas de ajuste passo a passo.
 ### [Gerenciar camada de ajuste de filtro de foto em PSD - Java](./manage-photo-filter-adjustment-layer-psd/)
 Aprenda como gerenciar camadas de ajuste de filtro de fotos em arquivos PSD com Aspose.PSD para Java. Siga este guia para editar e adicionar filtros sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 透過在 Aspose.PSD for .NET 中設定路徑來建立映像
 linktitle: 透過設定路徑建立影像
 second_title: Aspose.PSD .NET API
 description: 探索使用 Aspose.PSD for .NET 建立映像。遵循我們的分步指南，釋放這個強大庫的潛力。
-type: docs
 weight: 11
 url: /zh-hant/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透過在 Aspose.PSD for .NET 中設定路徑來建立映像
+
 在 .NET 開發領域，Aspose.PSD 作為操作和創建圖像的強大工具脫穎而出。在本教程中，我們將深入研究透過設定路徑使用 Aspose.PSD for .NET 建立圖像的過程。按照這些逐步說明來釋放這個多功能函式庫的潛力。
 
 ## 介紹
@@ -98,3 +104,9 @@ A2：當然！ Aspose.PSD 可讓您執行批次影像處理，從而可以有效
 ### Q5：我如何獲得支持或尋求協助？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)與社區聯繫並尋求專家的協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

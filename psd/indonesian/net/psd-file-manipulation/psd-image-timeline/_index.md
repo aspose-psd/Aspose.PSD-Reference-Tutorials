@@ -3,10 +3,16 @@ title: Menangani Garis Waktu Gambar PSD di Aspose.PSD untuk .NET
 linktitle: Menangani Garis Waktu Gambar PSD
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menangani garis waktu gambar PSD dengan mudah menggunakan Aspose.PSD untuk .NET. Tambahkan bingkai, beralih dengan lancar, dan tingkatkan keterampilan mengedit gambar Anda.
-type: docs
 weight: 17
 url: /id/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Garis Waktu Gambar PSD di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Dalam dunia pemrosesan gambar yang dinamis, Aspose.PSD untuk .NET menonjol sebagai perangkat canggih yang memberikan solusi tangguh untuk menangani garis waktu gambar PSD. Baik Anda seorang pengembang berpengalaman atau penggemar coding, tutorial ini akan memandu Anda melalui proses penggunaan Aspose.PSD untuk memanipulasi garis waktu gambar dengan mudah.
 ## Prasyarat
@@ -80,3 +86,9 @@ A1: Tidak, Aspose.PSD dirancang khusus untuk aplikasi .NET.
 ### Q5: Butuh bantuan atau punya pertanyaan?
 
  A5: Kunjungi forum komunitas Aspose.PSD[Di Sini](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Styr cacheomfördelning i PSD-filer
 linktitle: Styr cacheomfördelning i PSD-filer
 second_title: Aspose.PSD Java API
 description: Hantera omfördelning av cache i PSD-filer med Aspose.PSD för Java. Lär dig hur du optimerar minne och filhantering effektivt – perfekt för utvecklare.
-type: docs
 weight: 22
 url: /sv/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Styr cacheomfördelning i PSD-filer
+
 ## Introduktion
 När du arbetar med bilder och Photoshop-filer programmatiskt är effektivitet en nyckelfaktor. Aspose.PSD för Java erbjuder robusta funktioner för att hantera och manipulera PSD-filer sömlöst. En av de grundläggande aspekterna av att optimera prestanda är att kontrollera cacheomfördelning. Cachehantering hjälper till att upprätthålla balansen mellan minne och diskanvändning, vilket säkerställer att din applikation körs smidigt, utan oväntade krascher eller nedgångar. 
 ## Förutsättningar
@@ -127,3 +133,9 @@ Aspose.PSD är ett bibliotek för .NET- och Java-utvecklare för att skapa, mani
 Aspose.PSD är ett betalbibliotek, men du kan börja med en gratis testversion tillgänglig på deras[webbplats](https://releases.aspose.com/).
 ### Vad händer om jag inte gör mig av med föremål?
 Att inte kassera föremål kan leda till minnesläckor, vilket gör att din applikation använder mer resurser än nödvändigt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

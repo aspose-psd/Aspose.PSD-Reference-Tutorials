@@ -3,10 +3,16 @@ title: Simple Resizing of Images in Aspose.PSD for .NET
 linktitle: Simple Resizing of Images
 second_title: Aspose.PSD .NET API
 description: Master image resizing with Aspose.PSD for .NET. Efficient, seamless, and powerful. Elevate your .NET projects effortlessly.
-type: docs
 weight: 17
 url: /net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simple Resizing of Images in Aspose.PSD for .NET
+
 ## Introduction
 
 In the dynamic realm of .NET development, manipulating images is a common necessity. Aspose.PSD for .NET comes to the rescue with its powerful capabilities, providing a seamless experience for image resizing. In this tutorial, we'll delve into the simple yet crucial process of resizing images using Aspose.PSD for .NET. Buckle up as we embark on a journey to enhance your image processing skills.
@@ -89,3 +95,10 @@ A4: Explore the detailed documentation at [Aspose.PSD for .NET Documentation](ht
 ### Q5: How can I get support or connect with the community for Aspose.PSD for .NET?
 
 A5: Visit the [Aspose.PSD for .NET Forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

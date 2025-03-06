@@ -3,10 +3,16 @@ title: Afbeeldingen uitbreiden en bijsnijden met Aspose.PSD voor Java
 linktitle: Afbeeldingen uitbreiden en bijsnijden
 second_title: Aspose.PSD Java-API
 description: Leer hoe u afbeeldingen in Java kunt uitbreiden en bijsnijden met Aspose.PSD. Stap-voor-stap handleiding voor efficiënte beeldverwerking.
-type: docs
 weight: 18
 url: /nl/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen uitbreiden en bijsnijden met Aspose.PSD voor Java
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u Aspose.PSD voor Java kunt gebruiken om afbeeldingen efficiënt uit te breiden en bij te snijden. Aspose.PSD is een krachtige bibliotheek die een breed scala aan functies biedt voor het werken met PSD-bestanden in Java-toepassingen. In deze handleiding bespreken we de noodzakelijke vereisten, het importeren van pakketten en leggen we elke stap uit met gedetailleerde uitleg.
@@ -102,3 +108,9 @@ A2: Absoluut, Aspose.PSD biedt commerciële licenties voor ontwikkelaars, waardo
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
  A5: Ja, u kunt Aspose.PSD verkennen met een gratis proefperiode. Download het[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Správa vrstvy úprav směšovače kanálů v PSD - Java
 linktitle: Správa vrstvy úprav směšovače kanálů v PSD - Java
 second_title: Aspose.PSD Java API
 description: Objevte, jak spravovat vrstvy úprav RGB a CMYK Channel Mixer v souborech PSD pomocí Aspose.PSD for Java. Vylepšete své dovednosti v oblasti úpravy obrázků.
-type: docs
 weight: 22
 url: /cs/java/psd-image-modification-conversion/manage-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa vrstvy úprav směšovače kanálů v PSD - Java
+
 ## Zavedení
 Photoshop změnil způsob, jakým přemýšlíme o úpravách obrázků, ale přiznejme si to – manipulace se složitými soubory obrázků může někdy připadat jako dešifrování cizího jazyka. Naštěstí pomocí Aspose.PSD for Java můžete bez problémů spravovat a manipulovat se soubory Photoshopu, aniž byste potřebovali vzdělání v grafickém designu. V této příručce se ponoříme do výukového programu, který vysvětluje, jak spravovat vrstvy úprav Channel Mixer v souborech PSD pomocí Java. Jste připraveni uvolnit svého vnitřního digitálního umělce? Začněme!
 ## Předpoklady
@@ -114,3 +120,9 @@ Aspose.PSD for Java je knihovna, která umožňuje vývojářům pracovat se sou
 Zatímco primárně pro PSD, Aspose.PSD zvládne i jiné formáty, jako je PSB a další, čímž rozšiřuje svou použitelnost.
 ### Kde mohu získat podporu pro Aspose.PSD?
  Na nich můžete hledat pomoc a podporu[forum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

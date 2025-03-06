@@ -3,10 +3,16 @@ title: دعم تأثير التوهج الخارجي في Aspose.PSD لـ .NET
 linktitle: دعم تأثير الوهج الخارجي
 second_title: Aspose.PSD.NET API
 description: اكتشف قوة تأثير التوهج الخارجي في Aspose.PSD لـ .NET. ارفع مستوى تصميمات صورك باستخدام هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم تأثير التوهج الخارجي في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول دعم تأثير التوهج الخارجي في Aspose.PSD لـ .NET. Aspose.PSD هي مكتبة قوية تتيح المعالجة السلسة لملفات PSD في تطبيقات .NET. في هذا البرنامج التعليمي، سوف نستكشف تنفيذ تأثير التوهج الخارجي ونقدم إرشادات تفصيلية لدمجه في مشاريعك.
@@ -114,3 +120,9 @@ Console.WriteLine("SupportOfOuterGlowEffect executed successfully");
 ### س5: هل يمكنني شراء Aspose.PSD لـ .NET؟
 
  ج5: نعم، استكشف خيارات الترخيص وقم بالشراء[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

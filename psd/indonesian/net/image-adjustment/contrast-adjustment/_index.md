@@ -3,10 +3,16 @@ title: Menerapkan Penyesuaian Kontras di Aspose.PSD untuk .NET
 linktitle: Menerapkan Penyesuaian Kontras
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menerapkan penyesuaian kontras di Aspose.PSD untuk .NET dengan panduan langkah demi langkah ini.
-type: docs
 weight: 11
 url: /id/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Penyesuaian Kontras di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang penerapan penyesuaian kontras di Aspose.PSD untuk .NET! Dalam tutorial ini, kita akan menjelajahi proses meningkatkan kontras gambar menggunakan Aspose.PSD, pustaka pencitraan .NET yang canggih. Di akhir panduan ini, Anda akan memiliki pemahaman yang kuat tentang cara menerapkan penyesuaian kontras pada gambar Anda dengan mulus.
@@ -101,3 +107,9 @@ A1: Aspose.PSD untuk .NET dirancang agar ramah pengembang, sehingga cocok untuk 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
  A5: Jika diperlukan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

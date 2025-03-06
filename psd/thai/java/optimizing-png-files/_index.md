@@ -3,10 +3,16 @@ title: การเพิ่มประสิทธิภาพไฟล์ PNG
 linktitle: การเพิ่มประสิทธิภาพไฟล์ PNG
 second_title: Aspose.PSD Java API
 description: สำรวจบทช่วยสอนที่ครอบคลุมสำหรับการเพิ่มประสิทธิภาพไฟล์ PNG โดยใช้ Aspose.PSD สำหรับ Java ซึ่งครอบคลุมตัวกรอง การเปลี่ยนสีพื้นหลัง การบีบอัด ความละเอียด ความลึกของบิต และความโปร่งใส
-type: docs
 weight: 20
 url: /th/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเพิ่มประสิทธิภาพไฟล์ PNG
+
 ## การแนะนำ
 
 คุณกำลังมองหาวิธีการเพิ่มประสิทธิภาพไฟล์ PNG ด้วย Aspose.PSD สำหรับ Java อยู่ใช่ไหม? บทช่วยสอนโดยละเอียดของเราครอบคลุมทุกสิ่งที่คุณจำเป็นต้องรู้เพื่อทำให้ภาพของคุณโดดเด่น คู่มือนี้ครอบคลุมตั้งแต่การใช้ฟิลเตอร์ไปจนถึงการเปลี่ยนสีพื้นหลัง และการบีบอัดไฟล์ไปจนถึงการตั้งค่าความละเอียด มาเจาะลึกแต่ละหัวข้อทีละขั้นตอนเพื่อให้แน่ใจว่าคุณจะได้ประโยชน์สูงสุดจากไฟล์ PNG ของคุณ!
@@ -48,3 +54,9 @@ url: /th/java/optimizing-png-files/
 เรียนรู้วิธีระบุความลึกบิต PNG โดยใช้ Aspose.PSD สำหรับ Java ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
 ### [ตั้งค่าความโปร่งใส PNG ใน Aspose.PSD สำหรับ Java](./set-png-transparency/)
 เรียนรู้วิธีตั้งค่าความโปร่งใส PNG ใน Aspose.PSD สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ เหมาะสำหรับนักพัฒนาและนักออกแบบกราฟิก
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

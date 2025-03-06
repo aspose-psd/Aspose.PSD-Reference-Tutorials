@@ -3,10 +3,16 @@ title: Thêm lớp nét với mẫu trong Aspose.PSD cho .NET
 linktitle: Thêm lớp nét với mẫu
 second_title: API Aspose.PSD .NET
 description: Nâng cao các tệp PSD của bạn bằng các lớp và mẫu nét bằng cách sử dụng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp nét với mẫu trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Nâng cao các tệp PSD (Tài liệu Photoshop) của bạn bằng các lớp và mẫu nét vẽ có thể tạo thêm nét năng động cho thiết kế của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng Aspose.PSD cho .NET để dễ dàng thêm lớp nét vẽ có mẫu vào tệp PSD của bạn. Aspose.PSD là một thư viện .NET mạnh mẽ cung cấp hỗ trợ toàn diện để thao tác với các tệp PSD, khiến nó trở thành một công cụ vô giá cho các nhà phát triển cũng như nhà thiết kế.
@@ -144,3 +150,9 @@ Câu trả lời 4: Hoàn toàn có thể, Aspose.PSD dành cho .NET cung cấp 
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự trợ giúp hoặc tham gia thảo luận cộng đồng ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được hỗ trợ và tương tác với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

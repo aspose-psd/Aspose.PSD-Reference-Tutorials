@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET でシフトによる画像の切り抜き
 linktitle: シフトによる画像の切り抜き
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を使用して画像を簡単にトリミングする方法を学びます。正確な画像調整については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET でシフトによる画像の切り抜き
+
 ## 導入
 
 .NET 開発の分野では、Aspose.PSD は画像処理タスク用の強力なツールキットとして際立っています。その注目すべき機能の 1 つは、「シフトによるトリミング」機能により、画像を正確にトリミングできることです。このステップ バイ ステップ ガイドでは、Aspose.PSD for .NET を使用して画像をシームレスにトリミングするプロセスについて説明します。
@@ -105,3 +111,10 @@ A1: はい、Aspose.PSD はさまざまな画像形式をサポートしてお�
 ### Q5: Aspose.PSD for .NET を Web サイトから直接購入できますか?
 
  A5: はい、ライブラリは安全に購入できます。[購入ページ](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

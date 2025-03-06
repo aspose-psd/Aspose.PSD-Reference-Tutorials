@@ -3,10 +3,16 @@ title: PSD fájlforrások
 linktitle: PSD fájlforrások
 second_title: Aspose.PSD .NET API
 description: Ismerje meg az Aspose.PSD for .NET teljes potenciálját oktatóanyagainkkal. Zökkenőmentesen sajátítsa el a háttérszínt, a szegélyinformációkat, a munkaútvonalat és a fekete-fehér erőforrásokat.
-type: docs
 weight: 31
 url: /hu/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD fájlforrások
+
 
 ## Bevezetés
 
@@ -39,3 +45,9 @@ Fedezze fel az Aspose.PSD-t a .NET Border Information Resource szolgáltatásáh
 Fedezze fel az Aspose.PSD for .NET 'WorkingPathResource' erejét. Növelje a kép pontosságát ezzel a lépésenkénti útmutatóval.
 ### [Fekete-fehér (Blwh) erőforrás támogatása az Aspose.PSD-ben .NET-hez](./supporting-black-and-white-blwh-resource/)
 Fedezze fel a fejlett képszerkesztést az Aspose.PSD for .NET segítségével. Tanulja meg a fekete-fehér beállítási rétegek elsajátítását a képelemek pontos vezérléséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

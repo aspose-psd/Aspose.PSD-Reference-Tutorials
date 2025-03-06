@@ -3,10 +3,16 @@ title: Menerapkan Bradley Threshold di Aspose.PSD untuk .NET
 linktitle: Menerapkan Ambang Batas Bradley
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan segmentasi gambar menggunakan Bradley Threshold di Aspose.PSD untuk .NET. Panduan langkah demi langkah untuk binarisasi yang efektif.
-type: docs
 weight: 15
 url: /id/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Bradley Threshold di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif kami tentang penerapan Bradley Threshold di Aspose.PSD untuk .NET. Aspose.PSD untuk .NET adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan file Photoshop di aplikasi .NET Anda. Bradley Thresholding adalah teknik yang digunakan untuk binarisasi gambar, membantu memisahkan objek dari latar belakang secara efektif.
@@ -90,3 +96,9 @@ A1: Ya, Bradley Thresholding adalah teknik serbaguna yang cocok untuk berbagai j
 ### Q5: Di mana saya dapat membeli lisensi Aspose.PSD?
 
  A5: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

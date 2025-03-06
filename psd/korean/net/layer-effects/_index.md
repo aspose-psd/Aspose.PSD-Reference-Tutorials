@@ -3,10 +3,16 @@ title: 레이어 효과
 linktitle: 레이어 효과
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 레이어 효과의 마법을 발견해보세요! 획, 그림자 및 혼합 모드를 추가하는 방법을 학습하여 이미지 조작 기술을 향상시키십시오.
-type: docs
 weight: 29
 url: /ko/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 레이어 효과
+
 ## 소개
 
 .NET용 Aspose.PSD를 사용하여 이미지 조작 작업의 잠재력을 최대한 활용하세요. 이 포괄적인 가이드에서는 창작 과정을 변화시킬 수 있는 다양한 레이어 효과를 소개합니다. 획과 그림자부터 블렌드 모드까지 디자인을 손쉽게 향상시킬 수 있습니다.
@@ -54,3 +60,9 @@ Aspose.PSD를 사용하여 .NET 이미지 조작 기술을 향상하세요. 단�
 이 포괄적인 튜토리얼을 통해 .NET용 Aspose.PSD에서 그림자 효과 불투명도를 조정하는 방법을 알아보세요.
 ### [.NET용 Aspose.PSD에서 블렌드 모드 작업](./working-with-blend-modes/)
 .NET용 Aspose.PSD에서 블렌드 모드의 강력한 기능을 살펴보세요. 이 튜토리얼에서는 단계별 예제를 통해 다양한 블렌드 모드를 적용하는 과정을 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

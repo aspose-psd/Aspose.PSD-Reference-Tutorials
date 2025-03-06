@@ -3,10 +3,16 @@ title: Προσαρμόστε το Text Layer Bound Box σε PSD χρησιμο�
 linktitle: Προσαρμόστε το Text Layer Bound Box σε PSD χρησιμοποιώντας Java
 second_title: Aspose.PSD Java API
 description: Μάθετε να προσαρμόζετε τα όρια του επιπέδου κειμένου σε αρχεία PSD χρησιμοποιώντας Java με το Aspose.PSD. Απλός οδηγός με οδηγίες βήμα προς βήμα.
-type: docs
 weight: 25
 url: /el/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε το Text Layer Bound Box σε PSD χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Όσον αφορά τον προγραμματισμό των εγγράφων του Photoshop, η βιβλιοθήκη Aspose.PSD για Java είναι φωτεινή. Αν θέλετε να προσαρμόσετε τα όρια ενός επιπέδου κειμένου σε ένα αρχείο PSD, έχετε φτάσει στο σωστό μέρος! Αυτό το σεμινάριο θα σας μεταφέρει βήμα-βήμα στη διαδικασία προσαρμογής του δεσμευμένου πλαισίου του επιπέδου κειμένου χρησιμοποιώντας Java.
 Με παραδείγματα που μπορείτε να ακολουθήσετε εύκολα και μια νότα συνομιλίας για να διατηρήσετε τα πράγματα ελκυστικά, θα διαπιστώσετε ότι ο χειρισμός των αρχείων PSD δεν είναι τόσο τρομακτικός όσο μπορεί να ακούγεται. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με την Java, θα βρείτε πολύτιμες πληροφορίες εδώ. Ας βουτήξουμε στον συναρπαστικό κόσμο της χειραγώγησης PSD.
@@ -80,3 +86,9 @@ Assert.areEqual(correctBoundBox, boundBox);
 Μπορείτε να βρείτε υποστήριξη και κοινοτικές συζητήσεις σχετικά με αυτά[Aspose Forum](https://forum.aspose.com/c/psd/34).
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.PSD;
  Ναί! Μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση από το[Aspose website](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

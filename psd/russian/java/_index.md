@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.PSD для Java
 linktitle: Aspose.PSD для учебных пособий по Java
-type: docs
 weight: 10
 url: /ru/java/
 description: Раскройте возможности Aspose.PSD для Java в обработке изображений! Освойте такие фильтры, как фильтры Гаусса, Винера, Медианы и Винера движения, с помощью пошаговых руководств.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.PSD для Java
+
 
 ## Введение
 
@@ -86,3 +91,9 @@ is_root: true
 Эффективно управляйте изображениями TIFF с помощью Aspose.PSD для Java. Научитесь сжимать, настраивать и применять сжатие Adobe Deflate к файлам TIFF с помощью наших пошаговых руководств.
 ### [Работа с PSD-файлами](./working-with-psd-files/)
 Изучите подробные руководства по Aspose.PSD для Java, в том числе о том, как экспортировать группы слоев PSD в изображения и манипулировать ресурсами Clbl, Infx и Lspf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中轉換為 PNG 時裁剪 PSD 文件
 linktitle: 轉換為 PNG 時裁剪 PSD 文件
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 輕鬆裁剪 PSD 檔案。按照我們的逐步指南無縫轉換為 PNG。
-type: docs
 weight: 18
 url: /zh-hant/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中轉換為 PNG 時裁剪 PSD 文件
+
 ## 介紹
 在 .NET 開發領域，操作和轉換影像是一項常見任務。 Aspose.PSD for .NET 提供了一組強大的工具來簡化這個過程。一個常見的要求是在將 PSD 檔案轉換為 PNG 之前對其進行裁剪。在本逐步教程中，我們將深入研究使用 Aspose.PSD for .NET 的過程。
 ## 先決條件
@@ -77,3 +83,9 @@ A4：如果您需要臨時許可證，您可以獲得一個[這裡](https://purc
 ### Q5：文件中有可用的範例或教學嗎？
 
  A5：是的，您可以找到全面的文件和範例[這裡](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

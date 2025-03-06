@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中組合影像
 linktitle: 組合影像
 second_title: Aspose.PSD .NET API
 description: 在 .NET 中使用 Aspose.PSD 輕鬆組合影像。按照我們的逐步教學進行無縫影像處理。
-type: docs
 weight: 10
 url: /zh-hant/net/image-manipulation/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中組合影像
+
 ## 介紹
 
 歡迎來到我們關於使用 Aspose.PSD for .NET 組合圖片的逐步教學！ Aspose.PSD 是一個功能強大的 .NET 程式庫，可讓開發人員無縫地處理 Adobe Photoshop 檔案。在本教程中，我們將指導您完成使用 Aspose.PSD 組合圖像的過程，為您提供實際範例和詳細步驟。
@@ -107,3 +113,9 @@ A2：是的，Aspose.PSD 可用於個人和商業目的。檢查許可詳細信�
 ### Q5：我可以獲得 Aspose.PSD 的臨時授權嗎？
 
 A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

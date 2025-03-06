@@ -3,10 +3,16 @@ title: Reduzieren Sie Ebenen in PSD-Dateien mit Aspose.PSD Java
 linktitle: Reduzieren Sie Ebenen in PSD-Dateien mit Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Reduzieren und fügen Sie Ebenen in PSD-Dateien mühelos mit Aspose.PSD für Java zusammen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre PSD-Dateiverwaltung zu vereinfachen.
-type: docs
 weight: 13
 url: /de/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reduzieren Sie Ebenen in PSD-Dateien mit Aspose.PSD Java
+
 ## Einführung
 
 Haben Sie schon einmal mit Photoshop-Dateien gearbeitet und sich eine einfachere Möglichkeit gewünscht, diese komplexen Ebenen zu verwalten? Nun, Sie haben Glück! Heute tauchen wir in die Welt von Aspose.PSD für Java ein, einem leistungsstarken Tool, mit dem Sie programmgesteuert mit PSD-Dateien arbeiten können. Eine der praktischen Funktionen, die wir untersuchen werden, ist das Reduzieren von Ebenen. Egal, ob Sie ein ganzes Bild reduzieren oder bestimmte Ebenen selektiv zusammenführen möchten, Aspose.PSD für Java bietet Ihnen alles. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie bereit sind, Ihre PSD-Dateien selbstbewusst in Angriff zu nehmen.
@@ -150,3 +156,9 @@ Ja, Sie können Ebenen mit unterschiedlichen Mischmodi mit Aspose.PSD zusammenf�
 
 ### Was passiert, wenn ich versuche, Ebenen zusammenzuführen, die nicht nebeneinander liegen?  
 Mit Aspose.PSD können Sie beliebige Ebenen unabhängig von ihrer Reihenfolge im Ebenenstapel zusammenführen. Beim Zusammenführen werden die ausgewählten Ebenen wie angegeben kombiniert.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

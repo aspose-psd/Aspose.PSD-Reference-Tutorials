@@ -3,10 +3,16 @@ title: Kết xuất lớp điều chỉnh phơi sáng trong tệp PSD - Java
 linktitle: Kết xuất lớp điều chỉnh phơi sáng trong tệp PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách kết xuất và điều chỉnh các lớp phơi sáng trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước với các ví dụ về mã để sửa đổi và thêm các lớp hiển thị.
-type: docs
 weight: 15
 url: /vi/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất lớp điều chỉnh phơi sáng trong tệp PSD - Java
+
 ## Giới thiệu
 
 Bạn đang làm việc với các tệp PSD của Photoshop và cần điều chỉnh độ phơi sáng hoặc thêm lớp điều chỉnh độ phơi sáng theo chương trình? Cho dù bạn đang điều chỉnh các lớp hiện có hay thêm các lớp mới, Aspose.PSD cho Java đều cung cấp một cách mạnh mẽ và trực quan để xử lý các tác vụ này. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng Aspose.PSD cho Java để hiển thị và sửa đổi các lớp điều chỉnh độ phơi sáng trong tệp PSD. Đến cuối hướng dẫn này, bạn sẽ biết cách điều chỉnh cài đặt độ phơi sáng trong các lớp hiện có và thêm các lớp điều chỉnh độ phơi sáng mới vào tệp PSD của mình. Hãy đi sâu vào!
@@ -138,3 +144,9 @@ Có, Aspose.PSD cho Java hỗ trợ nhiều loại lớp khác nhau, bao gồm l
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho Java?
 
  Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34) nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Przycinanie plików PSD podczas konwersji do formatu PNG w Aspose.PSD dla
 linktitle: Przycinanie plików PSD podczas konwersji do formatu PNG
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak bez wysiłku przycinać pliki PSD za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną konwersję do formatu PNG.
-type: docs
 weight: 18
 url: /pl/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przycinanie plików PSD podczas konwersji do formatu PNG w Aspose.PSD dla .NET
+
 ## Wstęp
 W dziedzinie programowania .NET manipulowanie i konwertowanie obrazów jest częstym zadaniem. Aspose.PSD dla .NET zapewnia potężny zestaw narzędzi usprawniających ten proces. Częstym wymaganiem jest przycięcie plików PSD przed ich konwersją do formatu PNG. W tym samouczku krok po kroku zagłębimy się w proces korzystania z Aspose.PSD dla .NET.
 ## Warunki wstępne
@@ -77,3 +83,9 @@ A2: Absolutnie! Możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https:/
 ### P5: Czy w dokumentacji dostępne są jakieś przykłady lub samouczki?
 
  Odpowiedź 5: Tak, można znaleźć obszerną dokumentację i przykłady[Tutaj](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Admite máscara de capa en archivos PSD con Java
 linktitle: Admite máscara de capa en archivos PSD con Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a admitir máscaras de capa en archivos PSD usando Aspose.PSD para Java a través de un completo tutorial paso a paso.
-type: docs
 weight: 18
 url: /es/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite máscara de capa en archivos PSD con Java
+
 ## Introducción
 Cuando se trata de trabajar con archivos PSD, las máscaras de capa desempeñan un papel fundamental a la hora de mejorar sus diseños y optimizar su flujo de trabajo creativo. En este tutorial, profundizaremos en cómo admitir máscaras de capa utilizando la biblioteca Aspose.PSD para Java. Si eres un aspirante a desarrollador, diseñador o alguien que busca manipular archivos PSD mediante programación, ¡estás en el lugar correcto! Lo guiaremos a través de los requisitos previos, importaremos los paquetes necesarios y seguiremos los pasos necesarios para exportar su PSD con máscaras complejas a un formato PNG. ¡Empecemos!
 ## Requisitos previos
@@ -83,3 +89,9 @@ Aspose.PSD ofrece una prueba gratuita que se puede descargar desde su sitio. Par
 Si su archivo PSD no contiene ninguna máscara, la exportación aún se realizará correctamente, pero no verá ningún efecto que proporcionarían las máscaras de capa.
 ### ¿Dónde puedo obtener asistencia si tengo problemas?  
  Para cualquier duda o problema, puedes visitar el[foro de soporte](https://forum.aspose.com/c/psd/34) para obtener ayuda tanto del soporte de Aspose como de la comunidad de usuarios.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

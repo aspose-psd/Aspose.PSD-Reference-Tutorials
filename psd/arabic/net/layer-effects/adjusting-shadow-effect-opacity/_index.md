@@ -3,10 +3,16 @@ title: ضبط عتامة تأثير الظل في Aspose.PSD لـ .NET
 linktitle: ضبط عتامة تأثير الظل
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية ضبط عتامة تأثير الظل في Aspose.PSD لـ .NET باستخدام هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 15
 url: /ar/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط عتامة تأثير الظل في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول ضبط عتامة تأثير الظل في Aspose.PSD لـ .NET! في هذا البرنامج التعليمي، سنرشدك خلال عملية استخدام خاصية العتامة في DropShadowEffect. Aspose.PSD for .NET هي مكتبة قوية تتيح لك العمل مع ملفات PSD في تطبيقات .NET الخاصة بك بسلاسة.
@@ -105,3 +111,9 @@ File.Delete(outputImage200);
 ### س5: أين يمكنني العثور على دعم المجتمع لـ Aspose.PSD لـ .NET؟
 
  ج5: قم بزيارة[منتديات Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PSD 파일의 렌더 곡선 조정 레이어 - Java
 linktitle: PSD 파일의 렌더 곡선 조정 레이어 - Java
 second_title: Aspose.PSD 자바 API
 description: 이 상세한 단계별 가이드를 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 곡선 조정 레이어를 렌더링하고 조정하는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 파일의 렌더 곡선 조정 레이어 - Java
+
 ## 소개
 
 Photoshop의 곡선 조정 레이어는 이미지를 향상시키는 마술 지팡이와 같습니다. 당신이 걸작의 색상과 톤을 조정하는 예술가라고 상상해 보십시오. 각 곡선 조정을 통해 빛과 색상 균형을 놀라울 정도로 정밀하게 제어할 수 있습니다. PSD 파일로 작업하고 이러한 곡선을 프로그래밍 방식으로 조작해야 하는 경우 Java용 Aspose.PSD가 가장 적합한 도구입니다. 이 가이드에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에서 곡선 조정 레이어를 렌더링하고 조정하는 방법을 안내합니다. 이미지 톤을 업데이트하든 결과를 내보내든 이 튜토리얼에서는 시작하는 데 필요한 모든 것을 다룹니다.
@@ -146,3 +152,9 @@ Photoshop의 곡선 조정 레이어를 사용하면 RGB 곡선을 수정하여 
 
 ### Java용 Aspose.PSD에 대한 지원은 어디서 찾을 수 있나요?
  지원을 받으려면 다음을 방문하세요.[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

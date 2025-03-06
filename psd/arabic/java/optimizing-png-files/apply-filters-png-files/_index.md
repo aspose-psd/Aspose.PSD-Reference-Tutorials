@@ -3,10 +3,16 @@ title: قم بتطبيق عوامل التصفية على ملفات PNG في As
 linktitle: قم بتطبيق عوامل التصفية على ملفات PNG في Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تطبيق المرشحات على صور PNG في Aspose.PSD لـ Java باستخدام هذا الدليل التفصيلي. خطوات بسيطة للحصول على نتائج صور مذهلة.
-type: docs
 weight: 10
 url: /ar/java/optimizing-png-files/apply-filters-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق عوامل التصفية على ملفات PNG في Aspose.PSD لـ Java
+
 ## مقدمة
 هل تتطلع إلى تحسين ملفات PNG الخاصة بك باستخدام Aspose.PSD لـ Java؟ لقد أتيت إلى المكان الصحيح! في مقالة اليوم، سنستكشف كيفية تطبيق المرشحات على صور PNG باستخدام هذه المكتبة المتنوعة. سواء كنت مبرمجًا ناشئًا أو مطورًا ذا خبرة، فسيرشدك هذا الدليل خلال كل خطوة بطريقة واضحة وموجزة. في النهاية، سيكون لديك فهم قوي لكيفية التعامل مع الصور مثل المحترفين.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ Aspose.PSD for Java هي مكتبة تتيح للمطورين العمل مع م
 يدعم Aspose.PSD العديد من أنواع مرشحات PNG بما في ذلك Paeth وSub وUp وAverage وNone. يمكنك الاختيار وفقا لاحتياجاتك.
 ### أين يمكنني العثور على الدعم لقضايا Aspose.PSD؟  
  يمكنك الحصول على المساعدة والدعم من خلال زيارة منتدى Aspose[هنا](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

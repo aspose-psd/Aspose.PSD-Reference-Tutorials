@@ -3,10 +3,16 @@ title: Đặt độ trong suốt PNG trong Aspose.PSD cho Java
 linktitle: Đặt độ trong suốt PNG trong Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách đặt độ trong suốt của PNG trong Aspose.PSD cho Java bằng hướng dẫn từng bước dễ dàng. Hoàn hảo cho các nhà phát triển và thiết kế đồ họa.
-type: docs
 weight: 15
 url: /vi/java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt độ trong suốt PNG trong Aspose.PSD cho Java
+
 ## Giới thiệu
 Khi nói đến thao tác và quản lý đồ họa, đặc biệt là trong môi trường chuyên nghiệp, việc lựa chọn các công cụ phù hợp là rất quan trọng. Một công cụ nổi bật trong lĩnh vực xử lý đồ họa là Aspose.PSD cho Java. Thư viện này cho phép các nhà phát triển làm việc liền mạch với các tệp Photoshop (PSD) ngay trong ứng dụng Java của họ. Nó giống như việc bạn có được các tính năng mạnh mẽ của Photoshop trong tầm tay mà không cần quá nhiều thời gian để học tập! Hôm nay, chúng ta sẽ đi sâu vào một tính năng cụ thể: thiết lập độ trong suốt của PNG bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn qua các bước.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Tuyệt đối! Bạn có thể tải xuống phiên bản dùng thử miễn ph
  Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34) để được hỗ trợ và hỗ trợ cộng đồng.
 ### Tôi có thể đặt nhiều màu trong suốt không?
 Hiện tại, thư viện cho phép bạn đặt một màu trong suốt cho mỗi hình ảnh PNG. Tuy nhiên, bạn có thể thao tác với nhiều lớp khác nhau trong tệp PSD trước khi xuất nếu cần.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

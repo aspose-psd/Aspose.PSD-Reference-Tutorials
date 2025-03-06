@@ -3,10 +3,16 @@ title: Implementowanie regulacji kontrastu w Aspose.PSD dla .NET
 linktitle: Wdrażanie regulacji kontrastu
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak wdrożyć regulację kontrastu w Aspose.PSD dla .NET, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 11
 url: /pl/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementowanie regulacji kontrastu w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w tym kompleksowym przewodniku na temat wdrażania regulacji kontrastu w Aspose.PSD dla .NET! W tym samouczku omówimy proces zwiększania kontrastu obrazu przy użyciu Aspose.PSD, potężnej biblioteki obrazowania .NET. Pod koniec tego przewodnika będziesz mieć solidną wiedzę na temat płynnego stosowania korekcji kontrastu w obrazach.
@@ -101,3 +107,9 @@ O1: Aspose.PSD dla .NET został zaprojektowany tak, aby był przyjazny dla progr
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
  Odpowiedź 5: W razie potrzeby możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

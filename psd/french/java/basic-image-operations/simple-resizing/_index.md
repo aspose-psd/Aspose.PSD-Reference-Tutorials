@@ -3,10 +3,16 @@ title: Effectuer un redimensionnement simple avec Aspose.PSD pour Java
 linktitle: Effectuer un redimensionnement simple
 second_title: API Java Aspose.PSD
 description: Apprenez à redimensionner des images par programme avec Aspose.PSD pour Java. Suivez notre guide étape par étape pour une manipulation efficace des images.
-type: docs
 weight: 11
 url: /fr/java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effectuer un redimensionnement simple avec Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le didacticiel d'aujourd'hui, nous approfondirons le processus de redimensionnement simple d'images à l'aide d'Aspose.PSD pour Java, une bibliothèque puissante qui facilite une manipulation efficace des images. Si vous êtes un développeur Java à la recherche d'un moyen transparent de redimensionner des images par programmation, vous êtes au bon endroit.
@@ -101,3 +107,9 @@ A2 : Oui, Aspose.PSD prend en charge différents formats d'image, offrant une po
 ### Q5 : Comment puis-je obtenir du support pour Aspose.PSD pour Java ?
 
  A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide et du soutien communautaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

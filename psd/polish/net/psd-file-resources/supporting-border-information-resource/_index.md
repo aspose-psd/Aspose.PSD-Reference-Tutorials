@@ -3,10 +3,16 @@ title: Wspieranie zasobów informacji o granicach w Aspose.PSD dla .NET
 linktitle: Dodatkowe źródło informacji o granicach
 second_title: Aspose.PSD API .NET
 description: Przeglądaj Aspose.PSD dla funkcji zasobu informacji o granicach .NET, aby uzyskać ulepszone obrazowanie. Skorzystaj z naszego samouczka, aby uzyskać bezproblemową integrację. Pobierz teraz!
-type: docs
 weight: 11
 url: /pl/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wspieranie zasobów informacji o granicach w Aspose.PSD dla .NET
+
 ## Wstęp
 Witamy w naszym przewodniku krok po kroku dotyczącym korzystania z funkcji zasobu informacji o granicach w Aspose.PSD dla .NET. W tym samouczku przeprowadzimy Cię przez proces pracy z zasobami informacji o granicach przy użyciu Aspose.PSD, potężnej biblioteki obrazowania .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek ma na celu zapewnienie przejrzystości w zakresie płynnego włączania zasobów informacji granicznej do Twoich projektów.
 ## Warunki wstępne
@@ -89,3 +95,9 @@ O1: Tak, Aspose.PSD dla .NET jest kompatybilny z różnymi frameworkami .NET.
 ### P5: Czy dostępne są licencje tymczasowe?
 
  Odpowiedź 5: Tak, możesz uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

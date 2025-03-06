@@ -3,10 +3,16 @@ title: Tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Jav
 linktitle: Tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Java trong hướng dẫn từng bước của chúng tôi. Tham gia ngay để khám phá khả năng nghệ thuật vô tận.
-type: docs
 weight: 23
 url: /vi/java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 Tạo đồ họa theo chương trình không chỉ là một nghệ thuật; đó là sự kết hợp giữa công nghệ và trí tưởng tượng. Một công cụ mạnh mẽ trong lĩnh vực sáng tạo này là Aspose.PSD cho Java, một thư viện có khả năng vô cùng lớn cho phép các nhà phát triển thao tác với các tài liệu Photoshop. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD, kèm theo hướng dẫn từng bước để giúp bạn bắt đầu. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình viết mã, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -108,3 +114,9 @@ Không, bạn có thể tạo và thao tác với các tệp PSD mà không cầ
  Bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.PSD ở đâu?
  Bạn có thể nhận được hỗ trợ từ diễn đàn Aspose[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

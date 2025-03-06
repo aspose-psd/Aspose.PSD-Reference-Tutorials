@@ -3,10 +3,16 @@ title: Thêm một lớp thông thường mới vào PSD bằng Aspose.PSD cho J
 linktitle: Thêm một lớp thông thường mới vào PSD
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm lớp thông thường mới vào tệp PSD bằng Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để thao tác PSD liền mạch.
-type: docs
 weight: 11
 url: /vi/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm một lớp thông thường mới vào PSD bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách sử dụng Aspose.PSD cho Java để thêm lớp thông thường mới vào tệp PSD. Aspose.PSD là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác và làm việc với các tệp PSD một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm lớp thông thường mới vào tệp PSD, cung cấp các bước chi tiết và ví dụ về mã.
@@ -120,3 +126,9 @@ A2: Chắc chắn rồi! Aspose.PSD cung cấp một loạt các tùy chọn chu
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
 
  Câu trả lời 5: Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

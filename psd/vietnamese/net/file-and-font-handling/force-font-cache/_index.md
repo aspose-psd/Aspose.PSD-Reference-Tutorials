@@ -3,10 +3,16 @@ title: Buộc bộ đệm phông chữ trong Aspose.PSD cho .NET
 linktitle: Buộc bộ đệm phông chữ
 second_title: API Aspose.PSD .NET
 description: Khám phá quản lý bộ đệm phông chữ từng bước trong Aspose.PSD cho .NET. Đảm bảo hiển thị chính xác với thư viện .NET mạnh mẽ này.
-type: docs
 weight: 14
 url: /vi/net/file-and-font-handling/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buộc bộ đệm phông chữ trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Aspose.PSD for .NET cung cấp các công cụ mạnh mẽ để làm việc với các tệp PSD trong ứng dụng .NET của bạn. Một tính năng thiết yếu là khả năng buộc bộ đệm phông chữ, đảm bảo các tệp PSD của bạn duy trì hiển thị nhất quán và chính xác. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình buộc bộ nhớ đệm phông chữ trong Aspose.PSD cho .NET, từng bước một.
@@ -95,3 +101,9 @@ Câu trả lời 1: Có, Aspose.PSD for .NET hỗ trợ nhiều phiên bản t�
 ### Câu hỏi 5: Tôi có thể mua trực tiếp Aspose.PSD cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể mua Aspose.PSD cho .NET thông qua[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

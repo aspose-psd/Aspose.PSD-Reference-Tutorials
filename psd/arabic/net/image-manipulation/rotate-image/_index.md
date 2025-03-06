@@ -3,10 +3,16 @@ title: تدوير صورة في Aspose.PSD لـ .NET
 linktitle: تدوير الصورة
 second_title: Aspose.PSD.NET API
 description: تعلم كيفية تدوير الصور بسهولة في .NET باستخدام Aspose.PSD. اتبع البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تدوير صورة في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 إذا كنت تغوص في عالم معالجة الصور باستخدام .NET، فإن Aspose.PSD هو أداتك المفضلة لمعالجة الصور بسلاسة وكفاءة. في هذا البرنامج التعليمي، سوف نركز على مهمة أساسية – وهي تدوير الصورة باستخدام Aspose.PSD لـ .NET. تابع معنا بينما نقوم بتقسيم العملية إلى خطوات بسيطة وقابلة للتنفيذ.
@@ -80,3 +86,9 @@ using (Image image = Image.Load(sourceFile))
 ### س5: هل يمكنني شراء Aspose.PSD للاستخدام التجاري؟
 
  بالتأكيد. استكشف[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على ترخيص يناسب احتياجاتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

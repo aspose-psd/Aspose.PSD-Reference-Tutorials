@@ -3,10 +3,16 @@ title: 使用 Java 中的图形进行绘图
 linktitle: 使用 Java 中的图形进行绘图
 second_title: Aspose.PSD Java API
 description: 逐步了解如何使用 Aspose.PSD 在 Java 中绘制图形。轻松创建形状、应用颜色和导出图像。
-type: docs
 weight: 18
 url: /zh/java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 中的图形进行绘图
+
 ## 介绍
 在 Java 编程中，以编程方式绘制和处理图像是开发人员经常需要的强大功能。本教程重点介绍如何使用 Aspose.PSD for Java，这是一个强大的库，可让开发人员创建和编辑 PSD 文件，以及执行各种图形操作，如绘制形状、应用画笔和导出图像。本指南将引导您完成使用 Aspose.PSD 在 Java 中使用图形进行绘制的过程，并分解每个步骤以确保清晰易懂。
 ## 先决条件
@@ -79,3 +85,9 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 是的，Aspose.PSD 支持导出为各种格式，例如 BMP、PNG、JPEG 和 TIFF。
 ### 如果我遇到问题，如何获得支持或帮助？
 联系 Aspose.PSD 社区[支持论坛](https://forum.aspose.com/c/psd/34)或者考虑[临时执照](https://purchase.aspose.com/temporary-license/)获得优先支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

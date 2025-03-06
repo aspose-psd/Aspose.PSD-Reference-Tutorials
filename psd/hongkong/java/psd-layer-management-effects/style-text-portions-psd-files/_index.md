@@ -3,10 +3,16 @@ title: 使用 Java 設定 PSD 檔案中文字部分的樣式
 linktitle: 使用 Java 設定 PSD 檔案中文字部分的樣式
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 掌握 PSD 文字樣式。學習輕鬆修改、建立文字部分並設定樣式。增強您的 PSD 設計。
-type: docs
 weight: 22
 url: /zh-hant/java/psd-layer-management-effects/style-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 設定 PSD 檔案中文字部分的樣式
+
 ## 介紹
 
 是否曾想為 PSD 檔案中的文字圖層添加額外的魅力？ Aspose.PSD for Java 不僅使您能夠操作文本，而且能夠以令人難以置信的精度設定各個部分的樣式。這份綜合指南將引導您逐步完成整個過程，從設定環境到在 PSD 中創建樣式精美的文字元素。
@@ -177,3 +183,9 @@ psdImage.save(outPsdFilePath);
 
 ### 可處理的文字部分或字元的數量是否有限制？
 實際限制取決於系統資源和 PSD 檔案的複雜性。然而，Aspose.PSD for Java 旨在有效地處理大型 PSD 檔案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

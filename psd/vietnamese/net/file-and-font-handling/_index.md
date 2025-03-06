@@ -3,10 +3,16 @@ title: Xử lý tệp và phông chữ
 linktitle: Xử lý tệp và phông chữ
 second_title: API Aspose.PSD .NET
 description: Nâng cao khả năng phát triển .NET của bạn với các hướng dẫn Aspose.PSD. Tìm hiểu cách thay thế phông chữ, tạo siêu dữ liệu XMP và quản lý bộ đệm để có hiệu quả công việc tối ưu.
-type: docs
 weight: 27
 url: /vi/net/file-and-font-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý tệp và phông chữ
+
 ## Giới thiệu
 
 Khai phá tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn của chúng tôi về xử lý tệp và phông chữ. Từ việc tạo siêu dữ liệu XMP đến thao tác hình ảnh và thay thế phông chữ, chúng tôi đều hỗ trợ bạn.
@@ -42,3 +48,9 @@ Nâng cao quy trình phát triển .NET của bạn với Aspose.PSD. Tìm hiể
 Khám phá quản lý bộ đệm phông chữ từng bước trong Aspose.PSD cho .NET. Đảm bảo hiển thị chính xác với thư viện .NET mạnh mẽ này. 
 ### [Xóa tệp bộ đệm phông chữ trong Aspose.PSD cho .NET](./remove-font-cache-files/)
 Tối ưu hóa Aspose.PSD cho hiệu suất .NET bằng cách xóa các tệp bộ đệm phông chữ. Hãy làm theo hướng dẫn từng bước của chúng tôi để thực hiện liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

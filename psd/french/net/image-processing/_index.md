@@ -3,10 +3,16 @@ title: Traitement d'images
 linktitle: Traitement d'images
 second_title: API Aspose.PSD.NET
 description: Améliorez sans effort la qualité de l'image avec les didacticiels Aspose.PSD pour .NET. Apprenez des techniques telles que les filtres gaussiens et Wiener, la conversion des couleurs, la binarisation, etc.
-type: docs
 weight: 20
 url: /fr/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Traitement d'images
+
 
 ## Introduction
 
@@ -46,3 +52,9 @@ Explorez la conversion des couleurs dans Aspose.PSD pour .NET. Apprenez à mettr
 Découvrez comment appliquer sans effort des effets de niveaux de gris aux images à l'aide d'Aspose.PSD pour .NET.
 ### [Application du seuil Bradley dans Aspose.PSD pour .NET](./apply-bradley-threshold/)
 Améliorez la segmentation des images à l'aide de Bradley Threshold dans Aspose.PSD pour .NET. Un guide étape par étape pour une binarisation efficace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

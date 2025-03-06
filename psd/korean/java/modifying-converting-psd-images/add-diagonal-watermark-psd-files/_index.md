@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에 대각선 워터마크 추가
 linktitle: Java를 사용하여 PSD 파일에 대각선 워터마크 추가
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD와 함께 Java를 사용하여 PSD 파일에 대각선 워터마크를 쉽게 추가하는 방법을 알아보세요. 자신있게 이미지를 향상시키기 위한 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에 대각선 워터마크 추가
+
 ## 소개
 오늘날의 디지털 세계에서는 눈에 띄는 시각적 요소가 큰 변화를 가져올 수 있습니다. 작업물을 보호하려는 디자이너이거나 이미지에 브랜딩을 추가하려는 마케터라면 워터마크를 적용하는 것이 필수적입니다. 이 튜토리얼에서는 PSD 파일을 조작하기 위한 강력한 라이브러리인 Aspose.PSD의 도움으로 Java를 사용하여 PSD 파일에 대각선 워터마크를 추가하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -97,3 +103,9 @@ Aspose.PSD는 Adobe Photoshop 없이도 PSD 파일을 작업하고 조작하는 
  예, 전화로 문의하실 수 있습니다.`drawString` 더 많은 워터마크를 추가하려면 다양한 매개변수를 사용하여 메서드를 여러 번 사용하세요.
 ### Aspose.PSD에 대한 자세한 정보는 어디서 찾을 수 있나요?
  문서를 확인할 수 있습니다[여기](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

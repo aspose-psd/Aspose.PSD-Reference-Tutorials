@@ -3,10 +3,16 @@ title: Wykryj spłaszczone pliki PSD za pomocą Aspose.PSD dla Java
 linktitle: Wykryj spłaszczone pliki PSD za pomocą Aspose.PSD dla Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak wykryć spłaszczone pliki PSD za pomocą Aspose.PSD dla Java, krok po kroku w tym obszernym samouczku.
-type: docs
 weight: 10
 url: /pl/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykryj spłaszczone pliki PSD za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Witamy w świecie manipulacji plikami PSD (dokument Photoshop) za pomocą Aspose.PSD dla Java! Jeśli kiedykolwiek musiałeś pracować z warstwami w plikach Photoshopa, ale nie wiedziałeś od czego zacząć, jesteś we właściwym miejscu. W tym samouczku przyjrzymy się, jak wykryć, czy plik PSD jest spłaszczony za pomocą Aspose.PSD. Spłaszczenie pliku PSD oznacza, że wszystkie jego warstwy zostają scalone w jedną, ujednoliconą warstwę, co może później sprawić, że edycja będzie nieco trudniejsza. Pod koniec tego przewodnika będziesz w stanie sprawdzić ten kluczowy aspekt plików PSD. Usiądź wygodnie, weź kawę i zanurzmy się!
@@ -77,3 +83,9 @@ Tak! Aspose.PSD obsługuje różne formaty obrazów, zapewniając rozbudowaną f
 
 ### Czy istnieje sposób na bezpłatne przetestowanie Aspose.PSD?
  Absolutnie! Możesz rozpocząć bezpłatny okres próbny, pobierając wersję próbną ze strony[ten link](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

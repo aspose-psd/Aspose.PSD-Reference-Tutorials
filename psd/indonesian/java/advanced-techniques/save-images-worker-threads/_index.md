@@ -3,10 +3,16 @@ title: Simpan Gambar menggunakan Worker Threads dengan Aspose.PSD untuk Java
 linktitle: Simpan Gambar menggunakan Utas Pekerja
 second_title: Asumsikan.PSD Java API
 description: Jelajahi pemrosesan gambar multi-utas di Java dengan Aspose.PSD. Pelajari cara menyimpan gambar secara efisien menggunakan thread pekerja.
-type: docs
 weight: 14
 url: /id/java/advanced-techniques/save-images-worker-threads/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Gambar menggunakan Worker Threads dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan kemampuan pemrosesan gambar Anda di Java? Coba lihat Aspose.PSD untuk Java. Dalam tutorial ini, kami akan memandu Anda melalui proses penyimpanan gambar menggunakan thread pekerja, memastikan kinerja dan efisiensi optimal. Mari selami dunia pemrosesan gambar multi-utas dengan Aspose.PSD!
@@ -119,3 +125,9 @@ A2: Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.aspose.com/psd/
 ### Q5: Di mana saya dapat membeli Aspose.PSD untuk Java?
 
  A5: Untuk membeli Aspose.PSD untuk Java, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

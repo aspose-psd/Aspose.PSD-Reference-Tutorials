@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Sınır Bilgi Kaynağını Destekleme
 linktitle: Sınır Bilgi Kaynağını Destekleme
 second_title: Aspose.PSD .NET API'si
 description: Gelişmiş görüntüleme için Aspose.PSD for .NET'in Sınır Bilgi Kaynağı özelliğini keşfedin. Sorunsuz entegrasyon için eğitimimizi takip edin. Şimdi indirin!
-type: docs
 weight: 11
 url: /tr/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Sınır Bilgi Kaynağını Destekleme
+
 ## giriiş
 Aspose.PSD for .NET'teki Sınır Bilgi Kaynağı özelliğinin kullanımına ilişkin adım adım kılavuzumuza hoş geldiniz. Bu eğitimde, güçlü bir .NET görüntüleme kütüphanesi olan Aspose.PSD'yi kullanarak Border Information Resources ile çalışma sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim Sınır Bilgi Kaynaklarını projelerinize sorunsuz bir şekilde dahil etme konusunda netlik sağlamayı amaçlamaktadır.
 ## Önkoşullar
@@ -89,3 +95,9 @@ Cevap1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur.
 ### S5: Geçici lisanslar mevcut mu?
 
  Cevap5: Evet, geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

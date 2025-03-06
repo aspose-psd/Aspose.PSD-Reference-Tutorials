@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET を使用してカラー画像にメディアン フ�
 linktitle: Aspose.PSD for .NET を使用してカラー画像にメディアン フィルターとウィーナー フィルターを適用する
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET でメディアン フィルターとウィーナー フィルターを使用してカラー画像を強化し、ノイズを除去します。シームレスな画像処理のステップ バイ ステップ ガイド。
-type: docs
 weight: 11
 url: /ja/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET を使用してカラー画像にメディアン フィルターとウィーナー フィルターを適用する
+
 ## 導入
 
 Aspose.PSD for .NET を使用してカラー画像にメディアン フィルターとウィーナー フィルターを適用する手順を説明したガイドへようこそ。Aspose.PSD は、.NET 開発者が PSD ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、メディアン フィルターとウィーナー フィルターを適用してカラー画像を強調し、ノイズを除去するプロセスについて説明します。
@@ -95,3 +101,9 @@ A2: Aspose.PSD を使用して画像処理中に発生する可能性のある�
 ### Q5: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
 
 A5: 臨時免許証は[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

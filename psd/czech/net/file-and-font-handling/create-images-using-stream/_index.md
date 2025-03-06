@@ -3,10 +3,16 @@ title: Vytváření obrázků pomocí Stream v Aspose.PSD pro .NET
 linktitle: Vytváření obrázků pomocí Stream
 second_title: Aspose.PSD .NET API
 description: Naučte se vytvářet obrázky pomocí streamů v Aspose.PSD pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci s obrázky.
-type: docs
 weight: 12
 url: /cs/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření obrázků pomocí Stream v Aspose.PSD pro .NET
+
 ## Zavedení
 
 V oblasti vývoje .NET vyniká Aspose.PSD jako výkonný nástroj pro manipulaci s obrázky. Jednou zvláště užitečnou funkcí je schopnost vytvářet obrázky pomocí streamů, což poskytuje flexibilitu a efektivitu při manipulaci s obrazovými daty. Tento průvodce vás krok za krokem provede celým procesem a rozebere jednotlivé prvky, aby byl zajištěn bezproblémový zážitek. Než se ponoříme, pojďme si pokrýt předpoklady.
@@ -111,3 +117,9 @@ A2: Rozměry jsou přizpůsobitelné; podle toho upravte parametry v metodě Ima
 ### Q5: Jsou k dispozici dočasné licence?
 
  A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

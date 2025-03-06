@@ -3,10 +3,16 @@ title: Compress TIFF Files using Aspose.PSD for Java
 linktitle: Compress TIFF Files using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Efficiently compress TIFF files using Aspose.PSD for Java without sacrificing quality. Follow our detailed guide to streamline your workflow.
-type: docs
 weight: 10
 url: /java/tiff-image-compression-configuration/compress-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compress TIFF Files using Aspose.PSD for Java
+
 ## Introduction
 
 Imagine you’re working on a large-scale graphic design project, and your PSD files are weighing down your system. You need to share these files or store them for later use, but the size is just too much to handle. That’s where compressing your PSD files into TIFF format comes in handy. TIFF files offer a balance between quality and size, making them ideal for storage and sharing. In this tutorial, we'll walk you through the process of compressing TIFF files using Aspose.PSD for Java, ensuring your images are compact yet retain their quality.
@@ -142,3 +148,10 @@ Aspose.PSD for Java primarily handles PSD files, but it provides extensive suppo
 ### How does grayscale compression affect image quality?
 
 Grayscale compression reduces the number of colors in the image, which can lead to a reduction in visual detail. However, for certain types of images, this trade-off is minimal and can result in significant file size reduction.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lijnlaag met patroon toevoegen in Aspose.PSD voor .NET
 linktitle: Lijnlaag met patroon toevoegen
 second_title: Aspose.PSD .NET-API
 description: Verbeter uw PSD-bestanden met lijnlagen en patronen met Aspose.PSD voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 13
 url: /nl/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijnlaag met patroon toevoegen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Het verbeteren van uw PSD-bestanden (Photoshop Document) met lijnlagen en patronen kan een dynamisch tintje aan uw ontwerpen toevoegen. In deze zelfstudie onderzoeken we hoe u Aspose.PSD voor .NET kunt gebruiken om moeiteloos een streeklaag met een patroon aan uw PSD-bestanden toe te voegen. Aspose.PSD is een krachtige .NET-bibliotheek die uitgebreide ondersteuning biedt voor het manipuleren van PSD-bestanden, waardoor het een hulpmiddel van onschatbare waarde is voor zowel ontwikkelaars als ontwerpers.
@@ -144,3 +150,9 @@ A4: Absoluut, Aspose.PSD voor .NET biedt robuuste ondersteuning voor batchverwer
 ### Vraag 5: Waar kan ik hulp zoeken of deelnemen aan communitydiscussies?
 
  A5: Bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) voor ondersteuning en gemeenschapsinteracties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

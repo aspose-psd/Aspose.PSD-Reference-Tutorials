@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 在彩色图像中应用中值和维纳滤波�
 linktitle: 使用 Aspose.PSD for .NET 在彩色图像中应用中值和维纳滤波器
 second_title: Aspose.PSD .NET API
 description: 使用中值和维纳滤波器通过 Aspose.PSD for .NET 增强和去除彩色图像噪声。无缝图像处理的分步指南。
-type: docs
 weight: 11
 url: /zh/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 在彩色图像中应用中值和维纳滤波器
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.PSD for .NET 在彩色图像中应用中值和维纳滤波器。Aspose.PSD 是一个功能强大的库，可让 .NET 开发人员无缝处理 PSD 文件。在本教程中，我们将探索应用中值和维纳滤波器来增强和去噪彩色图像的过程。
@@ -95,3 +101,9 @@ A2：您可以实现 try-catch 块来处理使用 Aspose.PSD 进行图像处理�
 ### Q5：如何获取 Aspose.PSD 的临时许可证？
 
 A5：你可以从[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

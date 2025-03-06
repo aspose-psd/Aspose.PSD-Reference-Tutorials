@@ -3,10 +3,16 @@ title: عرض تأثير تراكب التدرج في Aspose.PSD لـ .NET
 linktitle: تقديم تأثير تراكب التدرج
 second_title: Aspose.PSD.NET API
 description: أتقن فن عرض تأثير Gradient Overlay Effect في Aspose.PSD لـ .NET. ارفع مهاراتك في التصميم الجرافيكي من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 17
 url: /ar/net/image-manipulation/rendering-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض تأثير تراكب التدرج في Aspose.PSD لـ .NET
+
 في عالم التصميم الجرافيكي ومعالجة الصور باستخدام .NET، تبرز Aspose.PSD كمكتبة قوية، تقدم عددًا لا يحصى من الميزات لتعزيز إبداعك. إحدى هذه الإمكانات الرائعة هي عرض تأثير Gradient Overlay، مما يضيف العمق والحيوية إلى صورك. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال العملية باستخدام Aspose.PSD لـ .NET.
 
 ## مقدمة
@@ -90,3 +96,9 @@ A1: لا، يتم تطبيق تأثير تراكب التدرج على الطب�
 ### س5: أين يمكنني العثور على الدعم لـ Aspose.PSD؟
 
  ج5: لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Deflate-Komprimierung mit Java auf TIFF-Dateien anwenden
 linktitle: Deflate-Komprimierung mit Java auf TIFF-Dateien anwenden
 second_title: Aspose.PSD Java API
 description: Erfahren Sie, wie Sie mit Aspose.PSD für Java Deflate-Komprimierung auf TIFF-Dateien anwenden. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um die Dateigröße effizient zu reduzieren, ohne an Qualität zu verlieren.
-type: docs
 weight: 13
 url: /de/java/tiff-image-compression-configuration/apply-deflate-compression-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Deflate-Komprimierung mit Java auf TIFF-Dateien anwenden
+
 ## Einführung
 
 Haben Sie schon einmal mit großen Bilddateien gearbeitet und sich gefragt, wie Sie deren Größe reduzieren können, ohne die Qualität zu beeinträchtigen? Wenn Sie mit TIFF-Dateien arbeiten, haben Sie Glück! In diesem Artikel tauchen wir in die Welt der Bildkomprimierung ein und konzentrieren uns insbesondere darauf, wie Sie mit Aspose.PSD für Java eine Deflate-Komprimierung auf TIFF-Dateien anwenden. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieser Leitfaden führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie Ihre Bilddateien problemlos verarbeiten können. Also, legen wir los!
@@ -92,3 +98,9 @@ Der Grad der Komprimierung hängt von der Komplexität des Bildes ab. Im Allgeme
 
 ### Benötige ich spezielle Tools, um Aspose.PSD für Java zu verwenden?
 Sie benötigen lediglich eine Java-Entwicklungsumgebung und die Bibliothek Aspose.PSD für Java, die Sie über die oben angegebenen Links herunterladen können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

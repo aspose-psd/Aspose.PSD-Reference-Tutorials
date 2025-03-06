@@ -3,10 +3,16 @@ title: Поддержка различных типов подписей в Aspo
 linktitle: Поддержка различных типов подписей
 second_title: Aspose.PSD .NET API
 description: Изучите Aspose.PSD для .NET и легко поддерживайте различные типы подписей в своих PSD-файлах.
-type: docs
 weight: 14
 url: /ru/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка различных типов подписей в Aspose.PSD для .NET
+
 ## Введение
 
 Добро пожаловать в мир Aspose.PSD для .NET, мощной библиотеки, которая позволяет разработчикам легко обрабатывать PSD-файлы. В этом руководстве мы рассмотрим процесс поддержки различных типов подписей в Aspose.PSD для .NET. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это пошаговое руководство проведет вас через весь процесс ясно и точно.
@@ -79,3 +85,10 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 ### В5: Ищете временную лицензию?
 
  A5: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

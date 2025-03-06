@@ -3,10 +3,16 @@ title: Zapisuj obrazy w strumieniu za pomocą Aspose.PSD dla Java
 linktitle: Zapisz obrazy w strumieniu
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak zapisywać obrazy PSD w strumieniu przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie przetwarzać obrazy.
-type: docs
 weight: 16
 url: /pl/java/advanced-techniques/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisuj obrazy w strumieniu za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 tym samouczku omówimy, jak zapisywać obrazy w strumieniu przy użyciu Aspose.PSD dla Java. Aspose.PSD to potężna biblioteka Java do przetwarzania i manipulowania plikami PSD (dokument Photoshop). Jeśli chcesz ulepszyć swoją aplikację Java o możliwość zapisywania obrazów PSD w strumieniu, wykonaj czynności opisane w tym przewodniku.
@@ -97,3 +103,9 @@ O1: Tak, Aspose.PSD jest szeroko stosowany w profesjonalnych projektach Java do 
 ### P5: Gdzie mogę kupić pełną wersję Aspose.PSD dla Java?
 
  A5: Kup pełną wersję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

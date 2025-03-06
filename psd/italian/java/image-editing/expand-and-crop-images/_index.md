@@ -3,10 +3,16 @@ title: Espandi e ritaglia le immagini con Aspose.PSD per Java
 linktitle: Espandi e ritaglia le immagini
 second_title: API Java Aspose.PSD
 description: Scopri come espandere e ritagliare le immagini in Java utilizzando Aspose.PSD. Guida passo passo per un'elaborazione efficiente delle immagini.
-type: docs
 weight: 18
 url: /it/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Espandi e ritaglia le immagini con Aspose.PSD per Java
+
 ## Introduzione
 
 In questo tutorial esploreremo come utilizzare Aspose.PSD per Java per espandere e ritagliare le immagini in modo efficiente. Aspose.PSD è una potente libreria che fornisce un'ampia gamma di funzionalità per lavorare con file PSD nelle applicazioni Java. In questa guida tratteremo i prerequisiti necessari, l'importazione dei pacchetti e analizzeremo ogni passaggio con spiegazioni dettagliate.
@@ -102,3 +108,9 @@ A2: Assolutamente, Aspose.PSD fornisce licenze commerciali per gli sviluppatori,
 ### Q5: È disponibile una prova gratuita?
 
  A5: Sì, puoi esplorare Aspose.PSD con una prova gratuita. Scaricalo[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

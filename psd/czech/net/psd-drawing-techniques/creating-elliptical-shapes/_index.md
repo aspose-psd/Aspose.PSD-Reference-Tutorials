@@ -3,10 +3,16 @@ title: Vytváření eliptických tvarů pomocí Aspose.PSD pro .NET
 linktitle: Vytváření eliptických tvarů pomocí Aspose.PSD pro .NET
 second_title: Aspose.PSD .NET API
 description: Naučte se kreslit eliptické tvary v .NET pomocí Aspose.PSD. Podrobný průvodce s příklady kódu. Vytvářejte úžasnou grafiku bez námahy.
-type: docs
 weight: 13
 url: /cs/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření eliptických tvarů pomocí Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vítejte v našem komplexním průvodci vytvářením eliptických tvarů pomocí Aspose.PSD pro .NET. Aspose.PSD je výkonná knihovna .NET, která umožňuje vývojářům manipulovat a převádět soubory Photoshopu bez potřeby Adobe Photoshop. V tomto tutoriálu vás provedeme procesem kreslení eliptických tvarů pomocí knihovny.
@@ -101,3 +107,9 @@ Gratuluji! Úspěšně jste vytvořili eliptické tvary pomocí Aspose.PSD pro .
 ### Q5: Potřebuji pro testování dočasnou licenci?
 
  A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nhị phân hóa với ngưỡng cố định trong Aspose.PSD cho Java
 linktitle: Nhị phân hóa với ngưỡng cố định
 second_title: API Java Aspose.PSD
 description: Khám phá nhị phân hóa với ngưỡng cố định trong Aspose.PSD cho Java. Chuyển đổi hình ảnh một cách liền mạch với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 14
 url: /vi/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhị phân hóa với ngưỡng cố định trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, Aspose.PSD chứng tỏ là một công cụ mạnh mẽ cho các tác vụ xử lý hình ảnh. Một hoạt động thiết yếu như vậy là Binarization, một kỹ thuật giúp đơn giản hóa hình ảnh bằng cách chuyển đổi chúng thành dạng nhị phân. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình đạt được nhị phân hóa với ngưỡng cố định bằng cách sử dụng Aspose.PSD cho Java. Hãy thắt dây an toàn khi chúng ta khám phá các bước liên quan đến hành trình xử lý hình ảnh đầy biến đổi này.
@@ -101,3 +107,9 @@ Câu trả lời 1:Có, Aspose.PSD hỗ trợ nhiều định dạng hình ảnh
 ### Câu 5: Có phiên bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể khám phá các khả năng của Aspose.PSD bằng phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

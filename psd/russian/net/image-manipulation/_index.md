@@ -3,10 +3,16 @@ title: Манипулирование изображениями
 linktitle: Манипулирование изображениями
 second_title: Aspose.PSD .NET API
 description: Улучшите свои проекты .NET с помощью Aspose.PSD! Изучите методы манипулирования изображениями, такие как объединение, обрезка, изменение размера, вращение и добавление эффектов без особых усилий.
-type: docs
 weight: 26
 url: /ru/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипулирование изображениями
+
 ## Введение
 
 Манипулирование изображениями — жизненно важный навык для любого разработчика или дизайнера, работающего с .NET, а Aspose.PSD для .NET предоставляет мощный набор инструментов для расширения ваших возможностей. В этом уроке мы углубимся в различные методы манипулирования изображениями, которые можно легко применить с помощью[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ url: /ru/net/image-manipulation/
 Освойте искусство рендеринга эффекта наложения градиента в Aspose.PSD для .NET. Совершенствуйте свои навыки графического дизайна с помощью этого пошагового руководства.
 ### [Поддержка эффекта наложения градиента в Aspose.PSD для .NET](./supporting-gradient-overlay-effect/)
 Улучшите графику в .NET с помощью Aspose.PSD. Из этого туториала вы узнаете, как поддерживать эффекты наложения градиента.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

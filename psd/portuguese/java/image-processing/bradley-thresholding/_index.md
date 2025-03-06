@@ -3,10 +3,16 @@ title: Limite de Bradley em Aspose.PSD para Java
 linktitle: Limite de Bradley
 second_title: API Java Aspose.PSD
 description: Melhore a qualidade da imagem com Bradley Thresholding em Aspose.PSD para Java. Siga nosso guia passo a passo para uma binarização de imagens eficaz.
-type: docs
 weight: 16
 url: /pt/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Limite de Bradley em Aspose.PSD para Java
+
 ## Introdução
 
 Bem-vindo a este guia completo sobre como implementar Bradley Thresholding em Aspose.PSD para Java. Este tutorial orientará você no processo de aplicação do Limite Bradley para melhorar a qualidade de suas imagens. Aspose.PSD para Java fornece um conjunto poderoso de ferramentas para processamento de imagens, e Bradley Thresholding é uma técnica valiosa para binarização de imagens.
@@ -99,3 +105,9 @@ A4: Sim, você pode usar métodos adicionais fornecidos pelo Aspose.PSD para vis
 ### P5: Onde posso encontrar mais suporte e recursos?
 
  A5: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para apoio da comunidade e explorar o[documentação](https://reference.aspose.com/psd/java/) para obter informações detalhadas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

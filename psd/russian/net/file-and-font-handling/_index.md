@@ -3,10 +3,16 @@ title: Обработка файлов и шрифтов
 linktitle: Обработка файлов и шрифтов
 second_title: Aspose.PSD .NET API
 description: Улучшите свою разработку .NET с помощью руководств по Aspose.PSD. Изучите замену шрифтов, создание метаданных XMP и управление кэшем для оптимальной эффективности рабочего процесса.
-type: docs
 weight: 27
 url: /ru/net/file-and-font-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка файлов и шрифтов
+
 ## Введение
 
 Раскройте потенциал Aspose.PSD для .NET с помощью наших руководств по работе с файлами и шрифтами. Мы предоставим вам всю необходимую информацию — от создания метаданных XMP до манипуляций с изображениями и замены шрифтов.
@@ -42,3 +48,9 @@ url: /ru/net/file-and-font-handling/
 Изучите пошаговое управление кэшем шрифтов в Aspose.PSD для .NET. Обеспечьте точный рендеринг с помощью этой мощной библиотеки .NET. 
 ### [Удаление файлов кэша шрифтов в Aspose.PSD для .NET](./remove-font-cache-files/)
 Оптимизируйте Aspose.PSD для производительности .NET, удалив файлы кэша шрифтов. Следуйте нашему пошаговому руководству для безупречного выполнения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

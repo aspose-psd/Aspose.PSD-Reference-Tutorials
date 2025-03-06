@@ -3,10 +3,16 @@ title: उन्नत छवि हेरफेर
 linktitle: उन्नत छवि हेरफेर
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java के साथ उन्नत छवि हेरफेर ट्यूटोरियल का अन्वेषण करें। कुशल फ़ॉन्ट प्रतिस्थापन, फ़ॉन्ट कैशिंग को बलपूर्वक लागू करना, बाइक्यूबिक रीसैम्पलर को लागू करना, और बहुत कुछ सीखें।
-type: docs
 weight: 24
 url: /hi/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# उन्नत छवि हेरफेर
+
 
 ## परिचय
 
@@ -80,3 +86,9 @@ Aspose.PSD के साथ जावा में मास्टर छवि 
 Aspose.PSD के साथ Java में इमेज रोटेशन को आसानी से एक्सप्लोर करें। PSD फ़ाइलों को आसानी से घुमाएँ, फ़्लिप करें और सेव करें।
 ### [Java के लिए Aspose.PSD के साथ एक विशिष्ट कोण पर एक छवि घुमाएँ](./rotate-image-specific-angle/)
 Aspose.PSD for Java के साथ Java में इमेज रोटेशन का अन्वेषण करें। विशिष्ट कोणों पर आसानी से इमेज घुमाएँ।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Podpora Lspf Resource v souborech PSD pomocí Java
 linktitle: Podpora Lspf Resource v souborech PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak podporovat a manipulovat s Lspf Resource v souborech PSD pomocí Aspose.PSD for Java, pomocí našeho podrobného průvodce.
-type: docs
 weight: 14
 url: /cs/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora Lspf Resource v souborech PSD pomocí Java
+
 ## Zavedení
 
 Jste vývojář, který se chce ponořit do světa manipulace se soubory PSD? Tak to jste na správném místě! Při práci se soubory PSD často potřebujete pracovat s různými prostředky vrstvy, jako je LspfResource. Tento zdroj je zásadní pro správu nastavení ochrany vrstvy, jako je složená ochrana, ochrana pozice a průhlednost v souboru PSD. V tomto komplexním tutoriálu prozkoumáme, jak podporovat a manipulovat s LspfResource v souborech PSD pomocí Javy s pomocí Aspose.PSD pro Javu.
@@ -182,3 +188,9 @@ Pokud změny neověříte, existuje riziko, že nastavení nemusí být aplikov�
 
 ### Mohu po uložení souboru vrátit zpět změny provedené v LspfResource?  
 Jakmile je soubor uložen, nelze změny přímo vrátit zpět. Můžete však znovu načíst původní soubor a znovu použít změny podle potřeby.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

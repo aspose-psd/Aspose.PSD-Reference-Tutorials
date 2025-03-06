@@ -3,10 +3,16 @@ title: Překrývání barevných efektů na obrázcích v Aspose.PSD pro .NET
 linktitle: Překrývání barevných efektů na obrázcích
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte kouzlo Aspose.PSD pro .NET s naším výukovým programem o překrývání barevných efektů. Zvyšte svou hru zpracování obrazu bez námahy.
-type: docs
 weight: 11
 url: /cs/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Překrývání barevných efektů na obrázcích v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Aspose.PSD for .NET poskytuje robustní sadu funkcí pro zpracování obrazu, což umožňuje vývojářům dosáhnout úžasných efektů bez námahy. Jednou z takových schopností je překrývání barevných efektů na obrázcích. V tomto tutoriálu se zaměříme na efekt ColorOverlay a předvedeme, jak jej aplikovat na obrázek a změnit jeho vizuální přitažlivost.
@@ -98,3 +104,9 @@ A3: Ano, můžete prozkoumat možnosti Aspose.PSD pro .NET stažením bezplatné
 ### Q5: Mohu získat dočasnou licenci pro Aspose.PSD pro .NET?
 
  A5: Ano, můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Обрезка PSD при преобразовании в PNG с помо
 linktitle: Обрезка PSD при конвертации в PNG
 second_title: Aspose.PSD Java API
 description: Узнайте, как обрезать PSD-файлы и преобразовать их в PNG с помощью Aspose.PSD для Java. Расширьте возможности своих Java-приложений с помощью эффективной обработки изображений.
-type: docs
 weight: 13
 url: /ru/java/psd-conversion/cropping-psd-converting-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обрезка PSD при преобразовании в PNG с помощью Aspose.PSD для Java
+
 ## Введение
 В динамичном мире разработки Java решающее значение имеет овладение эффективной обработкой изображений. Это руководство проведет вас через процесс обрезки PSD-файлов при их преобразовании в PNG с использованием мощной библиотеки Aspose.PSD для Java. К концу этого пошагового руководства вы будете обладать знаниями, позволяющими усовершенствовать ваши Java-приложения с помощью беспрепятственных манипуляций с изображениями.
 ## Предварительные условия
@@ -66,3 +72,9 @@ image.save(destName, pngOptions);
  Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) обращаться за помощью, делиться своим опытом и сообщать о любых проблемах, с которыми вы сталкиваетесь.
 ### Могу ли я попробовать Aspose.PSD для Java перед покупкой?
  Конечно! Изучите возможности библиотеки, воспользовавшись бесплатной пробной версией.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

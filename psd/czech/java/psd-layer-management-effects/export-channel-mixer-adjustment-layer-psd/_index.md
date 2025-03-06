@@ -3,10 +3,16 @@ title: Exportujte vrstvu úprav směšovače kanálů v PSD - Java
 linktitle: Exportujte vrstvu úprav směšovače kanálů v PSD - Java
 second_title: Aspose.PSD Java API
 description: Naučte se exportovat vrstvy úprav kanálového mixu v PSD pomocí Aspose.PSD pro Java. Podrobný průvodce úpravou vrstev RGB a CMYK, uložením změn a exportem do PNG.
-type: docs
 weight: 14
 url: /cs/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportujte vrstvu úprav směšovače kanálů v PSD - Java
+
 ## Zavedení
 
 Pokud jde o úpravy obrázků, zejména u souborů Adobe Photoshop (PSD), efektivní správa vrstev je klíčová. Mezi těmito vrstvami hraje vrstva úprav směšovače kanálů zásadní roli při ladění vyvážení barev obrazu. Pokud jste vývojář Java, který chce s těmito vrstvami manipulovat programově, máte štěstí! V tomto článku vás provedeme procesem exportu vrstev úprav směšovače kanálů pomocí Aspose.PSD for Java. Na konci této příručky budete dobře vybaveni pro práci s vrstvami úprav RGB a CMYK Channel Mixer, uložení změn a export konečného obrázku ve formátech PSD i PNG.
@@ -168,3 +174,9 @@ Ano, můžete procházet adresář souborů PSD a aplikovat stejné úpravy na k
 
 ### Potřebuji licenci k používání Aspose.PSD pro Javu?  
  Ano, Aspose.PSD for Java je licencovaný produkt. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování nebo zakoupení plné licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

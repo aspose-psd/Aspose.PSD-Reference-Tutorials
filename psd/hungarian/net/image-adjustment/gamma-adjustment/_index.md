@@ -3,10 +3,16 @@ title: Gamma-korrekció megvalósítása az Aspose.PSD for .NET-ben
 linktitle: Gamma-beállítás végrehajtása
 second_title: Aspose.PSD .NET API
 description: Fedezze fel az Aspose.PSD for .NET erejét a Gamma Adjustment megvalósításáról szóló, lépésenkénti útmutatónkkal. Könnyedén finomhangolhatja a kép fényerejét és kontrasztját.
-type: docs
 weight: 12
 url: /hu/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gamma-korrekció megvalósítása az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban az Aspose.PSD for .NET gamma-korrekciójának megvalósításáról! A gamma beállítás kulcsfontosságú képfeldolgozási technika, amely lehetővé teszi a kép fényerejének és kontrasztjának finomhangolását. Ebben az oktatóanyagban végigvezetjük a folyamaton a hatékony Aspose.PSD .NET könyvtár használatával.
@@ -101,3 +107,9 @@ Gratulálok! Sikeresen megvalósította a Gamma Adjustment funkciót az Aspose.P
 ### 5. kérdés: Szükségem van ideiglenes engedélyre?
 
  V5: Szükség esetén ideiglenes engedélyt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

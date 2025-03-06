@@ -3,10 +3,16 @@ title: Xóa tệp bộ đệm phông chữ trong Aspose.PSD cho .NET
 linktitle: Xóa tập tin bộ đệm phông chữ
 second_title: API Aspose.PSD .NET
 description: Tối ưu hóa Aspose.PSD cho hiệu suất .NET bằng cách xóa các tệp bộ đệm phông chữ. Hãy làm theo hướng dẫn từng bước của chúng tôi để thực hiện liền mạch.
-type: docs
 weight: 15
 url: /vi/net/file-and-font-handling/remove-font-cache-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa tệp bộ đệm phông chữ trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Bạn có gặp phải những thách thức liên quan đến phông chữ khi làm việc với Aspose.PSD cho .NET không? Xóa các tệp bộ đệm phông chữ có thể là chìa khóa để giải quyết những vấn đề này một cách hiệu quả. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình. Trước khi chúng ta đi sâu vào, hãy đảm bảo bạn có mọi thứ bạn cần.
@@ -93,3 +99,9 @@ Câu trả lời 2: Mặc dù có thể nhưng bạn nên xóa các tệp bộ n
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET không?
 
  A5: Chắc chắn rồi! Thăm nom[đây](https://purchase.aspose.com/buy) để khám phá các tùy chọn mua Aspose.PSD cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

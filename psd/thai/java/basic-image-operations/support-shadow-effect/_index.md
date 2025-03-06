@@ -3,10 +3,16 @@ title: รองรับ Shadow Effect ใน Aspose.PSD สำหรับ Jav
 linktitle: สนับสนุนเอฟเฟกต์เงา
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีเพิ่มเอฟเฟกต์เงาที่น่าดึงดูดให้กับรูปภาพโดยใช้ Aspose.PSD สำหรับ Java ยกระดับการออกแบบกราฟิกของคุณด้วยบทช่วยสอนทีละขั้นตอนนี้
-type: docs
 weight: 13
 url: /th/java/basic-image-operations/support-shadow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับ Shadow Effect ใน Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 การปรับปรุงภาพด้วยเอฟเฟ็กต์เงาถือเป็นเรื่องปกติในการออกแบบกราฟิก โดยการเพิ่มความลึกและความสมจริง Aspose.PSD สำหรับ Java ให้การสนับสนุนเอฟเฟกต์เงาอย่างแข็งแกร่ง ช่วยให้นักพัฒนาสามารถรวมเอฟเฟกต์เหล่านี้เข้ากับแอปพลิเคชัน Java ของตนได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะสำรวจวิธีการรองรับเอฟเฟกต์เงาโดยใช้ Aspose.PSD ทีละขั้นตอน
@@ -108,3 +114,9 @@ A1: แน่นอน! Aspose.PSD สำหรับ Java เป็นไลบ
 ### คำถามที่ 5: ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร
 
  A5: เข้าร่วมฟอรั่มชุมชน[ที่นี่](https://forum.aspose.com/c/psd/34) สำหรับข้อสงสัยการสนับสนุนใด ๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

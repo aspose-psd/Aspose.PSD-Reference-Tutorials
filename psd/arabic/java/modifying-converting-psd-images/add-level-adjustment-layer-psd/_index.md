@@ -3,10 +3,16 @@ title: إضافة طبقة تعديل المستوى في PSD
 linktitle: إضافة طبقة تعديل المستوى في PSD
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة طبقة ضبط المستوى بشكل فعال في ملفات PSD الخاصة بك باستخدام Aspose.PSD لـ Java. ارفع مهاراتك في تحرير الصور.
-type: docs
 weight: 16
 url: /ar/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة طبقة تعديل المستوى في PSD
+
 ## مقدمة
 عندما يتعلق الأمر بتحرير الصور، فإن إدارة المستويات يمكن أن تُحدث فرقًا كبيرًا في حيوية ووضوح صورك. إحدى الأدوات المفيدة في ترسانة Photoshop هي "طبقة ضبط المستوى"، والتي تسمح لك بتعديل النطاق اللوني وتوازن الألوان لصورك. في هذا الدليل، سنرشدك إلى كيفية تنفيذ طبقة ضبط المستوى في ملف PSD باستخدام Aspose.PSD لـ Java. لذا، احصل على Java IDE الخاص بك.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ im.save(psdPathAfterChange);
  قطعاً! يمكنك طرح الأسئلة والحصول على الدعم في[منتدى Aspose](https://forum.aspose.com/c/psd/34).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
  يمكنك التقدم بطلب للحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

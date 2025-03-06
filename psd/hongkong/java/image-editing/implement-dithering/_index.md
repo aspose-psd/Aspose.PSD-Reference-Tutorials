@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中實現光柵影像的抖動
 linktitle: 為光柵影像實作抖動
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 增強影像品質。按照我們的逐步指南實施抖動並消除色帶。
-type: docs
 weight: 17
 url: /zh-hant/java/image-editing/implement-dithering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中實現光柵影像的抖動
+
 ## 介紹
 
 如果您希望提高 Java 中光柵影像的視覺質量，Aspose.PSD 提供了一個強大的解決方案。在本逐步指南中，我們將探索如何使用 Aspose.PSD for Java 實作抖動。抖動是一種向影像添加一定程度的雜訊、減少色帶並提高整體影像品質的技術。
@@ -88,3 +94,9 @@ A4：是的，Aspose.PSD提供了各種抖動方法，可以靈活地增強影�
 ### Q5：我可以將 Aspose.PSD for Java 整合到我現有的 Java 專案中嗎？
 
 A5：是的，Aspose.PSD 可以輕鬆整合到您的 Java 專案中，以實現無縫影像處理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

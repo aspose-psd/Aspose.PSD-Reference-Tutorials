@@ -3,10 +3,16 @@ title: Java için Aspose.PSD'de Bradley Eşikleme
 linktitle: Bradley Eşikleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'da Bradley Thresholding ile görüntü kalitesini artırın. Etkili görüntü ikilileştirmesi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 16
 url: /tr/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.PSD'de Bradley Eşikleme
+
 ## giriiş
 
 Aspose.PSD for Java'da Bradley Thresholding'i uygulamaya yönelik bu kapsamlı kılavuza hoş geldiniz. Bu eğitim, görüntülerinizin kalitesini artırmak için Bradley Eşiği uygulama sürecinde size yol gösterecektir. Aspose.PSD for Java, görüntü işleme için güçlü bir araç seti sağlar ve Bradley Thresholding, görüntü ikilileştirme için değerli bir tekniktir.
@@ -99,3 +105,9 @@ Cevap4: Evet, değişiklikleri kaydetmeden önce resmin ön izlemesini yapmak i�
 ### S5: Daha fazla desteği ve kaynağı nerede bulabilirim?
 
  A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) topluluk desteği için ve keşfetmek için[dokümantasyon](https://reference.aspose.com/psd/java/) detaylı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

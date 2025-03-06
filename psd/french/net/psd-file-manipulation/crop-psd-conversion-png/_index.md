@@ -3,10 +3,16 @@ title: Recadrage de fichiers PSD lors de la conversion en PNG dans Aspose.PSD po
 linktitle: Recadrage des fichiers PSD lors de la conversion en PNG
 second_title: API Aspose.PSD.NET
 description: Apprenez à recadrer des fichiers PSD sans effort à l'aide d'Aspose.PSD pour .NET. Suivez notre guide étape par étape pour une conversion transparente en PNG.
-type: docs
 weight: 18
 url: /fr/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrage de fichiers PSD lors de la conversion en PNG dans Aspose.PSD pour .NET
+
 ## Introduction
 Dans le domaine du développement .NET, la manipulation et la conversion d'images sont une tâche courante. Aspose.PSD pour .NET fournit un ensemble d'outils puissants pour rationaliser ce processus. Une exigence fréquente consiste à recadrer les fichiers PSD avant de les convertir en PNG. Dans ce didacticiel étape par étape, nous approfondirons le processus d'utilisation d'Aspose.PSD pour .NET.
 ## Conditions préalables
@@ -77,3 +83,9 @@ A2 : Absolument ! Vous pouvez explorer une version d'essai gratuite[ici](https:/
 ### Q5 : Y a-t-il des exemples ou des didacticiels disponibles dans la documentation ?
 
  A5 : Oui, vous pouvez trouver une documentation complète et des exemples[ici](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

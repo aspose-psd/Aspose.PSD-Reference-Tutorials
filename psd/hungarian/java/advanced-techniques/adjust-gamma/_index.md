@@ -3,10 +3,16 @@ title: Állítsa be a kép gammáját az Aspose.PSD for Java segítségével
 linktitle: Kép gamma beállítása
 second_title: Aspose.PSD Java API
 description: Tanulja meg könnyedén beállítani a kép gammát az Aspose.PSD for Java használatával. Kövesse lépésről lépésre útmutatónkat az optimális eredmény érdekében.
-type: docs
 weight: 23
 url: /hu/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a kép gammáját az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 A képfeldolgozás területén a kép gammájának beállítása kulcsfontosságú lépés a vizuális vonzerő fokozása érdekében. Az Aspose.PSD for Java hatékony megoldást kínál a Java fejlesztők számára a kép gamma könnyed manipulálására. Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthatjuk be a gammát az Aspose.PSD használatával, és az egyes lépéseket lebontjuk a zökkenőmentes megvalósítás érdekében.
@@ -108,3 +114,9 @@ Gratulálok! Sikeresen beállította egy kép gammáját az Aspose.PSD for Java 
 ### 5. kérdés: Hol kérhetek támogatást az Aspose.PSD-hez?
 
  5. válasz: Támogatásért keresse fel az Aspose.PSD fórumot a címen[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

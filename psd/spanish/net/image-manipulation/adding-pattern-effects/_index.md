@@ -3,10 +3,16 @@ title: Agregar efectos de patrón a imágenes en Aspose.PSD para .NET
 linktitle: Agregar efectos de patrón a las imágenes
 second_title: API Aspose.PSD .NET
 description: Mejore sus imágenes con efectos de patrones cautivadores utilizando Aspose.PSD para .NET. Siga nuestra guía paso a paso para agregar patrones personalizados sin problemas.
-type: docs
 weight: 12
 url: /es/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar efectos de patrón a imágenes en Aspose.PSD para .NET
+
 ## Introducción
 
 Mejorar las imágenes con efectos de patrones puede aportar una nueva dimensión a sus diseños. Aspose.PSD para .NET proporciona una solución poderosa para agregar sin problemas superposiciones de patrones a las imágenes, lo que le permite crear gráficos visualmente impresionantes. Este tutorial paso a paso lo guiará a través del proceso de agregar efectos de patrón usando Aspose.PSD para .NET.
@@ -108,3 +114,9 @@ R4: Las dimensiones del patrón son flexibles, lo que le permite crear patrones 
 ### P5: ¿Puedo utilizar Aspose.PSD para .NET en proyectos comerciales?
 
 R5: Sí, puede utilizar Aspose.PSD para .NET en proyectos comerciales. Para obtener detalles sobre la licencia, visite[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에 스트로크 레이어 색상 추가
 linktitle: 획 레이어 색상 추가
 second_title: Aspose.PSD 자바 API
 description: 스트로크 레이어 색상 추가에 대한 단계별 가이드를 통해 Java용 Aspose.PSD의 강력한 기능을 살펴보세요. 그래픽 디자인을 손쉽게 향상시켜 보세요.
-type: docs
 weight: 14
 url: /ko/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에 스트로크 레이어 색상 추가
+
 ## 소개
 
 Aspose.PSD를 사용하여 Java 애플리케이션의 그래픽 디자인 잠재력을 활용해 보세요. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 획 레이어 색상을 추가하는 흥미로운 세계를 탐구합니다. 눈에 띄는 획으로 그래픽을 향상시켜 시각적으로 매력적인 디자인을 손쉽게 만들어 보세요.
@@ -120,3 +126,9 @@ A2: 물론이죠! Aspose.PSD는 최신 PSD 파일 형식 사양과 보조를 맞
 ### Q5: Aspose.PSD 임시 라이선스는 어디서 구할 수 있나요?
 
  A5: 획득[임시면허](https://purchase.aspose.com/temporary-license/) Aspose.PSD가 프로젝트의 기능을 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

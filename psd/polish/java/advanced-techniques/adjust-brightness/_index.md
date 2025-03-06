@@ -3,10 +3,16 @@ title: Dostosuj jasność obrazu za pomocą Aspose.PSD dla Java
 linktitle: Dostosuj jasność obrazu
 second_title: Aspose.PSD API Java
 description: Zwiększ jasność obrazu w Javie za pomocą Aspose.PSD. Przewodnik krok po kroku dotyczący programowej regulacji jasności obrazu.
-type: docs
 weight: 21
 url: /pl/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj jasność obrazu za pomocą Aspose.PSD dla Java
+
 ## Wstęp
 
 Ulepszanie obrazów jest powszechnym wymogiem w projektowaniu graficznym i fotografii cyfrowej. Aspose.PSD dla Java zapewnia potężne rozwiązanie do programowego dostosowywania jasności obrazu. W tym samouczku dowiemy się, jak krok po kroku wykorzystać bibliotekę Aspose.PSD for Java do dostosowania jasności obrazu.
@@ -107,3 +113,9 @@ O3: Zakres regulacji zależy od zawartości i formatu obrazu, ale Aspose.PSD zap
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
 
  Odpowiedź 5: Tak, możesz przeglądać bibliotekę w ramach bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

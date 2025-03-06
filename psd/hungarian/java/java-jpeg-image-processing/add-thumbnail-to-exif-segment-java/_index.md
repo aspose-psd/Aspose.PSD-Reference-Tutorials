@@ -3,10 +3,16 @@ title: Adjon hozzá miniatűrt az EXIF szegmenshez Java nyelven
 linktitle: Adjon hozzá miniatűrt az EXIF szegmenshez Java nyelven
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan javíthatja ki a képek metaadatait bélyegképekkel az Aspose.PSD for Java használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.A zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá miniatűrt az EXIF szegmenshez Java nyelven
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan javítható a képek metaadatai az EXIF szegmenshez való bélyegkép hozzáadásával az Aspose.PSD for Java használatával. Az EXIF (Exchangeable Image File Format) metaadatok döntő szerepet játszanak a digitális fényképezésben, értékes információkat szolgáltatva, például a fényképezőgép beállításait, dátumát és helyét. Bélyegkép hozzáadása javítja a felhasználói élményt a képek hatékony előnézetének köszönhetően.
 ## Előfeltételek
@@ -66,3 +72,9 @@ Bélyegkép hozzáadása javítja a felhasználói élményt, mivel lehetővé t
  Ideiglenes licencet szerezhet be az Aspose.PSD-hez innen[itt](https://purchase.aspose.com/temporary-license/).
 ### Hogyan kaphatok támogatást az Aspose.PSD-hez?
  Támogatásért keresse fel a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

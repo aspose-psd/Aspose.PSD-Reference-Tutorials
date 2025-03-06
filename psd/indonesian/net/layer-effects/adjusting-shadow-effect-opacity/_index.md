@@ -3,10 +3,16 @@ title: Menyesuaikan Opacity Efek Bayangan di Aspose.PSD untuk .NET
 linktitle: Menyesuaikan Opacity Efek Bayangan
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menyesuaikan opacity efek bayangan di Aspose.PSD untuk .NET dengan tutorial komprehensif ini.
-type: docs
 weight: 15
 url: /id/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Opacity Efek Bayangan di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang menyesuaikan opacity efek bayangan di Aspose.PSD untuk .NET! Dalam tutorial ini, kami akan memandu Anda melalui proses pemanfaatan properti Opacity dari DropShadowEffect. Aspose.PSD untuk .NET adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan file PSD di aplikasi .NET Anda dengan lancar.
@@ -105,3 +111,9 @@ A4: Ya, Aspose.PSD untuk .NET kompatibel dengan .NET Framework dan .NET Core.
 ### Q5: Di mana saya dapat menemukan dukungan komunitas untuk Aspose.PSD untuk .NET?
 
  A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

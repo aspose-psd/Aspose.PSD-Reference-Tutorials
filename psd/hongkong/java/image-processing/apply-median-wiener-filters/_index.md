@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 應用中值和維納濾波器
 linktitle: 應用中位數和維納濾波器
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 探索 Java 影像處理的強大功能。了解如何逐步應用中值濾波器和維納濾波器。毫不費力地提高影像品質。
-type: docs
 weight: 12
 url: /zh-hant/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 應用中值和維納濾波器
+
 ## 介紹
 
 在 Java 程式設計領域，Aspose.PSD 作為影像操作和處理的強大工具脫穎而出。它提供的關鍵功能之一是中值濾波器和維納濾波器的應用，這在提高影像品質和降低雜訊方面發揮著至關重要的作用。本逐步指南將引導您完成使用 Aspose.PSD for Java 應用這些篩選器的過程。
@@ -101,3 +107,9 @@ A1：是的，Aspose.PSD 支援多種影像格式，使其適用於各種項目�
 ### Q5: 如何購買 Aspose.PSD for Java？
 
 A5: 您可以購買該產品[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

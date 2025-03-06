@@ -3,10 +3,16 @@ title: Aggiungi il livello di regolazione del mixer canale in PSD
 linktitle: Aggiungi il livello di regolazione del mixer canale in PSD
 second_title: API Java Aspose.PSD
 description: Migliora i tuoi file PSD con i livelli di regolazione del mixer dei canali utilizzando Aspose.PSD per Java. Impara le tecniche di manipolazione del colore passo dopo passo per ottenere immagini vibranti.
-type: docs
 weight: 10
 url: /it/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi il livello di regolazione del mixer canale in PSD
+
 ## Introduzione
 Il mondo del design grafico è pieno di possibilità, ma a volte ottenere l'aspetto perfetto può sembrare come vagare in una fitta foresta senza una mappa. Hai mai avuto la sensazione che alle tue immagini manchi quel fattore "wow"? Bene, è qui che entrano in gioco i livelli di regolazione! Oggi approfondiremo come aggiungere i livelli di regolazione del mixer dei canali utilizzando Aspose.PSD per Java. Questo è uno strumento ingegnoso che ti consente di apportare regolazioni precise al colore dei tuoi file PSD, assicurando che le tue immagini risaltino e impressionino.
 
@@ -167,3 +173,9 @@ Aspose.PSD è progettato principalmente per lavorare con file PSD, ma la suite A
 
 ### C'è un modo per ottenere una licenza temporanea per Aspose.PSD?
  SÌ! Puoi richiedere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

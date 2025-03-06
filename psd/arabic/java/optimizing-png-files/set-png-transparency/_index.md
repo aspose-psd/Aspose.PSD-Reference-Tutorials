@@ -3,10 +3,16 @@ title: قم بتعيين شفافية PNG في Aspose.PSD لـ Java
 linktitle: قم بتعيين شفافية PNG في Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تعيين شفافية PNG في Aspose.PSD لـ Java من خلال برنامج تعليمي سهل خطوة بخطوة. مثالي للمطورين ومصممي الجرافيك.
-type: docs
 weight: 15
 url: /ar/java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين شفافية PNG في Aspose.PSD لـ Java
+
 ## مقدمة
 عندما يتعلق الأمر بمعالجة الرسومات وإدارتها، خاصة في البيئات المهنية، فإن اختيار الأدوات المناسبة أمر بالغ الأهمية. إحدى الأدوات التي تبرز في مجال معالجة الرسومات هي Aspose.PSD لـ Java. تتيح هذه المكتبة للمطورين العمل بسلاسة مع ملفات Photoshop (PSD) مباشرة في تطبيقات Java الخاصة بهم. إنه مثل وجود ميزات Photoshop القوية في متناول يدك، بدون منحنى التعلم الحاد! اليوم، سنتعمق في ميزة محددة: ضبط شفافية PNG باستخدام Aspose.PSD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خلال الخطوات.
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ Aspose.PSD for Java هي مكتبة تتيح للمطورين العمل مع م
  يمكنك زيارة[منتدى الدعم Aspose](https://forum.aspose.com/c/psd/34) للمساعدة والدعم المجتمعي.
 ### هل يمكنني تعيين ألوان شفافة متعددة؟
 تتيح لك المكتبة حاليًا تعيين لون شفاف واحد لكل صورة PNG. ومع ذلك، يمكنك معالجة الطبقات المختلفة في ملف PSD قبل التصدير إذا لزم الأمر.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

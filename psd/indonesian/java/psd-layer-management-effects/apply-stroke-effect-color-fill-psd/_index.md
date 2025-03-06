@@ -3,10 +3,16 @@ title: Terapkan Efek Stroke dengan Isian Warna di PSD - Java
 linktitle: Terapkan Efek Stroke dengan Isian Warna di PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menerapkan efek guratan dengan isian warna ke file PSD Anda menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah ini untuk menyempurnakan gambar Anda dengan mudah.
-type: docs
 weight: 21
 url: /id/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Efek Stroke dengan Isian Warna di PSD - Java
+
 ## Perkenalan
 
 Dalam panduan ini, kami akan memandu Anda melalui proses penerapan efek guratan dengan isian warna ke file PSD Anda menggunakan Aspose.PSD untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial langkah demi langkah ini akan memudahkan Anda menyelesaikan pekerjaan. Kami akan membahas semuanya mulai dari menyiapkan lingkungan Anda hingga menyimpan gambar akhir dengan efek yang diterapkan.
@@ -144,3 +150,9 @@ Untuk mengembalikan perubahan, Anda perlu memuat ulang file PSD asli sebelum men
 
 ### Apakah perpustakaan Aspose.PSD untuk Java gratis untuk digunakan?
  Aspose.PSD untuk Java menawarkan uji coba gratis, tetapi untuk akses penuh ke semua fitur, Anda perlu membeli lisensi. Anda dapat menjelajahi[membeli opsi](https://purchase.aspose.com/buy)di situs web mereka.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

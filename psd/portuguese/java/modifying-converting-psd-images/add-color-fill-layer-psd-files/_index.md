@@ -3,10 +3,16 @@ title: Adicionar camada de preenchimento de cor a arquivos PSD usando Java
 linktitle: Adicionar camada de preenchimento de cor a arquivos PSD usando Java
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar facilmente uma camada de preenchimento de cor a arquivos PSD usando Java e Aspose.PSD. Siga nosso tutorial passo a passo para designs mais rápidos.
-type: docs
 weight: 20
 url: /pt/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar camada de preenchimento de cor a arquivos PSD usando Java
+
 ## Introdução
 Você já precisou manipular arquivos do Photoshop programaticamente, talvez para adicionar um toque de cor a um design? Bem, você pousou no lugar certo. Neste artigo, vamos nos aprofundar em como adicionar uma camada de preenchimento de cor a arquivos PSD (documento do Photoshop) usando Java e a biblioteca Aspose.PSD. Pense nos seus arquivos PSD como uma tela e, com apenas algumas linhas de código, você pode pintá-los novamente.
 ## Pré-requisitos
@@ -87,3 +93,9 @@ Você pode trabalhar com arquivos PSD e manipular suas camadas, efeitos e outras
  Você pode obter suporte através do[Fórum de suporte Aspose](https://forum.aspose.com/c/psd/34).
 ### Onde posso comprar Aspose.PSD?  
  Você pode comprar uma licença através do[Página de compra do Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

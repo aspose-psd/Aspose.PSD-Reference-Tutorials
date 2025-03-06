@@ -3,10 +3,16 @@ title: Binarisasi dengan Ambang Batas Tetap di Aspose.PSD untuk Java
 linktitle: Binarisasi dengan Ambang Batas Tetap
 second_title: Asumsikan.PSD Java API
 description: Jelajahi Binarisasi dengan Ambang Batas Tetap di Aspose.PSD untuk Java. Ubah gambar secara mulus dengan panduan langkah demi langkah kami.
-type: docs
 weight: 14
 url: /id/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarisasi dengan Ambang Batas Tetap di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam bidang pengembangan Java, Aspose.PSD terbukti menjadi alat yang ampuh untuk tugas pemrosesan gambar. Salah satu operasi penting tersebut adalah Binarisasi, suatu teknik yang menyederhanakan gambar dengan mengubahnya menjadi bentuk biner. Tutorial ini akan memandu Anda melalui proses mencapai Binarisasi dengan Ambang Batas Tetap menggunakan Aspose.PSD untuk Java. Bersiaplah saat kami menjelajahi langkah-langkah yang terlibat dalam perjalanan pemrosesan gambar transformatif ini.
@@ -101,3 +107,9 @@ A1:Ya, Aspose.PSD mendukung berbagai format gambar, membuat Binarisasi dapat dit
 ### Q5: Apakah tersedia versi uji coba gratis?
 
  A5: Ya, Anda dapat mengeksplorasi kemampuan Aspose.PSD dengan versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

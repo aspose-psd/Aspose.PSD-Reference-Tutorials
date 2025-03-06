@@ -3,10 +3,16 @@ title: Ustaw kolor JPEG i typ kompresji w Javie
 linktitle: Ustaw kolor JPEG i typ kompresji w Javie
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak ustawić kolor JPEG i typ kompresji w Javie przy użyciu Aspose.PSD. Ten przewodnik krok po kroku sprawia, że przetwarzanie obrazu jest łatwe i wydajne.
-type: docs
 weight: 13
 url: /pl/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw kolor JPEG i typ kompresji w Javie
+
 ## Wstęp
 W dzisiejszej erze cyfrowej zarządzanie obrazami i manipulowanie nimi jest powszechną koniecznością, niezależnie od tego, czy chodzi o tworzenie stron internetowych, projektowanie graficzne, czy inżynierię oprogramowania. Jeśli szukasz potężnego narzędzia do obsługi plików PSD i konwertowania ich do formatu JPEG z określonymi ustawieniami kolorów i kompresji, nie szukaj dalej niż Aspose.PSD dla Java. Ten samouczek poprowadzi Cię przez proces ustawiania kolorów i typów kompresji JPEG przy użyciu tej solidnej biblioteki.
 ## Warunki wstępne
@@ -54,3 +60,9 @@ Aspose.PSD for Java to biblioteka Java, która umożliwia programistom tworzenie
  Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/psd/java/).
 ### Czy Aspose.PSD dla Java nadaje się do aplikacji internetowych?
 Tak, Aspose.PSD for Java można zintegrować z aplikacjami internetowymi w celu obsługi zadań przetwarzania obrazu po stronie serwera.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

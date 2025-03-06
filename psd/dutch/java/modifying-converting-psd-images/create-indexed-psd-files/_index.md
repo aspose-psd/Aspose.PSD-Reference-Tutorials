@@ -3,10 +3,16 @@ title: Maak geïndexeerde PSD-bestanden met Aspose.PSD voor Java
 linktitle: Maak geïndexeerde PSD-bestanden met Aspose.PSD voor Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u geïndexeerde PSD-bestanden kunt maken met Aspose.PSD voor Java in onze stapsgewijze handleiding. Meld u nu aan en ontdek eindeloze artistieke mogelijkheden.
-type: docs
 weight: 23
 url: /nl/java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak geïndexeerde PSD-bestanden met Aspose.PSD voor Java
+
 ## Invoering
 Programmatisch grafische afbeeldingen maken is niet alleen een kunst; het is een mix van technologie en verbeeldingskracht. Een krachtig hulpmiddel in dit creatieve domein is Aspose.PSD voor Java, een enorm capabele bibliotheek waarmee ontwikkelaars Photoshop-documenten kunnen manipuleren. In deze zelfstudie gaan we dieper in op het maken van geïndexeerde PSD-bestanden met Aspose.PSD, compleet met een stapsgewijze handleiding om u op weg te helpen. Of u nu een doorgewinterde ontwikkelaar bent of net begint met coderen, deze gids leidt u naadloos door het proces.
 ## Vereisten
@@ -108,3 +114,9 @@ Nee, u kunt PSD-bestanden maken en manipuleren zonder Photoshop, aangezien Aspos
  U kunt een tijdelijke licentie aanvragen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.PSD?
  U kunt ondersteuning krijgen via het Aspose-forum[hier](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

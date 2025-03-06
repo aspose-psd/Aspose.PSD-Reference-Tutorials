@@ -3,10 +3,16 @@ title: Ajouter une vignette au segment EXIF en Java
 linktitle: Ajouter une vignette au segment EXIF en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment améliorer les métadonnées d'image avec des miniatures à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une intégration transparente.pour une intégration transparente.
-type: docs
 weight: 10
 url: /fr/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une vignette au segment EXIF en Java
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment améliorer les métadonnées de l'image en ajoutant une vignette au segment EXIF à l'aide d'Aspose.PSD pour Java. Les métadonnées EXIF (Exchangeable Image File Format) jouent un rôle crucial dans la photographie numérique, fournissant des informations précieuses telles que les paramètres de l'appareil photo, la date et le lieu. L'ajout d'une vignette améliore l'expérience utilisateur en prévisualisant efficacement les images.
 ## Conditions préalables
@@ -66,3 +72,9 @@ L'ajout d'une vignette améliore l'expérience utilisateur en permettant des ape
  Vous pouvez obtenir une licence temporaire pour Aspose.PSD auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Comment puis-je obtenir de l'aide pour Aspose.PSD ?
  Pour obtenir de l'aide, visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

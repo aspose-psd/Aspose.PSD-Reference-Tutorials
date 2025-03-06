@@ -3,10 +3,16 @@ title: Adjon hozzá vízjelet a PSD-fájlokhoz az Aspose.PSD for Java segítség
 linktitle: Adjon hozzá vízjelet a PSD-fájlokhoz az Aspose.PSD for Java segítségével
 second_title: Aspose.PSD Java API
 description: Tanulja meg, hogyan adhat hozzá vízjelet könnyedén PSD-fájljaihoz az Aspose.PSD for Java segítségével. Védje meg képeit egy egyszerű, lépésenkénti útmutatóval.
-type: docs
 weight: 18
 url: /hu/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá vízjelet a PSD-fájlokhoz az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 A vízjelek finom, de hatékony módjai a képek védelmének és a tulajdonjog közlésének. Legyen szó akár portfólióját bemutató fotósról, akár legújabb munkáit bemutató tervezőről, a vízjel hozzáadása kulcsfontosságú lehet márkaidentitásának megőrzéséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk könnyedén vízjeleket PSD-fájlokhoz az Aspose.PSD for Java használatával. Szóval, igyál egy csésze kávét, érezd jól magad, és kezdjük is!
 ## Előfeltételek
@@ -90,3 +96,9 @@ Ennek a sornak a végrehajtásával hatékonyan örökíti meg munkáját új fo
  Igen, menthet különféle formátumokban, például JPEG vagy BMP. Csak cserélje ki`PngOptions()` a kívánt opciókkal.
 ### Hol találok további segítséget?
  Részletes kérdésekért látogassa meg a[Aspose fórumok](https://forum.aspose.com/c/psd/34) vagy ellenőrizze az övéket[dokumentáció](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

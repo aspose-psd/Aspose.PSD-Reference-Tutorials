@@ -3,10 +3,16 @@ title: การบันทึกและส่งออกไฟล์
 linktitle: การบันทึกและส่งออกไฟล์
 second_title: Aspose.PSD .NET API
 description: เชี่ยวชาญการบันทึกและส่งออกรูปภาพอย่างง่ายดายด้วย Aspose.PSD สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการทำงานของดิสก์และสตรีมอย่างมีประสิทธิภาพ
-type: docs
 weight: 23
 url: /th/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การบันทึกและส่งออกไฟล์
+
 ## การแนะนำ
 
 หากคุณเคยประสบปัญหาในการบันทึกและส่งออกรูปภาพในโครงการ .NET ของคุณ คุณไม่ได้อยู่คนเดียว ขอบเขตดิจิทัลต้องการความแม่นยำ และเมื่อพูดถึงเรื่องรูปภาพ กระบวนการก็ยิ่งมีความสำคัญมากยิ่งขึ้น โชคดีที่ Aspose.PSD สำหรับ .NET พร้อมทำให้การเดินทางของคุณง่ายขึ้น โดยนำเสนอโซลูชั่นที่ราบรื่นสำหรับการบันทึกภาพลงดิสก์และสตรีม
@@ -32,3 +38,9 @@ url: /th/net/file-saving-and-exporting/
 สำรวจพลังของ Aspose.PSD สำหรับ .NET และเรียนรู้วิธีบันทึกภาพลงสตรีมได้อย่างง่ายดาย ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
 ### [การทำงานกับ Save Image Worker ใน Aspose.PSD สำหรับ .NET](./save-image-worker/)
 เรียนรู้การใช้ Aspose.PSD สำหรับ Save Image Worker ของ .NET เพื่อการแปลงรูปแบบภาพที่ราบรื่นพร้อมการจัดการการหยุดชะงัก
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

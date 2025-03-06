@@ -3,10 +3,16 @@ title: Defina a resolução do arquivo PNG com Aspose.PSD para Java
 linktitle: Defina a resolução do arquivo PNG com Aspose.PSD para Java
 second_title: API Java Aspose.PSD
 description: Explore como definir a resolução do arquivo PNG usando Aspose.PSD para Java com este tutorial passo a passo detalhado. Otimize suas imagens rapidamente.
-type: docs
 weight: 13
 url: /pt/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Defina a resolução do arquivo PNG com Aspose.PSD para Java
+
 ## Introdução
 Você está procurando otimizar a resolução do seu arquivo PNG usando Java? Se a resposta for sim, então você pousou no lugar certo! Hoje, vamos nos aprofundar no mundo do Aspose.PSD para Java, uma biblioteca poderosa para manipular arquivos PSD do Photoshop e convertê-los para outros formatos como PNG. Quer você seja um desenvolvedor interessado em processamento de imagens ou apenas alguém que deseja melhorar a qualidade da imagem de forma programática, este guia foi feito sob medida para você. 
 Neste tutorial abrangente, cobriremos tudo, desde pré-requisitos até instruções detalhadas passo a passo para definir com eficácia a resolução do arquivo PNG. Então, pegue seu lanche preferido e vamos começar!
@@ -71,3 +77,9 @@ Sim, embora uma avaliação gratuita esteja disponível, é necessária uma lice
 Aspose.PSD lida com muitos problemas comuns, mas se um arquivo estiver gravemente corrompido, ele poderá não carregar. Mantenha sempre um backup.
 ### O Aspose.PSD é adequado para aplicativos de alto desempenho?
 Sim, ele foi projetado para lidar com arquivos grandes com eficiência e é adequado para tarefas de processamento de imagens com alto desempenho.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

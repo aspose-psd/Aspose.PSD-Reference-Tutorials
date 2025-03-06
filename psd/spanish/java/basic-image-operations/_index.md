@@ -3,10 +3,16 @@ title: Operaciones básicas de imagen
 linktitle: Operaciones básicas de imagen
 second_title: API de Java Aspose.PSD
 description: Mejore sus habilidades de diseño gráfico con los tutoriales de Aspose.PSD para Java. Aprenda a dibujar, cambiar el tamaño, modos de fusión y verificar la transparencia en una guía paso a paso.
-type: docs
 weight: 25
 url: /es/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operaciones básicas de imagen
+
 
 ## Introducción
 
@@ -44,3 +50,9 @@ Mejore el procesamiento de imágenes en Java con Aspose.PSD. Aprenda a aprovecha
 Aprenda a agregar efectos de sombra cautivadores a las imágenes usando Aspose.PSD para Java. Mejore su diseño gráfico con este tutorial paso a paso.
 ### [Verifique la transparencia de la imagen con Aspose.PSD para Java](./verify-image-transparency/)
 Explore la verificación de transparencia de imágenes con Aspose.PSD para Java. Fácil integración, documentación detallada y excelente soporte comunitario.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

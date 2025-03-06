@@ -3,10 +3,16 @@ title: Triển khai Điều chỉnh độ tương phản trong Aspose.PSD cho .N
 linktitle: Thực hiện điều chỉnh độ tương phản
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách triển khai điều chỉnh độ tương phản trong Aspose.PSD cho .NET với hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai Điều chỉnh độ tương phản trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách triển khai điều chỉnh độ tương phản trong Aspose.PSD cho .NET! Trong hướng dẫn này, chúng ta sẽ khám phá quy trình nâng cao độ tương phản của hình ảnh bằng Aspose.PSD, một thư viện hình ảnh .NET mạnh mẽ. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách áp dụng các điều chỉnh độ tương phản cho hình ảnh của mình một cách liền mạch.
@@ -101,3 +107,9 @@ Câu trả lời 1: Aspose.PSD cho .NET được thiết kế thân thiện vớ
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
  A5: Nếu cần, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nhị phân hóa với ngưỡng Otsu trong Aspose.PSD cho Java
 linktitle: Nhị phân hóa với ngưỡng Otsu
 second_title: API Java Aspose.PSD
 description: Khám phá nhị phân hóa với ngưỡng Otsu trong Aspose.PSD cho Java. Một kỹ thuật phân đoạn hình ảnh mạnh mẽ.
-type: docs
 weight: 15
 url: /vi/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhị phân hóa với ngưỡng Otsu trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thực hiện Binarization với Ngưỡng Otsu trong Aspose.PSD cho Java! Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng thư viện Aspose.PSD cho Java để nâng cao khả năng xử lý hình ảnh của bạn. Nhị phân hóa với Ngưỡng Otsu là một kỹ thuật mạnh mẽ để phân đoạn hình ảnh và với Aspose.PSD, nó trở nên đơn giản và hiệu quả.
@@ -103,3 +109,9 @@ A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/java/).
 ### Câu hỏi 5: Có giấy phép tạm thời cho Aspose.PSD dành cho Java không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

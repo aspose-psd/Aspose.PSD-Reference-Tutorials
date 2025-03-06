@@ -3,10 +3,16 @@ title: قم بتطبيق ضغط الانكماش على ملفات TIFF باست
 linktitle: قم بتطبيق ضغط الانكماش على ملفات TIFF باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تطبيق ضغط التفريغ على ملفات TIFF باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لتقليل حجم الملف بكفاءة دون فقدان الجودة.
-type: docs
 weight: 13
 url: /ar/java/tiff-image-compression-configuration/apply-deflate-compression-tiff-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق ضغط الانكماش على ملفات TIFF باستخدام Java
+
 ## مقدمة
 
 هل سبق لك العمل مع ملفات صور كبيرة وتساءلت عن كيفية تقليل حجمها دون المساس بالجودة؟ إذا كنت تتعامل مع ملفات TIFF، فأنت محظوظ! في هذه المقالة، سنتعمق في عالم ضغط الصور، مع التركيز بشكل خاص على كيفية تطبيق ضغط التفريغ على ملفات TIFF باستخدام Aspose.PSD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خلال العملية خطوة بخطوة، مما يضمن قدرتك على التعامل مع ملفات الصور الخاصة بك بسهولة. لذلك، دعونا نبدأ!
@@ -92,3 +98,9 @@ psdImage.save(dataDir + "TIFFwithDeflateCompression_out.tiff", options);
 
 ### هل أحتاج إلى أي أدوات خاصة لاستخدام Aspose.PSD لـ Java؟
 ما عليك سوى بيئة تطوير Java ومكتبة Aspose.PSD لـ Java، والتي يمكنك تنزيلها من الروابط المتوفرة أعلاه.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

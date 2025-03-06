@@ -3,10 +3,16 @@ title: Stel de PNG-bestandsresolutie in met Aspose.PSD voor Java
 linktitle: Stel de PNG-bestandsresolutie in met Aspose.PSD voor Java
 second_title: Aspose.PSD Java-API
 description: Ontdek hoe u de PNG-bestandsresolutie instelt met Aspose.PSD voor Java met deze gedetailleerde stapsgewijze zelfstudie. Optimaliseer uw afbeeldingen in een mum van tijd.
-type: docs
 weight: 13
 url: /nl/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel de PNG-bestandsresolutie in met Aspose.PSD voor Java
+
 ## Invoering
 Wilt u uw PNG-bestandsresolutie optimaliseren met Java? Als het antwoord ja is, dan ben je op de juiste plek beland! Vandaag duiken we in de wereld van Aspose.PSD voor Java, een krachtige bibliotheek voor het manipuleren van Photoshop PSD-bestanden en het converteren ervan naar andere formaten zoals PNG. Of u nu een ontwikkelaar bent die zich bezighoudt met beeldverwerking of gewoon iemand bent die de beeldkwaliteit programmatisch wil verbeteren, deze handleiding is op maat gemaakt voor u. 
 In deze uitgebreide zelfstudie behandelen we alles, van vereisten tot gedetailleerde stapsgewijze instructies om de PNG-bestandsresolutie effectief in te stellen. Dus pak je favoriete snack en laten we aan de slag gaan!
@@ -71,3 +77,9 @@ Ja, hoewel er een gratis proefperiode beschikbaar is, is een geldige licentie ve
 Aspose.PSD lost veel voorkomende problemen op, maar als een bestand ernstig beschadigd is, wordt het mogelijk niet geladen. Zorg altijd voor een back-up.
 ### Is Aspose.PSD geschikt voor krachtige toepassingen?
 Ja, het is ontworpen om grote bestanden efficiënt te verwerken en is geschikt voor prestatie-intensieve beeldverwerkingstaken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

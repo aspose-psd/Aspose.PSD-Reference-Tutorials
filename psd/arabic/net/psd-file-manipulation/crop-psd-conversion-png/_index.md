@@ -3,10 +3,16 @@ title: قص ملفات PSD عند التحويل إلى PNG في Aspose.PSD لـ
 linktitle: قص ملفات PSD عند التحويل إلى PNG
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية قص ملفات PSD بسهولة باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة للتحويل السلس إلى PNG.
-type: docs
 weight: 18
 url: /ar/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص ملفات PSD عند التحويل إلى PNG في Aspose.PSD لـ .NET
+
 ## مقدمة
 في مجال تطوير .NET، تعد معالجة الصور وتحويلها مهمة شائعة. يوفر Aspose.PSD for .NET مجموعة قوية من الأدوات لتبسيط هذه العملية. أحد المتطلبات المتكررة هو قص ملفات PSD قبل تحويلها إلى PNG. في هذا البرنامج التعليمي خطوة بخطوة، سنتعمق في العملية باستخدام Aspose.PSD لـ .NET.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ image.Save(destName, pngOptions);
 ### س5: هل هناك أي أمثلة أو برامج تعليمية متوفرة في الوثائق؟
 
  ج5: نعم، يمكنك العثور على وثائق وأمثلة شاملة[هنا](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Größenänderung mit der Größenänderungstyp-Aufzählung in Aspose.PSD
 linktitle: Größenänderung mit der Größenänderungstyp-Enumeration
 second_title: Aspose.PSD Java API
 description: Beherrschen Sie die Größenanpassung von Bildern in Java mit Aspose.PSD. Schritt-für-Schritt-Anleitung zur Verwendung der Resize Type Enumeration.
-type: docs
 weight: 18
 url: /de/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Größenänderung mit der Größenänderungstyp-Aufzählung in Aspose.PSD für Java
+
 ## Einführung
 
 In der sich ständig weiterentwickelnden Landschaft der Java-Entwicklung ist eine effiziente Bildverarbeitung ein entscheidender Aspekt, mit dem sich Entwickler oft auseinandersetzen müssen. Aspose.PSD für Java erweist sich als leistungsstarke Lösung und bietet ein nahtloses Erlebnis zum Ändern der Bildgröße mit dem zusätzlichen Vorteil der Größenänderungstyp-Aufzählung. In diesem Tutorial werden wir uns mit den Feinheiten der Größenänderung von Bildern mit Aspose.PSD für Java befassen und jeden Schritt aufschlüsseln, um ein umfassendes Verständnis zu gewährleisten.
@@ -86,3 +92,9 @@ A2: Ja, Aspose.PSD für Java bietet verschiedene Größenänderungstypen, wie Ne
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.PSD für Java erhalten?
 
  A5: Um eine temporäre Lizenz zu erhalten, besuchen Sie[dieser Link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

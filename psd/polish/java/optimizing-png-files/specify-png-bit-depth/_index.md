@@ -3,10 +3,16 @@ title: Określ głębię bitową PNG w Aspose.PSD dla Java
 linktitle: Określ głębię bitową PNG w Aspose.PSD dla Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak określić głębię bitową PNG za pomocą Aspose.PSD dla Java, w tym szczegółowym samouczku krok po kroku.
-type: docs
 weight: 14
 url: /pl/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określ głębię bitową PNG w Aspose.PSD dla Java
+
 ## Wstęp
 Czy chcesz udoskonalić swoje umiejętności przetwarzania obrazu przy użyciu Aspose.PSD dla Java? Jesteś we właściwym miejscu! Ten samouczek przeprowadzi Cię przez proces określania głębi bitowej PNG podczas konwertowania plików PSD do formatu PNG. Z pomocą Aspose.PSD przekonasz się, że manipulowanie obrazami jest całkiem proste. Niezależnie od tego, czy tworzysz mały projekt osobisty, czy większą aplikację, kontrolowanie jakości obrazu poprzez głębię bitową może znacząco wpłynąć na ostateczny wynik.
 ## Warunki wstępne
@@ -74,3 +80,9 @@ Tak, możesz wypróbować bibliotekę w ramach bezpłatnej wersji próbnej, któ
  Możesz ubiegać się o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Jakiego rodzaju obrazy mogę konwertować?
 Aspose.PSD obsługuje głównie pliki PSD, ale obsługuje konwersję do różnych formatów, takich jak PNG, JPEG i TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

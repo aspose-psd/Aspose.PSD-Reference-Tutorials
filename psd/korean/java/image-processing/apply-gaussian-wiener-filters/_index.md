@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에 가우시안 및 위너 필터 적용
 linktitle: 가우스 및 위너 필터 적용
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java 이미지 처리를 강화하세요. 놀라운 시각적 결과를 위해 가우시안 및 위너 필터를 단계별로 적용하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에 가우시안 및 위너 필터 적용
+
 ## 소개
 
 Java용 Aspose.PSD에서 Gaussian 및 Wiener 필터를 적용하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 이 가이드에서는 이러한 강력한 필터를 사용하여 이미지를 향상시키는 과정을 안내합니다. Aspose.PSD for Java는 이미지 처리를 위한 강력한 기능 세트를 제공하며 Gaussian 및 Wiener 필터를 적용하면 더욱 부드럽고 세련된 이미지를 얻을 수 있습니다.
@@ -99,3 +105,9 @@ A2: 평가판에는 제한 사항이 있으며 유효한 라이센스를 취득�
 ### Q5: Java용 Aspose.PSD에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
 
  A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/psd/java/) 자세한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

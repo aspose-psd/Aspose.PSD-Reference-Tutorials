@@ -3,10 +3,16 @@ title: أضف علامة مائية إلى ملفات PSD باستخدام Aspos
 linktitle: أضف علامة مائية إلى ملفات PSD باستخدام Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة علامة مائية إلى ملفات PSD الخاصة بك بسهولة باستخدام Aspose.PSD لـ Java. قم بحماية صورك باستخدام دليل بسيط خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف علامة مائية إلى ملفات PSD باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 تعد العلامات المائية طريقة دقيقة ولكنها فعالة لحماية صورك وإيصال ملكيتها. سواء كنت مصورًا فوتوغرافيًا يعرض محفظتك أو مصممًا يعرض أحدث أعمالك، فإن إضافة علامة مائية يمكن أن تكون أمرًا بالغ الأهمية للحفاظ على هوية علامتك التجارية. في هذا البرنامج التعليمي، سوف نتعمق في كيفية إضافة علامات مائية بسهولة إلى ملفات PSD الخاصة بك باستخدام Aspose.PSD لـ Java. لذا، تناول كوبًا من القهوة، واستمتع بالراحة، ودعنا نبدأ!
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
  نعم، يمكنك الحفظ بتنسيقات مختلفة مثل JPEG أو BMP. فقط استبدل`PngOptions()` مع الخيارات المطلوبة.
 ### أين يمكنني العثور على المزيد من المساعدة؟
  للاستفسارات التفصيلية، يمكنك زيارة[اطرح المنتديات](https://forum.aspose.com/c/psd/34) أو التحقق منها[الوثائق](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter un calque de réglage des courbes dans PSD à l'aide de Java
 linktitle: Ajouter un calque de réglage des courbes dans PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter un calque d'ajustement des courbes à un fichier PSD à l'aide d'Aspose.PSD pour Java dans ce didacticiel détaillé. Améliorez vos images facilement.
-type: docs
 weight: 11
 url: /fr/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un calque de réglage des courbes dans PSD à l'aide de Java
+
 ## Introduction
 Vous êtes-vous déjà retrouvé coincé en essayant de manipuler des images au format PSD ? Que vous soyez un graphiste en herbe ou un professionnel chevronné, travailler avec des fichiers Photoshop peut parfois donner l'impression de naviguer dans un labyrinthe. Heureusement, il existe un outil qui simplifie ce processus : Aspose.PSD pour Java. Dans ce didacticiel, nous verrons comment ajouter un calque de réglage des courbes à un fichier PSD à l'aide d'Aspose.PSD, rendant ainsi vos tâches d'édition d'images plus faciles et plus efficaces. Avec des conseils étape par étape, vous serez en mesure d'améliorer vos images comme un pro sans vous enliser dans les complexités traditionnellement associées à la manipulation d'images.
 ## Conditions préalables
@@ -94,3 +100,9 @@ Non, vous n'avez pas besoin d'installer Photoshop sur votre ordinateur pour trav
 Absolument! Aspose.PSD permet la manipulation de différents types de calques dans les fichiers PSD.
 ### Où puis-je trouver plus de documentation ?
  Pour une documentation détaillée, visitez le[Aspose.PSD pour la documentation Java](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

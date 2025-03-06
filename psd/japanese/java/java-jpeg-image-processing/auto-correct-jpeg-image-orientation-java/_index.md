@@ -3,10 +3,16 @@ title: Java で JPEG 画像の向きを自動修正する
 linktitle: Java で JPEG 画像の向きを自動修正する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して Java で JPEG 画像の向きを自動的に修正する方法を学びます。画像処理スキルを簡単に向上できます。
-type: docs
 weight: 12
 url: /ja/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で JPEG 画像の向きを自動修正する
+
 ## 導入
 今日のデジタル時代では、プログラムによる画像の操作と最適化は、さまざまな分野の開発者にとって重要なタスクになっています。Aspose.PSD for Java は、PSD、JPEG、およびその他の画像形式を効率的に処理するための強力なツールを開発者に提供します。このチュートリアルでは、Aspose.PSD for Java を使用して JPEG 画像の向きを自動的に修正するという特定のタスクについて詳しく説明します。写真編集アプリを構築する場合でも、コンテンツ管理システムで画像リソースを管理する場合でも、画像処理ワークフローを自動化する場合でも、このガイドを読めば、この機能を Java アプリケーションにシームレスに統合するために必要な知識が得られます。
 ## 前提条件
@@ -71,3 +77,9 @@ Aspose.PSD for Java は、Java 開発者が PSD、JPEG、およびその他の�
 包括的なドキュメントが利用可能[ここ](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD for Java を無料で試すことはできますか?
 はい、無料トライアルをご利用いただけます[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

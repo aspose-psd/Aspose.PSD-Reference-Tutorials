@@ -3,10 +3,16 @@ title: 在 Java 中從 JFIF 中擷取縮圖
 linktitle: 在 Java 中從 JFIF 中擷取縮圖
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 從 JFIF 影像中擷取縮圖。包含逐步指南和程式碼範例的綜合教學。
-type: docs
 weight: 14
 url: /zh-hant/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中從 JFIF 中擷取縮圖
+
 ## 介紹
 在本教程中，我們將探討如何使用 Aspose.PSD for Java 從 JFIF 影像中擷取縮圖。 Aspose.PSD 是一個功能強大的 Java 函式庫，使開發人員能夠以程式設計方式操作和使用 PSD、PSB、BMP、JPEG、PNG 和其他影像格式。提取縮圖是圖像處理中的常見任務，尤其是在處理大量圖像或多媒體應用程式時。
 ## 先決條件
@@ -78,3 +84,9 @@ Aspose.PSD for Java 是一個 Java 函式庫，可讓開發人員以程式設計
 你可以找到文檔[這裡](https://reference.aspose.com/psd/java/).
 ### 如何獲得 Aspose.PSD for Java 支援？
 您可以從 Aspose.PSD 社群論壇獲得支持[這裡](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

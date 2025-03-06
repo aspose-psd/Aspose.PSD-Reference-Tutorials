@@ -3,10 +3,16 @@ title: Java에서 그래픽을 사용하여 그리기
 linktitle: Java에서 그래픽을 사용하여 그리기
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java에서 그래픽을 그리는 방법을 단계별로 알아보세요. 쉽게 모양을 만들고, 색상을 적용하고, 이미지를 내보낼 수 있습니다.
-type: docs
 weight: 18
 url: /ko/java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 그래픽을 사용하여 그리기
+
 ## 소개
 Java 프로그래밍에서 프로그래밍 방식으로 이미지를 그리고 조작하는 것은 개발자에게 종종 필요한 강력한 기능입니다. 이 튜토리얼에서는 개발자가 PSD 파일을 생성 및 편집할 수 있을 뿐만 아니라 모양 그리기, 브러시 적용, 이미지 내보내기와 같은 다양한 그래픽 작업을 수행할 수 있는 강력한 라이브러리인 Aspose.PSD for Java를 사용하는 데 중점을 둡니다. 이 가이드는 Aspose.PSD를 사용하여 Java에서 그래픽을 사용하여 그리는 과정을 안내하고 명확성과 이해를 보장하기 위해 각 단계를 세분화합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ image.save(dataDir + "DrawingUsingGraphics_output.bmp", new BmpOptions());
 예, Aspose.PSD는 BMP, PNG, JPEG 및 TIFF와 같은 다양한 형식으로 내보내기를 지원합니다.
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
 Aspose.PSD 커뮤니티에 연락하세요.[지원 포럼](https://forum.aspose.com/c/psd/34) 아니면[임시면허](https://purchase.aspose.com/temporary-license/) 우선 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

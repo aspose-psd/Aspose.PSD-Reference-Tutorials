@@ -3,10 +3,16 @@ title: Set PNG Transparency in Aspose.PSD for Java
 linktitle: Set PNG Transparency in Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to set PNG transparency in Aspose.PSD for Java with an easy step-by-step tutorial. Perfect for developers and graphic designers.
-type: docs
 weight: 15
 url: /java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set PNG Transparency in Aspose.PSD for Java
+
 ## Introduction
 When it comes to manipulating and managing graphics, especially in professional environments, choosing the right tools is crucial. One tool that stands out in the realm of graphics manipulation is Aspose.PSD for Java. This library allows developers to work seamlessly with Photoshop (PSD) files right in their Java applications. It’s like having the powerful features of Photoshop at your fingertips, minus the steep learning curve! Today, we're diving into a specific feature: setting PNG transparency using Aspose.PSD for Java. Whether you’re a seasoned developer or just starting, this guide will walk you through the steps.
 ## Prerequisites
@@ -67,3 +73,10 @@ Absolutely! You can download a free trial version of Aspose.PSD [here](https://r
 You can visit the [Aspose Support Forum](https://forum.aspose.com/c/psd/34) for assistance and community support.
 ### Can I set multiple transparent colors?
 Currently, the library allows you to set one transparent color per PNG image. However, you can manipulate various layers in the PSD file before exporting if needed.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

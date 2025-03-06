@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 Stream을 사용하여 이미지 생성
 linktitle: Stream을 사용하여 이미지 생성
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 스트림을 사용하여 이미지를 생성하는 방법을 알아보세요. 효율적인 이미지 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 Stream을 사용하여 이미지 생성
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.PSD는 이미지 조작을 위한 강력한 도구로 돋보입니다. 특히 유용한 기능 중 하나는 스트림을 사용하여 이미지를 생성하는 기능으로, 이미지 데이터 처리에 유연성과 효율성을 제공합니다. 이 단계별 가이드는 원활한 경험을 보장하기 위해 각 요소를 세분화하여 프로세스를 안내합니다. 본격적으로 시작하기 전에 전제 조건을 살펴보겠습니다.
@@ -111,3 +117,9 @@ A2: 치수는 사용자 정의할 수 있습니다. 그에 따라 Image.Create �
 ### Q5: 임시 라이센스를 사용할 수 있습니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

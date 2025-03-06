@@ -3,10 +3,16 @@ title: Använd Custom Raw Data Loader i PSD-filer - Java
 linktitle: Använd Custom Raw Data Loader i PSD-filer - Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du använder en anpassad rådataladdare i PSD-filer med Java! Den här steg-för-steg-guiden täcker allt från installation till resursrensning.
-type: docs
 weight: 29
 url: /sv/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Använd Custom Raw Data Loader i PSD-filer - Java
+
 ## Introduktion
 Att arbeta med PSD-filer i Java kan verka överväldigande, särskilt när det gäller att hantera rådata. Var inte rädd! Genom att använda Aspose.PSD för Java kan du enkelt manipulera och extrahera rå pixeldata från PSD-filer med hjälp av anpassade laddare. Den här guiden hjälper dig steg för steg genom processen att implementera en anpassad rådataladdare. Vi täcker alla nödvändiga förutsättningar, importerar de nödvändiga paketen och delar upp koden i hanterbara steg som är enkla att följa.
 ## Förutsättningar
@@ -90,3 +96,9 @@ Aspose.PSD för Java är ett bibliotek som tillåter utvecklare att manipulera P
  För stöd och samhällshjälp kan du besöka[Aspose forum](https://forum.aspose.com/c/psd/34).
 ### Hur kan jag få en tillfällig licens för Aspose.PSD?  
 Du kan skaffa en tillfällig licens för att utvärdera alla funktioner genom att besöka[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

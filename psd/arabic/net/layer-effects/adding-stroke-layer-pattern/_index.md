@@ -3,10 +3,16 @@ title: إضافة طبقة السكتة الدماغية مع النمط في As
 linktitle: إضافة طبقة السكتة الدماغية مع النمط
 second_title: Aspose.PSD.NET API
 description: قم بتحسين ملفات PSD الخاصة بك باستخدام طبقات وأنماط الحدود باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 13
 url: /ar/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة طبقة السكتة الدماغية مع النمط في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 يمكن أن يؤدي تحسين ملفات PSD (مستند Photoshop) الخاصة بك باستخدام طبقات وأنماط الحدود إلى إضافة لمسة ديناميكية إلى تصميماتك. في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من Aspose.PSD لـ .NET لإضافة طبقة حدود بنمط إلى ملفات PSD الخاصة بك بسهولة. Aspose.PSD هي مكتبة .NET قوية توفر دعمًا شاملاً لمعالجة ملفات PSD، مما يجعلها أداة لا تقدر بثمن للمطورين والمصممين على حدٍ سواء.
@@ -144,3 +150,9 @@ A1: نعم، Aspose.PSD لـ .NET متوافق مع إصدارات مختلفة 
 ### س5: أين يمكنني طلب المساعدة أو المشاركة في المناقشات المجتمعية؟
 
  ج5: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للدعم والتفاعلات المجتمعية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

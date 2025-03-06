@@ -3,10 +3,16 @@ title: Ajouter une couche de texte lors de l'exécution dans les fichiers PSD à
 linktitle: Ajouter une couche de texte lors de l'exécution dans les fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter dynamiquement des calques de texte aux fichiers PSD à l'aide de Java avec Aspose.PSD. Suivez ce didacticiel étape par étape pour découvrir des possibilités d'automatisation passionnantes.
-type: docs
 weight: 17
 url: /fr/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une couche de texte lors de l'exécution dans les fichiers PSD à l'aide de Java
+
 ## Introduction
 Si vous avez déjà travaillé avec Photoshop, vous savez à quel point il est puissant pour éditer des images. Mais et si je vous disais que vous pouvez automatiser certaines de ces tâches en utilisant Java ? Imaginez ajouter dynamiquement des calques de texte à vos fichiers PSD par programmation. Plutôt cool, non ? Dans ce didacticiel, nous expliquons en profondeur comment ajouter un calque de texte à un fichier PSD à la volée à l'aide de la bibliothèque Aspose.PSD pour Java. Alors retroussez vos manches et allons-y !
 ## Conditions préalables
@@ -83,3 +89,9 @@ Aspose.PSD peut gérer des fichiers PSD en couches complexes. Assurez-vous simpl
 Oui, tant que vous disposez d’un backend Java, vous pouvez utiliser cette approche dans les applications Web.
 ### Où puis-je obtenir de l'aide si je rencontre des problèmes ?
  Découvrez le[Forums d'assistance Aspose](https://forum.aspose.com/c/psd/34) où la communauté et l'équipe Aspose peuvent vous aider.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

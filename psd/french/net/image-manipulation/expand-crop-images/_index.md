@@ -3,10 +3,16 @@ title: Agrandissement et recadrage d'images dans Aspose.PSD pour .NET
 linktitle: Agrandir et recadrer des images
 second_title: API Aspose.PSD.NET
 description: Découvrez comment agrandir et recadrer dynamiquement des images à l'aide d'Aspose.PSD pour .NET. Suivez notre guide étape par étape pour une manipulation transparente des images.
-type: docs
 weight: 13
 url: /fr/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agrandissement et recadrage d'images dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Aspose.PSD pour .NET est une bibliothèque d'imagerie complète qui permet aux développeurs de travailler avec différents formats d'image dans leurs applications .NET. L'une de ses fonctionnalités les plus remarquables est la capacité de manipuler facilement les images. Dans ce didacticiel, nous nous concentrerons sur l'agrandissement et le recadrage des images, en vous fournissant un guide pratique pour réaliser ces tâches à l'aide d'Aspose.PSD.
@@ -98,3 +104,9 @@ R1 : Oui, Aspose.PSD prend en charge un large éventail de formats d'image, not
 ### Q5 : Où puis-je acheter Aspose.PSD pour .NET ?
 
  A5 : Vous pouvez acheter la bibliothèque au[Page d'achat Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

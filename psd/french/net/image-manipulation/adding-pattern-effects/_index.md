@@ -3,10 +3,16 @@ title: Ajout d'effets de motif aux images dans Aspose.PSD pour .NET
 linktitle: Ajout d'effets de motif aux images
 second_title: API Aspose.PSD.NET
 description: Améliorez vos images avec des effets de motifs captivants à l'aide d'Aspose.PSD pour .NET. Suivez notre guide étape par étape pour ajouter des modèles personnalisés de manière transparente.
-type: docs
 weight: 12
 url: /fr/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout d'effets de motif aux images dans Aspose.PSD pour .NET
+
 ## Introduction
 
 L'amélioration des images avec des effets de motifs peut apporter une nouvelle dimension à vos créations. Aspose.PSD pour .NET fournit une solution puissante pour ajouter de manière transparente des superpositions de motifs aux images, vous permettant ainsi de créer des graphiques visuellement époustouflants. Ce didacticiel étape par étape vous guidera tout au long du processus d'ajout d'effets de motif à l'aide d'Aspose.PSD pour .NET.
@@ -108,3 +114,9 @@ A4 : Les dimensions du motif sont flexibles, vous permettant de créer des motif
 ### Q5 : Puis-je utiliser Aspose.PSD pour .NET dans des projets commerciaux ?
 
 A5 : Oui, vous pouvez utiliser Aspose.PSD pour .NET dans des projets commerciaux. Pour plus de détails sur les licences, visitez[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

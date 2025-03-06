@@ -3,10 +3,16 @@ title: Расширенное управление изображениями
 linktitle: Расширенное управление изображениями
 second_title: Aspose.PSD Java API
 description: Изучите расширенные руководства по манипулированию изображениями с помощью Aspose.PSD для Java. Узнайте об эффективной замене шрифтов, принудительном кэшировании шрифтов, реализации бикубического ресэмплера и многом другом.
-type: docs
 weight: 24
 url: /ru/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенное управление изображениями
+
 
 ## Введение
 
@@ -80,3 +86,9 @@ url: /ru/java/advanced-image-manipulation/
 Исследуйте поворот изображений в Java без особых усилий с помощью Aspose.PSD. Легко вращайте, переворачивайте и сохраняйте PSD-файлы.
 ### [Поверните изображение на определенный угол с помощью Aspose.PSD для Java](./rotate-image-specific-angle/)
 Изучите поворот изображений в Java с помощью Aspose.PSD для Java. Легко поворачивайте изображения под определенными углами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

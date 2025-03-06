@@ -3,10 +3,16 @@ title: دعم موارد لون الخلفية في Aspose.PSD لـ .NET
 linktitle: دعم الموارد لون الخلفية
 second_title: Aspose.PSD.NET API
 description: يمكنك إتقان Aspose.PSD لـ .NET من خلال دليلنا التفصيلي خطوة بخطوة. التعامل مع صور PSD دون عناء. قم بتنزيل النسخة التجريبية المجانية الآن!
-type: docs
 weight: 10
 url: /ar/net/psd-file-resources/supporting-background-color-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم موارد لون الخلفية في Aspose.PSD لـ .NET
+
 ## مقدمة
 أطلق العنان للإمكانات الكاملة لـ Aspose.PSD لـ .NET بينما نتعمق في برنامج تعليمي شامل. سيزودك هذا الدليل بالمعرفة اللازمة للاستفادة من إمكانيات Aspose.PSD بشكل فعال. سواء كنت مطورًا متمرسًا أو مبتدئًا، تابع معنا حيث نقوم بتقسيم كل جانب إلى خطوات يمكن التحكم فيها، مما يجعل رحلتك مع Aspose.PSD سلسة.
 ## المتطلبات الأساسية
@@ -89,3 +95,9 @@ Console.WriteLine("SupportOfBackgroundColorResource executed successfully");
 ### س5: كيف يتم الحصول على ترخيص مؤقت؟
 
  ج5: اتبع الخطوات الموجودة على[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

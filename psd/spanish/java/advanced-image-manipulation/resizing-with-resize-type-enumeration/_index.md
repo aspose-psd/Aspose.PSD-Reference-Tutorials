@@ -3,10 +3,16 @@ title: Cambiar el tamaño con la enumeración de tipos de cambio de tamaño en A
 linktitle: Cambiar el tamaño con la enumeración del tipo de cambio de tamaño
 second_title: API de Java Aspose.PSD
 description: Master cambio de tamaño de imagen en Java con Aspose.PSD. Guía paso a paso sobre cómo cambiar el tamaño de la enumeración de tipos.
-type: docs
 weight: 18
 url: /es/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar el tamaño con la enumeración de tipos de cambio de tamaño en Aspose.PSD para Java
+
 ## Introducción
 
 En el panorama en constante evolución del desarrollo de Java, el procesamiento eficiente de imágenes es un aspecto crucial con el que los desarrolladores suelen lidiar. Aspose.PSD para Java surge como una solución poderosa que brinda una experiencia perfecta para cambiar el tamaño de las imágenes con la ventaja adicional de la enumeración de tipos de cambio de tamaño. En este tutorial, profundizaremos en las complejidades de cambiar el tamaño de imágenes usando Aspose.PSD para Java, desglosando cada paso para garantizar una comprensión integral.
@@ -86,3 +92,9 @@ R2: Sí, Aspose.PSD para Java ofrece varios tipos de cambio de tamaño, como Vec
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para Java?
 
  R5: Para obtener una licencia temporal, visite[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 PNG 파일 해상도 설정
 linktitle: Java용 Aspose.PSD를 사용하여 PNG 파일 해상도 설정
 second_title: Aspose.PSD 자바 API
 description: 이 상세한 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PNG 파일 해상도를 설정하는 방법을 알아보세요. 즉시 이미지를 최적화하세요.
-type: docs
 weight: 13
 url: /ko/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 PNG 파일 해상도 설정
+
 ## 소개
 Java를 사용하여 PNG 파일 해상도를 최적화하려고 하시나요? 대답이 '예'라면 올바른 위치에 도착한 것입니다! 오늘은 Photoshop PSD 파일을 조작하고 PNG와 같은 다른 형식으로 변환하기 위한 강력한 라이브러리인 Aspose.PSD for Java의 세계를 살펴보겠습니다. 이미지 처리에 손을 대고 있는 개발자이거나 프로그래밍 방식으로 이미지 품질을 향상하려는 사람이라면 이 가이드가 귀하에게 맞춰져 있습니다. 
 이 포괄적인 튜토리얼에서는 PNG 파일 해상도를 효과적으로 설정하기 위한 전제 조건부터 자세한 단계별 지침까지 모든 것을 다룹니다. 그러니 가장 좋아하는 간식을 들고 시작해 보세요!
@@ -71,3 +77,9 @@ PSD 파일을 PNG, JPEG, BMP, TIFF와 같은 형식으로 변환할 수 있습�
 Aspose.PSD는 많은 일반적인 문제를 처리하지만 파일이 심각하게 손상된 경우 로드되지 않을 수 있습니다. 항상 백업을 유지하십시오.
 ### Aspose.PSD는 고성능 애플리케이션에 적합합니까?
 예, 대용량 파일을 효율적으로 처리하도록 설계되었으며 성능 집약적인 이미지 처리 작업에 적합합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

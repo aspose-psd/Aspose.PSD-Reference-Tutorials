@@ -3,10 +3,16 @@ title: Aspose.PSD Java を使用して PSD ファイル内のシートの色を�
 linktitle: Aspose.PSD Java を使用して PSD ファイル内のシートの色を強調表示する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイル内のシートの色を強調表示する方法を学びます。ステップバイステップのガイドに従って、Java での画像操作スキルを向上させましょう。
-type: docs
 weight: 19
 url: /ja/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java を使用して PSD ファイル内のシートの色を強調表示する
+
 ## 導入
 
 Java を使用して画像操作に取り組み、デジタル作品を強化したいとお考えですか? 熟練した開発者でも、初心者でも、PSD ファイルの操作によって可能性の世界が広がります。PSD ファイルは、レイヤー化された画像編集の業界標準であり、Aspose.PSD for Java のパワーにより、Java アプリケーション内でこれらのファイルを簡単に操作できます。今日は、PSD ファイルでシートの色を強調表示して、デザインを可能な限り鮮やかに際立たせる方法について説明します。
@@ -142,3 +148,9 @@ Aspose.PSD for Java は、開発者が PSD ファイルをプログラムで操�
 
 ### PSD ファイルで複数のレイヤーを一度にハイライトできますか?
 はい、PSD ファイル内のレイヤーをループし、各レイヤーに希望するシート カラーのハイライトを個別に適用できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

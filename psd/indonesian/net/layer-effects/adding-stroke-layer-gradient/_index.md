@@ -3,10 +3,16 @@ title: Menambahkan Layer Stroke dengan Gradient di Aspose.PSD untuk .NET
 linktitle: Menambahkan Layer Stroke dengan Gradien
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menambahkan lapisan guratan gradien di Aspose.PSD untuk .NET. Tingkatkan keterampilan manipulasi gambar Anda dengan tutorial komprehensif ini.
-type: docs
 weight: 12
 url: /id/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Layer Stroke dengan Gradient di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Jika Anda ingin menyempurnakan aplikasi .NET Anda dengan efek grafis yang menakjubkan, Aspose.PSD untuk .NET adalah solusi tepat Anda. Dalam tutorial ini, kita akan mempelajari proses menambahkan lapisan guratan dengan gradien menggunakan Aspose.PSD untuk .NET. Panduan langkah demi langkah ini akan memberdayakan Anda untuk meningkatkan daya tarik visual gambar Anda dengan mudah.
@@ -119,3 +125,9 @@ A1: Ya, Aspose.PSD untuk .NET kompatibel dengan berbagai kerangka .NET.
 ### Q5: Bagaimana cara membeli lisensi Aspose.PSD untuk .NET?
 
  A5: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

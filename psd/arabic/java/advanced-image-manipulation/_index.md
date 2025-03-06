@@ -3,10 +3,16 @@ title: معالجة الصور المتقدمة
 linktitle: معالجة الصور المتقدمة
 second_title: Aspose.PSD جافا API
 description: استكشف البرامج التعليمية المتقدمة لمعالجة الصور باستخدام Aspose.PSD لـ Java. تعرّف على الاستبدال الفعال للخطوط، وفرض التخزين المؤقت للخطوط، وتنفيذ أداة إعادة التشكيل ثنائية التكعيب، والمزيد.
-type: docs
 weight: 24
 url: /ar/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الصور المتقدمة
+
 
 ## مقدمة
 
@@ -80,3 +86,9 @@ url: /ar/java/advanced-image-manipulation/
 استكشف تدوير الصور في Java بسهولة باستخدام Aspose.PSD. قم بتدوير ملفات PSD وقلبها وحفظها بسهولة.
 ### [قم بتدوير الصورة بزاوية معينة باستخدام Aspose.PSD لـ Java](./rotate-image-specific-angle/)
 استكشف تدوير الصور في Java باستخدام Aspose.PSD لـ Java. قم بتدوير الصور بسهولة على زوايا محددة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

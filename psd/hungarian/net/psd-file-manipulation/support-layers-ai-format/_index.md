@@ -3,10 +3,16 @@ title: Rétegek támogatása AI formátumban az Aspose.PSD segítségével .NET-
 linktitle: Rétegek támogatása AI formátumban az Aspose.PSD segítségével .NET-hez
 second_title: Aspose.PSD .NET API
 description: Tanulja meg könnyedén kezelni az AI formátumú rétegeket az Aspose.PSD for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes integráció és manipuláció érdekében.
-type: docs
 weight: 10
 url: /hu/net/psd-file-manipulation/support-layers-ai-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rétegek támogatása AI formátumban az Aspose.PSD segítségével .NET-hez
+
 Üdvözöljük lépésről lépésre szóló útmutatónkban az Aspose.PSD for .NET használatáról az AI formátumú fájlok támogató rétegeinek kezeléséhez. Az Aspose.PSD leegyszerűsíti az összetett feladatokat, így a fejlesztők könnyebben dolgozhatnak az AI-fájlokkal .NET-alkalmazásaikban. Ebben az oktatóanyagban bemutatjuk az előfeltételeket, a névterek importálását, és az egyes példákat több lépésre bontjuk a zökkenőmentes tanulási élmény biztosítása érdekében.
 ## Bevezetés
 ### Mi az Aspose.PSD?
@@ -85,3 +91,9 @@ Gratulálok! Sikeresen megtanulta, hogyan kell dolgozni a támogató rétegekkel
 ### 5. kérdés: Milyen képformátumokat támogat az Aspose.PSD?
 
 5. válasz: Az Aspose.PSD különféle formátumokat támogat, beleértve a PSD-t, PNG-t, JPEG-et stb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

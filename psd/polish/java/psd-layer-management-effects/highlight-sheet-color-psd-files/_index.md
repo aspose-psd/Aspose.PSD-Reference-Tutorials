@@ -3,10 +3,16 @@ title: Podświetl kolor arkusza w plikach PSD za pomocą Aspose.PSD Java
 linktitle: Podświetl kolor arkusza w plikach PSD za pomocą Aspose.PSD Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak wyróżnić kolory arkuszy w plikach PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności manipulowania obrazami w Javie.
-type: docs
 weight: 19
 url: /pl/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podświetl kolor arkusza w plikach PSD za pomocą Aspose.PSD Java
+
 ## Wstęp
 
 Czy chcesz zagłębić się w manipulację obrazami i ulepszyć swoje cyfrowe dzieła za pomocą języka Java? Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, praca z plikami PSD może otworzyć przed tobą świat możliwości. Pliki PSD są standardem branżowym w zakresie warstwowej edycji obrazów, a dzięki mocy Aspose.PSD dla Java możesz bez wysiłku manipulować tymi plikami w aplikacjach Java. Dzisiaj omówimy, jak wyróżnić kolory arkuszy w plikach PSD, aby Twoje projekty wyróżniały się w możliwie najbardziej żywy sposób.
@@ -142,3 +148,9 @@ Po zapisaniu zmian w pliku nie można ich cofnąć. Możesz jednak zachować kop
 
 ### Czy mogę zaznaczyć wiele warstw jednocześnie w pliku PSD?
 Tak, możesz przeglądać warstwy w pliku PSD i zastosować żądane podświetlenie kolorem arkusza indywidualnie do każdej warstwy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

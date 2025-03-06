@@ -3,10 +3,16 @@ title: Construction de rectangles dans Aspose.PSD pour .NET
 linktitle: Construire des rectangles
 second_title: API Aspose.PSD.NET
 description: Explorez l'art de dessiner des rectangles dans .NET avec Aspose.PSD. Suivez notre guide étape par étape pour une intégration transparente. Élevez votre jeu de manipulation d’images sans effort.
-type: docs
 weight: 15
 url: /fr/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Construction de rectangles dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le domaine dynamique du développement .NET, Aspose.PSD se distingue comme un outil puissant pour gérer la manipulation d'images. Ce didacticiel se concentre sur une tâche fondamentale : la construction de rectangles à l'aide d'Aspose.PSD pour .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce guide étape par étape vous guidera tout au long du processus, en vous assurant de bien comprendre chaque concept.
@@ -94,3 +100,9 @@ A4 : L'utilisation de 32 Bpp permet une représentation des couleurs plus riche,
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.PSD ?
 
  A5 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

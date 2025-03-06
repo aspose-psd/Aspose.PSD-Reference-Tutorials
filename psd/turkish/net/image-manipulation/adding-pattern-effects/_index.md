@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntülere Desen Efektleri Ekleme
 linktitle: Görüntülere Desen Efektleri Ekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'i kullanarak görüntülerinizi büyüleyici desen efektleriyle geliştirin. Özel desenleri sorunsuz bir şekilde eklemek için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntülere Desen Efektleri Ekleme
+
 ## giriiş
 
 Görselleri desen efektleriyle zenginleştirmek tasarımlarınıza yeni bir boyut kazandırabilir. Aspose.PSD for .NET, görüntülere sorunsuz bir şekilde desen katmanları eklemek için güçlü bir çözüm sunarak, görsel olarak etkileyici grafikler oluşturmanıza olanak tanır. Bu adım adım eğitim, Aspose.PSD for .NET kullanarak desen efektleri ekleme sürecinde size rehberlik edecektir.
@@ -108,3 +114,9 @@ Cevap4: Desen boyutları esnektir ve çeşitli boyutlarda desenler oluşturmanı
 ### S5: Aspose.PSD for .NET'i ticari projelerde kullanabilir miyim?
 
 Cevap5: Evet, Aspose.PSD for .NET'i ticari projelerde kullanabilirsiniz. Lisans ayrıntıları için şu adresi ziyaret edin:[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

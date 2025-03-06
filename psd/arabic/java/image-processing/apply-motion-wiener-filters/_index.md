@@ -3,10 +3,16 @@ title: قم بتطبيق مرشحات Motion Wiener باستخدام Aspose.PSD 
 linktitle: قم بتطبيق مرشحات Motion Wiener
 second_title: Aspose.PSD جافا API
 description: معالجة الصور الرئيسية في Java باستخدام Aspose.PSD. قم بتطبيق مرشحات Motion Wiener بسهولة باستخدام دليلنا خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/java/image-processing/apply-motion-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق مرشحات Motion Wiener باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم معالجة الصور الديناميكي، يظهر Aspose.PSD for Java كأداة قوية، تمكن المطورين من تطبيق مرشحات Motion Wiener دون عناء. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يجعل معالجة الصور مهمة يمكن الوصول إليها لمطوري Java.
@@ -109,3 +115,9 @@ image.save(destName, new GifOptions());
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
 ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

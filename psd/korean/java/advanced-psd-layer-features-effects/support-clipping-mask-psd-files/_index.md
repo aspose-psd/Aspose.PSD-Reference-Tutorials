@@ -3,10 +3,16 @@ title: Aspose.PSD Java를 사용하여 PSD 파일에서 클리핑 마스크 지�
 linktitle: Aspose.PSD Java를 사용하여 PSD 파일에서 클리핑 마스크 지원
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에서 클리핑 마스크를 지원하는 방법을 알아보세요. PSD 이미지를 쉽게 조작하려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 16
 url: /ko/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD Java를 사용하여 PSD 파일에서 클리핑 마스크 지원
+
 ## 소개
 오늘날 디지털 아트와 디자인 시대에 Adobe Photoshop의 PSD 파일은 창의성의 초석입니다. 이러한 파일을 통해 디자이너는 레이어, 마스크 및 다양한 효과를 사용하여 비전을 생생하게 표현할 수 있습니다. 하지만 이러한 파일을 프로그래밍 방식으로 조작해야 하면 어떻게 될까요? 이것이 바로 Java용 Aspose.PSD가 작동하는 곳입니다! PSD 파일을 쉽게 관리하고 조작할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에서 클리핑 마스크를 지원하는 방법을 자세히 살펴보겠습니다. 
 ## 전제조건
@@ -73,3 +79,9 @@ Aspose.PSD를 툴킷에 통합하면 시간을 절약할 수 있을 뿐만 아�
  예! Aspose.PSD의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.PSD 문제에 대한 지원을 받으려면 어떻게 해야 합니까?
  질문이나 문제가 있는 경우 Aspose 포럼을 통해 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

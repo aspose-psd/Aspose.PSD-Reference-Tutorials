@@ -3,10 +3,16 @@ title: Περικοπή εικόνας κατά Rectangle στο Aspose.PSD γι
 linktitle: Περικοπή εικόνας κατά ορθογώνιο
 second_title: Aspose.PSD Java API
 description: Εξερευνήστε τις δυνατότητες απρόσκοπτης περικοπής εικόνας στην Java με το Aspose.PSD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να περικόψετε εικόνες χωρίς κόπο χρησιμοποιώντας το Aspose.PSD για Java.
-type: docs
 weight: 15
 url: /el/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περικοπή εικόνας κατά Rectangle στο Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Στον κόσμο της ανάπτυξης Java, ο χειρισμός εικόνων είναι μια κοινή εργασία και το Aspose.PSD για Java παρέχει μια ισχυρή λύση για την επεξεργασία εικόνας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία περικοπής μιας εικόνας από ένα ορθογώνιο χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθήστε τα παρακάτω βήματα για να το πετύχετε εύκολα.
@@ -105,3 +111,9 @@ A1: Ναι, το Aspose.PSD για Java μπορεί να ενσωματωθεί
 ### Ε5: Ποιες είναι οι υποστηριζόμενες μορφές εικόνας για περικοπή στο Aspose.PSD για Java;
 
 A5: Το Aspose.PSD για Java υποστηρίζει διάφορες μορφές εικόνας, όπως PSD, PNG, JPEG και άλλα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

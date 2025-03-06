@@ -3,10 +3,16 @@ title: قراءة جميع قائمة علامات EXIF في جافا
 linktitle: قراءة جميع قائمة علامات EXIF في جافا
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية استخراج بيانات تعريف EXIF من ملفات PSD باستخدام Aspose.PSD لـ Java من خلال أمثلة البرنامج التعليمي والتعليمات البرمجية الشاملة.
-type: docs
 weight: 16
 url: /ar/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة جميع قائمة علامات EXIF في جافا
+
 ### مقدمة
 في مجال تطوير Java، تعد إدارة ملفات PSD ومعالجتها مطلبًا حاسمًا للعديد من التطبيقات. يوفر Aspose.PSD for Java حلاً قويًا للتعامل مع ملفات Photoshop Document (PSD) برمجيًا، مما يوفر للمطورين مجموعة من الأدوات لقراءة ملفات PSD وكتابتها وتعديلها بسلاسة. سيرشدك هذا البرنامج التعليمي خلال عملية قراءة كافة علامات EXIF من ملف PSD باستخدام Aspose.PSD لـ Java. في النهاية، سيكون لديك فهم واضح لكيفية استخراج واستخدام البيانات التعريفية EXIF المضمنة في صور PSD.
 ### المتطلبات الأساسية
@@ -60,3 +66,9 @@ Aspose.PSD for Java هي مكتبة تسمح لمطوري Java بالعمل مع
 نعم، فهو يدعم القراءة من ملفات PSD والكتابة إليها.
 ### أين يمكنني الحصول على الدعم لـ Aspose.PSD لـ Java؟
  للحصول على الدعم، قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

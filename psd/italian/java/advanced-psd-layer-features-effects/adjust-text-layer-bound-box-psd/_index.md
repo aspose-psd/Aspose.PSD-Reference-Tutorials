@@ -3,10 +3,16 @@ title: Regola la casella rilegata del livello di testo in PSD utilizzando Java
 linktitle: Regola la casella rilegata del livello di testo in PSD utilizzando Java
 second_title: API Java Aspose.PSD
 description: Impara a regolare i limiti del livello di testo nei file PSD utilizzando Java con Aspose.PSD. Guida semplice con istruzioni passo passo.
-type: docs
 weight: 25
 url: /it/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Regola la casella rilegata del livello di testo in PSD utilizzando Java
+
 ## Introduzione
 Quando si tratta di manipolare i documenti Photoshop a livello di codice, la libreria Aspose.PSD per Java brilla. Se stai cercando di regolare i confini di un livello di testo in un file PSD, sei arrivato nel posto giusto! Questo tutorial ti guiderà passo passo attraverso il processo di regolazione del riquadro rilegato del livello di testo utilizzando Java.
 Con esempi facili da seguire e un tocco di tono colloquiale per mantenere le cose coinvolgenti, scoprirai che manipolare i file PSD non è così scoraggiante come potrebbe sembrare. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato con Java, qui troverai informazioni preziose. Immergiamoci nell'entusiasmante mondo della manipolazione PSD.
@@ -80,3 +86,9 @@ Sì, Aspose.PSD è disponibile per varie piattaforme di programmazione, inclusi 
 Puoi trovare supporto e discussioni della community sul loro[Aspose Forum](https://forum.aspose.com/c/psd/34).
 ### È disponibile una versione di prova per Aspose.PSD?
  SÌ! È possibile scaricare una versione di prova gratuita da[Sito web Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

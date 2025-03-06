@@ -3,10 +3,16 @@ title: Színegyensúly-beállítás alkalmazása az Aspose.PSD-ben .NET-hez
 linktitle: Színegyensúly-beállítás alkalmazása
 second_title: Aspose.PSD .NET API
 description: Fokozza a PSD-képszíneket könnyedén az Aspose.PSD-vel a .NET színegyensúly-beállítási funkciójához. Kövesse lépésről lépésre útmutatónkat a lenyűgöző eredményekért.
-type: docs
 weight: 14
 url: /hu/net/image-adjustment/color-balance-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Színegyensúly-beállítás alkalmazása az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban a színegyensúly-beállítás alkalmazásáról az Aspose.PSD for .NET-ben! Az Aspose.PSD egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára a PSD-fájlok hatékony kezelését. Ebben az oktatóanyagban a Color Balance Adjustment funkcióra összpontosítunk, amely lehetővé teszi a PSD-képek színegyensúlyának egyszerű javítását.
@@ -97,3 +103,10 @@ A2: Abszolút! Az Aspose.PSD hatékony kötegelt feldolgozási képességeket bi
 ### 5. kérdés: Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.PSD for .NET számára?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) közösségi támogatásra és beszélgetésekre.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

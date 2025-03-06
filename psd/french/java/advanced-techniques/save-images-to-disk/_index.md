@@ -3,10 +3,16 @@ title: Enregistrer des images sur le disque avec Aspose.PSD pour Java
 linktitle: Enregistrer les images sur le disque
 second_title: API Java Aspose.PSD
 description: Enregistrez sans effort les images sur le disque à l'aide d'Aspose.PSD pour Java. Une puissante bibliothèque Java pour la manipulation de fichiers PSD.
-type: docs
 weight: 15
 url: /fr/java/advanced-techniques/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer des images sur le disque avec Aspose.PSD pour Java
+
 ## Introduction
 
 Aspose.PSD pour Java permet aux développeurs de gérer les fichiers PSD sans effort. L'enregistrement des images sur le disque est un aspect fondamental du traitement des images, et Aspose.PSD rationalise cette opération. Dans ce guide, nous aborderons le processus de sauvegarde des images avec Aspose.PSD, en nous assurant que vous avez une solide compréhension des étapes nécessaires.
@@ -91,3 +97,9 @@ A1 : Oui, Aspose.PSD pour Java prend en charge divers formats d'image, notamment
 ### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.PSD pour Java ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

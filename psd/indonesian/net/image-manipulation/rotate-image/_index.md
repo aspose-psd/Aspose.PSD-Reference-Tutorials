@@ -3,10 +3,16 @@ title: Memutar Gambar di Aspose.PSD untuk .NET
 linktitle: Memutar Gambar
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara memutar gambar dengan mudah di .NET dengan Aspose.PSD. Ikuti tutorial langkah demi langkah kami.
-type: docs
 weight: 15
 url: /id/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memutar Gambar di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Jika Anda terjun ke dunia manipulasi gambar menggunakan .NET, Aspose.PSD adalah alat bantu Anda untuk pemrosesan gambar yang lancar dan efisien. Dalam tutorial ini, kita akan fokus pada tugas mendasar – memutar gambar menggunakan Aspose.PSD untuk .NET. Ikuti kami saat kami memecah prosesnya menjadi langkah-langkah sederhana dan dapat ditindaklanjuti.
@@ -80,3 +86,9 @@ Dalam tutorial ini, kita telah menjelajahi dasar-dasar memutar gambar menggunaka
 ### Q5: Bisakah saya membeli Aspose.PSD untuk penggunaan komersial?
 
  Tentu. Jelajahi[halaman pembelian](https://purchase.aspose.com/buy) untuk memperoleh lisensi yang disesuaikan dengan kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Prise en charge de la ressource SoCo dans les fichiers PSD à l'aide de J
 linktitle: Prise en charge de la ressource SoCo dans les fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à manipuler les ressources SoCo dans les fichiers PSD à l'aide d'Aspose.PSD pour Java avec ce didacticiel étape par étape.
-type: docs
 weight: 22
 url: /fr/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de la ressource SoCo dans les fichiers PSD à l'aide de Java
+
 ## Introduction
 Travailler avec des fichiers PSD peut être un peu comme naviguer dans un labyrinthe complexe, surtout si vous plongez dans les subtilités des couches et des ressources. Heureusement, des outils comme Aspose.PSD pour Java peuvent simplifier ce processus, permettant aux développeurs de manipuler les fichiers Photoshop par programme. Dans ce didacticiel, nous expliquerons comment prendre en charge les ressources SoCo dans les fichiers PSD à l'aide de Java, ce qui vous facilitera grandement la vie. 
 Que vous soyez un développeur chevronné ou que vous vous familiarisiez simplement avec le monde du traitement d'images, ce guide résumera les complexités en étapes compréhensibles, garantissant que vous terminez votre voyage avec une solide compréhension.
@@ -111,3 +117,9 @@ Aspose.PSD for Java est une bibliothèque qui permet aux développeurs de manipu
  Oui, il y a un dédié[forum d'assistance](https://forum.aspose.com/c/psd/34).
 ### Quels types de ressources puis-je manipuler dans un fichier PSD ?
 Vous pouvez manipuler diverses ressources, notamment les calques, les calques de remplissage et les ressources SoCo dans le fichier PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

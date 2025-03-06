@@ -3,10 +3,16 @@ title: PSD にチャンネルミキサー調整レイヤーを追加する
 linktitle: PSD にチャンネルミキサー調整レイヤーを追加する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して、チャンネル ミキサー調整レイヤーで PSD ファイルを強化します。鮮やかな画像を作成するための色操作テクニックを段階的に学習します。
-type: docs
 weight: 10
 url: /ja/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD にチャンネルミキサー調整レイヤーを追加する
+
 ## 導入
 グラフィック デザインの世界は可能性に満ちていますが、完璧な外観を実現するのは、地図なしで密林をさまようような気分になることがあります。画像に「すごい」という要素が欠けていると感じたことはありませんか? そういうときに役立つのが調整レイヤーです。今日は、Aspose.PSD for Java を使用してチャンネル ミキサー調整レイヤーを追加する方法について詳しく説明します。これは、PSD ファイルの色を正確に調整して、画像を際立たせ、印象的にすることができる便利なツールです。
 
@@ -167,3 +173,9 @@ Aspose.PSD は主に PSD ファイルの操作用に設計されていますが�
 
 ### Aspose.PSD の一時ライセンスを取得する方法はありますか?
 はい！一時免許を申請できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

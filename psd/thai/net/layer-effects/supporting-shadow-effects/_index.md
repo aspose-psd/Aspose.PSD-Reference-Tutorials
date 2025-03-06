@@ -3,10 +3,16 @@ title: รองรับ Shadow Effects ใน Aspose.PSD สำหรับ .N
 linktitle: รองรับเอฟเฟกต์เงา
 second_title: Aspose.PSD .NET API
 description: ปรับปรุงภาพของคุณด้วย Aspose.PSD สำหรับ .NET! เรียนรู้การสนับสนุนเอฟเฟกต์เงาทีละขั้นตอน ดาวน์โหลดตอนนี้เพื่อรับประสบการณ์ภาพที่น่าทึ่ง
-type: docs
 weight: 14
 url: /th/net/layer-effects/supporting-shadow-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับ Shadow Effects ใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 การเพิ่มเอฟเฟ็กต์เงาให้กับรูปภาพสามารถเพิ่มความน่าดึงดูดทางสายตาได้อย่างมาก และสร้างประสบการณ์ผู้ใช้ที่ดื่มด่ำยิ่งขึ้น Aspose.PSD สำหรับ .NET มอบโซลูชันอันทรงพลังสำหรับการรองรับเอฟเฟกต์เงาในภาพของคุณ ซึ่งช่วยให้คุณปรับแต่งพารามิเตอร์ต่างๆ และรับเอฟเฟกต์ภาพที่ต้องการได้
@@ -109,3 +115,9 @@ image.Save(psdPathAfterChange);
 ### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.PSD สำหรับ .NET ฟรีก่อนซื้อได้หรือไม่
 
  A5: ได้ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[หน้าเผยแพร่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

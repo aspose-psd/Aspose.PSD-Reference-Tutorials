@@ -3,10 +3,16 @@ title: Efeitos de camada
 linktitle: Efeitos de camada
 second_title: API Aspose.PSD .NET
 description: Descubra a magia dos efeitos de camada com Aspose.PSD para .NET! Eleve suas habilidades de manipulação de imagens aprendendo a adicionar modos de traço, sombra e mesclagem.
-type: docs
 weight: 29
 url: /pt/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efeitos de camada
+
 ## Introdução
 
 Liberte todo o potencial de seus esforços de manipulação de imagens com Aspose.PSD para .NET. Este guia completo apresenta uma infinidade de efeitos de camada que transformarão seu processo criativo. De traços e sombras a modos de mesclagem, eleve seus designs sem esforço.
@@ -54,3 +60,9 @@ Aprimore suas imagens com Aspose.PSD para .NET! Aprenda a suportar efeitos de so
 Aprenda como ajustar a opacidade do efeito de sombra em Aspose.PSD para .NET com este tutorial abrangente.
 ### [Trabalhando com modos de mesclagem em Aspose.PSD para .NET](./working-with-blend-modes/)
 Explore o poder dos modos de mesclagem no Aspose.PSD para .NET. Este tutorial orienta você na aplicação de vários modos de mesclagem com exemplos passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

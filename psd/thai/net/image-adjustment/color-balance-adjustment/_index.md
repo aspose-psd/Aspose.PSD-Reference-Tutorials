@@ -3,10 +3,16 @@ title: การใช้การปรับสมดุลสีใน Aspose
 linktitle: การใช้การปรับสมดุลสี
 second_title: Aspose.PSD .NET API
 description: ปรับปรุงสีของภาพ PSD ได้อย่างง่ายดายด้วย Aspose.PSD สำหรับคุณสมบัติการปรับสมดุลสีของ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่น่าทึ่ง
-type: docs
 weight: 14
 url: /th/net/image-adjustment/color-balance-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้การปรับสมดุลสีใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการใช้การปรับสมดุลสีใน Aspose.PSD สำหรับ .NET! Aspose.PSD เป็นไลบรารี .NET ที่ทรงพลังซึ่งช่วยให้นักพัฒนาทำงานกับไฟล์ PSD ได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะเน้นที่คุณสมบัติการปรับสมดุลสี ซึ่งช่วยให้คุณสามารถเพิ่มสมดุลสีของรูปภาพ PSD ได้อย่างง่ายดาย
@@ -97,3 +103,10 @@ A2: แน่นอน! Aspose.PSD มอบความสามารถใน
 ### คำถามที่ 5: Aspose.PSD สำหรับ .NET มีตัวเลือกการสนับสนุนใดบ้าง
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف طبقة ضبط تشبع اللون إلى PSD
 linktitle: أضف طبقة ضبط تشبع اللون إلى PSD
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إضافة طبقات ضبط تشبع اللون إلى PSD باستخدام Aspose.PSD لـ Java في هذا البرنامج التعليمي الشامل خطوة بخطوة. تعزيز سير عمل التصميم الجرافيكي الخاص بك.
-type: docs
 weight: 14
 url: /ar/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف طبقة ضبط تشبع اللون إلى PSD
+
 ## مقدمة
 عندما يتعلق الأمر بالتصميم الجرافيكي، يلعب التلاعب بالألوان دورًا محوريًا - على وجه التحديد، يمكن أن يؤدي تغيير اللون والتشبع والخفة إلى تغيير الحالة المزاجية وجودة أي صورة بشكل جذري. إحدى الطرق الفعالة لتحقيق ذلك هي استخدام طبقات الضبط في Photoshop (ملفات PSD). إذا كنت تتطلع إلى تحسين ملفات PSD الخاصة بك برمجيًا باستخدام Java، فإن مكتبة Aspose.PSD موجودة لمساعدتك! سيأخذك هذا البرنامج التعليمي عبر خطوات إضافة طبقة ضبط تشبع اللون إلى ملفات PSD الخاصة بك، مما يجعل سير العمل الخاص بك أكثر إنتاجية وكفاءة.
 في هذا الدليل، سنغطي كل شيء بدءًا من استيراد الحزم الضرورية وحتى التفاصيل الدقيقة لأمثلة التعليمات البرمجية.
@@ -102,3 +108,9 @@ img.save(psdPathAfterNewLayerChange);
 نعم، يمكنك أتمتة ومعالجة ملفات PSD متعددة باستخدام Aspose.PSD.
 ### هل Aspose.PSD مجاني؟
 يقدم Aspose.PSD نسخة تجريبية مجانية، ولكن يلزم الحصول على ترخيص للاستخدام على المدى الطويل. يمكنك عرض التسعير[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

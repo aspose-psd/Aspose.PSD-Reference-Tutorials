@@ -3,10 +3,16 @@ title: Verifying Image Transparency in Aspose.PSD for .NET
 linktitle: Verifying Image Transparency
 second_title: Aspose.PSD .NET API
 description: Explore the step-by-step guide on verifying image transparency in Aspose.PSD for .NET.
-type: docs
 weight: 10
 url: /net/image-manipulation/verifying-image-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verifying Image Transparency in Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to a comprehensive tutorial on verifying image transparency using Aspose.PSD for .NET! In this guide, we'll walk you through the process of checking image transparency in your PSD files using the powerful Aspose.PSD library. Whether you're a seasoned developer or just starting, this tutorial will equip you with the necessary skills to seamlessly handle image transparency in your .NET applications.
@@ -91,3 +97,10 @@ A4: You can get a temporary license [here](https://purchase.aspose.com/temporary
 ### Q5: Can I try Aspose.PSD for free before purchasing?
 
 A5: Yes, you can explore a free trial [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

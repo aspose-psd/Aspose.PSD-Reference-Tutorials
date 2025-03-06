@@ -3,10 +3,16 @@ title: Kép levágása téglalappal az Aspose.PSD for Java-ban
 linktitle: Kép levágása téglalap szerint
 second_title: Aspose.PSD Java API
 description: Fedezze fel a Java zökkenőmentes képkivágási lehetőségeit az Aspose.PSD segítségével. Kövesse lépésenkénti útmutatónkat, hogy könnyedén kivághassa a képeket az Aspose.PSD for Java használatával.
-type: docs
 weight: 15
 url: /hu/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép levágása téglalappal az Aspose.PSD for Java-ban
+
 ## Bevezetés
 
 A Java fejlesztés világában a képek manipulálása gyakori feladat, és az Aspose.PSD for Java hatékony megoldást nyújt a képfeldolgozáshoz. Ebben az oktatóanyagban végigvezetjük a kép téglalap alakú kivágásán az Aspose.PSD for Java segítségével. Kövesse az alábbi lépéseket, hogy ezt könnyedén elérhesse.
@@ -105,3 +111,9 @@ Ebben az oktatóanyagban végigvezettük a kép téglalap alakú kivágásának 
 ### 5. kérdés: Melyek a támogatott képformátumok a kivágáshoz az Aspose.PSD for Java programban?
 
 5. válasz: Az Aspose.PSD for Java különféle képformátumokat támogat, beleértve a PSD-t, PNG-t, JPEG-et stb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

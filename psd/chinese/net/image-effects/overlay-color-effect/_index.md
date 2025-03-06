@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中在图像上叠加颜色效果
 linktitle: 在图像上叠加色彩效果
 second_title: Aspose.PSD .NET API
 description: 通过我们的叠加色彩效果教程探索 Aspose.PSD for .NET 的神奇之处。轻松提升您的图像处理能力。
-type: docs
 weight: 11
 url: /zh/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中在图像上叠加颜色效果
+
 ## 介绍
 
 Aspose.PSD for .NET 提供了一套强大的图像处理功能，使开发人员能够轻松实现令人惊叹的效果。其中一项功能是在图像上叠加颜色效果。在本教程中，我们将重点介绍 ColorOverlay 效果并演示如何将其应用于图像，从而改变其视觉吸引力。
@@ -98,3 +104,9 @@ A4：如有任何与支持相关的疑问，请访问[Aspose.PSD 论坛](https:/
 ### Q5: 我可以获得 Aspose.PSD for .NET 的临时许可证吗？
 
  A5：是的，您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/)用于评估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 裁切 PSD 文件
 linktitle: 使用 Aspose.PSD for .NET 裁切 PSD 文件
 second_title: Aspose.PSD .NET API
 description: 使用多功能工具包 Aspose.PSD 探索 .NET 中 PSD 檔案裁剪的藝術。輕鬆提升您的影像處理遊戲等級。
-type: docs
 weight: 19
 url: /zh-hant/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 裁切 PSD 文件
+
 ## 介紹
 在 .NET 開發領域，Aspose.PSD 作為無縫處理 PSD（Photoshop 文件）檔案的強大工具包脫穎而出。在操作影像時，裁切是一項基本操作，Aspose.PSD 為 .NET 開發人員簡化了這個過程。在本教程中，我們將探索如何使用 Aspose.PSD for .NET 裁剪 PSD 文件，為您提供逐步指南。
 ## 先決條件
@@ -72,3 +78,9 @@ A3：是的，您可以透過免費試用來探索 Aspose.PSD。下載它[這裡
 ### Q5：我需要臨時許可證才能進行測試嗎？
 
  A5：是的，如果您需要臨時許可證，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

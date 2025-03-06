@@ -3,10 +3,16 @@ title: Esporta il livello di regolazione del mixer del canale in PSD - Java
 linktitle: Esporta il livello di regolazione del mixer del canale in PSD - Java
 second_title: API Java Aspose.PSD
 description: Scopri come esportare i livelli di regolazione del mixer canale in PSD utilizzando Aspose.PSD per Java. Guida passo passo per modificare i livelli RGB e CMYK, salvare le modifiche ed esportare in PNG.
-type: docs
 weight: 14
 url: /it/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esporta il livello di regolazione del mixer del canale in PSD - Java
+
 ## Introduzione
 
 Quando si tratta di editing delle immagini, in particolare con file Adobe Photoshop (PSD), la gestione efficiente dei livelli è fondamentale. Tra questi livelli, il livello di regolazione del mixer canali svolge un ruolo cruciale nel modificare il bilanciamento del colore di un'immagine. Se sei uno sviluppatore Java che desidera manipolare questi livelli a livello di programmazione, sei fortunato! In questo articolo, ti guideremo attraverso il processo di esportazione dei livelli di regolazione del mixer dei canali utilizzando Aspose.PSD per Java. Al termine di questa guida sarai ben attrezzato per gestire i livelli di regolazione del mixer dei canali RGB e CMYK, salvare le modifiche ed esportare l'immagine finale nei formati PSD e PNG.
@@ -168,3 +174,9 @@ Sì, puoi scorrere una directory di file PSD e applicare le stesse modifiche a c
 
 ### Ho bisogno di una licenza per utilizzare Aspose.PSD per Java?  
  Sì, Aspose.PSD per Java è un prodotto concesso in licenza. Puoi ottenere a[licenza temporanea](https://purchase.aspose.com/temporary-license/) per testare o acquistare una licenza completa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

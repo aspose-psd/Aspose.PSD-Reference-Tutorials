@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials and Examples of Aspose.PSD for .NET 
 linktitle: Aspose.PSD for .NET Tutorials
-type: docs
 weight: 10
 url: /net/
 description: Effortlessly enhance image quality with Aspose.PSD for .NET tutorials. Master image processing, PSD file manipulation, text and font handling, and more. 
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials and Examples of Aspose.PSD for .NET
+
 ## Introduction
 Unlock the full potential of Aspose.PSD for .NET with our comprehensive tutorials and examples. Whether you are a seasoned developer or a newcomer to image processing, our step-by-step guides will empower you to enhance your .NET projects effortlessly.
 
@@ -100,3 +105,9 @@ Unlock the potential of Aspose.PSD for .NET with our tutorials! Master core draw
 Master dynamic image enhancements in Aspose.PSD for .NET. Elevate your image processing with tutorials on adding, overlaying, and rendering stunning effects at runtime.
 ### [PSD File Resources](./psd-file-resources/)
 Unlock the full potential of Aspose.PSD for .NET with our tutorials. Master background color, border information, working path, and black-and-white resources seamlessly. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

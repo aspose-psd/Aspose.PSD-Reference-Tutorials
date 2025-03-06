@@ -3,10 +3,16 @@ title: Add Color Fill Layer to PSD Files using Java
 linktitle: Add Color Fill Layer to PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn how to easily add a color fill layer to PSD files using Java and Aspose.PSD. Follow our step-by-step tutorial for quicker designs.
-type: docs
 weight: 20
 url: /java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Color Fill Layer to PSD Files using Java
+
 ## Introduction
 Ever found yourself needing to manipulate Photoshop files programmatically, perhaps to add a splash of color to a design? Well, you’ve landed in the right place. In this article, we’re diving into how to add a color fill layer to PSD (Photoshop Document) files using Java and the Aspose.PSD library. Think of your PSD files as a canvas, and with just a few lines of code, you can paint them anew.
 ## Prerequisites
@@ -87,3 +93,10 @@ You can work with PSD files and manipulate their layers, effects, and other prop
 You can get support through the [Aspose Support Forum](https://forum.aspose.com/c/psd/34).
 ### Where can I buy Aspose.PSD?  
 You can purchase a license through the [Aspose Purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

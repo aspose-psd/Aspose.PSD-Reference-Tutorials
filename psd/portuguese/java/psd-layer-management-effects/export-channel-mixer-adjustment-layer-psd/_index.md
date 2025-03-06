@@ -3,10 +3,16 @@ title: Exportar camada de ajuste do mixer de canal em PSD - Java
 linktitle: Exportar camada de ajuste do mixer de canal em PSD - Java
 second_title: API Java Aspose.PSD
 description: Aprenda como exportar camadas de ajuste do mixer de canais em PSD usando Aspose.PSD para Java. Guia passo a passo para modificar camadas RGB e CMYK, salvar alterações e exportar para PNG.
-type: docs
 weight: 14
 url: /pt/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportar camada de ajuste do mixer de canal em PSD - Java
+
 ## Introdução
 
 Quando se trata de edição de imagens, especialmente com arquivos Adobe Photoshop (PSD), gerenciar camadas de forma eficiente é fundamental. Entre essas camadas, a Camada de Ajuste do Mixer de Canais desempenha um papel crucial no ajuste do equilíbrio de cores de uma imagem. Se você é um desenvolvedor Java que deseja manipular essas camadas programaticamente, está com sorte! Neste artigo, orientaremos você no processo de exportação de camadas de ajuste do mixer de canais usando Aspose.PSD para Java. Ao final deste guia, você estará bem equipado para lidar com camadas de ajuste do mixador de canais RGB e CMYK, salvar suas alterações e exportar sua imagem final nos formatos PSD e PNG.
@@ -168,3 +174,9 @@ Sim, você pode percorrer um diretório de arquivos PSD e aplicar os mesmos ajus
 
 ### Preciso de uma licença para usar Aspose.PSD para Java?  
  Sim, Aspose.PSD para Java é um produto licenciado. Você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/) para testar ou adquirir uma licença completa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

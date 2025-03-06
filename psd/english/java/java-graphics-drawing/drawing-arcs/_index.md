@@ -3,10 +3,16 @@ title: Drawing Arcs in Java
 linktitle: Drawing Arcs in Java
 second_title: Aspose.PSD Java API
 description: Learn how to draw arcs in Java using Aspose.PSD for Java. Step-by-step tutorial with code examples for graphical applications.
-type: docs
 weight: 13
 url: /java/java-graphics-drawing/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Arcs in Java
+
 ## Introduction
 In this tutorial, we will explore how to draw arcs using the Aspose.PSD for Java library. Drawing arcs programmatically can be useful in various applications such as graphical user interfaces, charting, or custom visualizations. Aspose.PSD for Java provides robust functionalities to manipulate and create PSD (Photoshop Document) files, including the ability to draw shapes like arcs with customizable properties.
 ## Prerequisites
@@ -74,3 +80,10 @@ Absolutely, Aspose.PSD provides extensive features for manipulating and creating
 Yes, Aspose.PSD supports exporting to a variety of formats including PNG, JPEG, TIFF, and GIF, among others.
 ### Where can I find additional support and resources for Aspose.PSD?
 Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support, documentation, and updates.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

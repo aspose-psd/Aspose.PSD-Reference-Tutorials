@@ -3,10 +3,16 @@ title: Bekerja dengan Blend Mode di Aspose.PSD untuk .NET
 linktitle: Bekerja dengan Mode Campuran
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan mode campuran di Aspose.PSD untuk .NET. Tutorial ini memandu Anda dalam menerapkan berbagai mode campuran dengan contoh langkah demi langkah.
-type: docs
 weight: 16
 url: /id/net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Blend Mode di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Jika Anda seorang pengembang .NET yang ingin meningkatkan kemampuan pemrosesan gambar Anda, Aspose.PSD untuk .NET adalah alat canggih yang memungkinkan Anda bekerja dengan berbagai mode campuran secara mulus. Mode campuran memainkan peran penting dalam memanipulasi gambar dengan menentukan bagaimana lapisan menyatu satu sama lain. Dalam panduan langkah demi langkah ini, kami akan mempelajari dunia mode campuran dan mendemonstrasikan cara menggunakannya secara efektif dalam aplikasi .NET Anda.
@@ -102,3 +108,9 @@ A4: Tentu saja! Mode campuran dapat dikombinasikan dengan fitur Aspose.PSD lainn
 ### Q5: Apakah ada forum komunitas untuk dukungan Aspose.PSD?
 
  A5: Ya, Anda dapat menemukan dukungan dan terhubung dengan pengguna lain di[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

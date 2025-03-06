@@ -3,10 +3,16 @@ title: تطبيق مرشحات Gaussian وWiener في Aspose.PSD لـ .NET
 linktitle: تطبيق المرشحات غاوس و وينر
 second_title: Aspose.PSD.NET API
 description: قم بتحسين جودة الصورة بسهولة باستخدام Aspose.PSD لـ .NET. قم بتطبيق مرشحات Gaussian وWiener لتقليل الضوضاء والحصول على المظهر البصري الأمثل.
-type: docs
 weight: 10
 url: /ar/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق مرشحات Gaussian وWiener في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في مجال معالجة الصور باستخدام .NET، يبرز Aspose.PSD كمجموعة أدوات قوية تمكن المطورين من معالجة الصور بسهولة. إحدى الميزات المفيدة بشكل خاص هي تطبيق مرشحات Gaussian وWiener. تلعب هذه المرشحات دورًا حاسمًا في تحسين جودة الصورة وتقليل الضوضاء وضمان الجاذبية البصرية المثالية.
@@ -110,3 +116,10 @@ A2: يحدد حجم نصف القطر المنطقة التي يعمل عليه�
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.PSD؟
 
  ج5: نعم، يمكنك استكشاف ميزات Aspose.PSD عن طريق تنزيل الملف[نسخة تجريبية مجانية](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

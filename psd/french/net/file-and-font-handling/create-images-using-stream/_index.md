@@ -3,10 +3,16 @@ title: Création d'images à l'aide de Stream dans Aspose.PSD pour .NET
 linktitle: Création d'images à l'aide de Stream
 second_title: API Aspose.PSD.NET
 description: Découvrez comment créer des images à l'aide de flux dans Aspose.PSD pour .NET. Suivez notre guide étape par étape pour une manipulation efficace des images.
-type: docs
 weight: 12
 url: /fr/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création d'images à l'aide de Stream dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.PSD se distingue comme un outil puissant de manipulation d'images. Une fonctionnalité particulièrement utile est la possibilité de créer des images à l’aide de flux, offrant flexibilité et efficacité dans la gestion des données d’image. Ce guide étape par étape vous guidera tout au long du processus, en décomposant chaque élément pour garantir une expérience fluide. Avant de plonger dans le vif du sujet, couvrons les conditions préalables.
@@ -111,3 +117,9 @@ A2 : Les dimensions sont personnalisables ; ajustez les paramètres de la métho
 ### Q5 : Des licences temporaires sont-elles disponibles ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

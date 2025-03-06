@@ -3,10 +3,16 @@ title: Set PNG File Resolution with Aspose.PSD for Java
 linktitle: Set PNG File Resolution with Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Explore how to set PNG file resolution using Aspose.PSD for Java with this detailed step-by-step tutorial. Optimize your images in no time.
-type: docs
 weight: 13
 url: /java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set PNG File Resolution with Aspose.PSD for Java
+
 ## Introduction
 Are you looking to optimize your PNG file resolution using Java? If the answer is yes, then you’ve landed in the right spot! Today, we’ll delve into the world of Aspose.PSD for Java, a powerful library for manipulating Photoshop PSD files and converting them to other formats like PNG. Whether you’re a developer dabbling in image processing or just someone wanting to enhance image quality programmatically, this guide is tailored for you. 
 In this comprehensive tutorial, we’ll cover everything from prerequisites to detailed step-by-step instructions to effectively set PNG file resolution. So, grab your favorite snack, and let’s get started!
@@ -71,3 +77,10 @@ Absolutely! You can create different `PngOptions` instances for various export s
 Aspose.PSD handles many common issues, but if a file is severely corrupted, it might not load. Always keep a backup.
 ### Is Aspose.PSD suitable for high-performance applications?
 Yes, it’s designed to handle large files efficiently and is suitable for performance-intensive image processing tasks.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

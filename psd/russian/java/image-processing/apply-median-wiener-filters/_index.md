@@ -3,10 +3,16 @@ title: Примените медианные фильтры и фильтры В
 linktitle: Примените медианный фильтр и фильтр Винера
 second_title: Aspose.PSD Java API
 description: Исследуйте возможности обработки изображений в Java с помощью Aspose.PSD. Узнайте, как шаг за шагом применять медианные фильтры и фильтры Винера. Повышайте качество изображения без особых усилий.
-type: docs
 weight: 12
 url: /ru/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените медианные фильтры и фильтры Винера с помощью Aspose.PSD для Java
+
 ## Введение
 
 В области программирования на Java Aspose.PSD выделяется как мощный инструмент для манипулирования и обработки изображений. Одной из ключевых функций, которые он предлагает, является применение медианных фильтров и фильтров Винера, которые играют решающую роль в повышении качества изображения и снижении шума. Это пошаговое руководство проведет вас через процесс применения этих фильтров с помощью Aspose.PSD для Java.
@@ -101,3 +107,9 @@ image.save(destName, new GifOptions());
 ### Вопрос 5: Как я могу приобрести Aspose.PSD для Java?
 
  A5: вы можете купить товар[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

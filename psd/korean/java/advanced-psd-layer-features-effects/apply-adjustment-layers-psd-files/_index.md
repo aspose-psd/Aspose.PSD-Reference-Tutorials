@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에 조정 레이어 적용
 linktitle: Java를 사용하여 PSD 파일에 조정 레이어 적용
 second_title: Aspose.PSD 자바 API
 description: 개발자를 위한 이 완전한 단계별 가이드에서 Java용 Aspose.PSD를 사용하여 PSD 파일에 조정 레이어를 적용하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에 조정 레이어 적용
+
 ## 소개
 PSD 파일에 저장된 이미지를 향상시키려는 Java 개발자이신가요? 그렇다면, 당신은 바로 이곳에 있습니다! 이 기사에서는 Java용 Aspose.PSD 라이브러리를 사용하여 PSD 파일에 조정 레이어를 적용하는 방법을 살펴보겠습니다. 개인 프로젝트에서 작업하든 전문 응용 프로그램에서 작업하든 PSD 파일을 조작하는 방법을 이해하면 소프트웨어 기능을 크게 향상시킬 수 있습니다. 
 
@@ -97,3 +103,9 @@ Aspose.PSD는 개발자가 Java 애플리케이션에서 Photoshop PSD 파일을
 문서 페이지를 방문할 수 있습니다.[여기](https://reference.aspose.com/psd/java/) 기능, 클래스 및 방법을 탐색합니다.
 ### Aspose 제품에 대한 지원은 어떻게 받나요?
  다음을 통해 지원에 액세스할 수 있습니다.[포럼을 Aspose](https://forum.aspose.com/c/psd/34) 질문을 하고 해결책을 찾을 수 있는 곳입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

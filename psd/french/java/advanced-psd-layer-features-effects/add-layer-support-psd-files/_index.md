@@ -3,10 +3,16 @@ title: Ajouter la prise en charge des couches pour les fichiers PSD à l'aide d'
 linktitle: Ajouter la prise en charge des couches pour les fichiers PSD à l'aide d'Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Gérez et convertissez facilement les fichiers PSD avec des calques au format PNG à l'aide d'Aspose.PSD pour Java ! Parfait pour les développeurs ayant besoin de manipulations graphiques.
-type: docs
 weight: 13
 url: /fr/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter la prise en charge des couches pour les fichiers PSD à l'aide d'Aspose.PSD Java
+
 ## Introduction
 Dans le monde du design graphique et de l’art numérique, travailler avec des fichiers PSD (Photoshop Document) est la norme. Ces fichiers contiennent souvent plusieurs couches qui peuvent être manipulées indépendamment, offrant flexibilité et créativité. Mais que se passe-t-il lorsque vous devez travailler avec ces fichiers dans une application Java ? Eh bien, c'est là qu'Aspose.PSD entre en jeu ! Dans cet article, nous verrons comment ajouter la prise en charge des couches pour les fichiers PSD à l'aide d'Aspose.PSD pour Java. Nous allons décomposer cela en étapes faciles à suivre, le rendant accessible à tous, du débutant au professionnel.
 ## Conditions préalables
@@ -101,3 +107,9 @@ Oui! Bien que principalement destiné aux fichiers PSD, Aspose propose égalemen
  Vous pouvez accéder au support sur le forum Aspose[ici](https://forum.aspose.com/c/psd/34).
 ### Puis-je reconvertir le format PNG en PSD ?
 La bibliothèque Aspose.PSD se concentre davantage sur la lecture et la manipulation des fichiers PSD plutôt que sur la reconversion d'autres formats en PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Obsługa efektu blasku zewnętrznego w Aspose.PSD dla .NET
 linktitle: Wspieranie efektu zewnętrznego blasku
 second_title: Aspose.PSD API .NET
 description: Poznaj moc efektu Outer Glow w Aspose.PSD dla .NET. Ulepsz swoje projekty obrazów dzięki temu samouczkowi krok po kroku.
-type: docs
 weight: 16
 url: /pl/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa efektu blasku zewnętrznego w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym obsługi efektu Outer Glow w Aspose.PSD dla .NET. Aspose.PSD to potężna biblioteka, która umożliwia płynną manipulację plikami PSD w aplikacjach .NET. W tym samouczku omówimy implementację efektu Outer Glow Effect i przedstawimy szczegółowy przewodnik dotyczący integracji go z Twoimi projektami.
@@ -114,3 +120,9 @@ O1: Tak, Aspose.PSD obsługuje szeroką gamę frameworków .NET, zapewniając ko
 ### P5: Czy mogę kupić Aspose.PSD dla .NET?
 
  Odpowiedź 5: Tak, zapoznaj się z opcjami licencjonowania i dokonaj zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

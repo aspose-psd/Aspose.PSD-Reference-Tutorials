@@ -3,10 +3,16 @@ title: Xoay các lớp trong tệp PSD bằng Java
 linktitle: Xoay các lớp trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Khám phá cách dễ dàng xoay các lớp trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước này.
-type: docs
 weight: 21
 url: /vi/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xoay các lớp trong tệp PSD bằng Java
+
 ## Giới thiệu
 Trong thế giới thiết kế đồ họa, làm việc với các tệp Photoshop (PSD) là một hoạt động phổ biến. Cho dù bạn là một nhà thiết kế dày dạn kinh nghiệm hay mới bắt đầu tìm hiểu về thao tác hình ảnh, việc biết cách xoay các lớp trong tệp PSD có thể giúp tiết kiệm thời gian. Nhưng đây mới là điều khó khăn: không phải ai cũng có quyền truy cập vào Adobe Photoshop và họ cũng không muốn tìm hiểu giao diện phức tạp của nó. Đó là lúc Java xuất hiện, giúp thao tác với các tệp PSD theo chương trình dễ dàng hơn. Trong bài viết này, chúng ta sẽ khám phá thư viện Aspose.PSD dành cho Java mạnh mẽ, cho phép bạn làm việc liền mạch với các tệp PSD, bao gồm cả các lớp xoay. Vì vậy, hãy xắn tay áo lên và bắt tay vào làm cho quy trình thiết kế của bạn trôi chảy hơn!
 ## Điều kiện tiên quyết
@@ -89,3 +95,9 @@ Nói chung, nó hoạt động tốt, nhưng việc xử lý các tệp rất l�
  Bạn có thể tìm thấy tài liệu đầy đủ tại[Tài liệu Aspose.PSD](https://reference.aspose.com/psd/java/).
 ### Điều gì sẽ xảy ra nếu tôi gặp sự cố khi sử dụng Aspose.PSD?
  Hãy liên hệ để được trợ giúp thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

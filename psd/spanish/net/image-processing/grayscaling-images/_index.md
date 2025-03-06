@@ -3,10 +3,16 @@ title: Imágenes en escala de grises con Aspose.PSD para .NET
 linktitle: Imágenes en escala de grises con Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Aprenda a aplicar fácilmente efectos de escala de grises a imágenes usando Aspose.PSD para .NET.
-type: docs
 weight: 14
 url: /es/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imágenes en escala de grises con Aspose.PSD para .NET
+
 ## Introducción
 
 ¡Bienvenido a nuestro tutorial completo sobre imágenes en escala de grises usando Aspose.PSD para .NET! La escala de grises es una técnica poderosa que puede mejorar el atractivo visual de sus imágenes convirtiéndolas en tonos de gris. En esta guía, lo guiaremos a través del proceso para lograr impresionantes efectos en escala de grises sin esfuerzo.
@@ -108,3 +114,9 @@ R1: Sí, Aspose.PSD admite varios formatos de imagen, incluidos PSD, BMP, PNG y 
 ### P5: ¿Cómo compro una licencia de Aspose.PSD para .NET?
 
  R5: Puede comprar una licencia en el[pagina de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

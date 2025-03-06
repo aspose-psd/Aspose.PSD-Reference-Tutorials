@@ -3,10 +3,16 @@ title: Triển khai phối màu cho hình ảnh raster trong Aspose.PSD cho Java
 linktitle: Thực hiện phối màu cho hình ảnh raster
 second_title: API Java Aspose.PSD
 description: Nâng cao chất lượng hình ảnh với Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để triển khai phối màu và loại bỏ dải màu.
-type: docs
 weight: 17
 url: /vi/java/image-editing/implement-dithering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai phối màu cho hình ảnh raster trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Nếu bạn đang tìm cách nâng cao chất lượng hình ảnh của hình ảnh raster trong Java, Aspose.PSD cung cấp một giải pháp mạnh mẽ. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách triển khai phối màu bằng Aspose.PSD cho Java. Phối màu là một kỹ thuật làm tăng độ nhiễu cho hình ảnh, giảm dải màu và cải thiện chất lượng hình ảnh tổng thể.
@@ -88,3 +94,9 @@ Câu trả lời 4: Có, Aspose.PSD cung cấp nhiều phương pháp phối mà
 ### Câu hỏi 5: Tôi có thể tích hợp Aspose.PSD cho Java vào dự án Java hiện tại của mình không?
 
 Câu trả lời 5: Có, Aspose.PSD có thể dễ dàng tích hợp vào dự án Java của bạn để xử lý hình ảnh liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

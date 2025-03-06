@@ -3,10 +3,16 @@ title: Menerapkan Filter Median dan Wiener pada Gambar Berwarna dengan Aspose.PS
 linktitle: Menerapkan Filter Median dan Wiener pada Gambar Berwarna dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Meningkatkan dan menghilangkan noise pada gambar berwarna dengan Aspose.PSD untuk .NET menggunakan Filter Median dan Wiener. Panduan langkah demi langkah untuk pemrosesan gambar yang lancar.
-type: docs
 weight: 11
 url: /id/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Filter Median dan Wiener pada Gambar Berwarna dengan Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah dalam menerapkan Filter Median dan Wiener pada gambar berwarna menggunakan Aspose.PSD untuk .NET. Aspose.PSD adalah perpustakaan canggih yang memungkinkan pengembang .NET bekerja dengan file PSD dengan lancar. Dalam tutorial ini, kita akan mengeksplorasi proses penerapan Filter Median dan Wiener untuk menyempurnakan dan menghilangkan noise pada gambar berwarna.
@@ -95,3 +101,9 @@ A2: Anda dapat menerapkan blok coba-tangkap untuk menangani pengecualian yang mu
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
 
  A5: Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Apply Adjustment Layers in PSD Files using Java
 linktitle: Apply Adjustment Layers in PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn to apply adjustment layers in PSD files using Aspose.PSD for Java in this complete step-by-step guide for developers.
-type: docs
 weight: 15
 url: /java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Adjustment Layers in PSD Files using Java
+
 ## Introduction
 Are you a Java developer looking to enhance images stored in PSD files? If so, you're in the right place! In this article, we'll explore how to apply adjustment layers in PSD files using the Aspose.PSD library for Java. Whether you’re working on a personal project or a professional application, understanding how to manipulate PSD files can significantly elevate your software's capabilities. 
 
@@ -97,3 +103,10 @@ No, you do not need Photoshop. Aspose.PSD works independently to manipulate PSD 
 You can visit the documentation page [here](https://reference.aspose.com/psd/java/) to explore features, classes, and methods.
 ### How do I get support for Aspose products?
 You can access support via the [Aspose forum](https://forum.aspose.com/c/psd/34) where you can ask questions and find solutions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

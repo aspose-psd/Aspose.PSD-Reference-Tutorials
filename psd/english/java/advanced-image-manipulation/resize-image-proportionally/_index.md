@@ -3,10 +3,16 @@ title: Resize Image Proportionally with Aspose.PSD for Java
 linktitle: Resize Image Proportionally
 second_title: Aspose.PSD Java API
 description: Enhance your Java applications with Aspose.PSD. Follow our guide to resize images proportionally effortlessly. Boost your image handling capabilities today.
-type: docs
 weight: 17
 url: /java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resize Image Proportionally with Aspose.PSD for Java
+
 ## Introduction
 
 Welcome to our step-by-step guide on resizing images proportionally using Aspose.PSD for Java. If you're looking to enhance your Java applications with efficient image resizing capabilities, you've come to the right place. In this tutorial, we will walk you through the process using clear and concise steps.
@@ -92,3 +98,10 @@ A4: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for communit
 
 A5: Refer to the detailed documentation [here](https://reference.aspose.com/psd/java/).
 `
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

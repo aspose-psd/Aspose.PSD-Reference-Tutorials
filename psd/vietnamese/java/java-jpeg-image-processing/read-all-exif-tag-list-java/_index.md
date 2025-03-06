@@ -3,10 +3,16 @@ title: Đọc tất cả danh sách thẻ EXIF trong Java
 linktitle: Đọc tất cả danh sách thẻ EXIF trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách trích xuất siêu dữ liệu EXIF từ tệp PSD bằng Aspose.PSD cho Java với các ví dụ mã và hướng dẫn toàn diện của chúng tôi.
-type: docs
 weight: 16
 url: /vi/java/java-jpeg-image-processing/read-all-exif-tag-list-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc tất cả danh sách thẻ EXIF trong Java
+
 ### Giới thiệu
 Trong lĩnh vực phát triển Java, việc quản lý và thao tác với các tệp PSD là một yêu cầu quan trọng đối với nhiều ứng dụng. Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để xử lý các tệp Tài liệu Photoshop (PSD) theo chương trình, cung cấp cho các nhà phát triển một bộ công cụ để đọc, ghi và sửa đổi các tệp PSD một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình đọc tất cả các thẻ EXIF từ tệp PSD bằng Aspose.PSD cho Java. Cuối cùng, bạn sẽ hiểu rõ về cách trích xuất và sử dụng siêu dữ liệu EXIF được nhúng trong hình ảnh PSD.
 ### Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Aspose.PSD for Java là thư viện cho phép các nhà phát triển Java làm 
 Có, nó hỗ trợ cả đọc và ghi vào tệp PSD.
 ### Tôi có thể nhận hỗ trợ cho Aspose.PSD cho Java ở đâu?
  Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

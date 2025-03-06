@@ -3,10 +3,16 @@ title: Dodaj warstwę dopasowania miksera kanałów w PSD
 linktitle: Dodaj warstwę dopasowania miksera kanałów w PSD
 second_title: Aspose.PSD API Java
 description: Ulepsz swoje pliki PSD za pomocą warstw dopasowania miksera kanałów za pomocą Aspose.PSD dla Java. Naucz się krok po kroku technik manipulacji kolorami, aby uzyskać żywe obrazy.
-type: docs
 weight: 10
 url: /pl/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj warstwę dopasowania miksera kanałów w PSD
+
 ## Wstęp
 Świat projektowania graficznego jest pełen możliwości, ale czasami uzyskanie idealnego wyglądu może przypominać wędrówkę po gęstym lesie bez mapy. Czy kiedykolwiek miałeś wrażenie, że Twoim zdjęciom brakuje efektu „wow”? Cóż, tu właśnie wchodzą w grę warstwy dopasowania! Dzisiaj zagłębimy się w sposób dodawania warstw dopasowania miksera kanałów za pomocą Aspose.PSD dla Java. To sprytne narzędzie, które pozwala na precyzyjne dostosowanie kolorów plików PSD, dzięki czemu obrazy będą wyglądać imponująco.
 
@@ -167,3 +173,9 @@ Aspose.PSD jest przeznaczony przede wszystkim do pracy z plikami PSD, ale pakiet
 
 ### Czy istnieje sposób na uzyskanie tymczasowej licencji na Aspose.PSD?
  Tak! Możesz ubiegać się o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

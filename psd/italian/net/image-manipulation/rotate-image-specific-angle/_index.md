@@ -3,10 +3,16 @@ title: Rotazione di un'immagine su un angolo specifico in Aspose.PSD per .NET
 linktitle: Rotazione di un'immagine su un angolo specifico
 second_title: API Aspose.PSD .NET
 description: Esplora la potenza di Aspose.PSD per .NET. Ruota le immagini senza sforzo su angolazioni specifiche. Scarica la libreria e inizia a manipolare le immagini senza problemi.
-type: docs
 weight: 16
 url: /it/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rotazione di un'immagine su un angolo specifico in Aspose.PSD per .NET
+
 Se stai addentrandoti nel mondo della manipolazione delle immagini con .NET, Aspose.PSD fornisce una soluzione potente. In questo tutorial ti guideremo attraverso il processo di rotazione di un'immagine su un angolo specifico utilizzando Aspose.PSD. Prima di addentrarci nei passaggi, prepariamo il terreno con un'introduzione.
 
 ## Introduzione
@@ -104,3 +110,9 @@ R3: Sebbene non sia obbligatorio, la memorizzazione nella cache dei dati può mi
 ### Q5: Posso provare Aspose.PSD prima dell'acquisto?
 
  A5: Certamente! Prendi il tuo[prova gratuita](https://releases.aspose.com/)per esplorare le capacità della biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

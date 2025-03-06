@@ -3,10 +3,16 @@ title: Java kullanarak PSD Dosyalarında Lspf Kaynağını Destekleyin
 linktitle: Java kullanarak PSD Dosyalarında Lspf Kaynağını Destekleyin
 second_title: Aspose.PSD Java API'si
 description: Adım adım kılavuzumuzla Aspose.PSD for Java'yı kullanarak PSD dosyalarında Lspf Kaynağını nasıl destekleyeceğinizi ve değiştireceğinizi öğrenin.
-type: docs
 weight: 14
 url: /tr/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PSD Dosyalarında Lspf Kaynağını Destekleyin
+
 ## giriiş
 
 PSD dosya manipülasyonu dünyasına dalmak isteyen bir geliştirici misiniz? Peki, doğru yere geldiniz! PSD dosyalarıyla çalışırken genellikle LspfResource gibi çeşitli katman kaynaklarını kullanmanız gerekir. Bu kaynak, bir PSD dosyasındaki bileşik, konum ve şeffaflık korumaları gibi katman koruma ayarlarını yönetmek için çok önemlidir. Bu kapsamlı eğitimde, Aspose.PSD for Java'nın yardımıyla Java kullanarak PSD dosyalarındaki LspfResource'u nasıl destekleyeceğimizi ve değiştireceğimizi keşfedeceğiz.
@@ -182,3 +188,9 @@ Değişiklikleri doğrulamazsanız ayarların beklendiği gibi uygulanmaması ve
 
 ### Dosyayı kaydettikten sonra LspfResource'ta yapılan değişiklikleri geri alabilir miyim?  
 Dosya kaydedildikten sonra değişikliklerin doğrudan geri alınması mümkün değildir. Ancak orijinal dosyayı yeniden yükleyebilir ve değişiklikleri gerektiği gibi yeniden uygulayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

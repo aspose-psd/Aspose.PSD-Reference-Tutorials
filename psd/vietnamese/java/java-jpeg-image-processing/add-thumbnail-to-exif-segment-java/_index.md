@@ -3,10 +3,16 @@ title: Thêm hình thu nhỏ vào phân đoạn EXIF trong Java
 linktitle: Thêm hình thu nhỏ vào phân đoạn EXIF trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách nâng cao siêu dữ liệu hình ảnh bằng hình thu nhỏ bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.Để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình thu nhỏ vào phân đoạn EXIF trong Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách nâng cao siêu dữ liệu hình ảnh bằng cách thêm hình thu nhỏ vào phân đoạn EXIF bằng Aspose.PSD cho Java. Siêu dữ liệu EXIF (Định dạng tệp hình ảnh có thể trao đổi) đóng vai trò quan trọng trong chụp ảnh kỹ thuật số, cung cấp thông tin có giá trị như cài đặt máy ảnh, ngày tháng và vị trí. Thêm hình thu nhỏ sẽ nâng cao trải nghiệm người dùng bằng cách xem trước hình ảnh một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Việc thêm hình thu nhỏ sẽ cải thiện trải nghiệm người dùng b
  Bạn có thể lấy giấy phép tạm thời cho Aspose.PSD từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Làm cách nào để nhận được hỗ trợ cho Aspose.PSD?
  Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

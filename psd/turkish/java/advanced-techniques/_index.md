@@ -3,10 +3,16 @@ title: İleri Teknikler
 linktitle: İleri Teknikler
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD eğitimleriyle Java görüntü işlemede gelişmiş tekniklere zahmetsizce hakim olun. Gri tonlamalı, metin yükleyin, dönüştürün, işleyin, verimli bir şekilde kaydedin ve daha fazlasını yapın!
-type: docs
 weight: 22
 url: /tr/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# İleri Teknikler
+
 ## giriiş
 
 Java görüntü işleme becerilerinizi yükseltmeye hazır mısınız? Aspose.PSD for Java ile kapsamlı eğitimlerimize dalın ve gelişmiş tekniklerin kilidini açın. Bazı önemli eğitimleri ayrıntılı olarak inceleyelim:
@@ -85,3 +91,9 @@ Aspose.PSD ile Java'da görüntü kontrastı ayarlama dünyasını keşfedin. So
 Aspose.PSD for Java'yı kullanarak görüntü gammasını zahmetsizce ayarlamayı öğrenin. En iyi sonuçları elde etmek için adım adım kılavuzumuzu izleyin.
 ### [Aspose.PSD for Java kullanarak bir Görüntüyü Bulanıklaştırın](./blur-image/)
 Aspose.PSD ile Java'da görüntüleri bulanıklaştırmayı öğrenin. Profesyonel sonuçlar için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

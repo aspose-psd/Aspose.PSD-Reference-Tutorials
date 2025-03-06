@@ -3,10 +3,16 @@ title: Lire et modifier les balises JPEG EXIF en Java
 linktitle: Lire et modifier les balises JPEG EXIF en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment lire et modifier les balises JPEG EXIF à l'aide d'Aspose.PSD pour Java dans ce guide étape par étape. Parfait pour les développeurs cherchant à gérer les métadonnées d’image sans effort.
-type: docs
 weight: 18
 url: /fr/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lire et modifier les balises JPEG EXIF en Java
+
 ## Introduction
 Salut! Vous êtes-vous déjà demandé comment lire et modifier les balises JPEG EXIF à l'aide de Java ? Si c'est le cas, vous êtes au bon endroit ! Ce didacticiel vous guidera étape par étape tout au long du processus d'utilisation d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou un débutant, à la fin de ce guide, vous serez capable de gérer les balises JPEG EXIF comme un pro. Alors, plongeons-nous !
 ## Conditions préalables
@@ -92,3 +98,9 @@ Aspose.PSD pour Java prend en charge Java SE 7 et supérieur.
  Découvrez le[documentation](https://reference.aspose.com/psd/java/) pour plus de détails.
 ### Comment puis-je obtenir du support pour Aspose.PSD pour Java ?
  Vous pouvez bénéficier du soutien du[Forum d'assistance Aspose PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

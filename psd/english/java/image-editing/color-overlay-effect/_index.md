@@ -3,10 +3,16 @@ title: Apply Color Overlay Effect in Aspose.PSD for Java
 linktitle: Apply Color Overlay Effect
 second_title: Aspose.PSD Java API
 description: Discover the magic of Color Overlay Effects in Aspose.PSD for Java. Elevate your image editing game with this step-by-step guide.
-type: docs
 weight: 10
 url: /java/image-editing/color-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Color Overlay Effect in Aspose.PSD for Java
+
 ## Introduction
 
 Welcome to the world of graphic design and image manipulation using Aspose.PSD for Java! In this tutorial, we'll delve into applying a Color Overlay Effect to enhance your images. This powerful Java library allows you to work with PSD files efficiently, providing a wide array of functionalities for image processing.
@@ -110,3 +116,10 @@ A4: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for communit
 ### Q5: Are there any free trial options available for Aspose.PSD?
 
 A5: Yes, explore the [free trial](https://releases.aspose.com/) version before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Justera ljusstyrkan för en bild med Aspose.PSD för Java
 linktitle: Justera ljusstyrkan för en bild
 second_title: Aspose.PSD Java API
 description: Förbättra bildens ljusstyrka i Java med Aspose.PSD. Steg-för-steg-guide för att justera bildens ljusstyrka programmatiskt.
-type: docs
 weight: 21
 url: /sv/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Justera ljusstyrkan för en bild med Aspose.PSD för Java
+
 ## Introduktion
 
 Att förbättra bilder är ett vanligt krav inom grafisk design och digital fotografering. Aspose.PSD för Java tillhandahåller en kraftfull lösning för att justera bildens ljusstyrka programmatiskt. I den här handledningen kommer vi att utforska hur man använder Aspose.PSD för Java-biblioteket för att justera ljusstyrkan på en bild, steg för steg.
@@ -107,3 +113,9 @@ S3: Justeringsintervallet beror på bildinnehållet och formatet, men Aspose.PSD
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.PSD för Java?
 
  S5: Ja, du kan utforska biblioteket med en gratis provperiod från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

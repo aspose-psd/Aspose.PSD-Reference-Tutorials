@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中添加纯色描边层
 linktitle: 添加纯色描边层
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD 增强您的 .NET 图像处理技能。学习逐步添加纯色描边层。
-type: docs
 weight: 11
 url: /zh/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中添加纯色描边层
+
 ## 介绍
 
 在 .NET 开发领域，创建具有视觉吸引力的图像是一项常见要求。Aspose.PSD for .NET 提供了一套强大的工具来无缝处理和增强图像。其中一个基本功能是添加纯色描边层，为您的图像带来活力和深度。在本教程中，我们将指导您使用 Aspose.PSD for .NET 逐步完成该过程。
@@ -130,3 +136,9 @@ A2：当然可以！Aspose.PSD for .NET 是一个商业产品，您可以通过�
 ### Q5：如何获得 Aspose.PSD for .NET 的支持？
 
  A5：访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)寻求帮助并与社区建立联系。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

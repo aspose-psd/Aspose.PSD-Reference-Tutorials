@@ -3,10 +3,16 @@ title: Java kullanarak PSD Dosyalarına Bağlantılı Katman Desteği Ekleme
 linktitle: Java kullanarak PSD Dosyalarına Bağlantılı Katman Desteği Ekleme
 second_title: Aspose.PSD Java API'si
 description: Bu ayrıntılı adım adım eğitimle Aspose.PSD for Java kullanarak PSD dosyalarına bağlantılı katman desteğinin nasıl ekleneceğini öğrenin. Tasarımcılar ve geliştiriciler için mükemmeldir.
-type: docs
 weight: 19
 url: /tr/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PSD Dosyalarına Bağlantılı Katman Desteği Ekleme
+
 ## giriiş
 Adobe Photoshop'un .PSD dosyaları, çok yönlü katman yönetimi yetenekleri nedeniyle grafik tasarımcıları ve dijital sanatçılar arasında favoridir. PSD dosyalarını programlı olarak değiştirme dünyasına daldığınızda bağlantılı katmanların iş akışınızı nasıl geliştirebileceğini keşfetmek isteyebilirsiniz. Bağlantılı katmanlar, kullanıcıların bağımsız katman işlevlerini korurken aynı zamanda uyumlu bir birim olarak yönetilmesini sağlar. Photoshop dosyalarıyla çalışmayı çocuk oyuncağı haline getiren güçlü bir kütüphane olan Java için Aspose.PSD'ye girin. 
 Bu yazıda Java'daki Aspose.PSD kütüphanesini kullanarak PSD dosyalarına bağlantılı katman desteğinin nasıl ekleneceğine detaylı bir şekilde bakacağız. İster deneyimli bir geliştirici ister acemi olun, bu adım adım kılavuz, görevde sorunsuz bir şekilde ilerlemenize yardımcı olacaktır.
@@ -99,3 +105,9 @@ Evet, Java tabanlı bir kütüphane olduğundan Java'yı destekleyen her platfor
  Kapsamlı belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/psd/java/).
 ### Sorunla karşılaşırsam nasıl destek alabilirim?
  Herhangi bir sorunla karşılaşırsanız, şuradan yardım alabilirsiniz.[destek forumu](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

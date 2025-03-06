@@ -3,10 +3,16 @@ title: Ondersteuning van het Gradient Overlay-effect in Aspose.PSD voor .NET
 linktitle: Ondersteuning van het Gradient Overlay-effect
 second_title: Aspose.PSD .NET-API
 description: Verbeter de grafische weergave in .NET met Aspose.PSD. Deze tutorial begeleidt u bij het ondersteunen van Gradient Overlay-effecten.
-type: docs
 weight: 18
 url: /nl/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van het Gradient Overlay-effect in Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het ondersteunen van het Gradient Overlay-effect in Aspose.PSD voor .NET! Als u de grafische mogelijkheden van uw .NET-toepassing wilt verbeteren, is deze stapsgewijze handleiding hier om u te helpen. We verdiepen ons in de fijne kneepjes van het maken en bewerken van het Gradient Overlay-effect in een laag met behulp van Aspose.PSD, een krachtige bibliotheek die de beeldverwerking vereenvoudigt.
@@ -133,3 +139,9 @@ A2: Ja, u kunt verschillende effecten, waaronder Gradient Overlay, op één laag
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor Aspose.PSD?
 
  A5: Bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) voor gemeenschapssteun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

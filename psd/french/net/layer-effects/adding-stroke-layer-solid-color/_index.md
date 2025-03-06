@@ -3,10 +3,16 @@ title: Ajout d'un calque de trait avec une couleur unie dans Aspose.PSD pour .NE
 linktitle: Ajout d'un calque de trait avec une couleur unie
 second_title: API Aspose.PSD.NET
 description: Améliorez vos compétences en manipulation d'images .NET avec Aspose.PSD. Apprenez à ajouter des calques de traits avec des couleurs unies, étape par étape.
-type: docs
 weight: 11
 url: /fr/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout d'un calque de trait avec une couleur unie dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le domaine du développement .NET, la création d’images visuellement attrayantes est une exigence courante. Aspose.PSD pour .NET fournit un ensemble d'outils puissants pour manipuler et améliorer les images de manière transparente. L'une des fonctionnalités essentielles consiste à ajouter un calque de trait avec une couleur unie, qui apporte du dynamisme et de la profondeur à vos images. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus en utilisant Aspose.PSD pour .NET.
@@ -130,3 +136,9 @@ A2 : Absolument ! Aspose.PSD pour .NET est un produit commercial et vous pouvez 
 ### Q5 : Comment puis-je obtenir une assistance pour Aspose.PSD pour .NET ?
 
  A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour demander de l'aide et entrer en contact avec la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: นำเข้ารูปภาพไปยังเลเยอร์ 
 linktitle: นำเข้ารูปภาพไปยังเลเยอร์ PSD โดยใช้ Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีนำเข้ารูปภาพไปยังเลเยอร์ PSD โดยใช้ Aspose.PSD สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้
-type: docs
 weight: 17
 url: /th/java/psd-image-modification-conversion/import-images-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# นำเข้ารูปภาพไปยังเลเยอร์ PSD โดยใช้ Aspose.PSD Java
+
 ## การแนะนำ
 เมื่อพูดถึงการทำงานกับไฟล์ PSD การมีเครื่องมือที่เหมาะสมสามารถสร้างความแตกต่างได้ ไม่ว่าคุณจะมีส่วนร่วมในการออกแบบกราฟิก ศิลปะดิจิทัล หรือแม้แต่พยายามเพิ่มสีสันให้กับการนำเสนอ การทำความเข้าใจวิธีจัดการเลเยอร์ PSD สามารถปลดล็อกโลกแห่งความคิดสร้างสรรค์ได้ ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีนำเข้ารูปภาพไปยังเลเยอร์ PSD โดยใช้ Aspose.PSD สำหรับ Java คู่มือนี้ออกแบบมาเพื่อแนะนำคุณผ่านแต่ละขั้นตอนในลักษณะที่เรียบง่ายและน่าดึงดูด คว้ากาแฟสักแก้วแล้วมาดำดิ่งสู่สาระสำคัญของการปรับแต่งภาพในไฟล์ PSD กัน
 ## ข้อกำหนดเบื้องต้น
@@ -85,3 +91,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารีที่ช
  ท่านสามารถเยี่ยมชมได้ที่[กำหนดฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34) เพื่อรับความช่วยเหลือจากชุมชนและผู้เชี่ยวชาญของ Aspose
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร
  คุณสามารถซื้อใบอนุญาตได้โดยไปที่[กำหนดหน้าการซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

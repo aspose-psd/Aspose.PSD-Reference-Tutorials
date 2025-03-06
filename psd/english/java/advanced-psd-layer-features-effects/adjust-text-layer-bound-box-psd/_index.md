@@ -3,10 +3,16 @@ title: Adjust Text Layer Bound Box in PSD using Java
 linktitle: Adjust Text Layer Bound Box in PSD using Java
 second_title: Aspose.PSD Java API
 description: Learn to adjust text layer boundaries in PSD files using Java with Aspose.PSD. Simple guide with step-by-step instructions.
-type: docs
 weight: 25
 url: /java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjust Text Layer Bound Box in PSD using Java
+
 ## Introduction
 When it comes to manipulating Photoshop documents programmatically, the Aspose.PSD library for Java shines bright. If you're looking to adjust the boundaries of a text layer in a PSD file, you've landed in the right place! This tutorial will take you step-by-step through the process of adjusting the text layer's bound box using Java.
 With easy-to-follow examples and a touch of conversational tone to keep things engaging, you’ll find that manipulating PSD files isn't as daunting as it might sound. Whether you’re a seasoned developer or just getting started with Java, you’ll find valuable insights here. Let’s dive into the exciting world of PSD manipulation.
@@ -80,3 +86,10 @@ Yes, Aspose.PSD is available for various programming platforms, including .NET a
 You can find support and community discussions on their [Aspose Forum](https://forum.aspose.com/c/psd/34).
 ### Is there a trial version available for Aspose.PSD?
 Yes! You can download a free trial version from the [Aspose website](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

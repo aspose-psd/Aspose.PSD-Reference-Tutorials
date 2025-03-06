@@ -3,10 +3,16 @@ title: Áp dụng Bộ lọc cho tệp PNG trong Aspose.PSD cho Java
 linktitle: Áp dụng Bộ lọc cho tệp PNG trong Aspose.PSD cho Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách áp dụng bộ lọc cho hình ảnh PNG trong Aspose.PSD cho Java với hướng dẫn chi tiết này. Các bước đơn giản để có kết quả hình ảnh tuyệt đẹp.
-type: docs
 weight: 10
 url: /vi/java/optimizing-png-files/apply-filters-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Bộ lọc cho tệp PNG trong Aspose.PSD cho Java
+
 ## Giới thiệu
 Bạn đang tìm cách cải thiện các tệp PNG của mình bằng Aspose.PSD cho Java? Bạn đã đến đúng nơi! Trong bài viết hôm nay, chúng ta sẽ khám phá cách áp dụng bộ lọc cho hình ảnh PNG bằng thư viện đa năng này. Cho dù bạn là một lập trình viên mới vào nghề hay một nhà phát triển có kinh nghiệm, hướng dẫn này sẽ hướng dẫn bạn từng bước một cách rõ ràng và ngắn gọn. Cuối cùng, bạn sẽ hiểu rõ về cách xử lý hình ảnh như một người chuyên nghiệp.
 ## Điều kiện tiên quyết
@@ -65,3 +71,9 @@ Aspose.PSD cho Java là thư viện cho phép các nhà phát triển làm việ
 Aspose.PSD hỗ trợ nhiều loại bộ lọc PNG bao gồm Paeth, Sub, Up, Average và None. Bạn có thể lựa chọn theo nhu cầu của bạn.
 ### Tôi có thể tìm hỗ trợ cho các vấn đề về Aspose.PSD ở đâu?  
  Bạn có thể nhận trợ giúp và hỗ trợ bằng cách truy cập Diễn đàn Aspose[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

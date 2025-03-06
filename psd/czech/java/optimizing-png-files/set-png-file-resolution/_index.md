@@ -3,10 +3,16 @@ title: Nastavte rozlišení souboru PNG pomocí Aspose.PSD pro Javu
 linktitle: Nastavte rozlišení souboru PNG pomocí Aspose.PSD pro Javu
 second_title: Aspose.PSD Java API
 description: Prozkoumejte, jak nastavit rozlišení souboru PNG pomocí Aspose.PSD for Java s tímto podrobným návodem krok za krokem. Optimalizujte své obrázky během okamžiku.
-type: docs
 weight: 13
 url: /cs/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte rozlišení souboru PNG pomocí Aspose.PSD pro Javu
+
 ## Zavedení
 Chcete optimalizovat rozlišení souborů PNG pomocí Javy? Pokud je odpověď ano, pak jste přistáli na správném místě! Dnes se ponoříme do světa Aspose.PSD for Java, výkonné knihovny pro manipulaci se soubory Photoshop PSD a jejich převod do jiných formátů, jako je PNG. Ať už jste vývojář, který fušuje do zpracování obrazu, nebo jen někdo, kdo chce zlepšit kvalitu obrazu programově, tento průvodce je pro vás šitý na míru. 
 tomto komplexním tutoriálu pokryjeme vše od nezbytných předpokladů až po podrobné pokyny krok za krokem, jak efektivně nastavit rozlišení souboru PNG. Takže si vezměte svou oblíbenou svačinu a můžeme začít!
@@ -71,3 +77,9 @@ Ano, i když je k dispozici bezplatná zkušební verze, po vyzkoušení je pro 
 Aspose.PSD řeší mnoho běžných problémů, ale pokud je soubor vážně poškozen, nemusí se načíst. Vždy mějte zálohu.
 ### Je Aspose.PSD vhodný pro vysoce výkonné aplikace?
 Ano, je navržen tak, aby efektivně zpracovával velké soubory a je vhodný pro úlohy zpracování obrazu náročné na výkon.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

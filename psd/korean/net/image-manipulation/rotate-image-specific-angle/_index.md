@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 특정 각도로 이미지 회전
 linktitle: 특정 각도로 이미지 회전하기
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD의 강력한 기능을 살펴보세요. 특정 각도로 이미지를 쉽게 회전할 수 있습니다. 라이브러리를 다운로드하고 이미지를 원활하게 조작해 보세요.
-type: docs
 weight: 16
 url: /ko/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 특정 각도로 이미지 회전
+
 .NET을 사용하여 이미지 조작의 세계를 탐구하고 있다면 Aspose.PSD가 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.PSD를 사용하여 이미지를 특정 각도로 회전하는 과정을 안내합니다. 단계를 시작하기 전에 소개를 통해 기본을 설정해 보겠습니다.
 
 ## 소개
@@ -104,3 +110,9 @@ A3: 필수는 아니지만 데이터 캐싱은 특히 큰 이미지의 경우 �
 ### Q5: 구매하기 전에 Aspose.PSD를 사용해 볼 수 있나요?
 
  A5: 물론이죠! 당신의[무료 평가판](https://releases.aspose.com/)도서관의 기능을 탐색합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

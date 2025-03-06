@@ -3,10 +3,16 @@ title: Расширение и обрезка изображений в Aspose.P
 linktitle: Расширение и обрезка изображений
 second_title: Aspose.PSD .NET API
 description: Узнайте, как динамически расширять и обрезать изображения с помощью Aspose.PSD для .NET. Следуйте нашему пошаговому руководству, чтобы без проблем манипулировать изображениями.
-type: docs
 weight: 13
 url: /ru/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширение и обрезка изображений в Aspose.PSD для .NET
+
 ## Введение
 
 Aspose.PSD для .NET — это комплексная библиотека изображений, которая позволяет разработчикам работать с различными форматами изображений в своих .NET-приложениях. Одной из его выдающихся особенностей является возможность легко манипулировать изображениями. В этом уроке мы сосредоточимся на расширении и обрезке изображений, предоставив вам практическое руководство по решению этих задач с помощью Aspose.PSD.
@@ -98,3 +104,9 @@ rasterImage.Save(destName, new JpegOptions(), destRect);
 ### Вопрос 5: Где я могу приобрести Aspose.PSD для .NET?
 
  A5: Вы можете купить библиотеку на[Страница покупки Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

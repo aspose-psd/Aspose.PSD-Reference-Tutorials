@@ -3,10 +3,16 @@ title: Stöd SoCo Resource i PSD-filer med Java
 linktitle: Stöd SoCo Resource i PSD-filer med Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du manipulerar SoCo-resurser i PSD-filer med Aspose.PSD för Java med denna steg-för-steg handledning.
-type: docs
 weight: 22
 url: /sv/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stöd SoCo Resource i PSD-filer med Java
+
 ## Introduktion
 Att arbeta med PSD-filer kan vara lite som att navigera i en komplex labyrint, särskilt om du dyker ner i krångligheterna med lager och resurser. Lyckligtvis kan verktyg som Aspose.PSD för Java förenkla denna process, vilket gör det möjligt för utvecklare att manipulera Photoshop-filer programmatiskt. I den här handledningen går vi igenom hur du stödjer SoCo-resurser i PSD-filer med Java, vilket gör ditt liv mycket enklare. 
 Oavsett om du är en erfaren utvecklare eller bara får fötterna våta i bildbehandlingsvärlden, kommer den här guiden att ta ner komplexiteten i lättsmälta steg, vilket säkerställer att du avslutar din resa med en gedigen förståelse.
@@ -111,3 +117,9 @@ Aspose.PSD för Java är ett bibliotek som tillåter utvecklare att manipulera P
  Ja, det finns en dedikerad[supportforum](https://forum.aspose.com/c/psd/34).
 ### Vilka typer av resurser kan jag manipulera i en PSD-fil?
 Du kan manipulera olika resurser, inklusive lager, fyllningslager och SoCo-resurser i PSD-filen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

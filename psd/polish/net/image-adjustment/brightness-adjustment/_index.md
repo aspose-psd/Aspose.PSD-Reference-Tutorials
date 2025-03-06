@@ -3,10 +3,16 @@ title: Implementowanie regulacji jasności w Aspose.PSD dla .NET
 linktitle: Wdrażanie regulacji jasności
 second_title: Aspose.PSD API .NET
 description: Poznaj moc Aspose.PSD dla .NET w dostosowywaniu jasności obrazu. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową implementację.
-type: docs
 weight: 10
 url: /pl/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementowanie regulacji jasności w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Poprawianie i dostosowywanie atrybutów obrazu jest powszechnym wymaganiem w różnych aplikacjach, a Aspose.PSD dla .NET zapewnia potężne rozwiązanie do płynnego manipulowania plikami PSD. Jedną z takich manipulacji jest regulacja jasności, która pozwala na łatwą modyfikację jasności obrazu.
@@ -97,3 +103,9 @@ Aspose.PSD dla .NET upraszcza proces wdrażania regulacji jasności w plikach PS
 ### P5: Jak uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
  Odpowiedź 5: Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

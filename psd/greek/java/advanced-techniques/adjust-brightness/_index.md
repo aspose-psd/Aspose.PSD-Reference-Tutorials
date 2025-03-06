@@ -3,10 +3,16 @@ title: Προσαρμόστε τη φωτεινότητα μιας εικόνα�
 linktitle: Προσαρμόστε τη φωτεινότητα μιας εικόνας
 second_title: Aspose.PSD Java API
 description: Βελτιώστε τη φωτεινότητα της εικόνας σε Java με το Aspose.PSD. Οδηγός βήμα προς βήμα για τη ρύθμιση της φωτεινότητας της εικόνας μέσω προγραμματισμού.
-type: docs
 weight: 21
 url: /el/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τη φωτεινότητα μιας εικόνας με το Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Η βελτίωση των εικόνων είναι μια κοινή απαίτηση στη γραφιστική και την ψηφιακή φωτογραφία. Το Aspose.PSD για Java παρέχει μια ισχυρή λύση για τη ρύθμιση της φωτεινότητας της εικόνας μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να χρησιμοποιήσετε τη βιβλιοθήκη Aspose.PSD για Java για να προσαρμόσετε τη φωτεινότητα μιας εικόνας, βήμα προς βήμα.
@@ -107,3 +113,9 @@ A3: Το εύρος προσαρμογής εξαρτάται από το περ
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.PSD για Java;
 
  A5: Ναι, μπορείτε να εξερευνήσετε τη βιβλιοθήκη με μια δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

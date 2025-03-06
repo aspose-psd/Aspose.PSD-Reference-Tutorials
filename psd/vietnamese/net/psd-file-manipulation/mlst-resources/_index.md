@@ -3,10 +3,16 @@ title: Nắm vững việc xử lý tài nguyên MLST trong Aspose.PSD cho .NET
 linktitle: Xử lý tài nguyên MLST
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách thao tác trạng thái lớp trong tệp Photoshop bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý Tài nguyên MLST hiệu quả.
-type: docs
 weight: 14
 url: /vi/net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững việc xử lý tài nguyên MLST trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn chuyên sâu về cách xử lý Tài nguyên MLST (Trạng thái nhiều lớp) trong Aspose.PSD cho .NET. Aspose.PSD for .NET là một thư viện mạnh mẽ cung cấp các khả năng mở rộng để làm việc với các tệp Photoshop. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc hỗ trợ Tài nguyên MLST, cung cấp cơ chế cấp thấp để thao tác các trạng thái lớp một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/net/).
 ### Câu hỏi 5: Làm cách nào để mua giấy phép Aspose.PSD cho .NET?
 
  A5: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kiểm soát việc phân bổ lại bộ đệm trong tệp PSD
 linktitle: Kiểm soát việc phân bổ lại bộ đệm trong tệp PSD
 second_title: API Java Aspose.PSD
 description: Quản lý phân bổ lại bộ đệm trong tệp PSD bằng Aspose.PSD cho Java. Tìm hiểu cách tối ưu hóa bộ nhớ và xử lý tệp một cách hiệu quả—lý tưởng cho các nhà phát triển.
-type: docs
 weight: 22
 url: /vi/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiểm soát việc phân bổ lại bộ đệm trong tệp PSD
+
 ## Giới thiệu
 Khi làm việc với hình ảnh và tệp Photoshop theo chương trình, hiệu quả là yếu tố then chốt. Aspose.PSD cho Java cung cấp các tính năng mạnh mẽ để quản lý và thao tác các tệp PSD một cách liền mạch. Một trong những khía cạnh cơ bản của việc tối ưu hóa hiệu suất là kiểm soát việc phân bổ lại bộ đệm. Quản lý bộ đệm giúp duy trì sự cân bằng giữa việc sử dụng bộ nhớ và ổ đĩa, đảm bảo ứng dụng của bạn chạy trơn tru, không gặp sự cố hoặc chậm đột ngột. 
 ## Điều kiện tiên quyết
@@ -127,3 +133,9 @@ Aspose.PSD là thư viện dành cho các nhà phát triển .NET và Java để
 Aspose.PSD là một thư viện trả phí, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn trên[trang web](https://releases.aspose.com/).
 ### Điều gì xảy ra nếu tôi không vứt bỏ đồ vật?
 Việc không xử lý các đối tượng có thể dẫn đến rò rỉ bộ nhớ, khiến ứng dụng của bạn sử dụng nhiều tài nguyên hơn mức cần thiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

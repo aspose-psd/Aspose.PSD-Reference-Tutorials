@@ -3,10 +3,16 @@ title: Dibujar líneas en Java
 linktitle: Dibujar líneas en Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a dibujar líneas en archivos PSD usando Aspose.PSD para Java con este completo tutorial. Mejore sus habilidades de desarrollo de Java.
-type: docs
 weight: 16
 url: /es/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dibujar líneas en Java
+
 ## Introducción
 En el ámbito del desarrollo de Java, manipular y crear archivos PSD (Documentos de Photoshop) mediante programación es una capacidad poderosa. Aspose.PSD para Java permite a los desarrolladores realizar diversas tareas, como dibujar líneas, formas e imágenes directamente dentro de archivos PSD. Este tutorial lo guiará a través del proceso de dibujar líneas usando Aspose.PSD para Java, brindándole pasos claros y ejemplos para ayudarlo a comenzar rápidamente.
 ## Requisitos previos
@@ -74,3 +80,9 @@ Aspose.PSD para Java es una potente biblioteca Java para trabajar con archivos P
  Para soporte técnico, visite el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
 ### ¿Dónde puedo obtener una licencia temporal de Aspose.PSD para Java?
  Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

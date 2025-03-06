@@ -3,10 +3,16 @@ title: Ekstrak Thumbnail dari JFIF di Java
 linktitle: Ekstrak Thumbnail dari JFIF di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengekstrak thumbnail dari gambar JFIF menggunakan Aspose.PSD untuk Java. Tutorial komprehensif dengan panduan langkah demi langkah dan contoh kode.
-type: docs
 weight: 14
 url: /id/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Thumbnail dari JFIF di Java
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengekstrak thumbnail dari gambar JFIF menggunakan Aspose.PSD untuk Java. Aspose.PSD adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk memanipulasi dan bekerja dengan PSD, PSB, BMP, JPEG, PNG, dan format gambar lainnya secara terprogram. Mengekstrak thumbnail adalah tugas umum dalam pemrosesan gambar, terutama ketika berhadapan dengan kumpulan gambar atau aplikasi multimedia yang besar.
 ## Prasyarat
@@ -78,3 +84,9 @@ Aspose.PSD untuk Java adalah perpustakaan Java yang memungkinkan pengembang untu
  Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/psd/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD untuk Java?
  Anda bisa mendapatkan dukungan dari forum komunitas Aspose.PSD[Di Sini](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

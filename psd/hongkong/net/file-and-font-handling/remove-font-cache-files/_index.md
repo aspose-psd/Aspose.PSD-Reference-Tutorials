@@ -3,10 +3,16 @@ title: 刪除 Aspose.PSD for .NET 中的字體快取文件
 linktitle: 刪除字體快取文件
 second_title: Aspose.PSD .NET API
 description: 透過刪除字體快取檔案來優化 Aspose.PSD 的 .NET 效能。請遵循我們的逐步指南以實現無縫執行。
-type: docs
 weight: 15
 url: /zh-hant/net/file-and-font-handling/remove-font-cache-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 刪除 Aspose.PSD for .NET 中的字體快取文件
+
 ## 介紹
 
 您在使用 Aspose.PSD for .NET 時是否遇到與字體相關的挑戰？刪除字體快取檔案可能是有效解決這些問題的關鍵。在這個綜合教程中，我們將逐步指導您完成流程。在我們深入之前，讓我們確保您擁有所需的一切。
@@ -93,3 +99,9 @@ A2：雖然可能，但建議刪除字體快取文件，以防止應用程式中
 ### Q5：我可以購買 Aspose.PSD for .NET 嗎？
 
  A5：當然！訪問[這裡](https://purchase.aspose.com/buy)探索 Aspose.PSD for .NET 的購買選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

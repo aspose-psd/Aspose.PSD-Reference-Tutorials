@@ -3,10 +3,16 @@ title: Stroke Effects hozzáadása a rétegekhez az Aspose.PSD for .NET-ben
 linktitle: Stroke Effects hozzáadása a rétegekhez
 second_title: Aspose.PSD .NET API
 description: Javítsa a kép esztétikáját az Aspose.PSD for .NET segítségével. Lépésről lépésre tanulja meg a stroke hatások hozzáadását. Töltse le, vásárolja meg vagy próbálja ki az ingyenes próbaverziót most.
-type: docs
 weight: 10
 url: /hu/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stroke Effects hozzáadása a rétegekhez az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésenkénti oktatóanyagban, amely az Aspose.PSD for .NET rétegeihez vonóeffektusok hozzáadásával foglalkozik. A képek vizuális vonzerejének fokozása a körvonal-effektussal gyerekjáték, az Aspose.PSD pedig zökkenőmentessé teszi a .NET-fejlesztők számára. Ebben az útmutatóban végigvezetjük a folyamaton, világos lépéseket és példákat adva, amelyek segítenek elsajátítani ezt a hatékony funkciót.
@@ -109,3 +115,9 @@ A2: Abszolút! Az Aspose.PSD-t úgy tervezték, hogy zökkenőmentesen integrál
 ### 5. kérdés: Használhatom a próbaverziót az Aspose.PSD megvásárlása előtt?
 
  A5: Természetesen! Fogd meg a[ingyenes próbaverzió](https://releases.aspose.com/) hogy vásárlás előtt fedezze fel az Aspose.PSD képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

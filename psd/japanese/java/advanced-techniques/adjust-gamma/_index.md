@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で画像のガンマを調整する
 linktitle: 画像のガンマを調整する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して、画像のガンマを簡単に調整する方法を学びます。最適な結果を得るには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 23
 url: /ja/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で画像のガンマを調整する
+
 ## 導入
 
 画像処理の分野では、画像のガンマを調整することは、その見た目の魅力を高めるための重要なステップです。Aspose.PSD for Java は、Java 開発者が画像のガンマを簡単に操作できる強力なソリューションを提供します。このチュートリアルでは、Aspose.PSD を使用してガンマを調整する方法を、各ステップを詳しく説明して、シームレスな実装を実現します。
@@ -108,3 +114,9 @@ rasterImage.save(destName, tiffOptions);
 ### Q5: Aspose.PSD のサポートはどこで受けられますか?
 
  A5: サポートについては、Aspose.PSDフォーラムをご覧ください。[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

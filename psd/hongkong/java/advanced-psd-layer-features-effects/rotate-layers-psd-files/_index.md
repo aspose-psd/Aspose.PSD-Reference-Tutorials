@@ -3,10 +3,16 @@ title: 使用 Java 旋轉 PSD 檔案中的圖層
 linktitle: 使用 Java 旋轉 PSD 檔案中的圖層
 second_title: Aspose.PSD Java API
 description: 透過此逐步指南，了解如何使用 Aspose.PSD for Java 輕鬆旋轉 PSD 檔案中的圖層。
-type: docs
 weight: 21
 url: /zh-hant/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 旋轉 PSD 檔案中的圖層
+
 ## 介紹
 在圖形設計領域，使用 Photoshop 檔案 (PSD) 是一項常見的活動。無論您是經驗豐富的設計師還是剛開始涉足影像處理，了解如何旋轉 PSD 檔案中的圖層都可以節省時間。但這就是棘手的地方：並不是每個人都可以使用 Adobe Photoshop，也不想學習其複雜的介面。這就是 Java 的用武之地，它使得以程式設計方式操作 PSD 檔案變得更加容易。在本文中，我們將探索強大的 Aspose.PSD for Java 程式庫，它允許您無縫地處理 PSD 文件，包括旋轉圖層。因此，捲起袖子，讓我們深入研究如何讓您的設計工作流程更加順暢！
 ## 先決條件
@@ -89,3 +95,9 @@ im.save(psdPath);
 您可以在以下位置找到全面的文件：[Aspose.PSD 文檔](https://reference.aspose.com/psd/java/).
 ### 如果我在使用 Aspose.PSD 時遇到問題怎麼辦？
 透過以下方式尋求協助[Aspose 支援論壇](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

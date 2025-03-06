@@ -3,10 +3,16 @@ title: Agregar miniatura al segmento JFIF en Java
 linktitle: Agregar miniatura al segmento JFIF en Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo agregar una miniatura a una imagen PSD en Java usando Aspose.PSD paso a paso. Ideal para desarrolladores de Java que buscan mejorar las capacidades de procesamiento de imágenes.
-type: docs
 weight: 11
 url: /es/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar miniatura al segmento JFIF en Java
+
 ## Introducción
 En el ámbito del desarrollo de Java, la integración de capacidades de procesamiento de imágenes es crucial para diversas aplicaciones, desde simples manipulaciones de imágenes hasta complejas tareas de diseño gráfico. Aspose.PSD para Java se destaca como una poderosa biblioteca diseñada para manejar archivos PSD (Documentos de Photoshop) con facilidad. Este tutorial se centra en una tarea específica: agregar una miniatura al segmento JFIF de una imagen usando Aspose.PSD para Java. Al final de esta guía, aprenderá cómo lograr esto paso a paso, asegurándose de comprender cada parte a fondo.
 ## Requisitos previos
@@ -90,3 +96,9 @@ Aspose.PSD para Java es una biblioteca que permite a los desarrolladores de Java
  Sí, puedes descargar una prueba gratuita desde[Página de descarga de prueba de Aspose.PSD](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.PSD para Java?
  Para obtener ayuda, visite el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Eksportuj warstwę dopasowania miksera kanałów w formacie PSD — Java
 linktitle: Eksportuj warstwę dopasowania miksera kanałów w formacie PSD — Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak eksportować warstwy dopasowania miksera kanałów do pliku PSD przy użyciu Aspose.PSD dla Java. Przewodnik krok po kroku dotyczący modyfikowania warstw RGB i CMYK, zapisywania zmian i eksportowania do formatu PNG.
-type: docs
 weight: 14
 url: /pl/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj warstwę dopasowania miksera kanałów w formacie PSD — Java
+
 ## Wstęp
 
 Jeśli chodzi o edycję obrazów, zwłaszcza plików Adobe Photoshop (PSD), kluczowe znaczenie ma efektywne zarządzanie warstwami. Wśród tych warstw kluczową rolę w dostosowywaniu balansu kolorów obrazu odgrywa warstwa dopasowania miksera kanałów. Jeśli jesteś programistą Java i chcesz programowo manipulować tymi warstwami, masz szczęście! W tym artykule przeprowadzimy Cię przez proces eksportowania warstw dopasowania miksera kanałów przy użyciu Aspose.PSD dla Java. Pod koniec tego przewodnika będziesz dobrze przygotowany do obsługi warstw dopasowania miksera kanałów RGB i CMYK, zapisywania zmian i eksportowania końcowego obrazu w formatach PSD i PNG.
@@ -168,3 +174,9 @@ Tak, możesz przeglądać katalog plików PSD i stosować te same zmiany do każ
 
 ### Czy potrzebuję licencji, aby używać Aspose.PSD dla Java?  
  Tak, Aspose.PSD for Java jest produktem licencjonowanym. Można uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do testowania lub kup pełną licencję.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

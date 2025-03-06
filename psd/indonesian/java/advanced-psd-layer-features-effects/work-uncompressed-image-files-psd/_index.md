@@ -3,10 +3,16 @@ title: Bekerja dengan File Gambar Tidak Terkompresi di PSD menggunakan Java
 linktitle: Bekerja dengan File Gambar Tidak Terkompresi di PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara bekerja dengan file gambar yang tidak terkompresi dalam format PSD menggunakan Java dan perpustakaan Aspose.PSD dalam tutorial langkah demi langkah yang komprehensif ini.
-type: docs
 weight: 27
 url: /id/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan File Gambar Tidak Terkompresi di PSD menggunakan Java
+
 ## Perkenalan
 Saat bekerja dengan dokumen Photoshop (PSD) di Java, penting untuk memahami cara memanipulasi dan menyimpan file gambar kaya ini secara efektif. Dalam tutorial ini, kita akan mendalami penggunaan Aspose.PSD, API tangguh yang menyederhanakan pengelolaan file PSD, termasuk bekerja dengan gambar yang tidak terkompresi. Baik Anda seorang pengembang yang ingin menyempurnakan aplikasi Anda dengan grafis yang kaya atau Anda hanya ingin memproses file PSD di Java tanpa kerumitan, panduan ini akan memandu Anda melalui setiap langkahnya. Siap untuk memulai? Ayo masuk!
 ## Prasyarat
@@ -84,3 +90,9 @@ Ada uji coba gratis yang tersedia, tetapi untuk penggunaan ekstensif dan akses k
  Anda dapat menghubungi melalui[Asumsikan forum dukungan](https://forum.aspose.com/c/psd/34) untuk bantuan.
 ### Apakah Aspose.PSD mendukung penyimpanan dalam format selain PSD?
 Ya, Aspose.PSD memungkinkan penyimpanan dalam berbagai format seperti PNG, JPEG, dan lainnya, bergantung pada kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Grayscaling Images with Aspose.PSD for .NET
 linktitle: Grayscaling Images with Aspose.PSD for .NET
 second_title: Aspose.PSD .NET API
 description: Learn how to effortlessly apply grayscale effects to images using Aspose.PSD for .NET.
-type: docs
 weight: 14
 url: /net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grayscaling Images with Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to our comprehensive tutorial on grayscaling images using Aspose.PSD for .NET! Grayscaling is a powerful technique that can enhance the visual appeal of your images by converting them to shades of gray. In this guide, we will walk you through the process of achieving stunning grayscale effects effortlessly.
@@ -108,3 +114,10 @@ A4: Yes, you can download the library from the [release page](https://releases.a
 ### Q5: How do I purchase a license for Aspose.PSD for .NET?
 
 A5: You can buy a license from the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

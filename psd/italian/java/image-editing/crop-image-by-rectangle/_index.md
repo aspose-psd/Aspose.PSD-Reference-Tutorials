@@ -3,10 +3,16 @@ title: Ritaglia immagine per rettangolo in Aspose.PSD per Java
 linktitle: Ritaglia l'immagine per rettangolo
 second_title: API Java Aspose.PSD
 description: Esplora le funzionalità di ritaglio delle immagini senza soluzione di continuità in Java con Aspose.PSD. Segui la nostra guida passo passo per ritagliare le immagini senza sforzo utilizzando Aspose.PSD per Java.
-type: docs
 weight: 15
 url: /it/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ritaglia immagine per rettangolo in Aspose.PSD per Java
+
 ## Introduzione
 
 Nel mondo dello sviluppo Java, la manipolazione delle immagini è un compito comune e Aspose.PSD per Java fornisce una potente soluzione per l'elaborazione delle immagini. In questo tutorial, ti guideremo attraverso il processo di ritaglio di un'immagine tramite un rettangolo utilizzando Aspose.PSD per Java. Segui i passaggi seguenti per raggiungere questo obiettivo con facilità.
@@ -105,3 +111,9 @@ A1: Sì, Aspose.PSD per Java può essere integrato con vari framework Java, forn
 ### Q5: Quali sono i formati di immagine supportati per il ritaglio in Aspose.PSD per Java?
 
 A5: Aspose.PSD per Java supporta vari formati di immagine, inclusi PSD, PNG, JPEG e altri.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

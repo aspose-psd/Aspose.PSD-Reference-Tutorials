@@ -3,10 +3,16 @@ title: Làm việc với tệp PSD
 linktitle: Làm việc với tệp PSD
 second_title: API Java Aspose.PSD
 description: Khám phá các hướng dẫn toàn diện về Aspose.PSD cho Java, bao gồm cách xuất các nhóm lớp PSD sang hình ảnh và thao tác các tài nguyên Clbl, Infx và Lspf.
-type: docs
 weight: 26
 url: /vi/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với tệp PSD
+
 
 ## Giới thiệu
 
@@ -37,3 +43,9 @@ Tìm hiểu cách hỗ trợ và thao tác Tài nguyên Clbl trong tệp PSD b�
 Tìm hiểu cách thao tác Tài nguyên Infx trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
 ### [Hỗ trợ tài nguyên Lspf trong tệp PSD bằng Java](./support-lspf-resource-psd-files/)
 Nắm vững cách hỗ trợ và thao tác Tài nguyên Lspf trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

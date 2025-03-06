@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD에서 텍스트 레이어 바운드 상자 조�
 linktitle: Java를 사용하여 PSD에서 텍스트 레이어 바운드 상자 조정
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD와 함께 Java를 사용하여 PSD 파일의 텍스트 레이어 경계를 조정하는 방법을 알아보세요. 단계별 지침이 포함된 간단한 가이드입니다.
-type: docs
 weight: 25
 url: /ko/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD에서 텍스트 레이어 바운드 상자 조정
+
 ## 소개
 Photoshop 문서를 프로그래밍 방식으로 조작할 때 Java용 Aspose.PSD 라이브러리가 빛을 발합니다. PSD 파일에서 텍스트 레이어의 경계를 조정하려는 경우 올바른 위치에 오셨습니다! 이 튜토리얼에서는 Java를 사용하여 텍스트 레이어의 바운드 상자를 조정하는 과정을 단계별로 안내합니다.
 따라하기 쉬운 예제와 흥미를 유발하는 약간의 대화식 톤을 통해 PSD 파일을 조작하는 것이 생각보다 어렵지 않다는 것을 알게 될 것입니다. 숙련된 개발자이든 이제 막 Java를 시작하는 개발자이든 여기에서 귀중한 통찰력을 찾을 수 있습니다. PSD 조작의 흥미로운 세계로 뛰어들어 봅시다.
@@ -80,3 +86,9 @@ Aspose.PSD는 Adobe Photoshop 파일을 프로그래밍 방식으로 조작하�
 해당 사이트에서 지원 및 커뮤니티 토론을 찾을 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD에 사용할 수 있는 평가판이 있습니까?
  예! 다음에서 무료 평가판을 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

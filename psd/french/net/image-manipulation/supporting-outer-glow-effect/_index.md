@@ -3,10 +3,16 @@ title: Prise en charge de l'effet de lueur externe dans Aspose.PSD pour .NET
 linktitle: Prise en charge de l'effet de lueur externe
 second_title: API Aspose.PSD.NET
 description: Explorez la puissance de Outer Glow Effect dans Aspose.PSD pour .NET. Améliorez la conception de vos images avec ce didacticiel étape par étape.
-type: docs
 weight: 16
 url: /fr/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de l'effet de lueur externe dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur la prise en charge de l'effet Outer Glow dans Aspose.PSD pour .NET. Aspose.PSD est une bibliothèque puissante qui permet une manipulation transparente des fichiers PSD dans les applications .NET. Dans ce didacticiel, nous explorerons la mise en œuvre de l'effet Outer Glow et fournirons une procédure détaillée pour l'intégrer dans vos projets.
@@ -114,3 +120,9 @@ A1 : Oui, Aspose.PSD prend en charge un large éventail de frameworks .NET, gara
 ### Q5 : Puis-je acheter Aspose.PSD pour .NET ?
 
  A5 : Oui, explorez les options de licence et effectuez votre achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Điều chỉnh độ sáng của hình ảnh bằng Aspose.PSD cho Java
 linktitle: Điều chỉnh độ sáng của hình ảnh
 second_title: API Java Aspose.PSD
 description: Tăng cường độ sáng hình ảnh trong Java với Aspose.PSD. Hướng dẫn từng bước để điều chỉnh độ sáng hình ảnh theo chương trình.
-type: docs
 weight: 21
 url: /vi/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điều chỉnh độ sáng của hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Nâng cao hình ảnh là yêu cầu chung trong thiết kế đồ họa và nhiếp ảnh kỹ thuật số. Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để điều chỉnh độ sáng hình ảnh theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng thư viện Aspose.PSD cho Java để điều chỉnh độ sáng của hình ảnh theo từng bước.
@@ -107,3 +113,9 @@ Câu trả lời 3: Phạm vi điều chỉnh tùy thuộc vào nội dung và �
 ### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
 
  Câu trả lời 5: Có, bạn có thể khám phá thư viện với bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

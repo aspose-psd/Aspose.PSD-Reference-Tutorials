@@ -3,10 +3,16 @@ title: Εφέ επιπέδου
 linktitle: Εφέ επιπέδου
 second_title: Aspose.PSD .NET API
 description: Ανακαλύψτε τη μαγεία των εφέ επιπέδου με το Aspose.PSD για .NET! Αυξήστε τις δεξιότητες χειρισμού εικόνας μαθαίνοντας να προσθέτετε λειτουργίες stroke, shadow και blend.
-type: docs
 weight: 29
 url: /el/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφέ επιπέδου
+
 ## Εισαγωγή
 
 Απελευθερώστε όλες τις δυνατότητες των προσπαθειών χειρισμού εικόνας σας με το Aspose.PSD για .NET. Αυτός ο περιεκτικός οδηγός σας εισάγει σε μια μυριάδα εφέ επιπέδου που θα μεταμορφώσουν τη δημιουργική σας διαδικασία. Από πινελιές και σκιές μέχρι λειτουργίες συνδυασμού, αναβαθμίστε τα σχέδιά σας χωρίς κόπο.
@@ -54,3 +60,9 @@ url: /el/net/layer-effects/
 Μάθετε πώς να προσαρμόζετε την αδιαφάνεια του εφέ σκιάς στο Aspose.PSD για .NET με αυτό το ολοκληρωμένο σεμινάριο.
 ### [Εργασία με Blend Modes στο Aspose.PSD για .NET](./working-with-blend-modes/)
 Εξερευνήστε τη δύναμη των λειτουργιών ανάμειξης στο Aspose.PSD για .NET. Αυτό το σεμινάριο σάς καθοδηγεί στην εφαρμογή διαφόρων τρόπων ανάμειξης με παραδείγματα βήμα προς βήμα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

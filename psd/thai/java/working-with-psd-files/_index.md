@@ -3,10 +3,16 @@ title: การทำงานกับไฟล์ PSD
 linktitle: การทำงานกับไฟล์ PSD
 second_title: Aspose.PSD Java API
 description: สำรวจบทช่วยสอน Aspose.PSD สำหรับ Java ที่ครอบคลุม รวมถึงวิธีส่งออกกลุ่มเลเยอร์ PSD ไปยังรูปภาพและจัดการทรัพยากร Clbl, Infx และ Lspf
-type: docs
 weight: 26
 url: /th/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับไฟล์ PSD
+
 
 ## การแนะนำ
 
@@ -37,3 +43,9 @@ url: /th/java/working-with-psd-files/
 เรียนรู้วิธีจัดการทรัพยากร Infx ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนที่ครอบคลุมนี้ เหมาะสำหรับนักพัฒนาทุกระดับ
 ### [รองรับทรัพยากร Lspf ในไฟล์ PSD โดยใช้ Java](./support-lspf-resource-psd-files/)
 ฝึกฝนวิธีการสนับสนุนและจัดการทรัพยากร Lspf ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนของเรา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

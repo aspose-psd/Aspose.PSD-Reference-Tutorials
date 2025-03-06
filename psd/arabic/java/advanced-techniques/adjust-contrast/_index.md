@@ -3,10 +3,16 @@ title: ضبط تباين الصورة باستخدام Aspose.PSD لـ Java
 linktitle: ضبط تباين الصورة
 second_title: Aspose.PSD جافا API
 description: استكشف عالم تعديل تباين الصورة في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة لمعالجة الصور بسلاسة.
-type: docs
 weight: 22
 url: /ar/java/advanced-techniques/adjust-contrast/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط تباين الصورة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مجال معالجة الصور باستخدام Java، يبرز Aspose.PSD كأداة قوية. من بين ميزاته التي لا تعد ولا تحصى، يعد ضبط تباين الصورة مطلبًا شائعًا. سيرشدك هذا البرنامج التعليمي خلال عملية ضبط تباين الصورة باستخدام Aspose.PSD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل على إتقان هذا الجانب الأساسي من معالجة الصور.
@@ -107,3 +113,9 @@ rasterImage.save(destName, tiffOptions);
 ### س5: هل يمكنني شراء Aspose.PSD؟
 
  ج5: نعم، يمكنك شراء Aspose.PSD[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

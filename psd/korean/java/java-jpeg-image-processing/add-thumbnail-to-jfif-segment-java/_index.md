@@ -3,10 +3,16 @@ title: Java의 JFIF 세그먼트에 썸네일 추가
 linktitle: Java의 JFIF 세그먼트에 썸네일 추가
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java에서 PSD 이미지에 썸네일을 추가하는 방법을 단계별로 알아보세요. 이미지 처리 기능을 향상시키려는 Java 개발자에게 적합합니다.
-type: docs
 weight: 11
 url: /ko/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 JFIF 세그먼트에 썸네일 추가
+
 ## 소개
 Java 개발 영역에서 이미지 처리 기능을 통합하는 것은 단순한 이미지 조작부터 복잡한 그래픽 디자인 작업에 이르기까지 다양한 애플리케이션에 매우 중요합니다. Aspose.PSD for Java는 PSD(Photoshop Document) 파일을 쉽게 처리하도록 설계된 강력한 라이브러리로 돋보입니다. 이 튜토리얼은 Java용 Aspose.PSD를 사용하여 이미지의 JFIF 세그먼트에 썸네일을 추가하는 특정 작업에 중점을 둡니다. 이 가이드가 끝나면 각 부분을 철저하게 이해하면서 이 단계를 수행하는 방법을 배우게 됩니다.
 ## 전제조건
@@ -90,3 +96,9 @@ Aspose.PSD for Java는 Java 개발자가 프로그래밍 방식으로 PSD 파일
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[Aspose.PSD의 평가판 다운로드 페이지](https://releases.aspose.com/).
 ### Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
  지원을 받으려면 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

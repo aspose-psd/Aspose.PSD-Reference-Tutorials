@@ -3,10 +3,16 @@ title: Thêm hiệu ứng khi chạy trong Aspose.PSD cho .NET
 linktitle: Thêm hiệu ứng khi chạy
 second_title: API Aspose.PSD .NET
 description: Khám phá các cải tiến hình ảnh động bằng Aspose.PSD cho .NET. Thêm hiệu ứng trong thời gian chạy một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/image-effects/add-effect-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng khi chạy trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Nâng cao tính hấp dẫn trực quan của hình ảnh là yêu cầu chung trong các ứng dụng thiết kế đồ họa và xử lý hình ảnh. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm hiệu ứng khi chạy bằng Aspose.PSD cho .NET. Aspose.PSD là một API mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Adobe Photoshop. 
@@ -96,3 +102,9 @@ Câu trả lời 3: Aspose.PSD cung cấp nhiều hiệu ứng, nhưng bạn nê
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ và thảo luận cộng đồng ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

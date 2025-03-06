@@ -3,10 +3,16 @@ title: Téglalapok rajzolása Java nyelven
 linktitle: Téglalapok rajzolása Java nyelven
 second_title: Aspose.PSD Java API
 description: Tanuljon meg téglalapokat rajzolni a képekre az Aspose.PSD for Java segítségével. Ez az oktatóanyag lépésről lépésre vezeti a Java fejlesztőket. Tökéletes képkezelési feladatokhoz.
-type: docs
 weight: 17
 url: /hu/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Téglalapok rajzolása Java nyelven
+
 ## Bevezetés
 A Java fejlesztés világában a képek programozott kezelése és generálása általános követelmény a különböző alkalmazásokban. Az egyik ilyen gyakran előforduló feladat az alakzatok, például téglalapok rajzolása a képekre. Az Aspose.PSD for Java robusztus eszköz- és funkciókészletet kínál ennek hatékony megvalósításához. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a téglalapok képen történő rajzolásán az Aspose.PSD for Java segítségével.
 ## Előfeltételek
@@ -84,3 +90,9 @@ Igen, az Aspose.PSD for Java nagy teljesítményű képfeldolgozásra készült,
  További példákat és részletes dokumentációt találhat a webhelyen[Aspose.PSD a Java dokumentációhoz](https://reference.aspose.com/psd/java/).
 ### Az Aspose.PSD for Java támogatja a BMP-n kívül más képformátumokat is?
 Igen, az Aspose.PSD for Java a képformátumok széles skáláját támogatja, beleértve a PNG, JPEG, TIFF és GIF formátumokat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

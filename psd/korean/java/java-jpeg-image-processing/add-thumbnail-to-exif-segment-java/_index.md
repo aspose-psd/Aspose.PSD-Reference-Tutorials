@@ -3,10 +3,16 @@ title: Java의 EXIF 세그먼트에 썸네일 추가
 linktitle: Java의 EXIF 세그먼트에 썸네일 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 썸네일로 이미지 메타데이터를 향상시키는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 EXIF 세그먼트에 썸네일 추가
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 EXIF 세그먼트에 썸네일을 추가하여 이미지 메타데이터를 향상시키는 방법을 살펴보겠습니다. EXIF(Exchangeable Image File Format) 메타데이터는 디지털 사진에서 중요한 역할을 하며 카메라 설정, 날짜, 위치와 같은 중요한 정보를 제공합니다. 썸네일을 추가하면 이미지를 효율적으로 미리 볼 수 있어 사용자 경험이 향상됩니다.
 ## 전제조건
@@ -66,3 +72,9 @@ EXIF 메타데이터는 카메라 설정, 날짜 및 기타 세부 정보를 포
  Aspose.PSD에 대한 임시 라이선스는 다음에서 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD에 대한 지원은 어떻게 받나요?
  지원을 받으려면 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

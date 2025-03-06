@@ -3,10 +3,16 @@ title: Dessiner à l'aide d'un chemin graphique en Java
 linktitle: Dessiner à l'aide d'un chemin graphique en Java
 second_title: API Java Aspose.PSD
 description: Apprenez à créer des graphiques complexes en Java à l'aide de la classe Graphics Path d'Aspose.PSD. Ce didacticiel vous guide à travers chaque étape d'une création d'image époustouflante.
-type: docs
 weight: 19
 url: /fr/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dessiner à l'aide d'un chemin graphique en Java
+
 ## Introduction
 Créer et manipuler des images par programmation peut être une tâche passionnante pour les développeurs Java, en particulier lorsqu'ils utilisent des bibliothèques comme Aspose.PSD. Dans ce didacticiel, nous allons plonger dans le processus de dessin de graphiques complexes à l'aide de la classe Graphics Path en Java avec Aspose.PSD.
 ## Conditions préalables
@@ -85,3 +91,9 @@ Aspose.PSD est une bibliothèque qui permet aux développeurs de travailler avec
  Vous pouvez acheter Aspose.PSD auprès de[ici](https://purchase.aspose.com/buy).
 ### Où puis-je obtenir de l’aide pour Aspose.PSD ?
 Vous pouvez demander de l'aide et des discussions sur[Forum d'Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

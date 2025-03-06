@@ -3,10 +3,16 @@ title: Manipulasi Gambar Tingkat Lanjut
 linktitle: Manipulasi Gambar Tingkat Lanjut
 second_title: Asumsikan.PSD Java API
 description: Jelajahi tutorial manipulasi gambar tingkat lanjut dengan Aspose.PSD untuk Java. Pelajari penggantian font yang efisien, memaksa cache font, menerapkan resampler bikubik, dan banyak lagi.
-type: docs
 weight: 24
 url: /id/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Gambar Tingkat Lanjut
+
 
 ## Perkenalan
 
@@ -80,3 +86,9 @@ Ubah ukuran gambar master di Java dengan Aspose.PSD. Panduan langkah demi langka
 Jelajahi rotasi gambar di Java dengan mudah menggunakan Aspose.PSD. Putar, balik, dan simpan file PSD dengan mudah.
 ### [Putar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java](./rotate-image-specific-angle/)
 Jelajahi rotasi gambar di Java dengan Aspose.PSD untuk Java. Putar gambar dengan mudah pada sudut tertentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

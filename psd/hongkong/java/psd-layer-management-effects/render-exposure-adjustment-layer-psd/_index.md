@@ -3,10 +3,16 @@ title: PSD 檔案中的渲染曝光調整圖層 - Java
 linktitle: PSD 檔案中的渲染曝光調整圖層 - Java
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 渲染和調整 PSD 檔案中的曝光圖層。包含修改和新增曝光層的程式碼範例的逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 檔案中的渲染曝光調整圖層 - Java
+
 ## 介紹
 
 您是否正在使用 Photoshop PSD 檔案並需要以程式調整曝光或新增曝光調整圖層？無論您是調整現有圖層還是新增圖層，Aspose.PSD for Java 都提供了強大而直覺的方法來處理這些任務。在本指南中，我們將介紹如何使用 Aspose.PSD for Java 渲染和修改 PSD 檔案中的曝光調整圖層。在本教學結束時，您將了解如何調整現有圖層中的曝光設定以及如何將新的曝光調整圖層新增至 PSD 檔案。讓我們深入了解吧！
@@ -138,3 +144,9 @@ Aspose.PSD for Java 是一個函式庫，可讓您使用 Java 以程式設計方
 ### 如何獲得 Aspose.PSD for Java 支援？
 
 如需支持，您可以訪問[Aspose 支援論壇](https://forum.aspose.com/c/psd/34)您可以在其中提出問題並從社區獲得幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

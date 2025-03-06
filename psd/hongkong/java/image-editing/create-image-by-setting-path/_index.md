@@ -3,10 +3,16 @@ title: 透過在Aspose.PSD for Java中設定路徑建立影像
 linktitle: 透過設定路徑建立影像
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 建立 PSD 映像。請按照我們的逐步指南進行無縫影像生成。
-type: docs
 weight: 13
 url: /zh-hant/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透過在Aspose.PSD for Java中設定路徑建立影像
+
 ## 介紹
 
 歡迎閱讀有關使用 Aspose.PSD for Java 建立圖像的逐步教學。在本指南中，我們將探討如何設定路徑和配置選項來產生 PSD 影像。 Aspose.PSD 是一個功能強大的 Java 庫，用於處理 Photoshop 文件，提供了一種以程式設計方式操作和創建圖像的無縫方式。
@@ -107,3 +113,9 @@ A1：是的，Aspose.PSD 可以與各種 Java 整合開發環境 (IDE) 無縫協
 ### Q5：測試需要臨時許可證嗎？
 
  A5：您可以獲得臨時許可證用於測試目的[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

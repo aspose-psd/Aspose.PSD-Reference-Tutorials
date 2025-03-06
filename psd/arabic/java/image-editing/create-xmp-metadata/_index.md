@@ -3,10 +3,16 @@ title: قم بإنشاء بيانات تعريف XMP باستخدام Aspose.PSD
 linktitle: إنشاء بيانات تعريف XMP
 second_title: Aspose.PSD جافا API
 description: قم بتحسين تطبيقات Java الخاصة بك باستخدام Aspose.PSD. تعلم كيفية إنشاء بيانات تعريف XMP بسهولة. اتبع دليلنا خطوة بخطوة الآن.
-type: docs
 weight: 12
 url: /ar/java/image-editing/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء بيانات تعريف XMP باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مجال تطوير Java، تعد إدارة البيانات الوصفية للصور ومعالجتها أمرًا بالغ الأهمية لمختلف التطبيقات. يبرز Aspose.PSD for Java كأداة قوية للتعامل مع ملفات PSD، وفي هذا البرنامج التعليمي، سنتعمق في إنشاء بيانات تعريف XMP باستخدام هذه المكتبة القوية.
@@ -155,3 +161,9 @@ image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 ### س5: أين يمكنني طلب الدعم للاستعلامات المتعلقة بـ Aspose.PSD؟
 
  ج5: للحصول على أي مساعدة أو استفسارات، قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

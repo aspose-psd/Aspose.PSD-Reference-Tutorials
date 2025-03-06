@@ -3,10 +3,16 @@ title: Java के लिए Aspose.PSD के साथ एक छवि का
 linktitle: किसी छवि का गामा समायोजित करें
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java का उपयोग करके आसानी से इमेज गामा को समायोजित करना सीखें। सर्वोत्तम परिणामों के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 23
 url: /hi/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java के लिए Aspose.PSD के साथ एक छवि का गामा समायोजित करें
+
 ## परिचय
 
 छवि प्रसंस्करण के क्षेत्र में, छवि के गामा को समायोजित करना इसकी दृश्य अपील को बढ़ाने के लिए एक महत्वपूर्ण कदम है। जावा के लिए Aspose.PSD जावा डेवलपर्स के लिए छवि गामा को आसानी से हेरफेर करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम Aspose.PSD का उपयोग करके गामा को समायोजित करने का तरीका जानेंगे, एक सहज कार्यान्वयन सुनिश्चित करने के लिए प्रत्येक चरण को तोड़ेंगे।
@@ -108,3 +114,9 @@ rasterImage.save(destName, tiffOptions);
 ### प्रश्न 5: मैं Aspose.PSD के लिए समर्थन कहां से प्राप्त कर सकता हूं?
 
  A5: सहायता के लिए, Aspose.PSD फोरम पर जाएँ[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

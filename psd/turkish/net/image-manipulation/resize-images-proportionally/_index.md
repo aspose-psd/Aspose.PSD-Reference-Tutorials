@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntüleri Orantılı Olarak Yeniden Boyutland
 linktitle: Görüntüleri Orantılı Olarak Yeniden Boyutlandırma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile kusursuz görüntü yeniden boyutlandırmayı keşfedin. Kütüphaneyi indirin, eğitimimizi takip edin ve görüntü işleme yeteneklerinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntüleri Orantılı Olarak Yeniden Boyutlandırma
+
 Görüntü manipülasyonu alanında Aspose.PSD for .NET, geliştiricilere görüntüleri orantısal olarak kolaylıkla yeniden boyutlandırma yeteneği sağlayan güçlü bir araç seti olarak öne çıkıyor. Bu adım adım kılavuzda, Aspose.PSD for .NET kullanarak görselleri yeniden boyutlandırma sürecinde size yol göstereceğiz ve görsellerinizin orantılarını kusursuz bir şekilde korumasını sağlayacağız.
 
 ## giriiş
@@ -100,3 +106,9 @@ Cevap3: Evet, Aspose.PSD for .NET, görüntülere kırpma, döndürme ve filtre 
 ### S5: Aspose.PSD for .NET desteğini nerede bulabilirim?
 
  A5: ziyaret edin[.NET forumu için Aspose.PSD](https://forum.aspose.com/c/psd/34) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm lớp văn bản trên thời gian chạy trong tệp PSD bằng Ja
 linktitle: Thêm lớp văn bản trên thời gian chạy trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm động các lớp văn bản vào tệp PSD bằng Java với Aspose.PSD. Hãy làm theo hướng dẫn từng bước này để có những khả năng tự động hóa thú vị.
-type: docs
 weight: 17
 url: /vi/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp văn bản trên thời gian chạy trong tệp PSD bằng Java
+
 ## Giới thiệu
 Nếu bạn đã từng làm việc với Photoshop, bạn sẽ biết nó có khả năng chỉnh sửa hình ảnh mạnh mẽ như thế nào. Nhưng điều gì sẽ xảy ra nếu tôi nói với bạn rằng bạn có thể tự động hóa một số tác vụ đó bằng Java? Hãy tưởng tượng việc tự động thêm các lớp văn bản vào tệp PSD của bạn theo chương trình. Khá tuyệt phải không? Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách thêm lớp văn bản vào tệp PSD một cách nhanh chóng bằng cách sử dụng thư viện Aspose.PSD cho Java. Vì vậy, hãy xắn tay áo lên và bắt tay ngay vào việc nào!
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Aspose.PSD có thể xử lý các tệp PSD phân lớp phức tạp. Chỉ c�
 Có, miễn là bạn có chương trình phụ trợ Java, bạn có thể sử dụng phương pháp này trong các ứng dụng web.
 ### Tôi có thể nhận hỗ trợ ở đâu nếu gặp vấn đề?
  Kiểm tra[Diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34) nơi cộng đồng và nhóm Aspose có thể giúp bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

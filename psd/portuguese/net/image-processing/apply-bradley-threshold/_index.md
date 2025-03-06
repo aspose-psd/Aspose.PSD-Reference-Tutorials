@@ -3,10 +3,16 @@ title: Aplicando Limite de Bradley em Aspose.PSD para .NET
 linktitle: Aplicando o Limite Bradley
 second_title: API Aspose.PSD .NET
 description: Aprimore a segmentação de imagens usando Bradley Threshold em Aspose.PSD para .NET. Um guia passo a passo para binarização eficaz.
-type: docs
 weight: 15
 url: /pt/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicando Limite de Bradley em Aspose.PSD para .NET
+
 ## Introdução
 
 Bem-vindo ao nosso tutorial abrangente sobre a aplicação do Limite de Bradley no Aspose.PSD para .NET. Aspose.PSD for .NET é uma biblioteca poderosa que permite trabalhar com arquivos do Photoshop em seus aplicativos .NET. Bradley Thresholding é uma técnica usada para binarização de imagens, ajudando a separar objetos do fundo de forma eficaz.
@@ -90,3 +96,9 @@ A1: Sim, Bradley Thresholding é uma técnica versátil adequada para vários ti
 ### Q5: Onde posso comprar uma licença para Aspose.PSD?
 
  A5: Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

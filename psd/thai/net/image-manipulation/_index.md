@@ -3,10 +3,16 @@ title: การจัดการภาพ
 linktitle: การจัดการภาพ
 second_title: Aspose.PSD .NET API
 description: ยกระดับโครงการ .NET ของคุณด้วย Aspose.PSD! เรียนรู้เทคนิคการปรับแต่งภาพ เช่น การรวม การครอบตัด การปรับขนาด การหมุน และเพิ่มเอฟเฟกต์ได้อย่างง่ายดาย
-type: docs
 weight: 26
 url: /th/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการภาพ
+
 ## การแนะนำ
 
 การปรับแต่งรูปภาพเป็นทักษะที่สำคัญสำหรับนักพัฒนาหรือนักออกแบบที่ทำงานกับ .NET และ แอสโพส.PSD สำหรับ .NET ก็มีชุดเครื่องมืออันทรงพลังที่จะเสริมความสามารถของคุณ ในบทช่วยสอนนี้ เราจะเจาะลึกเทคนิคการจัดการรูปภาพต่างๆ ที่สามารถนำไปใช้ได้อย่างราบรื่น[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ url: /th/net/image-manipulation/
 ฝึกฝนศิลปะแห่งการเรนเดอร์เอฟเฟกต์การซ้อนทับไล่ระดับสีใน Aspose.PSD สำหรับ .NET ยกระดับทักษะการออกแบบกราฟิกของคุณด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [รองรับเอฟเฟกต์การซ้อนทับแบบไล่ระดับสีใน Aspose.PSD สำหรับ .NET](./supporting-gradient-overlay-effect/)
 ปรับปรุงกราฟิกใน .NET ด้วย Aspose.PSD บทช่วยสอนนี้จะแนะนำคุณตลอดการสนับสนุนเอฟเฟกต์การไล่ระดับสีแบบไล่สี
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

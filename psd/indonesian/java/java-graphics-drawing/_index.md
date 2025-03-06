@@ -3,10 +3,16 @@ title: Gambar Grafik Java
 linktitle: Gambar Grafik Java
 second_title: Asumsikan.PSD Java API
 description: Jelajahi Aspose.PSD untuk tutorial Java tentang gambar grafis. Pelajari cara menambahkan guratan, menggambar bentuk, dan memanipulasi file PSD dengan panduan langkah demi langkah.
-type: docs
 weight: 20
 url: /id/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gambar Grafik Java
+
 
 ## Perkenalan
 
@@ -75,3 +81,9 @@ Belajar menggambar persegi panjang pada gambar menggunakan Aspose.PSD untuk Java
 Pelajari cara menggambar grafik di Java menggunakan Aspose.PSD langkah demi langkah. Buat bentuk, terapkan warna, dan ekspor gambar dengan mudah.
 ### [Menggambar Menggunakan Jalur Grafik di Java](./drawing-using-graphics-path/)
 Pelajari cara membuat grafik kompleks di Java menggunakan kelas Graphics Path Aspose.PSD. Tutorial ini memandu Anda melalui setiap langkah untuk pembuatan gambar yang menakjubkan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

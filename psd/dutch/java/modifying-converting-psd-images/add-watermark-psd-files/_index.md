@@ -3,10 +3,16 @@ title: Voeg watermerk toe aan PSD-bestanden met Aspose.PSD voor Java
 linktitle: Voeg watermerk toe aan PSD-bestanden met Aspose.PSD voor Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u moeiteloos een watermerk aan uw PSD-bestanden kunt toevoegen met Aspose.PSD voor Java. Bescherm uw afbeeldingen met een eenvoudige stapsgewijze handleiding.
-type: docs
 weight: 18
 url: /nl/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg watermerk toe aan PSD-bestanden met Aspose.PSD voor Java
+
 ## Invoering
 Watermerken zijn een subtiele maar effectieve manier om uw afbeeldingen te beschermen en het eigendom ervan te communiceren. Of u nu een fotograaf bent die uw portfolio tentoonstelt of een ontwerper die uw nieuwste werk presenteert, het toevoegen van een watermerk kan cruciaal zijn voor het behouden van uw merkidentiteit. In deze zelfstudie gaan we dieper in op hoe u moeiteloos watermerken aan uw PSD-bestanden kunt toevoegen met Aspose.PSD voor Java. Dus pak een kop koffie, ga lekker zitten en laten we aan de slag gaan!
 ## Vereisten
@@ -90,3 +96,9 @@ En daar heb je het! U hebt met succes een watermerk aan uw PSD-bestand toegevoeg
  Ja, u kunt opslaan in verschillende formaten, zoals JPEG of BMP. Gewoon vervangen`PngOptions()` met de gewenste opties.
 ### Waar kan ik meer hulp vinden?
  Voor gedetailleerde vragen kunt u terecht op de[Stel forums voor](https://forum.aspose.com/c/psd/34) of controleer hun[documentatie](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

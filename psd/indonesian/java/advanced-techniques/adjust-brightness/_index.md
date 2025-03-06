@@ -3,10 +3,16 @@ title: Sesuaikan Kecerahan Gambar dengan Aspose.PSD untuk Java
 linktitle: Sesuaikan Kecerahan Gambar
 second_title: Asumsikan.PSD Java API
 description: Tingkatkan kecerahan gambar di Java dengan Aspose.PSD. Panduan langkah demi langkah untuk menyesuaikan kecerahan gambar secara terprogram.
-type: docs
 weight: 21
 url: /id/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Kecerahan Gambar dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Meningkatkan gambar adalah persyaratan umum dalam desain grafis dan fotografi digital. Aspose.PSD untuk Java memberikan solusi ampuh untuk menyesuaikan kecerahan gambar secara terprogram. Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan perpustakaan Aspose.PSD untuk Java untuk menyesuaikan kecerahan gambar, langkah demi langkah.
@@ -107,3 +113,9 @@ A3: Kisaran penyesuaian bergantung pada konten dan format gambar, tetapi Aspose.
 ### Q5: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
 
  A5: Ya, Anda dapat menjelajahi perpustakaan dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

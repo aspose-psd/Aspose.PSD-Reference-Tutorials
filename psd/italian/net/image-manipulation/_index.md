@@ -3,10 +3,16 @@ title: Manipolazione delle immagini
 linktitle: Manipolazione delle immagini
 second_title: API Aspose.PSD .NET
 description: Migliora i tuoi progetti .NET con Aspose.PSD! Impara le tecniche di manipolazione delle immagini come combinare, ritagliare, ridimensionare, ruotare e aggiungere effetti senza sforzo.
-type: docs
 weight: 26
 url: /it/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipolazione delle immagini
+
 ## Introduzione
 
 La manipolazione delle immagini è un'abilità vitale per qualsiasi sviluppatore o progettista che lavora con .NET e Aspose.PSD per .NET fornisce un potente toolkit per migliorare le tue capacità. In questo tutorial, approfondiremo varie tecniche di manipolazione delle immagini che possono essere applicate senza problemi utilizzando[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Esplora la potenza dell'effetto bagliore esterno in Aspose.PSD per .NET. Miglior
 Padroneggia l'arte del rendering dell'effetto di sovrapposizione sfumatura in Aspose.PSD per .NET. Migliora le tue capacità di progettazione grafica con questo tutorial passo passo.
 ### [Supporto dell'effetto di sovrapposizione sfumatura in Aspose.PSD per .NET](./supporting-gradient-overlay-effect/)
 Migliora la grafica in .NET con Aspose.PSD. Questo tutorial ti guida attraverso il supporto degli effetti di sovrapposizione sfumatura.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

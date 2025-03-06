@@ -3,10 +3,16 @@ title: Extraire la vignette du PSD en Java
 linktitle: Extraire la vignette du PSD en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment extraire des vignettes de fichiers PSD à l'aide d'Aspose.PSD pour Java. Ce guide étape par étape couvre tout, de la configuration à l'enregistrement des images extraites.
-type: docs
 weight: 15
 url: /fr/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraire la vignette du PSD en Java
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment extraire des vignettes de fichiers PSD à l'aide d'Aspose.PSD pour Java. Les miniatures peuvent être utiles pour des aperçus rapides ou pour créer des versions plus petites d'images intégrées dans des documents PSD. Examinons les étapes nécessaires pour y parvenir à l'aide d'Aspose.PSD.
 ## Conditions préalables
@@ -73,3 +79,9 @@ Aspose.PSD est une bibliothèque Java qui permet aux développeurs de travailler
  Des licences temporaires peuvent être obtenues auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD est-il adapté à un usage commercial ?
 Oui, Aspose.PSD peut être utilisé pour des projets personnels et commerciaux selon ses conditions de licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

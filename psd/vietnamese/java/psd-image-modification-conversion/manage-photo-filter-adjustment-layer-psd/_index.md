@@ -3,10 +3,16 @@ title: Quản lý lớp điều chỉnh bộ lọc ảnh trong PSD - Java
 linktitle: Quản lý lớp điều chỉnh bộ lọc ảnh trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách quản lý Lớp điều chỉnh bộ lọc ảnh trong tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn này để chỉnh sửa và thêm bộ lọc một cách dễ dàng.
-type: docs
 weight: 24
 url: /vi/java/psd-image-modification-conversion/manage-photo-filter-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý lớp điều chỉnh bộ lọc ảnh trong PSD - Java
+
 ## Giới thiệu
 Bạn có phải là nhà phát triển đang tìm cách nâng cao khả năng chỉnh sửa đồ họa của mình bằng Java không? Vâng, bạn đang ở đúng nơi! Hôm nay, chúng ta sẽ đi sâu vào cách quản lý Lớp điều chỉnh bộ lọc ảnh bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp PSD một cách liền mạch, mang lại quy trình làm việc hiệu quả trong thiết kế đồ họa. Cho dù bạn muốn thêm hiệu ứng hay chỉnh sửa các lớp hiện có, chúng tôi đều cung cấp cho bạn hướng dẫn từng bước giúp đơn giản hóa quy trình.
 ## Điều kiện tiên quyết
@@ -107,3 +113,9 @@ Aspose.PSD là thư viện .NET và Java để tạo, chỉnh sửa và chuyển
  Bạn có thể mua phần mềm từ[liên kết này](https://purchase.aspose.com/buy).
 ### Có hỗ trợ nào cho Aspose.PSD không?
  Tuyệt đối! Bạn có thể nhận hỗ trợ thông qua diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

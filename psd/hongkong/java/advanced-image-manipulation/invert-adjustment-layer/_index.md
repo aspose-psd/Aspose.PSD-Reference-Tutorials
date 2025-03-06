@@ -3,10 +3,16 @@ title: Aspose.PSD for Java 中的反轉調整圖層
 linktitle: 反轉調整圖層
 second_title: Aspose.PSD Java API
 description: 探索 Aspose.PSD for Java 中的反轉調整圖層。用於無縫 PSD 檔案操作的強大 Java 程式庫。
-type: docs
 weight: 14
 url: /zh-hant/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java 中的反轉調整圖層
+
 ## 介紹
 
 歡迎來到我們關於在 Aspose.PSD for Java 中實作反轉調整層的逐步指南。在本教程中，我們將探索 Aspose.PSD 的強大功能，這是一個允許無縫操作 PSD 檔案的 Java 程式庫。無論您是經驗豐富的開發人員還是影像處理新手，本教學旨在幫助您有效地理解和實現反轉調整層。
@@ -93,3 +99,9 @@ A2：是的，您可以堆疊多個調整圖層來實現複雜的影像操作。
 ### Q5：如何取得Aspose.PSD的臨時授權？
 
 A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

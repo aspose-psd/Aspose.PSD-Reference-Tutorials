@@ -3,10 +3,16 @@ title: Передовые методы
 linktitle: Передовые методы
 second_title: Aspose.PSD Java API
 description: Легко осваивайте передовые методы обработки изображений Java с помощью учебных пособий Aspose.PSD. Оттенки серого, загрузка, преобразование, рендеринг текста, эффективное сохранение и многое другое!
-type: docs
 weight: 22
 url: /ru/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Передовые методы
+
 ## Введение
 
 Готовы ли вы улучшить свои навыки обработки изображений Java? Погрузитесь в наши подробные руководства по Aspose.PSD для Java, которые откроют вам мир передовых технологий. Давайте подробно рассмотрим некоторые ключевые руководства:
@@ -85,3 +91,9 @@ url: /ru/java/advanced-techniques/
 Научитесь легко настраивать гамму изображения с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству для достижения оптимальных результатов.
 ### [Размытие изображения с помощью Aspose.PSD для Java](./blur-image/)
 Научитесь размывать изображения в Java с помощью Aspose.PSD. Следуйте нашему пошаговому руководству для достижения профессиональных результатов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

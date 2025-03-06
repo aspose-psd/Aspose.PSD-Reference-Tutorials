@@ -3,10 +3,16 @@ title: Περικοπή αρχείων PSD με Aspose.PSD για .NET
 linktitle: Περικοπή αρχείων PSD με Aspose.PSD για .NET
 second_title: Aspose.PSD .NET API
 description: Εξερευνήστε την τέχνη της περικοπής αρχείων PSD στο .NET με το Aspose.PSD, ένα ευέλικτο κιτ εργαλείων. Ανεβάστε το παιχνίδι χειρισμού εικόνας σας χωρίς κόπο.
-type: docs
 weight: 19
 url: /el/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περικοπή αρχείων PSD με Aspose.PSD για .NET
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης .NET, το Aspose.PSD ξεχωρίζει ως ένα ισχυρό κιτ εργαλείων για τον απρόσκοπτο χειρισμό αρχείων PSD (Photoshop Document). Όταν πρόκειται για χειρισμό εικόνων, η περικοπή είναι μια θεμελιώδης λειτουργία και το Aspose.PSD απλοποιεί αυτή τη διαδικασία για τους προγραμματιστές .NET. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να περικόψετε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για .NET, παρέχοντάς σας έναν οδηγό βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -72,3 +78,9 @@ A1: Ναι, το Aspose.PSD ενημερώνεται τακτικά για να 
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια για σκοπούς δοκιμής;
 
  A5: Ναι, εάν χρειάζεστε προσωρινή άδεια, μπορείτε να αποκτήσετε μία[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

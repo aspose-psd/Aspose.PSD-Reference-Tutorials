@@ -3,10 +3,16 @@ title: دمج الصور في Aspose.PSD لـ .NET
 linktitle: الجمع بين الصور
 second_title: Aspose.PSD.NET API
 description: قم بدمج الصور بسهولة في .NET باستخدام Aspose.PSD. اتبع برنامجنا التعليمي خطوة بخطوة لمعالجة الصور بسلاسة.
-type: docs
 weight: 10
 url: /ar/net/image-manipulation/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج الصور في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي خطوة بخطوة حول دمج الصور باستخدام Aspose.PSD لـ .NET! Aspose.PSD هي مكتبة .NET قوية تتيح للمطورين العمل مع ملفات Adobe Photoshop بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية دمج الصور باستخدام Aspose.PSD، ونزودك بأمثلة عملية وخطوات تفصيلية.
@@ -107,3 +113,9 @@ image.Save();
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
 ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

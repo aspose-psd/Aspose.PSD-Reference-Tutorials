@@ -3,10 +3,16 @@ title: PSD에서 색상 채우기로 획 효과 적용 - Java
 linktitle: PSD에서 색상 채우기로 획 효과 적용 - Java
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에 색상 채우기로 획 효과를 적용하는 방법을 알아보세요. 이미지를 쉽게 향상하려면 이 단계별 가이드를 따르세요.
-type: docs
 weight: 21
 url: /ko/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에서 색상 채우기로 획 효과 적용 - Java
+
 ## 소개
 
 이 가이드에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에 색상 채우기로 획 효과를 적용하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 튜토리얼을 통해 작업을 쉽게 완료할 수 있습니다. 환경 설정부터 효과가 적용된 최종 이미지 저장까지 모든 과정을 다룹니다.
@@ -144,3 +150,9 @@ Java용 Aspose.PSD를 사용하여 PSD 파일에 색상 채우기로 획 효과�
 
 ### Java 라이브러리용 Aspose.PSD는 무료로 사용할 수 있나요?
  Aspose.PSD for Java는 무료 평가판을 제공하지만 모든 기능에 완전히 액세스하려면 라이센스를 구입해야 합니다. 당신은 탐색 할 수 있습니다[옵션 구매](https://purchase.aspose.com/buy)그들의 웹사이트에서.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

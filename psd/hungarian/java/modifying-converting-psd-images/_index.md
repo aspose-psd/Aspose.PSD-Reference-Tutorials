@@ -3,10 +3,16 @@ title: PSD-képek módosítása és konvertálása
 linktitle: PSD-képek módosítása és konvertálása
 second_title: Aspose.PSD Java API
 description: Javítsa PSD-fájljait különféle beállításokkal és effektusokkal az Aspose.PSD for Java segítségével. Lépésről lépésre bemutató oktatóanyagok a színkezeléshez, vízjelekhez és egyebekhez.
-type: docs
 weight: 21
 url: /hu/java/modifying-converting-psd-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD-képek módosítása és konvertálása
+
 ## Bevezetés
 
 Az Aspose.PSD for Java sokoldalú eszközkészletet biztosít a PSD-fájlokkal való munkavégzéshez, számos lehetőséget kínálva a képek módosítására és javítására. Akár tapasztalt tervező, akár csak most kezdi, oktatóanyagaink célja az Aspose.PSD teljes potenciáljának kiaknázása. Íme egy összefoglaló az oktatóanyagokból, amelyeket felfedezhet a PSD-manipuláció különféle aspektusainak elsajátításához.
@@ -102,3 +108,9 @@ A PSD-fájlok gyorsítótár-újraelosztásának kezelése az Aspose.PSD for Jav
 Ismerje meg, hogyan hozhat létre indexelt PSD-fájlokat az Aspose.PSD for Java segítségével lépésenkénti útmutatónkban. Csatlakozzon most, és fedezze fel a végtelen művészi lehetőségeket.
 ### [Bélyegképek létrehozása PSD-fájlokból Java használatával](./create-thumbnails-psd-files/)
 Ismerje meg, hogyan hozhat létre könnyedén miniatűröket PSD-fájlokból a Java és az Aspose.PSD használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes képfeldolgozás érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

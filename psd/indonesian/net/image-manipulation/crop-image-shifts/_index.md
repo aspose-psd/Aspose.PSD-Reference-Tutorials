@@ -3,10 +3,16 @@ title: Memotong Gambar dengan Pergeseran di Aspose.PSD untuk .NET
 linktitle: Memotong Gambar secara Bergeser
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara memotong gambar dengan mudah menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk penyesuaian gambar yang tepat.
-type: docs
 weight: 12
 url: /id/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memotong Gambar dengan Pergeseran di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Di bidang pengembangan .NET, Aspose.PSD menonjol sebagai perangkat yang ampuh untuk tugas pemrosesan gambar. Salah satu fitur utamanya adalah kemampuan memotong gambar dengan presisi, berkat fungsi 'Cropping by Shifts'. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses memotong gambar dengan lancar menggunakan Aspose.PSD untuk .NET.
@@ -105,3 +111,10 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, memungkinkan Anda memotong 
 ### Q5: Bisakah saya membeli Aspose.PSD untuk .NET langsung dari situs web?
 
  A5: Ya, Anda dapat membeli perpustakaan dengan aman dari[halaman pembelian](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

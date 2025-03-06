@@ -3,10 +3,16 @@ title: Vẽ bằng đồ họa trong Java
 linktitle: Vẽ bằng đồ họa trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách vẽ đồ họa trong Java bằng Aspose.PSD theo từng bước. Tạo hình dạng, áp dụng màu sắc và xuất hình ảnh một cách dễ dàng.
-type: docs
 weight: 18
 url: /vi/java/java-graphics-drawing/drawing-using-graphics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ bằng đồ họa trong Java
+
 ## Giới thiệu
 Trong lập trình Java, vẽ và thao tác hình ảnh theo chương trình là một khả năng mạnh mẽ mà các nhà phát triển thường cần. Hướng dẫn này tập trung vào việc sử dụng Aspose.PSD cho Java, một thư viện mạnh mẽ cho phép các nhà phát triển tạo và chỉnh sửa các tệp PSD, cũng như thực hiện các thao tác đồ họa khác nhau như vẽ hình, áp dụng bút vẽ và xuất hình ảnh. Hướng dẫn này sẽ hướng dẫn bạn quy trình vẽ bằng đồ họa trong Java với Aspose.PSD, chia nhỏ từng bước để đảm bảo sự rõ ràng và dễ hiểu.
 ## Điều kiện tiên quyết
@@ -79,3 +85,9 @@ Hoàn toàn có thể, Aspose.PSD được tối ưu hóa về hiệu suất và
 Có, Aspose.PSD hỗ trợ xuất sang nhiều định dạng khác nhau như BMP, PNG, JPEG và TIFF.
 ### Làm cách nào tôi có thể nhận được sự hỗ trợ hoặc trợ giúp nếu tôi gặp phải vấn đề?
 Hãy liên hệ với cộng đồng Aspose.PSD trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34) hoặc xem xét một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để được ưu tiên hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Homályosítson el egy képet az Aspose.PSD for Java segítségével
 linktitle: Kép elhomályosítása
 second_title: Aspose.PSD Java API
 description: Ismerje meg a képek elmosását Java nyelven az Aspose.PSD segítségével. Kövesse lépésről lépésre útmutatónkat a professzionális eredményekért.
-type: docs
 weight: 24
 url: /hu/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Homályosítson el egy képet az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 A Java fejlesztés világában a képek javítása és manipulálása általános követelmény. Ha programozottan elmosódást szeretne hozzáadni a képeihez, az Aspose.PSD for Java egy hatékony eszköz, amely leegyszerűsíti a folyamatot. Ez az oktatóanyag végigvezeti Önt a kép Aspose.PSD használatával történő elmosásának lépésein, így biztosítva, hogy könnyedén érjen el professzionális eredményeket.
@@ -96,3 +102,9 @@ A1: Abszolút! Az Aspose.PSD átfogó dokumentációval rendelkezik, amely minde
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
  V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

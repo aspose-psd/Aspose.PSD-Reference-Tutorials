@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET のレイヤー ステート効果をマスターす�
 linktitle: レイヤーステートエフェクトの操作
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET でレイヤー ステート効果を使用する方法を学びます。ドロップ シャドウ、グラデーション オーバーレイなどを使用して PSD ファイルを強化します。簡単なチュートリアル ガイド。
-type: docs
 weight: 13
 url: /ja/net/psd-file-manipulation/layer-state-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET のレイヤー ステート効果をマスターする
+
 ## 導入
 Aspose.PSD for .NET のレイヤー ステート エフェクトの操作に関する包括的なチュートリアルへようこそ。レイヤー ステート エフェクトは、さまざまなレイヤーにエフェクトを追加することで、画像の視覚的な魅力を高める上で重要な役割を果たします。このガイドでは、Aspose.PSD for .NET を使用してレイヤー ステート エフェクトのパワーを効率的に活用するプロセスについて説明します。
 ## 前提条件
@@ -82,3 +88,9 @@ psdImage.Save(outputFile);
 ### Q5: サポートが必要ですか、または質問がありますか?
 
  A5: 参加する[Aspose.PSD コミュニティ フォーラム](https://forum.aspose.com/c/psd/34)援助をお願いします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

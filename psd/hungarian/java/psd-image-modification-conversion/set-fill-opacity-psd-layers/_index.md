@@ -3,10 +3,16 @@ title: Állítsa be a kitöltés átlátszatlanságát a PSD-rétegekhez az Aspo
 linktitle: Állítsa be a kitöltés átlátszatlanságát a PSD-rétegekhez az Aspose.PSD Java segítségével
 second_title: Aspose.PSD Java API
 description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan állíthatja be a PSD-rétegek kitöltési átlátszatlanságát az Aspose.PSD for Java használatával. Fokozza hatékonyan grafikai tervezési projektjeit.
-type: docs
 weight: 13
 url: /hu/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a kitöltés átlátszatlanságát a PSD-rétegekhez az Aspose.PSD Java segítségével
+
 ## Bevezetés
 Gyakran azon kapja magát, hogy tervezési fájlokat módosít, hogy tökéletes vizuális hatást érjen el? Legyen szó tapasztalt grafikusról vagy kezdő fejlesztőről, aki PSD-fájlokat szeretne kezelni, a rétegtulajdonságok beállításának ismerete mindent megváltoztathat. Ma mélyrehatóan belemerülünk abba, hogyan lehet beállítani a kitöltés átlátszatlanságát a PSD-fájlban az Aspose.PSD for Java segítségével. Készen áll arra, hogy a rétegeit szemet gyönyörködtető darabokká alakítsa? Kezdjük is!
 ## Előfeltételek
@@ -74,3 +80,9 @@ Igen, a rétegek hurok segítségével történő iterálásával beállíthatja
 A kitöltés átlátszatlansága mellett az Aspose.PSD segítségével módosíthatja a rétegek láthatóságát, a keverési módokat, a pozíciót, a méretet és egyebeket.
 ### Hol találok további dokumentációt az Aspose.PSD for Java-ról?
  Olvassa el az átfogó dokumentációt[itt](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menambahkan Tanda Tangan ke Gambar dengan Aspose.PSD untuk .NET
 linktitle: Menambahkan Tanda Tangan ke Gambar dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Sempurnakan proyek gambar .NET Anda dengan Aspose.PSD. Pelajari cara menambahkan tanda tangan dengan lancar menggunakan panduan langkah demi langkah kami.
-type: docs
 weight: 13
 url: /id/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Tanda Tangan ke Gambar dengan Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.PSD menonjol sebagai alat yang ampuh untuk memanipulasi dan menyempurnakan gambar. Jika Anda pernah bertanya-tanya bagaimana cara menambahkan tanda tangan ke gambar dengan lancar menggunakan Aspose.PSD untuk .NET, Anda berada di tempat yang tepat. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, memastikan Anda menguasai seni memasukkan tanda tangan ke dalam gambar Anda dengan mudah.
@@ -103,3 +109,9 @@ A3: Anda dapat menerapkan blok coba-tangkap untuk menangani pengecualian dengan 
 ### Q5: Dapatkah saya mencoba Aspose.PSD sebelum membeli?
 
  A5: Tentu saja, tersedia uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

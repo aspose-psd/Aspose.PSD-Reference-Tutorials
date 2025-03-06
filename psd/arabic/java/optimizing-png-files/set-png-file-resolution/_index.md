@@ -3,10 +3,16 @@ title: قم بتعيين دقة ملف PNG باستخدام Aspose.PSD لـ Java
 linktitle: قم بتعيين دقة ملف PNG باستخدام Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: اكتشف كيفية ضبط دقة ملف PNG باستخدام Aspose.PSD لـ Java من خلال هذا البرنامج التعليمي التفصيلي خطوة بخطوة. تحسين الصور الخاصة بك في أي وقت من الأوقات.
-type: docs
 weight: 13
 url: /ar/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين دقة ملف PNG باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 هل تتطلع إلى تحسين دقة ملف PNG باستخدام Java؟ إذا كانت الإجابة بنعم، فقد وصلت إلى المكان الصحيح! اليوم، سنتعمق في عالم Aspose.PSD for Java، وهي مكتبة قوية لمعالجة ملفات Photoshop PSD وتحويلها إلى تنسيقات أخرى مثل PNG. سواء كنت مطورًا مهتمًا بمعالجة الصور أو مجرد شخص يرغب في تحسين جودة الصورة برمجيًا، فإن هذا الدليل مصمم خصيصًا لك. 
 في هذا البرنامج التعليمي الشامل، سنغطي كل شيء بدءًا من المتطلبات الأساسية وحتى الإرشادات التفصيلية خطوة بخطوة لتعيين دقة ملف PNG بشكل فعال. لذلك، تناول وجبتك الخفيفة المفضلة، ودعنا نبدأ!
@@ -71,3 +77,9 @@ psdImage.save(dataDir + "SettingResolution_output.png", options);
 يتعامل Aspose.PSD مع العديد من المشكلات الشائعة، ولكن إذا كان الملف تالفًا بشدة، فقد لا يتم تحميله. احتفظ دائمًا بنسخة احتياطية.
 ### هل Aspose.PSD مناسب للتطبيقات عالية الأداء؟
 نعم، إنه مصمم للتعامل مع الملفات الكبيرة بكفاءة وهو مناسب لمهام معالجة الصور كثيفة الأداء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

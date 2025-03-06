@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 为图像添加签名
 linktitle: 为图片添加签名
 second_title: Aspose.PSD Java API
 description: 探索使用 Aspose.PSD for Java 将签名无缝集成到图像中。按照我们的分步指南，导入必要的软件包，并增强 Java 应用程序的图形功能。
-type: docs
 weight: 13
 url: /zh/java/advanced-image-effects/add-signature-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 为图像添加签名
+
 ## 介绍
 
 在广阔的 Java 开发世界中，将签名合并到图像中已成为一种常见要求。Aspose.PSD for Java 是一款功能强大的工具，为开发人员提供了处理图像（包括添加签名）的无缝解决方案。在本教程中，我们将逐步探索如何使用 Aspose.PSD for Java 将签名添加到图像中。
@@ -95,3 +101,10 @@ A2：是的，Aspose.PSD 支持多种图像格式，确保图像处理的灵活�
 ### Q5: 我可以在购买之前试用 Aspose.PSD for Java 吗？
 
  A5：是的，你可以得到一个[免费试用](https://releases.aspose.com/)在购买之前探索其功能。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

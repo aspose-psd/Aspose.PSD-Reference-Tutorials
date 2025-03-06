@@ -3,10 +3,16 @@ title: Gestion des fichiers et des polices
 linktitle: Gestion des fichiers et des polices
 second_title: API Aspose.PSD.NET
 description: Élevez votre développement .NET avec les didacticiels Aspose.PSD. Apprenez le remplacement des polices, la création de métadonnées XMP et la gestion du cache pour une efficacité de flux de travail optimale.
-type: docs
 weight: 27
 url: /fr/net/file-and-font-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des fichiers et des polices
+
 ## Introduction
 
 Libérez le potentiel d’Aspose.PSD pour .NET avec nos tutoriels sur la gestion des fichiers et des polices. De la création de métadonnées XMP à la manipulation d'images et au remplacement de polices, nous avons ce qu'il vous faut.
@@ -42,3 +48,9 @@ Améliorez votre flux de travail de développement .NET avec Aspose.PSD. Découv
 Explorez la gestion du cache de polices étape par étape dans Aspose.PSD pour .NET. Assurez un rendu précis avec cette puissante bibliothèque .NET. 
 ### [Suppression des fichiers de cache de polices dans Aspose.PSD pour .NET](./remove-font-cache-files/)
 Optimisez Aspose.PSD pour les performances .NET en supprimant les fichiers de cache de polices. Suivez notre guide étape par étape pour une exécution fluide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

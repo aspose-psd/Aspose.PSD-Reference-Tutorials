@@ -3,10 +3,16 @@ title: تغيير حجم الصور بشكل متناسب في Aspose.PSD لـ .
 linktitle: تغيير حجم الصور بشكل متناسب
 second_title: Aspose.PSD.NET API
 description: اكتشف تغيير حجم الصورة بسلاسة باستخدام Aspose.PSD لـ .NET. قم بتنزيل المكتبة، واتبع برنامجنا التعليمي، وعزز قدرات معالجة الصور لديك.
-type: docs
 weight: 14
 url: /ar/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير حجم الصور بشكل متناسب في Aspose.PSD لـ .NET
+
 في مجال معالجة الصور، يبرز Aspose.PSD for .NET كمجموعة أدوات قوية توفر للمطورين القدرة على تغيير حجم الصور بشكل متناسب بسهولة. في هذا الدليل التفصيلي خطوة بخطوة، سنرشدك خلال عملية تغيير حجم الصور باستخدام Aspose.PSD لـ .NET، مما يضمن احتفاظ صورك بنسبها بشكل لا تشوبه شائبة.
 
 ## مقدمة
@@ -100,3 +106,9 @@ image.Save(destName, new PngOptions());
 ### س5: أين يمكنني العثور على دعم لـ Aspose.PSD لـ .NET؟
 
  ج5: قم بزيارة[Aspose.PSD لمنتدى .NET](https://forum.aspose.com/c/psd/34) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

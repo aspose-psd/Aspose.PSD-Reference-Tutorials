@@ -3,10 +3,16 @@ title: Desenhando linhas efetivamente em Aspose.PSD para .NET
 linktitle: Desenhar linhas de forma eficaz
 second_title: API Aspose.PSD .NET
 description: Explore a arte de desenhar linhas em aplicativos .NET com Aspose.PSD. Siga nosso tutorial abrangente para aprimorar suas habilidades de manipulação de imagens sem esforço.
-type: docs
 weight: 14
 url: /pt/net/psd-drawing-techniques/drawing-lines-effectively/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Desenhando linhas efetivamente em Aspose.PSD para .NET
+
 ## Introdução
 
 Bem-vindo a este tutorial passo a passo sobre como desenhar linhas de forma eficaz no Aspose.PSD para .NET! Aspose.PSD é uma biblioteca poderosa que permite processamento e manipulação contínua de imagens em aplicativos .NET. Neste guia, vamos nos concentrar na criação de linhas atraentes usando a biblioteca Aspose.PSD.
@@ -115,3 +121,9 @@ Parabéns! Você aprendeu com sucesso como desenhar linhas de maneira eficaz usa
 ### Q5: Preciso de uma licença temporária para Aspose.PSD para .NET?
 
  A5: Se necessário, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

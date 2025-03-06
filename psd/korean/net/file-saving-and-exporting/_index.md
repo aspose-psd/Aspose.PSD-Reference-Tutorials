@@ -3,10 +3,16 @@ title: 파일 저장 및 내보내기
 linktitle: 파일 저장 및 내보내기
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 손쉽게 마스터 이미지 저장 및 내보내기를 수행할 수 있습니다. 효율적인 디스크 및 스트림 작업을 위한 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 23
 url: /ko/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 파일 저장 및 내보내기
+
 ## 소개
 
 .NET 프로젝트에서 이미지를 저장하고 내보내는 복잡한 과정을 겪어본 적이 있다면 혼자가 아닙니다. 디지털 영역에서는 정밀도가 요구되며, 이미지의 경우 프로세스가 더욱 중요해집니다. 운 좋게도 .NET용 Aspose.PSD는 이미지를 디스크 및 스트리밍에 저장하기 위한 완벽한 솔루션을 제공하여 여러분의 여정을 단순화하기 위해 여기에 있습니다.
@@ -32,3 +38,9 @@ url: /ko/net/file-saving-and-exporting/
 .NET용 Aspose.PSD의 강력한 기능을 살펴보고 이미지를 스트림에 쉽게 저장하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
 ### [.NET용 Aspose.PSD에서 이미지 저장 작업자 작업](./save-image-worker/)
 중단 처리를 통해 원활한 이미지 형식 변환을 위해 .NET의 Save Image Worker용 Aspose.PSD를 사용하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

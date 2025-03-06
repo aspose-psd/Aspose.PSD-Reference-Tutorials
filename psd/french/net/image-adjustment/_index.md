@@ -3,10 +3,16 @@ title: Ajustement de l'image
 linktitle: Ajustement de l'image
 second_title: API Aspose.PSD.NET
 description: Libérez le potentiel de l’ajustement d’image avec Aspose.PSD pour .NET. Explorez des didacticiels sur la luminosité, le contraste et la balance des couleurs pour maîtriser la manipulation des images.
-type: docs
 weight: 24
 url: /fr/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustement de l'image
+
 ## Introduction
 
 Êtes-vous prêt à améliorer vos compétences en manipulation d’images ? Plongez dans le monde d'Aspose.PSD pour .NET avec nos didacticiels complets sur l'ajustement des images. Que vous soyez un développeur chevronné ou débutant, nos guides étape par étape vous permettront d'améliorer vos images sans effort.
@@ -42,3 +48,9 @@ Explorez la puissance d'Aspose.PSD pour .NET avec notre guide étape par étape 
 Apprenez à flouter des images sans effort avec Aspose.PSD pour .NET. Un guide étape par étape pour une manipulation transparente des images dans vos projets C#.
 ### [Application du réglage de la balance des couleurs dans Aspose.PSD pour .NET](./color-balance-adjustment/)
 Améliorez les couleurs des images PSD sans effort avec la fonction de réglage de la balance des couleurs d'Aspose.PSD pour .NET. Suivez notre guide étape par étape pour des résultats époustouflants.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

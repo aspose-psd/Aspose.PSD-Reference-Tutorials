@@ -3,10 +3,16 @@ title: اكتشف ملفات PSD المسطحة باستخدام Aspose.PSD لـ
 linktitle: اكتشف ملفات PSD المسطحة باستخدام Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية اكتشاف ملفات PSD المسطحة باستخدام Aspose.PSD لـ Java، خطوة بخطوة في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 10
 url: /ar/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اكتشف ملفات PSD المسطحة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في عالم معالجة ملفات PSD (مستندات Photoshop) باستخدام Aspose.PSD لـ Java! إذا كنت في حاجة إلى العمل مع الطبقات في ملفات Photoshop ولكنك لا تعرف من أين تبدأ، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نتعمق في كيفية اكتشاف ما إذا كان ملف PSD قد تم تسطيحه باستخدام Aspose.PSD. تعني تسوية ملف PSD أنه تم دمج جميع طبقاته في طبقة واحدة موحدة، مما قد يجعل عملية التحرير صعبة بعض الشيء بعد ذلك. بحلول نهاية هذا الدليل، ستكون جاهزًا للتحقق من هذا الجانب المهم من ملفات PSD الخاصة بك. اجلس، وتناول قهوتك، ودعنا نتعمق!
@@ -77,3 +83,9 @@ System.out.println(psdImage.isFlatten());
 
 ### هل هناك طريقة لاختبار Aspose.PSD مجانًا؟
  قطعاً! يمكنك بدء نسخة تجريبية مجانية عن طريق تنزيل نسخة تجريبية من[هذا الرابط](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

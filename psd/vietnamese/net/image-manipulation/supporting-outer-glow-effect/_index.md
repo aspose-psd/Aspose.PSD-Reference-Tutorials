@@ -3,10 +3,16 @@ title: Hỗ trợ hiệu ứng Outer Glow trong Aspose.PSD cho .NET
 linktitle: Hỗ trợ hiệu ứng phát sáng bên ngoài
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của Hiệu ứng ánh sáng bên ngoài trong Aspose.PSD cho .NET. Nâng cao thiết kế hình ảnh của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 16
 url: /vi/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ hiệu ứng Outer Glow trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách hỗ trợ Hiệu ứng ánh sáng bên ngoài trong Aspose.PSD cho .NET. Aspose.PSD là một thư viện mạnh mẽ cho phép thao tác liền mạch các tệp PSD trong các ứng dụng .NET. Trong hướng dẫn này, chúng ta sẽ khám phá cách triển khai Hiệu ứng ánh sáng bên ngoài và cung cấp hướng dẫn chi tiết để tích hợp nó vào các dự án của bạn.
@@ -114,3 +120,9 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều loại khung .NET, đảm
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET không?
 
  Câu trả lời 5: Có, hãy khám phá các tùy chọn cấp phép và thực hiện giao dịch mua của bạn[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

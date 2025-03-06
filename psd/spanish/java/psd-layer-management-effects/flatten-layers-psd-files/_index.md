@@ -3,10 +3,16 @@ title: Aplanar capas en archivos PSD usando Aspose.PSD Java
 linktitle: Aplanar capas en archivos PSD usando Aspose.PSD Java
 second_title: API de Java Aspose.PSD
 description: Aplane y combine capas en archivos PSD sin esfuerzo usando Aspose.PSD para Java. Siga esta guía paso a paso para simplificar la administración de sus archivos PSD.
-type: docs
 weight: 13
 url: /es/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplanar capas en archivos PSD usando Aspose.PSD Java
+
 ## Introducción
 
 ¿Alguna vez se ha encontrado trabajando con archivos de Photoshop y ha deseado una manera más fácil de administrar esas capas complejas? ¡Pues estás de suerte! Hoy nos sumergimos en el mundo de Aspose.PSD para Java, una potente herramienta que facilita el trabajo con archivos PSD mediante programación. Una de las funciones útiles que exploraremos es el aplanamiento de capas. Ya sea que desee aplanar una imagen completa o fusionar selectivamente capas específicas, Aspose.PSD para Java lo tiene cubierto. Este tutorial lo guiará a través del proceso, paso a paso, asegurándose de que esté listo para manejar sus archivos PSD con confianza.
@@ -150,3 +156,9 @@ Sí, puedes fusionar capas con diferentes modos de fusión usando Aspose.PSD, y 
 
 ### ¿Qué sucede si intento fusionar capas que no son adyacentes?  
 Aspose.PSD le permite fusionar cualquier capa independientemente de su orden en la pila de capas. El proceso de fusión combinará las capas seleccionadas como se especifica.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

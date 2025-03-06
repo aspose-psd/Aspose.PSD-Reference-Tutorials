@@ -1,12 +1,17 @@
 ---
 title: Kapsamlı Eğitimler ve Java için Aspose.PSD Örnekleri
 linktitle: Java Eğitimleri için Aspose.PSD
-type: docs
 weight: 10
 url: /tr/java/
 description: Görüntü işlemede Aspose.PSD for Java'nın gücünü ortaya çıkarın! Adım adım eğitimlerle Gaussian, Wiener, Median ve Motion Wiener gibi ana filtreler.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kapsamlı Eğitimler ve Java için Aspose.PSD Örnekleri
+
 
 ## giriiş
 
@@ -86,3 +91,9 @@ Aspose.PSD for Java ile gelişmiş PSD katmanı özelliklerini ve efektlerini ke
 Aspose.PSD for Java ile TIFF görüntülerini verimli bir şekilde yönetin. Adım adım eğitimlerimizle Adobe Deflate sıkıştırmasını sıkıştırmayı, yapılandırmayı ve TIFF dosyalarına uygulamayı öğrenin.
 ### [PSD Dosyalarıyla Çalışmak](./working-with-psd-files/)
 PSD katman gruplarının görüntülere nasıl aktarılacağı ve Clbl, Infx ve Lspf kaynaklarının nasıl işleneceği de dahil olmak üzere kapsamlı Aspose.PSD for Java eğitimlerini keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

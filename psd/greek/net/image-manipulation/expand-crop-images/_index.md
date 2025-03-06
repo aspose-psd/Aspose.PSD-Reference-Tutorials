@@ -3,10 +3,16 @@ title: Επέκταση και περικοπή εικόνων στο Aspose.PSD
 linktitle: Επέκταση και περικοπή εικόνων
 second_title: Aspose.PSD .NET API
 description: Μάθετε πώς να επεκτείνετε δυναμικά και να περικόψετε εικόνες χρησιμοποιώντας το Aspose.PSD για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη επεξεργασία εικόνας.
-type: docs
 weight: 13
 url: /el/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επέκταση και περικοπή εικόνων στο Aspose.PSD για .NET
+
 ## Εισαγωγή
 
 Το Aspose.PSD για .NET είναι μια ολοκληρωμένη βιβλιοθήκη απεικόνισης που επιτρέπει στους προγραμματιστές να εργάζονται με διάφορες μορφές εικόνας στις εφαρμογές τους .NET. Ένα από τα ξεχωριστά χαρακτηριστικά του είναι η δυνατότητα χειρισμού εικόνων με ευκολία. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην επέκταση και την περικοπή εικόνων, παρέχοντάς σας έναν πρακτικό οδηγό για να επιτύχετε αυτές τις εργασίες χρησιμοποιώντας το Aspose.PSD.
@@ -98,3 +104,9 @@ A1: Ναι, το Aspose.PSD υποστηρίζει ένα ευρύ φάσμα μ
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.PSD για .NET;
 
  A5: Μπορείτε να αγοράσετε τη βιβλιοθήκη στο[Σελίδα αγοράς Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

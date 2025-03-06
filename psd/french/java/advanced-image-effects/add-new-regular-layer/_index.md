@@ -3,10 +3,16 @@ title: Ajouter une nouvelle couche régulière au PSD avec Aspose.PSD pour Java
 linktitle: Ajouter un nouveau calque régulier au PSD
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter une nouvelle couche régulière aux fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une manipulation transparente du PSD.
-type: docs
 weight: 11
 url: /fr/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une nouvelle couche régulière au PSD avec Aspose.PSD pour Java
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur l'utilisation d'Aspose.PSD pour Java pour ajouter une nouvelle couche régulière à un fichier PSD. Aspose.PSD est une puissante bibliothèque Java qui permet aux développeurs de manipuler et de travailler efficacement avec les fichiers PSD. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'une nouvelle couche régulière à un fichier PSD, en vous fournissant des étapes détaillées et des exemples de code.
@@ -120,3 +126,9 @@ A2 : Absolument ! Aspose.PSD fournit une gamme d'options de transformation pour 
 ### Q5 : Existe-t-il des forums communautaires pour le support d'Aspose.PSD ?
 
  A5 : Oui, vous pouvez trouver du soutien et des discussions[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

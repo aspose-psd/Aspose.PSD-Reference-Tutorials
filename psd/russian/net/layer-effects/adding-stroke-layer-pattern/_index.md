@@ -3,10 +3,16 @@ title: Добавление слоя обводки с узором в Aspose.PS
 linktitle: Добавление слоя обводки с узором
 second_title: Aspose.PSD .NET API
 description: Улучшите свои PSD-файлы, добавив слои и узоры обводок, используя Aspose.PSD для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 13
 url: /ru/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление слоя обводки с узором в Aspose.PSD для .NET
+
 ## Введение
 
 Улучшение ваших файлов PSD (Photoshop Document) с помощью слоев и узоров обводки может добавить динамичности вашим проектам. В этом уроке мы рассмотрим, как использовать Aspose.PSD для .NET, чтобы легко добавить слой обводки с узором в ваши PSD-файлы. Aspose.PSD — это мощная библиотека .NET, обеспечивающая комплексную поддержку работы с PSD-файлами, что делает ее бесценным инструментом как для разработчиков, так и для дизайнеров.
@@ -144,3 +150,9 @@ using (var im = (PsdImage)Image.Load(exportPath, loadOptions))
 ### Вопрос 5. Где я могу обратиться за помощью или принять участие в обсуждениях сообщества?
 
  A5: Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) за поддержку и взаимодействие с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for Java'da Sabit Eşik ile İkilileştirme
 linktitle: Sabit Eşikli Binarizasyon
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'da Sabit Eşik ile İkilileştirmeyi keşfedin. Adım adım kılavuzumuzla görüntüleri sorunsuz bir şekilde dönüştürün.
-type: docs
 weight: 14
 url: /tr/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java'da Sabit Eşik ile İkilileştirme
+
 ## giriiş
 
 Java geliştirme alanında Aspose.PSD, görüntü işleme görevleri için güçlü bir araç olduğunu kanıtlıyor. Bu tür önemli işlemlerden biri, görüntüleri ikili forma dönüştürerek basitleştiren bir teknik olan Binarizasyon'dur. Bu eğitim, Java için Aspose.PSD'yi kullanarak Sabit Eşik ile Binarizasyon gerçekleştirme sürecinde size rehberlik edecektir. Bu dönüştürücü görüntü işleme yolculuğundaki adımları keşfederken kemerlerinizi bağlayın.
@@ -101,3 +107,9 @@ Cevap1:Evet, Aspose.PSD çeşitli görüntü formatlarını destekler, bu da İk
 ### S5: Ücretsiz deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.PSD'nin yeteneklerini ücretsiz deneme sürümüyle keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

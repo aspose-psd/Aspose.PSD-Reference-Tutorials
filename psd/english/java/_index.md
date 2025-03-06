@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials & Examples of Aspose.PSD for Java
 linktitle: Aspose.PSD for Java Tutorials
-type: docs
 weight: 10
 url: /java/
 description: Unlock the power of Aspose.PSD for Java in image processing! Master filters like Gaussian, Wiener, Median, and Motion Wiener with step-by-step tutorials.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials & Examples of Aspose.PSD for Java
+
 
 ## Introduction
 
@@ -86,3 +91,9 @@ Explore advanced PSD layer features and effects with Aspose.PSD for Java. Learn 
 Efficiently manage TIFF images with Aspose.PSD for Java. Learn to compress, configure, and apply Adobe Deflate compression to TIFF files with our step-by-step tutorials.
 ### [Working with PSD Files](./working-with-psd-files/)
 Explore comprehensive Aspose.PSD for Java tutorials, including how to export PSD layer groups to images and manipulate Clbl, Infx, and Lspf resources.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

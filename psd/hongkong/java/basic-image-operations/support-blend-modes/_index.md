@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中支援混合模式
 linktitle: 支援混合模式
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 增強 Java 中的影像處理。學習利用混合模式來獲得令人驚嘆的效果。
-type: docs
 weight: 12
 url: /zh-hant/java/basic-image-operations/support-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中支援混合模式
+
 ## 介紹
 
 Aspose.PSD for Java 是一個功能強大的函式庫，為混合模式提供廣泛的支持，使開發人員能夠增強其影像處理能力。在本教程中，我們將深入研究混合模式的世界，探索如何使用 Aspose.PSD for Java 有效地利用它們。無論您是經驗豐富的開發人員還是影像處理的新手，本指南都將為您提供在 Java 應用程式中充分利用混合模式潛力的知識。
@@ -107,3 +113,9 @@ A2：Aspose.PSD for Java 旨在有效處理大型 PSD 文件，但建議查看�
 ### Q5：我可以根據應用程式的要求進一步自訂混合模式嗎？
 
 A5：當然！ Aspose.PSD for Java 提供了靈活性，可讓您根據您的特定需求自訂混合模式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

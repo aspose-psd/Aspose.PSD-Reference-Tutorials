@@ -3,10 +3,16 @@ title: Application du réglage de la balance des couleurs dans Aspose.PSD pour .
 linktitle: Application du réglage de la balance des couleurs
 second_title: API Aspose.PSD.NET
 description: Améliorez les couleurs des images PSD sans effort avec la fonction de réglage de la balance des couleurs d'Aspose.PSD pour .NET. Suivez notre guide étape par étape pour des résultats époustouflants.
-type: docs
 weight: 14
 url: /fr/net/image-adjustment/color-balance-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Application du réglage de la balance des couleurs dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur l'application de l'ajustement de la balance des couleurs dans Aspose.PSD pour .NET ! Aspose.PSD est une puissante bibliothèque .NET qui permet aux développeurs de travailler efficacement avec les fichiers PSD. Dans ce didacticiel, nous nous concentrerons sur la fonction de réglage de la balance des couleurs, vous permettant d'améliorer facilement la balance des couleurs de vos images PSD.
@@ -97,3 +103,10 @@ A2 : Absolument ! Aspose.PSD offre des capacités efficaces de traitement par lo
 ### Q5 : Quelles options de support sont disponibles pour Aspose.PSD pour .NET ?
 
  A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien et les discussions de la communauté.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

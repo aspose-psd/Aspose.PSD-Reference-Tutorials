@@ -3,10 +3,16 @@ title: Compatibilidad con el recurso de color de fondo en Aspose.PSD para .NET
 linktitle: Recurso de color de fondo de apoyo
 second_title: API Aspose.PSD .NET
 description: Domine Aspose.PSD para .NET con nuestra guía paso a paso. Manipule imágenes PSD sin esfuerzo. ¡Descarga tu prueba gratuita ahora!
-type: docs
 weight: 10
 url: /es/net/psd-file-resources/supporting-background-color-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compatibilidad con el recurso de color de fondo en Aspose.PSD para .NET
+
 ## Introducción
 Descubra todo el potencial de Aspose.PSD para .NET mientras profundizamos en un tutorial completo. Esta guía le proporcionará los conocimientos necesarios para aprovechar las capacidades de Aspose.PSD de forma eficaz. Ya sea que sea un desarrollador experimentado o un principiante, siga las instrucciones mientras desglosamos cada aspecto en pasos manejables, haciendo que su viaje con Aspose.PSD sea perfecto.
 ## Requisitos previos
@@ -89,3 +95,9 @@ R2: Sí, puede utilizar Aspose.PSD tanto en proyectos comerciales como no comerc
 ### P5: ¿Cómo obtener una licencia temporal?
 
  R5: Siga los pasos del[página de licencia temporal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

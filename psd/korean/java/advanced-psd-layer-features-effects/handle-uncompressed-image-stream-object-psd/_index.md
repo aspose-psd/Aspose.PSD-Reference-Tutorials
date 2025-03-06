@@ -3,10 +3,16 @@ title: PSD에서 압축되지 않은 이미지 스트림 객체 처리 - Java
 linktitle: PSD에서 압축되지 않은 이미지 스트림 객체 처리 - Java
 second_title: Aspose.PSD 자바 API
 description: 따라하기 쉬운 가이드를 통해 Java용 Aspose.PSD를 사용하여 PSD에서 압축되지 않은 이미지 스트림을 마스터 처리하세요. 개발자와 디자이너에게 적합합니다.
-type: docs
 weight: 26
 url: /ko/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에서 압축되지 않은 이미지 스트림 객체 처리 - Java
+
 ## 소개
 Java 이미지 조작의 세계에 오신 것을 환영합니다! 오늘은 Java용 Aspose.PSD를 사용하여 압축되지 않은 이미지 스트림 개체를 처리하는 방법을 자세히 살펴보겠습니다. 귀하가 작업 흐름을 자동화하려는 그래픽 디자이너이든 강력한 이미지 처리 기능을 응용 프로그램에 통합하려는 소프트웨어 개발자이든 이 가이드는 귀하에게 꼭 맞는 것입니다. 전제 조건부터 결론까지 모든 것을 살펴보고 Aspose.PSD를 시작하는 방법에 대한 확실한 이해를 보장합니다.
 ## 전제조건
@@ -92,3 +98,9 @@ Aspose.PSD는 개발자가 Photoshop PSD 파일 및 관련 이미지 형식을 �
  전적으로! 다음에서 도움을 구할 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  그냥 방문하세요[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) 시작하려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

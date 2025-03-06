@@ -3,10 +3,16 @@ title: การประมวลผลภาพ
 linktitle: การประมวลผลภาพ
 second_title: Aspose.PSD Java API
 description: ปลดล็อกศักยภาพของ Aspose.PSD สำหรับ Java ในการประมวลผลภาพ เรียนรู้การใช้ตัวกรอง Gaussian, Wiener, Median และ Motion Wiener ทีละขั้นตอน
-type: docs
 weight: 20
 url: /th/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การประมวลผลภาพ
+
 ## การแนะนำ
 
 การประมวลผลภาพกลายเป็นการเดินทางที่น่าตื่นเต้นด้วย Aspose.PSD สำหรับ Java ซึ่งเป็นชุดเครื่องมือที่ช่วยให้นักพัฒนาปรับปรุงเนื้อหาภาพได้ ตั้งแต่เทคนิคพื้นฐานไปจนถึงกระบวนการขั้นสูง ชุดบทช่วยสอนนี้จะเจาะลึกถึงคุณสมบัติต่างๆ ที่ทำให้ Aspose.PSD เป็นโซลูชันที่ใช้งานได้ง่ายสำหรับการประมวลผลภาพ Java
@@ -57,3 +63,9 @@ url: /th/java/image-processing/
 ปรับปรุงคุณภาพของภาพด้วย Bradley Thresholding ใน Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้ภาพไบนาไรซ์มีประสิทธิผล
 ### [ครอบตัดไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java](./crop-psd-file/)
 สำรวจการครอบตัดไฟล์ PSD ที่ราบรื่นใน Java ด้วย Aspose.PSD ผสานรวมความแม่นยำและประสิทธิภาพเข้ากับงานจัดการภาพของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

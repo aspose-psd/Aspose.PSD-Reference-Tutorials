@@ -3,10 +3,16 @@ title: Add Gradient Effects in Aspose.PSD for Java
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 description: Enhance your Java images with stunning gradient effects using Aspose.PSD. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 10
 url: /java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Gradient Effects in Aspose.PSD for Java
+
 ## Introduction
 
 Welcome to the tutorial on adding gradient effects in Aspose.PSD for Java! If you're looking to enhance your images with stunning gradient overlays, you're in the right place. In this guide, we'll walk you through the process using Aspose.PSD, a powerful Java library for image processing.
@@ -130,3 +136,10 @@ A4: Yes, you can get a free trial [here](https://releases.aspose.com/).
 ### Q5: Where can I purchase a license for Aspose.PSD for Java?
 
 A5: Visit the [purchase page](https://purchase.aspose.com/buy) for licensing information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

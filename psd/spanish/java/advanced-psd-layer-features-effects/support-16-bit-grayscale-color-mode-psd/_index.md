@@ -3,10 +3,16 @@ title: Admite el modo de color en escala de grises de 16 bits en PSD - Java
 linktitle: Admite el modo de color en escala de grises de 16 bits en PSD - Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo implementar el modo de color en escala de grises de 16 bits en archivos PSD usando Aspose.PSD para Java con este tutorial detallado paso a paso.
-type: docs
 weight: 11
 url: /es/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite el modo de color en escala de grises de 16 bits en PSD - Java
+
 ## Introducción
 Cuando te sumerges en el mundo del diseño gráfico y la manipulación de imágenes, entender cómo trabajar con diferentes modos de color es como tener un arma secreta. En particular, la escala de grises de 16 bits puede cambiar las reglas del juego, brindando a sus imágenes esa profundidad y detalle sorprendentes que realmente las hacen resaltar. Entonces, ¿estás listo para explorar esta poderosa característica usando Aspose.PSD para Java? Si tienes tu equipo de codificación listo, saltemos directamente a ello.
 ## Requisitos previos
@@ -126,3 +132,9 @@ La escala de grises de 16 bits permite una gama más completa de tonos en compar
  Puedes consultar el[documentación](https://reference.aspose.com/psd/java/) para obtener ejemplos y tutoriales más detallados.
 ### ¿Cómo compro una licencia para Aspose.PSD?
  Puede comprar una licencia visitando el[Aspose página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

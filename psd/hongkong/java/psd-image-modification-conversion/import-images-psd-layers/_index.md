@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD Java 將影像匯入 PSD 圖層
 linktitle: 使用 Aspose.PSD Java 將影像匯入 PSD 圖層
 second_title: Aspose.PSD Java API
 description: 透過這份全面的逐步指南，了解如何使用 Aspose.PSD for Java 將影像匯入 PSD 圖層。
-type: docs
 weight: 17
 url: /zh-hant/java/psd-image-modification-conversion/import-images-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD Java 將影像匯入 PSD 圖層
+
 ## 介紹
 在處理 PSD 檔案時，擁有正確的工具可以發揮重要作用。無論您是從事平面設計、數位藝術，還是只是想為您的簡報增添趣味，了解如何操作 PSD 圖層都可以開啟創意世界。在本教程中，您將學習如何使用 Aspose.PSD for Java 將圖像匯入 PSD 圖層。本指南旨在以簡單、引人入勝的方式引導您完成每個步驟。那麼，喝杯咖啡，讓我們深入了解 PSD 檔案中影像處理的本質。
 ## 先決條件
@@ -85,3 +91,9 @@ Aspose.PSD for Java 是一個函式庫，使開發人員能夠處理 PSD 文件�
 您可以訪問[Aspose 支援論壇](https://forum.aspose.com/c/psd/34)獲得社區和 Aspose 專家的幫助。
 ### 如何購買 Aspose.PSD for Java 的授權？
 您可以透過造訪購買許可證[Aspose購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

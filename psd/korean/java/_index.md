@@ -1,12 +1,17 @@
 ---
 title: Java용 Aspose.PSD의 종합 튜토리얼 및 예
 linktitle: Java 튜토리얼용 Aspose.PSD
-type: docs
 weight: 10
 url: /ko/java/
 description: 이미지 처리에서 Java용 Aspose.PSD의 강력한 기능을 활용해 보세요! 단계별 튜토리얼을 통해 Gaussian, Wiener, Median, Motion Wiener와 같은 필터를 마스터하세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD의 종합 튜토리얼 및 예
+
 
 ## 소개
 
@@ -86,3 +91,9 @@ Java용 Aspose.PSD를 사용하여 고급 PSD 레이어 기능과 효과를 살�
 Java용 Aspose.PSD를 사용하여 TIFF 이미지를 효율적으로 관리하세요. 단계별 튜토리얼을 통해 Adobe Deflate 압축을 TIFF 파일에 압축, 구성 및 적용하는 방법을 알아보세요.
 ### [PSD 파일 작업](./working-with-psd-files/)
 PSD 레이어 그룹을 이미지로 내보내고 Clbl, Infx 및 Lspf 리소스를 조작하는 방법을 포함하여 Java용 포괄적인 Aspose.PSD 튜토리얼을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

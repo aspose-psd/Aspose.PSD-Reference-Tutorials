@@ -3,10 +3,16 @@ title: Обрезка файлов PSD при преобразовании в PN
 linktitle: Обрезка PSD-файлов при конвертации в PNG
 second_title: Aspose.PSD .NET API
 description: Узнайте, как легко обрезать PSD-файлы с помощью Aspose.PSD для .NET. Следуйте нашему пошаговому руководству для плавного преобразования в PNG.
-type: docs
 weight: 18
 url: /ru/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обрезка файлов PSD при преобразовании в PNG в Aspose.PSD для .NET
+
 ## Введение
 В сфере разработки .NET манипулирование и преобразование изображений является распространенной задачей. Aspose.PSD для .NET предоставляет мощный набор инструментов для оптимизации этого процесса. Одним из частых требований является обрезка PSD-файлов перед преобразованием их в PNG. В этом пошаговом руководстве мы углубимся в процесс использования Aspose.PSD для .NET.
 ## Предварительные условия
@@ -77,3 +83,9 @@ image.Save(destName, pngOptions);
 ### Вопрос 5. Есть ли в документации примеры или учебные пособия?
 
  A5: Да, вы можете найти подробную документацию и примеры.[здесь](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

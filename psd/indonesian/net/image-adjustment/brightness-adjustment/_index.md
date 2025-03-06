@@ -3,10 +3,16 @@ title: Menerapkan Penyesuaian Kecerahan di Aspose.PSD untuk .NET
 linktitle: Menerapkan Penyesuaian Kecerahan
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan Aspose.PSD untuk .NET dalam menyesuaikan kecerahan gambar. Ikuti panduan langkah demi langkah kami untuk penerapan yang lancar.
-type: docs
 weight: 10
 url: /id/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Penyesuaian Kecerahan di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Meningkatkan dan menyesuaikan atribut gambar merupakan persyaratan umum dalam berbagai aplikasi, dan Aspose.PSD untuk .NET memberikan solusi canggih untuk memanipulasi file PSD dengan lancar. Salah satu manipulasi tersebut adalah penyesuaian kecerahan, memungkinkan Anda mengubah kecerahan gambar dengan mudah.
@@ -97,3 +103,9 @@ Aspose.PSD untuk .NET menyederhanakan proses penerapan penyesuaian kecerahan dal
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk .NET?
 
  A5: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

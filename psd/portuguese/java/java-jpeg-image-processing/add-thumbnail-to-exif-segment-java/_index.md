@@ -3,10 +3,16 @@ title: Adicionar miniatura ao segmento EXIF em Java
 linktitle: Adicionar miniatura ao segmento EXIF em Java
 second_title: API Java Aspose.PSD
 description: Aprenda como aprimorar metadados de imagens com miniaturas usando Aspose.PSD para Java. Siga nosso guia passo a passo para uma integração perfeita.para uma integração perfeita.
-type: docs
 weight: 10
 url: /pt/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar miniatura ao segmento EXIF em Java
+
 ## Introdução
 Neste tutorial, exploraremos como aprimorar os metadados da imagem adicionando uma miniatura ao segmento EXIF usando Aspose.PSD para Java. Os metadados EXIF (Exchangeable Image File Format) desempenham um papel crucial na fotografia digital, fornecendo informações valiosas, como configurações da câmera, data e localização. Adicionar uma miniatura melhora a experiência do usuário, visualizando as imagens com eficiência.
 ## Pré-requisitos
@@ -66,3 +72,9 @@ Adicionar uma miniatura melhora a experiência do usuário, permitindo visualiza
  Você pode obter uma licença temporária para Aspose.PSD em[aqui](https://purchase.aspose.com/temporary-license/).
 ### Como obtenho suporte para Aspose.PSD?
  Para suporte, visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

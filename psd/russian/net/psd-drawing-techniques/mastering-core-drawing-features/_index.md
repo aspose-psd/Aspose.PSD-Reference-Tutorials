@@ -3,10 +3,16 @@ title: Освоение основных функций рисования в As
 linktitle: Освоение основных функций рисования
 second_title: Aspose.PSD .NET API
 description: Освойте основные функции рисования Aspose.PSD для .NET с помощью нашего пошагового руководства. Совершенствуйте навыки обработки изображений без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/psd-drawing-techniques/mastering-core-drawing-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение основных функций рисования в Aspose.PSD для .NET
+
 ## Введение
 
 Раскройте весь потенциал Aspose.PSD для .NET, освоив его основные функции рисования. В этом подробном руководстве мы покажем вам основные шаги по расширению возможностей обработки изображений с помощью Aspose.PSD. Независимо от того, являетесь ли вы опытным разработчиком или новичком в мире .NET, это руководство предоставит вам знания по эффективному манипулированию изображениями и использованию возможностей Aspose.PSD.
@@ -110,3 +116,9 @@ image.Save(outpath, new BmpOptions());
 ### Вопрос 5: Где я могу получить поддержку Aspose.PSD для .NET?
 
  A5: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

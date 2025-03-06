@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中實作有損 GIF 壓縮器
 linktitle: 實施有損 GIF 壓縮器
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 的有損 GIF 壓縮器無縫優化您的 Web 圖片。請遵循我們的逐步指南以高效實施。
-type: docs
 weight: 13
 url: /zh-hant/java/advanced-image-manipulation/implement-lossy-gif-compressor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中實作有損 GIF 壓縮器
+
 ## 介紹
 
 在不斷發展的 Web 開發世界中，優化影像以提高效能至關重要。 Aspose.PSD for Java 提供了一個強大的解決方案，透過其有損 GIF 壓縮器來實現這一目標。在本教學中，我們將逐步介紹使用 Aspose.PSD for Java 實作有損 GIF 壓縮器的過程。
@@ -94,3 +100,9 @@ A3：文檔可用[這裡](https://reference.aspose.com/psd/java/).
 ### Q5: 如何購買 Aspose.PSD for Java？
 
  A5：您可以購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Stöd Lspf-resurs i PSD-filer med Java
 linktitle: Stöd Lspf-resurs i PSD-filer med Java
 second_title: Aspose.PSD Java API
 description: Bemästra hur du stödjer och manipulerar Lspf Resource i PSD-filer med Aspose.PSD för Java med vår steg-för-steg-guide.
-type: docs
 weight: 14
 url: /sv/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stöd Lspf-resurs i PSD-filer med Java
+
 ## Introduktion
 
 Är du en utvecklare som vill dyka in i en värld av PSD-filmanipulation? Nåväl, du har kommit till rätt ställe! När du arbetar med PSD-filer behöver du ofta hantera olika lagerresurser, till exempel LspfResource. Denna resurs är avgörande för att hantera lagerskyddsinställningar som komposit-, positions- och transparensskydd i en PSD-fil. I den här omfattande handledningen kommer vi att undersöka hur man stödjer och manipulerar LspfResource i PSD-filer med hjälp av Java med hjälp av Aspose.PSD för Java.
@@ -182,3 +188,9 @@ Om du inte verifierar ändringarna finns det en risk att inställningarna inte t
 
 ### Kan jag ångra ändringar som gjorts i LspfResource efter att ha sparat filen?  
 När filen väl har sparats är det inte möjligt att ångra ändringar direkt. Du kan dock ladda om originalfilen och tillämpa ändringarna igen efter behov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

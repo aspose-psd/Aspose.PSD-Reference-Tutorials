@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD Java 在 PSD 文件中突出显示图纸颜色
 linktitle: 使用 Aspose.PSD Java 在 PSD 文件中突出显示图纸颜色
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 突出显示 PSD 文件中的纸张颜色。按照我们的分步指南来提高您在 Java 中的图像处理技能。
-type: docs
 weight: 19
 url: /zh/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD Java 在 PSD 文件中突出显示图纸颜色
+
 ## 介绍
 
 您是否希望深入研究图像处理并使用 Java 增强您的数字创作？无论您是经验丰富的开发人员还是刚刚起步，使用 PSD 文件都可以打开一个无限可能的世界。PSD 文件是分层图像编辑的行业标准，借助 Aspose.PSD for Java 的强大功能，您可以毫不费力地在 Java 应用程序中处理这些文件。今天，我们将介绍如何在 PSD 文件中突出显示纸张颜色，确保您的设计以最鲜明的方式脱颖而出。
@@ -142,3 +148,9 @@ Aspose.PSD for Java 是一个库，允许开发人员以编程方式处理 PSD �
 
 ### 我可以在 PSD 文件中一次突出显示多个图层吗？
 是的，您可以循环遍历 PSD 文件中的图层，并将所需的纸张颜色高亮单独应用于每个图层。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PSD-tekentechnieken
 linktitle: PSD-tekentechnieken
 second_title: Aspose.PSD .NET-API
 description: Ontgrendel het potentieel van Aspose.PSD voor .NET met onze tutorials! Beheers de belangrijkste tekenfuncties, maak verbluffende graphics en verbeter uw vaardigheden op het gebied van beeldmanipulatie.
-type: docs
 weight: 28
 url: /nl/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD-tekentechnieken
+
 
 ## Invoering
 
@@ -61,3 +67,9 @@ Ontdek de kunst van het tekenen van rechthoeken in .NET met Aspose.PSD. Volg onz
 Ontgrendel uw artistieke potentieel met Aspose.PSD voor .NET! Volg onze tutorial voor creatief tekenen met Graphics.
 ### [Implementatie van tekenen met GraphicsPath in Aspose.PSD voor .NET](./implementing-drawing-with-graphicspath/)
 Ontdek de kracht van Aspose.PSD voor .NET in deze stapsgewijze zelfstudie over tekenen met GraphicsPath. Verbeter uw .NET-toepassingen met geavanceerde Photoshop-bestandsmanipulatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

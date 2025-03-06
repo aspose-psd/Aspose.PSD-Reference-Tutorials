@@ -3,10 +3,16 @@ title: A gyorsítótár újraelosztásának vezérlése PSD-fájlokban
 linktitle: A gyorsítótár újraelosztásának vezérlése PSD-fájlokban
 second_title: Aspose.PSD Java API
 description: A PSD-fájlok gyorsítótár-újraelosztásának kezelése az Aspose.PSD for Java segítségével. Ismerje meg, hogyan optimalizálhatja hatékonyan a memóriát és a fájlkezelést – ideális megoldás a fejlesztők számára.
-type: docs
 weight: 22
 url: /hu/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A gyorsítótár újraelosztásának vezérlése PSD-fájlokban
+
 ## Bevezetés
 Amikor programozottan dolgozik képekkel és Photoshop-fájlokkal, a hatékonyság kulcsfontosságú tényező. Az Aspose.PSD for Java robusztus szolgáltatásokat kínál a PSD-fájlok zökkenőmentes kezeléséhez és kezeléséhez. A teljesítmény optimalizálásának egyik alapvető szempontja a gyorsítótár újraelosztásának vezérlése. A gyorsítótár-kezelés segít fenntartani az egyensúlyt a memória és a lemezhasználat között, biztosítva az alkalmazás zökkenőmentes működését, váratlan összeomlások és lassulások nélkül. 
 ## Előfeltételek
@@ -127,3 +133,9 @@ Az Aspose.PSD egy könyvtár a .NET- és Java-fejlesztők számára Photoshop-f�
 Az Aspose.PSD egy fizetős könyvtár, de elkezdheti a rajtuk elérhető ingyenes próbaverzióval[weboldal](https://releases.aspose.com/).
 ### Mi történik, ha nem dobok ki tárgyakat?
 Ha nem dobja ki az objektumokat, az memóriaszivárgáshoz vezethet, ami miatt az alkalmazás a szükségesnél több erőforrást használ fel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Színeffektusok átfedése a képeken az Aspose.PSD for .NET-ben
 linktitle: Színeffektusok átfedése a képeken
 second_title: Aspose.PSD .NET API
 description: Fedezze fel az Aspose.PSD for .NET varázslatát a színhatások átfedéséről szóló oktatóanyagunk segítségével. Emelje fel a képfeldolgozó játékot könnyedén.
-type: docs
 weight: 11
 url: /hu/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Színeffektusok átfedése a képeken az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 
 Az Aspose.PSD for .NET robusztus funkciókat kínál a képfeldolgozáshoz, így a fejlesztők könnyedén érhetnek el lenyűgöző hatásokat. Az egyik ilyen lehetőség a színhatások átfedése a képekre. Ebben az oktatóanyagban a ColorOverlay effektusra fogunk összpontosítani, és bemutatjuk, hogyan alkalmazzuk azt egy képre, átalakítva annak vizuális vonzerejét.
@@ -98,3 +104,9 @@ V2: Olvassa el a dokumentációt[itt](https://reference.aspose.com/psd/net/) ré
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.PSD for .NET számára?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Upptäck tillplattade PSD-filer med Aspose.PSD för Java
 linktitle: Upptäck tillplattade PSD-filer med Aspose.PSD för Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du upptäcker tillplattade PSD-filer med Aspose.PSD för Java, steg för steg i denna omfattande handledning.
-type: docs
 weight: 10
 url: /sv/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upptäck tillplattade PSD-filer med Aspose.PSD för Java
+
 ## Introduktion
 
 Välkommen till en värld av PSD (Photoshop Document) filmanipulation med Aspose.PSD för Java! Om du någonsin har behövt arbeta med lager i Photoshop-filer men inte vetat var du ska börja, är du på rätt plats. I den här handledningen kommer vi att fördjupa oss i hur man upptäcker om en PSD-fil är tillplattad med Aspose.PSD. Att platta till en PSD innebär att alla dess lager slås samman till ett enda enhetligt lager, vilket kan göra redigeringen lite knepig efteråt. I slutet av den här guiden kommer du att vara utrustad för att leta efter denna avgörande aspekt av dina PSD-filer. Sitt hårt, ta ditt kaffe och låt oss dyka in!
@@ -77,3 +83,9 @@ Ja! Aspose.PSD kan hantera olika bildformat, vilket ger omfattande funktionalite
 
 ### Finns det något sätt att testa Aspose.PSD gratis?
  Absolut! Du kan starta en gratis testversion genom att ladda ner en testversion från[denna länk](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

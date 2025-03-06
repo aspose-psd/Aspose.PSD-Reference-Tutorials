@@ -3,10 +3,16 @@ title: Afbeeldingen uitbreiden en bijsnijden in Aspose.PSD voor .NET
 linktitle: Afbeeldingen uitbreiden en bijsnijden
 second_title: Aspose.PSD .NET-API
 description: Leer hoe u afbeeldingen dynamisch kunt uitbreiden en bijsnijden met Aspose.PSD voor .NET. Volg onze stapsgewijze handleiding voor naadloze beeldmanipulatie.
-type: docs
 weight: 13
 url: /nl/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen uitbreiden en bijsnijden in Aspose.PSD voor .NET
+
 ## Invoering
 
 Aspose.PSD voor .NET is een uitgebreide beeldbibliotheek waarmee ontwikkelaars met verschillende beeldformaten kunnen werken in hun .NET-toepassingen. Een van de opvallende kenmerken is de mogelijkheid om afbeeldingen gemakkelijk te manipuleren. In deze zelfstudie concentreren we ons op het uitbreiden en bijsnijden van afbeeldingen, zodat u een praktische handleiding krijgt om deze taken uit te voeren met Aspose.PSD.
@@ -98,3 +104,9 @@ A1: Ja, Aspose.PSD ondersteunt een breed scala aan afbeeldingsformaten, waaronde
 ### V5: Waar kan ik Aspose.PSD voor .NET kopen?
 
  A5: Je kunt de bibliotheek kopen bij de[Aspose.PSD-aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

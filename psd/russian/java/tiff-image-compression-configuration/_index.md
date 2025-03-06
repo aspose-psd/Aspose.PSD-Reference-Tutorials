@@ -3,10 +3,16 @@ title: Сжатие и настройка изображений TIFF
 linktitle: Сжатие и настройка изображений TIFF
 second_title: Aspose.PSD Java API
 description: Эффективно управляйте изображениями TIFF с помощью Aspose.PSD для Java. Научитесь сжимать, настраивать и применять сжатие Adobe Deflate к файлам TIFF с помощью наших пошаговых руководств.
-type: docs
 weight: 25
 url: /ru/java/tiff-image-compression-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сжатие и настройка изображений TIFF
+
 ## Введение
 
 Управление изображениями TIFF может быть сложной задачей, но с Aspose.PSD для Java вы можете легко справиться с этими задачами. Если вам нужно сжать файлы TIFF, настроить параметры или применить определенные методы сжатия, такие как Adobe Deflate, наши руководства предоставляют исчерпывающие рекомендации по упрощению этих процессов. Вот взгляд на то, как вы можете максимально эффективно использовать Aspose.PSD для Java для управления изображениями TIFF.
@@ -36,3 +42,9 @@ url: /ru/java/tiff-image-compression-configuration/
 Узнайте, как применить сжатие Adobe Deflate к изображениям TIFF с помощью Aspose.PSD для Java. Пошаговое руководство по эффективной обработке изображений.
 ### [Примените сжатие Deflate к файлам TIFF с помощью Java](./apply-deflate-compression-tiff-files/)
 Узнайте, как применить сжатие Deflate к файлам TIFF с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству, чтобы эффективно уменьшить размер файла без потери качества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

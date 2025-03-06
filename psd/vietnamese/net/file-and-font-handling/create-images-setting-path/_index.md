@@ -3,10 +3,16 @@ title: Tạo hình ảnh bằng cách đặt đường dẫn trong Aspose.PSD ch
 linktitle: Tạo hình ảnh bằng cách đặt đường dẫn
 second_title: API Aspose.PSD .NET
 description: Khám phá việc tạo hình ảnh bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi và khám phá tiềm năng của thư viện mạnh mẽ này.
-type: docs
 weight: 11
 url: /vi/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình ảnh bằng cách đặt đường dẫn trong Aspose.PSD cho .NET
+
 Trong lĩnh vực phát triển .NET, Aspose.PSD nổi bật như một công cụ mạnh mẽ để thao tác và tạo hình ảnh. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình tạo hình ảnh bằng Aspose.PSD cho .NET bằng cách đặt đường dẫn. Hãy làm theo các hướng dẫn từng bước này để khai thác tiềm năng của thư viện đa năng này.
 
 ## Giới thiệu
@@ -98,3 +104,9 @@ A2: Chắc chắn rồi! Aspose.PSD cho phép bạn thực hiện xử lý ảnh
 ### Câu hỏi 5: Làm thế nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm sự trợ giúp?
 
  A5: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để kết nối với cộng đồng và tìm kiếm sự trợ giúp từ các chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

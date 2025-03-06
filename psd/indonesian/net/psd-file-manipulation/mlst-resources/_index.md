@@ -3,10 +3,16 @@ title: Menguasai Penanganan Sumber Daya MLST di Aspose.PSD untuk .NET
 linktitle: Menangani Sumber Daya MLST
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara memanipulasi status lapisan dalam file Photoshop dengan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk penanganan Sumber Daya MLST yang efisien.
-type: docs
 weight: 14
 url: /id/net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Penanganan Sumber Daya MLST di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Selamat datang di tutorial mendalam tentang penanganan Sumber Daya MLST (Multiple Layer States) di Aspose.PSD untuk .NET. Aspose.PSD untuk .NET adalah perpustakaan canggih yang menyediakan kemampuan luas untuk bekerja dengan file Photoshop. Dalam tutorial ini, kita akan fokus pada dukungan Sumber Daya MLST, yang menawarkan mekanisme tingkat rendah untuk memanipulasi status lapisan secara efisien.
 ## Prasyarat
@@ -86,3 +92,9 @@ A3: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/psd/net/).
 ### Q5: Bagaimana cara membeli lisensi Aspose.PSD untuk .NET?
 
  A5: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

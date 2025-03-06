@@ -3,10 +3,16 @@ title: Java için Aspose.PSD'de Görüntüyü Kaydırarak Kırp
 linktitle: Resmi Kaydırarak Kırp
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java ile görüntü kırpmada ustalaşın. Kesintisiz görüntü işleme için kapsamlı bir eğitim.
-type: docs
 weight: 16
 url: /tr/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.PSD'de Görüntüyü Kaydırarak Kırp
+
 ## giriiş
 
 Java tabanlı görüntü işleme alanında Aspose.PSD, görüntüleri son derece hassas bir şekilde işlemek ve geliştirmek için güçlü bir araç olarak öne çıkıyor. Aspose.PSD'yi diğerlerinden ayıran en önemli özelliklerden biri, görüntü kırpma işlemini sorunsuz bir şekilde gerçekleştirebilmesidir. Bu derste Aspose.PSD for Java kullanarak görüntü kırpma sanatını inceleyeceğiz. Sonunda, görüntüleri spesifikasyonlarınıza göre zahmetsizce kırpma becerisine sahip olacaksınız.
@@ -115,3 +121,10 @@ Cevap2: Kesinlikle, aynı görüntü üzerinde birden fazla kırpma işlemini ar
 ### S5: Aspose.PSD işlevlerini gösteren örnek projeler var mı?
 
  A5: Şu adresteki belgeleri ve örnekleri inceleyin:[Aspose.PSD Java Belgeleri](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

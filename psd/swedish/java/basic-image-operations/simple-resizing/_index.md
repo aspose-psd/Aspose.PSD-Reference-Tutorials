@@ -3,10 +3,16 @@ title: Utför enkel storleksändring med Aspose.PSD för Java
 linktitle: Utför enkel storleksändring
 second_title: Aspose.PSD Java API
 description: Lär dig att ändra storlek på bilder programmatiskt med Aspose.PSD för Java. Följ vår steg-för-steg-guide för effektiv bildmanipulation.
-type: docs
 weight: 11
 url: /sv/java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utför enkel storleksändring med Aspose.PSD för Java
+
 ## Introduktion
 
 I dagens handledning kommer vi att fördjupa oss i processen för enkel bildstorleksändring med Aspose.PSD för Java, ett kraftfullt bibliotek som underlättar effektiv bildmanipulation. Om du är en Java-utvecklare som söker ett smidigt sätt att ändra storlek på bilder programmatiskt, är du på rätt plats.
@@ -101,3 +107,9 @@ S2: Ja, Aspose.PSD stöder olika bildformat, vilket ger mångsidighet i dina bil
 ### F5: Hur kan jag få support för Aspose.PSD för Java?
 
  A5: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) för hjälp och samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

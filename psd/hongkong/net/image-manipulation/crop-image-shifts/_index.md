@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中透過移位裁剪影像
 linktitle: 透過移位裁剪影像
 second_title: Aspose.PSD .NET API
 description: 學習使用 Aspose.PSD for .NET 輕鬆裁切影像。請按照我們的逐步指南進行精確的影像調整。
-type: docs
 weight: 12
 url: /zh-hant/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中透過移位裁剪影像
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.PSD 作為影像處理任務的強大工具包脫穎而出。其顯著特點之一是能夠透過「按班次裁剪」功能精確裁剪影像。在本逐步指南中，我們將引導您完成使用 Aspose.PSD for .NET 無縫裁切影像的過程。
@@ -105,3 +111,10 @@ A1：是的，Aspose.PSD 支援各種圖片格式，讓您可以裁切 JPEG、PN
 ### Q5：可以直接從網站購買Aspose.PSD for .NET嗎？
 
  A5：是的，您可以從[購買頁面](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exporter des couches PSD vers des images raster à l'aide de Java
 linktitle: Exporter des couches PSD vers des images raster à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à exporter des calques PSD vers des images PNG à l'aide d'Aspose.PSD pour Java. Débloquez une manipulation transparente des fichiers avec notre didacticiel détaillé étape par étape.
-type: docs
 weight: 12
 url: /fr/java/psd-image-modification-conversion/export-psd-layers-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter des couches PSD vers des images raster à l'aide de Java
+
 ## Introduction
 
 Dans le monde du design numérique, travailler avec des images superposées peut être à la fois une aubaine et un défi. Imaginez que vous avez passé des heures à créer une image fantastique dans Photoshop (format PSD), complétée par plusieurs calques qui donnent vie à votre conception. Maintenant, vous souhaiterez peut-être exporter ces calques indépendamment pour une utilisation ultérieure ! C'est là qu'Aspose.PSD pour Java entre en jeu, automatisant sans effort la tâche fastidieuse d'exportation de chaque couche de votre fichier PSD vers des images raster, telles que PNG. Dans ce guide complet, nous vous guiderons tout au long du processus d'exportation de couches PSD à l'aide de Java, étape par étape.
@@ -99,3 +105,9 @@ Vous pouvez demander de l'aide et du soutien à la communauté Aspose. Visitez l
 
 ### Où puis-je acheter une licence pour Aspose.PSD ?
  Vous pouvez facilement acheter une licence pour Aspose.PSD à partir de leur page d'achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

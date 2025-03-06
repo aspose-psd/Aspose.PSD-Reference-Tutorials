@@ -3,10 +3,16 @@ title: Working with Blend Modes in Aspose.PSD for .NET
 linktitle: Working with Blend Modes
 second_title: Aspose.PSD .NET API
 description: Explore the power of blend modes in Aspose.PSD for .NET. This tutorial guides you through applying various blend modes with step-by-step examples.
-type: docs
 weight: 16
 url: /net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Blend Modes in Aspose.PSD for .NET
+
 ## Introduction
 
 If you're a .NET developer looking to enhance your image processing capabilities, Aspose.PSD for .NET is a powerful tool that allows you to work with various blend modes seamlessly. Blend modes play a crucial role in manipulating images by defining how layers blend with each other. In this step-by-step guide, we'll delve into the world of blend modes and demonstrate how to use them effectively in your .NET applications.
@@ -102,3 +108,10 @@ A4: Absolutely! Blend modes can be combined with other Aspose.PSD features for a
 ### Q5: Is there a community forum for Aspose.PSD support?
 
 A5: Yes, you can find support and connect with other users on the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

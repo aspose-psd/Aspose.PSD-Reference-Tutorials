@@ -3,10 +3,16 @@ title: تنفيذ ضبط التباين في Aspose.PSD لـ .NET
 linktitle: تنفيذ تعديل التباين
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية تنفيذ ضبط التباين في Aspose.PSD لـ .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ ضبط التباين في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تنفيذ ضبط التباين في Aspose.PSD لـ .NET! في هذا البرنامج التعليمي، سنستكشف عملية تحسين تباين الصورة باستخدام Aspose.PSD، وهي مكتبة تصوير NET قوية. بحلول نهاية هذا الدليل، سيكون لديك فهم قوي لكيفية تطبيق تعديلات التباين على صورك بسلاسة.
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

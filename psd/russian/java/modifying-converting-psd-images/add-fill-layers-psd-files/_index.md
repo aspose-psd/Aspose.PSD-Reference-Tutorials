@@ -3,10 +3,16 @@ title: Добавьте слои заливки в PSD-файлы в Aspose.PSD 
 linktitle: Добавьте слои заливки в PSD-файлы в Aspose.PSD для Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как добавить слои заливки в PSD-файлы на Java с помощью Aspose.PSD, с помощью нашего пошагового руководства. Улучшите свои проекты.
-type: docs
 weight: 13
 url: /ru/java/modifying-converting-psd-images/add-fill-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте слои заливки в PSD-файлы в Aspose.PSD для Java
+
 ## Введение
 Если вы когда-либо пробовали себя в графическом дизайне или работали над документами Photoshop, вы знаете, насколько важны слои. Слои позволяют создавать композицию, сохранять четкость элементов и применять эффекты без потери исходного качества изображения. Сегодня мы сосредоточимся на использовании Aspose.PSD для Java для добавления слоев заливки в ваши PSD-файлы. Это не только просто, но и является отличным способом улучшить ваши проекты без каких-либо громоздких ручных процессов.
 ## Предварительные условия
@@ -90,3 +96,9 @@ psdImage.dispose();
  Вы можете получить доступ к полной документации[здесь](https://reference.aspose.com/psd/java/).
 ### Есть ли сообщество поддержки Aspose.PSD?
  Да, вы можете получить помощь от сообщества на форуме Aspose.[здесь](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

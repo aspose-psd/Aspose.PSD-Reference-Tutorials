@@ -3,10 +3,16 @@ title: Προσθέστε ένα νέο κανονικό επίπεδο στο P
 linktitle: Προσθέστε ένα νέο κανονικό επίπεδο στο PSD
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε ένα νέο κανονικό επίπεδο σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθήστε τον οδηγό βήμα προς βήμα για απρόσκοπτη χειραγώγηση PSD.
-type: docs
 weight: 11
 url: /el/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε ένα νέο κανονικό επίπεδο στο PSD με το Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το ολοκληρωμένο σεμινάριο σχετικά με τη χρήση του Aspose.PSD για Java για την προσθήκη ενός νέου κανονικού επιπέδου σε ένα αρχείο PSD. Το Aspose.PSD είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να χειρίζονται και να εργάζονται με αρχεία PSD αποτελεσματικά. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης ενός νέου κανονικού επιπέδου σε ένα αρχείο PSD, παρέχοντας λεπτομερή βήματα και παραδείγματα κώδικα.
@@ -120,3 +126,9 @@ A1: Ναι, το Aspose.PSD υποστηρίζει Java 8 και νεότερε�
 ### Ε5: Υπάρχουν φόρουμ κοινότητας για υποστήριξη Aspose.PSD;
 
  A5: Ναι, μπορείτε να βρείτε υποστήριξη και συζητήσεις[εδώ](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

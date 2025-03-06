@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 레이어 상태 효과 마스터하기
 linktitle: 레이어 상태 효과 작업
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD에서 레이어 상태 효과를 사용하는 방법을 알아보세요. Drop Shadow, Gradient Overlay 등을 사용하여 PSD 파일을 향상하세요. 쉬운 튜토리얼 가이드.
-type: docs
 weight: 13
 url: /ko/net/psd-file-manipulation/layer-state-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 레이어 상태 효과 마스터하기
+
 ## 소개
 .NET용 Aspose.PSD에서 레이어 상태 효과 작업에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 레이어 상태 효과는 다양한 레이어에 효과를 추가하여 이미지의 시각적 매력을 향상시키는 데 중요한 역할을 합니다. 이 가이드에서는 레이어 상태 효과의 강력한 기능을 효율적으로 활용하기 위해 .NET용 Aspose.PSD를 활용하는 과정을 안내합니다.
 ## 전제조건
@@ -82,3 +88,9 @@ psdImage.Save(outputFile);
 ### Q5: 지원이 필요하거나 질문이 있나요?
 
  A5: 가입하세요[Aspose.PSD 커뮤니티 포럼](https://forum.aspose.com/c/psd/34) 도움을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

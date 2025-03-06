@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で画像をグレースケール化する
 linktitle: Aspose.PSD for .NET で画像をグレースケール化する
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を使用して、画像にグレースケール効果を簡単に適用する方法を学びます。
-type: docs
 weight: 14
 url: /ja/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で画像をグレースケール化する
+
 ## 導入
 
 Aspose.PSD for .NET を使用した画像のグレースケール化に関する包括的なチュートリアルへようこそ。グレースケール化は、画像をグレーの濃淡に変換することで、画像の視覚的な魅力を高めることができる強力な手法です。このガイドでは、魅力的なグレースケール効果を簡単に実現するプロセスを順を追って説明します。
@@ -108,3 +114,9 @@ A1: はい、Aspose.PSD は PSD、BMP、PNG、JPEG など、さまざまな画�
 ### Q5: Aspose.PSD for .NET のライセンスを購入するにはどうすればよいですか?
 
  A5: ライセンスは[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

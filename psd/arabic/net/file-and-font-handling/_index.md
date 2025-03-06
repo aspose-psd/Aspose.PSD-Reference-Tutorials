@@ -3,10 +3,16 @@ title: التعامل مع الملفات والخطوط
 linktitle: التعامل مع الملفات والخطوط
 second_title: Aspose.PSD.NET API
 description: ارفع مستوى تطوير .NET الخاص بك من خلال دروس Aspose.PSD. تعرف على استبدال الخطوط وإنشاء بيانات تعريف XMP وإدارة ذاكرة التخزين المؤقت لتحقيق أفضل كفاءة لسير العمل.
-type: docs
 weight: 27
 url: /ar/net/file-and-font-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع الملفات والخطوط
+
 ## مقدمة
 
 أطلق العنان لإمكانات Aspose.PSD لـ .NET من خلال برامجنا التعليمية حول التعامل مع الملفات والخطوط. بدءًا من إنشاء بيانات تعريف XMP وحتى معالجة الصور واستبدال الخطوط، نوفر لك كل ما تحتاجه.
@@ -42,3 +48,9 @@ url: /ar/net/file-and-font-handling/
 استكشف إدارة ذاكرة التخزين المؤقت للخطوط خطوة بخطوة في Aspose.PSD لـ .NET. تأكد من العرض الدقيق باستخدام مكتبة .NET القوية هذه. 
 ### [إزالة ملفات ذاكرة التخزين المؤقت للخط في Aspose.PSD لـ .NET](./remove-font-cache-files/)
 قم بتحسين Aspose.PSD لأداء .NET عن طريق إزالة ملفات ذاكرة التخزين المؤقت للخطوط. اتبع دليلنا خطوة بخطوة للتنفيذ السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

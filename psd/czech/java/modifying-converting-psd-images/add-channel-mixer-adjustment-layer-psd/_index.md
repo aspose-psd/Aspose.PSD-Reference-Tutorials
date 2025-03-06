@@ -3,10 +3,16 @@ title: Přidejte vrstvu úprav směšovače kanálů v PSD
 linktitle: Přidejte vrstvu úprav směšovače kanálů v PSD
 second_title: Aspose.PSD Java API
 description: Vylepšete své soubory PSD pomocí Vrstvy úprav směšovače kanálů pomocí Aspose.PSD pro Java. Naučte se techniky manipulace s barvami krok za krokem pro zářivé obrázky.
-type: docs
 weight: 10
 url: /cs/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vrstvu úprav směšovače kanálů v PSD
+
 ## Zavedení
 Svět grafického designu překypuje možnostmi, ale někdy může mít dokonalý vzhled pocit, jako byste putovali hustým lesem bez mapy. Měli jste někdy pocit, že vašim snímkům prostě chybí onen „wow“ faktor? No a to je místo, kde přicházejí do hry vrstvy úprav! Dnes se ponoříme do toho, jak přidat vrstvy úprav směšovače kanálů pomocí Aspose.PSD pro Java. Jedná se o šikovný nástroj, který vám umožní provádět přesné úpravy barev ve vašich souborech PSD a zajistit, aby vaše obrázky vynikly a zapůsobily.
 
@@ -167,3 +173,9 @@ Aspose.PSD je primárně určen pro práci se soubory PSD, ale sada Aspose obsah
 
 ### Existuje způsob, jak získat dočasnou licenci pro Aspose.PSD?
  Ano! Můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

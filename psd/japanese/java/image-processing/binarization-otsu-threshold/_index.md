@@ -3,10 +3,16 @@ title: Aspose.PSD for Java での Otsu 閾値による二値化
 linktitle: 大津閾値による二値化
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java で Otsu しきい値を使用した 2 値化を探索します。強力な画像セグメンテーション手法です。
-type: docs
 weight: 15
 url: /ja/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java での Otsu 閾値による二値化
+
 ## 導入
 
 Aspose.PSD for Java で Otsu しきい値を使用して 2 値化を実行するためのステップ バイ ステップ ガイドへようこそ。このチュートリアルでは、Aspose.PSD for Java ライブラリを活用して画像処理機能を強化する方法について説明します。Otsu しきい値を使用した 2 値化は、画像セグメンテーションの強力な手法であり、Aspose.PSD を使用すると、簡単かつ効率的に実行できます。
@@ -103,3 +109,9 @@ A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com
 ### Q5: Aspose.PSD for Java に利用できる一時ライセンスはありますか?
 
  A5: はい、臨時免許証を取得することができます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

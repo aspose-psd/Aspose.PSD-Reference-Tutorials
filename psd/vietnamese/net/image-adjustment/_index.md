@@ -3,10 +3,16 @@ title: Điều chỉnh hình ảnh
 linktitle: Điều chỉnh hình ảnh
 second_title: API Aspose.PSD .NET
 description: Mở khóa tiềm năng điều chỉnh hình ảnh bằng Aspose.PSD cho .NET. Khám phá các hướng dẫn về độ sáng, độ tương phản và cân bằng màu sắc để làm chủ thao tác hình ảnh.
-type: docs
 weight: 24
 url: /vi/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điều chỉnh hình ảnh
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng xử lý hình ảnh của mình chưa? Đi sâu vào thế giới Aspose.PSD cho .NET với các hướng dẫn toàn diện của chúng tôi về điều chỉnh hình ảnh. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước của chúng tôi sẽ giúp bạn cải thiện hình ảnh một cách dễ dàng.
@@ -42,3 +48,9 @@ Khám phá sức mạnh của Aspose.PSD cho .NET với hướng dẫn từng b�
 Tìm hiểu cách làm mờ hình ảnh dễ dàng bằng Aspose.PSD cho .NET. Hướng dẫn từng bước để thao tác hình ảnh liền mạch trong các dự án C# của bạn.
 ### [Áp dụng Điều chỉnh Cân bằng Màu trong Aspose.PSD cho .NET](./color-balance-adjustment/)
 Dễ dàng nâng cao màu sắc hình ảnh PSD với tính năng Điều chỉnh Cân bằng Màu của Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả tuyệt vời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Podpora efektu překrytí přechodem v Aspose.PSD pro .NET
 linktitle: Podpora efektu překrytí přechodem
 second_title: Aspose.PSD .NET API
 description: Vylepšete grafiku v .NET pomocí Aspose.PSD. Tento výukový program vás provede podporou efektů překrytí přechodem.
-type: docs
 weight: 18
 url: /cs/net/image-manipulation/supporting-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora efektu překrytí přechodem v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Vítejte v tomto komplexním návodu na podporu efektu překrytí přechodu v Aspose.PSD pro .NET! Pokud chcete vylepšit grafické možnosti vaší aplikace .NET, tento podrobný průvodce vám pomůže. Ponoříme se do složitosti vytváření a úprav efektu překrytí přechodem ve vrstvě pomocí Aspose.PSD, výkonné knihovny, která zjednodušuje zpracování obrazu.
@@ -133,3 +139,9 @@ Odpověď 2: Ano, na jednu vrstvu můžete použít různé efekty, včetně Př
 ### Q5: Jak mohu získat podporu pro Aspose.PSD?
 
  A5: Navštivte[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

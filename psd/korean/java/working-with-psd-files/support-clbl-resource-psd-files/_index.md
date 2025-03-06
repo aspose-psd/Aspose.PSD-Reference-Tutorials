@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에서 Clbl 리소스 지원
 linktitle: Java를 사용하여 PSD 파일에서 Clbl 리소스 지원
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에서 Clbl 리소스를 지원하고 조작하는 방법을 알아보세요. 이 세부 가이드에서는 전제 조건, 단계별 지침 및 FAQ를 다룹니다.
-type: docs
 weight: 12
 url: /ko/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에서 Clbl 리소스 지원
+
 ## 소개
 
  PSD 파일로 작업하면서 레이어 리소스를 프로그래밍 방식으로 조작해야 했던 적이 있습니까? 당신이 Java 개발자라면, 당신은 행운입니다! Aspose.PSD for Java를 사용하면 PSD 파일 처리를 포함하여 PSD 파일을 쉽게 관리하고 편집할 수 있습니다.`ClblResource` 잘린 요소의 혼합을 제어하는 특수 리소스입니다. 이 튜토리얼에서는 어떻게 지원하고 조작할 수 있는지 자세히 살펴보겠습니다.`ClblResource` Java를 사용하여 PSD 파일에 결국에는 프로젝트에서 이 리소스를 처리할 수 있는 준비를 갖추게 되어 계층화된 이미지의 모양을 완벽하게 제어할 수 있게 됩니다.
@@ -156,3 +162,9 @@ private static ClblResource getClblResource(PsdImage im) throws Exception {
 
 ### 대용량 PSD 파일을 어떻게 처리하나요?  
 Aspose.PSD for Java는 대용량 PSD 파일을 효율적으로 처리하도록 설계되었지만 최적의 성능을 위해서는 시스템에 적절한 메모리와 처리 능력이 있는지 확인해야 합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

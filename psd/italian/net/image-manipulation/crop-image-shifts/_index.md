@@ -3,10 +3,16 @@ title: Ritaglio di immagini per turni in Aspose.PSD per .NET
 linktitle: Ritaglio delle immagini per turni
 second_title: API Aspose.PSD .NET
 description: Impara a ritagliare le immagini senza sforzo utilizzando Aspose.PSD per .NET. Segui la nostra guida passo passo per regolazioni precise dell'immagine.
-type: docs
 weight: 12
 url: /it/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ritaglio di immagini per turni in Aspose.PSD per .NET
+
 ## Introduzione
 
 Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente toolkit per attività di elaborazione delle immagini. Una delle sue caratteristiche degne di nota è la capacità di ritagliare le immagini con precisione, grazie alla funzionalità "Ritaglio per turni". In questa guida passo passo, ti guideremo attraverso il processo di ritaglio delle immagini senza problemi utilizzando Aspose.PSD per .NET.
@@ -105,3 +111,10 @@ R1: Sì, Aspose.PSD supporta vari formati di immagine, consentendoti di ritaglia
 ### Q5: Posso acquistare Aspose.PSD per .NET direttamente dal sito web?
 
  R5: Sì, puoi acquistare la libreria in modo sicuro da[pagina di acquisto](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

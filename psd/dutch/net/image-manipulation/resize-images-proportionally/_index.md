@@ -3,10 +3,16 @@ title: Het formaat van afbeeldingen proportioneel wijzigen in Aspose.PSD voor .N
 linktitle: Het formaat van afbeeldingen proportioneel wijzigen
 second_title: Aspose.PSD .NET-API
 description: Ontdek het naadloos aanpassen van het formaat van afbeeldingen met Aspose.PSD voor .NET. Download de bibliotheek, volg onze tutorial en verbeter uw beeldverwerkingsmogelijkheden.
-type: docs
 weight: 14
 url: /nl/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Het formaat van afbeeldingen proportioneel wijzigen in Aspose.PSD voor .NET
+
 Op het gebied van beeldmanipulatie onderscheidt Aspose.PSD voor .NET zich als een krachtige toolkit, die ontwikkelaars de mogelijkheid biedt om afbeeldingen gemakkelijk proportioneel te vergroten/verkleinen. In deze stapsgewijze handleiding leiden we u door het proces van het wijzigen van het formaat van afbeeldingen met Aspose.PSD voor .NET, zodat uw afbeeldingen hun verhoudingen feilloos behouden.
 
 ## Invoering
@@ -100,3 +106,9 @@ A3: Ja, Aspose.PSD voor .NET biedt een breed scala aan functies, waaronder bijsn
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.PSD voor .NET?
 
  A5: Bezoek de[Aspose.PSD voor .NET-forum](https://forum.aspose.com/c/psd/34) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

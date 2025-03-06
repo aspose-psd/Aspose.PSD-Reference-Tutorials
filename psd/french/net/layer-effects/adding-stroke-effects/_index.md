@@ -3,10 +3,16 @@ title: Ajout d'effets de trait aux calques dans Aspose.PSD pour .NET
 linktitle: Ajout d'effets de trait aux calques
 second_title: API Aspose.PSD.NET
 description: Améliorez l’esthétique de l’image avec Aspose.PSD pour .NET. Apprenez à ajouter des effets de trait étape par étape. Téléchargez, achetez ou essayez l'essai gratuit maintenant.
-type: docs
 weight: 10
 url: /fr/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout d'effets de trait aux calques dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Bienvenue dans ce didacticiel étape par étape sur l'ajout d'effets de trait aux calques dans Aspose.PSD pour .NET. Améliorer l'attrait visuel de vos images est un jeu d'enfant grâce à l'effet de trait, et Aspose.PSD le rend transparent pour les développeurs .NET. Dans ce guide, nous vous guiderons tout au long du processus, en fournissant des étapes claires et des exemples pour vous aider à maîtriser cette fonctionnalité puissante.
@@ -109,3 +115,9 @@ A4 : Oui, vous pouvez parcourir plusieurs fichiers PSD et appliquer l'effet de 
 ### Q5 : Puis-je utiliser la version d'essai avant d'acheter Aspose.PSD ?
 
  A5 : Certainement ! Prenez le[essai gratuit](https://releases.aspose.com/) pour explorer les capacités d'Aspose.PSD avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

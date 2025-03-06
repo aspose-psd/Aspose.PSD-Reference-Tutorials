@@ -3,10 +3,16 @@ title: Charger des images dans des fichiers PSD avec Aspose.PSD pour Java
 linktitle: Charger des images dans des fichiers PSD avec Aspose.PSD pour Java
 second_title: API Java Aspose.PSD
 description: Chargez facilement des images dans des fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez ce guide étape par étape pour automatiser efficacement vos tâches de manipulation d'images.
-type: docs
 weight: 20
 url: /fr/java/psd-image-modification-conversion/load-images-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger des images dans des fichiers PSD avec Aspose.PSD pour Java
+
 ## Introduction
 
 Lorsque vous travaillez avec des fichiers image, en particulier dans des environnements de conception professionnels, la possibilité de manipuler des fichiers PSD en couches (Photoshop Document) par programmation ouvre un monde d'automatisation et d'efficacité. Imaginez pouvoir charger des images, les ajouter sous forme de calques et les enregistrer, le tout via une structure de code claire et simple. Avec Aspose.PSD pour Java, ce n’est pas seulement une possibilité ; c'est une réalité que vous pouvez facilement intégrer dans vos projets. Voyons comment charger des images dans des fichiers PSD de manière transparente.
@@ -167,3 +173,9 @@ Vous pouvez charger diverses images raster (comme JPEG, PNG) dans des calques PS
 ### Où puis-je trouver plus de documentation sur Aspose.PSD ?
 
  Vous pouvez trouver une documentation complète[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm lớp điều chỉnh đường cong trong PSD bằng Java
 linktitle: Thêm lớp điều chỉnh đường cong trong PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm lớp Điều chỉnh đường cong vào tệp PSD bằng Aspose.PSD cho Java trong hướng dẫn chi tiết này. Nâng cao hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp điều chỉnh đường cong trong PSD bằng Java
+
 ## Giới thiệu
 Bạn đã bao giờ thấy mình bị mắc kẹt khi cố gắng xử lý hình ảnh ở định dạng PSD chưa? Cho dù bạn là một nhà thiết kế đồ họa mới vào nghề hay một chuyên gia dày dạn kinh nghiệm, việc làm việc với các tệp Photoshop đôi khi có thể giống như đang điều hướng một mê cung. May mắn thay, có một công cụ giúp đơn giản hóa quá trình này - Aspose.PSD for Java. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm lớp Điều chỉnh Đường cong vào tệp PSD bằng Aspose.PSD, giúp công việc chỉnh sửa hình ảnh của bạn dễ dàng và hiệu quả hơn. Với hướng dẫn từng bước, bạn sẽ có thể nâng cao hình ảnh của mình như một người chuyên nghiệp mà không bị sa lầy vào những sự phức tạp thường gắn liền với thao tác hình ảnh.
 ## Điều kiện tiên quyết
@@ -94,3 +100,9 @@ Không, bạn không cần cài đặt Photoshop trên máy để hoạt động
 Tuyệt đối! Aspose.PSD cho phép thao tác với nhiều loại lớp khác nhau trong tệp PSD.
 ### Tôi có thể tìm thêm tài liệu ở đâu?
  Để có tài liệu chi tiết, hãy truy cập[Aspose.PSD cho tài liệu Java](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

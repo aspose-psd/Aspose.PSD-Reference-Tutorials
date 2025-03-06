@@ -3,10 +3,16 @@ title: دعم أوضاع المزج في Aspose.PSD لـ Java
 linktitle: دعم أوضاع المزج
 second_title: Aspose.PSD جافا API
 description: تحسين معالجة الصور في Java باستخدام Aspose.PSD. تعلم كيفية الاستفادة من أوضاع المزج للحصول على تأثيرات مذهلة.
-type: docs
 weight: 12
 url: /ar/java/basic-image-operations/support-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم أوضاع المزج في Aspose.PSD لـ Java
+
 ## مقدمة
 
 Aspose.PSD for Java هي مكتبة قوية توفر دعمًا شاملاً لأوضاع المزج، مما يسمح للمطورين بتحسين قدرات معالجة الصور لديهم. في هذا البرنامج التعليمي، سوف نتعمق في عالم أوضاع المزج، ونستكشف كيفية الاستفادة منها بشكل فعال باستخدام Aspose.PSD لـ Java. سواء كنت مطورًا متمرسًا أو مبتدئًا في معالجة الصور، سيزودك هذا الدليل بالمعرفة اللازمة لتسخير الإمكانات الكاملة لأوضاع المزج في تطبيقات Java الخاصة بك.
@@ -107,3 +113,9 @@ im.save(pngExportPath50, saveOptions);
 ### س5: هل يمكنني تخصيص أوضاع المزج بشكل أكبر بناءً على متطلبات تطبيقي؟
 
 ج5: بالتأكيد! يوفر Aspose.PSD for Java المرونة، مما يسمح لك بتخصيص أوضاع المزج وفقًا لاحتياجاتك المحددة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

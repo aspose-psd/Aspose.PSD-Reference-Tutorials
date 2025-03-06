@@ -3,10 +3,16 @@ title: Thêm hỗ trợ lớp liên kết trong tệp PSD bằng Java
 linktitle: Thêm hỗ trợ lớp liên kết trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm hỗ trợ lớp liên kết trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà thiết kế và nhà phát triển.
-type: docs
 weight: 19
 url: /vi/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hỗ trợ lớp liên kết trong tệp PSD bằng Java
+
 ## Giới thiệu
 Các tệp .PSD của Adobe Photoshop được các nhà thiết kế đồ họa và nghệ sĩ kỹ thuật số yêu thích do khả năng quản lý lớp linh hoạt của chúng. Khi bạn đi sâu vào thế giới thao tác các tệp PSD theo chương trình, bạn có thể muốn khám phá cách các lớp được liên kết có thể nâng cao quy trình làm việc của bạn. Các lớp được liên kết cho phép người dùng duy trì các chức năng của lớp độc lập trong khi vẫn quản lý chúng như một đơn vị gắn kết. Nhập Aspose.PSD cho Java, một thư viện mạnh mẽ giúp làm việc với các tệp Photoshop trở nên dễ dàng. 
 Trong bài viết này, chúng ta sẽ xem xét chi tiết cách thêm hỗ trợ lớp liên kết trong tệp PSD bằng thư viện Aspose.PSD trong Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn từng bước này sẽ giúp bạn điều hướng thực hiện nhiệm vụ một cách liền mạch.
@@ -99,3 +105,9 @@ Có, là một thư viện dựa trên Java, nó chạy trên mọi nền tảng
  Bạn có thể khám phá các tài liệu mở rộng[đây](https://reference.aspose.com/psd/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp vấn đề?
  Nếu gặp bất kỳ vấn đề gì, bạn có thể tìm sự trợ giúp trong[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

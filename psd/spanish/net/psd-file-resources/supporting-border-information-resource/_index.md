@@ -3,10 +3,16 @@ title: Recurso de información de bordes de soporte en Aspose.PSD para .NET
 linktitle: Recurso de información fronteriza de apoyo
 second_title: API Aspose.PSD .NET
 description: Explore Aspose.PSD para obtener la función de recursos de información de bordes de .NET para obtener imágenes mejoradas. Siga nuestro tutorial para una integración perfecta. ¡Descárgalo ahora!
-type: docs
 weight: 11
 url: /es/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recurso de información de bordes de soporte en Aspose.PSD para .NET
+
 ## Introducción
 Bienvenido a nuestra guía paso a paso sobre cómo utilizar la función Recursos de información fronteriza en Aspose.PSD para .NET. En este tutorial, lo guiaremos a través del proceso de trabajar con recursos de información fronteriza utilizando Aspose.PSD, una potente biblioteca de imágenes .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial tiene como objetivo brindar claridad sobre cómo incorporar recursos de información fronteriza sin problemas en sus proyectos.
 ## Requisitos previos
@@ -89,3 +95,9 @@ R1: Sí, Aspose.PSD para .NET es compatible con varios marcos .NET.
 ### P5: ¿Hay licencias temporales disponibles?
 
  R5: Sí, puedes obtener licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

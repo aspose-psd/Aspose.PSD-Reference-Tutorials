@@ -3,10 +3,16 @@ title: Thêm hiệu ứng mẫu vào hình ảnh trong Aspose.PSD cho .NET
 linktitle: Thêm hiệu ứng mẫu vào hình ảnh
 second_title: API Aspose.PSD .NET
 description: Nâng cao hình ảnh của bạn bằng các hiệu ứng mẫu quyến rũ bằng cách sử dụng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thêm các mẫu tùy chỉnh một cách liền mạch.
-type: docs
 weight: 12
 url: /vi/net/image-manipulation/adding-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng mẫu vào hình ảnh trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Nâng cao hình ảnh bằng hiệu ứng hoa văn có thể mang lại một chiều hướng mới cho thiết kế của bạn. Aspose.PSD for .NET cung cấp một giải pháp mạnh mẽ để thêm liền mạch các lớp phủ mẫu vào hình ảnh, cho phép bạn tạo đồ họa trực quan ấn tượng. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thêm hiệu ứng mẫu bằng Aspose.PSD cho .NET.
@@ -108,3 +114,9 @@ A4: Kích thước mẫu rất linh hoạt, cho phép bạn tạo các mẫu có
 ### Câu hỏi 5: Tôi có thể sử dụng Aspose.PSD cho .NET trong các dự án thương mại không?
 
 Câu trả lời 5: Có, bạn có thể sử dụng Aspose.PSD cho .NET trong các dự án thương mại. Để biết chi tiết cấp phép, hãy truy cập[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

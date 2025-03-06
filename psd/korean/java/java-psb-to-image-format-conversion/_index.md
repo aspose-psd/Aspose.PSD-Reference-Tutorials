@@ -3,10 +3,16 @@ title: Java PSB를 이미지 형식으로 변환
 linktitle: Java PSB를 이미지 형식으로 변환
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 PSB를 Java에서 JPG, PDF 및 PSD로 쉽게 변환합니다. 원활한 이미지 변환을 위해 튜토리얼을 따르고 프로젝트를 향상시키세요.
-type: docs
 weight: 22
 url: /ko/java/java-psb-to-image-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PSB를 이미지 형식으로 변환
+
 ## 소개
 Java에서 PSB 파일을 변환하는 데 어려움을 겪고 계십니까? 우리가 도와드리겠습니다! Aspose.PSD를 사용하면 PSB 파일을 다른 이미지 형식으로 변환하는 것이 매우 쉽습니다. JPG, PDF 또는 PSD로 변환해야 하는지 여부에 관계없이 자세한 튜토리얼이 모든 단계를 안내해 드립니다. 따라하기 쉬운 튜토리얼을 통해 그래픽 파일 처리를 단순화할 수 있는 방법을 살펴보겠습니다.
 
@@ -31,3 +37,9 @@ Aspose.PSD를 사용하여 Java에서 PSB를 JPG로 쉽게 변환할 수 있습�
 Aspose.PSD를 사용하여 Java에서 PSD 파일을 PDF로 쉽게 변환하는 방법을 알아보세요. 그래픽 파일 처리를 간소화하려는 개발자에게 이상적입니다.
 ### [Java에서 PSB를 PSD로 변환](./convert-psb-to-psd-java/)
 Aspose.PSD를 사용하여 Java에서 PSB를 PSD로 원활하게 변환하여 애플리케이션의 그래픽 파일 관리를 향상시키는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

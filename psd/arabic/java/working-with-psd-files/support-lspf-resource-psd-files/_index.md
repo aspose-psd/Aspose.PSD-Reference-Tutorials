@@ -3,10 +3,16 @@ title: دعم موارد Lspf في ملفات PSD باستخدام Java
 linktitle: دعم موارد Lspf في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: أتقن كيفية دعم Lspf Resource ومعالجته في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال دليلنا خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم موارد Lspf في ملفات PSD باستخدام Java
+
 ## مقدمة
 
 هل أنت مطور تتطلع إلى الغوص في عالم معالجة ملفات PSD؟ حسنًا، لقد أتيت إلى المكان الصحيح! عند العمل باستخدام ملفات PSD، غالبًا ما تحتاج إلى التعامل مع موارد الطبقات المختلفة، مثل LspfResource. يعد هذا المورد ضروريًا لإدارة إعدادات حماية الطبقة مثل الحماية المركبة والموضعية والشفافية في ملف PSD. في هذا البرنامج التعليمي الشامل، سوف نستكشف كيفية دعم ومعالجة LspfResource في ملفات PSD باستخدام Java بمساعدة Aspose.PSD لـ Java.
@@ -182,3 +188,9 @@ try {
 
 ### هل يمكنني التراجع عن التغييرات التي تم إجراؤها على LspfResource بعد حفظ الملف؟  
 بمجرد حفظ الملف، لن يكون من الممكن التراجع عن التغييرات مباشرةً. ومع ذلك، يمكنك إعادة تحميل الملف الأصلي وإعادة تطبيق التغييرات حسب الحاجة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

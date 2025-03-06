@@ -3,10 +3,16 @@ title: Jednoduchá změna velikosti obrázků v Aspose.PSD pro .NET
 linktitle: Jednoduchá změna velikosti obrázků
 second_title: Aspose.PSD .NET API
 description: Hlavní změna velikosti obrázku s Aspose.PSD pro .NET. Efektivní, bezproblémové a výkonné. Zvyšte své .NET projekty bez námahy.
-type: docs
 weight: 17
 url: /cs/net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jednoduchá změna velikosti obrázků v Aspose.PSD pro .NET
+
 ## Zavedení
 
 V dynamické sféře vývoje .NET je manipulace s obrázky běžnou nutností. Aspose.PSD for .NET přichází k záchraně se svými výkonnými schopnostmi, které poskytují bezproblémový zážitek pro změnu velikosti obrazu. V tomto tutoriálu se ponoříme do jednoduchého, ale zásadního procesu změny velikosti obrázků pomocí Aspose.PSD pro .NET. Připoutejte se, když se vydáme na cestu k vylepšení vašich dovedností zpracování obrazu.
@@ -89,3 +95,9 @@ Odpověď 3: Ano, můžete získat dočasnou licenci pro Aspose.PSD for .NET, ab
 ### Otázka 5: Jak mohu získat podporu nebo se připojit ke komunitě pro Aspose.PSD pro .NET?
 
  A5: Navštivte[Aspose.PSD for .NET Forum](https://forum.aspose.com/c/psd/34) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm lớp điều chỉnh cấp độ trong PSD
 linktitle: Thêm lớp điều chỉnh cấp độ trong PSD
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm Lớp điều chỉnh cấp độ một cách hiệu quả trong các tệp PSD của bạn bằng Aspose.PSD cho Java. Nâng cao kỹ năng chỉnh sửa hình ảnh của bạn.
-type: docs
 weight: 16
 url: /vi/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp điều chỉnh cấp độ trong PSD
+
 ## Giới thiệu
 Khi nói đến chỉnh sửa hình ảnh, việc quản lý các cấp độ có thể tạo nên sự khác biệt lớn về độ sống động và độ rõ nét cho ảnh của bạn. Một công cụ tiện dụng trong kho Photoshop là "Lớp điều chỉnh cấp độ", cho phép bạn điều chỉnh phạm vi tông màu và cân bằng màu sắc của hình ảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách triển khai Lớp điều chỉnh cấp độ trong tệp PSD bằng Aspose.PSD cho Java. Vì vậy, hãy lấy Java IDE của bạn.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Lớp điều chỉnh cấp độ cho phép bạn điều chỉnh phạm vi tôn
  Tuyệt đối! Bạn có thể đặt câu hỏi và nhận hỗ trợ trong[diễn đàn giả định](https://forum.aspose.com/c/psd/34).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
  Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

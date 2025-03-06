@@ -3,10 +3,16 @@ title: Aspose.PSD for Java के साथ PNG में कनवर्ट क
 linktitle: PNG में परिवर्तित करते समय PSD को क्रॉप करना
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java का उपयोग करके PSD फ़ाइलों को क्रॉप करना और उन्हें PNG में बदलना सीखें। कुशल छवि प्रसंस्करण के साथ अपने Java अनुप्रयोगों को बेहतर बनाएँ।
-type: docs
 weight: 13
 url: /hi/java/psd-conversion/cropping-psd-converting-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java के साथ PNG में कनवर्ट करते समय PSD को क्रॉप करना
+
 ## परिचय
 जावा विकास की गतिशील दुनिया में, कुशल छवि प्रसंस्करण में महारत हासिल करना महत्वपूर्ण है। यह ट्यूटोरियल आपको शक्तिशाली Aspose.PSD for Java लाइब्रेरी का उपयोग करके PSD फ़ाइलों को PNG में परिवर्तित करते समय उन्हें क्रॉप करने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा। इस चरण-दर-चरण मार्गदर्शिका के अंत तक, आप सहज छवि हेरफेर के साथ अपने जावा अनुप्रयोगों को बढ़ाने के लिए ज्ञान से लैस होंगे।
 ## आवश्यक शर्तें
@@ -66,3 +72,9 @@ image.save(destName, pngOptions);
  दौरा करना[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34) सहायता प्राप्त करने, अपने अनुभव साझा करने, तथा सामने आने वाली किसी भी समस्या की रिपोर्ट करने के लिए।
 ### क्या मैं खरीदने से पहले Java के लिए Aspose.PSD आज़मा सकता हूँ?
  ज़रूर! निःशुल्क परीक्षण के साथ लाइब्रेरी की विशेषताओं का अन्वेषण करें[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

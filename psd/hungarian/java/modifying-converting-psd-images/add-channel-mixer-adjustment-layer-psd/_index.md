@@ -3,10 +3,16 @@ title: Adja hozzá a csatornakeverő-beállító réteget a PSD-hez
 linktitle: Adja hozzá a csatornakeverő-beállító réteget a PSD-hez
 second_title: Aspose.PSD Java API
 description: Javítsa PSD-fájljait csatornakeverő-beállító rétegekkel az Aspose.PSD for Java segítségével. Ismerje meg a színmanipulációs technikákat lépésről lépésre az élénk képek érdekében.
-type: docs
 weight: 10
 url: /hu/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a csatornakeverő-beállító réteget a PSD-hez
+
 ## Bevezetés
 A grafikai tervezés világa tele van lehetőségekkel, de néha a tökéletes megjelenés megszerzése olyan érzés lehet, mintha térkép nélkül bolyongnánk egy sűrű erdőben. Érezted már úgy, hogy a képeidből hiányzik ez a "wow" tényező? Nos, itt jönnek képbe a korrekciós rétegek! Ma belemerülünk abba, hogyan adhatunk hozzá csatornakeverő-beállító rétegeket az Aspose.PSD for Java használatával. Ez egy remek eszköz, amellyel precíz színbeállításokat végezhet PSD-fájljain, így biztosítva, hogy a képek pompázzanak és lenyűgözzék.
 
@@ -167,3 +173,9 @@ Az Aspose.PSD elsősorban PSD-fájlokkal való munkavégzésre készült, de az 
 
 ### Van mód ideiglenes licenc beszerzésére az Aspose.PSD számára?
  Igen! Ideiglenes jogosítványt igényelhet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

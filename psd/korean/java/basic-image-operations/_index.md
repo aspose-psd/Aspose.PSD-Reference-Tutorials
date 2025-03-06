@@ -3,10 +3,16 @@ title: 기본 이미지 작업
 linktitle: 기본 이미지 작업
 second_title: Aspose.PSD 자바 API
 description: Java 튜토리얼용 Aspose.PSD를 통해 그래픽 디자인 기술을 향상시키세요. 단계별 가이드를 통해 그리기, 크기 조정, 혼합 모드 및 투명도 확인에 대해 알아보세요.
-type: docs
 weight: 25
 url: /ko/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 기본 이미지 작업
+
 
 ## 소개
 
@@ -44,3 +50,9 @@ Aspose.PSD를 사용하여 Java의 이미지 처리를 향상하세요. 놀라�
 Java용 Aspose.PSD를 사용하여 이미지에 매력적인 그림자 효과를 추가하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 그래픽 디자인의 수준을 높이세요.
 ### [Java용 Aspose.PSD를 사용하여 이미지 투명성 확인](./verify-image-transparency/)
 Java용 Aspose.PSD를 사용하여 이미지 투명성 검증을 살펴보세요. 쉬운 통합, 상세한 문서화, 뛰어난 커뮤니티 지원.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

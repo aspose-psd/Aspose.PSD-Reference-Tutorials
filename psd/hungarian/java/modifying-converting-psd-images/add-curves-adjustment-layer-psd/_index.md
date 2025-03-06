@@ -3,10 +3,16 @@ title: Adjon hozzá Curves Adjustment Layer-t a PSD-ben Java használatával
 linktitle: Adjon hozzá Curves Adjustment Layer-t a PSD-ben Java használatával
 second_title: Aspose.PSD Java API
 description: Ebből a részletes oktatóanyagból megtudhatja, hogyan adhat hozzá Curves Adjustment réteget egy PSD-fájlhoz az Aspose.PSD for Java használatával. Egyszerűen javíthatja képeit.
-type: docs
 weight: 11
 url: /hu/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá Curves Adjustment Layer-t a PSD-ben Java használatával
+
 ## Bevezetés
 Előfordult már, hogy elakadt, miközben PSD formátumú képeket próbált manipulálni? Legyen szó kezdő grafikusról vagy tapasztalt profiról, a Photoshop-fájlokkal való munka néha olyan érzés lehet, mintha egy labirintusban navigálna. Szerencsére van egy eszköz, amely leegyszerűsíti ezt a folyamatot – az Aspose.PSD for Java. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá görbék beállítási réteget egy PSD-fájlhoz az Aspose.PSD segítségével, így könnyebbé és hatékonyabbá teheti képszerkesztési feladatait. A lépésenkénti útmutatás segítségével profiként javíthatja képeit anélkül, hogy belemerülne a képmanipulációhoz hagyományosan kapcsolódó bonyolultságokba.
 ## Előfeltételek
@@ -94,3 +100,9 @@ Nem, az Aspose.PSD használatához nem kell telepítenie a Photoshopot a gépér
 Teljesen! Az Aspose.PSD lehetővé teszi a különböző rétegtípusok kezelését a PSD-fájlokban.
 ### Hol találok további dokumentációt?
  A részletes dokumentációért keresse fel a[Aspose.PSD Java dokumentumokhoz](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

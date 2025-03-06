@@ -3,10 +3,16 @@ title: Image Editing
 linktitle: Image Editing
 second_title: Aspose.PSD Java API
 description: Discover the magic of Color Overlay Effects, image merging, and seamless image processing with Aspose.PSD. Elevate your image editing game with our guides.
-type: docs
 weight: 23
 url: /java/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Image Editing
+
 ## Introduction 
 
 Welcome to the realm of image editing mastery! In this collection of tutorials, we delve into the powerful capabilities of Aspose.PSD for Java, guiding you through the art of enhancing, combining, and manipulating images effortlessly. Whether you're a seasoned developer or just starting, join us on this journey to discover the magic of Color Overlay Effects, image merging, XMP metadata creation, and seamless image processing. Elevate your editing game with step-by-step guides that unravel the potential of Aspose.PSD for Java, providing you with the skills to transform your visual creations. Let's dive in and explore the fascinating world of image editing!
@@ -67,3 +73,9 @@ Master image cropping with Aspose.PSD for Java. A comprehensive tutorial for sea
 Enhance image quality with Aspose.PSD for Java. Follow our step-by-step guide to implement dithering and eliminate color banding.
 ### [Expand and Crop Images with Aspose.PSD for Java](./expand-and-crop-images/)
 Learn how to expand and crop images in Java using Aspose.PSD. Step-by-step guide for efficient image processing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

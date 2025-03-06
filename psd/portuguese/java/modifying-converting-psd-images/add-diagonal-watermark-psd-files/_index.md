@@ -3,10 +3,16 @@ title: Adicionar marca d'água diagonal a arquivos PSD com Java
 linktitle: Adicionar marca d'água diagonal a arquivos PSD com Java
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar facilmente uma marca d'água diagonal a arquivos PSD usando Java com Aspose.PSD. Guia passo a passo para aprimorar suas imagens com confiança.
-type: docs
 weight: 12
 url: /pt/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar marca d'água diagonal a arquivos PSD com Java
+
 ## Introdução
 No mundo digital de hoje, ter um visual marcante pode fazer toda a diferença. Quer você seja um designer que deseja proteger seu trabalho ou um profissional de marketing que deseja adicionar marca às imagens, aplicar uma marca d'água é essencial. Neste tutorial, exploraremos como adicionar uma marca d'água diagonal a arquivos PSD usando Java com a ajuda de Aspose.PSD, uma biblioteca poderosa para manipular arquivos PSD.
 ## Pré-requisitos
@@ -97,3 +103,9 @@ Absolutamente! Você pode ajustar o valor alfa no SolidBrush para alterar a tran
  Sim, você pode ligar para`drawString` método várias vezes com parâmetros diferentes para adicionar mais marcas d'água.
 ### Onde posso encontrar mais informações sobre o Aspose.PSD?
  Você pode verificar a documentação[aqui](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

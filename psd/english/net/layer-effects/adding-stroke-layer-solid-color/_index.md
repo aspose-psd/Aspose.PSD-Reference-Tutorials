@@ -3,10 +3,16 @@ title: Adding Stroke Layer with Solid Color in Aspose.PSD for .NET
 linktitle: Adding Stroke Layer with Solid Color
 second_title: Aspose.PSD .NET API
 description: Enhance your .NET image manipulation skills with Aspose.PSD. Learn to add stroke layers with solid colors step by step.
-type: docs
 weight: 11
 url: /net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Stroke Layer with Solid Color in Aspose.PSD for .NET
+
 ## Introduction
 
 In the realm of .NET development, creating visually appealing images is a common requirement. Aspose.PSD for .NET provides a powerful set of tools to manipulate and enhance images seamlessly. One of the essential features is adding a stroke layer with a solid color, which brings vibrancy and depth to your images. In this tutorial, we will guide you through the process step by step using Aspose.PSD for .NET.
@@ -130,3 +136,10 @@ A4: Yes, you can get a free trial from the [releases page](https://releases.aspo
 ### Q5: How can I get support for Aspose.PSD for .NET?
 
 A5: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to seek assistance and connect with the community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

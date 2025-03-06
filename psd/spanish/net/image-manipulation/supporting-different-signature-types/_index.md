@@ -3,10 +3,16 @@ title: Admite diferentes tipos de firma en Aspose.PSD para .NET
 linktitle: Admite diferentes tipos de firma
 second_title: API Aspose.PSD .NET
 description: Explore Aspose.PSD para .NET y admita sin esfuerzo diferentes tipos de firmas en sus archivos PSD.
-type: docs
 weight: 14
 url: /es/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite diferentes tipos de firma en Aspose.PSD para .NET
+
 ## Introducción
 
 Bienvenido al mundo de Aspose.PSD para .NET, una poderosa biblioteca que permite a los desarrolladores manejar archivos PSD sin problemas. En este tutorial, exploraremos el proceso de compatibilidad con diferentes tipos de firmas en Aspose.PSD para .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía paso a paso lo guiará a través del proceso con claridad y precisión.
@@ -79,3 +85,10 @@ using (PsdImage psdImage = (PsdImage)Image.Load(srcFile))
 ### P5: ¿Busca una licencia temporal?
 
  A5: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adicionar camada de ajuste de matiz e saturação ao PSD
 linktitle: Adicionar camada de ajuste de matiz e saturação ao PSD
 second_title: API Java Aspose.PSD
 description: Aprenda como adicionar camadas de ajuste de saturação de matiz ao PSD usando Aspose.PSD para Java neste tutorial passo a passo abrangente. Aprimore seu fluxo de trabalho de design gráfico.
-type: docs
 weight: 14
 url: /pt/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar camada de ajuste de matiz e saturação ao PSD
+
 ## Introdução
 Quando se trata de design gráfico, a manipulação de cores desempenha um papel fundamental – especificamente, ajustar o matiz, a saturação e a luminosidade pode transformar drasticamente o clima e a qualidade de qualquer imagem. Uma maneira eficaz de conseguir isso é através do uso de camadas de ajuste no Photoshop (arquivos PSD). Se você deseja aprimorar seus arquivos PSD programaticamente usando Java, a biblioteca Aspose.PSD está aqui para ajudar! Este tutorial irá guiá-lo pelas etapas para adicionar uma camada de ajuste de saturação de matiz aos seus arquivos PSD, tornando seus fluxos de trabalho mais produtivos e eficientes.
 Neste guia, cobriremos tudo, desde a importação dos pacotes necessários até os detalhes essenciais dos exemplos de código.
@@ -102,3 +108,9 @@ Não, Aspose.PSD é uma biblioteca independente que funciona independentemente d
 Sim, você pode automatizar e processar em lote vários arquivos PSD com Aspose.PSD.
 ### O Aspose.PSD é gratuito?
 Aspose.PSD oferece uma avaliação gratuita, mas é necessária uma licença para uso a longo prazo. Você pode ver os preços[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

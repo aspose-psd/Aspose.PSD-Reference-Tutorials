@@ -3,10 +3,16 @@ title: Mengubah Ukuran Gambar Secara Sederhana di Aspose.PSD untuk .NET
 linktitle: Mengubah Ukuran Gambar Secara Sederhana
 second_title: Asumsikan.PSD .NET API
 description: Ubah ukuran gambar master dengan Aspose.PSD untuk .NET. Efisien, mulus, dan kuat. Tingkatkan proyek .NET Anda dengan mudah.
-type: docs
 weight: 17
 url: /id/net/image-manipulation/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah Ukuran Gambar Secara Sederhana di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam dunia dinamis pengembangan .NET, memanipulasi gambar adalah kebutuhan umum. Aspose.PSD untuk .NET hadir untuk menyelamatkan dengan kemampuannya yang kuat, memberikan pengalaman yang mulus untuk mengubah ukuran gambar. Dalam tutorial ini, kita akan mempelajari proses sederhana namun penting dalam mengubah ukuran gambar menggunakan Aspose.PSD untuk .NET. Bersiaplah saat kami memulai perjalanan untuk meningkatkan keterampilan pemrosesan gambar Anda.
@@ -89,3 +95,9 @@ A3: Ya, Anda bisa mendapatkan lisensi sementara Aspose.PSD untuk .NET guna menge
 ### Q5: Bagaimana saya bisa mendapatkan dukungan atau terhubung dengan komunitas Aspose.PSD untuk .NET?
 
  A5: Kunjungi[Aspose.PSD untuk Forum .NET](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

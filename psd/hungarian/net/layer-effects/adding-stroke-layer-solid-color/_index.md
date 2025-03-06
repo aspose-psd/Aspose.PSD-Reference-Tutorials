@@ -3,10 +3,16 @@ title: Egyszínű vonásréteg hozzáadása az Aspose.PSD for .NET-hez
 linktitle: Körvonalas réteg hozzáadása egyszínű színnel
 second_title: Aspose.PSD .NET API
 description: Növelje .NET képkezelési készségeit az Aspose.PSD segítségével. Lépésről lépésre tanulja meg a körvonal-rétegek hozzáadását egyszínű színekkel.
-type: docs
 weight: 11
 url: /hu/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyszínű vonásréteg hozzáadása az Aspose.PSD for .NET-hez
+
 ## Bevezetés
 
 A .NET fejlesztés területén általános követelmény a tetszetős képek létrehozása. Az Aspose.PSD for .NET hatékony eszközkészletet biztosít a képek zökkenőmentes kezeléséhez és javításához. Az egyik alapvető funkció egy egyszínű körvonalréteg hozzáadása, amely élénkséget és mélységet kölcsönöz a képeknek. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton az Aspose.PSD for .NET használatával.
@@ -130,3 +136,9 @@ A2: Abszolút! Az Aspose.PSD for .NET egy kereskedelmi termék, és licenc megv�
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for .NET számára?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) segítséget kérni és kapcsolatba lépni a közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

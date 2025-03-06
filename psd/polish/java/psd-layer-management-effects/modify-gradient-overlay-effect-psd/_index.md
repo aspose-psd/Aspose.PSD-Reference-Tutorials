@@ -3,10 +3,16 @@ title: Zmodyfikuj efekt nakładki gradientu w PSD przy użyciu Java
 linktitle: Zmodyfikuj efekt nakładki gradientu w PSD przy użyciu Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak modyfikować efekt nakładki gradientu w pliku PSD przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem, aby efektywnie automatyzować i dostosowywać pliki PSD.
-type: docs
 weight: 12
 url: /pl/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmodyfikuj efekt nakładki gradientu w PSD przy użyciu Java
+
 ## Wstęp
 
 Czy jesteś gotowy, aby zanurzyć się w świat cyfrowej sztuki z Javą? Jeśli pracujesz z plikami programu Photoshop (PSD) i chcesz programowo nimi manipulować, czeka Cię nie lada gratka. Dzisiaj przyjrzymy się, jak zmodyfikować efekt nakładki gradientu w pliku PSD za pomocą Aspose.PSD dla Java. Niezależnie od tego, czy jesteś programistą chcącym zautomatyzować zadania związane z projektowaniem graficznym, czy po prostu ciekawym procesu, ten samouczek poprowadzi Cię krok po kroku. Na koniec będziesz mieć wiedzę niezbędną do dodania profesjonalnego charakteru swoim obrazom bez konieczności otwierania programu Photoshop.
@@ -152,3 +158,9 @@ Aspose.PSD dla Java umożliwia zastosowanie różnych efektów, takich jak cieni
 
 ### Jak cofnąć zmiany wprowadzone w pliku PSD?  
 Jeśli jeszcze nie zapisałeś pliku, możesz po prostu ponownie załadować oryginalny plik PSD. Jeśli już go zapisałeś, musisz przywrócić go z kopii zapasowej lub programowo cofnąć zmiany
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Detecte arquivos PSD achatados usando Aspose.PSD para Java
 linktitle: Detecte arquivos PSD achatados usando Aspose.PSD para Java
 second_title: API Java Aspose.PSD
 description: Aprenda como detectar arquivos PSD achatados usando Aspose.PSD para Java, passo a passo neste tutorial abrangente.
-type: docs
 weight: 10
 url: /pt/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detecte arquivos PSD achatados usando Aspose.PSD para Java
+
 ## Introdução
 
 Bem-vindo ao mundo da manipulação de arquivos PSD (Photoshop Document) com Aspose.PSD para Java! Se você já precisou trabalhar com camadas em arquivos do Photoshop, mas não sabia por onde começar, você está no lugar certo. Neste tutorial, vamos nos aprofundar em como detectar se um arquivo PSD está achatado usando Aspose.PSD. Achatar um PSD significa que todas as suas camadas são mescladas em uma única camada unificada, o que pode tornar a edição um pouco complicada depois. Ao final deste guia, você estará equipado para verificar esse aspecto crucial de seus arquivos PSD. Aguarde, pegue seu café e vamos mergulhar!
@@ -77,3 +83,9 @@ Sim! Aspose.PSD pode lidar com vários formatos de imagem, fornecendo ampla func
 
 ### Existe uma maneira de testar o Aspose.PSD gratuitamente?
  Absolutamente! Você pode iniciar uma avaliação gratuita baixando uma versão de avaliação em[este link](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

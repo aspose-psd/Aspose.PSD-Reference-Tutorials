@@ -3,10 +3,16 @@ title: Graustufen eines Bilds mit Aspose.PSD für Java
 linktitle: Ein Bild in Graustufen darstellen
 second_title: Aspose.PSD Java API
 description: Entdecken Sie Aspose.PSD für Java und erfahren Sie mit unserem Schritt-für-Schritt-Tutorial, wie Sie mühelos Bilder in Graustufen umwandeln.
-type: docs
 weight: 10
 url: /de/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Graustufen eines Bilds mit Aspose.PSD für Java
+
 ## Einführung
 
 Im Bereich der Bildverarbeitung ist die Konvertierung eines Bildes in Graustufen ein grundlegender Vorgang. Aspose.PSD für Java bietet Java-Entwicklern eine leistungsstarke Lösung, um dies nahtlos zu erreichen. In diesem Tutorial führen wir Sie durch den Prozess der Graustufenkonvertierung eines Bildes mit Aspose.PSD und stellen sicher, dass selbst Anfänger mühelos mitmachen können.
@@ -104,3 +110,9 @@ Herzlichen Glückwunsch! Sie haben ein Bild mit Aspose.PSD für Java erfolgreich
 ### F5: Benötigen Sie Unterstützung oder haben Sie Fragen?
 
  A5: Besuchen Sie das Aspose.PSD-Forum[Hier](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

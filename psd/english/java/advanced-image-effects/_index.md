@@ -3,10 +3,16 @@ title: Advanced Image Effects
 linktitle: Advanced Image Effects
 second_title: Aspose.PSD Java API
 description: Elevate your Java graphic designs with Aspose.PSD! Master advanced image effects seamlessly – from gradients and patterns to signatures and strokes.
-type: docs
 weight: 26
 url: /java/advanced-image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Image Effects
+
 ## Introduction
 Are you ready to take your Java graphic designs to the next level? Aspose.PSD for Java opens up a world of possibilities for enhancing your images with advanced effects. In this comprehensive guide, we'll walk you through a series of tutorials, each focusing on a unique aspect of image manipulation using Aspose.PSD.
 
@@ -42,3 +48,9 @@ Enhance your Java image patterns effortlessly with Aspose.PSD for Java. Follow o
 Explore the seamless integration of signatures into images with Aspose.PSD for Java. Follow our step-by-step guide, import the necessary packages, and enhance your Java application's graphical capabilities.
 ### [Add Stroke Layer Color in Aspose.PSD for Java](./add-stroke-layer-color/)
 Explore the power of Aspose.PSD for Java with our step-by-step guide on adding stroke layer color. Elevate your graphic designs effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

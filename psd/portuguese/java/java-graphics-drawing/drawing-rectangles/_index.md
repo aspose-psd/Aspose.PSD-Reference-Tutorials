@@ -3,10 +3,16 @@ title: Desenhando retângulos em Java
 linktitle: Desenhando retângulos em Java
 second_title: API Java Aspose.PSD
 description: Aprenda a desenhar retângulos em imagens usando Aspose.PSD para Java. Este tutorial orienta os desenvolvedores Java passo a passo. Perfeito para tarefas de manipulação de imagens.
-type: docs
 weight: 17
 url: /pt/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Desenhando retângulos em Java
+
 ## Introdução
 No mundo do desenvolvimento Java, manipular e gerar imagens programaticamente é um requisito comum em vários aplicativos. Uma dessas tarefas frequentemente encontrada é desenhar formas como retângulos em imagens. Aspose.PSD para Java fornece um conjunto robusto de ferramentas e funcionalidades para fazer isso de forma eficiente. Este tutorial irá guiá-lo através do processo de desenho de retângulos em uma imagem usando Aspose.PSD para Java, passo a passo.
 ## Pré-requisitos
@@ -84,3 +90,9 @@ Sim, o Aspose.PSD para Java foi projetado para processamento de imagens de alto 
  Você pode explorar mais exemplos e documentação detalhada no[Documentação Aspose.PSD para Java](https://reference.aspose.com/psd/java/).
 ### O Aspose.PSD para Java suporta outros formatos de imagem além de BMP?
 Sim, Aspose.PSD para Java oferece suporte a uma ampla variedade de formatos de imagem, incluindo PNG, JPEG, TIFF e GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

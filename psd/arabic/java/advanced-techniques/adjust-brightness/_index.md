@@ -3,10 +3,16 @@ title: ضبط سطوع الصورة باستخدام Aspose.PSD لـ Java
 linktitle: ضبط سطوع الصورة
 second_title: Aspose.PSD جافا API
 description: قم بتحسين سطوع الصورة في Java باستخدام Aspose.PSD. دليل خطوة بخطوة لضبط سطوع الصورة برمجياً.
-type: docs
 weight: 21
 url: /ar/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط سطوع الصورة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 يعد تحسين الصور متطلبًا شائعًا في التصميم الجرافيكي والتصوير الرقمي. يوفر Aspose.PSD for Java حلاً قويًا لضبط سطوع الصورة برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام Aspose.PSD لمكتبة Java لضبط سطوع الصورة، خطوة بخطوة.
@@ -107,3 +113,9 @@ rasterImage.save(destName, tiffOptions);
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
 
  ج5: نعم، يمكنك استكشاف المكتبة من خلال نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Obsługa efektu cienia w Aspose.PSD dla Java
 linktitle: Wsparcie efektu cienia
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak dodawać urzekające efekty cieni do obrazów przy użyciu Aspose.PSD dla Java. Ulepsz swój projekt graficzny dzięki temu samouczkowi krok po kroku.
-type: docs
 weight: 13
 url: /pl/java/basic-image-operations/support-shadow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa efektu cienia w Aspose.PSD dla Java
+
 ## Wstęp
 
 Uwydatnianie obrazów efektami cienia jest powszechną praktyką w projektowaniu graficznym, dodającą głębi i realizmu. Aspose.PSD dla Java zapewnia solidną obsługę efektów cienia, umożliwiając programistom bezproblemową integrację tych efektów z aplikacjami Java. W tym samouczku odkryjemy krok po kroku, jak wspierać efekty cieni przy użyciu Aspose.PSD.
@@ -108,3 +114,9 @@ A1: Absolutnie! Aspose.PSD dla Java to potężna biblioteka przeznaczona do prof
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?
 
  Odpowiedź 5: Dołącz do forum społeczności[Tutaj](https://forum.aspose.com/c/psd/34) w przypadku jakichkolwiek pytań dotyczących wsparcia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавьте корректирующий слой «Уровень»
 linktitle: Добавьте корректирующий слой «Уровень» в PSD
 second_title: Aspose.PSD Java API
 description: Узнайте, как эффективно добавить корректирующий слой уровня в файлы PSD с помощью Aspose.PSD для Java. Совершенствуйте свои навыки редактирования изображений.
-type: docs
 weight: 16
 url: /ru/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте корректирующий слой «Уровень» в PSD
+
 ## Введение
 Когда дело доходит до редактирования изображений, управление уровнями может существенно повлиять на яркость и четкость ваших фотографий. Одним из удобных инструментов в арсенале Photoshop является «Корректирующий слой уровня», который позволяет настраивать тональный диапазон и цветовой баланс ваших изображений. В этом руководстве мы расскажем, как реализовать корректирующий слой уровня в PSD-файле с помощью Aspose.PSD для Java. Итак, возьмите свою Java IDE.
 ## Предварительные условия
@@ -88,3 +94,9 @@ im.save(psdPathAfterChange);
  Абсолютно! Вы можете задать вопросы и получить поддержку в[Aspose форум](https://forum.aspose.com/c/psd/34).
 ### Как я могу получить временную лицензию на Aspose.PSD?
  Вы можете подать заявление на получение временной лицензии[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中支持外发光效果
 linktitle: 支持外发光效果
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 中外发光效果的强大功能。通过本分步教程提升您的图像设计。
-type: docs
 weight: 16
 url: /zh/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中支持外发光效果
+
 ## 介绍
 
 欢迎阅读我们在 Aspose.PSD for .NET 中支持外发光效果的分步指南。Aspose.PSD 是一个功能强大的库，可在 .NET 应用程序中无缝操作 PSD 文件。在本教程中，我们将探索外发光效果的实现，并提供将其集成到项目中的详细演练。
@@ -114,3 +120,9 @@ A1：是的，Aspose.PSD 支持广泛的.NET 框架，确保与各种开发环�
 ### Q5: 我可以购买 Aspose.PSD for .NET 吗？
 
  A5：是的，探索许可选项并进行购买[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

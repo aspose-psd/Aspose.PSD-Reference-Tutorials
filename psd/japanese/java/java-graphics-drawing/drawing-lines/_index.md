@@ -3,10 +3,16 @@ title: Java で線を描く
 linktitle: Java で線を描く
 second_title: Aspose.PSD Java API
 description: この包括的なチュートリアルで、Aspose.PSD for Java を使用して PSD ファイルに線を描く方法を学びます。Java 開発スキルを高めましょう。
-type: docs
 weight: 16
 url: /ja/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で線を描く
+
 ## 導入
 Java 開発の分野では、PSD (Photoshop Document) ファイルをプログラムで操作および作成することは強力な機能です。Aspose.PSD for Java を使用すると、開発者は PSD ファイル内で直接線、図形、画像を描画するなど、さまざまなタスクを実行できます。このチュートリアルでは、Aspose.PSD for Java を使用して線を描画するプロセスをわかりやすく説明し、すぐに開始できるようにするための手順と例を示します。
 ## 前提条件
@@ -74,3 +80,9 @@ Aspose.PSD for Java は、PSD ファイルをプログラムで操作するた�
 テクニカルサポートについては、[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD for Java の一時ライセンスはどこで入手できますか?
 臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

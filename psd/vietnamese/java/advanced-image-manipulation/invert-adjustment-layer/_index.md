@@ -3,10 +3,16 @@ title: Lớp điều chỉnh đảo ngược trong Aspose.PSD cho Java
 linktitle: Lớp điều chỉnh đảo ngược
 second_title: API Java Aspose.PSD
 description: Khám phá Lớp điều chỉnh đảo ngược trong Aspose.PSD cho Java. Một thư viện Java mạnh mẽ để thao tác tệp PSD liền mạch.
-type: docs
 weight: 14
 url: /vi/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lớp điều chỉnh đảo ngược trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách triển khai Lớp điều chỉnh đảo ngược trong Aspose.PSD cho Java. Trong hướng dẫn này, chúng ta sẽ khám phá các tính năng mạnh mẽ của Aspose.PSD, một thư viện Java cho phép thao tác liền mạch các tệp PSD. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới làm quen với xử lý hình ảnh, hướng dẫn này được thiết kế để giúp bạn hiểu và triển khai Lớp điều chỉnh đảo ngược một cách hiệu quả.
@@ -93,3 +99,9 @@ Câu trả lời 2: Có, bạn có thể xếp chồng nhiều lớp điều ch�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
 
 Câu trả lời 5: Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

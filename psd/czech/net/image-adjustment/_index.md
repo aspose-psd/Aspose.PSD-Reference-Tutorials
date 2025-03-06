@@ -3,10 +3,16 @@ title: Úprava obrazu
 linktitle: Úprava obrazu
 second_title: Aspose.PSD .NET API
 description: Odemkněte potenciál úpravy obrazu s Aspose.PSD pro .NET. Prozkoumejte výukové programy o jasu, kontrastu a vyvážení barev, abyste zvládli manipulaci s obrázky.
-type: docs
 weight: 24
 url: /cs/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Úprava obrazu
+
 ## Zavedení
 
 Jste připraveni zlepšit své dovednosti v oblasti manipulace s obrázky? Ponořte se do světa Aspose.PSD pro .NET s našimi komplexními výukovými programy pro úpravu obrazu. Ať už jste zkušený vývojář nebo teprve začínáte, naši podrobní průvodci vám umožní vylepšovat obrázky bez námahy.
@@ -42,3 +48,9 @@ Prozkoumejte sílu Aspose.PSD pro .NET pomocí našeho podrobného průvodce imp
 Naučte se, jak snadno rozmazat obrázky pomocí Aspose.PSD pro .NET. Podrobný průvodce pro bezproblémovou manipulaci s obrázky ve vašich projektech C#.
 ### [Použití úpravy vyvážení barev v Aspose.PSD pro .NET](./color-balance-adjustment/)
 Vylepšete barvy obrazu PSD bez námahy pomocí funkce Color Balance Adjustment Aspose.PSD for .NET. Postupujte podle našeho podrobného průvodce pro ohromující výsledky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

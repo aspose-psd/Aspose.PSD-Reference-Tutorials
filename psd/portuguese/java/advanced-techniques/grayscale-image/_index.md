@@ -3,10 +3,16 @@ title: Imagem em escala de cinza usando Aspose.PSD para Java
 linktitle: Imagem em escala de cinza
 second_title: API Java Aspose.PSD
 description: Explore Aspose.PSD para Java e aprenda como criar imagens em tons de cinza sem esforço com nosso tutorial passo a passo.
-type: docs
 weight: 10
 url: /pt/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imagem em escala de cinza usando Aspose.PSD para Java
+
 ## Introdução
 
 No domínio do processamento de imagens, converter uma imagem em tons de cinza é uma operação fundamental. Aspose.PSD for Java fornece uma solução poderosa para desenvolvedores Java conseguirem isso perfeitamente. Neste tutorial, iremos guiá-lo através do processo de escala de cinza de uma imagem usando Aspose.PSD, garantindo que até mesmo os iniciantes possam acompanhar sem esforço.
@@ -104,3 +110,9 @@ Parabéns! Você conseguiu dimensionar uma imagem em escala de cinza usando Aspo
 ### Q5: Precisa de suporte ou tem dúvidas?
 
  A5: Visite o fórum Aspose.PSD[aqui](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

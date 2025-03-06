@@ -3,10 +3,16 @@ title: 使用 Java 在 PSD 檔案中套用圖層效果
 linktitle: 使用 Java 在 PSD 檔案中套用圖層效果
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 檔案中套用圖層效果。本教學涵蓋載入 PSD、存取圖層以及儲存修改後的圖片。
-type: docs
 weight: 19
 url: /zh-hant/java/psd-image-modification-conversion/apply-layer-effects-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PSD 檔案中套用圖層效果
+
 ## 介紹
 
 您是否曾經夢想過直接透過程式碼操作那些PSD格式的精美分層傑作？好吧，借助 Aspose.PSD for Java 的強大功能，這個夢想變成了現實！本指南將引導您完成使用 Java 在 PSD 檔案中套用圖層效果的步驟，使您能夠自動執行任務並解鎖全新等級的創意控制。 
@@ -111,3 +117,9 @@ image.save(exportPath, options);
 
 ### 我可以在哪裡找到更多資訊和支援？
 Aspose.PSD 文件（[Aspose.PSD for Java 文檔](https://reference.aspose.com/psd/java/)）是深入資訊的寶貴資源。如果您遇到問題或有疑問，請造訪 Aspose 論壇 ([Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)）是尋求社區幫助和 Aspose 支持的好地方。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

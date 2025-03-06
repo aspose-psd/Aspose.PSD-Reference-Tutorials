@@ -3,10 +3,16 @@ title: Travailler avec les modes de fusion dans Aspose.PSD pour .NET
 linktitle: Travailler avec les modes de fusion
 second_title: API Aspose.PSD.NET
 description: Explorez la puissance des modes de fusion dans Aspose.PSD pour .NET. Ce didacticiel vous guide dans l'application de différents modes de fusion avec des exemples étape par étape.
-type: docs
 weight: 16
 url: /fr/net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec les modes de fusion dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Si vous êtes un développeur .NET cherchant à améliorer vos capacités de traitement d'image, Aspose.PSD pour .NET est un outil puissant qui vous permet de travailler de manière transparente avec différents modes de fusion. Les modes de fusion jouent un rôle crucial dans la manipulation des images en définissant la manière dont les calques se mélangent les uns aux autres. Dans ce guide étape par étape, nous plongerons dans le monde des modes de fusion et montrerons comment les utiliser efficacement dans vos applications .NET.
@@ -102,3 +108,9 @@ A4 : Absolument ! Les modes de fusion peuvent être combinés avec d'autres fonc
 ### Q5 : Existe-t-il un forum communautaire pour le support d'Aspose.PSD ?
 
  A5 : Oui, vous pouvez trouver de l'aide et vous connecter avec d'autres utilisateurs sur le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

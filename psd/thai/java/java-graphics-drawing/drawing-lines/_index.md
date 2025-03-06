@@ -3,10 +3,16 @@ title: การวาดเส้นใน Java
 linktitle: การวาดเส้นใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีวาดเส้นในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ด้วยบทช่วยสอนที่ครอบคลุมนี้ เพิ่มทักษะการพัฒนา Java ของคุณ
-type: docs
 weight: 16
 url: /th/java/java-graphics-drawing/drawing-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดเส้นใน Java
+
 ## การแนะนำ
 ในขอบเขตของการพัฒนา Java การจัดการและการสร้างไฟล์ PSD (เอกสาร Photoshop) โดยทางโปรแกรมถือเป็นความสามารถที่ทรงพลัง Aspose.PSD สำหรับ Java ช่วยให้นักพัฒนาสามารถทำงานต่างๆ เช่น การวาดเส้น รูปร่าง และรูปภาพได้โดยตรงภายในไฟล์ PSD บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการวาดเส้นโดยใช้ Aspose.PSD สำหรับ Java โดยมีขั้นตอนและตัวอย่างที่ชัดเจนเพื่อช่วยให้คุณเริ่มต้นได้อย่างรวดเร็ว
 ## ข้อกำหนดเบื้องต้น
@@ -74,3 +80,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารี Java ที
  สำหรับการสนับสนุนทางเทคนิค โปรดไปที่[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34).
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java ได้ที่ไหน
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

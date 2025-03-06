@@ -3,10 +3,16 @@ title: Обработка изображений
 linktitle: Обработка изображений
 second_title: Aspose.PSD Java API
 description: Раскройте потенциал Aspose.PSD для Java в обработке изображений. Научитесь шаг за шагом применять фильтры Гаусса, Винера, Медианы и Винера движения.
-type: docs
 weight: 20
 url: /ru/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка изображений
+
 ## Введение
 
 Обработка изображений становится захватывающим путешествием с Aspose.PSD для Java, набором инструментов, который позволяет разработчикам улучшать визуальный контент. В этой серии руководств, от фундаментальных методов до сложных процессов, рассматриваются функции, которые делают Aspose.PSD идеальным решением для обработки изображений Java.
@@ -57,3 +63,9 @@ url: /ru/java/image-processing/
 Повысьте качество изображения с помощью Bradley Thresholding в Aspose.PSD для Java. Следуйте нашему пошаговому руководству для эффективной бинаризации изображений.
 ### [Обрезка PSD-файла с помощью Aspose.PSD для Java](./crop-psd-file/)
 Исследуйте бесшовную обрезку PSD-файлов в Java с помощью Aspose.PSD. Легко интегрируйте точность и эффективность в задачи по манипулированию изображениями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

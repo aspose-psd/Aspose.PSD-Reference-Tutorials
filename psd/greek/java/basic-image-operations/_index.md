@@ -3,10 +3,16 @@ title: Βασικές λειτουργίες εικόνας
 linktitle: Βασικές λειτουργίες εικόνας
 second_title: Aspose.PSD Java API
 description: Αναβαθμίστε τις δεξιότητές σας στη γραφιστική με τα μαθήματα Aspose.PSD για Java. Μάθετε σχεδίαση, αλλαγή μεγέθους, λειτουργίες ανάμειξης και επαλήθευση διαφάνειας σε έναν οδηγό βήμα προς βήμα.
-type: docs
 weight: 25
 url: /el/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Βασικές λειτουργίες εικόνας
+
 
 ## Εισαγωγή
 
@@ -44,3 +50,9 @@ url: /el/java/basic-image-operations/
 Μάθετε πώς να προσθέτετε εντυπωσιακά εφέ σκιάς σε εικόνες χρησιμοποιώντας το Aspose.PSD για Java. Αναβαθμίστε το γραφικό σας σχέδιο με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Επαληθεύστε τη διαφάνεια εικόνας με το Aspose.PSD για Java](./verify-image-transparency/)
 Εξερευνήστε την επαλήθευση διαφάνειας εικόνας με το Aspose.PSD για Java. Εύκολη ενσωμάτωση, λεπτομερής τεκμηρίωση και εξαιρετική υποστήριξη της κοινότητας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

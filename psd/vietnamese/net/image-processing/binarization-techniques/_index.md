@@ -3,10 +3,16 @@ title: Kỹ thuật nhị phân hóa trong Aspose.PSD cho .NET
 linktitle: Kỹ thuật nhị phân hóa
 second_title: API Aspose.PSD .NET
 description: Khám phá các kỹ thuật nhị phân nâng cao trong Aspose.PSD cho .NET. Chuyển đổi hình ảnh màu sang nhị phân một cách dễ dàng bằng phương pháp BinarizationWithFixedThreshold.
-type: docs
 weight: 12
 url: /vi/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật nhị phân hóa trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong thế giới xử lý hình ảnh, khả năng chuyển đổi hình ảnh màu thành hình ảnh nhị phân là một bước quan trọng. Quá trình nhị phân hóa giúp đơn giản hóa các hình ảnh phức tạp bằng cách giảm chúng thành các pixel đen trắng, giúp phân tích và trích xuất thông tin dễ dàng hơn. Aspose.PSD for .NET cung cấp các công cụ mạnh mẽ để xử lý hình ảnh, bao gồm các kỹ thuật nhị phân mạnh mẽ. Trong hướng dẫn này, chúng ta sẽ khám phá phương pháp BinarizationWithFixedThreshold và hướng dẫn bạn triển khai phương pháp này bằng Aspose.PSD cho .NET.
@@ -104,3 +110,9 @@ Câu trả lời 3: Bộ nhớ đệm cải thiện hiệu suất bằng cách l
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.PSD không?
 
  A5: Có, bạn có thể truy cập[dùng thử miễn phí](https://releases.aspose.com/)để khám phá các tính năng của Aspose.PSD trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

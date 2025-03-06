@@ -3,10 +3,16 @@ title: Rozwijanie i przycinanie obrazów w Aspose.PSD dla .NET
 linktitle: Rozwijanie i przycinanie obrazów
 second_title: Aspose.PSD API .NET
 description: Dowiedz się, jak dynamicznie rozszerzać i przycinać obrazy za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną manipulację obrazem.
-type: docs
 weight: 13
 url: /pl/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozwijanie i przycinanie obrazów w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Aspose.PSD dla .NET to obszerna biblioteka obrazów, która umożliwia programistom pracę z różnymi formatami obrazów w aplikacjach .NET. Jedną z jego wyróżniających się funkcji jest możliwość łatwego manipulowania obrazami. W tym samouczku skupimy się na rozwijaniu i przycinaniu obrazów, zapewniając praktyczny przewodnik, jak wykonać te zadania za pomocą Aspose.PSD.
@@ -98,3 +104,9 @@ O1: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, w tym JPEG, PN
 ### P5: Gdzie mogę kupić Aspose.PSD dla .NET?
 
  Odpowiedź 5: Bibliotekę można kupić pod adresem[Strona zakupu Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

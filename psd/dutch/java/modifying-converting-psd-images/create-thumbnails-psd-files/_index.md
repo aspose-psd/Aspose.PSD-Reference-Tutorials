@@ -3,10 +3,16 @@ title: Maak miniaturen van PSD-bestanden met behulp van Java
 linktitle: Maak miniaturen van PSD-bestanden met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u moeiteloos miniaturen kunt maken van PSD-bestanden met behulp van Java en Aspose.PSD. Volg onze stapsgewijze handleiding voor een naadloze beeldverwerking.
-type: docs
 weight: 24
 url: /nl/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak miniaturen van PSD-bestanden met behulp van Java
+
 ## Invoering
 In de wereld van grafisch ontwerp is het werken met PSD-bestanden (Photoshop Document) gemeengoed. Of u nu een doorgewinterde ontwikkelaar, grafisch ontwerper of gewoon iemand bent die zich wil verdiepen in beeldverwerking: het maken van miniaturen van PSD-bestanden kan u tijd besparen en uw workflow stroomlijnen. Deze tutorial begeleidt u door het hele proces met Aspose.PSD voor Java. Aspose.PSD is niet alleen een robuuste bibliotheek voor het beheren van Photoshop-bestanden, maar maakt de taak ook intuïtief en beheersbaar. Bent u klaar om te leren hoe u efficiënt miniaturen van PSD-bestanden kunt maken?
 ## Vereisten
@@ -112,3 +118,9 @@ In dit voorbeeld hebben we de thumbnails in BMP-formaat opgeslagen, maar Aspose.
 Nee, Aspose.PSD werkt onafhankelijk van Photoshop.
 ### Waar kan ik meer informatie vinden over Aspose.PSD?
  Je kunt de[Aspose.PSD-documentatie](https://reference.aspose.com/psd/java/) voor meer details, tutorials en bronnen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

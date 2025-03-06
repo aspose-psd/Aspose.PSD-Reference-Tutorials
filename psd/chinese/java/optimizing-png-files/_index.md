@@ -3,10 +3,16 @@ title: 优化 PNG 文件
 linktitle: 优化 PNG 文件
 second_title: Aspose.PSD Java API
 description: 探索使用 Aspose.PSD for Java 优化 PNG 文件的综合教程，涵盖过滤器、背景颜色变化、压缩、分辨率、位深度和透明度。
-type: docs
 weight: 20
 url: /zh/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 优化 PNG 文件
+
 ## 介绍
 
 您是否希望掌握使用 Aspose.PSD for Java 进行 PNG 文件优化？我们的详细教程涵盖了让您的图像大放异彩所需的一切知识。从应用滤镜到更改背景颜色，从压缩文件到设置分辨率，本指南应有尽有。让我们逐步深入每个主题，确保您充分利用 PNG 文件！
@@ -48,3 +54,9 @@ PNG 文件中的透明度可以为您的图像增添专业感。使用 Aspose.PS
 在本详细的分步教程中学习如何使用 Aspose.PSD for Java 指定 PNG 位深度。
 ### [在 Aspose.PSD for Java 中设置 PNG 透明度](./set-png-transparency/)
 通过简单的分步教程学习如何在 Aspose.PSD for Java 中设置 PNG 透明度。非常适合开发人员和图形设计师。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

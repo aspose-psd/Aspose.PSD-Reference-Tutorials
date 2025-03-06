@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中新增漸層效果
 linktitle: 為影像添加漸層效果
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 透過迷人的漸變效果增強影像。請按照我們的逐步教學進行創意視覺轉換。
-type: docs
 weight: 11
 url: /zh-hant/net/image-manipulation/adding-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中新增漸層效果
+
 ## 介紹
 
 使用漸變效果增強影像可以為您的視覺內容添加迷人的維度。 Aspose.PSD for .NET 提供了一個強大的平台，可以將漸層疊加合併到影像中。在本教學中，我們將引導您完成使用 Aspose.PSD for .NET 新增漸層效果的過程。
@@ -148,3 +154,9 @@ A3：是的，您可以透過下載免費試用版來探索 Aspose.PSD for .NET 
 ### Q5：哪裡可以購買 Aspose.PSD for .NET？
 
 A5：您可以從以下網站購買該庫：[Aspose.PSD for .NET 購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

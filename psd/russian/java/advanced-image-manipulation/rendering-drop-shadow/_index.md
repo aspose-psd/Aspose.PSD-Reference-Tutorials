@@ -3,10 +3,16 @@ title: Примените рендеринг тени в Aspose.PSD для Java
 linktitle: Применить рендеринг тени
 second_title: Aspose.PSD Java API
 description: Изучите пошаговое руководство по применению рендеринга теней в Aspose.PSD для Java, которое без труда улучшит ваши навыки обработки изображений.
-type: docs
 weight: 16
 url: /ru/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените рендеринг тени в Aspose.PSD для Java
+
 ## Введение
 
 Если вы погружаетесь в обработку изображений с помощью Java, Aspose.PSD — ваш идеальный инструмент для беспрепятственного и эффективного манипулирования PSD-файлами. В этом уроке мы рассмотрим процесс применения тени при рендеринге с помощью Aspose.PSD для Java. Пристегнитесь, пока мы разбираем для вас ступеньки.
@@ -125,3 +131,9 @@ A3: Aspose.PSD обеспечивает совместимость с широк
 ### В5: Могу ли я протестировать Aspose.PSD перед покупкой?
 
  A5: Конечно, используйте[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить возможности перед совершением покупки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

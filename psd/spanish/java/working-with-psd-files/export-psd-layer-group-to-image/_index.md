@@ -3,10 +3,16 @@ title: Exportar grupo de capas PSD a imagen usando Java
 linktitle: Exportar grupo de capas PSD a imagen usando Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo exportar grupos de capas PSD a imágenes usando Aspose.PSD para Java con esta guía paso a paso. Perfecto para desarrolladores y diseñadores.
-type: docs
 weight: 10
 url: /es/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportar grupo de capas PSD a imagen usando Java
+
 ## Introducción
 
 En el mundo del diseño digital, administrar capas y exportar partes específicas de su trabajo puede cambiar las reglas del juego. Imagine que tiene este impresionante archivo de Photoshop (PSD) de múltiples capas y desea exportar solo un determinado grupo de capas como una imagen. Suena complicado, ¿verdad? Bueno, ¡no tiene por qué ser así! Con Aspose.PSD para Java, esta tarea no sólo se vuelve manejable sino también absolutamente sencilla. Este artículo lo guiará a través del proceso, dividiéndolo en pasos fáciles de seguir. Al final, sabrás cómo manejar capas PSD como un profesional.
@@ -119,3 +125,9 @@ Sí, puedes modificar las capas, como aplicar transformaciones o efectos, antes 
 
 ### ¿Cómo puedo obtener una licencia temporal de Aspose.PSD para Java?
  Puede obtener una licencia temporal del[Aspose página de compra](https://purchase.aspose.com/temporary-license/). Esto le permitirá probar la funcionalidad completa de la biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

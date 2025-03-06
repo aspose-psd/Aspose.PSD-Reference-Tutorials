@@ -3,10 +3,16 @@ title: Hỗ trợ hiệu ứng đổ bóng trong Aspose.PSD cho Java
 linktitle: Hỗ trợ hiệu ứng đổ bóng
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm hiệu ứng đổ bóng quyến rũ vào hình ảnh bằng Aspose.PSD cho Java. Nâng cao thiết kế đồ họa của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 13
 url: /vi/java/basic-image-operations/support-shadow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ hiệu ứng đổ bóng trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Nâng cao hình ảnh bằng hiệu ứng đổ bóng là cách làm phổ biến trong thiết kế đồ họa, giúp tăng thêm chiều sâu và tính chân thực. Aspose.PSD cho Java cung cấp sự hỗ trợ mạnh mẽ cho các hiệu ứng đổ bóng, cho phép các nhà phát triển dễ dàng tích hợp các hiệu ứng này vào các ứng dụng Java của họ. Trong hướng dẫn này, chúng ta sẽ khám phá cách hỗ trợ các hiệu ứng đổ bóng bằng Aspose.PSD, từng bước một.
@@ -108,3 +114,9 @@ A1: Chắc chắn rồi! Aspose.PSD cho Java là một thư viện mạnh mẽ �
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho Java?
 
  A5: Tham gia diễn đàn cộng đồng[đây](https://forum.aspose.com/c/psd/34) cho bất kỳ truy vấn hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

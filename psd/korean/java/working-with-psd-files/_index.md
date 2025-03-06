@@ -3,10 +3,16 @@ title: PSD 파일 작업
 linktitle: PSD 파일 작업
 second_title: Aspose.PSD 자바 API
 description: PSD 레이어 그룹을 이미지로 내보내고 Clbl, Infx 및 Lspf 리소스를 조작하는 방법을 포함하여 Java용 포괄적인 Aspose.PSD 튜토리얼을 살펴보세요.
-type: docs
 weight: 26
 url: /ko/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 파일 작업
+
 
 ## 소개
 
@@ -37,3 +43,9 @@ Java용 Aspose.PSD를 사용하여 PSD 파일에서 Clbl 리소스를 지원하�
 이 포괄적인 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 Infx 리소스를 조작하는 방법을 알아보세요. 모든 수준의 개발자에게 적합합니다.
 ### [Java를 사용하여 PSD 파일에서 Lspf 리소스 지원](./support-lspf-resource-psd-files/)
 단계별 가이드를 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에서 Lspf 리소스를 지원하고 조작하는 방법을 마스터하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for Java で PNG ファイルの解像度を設定する
 linktitle: Aspose.PSD for Java で PNG ファイルの解像度を設定する
 second_title: Aspose.PSD Java API
 description: この詳細なステップバイステップのチュートリアルで、Aspose.PSD for Java を使用して PNG ファイルの解像度を設定する方法を学びます。すぐに画像を最適化できます。
-type: docs
 weight: 13
 url: /ja/java/optimizing-png-files/set-png-file-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java で PNG ファイルの解像度を設定する
+
 ## 導入
 Java を使用して PNG ファイルの解像度を最適化したいとお考えですか? 答えが「はい」の場合、正しい場所にたどり着きました。今日は、Photoshop PSD ファイルを操作し、PNG などの他の形式に変換するための強力なライブラリである Aspose.PSD for Java の世界を詳しく見ていきます。画像処理に取り組んでいる開発者でも、プログラムで画像の品質を向上させたいだけの人でも、このガイドはあなたにぴったりです。 
 この包括的なチュートリアルでは、前提条件から、PNG ファイルの解像度を効果的に設定するための詳細な手順まで、すべてを網羅します。お気に入りのスナックを手に取って、始めましょう。
@@ -71,3 +77,9 @@ PSD ファイルを PNG、JPEG、BMP、TIFF などの形式に変換できます
 Aspose.PSD は多くの一般的な問題に対処しますが、ファイルがひどく破損している場合は読み込まれない可能性があります。常にバックアップを保存してください。
 ### Aspose.PSD は高パフォーマンス アプリケーションに適していますか?
 はい、大きなファイルを効率的に処理するように設計されており、パフォーマンスが重視される画像処理タスクに適しています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

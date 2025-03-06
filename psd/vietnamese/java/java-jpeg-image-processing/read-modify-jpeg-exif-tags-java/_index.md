@@ -3,10 +3,16 @@ title: Đọc và sửa đổi thẻ JPEG EXIF trong Java
 linktitle: Đọc và sửa đổi thẻ JPEG EXIF trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách đọc và sửa đổi thẻ JPEG EXIF bằng Aspose.PSD cho Java trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn xử lý siêu dữ liệu hình ảnh một cách dễ dàng.
-type: docs
 weight: 18
 url: /vi/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc và sửa đổi thẻ JPEG EXIF trong Java
+
 ## Giới thiệu
 Này! Bạn đã bao giờ tự hỏi làm thế nào bạn có thể đọc và sửa đổi các thẻ JPEG EXIF bằng Java chưa? Nếu vậy, bạn đang ở đúng nơi! Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, thì khi kết thúc hướng dẫn này, bạn sẽ có thể xử lý các thẻ JPEG EXIF như một người chuyên nghiệp. Vì vậy, hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Aspose.PSD for Java hỗ trợ Java SE 7 trở lên.
  Kiểm tra[tài liệu](https://reference.aspose.com/psd/java/) để biết thêm chi tiết.
 ### Làm cách nào để nhận được hỗ trợ cho Aspose.PSD cho Java?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

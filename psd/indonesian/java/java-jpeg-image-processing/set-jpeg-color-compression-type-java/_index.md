@@ -3,10 +3,16 @@ title: Atur Warna JPEG dan Jenis Kompresi di Java
 linktitle: Atur Warna JPEG dan Jenis Kompresi di Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengatur warna JPEG dan jenis kompresi di Java menggunakan Aspose.PSD. Panduan langkah demi langkah ini membuat pemrosesan gambar menjadi mudah dan efisien.
-type: docs
 weight: 13
 url: /id/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Warna JPEG dan Jenis Kompresi di Java
+
 ## Perkenalan
 Di era digital saat ini, pengelolaan dan manipulasi gambar merupakan kebutuhan umum, baik untuk pengembangan web, desain grafis, atau rekayasa perangkat lunak. Jika Anda mencari alat canggih untuk menangani file PSD dan mengonversinya ke JPEG dengan pengaturan warna dan kompresi tertentu, Anda bisa mengunjungi Aspose.PSD untuk Java. Tutorial ini akan memandu Anda melalui proses pengaturan warna JPEG dan tipe kompresi menggunakan perpustakaan tangguh ini.
 ## Prasyarat
@@ -54,3 +60,9 @@ Aspose.PSD untuk Java adalah perpustakaan Java yang memungkinkan pengembang memb
  Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/psd/java/).
 ### Apakah Aspose.PSD untuk Java cocok untuk aplikasi web?
 Ya, Aspose.PSD untuk Java dapat diintegrasikan ke dalam aplikasi web untuk menangani tugas pemrosesan gambar di sisi server.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

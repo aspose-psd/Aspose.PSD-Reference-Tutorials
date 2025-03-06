@@ -3,10 +3,16 @@ title: Representación del efecto de superposición de degradado en Aspose.PSD p
 linktitle: Efecto de superposición de degradado de renderizado
 second_title: API Aspose.PSD .NET
 description: Domine el arte de renderizar el efecto de superposición de degradado en Aspose.PSD para .NET. Mejora tus habilidades de diseño gráfico con este tutorial paso a paso.
-type: docs
 weight: 17
 url: /es/net/image-manipulation/rendering-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Representación del efecto de superposición de degradado en Aspose.PSD para .NET
+
 En el ámbito del diseño gráfico y el procesamiento de imágenes con .NET, Aspose.PSD se destaca como una biblioteca poderosa que ofrece una gran variedad de funciones para mejorar su creatividad. Una de esas capacidades notables es la representación del efecto de superposición de degradado, que agrega profundidad y vitalidad a sus imágenes. En esta guía paso a paso, lo guiaremos a través del proceso usando Aspose.PSD para .NET.
 
 ## Introducción
@@ -90,3 +96,9 @@ R3: ¡Absolutamente! Aspose.PSD le permite combinar múltiples efectos de capa p
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.PSD?
 
  R5: Para cualquier consulta o ayuda, visite el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

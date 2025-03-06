@@ -3,10 +3,16 @@ title: Adja hozzá a színtelítettség korrekciós réteget a PSD-hez
 linktitle: Adja hozzá a színtelítettség korrekciós réteget a PSD-hez
 second_title: Aspose.PSD Java API
 description: Ebben az átfogó, lépésenkénti oktatóanyagban megtudhatja, hogyan adhat hozzá színtelítettség-beállító rétegeket a PSD-hez az Aspose.PSD for Java segítségével. Javítsa grafikai tervezési munkafolyamatát.
-type: docs
 weight: 14
 url: /hu/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a színtelítettség korrekciós réteget a PSD-hez
+
 ## Bevezetés
 Ami a grafikai tervezést illeti, a színmanipuláció kulcsszerepet játszik – konkrétan az árnyalat, a telítettség és a világosság módosítása drasztikusan megváltoztathatja bármely kép hangulatát és minőségét. Ennek egyik hatékony módja a Photoshop korrekciós rétegeinek (PSD-fájlok) használata. Ha szeretné programozottan javítani PSD-fájljain a Java használatával, az Aspose.PSD könyvtár segít! Ez az oktatóanyag végigvezeti Önt azokon a lépéseken, amelyekkel színtelítettségi korrekciós réteget adhat hozzá PSD-fájlokhoz, így munkafolyamatait termelékenyebbé és hatékonyabbá teheti.
 Ebben az útmutatóban mindent lefedünk, a szükséges csomagok importálásától a kódpéldák aprólékos részleteiig.
@@ -102,3 +108,9 @@ Nem, az Aspose.PSD egy önálló könyvtár, amely a Photoshoptól függetlenül
 Igen, automatizálhat és kötegelt feldolgozhat több PSD-fájlt az Aspose.PSD segítségével.
 ### Az Aspose.PSD ingyenes?
 Az Aspose.PSD ingyenes próbaverziót kínál, de a hosszú távú használathoz licenc szükséges. Megtekintheti az árakat[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

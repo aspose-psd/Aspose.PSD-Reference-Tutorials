@@ -3,10 +3,16 @@ title: Travailler avec Timeline dans Aspose.PSD pour .NET
 linktitle: Travailler avec la chronologie
 second_title: API Aspose.PSD.NET
 description: Améliorez la manipulation des images PSD avec Aspose.PSD pour la classe .NET Timeline. Contrôlez les propriétés des images, les états des calques et libérez les possibilités créatives sans effort.
-type: docs
 weight: 16
 url: /fr/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec Timeline dans Aspose.PSD pour .NET
+
 ## Introduction
 Dans le monde dynamique de la conception graphique et de la manipulation d’images, la capacité de contrôler et de manipuler la chronologie des images est cruciale. Aspose.PSD pour .NET fournit une solution puissante avec sa classe Timeline. Cette fonctionnalité de haut niveau permet aux utilisateurs d'apporter des modifications à la chronologie de PsdImage, telles que la modification du délai d'image, la modification des états de calque sur des images spécifiques, etc.
 ## Conditions préalables
@@ -108,3 +114,9 @@ A2 : La classe Timeline est spécifiquement conçue pour les images PSD. Pour l
 ### Q5 : Quels sont les principaux avantages de l’utilisation d’Aspose.PSD pour .NET ?
 
 A5 : Aspose.PSD pour .NET offre des capacités avancées de traitement d'image, de manipulation de fichiers PSD et de rendu hautes performances.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

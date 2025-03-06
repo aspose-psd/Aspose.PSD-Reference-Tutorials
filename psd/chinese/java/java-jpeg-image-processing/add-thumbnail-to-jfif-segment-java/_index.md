@@ -3,10 +3,16 @@ title: 使用 Java 将缩略图添加到 JFIF 段
 linktitle: 使用 Java 将缩略图添加到 JFIF 段
 second_title: Aspose.PSD Java API
 description: 逐步了解如何使用 Aspose.PSD 在 Java 中向 PSD 图像添加缩略图。非常适合希望增强图像处理能力的 Java 开发人员。
-type: docs
 weight: 11
 url: /zh/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 将缩略图添加到 JFIF 段
+
 ## 介绍
 在 Java 开发领域，集成图像处理功能对于各种应用程序都至关重要，从简单的图像处理到复杂的图形设计任务。Aspose.PSD for Java 是一个功能强大的库，旨在轻松处理 PSD（Photoshop 文档）文件。本教程重点介绍一项特定任务：使用 Aspose.PSD for Java 将缩略图添加到图像的 JFIF 部分。在本指南结束时，您将学习如何逐步完成此任务，确保您彻底掌握每个部分。
 ## 先决条件
@@ -90,3 +96,9 @@ Aspose.PSD for Java 是一个允许 Java 开发人员以编程方式操作 PSD �
 是的，你可以从下载免费试用版[Aspose.PSD 的试用版下载页面](https://releases.aspose.com/).
 ### 如何获得 Aspose.PSD for Java 的支持？
 如需支持，请访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Markeer bladkleur in PSD-bestanden met Aspose.PSD Java
 linktitle: Markeer bladkleur in PSD-bestanden met Aspose.PSD Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u bladkleuren in PSD-bestanden kunt markeren met Aspose.PSD voor Java. Volg onze stapsgewijze handleiding om uw vaardigheden op het gebied van beeldmanipulatie in Java te verbeteren.
-type: docs
 weight: 19
 url: /nl/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Markeer bladkleur in PSD-bestanden met Aspose.PSD Java
+
 ## Invoering
 
 Wilt u zich verdiepen in beeldmanipulatie en uw digitale creaties verbeteren met Java? Of je nu een doorgewinterde ontwikkelaar bent of net begint, het werken met PSD-bestanden kan een wereld aan mogelijkheden openen. PSD-bestanden zijn de industriestandaard voor het bewerken van gelaagde afbeeldingen, en met de kracht van Aspose.PSD voor Java kunt u deze bestanden moeiteloos manipuleren binnen uw Java-toepassingen. Vandaag laten we zien hoe u bladkleuren in PSD-bestanden kunt markeren, zodat uw ontwerpen op de meest levendige manier opvallen.
@@ -142,3 +148,9 @@ Zodra wijzigingen in een bestand zijn opgeslagen, kunnen deze niet meer ongedaan
 
 ### Kan ik meerdere lagen tegelijk markeren in een PSD-bestand?
 Ja, u kunt door de lagen in een PSD-bestand bladeren en de gewenste bladkleuraccentuering op elke laag afzonderlijk toepassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

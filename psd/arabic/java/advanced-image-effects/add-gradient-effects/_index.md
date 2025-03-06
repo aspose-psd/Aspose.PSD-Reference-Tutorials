@@ -3,10 +3,16 @@ title: إضافة تأثيرات التدرج في Aspose.PSD لجافا
 linktitle: إضافة تأثيرات التدرج
 second_title: Aspose.PSD جافا API
 description: قم بتحسين صور Java الخاصة بك بتأثيرات متدرجة مذهلة باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة تأثيرات التدرج في Aspose.PSD لجافا
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي حول إضافة تأثيرات التدرج في Aspose.PSD لـ Java! إذا كنت تتطلع إلى تحسين صورك باستخدام تراكبات متدرجة مذهلة، فأنت في المكان الصحيح. في هذا الدليل، سنرشدك خلال العملية باستخدام Aspose.PSD، وهي مكتبة Java قوية لمعالجة الصور.
@@ -130,3 +136,9 @@ A1: نعم، يمكنك تطبيق تأثيرات متدرجة متعددة عن
 ### س5: أين يمكنني شراء ترخيص Aspose.PSD لـ Java؟
 
  ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على معلومات الترخيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Áp dụng Bộ lọc Wiener chuyển động bằng Aspose.PSD cho Java
 linktitle: Áp dụng bộ lọc Wiener chuyển động
 second_title: API Java Aspose.PSD
 description: Làm chủ việc xử lý hình ảnh bằng Java với Aspose.PSD. Dễ dàng áp dụng Bộ lọc Wiener chuyển động bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 13
 url: /vi/java/image-processing/apply-motion-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Bộ lọc Wiener chuyển động bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới xử lý hình ảnh năng động, Aspose.PSD cho Java nổi lên như một công cụ mạnh mẽ, cho phép các nhà phát triển áp dụng Bộ lọc Wiener chuyển động một cách dễ dàng. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình, biến thao tác hình ảnh trở thành một nhiệm vụ dễ tiếp cận đối với các nhà phát triển Java.
@@ -109,3 +115,9 @@ Câu trả lời 2: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho Java?
 
 A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

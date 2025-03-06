@@ -3,10 +3,16 @@ title: تقنيات متقدمة
 linktitle: تقنيات متقدمة
 second_title: Aspose.PSD جافا API
 description: يمكنك بسهولة إتقان التقنيات المتقدمة في معالجة صور Java باستخدام دروس Aspose.PSD. تدرج الرمادي، وتحميل، وتحويل، وعرض النص، وحفظه بكفاءة، والمزيد!
-type: docs
 weight: 22
 url: /ar/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقنيات متقدمة
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى مهارات معالجة الصور الخاصة بك في Java؟ انغمس في برامجنا التعليمية الشاملة باستخدام Aspose.PSD لـ Java، مما يفتح عالمًا من التقنيات المتقدمة. دعنا نستكشف بعض البرامج التعليمية الرئيسية بالتفصيل:
@@ -85,3 +91,9 @@ url: /ar/java/advanced-techniques/
 تعلم كيفية ضبط جاما الصورة بسهولة باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة للحصول على أفضل النتائج.
 ### [قم بطمس الصورة باستخدام Aspose.PSD لـ Java](./blur-image/)
 تعلم كيفية تعتيم الصور في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة للحصول على نتائج احترافية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

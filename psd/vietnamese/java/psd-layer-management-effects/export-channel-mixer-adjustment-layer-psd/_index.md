@@ -3,10 +3,16 @@ title: Xuất lớp điều chỉnh bộ trộn kênh trong PSD - Java
 linktitle: Xuất lớp điều chỉnh bộ trộn kênh trong PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách xuất Lớp điều chỉnh bộ trộn kênh trong PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước để sửa đổi các lớp RGB và CMYK, lưu các thay đổi và xuất sang PNG.
-type: docs
 weight: 14
 url: /vi/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất lớp điều chỉnh bộ trộn kênh trong PSD - Java
+
 ## Giới thiệu
 
 Khi nói đến chỉnh sửa hình ảnh, đặc biệt là với các tệp Adobe Photoshop (PSD), việc quản lý các lớp một cách hiệu quả là điều quan trọng. Trong số các lớp này, Lớp điều chỉnh bộ trộn kênh đóng một vai trò quan trọng trong việc điều chỉnh cân bằng màu của hình ảnh. Nếu bạn là nhà phát triển Java đang tìm cách thao tác các lớp này theo chương trình thì bạn thật may mắn! Trong bài viết này, chúng tôi sẽ hướng dẫn bạn quy trình xuất Lớp điều chỉnh bộ trộn kênh bằng Aspose.PSD cho Java. Đến cuối hướng dẫn này, bạn sẽ được trang bị tốt để xử lý các Lớp điều chỉnh bộ trộn kênh RGB và CMYK, lưu các thay đổi và xuất hình ảnh cuối cùng của bạn ở cả định dạng PSD và PNG.
@@ -168,3 +174,9 @@ Có, bạn có thể lặp qua một thư mục chứa các tệp PSD và áp d�
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PSD cho Java không?  
  Có, Aspose.PSD cho Java là sản phẩm được cấp phép. Bạn có thể có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm hoặc mua giấy phép đầy đủ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

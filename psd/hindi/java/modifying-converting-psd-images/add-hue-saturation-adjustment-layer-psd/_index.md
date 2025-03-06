@@ -3,10 +3,16 @@ title: PSD में ह्यू संतृप्ति समायोजन
 linktitle: PSD में ह्यू संतृप्ति समायोजन परत जोड़ें
 second_title: Aspose.PSD जावा एपीआई
 description: इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में Aspose.PSD for Java का उपयोग करके PSD में ह्यू सैचुरेशन एडजस्टमेंट लेयर्स जोड़ने का तरीका जानें। अपने ग्राफ़िक डिज़ाइन वर्कफ़्लो को बेहतर बनाएँ।
-type: docs
 weight: 14
 url: /hi/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD में ह्यू संतृप्ति समायोजन परत जोड़ें
+
 ## परिचय
 जब ग्राफिक डिज़ाइन की बात आती है, तो रंग हेरफेर एक महत्वपूर्ण भूमिका निभाता है - विशेष रूप से, रंग, संतृप्ति और हल्कापन में बदलाव किसी भी छवि के मूड और गुणवत्ता को काफी हद तक बदल सकता है। इसे प्राप्त करने का एक प्रभावी तरीका फ़ोटोशॉप (PSD फ़ाइलों) में समायोजन परतों का उपयोग करना है। यदि आप जावा का उपयोग करके प्रोग्रामेटिक रूप से अपनी PSD फ़ाइलों को बेहतर बनाना चाहते हैं, तो Aspose.PSD लाइब्रेरी आपकी मदद के लिए यहाँ है! यह ट्यूटोरियल आपको अपनी PSD फ़ाइलों में ह्यू संतृप्ति समायोजन परत जोड़ने के चरणों के माध्यम से ले जाएगा, जिससे आपके वर्कफ़्लो अधिक उत्पादक और कुशल बनेंगे।
 इस गाइड में, हम आवश्यक पैकेजों को आयात करने से लेकर कोड उदाहरणों के विस्तृत विवरण तक सब कुछ कवर करेंगे।
@@ -102,3 +108,9 @@ img.save(psdPathAfterNewLayerChange);
 हां, आप Aspose.PSD के साथ कई PSD फ़ाइलों को स्वचालित और बैच प्रक्रिया कर सकते हैं।
 ### क्या Aspose.PSD निःशुल्क है?
 Aspose.PSD निःशुल्क परीक्षण प्रदान करता है, लेकिन दीर्घकालिक उपयोग के लिए लाइसेंस की आवश्यकता होती है। आप मूल्य निर्धारण देख सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Afbeeldingen bijsnijden door verschuivingen in Aspose.PSD voor .NET
 linktitle: Afbeeldingen bijsnijden met verschuivingen
 second_title: Aspose.PSD .NET-API
 description: Leer moeiteloos afbeeldingen bijsnijden met Aspose.PSD voor .NET. Volg onze stapsgewijze handleiding voor nauwkeurige beeldaanpassingen.
-type: docs
 weight: 12
 url: /nl/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen bijsnijden door verschuivingen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.PSD zich als een krachtige toolkit voor beeldverwerkingstaken. Een van de opvallende kenmerken is de mogelijkheid om afbeeldingen nauwkeurig bij te snijden, dankzij de 'Cropping by Shifts'-functionaliteit. In deze stapsgewijze handleiding leiden we u door het proces van het naadloos bijsnijden van afbeeldingen met Aspose.PSD voor .NET.
@@ -105,3 +111,10 @@ A1: Ja, Aspose.PSD ondersteunt verschillende afbeeldingsindelingen, waardoor u a
 ### V5: Kan ik Aspose.PSD voor .NET rechtstreeks via de website kopen?
 
  A5: Ja, u kunt de bibliotheek veilig kopen via de[aankooppagina](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

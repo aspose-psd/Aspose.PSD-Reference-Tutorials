@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 PSD 파일에 이미지 로드
 linktitle: Java용 Aspose.PSD를 사용하여 PSD 파일에 이미지 로드
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 이미지를 PSD 파일에 쉽게 로드할 수 있습니다. 이미지 조작 작업을 효과적으로 자동화하려면 이 단계별 가이드를 따르세요.
-type: docs
 weight: 20
 url: /ko/java/psd-image-modification-conversion/load-images-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 PSD 파일에 이미지 로드
+
 ## 소개
 
 특히 전문적인 디자인 환경에서 이미지 파일로 작업할 때 계층화된 PSD(Photoshop 문서) 파일을 프로그래밍 방식으로 조작하는 기능은 자동화 및 효율성의 세계를 열어줍니다. 깨끗하고 간단한 코드 구조를 통해 이미지를 로드하고 레이어로 추가하고 저장할 수 있다고 상상해 보십시오. Java용 Aspose.PSD를 사용하면 이는 단순한 가능성이 아닙니다. 이는 귀하의 프로젝트에 쉽게 통합할 수 있는 현실입니다. 이미지를 PSD 파일에 원활하게 로드하는 방법을 살펴보겠습니다.
@@ -167,3 +173,9 @@ Aspose.PSD를 사용하여 다양한 래스터 이미지(예: JPEG, PNG)를 PSD 
 ### Aspose.PSD에 대한 추가 문서는 어디서 찾을 수 있나요?
 
  포괄적인 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Prise en charge de JPEG-LS avec CMJN en Java
 linktitle: Prise en charge de JPEG-LS avec CMJN en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment prendre en charge JPEG-LS avec CMJN en Java à l'aide d'Aspose.PSD. Suivez notre guide étape par étape pour faciliter le traitement et la conversion des images.
-type: docs
 weight: 21
 url: /fr/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de JPEG-LS avec CMJN en Java
+
 ## Introduction
 Souhaitez-vous vous plonger dans le monde du traitement d’images avec Java ? Que vous soyez un développeur chevronné ou tout juste débutant, ce didacticiel sur Aspose.PSD pour Java vous guidera tout au long du processus de prise en charge de JPEG-LS avec le mode couleur CMJN. Allons-y et laissons libre cours à notre créativité !
 ## Conditions préalables
@@ -79,3 +85,9 @@ Oui, Aspose.PSD prend en charge différents modes de compression, notamment Loss
  Oui, vous avez besoin d'une licence. Vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) à des fins d'essai.
 ### Où puis-je trouver plus de documentation sur Aspose.PSD ?
  Vous pouvez trouver la documentation complète[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

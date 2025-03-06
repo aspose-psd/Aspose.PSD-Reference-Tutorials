@@ -3,10 +3,16 @@ title: Formater des portions de texte dans des fichiers PSD à l'aide de Java
 linktitle: Formater des portions de texte dans des fichiers PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à formater des portions de texte dans des fichiers PSD à l'aide de Java avec Aspose.PSD dans ce guide facile à suivre. Parfait pour les développeurs et les concepteurs.
-type: docs
 weight: 14
 url: /fr/java/psd-image-modification-conversion/format-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formater des portions de texte dans des fichiers PSD à l'aide de Java
+
 ## Introduction
 
 Dans notre monde de plus en plus visuel, la capacité de manipuler efficacement les graphiques et le texte est inestimable. Que vous soyez un concepteur, un développeur ou simplement quelqu'un cherchant à créer des visuels époustouflants, les outils logiciels qui simplifient ces processus peuvent changer la donne. L'un de ces outils est Aspose.PSD pour Java, une bibliothèque puissante qui vous permet de travailler avec des fichiers Photoshop PSD par programme. Dans cet article, nous explorerons comment formater des portions de texte dans des fichiers PSD à l'aide de Java. 
@@ -188,3 +194,9 @@ Oui, l'essai gratuit peut présenter certaines limitations concernant les foncti
 
 ### Où puis-je trouver plus d’informations sur Aspose.PSD ?
  Vous pouvez consulter la documentation pour les scénarios d'utilisation détaillés et les références API[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lägga till strokeeffekter till lager i Aspose.PSD för .NET
 linktitle: Lägga till streckeffekter till lager
 second_title: Aspose.PSD .NET API
 description: Förbättra bildens estetik med Aspose.PSD för .NET. Lär dig att lägga till slageffekter steg för steg. Ladda ner, köp eller prova den kostnadsfria testversionen nu.
-type: docs
 weight: 10
 url: /sv/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägga till strokeeffekter till lager i Aspose.PSD för .NET
+
 ## Introduktion
 
 Välkommen till denna steg-för-steg handledning om att lägga till streckeffekter till lager i Aspose.PSD för .NET. Att förbättra det visuella tilltalande av dina bilder är enkelt med stroke-effekten, och Aspose.PSD gör det sömlöst för .NET-utvecklare. I den här guiden leder vi dig genom processen och ger tydliga steg och exempel som hjälper dig att bemästra denna kraftfulla funktion.
@@ -109,3 +115,9 @@ S4: Ja, du kan loopa igenom flera PSD-filer och tillämpa streckeffekten med ett
 ### F5: Kan jag använda testversionen innan jag köper Aspose.PSD?
 
  A5: Visst! Ta tag i[gratis provperiod](https://releases.aspose.com/) för att utforska Aspose.PSD:s möjligheter innan du gör ett köp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

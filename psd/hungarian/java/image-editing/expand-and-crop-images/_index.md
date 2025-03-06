@@ -3,10 +3,16 @@ title: Bővítse ki és vágja le a képeket az Aspose.PSD for Java segítségé
 linktitle: Képek kibontása és kivágása
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan bővítheti és vághatja le a képeket Java nyelven az Aspose.PSD használatával. Lépésről lépésre útmutató a hatékony képfeldolgozáshoz.
-type: docs
 weight: 18
 url: /hu/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bővítse ki és vágja le a képeket az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja az Aspose.PSD for Java használatát a képek hatékony bővítésére és vágására. Az Aspose.PSD egy hatékony könyvtár, amely funkciók széles skáláját kínálja a PSD-fájlokkal való munkavégzéshez Java alkalmazásokban. Ebben az útmutatóban bemutatjuk a szükséges előfeltételeket, a csomagok importálását, és részletes magyarázattal lebontjuk az egyes lépéseket.
@@ -102,3 +108,9 @@ Ebben az oktatóanyagban a képek kibontásának és kivágásának folyamatát 
 ### 5. kérdés: Van ingyenes próbaverzió?
 
  5. válasz: Igen, felfedezheti az Aspose.PSD-t egy ingyenes próbaverzióval. Töltse le[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

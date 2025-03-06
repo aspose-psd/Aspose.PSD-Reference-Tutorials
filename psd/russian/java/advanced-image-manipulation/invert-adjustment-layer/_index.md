@@ -3,10 +3,16 @@ title: Инвертировать корректирующий слой в Aspos
 linktitle: Инвертировать корректирующий слой
 second_title: Aspose.PSD Java API
 description: Изучите инвертировать корректирующий слой в Aspose.PSD для Java. Мощная библиотека Java для удобного манипулирования PSD-файлами.
-type: docs
 weight: 14
 url: /ru/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Инвертировать корректирующий слой в Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по реализации инвертированного корректирующего слоя в Aspose.PSD для Java. В этом уроке мы рассмотрим мощные возможности Aspose.PSD, библиотеки Java, которая позволяет беспрепятственно манипулировать PSD-файлами. Независимо от того, являетесь ли вы опытным разработчиком или новичком в обработке изображений, это руководство поможет вам понять и эффективно реализовать инвертировать корректирующий слой.
@@ -93,3 +99,9 @@ A1: Aspose.PSD поддерживает Java 6.0 и более поздние в
 ### В5: Как я могу получить временную лицензию на Aspose.PSD?
 
 О5: Вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

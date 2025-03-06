@@ -3,10 +3,16 @@ title: Agregue una nueva capa normal a PSD con Aspose.PSD para Java
 linktitle: Agregar una nueva capa normal a PSD
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo agregar una nueva capa normal a archivos PSD usando Aspose.PSD para Java. Siga nuestra guía paso a paso para una manipulación PSD perfecta.
-type: docs
 weight: 11
 url: /es/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue una nueva capa normal a PSD con Aspose.PSD para Java
+
 ## Introducción
 
 Bienvenido a este completo tutorial sobre el uso de Aspose.PSD para Java para agregar una nueva capa normal a un archivo PSD. Aspose.PSD es una poderosa biblioteca Java que permite a los desarrolladores manipular y trabajar con archivos PSD de manera eficiente. En este tutorial, lo guiaremos a través del proceso de agregar una nueva capa normal a un archivo PSD, brindándole pasos detallados y ejemplos de código.
@@ -120,3 +126,9 @@ R2: ¡Absolutamente! Aspose.PSD proporciona una variedad de opciones de transfor
 ### P5: ¿Existen foros comunitarios para soporte de Aspose.PSD?
 
  R5: Sí, puedes encontrar soporte y debates[aquí](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

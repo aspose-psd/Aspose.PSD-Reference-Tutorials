@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 중앙값 및 Wiener 필터 적용
 linktitle: 중앙값 및 Wiener 필터 적용
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java의 이미지 처리 기능을 살펴보세요. 중앙값 및 위너 필터를 단계별로 적용하는 방법을 알아보세요. 손쉽게 이미지 품질을 향상할 수 있습니다.
-type: docs
 weight: 12
 url: /ko/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 중앙값 및 Wiener 필터 적용
+
 ## 소개
 
 Java 프로그래밍 영역에서 Aspose.PSD는 이미지 조작 및 처리를 위한 강력한 도구로 돋보입니다. 제공되는 주요 기능 중 하나는 이미지 품질을 향상하고 노이즈를 줄이는 데 중요한 역할을 하는 Median 및 Wiener 필터를 적용하는 것입니다. 이 단계별 가이드는 Aspose.PSD for Java를 사용하여 이러한 필터를 적용하는 과정을 안내합니다.
@@ -101,3 +107,9 @@ A1: 네, Aspose.PSD는 다양한 이미지 형식을 지원하므로 다양한 �
 ### Q5: Java용 Aspose.PSD를 어떻게 구매할 수 있나요?
 
  A5: 당신은 제품을 구입할 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

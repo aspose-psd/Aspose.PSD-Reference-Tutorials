@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD를 사용하여 디스크에 이미지 저장
 linktitle: .NET용 Aspose.PSD를 사용하여 디스크에 이미지 저장
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 이미지를 디스크에 저장하는 방법을 알아보세요. 효율적인 이미지 처리를 위해 이 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/file-saving-and-exporting/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD를 사용하여 디스크에 이미지 저장
+
 ## 소개
 
 .NET 개발의 역동적인 세계에서 Aspose.PSD는 PSD 이미지를 원활하게 처리하기 위한 강력한 솔루션으로 돋보입니다. 이 튜토리얼은 .NET용 Aspose.PSD를 사용하여 이미지를 디스크에 저장하는 과정을 안내합니다. 숙련된 개발자이든 코딩 여정을 막 시작하든 이 단계별 가이드는 Aspose.PSD의 기능을 효과적으로 활용하는 데 도움이 될 것입니다.
@@ -90,3 +96,9 @@ A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 개발 프로�
 ### Q5: .NET용 Aspose.PSD를 어디서 구입할 수 있나요?
 
  A5: .NET용 Aspose.PSD를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การวาดเส้นโค้ง Bezier ใน Java
 linktitle: การวาดเส้นโค้ง Bezier ใน Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีการวาดเส้นโค้ง Bezier ใน Java โดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 14
 url: /th/java/java-graphics-drawing/drawing-bezier-curves/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดเส้นโค้ง Bezier ใน Java
+
 ## การแนะนำ
 ในการเขียนโปรแกรม Java การวาดรูปทรงที่ซับซ้อน เช่น เส้นโค้ง Bezier สามารถเพิ่มความดึงดูดสายตาของแอปพลิเคชันได้อย่างมาก Aspose.PSD สำหรับ Java มีฟังก์ชันการทำงานที่มีประสิทธิภาพเพื่ออำนวยความสะดวกในงานดังกล่าวได้อย่างมีประสิทธิภาพ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการวาดเส้นโค้ง Bezier ทีละขั้นตอนโดยใช้ Aspose.PSD สำหรับ Java ช่วยให้คุณสร้างกราฟิกที่ดึงดูดสายตาได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -93,3 +99,9 @@ image.save(outpath, saveOptions);
 ใช่ Aspose.PSD สำหรับ Java รองรับการส่งออกรูปภาพเป็นรูปแบบต่างๆ เช่น PNG, JPEG, TIFF เป็นต้น
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
  เยี่ยมชม[Aspose.PSD สำหรับเอกสาร Java](https://reference.aspose.com/psd/java/) สำหรับคำแนะนำและตัวอย่างโค้ดที่ครอบคลุม## ซอร์สโค้ดที่สมบูรณ์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

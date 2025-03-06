@@ -3,10 +3,16 @@ title: Recadrage d'images par décalages dans Aspose.PSD pour .NET
 linktitle: Recadrage des images par décalages
 second_title: API Aspose.PSD.NET
 description: Apprenez à recadrer des images sans effort à l'aide d'Aspose.PSD pour .NET. Suivez notre guide étape par étape pour des réglages précis de l’image.
-type: docs
 weight: 12
 url: /fr/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrage d'images par décalages dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.PSD se distingue comme une puissante boîte à outils pour les tâches de traitement d'images. Une de ses caractéristiques notables est la possibilité de recadrer les images avec précision, grâce à la fonctionnalité « Recadrage par Shifts ». Dans ce guide étape par étape, nous vous guiderons tout au long du processus de recadrage d'images de manière transparente à l'aide d'Aspose.PSD pour .NET.
@@ -105,3 +111,10 @@ A1 : Oui, Aspose.PSD prend en charge différents formats d'image, vous permettan
 ### Q5 : Puis-je acheter Aspose.PSD pour .NET directement depuis le site Web ?
 
  A5 : Oui, vous pouvez acheter la bibliothèque en toute sécurité sur le[page d'achat](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

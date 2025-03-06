@@ -3,10 +3,16 @@ title: เพิ่มเอฟเฟกต์รูปแบบใน Aspose.PS
 linktitle: เพิ่มเอฟเฟ็กต์รูปแบบ
 second_title: Aspose.PSD Java API
 description: ปรับปรุงรูปแบบภาพ Java ของคุณได้อย่างง่ายดายด้วย Aspose.PSD สำหรับ Java ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อเพิ่มเอฟเฟกต์รูปแบบที่น่าดึงดูด
-type: docs
 weight: 12
 url: /th/java/advanced-image-effects/add-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มเอฟเฟกต์รูปแบบใน Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 ในโลกของการพัฒนา Java การปรับปรุงรูปแบบภาพเป็นงานทั่วไป และ Aspose.PSD สำหรับ Java มอบโซลูชันที่มีประสิทธิภาพสำหรับสิ่งนี้ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการเพิ่มเอฟเฟกต์รูปแบบโดยใช้ Aspose.PSD เพื่อให้มั่นใจว่ารูปภาพของคุณโดดเด่นด้วยการซ้อนทับและการปรับปรุงที่เป็นเอกลักษณ์
@@ -138,3 +144,9 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 ### คำถามที่ 5: ฉันสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java ได้หรือไม่
 
 A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

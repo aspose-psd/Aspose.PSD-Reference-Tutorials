@@ -3,10 +3,16 @@ title: การครอบตัดรูปภาพตามกะใน Asp
 linktitle: การครอบตัดรูปภาพตามกะ
 second_title: Aspose.PSD .NET API
 description: เรียนรู้การครอบตัดรูปภาพอย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการปรับภาพที่แม่นยำ
-type: docs
 weight: 12
 url: /th/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การครอบตัดรูปภาพตามกะใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 ในขอบเขตของการพัฒนา .NET Aspose.PSD มีความโดดเด่นในฐานะชุดเครื่องมืออันทรงพลังสำหรับงานประมวลผลภาพ หนึ่งในคุณสมบัติที่โดดเด่นของมันคือความสามารถในการครอบตัดรูปภาพอย่างแม่นยำ ต้องขอบคุณฟังก์ชัน 'การครอบตัดตามการเปลี่ยนแปลง' ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการครอบตัดรูปภาพอย่างราบรื่นโดยใช้ Aspose.PSD สำหรับ .NET
@@ -105,3 +111,10 @@ rasterImage.Save(destName, new JpegOptions());
 ### คำถามที่ 5: ฉันสามารถซื้อ Aspose.PSD สำหรับ .NET โดยตรงจากเว็บไซต์ได้หรือไม่
 
  A5: ได้ คุณสามารถซื้อห้องสมุดได้อย่างปลอดภัยจาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

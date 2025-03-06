@@ -3,10 +3,16 @@ title: Támogassa az Nvrt-erőforrást PSD-fájlokban Java használatával
 linktitle: Támogassa az Nvrt-erőforrást PSD-fájlokban Java használatával
 second_title: Aspose.PSD Java API
 description: Fedezze fel, hogyan támogathatja az Nvrt-erőforrásokat PSD-fájlokban Java használatával. Az Aspose.PSD segítségével megtanulhatja, hogyan tölthet be fájlokat és bontsa ki az értékes erőforrásokat erőfeszítés nélkül.
-type: docs
 weight: 10
 url: /hu/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Támogassa az Nvrt-erőforrást PSD-fájlokban Java használatával
+
 ## Bevezetés
 Ha a Photoshop-fájlokkal (PSD) kell dolgozni Java nyelven, számtalan dolgot tehet. Akár grafikus szerkesztőt fejleszt, akár automatizálja a feladatokat, akár programozottan kezeli a terveket, a PSD-fájlok kezelésének megértése kulcsfontosságú. Ebben az útmutatóban egy konkrét szempontot mutatunk be: az Nvrt (Invert Adjustment) erőforrás támogatását PSD-fájlokban az Aspose.PSD for Java könyvtár használatával.
 ## Előfeltételek
@@ -90,3 +96,9 @@ Az Aspose.PSD for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztő
  Teljesen! Ingyenes próbaverziót kaphat az Aspose.PSD for Java számára[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.PSD-hez?
  Kérdéseket tehet fel és támogatást kérhet az Aspose fórumon:[Aspose támogatás](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pas het formaat van de afbeelding proportioneel aan met Aspose.PSD voor J
 linktitle: Formaat van afbeelding proportioneel wijzigen
 second_title: Aspose.PSD Java-API
 description: Verbeter uw Java-applicaties met Aspose.PSD. Volg onze gids om afbeeldingen moeiteloos proportioneel te verkleinen. Verbeter vandaag nog uw mogelijkheden voor beeldverwerking.
-type: docs
 weight: 17
 url: /nl/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas het formaat van de afbeelding proportioneel aan met Aspose.PSD voor Java
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding voor het proportioneel wijzigen van het formaat van afbeeldingen met Aspose.PSD voor Java. Als u uw Java-toepassingen wilt uitbreiden met efficiënte mogelijkheden voor het wijzigen van de afbeeldingsgrootte, bent u hier aan het juiste adres. In deze zelfstudie leiden we u door het proces aan de hand van duidelijke en beknopte stappen.
@@ -92,3 +98,9 @@ In deze zelfstudie hebben we de essentiële stappen besproken om het formaat van
 
  A5: Raadpleeg de gedetailleerde documentatie[hier](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java を使用して PSD のテキスト レイヤー境界ボックス�
 linktitle: Java を使用して PSD のテキスト レイヤー境界ボックスを調整する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD で Java を使用して PSD ファイル内のテキスト レイヤー境界を調整する方法を学びます。ステップ バイ ステップの手順を説明した簡単なガイドです。
-type: docs
 weight: 25
 url: /ja/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PSD のテキスト レイヤー境界ボックスを調整する
+
 ## 導入
 Photoshop ドキュメントをプログラムで操作する場合、Java 用の Aspose.PSD ライブラリが威力を発揮します。PSD ファイル内のテキスト レイヤーの境界を調整したい場合は、ここが最適な場所です。このチュートリアルでは、Java を使用してテキスト レイヤーの境界ボックスを調整するプロセスを段階的に説明します。
 わかりやすい例と、会話調の口調で興味をそそる内容になっています。PSD ファイルの操作は、思ったほど難しくないことがわかります。熟練した開発者でも、Java を始めたばかりの開発者でも、ここでは貴重な情報が得られます。PSD 操作のエキサイティングな世界に飛び込んでみましょう。
@@ -80,3 +86,9 @@ Aspose.PSD は、Adobe Photoshop ファイルをプログラムで操作する�
 サポートやコミュニティのディスカッションは、[Aspose フォーラム](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD の試用版はありますか?
 はい！無料試用版は[Aspose ウェブサイト](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

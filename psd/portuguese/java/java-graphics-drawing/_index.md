@@ -3,10 +3,16 @@ title: Desenho gráfico Java
 linktitle: Desenho gráfico Java
 second_title: API Java Aspose.PSD
 description: Explore os tutoriais do Aspose.PSD para Java sobre desenho gráfico. Aprenda a adicionar traços, desenhar formas e manipular arquivos PSD com guias passo a passo.
-type: docs
 weight: 20
 url: /pt/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Desenho gráfico Java
+
 
 ## Introdução
 
@@ -75,3 +81,9 @@ Aprenda a desenhar retângulos em imagens usando Aspose.PSD para Java. Este tuto
 Aprenda como desenhar gráficos em Java usando Aspose.PSD passo a passo. Crie formas, aplique cores e exporte imagens sem esforço.
 ### [Desenhando usando caminho gráfico em Java](./drawing-using-graphics-path/)
 Aprenda como criar gráficos complexos em Java usando a classe Graphics Path do Aspose.PSD. Este tutorial orienta você em cada etapa para a criação de imagens impressionantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

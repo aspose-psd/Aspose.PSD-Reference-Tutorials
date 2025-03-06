@@ -3,10 +3,16 @@ title: تأثيرات الصور المتقدمة
 linktitle: تأثيرات الصور المتقدمة
 second_title: Aspose.PSD جافا API
 description: ارفع مستوى تصميماتك الرسومية في Java باستخدام Aspose.PSD! أتقن تأثيرات الصور المتقدمة بسلاسة - بدءًا من التدرجات والأنماط ووصولاً إلى التوقيعات والحدود.
-type: docs
 weight: 26
 url: /ar/java/advanced-image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تأثيرات الصور المتقدمة
+
 ## مقدمة
 هل أنت مستعد للارتقاء بتصميمات رسومات Java الخاصة بك إلى المستوى التالي؟ يفتح Aspose.PSD for Java عالمًا من الإمكانيات لتحسين صورك باستخدام التأثيرات المتقدمة. في هذا الدليل الشامل، سنرشدك عبر سلسلة من البرامج التعليمية، يركز كل منها على جانب فريد من معالجة الصور باستخدام Aspose.PSD.
 
@@ -42,3 +48,9 @@ url: /ar/java/advanced-image-effects/
 استكشف التكامل السلس للتوقيعات في الصور باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة، وقم باستيراد الحزم الضرورية، وقم بتحسين القدرات الرسومية لتطبيق Java الخاص بك.
 ### [أضف لون طبقة الحد في Aspose.PSD لـ Java](./add-stroke-layer-color/)
 اكتشف قوة Aspose.PSD لـ Java من خلال دليلنا خطوة بخطوة حول إضافة لون طبقة الحد. ارفع تصميماتك الرسومية دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การใช้การปรับความสว่างใน 
 linktitle: การใช้การปรับความสว่าง
 second_title: Aspose.PSD .NET API
 description: สำรวจพลังของ Aspose.PSD สำหรับ .NET ในการปรับความสว่างของภาพ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ราบรื่น
-type: docs
 weight: 10
 url: /th/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้การปรับความสว่างใน Aspose.PSD สำหรับ .NET
+
 ## การแนะนำ
 
 การปรับปรุงและปรับคุณลักษณะของรูปภาพเป็นข้อกำหนดทั่วไปในแอปพลิเคชันต่างๆ และ Aspose.PSD สำหรับ .NET มอบโซลูชันที่มีประสิทธิภาพสำหรับการจัดการไฟล์ PSD ได้อย่างราบรื่น การปรับเปลี่ยนอย่างหนึ่งคือการปรับความสว่าง ซึ่งช่วยให้คุณปรับเปลี่ยนความสว่างของภาพได้อย่างง่ายดาย
@@ -97,3 +103,9 @@ Aspose.PSD สำหรับ .NET ช่วยให้กระบวนกา
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ .NET ได้อย่างไร
 
  A5: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

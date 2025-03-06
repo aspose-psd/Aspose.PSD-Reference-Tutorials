@@ -3,10 +3,16 @@ title: 支援 Aspose.PSD for .NET 中的工作路徑資源
 linktitle: 支援工作路徑資源
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 中「WorkingPathResource」的強大功能。透過此逐步指南提高影像精度。
-type: docs
 weight: 12
 url: /zh-hant/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 支援 Aspose.PSD for .NET 中的工作路徑資源
+
 ## 介紹
 如果您是從事影像處理工作的 .NET 開發人員，Aspose.PSD for .NET 是您的首選解決方案。在本教學中，我們將深入探討如何利用 Aspose.PSD 中「WorkingPathResource」資源的強大功能。這項重要功能提高了裁剪操作的精確度，確保您的影像完全根據需要自訂。
 ## 先決條件
@@ -88,3 +94,9 @@ A4：尋求支持[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34).
 ### Q5: 需要臨時許可證嗎？
 
  A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 調整影像的 Gamma
 linktitle: 調整影像的伽瑪值
 second_title: Aspose.PSD Java API
 description: 學習使用 Aspose.PSD for Java 輕鬆調整圖像伽瑪。請遵循我們的逐步指南以獲得最佳結果。
-type: docs
 weight: 23
 url: /zh-hant/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 調整影像的 Gamma
+
 ## 介紹
 
 在影像處理領域，調整影像的伽瑪是增強其視覺吸引力的關鍵步驟。 Aspose.PSD for Java 為 Java 開發人員提供了一個強大的解決方案，可以輕鬆操縱映像伽瑪。在本教程中，我們將探索如何使用 Aspose.PSD 調整伽瑪，分解每個步驟以確保無縫實施。
@@ -108,3 +114,9 @@ rasterImage.save(destName, tiffOptions);
 ### Q5：我可以在哪裡尋求Aspose.PSD的支援？
 
  A5：如需支持，請造訪 Aspose.PSD 論壇：[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

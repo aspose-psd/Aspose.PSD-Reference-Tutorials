@@ -3,10 +3,16 @@ title: تحويل AI إلى JPG في جافا
 linktitle: تحويل AI إلى JPG في جافا
 second_title: Aspose.PSD جافا API
 description: قم بتحويل ملفات AI إلى JPG في Java بسهولة باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة لتحويل الصور بجودة عالية.
-type: docs
 weight: 11
 url: /ar/java/java-ai-to-image-format-conversion/convert-ai-to-jpg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل AI إلى JPG في جافا
+
 ## مقدمة
 هل تتطلع إلى تحويل ملفات AI (Adobe Illustrator) إلى تنسيق JPG باستخدام Java؟ لا مزيد من البحث! في هذا الدليل الشامل، سنرشدك خلال العملية بأكملها باستخدام Aspose.PSD for Java، وهي مكتبة قوية ومرنة تجعل معالجة الصور أمرًا سهلاً. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيوفر لك هذا البرنامج التعليمي كل ما تحتاج إلى معرفته.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ Aspose.PSD for Java عبارة عن Java API للعمل مع ملفات Photosho
 لا، لا تحتاج إلى تثبيت برنامج Adobe Illustrator. يتعامل Aspose.PSD مع تنسيقات الملفات بشكل مستقل.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.PSD لـ Java؟
  يمكنك العثور على وثائق شاملة[هنا](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thay đổi kích thước bằng cách liệt kê loại thay đổi kí
 linktitle: Thay đổi kích thước bằng cách liệt kê loại thay đổi kích thước
 second_title: API Java Aspose.PSD
 description: Làm chủ việc thay đổi kích thước hình ảnh trong Java bằng Aspose.PSD. Hướng dẫn từng bước sử dụng Bảng liệt kê loại thay đổi kích thước.
-type: docs
 weight: 18
 url: /vi/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kích thước bằng cách liệt kê loại thay đổi kích thước trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong bối cảnh phát triển Java không ngừng phát triển, xử lý hình ảnh hiệu quả là một khía cạnh quan trọng mà các nhà phát triển thường phải vật lộn. Aspose.PSD dành cho Java nổi lên như một giải pháp mạnh mẽ, cung cấp trải nghiệm liền mạch để thay đổi kích thước hình ảnh với lợi thế bổ sung của Bảng liệt kê loại thay đổi kích thước. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc thay đổi kích thước hình ảnh bằng Aspose.PSD cho Java, chia nhỏ từng bước để đảm bảo hiểu biết toàn diện.
@@ -86,3 +92,9 @@ Câu trả lời 2: Có, Aspose.PSD cho Java cung cấp nhiều loại thay đ�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD cho Java?
 
  Câu trả lời 5: Để có được giấy phép tạm thời, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

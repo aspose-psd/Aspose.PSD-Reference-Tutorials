@@ -3,10 +3,16 @@ title: Создайте изображение, задав путь в Aspose.PS
 linktitle: Создать изображение, установив путь
 second_title: Aspose.PSD Java API
 description: Узнайте, как создавать изображения PSD с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству для создания бесшовных изображений.
-type: docs
 weight: 13
 url: /ru/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создайте изображение, задав путь в Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по созданию изображений с помощью Aspose.PSD для Java. В этом руководстве мы рассмотрим, как установить путь и настроить параметры для создания PSD-изображения. Aspose.PSD — это мощная библиотека Java для работы с файлами Photoshop, обеспечивающая удобный способ программного управления и создания изображений.
@@ -107,3 +113,9 @@ image.save();
 ### В5: Нужна ли мне временная лицензия для тестирования?
 
  О5: Вы можете получить временную лицензию для целей тестирования.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

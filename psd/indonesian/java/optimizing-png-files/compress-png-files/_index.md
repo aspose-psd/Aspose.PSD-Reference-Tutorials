@@ -3,10 +3,16 @@ title: Kompres File PNG menggunakan Aspose.PSD untuk Java
 linktitle: Kompres File PNG menggunakan Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengompres file PNG secara efisien menggunakan Aspose.PSD untuk Java. Tutorial ini memandu Anda melalui implementasi kode, memastikan penanganan file yang optimal.
-type: docs
 weight: 12
 url: /id/java/optimizing-png-files/compress-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompres File PNG menggunakan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Ketika menangani gambar dalam pengembangan perangkat lunak, salah satu alat yang menonjol adalah Aspose.PSD untuk Java. Pustaka yang kuat ini memungkinkan pengembang untuk memanipulasi file Photoshop (PSD) dengan mulus. Baik Anda mengoptimalkan gambar untuk situs web, meningkatkan waktu muat, atau sekadar mendapatkan kualitas terbaik dari grafis Anda, memahami cara menggunakan perpustakaan ini secara efektif dapat membawa perubahan besar. Dalam tutorial ini, kita akan mendalami contoh praktis—mengompresi file PNG menggunakan Aspose.PSD untuk Java. Mari kita mulai!
@@ -111,3 +117,9 @@ Periksa kembali jalur file Anda, pastikan impor yang diperlukan disertakan, dan 
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PSD untuk Java?  
  Anda dapat menemukan dokumentasi rinci dan contoh di[Referensi Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

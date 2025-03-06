@@ -3,10 +3,16 @@ title: Các tính năng vẽ cốt lõi trong Java
 linktitle: Các tính năng vẽ cốt lõi trong Java
 second_title: API Java Aspose.PSD
 description: Khám phá Aspose.PSD để biết khả năng xử lý hình ảnh mạnh mẽ của Java. Tìm hiểu cách tải, thao tác và lưu hình ảnh PSD theo chương trình.
-type: docs
 weight: 12
 url: /vi/java/java-graphics-drawing/core-drawing-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các tính năng vẽ cốt lõi trong Java
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc thành thạo các công cụ hỗ trợ nhà phát triển thao tác và tạo hình ảnh theo chương trình là điều vô giá. Aspose.PSD cho Java nổi bật như một giải pháp mạnh mẽ để xử lý các tệp PSD, cung cấp vô số tính năng hỗ trợ xử lý, thao tác và chuyển đổi hình ảnh trực tiếp trong các ứng dụng Java. Hướng dẫn này đi sâu vào các khả năng vẽ cốt lõi của Aspose.PSD cho Java, hướng dẫn bạn qua các bước cần thiết để phát huy hết tiềm năng của nó.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Bên cạnh PSD, Aspose.PSD cho Java hỗ trợ nhiều định dạng khác nha
  Thăm nom[Giấy phép tạm thời Aspose.PSD](https://purchase.aspose.com/temporary-license/) trang để lấy giấy phép tạm thời.
 ### Tôi có thể tìm thêm trợ giúp và tài nguyên cho Aspose.PSD cho Java ở đâu?
  Khám phá[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được hỗ trợ cộng đồng, các mẹo và tài nguyên bổ sung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

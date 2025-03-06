@@ -3,10 +3,16 @@ title: إتقان التعامل مع موارد MLST في Aspose.PSD لـ .NET
 linktitle: التعامل مع موارد MLST
 second_title: Aspose.PSD.NET API
 description: تعلم كيفية التعامل مع حالات الطبقة في ملفات Photoshop باستخدام Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة للتعامل الفعال مع موارد MLST.
-type: docs
 weight: 14
 url: /ar/net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان التعامل مع موارد MLST في Aspose.PSD لـ .NET
+
 ## مقدمة
 مرحبًا بك في البرنامج التعليمي المتعمق حول التعامل مع موارد MLST (حالات الطبقات المتعددة) في Aspose.PSD لـ .NET. Aspose.PSD for .NET هي مكتبة قوية توفر إمكانات واسعة النطاق للعمل مع ملفات Photoshop. في هذا البرنامج التعليمي، سنركز على دعم موارد MLST، مما يوفر آلية منخفضة المستوى لمعالجة حالات الطبقة بكفاءة.
 ## المتطلبات الأساسية
@@ -86,3 +92,9 @@ Console.WriteLine("SupportOfMlstResource executed successfully");
 ### س5: كيف يمكنني شراء ترخيص Aspose.PSD لـ .NET؟
 
  ج5: يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การจัดการไฟล์และแบบอักษร
 linktitle: การจัดการไฟล์และแบบอักษร
 second_title: Aspose.PSD .NET API
 description: ยกระดับการพัฒนา .NET ของคุณด้วยบทช่วยสอน Aspose.PSD เรียนรู้การเปลี่ยนแบบอักษร การสร้างข้อมูลเมตา XMP และการจัดการแคชเพื่อประสิทธิภาพเวิร์กโฟลว์ที่เหมาะสมที่สุด
-type: docs
 weight: 27
 url: /th/net/file-and-font-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการไฟล์และแบบอักษร
+
 ## การแนะนำ
 
 ปลดล็อกศักยภาพของ Aspose.PSD สำหรับ .NET ด้วยบทช่วยสอนเกี่ยวกับการจัดการไฟล์และแบบอักษร ตั้งแต่การสร้างข้อมูลเมตา XMP ไปจนถึงการปรับแต่งรูปภาพและการเปลี่ยนแบบอักษร เราพร้อมให้ความช่วยเหลือคุณ
@@ -42,3 +48,9 @@ url: /th/net/file-and-font-handling/
 สำรวจการจัดการแคชแบบอักษรทีละขั้นตอนใน Aspose.PSD สำหรับ .NET รับประกันการเรนเดอร์ที่แม่นยำด้วยไลบรารี .NET อันทรงพลังนี้ 
 ### [การลบไฟล์แคชแบบอักษรใน Aspose.PSD สำหรับ .NET](./remove-font-cache-files/)
 เพิ่มประสิทธิภาพ Aspose.PSD สำหรับ .NET ด้วยการลบไฟล์แคชแบบอักษร ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการดำเนินการที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

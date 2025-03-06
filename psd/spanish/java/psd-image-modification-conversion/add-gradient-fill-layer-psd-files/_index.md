@@ -3,10 +3,16 @@ title: Agregue una capa de relleno degradado en archivos PSD con Java
 linktitle: Agregue una capa de relleno degradado en archivos PSD con Java
 second_title: API de Java Aspose.PSD
 description: Modifique capas de relleno degradado en archivos PSD usando Aspose.PSD para Java. Aprenda a cambiar los colores, la transparencia y otras propiedades de degradado mediante programación.
-type: docs
 weight: 15
 url: /es/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue una capa de relleno degradado en archivos PSD con Java
+
 ## Introducción
 
 ¿Alguna vez has deseado ese toque extra de magia visual para tus archivos PSD? Los degradados ofrecen una forma sorprendente de agregar profundidad y dimensión a sus diseños. Pero, ¿qué sucede si desea manipular estos gradientes mediante programación usando Java? ¡Aspose.PSD viene al rescate! Esta guía completa le permitirá modificar capas de relleno de degradado dentro de archivos PSD utilizando Aspose.PSD, llevándole paso a paso a través del apasionante proceso.
@@ -167,3 +173,9 @@ El impacto en el rendimiento depende de la complejidad del gradiente y del núme
 
 ### ¿Puedo aplicar esta técnica a varias capas de relleno degradado en un archivo PSD?
 Sí, puede recorrer las capas y aplicar las modificaciones a cada capa de relleno degradado que cumpla con sus criterios.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

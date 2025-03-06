@@ -3,10 +3,16 @@ title: Java AI到图像格式的转换
 linktitle: Java AI到图像格式的转换
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 轻松将 AI 文件转换为 Java 中的各种格式。遵循我们全面的指南，实现无缝、高质量的图像转换。
-type: docs
 weight: 21
 url: /zh/java/java-ai-to-image-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java AI到图像格式的转换
+
 
 ## 介绍
 
@@ -45,3 +51,9 @@ PNG 文件因其无损压缩和透明特性而被广泛使用。通过我们的�
 使用 Aspose.PSD 按照我们简单的分步指南在 Java 中将 AI 转换为 PSD。非常适合需要快速无缝文件转换的开发人员。
 ### [使用 Java 将 AI 转换为 TIFF](./convert-ai-to-tiff/)
 使用 Aspose.PSD 轻松将 Java 中的 AI 转换为 TIFF。为开发人员提供分步指南。包含下载、设置和代码片段。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Fusionner une couche PSD avec une autre à l'aide de Java
 linktitle: Fusionner une couche PSD avec une autre à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à fusionner des calques d'un fichier PSD dans un autre à l'aide d'Aspose.PSD pour Java avec notre didacticiel étape par étape. Parfait pour automatiser vos processus de conception.
-type: docs
 weight: 10
 url: /fr/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fusionner une couche PSD avec une autre à l'aide de Java
+
 ## Introduction
 
 Avez-vous déjà eu besoin de fusionner des calques d'un fichier PSD dans un autre tout en travaillant avec des documents Adobe Photoshop par programme ? Que vous automatisiez des processus de conception ou gériez une grande collection d'images en couches, Aspose.PSD pour Java propose une boîte à outils puissante pour manipuler les fichiers PSD directement via votre code Java. Dans ce guide, nous vous guiderons tout au long du processus de fusion d'une couche PSD dans une autre à l'aide d'Aspose.PSD pour Java. Non seulement vous apprendrez à fusionner des calques de manière transparente, mais vous découvrirez également à quel point il est facile de travailler avec des fichiers PSD dans un environnement Java. Prêt à plonger ? Commençons !
@@ -119,3 +125,9 @@ Une fois les calques fusionnés, l’opération n’est pas réversible. Conserv
 
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
  Vous pouvez obtenir une licence temporaire auprès du[Site Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

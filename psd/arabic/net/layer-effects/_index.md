@@ -3,10 +3,16 @@ title: تأثيرات الطبقة
 linktitle: تأثيرات الطبقة
 second_title: Aspose.PSD.NET API
 description: اكتشف سحر تأثيرات الطبقة باستخدام Aspose.PSD لـ .NET! ارفع مهاراتك في معالجة الصور من خلال تعلم إضافة أوضاع السكتة الدماغية والظل والمزج.
-type: docs
 weight: 29
 url: /ar/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تأثيرات الطبقة
+
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة لمساعيك في معالجة الصور باستخدام Aspose.PSD لـ .NET. يقدم لك هذا الدليل الشامل عددًا لا يحصى من تأثيرات الطبقات التي ستغير عمليتك الإبداعية. من الضربات والظلال إلى أوضاع المزج، ارتقِ بتصميماتك دون عناء.
@@ -54,3 +60,9 @@ url: /ar/net/layer-effects/
 تعرف على كيفية ضبط عتامة تأثير الظل في Aspose.PSD لـ .NET باستخدام هذا البرنامج التعليمي الشامل.
 ### [العمل مع أوضاع المزج في Aspose.PSD لـ .NET](./working-with-blend-modes/)
 اكتشف قوة أوضاع المزج في Aspose.PSD لـ .NET. يرشدك هذا البرنامج التعليمي خلال تطبيق أوضاع المزج المختلفة مع أمثلة خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

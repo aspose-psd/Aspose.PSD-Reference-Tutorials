@@ -3,10 +3,16 @@ title: PSD Dosyalarında Özel Ham Veri Yükleyiciyi Kullanma - Java
 linktitle: PSD Dosyalarında Özel Ham Veri Yükleyiciyi Kullanma - Java
 second_title: Aspose.PSD Java API'si
 description: Java ile PSD dosyalarında özel bir ham veri yükleyicinin nasıl kullanılacağını öğrenin! Bu adım adım kılavuz, kurulumdan kaynak temizliğine kadar her şeyi kapsar.
-type: docs
 weight: 29
 url: /tr/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD Dosyalarında Özel Ham Veri Yükleyiciyi Kullanma - Java
+
 ## giriiş
 Java'da PSD dosyalarıyla çalışmak, özellikle ham verilerin işlenmesi söz konusu olduğunda bunaltıcı görünebilir. Korkma! Aspose.PSD for Java'yı kullanarak, özel yükleyiciler kullanarak PSD dosyalarından ham piksel verilerini kolaylıkla işleyebilir ve çıkarabilirsiniz. Bu kılavuz, özel bir ham veri yükleyiciyi uygulama sürecinde size adım adım yardımcı olacaktır. Gerekli tüm ön koşulları ele alacağız, gerekli paketleri içe aktaracağız ve kodu, takip edilmesi kolay, yönetilebilir adımlara ayıracağız.
 ## Önkoşullar
@@ -90,3 +96,9 @@ Aspose.PSD for Java, geliştiricilerin PSD katmanlarını okuma, yazma ve düzen
  Destek ve topluluk yardımı için şu adresi ziyaret edebilirsiniz:[Forumu aspose](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD için nasıl geçici lisans alabilirim?  
 adresini ziyaret ederek tüm özellikleri değerlendirmek için geçici bir lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

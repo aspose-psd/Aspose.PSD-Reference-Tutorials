@@ -3,10 +3,16 @@ title: Mendukung Berbagai Jenis Tanda Tangan di Aspose.PSD untuk .NET
 linktitle: Mendukung Berbagai Jenis Tanda Tangan
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi Aspose.PSD untuk .NET dan dukung berbagai jenis tanda tangan dengan mudah di file PSD Anda.
-type: docs
 weight: 14
 url: /id/net/image-manipulation/supporting-different-signature-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Berbagai Jenis Tanda Tangan di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.PSD untuk .NET, perpustakaan canggih yang memberdayakan pengembang untuk menangani file PSD dengan lancar. Dalam tutorial ini, kita akan menjelajahi proses mendukung berbagai jenis tanda tangan di Aspose.PSD untuk .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah ini akan memandu Anda melalui proses dengan jelas dan tepat.
@@ -79,3 +85,10 @@ Selamat! Anda telah berhasil mendukung berbagai jenis tanda tangan di Aspose.PSD
 ### Q5: Mencari lisensi sementara?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

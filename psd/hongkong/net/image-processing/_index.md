@@ -3,10 +3,16 @@ title: 影像處理
 linktitle: 影像處理
 second_title: Aspose.PSD .NET API
 description: 使用 Aspose.PSD for .NET 教學輕鬆提升影像品質。學習高斯和維納濾波器、顏色轉換、二值化等技術。
-type: docs
 weight: 20
 url: /zh-hant/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 影像處理
+
 
 ## 介紹
 
@@ -46,3 +52,9 @@ Aspose.PSD for .NET 使開發人員能夠將影像處理提升到新的高度。
 了解如何使用 Aspose.PSD for .NET 輕鬆地將灰階效果套用至影像。
 ### [在 Aspose.PSD for .NET 中應用 Bradley 閾值](./apply-bradley-threshold/)
 使用 Aspose.PSD for .NET 中的 Bradley Threshold 增強影像分割。有效二值化的逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

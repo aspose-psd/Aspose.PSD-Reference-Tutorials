@@ -3,10 +3,16 @@ title: Geavanceerde beeldmanipulatie
 linktitle: Geavanceerde beeldmanipulatie
 second_title: Aspose.PSD Java-API
 description: Ontdek geavanceerde tutorials voor beeldmanipulatie met Aspose.PSD voor Java. Leer efficiënt lettertype vervangen, forceer lettertypecaching, implementeer bicubische resampler en meer.
-type: docs
 weight: 24
 url: /nl/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geavanceerde beeldmanipulatie
+
 
 ## Invoering
 
@@ -80,3 +86,9 @@ Het formaat van de hoofdafbeelding wijzigen in Java met Aspose.PSD. Stapsgewijze
 Ontdek moeiteloos beeldrotatie in Java met Aspose.PSD. Roteer, draai en bewaar PSD-bestanden eenvoudig.
 ### [Roteer een afbeelding onder een specifieke hoek met Aspose.PSD voor Java](./rotate-image-specific-angle/)
 Ontdek beeldrotatie in Java met Aspose.PSD voor Java. Roteer afbeeldingen moeiteloos onder specifieke hoeken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

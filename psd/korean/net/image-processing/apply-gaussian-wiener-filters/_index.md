@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 가우시안 및 위너 필터 적용
 linktitle: 가우시안 및 위너 필터 적용
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하면 이미지 품질을 손쉽게 향상할 수 있습니다. 노이즈 감소 및 최적의 시각적 매력을 위해 가우시안 및 위너 필터를 적용합니다.
-type: docs
 weight: 10
 url: /ko/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 가우시안 및 위너 필터 적용
+
 ## 소개
 
 .NET을 사용한 이미지 처리 영역에서 Aspose.PSD는 개발자가 이미지를 쉽게 조작할 수 있도록 지원하는 강력한 툴킷으로 돋보입니다. 특히 유용한 기능 중 하나는 Gaussian 및 Wiener 필터 적용입니다. 이러한 필터는 이미지 품질을 향상시키고, 노이즈를 줄이며, 최적의 시각적 매력을 보장하는 데 중요한 역할을 합니다.
@@ -110,3 +116,10 @@ A2: 반경 크기는 필터가 작동하는 영역을 결정하는 반면, 부�
 ### Q5: Aspose.PSD의 무료 평가판이 있습니까?
 
  A5: 예, Aspose.PSD를 다운로드하여 기능을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

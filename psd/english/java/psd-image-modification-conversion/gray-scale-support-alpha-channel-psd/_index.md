@@ -3,10 +3,16 @@ title: Gray Scale Support for Alpha Channel in PSD - Java
 linktitle: Gray Scale Support for Alpha Channel in PSD - Java
 second_title: Aspose.PSD Java API
 description: Learn how to handle PSD files and implement gray scale support for alpha channels using Aspose.PSD for Java in this step-by-step guide.
-type: docs
 weight: 16
 url: /java/psd-image-modification-conversion/gray-scale-support-alpha-channel-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gray Scale Support for Alpha Channel in PSD - Java
+
 ## Introduction
 
 When it comes to handling and processing images, especially files like PSDs (Photoshop Document), leveraging libraries that simplify this complexity is key. One such powerful tool is Aspose.PSD for Java. Whether you're a seasoned software developer or just dipping your toes into coding, understanding how to manipulate PSD files using Java can open a treasure trove of opportunities. In this tutorial, we'll dive into how to implement gray scale support for alpha channels within a PSD file. Buckle up, as we embark on a step-by-step journey!
@@ -99,3 +105,10 @@ Yes, Aspose provides a free trial option available at [this link](https://releas
 
 ### Where can I find support for Aspose.PSD issues?
 You can seek assistance from the Aspose support forum: [Aspose PSD support](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

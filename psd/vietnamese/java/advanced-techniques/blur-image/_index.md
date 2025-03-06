@@ -3,10 +3,16 @@ title: Làm mờ hình ảnh bằng Aspose.PSD cho Java
 linktitle: Làm mờ hình ảnh
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách làm mờ hình ảnh trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được kết quả chuyên nghiệp.
-type: docs
 weight: 24
 url: /vi/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm mờ hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, việc nâng cao và xử lý hình ảnh là một yêu cầu chung. Nếu bạn đang muốn thêm hiệu ứng làm mờ vào hình ảnh của mình theo chương trình, Aspose.PSD for Java là một công cụ mạnh mẽ giúp đơn giản hóa quy trình. Hướng dẫn này sẽ hướng dẫn bạn các bước làm mờ hình ảnh bằng Aspose.PSD, đảm bảo bạn đạt được kết quả chuyên nghiệp một cách dễ dàng.
@@ -96,3 +102,9 @@ A1: Chắc chắn rồi! Aspose.PSD đi kèm với tài liệu toàn diện đ�
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD?
 
  A5: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

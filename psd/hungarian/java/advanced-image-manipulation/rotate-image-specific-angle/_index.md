@@ -3,10 +3,16 @@ title: Forgassa el a képet meghatározott szögben az Aspose.PSD for Java segí
 linktitle: Kép elforgatása meghatározott szögben
 second_title: Aspose.PSD Java API
 description: Fedezze fel a képforgatást Java nyelven az Aspose.PSD for Java segítségével. Könnyedén elforgathatja a képeket meghatározott szögekből.
-type: docs
 weight: 20
 url: /hu/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Forgassa el a képet meghatározott szögben az Aspose.PSD for Java segítségével
+
 ## Bevezetés
 
 A Java fejlesztés dinamikus világában a képek manipulálása általános követelmény a különféle alkalmazásoknál. Az Aspose.PSD for Java robusztus megoldásként jelenik meg, amely hatékony funkciókat kínál a képforgatás könnyed kezelésére. Ebben az oktatóanyagban végigvezetjük a kép adott szögben történő elforgatásán az Aspose.PSD for Java segítségével. Mielőtt belemerülnénk a részletekbe, állítsuk fel a terepet néhány előfeltétellel.
@@ -117,3 +123,9 @@ Az Aspose.PSD for Java elsősorban a háttér képfeldolgozásra összpontosít.
 ### 5. kérdés: Létezik olyan közösségi fórum az Aspose.PSD számára, ahol segítséget kérhetek?
 
  Igen, meglátogathatja a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) kapcsolatba lépni a közösséggel, kérdéseket feltenni és segítséget kérni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

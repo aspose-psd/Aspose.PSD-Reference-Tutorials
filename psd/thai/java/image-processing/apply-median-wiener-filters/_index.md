@@ -3,10 +3,16 @@ title: ใช้ตัวกรอง Median และ Wiener ด้วย Aspos
 linktitle: ใช้ตัวกรองค่ามัธยฐานและ Wiener
 second_title: Aspose.PSD Java API
 description: สำรวจพลังของการประมวลผลภาพใน Java ด้วย Aspose.PSD เรียนรู้วิธีใช้ตัวกรอง Median และ Wiener ทีละขั้นตอน เพิ่มคุณภาพของภาพได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้ตัวกรอง Median และ Wiener ด้วย Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 ในขอบเขตของการเขียนโปรแกรม Java Aspose.PSD โดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการจัดการและประมวลผลภาพ หนึ่งในฟังก์ชันหลักที่มีให้คือการใช้ตัวกรอง Median และ Wiener ซึ่งมีบทบาทสำคัญในการปรับปรุงคุณภาพของภาพและลดสัญญาณรบกวน คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการใช้ตัวกรองเหล่านี้โดยใช้ Aspose.PSD สำหรับ Java
@@ -101,3 +107,9 @@ image.save(destName, new GifOptions());
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.PSD สำหรับ Java ได้อย่างไร
 
  A5: คุณสามารถซื้อผลิตภัณฑ์ได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

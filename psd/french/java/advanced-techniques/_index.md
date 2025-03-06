@@ -3,10 +3,16 @@ title: Techniques avancées
 linktitle: Techniques avancées
 second_title: API Java Aspose.PSD
 description: Maîtrisez sans effort les techniques avancées de traitement d'images Java avec les didacticiels Aspose.PSD. Échelle de gris, chargez, convertissez, restituez du texte, enregistrez efficacement et bien plus encore !
-type: docs
 weight: 22
 url: /fr/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Techniques avancées
+
 ## Introduction
 
 Êtes-vous prêt à améliorer vos compétences en traitement d’images Java ? Plongez dans nos didacticiels complets avec Aspose.PSD pour Java, ouvrant ainsi la voie à un éventail de techniques avancées. Explorons en détail quelques didacticiels clés :
@@ -85,3 +91,9 @@ Explorez le monde du réglage du contraste des images en Java avec Aspose.PSD. S
 Apprenez à ajuster le gamma de l'image sans effort à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour des résultats optimaux.
 ### [Flou d'une image à l'aide d'Aspose.PSD pour Java](./blur-image/)
 Apprenez à flouter des images en Java avec Aspose.PSD. Suivez notre guide étape par étape pour des résultats professionnels.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

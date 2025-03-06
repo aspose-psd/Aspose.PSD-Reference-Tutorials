@@ -3,10 +3,16 @@ title: Adicionando camada de traço com padrão em Aspose.PSD para .NET
 linktitle: Adicionando camada de traço com padrão
 second_title: API Aspose.PSD .NET
 description: Aprimore seus arquivos PSD com camadas e padrões de traços usando Aspose.PSD para .NET. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 13
 url: /pt/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando camada de traço com padrão em Aspose.PSD para .NET
+
 ## Introdução
 
 Aprimorar seus arquivos PSD (documento do Photoshop) com camadas e padrões de traços pode adicionar um toque dinâmico aos seus designs. Neste tutorial, exploraremos como aproveitar o Aspose.PSD para .NET para adicionar facilmente uma camada de traço com um padrão aos seus arquivos PSD. Aspose.PSD é uma biblioteca .NET poderosa que fornece suporte abrangente para manipulação de arquivos PSD, tornando-a uma ferramenta inestimável para desenvolvedores e designers.
@@ -144,3 +150,9 @@ A4: Com certeza, o Aspose.PSD para .NET fornece suporte robusto para processamen
 ### P5: Onde posso procurar assistência ou participar nas discussões da comunidade?
 
  A5: Visite o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para suporte e interações comunitárias.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

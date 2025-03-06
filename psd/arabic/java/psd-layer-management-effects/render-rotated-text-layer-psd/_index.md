@@ -3,10 +3,16 @@ title: عرض طبقة النص التي تم تدويرها في ملفات PSD
 linktitle: عرض طبقة النص التي تم تدويرها في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية استخراج طبقات النص التي تم تدويرها وعرضها من ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا الدليل التفصيلي كل شيء بدءًا من الإعداد وحتى التصدير.
-type: docs
 weight: 18
 url: /ar/java/psd-layer-management-effects/render-rotated-text-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض طبقة النص التي تم تدويرها في ملفات PSD باستخدام Java
+
 ## مقدمة
 
 هل سبق لك أن تلقيت ملف PSD يحتوي على طبقات نصية مائلة بشكل غامض بزاوية؟ ربما قمت بإنشاء واحدة بنفسك وترغب في تصديرها مع الحفاظ على هذا التناوب الفني. يأتي Aspose.PSD لـ Java للإنقاذ! تمكّنك هذه المكتبة القوية من معالجة ملفات PSD وعرضها، بما في ذلك التعامل مع طبقات النص المزعجة التي تم تدويرها. 
@@ -135,3 +141,9 @@ try {
 ### كيف يمكنني الحصول على الدعم لـ Aspose.PSD لـ Java؟
 
 يقدم Aspose قنوات دعم متنوعة، بما في ذلك وثائقها ([https://reference.aspose.com/psd/Java/](https://reference.aspose.com/psd/java/))، المنتديات الإلكترونية ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34))، وخيارات الدعم المخصصة للمستخدمين المرخصين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

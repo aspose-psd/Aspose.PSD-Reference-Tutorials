@@ -3,10 +3,16 @@ title: Espansione e ritaglio di immagini in Aspose.PSD per .NET
 linktitle: Espansione e ritaglio delle immagini
 second_title: API Aspose.PSD .NET
 description: Scopri come espandere e ritagliare dinamicamente le immagini utilizzando Aspose.PSD per .NET. Segui la nostra guida passo passo per una manipolazione perfetta delle immagini.
-type: docs
 weight: 13
 url: /it/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Espansione e ritaglio di immagini in Aspose.PSD per .NET
+
 ## Introduzione
 
 Aspose.PSD per .NET è una libreria di immagini completa che consente agli sviluppatori di lavorare con vari formati di immagine nelle loro applicazioni .NET. Una delle sue caratteristiche più straordinarie è la capacità di manipolare le immagini con facilità. In questo tutorial, ci concentreremo sull'espansione e sul ritaglio delle immagini, fornendoti una guida pratica per realizzare queste attività utilizzando Aspose.PSD.
@@ -98,3 +104,9 @@ R1: Sì, Aspose.PSD supporta un'ampia gamma di formati di immagine, inclusi JPEG
 ### Q5: Dove posso acquistare Aspose.PSD per .NET?
 
  A5: Puoi acquistare la libreria presso[Pagina di acquisto Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

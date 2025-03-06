@@ -3,10 +3,16 @@ title: Změňte barvu pozadí PNG v Aspose.PSD pro Java
 linktitle: Změňte barvu pozadí PNG v Aspose.PSD pro Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak změnit barvu pozadí PNG v Aspose.PSD pro Java, pomocí tohoto podrobného průvodce. Součástí jsou jednoduché návody a praktické příklady.
-type: docs
 weight: 11
 url: /cs/java/optimizing-png-files/change-png-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte barvu pozadí PNG v Aspose.PSD pro Java
+
 ## Zavedení
 Jak se vývoj webu neustále vyvíjí, potřeba flexibilních úprav obrázků je stále výraznější. Při zpracování obrazu může změna barev pozadí změnit celkový vzhled a soudržnost návrhu. Zadejte Aspose.PSD for Java – výkonnou knihovnu, která uspokojí všechny vaše potřeby týkající se manipulace se soubory PSD. V tomto tutoriálu se ponoříme hluboko do toho, jak změnit barvu pozadí PNG pomocí Aspose.PSD. Na konci budete nejen zběhlí v základní manipulaci s obrázky, ale také budete připraveni řešit složitější úkoly. Začněme!
 ## Předpoklady
@@ -94,3 +100,9 @@ Kód můžete zabalit do bloků try-catch, abyste zvládli výjimky a zajistili 
 Aspose.PSD podporuje různé formáty, včetně PNG, JPEG, BMP, TIFF a dalších.
 ### Jak mohu získat podporu, pokud narazím na problémy?  
  Můžete se obrátit na[Aspose fórum podpory](https://forum.aspose.com/c/psd/34) o pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Támogatja a 16 bites szürkeárnyalatos színmódot PSD-ben - Java
 linktitle: Támogatja a 16 bites szürkeárnyalatos színmódot PSD-ben - Java
 second_title: Aspose.PSD Java API
 description: Ebből a részletes, lépésenkénti oktatóanyagból megtudhatja, hogyan valósíthat meg 16 bites szürkeárnyalatos módot PSD-fájlokban az Aspose.PSD for Java segítségével.
-type: docs
 weight: 11
 url: /hu/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Támogatja a 16 bites szürkeárnyalatos színmódot PSD-ben - Java
+
 ## Bevezetés
 Amikor a grafikai tervezés és a képmanipuláció világába merül, a különböző színmódok használatának megértése olyan, mintha titkos fegyverünk lenne. Különösen a 16 bites szürkeárnyalatos lehet játékmód, amely lenyűgöző mélységet és részletgazdagságot kölcsönöz a képeknek, amelyek valóban pompává teszik őket. Tehát készen áll arra, hogy felfedezze ezt a hatékony funkciót az Aspose.PSD for Java használatával? Ha készen van a kódoló felszerelés, ugorjunk bele.
 ## Előfeltételek
@@ -126,3 +132,9 @@ Teljesen! Az Aspose.PSD különféle színmódokat támogat, így RGB, CMYK és 
  Megnézheti a[dokumentáció](https://reference.aspose.com/psd/java/) részletesebb példákért és oktatóanyagokért.
 ### Hogyan vásárolhatok licencet az Aspose.PSD-hez?
  Engedélyt vásárolhat, ha ellátogat a[Aspose vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

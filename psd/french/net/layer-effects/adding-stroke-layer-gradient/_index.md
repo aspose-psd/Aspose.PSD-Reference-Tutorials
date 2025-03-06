@@ -3,10 +3,16 @@ title: Ajout d'un calque de trait avec dégradé dans Aspose.PSD pour .NET
 linktitle: Ajout d'un calque de trait avec dégradé
 second_title: API Aspose.PSD.NET
 description: Découvrez comment ajouter un calque de trait de dégradé dans Aspose.PSD pour .NET. Élevez vos compétences en manipulation d’images avec ce didacticiel complet.
-type: docs
 weight: 12
 url: /fr/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout d'un calque de trait avec dégradé dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Si vous cherchez à améliorer vos applications .NET avec des effets graphiques époustouflants, Aspose.PSD pour .NET est votre solution incontournable. Dans ce didacticiel, nous aborderons le processus d'ajout d'un calque de trait avec un dégradé à l'aide d'Aspose.PSD pour .NET. Ce guide étape par étape vous permettra d'améliorer l'attrait visuel de vos images sans effort.
@@ -119,3 +125,9 @@ A1 : Oui, Aspose.PSD pour .NET est compatible avec divers frameworks .NET.
 ### Q5 : Comment puis-je acheter une licence pour Aspose.PSD pour .NET ?
 
  A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

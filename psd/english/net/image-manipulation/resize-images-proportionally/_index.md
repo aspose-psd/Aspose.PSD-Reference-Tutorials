@@ -3,10 +3,16 @@ title: Resizing Images Proportionally in Aspose.PSD for .NET
 linktitle: Resizing Images Proportionally
 second_title: Aspose.PSD .NET API
 description: Explore seamless image resizing with Aspose.PSD for .NET. Download the library, follow our tutorial, and enhance your image processing capabilities.
-type: docs
 weight: 14
 url: /net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resizing Images Proportionally in Aspose.PSD for .NET
+
 In the realm of image manipulation, Aspose.PSD for .NET stands out as a powerful toolkit, providing developers with the capability to resize images proportionally with ease. In this step-by-step guide, we'll walk you through the process of resizing images using Aspose.PSD for .NET, ensuring that your images maintain their proportions flawlessly.
 
 ## Introduction
@@ -100,3 +106,10 @@ A4: Yes, you can explore the capabilities of Aspose.PSD for .NET with a free tri
 ### Q5: Where can I find support for Aspose.PSD for .NET?
 
 A5: Visit the [Aspose.PSD for .NET forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

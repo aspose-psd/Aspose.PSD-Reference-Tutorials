@@ -3,10 +3,16 @@ title: Crop Image by Rectangle v Aspose.PSD pro Javu
 linktitle: Oříznout obrázek podle obdélníku
 second_title: Aspose.PSD Java API
 description: Prozkoumejte možnosti bezproblémového ořezávání obrázků v Javě s Aspose.PSD. Postupujte podle našeho podrobného průvodce pro snadné oříznutí obrázků pomocí Aspose.PSD pro Java.
-type: docs
 weight: 15
 url: /cs/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crop Image by Rectangle v Aspose.PSD pro Javu
+
 ## Zavedení
 
 Ve světě vývoje v Javě je manipulace s obrázky běžným úkolem a Aspose.PSD pro Javu poskytuje výkonné řešení pro zpracování obrázků. V tomto tutoriálu vás provedeme procesem oříznutí obrázku pomocí obdélníku pomocí Aspose.PSD for Java. Postupujte podle níže uvedených kroků, abyste toho dosáhli snadno.
@@ -105,3 +111,9 @@ Odpověď 1: Ano, Aspose.PSD for Java lze integrovat s různými frameworky Java
 ### Q5: Jaké jsou podporované formáty obrázků pro oříznutí v Aspose.PSD pro Java?
 
 Odpověď 5: Aspose.PSD for Java podporuje různé formáty obrázků, včetně PSD, PNG, JPEG a dalších.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

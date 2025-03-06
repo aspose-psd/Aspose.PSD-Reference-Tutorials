@@ -3,10 +3,16 @@ title: Admite efecto de sombra en Aspose.PSD para Java
 linktitle: Soporte de efecto de sombra
 second_title: API de Java Aspose.PSD
 description: Aprenda a agregar efectos de sombra cautivadores a las imágenes usando Aspose.PSD para Java. Mejore su diseño gráfico con este tutorial paso a paso.
-type: docs
 weight: 13
 url: /es/java/basic-image-operations/support-shadow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite efecto de sombra en Aspose.PSD para Java
+
 ## Introducción
 
 Mejorar imágenes con efectos de sombras es una práctica común en diseño gráfico, agregando profundidad y realismo. Aspose.PSD para Java proporciona un sólido soporte para efectos de sombra, lo que permite a los desarrolladores integrar estos efectos sin esfuerzo en sus aplicaciones Java. En este tutorial, exploraremos cómo admitir efectos de sombra usando Aspose.PSD, paso a paso.
@@ -108,3 +114,9 @@ R1: ¡Absolutamente! Aspose.PSD para Java es una poderosa biblioteca diseñada p
 ### P5: ¿Cómo puedo obtener soporte para Aspose.PSD para Java?
 
  A5: Únase al foro de la comunidad[aquí](https://forum.aspose.com/c/psd/34) para cualquier consulta de soporte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

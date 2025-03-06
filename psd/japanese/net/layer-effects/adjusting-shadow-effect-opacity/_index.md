@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で影効果の不透明度を調整する
 linktitle: 影効果の不透明度の調整
 second_title: Aspose.PSD .NET API
 description: この包括的なチュートリアルで、Aspose.PSD for .NET で影の効果の不透明度を調整する方法を学びます。
-type: docs
 weight: 15
 url: /ja/net/layer-effects/adjusting-shadow-effect-opacity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で影効果の不透明度を調整する
+
 ## 導入
 
 Aspose.PSD for .NET で影の効果の不透明度を調整する手順ガイドへようこそ。このチュートリアルでは、DropShadowEffect の Opacity プロパティを利用する手順を説明します。Aspose.PSD for .NET は、.NET アプリケーションで PSD ファイルをシームレスに操作できる強力なライブラリです。
@@ -105,3 +111,9 @@ A4: はい、Aspose.PSD for .NET は .NET Framework と .NET Core の両方と�
 ### Q5: Aspose.PSD for .NET のコミュニティ サポートはどこで見つかりますか?
 
  A5: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティのサポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

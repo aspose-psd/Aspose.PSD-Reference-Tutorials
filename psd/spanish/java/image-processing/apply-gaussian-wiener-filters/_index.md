@@ -3,10 +3,16 @@ title: Aplicar filtros gaussianos y wiener en Aspose.PSD para Java
 linktitle: Aplicar filtros gaussianos y wiener
 second_title: API de Java Aspose.PSD
 description: Mejore su procesamiento de imágenes Java con Aspose.PSD. Aprenda a aplicar los filtros Gaussiano y Wiener paso a paso para obtener resultados visuales sorprendentes.
-type: docs
 weight: 10
 url: /es/java/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar filtros gaussianos y wiener en Aspose.PSD para Java
+
 ## Introducción
 
 ¡Bienvenido a nuestro tutorial completo sobre la aplicación de filtros Gaussianos y Wiener en Aspose.PSD para Java! En esta guía, lo guiaremos a través del proceso de mejorar sus imágenes utilizando estos poderosos filtros. Aspose.PSD para Java proporciona un sólido conjunto de funciones para el procesamiento de imágenes y, con la aplicación de filtros gaussianos y Wiener, puede lograr imágenes más fluidas y refinadas.
@@ -99,3 +105,9 @@ R2: La versión de prueba tiene limitaciones y puede explorar todas sus capacida
 ### P5: ¿Dónde puedo encontrar documentación detallada sobre Aspose.PSD para Java?
 
  R5: Consulte el[documentación](https://reference.aspose.com/psd/java/) para obtener información detallada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

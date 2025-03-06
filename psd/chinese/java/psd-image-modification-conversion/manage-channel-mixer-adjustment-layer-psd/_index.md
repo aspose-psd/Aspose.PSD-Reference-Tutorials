@@ -3,10 +3,16 @@ title: 在 PSD 中管理通道混合器调整层 - Java
 linktitle: 在 PSD 中管理通道混合器调整层 - Java
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 管理 PSD 文件中的 RGB 和 CMYK 通道混合器调整层。提高您的图像编辑技能。
-type: docs
 weight: 22
 url: /zh/java/psd-image-modification-conversion/manage-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 中管理通道混合器调整层 - Java
+
 ## 介绍
 Photoshop 改变了我们对图像编辑的看法，但让我们面对现实吧——处理复杂的图像文件有时感觉就像破译一门外语。幸运的是，使用 Aspose.PSD for Java，您可以无缝管理和操作 Photoshop 文件，而无需平面设计学位。在本指南中，我们将深入介绍如何使用 Java 管理 PSD 文件中的通道混合器调整层。准备好释放您内心的数字艺术家了吗？让我们开始吧！
 ## 先决条件
@@ -114,3 +120,9 @@ Aspose.PSD for Java 是一个库，允许开发人员使用 Photoshop PSD 文件
 尽管 Aspose.PSD 主要用于 PSD，但它也可以处理其他格式，如 PSB 等，从而扩大了其可用性。
 ### 我可以在哪里获得 Aspose.PSD 的支持？
 您可以向他们的[论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

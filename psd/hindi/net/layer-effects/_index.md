@@ -3,10 +3,16 @@ title: परत प्रभाव
 linktitle: परत प्रभाव
 second_title: Aspose.PSD .NET एपीआई
 description: .NET के लिए Aspose.PSD के साथ लेयर इफ़ेक्ट का जादू खोजें! स्ट्रोक, शैडो और ब्लेंड मोड जोड़ना सीखकर अपनी इमेज मैनिपुलेशन स्किल को बढ़ाएँ।
-type: docs
 weight: 29
 url: /hi/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# परत प्रभाव
+
 ## परिचय
 
 Aspose.PSD for .NET के साथ अपनी छवि हेरफेर प्रयासों की पूरी क्षमता को उजागर करें। यह व्यापक गाइड आपको असंख्य परत प्रभावों से परिचित कराता है जो आपकी रचनात्मक प्रक्रिया को बदल देंगे। स्ट्रोक और छाया से लेकर ब्लेंड मोड तक, अपने डिज़ाइन को आसानी से बढ़ाएँ।
@@ -54,3 +60,9 @@ Aspose.PSD के साथ अपने .NET इमेज मैनिपुल
 इस व्यापक ट्यूटोरियल के साथ .NET के लिए Aspose.PSD में छाया प्रभाव अपारदर्शिता को समायोजित करना सीखें।
 ### [.NET के लिए Aspose.PSD में ब्लेंड मोड्स के साथ कार्य करना](./working-with-blend-modes/)
 .NET के लिए Aspose.PSD में ब्लेंड मोड की शक्ति का अन्वेषण करें। यह ट्यूटोरियल आपको चरण-दर-चरण उदाहरणों के साथ विभिन्न ब्लेंड मोड लागू करने के बारे में मार्गदर्शन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

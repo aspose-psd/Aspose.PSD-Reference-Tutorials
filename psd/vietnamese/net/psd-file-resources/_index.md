@@ -3,10 +3,16 @@ title: Tài nguyên tệp PSD
 linktitle: Tài nguyên tệp PSD
 second_title: API Aspose.PSD .NET
 description: Khai phá toàn bộ tiềm năng của Aspose.PSD cho .NET bằng các hướng dẫn của chúng tôi. Làm chủ màu nền, thông tin đường viền, đường dẫn làm việc và các tài nguyên đen trắng một cách liền mạch.
-type: docs
 weight: 31
 url: /vi/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tài nguyên tệp PSD
+
 
 ## Giới thiệu
 
@@ -39,3 +45,9 @@ Khám phá Aspose.PSD để biết tính năng Tài nguyên thông tin biên gi�
 Khám phá sức mạnh của 'WorkingPathResource' trong Aspose.PSD cho .NET. Nâng cao độ chính xác của hình ảnh với hướng dẫn từng bước này.
 ### [Hỗ trợ tài nguyên đen trắng (Blwh) trong Aspose.PSD cho .NET](./supporting-black-and-white-blwh-resource/)
 Khám phá tính năng chỉnh sửa hình ảnh nâng cao với Aspose.PSD cho .NET. Tìm hiểu cách thành thạo các lớp điều chỉnh Đen và Trắng để kiểm soát chính xác các thành phần hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

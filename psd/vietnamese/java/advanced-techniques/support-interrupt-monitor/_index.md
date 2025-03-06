@@ -3,10 +3,16 @@ title: Hỗ trợ Giám sát ngắt trong Aspose.PSD cho Java
 linktitle: Hỗ trợ giám sát ngắt
 second_title: API Java Aspose.PSD
 description: Mở khóa quyền kiểm soát trong xử lý ảnh với Aspose.PSD cho Java. Tìm hiểu cách gián đoạn các quy trình để có quy trình làm việc linh hoạt.
-type: docs
 weight: 18
 url: /vi/java/advanced-techniques/support-interrupt-monitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ Giám sát ngắt trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ để xử lý các tác vụ xử lý hình ảnh khác nhau. Trong số nhiều tính năng của nó, việc hỗ trợ Trình giám sát ngắt là một khía cạnh quan trọng giúp tăng cường khả năng kiểm soát và tính linh hoạt của các nhà phát triển đối với quy trình xử lý hình ảnh. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách tận dụng Trình giám sát ngắt trong Aspose.PSD cho Java để quản lý và làm gián đoạn quá trình chuyển đổi hình ảnh một cách hiệu quả.
@@ -119,3 +125,9 @@ Câu trả lời 1: Trình giám sát ngắt trong Aspose.PSD dành cho Java cho
 ### Câu hỏi 5: Làm cách nào tôi có thể mua giấy phép Aspose.PSD cho Java?
 
 Câu trả lời 5: Bạn có thể mua giấy phép Aspose.PSD cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

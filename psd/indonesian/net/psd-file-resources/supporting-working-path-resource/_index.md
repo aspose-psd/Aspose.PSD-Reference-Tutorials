@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Jalur Kerja di Aspose.PSD untuk .NET
 linktitle: Sumber Daya Jalur Kerja Pendukung
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan 'WorkingPathResource' di Aspose.PSD untuk .NET. Tingkatkan presisi gambar dengan panduan langkah demi langkah ini.
-type: docs
 weight: 12
 url: /id/net/psd-file-resources/supporting-working-path-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Jalur Kerja di Aspose.PSD untuk .NET
+
 ## Perkenalan
 Jika Anda seorang pengembang .NET yang bekerja dengan pemrosesan gambar, Aspose.PSD untuk .NET adalah solusi tepat Anda. Dalam tutorial ini, kita akan mendalami pemanfaatan kekuatan sumber daya 'WorkingPathResource' di Aspose.PSD. Fitur penting ini meningkatkan presisi operasi Pangkas, memastikan gambar Anda disesuaikan sesuai kebutuhan.
 ## Prasyarat
@@ -88,3 +94,9 @@ Selamat! Anda telah berhasil menguasai penggunaan 'WorkingPathResource' di Aspos
 ### Q5: Butuh lisensi sementara?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

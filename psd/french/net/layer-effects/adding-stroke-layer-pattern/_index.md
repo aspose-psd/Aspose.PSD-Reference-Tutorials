@@ -3,10 +3,16 @@ title: Ajout d'un calque de trait avec motif dans Aspose.PSD pour .NET
 linktitle: Ajout d'un calque de trait avec un motif
 second_title: API Aspose.PSD.NET
 description: Améliorez vos fichiers PSD avec des calques et des motifs de traits à l'aide d'Aspose.PSD pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 13
 url: /fr/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout d'un calque de trait avec motif dans Aspose.PSD pour .NET
+
 ## Introduction
 
 L'amélioration de vos fichiers PSD (Photoshop Document) avec des calques et des motifs de traits peut ajouter une touche dynamique à vos conceptions. Dans ce didacticiel, nous verrons comment exploiter Aspose.PSD pour .NET pour ajouter sans effort un calque de trait avec un motif à vos fichiers PSD. Aspose.PSD est une puissante bibliothèque .NET qui fournit une prise en charge complète de la manipulation des fichiers PSD, ce qui en fait un outil inestimable pour les développeurs et les concepteurs.
@@ -144,3 +150,9 @@ A4 : Absolument, Aspose.PSD pour .NET offre une prise en charge robuste du trait
 ### Q5 : Où puis-je demander de l'aide ou participer aux discussions communautaires ?
 
  A5 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour le soutien et les interactions communautaires.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

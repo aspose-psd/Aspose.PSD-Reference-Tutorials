@@ -3,10 +3,16 @@ title: Aanpassingslaag voor kanaalmixer exporteren in PSD - Java
 linktitle: Aanpassingslaag voor kanaalmixer exporteren in PSD - Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u aanpassingslagen voor de kanaalmixer in PSD kunt exporteren met Aspose.PSD voor Java. Stapsgewijze handleiding voor het wijzigen van RGB- en CMYK-lagen, het opslaan van wijzigingen en het exporteren naar PNG.
-type: docs
 weight: 14
 url: /nl/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aanpassingslaag voor kanaalmixer exporteren in PSD - Java
+
 ## Invoering
 
 Als het gaat om beeldbewerking, vooral bij Adobe Photoshop-bestanden (PSD), is het efficiënt beheren van lagen essentieel. Van deze lagen speelt de Channel Mixer-aanpassingslaag een cruciale rol bij het aanpassen van de kleurbalans van een afbeelding. Als je een Java-ontwikkelaar bent en deze lagen programmatisch wilt manipuleren, heb je geluk! In dit artikel leiden we u door het proces van het exporteren van Channel Mixer-aanpassingslagen met Aspose.PSD voor Java. Aan het einde van deze handleiding bent u goed uitgerust om met de aanpassingslagen van de RGB- en CMYK-kanaalmixer om te gaan, uw wijzigingen op te slaan en uw uiteindelijke afbeelding in zowel PSD- als PNG-indeling te exporteren.
@@ -168,3 +174,9 @@ Ja, u kunt door een map met PSD-bestanden bladeren en dezelfde aanpassingen op e
 
 ### Heb ik een licentie nodig om Aspose.PSD voor Java te gebruiken?  
  Ja, Aspose.PSD voor Java is een gelicentieerd product. U kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testen of aanschaf van een volledige licentie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

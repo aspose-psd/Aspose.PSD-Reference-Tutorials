@@ -3,10 +3,16 @@ title: Képek vágása téglalap szerint az Aspose.PSD-ben .NET-hez
 linktitle: Képek vágása téglalap szerint
 second_title: Aspose.PSD .NET API
 description: Növelje .NET képkezelési készségeit az Aspose.PSD segítségével. Ismerje meg a képkivágást lépésről lépésre téglalapok használatával a pontosság érdekében.
-type: docs
 weight: 11
 url: /hu/net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek vágása téglalap szerint az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 A .NET programozás területén a képek manipulálása és javítása gyakori feladat, az Aspose.PSD for .NET pedig egy hatékony könyvtár, amely leegyszerűsíti ezt a folyamatot. Ez az oktatóanyag egy alapvető, de kulcsfontosságú képkezelési technikára összpontosít – a képek téglalap alakú kivágására. Ennek az útmutatónak a végére alapos ismerete lesz arról, hogyan lehet precízen vágni képeket az Aspose.PSD for .NET használatával.
@@ -110,3 +116,9 @@ A2: Abszolút! A kívánt eredmény elérése érdekében egymás után több v�
 ### 5. kérdés: Hol találhatok további támogatást vagy segítséget?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34)kapcsolatba lépni a közösséggel és támogatást kérni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

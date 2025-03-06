@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD를 사용하여 PSD 파일 자르기
 linktitle: .NET용 Aspose.PSD를 사용하여 PSD 파일 자르기
 second_title: Aspose.PSD .NET API
 description: 다목적 툴킷인 Aspose.PSD를 사용하여 .NET에서 PSD 파일 자르기 기술을 살펴보세요. 이미지 조작 게임을 쉽게 향상시켜 보세요.
-type: docs
 weight: 19
 url: /ko/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD를 사용하여 PSD 파일 자르기
+
 ## 소개
 .NET 개발 영역에서 Aspose.PSD는 PSD(Photoshop Document) 파일을 원활하게 처리하기 위한 강력한 툴킷으로 돋보입니다. 이미지를 조작할 때 자르기는 기본적인 작업이며 Aspose.PSD는 .NET 개발자를 위해 이 프로세스를 단순화합니다. 이 튜토리얼에서는 .NET용 Aspose.PSD를 사용하여 PSD 파일을 자르는 방법을 살펴보고 단계별 가이드를 제공합니다.
 ## 전제조건
@@ -72,3 +78,9 @@ A1: 예, Aspose.PSD는 최신 .NET 프레임워크와의 호환성을 보장하�
 ### Q5: 테스트 목적으로 임시 라이센스가 필요합니까?
 
  A5: 예, 임시 라이센스가 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

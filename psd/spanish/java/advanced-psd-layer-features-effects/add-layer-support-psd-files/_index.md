@@ -3,10 +3,16 @@ title: Agregue soporte de capas para archivos PSD usando Aspose.PSD Java
 linktitle: Agregue soporte de capas para archivos PSD usando Aspose.PSD Java
 second_title: API de Java Aspose.PSD
 description: Administre y convierta fácilmente archivos PSD con capas a formato PNG usando Aspose.PSD para Java. Perfecto para desarrolladores que necesitan manipulación de gráficos.
-type: docs
 weight: 13
 url: /es/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue soporte de capas para archivos PSD usando Aspose.PSD Java
+
 ## Introducción
 En el mundo del diseño gráfico y el arte digital, trabajar con archivos PSD (Photoshop Document) es la norma. Estos archivos suelen contener varias capas que se pueden manipular de forma independiente, lo que ofrece flexibilidad y creatividad. Pero, ¿qué sucede cuando necesitas trabajar con estos archivos en una aplicación Java? Bueno, ¡aquí es donde entra en juego Aspose.PSD! En este artículo, profundizaremos en cómo agregar soporte de capas para archivos PSD usando Aspose.PSD para Java. Lo dividiremos en pasos fáciles de seguir, haciéndolo accesible para cualquier persona, desde principiantes hasta profesionales.
 ## Requisitos previos
@@ -101,3 +107,9 @@ Aspose.PSD para Java es una biblioteca .NET que le permite manipular archivos PS
  Puedes acceder al soporte en el foro de Aspose.[aquí](https://forum.aspose.com/c/psd/34).
 ### ¿Puedo volver a convertir de PNG a PSD?
 La biblioteca Aspose.PSD se centra más en leer y manipular archivos PSD en lugar de convertir otros formatos a PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

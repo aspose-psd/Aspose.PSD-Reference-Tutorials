@@ -3,10 +3,16 @@ title: Superposición de efectos de color en imágenes en Aspose.PSD para .NET
 linktitle: Superposición de efectos de color en imágenes
 second_title: API Aspose.PSD .NET
 description: Explore la magia de Aspose.PSD para .NET con nuestro tutorial sobre superposición de efectos de color. Mejora tu juego de procesamiento de imágenes sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Superposición de efectos de color en imágenes en Aspose.PSD para .NET
+
 ## Introducción
 
 Aspose.PSD para .NET proporciona un sólido conjunto de funciones para el procesamiento de imágenes, lo que permite a los desarrolladores lograr efectos sorprendentes sin esfuerzo. Una de esas capacidades es la superposición de efectos de color en las imágenes. En este tutorial, nos centraremos en el efecto ColorOverlay y demostraremos cómo aplicarlo a una imagen, transformando su atractivo visual.
@@ -98,3 +104,9 @@ R3: Sí, puede explorar las capacidades de Aspose.PSD para .NET descargando la v
 ### P5: ¿Puedo obtener una licencia temporal de Aspose.PSD para .NET?
 
  R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

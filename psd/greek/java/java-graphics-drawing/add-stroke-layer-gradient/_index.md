@@ -3,10 +3,16 @@ title: Πώς να προσθέσετε κλίση επιπέδου Stroke στ�
 linktitle: Πώς να προσθέσετε κλίση επιπέδου Stroke στην Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να προσθέτετε και να προσαρμόζετε διαβαθμίσεις στρώσης περιγράμματος σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java με αυτόν τον αναλυτικό, βήμα προς βήμα εκμάθηση.
-type: docs
 weight: 10
 url: /el/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πώς να προσθέσετε κλίση επιπέδου Stroke στην Java
+
 ## Εισαγωγή
 Αναρωτηθήκατε ποτέ πώς να προσθέσετε μια κλίση στρώσης περιγράμματος στις εικόνες σας χρησιμοποιώντας Java; Λοιπόν, είστε στο σωστό μέρος! Σήμερα, βουτάμε στον κόσμο του Aspose.PSD για Java, μιας ισχυρής βιβλιοθήκης που σας βοηθά να χειρίζεστε αρχεία PSD με ευκολία. Είτε είστε αρχάριος είτε έμπειρος προγραμματιστής, αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία προσθήκης μιας διαβάθμισης επιπέδου stroke στα αρχεία PSD σας. Λάβετε, λοιπόν, και ετοιμαστείτε να βελτιώσετε τις δεξιότητές σας στην επεξεργασία γραφικών!
 ## Προαπαιτούμενα
@@ -156,3 +162,9 @@ Assert.areEqual(4096, transparencyPoint.getLocation());
 Ναι, μπορείτε να εφαρμόσετε διάφορα εφέ όπως σκιά, λάμψη και άλλα χρησιμοποιώντας το Aspose.PSD για Java.
 ### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.PSD για Java;
  Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

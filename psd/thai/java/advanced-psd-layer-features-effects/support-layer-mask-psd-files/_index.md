@@ -3,10 +3,16 @@ title: รองรับ Layer Mask ในไฟล์ PSD ด้วย Java
 linktitle: รองรับ Layer Mask ในไฟล์ PSD ด้วย Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีรองรับเลเยอร์มาสก์ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ผ่านบทช่วยสอนทีละขั้นตอนที่ครอบคลุม
-type: docs
 weight: 18
 url: /th/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับ Layer Mask ในไฟล์ PSD ด้วย Java
+
 ## การแนะนำ
 เมื่อพูดถึงการทำงานกับไฟล์ PSD เลเยอร์มาสก์มีบทบาทสำคัญในการปรับปรุงการออกแบบของคุณ และปรับปรุงขั้นตอนการทำงานสร้างสรรค์ของคุณ ในบทช่วยสอนนี้ เราจะเจาะลึกเกี่ยวกับวิธีการรองรับเลเยอร์มาสก์โดยใช้ไลบรารี Aspose.PSD สำหรับ Java หากคุณเป็นนักพัฒนา นักออกแบบ หรือผู้ที่ต้องการจัดการไฟล์ PSD โดยทางโปรแกรม คุณมาถูกที่แล้ว! เราจะแนะนำคุณเกี่ยวกับข้อกำหนดเบื้องต้น นำเข้าแพ็คเกจที่จำเป็น และทำตามขั้นตอนที่จำเป็นในการส่งออก PSD ของคุณด้วยมาสก์ที่ซับซ้อนให้อยู่ในรูปแบบ PNG มาเริ่มกันเลย!
 ## ข้อกำหนดเบื้องต้น
@@ -83,3 +89,9 @@ Aspose.PSD ให้ทดลองใช้ฟรีซึ่งสามาร
 หากไฟล์ PSD ของคุณไม่มีมาสก์ การส่งออกจะยังคงทำได้สำเร็จ แต่คุณจะไม่เห็นผลใดๆ ที่เลเยอร์มาสก์จะมีให้
 ### ฉันจะรับการสนับสนุนได้ที่ไหนหากฉันมีปัญหา  
  หากมีคำถามหรือปัญหาใด ๆ คุณสามารถเยี่ยมชมได้ที่[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34) เพื่อขอความช่วยเหลือจากทั้งฝ่ายสนับสนุนของ Aspose และชุมชนผู้ใช้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

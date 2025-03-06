@@ -3,10 +3,16 @@ title: Pas het tekstlaaggebonden kader in PSD aan met Java
 linktitle: Pas het tekstlaaggebonden kader in PSD aan met Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u de grenzen van tekstlagen in PSD-bestanden kunt aanpassen met behulp van Java met Aspose.PSD. Eenvoudige handleiding met stapsgewijze instructies.
-type: docs
 weight: 25
 url: /nl/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas het tekstlaaggebonden kader in PSD aan met Java
+
 ## Invoering
 Als het gaat om het programmatisch manipuleren van Photoshop-documenten, schittert de Aspose.PSD-bibliotheek voor Java. Als u de grenzen van een tekstlaag in een PSD-bestand wilt aanpassen, bent u op de juiste plek beland! Deze tutorial leidt u stap voor stap door het proces van het aanpassen van het gebonden kader van de tekstlaag met behulp van Java.
 Met eenvoudig te volgen voorbeelden en een vleugje gesprekstoon om de zaken boeiend te houden, zul je merken dat het manipuleren van PSD-bestanden niet zo intimiderend is als het misschien klinkt. Of je nu een doorgewinterde ontwikkelaar bent of net begint met Java, hier vind je waardevolle inzichten. Laten we een duik nemen in de opwindende wereld van PSD-manipulatie.
@@ -80,3 +86,9 @@ Ja, Aspose.PSD is naast Java beschikbaar voor verschillende programmeerplatforms
  kunt ondersteuning en communitydiscussies vinden op hun[Aspose-forum](https://forum.aspose.com/c/psd/34).
 ### Is er een proefversie beschikbaar voor Aspose.PSD?
  Ja! U kunt een gratis proefversie downloaden van de[Aspose-website](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

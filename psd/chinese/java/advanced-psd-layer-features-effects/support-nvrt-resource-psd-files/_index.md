@@ -3,10 +3,16 @@ title: 使用 Java 支持 PSD 文件中的 Nvrt 资源
 linktitle: 使用 Java 支持 PSD 文件中的 Nvrt 资源
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Java 支持 PSD 文件中的 Nvrt 资源。学习使用 Aspose.PSD 轻松加载文件并提取宝贵资源。
-type: docs
 weight: 10
 url: /zh/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 支持 PSD 文件中的 Nvrt 资源
+
 ## 介绍
 在 Java 中处理 Photoshop 文件 (PSD) 时，您可以做无数的事情。无论您是开发图形编辑器、自动执行任务还是以编程方式处理设计，了解如何操作 PSD 文件都至关重要。在本指南中，我们将深入探讨一个特定方面 - 使用 Aspose.PSD for Java 库支持 PSD 文件中的 Nvrt（反转调整）资源。
 ## 先决条件
@@ -90,3 +96,9 @@ Aspose.PSD for Java 是一个库，允许开发人员无缝地通过 Java 代码
 当然！您可以免费试用 Aspose.PSD for Java[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.PSD 的支持？
 您可以在 Aspose 论坛上提问并获得支持：[Aspose 支持](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

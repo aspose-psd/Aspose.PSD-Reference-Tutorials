@@ -3,10 +3,16 @@ title: Vlastnost časové osy obrázku PSD v Aspose.PSD pro .NET
 linktitle: Vlastnost časové osy obrázku PSD
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte dynamický svět zpracování obrazu s Aspose.PSD pro .NET. Manipulujte s časovými osami PSD bez námahy. Stáhněte si knihovnu nyní!
-type: docs
 weight: 15
 url: /cs/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vlastnost časové osy obrázku PSD v Aspose.PSD pro .NET
+
 ## Zavedení
 V neustále se vyvíjejícím prostředí vývoje .NET je zásadní zůstat na špici. Aspose.PSD for .NET se ukazuje jako výkonný nástroj, který nabízí množství funkcí pro vylepšení vašich schopností zpracování obrazu. Jednou z pozoruhodných funkcí je vlastnost PSD Image Timeline Property, která vám umožňuje dynamicky manipulovat s časovou osou vašich obrázků PSD.
 ## Předpoklady
@@ -85,3 +91,9 @@ Odpověď 1: Ano, Aspose.PSD for .NET je kompatibilní s různými frameworky .N
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.PSD pro .NET?
 
  A5: Prozkoumejte komplexní dokumentaci[zde](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

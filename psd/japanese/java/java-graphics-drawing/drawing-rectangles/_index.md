@@ -3,10 +3,16 @@ title: Java で長方形を描く
 linktitle: Java で長方形を描く
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して画像に四角形を描画する方法を学びます。このチュートリアルでは、Java 開発者をステップ バイ ステップでガイドします。画像操作タスクに最適です。
-type: docs
 weight: 17
 url: /ja/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で長方形を描く
+
 ## 導入
 Java 開発の世界では、プログラムによる画像の操作と生成は、さまざまなアプリケーションで共通の要件です。よく発生するタスクの 1 つは、画像上に四角形などの図形を描画することです。Aspose.PSD for Java は、これを効率的に実行するための強力なツールと機能のセットを提供します。このチュートリアルでは、Aspose.PSD for Java を使用して画像上に四角形を描画するプロセスをステップごとに説明します。
 ## 前提条件
@@ -84,3 +90,9 @@ Aspose.PSD for Java は、長方形に加えて、楕円、線、多角形など
 より多くの例と詳細なドキュメントについては、[Aspose.PSD for Java ドキュメント](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD for Java は BMP 以外の画像形式もサポートしていますか?
 はい、Aspose.PSD for Java は、PNG、JPEG、TIFF、GIF など、幅広い画像形式をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

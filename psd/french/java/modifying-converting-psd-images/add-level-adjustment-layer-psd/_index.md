@@ -3,10 +3,16 @@ title: Ajouter un calque de réglage de niveau dans PSD
 linktitle: Ajouter un calque de réglage de niveau dans PSD
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter efficacement une couche de réglage de niveau dans vos fichiers PSD à l'aide d'Aspose.PSD pour Java. Élevez vos compétences en matière d'édition d'images.
-type: docs
 weight: 16
 url: /fr/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un calque de réglage de niveau dans PSD
+
 ## Introduction
 Lorsqu'il s'agit de retouche d'images, la gestion des niveaux peut faire toute la différence dans le dynamisme et la clarté de vos photos. Un outil pratique de l'arsenal Photoshop est le « Calque de réglage du niveau », qui vous permet de modifier la gamme de tons et la balance des couleurs de vos images. Dans ce guide, nous vous expliquerons comment implémenter une couche de réglage de niveau dans un fichier PSD à l'aide d'Aspose.PSD pour Java. Alors, prenez votre IDE Java.
 ## Conditions préalables
@@ -88,3 +94,9 @@ Oui! Aspose propose un essai gratuit pour tester la bibliothèque avant de l'ach
  Absolument! Vous pouvez poser des questions et obtenir de l'aide dans le[Forum Aspose](https://forum.aspose.com/c/psd/34).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
  Vous pouvez demander une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

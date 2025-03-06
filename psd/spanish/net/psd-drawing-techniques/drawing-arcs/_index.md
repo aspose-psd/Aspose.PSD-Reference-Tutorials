@@ -3,10 +3,16 @@ title: Dibujar arcos con Aspose.PSD para .NET
 linktitle: Dibujar arcos con Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Explore el poder de Aspose.PSD para .NET para dibujar arcos sin esfuerzo. Siga nuestro tutorial paso a paso para obtener gráficos impresionantes en sus aplicaciones.
-type: docs
 weight: 11
 url: /es/net/psd-drawing-techniques/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dibujar arcos con Aspose.PSD para .NET
+
 ## Introducción
 
 ¡Bienvenido a nuestro tutorial completo sobre cómo dibujar arcos usando Aspose.PSD para .NET! Aspose.PSD es una potente biblioteca que permite a los desarrolladores trabajar con archivos de Adobe Photoshop (.psd) en sus aplicaciones .NET. En este tutorial, nos centraremos en crear arcos visualmente atractivos utilizando la biblioteca Aspose.PSD.
@@ -110,3 +116,10 @@ image.Save(outpath, saveOptions);
 ### P5: ¿Puedo probar Aspose.PSD para .NET de forma gratuita antes de comprarlo?
 
  R5: Sí, puedes descargar una prueba gratuita[aquí](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

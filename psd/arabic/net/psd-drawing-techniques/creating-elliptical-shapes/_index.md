@@ -3,10 +3,16 @@ title: إنشاء أشكال بيضاوية باستخدام Aspose.PSD لـ .NE
 linktitle: إنشاء أشكال بيضاوية باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية رسم الأشكال البيضاوية في .NET باستخدام Aspose.PSD. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية. قم بإنشاء رسومات مذهلة دون عناء.
-type: docs
 weight: 13
 url: /ar/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء أشكال بيضاوية باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول إنشاء الأشكال البيضاوية باستخدام Aspose.PSD لـ .NET. Aspose.PSD هي مكتبة .NET قوية تسمح للمطورين بمعالجة ملفات Photoshop وتحويلها دون الحاجة إلى Adobe Photoshop. في هذا البرنامج التعليمي، سنرشدك خلال عملية رسم الأشكال البيضاوية باستخدام المكتبة.
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### س5: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

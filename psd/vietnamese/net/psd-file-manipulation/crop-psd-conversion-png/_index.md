@@ -3,10 +3,16 @@ title: Cắt tệp PSD khi chuyển đổi sang PNG trong Aspose.PSD cho .NET
 linktitle: Cắt tệp PSD khi chuyển đổi sang PNG
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách cắt các tệp PSD một cách dễ dàng bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi liền mạch sang PNG.
-type: docs
 weight: 18
 url: /vi/net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt tệp PSD khi chuyển đổi sang PNG trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, thao tác và chuyển đổi hình ảnh là một nhiệm vụ phổ biến. Aspose.PSD for .NET cung cấp một bộ công cụ mạnh mẽ để hợp lý hóa quy trình này. Một yêu cầu thường xuyên là cắt các tệp PSD trước khi chuyển đổi chúng thành PNG. Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào quy trình sử dụng Aspose.PSD cho .NET.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ A2: Chắc chắn rồi! Bạn có thể khám phá phiên bản dùng thử mi�
 ### Câu hỏi 5: Có bất kỳ ví dụ hoặc hướng dẫn nào có sẵn trong tài liệu không?
 
  Câu trả lời 5: Có, bạn có thể tìm thấy tài liệu và ví dụ toàn diện[đây](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

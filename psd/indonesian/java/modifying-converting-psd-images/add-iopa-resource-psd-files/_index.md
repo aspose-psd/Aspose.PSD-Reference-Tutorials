@@ -3,10 +3,16 @@ title: Tambahkan Sumber Daya IOPA ke File PSD menggunakan Java
 linktitle: Tambahkan Sumber Daya IOPA ke File PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan sumber daya IOPA ke file PSD menggunakan Aspose.PSD untuk Java dengan panduan komprehensif ini. Langkah sederhana untuk manipulasi grafis yang efektif.
-type: docs
 weight: 15
 url: /id/java/modifying-converting-psd-images/add-iopa-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Sumber Daya IOPA ke File PSD menggunakan Java
+
 ## Perkenalan
 Apakah Anda ingin memanipulasi file PSD seperti seorang profesional? Jika Anda pernah tenggelam dalam labirin format PSD Photoshop, mencari metode sempurna untuk mengubah properti lapisan, maka Anda siap menerima hadiahnya. Kami mendalami cara menambahkan sumber daya IOPA ke file PSD menggunakan Aspose.PSD untuk Java. Pustaka yang kuat ini memungkinkan Anda berinteraksi dengan file PSD secara lancar, membuatnya lebih mudah untuk mengubah properti lapisan seperti opacity isian.
 Jadi, ambil cangkir kopi favorit Anda, duduk santai, dan mari kita mulai perjalanan menarik untuk menyempurnakan file PSD Anda. Di akhir tutorial ini, Anda akan dapat dengan percaya diri memanipulasi dokumen PSD Anda dengan sumber daya IOPA, membuat tugas desain grafis Anda menjadi mudah.
@@ -91,3 +97,9 @@ IOPA adalah singkatan dari Sumber Daya "Image-Opacity". Ini mengubah seberapa tr
 Ya, selama itu adalah file PSD yang valid, Anda dapat melakukan operasi ini pada file PSD apa pun yang Anda miliki.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PSD?  
  Untuk dukungan, Anda dapat mengunjungi mereka[forum dukungan](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

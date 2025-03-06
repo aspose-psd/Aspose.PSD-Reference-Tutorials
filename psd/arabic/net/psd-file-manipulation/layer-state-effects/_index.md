@@ -3,10 +3,16 @@ title: إتقان تأثيرات حالة الطبقة في Aspose.PSD لـ .NET
 linktitle: العمل مع تأثيرات حالة الطبقة
 second_title: Aspose.PSD.NET API
 description: تعلم كيفية استخدام تأثيرات حالة الطبقة في Aspose.PSD لـ .NET. قم بتحسين ملفات PSD الخاصة بك باستخدام Drop Shadow وGradient Overlay والمزيد. دليل تعليمي سهل.
-type: docs
 weight: 13
 url: /ar/net/psd-file-manipulation/layer-state-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان تأثيرات حالة الطبقة في Aspose.PSD لـ .NET
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول العمل باستخدام Layer State Effects في Aspose.PSD لـ .NET. تلعب تأثيرات حالة الطبقة دورًا حاسمًا في تعزيز المظهر المرئي لصورك عن طريق إضافة تأثيرات إلى طبقات مختلفة. في هذا الدليل، سنرشدك خلال عملية استخدام Aspose.PSD لـ .NET لتسخير قوة تأثيرات حالة الطبقة بكفاءة.
 ## المتطلبات الأساسية
@@ -82,3 +88,9 @@ psdImage.Save(outputFile);
 ### س5: هل تحتاج إلى دعم أو لديك أسئلة؟
 
  ج5: انضم إلى[منتدى المجتمع Aspose.PSD](https://forum.aspose.com/c/psd/34) للحصول على المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Contrôler la réallocation du cache dans les fichiers PSD
 linktitle: Contrôler la réallocation du cache dans les fichiers PSD
 second_title: API Java Aspose.PSD
 description: Gérez la réallocation du cache dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Découvrez comment optimiser efficacement la mémoire et la gestion des fichiers, idéal pour les développeurs.
-type: docs
 weight: 22
 url: /fr/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Contrôler la réallocation du cache dans les fichiers PSD
+
 ## Introduction
 Lorsque vous travaillez avec des images et des fichiers Photoshop par programmation, l'efficacité est un facteur clé. Aspose.PSD pour Java offre des fonctionnalités robustes pour gérer et manipuler les fichiers PSD de manière transparente. L'un des aspects fondamentaux de l'optimisation des performances consiste à contrôler la réallocation du cache. La gestion du cache aide à maintenir l'équilibre entre l'utilisation de la mémoire et du disque, garantissant ainsi le bon fonctionnement de votre application, sans pannes ni ralentissements inattendus. 
 ## Conditions préalables
@@ -127,3 +133,9 @@ Aspose.PSD est une bibliothèque permettant aux développeurs .NET et Java de cr
 Aspose.PSD est une bibliothèque payante, mais vous pouvez commencer avec un essai gratuit disponible sur leur[site web](https://releases.aspose.com/).
 ### Que se passe-t-il si je ne me débarrasse pas d'objets ?
 Ne pas supprimer des objets peut entraîner des fuites de mémoire, obligeant votre application à utiliser plus de ressources que nécessaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

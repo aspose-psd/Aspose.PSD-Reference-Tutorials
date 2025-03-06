@@ -3,10 +3,16 @@ title: Java için Aspose.PSD'de Otsu Eşiği ile İkilileştirme
 linktitle: Otsu Eşiği ile Binarizasyon
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java'da Otsu Threshold ile İkilileştirmeyi keşfedin. Güçlü bir görüntü segmentasyon tekniği.
-type: docs
 weight: 15
 url: /tr/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.PSD'de Otsu Eşiği ile İkilileştirme
+
 ## giriiş
 
 Aspose.PSD for Java'da Otsu Eşiği ile Binarizasyon gerçekleştirmeye yönelik bu adım adım kılavuza hoş geldiniz! Bu eğitimde, görüntü işleme yeteneklerinizi geliştirmek için Aspose.PSD for Java kütüphanesinden nasıl yararlanabileceğinizi keşfedeceğiz. Otsu Threshold ile ikilileştirme, görüntü segmentasyonu için güçlü bir tekniktir ve Aspose.PSD ile hem basit hem de verimli hale gelir.
@@ -103,3 +109,9 @@ A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/java/).
 ### S5: Aspose.PSD for Java için geçici bir lisans mevcut mu?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

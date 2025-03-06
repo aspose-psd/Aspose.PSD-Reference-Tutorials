@@ -3,10 +3,16 @@ title: تنفيذ تعديل جاما في Aspose.PSD لـ .NET
 linktitle: تنفيذ تعديل غاما
 second_title: Aspose.PSD.NET API
 description: اكتشف قوة Aspose.PSD لـ .NET من خلال دليلنا خطوة بخطوة حول تنفيذ ضبط Gamma. ضبط سطوع الصورة وتباينها بسهولة.
-type: docs
 weight: 12
 url: /ar/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ تعديل جاما في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تنفيذ ضبط Gamma في Aspose.PSD لـ .NET! يعد ضبط جاما تقنية مهمة لمعالجة الصور تسمح لك بضبط سطوع الصورة وتباينها. في هذا البرنامج التعليمي، سنرشدك خلال العملية باستخدام مكتبة Aspose.PSD القوية لـ .NET.
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### س5: هل أحتاج إلى ترخيص مؤقت؟
 
  ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

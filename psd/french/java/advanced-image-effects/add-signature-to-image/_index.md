@@ -3,10 +3,16 @@ title: Ajouter une signature à une image avec Aspose.PSD pour Java
 linktitle: Ajouter une signature à une image
 second_title: API Java Aspose.PSD
 description: Découvrez l'intégration transparente des signatures dans les images avec Aspose.PSD pour Java. Suivez notre guide étape par étape, importez les packages nécessaires et améliorez les capacités graphiques de votre application Java.
-type: docs
 weight: 13
 url: /fr/java/advanced-image-effects/add-signature-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une signature à une image avec Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le vaste monde du développement Java, l’incorporation de signatures dans les images est devenue une exigence courante. Aspose.PSD pour Java apparaît comme un outil puissant, offrant aux développeurs des solutions transparentes pour manipuler les images, y compris l'ajout de signatures. Dans ce didacticiel, nous explorerons étape par étape comment ajouter une signature à une image à l'aide d'Aspose.PSD pour Java.
@@ -95,3 +101,10 @@ A2 : Oui, Aspose.PSD prend en charge une large gamme de formats d'image, garanti
 ### Q5 : Puis-je essayer Aspose.PSD pour Java avant d’acheter ?
 
  A5 : Oui, vous pouvez obtenir un[essai gratuit](https://releases.aspose.com/)pour explorer les fonctionnalités avant de faire un achat.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

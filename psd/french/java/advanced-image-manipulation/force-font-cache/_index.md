@@ -3,10 +3,16 @@ title: Forcer le cache des polices avec Aspose.PSD pour Java
 linktitle: Forcer le cache des polices
 second_title: API Java Aspose.PSD
 description: Découvrez comment forcer le cache des polices à l'aide d'Aspose.PSD pour Java. Optimisez le traitement des images et améliorez les performances avec ce guide étape par étape.
-type: docs
 weight: 11
 url: /fr/java/advanced-image-manipulation/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Forcer le cache des polices avec Aspose.PSD pour Java
+
 ## Introduction
 
 Cherchez-vous à optimiser la mise en cache des polices avec Aspose.PSD pour Java ? La mise en cache des polices joue un rôle crucial dans l'amélioration des performances de vos applications Java, en particulier lorsqu'il s'agit de tâches complexes de traitement d'images. Dans ce guide complet, nous vous guiderons tout au long du processus de forçage du cache des polices à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste dans le traitement d'images Java, ce didacticiel est conçu pour vous aider à intégrer de manière transparente la mise en cache des polices dans vos projets.
@@ -89,3 +95,9 @@ A1 : Aspose.PSD pour Java est conçu pour fonctionner avec différentes versio
 ### Q5 : Comment puis-je obtenir une licence temporaire ?
 
  A5 : Si vous avez besoin d'un permis temporaire, visitez le[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

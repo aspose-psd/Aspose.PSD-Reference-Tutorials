@@ -3,10 +3,16 @@ title: Lưu hình ảnh vào đĩa bằng Aspose.PSD cho .NET
 linktitle: Lưu hình ảnh vào đĩa bằng Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách lưu hình ảnh vào đĩa bằng Aspose.PSD cho .NET. Hãy làm theo hướng dẫn từng bước này để xử lý hình ảnh hiệu quả.
-type: docs
 weight: 10
 url: /vi/net/file-saving-and-exporting/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu hình ảnh vào đĩa bằng Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, Aspose.PSD nổi bật như một giải pháp mạnh mẽ để xử lý hình ảnh PSD một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình lưu hình ảnh vào đĩa bằng Aspose.PSD cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình viết mã, hướng dẫn từng bước này sẽ giúp bạn khai thác sức mạnh của Aspose.PSD một cách hiệu quả.
@@ -90,3 +96,9 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Tôi có thể mua Aspose.PSD cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể mua Aspose.PSD cho .NET[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java で PSD ファイルのレイヤーマスクをサポートする
 linktitle: Java で PSD ファイルのレイヤーマスクをサポートする
 second_title: Aspose.PSD Java API
 description: 包括的なステップバイステップのチュートリアルを通じて、Aspose.PSD for Java を使用して PSD ファイルでレイヤー マスクをサポートする方法を学習します。
-type: docs
 weight: 18
 url: /ja/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で PSD ファイルのレイヤーマスクをサポートする
+
 ## 導入
 PSD ファイルの操作では、レイヤー マスクがデザインを強化し、クリエイティブ ワークフローを効率化する上で重要な役割を果たします。このチュートリアルでは、Java 用の Aspose.PSD ライブラリを使用してレイヤー マスクをサポートする方法について詳しく説明します。開発者、デザイナー、または PSD ファイルをプログラムで操作したいと考えている方にとって、これは最適な場所です。前提条件を説明し、必要なパッケージをインポートし、複雑なマスクを含む PSD を PNG 形式でエクスポートするために必要な手順を説明します。さあ、始めましょう。
 ## 前提条件
@@ -83,3 +89,9 @@ Aspose.PSD では、同社のサイトからダウンロードできる無料試
 PSD ファイルにマスクが含まれていない場合でも、エクスポートは成功しますが、レイヤー マスクが提供する効果は表示されません。
 ### 問題が発生した場合、どこでサポートを受けることができますか?  
 ご質問やご不明な点がございましたら、[サポートフォーラム](https://forum.aspose.com/c/psd/34) Aspose サポートとユーザー コミュニティの両方から支援を受けられます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

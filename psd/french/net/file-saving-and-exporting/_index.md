@@ -3,10 +3,16 @@ title: Enregistrement et exportation de fichiers
 linktitle: Enregistrement et exportation de fichiers
 second_title: API Aspose.PSD.NET
 description: Maîtrisez sans effort l’enregistrement et l’exportation d’images avec Aspose.PSD pour .NET. Suivez nos didacticiels étape par étape pour des opérations efficaces sur les disques et les flux.
-type: docs
 weight: 23
 url: /fr/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrement et exportation de fichiers
+
 ## Introduction
 
 Si vous avez déjà été confronté aux subtilités de l'enregistrement et de l'exportation d'images dans vos projets .NET, vous n'êtes pas seul. Le domaine numérique exige de la précision, et lorsqu’il s’agit d’images, le processus devient encore plus crucial. Heureusement, Aspose.PSD pour .NET est là pour simplifier votre parcours, en offrant des solutions transparentes pour enregistrer des images sur disque et en streaming.
@@ -32,3 +38,9 @@ Découvrez comment enregistrer des images sur le disque à l'aide d'Aspose.PSD p
 Explorez la puissance d'Aspose.PSD pour .NET et apprenez à enregistrer des images dans un flux sans effort. Suivez notre guide étape par étape pour une intégration transparente.
 ### [Travailler avec Save Image Worker dans Aspose.PSD pour .NET](./save-image-worker/)
 Apprenez à utiliser Aspose.PSD pour Save Image Worker de .NET pour une conversion transparente du format d'image avec gestion des interruptions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

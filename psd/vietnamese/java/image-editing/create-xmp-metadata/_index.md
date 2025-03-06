@@ -3,10 +3,16 @@ title: Tạo siêu dữ liệu XMP với Aspose.PSD cho Java
 linktitle: Tạo siêu dữ liệu XMP
 second_title: API Java Aspose.PSD
 description: Nâng cao các ứng dụng Java của bạn với Aspose.PSD. Tìm hiểu cách tạo siêu dữ liệu XMP một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi ngay bây giờ.
-type: docs
 weight: 12
 url: /vi/java/image-editing/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo siêu dữ liệu XMP với Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, việc quản lý và thao tác siêu dữ liệu hình ảnh là rất quan trọng đối với các ứng dụng khác nhau. Aspose.PSD cho Java nổi bật như một công cụ mạnh mẽ để xử lý các tệp PSD và trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo siêu dữ liệu XMP bằng thư viện mạnh mẽ này.
@@ -155,3 +161,9 @@ Câu trả lời 3: Aspose.PSD được thiết kế để xử lý các hình �
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.PSD ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ hoặc có thắc mắc, hãy truy cập[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

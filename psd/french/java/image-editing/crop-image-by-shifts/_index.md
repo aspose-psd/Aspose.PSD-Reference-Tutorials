@@ -3,10 +3,16 @@ title: Recadrer l'image par décalages dans Aspose.PSD pour Java
 linktitle: Recadrer l'image par décalages
 second_title: API Java Aspose.PSD
 description: Maîtrisez le recadrage d'images avec Aspose.PSD pour Java. Un tutoriel complet pour une manipulation transparente des images.
-type: docs
 weight: 16
 url: /fr/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrer l'image par décalages dans Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le domaine du traitement d'images basé sur Java, Aspose.PSD se distingue comme un outil puissant pour manipuler et améliorer les images avec la plus grande précision. L'une des principales caractéristiques qui distingue Aspose.PSD est sa capacité à effectuer un recadrage d'image de manière transparente. Dans ce didacticiel, nous aborderons l'art du recadrage d'images à l'aide d'Aspose.PSD pour Java. À la fin, vous serez doté des compétences nécessaires pour recadrer sans effort des images selon vos spécifications.
@@ -115,3 +121,10 @@ A2 : Absolument, vous pouvez effectuer plusieurs opérations de recadrage de man
 ### Q5 : Existe-t-il des exemples de projets présentant les fonctionnalités d'Aspose.PSD ?
 
  A5 : Explorez la documentation et les exemples sur[Aspose.PSD Documentation Java](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

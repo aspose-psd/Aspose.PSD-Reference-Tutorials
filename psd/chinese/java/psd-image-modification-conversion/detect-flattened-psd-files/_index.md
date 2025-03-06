@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 检测扁平化 PSD 文件
 linktitle: 使用 Aspose.PSD for Java 检测扁平化 PSD 文件
 second_title: Aspose.PSD Java API
 description: 在本综合教程中逐步学习如何使用 Aspose.PSD for Java 检测扁平化的 PSD 文件。
-type: docs
 weight: 10
 url: /zh/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 检测扁平化 PSD 文件
+
 ## 介绍
 
 欢迎使用 Aspose.PSD for Java 进入 PSD（Photoshop 文档）文件操作的世界！如果您曾经需要处理 Photoshop 文件中的图层，但不知道从哪里开始，那么您来对地方了。在本教程中，我们将深入研究如何使用 Aspose.PSD 检测 PSD 文件是否被压平。压平 PSD 意味着将其所有图层合并为一个统一的图层，这可能会使之后的编辑变得有点棘手。在本指南结束时，您将能够检查 PSD 文件的这一关键方面。坐稳，喝杯咖啡，让我们开始吧！
@@ -77,3 +83,9 @@ System.out.println(psdImage.isFlatten());
 
 ### 有没有办法免费测试 Aspose.PSD？
 当然可以！你可以从以下网址下载试用版，开始免费试用[此链接](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

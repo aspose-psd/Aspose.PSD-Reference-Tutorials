@@ -3,10 +3,16 @@ title: 使用 Java 將 PSD 圖層匯出為光柵影像
 linktitle: 使用 Java 將 PSD 圖層匯出為光柵影像
 second_title: Aspose.PSD Java API
 description: 了解使用 Aspose.PSD for Java 將 PSD 圖層匯出為 PNG 圖片。透過我們詳細的逐步教學解鎖無縫文件操作。
-type: docs
 weight: 12
 url: /zh-hant/java/psd-image-modification-conversion/export-psd-layers-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 將 PSD 圖層匯出為光柵影像
+
 ## 介紹
 
 在數位設計領域，處理分層影像既是福音，也是一種挑戰。想像一下，您花了幾個小時在 Photoshop（PSD 格式）中製作了一張精美的圖像，其中包含多個圖層，使您的設計栩栩如生。現在，您可能想要獨立匯出這些圖層以供進一步使用！這就是 Aspose.PSD for Java 發揮作用的地方，它可以輕鬆地自動執行將 PSD 檔案中的每一層匯出為光柵圖像（例如 PNG）的繁瑣任務。在本綜合指南中，我們將逐步引導您完成使用 Java 匯出 PSD 圖層的整個過程。
@@ -99,3 +105,9 @@ Aspose.PSD for Java 是一個函式庫，使開發人員能夠在 Java 應用程
 
 ### 在哪裡可以購買 Aspose.PSD 的授權？
 您可以從他們的購買頁面輕鬆購買 Aspose.PSD 的許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

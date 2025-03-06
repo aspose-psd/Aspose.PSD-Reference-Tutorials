@@ -3,10 +3,16 @@ title: Expanding and Cropping Images in Aspose.PSD for .NET
 linktitle: Expanding and Cropping Images
 second_title: Aspose.PSD .NET API
 description: Learn how to dynamically expand and crop images using Aspose.PSD for .NET. Follow our step-by-step guide for seamless image manipulation.
-type: docs
 weight: 13
 url: /net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Expanding and Cropping Images in Aspose.PSD for .NET
+
 ## Introduction
 
 Aspose.PSD for .NET is a comprehensive imaging library that allows developers to work with various image formats in their .NET applications. One of its standout features is the capability to manipulate images with ease. In this tutorial, we'll focus on expanding and cropping images, providing you with a hands-on guide to achieve these tasks using Aspose.PSD.
@@ -98,3 +104,10 @@ A4: You can get a temporary license from [Aspose.PSD Temporary License](https://
 ### Q5: Where can I purchase Aspose.PSD for .NET?
 
 A5: You can buy the library at the [Aspose.PSD Purchase Page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

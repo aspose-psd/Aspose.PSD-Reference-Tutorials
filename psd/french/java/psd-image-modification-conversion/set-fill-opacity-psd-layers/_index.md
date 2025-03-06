@@ -3,10 +3,16 @@ title: Définir l'opacité de remplissage pour les calques PSD avec Aspose.PSD J
 linktitle: Définir l'opacité de remplissage pour les calques PSD avec Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment définir l'opacité de remplissage des calques PSD à l'aide d'Aspose.PSD pour Java dans ce guide étape par étape. Améliorez efficacement vos projets de conception graphique.
-type: docs
 weight: 13
 url: /fr/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir l'opacité de remplissage pour les calques PSD avec Aspose.PSD Java
+
 ## Introduction
 Vous retrouvez-vous souvent à peaufiner des fichiers de conception pour essayer d’obtenir cet effet visuel parfait ? Que vous soyez un graphiste chevronné ou un développeur en herbe cherchant à manipuler des fichiers PSD, savoir comment ajuster les propriétés des calques peut faire toute la différence. Aujourd'hui, nous allons approfondir la façon de définir l'opacité de remplissage des calques dans un fichier PSD à l'aide d'Aspose.PSD pour Java. Prêt à transformer vos superpositions en pièces accrocheuses ? Commençons !
 ## Conditions préalables
@@ -74,3 +80,9 @@ Oui, en parcourant les calques à l'aide d'une boucle, vous pouvez définir l'op
 Outre l'opacité du remplissage, vous pouvez manipuler la visibilité des calques, les modes de fusion, la position, la taille, etc. à l'aide d'Aspose.PSD.
 ### Où puis-je trouver plus de documentation sur Aspose.PSD pour Java ?
  Vous pouvez vous référer à la documentation complète[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

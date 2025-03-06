@@ -3,10 +3,16 @@ title: Použijte Rendering Drop Shadow v Aspose.PSD pro Javu
 linktitle: Použít vykreslení vrženého stínu
 second_title: Aspose.PSD Java API
 description: Prozkoumejte podrobného průvodce aplikací vykreslování vržených stínů v Aspose.PSD pro Java, který bez námahy vylepší vaše dovednosti zpracování obrazu.
-type: docs
 weight: 16
 url: /cs/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použijte Rendering Drop Shadow v Aspose.PSD pro Javu
+
 ## Zavedení
 
 Pokud se ponoříte do zpracování obrazu pomocí Javy, Aspose.PSD je váš oblíbený nástroj pro bezproblémovou a efektivní manipulaci se soubory PSD. V tomto tutoriálu prozkoumáme proces aplikace vrženého stínu vykreslení pomocí Aspose.PSD pro Java. Připoute se, protože pro vás rozebereme kroky.
@@ -125,3 +131,9 @@ Odpověď 3: Aspose.PSD poskytuje kompatibilitu s širokou škálou verzí soubo
 ### Q5: Mohu otestovat Aspose.PSD před nákupem?
 
  A5: Rozhodně, použijte[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat možnosti, než se zavážete k nákupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

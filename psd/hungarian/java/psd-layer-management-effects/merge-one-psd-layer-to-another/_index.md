@@ -3,10 +3,16 @@ title: Egyesítse az egyik PSD-réteget egy másikkal Java használatával
 linktitle: Egyesítse az egyik PSD-réteget egy másikkal Java használatával
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan egyesíthet rétegeket egyik PSD-fájlból egy másikba az Aspose.PSD for Java segítségével a lépésről lépésre bemutatott oktatóanyagunkból. Tökéletes a tervezési folyamatok automatizálásához.
-type: docs
 weight: 10
 url: /hu/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyesítse az egyik PSD-réteget egy másikkal Java használatával
+
 ## Bevezetés
 
 Előfordult már, hogy az Adobe Photoshop-dokumentumokkal programozottan dolgozva kell egyesítenie a rétegeket egyik PSD-fájlból a másikba? Akár a tervezési folyamatokat automatizálja, akár a réteges képek nagy gyűjteményét kezeli, az Aspose.PSD for Java hatékony eszközkészletet kínál a PSD-fájlok közvetlenül a Java kódon keresztül történő manipulálásához. Ebben az útmutatóban végigvezetjük az egyik PSD-réteg egy másikba való egyesítése folyamatán az Aspose.PSD for Java használatával. Nemcsak megtanulja, hogyan lehet zökkenőmentesen egyesíteni a rétegeket, hanem azt is, hogy milyen egyszerű a PSD-fájlok kezelése Java környezetben. Készen állsz a merülésre? Kezdjük is!
@@ -119,3 +125,9 @@ A rétegek egyesítése után a művelet nem visszafordítható. Mindig készít
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java számára?
  Ideiglenes jogosítványt kaphat a[Aspose honlapja](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

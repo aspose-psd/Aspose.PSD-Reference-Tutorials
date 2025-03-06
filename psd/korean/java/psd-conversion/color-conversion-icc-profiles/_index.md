@@ -3,10 +3,16 @@ title: Aspose.PSD에서 ICC 프로파일을 사용하여 색상 변환 마스터
 linktitle: ICC 프로파일을 사용한 색상 변환
 second_title: Aspose.PSD 자바 API
 description: 
-type: docs
 weight: 12
 url: /ko/java/psd-conversion/color-conversion-icc-profiles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD에서 ICC 프로파일을 사용하여 색상 변환 마스터하기
+
 ## 소개
 Aspose.PSD for Java의 ICC 프로필을 사용한 색상 변환에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 정확하고 일관된 결과를 얻기 위해 ICC 프로파일을 사용하는 것을 강조하면서 색상 변환을 수행하는 단계를 살펴보겠습니다. 숙련된 개발자이든 초보자이든 이 가이드는 자세한 설명과 예제를 통해 프로세스를 안내합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ ICC 프로필과 색상 설정을 조정하여 색상 변환 프로세스를 미
 다양한 ICC 프로필에 대한 평판이 좋은 소스 및 색상 관리 조직을 살펴보세요.
 ### 색상 변환에 ICC 프로파일을 사용하면 어떤 이점이 있습니까?
 ICC 프로파일은 다양한 장치와 응용 프로그램에서 색상 표현의 일관성을 보장합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

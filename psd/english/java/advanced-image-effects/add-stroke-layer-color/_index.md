@@ -3,10 +3,16 @@ title: Add Stroke Layer Color in Aspose.PSD for Java
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 description: Explore the power of Aspose.PSD for Java with our step-by-step guide on adding stroke layer color. Elevate your graphic designs effortlessly.
-type: docs
 weight: 14
 url: /java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Stroke Layer Color in Aspose.PSD for Java
+
 ## Introduction
 
 Unlock the potential of your Java application's graphic design with Aspose.PSD. In this tutorial, we'll delve into the fascinating world of adding stroke layer color using Aspose.PSD for Java. Enhance your graphics with strokes that pop, creating visually appealing designs effortlessly.
@@ -120,3 +126,10 @@ A4: Certainly! Grab a [free trial](https://releases.aspose.com/) to explore the 
 ### Q5: Where can I get a temporary license for Aspose.PSD?
 
 A5: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for Aspose.PSD to evaluate its capabilities in your projects.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

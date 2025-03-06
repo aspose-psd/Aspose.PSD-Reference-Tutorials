@@ -3,10 +3,16 @@ title: Xoay một hình ảnh trong Aspose.PSD cho Java
 linktitle: Xoay một hình ảnh
 second_title: API Java Aspose.PSD
 description: Khám phá xoay hình ảnh trong Java một cách dễ dàng với Aspose.PSD. Xoay, lật và lưu tệp PSD dễ dàng.
-type: docs
 weight: 19
 url: /vi/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xoay một hình ảnh trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Aspose.PSD cho Java cung cấp một bộ tính năng mạnh mẽ để làm việc với hình ảnh, cho phép các nhà phát triển thao tác và xử lý các tệp PSD một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ tập trung vào một nhiệm vụ cụ thể: xoay hình ảnh. Cho dù bạn đang xây dựng một ứng dụng chỉnh sửa ảnh hay chỉ cần điều chỉnh hướng của hình ảnh, Aspose.PSD đều giúp quá trình này trở nên đơn giản.
@@ -84,3 +90,9 @@ A2: Chắc chắn rồi! Aspose.PSD cung cấp tính linh hoạt trong việc á
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
  Câu trả lời 5: Nếu bạn cần giấy phép tạm thời, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

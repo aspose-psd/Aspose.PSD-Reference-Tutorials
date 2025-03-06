@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 Otsu 임계값을 사용한 이진화
 linktitle: Otsu 임계값을 사용한 이진화
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD에서 Otsu 임계값을 사용하여 이진화를 살펴보세요. 강력한 이미지 분할 기술.
-type: docs
 weight: 15
 url: /ko/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 Otsu 임계값을 사용한 이진화
+
 ## 소개
 
 Java용 Aspose.PSD에서 Otsu Threshold를 사용하여 이진화를 수행하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다! 이 튜토리얼에서는 Java 라이브러리용 Aspose.PSD를 활용하여 이미지 처리 기능을 향상시키는 방법을 살펴보겠습니다. Otsu Threshold를 사용한 이진화는 이미지 분할을 위한 강력한 기술이며 Aspose.PSD를 사용하면 간단하고 효율적이 됩니다.
@@ -103,3 +109,9 @@ A3: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/p
 ### Q5: Aspose.PSD for Java에 사용할 수 있는 임시 라이선스가 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

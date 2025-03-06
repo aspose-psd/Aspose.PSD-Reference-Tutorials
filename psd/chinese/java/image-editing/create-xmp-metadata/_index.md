@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 创建 XMP 元数据
 linktitle: 创建 XMP 元数据
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 增强您的 Java 应用程序。学习如何轻松创建 XMP 元数据。立即按照我们的分步指南操作。
-type: docs
 weight: 12
 url: /zh/java/image-editing/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 创建 XMP 元数据
+
 ## 介绍
 
 在 Java 开发领域，管理和操作图像元数据对于各种应用程序至关重要。Aspose.PSD for Java 是处理 PSD 文件的强大工具，在本教程中，我们将深入研究如何使用这个强大的库创建 XMP 元数据。
@@ -155,3 +161,9 @@ A3：Aspose.PSD 旨在处理各种尺寸的图像，确保您的项目具有可�
 ### Q5：我可以在哪里寻求与 Aspose.PSD 相关的问题的支持？
 
  A5：如需任何帮助或疑问，请访问[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

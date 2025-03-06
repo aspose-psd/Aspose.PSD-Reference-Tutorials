@@ -3,10 +3,16 @@ title: รองรับโหมดการผสมผสานใน Aspose
 linktitle: รองรับโหมดการผสมผสาน
 second_title: Aspose.PSD Java API
 description: ปรับปรุงการประมวลผลภาพใน Java ด้วย Aspose.PSD เรียนรู้การใช้โหมดผสมผสานเพื่อเอฟเฟกต์ที่น่าทึ่ง
-type: docs
 weight: 12
 url: /th/java/basic-image-operations/support-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับโหมดการผสมผสานใน Aspose.PSD สำหรับ Java
+
 ## การแนะนำ
 
 Aspose.PSD สำหรับ Java เป็นไลบรารีอันทรงพลังที่ให้การสนับสนุนโหมดผสมผสานอย่างครอบคลุม ช่วยให้นักพัฒนาปรับปรุงความสามารถในการประมวลผลภาพของตนได้ ในบทช่วยสอนนี้ เราจะเจาะลึกเข้าไปในโลกของโหมดผสมผสาน สำรวจวิธีใช้ประโยชน์จากโหมดเหล่านี้อย่างมีประสิทธิภาพโดยใช้ Aspose.PSD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ในการปรับแต่งภาพ คู่มือนี้จะช่วยให้คุณมีความรู้ในการควบคุมศักยภาพของโหมดผสมผสานในแอปพลิเคชัน Java ของคุณ
@@ -107,3 +113,9 @@ im.save(pngExportPath50, saveOptions);
 ### คำถามที่ 5: ฉันสามารถปรับแต่งโหมดการผสมผสานเพิ่มเติมตามความต้องการของแอปพลิเคชันของฉันได้หรือไม่
 
 A5: แน่นอน! Aspose.PSD สำหรับ Java มอบความยืดหยุ่น ช่วยให้คุณปรับแต่งโหมดผสมผสานได้ตามความต้องการเฉพาะของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

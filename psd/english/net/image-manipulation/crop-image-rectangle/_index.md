@@ -3,10 +3,16 @@ title: Cropping Images by Rectangle in Aspose.PSD for .NET
 linktitle: Cropping Images by Rectangle
 second_title: Aspose.PSD .NET API
 description: Enhance your .NET image manipulation skills with Aspose.PSD. Learn step-by-step image cropping using rectangles for precision.
-type: docs
 weight: 11
 url: /net/image-manipulation/crop-image-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cropping Images by Rectangle in Aspose.PSD for .NET
+
 ## Introduction
 
 In the realm of .NET programming, manipulating and enhancing images is a common task, and Aspose.PSD for .NET is a powerful library that simplifies this process. This tutorial focuses on a fundamental yet crucial image manipulation technique – cropping images by a rectangle. By the end of this guide, you'll have a solid understanding of how to crop images with precision using Aspose.PSD for .NET.
@@ -110,3 +116,10 @@ A4: Yes, you can explore the library's features by obtaining a free trial [here]
 ### Q5: Where can I find additional support or assistance?
 
 A5: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to connect with the community and seek support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

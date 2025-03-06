@@ -3,10 +3,16 @@ title: دعم مراقبة المقاطعة في Aspose.PSD لـ Java
 linktitle: دعم لمراقبة المقاطعة
 second_title: Aspose.PSD جافا API
 description: أطلق العنان للتحكم في معالجة الصور باستخدام Aspose.PSD لـ Java. تعلم كيفية مقاطعة العمليات من أجل سير عمل مرن.
-type: docs
 weight: 18
 url: /ar/java/advanced-techniques/support-interrupt-monitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم مراقبة المقاطعة في Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مجال تطوير Java، يبرز Aspose.PSD كأداة قوية للتعامل مع مهام معالجة الصور المختلفة. من بين ميزاته العديدة، يعد دعم Interrupt Monitor جانبًا مهمًا يعزز التحكم والمرونة اللذين يتمتع بهما المطورون في سير عمل معالجة الصور. في هذا البرنامج التعليمي، سوف نتعمق في كيفية الاستفادة من Interrupt Monitor في Aspose.PSD لـ Java لإدارة عمليات تحويل الصور ومقاطعتها بشكل فعال.
@@ -119,3 +125,9 @@ try {
 ### س5: كيف يمكنني شراء ترخيص Aspose.PSD لـ Java؟
 
 ج5: يمكنك شراء ترخيص Aspose.PSD لـ Java[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

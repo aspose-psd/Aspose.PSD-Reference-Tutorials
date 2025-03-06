@@ -3,10 +3,16 @@ title: Trích xuất hình thu nhỏ từ PSD trong Java
 linktitle: Trích xuất hình thu nhỏ từ PSD trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách trích xuất hình thu nhỏ từ tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến lưu hình ảnh được trích xuất.
-type: docs
 weight: 15
 url: /vi/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất hình thu nhỏ từ PSD trong Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất hình thu nhỏ từ tệp PSD bằng Aspose.PSD cho Java. Hình thu nhỏ có thể hữu ích để xem trước nhanh hoặc tạo các phiên bản hình ảnh nhỏ hơn được nhúng trong tài liệu PSD. Hãy đi sâu vào các bước cần thiết để đạt được điều này bằng Aspose.PSD.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Aspose.PSD là thư viện Java cho phép các nhà phát triển làm việc v�
  Giấy phép tạm thời có thể được lấy từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD có phù hợp cho mục đích thương mại không?
 Có, Aspose.PSD có thể được sử dụng cho cả dự án cá nhân và thương mại theo điều khoản cấp phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

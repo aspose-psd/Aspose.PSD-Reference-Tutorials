@@ -3,10 +3,16 @@ title: أضف صورة مصغرة إلى مقطع EXIF في Java
 linktitle: أضف صورة مصغرة إلى مقطع EXIF في Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تحسين البيانات التعريفية للصور باستخدام الصور المصغرة باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف صورة مصغرة إلى مقطع EXIF في Java
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية تحسين بيانات تعريف الصورة عن طريق إضافة صورة مصغرة إلى مقطع EXIF باستخدام Aspose.PSD لـ Java. تلعب البيانات التعريفية EXIF (تنسيق ملف الصورة القابل للتبديل) دورًا حاسمًا في التصوير الفوتوغرافي الرقمي، حيث توفر معلومات قيمة مثل إعدادات الكاميرا والتاريخ والموقع. تعمل إضافة صورة مصغرة على تحسين تجربة المستخدم من خلال معاينة الصور بكفاءة.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ image.save(dataDir + "output.psd");
  يمكنك الحصول على ترخيص مؤقت لـ Aspose.PSD من[هنا](https://purchase.aspose.com/temporary-license/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
  للحصول على الدعم، قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

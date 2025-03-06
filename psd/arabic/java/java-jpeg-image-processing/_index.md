@@ -3,10 +3,16 @@ title: معالجة صور جافا JPEG
 linktitle: معالجة صور جافا JPEG
 second_title: Aspose.PSD جافا API
 description: اكتشف Aspose.PSD لبرامج Java التعليمية. تعلم كيفية التعامل مع معالجة EXIF وJFIF وJPEG والمزيد باستخدام أدلة خطوة بخطوة وأمثلة التعليمات البرمجية.
-type: docs
 weight: 23
 url: /ar/java/java-jpeg-image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة صور جافا JPEG
+
 
 ## مقدمة
 
@@ -78,3 +84,9 @@ url: /ar/java/java-jpeg-image-processing/
 تعرف على كيفية دعم JPEG-LS مع CMYK في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة لمعالجة الصور وتحويلها بسهولة.
 ### [كتابة وتعديل بيانات EXIF في جافا](./write-modify-exif-data-java/)
 تعلم كيفية كتابة بيانات EXIF وتعديلها في ملفات PSD باستخدام Aspose.PSD لـ Java باستخدام هذا الدليل الشامل المفصّل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

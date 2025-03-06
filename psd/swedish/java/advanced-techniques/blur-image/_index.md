@@ -3,10 +3,16 @@ title: Oskärpa en bild med Aspose.PSD för Java
 linktitle: Gör en bild suddig
 second_title: Aspose.PSD Java API
 description: Lär dig att sudda bilder i Java med Aspose.PSD. Följ vår steg-för-steg-guide för professionella resultat.
-type: docs
 weight: 24
 url: /sv/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oskärpa en bild med Aspose.PSD för Java
+
 ## Introduktion
 
 I Java-utvecklingsvärlden är det ett vanligt krav att förbättra och manipulera bilder. Om du vill lägga till en oskärpa effekt till dina bilder programmatiskt är Aspose.PSD för Java ett kraftfullt verktyg som förenklar processen. Denna handledning guidar dig genom stegen för att göra en bild suddiga med Aspose.PSD, vilket säkerställer att du uppnår professionella resultat utan ansträngning.
@@ -96,3 +102,9 @@ A1: Absolut! Aspose.PSD kommer med omfattande dokumentation för att vägleda ut
 ### F5: Hur får jag en tillfällig licens för Aspose.PSD?
 
  A5: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

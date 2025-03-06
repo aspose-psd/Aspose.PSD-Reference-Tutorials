@@ -3,10 +3,16 @@ title: Java を使用して PSD ファイルからサムネイルを作成する
 linktitle: Java を使用して PSD ファイルからサムネイルを作成する
 second_title: Aspose.PSD Java API
 description: Java と Aspose.PSD を使用して、PSD ファイルから簡単にサムネイルを作成する方法を学びます。シームレスな画像処理については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 24
 url: /ja/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PSD ファイルからサムネイルを作成する
+
 ## 導入
 グラフィック デザインの世界では、PSD (Photoshop Document) ファイルでの作業は一般的です。熟練した開発者、グラフィック デザイナー、または画像処理に取り組みたいだけの人でも、PSD ファイルからサムネイルを作成すると、時間を節約し、ワークフローを効率化できます。このチュートリアルでは、Aspose.PSD for Java を使用したプロセス全体をガイドします。Aspose.PSD は、Photoshop ファイルの管理に強力なライブラリであるだけでなく、手元のタスクを直感的で管理しやすいものにします。PSD ファイルからサムネイルを効率的に作成する方法を学ぶ準備はできていますか?
 ## 前提条件
@@ -112,3 +118,9 @@ Aspose.PSD は、開発者が Photoshop ファイルを操作できるように�
 いいえ、Aspose.PSD は Photoshop とは独立して動作します。
 ### Aspose.PSD の詳細情報はどこで入手できますか?
 ぜひチェックしてみてください[Aspose.PSD ドキュメント](https://reference.aspose.com/psd/java/)詳細、チュートリアル、リソースについてはこちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

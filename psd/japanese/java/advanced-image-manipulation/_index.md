@@ -3,10 +3,16 @@ title: 高度な画像操作
 linktitle: 高度な画像操作
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用した高度な画像操作チュートリアルをご覧ください。効率的なフォント置換、フォント キャッシュの強制、バイキュービック リサンプラーの実装などを学習します。
-type: docs
 weight: 24
 url: /ja/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高度な画像操作
+
 
 ## 導入
 
@@ -80,3 +86,9 @@ Aspose.PSD を使用して Java で画像のサイズ変更をマスターしま
 Aspose.PSD を使用すると、Java で画像の回転を簡単に実行できます。PSD ファイルを簡単に回転、反転、保存できます。
 ### [Aspose.PSD for Java を使用して特定の角度で画像を回転する](./rotate-image-specific-angle/)
 Aspose.PSD for Java を使用して、Java で画像の回転を体験してください。特定の角度で画像を簡単に回転できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

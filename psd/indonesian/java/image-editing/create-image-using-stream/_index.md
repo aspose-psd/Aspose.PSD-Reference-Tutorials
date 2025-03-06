@@ -3,10 +3,16 @@ title: Buat Gambar menggunakan Stream di Aspose.PSD untuk Java
 linktitle: Buat Gambar menggunakan Stream
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara membuat gambar menggunakan aliran di Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah ini untuk pemrosesan gambar yang efisien.
-type: docs
 weight: 14
 url: /id/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Gambar menggunakan Stream di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam bidang pengembangan Java, Aspose.PSD menonjol sebagai perpustakaan yang tangguh untuk pemrosesan gambar. Salah satu fitur canggihnya adalah kemampuan membuat gambar menggunakan aliran, menawarkan fleksibilitas dan efisiensi dalam menangani data gambar. Tutorial ini akan memandu Anda melalui proses pembuatan gambar menggunakan aliran di Aspose.PSD untuk Java, memberikan pengalaman langsung dengan petunjuk langkah demi langkah.
@@ -114,3 +120,9 @@ A1: Ya, Aspose.PSD dirancang untuk berintegrasi secara mulus dengan perpustakaan
 ### Q5: Apa saja persyaratan sistem untuk Aspose.PSD?
 
  A5: Lihat[dokumentasi](https://reference.aspose.com/psd/java/) untuk persyaratan sistem terperinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

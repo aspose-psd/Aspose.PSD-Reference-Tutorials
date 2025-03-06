@@ -3,10 +3,16 @@ title: Методы бинаризации в Aspose.PSD для .NET
 linktitle: Методы бинаризации
 second_title: Aspose.PSD .NET API
 description: Изучите передовые методы бинаризации в Aspose.PSD для .NET. С легкостью преобразуйте цветные изображения в двоичные с помощью метода BinarizationWithFixedThreshold.
-type: docs
 weight: 12
 url: /ru/net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Методы бинаризации в Aspose.PSD для .NET
+
 ## Введение
 
 В мире обработки изображений возможность конвертировать цветное изображение в двоичное является решающим шагом. Бинаризация помогает упростить сложные изображения, уменьшая их до черно-белых пикселей, что упрощает анализ и извлечение информации. Aspose.PSD для .NET предоставляет мощные инструменты для манипулирования изображениями, включая надежные методы бинаризации. В этом руководстве мы рассмотрим метод BinarizationWithFixedThreshold и проведем вас через его реализацию с использованием Aspose.PSD для .NET.
@@ -104,3 +110,9 @@ A2: Конечно, вы можете просмотреть коллекцию 
 ### В5: Доступна ли пробная версия для Aspose.PSD?
 
  A5: Да, вы можете получить доступ к[бесплатная пробная версия](https://releases.aspose.com/)чтобы изучить возможности Aspose.PSD перед покупкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

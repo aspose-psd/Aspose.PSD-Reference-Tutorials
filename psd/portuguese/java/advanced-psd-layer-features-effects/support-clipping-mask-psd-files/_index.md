@@ -3,10 +3,16 @@ title: Suporta máscara de recorte em arquivos PSD com Aspose.PSD Java
 linktitle: Suporta máscara de recorte em arquivos PSD com Aspose.PSD Java
 second_title: API Java Aspose.PSD
 description: Aprenda como oferecer suporte a máscaras de recorte em arquivos PSD com Aspose.PSD para Java. Siga nosso guia passo a passo para manipular facilmente imagens PSD.
-type: docs
 weight: 16
 url: /pt/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporta máscara de recorte em arquivos PSD com Aspose.PSD Java
+
 ## Introdução
 Na era atual de arte e design digital, os arquivos PSD do Adobe Photoshop são a base da criatividade. Esses arquivos permitem que os designers usem camadas, máscaras e vários efeitos para dar vida às suas visões. Mas o que acontece quando você precisa manipular esses arquivos programaticamente? É aí que entra o Aspose.PSD para Java! É uma biblioteca robusta que permite gerenciar e manipular arquivos PSD sem esforço. Neste tutorial, veremos mais de perto como oferecer suporte a máscaras de recorte em arquivos PSD usando Aspose.PSD para Java. 
 ## Pré-requisitos
@@ -73,3 +79,9 @@ Sim, Aspose.PSD permite manipular arquivos PSD, incluindo edição de camadas, a
  Sim! Você pode acessar uma versão de teste gratuita do Aspose.PSD[aqui](https://releases.aspose.com/).
 ### Como obtenho suporte para problemas do Aspose.PSD?
  Para qualquer dúvida ou problema, você pode obter suporte através do fórum Aspose[aqui](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

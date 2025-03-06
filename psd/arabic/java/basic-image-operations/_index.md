@@ -3,10 +3,16 @@ title: عمليات الصورة الأساسية
 linktitle: عمليات الصورة الأساسية
 second_title: Aspose.PSD جافا API
 description: ارفع مهاراتك في التصميم الجرافيكي باستخدام Aspose.PSD لبرامج Java التعليمية. تعلم الرسم وتغيير الحجم وأوضاع المزج والتحقق من الشفافية في دليل خطوة بخطوة.
-type: docs
 weight: 25
 url: /ar/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمليات الصورة الأساسية
+
 
 ## مقدمة
 
@@ -44,3 +50,9 @@ url: /ar/java/basic-image-operations/
 تعرف على كيفية إضافة تأثيرات الظل الجذابة إلى الصور باستخدام Aspose.PSD لـ Java. ارفع مستوى تصميمك الجرافيكي من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [تحقق من شفافية الصورة باستخدام Aspose.PSD لـ Java](./verify-image-transparency/)
 استكشف التحقق من شفافية الصورة باستخدام Aspose.PSD لـ Java. التكامل السهل والوثائق التفصيلية والدعم المجتمعي الممتاز.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

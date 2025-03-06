@@ -3,10 +3,16 @@ title: Sorot Warna Lembar dalam File PSD menggunakan Aspose.PSD Java
 linktitle: Sorot Warna Lembar dalam File PSD menggunakan Aspose.PSD Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menyorot warna lembar dalam file PSD menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk meningkatkan keterampilan manipulasi gambar Anda di Java.
-type: docs
 weight: 19
 url: /id/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sorot Warna Lembar dalam File PSD menggunakan Aspose.PSD Java
+
 ## Perkenalan
 
 Apakah Anda ingin mendalami manipulasi gambar dan menyempurnakan kreasi digital Anda menggunakan Java? Baik Anda seorang pengembang berpengalaman atau baru memulai, bekerja dengan file PSD dapat membuka banyak kemungkinan. File PSD adalah standar industri untuk pengeditan gambar berlapis, dan dengan kekuatan Aspose.PSD untuk Java, Anda dapat dengan mudah memanipulasi file-file ini dalam aplikasi Java Anda. Hari ini, kita akan membahas cara menyorot warna lembaran dalam file PSD, memastikan desain Anda menonjol dengan cara yang paling cerah.
@@ -142,3 +148,9 @@ Setelah perubahan disimpan ke file, perubahan tersebut tidak dapat dibatalkan. N
 
 ### Bisakah saya menyorot beberapa lapisan sekaligus dalam file PSD?
 Ya, Anda dapat mengulang lapisan dalam file PSD dan menerapkan sorotan warna lembar yang diinginkan ke setiap lapisan satu per satu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

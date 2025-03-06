@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中實現伽瑪調整
 linktitle: 實施伽瑪調整
 second_title: Aspose.PSD .NET API
 description: 透過我們關於實作伽瑪調整的逐步指南來探索 Aspose.PSD for .NET 的強大功能。輕鬆微調影像亮度和對比度。
-type: docs
 weight: 12
 url: /zh-hant/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中實現伽瑪調整
+
 ## 介紹
 
 歡迎閱讀這份關於在 Aspose.PSD for .NET 中實現 Gamma 調整的綜合指南！伽瑪調整是一項重要的影像處理技術，可讓您微調影像的亮度和對比。在本教程中，我們將引導您使用強大的 .NET Aspose.PSD 庫完成整個過程。
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### Q5: 我需要臨時許可證嗎？
 
  A5：如果需要，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

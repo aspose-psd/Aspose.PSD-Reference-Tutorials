@@ -3,10 +3,16 @@ title: إنشاء مستطيلات في Aspose.PSD لـ .NET
 linktitle: بناء المستطيلات
 second_title: Aspose.PSD.NET API
 description: استكشف فن رسم المستطيلات في .NET باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة للتكامل السلس. ارفع مستوى لعبة معالجة الصور الخاصة بك دون عناء.
-type: docs
 weight: 15
 url: /ar/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستطيلات في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في المجال الديناميكي لتطوير .NET، يبرز Aspose.PSD كأداة قوية للتعامل مع معالجة الصور. يركز هذا البرنامج التعليمي على مهمة أساسية: إنشاء المستطيلات باستخدام Aspose.PSD لـ .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يضمن استيعاب كل مفهوم بدقة.
@@ -94,3 +100,9 @@ A4: يتيح استخدام 32 بت في الثانية عرضًا أكثر ثر
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD؟
 
  ج5: نعم، يمكنك استكشاف Aspose.PSD من خلال النسخة التجريبية المجانية. قم بتنزيله[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

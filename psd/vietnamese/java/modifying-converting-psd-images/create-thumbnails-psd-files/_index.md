@@ -3,10 +3,16 @@ title: Tạo hình thu nhỏ từ tệp PSD bằng Java
 linktitle: Tạo hình thu nhỏ từ tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách dễ dàng tạo hình thu nhỏ từ tệp PSD bằng Java và Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý hình ảnh liền mạch.
-type: docs
 weight: 24
 url: /vi/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình thu nhỏ từ tệp PSD bằng Java
+
 ## Giới thiệu
 Trong thế giới thiết kế đồ họa, việc làm việc với các tệp PSD (Tài liệu Photoshop) là điều bình thường. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm, nhà thiết kế đồ họa hay chỉ là người muốn tìm hiểu sâu về xử lý hình ảnh, việc tạo hình thu nhỏ từ tệp PSD có thể giúp bạn tiết kiệm thời gian và hợp lý hóa quy trình làm việc của mình. Hướng dẫn này sẽ hướng dẫn bạn trong toàn bộ quá trình sử dụng Aspose.PSD cho Java. Aspose.PSD không chỉ là một thư viện mạnh mẽ để quản lý các tệp Photoshop mà còn giúp công việc này trở nên trực quan và dễ quản lý. Bạn đã sẵn sàng tìm hiểu cách tạo hình thu nhỏ từ tệp PSD một cách hiệu quả chưa?
 ## Điều kiện tiên quyết
@@ -112,3 +118,9 @@ Trong ví dụ này, chúng tôi đã lưu hình thu nhỏ ở định dạng BM
 Không, Aspose.PSD hoạt động độc lập với Photoshop.
 ### Tôi có thể tìm thêm thông tin về Aspose.PSD ở đâu?
  Bạn có thể kiểm tra[Tài liệu Aspose.PSD](https://reference.aspose.com/psd/java/) để biết thêm chi tiết, hướng dẫn và tài nguyên.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

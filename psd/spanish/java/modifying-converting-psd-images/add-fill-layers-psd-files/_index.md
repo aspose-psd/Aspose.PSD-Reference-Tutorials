@@ -3,10 +3,16 @@ title: Agregue capas de relleno a archivos PSD en Aspose.PSD para Java
 linktitle: Agregue capas de relleno a archivos PSD en Aspose.PSD para Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo agregar capas de relleno a archivos PSD en Java usando Aspose.PSD con nuestra guía paso a paso. Mejora tus diseños.
-type: docs
 weight: 13
 url: /es/java/modifying-converting-psd-images/add-fill-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue capas de relleno a archivos PSD en Aspose.PSD para Java
+
 ## Introducción
 Si alguna vez incursionó en el diseño gráfico o trabajó en documentos de Photoshop, sabrá lo cruciales que son las capas. Las capas le permiten crear su composición, mantener distintos los elementos y aplicar efectos sin perder la calidad de la imagen original. Hoy nos centraremos en el uso de Aspose.PSD para Java para agregar capas de relleno a sus archivos PSD. No sólo es fácil, sino que es una excelente manera de mejorar sus diseños sin procesos manuales engorrosos.
 ## Requisitos previos
@@ -90,3 +96,9 @@ Puede explorar una prueba gratuita de Aspose.PSD para Java[aquí](https://releas
  Puedes acceder a la documentación completa[aquí](https://reference.aspose.com/psd/java/).
 ### ¿Existe una comunidad de soporte para Aspose.PSD?
  Sí, puedes obtener ayuda de la comunidad en el foro de Aspose.[aquí](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

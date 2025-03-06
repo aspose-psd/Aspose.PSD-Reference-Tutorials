@@ -3,10 +3,16 @@ title: Ajuster la zone de délimitation du calque de texte dans PSD à l'aide de
 linktitle: Ajuster la zone de délimitation du calque de texte dans PSD à l'aide de Java
 second_title: API Java Aspose.PSD
 description: Apprenez à ajuster les limites des calques de texte dans les fichiers PSD à l'aide de Java avec Aspose.PSD. Guide simple avec des instructions étape par étape.
-type: docs
 weight: 25
 url: /fr/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajuster la zone de délimitation du calque de texte dans PSD à l'aide de Java
+
 ## Introduction
 Lorsqu'il s'agit de manipuler des documents Photoshop par programme, la bibliothèque Aspose.PSD pour Java brille de mille feux. Si vous cherchez à ajuster les limites d'un calque de texte dans un fichier PSD, vous êtes au bon endroit ! Ce didacticiel vous guidera étape par étape tout au long du processus d'ajustement de la zone de délimitation du calque de texte à l'aide de Java.
 Avec des exemples faciles à suivre et une touche de ton conversationnel pour garder les choses intéressantes, vous constaterez que la manipulation de fichiers PSD n'est pas aussi intimidante qu'il y paraît. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec Java, vous trouverez ici des informations précieuses. Plongeons dans le monde passionnant de la manipulation PSD.
@@ -80,3 +86,9 @@ Oui, Aspose.PSD est disponible pour diverses plates-formes de programmation, not
 Vous pouvez trouver du soutien et des discussions communautaires sur leur[Forum Aspose](https://forum.aspose.com/c/psd/34).
 ### Existe-t-il une version d’essai disponible pour Aspose.PSD ?
  Oui! Vous pouvez télécharger une version d'essai gratuite à partir du[Site Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

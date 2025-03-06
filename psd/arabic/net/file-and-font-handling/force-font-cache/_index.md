@@ -3,10 +3,16 @@ title: فرض ذاكرة التخزين المؤقت للخط في Aspose.PSD ل
 linktitle: فرض ذاكرة التخزين المؤقت للخط
 second_title: Aspose.PSD.NET API
 description: استكشف إدارة ذاكرة التخزين المؤقت للخطوط خطوة بخطوة في Aspose.PSD لـ .NET. تأكد من العرض الدقيق باستخدام مكتبة .NET القوية هذه.
-type: docs
 weight: 14
 url: /ar/net/file-and-font-handling/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# فرض ذاكرة التخزين المؤقت للخط في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 يوفر Aspose.PSD for .NET أدوات قوية للعمل مع ملفات PSD في تطبيقات .NET الخاصة بك. إحدى الميزات الأساسية هي القدرة على فرض ذاكرة التخزين المؤقت للخط، مما يضمن الحفاظ على عرض متسق ودقيق لملفات PSD الخاصة بك. في هذا البرنامج التعليمي، سنرشدك خلال عملية فرض ذاكرة التخزين المؤقت للخط في Aspose.PSD لـ .NET، خطوة بخطوة.
@@ -95,3 +101,9 @@ using (PsdImage image = (PsdImage)Image.Load(dataDir + @"sample.psd"))
 ### س5: هل يمكنني شراء Aspose.PSD لـ .NET مباشرة؟
 
  ج5: نعم، يمكنك شراء Aspose.PSD لـ .NET من خلال[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

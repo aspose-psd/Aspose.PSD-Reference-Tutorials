@@ -3,10 +3,16 @@ title: 이미지 효과
 linktitle: 이미지 효과
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD의 동적 이미지 향상을 마스터하세요. 런타임에 멋진 효과를 추가, 오버레이 및 렌더링하는 방법에 대한 튜토리얼을 통해 이미지 처리 수준을 높이세요.
-type: docs
 weight: 25
 url: /ko/net/image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 효과
+
 
 ## 소개
 
@@ -34,3 +40,9 @@ url: /ko/net/image-effects/
 색상 효과 오버레이에 대한 튜토리얼을 통해 .NET용 Aspose.PSD의 마법을 탐험해보세요. 귀하의 이미지 처리 게임을 손쉽게 향상시켜 보세요.
 ### [.NET용 Aspose.PSD에서 그림자 효과 렌더링](./render-drop-shadow/)
 이 튜토리얼에서 .NET용 Aspose.PSD의 강력한 기능을 살펴보고 매혹적인 그림자 효과 렌더링 기술을 마스터하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

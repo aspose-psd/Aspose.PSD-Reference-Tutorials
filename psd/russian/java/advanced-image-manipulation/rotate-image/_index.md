@@ -3,10 +3,16 @@ title: Поворот изображения в Aspose.PSD для Java
 linktitle: Поворот изображения
 second_title: Aspose.PSD Java API
 description: Исследуйте поворот изображений в Java без особых усилий с помощью Aspose.PSD. Легко вращайте, переворачивайте и сохраняйте PSD-файлы.
-type: docs
 weight: 19
 url: /ru/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поворот изображения в Aspose.PSD для Java
+
 ## Введение
 
 Aspose.PSD для Java предоставляет мощный набор функций для работы с изображениями, позволяя разработчикам эффективно манипулировать и обрабатывать PSD-файлы. В этом уроке мы сосредоточимся на одной конкретной задаче: повороте изображения. Создаете ли вы приложение для редактирования фотографий или просто хотите настроить ориентацию изображения, Aspose.PSD упрощает этот процесс.
@@ -84,3 +90,9 @@ image.save(destName, new JpegOptions());
 ### Вопрос 5: Как мне получить временную лицензию?
 
  О5: Если вам нужна временная лицензия, вы можете получить ее.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

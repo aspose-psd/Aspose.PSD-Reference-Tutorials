@@ -3,10 +3,16 @@ title: Effets d'image avancés
 linktitle: Effets d'image avancés
 second_title: API Java Aspose.PSD
 description: Élevez vos conceptions graphiques Java avec Aspose.PSD ! Maîtrisez les effets d’image avancés en toute transparence – des dégradés et motifs aux signatures et traits.
-type: docs
 weight: 26
 url: /fr/java/advanced-image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effets d'image avancés
+
 ## Introduction
 Êtes-vous prêt à faire passer vos conceptions graphiques Java au niveau supérieur ? Aspose.PSD pour Java ouvre un monde de possibilités pour améliorer vos images avec des effets avancés. Dans ce guide complet, nous vous présenterons une série de didacticiels, chacun se concentrant sur un aspect unique de la manipulation d'images à l'aide d'Aspose.PSD.
 
@@ -42,3 +48,9 @@ Améliorez vos modèles d'image Java sans effort avec Aspose.PSD pour Java. Suiv
 Découvrez l'intégration transparente des signatures dans les images avec Aspose.PSD pour Java. Suivez notre guide étape par étape, importez les packages nécessaires et améliorez les capacités graphiques de votre application Java.
 ### [Ajouter une couleur de calque de trait dans Aspose.PSD pour Java](./add-stroke-layer-color/)
 Explorez la puissance d'Aspose.PSD pour Java avec notre guide étape par étape sur l'ajout de couleur de calque de trait. Élevez vos créations graphiques sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java के लिए Aspose.PSD में पथ सेट करके 
 linktitle: पथ सेट करके छवि बनाएँ
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java का उपयोग करके PSD इमेज बनाना सीखें। सहज इमेज निर्माण के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
-type: docs
 weight: 13
 url: /hi/java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java के लिए Aspose.PSD में पथ सेट करके छवि बनाएँ
+
 ## परिचय
 
 जावा के लिए Aspose.PSD का उपयोग करके छवियाँ बनाने पर इस चरण-दर-चरण ट्यूटोरियल में आपका स्वागत है। इस गाइड में, हम यह पता लगाएंगे कि PSD छवि बनाने के लिए पथ कैसे सेट करें और विकल्पों को कॉन्फ़िगर करें। Aspose.PSD फ़ोटोशॉप फ़ाइलों के साथ काम करने के लिए एक शक्तिशाली जावा लाइब्रेरी है, जो प्रोग्रामेटिक रूप से छवियों को हेरफेर करने और बनाने का एक सहज तरीका प्रदान करती है।
@@ -107,3 +113,9 @@ A1: हां, Aspose.PSD विभिन्न जावा एकीकृत 
 ### प्रश्न 5: क्या मुझे परीक्षण के लिए अस्थायी लाइसेंस की आवश्यकता है?
 
  A5: आप परीक्षण उद्देश्यों के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

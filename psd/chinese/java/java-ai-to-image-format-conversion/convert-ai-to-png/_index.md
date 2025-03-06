@@ -3,10 +3,16 @@ title: 使用 Java 将 AI 转换为 PNG
 linktitle: 使用 Java 将 AI 转换为 PNG
 second_title: Aspose.PSD Java API
 description: 按照本指南使用 Aspose.PSD 在 Java 中轻松将 AI 转换为 PNG。了解如何轻松加载、设置选项以及将 AI 文件保存为 PNG 图像。
-type: docs
 weight: 13
 url: /zh/java/java-ai-to-image-format-conversion/convert-ai-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 将 AI 转换为 PNG
+
 ## 介绍
 您是否希望使用 Java 将 Adobe Illustrator (.AI) 文件转换为 PNG 图像？您来对地方了！在本教程中，我们将使用强大的 Aspose.PSD for Java 库逐步指导您完成该过程。本指南将帮助您了解如何仅用几行代码将 AI 文件无缝转换为高质量 PNG。让我们开始吧！
 ## 先决条件
@@ -57,3 +63,9 @@ Aspose.PSD 支持 PSD、PSB、AI 和其他 Adobe 文件格式。它允许转换�
 Aspose.PSD 与 JDK 8 及更高版本兼容。请确保安装了适当的 JDK 版本。
 ### 在哪里可以找到更多文档？
 您可以找到有关[Aspose.PSD 文档页面](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

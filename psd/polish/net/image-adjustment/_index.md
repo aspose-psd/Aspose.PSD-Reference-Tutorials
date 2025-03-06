@@ -3,10 +3,16 @@ title: Regulacja obrazu
 linktitle: Regulacja obrazu
 second_title: Aspose.PSD API .NET
 description: Odblokuj potencjał dostosowywania obrazu za pomocą Aspose.PSD dla .NET. Zapoznaj się z samouczkami dotyczącymi jasności, kontrastu i balansu kolorów, aby opanować manipulację obrazem.
-type: docs
 weight: 24
 url: /pl/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Regulacja obrazu
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść swoje umiejętności manipulacji obrazem? Zanurz się w świecie Aspose.PSD dla .NET dzięki naszym obszernym samouczkom na temat dostosowywania obrazu. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, nasze szczegółowe przewodniki pozwolą Ci bez wysiłku ulepszać obrazy.
@@ -42,3 +48,9 @@ Poznaj możliwości Aspose.PSD dla .NET dzięki naszemu przewodnikowi krok po kr
 Dowiedz się, jak bez wysiłku rozmyć obrazy za pomocą Aspose.PSD dla .NET. Przewodnik krok po kroku dotyczący płynnej manipulacji obrazami w projektach C#.
 ### [Stosowanie regulacji balansu kolorów w Aspose.PSD dla .NET](./color-balance-adjustment/)
 Popraw kolory obrazu PSD bez wysiłku dzięki funkcji regulacji balansu kolorów Aspose.PSD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać oszałamiające rezultaty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

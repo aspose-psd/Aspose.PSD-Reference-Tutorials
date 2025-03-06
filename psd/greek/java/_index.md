@@ -1,12 +1,17 @@
 ---
 title: Ολοκληρωμένα σεμινάρια & παραδείγματα Aspose.PSD για Java
 linktitle: Aspose.PSD για Java Tutorials
-type: docs
 weight: 10
 url: /el/java/
 description: Ξεκλειδώστε τη δύναμη του Aspose.PSD για Java στην επεξεργασία εικόνας! Κύρια φίλτρα όπως το Gaussian, το Wiener, το Median και το Motion Wiener με οδηγίες βήμα προς βήμα.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ολοκληρωμένα σεμινάρια & παραδείγματα Aspose.PSD για Java
+
 
 ## Εισαγωγή
 
@@ -86,3 +91,9 @@ is_root: true
 Διαχειριστείτε αποτελεσματικά τις εικόνες TIFF με το Aspose.PSD για Java. Μάθετε να συμπιέζετε, να διαμορφώνετε και να εφαρμόζετε τη συμπίεση Adobe Deflate σε αρχεία TIFF με τα αναλυτικά μας σεμινάρια.
 ### [Εργασία με αρχεία PSD](./working-with-psd-files/)
 Εξερευνήστε ολοκληρωμένα μαθήματα Aspose.PSD για Java, συμπεριλαμβανομένου του τρόπου εξαγωγής ομάδων επιπέδων PSD σε εικόνες και χειρισμού πόρων Clbl, Infx και Lspf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

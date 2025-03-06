@@ -3,10 +3,16 @@ title: Memutar Gambar pada Sudut Tertentu di Aspose.PSD untuk .NET
 linktitle: Memutar Gambar pada Sudut Tertentu
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi kekuatan Aspose.PSD untuk .NET. Putar gambar dengan mudah pada sudut tertentu. Unduh perpustakaan dan mulailah memanipulasi gambar dengan lancar.
-type: docs
 weight: 16
 url: /id/net/image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memutar Gambar pada Sudut Tertentu di Aspose.PSD untuk .NET
+
 Jika Anda mendalami dunia manipulasi gambar dengan .NET, Aspose.PSD memberikan solusi yang ampuh. Dalam tutorial ini, kami akan memandu Anda melalui proses memutar gambar pada sudut tertentu menggunakan Aspose.PSD. Sebelum kita masuk ke langkah-langkahnya, mari kita siapkan tahapannya dengan pendahuluan.
 
 ## Perkenalan
@@ -104,3 +110,9 @@ J3: Meskipun tidak wajib, data cache dapat meningkatkan performa secara signifik
 ### Q5: Dapatkah saya mencoba Aspose.PSD sebelum membeli?
 
  A5: Tentu saja! Ambil milikmu[uji coba gratis](https://releases.aspose.com/)untuk mengeksplorasi kemampuan perpustakaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

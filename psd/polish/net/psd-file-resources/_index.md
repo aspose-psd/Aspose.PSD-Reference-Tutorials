@@ -3,10 +3,16 @@ title: Zasoby plików PSD
 linktitle: Zasoby plików PSD
 second_title: Aspose.PSD API .NET
 description: Odblokuj pełny potencjał Aspose.PSD dla .NET dzięki naszym tutorialom. Płynnie opanuj kolor tła, informacje o granicach, ścieżkę roboczą i zasoby czarno-białe.
-type: docs
 weight: 31
 url: /pl/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zasoby plików PSD
+
 
 ## Wstęp
 
@@ -39,3 +45,9 @@ Przeglądaj Aspose.PSD dla funkcji zasobu informacji o granicach .NET, aby uzysk
 Poznaj moc „WorkingPathResource” w Aspose.PSD dla .NET. Zwiększ precyzję obrazu dzięki temu przewodnikowi krok po kroku.
 ### [Obsługa zasobów czarno-białych (Blwh) w Aspose.PSD dla .NET](./supporting-black-and-white-blwh-resource/)
 Poznaj zaawansowaną edycję obrazów za pomocą Aspose.PSD dla .NET. Naucz się opanowywać warstwy dopasowania Czarno-białego, aby uzyskać precyzyjną kontrolę nad elementami obrazu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

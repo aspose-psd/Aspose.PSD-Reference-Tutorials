@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일의 텍스트 부분 스타일 지정
 linktitle: Java를 사용하여 PSD 파일의 텍스트 부분 스타일 지정
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 텍스트 스타일을 마스터하세요. 텍스트 부분을 손쉽게 수정, 생성 및 스타일 지정하는 방법을 알아보세요. PSD 디자인을 향상시키세요.
-type: docs
 weight: 22
 url: /ko/java/psd-layer-management-effects/style-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일의 텍스트 부분 스타일 지정
+
 ## 소개
 
 PSD 파일의 텍스트 레이어에 추가적인 매력을 추가하고 싶었던 적이 있습니까? Java용 Aspose.PSD는 텍스트를 조작할 뿐만 아니라 개별 부분의 스타일을 놀라울 정도로 정밀하게 지정할 수 있는 기능을 제공합니다. 이 포괄적인 가이드는 환경 설정부터 PSD 내에서 멋진 스타일의 텍스트 요소를 만드는 것까지 프로세스를 단계별로 안내합니다.
@@ -177,3 +183,9 @@ psdImage.save(outPsdFilePath);
 
 ### 처리할 수 있는 텍스트 부분이나 문자 수에 제한이 있나요?
 실제 제한 사항은 시스템 리소스와 PSD 파일의 복잡성에 따라 달라집니다. 그러나 Java용 Aspose.PSD는 대용량 PSD 파일을 효율적으로 처리하도록 설계되었습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

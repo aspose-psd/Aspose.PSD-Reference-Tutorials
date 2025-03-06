@@ -3,10 +3,16 @@ title: Áp dụng Bộ lọc trung vị và Wiener trong ảnh màu với Aspose
 linktitle: Áp dụng Bộ lọc trung vị và Wiener trong ảnh màu với Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Nâng cao và khử nhiễu hình ảnh màu bằng Aspose.PSD cho .NET bằng Bộ lọc Median và Wiener. Hướng dẫn từng bước để xử lý hình ảnh liền mạch.
-type: docs
 weight: 11
 url: /vi/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Bộ lọc trung vị và Wiener trong ảnh màu với Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách áp dụng Bộ lọc trung bình và Wiener trong ảnh màu bằng Aspose.PSD cho .NET. Aspose.PSD là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc liền mạch với các tệp PSD. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình áp dụng Bộ lọc Median và Wiener để nâng cao và khử nhiễu hình ảnh màu.
@@ -95,3 +101,9 @@ Câu trả lời 2: Bạn có thể triển khai các khối thử bắt để x
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD?
 
  Câu trả lời 5: Bạn có thể nhận được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

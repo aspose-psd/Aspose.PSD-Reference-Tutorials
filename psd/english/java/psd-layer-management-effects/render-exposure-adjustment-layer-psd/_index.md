@@ -3,10 +3,16 @@ title: Render Exposure Adjustment Layer in PSD Files - Java
 linktitle: Render Exposure Adjustment Layer in PSD Files - Java
 second_title: Aspose.PSD Java API
 description: Learn how to render and adjust exposure layers in PSD files using Aspose.PSD for Java. Step-by-step guide with code examples for modifying and adding exposure layers.
-type: docs
 weight: 15
 url: /java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Exposure Adjustment Layer in PSD Files - Java
+
 ## Introduction
 
 Are you working with Photoshop PSD files and need to adjust the exposure or add an exposure adjustment layer programmatically? Whether you're tweaking existing layers or adding new ones, Aspose.PSD for Java provides a powerful and intuitive way to handle these tasks. In this guide, we'll walk through how to use Aspose.PSD for Java to render and modify exposure adjustment layers in PSD files. By the end of this tutorial, you'll know how to adjust exposure settings in existing layers and add new exposure adjustment layers to your PSD files. Let's dive in!
@@ -138,3 +144,10 @@ Yes, a free trial is available. You can download it [here](https://releases.aspo
 ### How can I get support for Aspose.PSD for Java?
 
 For support, you can visit the [Aspose support forum](https://forum.aspose.com/c/psd/34) where you can ask questions and get help from the community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

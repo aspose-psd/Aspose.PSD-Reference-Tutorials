@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD를 사용하여 타원형 모양 만들기
 linktitle: .NET용 Aspose.PSD를 사용하여 타원형 모양 만들기
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 .NET에서 타원형 모양을 그리는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다. 손쉽게 멋진 그래픽을 만들어 보세요.
-type: docs
 weight: 13
 url: /ko/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD를 사용하여 타원형 모양 만들기
+
 ## 소개
 
 .NET용 Aspose.PSD를 사용하여 타원형 모양을 만드는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.PSD는 개발자가 Adobe Photoshop 없이도 Photoshop 파일을 조작하고 변환할 수 있는 강력한 .NET 라이브러리입니다. 이 튜토리얼에서는 라이브러리를 사용하여 타원형 모양을 그리는 과정을 안내합니다.
@@ -101,3 +107,9 @@ using (Image image = new PsdImage(100, 100))
 ### Q5: 테스트하려면 임시 라이센스가 필요합니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

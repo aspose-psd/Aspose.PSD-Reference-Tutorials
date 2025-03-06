@@ -3,10 +3,16 @@ title: Thêm lớp tô màu gradient trong tệp PSD bằng Java
 linktitle: Thêm lớp tô màu gradient trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Sửa đổi các lớp tô màu gradient trong tệp PSD bằng Aspose.PSD cho Java. Tìm hiểu cách thay đổi màu sắc, độ trong suốt và các thuộc tính chuyển màu khác theo chương trình.
-type: docs
 weight: 15
 url: /vi/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lớp tô màu gradient trong tệp PSD bằng Java
+
 ## Giới thiệu
 
 Bạn đã bao giờ khao khát thêm chút ma thuật thị giác cho các tệp PSD của mình chưa? Chuyển màu cung cấp một cách tuyệt vời để thêm chiều sâu và kích thước cho thiết kế của bạn. Nhưng nếu bạn muốn lập trình thao tác các gradient này bằng Java thì sao? Aspose.PSD ra tay giải cứu! Hướng dẫn toàn diện này sẽ trao quyền cho bạn sửa đổi các lớp tô màu gradient trong tệp PSD bằng Aspose.PSD, đưa bạn từng bước qua quy trình thú vị.
@@ -167,3 +173,9 @@ Tác động hiệu suất phụ thuộc vào độ phức tạp của độ d�
 
 ### Tôi có thể áp dụng kỹ thuật này cho nhiều lớp tô màu gradient trong tệp PSD không?
 Có, bạn có thể lặp qua các lớp và áp dụng các sửa đổi cho từng lớp tô màu chuyển màu đáp ứng tiêu chí của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

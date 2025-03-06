@@ -3,10 +3,16 @@ title: Medián és Wiener szűrők alkalmazása színes képeken az Aspose.PSD f
 linktitle: Medián és Wiener szűrők alkalmazása színes képeken az Aspose.PSD for .NET segítségével
 second_title: Aspose.PSD .NET API
 description: Javítsa és csökkentse a színes képeket az Aspose.PSD for .NET segítségével Median és Wiener szűrők használatával. Lépésről lépésre útmutató a zökkenőmentes képfeldolgozáshoz.
-type: docs
 weight: 11
 url: /hu/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Medián és Wiener szűrők alkalmazása színes képeken az Aspose.PSD for .NET segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésenkénti útmutatóban a Medián és Wiener szűrők színes képeken történő alkalmazásáról az Aspose.PSD for .NET használatával. Az Aspose.PSD egy hatékony könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy zökkenőmentesen dolgozzanak a PSD fájlokkal. Ebben az oktatóanyagban megvizsgáljuk a Medián és Wiener szűrők alkalmazásának folyamatát a színes képek javítására és zajtalanítására.
@@ -95,3 +101,9 @@ Gratulálok! Sikeresen alkalmazta a Median és Wiener szűrőket a színes képe
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 
  5. válasz: Ideiglenes engedélyt kaphat[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

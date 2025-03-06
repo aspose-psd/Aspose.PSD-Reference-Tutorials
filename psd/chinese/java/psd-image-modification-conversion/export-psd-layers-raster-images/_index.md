@@ -3,10 +3,16 @@ title: 使用 Java 将 PSD 图层导出为光栅图像
 linktitle: 使用 Java 将 PSD 图层导出为光栅图像
 second_title: Aspose.PSD Java API
 description: 学习使用 Aspose.PSD for Java 将 PSD 图层导出为 PNG 图像。通过我们详细的分步教程解锁无缝文件操作。
-type: docs
 weight: 12
 url: /zh/java/psd-image-modification-conversion/export-psd-layers-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 将 PSD 图层导出为光栅图像
+
 ## 介绍
 
 在数字设计领域，处理分层图像既是福音，也是挑战。想象一下，您花了几个小时在 Photoshop（PSD 格式）中制作了一张精美的图像，其中包含多个图层，使您的设计栩栩如生。现在，您可能希望单独导出这些图层以供进一步使用！这就是 Aspose.PSD for Java 发挥作用的地方，它可以轻松地自动完成将 PSD 文件中的每个图层导出为光栅图像（例如 PNG）的繁琐任务。在本综合指南中，我们将逐步带您完成使用 Java 导出 PSD 图层的整个过程。
@@ -99,3 +105,9 @@ Aspose.PSD for Java 是一个库，使开发人员能够在 Java 应用程序中
 
 ### 我可以在哪里购买 Aspose.PSD 的许可证？
 您可以从其购买页面轻松购买 Aspose.PSD 许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

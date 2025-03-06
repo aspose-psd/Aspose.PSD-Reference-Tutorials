@@ -3,10 +3,16 @@ title: Περιστρέψτε μια εικόνα στο Aspose.PSD για Java
 linktitle: Περιστροφή εικόνας
 second_title: Aspose.PSD Java API
 description: Εξερευνήστε την περιστροφή εικόνας σε Java χωρίς κόπο με το Aspose.PSD. Περιστρέψτε, αναποδογυρίστε και αποθηκεύστε αρχεία PSD εύκολα.
-type: docs
 weight: 19
 url: /el/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περιστρέψτε μια εικόνα στο Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Το Aspose.PSD για Java παρέχει ένα ισχυρό σύνολο δυνατοτήτων για εργασία με εικόνες, επιτρέποντας στους προγραμματιστές να χειρίζονται και να επεξεργάζονται αποτελεσματικά αρχεία PSD. Σε αυτό το σεμινάριο, θα επικεντρωθούμε σε μια συγκεκριμένη εργασία: την περιστροφή μιας εικόνας. Είτε δημιουργείτε μια εφαρμογή επεξεργασίας φωτογραφιών είτε απλά χρειάζεται να προσαρμόσετε τον προσανατολισμό μιας εικόνας, το Aspose.PSD κάνει τη διαδικασία απλή.
@@ -84,3 +90,9 @@ A1: Ναι, το Aspose.PSD υποστηρίζει διάφορες μορφές
 ### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
 
  A5: Εάν χρειάζεστε μια προσωρινή άδεια, μπορείτε να αποκτήσετε μια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

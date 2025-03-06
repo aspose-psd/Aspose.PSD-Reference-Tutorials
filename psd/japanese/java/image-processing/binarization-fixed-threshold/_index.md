@@ -3,10 +3,16 @@ title: Aspose.PSD for Java での固定しきい値による二値化
 linktitle: 固定しきい値による二値化
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java で固定しきい値による 2 値化を探索します。ステップバイステップのガイドに従って、画像をシームレスに変換します。
-type: docs
 weight: 14
 url: /ja/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java での固定しきい値による二値化
+
 ## 導入
 
 Java 開発の分野では、Aspose.PSD は画像処理タスクの強力なツールであることが証明されています。そのような重要な操作の 1 つが 2 値化です。これは、画像をバイナリ形式に変換して簡素化する手法です。このチュートリアルでは、Aspose.PSD for Java を使用して固定しきい値で 2 値化を実現するプロセスについて説明します。この画期的な画像処理の旅の手順をじっくりと見ていきましょう。
@@ -101,3 +107,9 @@ A1: はい、Aspose.PSD はさまざまな画像形式をサポートしてい�
 ### Q5: 無料試用版はありますか？
 
  A5: はい、無料試用版でAspose.PSDの機能を試すことができます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

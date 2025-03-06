@@ -3,10 +3,16 @@ title: Loading Images from Stream with Aspose.PSD for Java
 linktitle: Loading Images from Stream
 second_title: Aspose.PSD Java API
 description: Learn to load PSD images seamlessly in Java using Aspose.PSD. Follow our step-by-step guide for efficient image processing.
-type: docs
 weight: 11
 url: /java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Loading Images from Stream with Aspose.PSD for Java
+
 ## Introduction
 
 Aspose.PSD for Java is a feature-rich library that allows developers to work seamlessly with PSD files, performing various image processing tasks. In this tutorial, we'll focus on the essential steps to load images from a stream using Aspose.PSD for Java.
@@ -105,3 +111,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: Where can I purchase Aspose.PSD for Java?
 
 A5: Visit the [purchase page](https://purchase.aspose.com/buy) to acquire Aspose.PSD for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

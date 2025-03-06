@@ -3,10 +3,16 @@ title: Ajouter un calque de réglage du mélangeur de canaux dans PSD
 linktitle: Ajouter un calque de réglage du mélangeur de canaux dans PSD
 second_title: API Java Aspose.PSD
 description: Améliorez vos fichiers PSD avec les calques de réglage du mélangeur de canaux à l'aide d'Aspose.PSD pour Java. Apprenez les techniques de manipulation des couleurs étape par étape pour obtenir des images éclatantes.
-type: docs
 weight: 10
 url: /fr/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un calque de réglage du mélangeur de canaux dans PSD
+
 ## Introduction
 Le monde du design graphique regorge de possibilités, mais parfois, obtenir le look parfait peut donner l’impression de se promener dans une forêt dense sans carte. Avez-vous déjà eu l'impression que vos images manquaient simplement de ce facteur « wow » ? Eh bien, c'est là que les calques de réglage entrent en jeu ! Aujourd'hui, nous examinons comment ajouter des calques de réglage du mixeur de canaux à l'aide d'Aspose.PSD pour Java. Il s'agit d'un outil astucieux qui vous permet d'effectuer des ajustements précis des couleurs de vos fichiers PSD, garantissant ainsi que vos images ressortent et impressionnent.
 
@@ -167,3 +173,9 @@ Aspose.PSD est principalement conçu pour travailler avec des fichiers PSD, mais
 
 ### Existe-t-il un moyen d’obtenir une licence temporaire pour Aspose.PSD ?
  Oui! Vous pouvez demander une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

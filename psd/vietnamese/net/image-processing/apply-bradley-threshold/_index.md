@@ -3,10 +3,16 @@ title: Áp dụng Ngưỡng Bradley trong Aspose.PSD cho .NET
 linktitle: Áp dụng ngưỡng Bradley
 second_title: API Aspose.PSD .NET
 description: Nâng cao khả năng phân đoạn hình ảnh bằng Ngưỡng Bradley trong Aspose.PSD cho .NET. Hướng dẫn từng bước để nhị phân hóa hiệu quả.
-type: docs
 weight: 15
 url: /vi/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Ngưỡng Bradley trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách áp dụng Ngưỡng Bradley trong Aspose.PSD cho .NET. Aspose.PSD for .NET là một thư viện mạnh mẽ cho phép bạn làm việc với các tệp Photoshop trong các ứng dụng .NET của mình. Ngưỡng Bradley là một kỹ thuật được sử dụng để nhị phân hóa hình ảnh, giúp tách các đối tượng khỏi nền một cách hiệu quả.
@@ -90,3 +96,9 @@ Câu trả lời 1: Có, Ngưỡng Bradley là một kỹ thuật linh hoạt ph
 ### Câu hỏi 5: Tôi có thể mua giấy phép cho Aspose.PSD ở đâu?
 
  A5: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

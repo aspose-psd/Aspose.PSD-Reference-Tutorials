@@ -3,10 +3,16 @@ title: 基本图像操作
 linktitle: 基本图像操作
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java 教程提升您的图形设计技能。通过分步指南学习绘图、调整大小、混合模式和透明度验证。
-type: docs
 weight: 25
 url: /zh/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 基本图像操作
+
 
 ## 介绍
 
@@ -44,3 +50,9 @@ url: /zh/java/basic-image-operations/
 了解如何使用 Aspose.PSD for Java 为图像添加迷人的阴影效果。通过本分步教程提升您的图形设计。
 ### [使用 Aspose.PSD for Java 验证图像透明度](./verify-image-transparency/)
 使用 Aspose.PSD for Java 探索图像透明度验证。轻松集成、详细文档和出色的社区支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

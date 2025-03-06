@@ -3,10 +3,16 @@ title: Manipulasi Gambar
 linktitle: Manipulasi Gambar
 second_title: Asumsikan.PSD .NET API
 description: Tingkatkan proyek .NET Anda dengan Aspose.PSD! Pelajari teknik manipulasi gambar seperti menggabungkan, memotong, mengubah ukuran, memutar, dan menambahkan efek dengan mudah.
-type: docs
 weight: 26
 url: /id/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Gambar
+
 ## Perkenalan
 
 Manipulasi gambar adalah keterampilan penting bagi pengembang atau desainer mana pun yang bekerja dengan .NET, dan Asumsikan.PSD untuk .NET menyediakan perangkat canggih untuk meningkatkan kemampuan Anda. Dalam tutorial ini, kita akan mempelajari berbagai teknik manipulasi gambar yang dapat diterapkan dengan mulus[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Jelajahi kekuatan Efek Cahaya Luar di Aspose.PSD untuk .NET. Tingkatkan desain g
 Kuasai seni rendering Efek Gradient Overlay di Aspose.PSD untuk .NET. Tingkatkan keterampilan desain grafis Anda dengan tutorial langkah demi langkah ini.
 ### [Mendukung Efek Gradient Overlay di Aspose.PSD untuk .NET](./supporting-gradient-overlay-effect/)
 Tingkatkan grafis di .NET dengan Aspose.PSD. Tutorial ini memandu Anda dalam mendukung Efek Gradient Overlay.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Applica l'ombra esterna del rendering in Aspose.PSD per Java
 linktitle: Applica l'ombra esterna del rendering
 second_title: API Java Aspose.PSD
 description: Esplora la guida passo passo per applicare il rendering delle ombre esterne in Aspose.PSD per Java, migliorando le tue capacità di elaborazione delle immagini senza sforzo.
-type: docs
 weight: 16
 url: /it/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applica l'ombra esterna del rendering in Aspose.PSD per Java
+
 ## Introduzione
 
 Se ti stai immergendo nell'elaborazione delle immagini con Java, Aspose.PSD è il tuo strumento di riferimento per una manipolazione fluida ed efficiente dei file PSD. In questo tutorial, esploreremo il processo di applicazione di un'ombra esterna di rendering utilizzando Aspose.PSD per Java. Allacciate le cinture, mentre analizziamo i passaggi per voi.
@@ -125,3 +131,9 @@ A3: Aspose.PSD fornisce compatibilità con un'ampia gamma di versioni di file PS
 ### Q5: Posso testare Aspose.PSD prima di effettuare un acquisto?
 
  A5: Assolutamente, usa il file[prova gratuita](https://releases.aspose.com/) esplorare le funzionalità prima di impegnarsi in un acquisto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

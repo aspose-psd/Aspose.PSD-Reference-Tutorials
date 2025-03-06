@@ -3,10 +3,16 @@ title: Pas de helderheid van een afbeelding aan met Aspose.PSD voor Java
 linktitle: Pas de helderheid van een afbeelding aan
 second_title: Aspose.PSD Java-API
 description: Verbeter de helderheid van afbeeldingen in Java met Aspose.PSD. Stapsgewijze handleiding om de helderheid van de afbeelding programmatisch aan te passen.
-type: docs
 weight: 21
 url: /nl/java/advanced-techniques/adjust-brightness/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas de helderheid van een afbeelding aan met Aspose.PSD voor Java
+
 ## Invoering
 
 Het verbeteren van afbeeldingen is een veel voorkomende vereiste in grafisch ontwerp en digitale fotografie. Aspose.PSD voor Java biedt een krachtige oplossing voor het programmatisch aanpassen van de helderheid van afbeeldingen. In deze zelfstudie onderzoeken we stap voor stap hoe u de Aspose.PSD voor Java-bibliotheek kunt gebruiken om de helderheid van een afbeelding aan te passen.
@@ -107,3 +113,9 @@ A3: Het aanpassingsbereik is afhankelijk van de inhoud en het formaat van de afb
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
 
  A5: Ja, u kunt de bibliotheek verkennen met een gratis proefperiode van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo hình elip với Aspose.PSD cho .NET
 linktitle: Tạo hình elip với Aspose.PSD cho .NET
 second_title: API Aspose.PSD .NET
 description: Tìm hiểu cách vẽ hình elip trong .NET bằng Aspose.PSD. Hướng dẫn từng bước với các ví dụ về mã. Tạo đồ họa tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình elip với Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tạo hình elip bằng Aspose.PSD cho .NET. Aspose.PSD là một thư viện .NET mạnh mẽ cho phép các nhà phát triển thao tác và chuyển đổi các tệp Photoshop mà không cần Adobe Photoshop. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình vẽ các hình elip bằng thư viện.
@@ -101,3 +107,9 @@ Chúc mừng! Bạn đã tạo thành công hình elip bằng Aspose.PSD cho .NE
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

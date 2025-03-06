@@ -3,10 +3,16 @@ title: Manipulação avançada de imagens
 linktitle: Manipulação avançada de imagens
 second_title: API Java Aspose.PSD
 description: Explore tutoriais avançados de manipulação de imagens com Aspose.PSD para Java. Aprenda a substituição eficiente de fontes, force o cache de fontes, implemente o reamostrador bicúbico e muito mais.
-type: docs
 weight: 24
 url: /pt/java/advanced-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação avançada de imagens
+
 
 ## Introdução
 
@@ -80,3 +86,9 @@ Domine o redimensionamento de imagens em Java com Aspose.PSD. Guia passo a passo
 Explore a rotação de imagens em Java sem esforço com Aspose.PSD. Gire, inverta e salve arquivos PSD facilmente.
 ### [Gire uma imagem em um ângulo específico com Aspose.PSD para Java](./rotate-image-specific-angle/)
 Explore a rotação de imagens em Java com Aspose.PSD para Java. Gire imagens sem esforço em ângulos específicos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Deteksi File PSD yang Diratakan menggunakan Aspose.PSD untuk Java
 linktitle: Deteksi File PSD yang Diratakan menggunakan Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mendeteksi file PSD yang diratakan menggunakan Aspose.PSD untuk Java, langkah demi langkah dalam tutorial komprehensif ini.
-type: docs
 weight: 10
 url: /id/java/psd-image-modification-conversion/detect-flattened-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Deteksi File PSD yang Diratakan menggunakan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di dunia manipulasi file PSD (Photoshop Document) dengan Aspose.PSD untuk Java! Jika Anda pernah perlu bekerja dengan lapisan dalam file Photoshop tetapi tidak tahu harus mulai dari mana, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan mempelajari cara mendeteksi apakah file PSD diratakan menggunakan Aspose.PSD. Meratakan PSD berarti semua lapisannya digabungkan menjadi satu lapisan terpadu, yang dapat membuat pengeditan menjadi sedikit rumit setelahnya. Di akhir panduan ini, Anda akan diperlengkapi untuk memeriksa aspek penting dari file PSD Anda. Duduklah dengan tenang, ambil kopi Anda, dan mari selami!
@@ -77,3 +83,9 @@ Ya! Aspose.PSD dapat menangani berbagai format gambar, menyediakan fungsionalita
 
 ### Apakah ada cara untuk menguji Aspose.PSD secara gratis?
  Sangat! Anda dapat memulai uji coba gratis dengan mengunduh versi uji coba dari[tautan ini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

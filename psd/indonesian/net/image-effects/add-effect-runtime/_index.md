@@ -3,10 +3,16 @@ title: Menambahkan Efek saat Runtime di Aspose.PSD untuk .NET
 linktitle: Menambahkan Efek pada Runtime
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi penyempurnaan gambar dinamis menggunakan Aspose.PSD untuk .NET. Tambahkan efek saat runtime dengan mudah.
-type: docs
 weight: 10
 url: /id/net/image-effects/add-effect-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Efek saat Runtime di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Meningkatkan daya tarik visual gambar merupakan persyaratan umum dalam aplikasi desain grafis dan pemrosesan gambar. Dalam tutorial ini, kita akan mempelajari cara menambahkan efek saat runtime menggunakan Aspose.PSD untuk .NET. Aspose.PSD adalah API canggih yang memungkinkan pengembang bekerja dengan file Adobe Photoshop dengan lancar. 
@@ -96,3 +102,9 @@ A3: Aspose.PSD menawarkan beragam efek, namun disarankan untuk memeriksa dokumen
 ### Q5: Di mana saya bisa mendapatkan dukungan tambahan dan diskusi komunitas?
 
  A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

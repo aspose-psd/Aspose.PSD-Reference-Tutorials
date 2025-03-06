@@ -3,10 +3,16 @@ title: Képmanipuláció
 linktitle: Képmanipuláció
 second_title: Aspose.PSD .NET API
 description: Emelje fel .NET projektjeit az Aspose.PSD segítségével! Sajátítson el olyan képmanipulációs technikákat, mint a kombinálás, a vágás, az átméretezés, az elforgatás és az effektusok egyszerű hozzáadása.
-type: docs
 weight: 26
 url: /hu/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képmanipuláció
+
 ## Bevezetés
 
  képkezelés létfontosságú készség minden .NET-tel dolgozó fejlesztő vagy tervező számára, és az Aspose.PSD for .NET hatékony eszközkészletet biztosít a képességek fejlesztéséhez. Ebben az oktatóanyagban különféle képmanipulációs technikákat mutatunk be, amelyek zökkenőmentesen alkalmazhatók[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ Fedezze fel az Outer Glow Effect erejét az Aspose.PSD for .NET-ben. Emelje fel 
 Sajátítsa el a Gradient Overlay Effect renderelésének művészetét az Aspose.PSD for .NET-ben. Növelje grafikai tervezési készségeit ezzel a lépésről lépésre bemutató oktatóanyaggal.
 ### [Gradient Overlay Effect támogatása az Aspose.PSD-ben .NET-hez](./supporting-gradient-overlay-effect/)
 Javítsa a grafikát a .NET-ben az Aspose.PSD segítségével. Ez az oktatóanyag végigvezeti Önt a Gradient Overlay Effects támogatásán.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

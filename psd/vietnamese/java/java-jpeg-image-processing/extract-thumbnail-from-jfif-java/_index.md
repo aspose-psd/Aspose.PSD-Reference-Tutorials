@@ -3,10 +3,16 @@ title: Trích xuất hình thu nhỏ từ JFIF trong Java
 linktitle: Trích xuất hình thu nhỏ từ JFIF trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách trích xuất hình thu nhỏ từ hình ảnh JFIF bằng Aspose.PSD cho Java. Hướng dẫn toàn diện với hướng dẫn từng bước và ví dụ về mã.
-type: docs
 weight: 14
 url: /vi/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất hình thu nhỏ từ JFIF trong Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất hình thu nhỏ từ hình ảnh JFIF bằng Aspose.PSD cho Java. Aspose.PSD là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác và làm việc với PSD, PSB, BMP, JPEG, PNG và các định dạng hình ảnh khác theo chương trình. Trích xuất hình thu nhỏ là một tác vụ phổ biến trong xử lý ảnh, đặc biệt khi xử lý bộ ảnh lớn hoặc ứng dụng đa phương tiện.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Aspose.PSD cho Java là thư viện Java cho phép các nhà phát triển làm 
  Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/psd/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho Java?
  Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.PSD[đây](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

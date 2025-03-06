@@ -3,10 +3,16 @@ title: Thao tác với tệp PSD
 linktitle: Thao tác với tệp PSD
 second_title: API Aspose.PSD .NET
 description: Dễ dàng xử lý các lớp định dạng AI với Aspose.PSD cho .NET. Tìm hiểu cách xuất hình ảnh PSD sang GIF, xử lý các phần dữ liệu hoạt hình và thao tác trạng thái lớp.
-type: docs
 weight: 21
 url: /vi/net/psd-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác với tệp PSD
+
 ## Giới thiệu
 
 Nắm vững nghệ thuật thao tác PSD với Aspose.PSD cho .NET. Từ việc xử lý các lớp định dạng AI đến xuất ảnh GIF và điều hướng các phần dữ liệu động, loạt hướng dẫn này sẽ hướng dẫn bạn một cách liền mạch. Nâng cao hình ảnh với các hiệu ứng trạng thái lớp, dòng thời gian và cắt xén hiệu quả. Aspose.PSD for .NET hỗ trợ hành trình sáng tạo của bạn, cung cấp hướng dẫn từng bước và môi trường đa luồng để xuất hình ảnh tối ưu. Nâng cao kỹ năng của bạn và biến đổi trải nghiệm thiết kế của bạn với Aspose.PSD cho .NET.
@@ -77,3 +83,9 @@ Tìm hiểu cách cắt các tệp PSD một cách dễ dàng bằng Aspose.PSD 
 Khám phá nghệ thuật cắt tệp PSD trong .NET với Aspose.PSD, một bộ công cụ đa năng. Nâng cao trò chơi thao tác hình ảnh của bạn một cách dễ dàng.
 ### [Xuất hình ảnh trong môi trường đa luồng bằng Aspose.PSD cho .NET](./export-images-multi-thread/)
 Nâng cao khả năng xử lý ảnh .NET với Aspose.PSD: Xuất hình ảnh trong môi trường đa luồng. Tăng hiệu suất và hiệu quả một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

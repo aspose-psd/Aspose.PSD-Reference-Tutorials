@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 직사각형 구성
 linktitle: 직사각형 구성하기
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 .NET에서 직사각형을 그리는 기술을 살펴보세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 이미지 조작 게임을 쉽게 향상시켜 보세요.
-type: docs
 weight: 15
 url: /ko/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 직사각형 구성
+
 ## 소개
 
 .NET 개발의 동적 영역에서 Aspose.PSD는 이미지 조작을 처리하는 강력한 도구로 돋보입니다. 이 튜토리얼은 .NET용 Aspose.PSD를 사용하여 직사각형을 구성하는 기본적인 작업에 중점을 둡니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 각 개념을 철저하게 이해할 수 있도록 프로세스를 안내합니다.
@@ -94,3 +100,9 @@ A4: 32Bpp를 사용하면 더욱 풍부한 색상 표현이 가능해 더욱 상
 ### Q5: Aspose.PSD에 대한 무료 평가판이 있습니까?
 
  A5: 예, 무료 평가판을 통해 Aspose.PSD를 탐색할 수 있습니다. 다운로드[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

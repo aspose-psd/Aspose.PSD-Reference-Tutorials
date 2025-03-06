@@ -3,10 +3,16 @@ title: Gunakan Pemuat Data Mentah Khusus dalam File PSD - Java
 linktitle: Gunakan Pemuat Data Mentah Khusus dalam File PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggunakan pemuat data mentah khusus dalam file PSD dengan Java! Panduan langkah demi langkah ini mencakup semuanya mulai dari penyiapan hingga pembersihan sumber daya.
-type: docs
 weight: 29
 url: /id/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gunakan Pemuat Data Mentah Khusus dalam File PSD - Java
+
 ## Perkenalan
 Bekerja dengan file PSD di Java bisa terasa melelahkan, terutama saat menangani data mentah. Jangan takut! Dengan menggunakan Aspose.PSD untuk Java, Anda dapat dengan mudah memanipulasi dan mengekstrak data piksel mentah dari file PSD menggunakan pemuat khusus. Panduan ini akan membantu Anda langkah demi langkah melalui proses penerapan pemuat data mentah khusus. Kami akan membahas semua prasyarat yang diperlukan, mengimpor paket yang diperlukan, dan memecah kode menjadi langkah-langkah yang dapat dikelola dan mudah diikuti.
 ## Prasyarat
@@ -90,3 +96,9 @@ Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipul
  Untuk dukungan dan bantuan komunitas, Anda dapat mengunjungi[Asumsikan forum](https://forum.aspose.com/c/psd/34).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD?  
 Anda dapat memperoleh lisensi sementara untuk mengevaluasi semua fitur dengan mengunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

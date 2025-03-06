@@ -3,10 +3,16 @@ title: Ανάπτυξη και περικοπή εικόνων με το Aspose.
 linktitle: Ανάπτυξη και περικοπή εικόνων
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να επεκτείνετε και να περικόψετε εικόνες σε Java χρησιμοποιώντας το Aspose.PSD. Οδηγός βήμα προς βήμα για αποτελεσματική επεξεργασία εικόνας.
-type: docs
 weight: 18
 url: /el/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάπτυξη και περικοπή εικόνων με το Aspose.PSD για Java
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.PSD για Java για την αποτελεσματική επέκταση και περικοπή εικόνων. Το Aspose.PSD είναι μια ισχυρή βιβλιοθήκη που παρέχει ένα ευρύ φάσμα δυνατοτήτων για εργασία με αρχεία PSD σε εφαρμογές Java. Σε αυτόν τον οδηγό, θα καλύψουμε τις απαραίτητες προϋποθέσεις, την εισαγωγή πακέτων και θα αναλύσουμε κάθε βήμα με λεπτομερείς εξηγήσεις.
@@ -102,3 +108,9 @@ A2: Απολύτως, το Aspose.PSD παρέχει εμπορικές άδει
 ### Ε5: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
 
  A5: Ναι, μπορείτε να εξερευνήσετε το Aspose.PSD με μια δωρεάν δοκιμή. Κατεβάστε το[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

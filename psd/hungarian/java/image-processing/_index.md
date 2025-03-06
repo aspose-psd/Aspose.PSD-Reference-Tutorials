@@ -3,10 +3,16 @@ title: Képfeldolgozás
 linktitle: Képfeldolgozás
 second_title: Aspose.PSD Java API
 description: Használja ki az Aspose.PSD for Java lehetőségeit a képfeldolgozásban. Tanulja meg lépésről lépésre alkalmazni a Gauss-, Wiener-, Medián- és Motion Wiener-szűrőket.
-type: docs
 weight: 20
 url: /hu/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képfeldolgozás
+
 ## Bevezetés
 
 A képfeldolgozás izgalmas utazássá válik az Aspose.PSD for Java segítségével, egy olyan eszközkészlettel, amely képessé teszi a fejlesztőket a vizuális tartalom javítására. Az alapvető technikáktól a fejlett folyamatokig ez az oktatóanyag-sorozat azokat a funkciókat mutatja be, amelyek az Aspose.PSD-t a Java képfeldolgozás kiváló megoldásává teszik.
@@ -57,3 +63,9 @@ Fedezze fel a binarizációt az Otsu Threshold segítségével az Aspose.PSD for
 Javítsa a képminőséget az Aspose.PSD for Java Bradley Thresholding segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony képbinarizáláshoz.
 ### [Vágja le a PSD-fájlt az Aspose.PSD for Java használatával](./crop-psd-file/)
 Fedezze fel a zökkenőmentes PSD-fájlok kivágását Java nyelven az Aspose.PSD segítségével. Könnyedén integrálhatja a pontosságot és a hatékonyságot képkezelési feladataiba.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

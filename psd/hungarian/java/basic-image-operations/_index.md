@@ -3,10 +3,16 @@ title: Alapvető képműveletek
 linktitle: Alapvető képműveletek
 second_title: Aspose.PSD Java API
 description: Növelje grafikai tervezési készségeit az Aspose.PSD for Java oktatóanyagaival. Ismerje meg a rajzolást, az átméretezést, a keverési módokat és az átlátszóság ellenőrzését egy lépésről lépésre.
-type: docs
 weight: 25
 url: /hu/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alapvető képműveletek
+
 
 ## Bevezetés
 
@@ -44,3 +50,9 @@ Javítsa a képfeldolgozást Java nyelven az Aspose.PSD segítségével. Tanulja
 Ismerje meg, hogyan adhat lenyűgöző árnyékhatásokat a képekhez az Aspose.PSD for Java használatával. Emelje fel grafikai tervezését ezzel a lépésről lépésre mutató oktatóanyaggal.
 ### [Ellenőrizze a kép átlátszóságát az Aspose.PSD for Java segítségével](./verify-image-transparency/)
 Fedezze fel a képek átlátszóságának ellenőrzését az Aspose.PSD for Java segítségével. Könnyű integráció, részletes dokumentáció és kiváló közösségi támogatás.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

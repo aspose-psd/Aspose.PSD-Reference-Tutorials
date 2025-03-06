@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET での白黒リソースのサポート
 linktitle: 黒と白（Blwh）リソースのサポート
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を使用した高度な画像編集を体験してください。画像要素を正確に制御するための白黒調整レイヤーを習得します。
-type: docs
 weight: 13
 url: /ja/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET での白黒リソースのサポート
+
 ## 導入
 デジタル メディアのダイナミックな世界では、魅力的なビジュアルを作成するために画像編集が重要な役割を果たします。Aspose.PSD for .NET は、開発者が画像操作機能を次のレベルに引き上げることを可能にします。このチュートリアルでは、Aspose.PSD の白黒調整レイヤーのサポートについて説明し、画像を正確に微調整できるようにします。
 ## 前提条件
@@ -89,3 +95,9 @@ A2: もちろんです! Aspose.PSD では、複数の調整レイヤーを積み
 ### Q5: 白黒調整をテストするためのサンプル画像はありますか?
 
 A5: はい、Aspose.PSD ドキュメントにサンプル画像があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

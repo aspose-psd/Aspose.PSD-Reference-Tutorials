@@ -3,10 +3,16 @@ title: Thêm hiệu ứng lớp bóng bên trong trong PSD bằng Java
 linktitle: Thêm hiệu ứng lớp bóng bên trong trong PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thêm hiệu ứng bóng bên trong vào tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước này, bao gồm các mẹo và cách thực hành tốt nhất.
-type: docs
 weight: 12
 url: /vi/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng lớp bóng bên trong trong PSD bằng Java
+
 ## Giới thiệu
 Bạn đã sẵn sàng bước vào thế giới lập trình thiết kế đồ họa chưa? Nếu bạn từng muốn thao tác với các tệp PSD theo chương trình thì bạn đã đến đúng nơi! Hôm nay, chúng ta sẽ khám phá cách thêm hiệu ứng lớp bóng bên trong vào PSD (Tài liệu Photoshop) bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này cho phép các nhà phát triển Java làm việc với các tệp PSD một cách hiệu quả, cho phép thực hiện nhiều thao tác hình ảnh, từ các chỉnh sửa đơn giản đến các hiệu ứng phức tạp.
 ## Điều kiện tiên quyết
@@ -102,3 +108,9 @@ Tuyệt đối! Bạn có thể áp dụng nhiều hiệu ứng bằng cách tru
 Aspose.PSD là một sản phẩm thương mại; tuy nhiên, bạn có thể sử dụng bản dùng thử miễn phí có sẵn thông qua Aspose.
 ### Tôi có thể tìm thêm tài liệu ở đâu?  
  Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PSD[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

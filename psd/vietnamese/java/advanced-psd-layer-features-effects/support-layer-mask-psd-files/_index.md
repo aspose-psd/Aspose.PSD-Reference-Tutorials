@@ -3,10 +3,16 @@ title: Hỗ trợ Layer Mask trong tệp PSD bằng Java
 linktitle: Hỗ trợ Layer Mask trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách hỗ trợ mặt nạ lớp trong tệp PSD bằng Aspose.PSD cho Java thông qua hướng dẫn từng bước toàn diện.
-type: docs
 weight: 18
 url: /vi/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ Layer Mask trong tệp PSD bằng Java
+
 ## Giới thiệu
 Khi nói đến làm việc với các tệp PSD, mặt nạ lớp đóng vai trò then chốt trong việc nâng cao thiết kế của bạn và hợp lý hóa quy trình làm việc sáng tạo của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách hỗ trợ mặt nạ lớp bằng thư viện Aspose.PSD cho Java. Nếu bạn là một nhà phát triển, nhà thiết kế đầy tham vọng hoặc ai đó đang tìm cách thao tác các tệp PSD theo chương trình thì bạn đã đến đúng nơi! Chúng tôi sẽ hướng dẫn bạn các điều kiện tiên quyết, nhập các gói cần thiết và thực hiện các bước cần thiết để xuất PSD có mặt nạ phức tạp sang định dạng PNG. Hãy bắt đầu!
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Aspose.PSD cung cấp bản dùng thử miễn phí có thể tải xuống từ
 Nếu tệp PSD của bạn không chứa bất kỳ mặt nạ nào thì quá trình xuất vẫn thành công nhưng bạn sẽ không thấy bất kỳ hiệu ứng nào mà mặt nạ lớp mang lại.
 ### Tôi có thể nhận hỗ trợ ở đâu nếu gặp vấn đề?  
  Đối với bất kỳ câu hỏi hoặc vấn đề, bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34) để được hỗ trợ từ cả bộ phận hỗ trợ Aspose và cộng đồng người dùng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Kontrast Ayarlamasının Uygulanması
 linktitle: Kontrast Ayarlamanın Uygulanması
 second_title: Aspose.PSD .NET API'si
 description: Bu adım adım kılavuzla Aspose.PSD for .NET'te kontrast ayarının nasıl uygulanacağını öğrenin.
-type: docs
 weight: 11
 url: /tr/net/image-adjustment/contrast-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Kontrast Ayarlamasının Uygulanması
+
 ## giriiş
 
 Aspose.PSD for .NET'te kontrast ayarının uygulanmasına ilişkin bu kapsamlı kılavuza hoş geldiniz! Bu eğitimde, güçlü bir .NET görüntüleme kütüphanesi olan Aspose.PSD'yi kullanarak bir görüntünün kontrastını geliştirme sürecini inceleyeceğiz. Bu kılavuzun sonunda kontrast ayarlamalarını resimlerinize sorunsuz bir şekilde nasıl uygulayacağınıza dair sağlam bir anlayışa sahip olacaksınız.
@@ -101,3 +107,9 @@ Cevap1: Aspose.PSD for .NET, geliştirici dostu olacak şekilde tasarlanmıştı
 ### S5: Geçici lisansı nasıl alabilirim?
 
  Cevap 5: Gerekirse geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中实现双三次重采样器
 linktitle: 实现双三次重采样器
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD for Java Bicubic Resampler 增强 Java 图像大小调整功能。按照我们的分步指南操作，即可获得卓越效果。
-type: docs
 weight: 12
 url: /zh/java/advanced-image-manipulation/implement-bicubic-resampler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中实现双三次重采样器
+
 ## 介绍
 
 在 Java 开发领域，实现高质量的图像大小调整是一项常见要求。Aspose.PSD for Java 通过其 Bicubic Resampler 提供了强大的解决方案。本分步指南将引导您完成使用 Aspose.PSD for Java 实现 Bicubic Resampler 的过程。在本教程结束时，您将能够使用卓越的图像大小调整功能增强您的 Java 应用程序。
@@ -91,3 +97,9 @@ A1：是的，Aspose.PSD for Java 支持各种图像格式，包括 PSD、PNG、
 ### Q5: 如何购买 Aspose.PSD for Java？
 
  A5: 您可以从购买页面购买 Aspose.PSD for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

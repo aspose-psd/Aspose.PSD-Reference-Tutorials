@@ -3,10 +3,16 @@ title: Grijswaardenafbeeldingen met Aspose.PSD voor .NET
 linktitle: Grijswaardenafbeeldingen met Aspose.PSD voor .NET
 second_title: Aspose.PSD .NET-API
 description: Leer hoe u moeiteloos grijswaardeneffecten op afbeeldingen kunt toepassen met Aspose.PSD voor .NET.
-type: docs
 weight: 14
 url: /nl/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grijswaardenafbeeldingen met Aspose.PSD voor .NET
+
 ## Invoering
 
 Welkom bij onze uitgebreide tutorial over grijswaardenafbeeldingen met Aspose.PSD voor .NET! Grijswaarden is een krachtige techniek die de visuele aantrekkingskracht van uw afbeeldingen kan vergroten door ze naar grijstinten te converteren. In deze handleiding begeleiden we u door het proces waarmee u moeiteloos verbluffende grijswaardeneffecten kunt bereiken.
@@ -108,3 +114,9 @@ A1: Ja, Aspose.PSD ondersteunt verschillende afbeeldingsformaten, waaronder PSD,
 ### V5: Hoe koop ik een licentie voor Aspose.PSD voor .NET?
 
  A5: U kunt een licentie kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

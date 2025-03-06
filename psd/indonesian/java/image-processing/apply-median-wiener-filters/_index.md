@@ -3,10 +3,16 @@ title: Terapkan Filter Median dan Wiener dengan Aspose.PSD untuk Java
 linktitle: Terapkan Filter Median dan Wiener
 second_title: Asumsikan.PSD Java API
 description: Jelajahi kekuatan pemrosesan gambar di Java dengan Aspose.PSD. Pelajari cara menerapkan Filter Median dan Wiener langkah demi langkah. Tingkatkan kualitas gambar dengan mudah.
-type: docs
 weight: 12
 url: /id/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Filter Median dan Wiener dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Di bidang pemrograman Java, Aspose.PSD menonjol sebagai alat yang ampuh untuk manipulasi dan pemrosesan gambar. Salah satu fungsi utama yang ditawarkannya adalah penerapan Filter Median dan Wiener, yang berperan penting dalam meningkatkan kualitas gambar dan mengurangi noise. Panduan langkah demi langkah ini akan memandu Anda melalui proses penerapan filter ini menggunakan Aspose.PSD untuk Java.
@@ -101,3 +107,9 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, sehingga serbaguna untuk be
 ### Q5: Bagaimana cara membeli Aspose.PSD untuk Java?
 
  A5: Anda dapat membeli produknya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

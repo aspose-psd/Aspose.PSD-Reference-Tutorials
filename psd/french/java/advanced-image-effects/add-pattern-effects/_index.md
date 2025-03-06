@@ -3,10 +3,16 @@ title: Ajouter des effets de modèle dans Aspose.PSD pour Java
 linktitle: Ajouter des effets de motif
 second_title: API Java Aspose.PSD
 description: Améliorez vos modèles d'image Java sans effort avec Aspose.PSD pour Java. Suivez notre tutoriel étape par étape pour ajouter des effets de motifs captivants.
-type: docs
 weight: 12
 url: /fr/java/advanced-image-effects/add-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des effets de modèle dans Aspose.PSD pour Java
+
 ## Introduction
 
 Dans le monde du développement Java, l'amélioration des modèles d'image est une tâche courante, et Aspose.PSD pour Java fournit une solution robuste pour cela. Ce didacticiel vous guidera tout au long du processus d'ajout d'effets de motif à l'aide d'Aspose.PSD, garantissant que vos images se démarquent avec des superpositions et des améliorations uniques.
@@ -138,3 +144,9 @@ A1 : Aspose.PSD pour Java est conçu pour fonctionner indépendamment, mais vous
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.PSD pour Java ?
 
 A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

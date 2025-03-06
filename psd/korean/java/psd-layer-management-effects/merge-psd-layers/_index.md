@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD와 PSD 레이어 병합
 linktitle: Java용 Aspose.PSD와 PSD 레이어 병합
 second_title: Aspose.PSD 자바 API
 description: 이 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 레이어를 병합하는 방법을 알아보세요. 이미지 처리 작업을 자동화하려는 개발자에게 적합합니다.
-type: docs
 weight: 11
 url: /ko/java/psd-layer-management-effects/merge-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD와 PSD 레이어 병합
+
 ## 소개
 
 그래픽 디자이너가 Photoshop에서 이러한 복잡하고 레이어가 있는 이미지를 어떻게 구현하는지 궁금한 적이 있습니까? 그 비밀은 종종 PSD 파일 내의 레이어를 관리하고 병합하는 데 있습니다. Java에서 PSD 파일로 작업하는 경우 합성 이미지를 생성하거나, 파일 크기를 줄이거나, 내보낼 이미지를 준비하는 데 레이어 병합이 중요할 수 있습니다. 그러나 이 작업을 프로그래밍 방식으로 처리하는 것은 어렵게 들릴 수 있습니다. PSD 파일을 쉽게 처리하기 위한 최고의 툴킷인 Aspose.PSD for Java를 입력하세요. 숙련된 개발자이거나 이제 막 시작하는 개발자라면 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 PSD 레이어를 병합하는 과정을 안내합니다. 이 가이드를 마치면 Java 애플리케이션 내에서 레이어를 조작하고 최종 이미지를 다양한 형식으로 저장하는 방법을 확실하게 이해하게 될 것입니다.
@@ -105,3 +111,9 @@ psdImage.save(dataDir + "MergePSDlayers_output.jpg", jpgOptions);
 
 ### 저장하기 전에 이미지 옵션을 설정하지 않으면 어떻게 되나요?
 이미지 옵션을 설정하지 않으면 Java용 Aspose.PSD는 출력 형식에 기본 설정을 사용합니다. 그러나 출력이 요구 사항을 충족하도록 옵션을 지정하는 것이 좋습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

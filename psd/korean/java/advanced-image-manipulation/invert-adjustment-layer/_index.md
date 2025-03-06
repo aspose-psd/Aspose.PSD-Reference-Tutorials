@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD의 조정 레이어 반전
 linktitle: 조정 레이어 반전
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD에서 반전 조정 레이어를 살펴보세요. 원활한 PSD 파일 조작을 위한 강력한 Java 라이브러리입니다.
-type: docs
 weight: 14
 url: /ko/java/advanced-image-manipulation/invert-adjustment-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD의 조정 레이어 반전
+
 ## 소개
 
 Java용 Aspose.PSD에서 반전 조정 레이어를 구현하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 PSD 파일을 원활하게 조작할 수 있는 Java 라이브러리인 Aspose.PSD의 강력한 기능을 살펴보겠습니다. 숙련된 개발자이든 이미지 처리를 처음 접하는 사람이든 이 튜토리얼은 반전 조정 레이어를 효율적으로 이해하고 구현하는 데 도움이 되도록 설계되었습니다.
@@ -93,3 +99,9 @@ A2: 예, 여러 조정 레이어를 쌓아 복잡한 이미지 조작을 수행�
 ### Q5: Aspose.PSD의 임시 라이선스는 어떻게 얻을 수 있나요?
 
 A5: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

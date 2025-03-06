@@ -3,10 +3,16 @@ title: تعديل تأثير تراكب التدرج في PSD باستخدام J
 linktitle: تعديل تأثير تراكب التدرج في PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تعديل تأثير Gradient Overlay في ملف PSD باستخدام Aspose.PSD لـ Java. اتبع دليلنا لأتمتة وتخصيص ملفات PSD الخاصة بك بكفاءة.
-type: docs
 weight: 12
 url: /ar/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل تأثير تراكب التدرج في PSD باستخدام Java
+
 ## مقدمة
 
 هل أنت مستعد للغوص في عالم الفن الرقمي باستخدام Java؟ إذا كنت تعمل باستخدام ملفات Photoshop (PSD) وترغب في معالجتها برمجيًا، فأنت في وضع جيد. سنستكشف اليوم كيفية تعديل تأثير التراكب المتدرج في ملف PSD باستخدام Aspose.PSD لـ Java. سواء كنت مطورًا يتطلع إلى أتمتة مهام التصميم الجرافيكي أو مجرد شخص مهتم بالعملية، فإن هذا البرنامج التعليمي سيرشدك خطوة بخطوة. وفي النهاية، سيكون لديك المعرفة اللازمة لإضافة لمسة احترافية إلى صورك دون فتح Photoshop على الإطلاق.
@@ -152,3 +158,9 @@ Explanation: تم حفظ ملف PSD المعدل باسم جديد في دليل
 
 ### كيف يمكنني إرجاع التغييرات التي تم إجراؤها على ملف PSD؟  
 إذا لم تقم بحفظ الملف بعد، فيمكنك ببساطة إعادة تحميل ملف PSD الأصلي. إذا قمت بحفظه بالفعل، فستحتاج إلى استعادته من نسخة احتياطية أو التراجع عن التغييرات برمجيًا
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

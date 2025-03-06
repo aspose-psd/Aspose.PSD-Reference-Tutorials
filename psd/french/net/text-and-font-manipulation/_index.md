@@ -3,10 +3,16 @@ title: Manipulation du texte et des polices
 linktitle: Manipulation du texte et des polices
 second_title: API Aspose.PSD.NET
 description: Maximisez vos applications .NET avec les didacticiels Aspose.PSD pour .NET ! Apprenez à rendre le texte dans des couleurs vives et remplacez de manière transparente les polices manquantes.
-type: docs
 weight: 22
 url: /fr/net/text-and-font-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation du texte et des polices
+
 
 ## Introduction
 
@@ -45,3 +51,9 @@ Prêt à relever les défis des polices dans vos applications .NET ? Libérez l
 Améliorez vos applications .NET en maîtrisant le rendu du texte avec diverses couleurs dans les fichiers PSD à l'aide d'Aspose.PSD. Élevez vos capacités de conception sans effort.
 ### [Paramètre de remplacement des polices manquantes dans Aspose.PSD pour .NET](./replace-missing-fonts/)
 Libérez le potentiel d’Aspose.PSD pour .NET ! Apprenez à remplacer les polices manquantes de manière transparente grâce à notre guide étape par étape. Élevez votre jeu de conception aujourd’hui.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

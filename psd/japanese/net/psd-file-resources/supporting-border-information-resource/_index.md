@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET での境界情報リソースのサポート
 linktitle: 国境情報リソースのサポート
 second_title: Aspose.PSD .NET API
 description: 強化されたイメージングを実現する Aspose.PSD for .NET の境界情報リソース機能をご覧ください。シームレスな統合については、チュートリアルに従ってください。今すぐダウンロードしてください。
-type: docs
 weight: 11
 url: /ja/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET での境界情報リソースのサポート
+
 ## 導入
 Aspose.PSD for .NET の境界情報リソース機能の利用に関するステップバイステップ ガイドへようこそ。このチュートリアルでは、強力な .NET イメージング ライブラリである Aspose.PSD を使用して境界情報リソースを操作する手順を説明します。熟練した開発者でも、初心者でも、このチュートリアルは境界情報リソースをプロジェクトにシームレスに組み込む方法を明確にすることを目的としています。
 ## 前提条件
@@ -89,3 +95,9 @@ A1: はい、Aspose.PSD for .NET はさまざまな .NET フレームワーク�
 ### Q5: 一時ライセンスは利用できますか?
 
  A5: はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

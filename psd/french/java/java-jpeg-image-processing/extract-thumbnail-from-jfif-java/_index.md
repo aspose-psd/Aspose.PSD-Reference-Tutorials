@@ -3,10 +3,16 @@ title: Extraire la vignette de JFIF en Java
 linktitle: Extraire la vignette de JFIF en Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment extraire des vignettes d'images JFIF à l'aide d'Aspose.PSD pour Java. Tutoriel complet avec un guide étape par étape et des exemples de code.
-type: docs
 weight: 14
 url: /fr/java/java-jpeg-image-processing/extract-thumbnail-from-jfif-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraire la vignette de JFIF en Java
+
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment extraire des vignettes d'images JFIF à l'aide d'Aspose.PSD pour Java. Aspose.PSD est une puissante bibliothèque Java qui permet aux développeurs de manipuler et de travailler avec PSD, PSB, BMP, JPEG, PNG et d'autres formats d'image par programme. L'extraction de vignettes est une tâche courante dans le traitement d'images, en particulier lorsqu'il s'agit de grands ensembles d'images ou d'applications multimédias.
 ## Conditions préalables
@@ -78,3 +84,9 @@ Aspose.PSD pour Java est une bibliothèque Java qui permet aux développeurs de 
  Vous pouvez trouver la documentation[ici](https://reference.aspose.com/psd/java/).
 ### Comment puis-je obtenir de l'assistance pour Aspose.PSD pour Java ?
  Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.PSD[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

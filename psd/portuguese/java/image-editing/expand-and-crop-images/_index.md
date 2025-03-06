@@ -3,10 +3,16 @@ title: Expanda e corte imagens com Aspose.PSD para Java
 linktitle: Expandir e cortar imagens
 second_title: API Java Aspose.PSD
 description: Aprenda como expandir e cortar imagens em Java usando Aspose.PSD. Guia passo a passo para processamento eficiente de imagens.
-type: docs
 weight: 18
 url: /pt/java/image-editing/expand-and-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Expanda e corte imagens com Aspose.PSD para Java
+
 ## Introdução
 
 Neste tutorial, exploraremos como usar Aspose.PSD para Java para expandir e cortar imagens com eficiência. Aspose.PSD é uma biblioteca poderosa que oferece uma ampla gama de recursos para trabalhar com arquivos PSD em aplicativos Java. Neste guia, abordaremos os pré-requisitos necessários, a importação de pacotes e detalharemos cada etapa com explicações detalhadas.
@@ -102,3 +108,9 @@ A2: Com certeza, o Aspose.PSD fornece licenças comerciais para desenvolvedores,
 ### Q5: Existe um teste gratuito disponível?
 
  A5: Sim, você pode explorar o Aspose.PSD com uma avaliação gratuita. Baixe[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

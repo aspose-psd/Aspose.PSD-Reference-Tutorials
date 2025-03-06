@@ -3,10 +3,16 @@ title: Przetwarzanie obrazu
 linktitle: Przetwarzanie obrazu
 second_title: Aspose.PSD API .NET
 description: Bez wysiłku poprawiaj jakość obrazu dzięki samouczkom Aspose.PSD dla .NET. Poznaj techniki takie jak filtry Gaussa i Wienera, konwersja kolorów, binaryzacja i inne.
-type: docs
 weight: 20
 url: /pl/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przetwarzanie obrazu
+
 
 ## Wstęp
 
@@ -46,3 +52,9 @@ Poznaj konwersję kolorów w Aspose.PSD dla .NET. Dowiedz się, jak aktualizowa�
 Dowiedz się, jak bez wysiłku zastosować efekty skali szarości do obrazów za pomocą Aspose.PSD dla .NET.
 ### [Stosowanie progu Bradleya w Aspose.PSD dla .NET](./apply-bradley-threshold/)
 Ulepsz segmentację obrazu za pomocą Bradley Threshold w Aspose.PSD dla .NET. Przewodnik krok po kroku dotyczący skutecznej binaryzacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

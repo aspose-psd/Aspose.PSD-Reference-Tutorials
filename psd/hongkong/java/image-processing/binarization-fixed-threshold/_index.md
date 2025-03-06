@@ -3,10 +3,16 @@ title: Aspose.PSD for Java 中具有固定閾值的二值化
 linktitle: 固定閾值二值化
 second_title: Aspose.PSD Java API
 description: 在 Aspose.PSD for Java 中探索具有固定閾值的二值化。使用我們的逐步指南無縫轉換影像。
-type: docs
 weight: 14
 url: /zh-hant/java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java 中具有固定閾值的二值化
+
 ## 介紹
 
 在 Java 開發領域，Aspose.PSD 被證明是影像處理任務的強大工具。其中一個重要的操作是二值化，這是一種透過將影像轉換為二進位形式來簡化影像的技術。本教學將引導您完成使用 Aspose.PSD for Java 實作具有固定閾值的二值化的過程。當我們探索這次變革性影像處理之旅所涉及的步驟時，請繫好安全帶。
@@ -101,3 +107,9 @@ A1：是的，Aspose.PSD支援各種影像格式，使得二值化適用於廣�
 ### Q5: 有免費試用版嗎？
 
  A5：是的，您可以透過免費試用版探索 Aspose.PSD 的功能[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Замените шрифты в Aspose.PSD для Java
 linktitle: Заменить шрифты
 second_title: Aspose.PSD Java API
 description: Узнайте, как заменить шрифты в изображениях с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству для эффективного манипулирования шрифтами.
-type: docs
 weight: 10
 url: /ru/java/advanced-image-manipulation/replace-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Замените шрифты в Aspose.PSD для Java
+
 ## Введение
 
 В динамичном мире разработки Java манипулирование изображениями является обычным требованием. Aspose.PSD для Java предоставляет надежное решение для обработки PSD-файлов, позволяющее разработчикам легко заменять шрифты в изображениях. В этом уроке мы шаг за шагом проведем вас через процесс замены шрифтов с помощью Aspose.PSD для Java.
@@ -84,3 +90,9 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 ### Вопрос 5: Где я могу найти дополнительную поддержку или обсудить проблемы, связанные с Aspose.PSD?
 
  A5: Посетите[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter des calques de remplissage aux fichiers PSD dans Aspose.PSD pour 
 linktitle: Ajouter des calques de remplissage aux fichiers PSD dans Aspose.PSD pour Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter des couches de remplissage aux fichiers PSD en Java à l'aide d'Aspose.PSD avec notre guide étape par étape. Améliorez vos créations.
-type: docs
 weight: 13
 url: /fr/java/modifying-converting-psd-images/add-fill-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des calques de remplissage aux fichiers PSD dans Aspose.PSD pour Java
+
 ## Introduction
 Si vous avez déjà essayé la conception graphique ou travaillé sur des documents Photoshop, vous saurez à quel point les calques sont cruciaux. Les calques vous permettent de créer votre composition, de conserver la distinction des éléments et d'appliquer des effets sans perdre la qualité d'image d'origine. Aujourd'hui, nous allons nous concentrer sur l'utilisation d'Aspose.PSD pour Java pour ajouter des couches de remplissage à vos fichiers PSD. Non seulement c'est simple, mais c'est un excellent moyen d'améliorer vos conceptions sans aucun processus manuel fastidieux.
 ## Conditions préalables
@@ -90,3 +96,9 @@ Vous pouvez explorer un essai gratuit d'Aspose.PSD pour Java[ici](https://releas
  Vous pouvez accéder à la documentation complète[ici](https://reference.aspose.com/psd/java/).
 ### Existe-t-il une communauté de support pour Aspose.PSD ?
  Oui, vous pouvez obtenir de l'aide de la communauté sur le forum Aspose[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

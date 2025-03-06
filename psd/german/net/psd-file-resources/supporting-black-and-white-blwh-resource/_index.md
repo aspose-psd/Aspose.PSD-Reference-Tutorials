@@ -3,10 +3,16 @@ title: Unterstützung von Schwarzweiß-Ressourcen in Aspose.PSD für .NET
 linktitle: Unterstützende Schwarzweiß-Ressource (Blwh)
 second_title: Aspose.PSD .NET API
 description: Entdecken Sie die erweiterte Bildbearbeitung mit Aspose.PSD für .NET. Lernen Sie, Schwarz-Weiß-Anpassungsebenen zu beherrschen, um Bildelemente präzise steuern zu können.
-type: docs
 weight: 13
 url: /de/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unterstützung von Schwarzweiß-Ressourcen in Aspose.PSD für .NET
+
 ## Einführung
 In der dynamischen Welt der digitalen Medien spielt die Bildbearbeitung eine entscheidende Rolle bei der Erstellung fesselnder Bilder. Aspose.PSD für .NET ermöglicht Entwicklern, ihre Bildbearbeitungsfähigkeiten auf die nächste Ebene zu bringen. In diesem Tutorial erkunden wir die Unterstützung für Schwarz-Weiß-Anpassungsebenen in Aspose.PSD, mit der Sie Bilder präzise optimieren können.
 ## Voraussetzungen
@@ -89,3 +95,9 @@ A2: Auf jeden Fall! Aspose.PSD ermöglicht das Stapeln mehrerer Anpassungsebenen
 ### F5: Gibt es Beispielbilder zum Testen der Schwarz-Weiß-Anpassungen?
 
 A5: Ja, Sie finden Beispielbilder in der Aspose.PSD-Dokumentation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

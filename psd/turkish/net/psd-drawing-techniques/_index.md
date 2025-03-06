@@ -3,10 +3,16 @@ title: PSD Çizim Teknikleri
 linktitle: PSD Çizim Teknikleri
 second_title: Aspose.PSD .NET API'si
 description: Eğitimlerimizle Aspose.PSD for .NET'in potansiyelini ortaya çıkarın! Temel çizim özelliklerinde ustalaşın, çarpıcı grafikler oluşturun ve görüntü işleme becerilerinizi geliştirin.
-type: docs
 weight: 28
 url: /tr/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD Çizim Teknikleri
+
 
 ## giriiş
 
@@ -61,3 +67,9 @@ Aspose.PSD ile .NET'te dikdörtgen çizme sanatını keşfedin. Sorunsuz entegra
 Aspose.PSD for .NET ile sanatsal potansiyelinizi ortaya çıkarın! Grafikleri kullanarak yaratıcı çizim yapmak için eğitimimizi takip edin.
 ### [Aspose.PSD for .NET'te GraphicsPath ile Çizim Uygulamak](./implementing-drawing-with-graphicspath/)
 GraphicsPath ile çizim yapma hakkındaki bu adım adım eğitimde Aspose.PSD for .NET'in gücünü keşfedin. .NET uygulamalarınızı gelişmiş Photoshop dosya işlemeyle geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

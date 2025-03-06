@@ -3,10 +3,16 @@ title: Küçük Resmi Java'da PSD'den Çıkarın
 linktitle: Küçük Resmi Java'da PSD'den Çıkarın
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak PSD dosyalarından küçük resimleri nasıl çıkaracağınızı öğrenin. Bu adım adım kılavuz, kurulumdan çıkarılan görüntülerin kaydedilmesine kadar her şeyi kapsar.
-type: docs
 weight: 15
 url: /tr/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Küçük Resmi Java'da PSD'den Çıkarın
+
 ## giriiş
 Bu eğitimde Aspose.PSD for Java kullanarak PSD dosyalarından küçük resimlerin nasıl çıkarılacağını inceleyeceğiz. Küçük resimler, hızlı önizlemeler için veya PSD belgelerine gömülü görüntülerin daha küçük sürümlerini oluşturmak için yararlı olabilir. Aspose.PSD'yi kullanarak bunu başarmak için gereken adımlara bakalım.
 ## Önkoşullar
@@ -73,3 +79,9 @@ Aspose.PSD, geliştiricilerin PSD ve diğer görüntü dosyası formatlarıyla p
  Geçici lisanslar şu adresten alınabilir:[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD ticari kullanıma uygun mudur?
 Evet, Aspose.PSD, lisans koşulları kapsamında hem kişisel hem de ticari projeler için kullanılabilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

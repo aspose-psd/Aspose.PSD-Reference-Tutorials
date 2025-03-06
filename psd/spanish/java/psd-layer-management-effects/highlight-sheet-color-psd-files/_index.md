@@ -3,10 +3,16 @@ title: Resalte el color de la hoja en archivos PSD usando Aspose.PSD Java
 linktitle: Resalte el color de la hoja en archivos PSD usando Aspose.PSD Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a resaltar los colores de las hojas en archivos PSD usando Aspose.PSD para Java. Siga nuestra guía paso a paso para mejorar sus habilidades de manipulación de imágenes en Java.
-type: docs
 weight: 19
 url: /es/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resalte el color de la hoja en archivos PSD usando Aspose.PSD Java
+
 ## Introducción
 
 ¿Estás buscando sumergirte en la manipulación de imágenes y mejorar tus creaciones digitales usando Java? Ya sea que sea un desarrollador experimentado o esté comenzando, trabajar con archivos PSD puede abrir un mundo de posibilidades. Los archivos PSD son el estándar de la industria para la edición de imágenes en capas y, con el poder de Aspose.PSD para Java, puede manipular estos archivos sin esfuerzo dentro de sus aplicaciones Java. Hoy, veremos cómo resaltar los colores de las hojas en archivos PSD, asegurando que sus diseños se destaquen de la manera más vibrante posible.
@@ -142,3 +148,9 @@ Una vez que los cambios se guardan en un archivo, no se pueden deshacer. Sin emb
 
 ### ¿Puedo resaltar varias capas a la vez en un archivo PSD?
 Sí, puede recorrer las capas de un archivo PSD y aplicar el resaltado de color de hoja deseado a cada capa individualmente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

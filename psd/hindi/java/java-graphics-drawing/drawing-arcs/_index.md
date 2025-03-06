@@ -3,10 +3,16 @@ title: जावा में आर्क्स बनाना
 linktitle: जावा में आर्क्स बनाना
 second_title: Aspose.PSD जावा एपीआई
 description: Aspose.PSD for Java का उपयोग करके Java में आर्क्स बनाना सीखें। ग्राफ़िकल अनुप्रयोगों के लिए कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 13
 url: /hi/java/java-graphics-drawing/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में आर्क्स बनाना
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा लाइब्रेरी के लिए Aspose.PSD का उपयोग करके आर्क्स बनाने का तरीका जानेंगे। प्रोग्रामेटिक रूप से आर्क्स बनाना ग्राफिकल यूजर इंटरफेस, चार्टिंग या कस्टम विज़ुअलाइज़ेशन जैसे विभिन्न अनुप्रयोगों में उपयोगी हो सकता है। जावा के लिए Aspose.PSD PSD (फ़ोटोशॉप दस्तावेज़) फ़ाइलों को हेरफेर करने और बनाने के लिए मज़बूत कार्यक्षमता प्रदान करता है, जिसमें अनुकूलन योग्य गुणों के साथ आर्क्स जैसी आकृतियाँ बनाने की क्षमता भी शामिल है।
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ image.save(outputPath, saveOptions);
 हां, Aspose.PSD PNG, JPEG, TIFF और GIF सहित विभिन्न प्रारूपों में निर्यात का समर्थन करता है।
 ### मैं Aspose.PSD के लिए अतिरिक्त सहायता और संसाधन कहां पा सकता हूं?
  दौरा करना[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34) सामुदायिक सहायता, दस्तावेज़ीकरण और अद्यतन के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

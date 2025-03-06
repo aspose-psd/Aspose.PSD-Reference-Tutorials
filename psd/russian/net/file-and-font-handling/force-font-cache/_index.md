@@ -3,10 +3,16 @@ title: Принудительное использование кэша шриф
 linktitle: Принудительное использование кэша шрифтов
 second_title: Aspose.PSD .NET API
 description: Изучите пошаговое управление кэшем шрифтов в Aspose.PSD для .NET. Обеспечьте точный рендеринг с помощью этой мощной библиотеки .NET.
-type: docs
 weight: 14
 url: /ru/net/file-and-font-handling/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Принудительное использование кэша шрифтов в Aspose.PSD для .NET
+
 ## Введение
 
 Aspose.PSD for .NET предоставляет мощные инструменты для работы с PSD-файлами в ваших .NET-приложениях. Одной из важных функций является возможность принудительного кэширования шрифтов, обеспечивающая согласованность и точность рендеринга ваших PSD-файлов. В этом руководстве мы шаг за шагом проведем вас через процесс принудительного кэширования шрифтов в Aspose.PSD для .NET.
@@ -95,3 +101,9 @@ using (PsdImage image = (PsdImage)Image.Load(dataDir + @"sample.psd"))
 ### Вопрос 5: Могу ли я приобрести Aspose.PSD для .NET напрямую?
 
  О5: Да, вы можете приобрести Aspose.PSD для .NET через[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

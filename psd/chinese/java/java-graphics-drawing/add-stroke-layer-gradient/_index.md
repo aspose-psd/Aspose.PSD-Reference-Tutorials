@@ -3,10 +3,16 @@ title: 如何在 Java 中添加描边图层渐变
 linktitle: 如何在 Java 中添加描边图层渐变
 second_title: Aspose.PSD Java API
 description: 通过这个全面的分步教程学习如何使用 Aspose.PSD for Java 在 PSD 文件中添加和自定义描边层渐变。
-type: docs
 weight: 10
 url: /zh/java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何在 Java 中添加描边图层渐变
+
 ## 介绍
 有没有想过如何使用 Java 为图像添加描边图层渐变？好吧，你来对地方了！今天，我们将深入研究 Aspose.PSD for Java 的世界，这是一个功能强大的库，可帮助您轻松处理 PSD 文件。无论您是初学者还是经验丰富的开发人员，本分步指南都将引导您完成向 PSD 文件添加描边图层渐变的过程。所以，系好安全带，准备提高您的图形编辑技能吧！
 ## 先决条件
@@ -156,3 +162,9 @@ Aspose.PSD for Java 是一个库，允许开发人员在 Java 应用程序中处
 是的，您可以使用 Aspose.PSD for Java 应用各种效果，如阴影、发光等。
 ### 在哪里可以找到 Aspose.PSD for Java 的文档？
 您可以找到文档[这里](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تقديم طبقة ضبط المستوى في ملفات PSD - Java
 linktitle: تقديم طبقة ضبط المستوى في ملفات PSD - Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تحسين تباين الصورة وحيويتها بسهولة باستخدام Aspose.PSD لـ Java. طبقات ضبط المستويات الرئيسية باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 17
 url: /ar/java/psd-layer-management-effects/render-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم طبقة ضبط المستوى في ملفات PSD - Java
+
 ## مقدمة
 
 هل سبق لك أن فتحت ملف PSD لتجد الصورة تفتقر إلى التباين أو الحيوية؟ لا تخافوا، ومحاربي تحرير الصور! يأتي Aspose.PSD for Java إلى الإنقاذ من خلال إمكانات معالجة طبقة ضبط المستويات القوية. سيزودك هذا الدليل بالمعرفة اللازمة لضبط صورك باستخدام المستويات في غاية السهولة. 
@@ -138,3 +144,9 @@ im.save(pngExportPath, saveOptions);
 
 ### أين يمكنني العثور على مزيد من المعلومات والدعم؟
 يوفر Aspose وثائق واسعة النطاق ([https://reference.aspose.com/psd/Java/](https://reference.aspose.com/psd/java/)) ومنتدى الدعم ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) لأية أسئلة أو مشاكل قد تواجهها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

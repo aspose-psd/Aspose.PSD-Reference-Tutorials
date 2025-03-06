@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for .NET 對影像進行灰階化
 linktitle: 使用 Aspose.PSD for .NET 對影像進行灰階化
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 輕鬆地將灰階效果套用至影像。
-type: docs
 weight: 14
 url: /zh-hant/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for .NET 對影像進行灰階化
+
 ## 介紹
 
 歡迎來到我們使用 Aspose.PSD for .NET 進行灰階影像處理的綜合教學！灰階是一種強大的技術，可以透過將影像轉換為灰階來增強影像的視覺吸引力。在本指南中，我們將引導您輕鬆完成令人驚嘆的灰階效果的過程。
@@ -108,3 +114,9 @@ A1：是的，Aspose.PSD支援各種影像格式，包括PSD、BMP、PNG和JPEG�
 ### Q5：如何購買 Aspose.PSD for .NET 的授權？
 
  A5：您可以從[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

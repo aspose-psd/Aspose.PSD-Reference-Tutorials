@@ -3,10 +3,16 @@ title: Sử dụng Trình tải dữ liệu thô tùy chỉnh trong tệp PSD - 
 linktitle: Sử dụng Trình tải dữ liệu thô tùy chỉnh trong tệp PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách sử dụng trình tải dữ liệu thô tùy chỉnh trong tệp PSD bằng Java! Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến dọn dẹp tài nguyên.
-type: docs
 weight: 29
 url: /vi/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Trình tải dữ liệu thô tùy chỉnh trong tệp PSD - Java
+
 ## Giới thiệu
 Làm việc với các tệp PSD trong Java có vẻ quá sức, đặc biệt là khi xử lý dữ liệu thô. Đừng sợ! Bằng cách sử dụng Aspose.PSD cho Java, bạn có thể dễ dàng thao tác và trích xuất dữ liệu pixel thô từ các tệp PSD bằng trình tải tùy chỉnh. Hướng dẫn này sẽ giúp bạn từng bước trong quá trình triển khai trình tải dữ liệu thô tùy chỉnh. Chúng tôi sẽ đề cập đến tất cả các điều kiện tiên quyết cần thiết, nhập các gói cần thiết và chia mã thành các bước dễ quản lý và dễ thực hiện.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Aspose.PSD cho Java là thư viện cho phép các nhà phát triển thao tác 
  Để được hỗ trợ và trợ giúp cộng đồng, bạn có thể truy cập[diễn đàn giả định](https://forum.aspose.com/c/psd/34).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?  
 Bạn có thể có được giấy phép tạm thời để đánh giá tất cả các tính năng bằng cách truy cập[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

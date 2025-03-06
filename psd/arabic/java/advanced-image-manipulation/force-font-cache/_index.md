@@ -3,10 +3,16 @@ title: فرض ذاكرة التخزين المؤقت للخط باستخدام A
 linktitle: فرض ذاكرة التخزين المؤقت للخط
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية فرض ذاكرة تخزين مؤقت للخط باستخدام Aspose.PSD لـ Java. قم بتحسين معالجة الصور وتحسين الأداء باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/advanced-image-manipulation/force-font-cache/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# فرض ذاكرة التخزين المؤقت للخط باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 هل تتطلع إلى تحسين التخزين المؤقت للخطوط باستخدام Aspose.PSD لـ Java؟ يلعب التخزين المؤقت للخطوط دورًا حاسمًا في تحسين أداء تطبيقات Java، خاصة عند التعامل مع مهام معالجة الصور المعقدة. في هذا الدليل الشامل، سنرشدك خلال عملية فرض ذاكرة التخزين المؤقت للخط باستخدام Aspose.PSD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو في معالجة صور Java، فقد تم تصميم هذا البرنامج التعليمي لمساعدتك على دمج التخزين المؤقت للخطوط بسلاسة في مشاريعك.
@@ -89,3 +95,9 @@ image1.save(dataDir + "HasFont.psd");
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: إذا كنت بحاجة إلى ترخيص مؤقت، قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

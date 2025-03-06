@@ -3,10 +3,16 @@ title: Ubah Warna Latar Belakang PNG di Aspose.PSD untuk Java
 linktitle: Ubah Warna Latar Belakang PNG di Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengubah warna latar belakang PNG di Aspose.PSD untuk Java dengan panduan langkah demi langkah ini. Instruksi mudah dan contoh praktis disertakan.
-type: docs
 weight: 11
 url: /id/java/optimizing-png-files/change-png-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Warna Latar Belakang PNG di Aspose.PSD untuk Java
+
 ## Perkenalan
 Seiring dengan perkembangan web yang terus berkembang, kebutuhan akan pengeditan gambar yang fleksibel menjadi semakin jelas. Dalam pemrosesan gambar, mengubah warna latar belakang dapat mengubah keseluruhan tampilan dan koherensi suatu desain. Masuk ke Aspose.PSD untuk Java—pustaka canggih yang memenuhi semua kebutuhan manipulasi file PSD Anda. Dalam tutorial ini, kita mendalami cara mengubah warna latar belakang PNG menggunakan Aspose.PSD. Pada akhirnya, Anda tidak hanya akan menjadi mahir dalam manipulasi gambar dasar tetapi juga siap untuk menangani tugas-tugas yang lebih kompleks. Mari kita mulai!
 ## Prasyarat
@@ -94,3 +100,9 @@ Anda dapat menggabungkan kode Anda dalam blok coba-tangkap untuk menangani penge
 Aspose.PSD mendukung berbagai format, termasuk PNG, JPEG, BMP, TIFF, dan banyak lagi.
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?  
  Anda dapat menghubungi[Asumsikan forum dukungan](https://forum.aspose.com/c/psd/34) untuk bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Compatibilidad con recursos en blanco y negro en Aspose.PSD para .NET
 linktitle: Recurso de apoyo en blanco y negro (Blwh)
 second_title: API Aspose.PSD .NET
 description: Explore la edición de imágenes avanzada con Aspose.PSD para .NET. Aprenda a dominar las capas de ajuste en blanco y negro para obtener un control preciso sobre los elementos de la imagen.
-type: docs
 weight: 13
 url: /es/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compatibilidad con recursos en blanco y negro en Aspose.PSD para .NET
+
 ## Introducción
 En el dinámico mundo de los medios digitales, la edición de imágenes juega un papel fundamental en la creación de imágenes cautivadoras. Aspose.PSD para .NET permite a los desarrolladores llevar sus capacidades de manipulación de imágenes al siguiente nivel. En este tutorial, exploraremos la compatibilidad con capas de ajuste de blanco y negro en Aspose.PSD, lo que le permitirá ajustar imágenes con precisión.
 ## Requisitos previos
@@ -89,3 +95,9 @@ R2: ¡Absolutamente! Aspose.PSD le permite apilar múltiples capas de ajuste, lo
 ### P5: ¿Hay imágenes de muestra disponibles para probar los ajustes en blanco y negro?
 
 R5: Sí, puede encontrar imágenes de muestra en la documentación de Aspose.PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

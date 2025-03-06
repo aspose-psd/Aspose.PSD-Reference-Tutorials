@@ -3,10 +3,16 @@ title: Bildverarbeitung
 linktitle: Bildverarbeitung
 second_title: Aspose.PSD .NET API
 description: Verbessern Sie mühelos die Bildqualität mit Aspose.PSD für .NET-Tutorials. Lernen Sie Techniken wie Gauß- und Wiener-Filter, Farbkonvertierung, Binärisierung und mehr.
-type: docs
 weight: 20
 url: /de/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bildverarbeitung
+
 
 ## Einführung
 
@@ -46,3 +52,9 @@ Entdecken Sie die Farbkonvertierung in Aspose.PSD für .NET. Erfahren Sie, wie S
 Erfahren Sie, wie Sie mit Aspose.PSD für .NET mühelos Graustufeneffekte auf Bilder anwenden.
 ### [Anwenden des Bradley-Schwellenwerts in Aspose.PSD für .NET](./apply-bradley-threshold/)
 Verbessern Sie die Bildsegmentierung mit Bradley Threshold in Aspose.PSD für .NET. Eine Schritt-für-Schritt-Anleitung zur effektiven Binärisierung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

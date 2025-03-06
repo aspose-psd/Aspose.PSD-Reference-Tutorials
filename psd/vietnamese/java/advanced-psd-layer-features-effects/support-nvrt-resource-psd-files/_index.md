@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên Nvrt trong tệp PSD bằng Java
 linktitle: Hỗ trợ tài nguyên Nvrt trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Khám phá cách hỗ trợ tài nguyên Nvrt trong tệp PSD bằng Java. Tìm hiểu cách tải tệp và trích xuất tài nguyên có giá trị một cách dễ dàng với Aspose.PSD.
-type: docs
 weight: 10
 url: /vi/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên Nvrt trong tệp PSD bằng Java
+
 ## Giới thiệu
 Khi nói đến làm việc với các tệp Photoshop (PSD) trong Java, có vô số điều bạn có thể làm. Cho dù bạn đang phát triển một trình soạn thảo đồ họa, tự động hóa các tác vụ hay xử lý các thiết kế theo chương trình, việc hiểu cách thao tác với các tệp PSD là rất quan trọng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể—hỗ trợ Tài nguyên Nvrt (Điều chỉnh đảo ngược) trong các tệp PSD bằng thư viện Aspose.PSD cho Java.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Aspose.PSD for Java là thư viện cho phép các nhà phát triển thao tác 
  Tuyệt đối! Bạn có thể dùng thử miễn phí Aspose.PSD cho Java[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD?
  Bạn có thể đặt câu hỏi và nhận hỗ trợ trên diễn đàn Aspose:[Hỗ trợ](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

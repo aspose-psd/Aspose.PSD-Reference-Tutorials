@@ -3,10 +3,16 @@ title: Aggiunta di effetti tratto ai livelli in Aspose.PSD per .NET
 linktitle: Aggiunta di effetti tratto ai livelli
 second_title: API Aspose.PSD .NET
 description: Migliora l'estetica dell'immagine con Aspose.PSD per .NET. Impara ad aggiungere effetti di tratto passo dopo passo. Scarica, acquista o prova subito la versione di prova gratuita.
-type: docs
 weight: 10
 url: /it/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiunta di effetti tratto ai livelli in Aspose.PSD per .NET
+
 ## Introduzione
 
 Benvenuti in questo tutorial passo passo sull'aggiunta di effetti tratto ai livelli in Aspose.PSD per .NET. Migliorare l'attrattiva visiva delle tue immagini è un gioco da ragazzi con l'effetto tratto e Aspose.PSD lo rende perfetto per gli sviluppatori .NET. In questa guida ti guideremo attraverso il processo, fornendo passaggi chiari ed esempi per aiutarti a padroneggiare questa potente funzionalità.
@@ -109,3 +115,9 @@ R4: Sì, puoi scorrere più file PSD e applicare l'effetto tratto utilizzando un
 ### Q5: Posso utilizzare la versione di prova prima di acquistare Aspose.PSD?
 
  A5: Certamente! Prendi il[prova gratuita](https://releases.aspose.com/) per esplorare le capacità di Aspose.PSD prima di effettuare un acquisto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

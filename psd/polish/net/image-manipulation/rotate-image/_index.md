@@ -3,10 +3,16 @@ title: Obracanie obrazu w Aspose.PSD dla .NET
 linktitle: Obracanie obrazu
 second_title: Aspose.PSD API .NET
 description: Naucz się bez wysiłku obracać obrazy w .NET za pomocą Aspose.PSD. Postępuj zgodnie z naszym samouczkiem krok po kroku.
-type: docs
 weight: 15
 url: /pl/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obracanie obrazu w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Jeśli zagłębiasz się w świat manipulacji obrazami za pomocą .NET, Aspose.PSD jest Twoim narzędziem do płynnego i wydajnego przetwarzania obrazów. W tym samouczku skupimy się na podstawowym zadaniu – obracaniu obrazu za pomocą Aspose.PSD dla .NET. Postępuj zgodnie z instrukcjami, dzieląc proces na proste, wykonalne kroki.
@@ -80,3 +86,9 @@ tym samouczku omówiliśmy podstawy obracania obrazów przy użyciu Aspose.PSD d
 ### P5: Czy mogę kupić Aspose.PSD do użytku komercyjnego?
 
  Z pewnością. Poznaj[strona zakupu](https://purchase.aspose.com/buy) aby nabyć licencję dostosowaną do Twoich potrzeb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

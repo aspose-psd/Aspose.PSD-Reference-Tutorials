@@ -3,10 +3,16 @@ title: Agregar firma a imágenes con Aspose.PSD para .NET
 linktitle: Agregar firma a imágenes con Aspose.PSD para .NET
 second_title: API Aspose.PSD .NET
 description: Mejore sus proyectos de imágenes .NET con Aspose.PSD. Aprenda cómo agregar firmas sin problemas utilizando nuestra guía paso a paso.
-type: docs
 weight: 13
 url: /es/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar firma a imágenes con Aspose.PSD para .NET
+
 ## Introducción
 
 En el ámbito del desarrollo .NET, Aspose.PSD se destaca como una poderosa herramienta para manipular y mejorar imágenes. Si alguna vez te has preguntado cómo agregar una firma a imágenes sin problemas usando Aspose.PSD para .NET, estás en el lugar correcto. Esta guía paso a paso lo guiará a través del proceso, asegurándole que domine el arte de incorporar firmas en sus imágenes sin esfuerzo.
@@ -103,3 +109,9 @@ R3: Puede implementar bloques try-catch para manejar las excepciones con eleganc
 ### P5: ¿Puedo probar Aspose.PSD antes de comprarlo?
 
  R5: Ciertamente, hay una prueba gratuita disponible[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

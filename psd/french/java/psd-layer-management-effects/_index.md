@@ -3,10 +3,16 @@ title: Gestion et effets des calques PSD
 linktitle: Gestion et effets des calques PSD
 second_title: API Java Aspose.PSD
 description: Explorez des didacticiels complets sur la gestion et les effets des couches PSD avec Aspose.PSD pour Java. Apprenez à fusionner, aplatir et personnaliser les calques PSD sans effort.
-type: docs
 weight: 23
 url: /fr/java/psd-layer-management-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion et effets des calques PSD
+
 ## Introduction
 
 Êtes-vous un développeur travaillant avec des fichiers PSD ? La gestion des calques et l'application d'effets peuvent s'avérer délicates, mais avec Aspose.PSD pour Java, vous pouvez rationaliser ces tâches sans effort. Passons à quelques didacticiels pratiques pour vous aider à améliorer vos compétences en manipulation d'images en Java.
@@ -70,3 +76,9 @@ Maîtrisez le style de texte PSD avec Aspose.PSD pour Java. Apprenez à modifier
 Maîtrisez la manipulation des bordures dans les fichiers PSD avec Aspose.PSD pour Java. Apprenez à modifier la largeur des bordures, les unités et bien plus encore grâce à des étapes faciles à suivre. Améliorez vos conceptions PSD par programmation.
 ### [Prise en charge du moniteur d'interruption dans les fichiers PSD - Java](./support-interrupt-monitor-psd-files/)
 Interrompez les conversions PSD de longue durée en Java à l'aide du moniteur d'interruption d'Aspose.PSD. Découvrez comment mettre en œuvre une interruption gracieuse et améliorer l'expérience utilisateur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

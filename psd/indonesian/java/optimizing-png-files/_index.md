@@ -3,10 +3,16 @@ title: Mengoptimalkan File PNG
 linktitle: Mengoptimalkan File PNG
 second_title: Asumsikan.PSD Java API
 description: Jelajahi tutorial komprehensif untuk mengoptimalkan file PNG menggunakan Aspose.PSD untuk Java, yang mencakup filter, perubahan warna latar belakang, kompresi, resolusi, kedalaman bit, dan transparansi.
-type: docs
 weight: 20
 url: /id/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengoptimalkan File PNG
+
 ## Perkenalan
 
 Apakah Anda ingin menguasai pengoptimalan file PNG dengan Aspose.PSD untuk Java? Tutorial terperinci kami mencakup semua yang perlu Anda ketahui untuk membuat gambar Anda bersinar. Dari menerapkan filter hingga mengubah warna latar belakang, dan mengompresi file hingga mengatur resolusi, panduan ini siap membantu Anda. Mari selami setiap topik selangkah demi selangkah untuk memastikan Anda mendapatkan hasil maksimal dari file PNG Anda!
@@ -48,3 +54,9 @@ Jelajahi cara mengatur resolusi file PNG menggunakan Aspose.PSD untuk Java denga
 Pelajari cara menentukan kedalaman bit PNG menggunakan Aspose.PSD untuk Java dalam tutorial langkah demi langkah yang mendetail ini.
 ### [Atur Transparansi PNG di Aspose.PSD untuk Java](./set-png-transparency/)
 Pelajari cara mengatur transparansi PNG di Aspose.PSD untuk Java dengan tutorial langkah demi langkah yang mudah. Sempurna untuk pengembang dan desainer grafis.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

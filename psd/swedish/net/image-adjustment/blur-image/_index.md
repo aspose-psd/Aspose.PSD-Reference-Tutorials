@@ -3,10 +3,16 @@ title: Oskärpa en bild i Aspose.PSD för .NET
 linktitle: Oskärpa en bild
 second_title: Aspose.PSD .NET API
 description: Lär dig hur du oskarpa bilder utan ansträngning med Aspose.PSD för .NET. En steg-för-steg-guide för sömlös bildmanipulation i dina C#-projekt.
-type: docs
 weight: 13
 url: /sv/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oskärpa en bild i Aspose.PSD för .NET
+
 ## Introduktion
 
 Inom .NET-utvecklingsområdet visar Aspose.PSD sig vara en kraftfull allierad för bildmanipulation. Den här handledningen fokuserar på en specifik uppgift: att göra en bild suddig med Aspose.PSD för .NET. Om du är sugen på att förbättra dina färdigheter i bildbehandling eller helt enkelt letar efter ett effektivt sätt att göra bilder suddiga programmatiskt, är du på rätt plats.
@@ -97,3 +103,9 @@ A4: Absolut! Aspose.PSD erbjuder en omfattande uppsättning funktioner, inklusiv
 ### F5: Var kan jag söka hjälp eller få kontakt med Aspose.PSD-communityt?
 
  S5: För eventuella frågor eller diskussioner, gå över till[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

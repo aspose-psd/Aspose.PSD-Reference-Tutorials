@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.PSD สำหรับ Java
 linktitle: Aspose.PSD สำหรับการสอน Java
-type: docs
 weight: 10
 url: /th/java/
 description: ปลดล็อกพลังของ Aspose.PSD สำหรับ Java ในการประมวลผลภาพ! ตัวกรองหลัก เช่น Gaussian, Wiener, Median และ Motion Wiener พร้อมบทช่วยสอนทีละขั้นตอน
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.PSD สำหรับ Java
+
 
 ## การแนะนำ
 
@@ -86,3 +91,9 @@ is_root: true
 จัดการอิมเมจ TIFF อย่างมีประสิทธิภาพด้วย Aspose.PSD สำหรับ Java เรียนรู้การบีบอัด กำหนดค่า และใช้การบีบอัด Adobe Deflate กับไฟล์ TIFF ด้วยบทช่วยสอนทีละขั้นตอนของเรา
 ### [การทำงานกับไฟล์ PSD](./working-with-psd-files/)
 สำรวจบทช่วยสอน Aspose.PSD สำหรับ Java ที่ครอบคลุม รวมถึงวิธีส่งออกกลุ่มเลเยอร์ PSD ไปยังรูปภาพและจัดการทรัพยากร Clbl, Infx และ Lspf
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

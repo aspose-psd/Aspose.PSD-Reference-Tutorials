@@ -3,10 +3,16 @@ title: Thêm hiệu ứng chuyển màu trong Aspose.PSD cho Java
 linktitle: Thêm hiệu ứng chuyển màu
 second_title: API Java Aspose.PSD
 description: Nâng cao hình ảnh Java của bạn bằng các hiệu ứng chuyển màu tuyệt đẹp bằng Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/java/advanced-image-effects/add-gradient-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hiệu ứng chuyển màu trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn thêm hiệu ứng chuyển màu trong Aspose.PSD cho Java! Nếu bạn đang tìm cách nâng cao hình ảnh của mình bằng các lớp phủ chuyển màu tuyệt đẹp thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.PSD, một thư viện Java mạnh mẽ để xử lý hình ảnh.
@@ -130,3 +136,9 @@ Câu trả lời 2: Aspose.PSD cung cấp nhiều hiệu ứng khác nhau, bao g
 ### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.PSD cho Java ở đâu?
 
  A5: Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để biết thông tin cấp phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

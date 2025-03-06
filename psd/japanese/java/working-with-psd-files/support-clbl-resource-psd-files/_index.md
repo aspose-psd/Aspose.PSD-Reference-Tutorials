@@ -3,10 +3,16 @@ title: Java を使用して PSD ファイル内の Clbl リソースをサポー
 linktitle: Java を使用して PSD ファイル内の Clbl リソースをサポートする
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイル内の Clbl リソースをサポートおよび操作する方法を学びます。この詳細なガイドでは、前提条件、手順ごとの手順、および FAQ について説明します。
-type: docs
 weight: 12
 url: /ja/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PSD ファイル内の Clbl リソースをサポートする
+
 ## 導入
 
  PSDファイルで作業していて、レイヤーリソースをプログラムで操作する必要があったことはありませんか？Java開発者ならラッキーです！Aspose.PSD for Javaを使用すると、PSDファイルを簡単に管理および編集できます。`ClblResource`—クリップされた要素のブレンドを制御する特別なリソースです。このチュートリアルでは、`ClblResource` Java を使用して PSD ファイルに組み込みます。最後には、プロジェクトでこのリソースを適切に処理できるようになり、レイヤー化された画像の外観を完全に制御できるようになります。
@@ -156,3 +162,9 @@ private static ClblResource getClblResource(PsdImage im) throws Exception {
 
 ### 大きな PSD ファイルをどのように処理すればよいですか?  
 Aspose.PSD for Java は、大きな PSD ファイルを効率的に処理できるように設計されていますが、最適なパフォーマンスを得るには、システムに十分なメモリと処理能力があることを確認する必要があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

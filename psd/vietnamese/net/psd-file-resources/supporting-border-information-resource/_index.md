@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên thông tin biên giới trong Aspose.PSD cho .NET
 linktitle: Hỗ trợ nguồn thông tin biên giới
 second_title: API Aspose.PSD .NET
 description: Khám phá Aspose.PSD để biết tính năng Tài nguyên thông tin biên giới của .NET để nâng cao hình ảnh. Hãy làm theo hướng dẫn của chúng tôi để tích hợp liền mạch. Tải về ngay bây giờ!
-type: docs
 weight: 11
 url: /vi/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên thông tin biên giới trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sử dụng tính năng Tài nguyên thông tin biên giới trong Aspose.PSD cho .NET. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình làm việc với Tài nguyên thông tin biên giới bằng Aspose.PSD, một thư viện hình ảnh .NET mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn hay mới bắt đầu, hướng dẫn này nhằm mục đích cung cấp sự rõ ràng về cách kết hợp liền mạch Tài nguyên thông tin biên giới vào dự án của bạn.
 ## Điều kiện tiên quyết
@@ -89,3 +95,9 @@ Câu trả lời 1: Có, Aspose.PSD cho .NET tương thích với nhiều khung 
 ### Câu hỏi 5: Có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering Text Rendering in PSD Files with Aspose.PSD for .NET
 linktitle: Rendering Text with Different Colors in Text Layers
 second_title: Aspose.PSD .NET API
 description: Enhance your .NET applications by mastering text rendering with diverse colors in PSD files using Aspose.PSD. Elevate your design capabilities effortlessly.
-type: docs
 weight: 10
 url: /net/text-and-font-manipulation/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Text Rendering in PSD Files with Aspose.PSD for .NET
+
 ## Introduction
 Welcome to our step-by-step tutorial on rendering text with different colors in text layers using Aspose.PSD for .NET. Aspose.PSD is a powerful API that allows developers to manipulate and process PSD files seamlessly. In this tutorial, we'll focus on a specific task: rendering text with various colors in text layers.
 ## Prerequisites
@@ -76,3 +82,10 @@ A4: For any queries or assistance, visit the [Aspose.PSD forum](https://forum.as
 ### Q5: Are temporary licenses available for Aspose.PSD for .NET?
 
 A5: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

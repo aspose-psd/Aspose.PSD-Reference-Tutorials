@@ -3,10 +3,16 @@ title: Platta ut lager i PSD-filer med Aspose.PSD Java
 linktitle: Platta ut lager i PSD-filer med Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Platta till och slå samman lager i PSD-filer utan ansträngning med Aspose.PSD för Java. Följ denna steg-för-steg-guide för att förenkla din PSD-filhantering.
-type: docs
 weight: 13
 url: /sv/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Platta ut lager i PSD-filer med Aspose.PSD Java
+
 ## Introduktion
 
 Har du någonsin sett dig själv att arbeta med Photoshop-filer och önskat dig ett enklare sätt att hantera dessa komplexa lager? Tja, du har tur! Idag dyker vi in i världen av Aspose.PSD för Java, ett kraftfullt verktyg som gör det enkelt att arbeta med PSD-filer programmatiskt. En av de praktiska funktionerna vi kommer att utforska är att platta lager. Oavsett om du vill platta till en hel bild eller selektivt slå samman specifika lager, har Aspose.PSD för Java dig täckt. Denna handledning guidar dig genom processen, steg för steg, och säkerställer att du är redo att ta itu med dina PSD-filer med tillförsikt.
@@ -150,3 +156,9 @@ Ja, du kan slå samman lager med olika blandningslägen med Aspose.PSD, och det 
 
 ### Vad händer om jag försöker slå samman lager som inte ligger intill?  
 Aspose.PSD låter dig slå samman alla lager oavsett deras ordning i lagerstacken. Sammanfogningsprocessen kommer att kombinera de valda lagren som specificerats.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

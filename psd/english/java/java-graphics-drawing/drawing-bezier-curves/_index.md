@@ -3,10 +3,16 @@ title: Drawing Bezier Curves in Java
 linktitle: Drawing Bezier Curves in Java
 second_title: Aspose.PSD Java API
 description: Learn how to draw Bezier curves in Java using Aspose.PSD for Java. Follow our step-by-step guide with code examples.
-type: docs
 weight: 14
 url: /java/java-graphics-drawing/drawing-bezier-curves/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Bezier Curves in Java
+
 ## Introduction
 In Java programming, drawing complex shapes like Bezier curves can greatly enhance the visual appeal of applications. Aspose.PSD for Java provides robust functionalities to facilitate such tasks efficiently. This tutorial will guide you through the process of drawing Bezier curves step-by-step using Aspose.PSD for Java, enabling you to create visually engaging graphics with ease.
 ## Prerequisites
@@ -93,3 +99,10 @@ Yes, Aspose.PSD for Java supports high-resolution images with efficient memory m
 Yes, Aspose.PSD for Java supports exporting images to various formats like PNG, JPEG, TIFF, etc.
 ### Where can I find more examples and documentation?
 Visit the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) for comprehensive guides and code samples.## Complete Source Code
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

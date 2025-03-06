@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일의 레이어 회전
 linktitle: Java를 사용하여 PSD 파일의 레이어 회전
 second_title: Aspose.PSD 자바 API
 description: 이 단계별 가이드를 통해 Java용 Aspose.PSD를 사용하여 PSD 파일의 레이어를 쉽게 회전하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일의 레이어 회전
+
 ## 소개
 그래픽 디자인 세계에서는 Photoshop 파일(PSD) 작업이 일반적인 활동입니다. 숙련된 디자이너이거나 이제 막 이미지 조작을 시작하는 경우 PSD 파일에서 레이어를 회전하는 방법을 알면 시간을 절약할 수 있습니다. 하지만 여기서 까다로워지는 부분이 있습니다. 모든 사람이 Adobe Photoshop에 액세스할 수 있는 것은 아니며 복잡한 인터페이스를 배우고 싶어하지도 않습니다. 이것이 바로 Java가 등장하여 프로그래밍 방식으로 PSD 파일을 더 쉽게 조작할 수 있게 해줍니다. 이 기사에서는 레이어 회전을 포함하여 PSD 파일을 원활하게 작업할 수 있는 강력한 Java용 Aspose.PSD 라이브러리를 살펴보겠습니다. 이제 소매를 걷어붙이고 디자인 작업 흐름을 더욱 원활하게 만드는 방법에 대해 알아보세요!
 ## 전제조건
@@ -89,3 +95,9 @@ Java 라이브러리용 Aspose.PSD를 활용하면 PSD 파일의 레이어를 �
  다음에서 포괄적인 문서를 찾을 수 있습니다.[Aspose.PSD 문서](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD를 사용하는 동안 문제가 발생하면 어떻게 되나요?
  다음을 통해 도움을 요청하세요.[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

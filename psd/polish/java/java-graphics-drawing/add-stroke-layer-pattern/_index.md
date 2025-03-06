@@ -3,10 +3,16 @@ title: Jak dodać wzór warstwy obrysu w Javie
 linktitle: Jak dodać wzór warstwy obrysu w Javie
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak dodać wzór warstwy obrysu do plików PSD przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby łatwo ulepszać swoje obrazy.
-type: docs
 weight: 11
 url: /pl/java/java-graphics-drawing/add-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak dodać wzór warstwy obrysu w Javie
+
 ## Wstęp
 Dodanie wzorca warstwy obrysu do obrazu w Javie może wydawać się trudnym zadaniem, ale dzięki Aspose.PSD dla Java jest to łatwiejsze niż myślisz. Niezależnie od tego, czy projektujesz grafikę, czy pracujesz nad aplikacjami do edycji zdjęć, ten przewodnik przeprowadzi Cię krok po kroku przez ten proces. Gotowy, aby zacząć? Zanurzmy się!
 ## Warunki wstępne
@@ -138,3 +144,9 @@ Aspose.PSD dla Java to biblioteka, która umożliwia programistom programowe two
  Możesz uzyskać wsparcie na forach społeczności Aspose[Tutaj](https://forum.aspose.com/c/psd/34).
 ### Jakie są wymagania systemowe dla Aspose.PSD dla Java?
 Potrzebujesz zainstalowanego JDK i IDE do programowania. Biblioteka obsługuje wiele systemów operacyjnych, w tym Windows, Linux i macOS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

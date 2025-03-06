@@ -3,10 +3,16 @@ title: Добавьте цвет слоя обводки в Aspose.PSD для Ja
 linktitle: Добавить цвет слоя с обводкой
 second_title: Aspose.PSD Java API
 description: Исследуйте возможности Aspose.PSD для Java с помощью нашего пошагового руководства по добавлению цвета слоя обводки. Улучшите свой графический дизайн без особых усилий.
-type: docs
 weight: 14
 url: /ru/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте цвет слоя обводки в Aspose.PSD для Java
+
 ## Введение
 
 Раскройте потенциал графического дизайна вашего Java-приложения с помощью Aspose.PSD. В этом уроке мы углубимся в увлекательный мир добавления цвета слоя обводки с помощью Aspose.PSD для Java. Улучшите свою графику с помощью ярких штрихов, легко создавая визуально привлекательный дизайн.
@@ -120,3 +126,9 @@ im.save(exportPath);
 ### В5: Где я могу получить временную лицензию на Aspose.PSD?
 
  A5: Получите[временная лицензия](https://purchase.aspose.com/temporary-license/) для Aspose.PSD, чтобы оценить его возможности в ваших проектах.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

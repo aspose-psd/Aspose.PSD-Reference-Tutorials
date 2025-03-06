@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET でパターン付きのストローク レイヤー�
 linktitle: パターン付きストロークレイヤーの追加
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を使用して、ストローク レイヤーとパターンで PSD ファイルを強化します。シームレスな統合については、ステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/net/layer-effects/adding-stroke-layer-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET でパターン付きのストローク レイヤーを追加する
+
 ## 導入
 
 PSD (Photoshop ドキュメント) ファイルをストローク レイヤーとパターンで強化すると、デザインにダイナミックなタッチを加えることができます。このチュートリアルでは、Aspose.PSD for .NET を活用して、PSD ファイルにパターン付きのストローク レイヤーを簡単に追加する方法を説明します。Aspose.PSD は、PSD ファイルの操作を包括的にサポートする強力な .NET ライブラリであり、開発者やデザイナーにとって非常に役立つツールです。
@@ -144,3 +150,9 @@ A4: もちろんです。Aspose.PSD for .NET はバッチ処理を強力にサ�
 ### Q5: サポートを求めたり、コミュニティのディスカッションに参加したりするにはどこに行けばよいですか?
 
  A5: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)サポートとコミュニティの交流のため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

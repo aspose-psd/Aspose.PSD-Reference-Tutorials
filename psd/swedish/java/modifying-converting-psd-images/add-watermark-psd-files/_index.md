@@ -3,10 +3,16 @@ title: Lägg till vattenstämpel till PSD-filer med Aspose.PSD för Java
 linktitle: Lägg till vattenstämpel till PSD-filer med Aspose.PSD för Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du lägger till en vattenstämpel till dina PSD-filer utan ansträngning med Aspose.PSD för Java. Skydda dina bilder med en enkel steg-för-steg-guide.
-type: docs
 weight: 18
 url: /sv/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till vattenstämpel till PSD-filer med Aspose.PSD för Java
+
 ## Introduktion
 Vattenstämplar är ett subtilt men effektivt sätt att skydda dina bilder och kommunicera ägande. Oavsett om du är en fotograf som visar upp din portfolio eller en designer som presenterar ditt senaste arbete, kan det vara avgörande att lägga till en vattenstämpel för att behålla din varumärkesidentitet. I den här handledningen kommer vi att fördjupa oss i hur du enkelt lägger till vattenstämplar till dina PSD-filer med Aspose.PSD för Java. Så ta en kopp kaffe, gör dig bekväm och låt oss börja!
 ## Förutsättningar
@@ -90,3 +96,9 @@ Och där har du det! Du har framgångsrikt lagt till en vattenstämpel till din 
  Ja, du kan spara i olika format som JPEG eller BMP. Byt bara ut`PngOptions()` med önskade alternativ.
 ### Var kan jag hitta mer hjälp?
  För detaljerade frågor kan du besöka[Aspose forum](https://forum.aspose.com/c/psd/34) eller kolla deras[dokumentation](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

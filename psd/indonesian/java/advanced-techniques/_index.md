@@ -3,10 +3,16 @@ title: Teknik Tingkat Lanjut
 linktitle: Teknik Tingkat Lanjut
 second_title: Asumsikan.PSD Java API
 description: Kuasai teknik tingkat lanjut dalam pemrosesan gambar Java dengan mudah dengan tutorial Aspose.PSD. Skala abu-abu, muat, konversi, render teks, simpan secara efisien, dan banyak lagi!
-type: docs
 weight: 22
 url: /id/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teknik Tingkat Lanjut
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan pemrosesan gambar Java Anda? Selami tutorial komprehensif kami dengan Aspose.PSD untuk Java, membuka berbagai teknik tingkat lanjut. Mari jelajahi beberapa tutorial utama secara detail:
@@ -85,3 +91,9 @@ Jelajahi dunia penyesuaian kontras gambar di Java dengan Aspose.PSD. Ikuti pandu
 Pelajari cara menyesuaikan gamma gambar dengan mudah menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk hasil optimal.
 ### [Memburamkan Gambar menggunakan Aspose.PSD untuk Java](./blur-image/)
 Belajar memburamkan gambar di Java dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk hasil profesional.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

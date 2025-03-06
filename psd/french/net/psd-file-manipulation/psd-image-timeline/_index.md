@@ -3,10 +3,16 @@ title: Gestion de la chronologie des images PSD dans Aspose.PSD pour .NET
 linktitle: Gestion de la chronologie des images PSD
 second_title: API Aspose.PSD.NET
 description: Apprenez à gérer facilement les chronologies des images PSD à l’aide d’Aspose.PSD pour .NET. Ajoutez des cadres, changez de manière transparente et améliorez vos compétences en matière d'édition d'images.
-type: docs
 weight: 17
 url: /fr/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de la chronologie des images PSD dans Aspose.PSD pour .NET
+
 ## Introduction
 Dans le monde dynamique du traitement d'images, Aspose.PSD pour .NET se distingue comme une boîte à outils puissante, fournissant des solutions robustes pour gérer les chronologies des images PSD. Que vous soyez un développeur chevronné ou un passionné de codage, ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.PSD pour manipuler facilement les chronologies des images.
 ## Conditions préalables
@@ -80,3 +86,9 @@ A1 : Non, Aspose.PSD est spécifiquement conçu pour les applications .NET.
 ### Q5 : Besoin d'aide ou avez des questions ?
 
  A5 : Visitez le forum de la communauté Aspose.PSD[ici](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

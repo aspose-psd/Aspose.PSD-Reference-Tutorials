@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 PNG 파일 압축
 linktitle: Java용 Aspose.PSD를 사용하여 PNG 파일 압축
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PNG 파일을 효율적으로 압축하는 방법을 알아보세요. 이 튜토리얼에서는 최적의 파일 처리를 보장하는 코드 구현 과정을 안내합니다.
-type: docs
 weight: 12
 url: /ko/java/optimizing-png-files/compress-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 PNG 파일 압축
+
 ## 소개
 
 소프트웨어 개발에서 이미지를 처리할 때 눈에 띄는 도구 중 하나는 Java용 Aspose.PSD입니다. 이 강력한 라이브러리를 통해 개발자는 Photoshop 파일(PSD)을 원활하게 조작할 수 있습니다. 웹사이트에 대한 이미지를 최적화하든, 로드 시간을 향상시키든, 아니면 단순히 그래픽에서 최상의 품질을 얻으려는 경우든, 이 라이브러리를 효과적으로 사용하는 방법을 이해하면 게임의 판도를 바꿀 수 있습니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 PNG 파일을 압축하는 실제 예제를 살펴보겠습니다. 시작해 봅시다!
@@ -111,3 +117,9 @@ Aspose.PSD for Java는 개발자가 Photoshop 파일을 프로그래밍 방식�
 
 ### Java용 Aspose.PSD에 대한 추가 문서는 어디서 찾을 수 있나요?  
  자세한 문서와 예제는 다음에서 찾을 수 있습니다.[Aspose.PSD 참조](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

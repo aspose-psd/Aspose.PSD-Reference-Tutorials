@@ -3,10 +3,16 @@ title: สนับสนุนทรัพยากร SoCo ในไฟล์ 
 linktitle: สนับสนุนทรัพยากร SoCo ในไฟล์ PSD โดยใช้ Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีจัดการทรัพยากร SoCo ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนนี้
-type: docs
 weight: 22
 url: /th/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สนับสนุนทรัพยากร SoCo ในไฟล์ PSD โดยใช้ Java
+
 ## การแนะนำ
 การทำงานกับไฟล์ PSD อาจเหมือนกับการนำทางในเขาวงกตที่ซับซ้อน โดยเฉพาะอย่างยิ่งหากคุณกำลังดำดิ่งลงลึกเข้าไปในความซับซ้อนของเลเยอร์และทรัพยากร โชคดีที่เครื่องมืออย่าง Aspose.PSD สำหรับ Java สามารถทำให้กระบวนการนี้ง่ายขึ้น ช่วยให้นักพัฒนาสามารถจัดการไฟล์ Photoshop โดยทางโปรแกรมได้ ในบทช่วยสอนนี้ เราจะอธิบายวิธีการสนับสนุนทรัพยากร SoCo ภายในไฟล์ PSD โดยใช้ Java ซึ่งจะทำให้ชีวิตของคุณง่ายขึ้นมาก 
 ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพียงแค่เริ่มต้นในโลกของการประมวลผลภาพ คู่มือนี้จะแยกแยะความซับซ้อนออกเป็นขั้นตอนที่เข้าใจง่าย เพื่อให้มั่นใจว่าคุณจะสิ้นสุดการเดินทางด้วยความเข้าใจที่มั่นคง
@@ -111,3 +117,9 @@ Aspose.PSD สำหรับ Java เป็นไลบรารีที่ช
  ใช่มีทุ่มเท[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34).
 ### ฉันสามารถจัดการทรัพยากรประเภทใดในไฟล์ PSD ได้
 คุณสามารถจัดการทรัพยากรต่างๆ ได้ รวมถึงเลเยอร์ เลเยอร์การเติม และทรัพยากร SoCo ภายในไฟล์ PSD
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

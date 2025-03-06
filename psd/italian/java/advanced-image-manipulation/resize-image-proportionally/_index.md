@@ -3,10 +3,16 @@ title: Ridimensiona l'immagine proporzionalmente con Aspose.PSD per Java
 linktitle: Ridimensiona l'immagine proporzionalmente
 second_title: API Java Aspose.PSD
 description: Migliora le tue applicazioni Java con Aspose.PSD. Segui la nostra guida per ridimensionare le immagini proporzionalmente senza sforzo. Potenzia oggi stesso le tue capacità di gestione delle immagini.
-type: docs
 weight: 17
 url: /it/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ridimensiona l'immagine proporzionalmente con Aspose.PSD per Java
+
 ## Introduzione
 
 Benvenuti nella nostra guida passo passo sul ridimensionamento proporzionale delle immagini utilizzando Aspose.PSD per Java. Se stai cercando di migliorare le tue applicazioni Java con efficienti funzionalità di ridimensionamento delle immagini, sei nel posto giusto. In questo tutorial ti guideremo attraverso il processo utilizzando passaggi chiari e concisi.
@@ -92,3 +98,9 @@ In questo tutorial, abbiamo trattato i passaggi essenziali per ridimensionare le
 
  R5: Fare riferimento alla documentazione dettagliata[Qui](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

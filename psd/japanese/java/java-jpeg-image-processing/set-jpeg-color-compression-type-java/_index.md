@@ -3,10 +3,16 @@ title: Java で JPEG の色と圧縮タイプを設定する
 linktitle: Java で JPEG の色と圧縮タイプを設定する
 second_title: Aspose.PSD Java API
 description: Aspose.PSD を使用して Java で JPEG の色と圧縮タイプを設定する方法を学びます。このステップバイステップ ガイドにより、画像処理が簡単かつ効率的になります。
-type: docs
 weight: 13
 url: /ja/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で JPEG の色と圧縮タイプを設定する
+
 ## 導入
 今日のデジタル時代では、Web 開発、グラフィック デザイン、ソフトウェア エンジニアリングのいずれにおいても、画像の管理と操作は一般的に必要不可欠です。PSD ファイルを処理し、特定の色と圧縮設定で JPEG に変換する強力なツールをお探しの場合は、Aspose.PSD for Java が最適です。このチュートリアルでは、この強力なライブラリを使用して JPEG の色と圧縮タイプを設定する手順を説明します。
 ## 前提条件
@@ -54,3 +60,9 @@ Aspose.PSD for Java は、開発者が PSD および PSB ファイルを作成�
 ドキュメントは以下からご覧いただけます[ここ](https://reference.aspose.com/psd/java/).
 ### Aspose.PSD for Java は Web アプリケーションに適していますか?
 はい、Aspose.PSD for Java を Web アプリケーションに統合して、サーバー側で画像処理タスクを処理できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

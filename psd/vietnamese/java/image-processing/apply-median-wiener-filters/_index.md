@@ -3,10 +3,16 @@ title: Áp dụng Bộ lọc trung vị và Wiener với Aspose.PSD cho Java
 linktitle: Áp dụng bộ lọc trung vị và Wiener
 second_title: API Java Aspose.PSD
 description: Khám phá sức mạnh xử lý hình ảnh trong Java với Aspose.PSD. Tìm hiểu cách áp dụng Bộ lọc trung vị và Wiener theo từng bước. Nâng cao chất lượng hình ảnh một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/image-processing/apply-median-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Bộ lọc trung vị và Wiener với Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực lập trình Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ để thao tác và xử lý hình ảnh. Một trong những chức năng chính mà nó cung cấp là ứng dụng Bộ lọc Median và Wiener, đóng vai trò quan trọng trong việc nâng cao chất lượng hình ảnh và giảm nhiễu. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình áp dụng các bộ lọc này bằng Aspose.PSD cho Java.
@@ -101,3 +107,9 @@ Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Làm cách nào tôi có thể mua Aspose.PSD cho Java?
 
  A5: Bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

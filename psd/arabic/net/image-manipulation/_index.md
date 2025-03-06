@@ -3,10 +3,16 @@ title: التلاعب بالصورة
 linktitle: التلاعب بالصورة
 second_title: Aspose.PSD.NET API
 description: ارفع مستوى مشروعات .NET الخاصة بك باستخدام Aspose.PSD! تعلم تقنيات معالجة الصور مثل دمج التأثيرات واقتصاصها وتغيير حجمها وتدويرها وإضافة التأثيرات دون عناء.
-type: docs
 weight: 26
 url: /ar/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالصورة
+
 ## مقدمة
 
 تعد معالجة الصور مهارة حيوية لأي مطور أو مصمم يعمل مع .NET، ويوفر Aspose.PSD for .NET مجموعة أدوات قوية لتعزيز قدراتك. في هذا البرنامج التعليمي، سوف نتعمق في تقنيات معالجة الصور المختلفة التي يمكن تطبيقها بسهولة باستخدام[Aspose.PSD](https://www.aspose.com/products/psd).
@@ -114,3 +120,9 @@ url: /ar/net/image-manipulation/
 أتقن فن عرض تأثير Gradient Overlay Effect في Aspose.PSD لـ .NET. ارفع مهاراتك في التصميم الجرافيكي من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [دعم تأثير تراكب التدرج في Aspose.PSD لـ .NET](./supporting-gradient-overlay-effect/)
 قم بتحسين الرسومات في .NET باستخدام Aspose.PSD. يرشدك هذا البرنامج التعليمي إلى دعم تأثيرات Gradient Overlay.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

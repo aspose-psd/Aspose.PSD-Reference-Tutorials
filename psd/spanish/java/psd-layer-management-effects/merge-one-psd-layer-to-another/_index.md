@@ -3,10 +3,16 @@ title: Fusionar una capa PSD con otra usando Java
 linktitle: Fusionar una capa PSD con otra usando Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo fusionar capas de un archivo PSD en otro usando Aspose.PSD para Java con nuestro tutorial paso a paso. Perfecto para automatizar sus procesos de diseño.
-type: docs
 weight: 10
 url: /es/java/psd-layer-management-effects/merge-one-psd-layer-to-another/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fusionar una capa PSD con otra usando Java
+
 ## Introducción
 
 ¿Alguna vez ha necesitado fusionar capas de un archivo PSD con otro mientras trabajaba con documentos de Adobe Photoshop mediante programación? Ya sea que esté automatizando procesos de diseño o administrando una gran colección de imágenes en capas, Aspose.PSD para Java ofrece un potente conjunto de herramientas para manipular archivos PSD directamente a través de su código Java. En esta guía, lo guiaremos a través del proceso de fusionar una capa PSD con otra usando Aspose.PSD para Java. No sólo aprenderá a fusionar capas sin problemas, sino que también descubrirá lo fácil que es trabajar con archivos PSD en un entorno Java. ¿Listo para sumergirte? ¡Empecemos!
@@ -119,3 +125,9 @@ Una vez que se fusionan las capas, la operación no es reversible. Mantenga siem
 
 ### ¿Cómo obtengo una licencia temporal de Aspose.PSD para Java?
  Puede obtener una licencia temporal del[Aspose sitio web](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

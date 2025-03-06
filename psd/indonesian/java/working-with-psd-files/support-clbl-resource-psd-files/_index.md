@@ -3,10 +3,16 @@ title: Mendukung Sumber Daya Clbl dalam File PSD menggunakan Java
 linktitle: Mendukung Sumber Daya Clbl dalam File PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mendukung dan memanipulasi Sumber Daya Clbl dalam file PSD menggunakan Aspose.PSD untuk Java. Panduan terperinci ini mencakup prasyarat, petunjuk langkah demi langkah, dan FAQ.
-type: docs
 weight: 12
 url: /id/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Daya Clbl dalam File PSD menggunakan Java
+
 ## Perkenalan
 
  Pernahkah Anda mendapati diri Anda bekerja dengan file PSD dan perlu memanipulasi sumber daya lapisan secara terprogram? Jika Anda seorang pengembang Java, Anda beruntung! Dengan Aspose.PSD untuk Java, Anda dapat dengan mudah mengelola dan mengedit file PSD, termasuk menangani`ClblResource`—sumber daya khusus yang mengontrol pencampuran elemen yang terpotong. Dalam tutorial ini, kita akan mendalami bagaimana Anda dapat mendukung dan memanipulasi`ClblResource` di file PSD Anda menggunakan Java. Pada akhirnya, Anda akan diperlengkapi dengan baik untuk menangani sumber daya ini dalam proyek Anda, memastikan Anda memiliki kendali penuh atas tampilan gambar berlapis Anda.
@@ -156,3 +162,9 @@ Ya, lisensi diperlukan untuk fungsionalitas penuh. Anda bisa mendapatkan[izin se
 
 ### Bagaimana cara menangani file PSD berukuran besar?  
 Aspose.PSD untuk Java dirancang untuk menangani file PSD berukuran besar secara efisien, namun Anda harus memastikan sistem Anda memiliki memori dan daya pemrosesan yang memadai untuk kinerja optimal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

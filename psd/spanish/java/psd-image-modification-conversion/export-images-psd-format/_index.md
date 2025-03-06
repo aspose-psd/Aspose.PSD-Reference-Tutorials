@@ -3,10 +3,16 @@ title: Exportar imágenes a formato PSD con Java
 linktitle: Exportar imágenes a formato PSD con Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo exportar imágenes a formato PSD usando Aspose.PSD para Java en una sencilla guía paso a paso. Perfecto para desarrolladores y diseñadores gráficos.
-type: docs
 weight: 11
 url: /es/java/psd-image-modification-conversion/export-images-psd-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportar imágenes a formato PSD con Java
+
 ## Introducción
 
 En el ámbito del diseño gráfico, trabajar con imágenes en capas es esencial y el formato PSD de Adobe Photoshop se ha convertido en la opción preferida por los profesionales. Quizás te preguntes: "¿Cómo puedo manipular y guardar mis imágenes en este formato usando Java?" Bueno, ¡estás en el lugar correcto! En este tutorial, exploraremos cómo aprovechar el poder de Aspose.PSD para Java para crear y exportar imágenes en formato PSD sin problemas. Entonces, ponte cómodo, toma un refrigerio y ¡sumergámonos en el mundo del procesamiento de imágenes!
@@ -117,3 +123,9 @@ Sí, Aspose.PSD le permite abrir, editar y guardar archivos PSD existentes media
 
 ### ¿Cómo puedo obtener soporte si tengo problemas?
  Para obtener soporte, puede visitar el[asponer foro](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

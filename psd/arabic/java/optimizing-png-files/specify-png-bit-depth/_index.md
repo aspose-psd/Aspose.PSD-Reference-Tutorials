@@ -3,10 +3,16 @@ title: حدد عمق بت PNG في Aspose.PSD لـ Java
 linktitle: حدد عمق بت PNG في Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تحديد عمق بت PNG باستخدام Aspose.PSD لـ Java في هذا البرنامج التعليمي التفصيلي خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/optimizing-png-files/specify-png-bit-depth/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حدد عمق بت PNG في Aspose.PSD لـ Java
+
 ## مقدمة
 هل تتطلع إلى تحسين مهاراتك في معالجة الصور باستخدام Aspose.PSD لـ Java؟ أنت في المكان الصحيح! سيرشدك هذا البرنامج التعليمي خلال عملية تحديد عمق بت PNG أثناء تحويل ملفات PSD إلى تنسيق PNG. بمساعدة Aspose.PSD، ستجد أنه من السهل جدًا التعامل مع صورك. سواء كنت تقوم بتطوير مشروع شخصي صغير أو تطبيق أكبر، فإن التحكم في جودة الصورة من خلال عمق البت يمكن أن يؤثر بشكل كبير على الناتج النهائي.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ Aspose.PSD for Java هي مكتبة للعمل مع ملفات PSD في تطبي
  للحصول على ترخيص مؤقت، يمكنك التقدم بطلب[هنا](https://purchase.aspose.com/temporary-license/).
 ### ما نوع الصور التي يمكنني تحويلها؟
 يتعامل Aspose.PSD بشكل أساسي مع ملفات PSD، ولكنه يدعم التحويل إلى تنسيقات مختلفة مثل PNG وJPEG وTIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

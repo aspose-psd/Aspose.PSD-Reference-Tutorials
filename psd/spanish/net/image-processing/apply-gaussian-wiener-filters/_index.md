@@ -3,10 +3,16 @@ title: Aplicación de filtros gaussianos y wiener en Aspose.PSD para .NET
 linktitle: Aplicación de filtros Gaussianos y Wiener
 second_title: API Aspose.PSD .NET
 description: Mejore la calidad de la imagen sin esfuerzo con Aspose.PSD para .NET. Aplique filtros Gaussianos y Wiener para reducir el ruido y lograr un atractivo visual óptimo.
-type: docs
 weight: 10
 url: /es/net/image-processing/apply-gaussian-wiener-filters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicación de filtros gaussianos y wiener en Aspose.PSD para .NET
+
 ## Introducción
 
 En el ámbito del procesamiento de imágenes utilizando .NET, Aspose.PSD se destaca como un poderoso conjunto de herramientas que permite a los desarrolladores manipular imágenes con facilidad. Una característica particularmente útil es la aplicación de filtros Gaussianos y Wiener. Estos filtros desempeñan un papel crucial a la hora de mejorar la calidad de la imagen, reducir el ruido y garantizar un atractivo visual óptimo.
@@ -110,3 +116,10 @@ R2: El tamaño del radio determina el área sobre la que opera el filtro, mientr
 ### P5: ¿Existe una versión de prueba gratuita de Aspose.PSD disponible?
 
  R5: Sí, puede explorar las características de Aspose.PSD descargando el[versión de prueba gratuita](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

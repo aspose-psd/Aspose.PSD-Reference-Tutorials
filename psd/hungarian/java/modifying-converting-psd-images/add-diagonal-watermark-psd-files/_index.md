@@ -3,10 +3,16 @@ title: Adjon átlós vízjelet a PSD-fájlokhoz Java segítségével
 linktitle: Adjon átlós vízjelet a PSD-fájlokhoz Java segítségével
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan adhat hozzá egyszerűen átlós vízjelet PSD-fájlokhoz Java használatával az Aspose.PSD-vel. Útmutató lépésről lépésre a képek magabiztos javításához.
-type: docs
 weight: 12
 url: /hu/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon átlós vízjelet a PSD-fájlokhoz Java segítségével
+
 ## Bevezetés
 A mai digitális világban a látványos látvány mindent megváltoztathat. Akár egy tervező, aki meg akarja védeni a munkáját, vagy egy marketingszakember, aki márkajelzést szeretne hozzáadni a képekhez, a vízjel alkalmazása elengedhetetlen. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk átlós vízjelet PSD-fájlokhoz Java használatával az Aspose.PSD segítségével, amely egy hatékony könyvtár a PSD-fájlok kezeléséhez.
 ## Előfeltételek
@@ -97,3 +103,9 @@ Teljesen! Az átlátszóság megváltoztatásához módosíthatja az alfa érté
  Igen, felhívhatod a`drawString` módszert többször különböző paraméterekkel további vízjelek hozzáadásához.
 ### Hol találhatok több információt az Aspose.PSD-ről?
  Ellenőrizheti a dokumentációt[itt](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

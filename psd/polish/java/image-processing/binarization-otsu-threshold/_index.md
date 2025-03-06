@@ -3,10 +3,16 @@ title: Binaryzacja z progiem Otsu w Aspose.PSD dla Java
 linktitle: Binaryzacja z progiem Otsu
 second_title: Aspose.PSD API Java
 description: Poznaj binaryzację za pomocą progu Otsu w Aspose.PSD dla Java. Potężna technika segmentacji obrazu.
-type: docs
 weight: 15
 url: /pl/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binaryzacja z progiem Otsu w Aspose.PSD dla Java
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym wykonywania binaryzacji za pomocą progu Otsu w Aspose.PSD dla Java! W tym samouczku przyjrzymy się, jak wykorzystać bibliotekę Aspose.PSD for Java, aby zwiększyć możliwości przetwarzania obrazów. Binaryzacja za pomocą Otsu Threshold to potężna technika segmentacji obrazu, a dzięki Aspose.PSD staje się ona zarówno prosta, jak i wydajna.
@@ -103,3 +109,9 @@ A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/java/).
 ### P5: Czy dostępna jest tymczasowa licencja na Aspose.PSD dla Java?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

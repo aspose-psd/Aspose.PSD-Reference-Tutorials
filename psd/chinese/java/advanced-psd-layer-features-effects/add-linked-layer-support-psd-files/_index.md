@@ -3,10 +3,16 @@ title: 使用 Java 在 PSD 文件中添加链接层支持
 linktitle: 使用 Java 在 PSD 文件中添加链接层支持
 second_title: Aspose.PSD Java API
 description: 通过本详细的分步教程学习如何使用 Aspose.PSD for Java 在 PSD 文件中添加链接层支持。非常适合设计师和开发人员。
-type: docs
 weight: 19
 url: /zh/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PSD 文件中添加链接层支持
+
 ## 介绍
 Adobe Photoshop 的 .PSD 文件因其多功能的图层管理功能而深受平面设计师和数字艺术家的喜爱。当您深入了解以编程方式处理 PSD 文件的世界时，您可能想探索链接图层如何增强您的工作流程。链接图层允许用户保留独立的图层功能，同时将它们作为一个有凝聚力的单元进行管理。进入 Aspose.PSD for Java，这是一个功能强大的库，可让您轻松处理 Photoshop 文件。 
 在本文中，我们将详细介绍如何使用 Java 中的 Aspose.PSD 库在 PSD 文件中添加链接层支持。无论您是经验丰富的开发人员还是新手，本分步指南都将帮助您无缝完成任务。
@@ -99,3 +105,9 @@ Aspose.PSD for Java 是一个允许开发人员以编程方式操作 Photoshop P
 您可以探索丰富的文档[这里](https://reference.aspose.com/psd/java/).
 ### 如果我遇到问题，如何获得支持？
 如果您遇到任何问题，可以在[支持论坛](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

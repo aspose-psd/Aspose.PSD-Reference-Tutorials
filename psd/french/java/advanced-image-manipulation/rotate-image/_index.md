@@ -3,10 +3,16 @@ title: Faire pivoter une image dans Aspose.PSD pour Java
 linktitle: Faire pivoter une image
 second_title: API Java Aspose.PSD
 description: Explorez la rotation des images en Java sans effort avec Aspose.PSD. Faites pivoter, retournez et enregistrez facilement les fichiers PSD.
-type: docs
 weight: 19
 url: /fr/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Faire pivoter une image dans Aspose.PSD pour Java
+
 ## Introduction
 
 Aspose.PSD pour Java fournit un ensemble puissant de fonctionnalités pour travailler avec des images, permettant aux développeurs de manipuler et de traiter efficacement les fichiers PSD. Dans ce didacticiel, nous nous concentrerons sur une tâche spécifique : faire pivoter une image. Que vous créiez une application de retouche photo ou que vous ayez simplement besoin d'ajuster l'orientation d'une image, Aspose.PSD simplifie le processus.
@@ -84,3 +90,9 @@ A2 : Absolument ! Aspose.PSD offre la flexibilité nécessaire pour appliquer de
 ### Q5 : Comment puis-je obtenir une licence temporaire ?
 
  A5 : Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

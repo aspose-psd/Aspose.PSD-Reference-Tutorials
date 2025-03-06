@@ -3,10 +3,16 @@ title: Overlappende kleureffecten op afbeeldingen in Aspose.PSD voor .NET
 linktitle: Overlappende kleureffecten op afbeeldingen
 second_title: Aspose.PSD .NET-API
 description: Ontdek de magie van Aspose.PSD voor .NET met onze tutorial over overlappende kleureffecten. Til uw beeldverwerkingsspel moeiteloos naar een hoger niveau.
-type: docs
 weight: 11
 url: /nl/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Overlappende kleureffecten op afbeeldingen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Aspose.PSD voor .NET biedt een robuuste set functies voor beeldverwerking, waardoor ontwikkelaars moeiteloos verbluffende effecten kunnen bereiken. Eén van die mogelijkheden is het overlappen van kleureffecten op afbeeldingen. In deze zelfstudie concentreren we ons op het ColorOverlay-effect en laten we zien hoe u dit op een afbeelding kunt toepassen, waardoor de visuele aantrekkingskracht ervan wordt getransformeerd.
@@ -98,3 +104,9 @@ A3: Ja, u kunt de mogelijkheden van Aspose.PSD voor .NET verkennen door de grati
 ### V5: Kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor .NET?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

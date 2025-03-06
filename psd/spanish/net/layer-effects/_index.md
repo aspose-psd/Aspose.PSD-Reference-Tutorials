@@ -3,10 +3,16 @@ title: Efectos de capa
 linktitle: Efectos de capa
 second_title: API Aspose.PSD .NET
 description: ¡Descubre la magia de los efectos de capa con Aspose.PSD para .NET! Mejore sus habilidades de manipulación de imágenes aprendiendo a agregar modos de trazo, sombra y fusión.
-type: docs
 weight: 29
 url: /es/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efectos de capa
+
 ## Introducción
 
 Libere todo el potencial de sus esfuerzos de manipulación de imágenes con Aspose.PSD para .NET. Esta guía completa le presenta una gran variedad de efectos de capas que transformarán su proceso creativo. Desde trazos y sombras hasta modos de fusión, mejora tus diseños sin esfuerzo.
@@ -54,3 +60,9 @@ Mejore sus archivos PSD con capas de trazos y patrones usando Aspose.PSD para .N
 Aprenda a ajustar la opacidad del efecto de sombra en Aspose.PSD para .NET con este completo tutorial.
 ### [Trabajar con modos de fusión en Aspose.PSD para .NET](./working-with-blend-modes/)
 Explore el poder de los modos de fusión en Aspose.PSD para .NET. Este tutorial lo guía en la aplicación de varios modos de fusión con ejemplos paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

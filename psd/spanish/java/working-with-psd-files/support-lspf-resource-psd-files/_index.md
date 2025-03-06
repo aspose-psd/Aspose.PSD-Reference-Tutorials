@@ -3,10 +3,16 @@ title: Admite recursos Lspf en archivos PSD usando Java
 linktitle: Admite recursos Lspf en archivos PSD usando Java
 second_title: API de Java Aspose.PSD
 description: Domine cómo admitir y manipular recursos Lspf en archivos PSD usando Aspose.PSD para Java con nuestra guía paso a paso.
-type: docs
 weight: 14
 url: /es/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Admite recursos Lspf en archivos PSD usando Java
+
 ## Introducción
 
 ¿Es usted un desarrollador que busca sumergirse en el mundo de la manipulación de archivos PSD? Bueno, ¡has venido al lugar correcto! Cuando trabaja con archivos PSD, a menudo necesita manejar varios recursos de capa, como LspfResource. Este recurso es crucial para administrar la configuración de protección de capas, como protecciones compuestas, de posición y de transparencia en un archivo PSD. En este completo tutorial, exploraremos cómo admitir y manipular LspfResource en archivos PSD usando Java con la ayuda de Aspose.PSD para Java.
@@ -182,3 +188,9 @@ Si no verifica los cambios, existe el riesgo de que la configuración no se apli
 
 ### ¿Puedo deshacer los cambios realizados en LspfResource después de guardar el archivo?  
 Una vez guardado el archivo, no es posible deshacer los cambios directamente. Sin embargo, puede volver a cargar el archivo original y volver a aplicar los cambios según sea necesario.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

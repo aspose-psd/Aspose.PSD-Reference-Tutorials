@@ -3,10 +3,16 @@ title: Create Image by Setting Path in Aspose.PSD for Java
 linktitle: Create Image by Setting Path
 second_title: Aspose.PSD Java API
 description: Learn how to create PSD images using Aspose.PSD for Java. Follow our step-by-step guide for seamless image generation.
-type: docs
 weight: 13
 url: /java/image-editing/create-image-by-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Image by Setting Path in Aspose.PSD for Java
+
 ## Introduction
 
 Welcome to this step-by-step tutorial on creating images using Aspose.PSD for Java. In this guide, we will explore how to set the path and configure options to generate a PSD image. Aspose.PSD is a powerful Java library for working with Photoshop files, providing a seamless way to manipulate and create images programmatically.
@@ -107,3 +113,10 @@ A4: Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Q5: Do I need a temporary license for testing?
 
 A5: You can obtain a temporary license for testing purposes [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

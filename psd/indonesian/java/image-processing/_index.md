@@ -3,10 +3,16 @@ title: Pemrosesan Gambar
 linktitle: Pemrosesan Gambar
 second_title: Asumsikan.PSD Java API
 description: Buka potensi Aspose.PSD untuk Java dalam pemrosesan gambar. Pelajari cara menerapkan filter Gaussian, Wiener, Median, dan Motion Wiener langkah demi langkah.
-type: docs
 weight: 20
 url: /id/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pemrosesan Gambar
+
 ## Perkenalan
 
 Pemrosesan gambar menjadi perjalanan yang mengasyikkan dengan Aspose.PSD untuk Java, sebuah perangkat yang memberdayakan pengembang untuk menyempurnakan konten visual. Dari teknik dasar hingga proses lanjutan, seri tutorial ini menggali fitur-fitur yang menjadikan Aspose.PSD solusi tepat untuk pemrosesan gambar Java.
@@ -57,3 +63,9 @@ Jelajahi Binarisasi dengan Otsu Threshold di Aspose.PSD untuk Java. Teknik segme
 Tingkatkan kualitas gambar dengan Bradley Thresholding di Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk binerisasi gambar yang efektif.
 ### [Pangkas File PSD menggunakan Aspose.PSD untuk Java](./crop-psd-file/)
 Jelajahi pemotongan file PSD yang mulus di Java dengan Aspose.PSD. Integrasikan presisi dan efisiensi dengan mudah ke dalam tugas manipulasi gambar Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

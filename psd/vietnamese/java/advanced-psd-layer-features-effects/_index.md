@@ -3,10 +3,16 @@ title: Các tính năng và hiệu ứng của lớp PSD nâng cao
 linktitle: Các tính năng và hiệu ứng của lớp PSD nâng cao
 second_title: API Java Aspose.PSD
 description: Khám phá các tính năng và hiệu ứng lớp PSD nâng cao với Aspose.PSD cho Java. Tìm hiểu cách thao tác các lớp, thêm hiệu ứng và hỗ trợ các tài nguyên khác nhau trong tệp PSD.
-type: docs
 weight: 24
 url: /vi/java/advanced-psd-layer-features-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các tính năng và hiệu ứng của lớp PSD nâng cao
+
 ## Giới thiệu
 
 Bạn đang muốn khai thác toàn bộ tiềm năng của tệp PSD bằng Java? Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, việc thành thạo thao tác với tệp PSD có thể nâng cao đáng kể các dự án của bạn. Với Aspose.PSD cho Java, bạn có một thư viện mạnh mẽ trong tầm tay, cho phép bạn đi sâu vào các lớp và hiệu ứng PSD, cho phép bạn tạo và quản lý các tệp đồ họa phức tạp một cách dễ dàng.
@@ -111,3 +117,9 @@ Tìm hiểu cách làm việc với các tệp hình ảnh không nén ở đị
 Tìm hiểu cách cập nhật các lớp văn bản trong tệp PSD một cách dễ dàng bằng Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chỉnh sửa văn bản liền mạch.
 ### [Sử dụng Trình tải dữ liệu thô tùy chỉnh trong tệp PSD - Java](./use-custom-raw-data-loader-psd-files/)
 Tìm hiểu cách sử dụng trình tải dữ liệu thô tùy chỉnh trong tệp PSD bằng Java! Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến dọn dẹp tài nguyên.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

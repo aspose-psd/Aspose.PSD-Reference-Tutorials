@@ -3,10 +3,16 @@ title: Voeg lijnlaagkleur toe in Aspose.PSD voor Java
 linktitle: Voeg lijnlaagkleur toe
 second_title: Aspose.PSD Java-API
 description: Ontdek de kracht van Aspose.PSD voor Java met onze stapsgewijze handleiding voor het toevoegen van lijnlaagkleur. Til uw grafische ontwerpen moeiteloos naar een hoger niveau.
-type: docs
 weight: 14
 url: /nl/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg lijnlaagkleur toe in Aspose.PSD voor Java
+
 ## Invoering
 
 Ontgrendel het potentieel van het grafische ontwerp van uw Java-applicatie met Aspose.PSD. In deze zelfstudie verdiepen we ons in de fascinerende wereld van het toevoegen van lijnlaagkleur met Aspose.PSD voor Java. Verbeter uw afbeeldingen met opvallende streken, zodat u moeiteloos visueel aantrekkelijke ontwerpen maakt.
@@ -120,3 +126,9 @@ A2: Absoluut! Aspose.PSD houdt gelijke tred met de nieuwste PSD-bestandsformaats
 ### V5: Waar kan ik een tijdelijke licentie voor Aspose.PSD krijgen?
 
  A5: Verkrijg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor Aspose.PSD om de mogelijkheden ervan in uw projecten te evalueren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

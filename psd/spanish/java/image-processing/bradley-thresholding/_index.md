@@ -3,10 +3,16 @@ title: Umbral de Bradley en Aspose.PSD para Java
 linktitle: Umbral de Bradley
 second_title: API de Java Aspose.PSD
 description: Mejore la calidad de la imagen con Bradley Thresholding en Aspose.PSD para Java. Siga nuestra guía paso a paso para una binarización de imágenes eficaz.
-type: docs
 weight: 16
 url: /es/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Umbral de Bradley en Aspose.PSD para Java
+
 ## Introducción
 
 Bienvenido a esta guía completa sobre la implementación de Bradley Thresholding en Aspose.PSD para Java. Este tutorial lo guiará a través del proceso de aplicación de Bradley Thresholding para mejorar la calidad de sus imágenes. Aspose.PSD para Java proporciona un potente conjunto de herramientas para el procesamiento de imágenes y Bradley Thresholding es una técnica valiosa para la binarización de imágenes.
@@ -99,3 +105,9 @@ R4: Sí, puede utilizar métodos adicionales proporcionados por Aspose.PSD para 
 ### P5: ¿Dónde puedo encontrar más apoyo y recursos?
 
  A5: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para obtener apoyo de la comunidad y explorar[documentación](https://reference.aspose.com/psd/java/) para obtener información detallada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

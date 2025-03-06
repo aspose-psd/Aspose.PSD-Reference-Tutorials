@@ -3,10 +3,16 @@ title: Vẽ cung trong Java
 linktitle: Vẽ cung trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách vẽ vòng cung trong Java bằng Aspose.PSD cho Java. Hướng dẫn từng bước với các ví dụ về mã cho các ứng dụng đồ họa.
-type: docs
 weight: 13
 url: /vi/java/java-graphics-drawing/drawing-arcs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ cung trong Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách vẽ vòng cung bằng thư viện Aspose.PSD cho Java. Vẽ các cung theo chương trình có thể hữu ích trong các ứng dụng khác nhau như giao diện người dùng đồ họa, biểu đồ hoặc trực quan hóa tùy chỉnh. Aspose.PSD cho Java cung cấp các chức năng mạnh mẽ để thao tác và tạo các tệp PSD (Tài liệu Photoshop), bao gồm khả năng vẽ các hình dạng như vòng cung với các thuộc tính có thể tùy chỉnh.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Hoàn toàn có thể, Aspose.PSD cung cấp các tính năng mở rộng để 
 Có, Aspose.PSD hỗ trợ xuất sang nhiều định dạng khác nhau bao gồm PNG, JPEG, TIFF và GIF, cùng nhiều định dạng khác.
 ### Tôi có thể tìm thêm hỗ trợ và tài nguyên cho Aspose.PSD ở đâu?
  Ghé thăm[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ, tài liệu và cập nhật.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

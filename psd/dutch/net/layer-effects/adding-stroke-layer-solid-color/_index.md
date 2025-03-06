@@ -3,10 +3,16 @@ title: Lijnlaag met effen kleur toevoegen in Aspose.PSD voor .NET
 linktitle: Lijnlaag met effen kleur toevoegen
 second_title: Aspose.PSD .NET-API
 description: Verbeter uw vaardigheden op het gebied van beeldmanipulatie in .NET met Aspose.PSD. Leer stap voor stap lijnlagen met effen kleuren toe te voegen.
-type: docs
 weight: 11
 url: /nl/net/layer-effects/adding-stroke-layer-solid-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijnlaag met effen kleur toevoegen in Aspose.PSD voor .NET
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling is het creëren van visueel aantrekkelijke afbeeldingen een veel voorkomende vereiste. Aspose.PSD voor .NET biedt een krachtige set tools om afbeeldingen naadloos te manipuleren en te verbeteren. Een van de essentiële kenmerken is het toevoegen van een lijnlaag met een effen kleur, die levendigheid en diepte aan uw afbeeldingen geeft. In deze tutorial begeleiden we u stap voor stap door het proces met behulp van Aspose.PSD voor .NET.
@@ -130,3 +136,9 @@ A2: Absoluut! Aspose.PSD voor .NET is een commercieel product en u kunt het in u
 ### V5: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor .NET?
 
  A5: Bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) om hulp te zoeken en verbinding te maken met de gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

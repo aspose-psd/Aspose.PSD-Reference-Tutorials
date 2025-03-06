@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET でガンマ調整を実装する
 linktitle: ガンマ調整の実装
 second_title: Aspose.PSD .NET API
 description: ガンマ調整の実装に関するステップバイステップ ガイドを使用して、Aspose.PSD for .NET のパワーを体験してください。画像の明るさとコントラストを簡単に微調整できます。
-type: docs
 weight: 12
 url: /ja/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET でガンマ調整を実装する
+
 ## 導入
 
 Aspose.PSD for .NET でガンマ調整を実装するための包括的なガイドへようこそ。ガンマ調整は、画像の明るさとコントラストを微調整できる重要な画像処理技術です。このチュートリアルでは、強力な .NET 用の Aspose.PSD ライブラリを使用して、そのプロセスを順を追って説明します。
@@ -101,3 +107,9 @@ rasterImage.Save(destName, tiffOptions);
 ### Q5: 一時ライセンスは必要ですか?
 
  A5: 必要に応じて臨時免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

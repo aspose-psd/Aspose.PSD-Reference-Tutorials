@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 이미지 감마 조정
 linktitle: 이미지의 감마 조정
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 이미지 감마를 손쉽게 조정하는 방법을 알아보세요. 최적의 결과를 얻으려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 23
 url: /ko/java/advanced-techniques/adjust-gamma/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 이미지 감마 조정
+
 ## 소개
 
 이미지 처리 영역에서 이미지의 감마를 조정하는 것은 시각적 매력을 향상시키는 중요한 단계입니다. Aspose.PSD for Java는 Java 개발자가 이미지 감마를 손쉽게 조작할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.PSD를 사용하여 감마를 조정하는 방법을 살펴보고 원활한 구현을 보장하기 위해 각 단계를 세분화합니다.
@@ -108,3 +114,9 @@ rasterImage.save(destName, tiffOptions);
 ### Q5: Aspose.PSD에 대한 지원은 어디서 구할 수 있나요?
 
  A5: 지원을 받으려면 Aspose.PSD 포럼을 방문하세요.[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tambahkan Lapisan Reguler Baru ke PSD dengan Aspose.PSD untuk Java
 linktitle: Tambahkan Layer Reguler Baru ke PSD
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan lapisan reguler baru ke file PSD menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk manipulasi PSD yang lancar.
-type: docs
 weight: 11
 url: /id/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Lapisan Reguler Baru ke PSD dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang penggunaan Aspose.PSD untuk Java untuk menambahkan lapisan reguler baru ke file PSD. Aspose.PSD adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk memanipulasi dan bekerja dengan file PSD secara efisien. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan lapisan reguler baru ke file PSD, memberikan langkah-langkah rinci dan contoh kode.
@@ -120,3 +126,9 @@ A2: Tentu saja! Aspose.PSD menyediakan berbagai opsi transformasi untuk lapisan.
 ### Q5: Apakah ada forum komunitas untuk dukungan Aspose.PSD?
 
  A5: Ya, Anda dapat menemukan dukungan dan diskusi[Di Sini](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

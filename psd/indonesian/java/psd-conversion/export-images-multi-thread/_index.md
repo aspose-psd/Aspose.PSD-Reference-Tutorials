@@ -3,10 +3,16 @@ title: Tutorial Ekspor Gambar Multi-Utas - Aspose.PSD untuk Java
 linktitle: Ekspor Gambar di Lingkungan Multi-Thread
 second_title: Asumsikan.PSD Java API
 description: Jelajahi kekuatan Aspose.PSD untuk Java dalam mengekspor gambar di lingkungan multi-thread. Tingkatkan kemampuan aplikasi Java Anda!
-type: docs
 weight: 14
 url: /id/java/psd-conversion/export-images-multi-thread/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Ekspor Gambar Multi-Utas - Aspose.PSD untuk Java
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan kemampuan ekspor gambar aplikasi Java Anda dalam lingkungan multi-thread? Aspose.PSD untuk Java adalah solusi sempurna! Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor gambar menggunakan Aspose.PSD dalam pengaturan multi-thread. Bersiaplah untuk membuka potensi aplikasi Java Anda.
 ## Prasyarat
@@ -75,3 +81,9 @@ Ya, Aspose.PSD mendukung multi-threading, memungkinkan Anda memproses banyak gam
  Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.PSD?
  Mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

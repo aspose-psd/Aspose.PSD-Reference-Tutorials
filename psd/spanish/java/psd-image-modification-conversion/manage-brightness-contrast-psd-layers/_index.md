@@ -3,10 +3,16 @@ title: Administrar el brillo y el contraste en capas PSD - Java
 linktitle: Administrar el brillo y el contraste en capas PSD - Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a ajustar el brillo y el contraste en archivos PSD usando Aspose.PSD para Java sin esfuerzo. Ideal para desarrolladores y diseñadores gráficos.
-type: docs
 weight: 21
 url: /es/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar el brillo y el contraste en capas PSD - Java
+
 ## Introducción
 
 ¿Es usted diseñador gráfico o desarrollador y trabaja frecuentemente con archivos PSD (Documentos de Photoshop)? ¿Necesita ajustar el brillo y el contraste de las capas de estos archivos pero no tiene los conocimientos necesarios para automatizar esta tarea utilizando Java? ¡Pues estás de suerte! En este tutorial, profundizaremos en cómo administrar el brillo y el contraste en capas PSD usando la biblioteca Aspose.PSD para Java. Esto no sólo le ahorrará tiempo sino que también mejorará su flujo de trabajo creativo. ¡Arremanguémonos y comencemos!
@@ -125,3 +131,9 @@ Aspose.PSD para Java es una biblioteca que permite a los desarrolladores manipul
 
 ### ¿Dónde puedo encontrar soporte adicional para Aspose.PSD?
  Puede obtener soporte para Aspose.PSD en su[foro de soporte](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

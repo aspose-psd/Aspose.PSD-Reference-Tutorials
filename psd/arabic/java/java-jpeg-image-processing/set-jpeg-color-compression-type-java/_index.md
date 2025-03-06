@@ -3,10 +3,16 @@ title: قم بتعيين لون JPEG ونوع الضغط في Java
 linktitle: قم بتعيين لون JPEG ونوع الضغط في Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية ضبط لون JPEG ونوع الضغط في Java باستخدام Aspose.PSD. هذا الدليل التفصيلي يجعل معالجة الصور سهلة وفعالة.
-type: docs
 weight: 13
 url: /ar/java/java-jpeg-image-processing/set-jpeg-color-compression-type-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين لون JPEG ونوع الضغط في Java
+
 ## مقدمة
 في العصر الرقمي الحالي، تعد إدارة الصور ومعالجتها ضرورة شائعة، سواء لتطوير الويب أو التصميم الجرافيكي أو هندسة البرمجيات. إذا كنت تبحث عن أداة قوية للتعامل مع ملفات PSD وتحويلها إلى JPEG باستخدام إعدادات ألوان وضغط محددة، فلا تبحث سوى عن Aspose.PSD لـ Java. سيرشدك هذا البرنامج التعليمي خلال عملية إعداد ألوان JPEG وأنواع الضغط باستخدام هذه المكتبة القوية.
 ## المتطلبات الأساسية
@@ -54,3 +60,9 @@ Aspose.PSD for Java هي مكتبة Java تسمح للمطورين بإنشاء 
  يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/psd/java/).
 ### هل Aspose.PSD for Java مناسب لتطبيقات الويب؟
 نعم، يمكن دمج Aspose.PSD for Java في تطبيقات الويب للتعامل مع مهام معالجة الصور على جانب الخادم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

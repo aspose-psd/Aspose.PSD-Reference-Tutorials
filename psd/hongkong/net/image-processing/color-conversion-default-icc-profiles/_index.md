@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中使用預設和 ICC 設定檔進行顏色轉�
 linktitle: 使用預設和 ICC 配置檔案進行顏色轉換
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 中的顏色轉換。了解更新顏色配置文件，確保生動且準確的視覺效果。
-type: docs
 weight: 13
 url: /zh-hant/net/image-processing/color-conversion-default-icc-profiles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中使用預設和 ICC 設定檔進行顏色轉換
+
 ## 介紹
 
 顏色轉換是影像處理的一個基本面，影響數位影像中顏色的表示方式。 Aspose.PSD for .NET 透過提供全面的工具來無縫處理顏色配置文件，從而簡化了這一過程。
@@ -101,3 +107,9 @@ A3：當然，Aspose.PSD 提供了高效率的影像批次處理工具。
 ### 問題 5：在哪裡可以找到 Aspose.PSD for .NET 的社群支援？
 
  A5：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

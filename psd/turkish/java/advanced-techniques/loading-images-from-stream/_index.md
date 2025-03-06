@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Yayından Görüntü Yükleme
 linktitle: Akıştan Görüntüler Yükleniyor
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD'yi kullanarak PSD görüntülerini Java'ya sorunsuz bir şekilde yüklemeyi öğrenin. Verimli görüntü işleme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Yayından Görüntü Yükleme
+
 ## giriiş
 
 Aspose.PSD for Java, geliştiricilerin çeşitli görüntü işleme görevlerini gerçekleştirerek PSD dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan, zengin özelliklere sahip bir kitaplıktır. Bu eğitimde Aspose.PSD for Java kullanarak bir akıştan görüntü yüklemek için gerekli adımlara odaklanacağız.
@@ -105,3 +111,9 @@ A1: Kesinlikle! Aspose.PSD for Java, toplu görüntü işleme görevlerinde veri
 ### S5: Aspose.PSD for Java'yı nereden satın alabilirim?
 
  A5: ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Aspose.PSD for Java'yı edinmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

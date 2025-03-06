@@ -3,10 +3,16 @@ title: قم بتطبيق تأثير تراكب الألوان في Aspose.PSD ل
 linktitle: تطبيق تأثير تراكب اللون
 second_title: Aspose.PSD جافا API
 description: اكتشف سحر تأثيرات تراكب الألوان في Aspose.PSD لـ Java. ارفع مستوى لعبة تحرير الصور الخاصة بك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/image-editing/color-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق تأثير تراكب الألوان في Aspose.PSD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في عالم التصميم الجرافيكي ومعالجة الصور باستخدام Aspose.PSD لـ Java! في هذا البرنامج التعليمي، سوف نتعمق في تطبيق تأثير تراكب الألوان لتحسين صورك. تتيح لك مكتبة Java القوية هذه العمل مع ملفات PSD بكفاءة، مما يوفر مجموعة واسعة من الوظائف لمعالجة الصور.
@@ -110,3 +116,9 @@ A1: لا، يمكن أن يتم تطبيق تأثير تراكب لون واحد
 ### س5: هل هناك أي خيارات تجريبية مجانية متاحة لـ Aspose.PSD؟
 
  ج5: نعم، اكتشف[تجربة مجانية](https://releases.aspose.com/) الإصدار قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

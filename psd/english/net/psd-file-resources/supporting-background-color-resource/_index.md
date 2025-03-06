@@ -3,10 +3,16 @@ title: Supporting Background Color Resource in Aspose.PSD for .NET
 linktitle: Supporting Background Color Resource
 second_title: Aspose.PSD .NET API
 description: Master Aspose.PSD for .NET with our step-by-step guide. Manipulate PSD images effortlessly. Download your free trial now!
-type: docs
 weight: 10
 url: /net/psd-file-resources/supporting-background-color-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporting Background Color Resource in Aspose.PSD for .NET
+
 ## Introduction
 Unlock the full potential of Aspose.PSD for .NET as we delve into a comprehensive tutorial. This guide will equip you with the knowledge to leverage the capabilities of Aspose.PSD effectively. Whether you are a seasoned developer or a beginner, follow along as we break down each aspect into manageable steps, making your journey with Aspose.PSD seamless.
 ## Prerequisites
@@ -89,3 +95,10 @@ A4: Yes, you can get a free trial from [here](https://releases.aspose.com/).
 ### Q5: How to obtain a temporary license?
 
 A5: Follow the steps on the [temporary license page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

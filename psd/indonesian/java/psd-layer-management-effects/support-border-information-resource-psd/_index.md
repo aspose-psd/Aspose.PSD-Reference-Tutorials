@@ -3,10 +3,16 @@ title: Mendukung Sumber Informasi Perbatasan di PSD - Java
 linktitle: Mendukung Sumber Informasi Perbatasan di PSD - Java
 second_title: Asumsikan.PSD Java API
 description: Manipulasi batas master dalam file PSD dengan Aspose.PSD untuk Java. Pelajari cara mengubah lebar batas, satuan, dan lainnya melalui langkah-langkah yang mudah diikuti. Sempurnakan desain PSD Anda secara terprogram.
-type: docs
 weight: 23
 url: /id/java/psd-layer-management-effects/support-border-information-resource-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Sumber Informasi Perbatasan di PSD - Java
+
 ## Perkenalan
 
 Pernah merasa perlu mengubah batas-batas yang mengganggu itu di file PSD Anda secara terprogram? Nah, jangan khawatir lagi! Aspose.PSD untuk Java hadir untuk menyelamatkan, menawarkan cara yang ampuh dan mudah digunakan untuk memanipulasi sumber informasi perbatasan dalam file PSD Anda. Panduan komprehensif ini akan memandu Anda melalui proses tersebut langkah demi langkah, memberdayakan Anda untuk mengendalikan perbatasan Anda dengan cara yang belum pernah ada sebelumnya.
@@ -136,3 +142,9 @@ Aspose.PSD dioptimalkan untuk kinerja, tetapi menangani file PSD berukuran besar
 ### Di mana saya dapat menemukan informasi dan dukungan lebih lanjut?
 
 Dokumentasi Aspose.PSD untuk Java adalah sumber yang bagus untuk detail mendalam tentang API dan kemampuannya. Anda juga dapat mengunjungi forum Aspose untuk mendapatkan bantuan dan berinteraksi dengan pengembang lain. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

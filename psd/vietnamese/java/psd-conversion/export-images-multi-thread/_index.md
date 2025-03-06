@@ -3,10 +3,16 @@ title: Hướng dẫn xuất hình ảnh đa luồng - Aspose.PSD cho Java
 linktitle: Xuất hình ảnh trong môi trường đa luồng
 second_title: API Java Aspose.PSD
 description: Khám phá sức mạnh của Aspose.PSD cho Java trong việc xuất hình ảnh trong môi trường đa luồng. Nâng cao khả năng của ứng dụng Java của bạn!
-type: docs
 weight: 14
 url: /vi/java/psd-conversion/export-images-multi-thread/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn xuất hình ảnh đa luồng - Aspose.PSD cho Java
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao khả năng xuất hình ảnh của ứng dụng Java trong môi trường đa luồng? Aspose.PSD cho Java là giải pháp hoàn hảo! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xuất hình ảnh bằng Aspose.PSD trong thiết lập đa luồng. Hãy sẵn sàng để khai phá tiềm năng của ứng dụng Java của bạn.
 ## Điều kiện tiên quyết
@@ -75,3 +81,9 @@ Có, Aspose.PSD hỗ trợ đa luồng, cho phép bạn xử lý nhiều hình �
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
  Thăm nom[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

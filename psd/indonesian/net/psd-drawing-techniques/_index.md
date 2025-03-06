@@ -3,10 +3,16 @@ title: Teknik Menggambar PSD
 linktitle: Teknik Menggambar PSD
 second_title: Asumsikan.PSD .NET API
 description: Buka potensi Aspose.PSD untuk .NET dengan tutorial kami! Kuasai fitur menggambar inti, buat grafik menakjubkan, dan tingkatkan keterampilan manipulasi gambar Anda.
-type: docs
 weight: 28
 url: /id/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teknik Menggambar PSD
+
 
 ## Perkenalan
 
@@ -61,3 +67,9 @@ Jelajahi seni menggambar persegi panjang di .NET dengan Aspose.PSD. Ikuti pandua
 Buka potensi artistik Anda dengan Aspose.PSD untuk .NET! Ikuti tutorial kami untuk menggambar kreatif menggunakan Grafik.
 ### [Menerapkan Menggambar dengan GraphicsPath di Aspose.PSD untuk .NET](./implementing-drawing-with-graphicspath/)
 Jelajahi kekuatan Aspose.PSD untuk .NET dalam tutorial langkah demi langkah menggambar dengan GraphicsPath. Sempurnakan aplikasi .NET Anda dengan manipulasi file Photoshop tingkat lanjut.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

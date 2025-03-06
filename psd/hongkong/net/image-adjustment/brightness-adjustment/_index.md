@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中實現亮度調整
 linktitle: 實施亮度調整
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 在調整影像亮度方面的強大功能。請遵循我們的逐步指南以實現無縫實施。
-type: docs
 weight: 10
 url: /zh-hant/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中實現亮度調整
+
 ## 介紹
 
 增強和調整影像屬性是各種應用程式中的常見要求，Aspose.PSD for .NET 提供了無縫操作 PSD 檔案的強大解決方案。其中一種操作是亮度調整，可讓您輕鬆修改影像的亮度。
@@ -97,3 +103,9 @@ Aspose.PSD for .NET 簡化了在 PSD 檔案中實現亮度調整的過程。透�
 ### Q5：如何取得 Aspose.PSD for .NET 的臨時授權？
 
  A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

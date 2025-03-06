@@ -3,10 +3,16 @@ title: Hiệu ứng lớp
 linktitle: Hiệu ứng lớp
 second_title: API Aspose.PSD .NET
 description: Khám phá sự kỳ diệu của các hiệu ứng lớp với Aspose.PSD cho .NET! Nâng cao kỹ năng xử lý hình ảnh của bạn bằng cách học cách thêm các chế độ nét, bóng và hòa trộn.
-type: docs
 weight: 29
 url: /vi/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiệu ứng lớp
+
 ## Giới thiệu
 
 Giải phóng toàn bộ tiềm năng của nỗ lực xử lý hình ảnh của bạn với Aspose.PSD cho .NET. Hướng dẫn toàn diện này giới thiệu cho bạn vô số hiệu ứng lớp sẽ biến đổi quá trình sáng tạo của bạn. Từ nét và bóng đến chế độ hòa trộn, hãy nâng cao thiết kế của bạn một cách dễ dàng.
@@ -54,3 +60,9 @@ Nâng cao hình ảnh của bạn với Aspose.PSD cho .NET! Tìm hiểu cách h
 Tìm hiểu cách điều chỉnh độ mờ của hiệu ứng đổ bóng trong Aspose.PSD cho .NET với hướng dẫn toàn diện này.
 ### [Làm việc với Chế độ hòa trộn trong Aspose.PSD cho .NET](./working-with-blend-modes/)
 Khám phá sức mạnh của chế độ hòa trộn trong Aspose.PSD cho .NET. Hướng dẫn này hướng dẫn bạn áp dụng các chế độ hòa trộn khác nhau bằng các ví dụ từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

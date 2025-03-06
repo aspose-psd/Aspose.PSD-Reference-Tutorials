@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 执行简单绘图
 linktitle: 进行简单绘图
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 文件中绘制形状。本分步指南涵盖了创建、添加图层以及使用代码示例进行绘制。
-type: docs
 weight: 10
 url: /zh/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 执行简单绘图
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.PSD for Java 进行简单绘图！在本教程中，我们将探索创建新 PSD 文档、添加图层以及使用不同颜色绘制形状的基础知识。Aspose.PSD for Java 是一个功能强大的库，可让您以编程方式操作 PSD 文件，为图形设计任务提供广泛的功能。
@@ -125,3 +131,9 @@ A3：是的，您可以访问免费试用版[这里](https://releases.aspose.com
 ### 问题5: Aspose.PSD for Java 有临时许可证吗？
 
 A5：是的，你可以从[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

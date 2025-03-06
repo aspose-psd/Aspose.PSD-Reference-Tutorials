@@ -3,10 +3,16 @@ title: أضف توقيعًا إلى صورة باستخدام Aspose.PSD لـ Ja
 linktitle: إضافة توقيع إلى صورة
 second_title: Aspose.PSD جافا API
 description: استكشف التكامل السلس للتوقيعات في الصور باستخدام Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة، وقم باستيراد الحزم الضرورية، وقم بتحسين القدرات الرسومية لتطبيق Java الخاص بك.
-type: docs
 weight: 13
 url: /ar/java/advanced-image-effects/add-signature-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف توقيعًا إلى صورة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java الواسع، أصبح دمج التوقيعات في الصور مطلبًا شائعًا. يظهر Aspose.PSD for Java كأداة قوية توفر للمطورين حلولاً سلسة لمعالجة الصور، بما في ذلك إضافة التوقيعات. في هذا البرنامج التعليمي، سنستكشف خطوة بخطوة كيفية إضافة توقيع إلى صورة باستخدام Aspose.PSD لـ Java.
@@ -95,3 +101,10 @@ canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 ### س5: هل يمكنني تجربة Aspose.PSD لـ Java قبل الشراء؟
 
  ج5: نعم، يمكنك الحصول على[تجربة مجانية](https://releases.aspose.com/)لاستكشاف الميزات قبل إجراء عملية الشراء.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

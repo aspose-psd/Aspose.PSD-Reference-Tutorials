@@ -3,10 +3,16 @@ title: เทคนิคขั้นสูง
 linktitle: เทคนิคขั้นสูง
 second_title: Aspose.PSD Java API
 description: เชี่ยวชาญเทคนิคขั้นสูงในการประมวลผลภาพ Java ได้อย่างง่ายดายด้วยบทช่วยสอน Aspose.PSD ระดับสีเทา โหลด แปลง เรนเดอร์ข้อความ บันทึกอย่างมีประสิทธิภาพ และอื่นๆ อีกมากมาย!
-type: docs
 weight: 22
 url: /th/java/advanced-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เทคนิคขั้นสูง
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับทักษะการประมวลผลภาพ Java ของคุณแล้วหรือยัง? เจาะลึกบทช่วยสอนที่ครอบคลุมของเราด้วย Aspose.PSD สำหรับ Java เพื่อปลดล็อกขอบเขตของเทคนิคขั้นสูง มาสำรวจบทช่วยสอนที่สำคัญโดยละเอียดกันดีกว่า:
@@ -85,3 +91,9 @@ url: /th/java/advanced-techniques/
 เรียนรู้วิธีปรับแกมมาของภาพได้อย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้ได้ผลลัพธ์ที่ดีที่สุด
 ### [เบลอภาพโดยใช้ Aspose.PSD สำหรับ Java](./blur-image/)
 เรียนรู้การเบลอภาพใน Java ด้วย Aspose.PSD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ระดับมืออาชีพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

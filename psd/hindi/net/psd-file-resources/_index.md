@@ -3,10 +3,16 @@ title: PSD फ़ाइल संसाधन
 linktitle: PSD फ़ाइल संसाधन
 second_title: Aspose.PSD .NET एपीआई
 description: हमारे ट्यूटोरियल के साथ .NET के लिए Aspose.PSD की पूरी क्षमता को अनलॉक करें। बैकग्राउंड कलर, बॉर्डर जानकारी, वर्किंग पाथ और ब्लैक-एंड-व्हाइट संसाधनों को सहजता से मास्टर करें।
-type: docs
 weight: 31
 url: /hi/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD फ़ाइल संसाधन
+
 
 ## परिचय
 
@@ -39,3 +45,9 @@ Aspose.PSD for .NET के बॉर्डर सूचना संसाधन
 .NET के लिए Aspose.PSD में 'WorkingPathResource' की शक्ति का अन्वेषण करें। इस चरण-दर-चरण मार्गदर्शिका के साथ छवि परिशुद्धता बढ़ाएँ।
 ### [.NET के लिए Aspose.PSD में ब्लैक एंड व्हाइट (Blwh) संसाधन का समर्थन करना](./supporting-black-and-white-blwh-resource/)
 .NET के लिए Aspose.PSD के साथ उन्नत छवि संपादन का अन्वेषण करें। छवि तत्वों पर सटीक नियंत्रण के लिए ब्लैक और व्हाइट एडजस्टमेंट लेयर्स में महारत हासिल करना सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

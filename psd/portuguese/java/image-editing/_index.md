@@ -3,10 +3,16 @@ title: Edição de imagem
 linktitle: Edição de imagem
 second_title: API Java Aspose.PSD
 description: Descubra a magia dos efeitos de sobreposição de cores, fusão de imagens e processamento contínuo de imagens com Aspose.PSD. Eleve seu jogo de edição de imagens com nossos guias.
-type: docs
 weight: 23
 url: /pt/java/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edição de imagem
+
 ## Introdução 
 
 Bem-vindo ao domínio do domínio da edição de imagens! Nesta coleção de tutoriais, nos aprofundamos nos poderosos recursos do Aspose.PSD para Java, orientando você na arte de aprimorar, combinar e manipular imagens sem esforço. Quer você seja um desenvolvedor experiente ou esteja apenas começando, junte-se a nós nesta jornada para descobrir a magia dos efeitos de sobreposição de cores, fusão de imagens, criação de metadados XMP e processamento contínuo de imagens. Eleve seu jogo de edição com guias passo a passo que revelam o potencial do Aspose.PSD para Java, fornecendo a você as habilidades para transformar suas criações visuais. Vamos mergulhar e explorar o fascinante mundo da edição de imagens!
@@ -67,3 +73,9 @@ Domine o corte de imagens com Aspose.PSD para Java. Um tutorial abrangente para 
 Melhore a qualidade da imagem com Aspose.PSD para Java. Siga nosso guia passo a passo para implementar o pontilhamento e eliminar faixas de cores.
 ### [Expanda e corte imagens com Aspose.PSD para Java](./expand-and-crop-images/)
 Aprenda como expandir e cortar imagens em Java usando Aspose.PSD. Guia passo a passo para processamento eficiente de imagens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

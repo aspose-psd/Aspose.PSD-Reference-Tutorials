@@ -3,10 +3,16 @@ title: Fájl- és betűtípuskezelés
 linktitle: Fájl- és betűtípuskezelés
 second_title: Aspose.PSD .NET API
 description: Emelje fel .NET-fejlesztését az Aspose.PSD oktatóanyagokkal. Ismerje meg a betűkészlet-cserét, az XMP-metaadatok létrehozását és a gyorsítótár kezelését az optimális munkafolyamat-hatékonyság érdekében.
-type: docs
 weight: 27
 url: /hu/net/file-and-font-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fájl- és betűtípuskezelés
+
 ## Bevezetés
 
 Fájlok és betűtípusok kezeléséről szóló oktatóanyagaink segítségével tárja fel az Aspose.PSD for .NET lehetőségeit. Az XMP-metaadatok létrehozásától a képkezelésig és a betűtípusok cseréjéig mi mindent megtalálunk.
@@ -42,3 +48,9 @@ Fokozza a .NET fejlesztési munkafolyamatot az Aspose.PSD segítségével. Ismer
 Fedezze fel a betűtípus-gyorsítótár-kezelés lépésről lépésre történő kezelését az Aspose.PSD for .NET-ben. Ezzel a hatékony .NET-könyvtárral pontos megjelenítést biztosíthat. 
 ### [Betűtípus-gyorsítótár fájlok eltávolítása az Aspose.PSD for .NET fájlból](./remove-font-cache-files/)
 Optimalizálja az Aspose.PSD-t a .NET teljesítményéhez a betűtípus-gyorsítótár fájlok eltávolításával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes végrehajtás érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

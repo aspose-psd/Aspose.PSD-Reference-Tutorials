@@ -3,10 +3,16 @@ title: File Saving and Exporting
 linktitle: File Saving and Exporting
 second_title: Aspose.PSD .NET API
 description: Effortlessly master image saving and exporting with Aspose.PSD for .NET. Follow our step-by-step tutorials for efficient disk and stream operations.
-type: docs
 weight: 23
 url: /net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# File Saving and Exporting
+
 ## Introduction
 
 If you've ever grappled with the intricacies of saving and exporting images in your .NET projects, you're not alone. The digital realm demands precision, and when it comes to images, the process becomes even more crucial. Luckily, Aspose.PSD for .NET is here to simplify your journey, offering seamless solutions for saving images to disk and stream.
@@ -32,3 +38,9 @@ Learn how to save images to disk using Aspose.PSD for .NET. Follow this step-by-
 Explore the power of Aspose.PSD for .NET and learn how to save images to a stream effortlessly. Follow our step-by-step guide for seamless integration.
 ### [Working with Save Image Worker in Aspose.PSD for .NET](./save-image-worker/)
 Learn to use Aspose.PSD for .NET's Save Image Worker for seamless image format conversion with interruption handling.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

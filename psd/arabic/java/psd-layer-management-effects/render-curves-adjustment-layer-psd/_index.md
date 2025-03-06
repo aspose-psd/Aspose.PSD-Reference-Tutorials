@@ -3,10 +3,16 @@ title: تقديم طبقة ضبط المنحنيات في ملفات PSD - Java
 linktitle: تقديم طبقة ضبط المنحنيات في ملفات PSD - Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية عرض وضبط طبقات ضبط المنحنيات في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال هذا الدليل المفصل خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم طبقة ضبط المنحنيات في ملفات PSD - Java
+
 ## مقدمة
 
 تشبه طبقة ضبط المنحنيات في Photoshop العصا السحرية لتحسين الصور. تخيل أنك فنان تقوم بتعديل الألوان والدرجات اللونية لتحفتك الفنية، حيث يتيح لك كل تعديل للمنحنى التحكم في توازن الضوء والألوان بدقة مذهلة. إذا كنت تعمل باستخدام ملفات PSD وتحتاج إلى معالجة هذه المنحنيات برمجيًا، فإن Aspose.PSD for Java هو الأداة المفضلة لديك. في هذا الدليل، سنتعرف على كيفية عرض وضبط طبقات ضبط المنحنيات في ملفات PSD باستخدام Aspose.PSD لـ Java. سواء كنت تقوم بتحديث درجات ألوان الصور أو تصدير نتائجك، فإن هذا البرنامج التعليمي سيغطي كل ما تحتاجه للبدء.
@@ -146,3 +152,9 @@ im.save(pngExportPath + ".png", saveOptions);
 
 ### أين يمكنني العثور على دعم لـ Aspose.PSD لـ Java؟
  للحصول على الدعم، يمكنك زيارة[Aspose منتدى الدعم](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Upravte efekt překrytí přechodu v PSD pomocí Java
 linktitle: Upravte efekt překrytí přechodu v PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak upravit efekt překrytí přechodem v souboru PSD pomocí Aspose.PSD for Java. Postupujte podle našeho průvodce a zautomatizujte a přizpůsobte své soubory PSD efektivně.
-type: docs
 weight: 12
 url: /cs/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upravte efekt překrytí přechodu v PSD pomocí Java
+
 ## Zavedení
 
 Jste připraveni ponořit se do světa digitálního umění s Javou? Pokud pracujete se soubory Photoshopu (PSD) a chcete s nimi programově manipulovat, máte se na co těšit. Dnes se podíváme na to, jak upravit efekt překrytí přechodem v souboru PSD pomocí Aspose.PSD pro Javu. Ať už jste vývojář, který chce automatizovat úkoly grafického designu, nebo někdo, kdo je jednoduše zvědavý na proces, tento tutoriál vás provede krok za krokem. Na konci budete mít znalosti, jak dodat svým snímkům profesionální vzhled, aniž byste museli otevírat Photoshop.
@@ -152,3 +158,9 @@ Aspose.PSD for Java umožňuje aplikovat různé efekty, jako jsou vržené stí
 
 ### Jak vrátím změny provedené v souboru PSD?  
 Pokud jste soubor ještě neuložili, můžete jednoduše znovu načíst původní soubor PSD. Pokud jste jej již uložili, budete jej muset obnovit ze zálohy nebo vrátit změny programově
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

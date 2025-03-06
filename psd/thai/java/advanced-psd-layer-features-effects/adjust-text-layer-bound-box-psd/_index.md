@@ -3,10 +3,16 @@ title: ปรับ Text Layer Bound Box ใน PSD โดยใช้ Java
 linktitle: ปรับ Text Layer Bound Box ใน PSD โดยใช้ Java
 second_title: Aspose.PSD Java API
 description: เรียนรู้วิธีปรับขอบเขตเลเยอร์ข้อความในไฟล์ PSD โดยใช้ Java กับ Aspose.PSD คำแนะนำง่ายๆ พร้อมคำแนะนำทีละขั้นตอน
-type: docs
 weight: 25
 url: /th/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ปรับ Text Layer Bound Box ใน PSD โดยใช้ Java
+
 ## การแนะนำ
 เมื่อพูดถึงการจัดการเอกสาร Photoshop โดยทางโปรแกรม ไลบรารี Aspose.PSD สำหรับ Java จะส่องสว่าง หากคุณต้องการปรับขอบเขตของเลเยอร์ข้อความในไฟล์ PSD คุณมาถูกที่แล้ว! บทช่วยสอนนี้จะแนะนำคุณทีละขั้นตอนผ่านกระบวนการปรับกล่องผูกของเลเยอร์ข้อความโดยใช้ Java
 ด้วยตัวอย่างที่ปฏิบัติตามง่ายและน้ำเสียงการสนทนาเพื่อให้สิ่งต่างๆ น่าสนใจ คุณจะพบว่าการจัดการไฟล์ PSD นั้นไม่ได้น่ากลัวอย่างที่คิด ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นใช้งาน Java คุณจะพบข้อมูลเชิงลึกอันมีค่าที่นี่ มาดำดิ่งสู่โลกแห่งการจัดการ PSD ที่น่าตื่นเต้น
@@ -80,3 +86,9 @@ Aspose.PSD เป็นไลบรารีที่ทรงพลังสำ
 คุณสามารถค้นหาการสนับสนุนและการสนทนาในชุมชนได้จากพวกเขา[ตั้งฟอรั่ม](https://forum.aspose.com/c/psd/34).
 ### มีรุ่นทดลองใช้งานสำหรับ Aspose.PSD หรือไม่
  ใช่! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[เว็บไซต์กำหนด](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

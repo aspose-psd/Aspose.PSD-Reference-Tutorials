@@ -3,10 +3,16 @@ title: How to Add Stroke Layer Gradient in Java
 linktitle: How to Add Stroke Layer Gradient in Java
 second_title: Aspose.PSD Java API
 description: Learn how to add and customize stroke layer gradients in PSD files using Aspose.PSD for Java with this comprehensive step-by-step tutorial.
-type: docs
 weight: 10
 url: /java/java-graphics-drawing/add-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# How to Add Stroke Layer Gradient in Java
+
 ## Introduction
 Ever wondered how to add a stroke layer gradient to your images using Java? Well, you're in the right place! Today, we're diving into the world of Aspose.PSD for Java, a powerful library that helps you manipulate PSD files with ease. Whether you're a beginner or a seasoned developer, this step-by-step guide will walk you through the process of adding a stroke layer gradient to your PSD files. So, buckle up and get ready to enhance your graphic editing skills!
 ## Prerequisites
@@ -156,3 +162,10 @@ Absolutely! Aspose.PSD for Java provides comprehensive APIs to create and manipu
 Yes, you can apply various effects like shadow, glow, and more using Aspose.PSD for Java.
 ### Where can I find the documentation for Aspose.PSD for Java?
 You can find the documentation [here](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

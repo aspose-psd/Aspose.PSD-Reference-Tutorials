@@ -3,10 +3,16 @@ title: Supporting Black and White Resource in Aspose.PSD for .NET
 linktitle: Supporting Black and White (Blwh) Resource
 second_title: Aspose.PSD .NET API
 description: Explore advanced image editing with Aspose.PSD for .NET. Learn to master Black and White adjustment layers for precise control over image elements.
-type: docs
 weight: 13
 url: /net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporting Black and White Resource in Aspose.PSD for .NET
+
 ## Introduction
 In the dynamic world of digital media, image editing plays a pivotal role in creating captivating visuals. Aspose.PSD for .NET empowers developers to take their image manipulation capabilities to the next level. In this tutorial, we'll explore the support for Black and White adjustment layers in Aspose.PSD, enabling you to fine-tune images with precision.
 ## Prerequisites
@@ -89,3 +95,10 @@ A4: The [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) is a valuable reso
 ### Q5: Are there any sample images available for testing Black and White adjustments?
 
 A5: Yes, you can find sample images in the Aspose.PSD documentation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

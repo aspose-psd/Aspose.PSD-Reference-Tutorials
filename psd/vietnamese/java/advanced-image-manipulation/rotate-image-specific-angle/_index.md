@@ -3,10 +3,16 @@ title: Xoay hình ảnh trên một góc cụ thể bằng Aspose.PSD cho Java
 linktitle: Xoay hình ảnh trên một góc cụ thể
 second_title: API Java Aspose.PSD
 description: Khám phá xoay hình ảnh trong Java với Aspose.PSD cho Java. Xoay hình ảnh dễ dàng trên các góc cụ thể.
-type: docs
 weight: 20
 url: /vi/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xoay hình ảnh trên một góc cụ thể bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của phát triển Java, thao tác với hình ảnh là một yêu cầu chung cho nhiều ứng dụng khác nhau. Aspose.PSD cho Java nổi lên như một giải pháp mạnh mẽ, cung cấp các tính năng mạnh mẽ để xử lý xoay hình ảnh một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xoay hình ảnh theo một góc cụ thể bằng Aspose.PSD cho Java. Trước khi đi sâu vào chi tiết, chúng ta hãy chuẩn bị một số điều kiện tiên quyết.
@@ -117,3 +123,9 @@ Aspose.PSD cho Java chủ yếu tập trung vào xử lý hình ảnh phụ tr�
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào dành cho Aspose.PSD để tôi có thể tìm kiếm trợ giúp không?
 
  Có, bạn có thể ghé thăm[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để tham gia với cộng đồng, đặt câu hỏi và tìm kiếm sự trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Создание изображений с использованием S
 linktitle: Создание изображений с использованием потока
 second_title: Aspose.PSD .NET API
 description: Узнайте, как создавать изображения с использованием потоков в Aspose.PSD для .NET. Следуйте нашему пошаговому руководству для эффективного манипулирования изображениями.
-type: docs
 weight: 12
 url: /ru/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание изображений с использованием Stream в Aspose.PSD для .NET
+
 ## Введение
 
 В сфере .NET-разработки Aspose.PSD выделяется как мощный инструмент для манипулирования изображениями. Одной из особенно полезных функций является возможность создавать изображения с использованием потоков, что обеспечивает гибкость и эффективность обработки данных изображений. Это пошаговое руководство проведет вас через весь процесс, разбив каждый элемент, чтобы обеспечить бесперебойную работу. Прежде чем мы углубимся, давайте рассмотрим предварительные условия.
@@ -111,3 +117,9 @@ A2: размеры можно настроить; соответствующим
 ### Вопрос 5: Доступны ли временные лицензии?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

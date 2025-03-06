@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 XMP 메타데이터 생성
 linktitle: XMP 메타데이터 생성
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD로 Java 애플리케이션을 강화하세요. XMP 메타데이터를 손쉽게 생성하는 방법을 알아보세요. 지금 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/java/image-editing/create-xmp-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 XMP 메타데이터 생성
+
 ## 소개
 
 Java 개발 영역에서 이미지 메타데이터를 관리하고 조작하는 것은 다양한 애플리케이션에 매우 중요합니다. Aspose.PSD for Java는 PSD 파일을 처리하는 강력한 도구로 돋보이며, 이 튜토리얼에서는 이 강력한 라이브러리를 사용하여 XMP 메타데이터를 생성하는 방법을 자세히 살펴보겠습니다.
@@ -155,3 +161,9 @@ A3: Aspose.PSD는 다양한 크기의 이미지를 처리하도록 설계되어 
 ### Q5: Aspose.PSD 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
 
  A5: 도움이나 문의 사항이 있는 경우[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη μικρογραφίας στο τμήμα JFIF σε Jav
 linktitle: Προσθήκη μικρογραφίας στο τμήμα JFIF σε Java
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς να προσθέτετε μια μικρογραφία σε μια εικόνα PSD σε Java χρησιμοποιώντας το Aspose.PSD βήμα προς βήμα. Ιδανικό για προγραμματιστές Java που θέλουν να βελτιώσουν τις δυνατότητες επεξεργασίας εικόνας.
-type: docs
 weight: 11
 url: /el/java/java-jpeg-image-processing/add-thumbnail-to-jfif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη μικρογραφίας στο τμήμα JFIF σε Java
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, η ενσωμάτωση των δυνατοτήτων επεξεργασίας εικόνας είναι ζωτικής σημασίας για διάφορες εφαρμογές, που κυμαίνονται από απλούς χειρισμούς εικόνας έως πολύπλοκες εργασίες γραφικού σχεδιασμού. Το Aspose.PSD για Java ξεχωρίζει ως μια ισχυρή βιβλιοθήκη που έχει σχεδιαστεί για να χειρίζεται εύκολα αρχεία PSD (Photoshop Document). Αυτό το σεμινάριο εστιάζει σε μια συγκεκριμένη εργασία: την προσθήκη μιας μικρογραφίας στο τμήμα JFIF μιας εικόνας χρησιμοποιώντας το Aspose.PSD για Java. Μέχρι το τέλος αυτού του οδηγού, θα μάθετε πώς να το πραγματοποιήσετε βήμα-βήμα, διασφαλίζοντας ότι καταλαβαίνετε καλά κάθε μέρος.
 ## Προαπαιτούμενα
@@ -90,3 +96,9 @@ image.save(dataDir + "output.psd");
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[Η δοκιμαστική σελίδα λήψης του Aspose.PSD](https://releases.aspose.com/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD για Java;
  Για υποστήριξη, επισκεφθείτε το[Φόρουμ Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

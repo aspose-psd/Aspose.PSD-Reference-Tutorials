@@ -3,10 +3,16 @@ title: دعم موارد Clbl في ملفات PSD باستخدام Java
 linktitle: دعم موارد Clbl في ملفات PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية دعم Clbl Resource ومعالجته في ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا الدليل التفصيلي المتطلبات الأساسية والتعليمات خطوة بخطوة والأسئلة الشائعة.
-type: docs
 weight: 12
 url: /ar/java/working-with-psd-files/support-clbl-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم موارد Clbl في ملفات PSD باستخدام Java
+
 ## مقدمة
 
  هل سبق لك أن وجدت نفسك تعمل مع ملفات PSD وتحتاج إلى معالجة موارد الطبقة برمجيًا؟ إذا كنت مطور جافا، فأنت محظوظ! باستخدام Aspose.PSD لـ Java، يمكنك بسهولة إدارة ملفات PSD وتحريرها، بما في ذلك التعامل مع ملفات`ClblResource` مورد خاص يتحكم في مزج العناصر المقطوعة. في هذا البرنامج التعليمي، سوف نتعمق في كيفية دعم ومعالجة`ClblResource` في ملفات PSD الخاصة بك باستخدام Java. في النهاية، ستكون مجهزًا جيدًا للتعامل مع هذا المورد في مشاريعك، مما يضمن لك التحكم الكامل في مظهر صورك ذات الطبقات.
@@ -156,3 +162,9 @@ private static ClblResource getClblResource(PsdImage im) throws Exception {
 
 ### كيف أتعامل مع ملفات PSD الكبيرة؟  
 تم تصميم Aspose.PSD for Java للتعامل بكفاءة مع ملفات PSD الكبيرة، ولكن يجب عليك التأكد من أن نظامك لديه ذاكرة كافية وقوة معالجة كافية لتحقيق الأداء الأمثل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

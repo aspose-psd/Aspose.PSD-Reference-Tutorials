@@ -3,10 +3,16 @@ title: Binarization Techniques in Aspose.PSD for .NET
 linktitle: Binarization Techniques
 second_title: Aspose.PSD .NET API
 description: Explore advanced binarization techniques in Aspose.PSD for .NET. Convert color images to binary with ease using the BinarizationWithFixedThreshold method.
-type: docs
 weight: 12
 url: /net/image-processing/binarization-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarization Techniques in Aspose.PSD for .NET
+
 ## Introduction
 
 In the world of image processing, the ability to convert a color image into a binary one is a crucial step. Binarization helps simplify complex images by reducing them to black and white pixels, making it easier to analyze and extract information. Aspose.PSD for .NET provides powerful tools for image manipulation, including robust binarization techniques. In this tutorial, we'll explore the BinarizationWithFixedThreshold method and guide you through its implementation using Aspose.PSD for .NET.
@@ -104,3 +110,10 @@ A4: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for communit
 ### Q5: Is there a trial version available for Aspose.PSD?
 
 A5: Yes, you can access the [free trial](https://releases.aspose.com/) to explore Aspose.PSD's features before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

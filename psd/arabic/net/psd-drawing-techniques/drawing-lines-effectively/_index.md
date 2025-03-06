@@ -3,10 +3,16 @@ title: رسم الخطوط بشكل فعال في Aspose.PSD لـ .NET
 linktitle: رسم الخطوط بشكل فعال
 second_title: Aspose.PSD.NET API
 description: اكتشف فن رسم الخطوط في تطبيقات .NET باستخدام Aspose.PSD. اتبع برنامجنا التعليمي الشامل لتحسين مهاراتك في معالجة الصور دون عناء.
-type: docs
 weight: 14
 url: /ar/net/psd-drawing-techniques/drawing-lines-effectively/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الخطوط بشكل فعال في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول رسم الخطوط بشكل فعال في Aspose.PSD لـ .NET! Aspose.PSD هي مكتبة قوية تتيح معالجة الصور ومعالجتها بسلاسة في تطبيقات .NET. سنركز في هذا الدليل على إنشاء خطوط ملفتة للنظر باستخدام مكتبة Aspose.PSD.
@@ -115,3 +121,9 @@ using (Image image = new PsdImage(100, 100))
 ### س5: هل أحتاج إلى ترخيص مؤقت لـ Aspose.PSD لـ .NET؟
 
  ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

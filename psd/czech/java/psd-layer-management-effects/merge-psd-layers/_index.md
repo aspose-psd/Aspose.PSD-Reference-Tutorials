@@ -3,10 +3,16 @@ title: Sloučit vrstvy PSD s Aspose.PSD pro Javu
 linktitle: Sloučit vrstvy PSD s Aspose.PSD pro Javu
 second_title: Aspose.PSD Java API
 description: Naučte se, jak sloučit vrstvy PSD pomocí Aspose.PSD for Java, v tomto podrobném návodu. Ideální pro vývojáře, kteří chtějí automatizovat úlohy zpracování obrazu.
-type: docs
 weight: 11
 url: /cs/java/psd-layer-management-effects/merge-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučit vrstvy PSD s Aspose.PSD pro Javu
+
 ## Zavedení
 
 Přemýšleli jste někdy nad tím, jak grafici dosahují těchto složitých vrstvených obrázků ve Photoshopu? Tajemství často spočívá ve správě a slučování vrstev v souborech PSD. Pokud pracujete se soubory PSD v Javě, může být sloučení vrstev klíčové pro vytváření kompozitních obrázků, zmenšení velikosti souboru nebo přípravu obrázku pro export. Ale řešit tento úkol programově může znít skličujícím způsobem. Vstupte do Aspose.PSD for Java, vaší ultimátní sady nástrojů pro snadnou manipulaci se soubory PSD. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vás provede procesem slučování vrstev PSD pomocí Aspose.PSD for Java. Na konci této příručky budete dobře rozumět tomu, jak manipulovat s vrstvami a jak uložit konečný obrázek v různých formátech – to vše z vaší Java aplikace.
@@ -105,3 +111,9 @@ Ne, Aspose.PSD for Java funguje nezávisle na Photoshopu. Umožňuje vám pracov
 
 ### Co se stane, když před uložením nenastavím možnosti obrázku?
 Pokud nenastavíte možnosti obrázku, Aspose.PSD for Java použije výchozí nastavení pro výstupní formát. Je však dobrým zvykem specifikovat možnosti, abyste zajistili, že výstup splňuje vaše požadavky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

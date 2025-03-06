@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD에서 노출 조정 레이어 관리
 linktitle: Java를 사용하여 PSD에서 노출 조정 레이어 관리
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java로 손쉽게 PSD 이미지를 향상하세요. 노출 조정 레이어를 단계별로 관리하려면 이 가이드를 따르세요.
-type: docs
 weight: 23
 url: /ko/java/psd-image-modification-conversion/manage-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD에서 노출 조정 레이어 관리
+
 ## 소개
 Photoshop 파일을 프로그래밍 방식으로 작업할 때, 특히 이미지 편집이나 조작을 할 때 Java용 Aspose.PSD 라이브러리는 진정한 게임 체인저입니다. 활용할 수 있는 강력한 기능 중 하나는 노출 조정 레이어로, 이를 통해 이미지의 노출 설정을 간단하고 효과적으로 향상하거나 수정할 수 있습니다. 이 튜토리얼은 Java를 사용하여 PSD 파일 내의 노출 조정 레이어를 관리하는 모든 단계를 안내합니다.
 ## 전제조건
@@ -92,3 +98,9 @@ Aspose.PSD for Java는 Photoshop 파일을 프로그래밍 방식으로 작업�
  Aspose 포럼에서 커뮤니티 지원에 액세스할 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
 ### 시작하는 데 사용할 수 있는 샘플 프로젝트가 있나요?
  예, 다음에서 샘플 프로젝트와 문서를 찾을 수 있습니다.[Aspose.PSD 참조 페이지](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

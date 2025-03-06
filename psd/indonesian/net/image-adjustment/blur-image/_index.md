@@ -3,10 +3,16 @@ title: Memburamkan Gambar di Aspose.PSD untuk .NET
 linktitle: Mengaburkan Gambar
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara memburamkan gambar dengan mudah dengan Aspose.PSD untuk .NET. Panduan langkah demi langkah untuk manipulasi gambar yang lancar di proyek C# Anda.
-type: docs
 weight: 13
 url: /id/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memburamkan Gambar di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Di bidang pengembangan .NET, Aspose.PSD terbukti menjadi sekutu yang kuat untuk manipulasi gambar. Tutorial ini berfokus pada tugas tertentu: mengaburkan gambar menggunakan Aspose.PSD untuk .NET. Jika Anda ingin meningkatkan keterampilan pemrosesan gambar atau sekadar mencari cara efisien untuk memburamkan gambar secara terprogram, Anda berada di tempat yang tepat.
@@ -97,3 +103,9 @@ A4: Tentu saja! Aspose.PSD menawarkan serangkaian fitur lengkap, termasuk mengub
 ### Q5: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas Aspose.PSD?
 
  A5: Untuk pertanyaan atau diskusi apa pun, kunjungi[Forum Asumsikan.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

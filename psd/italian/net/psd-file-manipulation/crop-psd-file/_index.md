@@ -3,10 +3,16 @@ title: Ritaglio di file PSD con Aspose.PSD per .NET
 linktitle: Ritaglio di file PSD con Aspose.PSD per .NET
 second_title: API Aspose.PSD .NET
 description: Esplora l'arte del ritaglio di file PSD in .NET con Aspose.PSD, un toolkit versatile. Migliora il tuo gioco di manipolazione delle immagini senza sforzo.
-type: docs
 weight: 19
 url: /it/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ritaglio di file PSD con Aspose.PSD per .NET
+
 ## Introduzione
 Nel regno dello sviluppo .NET, Aspose.PSD si distingue come un potente toolkit per gestire i file PSD (Photoshop Document) senza problemi. Quando si tratta di manipolare le immagini, il ritaglio è un'operazione fondamentale e Aspose.PSD semplifica questo processo per gli sviluppatori .NET. In questo tutorial esploreremo come ritagliare i file PSD utilizzando Aspose.PSD per .NET, fornendoti una guida passo passo.
 ## Prerequisiti
@@ -72,3 +78,9 @@ A1: Sì, Aspose.PSD viene regolarmente aggiornato per garantire la compatibilit�
 ### Q5: Ho bisogno di una licenza temporanea a scopo di test?
 
  R5: Sì, se hai bisogno di una licenza temporanea, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

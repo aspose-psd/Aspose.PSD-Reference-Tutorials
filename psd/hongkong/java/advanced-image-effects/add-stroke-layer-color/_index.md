@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for Java 中加入描邊圖層顏色
 linktitle: 新增描邊圖層顏色
 second_title: Aspose.PSD Java API
 description: 透過我們有關新增描邊圖層顏色的逐步指南，探索 Aspose.PSD for Java 的強大功能。輕鬆提升您的圖形設計。
-type: docs
 weight: 14
 url: /zh-hant/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for Java 中加入描邊圖層顏色
+
 ## 介紹
 
 使用 Aspose.PSD 釋放 Java 應用程式圖形設計的潛力。在本教程中，我們將深入研究使用 Aspose.PSD for Java 添加描邊圖層顏色的迷人世界。使用流行的筆觸增強您的圖形，輕鬆創建具有視覺吸引力的設計。
@@ -120,3 +126,9 @@ A2：當然！ Aspose.PSD 與最新的 PSD 檔案格式規格保持同步，確�
 ### Q5: 我可以在哪裡獲得 Aspose.PSD 的臨時授權？
 
  A5：獲得[臨時執照](https://purchase.aspose.com/temporary-license/)讓 Aspose.PSD 評估其在您的專案中的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

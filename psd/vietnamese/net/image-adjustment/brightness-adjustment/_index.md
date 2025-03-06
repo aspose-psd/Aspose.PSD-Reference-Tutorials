@@ -3,10 +3,16 @@ title: Triển khai Điều chỉnh độ sáng trong Aspose.PSD cho .NET
 linktitle: Thực hiện điều chỉnh độ sáng
 second_title: API Aspose.PSD .NET
 description: Khám phá sức mạnh của Aspose.PSD cho .NET trong việc điều chỉnh độ sáng hình ảnh. Hãy làm theo hướng dẫn từng bước của chúng tôi để triển khai liền mạch.
-type: docs
 weight: 10
 url: /vi/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai Điều chỉnh độ sáng trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 
 Nâng cao và điều chỉnh các thuộc tính hình ảnh là một yêu cầu phổ biến trong các ứng dụng khác nhau và Aspose.PSD cho .NET cung cấp một giải pháp mạnh mẽ để thao tác các tệp PSD một cách liền mạch. Một thao tác như vậy là điều chỉnh độ sáng, cho phép bạn sửa đổi độ sáng của hình ảnh một cách dễ dàng.
@@ -97,3 +103,9 @@ Aspose.PSD for .NET đơn giản hóa quá trình thực hiện điều chỉnh 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho .NET?
 
  Câu trả lời 5: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

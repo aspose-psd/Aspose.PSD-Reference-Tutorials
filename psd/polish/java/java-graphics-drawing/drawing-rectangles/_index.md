@@ -3,10 +3,16 @@ title: Rysowanie prostokątów w Javie
 linktitle: Rysowanie prostokątów w Javie
 second_title: Aspose.PSD API Java
 description: Naucz się rysować prostokąty na obrazach za pomocą Aspose.PSD dla Java. Ten samouczek prowadzi programistów Java krok po kroku. Idealny do zadań związanych z manipulacją obrazami.
-type: docs
 weight: 17
 url: /pl/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rysowanie prostokątów w Javie
+
 ## Wstęp
 W świecie programowania w języku Java programowe manipulowanie i generowanie obrazów jest powszechnym wymogiem w różnych aplikacjach. Jednym z takich często spotykanych zadań jest rysowanie na obrazach kształtów przypominających prostokąty. Aspose.PSD dla Java zapewnia solidny zestaw narzędzi i funkcjonalności pozwalających efektywnie to osiągnąć. Ten samouczek poprowadzi Cię krok po kroku przez proces rysowania prostokątów na obrazie przy użyciu Aspose.PSD dla Java.
 ## Warunki wstępne
@@ -84,3 +90,9 @@ Tak, Aspose.PSD dla Java jest przeznaczony do wysokowydajnego przetwarzania obra
  Więcej przykładów i szczegółową dokumentację można znaleźć na stronie[Aspose.PSD dla dokumentacji Java](https://reference.aspose.com/psd/java/).
 ### Czy Aspose.PSD dla Java obsługuje inne formaty obrazów oprócz BMP?
 Tak, Aspose.PSD dla Java obsługuje szeroką gamę formatów obrazów, w tym PNG, JPEG, TIFF i GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

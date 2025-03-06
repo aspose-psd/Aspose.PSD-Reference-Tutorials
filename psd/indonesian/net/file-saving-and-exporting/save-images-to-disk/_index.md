@@ -3,10 +3,16 @@ title: Menyimpan Gambar ke Disk dengan Aspose.PSD untuk .NET
 linktitle: Menyimpan Gambar ke Disk dengan Aspose.PSD untuk .NET
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara menyimpan gambar ke disk menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah ini untuk pemrosesan gambar yang efisien.
-type: docs
 weight: 10
 url: /id/net/file-saving-and-exporting/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan Gambar ke Disk dengan Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET yang dinamis, Aspose.PSD menonjol sebagai solusi tangguh untuk menangani gambar PSD dengan mulus. Tutorial ini akan memandu Anda melalui proses menyimpan gambar ke disk menggunakan Aspose.PSD untuk .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan coding, panduan langkah demi langkah ini akan membantu Anda memanfaatkan kekuatan Aspose.PSD secara efektif.
@@ -90,3 +96,9 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, memastikan fleksibilitas da
 ### Q5: Di mana saya dapat membeli Aspose.PSD untuk .NET?
 
  A5: Anda dapat membeli Aspose.PSD untuk .NET[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

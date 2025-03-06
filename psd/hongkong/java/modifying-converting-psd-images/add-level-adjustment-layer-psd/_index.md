@@ -3,10 +3,16 @@ title: 在 PSD 中新增等級調整圖層
 linktitle: 在 PSD 中新增等級調整圖層
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 檔案中有效新增等級調整圖層。提高您的影像編輯技能。
-type: docs
 weight: 16
 url: /zh-hant/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PSD 中新增等級調整圖層
+
 ## 介紹
 在影像編輯方面，管理層級可以使照片的活力和清晰度發生巨大變化。 Photoshop 工具庫中的一個方便工具是“色階調整圖層”，它可讓您調整影像的色調範圍和色彩平衡。在本指南中，我們將引導您了解如何使用 Aspose.PSD for Java 在 PSD 檔案中實作等級調整圖層。所以，拿起你的 Java IDE。
 ## 先決條件
@@ -88,3 +94,9 @@ im.save(psdPathAfterChange);
 絕對地！您可以在以下位置提出問題並獲得支持[Aspose論壇](https://forum.aspose.com/c/psd/34).
 ### 我如何獲得 Aspose.PSD 的臨時授權？
 您可以申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

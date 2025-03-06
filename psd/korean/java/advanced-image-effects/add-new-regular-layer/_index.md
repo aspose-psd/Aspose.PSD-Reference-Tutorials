@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 PSD에 새 일반 레이어 추가
 linktitle: PSD에 새 일반 레이어 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에 새로운 일반 레이어를 추가하는 방법을 알아보세요. 원활한 PSD 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/advanced-image-effects/add-new-regular-layer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 PSD에 새 일반 레이어 추가
+
 ## 소개
 
 PSD 파일에 새로운 일반 레이어를 추가하기 위해 Java용 Aspose.PSD를 사용하는 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.PSD는 개발자가 PSD 파일을 효율적으로 조작하고 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 PSD 파일에 새로운 일반 레이어를 추가하는 과정을 안내하고 자세한 단계와 코드 예제를 제공합니다.
@@ -120,3 +126,9 @@ A2: 물론이죠! Aspose.PSD는 레이어에 대한 다양한 변환 옵션을 �
 ### Q5: Aspose.PSD 지원을 위한 커뮤니티 포럼이 있습니까?
 
  A5: 예, 지원과 토론을 찾을 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

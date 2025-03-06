@@ -3,10 +3,16 @@ title: Java ile PSD Dosyalarında Infx Kaynağını Destekleyin
 linktitle: Java ile PSD Dosyalarında Infx Kaynağını Destekleyin
 second_title: Aspose.PSD Java API'si
 description: Bu kapsamlı, adım adım eğitimle Aspose.PSD for Java kullanarak PSD dosyalarındaki Infx Kaynağını nasıl değiştireceğinizi öğrenin. Her seviyedeki geliştiriciler için mükemmeldir.
-type: docs
 weight: 13
 url: /tr/java/working-with-psd-files/support-infx-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile PSD Dosyalarında Infx Kaynağını Destekleyin
+
 ## giriiş
 
 Java'da PSD (Photoshop Belgesi) dosyalarıyla çalışmak göz korkutucu görünebilir, ancak öyle olmak zorunda değildir. Çeşitli kaynaklar içeren çok katmanlı bir PSD dosyanız olduğunu ve dosyanın bütünlüğünün bozulmadan kalmasını sağlarken InfxResource gibi belirli kaynakları değiştirmeniz gerektiğini düşünün. İşte tam bu noktada Aspose.PSD for Java devreye giriyor ve PSD dosyalarını sorunsuz bir şekilde yönetmek için sezgisel bir API sunuyor. Bu eğitimde, Aspose.PSD for Java kullanarak bir InfxResource'u PSD dosyasında nasıl bulacağınızı, düzenleyeceğinizi ve kaydedeceğinizi anlatacağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz PSD kaynaklarının kullanımını mümkün olduğunca basit hale getirecektir.
@@ -155,3 +161,9 @@ Değişiklikler kaydedildikten sonra, orijinal dosyanın yedeğini almadığın�
 ### Aspose.PSD for Java'yı kullanarak birden fazla PSD dosyasında değişiklik yapmayı otomatikleştirebilir miyim?
 
 Evet, her dosyaya aynı değişiklikleri uygulayarak birden çok PSD dosyasını toplu olarak işlemek için komut dosyaları oluşturabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

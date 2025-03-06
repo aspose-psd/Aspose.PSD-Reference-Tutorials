@@ -3,10 +3,16 @@ title: Creating Elliptical Shapes with Aspose.PSD for .NET
 linktitle: Creating Elliptical Shapes with Aspose.PSD for .NET
 second_title: Aspose.PSD .NET API
 description: Learn how to draw elliptical shapes in .NET using Aspose.PSD. Step-by-step guide with code examples. Create stunning graphics effortlessly.
-type: docs
 weight: 13
 url: /net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Elliptical Shapes with Aspose.PSD for .NET
+
 ## Introduction
 
 Welcome to our comprehensive guide on creating elliptical shapes using Aspose.PSD for .NET. Aspose.PSD is a powerful .NET library that allows developers to manipulate and convert Photoshop files without requiring Adobe Photoshop. In this tutorial, we'll walk you through the process of drawing elliptical shapes using the library.
@@ -101,3 +107,10 @@ A4: Visit the support forum [here](https://forum.aspose.com/c/psd/34).
 ### Q5: Do I need a temporary license for testing?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

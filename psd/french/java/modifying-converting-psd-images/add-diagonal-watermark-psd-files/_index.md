@@ -3,10 +3,16 @@ title: Ajouter un filigrane diagonal aux fichiers PSD avec Java
 linktitle: Ajouter un filigrane diagonal aux fichiers PSD avec Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment ajouter facilement un filigrane diagonal aux fichiers PSD à l'aide de Java avec Aspose.PSD. Guide étape par étape pour améliorer vos images en toute confiance.
-type: docs
 weight: 12
 url: /fr/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un filigrane diagonal aux fichiers PSD avec Java
+
 ## Introduction
 Dans le monde numérique d’aujourd’hui, avoir un visuel saisissant peut faire toute la différence. Que vous soyez un designer cherchant à protéger votre travail ou un spécialiste du marketing souhaitant ajouter une marque aux images, l'application d'un filigrane est essentielle. Dans ce didacticiel, nous allons explorer comment ajouter un filigrane diagonal aux fichiers PSD à l'aide de Java à l'aide d'Aspose.PSD, une bibliothèque puissante pour manipuler les fichiers PSD.
 ## Conditions préalables
@@ -97,3 +103,9 @@ Absolument! Vous pouvez ajuster la valeur alpha dans SolidBrush pour modifier la
  Oui, vous pouvez appeler le`drawString` méthode plusieurs fois avec différents paramètres pour ajouter plus de filigranes.
 ### Où puis-je trouver plus d’informations sur Aspose.PSD ?
  Vous pouvez consulter la documentation[ici](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cree miniaturas a partir de archivos PSD usando Java
 linktitle: Cree miniaturas a partir de archivos PSD usando Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a crear miniaturas sin esfuerzo a partir de archivos PSD utilizando Java y Aspose.PSD. Siga nuestra guía paso a paso para un procesamiento de imágenes perfecto.
-type: docs
 weight: 24
 url: /es/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cree miniaturas a partir de archivos PSD usando Java
+
 ## Introducción
 En el mundo del diseño gráfico, trabajar con archivos PSD (Photoshop Document) es algo habitual. Ya sea que sea un desarrollador experimentado, un diseñador gráfico o simplemente alguien que quiera sumergirse en el procesamiento de imágenes, crear miniaturas a partir de archivos PSD puede ahorrarle tiempo y optimizar su flujo de trabajo. Este tutorial lo guiará a través de todo el proceso usando Aspose.PSD para Java. Aspose.PSD no solo es una biblioteca sólida para administrar archivos de Photoshop, sino que también hace que la tarea en cuestión sea intuitiva y manejable. ¿Estás listo para aprender a crear miniaturas a partir de archivos PSD de manera eficiente?
 ## Requisitos previos
@@ -112,3 +118,9 @@ En este ejemplo, guardamos las miniaturas en formato BMP, pero Aspose.PSD tambi�
 No, Aspose.PSD funciona independientemente de Photoshop.
 ### ¿Dónde puedo encontrar más información sobre Aspose.PSD?
  Puedes consultar el[Documentación Aspose.PSD](https://reference.aspose.com/psd/java/) para obtener más detalles, tutoriales y recursos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

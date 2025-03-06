@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD의 Bradley 임계값
 linktitle: 브래들리 임계값
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD의 Bradley Thresholding을 사용하여 이미지 품질을 향상합니다. 효과적인 이미지 이진화를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 16
 url: /ko/java/image-processing/bradley-thresholding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD의 Bradley 임계값
+
 ## 소개
 
 Java용 Aspose.PSD에서 Bradley 임계값 구현에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 이미지 품질을 향상시키기 위해 Bradley 임계값을 적용하는 과정을 안내합니다. Aspose.PSD for Java는 이미지 처리를 위한 강력한 도구 세트를 제공하며 Bradley Thresholding은 이미지 이진화를 위한 귀중한 기술입니다.
@@ -99,3 +105,9 @@ A4: 예, Aspose.PSD에서 제공하는 추가 방법을 사용하여 변경 사�
 ### Q5: 추가 지원과 리소스는 어디에서 찾을 수 있습니까?
 
  A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 지역사회 지원을 위해[선적 서류 비치](https://reference.aspose.com/psd/java/) 자세한 정보를 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

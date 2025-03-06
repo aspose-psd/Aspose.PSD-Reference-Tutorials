@@ -3,10 +3,16 @@ title: إضافة تأثيرات السكتة الدماغية إلى الطبق
 linktitle: إضافة تأثيرات السكتة الدماغية إلى الطبقات
 second_title: Aspose.PSD.NET API
 description: قم بتعزيز جماليات الصورة باستخدام Aspose.PSD لـ .NET. تعلم كيفية إضافة تأثيرات السكتة الدماغية خطوة بخطوة. قم بتنزيل الإصدار التجريبي المجاني أو شراؤه أو تجربته الآن.
-type: docs
 weight: 10
 url: /ar/net/layer-effects/adding-stroke-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة تأثيرات السكتة الدماغية إلى الطبقات في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول إضافة تأثيرات الحدود إلى الطبقات في Aspose.PSD لـ .NET. يعد تحسين المظهر المرئي لصورك أمرًا سهلاً مع تأثير السكتة الدماغية، كما أن Aspose.PSD يجعلها سهلة لمطوري .NET. في هذا الدليل، سنرشدك خلال العملية، ونقدم لك خطوات وأمثلة واضحة لمساعدتك على إتقان هذه الميزة القوية.
@@ -109,3 +115,9 @@ colorFillSettings.Color = Color.Green;
 ### س5: هل يمكنني استخدام الإصدار التجريبي قبل شراء Aspose.PSD؟
 
  ج5: بالتأكيد! الاستيلاء على[تجربة مجانية](https://releases.aspose.com/) لاستكشاف إمكانيات Aspose.PSD قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

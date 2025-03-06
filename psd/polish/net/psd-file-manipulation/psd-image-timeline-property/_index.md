@@ -3,10 +3,16 @@ title: Właściwość osi czasu obrazu PSD w Aspose.PSD dla .NET
 linktitle: Właściwość osi czasu obrazu PSD
 second_title: Aspose.PSD API .NET
 description: Poznaj dynamiczny świat przetwarzania obrazu za pomocą Aspose.PSD dla .NET. Bez wysiłku manipuluj osiami czasu PSD. Pobierz bibliotekę teraz!
-type: docs
 weight: 15
 url: /pl/net/psd-file-manipulation/psd-image-timeline-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Właściwość osi czasu obrazu PSD w Aspose.PSD dla .NET
+
 ## Wstęp
 W stale zmieniającym się środowisku rozwoju .NET istotne jest wyprzedzanie konkurencji. Aspose.PSD dla .NET okazuje się potężnym narzędziem oferującym wiele funkcji zwiększających możliwości przetwarzania obrazu. Godną uwagi funkcją jest właściwość osi czasu obrazu PSD, która umożliwia dynamiczne manipulowanie osią czasu obrazów PSD.
 ## Warunki wstępne
@@ -85,3 +91,9 @@ O1: Tak, Aspose.PSD dla .NET jest kompatybilny z różnymi frameworkami .NET, za
 ### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla .NET?
 
  Odpowiedź 5: Zapoznaj się z obszerną dokumentacją[Tutaj](https://reference.aspose.com/psd/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Práce s režimy prolnutí v Aspose.PSD pro .NET
 linktitle: Práce s režimy prolnutí
 second_title: Aspose.PSD .NET API
 description: Prozkoumejte sílu režimů prolnutí v Aspose.PSD pro .NET. Tento výukový program vás provede použitím různých režimů prolnutí pomocí příkladů krok za krokem.
-type: docs
 weight: 16
 url: /cs/net/layer-effects/working-with-blend-modes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s režimy prolnutí v Aspose.PSD pro .NET
+
 ## Zavedení
 
 Pokud jste vývojář .NET a chcete vylepšit své možnosti zpracování obrazu, Aspose.PSD for .NET je výkonný nástroj, který vám umožní bezproblémově pracovat s různými režimy prolnutí. Režimy prolnutí hrají klíčovou roli při manipulaci s obrázky tím, že definují, jak se vrstvy vzájemně prolínají. V tomto podrobném průvodci se ponoříme do světa režimů prolnutí a předvedeme, jak je efektivně používat ve vašich aplikacích .NET.
@@ -102,3 +108,9 @@ A4: Rozhodně! Režimy prolnutí lze kombinovat s dalšími funkcemi Aspose.PSD 
 ### Q5: Existuje komunitní fórum pro podporu Aspose.PSD?
 
  A5: Ano, můžete najít podporu a spojit se s ostatními uživateli na[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

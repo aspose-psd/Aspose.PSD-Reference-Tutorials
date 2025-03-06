@@ -3,10 +3,16 @@ title: Cắt hình ảnh bằng hình chữ nhật trong Aspose.PSD cho Java
 linktitle: Cắt ảnh theo hình chữ nhật
 second_title: API Java Aspose.PSD
 description: Khám phá khả năng cắt ảnh liền mạch trong Java với Aspose.PSD. Làm theo hướng dẫn từng bước của chúng tôi để cắt ảnh dễ dàng bằng Aspose.PSD cho Java.
-type: docs
 weight: 15
 url: /vi/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt hình ảnh bằng hình chữ nhật trong Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, thao tác với hình ảnh là một nhiệm vụ phổ biến và Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để xử lý hình ảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình cắt ảnh theo hình chữ nhật bằng Aspose.PSD cho Java. Hãy làm theo các bước dưới đây để đạt được điều này một cách dễ dàng.
@@ -105,3 +111,9 @@ Câu trả lời 1: Có, Aspose.PSD cho Java có thể được tích hợp vớ
 ### Câu hỏi 5: Các định dạng hình ảnh được hỗ trợ để cắt xén trong Aspose.PSD cho Java là gì?
 
 Câu trả lời 5: Aspose.PSD cho Java hỗ trợ nhiều định dạng hình ảnh khác nhau, bao gồm PSD, PNG, JPEG, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tambahkan Tanda Air ke File PSD dengan Aspose.PSD untuk Java
 linktitle: Tambahkan Tanda Air ke File PSD dengan Aspose.PSD untuk Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan tanda air ke file PSD Anda dengan mudah menggunakan Aspose.PSD untuk Java. Lindungi gambar Anda dengan panduan langkah demi langkah sederhana.
-type: docs
 weight: 18
 url: /id/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Tanda Air ke File PSD dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 Tanda air adalah cara yang halus namun efektif untuk melindungi gambar Anda dan mengomunikasikan kepemilikan. Baik Anda seorang fotografer yang memamerkan portofolio Anda atau seorang desainer yang mempresentasikan karya terbaru Anda, menambahkan tanda air bisa menjadi sangat penting untuk mempertahankan identitas merek Anda. Dalam tutorial ini, kita akan mempelajari cara menambahkan tanda air dengan mudah ke file PSD Anda menggunakan Aspose.PSD untuk Java. Jadi, ambillah secangkir kopi, bersantailah, dan mari kita mulai!
 ## Prasyarat
@@ -90,3 +96,9 @@ Dan itu dia! Anda telah berhasil menambahkan tanda air ke file PSD Anda mengguna
  Ya, Anda dapat menyimpan dalam berbagai format seperti JPEG atau BMP. Ganti saja`PngOptions()` dengan pilihan yang diinginkan.
 ### Di mana saya bisa mendapatkan bantuan lebih lanjut?
  Untuk pertanyaan terperinci, Anda dapat mengunjungi[Asumsikan forum](https://forum.aspose.com/c/psd/34) atau periksa mereka[dokumentasi](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

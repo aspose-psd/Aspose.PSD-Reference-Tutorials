@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Görüntüyü Bulanıklaştırma
 linktitle: Görüntüyü Bulanıklaştırma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile görüntüleri zahmetsizce nasıl bulanıklaştıracağınızı öğrenin. C# projelerinizde kusursuz görüntü işleme için adım adım kılavuz.
-type: docs
 weight: 13
 url: /tr/net/image-adjustment/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Görüntüyü Bulanıklaştırma
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.PSD, görüntü işleme konusunda güçlü bir müttefik olduğunu kanıtlıyor. Bu eğitim belirli bir göreve odaklanıyor: Aspose.PSD for .NET kullanarak bir görüntüyü bulanıklaştırmak. Görüntü işleme becerilerinizi geliştirmek istiyorsanız veya yalnızca görüntüleri programlı olarak bulanıklaştırmanın etkili bir yolunu arıyorsanız, doğru yerdesiniz.
@@ -97,3 +103,9 @@ Cevap4: Kesinlikle! Aspose.PSD, yeniden boyutlandırma, kırpma ve renk ayarlama
 ### S5: Nereden yardım alabilirim veya Aspose.PSD topluluğuyla bağlantı kurabilirim?
 
  A5: Herhangi bir sorunuz veya tartışmanız için şu adrese gidin:[Aspose.PSD Forumu](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vẽ bằng đường dẫn đồ họa trong Java
 linktitle: Vẽ bằng đường dẫn đồ họa trong Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách tạo đồ họa phức tạp trong Java bằng lớp Đường dẫn đồ họa của Aspose.PSD. Hướng dẫn này hướng dẫn bạn từng bước để tạo ra hình ảnh tuyệt đẹp.
-type: docs
 weight: 19
 url: /vi/java/java-graphics-drawing/drawing-using-graphics-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ bằng đường dẫn đồ họa trong Java
+
 ## Giới thiệu
 Tạo và thao tác hình ảnh theo chương trình có thể là một nhiệm vụ thú vị đối với các nhà phát triển Java, đặc biệt là khi sử dụng các thư viện như Aspose.PSD. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình vẽ đồ họa phức tạp bằng lớp Graphics Path trong Java với Aspose.PSD.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Theo hướng dẫn này, Aspose.PSD xử lý cụ thể các tệp PSD nhưng c
  Bạn có thể mua Aspose.PSD từ[đây](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận hỗ trợ cho Aspose.PSD ở đâu?
 Bạn có thể tìm kiếm sự hỗ trợ và thảo luận trên[diễn đàn của Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

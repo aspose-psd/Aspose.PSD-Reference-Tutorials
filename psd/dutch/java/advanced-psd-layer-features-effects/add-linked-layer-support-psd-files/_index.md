@@ -3,10 +3,16 @@ title: Voeg ondersteuning voor gekoppelde lagen toe in PSD-bestanden met behulp 
 linktitle: Voeg ondersteuning voor gekoppelde lagen toe in PSD-bestanden met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u ondersteuning voor gekoppelde lagen kunt toevoegen aan PSD-bestanden met behulp van Aspose.PSD voor Java met deze gedetailleerde stapsgewijze zelfstudie. Ideaal voor ontwerpers en ontwikkelaars.
-type: docs
 weight: 19
 url: /nl/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg ondersteuning voor gekoppelde lagen toe in PSD-bestanden met behulp van Java
+
 ## Invoering
 De .PSD-bestanden van Adobe Photoshop zijn favoriet onder grafisch ontwerpers en digitale kunstenaars vanwege hun veelzijdige mogelijkheden voor laagbeheer. Terwijl u zich verdiept in de wereld van het programmatisch manipuleren van PSD-bestanden, wilt u misschien onderzoeken hoe gekoppelde lagen uw workflow kunnen verbeteren. Met gekoppelde lagen kunnen gebruikers onafhankelijke laagfunctionaliteiten behouden, terwijl ze als een samenhangende eenheid worden beheerd. Voer Aspose.PSD voor Java in, een krachtige bibliotheek die het werken met Photoshop-bestanden een fluitje van een cent maakt. 
 In dit artikel gaan we gedetailleerd bekijken hoe u ondersteuning voor gekoppelde lagen kunt toevoegen aan PSD-bestanden met behulp van de Aspose.PSD-bibliotheek in Java. Of u nu een doorgewinterde ontwikkelaar of een beginneling bent, deze stapsgewijze handleiding helpt u naadloos door de taak te navigeren.
@@ -99,3 +105,9 @@ Ja, als Java-gebaseerde bibliotheek draait deze op elk platform dat Java onderst
  U kunt de uitgebreide documentatie verkennen[hier](https://reference.aspose.com/psd/java/).
 ### Hoe kan ik ondersteuning krijgen als ik problemen tegenkom?
  Als u problemen ondervindt, kunt u hulp vinden in de[ondersteuningsforum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Correction automatique de l'orientation de l'image JPEG en Java
 linktitle: Correction automatique de l'orientation de l'image JPEG en Java
 second_title: API Java Aspose.PSD
 description: Apprenez à corriger automatiquement l'orientation de l'image JPEG en Java à l'aide d'Aspose.PSD. Améliorez vos compétences en traitement d’image sans effort.
-type: docs
 weight: 12
 url: /fr/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Correction automatique de l'orientation de l'image JPEG en Java
+
 ## Introduction
 À l'ère numérique d'aujourd'hui, la manipulation et l'optimisation des images par programmation sont devenues une tâche cruciale pour les développeurs de divers domaines. Aspose.PSD pour Java offre aux développeurs des outils robustes pour gérer efficacement les formats PSD, JPEG et autres formats d'image. Ce didacticiel se penche sur une tâche spécifique : corriger automatiquement l'orientation de l'image JPEG à l'aide d'Aspose.PSD pour Java. Que vous créiez une application de retouche photo, gériez des ressources d'images dans un système de gestion de contenu ou automatisiez des flux de travail de traitement d'images, ce guide vous fournira les connaissances nécessaires pour intégrer de manière transparente cette fonctionnalité dans vos applications Java.
 ## Conditions préalables
@@ -71,3 +77,9 @@ Oui, il prend en charge diverses tâches de manipulation d'images telles que le 
  Une documentation complète est disponible[ici](https://reference.aspose.com/psd/java/).
 ### Puis-je essayer Aspose.PSD pour Java gratuitement ?
  Oui, vous pouvez bénéficier d'un essai gratuit auprès de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

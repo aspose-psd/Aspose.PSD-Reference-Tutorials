@@ -3,10 +3,16 @@ title: Az Aspose.PSD for .NET idővonalának használata
 linktitle: Munka az idővonallal
 second_title: Aspose.PSD .NET API
 description: Javítsa a PSD-képkezelést az Aspose.PSD-vel a .NET Timeline osztályhoz. Vezérelje a keret tulajdonságait, a rétegállapotokat, és könnyedén szabadítsa fel a kreatív lehetőségeket.
-type: docs
 weight: 16
 url: /hu/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.PSD for .NET idővonalának használata
+
 ## Bevezetés
 grafikai tervezés és a képmanipuláció dinamikus világában döntő fontosságú a képek idővonalának szabályozásának és manipulálásának képessége. Az Aspose.PSD for .NET hatékony megoldást kínál a Timeline osztályával. Ez a magas szintű szolgáltatás lehetővé teszi a felhasználók számára, hogy módosítsák a PsdImage idővonalát, például módosítsák a képkocka késleltetését, szerkeszthessék bizonyos kereteken a rétegállapotokat stb.
 ## Előfeltételek
@@ -108,3 +114,9 @@ A1: Abszolút! Az Aspose.PSD for .NET felhasználóbarát felületet és átfog�
 ### 5. kérdés: Melyek az Aspose.PSD for .NET használatának legfontosabb előnyei?
 
 5. válasz: Az Aspose.PSD for .NET fejlett képfeldolgozási képességeket, PSD-fájlkezelést és nagy teljesítményű megjelenítést kínál.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

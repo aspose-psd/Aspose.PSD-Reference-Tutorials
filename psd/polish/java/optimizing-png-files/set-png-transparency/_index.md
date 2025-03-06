@@ -3,10 +3,16 @@ title: Ustaw przezroczystość PNG w Aspose.PSD dla Java
 linktitle: Ustaw przezroczystość PNG w Aspose.PSD dla Java
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak ustawić przezroczystość PNG w Aspose.PSD dla Java, korzystając z prostego samouczka krok po kroku. Idealny dla programistów i grafików.
-type: docs
 weight: 15
 url: /pl/java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw przezroczystość PNG w Aspose.PSD dla Java
+
 ## Wstęp
 Jeśli chodzi o manipulowanie grafiką i zarządzanie nią, szczególnie w środowiskach profesjonalnych, wybór odpowiednich narzędzi ma kluczowe znaczenie. Jednym z narzędzi wyróżniających się w dziedzinie manipulacji grafiką jest Aspose.PSD dla Java. Ta biblioteka umożliwia programistom bezproblemową pracę z plikami Photoshop (PSD) bezpośrednio w aplikacjach Java. To tak, jakby mieć w zasięgu ręki zaawansowane funkcje programu Photoshop, bez konieczności uczenia się! Dzisiaj zajmiemy się konkretną funkcją: ustawianiem przezroczystości PNG za pomocą Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez kolejne kroki.
 ## Warunki wstępne
@@ -67,3 +73,9 @@ Absolutnie! Możesz pobrać bezpłatną wersję próbną Aspose.PSD[Tutaj](https
  Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/psd/34) za pomoc i wsparcie społeczne.
 ### Czy mogę ustawić wiele przezroczystych kolorów?
 Obecnie biblioteka umożliwia ustawienie jednego przezroczystego koloru na obraz PNG. W razie potrzeby można jednak manipulować różnymi warstwami w pliku PSD przed eksportem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

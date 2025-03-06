@@ -3,10 +3,16 @@ title: Основные возможности рисования в Java
 linktitle: Основные возможности рисования в Java
 second_title: Aspose.PSD Java API
 description: Изучите Aspose.PSD и узнайте о мощных возможностях Java по манипулированию изображениями. Узнайте, как программно загружать, манипулировать и сохранять изображения PSD.
-type: docs
 weight: 12
 url: /ru/java/java-graphics-drawing/core-drawing-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Основные возможности рисования в Java
+
 ## Введение
 В современную цифровую эпоху овладение инструментами, которые позволяют разработчикам манипулировать изображениями и создавать их программно, имеет неоценимое значение. Aspose.PSD для Java выделяется как надежное решение для обработки PSD-файлов, предлагающее множество функций, упрощающих обработку, манипулирование и преобразование изображений непосредственно в приложениях Java. В этом руководстве рассматриваются основные возможности рисования Aspose.PSD для Java и пройдут основные этапы, необходимые для раскрытия всего его потенциала.
 ## Предварительные условия
@@ -69,3 +75,9 @@ image.save(outpath, new BmpOptions());
  Посещать[Временная лицензия Aspose.PSD](https://purchase.aspose.com/temporary-license/) страница для получения временной лицензии.
 ### Где я могу найти дополнительную помощь и ресурсы для Aspose.PSD для Java?
  Исследуйте[Форум Aspose.PSD](https://forum.aspose.com/c/psd/34) за поддержку сообщества, советы и дополнительные ресурсы.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη επιπέδου προσαρμογής επιπέδου
 linktitle: Προσθήκη επιπέδου προσαρμογής επιπέδου σε PSD
 second_title: Aspose.PSD Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε αποτελεσματικά ένα επίπεδο προσαρμογής επιπέδου στα αρχεία PSD χρησιμοποιώντας το Aspose.PSD για Java. Αυξήστε τις δεξιότητές σας στην επεξεργασία εικόνας.
-type: docs
 weight: 16
 url: /el/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη επιπέδου προσαρμογής επιπέδου σε PSD
+
 ## Εισαγωγή
 Όσον αφορά την επεξεργασία εικόνας, η διαχείριση των επιπέδων μπορεί να κάνει τη διαφορά στη ζωντάνια και τη διαύγεια των φωτογραφιών σας. Ένα εύχρηστο εργαλείο στο οπλοστάσιο του Photoshop είναι το "Level Adjustment Layer", το οποίο σας επιτρέπει να τροποποιήσετε το τονικό εύρος και την ισορροπία χρωμάτων των εικόνων σας. Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στον τρόπο υλοποίησης ενός επιπέδου προσαρμογής επιπέδου σε ένα αρχείο PSD χρησιμοποιώντας το Aspose.PSD για Java. Έτσι, πάρτε το Java IDE σας.
 ## Προαπαιτούμενα
@@ -88,3 +94,9 @@ im.save(psdPathAfterChange);
  Απολύτως! Μπορείτε να κάνετε ερωτήσεις και να λάβετε υποστήριξη στο[Aspose φόρουμ](https://forum.aspose.com/c/psd/34).
 ### Πώς μπορώ να πάρω μια προσωρινή άδεια για το Aspose.PSD;
  Μπορείτε να κάνετε αίτηση για προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة تأثيرات النمط في Aspose.PSD لـ Java
 linktitle: إضافة تأثيرات النمط
 second_title: Aspose.PSD جافا API
 description: قم بتحسين أنماط صور Java الخاصة بك بسهولة باستخدام Aspose.PSD لـ Java. اتبع البرنامج التعليمي خطوة بخطوة لإضافة تأثيرات نمط آسرة.
-type: docs
 weight: 12
 url: /ar/java/advanced-image-effects/add-pattern-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة تأثيرات النمط في Aspose.PSD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java، يعد تحسين أنماط الصور مهمة شائعة، ويوفر Aspose.PSD for Java حلاً قويًا لذلك. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة تأثيرات النمط باستخدام Aspose.PSD، مما يضمن أن صورك تتميز بتراكبات وتحسينات فريدة.
@@ -138,3 +144,9 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD لـ Java؟
 
 ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

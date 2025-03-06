@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 PSD 파일에 워터마크 추가
 linktitle: Java용 Aspose.PSD를 사용하여 PSD 파일에 워터마크 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에 워터마크를 손쉽게 추가하는 방법을 알아보세요. 간단한 단계별 가이드를 통해 이미지를 보호하세요.
-type: docs
 weight: 18
 url: /ko/java/modifying-converting-psd-images/add-watermark-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 PSD 파일에 워터마크 추가
+
 ## 소개
 워터마크는 이미지를 보호하고 소유권을 전달하는 미묘하지만 효과적인 방법입니다. 포트폴리오를 선보이는 사진가이든 최신 작품을 선보이는 디자이너이든 워터마크를 추가하는 것은 브랜드 아이덴티티를 유지하는 데 중요할 수 있습니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에 워터마크를 손쉽게 추가하는 방법을 살펴보겠습니다. 그럼, 커피 한잔 마시고 편안하게 쉬고 시작해 보세요!
 ## 전제조건
@@ -90,3 +96,9 @@ psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
  예. JPEG, BMP 등 다양한 형식으로 저장할 수 있습니다. 그냥 교체하세요`PngOptions()` 원하는 옵션으로.
 ### 추가 도움은 어디서 찾을 수 있나요?
  자세한 문의사항은 홈페이지를 방문하시면 됩니다[포럼을 Aspose](https://forum.aspose.com/c/psd/34) 또는 그들의 확인[선적 서류 비치](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

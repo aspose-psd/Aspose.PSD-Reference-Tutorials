@@ -3,10 +3,16 @@ title: Voeg niveauaanpassingslaag toe in PSD
 linktitle: Voeg niveauaanpassingslaag toe in PSD
 second_title: Aspose.PSD Java-API
 description: Leer hoe u effectief een niveauaanpassingslaag aan uw PSD-bestanden kunt toevoegen met Aspose.PSD voor Java. Verbeter uw beeldbewerkingsvaardigheden.
-type: docs
 weight: 16
 url: /nl/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg niveauaanpassingslaag toe in PSD
+
 ## Invoering
 Als het om beeldbewerking gaat, kan het beheren van niveaus een wereld van verschil maken in de levendigheid en helderheid van uw foto's. Een handig hulpmiddel in het Photoshop-arsenaal is de "Level Adjustment Layer", waarmee u het toonbereik en de kleurbalans van uw afbeeldingen kunt aanpassen. In deze handleiding laten we u zien hoe u een Level Adjustment Layer in een PSD-bestand implementeert met behulp van Aspose.PSD voor Java. Dus pak je Java IDE.
 ## Vereisten
@@ -88,3 +94,9 @@ Ja! Aspose biedt een gratis proefperiode aan om de bibliotheek te testen voordat
  Absoluut! U kunt vragen stellen en ondersteuning krijgen in de[Aspose-forum](https://forum.aspose.com/c/psd/34).
 ### Hoe kan ik een tijdelijke licentie krijgen voor Aspose.PSD?
  U kunt een tijdelijke vergunning aanvragen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

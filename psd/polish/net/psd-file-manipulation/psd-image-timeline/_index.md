@@ -3,10 +3,16 @@ title: Obsługa osi czasu obrazu PSD w Aspose.PSD dla .NET
 linktitle: Obsługa osi czasu obrazu PSD
 second_title: Aspose.PSD API .NET
 description: Naucz się bez wysiłku obsługiwać osie czasu obrazów PSD, korzystając z Aspose.PSD dla .NET. Dodawaj ramki, płynnie przełączaj i rozwijaj swoje umiejętności edycji obrazów.
-type: docs
 weight: 17
 url: /pl/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa osi czasu obrazu PSD w Aspose.PSD dla .NET
+
 ## Wstęp
 W dynamicznym świecie przetwarzania obrazów Aspose.PSD dla .NET wyróżnia się jako potężny zestaw narzędzi, zapewniający solidne rozwiązania do obsługi osi czasu obrazów PSD. Niezależnie od tego, czy jesteś doświadczonym programistą, czy entuzjastą kodowania, ten samouczek poprowadzi Cię przez proces wykorzystania Aspose.PSD do łatwego manipulowania osiami czasu obrazów.
 ## Warunki wstępne
@@ -80,3 +86,9 @@ O1: Nie, Aspose.PSD jest specjalnie zaprojektowany dla aplikacji .NET.
 ### P5: Potrzebujesz pomocy lub masz pytania?
 
  A5: Odwiedź forum społeczności Aspose.PSD[Tutaj](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

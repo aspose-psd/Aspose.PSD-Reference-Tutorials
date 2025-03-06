@@ -3,10 +3,16 @@ title: Memperluas dan Memotong Gambar di Aspose.PSD untuk .NET
 linktitle: Memperluas dan Memotong Gambar
 second_title: Asumsikan.PSD .NET API
 description: Pelajari cara memperluas dan memotong gambar secara dinamis menggunakan Aspose.PSD untuk .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi gambar yang lancar.
-type: docs
 weight: 13
 url: /id/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memperluas dan Memotong Gambar di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Aspose.PSD untuk .NET adalah perpustakaan pencitraan komprehensif yang memungkinkan pengembang bekerja dengan berbagai format gambar dalam aplikasi .NET mereka. Salah satu fitur menonjolnya adalah kemampuan memanipulasi gambar dengan mudah. Dalam tutorial ini, kami akan fokus pada memperluas dan memotong gambar, memberi Anda panduan praktis untuk mencapai tugas ini menggunakan Aspose.PSD.
@@ -98,3 +104,9 @@ A1: Ya, Aspose.PSD mendukung berbagai format gambar, termasuk JPEG, PNG, GIF, da
 ### Q5: Di mana saya dapat membeli Aspose.PSD untuk .NET?
 
  A5: Anda dapat membeli perpustakaan di[Halaman Pembelian Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

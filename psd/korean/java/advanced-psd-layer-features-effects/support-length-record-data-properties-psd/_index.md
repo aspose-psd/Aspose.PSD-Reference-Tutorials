@@ -3,10 +3,16 @@ title: PSD에서 길이 레코드 데이터 속성 지원 - Java
 linktitle: PSD에서 길이 레코드 데이터 속성 지원 - Java
 second_title: Aspose.PSD 자바 API
 description: Aspose.PSD를 사용하여 Java에서 길이 기록 데이터 속성으로 PSD 파일을 조작하는 방법을 알아보세요. 자세한 내용은 이 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD에서 길이 레코드 데이터 속성 지원 - Java
+
 ## 소개
 Photoshop 파일로 작업하고 프로그래밍 방식으로 레이어나 모양을 조작하고 싶었던 적이 있습니까? 그렇다면 Java 라이브러리용 Aspose.PSD의 아름다움을 우연히 발견하신 것입니다. 이 강력한 도구를 사용하면 개발자는 Java 코드를 통해 PSD 파일과 원활하게 상호 작용하고 수정할 수 있습니다. 오늘 기사에서는 이 라이브러리를 사용하여 PSD 파일에서 길이 기록 데이터 속성을 지원하는 방법을 살펴보겠습니다. 
 노련한 Java 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 여러분이 알아야 할 모든 것을 단계별로 안내합니다. 마지막에는 편안한 Java 환경을 벗어나지 않고도 PSD 파일을 열고, 벡터 모양 속성을 수정하고, 변경 사항을 저장할 수 있습니다. 소매 걷어붙이고 뛰어들자!
@@ -96,3 +102,9 @@ PSD 파일 내에서 레이어, 모양, 텍스트, 경로 작업 등을 조작�
 예, Aspose는 .NET 및 Python을 포함한 다양한 프로그래밍 언어에 대한 다양한 라이브러리를 제공합니다.
 ### Aspose.PSD에 대한 문서는 어디서 찾을 수 있나요?
  전체 문서에 액세스할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

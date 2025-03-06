@@ -3,10 +3,16 @@ title: Terapkan Rendering Drop Shadow di Aspose.PSD untuk Java
 linktitle: Terapkan Rendering Drop Shadow
 second_title: Asumsikan.PSD Java API
 description: Jelajahi panduan langkah demi langkah untuk menerapkan rendering drop shadow di Aspose.PSD untuk Java, sehingga meningkatkan keterampilan pemrosesan gambar Anda dengan mudah.
-type: docs
 weight: 16
 url: /id/java/advanced-image-manipulation/rendering-drop-shadow/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Rendering Drop Shadow di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Jika Anda mendalami pemrosesan gambar dengan Java, Aspose.PSD adalah alat bantu Anda untuk manipulasi file PSD dengan lancar dan efisien. Dalam tutorial ini, kita akan menjelajahi proses penerapan rendering drop shadow menggunakan Aspose.PSD untuk Java. Bersiaplah, saat kami menguraikan langkah-langkahnya untuk Anda.
@@ -125,3 +131,9 @@ A3: Aspose.PSD menyediakan kompatibilitas dengan berbagai versi file PSD, memast
 ### Q5: Dapatkah saya menguji Aspose.PSD sebelum melakukan pembelian?
 
  A5: Tentu saja, gunakan[uji coba gratis](https://releases.aspose.com/) untuk mengeksplorasi kemampuan sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

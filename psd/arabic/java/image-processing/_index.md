@@ -3,10 +3,16 @@ title: معالجة الصور
 linktitle: معالجة الصور
 second_title: Aspose.PSD جافا API
 description: أطلق العنان لإمكانات Aspose.PSD لـ Java في معالجة الصور. تعلم كيفية تطبيق مرشحات Gaussian وWiener وMedian وMotion Wiener خطوة بخطوة.
-type: docs
 weight: 20
 url: /ar/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الصور
+
 ## مقدمة
 
 تصبح معالجة الصور رحلة مثيرة مع Aspose.PSD for Java، وهي مجموعة أدوات تمكن المطورين من تحسين المحتوى المرئي. بدءًا من التقنيات الأساسية وحتى العمليات المتقدمة، تتعمق سلسلة البرامج التعليمية هذه في الميزات التي تجعل من Aspose.PSD حلاً مناسبًا لمعالجة صور Java.
@@ -57,3 +63,9 @@ url: /ar/java/image-processing/
 قم بتحسين جودة الصورة باستخدام Bradley Thresholding في Aspose.PSD لـ Java. اتبع دليلنا خطوة بخطوة لتحقيق الثنائية الفعالة للصور.
 ### [قم بقص ملف PSD باستخدام Aspose.PSD لـ Java](./crop-psd-file/)
 استكشف إمكانية قص ملفات PSD بسلاسة في Java باستخدام Aspose.PSD. يمكنك دمج الدقة والكفاءة بسهولة في مهام معالجة الصور الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

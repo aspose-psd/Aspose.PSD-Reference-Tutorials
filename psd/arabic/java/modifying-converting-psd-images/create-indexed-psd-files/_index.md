@@ -3,10 +3,16 @@ title: قم بإنشاء ملفات PSD مفهرسة باستخدام Aspose.PSD
 linktitle: قم بإنشاء ملفات PSD مفهرسة باستخدام Aspose.PSD لـ Java
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية إنشاء ملفات PSD مفهرسة باستخدام Aspose.PSD لـ Java في دليلنا خطوة بخطوة. انضم الآن لاستكشاف إمكانيات فنية لا نهاية لها.
-type: docs
 weight: 23
 url: /ar/java/modifying-converting-psd-images/create-indexed-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء ملفات PSD مفهرسة باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 إن إنشاء الرسومات برمجياً ليس مجرد فن؛ إنه مزيج من التكنولوجيا والخيال. إحدى الأدوات القوية في هذا المجال الإبداعي هي Aspose.PSD for Java، وهي مكتبة ذات قدرة هائلة تسمح للمطورين بمعالجة مستندات Photoshop. في هذا البرنامج التعليمي، سنتعمق في إنشاء ملفات PSD مفهرسة باستخدام Aspose.PSD، مع دليل خطوة بخطوة للبدء. سواء كنت مطورًا متمرسًا أو بدأت للتو رحلة البرمجة، فسيرشدك هذا الدليل خلال العملية بسلاسة.
 ## المتطلبات الأساسية
@@ -108,3 +114,9 @@ Aspose.PSD for Java هي مكتبة تتيح معالجة ملفات PSD (Photos
  يمكنك طلب ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.PSD؟
  يمكنك الحصول على الدعم من منتدى Aspose[هنا](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

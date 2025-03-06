@@ -3,10 +3,16 @@ title: Aspose.PSD for Java ile Basit Yeniden Boyutlandırma Gerçekleştirin
 linktitle: Basit Yeniden Boyutlandırma Gerçekleştirin
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java ile görüntüleri programlı olarak yeniden boyutlandırmayı öğrenin. Etkili görüntü işleme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/basic-image-operations/simple-resizing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java ile Basit Yeniden Boyutlandırma Gerçekleştirin
+
 ## giriiş
 
 Bugünkü dersimizde, etkili görüntü işlemeyi kolaylaştıran güçlü bir kütüphane olan Aspose.PSD for Java'yı kullanarak basit görüntü yeniden boyutlandırma sürecini derinlemesine inceleyeceğiz. Görüntüleri programlı olarak yeniden boyutlandırmanın kusursuz bir yolunu arayan bir Java geliştiricisiyseniz, doğru yerdesiniz.
@@ -101,3 +107,9 @@ C2: Evet, Aspose.PSD çeşitli görüntü formatlarını destekleyerek görünt�
 ### S5: Aspose.PSD for Java desteğini nasıl alabilirim?
 
  A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) yardım ve topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

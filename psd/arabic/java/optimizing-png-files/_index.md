@@ -3,10 +3,16 @@ title: تحسين ملفات PNG
 linktitle: تحسين ملفات PNG
 second_title: Aspose.PSD جافا API
 description: استكشف البرامج التعليمية الشاملة لتحسين ملفات PNG باستخدام Aspose.PSD لـ Java، والتي تغطي المرشحات وتغييرات لون الخلفية والضغط والدقة وعمق البت والشفافية.
-type: docs
 weight: 20
 url: /ar/java/optimizing-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحسين ملفات PNG
+
 ## مقدمة
 
 هل تتطلع إلى إتقان تحسين ملفات PNG باستخدام Aspose.PSD لـ Java؟ تغطي برامجنا التعليمية التفصيلية كل ما تحتاج إلى معرفته لجعل صورك تتألق. بدءًا من تطبيق المرشحات وحتى تغيير ألوان الخلفية، ومن ضغط الملفات إلى ضبط الدقة، يغطي هذا الدليل كل ما تحتاجه. دعنا نتعمق في كل موضوع خطوة بخطوة لضمان حصولك على أقصى استفادة من ملفات PNG الخاصة بك!
@@ -48,3 +54,9 @@ url: /ar/java/optimizing-png-files/
 تعرف على كيفية تحديد عمق بت PNG باستخدام Aspose.PSD لـ Java في هذا البرنامج التعليمي التفصيلي خطوة بخطوة.
 ### [قم بتعيين شفافية PNG في Aspose.PSD لـ Java](./set-png-transparency/)
 تعرف على كيفية تعيين شفافية PNG في Aspose.PSD لـ Java من خلال برنامج تعليمي سهل خطوة بخطوة. مثالي للمطورين ومصممي الجرافيك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

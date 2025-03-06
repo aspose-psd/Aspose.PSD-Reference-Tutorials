@@ -3,10 +3,16 @@ title: أضف دعم الطبقة لملفات PSD باستخدام Aspose.PSD J
 linktitle: أضف دعم الطبقة لملفات PSD باستخدام Aspose.PSD Java
 second_title: Aspose.PSD جافا API
 description: قم بإدارة ملفات PSD وتحويلها بسهولة باستخدام الطبقات إلى تنسيق PNG باستخدام Aspose.PSD لـ Java! مثالي للمطورين الذين يحتاجون إلى معالجة الرسومات.
-type: docs
 weight: 13
 url: /ar/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف دعم الطبقة لملفات PSD باستخدام Aspose.PSD Java
+
 ## مقدمة
 في عالم التصميم الجرافيكي والفن الرقمي، يعد العمل باستخدام ملفات PSD (مستندات Photoshop) هو القاعدة. تحتوي هذه الملفات غالبًا على طبقات متعددة يمكن معالجتها بشكل مستقل، مما يوفر المرونة والإبداع. ولكن ماذا يحدث عندما تحتاج إلى العمل مع هذه الملفات في تطبيق Java؟ حسنًا، هنا يأتي دور Aspose.PSD! في هذه المقالة، سنتعمق في كيفية إضافة دعم الطبقة لملفات PSD باستخدام Aspose.PSD لـ Java. سنقوم بتقسيم هذا إلى خطوات سهلة المتابعة، مما يجعلها في متناول أي شخص من المبتدئين إلى المحترفين.
 ## المتطلبات الأساسية
@@ -101,3 +107,9 @@ Aspose.PSD for Java هي مكتبة .NET تسمح لك بمعالجة ملفات
  يمكنك الوصول إلى الدعم في منتدى Aspose[هنا](https://forum.aspose.com/c/psd/34).
 ### هل يمكنني التحويل مرة أخرى من PNG إلى PSD؟
 تركز مكتبة Aspose.PSD بشكل أكبر على قراءة ملفات PSD ومعالجتها بدلاً من تحويل التنسيقات الأخرى مرة أخرى إلى PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidejte vrstvu pro úpravu úrovně v PSD
 linktitle: Přidejte vrstvu pro úpravu úrovně v PSD
 second_title: Aspose.PSD Java API
 description: Naučte se, jak efektivně přidat vrstvu úpravy úrovně do vašich souborů PSD pomocí Aspose.PSD for Java. Zvyšte své dovednosti v oblasti úpravy obrázků.
-type: docs
 weight: 16
 url: /cs/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vrstvu pro úpravu úrovně v PSD
+
 ## Zavedení
 Pokud jde o úpravy obrázků, správa úrovní může znamenat velký rozdíl v živosti a jasnosti vašich fotografií. Jedním z užitečných nástrojů v arzenálu Photoshopu je „Vrstva úprav úrovně“, která vám umožňuje vyladit tónový rozsah a vyvážení barev vašich obrázků. V této příručce vás provedeme tím, jak implementovat vrstvu úpravy úrovně v souboru PSD pomocí Aspose.PSD for Java. Vezměte si své Java IDE.
 ## Předpoklady
@@ -88,3 +94,9 @@ Ano! Aspose nabízí bezplatnou zkušební verzi k otestování knihovny před j
  Absolutně! Můžete klást otázky a získat podporu v[Aspose fórum](https://forum.aspose.com/c/psd/34).
 ### Jak mohu získat dočasnou licenci pro Aspose.PSD?
  Můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

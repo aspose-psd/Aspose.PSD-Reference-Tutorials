@@ -3,10 +3,16 @@ title: Putar Gambar di Aspose.PSD untuk Java
 linktitle: Memutar Gambar
 second_title: Asumsikan.PSD Java API
 description: Jelajahi rotasi gambar di Java dengan mudah menggunakan Aspose.PSD. Putar, balik, dan simpan file PSD dengan mudah.
-type: docs
 weight: 19
 url: /id/java/advanced-image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Putar Gambar di Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Aspose.PSD untuk Java menyediakan serangkaian fitur canggih untuk bekerja dengan gambar, memungkinkan pengembang memanipulasi dan memproses file PSD secara efisien. Dalam tutorial ini, kita akan fokus pada satu tugas spesifik: memutar gambar. Baik Anda sedang membuat aplikasi pengeditan foto atau hanya perlu menyesuaikan orientasi gambar, Aspose.PSD membuat prosesnya mudah.
@@ -84,3 +90,9 @@ A2: Tentu saja! Aspose.PSD memberikan fleksibilitas untuk menerapkan rotasi khus
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
  A5: Jika Anda memerlukan lisensi sementara, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

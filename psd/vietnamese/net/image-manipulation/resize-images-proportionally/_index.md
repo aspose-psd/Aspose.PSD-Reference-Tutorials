@@ -3,10 +3,16 @@ title: Thay đổi kích thước hình ảnh theo tỷ lệ trong Aspose.PSD ch
 linktitle: Thay đổi kích thước hình ảnh theo tỷ lệ
 second_title: API Aspose.PSD .NET
 description: Khám phá khả năng thay đổi kích thước hình ảnh liền mạch với Aspose.PSD cho .NET. Tải xuống thư viện, làm theo hướng dẫn của chúng tôi và nâng cao khả năng xử lý hình ảnh của bạn.
-type: docs
 weight: 14
 url: /vi/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kích thước hình ảnh theo tỷ lệ trong Aspose.PSD cho .NET
+
 Trong lĩnh vực xử lý hình ảnh, Aspose.PSD cho .NET nổi bật như một bộ công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng thay đổi kích thước hình ảnh theo tỷ lệ một cách dễ dàng. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thay đổi kích thước hình ảnh bằng Aspose.PSD cho .NET, đảm bảo rằng hình ảnh của bạn duy trì tỷ lệ hoàn hảo.
 
 ## Giới thiệu
@@ -100,3 +106,9 @@ Câu trả lời 3: Có, Aspose.PSD cho .NET cung cấp nhiều tính năng, bao
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.PSD cho .NET ở đâu?
 
  A5: Tham quan[Aspose.PSD cho diễn đàn .NET](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

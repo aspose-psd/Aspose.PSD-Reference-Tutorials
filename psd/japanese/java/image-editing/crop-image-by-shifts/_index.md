@@ -3,10 +3,16 @@ title: Aspose.PSD for Java でシフトを使用して画像をトリミング�
 linktitle: Shifts による画像の切り抜き
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して画像の切り抜きをマスターします。シームレスな画像操作のための包括的なチュートリアルです。
-type: docs
 weight: 16
 url: /ja/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java でシフトを使用して画像をトリミングする
+
 ## 導入
 
 Java ベースの画像処理の分野では、Aspose.PSD は、画像を極めて正確に操作および強化できる強力なツールとして際立っています。Aspose.PSD を際立たせる重要な機能の 1 つは、画像の切り抜きをシームレスに実行できることです。このチュートリアルでは、Aspose.PSD for Java を使用して画像を切り抜く技術について詳しく説明します。最後には、仕様に従って画像を簡単に切り抜くスキルを身に付けることができます。
@@ -115,3 +121,10 @@ A2: もちろん、同じ画像に対して複数のトリミング操作を連�
 ### Q5: Aspose.PSD の機能を紹介するサンプル プロジェクトはありますか?
 
  A5: ドキュメントと例については、[Aspose.PSD Java ドキュメント](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

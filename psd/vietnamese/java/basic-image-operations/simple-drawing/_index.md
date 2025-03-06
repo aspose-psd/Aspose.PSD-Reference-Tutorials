@@ -3,10 +3,16 @@ title: Thực hiện vẽ đơn giản với Aspose.PSD cho Java
 linktitle: Thực hiện vẽ đơn giản
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách vẽ hình trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước này bao gồm việc tạo, thêm lớp và vẽ bằng các ví dụ về mã.
-type: docs
 weight: 10
 url: /vi/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện vẽ đơn giản với Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thực hiện vẽ đơn giản bằng Aspose.PSD cho Java! Trong hướng dẫn này, chúng ta sẽ khám phá những điều cơ bản về tạo tài liệu PSD mới, thêm các lớp và vẽ các hình dạng với các màu sắc khác nhau. Aspose.PSD cho Java là một thư viện mạnh mẽ cho phép bạn thao tác với các tệp PSD theo chương trình, cung cấp chức năng mở rộng cho các tác vụ thiết kế đồ họa.
@@ -125,3 +131,9 @@ Câu trả lời 1: Có, Aspose.PSD cho Java cung cấp chức năng mở rộng
 ### Câu hỏi 5: Có giấy phép tạm thời cho Aspose.PSD dành cho Java không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

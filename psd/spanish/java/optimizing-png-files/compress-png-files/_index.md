@@ -3,10 +3,16 @@ title: Comprimir archivos PNG usando Aspose.PSD para Java
 linktitle: Comprimir archivos PNG usando Aspose.PSD para Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a comprimir archivos PNG de manera eficiente usando Aspose.PSD para Java. Este tutorial lo guía a través de la implementación del código, garantizando un manejo óptimo de los archivos.
-type: docs
 weight: 12
 url: /es/java/optimizing-png-files/compress-png-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprimir archivos PNG usando Aspose.PSD para Java
+
 ## Introducción
 
 Cuando se trata de manejar imágenes en el desarrollo de software, una herramienta que se destaca es Aspose.PSD para Java. Esta poderosa biblioteca permite a los desarrolladores manipular archivos de Photoshop (PSD) sin problemas. Ya sea que esté optimizando imágenes para un sitio web, mejorando los tiempos de carga o simplemente obteniendo la mejor calidad de sus gráficos, comprender cómo utilizar esta biblioteca de manera efectiva puede cambiar las reglas del juego. En este tutorial, profundizaremos en un ejemplo práctico: comprimir archivos PNG usando Aspose.PSD para Java. ¡Empecemos!
@@ -111,3 +117,9 @@ Vuelva a verificar las rutas de sus archivos, asegúrese de que estén incluidas
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.PSD para Java?  
  Puede encontrar documentación detallada y ejemplos en el[Referencia de Aspose.PSD](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

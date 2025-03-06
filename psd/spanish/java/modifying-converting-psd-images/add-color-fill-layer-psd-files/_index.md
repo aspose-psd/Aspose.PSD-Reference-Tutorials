@@ -3,10 +3,16 @@ title: Agregue una capa de relleno de color a archivos PSD usando Java
 linktitle: Agregue una capa de relleno de color a archivos PSD usando Java
 second_title: API de Java Aspose.PSD
 description: Aprenda cómo agregar fácilmente una capa de relleno de color a archivos PSD usando Java y Aspose.PSD. Siga nuestro tutorial paso a paso para diseños más rápidos.
-type: docs
 weight: 20
 url: /es/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue una capa de relleno de color a archivos PSD usando Java
+
 ## Introducción
 ¿Alguna vez has necesitado manipular archivos de Photoshop mediante programación, tal vez para agregar un toque de color a un diseño? Bueno, has aterrizado en el lugar correcto. En este artículo, profundizaremos en cómo agregar una capa de relleno de color a archivos PSD (Documentos de Photoshop) usando Java y la biblioteca Aspose.PSD. Piense en sus archivos PSD como un lienzo y, con sólo unas pocas líneas de código, podrá pintarlos de nuevo.
 ## Requisitos previos
@@ -87,3 +93,9 @@ Puede trabajar con archivos PSD y manipular sus capas, efectos y otras propiedad
  Puedes obtener soporte a través del[Foro de soporte de Aspose](https://forum.aspose.com/c/psd/34).
 ### ¿Dónde puedo comprar Aspose.PSD?  
  Puede adquirir una licencia a través del[Aspose página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

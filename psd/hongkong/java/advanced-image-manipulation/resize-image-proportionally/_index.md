@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 按比例調整影像大小
 linktitle: 按比例調整影像大小
 second_title: Aspose.PSD Java API
 description: 使用 Aspose.PSD 增強您的 Java 應用程式。按照我們的指南輕鬆按比例調整圖像大小。立即提高您的影像處理能力。
-type: docs
 weight: 17
 url: /zh-hant/java/advanced-image-manipulation/resize-image-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 按比例調整影像大小
+
 ## 介紹
 
 歡迎來到我們關於使用 Aspose.PSD for Java 按比例調整圖片大小的逐步指南。如果您希望透過高效的圖像調整功能來增強 Java 應用程序，那麼您來對地方了。在本教程中，我們將使用清晰簡潔的步驟來引導您完成整個過程。
@@ -92,3 +98,9 @@ image.save(destName, new PngOptions());
 
  A5：參考詳細文檔[這裡](https://reference.aspose.com/psd/java/).
 `
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

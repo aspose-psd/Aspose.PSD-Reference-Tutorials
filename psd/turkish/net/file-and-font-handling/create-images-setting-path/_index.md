@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Yol Ayarlayarak Görüntü Oluşturma
 linktitle: Yolu Ayarlayarak Görüntü Oluşturma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile görüntü oluşturmayı keşfedin. Adım adım kılavuzumuzu takip edin ve bu güçlü kütüphanenin potansiyelini ortaya çıkarın.
-type: docs
 weight: 11
 url: /tr/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Yol Ayarlayarak Görüntü Oluşturma
+
 .NET geliştirme alanında Aspose.PSD, görüntüleri düzenlemek ve oluşturmak için güçlü bir araç olarak öne çıkıyor. Bu eğitimde Aspose.PSD for .NET kullanarak bir yol belirleyerek görüntü oluşturma sürecini derinlemesine inceleyeceğiz. Bu çok yönlü kitaplığın potansiyelini ortaya çıkarmak için bu adım adım talimatları izleyin.
 
 ## giriiş
@@ -98,3 +104,9 @@ A2: Kesinlikle! Aspose.PSD, toplu görüntü işleme gerçekleştirmenize olanak
 ### S5: Nasıl destek alabilirim veya yardım isteyebilirim?
 
  A5: ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) toplulukla bağlantı kurmak ve uzmanlardan yardım istemek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

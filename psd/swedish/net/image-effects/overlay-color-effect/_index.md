@@ -3,10 +3,16 @@ title: Överlagring av färgeffekter på bilder i Aspose.PSD för .NET
 linktitle: Överlagring av färgeffekter på bilder
 second_title: Aspose.PSD .NET API
 description: Utforska magin med Aspose.PSD för .NET med vår handledning om överlagring av färgeffekter. Lyft ditt bildbehandlingsspel utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Överlagring av färgeffekter på bilder i Aspose.PSD för .NET
+
 ## Introduktion
 
 Aspose.PSD för .NET tillhandahåller en robust uppsättning funktioner för bildbehandling, vilket gör att utvecklare kan uppnå fantastiska effekter utan ansträngning. En sådan möjlighet är att lägga över färgeffekter på bilder. I den här handledningen kommer vi att fokusera på ColorOverlay-effekten och demonstrera hur man applicerar den på en bild, vilket förvandlar dess visuella dragningskraft.
@@ -98,3 +104,9 @@ S3: Ja, du kan utforska funktionerna hos Aspose.PSD för .NET genom att ladda ne
 ### F5: Kan jag få en tillfällig licens för Aspose.PSD för .NET?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) i utvärderingssyfte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

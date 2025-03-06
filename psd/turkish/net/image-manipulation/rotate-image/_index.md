@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Bir Görüntüyü Döndürme
 linktitle: Bir Görüntüyü Döndürme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD ile .NET'te görüntüleri zahmetsizce döndürmeyi öğrenin. Adım adım eğitimimizi takip edin.
-type: docs
 weight: 15
 url: /tr/net/image-manipulation/rotate-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Bir Görüntüyü Döndürme
+
 ## giriiş
 
 .NET kullanarak görüntü işleme dünyasına dalıyorsanız, Aspose.PSD kusursuz ve verimli görüntü işleme için başvuracağınız araçtır. Bu eğitimde temel bir göreve odaklanacağız: Aspose.PSD for .NET kullanarak bir görüntüyü döndürme. Süreci basit, uygulanabilir adımlara ayırırken takip edin.
@@ -80,3 +86,9 @@ Bu eğitimde Aspose.PSD for .NET kullanarak görüntüleri döndürmenin temelle
 ### S5: Aspose.PSD'yi ticari kullanım için satın alabilir miyim?
 
  Kesinlikle. Keşfedin[satın alma sayfası](https://purchase.aspose.com/buy) İhtiyaçlarınıza uygun bir lisans almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 이미지 그레이스케일
 linktitle: 이미지 그레이스케일
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 살펴보고 단계별 튜토리얼을 통해 회색조 이미지를 쉽게 만드는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 이미지 그레이스케일
+
 ## 소개
 
 이미지 처리 영역에서 이미지를 회색조로 변환하는 것은 기본적인 작업입니다. Aspose.PSD for Java는 Java 개발자가 이를 원활하게 달성할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 초보자도 쉽게 따라할 수 있도록 Aspose.PSD를 사용하여 이미지를 그레이 스케일링하는 과정을 안내합니다.
@@ -104,3 +110,9 @@ rasterCachedImage.save(destName, new JpegOptions());
 ### Q5: 지원이 필요하거나 질문이 있나요?
 
  A5: Aspose.PSD 포럼을 방문하세요.[여기](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

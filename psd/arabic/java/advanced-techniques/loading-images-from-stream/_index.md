@@ -3,10 +3,16 @@ title: تحميل الصور من الدفق باستخدام Aspose.PSD لـ Ja
 linktitle: تحميل الصور من الدفق
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية تحميل صور PSD بسلاسة في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة لمعالجة الصور بكفاءة.
-type: docs
 weight: 11
 url: /ar/java/advanced-techniques/loading-images-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل الصور من الدفق باستخدام Aspose.PSD لـ Java
+
 ## مقدمة
 
 Aspose.PSD for Java هي مكتبة غنية بالميزات تتيح للمطورين العمل بسلاسة مع ملفات PSD، وتنفيذ مهام معالجة الصور المختلفة. في هذا البرنامج التعليمي، سنركز على الخطوات الأساسية لتحميل الصور من التدفق باستخدام Aspose.PSD لـ Java.
@@ -105,3 +111,9 @@ psdImage.save(outputStream, new PngOptions());
 ### س5: أين يمكنني شراء Aspose.PSD لـ Java؟
 
  ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على Aspose.PSD لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

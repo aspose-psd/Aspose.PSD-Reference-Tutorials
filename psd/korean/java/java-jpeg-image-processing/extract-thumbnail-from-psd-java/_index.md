@@ -3,10 +3,16 @@ title: Java의 PSD에서 썸네일 추출
 linktitle: Java의 PSD에서 썸네일 추출
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에서 썸네일을 추출하는 방법을 알아보세요. 이 단계별 가이드에서는 설정부터 추출된 이미지 저장까지 모든 것을 다룹니다.
-type: docs
 weight: 15
 url: /ko/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 PSD에서 썸네일 추출
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에서 썸네일을 추출하는 방법을 살펴보겠습니다. 축소판은 빠른 미리 보기 또는 PSD 문서에 포함된 이미지의 작은 버전을 만드는 데 유용할 수 있습니다. Aspose.PSD를 사용하여 이를 달성하는 데 필요한 단계를 살펴보겠습니다.
 ## 전제조건
@@ -73,3 +79,9 @@ Aspose.PSD는 개발자가 프로그래밍 방식으로 PSD 및 기타 이미지
  임시 라이센스는 다음에서 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD는 상업용으로 적합합니까?
 예, Aspose.PSD는 라이선스 조건에 따라 개인 및 상업용 프로젝트 모두에 사용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

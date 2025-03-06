@@ -3,10 +3,16 @@ title: Exporter la couche de réglage du mélangeur de canaux dans PSD - Java
 linktitle: Exporter la couche de réglage du mélangeur de canaux dans PSD - Java
 second_title: API Java Aspose.PSD
 description: Découvrez comment exporter des calques de réglage du mélangeur de canaux dans PSD à l'aide d'Aspose.PSD pour Java. Guide étape par étape pour modifier les calques RVB et CMJN, enregistrer les modifications et exporter au format PNG.
-type: docs
 weight: 14
 url: /fr/java/psd-layer-management-effects/export-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter la couche de réglage du mélangeur de canaux dans PSD - Java
+
 ## Introduction
 
 Lorsqu'il s'agit d'édition d'images, en particulier avec les fichiers Adobe Photoshop (PSD), la gestion efficace des calques est essentielle. Parmi ces calques, le calque de réglage du mélangeur de canaux joue un rôle crucial dans le réglage de la balance des couleurs d'une image. Si vous êtes un développeur Java cherchant à manipuler ces couches par programmation, vous avez de la chance ! Dans cet article, nous vous guiderons tout au long du processus d'exportation des calques de réglage du mixeur de canaux à l'aide d'Aspose.PSD pour Java. À la fin de ce guide, vous serez bien équipé pour gérer les calques de réglage du mélangeur de canaux RVB et CMJN, enregistrer vos modifications et exporter votre image finale aux formats PSD et PNG.
@@ -168,3 +174,9 @@ Oui, vous pouvez parcourir un répertoire de fichiers PSD et appliquer les même
 
 ### Ai-je besoin d’une licence pour utiliser Aspose.PSD pour Java ?  
  Oui, Aspose.PSD pour Java est un produit sous licence. Vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour tester ou acheter une licence complète.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: معالجة الصور
 linktitle: معالجة الصور
 second_title: Aspose.PSD.NET API
 description: يمكنك تحسين جودة الصورة بسهولة باستخدام Aspose.PSD لبرامج .NET التعليمية. تعلم تقنيات مثل مرشحات Gaussian وWiener، وتحويل الألوان، والتحويل الثنائي، والمزيد.
-type: docs
 weight: 20
 url: /ar/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الصور
+
 
 ## مقدمة
 
@@ -46,3 +52,9 @@ url: /ar/net/image-processing/
 تعرف على كيفية تطبيق تأثيرات التدرج الرمادي على الصور بسهولة باستخدام Aspose.PSD لـ .NET.
 ### [تطبيق عتبة برادلي في Aspose.PSD لـ .NET](./apply-bradley-threshold/)
 تحسين تجزئة الصورة باستخدام Bradley Threshold في Aspose.PSD لـ .NET. دليل خطوة بخطوة لتحقيق الثنائية الفعالة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

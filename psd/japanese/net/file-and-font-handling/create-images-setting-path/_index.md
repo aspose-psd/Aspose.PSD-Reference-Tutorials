@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET でパスを設定して画像を作成する
 linktitle: パスを設定して画像を作成する
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD for .NET を使用した画像作成について学びましょう。ステップバイステップのガイドに従って、この強力なライブラリの可能性を解き放ちましょう。
-type: docs
 weight: 11
 url: /ja/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET でパスを設定して画像を作成する
+
 .NET 開発の分野では、Aspose.PSD は画像を操作および作成するための強力なツールとして際立っています。このチュートリアルでは、パスを設定して Aspose.PSD for .NET を使用して画像を作成するプロセスを詳しく説明します。この多目的ライブラリの可能性を最大限に引き出すには、以下の手順に従ってください。
 
 ## 導入
@@ -98,3 +104,9 @@ A2: もちろんです! Aspose.PSD を使用すると、バッチ画像処理を
 ### Q5: サポートを受けたり支援を求めたりするにはどうすればいいですか?
 
  A5: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティとつながり、専門家からの支援を求めることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

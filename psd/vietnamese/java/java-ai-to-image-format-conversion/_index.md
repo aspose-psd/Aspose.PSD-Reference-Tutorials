@@ -3,10 +3,16 @@ title: Chuyển đổi định dạng Java AI sang hình ảnh
 linktitle: Chuyển đổi định dạng Java AI sang hình ảnh
 second_title: API Java Aspose.PSD
 description: Dễ dàng chuyển đổi các tệp AI sang các định dạng khác nhau trong Java bằng Aspose.PSD. Hãy làm theo hướng dẫn toàn diện của chúng tôi để chuyển đổi hình ảnh chất lượng cao, liền mạch.
-type: docs
 weight: 21
 url: /vi/java/java-ai-to-image-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi định dạng Java AI sang hình ảnh
+
 
 ## Giới thiệu
 
@@ -45,3 +51,9 @@ Dễ dàng chuyển đổi AI sang PNG trong Java bằng Aspose.PSD với hướ
 Chuyển đổi AI sang PSD trong Java bằng Aspose.PSD với hướng dẫn từng bước dễ dàng của chúng tôi. Hoàn hảo cho các nhà phát triển cần chuyển đổi tập tin nhanh chóng và liền mạch.
 ### [Chuyển đổi AI sang TIFF trong Java](./convert-ai-to-tiff/)
 Chuyển đổi AI sang TIFF trong Java dễ dàng với Aspose.PSD. Hướng dẫn từng bước dành cho nhà phát triển. Bao gồm các đoạn tải xuống, thiết lập và mã.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

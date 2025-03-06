@@ -3,10 +3,16 @@ title: 使用Java修改PSD中的漸層疊加效果
 linktitle: 使用Java修改PSD中的漸層疊加效果
 second_title: Aspose.PSD Java API
 description: 了解如何使用 Aspose.PSD for Java 修改 PSD 檔案中的漸層疊加效果。按照我們的指南有效地自動化和自訂您的 PSD 檔案。
-type: docs
 weight: 12
 url: /zh-hant/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用Java修改PSD中的漸層疊加效果
+
 ## 介紹
 
 您準備好使用 Java 進入數位藝術世界了嗎？如果您正在使用 Photoshop 檔案 (PSD) 並希望以程式設計方式操作它們，那麼您將會很高興。今天，我們將探討如何使用 Aspose.PSD for Java 修改 PSD 檔案中的漸層疊加效果。無論您是希望自動化圖形設計任務的開發人員，還是只是對流程感到好奇的人，本教學都將逐步指導您。最後，您將掌握無需打開 Photoshop 即可為圖像添加專業風格的知識。
@@ -152,3 +158,9 @@ Aspose.PSD for Java 可讓您套用各種效果，例如陰影、內發光、外
 
 ### 如何恢復 PSD 檔案所做的變更？  
 如果您尚未儲存文件，只需重新載入原始 PSD 文件即可。如果您已儲存它，則需要從備份中復原或以程式設計方式撤銷更改
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

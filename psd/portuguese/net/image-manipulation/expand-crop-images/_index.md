@@ -3,10 +3,16 @@ title: Expandindo e cortando imagens em Aspose.PSD para .NET
 linktitle: Expandindo e cortando imagens
 second_title: API Aspose.PSD .NET
 description: Aprenda como expandir e cortar imagens dinamicamente usando Aspose.PSD para .NET. Siga nosso guia passo a passo para uma manipulação perfeita de imagens.
-type: docs
 weight: 13
 url: /pt/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Expandindo e cortando imagens em Aspose.PSD para .NET
+
 ## Introdução
 
 Aspose.PSD for .NET é uma biblioteca de imagens abrangente que permite aos desenvolvedores trabalhar com vários formatos de imagem em seus aplicativos .NET. Um de seus recursos de destaque é a capacidade de manipular imagens com facilidade. Neste tutorial, vamos nos concentrar na expansão e corte de imagens, fornecendo um guia prático para realizar essas tarefas usando Aspose.PSD.
@@ -98,3 +104,9 @@ A1: Sim, Aspose.PSD oferece suporte a uma ampla variedade de formatos de imagem,
 ### Q5: Onde posso comprar Aspose.PSD para .NET?
 
  A5: Você pode comprar a biblioteca no[Página de compra do Aspose.PSD](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

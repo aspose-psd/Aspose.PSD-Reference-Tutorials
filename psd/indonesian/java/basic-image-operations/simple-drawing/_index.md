@@ -3,10 +3,16 @@ title: Lakukan Menggambar Sederhana dengan Aspose.PSD untuk Java
 linktitle: Lakukan Menggambar Sederhana
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menggambar bentuk dalam file PSD menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah ini mencakup pembuatan, penambahan lapisan, dan menggambar dengan contoh kode.
-type: docs
 weight: 10
 url: /id/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lakukan Menggambar Sederhana dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah dalam melakukan gambar sederhana menggunakan Aspose.PSD untuk Java! Dalam tutorial ini, kita akan mempelajari dasar-dasar membuat dokumen PSD baru, menambahkan lapisan, dan menggambar bentuk dengan warna berbeda. Aspose.PSD untuk Java adalah perpustakaan canggih yang memungkinkan Anda memanipulasi file PSD secara terprogram, menyediakan fungsionalitas ekstensif untuk tugas desain grafis.
@@ -125,3 +131,9 @@ A1: Ya, Aspose.PSD untuk Java menyediakan fungsionalitas ekstensif untuk mengedi
 ### Q5: Apakah lisensi sementara tersedia untuk Aspose.PSD untuk Java?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

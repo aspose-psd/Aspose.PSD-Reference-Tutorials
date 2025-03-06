@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD에서 PNG 배경색 변경
 linktitle: Java용 Aspose.PSD에서 PNG 배경색 변경
 second_title: Aspose.PSD 자바 API
 description: 이 단계별 가이드를 통해 Java용 Aspose.PSD에서 PNG 배경색을 변경하는 방법을 알아보세요. 쉬운 지침과 실제 예제가 포함되어 있습니다.
-type: docs
 weight: 11
 url: /ko/java/optimizing-png-files/change-png-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD에서 PNG 배경색 변경
+
 ## 소개
 웹 개발이 계속 발전함에 따라 유연한 이미지 편집에 대한 필요성이 더욱 뚜렷해졌습니다. 이미지 처리에서 배경색을 변경하면 디자인의 전체적인 모양과 일관성이 바뀔 수 있습니다. 모든 PSD 파일 조작 요구 사항을 충족하는 강력한 라이브러리인 Aspose.PSD for Java를 입력하세요. 이 튜토리얼에서는 Aspose.PSD를 사용하여 PNG 배경색을 변경하는 방법을 자세히 살펴보겠습니다. 결국, 기본적인 이미지 조작에 능숙해질 뿐만 아니라 더 복잡한 작업을 처리할 준비도 갖추게 됩니다. 시작해 봅시다!
 ## 전제조건
@@ -94,3 +100,9 @@ pngImage.save(dataDir + "ChangeBackground_out.png");
 Aspose.PSD는 PNG, JPEG, BMP, TIFF 등을 포함한 다양한 형식을 지원합니다.
 ### 문제가 발생할 경우 어떻게 지원을 받을 수 있나요?  
  다음 연락처로 문의하실 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34) 도움을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

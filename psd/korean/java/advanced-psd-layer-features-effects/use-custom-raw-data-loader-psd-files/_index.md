@@ -3,10 +3,16 @@ title: PSD 파일에서 사용자 정의 원시 데이터 로더 사용 - Java
 linktitle: PSD 파일에서 사용자 정의 원시 데이터 로더 사용 - Java
 second_title: Aspose.PSD 자바 API
 description: Java를 사용하여 PSD 파일에서 사용자 정의 원시 데이터 로더를 사용하는 방법을 알아보세요! 이 단계별 가이드에서는 설정부터 리소스 정리까지 모든 것을 다룹니다.
-type: docs
 weight: 29
 url: /ko/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 파일에서 사용자 정의 원시 데이터 로더 사용 - Java
+
 ## 소개
 Java에서 PSD 파일 작업은 특히 원시 데이터 처리와 관련하여 부담스러워 보일 수 있습니다. 두려워하지 마세요! Java용 Aspose.PSD를 사용하면 사용자 정의 로더를 사용하여 PSD 파일에서 원시 픽셀 데이터를 쉽게 조작하고 추출할 수 있습니다. 이 가이드는 사용자 정의 원시 데이터 로더를 구현하는 과정을 단계별로 안내합니다. 필요한 모든 전제 조건을 다루고, 필요한 패키지를 가져오고, 코드를 쉽게 따라할 수 있는 관리 가능한 단계로 분류합니다.
 ## 전제조건
@@ -90,3 +96,9 @@ Aspose.PSD for Java는 개발자가 PSD 레이어 읽기, 쓰기 및 편집을 �
  지원 및 지역사회 지원을 받으려면 다음을 방문하세요.[포럼을 Aspose](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD에 대한 임시 라이선스를 어떻게 얻을 수 있나요?  
 다음 사이트를 방문하여 모든 기능을 평가할 수 있는 임시 라이센스를 취득할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

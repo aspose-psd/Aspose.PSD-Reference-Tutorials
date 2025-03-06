@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中的影像上疊加色彩效果
 linktitle: 在影像上疊加色彩效果
 second_title: Aspose.PSD .NET API
 description: 透過我們的疊加色彩效果教學探索 Aspose.PSD for .NET 的魔力。輕鬆提升您的影像處理能力。
-type: docs
 weight: 11
 url: /zh-hant/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中的影像上疊加色彩效果
+
 ## 介紹
 
 Aspose.PSD for .NET 提供了一組強大的影像處理功能，使開發人員能夠輕鬆實現令人驚嘆的效果。其中一項功能是在影像上疊加色彩效果。在本教程中，我們將重點介紹 ColorOverlay 效果，並示範如何將其應用於影像，從而改變其視覺吸引力。
@@ -98,3 +104,9 @@ A4：對於任何與支援相關的疑問，請訪問[Aspose.PSD 論壇](https:/
 ### Q5：我可以取得 Aspose.PSD for .NET 的臨時授權嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)出於評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: A PSD-fájlok rétegeinek egyesítése az Aspose.PSD Java használatával
 linktitle: A PSD-fájlok rétegeinek egyesítése az Aspose.PSD Java használatával
 second_title: Aspose.PSD Java API
 description: Az Aspose.PSD for Java segítségével könnyedén simítsa és egyesítse a PSD-fájlok rétegeit. Kövesse ezt a lépésről lépésre szóló útmutatót a PSD-fájlkezelés egyszerűsítéséhez.
-type: docs
 weight: 13
 url: /hu/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A PSD-fájlok rétegeinek egyesítése az Aspose.PSD Java használatával
+
 ## Bevezetés
 
 Előfordult már, hogy Photoshop-fájlokkal dolgozott, és egy egyszerűbb módot kívánt ezeknek az összetett rétegeknek a kezelésére? Nos, szerencséd van! Ma az Aspose.PSD for Java világában merülünk el. Ez egy olyan hatékony eszköz, amely megkönnyíti a PSD-fájlok programozott használatát. Az egyik hasznos funkció, amelyet megvizsgálunk, a rétegek simítása. Akár egy teljes képet szeretne kisimítani, akár egyes rétegeket szeretne szelektíven egyesíteni, az Aspose.PSD for Java mindent megtalál. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy készen álljon a PSD-fájlok magabiztos kezelésére.
@@ -150,3 +156,9 @@ Igen, az Aspose.PSD használatával egyesíthet rétegeket különböző keveré
 
 ### Mi történik, ha nem szomszédos rétegeket próbálok egyesíteni?  
 Az Aspose.PSD lehetővé teszi bármely réteg egyesítését, függetlenül azok sorrendjétől a rétegveremben. Az egyesítési folyamat a kiválasztott rétegeket a megadott módon egyesíti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

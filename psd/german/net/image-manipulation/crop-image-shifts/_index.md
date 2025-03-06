@@ -3,10 +3,16 @@ title: Zuschneiden von Bildern durch Verschiebungen in Aspose.PSD für .NET
 linktitle: Zuschneiden von Bildern durch Verschiebungen
 second_title: Aspose.PSD .NET API
 description: Lernen Sie, Bilder mühelos mit Aspose.PSD für .NET zuzuschneiden. Folgen Sie unserer Schritt-für-Schritt-Anleitung für präzise Bildanpassungen.
-type: docs
 weight: 12
 url: /de/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zuschneiden von Bildern durch Verschiebungen in Aspose.PSD für .NET
+
 ## Einführung
 
 Im Bereich der .NET-Entwicklung sticht Aspose.PSD als leistungsstarkes Toolkit für Bildverarbeitungsaufgaben hervor. Eine seiner bemerkenswerten Funktionen ist die Möglichkeit, Bilder dank der Funktion „Zuschneiden durch Verschiebungen“ präzise zuzuschneiden. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des nahtlosen Zuschneidens von Bildern mit Aspose.PSD für .NET.
@@ -105,3 +111,10 @@ A1: Ja, Aspose.PSD unterstützt verschiedene Bildformate, sodass Sie Bilder in F
 ### F5: Kann ich Aspose.PSD für .NET direkt von der Website kaufen?
 
  A5: Ja, Sie können die Bibliothek sicher erwerben bei[Kaufseite](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

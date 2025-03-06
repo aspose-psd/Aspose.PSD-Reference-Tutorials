@@ -3,10 +3,16 @@ title: 使用 Aspose.PSD for Java 模糊图像
 linktitle: 模糊图像
 second_title: Aspose.PSD Java API
 description: 学习使用 Aspose.PSD 在 Java 中模糊图像。按照我们的分步指南获得专业效果。
-type: docs
 weight: 24
 url: /zh/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.PSD for Java 模糊图像
+
 ## 介绍
 
 在 Java 开发领域，增强和处理图像是一项常见要求。如果您希望以编程方式为图像添加模糊效果，Aspose.PSD for Java 是一款功能强大的工具，可简化此过程。本教程将指导您完成使用 Aspose.PSD 模糊图像的步骤，确保您轻松获得专业效果。
@@ -96,3 +102,9 @@ A1：当然！Aspose.PSD 附带了全面的文档，可以指导各个技能水�
 ### Q5：如何获取 Aspose.PSD 的临时许可证？
 
  A5：您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

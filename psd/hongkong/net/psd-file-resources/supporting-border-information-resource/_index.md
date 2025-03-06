@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中支援邊界資訊資源
 linktitle: 支持邊境資訊資源
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 的邊界資訊資源功能以增強成像。按照我們的教程進行無縫整合。立即下載！
-type: docs
 weight: 11
 url: /zh-hant/net/psd-file-resources/supporting-border-information-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中支援邊界資訊資源
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.PSD for .NET 中的邊界資訊資源功能的逐步指南。在本教程中，我們將引導您完成使用 Aspose.PSD（一個強大的 .NET 圖像庫）處理邊界資訊資源的過程。無論您是經驗豐富的開發人員還是剛起步的開發人員，本教學課程旨在清晰地將邊境資訊資源無縫地整合到您的專案中。
 ## 先決條件
@@ -89,3 +95,9 @@ A1：是的，Aspose.PSD for .NET 與各種.NET 框架相容。
 ### Q5：有臨時許可證嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

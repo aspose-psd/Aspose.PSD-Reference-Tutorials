@@ -3,10 +3,16 @@ title: صور ذات تدرج رمادي باستخدام Aspose.PSD لـ .NET
 linktitle: صور ذات تدرج رمادي باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية تطبيق تأثيرات التدرج الرمادي على الصور بسهولة باستخدام Aspose.PSD لـ .NET.
-type: docs
 weight: 14
 url: /ar/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# صور ذات تدرج رمادي باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي الشامل حول الصور ذات التدرج الرمادي باستخدام Aspose.PSD لـ .NET! يعد تدرج الرمادي تقنية قوية يمكنها تحسين المظهر المرئي لصورك عن طريق تحويلها إلى ظلال رمادية. في هذا الدليل، سنرشدك خلال عملية تحقيق تأثيرات التدرج الرمادي المذهلة دون عناء.
@@ -108,3 +114,9 @@ A1: نعم، يدعم Aspose.PSD تنسيقات الصور المختلفة، ب
 ### س5: كيف يمكنني شراء ترخيص Aspose.PSD لـ .NET؟
 
  ج5: يمكنك شراء ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

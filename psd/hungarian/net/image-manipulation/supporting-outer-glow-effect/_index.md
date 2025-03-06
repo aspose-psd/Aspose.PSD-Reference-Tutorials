@@ -3,10 +3,16 @@ title: A külső ragyogás hatásának támogatása az Aspose.PSD-ben .NET-hez
 linktitle: Támogatja a külső fényhatást
 second_title: Aspose.PSD .NET API
 description: Fedezze fel az Outer Glow Effect erejét az Aspose.PSD for .NET-ben. Emelje fel arculatát ezzel a lépésről lépésre bemutató oktatóanyaggal.
-type: docs
 weight: 16
 url: /hu/net/image-manipulation/supporting-outer-glow-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A külső ragyogás hatásának támogatása az Aspose.PSD-ben .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük lépésenkénti útmutatónkban az Aspose.PSD for .NET Outer Glow Effect támogatásáról. Az Aspose.PSD egy hatékony könyvtár, amely lehetővé teszi a PSD-fájlok zökkenőmentes kezelését .NET-alkalmazásokban. Ebben az oktatóanyagban megvizsgáljuk az Outer Glow Effect megvalósítását, és részletes áttekintést adunk a projektekbe való integrálásához.
@@ -114,3 +120,9 @@ Gratulálok! Sikeresen implementálta az Outer Glow Effect-et az Aspose.PSD for 
 ### 5. kérdés: Megvásárolhatom az Aspose.PSD-t .NET-hez?
 
  5. válasz: Igen, fedezze fel a licencelési lehetőségeket, és vásároljon[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

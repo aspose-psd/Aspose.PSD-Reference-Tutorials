@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中扩展和裁剪图像
 linktitle: 扩展和剪裁图像
 second_title: Aspose.PSD .NET API
 description: 了解如何使用 Aspose.PSD for .NET 动态扩展和裁剪图像。按照我们的分步指南进行无缝图像处理。
-type: docs
 weight: 13
 url: /zh/net/image-manipulation/expand-crop-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中扩展和裁剪图像
+
 ## 介绍
 
 Aspose.PSD for .NET 是一个全面的图像库，允许开发人员在其 .NET 应用程序中使用各种图像格式。它的一个突出特点是能够轻松处理图像。在本教程中，我们将重点介绍扩展和裁剪图像，为您提供使用 Aspose.PSD 完成这些任务的实践指南。
@@ -98,3 +104,9 @@ A4：你可以从[Aspose.PSD 临时许可证](https://purchase.aspose.com/tempor
 ### Q5: 我可以在哪里购买 Aspose.PSD for .NET？
 
 A5：您可以在[Aspose.PSD购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

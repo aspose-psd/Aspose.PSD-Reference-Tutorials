@@ -3,10 +3,16 @@ title: Zpracování časové osy obrázků PSD v Aspose.PSD pro .NET
 linktitle: Zpracování časové osy obrázku PSD
 second_title: Aspose.PSD .NET API
 description: Naučte se bez námahy zacházet s časovými osami obrázků PSD pomocí Aspose.PSD pro .NET. Přidejte rámečky, plynule přepínejte a vylepšete své dovednosti v úpravě obrázků.
-type: docs
 weight: 17
 url: /cs/net/psd-file-manipulation/psd-image-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zpracování časové osy obrázků PSD v Aspose.PSD pro .NET
+
 ## Zavedení
 V dynamickém světě zpracování obrazu vyniká Aspose.PSD for .NET jako výkonná sada nástrojů, která poskytuje robustní řešení pro práci s časovými osami obrázků PSD. Ať už jste zkušený vývojář nebo nadšenec do kódování, tento tutoriál vás provede procesem využití Aspose.PSD k snadné manipulaci s časovými osami obrázků.
 ## Předpoklady
@@ -80,3 +86,9 @@ Odpověď 1: Ne, Aspose.PSD je speciálně navržen pro aplikace .NET.
 ### Q5: Potřebujete pomoc nebo máte otázky?
 
  A5: Navštivte fórum komunity Aspose.PSD[zde](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

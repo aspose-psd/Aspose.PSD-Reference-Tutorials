@@ -3,10 +3,16 @@ title: تطبيق مرشحات Median وWiener في الصور الملونة ب
 linktitle: تطبيق مرشحات Median وWiener في الصور الملونة باستخدام Aspose.PSD لـ .NET
 second_title: Aspose.PSD.NET API
 description: قم بتحسين الصور الملونة وتقليل التشويش باستخدام Aspose.PSD لـ .NET باستخدام مرشحات Median وWiener. دليل خطوة بخطوة لمعالجة الصور بسلاسة.
-type: docs
 weight: 11
 url: /ar/net/image-processing/apply-median-wiener-filters-color-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق مرشحات Median وWiener في الصور الملونة باستخدام Aspose.PSD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي حول تطبيق مرشحات Median وWiener في الصور الملونة باستخدام Aspose.PSD لـ .NET. Aspose.PSD هي مكتبة قوية تمكن مطوري .NET من العمل مع ملفات PSD بسلاسة. في هذا البرنامج التعليمي، سوف نستكشف عملية تطبيق مرشحات Median وWiener لتحسين الصور الملونة وتقليل التشويش عليها.
@@ -95,3 +101,9 @@ image.Save(destName, new GifOptions());
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

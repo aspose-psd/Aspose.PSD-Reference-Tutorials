@@ -3,10 +3,16 @@ title: Unterstützen Sie Infx-Ressourcen in PSD-Dateien mit Java
 linktitle: Unterstützen Sie Infx-Ressourcen in PSD-Dateien mit Java
 second_title: Aspose.PSD Java API
 description: Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie Infx-Ressourcen in PSD-Dateien mit Aspose.PSD für Java bearbeiten. Perfekt für Entwickler aller Erfahrungsstufen.
-type: docs
 weight: 13
 url: /de/java/working-with-psd-files/support-infx-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unterstützen Sie Infx-Ressourcen in PSD-Dateien mit Java
+
 ## Einführung
 
 Das Arbeiten mit PSD-Dateien (Photoshop Document) in Java kann entmutigend erscheinen, muss es aber nicht sein. Stellen Sie sich vor, Sie haben eine mehrschichtige PSD-Datei, die verschiedene Ressourcen enthält, und Sie müssen bestimmte davon – wie die InfxResource – ändern und gleichzeitig sicherstellen, dass die Integrität der Datei erhalten bleibt. Hier kommt Aspose.PSD für Java ins Spiel und bietet eine intuitive API zur nahtlosen Verwaltung von PSD-Dateien. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.PSD für Java eine InfxResource in einer PSD-Datei finden, bearbeiten und speichern. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, diese Anleitung macht den Umgang mit PSD-Ressourcen so einfach wie möglich.
@@ -155,3 +161,9 @@ Sobald Änderungen gespeichert sind, sind sie dauerhaft, sofern Sie keine Sicher
 ### Kann ich die Änderung mehrerer PSD-Dateien mit Aspose.PSD für Java automatisieren?
 
 Ja, Sie können Skripte erstellen, um mehrere PSD-Dateien im Stapel zu verarbeiten und dabei auf jede Datei dieselben Änderungen anzuwenden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

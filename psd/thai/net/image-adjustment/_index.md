@@ -3,10 +3,16 @@ title: การปรับภาพ
 linktitle: การปรับภาพ
 second_title: Aspose.PSD .NET API
 description: ปลดล็อกศักยภาพของการปรับแต่งภาพด้วย Aspose.PSD สำหรับ .NET สำรวจบทช่วยสอนเกี่ยวกับความสว่าง คอนทราสต์ และความสมดุลของสีเพื่อปรับแต่งภาพให้เชี่ยวชาญ
-type: docs
 weight: 24
 url: /th/net/image-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การปรับภาพ
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับทักษะการจัดการภาพของคุณแล้วหรือยัง? ดำดิ่งสู่โลกของ Aspose.PSD สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับการปรับแต่งภาพ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คำแนะนำทีละขั้นตอนของเราจะช่วยให้คุณปรับปรุงรูปภาพได้อย่างง่ายดาย
@@ -42,3 +48,9 @@ url: /th/net/image-adjustment/
 เรียนรู้วิธีเบลอภาพอย่างง่ายดายด้วย Aspose.PSD สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการปรับแต่งภาพที่ราบรื่นในโปรเจ็กต์ C# ของคุณ
 ### [การใช้การปรับสมดุลสีใน Aspose.PSD สำหรับ .NET](./color-balance-adjustment/)
 ปรับปรุงสีของภาพ PSD ได้อย่างง่ายดายด้วย Aspose.PSD สำหรับคุณสมบัติการปรับสมดุลสีของ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่น่าทึ่ง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

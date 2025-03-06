@@ -3,10 +3,16 @@ title: Obrázek ve stupních šedi pomocí Aspose.PSD pro Javu
 linktitle: Obrázek ve stupních šedi
 second_title: Aspose.PSD Java API
 description: Prozkoumejte Aspose.PSD for Java a naučte se, jak bez námahy vytvářet obrázky ve stupních šedi pomocí našeho podrobného návodu.
-type: docs
 weight: 10
 url: /cs/java/advanced-techniques/grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obrázek ve stupních šedi pomocí Aspose.PSD pro Javu
+
 ## Zavedení
 
 V oblasti zpracování obrazu je převod obrazu na stupně šedi základní operací. Aspose.PSD for Java poskytuje výkonné řešení pro vývojáře Java, jak toho dosáhnout bez problémů. V tomto tutoriálu vás provedeme procesem škálování šedi na obrázku pomocí Aspose.PSD a zajistíme, že i začátečníci budou moci bez námahy následovat.
@@ -104,3 +110,9 @@ Gratuluji! Úspěšně jste upravili obrázek ve stupních šedi pomocí Aspose.
 ### Q5: Potřebujete podporu nebo máte otázky?
 
  A5: Navštivte fórum Aspose.PSD[zde](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

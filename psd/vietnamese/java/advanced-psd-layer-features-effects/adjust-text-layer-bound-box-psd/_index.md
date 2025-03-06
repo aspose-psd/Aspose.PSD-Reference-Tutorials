@@ -3,10 +3,16 @@ title: Điều chỉnh Hộp giới hạn lớp văn bản trong PSD bằng Java
 linktitle: Điều chỉnh Hộp giới hạn lớp văn bản trong PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách điều chỉnh ranh giới lớp văn bản trong tệp PSD bằng Java với Aspose.PSD. Hướng dẫn đơn giản với hướng dẫn từng bước.
-type: docs
 weight: 25
 url: /vi/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điều chỉnh Hộp giới hạn lớp văn bản trong PSD bằng Java
+
 ## Giới thiệu
 Khi nói đến việc thao tác các tài liệu Photoshop theo chương trình, thư viện Aspose.PSD dành cho Java sẽ tỏa sáng. Nếu bạn đang tìm cách điều chỉnh ranh giới của lớp văn bản trong tệp PSD thì bạn đã đến đúng nơi! Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình điều chỉnh hộp giới hạn của lớp văn bản bằng cách sử dụng Java.
 Với các ví dụ dễ làm theo và một chút giọng điệu trò chuyện để giữ cho mọi thứ trở nên hấp dẫn, bạn sẽ thấy rằng việc thao tác với các tệp PSD không hề khó khăn như bạn tưởng. Cho dù bạn là nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu với Java, bạn sẽ tìm thấy những hiểu biết sâu sắc có giá trị tại đây. Hãy cùng đi sâu vào thế giới thao tác PSD thú vị.
@@ -80,3 +86,9 @@ Có, Aspose.PSD có sẵn cho nhiều nền tảng lập trình khác nhau, bao 
 Bạn có thể tìm thấy sự hỗ trợ và thảo luận cộng đồng trên[Diễn đàn Aspose](https://forum.aspose.com/c/psd/34).
 ### Có phiên bản dùng thử cho Aspose.PSD không?
  Đúng! Bạn có thể tải xuống phiên bản dùng thử miễn phí từ[trang web giả định](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

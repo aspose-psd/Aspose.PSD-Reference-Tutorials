@@ -3,10 +3,16 @@ title: Simpan Gambar ke Disk dengan Aspose.PSD untuk Java
 linktitle: Simpan Gambar ke Disk
 second_title: Asumsikan.PSD Java API
 description: Simpan gambar ke disk dengan mudah menggunakan Aspose.PSD untuk Java. Pustaka Java yang kuat untuk manipulasi file PSD.
-type: docs
 weight: 15
 url: /id/java/advanced-techniques/save-images-to-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Gambar ke Disk dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Aspose.PSD untuk Java memberdayakan pengembang untuk menangani file PSD dengan mudah. Menyimpan gambar ke disk adalah aspek mendasar dari pemrosesan gambar, dan Aspose.PSD menyederhanakan operasi ini. Dalam panduan ini, kami akan mempelajari proses menyimpan gambar dengan Aspose.PSD, memastikan Anda memiliki pemahaman yang kuat tentang langkah-langkah yang diperlukan.
@@ -91,3 +97,9 @@ A1: Ya, Aspose.PSD untuk Java mendukung berbagai format gambar, termasuk JPEG, B
 ### Q5: Apakah lisensi sementara tersedia untuk Aspose.PSD untuk Java?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

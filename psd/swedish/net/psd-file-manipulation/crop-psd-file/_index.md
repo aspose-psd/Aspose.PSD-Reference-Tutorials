@@ -3,10 +3,16 @@ title: Beskär PSD-filer med Aspose.PSD för .NET
 linktitle: Beskär PSD-filer med Aspose.PSD för .NET
 second_title: Aspose.PSD .NET API
 description: Utforska konsten att beskära PSD-filer i .NET med Aspose.PSD, en mångsidig verktygslåda. Höj ditt bildmanipuleringsspel utan ansträngning.
-type: docs
 weight: 19
 url: /sv/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beskär PSD-filer med Aspose.PSD för .NET
+
 ## Introduktion
 Inom .NET-utvecklingens område framstår Aspose.PSD som en kraftfull verktygslåda för att hantera PSD-filer (Photoshop Document) sömlöst. När det gäller att manipulera bilder är beskärning en grundläggande operation, och Aspose.PSD förenklar denna process för .NET-utvecklare. I den här handledningen kommer vi att utforska hur man beskär PSD-filer med Aspose.PSD för .NET, vilket ger dig en steg-för-steg-guide.
 ## Förutsättningar
@@ -72,3 +78,9 @@ S1: Ja, Aspose.PSD uppdateras regelbundet för att säkerställa kompatibilitet 
 ### F5: Behöver jag en tillfällig licens för teständamål?
 
  A5: Ja, om du behöver en tillfällig licens kan du få en[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

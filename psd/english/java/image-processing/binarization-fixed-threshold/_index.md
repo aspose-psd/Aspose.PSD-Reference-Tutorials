@@ -3,10 +3,16 @@ title: Binarization with Fixed Threshold in Aspose.PSD for Java
 linktitle: Binarization with Fixed Threshold
 second_title: Aspose.PSD Java API
 description: Explore Binarization with Fixed Threshold in Aspose.PSD for Java. Transform images seamlessly with our step-by-step guide.
-type: docs
 weight: 14
 url: /java/image-processing/binarization-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Binarization with Fixed Threshold in Aspose.PSD for Java
+
 ## Introduction
 
 In the realm of Java development, Aspose.PSD proves to be a powerful tool for image processing tasks. One such essential operation is Binarization, a technique that simplifies images by converting them into binary form. This tutorial will guide you through the process of achieving Binarization with a Fixed Threshold using Aspose.PSD for Java. Buckle up as we explore the steps involved in this transformative image processing journey.
@@ -101,3 +107,10 @@ A4: You can purchase the Aspose.PSD library [here](https://purchase.aspose.com/b
 ### Q5: Is there a free trial version available?
 
 A5: Yes, you can explore the capabilities of Aspose.PSD with a free trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

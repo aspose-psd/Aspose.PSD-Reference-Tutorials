@@ -3,10 +3,16 @@ title: Unterstützt den 16-Bit-Graustufenfarbmodus in PSD – Java
 linktitle: Unterstützt den 16-Bit-Graustufenfarbmodus in PSD – Java
 second_title: Aspose.PSD Java API
 description: Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PSD für Java den 16-Bit-Graustufen-Farbmodus in PSD-Dateien implementieren.
-type: docs
 weight: 11
 url: /de/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unterstützt den 16-Bit-Graustufenfarbmodus in PSD – Java
+
 ## Einführung
 Wenn Sie in die Welt des Grafikdesigns und der Bildbearbeitung eintauchen, ist das Wissen, wie man mit verschiedenen Farbmodi arbeitet, wie eine Geheimwaffe. Insbesondere 16-Bit-Graustufen können bahnbrechend sein und Ihren Bildern die atemberaubende Tiefe und Detailtreue verleihen, die sie wirklich hervorstechen lassen. Sind Sie also bereit, diese leistungsstarke Funktion mit Aspose.PSD für Java zu erkunden? Wenn Sie Ihre Programmierausrüstung bereit haben, können wir gleich loslegen.
 ## Voraussetzungen
@@ -126,3 +132,9 @@ Absolut! Aspose.PSD unterstützt verschiedene Farbmodi, sodass Sie auch mit RGB,
  Sie können sich die[Dokumentation](https://reference.aspose.com/psd/java/) für ausführlichere Beispiele und Tutorials.
 ### Wie erwerbe ich eine Lizenz für Aspose.PSD?
  Sie können eine Lizenz erwerben, indem Sie die[Aspose-Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

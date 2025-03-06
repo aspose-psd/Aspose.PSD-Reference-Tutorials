@@ -3,10 +3,16 @@ title: แผ่เลเยอร์ในไฟล์ PSD โดยใช้ A
 linktitle: แผ่เลเยอร์ในไฟล์ PSD โดยใช้ Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: ย่อและรวมเลเยอร์ในไฟล์ PSD ได้อย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ Java ทำตามคำแนะนำทีละขั้นตอนนี้เพื่อทำให้การจัดการไฟล์ PSD ของคุณง่ายขึ้น
-type: docs
 weight: 13
 url: /th/java/psd-layer-management-effects/flatten-layers-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แผ่เลเยอร์ในไฟล์ PSD โดยใช้ Aspose.PSD Java
+
 ## การแนะนำ
 
 คุณเคยพบว่าตัวเองทำงานกับไฟล์ Photoshop และต้องการวิธีที่ง่ายกว่าในการจัดการเลเยอร์ที่ซับซ้อนเหล่านั้นหรือไม่? คุณโชคดี! วันนี้ เรากำลังดำดิ่งสู่โลกของ Aspose.PSD สำหรับ Java ซึ่งเป็นเครื่องมืออันทรงพลังที่ทำให้การทำงานกับไฟล์ PSD โดยทางโปรแกรมเป็นเรื่องง่าย หนึ่งในคุณสมบัติที่มีประโยชน์ที่เราจะสำรวจคือการทำให้เลเยอร์เรียบขึ้น ไม่ว่าคุณจะต้องการทำให้ภาพทั้งหมดแบนลงหรือเลือกรวมเลเยอร์เฉพาะ Aspose.PSD สำหรับ Java ก็พร้อมรองรับคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้แน่ใจว่าคุณพร้อมที่จะจัดการไฟล์ PSD ของคุณด้วยความมั่นใจ
@@ -150,3 +156,9 @@ img.save(exportPath);
 
 ### จะเกิดอะไรขึ้นหากฉันพยายามรวมเลเยอร์ที่ไม่ได้อยู่ติดกัน  
 Aspose.PSD ช่วยให้คุณสามารถผสานเลเยอร์ใดก็ได้โดยไม่คำนึงถึงลำดับในเลเยอร์สแต็ก กระบวนการรวมจะรวมเลเยอร์ที่เลือกไว้ตามที่ระบุ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

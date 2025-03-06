@@ -3,10 +3,16 @@ title: Java'da EXIF Segmentine Küçük Resim Ekleme
 linktitle: Java'da EXIF Segmentine Küçük Resim Ekleme
 second_title: Aspose.PSD Java API'si
 description: Aspose.PSD for Java kullanarak görsel meta verilerini küçük resimlerle nasıl geliştireceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin. Sorunsuz entegrasyon için.
-type: docs
 weight: 10
 url: /tr/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da EXIF Segmentine Küçük Resim Ekleme
+
 ## giriiş
 Bu eğitimde Aspose.PSD for Java kullanarak EXIF segmentine küçük resim ekleyerek görüntü meta verilerini nasıl geliştirebileceğimizi keşfedeceğiz. EXIF (Değiştirilebilir Görüntü Dosyası Formatı) meta verileri, dijital fotoğrafçılıkta kamera ayarları, tarih ve konum gibi değerli bilgiler sağlayarak çok önemli bir rol oynar. Küçük resim eklemek, görüntüleri etkili bir şekilde önizleyerek kullanıcı deneyimini geliştirir.
 ## Önkoşullar
@@ -66,3 +72,9 @@ Küçük resim eklemek, görüntünün tamamını yüklemeden hızlı görüntü
  Aspose.PSD için geçici lisansı şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.PSD için nasıl destek alabilirim?
  Destek için şu adresi ziyaret edin:[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

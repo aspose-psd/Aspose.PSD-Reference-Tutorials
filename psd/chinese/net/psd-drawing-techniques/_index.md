@@ -3,10 +3,16 @@ title: PSD 绘图技术
 linktitle: PSD 绘图技术
 second_title: Aspose.PSD .NET API
 description: 使用我们的教程释放 Aspose.PSD for .NET 的潜力！掌握核心绘图功能，创建精美的图形，并提升您的图像处理技能。
-type: docs
 weight: 28
 url: /zh/net/psd-drawing-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD 绘图技术
+
 
 ## 介绍
 
@@ -61,3 +67,9 @@ url: /zh/net/psd-drawing-techniques/
 使用 Aspose.PSD for .NET 释放您的艺术潜力！按照我们的教程使用 Graphics 进行创意绘图。
 ### [在 Aspose.PSD for .NET 中使用 GraphicsPath 实现绘图](./implementing-drawing-with-graphicspath/)
 在本分步教程中探索使用 GraphicsPath 绘图的 Aspose.PSD for .NET 的强大功能。使用高级 Photoshop 文件操作增强您的 .NET 应用程序。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: رسم المستطيلات في جافا
 linktitle: رسم المستطيلات في جافا
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية رسم المستطيلات على الصور باستخدام Aspose.PSD لـ Java. يرشد هذا البرنامج التعليمي مطوري Java خطوة بخطوة. مثالية لمهام معالجة الصور.
-type: docs
 weight: 17
 url: /ar/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم المستطيلات في جافا
+
 ## مقدمة
 في عالم تطوير Java، تعد معالجة الصور وإنشاءها برمجيًا متطلبًا شائعًا عبر التطبيقات المختلفة. إحدى هذه المهام التي تتم مواجهتها غالبًا هي رسم أشكال مثل المستطيلات على الصور. يوفر Aspose.PSD for Java مجموعة قوية من الأدوات والوظائف لإنجاز ذلك بكفاءة. سيرشدك هذا البرنامج التعليمي خلال عملية رسم المستطيلات على الصورة باستخدام Aspose.PSD لـ Java، خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ image.save(outpath, saveOptions);
  يمكنك استكشاف المزيد من الأمثلة والوثائق التفصيلية على[Aspose.PSD لوثائق جافا](https://reference.aspose.com/psd/java/).
 ### هل يدعم Aspose.PSD for Java تنسيقات الصور الأخرى إلى جانب BMP؟
 نعم، يدعم Aspose.PSD for Java مجموعة واسعة من تنسيقات الصور بما في ذلك PNG، وJPEG، وTIFF، وGIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

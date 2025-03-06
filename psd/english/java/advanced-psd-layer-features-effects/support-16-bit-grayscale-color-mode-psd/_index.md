@@ -3,10 +3,16 @@ title: Support 16-bit Grayscale Color Mode in PSD - Java
 linktitle: Support 16-bit Grayscale Color Mode in PSD - Java
 second_title: Aspose.PSD Java API
 description: Learn how to implement 16-bit grayscale color mode in PSD files using Aspose.PSD for Java with this detailed step-by-step tutorial.
-type: docs
 weight: 11
 url: /java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Support 16-bit Grayscale Color Mode in PSD - Java
+
 ## Introduction
 When you’re diving into the world of graphic design and image manipulation, understanding how to work with different color modes is like having a secret weapon. In particular, 16-bit grayscale can be a game-changer, giving your images that stunning depth and detail that truly makes them pop. So, are you ready to explore this powerful feature using Aspose.PSD for Java? If you've got your coding gear ready, let’s jump right into it.
 ## Prerequisites
@@ -126,3 +132,10 @@ Yes, you can try a free trial version of Aspose.PSD. Just head to the [Aspose do
 You can check out the [documentation](https://reference.aspose.com/psd/java/) for more in-depth examples and tutorials.
 ### How do I purchase a license for Aspose.PSD?
 You can buy a license by visiting the [Aspose purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 PSD 이미지를 GIF 형식으로 내보내기
 linktitle: PSD 이미지를 GIF 형식으로 내보내기
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 .NET에서 PSD 이미지를 GIF 형식으로 내보내는 방법을 알아보세요. 단계별 지침이 포함된 종합 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/psd-file-manipulation/export-psd-to-gif/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 PSD 이미지를 GIF 형식으로 내보내기
+
 ## 소개
 .NET용 Aspose.PSD는 .NET 애플리케이션에서 PSD 이미지 작업을 용이하게 하는 강력한 라이브러리입니다. 다양한 기능 중에는 PSD 이미지를 GIF 형식으로 내보내는 기능이 있습니다. 이 단계별 가이드는 이 기능을 .NET 프로젝트에 원활하게 통합할 수 있도록 프로세스를 안내합니다.
 ## 전제조건
@@ -68,3 +74,9 @@ A1: 예, .NET용 Aspose.PSD는 GIF를 포함한 다양한 형식으로 애니메
 ### Q5: .NET용 Aspose.PSD를 어디서 구입할 수 있나요?
 
  A5: 라이브러리를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

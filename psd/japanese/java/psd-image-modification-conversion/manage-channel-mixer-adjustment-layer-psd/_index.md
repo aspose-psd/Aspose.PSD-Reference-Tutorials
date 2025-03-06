@@ -3,10 +3,16 @@ title: PSD でチャンネル ミキサー調整レイヤーを管理する - Ja
 linktitle: PSD でチャンネル ミキサー調整レイヤーを管理する - Java
 second_title: Aspose.PSD Java API
 description: Aspose.PSD for Java を使用して PSD ファイル内の RGB および CMYK チャンネル ミキサー調整レイヤーを管理する方法を学びます。画像編集スキルを向上させます。
-type: docs
 weight: 22
 url: /ja/java/psd-image-modification-conversion/manage-channel-mixer-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD でチャンネル ミキサー調整レイヤーを管理する - Java
+
 ## 導入
 Photoshop は画像編集に対する考え方を変えましたが、複雑な画像ファイルの処理は外国語を解読しているような感覚になることもあります。ありがたいことに、Aspose.PSD for Java を使用すると、グラフィック デザインの学位がなくても Photoshop ファイルをシームレスに管理および操作できます。このガイドでは、Java を使用して PSD ファイル内のチャンネル ミキサー調整レイヤーを管理する方法を説明するチュートリアルを紹介します。あなたの中に眠っているデジタル アーティストを解き放つ準備はできましたか? さあ、始めましょう!
 ## 前提条件
@@ -114,3 +120,9 @@ Aspose.PSD for Java は、開発者が Photoshop アプリケーション自体�
 Aspose.PSD は主に PSD 用ですが、PSB などの他の形式も処理できるため、使用範囲が広がります。
 ### Aspose.PSD のサポートはどこで受けられますか?
 ヘルプやサポートを[フォーラム](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

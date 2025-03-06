@@ -3,10 +3,16 @@ title: Рисование эллипсов в Java
 linktitle: Рисование эллипсов в Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как рисовать эллипсы в Java с помощью Aspose.PSD для точного графического дизайна и манипулирования изображениями. Освойте пошаговые руководства.
-type: docs
 weight: 15
 url: /ru/java/java-graphics-drawing/drawing-ellipses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование эллипсов в Java
+
 ## Введение
 В этом уроке вы узнаете, как рисовать эллипсы с помощью Aspose.PSD для Java. Aspose.PSD — это мощная библиотека, которая позволяет разработчикам Java работать с PSD-файлами и с легкостью манипулировать изображениями. Рисование фигур, таких как эллипсы, является фундаментальной задачей в обработке изображений и графическом дизайне. Следуя этому руководству, вы получите практический опыт создания эллипсов программным способом с помощью Aspose.PSD.
 ## Предварительные условия
@@ -76,3 +82,9 @@ Aspose.PSD предлагает бесплатную пробную версию
 Aspose.PSD поддерживает сохранение изображений в различных форматах, включая BMP, PNG, JPEG и PSD.
 ### Подходит ли Aspose.PSD для корпоративного использования?
 Да, Aspose.PSD предназначен для задач обработки изображений профессионального и корпоративного уровня.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

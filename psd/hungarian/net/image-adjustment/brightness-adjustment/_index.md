@@ -3,10 +3,16 @@ title: Fényerő-szabályozás megvalósítása az Aspose.PSD for .NET-ben
 linktitle: Fényerő-szabályozás végrehajtása
 second_title: Aspose.PSD .NET API
 description: Fedezze fel az Aspose.PSD for .NET erejét a kép fényerejének beállításában. Kövesse lépésenkénti útmutatónkat a zökkenőmentes megvalósítás érdekében.
-type: docs
 weight: 10
 url: /hu/net/image-adjustment/brightness-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fényerő-szabályozás megvalósítása az Aspose.PSD for .NET-ben
+
 ## Bevezetés
 
 A képattribútumok javítása és módosítása gyakori követelmény a különféle alkalmazásokban, és az Aspose.PSD for .NET hatékony megoldást kínál a PSD-fájlok zökkenőmentes kezeléséhez. Az egyik ilyen manipuláció a fényerő beállítása, amellyel könnyedén módosíthatja a kép fényerejét.
@@ -97,3 +103,9 @@ Az Aspose.PSD for .NET leegyszerűsíti a fényerő-beállítások végrehajtás
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for .NET számára?
 
  V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

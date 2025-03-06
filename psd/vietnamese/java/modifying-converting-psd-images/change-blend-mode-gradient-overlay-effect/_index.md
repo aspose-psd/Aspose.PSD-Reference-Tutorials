@@ -3,10 +3,16 @@ title: Thay đổi chế độ hòa trộn trong hiệu ứng lớp phủ chuy�
 linktitle: Thay đổi chế độ hòa trộn trong hiệu ứng lớp phủ chuyển màu
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thay đổi chế độ hòa trộn trong hiệu ứng lớp phủ chuyển màu bằng Aspose.PSD cho Java. Hướng dẫn từng bước để tạo đồ họa tuyệt đẹp.
-type: docs
 weight: 19
 url: /vi/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi chế độ hòa trộn trong hiệu ứng lớp phủ chuyển màu
+
 ## Giới thiệu
 Bạn đang muốn nâng tầm trò chơi thiết kế đồ họa của mình bằng một số kỹ thuật nâng cao? Có lẽ bạn muốn thao tác các lớp trong tệp Photoshop của mình theo chương trình? Nếu vậy thì bạn đã đến đúng nơi! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để thay đổi chế độ hòa trộn của hiệu ứng lớp phủ chuyển màu bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay nhà thiết kế mới vào nghề, bạn sẽ thấy những kỹ thuật này vừa dễ tiếp cận vừa hiệu quả cho các dự án của mình. 
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Bạn có thể thực hiện nhiều thao tác khác nhau, bao gồm chỉnh s�
  Đúng! Bạn có thể truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/psd/34) để nhận được sự giúp đỡ từ cộng đồng và nhân viên kỹ thuật.
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.PSD không?
  Tuyệt đối! Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra đầy đủ các tính năng mà không bị hạn chế.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

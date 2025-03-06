@@ -3,10 +3,16 @@ title: أضف لون طبقة الحد في Aspose.PSD لـ Java
 linktitle: أضف لون طبقة السكتة الدماغية
 second_title: Aspose.PSD جافا API
 description: اكتشف قوة Aspose.PSD لـ Java من خلال دليلنا خطوة بخطوة حول إضافة لون طبقة الحد. ارفع تصميماتك الرسومية دون عناء.
-type: docs
 weight: 14
 url: /ar/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف لون طبقة الحد في Aspose.PSD لـ Java
+
 ## مقدمة
 
 أطلق العنان لإمكانات التصميم الجرافيكي لتطبيق Java الخاص بك باستخدام Aspose.PSD. في هذا البرنامج التعليمي، سوف نتعمق في العالم الرائع لإضافة لون طبقة الحد باستخدام Aspose.PSD لـ Java. قم بتحسين رسوماتك بضربات بارزة، مما يؤدي إلى إنشاء تصميمات جذابة بصريًا دون عناء.
@@ -120,3 +126,9 @@ im.save(exportPath);
 ### س5: أين يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
  ج5: احصل على أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لكي يقوم Aspose.PSD بتقييم قدراته في مشاريعك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

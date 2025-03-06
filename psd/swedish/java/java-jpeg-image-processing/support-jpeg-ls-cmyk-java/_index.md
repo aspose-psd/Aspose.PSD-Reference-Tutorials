@@ -3,10 +3,16 @@ title: Stöd för JPEG-LS med CMYK i Java
 linktitle: Stöd för JPEG-LS med CMYK i Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du stöder JPEG-LS med CMYK i Java med Aspose.PSD. Följ vår steg-för-steg-guide för enkel bildbehandling och konvertering.
-type: docs
 weight: 21
 url: /sv/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stöd för JPEG-LS med CMYK i Java
+
 ## Introduktion
 Vill du dyka in i en värld av bildbehandling med Java? Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen om Aspose.PSD för Java att guida dig genom processen att stödja JPEG-LS med CMYK-färgläge. Låt oss hoppa direkt in och få de kreativa juicerna att flöda!
 ## Förutsättningar
@@ -79,3 +85,9 @@ Ja, Aspose.PSD stöder olika komprimeringslägen, inklusive Lossless och JPEG.
  Ja, du behöver en licens. Du kan få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för försöksändamål.
 ### Var kan jag hitta mer dokumentation om Aspose.PSD?
  Du kan hitta hela dokumentationen[här](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

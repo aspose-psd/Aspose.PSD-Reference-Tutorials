@@ -3,10 +3,16 @@ title: 支援 PSD 中的 16 位元灰階顏色模式 - Java
 linktitle: 支援 PSD 中的 16 位元灰階顏色模式 - Java
 second_title: Aspose.PSD Java API
 description: 透過這個詳細的逐步教學，了解如何使用 Aspose.PSD for Java 在 PSD 檔案中實現 16 位元灰階色彩模式。
-type: docs
 weight: 11
 url: /zh-hant/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 支援 PSD 中的 16 位元灰階顏色模式 - Java
+
 ## 介紹
 當您深入圖形設計和圖像處理的世界時，了解如何使用不同的顏色模式就像擁有秘密武器一樣。特別是，16 位元灰度可以改變遊戲規則，為您的圖像提供令人驚嘆的深度和細節，真正讓它們流行起來。那麼，您準備好使用 Aspose.PSD for Java 探索這項強大功能了嗎？如果您已經準備好編碼裝備，那麼讓我們直接開始吧。
 ## 先決條件
@@ -126,3 +132,9 @@ finally {
 您可以查看[文件](https://reference.aspose.com/psd/java/)取得更深入的範例和教學。
 ### 如何購買 Aspose.PSD 的授權？
 您可以透過造訪購買許可證[Aspose購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

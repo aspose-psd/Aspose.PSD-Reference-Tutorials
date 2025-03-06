@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 이미지에 서명 추가
 linktitle: 이미지에 서명 추가
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 서명을 이미지에 완벽하게 통합하는 방법을 살펴보세요. 단계별 가이드에 따라 필요한 패키지를 가져오고 Java 애플리케이션의 그래픽 기능을 향상하세요.
-type: docs
 weight: 13
 url: /ko/java/advanced-image-effects/add-signature-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 이미지에 서명 추가
+
 ## 소개
 
 광범위한 Java 개발 세계에서 서명을 이미지에 통합하는 것은 일반적인 요구 사항이 되었습니다. Java용 Aspose.PSD는 개발자에게 서명 추가를 포함하여 이미지 조작을 위한 원활한 솔루션을 제공하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 이미지에 서명을 추가하는 방법을 단계별로 살펴보겠습니다.
@@ -95,3 +101,10 @@ A2: 예, Aspose.PSD는 광범위한 이미지 형식을 지원하여 이미지 �
 ### Q5: 구매하기 전에 Java용 Aspose.PSD를 사용해 볼 수 있나요?
 
  A5: 그렇습니다, 당신은 얻을 수 있습니다[무료 평가판](https://releases.aspose.com/)구매하기 전에 기능을 살펴보세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

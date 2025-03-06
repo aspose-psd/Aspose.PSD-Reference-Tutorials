@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD의 인터럽트 모니터 지원
 linktitle: 인터럽트 모니터 지원
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 이미지 처리 제어를 잠금 해제합니다. 유연한 작업 흐름을 위해 프로세스를 중단하는 방법을 알아보세요.
-type: docs
 weight: 18
 url: /ko/java/advanced-techniques/support-interrupt-monitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD의 인터럽트 모니터 지원
+
 ## 소개
 
 Java 개발 영역에서 Aspose.PSD는 다양한 이미지 처리 작업을 처리하는 강력한 도구로 돋보입니다. 많은 기능 중에서 인터럽트 모니터에 대한 지원은 개발자가 이미지 처리 워크플로우에 대해 갖는 제어력과 유연성을 향상시키는 중요한 측면입니다. 이 튜토리얼에서는 이미지 변환 프로세스를 효과적으로 관리하고 중단하기 위해 Java용 Aspose.PSD의 인터럽트 모니터를 활용하는 방법을 살펴보겠습니다.
@@ -119,3 +125,9 @@ A1: Java용 Aspose.PSD의 인터럽트 모니터를 사용하면 개발자가 �
 ### Q5: Java용 Aspose.PSD 라이선스를 어떻게 구매할 수 있나요?
 
 A5: Java용 Aspose.PSD 라이선스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

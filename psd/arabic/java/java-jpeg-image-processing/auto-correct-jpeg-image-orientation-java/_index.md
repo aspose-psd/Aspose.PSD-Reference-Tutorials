@@ -3,10 +3,16 @@ title: التصحيح التلقائي لاتجاه صورة JPEG في Java
 linktitle: التصحيح التلقائي لاتجاه صورة JPEG في Java
 second_title: Aspose.PSD جافا API
 description: تعلم كيفية تصحيح اتجاه صورة JPEG تلقائيًا في Java باستخدام Aspose.PSD. تعزيز مهارات معالجة الصور الخاصة بك دون عناء.
-type: docs
 weight: 12
 url: /ar/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التصحيح التلقائي لاتجاه صورة JPEG في Java
+
 ## مقدمة
 في العصر الرقمي الحالي، أصبحت معالجة الصور وتحسينها برمجيًا مهمة حاسمة للمطورين عبر مختلف المجالات. يعمل Aspose.PSD for Java على تمكين المطورين بأدوات قوية للتعامل مع تنسيقات PSD وJPEG وتنسيقات الصور الأخرى بكفاءة. يتعمق هذا البرنامج التعليمي في مهمة محددة: تصحيح اتجاه صورة JPEG تلقائيًا باستخدام Aspose.PSD لـ Java. سواء كنت تقوم بإنشاء تطبيق لتحرير الصور، أو إدارة موارد الصور في نظام إدارة المحتوى، أو أتمتة سير عمل معالجة الصور، فإن هذا الدليل سيزودك بالمعرفة اللازمة لدمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ Aspose.PSD for Java هي مكتبة قوية تتيح لمطوري Java العم
  الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/psd/java/).
 ### هل يمكنني تجربة Aspose.PSD لـ Java مجانًا؟
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.PSD में पथ सेट करके 
 linktitle: पथ सेट करके छवियाँ बनाना
 second_title: Aspose.PSD .NET एपीआई
 description: .NET के लिए Aspose.PSD के साथ छवि निर्माण का अन्वेषण करें। हमारे चरण-दर-चरण गाइड का पालन करें और इस शक्तिशाली लाइब्रेरी की क्षमता को उजागर करें।
-type: docs
 weight: 11
 url: /hi/net/file-and-font-handling/create-images-setting-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.PSD में पथ सेट करके छवियाँ बनाना
+
 .NET विकास के क्षेत्र में, Aspose.PSD छवियों को हेरफेर करने और बनाने के लिए एक शक्तिशाली उपकरण के रूप में सामने आता है। इस ट्यूटोरियल में, हम पथ सेट करके .NET के लिए Aspose.PSD का उपयोग करके छवियाँ बनाने की प्रक्रिया में गहराई से उतरेंगे। इस बहुमुखी लाइब्रेरी की क्षमता को अनलॉक करने के लिए इन चरण-दर-चरण निर्देशों का पालन करें।
 
 ## परिचय
@@ -98,3 +104,9 @@ A2: बिल्कुल! Aspose.PSD आपको बैच इमेज प्
 ### प्रश्न 5: मैं समर्थन कैसे प्राप्त कर सकता हूं या सहायता कैसे मांग सकता हूं?
 
  A5: पर जाएँ[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34) समुदाय से जुड़ने और विशेषज्ञों से सहायता लेने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

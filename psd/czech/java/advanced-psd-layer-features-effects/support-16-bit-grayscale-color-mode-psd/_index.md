@@ -3,10 +3,16 @@ title: Podpora 16bitového barevného režimu ve stupních šedi v PSD - Java
 linktitle: Podpora 16bitového barevného režimu ve stupních šedi v PSD - Java
 second_title: Aspose.PSD Java API
 description: Naučte se, jak implementovat 16bitový barevný režim ve stupních šedi v souborech PSD pomocí Aspose.PSD for Java, v tomto podrobném návodu krok za krokem.
-type: docs
 weight: 11
 url: /cs/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora 16bitového barevného režimu ve stupních šedi v PSD - Java
+
 ## Zavedení
 Když se ponoříte do světa grafického designu a manipulace s obrázky, pochopit, jak pracovat s různými barevnými režimy, je jako mít tajnou zbraň. Zejména 16bitové stupně šedi mohou změnit hru a dát vašim snímkům ohromující hloubku a detaily, díky nimž budou skutečně popové. Jste tedy připraveni prozkoumat tuto výkonnou funkci pomocí Aspose.PSD pro Javu? Pokud máte připravenou svou kódovací výbavu, vrhněme se do toho rovnou.
 ## Předpoklady
@@ -126,3 +132,9 @@ Absolutně! Aspose.PSD podporuje různé barevné režimy, takže můžete praco
  Můžete se podívat na[dokumentace](https://reference.aspose.com/psd/java/) pro podrobnější příklady a návody.
 ### Jak si koupím licenci pro Aspose.PSD?
  Licenci si můžete zakoupit na adrese[Aspose nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

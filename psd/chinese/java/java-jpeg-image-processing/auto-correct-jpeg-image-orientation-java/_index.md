@@ -3,10 +3,16 @@ title: 使用 Java 自动校正 JPEG 图像方向
 linktitle: 使用 Java 自动校正 JPEG 图像方向
 second_title: Aspose.PSD Java API
 description: 学习使用 Aspose.PSD 在 Java 中自动校正 JPEG 图像方向。轻松提高您的图像处理技能。
-type: docs
 weight: 12
 url: /zh/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 自动校正 JPEG 图像方向
+
 ## 介绍
 在当今的数字时代，以编程方式处理和优化图像已成为各个领域开发人员的一项重要任务。Aspose.PSD for Java 为开发人员提供了强大的工具来高效处理 PSD、JPEG 和其他图像格式。本教程深入探讨一项特定任务：使用 Aspose.PSD for Java 自动校正 JPEG 图像方向。无论您是构建照片编辑应用程序、在内容管理系统中管理图像资源还是自动化图像处理工作流程，本指南都将为您提供必要的知识，以便将此功能无缝集成到您的 Java 应用程序中。
 ## 先决条件
@@ -71,3 +77,9 @@ Aspose.PSD for Java 是一个功能强大的库，允许 Java 开发人员以编
 提供全面的文档[这里](https://reference.aspose.com/psd/java/).
 ### 我可以免费试用 Aspose.PSD for Java 吗？
 是的，你可以从[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

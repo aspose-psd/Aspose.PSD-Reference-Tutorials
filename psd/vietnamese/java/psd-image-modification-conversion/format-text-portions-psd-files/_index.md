@@ -3,10 +3,16 @@ title: Định dạng các phần văn bản trong tệp PSD bằng Java
 linktitle: Định dạng các phần văn bản trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách định dạng các phần văn bản trong tệp PSD bằng Java với Aspose.PSD trong hướng dẫn dễ làm theo này. Hoàn hảo cho các nhà phát triển và nhà thiết kế.
-type: docs
 weight: 14
 url: /vi/java/psd-image-modification-conversion/format-text-portions-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định dạng các phần văn bản trong tệp PSD bằng Java
+
 ## Giới thiệu
 
 Trong thế giới ngày càng trực quan của chúng ta, khả năng xử lý đồ họa và văn bản một cách hiệu quả là vô giá. Cho dù bạn là nhà thiết kế, nhà phát triển hay đơn giản là người đang tìm cách tạo ra hình ảnh ấn tượng, các công cụ phần mềm giúp đơn giản hóa các quy trình này có thể là yếu tố thay đổi cuộc chơi. Một công cụ như vậy là Aspose.PSD cho Java—một thư viện mạnh mẽ cho phép bạn làm việc với các tệp Photoshop PSD theo chương trình. Trong bài viết này, chúng ta sẽ khám phá cách định dạng các phần văn bản trong tệp PSD bằng Java. 
@@ -188,3 +194,9 @@ Có, bản dùng thử miễn phí có thể có một số hạn chế nhất �
 
 ### Tôi có thể tìm thêm thông tin về Aspose.PSD ở đâu?
  Bạn có thể kiểm tra tài liệu để biết các tình huống sử dụng chi tiết và tài liệu tham khảo API[đây](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

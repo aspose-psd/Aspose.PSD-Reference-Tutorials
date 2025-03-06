@@ -3,10 +3,16 @@ title: Ubah Blend Mode dalam Efek Gradient Overlay
 linktitle: Ubah Blend Mode dalam Efek Gradient Overlay
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara mengubah mode campuran dalam efek overlay gradien dengan Aspose.PSD untuk Java. Panduan langkah demi langkah untuk membuat grafik yang menakjubkan.
-type: docs
 weight: 19
 url: /id/java/modifying-converting-psd-images/change-blend-mode-gradient-overlay-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Blend Mode dalam Efek Gradient Overlay
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan permainan desain grafis Anda dengan beberapa teknik canggih? Mungkin Anda ingin memanipulasi lapisan dalam file Photoshop Anda secara terprogram? Jika iya, maka Anda datang ke tempat yang tepat! Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah untuk mengubah mode campuran efek overlay gradien menggunakan Aspose.PSD untuk Java. Baik Anda seorang pengembang berpengalaman atau desainer pemula, Anda akan menemukan teknik ini mudah diakses dan ampuh untuk proyek Anda. 
 ## Prasyarat
@@ -77,3 +83,9 @@ Anda dapat melakukan berbagai operasi, termasuk mengedit lapisan, memodifikasi e
  Ya! Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/psd/34) untuk bantuan dari masyarakat dan staf teknis.
 ### Bisakah saya membeli lisensi sementara untuk Aspose.PSD?
  Sangat! Anda dapat mengajukan permohonan izin sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji fitur lengkap tanpa batasan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

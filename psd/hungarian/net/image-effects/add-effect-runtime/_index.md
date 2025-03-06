@@ -3,10 +3,16 @@ title: Hatások hozzáadása futás közben az Aspose.PSD for .NET-hez
 linktitle: Hatások hozzáadása futás közben
 second_title: Aspose.PSD .NET API
 description: Fedezze fel a dinamikus képjavításokat az Aspose.PSD for .NET használatával. Könnyen hozzáadhat effektusokat futás közben.
-type: docs
 weight: 10
 url: /hu/net/image-effects/add-effect-runtime/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hatások hozzáadása futás közben az Aspose.PSD for .NET-hez
+
 ## Bevezetés
 
 képek vizuális vonzerejének fokozása általános követelmény a grafikai tervezésben és a képfeldolgozó alkalmazásokban. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk hozzá effektusokat futás közben az Aspose.PSD for .NET használatával. Az Aspose.PSD egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak Adobe Photoshop fájlokkal. 
@@ -96,3 +102,9 @@ A2: Abszolút! Több effektust is láncolhat egy rétegen, így összetett vizu�
 ### 5. kérdés: Hol találhatok további támogatást és közösségi megbeszéléseket?
 
  A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

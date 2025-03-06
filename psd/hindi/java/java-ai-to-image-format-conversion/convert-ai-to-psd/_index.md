@@ -3,10 +3,16 @@ title: जावा में AI को PSD में बदलें
 linktitle: जावा में AI को PSD में बदलें
 second_title: Aspose.PSD जावा एपीआई
 description: हमारे आसान चरण-दर-चरण गाइड के साथ Aspose.PSD का उपयोग करके जावा में AI को PSD में बदलें। त्वरित और निर्बाध फ़ाइल रूपांतरण की आवश्यकता वाले डेवलपर्स के लिए बिल्कुल सही।
-type: docs
 weight: 14
 url: /hi/java/java-ai-to-image-format-conversion/convert-ai-to-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में AI को PSD में बदलें
+
 ## परिचय
 क्या आप जावा का उपयोग करके AI (Adobe Illustrator) फ़ाइलों को PSD (Adobe Photoshop) फ़ाइलों में बदलना चाहते हैं? खैर, आप सही जगह पर हैं! आज, हम शक्तिशाली Aspose.PSD for Java लाइब्रेरी का उपयोग करके इस कार्य को पूरा करने का तरीका जानेंगे। यह मार्गदर्शिका आपको आवश्यक सभी चीज़ों से परिचित कराएगी, जिसमें पूर्वापेक्षाओं से लेकर विस्तृत चरण-दर-चरण निर्देश शामिल हैं। आइए आगे बढ़ें और अपनी डिज़ाइन फ़ाइलों को सहजता से बदलें।
 ## आवश्यक शर्तें
@@ -64,3 +70,9 @@ image.save(outFileName, options);
 वर्तमान में, Aspose.PSD for Java PSD फ़ाइलों को वापस AI फ़ाइलों में बदलने का समर्थन नहीं करता है। यह PSD और PSB फ़ाइलों को संभालने पर केंद्रित है।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
  आप यहाँ पर विस्तृत दस्तावेज और उदाहरण पा सकते हैं।[Aspose.PSD for Java दस्तावेज़न पृष्ठ](https://reference.aspose.com/psd/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nakładanie efektów kolorystycznych na obrazy w Aspose.PSD dla .NET
 linktitle: Nakładanie efektów kolorystycznych na obrazy
 second_title: Aspose.PSD API .NET
 description: Odkryj magię Aspose.PSD dla .NET dzięki naszemu samouczkowi na temat nakładania efektów kolorystycznych. Bez wysiłku podnieś poziom swojej gry w przetwarzanie obrazu.
-type: docs
 weight: 11
 url: /pl/net/image-effects/overlay-color-effect/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nakładanie efektów kolorystycznych na obrazy w Aspose.PSD dla .NET
+
 ## Wstęp
 
 Aspose.PSD dla .NET zapewnia solidny zestaw funkcji do przetwarzania obrazu, umożliwiając programistom bezproblemowe osiąganie oszałamiających efektów. Jedną z takich możliwości jest nakładanie efektów kolorystycznych na obrazy. W tym samouczku skupimy się na efekcie ColorOverlay i pokażemy, jak zastosować go do obrazu, zmieniając jego atrakcyjność wizualną.
@@ -98,3 +104,9 @@ O3: Tak, możesz poznać możliwości Aspose.PSD dla .NET, pobierając bezpłatn
 ### P5: Czy mogę uzyskać tymczasową licencję na Aspose.PSD dla .NET?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

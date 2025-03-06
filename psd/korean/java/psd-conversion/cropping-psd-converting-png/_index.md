@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 PNG로 변환할 때 PSD 자르기
 linktitle: PNG로 변환할 때 PSD 자르기
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일을 자르고 PNG로 변환하는 방법을 알아보세요. 효율적인 이미지 처리로 Java 애플리케이션을 강화하세요.
-type: docs
 weight: 13
 url: /ko/java/psd-conversion/cropping-psd-converting-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 PNG로 변환할 때 PSD 자르기
+
 ## 소개
 Java 개발의 역동적인 세계에서는 효율적인 이미지 처리를 익히는 것이 중요합니다. 이 튜토리얼에서는 강력한 Java용 Aspose.PSD 라이브러리를 사용하여 PSD 파일을 PNG로 변환할 때 PSD 파일을 자르는 과정을 안내합니다. 이 단계별 가이드를 마치면 원활한 이미지 조작을 통해 Java 애플리케이션을 향상시키는 지식을 갖추게 됩니다.
 ## 전제조건
@@ -66,3 +72,9 @@ image.save(destName, pngOptions);
  방문[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 도움을 구하고, 경험을 공유하고, 발생한 문제를 보고합니다.
 ### 구매하기 전에 Java용 Aspose.PSD를 사용해 볼 수 있나요?
  틀림없이! 무료 평가판을 통해 라이브러리 기능을 살펴보세요.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

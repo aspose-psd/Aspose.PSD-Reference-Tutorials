@@ -3,10 +3,16 @@ title: Расширенные эффекты изображения
 linktitle: Расширенные эффекты изображения
 second_title: Aspose.PSD Java API
 description: Улучшите свои графические проекты Java с помощью Aspose.PSD! С легкостью осваивайте расширенные эффекты изображений — от градиентов и узоров до подписей и штрихов.
-type: docs
 weight: 26
 url: /ru/java/advanced-image-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные эффекты изображения
+
 ## Введение
 Готовы ли вы поднять графический дизайн Java на новый уровень? Aspose.PSD для Java открывает мир возможностей для улучшения ваших изображений с помощью расширенных эффектов. В этом подробном руководстве мы познакомим вас с серией руководств, каждое из которых посвящено уникальному аспекту манипулирования изображениями с помощью Aspose.PSD.
 
@@ -42,3 +48,9 @@ url: /ru/java/advanced-image-effects/
 Исследуйте беспрепятственную интеграцию подписей в изображения с помощью Aspose.PSD для Java. Следуйте нашему пошаговому руководству, импортируйте необходимые пакеты и расширьте графические возможности вашего Java-приложения.
 ### [Добавьте цвет слоя обводки в Aspose.PSD для Java](./add-stroke-layer-color/)
 Исследуйте возможности Aspose.PSD для Java с помощью нашего пошагового руководства по добавлению цвета слоя обводки. Улучшите свой графический дизайн без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Бинаризация с порогом Оцу в Aspose.PSD для Java
 linktitle: Бинаризация с порогом Оцу
 second_title: Aspose.PSD Java API
 description: Изучите бинаризацию с порогом Оцу в Aspose.PSD для Java. Мощная техника сегментации изображений.
-type: docs
 weight: 15
 url: /ru/java/image-processing/binarization-otsu-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Бинаризация с порогом Оцу в Aspose.PSD для Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по выполнению бинаризации с помощью Otsu Threshold в Aspose.PSD для Java! В этом уроке мы рассмотрим, как использовать библиотеку Aspose.PSD для Java для расширения возможностей обработки изображений. Бинаризация с помощью Otsu Threshold — мощный метод сегментации изображений, а с Aspose.PSD она становится одновременно простой и эффективной.
@@ -103,3 +109,9 @@ A3: документация доступна.[здесь](https://reference.asp
 ### Вопрос 5: Доступна ли временная лицензия для Aspose.PSD для Java?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

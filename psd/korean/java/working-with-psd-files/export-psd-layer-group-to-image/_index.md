@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 레이어 그룹을 이미지로 내보내기
 linktitle: Java를 사용하여 PSD 레이어 그룹을 이미지로 내보내기
 second_title: Aspose.PSD 자바 API
 description: 이 단계별 가이드를 통해 Java용 Aspose.PSD를 사용하여 PSD 레이어 그룹을 이미지로 내보내는 방법을 알아보세요. 개발자와 디자이너에게 적합합니다.
-type: docs
 weight: 10
 url: /ko/java/working-with-psd-files/export-psd-layer-group-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 레이어 그룹을 이미지로 내보내기
+
 ## 소개
 
 디지털 디자인의 세계에서는 레이어를 관리하고 작업의 특정 부분을 내보내는 것이 판도를 바꿀 수 있습니다. 이 멋진 다중 레이어 Photoshop(PSD) 파일이 있는데 특정 레이어 그룹만 이미지로 내보내고 싶다고 상상해 보세요. 까다롭게 들리죠? 꼭 그럴 필요는 없습니다! Java용 Aspose.PSD를 사용하면 이 작업이 관리하기 쉬울 뿐만 아니라 완전히 단순해집니다. 이 문서에서는 프로세스를 따라하기 쉬운 단계로 나누어 단계별로 안내합니다. 마지막에는 전문가처럼 PSD 레이어를 다룰 수 있는 노하우를 갖추게 됩니다.
@@ -119,3 +125,9 @@ contentFolder.save(outputDir + "content.png", new PngOptions());
 
 ### Java용 Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[구매 페이지 제안](https://purchase.aspose.com/temporary-license/). 이를 통해 라이브러리의 전체 기능을 테스트할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

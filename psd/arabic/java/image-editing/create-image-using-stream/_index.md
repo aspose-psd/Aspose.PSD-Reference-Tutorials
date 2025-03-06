@@ -3,10 +3,16 @@ title: قم بإنشاء صورة باستخدام Stream في Aspose.PSD لـ J
 linktitle: إنشاء صورة باستخدام الدفق
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية إنشاء الصور باستخدام الدفق في Aspose.PSD لـ Java. اتبع هذا الدليل التفصيلي خطوة بخطوة لمعالجة الصور بكفاءة.
-type: docs
 weight: 14
 url: /ar/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء صورة باستخدام Stream في Aspose.PSD لـ Java
+
 ## مقدمة
 
 في مجال تطوير Java، يبرز Aspose.PSD كمكتبة قوية لمعالجة الصور. إحدى ميزاته القوية هي القدرة على إنشاء الصور باستخدام التدفقات، مما يوفر المرونة والكفاءة في التعامل مع بيانات الصورة. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء الصور باستخدام الدفق في Aspose.PSD لـ Java، مما يوفر تجربة عملية مع إرشادات خطوة بخطوة.
@@ -114,3 +120,9 @@ image.save(desName);
 ### س5: ما هي متطلبات النظام لـ Aspose.PSD؟
 
  ج5: راجع[الوثائق](https://reference.aspose.com/psd/java/) لمتطلبات النظام التفصيلية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

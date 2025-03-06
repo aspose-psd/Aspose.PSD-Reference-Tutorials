@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD를 사용하여 스트리밍에 이미지 저장
 linktitle: .NET용 Aspose.PSD를 사용하여 스트리밍에 이미지 저장
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD의 강력한 기능을 살펴보고 이미지를 스트림에 쉽게 저장하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/file-saving-and-exporting/save-images-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD를 사용하여 스트리밍에 이미지 저장
+
 ## 소개
 
 끊임없이 진화하는 .NET 개발 세계에서 Aspose.PSD는 이미지를 정확하고 효율적으로 처리하기 위한 강력한 도구로 돋보입니다. .NET용 Aspose.PSD를 사용하여 이미지를 스트림에 저장하려는 경우 올바른 위치에 있습니다. 이 튜토리얼에서는 프로세스를 따라하기 쉬운 단계로 나누어 프로세스를 안내합니다.
@@ -91,3 +97,9 @@ using (Image image = Image.Load(sourceFile))
 ### Q5: Aspose.PSD는 어디서 구입할 수 있나요?
 
  A5: Aspose.PSD를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy) 개발 요구 사항에 맞게 잠재력을 최대한 발휘할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

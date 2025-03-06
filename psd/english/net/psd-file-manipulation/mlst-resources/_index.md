@@ -3,10 +3,16 @@ title: Mastering MLST Resource Handling in Aspose.PSD for .NET
 linktitle: Handling MLST Resources
 second_title: Aspose.PSD .NET API
 description: Learn to manipulate layer states in Photoshop files with Aspose.PSD for .NET. Follow our step-by-step guide for efficient MLST Resource handling.
-type: docs
 weight: 14
 url: /net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering MLST Resource Handling in Aspose.PSD for .NET
+
 ## Introduction
 Welcome to the in-depth tutorial on handling MLST (Multiple Layer States) Resources in Aspose.PSD for .NET. Aspose.PSD for .NET is a powerful library that provides extensive capabilities for working with Photoshop files. In this tutorial, we'll focus on the support of MLST Resources, offering a low-level mechanism to manipulate layer states efficiently.
 ## Prerequisites
@@ -86,3 +92,10 @@ A4: Visit the [Aspose.PSD forums](https://forum.aspose.com/c/psd/34) for communi
 ### Q5: How do I purchase a license for Aspose.PSD for .NET?
 
 A5: You can buy a license [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

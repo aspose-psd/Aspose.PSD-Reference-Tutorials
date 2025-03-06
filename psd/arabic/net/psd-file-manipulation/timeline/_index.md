@@ -3,10 +3,16 @@ title: العمل مع الجدول الزمني في Aspose.PSD لـ .NET
 linktitle: العمل مع الجدول الزمني
 second_title: Aspose.PSD.NET API
 description: تحسين معالجة صور PSD باستخدام Aspose.PSD لفئة .NET Timeline. تحكم في خصائص الإطار وحالات الطبقة وأطلق العنان للإمكانيات الإبداعية دون عناء.
-type: docs
 weight: 16
 url: /ar/net/psd-file-manipulation/timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع الجدول الزمني في Aspose.PSD لـ .NET
+
 ## مقدمة
 في العالم الديناميكي للتصميم الجرافيكي ومعالجة الصور، تعد القدرة على التحكم في الجدول الزمني للصور ومعالجته أمرًا بالغ الأهمية. يوفر Aspose.PSD for .NET حلاً قويًا من خلال فئة الجدول الزمني الخاصة به. تمكن هذه الميزة عالية المستوى المستخدمين من إجراء تغييرات على المخطط الزمني لـ PsdImage، مثل تغيير تأخير الإطار، وتحرير حالات الطبقة على إطارات محددة، والمزيد.
 ## المتطلبات الأساسية
@@ -108,3 +114,9 @@ File.Delete(outputPsd);
 ### س5: ما هي الفوائد الأساسية لاستخدام Aspose.PSD لـ .NET؟
 
 ج5: يوفر Aspose.PSD for .NET إمكانات معالجة الصور المتقدمة ومعالجة ملفات PSD والعرض عالي الأداء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

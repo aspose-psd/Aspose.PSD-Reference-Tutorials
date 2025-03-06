@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中支持黑白资源
 linktitle: 支持黑白 (Blwh) 资源
 second_title: Aspose.PSD .NET API
 description: 探索使用 Aspose.PSD for .NET 进行高级图像编辑。学习掌握黑白调整层，以精确控制图像元素。
-type: docs
 weight: 13
 url: /zh/net/psd-file-resources/supporting-black-and-white-blwh-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中支持黑白资源
+
 ## 介绍
 在动态的数字媒体世界中，图像编辑在创建迷人的视觉效果方面起着关键作用。Aspose.PSD for .NET 使开发人员能够将他们的图像处理能力提升到一个新的水平。在本教程中，我们将探索 Aspose.PSD 对黑白调整层的支持，使您能够精确地微调图像。
 ## 先决条件
@@ -89,3 +95,9 @@ A2：当然可以！Aspose.PSD 允许您堆叠多个调整层，从而实现复�
 ### 问题 5：是否有任何样本图像可用于测试黑白调整？
 
 A5：是的，您可以在 Aspose.PSD 文档中找到示例图像。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

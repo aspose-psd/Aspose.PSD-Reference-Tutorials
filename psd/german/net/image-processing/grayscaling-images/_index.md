@@ -3,10 +3,16 @@ title: Graustufenbilder mit Aspose.PSD für .NET
 linktitle: Graustufenbilder mit Aspose.PSD für .NET
 second_title: Aspose.PSD .NET API
 description: Erfahren Sie, wie Sie mit Aspose.PSD für .NET mühelos Graustufeneffekte auf Bilder anwenden.
-type: docs
 weight: 14
 url: /de/net/image-processing/grayscaling-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Graustufenbilder mit Aspose.PSD für .NET
+
 ## Einführung
 
 Willkommen zu unserem umfassenden Tutorial zum Graustufenbilden mit Aspose.PSD für .NET! Graustufenbilden ist eine leistungsstarke Technik, mit der Sie die visuelle Attraktivität Ihrer Bilder steigern können, indem Sie sie in Grautöne umwandeln. In dieser Anleitung führen wir Sie durch den Prozess, mit dem Sie mühelos atemberaubende Graustufeneffekte erzielen.
@@ -108,3 +114,9 @@ A1: Ja, Aspose.PSD unterstützt verschiedene Bildformate, darunter PSD, BMP, PNG
 ### F5: Wie erwerbe ich eine Lizenz für Aspose.PSD für .NET?
 
  A5: Sie können eine Lizenz erwerben bei[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

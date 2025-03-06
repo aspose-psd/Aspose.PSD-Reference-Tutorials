@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên màu nền trong Aspose.PSD cho .NET
 linktitle: Hỗ trợ tài nguyên màu nền
 second_title: API Aspose.PSD .NET
 description: Làm chủ Aspose.PSD cho .NET với hướng dẫn từng bước của chúng tôi. Thao tác hình ảnh PSD dễ dàng. Tải xuống bản dùng thử miễn phí của bạn ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/net/psd-file-resources/supporting-background-color-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên màu nền trong Aspose.PSD cho .NET
+
 ## Giới thiệu
 Khai thác toàn bộ tiềm năng của Aspose.PSD cho .NET khi chúng tôi đi sâu vào hướng dẫn toàn diện. Hướng dẫn này sẽ trang bị cho bạn kiến thức để tận dụng các khả năng của Aspose.PSD một cách hiệu quả. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hãy làm theo khi chúng tôi chia từng khía cạnh thành các bước có thể quản lý được, giúp hành trình của bạn với Aspose.PSD trở nên liền mạch.
 ## Điều kiện tiên quyết
@@ -89,3 +95,9 @@ Câu trả lời 2: Có, bạn có thể sử dụng Aspose.PSD trong cả dự 
 ### Câu 5: Làm thế nào để có được giấy phép tạm thời?
 
  Câu trả lời 5: Thực hiện theo các bước trên[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

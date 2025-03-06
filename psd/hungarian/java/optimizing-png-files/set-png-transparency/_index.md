@@ -3,10 +3,16 @@ title: Állítsa be a PNG átlátszóságát az Aspose.PSD for Java fájlban
 linktitle: Állítsa be a PNG átlátszóságát az Aspose.PSD for Java fájlban
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan állíthatja be a PNG átlátszóságát az Aspose.PSD for Java alkalmazásban egy egyszerű, lépésről lépésre bemutatott oktatóanyag segítségével. Tökéletes fejlesztők és grafikusok számára.
-type: docs
 weight: 15
 url: /hu/java/optimizing-png-files/set-png-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a PNG átlátszóságát az Aspose.PSD for Java fájlban
+
 ## Bevezetés
 Amikor a grafika manipulálásáról és kezeléséről van szó, különösen professzionális környezetben, kulcsfontosságú a megfelelő eszközök kiválasztása. Az egyik olyan eszköz, amely kiemelkedik a grafikus manipuláció területén, az Aspose.PSD for Java. Ez a könyvtár lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak Photoshop (PSD) fájlokkal közvetlenül a Java-alkalmazásaikban. Olyan ez, mintha a Photoshop hatékony funkciói kéznél lennének, leszámítva a meredek tanulási görbét! Ma egy speciális funkcióba merülünk bele: a PNG átlátszóságának beállítása az Aspose.PSD for Java segítségével. Akár tapasztalt fejlesztő, akár csak most kezdő, ez az útmutató végigvezeti Önt a lépéseken.
 ## Előfeltételek
@@ -67,3 +73,9 @@ Teljesen! Letöltheti az Aspose.PSD ingyenes próbaverzióját[itt](https://rele
  Meglátogathatja a[Aspose támogatási fórum](https://forum.aspose.com/c/psd/34) segítségért és közösségi támogatásért.
 ### Beállíthatok több átlátszó színt?
 Jelenleg a könyvtár lehetővé teszi egy átlátszó szín beállítását PNG-képenként. Szükség esetén azonban az exportálás előtt módosíthatja a PSD-fájl különböző rétegeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

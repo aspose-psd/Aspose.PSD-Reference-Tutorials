@@ -3,10 +3,16 @@ title: Camada de ajuste de exposição de renderização em arquivos PSD - Java
 linktitle: Camada de ajuste de exposição de renderização em arquivos PSD - Java
 second_title: API Java Aspose.PSD
 description: Aprenda como renderizar e ajustar camadas de exposição em arquivos PSD usando Aspose.PSD para Java. Guia passo a passo com exemplos de código para modificar e adicionar camadas de exposição.
-type: docs
 weight: 15
 url: /pt/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Camada de ajuste de exposição de renderização em arquivos PSD - Java
+
 ## Introdução
 
 Você está trabalhando com arquivos PSD do Photoshop e precisa ajustar a exposição ou adicionar uma camada de ajuste de exposição programaticamente? Esteja você ajustando camadas existentes ou adicionando novas, Aspose.PSD para Java fornece uma maneira poderosa e intuitiva de lidar com essas tarefas. Neste guia, veremos como usar Aspose.PSD para Java para renderizar e modificar camadas de ajuste de exposição em arquivos PSD. Ao final deste tutorial, você saberá como ajustar as configurações de exposição nas camadas existentes e adicionar novas camadas de ajuste de exposição aos seus arquivos PSD. Vamos mergulhar!
@@ -138,3 +144,9 @@ Sim, Aspose.PSD para Java suporta vários tipos de camadas, incluindo camadas de
 ### Como posso obter suporte para Aspose.PSD para Java?
 
  Para suporte, você pode visitar o[Aspose fórum de suporte](https://forum.aspose.com/c/psd/34) onde você pode fazer perguntas e obter ajuda da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 画像処理
 linktitle: 画像処理
 second_title: Aspose.PSD Java API
 description: 画像処理における Aspose.PSD for Java の可能性を解き放ちます。ガウス、ウィーナー、メディアン、モーション ウィーナー フィルターを段階的に適用する方法を学びます。
-type: docs
 weight: 20
 url: /ja/java/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 画像処理
+
 ## 導入
 
 Aspose.PSD for Java は、開発者がビジュアル コンテンツを強化できるようにするツールキットです。このチュートリアル シリーズでは、基本的なテクニックから高度なプロセスまで、Java 画像処理の頼りになるソリューションである Aspose.PSD の機能について詳しく説明します。
@@ -57,3 +63,9 @@ Aspose.PSD for Java で Otsu しきい値を使用した 2 値化を探索しま
 Aspose.PSD for Java の Bradley しきい値処理を使用して画像の品質を向上させます。効果的な画像の 2 値化については、ステップ バイ ステップ ガイドに従ってください。
 ### [Aspose.PSD for Java を使用して PSD ファイルをトリミングする](./crop-psd-file/)
 Aspose.PSD を使用して、Java でシームレスな PSD ファイルの切り取りを体験してください。画像操作タスクに精度と効率を簡単に統合できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

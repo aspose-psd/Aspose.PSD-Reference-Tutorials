@@ -3,10 +3,16 @@ title: Модификация и преобразование PSD-изображ
 linktitle: Модификация и преобразование PSD-изображений
 second_title: Aspose.PSD Java API
 description: Откройте для себя основные учебные пособия по Aspose.PSD для Java. Научитесь работать с PSD-файлами, экспортировать слои, применять эффекты и многое другое с помощью пошаговых руководств.
-type: docs
 weight: 22
 url: /ru/java/psd-image-modification-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Модификация и преобразование PSD-изображений
+
 ## Введение
 
 Добро пожаловать в наше руководство по использованию Aspose.PSD для Java! Эта коллекция руководств призвана помочь разработчикам и графическим дизайнерам эффективно работать с PSD-файлами. Хотите ли вы изменять изображения, управлять слоями или применять эффекты, мы вам поможем. Давайте углубимся в некоторые ключевые уроки, которые улучшат ваши навыки обработки изображений.
@@ -102,3 +108,9 @@ url: /ru/java/psd-image-modification-conversion/
 Улучшайте свои PSD-изображения без особых усилий с помощью Java с помощью Aspose.PSD. Следуйте этому руководству texposureo, шаг за шагом управляйте корректирующими слоями.
 ### [Управление корректирующим слоем фотофильтра в PSD — Java](./manage-photo-filter-adjustment-layer-psd/)
 Узнайте, как управлять корректирующими слоями фотофильтра в файлах PSD с помощью Aspose.PSD для Java. Следуйте этому руководству, чтобы без труда редактировать и добавлять фильтры.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

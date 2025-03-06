@@ -3,10 +3,16 @@ title: Hỗ trợ tài nguyên SoCo trong tệp PSD bằng Java
 linktitle: Hỗ trợ tài nguyên SoCo trong tệp PSD bằng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách thao tác tài nguyên SoCo trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước này.
-type: docs
 weight: 22
 url: /vi/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ tài nguyên SoCo trong tệp PSD bằng Java
+
 ## Giới thiệu
 Làm việc với các tệp PSD có thể giống như điều hướng một mê cung phức tạp, đặc biệt nếu bạn đang đi sâu vào sự phức tạp của các lớp và tài nguyên. May mắn thay, các công cụ như Aspose.PSD cho Java có thể đơn giản hóa quy trình này, cho phép các nhà phát triển thao tác với các tệp Photoshop theo chương trình. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách hỗ trợ tài nguyên SoCo trong các tệp PSD bằng Java, giúp cuộc sống của bạn dễ dàng hơn rất nhiều. 
 Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu bước chân vào thế giới xử lý hình ảnh, hướng dẫn này sẽ chia nhỏ sự phức tạp thành các bước dễ hiểu, đảm bảo rằng bạn kết thúc hành trình của mình với sự hiểu biết vững chắc.
@@ -111,3 +117,9 @@ Aspose.PSD for Java là thư viện cho phép các nhà phát triển thao tác 
  Vâng, có một chuyên dụng[diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34).
 ### Tôi có thể thao tác những loại tài nguyên nào trong tệp PSD?
 Bạn có thể thao tác với nhiều tài nguyên khác nhau, bao gồm các lớp, lớp điền và tài nguyên SoCo trong tệp PSD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

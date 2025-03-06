@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Dikdörtgenler Oluşturma
 linktitle: Dikdörtgenler Oluşturma
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD ile .NET'te dikdörtgen çizme sanatını keşfedin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin. Görüntü işleme oyununuzu zahmetsizce yükseltin.
-type: docs
 weight: 15
 url: /tr/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Dikdörtgenler Oluşturma
+
 ## giriiş
 
 .NET geliştirmenin dinamik alanında Aspose.PSD, görüntü manipülasyonunu yönetmek için güçlü bir araç olarak öne çıkıyor. Bu eğitim temel bir göreve odaklanıyor: Aspose.PSD for .NET kullanarak dikdörtgenler oluşturmak. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz süreç boyunca size yol gösterecek ve her konsepti iyice kavramanızı sağlayacaktır.
@@ -94,3 +100,9 @@ Cevap4: 32 Bpp'nin kullanılması daha zengin renk temsiline olanak tanıyarak d
 ### S5: Aspose.PSD'nin ücretsiz deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.PSD'yi ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

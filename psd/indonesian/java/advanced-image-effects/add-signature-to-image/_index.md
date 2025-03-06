@@ -3,10 +3,16 @@ title: Tambahkan Tanda Tangan ke Gambar dengan Aspose.PSD untuk Java
 linktitle: Tambahkan Tanda Tangan ke Gambar
 second_title: Asumsikan.PSD Java API
 description: Jelajahi integrasi tanda tangan ke dalam gambar dengan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami, impor paket yang diperlukan, dan tingkatkan kemampuan grafis aplikasi Java Anda.
-type: docs
 weight: 13
 url: /id/java/advanced-image-effects/add-signature-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Tanda Tangan ke Gambar dengan Aspose.PSD untuk Java
+
 ## Perkenalan
 
 Dalam perkembangan Java yang luas, memasukkan tanda tangan ke dalam gambar telah menjadi kebutuhan umum. Aspose.PSD untuk Java muncul sebagai alat yang ampuh, memberikan pengembang solusi yang lancar untuk memanipulasi gambar, termasuk penambahan tanda tangan. Dalam tutorial ini, kita akan mengeksplorasi langkah demi langkah cara menambahkan tanda tangan ke gambar menggunakan Aspose.PSD untuk Java.
@@ -95,3 +101,10 @@ A2: Ya, Aspose.PSD mendukung berbagai format gambar, memastikan fleksibilitas da
 ### Q5: Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
 
  A5: Ya, Anda bisa mendapatkan[uji coba gratis](https://releases.aspose.com/)untuk menjelajahi fitur sebelum melakukan pembelian.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

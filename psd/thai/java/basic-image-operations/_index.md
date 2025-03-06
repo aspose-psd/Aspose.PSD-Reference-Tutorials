@@ -3,10 +3,16 @@ title: การใช้งานภาพขั้นพื้นฐาน
 linktitle: การใช้งานภาพขั้นพื้นฐาน
 second_title: Aspose.PSD Java API
 description: ยกระดับทักษะการออกแบบกราฟิกของคุณด้วย Aspose.PSD สำหรับบทช่วยสอน Java เรียนรู้การวาดภาพ การปรับขนาด การผสมผสานโหมด และการตรวจสอบความโปร่งใสในคำแนะนำทีละขั้นตอน
-type: docs
 weight: 25
 url: /th/java/basic-image-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้งานภาพขั้นพื้นฐาน
+
 
 ## การแนะนำ
 
@@ -44,3 +50,9 @@ url: /th/java/basic-image-operations/
 เรียนรู้วิธีเพิ่มเอฟเฟกต์เงาที่น่าดึงดูดให้กับรูปภาพโดยใช้ Aspose.PSD สำหรับ Java ยกระดับการออกแบบกราฟิกของคุณด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [ตรวจสอบความโปร่งใสของภาพด้วย Aspose.PSD สำหรับ Java](./verify-image-transparency/)
 สำรวจการตรวจสอบความโปร่งใสของภาพด้วย Aspose.PSD สำหรับ Java บูรณาการได้ง่าย เอกสารที่มีรายละเอียด และการสนับสนุนชุมชนที่ยอดเยี่ยม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

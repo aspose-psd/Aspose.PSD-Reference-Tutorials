@@ -3,10 +3,16 @@ title: Handtekening aan afbeeldingen toevoegen met Aspose.PSD voor .NET
 linktitle: Handtekening aan afbeeldingen toevoegen met Aspose.PSD voor .NET
 second_title: Aspose.PSD .NET-API
 description: Verbeter uw .NET-imageprojecten met Aspose.PSD. Leer hoe u naadloos handtekeningen kunt toevoegen met behulp van onze stapsgewijze handleiding.
-type: docs
 weight: 13
 url: /nl/net/image-manipulation/adding-signature-to-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handtekening aan afbeeldingen toevoegen met Aspose.PSD voor .NET
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.PSD zich als een krachtig hulpmiddel voor het manipuleren en verbeteren van afbeeldingen. Als u zich ooit heeft afgevraagd hoe u naadloos een handtekening aan afbeeldingen kunt toevoegen met Aspose.PSD voor .NET, dan bent u hier op de juiste plek. Deze stapsgewijze handleiding begeleidt u door het proces, zodat u de kunst van het moeiteloos integreren van handtekeningen in uw afbeeldingen onder de knie krijgt.
@@ -103,3 +109,9 @@ A3: U kunt try-catch-blokken implementeren om uitzonderingen netjes af te handel
 ### Vraag 5: Kan ik Aspose.PSD uitproberen voordat ik een aankoop doe?
 
  A5: Er is zeker een gratis proefperiode beschikbaar[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

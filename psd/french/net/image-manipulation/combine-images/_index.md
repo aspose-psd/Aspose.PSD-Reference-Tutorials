@@ -3,10 +3,16 @@ title: Combinaison d'images dans Aspose.PSD pour .NET
 linktitle: Combinaison d'images
 second_title: API Aspose.PSD.NET
 description: Combinez des images sans effort dans .NET avec Aspose.PSD. Suivez notre didacticiel étape par étape pour une manipulation transparente des images.
-type: docs
 weight: 10
 url: /fr/net/image-manipulation/combine-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Combinaison d'images dans Aspose.PSD pour .NET
+
 ## Introduction
 
 Bienvenue dans notre didacticiel étape par étape sur la combinaison d'images à l'aide d'Aspose.PSD pour .NET ! Aspose.PSD est une puissante bibliothèque .NET qui permet aux développeurs de travailler de manière transparente avec les fichiers Adobe Photoshop. Dans ce didacticiel, nous vous guiderons tout au long du processus de combinaison d'images à l'aide d'Aspose.PSD, en vous fournissant des exemples pratiques et des étapes détaillées.
@@ -107,3 +113,9 @@ A2 : Oui, Aspose.PSD peut être utilisé à des fins personnelles et commerciale
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.PSD ?
 
 A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

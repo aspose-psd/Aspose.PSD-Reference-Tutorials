@@ -3,10 +3,16 @@ title: Implementando ajuste de gama em Aspose.PSD para .NET
 linktitle: Implementando ajuste gama
 second_title: API Aspose.PSD .NET
 description: Explore o poder do Aspose.PSD para .NET com nosso guia passo a passo sobre como implementar o ajuste gama. Ajuste o brilho e o contraste da imagem sem esforço.
-type: docs
 weight: 12
 url: /pt/net/image-adjustment/gamma-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementando ajuste de gama em Aspose.PSD para .NET
+
 ## Introdução
 
 Bem-vindo a este guia completo sobre como implementar o ajuste de gama no Aspose.PSD para .NET! O ajuste gama é uma técnica crucial de processamento de imagem que permite ajustar o brilho e o contraste de uma imagem. Neste tutorial, orientaremos você no processo usando a poderosa biblioteca Aspose.PSD para .NET.
@@ -101,3 +107,9 @@ Parabéns! Você implementou com sucesso o ajuste de gama usando Aspose.PSD para
 ### P5: Preciso de uma licença temporária?
 
  A5: Se necessário, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

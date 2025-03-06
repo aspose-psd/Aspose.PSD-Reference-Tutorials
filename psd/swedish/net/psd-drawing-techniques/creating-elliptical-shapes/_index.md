@@ -3,10 +3,16 @@ title: Skapa elliptiska former med Aspose.PSD för .NET
 linktitle: Skapa elliptiska former med Aspose.PSD för .NET
 second_title: Aspose.PSD .NET API
 description: Lär dig hur du ritar elliptiska former i .NET med Aspose.PSD. Steg-för-steg guide med kodexempel. Skapa fantastisk grafik utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/psd-drawing-techniques/creating-elliptical-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa elliptiska former med Aspose.PSD för .NET
+
 ## Introduktion
 
 Välkommen till vår omfattande guide för att skapa elliptiska former med Aspose.PSD för .NET. Aspose.PSD är ett kraftfullt .NET-bibliotek som tillåter utvecklare att manipulera och konvertera Photoshop-filer utan att behöva Adobe Photoshop. I den här handledningen går vi igenom processen att rita elliptiska former med hjälp av biblioteket.
@@ -101,3 +107,9 @@ Grattis! Du har framgångsrikt skapat elliptiska former med Aspose.PSD för .NET
 ### F5: Behöver jag en tillfällig licens för att testa?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

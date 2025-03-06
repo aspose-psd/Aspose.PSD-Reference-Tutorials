@@ -3,10 +3,16 @@ title: Điều chỉnh độ tương phản của hình ảnh bằng Aspose.PSD 
 linktitle: Điều chỉnh độ tương phản của hình ảnh
 second_title: API Java Aspose.PSD
 description: Khám phá thế giới điều chỉnh độ tương phản hình ảnh trong Java với Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hình ảnh liền mạch.
-type: docs
 weight: 22
 url: /vi/java/advanced-techniques/adjust-contrast/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điều chỉnh độ tương phản của hình ảnh bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý hình ảnh bằng Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ. Trong số vô số tính năng của nó, điều chỉnh độ tương phản hình ảnh là một yêu cầu phổ biến. Hướng dẫn này sẽ hướng dẫn bạn quy trình điều chỉnh độ tương phản hình ảnh bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn nắm vững khía cạnh thiết yếu này của thao tác hình ảnh.
@@ -107,3 +113,9 @@ A3: Tài liệu có sẵn[đây](https://reference.aspose.com/psd/java/).
 ### Câu 5: Tôi có thể mua Aspose.PSD không?
 
  Câu trả lời 5: Có, bạn có thể mua Aspose.PSD[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

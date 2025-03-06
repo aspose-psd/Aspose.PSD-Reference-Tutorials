@@ -3,10 +3,16 @@ title: موارد ملف PSD
 linktitle: موارد ملف PSD
 second_title: Aspose.PSD.NET API
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.PSD لـ .NET من خلال برامجنا التعليمية. إتقان لون الخلفية ومعلومات الحدود ومسار العمل والموارد بالأبيض والأسود بسلاسة.
-type: docs
 weight: 31
 url: /ar/net/psd-file-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# موارد ملف PSD
+
 
 ## مقدمة
 
@@ -39,3 +45,9 @@ url: /ar/net/psd-file-resources/
 اكتشف قوة 'WorkingPathResource' في Aspose.PSD لـ .NET. قم بتعزيز دقة الصورة باستخدام هذا الدليل المفصّل خطوة بخطوة.
 ### [دعم موارد الأسود والأبيض (Blwh) في Aspose.PSD لـ .NET](./supporting-black-and-white-blwh-resource/)
 استكشف التحرير المتقدم للصور باستخدام Aspose.PSD لـ .NET. تعلم كيفية إتقان طبقات الضبط بالأبيض والأسود للتحكم الدقيق في عناصر الصورة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

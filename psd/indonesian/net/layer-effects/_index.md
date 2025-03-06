@@ -3,10 +3,16 @@ title: Efek Lapisan
 linktitle: Efek Lapisan
 second_title: Asumsikan.PSD .NET API
 description: Temukan keajaiban efek lapisan dengan Aspose.PSD untuk .NET! Tingkatkan keterampilan manipulasi gambar Anda dengan belajar menambahkan mode guratan, bayangan, dan campuran.
-type: docs
 weight: 29
 url: /id/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efek Lapisan
+
 ## Perkenalan
 
 Bebaskan potensi penuh dari upaya manipulasi gambar Anda dengan Aspose.PSD untuk .NET. Panduan komprehensif ini memperkenalkan Anda pada segudang efek lapisan yang akan mengubah proses kreatif Anda. Dari guratan dan bayangan hingga mode campuran, tingkatkan desain Anda dengan mudah.
@@ -54,3 +60,9 @@ Sempurnakan gambar Anda dengan Aspose.PSD untuk .NET! Belajarlah untuk mendukung
 Pelajari cara menyesuaikan opacity efek bayangan di Aspose.PSD untuk .NET dengan tutorial komprehensif ini.
 ### [Bekerja dengan Blend Mode di Aspose.PSD untuk .NET](./working-with-blend-modes/)
 Jelajahi kekuatan mode campuran di Aspose.PSD untuk .NET. Tutorial ini memandu Anda dalam menerapkan berbagai mode campuran dengan contoh langkah demi langkah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PSD ファイルの操作
 linktitle: PSD ファイルの操作
 second_title: Aspose.PSD Java API
 description: PSD レイヤー グループを画像にエクスポートする方法や、Clbl、Infx、Lspf リソースを操作する方法など、包括的な Aspose.PSD for Java チュートリアルをご覧ください。
-type: docs
 weight: 26
 url: /ja/java/working-with-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD ファイルの操作
+
 
 ## 導入
 
@@ -37,3 +43,9 @@ Aspose.PSD for Java を使用して PSD ファイル内の Clbl リソースを�
 この包括的なステップバイステップのチュートリアルで、Aspose.PSD for Java を使用して PSD ファイル内の Infx リソースを操作する方法を学びます。あらゆるレベルの開発者に最適です。
 ### [Java を使用して PSD ファイル内の Lspf リソースをサポートする](./support-lspf-resource-psd-files/)
 ステップバイステップ ガイドに従って、Aspose.PSD for Java を使用して PSD ファイル内の Lspf リソースをサポートおよび操作する方法を習得します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

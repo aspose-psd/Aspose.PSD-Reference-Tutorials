@@ -3,10 +3,16 @@ title: เอฟเฟกต์เลเยอร์
 linktitle: เอฟเฟกต์เลเยอร์
 second_title: Aspose.PSD .NET API
 description: ค้นพบความมหัศจรรย์ของเอฟเฟกต์เลเยอร์ด้วย Aspose.PSD สำหรับ .NET! ยกระดับทักษะการจัดการภาพของคุณโดยการเรียนรู้การเพิ่มโหมดเส้นขีด เงา และผสมผสาน
-type: docs
 weight: 29
 url: /th/net/layer-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เอฟเฟกต์เลเยอร์
+
 ## การแนะนำ
 
 ปลดปล่อยศักยภาพสูงสุดของความพยายามในการปรับแต่งภาพของคุณด้วย Aspose.PSD สำหรับ .NET คู่มือที่ครอบคลุมนี้จะแนะนำให้คุณรู้จักกับเอฟเฟกต์เลเยอร์มากมายที่จะเปลี่ยนกระบวนการสร้างสรรค์ของคุณ ตั้งแต่ลายเส้นและเงาไปจนถึงโหมดผสมผสาน ยกระดับการออกแบบของคุณได้อย่างง่ายดาย
@@ -54,3 +60,9 @@ url: /th/net/layer-effects/
 เรียนรู้วิธีปรับความทึบของเอฟเฟกต์เงาใน Aspose.PSD สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมนี้
 ### [การทำงานกับโหมดผสมผสานใน Aspose.PSD สำหรับ .NET](./working-with-blend-modes/)
 สำรวจพลังของโหมดผสมผสานใน Aspose.PSD สำหรับ .NET บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้โหมดผสมผสานต่างๆ พร้อมตัวอย่างทีละขั้นตอน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

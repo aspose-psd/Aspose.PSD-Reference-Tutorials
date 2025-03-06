@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中通过 Shifts 裁剪图像
 linktitle: 通过 Shift 裁剪图像
 second_title: Aspose.PSD .NET API
 description: 学习使用 Aspose.PSD for .NET 轻松裁剪图像。按照我们的分步指南进行精确的图像调整。
-type: docs
 weight: 12
 url: /zh/net/image-manipulation/crop-image-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中通过 Shifts 裁剪图像
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.PSD 是功能强大的图像处理工具包。其显著特点之一是能够精确裁剪图像，这要归功于“按移位裁剪”功能。在本分步指南中，我们将引导您完成使用 Aspose.PSD for .NET 无缝裁剪图像的过程。
@@ -105,3 +111,10 @@ A1：是的，Aspose.PSD 支持各种图像格式，允许您裁剪 JPEG、PNG �
 ### Q5: 我可以直接从网站上购买 Aspose.PSD for .NET 吗？
 
  A5：是的，你可以从[购买页面](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

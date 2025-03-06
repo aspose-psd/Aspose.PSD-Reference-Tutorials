@@ -3,10 +3,16 @@ title: 在 Aspose.PSD for .NET 中支持 ObAr 和 UnFl 签名
 linktitle: 支持 ObAr 和 UnFl 签名
 second_title: Aspose.PSD .NET API
 description: 探索 Aspose.PSD for .NET 在支持 ObAr 和 UnFl 签名方面的强大功能。按照我们的分步指南进行无缝集成。
-type: docs
 weight: 15
 url: /zh/net/image-manipulation/supporting-obar-and-unfl-signatures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.PSD for .NET 中支持 ObAr 和 UnFl 签名
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.PSD 是处理和处理 Photoshop 文件的强大工具。在其丰富的功能中，支持 ObAr 和 UnFl 签名对于高级图像编辑至关重要。本教程将指导您完成整个过程，分解每个步骤以确保无缝实施。
@@ -119,3 +125,9 @@ A3：是的，您可以探索免费试用版[这里](https://releases.aspose.com
 ### Q5: 我可以在哪里购买 Aspose.PSD for .NET？
 
  A5：您可以购买 Aspose.PSD[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cropping PSD Files when Converting to PNG in Aspose.PSD for .NET
 linktitle: Cropping PSD Files when Converting to PNG
 second_title: Aspose.PSD .NET API
 description: Learn how to crop PSD files effortlessly using Aspose.PSD for .NET. Follow our step-by-step guide for seamless conversion to PNG.
-type: docs
 weight: 18
 url: /net/psd-file-manipulation/crop-psd-conversion-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cropping PSD Files when Converting to PNG in Aspose.PSD for .NET
+
 ## Introduction
 In the realm of .NET development, manipulating and converting images is a common task. Aspose.PSD for .NET provides a powerful set of tools to streamline this process. One frequent requirement is cropping PSD files before converting them to PNG. In this step-by-step tutorial, we'll delve into the process using Aspose.PSD for .NET.
 ## Prerequisites
@@ -77,3 +83,10 @@ A4: If you need a temporary license, you can get one [here](https://purchase.asp
 ### Q5: Are there any examples or tutorials available in the documentation?
 
 A5: Yes, you can find comprehensive documentation and examples [here](https://reference.aspose.com/psd/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

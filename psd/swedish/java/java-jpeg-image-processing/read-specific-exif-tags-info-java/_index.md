@@ -3,10 +3,16 @@ title: Läs information om specifik EXIF-taggar i Java
 linktitle: Läs information om specifik EXIF-taggar i Java
 second_title: Aspose.PSD Java API
 description: Lär dig hur du läser specifika EXIF-taggar från PSD-bilder med Aspose.PSD för Java med vår steg-för-steg handledning. Förbättra dina färdigheter i bildbehandling.
-type: docs
 weight: 19
 url: /sv/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Läs information om specifik EXIF-taggar i Java
+
 ## Introduktion
 Vill du dyka in i världen av PSD-filmanipulation med Java? Om du vill förstå hur man läser specifika EXIF-taggar från PSD-bilder har du kommit rätt. Denna handledning kommer att leda dig genom hela processen med Aspose.PSD för Java, från att ställa in din miljö till att extrahera detaljerad EXIF-data. Låt oss komma igång!
 ## Förutsättningar
@@ -71,3 +77,9 @@ Ja, Aspose.PSD låter dig läsa och ändra EXIF-data. Du kan uppdatera taggar oc
 Aspose.PSD stöder olika Adobe Photoshop-format, inklusive PSD, PSB och mer. Det ger också alternativ för att konvertera dessa format till andra som PNG, JPEG, TIFF, etc.
 ### Hur får jag support för Aspose.PSD?
  Du kan få support genom Aspose.PSD[forum](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

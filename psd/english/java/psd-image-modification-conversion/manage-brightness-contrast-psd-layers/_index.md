@@ -3,10 +3,16 @@ title: Manage Brightness and Contrast in PSD Layers - Java
 linktitle: Manage Brightness and Contrast in PSD Layers - Java
 second_title: Aspose.PSD Java API
 description: Learn to adjust brightness and contrast in PSD files using Aspose.PSD for Java effortlessly. Ideal for developers and graphic designers.
-type: docs
 weight: 21
 url: /java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Brightness and Contrast in PSD Layers - Java
+
 ## Introduction
 
 Are you a graphic designer or a developer who frequently works with PSD (Photoshop Document) files? Do you find yourself needing to adjust the brightness and contrast of layers in these files but lack the know-how to automate this task using Java? Well, you're in luck! In this tutorial, we're going to dive into how to manage brightness and contrast in PSD layers using the Aspose.PSD library for Java. This will not only save you time but also enhance your creative workflow. Let's roll up our sleeves and get started!
@@ -125,3 +131,10 @@ Yes, you can download a free trial version of Aspose.PSD from the [release page]
 
 ### Where can I find additional support for Aspose.PSD?
 You can get support for Aspose.PSD on their [support forum](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

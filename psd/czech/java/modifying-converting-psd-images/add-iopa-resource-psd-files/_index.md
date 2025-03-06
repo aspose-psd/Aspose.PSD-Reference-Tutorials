@@ -3,10 +3,16 @@ title: Přidejte zdroj IOPA do souborů PSD pomocí Java
 linktitle: Přidejte zdroj IOPA do souborů PSD pomocí Java
 second_title: Aspose.PSD Java API
 description: V této komplexní příručce se dozvíte, jak přidat prostředky IOPA do souborů PSD pomocí Aspose.PSD for Java. Jednoduché kroky pro efektivní manipulaci s grafikou.
-type: docs
 weight: 15
 url: /cs/java/modifying-converting-psd-images/add-iopa-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte zdroj IOPA do souborů PSD pomocí Java
+
 ## Zavedení
 Chcete manipulovat se soubory PSD jako profesionál? Pokud jste se někdy ocitli hluboko v labyrintu formátů PSD Photoshopu a hledali dokonalou metodu pro změnu vlastností vrstvy, pak jste na tom. Ponoříme se do toho, jak přidat prostředky IOPA do souborů PSD pomocí Aspose.PSD pro Java. Tato výkonná knihovna umožňuje bezproblémovou interakci se soubory PSD, takže je snazší než kdy jindy upravovat vlastnosti vrstvy, jako je neprůhlednost výplně.
 Takže si vezměte svůj oblíbený hrnek na kávu, posaďte se a vydejte se na tuto vzrušující cestu vylepšování souborů PSD. Na konci tohoto tutoriálu budete schopni s jistotou manipulovat s dokumenty PSD pomocí prostředků IOPA, díky čemuž budou vaše úkoly v oblasti grafického designu hračkou.
@@ -91,3 +97,9 @@ IOPA znamená „Image-Opacity“ Resource. Upravuje průhlednost vrstvy v soubo
 Ano, pokud je to platný soubor PSD, můžete tyto operace provádět s libovolnými soubory PSD, které máte.
 ### Kde mohu získat podporu pro Aspose.PSD?  
  Pro podporu můžete navštívit jejich[fórum podpory](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

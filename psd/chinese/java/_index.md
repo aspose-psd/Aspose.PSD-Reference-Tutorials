@@ -1,12 +1,17 @@
 ---
 title: Aspose.PSD for Java 综合教程和示例
 linktitle: Aspose.PSD for Java 教程
-type: docs
 weight: 10
 url: /zh/java/
 description: 解锁 Aspose.PSD for Java 在图像处理方面的强大功能！通过分步教程掌握高斯、维纳、中值和运动维纳等过滤器。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for Java 综合教程和示例
+
 
 ## 介绍
 
@@ -86,3 +91,9 @@ is_root: true
 使用 Aspose.PSD for Java 高效管理 TIFF 图像。通过我们的分步教程学习如何压缩、配置和将 Adobe Deflate 压缩应用于 TIFF 文件。
 ### [使用 PSD 文件](./working-with-psd-files/)
 探索全面的 Aspose.PSD for Java 教程，包括如何将 PSD 图层组导出到图像以及操作 Clbl、Infx 和 Lspf 资源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

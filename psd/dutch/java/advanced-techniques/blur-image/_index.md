@@ -3,10 +3,16 @@ title: Vervaag een afbeelding met Aspose.PSD voor Java
 linktitle: Een afbeelding vervagen
 second_title: Aspose.PSD Java-API
 description: Leer afbeeldingen vervagen in Java met Aspose.PSD. Volg onze stapsgewijze handleiding voor professionele resultaten.
-type: docs
 weight: 24
 url: /nl/java/advanced-techniques/blur-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vervaag een afbeelding met Aspose.PSD voor Java
+
 ## Invoering
 
 In de wereld van Java-ontwikkeling is het verbeteren en manipuleren van afbeeldingen een veel voorkomende vereiste. Als u programmatisch een vervagingseffect aan uw afbeeldingen wilt toevoegen, is Aspose.PSD voor Java een krachtig hulpmiddel dat het proces vereenvoudigt. Deze tutorial leidt u door de stappen voor het vervagen van een afbeelding met Aspose.PSD, zodat u moeiteloos professionele resultaten behaalt.
@@ -96,3 +102,9 @@ A1: Absoluut! Aspose.PSD wordt geleverd met uitgebreide documentatie om ontwikke
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PSD?
 
  A5: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

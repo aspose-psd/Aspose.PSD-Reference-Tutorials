@@ -3,10 +3,16 @@ title: Rechthoeken construeren in Aspose.PSD voor .NET
 linktitle: Rechthoeken construeren
 second_title: Aspose.PSD .NET-API
 description: Ontdek de kunst van het tekenen van rechthoeken in .NET met Aspose.PSD. Volg onze stapsgewijze handleiding voor een naadloze integratie. Breng uw beeldmanipulatiespel moeiteloos naar een hoger niveau.
-type: docs
 weight: 15
 url: /nl/net/psd-drawing-techniques/constructing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rechthoeken construeren in Aspose.PSD voor .NET
+
 ## Invoering
 
 In het dynamische domein van .NET-ontwikkeling onderscheidt Aspose.PSD zich als een krachtig hulpmiddel voor het omgaan met beeldmanipulatie. Deze tutorial richt zich op een fundamentele taak: rechthoeken construeren met Aspose.PSD voor .NET. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze stapsgewijze handleiding begeleidt u door het proces, zodat u elk concept grondig begrijpt.
@@ -94,3 +100,9 @@ A4: Het gebruik van 32 Bpp zorgt voor een rijkere kleurweergave, waardoor gedeta
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.PSD?
 
  A5: Ja, u kunt Aspose.PSD verkennen met een gratis proefperiode. Download het[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

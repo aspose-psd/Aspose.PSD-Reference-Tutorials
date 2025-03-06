@@ -3,10 +3,16 @@ title: Rechtecke in Java zeichnen
 linktitle: Rechtecke in Java zeichnen
 second_title: Aspose.PSD Java API
 description: Lernen Sie, mit Aspose.PSD für Java Rechtecke auf Bildern zu zeichnen. Dieses Tutorial führt Java-Entwickler Schritt für Schritt durch. Perfekt für Bildbearbeitungsaufgaben.
-type: docs
 weight: 17
 url: /de/java/java-graphics-drawing/drawing-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rechtecke in Java zeichnen
+
 ## Einführung
 In der Welt der Java-Entwicklung ist das programmgesteuerte Bearbeiten und Generieren von Bildern eine häufige Anforderung in verschiedenen Anwendungen. Eine solche häufig anzutreffende Aufgabe ist das Zeichnen von Formen wie Rechtecken auf Bildern. Aspose.PSD für Java bietet einen robusten Satz von Tools und Funktionen, um dies effizient zu erreichen. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess des Zeichnens von Rechtecken auf einem Bild mit Aspose.PSD für Java.
 ## Voraussetzungen
@@ -84,3 +90,9 @@ Ja, Aspose.PSD für Java ist für die leistungsstarke Bildverarbeitung mit umfan
  Weitere Beispiele und eine ausführlichere Dokumentation finden Sie auf der[Aspose.PSD für Java-Dokumentation](https://reference.aspose.com/psd/java/).
 ### Unterstützt Aspose.PSD für Java andere Bildformate außer BMP?
 Ja, Aspose.PSD für Java unterstützt eine Vielzahl von Bildformaten, darunter PNG, JPEG, TIFF und GIF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

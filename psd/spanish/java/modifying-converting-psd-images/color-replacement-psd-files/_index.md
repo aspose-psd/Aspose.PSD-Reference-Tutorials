@@ -3,10 +3,16 @@ title: Reemplazo de color en archivos PSD usando Aspose.PSD para Java
 linktitle: Reemplazo de color en archivos PSD usando Aspose.PSD para Java
 second_title: API de Java Aspose.PSD
 description: Aprenda a reemplazar colores en archivos PSD usando Aspose.PSD para Java. Siga esta sencilla guía paso a paso para manipular sus imágenes de manera eficiente.
-type: docs
 weight: 21
 url: /es/java/modifying-converting-psd-images/color-replacement-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reemplazo de color en archivos PSD usando Aspose.PSD para Java
+
 ## Introducción
 ¿Está buscando manipular sus archivos PSD mediante programación? ¡Has aterrizado en el lugar correcto! Ya sea que sea un desarrollador experimentado o simplemente se esté iniciando en el mundo de la manipulación de imágenes, usar Aspose.PSD para Java hace que el reemplazo de color en archivos PSD sea muy sencillo. En esta guía, exploraremos cómo reemplazar fácilmente colores específicos en sus archivos PSD con solo unas pocas líneas de código. ¡Toma una taza de café y sumergámonos!
 ## Requisitos previos
@@ -77,3 +83,9 @@ Aspose.PSD para Java es una poderosa biblioteca que permite a los desarrolladore
  Si tiene algún problema, puede visitar el[foro de soporte](https://forum.aspose.com/c/psd/34) para obtener ayuda.
 ### ¿Cómo puedo obtener una licencia temporal?
  Puedes solicitar un[licencia temporal](https://purchase.aspose.com/temporary-license/) para evaluar el producto en su totalidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

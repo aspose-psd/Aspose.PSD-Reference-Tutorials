@@ -3,10 +3,16 @@ title: Java용 Aspose.PSD를 사용하여 간단한 그리기 수행
 linktitle: 간단한 그리기 수행
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에 모양을 그리는 방법을 알아보세요. 이 단계별 가이드에서는 코드 예제를 사용하여 레이어 생성, 추가 및 그리기를 다룹니다.
-type: docs
 weight: 10
 url: /ko/java/basic-image-operations/simple-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.PSD를 사용하여 간단한 그리기 수행
+
 ## 소개
 
 Java용 Aspose.PSD를 사용하여 간단한 그리기를 수행하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다! 이 튜토리얼에서는 새 PSD 문서 만들기, 레이어 추가, 다양한 색상으로 모양 그리기의 기본 사항을 살펴보겠습니다. Aspose.PSD for Java는 프로그래밍 방식으로 PSD 파일을 조작할 수 있는 강력한 라이브러리로, 그래픽 디자인 작업을 위한 광범위한 기능을 제공합니다.
@@ -125,3 +131,9 @@ A1: 예, Java용 Aspose.PSD는 기존 PSD 파일을 편집하고 조작할 수 �
 ### Q5: Java용 Aspose.PSD에 임시 라이선스를 사용할 수 있나요?
 
  A5: 예, 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

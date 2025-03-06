@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Bradley Eşiğini Uygulama
 linktitle: Bradley Eşiğinin Uygulanması
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'te Bradley Threshold'u kullanarak görüntü segmentasyonunu geliştirin. Etkili ikilileştirme için adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/net/image-processing/apply-bradley-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Bradley Eşiğini Uygulama
+
 ## giriiş
 
 Aspose.PSD for .NET'te Bradley Eşiğinin uygulanmasına ilişkin kapsamlı eğitimimize hoş geldiniz. Aspose.PSD for .NET, .NET uygulamalarınızda Photoshop dosyalarıyla çalışmanıza olanak tanıyan güçlü bir kütüphanedir. Bradley Eşikleme, görüntülerin ikilileştirilmesi için kullanılan ve nesnelerin arka plandan etkili bir şekilde ayrılmasına yardımcı olan bir tekniktir.
@@ -90,3 +96,9 @@ Cevap1: Evet, Bradley Eşikleme, çeşitli görüntü türlerine uygun, çok yö
 ### S5: Aspose.PSD lisansını nereden satın alabilirim?
 
  A5: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

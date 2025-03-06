@@ -3,10 +3,16 @@ title: Обрезать изображение по прямоугольнику
 linktitle: Обрезать изображение по прямоугольнику
 second_title: Aspose.PSD Java API
 description: Изучите возможности плавного кадрирования изображений в Java с помощью Aspose.PSD. Следуйте нашему пошаговому руководству, чтобы легко обрезать изображения с помощью Aspose.PSD для Java.
-type: docs
 weight: 15
 url: /ru/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обрезать изображение по прямоугольнику в Aspose.PSD для Java
+
 ## Введение
 
 В мире разработки Java манипулирование изображениями является распространенной задачей, и Aspose.PSD для Java предоставляет мощное решение для обработки изображений. В этом уроке мы покажем вам процесс обрезки изображения по прямоугольнику с помощью Aspose.PSD для Java. Следуйте инструкциям ниже, чтобы добиться этого с легкостью.
@@ -105,3 +111,9 @@ rasterImage.save(destName, new JpegOptions());
 ### Вопрос 5. Какие форматы изображений поддерживаются для обрезки в Aspose.PSD для Java?
 
 A5: Aspose.PSD для Java поддерживает различные форматы изображений, включая PSD, PNG, JPEG и другие.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

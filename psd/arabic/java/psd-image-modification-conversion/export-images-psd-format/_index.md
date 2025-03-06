@@ -3,10 +3,16 @@ title: تصدير الصور إلى تنسيق PSD باستخدام Java
 linktitle: تصدير الصور إلى تنسيق PSD باستخدام Java
 second_title: Aspose.PSD جافا API
 description: تعرف على كيفية تصدير الصور إلى تنسيق PSD باستخدام Aspose.PSD لـ Java في دليل بسيط خطوة بخطوة. مثالي للمطورين ومصممي الجرافيك.
-type: docs
 weight: 11
 url: /ar/java/psd-image-modification-conversion/export-images-psd-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير الصور إلى تنسيق PSD باستخدام Java
+
 ## مقدمة
 
 في عالم التصميم الجرافيكي، يعد العمل مع الصور ذات الطبقات أمرًا ضروريًا، وأصبح تنسيق Adobe Photoshop PSD هو الاختيار المفضل للمحترفين. ربما تسأل نفسك، "كيف يمكنني التعامل مع الصور الخاصة بي وحفظها بهذا التنسيق باستخدام Java؟" حسنا، أنت في المكان الصحيح! في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من قوة Aspose.PSD لـ Java لإنشاء وتصدير الصور بتنسيق PSD بسلاسة. لذا، احصل على الراحة، وتناول وجبة خفيفة، ودعنا نتعمق في عالم معالجة الصور!
@@ -117,3 +123,9 @@ Aspose.PSD for Java هي مكتبة قوية للعمل مع ملفات Photosho
 
 ### كيف يمكنني الحصول على الدعم إذا واجهت مشاكل؟
  للحصول على الدعم، يمكنك زيارة[منتدى Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET で PSD ファイルをトリミングする
 linktitle: Aspose.PSD for .NET で PSD ファイルをトリミングする
 second_title: Aspose.PSD .NET API
 description: 多機能ツールキット Aspose.PSD を使用して、.NET での PSD ファイルの切り取りの技術を探求します。画像操作のスキルを簡単に向上できます。
-type: docs
 weight: 19
 url: /ja/net/psd-file-manipulation/crop-psd-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET で PSD ファイルをトリミングする
+
 ## 導入
 .NET 開発の分野では、Aspose.PSD は PSD (Photoshop Document) ファイルをシームレスに処理するための強力なツールキットとして際立っています。画像の操作では、切り取りが基本的な操作であり、Aspose.PSD は .NET 開発者にとってこのプロセスを簡素化します。このチュートリアルでは、Aspose.PSD for .NET を使用して PSD ファイルを切り取る方法をステップ バイ ステップで説明します。
 ## 前提条件
@@ -72,3 +78,9 @@ A1: はい、Aspose.PSD は最新の .NET フレームワークとの互換性�
 ### Q5: テスト目的で一時ライセンスは必要ですか?
 
  A5: はい、臨時免許証が必要な場合は取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

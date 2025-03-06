@@ -3,10 +3,16 @@ title: Buat Thumbnail dari File PSD menggunakan Java
 linktitle: Buat Thumbnail dari File PSD menggunakan Java
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara membuat thumbnail dari file PSD dengan mudah menggunakan Java dan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk pemrosesan gambar yang lancar.
-type: docs
 weight: 24
 url: /id/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Thumbnail dari File PSD menggunakan Java
+
 ## Perkenalan
 Dalam dunia desain grafis, bekerja dengan file PSD (Photoshop Document) adalah hal yang lumrah. Baik Anda seorang pengembang berpengalaman, desainer grafis, atau hanya seseorang yang ingin mendalami pemrosesan gambar, membuat gambar mini dari file PSD dapat menghemat waktu dan menyederhanakan alur kerja Anda. Tutorial ini akan memandu Anda melalui seluruh proses menggunakan Aspose.PSD untuk Java. Aspose.PSD bukan hanya perpustakaan yang kuat untuk mengelola file Photoshop, tetapi juga menjadikan tugas yang ada menjadi intuitif dan mudah dikelola. Apakah Anda siap mempelajari cara membuat thumbnail dari file PSD secara efisien?
 ## Prasyarat
@@ -112,3 +118,9 @@ Dalam contoh ini, kami menyimpan thumbnail dalam format BMP, namun Aspose.PSD me
 Tidak, Aspose.PSD bekerja secara independen dari Photoshop.
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PSD?
  Anda dapat memeriksanya[Dokumentasi Aspose.PSD](https://reference.aspose.com/psd/java/) untuk detail lebih lanjut, tutorial, dan sumber daya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

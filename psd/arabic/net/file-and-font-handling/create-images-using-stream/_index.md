@@ -3,10 +3,16 @@ title: إنشاء الصور باستخدام الدفق في Aspose.PSD لـ .N
 linktitle: إنشاء الصور باستخدام الدفق
 second_title: Aspose.PSD.NET API
 description: تعرف على كيفية إنشاء الصور باستخدام التدفقات في Aspose.PSD لـ .NET. اتبع دليلنا خطوة بخطوة لمعالجة الصور بكفاءة.
-type: docs
 weight: 12
 url: /ar/net/file-and-font-handling/create-images-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء الصور باستخدام الدفق في Aspose.PSD لـ .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.PSD كأداة قوية لمعالجة الصور. إحدى الميزات المفيدة بشكل خاص هي القدرة على إنشاء الصور باستخدام التدفقات، مما يوفر المرونة والكفاءة في التعامل مع بيانات الصورة. سيرشدك هذا الدليل المفصّل خطوة بخطوة خلال العملية، مع تفصيل كل عنصر لضمان تجربة سلسة. قبل أن نتعمق، دعونا نغطي المتطلبات الأساسية.
@@ -111,3 +117,9 @@ A2: الأبعاد قابلة للتخصيص؛ اضبط المعلمات في ط
 ### س5: هل التراخيص المؤقتة متاحة؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te Gradyanlı Kontur Katmanı Ekleme
 linktitle: Degrade ile Kontur Katmanı Ekleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET'te degrade kontur katmanını nasıl ekleyeceğinizi öğrenin. Bu kapsamlı eğitimle görüntü işleme becerilerinizi geliştirin.
-type: docs
 weight: 12
 url: /tr/net/layer-effects/adding-stroke-layer-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te Gradyanlı Kontur Katmanı Ekleme
+
 ## giriiş
 
 .NET uygulamalarınızı büyüleyici grafik efektleriyle geliştirmek istiyorsanız Aspose.PSD for .NET, başvuracağınız çözümdür. Bu eğitimde Aspose.PSD for .NET'i kullanarak degradeli kontur katmanı ekleme sürecini ayrıntılı olarak ele alacağız. Bu adım adım kılavuz, görsellerinizin görsel çekiciliğini zahmetsizce artırmanıza yardımcı olacaktır.
@@ -119,3 +125,9 @@ Cevap1: Evet, Aspose.PSD for .NET çeşitli .NET çerçeveleriyle uyumludur.
 ### S5: Aspose.PSD for .NET lisansını nasıl satın alabilirim?
 
  A5: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ondersteuning van Lspf-bronnen in PSD-bestanden met behulp van Java
 linktitle: Ondersteuning van Lspf-bronnen in PSD-bestanden met behulp van Java
 second_title: Aspose.PSD Java-API
 description: Leer hoe u Lspf Resource in PSD-bestanden kunt ondersteunen en manipuleren met behulp van Aspose.PSD voor Java met onze stapsgewijze handleiding.
-type: docs
 weight: 14
 url: /nl/java/working-with-psd-files/support-lspf-resource-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van Lspf-bronnen in PSD-bestanden met behulp van Java
+
 ## Invoering
 
 Bent u een ontwikkelaar die zich wil verdiepen in de wereld van PSD-bestandsmanipulatie? Dan ben je hier aan het juiste adres! Wanneer u met PSD-bestanden werkt, moet u vaak omgaan met verschillende laagbronnen, zoals de LspfResource. Deze hulpbron is cruciaal voor het beheren van laagbeschermingsinstellingen zoals composiet-, positie- en transparantiebescherming in een PSD-bestand. In deze uitgebreide zelfstudie onderzoeken we hoe we de LspfResource in PSD-bestanden kunnen ondersteunen en manipuleren met behulp van Java met behulp van Aspose.PSD voor Java.
@@ -182,3 +188,9 @@ Als u de wijzigingen niet verifieert, bestaat het risico dat de instellingen nie
 
 ### Kan ik wijzigingen in LspfResource ongedaan maken nadat ik het bestand heb opgeslagen?  
 Zodra het bestand is opgeslagen, is het niet meer mogelijk om wijzigingen direct ongedaan te maken. U kunt echter het oorspronkelijke bestand opnieuw laden en de wijzigingen indien nodig opnieuw toepassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

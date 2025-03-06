@@ -3,10 +3,16 @@ title: Сохранение и экспорт файлов
 linktitle: Сохранение и экспорт файлов
 second_title: Aspose.PSD .NET API
 description: С легкостью сохраняйте и экспортируйте изображения с помощью Aspose.PSD для .NET. Следуйте нашим пошаговым руководствам для эффективных операций с дисками и потоками.
-type: docs
 weight: 23
 url: /ru/net/file-saving-and-exporting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранение и экспорт файлов
+
 ## Введение
 
 Если вы когда-либо сталкивались с тонкостями сохранения и экспорта изображений в своих проектах .NET, вы не одиноки. Цифровая сфера требует точности, а когда дело доходит до изображений, этот процесс становится еще более важным. К счастью, Aspose.PSD для .NET призван упростить ваше путешествие, предлагая удобные решения для сохранения изображений на диск и в потоковом режиме.
@@ -32,3 +38,9 @@ url: /ru/net/file-saving-and-exporting/
 Исследуйте возможности Aspose.PSD для .NET и узнайте, как легко сохранять изображения в поток. Следуйте нашему пошаговому руководству для бесшовной интеграции.
 ### [Работа с Save Image Worker в Aspose.PSD для .NET](./save-image-worker/)
 Научитесь использовать Aspose.PSD для .NET Save Image Worker для плавного преобразования формата изображения с обработкой прерываний.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

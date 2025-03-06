@@ -3,10 +3,16 @@ title: PSD ファイルでカスタム Raw データ ローダーを使用する
 linktitle: PSD ファイルでカスタム Raw データ ローダーを使用する - Java
 second_title: Aspose.PSD Java API
 description: Java を使用して PSD ファイルでカスタム生データ ローダーを使用する方法を学びます。このステップ バイ ステップ ガイドでは、セットアップからリソースのクリーンアップまですべてをカバーしています。
-type: docs
 weight: 29
 url: /ja/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PSD ファイルでカスタム Raw データ ローダーを使用する - Java
+
 ## 導入
 Java で PSD ファイルを操作するのは、特に生データの処理となると、大変な作業のように思えるかもしれません。しかし、心配はいりません。Aspose.PSD for Java を使用すると、カスタム ローダーを使用して PSD ファイルから生のピクセル データを簡単に操作および抽出できます。このガイドは、カスタム生データ ローダーを実装するプロセスを段階的に説明します。必要なすべての前提条件をカバーし、必要なパッケージをインポートし、コードをわかりやすい管理可能な手順に分解します。
 ## 前提条件
@@ -90,3 +96,9 @@ Aspose.PSD for Java は、開発者が PSD レイヤーの読み取り、書き�
 サポートやコミュニティ支援については、[Aspose フォーラム](https://forum.aspose.com/c/psd/34).
 ### Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?  
 すべての機能を評価するには、次のサイトにアクセスして一時ライセンスを取得してください。[一時ライセンスページ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

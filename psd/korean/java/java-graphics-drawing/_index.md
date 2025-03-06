@@ -3,10 +3,16 @@ title: 자바 그래픽 드로잉
 linktitle: 자바 그래픽 드로잉
 second_title: Aspose.PSD 자바 API
 description: 그래픽 드로잉에 대한 Java 튜토리얼을 위한 Aspose.PSD를 살펴보세요. 단계별 가이드를 통해 획을 추가하고, 모양을 그리고, PSD 파일을 조작하는 방법을 알아보세요.
-type: docs
 weight: 20
 url: /ko/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 자바 그래픽 드로잉
+
 
 ## 소개
 
@@ -75,3 +81,9 @@ Java용 Aspose.PSD를 사용하여 이미지에 직사각형을 그리는 방법
 Aspose.PSD를 사용하여 Java에서 그래픽을 그리는 방법을 단계별로 알아보세요. 쉽게 모양을 만들고, 색상을 적용하고, 이미지를 내보낼 수 있습니다.
 ### [Java에서 그래픽 경로를 사용하여 그리기](./drawing-using-graphics-path/)
 Aspose.PSD의 그래픽 경로 클래스를 사용하여 Java에서 복잡한 그래픽을 만드는 방법을 알아보세요. 이 튜토리얼은 멋진 이미지 생성을 위한 각 단계를 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

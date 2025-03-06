@@ -3,10 +3,16 @@ title: Színkitöltő réteg hozzáadása a PSD-fájlokhoz Java használatával
 linktitle: Színkitöltő réteg hozzáadása a PSD-fájlokhoz Java használatával
 second_title: Aspose.PSD Java API
 description: Ismerje meg, hogyan adhat hozzá egyszerűen színes kitöltési réteget PSD-fájlokhoz a Java és az Aspose.PSD használatával. Kövesse lépésről lépésre bemutató oktatóanyagunkat a gyorsabb tervezéshez.
-type: docs
 weight: 20
 url: /hu/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Színkitöltő réteg hozzáadása a PSD-fájlokhoz Java használatával
+
 ## Bevezetés
 Volt már olyan, hogy szüksége van a Photoshop-fájlok programozására, esetleg színfoltok hozzáadására egy tervhez? Nos, jó helyen landolt. Ebben a cikkben azt mutatjuk be, hogyan adhatunk színes kitöltési réteget PSD (Photoshop Document) fájlokhoz Java és az Aspose.PSD könyvtár használatával. Tekintse PSD-fájljait egy vászonnak, és néhány sornyi kóddal újrafestheti őket.
 ## Előfeltételek
@@ -87,3 +93,9 @@ Dolgozhat PSD-fájlokkal, és módosíthatja azok rétegeit, hatásait és egyé
  A támogatást a[Aspose támogatási fórum](https://forum.aspose.com/c/psd/34).
 ### Hol vásárolhatok Aspose.PSD-t?  
  Ezen keresztül vásárolhat licencet[Aspose Vásárlás oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

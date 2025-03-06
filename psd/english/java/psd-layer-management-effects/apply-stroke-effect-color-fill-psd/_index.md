@@ -3,10 +3,16 @@ title: Apply Stroke Effect with Color Fill in PSD - Java
 linktitle: Apply Stroke Effect with Color Fill in PSD - Java
 second_title: Aspose.PSD Java API
 description: Learn how to apply a stroke effect with color fill to your PSD files using Aspose.PSD for Java. Follow this step-by-step guide to enhance your images with ease.
-type: docs
 weight: 21
 url: /java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Stroke Effect with Color Fill in PSD - Java
+
 ## Introduction
 
 In this guide, we’ll walk you through the process of applying a stroke effect with a color fill to your PSD files using Aspose.PSD for Java. Whether you're a seasoned developer or just starting, this step-by-step tutorial will make it easy for you to get the job done. We’ll cover everything from setting up your environment to saving the final image with the applied effects.
@@ -144,3 +150,10 @@ Yes, Aspose.PSD for Java allows you to customize the stroke width, position, and
 
 ### Is the Aspose.PSD for Java library free to use?
 Aspose.PSD for Java offers a free trial, but for full access to all features, you would need to purchase a license. You can explore the [buy options](https://purchase.aspose.com/buy) on their website.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

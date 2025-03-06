@@ -3,10 +3,16 @@ title: Применение эффекта обводки с цветовой з
 linktitle: Применение эффекта обводки с цветовой заливкой в PSD — Java
 second_title: Aspose.PSD Java API
 description: Узнайте, как применить эффект обводки с цветовой заливкой к вашим PSD-файлам с помощью Aspose.PSD для Java. Следуйте этому пошаговому руководству, чтобы с легкостью улучшить свои изображения.
-type: docs
 weight: 21
 url: /ru/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение эффекта обводки с цветовой заливкой в PSD — Java
+
 ## Введение
 
 В этом руководстве мы покажем вам процесс применения эффекта обводки с цветовой заливкой к вашим PSD-файлам с помощью Aspose.PSD для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это пошаговое руководство облегчит вам выполнение работы. Мы рассмотрим все: от настройки среды до сохранения окончательного изображения с примененными эффектами.
@@ -144,3 +150,9 @@ im.save(exportPathPng, option);
 
 ### Можно ли бесплатно использовать библиотеку Aspose.PSD для Java?
  Aspose.PSD для Java предлагает бесплатную пробную версию, но для полного доступа ко всем функциям вам необходимо приобрести лицензию. Вы можете изучить[купить опционы](https://purchase.aspose.com/buy)на их сайте.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

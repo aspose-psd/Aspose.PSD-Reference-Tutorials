@@ -3,10 +3,16 @@ title: Görüntü İşleme
 linktitle: Görüntü İşleme
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET eğitimleriyle görüntü kalitesini zahmetsizce geliştirin. Gauss ve Wiener filtreleri, renk dönüşümü, ikilileştirme ve daha fazlası gibi teknikleri öğrenin.
-type: docs
 weight: 20
 url: /tr/net/image-processing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü İşleme
+
 
 ## giriiş
 
@@ -46,3 +52,9 @@ Aspose.PSD for .NET'te renk dönüşümünü keşfedin. Canlı ve doğru görsel
 Aspose.PSD for .NET kullanarak gri tonlama efektlerini görüntülere zahmetsizce nasıl uygulayacağınızı öğrenin.
 ### [Aspose.PSD for .NET'te Bradley Eşiğini Uygulama](./apply-bradley-threshold/)
 Aspose.PSD for .NET'te Bradley Threshold'u kullanarak görüntü segmentasyonunu geliştirin. Etkili ikilileştirme için adım adım kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

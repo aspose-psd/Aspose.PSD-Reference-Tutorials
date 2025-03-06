@@ -3,10 +3,16 @@ title: Aspose.PSD for .NET'te MLST Kaynak İşleme konusunda uzmanlaşmak
 linktitle: MLST Kaynaklarının Kullanımı
 second_title: Aspose.PSD .NET API'si
 description: Aspose.PSD for .NET ile Photoshop dosyalarındaki katman durumlarını değiştirmeyi öğrenin. Verimli MLST Kaynak yönetimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/net/psd-file-manipulation/mlst-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.PSD for .NET'te MLST Kaynak İşleme konusunda uzmanlaşmak
+
 ## giriiş
 Aspose.PSD for .NET'te MLST (Çok Katmanlı Durumlar) Kaynaklarının işlenmesine ilişkin ayrıntılı eğitime hoş geldiniz. Aspose.PSD for .NET, Photoshop dosyalarıyla çalışmak için kapsamlı yetenekler sağlayan güçlü bir kitaplıktır. Bu öğreticide, katman durumlarını verimli bir şekilde yönetmek için düşük düzeyli bir mekanizma sunan MLST Kaynaklarının desteğine odaklanacağız.
 ## Önkoşullar
@@ -86,3 +92,9 @@ A3: Belgeler mevcut[Burada](https://reference.aspose.com/psd/net/).
 ### S5: Aspose.PSD for .NET lisansını nasıl satın alabilirim?
 
  A5: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

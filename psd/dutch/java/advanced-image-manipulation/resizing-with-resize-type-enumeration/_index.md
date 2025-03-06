@@ -3,10 +3,16 @@ title: Het formaat wijzigen met Resize Type Enumeration in Aspose.PSD voor Java
 linktitle: Formaat wijzigen met Resize Type Enumeration
 second_title: Aspose.PSD Java-API
 description: Het formaat van de hoofdafbeelding wijzigen in Java met Aspose.PSD. Stapsgewijze handleiding met behulp van Resize Type Enumeration.
-type: docs
 weight: 18
 url: /nl/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Het formaat wijzigen met Resize Type Enumeration in Aspose.PSD voor Java
+
 ## Invoering
 
 In het voortdurend evoluerende landschap van Java-ontwikkeling is efficiënte beeldverwerking een cruciaal aspect waar ontwikkelaars vaak mee worstelen. Aspose.PSD voor Java komt naar voren als een krachtige oplossing, die een naadloze ervaring biedt voor het wijzigen van het formaat van afbeeldingen met het extra voordeel van de Resize Type Enumeration. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het wijzigen van het formaat van afbeeldingen met Aspose.PSD voor Java, waarbij we elke stap opsplitsen om een uitgebreid begrip te garanderen.
@@ -86,3 +92,9 @@ A2: Ja, Aspose.PSD voor Java biedt verschillende typen formaatwijzigingen, zoals
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor Java?
 
  A5: Ga naar om een tijdelijke licentie te verkrijgen[deze koppeling](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Utwórz obraz za pomocą strumienia w Aspose.PSD dla Java
 linktitle: Utwórz obraz za pomocą strumienia
 second_title: Aspose.PSD API Java
 description: Dowiedz się, jak tworzyć obrazy za pomocą strumienia w Aspose.PSD dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby efektywnie przetwarzać obrazy.
-type: docs
 weight: 14
 url: /pl/java/image-editing/create-image-using-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz obraz za pomocą strumienia w Aspose.PSD dla Java
+
 ## Wstęp
 
 W dziedzinie programowania w języku Java Aspose.PSD wyróżnia się jako solidna biblioteka do przetwarzania obrazów. Jedną z jego zaawansowanych funkcji jest możliwość tworzenia obrazów przy użyciu strumieni, oferując elastyczność i wydajność w obsłudze danych obrazu. Ten samouczek poprowadzi Cię przez proces tworzenia obrazów przy użyciu strumienia w Aspose.PSD dla Java, zapewniając praktyczne doświadczenie z instrukcjami krok po kroku.
@@ -114,3 +120,9 @@ O1: Tak, Aspose.PSD został zaprojektowany tak, aby bezproblemowo integrować si
 ### P5: Jakie są wymagania systemowe dla Aspose.PSD?
 
  Odpowiedź 5: Patrz[dokumentacja](https://reference.aspose.com/psd/java/) szczegółowe wymagania systemowe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

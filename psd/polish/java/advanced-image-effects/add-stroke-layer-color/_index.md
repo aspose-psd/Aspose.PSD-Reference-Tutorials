@@ -3,10 +3,16 @@ title: Dodaj kolor warstwy obrysu w Aspose.PSD dla Java
 linktitle: Dodaj kolor warstwy obrysu
 second_title: Aspose.PSD API Java
 description: Odkryj moc Aspose.PSD dla Java, korzystając z naszego przewodnika krok po kroku na temat dodawania koloru warstwy obrysu. Podnieś poziom swoich projektów graficznych bez wysiłku.
-type: docs
 weight: 14
 url: /pl/java/advanced-image-effects/add-stroke-layer-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj kolor warstwy obrysu w Aspose.PSD dla Java
+
 ## Wstęp
 
 Odblokuj potencjał projektu graficznego swojej aplikacji Java za pomocą Aspose.PSD. W tym samouczku zagłębimy się w fascynujący świat dodawania koloru warstwy obrysu za pomocą Aspose.PSD dla Java. Ulepsz swoją grafikę za pomocą efektownych pociągnięć, tworząc atrakcyjne wizualnie projekty bez wysiłku.
@@ -120,3 +126,9 @@ A2: Absolutnie! Aspose.PSD dotrzymuje kroku najnowszym specyfikacjom formatu pli
 ### P5: Gdzie mogę uzyskać tymczasową licencję na Aspose.PSD?
 
  A5: Uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla Aspose.PSD w celu oceny jego możliwości w Twoich projektach.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

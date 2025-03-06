@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD에서 이미지 크기를 비례적으로 조정하기
 linktitle: 이미지 크기를 비례적으로 조정
 second_title: Aspose.PSD .NET API
 description: .NET용 Aspose.PSD를 사용하여 원활한 이미지 크기 조정을 살펴보세요. 라이브러리를 다운로드하고 튜토리얼을 따라 이미지 처리 기능을 향상시켜 보세요.
-type: docs
 weight: 14
 url: /ko/net/image-manipulation/resize-images-proportionally/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD에서 이미지 크기를 비례적으로 조정하기
+
 이미지 조작 영역에서 .NET용 Aspose.PSD는 개발자에게 이미지 크기를 비례적으로 쉽게 조정할 수 있는 기능을 제공하는 강력한 툴킷으로 돋보입니다. 이 단계별 가이드에서는 .NET용 Aspose.PSD를 사용하여 이미지 크기를 조정하여 이미지의 비율이 완벽하게 유지되도록 하는 과정을 안내합니다.
 
 ## 소개
@@ -100,3 +106,9 @@ A3: 예, .NET용 Aspose.PSD는 자르기, 회전, 이미지에 필터 적용 등
 ### Q5: .NET용 Aspose.PSD에 대한 지원은 어디서 찾을 수 있습니까?
 
  A5: 다음을 방문하세요.[.NET 포럼용 Aspose.PSD](https://forum.aspose.com/c/psd/34) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

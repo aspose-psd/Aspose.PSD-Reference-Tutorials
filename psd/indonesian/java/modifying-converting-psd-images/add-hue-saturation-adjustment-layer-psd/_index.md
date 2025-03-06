@@ -3,10 +3,16 @@ title: Tambahkan Lapisan Penyesuaian Saturasi Hue ke PSD
 linktitle: Tambahkan Lapisan Penyesuaian Saturasi Hue ke PSD
 second_title: Asumsikan.PSD Java API
 description: Pelajari cara menambahkan lapisan penyesuaian saturasi rona ke PSD menggunakan Aspose.PSD untuk Java dalam tutorial langkah demi langkah yang komprehensif ini. Tingkatkan alur kerja desain grafis Anda.
-type: docs
 weight: 14
 url: /id/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Lapisan Penyesuaian Saturasi Hue ke PSD
+
 ## Perkenalan
 Dalam hal desain grafis, manipulasi warna memainkan peran penting—khususnya, mengubah corak, saturasi, dan kecerahan dapat mengubah suasana dan kualitas gambar secara drastis. Salah satu cara efektif untuk mencapai hal ini adalah melalui penggunaan lapisan penyesuaian di Photoshop (file PSD). Jika Anda ingin menyempurnakan file PSD Anda secara terprogram menggunakan Java, perpustakaan Aspose.PSD siap membantu! Tutorial ini akan membawa Anda melalui langkah-langkah untuk menambahkan Lapisan Penyesuaian Saturasi Hue ke file PSD Anda, menjadikan alur kerja Anda lebih produktif dan efisien.
 Dalam panduan ini, kami akan membahas semuanya mulai dari mengimpor paket yang diperlukan hingga detail seluk beluk contoh kode.
@@ -102,3 +108,9 @@ Tidak, Aspose.PSD adalah perpustakaan mandiri yang bekerja secara independen dar
 Ya, Anda dapat mengotomatiskan dan memproses banyak file PSD secara batch dengan Aspose.PSD.
 ### Apakah Aspose.PSD gratis?
 Aspose.PSD menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan jangka panjang. Anda dapat melihat harga[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

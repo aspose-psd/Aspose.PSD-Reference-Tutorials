@@ -3,10 +3,16 @@ title: Menggambar Garis Secara Efektif di Aspose.PSD untuk .NET
 linktitle: Menggambar Garis Secara Efektif
 second_title: Asumsikan.PSD .NET API
 description: Jelajahi seni menggambar garis dalam aplikasi .NET dengan Aspose.PSD. Ikuti tutorial komprehensif kami untuk meningkatkan keterampilan manipulasi gambar Anda dengan mudah.
-type: docs
 weight: 14
 url: /id/net/psd-drawing-techniques/drawing-lines-effectively/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Garis Secara Efektif di Aspose.PSD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang menggambar garis secara efektif di Aspose.PSD untuk .NET! Aspose.PSD adalah perpustakaan canggih yang memungkinkan pemrosesan dan manipulasi gambar tanpa batas dalam aplikasi .NET. Dalam panduan ini, kita akan fokus pada pembuatan garis yang menarik menggunakan perpustakaan Aspose.PSD.
@@ -115,3 +121,9 @@ Selamat! Anda telah berhasil mempelajari cara menggambar garis secara efektif me
 ### Q5: Apakah saya memerlukan lisensi sementara untuk Aspose.PSD untuk .NET?
 
  A5: Jika diperlukan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

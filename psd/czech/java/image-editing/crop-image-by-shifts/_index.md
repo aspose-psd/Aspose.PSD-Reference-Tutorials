@@ -3,10 +3,16 @@ title: Oříznout obrázek pomocí posunů v Aspose.PSD pro Javu
 linktitle: Oříznout obrázek pomocí posunů
 second_title: Aspose.PSD Java API
 description: Ovládejte ořezávání obrázků pomocí Aspose.PSD pro Javu. Komplexní návod pro bezproblémovou manipulaci s obrázky.
-type: docs
 weight: 16
 url: /cs/java/image-editing/crop-image-by-shifts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznout obrázek pomocí posunů v Aspose.PSD pro Javu
+
 ## Zavedení
 
 oblasti zpracování obrazu na bázi Java vyniká Aspose.PSD jako výkonný nástroj pro manipulaci a vylepšování obrázků s maximální přesností. Jednou z klíčových funkcí, která Aspose.PSD odlišuje, je jeho schopnost bezproblémově provádět ořezávání obrázků. V tomto tutoriálu se ponoříme do umění ořezávání obrázků pomocí Aspose.PSD pro Javu. Na konci budete vybaveni dovednostmi pro snadné oříznutí obrázků podle vašich specifikací.
@@ -115,3 +121,10 @@ Odpověď 2: Na stejném obrázku můžete samozřejmě provádět více operac�
 ### Q5: Existují nějaké vzorové projekty předvádějící funkce Aspose.PSD?
 
  A5: Prozkoumejte dokumentaci a příklady na[Aspose.PSD Java dokumentace](https://reference.aspose.com/psd/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

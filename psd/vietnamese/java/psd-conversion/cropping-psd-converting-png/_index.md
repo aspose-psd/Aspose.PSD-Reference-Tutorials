@@ -3,10 +3,16 @@ title: Cắt PSD khi chuyển đổi sang PNG bằng Aspose.PSD cho Java
 linktitle: Cắt xén PSD khi chuyển đổi sang PNG
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách cắt các tệp PSD và chuyển đổi chúng thành PNG bằng Aspose.PSD cho Java. Nâng cao các ứng dụng Java của bạn bằng cách xử lý hình ảnh hiệu quả.
-type: docs
 weight: 13
 url: /vi/java/psd-conversion/cropping-psd-converting-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt PSD khi chuyển đổi sang PNG bằng Aspose.PSD cho Java
+
 ## Giới thiệu
 Trong thế giới năng động của phát triển Java, việc nắm vững cách xử lý hình ảnh hiệu quả là rất quan trọng. Hướng dẫn này sẽ hướng dẫn bạn quy trình cắt các tệp PSD khi chuyển đổi chúng sang PNG bằng cách sử dụng thư viện Aspose.PSD cho Java mạnh mẽ. Khi kết thúc hướng dẫn từng bước này, bạn sẽ được trang bị kiến thức để nâng cao các ứng dụng Java của mình bằng thao tác hình ảnh liền mạch.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Tuyệt đối! Aspose.PSD được thiết kế để xử lý hình ảnh lớ
  Ghé thăm[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để tìm kiếm sự hỗ trợ, chia sẻ kinh nghiệm của bạn và báo cáo bất kỳ vấn đề nào bạn gặp phải.
 ### Tôi có thể dùng thử Aspose.PSD cho Java trước khi mua không?
  Chắc chắn! Khám phá các tính năng của thư viện với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sửa đổi hiệu ứng lớp phủ gradient trong PSD bằng cách s�
 linktitle: Sửa đổi hiệu ứng lớp phủ gradient trong PSD bằng cách sử dụng Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách sửa đổi hiệu ứng Lớp phủ chuyển màu trong tệp PSD bằng Aspose.PSD cho Java. Làm theo hướng dẫn của chúng tôi để tự động hóa và tùy chỉnh các tệp PSD của bạn một cách hiệu quả.
-type: docs
 weight: 12
 url: /vi/java/psd-layer-management-effects/modify-gradient-overlay-effect-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi hiệu ứng lớp phủ gradient trong PSD bằng cách sử dụng Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng bước vào thế giới nghệ thuật kỹ thuật số với Java chưa? Nếu bạn đang làm việc với các tệp Photoshop (PSD) và muốn thao tác với chúng theo chương trình, bạn sẽ có cơ hội tuyệt vời. Hôm nay, chúng ta sẽ khám phá cách sửa đổi hiệu ứng lớp phủ chuyển màu trong tệp PSD bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển đang tìm cách tự động hóa các tác vụ thiết kế đồ họa hay chỉ đơn giản là tò mò về quy trình, hướng dẫn này sẽ hướng dẫn bạn từng bước. Cuối cùng, bạn sẽ có kiến thức để thêm nét chuyên nghiệp vào hình ảnh của mình mà không cần mở Photoshop.
@@ -152,3 +158,9 @@ Aspose.PSD cho Java cho phép bạn áp dụng nhiều hiệu ứng khác nhau, 
 
 ### Làm cách nào để hoàn nguyên các thay đổi được thực hiện đối với tệp PSD?  
 Nếu bạn chưa lưu tệp, bạn chỉ cần tải lại tệp PSD gốc. Nếu bạn đã lưu nó, bạn cần khôi phục từ bản sao lưu hoặc hoàn tác các thay đổi theo chương trình
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

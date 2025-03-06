@@ -3,10 +3,16 @@ title: Kết xuất lớp điều chỉnh đường cong trong tệp PSD - Java
 linktitle: Kết xuất lớp điều chỉnh đường cong trong tệp PSD - Java
 second_title: API Java Aspose.PSD
 description: Tìm hiểu cách kết xuất và điều chỉnh Lớp điều chỉnh đường cong trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước chi tiết này.
-type: docs
 weight: 16
 url: /vi/java/psd-layer-management-effects/render-curves-adjustment-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất lớp điều chỉnh đường cong trong tệp PSD - Java
+
 ## Giới thiệu
 
 Lớp điều chỉnh Curves của Photoshop giống như một cây đũa thần để nâng cao hình ảnh. Hãy tưởng tượng bạn là một nghệ sĩ đang điều chỉnh màu sắc và tông màu cho kiệt tác của mình—mỗi lần điều chỉnh đường cong cho phép bạn kiểm soát độ cân bằng ánh sáng và màu sắc với độ chính xác đáng kinh ngạc. Nếu bạn đang làm việc với các tệp PSD và cần thao tác các đường cong này theo chương trình, Aspose.PSD for Java là công cụ bạn nên sử dụng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách hiển thị và điều chỉnh Lớp điều chỉnh đường cong trong tệp PSD bằng Aspose.PSD cho Java. Cho dù bạn đang cập nhật tông màu hình ảnh hay xuất kết quả của mình, hướng dẫn này sẽ bao gồm mọi thứ bạn cần để bắt đầu.
@@ -146,3 +152,9 @@ Không, Aspose.PSD cho Java hoạt động độc lập với Photoshop, cho ph�
 
 ### Tôi có thể tìm hỗ trợ cho Aspose.PSD cho Java ở đâu?
  Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

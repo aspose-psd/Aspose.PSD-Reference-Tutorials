@@ -3,10 +3,16 @@ title: Java를 사용하여 PSD 파일에서 회전된 텍스트 레이어 렌�
 linktitle: Java를 사용하여 PSD 파일에서 회전된 텍스트 레이어 렌더링
 second_title: Aspose.PSD 자바 API
 description: Java용 Aspose.PSD를 사용하여 PSD 파일에서 회전된 텍스트 레이어를 추출하고 렌더링하는 방법을 알아보세요. 이 단계별 가이드에서는 설정부터 내보내기까지 모든 것을 다룹니다.
-type: docs
 weight: 18
 url: /ko/java/psd-layer-management-effects/render-rotated-text-layer-psd/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PSD 파일에서 회전된 텍스트 레이어 렌더링
+
 ## 소개
 
 텍스트 레이어가 이상한 각도로 기울어져 있는 PSD 파일을 받은 적이 있습니까? 어쩌면 직접 만든 후 예술적인 회전을 유지하면서 내보내고 싶을 수도 있습니다. Java용 Aspose.PSD가 구출되었습니다! 이 강력한 라이브러리를 사용하면 성가신 회전 텍스트 레이어 처리를 포함하여 PSD 파일을 조작하고 렌더링할 수 있습니다. 
@@ -135,3 +141,9 @@ Java용 Aspose.PSD는 직접적인 텍스트 편집 기능을 제공하지 않�
 ### Java용 Aspose.PSD에 대한 지원을 어떻게 받을 수 있나요?
 
 Aspose는 문서([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)), 온라인 포럼([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) 및 라이센스 사용자를 위한 전용 지원 옵션이 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

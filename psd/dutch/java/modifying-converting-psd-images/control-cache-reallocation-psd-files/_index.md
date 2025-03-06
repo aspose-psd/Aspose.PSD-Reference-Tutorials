@@ -3,10 +3,16 @@ title: Beheer cacheherschikking in PSD-bestanden
 linktitle: Beheer cacheherschikking in PSD-bestanden
 second_title: Aspose.PSD Java-API
 description: Beheer de cacheherschikking in PSD-bestanden met Aspose.PSD voor Java. Leer hoe u het geheugen en de bestandsverwerking efficiënt kunt optimaliseren, ideaal voor ontwikkelaars.
-type: docs
 weight: 22
 url: /nl/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer cacheherschikking in PSD-bestanden
+
 ## Invoering
 Bij het programmatisch werken met afbeeldingen en Photoshop-bestanden is efficiëntie een sleutelfactor. Aspose.PSD voor Java biedt robuuste functies voor het naadloos beheren en manipuleren van PSD-bestanden. Een van de fundamentele aspecten van het optimaliseren van de prestaties is het beheersen van de cacheherschikking. Cachebeheer helpt bij het behouden van de balans tussen geheugen- en schijfgebruik, waardoor uw applicatie soepel draait, zonder onverwachte crashes of vertragingen. 
 ## Vereisten
@@ -127,3 +133,9 @@ Aspose.PSD is een bibliotheek waarmee .NET- en Java-ontwikkelaars Photoshop-best
 Aspose.PSD is een betaalde bibliotheek, maar u kunt beginnen met een gratis proefversie die beschikbaar is op hun[website](https://releases.aspose.com/).
 ### Wat gebeurt er als ik voorwerpen niet weggooi?
 Het niet weggooien van objecten kan leiden tot geheugenlekken, waardoor uw toepassing meer bronnen gebruikt dan nodig is.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

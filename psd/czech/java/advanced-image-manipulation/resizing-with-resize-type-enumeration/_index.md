@@ -3,10 +3,16 @@ title: Změna velikosti pomocí Resize Type Enumeration v Aspose.PSD pro Javu
 linktitle: Změna velikosti pomocí výčtu typu Resize
 second_title: Aspose.PSD Java API
 description: Zvládněte změnu velikosti obrázku v Javě s Aspose.PSD. Podrobný průvodce pomocí výčtu typu změny velikosti.
-type: docs
 weight: 18
 url: /cs/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změna velikosti pomocí Resize Type Enumeration v Aspose.PSD pro Javu
+
 ## Zavedení
 
 V neustále se vyvíjejícím prostředí vývoje v Javě je efektivní zpracování obrazu klíčovým aspektem, se kterým se vývojáři často potýkají. Aspose.PSD for Java se ukazuje jako výkonné řešení, které poskytuje bezproblémový zážitek pro změnu velikosti obrázků s přidanou výhodou Resize Type Enumeration. V tomto tutoriálu se ponoříme do složitosti změny velikosti obrázků pomocí Aspose.PSD pro Java a rozebereme každý krok, abychom zajistili komplexní pochopení.
@@ -86,3 +92,9 @@ Odpověď 2: Ano, Aspose.PSD pro Java nabízí různé typy změn velikosti, nap
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD pro Java?
 
  A5: Chcete-li získat dočasnou licenci, navštivte[tento odkaz](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

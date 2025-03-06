@@ -3,10 +3,16 @@ title: Cortar imagem por retângulo em Aspose.PSD para Java
 linktitle: Cortar imagem por retângulo
 second_title: API Java Aspose.PSD
 description: Explore os recursos contínuos de corte de imagens em Java com Aspose.PSD. Siga nosso guia passo a passo para cortar imagens sem esforço usando Aspose.PSD para Java.
-type: docs
 weight: 15
 url: /pt/java/image-editing/crop-image-by-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cortar imagem por retângulo em Aspose.PSD para Java
+
 ## Introdução
 
 No mundo do desenvolvimento Java, a manipulação de imagens é uma tarefa comum, e o Aspose.PSD para Java fornece uma solução poderosa para processamento de imagens. Neste tutorial, iremos guiá-lo através do processo de corte de uma imagem por um retângulo usando Aspose.PSD para Java. Siga as etapas abaixo para conseguir isso com facilidade.
@@ -105,3 +111,9 @@ A1: Sim, o Aspose.PSD para Java pode ser integrado a vários frameworks Java, pr
 ### Q5: Quais são os formatos de imagem suportados para corte em Aspose.PSD para Java?
 
 A5: Aspose.PSD para Java suporta vários formatos de imagem, incluindo PSD, PNG, JPEG e muito mais.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

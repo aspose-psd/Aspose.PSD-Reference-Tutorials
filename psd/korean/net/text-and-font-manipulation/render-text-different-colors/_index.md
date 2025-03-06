@@ -3,10 +3,16 @@ title: .NET용 Aspose.PSD를 사용하여 PSD 파일의 텍스트 렌더링 마�
 linktitle: 텍스트 레이어에서 다양한 색상으로 텍스트 렌더링
 second_title: Aspose.PSD .NET API
 description: Aspose.PSD를 사용하여 PSD 파일에서 다양한 색상으로 텍스트 렌더링을 마스터하여 .NET 애플리케이션을 향상하세요. 손쉽게 디자인 역량을 향상시키세요.
-type: docs
 weight: 10
 url: /ko/net/text-and-font-manipulation/render-text-different-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.PSD를 사용하여 PSD 파일의 텍스트 렌더링 마스터하기
+
 ## 소개
 .NET용 Aspose.PSD를 사용하여 텍스트 레이어에서 다양한 색상으로 텍스트를 렌더링하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.PSD는 개발자가 PSD 파일을 원활하게 조작하고 처리할 수 있게 해주는 강력한 API입니다. 이 튜토리얼에서는 텍스트 레이어에서 다양한 색상으로 텍스트를 렌더링하는 특정 작업에 중점을 둡니다.
 ## 전제조건
@@ -76,3 +82,9 @@ A1: 예, .NET용 Aspose.PSD는 모든 .NET 응용 프로그램과 원활하게 �
 ### Q5: .NET용 Aspose.PSD에 임시 라이선스를 사용할 수 있습니까?
 
  A5: 예, 임시 라이센스가 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

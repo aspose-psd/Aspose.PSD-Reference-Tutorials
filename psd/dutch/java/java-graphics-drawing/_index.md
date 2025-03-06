@@ -3,10 +3,16 @@ title: Java grafische tekening
 linktitle: Java grafische tekening
 second_title: Aspose.PSD Java-API
 description: Verken Aspose.PSD voor Java-tutorials over grafisch tekenen. Leer streken toevoegen, vormen tekenen en PSD-bestanden manipuleren met stapsgewijze handleidingen.
-type: docs
 weight: 20
 url: /nl/java/java-graphics-drawing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java grafische tekening
+
 
 ## Invoering
 
@@ -75,3 +81,9 @@ Leer rechthoeken op afbeeldingen tekenen met Aspose.PSD voor Java. Deze tutorial
 Leer stap voor stap hoe u afbeeldingen tekent in Java met Aspose.PSD. Creëer moeiteloos vormen, pas kleuren toe en exporteer afbeeldingen.
 ### [Tekenen met grafisch pad in Java](./drawing-using-graphics-path/)
 Leer hoe u complexe afbeeldingen in Java kunt maken met behulp van de klasse Graphics Path van Aspose.PSD. Deze tutorial begeleidt u bij elke stap voor het maken van verbluffende afbeeldingen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
