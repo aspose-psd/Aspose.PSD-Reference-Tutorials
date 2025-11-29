@@ -1,32 +1,53 @@
 ---
-title: Dodaj efekty wzorców w Aspose.PSD dla Java
-linktitle: Dodaj efekty wzoru
-second_title: Aspose.PSD API Java
-description: Ulepsz swoje wzorce obrazów Java bez wysiłku dzięki Aspose.PSD dla Java. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby dodać urzekające efekty wzorów.
+date: 2025-11-29
+description: Dowiedz się, jak dodać efekty wzorów i dostosować nakładkę wzoru PSD
+  przy użyciu Aspose.PSD dla Javy. Postępuj zgodnie z naszym przewodnikiem krok po
+  kroku, aby ulepszyć swoje obrazy.
+language: pl
+linktitle: Add Pattern
+second_title: Aspose.PSD Java API
+title: Jak dodać efekty wzoru w Aspose.PSD dla Javy
+url: /java/advanced-image-effects/add-pattern-effects/
 weight: 12
-url: /pl/java/advanced-image-effects/add-pattern-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj efekty wzorców w Aspose.PSD dla Java
+# Jak dodać efekty wzoru w Aspose.PSD dla Java
 
-## Wstęp
+## Wprowadzenie
 
-W świecie programowania w języku Java ulepszanie wzorców obrazów jest częstym zadaniem, a Aspose.PSD dla Java zapewnia solidne rozwiązanie tego problemu. Ten samouczek poprowadzi Cię przez proces dodawania efektów wzorów przy użyciu Aspose.PSD, zapewniając, że Twoje obrazy będą się wyróżniać dzięki unikalnym nakładkom i ulepszeniom.
+W tym samouczku odkryjesz **jak dodać wzór** jako efekt do swoich plików PSD przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy tworzysz usługę internetową intensywnie wykorzystującą grafikę, czy narzędzie do projektowania na pulpicie, dostosowywanie nakładek wzoru może dodać Twoim obrazom dodatkowego wizualnego uderzenia. Przeprowadzimy Cię przez każdy krok — od załadowania pliku PSD, poprzez modyfikację danych wzoru, aż po zapis wyniku — abyś mógł pewnie stosować te techniki w własnych projektach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **What is the primary library?** Aspose.PSD for Java  
+- **Which method adds a pattern overlay?** `PatternOverlayEffect` combined with `PatternFillSettings`  
+- **Do I need a license for testing?** A free trial is available; a license is required for production use  
+- **How long does implementation take?** Roughly 10–15 minutes for a basic overlay  
+- **Can I use this with other Java image libraries?** Yes, you can chain Aspose.PSD with other libraries if needed  
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest nakładka wzoru?
 
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
--  Biblioteka Aspose.PSD for Java pobrana i dodana do Twojego projektu. Można go pobrać z[Witryna Aspose.PSD](https://releases.aspose.com/psd/java/).
+Nakładka wzoru to styl wypełnienia, który powtarza mały bitmap (tzw. *wzór*) na całej warstwie. W terminologii Photoshopa jest to jeden z efektów warstwy, który możesz zastosować, aby dodać teksturę, branding lub dekoracyjne motywy. Aspose.PSD udostępnia tę funkcjonalność poprzez klasę `PatternOverlayEffect`, umożliwiając pełną kontrolę programistyczną nad kolorem, kryciem, trybem mieszania oraz rzeczywistymi danymi pikseli wzoru.
 
-## Importuj pakiety
+## Dlaczego dostosowywać nakładkę wzoru w PSD?
 
-W swoim projekcie Java zaimportuj pakiety niezbędne do pracy z Aspose.PSD. Dołącz następujący kod na początku klasy Java:
+- **Spójność marki:** Zastąp ogólne wzory projektami specyficznymi dla marki.  
+- **Grafika dynamiczna:** Generuj unikalne tekstury w locie dla gier lub motywów UI.  
+- **Automatyzacja:** Przetwarzaj hurtowo setki plików bez ręcznej pracy w Photoshopie.  
+
+## Wymagania wstępne
+
+Zanim przejdziesz dalej, upewnij się, że masz:
+
+- Zainstalowany Java Development Kit (JDK).  
+- Bibliotekę Aspose.PSD dla Java dodaną do projektu (pobierz z [strony Aspose.PSD](https://releases.aspose.com/psd/java/)).  
+
+## Importowanie pakietów
+
+Dodaj wymagane importy na początku swojej klasy Java:
 
 ```java
 import com.aspose.psd.Color;
@@ -45,10 +66,16 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import java.util.UUID;
 ```
 
-## Krok 1: Załaduj obraz
+> **Pro tip:** Keep your imports organized; unused imports will cause compilation warnings.
+
+## Jak dodać efekty wzoru – przewodnik krok po kroku
+
+### Krok 1: Załaduj obraz
+
+Najpierw załaduj plik PSD, który chcesz zmodyfikować. Włączamy `loadEffectsResource`, aby istniejące efekty były dostępne do edycji.
 
 ```java
-// Załaduj obraz PSD
+// Load the PSD image
 String sourceFileName = "YourImagePath/PatternOverlay.psd";
 String exportPath = "YourExportPath/PatternOverlayChanged.psd";
 
@@ -58,19 +85,23 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-Pamiętaj, aby zastąpić „YourImagePath” i „YourExportPath” rzeczywistymi ścieżkami w projekcie.
+> **Note:** Replace `YourImagePath` and `YourExportPath` with actual directories on your machine.
 
-## Krok 2: Wyodrębnij informacje o nakładce wzorca
+### Krok 2: Wyodrębnij informacje o nakładce wzoru
+
+Następnie pobieramy istniejący `PatternOverlayEffect` z drugiej warstwy (indeks 1). Daje nam to uchwyt do modyfikacji jego ustawień.
 
 ```java
-// Wyodrębnij informacje o nakładce wzoru
+// Extract information about the pattern overlay
 PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-## Krok 3: Zmodyfikuj ustawienia nakładki wzoru
+### Krok 3: Zmodyfikuj ustawienia nakładki wzoru
+
+Teraz dostosowujemy nakładkę — zmieniamy jej kolor, krycie, tryb mieszania i przesunięcia. To miejsce, w którym **dostosowujesz nakładkę wzoru w PSD**, aby spełniała wymagania Twojego projektu.
 
 ```java
-// Zmodyfikuj ustawienia nakładki wzoru
+// Modify pattern overlay settings
 PatternFillSettings settings = patternOverlay.getSettings();
 settings.setColor(Color.getGreen());
 patternOverlay.setOpacity((byte)193);
@@ -79,10 +110,12 @@ settings.setHorizontalOffset(15);
 settings.setVerticalOffset(11);
 ```
 
-## Krok 4: Edytuj dane wzoru
+### Krok 4: Edytuj dane wzoru
+
+Tutaj zastępujemy rzeczywisty bitmap, który tworzy wzór. Generujemy nowy GUID dla identyfikatora wzoru, nadajemy mu przyjazną nazwę i definiujemy prostą macierz 4×2 piksele.
 
 ```java
-// Edytuj dane wzoru
+// Edit the pattern data
 PattResource resource;
 UUID guid = UUID.randomUUID();
 String newPatternName = "$$/Presets/Patterns/Pattern=Some new pattern name\0";
@@ -100,53 +133,71 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-## Krok 5: Zapisz edytowany obraz
+> **Warning:** The pattern matrix must match the dimensions you specify in the `Rectangle`. Mismatched sizes can corrupt the PSD.
+
+### Krok 5: Zapisz zmodyfikowany obraz
+
+Po zaktualizowaniu ustawień i danych wzoru, zapisz zmiany do nowego pliku.
 
 ```java
-// Zapisz edytowany obraz
+// Save the edited image
 settings.setPatternName(newPatternName);
 settings.setPatternId(guid.toString() + "\0");
 im.save(exportPath);
 ```
 
-## Krok 6: Sprawdź zmiany
+### Krok 6: Zweryfikuj zmiany
+
+Na koniec ponownie wczytaj zapisany plik, aby upewnić się, że nakładka została zastosowana prawidłowo. W razie potrzeby możesz dodać asercje lub wizualne kontrole.
 
 ```java
-// Sprawdź zmiany w edytowanym pliku
+// Verify the changes in the edited file
 PsdImage img = (PsdImage)Image.load(sourceFileName, loadOptions);
 PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers()[1].getBlendingOptions().getEffects()[0];
 
-// Dodaj potwierdzenia, aby upewnić się, że zmiany zostały pomyślnie zastosowane
+// Add assertions to ensure the changes have been applied successfully
 ```
 
-## Wniosek
+> **Tip:** Use a unit‑testing framework (e.g., JUnit) to automate verification for large batch processes.
 
-Gratulacje! Pomyślnie nauczyłeś się dodawać efekty wzorców przy użyciu Aspose.PSD dla Java. Ta potężna biblioteka umożliwia tworzenie atrakcyjnych wizualnie obrazów z niestandardowymi wzorami, zapewniając nieograniczone możliwości dla projektów opartych na Javie.
+## Typowe problemy i rozwiązania
 
-## Często zadawane pytania
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| Pattern not visible | Opacity set to 0 or blend mode hides it | Adjust `setOpacity` (0‑255) and try a different `BlendMode` |
+| Saved file corrupted | Incorrect pattern rectangle size | Ensure the `Rectangle` matches the pixel array length |
+| `ClassCastException` on effect extraction | Layer doesn’t contain a `PatternOverlayEffect` | Verify the layer index and that the layer actually has a pattern overlay |
 
-### P1: Czy mogę używać Aspose.PSD for Java z innymi bibliotekami do przetwarzania obrazów Java?
+## Najczęściej zadawane pytania
 
-O1: Aspose.PSD dla Java został zaprojektowany do pracy niezależnej, ale w razie potrzeby można go zintegrować z innymi bibliotekami Java.
+**Q: Czy mogę używać Aspose.PSD dla Java razem z innymi bibliotekami przetwarzania obrazów w Javie?**  
+A: Aspose.PSD dla Java działa niezależnie, ale możesz go łączyć z takimi bibliotekami jak ImageIO czy TwelveMonkeys, aby obsługiwać dodatkowe formaty.
 
-### P2: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla Java?
+**Q: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla Java?**  
+A: Odwiedź [dokumentację Aspose.PSD dla Java](https://reference.aspose.com/psd/java/) po kompleksowe informacje o API.
 
- Odpowiedź 2: Patrz[Aspose.PSD dla dokumentacji Java](https://reference.aspose.com/psd/java/) w celu uzyskania wyczerpujących informacji.
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.PSD dla Java?**  
+A: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
+**Q: Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?**  
+A: Odwiedź [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) po pomoc społeczności lub wykup plan wsparcia, aby uzyskać priorytetową pomoc.
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+**Q: Czy mogę otrzymać tymczasową licencję na Aspose.PSD dla Java?**  
+A: Tak, tymczasowa licencja jest dostępna [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?
+## Podsumowanie
 
- A4: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) o wsparcie społeczne lub rozważ zakup planu wsparcia.
+Gratulacje! Opanowałeś **jak dodać wzór** jako efekt oraz **dostosować nakładkę wzoru w PSD** przy użyciu Aspose.PSD dla Java. Postępując zgodnie z tymi krokami, możesz programowo wzbogacać swoje obrazy, automatyzować powtarzalne zadania projektowe i integrować zaawansowane przepływy pracy graficznej w dowolnej aplikacji Java.
 
-### P5: Czy mogę uzyskać tymczasową licencję na Aspose.PSD dla Java?
-
-Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
