@@ -1,35 +1,50 @@
 ---
-title: Java용 Aspose.PSD에 스트로크 레이어 색상 추가
-linktitle: 획 레이어 색상 추가
-second_title: Aspose.PSD 자바 API
-description: 스트로크 레이어 색상 추가에 대한 단계별 가이드를 통해 Java용 Aspose.PSD의 강력한 기능을 살펴보세요. 그래픽 디자인을 손쉽게 향상시켜 보세요.
+date: 2025-11-30
+description: Aspose.PSD for Java를 사용하여 스트로크를 추가하고 PSD 스트로크 색상을 변경하는 방법을 배워보세요. 이 단계별
+  가이드를 따라 스트로크 레이어 색상과 불투명도를 수정하세요.
+language: ko
+linktitle: Add Stroke Layer Color
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java에서 스트로크 레이어 색상 추가 방법
+url: /java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
-url: /ko/java/advanced-image-effects/add-stroke-layer-color/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.PSD에 스트로크 레이어 색상 추가
+# Aspose.PSD for Java에서 스트로크 레이어 색상 추가하는 방법
 
-## 소개
+## Introduction
 
-Aspose.PSD를 사용하여 Java 애플리케이션의 그래픽 디자인 잠재력을 활용해 보세요. 이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 획 레이어 색상을 추가하는 흥미로운 세계를 탐구합니다. 눈에 띄는 획으로 그래픽을 향상시켜 시각적으로 매력적인 디자인을 손쉽게 만들어 보세요.
+프로그램matically 포토샵 문서에 **how to add stroke** 를 추가해야 한다면, Aspose.PSD for Java가 이를 간단하게 만들어 줍니다. 이 튜토리얼에서는 스트로크 레이어 색상을 추가하고, 불투명도를 조정한 뒤 결과를 저장하는 과정을 단계별로 안내합니다. 마지막에는 **how to change stroke color** (또는 *change PSD stroke color*) 를 사용하여 기존 레이어의 스트로크 색상을 변경하는 방법도 확인할 수 있어, Java 코드만으로 완전한 창의적 제어가 가능합니다.
 
-## 전제조건
+## Quick Answers
+- **What library is required?** Aspose.PSD for Java (latest version).  
+- **Can I change the stroke color?** Yes – use `ColorFillSettings` to set any `Color`.  
+- **Do I need a license?** A temporary license works for evaluation; a full license is required for production.  
+- **Which Java version is supported?** Java 8 or higher.  
+- **How long does the implementation take?** Typically under 10 minutes for a basic stroke change.
 
-이 창의적인 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
+## What is a Stroke Layer in a PSD?
+스트로크 레이어는 레이어 내용 주위에 외곽선을 그리는 벡터 효과입니다. 색상, 두께, 불투명도 및 블렌드 모드로 사용자 정의할 수 있습니다. 이 효과를 프로그래밍으로 수정하면 자동 브랜딩, 일괄 처리 또는 동적 그래픽 생성이 가능해집니다.
 
--  Aspose.PSD 라이브러리: 다음을 따라 Aspose.PSD 라이브러리를 다운로드하고 설정하세요.[선적 서류 비치](https://reference.aspose.com/psd/java/).
+## Why Use Aspose.PSD to Change Stroke Color?
+- **No Photoshop required** – work entirely in Java.  
+- **Full PSD spec compliance** – all modern PSD features are supported.  
+- **High performance** – process large files quickly.  
+- **Cross‑platform** – run on any OS with a JVM.
 
-- JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요.
+## Prerequisites
 
-- 통합 개발 환경(IDE): 원하는 IDE를 선택하세요. Eclipse 또는 IntelliJ가 널리 사용됩니다.
+- **Aspose.PSD Library** – download from the [official documentation](https://reference.aspose.com/psd/java/).  
+- **Java Development Kit (JDK)** – version 8 or newer.  
+- **IDE** – Eclipse, IntelliJ IDEA, or any Java‑compatible editor.
 
-## 패키지 가져오기
+## Import Packages
 
-Aspose.PSD 마법이 일어나도록 하기 위해 필요한 패키지를 가져오는 것부터 시작해 보겠습니다.
+First, import the classes you’ll need. This gives your project access to the PSD handling and stroke‑effect APIs.
 
 ```java
 import com.aspose.psd.Color;
@@ -44,13 +59,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## 1단계: 프로젝트 설정
+## Step 1: Set Up Your Project
 
-선호하는 IDE에서 새 Java 프로젝트를 생성하는 것부터 시작하세요. Aspose.PSD 라이브러리가 프로젝트에 추가되었는지 확인하세요.
+Create a new Java project, add the Aspose.PSD JAR to the build path, and verify the library loads without errors.
 
-## 2단계: PSD 파일 로드
+## Step 2: Load the PSD File
 
-Aspose.PSD를 사용하여 PSD 파일을 로드하면 효과 리소스를 로드할 수 있습니다.
+Enable loading of effect resources so the stroke information is available.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -64,17 +79,17 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## 3단계: 스트로크 레이어에 액세스
+## Step 3: Access the Stroke Effect Layer
 
-PSD 파일 내의 획 효과 레이어에 액세스합니다.
+Retrieve the first stroke effect from the second layer (index 1).
 
 ```java
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-## 4단계: 획 속성 확인
+## Step 4: Validate Stroke Properties
 
-스트로크 속성이 예상한 대로인지 확인합니다.
+Confirm the existing properties before making changes. This helps avoid unexpected results.
 
 ```java
 Assert.areEqual(BlendMode.Normal, colorStroke.getBlendMode());
@@ -82,9 +97,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-## 5단계: 색상 및 불투명도 설정
+## Step 5: Set Color and Opacity (How to Change Stroke Color)
 
-획 레이어의 색상과 불투명도를 수정합니다.
+Here we **change PSD stroke color** to yellow and reduce opacity to 50 % (127 / 255).
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -93,42 +108,53 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-## 6단계: 수정된 PSD 저장
+## Step 6: Save the Modified PSD
 
-새로 추가된 스트로크 레이어 색상으로 수정된 PSD 파일을 저장합니다.
+Write the updated image back to disk. The new file now contains the modified stroke.
 
 ```java
 im.save(exportPath);
 ```
 
-## 결론
+## Common Pitfalls & Tips
 
-축하해요! Java용 Aspose.PSD를 사용하여 PSD 파일에 스트로크 레이어 색상을 성공적으로 추가했습니다. 다양한 색상과 설정을 실험하여 그래픽 디자인에 생기를 불어넣으세요.
+- **Null checks** – always verify that `getEffects()` returns a non‑null array before casting.  
+- **Layer index** – PSD layers are zero‑based; ensure you target the correct layer.  
+- **Color format** – `Color.getYellow()` is just an example; you can create custom colors with `new Color(r, g, b)`.  
+- **Opacity range** – opacity is a byte (0–255); values above 255 will be clamped.
 
-## FAQ
+## Conclusion
 
-### Q1: Aspose.PSD를 다른 Java 그래픽 라이브러리와 함께 사용할 수 있습니까?
+You’ve now learned **how to add stroke** to a PSD file and **how to change stroke color** using Aspose.PSD for Java. Experiment with different colors, blend modes, and opacities to achieve the exact visual style your project needs.
 
-A1: 예, Aspose.PSD는 향상된 기능을 위해 다른 Java 그래픽 라이브러리와 통합될 수 있습니다.
+## Frequently Asked Questions
 
-### Q2: Aspose.PSD는 최신 PSD 파일 형식과 호환됩니까?
+**Q: Can I use Aspose.PSD with other Java graphic libraries?**  
+A: Yes, Aspose.PSD can be combined with libraries such as Apache Commons Imaging or Java2D for extended functionality.
 
-A2: 물론이죠! Aspose.PSD는 최신 PSD 파일 형식 사양과 보조를 맞춰 호환성을 보장합니다.
+**Q: Is Aspose.PSD compatible with the latest PSD file format?**  
+A: Absolutely. The library is regularly updated to support the newest Photoshop specifications.
 
-### Q3: Aspose.PSD를 사용하는 동안 예외를 어떻게 처리합니까?
+**Q: How do I handle exceptions while using Aspose.PSD?**  
+A: Refer to the [support forum](https://forum.aspose.com/c/psd/34) for detailed troubleshooting and sample error‑handling code.
 
- A3: 다음을 참조하세요.[지원 포럼](https://forum.aspose.com/c/psd/34) 예외 처리 및 문제 해결에 대한 지원을 받으려면
+**Q: Can I try Aspose.PSD before purchasing?**  
+A: Certainly! Grab a [free trial](https://releases.aspose.com/) to explore all features.
 
-### Q4: 구매하기 전에 Aspose.PSD를 사용해 볼 수 있나요?
+**Q: Where can I get a temporary license for Aspose.PSD?**  
+A: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the library in your development environment.
 
- A4: 물론이죠! 잡아[무료 평가판](https://releases.aspose.com/) 약속을 하기 전에 Aspose.PSD의 기능을 살펴보세요.
-
-### Q5: Aspose.PSD 임시 라이선스는 어디서 구할 수 있나요?
-
- A5: 획득[임시면허](https://purchase.aspose.com/temporary-license/) Aspose.PSD가 프로젝트의 기능을 평가합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
+
+---

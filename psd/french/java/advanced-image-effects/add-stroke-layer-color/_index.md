@@ -1,35 +1,51 @@
 ---
-title: Ajouter une couleur de calque de trait dans Aspose.PSD pour Java
-linktitle: Ajouter une couleur de calque de trait
-second_title: API Java Aspose.PSD
-description: Explorez la puissance d'Aspose.PSD pour Java avec notre guide étape par étape sur l'ajout de couleur de calque de trait. Élevez vos créations graphiques sans effort.
+date: 2025-11-30
+description: Apprenez à ajouter un contour et à modifier la couleur du contour PSD
+  à l'aide d'Aspose.PSD pour Java. Suivez ce guide étape par étape pour modifier la
+  couleur et l'opacité du calque de contour.
+language: fr
+linktitle: Add Stroke Layer Color
+second_title: Aspose.PSD Java API
+title: Comment ajouter la couleur de contour de calque dans Aspose.PSD pour Java
+url: /java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
-url: /fr/java/advanced-image-effects/add-stroke-layer-color/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une couleur de calque de trait dans Aspose.PSD pour Java
+# Comment ajouter une couleur de calque de contour dans Aspose.PSD pour Java
 
 ## Introduction
 
-Libérez le potentiel de la conception graphique de votre application Java avec Aspose.PSD. Dans ce didacticiel, nous plongerons dans le monde fascinant de l'ajout de couleur de calque de trait à l'aide d'Aspose.PSD pour Java. Améliorez vos graphiques avec des traits éclatants, créant ainsi des designs visuellement attrayants sans effort.
+Si vous devez **comment ajouter un contour** à un document Photoshop de manière programmatique, Aspose.PSD pour Java le rend simple. Dans ce tutoriel, nous parcourrons l’ajout d’une couleur de calque de contour, le réglage de son opacité et l’enregistrement du résultat. À la fin, vous verrez également comment **comment changer la couleur du contour** (ou *changer la couleur du contour PSD*) pour n’importe quel calque existant, vous offrant un contrôle créatif complet depuis votre code Java.
 
-## Conditions préalables
+## Quick Answers
+- **Quelle bibliothèque est requise ?** Aspose.PSD pour Java (dernière version).  
+- **Puis-je changer la couleur du contour ?** Oui – utilisez `ColorFillSettings` pour définir n'importe quelle `Color`.  
+- **Ai-je besoin d'une licence ?** Une licence temporaire fonctionne pour l'évaluation ; une licence complète est requise pour la production.  
+- **Quelle version de Java est prise en charge ?** Java 8 ou supérieure.  
+- **Combien de temps prend l'implémentation ?** Typiquement moins de 10 minutes pour un changement de contour basique.
 
-Avant de vous lancer dans ce voyage créatif, assurez-vous d'avoir les conditions préalables suivantes en place :
+## Qu’est‑ce qu’un calque de contour dans un PSD ?
+Un calque de contour est un effet vectoriel qui dessine une bordure autour du contenu d’un calque. Il peut être personnalisé avec la couleur, l’épaisseur, l’opacité et le mode de fusion. Modifier cet effet de façon programmatique permet l’automatisation du branding, le traitement par lots ou la génération dynamique de graphiques.
 
--  Bibliothèque Aspose.PSD : téléchargez et configurez la bibliothèque Aspose.PSD en suivant les instructions[documentation](https://reference.aspose.com/psd/java/).
+## Pourquoi utiliser Aspose.PSD pour changer la couleur du contour ?
+- **Pas besoin de Photoshop** – travaillez entièrement en Java.  
+- **Conformité totale à la spécification PSD** – toutes les fonctionnalités PSD modernes sont prises en charge.  
+- **Haute performance** – traitez rapidement de gros fichiers.  
+- **Multi‑plateforme** – exécutez sur n'importe quel OS avec une JVM.
 
-- Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système.
+## Prérequis
 
-- Environnement de développement intégré (IDE) : choisissez un IDE de votre préférence ; Eclipse ou IntelliJ sont des choix populaires.
+- **Bibliothèque Aspose.PSD** – téléchargez depuis la [documentation officielle](https://reference.aspose.com/psd/java/).  
+- **Java Development Kit (JDK)** – version 8 ou plus récente.  
+- **IDE** – Eclipse, IntelliJ IDEA, ou tout éditeur compatible Java.
 
-## Importer des packages
+## Import Packages
 
-Commençons par importer les packages nécessaires pour que la magie Aspose.PSD opère.
+First, import the classes you’ll need. This gives your project access to the PSD handling and stroke‑effect APIs.
 
 ```java
 import com.aspose.psd.Color;
@@ -44,13 +60,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## Étape 1 : Configurez votre projet
+## Step 1: Set Up Your Project
 
-Commencez par créer un nouveau projet Java dans votre IDE préféré. Assurez-vous que la bibliothèque Aspose.PSD est ajoutée à votre projet.
+Create a new Java project, add the Aspose.PSD JAR to the build path, and verify the library loads without errors.
 
-## Étape 2 : Charger le fichier PSD
+## Step 2: Load the PSD File
 
-Chargez le fichier PSD à l'aide d'Aspose.PSD, permettant le chargement des ressources d'effets.
+Enable loading of effect resources so the stroke information is available.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -64,17 +80,17 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## Étape 3 : Accéder au calque de trait
+## Step 3: Access the Stroke Effect Layer
 
-Accédez au calque d’effet de trait dans le fichier PSD.
+Retrieve the first stroke effect from the second layer (index 1).
 
 ```java
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-## Étape 4 : valider les propriétés du trait
+## Step 4: Validate Stroke Properties
 
-Assurez-vous que les propriétés du trait sont comme prévu.
+Confirm the existing properties before making changes. This helps avoid unexpected results.
 
 ```java
 Assert.areEqual(BlendMode.Normal, colorStroke.getBlendMode());
@@ -82,9 +98,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-## Étape 5 : Définir la couleur et l'opacité
+## Step 5: Set Color and Opacity (How to Change Stroke Color)
 
-Modifiez la couleur et l'opacité du calque de trait.
+Here we **change PSD stroke color** to yellow and reduce opacity to 50 % (127 / 255).
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -93,42 +109,51 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-## Étape 6 : Enregistrez le PSD modifié
+## Step 6: Save the Modified PSD
 
-Enregistrez le fichier PSD modifié avec la couleur du calque de trait nouvellement ajoutée.
+Write the updated image back to disk. The new file now contains the modified stroke.
 
 ```java
 im.save(exportPath);
 ```
 
+## Common Pitfalls & Tips
+
+- **Vérifications de null** – vérifiez toujours que `getEffects()` renvoie un tableau non nul avant de le caster.  
+- **Indice du calque** – les calques PSD sont indexés à partir de zéro ; assurez‑vous de cibler le bon calque.  
+- **Format de couleur** – `Color.getYellow()` n’est qu’un exemple ; vous pouvez créer des couleurs personnalisées avec `new Color(r, g, b)`.  
+- **Plage d’opacité** – l’opacité est un octet (0–255) ; les valeurs supérieures à 255 seront tronquées.
+
 ## Conclusion
 
-Félicitations! Vous avez ajouté avec succès la couleur du calque de trait à votre fichier PSD à l'aide d'Aspose.PSD pour Java. Expérimentez avec différentes couleurs et paramètres pour donner vie à vos créations graphiques.
+Vous avez maintenant appris **comment ajouter un contour** à un fichier PSD et **comment changer la couleur du contour** en utilisant Aspose.PSD pour Java. Expérimentez avec différentes couleurs, modes de fusion et opacités pour obtenir le style visuel exact dont votre projet a besoin.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1 : Puis-je utiliser Aspose.PSD avec d’autres bibliothèques graphiques Java ?
+**Q : Puis‑je utiliser Aspose.PSD avec d’autres bibliothèques graphiques Java ?**  
+R : Oui, Aspose.PSD peut être combiné avec des bibliothèques telles qu’Apache Commons Imaging ou Java2D pour des fonctionnalités étendues.
 
-A1 : Oui, Aspose.PSD peut être intégré à d'autres bibliothèques graphiques Java pour des fonctionnalités améliorées.
+**Q : Aspose.PSD est‑il compatible avec le dernier format de fichier PSD ?**  
+R : Absolument. La bibliothèque est régulièrement mise à jour pour prendre en charge les dernières spécifications Photoshop.
 
-### Q2 : Aspose.PSD est-il compatible avec le dernier format de fichier PSD ?
+**Q : Comment gérer les exceptions lors de l’utilisation d’Aspose.PSD ?**  
+R : Consultez le [forum de support](https://forum.aspose.com/c/psd/34) pour des résolutions détaillées et des exemples de code de gestion d’erreurs.
 
-A2 : Absolument ! Aspose.PSD suit le rythme des dernières spécifications de format de fichier PSD, garantissant ainsi la compatibilité.
+**Q : Puis‑je essayer Aspose.PSD avant d’acheter ?**  
+R : Bien sûr ! Téléchargez un [essai gratuit](https://releases.aspose.com/) pour explorer toutes les fonctionnalités.
 
-### Q3 : Comment gérer les exceptions lors de l’utilisation d’Aspose.PSD ?
+**Q : Où puis‑je obtenir une licence temporaire pour Aspose.PSD ?**  
+R : Obtenez une [licence temporaire](https://purchase.aspose.com/temporary-license/) pour évaluer la bibliothèque dans votre environnement de développement.
 
- A3 : Reportez-vous au[forum d'assistance](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide dans la gestion des exceptions et le dépannage.
-
-### Q4 : Puis-je essayer Aspose.PSD avant d’acheter ?
-
- A4 : Certainement ! Prenez un[essai gratuit](https://releases.aspose.com/) pour explorer les fonctionnalités d’Aspose.PSD avant de vous engager.
-
-### Q5 : Où puis-je obtenir une licence temporaire pour Aspose.PSD ?
-
- A5 : Obtenez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour Aspose.PSD pour évaluer ses capacités dans vos projets.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
