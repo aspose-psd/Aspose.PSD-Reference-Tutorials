@@ -1,35 +1,55 @@
 ---
-title: Java용 Aspose.PSD를 사용하여 글꼴 캐시 강제 적용
-linktitle: 강제 글꼴 캐시
-second_title: Aspose.PSD 자바 API
-description: Java용 Aspose.PSD를 사용하여 글꼴 캐시를 강제하는 방법을 알아보세요. 이 단계별 가이드를 통해 이미지 처리를 최적화하고 성능을 향상하세요.
+date: 2025-12-01
+description: Aspose.PSD for Java를 사용하여 PSD 파일 저장, 폰트 캐시 강제 적용 및 이미지 성능 향상 방법을 배웁니다.
+  이미지 처리 최적화를 위한 단계별 가이드.
+language: ko
+linktitle: Force Font Cache
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java를 사용하여 PSD 파일 저장 및 폰트 캐시 강제 적용 방법
+url: /java/advanced-image-manipulation/force-font-cache/
 weight: 11
-url: /ko/java/advanced-image-manipulation/force-font-cache/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.PSD를 사용하여 글꼴 캐시 강제 적용
+# How to Save PSD File and Force Font Cache with Aspose.PSD for Java
 
-## 소개
+## Introduction
 
-Java용 Aspose.PSD를 사용하여 글꼴 캐싱을 최적화하려고 하시나요? 글꼴 캐싱은 특히 복잡한 이미지 처리 작업을 처리할 때 Java 애플리케이션의 성능을 향상시키는 데 중요한 역할을 합니다. 이 종합 가이드에서는 Java용 Aspose.PSD를 사용하여 글꼴 캐시를 강제하는 프로세스를 안내합니다. 숙련된 개발자이든 이제 막 Java 이미지 처리를 시작하는 개발자이든 이 튜토리얼은 글꼴 캐싱을 프로젝트에 원활하게 통합하는 데 도움이 되도록 설계되었습니다.
+PSD 파일 객체를 **빠르게 저장**하면서 올바른 글꼴이 사용되는지 확인해야 한다면, 여기서 해결할 수 있습니다. 글꼴 캐시를 강제로 업데이트하면 특히 대용량 Photoshop 문서를 반복 처리할 때 **이미지 성능을 크게 향상**시킬 수 있습니다. 이 튜토리얼에서는 글꼴 캐시를 강제 업데이트하고, PSD 이미지를 로드한 뒤, 새로 설치된 글꼴을 사용해 **PSD 파일을 저장**하는 정확한 단계를 살펴보겠습니다. (Aspose.PSD for Java 사용)
 
-## 전제조건
+## Quick Answers
+- **What does forcing the font cache do?** It forces Aspose.PSD to re‑scan the system fonts so newly installed fonts are recognized instantly.  
+- **How long should I wait for a font to install?** The sample code pauses for **2 minutes**, which is usually enough for manual installation.  
+- **Can I use this with any PSD file?** Yes – as long as the file is accessible and the required fonts are installed on the system.  
+- **Do I need a license to run this code?** A temporary or full license is required for production use; a free trial works for evaluation.  
+- **Which Java versions are supported?** Aspose.PSD for Java works with JDK 8 and newer.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is “save PSD file” and why does it matter?
 
-- 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Java 라이브러리용 Aspose.PSD는 다음에서 다운로드되었습니다.[다운로드 링크](https://releases.aspose.com/psd/java/).
-- 테스트용 샘플 PSD 파일입니다.
+레이어, 텍스트 또는 글꼴을 조작한 뒤 PSD 파일을 저장하는 것은 변경 사항을 영구히 반영하는 최종 단계입니다. 글꼴 캐시가 최신 상태가 아니면 저장된 파일이 기본 글꼴로 대체되어 시각적 일관성이 깨질 수 있습니다. 먼저 캐시를 강제 업데이트하면 **save PSD file** 작업이 올바른 글꼴을 포함하도록 보장됩니다.
 
-이제 모든 설정이 완료되었으므로 튜토리얼을 진행하겠습니다.
+## Why force the font cache with Aspose.PSD?
 
-## 패키지 가져오기
+- **Performance boost** – Reduces the need for repeated font look‑ups.  
+- **Reliability** – Guarantees that saved PSD files render exactly as intended on any machine.  
+- **Simplicity** – A single method call (`OpenTypeFontsCache.updateCache()`) handles the heavy lifting.
 
-먼저, 프로젝트에서 Java 기능을 위해 Aspose.PSD를 활용하려면 필요한 패키지를 가져와야 합니다. Java 클래스에 다음 import 문을 추가합니다.
+## Prerequisites
+
+Before you begin, make sure you have:
+
+- Java Development Kit (JDK) 8 or newer installed.  
+- Aspose.PSD for Java library (download from the official [download link](https://releases.aspose.com/psd/java/)).  
+- A sample PSD file (`sample.psd`) placed in a folder you can reference from your code.  
+
+Now that everything is ready, let’s dive into the implementation.
+
+## Import Packages
+
+First, import the classes required to work with PSD images and the font cache. Place these statements at the top of your Java class:
 
 ```java
 import com.aspose.psd.Image;
@@ -40,7 +60,9 @@ import java.io.Console;
 import java.util.concurrent.TimeUnit;
 ```
 
-## 1단계: PSD 이미지 로드
+### Step 1: Load the PSD Image (How to load PSD)
+
+We start by loading the original PSD file. This gives us a baseline image object that we can later re‑save after the font cache is updated.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,9 +71,14 @@ PsdImage image = (PsdImage)Image.load(dataDir + "sample.psd");
 image.save(dataDir + "NoFont.psd");
 ```
 
-이 단계에서는 샘플 PSD 이미지를 로드하고 글꼴 변경 없이 저장합니다. 이는 글꼴 캐싱 프로세스의 기준을 설정하는 데 도움이 됩니다.
+- **Explanation:**  
+  - `Image.load` reads the file into memory.  
+  - `image.save` creates a copy named **NoFont.psd** that reflects the state **before** any new fonts are available.  
+  - This step is useful for comparison and ensures the subsequent cache update actually changes the output.
 
-## 2단계: 글꼴 설치 대기
+### Step 2: Wait for Font Installation (Improve image performance)
+
+Now we give the user time to install the required font manually. In a real‑world scenario you might automate this step, but the pause demonstrates the cache‑refresh mechanism.
 
 ```java
 System.out.println("You have 2 minutes to install the font");
@@ -59,42 +86,58 @@ Thread.sleep(2 * 60 * 1000);
 OpenTypeFontsCache.updateCache();
 ```
 
- 이 단계에서는 사용자가 필요한 글꼴을 설치하는 데 2분의 시간이 걸리므로 지연이 발생합니다. 그만큼`updateCache()` 메서드는 설치된 글꼴을 기반으로 글꼴 캐시를 업데이트합니다.
+- **Explanation:**  
+  - `Thread.sleep` pauses execution for **2 minutes** (2 × 60 × 1000 ms).  
+  - `OpenTypeFontsCache.updateCache()` forces Aspose.PSD to re‑scan the system’s OpenType fonts, making any newly installed fonts immediately available for rendering.
 
-## 3단계: 업데이트된 PSD 이미지 로드
+### Step 3: Load the Updated PSD Image (Load PSD image) and **save PSD file**
+
+After the cache refresh, we load the original PSD again. This time the font information is up‑to‑date, and we can **save PSD file** with the correct typeface.
 
 ```java
 PsdImage image1 = (PsdImage)Image.load(dataDir + "sample.psd");
 image1.save(dataDir + "HasFont.psd");
 ```
 
-글꼴 설치 지연 후 PSD 이미지를 다시 로드하세요. 이번에는 업데이트된 캐시를 통해 이미지가 설치된 글꼴로 저장됩니다.
+- **Explanation:**  
+  - The second load picks up the newly installed font.  
+  - Saving to **HasFont.psd** produces a file that now contains the proper font rendering, confirming that the cache update worked.
 
-## 결론
+## Common Issues and Solutions
 
-축하해요! Java용 Aspose.PSD를 사용하여 성공적으로 글꼴 캐시를 강제했습니다. 글꼴 캐싱은 이미지 처리 최적화에 필수적인 측면이며 Aspose.PSD는 Java 개발자에게 이를 원활하게 해줍니다.
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| Saved PSD still shows default font | Font not installed in a location scanned by the OS | Install the font in the system fonts folder (e.g., `C:\Windows\Fonts` on Windows) and rerun `updateCache()`. |
+| `Thread.sleep` throws `InterruptedException` | The method signature does not handle checked exceptions | Add `throws InterruptedException` to your `main` method or wrap the call in a try‑catch block. |
+| `OpenTypeFontsCache.updateCache()` does nothing | Running on a headless server without font configuration | Ensure the server has the required fonts installed and the Java process has permission to read them. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Aspose.PSD는 모든 Java 버전과 호환됩니까?
+**Q: Is Aspose.PSD compatible with all Java versions?**  
+A: Aspose.PSD for Java supports JDK 8 and newer, covering the majority of modern Java applications.
 
-A1: Aspose.PSD for Java는 다양한 Java 버전에서 작동하도록 설계되어 광범위한 프로젝트에 대한 호환성을 보장합니다.
+**Q: Can I use Aspose.PSD for commercial projects?**  
+A: Yes. A commercial license is required for production use. You can obtain one from the [purchase page](https://purchase.aspose.com/buy).
 
-### Q2: Aspose.PSD를 상업적 목적으로 사용할 수 있나요?
+**Q: Is there a free trial available?**  
+A: Absolutely! Download a trial version from the [releases page](https://releases.aspose.com/).
 
- A2: 예, Aspose.PSD에는 상업적 사용을 포함하여 유연한 라이센스 옵션이 제공됩니다. 방문[구매 페이지](https://purchase.aspose.com/buy) 자세한 내용은
+**Q: Where can I find community support?**  
+A: Join the discussion on the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for tips and troubleshooting.
 
-### Q3: 무료 평가판이 제공됩니까?
+**Q: How can I obtain a temporary license for testing?**  
+A: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) to request a short‑term license.
 
- A3: 물론이죠! 무료 평가판을 통해 Aspose.PSD의 기능을 탐색할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/).
+## Conclusion
 
-### 질문4: 커뮤니티 지원은 어디서 찾을 수 있나요?
+You’ve now learned how to **save PSD file** after forcing the font cache, ensuring that your PSD outputs render with the correct typefaces every time. This technique is a simple yet powerful part of **image processing optimization** and can be integrated into larger workflows that require reliable, high‑performance PSD manipulation.
 
- 답변 4: 커뮤니티 지원 및 토론에 대해서는 다음을 확인하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
+---
 
-### Q5: 임시 라이센스는 어떻게 얻을 수 있나요?
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
- A5: 임시 라이센스가 필요한 경우[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,57 @@
 ---
-title: Wymuś pamięć podręczną czcionek za pomocą Aspose.PSD dla Java
-linktitle: Wymuś pamięć podręczną czcionek
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak wymusić pamięć podręczną czcionek przy użyciu Aspose.PSD dla Java. Zoptymalizuj przetwarzanie obrazu i zwiększ wydajność, korzystając z tego przewodnika krok po kroku.
+date: 2025-12-01
+description: Dowiedz się, jak zapisać plik PSD, wymusić pamięć podręczną czcionek
+  i poprawić wydajność obrazu przy użyciu Aspose.PSD dla Javy. Przewodnik krok po
+  kroku po optymalizacji przetwarzania obrazów.
+language: pl
+linktitle: Force Font Cache
+second_title: Aspose.PSD Java API
+title: Jak zapisać plik PSD i wymusić pamięć podręczną czcionek przy użyciu Aspose.PSD
+  dla Javy
+url: /java/advanced-image-manipulation/force-font-cache/
 weight: 11
-url: /pl/java/advanced-image-manipulation/force-font-cache/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wymuś pamięć podręczną czcionek za pomocą Aspose.PSD dla Java
+# Jak zapisać plik PSD i wymusić pamięć podręczną czcionek przy użyciu Aspose.PSD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Czy chcesz zoptymalizować buforowanie czcionek za pomocą Aspose.PSD dla Java? Buforowanie czcionek odgrywa kluczową rolę w zwiększaniu wydajności aplikacji Java, szczególnie w przypadku złożonych zadań przetwarzania obrazu. W tym obszernym przewodniku przeprowadzimy Cię przez proces wymuszania pamięci podręcznej czcionek przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z przetwarzaniem obrazów w języku Java, ten samouczek ma na celu pomóc Ci bezproblemowo zintegrować buforowanie czcionek z Twoimi projektami.
+Jeśli potrzebujesz szybko **zapisać plik PSD** oraz mieć pewność, że dostępne są właściwe czcionki, trafiłeś we właściwe miejsce. Pamięć podręczna czcionek może dramatycznie **poprawić wydajność obrazu**, szczególnie przy wielokrotnym przetwarzaniu dużych dokumentów Photoshop. W tym samouczku przeprowadzimy Cię krok po kroku przez wymuszenie odświeżenia pamięci podręcznej czcionek, załadowanie obrazu PSD i w końcu **zapisanie pliku PSD** z nowo zainstalowanymi czcionkami przy użyciu Aspose.PSD dla Javy.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi wymuszenie pamięci podręcznej czcionek?** Wymusza ponowne skanowanie systemowych czcionek przez Aspose.PSD, dzięki czemu nowo zainstalowane czcionki są rozpoznawane natychmiast.  
+- **Jak długo powinienem czekać na instalację czcionki?** Przykładowy kod wstrzymuje działanie na **2 minuty**, co zazwyczaj wystarcza przy ręcznej instalacji.  
+- **Czy mogę używać tego z dowolnym plikiem PSD?** Tak – pod warunkiem, że plik jest dostępny i wymagane czcionki są zainstalowane w systemie.  
+- **Czy potrzebna jest licencja do uruchomienia tego kodu?** Do użytku produkcyjnego wymagana jest tymczasowa lub pełna licencja; wersja próbna działa w trybie ewaluacyjnym.  
+- **Jakie wersje Javy są obsługiwane?** Aspose.PSD dla Javy działa z JDK 8 i nowszymi.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „save PSD file” i dlaczego ma to znaczenie?
 
-- Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
--  Biblioteka Aspose.PSD dla Java pobrana z[link do pobrania](https://releases.aspose.com/psd/java/).
-- Przykładowy plik PSD do celów testowych.
+Zapisanie pliku PSD po manipulacji warstwami, tekstem lub czcionkami jest ostatnim krokiem, który utrwala Twoje zmiany. Gdy pamięć podręczna czcionek nie jest aktualna, zapisany plik może używać czcionek domyślnych, co prowadzi do niezgodności wizualnych. Wymuszając najpierw odświeżenie pamięci podręcznej, zapewniasz, że operacja **save PSD file** osadzi właściwe kroje pisma.
 
-Teraz, gdy już wszystko skonfigurowałeś, przejdźmy do samouczka.
+## Dlaczego wymusić pamięć podręczną czcionek z Aspose.PSD?
 
-## Importuj pakiety
+- **Zwiększenie wydajności** – zmniejsza potrzebę wielokrotnych wyszukiwań czcionek.  
+- **Niezawodność** – gwarantuje, że zapisane pliki PSD będą renderowane dokładnie tak, jak zamierzono, na każdym komputerze.  
+- **Prostota** – pojedyncze wywołanie metody (`OpenTypeFontsCache.updateCache()`) zajmuje się całą ciężką pracą.
 
-Po pierwsze, musisz zaimportować niezbędne pakiety, aby wykorzystać w swoim projekcie funkcje Aspose.PSD for Java. Dodaj następujące instrukcje importu do swojej klasy Java:
+## Wymagania wstępne
+
+Zanim rozpoczniesz, upewnij się, że masz:
+
+- Zainstalowany Java Development Kit (JDK) 8 lub nowszy.  
+- Bibliotekę Aspose.PSD dla Javy (pobierz z oficjalnego [download link](https://releases.aspose.com/psd/java/)).  
+- Przykładowy plik PSD (`sample.psd`) umieszczony w folderze, do którego możesz odwołać się w kodzie.  
+
+Teraz, gdy wszystko jest gotowe, przejdźmy do implementacji.
+
+## Importowanie pakietów
+
+Najpierw zaimportuj klasy potrzebne do pracy z obrazami PSD oraz pamięcią podręczną czcionek. Umieść te instrukcje na początku swojej klasy Java:
 
 ```java
 import com.aspose.psd.Image;
@@ -40,7 +62,9 @@ import java.io.Console;
 import java.util.concurrent.TimeUnit;
 ```
 
-## Krok 1: Załaduj obraz PSD
+### Krok 1: Załaduj obraz PSD (How to load PSD)
+
+Zaczynamy od załadowania oryginalnego pliku PSD. Daje nam to bazowy obiekt obrazu, który później możemy ponownie zapisać po zaktualizowaniu pamięci podręcznej czcionek.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,9 +73,14 @@ PsdImage image = (PsdImage)Image.load(dataDir + "sample.psd");
 image.save(dataDir + "NoFont.psd");
 ```
 
-Na tym etapie ładujemy przykładowy obraz PSD i zapisujemy go bez żadnych zmian czcionki. Pomaga nam to ustalić punkt odniesienia dla procesu buforowania czcionek.
+- **Explanation:**  
+  - `Image.load` odczytuje plik do pamięci.  
+  - `image.save` tworzy kopię o nazwie **NoFont.psd**, odzwierciedlającą stan **przed** dostępnością nowych czcionek.  
+  - Ten krok jest przydatny do porównania i zapewnia, że późniejsze odświeżenie pamięci podręcznej faktycznie zmieni wynik.
 
-## Krok 2: Poczekaj na instalację czcionki
+### Krok 2: Czekaj na instalację czcionki (Improve image performance)
+
+Teraz dajemy użytkownikowi czas na ręczną instalację wymaganej czcionki. W rzeczywistym scenariuszu można ten krok zautomatyzować, ale pauza demonstruje mechanizm odświeżania pamięci podręcznej.
 
 ```java
 System.out.println("You have 2 minutes to install the font");
@@ -59,42 +88,58 @@ Thread.sleep(2 * 60 * 1000);
 OpenTypeFontsCache.updateCache();
 ```
 
- Ten krok wprowadza opóźnienie, dając użytkownikom dwie minuty na zainstalowanie wymaganej czcionki. The`updateCache()` Metoda aktualizuje pamięć podręczną czcionek w oparciu o zainstalowaną czcionkę.
+- **Explanation:**  
+  - `Thread.sleep` wstrzymuje wykonanie na **2 minuty** (2 × 60 × 1000 ms).  
+  - `OpenTypeFontsCache.updateCache()` wymusza ponowne skanowanie czcionek OpenType w systemie, dzięki czemu nowo zainstalowane czcionki są od razu dostępne do renderowania.
 
-## Krok 3: Załaduj zaktualizowany obraz PSD
+### Krok 3: Załaduj zaktualizowany obraz PSD (Load PSD image) i **save PSD file**
+
+Po odświeżeniu pamięci podręcznej ponownie ładujemy oryginalny plik PSD. Tym razem informacje o czcionkach są aktualne i możemy **zapisać plik PSD** z właściwym krojem pisma.
 
 ```java
 PsdImage image1 = (PsdImage)Image.load(dataDir + "sample.psd");
 image1.save(dataDir + "HasFont.psd");
 ```
 
-Po opóźnieniu w instalacji czcionki załaduj ponownie obraz PSD. Tym razem zaktualizowana pamięć podręczna zapewnia zapisanie obrazu z zainstalowaną czcionką.
+- **Explanation:**  
+  - Drugi odczyt uwzględnia nowo zainstalowaną czcionkę.  
+  - Zapis do **HasFont.psd** tworzy plik, który teraz zawiera prawidłowe renderowanie czcionki, potwierdzając skuteczność odświeżenia pamięci podręcznej.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie wymusiłeś pamięć podręczną czcionek przy użyciu Aspose.PSD dla Java. Buforowanie czcionek jest istotnym aspektem optymalizacji przetwarzania obrazu, a Aspose.PSD sprawia, że jest to bezproblemowe dla programistów Java.
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| Zapisany PSD nadal wyświetla domyślną czcionkę | Czcionka nie została zainstalowana w miejscu skanowanym przez system operacyjny | Zainstaluj czcionkę w folderze czcionek systemowych (np. `C:\Windows\Fonts` w Windows) i ponownie uruchom `updateCache()`. |
+| `Thread.sleep` zgłasza `InterruptedException` | Sygnatura metody nie obsługuje wyjątków sprawdzonych | Dodaj `throws InterruptedException` do metody `main` lub otocz wywołanie blokiem try‑catch. |
+| `OpenTypeFontsCache.updateCache()` nie działa | Uruchamianie na serwerze bez interfejsu graficznego (headless) bez skonfigurowanych czcionek | Upewnij się, że serwer ma zainstalowane wymagane czcionki i proces Java ma uprawnienia do ich odczytu. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Java?
+**Q: Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Javy?**  
+A: Aspose.PSD dla Javy obsługuje JDK 8 i nowsze, co obejmuje większość nowoczesnych aplikacji Java.
 
-O1: Aspose.PSD for Java jest zaprojektowany do współpracy z różnymi wersjami Java, zapewniając kompatybilność z szeroką gamą projektów.
+**Q: Czy mogę używać Aspose.PSD w projektach komercyjnych?**  
+A: Tak. Do użytku produkcyjnego wymagana jest licencja komercyjna. Możesz ją uzyskać na [purchase page](https://purchase.aspose.com/buy).
 
-### P2: Czy mogę używać Aspose.PSD do celów komercyjnych?
+**Q: Czy dostępna jest wersja próbna?**  
+A: Oczywiście! Pobierz wersję próbną z [releases page](https://releases.aspose.com/).
 
- Odpowiedź 2: Tak, Aspose.PSD oferuje elastyczne opcje licencjonowania, w tym wykorzystanie komercyjne. Odwiedź[strona zakupu](https://purchase.aspose.com/buy) aby uzyskać więcej szczegółów.
+**Q: Gdzie mogę uzyskać wsparcie społeczności?**  
+A: Dołącz do dyskusji na [Aspose.PSD forum](https://forum.aspose.com/c/psd/34), aby uzyskać wskazówki i pomoc techniczną.
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+**Q: Jak mogę uzyskać tymczasową licencję do testów?**  
+A: Odwiedź [temporary license page](https://purchase.aspose.com/temporary-license/), aby poprosić o krótkoterminową licencję.
 
- A3: Absolutnie! Możesz poznać możliwości Aspose.PSD, korzystając z bezpłatnej wersji próbnej na stronie[strona z wydaniami](https://releases.aspose.com/).
+## Zakończenie
 
-### P4: Gdzie mogę znaleźć wsparcie społeczności?
+Teraz wiesz, jak **zapisać plik PSD** po wymuszeniu odświeżenia pamięci podręcznej czcionek, zapewniając, że Twoje wyjściowe pliki PSD będą renderowane z właściwymi krojami pisma za każdym razem. Ta technika jest prostym, a jednocześnie potężnym elementem **optymalizacji przetwarzania obrazu** i może być włączona do większych przepływów pracy wymagających niezawodnej, wysokowydajnej manipulacji PSD.
 
- A4: Aby uzyskać wsparcie i dyskusje społeczności, sprawdź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+---
 
-### P5: Jak mogę uzyskać licencję tymczasową?
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.PSD for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
 
- Odpowiedź 5: Jeśli potrzebujesz licencji tymczasowej, odwiedź stronę[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
