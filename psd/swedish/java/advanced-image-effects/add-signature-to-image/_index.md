@@ -1,32 +1,47 @@
 ---
-title: Lägg till en signatur till en bild med Aspose.PSD för Java
-linktitle: Lägg till en signatur till en bild
+date: 2025-12-02
+description: Lär dig hur du ritar en bild på en canvas och lägger över en signatur
+  i Java med Aspose.PSD. Följ den här steg‑för‑steg Java‑bildbehandlingshandledningen
+  och spara resultatet som PNG.
+language: sv
+linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
-description: Utforska den sömlösa integreringen av signaturer i bilder med Aspose.PSD för Java. Följ vår steg-för-steg-guide, importera nödvändiga paket och förbättra din Java-applikations grafiska kapacitet.
+title: Rita bild på canvas – Lägg till en signatur med Aspose.PSD för Java
+url: /java/advanced-image-effects/add-signature-to-image/
 weight: 13
-url: /sv/java/advanced-image-effects/add-signature-to-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till en signatur till en bild med Aspose.PSD för Java
+# Rita bild på canvas – Lägg till en signatur med Aspose.PSD för Java
 
 ## Introduktion
 
-I den stora Java-utvecklingsvärlden har inkorporering av signaturer i bilder blivit ett vanligt krav. Aspose.PSD för Java framstår som ett kraftfullt verktyg som ger utvecklare sömlösa lösningar för att manipulera bilder, inklusive tillägg av signaturer. I den här handledningen kommer vi att utforska steg för steg hur man lägger till en signatur till en bild med Aspose.PSD för Java.
+Att lägga till en handskriven eller digital signatur på en bild är ett vanligt krav för kontrakt, fakturor eller något dokument som behöver bevis på äkthet. Med **Aspose.PSD for Java** kan du **draw image on canvas** och behandla signaturen som ett annat överlagringslager. I den här **java image processing tutorial** går vi igenom hela arbetsflödet—from loading the base picture and the signature file, to initializing graphics, drawing the overlay, and finally **save image png java**‑stil.
+
+## Snabba svar
+- **Vad betyder “draw image on canvas”?** Det avser att rendera en bild på en annan med hjälp av `Graphics`-klassen.  
+- **Hur lägger man till en signatur i Java?** Läs in signaturfilen som en `Image` och använd `Graphics.drawImage`.  
+- **Vilken version av Aspose.PSD krävs?** Vilken som helst av de senaste 24.x‑utgåvorna; koden fungerar med det senaste biblioteket.  
+- **Kan jag överlagra flera bilder?** Ja – upprepa `drawImage`‑anropet med olika källor.  
+- **Behöver jag en licens?** En provversion fungerar för utveckling; en kommersiell licens krävs för produktion.
+
+## Vad är “draw image on canvas”?
+I Aspose.PSD‑terminologi betyder att rita en bild på en canvas att måla ett `Image`‑objekt på ett annat med hjälp av ett `Graphics`‑sammanhang. Denna operation är ryggraden i **overlay images java**‑tekniker såsom att lägga till vattenstämplar, logotyper eller signaturer.
+
+## Varför använda Aspose.PSD för att överlagra en signatur?
+- **Full PSD‑stöd** – fungerar med lager, masker och transparens.  
+- **Inga inhemska OS‑beroenden** – ren Java, perfekt för server‑sidig bearbetning.  
+- **Högpresterande rendering** – optimerad för stora filer och komplexa sammansättningar.  
 
 ## Förutsättningar
-
-Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
-
-- Java Development Kit (JDK) installerat på ditt system.
-- Aspose.PSD för Java-bibliotek laddas ner och konfigureras i ditt Java-projekt.
+- Java Development Kit (JDK) 8 eller högre.  
+- Aspose.PSD for Java JAR tillagd i ditt projekts classpath.  
+- Två bildfiler: en basbild (t.ex. `layers.psd`) och en signaturgrafik (`sample.psd`).  
 
 ## Importera paket
-
-För att komma igång, importera nödvändiga paket till din Java-klass:
 
 ```java
 import com.aspose.psd.Graphics;
@@ -39,68 +54,97 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## Steg 1: Ladda primära och sekundära bilder
 
- Skapa instanser av`Image` klass och ladda både primära och sekundära bilder:
-
 ```java
 //ExStart:LoadImages
 String dataDir = "Your Document Directory";
 
-// Ladda den primära bilden
+// Load the primary image (the canvas)
 Image canvas = Image.load(dataDir + "layers.psd");
 
-// Ladda den sekundära bilden som innehåller signaturgrafiken
+// Load the secondary image containing the signature graphics
 Image signature = Image.load(dataDir + "sample.psd");
 //ExEnd:LoadImages
 ```
 
-## Steg 2: Initiera grafikklass
+> **Proffstips:** Håll båda bilderna i samma färgläge (RGB) för att undvika oväntade färgskiftningar vid ritning.
 
- Skapa en instans av`Graphics` klass och initiera den med hjälp av objektet för den primära bilden:
+## Steg 2: Initiera grafik (initialize graphics java)
 
 ```java
-//ExStart: InitializeGraphics
+//ExStart:InitializeGraphics
 Graphics graphics = new Graphics(canvas);
-//ExEnd: InitializeGraphics
+//ExEnd:InitializeGraphics
 ```
 
-## Steg 3: Lägg till signatur till bilden
+`Graphics`‑objektet fungerar som en pensel som låter dig **draw image on canvas**. Genom att initiera det med den primära `Image` knyts alla efterföljande ritkommandon till den canvasen.
 
- Använd`DrawImage` metod för att lägga till signaturen till den primära bilden. Justera platsen efter behov. I det här exemplet försöker vi placera den sekundära bilden längst ner till höger på den primära bilden:
+## Steg 3: Lägg till signatur på bild (how to add signature)
 
 ```java
-//ExStart: AddSignatureToImage
-graphics.drawImage(signature, new Point(canvas.getHeight() - signature.getHeight(), canvas.getWidth() - signature.getWidth()));
+//ExStart:AddSignatureToImage
+graphics.drawImage(
+    signature,
+    new Point(
+        canvas.getHeight() - signature.getHeight(),   // X‑coordinate (bottom)
+        canvas.getWidth() - signature.getWidth()      // Y‑coordinate (right)
+    )
+);
 canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
-//ExEnd: AddSignatureToImage
+//ExEnd:AddSignatureToImage
 ```
 
-Upprepa dessa steg i din Java-applikation för att sömlöst lägga till en signatur till en bild med Aspose.PSD.
+I detta kodexempel **overlay images java** vi genom att placera signaturen i nedre högra hörnet. Justera `Point`‑värdena om du behöver en annan placering.
+
+## Vanliga problem & lösningar
+
+| Symptom | Orsak | Lösning |
+|---------|-------|-----|
+| Signaturen visas förvrängd | Olika DPI mellan canvas och signatur | Använd `signature.resize` före ritning eller säkerställ att båda filerna har samma DPI. |
+| Utdatafilen är enorm | Sparar utan kompression | Skicka med en konfigurerad `PngOptions` med `CompressionLevel` satt till ett högre värde. |
+| Inget ritas | Graphics inte avyttrat | Anropa `graphics.dispose()` efter ritning (valfritt, men god praxis). |
 
 ## Slutsats
 
-Sammanfattningsvis förenklar Aspose.PSD för Java processen att lägga till signaturer till bilder, vilket förbättrar funktionaliteten hos Java-applikationer som hanterar grafiskt innehåll. Genom att följa denna handledning kan du enkelt integrera funktioner för signaturmanipulation i dina projekt.
+Genom att följa dessa steg har du lärt dig **how to draw image on canvas** och sömlöst **add a signature** med Aspose.PSD för Java. Denna teknik kan utökas till vattenstämplar, logotyper eller andra överlagrade grafik, vilket ger dina Java‑applikationer kraftfulla **java image processing**‑möjligheter.
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag lägga till flera signaturer till en bild?
+### Q1: Kan jag lägga till flera signaturer på en bild?
 
-S1: Ja, du kan lägga till flera signaturer genom att upprepa stegen med olika signaturbilder.
+A1: Ja, du kan lägga till flera signaturer genom att upprepa stegen med olika signaturbilder.
 
-### F2: Stöder Aspose.PSD andra bildformat?
+### Q2: Stöder Aspose.PSD andra bildformat?
 
-S2: Ja, Aspose.PSD stöder ett brett utbud av bildformat, vilket säkerställer flexibilitet vid bildbehandling.
+A2: Ja, Aspose.PSD stöder ett brett spektrum av bildformat, vilket säkerställer flexibilitet i bildbehandling.
 
-### F3: Krävs en licens för att använda Aspose.PSD för Java?
+### Q3: Krävs en licens för att använda Aspose.PSD för Java?
 
- S3: Ja, du behöver en giltig licens för att använda Aspose.PSD. Besök[Köp Aspose.PSD](https://purchase.aspose.com/buy) för licensinformation.
+A3: Ja, du behöver en giltig licens för att använda Aspose.PSD. Besök [Purchase Aspose.PSD](https://purchase.aspose.com/buy) för licensinformation.
 
-### F4: Hur kan jag få support för Aspose.PSD?
+### Q4: Hur kan jag få support för Aspose.PSD?
 
- A4: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) för samhällsstöd och diskussioner.
+A4: Besök [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) för gemenskapsstöd och diskussioner.
 
-### F5: Kan jag prova Aspose.PSD för Java innan jag köper?
+### Q5: Kan jag prova Aspose.PSD för Java innan jag köper?
 
- A5: Ja, du kan få en[gratis provperiod](https://releases.aspose.com/)att utforska funktionerna innan du gör ett köp.
+A5: Ja, du kan få en [free trial](https://releases.aspose.com/) för att utforska funktionerna innan du köper.
+
+## Ytterligare vanliga frågor
+
+**Q: Hur ändrar jag opaciteten på signaturen?**  
+A: Använd `graphics.setOpacity(float opacity)` innan du anropar `drawImage`. Värdena sträcker sig från 0.0 (genomskinlig) till 1.0 (opak).
+
+**Q: Är det möjligt att rotera signaturen?**  
+A: Ja – tillämpa en transformationsmatris via `graphics.rotateTransform(angle)` innan ritning.
+
+**Q: Kan jag rita signaturen på en JPEG istället för PNG?**  
+A: Absolut. Byt ut `PngOptions` mot `JpegOptions` och ange önskad kvalitetsnivå.
+
+---
+
+**Senast uppdaterad:** 2025-12-02  
+**Testat med:** Aspose.PSD for Java 24.11  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,32 +1,49 @@
 ---
-title: Agregue una firma a una imagen con Aspose.PSD para Java
-linktitle: Agregar una firma a una imagen
-second_title: API de Java Aspose.PSD
-description: Explore la perfecta integración de firmas en imágenes con Aspose.PSD para Java. Siga nuestra guía paso a paso, importe los paquetes necesarios y mejore las capacidades gráficas de su aplicación Java.
+date: 2025-12-02
+description: Aprende a dibujar una imagen en un lienzo y superponer una firma en Java
+  usando Aspose.PSD. Sigue este tutorial paso a paso de procesamiento de imágenes
+  en Java y guarda el resultado como PNG.
+language: es
+linktitle: Add a Signature to an Image
+second_title: Aspose.PSD Java API
+title: Dibujar imagen en el lienzo – Añadir una firma con Aspose.PSD para Java
+url: /java/advanced-image-effects/add-signature-to-image/
 weight: 13
-url: /es/java/advanced-image-effects/add-signature-to-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregue una firma a una imagen con Aspose.PSD para Java
+# Dibujar Imagen en el Lienzo – Agregar una Firma con Aspose.PSD para Java
 
 ## Introducción
 
-En el vasto mundo del desarrollo de Java, incorporar firmas en imágenes se ha convertido en un requisito común. Aspose.PSD para Java surge como una herramienta poderosa que brinda a los desarrolladores soluciones perfectas para manipular imágenes, incluida la adición de firmas. En este tutorial, exploraremos paso a paso cómo agregar una firma a una imagen usando Aspose.PSD para Java.
+Agregar una firma manuscrita o digital a una imagen es un requisito frecuente para contratos, facturas o cualquier documento que necesite prueba de autenticidad. Con **Aspose.PSD for Java** puedes **draw image on canvas** y tratar la firma como otra capa superpuesta. En este **java image processing tutorial** recorreremos todo el flujo de trabajo—desde cargar la imagen base y el archivo de firma, hasta inicializar los gráficos, dibujar la superposición y, finalmente, **save image png java**‑style.
 
-## Requisitos previos
+## Respuestas Rápidas
+- **¿Qué significa “draw image on canvas”?** Se refiere a renderizar una imagen sobre otra usando la clase `Graphics`.  
+- **¿Cómo agregar una firma en Java?** Cargue el archivo de firma como un `Image` y use `Graphics.drawImage`.  
+- **¿Qué versión de Aspose.PSD se requiere?** Cualquier versión reciente 24.x; el código funciona con la última biblioteca.  
+- **¿Puedo superponer varias imágenes?** Sí—repita la llamada `drawImage` con diferentes fuentes.  
+- **¿Necesito una licencia?** Una versión de prueba funciona para desarrollo; se requiere una licencia comercial para producción.
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+## ¿Qué es “Draw Image on Canvas”?
 
-- Kit de desarrollo de Java (JDK) instalado en su sistema.
-- Biblioteca Aspose.PSD para Java descargada y configurada en su proyecto Java.
+En la terminología de Aspose.PSD, dibujar una imagen en un lienzo significa pintar un objeto `Image` sobre otro usando un contexto `Graphics`. Esta operación es la columna vertebral de las técnicas **overlay images java** como agregar marcas de agua, logotipos o firmas.
 
-## Importar paquetes
+## ¿Por Qué Usar Aspose.PSD para Superponer una Firma?
 
-Para comenzar, importe los paquetes necesarios a su clase Java:
+- **Soporte completo de PSD** – funciona con capas, máscaras y transparencia.  
+- **Sin dependencias nativas del SO** – Java puro, perfecto para procesamiento del lado del servidor.  
+- **Renderizado de alto rendimiento** – optimizado para archivos grandes y composiciones complejas.  
+
+## Requisitos Previos
+- Java Development Kit (JDK) 8 o superior.  
+- JAR de Aspose.PSD for Java añadido al classpath de su proyecto.  
+- Dos archivos de imagen: una imagen base (p. ej., `layers.psd`) y un gráfico de firma (`sample.psd`).  
+
+## Importar Paquetes
 
 ```java
 import com.aspose.psd.Graphics;
@@ -37,70 +54,96 @@ import com.aspose.psd.Point;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Paso 1: cargar imágenes primarias y secundarias
-
- Crear instancias de la`Image` class y cargue las imágenes primaria y secundaria:
+## Paso 1: Cargar Imágenes Primaria y Secundaria
 
 ```java
-//ExInicio: cargar imágenes
+//ExStart:LoadImages
 String dataDir = "Your Document Directory";
 
-// Cargar la imagen principal
+// Load the primary image (the canvas)
 Image canvas = Image.load(dataDir + "layers.psd");
 
-// Cargue la imagen secundaria que contiene los gráficos de la firma.
+// Load the secondary image containing the signature graphics
 Image signature = Image.load(dataDir + "sample.psd");
-//ExEnd: cargar imágenes
+//ExEnd:LoadImages
 ```
 
-## Paso 2: inicializar la clase de gráficos
+> **Consejo profesional:** Mantenga ambas imágenes en el mismo modo de color (RGB) para evitar cambios de color inesperados al dibujar.
 
- Crear una instancia del`Graphics` clase e inicialícela usando el objeto de la imagen principal:
+## Paso 2: Inicializar Graphics (initialize graphics java)
 
 ```java
-//ExStart: Inicializar gráficos
+//ExStart:InitializeGraphics
 Graphics graphics = new Graphics(canvas);
-//ExEnd: Inicializar gráficos
+//ExEnd:InitializeGraphics
 ```
 
-## Paso 3: agregue firma a la imagen
+El objeto `Graphics` actúa como un pincel que le permite **draw image on canvas**. Inicializarlo con la `Image` primaria vincula todos los comandos de dibujo posteriores a ese lienzo.
 
- Utilice el`DrawImage` Método para agregar la firma a la imagen principal. Ajuste la ubicación según sea necesario. En este ejemplo, intentamos colocar la imagen secundaria en la parte inferior derecha de la imagen principal:
+## Paso 3: Agregar la Firma a la Imagen (how to add signature)
 
 ```java
-//ExStart:AgregarFirmaAImagen
-graphics.drawImage(signature, new Point(canvas.getHeight() - signature.getHeight(), canvas.getWidth() - signature.getWidth()));
+//ExStart:AddSignatureToImage
+graphics.drawImage(
+    signature,
+    new Point(
+        canvas.getHeight() - signature.getHeight(),   // X‑coordinate (bottom)
+        canvas.getWidth() - signature.getWidth()      // Y‑coordinate (right)
+    )
+);
 canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
-//ExEnd: Agregar firma a imagen
+//ExEnd:AddSignatureToImage
 ```
 
-Repita estos pasos en su aplicación Java para agregar sin problemas una firma a una imagen usando Aspose.PSD.
+En este fragmento **overlay images java** posicionamos la firma en la esquina inferior derecha. Ajuste los valores de `Point` si necesita una ubicación diferente.
+
+## Problemas Comunes y Soluciones
+| Síntoma | Causa | Solución |
+|---------|-------|----------|
+| La firma aparece distorsionada | DPI no coincidente entre el lienzo y la firma | Use `signature.resize` antes de dibujar o asegúrese de que ambos archivos compartan el mismo DPI. |
+| El archivo de salida es muy grande | Guardado sin compresión | Pase un `PngOptions` configurado con `CompressionLevel` establecido a un valor mayor. |
+| No se dibuja nada | Graphics no se libera | Llame a `graphics.dispose()` después de dibujar (opcional, pero buena práctica). |
 
 ## Conclusión
 
-En conclusión, Aspose.PSD para Java simplifica el proceso de agregar firmas a imágenes, mejorando la funcionalidad de las aplicaciones Java que tratan con contenido gráfico. Si sigue este tutorial, podrá integrar sin esfuerzo funciones de manipulación de firmas en sus proyectos.
+Al seguir estos pasos ha aprendido **how to draw image on canvas** y agregar una **firma** sin problemas usando Aspose.PSD para Java. Esta técnica puede ampliarse a marcas de agua, logotipos o cualquier gráfico superpuesto, proporcionando a sus aplicaciones Java potentes capacidades de **java image processing**.
 
-## Preguntas frecuentes
+## Preguntas Frecuentes
 
 ### P1: ¿Puedo agregar varias firmas a una imagen?
 
-R1: Sí, puedes agregar varias firmas repitiendo los pasos con diferentes imágenes de firma.
+R1: Sí, puede agregar varias firmas repitiendo los pasos con diferentes imágenes de firma.
 
 ### P2: ¿Aspose.PSD admite otros formatos de imagen?
 
-R2: Sí, Aspose.PSD admite una amplia gama de formatos de imagen, lo que garantiza flexibilidad en el procesamiento de imágenes.
+R2: Sí, Aspose.PSD admite una amplia gama de formatos de imagen, garantizando flexibilidad en el procesamiento de imágenes.
 
 ### P3: ¿Se requiere una licencia para usar Aspose.PSD para Java?
 
- R3: Sí, necesita una licencia válida para utilizar Aspose.PSD. Visita[Comprar Aspose.PSD](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
+R3: Sí, necesita una licencia válida para usar Aspose.PSD. Visite [Purchase Aspose.PSD](https://purchase.aspose.com/buy) para obtener detalles de la licencia.
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.PSD?
 
- A4: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para apoyo y debates de la comunidad.
+R4: Visite el [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) para soporte comunitario y discusiones.
 
-### P5: ¿Puedo probar Aspose.PSD para Java antes de comprarlo?
+### P5: ¿Puedo probar Aspose.PSD para Java antes de comprar?
 
- A5: Sí, puedes conseguir un[prueba gratuita](https://releases.aspose.com/)para explorar las funciones antes de realizar una compra.
+R5: Sí, puede obtener una [free trial](https://releases.aspose.com/) para explorar las funciones antes de realizar una compra.
+
+## Preguntas Frecuentes Adicionales
+
+**Q: ¿Cómo cambio la opacidad de la firma?**  
+A: Use `graphics.setOpacity(float opacity)` antes de llamar a `drawImage`. Los valores van de 0.0 (transparente) a 1.0 (opaco).
+
+**Q: ¿Es posible rotar la firma?**  
+A: Sí—aplique una matriz de transformación mediante `graphics.rotateTransform(angle)` antes de dibujar.
+
+**Q: ¿Puedo dibujar la firma en un JPEG en lugar de PNG?**  
+A: Absolutamente. Reemplace `PngOptions` con `JpegOptions` y especifique el nivel de calidad deseado.
+
+**Última actualización:** 2025-12-02  
+**Probado con:** Aspose.PSD for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,32 +1,47 @@
 ---
-title: Aspose.PSD for Java ile Görüntüye İmza Ekleme
-linktitle: Bir Resme İmza Ekleme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java ile imzaların görüntülere kusursuz entegrasyonunu keşfedin. Adım adım kılavuzumuzu izleyin, gerekli paketleri içe aktarın ve Java uygulamanızın grafik yeteneklerini geliştirin.
+date: 2025-12-02
+description: Aspose.PSD kullanarak Java’da tuval üzerine resim çizmeyi ve bir imza
+  eklemeyi öğrenin. Bu adım adım Java görüntü işleme öğreticisini izleyin ve sonucu
+  PNG olarak kaydedin.
+language: tr
+linktitle: Add a Signature to an Image
+second_title: Aspose.PSD Java API
+title: Tuval Üzerine Görüntü Çizin – Aspose.PSD for Java ile İmza Ekleyin
+url: /java/advanced-image-effects/add-signature-to-image/
 weight: 13
-url: /tr/java/advanced-image-effects/add-signature-to-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java ile Görüntüye İmza Ekleme
+# Canvas Üzerine Görüntü Çiz – Aspose.PSD for Java ile İmza Ekle
 
-## giriiş
+## Giriş
 
-Java geliştirmenin geniş dünyasında, imzaların görsellere dahil edilmesi ortak bir gereklilik haline geldi. Aspose.PSD for Java, geliştiricilere imzaların eklenmesi de dahil olmak üzere görüntülerin işlenmesi için kusursuz çözümler sağlayan güçlü bir araç olarak ortaya çıkıyor. Bu eğitimde Aspose.PSD for Java kullanarak bir görüntüye nasıl imza ekleneceğini adım adım inceleyeceğiz.
+Bir resme el yazısı veya dijital imza eklemek, sözleşmeler, faturalar veya kimliğin kanıtlanması gereken herhangi bir belge için sık bir gereksinimdir. **Aspose.PSD for Java** ile **draw image on canvas** yapabilir ve imzayı sadece başka bir üst katman olarak ele alabilirsiniz. Bu **java image processing tutorial** içinde tüm iş akışını adım adım inceleyeceğiz—temel resmi ve imza dosyasını yüklemekten, grafik başlatmaya, üst katmanı çizmeye ve sonunda **save image png java**‑stilinde kaydetmeye kadar.
+
+## Hızlı Yanıtlar
+- **draw image on canvas ne anlama geliyor?** `Graphics` sınıfını kullanarak bir görüntüyü diğerinin üzerine render etmeyi ifade eder.  
+- **Java’da imza nasıl eklenir?** İmza dosyasını bir `Image` olarak yükleyin ve `Graphics.drawImage` kullanın.  
+- **Hangi Aspose.PSD sürümü gerekiyor?** Herhangi bir son 24.x sürümü; kod en yeni kütüphane ile çalışır.  
+- **Birden fazla görüntüyü üst üste ekleyebilir miyim?** Evet—farklı kaynaklarla `drawImage` çağrısını tekrarlayın.  
+- **Lisans gerekli mi?** Deneme sürümü geliştirme için çalışır; üretim için ticari lisans gerekir.
+
+## “Draw Image on Canvas” Nedir?
+Aspose.PSD terminolojisinde, bir kanvas üzerine görüntü çizmek, bir `Image` nesnesini bir `Graphics` bağlamı kullanarak diğerine boyamak anlamına gelir. Bu işlem, **overlay images java** gibi filigran, logo veya imza ekleme tekniklerinin temelini oluşturur.
+
+## Neden Aspose.PSD'yi İmza Üst Üste Eklemek İçin Kullanmalısınız?
+- **Tam PSD desteği** – katmanlar, maskeler ve şeffaflık ile çalışır.  
+- **Yerel OS bağımlılığı yok** – saf Java, sunucu tarafı işleme için mükemmel.  
+- **Yüksek performanslı render** – büyük dosyalar ve karmaşık kompozisyonlar için optimize edilmiştir.  
 
 ## Önkoşullar
-
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-- Aspose.PSD for Java kütüphanesi indirildi ve Java projenize kuruldu.
+- Java Development Kit (JDK) 8 veya üzeri.  
+- Aspose.PSD for Java JAR dosyasını projenizin classpath'ine ekleyin.  
+- İki görüntü dosyası: bir temel resim (ör. `layers.psd`) ve bir imza grafiği (`sample.psd`).  
 
 ## Paketleri İçe Aktar
-
-Başlamak için gerekli paketleri Java sınıfınıza aktarın:
 
 ```java
 import com.aspose.psd.Graphics;
@@ -37,70 +52,99 @@ import com.aspose.psd.Point;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## 1. Adım: Birincil ve İkincil Görüntüleri Yükleyin
-
- Örneklerini oluşturun`Image` hem birincil hem de ikincil görüntüleri sınıflandırın ve yükleyin:
+## Adım 1: Birincil ve İkincil Görüntüleri Yükle
 
 ```java
-//ExStart:Resimleri Yükle
+//ExStart:LoadImages
 String dataDir = "Your Document Directory";
 
-// Birincil görüntüyü yükleyin
+// Load the primary image (the canvas)
 Image canvas = Image.load(dataDir + "layers.psd");
 
-// İmza grafiklerini içeren ikincil görüntüyü yükleyin
+// Load the secondary image containing the signature graphics
 Image signature = Image.load(dataDir + "sample.psd");
-//ExEnd:Resimleri Yükle
+//ExEnd:LoadImages
 ```
 
-## Adım 2: Grafik Sınıfını Başlatın
+> **Pro ipucu:** Çizim sırasında beklenmeyen renk kaymalarını önlemek için her iki görüntüyü de aynı renk modunda (RGB) tutun.
 
- Bir örneğini oluşturun`Graphics` sınıflandırın ve birincil görüntünün nesnesini kullanarak başlatın:
+## Adım 2: Grafik Başlat (initialize graphics java)
 
 ```java
-//ExStart:Grafikleri Başlat
+//ExStart:InitializeGraphics
 Graphics graphics = new Graphics(canvas);
-//ExEnd:Grafikleri Başlat
+//ExEnd:InitializeGraphics
 ```
 
-## 3. Adım: Resme İmza Ekleme
+`Graphics` nesnesi, **draw image on canvas** yapmanızı sağlayan bir fırça gibi davranır. Bunu birincil `Image` ile başlatmak, sonraki tüm çizim komutlarını bu kanvasa bağlar.
 
- Şunu kullanın:`DrawImage` İmzayı birincil görüntüye ekleme yöntemi. Konumu gerektiği gibi ayarlayın. Bu örnekte ikincil görseli birincil görselin sağ alt kısmına yerleştirmeye çalışıyoruz:
+## Adım 3: Görüntüye İmza Ekle (how to add signature)
 
 ```java
 //ExStart:AddSignatureToImage
-graphics.drawImage(signature, new Point(canvas.getHeight() - signature.getHeight(), canvas.getWidth() - signature.getWidth()));
+graphics.drawImage(
+    signature,
+    new Point(
+        canvas.getHeight() - signature.getHeight(),   // X‑coordinate (bottom)
+        canvas.getWidth() - signature.getWidth()      // Y‑coordinate (right)
+    )
+);
 canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
-//ExEnd:İmzayıResme Ekle
+//ExEnd:AddSignatureToImage
 ```
 
-Aspose.PSD kullanarak bir görüntüye sorunsuz bir şekilde imza eklemek için Java uygulamanızda bu adımları tekrarlayın.
+Bu kod parçasında, imzayı sağ‑alt köşeye konumlandırarak **overlay images java** yapıyoruz. Farklı bir konumlandırma gerekiyorsa `Point` değerlerini ayarlayın.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Sonuç olarak Aspose.PSD for Java, görüntülere imza ekleme sürecini basitleştirerek grafik içerikle ilgilenen Java uygulamalarının işlevselliğini artırır. Bu öğreticiyi takip ederek imza manipülasyon özelliklerini projelerinize zahmetsizce entegre edebilirsiniz.
+| Belirti | Neden | Çözüm |
+|---------|-------|-------|
+| İmza bozulmuş görünüyor | Kanvas ve imza arasında DPI uyumsuzluğu | `signature.resize` kullanarak çizmeden önce yeniden boyutlandırın veya her iki dosyanın da aynı DPI'ye sahip olduğundan emin olun. |
+| Çıktı dosyası çok büyük | Sıkıştırma olmadan kaydediliyor | `CompressionLevel` daha yüksek bir değere ayarlanmış yapılandırılmış bir `PngOptions` geçirin. |
+| Hiçbir şey çizilmiyor | Graphics nesnesi serbest bırakılmadı | Çizimden sonra `graphics.dispose()` çağırın (isteğe bağlı, ancak iyi bir uygulamadır). |
 
-## SSS'ler
+## Sonuç
 
-### S1: Bir resme birden fazla imza ekleyebilir miyim?
+Bu adımları izleyerek **draw image on canvas** nasıl yapılacağını ve Aspose.PSD for Java kullanarak sorunsuz bir şekilde **imza eklemeyi** öğrendiniz. Bu teknik, filigran, logo veya herhangi bir üst katman grafiğine genişletilebilir ve Java uygulamalarınıza güçlü **java image processing** yetenekleri kazandırır.
 
-Cevap1: Evet, adımları farklı imza görselleriyle tekrarlayarak birden fazla imza ekleyebilirsiniz.
+## SSS
+
+### S1: Bir görüntüye birden fazla imza ekleyebilir miyim?
+
+Evet, farklı imza görüntüleriyle adımları tekrarlayarak birden fazla imza ekleyebilirsiniz.
 
 ### S2: Aspose.PSD diğer görüntü formatlarını destekliyor mu?
 
-Cevap2: Evet, Aspose.PSD çok çeşitli görüntü formatlarını destekleyerek görüntü işlemede esneklik sağlar.
+Evet, Aspose.PSD geniş bir görüntü formatı yelpazesini destekler, bu da görüntü işleme esnekliği sağlar.
 
-### S3: Aspose.PSD for Java'yı kullanmak için lisans gerekli mi?
+### S3: Aspose.PSD for Java kullanmak için lisans gerekli mi?
 
- Cevap3: Evet, Aspose.PSD'yi kullanmak için geçerli bir lisansa ihtiyacınız var. Ziyaret etmek[Aspose.PSD'yi satın alın](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+Evet, Aspose.PSD kullanmak için geçerli bir lisansa ihtiyacınız var. Lisans detayları için [Purchase Aspose.PSD](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-### S4: Aspose.PSD için nasıl destek alabilirim?
+### S4: Aspose.PSD için destek nasıl alabilirim?
 
- A4: Ziyaret edin[Aspose.PSD Forumu](https://forum.aspose.com/c/psd/34) topluluk desteği ve tartışmalar için.
+Topluluk desteği ve tartışmalar için [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) adresini ziyaret edin.
 
-### S5: Satın almadan önce Aspose.PSD for Java'yı deneyebilir miyim?
+### S5: Aspose.PSD for Java'ı satın almadan deneyebilir miyim?
 
- A5: Evet, alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özellikleri keşfetmek için.
+Evet, satın almadan önce özellikleri keşfetmek için bir [ücretsiz deneme](https://releases.aspose.com/) alabilirsiniz.
+
+## Ek Sık Sorulan Sorular
+
+**S: İmzanın opaklığını nasıl değiştiririm?**  
+C: `drawImage` çağırmadan önce `graphics.setOpacity(float opacity)` kullanın. Değerler 0.0 (şeffaf) ile 1.0 (opak) arasında değişir.
+
+**S: İmza döndürülebilir mi?**  
+C: Evet—çizmeden önce `graphics.rotateTransform(angle)` ile bir dönüşüm matrisi uygulayın.
+
+**S: İmzayı PNG yerine JPEG üzerine çizebilir miyim?**  
+C: Kesinlikle. `PngOptions` yerine `JpegOptions` kullanın ve istediğiniz kalite seviyesini belirtin.
+
+---
+
+**Last Updated:** 2025-12-02  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

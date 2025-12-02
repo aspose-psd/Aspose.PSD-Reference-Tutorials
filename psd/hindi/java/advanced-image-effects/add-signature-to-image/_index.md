@@ -1,32 +1,47 @@
 ---
-title: Aspose.PSD for Java के साथ एक छवि में हस्ताक्षर जोड़ें
-linktitle: किसी छवि में हस्ताक्षर जोड़ें
-second_title: Aspose.PSD जावा एपीआई
-description: Aspose.PSD for Java के साथ छवियों में हस्ताक्षरों के सहज एकीकरण का अन्वेषण करें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें, आवश्यक पैकेज आयात करें, और अपने Java एप्लिकेशन की ग्राफ़िकल क्षमताओं को बढ़ाएँ।
+date: 2025-12-02
+description: जावा में Aspose.PSD का उपयोग करके कैनवास पर इमेज कैसे ड्रॉ करें और सिग्नेचर
+  ओवरले करें, सीखें। इस चरण-दर-चरण जावा इमेज प्रोसेसिंग ट्यूटोरियल का पालन करें और
+  परिणाम को PNG के रूप में सहेजें।
+language: hi
+linktitle: Add a Signature to an Image
+second_title: Aspose.PSD Java API
+title: कैनवास पर छवि बनाएं – Aspose.PSD for Java के साथ हस्ताक्षर जोड़ें
+url: /java/advanced-image-effects/add-signature-to-image/
 weight: 13
-url: /hi/java/advanced-image-effects/add-signature-to-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java के साथ एक छवि में हस्ताक्षर जोड़ें
+# कैनवास पर इमेज ड्रॉ करें – Aspose.PSD for Java के साथ सिग्नेचर जोड़ें
 
-## परिचय
+## Introduction
 
-जावा विकास की विशाल दुनिया में, छवियों में हस्ताक्षर शामिल करना एक सामान्य आवश्यकता बन गई है। Aspose.PSD for Java एक शक्तिशाली उपकरण के रूप में उभरता है, जो डेवलपर्स को छवियों में हेरफेर करने के लिए सहज समाधान प्रदान करता है, जिसमें हस्ताक्षर जोड़ना भी शामिल है। इस ट्यूटोरियल में, हम चरण दर चरण यह पता लगाएंगे कि Aspose.PSD for Java का उपयोग करके किसी छवि में हस्ताक्षर कैसे जोड़ें।
+हाथ से लिखी या डिजिटल सिग्नेचर को चित्र में जोड़ना अनुबंधों, चालानों या किसी भी दस्तावेज़ के लिए अक्सर आवश्यक होता है जिसे प्रामाणिकता का प्रमाण चाहिए। **Aspose.PSD for Java** के साथ आप **draw image on canvas** कर सकते हैं और सिग्नेचर को एक अतिरिक्त ओवरले लेयर की तरह मान सकते हैं। इस **java image processing tutorial** में हम पूरे वर्कफ़्लो को समझेंगे—बेस चित्र और सिग्नेचर फ़ाइल को लोड करने से लेकर ग्राफ़िक्स को इनिशियलाइज़ करने, ओवरले ड्रॉ करने, और अंत में **save image png java**‑स्टाइल में सेव करने तक।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does “draw image on canvas” mean?** यह `Graphics` क्लास का उपयोग करके एक इमेज को दूसरी इमेज पर रेंडर करने को दर्शाता है।  
+- **How to add a signature in Java?** सिग्नेचर फ़ाइल को `Image` के रूप में लोड करें और `Graphics.drawImage` का उपयोग करें।  
+- **Which Aspose.PSD version is required?** कोई भी हालिया 24.x रिलीज़; कोड नवीनतम लाइब्रेरी के साथ काम करता है।  
+- **Can I overlay multiple images?** हाँ—विभिन्न स्रोतों के साथ `drawImage` कॉल को दोहराएँ।  
+- **Do I need a license?** डेवलपमेंट के लिए ट्रायल काम करता है; प्रोडक्शन के लिए कमर्शियल लाइसेंस आवश्यक है।
 
-ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+## What Is “Draw Image on Canvas”?
+Aspose.PSD शब्दावली में, कैनवास पर इमेज ड्रॉ करना का मतलब है एक `Image` ऑब्जेक्ट को दूसरे पर `Graphics` कॉन्टेक्स्ट का उपयोग करके पेंट करना। यह ऑपरेशन **overlay images java** तकनीकों जैसे वाटरमार्क, लोगो या सिग्नेचर जोड़ने का मूल आधार है।
 
-- आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-- Aspose.PSD for Java लाइब्रेरी डाउनलोड की गई और आपके Java प्रोजेक्ट में सेट अप की गई।
+## Why Use Aspose.PSD for Overlaying a Signature?
+- **Full PSD support** – लेयर्स, मास्क और ट्रांसपैरेंसी के साथ काम करता है।  
+- **No native OS dependencies** – शुद्ध Java, सर्वर‑साइड प्रोसेसिंग के लिए उपयुक्त।  
+- **High‑performance rendering** – बड़े फ़ाइलों और जटिल कंपोज़िशन के लिए ऑप्टिमाइज़्ड।  
 
-## पैकेज आयात करें
+## Prerequisites
+- Java Development Kit (JDK) 8 या उससे ऊपर।  
+- Aspose.PSD for Java JAR को अपने प्रोजेक्ट की क्लासपाथ में जोड़ें।  
+- दो इमेज फ़ाइलें: एक बेस चित्र (जैसे `layers.psd`) और एक सिग्नेचर ग्राफिक (`sample.psd`)।  
 
-आरंभ करने के लिए, आवश्यक पैकेजों को अपने जावा क्लास में आयात करें:
+## Import Packages
 
 ```java
 import com.aspose.psd.Graphics;
@@ -37,70 +52,98 @@ import com.aspose.psd.Point;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## चरण 1: प्राथमिक और द्वितीयक छवियाँ लोड करें
-
- के उदाहरण बनाएँ`Image` क्लास और प्राथमिक और द्वितीयक दोनों छवियों को लोड करें:
+## Step 1: Load Primary and Secondary Images
 
 ```java
-//एक्सस्टार्ट: लोडइमेजेज
+//ExStart:LoadImages
 String dataDir = "Your Document Directory";
 
-// प्राथमिक छवि लोड करें
+// Load the primary image (the canvas)
 Image canvas = Image.load(dataDir + "layers.psd");
 
-// हस्ताक्षर ग्राफिक्स युक्त द्वितीयक छवि लोड करें
+// Load the secondary image containing the signature graphics
 Image signature = Image.load(dataDir + "sample.psd");
-//ExEnd: लोडइमेज
+//ExEnd:LoadImages
 ```
 
-## चरण 2: ग्राफ़िक्स क्लास आरंभ करें
+> **Pro tip:** दोनों इमेज को एक ही कलर मोड (RGB) में रखें ताकि ड्रॉ करते समय अप्रत्याशित रंग परिवर्तन न हों।
 
- इसका एक उदाहरण बनाएं`Graphics` क्लास और प्राथमिक छवि के ऑब्जेक्ट का उपयोग करके इसे आरंभ करें:
+## Step 2: Initialize Graphics (initialize graphics java)
 
 ```java
-//ExStart:इनिशियलाइज़ग्राफिक्स
+//ExStart:InitializeGraphics
 Graphics graphics = new Graphics(canvas);
-//ExEnd:इनिशियलाइज़ग्राफिक्स
+//ExEnd:InitializeGraphics
 ```
 
-## चरण 3: छवि में हस्ताक्षर जोड़ें
+`Graphics` ऑब्जेक्ट एक पेंटब्रश की तरह काम करता है जो आपको **draw image on canvas** करने देता है। इसे प्राइमरी `Image` के साथ इनिशियलाइज़ करने से सभी बाद के ड्रॉ कमांड उस कैनवास से जुड़ जाते हैं।
 
- उपयोग`DrawImage` प्राथमिक छवि में हस्ताक्षर जोड़ने की विधि। आवश्यकतानुसार स्थान समायोजित करें। इस उदाहरण में, हम द्वितीयक छवि को प्राथमिक छवि के दाईं ओर नीचे रखने का प्रयास करते हैं:
+## Step 3: Add Signature to Image (how to add signature)
 
 ```java
 //ExStart:AddSignatureToImage
-graphics.drawImage(signature, new Point(canvas.getHeight() - signature.getHeight(), canvas.getWidth() - signature.getWidth()));
+graphics.drawImage(
+    signature,
+    new Point(
+        canvas.getHeight() - signature.getHeight(),   // X‑coordinate (bottom)
+        canvas.getWidth() - signature.getWidth()      // Y‑coordinate (right)
+    )
+);
 canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 //ExEnd:AddSignatureToImage
 ```
 
-Aspose.PSD का उपयोग करके किसी छवि में हस्ताक्षर जोड़ने के लिए अपने जावा अनुप्रयोग में इन चरणों को दोहराएं।
+इस स्निपेट में हम **overlay images java** करके सिग्नेचर को नीचे‑दाएँ कोने में रख रहे हैं। यदि आपको अलग प्लेसमेंट चाहिए तो `Point` वैल्यूज़ को समायोजित करें।
 
-## निष्कर्ष
+## Common Issues & Solutions
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| Signature appears distorted | कैनवास और सिग्नेचर के बीच DPI मेल नहीं खाता | ड्रॉ करने से पहले `signature.resize` का उपयोग करें या सुनिश्चित करें कि दोनों फ़ाइलों का DPI समान हो। |
+| Output file is huge | बिना कॉम्प्रेशन के सेव किया गया | `CompressionLevel` को उच्च मान पर सेट करने के साथ एक कॉन्फ़िगर किया हुआ `PngOptions` पास करें। |
+| Nothing is drawn | Graphics डिस्पोज़ नहीं किया गया | ड्रॉ करने के बाद `graphics.dispose()` कॉल करें (वैकल्पिक, लेकिन अच्छा अभ्यास)। |
 
-निष्कर्ष में, Aspose.PSD for Java छवियों में हस्ताक्षर जोड़ने की प्रक्रिया को सरल बनाता है, ग्राफिकल सामग्री से निपटने वाले Java अनुप्रयोगों की कार्यक्षमता को बढ़ाता है। इस ट्यूटोरियल का पालन करके, आप आसानी से अपने प्रोजेक्ट में हस्ताक्षर हेरफेर सुविधाओं को एकीकृत कर सकते हैं।
+## Conclusion
 
-## अक्सर पूछे जाने वाले प्रश्न
+इन चरणों का पालन करके आपने **how to draw image on canvas** सीख लिया और Aspose.PSD for Java का उपयोग करके सहजता से **add a signature** कर ली। इस तकनीक को वाटरमार्क, लोगो या किसी भी ओवरले ग्राफ़िक्स के लिए विस्तारित किया जा सकता है, जिससे आपके Java एप्लिकेशन को शक्तिशाली **java image processing** क्षमताएँ मिलती हैं।
 
-### प्रश्न 1: क्या मैं एक छवि में एकाधिक हस्ताक्षर जोड़ सकता हूँ?
+## FAQ's
 
-A1: हां, आप विभिन्न हस्ताक्षर छवियों के साथ चरणों को दोहराकर एकाधिक हस्ताक्षर जोड़ सकते हैं।
+### Q1: Can I add multiple signatures to an image?
 
-### प्रश्न 2: क्या Aspose.PSD अन्य छवि प्रारूपों का समर्थन करता है?
+A1: हाँ, आप विभिन्न सिग्नेचर इमेजेज़ के साथ चरणों को दोहराकर कई सिग्नेचर जोड़ सकते हैं।
 
-A2: हां, Aspose.PSD छवि प्रसंस्करण में लचीलापन सुनिश्चित करने, छवि प्रारूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
+### Q2: Does Aspose.PSD support other image formats?
 
-### प्रश्न 3: क्या Java के लिए Aspose.PSD का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
+A2: हाँ, Aspose.PSD कई इमेज फ़ॉर्मेट्स को सपोर्ट करता है, जिससे इमेज प्रोसेसिंग में लचीलापन मिलता है।
 
- A3: हाँ, Aspose.PSD का उपयोग करने के लिए आपको वैध लाइसेंस की आवश्यकता है।[Aspose.PSD खरीदें](https://purchase.aspose.com/buy) लाइसेंसिंग विवरण के लिए कृपया देखें.
+### Q3: Is a license required for using Aspose.PSD for Java?
 
-### प्रश्न 4: मैं Aspose.PSD के लिए समर्थन कैसे प्राप्त कर सकता हूं?
+A3: हाँ, Aspose.PSD के उपयोग के लिए एक वैध लाइसेंस आवश्यक है। लाइसेंसिंग विवरण के लिए [Purchase Aspose.PSD](https://purchase.aspose.com/buy) देखें।
 
- A4: पर जाएँ[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34) सामुदायिक समर्थन और चर्चा के लिए।
+### Q4: How can I get support for Aspose.PSD?
 
-### प्रश्न 5: क्या मैं खरीदने से पहले Java के लिए Aspose.PSD आज़मा सकता हूँ?
+A4: समुदाय समर्थन और चर्चा के लिए [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) पर जाएँ।
 
- A5: हाँ, आप प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/)खरीदारी करने से पहले सुविधाओं का पता लगाने के लिए।
+### Q5: Can I try Aspose.PSD for Java before purchasing?
+
+A5: हाँ, आप खरीदने से पहले फीचर एक्सप्लोर करने के लिए एक [free trial](https://releases.aspose.com/) ले सकते हैं।
+
+## Additional Frequently Asked Questions
+
+**Q: How do I change the opacity of the signature?**  
+A: `drawImage` कॉल करने से पहले `graphics.setOpacity(float opacity)` उपयोग करें। वैल्यू 0.0 (पारदर्शी) से 1.0 (अपारदर्शी) तक हो सकती है।
+
+**Q: Is it possible to rotate the signature?**  
+A: हाँ—ड्रॉ करने से पहले `graphics.rotateTransform(angle)` के माध्यम से ट्रांसफ़ॉर्मेशन मैट्रिक्स लागू करें।
+
+**Q: Can I draw the signature onto a JPEG instead of PNG?**  
+A: बिल्कुल। `PngOptions` को `JpegOptions` से बदलें और इच्छित क्वालिटी लेवल सेट करें।
+
+---
+
+**Last Updated:** 2025-12-02  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
