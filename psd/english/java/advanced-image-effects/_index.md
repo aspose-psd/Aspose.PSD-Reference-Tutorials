@@ -73,13 +73,6 @@ Explore the seamless integration of signatures into images with Aspose.PSD for J
 ### [Add Stroke Layer Color in Aspose.PSD for Java](./add-stroke-layer-color/)
 Explore the power of Aspose.PSD for Java with our step‑by‑step guide on adding stroke layer color. Elevate your graphic designs effortlessly.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use these tutorials in a commercial project?**  
@@ -102,3 +95,10 @@ A: Yes. Load only required layers, use `PsdImage.dispose()` after processing, an
 **Last Updated:** 2025-11-27  
 **Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

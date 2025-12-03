@@ -142,17 +142,15 @@ A: Yes, join the discussions on the Aspose forums [here](https://forum.aspose.co
 
 You've now learned how to **export PSD to PNG** while **adding new regular layers** using Aspose.PSD for Java. This workflow showcases core **psd image manipulation** capabilities: loading a file, creating layers, populating pixel data, and exporting the final composition. Feel free to experiment with different rectangle sizes, pixel colors, or layer effects to tailor the output to your project's needs.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-27  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

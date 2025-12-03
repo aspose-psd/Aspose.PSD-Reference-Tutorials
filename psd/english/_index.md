@@ -101,12 +101,6 @@ A: Use the `LoadOptions` to enable lazy loading and process layers individually 
 **Q: Is it possible to batch‑convert many PSD files to PDF?**  
 A: Absolutely. Loop through a directory, load each PSD, and call `Save` with the PDF format – the API handles the conversion in a single pass.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -114,4 +108,9 @@ A: Absolutely. Loop through a directory, load each PSD, and call `Save` with the
 **Tested With:** Aspose.PSD 24.11 for .NET / Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
