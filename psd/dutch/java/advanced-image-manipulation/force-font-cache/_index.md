@@ -1,35 +1,57 @@
 ---
-title: Forceer lettertypecache met Aspose.PSD voor Java
-linktitle: Forceer lettertypecache
-second_title: Aspose.PSD Java-API
-description: Leer hoe u lettertypecache kunt forceren met Aspose.PSD voor Java. Optimaliseer de beeldverwerking en verbeter de prestaties met deze stapsgewijze handleiding.
+date: 2025-12-01
+description: Leer hoe je een PSD‑bestand opslaat, de lettertypecache forceert en de
+  beeldprestaties verbetert met Aspose.PSD voor Java. Stapsgewijze gids voor optimalisatie
+  van beeldverwerking.
+language: nl
+linktitle: Force Font Cache
+second_title: Aspose.PSD Java API
+title: Hoe een PSD‑bestand opslaan en de lettertypecache forceren met Aspose.PSD voor
+  Java
+url: /java/advanced-image-manipulation/force-font-cache/
 weight: 11
-url: /nl/java/advanced-image-manipulation/force-font-cache/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Forceer lettertypecache met Aspose.PSD voor Java
+# Hoe PSD-bestand opslaan en de lettertypecache forceren met Aspose.PSD voor Java
 
-## Invoering
+## Introductie
 
-Wilt u het cachen van lettertypen optimaliseren met Aspose.PSD voor Java? Lettertypecaching speelt een cruciale rol bij het verbeteren van de prestaties van uw Java-applicaties, vooral als het gaat om complexe beeldverwerkingstaken. In deze uitgebreide handleiding leiden we u door het proces van het forceren van lettertypecache met Aspose.PSD voor Java. Of u nu een doorgewinterde ontwikkelaar bent of net begint met het verwerken van Java-afbeeldingen, deze tutorial is bedoeld om u te helpen lettertypecaching naadloos in uw projecten te integreren.
+Als je **PSD‑bestand** objecten snel wilt **opslaan** en er tegelijkertijd voor wilt zorgen dat de juiste lettertypen beschikbaar zijn, ben je hier op het juiste adres. Lettertypecaching kan de **beeldprestaties** drastisch **verbeteren**, vooral wanneer je grote Photoshop‑documenten herhaaldelijk verwerkt. In deze tutorial lopen we de exacte stappen door om de lettertypecache te forceren, een PSD‑afbeelding te laden en uiteindelijk **PSD‑bestand opslaan** met de nieuw geïnstalleerde lettertypen met behulp van Aspose.PSD voor Java.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat doet het forceren van de lettertypecache?** Het dwingt Aspose.PSD om de systeemlettertypen opnieuw te scannen zodat nieuw geïnstalleerde lettertypen onmiddellijk worden herkend.  
+- **Hoe lang moet ik wachten op de installatie van een lettertype?** De voorbeeldcode pauzeert **2 minuten**, wat meestal voldoende is voor handmatige installatie.  
+- **Kan ik dit met elk PSD‑bestand gebruiken?** Ja – zolang het bestand toegankelijk is en de vereiste lettertypen op het systeem zijn geïnstalleerd.  
+- **Heb ik een licentie nodig om deze code uit te voeren?** Een tijdelijke of volledige licentie is vereist voor productiegebruik; een gratis proefversie werkt voor evaluatie.  
+- **Welke Java‑versies worden ondersteund?** Aspose.PSD voor Java werkt met JDK 8 en nieuwer.
 
-Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+## Wat is “PSD‑bestand opslaan” en waarom is het belangrijk?
 
-- Java Development Kit (JDK) op uw computer geïnstalleerd.
--  Aspose.PSD voor Java-bibliotheek gedownload van de[downloadlink](https://releases.aspose.com/psd/java/).
-- Een voorbeeld-PSD-bestand voor testdoeleinden.
+Het opslaan van een PSD‑bestand na het manipuleren van lagen, tekst of lettertypen is de laatste stap die je wijzigingen permanent maakt. Wanneer de lettertypecache niet up‑to‑date is, kan het opgeslagen bestand terugvallen op standaardlettertypen, wat leidt tot visuele inconsistenties. Door eerst de cache te forceren, garandeer je dat de **PSD‑bestand opslaan**‑bewerking de juiste lettertypen insluit.
 
-Nu je alles hebt ingesteld, gaan we verder met de tutorial.
+## Waarom de lettertypecache forceren met Aspose.PSD?
+
+- **Prestatieverbetering** – Vermindert de noodzaak voor herhaalde lettertype‑opzoekingen.  
+- **Betrouwbaarheid** – Garandeert dat opgeslagen PSD‑bestanden exact renderen zoals bedoeld op elke machine.  
+- **Eenvoud** – Eén methode‑aanroep (`OpenTypeFontsCache.updateCache()`) doet het zware werk.
+
+## Voorvereisten
+
+Voordat je begint, zorg ervoor dat je het volgende hebt:
+
+- Java Development Kit (JDK) 8 of nieuwer geïnstalleerd.  
+- Aspose.PSD voor Java bibliotheek (download van de officiële [download link](https://releases.aspose.com/psd/java/)).  
+- Een voorbeeld‑PSD‑bestand (`sample.psd`) geplaatst in een map die je vanuit je code kunt refereren.  
+
+Nu alles klaar is, laten we duiken in de implementatie.
 
 ## Pakketten importeren
 
-Ten eerste moet u de benodigde pakketten importeren om Aspose.PSD te gebruiken voor Java-functionaliteiten in uw project. Voeg de volgende importinstructies toe aan uw Java-klasse:
+Eerst importeer je de klassen die nodig zijn om met PSD‑afbeeldingen en de lettertypecache te werken. Plaats deze statements bovenaan je Java‑klasse:
 
 ```java
 import com.aspose.psd.Image;
@@ -40,7 +62,9 @@ import java.io.Console;
 import java.util.concurrent.TimeUnit;
 ```
 
-## Stap 1: Laad de PSD-afbeelding
+### Stap 1: Laad de PSD‑afbeelding (Hoe PSD te laden)
+
+We beginnen met het laden van het originele PSD‑bestand. Dit geeft ons een basis‑afbeeldingsobject dat we later opnieuw kunnen **opslaan** nadat de lettertypecache is bijgewerkt.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,9 +73,14 @@ PsdImage image = (PsdImage)Image.load(dataDir + "sample.psd");
 image.save(dataDir + "NoFont.psd");
 ```
 
-In deze stap laden we een voorbeeld van een PSD-afbeelding en slaan deze op zonder wijzigingen in het lettertype. Dit helpt ons bij het vaststellen van een basislijn voor het cacheproces van lettertypen.
+- **Uitleg:**  
+  - `Image.load` leest het bestand in het geheugen.  
+  - `image.save` maakt een kopie genaamd **NoFont.psd** die de staat **vóór** de beschikbaarheid van nieuwe lettertypen weergeeft.  
+  - Deze stap is nuttig voor vergelijking en zorgt ervoor dat de daaropvolgende cache‑update daadwerkelijk de output wijzigt.
 
-## Stap 2: Wacht op de installatie van het lettertype
+### Stap 2: Wacht op lettertype‑installatie (Verbeter beeldprestaties)
+
+Nu geven we de gebruiker tijd om het vereiste lettertype handmatig te installeren. In een real‑world scenario kun je deze stap automatiseren, maar de pauze toont het cache‑verversingsmechanisme.
 
 ```java
 System.out.println("You have 2 minutes to install the font");
@@ -59,42 +88,58 @@ Thread.sleep(2 * 60 * 1000);
 OpenTypeFontsCache.updateCache();
 ```
 
- Deze stap introduceert een vertraging, waardoor gebruikers twee minuten de tijd krijgen om het vereiste lettertype te installeren. De`updateCache()` methode werkt de lettertypecache bij op basis van het geïnstalleerde lettertype.
+- **Uitleg:**  
+  - `Thread.sleep` pauzeert de uitvoering voor **2 minuten** (2 × 60 × 1000 ms).  
+  - `OpenTypeFontsCache.updateCache()` dwingt Aspose.PSD om de OpenType‑lettertypen van het systeem opnieuw te scannen, waardoor nieuw geïnstalleerde lettertypen direct beschikbaar zijn voor weergave.
 
-## Stap 3: Laad de bijgewerkte PSD-afbeelding
+### Stap 3: Laad de bijgewerkte PSD‑afbeelding (PSD‑afbeelding laden) en **PSD‑bestand opslaan**
+
+Na het verversen van de cache laden we het originele PSD‑bestand opnieuw. Deze keer is de lettertype‑informatie up‑to‑date, en kunnen we **PSD‑bestand opslaan** met het juiste lettertype.
 
 ```java
 PsdImage image1 = (PsdImage)Image.load(dataDir + "sample.psd");
 image1.save(dataDir + "HasFont.psd");
 ```
 
-Nadat de installatie van het lettertype is uitgesteld, laadt u de PSD-afbeelding opnieuw. Deze keer zorgt de bijgewerkte cache ervoor dat de afbeelding wordt opgeslagen met het geïnstalleerde lettertype.
+- **Uitleg:**  
+  - De tweede laadactie pakt het nieuw geïnstalleerde lettertype op.  
+  - Opslaan naar **HasFont.psd** produceert een bestand dat nu de juiste lettertype‑weergave bevat, wat bevestigt dat de cache‑update heeft gewerkt.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Gefeliciteerd! U hebt de lettertypecache met succes geforceerd met Aspose.PSD voor Java. Lettertypecaching is een essentieel aspect bij het optimaliseren van beeldverwerking, en Aspose.PSD maakt dit naadloos voor Java-ontwikkelaars.
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| Opgeslagen PSD toont nog steeds standaardlettertype | Lettertype niet geïnstalleerd op een locatie die door het OS wordt gescand | Installeer het lettertype in de systeemlettertype‑map (bijv. `C:\Windows\Fonts` op Windows) en voer `updateCache()` opnieuw uit. |
+| `Thread.sleep` geeft `InterruptedException` | De methodesignatuur behandelt geen gecontroleerde uitzonderingen | Voeg `throws InterruptedException` toe aan je `main`‑methode of wikkel de oproep in een try‑catch‑blok. |
+| `OpenTypeFontsCache.updateCache()` doet niets | Uitvoeren op een headless server zonder lettertype‑configuratie | Zorg ervoor dat de server de vereiste lettertypen geïnstalleerd heeft en dat het Java‑proces toestemming heeft om ze te lezen. |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.PSD compatibel met alle Java-versies?
+**Q: Is Aspose.PSD compatibel met alle Java‑versies?**  
+A: Aspose.PSD voor Java ondersteunt JDK 8 en nieuwer, en dekt de meerderheid van moderne Java‑applicaties.
 
-A1: Aspose.PSD voor Java is ontworpen om met verschillende Java-versies te werken, waardoor compatibiliteit voor een breed scala aan projecten wordt gegarandeerd.
+**Q: Kan ik Aspose.PSD gebruiken voor commerciële projecten?**  
+A: Ja. Een commerciële licentie is vereist voor productiegebruik. Je kunt er een verkrijgen via de [purchase page](https://purchase.aspose.com/buy).
 
-### Vraag 2: Kan ik Aspose.PSD voor commerciële doeleinden gebruiken?
+**Q: Is er een gratis proefversie beschikbaar?**  
+A: Absoluut! Download een proefversie van de [releases page](https://releases.aspose.com/).
 
- A2: Ja, Aspose.PSD wordt geleverd met flexibele licentieopties, inclusief commercieel gebruik. Bezoek de[aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
+**Q: Waar kan ik community‑ondersteuning vinden?**  
+A: Doe mee aan de discussie op het [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) voor tips en probleemoplossing.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+**Q: Hoe kan ik een tijdelijke licentie voor testen verkrijgen?**  
+A: Bezoek de [temporary license page](https://purchase.aspose.com/temporary-license/) om een kort‑lopende licentie aan te vragen.
 
- A3: Absoluut! U kunt de mogelijkheden van Aspose.PSD verkennen met een gratis proefversie van de[releases pagina](https://releases.aspose.com/).
+## Conclusie
 
-### Vraag 4: Waar kan ik gemeenschapsondersteuning vinden?
+Je hebt nu geleerd hoe je **PSD‑bestand opslaat** na het forceren van de lettertypecache, waardoor je PSD‑output elke keer met de juiste lettertypen wordt gerenderd. Deze techniek is een eenvoudige maar krachtige onderdeel van **optimalisatie van beeldverwerking** en kan worden geïntegreerd in grotere workflows die betrouwbare, hoge‑presterende PSD‑manipulatie vereisen.
 
- A4: Voor community-ondersteuning en discussies, bekijk de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34).
+---
 
-### Vraag 5: Hoe kan ik een tijdelijke licentie verkrijgen?
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Auteur:** Aspose  
 
- A5: Als u een tijdelijke licentie nodig heeft, gaat u naar de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

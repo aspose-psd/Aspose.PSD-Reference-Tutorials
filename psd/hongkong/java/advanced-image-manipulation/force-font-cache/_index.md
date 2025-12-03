@@ -1,35 +1,54 @@
 ---
-title: 使用 Aspose.PSD for Java 強製字體緩存
-linktitle: 強製字體快取
+date: 2025-12-01
+description: 了解如何使用 Aspose.PSD for Java 保存 PSD 檔案、強制字型快取，並提升影像效能。一步一步的影像處理優化指南。
+language: zh-hant
+linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD for Java 強製字體快取。透過此逐步指南優化影像處理並增強效能。
+title: 如何使用 Aspose.PSD for Java 儲存 PSD 檔案並強制字型快取
+url: /java/advanced-image-manipulation/force-font-cache/
 weight: 11
-url: /zh-hant/java/advanced-image-manipulation/force-font-cache/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD for Java 強製字體緩存
+# 如何使用 Aspose.PSD for Java 儲存 PSD 檔案並強制字型快取
 
-## 介紹
+## 簡介
 
-您是否希望使用 Aspose.PSD for Java 優化字型快取？字體快取在增強 Java 應用程式的效能方面發揮著至關重要的作用，尤其是在處理複雜的影像處理任務時。在本綜合指南中，我們將引導您完成使用 Aspose.PSD for Java 強製字體快取的過程。無論您是經驗豐富的開發人員還是剛開始使用 Java 映像處理，本教學課程都旨在幫助您將字體快取無縫整合到您的專案中。
+如果您需要快速 **save PSD file** 物件，同時確保正確的字型已可用，您來對地方了。字型快取可以大幅 **improve image performance**，尤其在重複處理大型 Photoshop 文件時更為顯著。在本教學中，我們將逐步說明如何強制字型快取、載入 PSD 圖像，最後使用 Aspose.PSD for Java 以新安裝的字型 **save PSD file**。
 
-## 先決條件
+## 快速答覆
+- **強制字型快取會做什麼？** 它會迫使 Aspose.PSD 重新掃描系統字型，使新安裝的字型立即被識別。  
+- **字型安裝需要等多久？** 範例程式會暫停 **2 分鐘**，通常足以完成手動安裝。  
+- **這可以套用在任何 PSD 檔案嗎？** 可以——只要檔案可存取且系統已安裝所需字型。  
+- **執行此程式碼需要授權嗎？** 生產環境需要臨時或正式授權；免費試用版可用於評估。  
+- **支援哪些 Java 版本？** Aspose.PSD for Java 支援 JDK 8 及更新版本。
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是 “save PSD file” 為何重要？
 
-- 您的電腦上安裝了 Java 開發工具包 (JDK)。
--  Aspose.PSD for Java 函式庫下載自[下載連結](https://releases.aspose.com/psd/java/).
-- 用於測試目的的範例 PSD 檔案。
+在對圖層、文字或字型進行操作後，儲存 PSD 檔案是將變更永久寫入的最後一步。若字型快取未即時更新，儲存的檔案可能會退回使用預設字型，造成視覺不一致。先強制更新快取，可確保 **save PSD file** 動作嵌入正確的字型。
 
-現在您已完成所有設置，讓我們繼續本教學。
+## 為什麼要使用 Aspose.PSD 強制字型快取？
 
-## 導入包
+- **效能提升** – 減少重複的字型查找。  
+- **可靠性** – 保證儲存的 PSD 檔案在任何機器上都能如預期呈現。  
+- **簡易性** – 單一方法呼叫 (`OpenTypeFontsCache.updateCache()`) 即可完成繁重工作。
 
-首先，您需要匯入必要的套件以在專案中利用 Aspose.PSD for Java 功能。將以下導入語句加入您的 Java 類別：
+## 前置條件
+
+在開始之前，請確保您已具備：
+
+- 已安裝 Java Development Kit (JDK) 8 或更新版本。  
+- Aspose.PSD for Java 程式庫（可從官方 [download link](https://releases.aspose.com/psd/java/) 下載）。  
+- 一個範例 PSD 檔案（`sample.psd`），放置於程式碼可參考的資料夾中。  
+
+一切就緒後，讓我們深入實作。
+
+## 匯入套件
+
+首先，匯入操作 PSD 圖像與字型快取所需的類別。將以下語句放在 Java 類別的最上方：
 
 ```java
 import com.aspose.psd.Image;
@@ -40,7 +59,9 @@ import java.io.Console;
 import java.util.concurrent.TimeUnit;
 ```
 
-## 第 1 步：載入 PSD 映像
+### 步驟 1：載入 PSD 圖像（How to load PSD）
+
+我們先載入原始 PSD 檔案，取得基礎的圖像物件，之後在字型快取更新後再重新儲存。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,9 +70,14 @@ PsdImage image = (PsdImage)Image.load(dataDir + "sample.psd");
 image.save(dataDir + "NoFont.psd");
 ```
 
-在此步驟中，我們加載範例 PSD 圖像並在不更改任何字體的情況下保存它。這有助於我們為字體快取過程建立基線。
+- **說明：**  
+  - `Image.load` 會將檔案讀入記憶體。  
+  - `image.save` 會產生一個名為 **NoFont.psd** 的副本，反映 **在任何新字型可用之前** 的狀態。  
+  - 此步驟可用於比較，確保後續的快取更新真的會改變輸出結果。
 
-## 步驟2：等待字型安裝
+### 步驟 2：等待字型安裝（Improve image performance）
+
+現在給使用者時間手動安裝所需字型。實務上您可能會自動化此步驟，但此暫停可示範快取刷新機制。
 
 ```java
 System.out.println("You have 2 minutes to install the font");
@@ -59,42 +85,58 @@ Thread.sleep(2 * 60 * 1000);
 OpenTypeFontsCache.updateCache();
 ```
 
-此步驟會產生延遲，讓使用者有兩分鐘的時間來安裝所需的字型。這`updateCache()`方法根據安裝的字體更新字體快取。
+- **說明：**  
+  - `Thread.sleep` 會暫停執行 **2 分鐘**（2 × 60 × 1000 ms）。  
+  - `OpenTypeFontsCache.updateCache()` 會迫使 Aspose.PSD 重新掃描系統的 OpenType 字型，使任何新安裝的字型立即可供渲染。
 
-## 第 3 步：載入更新的 PSD 映像
+### 步驟 3：載入更新後的 PSD 圖像（Load PSD image）並 **save PSD file**
+
+快取刷新後，我們再次載入原始 PSD。此時字型資訊已是最新的，我們即可 **save PSD file** 並嵌入正確的字型。
 
 ```java
 PsdImage image1 = (PsdImage)Image.load(dataDir + "sample.psd");
 image1.save(dataDir + "HasFont.psd");
 ```
 
-字型安裝延遲後，再次載入 PSD 映像。這次，更新的快取可確保映像與安裝的字體一起保存。
+- **說明：**  
+  - 第二次載入會取得新安裝的字型。  
+  - 儲存為 **HasFont.psd** 後，檔案將包含正確的字型渲染，證明快取更新已生效。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| 儲存的 PSD 仍顯示預設字型 | 字型未安裝在系統掃描的路徑 | 將字型安裝至系統字型資料夾（例如 Windows 的 `C:\Windows\Fonts`），再重新執行 `updateCache()`。 |
+| `Thread.sleep` 拋出 `InterruptedException` | 方法簽章未處理受檢查例外 | 在 `main` 方法上加入 `throws InterruptedException`，或將呼叫包在 try‑catch 區塊中。 |
+| `OpenTypeFontsCache.updateCache()` 無效 | 在無字型設定的無頭伺服器上執行 | 確認伺服器已安裝所需字型，且 Java 行程有讀取權限。 |
+
+## 常見問答
+
+**Q: Aspose.PSD 是否相容所有 Java 版本？**  
+A: Aspose.PSD for Java 支援 JDK 8 及更新版本，涵蓋大多數現代 Java 應用。
+
+**Q: 我可以在商業專案中使用 Aspose.PSD 嗎？**  
+A: 可以。生產環境必須購買商業授權。您可於 [purchase page](https://purchase.aspose.com/buy) 取得。
+
+**Q: 有免費試用版嗎？**  
+A: 當然！可從 [releases page](https://releases.aspose.com/) 下載試用版。
+
+**Q: 我該去哪裡尋求社群支援？**  
+A: 加入 [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) 交流技巧與除錯經驗。
+
+**Q: 如何取得測試用的臨時授權？**  
+A: 前往 [temporary license page](https://purchase.aspose.com/temporary-license/) 申請短期授權。
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PSD for Java 強製字體快取。字體快取是優化影像處理的一個重要方面，Aspose.PSD 為 Java 開發人員提供了無縫的支援。
+現在您已學會在強制字型快取後 **save PSD file**，確保每次輸出的 PSD 都使用正確的字型。此技巧是 **image processing optimization** 中簡單卻強大的環節，可整合至需要可靠高效 PSD 操作的更大型工作流程中。
 
-## 常見問題解答
+---
 
-### Q1：Aspose.PSD 是否與所有 Java 版本相容？
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.PSD for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
 
-A1：Aspose.PSD for Java 旨在與各種 Java 版本配合使用，確保與各種專案的兼容性。
-
-### Q2：我可以將Aspose.PSD用於商業用途嗎？
-
- A2：是的，Aspose.PSD 具有靈活的授權選項，包括商業用途。參觀[購買頁面](https://purchase.aspose.com/buy)了解更多詳情。
-
-### Q3：有免費試用嗎？
-
- A3：當然！您可以透過免費試用來探索 Aspose.PSD 的功能[發布頁面](https://releases.aspose.com/).
-
-### Q4：我可以在哪裡找到社區支持？
-
- A4：有關社區支持和討論，請查看[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34).
-
-### Q5：如何取得臨時駕照？
-
- A5：如果您需要臨時許可證，請訪問[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

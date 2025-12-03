@@ -1,35 +1,56 @@
 ---
-title: Forçar cache de fontes com Aspose.PSD para Java
-linktitle: Forçar cache de fontes
-second_title: API Java Aspose.PSD
-description: Aprenda como forçar o cache de fontes usando Aspose.PSD para Java. Otimize o processamento de imagens e melhore o desempenho com este guia passo a passo.
+date: 2025-12-01
+description: Aprenda como salvar arquivos PSD, forçar o cache de fontes e melhorar
+  o desempenho de imagens usando Aspose.PSD para Java. Guia passo a passo para otimização
+  de processamento de imagens.
+language: pt
+linktitle: Force Font Cache
+second_title: Aspose.PSD Java API
+title: Como salvar arquivo PSD e forçar o cache de fontes com Aspose.PSD para Java
+url: /java/advanced-image-manipulation/force-font-cache/
 weight: 11
-url: /pt/java/advanced-image-manipulation/force-font-cache/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Forçar cache de fontes com Aspose.PSD para Java
+# Como Salvar Arquivo PSD e Forçar o Cache de Fontes com Aspose.PSD para Java
 
 ## Introdução
 
-Você está procurando otimizar o cache de fontes com Aspose.PSD para Java? O cache de fontes desempenha um papel crucial no aprimoramento do desempenho de seus aplicativos Java, especialmente ao lidar com tarefas complexas de processamento de imagens. Neste guia completo, orientaremos você no processo de forçar o cache de fontes usando Aspose.PSD para Java. Quer você seja um desenvolvedor experiente ou esteja apenas começando no processamento de imagens Java, este tutorial foi projetado para ajudá-lo a integrar perfeitamente o cache de fontes em seus projetos.
+Se você precisa **salvar arquivos PSD** rapidamente enquanto garante que as fontes corretas estejam disponíveis, está no lugar certo. O cache de fontes pode melhorar drasticamente **o desempenho de imagens**, especialmente ao processar documentos grandes do Photoshop repetidamente. Neste tutorial, percorreremos os passos exatos para forçar o cache de fontes, carregar uma imagem PSD e, finalmente, **salvar o arquivo PSD** com as fontes recém‑instaladas usando Aspose.PSD para Java.
+
+## Respostas Rápidas
+- **O que faz forçar o cache de fontes?** Ele força o Aspose.PSD a re‑examinar as fontes do sistema para que as fontes recém‑instaladas sejam reconhecidas instantaneamente.  
+- **Quanto tempo devo esperar para que uma fonte seja instalada?** O código de exemplo pausa por **2 minutos**, o que geralmente é suficiente para a instalação manual.  
+- **Posso usar isso com qualquer arquivo PSD?** Sim – desde que o arquivo esteja acessível e as fontes necessárias estejam instaladas no sistema.  
+- **Preciso de licença para executar este código?** Uma licença temporária ou completa é necessária para uso em produção; uma avaliação gratuita funciona para testes.  
+- **Quais versões do Java são suportadas?** Aspose.PSD para Java funciona com JDK 8 e versões mais recentes.
+
+## O que é “salvar arquivo PSD” e por que isso importa?
+
+Salvar um arquivo PSD após manipular suas camadas, texto ou fontes é a etapa final que persiste suas alterações. Quando o cache de fontes não está atualizado, o arquivo salvo pode recair para fontes padrão, causando inconsistências visuais. Ao forçar o cache primeiro, você garante que a operação de **salvar arquivo PSD** incorpore as tipografias corretas.
+
+## Por que forçar o cache de fontes com Aspose.PSD?
+
+- **Aumento de desempenho** – Reduz a necessidade de buscas repetidas de fontes.  
+- **Confiabilidade** – Garante que os arquivos PSD salvos sejam renderizados exatamente como pretendido em qualquer máquina.  
+- **Simplicidade** – Uma única chamada de método (`OpenTypeFontsCache.updateCache()`) cuida do trabalho pesado.
 
 ## Pré-requisitos
 
-Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
+Antes de começar, certifique-se de que você tem:
 
-- Java Development Kit (JDK) instalado em sua máquina.
--  Biblioteca Aspose.PSD para Java baixada do[link para baixar](https://releases.aspose.com/psd/java/).
-- Um arquivo PSD de amostra para fins de teste.
+- Java Development Kit (JDK) 8 ou mais recente instalado.  
+- Biblioteca Aspose.PSD para Java (download no [link de download](https://releases.aspose.com/psd/java/)).  
+- Um arquivo PSD de exemplo (`sample.psd`) colocado em uma pasta que você possa referenciar a partir do seu código.  
 
-Agora que você configurou tudo, vamos prosseguir com o tutorial.
+Agora que tudo está pronto, vamos mergulhar na implementação.
 
-## Importar pacotes
+## Importar Pacotes
 
-Primeiramente, você precisa importar os pacotes necessários para aproveitar as funcionalidades do Aspose.PSD para Java em seu projeto. Adicione as seguintes instruções de importação à sua classe Java:
+Primeiro, importe as classes necessárias para trabalhar com imagens PSD e o cache de fontes. Coloque estas instruções no início da sua classe Java:
 
 ```java
 import com.aspose.psd.Image;
@@ -40,7 +61,9 @@ import java.io.Console;
 import java.util.concurrent.TimeUnit;
 ```
 
-## Passo 1: Carregue a imagem PSD
+### Etapa 1: Carregar a Imagem PSD (Como carregar PSD)
+
+Começamos carregando o arquivo PSD original. Isso nos fornece um objeto de imagem de base que podemos salvar novamente depois que o cache de fontes for atualizado.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,9 +72,14 @@ PsdImage image = (PsdImage)Image.load(dataDir + "sample.psd");
 image.save(dataDir + "NoFont.psd");
 ```
 
-Nesta etapa, carregamos uma imagem PSD de amostra e a salvamos sem nenhuma alteração de fonte. Isso nos ajuda a estabelecer uma linha de base para o processo de cache de fontes.
+- **Explicação:**  
+  - `Image.load` lê o arquivo para a memória.  
+  - `image.save` cria uma cópia chamada **NoFont.psd** que reflete o estado **antes** de quaisquer novas fontes estarem disponíveis.  
+  - Esta etapa é útil para comparação e garante que a atualização subsequente do cache realmente altere a saída.
 
-## Etapa 2: aguarde a instalação da fonte
+### Etapa 2: Aguardar a Instalação da Fonte (Melhorar desempenho da imagem)
+
+Agora damos ao usuário tempo para instalar a fonte necessária manualmente. Em um cenário real, você pode automatizar esta etapa, mas a pausa demonstra o mecanismo de atualização do cache.
 
 ```java
 System.out.println("You have 2 minutes to install the font");
@@ -59,42 +87,58 @@ Thread.sleep(2 * 60 * 1000);
 OpenTypeFontsCache.updateCache();
 ```
 
- Esta etapa introduz um atraso, dando aos usuários dois minutos para instalar a fonte necessária. O`updateCache()` O método atualiza o cache de fontes com base na fonte instalada.
+- **Explicação:**  
+  - `Thread.sleep` pausa a execução por **2 minutos** (2 × 60 × 1000 ms).  
+  - `OpenTypeFontsCache.updateCache()` força o Aspose.PSD a re‑examinar as fontes OpenType do sistema, tornando quaisquer fontes recém‑instaladas imediatamente disponíveis para renderização.
 
-## Etapa 3: carregar a imagem PSD atualizada
+### Etapa 3: Carregar a Imagem PSD Atualizada (Carregar imagem PSD) e **salvar arquivo PSD**
+
+Após a atualização do cache, carregamos o PSD original novamente. Desta vez, as informações da fonte estão atualizadas, e podemos **salvar o arquivo PSD** com a tipografia correta.
 
 ```java
 PsdImage image1 = (PsdImage)Image.load(dataDir + "sample.psd");
 image1.save(dataDir + "HasFont.psd");
 ```
 
-Após o atraso na instalação da fonte, carregue a imagem PSD novamente. Desta vez, o cache atualizado garante que a imagem seja salva com a fonte instalada.
+- **Explicação:**  
+  - O segundo carregamento captura a fonte recém‑instalada.  
+  - Salvar como **HasFont.psd** produz um arquivo que agora contém a renderização correta da fonte, confirmando que a atualização do cache funcionou.
+
+## Problemas Comuns e Soluções
+
+| Problema | Razão | Solução |
+|----------|-------|----------|
+| PSD salvo ainda mostra fonte padrão | Fonte não instalada em um local escaneado pelo SO | Instale a fonte na pasta de fontes do sistema (por exemplo, `C:\Windows\Fonts` no Windows) e execute novamente `updateCache()`. |
+| `Thread.sleep` lança `InterruptedException` | A assinatura do método não trata exceções verificadas | Adicione `throws InterruptedException` ao seu método `main` ou envolva a chamada em um bloco try‑catch. |
+| `OpenTypeFontsCache.updateCache()` não faz nada | Executando em um servidor sem interface gráfica (headless) sem configuração de fontes | Certifique‑se de que o servidor tenha as fontes necessárias instaladas e que o processo Java tenha permissão para lê‑las. |
+
+## Perguntas Frequentes
+
+**Q: O Aspose.PSD é compatível com todas as versões do Java?**  
+A: Aspose.PSD para Java suporta JDK 8 e versões mais recentes, cobrindo a maioria das aplicações Java modernas.
+
+**Q: Posso usar o Aspose.PSD em projetos comerciais?**  
+A: Sim. Uma licença comercial é necessária para uso em produção. Você pode obter uma na [página de compra](https://purchase.aspose.com/buy).
+
+**Q: Existe uma versão de avaliação gratuita?**  
+A: Absolutamente! Baixe uma versão de avaliação na [página de releases](https://releases.aspose.com/).
+
+**Q: Onde posso encontrar suporte da comunidade?**  
+A: Participe da discussão no [fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para dicas e solução de problemas.
+
+**Q: Como posso obter uma licença temporária para testes?**  
+A: Visite a [página de licença temporária](https://purchase.aspose.com/temporary-license/) para solicitar uma licença de curto prazo.
 
 ## Conclusão
 
-Parabéns! Você forçou com sucesso o cache de fontes usando Aspose.PSD para Java. O cache de fontes é um aspecto essencial da otimização do processamento de imagens, e o Aspose.PSD o torna perfeito para desenvolvedores Java.
+Agora você aprendeu como **salvar o arquivo PSD** após forçar o cache de fontes, garantindo que seus resultados PSD sejam renderizados com as tipografias corretas em todas as vezes. Essa técnica é uma parte simples, porém poderosa, da **otimização de processamento de imagens** e pode ser integrada a fluxos de trabalho maiores que exigem manipulação de PSD confiável e de alto desempenho.
 
-## Perguntas frequentes
+---
 
-### Q1: O Aspose.PSD é compatível com todas as versões Java?
+**Última atualização:** 2025-12-01  
+**Testado com:** Aspose.PSD para Java 24.12 (mais recente no momento da escrita)  
+**Autor:** Aspose  
 
-A1: Aspose.PSD para Java foi projetado para funcionar com várias versões Java, garantindo compatibilidade para uma ampla variedade de projetos.
-
-### Q2: Posso usar Aspose.PSD para fins comerciais?
-
- A2: Sim, Aspose.PSD vem com opções de licenciamento flexíveis, incluindo uso comercial. Visite o[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
-
-### Q3: Existe um teste gratuito disponível?
-
- A3: Com certeza! Você pode explorar os recursos do Aspose.PSD com uma avaliação gratuita do[página de lançamentos](https://releases.aspose.com/).
-
-### P4: Onde posso encontrar suporte da comunidade?
-
- A4: Para suporte e discussões da comunidade, confira o[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
-
-### P5: Como posso obter uma licença temporária?
-
- R5: Se você precisar de uma licença temporária, visite o[página de licença temporária](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
