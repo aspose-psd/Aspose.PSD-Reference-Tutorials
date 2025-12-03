@@ -145,17 +145,15 @@ R: Claro! Baixe uma [versão de avaliação gratuita](https://releases.aspose.co
 **P: Onde posso obter uma licença temporária para Aspose.PSD?**  
 R: Obtenha uma [licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar a biblioteca em seu ambiente de desenvolvimento.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última Atualização:** 2025-11-30  
 **Testado Com:** Aspose.PSD 24.11 for Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

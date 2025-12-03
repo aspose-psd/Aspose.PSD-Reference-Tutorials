@@ -146,15 +146,15 @@ Aspose.PSD for Java के साथ TIFF इमेज को प्रभाव
 ### [Working with PSD Files](./working-with-psd-files/)  
 Aspose.PSD for Java के व्यापक ट्यूटोरियल एक्सप्लोर करें, जिसमें PSD लेयर ग्रुप्स को इमेजेज़ में एक्सपोर्ट करना और Clbl, Infx, और Lspf रिसोर्सेज़ को मैनिपुलेट करना शामिल है।
 
+---
+
+**अंतिम अपडेट:** 2025-11-30  
+**परीक्षण किया गया:** Aspose.PSD for Java (latest release)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-11-30  
-**परीक्षण किया गया:** Aspose.PSD for Java (latest release)  
-**लेखक:** Aspose

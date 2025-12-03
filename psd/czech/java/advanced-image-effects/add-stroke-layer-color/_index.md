@@ -145,17 +145,15 @@ A: Samozřejmě! Získejte [free trial](https://releases.aspose.com/) a prozkoum
 **Q: Kde mohu získat dočasnou licenci pro Aspose.PSD?**  
 A: Získejte [temporary license](https://purchase.aspose.com/temporary-license/) pro vyhodnocení knihovny ve vašem vývojovém prostředí.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-11-30  
 **Testováno s:** Aspose.PSD 24.11 pro Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

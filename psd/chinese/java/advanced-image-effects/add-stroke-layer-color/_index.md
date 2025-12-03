@@ -143,17 +143,15 @@ im.save(exportPath);
 **问：在哪里可以获取 Aspose.PSD 的临时许可证？**  
 答：访问 [temporary license](https://purchase.aspose.com/temporary-license/) 以在开发环境中评估该库。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-11-30  
 **测试环境：** Aspose.PSD 24.11 for Java  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

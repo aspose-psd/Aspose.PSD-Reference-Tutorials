@@ -145,15 +145,15 @@ PNG هو تنسيق غير مضغوط، لكن الملفات غير المُح�
 ### [Working with PSD Files](./working-with-psd-files/)  
 استكشف دروس Aspose.PSD for Java الشاملة، بما في ذلك كيفية تصدير مجموعات طبقات PSD إلى صور وتلاعب موارد Clbl، Infx، وLspf.
 
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose

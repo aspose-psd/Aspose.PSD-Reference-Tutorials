@@ -144,15 +144,15 @@ Aspose.PSD for Java で TIFF 画像を効率的に管理。圧縮、設定、Ado
 ### [Working with PSD Files](./working-with-psd-files/)  
 Aspose.PSD for Java の包括的チュートリアルを探検。PSD レイヤー グループの画像エクスポートや Clbl、Infx、Lspf リソースの操作方法を学びます。
 
+---
+
+**最終更新日:** 2025-11-30  
+**テスト環境:** Aspose.PSD for Java (latest release)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-11-30  
-**テスト環境:** Aspose.PSD for Java (latest release)  
-**作者:** Aspose

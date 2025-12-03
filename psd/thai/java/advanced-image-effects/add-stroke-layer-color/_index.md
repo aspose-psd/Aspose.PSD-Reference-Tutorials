@@ -144,17 +144,15 @@ im.save(exportPath);
 **ถาม: ฉันจะได้ไลเซนส์ชั่วคราวสำหรับ Aspose.PSD จากที่ไหน?**  
 ตอบ: รับ [ไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อประเมินไลบรารีในสภาพแวดล้อมการพัฒนาของคุณ.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-30  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

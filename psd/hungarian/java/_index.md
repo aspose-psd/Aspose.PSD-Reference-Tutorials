@@ -146,15 +146,15 @@ Hatékonyan kezelje a TIFF képeket az Aspose.PSD for Java‑val. Tanulja meg a 
 ### [Working with PSD Files](./working-with-psd-files/)  
 Fedezze fel az átfogó Aspose.PSD for Java oktatóanyagokat, beleértve a PSD rétegcsoportok képekké exportálását és a Clbl, Infx, Lspf erőforrások manipulálását.
 
+---
+
+**Utoljára frissítve:** 2025-11-30  
+**Tesztelve a következővel:** Aspose.PSD for Java (legújabb kiadás)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-11-30  
-**Tesztelve a következővel:** Aspose.PSD for Java (legújabb kiadás)  
-**Szerző:** Aspose

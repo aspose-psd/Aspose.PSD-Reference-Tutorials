@@ -145,17 +145,15 @@ J: Tentu! Dapatkan [versi percobaan gratis](https://releases.aspose.com/) untuk 
 **T: Di mana saya dapat memperoleh lisensi sementara untuk Aspose.PSD?**  
 J: Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi perpustakaan di lingkungan pengembangan Anda.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-11-30  
 **Diuji Dengan:** Aspose.PSD 24.11 untuk Java  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

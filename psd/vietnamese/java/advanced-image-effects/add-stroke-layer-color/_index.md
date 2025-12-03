@@ -145,15 +145,15 @@ Bạn đã học **cách thêm stroke** vào tệp PSD và **cách thay đổi m
 **H: Tôi có thể lấy giấy phép tạm thời cho Aspose.PSD ở đâu?**  
 Đ: Nhận một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá thư viện trong môi trường phát triển của bạn.
 
+---
+
+**Cập nhật lần cuối:** 2025-11-30  
+**Kiểm tra với:** Aspose.PSD 24.11 cho Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-11-30  
-**Kiểm tra với:** Aspose.PSD 24.11 cho Java  
-**Tác giả:** Aspose

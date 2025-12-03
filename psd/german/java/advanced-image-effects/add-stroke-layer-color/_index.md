@@ -145,13 +145,6 @@ A: Natürlich! Holen Sie sich eine [free trial](https://releases.aspose.com/), u
 **Q: Wo kann ich eine temporäre Lizenz für Aspose.PSD erhalten?**  
 A: Erhalten Sie eine [temporary license](https://purchase.aspose.com/temporary-license/), um die Bibliothek in Ihrer Entwicklungsumgebung zu evaluieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-30  
@@ -159,3 +152,10 @@ A: Erhalten Sie eine [temporary license](https://purchase.aspose.com/temporary-l
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

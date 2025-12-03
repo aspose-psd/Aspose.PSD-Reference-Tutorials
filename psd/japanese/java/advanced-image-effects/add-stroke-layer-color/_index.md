@@ -143,17 +143,15 @@ A: もちろんです！すべての機能を体験できる [無料トライア
 **Q: Aspose.PSD の一時ライセンスはどこで取得できますか？**  
 A: 開発環境で評価するための [一時ライセンス](https://purchase.aspose.com/temporary-license/) を取得してください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-30  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

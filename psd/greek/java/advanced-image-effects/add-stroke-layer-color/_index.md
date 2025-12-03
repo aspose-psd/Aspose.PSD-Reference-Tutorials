@@ -145,17 +145,15 @@ im.save(exportPath);
 **Ε: Πού μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.PSD;**  
 Α: Αποκτήστε μια [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για να αξιολογήσετε τη βιβλιοθήκη στο περιβάλλον ανάπτυξής σας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-30  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -144,15 +144,15 @@ im.save(exportPath);
 **س: أين يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟**  
 ج: احصل على [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتقييم المكتبة في بيئة التطوير الخاصة بك.
 
+---
+
+**آخر تحديث:** 2025-11-30  
+**تم الاختبار مع:** Aspose.PSD 24.11 للـ Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-11-30  
-**تم الاختبار مع:** Aspose.PSD 24.11 للـ Java  
-**المؤلف:** Aspose

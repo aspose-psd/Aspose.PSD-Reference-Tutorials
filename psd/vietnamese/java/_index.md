@@ -146,15 +146,15 @@ Quản lý hiệu quả ảnh TIFF với Aspose.PSD for Java. Học cách nén, 
 ### [Working with PSD Files](./working-with-psd-files/)  
 Khám phá các hướng dẫn toàn diện của Aspose.PSD for Java, bao gồm cách xuất layer group của PSD thành ảnh và thao tác tài nguyên Clbl, Infx, và Lspf.
 
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose

@@ -145,17 +145,15 @@ C: Tabii ki! Tüm özellikleri keşfetmek için bir [ücretsiz deneme](https://r
 **S: Aspose.PSD için geçici bir lisans nereden alabilirim?**  
 C: Kütüphaneyi geliştirme ortamınızda değerlendirmek için bir [geçici lisans](https://purchase.aspose.com/temporary-license/) edinin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-30  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

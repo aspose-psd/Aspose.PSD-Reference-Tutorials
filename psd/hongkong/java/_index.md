@@ -144,15 +144,15 @@ PNG 是無損格式，但未優化的檔案可能過大。使用 Aspose.PSD 您�
 ### [Working with PSD Files](./working-with-psd-files/)  
 探索完整的 Aspose.PSD for Java 教學，包括如何匯出 PSD 圖層群組為影像，以及操作 Clbl、Infx 與 Lspf 資源。
 
+---
+
+**最後更新:** 2025-11-30  
+**測試環境:** Aspose.PSD for Java (latest release)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新:** 2025-11-30  
-**測試環境:** Aspose.PSD for Java (latest release)  
-**作者:** Aspose

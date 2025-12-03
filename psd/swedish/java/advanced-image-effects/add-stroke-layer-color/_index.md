@@ -145,17 +145,15 @@ A: Självklart! Hämta en [gratis provversion](https://releases.aspose.com/) fö
 **Q: Var kan jag få en temporär licens för Aspose.PSD?**  
 A: Skaffa en [temporär licens](https://purchase.aspose.com/temporary-license/) för att utvärdera biblioteket i din utvecklingsmiljö.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-11-30  
 **Testat med:** Aspose.PSD 24.11 för Java  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

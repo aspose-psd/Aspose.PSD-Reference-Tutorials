@@ -143,17 +143,15 @@ A: 當然可以！取得[免費試用](https://releases.aspose.com/)以探索全
 **Q: 哪裡可以取得 Aspose.PSD 的臨時授權？**  
 A: 前往[臨時授權](https://purchase.aspose.com/temporary-license/)頁面，在開發環境中評估函式庫。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-11-30  
 **測試環境：** Aspose.PSD 24.11 for Java  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

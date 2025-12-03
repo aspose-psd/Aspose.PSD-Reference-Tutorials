@@ -145,17 +145,15 @@ im.save(exportPath);
 **प्रश्न: Aspose.PSD के लिए अस्थायी लाइसेंस कहाँ प्राप्त करूँ?**  
 उत्तर: विकास पर्यावरण में लाइब्रेरी का मूल्यांकन करने के लिए एक [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-11-30  
 **परीक्षण किया गया:** Aspose.PSD 24.11 for Java  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

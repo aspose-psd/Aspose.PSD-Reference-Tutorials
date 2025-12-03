@@ -157,15 +157,15 @@ PNG — без потерь, но неоптимизированные файл�
 Работа с PSD файлами  
 Изучайте всесторонние руководства Aspose.PSD for Java, включая экспорт групп слоёв PSD в изображения и манипуляцию ресурсами Clbl, Infx и Lspf.
 
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose

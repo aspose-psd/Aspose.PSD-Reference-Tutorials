@@ -147,15 +147,15 @@ Gérez efficacement les images TIFF avec Aspose.PSD pour Java. Apprenez à compr
 ### [Working with PSD Files](./working-with-psd-files/)  
 Explorez des tutoriels complets Aspose.PSD pour Java, incluant l’exportation de groupes de calques PSD en images et la manipulation des ressources Clbl, Infx et Lspf.
 
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose

@@ -145,15 +145,15 @@ A: Zeker! Pak een [free trial](https://releases.aspose.com/) om alle functies te
 **V: Waar kan ik een tijdelijke licentie voor Aspose.PSD krijgen?**  
 A: Verkrijg een [temporary license](https://purchase.aspose.com/temporary-license/) om de bibliotheek te evalueren in je ontwikkelomgeving.
 
+---
+
+**Laatst bijgewerkt:** 2025-11-30  
+**Getest met:** Aspose.PSD 24.11 for Java  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-11-30  
-**Getest met:** Aspose.PSD 24.11 for Java  
-**Auteur:** Aspose

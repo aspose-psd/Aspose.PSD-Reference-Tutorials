@@ -146,15 +146,15 @@ Aspose.PSD for Java ile TIFF görüntülerini verimli bir şekilde yönetin. TIF
 ### [Working with PSD Files](./working-with-psd-files/)  
 Aspose.PSD for Java için kapsamlı eğitimleri keşfedin; PSD katman gruplarını görüntülere dışa aktarmayı, Clbl, Infx ve Lspf kaynaklarını manipüle etmeyi ve daha fazlasını öğrenin.
 
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose
