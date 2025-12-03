@@ -114,15 +114,15 @@ A: Igen, töltsön le a könyvtárat a kiadási oldalról [itt](https://releases
 **Q: Hogyan vásárolhatom meg az Aspose.PSD for Java-t?**  
 A: Az Aspose.PSD for Java-t a vásárlási oldalról szerezheti be [itt](https://purchase.aspose.com/buy).
 
+---
+
+**Utolsó frissítés:** 2025-12-01  
+**Tesztelve ezzel:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-01  
-**Tesztelve ezzel:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Szerző:** Aspose

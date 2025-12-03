@@ -113,15 +113,15 @@ A: Sim, baixe a biblioteca na página de lançamentos [aqui](https://releases.as
 **Q: Como posso adquirir o Aspose.PSD para Java?**  
 A: Você pode adquirir o Aspose.PSD para Java na página de compra [aqui](https://purchase.aspose.com/buy).
 
+---
+
+**Última atualização:** 2025-12-01  
+**Testado com:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-01  
-**Testado com:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Autor:** Aspose

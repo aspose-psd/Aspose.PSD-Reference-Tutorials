@@ -114,15 +114,15 @@ C: Kütüphaneyi sürüm sayfasından [buradan](https://releases.aspose.com/psd/
 **S: Aspose.PSD for Java nasıl satın alınır?**  
 C: Satın alma sayfasından [buradan](https://purchase.aspose.com/buy) temin edebilirsiniz.
 
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen:** Aspose.PSD for Java 24.11 (yazım anındaki en yeni sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen:** Aspose.PSD for Java 24.11 (yazım anındaki en yeni sürüm)  
-**Yazar:** Aspose

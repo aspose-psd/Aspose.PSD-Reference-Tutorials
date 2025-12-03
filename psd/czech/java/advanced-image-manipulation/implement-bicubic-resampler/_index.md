@@ -115,15 +115,15 @@ A: Ano, knihovnu si můžete stáhnout ze stránky vydání [zde](https://releas
 **Q: Jak mohu zakoupit Aspose.PSD pro Java?**  
 A: Aspose.PSD pro Java můžete zakoupit na stránce nákupu [zde](https://purchase.aspose.com/buy).
 
+---
+
+**Poslední aktualizace:** 2025-12-01  
+**Testováno s:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-01  
-**Testováno s:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Autor:** Aspose

@@ -115,15 +115,15 @@ A: Ya, unduh pustaka dari halaman rilis [di sini](https://releases.aspose.com/ps
 **Q: Bagaimana cara membeli Aspose.PSD untuk Java?**  
 A: Anda dapat membeli Aspose.PSD untuk Java dari halaman pembelian [di sini](https://purchase.aspose.com/buy).
 
+---
+
+**Terakhir Diperbarui:** 2025-12-01  
+**Diuji Dengan:** Aspose.PSD for Java 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-01  
-**Diuji Dengan:** Aspose.PSD for Java 24.11 (terbaru pada saat penulisan)  
-**Penulis:** Aspose

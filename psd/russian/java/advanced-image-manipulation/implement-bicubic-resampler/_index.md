@@ -115,15 +115,15 @@ imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 **В: Как приобрести Aspose.PSD для Java?**  
 О: Приобрести Aspose.PSD для Java можно на странице покупки [здесь](https://purchase.aspose.com/buy).
 
+---
+
+**Последнее обновление:** 2025-12-01  
+**Тестировано с:** Aspose.PSD для Java 24.11 (последняя на момент написания)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-01  
-**Тестировано с:** Aspose.PSD для Java 24.11 (последняя на момент написания)  
-**Автор:** Aspose
