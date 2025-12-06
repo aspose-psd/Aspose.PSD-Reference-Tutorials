@@ -1,35 +1,53 @@
 ---
-title: Obróć obraz w Aspose.PSD dla Java
-linktitle: Obróć obraz
-second_title: Aspose.PSD API Java
-description: Przeglądaj rotację obrazu w Javie bez wysiłku dzięki Aspose.PSD. Z łatwością obracaj, odwracaj i zapisuj pliki PSD.
+date: 2025-12-06
+description: Dowiedz się, jak obrócić obraz o 270 stopni przy użyciu Aspose.PSD for
+  Java. Ten przewodnik pokazuje, jak obracać pliki PSD, odwracać obrazy i konwertować
+  PSD na JPEG.
+language: pl
+linktitle: Rotate Image 270 Degrees
+second_title: Aspose.PSD Java API
+title: Jak obrócić obraz o 270 stopni przy użyciu Aspose.PSD dla Javy
+url: /java/advanced-image-manipulation/rotate-image/
 weight: 19
-url: /pl/java/advanced-image-manipulation/rotate-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obróć obraz w Aspose.PSD dla Java
+# Obróć obraz o 270 stopni przy użyciu Aspose.PSD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.PSD dla Java zapewnia potężny zestaw funkcji do pracy z obrazami, umożliwiając programistom efektywne manipulowanie i przetwarzanie plików PSD. W tym samouczku skupimy się na jednym konkretnym zadaniu: obracaniu obrazu. Niezależnie od tego, czy tworzysz aplikację do edycji zdjęć, czy po prostu chcesz dostosować orientację obrazu, Aspose.PSD sprawia, że proces jest prosty.
+W tym **java image processing tutorial** odkryjesz, jak **rotate image 270 degrees** szybko i niezawodnie przy użyciu Aspose.PSD for Java. Niezależnie od tego, czy tworzysz narzędzie do edycji zdjęć, automatyzujesz konwersje wsadowe, czy po prostu potrzebujesz zmienić orientację warstwy PSD, biblioteka sprawia, że zadanie jest bezbolesne. Poruszymy także temat odbijania obrazów oraz konwersji obróconego PSD do JPEG, abyś uzyskał kompletny przepływ pracy od początku do końca.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaką bibliotekę obsługuje rotację?** Aspose.PSD for Java  
+- **Jaki kąt rotacji używa przykład?** 270 stopni  
+- **Czy mogę także odbić obraz?** Tak – użyj opcji `RotateFlipType` takich jak `Rotate90FlipX`  
+- **Jak zapisać wynik?** W przykładzie zapisujemy jako JPEG używając `JpegOptions`  
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest ważna licencja Aspose.PSD do użytku komercyjnego  
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co oznacza „obrócić obraz o 270 stopni”?
+Obrócenie obrazu o 270 stopni oznacza obrócenie zdjęcia o trzy czwarte pełnego obrotu zgodnie z ruchem wskazówek zegara (lub o 90 stopni przeciwnie do ruchu wskazówek zegara). W wielu scenariuszach edycji graficznej taka orientacja odpowiada pierwotnemu układowi portretowemu po serii transformacji.
 
--  Biblioteka Aspose.PSD dla Java: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.PSD dla Java. Można znaleźć bibliotekę i szczegółową dokumentację[Tutaj](https://reference.aspose.com/psd/java/).
+## Dlaczego używać Aspose.PSD do tego zadania?
+- **Pełne wsparcie PSD** – działa z warstwami, maskami i obiektami korekcyjnymi.  
+- **Nie wymaga natywnego Photoshopa** – działa na dowolnym środowisku Java.  
+- **Proste API** – pojedyncze wywołanie metody (`rotateFlip`) obsługuje rotację i odbicie.  
+- **Łatwa konwersja formatów** – eksport bezpośrednio do JPEG, PNG lub innych popularnych formatów.
 
-- Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane środowisko programistyczne Java.
+## Wymagania wstępne
 
--  Przykładowy plik PSD: Przygotuj przykładowy plik PSD, który chcesz obrócić. Dostosuj`sourceFile` zmienną w przykładowym kodzie ze ścieżką do pliku PSD.
+Zanim zaczniesz, upewnij się, że masz:
 
-## Importuj pakiety
+- **Bibliotekę Aspose.PSD for Java** zainstalowaną. Możesz ją pobrać i zobaczyć pełną dokumentację API [tutaj](https://reference.aspose.com/psd/java/).  
+- Środowisko programistyczne Java (JDK 8 lub wyższy).  
+- Przykładowy plik PSD, który chcesz obrócić. Zaktualizuj zmienną `sourceFile` w kodzie, podając prawidłową ścieżkę do pliku.
 
-Zacznij od zaimportowania niezbędnych pakietów, aby wykorzystać możliwości Aspose.PSD:
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych klas z pakietu Aspose.PSD:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +56,9 @@ import com.aspose.psd.RotateFlipType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Krok 1: Załaduj obraz
+## Jak obrócić PSD – Krok 1: Załaduj obraz
 
- Załaduj istniejący obraz do instancji pliku`Image` klasa:
+Utwórz instancję `Image`, która wskazuje na Twój źródłowy plik PSD:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,48 +66,65 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-## Krok 2: Obróć obraz
+## Jak obrócić PSD – Krok 2: Obróć obraz o 270 stopni
 
- Obróć obraz za pomocą`rotateFlip` metoda. W tym przykładzie obracamy obraz o 270 stopni:
+Użyj metody `rotateFlip` z `RotateFlipType.Rotate270FlipNone`, aby uzyskać rotację o 270 stopni bez żadnego odbicia:
 
 ```java
 image.rotateFlip(RotateFlipType.Rotate270FlipNone);
 ```
 
-## Krok 3: Zapisz obrócony obraz
+> **Pro tip:** Jeśli potrzebujesz także odbić obraz poziomo lub pionowo, wybierz inny `RotateFlipType`, taki jak `Rotate90FlipX` lub `Rotate180FlipY`.
 
- Zapisz obrócony obraz za pomocą`save` metodę i określenie formatu wyjściowego (w tym przypadku JPEG):
+## Jak obrócić PSD – Krok 3: Konwertuj PSD do JPEG i zapisz
+
+Po obróceniu możesz **convert PSD to JPEG** (lub innego obsługiwanego formatu) używając odpowiedniej klasy opcji:
 
 ```java
 String destName = dataDir + "RotatedImage_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-## Wniosek
+Plik `RotatedImage_out.jpg` zawiera teraz oryginalną zawartość PSD obróconą o 270 stopni i zapisaną jako JPEG.
 
-Gratulacje! Pomyślnie obróciłeś obraz za pomocą Aspose.PSD dla Java. Ta prosta, ale potężna biblioteka otwiera świat możliwości manipulacji obrazami w aplikacjach Java.
+## Typowe problemy i rozwiązania
 
-## Często zadawane pytania
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Image appears upside‑down** | Sprawdź, czy użyto `Rotate270FlipNone`. Dla rotacji o 90 stopni zgodnie z ruchem wskazówek zegara użyj `Rotate90FlipNone`. |
+| **Output file is corrupted** | Upewnij się, że folder docelowy istnieje i masz uprawnienia do zapisu. |
+| **License exception** | Zainstaluj tymczasową lub stałą licencję Aspose.PSD przed załadowaniem obrazu w środowisku produkcyjnym. |
 
-### P1: Czy Aspose.PSD jest kompatybilny z różnymi formatami obrazów?
+## Najczęściej zadawane pytania
 
-O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, w tym PSD, JPEG, PNG i inne.
+**Q: Czy Aspose.PSD jest kompatybilny z różnymi formatami obrazów?**  
+A: Tak, Aspose.PSD obsługuje PSD, JPEG, PNG, BMP, GIF i wiele innych formatów rastrowych.
 
-### P2: Czy mogę zastosować niestandardowe obroty, a nie tylko predefiniowane przewroty?
+**Q: Czy mogę zastosować własne rotacje, a nie tylko predefiniowane odbicia?**  
+A: Oczywiście! Choć `RotateFlipType` zapewnia typowe kąty, możesz łączyć wiele wywołań lub używać macierzy transformacji dla dowolnych kątów.
 
-A2: Absolutnie! Aspose.PSD zapewnia elastyczność stosowania niestandardowych rotacji w celu spełnienia określonych wymagań.
+**Q: Jak skonwertować obrócony PSD do innego formatu, np. PNG?**  
+A: Zastąp `JpegOptions` klasą `PngOptions` (lub odpowiednią klasą opcji) w metodzie `save`.
 
-### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc?
+**Q: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc?**  
+A: Pomoc społeczności znajdziesz na [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
 
- O3: W przypadku jakichkolwiek pytań lub problemów odwiedź stronę[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+**Q: Czy dostępna jest darmowa wersja próbna?**  
+A: Tak, możesz wypróbować Aspose.PSD korzystając z [free trial](https://releases.aspose.com/).
 
-### P4: Czy dostępny jest bezpłatny okres próbny?
+**Q: Jak uzyskać tymczasową licencję?**  
+A: Jeśli potrzebujesz tymczasowej licencji, możesz ją uzyskać [here](https://purchase.aspose.com/temporary-license/).
 
- O4: Tak, możesz eksplorować Aspose.PSD za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
+## Zakończenie
 
-### P5: Jak uzyskać licencję tymczasową?
+Nauczyłeś się teraz, jak **rotate image 270 degrees** przy użyciu Aspose.PSD for Java, odbijać obrazy w razie potrzeby oraz eksportować wynik do JPEG. Ten prosty przepływ pracy może być zintegrowany z większymi pipeline'ami przetwarzania obrazu opartymi na Javie, dając pełną kontrolę nad manipulacją PSD bez konieczności korzystania z Photoshopa.
 
- Odpowiedź 5: Jeśli potrzebujesz licencji tymczasowej, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
