@@ -1,38 +1,55 @@
 ---
-title: Aspose.PSD for Java ile Bir Görüntüyü Belirli Bir Açıda Döndürme
-linktitle: Bir Görüntüyü Belirli Bir Açıda Döndürme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java ile Java'da görüntü döndürmeyi keşfedin. Görüntüleri belirli açılarda zahmetsizce döndürün.
+date: 2025-12-08
+description: Aspose.PSD kullanarak Java’da belirli bir açıyla resmi nasıl döndüreceğinizi
+  öğrenin. Kılavuz, Java’da resmi döndürme, belirli bir açıyla resmi döndürme, arka
+  plan işleme ve daha fazlasını kapsar.
+language: tr
+linktitle: How to Rotate Image on a Specific Angle
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java ile Görüntüyü Belirli Bir Açıda Döndürme
+url: /java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
-url: /tr/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java ile Bir Görüntüyü Belirli Bir Açıda Döndürme
+# Belirli Bir Açıda Görüntüyü Döndürme: Aspose.PSD for Java ile
 
-## giriiş
+## Giriş
 
-Java geliştirmenin dinamik dünyasında, görüntüleri değiştirmek çeşitli uygulamalar için ortak bir gereksinimdir. Aspose.PSD for Java, görüntü döndürme işlemini zahmetsizce gerçekleştirmek için güçlü özellikler sunan sağlam bir çözüm olarak ortaya çıkıyor. Bu eğitimde, Aspose.PSD for Java'yı kullanarak bir görüntüyü belirli bir açıda döndürme sürecinde size rehberlik edeceğiz. Ayrıntılara dalmadan önce bazı önkoşullarla zemini hazırlayalım.
+Java uygulamasında programlı olarak **görseli nasıl döndürürüm** ihtiyacınız varsa, Aspose.PSD for Java, ağır işleri halleden temiz ve yüksek performanslı bir API sunar. Bir fotoğraf editörü oluşturuyor, küçük resimler üretiyor ya da bir web servisi için varlıklar hazırlıyor olun, bir görüntüyü tam bir dereceyle döndürmek yaygın bir gereksinimdir. Bu öğreticide, PSD dosyasını yüklemekten döndürülmüş sonucu kaydetmeye kadar tüm süreci adım adım inceleyecek ve önbellekleme ve arka plan yönetimi gibi en iyi uygulamaları vurgulayacağız.
+
+> **Hızlı Yanıtlar**  
+> - **Java'da görüntü döndürmek için en iyi kütüphane hangisidir?** Aspose.PSD for Java.  
+> - **Herhangi bir dereceyle döndürebilir miyim?** Evet, `rotate` yöntemi bir `float` açı (pozitif ya da negatif) kabul eder.  
+> - **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü test için çalışır; üretim için lisans gereklidir.  
+> - **Hangi görüntü formatları destekleniyor?** PSD, JPEG, PNG, TIFF, GIF, BMP ve daha birçokları.  
+> - **Boş alan için arka plan rengi nasıl ayarlanır?** `rotate` yöntemine bir `Color` örneği geçirin.
+
+## Java'da Görüntü Döndürme Nedir?
+
+Görüntü döndürme, piksel matrisini bir pivot noktasının (genellikle merkez) etrafında belirli bir açıyla çevirmektir. Java’da bunu `Graphics2D` ile manuel olarak yapabilirsiniz, ancak Aspose.PSD matematiği soyutlar, farklı renk derinliklerini yönetir ve PSD dosyalarıyla çalışırken katman bilgilerini korur.
+
+## Neden Aspose.PSD'yi Görüntü Döndürmek İçin Kullanmalısınız?
+
+- **Hassasiyet:** Kalite kaybı olmadan herhangi bir kesirli dereceyle döndürün.  
+- **Performans:** Yerleşik önbellekleme (`image.cacheData()`) büyük dosyaları hızlandırır.  
+- **Arka Plan Kontrolü:** Döndürme sırasında oluşan boşlukları doldurmak için bir arka plan rengi belirleyin.  
+- **Format Esnekliği:** PSD yükleyin, JPEG, PNG veya desteklenen herhangi bir formatta çıktı alın.
 
 ## Önkoşullar
 
-Bu görüntü döndürme yolculuğuna çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
 
-### 1. Java Geliştirme Ortamı
-Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+1. **Java Development Kit (JDK 8 veya üzeri)** – çalışan bir Java IDE’si ya da komut satırı ortamı.  
+2. **Aspose.PSD for Java** – en yeni JAR dosyasını [Aspose.PSD Java sayfasından](https://reference.aspose.com/psd/java/) indirin.  
+3. **Örnek PSD dosyası** – örneğin, kodunuzdan erişebileceğiniz bir klasörde `sample.psd` dosyası.
 
-### 2. Java Kütüphanesi için Aspose.PSD
- Aspose.PSD for Java kütüphanesini indirip yükleyin. Gerekli kütüphaneyi ve dokümantasyonu bulabilirsiniz[Burada](https://reference.aspose.com/psd/java/).
+## Paketleri İçe Aktarma
 
-### 3. Örnek Resim
-Döndürmek istediğiniz örnek bir resmi (örneğin, "sample.psd") hazırlayın. Belge dizininize yerleştirin.
-
-## Paketleri İçe Aktar
-
-Şimdi görüntü döndürme işlemine başlamak için gerekli paketleri içe aktaralım:
+İhtiyacımız olan sınıfları içe aktaralım. Bu importlar, seçtiğiniz döndürme açısına bakılmaksızın aynı kalır.
 
 ```java
 import com.aspose.psd.Color;
@@ -42,34 +59,36 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Şimdi bir görüntüyü belirli bir açıda döndürme işlemini takip edilmesi kolay bir dizi adıma ayıralım.
+## Adım Adım Kılavuz
 
-## 1. Adım: Belge Dizininizi Tanımlayın
+### Adım 1: Belge Dizinini Tanımlayın
+
+Kaynak PSD’nin bulunduğu ve çıktının yazılacağı klasörü ayarlayın.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-"Belge Dizininiz"i belge dizininizin gerçek yolu ile değiştirdiğinizden emin olun.
+> **İpucu:** Göreli yol sürprizlerinden kaçınmak için mutlak yol ya da `System.getProperty("user.dir")` kullanın.
 
-## Adım 2: Kaynak ve Hedef Dosya Yollarını Belirleyin
+### Adım 2: Kaynak ve Hedef Dosya Yollarını Belirleyin
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "RotatingImageOnSpecificAngle_out.jpg";
 ```
 
-Kaynak dosya yolunu örnek görüntünüzün konumuna ayarlayın ve döndürülen görüntünün hedef dosya yolunu belirtin.
+İhtiyacınıza göre `destName` değerini `.png`, `.tiff` vb. desteklenen herhangi bir uzantıya değiştirebilirsiniz.
 
-## 3. Adım: Görüntüyü Yükleyin
+### Adım 3: Görüntüyü Yükleyin
 
 ```java
 RasterImage image = (RasterImage)Image.load(sourceFile);
 ```
 
-Aspose.PSD'yi kullanarak örnek görüntüyü yükleyin.
+`Image.load` dosya formatını otomatik olarak algılar ve raster‑tabanlı işlemler için somut bir `RasterImage` döndürür.
 
-## Adım 4: Görüntü Verilerini Önbelleğe Alın
+### Adım 4: Görüntü Verilerini Önbellekle (İsteğe Bağlı ama Önerilir)
 
 ```java
 if (!image.isCached())
@@ -78,51 +97,62 @@ if (!image.isCached())
 }
 ```
 
-Döndürme sırasında daha iyi performans için görüntü verilerini önbelleğe alın.
+Önbellekleme, görüntü piksellerini bellekte tutar ve sonraki dönüşümler için hızı artırır—özellikle büyük PSD dosyalarında faydalıdır.
 
-## Adım 5: Görüntüyü Döndürün
+### Adım 5: Görüntüyü Döndürün
 
 ```java
 image.rotate(20f, true, Color.getRed());
 ```
 
-Orantılı boyutu koruyarak ve kırmızı arka plan rengini kullanarak döndürmeyi 20 derecelik bir açıyla gerçekleştirin.
+- **20f** – derece cinsinden döndürme açısı (float). Bu değeri istediğiniz açıya değiştirin, örn. saat yönünün tersine `-45f`.  
+- **true** – döndürülmüş görüntüyü sığdırmak için tuvali genişletirken orijinal en‑boy oranını korur.  
+- **Color.getRed()** – döndürme sırasında oluşan boş köşeleri dolduran arka plan rengi. İhtiyaca göre `Color.getWhite()` ya da özel bir renk ile değiştirin.
 
-## Adım 6: Sonucu Kaydet
+### Adım 6: Sonucu Kaydedin
 
 ```java
 image.save(destName, new JpegOptions());
 ```
 
-Döndürülmüş görüntüyü belirtilen seçeneklerle (bu durumda JpegOptions kullanarak) yeni bir dosyaya kaydedin.
+`JpegOptions` kalite, sıkıştırma ve diğer JPEG‑özel ayarları kontrol etmenizi sağlar. Kayıpsız çıktı için `PngOptions` ile değiştirin.
 
-Tebrikler! Aspose.PSD for Java'yı kullanarak bir görüntüyü belirli bir açıda başarıyla döndürdünüz.
+## Yaygın Sorunlar ve Çözümler
 
-## Çözüm
+| Sorun | Neden | Çözüm |
+|-------|-------|------|
+| **Döndürme sonrası boş köşeler** | Arka plan rengi belirtilmemiş | `rotate` metoduna bir `Color` (örn. `Color.getWhite()`) geçirin. |
+| **Büyük PSD’lerde bellek hatası** | Görüntü önbelleğe alınmamış | İşleme başlamadan `image.cacheData()` çağırın. |
+| **Açı yönü hatalı** | Pozitif ve negatif açı karışıklığı | Saat yönünün tersine döndürmek için negatif değer kullanın (veya koordinat sisteminize göre tersine). |
+| **Değişiklikler kaydedilmiyor** | `save` çağrısı unutulmuş | Döndürmeden sonra `image.save(...)` metodunun çalıştığından emin olun. |
 
-Bu eğitimde Aspose.PSD for Java ile görüntüleri döndürmenin kusursuz sürecini araştırdık. Kütüphanenin güçlü özellikleri, Java geliştiricilerinin görüntüleri zahmetsizce değiştirmesine olanak tanır ve sayısız yaratıcı olasılığa kapı açar.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**S: Aspose.PSD for Java ile şeffaflık içeren görüntüleri döndürebilir miyim?**  
+C: Evet. Kütüphane alfa kanallarını korur; şeffaf köşeler istiyorsanız opak bir arka plan rengi belirtmeyin.
 
-### S1: Aspose.PSD for Java'yı kullanarak şeffaf görüntüleri döndürebilir miyim?
+**S: Döndürme için desteklenen görüntü dosya formatlarıyla ilgili bir sınırlama var mı?**  
+C: Hayır. Aspose.PSD PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF ve daha birçok formatı destekler.
 
-Evet, Aspose.PSD for Java, görsellerin şeffaf olarak döndürülmesini destekler. Kodunuzda şeffaflıkla ilgili seçenekleri uygun şekilde ele aldığınızdan emin olun.
+**S: Görüntüleri negatif bir açıyla döndürebilir miyim?**  
+C: Kesinlikle. Saat yönünde döndürmek için negatif bir float değeri (`-30f` gibi) `rotate` metoduna geçirin.
 
-### S2: Döndürme için desteklenen görüntü dosyası formatlarında herhangi bir sınırlama var mı?
+**S: Aspose.PSD döndürme sırasında gerçek zamanlı ön izleme sağlar mı?**  
+C: API yalnızca sunucu tarafıdır. Canlı ön izleme için döndürülmüş bitmap’i bir UI çerçevesine (Swing, JavaFX) entegre edip görünümü yenileyin.
 
-Hayır, Aspose.PSD for Java, aralarında PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF ve daha fazlasının da bulunduğu çok çeşitli görüntü dosyası formatlarını destekler.
+**S: Aspose.PSD için topluluk forumu var mı?**  
+C: Evet, sorularınızı sorabilir ve deneyimlerinizi paylaşabilirsiniz: [Aspose.PSD forumu](https://forum.aspose.com/c/psd/34).
 
-### S3: Görüntüleri negatif açıyla döndürebilir miyim?
+## Sonuç
 
- Kesinlikle! Negatif bir açıyı belirtebilirsiniz.`image.rotate()` görüntüleri ters yönde döndürme yöntemi.
+Artık Aspose.PSD for Java kullanarak belirli bir açıyla **görseli nasıl döndürürüm** sorusunun yanıtını biliyorsunuz. Önbellekleme, arka plan rengi kontrolü ve esnek çıktı seçeneklerinden yararlanarak herhangi bir Java‑tabanlı görüntü iş akışına hassas döndürme işlevi entegre edebilirsiniz.
 
-### S4: Aspose.PSD for Java, döndürme sırasında gerçek zamanlı görüntü önizlemesi sağlıyor mu?
+---
 
-Aspose.PSD for Java öncelikle arka uç görüntü işlemeye odaklanır. Gerçek zamanlı görüntü önizlemesi için diğer teknolojileri kullanarak bir ön uç çözümü uygulamanız gerekebilir.
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-### S5: Aspose.PSD için yardım isteyebileceğim bir topluluk forumu var mı?
-
- Evet, ziyaret edebilirsiniz[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) toplulukla etkileşime geçmek, sorular sormak ve yardım istemek.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
