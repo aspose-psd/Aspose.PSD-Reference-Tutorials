@@ -124,13 +124,6 @@ Fedezd fel a képek forgatását Java-ban könnyedén az Aspose.PSD-vel. Forgass
 ### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
 Fedezd fel a képek forgatását Java-ban az Aspose.PSD for Java-val. Forgass képeket könnyedén **rotate image specific angle**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Rotálhatok PSD képet anélkül, hogy elveszíteném a réteg információkat?**  
@@ -153,3 +146,10 @@ A: Az Aspose.PSD for Java támogatja a Java 8, 11, 17 és újabb LTS kiadások
 **Utoljára frissítve:** 2025-12-05  
 **Tesztelve:** Aspose.PSD for Java 24.12 (legújabb a írás időpontjában)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

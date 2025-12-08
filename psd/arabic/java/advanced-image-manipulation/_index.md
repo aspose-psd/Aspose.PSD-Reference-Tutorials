@@ -123,13 +123,6 @@ weight: 24
 ### [تدوير صورة بزاوية محددة باستخدام Aspose.PSD لجافا](./rotate-image-specific-angle/)
 استكشف تدوير الصور في جافا باستخدام Aspose.PSD لجافا. قم بتدوير الصور بسهولة على **rotate image specific angle**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تدوير صورة PSD دون فقدان معلومات الطبقة؟**  
@@ -147,6 +140,15 @@ weight: 24
 **س: ما إصدارات جافا المدعومة رسميًا؟**  
 ج: يدعم Aspose.PSD لجافا إصدارات Java 8، 11، 17، والإصدارات الأحدث من LTS.
 
+---
+
 **آخر تحديث:** 2025-12-05  
 **تم الاختبار مع:** Aspose.PSD لجافا 24.12 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

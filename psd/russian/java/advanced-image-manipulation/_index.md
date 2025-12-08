@@ -124,13 +124,6 @@ weight: 24
 ### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
 Исследуйте поворот изображений в Java с Aspose.PSD for Java. Поворачивайте изображения без труда на **rotate image specific angle**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли повернуть PSD‑изображение без потери информации о слоях?**  
@@ -153,3 +146,10 @@ weight: 24
 **Последнее обновление:** 2025-12-05  
 **Тестировано с:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

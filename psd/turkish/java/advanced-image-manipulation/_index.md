@@ -124,13 +124,6 @@ Aspose.PSD ile Java'da görüntü döndürmeyi zahmetsizce keşfedin. PSD dosyal
 ### [Aspose.PSD for Java ile Belirli Bir Açıyla Görüntüyü Döndür](./rotate-image-specific-angle/)
 Aspose.PSD for Java ile Java'da görüntü döndürmeyi keşfedin. **rotate image specific angle** üzerinde görüntüleri zahmetsizce döndürün.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: PSD görüntüsünü katman bilgilerini kaybetmeden döndürebilir miyim?**  
@@ -148,6 +141,15 @@ A: Hayır. Aspose.PSD, ek bağımlılıklar olmadan **how to replace fonts java*
 **Q: Resmi olarak hangi Java sürümleri destekleniyor?**  
 A: Aspose.PSD for Java, Java 8, 11, 17 ve daha yeni LTS sürümlerini destekler.
 
+---
+
 **Son Güncelleme:** 2025-12-05  
 **Test Edilen:** Aspose.PSD for Java 24.12 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -124,13 +124,6 @@ Explorez la rotation d'image en Java sans effort avec Aspose.PSD. Faites pivoter
 ### [Faire pivoter une image à un angle spécifique avec Aspose.PSD pour Java](./rotate-image-specific-angle/)
 Explorez la rotation d'image en Java avec Aspose.PSD pour Java. Faites pivoter les images sans effort sur **rotate image specific angle**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je faire pivoter une image PSD sans perdre les informations de calque ?**  
@@ -153,3 +146,10 @@ R : Aspose.PSD pour Java prend en charge Java 8, 11, 17 et les versions LTS 
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

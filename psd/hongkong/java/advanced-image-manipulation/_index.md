@@ -134,13 +134,6 @@ weight: 24
 ### [在 Aspose.PSD for Java 中以特定角度旋轉圖像](./rotate-image-specific-angle/)
 使用 Aspose.PSD for Java 探索 Java 中的圖像旋轉。輕鬆在 **rotate image specific angle** 上旋轉圖像。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在不遺失圖層資訊的情況下旋轉 PSD 圖像嗎？**  
@@ -163,3 +156,10 @@ A: Aspose.PSD for Java 支援 Java 8、11、17 以及更新的 LTS 版本。
 **最後更新：** 2025-12-05  
 **測試環境：** Aspose.PSD for Java 24.12（撰寫時的最新版本）  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

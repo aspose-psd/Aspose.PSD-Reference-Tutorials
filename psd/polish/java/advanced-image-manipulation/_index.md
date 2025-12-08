@@ -124,13 +124,6 @@ Poznaj obracanie obrazów w Javie bez wysiłku dzięki Aspose.PSD. Obracaj, odwr
 ### [Obrócenie obrazu pod określonym kątem w Aspose.PSD dla Javy](./rotate-image-specific-angle/)
 Poznaj obracanie obrazów w Javie z Aspose.PSD dla Javy. Obracaj obrazy bez wysiłku pod **rotate image specific angle**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę obrócić obraz PSD bez utraty informacji o warstwach?**  
@@ -151,3 +144,10 @@ A: Aspose.PSD dla Javy wspiera Java 8, 11, 17 oraz nowsze wydania LTS.
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

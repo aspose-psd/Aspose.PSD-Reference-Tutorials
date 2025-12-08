@@ -124,13 +124,6 @@ Entdecken Sie die Bilddrehung in Java mühelos mit Aspose.PSD. Drehen, spiegeln 
 ### [Ein Bild um einen spezifischen Winkel mit Aspose.PSD für Java drehen](./rotate-image-specific-angle/)
 Entdecken Sie die Bilddrehung in Java mit Aspose.PSD für Java. Drehen Sie Bilder mühelos um **rotate image specific angle**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich ein PSD‑Bild drehen, ohne Ebeneninformationen zu verlieren?**  
@@ -148,6 +141,15 @@ A: Nein. Aspose.PSD enthält integrierte APIs zum Ersetzen von Schriftarten, sod
 **Q: Welche Java‑Versionen werden offiziell unterstützt?**  
 A: Aspose.PSD für Java unterstützt Java 8, 11, 17 und neuere LTS‑Versionen.
 
+---
+
 **Zuletzt aktualisiert:** 2025-12-05  
 **Getestet mit:** Aspose.PSD für Java 24.12 (latest at time of writing)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -124,13 +124,6 @@ Explora la rotación de imágenes en Java sin complicaciones con Aspose.PSD. Rot
 ### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
 Explora la rotación de imágenes en Java con Aspose.PSD para Java. Rota imágenes sin esfuerzo en **ángulo específico**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas Frecuentes
 
 **P: ¿Puedo rotar una imagen PSD sin perder la información de capas?**  
@@ -153,3 +146,10 @@ R: Aspose.PSD para Java soporta Java 8, 11, 17 y versiones LTS más recientes.
 **Última actualización:** 2025-12-05  
 **Probado con:** Aspose.PSD para Java 24.12 (última disponible al momento de escribir)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

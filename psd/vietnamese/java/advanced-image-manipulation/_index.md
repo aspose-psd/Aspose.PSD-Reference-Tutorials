@@ -124,13 +124,6 @@ Khám phá việc xoay ảnh trong Java một cách dễ dàng với Aspose.PSD.
 ### [Xoay Ảnh với Góc Cụ Thể trong Aspose.PSD cho Java](./rotate-image-specific-angle/)
 Khám phá việc xoay ảnh trong Java với Aspose.PSD cho Java. Dễ dàng xoay ảnh với **rotate image specific angle**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
 **Q: Tôi có thể xoay một ảnh PSD mà không mất thông tin lớp không?**  
@@ -153,3 +146,10 @@ A: Aspose.PSD cho Java hỗ trợ Java 8, 11, 17 và các bản phát hành LT
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
