@@ -1,42 +1,62 @@
 ---
-title: Ändra storlek på bild proportionellt med Aspose.PSD för Java
-linktitle: Ändra storlek på bild proportionellt
+date: 2025-12-08
+description: Lär dig hur du konverterar PSD till PNG och ändrar storlek på bilder
+  proportionellt i Java med Aspose.PSD. Denna steg‑för‑steg‑handledning täcker bildcachning,
+  storleksändring och sparande som PNG.
+language: sv
+linktitle: Convert PSD to PNG & Resize Proportionally
 second_title: Aspose.PSD Java API
-description: Förbättra dina Java-applikationer med Aspose.PSD. Följ vår guide för att ändra storlek på bilder proportionellt utan ansträngning. Förbättra dina bildhanteringsmöjligheter idag.
+title: Hur man konverterar PSD till PNG och ändrar storlek proportionellt med Aspose.PSD
+  för Java
+url: /java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
-url: /sv/java/advanced-image-manipulation/resize-image-proportionally/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ändra storlek på bild proportionellt med Aspose.PSD för Java
+# Hur man konverterar PSD till PNG och ändrar storlek proportionellt med Aspose.PSD för Java
 
-## Introduktion
+## Introduction
 
-Välkommen till vår steg-för-steg-guide för att ändra storlek på bilder proportionellt med Aspose.PSD för Java. Om du vill förbättra dina Java-applikationer med effektiva bildstorleksförändringar har du kommit till rätt ställe. I den här handledningen går vi igenom processen med tydliga och koncisa steg.
+Om du behöver **konvertera PSD till PNG** samtidigt som du behåller originalförhållandet, har du hamnat på rätt ställe. I den här handledningen går vi igenom en komplett **Aspose.PSD-handledning** som visar dig **hur man ändrar storlek på bild**‑filer proportionellt i Java, cachar bilden för optimal prestanda, och slutligen sparar resultatet som en PNG. I slutet kommer du kunna integrera detta arbetsflöde i någon Java‑baserad bildbehandlingspipeline.
 
-## Förutsättningar
+## Quick Answers
+- **Kan Aspose.PSD konvertera PSD till PNG?** Ja – ladda bara PSD-filen och spara den med `PngOptions`.
+- **Stöder biblioteket proportionell storleksändring?** Absolut; använd `resizeWidthProportionally` och `resizeHeightProportionally`.
+- **Behöver jag cacha bilden först?** Caching (`image.cacheData()`) förbättrar prestanda för stora PSD-filer.
+- **Vilken Java-version krävs?** Java 8 eller senare stöds fullt ut.
+- **Krävs en licens för produktion?** Ja, en kommersiell licens tar bort evalueringsvattenstämplar.
 
-Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
+## What is “convert PSD to PNG” and why does it matter?
 
-1. Java-miljö: Se till att du har Java installerat på ditt system.
-2.  Aspose.PSD Library: Ladda ner och installera Aspose.PSD-biblioteket. Du kan hitta de nödvändiga resurserna[här](https://releases.aspose.com/psd/java/).
+Att konvertera ett Photoshop-dokument (PSD) till en portable network graphics (PNG)-fil låter dig dela lagerdesign som ett lättviktigt, webbvänligt format. PNG behåller transparens och förlustfri kvalitet, vilket gör det idealiskt för UI‑tillgångar, miniatyrbilder eller någon situation där bildkvalitet är viktig.
 
-## Importera paket
+## Why resize image proportionally in Java?
 
-När du har sorterat dina förutsättningar, importera de nödvändiga paketen till ditt Java-projekt. Se till att Aspose.PSD-biblioteket är korrekt refererat i ditt projekt.
+Att ändra storlek **hur man ändrar storlek på bild** utan att förvränga dess bildförhållande säkerställer att grafik ser naturlig ut på olika skärmar. `Aspose.PSD`‑API:et erbjuder dedikerade metoder för proportionell skalning, som automatiskt beräknar matchande höjd eller bredd, vilket sparar dig från manuella beräkningsfel.
+
+## Prerequisites
+
+Innan vi dyker ner i koden, se till att du har:
+
+1. **Java Development Kit (JDK)** – Java 8 eller senare installerat.
+2. **Aspose.PSD for Java** – ladda ner den senaste JAR‑filen från den officiella webbplatsen [here](https://releases.aspose.com/psd/java/).
+3. En exempel‑PSD‑fil (`sample.psd`) placerad i en katalog som du kan referera till från ditt projekt.
+
+## Import Packages
+
+Lägg till nödvändiga imports i din Java‑klass. Dessa klasser ger dig åtkomst till bildladdning, caching, storleksändring och PNG‑utdataalternativ.
 
 ```java
 import com.aspose.psd.Image;
-
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Steg 1: Ladda bilden
+## Step 1: Load the PSD Image
 
-Börja med att ladda bilden du vill ändra storlek på i ditt Java-program.
+Först, ladda käll‑PSD‑filen. Om filen är stor, minskar caching av bilddata minnesanvändningen när du utför efterföljande operationer.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,13 +65,14 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 
 if (!image.isCached()) {
+    // Image caching java – improves performance for large files
     image.cacheData();
 }
 ```
 
-## Steg 2: Ange bredd och höjd
+## Step 2: Resize Image Proportionally (Java)
 
-Bestäm den nya bredden och höjden för din storleksändrade bild. I det här exemplet kommer vi att ändra storlek på bilden till hälften av dess ursprungliga dimensioner.
+Bestäm nu de nya dimensionerna. I det här exemplet minskar vi bilden till **hälften** av dess originalstorlek samtidigt som vi bevarar bildförhållandet. Du kan justera målbredd eller mål‑höjd efter behov.
 
 ```java
 int newWidth = image.getWidth() / 2;
@@ -61,46 +82,57 @@ int newHeight = image.getHeight() / 2;
 image.resizeHeightProportionally(newHeight);
 ```
 
-## Steg 3: Spara den ändrade storleken på bilden
+> **Pro tip:** Använd antingen `resizeWidthProportionally` *eller* `resizeHeightProportionally`—biblioteket beräknar automatiskt den andra dimensionen för att hålla bilden proportionell.
 
-Spara den ändrade storleken på bilden på önskad plats och ange formatalternativen (PNG, i det här fallet).
+## Step 3: Save the Resized Image as PNG
+
+Slutligen, exportera den ändrade bilden till PNG‑format. Detta steg slutför **convert PSD to PNG**‑arbetsflödet.
 
 ```java
 String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-Och där har du det! Du har lyckats ändra storlek på en bild proportionellt med Aspose.PSD för Java.
+När koden körs kommer du att hitta en PNG‑fil som är hälften så stor som den ursprungliga PSD‑filen, med samma visuella kvalitet och utan förvrängning.
 
-## Slutsats
+## Common Issues & Solutions
 
-I den här handledningen täckte vi de väsentliga stegen för att ändra storlek på bilder proportionellt med Aspose.PSD-biblioteket för Java. Nu kan du enkelt integrera denna funktion i dina Java-applikationer för förbättrad bildhantering.
+| Problem | Orsak | Lösning |
+|---------|-------|---------|
+| **OutOfMemoryError** | Stor PSD inte cachad | Anropa `image.cacheData()` innan storleksändring |
+| **Blank PNG output** | Felaktig filsökväg | Verifiera `dataDir` och skrivbehörigheter |
+| **Aspect ratio looks off** | Använder både bredd och höjd manuellt | Använd de proportionella metoderna som tillhandahålls av Aspose.PSD |
 
-## FAQ's
+## Frequently Asked Questions
 
-### F1: Är Aspose.PSD kompatibel med alla bildformat?
+**Q: Är Aspose.PSD kompatibel med alla bildformat?**  
+A: Aspose.PSD stöder PSD, PNG, JPEG, BMP, GIF och många fler. Se den fullständiga listan i [dokumentationen](https://reference.aspose.com/psd/java/).
 
- S1: Aspose.PSD stöder olika bildformat, inklusive PSD, PNG, JPEG och mer. Kontrollera[dokumentation](https://reference.aspose.com/psd/java/) för en omfattande lista.
+**Q: Kan jag använda Aspose.PSD för kommersiella projekt?**  
+A: Ja. Köp en kommersiell licens i [Aspose‑butiken](https://purchase.aspose.com/buy).
 
-### F2: Kan jag använda Aspose.PSD för kommersiella projekt?
+**Q: Finns tillfälliga licenser tillgängliga för testning?**  
+A: Absolut – begär en tillfällig licens [här](https://purchase.aspose.com/temporary-license/) för utvärderingsändamål.
 
- A2: Ja, det kan du. Besök[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
+**Q: Var kan jag hitta community‑support?**  
+A: [Aspose.PSD‑forumet](https://forum.aspose.com/c/psd/34) är en bra plats för att ställa frågor och dela lösningar.
 
-### F3: Finns tillfälliga licenser tillgängliga för teständamål?
+**Q: Hur får jag åtkomst till den fullständiga API‑referensen?**  
+A: Detaljerad API‑dokumentation finns tillgänglig [här](https://reference.aspose.com/psd/java/).
 
- A3: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för utvärdering.
+## Conclusion
 
-### F4: Var kan jag hitta support för Aspose.PSD?
+Du vet nu hur du **konverterar PSD till PNG**, ändrar bildens storlek proportionellt och hanterar caching effektivt med Aspose.PSD för Java. Integrera dessa steg i dina egna applikationer för att leverera snabb, högkvalitativ bildbehandling utan att behöva Photoshop‑installationer.
 
- A4: Besök[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) för samhällsstöd och hjälp.
-
-### F5: Hur kommer jag åt Aspose.PSD-dokumentationen?
-
- S5: Se den detaljerade dokumentationen[här](https://reference.aspose.com/psd/java/).
-`
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose

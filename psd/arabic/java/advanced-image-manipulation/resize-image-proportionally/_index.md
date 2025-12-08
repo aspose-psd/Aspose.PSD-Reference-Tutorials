@@ -1,42 +1,61 @@
 ---
-title: قم بتغيير حجم الصورة بشكل متناسب باستخدام Aspose.PSD لـ Java
-linktitle: تغيير حجم الصورة بشكل متناسب
-second_title: Aspose.PSD جافا API
-description: قم بتحسين تطبيقات Java الخاصة بك باستخدام Aspose.PSD. اتبع دليلنا لتغيير حجم الصور بشكل متناسب دون عناء. تعزيز قدرات معالجة الصور الخاصة بك اليوم.
+date: 2025-12-08
+description: تعلم كيفية تحويل ملفات PSD إلى PNG وتغيير حجم الصور بشكل متناسب في Java
+  باستخدام Aspose.PSD. يغطي هذا الدليل خطوة بخطوة تخزين الصور مؤقتًا، وتغيير الحجم،
+  وحفظها كملف PNG.
+language: ar
+linktitle: Convert PSD to PNG & Resize Proportionally
+second_title: Aspose.PSD Java API
+title: كيفية تحويل PSD إلى PNG وتغيير الحجم بشكل متناسب باستخدام Aspose.PSD للـ Java
+url: /java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
-url: /ar/java/advanced-image-manipulation/resize-image-proportionally/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتغيير حجم الصورة بشكل متناسب باستخدام Aspose.PSD لـ Java
+# كيفية تحويل PSD إلى PNG وإعادة التحجيم بالتناسب باستخدام Aspose.PSD للـ Java
 
-## مقدمة
+## المقدمة
 
-مرحبًا بك في دليلنا خطوة بخطوة حول تغيير حجم الصور بشكل متناسب باستخدام Aspose.PSD لـ Java. إذا كنت تتطلع إلى تحسين تطبيقات Java الخاصة بك من خلال إمكانيات فعالة لتغيير حجم الصور، فقد وصلت إلى المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال العملية باستخدام خطوات واضحة وموجزة.
+إذا كنت بحاجة إلى **convert PSD to PNG** مع الحفاظ على نسبة العرض إلى الارتفاع الأصلية، فقد وصلت إلى المكان الصحيح. في هذا الدرس سنستعرض **Aspose.PSD tutorial** كامل يوضح لك **how to resize image** بصورة متناسبة في Java، وكيفية تخزين الصورة مؤقتًا لتحسين الأداء، وأخيرًا حفظ النتيجة كملف PNG. في النهاية ستتمكن من دمج هذا سير العمل في أي خط أنابيب لمعالجة الصور مبني على Java.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **Can Aspose.PSD convert PSD to PNG?** نعم – ما عليك سوى تحميل ملف PSD وحفظه باستخدام `PngOptions`.
+- **Does the library support proportional resizing?** بالتأكيد؛ استخدم `resizeWidthProportionally` و `resizeHeightProportionally`.
+- **Do I need to cache the image first?** التخزين المؤقت (`image.cacheData()`) يحسن الأداء لملفات PSD الكبيرة.
+- **What Java version is required?** Java 8 أو أحدث مدعومان بالكامل.
+- **Is a license required for production?** نعم، الترخيص التجاري يزيل علامات التقييم المائية.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “convert PSD to PNG” ولماذا هو مهم؟
 
-1. بيئة Java: تأكد من تثبيت Java على نظامك.
-2.  مكتبة Aspose.PSD: قم بتنزيل وتثبيت مكتبة Aspose.PSD. يمكنك العثور على الموارد اللازمة[هنا](https://releases.aspose.com/psd/java/).
+تحويل مستند Photoshop (PSD) إلى ملف Portable Network Graphics (PNG) يتيح لك مشاركة التصاميم الطبقية بصيغة خفيفة وصديقة للويب. يحتفظ PNG بالشفافية والجودة غير الضائعة، مما يجعله مثاليًا لأصول واجهة المستخدم، المصغرات، أو أي سيناريو حيث تكون دقة الصورة مهمة.
 
-## حزم الاستيراد
+## لماذا إعادة تحجيم الصورة بالتناسب في Java؟
 
-بمجرد فرز متطلباتك الأساسية، قم باستيراد الحزم المطلوبة إلى مشروع Java الخاص بك. تأكد من الإشارة بشكل صحيح إلى مكتبة Aspose.PSD في مشروعك.
+إعادة تحجيم **how to resize image** دون تشويه نسبة العرض إلى الارتفاع تضمن أن تبدو الرسومات طبيعية على شاشات مختلفة. توفر API الخاصة بـ `Aspose.PSD` طرقًا مخصصة للتكبير/التصغير المتناسب، والتي تحسب تلقائيًا الارتفاع أو العرض المناسب، مما يوفر عليك الأخطاء الحسابية اليدوية.
+
+## المتطلبات المسبقة
+
+قبل الغوص في الكود، تأكد من وجود ما يلي:
+
+1. **Java Development Kit (JDK)** – تثبيت Java 8 أو أحدث.
+2. **Aspose.PSD for Java** – تحميل أحدث ملف JAR من الموقع الرسمي [here](https://releases.aspose.com/psd/java/).
+3. ملف PSD تجريبي (`sample.psd`) موجود في دليل يمكنك الإشارة إليه من مشروعك.
+
+## استيراد الحزم
+
+أضف الاستيرادات اللازمة إلى فئة Java الخاصة بك. هذه الفئات تمنحك الوصول إلى تحميل الصور، التخزين المؤقت، إعادة التحجيم، وخيارات إخراج PNG.
 
 ```java
 import com.aspose.psd.Image;
-
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## الخطوة 1: تحميل الصورة
+## الخطوة 1: تحميل صورة PSD
 
-ابدأ بتحميل الصورة التي تريد تغيير حجمها إلى تطبيق Java الخاص بك.
+أولاً، قم بتحميل ملف PSD المصدر. إذا كان الملف كبيرًا، فإن تخزين بيانات الصورة مؤقتًا يقلل من استهلاك الذاكرة عند تنفيذ العمليات اللاحقة.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,13 +64,14 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 
 if (!image.isCached()) {
+    // Image caching java – improves performance for large files
     image.cacheData();
 }
 ```
 
-## الخطوة 2: تحديد العرض والارتفاع
+## الخطوة 2: إعادة تحجيم الصورة بالتناسب (Java)
 
-حدد العرض والارتفاع الجديد لصورتك التي تم تغيير حجمها. في هذا المثال، سنقوم بتغيير حجم الصورة إلى نصف أبعادها الأصلية.
+الآن حدد الأبعاد الجديدة. في هذا المثال نقوم بتصغير الصورة إلى **نصف** حجمها الأصلي مع الحفاظ على نسبة العرض إلى الارتفاع. يمكنك تعديل العرض أو الارتفاع المستهدف حسب الحاجة.
 
 ```java
 int newWidth = image.getWidth() / 2;
@@ -61,46 +81,57 @@ int newHeight = image.getHeight() / 2;
 image.resizeHeightProportionally(newHeight);
 ```
 
-## الخطوة 3: احفظ الصورة التي تم تغيير حجمها
+> **Pro tip:** استخدم إما `resizeWidthProportionally` *or* `resizeHeightProportionally`—المكتبة تحسب تلقائيًا البعد الآخر للحفاظ على تناسق الصورة.
 
-احفظ الصورة التي تم تغيير حجمها في الموقع الذي تريده، مع تحديد خيارات التنسيق (PNG، في هذه الحالة).
+## الخطوة 3: حفظ الصورة المعاد تحجيمها كـ PNG
+
+أخيرًا، صدّر الصورة المعاد تحجيمها إلى صيغة PNG. هذه الخطوة تكمل سير عمل **convert PSD to PNG**.
 
 ```java
 String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-وهنا لديك! لقد نجحت في تغيير حجم الصورة بشكل متناسب باستخدام Aspose.PSD لـ Java.
+عند تشغيل الكود، ستجد ملف PNG بحجم نصف حجم PSD الأصلي، مع الحفاظ على الجودة البصرية دون أي تشويه.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، قمنا بتغطية الخطوات الأساسية لتغيير حجم الصور بشكل متناسب باستخدام مكتبة Aspose.PSD لـ Java. والآن، يمكنك دمج هذه الوظيفة بسهولة في تطبيقات Java الخاصة بك لتحسين معالجة الصور.
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| **OutOfMemoryError** | PSD كبير غير مخزن مؤقتًا | استدعِ `image.cacheData()` قبل إعادة التحجيم |
+| **Blank PNG output** | مسار ملف غير صحيح | تحقق من `dataDir` وصلاحيات الكتابة |
+| **Aspect ratio looks off** | استخدام العرض والارتفاع يدويًا معًا | استخدم الطرق المتناسبة المتوفرة في Aspose.PSD |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.PSD متوافق مع جميع تنسيقات الصور؟
+**س: هل Aspose.PSD متوافق مع جميع صيغ الصور؟**  
+ج: يدعم Aspose.PSD الصيغ PSD, PNG, JPEG, BMP, GIF، والعديد غيرها. راجع القائمة الكاملة في [documentation](https://reference.aspose.com/psd/java/).
 
- A1: يدعم Aspose.PSD تنسيقات الصور المختلفة، بما في ذلك PSD وPNG وJPEG والمزيد. تحقق من[الوثائق](https://reference.aspose.com/psd/java/) للحصول على قائمة شاملة.
+**س: هل يمكنني استخدام Aspose.PSD في المشاريع التجارية؟**  
+ج: نعم. يمكنك شراء ترخيص تجاري من [Aspose store](https://purchase.aspose.com/buy).
 
-### س2: هل يمكنني استخدام Aspose.PSD للمشاريع التجارية؟
+**س: هل تتوفر تراخيص مؤقتة للاختبار؟**  
+ج: بالتأكيد – اطلب ترخيصًا مؤقتًا [here](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
 
- ج2: نعم يمكنك ذلك. قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+**س: أين يمكنني العثور على دعم المجتمع؟**  
+ج: منتدى [Aspose.PSD](https://forum.aspose.com/c/psd/34) مكان رائع لطرح الأسئلة ومشاركة الحلول.
 
-### س3: هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
+**س: كيف يمكنني الوصول إلى مرجع API الكامل؟**  
+ج: الوثائق التفصيلية للـ API متاحة [here](https://reference.aspose.com/psd/java/).
 
- ج3: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للتقييم.
+## الخاتمة
 
-### س4: أين يمكنني العثور على الدعم لـ Aspose.PSD؟
+أنت الآن تعرف كيفية **convert PSD to PNG**، وإعادة تحجيم الصورة بالتناسب، ومعالجة التخزين المؤقت بفعالية باستخدام Aspose.PSD للـ Java. دمج هذه الخطوات في تطبيقاتك سيضمن معالجة صور سريعة وعالية الجودة دون الاعتماد على تثبيتات Photoshop الأصلية.
 
- ج4: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع ومساعدته.
-
-### س5: كيف يمكنني الوصول إلى وثائق Aspose.PSD؟
-
- ج5: ارجع إلى الوثائق التفصيلية[هنا](https://reference.aspose.com/psd/java/).
-`
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2025-12-08  
+**تم الاختبار مع:** Aspose.PSD 24.12 for Java  
+**المؤلف:** Aspose

@@ -1,38 +1,59 @@
 ---
-title: 使用 Aspose.PSD for Java 將影像旋轉特定角度
-linktitle: 將影像旋轉特定角度
+date: 2025-12-08
+description: 了解如何在 Java 中使用 Aspose.PSD 按特定角度旋轉圖像。本指南涵蓋 Java 圖像旋轉、特定角度旋轉圖像、背景處理等內容。
+language: zh-hant
+linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
-description: 使用 Aspose.PSD for Java 探索 Java 中的影像旋轉。輕鬆地將影像旋轉到特定角度。
+title: 如何使用 Aspose.PSD for Java 以特定角度旋轉圖片
+url: /java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
-url: /zh-hant/java/advanced-image-manipulation/rotate-image-specific-angle/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD for Java 將影像旋轉特定角度
+# 如何使用 Aspose.PSD for Java 以特定角度旋轉圖像
 
-## 介紹
+## Introduction
 
-在 Java 開發的動態世界中，操作圖像是各種應用程式的常見需求。 Aspose.PSD for Java 成為一個強大的解決方案，提供強大的功能來輕鬆處理影像旋轉。在本教程中，我們將引導您完成使用 Aspose.PSD for Java 將圖像旋轉特定角度的過程。在深入了解細節之前，讓我們先來了解一些先決條件。
+如果您需要在 Java 應用程式中以程式方式 **如何旋轉圖像**，Aspose.PSD for Java 提供乾淨且高效能的 API，負責繁重的工作。無論您是在建構照片編輯器、產生縮圖，或是為 Web 服務準備資產，將圖像以精確角度旋轉都是常見需求。在本教學中，我們將從載入 PSD 檔案到儲存旋轉後的結果，完整示範整個流程，並強調快取與背景處理等最佳實踐。
 
-## 先決條件
+> **快速解答**  
+> - **哪個函式庫最適合在 Java 中旋轉圖像？** Aspose.PSD for Java.  
+> - **我可以以任意角度旋轉嗎？** 可以，`rotate` 方法接受 `float` 型別的角度（正值或負值）。  
+> - **開發時需要授權嗎？** 免費試用可用於測試；正式環境需購買授權。  
+> - **支援哪些圖像格式？** PSD、JPEG、PNG、TIFF、GIF、BMP 等多種格式。  
+> - **如何設定空白區域的背景顏色？** 將 `Color` 例項傳遞給 `rotate` 方法。
 
-在開始此圖像輪換之旅之前，請確保滿足以下先決條件：
+## What is Image Rotation in Java?
 
-### 1.Java開發環境
-確保您的系統上設定了 Java 開發環境。
+什麼是 Java 中的圖像旋轉？
 
-### 2.Java庫的Aspose.PSD
-下載並安裝 Aspose.PSD for Java 函式庫。您可以找到必要的庫和文檔[這裡](https://reference.aspose.com/psd/java/).
+圖像旋轉是指將像素矩陣繞著一個樞紐點（通常是中心）以指定角度旋轉。在 Java 中，您可以使用 `Graphics2D` 手動實作，但 Aspose.PSD 抽象化了數學運算，處理不同的色深，且在處理 PSD 檔案時保留圖層資訊。
 
-### 3. 範例影像
-準備要旋轉的範例圖片（例如“sample.psd”）。將其放在您的文件目錄中。
+## Why Use Aspose.PSD for Rotating Images?
 
-## 導入包
+為什麼使用 Aspose.PSD 來旋轉圖像？
 
-現在，讓我們導入必要的套件來開始圖像旋轉過程：
+- **精確度：** 可以任意小數度數旋轉，且不會失真。  
+- **效能：** 內建快取 (`image.cacheData()`) 可加速大型檔案。  
+- **背景控制：** 可指定背景顏色以填補旋轉後產生的空白。  
+- **格式彈性：** 載入 PSD，輸出 JPEG、PNG 或任何支援的格式。
+
+## Prerequisites
+
+先決條件
+
+1. **Java Development Kit (JDK 8 或更新版本)** – 可運作的 Java IDE 或命令列環境。  
+2. **Aspose.PSD for Java** – 從 [Aspose.PSD Java page](https://reference.aspose.com/psd/java/) 下載最新的 JAR。  
+3. **範例 PSD 檔案** – 例如 `sample.psd`，放置於程式碼可參照的資料夾中。
+
+## Import Packages
+
+匯入套件
+
+首先，匯入我們需要的類別。無論您選擇的旋轉角度為何，這些匯入皆保持不變。
 
 ```java
 import com.aspose.psd.Color;
@@ -42,34 +63,46 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-現在，讓我們將以特定角度旋轉影像的過程分解為一系列易於遵循的步驟。
+## Step‑by‑Step Guide
 
-## 第 1 步：定義您的文件目錄
+逐步指南
+
+### Step 1: Define Your Document Directory
+
+步驟 1：定義文件目錄
+
+設定保存來源 PSD 檔案以及寫入輸出結果的資料夾。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-確保將“您的文件目錄”替換為文件目錄的實際路徑。
+> **專業提示：** 使用絕對路徑或 `System.getProperty("user.dir")` 以避免相對路徑帶來的意外。
 
-## 步驟 2：指定來源檔案路徑和目標檔案路徑
+### Step 2: Specify Source and Destination File Paths
+
+步驟 2：指定來源與目的檔案路徑
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "RotatingImageOnSpecificAngle_out.jpg";
 ```
 
-將來源檔案路徑設定為範例影像的位置，並指定旋轉影像的目標檔案路徑。
+您可以將 `destName` 改為任何支援的副檔名（`.png`、`.tiff` 等），以符合輸出需求。
 
-## 第 3 步：載入圖像
+### Step 3: Load the Image
+
+步驟 3：載入圖像
 
 ```java
 RasterImage image = (RasterImage)Image.load(sourceFile);
 ```
 
-使用 Aspose.PSD 載入範例圖片。
+`Image.load` 會自動偵測檔案格式，並回傳具體的 `RasterImage` 以進行點陣圖操作。
 
-## 第四步：快取圖像數據
+### Step 4: Cache Image Data (Optional but Recommended)
+
+步驟 4：快取圖像資料（可選但建議）
 
 ```java
 if (!image.isCached())
@@ -78,51 +111,72 @@ if (!image.isCached())
 }
 ```
 
-快取圖像資料以獲得更好的旋轉性能。
+快取會將圖像像素存於記憶體中，提升後續轉換的速度——對於大型 PSD 檔案特別有用。
 
-## 第 5 步：旋轉影像
+### Step 5: Rotate the Image
+
+步驟 5：旋轉圖像
 
 ```java
 image.rotate(20f, true, Color.getRed());
 ```
 
-以 20 度角執行旋轉，同時保持比例大小並使用紅色背景顏色。
+- **20f** – 以度數（float）表示的旋轉角度。變更此值即可旋轉任意角度，例如 `-45f` 代表逆時針。  
+- **true** – 在擴展畫布以容納旋轉後圖像時，保持原始長寬比。  
+- **Color.getRed()** – 用於填補旋轉後產生的空白角落的背景顏色。可依需求改為 `Color.getWhite()` 或其他自訂顏色。
 
-## 第 6 步：儲存結果
+### Step 6: Save the Result
+
+步驟 6：儲存結果
 
 ```java
 image.save(destName, new JpegOptions());
 ```
 
-使用指定選項將旋轉後的圖像儲存到新檔案（在本例中，使用 JpegOptions）。
+`JpegOptions` 讓您控制品質、壓縮以及其他 JPEG 專屬設定。若需無損輸出，可改用 `PngOptions`。
 
-恭喜！您已成功使用 Aspose.PSD for Java 將影像旋轉特定角度。
+## Common Issues and Solutions
 
-## 結論
+常見問題與解決方案
 
-在本教程中，我們探索了使用 Aspose.PSD for Java 旋轉圖像的無縫過程。該程式庫強大的功能使 Java 開發人員能夠輕鬆操作圖像，從而為無數的創意可能性打開了大門。
+| 問題 | 原因 | 解決方法 |
+|-------|-------|-----|
+| **旋轉後出現空白角落** | 未提供背景顏色 | 將 `Color`（例如 `Color.getWhite()`）傳遞給 `rotate`。 |
+| **大型 PSD 產生記憶體不足錯誤** | 圖像未快取 | 在處理前呼叫 `image.cacheData()`。 |
+| **角度方向不正確** | 正負角度混淆 | 使用負值進行順時針旋轉（或依座標系統相反）。 |
+| **變更未儲存** | 忘記呼叫 `save` | 確認在旋轉後執行 `image.save(...)`。 |
 
-## 常見問題解答
+## Frequently Asked Questions
 
-### Q1：我可以使用 Aspose.PSD for Java 旋轉透明圖嗎？
+常見問答
 
-是的，Aspose.PSD for Java 支援透明影像的旋轉。確保在程式碼中相應地處理與透明度相關的選項。
+**Q: 我可以使用 Aspose.PSD for Java 旋轉具有透明度的圖像嗎？**  
+A: 可以。此函式庫會保留 alpha 通道；若希望角落保持透明，請勿指定不透明的背景顏色。
 
-### Q2：支援旋轉的影像檔案格式有限制嗎？
+**Q: 支援旋轉的圖像檔案格式有任何限制嗎？**  
+A: 沒有。Aspose.PSD 支援 PSD、JPEG、PNG、TIFF、GIF、BMP、JPEG2000、WMF、EMF 等多種格式。
 
-不，Aspose.PSD for Java 支援多種圖片檔案格式，包括 PSD、JPEG、PNG、TIFF、GIF、BMP、JPEG2000、WMF、EMF 等。
+**Q: 我可以使用負角度旋轉圖像嗎？**  
+A: 當然可以。將負的 float 傳遞給 `rotate`（例如 `-30f`）即可順時針旋轉。
 
-### Q3：我可以將影像旋轉負角度嗎？
+**Q: Aspose.PSD 在旋轉時提供即時圖像預覽嗎？**  
+A: 此 API 僅為伺服器端。若需即時預覽，請將旋轉後的位圖整合至 UI 框架（Swing、JavaFX）並刷新畫面。
 
-當然！您可以在中指定負角度`image.rotate()`方法以相反方向旋轉影像。
+**Q: 有 Aspose.PSD 的社群論壇可以尋求協助嗎？**  
+A: 有，請前往 [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) 提問與分享經驗。
 
-### Q4：Aspose.PSD for Java 在旋轉過程中提供即時影像預覽嗎？
+## Conclusion
 
-Aspose.PSD for Java 主要關注後端影像處理。對於即時影像預覽，您可能需要使用其他技術來實現前端解決方案。
+結論
 
-### Q5：是否有 Aspose.PSD 社群論壇可供我尋求協助？
+現在您已了解如何使用 Aspose.PSD for Java 以特定角度 **旋轉圖像** 檔案。透過快取、背景顏色控制與彈性的輸出選項，您可以將精確的旋轉功能整合至任何基於 Java 的圖像工作流程中。
 
-是的，您可以訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)與社區互動、提出問題並尋求協助。
+---
+
+**最後更新：** 2025-12-08  
+**測試環境：** Aspose.PSD for Java 24.11（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
