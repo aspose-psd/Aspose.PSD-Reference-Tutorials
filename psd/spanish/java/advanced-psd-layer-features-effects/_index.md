@@ -134,13 +134,6 @@ Aprende a actualizar capas de texto en archivos PSD fácilmente usando Aspose.PS
 ### [Usar cargador de datos sin procesar personalizado en archivos PSD - Java](./use-custom-raw-data-loader-psd-files/)
 Aprende a usar un cargador de datos sin procesar personalizado en archivos PSD con Java! Esta guía paso a paso cubre todo, desde la configuración hasta la limpieza de recursos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q: ¿Necesito una licencia paga para usar Aspose.PSD for Java?**  
@@ -163,3 +156,10 @@ A: Usa la sobrecarga `Load` de la clase `PsdImage` con un `FileStream` y habilit
 **Última actualización:** 2025-12-08  
 **Probado con:** Aspose.PSD for Java 24.12 (última)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

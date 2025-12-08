@@ -134,13 +134,6 @@ Tanulja meg, hogyan frissítse könnyedén a szövegrétegeket PSD fájlokban az
 ### [Egyedi nyers adat betöltő használata PSD fájlokban – Java](./use-custom-raw-data-loader-psd-files/)
 Tanulja meg, hogyan használjon egyedi nyers adat betöltőt PSD fájlokban Java-val! Ez a lépésről‑lépésre útmutató mindent lefed a beállítástól a erőforrás tisztításáig.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q:** **Szükségem van fizetett licencre az Aspose.PSD for Java használatához?**  
@@ -163,3 +156,10 @@ Tanulja meg, hogyan használjon egyedi nyers adat betöltőt PSD fájlokban Java
 **Utoljára frissítve:** 2025-12-08  
 **Tesztelve ezzel:** Aspose.PSD for Java 24.12 (latest)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

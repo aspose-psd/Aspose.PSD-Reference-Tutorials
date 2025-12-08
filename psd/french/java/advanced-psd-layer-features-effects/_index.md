@@ -134,13 +134,6 @@ Apprenez à mettre à jour facilement les calques de texte dans les fichiers PSD
 ### [Utiliser un chargeur de données brutes personnalisé dans les fichiers PSD – Java](./use-custom-raw-data-loader-psd-files/)
 Apprenez à utiliser un chargeur de données brutes personnalisé dans les fichiers PSD avec Java ! Ce guide pas à pas couvre tout, de la configuration au nettoyage des ressources.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ
 
 **Q : Ai‑je besoin d’une licence payante pour utiliser Aspose.PSD for Java ?**  
@@ -163,3 +156,10 @@ R : Utilisez la surcharge `Load` de la classe `PsdImage` avec un `FileStream` 
 **Dernière mise à jour :** 2025-12-08  
 **Testé avec :** Aspose.PSD for Java 24.12 (dernière version)  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

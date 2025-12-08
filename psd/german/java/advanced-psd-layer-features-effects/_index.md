@@ -133,13 +133,6 @@ Erfahren Sie, wie Sie Text‑Ebenen in PSD‑Dateien einfach mit Aspose.PSD für
 ### [Benutzerdefinierten Raw‑Data‑Loader in PSD‑Dateien – Java verwenden](./use-custom-raw-data-loader-psd-files/)
 Lernen Sie, wie Sie einen benutzerdefinierten Raw‑Data‑Loader in PSD‑Dateien mit Java einsetzen! Dieses Schritt‑für‑Schritt‑Guide deckt alles ab, von der Einrichtung bis zur Ressourcen‑Bereinigung.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Benötige ich eine kostenpflichtige Lizenz, um Aspose.PSD für Java zu verwenden?**  
@@ -162,3 +155,11 @@ A: Verwenden Sie die Überladung `Load` der Klasse `PsdImage` mit einem `FileStr
 **Letzte Aktualisierung:** 2025-12-08  
 **Getestet mit:** Aspose.PSD für Java 24.12 (latest)  
 **Autor:** Aspose
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -98,13 +98,6 @@ Aspose.PSD for Java 旨在提供处理 PSD 文件的广泛功能，包括对各�
 ### [使用 Aspose.PSD Java 更新 PSD 文件中的文本图层](./update-text-layer-psd-files/)
 ### [在 PSD 文件中使用自定义原始数据加载器 - Java](./use-custom-raw-data-loader-psd-files/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我需要付费许可证才能使用 Aspose.PSD for Java 吗？**  
@@ -127,3 +120,10 @@ Aspose.PSD for Java 旨在提供处理 PSD 文件的广泛功能，包括对各�
 **Last Updated:** 2025-12-08  
 **Tested With:** Aspose.PSD for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

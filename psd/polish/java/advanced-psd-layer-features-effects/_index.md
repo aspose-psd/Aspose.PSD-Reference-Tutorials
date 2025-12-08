@@ -134,13 +134,6 @@ Naucz się łatwo aktualizować warstwy tekstowe w plikach PSD przy użyciu Aspo
 ### [Użyj własnego loadera danych raw w plikach PSD – Java](./use-custom-raw-data-loader-psd-files/)
 Naucz się używać własnego loadera danych raw w plikach PSD przy użyciu Javy! Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po czyszczenie zasobów.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Do I need a paid license to use Aspose.PSD for Java?**  
@@ -163,3 +156,10 @@ A: Use the `PsdImage` class’s `Load` overload with a `FileStream` and enable l
 **Last Updated:** 2025-12-08  
 **Tested With:** Aspose.PSD for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

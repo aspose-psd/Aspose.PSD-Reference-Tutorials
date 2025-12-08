@@ -152,13 +152,6 @@ Aspose.PSD for Java를 사용해 PSD 파일의 텍스트 레이어를 쉽게 업
 ### [Java - PSD 파일에서 Custom Raw Data Loader 사용](./use-custom-raw-data-loader-psd-files/)
 Java와 함께 PSD 파일에서 Custom Raw Data Loader를 사용하는 방법을 배우세요! 설정부터 리소스 정리까지 모든 과정을 단계별로 다룹니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: Aspose.PSD for Java를 사용하려면 유료 라이선스가 필요합니까?**  
@@ -181,3 +174,10 @@ A: `PsdImage` 클래스의 `Load` 오버로드를 `FileStream`과 함께 사용�
 **마지막 업데이트:** 2025-12-08  
 **테스트 환경:** Aspose.PSD for Java 24.12 (latest)  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

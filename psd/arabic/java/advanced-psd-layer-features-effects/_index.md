@@ -133,13 +133,6 @@ Aspose.PSD for Java لا يقتصر على تعزيز قدرات تحرير ال
 ### [استخدام محمل بيانات raw مخصص في ملفات PSD - Java](./use-custom-raw-data-loader-psd-files/)
 تعلم كيفية استخدام محمل بيانات raw مخصص في ملفات PSD مع Java! يغطي هذا الدليل خطوة بخطوة كل شيء من الإعداد إلى تنظيف الموارد.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل أحتاج إلى ترخيص مدفوع لاستخدام Aspose.PSD for Java؟**  
@@ -162,3 +155,10 @@ Aspose.PSD for Java لا يقتصر على تعزيز قدرات تحرير ال
 **آخر تحديث:** 2025-12-08  
 **تم الاختبار مع:** Aspose.PSD for Java 24.12 (الأحدث)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

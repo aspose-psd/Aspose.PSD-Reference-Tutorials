@@ -133,13 +133,6 @@ Naučte se snadno aktualizovat textové vrstvy v PSD souborech pomocí Aspose.PS
 ### [Použití vlastního načítače surových dat v PSD souborech – Java](./use-custom-raw-data-loader-psd-files/)
 Naučte se použít vlastní načítač surových dat v PSD souborech s Javou! Tento krok‑za‑krokem průvodce pokrývá vše od nastavení po úklid zdrojů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Potřebuji placenou licenci k použití Aspose.PSD for Java?**  
@@ -162,3 +155,10 @@ A: Použijte přetížení metody `Load` třídy `PsdImage` s `FileStream` a pov
 **Poslední aktualizace:** 2025-12-08  
 **Testováno s:** Aspose.PSD for Java 24.12 (nejnovější)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

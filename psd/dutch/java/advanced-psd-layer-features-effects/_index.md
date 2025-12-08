@@ -132,13 +132,6 @@ Leer hoe je tekstlagen in PSD‑bestanden eenvoudig bijwerkt met Aspose.PSD for 
 ### [Aangepaste raw‑data‑loader gebruiken in PSD‑bestanden – Java](./use-custom-raw-data-loader-psd-files/)
 Leer hoe je een aangepaste raw‑data‑loader gebruikt in PSD‑bestanden met Java! Deze stap‑voor‑stap gids behandelt alles van installatie tot resource‑opschoning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q: Heb ik een betaalde licentie nodig om Aspose.PSD for Java te gebruiken?**  
@@ -161,3 +154,10 @@ A: Gebruik de `Load`‑overload van de `PsdImage`‑klasse met een `FileStream` 
 **Laatst bijgewerkt:** 2025-12-08  
 **Getest met:** Aspose.PSD for Java 24.12 (latest)  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

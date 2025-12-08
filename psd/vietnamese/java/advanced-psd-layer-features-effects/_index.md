@@ -132,13 +132,6 @@ Học cách cập nhật lớp văn bản trong tệp PSD một cách dễ dàng
 ### [Use Custom Raw Data Loader in PSD Files - Java](./use-custom-raw-data-loader-psd-files/)
 Học cách sử dụng bộ tải dữ liệu thô tùy chỉnh trong tệp PSD với Java! Hướng dẫn chi tiết này bao gồm mọi thứ từ cài đặt đến dọn dẹp tài nguyên.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có cần giấy phép trả phí để sử dụng Aspose.PSD for Java không?**  
@@ -161,3 +154,10 @@ A: Sử dụng phương thức overload `Load` của lớp `PsdImage` cùng vớ
 **Cập nhật lần cuối:** 2025-12-08  
 **Đã kiểm tra với:** Aspose.PSD for Java 24.12 (mới nhất)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

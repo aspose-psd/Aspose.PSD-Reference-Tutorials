@@ -133,13 +133,6 @@ Aspose.PSD for Java を使用して PSD ファイルのテキストレイヤー�
 ### [Java で PSD ファイルのカスタム生データローダーを使用する](./use-custom-raw-data-loader-psd-files/)
 Java で PSD ファイルのカスタム生データローダーを使用する方法を学びます！このステップバイステップガイドは、セットアップからリソースのクリーンアップまでを網羅しています。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: Aspose.PSD for Java の使用に有料ライセンスは必要ですか？**  
@@ -162,3 +155,10 @@ A: `PsdImage` クラスの `Load` オーバーロードを `FileStream` と共�
 **最終更新日:** 2025-12-08  
 **テスト環境:** Aspose.PSD for Java 24.12 (latest)  
 **作成者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

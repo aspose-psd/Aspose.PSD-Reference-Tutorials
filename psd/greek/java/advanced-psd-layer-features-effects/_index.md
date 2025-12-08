@@ -134,13 +134,6 @@ weight: 24
 ### [Use Custom Raw Data Loader in PSD Files - Java](./use-custom-raw-data-loader-psd-files/)
 Μάθετε πώς να χρησιμοποιήσετε προσαρμοσμένο φορτωτή raw δεδομένων σε αρχεία PSD με Java! Αυτός ο βήμα‑βήμα οδηγός καλύπτει τα πάντα, από τη ρύθμιση μέχρι τον καθαρισμό πόρων.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Χρειάζομαι επί πληρωμή άδεια για να χρησιμοποιήσω το Aspose.PSD for Java;**  
@@ -163,3 +156,10 @@ A: Χρησιμοποιήστε την υπερφόρτωση `Load` της κλ
 **Τελευταία ενημέρωση:** 2025-12-08  
 **Δοκιμή με:** Aspose.PSD for Java 24.12 (τελευταία)  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

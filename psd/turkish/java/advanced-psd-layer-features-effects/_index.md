@@ -133,13 +133,6 @@ Aspose.PSD for Java kullanarak PSD dosyalarındaki metin katmanlarını kolayca 
 ### [Java ile PSD Dosyalarında Özel Ham Veri Yükleyicisi Kullanma](./use-custom-raw-data-loader-psd-files/)
 Java ile PSD dosyalarında özel bir ham veri yükleyicisini nasıl kullanacağınızı öğrenin! Bu adım adım rehber, kurulumdan kaynak temizliğine kadar her şeyi kapsar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.PSD for Java'yı kullanmak için ücretli bir lisansa ihtiyacım var mı?**  
@@ -162,3 +155,10 @@ C: `PsdImage` sınıfının `Load` aşırı yüklemesini bir `FileStream` ile ku
 **Son Güncelleme:** 2025-12-08  
 **Test Edilen Versiyon:** Aspose.PSD for Java 24.12 (latest)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

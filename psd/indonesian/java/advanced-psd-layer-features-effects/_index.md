@@ -134,13 +134,6 @@ Pelajari cara memperbarui lapisan teks dalam file PSD dengan mudah menggunakan A
 ### [Gunakan Custom Raw Data Loader dalam File PSD - Java](./use-custom-raw-data-loader-psd-files/)
 Pelajari cara menggunakan custom raw data loader dalam file PSD dengan Java! Panduan langkah‑demi‑langkah ini mencakup semua hal mulai dari penyiapan hingga pembersihan sumber daya.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah saya memerlukan lisensi berbayar untuk menggunakan Aspose.PSD for Java?**  
@@ -163,3 +156,10 @@ A: Gunakan overload `Load` kelas `PsdImage` dengan `FileStream` dan aktifkan laz
 **Last Updated:** 2025-12-08  
 **Tested With:** Aspose.PSD for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

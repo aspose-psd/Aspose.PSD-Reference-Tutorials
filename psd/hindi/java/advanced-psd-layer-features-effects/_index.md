@@ -150,13 +150,6 @@ Aspose.PSD for Java का उपयोग करके PSD फ़ाइलो�
 ### [Java में PSD फ़ाइलों में Custom Raw Data Loader का उपयोग करें](./use-custom-raw-data-loader-psd-files/)
 Java के साथ PSD फ़ाइलों में Custom Raw Data Loader का उपयोग कैसे करें, सीखें! यह चरण‑बद्ध गाइड सेटअप से लेकर रिसोर्स क्लीन‑अप तक सब कुछ कवर करता है।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मुझे Aspose.PSD for Java उपयोग करने के लिए भुगतान वाला लाइसेंस चाहिए?**  
@@ -177,3 +170,10 @@ A: `PsdImage` क्लास के `Load` ओवरलोड को `FileStrea
 **Last Updated:** 2025-12-08  
 **Tested With:** Aspose.PSD for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
