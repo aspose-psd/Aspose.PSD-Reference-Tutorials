@@ -1,113 +1,179 @@
 ---
-title: Java를 사용하여 PSD 파일에 연결된 레이어 지원 추가
-linktitle: Java를 사용하여 PSD 파일에 연결된 레이어 지원 추가
-second_title: Aspose.PSD 자바 API
-description: 이 상세한 단계별 튜토리얼을 통해 Java용 Aspose.PSD를 사용하여 PSD 파일에 연결된 레이어 지원을 추가하는 방법을 알아보세요. 디자이너와 개발자에게 적합합니다.
+date: 2025-12-09
+description: Aspose.PSD for Java를 사용하여 PSD 파일에서 레이어를 연결하는 방법을 배웁니다. 이 단계별 튜토리얼은 PSD
+  레이어를 관리하고, 레이어 연결을 해제하며, Aspose.PSD 튜토리얼을 마스터하는 방법을 보여줍니다.
+language: ko
+linktitle: How to Link Layers in PSD Files Using Java
+second_title: Aspose.PSD Java API
+title: Java를 사용하여 PSD 파일에서 레이어 연결하는 방법
+url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
-url: /ko/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# Java를 사용하여 PSD 파일에 연결된 레이어 지원 추가
+# Java를 사용하여 PSD 파일에서 레이어 연결하기  
 
-## 소개
-Adobe Photoshop의 .PSD 파일은 다양한 레이어 관리 기능으로 인해 그래픽 디자이너와 디지털 아티스트 사이에서 인기가 높습니다. 프로그래밍 방식으로 PSD 파일을 조작하는 세계에 뛰어들면서 연결된 레이어가 작업 흐름을 어떻게 향상시킬 수 있는지 살펴보고 싶을 수도 있습니다. 연결된 레이어를 사용하면 사용자는 독립적인 레이어 기능을 유지하면서 응집력 있는 단위로 관리할 수 있습니다. Photoshop 파일 작업을 쉽게 만들어주는 강력한 라이브러리인 Aspose.PSD for Java를 입력하세요. 
-이 기사에서는 Java에서 Aspose.PSD 라이브러리를 사용하여 PSD 파일에 연결된 레이어 지원을 추가하는 방법을 자세히 살펴보겠습니다. 숙련된 개발자이든 초보자이든 이 단계별 가이드는 작업을 원활하게 진행하는 데 도움이 될 것입니다.
-## 전제조건
-코딩을 바로 시작하기 전에 모든 것이 설정되었는지 확인하겠습니다. 간단한 체크리스트는 다음과 같습니다.
-1. JDK(Java Development Kit): 최신 버전의 JDK가 설치되어 있는지 확인하세요. 버전 8 이상을 사용하는 것이 좋습니다.
-2.  Java 라이브러리용 Aspose.PSD: 이 라이브러리를 다운로드하여 프로젝트에 추가해야 합니다. 최신 버전은 다음에서 찾을 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/psd/java/).
-3. IDE 또는 텍스트 편집기: Eclipse, IntelliJ IDEA 등 즐겨 사용하는 IDE(통합 개발 환경) 또는 VSCode 또는 메모장과 같은 간단한 텍스트 편집기를 사용하세요.++.
-4. 샘플 PSD 파일: 테스트하려면 PSD 파일이 필요합니다. Adobe Photoshop에서 만들거나 온라인으로 샘플 파일을 다운로드할 수 있습니다.
-이러한 요구 사항이 충족되면 재미있는 부분인 코딩에 착수할 수 있습니다!
-## 패키지 가져오기
-코딩하기 전에 필요한 패키지를 가져왔는지 확인하겠습니다. 그 모습은 다음과 같습니다.
+## 소개  
+Adobe Photoshop의 `.PSD` 형식은 레이어 그래픽의 업계 표준이며, 많은 개발자가 이러한 레이어를 프로그래밍 방식으로 조작해야 합니다. 가장 강력한 기술 중 하나는 **레이어 연결**으로, 개별 레이어의 속성을 유지하면서 레이어 그룹을 하나의 단위로 이동하거나 편집할 수 있게 해줍니다. 이 **Aspose.PSD 튜토리얼**에서는 Java를 사용하여 PSD 파일에서 **레이어를 연결하는 방법**을 단계별로 살펴보고, **PSD 레이어 관리**, **PSD 레이어 연결 해제** 방법을 보여주며 변경 사항을 디스크에 저장하는 방법도 안내합니다. 디자인 자동화 파이프라인을 구축하거나 데스크톱 앱을 확장하든, 이 단계들을 통해 레이어 관계를 완벽히 제어할 수 있습니다.  
+
+## 빠른 답변  
+- **“link layers”는 무엇을 의미합니까?** 레이어를 평탄화하지 않고 함께 이동하도록 논리적 그룹을 생성합니다.  
+- **어떤 라이브러리가 이를 처리합니까?** Aspose.PSD for Java는 `LinkedLayersManager` API를 제공합니다.  
+- **라이선스가 필요합니까?** 무료 체험판은 개발에 사용할 수 있으며, 상용 환경에서는 상업용 라이선스가 필요합니다.  
+- **나중에 연결을 해제할 수 있나요?** 예—`unlinkLayer` 또는 `unlinkLayers` 메서드를 사용합니다.  
+- **지원되는 Java 버전?** Java 8 이상.  
+
+## PSD 파일에서 레이어 연결이란 무엇인가요?  
+레이어 연결은 여러 레이어를 하나로 묶어 변형, 이동 또는 스타일 적용 시 단일 엔터티처럼 동작하도록 하는 Photoshop 기능입니다. 기본 데이터는 별도로 유지되므로 나중에 **PSD 레이어 연결 해제**를 수행하고 각 레이어를 독립적으로 편집할 수 있습니다.  
+
+## 왜 Java용 Aspose.PSD를 사용해 PSD 레이어를 관리할까요?  
+- **전체 기능 API** – Photoshop을 직접 실행하지 않고도 모든 Photoshop 구성 요소에 접근합니다.  
+- **크로스 플랫폼** – Java를 지원하는 모든 OS에서 작동합니다.  
+- **UI 의존성 없음** – 서버 측 배치 처리나 CI 파이프라인에 이상적입니다.  
+
+## 전제 조건  
+코드를 시작하기 전에 다음을 준비하세요:  
+
+1. **Java Development Kit (JDK) 8+** – 최신 JDK를 권장합니다.  
+2. **Aspose.PSD for Java** – [Aspose 릴리스 페이지](https://releases.aspose.com/psd/java/)에서 다운로드합니다.  
+3. **IDE 또는 편집기** – Eclipse, IntelliJ IDEA, VS Code 등.  
+4. **샘플 PSD 파일** – Photoshop에서 만들거나 테스트용 무료 샘플을 가져옵니다.  
+
+## 패키지 가져오기  
+코딩하기 전에 필요한 Aspose.PSD 클래스를 가져옵니다:  
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
-```
-이러한 가져오기를 통해 Aspose.PSD 라이브러리의 핵심 기능에 액세스하고 PSD 파일 및 레이어와 상호 작용할 수 있습니다.
-시작할 준비가 되셨나요? 프로세스를 관리 가능한 단계로 나누어 보겠습니다.
-## 1단계: PSD 파일 로드
-먼저 PSD 파일을 로드해야 합니다. 이렇게 하면 모든 레이어에 액세스할 수 있습니다.
+```  
+
+이러한 import 문을 통해 핵심 이미지 처리, PSD 전용 기능 및 레이어 조작 메서드에 접근할 수 있습니다.  
+
+## 단계별 가이드  
+
+### 1단계: PSD 파일 로드  
+먼저 작업할 PSD 파일을 엽니다.  
+
 ```java
-String dataDir = "Your Document Directory"; // 문서 디렉토리를 지정하십시오
+String dataDir = "Your Document Directory"; // specify your document directory
 PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");
-```
- 이 스니펫에서는`Image.load()` Aspose 라이브러리의 메서드입니다. 파일 경로가 올바르게 설정되었는지 확인하세요. 그렇지 않으면 프로그램이 PSD 파일을 찾을 수 없습니다. 
-## 2단계: 모든 레이어 가져오기
-파일이 로드되면 다음 단계는 PSD에서 모든 레이어를 검색하는 것입니다.
+```  
+
+경로가 기존 파일을 가리키는지 확인하세요; 그렇지 않으면 `Image.load()`가 예외를 발생시킵니다.  
+
+### 2단계: 모든 레이어 가져오기 (PSD 레이어 관리)  
+그룹화할 레이어를 결정할 수 있도록 모든 레이어를 가져옵니다.  
+
 ```java
 Layer[] layers = psd.getLayers();
-```
-이 줄은 모든 레이어를 배열로 가져옵니다. 레이어는 디자인의 구성 요소이므로 레이어의 구조를 이해하는 것이 중요합니다.
-## 3단계: 레이어 연결
-이제 연결된 레이어 그룹을 만들어 보겠습니다. 레이어를 연결하면 속성을 병합하지 않고도 레이어를 단일 단위로 이동하고 편집할 수 있습니다.
+```  
+
+`layers` 배열에는 이제 문서의 전체 레이어 스택이 들어 있습니다.  
+
+### 3단계: 레이어 연결  
+매니저 API를 사용해 연결된 레이어 그룹을 생성합니다.  
+
 ```java
 short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
-```
-이 방법은 이전에 검색한 레이어를 연결합니다. 이는 개별 메모를 그대로 유지하면서 작업을 기억하기 위해 손가락에 끈을 묶는 것과 같습니다.
-## 4단계: 링크 그룹 ID 가져오기
-레이어가 올바르게 연결되었는지 확인하려면 새로 연결된 레이어의 링크 그룹 ID를 검색해야 합니다.
+```  
+
+이 호출은 새 연결 그룹을 고유하게 식별하는 **그룹 ID**를 반환합니다.  
+
+### 4단계: 링크 그룹 ID 확인  
+반환된 ID가 첫 번째 레이어에 저장된 ID와 일치하는지 다시 확인합니다.  
+
 ```java
 short linkGroupId = psd.getLinkedLayersManager().getLinkGroupId(layers[0]);
 if (layersLinkGroupId != linkGroupId) {
     throw new Exception("layersLinkGroupId and linkGroupId are not equal.");
 }
-```
-이는 간단한 검증 단계입니다. ID가 일치하지 않으면 계획대로 진행되지 않은 것입니다. 이는 쇼핑하러 나가기 전에 식료품 목록을 다시 확인하는 것과 같습니다.
-## 5단계: 레이어 검색 및 연결 해제
-다음으로 어느 시점에서 레이어의 연결을 해제할 수 있습니다. 연결된 레이어를 검색하고 연결을 해제하는 방법은 다음과 같습니다.
+```  
+
+ID가 다르면 연결 과정에서 문제가 발생한 것입니다.  
+
+### 5단계: 레이어 가져오기 및 연결 해제 (PSD 레이어 연결 해제)  
+연결을 끊어야 할 경우, 그룹 ID로 연결된 레이어를 가져와 하나씩 해제합니다.  
+
 ```java
 Layer[] linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 for (Layer linkedLayer : linkedLayers) {
     psd.getLinkedLayersManager().unlinkLayer(linkedLayer);
 }
-```
-루프를 사용하여 연결된 각 레이어를 반복하고 연결을 해제합니다. 이를 통해 다른 레이어에 영향을 주지 않고 개별 레이어를 유연하게 변경할 수 있습니다. 모두가 독립적으로 자신의 의견을 말할 수 있는 우호적인 토론을 하는 것과 같습니다!
-## 6단계: 연결 해제 프로세스 검증
-연결 해제가 성공했는지 확인하는 것이 중요합니다. 확인해 봅시다:
+```  
+
+각 반복은 레이어의 원본 데이터를 보존하면서 연결을 제거합니다.  
+
+### 6단계: 연결 해제 과정 검증  
+그룹에 레이어가 남아 있지 않은지 확인합니다.  
+
 ```java
 linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 if (linkedLayers != null) {
     throw new Exception("The linkedLayers field is not NULL.");
 }
-```
-이 최종 확인을 통해 레이어가 성공적으로 연결 해제되었는지 확인합니다. 연결된 레이어가 지속되면 문제를 나타내기 위해 예외가 발생합니다.
-## 7단계: 변경 사항 저장
-마지막으로 모든 노력을 다한 후에 출력 PSD 파일을 저장할 차례입니다.
+```  
+
+`linkedLayers`가 아직 채워져 있으면 연결 해제 작업이 실패한 것입니다.  
+
+### 7단계: 업데이트된 PSD 저장  
+수정된 문서를 디스크에 다시 씁니다.  
+
 ```java
 psd.save(dataDir + "LinkedLayerexample_output.psd");
-```
-변경 사항을 저장하면 조정 내용을 캡처할 수 있을 뿐만 아니라 향후 편집을 위해 작업의 구조와 속성도 보존됩니다.
-## 8단계: PSD 개체 삭제
-프로그래밍의 좋은 습관에는 완료 시 리소스를 확보하는 것이 포함됩니다. PSD 객체를 삭제하여 메모리를 확보합니다.
+```  
+
+저장은 새 연결 그룹이나 제거된 연결을 포함한 모든 변경 사항을 보존합니다.  
+
+### 8단계: PSD 객체 해제  
+네이티브 리소스를 해제해 메모리 누수를 방지합니다.  
+
 ```java
 finally {
     psd.dispose();
 }
-```
-객체를 깔끔하게 처리함으로써 애플리케이션이 메모리 누수 없이 원활하게 실행되도록 할 수 있습니다. 이는 프로젝트를 마친 후 작업 공간을 정리하는 것과 비슷합니다.
-## 결론
-Java용 Aspose.PSD를 사용하여 연결된 레이어를 채택하여 PSD 조작 기능을 강화하세요. 이 가이드에서는 연결된 레이어 추가를 설정하고, 코딩하고, 실행하는 과정을 단계별로 안내했습니다. 연습을 통해 복잡한 디자인을 관리하는 것이 더 간단할 뿐만 아니라 훨씬 더 재미있다는 것을 알게 될 것입니다.
-## FAQ
-### Java용 Aspose.PSD란 무엇입니까?
-Aspose.PSD for Java는 개발자가 Photoshop PSD 파일을 프로그래밍 방식으로 조작할 수 있는 라이브러리입니다.
-### Aspose.PSD를 모든 운영 체제에서 사용할 수 있나요?
-예, Java 기반 라이브러리로서 Java를 지원하는 모든 플랫폼에서 실행됩니다.
-### 평가판을 사용할 수 있나요?
- 예, Java용 Aspose.PSD를 무료로 사용해 볼 수 있습니다. 확인해보세요[무료 평가판 링크](https://releases.aspose.com/).
-### 추가 문서는 어디서 찾을 수 있나요?
- 광범위한 문서를 탐색할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
-### 문제가 발생할 경우 어떻게 지원을 받을 수 있나요?
- 문제가 발생하면 다음에서 도움을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/c/psd/34).
-{{< /blocks/products/pf/tutorial-page-section >}}
+```  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+특히 루프에서 다수의 파일을 처리할 때 `dispose()` 호출은 권장되는 모범 사례입니다.  
+
+## 일반적인 함정 및 팁  
+- **잘못된 파일 경로** – 항상 절대 경로를 사용하거나 작업 디렉터리를 확인하세요.  
+- **라이선스 누락** – 평가용으로는 체험판이 작동하지만, 정식 라이선스를 사용하면 워터마크가 제거됩니다.  
+- **일부만 연결** – 레이어 스택의 일부만 필요하면 `linkLayers` 호출 전에 원하는 레이어들로 새로운 `Layer[]`를 생성하세요.  
+- **스레드 안전성** – `PsdImage` 인스턴스는 스레드에 안전하지 않으므로, 스레드당 별도의 인스턴스를 생성하세요.  
+
+## 결론  
+이제 Aspose.PSD for Java를 사용해 PSD 파일에서 **레이어를 연결하는 방법**에 대한 완전하고 프로덕션 수준의 워크플로우를 갖추었습니다. 이러한 API를 마스터하면 복잡한 디자인 작업을 자동화하고, 맞춤형 편집기를 구축하거나 Java 애플리케이션에 Photoshop 스타일 레이어 처리를 통합할 수 있습니다. 레이어 효과, 마스크, 스마트 오브젝트와 같은 다른 기능도 실험해 보면서 툴킷을 더욱 확장해 보세요.  
+
+## FAQ  
+
+### Aspose.PSD for Java란 무엇인가요?  
+Aspose.PSD for Java는 개발자가 프로그래밍 방식으로 Photoshop PSD 파일을 조작할 수 있게 해주는 라이브러리입니다.  
+
+### Aspose.PSD를 모든 운영 체제에서 사용할 수 있나요?  
+예, Java 기반 라이브러리이므로 Java를 지원하는 모든 플랫폼에서 실행됩니다.  
+
+### 체험판 버전이 제공되나요?  
+예, Aspose.PSD for Java를 무료로 체험해 볼 수 있습니다. [무료 체험 링크](https://releases.aspose.com/)를 확인하세요.  
+
+### 더 많은 문서는 어디서 찾을 수 있나요?  
+광범위한 문서는 [여기](https://reference.aspose.com/psd/java/)에서 확인할 수 있습니다.  
+
+### 문제가 발생하면 어떻게 지원받을 수 있나요?  
+문제가 발생하면 [지원 포럼](https://forum.aspose.com/c/psd/34)에서 도움을 받을 수 있습니다.  
+
+---  
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}  
+
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}

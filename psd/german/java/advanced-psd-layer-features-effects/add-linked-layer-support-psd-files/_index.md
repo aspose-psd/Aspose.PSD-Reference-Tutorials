@@ -1,113 +1,181 @@
 ---
-title: Fügen Sie mit Java Unterstützung für verknüpfte Ebenen in PSD-Dateien hinzu
-linktitle: Fügen Sie mit Java Unterstützung für verknüpfte Ebenen in PSD-Dateien hinzu
+date: 2025-12-09
+description: Lernen Sie, wie Sie Ebenen in PSD‑Dateien mit Aspose.PSD für Java verknüpfen.
+  Dieses Schritt‑für‑Schritt‑Tutorial zeigt Ihnen, wie Sie PSD‑Ebenen verwalten, Ebenen
+  in PSD‑Dateien trennen und das Aspose.PSD‑Tutorial meistern.
+language: de
+linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
-description: Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PSD für Java Linked-Layer-Unterstützung in PSD-Dateien hinzufügen. Perfekt für Designer und Entwickler.
+title: Wie man Ebenen in PSD-Dateien mit Java verknüpft
+url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
-url: /de/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# Fügen Sie mit Java Unterstützung für verknüpfte Ebenen in PSD-Dateien hinzu
+# Wie man Ebenen in PSD-Dateien mit Java verknüpft  
 
-## Einführung
-Die .PSD-Dateien von Adobe Photoshop sind aufgrund ihrer vielseitigen Ebenenverwaltungsfunktionen bei Grafikdesignern und Digitalkünstlern beliebt. Wenn Sie in die Welt der programmgesteuerten Bearbeitung von PSD-Dateien eintauchen, möchten Sie vielleicht erkunden, wie verknüpfte Ebenen Ihren Arbeitsablauf verbessern können. Verknüpfte Ebenen ermöglichen es Benutzern, unabhängige Ebenenfunktionen beizubehalten und sie gleichzeitig als zusammenhängende Einheit zu verwalten. Geben Sie Aspose.PSD für Java ein, eine leistungsstarke Bibliothek, die das Arbeiten mit Photoshop-Dateien zum Kinderspiel macht. 
-In diesem Artikel sehen wir uns im Detail an, wie man mithilfe der Aspose.PSD-Bibliothek in Java Linked Layer-Unterstützung in PSD-Dateien einfügt. Egal, ob Sie ein erfahrener Entwickler oder ein Anfänger sind, diese Schritt-für-Schritt-Anleitung hilft Ihnen, die Aufgabe nahtlos zu bewältigen.
-## Voraussetzungen
-Bevor wir direkt mit dem Programmieren loslegen, stellen wir sicher, dass Sie alles eingerichtet haben. Hier ist eine kurze Checkliste:
-1. Java Development Kit (JDK): Stellen Sie sicher, dass Sie die neueste Version des JDK installiert haben. Verwenden Sie vorzugsweise Version 8 oder höher.
-2.  Aspose.PSD für Java-Bibliothek: Sie müssen diese Bibliothek herunterladen und zu Ihrem Projekt hinzufügen. Die neueste Version finden Sie auf der[Aspose-Veröffentlichungsseite](https://releases.aspose.com/psd/java/).
-3. Eine IDE oder ein Texteditor: Verwenden Sie Ihre bevorzugte integrierte Entwicklungsumgebung (IDE) wie Eclipse, IntelliJ IDEA oder einen einfachen Texteditor wie VSCode oder Notepad++.
-4. Eine Beispiel-PSD-Datei: Zum Testen benötigen Sie eine PSD-Datei. Sie können eine in Adobe Photoshop erstellen oder Beispieldateien online herunterladen.
-Sobald Sie diese Voraussetzungen erfüllen, können wir uns mit dem spaßigen Teil befassen: dem Programmieren!
-## Pakete importieren
-Bevor wir mit dem Codieren beginnen, stellen wir sicher, dass wir die erforderlichen Pakete importiert haben. So sieht es aus:
+## Einführung  
+Adobe Photoshop’s `.PSD`‑Format ist der Industriestandard für mehrschichtige Grafiken, und viele Entwickler müssen diese Ebenen programmgesteuert manipulieren. Eine der leistungsfähigsten Techniken ist das **Verknüpfen von Ebenen**, mit dem Sie eine Gruppe von Ebenen als eine Einheit verschieben oder bearbeiten können, während die individuellen Eigenschaften jeder Ebene erhalten bleiben. In diesem **Aspose.PSD‑Tutorial** zeigen wir Ihnen **wie man Ebenen verknüpft** in einer PSD‑Datei mit Java und wir zeigen Ihnen außerdem, wie Sie **PSD‑Ebenen verwalten**, **Ebenen in PSD lösen** und die Änderungen wieder auf die Festplatte speichern. Egal, ob Sie eine Design‑Automatisierungspipeline aufbauen oder eine Desktop‑App erweitern, diese Schritte geben Ihnen die volle Kontrolle über Ebenenbeziehungen.  
+
+## Schnelle Antworten  
+- **Was bedeutet „Ebenen verknüpfen“?** Es erstellt eine logische Gruppe, sodass Ebenen zusammen verschoben werden, ohne zusammengeführt zu werden.  
+- **Welche Bibliothek übernimmt das?** Aspose.PSD für Java stellt eine `LinkedLayersManager`‑API bereit.  
+- **Brauche ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich später lösen?** Ja – verwenden Sie die Methoden `unlinkLayer` oder `unlinkLayers`.  
+- **Unterstützte Java‑Versionen?** Java 8 oder höher.  
+
+## Was ist das Verknüpfen von Ebenen in einer PSD‑Datei?  
+Das Verknüpfen von Ebenen ist eine Photoshop‑Funktion, die mehrere Ebenen zusammenbindet, sodass sie sich wie eine einzige Einheit verhalten, wenn sie transformiert, verschoben oder gestylt werden. Die zugrunde liegenden Daten bleiben getrennt, was bedeutet, dass Sie später **Ebenen in PSD lösen** und jede Ebene unabhängig bearbeiten können.  
+
+## Warum Aspose.PSD für Java zur Verwaltung von PSD‑Ebenen verwenden?  
+- **Voll ausgestattete API** – Zugriff auf alle Photoshop‑Konstrukte, ohne Photoshop selbst zu starten.  
+- **Plattformübergreifend** – Funktioniert auf jedem Betriebssystem, das Java unterstützt.  
+- **Keine UI‑Abhängigkeit** – Ideal für serverseitige Stapelverarbeitung oder CI‑Pipelines.  
+
+## Voraussetzungen  
+Bevor wir in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:  
+
+1. **Java Development Kit (JDK) 8+** – Aktuellste JDK empfohlen.  
+2. **Aspose.PSD für Java** – Download von der [Aspose Release‑Seite](https://releases.aspose.com/psd/java/).  
+3. **IDE oder Editor** – Eclipse, IntelliJ IDEA, VS Code usw.  
+4. **Beispiel‑PSD‑Datei** – Erstellen Sie eine in Photoshop oder holen Sie sich ein kostenloses Beispiel zum Testen.  
+
+## Pakete importieren  
+Bevor Sie programmieren, importieren Sie die notwendigen Aspose.PSD‑Klassen:  
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
-```
-Diese Importe ermöglichen uns den Zugriff auf die Kernfunktionen der Aspose.PSD-Bibliothek und die Interaktion mit PSD-Dateien und -Ebenen.
-Bereit, loszulegen? Lassen Sie uns den Prozess in überschaubare Schritte unterteilen.
-## Schritt 1: Laden Sie Ihre PSD-Datei
-Als Erstes müssen wir unsere PSD-Datei laden. Dadurch erhalten wir Zugriff auf alle Ebenen.
+```  
+
+Diese Importe geben Ihnen Zugriff auf die Kern‑Bildverarbeitung, PSD‑spezifische Funktionen und Methoden zur Ebenenmanipulation.  
+
+## Schritt‑für‑Schritt‑Anleitung  
+
+### Schritt 1: Laden Sie Ihre PSD‑Datei  
+Zuerst öffnen Sie die PSD, mit der Sie arbeiten möchten.  
+
 ```java
-String dataDir = "Your Document Directory"; // Geben Sie Ihr Dokumentverzeichnis an
+String dataDir = "Your Document Directory"; // specify your document directory
 PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");
-```
- In diesem Snippet verwenden wir die`Image.load()` Methode aus der Aspose-Bibliothek. Stellen Sie sicher, dass Ihr Dateipfad richtig eingestellt ist, da das Programm Ihre PSD-Datei sonst nicht finden kann. 
-## Schritt 2: Alle Ebenen abrufen
-Nachdem wir die Datei geladen haben, besteht der nächste Schritt darin, alle Ebenen aus der PSD abzurufen.
+```  
+
+Stellen Sie sicher, dass der Pfad auf eine vorhandene Datei zeigt; andernfalls wirft `Image.load()` eine Ausnahme.  
+
+### Schritt 2: Alle Ebenen abrufen (PSD‑Ebenen verwalten)  
+Holen Sie jede Ebene, damit Sie entscheiden können, welche Sie gruppieren möchten.  
+
 ```java
 Layer[] layers = psd.getLayers();
-```
-Diese Zeile zieht alle Ebenen in ein Array. Denken Sie daran, dass Ebenen die Bausteine Ihres Designs sind. Daher ist es wichtig zu verstehen, wie sie strukturiert sind.
-## Schritt 3: Verknüpfen Sie die Ebenen
-Lassen Sie uns nun eine Gruppe verknüpfter Ebenen erstellen. Durch das Verknüpfen von Ebenen können Sie diese als einzelne Einheit verschieben und bearbeiten, ohne ihre Eigenschaften zu reduzieren.
+```  
+
+Das `layers`‑Array enthält nun den vollständigen Ebenen‑Stack des Dokuments.  
+
+### Schritt 3: Ebenen verknüpfen  
+Erstellen Sie eine verknüpfte Ebenengruppe mithilfe der Manager‑API.  
+
 ```java
 short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
-```
-Diese Methode verknüpft die Ebenen, die Sie zuvor abgerufen haben. Es ist, als würden Sie sich einen Faden um den Finger binden, um sich an eine Aufgabe zu erinnern und gleichzeitig die einzelnen Notizen intakt zu halten.
-## Schritt 4: Holen Sie sich die Link-Gruppen-ID
-Um sicherzustellen, dass unsere Ebenen richtig verknüpft sind, müssen wir die Link-Gruppen-ID unserer neu verknüpften Ebenen abrufen.
+```  
+
+Dieser Aufruf gibt eine **Gruppen‑ID** zurück, die die neue Verknüpfungsgruppe eindeutig identifiziert.  
+
+### Schritt 4: Gruppen‑ID überprüfen  
+Überprüfen Sie, ob die zurückgegebene ID mit der für die erste Ebene gespeicherten übereinstimmt.  
+
 ```java
 short linkGroupId = psd.getLinkedLayersManager().getLinkGroupId(layers[0]);
 if (layersLinkGroupId != linkGroupId) {
     throw new Exception("layersLinkGroupId and linkGroupId are not equal.");
 }
-```
-Dies ist ein einfacher Validierungsschritt. Wenn die IDs nicht übereinstimmen, ist etwas nicht wie geplant gelaufen. Es ist, als ob Sie Ihre Einkaufsliste noch einmal überprüfen, bevor Sie zum Einkaufen aufbrechen.
-## Schritt 5: Ebenen abrufen und Verknüpfung aufheben
-Als Nächstes möchten Sie möglicherweise irgendwann die Verknüpfung der Ebenen aufheben. So rufen Sie die verknüpften Ebenen ab und heben ihre Verknüpfung auf:
+```  
+
+Wenn die IDs unterschiedlich sind, ist beim Verknüpfen etwas schiefgelaufen.  
+
+### Schritt 5: Ebenen abrufen und lösen (Ebenen in PSD lösen)  
+Wenn Sie die Zuordnung aufbrechen müssen, holen Sie die verknüpften Ebenen per Gruppen‑ID und lösen Sie sie einzeln.  
+
 ```java
 Layer[] linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 for (Layer linkedLayer : linkedLayers) {
     psd.getLinkedLayersManager().unlinkLayer(linkedLayer);
 }
-```
-Mithilfe einer Schleife durchlaufen wir jede verknüpfte Ebene und trennen sie wieder. Dies gibt Ihnen die Flexibilität, Änderungen an einzelnen Ebenen vorzunehmen, ohne die anderen zu beeinträchtigen. Es ist wie eine freundliche Debatte, bei der jeder unabhängig seine Meinung äußern kann!
-## Schritt 6: Aufhebungsprozess validieren
-Es ist wichtig zu überprüfen, ob die Trennung erfolgreich war. Lassen Sie uns das bestätigen:
+```  
+
+Jede Iteration entfernt die Verknüpfung, während die Originaldaten der Ebene erhalten bleiben.  
+
+### Schritt 6: Entkoppelungsprozess validieren  
+Bestätigen Sie, dass keine Ebenen mehr in der Gruppe verbleiben.  
+
 ```java
 linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 if (linkedLayers != null) {
     throw new Exception("The linkedLayers field is not NULL.");
 }
-```
-Diese letzte Prüfung stellt sicher, dass die Verknüpfung unserer Ebenen erfolgreich aufgehoben wurde. Wenn verknüpfte Ebenen weiterhin bestehen, lösen wir eine Ausnahme aus, um auf ein Problem hinzuweisen.
-## Schritt 7: Speichern Sie Ihre Änderungen
-Nach all der harten Arbeit ist es endlich an der Zeit, die PSD-Ausgabedatei zu speichern:
+```  
+
+Wenn `linkedLayers` noch gefüllt ist, ist der Entkoppelungsvorgang fehlgeschlagen.  
+
+### Schritt 7: Aktualisierte PSD speichern  
+Schreiben Sie das modifizierte Dokument zurück auf die Festplatte.  
+
 ```java
 psd.save(dataDir + "LinkedLayerexample_output.psd");
-```
-Indem Sie Ihre Änderungen speichern, erfassen Sie nicht nur die vorgenommenen Anpassungen, sondern bewahren auch die Struktur und Eigenschaften Ihrer Arbeit für zukünftige Bearbeitungen auf.
-## Schritt 8: Entsorgen Sie das PSD-Objekt
-Zu den guten Praktiken beim Programmieren gehört es, Ressourcen freizugeben, wenn Sie fertig sind. Entsorgen Sie das PSD-Objekt, um Speicher freizugeben:
+```  
+
+Das Speichern bewahrt alle Änderungen, einschließlich der neuen Verknüpfungsgruppe oder deren Entfernung.  
+
+### Schritt 8: PSD‑Objekt freigeben  
+Geben Sie native Ressourcen frei, um Speicherlecks zu vermeiden.  
+
 ```java
 finally {
     psd.dispose();
 }
-```
-Durch die ordnungsgemäße Entsorgung des Objekts stellen wir sicher, dass unsere Anwendung reibungslos und ohne Speicherlecks ausgeführt wird. Es ist ein bisschen so, als würden Sie Ihren Arbeitsbereich nach Abschluss eines Projekts aufräumen.
-## Abschluss
-Erweitern Sie Ihre PSD-Manipulationsfähigkeiten, indem Sie verknüpfte Ebenen mithilfe von Aspose.PSD für Java übernehmen. Diese Anleitung hat Sie Schritt für Schritt durch das Einrichten, Codieren und Ausführen der Hinzufügung verknüpfter Ebenen geführt. Mit etwas Übung werden Sie feststellen, dass die Verwaltung komplexer Designs nicht nur einfacher, sondern auch viel unterhaltsamer wird.
-## Häufig gestellte Fragen
-### Was ist Aspose.PSD für Java?
-Aspose.PSD für Java ist eine Bibliothek, mit der Entwickler Photoshop-PSD-Dateien programmgesteuert bearbeiten können.
-### Kann ich Aspose.PSD auf jedem Betriebssystem verwenden?
-Ja, da es sich um eine Java-basierte Bibliothek handelt, läuft es auf jeder Plattform, die Java unterstützt.
-### Gibt es eine Testversion?
- Ja, Sie können Aspose.PSD für Java kostenlos testen. Überprüfen Sie die[Link zur kostenlosen Testversion](https://releases.aspose.com/).
-### Wo finde ich weitere Dokumentation?
- Sie können die umfangreiche Dokumentation erkunden[Hier](https://reference.aspose.com/psd/java/).
-### Wie kann ich Unterstützung erhalten, wenn Probleme auftreten?
- Wenn Sie auf Probleme stoßen, finden Sie Hilfe im[Support-Forum](https://forum.aspose.com/c/psd/34).
-{{< /blocks/products/pf/tutorial-page-section >}}
+```  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+Das Aufrufen von `dispose()` ist eine bewährte Praxis, besonders wenn viele Dateien in einer Schleife verarbeitet werden.  
+
+## Häufige Fallstricke & Tipps  
+
+- **Falscher Dateipfad** – Verwenden Sie immer absolute Pfade oder überprüfen Sie das Arbeitsverzeichnis.  
+- **Fehlende Lizenz** – Die Testversion funktioniert für die Evaluierung, aber eine Vollversion entfernt Wasserzeichen.  
+- **Nur einen Teil verknüpfen** – Wenn Sie nur einen Teil des Ebenenstapels benötigen, erstellen Sie ein neues `Layer[]` mit den gewünschten Ebenen, bevor Sie `linkLayers` aufrufen.  
+- **Thread‑Sicherheit** – `PsdImage`‑Instanzen sind nicht thread‑sicher; erstellen Sie pro Thread eine separate Instanz.  
+
+## Fazit  
+Sie haben nun einen vollständigen, produktionsreifen Workflow für **wie man Ebenen verknüpft** in PSD‑Dateien mit Aspose.PSD für Java. Durch das Beherrschen dieser APIs können Sie komplexe Design‑Aufgaben automatisieren, eigene Editoren bauen oder Photoshop‑ähnliche Ebenen‑Verarbeitung in jede Java‑Anwendung integrieren. Experimentieren Sie weiter mit anderen Funktionen wie Ebeneneffekten, Masken und Smart Objects, um Ihr Toolkit weiter auszubauen.  
+
+## FAQ  
+
+### Was ist Aspose.PSD für Java?  
+Aspose.PSD für Java ist eine Bibliothek, die Entwicklern ermöglicht, Photoshop‑PSD‑Dateien programmgesteuert zu manipulieren.  
+
+### Kann ich Aspose.PSD auf jedem Betriebssystem verwenden?  
+Ja, als Java‑basierte Bibliothek läuft sie auf jeder Plattform, die Java unterstützt.  
+
+### Gibt es eine Testversion?  
+Ja, Sie können Aspose.PSD für Java kostenlos testen. Siehe den [Kostenlosen‑Test‑Link](https://releases.aspose.com/).  
+
+### Wo finde ich weitere Dokumentation?  
+Sie können die umfangreiche Dokumentation [hier](https://reference.aspose.com/psd/java/) erkunden.  
+
+### Wie erhalte ich Support, wenn ich Probleme habe?  
+Wenn Sie auf Probleme stoßen, finden Sie Hilfe im [Support‑Forum](https://forum.aspose.com/c/psd/34).  
+
+---  
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}  
+
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}

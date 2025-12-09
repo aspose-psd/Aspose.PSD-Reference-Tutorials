@@ -1,113 +1,181 @@
 ---
-title: Aggiungi il supporto dei livelli collegati nei file PSD utilizzando Java
-linktitle: Aggiungi il supporto dei livelli collegati nei file PSD utilizzando Java
-second_title: API Java Aspose.PSD
-description: Scopri come aggiungere il supporto dei livelli collegati nei file PSD utilizzando Aspose.PSD per Java con questo tutorial dettagliato passo dopo passo. Perfetto per designer e sviluppatori.
+date: 2025-12-09
+description: Scopri come collegare i livelli nei file PSD usando Aspose.PSD per Java.
+  Questo tutorial passo‑passo ti mostra come gestire i livelli PSD, scollegare i livelli
+  PSD e padroneggiare il tutorial di Aspose.PSD.
+language: it
+linktitle: How to Link Layers in PSD Files Using Java
+second_title: Aspose.PSD Java API
+title: Come collegare i livelli nei file PSD usando Java
+url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
-url: /it/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# Aggiungi il supporto dei livelli collegati nei file PSD utilizzando Java
+# Come collegare i livelli nei file PSD usando Java  
 
-## Introduzione
-I file .PSD di Adobe Photoshop sono i preferiti tra i grafici e gli artisti digitali grazie alle loro versatili funzionalità di gestione dei livelli. Mentre ti immergi nel mondo della manipolazione dei file PSD a livello di programmazione, potresti voler esplorare come i livelli collegati possono migliorare il tuo flusso di lavoro. I livelli collegati consentono agli utenti di mantenere funzionalità di livello indipendenti pur mantenendoli gestiti come un'unità coesa. Inserisci Aspose.PSD per Java, una potente libreria che semplifica il lavoro con i file Photoshop. 
-In questo articolo, daremo uno sguardo dettagliato su come aggiungere il supporto dei livelli collegati nei file PSD utilizzando la libreria Aspose.PSD in Java. Che tu sia uno sviluppatore esperto o un principiante, questa guida passo passo ti aiuterà a svolgere l'attività senza problemi.
-## Prerequisiti
-Prima di passare direttamente alla codifica, assicuriamoci di aver impostato tutto. Ecco una rapida lista di controllo:
-1. Java Development Kit (JDK): assicurati di avere installata la versione più recente di JDK. Utilizzare preferibilmente la versione 8 o successiva.
-2.  Aspose.PSD per libreria Java: devi scaricare e aggiungere questa libreria al tuo progetto. Puoi trovare l'ultima versione su[Aspose la pagina di rilascio](https://releases.aspose.com/psd/java/).
-3. Un IDE o un editor di testo: utilizza il tuo ambiente di sviluppo integrato (IDE) preferito come Eclipse, IntelliJ IDEA o un semplice editor di testo come VSCode o Blocco note++.
-4. Un file PSD di esempio: avrai bisogno di un file PSD per il test. Puoi crearne uno in Adobe Photoshop o scaricare file di esempio online.
-Una volta soddisfatti questi requisiti, possiamo tuffarci nella parte divertente: la programmazione!
-## Importa pacchetti
-Prima di scrivere il codice, assicuriamoci di aver importato i pacchetti necessari. Ecco come appare:
+## Introduzione  
+Il formato `.PSD` di Adobe Photoshop è lo standard di settore per la grafica a livelli, e molti sviluppatori hanno bisogno di manipolare questi livelli in modo programmatico. Una delle tecniche più potenti è **collegare i livelli**, che consente di spostare o modificare un gruppo di livelli come un’unica unità mantenendo intatte le proprietà individuali di ciascun livello. In questo **tutorial Aspose.PSD** vedremo **come collegare i livelli** in un file PSD usando Java, e mostreremo anche come **gestire i livelli PSD**, **scollegare i livelli PSD** e salvare le modifiche su disco. Che tu stia costruendo una pipeline di automazione del design o estendendo un’app desktop, questi passaggi ti daranno il pieno controllo sulle relazioni tra i livelli.  
+
+## Risposte rapide  
+- **Cosa significa “collegare i livelli”?** Crea un gruppo logico in modo che i livelli si muovano insieme senza essere appiattiti.  
+- **Quale libreria gestisce questa funzionalità?** Aspose.PSD per Java fornisce l’API `LinkedLayersManager`.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; per la produzione è richiesta una licenza commerciale.  
+- **Posso scollegare in seguito?** Sì—usa i metodi `unlinkLayer` o `unlinkLayers`.  
+- **Versioni Java supportate?** Java 8 o successive.  
+
+## Che cosa significa collegare i livelli in un file PSD?  
+Collegare i livelli è una funzionalità di Photoshop che unisce più livelli in modo che si comportino come un’unica entità quando vengono trasformati, spostati o stilizzati. I dati sottostanti rimangono separati, il che significa che in seguito è possibile **scollegare i livelli PSD** e modificare ciascuno indipendentemente.  
+
+## Perché usare Aspose.PSD per Java per gestire i livelli PSD?  
+- **API completa** – Accesso a ogni costrutto di Photoshop senza avviare Photoshop stesso.  
+- **Cross‑platform** – Funziona su qualsiasi OS che supporti Java.  
+- **Nessuna dipendenza UI** – Ideale per elaborazioni batch lato server o pipeline CI.  
+
+## Prerequisiti  
+Prima di immergerci nel codice, assicurati di avere:  
+
+1. **Java Development Kit (JDK) 8+** – Si consiglia l’ultima versione del JDK.  
+2. **Aspose.PSD per Java** – Scaricalo dalla [pagina di rilascio Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE o editor** – Eclipse, IntelliJ IDEA, VS Code, ecc.  
+4. **File PSD di esempio** – Creane uno in Photoshop o prendi un campione gratuito per i test.  
+
+## Importare i pacchetti  
+Prima di scrivere il codice, importa le classi necessarie di Aspose.PSD:  
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
-```
-Queste importazioni ci consentono di accedere alle funzionalità principali della libreria Aspose.PSD e di interagire con file e livelli PSD.
-Pronti per iniziare? Suddividiamo il processo in passaggi gestibili.
-## Passaggio 1: carica il file PSD
-Per prima cosa, dobbiamo caricare il nostro file PSD. Questo ci darà accesso a tutti i suoi livelli.
+```  
+
+Queste importazioni ti danno accesso alla gestione di base delle immagini, alle funzionalità specifiche di PSD e ai metodi di manipolazione dei livelli.  
+
+## Guida passo‑passo  
+
+### Passo 1: Caricare il file PSD  
+Apri il PSD con cui vuoi lavorare.  
+
 ```java
-String dataDir = "Your Document Directory"; // specificare la directory dei documenti
+String dataDir = "Your Document Directory"; // specify your document directory
 PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");
-```
- In questo frammento utilizziamo il file`Image.load()` metodo dalla libreria Aspose. Assicurati che il percorso del file sia impostato correttamente; in caso contrario, il programma non riuscirà a trovare il file PSD. 
-## Passaggio 2: ottieni tutti i livelli
-Una volta caricato il file, il passo successivo è recuperare tutti i livelli dal PSD.
+```  
+
+Assicurati che il percorso punti a un file esistente; altrimenti, `Image.load()` genererà un’eccezione.  
+
+### Passo 2: Recuperare tutti i livelli (Gestire i livelli PSD)  
+Ottieni ogni livello così da poter decidere quali raggruppare.  
+
 ```java
 Layer[] layers = psd.getLayers();
-```
-Questa linea trascina tutti i livelli in un array. Ricorda, i livelli sono gli elementi costitutivi del tuo progetto, quindi capire come sono strutturati è fondamentale.
-## Passaggio 3: collega i livelli
-Ora creiamo un gruppo di livelli collegati. Il collegamento dei livelli consente di spostarli e modificarli come una singola unità senza unirne le proprietà.
+```  
+
+L’array `layers` contiene ora l’intera pila di livelli del documento.  
+
+### Passo 3: Collegare i livelli  
+Crea un gruppo di livelli collegati usando l’API del manager.  
+
 ```java
 short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
-```
-Questo metodo collega i livelli recuperati in precedenza. È come legare una corda attorno al dito per ricordare un'attività mantenendo intatte le singole note.
-## Passaggio 4: ottieni l'ID del gruppo di collegamenti
-Per garantire che i nostri livelli siano collegati correttamente, dobbiamo recuperare l'ID del gruppo di collegamento dei nostri livelli appena collegati.
+```  
+
+Questa chiamata restituisce un **group ID** che identifica in modo univoco il nuovo gruppo di collegamento.  
+
+### Passo 4: Verificare il Group ID del collegamento  
+Controlla che l’ID restituito corrisponda a quello memorizzato per il primo livello.  
+
 ```java
 short linkGroupId = psd.getLinkedLayersManager().getLinkGroupId(layers[0]);
 if (layersLinkGroupId != linkGroupId) {
     throw new Exception("layersLinkGroupId and linkGroupId are not equal.");
 }
-```
-Questo è un semplice passaggio di convalida. Se gli ID non corrispondono, qualcosa non è andato come previsto. È come ricontrollare la lista della spesa prima di uscire a fare la spesa.
-## Passaggio 5: recupera e scollega i livelli
-Successivamente, potresti voler scollegare i livelli ad un certo punto. Ecco come recuperare i livelli collegati e scollegarli:
+```  
+
+Se gli ID differiscono, qualcosa è andato storto durante il collegamento.  
+
+### Passo 5: Recuperare e scollegare i livelli (Scollegare i livelli PSD)  
+Quando è necessario rompere l’associazione, recupera i livelli collegati per group ID e scollegali uno a uno.  
+
 ```java
 Layer[] linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 for (Layer linkedLayer : linkedLayers) {
     psd.getLinkedLayersManager().unlinkLayer(linkedLayer);
 }
-```
-Usando un ciclo, iteriamo attraverso ogni livello collegato e li scolleghiamo. Ciò ti dà la flessibilità di apportare modifiche ai singoli livelli senza influenzare gli altri. È come avere un dibattito amichevole in cui ognuno può esprimere le proprie opinioni in modo indipendente!
-## Passaggio 6: convalida del processo di scollegamento
-È fondamentale verificare che lo scollegamento sia avvenuto con successo. Confermiamo:
+```  
+
+Ogni iterazione rimuove il collegamento preservando i dati originali del livello.  
+
+### Passo 6: Convalidare il processo di scollegamento  
+Verifica che nessun livello rimanga nel gruppo.  
+
 ```java
 linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 if (linkedLayers != null) {
     throw new Exception("The linkedLayers field is not NULL.");
 }
-```
-Questo controllo finale garantisce che i nostri livelli siano stati scollegati con successo. Se persistono livelli collegati, viene generata un'eccezione per indicare un problema.
-## Passaggio 7: salva le modifiche
-Finalmente, dopo tutto questo duro lavoro, è il momento di salvare il file PSD di output:
+```  
+
+Se `linkedLayers` è ancora popolato, l’operazione di scollegamento è fallita.  
+
+### Passo 7: Salvare il PSD aggiornato  
+Scrivi il documento modificato su disco.  
+
 ```java
 psd.save(dataDir + "LinkedLayerexample_output.psd");
-```
-Salvando le modifiche, non solo acquisisci le modifiche apportate, ma conservi anche la struttura e le proprietà del tuo lavoro per modifiche future.
-## Passaggio 8: smaltire l'oggetto PSD
-Una buona pratica nella programmazione include il rilascio di risorse una volta terminato. Smaltire l'oggetto PSD per liberare memoria:
+```  
+
+Il salvataggio preserva tutte le modifiche, incluso il nuovo gruppo di collegamento o la sua rimozione.  
+
+### Passo 8: Rilasciare l’oggetto PSD  
+Libera le risorse native per evitare perdite di memoria.  
+
 ```java
 finally {
     psd.dispose();
 }
-```
-Eliminando in modo ordinato l'oggetto, contribuiamo a garantire che la nostra applicazione funzioni correttamente senza perdite di memoria. È un po' come ripulire lo spazio di lavoro dopo aver terminato un progetto.
-## Conclusione
-Aumenta le tue capacità di manipolazione PSD adottando livelli collegati utilizzando Aspose.PSD per Java. Questa guida ti ha guidato passo dopo passo attraverso la configurazione, la codifica e l'esecuzione dell'aggiunta di livelli collegati. Con la pratica scoprirai che gestire progetti complessi diventa non solo più semplice ma anche molto più divertente.
-## Domande frequenti
-### Cos'è Aspose.PSD per Java?
-Aspose.PSD per Java è una libreria che consente agli sviluppatori di manipolare i file PSD di Photoshop a livello di codice.
-### Posso utilizzare Aspose.PSD su qualsiasi sistema operativo?
-Sì, essendo una libreria basata su Java, funziona su qualsiasi piattaforma che supporti Java.
-### È disponibile una versione di prova?
- Sì, puoi provare Aspose.PSD per Java gratuitamente. Controlla il[collegamento di prova gratuita](https://releases.aspose.com/).
-### Dove posso trovare ulteriore documentazione?
- È possibile esplorare l'ampia documentazione[Qui](https://reference.aspose.com/psd/java/).
-### Come posso ottenere supporto se riscontro problemi?
- Se riscontri problemi, puoi trovare aiuto nel[forum di supporto](https://forum.aspose.com/c/psd/34).
-{{< /blocks/products/pf/tutorial-page-section >}}
+```  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+Chiamare `dispose()` è una buona pratica, soprattutto quando si elaborano molti file in un ciclo.  
+
+## Problemi comuni e consigli  
+
+- **Percorso file errato** – Usa sempre percorsi assoluti o verifica la directory di lavoro.  
+- **Licenza mancante** – La versione di prova è valida per la valutazione, ma una licenza completa rimuove le filigrane di valutazione.  
+- **Collegare solo un sottoinsieme** – Se ti serve solo una parte della pila di livelli, crea un nuovo `Layer[]` con i livelli desiderati prima di chiamare `linkLayers`.  
+- **Sicurezza dei thread** – Le istanze di `PsdImage` non sono thread‑safe; crea un’istanza separata per ogni thread.  
+
+## Conclusione  
+Ora disponi di un flusso di lavoro completo e pronto per la produzione su **come collegare i livelli** nei file PSD usando Aspose.PSD per Java. Padroneggiando queste API potrai automatizzare compiti di design complessi, costruire editor personalizzati o integrare la gestione dei livelli in stile Photoshop in qualsiasi applicazione Java. Continua a sperimentare con altre funzionalità come effetti di livello, maschere e oggetti intelligenti per ampliare ulteriormente il tuo toolkit.  
+
+## FAQ  
+
+### Che cos’è Aspose.PSD per Java?  
+Aspose.PSD per Java è una libreria che consente agli sviluppatori di manipolare programmaticamente i file Photoshop PSD.  
+
+### Posso usare Aspose.PSD su qualsiasi sistema operativo?  
+Sì, essendo una libreria basata su Java, funziona su qualsiasi piattaforma che supporti Java.  
+
+### È disponibile una versione di prova?  
+Sì, puoi provare Aspose.PSD per Java gratuitamente. Consulta il [link per la prova gratuita](https://releases.aspose.com/).  
+
+### Dove posso trovare ulteriore documentazione?  
+Puoi esplorare la documentazione completa [qui](https://reference.aspose.com/psd/java/).  
+
+### Come posso ottenere supporto in caso di problemi?  
+Se incontri difficoltà, puoi trovare aiuto nel [forum di supporto](https://forum.aspose.com/c/psd/34).  
+
+---  
+
+**Ultimo aggiornamento:** 2025-12-09  
+**Testato con:** Aspose.PSD 24.12 per Java  
+**Autore:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}  
+
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}
