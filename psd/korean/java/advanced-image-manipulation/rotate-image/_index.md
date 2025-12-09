@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.PSD for Java를 사용하여 이미지를 270도 회전하는 방법을 배워보세요. 이 가이드는 PSD 파일을 회전하고,
   이미지를 뒤집으며, PSD를 JPEG로 변환하는 방법을 보여줍니다.
-language: ko
 linktitle: Rotate Image 270 Degrees
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java를 사용하여 이미지를 270도 회전하는 방법
-url: /java/advanced-image-manipulation/rotate-image/
+url: /ko/java/advanced-image-manipulation/rotate-image/
 weight: 19
 ---
 

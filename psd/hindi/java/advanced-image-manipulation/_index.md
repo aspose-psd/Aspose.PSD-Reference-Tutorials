@@ -3,11 +3,10 @@ date: 2025-12-05
 description: जावा में इमेज को कैसे घुमाएँ और Aspose.PSD for Java का उपयोग करके उन्नत
   इमेज मैनिपुलेशन कैसे करें, जिसमें फ़ॉन्ट प्रतिस्थापन, बाइक्यूबिक रिसैम्पलर और अधिक
   शामिल हैं।
-language: hi
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Aspose.PSD के साथ जावा में इमेज घुमाएँ – उन्नत इमेज मैनिपुलेशन
-url: /java/advanced-image-manipulation/
+url: /hi/java/advanced-image-manipulation/
 weight: 24
 ---
 

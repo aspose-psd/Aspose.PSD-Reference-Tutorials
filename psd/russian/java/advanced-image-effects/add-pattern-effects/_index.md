@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Изучите, как добавлять эффекты наложения узора в PSD‑файлы с помощью
   Aspose.PSD для Java. Пошаговое руководство с примерами кода и советами по устранению
   неполадок.
-language: ru
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Добавить эффекты наложения узора в Aspose.PSD для Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /ru/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

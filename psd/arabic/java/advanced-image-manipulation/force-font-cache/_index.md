@@ -2,12 +2,11 @@
 date: 2025-12-01
 description: تعلم كيفية حفظ ملف PSD، وإجبار تخزين الخطوط المؤقت، وتحسين أداء الصور
   باستخدام Aspose.PSD للغة Java. دليل خطوة بخطوة لتحسين معالجة الصور.
-language: ar
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: كيفية حفظ ملف PSD وإجبار ذاكرة التخزين المؤقت للخطوط باستخدام Aspose.PSD للـ
   Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /ar/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

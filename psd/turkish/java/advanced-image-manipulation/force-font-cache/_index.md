@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Aspose.PSD for Java kullanarak PSD dosyasını nasıl kaydedeceğinizi, yazı
   tipi önbelleğini nasıl zorlayacağınızı ve görüntü performansını nasıl artıracağınızı
   öğrenin. Görüntü işleme optimizasyonu için adım adım rehber.
-language: tr
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java ile PSD Dosyasını Kaydetme ve Yazı Tipi Önbelleğini Zorla
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /tr/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

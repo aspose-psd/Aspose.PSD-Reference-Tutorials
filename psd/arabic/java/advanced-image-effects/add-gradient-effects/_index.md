@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: تعلم كيفية تطبيق تأثيرات التدرج في صور Java باستخدام Aspose.PSD. اتبع
   هذا الدليل خطوة بخطوة لتحقيق تكامل سلس.
-language: ar
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: كيفية تطبيق تأثيرات التدرج في Aspose.PSD للغة Java
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /ar/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

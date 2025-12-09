@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Узнайте, как сохранять файлы PSD, принудительно обновлять кэш шрифтов
   и улучшать производительность изображений с помощью Aspose.PSD для Java. Пошаговое
   руководство по оптимизации обработки изображений.
-language: ru
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Как сохранить PSD‑файл и принудительно обновить кэш шрифтов с помощью Aspose.PSD
   для Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /ru/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

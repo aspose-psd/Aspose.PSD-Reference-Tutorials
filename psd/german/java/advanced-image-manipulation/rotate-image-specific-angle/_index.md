@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Erfahren Sie, wie Sie ein Bild in Java mit Aspose.PSD um einen bestimmten
   Winkel drehen. Der Leitfaden behandelt das Drehen von Bildern in Java, das Drehen
   von Bildern um einen spezifischen Winkel, die Hintergrundverarbeitung und mehr.
-language: de
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Wie man ein Bild um einen bestimmten Winkel mit Aspose.PSD für Java dreht
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /de/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

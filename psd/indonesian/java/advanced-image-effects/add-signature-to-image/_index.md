@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Pelajari cara menggambar gambar di kanvas dan menambahkan tanda tangan
   di Java menggunakan Aspose.PSD. Ikuti tutorial pemrosesan gambar java langkah demi
   langkah ini dan simpan hasilnya sebagai PNG.
-language: id
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Gambar pada Kanvas – Tambahkan Tanda Tangan dengan Aspose.PSD untuk Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /id/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

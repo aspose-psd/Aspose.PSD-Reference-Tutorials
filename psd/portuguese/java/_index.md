@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Desbloqueie o poder do Aspose.PSD para Java para criar imagens em escala
   de cinza e otimizar PNGs. Domine filtros, conversões e edição avançada com guias
   passo a passo.
-language: pt
 linktitle: Aspose.PSD for Java Tutorials
 title: Tutoriais e Exemplos Abrangentes de Imagem em Escala de Cinza em Java com Aspose.PSD
-url: /java/
+url: /pt/java/
 weight: 10
 ---
 

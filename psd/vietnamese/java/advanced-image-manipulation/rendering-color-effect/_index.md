@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách lưu PSD dưới dạng PNG với lớp phủ màu bằng Aspose.PSD cho
   Java. Hướng dẫn chi tiết này bao gồm thao tác ảnh Java, lớp phủ màu và xuất PNG
   với kênh alpha.
-language: vi
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Cách lưu PSD thành PNG với hiệu ứng màu khi render bằng Aspose.PSD cho Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /vi/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Lär dig hur du ritar en bild på en canvas och lägger över en signatur
   i Java med Aspose.PSD. Följ den här steg‑för‑steg Java‑bildbehandlingshandledningen
   och spara resultatet som PNG.
-language: sv
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Rita bild på canvas – Lägg till en signatur med Aspose.PSD för Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /sv/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

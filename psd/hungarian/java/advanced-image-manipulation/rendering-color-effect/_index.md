@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Tanulja meg, hogyan menthet PSD-t PNG‑ként színátfedéssel az Aspose.PSD
   for Java használatával. Ez a lépésről‑lépésre útmutató a Java képmódosítást, az
   átfedő színt és a PNG alfa csatornával történő exportálást tárgyalja.
-language: hu
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Hogyan menthetünk PSD-t PNG formátumba színhatású rendereléssel az Aspose.PSD
   for Java használatával
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /hu/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

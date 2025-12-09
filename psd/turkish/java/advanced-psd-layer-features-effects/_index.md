@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.PSD for Java kullanarak PSD'ye iç gölge eklemeyi öğrenin. PSD
   dosyalarındaki gelişmiş katman özelliklerini, efektleri ve kaynak yönetimini keşfedin.
-language: tr
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: İç Gölge Ekleme PSD Java – Gelişmiş Katman Efektleri
-url: /java/advanced-psd-layer-features-effects/
+url: /tr/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

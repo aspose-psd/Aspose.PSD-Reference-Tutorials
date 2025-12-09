@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Khai phá sức mạnh của Aspose.PSD cho Java để tạo ảnh xám bằng Java và
   tối ưu hóa PNG bằng Java. Thành thạo các bộ lọc, chuyển đổi và chỉnh sửa nâng cao
   với các hướng dẫn từng bước.
-language: vi
 linktitle: Aspose.PSD for Java Tutorials
 title: Hướng dẫn Java toàn diện về ảnh xám và các ví dụ với Aspose.PSD
-url: /java/
+url: /vi/java/
 weight: 10
 ---
 

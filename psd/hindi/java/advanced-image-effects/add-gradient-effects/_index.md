@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.PSD का उपयोग करके जावा इमेजेज़ में ग्रेडिएंट इफ़ेक्ट्स कैसे लागू
   करें, सीखें। सहज एकीकरण के लिए इस चरण‑दर‑चरण गाइड का पालन करें।
-language: hi
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java में ग्रेडिएंट इफ़ेक्ट्स कैसे लागू करें
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /hi/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

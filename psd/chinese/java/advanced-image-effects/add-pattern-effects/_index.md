@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 学习如何使用 Aspose.PSD for Java 为 PSD 文件添加图案叠加效果。一步一步的指南，附带代码示例和故障排除技巧。
-language: zh
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: 在 Aspose.PSD for Java 中添加图案叠加效果
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /zh/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

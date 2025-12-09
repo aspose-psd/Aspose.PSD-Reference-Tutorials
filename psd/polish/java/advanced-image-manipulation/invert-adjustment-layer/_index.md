@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Dowiedz się, jak używać biblioteki Java do przetwarzania obrazów Aspose.PSD,
   aby stosować wiele warstw korekcyjnych, w tym warstwę odwrócenia, zapewniając płynną
   manipulację plikami PSD.
-language: pl
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Biblioteka Java do przetwarzania obrazów: odwrócenie warstwy przy użyciu Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /pl/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

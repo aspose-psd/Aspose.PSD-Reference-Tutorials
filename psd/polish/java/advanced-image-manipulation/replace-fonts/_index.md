@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Dowiedz się, jak wykonać zamianę czcionek w plikach PSD przy użyciu Aspose
   w Javie. Ten krok po kroku tutorial manipulacji obrazem w Javie pokazuje, jak efektywnie
   zastępować czcionki w plikach PSD.
-language: pl
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Zastępowanie czcionek w PSD w Javie przy użyciu Aspose – Zmieniaj czcionki
   w plikach PSD
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /pl/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

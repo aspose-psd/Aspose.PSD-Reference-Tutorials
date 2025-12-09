@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Dowiedz się, jak zapisać plik PSD jako PNG, konwertować PSD na PNG oraz
   zastosować warstwę cienia padającego przy użyciu Aspose.PSD for Java – kompletny,
   krok po kroku przewodnik.
-language: pl
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Zapisz PSD jako PNG i zastosuj renderowanie cienia w Aspose.PSD dla Javy
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /pl/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

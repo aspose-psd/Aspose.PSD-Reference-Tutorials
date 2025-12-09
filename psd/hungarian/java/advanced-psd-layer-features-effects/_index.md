@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan adjon hozzá belső árnyékot PSD Java-ban az Aspose.PSD
   for Java használatával. Fedezze fel a fejlett rétegfunkciókat, hatásokat és az erőforrás-kezelést
   PSD fájlokban.
-language: hu
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: Hogyan adjunk hozzá belső árnyékot PSD Java – Haladó rétegeffektusok
-url: /java/advanced-psd-layer-features-effects/
+url: /hu/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

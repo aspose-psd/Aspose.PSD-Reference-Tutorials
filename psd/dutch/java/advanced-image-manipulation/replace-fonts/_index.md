@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe u Aspose PSD-lettertypevervanging in Java kunt uitvoeren. Deze
   stapsgewijze Java‑afbeeldingsbewerkingshandleiding laat zien hoe u lettertypen in
   PSD‑bestanden efficiënt kunt vervangen.
-language: nl
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Aspose PSD-lettertypevervanging in Java – Vervang lettertypen in PSD-bestanden
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /nl/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Pelajari cara menyimpan PSD sebagai PNG, mengonversi PSD ke PNG, dan
   menerapkan lapisan bayangan jatuh menggunakan Aspose.PSD untuk Java – panduan lengkap
   langkah demi langkah.
-language: id
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Simpan PSD sebagai PNG dan Terapkan Rendering Drop Shadow di Aspose.PSD untuk
   Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /id/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

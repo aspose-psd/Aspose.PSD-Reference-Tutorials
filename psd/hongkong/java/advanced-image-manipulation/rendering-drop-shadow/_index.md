@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何將 PSD 存成 PNG、將 PSD 轉換為 PNG，並使用 Aspose.PSD for Java 為圖層套用投影效果——完整的逐步指南。
-language: zh-hant
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: 將 PSD 另存為 PNG 並在 Aspose.PSD for Java 中套用渲染投影
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /zh-hant/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

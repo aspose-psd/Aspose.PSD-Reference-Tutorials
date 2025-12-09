@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie Bilder in Java drehen und fortgeschrittene Bildbearbeitung
   mit Aspose.PSD für Java durchführen, einschließlich Schriftart-Ersetzung, bikubischer
   Resampler und mehr.
-language: de
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Bild in Java mit Aspose.PSD drehen – Erweiterte Bildbearbeitung
-url: /java/advanced-image-manipulation/
+url: /de/java/advanced-image-manipulation/
 weight: 24
 ---
 

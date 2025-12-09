@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية حفظ ملف PSD كـ PNG، وتحويل PSD إلى PNG، وتطبيق طبقة ظل إسقاط
   باستخدام Aspose.PSD للغة Java – دليل كامل خطوة بخطوة.
-language: ar
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: حفظ ملف PSD كـ PNG وتطبيق ظل الإسقاط أثناء العرض في Aspose.PSD للـ Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /ar/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

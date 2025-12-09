@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Leer hoe je een lijn kunt toevoegen en de PSD‑lijnkleur kunt wijzigen
   met Aspose.PSD voor Java. Volg deze stapsgewijze handleiding om de kleur en doorzichtigheid
   van de lijnlaag aan te passen.
-language: nl
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Hoe een lijnkleurlaag toevoegen in Aspose.PSD voor Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /nl/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

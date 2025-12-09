@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Aspose.PSD for Java का उपयोग करके रंग ओवरले के साथ PSD को PNG के रूप
   में सहेजना सीखें। यह चरण‑दर‑चरण गाइड Java इमेज मैनिपुलेशन, ओवरले रंग, और अल्फा के
   साथ PNG निर्यात को कवर करता है।
-language: hi
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java का उपयोग करके रेंडरिंग कलर इफ़ेक्ट के साथ PSD को PNG के
   रूप में कैसे सहेजें
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /hi/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

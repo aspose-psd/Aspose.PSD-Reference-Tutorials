@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Impara a disegnare un'immagine su canvas e sovrapporre una firma in Java
   usando Aspose.PSD. Segui questo tutorial passo‑passo di elaborazione immagini in
   Java e salva il risultato come PNG.
-language: it
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Disegna immagine su Canvas – Aggiungi una firma con Aspose.PSD per Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /it/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

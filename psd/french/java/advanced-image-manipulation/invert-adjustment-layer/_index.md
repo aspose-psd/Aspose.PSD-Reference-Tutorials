@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Apprenez à utiliser la bibliothèque Java de traitement d'images Aspose.PSD
   pour appliquer plusieurs calques d'ajustement, y compris le calque d'ajustement
   Inverser, afin de manipuler les PSD de manière fluide.
-language: fr
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Bibliothèque Java de traitement d''images : Inverser le calque avec Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /fr/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

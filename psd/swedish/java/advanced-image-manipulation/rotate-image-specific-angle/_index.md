@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Lär dig hur du roterar en bild med en specifik vinkel i Java med Aspose.PSD.
   Guiden täcker rotera bild i Java, rotera bild i specifik vinkel, bakgrundshantering
   och mer.
-language: sv
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Hur man roterar en bild med en specifik vinkel med Aspose.PSD för Java
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /sv/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

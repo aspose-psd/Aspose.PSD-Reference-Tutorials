@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Entfesseln Sie die Leistung von Aspose.PSD für Java, um Graustufen‑Bilder
   in Java zu erstellen und PNGs in Java zu optimieren. Beherrschen Sie Filter, Konvertierungen
   und fortgeschrittene Bearbeitung mit Schritt‑für‑Schritt‑Anleitungen.
-language: de
 linktitle: Aspose.PSD for Java Tutorials
 title: Umfassende Java‑Tutorials und -Beispiele für Graustufenbilder mit Aspose.PSD
-url: /java/
+url: /de/java/
 weight: 10
 ---
 

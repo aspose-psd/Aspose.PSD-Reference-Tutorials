@@ -3,11 +3,10 @@ date: 2025-12-05
 description: जावा में Aspose PSD फ़ॉन्ट प्रतिस्थापन कैसे करें, सीखें। यह चरण‑दर‑चरण
   जावा इमेज मैनिपुलेशन ट्यूटोरियल आपको दिखाता है कि PSD फ़ाइलों में फ़ॉन्ट को प्रभावी
   ढंग से कैसे बदलें।
-language: hi
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: जावा में Aspose PSD फ़ॉन्ट प्रतिस्थापन – PSD फ़ाइलों में फ़ॉन्ट बदलें
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /hi/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

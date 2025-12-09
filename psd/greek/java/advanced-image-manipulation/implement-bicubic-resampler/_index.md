@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Μάθετε πώς να επιτύχετε υψηλής ποιότητας κλιμάκωση εικόνας στη Java χρησιμοποιώντας
   το Bicubic Resampler της Aspose.PSD. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για εξαιρετικά
   αποτελέσματα.
-language: el
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: Κλιμάκωση εικόνας υψηλής ποιότητας με δι-κυβικό δειγματολήπτη στο Aspose.PSD
   για Java
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /el/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

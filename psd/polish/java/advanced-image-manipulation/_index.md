@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Dowiedz się, jak obracać obrazy w Javie i wykonywać zaawansowaną manipulację
   obrazami przy użyciu Aspose.PSD dla Javy, w tym wymianę czcionek, interpolację dwusześcienną
   i wiele innych.
-language: pl
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Obróć obraz w Javie przy użyciu Aspose.PSD – Zaawansowana manipulacja obrazem
-url: /java/advanced-image-manipulation/
+url: /pl/java/advanced-image-manipulation/
 weight: 24
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: 學習如何在 Java 圖像中使用 Aspose.PSD 應用漸層效果。請遵循此一步一步的指南，以實現無縫整合。
-language: zh-hant
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: 如何在 Aspose.PSD for Java 中套用漸層效果
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /zh-hant/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

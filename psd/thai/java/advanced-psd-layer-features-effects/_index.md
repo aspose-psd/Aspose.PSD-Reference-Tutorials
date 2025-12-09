@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนรู้วิธีเพิ่มเงาภายในใน PSD ด้วย Java โดยใช้ Aspose.PSD for Java.
   สำรวจคุณลักษณะขั้นสูงของเลเยอร์, เอฟเฟกต์, และการจัดการทรัพยากรในไฟล์ PSD.
-language: th
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: วิธีเพิ่มเงาภายในใน PSD Java – เอฟเฟกต์เลเยอร์ขั้นสูง
-url: /java/advanced-psd-layer-features-effects/
+url: /th/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

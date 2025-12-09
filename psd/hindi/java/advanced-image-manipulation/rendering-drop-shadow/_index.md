@@ -2,12 +2,11 @@
 date: 2025-12-05
 description: जानेँ कैसे PSD को PNG के रूप में सहेँ, PSD को PNG में बदलें, और Aspose.PSD
   for Java का उपयोग करके ड्रॉप शैडो लेयर लागू करें – एक पूर्ण, चरण-दर-चरण गाइड।
-language: hi
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java में PSD को PNG के रूप में सहेजें और रेंडरिंग ड्रॉप शैडो
   लागू करें
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /hi/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Tanulja meg, hogyan menthet PSD-t PNG-ként, konvertálhatja a PSD-t PNG-re,
   és alkalmazhat egy vetett árnyék réteget az Aspose.PSD for Java használatával –
   egy teljes, lépésről lépésre útmutató.
-language: hu
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: PSD mentése PNG formátumba és renderelt vetett árnyék alkalmazása az Aspose.PSD
   for Java‑ban
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /hu/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

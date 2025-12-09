@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Scopri come applicare effetti di gradiente alle immagini Java con Aspose.PSD.
   Segui questa guida passo‑passo per un'integrazione senza problemi.
-language: it
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Come applicare gli effetti di sfumatura in Aspose.PSD per Java
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /it/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

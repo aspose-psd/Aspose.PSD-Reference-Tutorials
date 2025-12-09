@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 学习如何在 Java 中使用 Aspose.PSD 在画布上绘制图像并叠加签名。按照此一步一步的 Java 图像处理教程操作，并将结果保存为
   PNG。
-language: zh
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: 在画布上绘制图像 – 使用 Aspose.PSD for Java 添加签名
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /zh/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

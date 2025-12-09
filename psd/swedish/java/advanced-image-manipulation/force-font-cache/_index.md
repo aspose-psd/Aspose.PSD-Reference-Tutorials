@@ -2,12 +2,11 @@
 date: 2025-12-01
 description: Lär dig hur du sparar PSD‑fil, tvingar teckensnittscache och förbättrar
   bildprestanda med Aspose.PSD för Java. Steg‑för‑steg‑guide för optimering av bildbehandling.
-language: sv
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Hur man sparar en PSD‑fil och tvingar teckensnittscache med Aspose.PSD för
   Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /sv/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

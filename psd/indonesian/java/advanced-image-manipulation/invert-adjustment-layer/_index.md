@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Pelajari cara menggunakan pustaka Java pemrosesan gambar Aspose.PSD untuk
   menerapkan beberapa lapisan penyesuaian, termasuk Lapisan Penyesuaian Invert, untuk
   manipulasi PSD yang mulus.
-language: id
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Perpustakaan Java Pengolahan Gambar: Membalik Lapisan menggunakan Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /id/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

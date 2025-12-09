@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Узнайте, как вращать изображение на определённый угол в Java с помощью
   Aspose.PSD. Руководство охватывает вращение изображения в Java, вращение изображения
   на конкретный угол, работу с фоном и многое другое.
-language: ru
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Как повернуть изображение на заданный угол с помощью Aspose.PSD для Java
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /ru/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

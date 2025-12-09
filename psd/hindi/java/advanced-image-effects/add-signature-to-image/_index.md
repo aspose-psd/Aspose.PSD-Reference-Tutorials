@@ -3,11 +3,10 @@ date: 2025-12-02
 description: जावा में Aspose.PSD का उपयोग करके कैनवास पर इमेज कैसे ड्रॉ करें और सिग्नेचर
   ओवरले करें, सीखें। इस चरण-दर-चरण जावा इमेज प्रोसेसिंग ट्यूटोरियल का पालन करें और
   परिणाम को PNG के रूप में सहेजें।
-language: hi
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: कैनवास पर छवि बनाएं – Aspose.PSD for Java के साथ हस्ताक्षर जोड़ें
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /hi/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

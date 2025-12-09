@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Erfahren Sie, wie Sie ein Bild auf einer Leinwand zeichnen und eine Signatur
   in Java mit Aspose.PSD überlagern. Folgen Sie diesem Schritt‑für‑Schritt‑Java‑Bildverarbeitungs‑Tutorial
   und speichern Sie das Ergebnis als PNG.
-language: de
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Bild auf Canvas zeichnen – Signatur hinzufügen mit Aspose.PSD für Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /de/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

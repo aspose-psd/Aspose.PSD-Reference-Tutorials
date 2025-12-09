@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe je een afbeelding in Java kunt roteren en geavanceerde beeldbewerking
   kunt uitvoeren met Aspose.PSD voor Java, inclusief het vervangen van lettertypen,
   een bicubische resampler en meer.
-language: nl
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Afbeelding roteren in Java met Aspose.PSD – Geavanceerde afbeeldingsmanipulatie
-url: /java/advanced-image-manipulation/
+url: /nl/java/advanced-image-manipulation/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aprenda como girar uma imagem em um ângulo específico em Java usando
   Aspose.PSD. O guia aborda girar imagem Java, girar imagem em ângulo específico,
   manipulação de fundo e muito mais.
-language: pt
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Como girar a imagem em um ângulo específico com Aspose.PSD para Java
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /pt/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

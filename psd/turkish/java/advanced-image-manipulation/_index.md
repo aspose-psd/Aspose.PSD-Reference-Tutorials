@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.PSD for Java kullanarak görüntüyü nasıl döndüreceğinizi ve font
   değiştirme, bikübik yeniden örnekleme ve daha fazlası gibi gelişmiş görüntü işleme
   işlemlerini nasıl yapacağınızı öğrenin.
-language: tr
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Java ile Aspose.PSD Kullanarak Görüntüyü Döndür – Gelişmiş Görüntü Manipülasyonu
-url: /java/advanced-image-manipulation/
+url: /tr/java/advanced-image-manipulation/
 weight: 24
 ---
 

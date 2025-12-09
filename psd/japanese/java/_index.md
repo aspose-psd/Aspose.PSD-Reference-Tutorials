@@ -1,10 +1,9 @@
 ---
 date: 2025-11-30
 description: Aspose.PSD for Java の力を解き放ち、グレースケール画像の作成と PNG の最適化を実現しましょう。ステップバイステップのガイドで、フィルター、変換、そして高度な編集をマスターできます。
-language: ja
 linktitle: Aspose.PSD for Java Tutorials
 title: Aspose.PSD を使用した包括的なグレースケール画像 Java チュートリアルとサンプル
-url: /java/
+url: /ja/java/
 weight: 10
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-08
 description: Tanulja meg, hogyan konvertálja a PSD-t PNG-re, és hogyan méretezze arányosan
   a képeket Java-ban az Aspose.PSD használatával. Ez a lépésről‑lépésre útmutató a
   képek gyorsítótárazását, átméretezését és PNG formátumban való mentését tárgyalja.
-language: hu
 linktitle: Convert PSD to PNG & Resize Proportionally
 second_title: Aspose.PSD Java API
 title: Hogyan konvertáljunk PSD-t PNG-re, és méretezzük arányosan az Aspose.PSD for
   Java segítségével
-url: /java/advanced-image-manipulation/resize-image-proportionally/
+url: /hu/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 

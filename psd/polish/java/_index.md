@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Odkryj moc Aspose.PSD dla Javy, aby tworzyć obrazy w odcieniach szarości
   w Javie i optymalizować pliki PNG w Javie. Opanuj filtry, konwersje i zaawansowaną
   edycję dzięki przewodnikom krok po kroku.
-language: pl
 linktitle: Aspose.PSD for Java Tutorials
 title: Kompleksowe samouczki i przykłady w Javie dotyczące obrazów w odcieniach szarości
   z Aspose.PSD
-url: /java/
+url: /pl/java/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Узнайте, как добавить обводку и изменить цвет обводки в PSD с помощью
   Aspose.PSD для Java. Следуйте этому пошаговому руководству, чтобы изменить цвет
   и непрозрачность слоя обводки.
-language: ru
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Как добавить цвет обводки слоя в Aspose.PSD для Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /ru/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

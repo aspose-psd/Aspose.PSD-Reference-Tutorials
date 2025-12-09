@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 이미지 처리 Java 라이브러리 Aspose.PSD를 사용하여 인버트 조정 레이어를 포함한 여러 조정 레이어를 적용하고 원활한
   PSD 조작을 수행하는 방법을 배워보세요.
-language: ko
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: '이미지 처리 Java 라이브러리: Aspose.PSD를 사용한 레이어 반전'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /ko/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

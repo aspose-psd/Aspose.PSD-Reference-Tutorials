@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Dowiedz się, jak dodać wewnętrzny cień w PSD przy użyciu Aspose.PSD dla
   Javy. Poznaj zaawansowane funkcje warstw, efekty oraz zarządzanie zasobami w plikach
   PSD.
-language: pl
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: Jak dodać wewnętrzny cień w PSD Java – Zaawansowane efekty warstw
-url: /java/advanced-psd-layer-features-effects/
+url: /pl/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

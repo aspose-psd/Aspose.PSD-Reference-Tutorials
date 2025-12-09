@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie PSD als PNG speichern, PSD in PNG konvertieren
   und mithilfe von Aspose.PSD für Java eine Schattenebene hinzufügen – ein vollständiger
   Schritt‑für‑Schritt‑Leitfaden.
-language: de
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: PSD als PNG speichern und Rendering Drop Shadow in Aspose.PSD für Java anwenden
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /de/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Tìm hiểu cách xoay ảnh ở góc cụ thể trong Java bằng Aspose.PSD. Hướng
   dẫn bao gồm xoay ảnh Java, xoay ảnh ở góc cụ thể, xử lý nền và nhiều hơn nữa.
-language: vi
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Cách xoay ảnh theo góc cụ thể bằng Aspose.PSD cho Java
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /vi/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

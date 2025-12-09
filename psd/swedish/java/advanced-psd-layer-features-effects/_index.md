@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Lär dig hur du lägger till inre skugga i PSD med Java med Aspose.PSD
   för Java. Utforska avancerade lagerfunktioner, effekter och resurshantering i PSD‑filer.
-language: sv
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: Hur man lägger till inre skugga PSD Java – Avancerade lagereffekter
-url: /java/advanced-psd-layer-features-effects/
+url: /sv/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

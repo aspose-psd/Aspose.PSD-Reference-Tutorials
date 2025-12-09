@@ -1,10 +1,9 @@
 ---
 date: 2025-11-30
 description: 释放 Aspose.PSD for Java 的强大功能，使用 Java 创建灰度图像并优化 PNG。通过一步步指南，掌握滤镜、转换和高级编辑。
-language: zh
 linktitle: Aspose.PSD for Java Tutorials
 title: 使用 Aspose.PSD 的全面灰度图像 Java 教程与示例
-url: /java/
+url: /zh/java/
 weight: 10
 ---
 

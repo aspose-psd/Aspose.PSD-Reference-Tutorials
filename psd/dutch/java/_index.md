@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Ontgrendel de kracht van Aspose.PSD voor Java om grijswaardenafbeeldingen
   te maken en PNG's te optimaliseren. Beheers filters, conversies en geavanceerde
   bewerkingen met stapsgewijze handleidingen.
-language: nl
 linktitle: Aspose.PSD for Java Tutorials
 title: Uitgebreide Grijswaardenafbeelding Java‑tutorials en -voorbeelden met Aspose.PSD
-url: /java/
+url: /nl/java/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Pelajari cara menambahkan efek overlay pola ke file PSD menggunakan Aspose.PSD
   untuk Java. Panduan langkah demi langkah dengan contoh kode dan tips pemecahan masalah.
-language: id
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Tambahkan Efek Overlay Pola di Aspose.PSD untuk Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /id/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

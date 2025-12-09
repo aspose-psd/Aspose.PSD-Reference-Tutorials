@@ -2,12 +2,11 @@
 date: 2025-12-01
 description: تعلم كيفية تحقيق تحجيم صور عالي الجودة في Java باستخدام أداة Bicubic
   Resampler من Aspose.PSD. اتبع دليلنا خطوة بخطوة للحصول على نتائج متميزة.
-language: ar
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: تحجيم الصور بجودة عالية باستخدام مُعيد التحجيم البيكوبيك في Aspose.PSD للـ
   Java
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /ar/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

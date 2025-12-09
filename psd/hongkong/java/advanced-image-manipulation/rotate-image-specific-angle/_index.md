@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 了解如何在 Java 中使用 Aspose.PSD 按特定角度旋轉圖像。本指南涵蓋 Java 圖像旋轉、特定角度旋轉圖像、背景處理等內容。
-language: zh-hant
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: 如何使用 Aspose.PSD for Java 以特定角度旋轉圖片
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /zh-hant/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

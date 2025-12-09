@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.PSD for Java का उपयोग करके PSD में इंटीर शैडो कैसे जोड़ें, सीखें।
   PSD फ़ाइलों में उन्नत लेयर सुविधाएँ, प्रभाव और संसाधन प्रबंधन का अन्वेषण करें।
-language: hi
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: आंतरिक छाया PSD जावा कैसे जोड़ें – उन्नत लेयर इफ़ेक्ट्स
-url: /java/advanced-psd-layer-features-effects/
+url: /hi/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

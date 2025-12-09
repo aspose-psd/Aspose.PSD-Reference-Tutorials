@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Aspose.PSD의 Bicubic Resampler를 사용하여 Java에서 고품질 이미지 스케일링을 구현하는 방법을 배워보세요.
   뛰어난 결과를 위한 단계별 가이드를 따라가세요.
-language: ko
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java에서 Bicubic Resampler를 사용한 고품질 이미지 스케일링
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /ko/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

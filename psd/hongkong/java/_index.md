@@ -1,10 +1,9 @@
 ---
 date: 2025-11-30
 description: 解鎖 Aspose.PSD for Java 的強大功能，創建灰階影像 Java 並優化 PNG Java。掌握濾鏡、轉換與進階編輯，並提供逐步指南。
-language: zh-hant
 linktitle: Aspose.PSD for Java Tutorials
 title: 使用 Aspose.PSD 的全面灰階圖像 Java 教程與範例
-url: /java/
+url: /zh-hant/java/
 weight: 10
 ---
 

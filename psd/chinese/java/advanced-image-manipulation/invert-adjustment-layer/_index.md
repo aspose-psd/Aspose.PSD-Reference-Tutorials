@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: 学习如何使用图像处理 Java 库 Aspose.PSD 应用多个调整图层，包括反相调整图层，以实现无缝的 PSD 操作。
-language: zh
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 图像处理 Java 库：使用 Aspose.PSD 反转图层
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /zh/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

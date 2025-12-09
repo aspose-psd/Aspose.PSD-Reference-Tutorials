@@ -3,12 +3,11 @@ date: 2025-12-08
 description: Aprende a convertir PSD a PNG y a redimensionar imágenes proporcionalmente
   en Java usando Aspose.PSD. Este tutorial paso a paso cubre el almacenamiento en
   caché de imágenes, el redimensionado y la guardado como PNG.
-language: es
 linktitle: Convert PSD to PNG & Resize Proportionally
 second_title: Aspose.PSD Java API
 title: Cómo convertir PSD a PNG y redimensionar proporcionalmente con Aspose.PSD para
   Java
-url: /java/advanced-image-manipulation/resize-image-proportionally/
+url: /es/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 

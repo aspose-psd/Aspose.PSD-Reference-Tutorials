@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Изучите, как использовать Java‑библиотеку обработки изображений Aspose.PSD
   для применения нескольких корректирующих слоёв, включая слой инвертирования, для
   бесшовного редактирования PSD.
-language: ru
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Библиотека Java для обработки изображений: Инвертировать слой с помощью Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /ru/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

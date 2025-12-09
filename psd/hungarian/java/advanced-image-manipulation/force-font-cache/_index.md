@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Tanulja meg, hogyan mentse el a PSD fájlt, kényszerítse a betűkészlet-gyorsítót,
   és javítsa a képek teljesítményét az Aspose.PSD for Java használatával. Lépésről‑lépésre
   útmutató a képfeldolgozás optimalizálásához.
-language: hu
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Hogyan menthet PSD fájlt és kényszerítheti a betűkészlet-gyorsítótárat az Aspose.PSD
   for Java-val
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /hu/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Μάθετε πώς να χρησιμοποιείτε τη βιβλιοθήκη επεξεργασίας εικόνας Java
   Aspose.PSD για να εφαρμόζετε πολλαπλά στρώματα προσαρμογής, συμπεριλαμβανομένου
   του στρώματος προσαρμογής Αντιστροφής, για αδιάλειπτη διαχείριση αρχείων PSD.
-language: el
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Βιβλιοθήκη Java Επεξεργασίας Εικόνας: Αντιστροφή Στρώματος με Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /el/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

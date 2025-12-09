@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Scopri come salvare un PSD come PNG con una sovrapposizione di colore
   usando Aspose.PSD per Java. Questa guida passo‑passo copre la manipolazione delle
   immagini in Java, il colore di sovrapposizione e l'esportazione di PNG con alfa.
-language: it
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Come salvare un PSD come PNG con effetto di rendering colore usando Aspose.PSD
   per Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /it/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 学习如何使用 Aspose.PSD for Java 为 PSD 添加内阴影。探索 PSD 文件中的高级图层功能、效果和资源管理。
-language: zh
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: 如何在 PSD Java 中添加内阴影 – 高级图层效果
-url: /java/advanced-psd-layer-features-effects/
+url: /zh/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

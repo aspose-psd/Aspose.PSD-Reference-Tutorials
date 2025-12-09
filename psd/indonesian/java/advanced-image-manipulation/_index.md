@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara memutar gambar dengan Java dan melakukan manipulasi gambar
   lanjutan menggunakan Aspose.PSD untuk Java, termasuk penggantian font, resampler
   bikubik, dan lainnya.
-language: id
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Putar Gambar Java dengan Aspose.PSD – Manipulasi Gambar Tingkat Lanjut
-url: /java/advanced-image-manipulation/
+url: /id/java/advanced-image-manipulation/
 weight: 24
 ---
 

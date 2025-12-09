@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Μάθετε πώς να εφαρμόζετε εφέ διαβάθμισης σε εικόνες Java χρησιμοποιώντας
   το Aspose.PSD. Ακολουθήστε αυτόν τον οδηγό βήμα‑βήμα για αδιάκοπη ενσωμάτωση.
-language: el
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Πώς να εφαρμόσετε εφέ διαβάθμισης στο Aspose.PSD για Java
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /el/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

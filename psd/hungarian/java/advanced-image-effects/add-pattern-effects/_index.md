@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Ismerje meg, hogyan adhat hozzá mintázat‑átfedés hatásokat PSD fájlokhoz
   az Aspose.PSD for Java segítségével. Lépésről‑lépésre útmutató kódrészletekkel és
   hibaelhárítási tippekkel.
-language: hu
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Minta átfedés effektusok hozzáadása az Aspose.PSD for Java-ban
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /hu/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

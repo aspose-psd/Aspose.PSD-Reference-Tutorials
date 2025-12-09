@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.PSD를 사용하여 Java에서 특정 각도로 이미지를 회전하는 방법을 배워보세요. 이 가이드에서는 Java 이미지
   회전, 특정 각도 회전, 배경 처리 등 다양한 내용을 다룹니다.
-language: ko
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java를 사용하여 특정 각도로 이미지 회전하는 방법
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /ko/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

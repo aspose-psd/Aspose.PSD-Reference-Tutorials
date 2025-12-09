@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.PSD를 사용하여 Java에서 캔버스에 이미지를 그리고 서명을 오버레이하는 방법을 배우세요. 이 단계별 Java
   이미지 처리 튜토리얼을 따라 결과를 PNG로 저장하십시오.
-language: ko
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: 캔버스에 이미지 그리기 – Aspose.PSD for Java로 서명 추가
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /ko/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

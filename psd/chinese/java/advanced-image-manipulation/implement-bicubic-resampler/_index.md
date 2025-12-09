@@ -1,11 +1,10 @@
 ---
 date: 2025-12-01
 description: 了解如何使用 Aspose.PSD 的双三次重采样器在 Java 中实现高质量图像缩放。按照我们的分步指南，获得卓越效果。
-language: zh
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: 在 Aspose.PSD for Java 中使用双三次重采样实现高质量图像缩放
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /zh/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

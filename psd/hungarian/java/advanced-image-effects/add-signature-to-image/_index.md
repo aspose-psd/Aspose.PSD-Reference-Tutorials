@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tanulja meg, hogyan rajzolhat képet a vászonra, és helyezzen el egy aláírást
   Java-ban az Aspose.PSD használatával. Kövesse ezt a lépésről‑lépésre szóló Java
   képfeldolgozási útmutatót, és mentse az eredményt PNG formátumban.
-language: hu
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Kép rajzolása a vásznon – Aláírás hozzáadása az Aspose.PSD for Java-val
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /hu/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

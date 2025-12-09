@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Tudja meg, hogyan adhat hozzá körvonalat, és módosíthatja a PSD körvonal
   színét az Aspose.PSD for Java segítségével. Kövesse ezt a lépésről‑lépésre útmutatót
   a körvonal réteg színének és átlátszóságának módosításához.
-language: hu
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Hogyan adjon hozzá körvonal réteg színt az Aspose.PSD for Java-ban
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /hu/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

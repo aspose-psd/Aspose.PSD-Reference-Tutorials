@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Μάθετε πώς να προσθέσετε περίγραμμα και να αλλάξετε το χρώμα του περιγράμματος
   PSD χρησιμοποιώντας το Aspose.PSD για Java. Ακολουθήστε αυτόν τον οδηγό βήμα‑βήμα
   για να τροποποιήσετε το χρώμα και τη διαφάνεια του στρώματος περιγράμματος.
-language: el
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Πώς να προσθέσετε χρώμα στρώσης περιγράμματος στο Aspose.PSD για Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /el/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

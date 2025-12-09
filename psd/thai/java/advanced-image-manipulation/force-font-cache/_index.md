@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: เรียนรู้วิธีบันทึกไฟล์ PSD, บังคับแคชฟอนต์, และปรับปรุงประสิทธิภาพของภาพด้วย
   Aspose.PSD for Java คู่มือขั้นตอนต่อขั้นตอนสำหรับการเพิ่มประสิทธิภาพการประมวลผลภาพ
-language: th
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: วิธีบันทึกไฟล์ PSD และบังคับแคชฟอนต์ด้วย Aspose.PSD สำหรับ Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /th/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Μάθετε πώς να εκτελείτε την αντικατάσταση γραμματοσειρών Aspose PSD σε
   Java. Αυτό το βήμα‑βήμα σεμινάριο επεξεργασίας εικόνας Java σας δείχνει πώς να αντικαθιστάτε
   γραμματοσειρές σε αρχεία PSD αποδοτικά.
-language: el
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Αντικατάσταση γραμματοσειρών PSD με Aspose σε Java – Αντικατάσταση γραμματοσειρών
   σε αρχεία PSD
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /el/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

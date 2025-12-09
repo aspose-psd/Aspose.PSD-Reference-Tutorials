@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Leer hoe je een PSD‑bestand opslaat, de lettertypecache forceert en de
   beeldprestaties verbetert met Aspose.PSD voor Java. Stapsgewijze gids voor optimalisatie
   van beeldverwerking.
-language: nl
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Hoe een PSD‑bestand opslaan en de lettertypecache forceren met Aspose.PSD voor
   Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /nl/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

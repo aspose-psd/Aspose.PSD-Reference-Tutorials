@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Узнайте, как сохранять PSD в PNG, конвертировать PSD в PNG и применять
   слой теней с помощью Aspose.PSD для Java — полное пошаговое руководство.
-language: ru
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Сохранить PSD в PNG и применить рендеринг тени в Aspose.PSD для Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /ru/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

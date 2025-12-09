@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Scopri come aggiungere un'ombra interna in PSD Java usando Aspose.PSD
   per Java. Esplora le funzionalità avanzate dei livelli, gli effetti e la gestione
   delle risorse nei file PSD.
-language: it
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: Come aggiungere l'ombra interna PSD Java – Effetti di livello avanzati
-url: /java/advanced-psd-layer-features-effects/
+url: /it/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

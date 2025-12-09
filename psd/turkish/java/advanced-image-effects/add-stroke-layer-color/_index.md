@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aspose.PSD for Java kullanarak çizgi eklemeyi ve PSD çizgi rengini değiştirmeyi
   öğrenin. Çizgi katmanı rengini ve opaklığını değiştirmek için bu adım adım rehberi
   izleyin.
-language: tr
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java'da Çizgi Katmanı Rengini Nasıl Eklenir
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /tr/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Tìm hiểu cách thêm đường viền và thay đổi màu đường viền PSD bằng Aspose.PSD
   cho Java. Hãy làm theo hướng dẫn từng bước này để chỉnh sửa màu và độ trong suốt
   của lớp đường viền.
-language: vi
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Cách Thêm Màu Đường Viền cho Lớp trong Aspose.PSD cho Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /vi/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

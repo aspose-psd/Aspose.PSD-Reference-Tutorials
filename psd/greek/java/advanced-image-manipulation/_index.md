@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να περιστρέφετε εικόνα σε Java και να εκτελείτε προχωρημένη
   επεξεργασία εικόνας χρησιμοποιώντας το Aspose.PSD για Java, συμπεριλαμβανομένης
   της αντικατάστασης γραμματοσειράς, του βικυβικού επαναδειγματολήπτη και άλλων.
-language: el
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Περιστροφή εικόνας Java με Aspose.PSD – Προηγμένη επεξεργασία εικόνας
-url: /java/advanced-image-manipulation/
+url: /el/java/advanced-image-manipulation/
 weight: 24
 ---
 

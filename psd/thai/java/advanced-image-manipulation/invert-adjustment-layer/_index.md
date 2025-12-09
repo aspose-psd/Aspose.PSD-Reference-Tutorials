@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: เรียนรู้วิธีใช้ไลบรารีการประมวลผลภาพ Java Aspose.PSD เพื่อใช้หลายเลเยอร์การปรับค่า
   รวมถึงเลเยอร์ปรับค่า Invert สำหรับการจัดการ PSD อย่างราบรื่น
-language: th
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'ไลบรารีการประมวลผลภาพ Java: กลับเลเยอร์ด้วย Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /th/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

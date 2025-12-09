@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Naučte se, jak uložit PSD jako PNG, převést PSD na PNG a přidat vrstvu
   s vrženým stínem pomocí Aspose.PSD pro Javu – kompletní, krok za krokem průvodce.
-language: cs
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Uložte PSD jako PNG a aplikujte vykreslovací vržený stín v Aspose.PSD pro Javu
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /cs/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

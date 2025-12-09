@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Tanulja meg, hogyan alkalmazhat gradient hatásokat Java képeken az Aspose.PSD
   használatával. Kövesse ezt a lépésről‑lépésre útmutatót a zökkenőmentes integrációhoz.
-language: hu
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Hogyan alkalmazzunk színátmenet hatásokat az Aspose.PSD for Java-ban
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /hu/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

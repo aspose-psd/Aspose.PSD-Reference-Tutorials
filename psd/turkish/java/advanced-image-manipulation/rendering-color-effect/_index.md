@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Java için Aspose.PSD kullanarak renk örtüsüyle PSD'yi PNG olarak kaydetmeyi
   öğrenin. Bu adım adım rehber, Java görüntü işleme, örtü rengi ve alfa kanalıyla
   PNG dışa aktarmayı kapsar.
-language: tr
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java kullanarak Rendering Color Effect ile PSD'yi PNG olarak
   kaydetme
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /tr/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aprenda a usar la biblioteca Java de procesamiento de imágenes Aspose.PSD
   para aplicar múltiples capas de ajuste, incluida la capa de ajuste Invertir, para
   una manipulación fluida de archivos PSD.
-language: es
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Biblioteca Java de procesamiento de imágenes: invertir capa con Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /es/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

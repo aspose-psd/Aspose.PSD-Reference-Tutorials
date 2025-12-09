@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Dowiedz się, jak obrócić obraz o określony kąt w Javie przy użyciu Aspose.PSD.
   Poradnik obejmuje obracanie obrazu w Javie, obracanie obrazu o konkretny kąt, obsługę
   tła i wiele więcej.
-language: pl
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Jak obrócić obraz pod określonym kątem przy użyciu Aspose.PSD dla Javy
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /pl/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

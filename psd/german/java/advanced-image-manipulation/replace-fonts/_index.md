@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie den Schriftartenaustausch in Aspose PSD mit Java
   durchführen. Dieses Schritt‑für‑Schritt‑Java‑Tutorial zur Bildbearbeitung zeigt
   Ihnen, wie Sie Schriftarten in PSD‑Dateien effizient ersetzen.
-language: de
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Aspose PSD-Schriftartenersatz in Java – Schriftarten in PSD-Dateien ersetzen
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /de/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

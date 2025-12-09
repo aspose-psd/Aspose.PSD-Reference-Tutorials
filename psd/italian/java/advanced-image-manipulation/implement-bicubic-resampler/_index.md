@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Scopri come ottenere una scalatura di immagini ad alta qualità in Java
   usando il Bicubic Resampler di Aspose.PSD. Segui la nostra guida passo‑passo per
   risultati superiori.
-language: it
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: Ridimensionamento di immagini ad alta qualità con il ricampionatore bicubico
   in Aspose.PSD per Java
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /it/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

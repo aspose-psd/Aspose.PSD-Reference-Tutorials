@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: เรียนรู้วิธีทำให้การปรับขนาดภาพคุณภาพสูงใน Java ด้วย Bicubic Resampler
   ของ Aspose.PSD. ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อผลลัพธ์ที่เหนือกว่า.
-language: th
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: การปรับขนาดภาพคุณภาพสูงด้วย Bicubic Resampler ใน Aspose.PSD สำหรับ Java
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /th/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

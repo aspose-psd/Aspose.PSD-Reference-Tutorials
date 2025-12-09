@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Scopri come utilizzare la libreria Java per l'elaborazione delle immagini
   Aspose.PSD per applicare più livelli di regolazione, incluso il Livello di Regolazione
   Inverti, per una manipolazione fluida dei PSD.
-language: it
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Libreria Java per l''elaborazione delle immagini: Inverti livello con Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /it/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

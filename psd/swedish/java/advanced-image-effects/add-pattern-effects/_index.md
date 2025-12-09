@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Lär dig hur du lägger till mönsteröverlagringseffekter i PSD‑filer med
   Aspose.PSD för Java. Steg‑för‑steg‑guide med kodexempel och felsökningstips.
-language: sv
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Lägg till mönsteröverlagringseffekter i Aspose.PSD för Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /sv/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

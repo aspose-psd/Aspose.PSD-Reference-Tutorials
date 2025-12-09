@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.PSD for Java kullanarak PSD dosyalarına desen bindirme efektleri
   eklemeyi öğrenin. Kod örnekleri ve sorun giderme ipuçlarıyla adım adım rehber.
-language: tr
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java'da Desen Kaplama Efektlerini Ekleyin
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /tr/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

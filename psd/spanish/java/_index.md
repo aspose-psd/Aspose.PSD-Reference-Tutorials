@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Desbloquea el poder de Aspose.PSD para Java para crear imágenes en escala
   de grises en Java y optimizar PNG en Java. Domina filtros, conversiones y edición
   avanzada con guías paso a paso.
-language: es
 linktitle: Aspose.PSD for Java Tutorials
 title: Tutoriales y ejemplos completos de imágenes en escala de grises en Java con
   Aspose.PSD
-url: /java/
+url: /es/java/
 weight: 10
 ---
 

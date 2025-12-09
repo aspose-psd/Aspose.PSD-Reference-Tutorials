@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Dowiedz się, jak zapisać plik PSD jako PNG z nakładką kolorową przy użyciu
   Aspose.PSD dla Javy. Ten przewodnik krok po kroku obejmuje manipulację obrazem w
   Javie, nakładanie koloru oraz eksportowanie PNG z kanałem alfa.
-language: pl
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Jak zapisać plik PSD jako PNG z efektem renderowania koloru przy użyciu Aspose.PSD
   dla Javy
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /pl/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

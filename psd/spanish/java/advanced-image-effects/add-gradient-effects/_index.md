@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aprende a aplicar efectos de degradado en imágenes Java usando Aspose.PSD.
   Sigue esta guía paso a paso para una integración sin problemas.
-language: es
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Cómo aplicar efectos de degradado en Aspose.PSD para Java
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /es/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

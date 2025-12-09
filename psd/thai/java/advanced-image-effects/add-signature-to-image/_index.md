@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: เรียนรู้วิธีวาดภาพบนแคนวาสและใส่ลายเซ็นทับใน Java ด้วย Aspose.PSD ทำตามบทเรียนการประมวลผลภาพ
   Java ทีละขั้นตอนนี้และบันทึกผลลัพธ์เป็น PNG.
-language: th
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: วาดภาพบนแคนวาส – เพิ่มลายเซ็นด้วย Aspose.PSD สำหรับ Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /th/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

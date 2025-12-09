@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Tìm hiểu cách thêm bóng nội trong PSD Java bằng Aspose.PSD cho Java.
   Khám phá các tính năng lớp nâng cao, hiệu ứng và quản lý tài nguyên trong tệp PSD.
-language: vi
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: Cách Thêm Bóng Nội trong PSD Java – Hiệu Ứng Lớp Nâng Cao
-url: /java/advanced-psd-layer-features-effects/
+url: /vi/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

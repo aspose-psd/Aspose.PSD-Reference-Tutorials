@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Apprenez comment ajouter des effets de superposition de motif aux fichiers
   PSD en utilisant Aspose.PSD pour Java. Guide étape par étape avec des exemples de
   code et des conseils de dépannage.
-language: fr
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Ajouter des effets de superposition de motif dans Aspose.PSD pour Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /fr/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

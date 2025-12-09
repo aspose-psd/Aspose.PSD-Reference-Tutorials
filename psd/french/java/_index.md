@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Débloquez la puissance d’Aspose.PSD pour Java afin de créer des images
   en niveaux de gris Java et d’optimiser les PNG Java. Maîtrisez les filtres, les
   conversions et l’édition avancée grâce à des guides pas à pas.
-language: fr
 linktitle: Aspose.PSD for Java Tutorials
 title: Tutoriels et exemples Java complets sur les images en niveaux de gris avec
   Aspose.PSD
-url: /java/
+url: /fr/java/
 weight: 10
 ---
 

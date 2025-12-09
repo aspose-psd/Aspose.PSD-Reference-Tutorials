@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Aspose.PSD के बाइक्यूबिक रिसैम्पलर का उपयोग करके जावा में उच्च गुणवत्ता
   वाली इमेज स्केलिंग कैसे प्राप्त करें, सीखें। श्रेष्ठ परिणामों के लिए हमारे चरण‑दर‑चरण
   गाइड का पालन करें।
-language: hi
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java में बाइक्यूबिक रिसैम्पलर के साथ उच्च गुणवत्ता वाली इमेज
   स्केलिंग
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /hi/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

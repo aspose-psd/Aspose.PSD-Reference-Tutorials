@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Узнайте, как вращать изображение в Java и выполнять продвинутую обработку
   изображений с помощью Aspose.PSD для Java, включая замену шрифтов, бикубический
   ресемплер и многое другое.
-language: ru
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Поворот изображения в Java с Aspose.PSD – продвинутая обработка изображений
-url: /java/advanced-image-manipulation/
+url: /ru/java/advanced-image-manipulation/
 weight: 24
 ---
 

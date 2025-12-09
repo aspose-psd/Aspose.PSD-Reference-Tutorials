@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Dowiedz się, jak zapisać plik PSD, wymusić pamięć podręczną czcionek
   i poprawić wydajność obrazu przy użyciu Aspose.PSD dla Javy. Przewodnik krok po
   kroku po optymalizacji przetwarzania obrazów.
-language: pl
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Jak zapisać plik PSD i wymusić pamięć podręczną czcionek przy użyciu Aspose.PSD
   dla Javy
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /pl/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

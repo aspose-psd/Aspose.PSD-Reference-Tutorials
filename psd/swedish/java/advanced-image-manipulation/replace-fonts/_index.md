@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lär dig hur du utför Aspose PSD-typsnittbyte i Java. Denna steg‑för‑steg
   Java‑bildmanipuleringshandledning visar dig hur du effektivt ersätter typsnitt i
   PSD‑filer.
-language: sv
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Aspose PSD‑teckensnittbyte i Java – Ersätt teckensnitt i PSD‑filer
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /sv/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

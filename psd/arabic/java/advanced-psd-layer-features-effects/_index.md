@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية إضافة الظل الداخلي في PSD باستخدام Java عبر Aspose.PSD للـ
   Java. استكشف ميزات الطبقات المتقدمة، التأثيرات، وإدارة الموارد في ملفات PSD.
-language: ar
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: كيفية إضافة الظل الداخلي في PSD جافا – تأثيرات الطبقة المتقدمة
-url: /java/advanced-psd-layer-features-effects/
+url: /ar/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: เรียนรู้วิธีเพิ่มเส้นขอบและเปลี่ยนสีเส้นขอบของ PSD ด้วย Aspose.PSD สำหรับ
   Java. ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อแก้ไขสีและความทึบของเลเยอร์เส้นขอบ.
-language: th
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: วิธีเพิ่มสีของเลเยอร์เส้นขอบใน Aspose.PSD สำหรับ Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /th/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

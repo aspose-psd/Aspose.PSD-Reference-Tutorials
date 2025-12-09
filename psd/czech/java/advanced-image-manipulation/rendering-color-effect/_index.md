@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak uložit PSD jako PNG s barevným překrytím pomocí Aspose.PSD
   pro Java. Tento krok‑za‑krokem průvodce pokrývá manipulaci s obrázky v Javě, barvu
   překrytí a export PNG s alfa kanálem.
-language: cs
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Jak uložit PSD jako PNG s efektem renderování barev pomocí Aspose.PSD pro Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /cs/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

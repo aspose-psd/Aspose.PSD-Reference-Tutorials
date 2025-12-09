@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aspose.PSD görüntü işleme Java kütüphanesini kullanarak, Ters Çevirme
   Ayar Katmanı da dahil olmak üzere birden fazla ayar katmanını uygulamayı öğrenin
   ve sorunsuz PSD manipülasyonu yapın.
-language: tr
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Görüntü İşleme Java Kütüphanesi: Aspose.PSD ile Katmanı Tersine Çevir'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /tr/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

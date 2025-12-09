@@ -4,12 +4,11 @@ description: Apprenez à enregistrer un PSD au format PNG avec une superposition
   couleur à l'aide d'Aspose.PSD pour Java. Ce guide étape par étape couvre la manipulation
   d'images en Java, la couleur de superposition et l'exportation du PNG avec canal
   alpha.
-language: fr
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Comment enregistrer un PSD au format PNG avec effet de rendu de couleur en
   utilisant Aspose.PSD pour Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /fr/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

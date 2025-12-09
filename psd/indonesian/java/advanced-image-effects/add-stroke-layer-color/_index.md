@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Pelajari cara menambahkan goresan dan mengubah warna goresan PSD menggunakan
   Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah ini untuk memodifikasi
   warna lapisan goresan dan opasitasnya.
-language: id
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Cara Menambahkan Warna Lapisan Stroke di Aspose.PSD untuk Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /id/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

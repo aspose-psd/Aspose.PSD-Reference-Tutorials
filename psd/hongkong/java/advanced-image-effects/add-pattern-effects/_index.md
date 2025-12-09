@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 學習如何使用 Aspose.PSD for Java 為 PSD 檔案添加圖案覆蓋效果。逐步指南，附有程式碼範例與故障排除技巧。
-language: zh-hant
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: 在 Aspose.PSD for Java 中新增圖案覆蓋效果
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /zh-hant/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

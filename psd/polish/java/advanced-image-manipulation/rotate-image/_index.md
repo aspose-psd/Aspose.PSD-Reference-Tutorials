@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Dowiedz się, jak obrócić obraz o 270 stopni przy użyciu Aspose.PSD for
   Java. Ten przewodnik pokazuje, jak obracać pliki PSD, odwracać obrazy i konwertować
   PSD na JPEG.
-language: pl
 linktitle: Rotate Image 270 Degrees
 second_title: Aspose.PSD Java API
 title: Jak obrócić obraz o 270 stopni przy użyciu Aspose.PSD dla Javy
-url: /java/advanced-image-manipulation/rotate-image/
+url: /pl/java/advanced-image-manipulation/rotate-image/
 weight: 19
 ---
 

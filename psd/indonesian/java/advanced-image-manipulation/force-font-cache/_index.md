@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Pelajari cara menyimpan file PSD, memaksa cache font, dan meningkatkan
   kinerja gambar menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah untuk
   optimalisasi pemrosesan gambar.
-language: id
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Cara Menyimpan File PSD dan Memaksa Cache Font dengan Aspose.PSD untuk Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /id/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

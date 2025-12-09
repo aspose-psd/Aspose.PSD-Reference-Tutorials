@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีบันทึกไฟล์ PSD เป็น PNG, แปลง PSD เป็น PNG, และใช้ชั้นเงาตกด้วย
   Aspose.PSD สำหรับ Java – คู่มือครบถ้วนแบบขั้นตอนต่อขั้นตอน
-language: th
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: บันทึก PSD เป็น PNG และใช้เงาตกหล่นในการเรนเดอร์ใน Aspose.PSD สำหรับ Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /th/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

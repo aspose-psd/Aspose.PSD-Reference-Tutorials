@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se, jak otočit obrázek o konkrétní úhel v Javě pomocí Aspose.PSD.
   Průvodce zahrnuje otáčení obrázku v Javě, otáčení obrázku o specifický úhel, práci
   s pozadím a další.
-language: cs
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Jak otočit obrázek o konkrétní úhel pomocí Aspose.PSD pro Javu
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /cs/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

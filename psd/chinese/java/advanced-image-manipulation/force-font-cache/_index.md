@@ -1,11 +1,10 @@
 ---
 date: 2025-12-01
 description: 了解如何使用 Aspose.PSD for Java 保存 PSD 文件、强制字体缓存并提升图像性能。图像处理优化的分步指南。
-language: zh
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: 如何使用 Aspose.PSD for Java 保存 PSD 文件并强制字体缓存
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /zh/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

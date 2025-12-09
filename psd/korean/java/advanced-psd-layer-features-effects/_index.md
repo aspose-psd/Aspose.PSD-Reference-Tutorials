@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.PSD for Java를 사용하여 PSD에 내부 그림자를 추가하는 방법을 배워보세요. PSD 파일에서 고급 레이어
   기능, 효과 및 리소스 관리를 탐색하세요.
-language: ko
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: PSD Java에서 내부 그림자 추가하기 – 고급 레이어 효과
-url: /java/advanced-psd-layer-features-effects/
+url: /ko/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

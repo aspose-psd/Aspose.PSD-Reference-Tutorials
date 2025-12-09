@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aprenda a usar a biblioteca Java de processamento de imagens Aspose.PSD
   para aplicar múltiplas camadas de ajuste, incluindo a Camada de Ajuste Inverter,
   para uma manipulação de PSD perfeita.
-language: pt
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Biblioteca Java de Processamento de Imagem: Inverter Camada usando Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /pt/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

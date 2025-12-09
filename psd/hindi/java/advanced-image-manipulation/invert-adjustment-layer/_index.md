@@ -3,11 +3,10 @@ date: 2025-12-02
 description: इमेज प्रोसेसिंग जावा लाइब्रेरी Aspose.PSD का उपयोग करके कई एडजस्टमेंट
   लेयर्स, जिसमें इनवर्ट एडजस्टमेंट लेयर भी शामिल है, को लागू करना सीखें, ताकि PSD
   को सहजता से मैनिपुलेट किया जा सके।
-language: hi
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'इमेज प्रोसेसिंग जावा लाइब्रेरी: Aspose.PSD के साथ लेयर को उलटें'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /hi/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

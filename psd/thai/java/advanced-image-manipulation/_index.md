@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีหมุนภาพด้วย Java และทำการจัดการภาพขั้นสูงโดยใช้ Aspose.PSD
   สำหรับ Java รวมถึงการเปลี่ยนฟอนต์, ตัวแปลงแบบบิกิวบิก, และอื่น ๆ
-language: th
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: หมุนรูปภาพด้วย Java และ Aspose.PSD – การจัดการรูปภาพขั้นสูง
-url: /java/advanced-image-manipulation/
+url: /th/java/advanced-image-manipulation/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Μάθετε πώς να σχεδιάζετε εικόνα σε καμβά και να προσθέτετε μια υπογραφή
   σε Java χρησιμοποιώντας το Aspose.PSD. Ακολουθήστε αυτό το βήμα‑βήμα tutorial επεξεργασίας
   εικόνας σε Java και αποθηκεύστε το αποτέλεσμα ως PNG.
-language: el
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Σχεδίαση εικόνας σε καμβά – Προσθήκη υπογραφής με το Aspose.PSD για Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /el/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

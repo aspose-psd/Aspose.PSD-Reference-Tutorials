@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: เรียนรู้วิธีเพิ่มเอฟเฟกต์การซ้อนลายแบบลงบนไฟล์ PSD ด้วย Aspose.PSD สำหรับ
   Java คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ดและเคล็ดลับการแก้ปัญหา
-language: th
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: เพิ่มเอฟเฟกต์การซ้อนลายแบบใน Aspose.PSD สำหรับ Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /th/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

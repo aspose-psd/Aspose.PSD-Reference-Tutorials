@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.PSD for Java를 사용하여 스트로크를 추가하고 PSD 스트로크 색상을 변경하는 방법을 배워보세요. 이 단계별
   가이드를 따라 스트로크 레이어 색상과 불투명도를 수정하세요.
-language: ko
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java에서 스트로크 레이어 색상 추가 방법
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /ko/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

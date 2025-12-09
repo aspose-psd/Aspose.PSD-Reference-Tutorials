@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Java'da Aspose PSD yazı tipi değişimini nasıl yapacağınızı öğrenin. Bu
   adım adım Java görüntü işleme öğreticisi, PSD dosyalarındaki yazı tiplerini verimli
   bir şekilde nasıl değiştireceğinizi gösterir.
-language: tr
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Aspose PSD Yazı Tipi Değiştirme Java’da – PSD Dosyalarındaki Yazı Tiplerini
   Değiştir
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /tr/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

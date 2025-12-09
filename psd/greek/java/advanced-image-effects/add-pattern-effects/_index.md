@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Μάθετε πώς να προσθέτετε εφέ επικάλυψης μοτίβου σε αρχεία PSD χρησιμοποιώντας
   το Aspose.PSD για Java. Οδηγός βήμα‑προς‑βήμα με παραδείγματα κώδικα και συμβουλές
   αντιμετώπισης προβλημάτων.
-language: el
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Προσθήκη εφέ επικάλυψης μοτίβου στο Aspose.PSD για Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /el/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

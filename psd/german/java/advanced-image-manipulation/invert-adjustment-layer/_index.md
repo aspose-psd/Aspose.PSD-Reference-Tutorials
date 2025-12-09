@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Erfahren Sie, wie Sie die Bildverarbeitungs‑Java‑Bibliothek Aspose.PSD
   verwenden, um mehrere Einstellungsebenen, einschließlich der Invertierung‑Einstellungsebene,
   für nahtlose PSD‑Manipulation anzuwenden.
-language: de
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Java-Bibliothek zur Bildverarbeitung: Ebene invertieren mit Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /de/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Apprenez à effectuer le remplacement de polices Aspose PSD en Java. Ce
   tutoriel pas à pas de manipulation d’images Java vous montre comment remplacer efficacement
   les polices dans les fichiers PSD.
-language: fr
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Remplacement de polices PSD Aspose en Java – Remplacer les polices dans les
   fichiers PSD
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /fr/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

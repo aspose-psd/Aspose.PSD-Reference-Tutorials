@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Leer hoe je PSD naar PNG kunt converteren en afbeeldingen proportioneel
   kunt schalen in Java met Aspose.PSD. Deze stapsgewijze tutorial behandelt het cachen
   van afbeeldingen, het schalen en het opslaan als PNG.
-language: nl
 linktitle: Convert PSD to PNG & Resize Proportionally
 second_title: Aspose.PSD Java API
 title: Hoe PSD naar PNG converteren en proportioneel schalen met Aspose.PSD voor Java
-url: /java/advanced-image-manipulation/resize-image-proportionally/
+url: /nl/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 

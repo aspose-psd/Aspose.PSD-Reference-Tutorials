@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tanulja meg, hogyan használja a képfeldolgozó Java könyvtárat, az Aspose.PSD-t,
   hogy több beállítási réteget alkalmazzon, beleértve az Invertálás beállítási réteget,
   a zökkenőmentes PSD-manipuláció érdekében.
-language: hu
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Képfeldolgozó Java könyvtár: Réteg invertálása az Aspose.PSD használatával'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /hu/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

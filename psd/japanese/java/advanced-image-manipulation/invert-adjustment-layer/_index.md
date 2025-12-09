@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: 画像処理用JavaライブラリAspose.PSDを使用して、インバート調整レイヤーを含む複数の調整レイヤーを適用し、シームレスにPSDを操作する方法を学びましょう。
-language: ja
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 画像処理 Java ライブラリ：Aspose.PSD を使用したレイヤーの反転
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /ja/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

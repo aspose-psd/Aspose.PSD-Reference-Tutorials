@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Aspose.PSD for Java का उपयोग करके PSD फ़ाइल को सहेजना, फ़ॉन्ट कैश को
   फ़ोर्स करना, और इमेज प्रदर्शन को बेहतर बनाना सीखें। इमेज प्रोसेसिंग ऑप्टिमाइज़ेशन
   के लिए चरण-दर-चरण गाइड।
-language: hi
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java के साथ PSD फ़ाइल को कैसे सहेजें और फ़ॉन्ट कैश को फोर्स
   करें
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /hi/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

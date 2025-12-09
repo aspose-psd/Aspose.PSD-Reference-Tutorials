@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何使用 Aspose.PSD for Java 旋轉圖像並執行進階圖像處理，包括字型替換、雙三次重取樣等。
-language: zh-hant
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: 使用 Aspose.PSD 的 Java 圖像旋轉 – 進階圖像處理
-url: /java/advanced-image-manipulation/
+url: /zh-hant/java/advanced-image-manipulation/
 weight: 24
 ---
 

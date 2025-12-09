@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aprende a agregar trazo y cambiar el color del trazo en PSD usando Aspose.PSD
   para Java. Sigue esta guía paso a paso para modificar el color y la opacidad de
   la capa de trazo.
-language: es
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Cómo agregar color de capa de trazo en Aspose.PSD para Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /es/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.PSD का उपयोग करके जावा में किसी विशिष्ट कोण पर छवि को घुमाना सीखें।
   यह गाइड rotate image java, rotate image specific angle, background handling और अधिक
   को कवर करता है।
-language: hi
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java के साथ किसी विशिष्ट कोण पर छवि कैसे घुमाएँ
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /hi/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

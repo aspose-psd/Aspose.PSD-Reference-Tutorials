@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Học cách đạt được việc phóng to/thu nhỏ hình ảnh chất lượng cao trong
   Java bằng cách sử dụng Bicubic Resampler của Aspose.PSD. Hãy làm theo hướng dẫn
   từng bước của chúng tôi để có kết quả vượt trội.
-language: vi
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
 title: Phóng to hình ảnh chất lượng cao bằng bộ tái mẫu Bicubic trong Aspose.PSD cho
   Java
-url: /java/advanced-image-manipulation/implement-bicubic-resampler/
+url: /vi/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
 

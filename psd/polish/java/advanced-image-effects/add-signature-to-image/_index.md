@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Dowiedz się, jak narysować obraz na płótnie i nałożyć podpis w Javie
   przy użyciu Aspose.PSD. Przejdź przez ten krok po kroku samouczek przetwarzania
   obrazów w Javie i zapisz wynik jako PNG.
-language: pl
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Rysowanie obrazu na płótnie – Dodaj podpis przy użyciu Aspose.PSD dla Javy
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /pl/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

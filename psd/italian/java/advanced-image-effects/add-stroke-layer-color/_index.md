@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Scopri come aggiungere il tratto e modificare il colore del tratto PSD
   usando Aspose.PSD per Java. Segui questa guida passo passo per modificare il colore
   e l'opacità del livello del tratto.
-language: it
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Come aggiungere il colore del contorno del livello in Aspose.PSD per Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /it/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

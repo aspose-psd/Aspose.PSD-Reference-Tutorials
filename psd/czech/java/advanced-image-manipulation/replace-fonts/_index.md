@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak provést nahrazení fontů v souborech PSD pomocí Aspose
   v Javě. Tento krok‑za‑krokem návod na manipulaci s obrázky v Javě vám ukáže, jak
   efektivně nahradit fonty v souborech PSD.
-language: cs
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Nahrazení fontů v PSD pomocí Aspose v Javě – Nahraďte fonty v souborech PSD
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /cs/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

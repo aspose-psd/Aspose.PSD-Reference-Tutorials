@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aprenda como girar a imagem 270 graus usando Aspose.PSD para Java. Este
   guia mostra como girar arquivos PSD, virar imagens e converter PSD para JPEG.
-language: pt
 linktitle: Rotate Image 270 Degrees
 second_title: Aspose.PSD Java API
 title: Como girar a imagem 270 graus com Aspose.PSD para Java
-url: /java/advanced-image-manipulation/rotate-image/
+url: /pt/java/advanced-image-manipulation/rotate-image/
 weight: 19
 ---
 

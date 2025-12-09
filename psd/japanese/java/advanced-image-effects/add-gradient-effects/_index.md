@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: Aspose.PSD を使用して Java 画像にグラデーション効果を適用する方法を学びましょう。シームレスな統合のためのステップバイステップガイドに従ってください。
-language: ja
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Javaでグラデーション効果を適用する方法
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /ja/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

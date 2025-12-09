@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Dowiedz się, jak dodać efekty nakładania wzoru do plików PSD przy użyciu
   Aspose.PSD dla Javy. Przewodnik krok po kroku z przykładami kodu i wskazówkami rozwiązywania
   problemów.
-language: pl
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Dodaj efekty nakładania wzoru w Aspose.PSD dla Javy
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /pl/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

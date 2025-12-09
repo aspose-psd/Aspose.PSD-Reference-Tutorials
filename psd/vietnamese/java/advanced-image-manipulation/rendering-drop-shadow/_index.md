@@ -2,12 +2,11 @@
 date: 2025-12-05
 description: Tìm hiểu cách lưu PSD thành PNG, chuyển đổi PSD sang PNG và áp dụng lớp
   đổ bóng bằng Aspose.PSD cho Java – một hướng dẫn đầy đủ, từng bước một.
-language: vi
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Lưu PSD dưới dạng PNG và áp dụng hiệu ứng đổ bóng khi render trong Aspose.PSD
   cho Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /vi/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

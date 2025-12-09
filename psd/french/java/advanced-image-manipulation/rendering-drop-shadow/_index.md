@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Apprenez à enregistrer un PSD au format PNG, à convertir un PSD en PNG
   et à appliquer une ombre portée à l'aide d'Aspose.PSD pour Java – un guide complet,
   étape par étape.
-language: fr
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Enregistrer le PSD au format PNG et appliquer l’ombre portée lors du rendu
   dans Aspose.PSD pour Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /fr/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

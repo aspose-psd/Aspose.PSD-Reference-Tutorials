@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.PSD를 사용하여 Java 이미지에 그라디언트 효과를 적용하는 방법을 배우세요. 원활한 통합을 위한 단계별 가이드를
   따라보세요.
-language: ko
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java에서 그라디언트 효과 적용 방법
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /ko/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

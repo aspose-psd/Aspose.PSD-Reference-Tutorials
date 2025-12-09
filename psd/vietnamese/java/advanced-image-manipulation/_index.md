@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách xoay ảnh trong Java và thực hiện các thao tác xử lý ảnh
   nâng cao bằng Aspose.PSD cho Java, bao gồm thay thế phông chữ, bộ lọc nội suy bicubic
   và nhiều hơn nữa.
-language: vi
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Xoay ảnh Java với Aspose.PSD – Xử lý ảnh nâng cao
-url: /java/advanced-image-manipulation/
+url: /vi/java/advanced-image-manipulation/
 weight: 24
 ---
 

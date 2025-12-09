@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.PSD kullanarak Java’da PSD’yi PNG’ye dönüştürmeyi ve görüntüleri
   orantılı olarak yeniden boyutlandırmayı öğrenin. Bu adım adım öğretici, görüntü
   önbelleğe almayı, yeniden boyutlandırmayı ve PNG olarak kaydetmeyi kapsar.
-language: tr
 linktitle: Convert PSD to PNG & Resize Proportionally
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java ile PSD'yi PNG'ye Dönüştürme ve Orantılı Yeniden Boyutlandırma
-url: /java/advanced-image-manipulation/resize-image-proportionally/
+url: /tr/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 

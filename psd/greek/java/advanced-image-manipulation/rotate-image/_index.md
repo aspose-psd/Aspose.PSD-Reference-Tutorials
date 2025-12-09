@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Μάθετε πώς να περιστρέφετε μια εικόνα κατά 270 μοίρες χρησιμοποιώντας
   το Aspose.PSD για Java. Αυτός ο οδηγός δείχνει πώς να περιστρέφετε αρχεία PSD, να
   αναστρέφετε εικόνες και να μετατρέπετε PSD σε JPEG.
-language: el
 linktitle: Rotate Image 270 Degrees
 second_title: Aspose.PSD Java API
 title: Πώς να περιστρέψετε την εικόνα κατά 270 μοίρες με το Aspose.PSD για Java
-url: /java/advanced-image-manipulation/rotate-image/
+url: /el/java/advanced-image-manipulation/rotate-image/
 weight: 19
 ---
 

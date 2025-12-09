@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Leer hoe u een PSD als PNG opslaat, een PSD naar PNG converteert en een
   slagschaduwlaag toepast met Aspose.PSD voor Java – een volledige, stapsgewijze handleiding.
-language: nl
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: PSD opslaan als PNG en renderingsschaduw toepassen in Aspose.PSD voor Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /nl/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 了解如何使用 Aspose.PSD for Java 添加描边并更改 PSD 描边颜色。请按照本分步指南修改描边图层的颜色和不透明度。
-language: zh
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: 如何在 Aspose.PSD for Java 中添加描边图层颜色
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /zh/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

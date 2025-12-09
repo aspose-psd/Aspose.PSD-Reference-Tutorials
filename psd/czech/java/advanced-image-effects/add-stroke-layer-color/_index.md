@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Naučte se, jak přidat obrys a změnit barvu obrysu v souboru PSD pomocí
   Aspose.PSD pro Javu. Postupujte podle tohoto krok‑za‑krokem průvodce a upravte barvu
   a průhlednost vrstvy obrysu.
-language: cs
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Jak přidat barvu obrysu vrstvy v Aspose.PSD pro Javu
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /cs/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

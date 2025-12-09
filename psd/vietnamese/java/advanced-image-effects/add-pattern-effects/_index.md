@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Tìm hiểu cách thêm hiệu ứng phủ mẫu vào tệp PSD bằng Aspose.PSD cho Java.
   Hướng dẫn từng bước kèm ví dụ mã và mẹo khắc phục sự cố.
-language: vi
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Thêm Hiệu Ứng Lớp Phủ Mẫu trong Aspose.PSD cho Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /vi/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.PSD for Java を使用して、Java で PSD にインナーレイヤーシャドウを追加する方法を学びましょう。PSD
   ファイルの高度なレイヤー機能、エフェクト、リソース管理を探求してください。
-language: ja
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: 内部シャドウの追加方法 PSD Java – 高度なレイヤー効果
-url: /java/advanced-psd-layer-features-effects/
+url: /ja/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.PSD kullanarak Java’da belirli bir açıyla resmi nasıl döndüreceğinizi
   öğrenin. Kılavuz, Java’da resmi döndürme, belirli bir açıyla resmi döndürme, arka
   plan işleme ve daha fazlasını kapsar.
-language: tr
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java ile Görüntüyü Belirli Bir Açıda Döndürme
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /tr/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

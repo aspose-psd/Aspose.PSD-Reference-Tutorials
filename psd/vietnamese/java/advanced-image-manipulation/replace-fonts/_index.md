@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Tìm hiểu cách thực hiện việc thay thế phông chữ Aspose PSD trong Java.
   Hướng dẫn thao tác ảnh Java từng bước này cho bạn thấy cách thay thế phông chữ trong
   các tệp PSD một cách hiệu quả.
-language: vi
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Thay thế phông chữ PSD của Aspose trong Java – Thay đổi phông chữ trong các
   tệp PSD
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /vi/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

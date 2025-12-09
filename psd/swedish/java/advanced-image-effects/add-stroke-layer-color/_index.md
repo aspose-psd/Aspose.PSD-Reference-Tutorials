@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Lär dig hur du lägger till en kontur och ändrar PSD‑konturfärgen med
   Aspose.PSD för Java. Följ den här steg‑för‑steg‑guiden för att ändra konturlagerets
   färg och opacitet.
-language: sv
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Hur man lägger till färg på konturlagret i Aspose.PSD för Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /sv/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

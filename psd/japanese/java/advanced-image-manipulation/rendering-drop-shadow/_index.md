@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.PSD for Java を使用して、PSD を PNG として保存し、PSD を PNG に変換し、ドロップシャドウレイヤーを適用する方法を学ぶ
   – 完全なステップバイステップガイド。
-language: ja
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for JavaでPSDをPNGとして保存し、レンダリングドロップシャドウを適用する
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /ja/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

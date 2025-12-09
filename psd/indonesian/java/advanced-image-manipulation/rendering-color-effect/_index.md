@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Pelajari cara menyimpan PSD sebagai PNG dengan lapisan warna menggunakan
   Aspose.PSD untuk Java. Panduan langkah demi langkah ini mencakup manipulasi gambar
   Java, warna overlay, dan mengekspor PNG dengan kanal alfa.
-language: id
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Cara Menyimpan PSD sebagai PNG dengan Efek Warna Rendering menggunakan Aspose.PSD
   untuk Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /id/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

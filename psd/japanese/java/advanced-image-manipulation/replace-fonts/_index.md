@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: JavaでAspose PSDのフォント置換を実行する方法を学びましょう。このステップバイステップのJava画像操作チュートリアルでは、PSDファイルのフォントを効率的に置き換える方法を示します。
-language: ja
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: JavaでのAspose PSDフォント置換 – PSDファイルのフォントを置き換える
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /ja/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

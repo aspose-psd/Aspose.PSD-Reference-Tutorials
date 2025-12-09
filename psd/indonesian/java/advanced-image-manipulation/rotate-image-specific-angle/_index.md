@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Pelajari cara memutar gambar pada sudut tertentu di Java menggunakan
   Aspose.PSD. Panduan ini mencakup memutar gambar di Java, memutar gambar pada sudut
   tertentu, penanganan latar belakang, dan lainnya.
-language: id
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Cara Memutar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /id/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-08
 description: Naučte se, jak převést PSD na PNG a proporčně měnit velikost obrázků
   v Javě pomocí Aspose.PSD. Tento krok‑za‑krokem tutoriál pokrývá cachování obrázků,
   změnu velikosti a ukládání jako PNG.
-language: cs
 linktitle: Convert PSD to PNG & Resize Proportionally
 second_title: Aspose.PSD Java API
 title: Jak převést PSD na PNG a změnit velikost proporcionálně pomocí Aspose.PSD pro
   Javu
-url: /java/advanced-image-manipulation/resize-image-proportionally/
+url: /cs/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 

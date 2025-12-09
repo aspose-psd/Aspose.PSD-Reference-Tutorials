@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.PSD を使用して Java でキャンバスに画像を描画し、署名をオーバーレイする方法を学びましょう。このステップバイステップの
   Java 画像処理チュートリアルに従い、結果を PNG として保存します。
-language: ja
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: キャンバス上に画像を描く – Aspose.PSD for Javaで署名を追加
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /ja/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

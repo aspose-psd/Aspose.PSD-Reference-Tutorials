@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan lehet képet forgatni Java-ban, és fejlett képműveleteket
   végezni az Aspose.PSD for Java használatával, beleértve a betűtípuscserét, a bikubikus
   újramintavételezést és még sok mást.
-language: hu
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Kép forgatása Java-ban az Aspose.PSD-vel – Haladó képműveletek
-url: /java/advanced-image-manipulation/
+url: /hu/java/advanced-image-manipulation/
 weight: 24
 ---
 

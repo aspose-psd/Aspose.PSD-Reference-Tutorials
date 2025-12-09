@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Tìm hiểu cách lưu tệp PSD, buộc bộ nhớ đệm phông chữ và cải thiện hiệu
   suất hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn từng bước để tối ưu hoá xử lý
   hình ảnh.
-language: vi
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Cách lưu tệp PSD và buộc bộ nhớ đệm phông chữ với Aspose.PSD cho Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /vi/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Erfahren Sie, wie Sie Farbverlaufseffekte in Java‑Bildern mit Aspose.PSD
   anwenden. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung für eine nahtlose Integration.
-language: de
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Wie man Gradient‑Effekte in Aspose.PSD für Java anwendet
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /de/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

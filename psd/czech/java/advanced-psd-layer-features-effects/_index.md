@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Naučte se, jak přidat vnitřní stín v PSD pomocí Aspose.PSD pro Javu.
   Prozkoumejte pokročilé funkce vrstev, efekty a správu zdrojů v souborech PSD.
-language: cs
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: Jak přidat vnitřní stín v PSD Java – Pokročilé efekty vrstev
-url: /java/advanced-psd-layer-features-effects/
+url: /cs/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

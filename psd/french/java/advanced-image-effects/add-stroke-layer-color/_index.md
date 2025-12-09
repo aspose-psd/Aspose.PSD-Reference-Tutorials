@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Apprenez à ajouter un contour et à modifier la couleur du contour PSD
   à l'aide d'Aspose.PSD pour Java. Suivez ce guide étape par étape pour modifier la
   couleur et l'opacité du calque de contour.
-language: fr
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Comment ajouter la couleur de contour de calque dans Aspose.PSD pour Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /fr/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

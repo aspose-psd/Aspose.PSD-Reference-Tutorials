@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Java에서 Aspose PSD 글꼴 교체를 수행하는 방법을 배웁니다. 이 단계별 Java 이미지 조작 튜토리얼은 PSD 파일에서
   글꼴을 효율적으로 교체하는 방법을 보여줍니다.
-language: ko
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Java에서 Aspose PSD 글꼴 교체 – PSD 파일의 글꼴 교체
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /ko/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

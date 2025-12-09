@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Apprenez comment enregistrer un fichier PSD, forcer le cache des polices
   et améliorer les performances d’image en utilisant Aspose.PSD pour Java. Guide étape
   par étape pour l’optimisation du traitement d’image.
-language: fr
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Comment enregistrer un fichier PSD et forcer le cache des polices avec Aspose.PSD
   pour Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /fr/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

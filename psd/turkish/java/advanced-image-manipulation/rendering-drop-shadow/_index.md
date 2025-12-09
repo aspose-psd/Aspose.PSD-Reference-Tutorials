@@ -2,12 +2,11 @@
 date: 2025-12-05
 description: Aspose.PSD for Java kullanarak PSD'yi PNG olarak kaydetmeyi, PSD'yi PNG'ye
   dönüştürmeyi ve bir gölge katmanı uygulamayı öğrenin – eksiksiz, adım adım bir rehber.
-language: tr
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: PSD'yi PNG olarak kaydedin ve Aspose.PSD for Java'da Rendering Drop Shadow
   uygulayın
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /tr/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

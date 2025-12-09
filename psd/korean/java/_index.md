@@ -2,10 +2,9 @@
 date: 2025-11-30
 description: Aspose.PSD for Java의 강력한 기능을 활용하여 그레이스케일 이미지를 만들고 PNG를 최적화하세요. 단계별 가이드를
   통해 필터, 변환 및 고급 편집을 마스터하세요.
-language: ko
 linktitle: Aspose.PSD for Java Tutorials
 title: Aspose.PSD와 함께하는 포괄적인 그레이스케일 이미지 Java 튜토리얼 및 예제
-url: /java/
+url: /ko/java/
 weight: 10
 ---
 

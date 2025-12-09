@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Manfaatkan kekuatan Aspose.PSD untuk Java dalam membuat gambar grayscale
   Java dan mengoptimalkan PNG Java. Kuasai filter, konversi, dan penyuntingan lanjutan
   dengan panduan langkah demi langkah.
-language: id
 linktitle: Aspose.PSD for Java Tutorials
 title: Tutorial & Contoh Java Gambar Grayscale yang Komprehensif dengan Aspose.PSD
-url: /java/
+url: /id/java/
 weight: 10
 ---
 

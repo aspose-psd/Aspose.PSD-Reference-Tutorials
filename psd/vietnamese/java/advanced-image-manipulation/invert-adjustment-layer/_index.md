@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tìm hiểu cách sử dụng thư viện xử lý ảnh Java Aspose.PSD để áp dụng nhiều
   lớp điều chỉnh, bao gồm lớp điều chỉnh Đảo ngược, nhằm thao tác PSD một cách liền
   mạch.
-language: vi
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Thư viện Java xử lý ảnh: Đảo ngược lớp bằng Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /vi/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

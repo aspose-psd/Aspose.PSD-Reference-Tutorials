@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 学习如何使用 Aspose.PSD for Java 进行图像旋转和高级图像处理，包括字体替换、双三次重采样等。
-language: zh
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: 使用 Aspose.PSD 的 Java 旋转图像 – 高级图像处理
-url: /java/advanced-image-manipulation/
+url: /zh/java/advanced-image-manipulation/
 weight: 24
 ---
 

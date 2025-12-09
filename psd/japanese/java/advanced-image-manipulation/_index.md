@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Javaで画像を回転させ、フォント置換やバイキュービックリサンプリングなど、Aspose.PSD for Java を使用した高度な画像操作を学びましょう。
-language: ja
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Aspose.PSD を使用した Java の画像回転 – 高度な画像操作
-url: /java/advanced-image-manipulation/
+url: /ja/java/advanced-image-manipulation/
 weight: 24
 ---
 

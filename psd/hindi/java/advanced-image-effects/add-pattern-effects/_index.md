@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: जानेँ कि Aspose.PSD for Java का उपयोग करके PSD फ़ाइलों में पैटर्न ओवरले
   इफ़ेक्ट कैसे जोड़ें। कोड उदाहरणों और समस्या निवारण टिप्स के साथ चरण-दर-चरण गाइड।
-language: hi
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java में पैटर्न ओवरले इफ़ेक्ट जोड़ें
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /hi/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

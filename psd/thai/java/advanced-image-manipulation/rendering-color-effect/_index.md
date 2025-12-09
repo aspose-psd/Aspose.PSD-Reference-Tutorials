@@ -2,12 +2,11 @@
 date: 2025-12-05
 description: เรียนรู้วิธีบันทึกไฟล์ PSD เป็น PNG พร้อมการทับสีโดยใช้ Aspose.PSD สำหรับ
   Java คู่มือขั้นตอนนี้ครอบคลุมการจัดการภาพด้วย Java, การทับสี, และการส่งออก PNG พร้อมอัลฟ่า
-language: th
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: วิธีบันทึกไฟล์ PSD เป็น PNG พร้อมเอฟเฟกต์การเรนเดอร์สีโดยใช้ Aspose.PSD สำหรับ
   Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /th/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

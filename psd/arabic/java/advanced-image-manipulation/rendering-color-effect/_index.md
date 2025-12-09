@@ -3,11 +3,10 @@ date: 2025-12-05
 description: تعلم كيفية حفظ ملف PSD كـ PNG مع تراكب لوني باستخدام Aspose.PSD للغة
   Java. يغطي هذا الدليل خطوة بخطوة معالجة الصور في Java، وتلوين التراكب، وتصدير PNG
   مع قناة ألفا.
-language: ar
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: كيفية حفظ ملف PSD بصيغة PNG مع تأثير لون العرض باستخدام Aspose.PSD للـ Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /ar/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

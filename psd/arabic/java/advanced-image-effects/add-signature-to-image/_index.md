@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: تعلم كيفية رسم صورة على لوحة قماشية وتراكب توقيع في جافا باستخدام Aspose.PSD.
   اتبع هذا الدليل خطوة بخطوة لمعالجة الصور في جافا واحفظ النتيجة كملف PNG.
-language: ar
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: رسم صورة على اللوحة – إضافة توقيع باستخدام Aspose.PSD للـ Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /ar/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

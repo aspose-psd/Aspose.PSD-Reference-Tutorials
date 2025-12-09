@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: تعلم كيفية إضافة تأثيرات تراكب الأنماط إلى ملفات PSD باستخدام Aspose.PSD
   للغة Java. دليل خطوة بخطوة مع أمثلة على الشيفرة ونصائح لحل المشكلات.
-language: ar
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: إضافة تأثيرات تراكب النمط في Aspose.PSD للـ Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /ar/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

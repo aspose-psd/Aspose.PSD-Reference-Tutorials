@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية تدوير الصورة بزاوية محددة في جافا باستخدام Aspose.PSD. يغطي
   الدليل تدوير الصورة في جافا، وتدوير الصورة بزاوية محددة، ومعالجة الخلفية والمزيد.
-language: ar
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: كيفية تدوير الصورة بزاوية محددة باستخدام Aspose.PSD للـ Java
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /ar/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: 了解如何在 Java 图像中使用 Aspose.PSD 应用渐变效果。遵循本分步指南，实现无缝集成。
-language: zh
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: 如何在 Aspose.PSD for Java 中应用渐变效果
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /zh/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

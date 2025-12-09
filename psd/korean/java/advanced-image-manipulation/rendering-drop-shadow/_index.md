@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.PSD for Java를 사용하여 PSD를 PNG로 저장하고, PSD를 PNG로 변환하며, 드롭 섀도우 레이어를
   적용하는 방법을 배우세요 – 완전한 단계별 가이드.
-language: ko
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java에서 PSD를 PNG로 저장하고 렌더링 드롭 섀도우 적용
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /ko/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

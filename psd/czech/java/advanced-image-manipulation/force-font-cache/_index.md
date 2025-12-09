@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Naučte se, jak uložit soubor PSD, vynutit mezipaměť fontů a zlepšit výkon
   obrázků pomocí Aspose.PSD pro Javu. Krok‑za‑krokem průvodce optimalizací zpracování
   obrázků.
-language: cs
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Jak uložit soubor PSD a vynutit mezipaměť písem pomocí Aspose.PSD pro Javu
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /cs/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

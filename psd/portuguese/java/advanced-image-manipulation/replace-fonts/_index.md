@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Aprenda a substituir fontes em arquivos PSD usando Aspose PSD em Java.
   Este tutorial passo a passo de manipulação de imagens em Java mostra como substituir
   fontes em arquivos PSD de forma eficiente.
-language: pt
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Substituição de Fonte PSD da Aspose em Java – Substituir fontes em arquivos
   PSD
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /pt/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

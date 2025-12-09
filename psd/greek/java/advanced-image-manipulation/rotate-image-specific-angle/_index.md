@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Μάθετε πώς να περιστρέφετε μια εικόνα σε συγκεκριμένη γωνία σε Java χρησιμοποιώντας
   το Aspose.PSD. Ο οδηγός καλύπτει την περιστροφή εικόνας σε Java, την περιστροφή
   εικόνας σε συγκεκριμένη γωνία, τη διαχείριση φόντου και πολλά άλλα.
-language: el
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Πώς να περιστρέψετε εικόνα σε συγκεκριμένη γωνία με το Aspose.PSD για Java
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /el/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

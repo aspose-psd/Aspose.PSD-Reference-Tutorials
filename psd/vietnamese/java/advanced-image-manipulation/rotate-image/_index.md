@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Tìm hiểu cách xoay ảnh 270 độ bằng Aspose.PSD cho Java. Hướng dẫn này
   cho thấy cách xoay tệp PSD, lật ảnh và chuyển đổi PSD sang JPEG.
-language: vi
 linktitle: Rotate Image 270 Degrees
 second_title: Aspose.PSD Java API
 title: Cách xoay ảnh 270 độ bằng Aspose.PSD cho Java
-url: /java/advanced-image-manipulation/rotate-image/
+url: /vi/java/advanced-image-manipulation/rotate-image/
 weight: 19
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à faire pivoter une image en Java et à effectuer des manipulations
   d'image avancées avec Aspose.PSD pour Java, y compris le remplacement de polices,
   le rééchantillonnage bicubique, et plus encore.
-language: fr
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Faire pivoter une image Java avec Aspose.PSD – Manipulation avancée d'image
-url: /java/advanced-image-manipulation/
+url: /fr/java/advanced-image-manipulation/
 weight: 24
 ---
 

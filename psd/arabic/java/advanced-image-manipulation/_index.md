@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية تدوير الصورة في جافا وإجراء تعديل متقدم للصور باستخدام Aspose.PSD
   للغة جافا، بما في ذلك استبدال الخطوط، وإعادة التحجيم البيكوبيكي، وأكثر.
-language: ar
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: تدوير الصورة في جافا باستخدام Aspose.PSD – معالجة متقدمة للصور
-url: /java/advanced-image-manipulation/
+url: /ar/java/advanced-image-manipulation/
 weight: 24
 ---
 

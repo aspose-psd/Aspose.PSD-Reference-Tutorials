@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: تعلم كيفية إضافة حد وتغيير لون حد PSD باستخدام Aspose.PSD للغة Java.
   اتبع هذا الدليل خطوة بخطوة لتعديل لون طبقة الحد والشفافية.
-language: ar
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: كيفية إضافة لون طبقة الحد في Aspose.PSD للغة Java
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /ar/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

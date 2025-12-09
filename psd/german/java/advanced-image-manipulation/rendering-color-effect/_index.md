@@ -4,12 +4,11 @@ description: Erfahren Sie, wie Sie PSD mit einer Farbüberlagerung als PNG mithi
   von Aspose.PSD für Java speichern. Diese Schritt‑für‑Schritt‑Anleitung behandelt
   die Bildmanipulation in Java, Farbüberlagerungen und das Exportieren von PNG mit
   Alpha.
-language: de
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Wie man PSD mit Rendering‑Farbeffekt als PNG speichert, mit Aspose.PSD für
   Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /de/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Узнайте, как рисовать изображение на холсте и накладывать подпись в Java
   с помощью Aspose.PSD. Следуйте этому пошаговому руководству по обработке изображений
   на Java и сохраните результат в формате PNG.
-language: ru
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Рисование изображения на холсте – Добавление подписи с помощью Aspose.PSD для
   Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /ru/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

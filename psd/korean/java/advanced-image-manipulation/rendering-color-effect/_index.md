@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.PSD for Java를 사용하여 색상 오버레이가 적용된 PSD를 PNG로 저장하는 방법을 배워보세요. 이 단계별
   가이드는 Java 이미지 조작, 오버레이 색상, 알파가 포함된 PNG 내보내기를 다룹니다.
-language: ko
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Java를 사용하여 렌더링 색상 효과와 함께 PSD를 PNG로 저장하는 방법
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /ko/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

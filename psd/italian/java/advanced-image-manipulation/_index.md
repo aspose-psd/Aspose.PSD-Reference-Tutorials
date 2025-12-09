@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Scopri come ruotare le immagini in Java ed eseguire manipolazioni avanzate
   delle immagini usando Aspose.PSD per Java, inclusa la sostituzione dei font, il
   ricampionatore bicubico e altro.
-language: it
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Ruota immagine Java con Aspose.PSD – Manipolazione avanzata delle immagini
-url: /java/advanced-image-manipulation/
+url: /it/java/advanced-image-manipulation/
 weight: 24
 ---
 

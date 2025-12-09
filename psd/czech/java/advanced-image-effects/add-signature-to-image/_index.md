@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Naučte se, jak v Javě pomocí Aspose.PSD nakreslit obrázek na plátno a
   překrýt jej podpisem. Postupujte podle tohoto krok‑za‑krokem tutoriálu pro zpracování
   obrázků v Javě a výsledek uložte jako PNG.
-language: cs
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Vykreslit obrázek na plátno – Přidat podpis pomocí Aspose.PSD pro Javu
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /cs/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe je een PSD opslaat als PNG met een kleuroverlay met behulp van
   Aspose.PSD voor Java. Deze stapsgewijze gids behandelt Java‑beeldbewerking, overlaykleur
   en het exporteren van PNG met alfa.
-language: nl
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Hoe PSD opslaan als PNG met renderkleur-effect met Aspose.PSD voor Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /nl/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

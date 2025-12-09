@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 学习如何使用 Aspose.PSD for Java 将 PSD 保存为带颜色叠加的 PNG。本分步指南涵盖 Java 图像处理、颜色叠加以及导出带
   alpha 通道的 PNG。
-language: zh
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: 使用 Aspose.PSD for Java 将 PSD 保存为带渲染颜色效果的 PNG
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /zh/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

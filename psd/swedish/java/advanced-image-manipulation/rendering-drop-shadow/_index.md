@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du sparar PSD som PNG, konverterar PSD till PNG och applicerar
   ett skugglager med Aspose.PSD för Java – en komplett steg‑för‑steg‑guide.
-language: sv
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
 title: Spara PSD som PNG och tillämpa renderad kastskugga i Aspose.PSD för Java
-url: /java/advanced-image-manipulation/rendering-drop-shadow/
+url: /sv/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan lehet egy képet egy adott szögben elforgatni Java-ban
   az Aspose.PSD segítségével. Az útmutató lefedi a képek Java-ban való elforgatását,
   a képek adott szögben való elforgatását, a háttérkezelést és még sok mást.
-language: hu
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
 title: Hogyan forgassunk képet egy adott szögben az Aspose.PSD for Java-val
-url: /java/advanced-image-manipulation/rotate-image-specific-angle/
+url: /hu/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
 

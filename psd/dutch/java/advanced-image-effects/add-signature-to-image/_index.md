@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Leer hoe je een afbeelding op een canvas tekent en een handtekening overlayt
   in Java met Aspose.PSD. Volg deze stapsgewijze Java‑beeldverwerkingstutorial en
   sla het resultaat op als PNG.
-language: nl
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Afbeelding tekenen op canvas – Voeg een handtekening toe met Aspose.PSD voor
   Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /nl/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

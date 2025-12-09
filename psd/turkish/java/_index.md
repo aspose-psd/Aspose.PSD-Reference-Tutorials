@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Aspose.PSD for Java'nin gücünü açığa çıkararak gri tonlamalı görüntü
   java oluşturun ve png java'yı optimize edin. Filtreleri, dönüşümleri ve gelişmiş
   düzenlemeyi adım adım rehberlerle ustalaşın.
-language: tr
 linktitle: Aspose.PSD for Java Tutorials
 title: Aspose.PSD ile Kapsamlı Gri Tonlu Görüntü Java Eğitimleri ve Örnekleri
-url: /java/
+url: /tr/java/
 weight: 10
 ---
 

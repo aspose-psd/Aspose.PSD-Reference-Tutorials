@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: 學習如何在 Java 中使用 Aspose.PSD 將 PSD 轉換為 PNG 並按比例調整圖像大小。此一步一步的教學涵蓋圖像快取、調整大小以及儲存為
   PNG。
-language: zh-hant
 linktitle: Convert PSD to PNG & Resize Proportionally
 second_title: Aspose.PSD Java API
 title: 如何使用 Aspose.PSD for Java 將 PSD 轉換為 PNG 並按比例調整大小
-url: /java/advanced-image-manipulation/resize-image-proportionally/
+url: /zh-hant/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 

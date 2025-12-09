@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Ismerje meg, hogyan lehet 270 fokkal elforgatni a képet az Aspose.PSD
   for Java segítségével. Ez az útmutató bemutatja, hogyan lehet PSD-fájlokat elforgatni,
   képeket tükrözni, és a PSD-t JPEG-re konvertálni.
-language: hu
 linktitle: Rotate Image 270 Degrees
 second_title: Aspose.PSD Java API
 title: Hogyan forgassuk el a képet 270 fokkal az Aspose.PSD for Java segítségével
-url: /java/advanced-image-manipulation/rotate-image/
+url: /hu/java/advanced-image-manipulation/rotate-image/
 weight: 19
 ---
 

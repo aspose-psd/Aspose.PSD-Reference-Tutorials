@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.PSD for Java를 사용하여 이미지 회전 및 고급 이미지 조작을 수행하는 방법을 배우세요. 여기에는 글꼴
   교체, 바이큐빅 리샘플러 등 다양한 기능이 포함됩니다.
-language: ko
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Aspose.PSD를 사용한 Java 이미지 회전 – 고급 이미지 조작
-url: /java/advanced-image-manipulation/
+url: /ko/java/advanced-image-manipulation/
 weight: 24
 ---
 

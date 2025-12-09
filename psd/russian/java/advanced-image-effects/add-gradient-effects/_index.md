@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Узнайте, как применять градиентные эффекты в Java‑изображениях с помощью
   Aspose.PSD. Следуйте этому пошаговому руководству для бесшовной интеграции.
-language: ru
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: Как применить градиентные эффекты в Aspose.PSD для Java
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /ru/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

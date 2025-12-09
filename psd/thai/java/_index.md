@@ -2,10 +2,9 @@
 date: 2025-11-30
 description: ปลดล็อกพลังของ Aspose.PSD สำหรับ Java เพื่อสร้างภาพระดับสีเทาด้วย Java
   และเพิ่มประสิทธิภาพ PNG ด้วย Java เชี่ยวชาญฟิลเตอร์ การแปลง และการแก้ไขขั้นสูงด้วยคู่มือแบบขั้นตอนต่อขั้นตอน.
-language: th
 linktitle: Aspose.PSD for Java Tutorials
 title: บทเรียนและตัวอย่าง Java สำหรับภาพระดับสีเทาอย่างครอบคลุมด้วย Aspose.PSD
-url: /java/
+url: /th/java/
 weight: 10
 ---
 

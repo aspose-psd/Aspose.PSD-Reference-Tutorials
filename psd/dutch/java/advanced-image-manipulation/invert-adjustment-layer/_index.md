@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Leer hoe u de Java‑afbeeldingsverwerkingsbibliotheek Aspose.PSD kunt
   gebruiken om meerdere aanpassingslagen toe te passen, waaronder de Invert‑aanpassingslaag,
   voor naadloze PSD‑manipulatie.
-language: nl
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Afbeeldingsverwerking Java-bibliotheek: Laag inverteren met Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /nl/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

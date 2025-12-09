@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Aspose.PSD for Java की शक्ति को अनलॉक करें ताकि आप ग्रेस्केल इमेज जावा
   बना सकें और PNG जावा को ऑप्टिमाइज़ कर सकें। फ़िल्टर, रूपांतरण और उन्नत संपादन में
   निपुण बनें, चरण‑दर‑चरण मार्गदर्शिकाओं के साथ।
-language: hi
 linktitle: Aspose.PSD for Java Tutorials
 title: Aspose.PSD के साथ व्यापक ग्रेस्केल इमेज जावा ट्यूटोरियल्स और उदाहरण
-url: /java/
+url: /hi/java/
 weight: 10
 ---
 

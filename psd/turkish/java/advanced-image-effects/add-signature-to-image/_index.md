@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aspose.PSD kullanarak Java’da tuval üzerine resim çizmeyi ve bir imza
   eklemeyi öğrenin. Bu adım adım Java görüntü işleme öğreticisini izleyin ve sonucu
   PNG olarak kaydedin.
-language: tr
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Tuval Üzerine Görüntü Çizin – Aspose.PSD for Java ile İmza Ekleyin
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /tr/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

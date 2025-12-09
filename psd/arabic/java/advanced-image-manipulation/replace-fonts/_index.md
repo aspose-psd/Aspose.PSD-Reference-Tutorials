@@ -3,11 +3,10 @@ date: 2025-12-05
 description: تعلم كيفية إجراء استبدال الخطوط في ملفات PSD باستخدام Aspose PSD في Java.
   يوضح لك هذا الدرس خطوة بخطوة لمعالجة الصور في Java كيفية استبدال الخطوط في ملفات
   PSD بفعالية.
-language: ar
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: استبدال خطوط Aspose PSD في جافا – استبدال الخطوط في ملفات PSD
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /ar/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

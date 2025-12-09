@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: เรียนรู้วิธีการใช้เอฟเฟกต์ไล่สีในภาพ Java ด้วย Aspose.PSD ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อการรวมระบบอย่างราบรื่น
-language: th
 linktitle: Add Gradient Effects
 second_title: Aspose.PSD Java API
 title: วิธีใช้เอฟเฟกต์ไล่สีใน Aspose.PSD สำหรับ Java
-url: /java/advanced-image-effects/add-gradient-effects/
+url: /th/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
 

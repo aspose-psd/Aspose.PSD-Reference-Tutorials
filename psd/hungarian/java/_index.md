@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Szabadítsd fel az Aspose.PSD for Java erejét, hogy szürkeárnyalatos képet
   hozz létre Java-ban, és optimalizáld a PNG-t Java-ban. Ismerd meg a szűrőket, konverziókat
   és a fejlett szerkesztést lépésről‑lépésre útmutatókkal.
-language: hu
 linktitle: Aspose.PSD for Java Tutorials
 title: Átfogó szürkeárnyalatos képek Java oktatóanyagok és példák az Aspose.PSD-vel
-url: /java/
+url: /hu/java/
 weight: 10
 ---
 

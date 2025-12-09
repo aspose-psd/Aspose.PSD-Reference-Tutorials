@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Μάθετε πώς να αποθηκεύετε PSD ως PNG με χρωματική επικάλυψη χρησιμοποιώντας
   το Aspose.PSD για Java. Αυτός ο οδηγός βήμα‑βήμα καλύπτει τη διαχείριση εικόνων
   Java, το χρώμα επικάλυψης και την εξαγωγή PNG με άλφα.
-language: el
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
 title: Πώς να αποθηκεύσετε ένα PSD ως PNG με εφέ χρώματος απόδοσης χρησιμοποιώντας
   το Aspose.PSD για Java
-url: /java/advanced-image-manipulation/rendering-color-effect/
+url: /el/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: Aspose.PSD for Java を使用してストロークを追加し、PSD のストロークカラーを変更する方法を学びましょう。このステップバイステップガイドに従って、ストロークレイヤーの色と不透明度を変更してください。
-language: ja
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
 title: Aspose.PSD for Javaでストロークレイヤーの色を追加する方法
-url: /java/advanced-image-effects/add-stroke-layer-color/
+url: /ja/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
 

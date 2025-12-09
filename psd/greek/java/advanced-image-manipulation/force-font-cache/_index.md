@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Μάθετε πώς να αποθηκεύετε αρχεία PSD, να εξαναγκάσετε την προσωρινή μνήμη
   γραμματοσειρών και να βελτιώσετε την απόδοση των εικόνων χρησιμοποιώντας το Aspose.PSD
   για Java. Οδηγός βήμα‑προς‑βήμα για τη βελτιστοποίηση της επεξεργασίας εικόνας.
-language: el
 linktitle: Force Font Cache
 second_title: Aspose.PSD Java API
 title: Πώς να αποθηκεύσετε αρχείο PSD και να εξαναγκάσετε την προσωρινή μνήμη γραμματοσειρών
   με το Aspose.PSD για Java
-url: /java/advanced-image-manipulation/force-font-cache/
+url: /el/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
 

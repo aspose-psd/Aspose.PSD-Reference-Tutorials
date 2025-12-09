@@ -2,10 +2,9 @@
 date: 2025-11-30
 description: اكتشف قوة Aspose.PSD لجافا لإنشاء صورة بتدرج الرمادي وتحسين PNG باستخدام
   جافا. اتقن الفلاتر والتحويلات والتحرير المتقدم من خلال أدلة خطوة بخطوة.
-language: ar
 linktitle: Aspose.PSD for Java Tutorials
 title: دروس وأمثلة شاملة لمعالجة الصور الرمادية بلغة جافا باستخدام Aspose.PSD
-url: /java/
+url: /ar/java/
 weight: 10
 ---
 

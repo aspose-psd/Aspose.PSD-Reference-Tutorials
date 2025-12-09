@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: تعلم كيفية استخدام مكتبة معالجة الصور جافا Aspose.PSD لتطبيق طبقات تعديل
   متعددة، بما في ذلك طبقة تعديل العكس، لتحقيق معالجة سلسة لملفات PSD.
-language: ar
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'مكتبة جافا لمعالجة الصور: عكس الطبقة باستخدام Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /ar/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

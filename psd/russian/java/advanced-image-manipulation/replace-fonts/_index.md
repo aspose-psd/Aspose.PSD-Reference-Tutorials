@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Изучите, как выполнять замену шрифтов Aspose PSD в Java. Этот пошаговый
   учебник по обработке изображений на Java покажет, как эффективно заменять шрифты
   в PSD‑файлах.
-language: ru
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Замена шрифтов PSD в Java с Aspose – Замена шрифтов в PSD‑файлах
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /ru/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan hajtható végre az Aspose PSD betűtípuscsere Java-ban.
   Ez a lépésről‑lépésre bemutatott Java képfeldolgozó útmutató megmutatja, hogyan
   cserélhet betűtípusokat PSD‑fájlokban hatékonyan.
-language: hu
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Aspose PSD betűtípuscsere Java-ban – Betűtípusok cseréje PSD fájlokban
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /hu/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

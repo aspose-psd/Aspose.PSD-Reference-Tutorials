@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tìm hiểu cách vẽ hình ảnh trên canvas và chồng chữ ký trong Java bằng
   Aspose.PSD. Thực hiện theo hướng dẫn xử lý ảnh Java từng bước này và lưu kết quả
   dưới dạng PNG.
-language: vi
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Vẽ Hình ảnh trên Canvas – Thêm Chữ ký với Aspose.PSD cho Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /vi/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

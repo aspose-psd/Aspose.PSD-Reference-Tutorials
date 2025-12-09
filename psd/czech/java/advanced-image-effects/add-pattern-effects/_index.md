@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Naučte se, jak přidat efekty překrytí vzorem do souborů PSD pomocí Aspose.PSD
   pro Javu. Průvodce krok za krokem s ukázkami kódu a tipy na řešení problémů.
-language: cs
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Přidat efekty překrytí vzoru v Aspose.PSD pro Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /cs/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 

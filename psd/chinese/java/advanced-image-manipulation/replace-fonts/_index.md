@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 学习如何在 Java 中执行 Aspose PSD 字体替换。本分步 Java 图像处理教程向您展示如何高效地替换 PSD 文件中的字体。
-language: zh
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
 title: Aspose PSD 字体替换（Java）– 替换 PSD 文件中的字体
-url: /java/advanced-image-manipulation/replace-fonts/
+url: /zh/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 

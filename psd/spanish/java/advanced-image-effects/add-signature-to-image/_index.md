@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aprende a dibujar una imagen en un lienzo y superponer una firma en Java
   usando Aspose.PSD. Sigue este tutorial paso a paso de procesamiento de imágenes
   en Java y guarda el resultado como PNG.
-language: es
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
 title: Dibujar imagen en el lienzo – Añadir una firma con Aspose.PSD para Java
-url: /java/advanced-image-effects/add-signature-to-image/
+url: /es/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
 

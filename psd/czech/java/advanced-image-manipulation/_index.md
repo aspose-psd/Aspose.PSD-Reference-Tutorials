@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak rotovat obrázek v Javě a provádět pokročilou manipulaci
   s obrázky pomocí Aspose.PSD pro Javu, včetně nahrazení fontů, bikubického resamplingu
   a dalších.
-language: cs
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
 title: Otočení obrázku v Javě s Aspose.PSD – Pokročilá manipulace s obrázky
-url: /java/advanced-image-manipulation/
+url: /cs/java/advanced-image-manipulation/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Erfahren Sie, wie Sie in Java mit Aspose.PSD für Java einen inneren Schatten
   zu einer PSD hinzufügen. Entdecken Sie erweiterte Ebenenfunktionen, Effekte und
   das Ressourcenmanagement in PSD‑Dateien.
-language: de
 linktitle: Advanced PSD Layer Features and Effects
 second_title: Aspose.PSD Java API
 title: Wie man inneren Schatten in PSD Java hinzufügt – Erweiterte Ebeneneffekte
-url: /java/advanced-psd-layer-features-effects/
+url: /de/java/advanced-psd-layer-features-effects/
 weight: 24
 ---
 

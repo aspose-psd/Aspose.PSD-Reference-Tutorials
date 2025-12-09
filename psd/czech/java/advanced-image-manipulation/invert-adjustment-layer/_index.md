@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Naučte se, jak používat knihovnu pro zpracování obrazu v Javě Aspose.PSD
   k aplikaci více úpravných vrstev, včetně vrstvy Inverze, pro plynulou manipulaci
   s PSD.
-language: cs
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Knihovna Java pro zpracování obrazu: Inverze vrstvy pomocí Aspose.PSD'
-url: /java/advanced-image-manipulation/invert-adjustment-layer/
+url: /cs/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
 

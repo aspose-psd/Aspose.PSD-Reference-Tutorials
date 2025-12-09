@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Leer hoe je patroonoverlay-effecten kunt toevoegen aan PSD‑bestanden
   met Aspose.PSD voor Java. Stapsgewijze handleiding met codevoorbeelden en probleemoplossingstips.
-language: nl
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
 title: Patroonoverlay-effecten toevoegen in Aspose.PSD voor Java
-url: /java/advanced-image-effects/add-pattern-overlay/
+url: /nl/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
 
