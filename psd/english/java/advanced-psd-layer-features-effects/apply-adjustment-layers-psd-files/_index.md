@@ -150,17 +150,15 @@ A: Absolutely—wrap the loading, merging, and saving logic inside a loop that i
 ## Conclusion
 Congratulations! You now know how to **apply adjustment layers java** in PSD files using the Aspose.PSD library. This capability lets you automate color corrections, level adjustments, and other visual tweaks without ever opening Photoshop. Experiment with other adjustment‑layer types, combine this approach with image‑export features, and let your Java applications handle Photoshop‑level image processing at scale.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.PSD Java API (latest version)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
