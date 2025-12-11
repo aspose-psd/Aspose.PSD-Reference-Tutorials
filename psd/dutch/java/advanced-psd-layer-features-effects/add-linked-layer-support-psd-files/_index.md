@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Leer hoe je lagen in PSD‑bestanden koppelt met Aspose.PSD voor Java.
   Deze stapsgewijze tutorial laat je zien hoe je PSD‑lagen beheert, lagen losk in
   PSD en de Aspose.PSD‑tutorial onder de knie krijgt.
-language: nl
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Hoe lagen in PSD‑bestanden te koppelen met Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /nl/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Lär dig hur du länkar lager i PSD‑filer med Aspose.PSD för Java. Denna
   steg‑för‑steg‑handledning visar hur du hanterar PSD‑lager, avlänkar lager i PSD
   och behärskar Aspose.PSD‑handledningen.
-language: sv
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Hur man länkar lager i PSD-filer med Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /sv/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

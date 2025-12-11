@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: تعلم كيفية إضافة ظل داخلي إلى ملف PSD باستخدام Aspose.PSD للغة Java وتطبيق
   تأثير طبقة PSD برمجياً من خلال هذا الدليل خطوة بخطوة، بما يشمل النصائح وأفضل الممارسات.
-language: ar
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: إضافة تأثير الظل الداخلي لطبقة PSD في جافا
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /ar/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

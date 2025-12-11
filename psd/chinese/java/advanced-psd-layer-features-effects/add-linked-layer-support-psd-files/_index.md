@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: 了解如何使用 Aspose.PSD for Java 在 PSD 文件中链接图层。本分步教程将向您展示如何管理 PSD 图层、解除图层链接以及掌握
   Aspose.PSD 教程。
-language: zh
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: 如何使用 Java 链接 PSD 文件中的图层
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /zh/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

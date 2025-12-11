@@ -4,11 +4,10 @@ description: Aspose.PSD for Java kullanarak PSD dosyalarında katmanları nasıl
   öğrenin. Bu adım adım öğretici, PSD katmanlarını nasıl yöneteceğinizi, katmanların
   bağını nasıl kaldıracağınızı ve Aspose.PSD öğreticisini nasıl ustalaştıracağınızı
   gösterir.
-language: tr
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Java ile PSD Dosyalarındaki Katmanları Bağlama
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /tr/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

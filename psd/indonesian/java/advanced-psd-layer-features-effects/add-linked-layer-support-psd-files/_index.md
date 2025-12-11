@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Pelajari cara menautkan lapisan dalam file PSD menggunakan Aspose.PSD
   untuk Java. Tutorial langkah demi langkah ini menunjukkan cara mengelola lapisan
   PSD, memutuskan tautan lapisan PSD, dan menguasai tutorial Aspose.PSD.
-language: id
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Cara Menautkan Lapisan dalam File PSD Menggunakan Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /id/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

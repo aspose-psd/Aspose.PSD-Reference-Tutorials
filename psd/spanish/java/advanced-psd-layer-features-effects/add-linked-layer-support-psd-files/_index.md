@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Aprende cómo vincular capas en archivos PSD usando Aspose.PSD para Java.
   Este tutorial paso a paso te muestra cómo gestionar capas PSD, desvincular capas
   PSD y dominar el tutorial de Aspose.PSD.
-language: es
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Cómo vincular capas en archivos PSD usando Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /es/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

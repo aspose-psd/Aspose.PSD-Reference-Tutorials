@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Aspose.PSD for Java का उपयोग करके इंटीरियर शैडो PSD कैसे जोड़ें और प्रोग्रामेटिक
   रूप से PSD लेयर इफ़ेक्ट लागू करना सीखें इस चरण‑दर‑चरण ट्यूटोरियल के साथ, जिसमें
   टिप्स और सर्वोत्तम प्रथाएँ शामिल हैं।
-language: hi
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: जावा में आंतरिक छाया PSD लेयर इफ़ेक्ट जोड़ें
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /hi/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

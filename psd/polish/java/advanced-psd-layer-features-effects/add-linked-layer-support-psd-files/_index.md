@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Naucz się, jak łączyć warstwy w plikach PSD przy użyciu Aspose.PSD dla
   Javy. Ten krok‑po‑kroku poradnik pokaże Ci, jak zarządzać warstwami PSD, odłączać
   warstwy w PSD oraz opanować tutorial Aspose.PSD.
-language: pl
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Jak połączyć warstwy w plikach PSD przy użyciu Javy
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /pl/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Узнайте, как связывать слои в PSD‑файлах с помощью Aspose.PSD для Java.
   Этот пошаговый учебник покажет вам, как управлять слоями PSD, отсоединять слои в
   PSD и освоить руководство по Aspose.PSD.
-language: ru
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Как связать слои в PSD‑файлах с помощью Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /ru/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

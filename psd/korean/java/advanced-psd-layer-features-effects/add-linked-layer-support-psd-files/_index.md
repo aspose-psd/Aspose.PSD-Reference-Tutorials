@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: Aspose.PSD for Java를 사용하여 PSD 파일에서 레이어를 연결하는 방법을 배웁니다. 이 단계별 튜토리얼은 PSD
   레이어를 관리하고, 레이어 연결을 해제하며, Aspose.PSD 튜토리얼을 마스터하는 방법을 보여줍니다.
-language: ko
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Java를 사용하여 PSD 파일에서 레이어 연결하는 방법
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /ko/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Lär dig hur du lägger till inre skugga i PSD med Aspose.PSD för Java
   och applicerar PSD‑lagereffekt programatiskt med den här steg‑för‑steg‑handledningen,
   inklusive tips och bästa praxis.
-language: sv
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: Lägg till inre skugga PSD-lager‑effekt i Java
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /sv/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

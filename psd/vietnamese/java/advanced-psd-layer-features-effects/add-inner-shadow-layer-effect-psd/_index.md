@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Tìm hiểu cách thêm bóng nội trong PSD bằng Aspose.PSD cho Java và áp
   dụng hiệu ứng lớp PSD một cách lập trình thông qua hướng dẫn từng bước này, bao
   gồm các mẹo và thực hành tốt nhất.
-language: vi
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: Thêm hiệu ứng Bóng trong cho lớp PSD trong Java
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /vi/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

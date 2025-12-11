@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: تعلم كيفية ربط الطبقات في ملفات PSD باستخدام Aspose.PSD للغة Java. يوضح
   لك هذا الدليل خطوة بخطوة كيفية إدارة طبقات PSD، فك ربط طبقات PSD، وإتقان دليل Aspose.PSD.
-language: ar
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: كيفية ربط الطبقات في ملفات PSD باستخدام جافا
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /ar/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

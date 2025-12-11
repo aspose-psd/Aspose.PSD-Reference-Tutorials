@@ -4,11 +4,10 @@ description: Tanulja meg, hogyan lehet összekapcsolni a rétegeket PSD‑fájlo
   Aspose.PSD for Java használatával. Ez a lépésről‑lépésre útmutató bemutatja, hogyan
   kezelje a PSD‑rétegeket, hogyan válassza le a rétegeket a PSD‑ben, és hogyan sajátítsa
   el az Aspose.PSD oktatót.
-language: hu
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Hogyan kapcsoljunk össze rétegeket PSD-fájlokban Java-val
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /hu/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

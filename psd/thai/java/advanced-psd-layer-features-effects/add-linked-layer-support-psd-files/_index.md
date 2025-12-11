@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: เรียนรู้วิธีเชื่อมโยงเลเยอร์ในไฟล์ PSD ด้วย Aspose.PSD สำหรับ Java บทเรียนทีละขั้นตอนนี้จะแสดงวิธีจัดการเลเยอร์
   PSD, แยกการเชื่อมโยงเลเยอร์ใน PSD, และทำความเชี่ยวชาญในบทเรียน Aspose.PSD.
-language: th
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: วิธีเชื่อมโยงเลเยอร์ในไฟล์ PSD ด้วย Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /th/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

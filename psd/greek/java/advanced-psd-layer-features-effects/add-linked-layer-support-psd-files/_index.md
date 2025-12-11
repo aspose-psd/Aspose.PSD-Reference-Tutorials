@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Μάθετε πώς να συνδέετε στρώματα σε αρχεία PSD χρησιμοποιώντας το Aspose.PSD
   για Java. Αυτός ο οδηγός βήμα‑βήμα σας δείχνει πώς να διαχειρίζεστε τα στρώματα
   PSD, να αποσυνδέετε στρώματα PSD και να κατακτήσετε το εκπαιδευτικό υλικό του Aspose.PSD.
-language: el
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Πώς να συνδέσετε στρώματα σε αρχεία PSD με Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /el/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

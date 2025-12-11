@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Scopri come collegare i livelli nei file PSD usando Aspose.PSD per Java.
   Questo tutorial passo‑passo ti mostra come gestire i livelli PSD, scollegare i livelli
   PSD e padroneggiare il tutorial di Aspose.PSD.
-language: it
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Come collegare i livelli nei file PSD usando Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /it/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

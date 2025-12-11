@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Μάθετε πώς να προσθέσετε εσωτερική σκιά σε PSD χρησιμοποιώντας το Aspose.PSD
   για Java και να εφαρμόσετε το εφέ στρώσης PSD προγραμματιστικά με αυτόν τον βήμα‑βήμα
   οδηγό, συμπεριλαμβανομένων συμβουλών και βέλτιστων πρακτικών.
-language: el
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: Προσθήκη εφέ εσωτερικής σκιάς στρώσης PSD σε Java
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /el/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

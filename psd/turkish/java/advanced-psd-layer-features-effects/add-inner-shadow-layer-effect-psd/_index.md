@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Aspose.PSD for Java kullanarak iç gölge PSD eklemeyi öğrenin ve bu adım
   adım öğreticiyle PSD katman efektini programlı olarak uygulayın; ipuçları ve en
   iyi uygulamaları da içerir.
-language: tr
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: Java'da İç Gölge PSD Katman Efekti Ekle
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /tr/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

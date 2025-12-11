@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Naučte se, jak přidat vnitřní stín v PSD pomocí Aspose.PSD pro Javu a
   programově aplikovat efekt vrstvy PSD s tímto krok‑za‑krokem tutoriálem, včetně
   tipů a osvědčených postupů.
-language: cs
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: Přidat efekt vnitřního stínu vrstvy PSD v Javě
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /cs/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

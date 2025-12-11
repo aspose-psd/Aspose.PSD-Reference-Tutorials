@@ -3,11 +3,11 @@ date: 2025-12-09
 description: Lernen Sie, wie Sie Ebenen in PSD‑Dateien mit Aspose.PSD für Java verknüpfen.
   Dieses Schritt‑für‑Schritt‑Tutorial zeigt Ihnen, wie Sie PSD‑Ebenen verwalten, Ebenen
   in PSD‑Dateien trennen und das Aspose.PSD‑Tutorial meistern.
-language: de
+language: 
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Wie man Ebenen in PSD-Dateien mit Java verknüpft
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /de/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

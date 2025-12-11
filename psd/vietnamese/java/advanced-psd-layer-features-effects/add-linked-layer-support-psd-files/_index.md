@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Tìm hiểu cách liên kết các lớp trong tệp PSD bằng Aspose.PSD cho Java.
   Hướng dẫn từng bước này sẽ chỉ cho bạn cách quản lý các lớp PSD, hủy liên kết các
   lớp PSD và thành thạo hướng dẫn Aspose.PSD.
-language: vi
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Cách liên kết các lớp trong tệp PSD bằng Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /vi/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Узнайте, как добавить внутреннюю тень в PSD с помощью Aspose.PSD для
   Java и программно применить эффект слоя PSD в этом пошаговом руководстве, включая
   советы и лучшие практики.
-language: ru
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: Добавить эффект внутренней тени слоя PSD в Java
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /ru/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 

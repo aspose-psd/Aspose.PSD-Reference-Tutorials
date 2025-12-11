@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Apprenez à lier les calques dans les fichiers PSD à l'aide d'Aspose.PSD
   pour Java. Ce tutoriel pas à pas vous montre comment gérer les calques PSD, dissocier
   les calques PSD et maîtriser le tutoriel Aspose.PSD.
-language: fr
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Comment lier les calques dans les fichiers PSD avec Java
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /fr/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

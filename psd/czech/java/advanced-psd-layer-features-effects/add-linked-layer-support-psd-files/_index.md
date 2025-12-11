@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Naučte se, jak propojit vrstvy v souborech PSD pomocí Aspose.PSD pro
   Javu. Tento krok‑za‑krokem návod vám ukáže, jak spravovat vrstvy PSD, odpojit vrstvy
   v PSD a zvládnout tutoriál Aspose.PSD.
-language: cs
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Jak propojit vrstvy v souborech PSD pomocí Javy
-url: /java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+url: /cs/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
 weight: 19
 ---
 

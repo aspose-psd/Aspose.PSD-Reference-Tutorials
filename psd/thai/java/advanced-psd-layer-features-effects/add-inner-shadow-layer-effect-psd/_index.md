@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: เรียนรู้วิธีเพิ่มเงาภายในในไฟล์ PSD ด้วย Aspose.PSD สำหรับ Java และประยุกต์ใช้เอฟเฟกต์เลเยอร์
   PSD อย่างอัตโนมัติด้วยบทเรียนทีละขั้นตอนนี้ พร้อมเคล็ดลับและแนวทางปฏิบัติที่ดีที่สุด
-language: th
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
 title: เพิ่มเอฟเฟกต์เงาภายในของเลเยอร์ PSD ใน Java
-url: /java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
+url: /th/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
 
