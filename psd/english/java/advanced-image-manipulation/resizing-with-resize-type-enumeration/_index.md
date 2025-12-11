@@ -1,5 +1,5 @@
 ---
-title: Resize Image Java: Using Resize Type Enumeration in Aspose.PSD for Java
+title: Resize Image Java - Using Resize Type Enumeration in Aspose.PSD for Java
 linktitle: Resizing with Resize Type Enumeration
 second_title: Aspose.PSD Java API
 description: Learn how to resize image java using Aspose.PSD for Java. Step‑by‑step guide with Resize Type Enumeration, plus tips on convert psd to jpeg.
