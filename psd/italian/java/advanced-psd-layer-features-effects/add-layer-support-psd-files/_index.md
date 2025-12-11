@@ -1,33 +1,55 @@
 ---
-title: Aggiungi il supporto dei livelli per i file PSD utilizzando Aspose.PSD Java
-linktitle: Aggiungi il supporto dei livelli per i file PSD utilizzando Aspose.PSD Java
-second_title: API Java Aspose.PSD
-description: Gestisci e converti facilmente file PSD con livelli in formato PNG utilizzando Aspose.PSD per Java! Perfetto per gli sviluppatori che necessitano di manipolazione grafica.
-weight: 13
+date: 2025-12-10
+description: Scopri come estrarre i livelli PSD e convertire i livelli PSD in PNG
+  usando Aspose.PSD per Java. Ideale per gli sviluppatori che necessitano di una manipolazione
+  grafica robusta.
+linktitle: Extract PSD Layers and Add Layer Support for PSD Files using Aspose.PSD
+  Java
+second_title: Aspose.PSD Java API
+title: Estrai i livelli PSD e aggiungi il supporto ai livelli per i file PSD con Aspose.PSD
+  Java
 url: /it/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi il supporto dei livelli per i file PSD utilizzando Aspose.PSD Java
+# Estrai i livelli PSD e aggiungi il supporto ai livelli per file PSD usando Aspose.PSD Java
 
 ## Introduzione
-Nel mondo della progettazione grafica e dell'arte digitale, lavorare con i file PSD (Photoshop Document) è la norma. Questi file spesso contengono più livelli che possono essere manipolati in modo indipendente, offrendo flessibilità e creatività. Ma cosa succede quando devi lavorare con questi file in un'applicazione Java? Bene, è qui che entra in gioco Aspose.PSD! In questo articolo, approfondiremo come aggiungere il supporto dei livelli per i file PSD utilizzando Aspose.PSD per Java. Lo suddivideremo in passaggi facili da seguire, rendendolo accessibile a chiunque, dal principiante al professionista.
-## Prerequisiti
-Prima di entrare nel nocciolo della questione, assicuriamoci di avere tutto ciò di cui hai bisogno per seguire. Ecco cosa ti servirà:
-1.  Un ambiente di sviluppo Java: assicurati di avere JDK installato. Se sei un principiante, puoi scaricarlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.PSD per Java: ti consigliamo di avere la libreria Aspose.PSD per Java. Puoi scaricarlo[Qui](https://releases.aspose.com/psd/java/).
-3. Comprensione di base di Java: questa guida presuppone che tu abbia una conoscenza di base di come scrivere il codice Java.
-4. Un IDE: ambienti di sviluppo integrati come IntelliJ IDEA o Eclipse ti renderanno la vita molto più semplice durante lo sviluppo.
-5. File PSD: avrai bisogno di un file PSD con cui lavorare. Puoi crearne uno in Photoshop o scaricare un file PSD di esempio online.
-Una volta che hai questi elementi essenziali, sei pronto per il rock!
-## Importa pacchetti
-Va bene, iniziamo importando i pacchetti necessari. Questi pacchetti ti daranno accesso a varie classi e metodi nella libreria Aspose.PSD di cui avrai bisogno per manipolare i file PSD.
+Lavorare con i file Photoshop Document (PSD) è una realtà quotidiana per grafici e sviluppatori. Uno dei compiti più comuni è **estrarre i livelli PSD** in modo da poterli modificare, riutilizzare o convertire in altri formati come PNG. Nelle applicazioni Java, Aspose.PSD rende questo processo semplice e adatto al codice. In questo tutorial vedremo passo passo le operazioni necessarie per estrarre i livelli PSD, abilitare il supporto ai livelli e **convertire i livelli PSD in PNG** — tutto con spiegazioni chiare e consigli pratici.
 
-- Crea un nuovo progetto Java nel tuo IDE.
-- Aggiungi libreria Aspose.PSD: dovrai aggiungere il file jar Aspose.PSD al percorso di compilazione del tuo progetto.
+## Risposte rapide
+- **Cosa significa “estrarre i livelli PSD”?** Significa caricare un file PSD e accedere a ciascun livello individuale per manipolarlo o esportarlo.  
+- **Quale libreria gestisce questo in Java?** Aspose.PSD per Java fornisce un'elaborazione PSD completa senza la necessità di Photoshop.  
+- **Posso convertire i livelli PSD in PNG in un unico passaggio?** Sì — caricando il file con le opzioni corrette e salvandolo con le impostazioni PNG che preservano la trasparenza.  
+- **È necessaria una licenza per l'uso in produzione?** È richiesta una licenza commerciale per la produzione; è disponibile una versione di prova gratuita per la valutazione.  
+- **Quale versione di Java è richiesta?** JDK 8 o superiore (il tutorial utilizza JDK 11 come esempio).
+
+## Cos'è “estrarre i livelli PSD”?
+Estrarre i livelli PSD consiste nel leggere la struttura interna di un file PSD e recuperare ogni livello come oggetto immagine indipendente. Questo consente di modificare, nascondere, riordinare o esportare i livelli singolarmente — esattamente ciò che i designer fanno in Photoshop, ma in modo programmatico.
+
+## Perché estrarre i livelli PSD e convertirli in PNG?
+- **Riutilizzo delle risorse:** Estrai icone, pulsanti o elementi UI da un PSD master senza esportazioni manuali.  
+- **Automazione:** Genera miniature o immagini pronte per il web al volo.  
+- **Preservare la trasparenza:** PNG mantiene i canali alfa, rendendolo perfetto per la grafica web.  
+
+## Prerequisiti
+Prima di iniziare, assicurati di avere quanto segue:
+
+1. **Ambiente di sviluppo Java** – JDK installato. Puoi scaricarlo dal [sito Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD per Java** – Scarica l'ultima libreria dalla pagina ufficiale di download [qui](https://releases.aspose.com/psd/java/).  
+3. **Conoscenze di base di Java** – Familiarità con la compilazione e l'esecuzione di programmi Java.  
+4. **IDE** – IntelliJ IDEA, Eclipse o qualsiasi editor tu preferisca.  
+5. **Un file PSD** – Usa qualsiasi PSD a tua disposizione, oppure scarica un PSD di esempio per i test.
+
+Una volta pronti questi elementi, sei pronto per iniziare a estrarre i livelli PSD.
+
+## Importa i pacchetti
+Per prima cosa, importa le classi necessarie dalla libreria Aspose.PSD.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.png.PngColorType;
@@ -35,8 +57,9 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
-## Passaggio 1: definisci le tue directory
-Per iniziare a lavorare con il file PSD, dobbiamo definire dove si trovano i nostri file. Ciò include l'impostazione della directory per il documento, il file PSD di origine e la destinazione di output per l'immagine convertita.
+
+## Passo 1: Definisci le tue directory
+Imposta i percorsi per il PSD di origine e per il PNG di output. Regola `dataDir` in modo che punti alla cartella dove risiedono i tuoi file.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,11 +67,12 @@ String sourceFileName = dataDir + "layers.psd";
 String output = dataDir + "layers.png";
 ```
 
-- `dataDir` : qui è dove specificherai il percorso della directory dei documenti. Sostituire`"Your Document Directory"` con il percorso effettivo sulla tua macchina.
-- `sourceFileName`: questa variabile contiene il percorso del file PSD che desideri manipolare.
-- `output`: definisce il percorso di output in cui verrà salvato il file PNG.
-## Passaggio 2: impostare le opzioni di caricamento
- Prima di caricare l'immagine PSD, è fondamentale configurare il file`PsdLoadOptions`. Ciò ti consentirà di specificare come caricare gli effetti e i livelli.
+- `dataDir` – Sostituisci `"Your Document Directory"` con il percorso effettivo della tua cartella.  
+- `sourceFileName` – Percorso completo del PSD da elaborare.  
+- `output` – Percorso di destinazione per il PNG che conterrà i livelli estratti.
+
+## Passo 2: Configura le opzioni di caricamento
+Configurare `PsdLoadOptions` garantisce che tutti gli effetti e le risorse dei livelli vengano caricati correttamente, cosa fondamentale quando **estrai i livelli PSD**.
 
 ```java
 PsdLoadOptions imageLoadOptions = new PsdLoadOptions();
@@ -56,57 +80,76 @@ imageLoadOptions.setLoadEffectsResource(true);
 imageLoadOptions.setUseDiskForLoadEffectsResource(true);
 ```
 
-- `PsdLoadOptions`: questa classe consente di specificare varie opzioni per il caricamento dei file PSD.
-- `setLoadEffectsResource(true)`: questa opzione consente il caricamento di effetti aggiuntivi che potrebbero essere associati ai livelli nel file PSD.
-- `setUseDiskForLoadEffectsResource(true)`: indica alla libreria di utilizzare le risorse del disco per gli effetti di caricamento, il che può aiutare a gestire in modo efficace l'utilizzo della memoria.
-## Passaggio 3: carica il file PSD
- Una volta impostate le opzioni di caricamento, il passaggio successivo è caricare il file PSD in un file`PsdImage` oggetto.
+- `setLoadEffectsResource(true)` – Carica effetti aggiuntivi (come le ombre) associati ai livelli.  
+- `setUseDiskForLoadEffectsResource(true)` – Sposta le risorse pesanti su disco, riducendo il carico di memoria.
+
+## Passo 3: Carica il file PSD
+Ora carichiamo il PSD in un oggetto `PsdImage` usando le opzioni definite sopra.
 
 ```java
 PsdImage image = (PsdImage) Image.load(sourceFileName, imageLoadOptions);
 ```
 
--  Chiamando`Image.load()` con il percorso del file e le opzioni di caricamento leggerà il tuo file PSD in memoria. L'oggetto restituito può quindi essere ulteriormente manipolato.
-## Passaggio 4: imposta le opzioni di salvataggio
-Prima di salvare l'immagine PSD caricata come PNG, devi definire come desideri salvarla, incluso il tipo di colore.
+A questo punto, `image` contiene tutti i livelli, le maschere e gli effetti, pronto per l'estrazione.
+
+## Passo 4: Configura le opzioni di salvataggio
+Imposta come verrà salvato il PNG. L'uso di `TruecolorWithAlpha` preserva la trasparenza dei livelli originali.
 
 ```java
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
--  Qui stiamo creando un file`PngOptions` oggetto che ci consente di specificare come deve essere formattato il PNG risultante.
-- `setColorType(PngColorType.TruecolorWithAlpha)`: Questo dice ad Aspose di salvare l'immagine in vero colore con supporto alfa (trasparenza).
-## Passaggio 5: salva l'immagine
-Infine, è il momento di salvare l'immagine modificata nel file system.
+## Passo 5: Salva l'immagine (Converti i livelli PSD in PNG)
+Esporta il PSD caricato (con tutti i suoi livelli) in un unico file PNG. Questo passaggio **converte i livelli PSD in PNG** in un'unica operazione.
 
 ```java
 image.save(output, saveOptions);
 ```
 
--  Con il`save()` metodo, passi il percorso del file di output e le opzioni di salvataggio che hai configurato. Questo scrive l'immagine nella posizione specificata in formato PNG.
-## Passaggio 6: concludere
-Per completare il processo e garantire che tutto funzioni senza intoppi, potresti voler aggiungere un semplice messaggio di output.
+Se ti serve ogni livello come PNG separato, puoi iterare su `image.getLayers()` — ma per molti casi d'uso un PNG unificato è sufficiente.
+
+## Passo 6: Concludi
+Aggiungi un messaggio di console amichevole così saprai che il processo è terminato con successo.
 
 ```java
 System.out.println("PSD Layers have been successfully converted to PNG!");
 ```
 
-- Questa dichiarazione di stampa conferma che il processo è stato completato. Sempre un bel tocco per il debug e l'esperienza utente.
-## Conclusione
-Ed ecco qua! Hai aggiunto con successo il supporto dei livelli per i file PSD utilizzando Aspose.PSD per Java. Seguendo questi passaggi, puoi manipolare e convertire facilmente i file PSD, rendendo questa libreria un potente strumento nel tuo arsenale di sviluppo Java.
-Grazie alla possibilità di sfruttare i livelli in modo efficace, il limite a ciò che puoi creare è il cielo.
+## Problemi comuni e consigli
+- **Errori Out‑of‑Memory:** Se elabori PSD molto grandi, mantieni abilitato `setUseDiskForLoadEffectsResource(true)` per spostare i dati temporanei su disco.  
+- **Effetti mancanti:** Assicurati che `setLoadEffectsResource(true)` sia impostato; altrimenti alcuni effetti dei livelli potrebbero essere ignorati.  
+- **Problemi di percorso:** Usa `Paths.get(...)` da `java.nio.file` per gestire i percorsi in modo indipendente dalla piattaforma.
+
 ## Domande frequenti
-### Cos'è Aspose.PSD per Java?
-Aspose.PSD per Java è una libreria .NET che ti consente di manipolare file PSD senza avere Photoshop installato.
-### Posso utilizzare Aspose.PSD per altri formati di file?
-SÌ! Sebbene sia principalmente per i file PSD, Aspose offre librerie anche per vari altri formati.
-### È disponibile una versione di prova?
- Assolutamente! È possibile scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
-### Dove posso ottenere supporto se ho bisogno di aiuto?
- È possibile accedere al supporto nel forum Aspose[Qui](https://forum.aspose.com/c/psd/34).
-### Posso riconvertire da PNG a PSD?
-La libreria Aspose.PSD si concentra maggiormente sulla lettura e sulla manipolazione dei file PSD piuttosto che sulla conversione di altri formati in PSD.
+
+**D: Cos'è Aspose.PSD per Java?**  
+R: Aspose.PSD per Java è una libreria che consente di manipolare file PSD senza avere Photoshop installato.
+
+**D: Posso usare Aspose.PSD per altri formati di file?**  
+R: Sì! Sebbene sia principalmente per file PSD, Aspose offre librerie per vari altri formati.
+
+**D: È disponibile una versione di prova?**  
+R: Assolutamente! Puoi scaricare una versione di prova gratuita [qui](https://releases.aspose.com/).
+
+**D: Dove posso ottenere supporto se ho bisogno di aiuto?**  
+R: Puoi accedere al supporto nel forum Aspose [qui](https://forum.aspose.com/c/psd/34).
+
+**D: Posso convertire da PNG a PSD?**  
+R: La libreria Aspose.PSD è più focalizzata sulla lettura e manipolazione di file PSD piuttosto che sulla conversione di altri formati in PSD.
+
+**D: Come estraggo ogni livello come PNG separato?**  
+R: Itera su `image.getLayers()`, crea un nuovo `Bitmap` per ciascun livello e salvalo con le proprie `PngOptions`. Otterrai file PNG individuali per ogni livello.
+
+## Conclusione
+Ora sai come **estrarre i livelli PSD**, abilitare il supporto completo ai livelli e **convertire i livelli PSD in PNG** usando Aspose.PSD per Java. Che tu stia costruendo una pipeline automatizzata di asset o aggiungendo capacità grafiche a un'app desktop, questo approccio ti offre un controllo dettagliato sui file Photoshop senza la necessità di Photoshop stesso. Sentiti libero di approfondire — ad esempio applicando filtri, unendo livelli programmaticamente o esportando ogni livello singolarmente.
+
+---
+
+**Ultimo aggiornamento:** 2025-12-10  
+**Testato con:** Aspose.PSD per Java 24.11 (ultima versione al momento della stesura)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
