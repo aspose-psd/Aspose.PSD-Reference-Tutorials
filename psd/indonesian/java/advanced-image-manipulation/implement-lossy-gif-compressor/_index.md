@@ -10,8 +10,8 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengonversi PSD ke GIF Menggunakan Aspose.PSD untuk Java – Kompresor Lossy
 
@@ -134,9 +134,9 @@ A5: Anda dapat membeli pustaka tersebut [di sini](https://purchase.aspose.com/bu
 **Diuji Dengan:** Aspose.PSD untuk Java 24.12 (versi terbaru saat penulisan)  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
