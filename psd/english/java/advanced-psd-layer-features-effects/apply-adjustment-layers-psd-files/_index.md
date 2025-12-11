@@ -1,5 +1,5 @@
 ---
-title: Apply Adjustment Layers Java: Manipulating PSD Files with Aspose.PSD
+title: Apply Adjustment Layers Java - Manipulating PSD Files with Aspose.PSD
 linktitle: Apply Adjustment Layers in PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn how to apply adjustment layers java in PSD files using the Aspose.PSD library. This step‑by‑step guide shows Java developers how to programmatically edit Photoshop layers.
