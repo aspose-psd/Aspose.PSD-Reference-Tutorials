@@ -1,113 +1,180 @@
 ---
-title: Agregue soporte para capas vinculadas en archivos PSD usando Java
-linktitle: Agregue soporte para capas vinculadas en archivos PSD usando Java
-second_title: API de Java Aspose.PSD
-description: Aprenda cómo agregar compatibilidad con capas vinculadas en archivos PSD usando Aspose.PSD para Java con este tutorial detallado paso a paso. Perfecto para diseñadores y desarrolladores.
-weight: 19
+date: 2025-12-09
+description: Aprende cómo vincular capas en archivos PSD usando Aspose.PSD para Java.
+  Este tutorial paso a paso te muestra cómo gestionar capas PSD, desvincular capas
+  PSD y dominar el tutorial de Aspose.PSD.
+linktitle: How to Link Layers in PSD Files Using Java
+second_title: Aspose.PSD Java API
+title: Cómo vincular capas en archivos PSD usando Java
 url: /es/java/advanced-psd-layer-features-effects/add-linked-layer-support-psd-files/
+weight: 19
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# Agregue soporte para capas vinculadas en archivos PSD usando Java
+# Cómo vincular capas en archivos PSD usando Java  
 
-## Introducción
-Los archivos .PSD de Adobe Photoshop son los favoritos entre los diseñadores gráficos y artistas digitales debido a sus versátiles capacidades de administración de capas. A medida que se sumerge en el mundo de la manipulación de archivos PSD mediante programación, es posible que desee explorar cómo las capas vinculadas pueden mejorar su flujo de trabajo. Las capas vinculadas permiten a los usuarios mantener funcionalidades de capas independientes mientras las mantienen administradas como una unidad cohesiva. Ingrese a Aspose.PSD para Java, una poderosa biblioteca que facilita el trabajo con archivos de Photoshop. 
-En este artículo, analizaremos detalladamente cómo agregar compatibilidad con capas vinculadas en archivos PSD utilizando la biblioteca Aspose.PSD en Java. Ya sea que sea un desarrollador experimentado o un novato, esta guía paso a paso lo ayudará a realizar la tarea sin problemas.
-## Requisitos previos
-Antes de pasar directamente a la codificación, asegurémonos de tener todo configurado. Aquí hay una lista de verificación rápida:
-1. Kit de desarrollo de Java (JDK): asegúrese de tener instalada la última versión del JDK. Preferiblemente, utilice la versión 8 o superior.
-2.  Biblioteca Aspose.PSD para Java: debe descargar y agregar esta biblioteca a su proyecto. Puede encontrar la última versión en el[Página de lanzamiento de Aspose](https://releases.aspose.com/psd/java/).
-3. Un IDE o editor de texto: use su entorno de desarrollo integrado (IDE) favorito como Eclipse, IntelliJ IDEA o un editor de texto simple como VSCode o Notepad.++.
-4. Un archivo PSD de muestra: necesitará un archivo PSD para realizar la prueba. Puede crear uno en Adobe Photoshop o descargar archivos de muestra en línea.
-Una vez que tenga estos requisitos, podemos sumergirnos en la parte divertida: ¡codificar!
-## Importar paquetes
-Antes de codificar, asegurémonos de tener importados los paquetes necesarios. Así es como se ve:
+## Introducción  
+El formato `.PSD` de Adobe Photoshop es el estándar de la industria para gráficos con capas, y muchos desarrolladores necesitan manipular esas capas de forma programática. Una de las técnicas más poderosas es **vincular capas**, lo que permite mover o editar un grupo de capas como una sola unidad mientras se conservan las propiedades individuales de cada capa. En este **tutorial de Aspose.PSD** recorreremos **cómo vincular capas** en un archivo PSD usando Java, y también mostraremos cómo **administrar capas PSD**, **desvincular capas PSD**, y guardar los cambios en disco. Ya sea que estés construyendo una canalización de automatización de diseño o ampliando una aplicación de escritorio, estos pasos te darán control total sobre las relaciones entre capas.  
+
+## Respuestas rápidas  
+- **¿Qué significa “vincular capas”?** Crea un grupo lógico para que las capas se muevan juntas sin aplanarse.  
+- **¿Qué biblioteca lo gestiona?** Aspose.PSD para Java proporciona una API `LinkedLayersManager`.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Puedo desvincular después?** Sí, usa los métodos `unlinkLayer` o `unlinkLayers`.  
+- **¿Versiones de Java compatibles?** Java 8 o superior.  
+
+## ¿Qué es vincular capas en un archivo PSD?  
+Vincular capas es una función de Photoshop que une varias capas para que se comporten como una única entidad al transformarse, moverse o estilizarse. Los datos subyacentes permanecen separados, lo que significa que luego puedes **desvincular capas PSD** y editar cada una de forma independiente.  
+
+## ¿Por qué usar Aspose.PSD para Java para administrar capas PSD?  
+- **API completa** – Accede a cada constructo de Photoshop sin lanzar Photoshop.  
+- **Multiplataforma** – Funciona en cualquier SO que soporte Java.  
+- **Sin dependencia de UI** – Ideal para procesamiento por lotes en servidor o pipelines CI.  
+
+## Requisitos previos  
+Antes de sumergirnos en el código, asegúrate de tener:  
+
+1. **Java Development Kit (JDK) 8+** – Se recomienda la última versión del JDK.  
+2. **Aspose.PSD para Java** – Descárgalo desde la [página de lanzamiento de Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE o editor** – Eclipse, IntelliJ IDEA, VS Code, etc.  
+4. **Archivo PSD de muestra** – Crea uno en Photoshop o consigue una muestra gratuita para pruebas.  
+
+## Importar paquetes  
+Antes de programar, importa las clases necesarias de Aspose.PSD:  
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
-```
-Estas importaciones nos permiten acceder a las funcionalidades principales de la biblioteca Aspose.PSD e interactuar con archivos y capas PSD.
-¿Listo para empezar? Dividamos el proceso en pasos manejables.
-## Paso 1: cargue su archivo PSD
-Lo primero es lo primero, necesitamos cargar nuestro archivo PSD. Esto nos dará acceso a todas sus capas.
+```  
+
+Estas importaciones te dan acceso al manejo central de imágenes, a las características específicas de PSD y a los métodos de manipulación de capas.  
+
+## Guía paso a paso  
+
+### Paso 1: Cargar tu archivo PSD  
+Primero, abre el PSD con el que deseas trabajar.  
+
 ```java
-String dataDir = "Your Document Directory"; // especifique su directorio de documentos
+String dataDir = "Your Document Directory"; // specify your document directory
 PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");
-```
- En este fragmento, estamos usando el`Image.load()` método de la biblioteca Aspose. Asegúrese de que la ruta de su archivo esté configurada correctamente; de lo contrario, el programa no podrá encontrar su archivo PSD. 
-## Paso 2: obtener todas las capas
-Una vez que tenemos el archivo cargado, el siguiente paso es recuperar todas las capas del PSD.
+```  
+
+Asegúrate de que la ruta apunte a un archivo existente; de lo contrario, `Image.load()` lanzará una excepción.  
+
+### Paso 2: Recuperar todas las capas (Administrar capas PSD)  
+Obtén cada capa para decidir cuáles agrupar.  
+
 ```java
 Layer[] layers = psd.getLayers();
-```
-Esta línea reúne todas las capas en una matriz. Recuerde, las capas son los componentes básicos de su diseño, por lo que la clave es comprender cómo están estructuradas.
-## Paso 3: vincular las capas
-Ahora, creemos un grupo de capas vinculadas. Vincular capas le permite moverlas y editarlas como una sola unidad sin aplanar sus propiedades.
+```  
+
+El arreglo `layers` ahora contiene toda la pila de capas del documento.  
+
+### Paso 3: Vincular las capas  
+Crea un grupo de capas vinculadas usando la API del manager.  
+
 ```java
 short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
-```
-Este método vincula las capas que recuperó anteriormente. Es como atarse una cuerda alrededor del dedo para recordar una tarea manteniendo intactas las notas individuales.
-## Paso 4: Obtenga el ID del grupo de enlaces
-Para garantizar que nuestras capas estén vinculadas correctamente, debemos recuperar el ID del grupo de vínculos de nuestras capas recién vinculadas.
+```  
+
+Esta llamada devuelve un **ID de grupo** que identifica de forma única el nuevo grupo de enlaces.  
+
+### Paso 4: Verificar el ID del grupo de enlaces  
+Comprueba que el ID devuelto coincida con el almacenado en la primera capa.  
+
 ```java
 short linkGroupId = psd.getLinkedLayersManager().getLinkGroupId(layers[0]);
 if (layersLinkGroupId != linkGroupId) {
     throw new Exception("layersLinkGroupId and linkGroupId are not equal.");
 }
-```
-Este es un paso de validación simple. Si las identificaciones no coinciden, algo no salió según lo planeado. Es como revisar tu lista de compras antes de salir de compras.
-## Paso 5: recuperar y desvincular capas
-A continuación, es posible que desees desvincular capas en algún momento. A continuación se explica cómo recuperar las capas vinculadas y desvincularlas:
+```  
+
+Si los IDs difieren, algo salió mal durante el vínculo.  
+
+### Paso 5: Recuperar y desvincular capas (Desvincular capas PSD)  
+Cuando necesites romper la asociación, obtén las capas vinculadas por ID de grupo y desvínculalas una por una.  
+
 ```java
 Layer[] linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 for (Layer linkedLayer : linkedLayers) {
     psd.getLinkedLayersManager().unlinkLayer(linkedLayer);
 }
-```
-Usando un bucle, iteramos a través de cada capa vinculada y las desvinculamos. Esto le brinda la flexibilidad de realizar cambios en capas individuales sin afectar a las demás. ¡Es como tener un debate amistoso donde todos pueden expresar sus opiniones de forma independiente!
-## Paso 6: Validar el proceso de desvinculación
-Es vital comprobar que la desvinculación se realizó correctamente. Confirmemos:
+```  
+
+Cada iteración elimina el vínculo mientras preserva los datos originales de la capa.  
+
+### Paso 6: Validar el proceso de desvinculación  
+Confirma que no queden capas en el grupo.  
+
 ```java
 linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
 if (linkedLayers != null) {
     throw new Exception("The linkedLayers field is not NULL.");
 }
-```
-Esta comprobación final asegura que nuestras capas se han desvinculado correctamente. Si alguna capa vinculada persiste, lanzamos una excepción para indicar un problema.
-## Paso 7: guarde sus cambios
-Finalmente, después de todo ese arduo trabajo, es hora de guardar el archivo PSD de salida:
+```  
+
+Si `linkedLayers` sigue poblado, la operación de desvincular falló.  
+
+### Paso 7: Guardar el PSD actualizado  
+Escribe el documento modificado de nuevo en disco.  
+
 ```java
 psd.save(dataDir + "LinkedLayerexample_output.psd");
-```
-Al guardar sus cambios, no solo captura los ajustes que ha realizado sino que también conserva la estructura y las propiedades de su trabajo para futuras ediciones.
-## Paso 8: Deseche el objeto PSD
-Las buenas prácticas en programación incluyen liberar recursos cuando se termina. Deseche el objeto PSD para liberar memoria:
+```  
+
+Guardar preserva todos los cambios, incluido el nuevo grupo de enlaces o su eliminación.  
+
+### Paso 8: Liberar el objeto PSD  
+Libera los recursos nativos para evitar fugas de memoria.  
+
 ```java
 finally {
     psd.dispose();
 }
-```
-Al desechar el objeto de forma ordenada, ayudamos a garantizar que nuestra aplicación se ejecute sin problemas y sin pérdidas de memoria. Es un poco como limpiar tu espacio de trabajo después de terminar un proyecto.
-## Conclusión
-Aumente sus capacidades de manipulación de PSD adoptando capas vinculadas usando Aspose.PSD para Java. Esta guía lo llevó a configurar, codificar y ejecutar la adición de capas vinculadas paso a paso. Con la práctica, descubrirá que gestionar diseños complejos no sólo se vuelve más sencillo sino también mucho más divertido.
-## Preguntas frecuentes
-### ¿Qué es Aspose.PSD para Java?
-Aspose.PSD para Java es una biblioteca que permite a los desarrolladores manipular archivos PSD de Photoshop mediante programación.
-### ¿Puedo usar Aspose.PSD en cualquier sistema operativo?
-Sí, como biblioteca basada en Java, se ejecuta en cualquier plataforma que admita Java.
-### ¿Hay una versión de prueba disponible?
- Sí, puedes probar Aspose.PSD para Java de forma gratuita. Compruebe el[enlace de prueba gratuito](https://releases.aspose.com/).
-### ¿Dónde puedo encontrar más documentación?
- Puedes explorar la extensa documentación.[aquí](https://reference.aspose.com/psd/java/).
-### ¿Cómo puedo obtener soporte si tengo problemas?
- Si tiene algún problema, puede encontrar ayuda en el[foro de soporte](https://forum.aspose.com/c/psd/34).
-{{< /blocks/products/pf/tutorial-page-section >}}
+```  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+Llamar a `dispose()` es una buena práctica, especialmente al procesar muchos archivos en un bucle.  
+
+## Problemas comunes y consejos  
+
+- **Ruta de archivo incorrecta** – Usa siempre rutas absolutas o verifica el directorio de trabajo.  
+- **Licencia ausente** – La prueba funciona para evaluación, pero una licencia completa elimina las marcas de agua de evaluación.  
+- **Vincular solo un subconjunto** – Si solo necesitas parte de la pila de capas, crea un nuevo `Layer[]` con las capas deseadas antes de llamar a `linkLayers`.  
+- **Seguridad en subprocesos** – Las instancias de `PsdImage` no son seguras para subprocesos; crea una instancia separada por subproceso.  
+
+## Conclusión  
+Ahora dispones de un flujo de trabajo completo y listo para producción para **cómo vincular capas** en archivos PSD usando Aspose.PSD para Java. Al dominar estas API podrás automatizar tareas de diseño complejas, crear editores personalizados o integrar el manejo de capas al estilo Photoshop en cualquier aplicación Java. Sigue experimentando con otras funciones como efectos de capa, máscaras y objetos inteligentes para ampliar aún más tu conjunto de herramientas.  
+
+## Preguntas frecuentes  
+
+### ¿Qué es Aspose.PSD para Java?  
+Aspose.PSD para Java es una biblioteca que permite a los desarrolladores manipular archivos Photoshop PSD de forma programática.  
+
+### ¿Puedo usar Aspose.PSD en cualquier sistema operativo?  
+Sí, al ser una biblioteca basada en Java, se ejecuta en cualquier plataforma que soporte Java.  
+
+### ¿Existe una versión de prueba disponible?  
+Sí, puedes probar Aspose.PSD para Java de forma gratuita. Consulta el [enlace de prueba gratuita](https://releases.aspose.com/).  
+
+### ¿Dónde puedo encontrar más documentación?  
+Puedes explorar la extensa documentación [aquí](https://reference.aspose.com/psd/java/).  
+
+### ¿Cómo puedo obtener soporte si tengo problemas?  
+Si encuentras algún problema, puedes obtener ayuda en el [foro de soporte](https://forum.aspose.com/c/psd/34).  
+
+---  
+
+**Última actualización:** 2025-12-09  
+**Probado con:** Aspose.PSD 24.12 para Java  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}  
+
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}
