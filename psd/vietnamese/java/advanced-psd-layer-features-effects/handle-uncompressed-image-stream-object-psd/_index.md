@@ -1,33 +1,49 @@
 ---
-title: Xử lý đối tượng luồng hình ảnh không nén trong PSD - Java
-linktitle: Xử lý đối tượng luồng hình ảnh không nén trong PSD - Java
-second_title: API Java Aspose.PSD
-description: Xử lý thành thạo các luồng hình ảnh không nén trong PSD bằng Aspose.PSD cho Java với hướng dẫn dễ làm theo này. Hoàn hảo cho các nhà phát triển và nhà thiết kế.
-weight: 26
+date: 2025-12-13
+description: Tìm hiểu cách tạo đối tượng đồ họa PSD và thao tác các lớp PSD bằng cách
+  xử lý các luồng hình ảnh không nén với Aspose.PSD cho Java.
+linktitle: Handle Uncompressed Image Stream Object in PSD - Java
+second_title: Aspose.PSD Java API
+title: Tạo Đối tượng Đồ họa PSD – Luồng Không Nén trong Java
 url: /vi/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xử lý đối tượng luồng hình ảnh không nén trong PSD - Java
+# Tạo Đối Tượng Đồ Họa PSD – Luồng Không Nén trong Java
 
 ## Giới thiệu
-Chào mừng bạn đến với thế giới thao tác hình ảnh trong Java! Hôm nay, chúng ta sẽ đi sâu vào xử lý các đối tượng luồng hình ảnh không nén bằng Aspose.PSD cho Java. Cho dù bạn là nhà thiết kế đồ họa đang tìm cách tự động hóa quy trình công việc hay nhà phát triển phần mềm đang tìm cách tích hợp khả năng xử lý hình ảnh mạnh mẽ vào ứng dụng của mình thì hướng dẫn này được thiết kế riêng cho bạn. Chúng tôi sẽ hướng dẫn mọi thứ từ điều kiện tiên quyết đến kết luận, đảm bảo rằng bạn hiểu rõ về cách bắt đầu với Aspose.PSD.
-## Điều kiện tiên quyết
-Trước khi bắt đầu viết mã, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu cuộc hành trình này. Dưới đây là những điều kiện tiên quyết:
-### Bộ công cụ phát triển Java (JDK)
-Hãy chắc chắn rằng bạn đã cài đặt JDK trên máy của mình. Bạn có thể tải xuống từ trang web của Oracle hoặc sử dụng OpenJDK.
-### Aspose.PSD cho Java
- Bạn cần tải xuống và cài đặt thư viện Aspose.PSD. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp PSD một cách dễ dàng. Bạn có thể lấy phiên bản mới nhất từ[liên kết này](https://releases.aspose.com/psd/java/).
-### Môi trường phát triển tích hợp (IDE)
-Bạn nên sử dụng IDE để viết và kiểm tra mã Java của mình. Bạn có thể sử dụng IntelliJ IDEA, Eclipse hoặc bất kỳ thứ gì khác phù hợp với sở thích của bạn.
-### Hiểu biết cơ bản về Java
-Việc làm quen với lập trình Java sẽ giúp quá trình này diễn ra suôn sẻ hơn. Đảm bảo bạn biết những điều cơ bản như lớp, phương thức và xử lý ngoại lệ.
-Khi mọi thứ đã sẵn sàng, hãy xắn tay áo lên và bắt đầu phần thú vị – viết mã!
-## Gói nhập khẩu
-Để bắt đầu, chúng ta cần nhập các gói cần thiết để hoạt động với Aspose.PSD. Bên dưới, bạn sẽ tìm thấy các nội dung nhập mà bạn thường cần để xử lý các tệp PSD.
+Chào mừng đến với thế giới thao tác ảnh trong Java! Trong hướng dẫn này bạn sẽ **create PSD graphics object** và xử lý các luồng ảnh không nén bằng Aspose.PSD for Java. Dù bạn là nhà thiết kế đồ họa muốn tự động hoá quy trình làm việc hay là nhà phát triển phần mềm muốn tích hợp khả năng xử lý ảnh mạnh mẽ vào ứng dụng, hướng dẫn này được tạo riêng cho bạn. Chúng tôi sẽ đi qua mọi thứ từ các yêu cầu trước đến kết luận, đảm bảo bạn có hiểu biết vững chắc về cách bắt đầu với Aspose.PSD.
+
+## Câu trả lời nhanh
+- **“create PSD graphics object” có nghĩa là gì?** Nó đề cập đến việc khởi tạo một ngữ cảnh đồ họa cho tệp PSD để bạn có thể vẽ hoặc chỉnh sửa nội dung của nó.  
+- **Thư viện nào xử lý luồng không nén?** Aspose.PSD for Java cung cấp hỗ trợ đầy đủ cho dữ liệu ảnh raw (không nén).  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể thao tác các lớp PSD sau khi tạo đối tượng đồ họa không?** Có – thể hiện Graphics cho phép bạn vẽ trên bất kỳ lớp nào.  
+
+## Yêu cầu trước
+Trước khi chúng ta bắt đầu viết mã, hãy chắc chắn rằng bạn đã có mọi thứ cần thiết để khởi đầu hành trình này. Dưới đây là các yêu cầu trước:
+
+### Java Development Kit (JDK)
+Đảm bảo bạn đã cài đặt JDK trên máy tính của mình. Bạn có thể tải xuống từ trang web của Oracle hoặc sử dụng OpenJDK.
+
+### Aspose.PSD for Java
+Bạn cần tải xuống và cài đặt thư viện Aspose.PSD. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp PSD một cách dễ dàng. Bạn có thể lấy phiên bản mới nhất từ [liên kết này](https://releases.aspose.com/psd/java/).
+
+### Integrated Development Environment (IDE)
+Việc sử dụng một IDE để viết và kiểm thử mã Java của bạn là một ý tưởng tốt. Bạn có thể dùng IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE nào phù hợp với sở thích của mình.
+
+### Kiến thức cơ bản về Java
+Sự quen thuộc với lập trình Java sẽ giúp quá trình này suôn sẻ hơn. Đảm bảo bạn nắm vững các kiến thức cơ bản như lớp, phương thức và xử lý ngoại lệ.
+
+Với mọi thứ đã sẵn sàng, hãy xắn tay lên và tiến tới phần thú vị – viết mã!
+
+## Nhập các gói
+Để bắt đầu, chúng ta cần nhập các gói cần thiết để làm việc với Aspose.PSD. Dưới đây, bạn sẽ thấy các lệnh import thường dùng để xử lý tệp PSD.
+
 ```java
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
@@ -37,67 +53,126 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```
-Bây giờ, hãy chia mã thành các bước dễ hiểu để đảm bảo rằng bạn có thể thực hiện dễ dàng. Chúng tôi sẽ thiết lập, tải tệp PSD, thao tác và lưu kết quả đầu ra. 
-## Bước 1: Xác định thư mục tài liệu của bạn
-Trước khi bắt đầu viết mã, bạn cần xác định vị trí của tệp PSD. Điều này về cơ bản là thiết lập giai đoạn cho dự án của bạn. 
+
+Bây giờ, chúng ta sẽ chia nhỏ mã thành các bước dễ hiểu để bạn có thể theo dõi một cách dễ dàng. Chúng ta sẽ thiết lập, tải một tệp PSD, thao tác nó và lưu kết quả.
+
+## Bước 1: Xác định Thư mục Tài liệu của Bạn
+Trước khi bạn bắt đầu viết mã, bạn cần xác định vị trí tệp PSD của mình. Đây thực chất là việc thiết lập môi trường cho dự án.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi chứa tệp PSD của bạn (ví dụ: layer.psd). Điều này giúp định vị các tập tin của bạn mà không gặp rắc rối.
-## Bước 2: Tạo luồng đầu ra mảng byte
- Bạn cần một nơi để lưu trữ hình ảnh đã sửa đổi trước khi làm bất cứ điều gì với nó. MỘT`ByteArrayOutputStream` sẽ giúp bạn nắm bắt được dữ liệu hình ảnh một cách dễ dàng.
+
+Thay thế `"Your Document Directory"` bằng đường dẫn thực tế nơi tệp PSD của bạn (ví dụ: layers.psd) nằm. Điều này giúp bạn tìm file một cách dễ dàng.
+
+## Bước 2: Tạo Byte Array Output Stream
+Bạn cần một nơi để lưu trữ hình ảnh đã chỉnh sửa trước khi thực hiện bất kỳ thao tác nào. `ByteArrayOutputStream` sẽ giúp bạn nắm bắt dữ liệu hình ảnh một cách dễ dàng.
+
 ```java
 ByteArrayOutputStream ms = new ByteArrayOutputStream();
 ```
- Dòng này khởi tạo một cái mới`ByteArrayOutputStream` đối tượng được đặt tên`ms`. Bạn sẽ sử dụng đối tượng này để lưu hình ảnh chưa nén của mình.
+
+Dòng này khởi tạo một đối tượng `ByteArrayOutputStream` mới có tên `ms`. Bạn sẽ dùng đối tượng này để lưu hình ảnh không nén của mình.
+
 ## Bước 3: Tải tệp PSD
-Bây giờ là lúc tải tệp PSD thực tế. Đây là nơi phép thuật bắt đầu!
+Bây giờ, đã đến lúc tải tệp PSD thực tế. Đây là nơi phép thuật bắt đầu!
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
-Dòng này tải tệp PSD của bạn vào một`PsdImage` sự vật. Đảm bảo rằng bạn có đường dẫn chính xác; nếu không, lỗi sẽ xuất hiện giống như một bài kiểm tra không được đánh dấu.
-## Bước 4: Thiết lập PsdOptions để lưu
-Bạn cần chỉ định cách bạn muốn lưu hình ảnh của mình - tất nhiên là không nén!
+
+Dòng này tải tệp PSD của bạn vào một đối tượng `PsdImage`. Đảm bảo bạn có đường dẫn đúng; nếu không, lỗi sẽ xuất hiện như một bài kiểm tra bất ngờ.
+
+## Bước 4: Thiết lập PsdOptions để Lưu
+Bạn cần chỉ định cách lưu hình ảnh — không nén, tất nhiên!
+
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
- Tại đây, bạn tạo một`PsdOptions` đối tượng và đặt phương thức nén thành`Raw`. Phương pháp này đảm bảo rằng hình ảnh vẫn giữ được chất lượng đầy đủ và được lưu mà không cần nén.
-## Bước 5: Lưu hình ảnh vào luồng đầu ra
+
+Ở đây, bạn tạo một đối tượng `PsdOptions` và đặt phương pháp nén thành `Raw`. Phương pháp này đảm bảo hình ảnh giữ nguyên chất lượng đầy đủ và được lưu mà không có bất kỳ nén nào.
+
+## Bước 5: Lưu hình ảnh vào Output Stream
 ```java
 psdImage.save(ms, saveOptions);
 ```
- Dòng này lưu hình ảnh đã sửa đổi của bạn vào`ByteArrayOutputStream` bạn đã tạo ở Bước 2, sử dụng các tùy chọn được xác định ở Bước 4.`save` phương pháp này đảm nhiệm việc mã hóa hình ảnh đúng cách dựa trên cài đặt của bạn.
-## Bước 6: Đặt lại luồng đầu ra
-Sau khi lưu, luồng đầu ra của bạn ở cuối. Bạn cần cài lại để đọc lại từ đầu.
+
+Dòng này lưu hình ảnh đã chỉnh sửa của bạn vào `ByteArrayOutputStream` mà bạn tạo ở Bước 2, sử dụng các tùy chọn được định nghĩa ở Bước 4. Phương thức `save` chịu trách nhiệm mã hoá hình ảnh một cách chính xác dựa trên cài đặt của bạn.
+
+## Bước 6: Đặt lại Output Stream
+Sau khi lưu, output stream của bạn đang ở cuối. Bạn cần đặt lại nó để đọc từ đầu.
+
 ```java
 ms.reset();
 ```
- Cái này`reset` phương pháp chuẩn bị của bạn`ByteArrayOutputStream` để đọc lại từ đầu. Hãy coi việc này như việc tua lại một đoạn băng trước khi nghe bài hát yêu thích của bạn!
-## Bước 7: Tải hình ảnh mới tạo
+
+Phương thức `reset` này chuẩn bị `ByteArrayOutputStream` của bạn để đọc lại từ đầu. Hãy nghĩ nó như việc tua lại băng cassette trước khi nghe bài hát yêu thích!
+
+## Bước 7: Tải lại Hình ảnh Được Tạo Mới
 ```java
 PsdImage img = (PsdImage) Image.load(new ByteArrayInputStream(ms.toByteArray()));
 ```
- Ở đây, chúng tôi tải hình ảnh trở lại từ`ByteArrayOutputStream` vào một cái mới`PsdImage` sự vật. Đây là nơi bạn có thể kiểm tra kết quả công việc trước đó của mình.
-## Bước 8: Tạo đối tượng đồ họa
-Để sửa đổi hoặc hiển thị thêm hình ảnh, bạn sẽ cần tạo một đối tượng đồ họa.
+
+Ở đây, chúng ta tải lại hình ảnh từ `ByteArrayOutputStream` vào một đối tượng `PsdImage` mới. Đây là nơi bạn có thể kiểm tra kết quả của công việc trước đó.
+
+## Bước 8: Tạo Đối tượng Graphics
+Để tiếp tục chỉnh sửa hoặc render hình ảnh, bạn cần tạo một đối tượng graphics.
+
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
- Dòng này khởi tạo một`Graphics` đối tượng sử dụng của bạn`psdImage`. Bây giờ bạn có thể sử dụng đối tượng đồ họa này để vẽ hoặc thao tác với hình ảnh nếu cần. Nó giống như có một cây cọ vẽ trong tay của bạn!
-## Phần kết luận 
-Bạn đã học thành công cách xử lý các đối tượng luồng hình ảnh không nén trong tệp PSD bằng Aspose.PSD cho Java. Bằng cách làm theo các bước đã nêu, bạn có thể thao tác các tệp PSD theo chương trình, cung cấp cho bạn một công cụ mạnh mẽ trong bộ công cụ phát triển phần mềm của mình. Cho dù bạn đang tìm cách tự động hóa các tác vụ tẻ nhạt hay nâng cao chức năng, Aspose.PSD đều cung cấp cho bạn các tính năng mạnh mẽ để hoàn thành công việc.
+
+Dòng này khởi tạo một đối tượng `Graphics` bằng cách sử dụng `psdImage` của bạn. Bây giờ bạn có thể dùng đối tượng graphics này để vẽ hoặc thao tác hình ảnh theo nhu cầu. Nó giống như có một chiếc cọ vẽ trong tay!
+
+## Thao tác các Lớp PSD với Đối tượng Graphics
+Bây giờ bạn đã có một thể hiện **Graphics**, bạn có thể **thao tác các lớp PSD** — ví dụ, vẽ hình, thêm văn bản, hoặc áp dụng bộ lọc cho một lớp cụ thể. Ngữ cảnh graphics làm việc trực tiếp trên dữ liệu pixel nền, cung cấp cho bạn khả năng kiểm soát chi tiết từng lớp.
+
+## Các vấn đề thường gặp và giải pháp
+- **NullPointerException khi tải tệp** – kiểm tra lại đường dẫn `dataDir` và đảm bảo tên tệp đúng.  
+- **Kết quả nén mặc dù đã dùng Raw** – xác nhận rằng `saveOptions.setCompressionMethod(CompressionMethod.Raw);` được gọi trước phương thức `save`.  
+- **Đối tượng Graphics xuất hiện trống** – chắc chắn bạn đang vẽ trên đúng thể hiện `PsdImage` (sử dụng thể hiện bạn đã tải, không phải thể hiện mới tạo trừ khi có mục đích).  
+
 ## Câu hỏi thường gặp
+
 ### Aspose.PSD là gì?
-Aspose.PSD là thư viện .NET cho phép các nhà phát triển tạo, chỉnh sửa và thao tác với các tệp Photoshop PSD và các định dạng hình ảnh liên quan theo chương trình.
-### Làm cách nào tôi có thể tải xuống Aspose.PSD cho Java?
- Bạn có thể tải nó xuống từ[trang phát hành](https://releases.aspose.com/psd/java/).
+Aspose.PSD là một thư viện .NET cho phép các nhà phát triển tạo, chỉnh sửa và thao tác các tệp Photoshop PSD và các định dạng ảnh liên quan một cách lập trình.
+
+### Làm sao để tải Aspose.PSD cho Java?
+Bạn có thể tải xuống từ [trang phát hành](https://releases.aspose.com/psd/java/).
+
 ### Có bản dùng thử miễn phí cho Aspose.PSD không?
- Có, bạn có thể tải phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể lấy phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
+
 ### Tôi có thể nhận hỗ trợ cho Aspose.PSD không?
- Tuyệt đối! Bạn có thể tìm kiếm sự giúp đỡ trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34).
-### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
- Chỉ cần ghé thăm[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để bắt đầu.
+Tất nhiên! Bạn có thể tìm kiếm trợ giúp trên [diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34).
+
+### Làm sao để lấy giấy phép tạm thời cho Aspose.PSD?
+Chỉ cần truy cập [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để bắt đầu.
+
+## Các câu hỏi thường xuyên
+
+**Q: Tôi có thể dùng đối tượng graphics để chỉnh sửa chỉ một lớp cụ thể không?**  
+A: Có. Sau khi tải PSD, chọn lớp mong muốn bằng `psdImage.getLayers().get_Item(index)` và truyền nó vào hàm khởi tạo `Graphics`.
+
+**Q: Phương pháp nén Raw có ảnh hưởng đến kích thước tệp không?**  
+A: Raw lưu trữ dữ liệu pixel mà không nén, vì vậy kích thước tệp sẽ lớn hơn so với PSD đã nén, nhưng chất lượng hình ảnh vẫn giữ nguyên.
+
+**Q: Có thể xuất PSD đã chỉnh sửa sang định dạng khác (ví dụ: PNG) không?**  
+A: Chắc chắn. Sử dụng phương thức `Image.save` phù hợp với `PngOptions` sau khi chỉnh sửa.
+
+**Q: Yêu cầu phiên bản Java nào?**  
+A: Aspose.PSD cho Java hỗ trợ JDK 8 trở lên.
+
+**Q: Làm sao giải phóng tài nguyên sau khi xử lý?**  
+A: Gọi `psdImage.dispose()` và đóng mọi stream để giải phóng tài nguyên gốc.
+
+---  
+
+**Cập nhật lần cuối:** 2025-12-13  
+**Đã kiểm thử với:** Aspose.PSD for Java (phiên bản mới nhất)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
