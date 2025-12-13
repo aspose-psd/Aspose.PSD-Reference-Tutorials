@@ -1,33 +1,49 @@
 ---
-title: Obsługa nieskompresowanego obiektu strumienia obrazu w formacie PSD — Java
-linktitle: Obsługa nieskompresowanego obiektu strumienia obrazu w formacie PSD — Java
-second_title: Aspose.PSD API Java
-description: Opanuj obsługę nieskompresowanych strumieni obrazów w formacie PSD przy użyciu Aspose.PSD dla Java, korzystając z tego łatwego do zrozumienia przewodnika. Idealny dla programistów i projektantów.
-weight: 26
+date: 2025-12-13
+description: Dowiedz się, jak tworzyć obiekt graficzny PSD i manipulować warstwami
+  PSD, obsługując nieskompresowane strumienie obrazów przy użyciu Aspose.PSD dla Javy.
+linktitle: Handle Uncompressed Image Stream Object in PSD - Java
+second_title: Aspose.PSD Java API
+title: Utwórz obiekt graficzny PSD – niekompresowany strumień w Javie
 url: /pl/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obsługa nieskompresowanego obiektu strumienia obrazu w formacie PSD — Java
+# Utwórz obiekt graficzny PSD – Niekompresowany strumień w Javie
 
-## Wstęp
-Witamy w świecie manipulacji obrazami w Javie! Dzisiaj zagłębiamy się w obsługę nieskompresowanych obiektów strumienia obrazów przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś grafikiem pragnącym zautomatyzować przepływ pracy, czy programistą chcącym zintegrować zaawansowane możliwości przetwarzania obrazu ze swoimi aplikacjami, ten przewodnik jest stworzony właśnie dla Ciebie. Przejdziemy przez wszystko, od warunków wstępnych po wnioski, upewniając się, że dobrze rozumiesz, jak zacząć korzystać z Aspose.PSD.
-## Warunki wstępne
-Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby rozpocząć tę podróż. Oto wymagania wstępne:
-### Zestaw programistyczny Java (JDK)
-Upewnij się, że masz zainstalowany JDK na swoim komputerze. Można go pobrać ze strony internetowej Oracle lub skorzystać z OpenJDK.
-### Aspose.PSD dla Javy
- Musisz pobrać i zainstalować bibliotekę Aspose.PSD. Ta potężna biblioteka umożliwia łatwe manipulowanie plikami PSD. Najnowszą wersję możesz pobrać ze strony[ten link](https://releases.aspose.com/psd/java/).
-### Zintegrowane środowisko programistyczne (IDE)
-Dobrym pomysłem jest użycie IDE do pisania i testowania kodu Java. Możesz użyć IntelliJ IDEA, Eclipse lub dowolnego innego, który odpowiada Twoim preferencjom.
+## Wprowadzenie
+Witamy w świecie manipulacji obrazami w Javie! W tym samouczku **utworzysz obiekt graficzny PSD** i obsłużysz niekompresowane strumienie obrazu przy użyciu Aspose.PSD for Java. Niezależnie od tego, czy jesteś projektantem graficznym, który chce zautomatyzować swoje procesy, czy programistą, który chce zintegrować potężne możliwości przetwarzania obrazów w swoich aplikacjach, ten przewodnik jest stworzony właśnie dla Ciebie. Przejdziemy przez wszystko, od wymagań wstępnych po podsumowanie, zapewniając solidne zrozumienie, jak rozpocząć pracę z Aspose.PSD.
+
+## Szybkie odpowiedzi
+- **Co oznacza „utwórz obiekt graficzny PSD”?** Odnosi się to do utworzenia kontekstu graficznego dla pliku PSD, aby móc rysować lub edytować jego zawartość.  
+- **Która biblioteka obsługuje niekompresowane strumienie?** Aspose.PSD for Java zapewnia pełne wsparcie dla surowych (niekompresowanych) danych obrazu.  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę manipulować warstwami PSD po utworzeniu obiektu graficznego?** Tak – instancja Graphics pozwala rysować na dowolnej warstwie.  
+
+## Wymagania wstępne
+Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, co potrzebne, aby rozpocząć tę podróż. Oto wymagania wstępne:
+
+### Java Development Kit (JDK)
+Upewnij się, że masz zainstalowany JDK na swoim komputerze. Możesz go pobrać ze strony Oracle lub użyć OpenJDK.
+
+### Aspose.PSD for Java
+Musisz pobrać i zainstalować bibliotekę Aspose.PSD. Ta potężna biblioteka umożliwia łatwą manipulację plikami PSD. Najnowszą wersję możesz uzyskać z [tego linku](https://releases.aspose.com/psd/java/).
+
+### Integrated Development Environment (IDE)
+Warto używać IDE do pisania i testowania kodu Java. Możesz wybrać IntelliJ IDEA, Eclipse lub dowolne inne, które odpowiada Twoim preferencjom.
+
 ### Podstawowa znajomość Javy
 Znajomość programowania w Javie ułatwi ten proces. Upewnij się, że znasz podstawy, takie jak klasy, metody i obsługa wyjątków.
-Gdy wszystko jest już gotowe, zakasujmy rękawy i przejdźmy do ekscytującej części – kodowania!
-## Importuj pakiety
+
+Mając wszystko gotowe, zakasaj rękawy i przejdźmy do ekscytującej części – kodowania!
+
+## Importowanie pakietów
 Aby rozpocząć, musimy zaimportować niezbędne pakiety do pracy z Aspose.PSD. Poniżej znajdziesz importy, które zazwyczaj będą potrzebne do obsługi plików PSD.
+
 ```java
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
@@ -37,67 +53,125 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```
-Podzielmy teraz kod na zrozumiałe kroki, dzięki którym będziesz mógł łatwo wykonać wszystkie czynności. Skonfigurujemy, załadujemy plik PSD, zmanipulujemy go i zapiszemy wynik. 
-## Krok 1: Zdefiniuj katalog dokumentów
-Zanim zaczniesz kodować, określ, gdzie znajduje się plik PSD. Zasadniczo jest to przygotowanie gruntu pod Twój projekt. 
+
+Teraz rozbijmy kod na przystępne kroki, abyś mógł łatwo podążać za instrukcją. Skonfigurujemy, załadujemy plik PSD, zmodyfikujemy go i zapisujemy wynik.
+
+## Krok 1: Zdefiniuj katalog dokumentów
+Zanim zaczniesz pisać kod, określ, gdzie znajduje się Twój plik PSD. To właściwie przygotowanie sceny dla Twojego projektu.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik PSD (np. Layers.psd). Pomaga to w zlokalizowaniu plików bez kłopotów.
-## Krok 2: Utwórz strumień wyjściowy tablicy bajtów
- Potrzebujesz miejsca do przechowywania zmodyfikowanego obrazu, zanim cokolwiek z nim zrobisz. A`ByteArrayOutputStream` pomoże Ci łatwo przechwycić dane obrazu.
+
+Zastąp `"Your Document Directory"` rzeczywistą ścieżką, w której znajduje się plik PSD (np. layers.psd). Dzięki temu łatwiej będzie odnaleźć pliki bez problemów.
+
+## Krok 2: Utwórz strumień wyjściowy ByteArrayOutputStream
+Potrzebujesz miejsca, w którym przechowasz zmodyfikowany obraz przed dalszą obróbką. `ByteArrayOutputStream` pomoże Ci łatwo przechwycić dane obrazu.
+
 ```java
 ByteArrayOutputStream ms = new ByteArrayOutputStream();
 ```
- Ta linia inicjuje nową`ByteArrayOutputStream` obiekt nazwany`ms`. Użyjesz tego obiektu do zapisania nieskompresowanego obrazu.
-## Krok 3: Załaduj plik PSD
-Teraz nadszedł czas, aby załadować właściwy plik PSD. Tutaj zaczyna się magia!
+
+Ta linia inicjalizuje nowy obiekt `ByteArrayOutputStream` o nazwie `ms`. Będziesz używać tego obiektu do zapisu niekompresowanego obrazu.
+
+## Krok 3: Załaduj plik PSD
+Nadszedł czas, aby wczytać rzeczywisty plik PSD. Tu zaczyna się magia!
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
-Ta linia ładuje plik PSD do pliku`PsdImage` obiekt. Upewnij się, że masz poprawną ścieżkę; w przeciwnym razie pojawi się błąd, jak w niesprawdzonym quizie.
-## Krok 4: Skonfiguruj opcje PsdOptions do zapisywania
-Musisz określić, w jaki sposób chcesz zapisać obraz — oczywiście nieskompresowany!
+
+Ta linia ładuje Twój plik PSD do obiektu `PsdImage`. Upewnij się, że podajesz prawidłową ścieżkę; w przeciwnym razie pojawi się błąd, jak nieoczekiwany quiz.
+
+## Krok 4: Skonfiguruj PsdOptions do zapisu
+Musisz określić, w jaki sposób chcesz zapisać obraz — oczywiście niekompresowany!
+
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
- Tutaj tworzysz`PsdOptions` obiekt i ustaw metodę kompresji na`Raw`. Metoda ta gwarantuje, że obraz zachowa pełną jakość i zostanie zapisany bez jakiejkolwiek kompresji.
-## Krok 5: Zapisz obraz w strumieniu wyjściowym
+
+Tutaj tworzysz obiekt `PsdOptions` i ustawiasz metodę kompresji na `Raw`. Ta metoda zapewnia, że obraz zachowuje pełną jakość i jest zapisywany bez kompresji.
+
+## Krok 5: Zapisz obraz do strumienia wyjściowego
 ```java
 psdImage.save(ms, saveOptions);
 ```
- Ta linia zapisuje zmodyfikowany obraz w formacie`ByteArrayOutputStream` utworzony w kroku 2, korzystając z opcji zdefiniowanych w kroku 4. The`save` Metoda dba o prawidłowe kodowanie obrazu w oparciu o ustawienia.
-## Krok 6: Zresetuj strumień wyjściowy
-Po zapisaniu strumień wyjściowy dobiega końca. Aby przeczytać od początku, musisz go zresetować.
+
+Ta linia zapisuje zmodyfikowany obraz do `ByteArrayOutputStream`, który utworzyłeś w Kroku 2, używając opcji zdefiniowanych w Kroku 4. Metoda `save` zajmuje się prawidłowym kodowaniem obrazu zgodnie z Twoimi ustawieniami.
+
+## Krok 6: Zresetuj strumień wyjściowy
+Po zapisie Twój strumień wyjściowy znajduje się na końcu. Musisz go zresetować, aby móc odczytać dane od początku.
+
 ```java
 ms.reset();
 ```
- Ten`reset` metoda przygotowuje`ByteArrayOutputStream` do ponownego przeczytania od początku. Pomyśl o tym jak o przewinięciu taśmy przed wysłuchaniem ulubionej piosenki!
-## Krok 7: Załaduj nowo utworzony obraz
+
+Metoda `reset` przygotowuje Twój `ByteArrayOutputStream` do odczytu od początku. To jak przewinięcie taśmy przed odtworzeniem ulubionej piosenki!
+
+## Krok 7: Załaduj nowo utworzony obraz
 ```java
 PsdImage img = (PsdImage) Image.load(new ByteArrayInputStream(ms.toByteArray()));
 ```
- Tutaj ładujemy obraz z powrotem z pliku`ByteArrayOutputStream` w nowy`PsdImage` obiekt. Tutaj możesz sprawdzić efekty swojej wcześniejszej pracy.
-## Krok 8: Utwórz obiekt graficzny
+
+Tutaj wczytujemy obraz z powrotem z `ByteArrayOutputStream` do nowego obiektu `PsdImage`. Dzięki temu możesz sprawdzić wyniki swojej wcześniejszej pracy.
+
+## Krok 8: Utwórz obiekt Graphics
 Aby dalej modyfikować lub renderować obraz, musisz utworzyć obiekt graficzny.
+
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
- Ta linia inicjuje a`Graphics` obiekt za pomocą twojego`psdImage`. Możesz teraz używać tego obiektu graficznego do rysowania lub manipulowania obrazem, według potrzeb. To jak mieć pędzel w dłoni!
-## Wniosek 
-Pomyślnie nauczyłeś się obsługiwać nieskompresowane obiekty strumienia obrazu w pliku PSD przy użyciu Aspose.PSD dla Java. Wykonując opisane kroki, możesz programowo manipulować plikami PSD, co stanowi potężne narzędzie w zestawie narzędzi do tworzenia oprogramowania. Niezależnie od tego, czy chcesz zautomatyzować żmudne zadania, czy ulepszyć funkcjonalność, Aspose.PSD zapewnia niezawodne funkcje umożliwiające wykonanie zadania.
-## Często zadawane pytania
+
+Ta linia inicjalizuje obiekt `Graphics` przy użyciu Twojego `psdImage`. Teraz możesz używać tego obiektu graficznego do rysowania lub manipulacji obrazem według potrzeb. To jak posiadanie pędzla w ręku!
+
+## Manipulacja warstwami PSD za pomocą obiektu Graphics
+Mając już instancję **Graphics**, możesz **manipulować warstwami PSD** — na przykład rysować kształty, dodawać tekst lub stosować filtry na konkretnej warstwie. Kontekst graficzny działa bezpośrednio na danych pikseli, dając precyzyjną kontrolę nad wyglądem każdej warstwy.
+
+## Typowe problemy i rozwiązania
+- **NullPointerException przy ładowaniu pliku** – sprawdź dwukrotnie ścieżkę `dataDir` i upewnij się, że nazwa pliku jest poprawna.  
+- **Wyjście skompresowane pomimo użycia Raw** – zweryfikuj, czy przed wywołaniem metody `save` wywołano `saveOptions.setCompressionMethod(CompressionMethod.Raw);`.  
+- **Obiekt Graphics jest pusty** – upewnij się, że rysujesz na właściwej instancji `PsdImage` (użyj tej, którą załadowałeś, a nie nowo utworzonej, chyba że tak zamierzasz).
+
+## FAQ's
 ### Co to jest Aspose.PSD?
-Aspose.PSD to biblioteka .NET, która umożliwia programistom programowe tworzenie, edytowanie i manipulowanie plikami Photoshop PSD i powiązanymi formatami obrazów.
-### Jak mogę pobrać Aspose.PSD dla Java?
- Można go pobrać z[strona wydania](https://releases.aspose.com/psd/java/).
-### Czy istnieje bezpłatna wersja próbna Aspose.PSD?
- Tak, możesz uzyskać bezpłatną wersję próbną od[Tutaj](https://releases.aspose.com/).
+Aspose.PSD to biblioteka .NET, która umożliwia programistom tworzenie, edytowanie i manipulowanie plikami Photoshop PSD oraz powiązanymi formatami obrazów w sposób programowy.
+
+### Jak mogę pobrać Aspose.PSD for Java?
+Możesz pobrać ją ze [strony wydania](https://releases.aspose.com/psd/java/).
+
+### Czy istnieje darmowa wersja próbna Aspose.PSD?
+Tak, darmową wersję próbną możesz uzyskać [tutaj](https://releases.aspose.com/).
+
 ### Czy mogę uzyskać wsparcie dla Aspose.PSD?
- Absolutnie! Możesz szukać pomocy na[Forum wsparcia Aspose](https://forum.aspose.com/c/psd/34).
-### Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
- Wystarczy odwiedzić[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) zacząć.
+Oczywiście! Pomoc znajdziesz na [forum wsparcia Aspose](https://forum.aspose.com/c/psd/34).
+
+### Jak mogę uzyskać tymczasową licencję dla Aspose.PSD?
+Wystarczy odwiedzić [stronę tymczasowej licencji](https://purchase.aspose.com/temporary-license/), aby rozpocząć.
+
+## Frequently Asked Questions
+
+**Q: Czy mogę używać obiektu Graphics do edycji tylko jednej, konkretnej warstwy?**  
+A: Tak. Po załadowaniu PSD wybierz żądaną warstwę za pomocą `psdImage.getLayers().get_Item(index)` i przekaż ją do konstruktora `Graphics`.
+
+**Q: Czy metoda kompresji Raw wpływa na rozmiar pliku?**  
+A: Raw przechowuje dane pikseli bez kompresji, więc rozmiar pliku będzie większy niż w przypadku skompresowanych PSD, ale jakość obrazu pozostaje niezmieniona.
+
+**Q: Czy można wyeksportować edytowany PSD do innego formatu (np. PNG)?**  
+A: Zdecydowanie. Użyj odpowiedniego przeciążenia `Image.save` z `PngOptions` po zakończeniu edycji.
+
+**Q: Jaka wersja Javy jest wymagana?**  
+A: Aspose.PSD for Java obsługuje JDK 8 i nowsze.
+
+**Q: Jak zwolnić zasoby po przetworzeniu?**  
+A: Wywołaj `psdImage.dispose()` i zamknij wszystkie strumienie, aby zwolnić zasoby natywne.
+
+---  
+
+**Ostatnia aktualizacja:** 2025-12-13  
+**Testowano z:** Aspose.PSD for Java (najnowsze wydanie)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
