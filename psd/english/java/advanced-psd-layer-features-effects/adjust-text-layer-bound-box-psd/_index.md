@@ -1,5 +1,5 @@
 ---
-title: How to Edit PSD: Adjust Text Layer Bound Box in Java
+title: How to Edit PSD - Adjust Text Layer Bound Box in Java
 linktitle: Adjust Text Layer Bound Box in PSD using Java
 second_title: Aspose.PSD Java API
 description: Learn how to edit PSD files by adjusting a Photoshop text layer bound box using Aspose.PSD for Java. Includes step-by-step guide.
