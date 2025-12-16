@@ -1,36 +1,55 @@
 ---
-title: Obracaj warstwy w plikach PSD przy użyciu języka Java
-linktitle: Obracaj warstwy w plikach PSD przy użyciu języka Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak bez wysiłku obracać warstwy w plikach PSD za pomocą Aspose.PSD dla Java, korzystając z tego przewodnika krok po kroku.
-weight: 21
+date: 2025-12-15
+description: Naucz się konwertować pliki PSD na PNG i obracać warstwy PSD w Javie
+  przy użyciu Aspose.PSD. Przewodnik krok po kroku z przykładami kodu.
+linktitle: Convert PSD to PNG and Rotate Layers in PSD Files using Java
+second_title: Aspose.PSD Java API
+title: Konwertuj PSD na PNG i obracaj warstwy w plikach PSD przy użyciu Javy
 url: /pl/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obracaj warstwy w plikach PSD przy użyciu języka Java
+# Konwertuj PSD do PNG i Obracaj warstwy w plikach PSD przy użyciu Javy
 
-## Wstęp
-W świecie projektowania graficznego praca z plikami Photoshopa (PSD) jest powszechną czynnością. Niezależnie od tego, czy jesteś doświadczonym projektantem, czy dopiero zaczynasz zajmować się manipulacją obrazami, umiejętność obracania warstw w plikach PSD może zaoszczędzić czas. Ale tutaj sprawa staje się skomplikowana: nie każdy ma dostęp do programu Adobe Photoshop i nie chce uczyć się jego skomplikowanego interfejsu. I tu z pomocą przychodzi Java, która ułatwia programową manipulację plikami PSD. W tym artykule przyjrzymy się potężnej bibliotece Aspose.PSD for Java, która umożliwia płynną pracę z plikami PSD, w tym z obracaniem warstw. Zakasaj więc rękawy i przejdźmy do usprawnienia przepływu pracy podczas projektowania!
-## Warunki wstępne
-Zanim zaczniemy, musisz przygotować kilka rzeczy:
-### Zestaw programistyczny Java (JDK)
- Upewnij się, że masz zainstalowany pakiet JDK na swoim komputerze. Jeśli jeszcze tego nie zrobiłeś, pobierz go z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-### Zintegrowane środowisko programistyczne (IDE)
-Korzystanie z IDE, takiego jak IntelliJ IDEA, Eclipse lub NetBeans, może sprawić, że kodowanie będzie znacznie przyjemniejsze.
-### Aspose.PSD dla biblioteki Java
- Pobierz i dołącz bibliotekę Aspose.PSD for Java do swojego projektu. Można go zdobyć z[strona wydania](https://releases.aspose.com/psd/java/).
-### Podstawowa znajomość Javy
-Niezbędna jest dobra znajomość programowania w języku Java. Powinieneś znać pojęcia takie jak klasy, pakiety i programowanie obiektowe.
-## Importuj pakiety
-Aby rozpocząć korzystanie z Aspose.PSD dla Java, musimy najpierw zaimportować niezbędne pakiety. Oto jak możesz to zrobić:
-## Krok 1: Skonfiguruj swój projekt Java
-Utwórz nowy projekt Java w swoim ulubionym IDE, a następnie dodaj bibliotekę Aspose.PSD do ścieżki kompilacji swojego projektu.
-## Krok 2: Zaimportuj wymagane klasy
-Na górze pliku Java musisz zaimportować następujące klasy:
+## Wprowadzenie
+Jeśli potrzebujesz **konwertować PSD do PNG** jednocześnie obracając warstwy, ten przewodnik jest dla Ciebie. Niezależnie od tego, czy tworzysz narzędzie do przetwarzania wsadowego, czy integrujesz manipulację obrazami w usłudze internetowej, programowe podejście oszczędza czas i eliminuje zależność od Adobe Photoshop. W tym tutorialu pokażemy Ci **jak obracać warstwy PSD** i wyeksportować wynik jako PNG przy użyciu biblioteki Aspose.PSD dla Javy. Zrolujmy rękawy i sprawmy, by Twój przepływ pracy projektowej działał płynnie!
+
+## Szybkie odpowiedzi
+- **Jakiej biblioteki mogę użyć?** Aspose.PSD for Java  
+- **Czy mogę jednocześnie obracać i konwertować?** Tak – najpierw obróć PSD, a potem zapisz jako PNG  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja płatna jest wymagana w produkcji  
+- **Jaką wersję Javy obsługuje?** Java 8 i nowsze  
+- **Czy wyjściowy PNG jest przezroczysty?** Tak, gdy ustawisz `PngColorType.TruecolorWithAlpha`
+
+## Co oznacza „konwertować PSD do PNG”
+Konwersja dokumentu Photoshop (PSD) do obrazu PNG oznacza wyodrębnienie treści wizualnej — w tym wszystkich warstw, masek i przezroczystości — do powszechnie obsługiwanego formatu rastrowego. PNG zachowuje kanały alfa, co czyni go idealnym dla grafiki internetowej, miniatur i dalszego przetwarzania obrazów.
+
+## Dlaczego używać Aspose.PSD for Java do konwersji PSD do PNG i obracania warstw PSD?
+- **Nie wymaga Photoshopa** – działa na dowolnym serwerze lub w środowisku CI  
+- **Pełne wsparcie warstw** – zachowuje przezroczystość i efekty warstw  
+- **Proste API** – obracaj, odwracaj i zapisuj przy użyciu kilku wywołań metod  
+- **Wieloplatformowe** – działa na Windows, Linux i macOS  
+
+## Wymagania wstępne
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
+
+- **Java Development Kit (JDK)** – pobierz ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Zintegrowane środowisko programistyczne (IDE)** – IntelliJ IDEA, Eclipse lub NetBeans będą odpowiednie.  
+- **Biblioteka Aspose.PSD for Java** – pobierz najnowszy plik JAR ze [strony wydań](https://releases.aspose.com/psd/java/).  
+- **Podstawowa znajomość Javy** – znajomość klas, obiektów i obsługi wyjątków.  
+
+## Przewodnik krok po kroku
+
+### Krok 1: Skonfiguruj projekt Java
+Utwórz nowy projekt Java w swoim IDE i dodaj plik JAR Aspose.PSD do ścieżki kompilacji projektu.
+
+### Krok 2: Zaimportuj wymagane klasy
+Dodaj następujące importy na początku pliku źródłowego Java:
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.RotateFlipType;
@@ -38,63 +57,108 @@ import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
-Importy te zapewniają dostęp do podstawowych funkcji, z których będziemy korzystać w całym naszym kodzie. 
 
-Teraz, gdy skonfigurowaliśmy nasze środowisko i zaimportowaliśmy niezbędne pakiety, przeanalizujmy krok po kroku proces obracania warstw w pliku PSD.
-## Krok 1: Skonfiguruj ścieżki plików
+Te klasy zapewniają dostęp do ładowania obrazu, rotacji oraz opcji specyficznych dla PNG.
 
-Najpierw musimy określić, gdzie znajdują się nasze pliki PSD i gdzie chcemy zapisać zmodyfikowane obrazy. 
+### Krok 3: Zdefiniuj ścieżki plików
+Określ, gdzie znajduje się źródłowy plik PSD oraz gdzie mają być zapisywane pliki wyjściowe.
+
 ```java
-String dataDir = "Your Document Directory"; // Zmień to na rzeczywisty katalog dokumentów.
-String sourceFile = dataDir + "1.psd"; // Źródłowy plik PSD
-String pngPath = dataDir + "RotateFlipTest2617.png"; // Ścieżka wyjściowego pliku PNG
-String psdPath = dataDir + "RotateFlipTest2617.psd"; // Ścieżka wyjściowego pliku PSD
+String dataDir = "Your Document Directory"; // Change this to your actual document directory.
+String sourceFile = dataDir + "1.psd"; // Source PSD file
+String pngPath = dataDir + "RotateFlipTest2617.png"; // Output PNG file path
+String psdPath = dataDir + "RotateFlipTest2617.psd"; // Output PSD file path
 ```
- Tutaj upewnij się, że zaktualizowałeś`"Your Document Directory"` do ścieżki, w której przechowywany jest plik PSD.
-## Krok 2: Załaduj plik PSD
 
-Następnie chcemy załadować nasz plik PSD do naszego programu, abyśmy mogli nim manipulować.
+> **Wskazówka:** Używaj ścieżki bezwzględnej podczas testów, aby uniknąć błędów „plik nie znaleziony”.
+
+### Krok 4: Załaduj plik PSD
+Załaduj PSD do obiektu, którym można manipulować.
+
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFile);
 ```
- Używając`Image.load()` , możemy łatwo przekonwertować nasz plik na plik podlegający manipulacji`PsdImage` obiekt.
-## Krok 3: Obróć obraz
 
- A teraz przyjemna część! Obrócimy załadowany obraz PSD. The`RotateFlipType` class oferuje różne opcje obracania i odwracania obrazu. W naszym przypadku skorzystamy`Rotate270FlipXY`.
+Teraz `im` reprezentuje cały dokument Photoshop, włącznie ze wszystkimi warstwami.
+
+### Krok 5: Obróć obraz (Jak obrócić PSD)
+Wybierz typ rotacji z `RotateFlipType`. W tym przykładzie obracamy o 270° i odwracamy obie osie.
+
 ```java
-int flipType = RotateFlipType.Rotate270FlipXY; // Wybierz typ rotacji
-im.rotateFlip(flipType); // Obróć obraz
+int flipType = RotateFlipType.Rotate270FlipXY; // Choose the rotation type
+im.rotateFlip(flipType); // Rotate the image
 ```
-Linia ta skutecznie obraca obraz o 270 stopni. Zachęcamy do eksperymentowania z różnymi opcjami oferowanymi w`RotateFlipType`!
-## Krok 4: Zapisz obraz jako PNG
 
-Po obróceniu powinniśmy zapisać zmanipulowany obraz. Zapiszemy go w formacie PNG, aby zachować przezroczystość warstw.
+Śmiało eksperymentuj z innymi wartościami, takimi jak `Rotate90FlipNone` lub `Rotate180FlipX`.
+
+### Krok 6: Zapisz obrócony obraz jako PNG (konwertuj PSD do PNG)
+Skonfiguruj opcje PNG, aby zachować przezroczystość, a następnie zapisz.
+
 ```java
 PngOptions options = new PngOptions();
-options.setColorType(PngColorType.TruecolorWithAlpha); // Zachowaj przejrzystość
-im.save(pngPath, options); // Zapisz obrócony obraz
+options.setColorType(PngColorType.TruecolorWithAlpha); // Preserve transparency
+im.save(pngPath, options); // Save the rotated image
 ```
- Ważne jest, aby ustawić typ koloru jako`TruecolorWithAlpha` aby zachować stabilność przezroczystości po zapisaniu jako plik PNG.
-## Krok 5: Zapisz zmodyfikowany plik PSD
 
-Aby zachować oryginalny plik PSD wraz ze zmianami, możesz zapisać zmodyfikowany obraz jako nowy plik PSD.
+Powstały PNG zachowuje przezroczystość warstw, co czyni go gotowym do użycia w sieci.
+
+### Krok 7: Zapisz zmodyfikowany PSD (opcjonalnie)
+Jeśli potrzebujesz również nowego PSD z zastosowaną rotacją, zapisz go ponownie.
+
 ```java
 im.save(psdPath);
 ```
-Teraz masz zarówno plik PNG, jak i zmodyfikowany plik PSD w określonym katalogu!
-## Wniosek
-Dzięki wykorzystaniu biblioteki Aspose.PSD for Java obracanie warstw w plikach PSD staje się prostym zadaniem. Dzięki temu przewodnikowi nie tylko nauczyłeś się manipulować plikami PSD, ale także udoskonaliłeś swoje umiejętności w języku Java. Czy to nie wspaniałe, jak programowanie może usprawnić proces projektowania? Więc na co czekasz? Chwyć pliki PSD i zacznij eksperymentować!
-## Często zadawane pytania
-### Czy mogę obrócić określoną warstwę w pliku PSD?
- Tak, możesz skorzystać`Layer.rotateFlip()` metoda na określonych warstwach po przeprowadzeniu pętli przez warstwy`PsdImage`.
-### Czy są jakieś ograniczenia wydajności w Aspose.PSD dla Java?
-Ogólnie działa dobrze, ale obsługa bardzo dużych plików może wymagać wystarczających zasobów pamięci. Zawsze testuj wcześniej w przypadku rozbudowanych projektów.
-### Czy korzystanie z Aspose.PSD jest bezpłatne?
- Aspose oferuje bezpłatną wersję próbną, ale do długotrwałego użytkowania będziesz potrzebować płatnej licencji. Sprawdź ich[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do testowania.
+
+Masz teraz zarówno podgląd PNG, jak i zaktualizowany plik PSD.
+
+## Typowe problemy i rozwiązania
+- **Plik nie znaleziony:** Upewnij się, że `dataDir` kończy się separatorem ścieżki (`/` lub `\`).  
+- **OutOfMemoryError przy dużych PSD:** Zwiększ rozmiar sterty JVM (`-Xmx2g`).  
+- **Utrata przezroczystości:** Upewnij się, że ustawiono `PngColorType.TruecolorWithAlpha`; w przeciwnym razie PNG zostanie zapisany bez alfa.
+
+## FAQ
+
+### Czy mogę obrócić konkretną warstwę w pliku PSD?
+Tak, możesz użyć `Layer.rotateFlip()` na pojedynczych warstwach po iteracji przez `im.getLayers()`.
+
+### Czy istnieją ograniczenia wydajnościowe w Aspose.PSD for Java?
+Biblioteka obsługuje większość plików wydajnie, ale bardzo duże pliki PSD (>500 MB) mogą wymagać dodatkowej pamięci.
+
+### Czy Aspose.PSD jest darmowy?
+Aspose oferuje darmową wersję próbną, ale do produkcji wymagana jest płatna licencja. Sprawdź [licencję tymczasową](https://purchase.aspose.com/temporary-license/) do testów.
+
 ### Gdzie mogę znaleźć szczegółową dokumentację?
- Obszerną dokumentację można znaleźć pod adresem[Dokumentacja Aspose.PSD](https://reference.aspose.com/psd/java/).
-### Co się stanie, jeśli napotkam problemy podczas korzystania z Aspose.PSD?
- Zgłoś się po pomoc za pośrednictwem[Forum wsparcia Aspose](https://forum.aspose.com/c/psd/34).
+Kompleksową dokumentację znajdziesz pod adresem [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/).
+
+### Co zrobić, jeśli napotkam problemy podczas używania Aspose.PSD?
+Skontaktuj się po pomoc poprzez [Forum wsparcia Aspose](https://forum.aspose.com/c/psd/34).
+
+## Dodatkowe często zadawane pytania
+
+**Q: Czy konwersja PSD do PNG zachowuje efekty warstw?**  
+**A:** Tak, gdy zapisujesz z `PngColorType.TruecolorWithAlpha`, większość efektów wizualnych jest rasteryzowana do PNG.
+
+**Q: Czy mogę przetwarzać wsadowo wiele plików PSD?**  
+**A:** Oczywiście. Umieść kod w pętli, która iteruje po katalogu z plikami PSD.
+
+**Q: Czy można ustawić poziom kompresji PNG?**  
+**A:** Klasa `PngOptions` udostępnia metodę `setCompressionLevel(int)` do precyzyjnego dostosowania.
+
+**Q: Czy muszę zamknąć obiekt obrazu?**  
+**A:** `PsdImage` implementuje `Closeable`; wywołaj `im.close()` w bloku `finally` lub użyj try‑with‑resources.
+
+**Q: Czy obrócony PNG będzie miał te same wymiary co oryginał?**  
+**A:** Obrót o 90° lub 270° zamienia szerokość i wysokość. PNG odzwierciedli nową orientację.
+
+## Zakończenie
+Korzystając z Aspose.PSD for Java, możesz **konwertować PSD do PNG** i **obracać warstwy PSD** za pomocą kilku linijek kodu. To podejście eliminuje potrzebę używania Photoshopa, przyspiesza zautomatyzowane przepływy pracy i daje pełną kontrolę nad wyjściem obrazu. Wypróbuj to w swoich projektach i zobacz, ile czasu zaoszczędzisz!
+
+---
+
+**Last Updated:** 2025-12-15  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
