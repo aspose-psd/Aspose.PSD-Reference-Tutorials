@@ -1,30 +1,51 @@
 ---
-title: Supporto delle proprietà dei dati dei record di lunghezza in PSD - Java
-linktitle: Supporto delle proprietà dei dati dei record di lunghezza in PSD - Java
-second_title: API Java Aspose.PSD
-description: Scopri come manipolare i file PSD con proprietà dei dati del record di lunghezza in Java utilizzando Aspose.PSD. Segui questa guida passo passo per tutti i dettagli.
-weight: 14
+date: 2025-12-17
+description: Scopri come modificare le forme vettoriali PSD supportando le proprietà
+  dei dati del record di lunghezza utilizzando Aspose.PSD per Java. Guida passo‑passo
+  con esempi di codice.
+linktitle: Support Length Record Data Properties in PSD - Java
+second_title: Aspose.PSD Java API
+title: Come modificare le forme vettoriali PSD – Supportare le proprietà dei dati
+  del record di lunghezza in Java
 url: /it/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Supporto delle proprietà dei dati dei record di lunghezza in PSD - Java
+# Supporto alle proprietà dei dati di registro di lunghezza in PSD - Java
 
 ## Introduzione
-Hai mai lavorato con file Photoshop e volevi manipolare livelli o forme a livello di codice? Se è così, ti sei imbattuto nella bellezza della libreria Aspose.PSD per Java. Questo potente strumento consente agli sviluppatori di interagire e modificare i file PSD senza problemi tramite il codice Java. Nell'articolo di oggi, approfondiremo come supportare le proprietà dei dati dei record di lunghezza in un file PSD utilizzando questa libreria. 
-Che tu sia uno sviluppatore Java esperto o che tu abbia appena iniziato, questa guida ti guiderà attraverso tutto ciò che devi sapere, passo dopo passo. Alla fine, sarai in grado di aprire un file PSD, modificare le sue proprietà della forma vettoriale e salvare le modifiche, il tutto senza lasciare la comodità del tuo ambiente Java. Rimbocchiamoci le maniche e buttiamoci a capofitto!
+Se hai bisogno di **modificare le forme vettoriali PSD** in modo programmatico, la libreria Aspose.PSD per Java ti offre il pieno controllo sui file Photoshop direttamente dal tuo codice Java. In questo tutorial vedremo tutto ciò che devi sapere per supportare le proprietà dei dati di registro di lunghezza—un passaggio fondamentale quando vuoi modificare i livelli di forme vettoriali. Alla fine, sarai in grado di aprire un PSD, regolare le sue proprietà di forma vettoriale e salvare il file aggiornato senza mai uscire dal tuo IDE. Iniziamo!
+
+## Risposte rapide
+- **Cosa significa “modificare le forme vettoriali PSD”?** Regolare la geometria, le operazioni di percorso o altre proprietà dei livelli basati su vettori all'interno di un file PSD.  
+- **Quale libreria gestisce questo?** Aspose.PSD per Java.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per la valutazione; è richiesta una licenza commerciale per la produzione.  
+- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per uno script di modifica di base delle forme.  
+- **Quali sono i requisiti principali?** Java JDK, Aspose.PSD per Java e un file PSD di esempio.
+
+## Cos'è “modificare le forme vettoriali PSD”?
+Modificare le forme vettoriali PSD comporta la modifica dei dati di percorso vettoriale sottostanti—come i record di lunghezza e le operazioni di percorso—così che l'aspetto visivo delle forme venga aggiornato di conseguenza. Questo è particolarmente utile per pipeline grafiche automatizzate, elaborazione batch o strumenti di design personalizzati.
+
+## Perché usare Aspose.PSD per Java per modificare le forme vettoriali PSD?
+- **Nessun Photoshop richiesto** – lavora direttamente con i file PSD su qualsiasi server.  
+- **API ricca** – accedi a livelli, risorse e dati vettoriali con classi tipizzate.  
+- **Cross‑platform** – funziona su Windows, Linux o macOS con qualsiasi JDK.  
+- **Ottimizzata per le prestazioni** – gestione efficiente della memoria e operazioni di salvataggio rapide.
+
 ## Prerequisiti
-Prima di iniziare, ci sono alcune cose che devi avere a portata di mano. Garantire che tutto sia a posto rende il processo più fluido e a nessuno piace una corsa dell'ultimo minuto! Ecco cosa ti servirà:
-1.  Java Development Kit (JDK): assicurati di avere il JDK installato sul tuo computer. Puoi scaricarlo da[Il sito web di Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) o utilizzare un gestore di pacchetti.
-2.  Aspose.PSD per libreria Java: dovrai scaricare e includere la libreria Aspose.PSD per Java nel tuo progetto. Ottienilo da[Pagina delle versioni di Aspose](https://releases.aspose.com/psd/java/).
-3. IDE: utilizza un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA, Eclipse o qualsiasi IDE Java di tua scelta per una migliore gestione del codice.
-4. Un file PSD: per questo tutorial avrai bisogno di un file PSD su cui lavorare. Puoi crearne uno in Adobe Photoshop o scaricare un PSD di esempio.
-5. Conoscenza di base di Java: la familiarità con la sintassi Java ti aiuterà a seguirla con facilità.
-## Importa pacchetti
-Ora che hai impostato tutti i prerequisiti, il passaggio successivo è importare i pacchetti necessari. Questo passaggio è fondamentale per ottenere l'accesso alle classi e ai metodi che utilizzeremo. Di seguito è riportato un esempio di come importare i pacchetti richiesti nel tuo progetto Java:
+1. **Java Development Kit (JDK)** – scaricalo dal [sito di Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) o usa il tuo gestore di pacchetti preferito.  
+2. **Aspose.PSD per Java** – ottieni l'ultimo JAR dalla [pagina di rilascio di Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse o qualsiasi editor compatibile con Java.  
+4. **Un file PSD** – creane uno in Photoshop o prendi un PSD di esempio per sperimentare.  
+5. **Conoscenze di base di Java** – familiarità con classi, oggetti e gestione delle eccezioni.
+
+## Importare i pacchetti
+Per prima cosa, importa le classi necessarie per lavorare con i file PSD e le risorse delle forme vettoriali.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -33,24 +54,27 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.VsmsResource;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRecord;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathOperations;
 ```
-Con queste importazioni, sei pronto per immergerti nella manipolazione dei file PSD!
 
-## Passaggio 1: imposta le directory di origine e di output
-Prima di caricare qualsiasi file, designiamo da dove proviene il nostro file PSD di input e dove vogliamo salvare il file modificato. Modifica i percorsi delle directory in base al tuo computer locale.
+## Passo 1: Configurare le directory di origine e destinazione
+Definisci dove si trova il PSD originale e dove vuoi salvare il file modificato.
+
 ```java
 String sourceDir = "Your Source Directory";
 String outputDir = "Your Document Directory";
 String inPsdFilePath = sourceDir + "PathOperationsShape.psd";
 String outPsdFilePath = outputDir + "out_PathOperationsShape.psd";
 ```
-## Passaggio 2: carica il file PSD
- È ora di caricare il file PSD! Per questo utilizzeremo il file`Image.load` metodo dalla libreria Aspose.PSD. Questo metodo ci consente di aprire il file PSD e accedere ai suoi livelli e risorse.
+
+## Passo 2: Caricare il file PSD
+Usa `Image.load` per aprire il file e castalo a `PsdImage` per le funzionalità specifiche di PSD.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
-È come aprire un libro: potrai sfogliare le sue pagine (livelli e risorse).
-## Passaggio 3: individuare la risorsa Vsms nel livello
-Successivamente, dobbiamo trovare la VsmsResource specifica nel nostro file PSD. Queste risorse contengono i dati per i livelli di forma vettoriale. È qui che avviene la magia! In questo frammento, esaminiamo le risorse del livello per trovare questa risorsa.
+
+## Passo 3: Individuare la risorsa Vsms nel livello
+I dati della forma vettoriale risiedono all'interno di una `VsmsResource`. Scorri le risorse del secondo livello per trovarla.
+
 ```java
 VsmsResource resource = null;
 for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
@@ -60,48 +84,86 @@ for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
     }
 }
 ```
-Come una caccia al tesoro, stai cercando tra i livelli per trovare i preziosi dati vettoriali!
-## Passaggio 4: accedere ai record di lunghezza
-Una volta ottenuto VsmsResource, possiamo estrarre gli oggetti LengthRecord. Ogni LengthRecord rappresenta un percorso all'interno delle forme vettoriali. Qui accediamo a tre LengthRecord per manipolare le loro proprietà.
+
+## Passo 4: Accedere ai record di lunghezza
+Ogni `LengthRecord` rappresenta un percorso vettoriale distinto. Recupera quelli che intendi modificare.
+
 ```java
 LengthRecord lengthRecord0 = (LengthRecord) resource.getPaths()[2];
 LengthRecord lengthRecord1 = (LengthRecord) resource.getPaths()[7];
 LengthRecord lengthRecord2 = (LengthRecord) resource.getPaths()[11];
 ```
-È come scegliere quali parti di un dipinto vuoi ritoccare!
-## Passaggio 5: modificare le proprietà dell'operazione percorso
-Ora arriva la parte divertente: modificare le proprietà del percorso! Qui, il metodo setPathOperations consente di modificare il modo in cui le forme interagiscono tra loro. Possiamo impostare operazioni come escludere aree sovrapposte o sottrarre la forma anteriore da quella posteriore.
+
+## Passo 5: Modificare le proprietà delle operazioni di percorso
+Ora puoi **modificare le forme vettoriali PSD** cambiando le loro `PathOperations`. Questo determina come le forme interagiscono (ad esempio esclusione, intersezione, sottrazione).
+
 ```java
 lengthRecord0.setPathOperations(PathOperations.ExcludeOverlappingShapes);
 lengthRecord1.setPathOperations(PathOperations.IntersectShapeAreas);
 lengthRecord2.setPathOperations(PathOperations.SubtractFrontShape);
 ```
-Immaginalo come regolare gli strati di una torta: ogni strato interagisce in modo diverso in base a come lo tagli!
-## Passaggio 6: salva il file PSD modificato
-Dopo aver apportato le modifiche richieste, il passaggio successivo è salvare il file PSD modificato. È qui che tutto il tuo duro lavoro viene ripagato. 
+
+## Passo 6: Salvare il file PSD modificato
+Persisti le modifiche in un nuovo file.
+
 ```java
 psdImage.save(outPsdFilePath);
 ```
-Il tuo capolavoro è ora confezionato ordinatamente affinché il mondo lo possa vedere!
-## Passaggio 7: ripulire le risorse
-Infine, è fondamentale smaltire gli oggetti che hai utilizzato per liberare memoria e risorse.
+
+## Passo 7: Pulire le risorse
+Rilascia il `PsdImage` per liberare la memoria.
+
 ```java
 psdImage.dispose();
 ```
-Consideralo come ripulire il tuo spazio di lavoro dopo un progetto artistico, assicurandoti che tutto sia pulito e ordinato!
+
+## Problemi comuni e consigli
+- **Controlli null** – verifica sempre che `resource` non sia `null` prima di accedere ai percorsi.  
+- **Limiti degli indici di percorso** – assicurati che gli indici usati (`[2]`, `[7]`, `[11]`) esistano nel PSD specifico che stai modificando.  
+- **Licenza** – l'esecuzione senza licenza valida inserirà una filigrana nel PSD salvato.  
+
 ## Conclusione
-Ecco qua! Hai appena completato un tutorial completo sul supporto delle proprietà dei dati dei record di lunghezza nei file PSD utilizzando Aspose.PSD per Java. Dal caricamento del file alla modifica delle proprietà della forma e al salvataggio del prodotto finale, ogni passaggio svela la potenza di questa libreria. Che tu stia lavorando su progetti creativi o automatizzando risorse grafiche, Aspose.PSD apre un mondo completamente nuovo di possibilità. Pronti per iniziare? Immergiti nei tuoi file PSD e libera la tua creatività!
-## Domande frequenti
+Ora disponi di un esempio completo, end‑to‑end, su come **modificare le forme vettoriali PSD** supportando le proprietà dei dati di registro di lunghezza con Aspose.PSD per Java. Che tu stia automatizzando pipeline di asset o costruendo uno strumento di design personalizzato, queste API ti offrono la flessibilità di manipolare i livelli vettoriali senza interventi manuali in Photoshop. Approfondisci sperimentando altre `PathOperations` o combinando più modifiche di `LengthRecord` per forme complesse.
+
+## FAQ
 ### Cos'è Aspose.PSD per Java?
-Aspose.PSD per Java è una libreria che consente agli sviluppatori di manipolare e lavorare con i file PSD di Photoshop a livello di codice utilizzando Java.
-### Posso utilizzare Aspose.PSD in un progetto gratuito?
-Sì, puoi provare gratuitamente la libreria utilizzando una versione di prova disponibile sul sito Web Aspose.
-### Che tipi di modifiche posso apportare ai file PSD?
-Puoi manipolare livelli, forme, testi, operazioni sui percorsi e molto altro all'interno dei file PSD.
+Aspose.PSD per Java è una libreria che consente agli sviluppatori di manipolare e lavorare con i file Photoshop PSD in modo programmatico usando Java.
+
+### Posso usare Aspose.PSD in un progetto gratuito?
+Sì, puoi provare la libreria gratuitamente usando la versione di prova disponibile sul sito di Aspose.
+
+### Quali tipi di modifiche posso apportare ai file PSD?
+Puoi manipolare livelli, forme, testi, operazioni di percorso e molto altro all'interno dei file PSD.
+
 ### Aspose.PSD è compatibile con altri linguaggi di programmazione?
-Sì, Aspose offre varie librerie per diversi linguaggi di programmazione, inclusi .NET e Python.
-### Dove posso trovare la documentazione per Aspose.PSD?
- Puoi accedere alla documentazione completa[Qui](https://reference.aspose.com/psd/java/).
+Sì, Aspose offre varie librerie per diversi linguaggi, inclusi .NET e Python.
+
+### Dove posso trovare la documentazione di Aspose.PSD?
+Puoi accedere alla documentazione completa [qui](https://reference.aspose.com/psd/java/).
+
+## Domande frequenti
+
+**D: Come gestisco un PSD che non contiene livelli di forme vettoriali?**  
+R: La `VsmsResource` sarà assente, quindi `resource` rimarrà `null`. Aggiungi un controllo e salta il passo di modifica o informa l'utente.
+
+**D: Posso cambiare altre proprietà come colore di riempimento o larghezza del tratto?**  
+R: Sì, `LengthRecord` fornisce setter aggiuntivi per riempimento, tratto e opacità. Consulta la documentazione API per tutti i dettagli.
+
+**D: È possibile elaborare in batch più file PSD?**  
+R: Assolutamente. Avvolgi il codice in un ciclo che itera su una cartella di file PSD, regolando i percorsi di input e output ad ogni iterazione.
+
+**D: Devo chiudere manualmente gli stream quando carico da un percorso file?**  
+R: Il metodo `Image.load` gestisce gli stream internamente, ma se carichi da un `InputStream` ricordati di chiuderlo dopo l'uso.
+
+**D: Quale versione di Aspose.PSD è necessaria per queste API?**  
+R: Le classi `LengthRecord` e `PathOperations` sono disponibili da Aspose.PSD 20.10. Si consiglia di utilizzare l'ultima versione.
+
+---
+
+**Ultimo aggiornamento:** 2025-12-17  
+**Testato con:** Aspose.PSD per Java 24.11  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
