@@ -1,32 +1,41 @@
 ---
-title: Obsługa zasobów Nvrt w plikach PSD przy użyciu języka Java
-linktitle: Obsługa zasobów Nvrt w plikach PSD przy użyciu języka Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak obsługiwać zasoby Nvrt w plikach PSD przy użyciu języka Java. Naucz się ładować pliki i wydobywać cenne zasoby bez wysiłku dzięki Aspose.PSD.
-weight: 10
+date: 2025-12-17
+description: Dowiedz się, jak ładować pliki PSD w Javie i odczytywać warstwy PSD,
+  obsługując zasób Nvrt przy użyciu Aspose.PSD.
+linktitle: Support Nvrt Resource in PSD Files using Java
+second_title: Aspose.PSD Java API
+title: Jak ładować pliki PSD i obsługiwać zasób Nvrt przy użyciu Javy
 url: /pl/java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obsługa zasobów Nvrt w plikach PSD przy użyciu języka Java
+# Wsparcie zasobu Nvrt w plikach PSD przy użyciu Javy
 
-## Wstęp
-Jeśli chodzi o pracę z plikami programu Photoshop (PSD) w języku Java, istnieje niezliczona ilość rzeczy, które możesz zrobić. Niezależnie od tego, czy tworzysz edytor graficzny, automatyzujesz zadania, czy programowo obsługujesz projekty, zrozumienie, jak manipulować plikami PSD, ma kluczowe znaczenie. W tym przewodniku zajmiemy się konkretnym aspektem — obsługą zasobu Nvrt (odwrócenie regulacji) w plikach PSD przy użyciu biblioteki Aspose.PSD dla Java.
-## Warunki wstępne
-Zanim zagłębisz się w kodowanie, musisz przygotować kilka rzeczy. Potraktuj to jak położenie podwalin pod silną konstrukcję!
-### Zainstaluj zestaw programistyczny Java (JDK)
-Po pierwsze, upewnij się, że masz zainstalowany zestaw Java Development Kit na swoim komputerze. W zależności od systemu operacyjnego proces instalacji może się nieznacznie różnić, ale ogólnie jest to proste zadanie. 
-### Skonfiguruj swoje IDE
-Następnie wybierz zintegrowane środowisko programistyczne (IDE), które Ci odpowiada — Eclipse, IntelliJ IDEA lub nawet prosty edytor tekstu, taki jak Visual Studio Code, będzie działać. Tutaj będziesz pisać i testować kod.
-### Pobierz Aspose.PSD dla biblioteki Java
- Biblioteka Aspose.PSD for Java to potężne narzędzie do manipulowania plikami PSD. Bibliotekę można pobrać pod następującym linkiem:[Pobierz Aspose.PSD dla Java](https://releases.aspose.com/psd/java/).
-### Podstawowe zrozumienie Javy
-Ponieważ będziemy kodować w języku Java, podstawowa znajomość tego języka będzie korzystna. Znajomość klas, obiektów i obsługi wyjątków pomoże Ci śledzić postępy bez poczucia przytłoczenia.
-## Importuj pakiety
-Gdy już wszystko skonfigurujesz, następnym krokiem będzie zaimportowanie niezbędnych pakietów do projektu Java. To jak zbieranie narzędzi przed rozpoczęciem projektu DIY – niezwykle istotne!
+## Jak ładować pliki PSD w Javie
+When you need to **jak ładować psd** files programmatically, Java offers a robust ecosystem—especially with the Aspose.PSD library. Whether you're building a graphics editor, automating design pipelines, or extracting assets from Photoshop documents, mastering PSD handling is essential. In this tutorial we’ll walk through loading a PSD, reading its layers, and specifically supporting the Nvrt (Invert Adjustment) resource.
+
+## Szybkie odpowiedzi
+- **Jaką bibliotekę obsługuje pliki PSD w Javie?** Aspose.PSD for Java  
+- **Czy mogę odczytać warstwy PSD?** Yes, the API provides full access to layer structures  
+- **Czy wymagana jest licencja do produkcji?** Yes, a commercial license is needed  
+- **Jaką wersję JDK obsługuje?** Java 8 and higher  
+- **Gdzie mogę pobrać bibliotekę?** From the official Aspose download page  
+
+## Wymagania wstępne
+Zanim rozpoczniesz kodowanie, upewnij się, że masz następujące elementy:
+
+- **Java Development Kit (JDK)** zainstalowany (Java 8+ recommended)  
+- **IDE** takie jak IntelliJ IDEA, Eclipse lub VS Code  
+- **Aspose.PSD for Java** – download it from the official site: [Download Aspose.PSD for Java](https://releases.aspose.com/psd/java/)  
+- **Podstawowa znajomość Javy** (klasy, obiekty, exception handling)  
+
+## Importowanie pakietów
+Once your environment is ready, import the required classes. These give you access to PSD handling, layer traversal, and the Nvrt resource.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
@@ -36,35 +45,50 @@ import com.aspose.psd.fileformats.psd.layers.LayerResource;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.InvertAdjustmentLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.NvrtResource;
 ```
-Importy te zapewnią dostęp do klas potrzebnych do obsługi plików PSD i pracy z warstwami.
-Podzielmy naszą główną misję: wspieranie zasobu Nvrt w pliku PSD. Załadujemy predefiniowany plik PSD, wyszukamy odwróconą warstwę dopasowania i wyodrębnimy zasób Nvrt. Czy jesteś gotowy? Zakasujmy rękawy!
-## Krok 1: Określ swój katalog źródłowy
-Pierwszym krokiem w naszej przygodzie jest ustawienie katalogu, w którym znajdują się Twoje pliki PSD. Jest to dość proste, ale kluczowe.
+
+## Dlaczego czytać warstwy PSD?
+Reading PSD layers lets you:
+
+- Wyodrębnianie pojedynczych zasobów (np. ikony, maski) do ponownego użycia  
+- Analizowanie warstw dopasowań (takich jak **Nvrt**) w celu zrozumienia edycji obrazu  
+- Automatyzację przetwarzania wsadowego plików projektowych  
+
+## Krok 1: Określ katalog źródłowy
+Set the folder that contains the PSD you want to work with.
+
 ```java
 String sourceDir = "Your Source Directory";
 String inPsdFilePath = sourceDir + "InvertAdjustmentLayer.psd";
 ```
- W tym fragmencie zamień`"Your Source Directory"` z rzeczywistą ścieżką do miejsca przechowywania pliku PSD. To powie Twojemu kodowi, gdzie szukać pliku PSD.
+
+Replace `"Your Source Directory"` with the actual path on your machine. → Zastąp "Your Source Directory" rzeczywistą ścieżką na swoim komputerze.
+
 ## Krok 2: Załaduj plik PSD
-Teraz, gdy masz już ustawioną ścieżkę, czas załadować plik PSD. To jak otwarcie skrzyni skarbów pełnej designerskich gadżetów!
+Now we actually **jak ładować psd** files using the Aspose API.
+
 ```java
 PsdImage psdImage = (PsdImage)Image.load(inPsdFilePath);
 ```
-Linia ta korzysta z`Image.load()` metoda ładowania określonego pliku PSD. Pomyśl o tym jak o powiedzeniu: „Hej, otwórzmy ten plik i zobaczmy, co jest w środku!”
-## Krok 3: Zainicjuj zasób Nvrt
-Następnie potrzebujemy zmiennej, która będzie przechowywać nasz zasób Nvrt, gdy go znajdziemy. To tak, jakby odłożyć teczkę, w której będziemy później przechowywać cenne dokumenty.
+
+The `Image.load()` method opens the file and prepares it for inspection. → `Image.load()` otwiera plik i przygotowuje go do inspekcji.
+
+## Krok 3: Zainicjalizuj zmienną zasobu Nvrt
+We’ll store the found Nvrt resource here.
+
 ```java
 NvrtResource nvrtResource = null;
 ```
-## Krok 4: Wyszukaj opcję Odwróć warstwę dopasowania
-Teraz przejrzyjmy każdą warstwę w pliku PSD i sprawdźmy, czy istnieje warstwa dopasowania odwracania. Czas założyć czapkę detektywistyczną!
+
+## Krok 4: Wyszukaj warstwę dopasowania Invert
+Iterate through each layer, locate an `InvertAdjustmentLayer`, and then look for the `NvrtResource`.
+
 ```java
 try {
     for (Layer layer : psdImage.getLayers()) {
         if (layer instanceof InvertAdjustmentLayer) {
             for (LayerResource layerResource : layer.getResources()) {
                 if (layerResource instanceof NvrtResource) {
-                    // Znaleziono zasób NvrtResource
+                    // The NvrtResource is found
                     nvrtResource = (NvrtResource)layerResource;
                     break;
                 }
@@ -75,27 +99,49 @@ try {
     psdImage.dispose();
 }
 ```
- W tym bloku iterujemy po każdej warstwie i sprawdzamy, czy jest to instancja`InvertAdjustmentLayer` . Jeśli go znajdziemy, przeszukujemy dalej jego zasoby, aby sprawdzić, czy któryś z nich jest tego typu`NvrtResource` . Jeśli taki znajdziemy, przypisujemy go do naszego`nvrtResource` zmienny. The`finally` block gwarantuje, że prawidłowo pozbędziemy się zasobów obrazu PSD, utrzymując naszą pamięć w czystości!
-## Krok 5: Sprawdź zasób Nvrt
-Teraz, gdy wykonaliśmy już ciężką pracę, sprawdźmy, czy rzeczywiście znaleźliśmy zasób Nvrt. To jak sprawdzenie, czy skarb, którego szukasz, rzeczywiście tam jest!
+
+The `finally` block guarantees that the PSD image is disposed, keeping memory usage clean. → Blok `finally` zapewnia, że obraz PSD zostanie zwolniony, utrzymując czyste zużycie pamięci.
+
+## Krok 5: Zweryfikuj zasób Nvrt
+Confirm that the resource was successfully located.
+
 ```java
 Assert.isNotNull(nvrtResource);
 ```
-Jeśli zasób ma wartość null, to potwierdzenie zgłosi błąd, wskazując, że nasze wyszukiwanie nie powiodło się. W przeciwnym razie pomyślnie znaleźliśmy nasz zasób Nvrt!
-## Wniosek
-Gratulacje! Właśnie ominąłeś zawiłości obsługi zasobu Nvrt w plikach PSD za pomocą języka Java. Od skonfigurowania środowiska po zagłębienie się w kodowanie — omówiłeś już całkiem sporo. Moc biblioteki Aspose.PSD for Java naprawdę świeci, jeśli chodzi o manipulowanie plikami PSD. Eksperymentuj dalej, a kto wie, co jeszcze możesz odkryć.
-Teraz, gdy jesteś wyposażony w tę wiedzę, możliwości są nieograniczone. Niezależnie od tego, czy ulepszasz grafikę, czy usprawniasz przepływ pracy, Twój zestaw narzędzi jest silniejszy niż kiedykolwiek.
-## Często zadawane pytania
-### Co to jest Aspose.PSD dla Java?
-Aspose.PSD dla Java to biblioteka, która umożliwia programistom płynne manipulowanie i obsługę plików PSD za pomocą kodu Java.
-### Czy mogę używać Aspose.PSD w produktach komercyjnych?
- Tak, ale będziesz musiał kupić licencję. Możesz sprawdzić opcje zakupu[Tutaj](https://purchase.aspose.com/buy).
-### Gdzie mogę znaleźć dokumentację dla Aspose.PSD?
- Pełną dokumentację można znaleźć tutaj:[Dokumentacja Aspose.PSD](https://reference.aspose.com/psd/java/).
-### Czy dostępny jest bezpłatny okres próbny?
- Absolutnie! Możesz uzyskać bezpłatną wersję próbną Aspose.PSD dla Java[Tutaj](https://releases.aspose.com/).
-### Jak mogę uzyskać wsparcie dla Aspose.PSD?
- Możesz zadawać pytania i uzyskać pomoc na forum Aspose:[Wsparcie Aspose](https://forum.aspose.com/c/psd/34).
+
+If the assertion passes, you’ve successfully read the PSD layers and extracted the Nvrt resource. → Jeśli asercja przejdzie, pomyślnie odczytałeś warstwy PSD i wyodrębniłeś zasób Nvrt.
+
+## Typowe pułapki i wskazówki
+- **Sprawdzanie null:** Always verify that `psdImage` and layer objects are not null before accessing them.  
+- **Zwalnianie zasobów:** Forgetting `psdImage.dispose()` can lead to memory leaks in long‑running applications.  
+- **Problemy ze ścieżkami plików:** Use absolute paths or ensure your working directory is set correctly to avoid `FileNotFoundException`.  
+
+## Podsumowanie
+You now know **jak ładować psd** files, read their layers, and extract the Nvrt adjustment resource using Java and Aspose.PSD. This foundation lets you build powerful graphics automation tools, batch‑process design assets, or integrate Photoshop data into larger workflows.
+
+## Najczęściej zadawane pytania
+
+**Q: Czym jest Aspose.PSD for Java?**  
+A: Aspose.PSD for Java to biblioteka umożliwiająca programistom tworzenie, edytowanie, konwertowanie i renderowanie plików PSD bezpośrednio z kodu Java.
+
+**Q: Czy mogę używać Aspose.PSD w produktach komercyjnych?**  
+A: Tak, do użytku produkcyjnego wymagana jest licencja komercyjna. Opcje zakupu możesz sprawdzić [tutaj](https://purchase.aspose.com/buy).
+
+**Q: Gdzie mogę znaleźć dokumentację Aspose.PSD?**  
+A: Pełna dokumentacja jest dostępna tutaj: [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/).
+
+**Q: Czy dostępna jest darmowa wersja próbna?**  
+A: Oczywiście! Darmową wersję próbną Aspose.PSD for Java możesz uzyskać [tutaj](https://releases.aspose.com/).
+
+**Q: Jak mogę uzyskać wsparcie dla Aspose.PSD?**  
+A: Pytania i wsparcie możesz uzyskać na forum Aspose: [Aspose Support](https://forum.aspose.com/c/psd/34).
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-17  
+**Testowano z:** Aspose.PSD for Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
