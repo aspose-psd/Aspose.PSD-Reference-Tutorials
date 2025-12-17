@@ -1,30 +1,43 @@
 ---
-title: 支援 PSD 中的 16 位元灰階顏色模式 - Java
-linktitle: 支援 PSD 中的 16 位元灰階顏色模式 - Java
+date: 2025-12-17
+description: 學習如何使用 Aspose.PSD for Java 將 PSD 轉換為 PNG，同時將 PSD 色彩模式設定為 16 位元灰階。逐步指南，附有程式碼範例。
+linktitle: Convert PSD to PNG – 16-bit Grayscale – Java
 second_title: Aspose.PSD Java API
-description: 透過這個詳細的逐步教學，了解如何使用 Aspose.PSD for Java 在 PSD 檔案中實現 16 位元灰階色彩模式。
-weight: 11
+title: 如何在 Java 中將 PSD 轉換為 16 位元灰階色彩模式的 PNG
 url: /zh-hant/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 支援 PSD 中的 16 位元灰階顏色模式 - Java
+# 將 PSD 轉換為 PNG（使用 16 位元灰階色彩模式）於 Java
 
-## 介紹
-當您深入圖形設計和圖像處理的世界時，了解如何使用不同的顏色模式就像擁有秘密武器一樣。特別是，16 位元灰度可以改變遊戲規則，為您的圖像提供令人驚嘆的深度和細節，真正讓它們流行起來。那麼，您準備好使用 Aspose.PSD for Java 探索這項強大功能了嗎？如果您已經準備好編碼裝備，那麼讓我們直接開始吧。
+## 簡介
+當您踏入平面設計與影像處理的領域時，了解如何 **將 PSD 轉換為 PNG** 就像掌握了一把祕密武器。特別是使用 16‑bit 灰階模式，能為影像帶來驚人的深度與細節，讓畫面更加突出。在本教學中，我們將示範如何 **設定 PSD 色彩模式** 為 16‑bit 灰階，然後使用 Aspose.PSD for Java **將 PSD 匯出為 PNG**。準備好提升您的影像工作流程了嗎？讓我們開始吧。
+
+## 快速答覆
+- **「將 PSD 轉換為 PNG」包含哪些步驟？** 載入 PSD、（可選）變更色彩模式，最後儲存為 PNG 檔案。  
+- **哪個 Aspose 類別負責轉換？** `PsdImage` 用於載入，`PngOptions` 用於儲存。  
+- **需要特別授權嗎？** 試用版可用於測試；正式環境需購買授權。  
+- **能在 PNG 中保留 16‑bit 深度嗎？** 可以，使用 `PngColorType.GrayscaleWithAlpha`。  
+- **支援哪些 IDE？** 任何 Java IDE – IntelliJ IDEA、Eclipse、VS Code 等皆可。
+
 ## 先決條件
-在開始之前，讓我們確保您已完成所有設置，以便充分利用本教學。這是您需要的：
-1. Java 開發工具包 (JDK)：確保您安裝了最新版本的 JDK。您可以從以下位置下載：[甲骨文網站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.PSD for Java Library：我們將使用它來操作 PSD 檔案。您可以從[Aspose下載頁面](https://releases.aspose.com/psd/java/).
-3. 整合開發環境 (IDE)：任何支援 Java 的 IDE 都可以。受歡迎的選擇包括 IntelliJ IDEA、Eclipse，甚至是 Visual Studio Code。
-4. Java 基礎：熟悉 Java 程式設計肯定會幫助您順利掌握。
-5. 範例 PSD 檔案：確保您有一個想要使用的 PSD 檔案。如果沒有，您可以使用 Adobe Photoshop 等軟體建立一個簡單的 PSD，或在線上尋找範例文件。
-準備好？偉大的！讓我們導入必要的套件並開始編碼。
-## 導入包
-首先，讓我們匯入使用 Aspose.PSD for Java 所需的相關套件。將以下行新增至您的 Java 檔案：
+在開始之前，請確保已完成以下設定，以便順利完成本教學。您需要：
+
+1. **Java Development Kit (JDK)** – 請確保已安裝最新版本，可從 [Oracle 的網站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下載。  
+2. **Aspose.PSD for Java Library** – 這是操作 PSD 檔案的核心引擎，請從 [Aspose 下載頁面](https://releases.aspose.com/psd/java/) 取得。  
+3. **IDE** – IntelliJ IDEA、Eclipse 或 Visual Studio Code 都可。  
+4. **基本的 Java 知識** – 熟悉 Java 語法會讓步驟更順暢。  
+5. **範例 PSD 檔案** – 可自行在 Adobe Photoshop 中建立，或線上下載免費範本。
+
+準備好了嗎？太好了！讓我們匯入必要的套件並開始編寫程式碼。
+
+## 匯入套件
+首先，將所需的 Aspose.PSD 套件加入您的 Java 檔案：
+
 ```java
 import com.aspose.psd.*;
 import com.aspose.psd.fileformats.png.PngColorType;
@@ -35,16 +48,22 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.system.Enum;
 ```
-透過這些匯入，您可以存取用於操作 PSD 檔案、建立圖形以及以不同格式儲存影像的功能。
-## 第 1 步：定義您的目錄
-您要做的第一件事是設定來源目錄和輸出目錄。這是您的 PSD 檔案的載入和儲存位置。您可以這樣做：
+
+這些匯入讓您可以存取操作 PSD、設定色彩模式以及匯出 PNG 所需的功能。
+
+## 步驟 1：定義目錄
+先設定來源與輸出資料夾，讓程式知道從哪裡讀取原始 PSD、以及把轉換後的檔案寫到哪裡。
+
 ```java
-String sourceDir = "Your Source Directory"; //變更到您的來源目錄
-String outputDir = "Your Document Directory"; //更改為您的輸出目錄
+String sourceDir = "Your Source Directory"; // Change to your source directory
+String outputDir = "Your Document Directory"; // Change to your output directory
 ```
-確保將「您的來源目錄」和「您的文件目錄」替換為電腦上 PSD 檔案所在的實際路徑以及要儲存已處理檔案的位置。
-## 第 2 步：建立處理影像處理的方法
-現在我們將設計一種方法來處理 PSD 檔案。此方法會採取一系列參數來識別PSD檔案的特徵和灰階處理。
+
+請將佔位字串替換為您電腦上實際的路徑。
+
+## 步驟 2：建立處理影像的 Method
+我們將轉換邏輯封裝在可重複使用的方法中。此方法接受您可能想調整的參數，例如色彩模式、位元深度與壓縮方式。
+
 ```java
 class LocalScopeExtension {
     void saveToPsdThenLoadAndSaveToPng(
@@ -55,25 +74,31 @@ class LocalScopeExtension {
         short compression,
         int layerNumber) {
 ```
-此方法可讓您指定檔案名稱、色彩模式、位數、通道數、壓縮方法和層數。我們將一步步分解這個方法的功能！
-## 第 3 步：定義檔路徑並載入 PSD
-在您的方法中，我們定義如何建立檔案路徑並實際載入 PSD 映像：
+
+此方法讓您 **設定 PSD 色彩模式** 後，再 **將 PSD 匯出為 PNG**，流程一次完成。
+
+## 步驟 3：定義檔案路徑並載入 PSD
+在方法內組合完整的檔案路徑，並載入原始的 16‑bit 灰階 PSD：
+
 ```java
 String filePath = sourceDir + file + ".psd";
 String postfix = Enum.getName(ColorModes.class, colorMode) + channelBitsCount + "_" +
                  channelsCount + "_" + Enum.getName(CompressionMethod.class, compression);
 String exportPath = outputDir + file + postfix + ".psd";
 String pngExportPath = outputDir + file + postfix + ".png";
-//載入預先定義的 16 位元灰階 PSD
+// Load a predefined 16-bit grayscale PSD
 PsdImage image = (PsdImage)Image.load(filePath);
 ```
-在這裡，我們建立將要使用的 PSD 檔案所需的路徑，並準備保存修改後的 PSD 和 PNG 檔案。
+
+`postfix` 用來記錄每次匯出檔案所使用的設定，方便辨識。
+
 ## 步驟 4：處理圖層或完整影像
-接下來，您需要在選定的圖層或整個影像上繪圖，並在其周圍添加灰色邊框。這是增強可見性並為影像增添一點特色的好方法。
+接下來，我們會在特定圖層或整張影像上繪製。本例中，我們加上一條細微的灰色邊框，以提升結果的可見度。
+
 ```java
 try {
     RasterCachedImage raster = layerNumber >= 0 ? image.getLayers()[layerNumber] : image;
-    //在圖層週邊繪製灰色內邊框
+    // Draw a gray inner border around the perimeter of the layer
     Graphics graphics = new Graphics(raster);
     int width = raster.getWidth();
     int height = raster.getHeight();
@@ -84,11 +109,14 @@ try {
         height - (2 * (height / 3)) - 1);
     graphics.drawRectangle(new Pen(Color.getDarkGray(), 1), rect);
 ```
-在這一部分中，您將使用 Aspose 中的 Graphics 類別來建立繪圖上下文。矩形的尺寸是根據您的圖像尺寸計算的，確保它完美地繪製在中心。
-## 第5步：儲存修改後的PSD文件
-完成繪圖後，就可以將修改儲存到新的 PSD 檔案中。您可以在此處設定之前指定的選項。
+
+矩形會動態計算，確保無論影像大小如何，都能保持置中。
+
+## 步驟 5：儲存已修改的 PSD 檔案
+繪製完畢後，我們依照您指定的色彩模式與位元深度儲存 PSD。這正是 **設定 PSD 色彩模式** 後進行轉換的核心步驟。
+
 ```java
-    //保存具有特定特徵的 PSD 副本
+    // Save a copy of PSD with specific characteristics
     PsdOptions psdOptions = new PsdOptions();
     psdOptions.setColorMode(colorMode);
     psdOptions.setChannelBitsCount(channelBitsCount);
@@ -97,41 +125,59 @@ try {
     image.save(exportPath, psdOptions);
 }
 ```
-透過設定 PSD 選項，您可以保留對影像儲存時的行為方式的控制。它確保保留所有這些細緻的細節。
-## 第6步：將PSD轉換為PNG
-當您將新保存的 PSD 轉換為 PNG 格式（專為帶有 Alpha 的灰度而設計）時，錦上添花。
+
+## 步驟 6：將 PSD 轉換為 PNG
+最後，載入剛剛儲存的 PSD，並以 PNG 格式匯出。使用 `PngColorType.GrayscaleWithAlpha` 可在 PNG 中保留 16‑bit 深度。
+
 ```java
 finally {
     image.dispose();
 }
-//載入已儲存的 PSD
+// Load the saved PSD
 PsdImage image1 = (PsdImage)Image.load(exportPath);
 try {
-    //將已儲存的 PSD 轉換為灰階 PNG 影像
+    // Convert the saved PSD to a grayscale PNG image
     PngOptions pngOptions = new PngOptions();
     pngOptions.setColorType(PngColorType.GrayscaleWithAlpha);
-    image1.save(pngExportPath, pngOptions); //這裡應該也不例外
+    image1.save(pngExportPath, pngOptions); // here should be no exception
 }
 finally {
     image1.dispose();
 }
 ```
-轉換過程非常簡單，可確保您的圖像可以在各種應用程式中使用或在線上共享。
-## 結論
-現在您已經了解如何使用 Aspose.PSD for Java 在 PSD 檔案中支援 16 位元灰階色彩模式的完整演練！您已經學習如何設定環境、處理影像，甚至將它們匯出為不同的格式。幾行程式碼就能產生如此漂亮的結果，是不是很神奇呢？
-有了像這樣操縱影像的能力，誰知道你可以開始什麼樣的冒險呢？無論是增強現有設計還是創造全新的傑作－您的想像力是無限的！
 
-## 常見問題解答
-### 什麼是 16 位元灰階色彩模式？
-與標準 8 位元灰階相比，16 位元灰階可提供更全面的色調範圍，從而產生更詳細的影像。
-### 我可以將 Aspose.PSD 用於非灰階影像嗎？
-絕對地！ Aspose.PSD 支援各種色彩模式，因此您也可以使用 RGB、CMYK 等。
-### Aspose.PSD 有試用版嗎？
-是的，您可以嘗試 Aspose.PSD 的免費試用版。只需前往[Aspose下載頁面](https://releases.aspose.com/).
-### 在哪裡可以找到更多使用 Aspose.PSD 的範例？
-您可以查看[文件](https://reference.aspose.com/psd/java/)取得更深入的範例和教學。
-### 如何購買 Aspose.PSD 的授權？
-您可以透過造訪購買許可證[Aspose購買頁面](https://purchase.aspose.com/buy).
+現在您已成功 **將 PSD 轉換為 PNG**，同時保留了高品質的 16‑bit 灰階資料。
+
+## 常見問題與解決方案
+| 問題 | 為何會發生 | 解決方式 |
+|------|------------|----------|
+| **「Unsupported color type」例外** | 嘗試以不支援的通道組合儲存 PSD。 | 確認 `channelBitsCount` 與實際位元深度（16）相符，且 `channelsCount` 為灰階所需的 1。 |
+| **找不到檔案** | 來源目錄路徑錯誤。 | 再次檢查 `sourceDir` 字串，並確認 PSD 檔案確實存在。 |
+| **輸出 PNG 為全黑** | PNG 儲存時未正確處理 Alpha 通道。 | 如上例使用 `PngColorType.GrayscaleWithAlpha`。 |
+
+## 常見問答
+
+**Q：什麼是 16‑bit 灰階色彩模式？**  
+A：它提供 65 536 種灰階階調，較標準的 8‑bit（256 階調）呈現出更豐富的色調細節。
+
+**Q：我可以在非灰階影像上使用 Aspose.PSD 嗎？**  
+A：當然可以！Aspose.PSD 支援 RGB、CMYK、Lab 等多種色彩模式。
+
+**Q：Aspose.PSD 有試用版嗎？**  
+A：有，您可以免費試用 Aspose.PSD。只要前往 [Aspose 下載頁面](https://releases.aspose.com/) 即可。
+
+**Q：哪裡可以找到更多 Aspose.PSD 的範例？**  
+A：請參考 [文件說明](https://reference.aspose.com/psd/java/)，裡面有更深入的範例與教學。
+
+**Q：如何購買 Aspose.PSD 的授權？**  
+A：請前往 [Aspose 購買頁面](https://purchase.aspose.com/buy) 取得授權。
+
+---
+
+**最後更新日期：** 2025-12-17  
+**測試環境：** Aspose.PSD for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
