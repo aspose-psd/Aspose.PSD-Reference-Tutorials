@@ -124,23 +124,6 @@ psdImage.dispose();
 ## Fazit
 Sie haben nun ein vollständiges End‑zu‑Ende‑Beispiel, wie Sie **PSD-Vektorformen ändern** können, indem Sie Length Record Data Properties mit Aspose.PSD for Java unterstützen. Egal, ob Sie Asset‑Pipelines automatisieren oder ein benutzerdefiniertes Design‑Tool erstellen, diese APIs bieten Ihnen die Flexibilität, Vektorebenen zu manipulieren, ohne manuell Photoshop zu verwenden. Erkunden Sie weiter, indem Sie mit anderen `PathOperations` experimentieren oder mehrere `LengthRecord`‑Änderungen für komplexe Formen kombinieren.
 
-## FAQ
-
-### Was ist Aspose.PSD for Java?
-Aspose.PSD for Java ist eine Bibliothek, die Entwicklern ermöglicht, Photoshop‑PSD‑Dateien programmgesteuert mit Java zu manipulieren und zu bearbeiten.
-
-### Kann ich Aspose.PSD in einem kostenlosen Projekt verwenden?
-Ja, Sie können die Bibliothek kostenlos mit einer Testversion ausprobieren, die auf der Aspose-Website verfügbar ist.
-
-### Welche Arten von Änderungen kann ich an PSD-Dateien vornehmen?
-Sie können Ebenen, Formen, Texte, Pfadoperationen und vieles mehr innerhalb von PSD-Dateien manipulieren.
-
-### Ist Aspose.PSD mit anderen Programmiersprachen kompatibel?
-Ja, Aspose bietet verschiedene Bibliotheken für unterschiedliche Programmiersprachen, einschließlich .NET und Python.
-
-### Wo finde ich die Dokumentation für Aspose.PSD?
-Sie können die vollständige Dokumentation [hier](https://reference.aspose.com/psd/java/) aufrufen.
-
 ## Häufig gestellte Fragen
 
 **Q: Wie gehe ich mit einer PSD um, die keine Vektorformen‑Ebenen enthält?**  

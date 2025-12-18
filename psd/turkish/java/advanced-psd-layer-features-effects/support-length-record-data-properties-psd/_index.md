@@ -125,23 +125,6 @@ psdImage.dispose();
 ## Sonuç
 Artık Aspose.PSD for Java ile uzunluk kaydı veri özelliklerini destekleyerek **modify PSD vector shapes** nasıl yapılır konusunda tam, uçtan uca bir örneğe sahipsiniz. Varlık boru hatlarını otomatikleştiriyor ya da özel bir tasarım aracı geliştiriyor olun, bu API'ler vektör katmanlarını manuel Photoshop çalışması olmadan manipüle etme esnekliği sağlar. Diğer `PathOperations` ile deney yaparak veya karmaşık şekiller için birden fazla `LengthRecord` düzenlemesini birleştirerek daha fazla keşfedin.
 
-## SSS
-
-### Aspose.PSD for Java nedir?
-Aspose.PSD for Java, geliştiricilerin Java kullanarak Photoshop PSD dosyalarını programlı bir şekilde manipüle etmelerini ve çalıştırmalarını sağlayan bir kütüphanedir.
-
-### Aspose.PSD'yi ücretsiz bir projede kullanabilir miyim?
-Evet, Aspose web sitesinde bulunan deneme sürümünü kullanarak kütüphaneyi ücretsiz deneyebilirsiniz.
-
-### PSD dosyalarına hangi tür değişiklikleri yapabilirim?
-PSD dosyaları içinde katmanları, şekilleri, metinleri, yol işlemlerini ve çok daha fazlasını manipüle edebilirsiniz.
-
-### Aspose.PSD diğer programlama dilleriyle uyumlu mu?
-Evet, Aspose .NET ve Python dahil olmak üzere çeşitli programlama dilleri için farklı kütüphaneler sunar.
-
-### Aspose.PSD belgelerine nereden ulaşabilirim?
-Tam belgeleri [buradan](https://reference.aspose.com/psd/java/) erişebilirsiniz.
-
 ## Sık Sorulan Sorular
 
 **Q:** Vektör şekil katmanı içermeyen bir PSD'yi nasıl ele alırım?  

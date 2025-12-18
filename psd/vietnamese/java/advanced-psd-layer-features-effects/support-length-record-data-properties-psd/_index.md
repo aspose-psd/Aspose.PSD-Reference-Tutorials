@@ -125,22 +125,6 @@ psdImage.dispose();
 ## Kết luận
 Bạn đã có một ví dụ hoàn chỉnh, từ đầu đến cuối, về cách **sửa đổi các hình vector trong PSD** bằng cách hỗ trợ các thuộc tính dữ liệu bản ghi độ dài với Aspose.PSD for Java. Dù bạn đang tự động hoá quy trình tài sản hay xây dựng công cụ thiết kế tùy chỉnh, các API này cho phép bạn thao tác các lớp vector mà không cần Photoshop thủ công. Hãy khám phá thêm bằng cách thử nghiệm các `PathOperations` khác hoặc kết hợp nhiều chỉnh sửa `LengthRecord` cho các hình dạng phức tạp.
 
-## Câu hỏi thường gặp
-### Aspose.PSD for Java là gì?
-Aspose.PSD for Java là một thư viện cho phép các nhà phát triển thao tác và làm việc với các tệp Photoshop PSD một cách lập trình bằng Java.
-
-### Tôi có thể dùng Aspose.PSD trong dự án miễn phí không?
-Có, bạn có thể dùng phiên bản dùng thử miễn phí có sẵn trên trang web của Aspose.
-
-### Tôi có thể thực hiện những loại sửa đổi nào trên tệp PSD?
-Bạn có thể thao tác các lớp, hình dạng, văn bản, thao tác đường dẫn, và nhiều hơn nữa trong các tệp PSD.
-
-### Aspose.PSD có tương thích với các ngôn ngữ lập trình khác không?
-Có, Aspose cung cấp nhiều thư viện cho các ngôn ngữ lập trình khác nhau, bao gồm .NET và Python.
-
-### Tôi có thể tìm tài liệu của Aspose.PSD ở đâu?
-Bạn có thể truy cập tài liệu đầy đủ [tại đây](https://reference.aspose.com/psd/java/).
-
 ## Các câu hỏi thường gặp
 
 **H: Làm sao tôi xử lý một PSD không chứa lớp hình vector?**  

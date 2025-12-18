@@ -125,22 +125,6 @@ psdImage.dispose();
 ## Conclusion
 Vous disposez maintenant d’un exemple complet, de bout en bout, pour **modifier les formes vectorielles PSD** en prenant en charge les propriétés de données d’enregistrement de longueur avec Aspose.PSD for Java. Que vous automatisiez des pipelines d’actifs ou construisiez un outil de conception personnalisé, ces API vous offrent la flexibilité de manipuler les calques vectoriels sans intervention manuelle dans Photoshop. Explorez davantage en expérimentant d’autres `PathOperations` ou en combinant plusieurs modifications de `LengthRecord` pour des formes complexes.
 
-## FAQ
-### Qu’est‑ce qu’Aspose.PSD for Java ?
-Aspose.PSD for Java est une bibliothèque qui permet aux développeurs de manipuler et de travailler avec les fichiers Photoshop PSD de manière programmatique en Java.
-
-### Puis‑je utiliser Aspose.PSD dans un projet gratuit ?
-Oui, vous pouvez essayer la bibliothèque gratuitement grâce à une version d’essai disponible sur le site Aspose.
-
-### Quels types de modifications puis‑je apporter aux fichiers PSD ?
-Vous pouvez manipuler les calques, formes, textes, opérations de chemin et bien plus encore au sein des fichiers PSD.
-
-### Aspose.PSD est‑il compatible avec d’autres langages de programmation ?
-Oui, Aspose propose diverses bibliothèques pour différents langages, dont .NET et Python.
-
-### Où puis‑je trouver la documentation d’Aspose.PSD ?
-Vous pouvez accéder à la documentation complète [ici](https://reference.aspose.com/psd/java/).
-
 ## Questions fréquemment posées
 
 **Q : Comment gérer un PSD qui ne contient aucun calque de forme vectorielle ?**  

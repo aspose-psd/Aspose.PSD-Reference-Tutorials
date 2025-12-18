@@ -125,23 +125,7 @@ psdImage.dispose();
 ## Összegzés
 Most már rendelkezik egy teljes, vég‑től‑végig példával arra, hogyan **módosítsa a PSD vektoros alakzatokat** a hossz rekord adat tulajdonságok támogatásával az Aspose.PSD for Java segítségével. Legyen szó eszközcsővezetékek automatizálásáról vagy egyedi tervezőeszköz építéséről, ezek az API‑k rugalmasságot biztosítanak a vektor‑rétegek manuális Photoshop munka nélkül történő manipulálásához. Kísérletezzen további `PathOperations`‑okkal vagy kombinálja több `LengthRecord` módosítását összetett formák létrehozásához.
 
-## GYIK
-### Mi az az Aspose.PSD for Java?
-Az Aspose.PSD for Java egy könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozott módon manipulálják és dolgozzanak Photoshop PSD fájlokkal Java‑ban.
-
-### Használhatom ingyenes projektben az Aspose.PSD‑t?
-Igen, a könyvtárat ingyenesen kipróbálhatja egy próba verzióval, amely elérhető az Aspose weboldalán.
-
-### Milyen típusú módosításokat végezhetek PSD fájlokon?
-Rétegeket, alakzatokat, szövegeket, útvonal műveleteket és még sok mást manipulálhat a PSD‑ben.
-
-### Az Aspose.PSD kompatibilis más programozási nyelvekkel?
-Igen, az Aspose különböző könyvtárakat kínál más programozási nyelvekhez, többek között .NET‑hez és Python‑hoz.
-
-### Hol találom meg az Aspose.PSD dokumentációját?
-A teljes dokumentációt elérheti [itt](https://reference.aspose.com/psd/java/).
-
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q: Hogyan kezeljek egy PSD‑t, amely nem tartalmaz vektoros alakzat rétegeket?**  
 A: A `VsmsResource` hiányzik, így a `resource` `null` marad. Ellenőrizze ezt, és hagyja ki a módosítási lépést, vagy tájékoztassa a felhasználót.

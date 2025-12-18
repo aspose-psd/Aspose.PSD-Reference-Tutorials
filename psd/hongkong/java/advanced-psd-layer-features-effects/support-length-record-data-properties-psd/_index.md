@@ -122,38 +122,27 @@ psdImage.dispose();
 ## 結論
 您現在已掌握一個完整的端對端範例，說明如何透過 Aspose.PSD for Java **修改 PSD 向量形狀**，同時支援長度記錄資料屬性。無論是自動化資產流水線或打造自訂設計工具，這些 API 都能讓您在不使用 Photoshop 的情況下靈活操作向量圖層。可進一步嘗試其他 `PathOperations`，或結合多個 `LengthRecord` 的編輯，以產生更複雜的形狀。
 
-## 常見問題
-### 什麼是 Aspose.PSD for Java？
-Aspose.PSD for Java 是一套函式庫，讓開發者能以 Java 程式碼程式化操作與處理 Photoshop PSD 檔案。
+## 常見問題解答
 
-### 我可以在免費專案中使用 Aspose.PSD 嗎？
-可以，您可使用 Aspose 官方網站提供的試用版免費體驗此函式庫。
+**問：如何處理不包含向量形狀圖層的 PSD 檔案？ ** 
 
-### 我可以對 PSD 檔案做哪些類型的修改？
-您可以操作圖層、形狀、文字、路徑操作等，功能相當完整。
+答：由於 `VsmsResource` 不存在，因此 `resource` 將保持為 `null`。新增一個檢查並跳過修改步驟，或告知使用者。
 
-### Aspose.PSD 是否相容於其他程式語言？
-是的，Aspose 為多種程式語言提供相應函式庫，包含 .NET 與 Python 等。
+**問：我可以更改其他屬性，例如填滿顏色或描邊寬度嗎？ ** 
 
-### 我可以在哪裡找到 Aspose.PSD 的文件？
-您可以在此取得完整文件 [here](https://reference.aspose.com/psd/java/)。
+答：可以，`LengthRecord` 提供了用於填滿、描邊和不透明度的額外設定器。有關完整詳細信息，請參閱 API 文件。
 
-## Frequently Asked Questions
+**問：是否可以批次處理多個 PSD 檔案？ ** 
 
-**Q: How do I handle a PSD that contains no vector shape layers?**  
-A: The `VsmsResource` will be absent, so `resource` will stay `null`. Add a check and skip the modification step or inform the user.
+答：當然可以。將程式碼放在一個循環中，該循環遍歷 PSD 檔案目錄，並每次調整輸入和輸出路徑。
 
-**Q: Can I change other properties like fill color or stroke width?**  
-A: Yes, `LengthRecord` provides additional setters for fill, stroke, and opacity. Refer to the API docs for full details.
+**問：從檔案路徑載入時，是否需要手動關閉串流？ ** 
 
-**Q: Is it possible to batch‑process multiple PSD files?**  
-A: Absolutely. Wrap the code inside a loop that iterates over a directory of PSD files, adjusting the input and output paths each time.
+答：`Image.load` 方法內部會處理檔案流，但如果您從 `InputStream` 加載，請記住在使用後將其關閉。
 
-**Q: Do I need to close streams manually when loading from a file path?**  
-A: The `Image.load` method handles file streams internally, but if you load from an `InputStream`, remember to close it after use.
+**問：這些 API 需要哪個版本的 Aspose.PSD？** 
 
-**Q: What version of Aspose.PSD is required for these APIs?**  
-A: The `LengthRecord` and `PathOperations` classes are available since Aspose.PSD 20.10. Using the latest version is recommended.
+答：`LengthRecord` 和 `PathOperations` 類別自 Aspose.PSD 20.10 起可用。建議使用最新版本。
 
 ---
 

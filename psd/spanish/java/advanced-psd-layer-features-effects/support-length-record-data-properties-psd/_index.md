@@ -126,22 +126,6 @@ psdImage.dispose();
 Ahora tienes un ejemplo completo, de extremo a extremo, de cómo **modify PSD vector shapes** soportando las propiedades de datos de registro de longitud con Aspose.PSD for Java. Ya sea que estés automatizando pipelines de activos o construyendo una herramienta de diseño personalizada, estas API te brindan la flexibilidad para manipular capas vectoriales sin trabajo manual en Photoshop. Explora más experimentando con otros `PathOperations` o combinando múltiples ediciones de `LengthRecord` para formas complejas.
 
 ## Preguntas frecuentes
-### ¿Qué es Aspose.PSD for Java?
-Aspose.PSD for Java es una biblioteca que permite a los desarrolladores manipular y trabajar con archivos Photoshop PSD de forma programática usando Java.
-
-### ¿Puedo usar Aspose.PSD en un proyecto gratuito?
-Sí, puedes probar la biblioteca de forma gratuita usando una versión de prueba disponible en el sitio web de Aspose.
-
-### ¿Qué tipos de modificaciones puedo hacer a archivos PSD?
-Puedes manipular capas, formas, textos, operaciones de ruta y mucho más dentro de los archivos PSD.
-
-### ¿Es Aspose.PSD compatible con otros lenguajes de programación?
-Sí, Aspose ofrece diversas bibliotecas para diferentes lenguajes de programación, incluidos .NET y Python.
-
-### ¿Dónde puedo encontrar la documentación de Aspose.PSD?
-Puedes acceder a la documentación completa [aquí](https://reference.aspose.com/psd/java/).
-
-## Preguntas frecuentes
 
 **P: ¿Cómo manejo un PSD que no contiene capas de forma vectorial?**  
 R: El `VsmsResource` estará ausente, por lo que `resource` permanecerá `null`. Añade una comprobación y omite el paso de modificación o informa al usuario.

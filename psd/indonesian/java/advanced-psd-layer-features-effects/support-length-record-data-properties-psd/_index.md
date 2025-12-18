@@ -125,22 +125,6 @@ psdImage.dispose();
 ## Kesimpulan
 Anda kini memiliki contoh lengkap end‑to‑end tentang cara **memodifikasi vektor PSD** dengan mendukung properti data rekaman panjang menggunakan Aspose.PSD untuk Java. Baik Anda mengotomatisasi pipeline aset atau membangun alat desain khusus, API ini memberi fleksibilitas untuk memanipulasi lapisan vektor tanpa pekerjaan manual di Photoshop. Jelajahi lebih lanjut dengan bereksperimen pada `PathOperations` lain atau menggabungkan beberapa edit `LengthRecord` untuk bentuk yang kompleks.
 
-## FAQ
-### Apa itu Aspose.PSD untuk Java?
-Aspose.PSD untuk Java adalah pustaka yang memungkinkan pengembang memanipulasi dan bekerja dengan file Photoshop PSD secara programatik menggunakan Java.
-
-### Bisakah saya menggunakan Aspose.PSD dalam proyek gratis?
-Ya, Anda dapat mencoba pustaka secara gratis menggunakan versi percobaan yang tersedia di situs web Aspose.
-
-### Jenis modifikasi apa yang dapat saya lakukan pada file PSD?
-Anda dapat memanipulasi lapisan, bentuk, teks, operasi jalur, dan banyak lagi di dalam file PSD.
-
-### Apakah Aspose.PSD kompatibel dengan bahasa pemrograman lain?
-Ya, Aspose menawarkan berbagai pustaka untuk bahasa pemrograman lain, termasuk .NET dan Python.
-
-### Di mana saya dapat menemukan dokumentasi untuk Aspose.PSD?
-Anda dapat mengakses dokumentasi lengkap [di sini](https://reference.aspose.com/psd/java/).
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menangani PSD yang tidak memiliki lapisan bentuk vektor?**  

@@ -124,44 +124,33 @@ psdImage.dispose();
 ## Slutsats
 Du har nu ett komplett, end‑to‑end‑exempel på hur du **modify PSD vector shapes** genom att stödja length record data properties med Aspose.PSD for Java. Oavsett om du automatiserar asset‑pipelines eller bygger ett anpassat designverktyg, ger dessa API:er dig flexibiliteten att manipulera vektorlager utan manuellt Photoshop‑arbete. Utforska vidare genom att experimentera med andra `PathOperations` eller kombinera flera `LengthRecord`‑ändringar för komplexa former.
 
-## Vanliga frågor
-### What is Aspose.PSD for Java?
-Aspose.PSD for Java är ett bibliotek som låter utvecklare manipulera och arbeta med Photoshop‑PSD‑filer programmässigt med Java.
-
-### Can I use Aspose.PSD in a free project?
-Ja, du kan prova biblioteket gratis med en provversion som finns på Aspose‑webbplatsen.
-
-### What types of modifications can I make to PSD files?
-Du kan manipulera lager, former, texter, path‑operationer och mycket mer i PSD‑filer.
-
-### Is Aspose.PSD compatible with other programming languages?
-Ja, Aspose erbjuder olika bibliotek för olika programmeringsspråk, inklusive .NET och Python.
-
-### Where can I find the documentation for Aspose.PSD?
-Du kan komma åt den fullständiga dokumentationen [here](https://reference.aspose.com/psd/java/).
-
 ## Vanligt förekommande frågor
 
-**Q: How do I handle a PSD that contains no vector shape layers?**  
+**F: Hur gör jag hantera en PSD som inte innehåller några vektorformlager?**
+  
 A: `VsmsResource` kommer att vara frånvarande, så `resource` förblir `null`. Lägg till en kontroll och hoppa över modifieringssteget eller informera användaren.
 
-**Q: Can I change other properties like fill color or stroke width?**  
+**F: Kan jag ändra andra egenskaper som fyllningsfärg eller linjebredd?**
+  
 A: Ja, `LengthRecord` erbjuder ytterligare set‑metoder för fyllning, linjebredd och opacitet. Se API‑dokumentationen för fullständig information.
 
-**Q: Is it possible to batch‑process multiple PSD files?**  
+**F: Är det möjligt att batchbearbeta flera PSD-filer?**
+ 
 A: Absolut. Inkludera koden i en loop som itererar över en katalog med PSD‑filer och justera in‑ och ut‑sökvägarna varje gång.
 
-**Q: Do I need to close streams manually when loading from a file path?**  
+**F: Måste jag stänga strömmar manuellt när jag laddar från sökvägen?**
+
 A: Metoden `Image.load` hanterar fil‑strömmar internt, men om du laddar från en `InputStream` bör du stänga den efter användning.
 
-**Q: What version of Aspose.PSD is required for these APIs?**  
+**F: Vilken version av Aspose.PSD krävs för dessa API:er?** 
+ 
 A: Klasserna `LengthRecord` och `PathOperations` finns tillgängliga sedan Aspose.PSD 20.10. Det rekommenderas att använda den senaste versionen.
 
 ---
 
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose  
+**Senast uppdaterad:** 2025-12-17
+**Testad med:** Aspose.PSD för Java 24.11
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

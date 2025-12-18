@@ -128,23 +128,6 @@ psdImage.dispose();
 ## 결론
 이제 Aspose.PSD for Java를 사용해 length record data properties를 지원하면서 **modify PSD vector shapes**를 수행하는 완전한 엔드‑투‑엔드 예제를 보유하게 되었습니다. 자산 파이프라인을 자동화하거나 맞춤형 디자인 도구를 구축하든, 이 API를 통해 수동 Photoshop 작업 없이도 벡터 레이어를 자유롭게 조작할 수 있습니다. 다른 `PathOperations`를 실험하거나 여러 `LengthRecord` 편집을 결합해 복잡한 형태를 만들어 보세요.
 
-## FAQ
-
-### Aspose.PSD for Java란?
-Aspose.PSD for Java는 개발자가 Java를 사용해 Photoshop PSD 파일을 프로그래밍 방식으로 조작하고 작업할 수 있게 해 주는 라이브러리입니다.
-
-### 무료 프로젝트에서 Aspose.PSD를 사용할 수 있나요?
-네, Aspose 웹사이트에서 제공하는 체험판을 이용해 무료로 라이브러리를 사용해 볼 수 있습니다.
-
-### PSD 파일에 어떤 종류의 수정이 가능한가요?
-레이어, 형태, 텍스트, 경로 연산 등 PSD 파일 내 거의 모든 요소를 조작할 수 있습니다.
-
-### Aspose.PSD가 다른 프로그래밍 언어와 호환되나요?
-네, Aspose는 .NET, Python 등 다양한 언어용 라이브러리를 제공하고 있습니다.
-
-### Aspose.PSD 문서는 어디서 찾을 수 있나요?
-전체 문서는 [여기](https://reference.aspose.com/psd/java/)에서 확인할 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 벡터 형태 레이어가 전혀 없는 PSD를 어떻게 처리하나요?**  

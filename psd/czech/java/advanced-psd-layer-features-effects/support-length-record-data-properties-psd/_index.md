@@ -125,22 +125,6 @@ psdImage.dispose();
 Nyní máte kompletní příklad od začátku do konce, jak **upravit vektorové tvary v PSD** podporou vlastností datových záznamů délky pomocí Aspose.PSD pro Java. Ať už automatizujete pipeline aktiv nebo budujete vlastní nástroj pro design, tato API vám poskytují flexibilitu manipulovat s vektorovými vrstvami bez ruční práce ve Photoshopu. Prozkoumejte dál experimentováním s dalšími `PathOperations` nebo kombinací úprav více `LengthRecord` pro složité tvary.
 
 ## Často kladené otázky
-### Co je Aspose.PSD pro Java?
-Aspose.PSD pro Java je knihovna, která vývojářům umožňuje programově manipulovat a pracovat se soubory Photoshop PSD pomocí Javy.
-
-### Mohu použít Aspose.PSD ve volném projektu?
-Ano, knihovnu můžete vyzkoušet zdarma pomocí zkušební verze dostupné na webu Aspose.
-
-### Jaké typy úprav mohu provádět v souborech PSD?
-Můžete manipulovat s vrstvami, tvary, texty, operacemi cesty a mnoha dalšími aspekty souborů PSD.
-
-### Je Aspose.PSD kompatibilní s jinými programovacími jazyky?
-Ano, Aspose nabízí různé knihovny pro různé programovací jazyky, včetně .NET a Pythonu.
-
-### Kde najdu dokumentaci k Aspose.PSD?
-Kompletní dokumentaci můžete získat [zde](https://reference.aspose.com/psd/java/).
-
-## Často kladené otázky
 
 **Q: Jak zacházet s PSD, který neobsahuje žádné vrstvy s vektorovými tvary?**  
 A: `VsmsResource` bude chybět, takže `resource` zůstane `null`. Přidejte kontrolu a přeskočte krok úpravy nebo uživatele informujte.

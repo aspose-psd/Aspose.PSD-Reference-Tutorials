@@ -124,23 +124,6 @@ psdImage.dispose();
 ## Podsumowanie
 Masz teraz kompletny, pełny przykład, jak **modyfikować wektorowe kształty PSD**, obsługując właściwości danych rekordów długości przy użyciu Aspose.PSD for Java. Niezależnie od tego, czy automatyzujesz pipeline'y zasobów, czy tworzysz własne narzędzie projektowe, te API dają elastyczność manipulacji warstwami wektorowymi bez ręcznej pracy w Photoshopie. Eksperymentuj dalej, testując inne `PathOperations` lub łącząc wiele edycji `LengthRecord` dla złożonych kształtów.
 
-## FAQ
-
-### Co to jest Aspose.PSD for Java?
-Aspose.PSD for Java to biblioteka, która umożliwia programistom programowe manipulowanie i pracę z plikami Photoshop PSD przy użyciu Javy.
-
-### Czy mogę używać Aspose.PSD w darmowym projekcie?
-Tak, możesz wypróbować bibliotekę za darmo, korzystając z wersji próbnej dostępnej na stronie Aspose.
-
-### Jakie rodzaje modyfikacji mogę wprowadzać w plikach PSD?
-Możesz manipulować warstwami, kształtami, tekstami, operacjami ścieżek i wieloma innymi elementami w plikach PSD.
-
-### Czy Aspose.PSD jest kompatybilny z innymi językami programowania?
-Tak, Aspose oferuje różne biblioteki dla różnych języków programowania, w tym .NET i Pythona.
-
-### Gdzie mogę znaleźć dokumentację Aspose.PSD?
-Pełną dokumentację możesz znaleźć [tutaj](https://reference.aspose.com/psd/java/).
-
 ## Często zadawane pytania
 
 **P: Jak obsłużyć PSD, który nie zawiera warstw wektorowych kształtów?**  
