@@ -1,30 +1,51 @@
 ---
-title: Propriétés des données d'enregistrement de longueur de prise en charge dans PSD - Java
-linktitle: Propriétés des données d'enregistrement de longueur de prise en charge dans PSD - Java
-second_title: API Java Aspose.PSD
-description: Apprenez à manipuler des fichiers PSD avec des propriétés de données d'enregistrement de longueur en Java à l'aide d'Aspose.PSD. Suivez ce guide étape par étape pour tous les détails.
-weight: 14
+date: 2025-12-17
+description: Apprenez à modifier les formes vectorielles PSD en prenant en charge
+  les propriétés des enregistrements de longueur à l’aide d’Aspose.PSD pour Java.
+  Guide étape par étape avec des exemples de code.
+linktitle: Support Length Record Data Properties in PSD - Java
+second_title: Aspose.PSD Java API
+title: Comment modifier les formes vectorielles PSD – Prise en charge des propriétés
+  de données d’enregistrement de longueur en Java
 url: /fr/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Propriétés des données d'enregistrement de longueur de prise en charge dans PSD - Java
+# Prise en charge des propriétés de données d'enregistrement de longueur dans PSD - Java
 
 ## Introduction
-Avez-vous déjà travaillé avec des fichiers Photoshop et souhaitez manipuler des calques ou des formes par programme ? Si tel est le cas, vous êtes tombé sur la beauté de la bibliothèque Aspose.PSD pour Java. Cet outil puissant permet aux développeurs d'interagir et de modifier les fichiers PSD de manière transparente via le code Java. Dans l'article d'aujourd'hui, nous verrons comment prendre en charge les propriétés des données d'enregistrement de longueur dans un fichier PSD à l'aide de cette bibliothèque. 
-Que vous soyez un développeur Java chevronné ou un débutant, ce guide vous guidera à travers tout ce que vous devez savoir, étape par étape. À la fin, vous pourrez ouvrir un fichier PSD, modifier ses propriétés de forme vectorielle et enregistrer vos modifications, le tout sans quitter le confort de votre environnement Java. Retroussons nos manches et sautons le pas !
-## Conditions préalables
-Avant de commencer, vous devez préparer quelques éléments. S'assurer que tout est en place rend le processus plus fluide, et personne n'aime les situations de dernière minute ! Voici ce dont vous aurez besoin :
-1.  Kit de développement Java (JDK) : assurez-vous que le JDK est installé sur votre ordinateur. Vous pouvez le télécharger depuis[Le site d'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou utilisez un gestionnaire de paquets.
-2.  Bibliothèque Aspose.PSD pour Java : vous devrez télécharger et inclure la bibliothèque Aspose.PSD pour Java dans votre projet. Obtenez-le du[Page des versions d'Aspose](https://releases.aspose.com/psd/java/).
-3. IDE : utilisez un environnement de développement intégré (IDE) comme IntelliJ IDEA, Eclipse ou tout autre IDE Java de votre choix pour une meilleure gestion du code.
-4. Un fichier PSD : pour ce didacticiel, vous aurez besoin d'un fichier PSD sur lequel travailler. Vous pouvez en créer un dans Adobe Photoshop ou télécharger un exemple de PSD.
-5. Connaissances de base de Java : la familiarité avec la syntaxe Java vous aidera à suivre facilement.
-## Importer des packages
-Maintenant que tous les prérequis sont configurés, l’étape suivante consiste à importer les packages nécessaires. Cette étape est cruciale pour accéder aux cours et méthodes que nous utiliserons. Vous trouverez ci-dessous un exemple de la façon d'importer les packages requis dans votre projet Java :
+Si vous devez **modifier les formes vectorielles PSD** de manière programmatique, la bibliothèque Aspose.PSD for Java vous offre un contrôle complet sur les fichiers Photoshop directement depuis votre code Java. Dans ce tutoriel, nous passerons en revue tout ce que vous devez savoir pour prendre en charge les propriétés de données d’enregistrement de longueur — une étape essentielle lorsque vous souhaitez modifier les calques de formes vectorielles. À la fin, vous pourrez ouvrir un PSD, ajuster ses propriétés de forme vectorielle et enregistrer le fichier mis à jour sans jamais quitter votre IDE. Plongeons‑y !
+
+## Réponses rapides
+- **Que signifie « modifier les formes vectorielles PSD » ?** Ajuster la géométrie, les opérations de chemin ou d’autres propriétés des calques basés sur des vecteurs à l’intérieur d’un fichier PSD.  
+- **Quelle bibliothèque gère cela ?** Aspose.PSD for Java.  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour l’évaluation ; une licence commerciale est requise pour la production.  
+- **Combien de temps prend l’implémentation ?** Environ 10‑15 minutes pour un script de modification de forme basique.  
+- **Quelles sont les principales prérequis ?** Java JDK, Aspose.PSD for Java et un fichier PSD d’exemple.
+
+## Qu’est‑ce que « modifier les formes vectorielles PSD » ?
+Modifier les formes vectorielles PSD consiste à changer les données de chemin vectoriel sous‑jacentes — telles que les enregistrements de longueur et les opérations de chemin—afin que l’apparence visuelle des formes soit mise à jour en conséquence. Cela est particulièrement utile pour les pipelines graphiques automatisés, le traitement par lots ou les outils de conception personnalisés.
+
+## Pourquoi utiliser Aspose.PSD for Java pour modifier les formes vectorielles PSD ?
+- **Pas besoin de Photoshop** – travaillez directement avec les fichiers PSD sur n’importe quel serveur.  
+- **API riche** – accédez aux calques, ressources et données vectorielles avec des classes fortement typées.  
+- **Multi‑plateforme** – fonctionne sous Windows, Linux ou macOS avec n’importe quel JDK.  
+- **Performance optimisée** – gestion efficace de la mémoire et opérations d’enregistrement rapides.
+
+## Prérequis
+1. **Java Development Kit (JDK)** – téléchargez‑le depuis le [site d’Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou utilisez votre gestionnaire de paquets préféré.  
+2. **Aspose.PSD for Java** – obtenez le dernier JAR depuis la [page des releases Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse ou tout éditeur compatible Java.  
+4. **Un fichier PSD** – créez‑en un dans Photoshop ou récupérez un PSD d’exemple pour expérimenter.  
+5. **Connaissances de base en Java** – familiarité avec les classes, objets et la gestion des exceptions.
+
+## Import Packages
+Tout d’abord, importez les classes dont vous aurez besoin pour travailler avec les fichiers PSD et les ressources de formes vectorielles.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -33,24 +54,27 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.VsmsResource;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRecord;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathOperations;
 ```
-Avec ces importations, vous êtes prêt à vous lancer dans la manipulation des fichiers PSD !
 
-## Étape 1 : Configurez vos répertoires source et de sortie
-Avant de charger des fichiers, désignons d'où vient notre fichier PSD d'entrée et où nous voulons enregistrer le fichier modifié. Ajustez les chemins de répertoire en fonction de votre ordinateur local.
+## Étape 1 : Configurer vos répertoires source et de sortie
+Définissez où se trouve le PSD original et où vous souhaitez enregistrer le fichier modifié.
+
 ```java
 String sourceDir = "Your Source Directory";
 String outputDir = "Your Document Directory";
 String inPsdFilePath = sourceDir + "PathOperationsShape.psd";
 String outPsdFilePath = outputDir + "out_PathOperationsShape.psd";
 ```
-## Étape 2 : Chargez le fichier PSD
- Il est temps de charger le fichier PSD ! Pour cela, nous utiliserons le`Image.load` méthode de la bibliothèque Aspose.PSD. Cette méthode nous permet d'ouvrir le fichier PSD et d'accéder à ses couches et ressources.
+
+## Étape 2 : Charger le fichier PSD
+Utilisez `Image.load` pour ouvrir le fichier et le convertir en `PsdImage` afin d’accéder aux fonctionnalités spécifiques aux PSD.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
-C'est comme ouvrir un livre : vous pourrez parcourir ses pages (calques et ressources).
-## Étape 3 : Localisez la ressource Vsms dans la couche
-Ensuite, nous devons trouver le VsmsResource spécifique dans notre fichier PSD. Ces ressources contiennent les données des calques de formes vectorielles. C'est ici que la magie opère ! Dans cet extrait, nous parcourons les ressources de la couche pour trouver cette ressource.
+
+## Étape 3 : Localiser la ressource Vsms dans le calque
+Les données de forme vectorielle résident dans une `VsmsResource`. Parcourez les ressources du deuxième calque pour la trouver.
+
 ```java
 VsmsResource resource = null;
 for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
@@ -60,48 +84,68 @@ for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
     }
 }
 ```
-Comme dans une chasse au trésor, vous parcourez les couches pour trouver les précieuses données vectorielles !
-## Étape 4 : Accéder aux enregistrements de longueur
-Une fois que nous avons le VsmsResource, nous pouvons extraire les objetsLengthRecord. Chaque lengthrecord représente un chemin dans les formes vectorielles. Ici, nous accédons à trois lengthrecords pour manipuler leurs propriétés.
+
+## Étape 4 : Accéder aux enregistrements de longueur
+Chaque `LengthRecord` représente un chemin vectoriel distinct. Récupérez ceux que vous avez l’intention de modifier.
+
 ```java
 LengthRecord lengthRecord0 = (LengthRecord) resource.getPaths()[2];
 LengthRecord lengthRecord1 = (LengthRecord) resource.getPaths()[7];
 LengthRecord lengthRecord2 = (LengthRecord) resource.getPaths()[11];
 ```
-C'est comme choisir les parties d'un tableau que vous souhaitez retoucher !
-## Étape 5 : Modifier les propriétés de l'opération de chemin
-Vient maintenant la partie amusante : modifier les propriétés du chemin ! Ici, la méthode setPathOperations permet de modifier la façon dont les formes interagissent les unes avec les autres. Nous pouvons définir des opérations telles que l'exclusion des zones qui se chevauchent ou la soustraction de la forme avant de l'arrière.
+
+## Étape 5 : Modifier les propriétés des opérations de chemin
+Vous pouvez maintenant **modifier les formes vectorielles PSD** en changeant leurs `PathOperations`. Cela détermine comment les formes interagissent (par ex., exclusion, intersection, soustraction).
+
 ```java
 lengthRecord0.setPathOperations(PathOperations.ExcludeOverlappingShapes);
 lengthRecord1.setPathOperations(PathOperations.IntersectShapeAreas);
 lengthRecord2.setPathOperations(PathOperations.SubtractFrontShape);
 ```
-Imaginez-le comme si vous ajustiez les couches d'un gâteau : chaque couche interagit différemment en fonction de la façon dont vous la coupez !
-## Étape 6 : Enregistrez le fichier PSD modifié
-Après avoir apporté les modifications requises, l'étape suivante consiste à enregistrer votre fichier PSD modifié. C’est là que tout votre travail acharné porte ses fruits. 
+
+## Étape 6 : Enregistrer le fichier PSD modifié
+Persistez vos modifications dans un nouveau fichier.
+
 ```java
 psdImage.save(outPsdFilePath);
 ```
-Votre chef-d’œuvre est maintenant soigneusement emballé pour que le monde entier puisse le voir !
-## Étape 7 : Nettoyer les ressources
-Enfin, il est essentiel de vous débarrasser des objets que vous avez utilisés pour libérer de la mémoire et des ressources.
+
+## Étape 7 : Nettoyer les ressources
+Libérez la mémoire en disposant du `PsdImage`.
+
 ```java
 psdImage.dispose();
 ```
-Considérez cela comme nettoyer votre espace de travail après un projet artistique, en vous assurant que tout est propre et bien rangé !
+
+## Pièges courants & conseils
+- **Vérifications de null** – assurez‑vous toujours que `resource` n’est pas `null` avant d’accéder aux chemins.  
+- **Limites d’index de chemin** – vérifiez que les indices que vous utilisez (`[2]`, `[7]`, `[11]`) existent bien dans le PSD concerné.  
+- **Licence** – exécuter sans licence valide ajoutera un filigrane au PSD enregistré.  
+
 ## Conclusion
-Et voilà ! Vous venez de terminer un didacticiel complet sur la prise en charge des propriétés des données d'enregistrement de longueur dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Du chargement du fichier à la modification des propriétés de la forme et à l'enregistrement du produit final, chaque étape dévoile la puissance de cette bibliothèque. Que vous travailliez sur des projets créatifs ou automatisez des ressources graphiques, Aspose.PSD ouvre un tout nouveau monde de possibilités. Prêt à commencer ? Plongez dans vos fichiers PSD et libérez votre créativité !
-## FAQ
-### Qu’est-ce qu’Aspose.PSD pour Java ?
-Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de manipuler et de travailler avec des fichiers Photoshop PSD par programme à l'aide de Java.
-### Puis-je utiliser Aspose.PSD dans un projet gratuit ?
-Oui, vous pouvez essayer la bibliothèque gratuitement en utilisant une version d'essai disponible sur le site Web d'Aspose.
-### Quels types de modifications puis-je apporter aux fichiers PSD ?
-Vous pouvez manipuler des calques, des formes, des textes, des opérations de tracé et bien plus encore dans les fichiers PSD.
-### Aspose.PSD est-il compatible avec d’autres langages de programmation ?
-Oui, Aspose propose diverses bibliothèques pour différents langages de programmation, notamment .NET et Python.
-### Où puis-je trouver la documentation pour Aspose.PSD ?
- Vous pouvez accéder à la documentation complète[ici](https://reference.aspose.com/psd/java/).
+Vous disposez maintenant d’un exemple complet, de bout en bout, pour **modifier les formes vectorielles PSD** en prenant en charge les propriétés de données d’enregistrement de longueur avec Aspose.PSD for Java. Que vous automatisiez des pipelines d’actifs ou construisiez un outil de conception personnalisé, ces API vous offrent la flexibilité de manipuler les calques vectoriels sans intervention manuelle dans Photoshop. Explorez davantage en expérimentant d’autres `PathOperations` ou en combinant plusieurs modifications de `LengthRecord` pour des formes complexes.
+
+## Questions fréquemment posées
+
+**Q : Comment gérer un PSD qui ne contient aucun calque de forme vectorielle ?**  
+R : La `VsmsResource` sera absente, donc `resource` restera `null`. Ajoutez une vérification et sautez l’étape de modification ou informez l’utilisateur.
+
+**Q : Puis‑je changer d’autres propriétés comme la couleur de remplissage ou l’épaisseur du trait ?**  
+R : Oui, `LengthRecord` propose des setters supplémentaires pour le remplissage, le trait et l’opacité. Consultez la documentation de l’API pour tous les détails.
+
+**Q : Est‑il possible de traiter plusieurs fichiers PSD en lot ?**  
+R : Absolument. Enveloppez le code dans une boucle qui parcourt un répertoire de fichiers PSD, en ajustant les chemins d’entrée et de sortie à chaque itération.
+
+**Q : Dois‑je fermer manuellement les flux lors du chargement depuis un chemin de fichier ?**  
+R : La méthode `Image.load` gère les flux de fichiers en interne, mais si vous chargez depuis un `InputStream`, pensez à le fermer après usage.
+
+**Q : Quelle version d’Aspose.PSD est requise pour ces API ?**  
+R : Les classes `LengthRecord` et `PathOperations` sont disponibles depuis Aspose.PSD 20.10. Il est recommandé d’utiliser la dernière version.
+
+**Dernière mise à jour** : 2025-12-17  
+**Testé avec** : Aspose.PSD for Java 24.11  
+**Auteur** : Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

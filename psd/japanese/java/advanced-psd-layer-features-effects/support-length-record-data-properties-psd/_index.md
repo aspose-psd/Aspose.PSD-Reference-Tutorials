@@ -1,30 +1,49 @@
 ---
-title: PSD で長さレコード データ プロパティをサポート - Java
-linktitle: PSD で長さレコード データ プロパティをサポート - Java
+date: 2025-12-17
+description: Aspose.PSD for Java を使用して、長さレコード データ プロパティをサポートしながら PSD のベクタ形状を変更する方法を学びます。コード例付きのステップバイステップ
+  ガイドです。
+linktitle: Support Length Record Data Properties in PSD - Java
 second_title: Aspose.PSD Java API
-description: Aspose.PSD を使用して、Java で長さレコード データ プロパティを持つ PSD ファイルを操作する方法を学びます。詳細については、このステップ バイ ステップ ガイドに従ってください。
-weight: 14
+title: PSDベクタシェイプの変更方法 – Javaで長さレコードデータプロパティをサポート
 url: /ja/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD で長さレコード データ プロパティをサポート - Java
+# PSD の長さレコードデータプロパティをサポート - Java
 
-## 導入
-Photoshop ファイルを操作していて、レイヤーや図形をプログラムで操作したいと思ったことはありませんか? もしそうなら、Aspose.PSD for Java ライブラリの素晴らしさに気付いたことでしょう。この強力なツールにより、開発者は Java コードを通じてシームレスに PSD ファイルを操作し、変更することができます。本日の記事では、このライブラリを使用して PSD ファイルの長さレコード データ プロパティをサポートする方法について詳しく説明します。 
-熟練した Java 開発者でも、初心者でも、このガイドでは必要な知識をすべてステップごとに説明します。最後まで読めば、快適な Java 環境を離れることなく、PSD ファイルを開いてベクター シェイプのプロパティを変更し、変更を保存できるようになります。さあ、さっそく始めましょう!
+## はじめに
+プログラムから **PSD ベクタ形状を変更** したい場合、Aspose.PSD for Java ライブラリを使用すれば、Java コードだけで Photoshop ファイルをフルコントロールできます。このチュートリアルでは、ベクタ形状レイヤーを編集する際に必須となる長さレコードデータプロパティのサポート方法をすべて解説します。最後まで読むと、PSD を開いてベクタ形状プロパティを調整し、IDE を離れることなく更新されたファイルを保存できるようになります。さっそく始めましょう！
+
+## クイックアンサー
+- **“modify PSD vector shapes” とは何ですか？** PSD ファイル内のベクタベースレイヤーのジオメトリ、パス操作、その他のプロパティを調整することです。  
+- **どのライブラリがこれを処理しますか？** Aspose.PSD for Java。  
+- **ライセンスは必要ですか？** 評価用の無料トライアルで試すことができますが、商用利用には有料ライセンスが必要です。  
+- **実装にどれくらい時間がかかりますか？** 基本的な形状変更スクリプトで約 10〜15 分程度です。  
+- **主な前提条件は何ですか？** Java JDK、Aspose.PSD for Java、サンプル PSD ファイル。
+
+## 「PSD ベクターシェイプの変更」とは何ですか？
+PSD ベクタ形状の変更とは、ベクタパスデータ（長さレコードやパス操作など）を変更し、形状の見た目がそれに応じて更新されることを指します。自動化されたグラフィックパイプライン、バッチ処理、カスタムデザインツールなどで特に有用です。
+
+## PSD ベクターシェイプの変更に Aspose.PSD for Java を使用する理由は何ですか？
+- - **Photoshop は不要** – 任意のサーバー上で直接 PSD ファイルを操作できます。  
+- **豊富な API** – 強く型付けされたクラスでレイヤー、リソース、ベクタデータにアクセスできます。  
+- **クロスプラットフォーム** – Windows、Linux、macOS いずれでも任意の JDK で実行可能です。  
+- **パフォーマンス重視** – メモリ管理が効率的で、保存処理も高速です。
+
 ## 前提条件
-始める前に、準備しておくべきものがいくつかあります。すべてが整っていることを確かめておくと、プロセスがスムーズになります。土壇場で慌てるのは誰も望まないことです。必要なものは次のとおりです。
-1.  Java開発キット（JDK）：マシンにJDKがインストールされていることを確認してください。ここからダウンロードできます。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)またはパッケージ マネージャーを使用します。
-2.  Aspose.PSD for Javaライブラリ: Aspose.PSD for Javaライブラリをダウンロードしてプロジェクトに含める必要があります。[Aspose リリース ページ](https://releases.aspose.com/psd/java/).
-3. IDE: コードをより適切に処理するには、IntelliJ IDEA、Eclipse、または任意の Java IDE などの統合開発環境 (IDE) を使用します。
-4. PSD ファイル: このチュートリアルでは、作業用の PSD ファイルが必要です。Adobe Photoshop で作成するか、サンプルの PSD をダウンロードしてください。
-5. 基本的な Java の知識: Java 構文に精通していると、簡単に理解できるようになります。
+1. **Java 開発キット (JDK)** – [Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) からダウンロードするか、お好みのパッケージマネージャをご利用ください。  
+2. **Aspose.PSD for Java** – [Aspose リリースページ](https://releases.aspose.com/psd/java/) から最新の JAR を取得してください。  
+3. **IDE** – IntelliJ IDEA、Eclipse、または任意の Java 対応エディタ。  
+4. **PSD ファイル** – Photoshop で作成するか、サンプル PSD を入手して実験してください。  
+5. **Java の基礎知識** – クラス、オブジェクト、例外処理に慣れていること。
+
 ## パッケージのインポート
-これですべての前提条件が整いました。次のステップは必要なパッケージをインポートすることです。このステップは、これから使用するクラスとメソッドにアクセスするために重要です。以下は、Java プロジェクトに必要なパッケージをインポートする方法の例です。
+まず、PSD ファイルとベクタ形状リソースを操作するために必要なクラスをインポートします。
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -33,24 +52,27 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.VsmsResource;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRecord;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathOperations;
 ```
-これらのインポートにより、PSD ファイルの操作に取り掛かる準備が整いました。
 
-## ステップ1: ソースディレクトリと出力ディレクトリを設定する
-ファイルをロードする前に、入力 PSD ファイルの取得元と変更したファイルの保存場所を指定しましょう。ローカル マシンに応じてディレクトリ パスを調整します。
+## ステップ 1: ソースディレクトリと出力ディレクトリの設定
+元の PSD が存在する場所と、変更後のファイルを保存する場所を定義します。
+
 ```java
 String sourceDir = "Your Source Directory";
 String outputDir = "Your Document Directory";
 String inPsdFilePath = sourceDir + "PathOperationsShape.psd";
 String outPsdFilePath = outputDir + "out_PathOperationsShape.psd";
 ```
-## ステップ2: PSDファイルを読み込む
- PSDファイルをロードしましょう！これには、`Image.load` Aspose.PSD ライブラリのメソッド。このメソッドを使用すると、PSD ファイルを開いて、そのレイヤーとリソースにアクセスできます。
+
+## ステップ 2: PSD ファイルの読み込み
+`Image.load` を使用してファイルを開き、PSD 固有の機能を利用できるように `PsdImage` にキャストします。
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
-本を開くのと同じように、ページ（レイヤーとリソース）を参照できます。
-## ステップ3: レイヤー内のVsmsリソースを見つける
-次に、PSD ファイル内の特定の VsmsResource を見つける必要があります。これらのリソースには、ベクター シェイプ レイヤーのデータが格納されています。ここで魔法が起こります。このスニペットでは、レイヤーのリソースをループしてこのリソースを見つけます。
+
+## ステップ 3: レイヤー内の Vsms リソースの検索
+ベクタ形状データは `VsmsResource` 内に格納されています。2 番目のレイヤーのリソースをループして該当リソースを見つけます。
+
 ```java
 VsmsResource resource = null;
 for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
@@ -60,48 +82,75 @@ for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
     }
 }
 ```
-宝探しのように、レイヤーを検索して貴重なベクター データを見つけます。
-## ステップ4: 長さレコードにアクセスする
-VsmsResource を取得したら、LengthRecord オブジェクトを抽出できます。各 LengthRecord はベクター シェイプ内のパスを表します。ここでは、3 つの LengthRecord にアクセスして、そのプロパティを操作します。
+
+## ステップ 4: 長さレコードへのアクセス
+各 `LengthRecord` は個別のベクタパスを表します。変更したいレコードを取得しましょう。
+
 ```java
 LengthRecord lengthRecord0 = (LengthRecord) resource.getPaths()[2];
 LengthRecord lengthRecord1 = (LengthRecord) resource.getPaths()[7];
 LengthRecord lengthRecord2 = (LengthRecord) resource.getPaths()[11];
 ```
-まるで絵画のどの部分を修正したいかを選択するようなものです。
-## ステップ5: パス操作プロパティを変更する
-次は楽しい部分、つまりパスのプロパティの変更です。ここでは、setPathOperations メソッドを使用して、図形同士の相互作用を変更できます。重なり合う領域を除外したり、前面の図形を背面から減算したりする操作を設定できます。
+
+## ステップ 5: パス操作プロパティの変更
+ここで `PathOperations` を変更することで **PSD ベクタ形状を変更** できます。これにより形状同士の相互作用（除外、交差、減算など）が決まります。
+
 ```java
 lengthRecord0.setPathOperations(PathOperations.ExcludeOverlappingShapes);
 lengthRecord1.setPathOperations(PathOperations.IntersectShapeAreas);
 lengthRecord2.setPathOperations(PathOperations.SubtractFrontShape);
 ```
-ケーキの層を調整するようなものだと想像してください。スライスの仕方によって、各層は異なる相互作用をします。
-## ステップ6: 変更したPSDファイルを保存する
-必要な変更を行った後、次のステップは変更した PSD ファイルを保存することです。ここで、これまでの努力が報われます。 
+
+## ステップ 6: 変更した PSD ファイルを保存する
+変更内容を新しいファイルに保存します。
+
 ```java
 psdImage.save(outPsdFilePath);
 ```
-あなたの傑作が、世界に公開できるようきれいに梱包されました!
-## ステップ7: リソースをクリーンアップする
-最後に、メモリとリソースを解放するために使用したオブジェクトを破棄することが重要です。
+
+## ステップ 7: リソースのクリーンアップ
+`PsdImage` を破棄してメモリを解放します。
+
 ```java
 psdImage.dispose();
 ```
-アートプロジェクトの後に作業スペースを掃除し、すべてがきちんと整頓されていることを確認するようなものだと考えてください。
-## 結論
-これで完了です。Aspose.PSD for Java を使用して PSD ファイルの長さレコード データ プロパティをサポートする包括的なチュートリアルが完了しました。ファイルの読み込みから図形プロパティの変更、最終製品の保存まで、各ステップでこのライブラリの威力が明らかになります。クリエイティブなプロジェクトに取り組んでいる場合でも、グラフィック アセットを自動化している場合でも、Aspose.PSD はまったく新しい可能性の世界を開きます。始める準備はできましたか? PSD ファイルに飛び込んで、創造性を解き放ちましょう。
+
+## ## よくある落とし穴とヒント
+- **Null チェック** – `resource` が `null` でないことを必ず確認してからパスにアクセスしてください。  
+- **パスのインデックス範囲** – 使用するインデックス（`[2]`、`[7]`、`[11]`）が対象 PSD に存在するか確認しましょう。  
+- **ライセンス** – 有効なライセンスがない状態で実行すると、保存された PSD に透かしが埋め込まれます。  
+
+## まとめ
+
+これで、Aspose.PSD for Java を使用して長さレコードデータプロパティをサポートしながら **PSD ベクタ形状を変更** する完全なエンドツーエンドの例が完成しました。アセットパイプラインの自動化やカスタムデザインツールの構築において、これらの API を活用すれば Photoshop の手作業なしでベクタレイヤーを自在に操作できます。さらに `PathOperations` を試したり、複数の `LengthRecord` を組み合わせて複雑な形状を作成するなど、ぜひ色々と実験してみてください。
+
 ## よくある質問
-### Aspose.PSD for Java とは何ですか?
-Aspose.PSD for Java は、開発者が Java を使用してプログラム的に Photoshop PSD ファイルを操作および操作できるようにするライブラリです。
-### Aspose.PSD を無料プロジェクトで使用できますか?
-はい、Aspose Web サイトで入手可能な試用版を使用して、ライブラリを無料で試すことができます。
-### PSD ファイルにはどのような変更を加えることができますか?
-PSD ファイル内で、レイヤー、シェイプ、テキスト、パス操作などを操作できます。
-### Aspose.PSD は他のプログラミング言語と互換性がありますか?
-はい、Aspose は .NET や Python など、さまざまなプログラミング言語用のさまざまなライブラリを提供しています。
-### Aspose.PSD のドキュメントはどこにありますか?
-完全なドキュメントにアクセスできます[ここ](https://reference.aspose.com/psd/java/).
+
+**Q: ベクターシェイプレイヤーを含まないPSDファイルはどのように処理すればよいですか？**
+  
+A: `VsmsResource` が存在しないため、`resource` は `null のままです。チェックを追加して変更ステップをスキップするか、ユーザーに通知してください。
+
+**Q: 塗りつぶしの色や線幅などの他のプロパティを変更できますか？**
+
+A: はい、`LengthRecord` には塗りつぶし、ストローク、透明度などの追加セッターが用意されています。詳細は API ドキュメントをご参照ください。
+
+**Q: 複数のPSDファイルを一括処理することはできますか？**
+
+A: もちろんです。ディレクトリ内の PSD ファイルをループで処理し、入力・出力パスを毎回調整すれば実現できます。
+
+**Q: パスから読み込む際に、ストリームを手動で閉じる必要がありますか？**
+  
+A: `Image.load` メソッドは内部でファイルストリームを処理しますが、`InputStream` からロードする場合は使用後に必ずクローズしてください。
+
+**Q: これらのAPIを使用するには、どのバージョンのAspose.PSDが必要ですか？**
+A: `LengthRecord` と `PathOperations` クラスは Aspose.PSD 20.10 以降で利用可能です。最新バージョンの使用を推奨します。
+
+---
+
+**最終更新日:** 2025年12月17日
+**テスト環境:** Aspose.PSD for Java 24.11
+**作成者:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

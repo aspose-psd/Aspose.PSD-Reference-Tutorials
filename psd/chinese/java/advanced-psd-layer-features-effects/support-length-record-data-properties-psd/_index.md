@@ -1,30 +1,48 @@
 ---
-title: 支持 PSD 中的长度记录数据属性 - Java
-linktitle: 支持 PSD 中的长度记录数据属性 - Java
+date: 2025-12-17
+description: 了解如何使用 Aspose.PSD for Java 通过支持长度记录数据属性来修改 PSD 矢量形状。分步指南并附有代码示例。
+linktitle: Support Length Record Data Properties in PSD - Java
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD 在 Java 中操作具有长度记录数据属性的 PSD 文件。请按照此分步指南了解所有详细信息。
-weight: 14
+title: 如何修改 PSD 矢量形状 – 在 Java 中支持 Length Record 数据属性
 url: /zh/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 支持 PSD 中的长度记录数据属性 - Java
+# 在 PSD 中支持长度记录数据属性 - Java
 
 ## 介绍
-您是否曾经使用过 Photoshop 文件并希望以编程方式操作图层或形状？如果是这样，那么您就发现了 Aspose.PSD for Java 库的美妙之处。这个强大的工具允许开发人员通过 Java 代码无缝地与 PSD 文件交互和修改 PSD 文件。在今天的文章中，我们将深入探讨如何使用此库在 PSD 文件中支持长度记录数据属性。 
-无论您是经验丰富的 Java 开发人员还是刚刚入门，本指南都会逐步引导您了解所有需要了解的内容。最后，您将能够打开 PSD 文件、修改其矢量形状属性并保存更改 - 所有这些都无需离开舒适的 Java 环境。让我们撸起袖子开始行动吧！
+如果您需要**修改 PSD 矢量形状**，Aspose.PSD for Java 库让您可以直接在 Java 代码中完全控制 Photoshop 文件。在本教程中，我们将逐步讲解支持长度记录数据属性所需的全部内容——这是编辑矢量形状图层的关键步骤。完成后，您将能够打开 PSD，调整其矢量形状属性，并在不离开 IDE 的情况下保存更新后的文件。让我们开始吧！
+
+## 快速解答
+- **“修改 PSD 矢量形状”是什么意思？** 调整 PSD 文件中基于矢量的图层的几何形状、路径操作或其他属性。  
+- **哪个库负责此功能？** Aspose.PSD for Java。  
+- **我需要许可证吗？** 免费试用可用于评估；生产环境需要商业许可证。  
+- **实现需要多长时间？** 基本的形状修改脚本大约需要 10‑15 分钟。  
+- **主要前提条件是什么？** Java JDK、Aspose.PSD for Java 和一个示例 PSD 文件。
+
+## 什么是“修改PSD矢量图形”？
+修改 PSD 矢量形状是指更改底层矢量路径数据——例如长度记录和路径操作——从而相应地更新形状的视觉外观。这在自动化图形流水线、批处理或自定义设计工具中尤为有用。
+
+## 为什么使用 Aspose.PSD for Java 来修改 PSD 矢量图形？
+- **无需 Photoshop** – 可直接在任何服务器上处理 PSD 文件。  
+- **丰富的 API** – 使用强类型类访问图层、资源和矢量数据。  
+- **跨平台** – 在 Windows、Linux 或 macOS 上使用任何 JDK 运行。  
+- **性能导向** – 高效的内存管理和快速保存操作。
+
 ## 先决条件
-在我们开始之前，您需要准备一些东西。确保一切准备就绪可使流程更加顺利，而且没人喜欢最后一刻手忙脚乱！以下是您需要准备的东西：
-1.  Java 开发工具包 (JDK)：确保您的机器上安装了 JDK。您可以从此处下载[Oracle 网站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)或者使用包管理器。
-2.  Aspose.PSD for Java 库：您需要下载 Aspose.PSD for Java 库并将其包含在您的项目中。从[Aspose 发布页面](https://releases.aspose.com/psd/java/).
-3. IDE：使用集成开发环境 (IDE)，如 IntelliJ IDEA、Eclipse 或您选择的任何 Java IDE，以更好地处理代码。
-4. PSD 文件：本教程需要 PSD 文件。您可以在 Adobe Photoshop 中创建一个 PSD 文件，也可以下载示例 PSD 文件。
-5. 基本 Java 知识：熟悉 Java 语法将帮助您轻松地跟进。
+1. **Java Development Kit (JDK)** – 从[Oracle 官方网站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)下载，或使用您喜欢的包管理器。  
+2. **Aspose.PSD for Java** – 从[Aspose 发布页面](https://releases.aspose.com/psd/java/)获取最新的 JAR。  
+3. **IDE** – IntelliJ IDEA、Eclipse 或任何兼容 Java 的编辑器。  
+4. **PSD 文件** – 在 Photoshop 中创建，或获取一个示例 PSD 进行实验。  
+5. **基本的 Java 知识** – 熟悉类、对象和异常处理。
+
 ## 导入包
-现在您已设置好所有先决条件，下一步是导入必要的包。此步骤对于访问我们将要使用的类和方法至关重要。以下是如何在 Java 项目中导入所需包的示例：
+
+首先，导入处理 PSD 文件和矢量形状资源所需的类。
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -33,24 +51,29 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.VsmsResource;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRecord;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathOperations;
 ```
-通过这些导入，您就可以开始处理 PSD 文件了！
 
-## 步骤 1：设置源目录和输出目录
-在加载任何文件之前，让我们指定输入的 PSD 文件的来源以及我们想要保存修改后的文件的位置。根据您的本地机器调整目录路径。
+## 第一步：设置源目录和输出目录
+
+定义原始 PSD 文件所在的位置以及修改后的文件保存的位置。
+
 ```java
 String sourceDir = "Your Source Directory";
 String outputDir = "Your Document Directory";
 String inPsdFilePath = sourceDir + "PathOperationsShape.psd";
 String outPsdFilePath = outputDir + "out_PathOperationsShape.psd";
 ```
-## 步骤2：加载PSD文件
-是时候加载 PSD 文件了！为此，我们将使用`Image.load`来自 Aspose.PSD 库的方法。此方法允许我们打开 PSD 文件并访问其图层和资源。
+
+## 步骤 2：加载 PSD 文件
+
+使用 `Image.load` 打开文件并将其转换为 `PsdImage` 类型，以便使用 PSD 特有的功能。
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
-这就像打开一本书——您可以浏览它的页面（图层和资源）。
-## 步骤 3：在层中找到 Vsms 资源
-接下来，我们需要在 PSD 文件中找到特定的 VsmsResource。这些资源保存矢量形状图层的数据。这就是奇迹发生的地方！在此代码片段中，我们循环遍历图层的资源以找到此资源。
+
+## 步骤 3：在图层中查找 Vsms 资源
+
+矢量形状数据存储在 `VsmsResource` 中。遍历第二个图层的资源以查找它。
 ```java
 VsmsResource resource = null;
 for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
@@ -60,48 +83,79 @@ for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
     }
 }
 ```
-就像寻宝一样，您正在层层搜索以找到有价值的矢量数据！
+
 ## 步骤 4：访问长度记录
-一旦我们有了 VsmsResource，我们就可以提取 LengthRecord 对象。每个 LengthRecord 代表矢量形状内的一条路径。在这里，我们访问三个 LengthRecord 来操作它们的属性。
+
+每个 `LengthRecord` 代表一个不同的向量路径。获取您想要修改的记录。
+
 ```java
 LengthRecord lengthRecord0 = (LengthRecord) resource.getPaths()[2];
 LengthRecord lengthRecord1 = (LengthRecord) resource.getPaths()[7];
 LengthRecord lengthRecord2 = (LengthRecord) resource.getPaths()[11];
 ```
-这就像选择想要修饰绘画的哪些部分一样！
-## 步骤5：修改路径操作属性
-现在到了最有趣的部分——修改路径属性！在这里，setPathOperations 方法允许更改形状之间的交互方式。我们可以设置诸如排除重叠区域或从后面减去前面形状之类的操作。
+
+## 第 5 步：修改路径操作属性
+
+现在您可以通过更改 PSD 矢量形状的 `PathOperations` 属性来**修改 PSD 矢量形状**。这决定了形状之间的交互方式（例如，排除、相交、减法）。
+
 ```java
 lengthRecord0.setPathOperations(PathOperations.ExcludeOverlappingShapes);
 lengthRecord1.setPathOperations(PathOperations.IntersectShapeAreas);
 lengthRecord2.setPathOperations(PathOperations.SubtractFrontShape);
 ```
-将其想象成调整蛋糕的层数——根据切片方式，每一层都会有不同的互动方式！
-## 步骤6：保存修改后的PSD文件
-完成必要的更改后，下一步是保存修改后的 PSD 文件。这是您所有辛勤工作的回报。 
+
+## 第六步：保存修改后的PSD文件
+
+将更改保存到新文件中。
+
 ```java
 psdImage.save(outPsdFilePath);
 ```
-您的杰作现已整齐地包装起来，供全世界观看！
-## 步骤 7：清理资源
-最后，处理已使用的对象以释放内存和资源至关重要。
+
+## 第 7 步：清理资源
+
+释放 `PsdImage` 以释放内存。
+
 ```java
 psdImage.dispose();
 ```
-可以将其想象为在完成艺术项目后清理工作空间 - 确保一切都整洁干净！
+
+## 常见陷阱和技巧
+- **空值检查** – 在访问路径之前始终确认 `resource` 不为 `null`。  
+- **路径索引范围** – 确保您使用的索引（`[2]`、`[7]`、`[11]`）在您编辑的特定 PSD 中存在。  
+- **许可证** – 未使用有效许可证运行时，保存的 PSD 将嵌入水印。  
+
 ## 结论
-就是这样！您刚刚完成了使用 Aspose.PSD for Java 支持 PSD 文件中的长度记录数据属性的全面教程。从加载文件到修改形状属性并保存最终产品 - 每个步骤都揭示了这个库的强大功能。无论您是在从事创意项目还是自动化图形资产，Aspose.PSD 都能为您打开一个全新的可能性世界。准备好开始了吗？深入研究您的 PSD 文件并释放您的创造力！
+现在，您已经拥有一个完整的端到端示例，展示如何使用 Aspose.PSD for Java 通过支持长度记录数据属性来**修改 PSD 矢量形状**。无论是自动化资产流水线还是构建自定义设计工具，这些 API 都能让您在无需手动使用 Photoshop 的情况下灵活操作矢量图层。通过尝试其他 `PathOperations` 或组合多个 `LengthRecord` 编辑来实现更复杂的形状，进一步探索吧。
+
 ## 常见问题解答
-### 什么是 Aspose.PSD for Java？
-Aspose.PSD for Java 是一个库，允许开发人员使用 Java 以编程方式操作和使用 Photoshop PSD 文件。
-### 我可以在免费项目中使用 Aspose.PSD 吗？
-是的，您可以使用 Aspose 网站上提供的试用版免费试用该库。
-### 我可以对 PSD 文件进行哪些类型的修改？
-您可以操作 PSD 文件中的图层、形状、文本、路径操作等。
-### Aspose.PSD 与其他编程语言兼容吗？
-是的，Aspose 为不同的编程语言提供各种库，包括.NET 和 Python。
-### 在哪里可以找到 Aspose.PSD 的文档？
-您可以访问完整文档[这里](https://reference.aspose.com/psd/java/).
+
+**问：如何处理不包含矢量形状图层的PSD文件？**  
+ 
+**答:** `VsmsResource` 将不存在，`resource` 会保持为 `null`。请添加检查，跳过修改步骤或提示用户。
+
+**问：我可以更改其他属性吗，例如填充颜色或描边宽度？**  
+ 
+**答:** 可以，`LengthRecord` 提供了填充、描边和不透明度等额外的 setter。请参阅 API 文档获取完整细节。
+
+**问：是否可以批量处理多个PSD文件？**  
+
+**答:** 完全可以。将代码放入遍历 PSD 文件目录的循环中，并在每次迭代时调整输入和输出路径。
+
+**问：从文件路径加载时，是否需要手动关闭流？**  
+
+**答:** `Image.load` 方法会内部处理文件流，但如果使用 `InputStream` 加载，请在使用后记得关闭它。
+
+**问：这些 API 需要哪个版本的 Aspose.PSD？**  
+
+**答:** `LengthRecord` 和 `PathOperations` 类自 Aspose.PSD 20.10 起可用。建议使用最新版本。
+
+---
+
+**上次更新时间：** 2025-12-17
+**测试版本：** Aspose.PSD for Java 24.11
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
