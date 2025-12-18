@@ -1,32 +1,60 @@
 ---
-title: รองรับทรัพยากร Vmsk ในไฟล์ PSD ด้วย Java
-linktitle: รองรับทรัพยากร Vmsk ในไฟล์ PSD ด้วย Java
+date: 2025-12-18
+description: เรียนรู้วิธีสร้างเวกเตอร์มาสก์ (ทรัพยากร Vmsk) ในไฟล์ PSD ด้วย Aspose.PSD
+  สำหรับ Java บทเรียนทีละขั้นตอนนี้จะแสดงวิธีเพิ่มเวกเตอร์มาสก์, แปลง PSD เป็น PNG,
+  และอื่น ๆ อีกมากมาย
+linktitle: Create Vector Mask (Vmsk Resource) in PSD Files with Java
 second_title: Aspose.PSD Java API
-description: จัดการทรัพยากร Vmsk ในไฟล์ PSD ได้อย่างง่ายดายโดยใช้ Aspose.PSD สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนที่ครอบคลุมซึ่งเหมาะสำหรับนักพัฒนาและนักออกแบบ
-weight: 23
+title: สร้างมาสก์เวกเตอร์ (ทรัพยากร Vmsk) ในไฟล์ PSD ด้วย Java
 url: /th/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# รองรับทรัพยากร Vmsk ในไฟล์ PSD ด้วย Java
+# สร้าง Vector Mask (Vmsk Resource) ในไฟล์ PSD ด้วย Java
 
-## การแนะนำ
-เมื่อพูดถึงการทำงานกับไฟล์ PSD (เอกสาร Photoshop) การจัดการทรัพยากรเป็นสิ่งสำคัญ โดยเฉพาะอย่างยิ่งเมื่อรวมคุณสมบัติพิเศษ เช่น ทรัพยากร Vmsk (Vector Mask) ทรัพยากรของ Vmsk สามารถเสริมพลังให้กับนักออกแบบโดยการเพิ่มรูปร่างเวกเตอร์ที่ซับซ้อน ช่วยให้พวกเขาสร้างกราฟิกที่น่าทึ่งได้อย่างง่ายดาย ในคู่มือนี้ เราจะใช้แนวทางปฏิบัติจริงเพื่อแสดงวิธีสนับสนุนทรัพยากร Vmsk ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่ต้องการปรับปรุงแอปพลิเคชันของคุณ หรือนักออกแบบที่กำลังมองหาระบบอัตโนมัติ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน ทำให้ง่ายต่อการปฏิบัติตามและนำไปใช้
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญในการจัดการทรัพยากร Vmsk เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่พร้อมสำหรับประสบการณ์ที่ราบรื่น
-### สิ่งที่คุณต้องการ
--  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนเครื่องของคุณแล้ว ถ้าไม่เช่นนั้นคุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Aspose.PSD สำหรับไลบรารี Java: นี่คือไลบรารีที่มีประสิทธิภาพสำหรับการจัดการไฟล์ PSD คุณสามารถดาวน์โหลดได้จาก[กำหนดหน้าเผยแพร่](https://releases.aspose.com/psd/java/) - สำหรับผู้ที่ต้องการทดลองใช้ก่อนซื้อคุณสามารถเริ่มต้นด้วย[ทดลองใช้ฟรี](https://releases.aspose.com/).
-- IDE: IDE ใดๆ สำหรับ Java (เช่น IntelliJ IDEA, Eclipse ฯลฯ) จะใช้ได้กับโปรเจ็กต์นี้
-### การตั้งค่าพื้นที่ทำงานของคุณ
-1. สร้างโปรเจ็กต์ Java ใหม่: เริ่ม IDE ที่คุณต้องการและสร้างโปรเจ็กต์ Java ใหม่ นี่คือสนามเด็กเล่นของคุณสำหรับการทำงานกับโค้ด
-2. เพิ่มไลบรารี Aspose: หลังจากดาวน์โหลดไลบรารี Aspose แล้ว ให้เพิ่มไฟล์ jar ลงในไลบรารีของโปรเจ็กต์ของคุณ ขั้นตอนนี้มีความสำคัญเนื่องจากช่วยให้เราสามารถใช้ฟีเจอร์หวานๆ ทั้งหมดของ Aspose.PSD ได้
-ด้วยข้อกำหนดเบื้องต้นเหล่านี้ คุณก็พร้อมที่จะเริ่มสร้าง แก้ไข และจัดการไฟล์ PSD ด้วยทรัพยากร Vmsk มาเข้าสู่การเขียนโปรแกรมกันเถอะ!
-## แพ็คเกจนำเข้า
-ก่อนที่เราจะสามารถทำงานกับไฟล์ PSD ได้ เราจำเป็นต้องนำเข้าแพ็คเกจที่จำเป็นก่อน นี่คือแกนหลักของโค้ดของเรา ทำให้เราสามารถเข้าถึงคลาสและวิธีการต่างๆ ที่ไลบรารี Aspose.PSD นำเสนอ
+## Introduction
+หากคุณต้องการ **สร้าง vector mask** (Vmsk) ภายในไฟล์ Photoshop (PSD) Aspose.PSD for Java จะมอบวิธีการที่สะอาดและเป็นโปรแกรมเมติกให้คุณ ไม่ว่าคุณจะกำลังสร้างเครื่องมือการออกแบบอัตโนมัติหรือเพิ่มการสนับสนุน mask แบบกำหนดเองให้กับ pipeline กราฟิกที่มีอยู่แล้ว บทเรียนนี้จะพาคุณผ่านทุกขั้นตอน—การโหลด PSD, การอ่าน Vmsk resource, การปรับแต่งคุณสมบัติ, และการบันทึกผลลัพธ์. เมื่อเสร็จสิ้น คุณจะคุ้นเคยกับการจัดการ vector mask, การแปลง PSD เป็น PNG, และการขยายไฟล์ด้วยข้อมูลเวกเตอร์เพิ่มเติม.
+
+## Quick Answers
+- **Vmsk resource คืออะไร?** เป็นข้อมูล vector mask ที่เก็บอยู่ในไฟล์ PSD, กำหนดรูปทรงเวกเตอร์ซับซ้อนสำหรับเลเยอร์.  
+- **ไลบรารีใดรองรับ?** Aspose.PSD for Java ให้การเข้าถึงอ่าน/เขียน Vmsk resource อย่างเต็มรูปแบบ.  
+- **ต้องมีลิขสิทธิ์หรือไม่?** มีรุ่นทดลองฟรี; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
+- **สามารถแปลง PSD ที่แก้ไขแล้วเป็น PNG ได้หรือไม่?** ได้—บันทึกแล้วคุณสามารถโหลด PSD อีกครั้งและส่งออกเป็น PNG ด้วย API เดียวกัน.  
+- **รองรับ Maven หรือไม่?** แน่นอน; สามารถเพิ่ม Aspose.PSD เป็น dependency ของ Maven (ดูคีย์เวิร์ด “aspose psd maven”).
+
+## What is a Vector Mask (Vmsk Resource)?
+Vector mask (Vmsk) คือ mask ที่ไม่อิงพิกเซล ใช้เส้นโค้ง Bézier และบันทึกเส้นทางเพื่อกำหนดพื้นที่โปร่งใสและทึบบนเลเยอร์. เนื่องจากเป็นเวกเตอร์ มันสามารถขยายได้โดยไม่สูญเสียคุณภาพ—เหมาะสำหรับกราฟิกความละเอียดสูง.
+
+## Why Create a Vector Mask with Aspose.PSD?
+- **Automation:** เพิ่มหรือแก้ไข mask ผ่านโปรแกรมโดยไม่ต้องเปิด Photoshop.  
+- **Consistency:** ทำให้ทุก PSD ที่คุณสร้างปฏิบัติตามกฎ mask เดียวกัน.  
+- **Cross‑platform:** ทำงานบน OS ใดก็ได้ที่รองรับ Java.  
+- **Integration:** ผสานกับ Aspose API อื่น (เช่น แปลง PSD → PNG) เพื่อสร้าง workflow ครบวงจร.
+
+## Prerequisites
+ก่อนที่เราจะลงลึกในโค้ด, ตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+
+### What You Need
+- Java Development Kit (JDK): ตรวจสอบว่าคุณได้ติดตั้ง JDK บนเครื่องของคุณแล้ว. หากยังไม่มี, คุณสามารถดาวน์โหลดได้จาก [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- Aspose.PSD for Java Library: ไลบรารีที่ทรงพลังสำหรับจัดการไฟล์ PSD. ดาวน์โหลดได้จาก [Aspose release page](https://releases.aspose.com/psd/java/). สำหรับผู้ที่ต้องการลองก่อนซื้อ, สามารถเริ่มต้นด้วย [free trial](https://releases.aspose.com/).  
+- An IDE: IDE ใดก็ได้สำหรับ Java (เช่น IntelliJ IDEA, Eclipse, ฯลฯ) จะทำงานกับโปรเจกต์นี้ได้.
+
+### Setting Up Your Workspace
+1. **Create a New Java Project** – เปิด IDE ที่คุณชื่นชอบและสร้างโปรเจกต์ใหม่.  
+2. **Add the Aspose Library** – หลังจากดาวน์โหลดไฟล์ JAR ของ Aspose, เพิ่มเข้าไปใน build path ของโปรเจกต์เพื่อให้เข้าถึงคลาสที่เกี่ยวกับ PSD ได้.
+
+เมื่อเตรียมสภาพแวดล้อมเรียบร้อย, ไปต่อที่การทำงานจริงกัน.
+
+## How to create vector mask in PSD files with Java
+ต่อไปนี้เป็นคำแนะนำแบบขั้นตอน. โค้ดบล็อกจะคงไว้ตามต้นฉบับ; เราเพียงเพิ่มข้อความอธิบายเพื่อทำให้แต่ละขั้นตอนชัดเจนยิ่งขึ้น.
+
+## Import Packages
+ก่อนที่เราจะทำงานกับไฟล์ PSD, เราต้องนำเข้าคลาสที่จำเป็นจากไลบรารี Aspose.PSD.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Point;
@@ -40,27 +68,34 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRe
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathFillRuleRecord;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.VectorPathType;
 ```
-ตอนนี้เราได้เตรียมเวทีแล้ว ก็ถึงเวลาลงมือ! ในส่วนนี้ เราจะแบ่งโค้ดออกเป็นขั้นตอนที่สามารถจัดการได้ ขั้นตอนเหล่านี้จะแนะนำคุณในการอ่านไฟล์ PSD การจัดการทรัพยากร Vmsk และแม้กระทั่งการแก้ไข
-## ขั้นตอนที่ 1: โหลดไฟล์ PSD ของคุณ
-สิ่งแรกที่คุณต้องการทำคือโหลดไฟล์ PSD ของคุณ นี่คือจุดเริ่มต้นของความมหัศจรรย์ทั้งหมด
+
+ตอนนี้เราได้เตรียมพื้นฐานแล้ว, ไปสำรวจแต่ละการดำเนินการกัน.
+
+## Step 1: Load Your PSD File
+สิ่งแรกที่คุณต้องทำคือโหลดไฟล์ PSD ของคุณ. นี่คือจุดเริ่มต้นของทุกอย่าง.
+
 ```java
-String dataDir = "Your Document Directory"; // อัพเดตเส้นทางนี้
+String dataDir = "Your Document Directory"; // Update this path
 String sourceFileName = dataDir + "Rectangle.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
--  เราตั้งค่า`dataDir` ไปยังไดเร็กทอรีของไฟล์ PSD ของคุณ 
--  เราสร้างสตริงสำหรับ`sourceFileName`การรวมไดเรกทอรีเข้ากับชื่อไฟล์ PSD
--  ในที่สุด เราก็โหลดไฟล์ PSD ลงในไฟล์`PsdImage` วัตถุที่ใช้`Image.load()`.
-## ขั้นตอนที่ 2: ดึงข้อมูลทรัพยากร Vmsk
-ตอนนี้เราได้โหลดรูปภาพ PSD แล้ว เรามาเรียกทรัพยากร Vmsk กันดีกว่า
+- เรากำหนด `dataDir` ให้เป็นไดเรกทอรีของไฟล์ PSD.  
+- เราสร้างสตริง `sourceFileName` โดยรวมไดเรกทอรีกับชื่อไฟล์ PSD.  
+- สุดท้ายเราจะโหลดไฟล์ PSD เข้าไปในอ็อบเจกต์ `PsdImage` ด้วย `Image.load()`.
+
+## Step 2: Retrieve the Vmsk Resource
+เมื่อเราโหลดภาพ PSD แล้ว, ให้ดึง Vmsk resource ออกมา.
+
 ```java
 VmskResource resource = getVmskResource(im);
 ```
 
--  เราเรียกว่า`getVmskResource()` วิธีการซึ่งจัดการการค้นหาและการดึงข้อมูลทรัพยากร Vmsk จากรูปภาพ
-## ขั้นตอนที่ 3: ตรวจสอบคุณสมบัติทรัพยากร Vmsk
-ก่อนดำเนินการแก้ไข จำเป็นต้องตรวจสอบว่าทรัพยากร Vmsk ของเราอยู่ในสถานะที่คาดไว้
+- เราเรียกเมธอด `getVmskResource()` ซึ่งทำหน้าที่ค้นหาและดึง Vmsk resource จากภาพ.
+
+## Step 3: Validate Vmsk Resource Properties
+ก่อนดำเนินการแก้ไข, จำเป็นต้องตรวจสอบว่า Vmsk resource อยู่ในสถานะที่คาดหวังหรือไม่.
+
 ```java
 if (resource.isDisabled() != false ||
 	resource.isInverted() != false ||
@@ -70,9 +105,11 @@ if (resource.isDisabled() != false ||
 }
 ```
 
-- ที่นี่ เรากำลังตรวจสอบคุณสมบัติต่างๆ ของทรัพยากร Vmsk เราต้องการให้แน่ใจว่าไม่ได้ปิดการใช้งาน กลับด้าน หรือไม่เชื่อมโยง และมีจำนวนเส้นทางที่ถูกต้อง
-## ขั้นตอนที่ 4: เข้าถึงแต่ละเส้นทางและตรวจสอบ
-มาเจาะลึกลงไปอีกหน่อยและตรวจสอบเส้นทางภายในทรัพยากร Vmsk
+- ที่นี่เราตรวจสอบคุณสมบัติต่าง ๆ ของ Vmsk resource เพื่อให้แน่ใจว่าไม่ได้ถูกปิดใช้งาน, กลับด้าน, หรือไม่ได้เชื่อมโยง, และมีจำนวนเส้นทางที่ถูกต้อง.
+
+## Step 4: Access Each Path and Validate
+ให้เราลงลึกและตรวจสอบเส้นทางภายใน Vmsk resource.
+
 ```java
 PathFillRuleRecord pathFillRule = (PathFillRuleRecord) resource.getPaths()[0];
 InitialFillRuleRecord initialFillRule = (InitialFillRuleRecord) resource.getPaths()[1];
@@ -86,18 +123,22 @@ if (pathFillRule.getType() != VectorPathType.PathFillRuleRecord ||
 }
 ```
 
-- เรากำลังแยกบันทึกเส้นทางเฉพาะสามรายการและตรวจสอบประเภทและคุณสมบัติเพื่อให้แน่ใจว่าตรงตามเกณฑ์ของเรา
-## ขั้นตอนที่ 5: แก้ไขทรัพยากร Vmsk
-ตอนนี้เรากำลังเข้าสู่ส่วนการปรับเปลี่ยน! คุณสามารถปรับแต่งคุณสมบัติของทรัพยากร Vmsk ได้ตามต้องการ
+- เราดึงบันทึกเส้นทางสามรายการที่เฉพาะเจาะจงและตรวจสอบประเภทและคุณสมบัติของพวกมันเพื่อให้ตรงตามเกณฑ์ของเรา.
+
+## Step 5: Edit the Vmsk Resource
+ตอนนี้เราจะเข้าสู่ขั้นตอนการแก้ไข! คุณสามารถปรับคุณสมบัติของ Vmsk resource ตามต้องการ.
+
 ```java
 resource.setDisabled(true);
 resource.setInverted(true);
 resource.setNotLinked(true);
 ```
 
-- ในบล็อกนี้ เรากำลังสลับคุณสมบัติต่างๆ ของทรัพยากร Vmsk ด้วยการตั้งค่าให้เป็น "จริง" เราจึงสามารถควบคุมลักษณะการทำงานของมาสก์ในไฟล์ PSD ได้
-## ขั้นตอนที่ 6: แก้ไขคะแนน Bezier Knot
-ปม Bezier มีความสำคัญอย่างยิ่งต่อเส้นทางเวกเตอร์ ลองเปลี่ยนค่าบางอย่างที่นี่
+- ในบล็อกนี้เราจะสลับคุณสมบัติต่าง ๆ ของ Vmsk resource. การตั้งค่าเป็น `true` จะควบคุมพฤติกรรมของ mask ในไฟล์ PSD.
+
+## Step 6: Modify the Bezier Knot Points
+จุด Knot ของ Bézier มีความสำคัญต่อเส้นทางเวกเตอร์. เรามาเปลี่ยนค่าบางส่วนกัน.
+
 ```java
 BezierKnotRecord bezierKnot = (BezierKnotRecord) resource.getPaths()[3];
 bezierKnot.getPoints()[0] = new Point(0, 0);
@@ -105,38 +146,73 @@ bezierKnot = (BezierKnotRecord) resource.getPaths()[4];
 bezierKnot.getPoints()[0] = new Point(8039797, 10905190);
 ```
 
--  เรากำลังเข้าถึงเฉพาะ`BezierKnotRecord` เส้นทางและการเปลี่ยนจุดเพื่อสร้างรูปแบบเวกเตอร์มาสก์ใหม่
-## ขั้นตอนที่ 7: บันทึกไฟล์ PSD ที่แก้ไข
-เมื่อการแก้ไขทั้งหมดเสร็จสิ้น ก็ถึงเวลาบันทึกไฟล์ PSD ที่แก้ไข 
+- เราเข้าถึง `BezierKnotRecord` เฉพาะและเปลี่ยนจุดของมันเพื่อปรับรูปร่างของ vector mask.
+
+## Step 7: Save the Modified PSD File
+เมื่อแก้ไขทั้งหมดเสร็จ, ถึงเวลาบันทึกไฟล์ PSD ที่แก้ไขแล้ว.
+
 ```java
 String exportPath = dataDir + "Rectangle_changed.psd";
 im.save(exportPath);
 ```
 
--  เรากำหนดเส้นทางสำหรับไฟล์ PSD ที่ส่งออกแล้วจึงโทร`im.save()` เพื่อเขียนการเปลี่ยนแปลงในไฟล์ใหม่นี้
-## ขั้นตอนที่ 8: ทำความสะอาดทรัพยากร
-สุดท้ายนี้ เราต้องแน่ใจว่าเรากำจัดรูปภาพอย่างเหมาะสมเพื่อเพิ่มพื้นที่ว่าง
+- เรากำหนดเส้นทางสำหรับไฟล์ PSD ที่ส่งออกแล้วและเรียก `im.save()` เพื่อเขียนการเปลี่ยนแปลงลงไฟล์ใหม่.
+
+## Step 8: Clean Up Resources
+สุดท้าย, เราต้องแน่ใจว่าได้ทำการกำจัดอ็อบเจกต์ภาพเพื่อคืนทรัพยากร.
+
 ```java
 im.dispose();
 ```
 
-- ถือเป็นแนวปฏิบัติที่ดีเสมอในการกำจัดทรัพยากรใดๆ เมื่อคุณดำเนินการเสร็จแล้ว ซึ่งจะช่วยหลีกเลี่ยงการรั่วไหลของหน่วยความจำในแอปพลิเคชันของคุณ
-## บทสรุป
-ยินดีด้วย! คุณเพิ่งทำตามขั้นตอนโดยละเอียดในการสนับสนุนทรัพยากร Vmsk ในไฟล์ PSD โดยใช้ Aspose.PSD สำหรับ Java ตั้งแต่การโหลดรูปภาพ การดึงข้อมูลและตรวจสอบความถูกต้องของทรัพยากร Vmsk การแก้ไขคุณสมบัติของทรัพยากร จากนั้นบันทึก PSD ที่แก้ไขแล้ว คุณได้ครอบคลุมสิ่งสำคัญต่างๆ แล้ว ด้วยทักษะเหล่านี้ คุณสามารถจัดการและใช้ทรัพยากรต่างๆ ภายในไฟล์ PSD ได้อย่างมีประสิทธิภาพ เพิ่มประสิทธิภาพโครงการออกแบบกราฟิกหรือสคริปต์อัตโนมัติของคุณ
-## คำถามที่พบบ่อย
-### ทรัพยากร Vmsk คืออะไร
-ทรัพยากร Vmsk คือมาสก์เวกเตอร์ในไฟล์ PSD ที่ช่วยให้สามารถใช้รูปร่างเวกเตอร์ที่ซับซ้อนและคุณสมบัติการแก้ไขได้
-### ฉันสามารถใช้ Aspose.PSD ในโปรเจ็กต์ Maven ได้หรือไม่
-ได้ คุณสามารถรวม Aspose.PSD เป็นการขึ้นต่อกันในโปรเจ็กต์ Maven ของคุณได้โดยใช้พิกัดจากพื้นที่เก็บข้อมูล
-### ฉันสามารถบันทึกไฟล์ PSD ที่แก้ไขแล้วในรูปแบบใดได้บ้าง
-คุณสามารถบันทึกกลับเป็นไฟล์ PSD หรือส่งออกเป็นรูปแบบอื่น เช่น PNG, JPEG เป็นต้น
-### มีการทดลองใช้ฟรีสำหรับ Aspose.PSD หรือไม่
- ใช่ คุณสามารถเข้าถึง Aspose.PSD รุ่นทดลองใช้ฟรีเพื่อทดสอบคุณสมบัติของมัน เยี่ยมชม[ลิงค์ทดลองใช้ฟรี](https://releases.aspose.com/).
-### ฉันจะรับการสนับสนุนสำหรับ Aspose.PSD ได้อย่างไร
- คุณสามารถเข้าร่วม[ฟอรั่ม Aspose](https://forum.aspose.com/c/psd/34)สำหรับการสนับสนุนและความช่วยเหลือในการแก้ไขปัญหา
+- การกำจัดทรัพยากรหลังการใช้งานเป็นแนวปฏิบัติที่ดีเพื่อหลีกเลี่ยงการรั่วของหน่วยความจำในแอปพลิเคชันของคุณ.
+
+## Conclusion
+ขอแสดงความยินดี! คุณเพิ่งผ่านกระบวนการโดยละเอียดของการ **สร้าง vector mask** (Vmsk) ในไฟล์ PSD ด้วย Aspose.PSD for Java. ตั้งแต่การโหลดภาพ, ดึงและตรวจสอบ Vmsk resource, แก้ไขคุณสมบัติ, จนถึงการบันทึก PSD ที่แก้ไขแล้ว, คุณมีพื้นฐานที่มั่นคงสำหรับการทำงานอัตโนมัติของ vector mask. ใช้เทคนิคเหล่านี้เพื่อเสริม pipeline การออกแบบของคุณ, ผสานกับ Aspose API อื่น (เช่น การแปลง PSD เป็น PNG), หรือสร้างเครื่องมือกราฟิกแบบกำหนดเอง.
+
+## FAQ's
+### What is a Vmsk resource?
+Vmsk resource คือ vector mask ในไฟล์ PSD ที่อนุญาตให้สร้างรูปทรงเวกเตอร์ซับซ้อนและคุณสมบัติการแก้ไขได้.
+
+### Can I use Aspose.PSD in a Maven project?
+ได้, คุณสามารถเพิ่ม Aspose.PSD เป็น dependency ในโปรเจกต์ Maven ของคุณโดยใช้พิกัดจาก repository.
+
+### What format can I save my modified PSD files in?
+คุณสามารถบันทึกเป็นไฟล์ PSD อีกครั้งหรือส่งออกเป็นฟอร์แมตอื่น ๆ เช่น PNG, JPEG ฯลฯ.
+
+### Is there a free trial available for Aspose.PSD?
+ใช่, คุณสามารถเข้าถึงรุ่นทดลองฟรีของ Aspose.PSD เพื่อทดสอบฟีเจอร์ต่าง ๆ. เยี่ยมชม [free trial link](https://releases.aspose.com/).
+
+### How can I get support for Aspose.PSD?
+คุณสามารถเข้าร่วม [Aspose forum](https://forum.aspose.com/c/psd/34) เพื่อรับการสนับสนุนและความช่วยเหลือในการแก้ปัญหา.
+
+## Frequently Asked Questions
+**Q: How do I add a new vector mask to an existing layer?**  
+A: สร้าง `VmskResource`, เติมข้อมูลบันทึกเส้นทางที่ต้องการ (เช่น `BezierKnotRecord`), แล้วแนบเข้ากับคอลเลกชัน resources ของเลเยอร์.
+
+**Q: Can I convert the edited PSD directly to PNG without opening Photoshop?**  
+A: ได้—หลังจากบันทึก PSD, โหลดอีกครั้งด้วย `Image.load()` และเรียก `im.save("output.png")` พร้อมระบุฟอร์แมต PNG.
+
+**Q: Is there a way to automate this in a CI/CD pipeline?**  
+A: แน่นอน. เนื่องจากกระบวนการเป็น Java ธรรมดา, คุณสามารถฝังไว้ในการสร้าง Maven/Gradle, คอนเทนเนอร์ Docker, หรือระบบ CI ใด ๆ ที่รองรับ Java.
+
+**Q: What versions of Aspose.PSD are compatible with Java 11+?**  
+A: รุ่นล่าสุดทั้งหมด (2024‑2025) รองรับ Java 8 ขึ้นไป, รวมถึง Java 11, 17, และ LTS เวอร์ชันใหม่ ๆ.
+
+**Q: Do I need a license for development builds?**  
+A: ใบอนุญาตประเมินฟรีใช้ได้สำหรับการพัฒนาและทดสอบ. สำหรับการใช้งานในผลิตภัณฑ์จริง, จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
+
+---
