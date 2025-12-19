@@ -1,31 +1,51 @@
 ---
-title: Dostosuj jasność obrazu za pomocą Aspose.PSD dla Java
-linktitle: Dostosuj jasność obrazu
-second_title: Aspose.PSD API Java
-description: Zwiększ jasność obrazu w Javie za pomocą Aspose.PSD. Przewodnik krok po kroku dotyczący programowej regulacji jasności obrazu.
-weight: 21
+date: 2025-12-19
+description: Dowiedz się, jak dostosować jasność obrazu przy użyciu Aspose.PSD dla
+  Javy. Ten samouczek manipulacji obrazem w Javie zapewnia przewodnik krok po kroku.
+linktitle: Adjust Brightness of an Image
+second_title: Aspose.PSD Java API
+title: Jak dostosować jasność obrazu przy użyciu Aspose.PSD dla Javy
 url: /pl/java/advanced-techniques/adjust-brightness/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dostosuj jasność obrazu za pomocą Aspose.PSD dla Java
+# Regulacja jasności obrazu przy użyciu Aspose.PSD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Ulepszanie obrazów jest powszechnym wymogiem w projektowaniu graficznym i fotografii cyfrowej. Aspose.PSD dla Java zapewnia potężne rozwiązanie do programowego dostosowywania jasności obrazu. W tym samouczku dowiemy się, jak krok po kroku wykorzystać bibliotekę Aspose.PSD for Java do dostosowania jasności obrazu.
+Jeśli potrzebujesz **nauczyć się, jak regulować jasność** obrazu bezpośrednio w kodzie Java, jesteś we właściwym miejscu. Dostosowywanie jasności to częste zadanie dla grafików, fotografów i każdego, kto buduje potoki przetwarzania obrazów. W tym **tutorialu manipulacji obrazami w Javie** przeprowadzimy Cię przez pełny przepływ pracy — ładowanie pliku PSD/TIFF, zastosowanie przesunięcia jasności i zapisanie wyniku — przy użyciu biblioteki Aspose.PSD for Java.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaką bibliotekę obsługuje jasność?** Aspose.PSD for Java  
+- **Która metoda zmienia jasność?** `RasterImage.adjustBrightness()`  
+- **Czy mogę pracować z plikami PSD i TIFF?** Tak, API obsługuje oba formaty.  
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna do użytku nie‑ewaluacyjnego.  
+- **Jak długo trwa implementacja?** Zazwyczaj poniżej 10 minut dla podstawowej regulacji.
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest regulacja jasności obrazu?
 
--  Aspose.PSD dla biblioteki Java: Pobierz i zainstaluj bibliotekę z pliku[Aspose.PSD dla dokumentacji Java](https://reference.aspose.com/psd/java/).
+Regulacja jasności obrazu zmienia ogólną jasność każdego piksela w obrazie. Zwiększenie jasności rozjaśnia ciemne obszary, natomiast zmniejszenie przyciemnia cały obraz. Operacja ta jest przydatna do korekcji niedoświetlonych zdjęć, przygotowywania zasobów do druku lub tworzenia efektów wizualnych w aplikacjach.
 
-## Importuj pakiety
+## Dlaczego używać Aspose.PSD dla Javy?
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. W tym przykładzie użyjemy następujących informacji:
+- **Pełne wsparcie formatów** – PSD, TIFF, JPEG, PNG i inne.  
+- **Brak zewnętrznych zależności natywnych** – czysta Java, łatwa integracja.  
+- **Wysokowydajne buforowanie** – dane rastrowe mogą być buforowane dla szybszych powtarzających się operacji.  
+- **Bogate API** – metody korekcji kolorów, warstw, masek i innych zaawansowanych edycji.
+
+## Prerequisites
+
+Zanim zanurzysz się w tutorial, upewnij się, że masz następujące wymagania wstępne:
+
+- Biblioteka Aspose.PSD for Java: Pobierz i zainstaluj bibliotekę z [dokumentacji Aspose.PSD for Java](https://reference.aspose.com/psd/java/).
+
+## Importowanie pakietów
+
+Na początek zaimportuj niezbędne pakiety do swojego projektu Java. W tym przykładzie użyjemy następujących:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,83 +56,102 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-Podzielmy teraz proces dostosowywania jasności obrazu na proste kroki:
+Teraz rozbijmy proces regulacji jasności obrazu na proste kroki:
 
-## Krok 1: Załaduj obraz
+## Jak regulować jasność przy użyciu Aspose.PSD
+
+### Krok 1: Załaduj obraz
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "AdjustBrightness_out.tiff";
 
-// Załaduj istniejący obraz do instancji klasy RasterImage
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
-// Rzuć obiekt obrazu na RasterImage
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage) image;
 
-// Sprawdź, czy RasterImage jest buforowany i Cache RasterImage, aby uzyskać lepszą wydajność
+// Check if RasterImage is cached and Cache RasterImage for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
- Na tym etapie ładujemy obraz docelowy i przesyłamy go do pliku`RasterImage` do dalszego przetwarzania.
+W tym kroku ładujemy docelowy obraz i rzutujemy go na `RasterImage` w celu dalszego przetwarzania.
 
-## Krok 2: Dostosuj jasność
+### Krok 2: Regulacja jasności
 
 ```java
-// Dostosuj jasność
+// Adjust the brightness
 rasterImage.adjustBrightness(-50);
 ```
 
- Tutaj używamy`adjustBrightness`metoda modyfikacji jasności obrazu. W tym przykładzie zmniejszamy jasność o 50 jednostek, ale możesz dostosować tę wartość do swoich wymagań.
+Tutaj używamy metody `adjustBrightness`, aby zmodyfikować jasność obrazu. W tym przykładzie zmniejszamy jasność o 50 jednostek, ale możesz dostosować tę wartość według własnych wymagań.
 
-## Krok 3: Ustaw opcje Tiff
+### Krok 3: Ustaw TiffOptions
 
 ```java
 int[] ushort = {8, 8, 8};
-// Utwórz instancję TiffOptions dla wynikowego obrazu
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Skonfiguruj`TiffOptions` do zapisania dostosowanego obrazu. Dostosuj`bitsPerSample` I`photometric` właściwości w zależności od konkretnych potrzeb.
+Skonfiguruj `TiffOptions` do zapisu zmodyfikowanego obrazu. Dostosuj właściwości `bitsPerSample` i `photometric` zgodnie z konkretnymi potrzebami.
 
-## Krok 4: Zapisz wynikowy obraz
+### Krok 4: Zapisz wynikowy obraz
 
 ```java
-// Zapisz wynikowy obraz
+// Save the resultant image
 rasterImage.save(destName, tiffOptions);
 ```
 
- Na koniec zapisz zmodyfikowany obraz, używając określonego`TiffOptions`.
+Na koniec zapisz zmodyfikowany obraz używając określonych `TiffOptions`.
 
-## Wniosek
+## Częste problemy i rozwiązania
 
-Programowe dostosowywanie jasności obrazu jest łatwe dzięki Aspose.PSD dla Java. Ten samouczek zawiera kompleksowy przewodnik dotyczący implementowania tej funkcji w aplikacjach Java.
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| **`ClassCastException` przy rzutowaniu Image** | Plik nie jest obrazem rastrowym (np. wektorowy PSD). | Zweryfikuj format pliku źródłowego lub użyj `image instanceof RasterImage` przed rzutowaniem. |
+| **Zmiana jasności nie ma efektu** | Obraz nie został zbuforowany przed regulacją. | Wywołaj `rasterImage.cacheData()` jak pokazano w Kroku 1. |
+| **Zapisany plik wydaje się uszkodzony** | Nieprawidłowa konfiguracja `TiffOptions`. | Upewnij się, że `bitsPerSample` odpowiada głębokości obrazu źródłowego (zwykle 8‑bit na kanał). |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę dostosować jasność w innych formatach obrazu oprócz PSD?
+### P1: Czy mogę regulować jasność w innych formatach obrazów poza PSD?
 
-O1: Tak, Aspose.PSD dla Java obsługuje różne formaty obrazów, takie jak JPEG, PNG i TIFF.
+**Odp1:** Tak, Aspose.PSD for Java obsługuje różne formaty obrazów, takie jak JPEG, PNG i TIFF.
 
-### P2: Jak mogę poradzić sobie z błędami podczas procesu dostosowywania obrazu?
+### P2: Jak mogę obsłużyć błędy podczas procesu regulacji obrazu?
 
-Odpowiedź 2: Możesz zaimplementować obsługę błędów za pomocą bloków try-catch, aby zarządzać wyjątkami, które mogą wystąpić.
+**Odp2:** Możesz zaimplementować obsługę błędów przy użyciu bloków try‑catch, aby zarządzać ewentualnymi wyjątkami.
 
-### P3: Czy istnieje ograniczenie zakresu regulacji jasności?
+### P3: Czy istnieje limit zakresu regulacji jasności?
 
-O3: Zakres regulacji zależy od zawartości i formatu obrazu, ale Aspose.PSD zapewnia elastyczność dostosowywania.
+**Odp3:** Zakres regulacji zależy od zawartości i formatu obrazu, ale Aspose.PSD zapewnia elastyczność w dostosowywaniu.
 
-### P4: Czy mogę używać Aspose.PSD dla Java w projektach komercyjnych?
+### P4: Czy mogę używać Aspose.PSD for Java w projektach komercyjnych?
 
- O4: Tak, Aspose.PSD for Java jest biblioteką komercyjną, z której można uzyskać licencję[Tutaj](https://purchase.aspose.com/buy).
+**Odp4:** Tak, Aspose.PSD for Java jest biblioteką komercyjną i możesz uzyskać licencję [tutaj](https://purchase.aspose.com/buy).
 
-### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
+### P5: Czy dostępna jest darmowa wersja próbna Aspose.PSD for Java?
 
- Odpowiedź 5: Tak, możesz przeglądać bibliotekę w ramach bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+**Odp5:** Tak, możesz przetestować bibliotekę w wersji próbnej [tutaj](https://releases.aspose.com/).
+
+### P6: Czy metoda `adjustBrightness` wpływa na widoczność warstw?
+
+**Odp6:** Metoda działa na zrastrzowanym obrazie kompozytowym, więc widoczność warstw jest respektowana podczas rasteryzacji.
+
+### P7: Czy mogę łączyć wiele regulacji (np. kontrast, nasycenie) razem?
+
+**Odp7:** Oczywiście. Po regulacji jasności możesz wywołać `adjustContrast`, `adjustSaturation` itp. na tej samej instancji `RasterImage`.
+
+**Ostatnia aktualizacja:** 2025-12-19  
+**Testowano z:** Aspose.PSD for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

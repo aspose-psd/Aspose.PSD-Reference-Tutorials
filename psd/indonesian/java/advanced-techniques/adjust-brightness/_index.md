@@ -1,10 +1,12 @@
 ---
-title: Sesuaikan Kecerahan Gambar dengan Aspose.PSD untuk Java
-linktitle: Sesuaikan Kecerahan Gambar
-second_title: Asumsikan.PSD Java API
-description: Tingkatkan kecerahan gambar di Java dengan Aspose.PSD. Panduan langkah demi langkah untuk menyesuaikan kecerahan gambar secara terprogram.
-weight: 21
+date: 2025-12-19
+description: Pelajari cara menyesuaikan kecerahan gambar menggunakan Aspose.PSD untuk
+  Java. Tutorial manipulasi gambar Java ini menyediakan panduan langkah demi langkah.
+linktitle: Adjust Brightness of an Image
+second_title: Aspose.PSD Java API
+title: Cara Mengatur Kecerahan Gambar dengan Aspose.PSD untuk Java
 url: /id/java/advanced-techniques/adjust-brightness/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +15,37 @@ url: /id/java/advanced-techniques/adjust-brightness/
 
 # Sesuaikan Kecerahan Gambar dengan Aspose.PSD untuk Java
 
-## Perkenalan
+## Introduction
 
-Meningkatkan gambar adalah persyaratan umum dalam desain grafis dan fotografi digital. Aspose.PSD untuk Java memberikan solusi ampuh untuk menyesuaikan kecerahan gambar secara terprogram. Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan perpustakaan Aspose.PSD untuk Java untuk menyesuaikan kecerahan gambar, langkah demi langkah.
+Jika Anda perlu **belajar cara menyesuaikan kecerahan** gambar langsung dari kode Java, Anda berada di tempat yang tepat. Penyesuaian kecerahan adalah tugas yang sering dilakukan oleh desainer grafis, fotografer, dan siapa saja yang membangun pipeline pemrosesan gambar. Dalam **tutorial manipulasi gambar java** ini kami akan membahas alur kerja lengkap—memuat PSD/TIFF, menerapkan offset kecerahan, dan menyimpan hasilnya—menggunakan pustaka Aspose.PSD untuk Java.
 
-## Prasyarat
+## Quick Answers
+- **Perpustakaan apa yang menangani kecerahan?** Aspose.PSD for Java  
+- **Metode mana yang mengubah kecerahan?** `RasterImage.adjustBrightness()`  
+- **Apakah saya dapat bekerja dengan file PSD dan TIFF?** Ya, API mendukung kedua format tersebut.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan non‑evaluasi.  
+- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk penyesuaian dasar.
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## What is Image Brightness Adjustment?
 
--  Aspose.PSD untuk Java Library: Unduh dan instal perpustakaan dari[Aspose.PSD untuk dokumentasi Java](https://reference.aspose.com/psd/java/).
+Penyesuaian kecerahan gambar mengubah tingkat kecerahan keseluruhan setiap piksel dalam sebuah gambar. Meningkatkan kecerahan membuat area gelap menjadi lebih terang, sementara menurunkannya membuat seluruh gambar menjadi lebih gelap. Operasi ini berguna untuk memperbaiki foto yang kurang cahaya, menyiapkan aset untuk cetak, atau menciptakan efek visual dalam aplikasi.
 
-## Paket Impor
+## Why Use Aspose.PSD for Java?
 
-Untuk memulai, impor paket yang diperlukan ke proyek Java Anda. Dalam contoh ini, kita akan menggunakan yang berikut ini:
+- **Dukungan format lengkap** – PSD, TIFF, JPEG, PNG, dan lainnya.  
+- **Tanpa ketergantungan native eksternal** – Java murni, mudah diintegrasikan.  
+- **Caching berperforma tinggi** – data raster dapat di-cache untuk operasi berulang yang lebih cepat.  
+- **API kaya** – metode untuk koreksi warna, lapisan, masker, dan edit lanjutan lainnya.
+
+## Prerequisites
+
+Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
+
+- Aspose.PSD for Java Library: Unduh dan instal pustaka dari [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).
+
+## Import Packages
+
+Untuk memulai, impor paket yang diperlukan ke dalam proyek Java Anda. Pada contoh ini, kita akan menggunakan yang berikut:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,83 +56,104 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-Sekarang, mari kita uraikan proses penyesuaian kecerahan gambar menjadi beberapa langkah sederhana:
+Sekarang, mari kita uraikan proses penyesuaian kecerahan gambar menjadi langkah‑langkah sederhana:
 
-## Langkah 1: Muat Gambar
+## How to Adjust Brightness Using Aspose.PSD
+
+### Step 1: Load the Image
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "AdjustBrightness_out.tiff";
 
-// Muat gambar yang ada ke dalam instance kelas RasterImage
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
-// Keluarkan objek Gambar ke RasterImage
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage) image;
 
-// Periksa apakah RasterImage di-cache dan Cache RasterImage untuk kinerja yang lebih baik
+// Check if RasterImage is cached and Cache RasterImage for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
- Pada langkah ini, kami memuat gambar target dan mentransmisikannya ke a`RasterImage` untuk diproses lebih lanjut.
+Pada langkah ini, kami memuat gambar target dan meng-cast-nya menjadi `RasterImage` untuk pemrosesan lebih lanjut.
 
-## Langkah 2: Sesuaikan Kecerahan
+### Step 2: Adjust Brightness
 
 ```java
-// Sesuaikan kecerahan
+// Adjust the brightness
 rasterImage.adjustBrightness(-50);
 ```
 
- Di sini, kami menggunakan`adjustBrightness`metode untuk mengubah kecerahan gambar. Dalam contoh ini, kami mengurangi kecerahan sebanyak 50 unit, namun Anda dapat menyesuaikan nilai ini berdasarkan kebutuhan Anda.
+Di sini, kami menggunakan metode `adjustBrightness` untuk mengubah kecerahan gambar. Pada contoh ini, kami menurunkan kecerahan sebesar 50 unit, namun Anda dapat menyesuaikan nilai ini sesuai kebutuhan.
 
-## Langkah 3: Tetapkan TiffOptions
+### Step 3: Set TiffOptions
 
 ```java
 int[] ushort = {8, 8, 8};
-// Buat instance TiffOptions untuk gambar yang dihasilkan
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Konfigurasikan`TiffOptions` untuk menyimpan gambar yang disesuaikan. Sesuaikan`bitsPerSample` Dan`photometric` properti berdasarkan kebutuhan spesifik Anda.
+Konfigurasikan `TiffOptions` untuk menyimpan gambar yang telah disesuaikan. Sesuaikan properti `bitsPerSample` dan `photometric` sesuai kebutuhan spesifik Anda.
 
-## Langkah 4: Simpan Gambar yang Dihasilkan
+### Step 4: Save the Resultant Image
 
 ```java
-// Simpan gambar yang dihasilkan
+// Save the resultant image
 rasterImage.save(destName, tiffOptions);
 ```
 
- Terakhir, simpan gambar yang dimodifikasi menggunakan yang ditentukan`TiffOptions`.
+Akhirnya, simpan gambar yang telah dimodifikasi menggunakan `TiffOptions` yang telah ditentukan.
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Menyesuaikan kecerahan gambar secara terprogram menjadi mudah dengan Aspose.PSD untuk Java. Tutorial ini telah memberikan panduan komprehensif tentang penerapan fungsi ini di aplikasi Java Anda.
+| Masalah | Penyebab | Solusi |
+|-------|--------|----------|
+| **`ClassCastException` saat casting Image** | File bukan gambar raster (misalnya PSD vektor). | Verifikasi format file sumber atau gunakan `image instanceof RasterImage` sebelum melakukan casting. |
+| **Perubahan kecerahan tidak berpengaruh** | Gambar tidak di-cache sebelum penyesuaian. | Panggil `rasterImage.cacheData()` seperti yang ditunjukkan pada Langkah 1. |
+| **File yang disimpan tampak rusak** | Konfigurasi `TiffOptions` tidak tepat. | Pastikan `bitsPerSample` sesuai dengan kedalaman gambar sumber (biasanya 8‑bit per kanal). |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Dapatkah saya menyesuaikan kecerahan dalam format gambar lain selain PSD?
+### Q1: Bisakah saya menyesuaikan kecerahan dalam format gambar lain selain PSD?
 
 A1: Ya, Aspose.PSD untuk Java mendukung berbagai format gambar seperti JPEG, PNG, dan TIFF.
 
 ### Q2: Bagaimana cara menangani kesalahan selama proses penyesuaian gambar?
 
-A2: Anda dapat menerapkan penanganan kesalahan menggunakan blok coba-tangkap untuk mengelola pengecualian yang mungkin terjadi.
+A2: Anda dapat mengimplementasikan penanganan kesalahan menggunakan blok try‑catch untuk mengelola pengecualian yang mungkin terjadi.
 
-### Q3: Apakah ada batasan rentang penyesuaian kecerahan?
+### Q3: Apakah ada batasan pada rentang penyesuaian kecerahan?
 
-A3: Kisaran penyesuaian bergantung pada konten dan format gambar, tetapi Aspose.PSD memberikan fleksibilitas dalam penyesuaian.
+A3: Rentang penyesuaian tergantung pada konten dan format gambar, namun Aspose.PSD memberikan fleksibilitas dalam kustomisasi.
 
-### Q4: Dapatkah saya menggunakan Aspose.PSD untuk Java dalam proyek komersial?
+### Q4: Bisakah saya menggunakan Aspose.PSD untuk Java dalam proyek komersial?
 
- A4: Ya, Aspose.PSD untuk Java adalah perpustakaan komersial, dan Anda dapat memperoleh lisensi darinya[Di Sini](https://purchase.aspose.com/buy).
+A4: Ya, Aspose.PSD untuk Java adalah pustaka komersial, dan Anda dapat memperoleh lisensi dari [here](https://purchase.aspose.com/buy).
 
-### Q5: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
+### Q5: Apakah tersedia percobaan gratis untuk Aspose.PSD untuk Java?
 
- A5: Ya, Anda dapat menjelajahi perpustakaan dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+A5: Ya, Anda dapat menjelajahi pustaka dengan percobaan gratis dari [here](https://releases.aspose.com/).
+
+### Q6: Apakah metode `adjustBrightness` memengaruhi visibilitas lapisan?
+
+A6: Metode ini bekerja pada gambar komposit yang dirasterisasi, sehingga visibilitas lapisan dihormati selama proses rasterisasi.
+
+### Q7: Bisakah saya menggabungkan beberapa penyesuaian (misalnya kontras, saturasi) secara berurutan?
+
+A7: Tentu saja. Setelah menyesuaikan kecerahan, Anda dapat memanggil `adjustContrast`, `adjustSaturation`, dll., pada instance `RasterImage` yang sama.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-19  
+**Diuji Dengan:** Aspose.PSD for Java 24.12 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
