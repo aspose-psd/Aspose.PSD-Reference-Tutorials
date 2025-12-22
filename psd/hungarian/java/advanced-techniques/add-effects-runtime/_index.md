@@ -5,7 +5,7 @@ description: Fedezze fel a Java képmódosítást az Aspose.PSD for Java segíts
   lépésre bemutatja, hogyan lehet hatásokat hozzáadni a képekhez.
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: 'Java képfeldolgozás: Hatások hozzáadása futásidőben az Aspose.PSD for Java
+title: 'Java képfeldolgozás - Hatások hozzáadása futásidőben az Aspose.PSD for Java
   segítségével'
 url: /hu/java/advanced-techniques/add-effects-runtime/
 weight: 20

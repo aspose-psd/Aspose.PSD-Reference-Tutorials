@@ -136,13 +136,6 @@ Aprenda a ajustar a gama da imagem sem esforço usando Aspose.PSD for Java. Siga
 ### [Desfocar uma Imagem usando Aspose.PSD for Java](./blur-image/)
 Aprenda a desfocar imagens em Java com Aspose.PSD. Siga nosso guia passo a passo para resultados profissionais.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso usar o tutorial de grayscale image Java em um projeto comercial?**  
@@ -165,3 +158,10 @@ A: Visite a página de download do site oficial da Aspose ou use o Maven Central
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

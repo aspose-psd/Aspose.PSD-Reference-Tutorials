@@ -118,12 +118,6 @@ Zgłęb świat regulacji kontrastu obrazu w Javie z Aspose.PSD. Postępuj zgodni
 Naucz się łatwo regulować gamma obrazu przy użyciu Aspose.PSD for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać optymalne rezultaty.
 ### [Blur an Image using Aspose.PSD for Java](./blur-image/)
 Naucz się rozmywać obrazy w Javie przy użyciu Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać profesjonalne wyniki.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Najczęściej zadawane pytania
 
@@ -147,3 +141,10 @@ A: Odwiedź oficjalną stronę pobierania Aspose lub użyj Maven Central, aby po
 **Ostatnia aktualizacja:** 2025-12-19  
 **Testowano z:** Aspose.PSD for Java 24.12 (najświeższa w momencie pisania)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

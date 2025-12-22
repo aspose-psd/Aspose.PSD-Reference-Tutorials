@@ -118,12 +118,6 @@ Explore the world of image contrast adjustment in Java with Aspose.PSD. Follow o
 Learn to adjust image gamma effortlessly using Aspose.PSD for Java. Follow our step‑by‑step guide for optimal results.
 ### [Θόλωση εικόνας χρησιμοποιώντας Aspose.PSD for Java](./blur-image/)
 Learn to blur images in Java with Aspose.PSD. Follow our step‑by‑step guide for professional results.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Συχνές Ερωτήσεις
 
@@ -147,3 +141,10 @@ A: Επισκεφθείτε τη σελίδα λήψης του επίσημου
 **Τελευταία ενημέρωση:** 2025-12-19  
 **Δοκιμάστηκε με:** Aspose.PSD for Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

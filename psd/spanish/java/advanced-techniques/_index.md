@@ -118,12 +118,6 @@ Explora el mundo del ajuste de contraste de imágenes en Java con Aspose.PSD. Si
 Aprende a ajustar gamma de la imagen sin esfuerzo usando Aspose.PSD para Java. Sigue nuestra guía paso a paso para resultados óptimos.
 ### [Desenfocar una Imagen usando Aspose.PSD para Java](./blur-image/)
 Aprende a desenfocar imágenes en Java con Aspose.PSD. Sigue nuestra guía paso a paso para resultados profesionales.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Preguntas frecuentes
 
@@ -147,3 +141,10 @@ A: Visita la página de descargas oficial de Aspose o usa Maven Central para obt
 **Última actualización:** 2025-12-19  
 **Probado con:** Aspose.PSD para Java 24.12 (última al momento de escribir)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

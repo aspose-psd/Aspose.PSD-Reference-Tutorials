@@ -117,12 +117,6 @@ Aspose.PSD와 함께 Java에서 이미지 대비를 조정하는 세계를 탐�
 Aspose.PSD for Java를 사용해 이미지 감마를 손쉽게 조정하는 방법을 배우세요. 최적의 결과를 위한 단계별 가이드입니다.
 ### [Blur an Image using Aspose.PSD for Java](./blur-image/)
 Aspose.PSD와 함께 Java에서 이미지를 블러 처리하는 방법을 배우세요. 전문가 수준의 결과를 위한 단계별 가이드입니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -146,3 +140,10 @@ A: Visit the official Aspose website’s download page or use Maven Central to p
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

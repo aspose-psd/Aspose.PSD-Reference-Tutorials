@@ -3,7 +3,7 @@ date: 2025-12-19
 description: 探索 Aspose.PSD for Java 的 Java 图像处理，并学习如何在运行时添加效果。本教程将一步步演示如何为图像添加效果。
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: Java 图像处理：使用 Aspose.PSD for Java 在运行时添加效果
+title: Java 图像处理 - 使用 Aspose.PSD for Java 在运行时添加效果
 url: /zh/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---

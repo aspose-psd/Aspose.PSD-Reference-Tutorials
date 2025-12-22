@@ -118,12 +118,6 @@ Aspose.PSD के साथ जावा में इमेज कॉन्ट�
 Aspose.PSD for Java का उपयोग करके इमेज गैमा को आसानी से समायोजित करना सीखें। इष्टतम परिणाम के लिए हमारा चरण‑दर‑चरण गाइड फॉलो करें।
 ### [Blur an Image using Aspose.PSD for Java](./blur-image/)
 Aspose.PSD के साथ जावा में इमेज को ब्लर करना सीखें। पेशेवर परिणाम के लिए हमारा चरण‑दर‑चरण गाइड फॉलो करें।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -147,3 +141,10 @@ A: Visit the official Aspose website’s download page or use Maven Central to p
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

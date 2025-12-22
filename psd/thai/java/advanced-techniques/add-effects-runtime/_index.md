@@ -4,7 +4,7 @@ description: สำรวจการจัดการภาพด้วย Jav
   บทเรียนนี้จะแสดงขั้นตอนโดยละเอียดว่าต้องเพิ่มเอฟเฟกต์ให้กับภาพอย่างไร
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: 'การจัดการภาพด้วย Java: เพิ่มเอฟเฟกต์ในขณะทำงานด้วย Aspose.PSD สำหรับ Java'
+title: 'การจัดการภาพด้วย Java - เพิ่มเอฟเฟกต์ในขณะทำงานด้วย Aspose.PSD สำหรับ Java'
 url: /th/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---

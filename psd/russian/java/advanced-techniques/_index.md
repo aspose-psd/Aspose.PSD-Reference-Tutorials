@@ -118,12 +118,6 @@ Start your journey into the advanced techniques of Java image processing with As
 Научитесь легко регулировать гамму изображения с Aspose.PSD for Java. Следуйте нашему пошаговому руководству для оптимальных результатов.  
 ### [Blur an Image using Aspose.PSD for Java](./blur-image/)
 Узнайте, как размывать изображения в Java с Aspose.PSD. Следуйте нашему пошаговому руководству для профессионального результата.  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -147,3 +141,10 @@ A: Visit the official Aspose website’s download page or use Maven Central to p
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

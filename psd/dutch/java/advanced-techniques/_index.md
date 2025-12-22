@@ -118,12 +118,6 @@ Verken de wereld van contrastaanpassing in Java met Aspose.PSD. Volg onze stap�
 Leer gamma van een afbeelding moeiteloos aan te passen met Aspose.PSD for Java. Volg onze stap‑voor‑stap gids voor optimale resultaten.
 ### [Afbeelding Vervagen met Aspose.PSD for Java](./blur-image/)
 Leer afbeeldingen te vervagen in Java met Aspose.PSD. Volg onze stap‑voor‑stap gids voor professionele resultaten.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Veelgestelde Vragen
 
@@ -147,3 +141,10 @@ A: Bezoek de officiële Aspose‑website download‑pagina of gebruik Maven Cent
 **Laatst bijgewerkt:** 2025-12-19  
 **Getest met:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

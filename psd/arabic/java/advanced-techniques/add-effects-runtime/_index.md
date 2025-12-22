@@ -5,7 +5,7 @@ description: استكشف تعديل الصور في جافا باستخدام A
   إلى الصور.
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: 'معالجة الصور في جافا: إضافة تأثيرات في وقت التشغيل باستخدام Aspose.PSD لجافا'
+title: 'معالجة الصور في جافا - إضافة تأثيرات في وقت التشغيل باستخدام Aspose.PSD لجافا'
 url: /ar/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---

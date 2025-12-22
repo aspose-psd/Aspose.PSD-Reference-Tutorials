@@ -116,12 +116,6 @@ Grayscale Image Java 指在 Java 应用程序中将全彩位图转换为单色�
 学习如何使用 Aspose.PSD for Java 轻松调整图像伽马。按照我们的分步指南获得最佳效果。
 ### [使用 Aspose.PSD for Java 模糊图像](./blur-image/)
 学习在 Java 中使用 Aspose.PSD 对图像进行模糊处理。按照我们的分步指南实现专业效果。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 常见问题
 
@@ -145,3 +139,9 @@ Grayscale Image Java 指在 Java 应用程序中将全彩位图转换为单色�
 **最后更新：** 2025-12-19  
 **测试环境：** Aspose.PSD for Java 24.12（撰写时最新）  
 **作者：** Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

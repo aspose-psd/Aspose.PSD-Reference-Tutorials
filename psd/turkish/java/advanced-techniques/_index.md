@@ -118,12 +118,6 @@ Aspose.PSD ile Java’da görüntü kontrastı ayarlama dünyasını keşfedin. 
 Aspose.PSD for Java kullanarak görüntü gammasını zahmetsizce ayarlamayı öğrenin. Optimum sonuçlar için adım‑adım rehberimiz.
 ### [Aspose.PSD for Java ile Görüntüyü Bulanıklaştırma](./blur-image/)
 Aspose.PSD ile Java’da görüntüleri bulanıklaştırmayı öğrenin. Profesyonel sonuçlar için adım‑adım rehberimiz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Sıkça Sorulan Sorular
 
@@ -147,3 +141,10 @@ C: Resmi Aspose web sitesinin indirme sayfasını ziyaret edin veya Maven Centra
 **Son Güncelleme:** 2025-12-19  
 **Test Edilen Versiyon:** Aspose.PSD for Java 24.12 (yazım anındaki en son)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

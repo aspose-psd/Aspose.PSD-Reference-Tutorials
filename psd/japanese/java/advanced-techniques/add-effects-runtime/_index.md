@@ -3,7 +3,7 @@ date: 2025-12-19
 description: Aspose.PSD for Java を使用した Java の画像操作を探求し、実行時にエフェクトを追加する方法を学びましょう。このチュートリアルでは、画像にエフェクトを追加する手順をステップバイステップで示します。
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: Java画像操作：Aspose.PSD for Javaで実行時にエフェクトを追加
+title: Java画像操作 - Aspose.PSD for Javaで実行時にエフェクトを追加
 url: /ja/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---

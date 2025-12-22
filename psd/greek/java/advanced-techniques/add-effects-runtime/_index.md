@@ -5,7 +5,7 @@ description: Εξερευνήστε τη διαχείριση εικόνων Jav
   βήμα‑βήμα πώς να προσθέτετε εφέ σε εικόνες.
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: 'Διαχείριση εικόνας Java: Προσθήκη εφέ σε χρόνο εκτέλεσης με το Aspose.PSD
+title: 'Διαχείριση εικόνας Java - Προσθήκη εφέ σε χρόνο εκτέλεσης με το Aspose.PSD
   για Java'
 url: /el/java/advanced-techniques/add-effects-runtime/
 weight: 20

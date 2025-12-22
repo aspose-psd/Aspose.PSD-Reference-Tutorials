@@ -5,7 +5,7 @@ description: Khám phá việc xử lý ảnh Java với Aspose.PSD cho Java và
   ứng vào hình ảnh.
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: 'Xử lý ảnh Java: Thêm hiệu ứng tại thời gian chạy với Aspose.PSD cho Java'
+title: 'Xử lý ảnh Java - Thêm hiệu ứng tại thời gian chạy với Aspose.PSD cho Java'
 url: /vi/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---

@@ -118,12 +118,6 @@ Esplora il mondo della regolazione del contrasto dell'immagine in Java con Aspos
 Impara a regolare la gamma dell'immagine senza sforzo usando Aspose.PSD for Java. Segui la nostra guida passo‑passo per risultati ottimali.
 ### [Sfoca un'immagine usando Aspose.PSD for Java](./blur-image/)
 Impara a sfocare le immagini in Java con Aspose.PSD. Segui la nostra guida passo‑passo per risultati professionali.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Domande frequenti
 
@@ -147,3 +141,10 @@ A: Visita la pagina di download del sito ufficiale di Aspose o utilizza Maven Ce
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

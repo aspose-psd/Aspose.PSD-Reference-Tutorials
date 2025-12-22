@@ -121,12 +121,6 @@ Utforska världen av bildkontrastjustering i Java med Aspose.PSD. Följ vår ste
 Lär dig att enkelt justera bildens gamma med Aspose.PSD for Java. Följ vår steg‑för‑steg‑guide för optimala resultat.
 ### [Oskärpa en bild med Aspose.PSD for Java](./blur-image/)
 Lär dig att oskärpa bilder i Java med Aspose.PSD. Följ vår steg‑för‑steg‑guide för professionella resultat.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Vanliga frågor
 
@@ -150,3 +144,10 @@ A: Besök den officiella Aspose‑webbplatsens nedladdningssida eller använd Ma
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

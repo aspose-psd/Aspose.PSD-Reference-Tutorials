@@ -118,12 +118,6 @@ Prozkoumejte svět úpravy kontrastu obrázku v Java s Aspose.PSD. Postupujte po
 Naučte se snadno upravit gamma obrázku pomocí Aspose.PSD for Java. Postupujte podle našeho průvodce krok za krokem pro optimální výsledky.
 ### [Rozmazání obrázku pomocí Aspose.PSD for Java](./blur-image/)
 Naučte se rozmazávat obrázky v Java pomocí Aspose.PSD. Postupujte podle našeho průvodce krok za krokem pro profesionální výsledky.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Často kladené otázky
 
@@ -147,3 +141,10 @@ A: Navštivte oficiální stránku ke stažení na webu Aspose nebo použijte Ma
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

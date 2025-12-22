@@ -122,13 +122,6 @@ Apprenez à ajuster le gamma d'une image sans effort avec Aspose.PSD for Java. S
 ### [Flouter une image avec Aspose.PSD for Java](./blur-image/)
 Apprenez à flouter des images en Java avec Aspose.PSD. Suivez notre guide pas à pas pour des résultats professionnels.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q: Can I use the grayscale image Java tutorial in a commercial project?**  
@@ -151,3 +144,10 @@ A: Visit the official Aspose website’s download page or use Maven Central to p
 **Dernière mise à jour :** 2025-12-19  
 **Testé avec :** Aspose.PSD for Java 24.12 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

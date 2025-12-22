@@ -117,12 +117,6 @@ Java で Aspose.PSD を使用した画像コントラスト調整の世界を探
 Aspose.PSD for Java を使って画像のガンマを簡単に調整する方法を学びます。最適な結果を得るためのステップバイステップガイドです。  
 ### [Aspose.PSD for Java で画像をぼかす](./blur-image/)
 Aspose.PSD を使用して Java で画像をぼかす方法を学びます。プロフェッショナルな結果を得るためのステップバイステップガイドです。  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## よくある質問
 
@@ -146,3 +140,10 @@ A: 公式 Aspose Web サイトのダウンロードページまたは Maven Cent
 **最終更新日:** 2025-12-19  
 **テスト環境:** Aspose.PSD for Java 24.12（執筆時点での最新）  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

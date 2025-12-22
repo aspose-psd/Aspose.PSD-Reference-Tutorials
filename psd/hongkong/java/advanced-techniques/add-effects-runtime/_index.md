@@ -3,7 +3,7 @@ date: 2025-12-19
 description: 探索使用 Aspose.PSD for Java 進行 Java 圖像處理，學習如何在執行時加入特效。本教學將一步一步示範如何為圖像加入特效。
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: Java 圖像處理：使用 Aspose.PSD for Java 在執行時加入效果
+title: Java 圖像處理 - 使用 Aspose.PSD for Java 在執行時加入效果
 url: /zh-hant/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---

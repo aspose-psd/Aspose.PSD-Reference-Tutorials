@@ -5,7 +5,7 @@ description: Изучите работу с изображениями на Java
   как добавлять эффекты к изображениям.
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
-title: 'Манипуляция изображениями в Java: добавление эффектов во время выполнения
+title: 'Манипуляция изображениями в Java - добавление эффектов во время выполнения
   с Aspose.PSD для Java'
 url: /ru/java/advanced-techniques/add-effects-runtime/
 weight: 20

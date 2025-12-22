@@ -118,12 +118,6 @@ Grayscale image Java يشير إلى عملية تحويل صورة bitmap مل�
 تعلم ضبط جاما الصورة بسهولة باستخدام Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة للحصول على نتائج مثالية.
 ### [Blur an Image using Aspose.PSD for Java](./blur-image/)
 تعلم تمويه الصور في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة للحصول على نتائج احترافية.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -147,3 +141,10 @@ Grayscale image Java يشير إلى عملية تحويل صورة bitmap مل�
 **آخر تحديث:** 2025-12-19  
 **تم الاختبار مع:** Aspose.PSD for Java 24.12 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

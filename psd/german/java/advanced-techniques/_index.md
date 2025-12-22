@@ -118,12 +118,6 @@ Erkunden Sie die Welt der Kontrastanpassung in Java mit Aspose.PSD. Folgen Sie u
 Lernen Sie, Gamma eines Bildes mühelos mit Aspose.PSD für Java zu justieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für optimale Ergebnisse.
 ### [Bild unscharf machen mit Aspose.PSD für Java](./blur-image/)
 Lernen Sie, Bilder in Java mit Aspose.PSD unscharf zu machen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für professionelle Resultate.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Häufig gestellte Fragen
 
@@ -147,3 +141,10 @@ A: Besuchen Sie die offizielle Aspose‑Website‑Download‑Seite oder nutzen S
 **Zuletzt aktualisiert:** 2025-12-19  
 **Getestet mit:** Aspose.PSD für Java 24.12 (zum Zeitpunkt der Erstellung)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

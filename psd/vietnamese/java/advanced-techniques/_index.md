@@ -119,13 +119,6 @@ Explore the world of image contrast adjustment in Java with Aspose.PSD. Follow o
 Learn to adjust image gamma effortlessly using Aspose.PSD for Java. Follow our step‑by‑step guide for optimal results.  
 ### [Làm mờ Ảnh bằng Aspose.PSD for Java](./blur-image/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Tôi có thể sử dụng hướng dẫn grayscale image Java trong dự án thương mại không?**  
@@ -148,3 +141,10 @@ Learn to adjust image gamma effortlessly using Aspose.PSD for Java. Follow our s
 **Cập nhật lần cuối:** 2025-12-19  
 **Kiểm tra với:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
