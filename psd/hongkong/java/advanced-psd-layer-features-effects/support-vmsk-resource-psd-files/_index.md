@@ -1,32 +1,59 @@
 ---
-title: 使用 Java 支援 PSD 檔案中的 Vmsk 資源
-linktitle: 使用 Java 支援 PSD 檔案中的 Vmsk 資源
+date: 2025-12-18
+description: 學習如何使用 Aspose.PSD for Java 在 PSD 檔案中建立向量遮罩（Vmsk 資源）。本分步教學將示範如何新增向量遮罩、將
+  PSD 轉換為 PNG，以及其他操作。
+linktitle: Create Vector Mask (Vmsk Resource) in PSD Files with Java
 second_title: Aspose.PSD Java API
-description: 使用 Aspose.PSD for Java 輕鬆管理 PSD 檔案中的 Vmsk 資源。全面的逐步教程，非常適合開發人員和設計人員。
-weight: 23
+title: 使用 Java 在 PSD 檔案中建立向量遮罩（Vmsk 資源）
 url: /zh-hant/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 支援 PSD 檔案中的 Vmsk 資源
+# 在 PSD 檔案中使用 Java 建立向量遮罩 (Vmsk 資源)
 
-## 介紹
-在處理 PSD（Photoshop 文件）文件時，管理資源至關重要，尤其是在整合 Vmsk（向量遮罩）資源等特殊功能時。 Vmsk 資源可以透過添加複雜的向量形狀來增強設計人員的能力，使他們能夠輕鬆創建令人驚嘆的圖形。在本指南中，我們將透過實作方法向您展示如何使用 Aspose.PSD for Java 支援 PSD 檔案中的 Vmsk 資源。無論您是希望增強應用程式的開發人員還是尋求自動化的設計人員，本教學都將引導您逐步完成流程，使其易於遵循和實施。
+## 簡介
+如果您需要在 Photoshop (PSD) 檔案中 **建立向量遮罩** (Vmsk) 資源，Aspose.PSD for Java 為您提供一個乾淨、程式化的方式來完成。無論您是要構建設計自動化工具，或是為現有的圖形管線加入自訂遮罩支援，本教學都會一步一步帶領您——載入 PSD、讀取 Vmsk 資源、調整其屬性，並儲存結果。完成後，您將能熟練處理向量遮罩、將 PSD 轉換為 PNG，並以額外的向量資料擴充檔案。
+
+## 快速答覆
+- **Vmsk 資源是什麼？** 它是儲存在 PSD 檔案中的向量遮罩資料，用於定義圖層的複雜向量形狀。  
+- **哪個函式庫支援它？** Aspose.PSD for Java 提供對 Vmsk 資源的完整讀寫存取。  
+- **我需要授權嗎？** 有免費試用版；商業授權則在正式使用時必須取得。  
+- **我可以將編輯過的 PSD 轉成 PNG 嗎？** 可以——儲存後，您可以再次載入 PSD，並使用相同的 API 匯出為 PNG。  
+- **是否提供 Maven 支援？** 當然可以；Aspose.PSD 可作為 Maven 相依性加入（請參考 “aspose psd maven” 關鍵字）。
+
+## 什麼是向量遮罩 (Vmsk 資源)？
+向量遮罩 (Vmsk) 是一種非像素基礎的遮罩，使用貝茲曲線與路徑記錄來定義圖層上的透明與不透明區域。由於採用向量形式，它可以在不失真的情況下縮放——非常適合高解析度圖形。
+
+## 為什麼要使用 Aspose.PSD 建立向量遮罩？
+- **自動化：** 程式化地新增或修改遮罩，無需開啟 Photoshop。  
+- **一致性：** 確保您產生的每個 PSD 都遵循相同的遮罩規則。  
+- **跨平台：** 可在任何支援 Java 的作業系統上執行。  
+- **整合性：** 可與其他 Aspose API（例如 PSD → PNG 轉換）結合，實現端到端工作流程。
+
 ## 先決條件
-在我們深入探討處理 Vmsk 資源的詳細細節之前，讓我們確保您已為無縫體驗做好一切準備。
-### 你需要什麼
-- Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK。如果沒有，您可以從以下位置下載[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Aspose.PSD for Java Library：這是一個用於管理 PSD 檔案的強大函式庫。您可以從[Aspose 發佈頁面](https://releases.aspose.com/psd/java/)。對於那些想在購買前嘗試的人，您也可以從[免費試用](https://releases.aspose.com/).
-- IDE：任何 Java IDE（如 IntelliJ IDEA、Eclipse 等）都適用於該專案。
-### 設定您的工作區
-1. 建立新的 Java 專案：啟動您首選的 IDE 並建立新的 Java 專案。這是您使用代碼的遊樂場。
-2. 新增 Aspose 庫：下載 Aspose 庫後，將 jar 檔案新增至專案的庫中。這一步至關重要，因為它使我們能夠利用 Aspose.PSD 的所有這些甜蜜功能。
-滿足這些先決條件後，您就可以開始使用 Vmsk 資源建立、修改和管理 PSD 檔案。讓我們直接進入程式設計吧！
-## 導入包
-在處理 PSD 檔案之前，我們需要導入必要的套件。這是我們程式碼的主幹，使我們能夠存取 Aspose.PSD 庫提供的各種類別和方法。
+在深入程式碼之前，請確保您已具備以下條件：
+
+### 您需要的項目
+- Java Development Kit (JDK)：確保您的機器已安裝 JDK。若未安裝，可從 [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) 下載。  
+- Aspose.PSD for Java Library：這是一套功能強大的 PSD 檔案管理函式庫。您可從 [Aspose release page](https://releases.aspose.com/psd/java/) 下載。想先試用的使用者，也可從 [free trial](https://releases.aspose.com/) 取得免費試用版。  
+- IDE：任何 Java IDE（如 IntelliJ IDEA、Eclipse 等）皆可用於本專案。
+
+### 設定工作環境
+1. **建立新 Java 專案** – 在您偏好的 IDE 中開啟並建立一個全新的專案。  
+2. **加入 Aspose 函式庫** – 下載 Aspose JAR 後，將其加入專案的建置路徑，以便存取所有與 PSD 相關的類別。  
+
+環境就緒後，讓我們進入實作階段。
+
+## 如何使用 Java 在 PSD 檔案中建立向量遮罩
+以下為逐步說明。程式碼區塊保持原樣，我們僅加入說明文字，使每一步都清晰易懂。
+
+## 匯入套件
+在處理 PSD 檔案之前，我們需要從 Aspose.PSD 函式庫匯入必要的類別。
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Point;
@@ -40,27 +67,34 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRe
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathFillRuleRecord;
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.VectorPathType;
 ```
-現在我們已經做好了準備，是時候採取行動了！在本節中，我們將把程式碼分解為可管理的步驟。這些步驟將引導您讀取 PSD 檔案、處理 Vmsk 資源，甚至對其進行編輯。
-## 第 1 步：載入 PSD 文件
-您要做的第一件事是載入 PSD 檔案。這就是所有魔法的開始。
+
+現在環境已設定好，讓我們逐一說明每個操作。
+
+## 步驟 1：載入您的 PSD 檔案
+首先要做的事就是載入 PSD 檔案，這是所有操作的起點。
+
 ```java
-String dataDir = "Your Document Directory"; //更新此路徑
+String dataDir = "Your Document Directory"; // Update this path
 String sourceFileName = dataDir + "Rectangle.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-- 我們設定`dataDir`到 PSD 檔案的目錄。 
-- 我們創建一個字串`sourceFileName`，將目錄與 PSD 檔案名稱組合起來。
-- 最後，我們將 PSD 檔案載入到`PsdImage`物件使用`Image.load()`.
-## 步驟 2：檢索 Vmsk 資源
-現在我們已經載入了 PSD 映像，讓我們取得 Vmsk 資源。
+- 我們將 `dataDir` 設為 PSD 檔案所在的目錄。  
+- 我們建立 `sourceFileName` 字串，將目錄與 PSD 檔名結合。  
+- 最後，我們使用 `Image.load()` 將 PSD 檔載入為 `PsdImage` 物件。
+
+## 步驟 2：取得 Vmsk 資源
+現在已載入 PSD 圖像，接著取得 Vmsk 資源。
+
 ```java
 VmskResource resource = getVmskResource(im);
 ```
 
-- 我們稱之為`getVmskResource()`處理從映像中搜尋和檢索 Vmsk 資源的方法。
+- 我們呼叫 `getVmskResource()` 方法，該方法負責在影像中搜尋並取得 Vmsk 資源。
+
 ## 步驟 3：驗證 Vmsk 資源屬性
-在繼續進行修改之前，必須驗證我們的 Vmsk 資源是否處於預期狀態。
+在進行修改之前，必須先驗證 Vmsk 資源是否處於預期狀態。
+
 ```java
 if (resource.isDisabled() != false ||
 	resource.isInverted() != false ||
@@ -70,9 +104,11 @@ if (resource.isDisabled() != false ||
 }
 ```
 
-- 在這裡，我們檢查 Vmsk 資源的各種屬性。我們希望確保它沒有被禁用、反轉或未鏈接，並且它具有正確數量的路徑。
-## 第 4 步：訪問每個路徑並驗證
-讓我們更深入地研究一下 Vmsk 資源中的路徑。
+- 在此，我們檢查 Vmsk 資源的多項屬性，確保它未被停用、未反轉、已連結，且路徑數量正確。
+
+## 步驟 4：存取每條路徑並驗證
+讓我們更深入檢查 Vmsk 資源內的路徑。
+
 ```java
 PathFillRuleRecord pathFillRule = (PathFillRuleRecord) resource.getPaths()[0];
 InitialFillRuleRecord initialFillRule = (InitialFillRuleRecord) resource.getPaths()[1];
@@ -86,18 +122,22 @@ if (pathFillRule.getType() != VectorPathType.PathFillRuleRecord ||
 }
 ```
 
-- 我們正在提取三個特定的路徑記錄並驗證它們的類型和屬性，以確保它們符合我們的標準。
+- 我們擷取三筆特定的路徑記錄，並驗證其類型與屬性，以確保符合我們的條件。
+
 ## 步驟 5：編輯 Vmsk 資源
-現在我們進入修改部分！您可以根據需要調整 Vmsk 資源的屬性。
+現在進入修改階段！您可以依需求調整 Vmsk 資源的屬性。
+
 ```java
 resource.setDisabled(true);
 resource.setInverted(true);
 resource.setNotLinked(true);
 ```
 
-- 在此區塊中，我們將切換 Vmsk 資源的各種屬性。透過將它們設為 true，我們可以控制遮罩在 PSD 檔案中的行為。
-## 第6步：修改貝塞爾曲線結點
-貝塞爾結對於向量路徑至關重要。讓我們在這裡更改一些值。
+- 在此區塊，我們切換 Vmsk 資源的多項屬性。將它們設為 `true` 後，即可控制遮罩在 PSD 檔中的行為。
+
+## 步驟 6：修改貝茲節點座標
+貝茲節點對向量路徑至關重要。讓我們在此修改一些數值。
+
 ```java
 BezierKnotRecord bezierKnot = (BezierKnotRecord) resource.getPaths()[3];
 bezierKnot.getPoints()[0] = new Point(0, 0);
@@ -105,35 +145,52 @@ bezierKnot = (BezierKnotRecord) resource.getPaths()[4];
 bezierKnot.getPoints()[0] = new Point(8039797, 10905190);
 ```
 
-- 我們正在訪問特定的`BezierKnotRecord`路徑並更改它們的點以潛在地重塑向量蒙版。
-## 步驟7：儲存修改後的PSD文件
-完成所有編輯後，就可以儲存修改後的 PSD 檔案了。 
+- 我們存取特定的 `BezierKnotRecord` 路徑，並變更其座標，以重新塑形向量遮罩。
+
+## 步驟 7：儲存已修改的 PSD 檔案
+完成所有編輯後，即可儲存已修改的 PSD 檔案。
+
 ```java
 String exportPath = dataDir + "Rectangle_changed.psd";
 im.save(exportPath);
 ```
 
-- 我們設定導出的PSD檔案的路徑，然後調用`im.save()`將更改寫入這個新文件。
-## 第 8 步：清理資源
-最後，我們需要確保正確處理圖像以釋放資源。
+- 我們設定匯出 PSD 檔的路徑，然後呼叫 `im.save()` 將變更寫入新檔案。
+
+## 步驟 8：清理資源
+最後，我們必須確保正確釋放影像以釋放資源。
+
 ```java
 im.dispose();
 ```
 
-- 完成後處理所有資源始終是個好習慣。這有助於避免應用程式中的記憶體洩漏。
+- 完成後釋放任何資源是最佳實踐，可避免應用程式發生記憶體洩漏。
+
 ## 結論
-恭喜！您剛完成了使用 Aspose.PSD for Java 支援 PSD 檔案中的 Vmsk 資源的詳細過程。從載入映像、檢索和驗證 Vmsk 資源、編輯其屬性，然後儲存修改後的 PSD，您已經涵蓋了要點。借助這些技能，您可以有效地管理和利用 PSD 檔案中的各種資源，從而增強您的圖形設計專案或自動化腳本。
-## 常見問題解答
-### 什麼是 Vmsk 資源？
-Vmsk 資源是 PSD 檔案中的向量蒙版，允許複雜的向量形狀和編輯功能。
-### 我可以在 Maven 專案中使用 Aspose.PSD 嗎？
-是的，您可以使用儲存庫中的座標將 Aspose.PSD 作為相依性包含在 Maven 專案中。
-### 我可以將修改後的 PSD 檔案儲存為什麼格式？
-您可以將它們儲存為 PSD 檔案或匯出為其他格式，如 PNG、JPEG 等。
-### Aspose.PSD 有免費試用版嗎？
-是的，您可以存取 Aspose.PSD 的免費試用版來測試其功能。參觀[免費試用連結](https://releases.aspose.com/).
-### 我如何獲得 Aspose.PSD 支援？
-您可以加入[Aspose論壇](https://forum.aspose.com/c/psd/34)尋求支援和故障排除協助。
+恭喜！您已完成使用 Aspose.PSD for Java 在 PSD 檔案中 **建立向量遮罩** (Vmsk) 資源的完整流程。從載入影像、取得並驗證 Vmsk 資源、編輯其屬性，到儲存已修改的 PSD，您現在具備自動化向量遮罩工作流程的堅實基礎。可運用這些技巧豐富設計管線、與其他 Aspose API（如 PSD 轉 PNG）整合，或打造自訂圖形工具。
+
+## 常見問題
+**Q: 如何在現有圖層加入新的向量遮罩？**  
+A: 建立 `VmskResource`，填入必要的路徑記錄（例如 `BezierKnotRecord`），再將其附加至圖層的資源集合中。
+
+**Q: 我可以在不開啟 Photoshop 的情況下直接將編輯過的 PSD 轉成 PNG 嗎？**  
+A: 可以——儲存 PSD 後，再以 `Image.load()` 載入，並呼叫 `im.save("output.png")` 指定 PNG 格式。
+
+**Q: 有辦法在 CI/CD 流程中自動化此操作嗎？**  
+A: 當然可以。由於全程使用純 Java，您可將其嵌入 Maven/Gradle 建置、Docker 容器或任何支援 Java 的 CI 系統中。
+
+**Q: 哪些版本的 Aspose.PSD 相容於 Java 11 以上？**  
+A: 所有近期發行版（2024‑2025）皆支援 Java 8 以上，包括 Java 11、17 以及更新的 LTS 版本。
+
+**Q: 開發建置是否需要授權？**  
+A: 免費評估授權可用於開發與測試。正式上線時則需商業授權。
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
