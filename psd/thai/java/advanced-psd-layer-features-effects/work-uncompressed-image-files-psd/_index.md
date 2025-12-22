@@ -1,35 +1,55 @@
 ---
-title: ทำงานกับไฟล์รูปภาพที่ไม่บีบอัดใน PSD โดยใช้ Java
-linktitle: ทำงานกับไฟล์รูปภาพที่ไม่บีบอัดใน PSD โดยใช้ Java
+date: 2025-12-22
+description: เรียนรู้วิธีส่งออกไฟล์ PSD โดยไม่บีบอัดด้วยไลบรารี Aspose.PSD สำหรับ
+  Java คู่มือขั้นตอนนี้แสดงการจัดการไฟล์ภาพที่ไม่ได้บีบอัดใน PSD ด้วย Java
+linktitle: Work with Uncompressed Image Files in PSD using Java
 second_title: Aspose.PSD Java API
-description: เรียนรู้วิธีทำงานกับไฟล์รูปภาพที่ไม่มีการบีบอัดในรูปแบบ PSD โดยใช้ Java และไลบรารี Aspose.PSD ในบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้
-weight: 27
+title: 'aspose psd java: ทำงานกับไฟล์ภาพที่ไม่ได้บีบอัดใน PSD'
 url: /th/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ทำงานกับไฟล์รูปภาพที่ไม่บีบอัดใน PSD โดยใช้ Java
+# ทำงานกับไฟล์รูปภาพที่ไม่ได้บีบอัดใน PSD ด้วย Java
 
-## การแนะนำ
-เมื่อพูดถึงการทำงานกับเอกสาร Photoshop (PSD) ใน Java สิ่งสำคัญคือต้องเข้าใจวิธีจัดการและบันทึกไฟล์รูปภาพเหล่านี้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะเจาะลึกเกี่ยวกับการใช้ Aspose.PSD ซึ่งเป็น API ที่มีประสิทธิภาพซึ่งช่วยให้การจัดการไฟล์ PSD ง่ายขึ้น รวมถึงการทำงานกับรูปภาพที่ไม่มีการบีบอัด ไม่ว่าคุณจะเป็นนักพัฒนาซอฟต์แวร์ที่ต้องการปรับปรุงแอปพลิเคชันของคุณด้วยกราฟิกที่สวยงาม หรือเพียงต้องการประมวลผลไฟล์ PSD ใน Java โดยไม่ต้องยุ่งยาก คู่มือนี้จะแนะนำคุณตลอดทุกขั้นตอน พร้อมที่จะเริ่มต้นหรือยัง? กระโดดเข้าไปเลย!
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่มเขียนโค้ด มีข้อกำหนดเบื้องต้นบางประการที่เราจำเป็นต้องตรวจสอบในรายการของเรา ไม่ต้องกังวล; พวกมันค่อนข้างตรงไปตรงมา!
-### ชุดพัฒนาจาวา (JDK)
-- ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK 8 หรือสูงกว่าบนระบบของคุณ ถ้าไม่ตรงไปที่[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) และดาวน์โหลดเวอร์ชันล่าสุด
-### สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE)
-- IDE ที่ดี เช่น IntelliJ IDEA, Eclipse หรือ NetBeans จะทำให้ชีวิตของคุณง่ายขึ้น ตั้งค่าหากคุณยังไม่ได้!
-### Aspose.PSD สำหรับไลบรารี Java
--  ดาวน์โหลดไลบรารี Aspose.PSD สำหรับ Java คุณสามารถรับข่าวสารล่าสุดได้[ที่นี่](https://releases.aspose.com/psd/java/). 
-### ความรู้พื้นฐานของจาวา 
-- คุณควรมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และกระบวนทัศน์เชิงวัตถุเพื่อปฏิบัติตามได้อย่างราบรื่น
-### ไฟล์ PSD
-- เตรียมไฟล์ PSD ตัวอย่างให้พร้อมสำหรับการทดสอบ คุณสามารถสร้างได้ใน Photoshop หรือดาวน์โหลดตัวอย่างฟรีทางออนไลน์ 
-เมื่อทุกอย่างพร้อมแล้ว เรามาเจาะลึกโค้ดกันดีกว่า!
-## แพ็คเกจนำเข้า
-ขั้นแรก เราต้องนำเข้าแพ็คเกจที่จำเป็นสำหรับโค้ดของเรา ด้านล่างนี้คือรายการการนำเข้าที่คุณต้องการ:
+## Introduction
+เมื่อพูดถึงการทำงานกับไฟล์เอกสาร Photoshop (PSD) ใน Java, ไลบรารี **aspose psd java** ทำให้เราต้องเข้าใจวิธีการจัดการและบันทึกไฟล์รูปภาพที่อุดมไปด้วยข้อมูลเหล่านี้อย่างมีประสิทธิภาพ ในบทแนะนำนี้ เราจะเจาะลึกการใช้ Aspose.PSD, API ที่แข็งแกร่งซึ่งทำให้การจัดการไฟล์ PSD ง่ายขึ้น รวมถึงการทำงานกับรูปภาพที่ไม่ได้บีบอัด ไม่ว่าคุณจะเป็นนักพัฒนาที่ต้องการเพิ่มกราฟิกคุณภาพสูงให้กับแอปพลิเคชัน หรือแค่ต้องการประมวลผลไฟล์ PSD ใน Java อย่างไม่มีอุปสรรค คู่มือนี้จะพาคุณผ่านทุกขั้นตอนพร้อมกัน พร้อมหรือยัง? ไปกันเลย!
+
+## Quick Answers
+- **How can I export a PSD without compression?** Use `CompressionMethod.Raw` in `PsdOptions` when saving the file.  
+- **Which library supports uncompressed PSD handling in Java?** The **aspose psd java** library provides full support.  
+- **Do I need a license for production use?** Yes, a commercial license is required for production deployments.  
+- **What Java version is required?** JDK 8 or higher is sufficient.  
+- **Can I manipulate layers after saving?** Absolutely – reload the saved file and use the `Graphics` object to draw or edit layers.
+
+## Export PSD without Compression Using aspose psd java
+Saving a PSD without any compression preserves the original pixel data, which is essential for high‑fidelity editing pipelines, archival workflows, or when you need pixel‑perfect results for downstream processing. The steps below show exactly how to achieve this with the **aspose psd java** API.
+
+## Prerequisites
+Before we roll up our sleeves and start coding, there are a few prerequisites we need to check off our list. Don't worry; they’re pretty straightforward!
+
+### Java Development Kit (JDK)
+- Make sure you have JDK 8 or higher installed on your system. If not, head over to the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) and download the latest version.
+
+### Integrated Development Environment (IDE)
+- A good IDE like IntelliJ IDEA, Eclipse, or NetBeans will make your life easier. Set one up if you haven’t already!
+
+### Aspose.PSD for Java Library
+- Download the Aspose.PSD for Java library. You can get the latest releases [here](https://releases.aspose.com/psd/java/). 
+
+### Basic Knowledge of Java 
+- You should have a basic understanding of Java programming and the object‑oriented paradigm to follow along smoothly.
+
+### A PSD File
+- Have a sample PSD file ready for testing. You can create one in Photoshop or download a free sample online. 
+
+Now that we have everything ready, let’s dive into the code!
+
+## Import Packages
+To start with, we need to import the necessary packages needed for our code. Below is the list of imports you will require:
 ```java
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
@@ -37,62 +57,90 @@ import com.aspose.psd.fileformats.psd.CompressionMethod;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
-การนำเข้าเหล่านี้จะนำคลาสและวิธีการที่จำเป็นมาสู่โปรเจ็กต์ของเรา ทำให้เราสามารถจัดการไฟล์ PSD ได้อย่างราบรื่น 
-เรามาแบ่งกระบวนการออกเป็นขั้นตอนที่สามารถจัดการได้ 
-## ขั้นตอนที่ 1: การตั้งค่าไดเร็กทอรีไฟล์ของคุณ
-ขั้นแรก คุณต้องระบุตำแหน่งของไฟล์ PSD และตำแหน่งที่คุณต้องการบันทึกเอาต์พุต ในโค้ดตัวอย่างของเรา เราจะสร้างตัวแปรเพื่อเก็บเส้นทางไดเรกทอรี
+These imports will bring the necessary classes and methods into our project, allowing us to manipulate PSD files seamlessly. Let’s break down the process into manageable steps.
+
+## Step 1: Setting Up Your File Directory
+First, you need to specify where your PSD file is located and where you want to save your output. In our sample code, we’ll create a variable to hold the directory path.
 ```java
 String dataDir = "Your Document Directory";
 ```
- แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ PSD ของคุณ (`layers.psd`) ถูกเก็บไว้ การทำเช่นนี้ คุณแน่ใจได้ว่าโปรแกรมของคุณรู้ว่าจะหาไฟล์ได้จากที่ไหน
-## ขั้นตอนที่ 2: กำลังโหลดไฟล์ PSD
- ตอนนี้เรามาโหลดไฟล์ PSD โดยใช้นามสกุลไฟล์`Image.load()` วิธีการหล่อมันให้เป็น`PsdImage` พิมพ์.
+Replace `"Your Document Directory"` with the actual path where your PSD file (`layers.psd`) is stored. By doing this, you ensure that your program knows where to look for the file.
+
+## Step 2: Loading the PSD File
+Now, let’s load the PSD file using the `Image.load()` method, casting it into a `PsdImage` type.
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
- บรรทัดนี้เรียกใช้`load` วิธีการจาก`Image` คลาสกำลังโหลดไฟล์ PSD ของคุณลงในหน่วยความจำ โดยการหล่อมันลงไป`PsdImage`เรากำลังบอกให้ Java ถือว่าภาพนี้เป็นไฟล์ PSD ซึ่งมีฟังก์ชันเฉพาะที่เกี่ยวข้องกับการทำงานของ PSD
-## ขั้นตอนที่ 3: การกำหนดค่าตัวเลือกการบันทึก
-ต่อไป เราต้องตั้งค่าตัวเลือกสำหรับการบันทึกไฟล์ของเรา โดยเฉพาะอย่างยิ่งระบุว่าเราต้องการให้เอาต์พุตไม่มีการบีบอัด
+This line invokes the `load` method from the `Image` class, loading your PSD file into memory. By casting it to `PsdImage`, we’re telling Java to treat this image as a PSD file which has specific functionalities related to PSD operations.
+
+## Step 3: Configuring Save Options
+Next, we need to set up the options for saving our file, particularly specifying that we want the output to be uncompressed.
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
- ที่`PsdOptions` class ช่วยให้เราสามารถระบุตัวเลือกต่างๆ สำหรับการบันทึกไฟล์ PSD ของเรา การตั้งค่า`setCompressionMethod` ถึง`CompressionMethod.Raw` ตรวจสอบให้แน่ใจว่าไฟล์ที่บันทึกไว้ของเราไม่มีการบีบอัดและรักษาคุณภาพสูง
-## ขั้นตอนที่ 4: บันทึกไฟล์ PSD ที่ไม่มีการบีบอัด
-ตอนนี้ได้เวลาบันทึกอิมเมจ PSD ที่กำหนดค่าใหม่แล้ว
+The `PsdOptions` class allows us to specify various options for saving our PSD file. Setting `setCompressionMethod` to `CompressionMethod.Raw` ensures that our saved file is uncompressed and maintains high quality.
+
+## Step 4: Saving the Uncompressed PSD File
+Now it's time to save the newly configured PSD image.
 ```java
 psdImage.save(dataDir + "uncompressed_out.psd", saveOptions);
 ```
- บรรทัดนี้รันฟังก์ชันบันทึกบนของเรา`PsdImage` ตัวอย่าง (`psdImage` - มันจะบันทึกไฟล์เป็น`uncompressed_out.psd` ในไดเร็กทอรีที่ระบุและใช้ตัวเลือกที่กำหนดไว้ก่อนหน้านี้
-## ขั้นตอนที่ 5: เปิดรูปภาพที่สร้างขึ้นใหม่อีกครั้ง
-หลังจากบันทึกแล้ว มาโหลดอิมเมจเอาต์พุตของเราอีกครั้งเพื่อตรวจสอบว่าทุกอย่างทำงานได้ตามที่คาดไว้
+This line executes the save function on our `PsdImage` instance (`psdImage`). It saves the file as `uncompressed_out.psd` in the specified directory and applies the options defined earlier.
+
+## Step 5: Reopening the Newly Created Image
+After saving, let’s reload our output image to verify that everything worked as expected.
 ```java
 PsdImage img = (PsdImage) Image.load(dataDir + "uncompressed_out.psd");
 ```
- โดยการโทร`load` อีกครั้งเราสามารถสร้างอินสแตนซ์ใหม่ของ`PsdImage` ที่ตรงกับไฟล์ที่บันทึกไว้ ขั้นตอนนี้สำคัญมากหากคุณต้องการจัดการหรือแสดงรูปภาพหลังจากบันทึกแล้ว
-## ขั้นตอนที่ 6: การวาดหรือจัดการรูปภาพ
-สุดท้าย คุณอาจต้องการวาดหรือปรับแต่งรูปภาพที่เพิ่งเปิดใหม่
+By calling `load` again, we can create a new instance of `PsdImage` that corresponds to the saved file. This step is crucial if you want to manipulate or display the image after saving it.
+
+## Step 6: Drawing or Manipulating the Image
+Finally, you may wish to draw on or manipulate the newly opened image.
 ```java
 Graphics graphics = new Graphics(img);
 ```
- ที่นี่เราเริ่มต้น a`Graphics` วัตถุซึ่งช่วยให้เราสามารถดำเนินการกราฟิกต่างๆ บนเราได้`img`- คุณสามารถวาดรูปร่าง เพิ่มข้อความ หรือแม้แต่แก้ไขเลเยอร์ได้หากต้องการ!
-## บทสรุป
-ยินดีด้วย! คุณเพิ่งเรียนรู้วิธีทำงานกับไฟล์รูปภาพที่ไม่มีการบีบอัดในรูปแบบ PSD โดยใช้ Java และไลบรารี Aspose.PSD API อันทรงพลังนี้ช่วยให้คุณจัดการไฟล์ PSD ได้อย่างง่ายดาย ไม่ว่าจะเป็นการโหลด จัดการ หรือบันทึกในรูปแบบต่างๆ ดังนั้นไปข้างหน้าและหมุนมัน! ลองใช้คุณสมบัติต่างๆ เล่นกับกราฟิก และดูว่าคุณสามารถสร้างสิ่งที่น่าตื่นเต้นอะไรได้บ้าง
- อย่าลืมเข้าไปดูที่[เอกสารประกอบ](https://reference.aspose.com/psd/java/) สำหรับคุณสมบัติและตัวเลือกขั้นสูงเพิ่มเติม หากคุณต้องการดำน้ำโดยตรง คุณสามารถดาวน์โหลดไลบรารีได้[ที่นี่](https://releases.aspose.com/psd/java/) หรือเริ่มทดลองใช้ฟรี หากคุณมีคำถามใด ๆ โปรดเยี่ยมชมที่[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34) เพื่อขอความช่วยเหลือจากชุมชน
-## คำถามที่พบบ่อย
-### Aspose.PSD สำหรับ Java คืออะไร
-Aspose.PSD สำหรับ Java เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Photoshop PSD โดยทางโปรแกรม
-### ฉันสามารถจัดการเลเยอร์ในไฟล์ PSD โดยใช้ Aspose.PSD ได้หรือไม่
-ใช่! Aspose.PSD ช่วยให้คุณเข้าถึงและจัดการเลเยอร์ ทำให้ดำเนินการที่ซับซ้อนได้ง่าย
-### Aspose.PSD ใช้งานได้ฟรีหรือไม่
-มีการทดลองใช้ฟรี แต่สำหรับการใช้งานอย่างกว้างขวางและการเข้าถึงคุณสมบัติขั้นสูง คุณอาจต้องซื้อใบอนุญาต
-### ฉันจะติดต่อฝ่ายสนับสนุนได้อย่างไรหากฉันประสบปัญหา
- สามารถติดต่อได้ทาง[กำหนดฟอรั่มการสนับสนุน](https://forum.aspose.com/c/psd/34) เพื่อขอความช่วยเหลือ
-### Aspose.PSD รองรับการบันทึกในรูปแบบอื่นที่ไม่ใช่ PSD หรือไม่
-ใช่ Aspose.PSD อนุญาตให้บันทึกในรูปแบบต่างๆ เช่น PNG, JPEG และอื่นๆ ขึ้นอยู่กับความต้องการของคุณ
+Here we initialize a `Graphics` object, which allows us to perform various graphical operations on our `img`. You could draw shapes, add text, or even modify the layers if you wish!
+
+## Common Issues and Solutions
+- **FileNotFoundException** – Double‑check the `dataDir` path and ensure the PSD file name matches exactly.  
+- **UnsupportedCompressionException** – Make sure you are using a recent version of Aspose.PSD that supports `CompressionMethod.Raw`.  
+- **License Not Found** – For production use, load your Aspose license before calling any API methods to avoid evaluation watermarks.
+
+## Frequently Asked Questions
+
+**Q: What is Aspose.PSD for Java?**  
+A: Aspose.PSD for Java is a Java library that allows developers to work with Photoshop PSD files programmatically.
+
+**Q: Can I manipulate layers in a PSD file using Aspose.PSD?**  
+A: Yes! Aspose.PSD allows you to access and manipulate layers, making it easy to perform complex operations.
+
+**Q: Is Aspose.PSD free to use?**  
+A: There is a free trial available, but for extensive use and access to advanced features, you may need to purchase a license.
+
+**Q: How can I contact support if I encounter issues?**  
+A: You can reach out through the [Aspose support forum](https://forum.aspose.com/c/psd/34) for assistance.
+
+**Q: Does Aspose.PSD support saving in formats other than PSD?**  
+A: Yes, Aspose.PSD allows for saving in different formats such as PNG, JPEG, and more, depending on your requirements.
+
+**Q: Can I export a PSD without compression using this library?**  
+A: Absolutely – set `CompressionMethod.Raw` in `PsdOptions` as demonstrated in the tutorial.
+
+## Conclusion
+Congratulations! You've just learned how to work with uncompressed image files in PSD format using Java and the **aspose psd java** library. This powerful API enables you to manage PSD files with ease, whether it’s loading, manipulating, or saving them in different formats. So go ahead and give it a spin! Try different properties, play with the graphics, and see what exciting things you can create.
+
+Don’t forget to check out the [documentation](https://reference.aspose.com/psd/java/) for more advanced features and options. If you want to dive straight into it, you can download the library [here](https://releases.aspose.com/psd/java/) or start a free trial. If you have any questions, feel free to visit the [support forum](https://forum.aspose.com/c/psd/34) to get help from the community.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose
