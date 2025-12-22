@@ -1,31 +1,51 @@
 ---
-title: Upravte jas obrázku pomocí Aspose.PSD pro Java
-linktitle: Upravte jas obrázku
+date: 2025-12-19
+description: Naučte se, jak upravit jas obrázku pomocí Aspose.PSD pro Javu. Tento
+  tutoriál pro manipulaci s obrázky v Javě poskytuje krok za krokem návod.
+linktitle: Adjust Brightness of an Image
 second_title: Aspose.PSD Java API
-description: Vylepšete jas obrazu v Javě pomocí Aspose.PSD. Podrobný průvodce programovým nastavením jasu obrazu.
-weight: 21
+title: Jak upravit jas obrázku pomocí Aspose.PSD pro Javu
 url: /cs/java/advanced-techniques/adjust-brightness/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Upravte jas obrázku pomocí Aspose.PSD pro Java
+# Upravit jas obrázku pomocí Aspose.PSD pro Java
 
-## Zavedení
+## Úvod
 
-Vylepšení obrázků je běžným požadavkem v grafickém designu a digitální fotografii. Aspose.PSD for Java poskytuje výkonné řešení pro programovou úpravu jasu obrazu. V tomto tutoriálu krok za krokem prozkoumáme, jak využít knihovnu Aspose.PSD for Java k úpravě jasu obrázku.
+Pokud potřebujete **se naučit, jak upravit jas** obrázku přímo z Java kódu, jste na správném místě. Úprava jasu je častý úkol pro grafické designéry, fotografy a každého, kdo buduje pipeline pro zpracování obrázků. V tomto **java image manipulation tutorial** projdeme kompletní workflow – načtení PSD/TIFF, aplikaci offsetu jasu a uložení výsledku – pomocí knihovny Aspose.PSD pro Java.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna zpracovává jas?** Aspose.PSD pro Java  
+- **Která metoda mění jas?** `RasterImage.adjustBrightness()`  
+- **Mohu pracovat se soubory PSD a TIFF?** Ano, API podporuje oba formáty.  
+- **Potřebuji licenci pro produkci?** Komerční licence je vyžadována pro ne‑evaluační použití.  
+- **Jak dlouho trvá implementace?** Obvykle méně než 10 minut pro základní úpravu.
 
-Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
+## Co je úprava jasu obrázku?
 
--  Aspose.PSD for Java Library: Stáhněte a nainstalujte knihovnu z[Aspose.PSD pro dokumentaci Java](https://reference.aspose.com/psd/java/).
+Úprava jasu obrázku mění celkovou světlost každého pixelu v obrázku. Zvýšením jasu se tmavé oblasti zesvětlí, snížením jasu se celý obrázek ztmaví. Tato operace je užitečná pro korekci podexponovaných fotografií, přípravu materiálů k tisku nebo tvorbu vizuálních efektů v aplikacích.
 
-## Importujte balíčky
+## Proč použít Aspose.PSD pro Java?
 
-Chcete-li začít, importujte potřebné balíčky do svého projektu Java. V tomto příkladu použijeme následující:
+- **Plná podpora formátů** – PSD, TIFF, JPEG, PNG a další.  
+- **Žádné externí nativní závislosti** – čistě Java, snadná integrace.  
+- **Vysoce výkonná cache** – rastrová data lze cachovat pro rychlejší opakované operace.  
+- **Bohaté API** – metody pro korekci barev, vrstvy, masky a další pokročilé úpravy.
+
+## Požadavky
+
+Před tím, než se ponoříte do tutoriálu, ujistěte se, že máte následující požadavky:
+
+- Aspose.PSD pro Java Library: Stáhněte a nainstalujte knihovnu z [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).
+
+## Importování balíčků
+
+Pro začátek importujte potřebné balíčky do svého Java projektu. V tomto příkladu použijeme následující:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,83 +56,102 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-Nyní si rozeberme proces úpravy jasu obrázku do jednoduchých kroků:
+Nyní rozdělíme proces úpravy jasu obrázku na jednoduché kroky:
 
-## Krok 1: Načtěte obrázek
+## Jak upravit jas pomocí Aspose.PSD
+
+### Krok 1: Načíst obrázek
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "AdjustBrightness_out.tiff";
 
-// Načtěte existující obrázek do instance třídy RasterImage
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
-// Odeslání objektu obrázku do rastrového obrázku
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage) image;
 
-// Zkontrolujte, zda je RasterImage uložen v mezipaměti a pro lepší výkon uložte RasterImage do mezipaměti
+// Check if RasterImage is cached and Cache RasterImage for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
- V tomto kroku načteme cílový obrázek a přeneseme jej do a`RasterImage` pro další zpracování.
+V tomto kroku načteme cílový obrázek a přetypujeme jej na `RasterImage` pro další zpracování.
 
-## Krok 2: Upravte jas
+### Krok 2: Upravit jas
 
 ```java
-// Upravte jas
+// Adjust the brightness
 rasterImage.adjustBrightness(-50);
 ```
 
- Zde používáme`adjustBrightness`způsob úpravy jasu obrazu. V tomto příkladu snížíme jas o 50 jednotek, ale tuto hodnotu můžete upravit podle svých požadavků.
+Zde používáme metodu `adjustBrightness` k úpravě jasu obrázku. V tomto příkladu snížíme jas o 50 jednotek, ale můžete tuto hodnotu přizpůsobit podle svých požadavků.
 
-## Krok 3: Nastavte TiffOptions
+### Krok 3: Nastavit TiffOptions
 
 ```java
 int[] ushort = {8, 8, 8};
-// Vytvořte instanci TiffOptions pro výsledný obrázek
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Nakonfigurujte`TiffOptions` pro uložení upraveného snímku. Upravte`bitsPerSample` a`photometric` vlastnosti na základě vašich konkrétních potřeb.
+Nakonfigurujte `TiffOptions` pro uložení upraveného obrázku. Upravit vlastnosti `bitsPerSample` a `photometric` podle konkrétních potřeb.
 
-## Krok 4: Uložte výsledný obrázek
+### Krok 4: Uložit výsledný obrázek
 
 ```java
-// Uložte výsledný obrázek
+// Save the resultant image
 rasterImage.save(destName, tiffOptions);
 ```
 
- Nakonec upravený obrázek uložte pomocí zadaného`TiffOptions`.
+Nakonec uložte modifikovaný obrázek pomocí specifikovaných `TiffOptions`.
 
-## Závěr
+## Časté problémy a řešení
 
-Programové nastavení jasu obrazu je s Aspose.PSD pro Java snadné. Tento výukový program poskytuje komplexního průvodce implementací této funkce ve vašich aplikacích Java.
+| Problém | Důvod | Řešení |
+|---------|-------|--------|
+| **`ClassCastException` při přetypování Image** | Soubor není rastrový obrázek (např. vektorový PSD). | Ověřte formát zdrojového souboru nebo použijte `image instanceof RasterImage` před přetypováním. |
+| **Změna jasu nemá žádný efekt** | Obrázek nebyl před úpravou cachován. | Zavolejte `rasterImage.cacheData()` jak je ukázáno v Kroku 1. |
+| **Uložený soubor se jeví jako poškozený** | Nesprávná konfigurace `TiffOptions`. | Ujistěte se, že `bitsPerSample` odpovídá hloubce zdrojového obrázku (obvykle 8‑bit na kanál). |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu upravit jas v jiných formátech obrázků kromě PSD?
+### Q1: Mohu upravit jas i v jiných formátech obrázků než PSD?
 
-Odpověď 1: Ano, Aspose.PSD for Java podporuje různé formáty obrázků, jako jsou JPEG, PNG a TIFF.
+A1: Ano, Aspose.PSD pro Java podporuje různé formáty obrázků jako JPEG, PNG a TIFF.
 
-### Q2: Jak mohu řešit chyby během procesu úpravy obrazu?
+### Q2: Jak mohu ošetřit chyby během procesu úpravy obrázku?
 
-A2: Zpracování chyb můžete implementovat pomocí bloků try-catch ke správě výjimek, které mohou nastat.
+A2: Můžete implementovat ošetření chyb pomocí bloků try‑catch pro správu výjimek, které mohou nastat.
 
-### Q3: Existuje omezení rozsahu nastavení jasu?
+### Q3: Existuje limit rozsahu úpravy jasu?
 
-Odpověď 3: Rozsah úprav závisí na obsahu a formátu obrázku, ale Aspose.PSD poskytuje flexibilitu v přizpůsobení.
+A3: Rozsah úpravy závisí na obsahu a formátu obrázku, ale Aspose.PSD poskytuje flexibilitu v přizpůsobení.
 
-### Q4: Mohu použít Aspose.PSD pro Java v komerčních projektech?
+### Q4: Mohu používat Aspose.PSD pro Java v komerčních projektech?
 
- A4: Ano, Aspose.PSD for Java je komerční knihovna a můžete získat licenci od[zde](https://purchase.aspose.com/buy).
+A4: Ano, Aspose.PSD pro Java je komerční knihovna a můžete získat licenci [zde](https://purchase.aspose.com/buy).
 
-### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
+### Q5: Je k dispozici bezplatná zkušební verze Aspose.PSD pro Java?
 
- A5: Ano, můžete prozkoumat knihovnu pomocí bezplatné zkušební verze od[zde](https://releases.aspose.com/).
+A5: Ano, můžete si knihovnu vyzkoušet zdarma [zde](https://releases.aspose.com/).
+
+### Q6: Ovlivňuje metoda `adjustBrightness` viditelnost vrstev?
+
+A6: Metoda pracuje na rasterizovaném kompozitním obrázku, takže viditelnost vrstev je respektována během rasterizace.
+
+### Q7: Mohu řetězit více úprav (např. kontrast, saturaci) najednou?
+
+A7: Rozhodně. Po úpravě jasu můžete na stejném `RasterImage` volat `adjustContrast`, `adjustSaturation` a další metody.
+
+**Poslední aktualizace:** 2025-12-19  
+**Testováno s:** Aspose.PSD pro Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

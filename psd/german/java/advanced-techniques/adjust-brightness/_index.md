@@ -1,31 +1,51 @@
 ---
-title: Passen Sie die Helligkeit eines Bildes mit Aspose.PSD für Java an
-linktitle: Helligkeit eines Bildes anpassen
+date: 2025-12-19
+description: Erfahren Sie, wie Sie die Helligkeit eines Bildes mit Aspose.PSD für
+  Java anpassen. Dieses Java‑Bildbearbeitungs‑Tutorial bietet eine Schritt‑für‑Schritt‑Anleitung.
+linktitle: Adjust Brightness of an Image
 second_title: Aspose.PSD Java API
-description: Verbessern Sie die Bildhelligkeit in Java mit Aspose.PSD. Schritt-für-Schritt-Anleitung zum programmgesteuerten Anpassen der Bildhelligkeit.
-weight: 21
+title: Wie man die Helligkeit eines Bildes mit Aspose.PSD für Java anpasst
 url: /de/java/advanced-techniques/adjust-brightness/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Passen Sie die Helligkeit eines Bildes mit Aspose.PSD für Java an
+# Helligkeit eines Bildes mit Aspose.PSD für Java anpassen
 
 ## Einführung
 
-Die Verbesserung von Bildern ist eine häufige Anforderung im Grafikdesign und in der Digitalfotografie. Aspose.PSD für Java bietet eine leistungsstarke Lösung zum programmgesteuerten Anpassen der Bildhelligkeit. In diesem Tutorial erfahren Sie Schritt für Schritt, wie Sie die Helligkeit eines Bildes mithilfe der Bibliothek Aspose.PSD für Java anpassen können.
+Wenn Sie **lernen möchten, wie man die Helligkeit** eines Bildes direkt aus Java‑Code anpasst, sind Sie hier genau richtig. Das Anpassen der Helligkeit ist eine häufige Aufgabe für Grafikdesigner, Fotografen und alle, die Bildverarbeitungspipelines erstellen. In diesem **Java‑Bildbearbeitungs‑Tutorial** gehen wir den kompletten Workflow durch – Laden einer PSD/TIFF, Anwenden eines Helligkeits‑Offsets und Speichern des Ergebnisses – mithilfe der Aspose.PSD für Java‑Bibliothek.
+
+## Schnellantworten
+- **Welche Bibliothek behandelt die Helligkeit?** Aspose.PSD für Java  
+- **Welche Methode ändert die Helligkeit?** `RasterImage.adjustBrightness()`  
+- **Kann ich mit PSD‑ und TIFF‑Dateien arbeiten?** Ja, die API unterstützt beide Formate.  
+- **Benötige ich eine Lizenz für die Produktion?** Für den nicht‑evaluativen Einsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Wie lange dauert die Implementierung?** In der Regel unter 10 Minuten für eine einfache Anpassung.
+
+## Was ist die Bild‑Helligkeitsanpassung?
+
+Die Bild‑Helligkeitsanpassung ändert die Gesamthelligkeit jedes Pixels in einem Bild. Eine Erhöhung der Helligkeit macht dunkle Bereiche heller, während eine Verringerung das gesamte Bild abdunkelt. Dieser Vorgang ist nützlich, um unterbelichtete Fotos zu korrigieren, Assets für den Druck vorzubereiten oder visuelle Effekte in Anwendungen zu erzeugen.
+
+## Warum Aspose.PSD für Java verwenden?
+
+- **Vollständige Formatunterstützung** – PSD, TIFF, JPEG, PNG und mehr.  
+- **Keine externen nativen Abhängigkeiten** – reines Java, einfach zu integrieren.  
+- **Leistungsstarkes Caching** – Rasterdaten können für schnellere wiederholte Vorgänge zwischengespeichert werden.  
+- **Umfangreiche API** – Methoden für Farbkorrektur, Ebenen, Masken und andere fortgeschrittene Bearbeitungen.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
--  Aspose.PSD für Java-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von der[Aspose.PSD für Java-Dokumentation](https://reference.aspose.com/psd/java/).
+- Aspose.PSD für Java Bibliothek: Laden Sie die Bibliothek von der [Aspose.PSD für Java Dokumentation](https://reference.aspose.com/psd/java/) herunter und installieren Sie sie.
 
 ## Pakete importieren
 
-Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt. In diesem Beispiel verwenden wir Folgendes:
+Um zu beginnen, importieren Sie die notwendigen Pakete in Ihr Java‑Projekt. In diesem Beispiel verwenden wir die folgenden:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,83 +56,104 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-Lassen Sie uns nun den Vorgang zum Anpassen der Helligkeit eines Bildes in einfache Schritte aufschlüsseln:
+Nun zerlegen wir den Prozess zur Anpassung der Helligkeit eines Bildes in einfache Schritte:
 
-## Schritt 1: Laden Sie das Bild
+## Wie man die Helligkeit mit Aspose.PSD anpasst
+
+### Schritt 1: Bild laden
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "AdjustBrightness_out.tiff";
 
-// Laden Sie ein vorhandenes Bild in eine Instanz der RasterImage-Klasse
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
-// Konvertieren Sie das Objekt von Image in RasterImage
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage) image;
 
-// Überprüfen Sie, ob RasterImage zwischengespeichert ist, und cachen Sie RasterImage für eine bessere Leistung
+// Check if RasterImage is cached and Cache RasterImage for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
- In diesem Schritt laden wir das Zielbild und konvertieren es in ein`RasterImage` zur weiteren Verarbeitung.
+In diesem Schritt laden wir das Zielbild und casten es zu einem `RasterImage` für die weitere Verarbeitung.
 
-## Schritt 2: Helligkeit anpassen
+### Schritt 2: Helligkeit anpassen
 
 ```java
-// Passen Sie die Helligkeit an
+// Adjust the brightness
 rasterImage.adjustBrightness(-50);
 ```
 
- Hier verwenden wir die`adjustBrightness`Methode zum Ändern der Helligkeit des Bildes. In diesem Beispiel verringern wir die Helligkeit um 50 Einheiten, aber Sie können diesen Wert Ihren Anforderungen entsprechend anpassen.
+Hier verwenden wir die Methode `adjustBrightness`, um die Helligkeit des Bildes zu ändern. In diesem Beispiel verringern wir die Helligkeit um 50 Einheiten, Sie können diesen Wert jedoch nach Ihren Anforderungen anpassen.
 
-## Schritt 3: TiffOptions festlegen
+### Schritt 3: TiffOptions festlegen
 
 ```java
 int[] ushort = {8, 8, 8};
-// Erstellen Sie eine Instanz von TiffOptions für das resultierende Bild
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- Konfigurieren Sie die`TiffOptions` zum Speichern des angepassten Bildes. Passen Sie die`bitsPerSample` Und`photometric` Eigenschaften basierend auf Ihren spezifischen Anforderungen.
+Konfigurieren Sie die `TiffOptions` zum Speichern des angepassten Bildes. Passen Sie die Eigenschaften `bitsPerSample` und `photometric` je nach Ihren spezifischen Bedürfnissen an.
 
-## Schritt 4: Speichern Sie das resultierende Bild
+### Schritt 4: Ergebnisbild speichern
 
 ```java
-// Speichern Sie das resultierende Bild
+// Save the resultant image
 rasterImage.save(destName, tiffOptions);
 ```
 
- Speichern Sie das geänderte Bild abschließend unter dem angegebenen`TiffOptions`.
+Speichern Sie schließlich das modifizierte Bild mit den angegebenen `TiffOptions`.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Mit Aspose.PSD für Java können Sie die Helligkeit eines Bildes ganz einfach programmgesteuert anpassen. Dieses Tutorial bietet eine umfassende Anleitung zur Implementierung dieser Funktion in Ihren Java-Anwendungen.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| **`ClassCastException` beim Casten von Image** | Die Datei ist kein Rasterbild (z. B. ein vektorbasierter PSD). | Überprüfen Sie das Quellformat oder verwenden Sie `image instanceof RasterImage` vor dem Casten. |
+| **Helligkeitsänderung hat keine Wirkung** | Das Bild wurde vor der Anpassung nicht zwischengespeichert. | Rufen Sie `rasterImage.cacheData()` wie in Schritt 1 gezeigt auf. |
+| **Gespeicherte Datei erscheint beschädigt** | Falsche `TiffOptions`‑Konfiguration. | Stellen Sie sicher, dass `bitsPerSample` der Tiefe des Quellbildes entspricht (gewöhnlich 8‑Bit pro Kanal). |
 
 ## Häufig gestellte Fragen
 
-### F1: Kann ich die Helligkeit auch in anderen Bildformaten als PSD anpassen?
+### Q1: Kann ich die Helligkeit in anderen Bildformaten außer PSD anpassen?
 
 A1: Ja, Aspose.PSD für Java unterstützt verschiedene Bildformate wie JPEG, PNG und TIFF.
 
-### F2: Wie kann ich mit Fehlern während des Bildanpassungsprozesses umgehen?
+### Q2: Wie kann ich Fehler während des Bildanpassungsprozesses behandeln?
 
-A2: Sie können die Fehlerbehandlung mithilfe von Try-Catch-Blöcken implementieren, um eventuell auftretende Ausnahmen zu verwalten.
+A2: Sie können Fehlerbehandlung mit try‑catch‑Blöcken implementieren, um auftretende Ausnahmen zu verwalten.
 
-### F3: Gibt es eine Grenze für den Bereich der Helligkeitseinstellung?
+### Q3: Gibt es eine Grenze für den Bereich der Helligkeitsanpassung?
 
-A3: Der Anpassungsumfang hängt vom Bildinhalt und -format ab, aber Aspose.PSD bietet Flexibilität bei der Anpassung.
+A3: Der Anpassungsbereich hängt vom Bildinhalt und -format ab, aber Aspose.PSD bietet Flexibilität bei der Anpassung.
 
-### F4: Kann ich Aspose.PSD für Java in kommerziellen Projekten verwenden?
+### Q4: Kann ich Aspose.PSD für Java in kommerziellen Projekten verwenden?
 
- A4: Ja, Aspose.PSD für Java ist eine kommerzielle Bibliothek und Sie können eine Lizenz erhalten von[Hier](https://purchase.aspose.com/buy).
+A4: Ja, Aspose.PSD für Java ist eine kommerzielle Bibliothek, und Sie können eine Lizenz [hier](https://purchase.aspose.com/buy) erwerben.
 
-### F5: Gibt es eine kostenlose Testversion von Aspose.PSD für Java?
+### Q5: Gibt es eine kostenlose Testversion von Aspose.PSD für Java?
 
- A5: Ja, Sie können die Bibliothek mit einer kostenlosen Testversion erkunden von[Hier](https://releases.aspose.com/).
+A5: Ja, Sie können die Bibliothek mit einer kostenlosen Testversion [hier](https://releases.aspose.com/) ausprobieren.
+
+### Q6: Beeinflusst die Methode `adjustBrightness` die Sichtbarkeit von Ebenen?
+
+A6: Die Methode arbeitet am rasterisierten Composite‑Bild, sodass die Ebenensichtbarkeit während der Rasterisierung berücksichtigt wird.
+
+### Q7: Kann ich mehrere Anpassungen (z. B. Kontrast, Sättigung) hintereinander ausführen?
+
+A7: Absolut. Nach der Helligkeitsanpassung können Sie `adjustContrast`, `adjustSaturation` usw. auf derselben `RasterImage`‑Instanz aufrufen.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-19  
+**Getestet mit:** Aspose.PSD für Java 24.12 (zum Zeitpunkt der Erstellung)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

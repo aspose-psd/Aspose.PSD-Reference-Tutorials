@@ -1,10 +1,11 @@
 ---
-title: Aspose.PSD for Java で画像の明るさを調整する
-linktitle: 画像の明るさを調整する
+date: 2025-12-19
+description: Aspose.PSD for Java を使用して画像の明るさを調整する方法を学びましょう。この Java 画像操作チュートリアルは、ステップバイステップのガイドを提供します。
+linktitle: Adjust Brightness of an Image
 second_title: Aspose.PSD Java API
-description: Aspose.PSD を使用して Java で画像の明るさを強化します。プログラムで画像の明るさを調整するためのステップバイステップ ガイド。
-weight: 21
+title: Aspose.PSD for Java を使用して画像の明るさを調整する方法
 url: /ja/java/advanced-techniques/adjust-brightness/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +14,37 @@ url: /ja/java/advanced-techniques/adjust-brightness/
 
 # Aspose.PSD for Java で画像の明るさを調整する
 
-## 導入
+## はじめに
 
-画像の強調は、グラフィック デザインやデジタル写真では一般的な要件です。Aspose.PSD for Java は、プログラムで画像の明るさを調整するための強力なソリューションを提供します。このチュートリアルでは、Aspose.PSD for Java ライブラリを使用して画像の明るさを調整する方法を段階的に説明します。
+Java のコードから直接画像の **明るさの調整方法を学びたい** 方は、ここが最適です。明るさの微調整は、グラフィックデザイナー、写真家、画像処理パイプラインを構築するすべての人に頻繁に求められる作業です。この **java 画像操作チュートリアル** では、PSD/TIFF の読み込み、明るさオフセットの適用、結果の保存という一連の流れを、Aspose.PSD for Java ライブラリを使って解説します。
+
+## クイック回答
+- **どのライブラリが明るさを扱うか？** Aspose.PSD for Java  
+- **どのメソッドが明るさを変更するか？** `RasterImage.adjustBrightness()`  
+- **PSD と TIFF ファイルを扱えるか？** はい、API は両方の形式をサポートしています。  
+- **本番環境でライセンスは必要か？** 評価版以外の使用には商用ライセンスが必要です。  
+- **実装にかかる時間は？** 基本的な調整であれば通常 10 分未満です。
+
+## 画像の明るさ調整とは？
+
+画像の明るさ調整は、画像内のすべてのピクセルの全体的な明るさを変更する操作です。明るさを上げると暗部が明るくなり、下げると全体が暗くなります。この操作は、露出不足の写真の補正、印刷用アセットの準備、アプリケーションでのビジュアルエフェクト作成などに有用です。
+
+## Aspose.PSD for Java を選ぶ理由
+
+- **フルフォーマットサポート** – PSD、TIFF、JPEG、PNG など多数。  
+- **外部ネイティブ依存なし** – 純粋な Java で、統合が簡単。  
+- **高性能キャッシュ** – ラスター データをキャッシュでき、繰り返し操作が高速。  
+- **リッチ API** – カラー補正、レイヤー、マスク、その他高度な編集用メソッドを提供。
 
 ## 前提条件
 
-チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
+チュートリアルに入る前に、以下の前提条件を満たしていることを確認してください。
 
--  Aspose.PSD for Javaライブラリ:ライブラリを以下のサイトからダウンロードしてインストールします。[Aspose.PSD for Java ドキュメント](https://reference.aspose.com/psd/java/).
+- Aspose.PSD for Java ライブラリ: [Aspose.PSD for Java ドキュメント](https://reference.aspose.com/psd/java/) からダウンロードしてインストールしてください。
 
 ## パッケージのインポート
 
-まず、必要なパッケージを Java プロジェクトにインポートします。この例では、次のものを使用します。
+まず、Java プロジェクトに必要なパッケージをインポートします。この例では以下を使用します。
 
 ```java
 import com.aspose.psd.Image;
@@ -36,83 +55,104 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-ここで、画像の明るさを調整するプロセスを簡単な手順に分解してみましょう。
+次に、画像の明るさ調整プロセスをシンプルな手順に分解していきます。
 
-## ステップ1: 画像を読み込む
+## Aspose.PSD を使った明るさ調整手順
+
+### 手順 1: 画像を読み込む
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "AdjustBrightness_out.tiff";
 
-//既存の画像をRasterImageクラスのインスタンスに読み込みます
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
-// Image のオブジェクトを RasterImage にキャストする
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage) image;
 
-//RasterImage がキャッシュされているかどうかを確認し、パフォーマンスを向上させるために RasterImage をキャッシュします。
+// Check if RasterImage is cached and Cache RasterImage for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
-このステップでは、ターゲット画像をロードし、`RasterImage`さらに処理するため。
+このステップでは対象画像を読み込み、さらに処理するために `RasterImage` にキャストします。
 
-## ステップ2: 明るさを調整する
+### 手順 2: 明るさを調整する
 
 ```java
-//明るさを調整する
+// Adjust the brightness
 rasterImage.adjustBrightness(-50);
 ```
 
-ここでは、`adjustBrightness`画像の明るさを変更する方法。この例では明るさを 50 単位下げていますが、この値は必要に応じてカスタマイズできます。
+ここで `adjustBrightness` メソッドを使って画像の明るさを変更します。この例では明るさを 50 ユニット減少させていますが、要件に合わせて値をカスタマイズできます。
 
-## ステップ3: TiffOptionsを設定する
+### 手順 3: TiffOptions を設定する
 
 ```java
 int[] ushort = {8, 8, 8};
-//結果画像のTiffOptionsインスタンスを作成する
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-設定する`TiffOptions`調整した画像を保存するためのものです。`bitsPerSample`そして`photometric`特定のニーズに基づいたプロパティ。
+調整後の画像を保存するための `TiffOptions` を構成します。`bitsPerSample` や `photometric` プロパティは、必要に応じて調整してください。
 
-## ステップ4: 結果画像を保存する
+### 手順 4: 結果画像を保存する
 
 ```java
-//結果画像を保存する
+// Save the resultant image
 rasterImage.save(destName, tiffOptions);
 ```
 
-最後に、指定された方法で変更した画像を保存します。`TiffOptions`.
+最後に、指定した `TiffOptions` を使用して変更された画像を保存します。
 
-## 結論
+## よくある問題と解決策
 
-Aspose.PSD for Java を使用すると、プログラムで画像の明るさを簡単に調整できます。このチュートリアルでは、Java アプリケーションでこの機能を実装するための包括的なガイドを提供します。
+| 問題 | 原因 | 解決策 |
+|------|------|--------|
+| **`ClassCastException` が発生する** | ファイルがラスタ画像ではなくベクタ PSD などである | ソースファイル形式を確認するか、キャスト前に `image instanceof RasterImage` をチェックしてください。 |
+| **明るさの変更が反映されない** | 調整前に画像がキャッシュされていない | 手順 1 のように `rasterImage.cacheData()` を呼び出してください。 |
+| **保存したファイルが破損して見える** | `TiffOptions` の設定が誤っている | `bitsPerSample` が元画像の深度（通常はチャンネルあたり 8 ビット）と一致していることを確認してください。 |
 
-## よくある質問
+## FAQ（よくある質問）
 
-### Q1: PSD以外の画像形式でも明るさを調整できますか？
+### Q1: PSD 以外の画像形式でも明るさを調整できますか？
 
-A1: はい、Aspose.PSD for Java は JPEG、PNG、TIFF などのさまざまな画像形式をサポートしています。
+A1: はい、Aspose.PSD for Java は JPEG、PNG、TIFF などさまざまな画像形式をサポートしています。
 
-### Q2: 画像調整プロセス中にエラーが発生した場合、どのように対処すればよいですか?
+### Q2: 画像調整中にエラーが発生した場合、どう対処すればよいですか？
 
-A2: 発生する可能性のある例外を管理するために、try-catch ブロックを使用してエラー処理を実装できます。
+A2: try‑catch ブロックを使用して例外を捕捉し、適切に処理できます。
 
 ### Q3: 明るさ調整の範囲に制限はありますか？
 
-A3: 調整範囲は画像の内容と形式によって異なりますが、Aspose.PSD では柔軟にカスタマイズできます。
+A3: 調整範囲は画像の内容とフォーマットに依存しますが、Aspose.PSD は柔軟にカスタマイズ可能です。
 
-### Q4: Aspose.PSD for Java を商用プロジェクトで使用できますか?
+### Q4: 商用プロジェクトで Aspose.PSD for Java を使用できますか？
 
- A4: はい、Aspose.PSD for Javaは商用ライブラリであり、ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/buy).
+A4: はい、商用ライセンスを取得すれば使用可能です。ライセンスは[こちら](https://purchase.aspose.com/buy)から入手できます。
 
-### Q5: Aspose.PSD for Java の無料試用版はありますか?
+### Q5: 無料トライアルはありますか？
 
- A5: はい、無料トライアルでライブラリを探索できます。[ここ](https://releases.aspose.com/).
+A5: はい、[こちら](https://releases.aspose.com/)から無料トライアルをご利用いただけます。
+
+### Q6: `adjustBrightness` メソッドはレイヤーの表示状態に影響しますか？
+
+A6: このメソッドはラスタライズされた合成画像に対して動作するため、ラスタライズ時にレイヤーの可視性は考慮されます。
+
+### Q7: 複数の調整（コントラスト、彩度など）を連続して適用できますか？
+
+A7: もちろん可能です。明るさ調整後に同じ `RasterImage` インスタンスで `adjustContrast`、`adjustSaturation` などを呼び出せます。
+
+---
+
+**最終更新日:** 2025-12-19  
+**テスト環境:** Aspose.PSD for Java 24.12（執筆時点での最新バージョン）  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

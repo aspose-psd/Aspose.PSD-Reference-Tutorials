@@ -1,31 +1,51 @@
 ---
-title: ปรับความสว่างของภาพด้วย Aspose.PSD สำหรับ Java
-linktitle: ปรับความสว่างของภาพ
+date: 2025-12-19
+description: เรียนรู้วิธีปรับความสว่างของภาพโดยใช้ Aspose.PSD สำหรับ Java. บทแนะนำการจัดการภาพด้วย
+  Java นี้ให้คำแนะนำแบบทีละขั้นตอน.
+linktitle: Adjust Brightness of an Image
 second_title: Aspose.PSD Java API
-description: เพิ่มความสว่างของภาพใน Java ด้วย Aspose.PSD คำแนะนำทีละขั้นตอนในการปรับความสว่างของภาพโดยทางโปรแกรม
-weight: 21
+title: วิธีปรับความสว่างของภาพด้วย Aspose.PSD สำหรับ Java
 url: /th/java/advanced-techniques/adjust-brightness/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ปรับความสว่างของภาพด้วย Aspose.PSD สำหรับ Java
+# ปรับความสว่างของภาพด้วย Aspose.PSD for Java
 
-## การแนะนำ
+## บทนำ
 
-การปรับปรุงรูปภาพเป็นข้อกำหนดทั่วไปในการออกแบบกราฟิกและการถ่ายภาพดิจิทัล Aspose.PSD สำหรับ Java มอบโซลูชันอันทรงพลังสำหรับการปรับความสว่างของภาพโดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ไลบรารี Aspose.PSD สำหรับ Java เพื่อปรับความสว่างของรูปภาพทีละขั้นตอน
+If you need to **learn how to adjust brightness** of a picture directly from Java code, you’re in the right place. Brightness tweaking is a frequent task for graphic designers, photographers, and anyone building image‑processing pipelines. In this **java image manipulation tutorial** we’ll walk through the complete workflow—loading a PSD/TIFF, applying a brightness offset, and saving the result—using the Aspose.PSD for Java library.
+
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีที่จัดการความสว่างคืออะไร?** Aspose.PSD for Java  
+- **เมธอดที่เปลี่ยนความสว่างคืออะไร?** `RasterImage.adjustBrightness()`  
+- **ฉันสามารถทำงานกับไฟล์ PSD และ TIFF ได้หรือไม่?** ใช่, API รองรับทั้งสองรูปแบบ.  
+- **ต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานที่ไม่ใช่การประเมิน.  
+- **ใช้เวลานานเท่าไหร่ในการทำงานนี้?** ปกติใช้เวลาน้อยกว่า 10 นาทีสำหรับการปรับพื้นฐาน.
+
+## การปรับความสว่างของภาพคืออะไร?
+
+Image brightness adjustment changes the overall lightness of every pixel in an image. Increasing brightness makes dark areas lighter, while decreasing it darkens the entire picture. This operation is useful for correcting underexposed photos, preparing assets for print, or creating visual effects in applications.
+
+## ทำไมต้องใช้ Aspose.PSD for Java?
+
+- **การสนับสนุนรูปแบบเต็ม** – PSD, TIFF, JPEG, PNG, และอื่น ๆ.  
+- **ไม่มีการพึ่งพาเนทีฟภายนอก** – Java แท้, ง่ายต่อการรวม.  
+- **แคชประสิทธิภาพสูง** – ข้อมูลแรสเตอร์สามารถแคชเพื่อการทำงานซ้ำที่เร็วขึ้น.  
+- **API ที่ครบครัน** – เมธอดสำหรับการแก้สี, เลเยอร์, มาสก์, และการแก้ไขขั้นสูงอื่น ๆ.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+Before diving into the tutorial, ensure you have the following prerequisites:
 
--  Aspose.PSD สำหรับ Java Library: ดาวน์โหลดและติดตั้งไลบรารีจาก[Aspose.PSD สำหรับเอกสาร Java](https://reference.aspose.com/psd/java/).
+- Aspose.PSD for Java Library: ดาวน์โหลดและติดตั้งไลบรารีจาก [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).
 
-## แพ็คเกจนำเข้า
+## นำเข้าแพ็กเกจ
 
-ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ ในตัวอย่างนี้ เราจะใช้สิ่งต่อไปนี้:
+To begin, import the necessary packages into your Java project. In this example, we'll use the following:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,83 +56,102 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-ตอนนี้ เรามาแบ่งขั้นตอนการปรับความสว่างของภาพออกเป็นขั้นตอนง่ายๆ กัน:
+Now, let's break down the process of adjusting the brightness of an image into simple steps:
 
-## ขั้นตอนที่ 1: โหลดรูปภาพ
+## วิธีปรับความสว่างโดยใช้ Aspose.PSD
+
+### ขั้นตอนที่ 1: โหลดภาพ
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "AdjustBrightness_out.tiff";
 
-// โหลดรูปภาพที่มีอยู่ลงในอินสแตนซ์ของคลาส RasterImage
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
-// ส่งวัตถุของ Image ไปยัง RasterImage
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage) image;
 
-// ตรวจสอบว่า RasterImage ถูกแคชและ Cache RasterImage เพื่อประสิทธิภาพที่ดีขึ้นหรือไม่
+// Check if RasterImage is cached and Cache RasterImage for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
- ในขั้นตอนนี้ เราจะโหลดภาพเป้าหมายและส่งไปที่`RasterImage` เพื่อนำไปแปรรูปต่อไป
+ในขั้นตอนนี้ เราโหลดภาพเป้าหมายและแคสต์เป็น `RasterImage` เพื่อการประมวลผลต่อไป.
 
-## ขั้นตอนที่ 2: ปรับความสว่าง
+### ขั้นตอนที่ 2: ปรับความสว่าง
 
 ```java
-// ปรับความสว่าง
+// Adjust the brightness
 rasterImage.adjustBrightness(-50);
 ```
 
- ในที่นี้เราใช้.`adjustBrightness`วิธีการปรับความสว่างของภาพ ในตัวอย่างนี้ เราลดความสว่างลง 50 หน่วย แต่คุณปรับแต่งค่านี้ตามความต้องการของคุณได้
+ที่นี่ เราใช้เมธอด `adjustBrightness` เพื่อปรับความสว่างของภาพ ในตัวอย่างนี้ เราลดความสว่างลง 50 หน่วย แต่คุณสามารถปรับค่าตามความต้องการของคุณได้.
 
-## ขั้นตอนที่ 3: ตั้งค่า TiffOptions
+### ขั้นตอนที่ 3: ตั้งค่า TiffOptions
 
 ```java
 int[] ushort = {8, 8, 8};
-// สร้างอินสแตนซ์ของ TiffOptions สำหรับรูปภาพผลลัพธ์
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
- กำหนดค่า`TiffOptions` เพื่อบันทึกภาพที่ปรับแล้ว ปรับ`bitsPerSample` และ`photometric` คุณสมบัติตามความต้องการเฉพาะของคุณ
+กำหนดค่า `TiffOptions` สำหรับการบันทึกภาพที่ปรับแล้ว ปรับคุณสมบัติ `bitsPerSample` และ `photometric` ตามความต้องการของคุณ.
 
-## ขั้นตอนที่ 4: บันทึกรูปภาพผลลัพธ์
+### ขั้นตอนที่ 4: บันทึกภาพผลลัพธ์
 
 ```java
-// บันทึกภาพที่ได้
+// Save the resultant image
 rasterImage.save(destName, tiffOptions);
 ```
 
- สุดท้ายให้บันทึกภาพที่แก้ไขโดยใช้ที่ระบุ`TiffOptions`.
+สุดท้าย บันทึกภาพที่แก้ไขโดยใช้ `TiffOptions` ที่ระบุ.
 
-## บทสรุป
+## ปัญหาทั่วไปและวิธีแก้
 
-การปรับความสว่างของภาพโดยทางโปรแกรมทำได้ง่ายด้วย Aspose.PSD สำหรับ Java บทช่วยสอนนี้ได้ให้คำแนะนำที่ครอบคลุมเกี่ยวกับการใช้งานฟังก์ชันนี้ในแอปพลิเคชัน Java ของคุณ
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| **`ClassCastException` เมื่อทำการแคสต์ Image** | ไฟล์ไม่ใช่ภาพแรสเตอร์ (เช่น PSD เวกเตอร์). | ตรวจสอบรูปแบบไฟล์ต้นทางหรือใช้ `image instanceof RasterImage` ก่อนทำการแคสต์. |
+| **การเปลี่ยนแปลงความสว่างไม่มีผล** | ภาพไม่ได้ถูกแคชก่อนการปรับ. | เรียก `rasterImage.cacheData()` ตามที่แสดงในขั้นตอน 1. |
+| **ไฟล์ที่บันทึกดูเหมือนเสียหาย** | การกำหนดค่า `TiffOptions` ไม่ถูกต้อง. | ตรวจสอบให้แน่ใจว่า `bitsPerSample` ตรงกับความลึกของภาพต้นทาง (โดยทั่วไป 8‑บิตต่อช่อง). |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถปรับความสว่างในรูปแบบภาพอื่นนอกเหนือจาก PSD ได้หรือไม่
+### Q1: ฉันสามารถปรับความสว่างในรูปแบบภาพอื่น ๆ นอกจาก PSD ได้หรือไม่?
 
-ตอบ 1: ใช่ Aspose.PSD สำหรับ Java รองรับรูปแบบรูปภาพที่หลากหลาย เช่น JPEG, PNG และ TIFF
+A1: ใช่, Aspose.PSD for Java รองรับรูปแบบภาพหลายประเภทเช่น JPEG, PNG, และ TIFF.
 
-### คำถามที่ 2: ฉันจะจัดการกับข้อผิดพลาดระหว่างขั้นตอนการปรับแต่งภาพได้อย่างไร
+### Q2: ฉันจะจัดการข้อผิดพลาดระหว่างกระบวนการปรับภาพอย่างไร?
 
-A2: คุณสามารถใช้การจัดการข้อผิดพลาดโดยใช้บล็อก try-catch เพื่อจัดการข้อยกเว้นที่อาจเกิดขึ้น
+A2: คุณสามารถทำการจัดการข้อผิดพลาดโดยใช้บล็อก try‑catch เพื่อจัดการกับข้อยกเว้นที่อาจเกิดขึ้น.
 
-### คำถามที่ 3: มีการจำกัดช่วงการปรับความสว่างหรือไม่?
+### Q3: มีขอบเขตจำกัดสำหรับการปรับความสว่างหรือไม่?
 
-A3: ช่วงของการปรับแต่งขึ้นอยู่กับเนื้อหาและรูปแบบของภาพ แต่ Aspose.PSD ให้ความยืดหยุ่นในการปรับแต่ง
+A3: ขอบเขตการปรับขึ้นอยู่กับเนื้อหาและรูปแบบของภาพ, แต่ Aspose.PSD ให้ความยืดหยุ่นในการปรับแต่ง.
 
-### คำถามที่ 4: ฉันสามารถใช้ Aspose.PSD สำหรับ Java ในโครงการเชิงพาณิชย์ได้หรือไม่
+### Q4: ฉันสามารถใช้ Aspose.PSD for Java ในโครงการเชิงพาณิชย์ได้หรือไม่?
 
- A4: ใช่ Aspose.PSD สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ และคุณสามารถขอรับใบอนุญาตได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+A4: ใช่, Aspose.PSD for Java เป็นไลบรารีเชิงพาณิชย์, และคุณสามารถรับไลเซนส์ได้จาก [here](https://purchase.aspose.com/buy).
 
-### คำถามที่ 5: Aspose.PSD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
+### Q5: มีการทดลองใช้งานฟรีสำหรับ Aspose.PSD for Java หรือไม่?
 
- A5: ได้ คุณสามารถสำรวจห้องสมุดได้โดยทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+A5: ใช่, คุณสามารถสำรวจไลบรารีด้วยการทดลองใช้งานฟรีจาก [here](https://releases.aspose.com/).
+
+### Q6: เมธอด `adjustBrightness` มีผลต่อการมองเห็นเลเยอร์หรือไม่?
+
+A6: เมธอดทำงานบนภาพคอมโพสิตที่แรสเตอร์แล้ว, ดังนั้นการมองเห็นเลเยอร์จะได้รับการเคารพในระหว่างการแรสเตอร์.
+
+### Q7: ฉันสามารถเชื่อมต่อการปรับหลายอย่าง (เช่น คอนทราสต์, ความอิ่มตัว) เข้าด้วยกันได้หรือไม่?
+
+A7: แน่นอน. หลังจากปรับความสว่าง, คุณสามารถเรียก `adjustContrast`, `adjustSaturation` ฯลฯ บนอินสแตนซ์ `RasterImage` เดียวกัน.
+
+**อัปเดตล่าสุด:** 2025-12-19  
+**ทดสอบกับ:** Aspose.PSD for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
