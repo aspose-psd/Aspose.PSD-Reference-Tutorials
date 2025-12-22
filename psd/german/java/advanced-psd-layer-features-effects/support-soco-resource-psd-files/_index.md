@@ -138,22 +138,6 @@ finally {
 ## Fazit
 Sie wissen jetzt, **wie man SoCo‑Ressourcen bearbeitet** und **die PSD‑Ebenenfarbe** mit Aspose.PSD für Java ändert. Diese Technik vereinfacht massenhafte Bildupdates und lässt sich nahtlos in Java‑basierte Pipelines integrieren. Experimentieren Sie gern mit anderen Ebenen‑Ressourcen – Aspose.PSD gibt Ihnen die volle Kontrolle über Photoshop‑Dateien, ohne die GUI zu öffnen.
 
-## FAQ's
-### Was ist Aspose.PSD für Java?
-Aspose.PSD für Java ist eine Bibliothek, die Entwicklern ermöglicht, PSD‑Dateien innerhalb ihrer Java‑Anwendungen zu manipulieren.
-
-### Kann ich Aspose.PSD kostenlos nutzen?
-Ja! Sie können mit einer kostenlosen Testversion beginnen, die [hier](https://releases.aspose.com/) verfügbar ist.
-
-### Wie installiere ich Aspose.PSD für Java?
-Sie können es von [diesem Link](https://releases.aspose.com/psd/java/) herunterladen.
-
-### Gibt es Support für Aspose.PSD?
-Ja, es gibt ein dediziertes [Support‑Forum](https://forum.aspose.com/c/psd/34).
-
-### Welche Ressourcentypen kann ich in einer PSD‑Datei manipulieren?
-Sie können verschiedene Ressourcen bearbeiten, darunter Ebenen, Füllebenen und SoCo‑Ressourcen innerhalb der PSD‑Datei.
-
 ## Häufig gestellte Fragen
 
 **F: Kann ich mehrere PSD‑Dateien stapelweise bearbeiten?**  

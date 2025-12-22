@@ -170,22 +170,6 @@ im.dispose();
 ## Összegzés
 Gratulálunk! Most már részletesen végigvezettük a **vektor maszk** (Vmsk) erőforrások létrehozását PSD fájlokban az Aspose.PSD for Java segítségével. A kép betöltésétől, a Vmsk erőforrás lekérésén és ellenőrzésén, a tulajdonságok szerkesztésén, a módosított PSD mentéséig most már szilárd alapokkal rendelkezel a vektor maszk munkafolyamatok automatizálásához. Használd ezeket a technikákat a tervezési csővezetékek gazdagításához, integráld más Aspose API‑kkal (például PSD‑t PNG‑re konvertálás), vagy építs egyedi grafikai eszközöket.
 
-## Gyakran ismételt kérdések
-### Mi az a Vmsk erőforrás?
-A Vmsk erőforrás egy vektor maszk egy PSD fájlban, amely lehetővé teszi összetett vektor alakzatok és szerkesztési funkciók használatát.
-
-### Használhatom az Aspose.PSD-t Maven projektben?
-Igen, az Aspose.PSD hozzáadható Maven projekt függőségként a tároló koordinátáival.
-
-### Milyen formátumban menthetem a módosított PSD fájlokat?
-Vissza mentheted őket PSD fájlként, vagy exportálhatod más formátumokba, például PNG, JPEG stb.
-
-### Elérhető ingyenes próba a Aspose.PSD-hez?
-Igen, elérhető ingyenes próba a Aspose.PSD funkcióinak teszteléséhez. Látogasd meg a [free trial link](https://releases.aspose.com/) oldalt.
-
-### Hogyan kaphatok támogatást az Aspose.PSD-hez?
-Csatlakozhatsz az [Aspose fórumhoz](https://forum.aspose.com/c/psd/34) támogatás és hibakeresési segítségért.
-
 ## Gyakran feltett kérdések
 **K: Hogyan adhatok hozzá új vektor maszkot egy meglévő réteghez?**  
 Válasz: Hozz létre egy `VmskResource`‑t, töltsd fel a szükséges útvonal rekordokkal (például `BezierKnotRecord`), és csatold a réteg erőforrás gyűjteményéhez.
@@ -202,15 +186,15 @@ Válasz: Az összes legújabb kiadás (2024‑2025) támogatja a Java 8 és úja
 **K: Szükségem van licencre fejlesztői build-ekhez?**  
 Válasz: Fejlesztéshez és teszteléshez ingyenes értékelő licenc használható. A termelési bevetéshez kereskedelmi licenc szükséges.
 
+---
+
+**Utolsó frissítés:** 2025-12-18  
+**Tesztelve a következővel:** Aspose.PSD 24.11 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-18  
-**Tesztelve a következővel:** Aspose.PSD 24.11 for Java  
-**Szerző:** Aspose

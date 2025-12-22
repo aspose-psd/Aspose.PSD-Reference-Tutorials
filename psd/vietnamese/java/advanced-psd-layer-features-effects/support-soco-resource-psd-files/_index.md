@@ -138,25 +138,6 @@ finally {
 ## Kết luận
 Bạn giờ đã biết **cách chỉnh sửa tài nguyên SoCo** và **thay đổi màu lớp PSD** bằng Aspose.PSD cho Java. Kỹ thuật này giúp đơn giản hoá việc cập nhật hàng loạt hình ảnh và tích hợp mượt mà vào các pipeline dựa trên Java. Hãy thoải mái thử nghiệm các tài nguyên lớp khác—Aspose.PSD cung cấp cho bạn toàn quyền kiểm soát các tệp Photoshop mà không cần mở giao diện GUI.
 
-## Câu hỏi thường gặp
-### SoCo là gì?
-SoCo (Solid Color) là một tài nguyên màu nền trong Photoshop, thường được sử dụng cho các lớp fill.
-
-### Aspose.PSD cho Java là gì?
-Aspose.PSD cho Java là một thư viện cho phép các nhà phát triển thao tác với tệp PSD trong các ứng dụng Java của họ.
-
-### Tôi có thể sử dụng Aspose.PSD miễn phí không?
-Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn [tại đây](https://releases.aspose.com/).
-
-### Làm sao để cài đặt Aspose.PSD cho Java?
-Bạn có thể tải nó từ [liên kết này](https://releases.aspose.com/psd/java/).
-
-### Có hỗ trợ cho Aspose.PSD không?
-Có, có một [diễn đàn hỗ trợ](https://forum.aspose.com/c/psd/34) riêng.
-
-### Tôi có thể thao tác những loại tài nguyên nào trong tệp PSD?
-Bạn có thể thao tác nhiều tài nguyên, bao gồm các lớp, lớp fill và tài nguyên SoCo trong tệp PSD.
-
 ## Các câu hỏi thường gặp
 
 **Q: Tôi có thể chỉnh sửa nhiều tệp PSD trong một batch không?**  

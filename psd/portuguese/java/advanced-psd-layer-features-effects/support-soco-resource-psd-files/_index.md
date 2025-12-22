@@ -139,22 +139,6 @@ finally {
 Agora você sabe **como editar recursos SoCo** e **alterar a cor da camada PSD** usando Aspose.PSD for Java. Essa técnica simplifica atualizações em massa de imagens e se integra perfeitamente a pipelines baseados em Java. Sinta‑se à vontade para experimentar outros recursos de camada — o Aspose.PSD lhe dá controle total sobre arquivos Photoshop sem nunca abrir a interface gráfica.
 
 ## Perguntas Frequentes
-### O que é Aspose.PSD for Java?
-Aspose.PSD for Java é uma biblioteca que permite que desenvolvedores manipulem arquivos PSD dentro de suas aplicações Java.
-
-### Posso usar o Aspose.PSD gratuitamente?
-Sim! Você pode começar com uma avaliação gratuita disponível [aqui](https://releases.aspose.com/).
-
-### Como instalo o Aspose.PSD for Java?
-Você pode baixá‑lo a partir deste [link](https://releases.aspose.com/psd/java/).
-
-### Existe suporte para o Aspose.PSD?
-Sim, há um [forum de suporte](https://forum.aspose.com/c/psd/34) dedicado.
-
-### Que tipos de recursos posso manipular em um arquivo PSD?
-Você pode manipular vários recursos, incluindo camadas, camadas de preenchimento e recursos SoCo dentro do arquivo PSD.
-
-## Perguntas Frequentes
 
 **Q: Posso editar vários arquivos PSD em lote?**  
 A: Absolutamente. Envolva o código dentro de um loop que itere sobre uma lista de caminhos de arquivos e aplique a mesma modificação SoCo a cada arquivo.

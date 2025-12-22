@@ -173,37 +173,26 @@ im.dispose();
 
 ## Συχνές Ερωτήσεις
 
-### Τι είναι ένας Vmsk resource;
-Ένας Vmsk resource είναι ένα vector mask σε αρχείο PSD που επιτρέπει σύνθετα διανυσματικά σχήματα και δυνατότητες επεξεργασίας.
+**Ε: Πώς μπορώ να προσθέσω μια νέα μάσκα διανύσματος σε μια υπάρχουσα στρώση;**
+Α: Δημιουργήστε ένα `VmskResource`, συμπληρώστε το με τις απαιτούμενες εγγραφές διαδρομής (π.χ., `BezierKnotRecord`) και επισυνάψτε το στη συλλογή πόρων της στρώσης.
 
-### Μπορώ να χρησιμοποιήσω την Aspose.PSD σε έργο Maven;
-Ναι, μπορείτε να συμπεριλάβετε την Aspose.PSD ως εξάρτηση στο Maven project σας χρησιμοποιώντας τις συντεταγμένες της από το αποθετήριο.
+**Ε: Μπορώ να μετατρέψω το επεξεργασμένο PSD απευθείας σε PNG χωρίς να ανοίξω το Photoshop;**
+Α: Ναι—αφού αποθηκεύσω το PSD, φορτώστε το ξανά με το `Image.load()` και καλέστε το `im.save("output.png")` καθορίζοντας τη μορφή PNG.
 
-### Σε ποια μορφή μπορώ να αποθηκεύσω τα τροποποιημένα αρχεία PSD μου;
-Μπορείτε να τα αποθηκεύσετε ξανά ως αρχεία PSD ή να τα εξάγετε σε άλλες μορφές όπως PNG, JPEG κ.λπ.
+**Ε: Υπάρχει τρόπος να αυτοματοποιηθεί αυτό σε μια διοχέτευση CI/CD;**
+Α: Απολύτως. Δεδομένου ότι η διαδικασία είναι καθαρή Java, μπορείτε να την ενσωματώσετε σε builds Maven/Gradle, Docker containers ή οποιοδήποτε σύστημα CI που υποστηρίζει Java.
 
-### Υπάρχει δωρεάν δοκιμή για την Aspose.PSD;
-Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή της Aspose.PSD για να δοκιμάσετε τις δυνατότητές της. Επισκεφθείτε τον [free trial link](https://releases.aspose.com/).
+**Ε: Ποιες εκδόσεις του Aspose.PSD είναι συμβατές με την Java 11+;**
+Α: Όλες οι πρόσφατες εκδόσεις (2024-2025) υποστηρίζουν την Java 8 και νεότερες εκδόσεις, συμπεριλαμβανομένων των Java 11, 17 και νεότερων εκδόσεων LTS.
 
-### Πώς μπορώ να λάβω υποστήριξη για την Aspose.PSD;
-Μπορείτε να συμμετάσχετε στο [Aspose forum](https://forum.aspose.com/c/psd/34) για βοήθεια και υποστήριξη.
+**Ε: Χρειάζομαι άδεια χρήσης για builds ανάπτυξης;**
+Α: Μια δωρεάν άδεια χρήσης αξιολόγησης λειτουργεί για ανάπτυξη και δοκιμές. Για αναπτύξεις παραγωγής, απαιτείται εμπορική άδεια χρήσης. 
 
-## Συχνές Ερωτήσεις
+---
 
-**Q: How do I add a new vector mask to an existing layer?**  
-A: Create a `VmskResource`, populate it with the required path records (e.g., `BezierKnotRecord`), and attach it to the layer’s resources collection.  
-
-**Q: Can I convert the edited PSD directly to PNG without opening Photoshop?**  
-A: Yes—after saving the PSD, load it again with `Image.load()` and call `im.save("output.png")` specifying the PNG format.  
-
-**Q: Is there a way to automate this in a CI/CD pipeline?**  
-A: Absolutely. Since the process is pure Java, you can embed it in Maven/Gradle builds, Docker containers, or any CI system that supports Java.  
-
-**Q: What versions of Aspose.PSD are compatible with Java 11+?**  
-A: All recent releases (2024‑2025) support Java 8 and above, including Java 11, 17, and newer LTS versions.  
-
-**Q: Do I need a license for development builds?**  
-A: A free evaluation license works for development and testing. For production deployments, a commercial license is required.  
+**Τελευταία ενημέρωση:** 2025-12-18
+**Δοκιμάστηκε με:** Aspose.PSD 24.11 για Java
+**Συγγραφέας:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -211,11 +200,3 @@ A: A free evaluation license works for development and testing. For production d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
-
----

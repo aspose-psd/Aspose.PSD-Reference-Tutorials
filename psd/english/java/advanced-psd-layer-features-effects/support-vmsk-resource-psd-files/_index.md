@@ -168,22 +168,6 @@ im.dispose();
 ## Conclusion
 Congratulations! You’ve just stepped through a detailed process of **creating vector mask** (Vmsk) resources in PSD files using Aspose.PSD for Java. From loading the image, retrieving and validating the Vmsk resource, editing its properties, to saving your modified PSD, you now have a solid foundation for automating vector mask workflows. Use these techniques to enrich your design pipelines, integrate with other Aspose APIs (like converting PSD to PNG), or build custom graphics tools.
 
-## FAQ's
-### What is a Vmsk resource?
-A Vmsk resource is a vector mask in a PSD file that allows for complex vector shapes and editing features.
-
-### Can I use Aspose.PSD in a Maven project?
-Yes, you can include Aspose.PSD as a dependency in your Maven project using its coordinates from the repository.
-
-### What format can I save my modified PSD files in?
-You can save them back as PSD files or export them to other formats like PNG, JPEG, etc.
-
-### Is there a free trial available for Aspose.PSD?
-Yes, you can access a free trial of Aspose.PSD to test its features. Visit the [free trial link](https://releases.aspose.com/).
-
-### How can I get support for Aspose.PSD?
-You can join the [Aspose forum](https://forum.aspose.com/c/psd/34) for support and troubleshooting help.
-
 ## Frequently Asked Questions
 **Q: How do I add a new vector mask to an existing layer?**  
 A: Create a `VmskResource`, populate it with the required path records (e.g., `BezierKnotRecord`), and attach it to the layer’s resources collection.
@@ -200,17 +184,15 @@ A: All recent releases (2024‑2025) support Java 8 and above, including Java 11
 **Q: Do I need a license for development builds?**  
 A: A free evaluation license works for development and testing. For production deployments, a commercial license is required.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

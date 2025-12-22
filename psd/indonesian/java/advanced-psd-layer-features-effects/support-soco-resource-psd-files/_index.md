@@ -138,23 +138,6 @@ finally {
 ## Kesimpulan
 Anda kini mengetahui **cara mengedit SoCo** sumber daya dan **mengubah warna lapisan PSD** menggunakan Aspose.PSD untuk Java. Teknik ini mempermudah pembaruan gambar secara massal dan terintegrasi mulus ke dalam pipeline berbasis Java. Jangan ragu untuk bereksperimen dengan sumber daya lapisan lainnya—Aspose.PSD memberi Anda kontrol penuh atas file Photoshop tanpa harus membuka GUI.
 
-## FAQ
-
-### What is Aspose.PSD for Java?
-Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipulasi file PSD dalam aplikasi Java mereka.
-
-### Can I use Aspose.PSD for free?
-Ya! Anda dapat memulai dengan percobaan gratis yang tersedia [di sini](https://releases.aspose.com/).
-
-### How do I install Aspose.PSD for Java?
-Anda dapat mengunduhnya dari [tautan ini](https://releases.aspose.com/psd/java/).
-
-### Is there support for Aspose.PSD?
-Ya, terdapat forum [dukungan khusus](https://forum.aspose.com/c/psd/34).
-
-### What types of resources can I manipulate in a PSD file?
-Anda dapat memanipulasi berbagai sumber daya, termasuk lapisan, fill layer, dan sumber daya SoCo dalam file PSD.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Dapatkah saya mengedit banyak file PSD secara batch?**  

@@ -140,23 +140,6 @@ Je weet nu **hoe je SoCo‑resources** kunt bewerken en **de kleur van een PSD�
 
 ## Veelgestelde vragen
 
-### Wat is Aspose.PSD voor Java?
-Aspose.PSD voor Java is een bibliotheek waarmee ontwikkelaars PSD‑bestanden kunnen manipuleren binnen hun Java‑applicaties.
-
-### Kan ik Aspose.PSD gratis gebruiken?
-Ja! Je kunt beginnen met een gratis proefversie die beschikbaar is [hier](https://releases.aspose.com/).
-
-### Hoe installeer ik Aspose.PSD voor Java?
-Je kunt het downloaden via [deze link](https://releases.aspose.com/psd/java/).
-
-### Is er ondersteuning voor Aspose.PSD?
-Ja, er is een speciaal [ondersteuningsforum](https://forum.aspose.com/c/psd/34).
-
-### Welke soorten resources kan ik manipuleren in een PSD‑bestand?
-Je kunt diverse resources manipuleren, waaronder lagen, vul‑lagen en SoCo‑resources binnen het PSD‑bestand.
-
-## Frequently Asked Questions
-
 **Q: Kan ik meerdere PSD‑bestanden in één batch bewerken?**  
 A: Absoluut. Plaats de code in een lus die over een lijst met bestandspaden iterereert en pas dezelfde SoCo‑wijziging toe op elk bestand.
 
@@ -174,9 +157,9 @@ A: Het `finally`‑blok met `im.dispose()` zorgt ervoor dat alle native resource
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 18-12-2025
+**Getest met:** Aspose.PSD 24.11 voor Java
+**Auteur:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

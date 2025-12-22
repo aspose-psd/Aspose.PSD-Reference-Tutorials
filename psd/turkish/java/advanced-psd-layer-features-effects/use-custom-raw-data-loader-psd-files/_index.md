@@ -146,15 +146,15 @@ Destek ve topluluk yardımı için [Aspose forum](https://forum.aspose.com/c/psd
 ### Aspose.PSD için geçici bir lisans nasıl alabilirim?  
 Tüm özellikleri değerlendirmek amacıyla geçici lisans alabilirsiniz; bunun için [temporary license page](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret edin.
 
+---
+
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen Versiyon:** Aspose.PSD for Java (yazım anındaki en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen Versiyon:** Aspose.PSD for Java (yazım anındaki en son sürüm)  
-**Yazar:** Aspose

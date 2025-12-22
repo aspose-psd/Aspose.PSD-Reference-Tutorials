@@ -140,23 +140,6 @@ Nyní víte, **jak upravit SoCo** zdroje a **změnit barvu vrstvy PSD** pomocí 
 
 ## Často kladené otázky
 
-### Co je Aspose.PSD pro Javu?
-Aspose.PSD pro Javu je knihovna, která umožňuje vývojářům manipulovat se soubory PSD v jejich Java aplikacích.
-
-### Můžu používat Aspose.PSD zdarma?
-Ano! Můžete začít s bezplatnou zkušební verzí dostupnou [zde](https://releases.aspose.com/).
-
-### Jak nainstaluji Aspose.PSD pro Javu?
-Můžete si jej stáhnout z [tohoto odkazu](https://releases.aspose.com/psd/java/).
-
-### Existuje podpora pro Aspose.PSD?
-Ano, existuje vyhrazené [fórum podpory](https://forum.aspose.com/c/psd/34).
-
-### Jaké typy zdrojů mohu manipulovat v souboru PSD?
-Můžete manipulovat s různými zdroji, včetně vrstev, výplňových vrstev a SoCo zdrojů v souboru PSD.
-
-## Často kladené otázky
-
 **Q: Mohu upravit více souborů PSD najednou?**  
 A: Rozhodně. Zabalte kód do smyčky, která iteruje přes seznam cest k souborům a použije stejnou úpravu SoCo na každý soubor.
 

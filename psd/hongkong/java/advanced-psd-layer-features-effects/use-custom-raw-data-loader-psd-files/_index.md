@@ -145,15 +145,15 @@ Aspose.PSD for Java 是一套程式庫，讓開發者能以程式方式操作 PS
 ### 如何取得 Aspose.PSD 的臨時授權？  
 前往[臨時授權頁面](https://purchase.aspose.com/temporary-license/)即可取得，用於評估所有功能。
 
+---
+
+**最後更新：** 2025-12-18  
+**測試環境：** Aspose.PSD for Java（撰寫時的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-18  
-**測試環境：** Aspose.PSD for Java（撰寫時的最新版本）  
-**作者：** Aspose

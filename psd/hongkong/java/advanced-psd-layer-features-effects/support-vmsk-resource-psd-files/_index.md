@@ -169,22 +169,6 @@ im.dispose();
 ## 結論
 恭喜！您已完成使用 Aspose.PSD for Java 在 PSD 檔案中 **建立向量遮罩** (Vmsk) 資源的完整流程。從載入影像、取得並驗證 Vmsk 資源、編輯其屬性，到儲存已修改的 PSD，您現在具備自動化向量遮罩工作流程的堅實基礎。可運用這些技巧豐富設計管線、與其他 Aspose API（如 PSD 轉 PNG）整合，或打造自訂圖形工具。
 
-## 常見問答
-### 什麼是 Vmsk 資源？
-Vmsk 資源是 PSD 檔案中的向量遮罩，允許建立複雜的向量形狀與編輯功能。
-
-### 我可以在 Maven 專案中使用 Aspose.PSD 嗎？
-可以，您可在 Maven 專案中加入 Aspose.PSD 相依性，使用其在儲存庫中的座標。
-
-### 我可以將已修改的 PSD 檔案儲存為哪些格式？
-您可以將它們儲存回 PSD 檔，或匯出為 PNG、JPEG 等其他格式。
-
-### 是否提供 Aspose.PSD 的免費試用？
-是的，您可取得 Aspose.PSD 的免費試用版以測試功能。請前往 [free trial link](https://releases.aspose.com/)。
-
-### 我該如何取得 Aspose.PSD 的支援？
-您可加入 [Aspose forum](https://forum.aspose.com/c/psd/34) 取得支援與除錯協助。
-
 ## 常見問題
 **Q: 如何在現有圖層加入新的向量遮罩？**  
 A: 建立 `VmskResource`，填入必要的路徑記錄（例如 `BezierKnotRecord`），再將其附加至圖層的資源集合中。
@@ -201,15 +185,15 @@ A: 所有近期發行版（2024‑2025）皆支援 Java 8 以上，包括 Java 1
 **Q: 開發建置是否需要授權？**  
 A: 免費評估授權可用於開發與測試。正式上線時則需商業授權。
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose

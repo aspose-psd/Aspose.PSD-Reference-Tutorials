@@ -171,22 +171,6 @@ im.dispose();
 Gratulujeme! Právě jste prošli podrobným procesem **vytváření vektorové masky** (Vmsk) v souborech PSD pomocí Aspose.PSD pro Javu. Od načtení obrázku, získání a ověření Vmsk resource, úpravy jejích vlastností až po uložení upraveného PSD, nyní máte pevný základ pro automatizaci workflow vektorových masek. Použijte tyto techniky k obohacení vašich designových pipeline, integraci s dalšími Aspose API (např. převod PSD na PNG) nebo k vytvoření vlastních grafických nástrojů.
 
 ## Často kladené otázky
-### Co je Vmsk resource?
-Vmsk resource je vektorová maska v souboru PSD, která umožňuje komplexní vektorové tvary a editační funkce.
-
-### Mohu použít Aspose.PSD v Maven projektu?
-Ano, můžete zahrnout Aspose.PSD jako závislost ve vašem Maven projektu pomocí jeho koordinát z repozitáře.
-
-### V jakém formátu mohu uložit upravené PSD soubory?
-Můžete je uložit zpět jako PSD soubory nebo je exportovat do jiných formátů jako PNG, JPEG atd.
-
-### Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
-Ano, můžete získat bezplatnou zkušební verzi Aspose.PSD k vyzkoušení jeho funkcí. Navštivte [free trial link](https://releases.aspose.com/).
-
-### Jak mohu získat podporu pro Aspose.PSD?
-Můžete se připojit k [Aspose forum](https://forum.aspose.com/c/psd/34) pro podporu a pomoc s řešením problémů.
-
-## Často kladené otázky
 **Q: Jak přidám novou vektorovou masku k existující vrstvě?**  
 A: Vytvořte `VmskResource`, naplňte jej požadovanými záznamy cest (např. `BezierKnotRecord`) a připojte jej ke kolekci zdrojů vrstvy.
 
@@ -202,17 +186,15 @@ A: Všechny nedávné verze (2024‑2025) podporují Java 8 a vyšší, včetně
 **Q: Potřebuji licenci pro vývojové sestavení?**  
 A: Bezplatná evaluační licence funguje pro vývoj a testování. Pro produkční nasazení je vyžadována komerční licence.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-18  
 **Testováno s:** Aspose.PSD 24.11 for Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

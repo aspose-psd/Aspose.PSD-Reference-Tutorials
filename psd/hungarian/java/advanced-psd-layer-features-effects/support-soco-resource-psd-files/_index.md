@@ -139,23 +139,6 @@ finally {
 ## Következtetés
 Most már tudja, hogyan **edit SoCo** erőforrásokat és **change PSD layer color** színt módosítani az Aspose.PSD for Java segítségével. Ez a technika felgyorsítja a tömeges képfrissítéseket, és zökkenőmentesen integrálódik a Java‑alapú folyamatokba. Nyugodtan kísérletezzen más réteg‑erőforrásokkal — az Aspose.PSD teljes irányítást ad a Photoshop fájlok felett anélkül, hogy a GUI‑t megnyitná.
 
-## Gyakran ismételt kérdések
-
-### Mi az Aspose.PSD for Java?
-Az Aspose.PSD for Java egy könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PSD fájlokat manipuláljanak Java‑alkalmazásaikban.
-
-### Használhatom ingyen az Aspose.PSD-t?
-Igen! Ingyenes próba verzióval kezdhet, amely [itt](https://releases.aspose.com/) érhető el.
-
-### Hogyan telepíthetem az Aspose.PSD for Java-t?
-Letöltheti a [következő linken](https://releases.aspose.com/psd/java/).
-
-### Van támogatás az Aspose.PSD-hez?
-Igen, létezik egy dedikált [támogatási fórum](https://forum.aspose.com/c/psd/34).
-
-### Milyen típusú erőforrásokat tudok manipulálni egy PSD fájlban?
-Különféle erőforrásokat kezelhet, beleértve a rétegeket, kitöltő rétegeket és a SoCo erőforrásokat a PSD fájlban.
-
 ## Gyakran feltett kérdések
 
 **Q: Szerkeszthetek több PSD fájlt kötegben?**  
@@ -172,6 +155,8 @@ A: Exportálhatja a `PsdImage`‑t egy általános formátumba, például PNG‑
 
 **Q: Kézzel kell bezárni a képet?**  
 A: A `finally` blokkban lévő `im.dispose()` biztosítja, hogy minden natív erőforrás felszabadul, még akkor is, ha kivétel történik.
+
+---
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.PSD 24.11 for Java  

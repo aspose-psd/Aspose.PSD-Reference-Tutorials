@@ -138,22 +138,6 @@ finally {
 ## Sonuç
 Artık **SoCo** kaynaklarını ve **PSD katman rengini** Aspose.PSD for Java kullanarak nasıl düzenleyeceğinizi biliyorsunuz. Bu teknik, toplu görüntü güncellemelerini kolaylaştırır ve Java‑tabanlı iş akışlarına sorunsuz bir şekilde entegre olur. Başka katman kaynaklarıyla da denemeler yapın—Aspose.PSD, Photoshop dosyaları üzerinde GUI açmadan tam kontrol sağlar.
 
-## SSS
-### Aspose.PSD for Java nedir?
-Aspose.PSD for Java, geliştiricilerin Java uygulamaları içinde PSD dosyalarını manipüle etmelerini sağlayan bir kütüphanedir.
-
-### Aspose.PSD’yi ücretsiz kullanabilir miyim?
-Evet! Ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
-
-### Aspose.PSD for Java’yı nasıl kurarım?
-[Bu bağlantıdan](https://releases.aspose.com/psd/java/) indirebilirsiniz.
-
-### Aspose.PSD için destek var mı?
-Evet, özel bir [destek forumu](https://forum.aspose.com/c/psd/34) mevcuttur.
-
-### Bir PSD dosyasında hangi tür kaynakları manipüle edebilirim?
-Katmanlar, dolgu katmanları ve PSD dosyası içindeki SoCo kaynakları dahil olmak üzere çeşitli kaynakları manipüle edebilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Birden fazla PSD dosyasını toplu olarak düzenleyebilir miyim?**  

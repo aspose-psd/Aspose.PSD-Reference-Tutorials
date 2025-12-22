@@ -147,17 +147,15 @@ Támogatásért és közösségi segítségért látogasson el az [Aspose fórum
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
 Ideiglenes licencet a teljes funkcionalitás kiértékeléséhez a [ideiglenes licenc oldalán](https://purchase.aspose.com/temporary-license/) szerezhet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2025-12-18  
 **Tesztelve:** Aspose.PSD for Java (a legújabb verzió a írás időpontjában)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

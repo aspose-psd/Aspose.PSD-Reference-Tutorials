@@ -147,17 +147,15 @@ Aspose.PSD for Java — это библиотека, позволяющая ра
 ### Как получить временную лицензию для Aspose.PSD?  
 Временную лицензию для оценки всех функций можно получить на странице [временной лицензии](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-18  
 **Тестировано с:** Aspose.PSD for Java (последняя версия на момент написания)  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

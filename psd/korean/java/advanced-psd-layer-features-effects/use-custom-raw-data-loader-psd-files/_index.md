@@ -146,17 +146,15 @@ Aspose.PSD for Java는 [release page](https://releases.aspose.com/psd/java/)에�
 ### Aspose.PSD 임시 라이선스는 어떻게 얻나요?  
 모든 기능을 평가할 수 있는 임시 라이선스는 [temporary license page](https://purchase.aspose.com/temporary-license/)에서 획득할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2025-12-18  
 **테스트 환경:** Aspose.PSD for Java (작성 시 최신 버전)  
 **작성자:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

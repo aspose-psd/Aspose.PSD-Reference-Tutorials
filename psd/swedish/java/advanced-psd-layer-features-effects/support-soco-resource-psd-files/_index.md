@@ -138,22 +138,6 @@ finally {
 ## Slutsats
 Du vet nu **hur man redigerar SoCo**‑resurser och **ändrar PSD‑lagrets färg** med Aspose.PSD för Java. Denna teknik förenklar massuppdateringar av bilder och integreras smidigt i Java‑baserade pipelines. Känn dig fri att experimentera med andra lagerresurser – Aspose.PSD ger dig full kontroll över Photoshop‑filer utan att någonsin öppna GUI‑gränssnittet.
 
-## Vanliga frågor
-### Vad är Aspose.PSD för Java?
-Aspose.PSD för Java är ett bibliotek som låter utvecklare manipulera PSD‑filer inom sina Java‑applikationer.
-
-### Kan jag använda Aspose.PSD gratis?
-Ja! Du kan börja med en gratis provversion som finns [här](https://releases.aspose.com/).
-
-### Hur installerar jag Aspose.PSD för Java?
-Du kan ladda ner det från [den här länken](https://releases.aspose.com/psd/java/).
-
-### Finns det support för Aspose.PSD?
-Ja, det finns ett dedikerat [supportforum](https://forum.aspose.com/c/psd/34).
-
-### Vilka typer av resurser kan jag manipulera i en PSD‑fil?
-Du kan manipulera olika resurser, inklusive lager, fyllningslager och SoCo‑resurser i PSD‑filen.
-
 ## Vanliga frågor (FAQ)
 
 **Q: Kan jag redigera flera PSD‑filer i ett batch‑flöde?**  

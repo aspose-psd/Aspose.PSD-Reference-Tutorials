@@ -134,48 +134,25 @@ finally {
 - **Unsupported color formats（不支援的顏色格式）:** `Color.getRed()` 適用於標準 RGB；若需自訂值，請使用 `Color.fromArgb()`。  
 - **Performance（效能）:** 處理大型 PSD 時，可考慮將圖層處理放在獨立執行緒中，以保持 UI 響應。
 
-## 結論
-現在您已掌握使用 Aspose.PSD for Java **編輯 SoCo** 資源以及 **變更 PSD 圖層顏色** 的方法。此技巧可簡化大量影像更新，並順利整合至基於 Java 的工作流程中。歡迎嘗試其他圖層資源——Aspose.PSD 讓您在不開啟 GUI 的情況下，完整掌控 Photoshop 檔案。
+## 常見問題解答
 
-## 常見問答
+**問：我可以批次編輯多個 PSD 檔案嗎？ ** 答：當然可以。將程式碼放在一個循環中，該循環遍歷文件路徑列表，並將相同的 SoCo 修改應用於每個文件。
 
-### 什麼是 Aspose.PSD for Java？
-Aspose.PSD for Java 是一套讓開發者在 Java 應用程式中操作 PSD 檔案的程式庫。
+**問：更改 SoCo 顏色會影響其他圖層嗎？ ** 答：不會。變更僅限於包含您正在編輯的 SoCo 資源的特定 `FillLayer` 圖層。
 
-### 我可以免費使用 Aspose.PSD 嗎？
-可以！您可從 [here](https://releases.aspose.com/) 取得免費試用版。
+**問：如果 PSD 檔案中沒有 SoCo 資源怎麼辦？ ** 答：內部循環會直接跳過該圖層。如果需要，您可以新增一個備用方案來建立一個新的 SoCo 資源。
 
-### 如何安裝 Aspose.PSD for Java？
-請從 [this link](https://releases.aspose.com/psd/java/) 下載。
+**問：已儲存前可以預覽顏色變更嗎？ ** 答：您可以將 `PsdImage` 匯出為 PNG 等常用格式（`im.save("preview.png")`）來驗證結果。
 
-### 是否有 Aspose.PSD 的支援？
-有，請前往專屬的 [support forum](https://forum.aspose.com/c/psd/34)。
+Q：我需要手動關閉鏡像嗎？
 
-### 在 PSD 檔案中，我可以操作哪些類型的資源？
-您可以操作各種資源，包括圖層、填色圖層以及 PSD 檔案內的 SoCo 資源。
-
-## Frequently Asked Questions
-
-**Q: Can I edit multiple PSD files in a batch?**  
-A: Absolutely. Wrap the code inside a loop that iterates over a list of file paths and apply the same SoCo modification to each file.
-
-**Q: Does changing the SoCo color affect other layers?**  
-A: No. The change is isolated to the specific `FillLayer` that contains the SoCo resource you edit.
-
-**Q: What if the PSD has no SoCo resource?**  
-A: The inner loop will simply skip the layer. You can add a fallback to create a new SoCo resource if needed.
-
-**Q: Is there a way to preview the color change before saving?**  
-A: You can export the `PsdImage` to a common format like PNG (`im.save("preview.png")`) to verify the result.
-
-**Q: Do I need to close the image manually?**  
-A: The `finally` block with `im.dispose()` ensures all native resources are released, even if an exception occurs.
+答：`finally` 程式碼區塊中的 `im.dispose()` 可以確保所有本地資源都被釋放，即使發生異常也是如此。
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**上次更新：** 2025-12-18
+**測試版本：** Aspose.PSD 24.11 for Java
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

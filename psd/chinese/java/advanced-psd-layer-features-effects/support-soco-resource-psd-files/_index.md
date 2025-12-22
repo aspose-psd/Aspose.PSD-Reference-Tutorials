@@ -137,45 +137,35 @@ finally {
 ## 结论
 您现在已经掌握了使用 Aspose.PSD for Java **edit SoCo** 资源并 **change PSD layer color** 的方法。此技术可简化批量图像更新，并平滑集成到基于 Java 的流水线中。欢迎尝试其他图层资源——Aspose.PSD 让您无需打开 GUI 即可完全控制 Photoshop 文件。
 
-## 常见问题
+## 常见问题解答
 
-### What is Aspose.PSD for Java?
-Aspose.PSD for Java 是一个库，允许开发者在其 Java 应用程序中操作 PSD 文件。
-
-### Can I use Aspose.PSD for free?
-是的！您可以从 [here](https://releases.aspose.com/) 开始使用免费试用版。
-
-### How do I install Aspose.PSD for Java?
-您可以从 [this link](https://releases.aspose.com/psd/java/) 下载并安装。
-
-### Is there support for Aspose.PSD?
-是的，有专门的 [support forum](https://forum.aspose.com/c/psd/34)。
-
-### What types of resources can I manipulate in a PSD file?
-您可以操作各种资源，包括图层、填充图层以及 PSD 文件中的 SoCo 资源。
-
-## Frequently Asked Questions
-
-**Q: Can I edit multiple PSD files in a batch?**  
+**问：我可以批量编辑多个 PSD 文件吗？**
+ 
 A: 绝对可以。将代码包装在遍历文件路径列表的循环中，对每个文件执行相同的 SoCo 修改。
 
-**Q: Does changing the SoCo color affect other layers?**  
+**问：更改 SoCo 颜色会影响其他图层吗？**
+ 
 A: 不会。更改仅限于包含您编辑的 SoCo 资源的特定 `FillLayer`。
 
-**Q: What if the PSD has no SoCo resource?**  
+**问：如果 PSD 文件没有 SoCo 资源怎么办？**
+
 A: 内部循环将直接跳过该图层。您可以添加后备逻辑，在需要时创建新的 SoCo 资源。
 
-**Q: Is there a way to preview the color change before saving?**  
+**问：保存前可以预览颜色更改吗？**
+ 
 A: 您可以将 `PsdImage` 导出为常见格式如 PNG（`im.save("preview.png")`）以验证结果。
 
-**Q: Do I need to close the image manually?**  
+**问：我需要手动关闭图像吗？**
+  
 A: `finally` 块中的 `im.dispose()` 确保即使出现异常也会释放所有本机资源。
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**上次更新时间：** 2025-12-18
+
+**测试版本：** Aspose.PSD 24.11 for Java
+
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

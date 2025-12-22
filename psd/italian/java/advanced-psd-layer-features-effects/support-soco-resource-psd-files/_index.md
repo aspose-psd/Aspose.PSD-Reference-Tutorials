@@ -138,23 +138,6 @@ finally {
 ## Conclusione
 Adesso sai **come modificare le risorse SoCo** e **cambiare il colore del livello PSD** usando Aspose.PSD per Java. Questa tecnica semplifica gli aggiornamenti di massa delle immagini e si integra senza problemi nei pipeline basati su Java. Sentiti libero di sperimentare con altre risorse di livello—Aspose.PSD ti dà il pieno controllo sui file Photoshop senza mai aprire l'interfaccia grafica.
 
-## FAQ
-
-### Cos'è Aspose.PSD per Java?
-Aspose.PSD per Java è una libreria che consente agli sviluppatori di manipolare file PSD all'interno delle loro applicazioni Java.
-
-### Posso usare Aspose.PSD gratuitamente?
-Sì! Puoi iniziare con una versione di prova gratuita disponibile [qui](https://releases.aspose.com/).
-
-### Come installo Aspose.PSD per Java?
-Puoi scaricarlo da [questo link](https://releases.aspose.com/psd/java/).
-
-### È disponibile supporto per Aspose.PSD?
-Sì, esiste un [forum di supporto](https://forum.aspose.com/c/psd/34) dedicato.
-
-### Quali tipi di risorse posso manipolare in un file PSD?
-Puoi manipolare varie risorse, inclusi livelli, livelli di riempimento e risorse SoCo all'interno del file PSD.
-
 ## Domande frequenti
 
 **D: Posso modificare più file PSD in batch?**  

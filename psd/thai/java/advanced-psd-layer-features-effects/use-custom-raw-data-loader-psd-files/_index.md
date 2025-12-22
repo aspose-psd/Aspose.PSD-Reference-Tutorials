@@ -143,15 +143,15 @@ Aspose.PSD for Java เป็นไลบรารีที่ช่วยให
 ### ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร?
 คุณสามารถรับไลเซนส์ชั่วคราวเพื่อประเมินคุณสมบัติทั้งหมดได้โดยไปที่ [หน้าลิขสิทธิ์ชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบกับ:** Aspose.PSD for Java (รุ่นล่าสุด ณ เวลาที่เขียน)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบกับ:** Aspose.PSD for Java (รุ่นล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose

@@ -170,22 +170,6 @@ im.dispose();
 ## Conclusão
 Parabéns! Você acabou de percorrer um processo detalhado de **criação de máscara vetorial** (Vmsk) em arquivos PSD usando Aspose.PSD para Java. Desde o carregamento da imagem, recuperação e validação do recurso Vmsk, edição de suas propriedades, até a gravação do PSD modificado, você agora tem uma base sólida para automatizar fluxos de trabalho com máscaras vetoriais. Use essas técnicas para enriquecer seus pipelines de design, integrar com outras APIs Aspose (como converter PSD para PNG) ou construir ferramentas gráficas personalizadas.
 
-## Perguntas Frequentes
-### O que é um recurso Vmsk?
-Um recurso Vmsk é uma máscara vetorial em um arquivo PSD que permite formas vetoriais complexas e recursos de edição.
-
-### Posso usar Aspose.PSD em um projeto Maven?
-Sim, você pode incluir o Aspose.PSD como dependência no seu projeto Maven usando suas coordenadas do repositório.
-
-### Em que formato posso salvar meus arquivos PSD modificados?
-Você pode salvá‑los novamente como arquivos PSD ou exportá‑los para outros formatos como PNG, JPEG, etc.
-
-### Existe um teste gratuito disponível para Aspose.PSD?
-Sim, você pode acessar um teste gratuito do Aspose.PSD para testar seus recursos. Visite o [link de teste gratuito](https://releases.aspose.com/).
-
-### Como posso obter suporte para Aspose.PSD?
-Você pode participar do [fórum da Aspose](https://forum.aspose.com/c/psd/34) para obter suporte e ajuda na solução de problemas.
-
 ## Perguntas Frequentes Adicionais
 **Q: Como adiciono uma nova máscara vetorial a uma camada existente?**  
 A: Crie um `VmskResource`, preencha‑o com os registros de caminho necessários (por exemplo, `BezierKnotRecord`) e anexe‑o à coleção de recursos da camada.
@@ -202,17 +186,15 @@ A: Todas as versões recentes (2024‑2025) suportam Java 8 e superiores, inclui
 **Q: Preciso de licença para builds de desenvolvimento?**  
 A: Uma licença de avaliação gratuita funciona para desenvolvimento e testes. Para implantações em produção, é necessária uma licença comercial.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-18  
 **Testado com:** Aspose.PSD 24.11 for Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

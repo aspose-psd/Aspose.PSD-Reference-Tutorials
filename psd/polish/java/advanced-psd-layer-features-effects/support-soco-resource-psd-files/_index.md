@@ -138,23 +138,6 @@ finally {
 ## Zakończenie
 Teraz wiesz, **jak edytować zasoby SoCo** i **zmienić kolor warstwy PSD** przy użyciu Aspose.PSD for Java. Ta technika usprawnia masowe aktualizacje obrazów i płynnie integruje się z pipeline'ami opartymi na Javie. Śmiało eksperymentuj z innymi zasobami warstw — Aspose.PSD daje pełną kontrolę nad plikami Photoshop bez konieczności otwierania interfejsu graficznego.
 
-## FAQ
-
-### Co to jest Aspose.PSD for Java?
-Aspose.PSD for Java to biblioteka, która umożliwia programistom manipulowanie plikami PSD w ich aplikacjach Java.
-
-### Czy mogę używać Aspose.PSD za darmo?
-Tak! Możesz rozpocząć od darmowej wersji próbnej dostępnej [tutaj](https://releases.aspose.com/).
-
-### Jak zainstalować Aspose.PSD for Java?
-Możesz pobrać ją z [tego linku](https://releases.aspose.com/psd/java/).
-
-### Czy istnieje wsparcie dla Aspose.PSD?
-Tak, istnieje dedykowane [forum wsparcia](https://forum.aspose.com/c/psd/34).
-
-### Jakie typy zasobów mogę manipulować w pliku PSD?
-Możesz manipulować różnymi zasobami, w tym warstwami, warstwami wypełnienia i zasobami SoCo w pliku PSD.
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę edytować wiele plików PSD jednocześnie?**  

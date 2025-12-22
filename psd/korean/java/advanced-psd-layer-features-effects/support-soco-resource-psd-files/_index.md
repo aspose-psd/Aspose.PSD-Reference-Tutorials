@@ -138,23 +138,6 @@ finally {
 ## 결론
 이제 Aspose.PSD for Java를 사용하여 **SoCo** 리소스를 편집하고 **PSD 레이어 색상**을 변경하는 방법을 알게 되었습니다. 이 기술은 대량 이미지 업데이트를 간소화하고 Java 기반 파이프라인에 원활히 통합됩니다. 다른 레이어 리소스에도 자유롭게 실험해 보세요—Aspose.PSD는 GUI를 열지 않고도 Photoshop 파일을 완벽히 제어할 수 있게 해줍니다.
 
-## FAQ
-
-### Aspose.PSD for Java란?
-Aspose.PSD for Java는 개발자가 Java 애플리케이션 내에서 PSD 파일을 조작할 수 있게 해주는 라이브러리입니다.
-
-### Aspose.PSD를 무료로 사용할 수 있나요?
-네! 무료 체험판을 [여기](https://releases.aspose.com/)에서 시작할 수 있습니다.
-
-### Aspose.PSD for Java를 어떻게 설치하나요?
-[이 링크](https://releases.aspose.com/psd/java/)에서 다운로드하면 됩니다.
-
-### Aspose.PSD 지원이 있나요?
-네, 전용 [지원 포럼](https://forum.aspose.com/c/psd/34)이 있습니다.
-
-### PSD 파일에서 어떤 유형의 리소스를 조작할 수 있나요?
-레이어, 채우기 레이어, SoCo 리소스 등 PSD 파일 내 다양한 리소스를 조작할 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 여러 PSD 파일을 배치로 편집할 수 있나요?**  

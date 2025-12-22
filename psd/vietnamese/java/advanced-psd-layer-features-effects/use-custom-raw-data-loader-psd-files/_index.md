@@ -146,15 +146,15 @@ Có, Aspose.PSD cung cấp phiên bản dùng thử miễn phí mà bạn có th
 ### Làm sao để tôi có được giấy phép tạm thời cho Aspose.PSD?
 Bạn có thể nhận giấy phép tạm thời để đánh giá toàn bộ tính năng bằng cách truy cập [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Đã kiểm tra với:** Aspose.PSD cho Java (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-18  
-**Đã kiểm tra với:** Aspose.PSD cho Java (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose

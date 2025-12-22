@@ -170,23 +170,8 @@ im.dispose();
 ## Fazit
 Herzlichen Glückwunsch! Sie haben gerade einen detaillierten Prozess zum **Erstellen von Vektor‑Masken** (Vmsk) in PSD‑Dateien mit Aspose.PSD für Java durchlaufen. Vom Laden des Bildes, Abrufen und Validieren der Vmsk‑Ressource, Bearbeiten ihrer Eigenschaften bis zum Speichern Ihrer modifizierten PSD besitzen Sie nun eine solide Grundlage, um Vektor‑Masken‑Workflows zu automatisieren. Nutzen Sie diese Techniken, um Ihre Design‑Pipelines zu erweitern, mit anderen Aspose‑APIs (wie der Konvertierung von PSD zu PNG) zu integrieren oder eigene Grafik‑Tools zu bauen.
 
-## FAQ's
-### Was ist eine Vmsk‑Ressource?
-Eine Vmsk‑Ressource ist eine Vektor‑Maske in einer PSD‑Datei, die komplexe Vektorformen und Bearbeitungsfunktionen ermöglicht.
-
-### Kann ich Aspose.PSD in einem Maven‑Projekt verwenden?
-Ja, Sie können Aspose.PSD als Abhängigkeit in Ihrem Maven‑Projekt einbinden, indem Sie die Koordinaten aus dem Repository verwenden.
-
-### In welchem Format kann ich meine bearbeiteten PSD‑Dateien speichern?
-Sie können sie wieder als PSD‑Dateien speichern oder in andere Formate wie PNG, JPEG usw. exportieren.
-
-### Gibt es eine kostenlose Testversion von Aspose.PSD?
-Ja, Sie können eine kostenlose Testversion von Aspose.PSD nutzen, um die Funktionen zu testen. Besuchen Sie den [Kostenlos‑Test‑Link](https://releases.aspose.com/).
-
-### Wie kann ich Support für Aspose.PSD erhalten?
-Sie können dem [Aspose‑Forum](https://forum.aspose.com/c/psd/34) beitreten, um Unterstützung und Hilfe bei der Fehlersuche zu erhalten.
-
 ## Häufig gestellte Fragen
+
 **F: Wie füge ich einer bestehenden Ebene eine neue Vektor‑Maske hinzu?**  
 A: Erstellen Sie ein `VmskResource`, füllen Sie es mit den erforderlichen Pfad‑Records (z. B. `BezierKnotRecord`) und hängen Sie es an die Ressourcen‑Sammlung der Ebene an.
 
@@ -202,17 +187,15 @@ A: Alle aktuellen Releases (2024‑2025) unterstützen Java 8 und höher, eins
 **F: Benötige ich eine Lizenz für Entwicklungs‑Builds?**  
 A: Eine kostenlose Evaluations‑Lizenz reicht für Entwicklung und Tests. Für Produktions‑Deployments ist eine kommerzielle Lizenz erforderlich.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-18  
 **Getestet mit:** Aspose.PSD 24.11 für Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

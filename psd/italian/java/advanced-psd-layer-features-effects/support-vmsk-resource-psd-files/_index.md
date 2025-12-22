@@ -170,22 +170,6 @@ im.dispose();
 ## Conclusione
 Congratulazioni! Hai appena seguito un processo dettagliato per **creare una maschera vettoriale** (Vmsk) nei file PSD usando Aspose.PSD per Java. Dalla lettura dell’immagine, al recupero e alla convalida della risorsa Vmsk, alla modifica delle sue proprietà, fino al salvataggio del PSD modificato, ora possiedi una solida base per automatizzare i flussi di lavoro delle maschere vettoriali. Usa queste tecniche per arricchire le tue pipeline di design, integrarle con altre API Aspose (come la conversione PSD → PNG) o costruire strumenti grafici personalizzati.
 
-## FAQ
-### Che cos'è una risorsa Vmsk?
-Una risorsa Vmsk è una maschera vettoriale in un file PSD che consente forme vettoriali complesse e funzionalità di editing.
-
-### Posso usare Aspose.PSD in un progetto Maven?
-Sì, puoi includere Aspose.PSD come dipendenza nel tuo progetto Maven usando le coordinate del repository.
-
-### In quale formato posso salvare i miei file PSD modificati?
-Puoi salvarli nuovamente come file PSD o esportarli in altri formati come PNG, JPEG, ecc.
-
-### È disponibile una prova gratuita di Aspose.PSD?
-Sì, puoi accedere a una prova gratuita di Aspose.PSD per testare le sue funzionalità. Visita il [link della prova gratuita](https://releases.aspose.com/).
-
-### Come posso ottenere supporto per Aspose.PSD?
-Puoi unirti al [forum Aspose](https://forum.aspose.com/c/psd/34) per supporto e aiuto nella risoluzione dei problemi.
-
 ## Domande Frequenti
 **D: Come aggiungo una nuova maschera vettoriale a un livello esistente?**  
 R: Crea un `VmskResource`, popolalo con i record di percorso richiesti (ad es., `BezierKnotRecord`) e allegalo alla collezione di risorse del livello.
@@ -202,17 +186,15 @@ R: Tutte le versioni recenti (2024‑2025) supportano Java 8 e versioni successi
 **D: È necessaria una licenza per le build di sviluppo?**  
 R: Una licenza di valutazione gratuita è sufficiente per sviluppo e test. Per distribuzioni in produzione è richiesta una licenza commerciale.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2025-12-18  
 **Testato con:** Aspose.PSD 24.11 per Java  
 **Autore:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

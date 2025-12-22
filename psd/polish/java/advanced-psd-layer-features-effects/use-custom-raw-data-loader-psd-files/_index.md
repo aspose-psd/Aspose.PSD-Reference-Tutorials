@@ -147,17 +147,15 @@ W celu uzyskania pomocy i wsparcia społeczności możesz odwiedzić [forum Aspo
 ### Jak mogę uzyskać tymczasową licencję na Aspose.PSD?  
 Tymczasową licencję, umożliwiającą ocenę wszystkich funkcji, możesz zdobyć na [stronie tymczasowej licencji](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-18  
 **Testowano z:** Aspose.PSD for Java (najnowsza wersja w momencie pisania)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

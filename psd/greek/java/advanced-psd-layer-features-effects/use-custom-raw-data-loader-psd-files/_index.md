@@ -147,17 +147,15 @@ try {
 ### Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.PSD;  
 Μπορείτε να αποκτήσετε προσωρινή άδεια για αξιολόγηση όλων των λειτουργιών επισκεπτόμενοι τη [σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-18  
 **Δοκιμή με:** Aspose.PSD for Java (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

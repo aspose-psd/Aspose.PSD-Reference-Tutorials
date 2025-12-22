@@ -145,15 +145,15 @@ Aspose.PSD for Java 是一个库，允许开发者以编程方式操作 PSD 文�
 ### 如何获取 Aspose.PSD 的临时许可证？
 您可以通过访问 [temporary license page](https://purchase.aspose.com/temporary-license/) 获取临时许可证，以评估所有功能。
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.PSD for Java (latest version at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD for Java (latest version at time of writing)  
-**Author:** Aspose

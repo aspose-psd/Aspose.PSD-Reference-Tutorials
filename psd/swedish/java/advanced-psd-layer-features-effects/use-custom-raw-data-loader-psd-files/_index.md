@@ -146,17 +146,15 @@ För support och gemenskapsassistans kan du besöka [Aspose‑forumet](https://f
 ### Hur får jag en tillfällig licens för Aspose.PSD?  
 Du kan skaffa en tillfällig licens för att utvärdera alla funktioner genom att besöka [sidan för tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-18  
 **Testad med:** Aspose.PSD för Java (senaste version vid skrivande)  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

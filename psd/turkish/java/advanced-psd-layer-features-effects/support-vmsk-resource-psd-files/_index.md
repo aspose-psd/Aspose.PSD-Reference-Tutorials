@@ -170,22 +170,6 @@ im.dispose();
 ## Sonuç
 Tebrikler! Aspose.PSD for Java kullanarak PSD dosyalarında **vektör maskesi** (Vmsk) kaynaklarını oluşturma sürecini ayrıntılı bir şekilde tamamladınız. Görüntüyü yüklemek, Vmsk kaynağını almak ve doğrulamak, özelliklerini düzenlemek ve değiştirilmiş PSD'yi kaydetmek konularında sağlam bir temele sahipsiniz. Bu teknikleri tasarım boru hatlarınızı zenginleştirmek, diğer Aspose API'leriyle (ör. PSD'yi PNG'ye dönüştürme) entegre etmek veya özel grafik araçları oluşturmak için kullanabilirsiniz.
 
-## SSS'ler
-### Vmsk kaynağı nedir?
-Vmsk kaynağı, PSD dosyasında karmaşık vektör şekilleri ve düzenleme özellikleri sağlayan bir vektör maskesidir.
-
-### Aspose.PSD'yi bir Maven projesinde kullanabilir miyim?
-Evet, Aspose.PSD'yi Maven projenize bağımlılık olarak ekleyebilir ve depo koordinatları aracılığıyla kullanabilirsiniz.
-
-### Değiştirilmiş PSD dosyalarımı hangi formatta kaydedebilirim?
-PSD dosyalarını tekrar PSD olarak kaydedebilir veya PNG, JPEG gibi diğer formatlara dışa aktarabilirsiniz.
-
-### Aspose.PSD için ücretsiz deneme mevcut mu?
-Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilir ve özelliklerini test edebilirsiniz. [Ücretsiz deneme bağlantısı](https://releases.aspose.com/) ziyaret edin.
-
-### Aspose.PSD için nasıl destek alabilirim?
-Destek ve sorun giderme yardımı için [Aspose forumuna](https://forum.aspose.com/c/psd/34) katılabilirsiniz.
-
 ## Sık Sorulan Sorular
 **Q:** **Mevcut bir katmana yeni bir vektör maskesi nasıl eklenir?**  
 **A:** Bir `VmskResource` oluşturun, gerekli yol kayıtlarıyla (ör. `BezierKnotRecord`) doldurun ve katmanın kaynak koleksiyonuna ekleyin.
@@ -202,17 +186,15 @@ Destek ve sorun giderme yardımı için [Aspose forumuna](https://forum.aspose.c
 **Q:** **Geliştirme build'leri için lisans gerekir mi?**  
 **A:** Geliştirme ve test için ücretsiz değerlendirme lisansı yeterlidir. Üretim dağıtımları için ticari lisans gereklidir.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-18  
 **Test Edilen:** Aspose.PSD 24.11 for Java  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

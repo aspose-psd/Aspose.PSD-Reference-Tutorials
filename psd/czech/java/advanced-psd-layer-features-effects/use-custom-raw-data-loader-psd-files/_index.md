@@ -146,15 +146,15 @@ Pro podporu a pomoc od komunity můžete navštívit [forum Aspose](https://foru
 ### Jak získám dočasnou licenci pro Aspose.PSD?
 Dočasnou licenci, která vám umožní vyzkoušet všechny funkce, získáte na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.PSD for Java (latest version at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD for Java (latest version at time of writing)  
-**Author:** Aspose

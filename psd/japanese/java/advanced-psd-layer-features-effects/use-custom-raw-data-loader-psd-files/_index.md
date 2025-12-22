@@ -145,15 +145,15 @@ Aspose.PSD for Java は、開発者が PSD ファイルをプログラムで操�
 ### Aspose.PSD の一時ライセンスはどう取得できますか？
 すべての機能を評価するための一時ライセンスは、[temporary license page](https://purchase.aspose.com/temporary-license/) から取得できます。
 
+---
+
+**最終更新日:** 2025-12-18  
+**テスト環境:** Aspose.PSD for Java（執筆時点での最新バージョン）  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-18  
-**テスト環境:** Aspose.PSD for Java（執筆時点での最新バージョン）  
-**作者:** Aspose
