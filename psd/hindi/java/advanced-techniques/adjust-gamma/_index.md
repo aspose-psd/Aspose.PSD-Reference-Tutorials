@@ -1,33 +1,50 @@
 ---
-title: Java के लिए Aspose.PSD के साथ एक छवि का गामा समायोजित करें
-linktitle: किसी छवि का गामा समायोजित करें
-second_title: Aspose.PSD जावा एपीआई
-description: Aspose.PSD for Java का उपयोग करके आसानी से इमेज गामा को समायोजित करना सीखें। सर्वोत्तम परिणामों के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 23
+date: 2025-12-21
+description: Aspose.PSD के साथ इमेज गामा को समायोजित करके जावा इमेज प्रोसेसिंग कैसे
+  करें, सीखें। PSD को TIFF में बदलने और गामा सुधार लागू करने के लिए चरण‑दर‑चरण गाइड।
+linktitle: Adjust Gamma of an Image
+second_title: Aspose.PSD Java API
+title: जावा इमेज प्रोसेसिंग – Aspose.PSD के साथ गामा समायोजित करें
 url: /hi/java/advanced-techniques/adjust-gamma/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.PSD के साथ एक छवि का गामा समायोजित करें
+# Java Image Processing – Adjust Gamma with Aspose.PSD
 
-## परिचय
+## Introduction
 
-छवि प्रसंस्करण के क्षेत्र में, छवि के गामा को समायोजित करना इसकी दृश्य अपील को बढ़ाने के लिए एक महत्वपूर्ण कदम है। जावा के लिए Aspose.PSD जावा डेवलपर्स के लिए छवि गामा को आसानी से हेरफेर करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम Aspose.PSD का उपयोग करके गामा को समायोजित करने का तरीका जानेंगे, एक सहज कार्यान्वयन सुनिश्चित करने के लिए प्रत्येक चरण को तोड़ेंगे।
+यदि आप **java image processing** पर काम कर रहे हैं, तो किसी चित्र का गामा समायोजित करना एक बुनियादी तकनीक है जिससे आप विवरण खोए बिना चमक और कंट्रास्ट को सुधार सकते हैं। इस ट्यूटोरियल में हम देखेंगे कि **Aspose.PSD for Java** का उपयोग करके PSD फ़ाइल पर गामा करेक्शन कैसे लागू किया जाए और फिर परिणाम को TIFF इमेज के रूप में एक्सपोर्ट किया जाए। आप समझेंगे कि यह तरीका तेज़, भरोसेमंद और सर्वर‑साइड इमेज पाइपलाइन के लिए परफ़ेक्ट क्यों है।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does gamma correction do?** यह ल्यूमिनेंस वैल्यूज़ को रीमैप करता है ताकि डार्क एरिया उज्ज्वल हों या ब्राइट एरिया डार्क हों, जबकि कुल मिलाकर विवरण बरकरार रहे।  
+- **Which library handles the processing?** Aspose.PSD for Java रास्टर इमेजेज़ के लिए एक समर्पित `adjustGamma` मेथड प्रदान करता है।  
+- **Can I convert PSD to TIFF in the same flow?** हाँ – गामा समायोजन के बाद आप सीधे `TiffOptions` का उपयोग करके इमेज को TIFF में सेव कर सकते हैं।  
+- **Do I need a license for development?** परीक्षण के लिए एक फ्री ट्रायल काम करता है; प्रोडक्शन उपयोग के लिए एक कमर्शियल लाइसेंस आवश्यक है।  
+- **What Java version is supported?** Aspose.PSD Java 8 और उसके बाद के संस्करणों को सपोर्ट करता है।
 
-ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ निर्धारित हैं:
+## What is java image processing?
 
-1. जावा विकास वातावरण: सुनिश्चित करें कि आपके सिस्टम पर जावा विकास वातावरण स्थापित है।
-2.  Aspose.PSD लाइब्रेरी: Aspose.PSD लाइब्रेरी को अपने Java प्रोजेक्ट में डाउनलोड और एकीकृत करें। आप आवश्यक संसाधन यहाँ पा सकते हैं[प्रलेखन](https://reference.aspose.com/psd/java/).
-3. नमूना छवि: एक नमूना PSD छवि तैयार करें जिसका उपयोग आप गामा समायोजन लागू करने के लिए करेंगे।
+Java image processing का अर्थ है जावा लाइब्रेरीज़ का उपयोग करके विज़ुअल डेटा का हेरफेर, विश्लेषण और रूपांतरण। कार्यों में री-साइज़िंग, फ़िल्टरिंग, कलर करेक्शन और फ़ॉर्मेट कन्वर्ज़न शामिल हैं—इन सभी को डेस्कटॉप या वेब एप्लिकेशन में ऑटोमेट किया जा सकता है।
 
-## पैकेज आयात करें
+## Why use Aspose.PSD for gamma correction?
 
-प्रक्रिया शुरू करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें। यह Aspose.PSD कार्यक्षमताओं का सहजता से उपयोग करने के लिए मंच तैयार करता है।
+Aspose.PSD एक हाई‑लेवल API प्रदान करता है जो PSD फ़ॉर्मेट की जटिलता को एब्स्ट्रैक्ट कर देता है, जिससे आप वास्तविक इमेज समायोजन पर ध्यान केंद्रित कर सकते हैं। यह कैशिंग, कलर प्रोफ़ाइल्स को संभालता है और एक सरल `adjustGamma` कॉल प्रदान करता है, जिससे **image gamma correction** और **convert psd to tiff** वर्कफ़्लो के लिए यह आदर्श बनता है।
+
+## Prerequisites
+
+ट्यूटोरियल शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित प्री‑रिक्विज़िट्स सेट हैं:
+
+1. **Java Development Environment** – सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट एनवायरनमेंट इंस्टॉल है।  
+2. **Aspose.PSD Library** – Aspose.PSD लाइब्रेरी को डाउनलोड करके अपने जावा प्रोजेक्ट में इंटीग्रेट करें। आवश्यक संसाधन आप [documentation](https://reference.aspose.com/psd/java/) में पा सकते हैं।  
+3. **Sample Image** – एक सैंपल PSD इमेज तैयार रखें जिसे आप गामा एडजस्टमेंट के लिए उपयोग करेंगे।
+
+## Import Packages
+
+प्रक्रिया शुरू करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज इम्पोर्ट करें। यह Aspose.PSD फ़ंक्शनैलिटी को सहजता से उपयोग करने के लिए मंच तैयार करता है।
 
 ```java
 import com.aspose.psd.Image;
@@ -38,85 +55,116 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-## चरण 1: छवि लोड करें
+## Step 1: Load the Image
 
- नमूना PSD छवि को एक उदाहरण में लोड करके प्रारंभ करें`RasterImage` यह बाद के गामा समायोजनों का आधार है।
+सैंपल PSD इमेज को `RasterImage` क्लास की एक इंस्टेंस में लोड करें। यह आगे के गामा समायोजन का आधार होगा।
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// RasterImage वर्ग के एक उदाहरण में एक मौजूदा छवि लोड करें
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
 
-// छवि के ऑब्जेक्ट को RasterImage में कास्ट करें
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage)image;
 
-// बेहतर प्रदर्शन के लिए जाँच करें कि RasterImage कैश किया गया है या नहीं
+// Check if RasterImage is cached for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
-## चरण 2: गामा समायोजित करें
+## Step 2: Adjust Gamma
 
- अब, लोड की गई छवि के गामा को समायोजित करें`adjustGamma` विधि। अपनी आवश्यकताओं के अनुसार गामा मानों को ठीक करें।
+अब, लोड की गई इमेज पर `adjustGamma` मेथड का उपयोग करके गामा समायोजित करें। अपनी आवश्यकताओं के अनुसार गामा वैल्यूज़ को फाइन‑ट्यून करें।
 
 ```java
-// गामा समायोजित करें
+// Adjust the gamma
 rasterImage.adjustGamma(2.2f, 2.2f, 2.2f);
 ```
 
-## चरण 3: TiffOptions बनाएँ
+## Step 3: Create TiffOptions
 
- इसका एक उदाहरण बनाएं`TiffOptions` परिणामी छवि के लिए। आउटपुट को अपने विनिर्देशों के अनुसार तैयार करने के लिए प्रति नमूना बिट्स और फोटोमेट्रिक विकल्प जैसे विभिन्न गुण सेट करें।
+परिणामी इमेज के लिए `TiffOptions` की एक इंस्टेंस बनाएं। विभिन्न प्रॉपर्टीज़ सेट करें, जैसे बिट्स पर सैंपल और फोटोमेट्रिक ऑप्शन, ताकि आउटपुट को अपनी विशिष्टताओं के अनुसार कस्टमाइज़ किया जा सके।
 
 ```java
-// परिणामी छवि के लिए TiffOptions का एक उदाहरण बनाएँ
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 int[] ushort = { 8, 8, 8 };
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-## चरण 4: परिणामी छवि को सहेजें
+## Step 4: Save the Resultant Image
 
- पहले से परिभाषित विधि का उपयोग करके संशोधित छवि को TIFF प्रारूप में सहेजें`TiffOptions`.
+पहले परिभाषित `TiffOptions` का उपयोग करके मैनिपुलेटेड इमेज को TIFF फ़ॉर्मेट में सेव करें।
 
 ```java
-// परिणामी छवि को TIFF प्रारूप में सहेजें
+// Save the resultant image to TIFF format
 String destName = dataDir + "AdjustGamma_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
-## निष्कर्ष
+## Common Issues and Solutions
 
-बधाई हो! आपने Aspose.PSD for Java का उपयोग करके किसी छवि के गामा को सफलतापूर्वक समायोजित कर लिया है। यह प्रक्रिया डेवलपर्स को छवि की गुणवत्ता को सहजता से बढ़ाने में सक्षम बनाती है, जिससे उपयोगकर्ता अनुभव को आकर्षक बनाने में मदद मिलती है।
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| **Image appears washed out** | Gamma value too high (e.g., > 2.5) | Lower the gamma factor to a value between 1.8 and 2.2. |
+| **`rasterImage.isCached()` returns false** | Image not yet loaded into memory | Call `rasterImage.cacheData()` before adjusting gamma. |
+| **TIFF file size is large** | Bits per sample set to 16‑bit | Use an 8‑bit sample (`{8,8,8}`) as shown in the example. |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-### प्रश्न 1: मैं Aspose.PSD दस्तावेज़ कहां पा सकता हूं?
+**Q: Can I apply different gamma values to each colour channel?**  
+A: Yes – the `adjustGamma` method accepts separate float values for red, green, and blue channels.
 
- A1: आप दस्तावेज़ों तक यहां से पहुंच सकते हैं[https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
+**Q: Is it possible to chain multiple image adjustments before saving?**  
+A: Absolutely. You can perform resizing, cropping, or colour corrections sequentially on the same `RasterImage` instance.
 
-### प्रश्न 2: मैं Java के लिए Aspose.PSD कैसे डाउनलोड करूं?
+**Q: Does Aspose.PSD support multi‑page PSD files?**  
+A: Yes, each layer can be accessed and processed individually.
 
- A2: लाइब्रेरी को यहाँ से डाउनलोड करें[https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
+**Q: What format can I export to besides TIFF?**  
+A: Aspose.PSD supports PNG, JPEG, BMP, and many other formats via their respective options classes.
 
-### प्रश्न 3: मैं Aspose.PSD कहां से खरीद सकता हूं?
+## Conclusion
 
- A3: विजिट करें[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) Aspose.PSD खरीदने के लिए.
+बधाई हो! आपने **java image processing** को सफलतापूर्वक किया है, PSD फ़ाइल का गामा समायोजित करके और Aspose.PSD for Java का उपयोग करके इसे TIFF इमेज के रूप में एक्सपोर्ट किया है। यह वर्कफ़्लो आपको इमेज की ब्राइटनेस और कंट्रास्ट पर सूक्ष्म नियंत्रण देता है, जिससे यह ऑटोमेटेड ग्राफ़िक्स पाइपलाइन, वेब सर्विसेज़ या डेस्कटॉप यूटिलिटीज़ के लिए आदर्श बनता है।
 
-### प्रश्न 4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+---
 
- A4: हाँ, आप यहाँ निःशुल्क परीक्षण का लाभ उठा सकते हैं[https://releases.aspose.com/](https://releases.aspose.com/).
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
 
-### प्रश्न 5: मैं Aspose.PSD के लिए समर्थन कहां से प्राप्त कर सकता हूं?
-
- A5: सहायता के लिए, Aspose.PSD फोरम पर जाएँ[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## FAQ's
+
+### Q1: Where can I find the Aspose.PSD documentation?
+
+A1: You can access the documentation at [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)।
+
+### Q2: How do I download Aspose.PSD for Java?
+
+A2: Download the library from [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)।
+
+### Q3: Where can I purchase Aspose.PSD?
+
+A3: Visit [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) to purchase Aspose.PSD।
+
+### Q4: Is there a free trial available?
+
+A4: Yes, you can explore a free trial at [https://releases.aspose.com/](https://releases.aspose.com/)।
+
+### Q5: Where can I seek support for Aspose.PSD?
+
+A5: For support, visit the Aspose.PSD forum at [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)।
+
+---

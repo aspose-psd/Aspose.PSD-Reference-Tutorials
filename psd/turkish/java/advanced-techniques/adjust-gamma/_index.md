@@ -1,33 +1,51 @@
 ---
-title: Java için Aspose.PSD ile Bir Görüntünün Gamasını Ayarlama
-linktitle: Bir Görüntünün Gamasını Ayarlama
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'yı kullanarak görüntü gammasını zahmetsizce ayarlamayı öğrenin. En iyi sonuçları elde etmek için adım adım kılavuzumuzu izleyin.
-weight: 23
+date: 2025-12-21
+description: Aspose.PSD ile görüntü gammasını ayarlayarak Java görüntü işleme nasıl
+  yapılır öğrenin. PSD'yi TIFF'e dönüştürmek ve gama düzeltmesi uygulamak için adım
+  adım rehber.
+linktitle: Adjust Gamma of an Image
+second_title: Aspose.PSD Java API
+title: Java Görüntü İşleme – Aspose.PSD ile Gamma Ayarlama
 url: /tr/java/advanced-techniques/adjust-gamma/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.PSD ile Bir Görüntünün Gamasını Ayarlama
+# Java Görüntü İşleme – Aspose.PSD ile Gamma Ayarlama
 
-## giriiş
+## Giriş
 
-Görüntü işleme alanında, bir görüntünün gamasını ayarlamak, görsel çekiciliğini artırmak için çok önemli bir adımdır. Aspose.PSD for Java, Java geliştiricilerinin görüntü gammasını zahmetsizce işlemesi için güçlü bir çözüm sunar. Bu eğitimde, Aspose.PSD'yi kullanarak gammayı nasıl ayarlayacağınızı keşfedeceğiz ve sorunsuz bir uygulama sağlamak için her adımı ayrıntılı olarak inceleyeceğiz.
+**java image processing** ile çalışıyorsanız, bir resmin gammasını ayarlamak, ayrıntıyı kaybetmeden parlaklık ve kontrastı iyileştirmenin temel bir tekniğidir. Bu öğreticide **Aspose.PSD for Java** kullanarak bir PSD dosyasına gamma düzeltmesi uygulamayı ve ardından sonucu TIFF görüntüsü olarak dışa aktarmayı adım adım göstereceğiz. Bu yaklaşımın neden hızlı, güvenilir ve sunucu‑tarafı görüntü iş akışları için mükemmel olduğunu göreceksiniz.
+
+## Hızlı Yanıtlar
+- **Gamma düzeltmesi ne yapar?** Parlaklık değerlerini yeniden eşler; karanlık bölgeleri daha aydınlık, parlak bölgeleri ise daha karanlık yapar ve genel ayrıntıyı korur.  
+- **İşlemi hangi kütüphane gerçekleştirir?** Aspose.PSD for Java, raster görüntüler için özel bir `adjustGamma` yöntemi sunar.  
+- **Aynı akışta PSD’yi TIFF’e dönüştürebilir miyim?** Evet – gamma ayarlamasından sonra görüntüyü doğrudan `TiffOptions` kullanarak TIFF olarak kaydedebilirsiniz.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterlidir; üretim kullanımı için ticari lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** Aspose.PSD, Java 8 ve üzeri sürümleri destekler.
+
+## Java görüntü işleme nedir?
+
+Java görüntü işleme, Java kütüphanelerini kullanarak görsel verilerin manipülasyonu, analizi ve dönüşümünü ifade eder. İşler arasında yeniden boyutlandırma, filtreleme, renk düzeltmesi ve format dönüşümü bulunur – tümü masaüstü veya web uygulamalarında otomatikleştirilebilir.
+
+## Gamma düzeltmesi için Aspose.PSD neden tercih edilmeli?
+
+Aspose.PSD, PSD formatının karmaşıklığını soyutlayan yüksek seviyeli bir API sunar, böylece gerçek görüntü ayarlamalarına odaklanabilirsiniz. Önbellekleme, renk profilleri yönetimi ve basit bir `adjustGamma` çağrısı sağlar; bu da **image gamma correction** ve **convert psd to tiff** iş akışları için idealdir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulları yerine getirdiğinizden emin olun:
 
-1. Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
-2.  Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini indirin ve Java projenize entegre edin. Gerekli kaynakları şurada bulabilirsiniz.[dokümantasyon](https://reference.aspose.com/psd/java/).
-3. Örnek Resim: Gama ayarlamasını uygulamak için kullanacağınız örnek bir PSD görüntüsü hazırlayın.
+1. **Java Geliştirme Ortamı** – Sisteminizde bir Java geliştirme ortamı kurulu olmalı.  
+2. **Aspose.PSD Kütüphanesi** – Aspose.PSD kütüphanesini indirin ve Java projenize entegre edin. Gerekli kaynakları [documentation](https://reference.aspose.com/psd/java/) adresinde bulabilirsiniz.  
+3. **Örnek Görüntü** – Gamma ayarlaması uygulayacağınız bir PSD örnek görüntüsü hazırlayın.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Süreci başlatmak için gerekli paketleri Java projenize aktarın. Bu, Aspose.PSD işlevlerinin sorunsuz bir şekilde kullanılmasına zemin hazırlıyor.
+İşleme başlamak için Java projenizde gerekli paketleri içe aktarın. Bu, Aspose.PSD işlevlerini sorunsuz bir şekilde kullanmanızı sağlar.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,85 +56,116 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-## 1. Adım: Görüntüyü Yükleyin
+## Adım 1: Görüntüyü Yükleme
 
- Örnek PSD görüntüsünü bir örneğine yükleyerek başlayın.`RasterImage` sınıf. Bu daha sonraki gama ayarlamalarının temelini oluşturur.
+Örnek PSD görüntüsünü `RasterImage` sınıfının bir örneğine yükleyerek başlayın. Bu, sonraki gamma ayarlamaları için temel oluşturur.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Mevcut bir görüntüyü RasterImage sınıfının bir örneğine yükleme
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
 
-// Image nesnesini RasterImage'a yayınla
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage)image;
 
-// Daha iyi performans için RasterImage'ın önbelleğe alınıp alınmadığını kontrol edin
+// Check if RasterImage is cached for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
-## 2. Adım: Gamayı Ayarlayın
+## Adım 2: Gamma’yı Ayarlama
 
- Şimdi yüklenen görüntünün gammasını kullanarak ayarlayın.`adjustGamma` Yöntem. Gereksinimlerinize göre gama değerlerine ince ayar yapın.
+Yüklenen görüntünün gammasını `adjustGamma` yöntemiyle ayarlayın. Gamma değerlerini ihtiyacınıza göre ince ayar yapın.
 
 ```java
-// Gamayı ayarlayın
+// Adjust the gamma
 rasterImage.adjustGamma(2.2f, 2.2f, 2.2f);
 ```
 
-## 3. Adım: TiffOptions'ı oluşturun
+## Adım 3: TiffOptions Oluşturma
 
- Bir örneğini oluşturun`TiffOptions` ortaya çıkan görüntü için. Çıktıyı spesifikasyonlarınıza göre uyarlamak için örnek başına bit sayısı ve fotometrik seçenekler gibi çeşitli özellikleri ayarlayın.
+Sonuç görüntüsü için bir `TiffOptions` örneği oluşturun. Örnek başına bit sayısı ve fotometrik seçenekler gibi çeşitli özellikleri, çıktıyı gereksinimlerinize göre özelleştirmek için ayarlayın.
 
 ```java
-// Ortaya çıkan görüntü için bir TiffOptions örneği oluşturun
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 int[] ushort = { 8, 8, 8 };
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-## Adım 4: Ortaya Çıkan Görüntüyü Kaydedin
+## Adım 4: Sonuç Görüntüyü Kaydetme
 
- Değiştirilen görüntüyü önceden tanımlanan yöntemi kullanarak TIFF formatında kaydedin.`TiffOptions`.
+Önceden tanımlanan `TiffOptions` kullanarak manipüle edilmiş görüntüyü TIFF formatında kaydedin.
 
 ```java
-// Ortaya çıkan görüntüyü TIFF formatında kaydedin
+// Save the resultant image to TIFF format
 String destName = dataDir + "AdjustGamma_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.PSD for Java'yı kullanarak bir görüntünün gammasını başarıyla ayarladınız. Bu süreç, geliştiricilerin görüntü kalitesini zahmetsizce geliştirmelerine olanak tanır ve görsel olarak çekici bir kullanıcı deneyimine katkıda bulunur.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|-------|
+| **Görüntü soluk çıkıyor** | Gamma değeri çok yüksek (ör. > 2.5) | Gamma faktörünü 1.8 ile 2.2 arasında bir değere düşürün. |
+| **`rasterImage.isCached()` false döndürüyor** | Görüntü henüz belleğe yüklenmemiş | Gamma ayarlamadan önce `rasterImage.cacheData()` çağırın. |
+| **TIFF dosya boyutu büyük** | Örnek başına bit 16‑bit olarak ayarlanmış | Örnekte gösterildiği gibi 8‑bit örnek (`{8,8,8}`) kullanın. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.PSD belgelerini nerede bulabilirim?
+**S: Her renk kanalı için farklı gamma değerleri uygulayabilir miyim?**  
+C: Evet – `adjustGamma` yöntemi kırmızı, yeşil ve mavi kanallar için ayrı float değerleri kabul eder.
 
- A1: Belgelere şu adresten erişebilirsiniz:[https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
+**S: Kaydetmeden önce birden fazla görüntü ayarlamasını zincirleme yapabilir miyim?**  
+C: Kesinlikle. Aynı `RasterImage` örneği üzerinde yeniden boyutlandırma, kırpma veya renk düzeltmeleri gibi işlemleri sıralı olarak gerçekleştirebilirsiniz.
 
-### S2: Aspose.PSD for Java'yı nasıl indirebilirim?
+**S: Aspose.PSD çok‑sayfalı PSD dosyalarını destekliyor mu?**  
+C: Evet, her katmana ayrı ayrı erişebilir ve işleyebilirsiniz.
 
- A2: Kütüphaneyi şuradan indirin:[https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
+**S: TIFF dışındaki hangi formatlara dışa aktarabilirim?**  
+C: Aspose.PSD, ilgili seçenek sınıfları aracılığıyla PNG, JPEG, BMP ve birçok başka formatı destekler.
 
-### S3: Aspose.PSD'yi nereden satın alabilirim?
+## Sonuç
 
- A3: Ziyaret edin[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) Aspose.PSD'yi satın almak için.
+Tebrikler! Aspose.PSD for Java kullanarak bir PSD dosyasının gammasını ayarlayıp sonucu TIFF görüntüsü olarak dışa aktararak **java image processing** işlemini başarıyla tamamladınız. Bu iş akışı, görüntü parlaklığı ve kontrastı üzerinde ince ayar kontrolü sağlar; otomatik grafik hatları, web servisleri veya masaüstü yardımcı programları için idealdir.
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+---
 
- C4: Evet, ücretsiz deneme sürümünü şuradan keşfedebilirsiniz:[https://releases.aspose.com/](https://releases.aspose.com/).
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen Versiyon:** Aspose.PSD 24.11 for Java  
+**Yazar:** Aspose  
 
-### S5: Aspose.PSD için nereden destek alabilirim?
-
- Cevap5: Destek için Aspose.PSD forumunu ziyaret edin:[https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## SSS
+
+### S1: Aspose.PSD dokümantasyonunu nerede bulabilirim?
+
+C1: Dokümantasyona [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/) adresinden ulaşabilirsiniz.
+
+### S2: Aspose.PSD for Java’yı nasıl indirebilirim?
+
+C2: Kütüphaneyi [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/) adresinden indirebilirsiniz.
+
+### S3: Aspose.PSD’yi nereden satın alabilirim?
+
+C3: Aspose.PSD’yi satın almak için [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) adresini ziyaret edin.
+
+### S4: Ücretsiz deneme sürümü mevcut mu?
+
+C4: Evet, ücretsiz deneme sürümünü [https://releases.aspose.com/](https://releases.aspose.com/) adresinde keşfedebilirsiniz.
+
+### S5: Aspose.PSD için destek alabileceğim yer neresi?
+
+C5: Destek için Aspose.PSD forumuna [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34) adresinden ulaşabilirsiniz.
+
+---

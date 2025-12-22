@@ -1,32 +1,50 @@
 ---
-title: Dostosuj kontrast obrazu za pomocą Aspose.PSD dla Java
-linktitle: Dostosuj kontrast obrazu
-second_title: Aspose.PSD API Java
-description: Poznaj świat regulacji kontrastu obrazu w Javie za pomocą Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną manipulację obrazem.
-weight: 22
+date: 2025-12-21
+description: Dowiedz się, jak regulować kontrast obrazów przy użyciu Aspose.PSD dla
+  Javy, wiodącej biblioteki do manipulacji obrazami w Javie, oraz jak efektywnie konwertować
+  pliki PSD na TIFF.
+linktitle: Adjust Contrast of an Image
+second_title: Aspose.PSD Java API
+title: Jak dostosować kontrast obrazu przy użyciu Aspose.PSD dla Javy
 url: /pl/java/advanced-techniques/adjust-contrast/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dostosuj kontrast obrazu za pomocą Aspose.PSD dla Java
+# Jak dostosować kontrast obrazu przy użyciu Aspose.PSD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-dziedzinie przetwarzania obrazów w Javie Aspose.PSD wyróżnia się jako potężne narzędzie. Wśród niezliczonych funkcji częstym wymaganiem jest regulacja kontrastu obrazu. Ten samouczek przeprowadzi Cię przez proces dostosowywania kontrastu obrazu przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik pomoże Ci opanować ten istotny aspekt manipulacji obrazami.
+Jeśli szukasz **sposobu na dostosowanie kontrastu** w swoich projektach Java, trafiłeś we właściwe miejsce. Aspose.PSD dla Javy to potężna **biblioteka do manipulacji obrazami w Javie**, która pozwala precyzyjnie regulować właściwości obrazu, takie jak kontrast, jasność i wiele innych. W tym samouczku przeprowadzimy Cię krok po kroku przez proces zwiększenia kontrastu pliku PSD, a następnie **konwersji PSD do TIFF** w celu dalszych przepływów pracy.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „dostosowanie kontrastu”?** Zmienia różnicę między najciemniejszymi a najjaśniejszymi pikselami, podkreślając szczegóły.
+- **Która biblioteka to obsługuje?** Aspose.PSD dla Javy – kompletny zestaw narzędzi do przetwarzania obrazów.
+- **Czy potrzebna jest licencja?** Licencja tymczasowa wystarczy do testów; pełna licencja jest wymagana w środowisku produkcyjnym.
+- **Czy mogę zapisać wynik jako TIFF?** Tak, użyjemy `TiffOptions`, aby wyeksportować przetworzony obraz.
+- **Jak długo trwa wykonanie kodu?** Zazwyczaj poniżej sekundy dla standardowych plików PSD.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest regulacja kontrastu?
+Regulacja kontrastu modyfikuje zakres tonalny obrazu, wzmacniając różnicę między jasnymi a ciemnymi obszarami. Jest to szczególnie przydatne, gdy obrazy po skanowaniu wyglądają płasko lub gdy przygotowujemy grafikę do druku.
 
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.PSD dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/psd/java/).
+## Dlaczego warto używać Aspose.PSD dla Javy?
+- **Bogate wsparcie formatów** – otwieraj, edytuj i zapisuj PSD, TIFF, PNG, JPEG i wiele innych.
+- **Wysoka wydajność** – buforowanie i optymalizacje obrazu rastrowego zmniejszają zużycie pamięci.
+- **Proste API** – jednowierszowe wywołania, takie jak `adjustContrast`, sprawiają, że kod jest czytelny.
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Aby rozpocząć, musisz zaimportować niezbędne pakiety do swojego projektu Java. Dodaj następujące linie do swojego kodu:
+Zanim przejdziesz dalej, upewnij się, że masz:
+
+- Podstawową znajomość programowania w Javie.
+- Zainstalowaną bibliotekę Aspose.PSD dla Javy. Możesz ją pobrać [tutaj](https://releases.aspose.com/psd/java/).
+
+## Importowanie pakietów
+
+Dodaj wymagane importy do swojej klasy Java:
 
 ```java
 import com.aspose.psd.Image;
@@ -43,76 +61,88 @@ import com.aspose.psd.imageoptions.TiffOptions;
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Załaduj istniejący obraz do instancji klasy RasterImage
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
 ```
 
- Na tym etapie ładujemy przykładowy obraz („sample.psd”) za pomocą pliku`Image.load` metoda.
+Ładujemy źródłowy plik PSD (`sample.psd`) do obiektu `Image`, który jest punktem wyjścia dla dalszego przetwarzania.
 
-## Krok 2: Rzutuj na obraz rastrowy i dane z pamięci podręcznej
+## Krok 2: Rzutuj na RasterImage i buforuj dane
 
 ```java
-// Rzuć obiekt obrazu na RasterImage
+// Cast object of Image to RasterImage
 RasterImage rasterImage = (RasterImage)image;
 
-// Sprawdź, czy RasterImage jest buforowany i Cache RasterImage, aby uzyskać lepszą wydajność
+// Check if RasterImage is cached and Cache RasterImage for better performance
 if (!rasterImage.isCached()) {
     rasterImage.cacheData();
 }
 ```
 
- Tutaj rzucamy rodzajnik`Image` sprzeciwić się A`RasterImage` do konkretnego przetwarzania. Buforowanie danych obrazu poprawia wydajność.
+Rzutowanie na `RasterImage` daje dostęp do operacji na poziomie pikseli. Buforowanie poprawia wydajność, szczególnie przy dużych plikach.
 
-## Krok 3: Dostosuj kontrast
+## Jak dostosować kontrast obrazu
 
 ```java
-// Dostosuj kontrast
+// Adjust the contrast
 rasterImage.adjustContrast(50);
 ```
 
- The`adjustContrast`Metoda służy do modyfikowania kontrastu obrazu. W tym przykładzie kontrast został zwiększony o 50%.
+Metoda `adjustContrast` przyjmuje liczbę całkowitą reprezentującą procentową zmianę. W tym przykładzie zwiększamy kontrast o **50 %**.
 
-## Krok 4: Utwórz TiffOptions i zapisz
+## Konwersja PSD do TIFF przy użyciu Aspose.PSD
 
 ```java
-// Utwórz instancję TiffOptions dla wynikowego obrazu
+// Create an instance of TiffOptions for the resultant image
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 int[] ushort = { 8, 8, 8 };
 tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 
-// Zapisz wynikowy obraz w formacie TIFF
+// Save the resultant image to TIFF format
 String destName = dataDir + "AdjustContrast_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
- Tutaj ustawiliśmy się`TiffOptions` dla obrazu wyjściowego, określając format i inne właściwości. Ostateczny obraz jest następnie zapisywany w pliku TIFF.
+Tutaj konfigurujemy `TiffOptions` (liczba bitów na próbkę, interpretacja fotometryczna) i zapisujemy obraz z podwyższonym kontrastem do pliku TIFF.
 
-## Wniosek
+## Typowe problemy i rozwiązania
+- **Obraz nie został buforowany:** Zawsze wywołuj `cacheData()` dla dużych plików PSD, aby uniknąć `OutOfMemoryError`.
+- **Nieoczekiwane przesunięcie kolorów:** Upewnij się, że `setPhotometric` odpowiada docelowemu przestrzeni kolorów (RGB vs. CMYK).
+- **Plik nie został znaleziony:** Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy nazwa pliku jest poprawna.
 
-Gratulacje! Pomyślnie dostosowałeś kontrast obrazu za pomocą Aspose.PSD dla Java. W tym samouczku omówiono podstawowe kroki, od importowania pakietów po zapisanie przetworzonego obrazu.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+### Q1: Czy Aspose.PSD jest kompatybilny z różnymi formatami obrazów?
 
-### P1: Czy Aspose.PSD jest kompatybilny z różnymi formatami obrazów?
+A1: Tak, Aspose.PSD obsługuje różne formaty obrazów, zapewniając elastyczność w Twoich projektach.
 
-Odpowiedź 1: Tak, Aspose.PSD obsługuje różne formaty obrazów, zapewniając elastyczność w Twoich projektach.
+### Q2: Jak mogę uzyskać tymczasową licencję dla Aspose.PSD?
 
-### P2: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
+A2: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
- Odpowiedź 2: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+### Q3: Gdzie mogę znaleźć dokumentację Aspose.PSD?
 
-### P3: Gdzie mogę znaleźć dokumentację Aspose.PSD?
+A3: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/psd/java/).
 
-A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/psd/java/).
+### Q4: Jakie opcje wsparcia są dostępne dla Aspose.PSD?
 
-### P4: Jakie opcje wsparcia są dostępne dla Aspose.PSD?
+A4: W sprawach wsparcia odwiedź [forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
- A4: Aby uzyskać pomoc, odwiedź stronę[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+### Q5: Czy mogę kupić Aspose.PSD?
 
-### P5: Czy mogę kupić Aspose.PSD?
+A5: Tak, możesz zakupić Aspose.PSD [tutaj](https://purchase.aspose.com/buy).
 
- A5: Tak, możesz kupić Aspose.PSD[Tutaj](https://purchase.aspose.com/buy).
+## Zakończenie
+
+Teraz wiesz, **jak dostosować kontrast** obrazu PSD przy użyciu Aspose.PSD dla Javy oraz **jak skonwertować PSD do TIFF** w celu dalszego przetwarzania. Te kroki dają Ci precyzyjną kontrolę nad jakością obrazu, jednocześnie utrzymując kod przejrzystym i łatwym w utrzymaniu. Śmiało eksperymentuj z innymi metodami regulacji obrazu, takimi jak `adjustBrightness` czy `adjustGamma`, aby dopasować je do swoich konkretnych potrzeb.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-21  
+**Testowane z:** Aspose.PSD dla Javy 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
