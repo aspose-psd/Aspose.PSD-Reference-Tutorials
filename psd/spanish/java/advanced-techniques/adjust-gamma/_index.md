@@ -145,27 +145,3 @@ R: Aspose.PSD soporta PNG, JPEG, BMP y muchos otros formatos mediante sus respec
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Preguntas frecuentes
-
-### P1: ¿Dónde puedo encontrar la documentación de Aspose.PSD?
-
-R1: Puedes acceder a la documentación en [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### P2: ¿Cómo descargo Aspose.PSD para Java?
-
-R2: Descarga la biblioteca desde [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### P3: ¿Dónde puedo comprar Aspose.PSD?
-
-R3: Visita [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) para comprar Aspose.PSD.
-
-### P4: ¿Hay una prueba gratuita disponible?
-
-R4: Sí, puedes explorar una prueba gratuita en [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### P5: ¿Dónde puedo obtener soporte para Aspose.PSD?
-
-R5: Para soporte, visita el foro de Aspose.PSD en [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
-
----

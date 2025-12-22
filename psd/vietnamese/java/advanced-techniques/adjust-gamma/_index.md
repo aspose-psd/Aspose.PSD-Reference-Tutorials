@@ -145,25 +145,3 @@ Chúc mừng! Bạn đã thực hiện thành công **java image processing** b�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Câu hỏi thường gặp
-
-### Q1: Tôi có thể tìm tài liệu Aspose.PSD ở đâu?
-
-A1: Bạn có thể truy cập tài liệu tại [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: Làm sao để tải Aspose.PSD cho Java?
-
-A2: Tải thư viện từ [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Tôi có thể mua Aspose.PSD ở đâu?
-
-A3: Truy cập [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) để mua Aspose.PSD.
-
-### Q4: Có bản dùng thử miễn phí không?
-
-A4: Có, bạn có thể khám phá bản dùng thử miễn phí tại [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Tôi có thể nhận hỗ trợ cho Aspose.PSD ở đâu?
-
-A5: Để được hỗ trợ, hãy truy cập diễn đàn Aspose.PSD tại [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).

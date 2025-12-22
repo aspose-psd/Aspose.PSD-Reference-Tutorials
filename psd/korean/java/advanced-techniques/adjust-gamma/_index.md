@@ -144,25 +144,3 @@ A: Aspose.PSD는 PNG, JPEG, BMP 등 다양한 포맷을 해당 옵션 클래스�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## FAQ
-
-### Q1: Aspose.PSD 문서는 어디에서 찾을 수 있나요?
-
-A1: 문서는 [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)에서 확인할 수 있습니다.
-
-### Q2: Aspose.PSD for Java를 어떻게 다운로드하나요?
-
-A2: 라이브러리는 [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)에서 다운로드합니다.
-
-### Q3: Aspose.PSD를 어디서 구매할 수 있나요?
-
-A3: Aspose.PSD 구매는 [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy)에서 가능합니다.
-
-### Q4: 무료 체험판이 있나요?
-
-A4: 예, 무료 체험판은 [https://releases.aspose.com/](https://releases.aspose.com/)에서 이용할 수 있습니다.
-
-### Q5: Aspose.PSD 지원은 어디에서 받을 수 있나요?
-
-A5: 지원은 Aspose.PSD 포럼([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34))에서 받을 수 있습니다.

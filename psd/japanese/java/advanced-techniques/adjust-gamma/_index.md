@@ -14,34 +14,34 @@ weight: 23
 
 # Java Image Processing – Adjust Gamma with Aspose.PSD
 
-## Introduction
+## はじめに
 
-**java image processing** に取り組む際、画像のガンマを調整することは、ディテールを失わずに明るさとコントラストを向上させる基本的なテクニックです。このチュートリアルでは、**Aspose.PSD for Java** を使用して PSD ファイルにガンマ補正を適用し、結果を TIFF 画像としてエクスポートする方法を順を追って解説します。このアプローチが高速で信頼性が高く、サーバーサイドの画像パイプラインに最適である理由もご紹介します。
+**Java 画像処理** に取り組む際、画像のガンマを調整することは、ディテールを失わずに明るさとコントラストを向上させる基本的なテクニックです。このチュートリアルでは、**Aspose.PSD for Java** を使用して PSD ファイルにガンマ補正を適用し、結果を TIFF 画像としてエクスポートする方法を順を追って解説します。このアプローチが高速で信頼性が高く、サーバーサイドの画像パイプラインに最適である理由もご紹介します。
 
-## Quick Answers
-- **What does gamma correction do?** It remaps luminance values to make dark areas brighter or bright areas darker while preserving overall detail.  
-- **Which library handles the processing?** Aspose.PSD for Java provides a dedicated `adjustGamma` method for raster images.  
-- **Can I convert PSD to TIFF in the same flow?** Yes – after gamma adjustment you can save the image directly to TIFF using `TiffOptions`.  
-- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production use.  
-- **What Java version is supported?** Aspose.PSD supports Java 8 and later.
+## クイックアンサー
+- **ガンマ補正とはどのようなものですか？** 輝度値を再マッピングすることで、全体的なディテールを維持しながら、暗い部分を明るくしたり、明るい部分を暗くしたりします。
+- **どのライブラリが処理を担当していますか？** Aspose.PSD for Java は、ラスター画像専用の `adjustGamma` メソッドを提供しています。
+- **同じフローで PSD を TIFF に変換できますか？** はい。ガンマ調整後、`TiffOptions` を使用して画像を直接 TIFF に保存できます。
+- **開発にはライセンスが必要ですか？** 無料トライアルはテスト用として使用できますが、本番環境での使用には商用ライセンスが必要です。
+- **どのバージョンの Java がサポートされていますか？** Aspose.PSD は Java8 以降をサポートしています。
 
-## What is java image processing?
+## Java 画像処理とは何ですか？
 
 Java image processing とは、Java ライブラリを使用して視覚データの操作、分析、変換を行うことを指します。リサイズ、フィルタリング、カラー補正、フォーマット変換などのタスクを、デスクトップアプリや Web アプリケーションで自動化できます。
 
-## Why use Aspose.PSD for gamma correction?
+## ガンマ補正に Aspose.PSD を使用する理由
 
 Aspose.PSD は PSD フォーマットの複雑さを抽象化したハイレベル API を提供し、実際の画像調整に集中できるようにします。キャッシュ処理やカラープロファイルの管理を行い、シンプルな `adjustGamma` 呼び出しだけで **image gamma correction** や **convert psd to tiff** のワークフローを実現できるため、最適です。
 
-## Prerequisites
+## 前提条件
 
 チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
 
-1. **Java Development Environment** – システムに Java 開発環境がインストールされていること。  
-2. **Aspose.PSD Library** – Aspose.PSD ライブラリをダウンロードし、Java プロジェクトに組み込むこと。必要なリソースは [documentation](https://reference.aspose.com/psd/java/) にあります。  
-3. **Sample Image** – ガンマ調整に使用するサンプル PSD 画像を用意すること。
+1. **Java 開発環境**– システムに Java 開発環境がインストールされていること。  
+2. **Aspose.PSD ライブラリ** – Aspose.PSD ライブラリをダウンロードし、Java プロジェクトに組み込むこと。必要なリソースは [documentation](https://reference.aspose.com/psd/java/) にあります。  
+3. **サンプル画像** – ガンマ調整に使用するサンプル PSD 画像を用意すること。
 
-## Import Packages
+## パッケージのインポート
 
 プロセスを開始するために、Java プロジェクトで必要なパッケージをインポートします。これにより Aspose.PSD の機能をシームレスに利用できるようになります。
 
@@ -54,7 +54,7 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-## Step 1: Load the Image
+## ステップ1: イメージを読み込む
 
 サンプル PSD 画像を `RasterImage` クラスのインスタンスに読み込みます。これが以降のガンマ調整の基盤となります。
 
@@ -74,7 +74,7 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-## Step 2: Adjust Gamma
+## ステップ2: ガンマを調整する
 
 読み込んだ画像に対して `adjustGamma` メソッドを使用し、ガンマを調整します。必要に応じてガンマ値を微調整してください。
 
@@ -83,7 +83,7 @@ if (!rasterImage.isCached()) {
 rasterImage.adjustGamma(2.2f, 2.2f, 2.2f);
 ```
 
-## Step 3: Create TiffOptions
+## ステップ3: TiffOptionsを作成する
 
 結果画像用に `TiffOptions` のインスタンスを作成します。ビット深度やフォトメトリックオプションなど、出力を希望通りに設定します。
 
@@ -95,7 +95,7 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-## Step 4: Save the Resultant Image
+## ステップ4: 結果画像を保存する
 
 先ほど定義した `TiffOptions` を使用して、操作した画像を TIFF 形式で保存します。
 
@@ -105,37 +105,37 @@ String destName = dataDir + "AdjustGamma_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
-## Common Issues and Solutions
+## よくある問題と解決策
 
-| Issue | Why it Happens | How to Fix |
+| 問題 | 発生原因 | 解決方法 |
 |-------|----------------|------------|
-| **Image appears washed out** | Gamma value too high (e.g., > 2.5) | Lower the gamma factor to a value between 1.8 and 2.2. |
-| **`rasterImage.isCached()` returns false** | Image not yet loaded into memory | Call `rasterImage.cacheData()` before adjusting gamma. |
-| **TIFF file size is large** | Bits per sample set to 16‑bit | Use an 8‑bit sample (`{8,8,8}`) as shown in the example. |
+| **画像が色褪せて見える** | ガンマ値が高すぎる (例: 2.5 より大きい) | ガンマ係数を 1.8 ～ 2.2 に下げてください。 |
+| **`rasterImage.isCached()` が false を返す** | 画像がまだメモリに読み込まれていない | ガンマを調整する前に `rasterImage.cacheData()` を呼び出してください。 |
+| **TIFF ファイルのサイズが大きい** | サンプルあたりのビット数が 16 ビットに設定されています | 例に示すように、8 ビットサンプル (`{8,8,8}`) を使用してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
-**Q: Can I apply different gamma values to each colour channel?**  
-A: Yes – the `adjustGamma` method accepts separate float values for red, green, and blue channels.
+**Q: 各カラーチャンネルに異なるガンマ値を適用できますか？**
+A: はい。`adjustGamma` メソッドは、赤、緑、青の各チャンネルに別々の float 値を受け入れます。
 
-**Q: Is it possible to chain multiple image adjustments before saving?**  
-A: Absolutely. You can perform resizing, cropping, or colour corrections sequentially on the same `RasterImage` instance.
+**Q: 保存前に複数の画像調整を連続して実行できますか？**
+A: もちろんです。同じ `RasterImage` インスタンスに対して、サイズ変更、切り抜き、または色補正を連続して実行できます。
 
-**Q: Does Aspose.PSD support multi‑page PSD files?**  
-A: Yes, each layer can be accessed and processed individually.
+**Q: Aspose.PSD は複数ページの PSD ファイルをサポートしていますか？**
+A: はい、各レイヤーに個別にアクセスして処理できます。
 
-**Q: What format can I export to besides TIFF?**  
-A: Aspose.PSD supports PNG, JPEG, BMP, and many other formats via their respective options classes.
+**Q: TIFF 以外にどのような形式でエクスポートできますか？**
+A: Aspose.PSD は、それぞれのオプションクラスを介して PNG、JPEG、BMP など、その他多くの形式をサポートしています。
 
-## Conclusion
+## まとめ
 
-Congratulations! You’ve successfully performed **java image processing** by adjusting the gamma of a PSD file and exporting it as a TIFF image using Aspose.PSD for Java. This workflow gives you fine‑grained control over image brightness and contrast, making it ideal for automated graphics pipelines, web services, or desktop utilities.
+おめでとうございます！Aspose.PSD for Java を使用して PSD ファイルのガンマを調整し、TIFF 画像としてエクスポートすることで、**Java 画像処理** を実行できました。このワークフローでは、画像の明るさとコントラストを細かく制御できるため、自動化されたグラフィックパイプライン、Webサービス、デスクトップユーティリティに最適です。
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**最終更新日:** 2025年12月21日
+**テスト環境:** Aspose.PSD 24.11 for Java
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,27 +143,3 @@ Congratulations! You’ve successfully performed **java image processing** by ad
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## FAQ's
-
-### Q1: Where can I find the Aspose.PSD documentation?
-
-A1: You can access the documentation at [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: How do I download Aspose.PSD for Java?
-
-A2: Download the library from [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Where can I purchase Aspose.PSD?
-
-A3: Visit [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) to purchase Aspose.PSD.
-
-### Q4: Is there a free trial available?
-
-A4: Yes, you can explore a free trial at [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Where can I seek support for Aspose.PSD?
-
-A5: For support, visit the Aspose.PSD forum at [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
-
----

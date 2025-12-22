@@ -145,27 +145,3 @@ Tebrikler! Aspose.PSD for Java kullanarak bir PSD dosyasının gammasını ayarl
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## SSS
-
-### S1: Aspose.PSD dokümantasyonunu nerede bulabilirim?
-
-C1: Dokümantasyona [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/) adresinden ulaşabilirsiniz.
-
-### S2: Aspose.PSD for Java’yı nasıl indirebilirim?
-
-C2: Kütüphaneyi [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/) adresinden indirebilirsiniz.
-
-### S3: Aspose.PSD’yi nereden satın alabilirim?
-
-C3: Aspose.PSD’yi satın almak için [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) adresini ziyaret edin.
-
-### S4: Ücretsiz deneme sürümü mevcut mu?
-
-C4: Evet, ücretsiz deneme sürümünü [https://releases.aspose.com/](https://releases.aspose.com/) adresinde keşfedebilirsiniz.
-
-### S5: Aspose.PSD için destek alabileceğim yer neresi?
-
-C5: Destek için Aspose.PSD forumuna [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34) adresinden ulaşabilirsiniz.
-
----

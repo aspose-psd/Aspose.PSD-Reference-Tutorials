@@ -145,25 +145,3 @@ Parabéns! Você realizou com sucesso **java image processing** ajustando o gamm
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Perguntas Frequentes
-
-### Q1: Onde posso encontrar a documentação do Aspose.PSD?
-
-A1: Você pode acessar a documentação em [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: Como faço o download do Aspose.PSD para Java?
-
-A2: Baixe a biblioteca em [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Onde posso comprar o Aspose.PSD?
-
-A3: Visite [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) para comprar o Aspose.PSD.
-
-### Q4: Existe uma versão de teste gratuita disponível?
-
-A4: Sim, você pode experimentar uma versão de teste gratuita em [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Onde posso obter suporte para o Aspose.PSD?
-
-A5: Para suporte, visite o fórum Aspose.PSD em [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).

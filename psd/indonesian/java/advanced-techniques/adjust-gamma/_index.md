@@ -145,25 +145,3 @@ Selamat! Anda telah berhasil melakukan **java image processing** dengan menyesua
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## FAQ
-
-### Q1: Di mana saya dapat menemukan dokumentasi Aspose.PSD?
-
-A1: Anda dapat mengakses dokumentasi di [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: Bagaimana cara mengunduh Aspose.PSD untuk Java?
-
-A2: Unduh pustaka dari [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Di mana saya dapat membeli Aspose.PSD?
-
-A3: Kunjungi [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) untuk membeli Aspose.PSD.
-
-### Q4: Apakah tersedia percobaan gratis?
-
-A4: Ya, Anda dapat mencoba percobaan gratis di [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Di mana saya dapat mencari dukungan untuk Aspose.PSD?
-
-A5: Untuk dukungan, kunjungi forum Aspose.PSD di [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).

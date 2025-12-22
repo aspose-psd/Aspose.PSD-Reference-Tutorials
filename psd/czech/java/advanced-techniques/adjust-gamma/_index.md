@@ -144,25 +144,3 @@ Gratulujeme! Úspěšně jste provedli **java image processing** úpravou gama s
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## FAQ
-
-### Q1: Kde mohu najít dokumentaci k Aspose.PSD?
-
-A1: Dokumentaci můžete získat na [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: Jak stáhnu Aspose.PSD pro Java?
-
-A2: Knihovnu stáhněte z [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Kde mohu zakoupit Aspose.PSD?
-
-A3: Navštivte [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) pro nákup Aspose.PSD.
-
-### Q4: Je k dispozici bezplatná zkušební verze?
-
-A4: Ano, můžete vyzkoušet bezplatnou verzi na [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Kde mohu získat podporu pro Aspose.PSD?
-
-A5: Pro podporu navštivte fórum Aspose.PSD na [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).

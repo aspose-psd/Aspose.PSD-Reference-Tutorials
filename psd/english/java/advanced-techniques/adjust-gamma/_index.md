@@ -143,27 +143,3 @@ Congratulations! You’ve successfully performed **java image processing** by ad
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## FAQ's
-
-### Q1: Where can I find the Aspose.PSD documentation?
-
-A1: You can access the documentation at [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: How do I download Aspose.PSD for Java?
-
-A2: Download the library from [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Where can I purchase Aspose.PSD?
-
-A3: Visit [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) to purchase Aspose.PSD.
-
-### Q4: Is there a free trial available?
-
-A4: Yes, you can explore a free trial at [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Where can I seek support for Aspose.PSD?
-
-A5: For support, visit the Aspose.PSD forum at [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
-
----

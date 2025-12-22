@@ -145,27 +145,3 @@ Félicitations ! Vous avez réussi à effectuer du **traitement d’images Jav
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## FAQ's
-
-### Q1 : Où puis‑je trouver la documentation Aspose.PSD ?
-
-R1 : Vous pouvez accéder à la documentation à l’adresse [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2 : Comment télécharger Aspose.PSD pour Java ?
-
-R2 : Téléchargez la bibliothèque depuis [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3 : Où puis‑je acheter Aspose.PSD ?
-
-R3 : Rendez‑vous sur [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) pour acheter Aspose.PSD.
-
-### Q4 : Une version d’essai gratuite est‑elle disponible ?
-
-R4 : Oui, vous pouvez explorer une version d’essai gratuite à l’adresse [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5 : Où puis‑je obtenir du support pour Aspose.PSD ?
-
-R5 : Pour le support, visitez le forum Aspose.PSD à l’adresse [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
-
----

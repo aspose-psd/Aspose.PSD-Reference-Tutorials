@@ -140,25 +140,3 @@ rasterImage.save(destName, tiffOptions);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## คำถามที่พบบ่อย
-
-### Q1: ฉันสามารถหาเอกสาร Aspose.PSD ได้จากที่ไหน?
-
-A1: คุณสามารถเข้าถึงเอกสารได้ที่ [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)
-
-### Q2: ฉันจะดาวน์โหลด Aspose.PSD for Java ได้อย่างไร?
-
-A2: ดาวน์โหลดไลบรารีจาก [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)
-
-### Q3: ฉันสามารถซื้อ Aspose.PSD ได้จากที่ไหน?
-
-A3: เยี่ยมชม [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) เพื่อซื้อ Aspose.PSD
-
-### Q4: มีรุ่นทดลองฟรีหรือไม่?
-
-A4: มี คุณสามารถสำรวจรุ่นทดลองฟรีได้ที่ [https://releases.aspose.com/](https://releases.aspose.com/)
-
-### Q5: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.PSD ได้จากที่ไหน?
-
-A5: สำหรับการสนับสนุน ให้เยี่ยมชมฟอรั่ม Aspose.PSD ที่ [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)

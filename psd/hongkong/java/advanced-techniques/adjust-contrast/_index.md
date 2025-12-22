@@ -14,35 +14,34 @@ weight: 22
 
 # 如何使用 Aspose.PSD for Java 調整圖像的對比度
 
-## Introduction
+## 介紹
 
 如果您正在尋找 **如何調整對比度**，您來對地方了。Aspose.PSD for Java 是一個功能強大的 **java 圖像處理庫**，讓您可以微調圖像屬性，如對比度、亮度等。在本教學中，我們將逐步說明如何提升 PSD 檔案的對比度，然後 **將 PSD 轉換為 TIFF** 以供後續工作流程使用。
 
-## Quick Answers
+## 快速解答
 - **調整對比度** 是什麼意思？它改變最暗與最亮像素之間的差異，讓細節更突出。
 - **哪個函式庫負責此功能？** Aspose.PSD for Java – 完整的圖像處理工具包。
 - **我需要授權嗎？** 測試時可使用臨時授權；正式環境需購買完整授權。
 - **我可以將結果儲存為 TIFF 嗎？** 可以，我們會使用 `TiffOptions` 匯出處理後的圖像。
 - **程式執行需要多久？** 對於一般尺寸的 PSD 檔案，通常在一秒以內完成。
 
-## What is Contrast Adjustment?
-對比度調整是什麼？
+## 對比度調整是什麼？
 
 對比度調整會改變圖像的色調範圍，增強亮部與暗部之間的差異。當掃描後的圖像顯得平淡，或在為印刷準備圖形時，這項功能特別有用。
 
-## Why Use Aspose.PSD for Java?
+## 為什麼選擇 Aspose.PSD for Java？
 - **豐富的格式支援** – 開啟、編輯並儲存 PSD、TIFF、PNG、JPEG 等多種格式。
 - **高效能** – 快取與光柵圖像優化降低記憶體開銷。
 - **直觀的 API** – 像 `adjustContrast` 這樣的單一方法呼叫，使程式碼易於閱讀。
 
-## Prerequisites
+## 先決條件
 
 在開始之前，請確保您已具備以下條件：
 
 - 具備 Java 程式設計的基本知識。
 - 已安裝 Aspose.PSD for Java 函式庫。您可以在[此處](https://releases.aspose.com/psd/java/)下載。
 
-## Import Packages
+## 導入包
 
 匯入套件
 
@@ -57,7 +56,7 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-## Step 1: Load the Image
+## 步驟 1：載入圖片
 
 步驟 1：載入圖像
 
@@ -71,7 +70,7 @@ Image image = Image.load(sourceFile);
 
 我們將來源 PSD 檔案（`sample.psd`）載入 `Image` 物件，作為後續所有處理的入口點。
 
-## Step 2: Cast to RasterImage and Cache Data
+## 步驟 2：轉換為 RasterImage 並快取數據
 
 步驟 2：轉型為 RasterImage 並快取資料
 
@@ -87,7 +86,7 @@ if (!rasterImage.isCached()) {
 
 將物件轉型為 `RasterImage` 後，我們即可進行像素層級的操作。快取可提升效能，尤其是處理大型檔案時。
 
-## How to Adjust Contrast of an Image
+## 如何調整影像對比度
 
 如何調整圖像的對比度
 
@@ -98,7 +97,7 @@ rasterImage.adjustContrast(50);
 
 `adjustContrast` 方法接受一個表示百分比變化的整數。在此範例中，我們將對比度提升 **50 %**。
 
-## Convert PSD to TIFF Using Aspose.PSD
+## 使用 Aspose.PSD 將 PSD 轉換為 TIFF
 
 使用 Aspose.PSD 將 PSD 轉換為 TIFF
 
@@ -116,15 +115,13 @@ rasterImage.save(destName, tiffOptions);
 
 此處我們設定 `TiffOptions`（每樣本位元、光譜解釋），並將增強對比度的圖像寫入 TIFF 檔案。
 
-## Common Issues and Solutions
+## 常見問題及解決方案
 常見問題與解決方案
 - **圖像未快取**：對於大型 PSD，務必呼叫 `cacheData()` 以避免 `OutOfMemoryError`。
 - **顏色異常偏移**：確認 `setPhotometric` 與目標色彩空間（RGB 或 CMYK）相符。
 - **找不到檔案**：確保 `dataDir` 指向正確的資料夾，且檔名拼寫正確。
 
-## Frequently Asked Questions
-
-常見問答
+## 常見問題解答
 
 ### Q1: Aspose.PSD 是否相容於不同的圖像格式？
 

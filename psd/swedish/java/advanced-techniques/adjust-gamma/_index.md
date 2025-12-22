@@ -143,25 +143,3 @@ Grattis! Du har framgångsrikt utfört **java image processing** genom att juste
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Vanliga frågor
-
-### Q1: Var kan jag hitta Aspose.PSD‑dokumentationen?
-
-A1: Du kan komma åt dokumentationen på [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: Hur laddar jag ner Aspose.PSD for Java?
-
-A2: Ladda ner biblioteket från [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Var kan jag köpa Aspose.PSD?
-
-A3: Besök [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) för att köpa Aspose.PSD.
-
-### Q4: Finns det en gratis provversion?
-
-A4: Ja, du kan utforska en gratis provversion på [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Vart kan jag få support för Aspose.PSD?
-
-A5: För support, besök Aspose.PSD‑forumet på [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).

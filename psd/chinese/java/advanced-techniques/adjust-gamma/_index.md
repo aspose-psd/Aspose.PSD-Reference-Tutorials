@@ -143,25 +143,3 @@ A: Aspose.PSD 通过相应的选项类支持 PNG、JPEG、BMP 等多种格式。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 常见问题
-
-### Q1: 在哪里可以找到 Aspose.PSD 文档？
-
-A1: 您可以在 [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/) 访问文档。
-
-### Q2: 如何下载 Aspose.PSD for Java？
-
-A2: 从 [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/) 下载库。
-
-### Q3: 在哪里可以购买 Aspose.PSD？
-
-A3: 访问 [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) 进行购买。
-
-### Q4: 是否提供免费试用？
-
-A4: 是的，您可以在 [https://releases.aspose.com/](https://releases.aspose.com/) 体验免费试用。
-
-### Q5: 在哪里可以获取 Aspose.PSD 的支持？
-
-A5: 请前往 Aspose.PSD 论坛 [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34) 获取支持。

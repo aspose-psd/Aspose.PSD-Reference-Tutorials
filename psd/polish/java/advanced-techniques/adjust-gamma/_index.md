@@ -145,25 +145,3 @@ Gratulacje! Pomyślnie wykonałeś **java image processing**, regulując gamma p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## FAQ
-
-### Q1: Gdzie mogę znaleźć dokumentację Aspose.PSD?
-
-A1: Możesz uzyskać dostęp do dokumentacji pod adresem [https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/).
-
-### Q2: Jak pobrać Aspose.PSD dla Javy?
-
-A2: Pobierz bibliotekę z [https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/).
-
-### Q3: Gdzie mogę kupić Aspose.PSD?
-
-A3: Odwiedź [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) aby zakupić Aspose.PSD.
-
-### Q4: Czy dostępna jest darmowa wersja próbna?
-
-A4: Tak, możesz wypróbować darmową wersję próbną pod adresem [https://releases.aspose.com/](https://releases.aspose.com/).
-
-### Q5: Gdzie mogę uzyskać wsparcie dla Aspose.PSD?
-
-A5: Aby uzyskać wsparcie, odwiedź forum Aspose.PSD pod adresem [https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34).
