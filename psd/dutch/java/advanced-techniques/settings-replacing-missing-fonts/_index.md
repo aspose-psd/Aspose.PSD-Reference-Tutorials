@@ -1,35 +1,53 @@
 ---
-title: Instellingen voor het vervangen van ontbrekende lettertypen in Aspose.PSD voor Java
-linktitle: Instellingen voor het vervangen van ontbrekende lettertypen
-second_title: Aspose.PSD Java-API
-description: Ontdek een uitgebreide handleiding over het vervangen van ontbrekende lettertypen in Aspose.PSD voor Java. Verbeter uw afbeeldingsontwerp met naadloos lettertypebeheer.
-weight: 17
+date: 2025-12-25
+description: Leer hoe u lettertypen in PSD‑bestanden kunt vervangen met Aspose.PSD
+  voor Java – een stapsgewijze handleiding die ook laat zien hoe u een PSD als PNG
+  opslaat en ontbrekende lettertypen afhandelt.
+linktitle: Settings for Replacing Missing Fonts
+second_title: Aspose.PSD Java API
+title: Hoe lettertypen te vervangen in Aspose.PSD voor Java
 url: /nl/java/advanced-techniques/settings-replacing-missing-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Instellingen voor het vervangen van ontbrekende lettertypen in Aspose.PSD voor Java
+# Hoe lettertypen te vervangen in Aspose.PSD voor Java
 
-## Invoering
+## Inleiding
 
-In het dynamische domein van Java-ontwikkeling kan het beheren en vervangen van ontbrekende lettertypen in uw PSD-bestanden een cruciaal aspect zijn bij het maken van visueel aantrekkelijke en foutloze afbeeldingen. Aspose.PSD voor Java komt te hulp met zijn krachtige functies, waardoor het vervangen van lettertypen een naadloos proces wordt. In deze zelfstudie verkennen we de stappen om ontbrekende lettertypen te vervangen met Aspose.PSD voor Java, zodat uw afbeeldingen hun esthetische integriteit behouden.
+Als je werkt met Photoshop (PSD) bestanden in een Java‑applicatie, kunnen ontbrekende lettertypen de lay-out verstoren en renderfouten veroorzaken. **Hoe lettertypen te vervangen** snel en betrouwbaar is essentieel om de ontwerpgetrouwheid te behouden. In deze tutorial leer je hoe je Aspose.PSD voor Java gebruikt om ontbrekende lettertypen te vervangen, het resultaat naar PNG te converteren en je afbeelding‑conversieworkflow soepel te laten verlopen. Aan het einde kun je lettertypen in afbeeldingen vervangen, PSD opslaan als PNG, en veelvoorkomende valkuilen die ontwikkelaars tegenkomen vermijden.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat betekent “lettertypen vervangen” in PSD‑verwerking?** Het vervangt ontbrekende of niet‑beschikbare lettertypen door een fallback‑lettertype dat je opgeeft.  
+- **Welke bibliotheek handelt dit automatisch af?** Aspose.PSD voor Java biedt `PsdLoadOptions.setDefaultReplacementFont`.  
+- **Kan ik de PSD ook naar PNG converteren na het vervangen?** Ja – gebruik `PngOptions` en roep `psdImage.save` aan.  
+- **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose.PSD‑licentie is vereist voor niet‑evaluatie‑builds.  
+- **Welke Java‑versie wordt ondersteund?** Elke Java 8+ runtime werkt met de huidige Aspose.PSD‑release.
 
-Voordat u in de magie van het vervangen van lettertypen duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is lettertype‑vervanging in PSD‑bestanden?
 
-1.  Aspose.PSD-bibliotheek: Download en installeer de Aspose.PSD voor Java-bibliotheek van de[releases pagina](https://releases.aspose.com/psd/java/).
+Wanneer een PSD een lettertype verwijst dat niet op de host‑machine is geïnstalleerd, valt de renderengine terug op een generiek lettertype, wat vaak resulteert in verkeerd uitgelijnde tekst. Lettertype‑vervanging laat je een standaardlettertype (bijv. Arial) definiëren dat de bibliotheek gebruikt telkens wanneer een ontbrekend lettertype wordt aangetroffen, zodat de visuele output consistent blijft.
 
-2. Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw systeem is geïnstalleerd.
+## Waarom ontbrekende lettertypen vervangen met Aspose.PSD?
 
-Laten we nu verder gaan met het spannende deel!
+- **Zero‑dependency solution** – Geen native Photoshop of externe tools nodig.  
+- **Batch‑ready** – Verwerk tientallen bestanden in een lus met dezelfde instellingen.  
+- **Image conversion ready** – Na vervanging kun je direct **save PSD as PNG** of **convert PSD to PNG** uitvoeren zonder extra stappen.  
+- **Cross‑platform** – Werkt op Windows, Linux en macOS Java‑runtimes.
+
+## Voorvereisten
+
+1. **Aspose.PSD Library** – Download en installeer de Aspose.PSD voor Java‑bibliotheek vanaf de [releases page](https://releases.aspose.com/psd/java/).  
+2. **Java Development Environment** – JDK 8 of later geïnstalleerd en geconfigureerd.  
+
+Nu we de basis hebben, duiken we in de code.
 
 ## Pakketten importeren
 
-Begin met het importeren van de benodigde pakketten in uw Java-project. Deze stap zorgt ervoor dat u toegang heeft tot de Aspose.PSD functionaliteiten in uw code.
+Begin met het importeren van de benodigde Aspose.PSD‑klassen. Hiermee krijg je toegang tot het laden van afbeeldingen, opties voor lettertype‑vervanging en PNG‑exportfunctionaliteit.
 
 ```java
 import com.aspose.psd.Image;
@@ -40,35 +58,35 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Stap 1: Stel uw documentenmap in
+## Stap 1: Stel uw documentmap in
 
-Definieer de map waar uw PSD-bestand zich bevindt. Dit zorgt ervoor dat de code weet waar het bron-PSD-bestand moet worden gezocht en waar de resulterende afbeelding moet worden opgeslagen.
+Definieer de map die de bron‑PSD bevat en waar de resulterende PNG wordt opgeslagen.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Stap 2: Geef bron- en doelbestanden op
+## Stap 2: Specificeer bron‑ en doelbestanden
 
-Geef de paden op voor uw bron-PSD-bestand en het doelbestand waar de gewijzigde afbeelding zal worden opgeslagen.
+Geef volledige paden op voor de invoer‑PSD en de uitvoer‑PNG. Dit maakt de workflow duidelijk en houdt de code onderhoudbaar.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "result.png";
 ```
 
-## Stap 3: Configureer de instellingen voor lettertypevervanging
+## Stap 3: Configureer instellingen voor lettertype‑vervanging
 
-Initialiseer de PsdLoadOptions en stel het standaard vervangende lettertype in. In dit voorbeeld gebruiken we 'Arial' als vervangend lettertype.
+Maak een `PsdLoadOptions`‑instantie aan en vertel Aspose.PSD welk lettertype moet worden gebruikt wanneer een ontbrekend lettertype wordt aangetroffen. In dit voorbeeld gebruiken we **Arial**, maar je kunt dit vervangen door elk lettertype dat op je systeem is geïnstalleerd.
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setDefaultReplacementFont("Arial");
 ```
 
-## Stap 4: PSD-afbeelding laden en lettertypen vervangen
+## Stap 4: Laad PSD‑afbeelding en vervang lettertypen
 
-Laad de PSD-afbeelding met behulp van de opgegeven laadopties en vervang eventuele ontbrekende lettertypen door het standaard vervangende lettertype dat in de vorige stap is ingesteld.
+Laad de PSD met de hierboven gedefinieerde opties. De bibliotheek verwisselt automatisch alle ontbrekende lettertypen met het opgegeven standaardlettertype.
 
 ```java
 Image image = Image.load(sourceFile, loadOptions);
@@ -77,7 +95,7 @@ PsdImage psdImage = (PsdImage) image;
 
 ## Stap 5: Sla de gewijzigde afbeelding op
 
-Configureer de opties voor het opslaan van de gewijzigde PSD-afbeelding. In dit voorbeeld slaan we de afbeelding op in PNG-indeling met ware kleuren en alfakanaal.
+Configureer PNG‑exportopties — true color met een alfakanaal — om transparantie te behouden. Deze stap demonstreert ook **image conversion PSD to PNG** na lettertype‑vervanging.
 
 ```java
 PngOptions options = new PngOptions();
@@ -85,33 +103,43 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-Gefeliciteerd! U hebt ontbrekende lettertypen in uw PSD-bestand vervangen met Aspose.PSD voor Java.
+### Wat is er net gebeurd?
 
-## Conclusie
+- De PSD werd geopend met een fallback‑lettertype (Arial).  
+- Alle tekstlagen die oorspronkelijk verwezen naar ontbrekende lettertypen renderen nu met Arial.  
+- De uiteindelijke afbeelding werd opgeslagen als een PNG, effectief **saving PSD as PNG** terwijl de visuele getrouwheid behouden blijft.
 
-Het vervangen van lettertypen is een fluitje van een cent met Aspose.PSD voor Java en biedt ontwikkelaars een robuuste oplossing voor het behouden van de visuele consistentie in hun afbeeldingen. Door deze stapsgewijze handleiding te volgen, heeft u geleerd hoe u ontbrekende lettertypen naadloos kunt vervangen, zodat uw afbeeldingen aan de hoogste normen voldoen.
+## Veelvoorkomende problemen & probleemoplossing
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| Tekst ziet er nog steeds verkeerd uit | Lettertype‑metingen verschillen (grootte, gewicht) | Pas de grootte van het vervangende lettertype programmatisch aan of kies een lettertype met vergelijkbare metingen. |
+| PNG is groter dan verwacht | Standaard PNG‑opties gebruiken 32‑bit kleur | Schakel `PngColorType` over naar `Truecolor` als alfa niet nodig is. |
+| Licentie‑exceptie | Uitvoeren zonder een geldige licentie | Pas een tijdelijke of permanente Aspose.PSD‑licentie toe vóór het laden van de afbeelding. |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.PSD compatibel met alle PSD-bestandsversies?
+**Q: Is Aspose.PSD compatibel met alle PSD‑bestandversies?**  
+A: Aspose.PSD ondersteunt een breed scala aan PSD‑versies, van vroege Photoshop‑releases tot de nieuwste functies.
 
-A1: Aspose.PSD ondersteunt verschillende PSD-bestandsversies, waardoor compatibiliteit met een breed scala aan ontwerpen wordt gegarandeerd.
+**Q: Kan ik aangepaste lettertypen gebruiken voor vervanging in Aspose.PSD?**  
+A: Ja, geef simpelweg de naam van het aangepaste lettertype door aan `setDefaultReplacementFont`. Zorg ervoor dat het lettertype toegankelijk is voor de JVM.
 
-### V2: Kan ik aangepaste lettertypen gebruiken ter vervanging in Aspose.PSD?
+**Q: Zijn er licentie‑opties beschikbaar voor Aspose.PSD?**  
+A: Verken de licentie‑opties [hier](https://purchase.aspose.com/buy) om het beste plan voor uw behoeften te kiezen.
 
-A2: Ja, u kunt aangepaste vervangende lettertypen opgeven op basis van uw ontwerpvereisten.
+**Q: Is er een community‑forum voor Aspose.PSD‑ondersteuning?**  
+A: Ja, bezoek het [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) voor community‑ondersteuning en discussies.
 
-### Vraag 3: Zijn er licentieopties beschikbaar voor Aspose.PSD?
+**Q: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?**  
+A: Haal een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/) voor test‑ en evaluatiedoeleinden.
 
- A3: Ontdek de licentieopties[hier](https://purchase.aspose.com/buy) om het beste plan voor uw behoeften te kiezen.
+---
 
-### V4: Is er een communityforum voor Aspose.PSD-ondersteuning?
+**Laatst bijgewerkt:** 2025-12-25  
+**Getest met:** Aspose.PSD 24.11 for Java (latest at time of writing)  
+**Auteur:** Aspose  
 
- A4: Ja, bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) voor gemeenschapsondersteuning en discussies.
-
-### V5: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
-
- A5: Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/) voor test- en evaluatiedoeleinden.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

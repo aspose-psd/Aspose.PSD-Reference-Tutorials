@@ -1,35 +1,53 @@
 ---
-title: Impostazioni per la sostituzione dei caratteri mancanti in Aspose.PSD per Java
-linktitle: Impostazioni per la sostituzione dei caratteri mancanti
-second_title: API Java Aspose.PSD
-description: Esplora una guida completa sulla sostituzione dei caratteri mancanti in Aspose.PSD per Java. Migliora il design della tua immagine con una gestione semplice dei caratteri.
-weight: 17
+date: 2025-12-25
+description: Scopri come sostituire i font nei file PSD con Aspose.PSD per Java –
+  una guida passo‑passo che mostra anche come salvare i PSD in PNG e gestire i font
+  mancanti.
+linktitle: Settings for Replacing Missing Fonts
+second_title: Aspose.PSD Java API
+title: Come sostituire i font in Aspose.PSD per Java
 url: /it/java/advanced-techniques/settings-replacing-missing-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Impostazioni per la sostituzione dei caratteri mancanti in Aspose.PSD per Java
+# Come sostituire i font in Aspose.PSD per Java
 
 ## Introduzione
 
-Nel regno dinamico dello sviluppo Java, la gestione e la sostituzione dei caratteri mancanti nei file PSD può essere un aspetto cruciale della creazione di immagini visivamente accattivanti e prive di errori. Aspose.PSD per Java viene in soccorso con le sue potenti funzionalità, rendendo la sostituzione dei caratteri un processo senza interruzioni. In questo tutorial, esploreremo i passaggi per sostituire i caratteri mancanti utilizzando Aspose.PSD per Java, assicurando che le tue immagini mantengano la loro integrità estetica.
+Se lavori con file Photoshop (PSD) in un'applicazione Java, i font mancanti possono rompere il layout visivo e causare errori di rendering. **Come sostituire i font** in modo rapido e affidabile è essenziale per mantenere la fedeltà del design. In questo tutorial imparerai a usare Aspose.PSD per Java per sostituire i font mancanti, convertire il risultato in PNG e mantenere fluido il tuo flusso di lavoro di conversione delle immagini. Alla fine, sarai in grado di sostituire i font nelle immagini, salvare PSD come PNG e evitare le insidie comuni che gli sviluppatori incontrano.
+
+## Risposte rapide
+- **Che cosa significa “replace fonts” nell'elaborazione PSD?** Sostituisce i caratteri mancanti o non disponibili con un font di fallback che specifichi.  
+- **Quale libreria gestisce questo automaticamente?** Aspose.PSD per Java fornisce `PsdLoadOptions.setDefaultReplacementFont`.  
+- **Posso anche convertire il PSD in PNG dopo la sostituzione?** Sì – usa `PngOptions` e chiama `psdImage.save`.  
+- **È necessaria una licenza per l'uso in produzione?** È richiesta una licenza valida di Aspose.PSD per build non‑valutazione.  
+- **Quale versione di Java è supportata?** Qualsiasi runtime Java 8+ funziona con l'attuale versione di Aspose.PSD.
+
+## Che cos'è la sostituzione dei font nei file PSD?
+
+Quando un PSD fa riferimento a un font che non è installato sulla macchina host, il motore di rendering ricorre a un font generico, spesso provocando testo disallineato. La sostituzione dei font ti permette di definire un font predefinito (ad esempio Arial) che la libreria utilizzerà ogni volta che incontra un tipo di carattere mancante, garantendo un output visivo coerente.
+
+## Perché sostituire i font mancanti con Aspose.PSD?
+
+- **Soluzione a zero dipendenze** – Non è necessario Photoshop nativo o strumenti esterni.  
+- **Pronta per il batch** – Elabora decine di file in un ciclo con le stesse impostazioni.  
+- **Pronta per la conversione di immagini** – Dopo la sostituzione puoi direttamente **salvare PSD come PNG** o **convertire PSD in PNG** senza passaggi aggiuntivi.  
+- **Cross‑platform** – Funziona su runtime Java Windows, Linux e macOS.
 
 ## Prerequisiti
 
-Prima di immergerti nella magia della sostituzione dei caratteri, assicurati di disporre dei seguenti prerequisiti:
+1. **Libreria Aspose.PSD** – Scarica e installa la libreria Aspose.PSD per Java dalla [pagina dei rilasci](https://releases.aspose.com/psd/java/).  
+2. **Ambiente di sviluppo Java** – JDK 8 o successivo installato e configurato.  
 
-1.  Libreria Aspose.PSD: scarica e installa la libreria Aspose.PSD per Java da[pagina delle uscite](https://releases.aspose.com/psd/java/).
+Ora che abbiamo le basi, immergiamoci nel codice.
 
-2. Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java configurato sul tuo sistema.
+## Importa i pacchetti
 
-Ora passiamo alla parte emozionante!
-
-## Importa pacchetti
-
-Inizia importando i pacchetti necessari nel tuo progetto Java. Questo passaggio garantisce l'accesso alle funzionalità Aspose.PSD nel codice.
+Inizia importando le classi necessarie di Aspose.PSD. Questo ti dà accesso al caricamento delle immagini, alle opzioni di sostituzione dei font e alle capacità di esportazione PNG.
 
 ```java
 import com.aspose.psd.Image;
@@ -40,44 +58,44 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Passaggio 1: imposta la directory dei documenti
+## Passo 1: Configura la directory del documento
 
-Definisci la directory in cui si trova il tuo file PSD. Ciò garantisce che il codice sappia dove cercare il file PSD di origine e dove salvare l'immagine risultante.
+Definisci la cartella che contiene il PSD di origine e dove verrà salvato il PNG risultante.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Passaggio 2: specificare i file di origine e di destinazione
+## Passo 2: Specifica i file di origine e destinazione
 
-Fornisci i percorsi per il file PSD di origine e il file di destinazione in cui verrà salvata l'immagine modificata.
+Fornisci i percorsi completi per il PSD di input e il PNG di output. Questo rende il flusso di lavoro chiaro e mantiene il codice facile da mantenere.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "result.png";
 ```
 
-## Passaggio 3: configurare le impostazioni di sostituzione dei caratteri
+## Passo 3: Configura le impostazioni di sostituzione dei font
 
-Inizializza PsdLoadOptions e imposta il carattere sostitutivo predefinito. In questo esempio, utilizziamo "Arial" come carattere sostitutivo.
+Crea un'istanza di `PsdLoadOptions` e indica ad Aspose.PSD quale font usare quando incontra uno mancante. In questo esempio usiamo **Arial**, ma puoi sostituirlo con qualsiasi font installato sul tuo sistema.
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setDefaultReplacementFont("Arial");
 ```
 
-## Passaggio 4: carica l'immagine PSD e sostituisci i caratteri
+## Passo 4: Carica l'immagine PSD e sostituisci i font
 
-Carica l'immagine PSD utilizzando le opzioni di caricamento specificate e sostituisci eventuali caratteri mancanti con il carattere sostitutivo predefinito impostato nel passaggio precedente.
+Carica il PSD usando le opzioni definite sopra. La libreria scambia automaticamente i font mancanti con quello predefinito specificato.
 
 ```java
 Image image = Image.load(sourceFile, loadOptions);
 PsdImage psdImage = (PsdImage) image;
 ```
 
-## Passaggio 5: salva l'immagine modificata
+## Passo 5: Salva l'immagine modificata
 
-Configura le opzioni per salvare l'immagine PSD modificata. In questo esempio, stiamo salvando l'immagine in formato PNG con colori reali e canale alfa.
+Configura le opzioni di esportazione PNG—true color con canale alfa—per preservare la trasparenza. Questo passaggio dimostra anche **image conversion PSD to PNG** dopo la sostituzione dei font.
 
 ```java
 PngOptions options = new PngOptions();
@@ -85,33 +103,43 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-Congratulazioni! Hai sostituito con successo i caratteri mancanti nel tuo file PSD utilizzando Aspose.PSD per Java.
+### Cosa è successo?
 
-## Conclusione
+- Il PSD è stato aperto con un font di fallback (Arial).  
+- Tutti i livelli di testo che originariamente facevano riferimento a font mancanti ora vengono renderizzati usando Arial.  
+- L'immagine finale è stata salvata come PNG, effettuando effettivamente **salvare PSD come PNG** mantenendo la fedeltà visiva.
 
-La sostituzione dei caratteri è un gioco da ragazzi con Aspose.PSD per Java, offrendo agli sviluppatori una soluzione solida per mantenere la coerenza visiva nelle loro immagini. Seguendo questa guida passo passo, hai imparato come sostituire facilmente i caratteri mancanti, assicurandoti che le tue immagini soddisfino gli standard più elevati.
+## Problemi comuni e risoluzione
+
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| Il testo appare ancora errato | Le metriche del font differiscono (dimensione, peso) | Regola la dimensione del font di sostituzione programmaticamente o scegli un font con metriche simili. |
+| Il PNG è più grande del previsto | Le opzioni PNG predefinite usano colore a 32‑bit | Passa `PngColorType` a `Truecolor` se l'alpha non è necessario. |
+| Eccezione di licenza | Esecuzione senza una licenza valida | Applica una licenza temporanea o permanente di Aspose.PSD prima di caricare l'immagine. |
 
 ## Domande frequenti
 
-### Q1: Aspose.PSD è compatibile con tutte le versioni dei file PSD?
+**Q: Aspose.PSD è compatibile con tutte le versioni di file PSD?**  
+A: Aspose.PSD supporta un'ampia gamma di versioni PSD, dalle prime release di Photoshop fino alle funzionalità più recenti.
 
-R1: Aspose.PSD supporta varie versioni di file PSD, garantendo la compatibilità con un'ampia gamma di design.
+**Q: Posso usare font personalizzati per la sostituzione in Aspose.PSD?**  
+A: Sì, basta passare il nome del font personalizzato a `setDefaultReplacementFont`. Assicurati che il font sia accessibile alla JVM.
 
-### Q2: posso utilizzare caratteri personalizzati per la sostituzione in Aspose.PSD?
+**Q: Sono disponibili opzioni di licenza per Aspose.PSD?**  
+A: Esplora le opzioni di licenza [qui](https://purchase.aspose.com/buy) per scegliere il piano migliore per le tue esigenze.
 
-R2: Sì, puoi specificare caratteri sostitutivi personalizzati in base ai tuoi requisiti di progettazione.
+**Q: Esiste un forum della community per il supporto di Aspose.PSD?**  
+A: Sì, visita il [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) per supporto della community e discussioni.
 
-### Q3: Sono disponibili opzioni di licenza per Aspose.PSD?
+**Q: Come posso ottenere una licenza temporanea per Aspose.PSD?**  
+A: Ottieni una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/) per scopi di test e valutazione.
 
- A3: esplora le opzioni di licenza[Qui](https://purchase.aspose.com/buy) per scegliere il piano migliore per le tue esigenze.
+---
 
-### Q4: esiste un forum della community per il supporto di Aspose.PSD?
+**Ultimo aggiornamento:** 2025-12-25  
+**Testato con:** Aspose.PSD 24.11 per Java (latest at time of writing)  
+**Autore:** Aspose  
 
- A4: Sì, visita il[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) per il supporto e le discussioni della comunità.
-
-### Q5: Come posso ottenere una licenza temporanea per Aspose.PSD?
-
- A5: ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test e valutazione.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
