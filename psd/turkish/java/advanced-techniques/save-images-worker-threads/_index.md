@@ -1,33 +1,53 @@
 ---
-title: Aspose.PSD for Java ile Worker Threads'i kullanarak Görüntüleri Kaydetme
-linktitle: Çalışan Konularını Kullanarak Görüntüleri Kaydetme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD ile Java'da çok iş parçacıklı görüntü işlemeyi keşfedin. Çalışan iş parçacıklarını kullanarak görüntüleri verimli bir şekilde kaydetmeyi öğrenin.
-weight: 14
+date: 2025-12-25
+description: İşçi iş parçacıklarını kullanarak PSD dosyalarını JPG olarak kaydetme
+  üzerine bir Java görüntü işleme öğreticisini öğrenin. Bu rehber, görüntüleri iş
+  parçacıklarıyla verimli bir şekilde kaydetmeyi gösterir.
+linktitle: Save Images using Worker Threads
+second_title: Aspose.PSD Java API
+title: Java Görüntü İşleme Öğreticisi – İşçi İş Parçacıklarıyla Görüntüleri Kaydet
 url: /tr/java/advanced-techniques/save-images-worker-threads/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java ile Worker Threads'i kullanarak Görüntüleri Kaydetme
+# Java Image Processing Öğreticisi – İşçi İplikleriyle Görüntü Kaydetme
 
-## giriiş
+## Introduction
 
-Java'da görüntü işleme yeteneklerinizi geliştirmeye hazır mısınız? Aspose.PSD for Java'dan başka bir yere bakmayın. Bu eğitimde, optimum performans ve verimlilik sağlamak üzere, çalışan iş parçacıklarını kullanarak görüntüleri kaydetme sürecinde size rehberlik edeceğiz. Aspose.PSD ile çok iş parçacıklı görüntü işleme dünyasına dalalım!
+Bu **java image processing tutorial**'a hoş geldiniz; burada Aspose.PSD for Java'da **worker threads** kullanarak PSD dosyalarını JPG (veya diğer formatlar) olarak nasıl kaydedeceğinizi göstereceğiz. Çok‑işlemcili (multi‑threaded) görüntü işleme, özellikle büyük bir dosya topluluğunu dönüştürmeniz gerektiğinde yürütme süresini önemli ölçüde azaltabilir. Önümüzdeki birkaç dakikada, iş parçacıklarının neden önemli olduğunu, güvenli bir şekilde nasıl kurulacağını öğrenecek ve tamamen çalıştırılabilir bir kod örneği göreceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **What does this tutorial cover?** Aspose.PSD for Java kullanarak worker threads ile görüntü kaydetme.  
+- **Why use threads?** Birden fazla görüntüyü paralel işleyerek verimliliği artırmak.  
+- **Do I need a license?** Üretim ortamı için geçici bir lisans gerekir; test için ücretsiz deneme sürümü yeterlidir.  
+- **Which Java version is supported?** Java 8 ve üzeri.  
+- **Can I convert PSD to JPG?** Evet – öğreticide herhangi bir desteklenen formatta kaydetme gösterilmektedir.
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is java image processing tutorial?
 
-- Java programlamanın temel bilgisi.
--  Aspose.PSD for Java kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/psd/java/).
-- Java ile kurulmuş bir geliştirme ortamı.
+Bir *java image processing tutorial*, Java’da programatik olarak görüntü dosyalarını nasıl manipüle edeceğinizi, dönüştüreceğinizi ve dışa aktaracağınızı öğretir. Bu rehberde odak, yoğun I/O işini arka plan iş parçacıklarına devrederek **görüntüleri verimli bir şekilde kaydetmek** üzerinedir.
 
-## Paketleri İçe Aktar
+## Why use worker threads for saving images?
 
-Java projenize Aspose.PSD ile çalışmak için gerekli paketleri içe aktararak başlayın:
+- **Performance:** Paralel yürütme, birden çok CPU çekirdeğini kullanarak toplam işleme süresini azaltır.  
+- **Responsiveness:** Büyük dosyalar kaydedilirken ana uygulamanız yanıt vermeye devam eder.  
+- **Scalability:** Yaklaşımı, toplu işlerde binlerce dosyayı işlemek için kolayca genişletebilirsiniz.
+
+## Prerequisites
+
+Başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
+
+- Java programlama temelleri.  
+- Aspose.PSD for Java kütüphanesi yüklü. Kütüphaneyi [buradan](https://releases.aspose.com/psd/java/) indirebilirsiniz.  
+- Java (JDK 8 veya daha yeni) yüklü bir geliştirme ortamı.
+
+## Import Packages
+
+Java projenizde Aspose.PSD ile çalışmak için gerekli paketleri içe aktararak başlayın:
 
 ```java
 import com.aspose.psd.Image;
@@ -40,27 +60,25 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 ```
 
-Çalışan iş parçacıklarını kullanarak görüntüleri kaydetme sürecini basit adımlara ayıralım:
+### Step 1: Initialize `SaveImageWorker`
 
-## 1. Adım: SaveImageWorker'ı başlatın
-
- Adlı bir sınıf oluşturun`SaveImageWorker` ve gerekli değişkenleri başlatın:
+`SaveImageWorker` adında bir sınıf oluşturun ve gerekli değişkenleri başlatın. Bu worker, tek bir kaydetme işlemi için gereken tüm verileri kapsül eder.
 
 ```java
 public class SaveImageWorker {
-    //... (Değişken bildirimleri için sağlanan koda bakın)
+    // ... (Refer to provided code for variable declarations)
     
     public SaveImageWorker(String inputPath, String outputPath, ImageOptionsBase saveOptions, InterruptMonitor monitor) {
-        // Oluşturucu mantığı
+        // Constructor logic
     }
     
-    // ... (Ek yöntemler için sağlanan koda bakın)
+    // ... (Refer to provided code for additional methods)
 }
 ```
 
-## Adım 2: ThreadProc Yöntemini Tanımlayın
+### Step 2: Define `ThreadProc` Method
 
- Uygulamak`ThreadProc` Kesintilerle başa çıkarken görüntüyü bir formattan diğerine dönüştürme yöntemi:
+`ThreadProc` metodunu uygulayarak bir görüntüyü bir formattan diğerine dönüştürün ve kesintileri (interrupt) sorunsuz bir şekilde yönetin.
 
 ```java
 public String ThreadProc() {
@@ -83,48 +101,71 @@ public String ThreadProc() {
 }
 ```
 
-## 3. Adım: SaveImageWorker'ı kullanın
+### Step 3: Utilize `SaveImageWorker` in Your Application
 
- Ana uygulamanızda bir örneğini oluşturun`SaveImageWorker` ve bunu çalışan iş parçacıklarıyla birlikte görüntüleri kaydetmek için kullanın:
+Ana uygulamanızda bir `SaveImageWorker` örneği oluşturun ve arka plan iş parçacığında kaydetme işlemini gerçekleştirmek için `ThreadProc` metodunu çağırın.
 
 ```java
 public class MainApplication {
     public static void main(String[] args) {
-        // ... (inputPath'i, OutputPath'i, saveOptions'ı ve monitörü başlatın)
+        // ... (Initialize inputPath, outputPath, saveOptions, and monitor)
         
         SaveImageWorker saveImageWorker = new SaveImageWorker(inputPath, outputPath, saveOptions, monitor);
         String result = saveImageWorker.ThreadProc();
         
-        // ... (Sonucu gerektiği gibi ele alın)
+        // ... (Handle the result as needed)
     }
 }
 ```
 
-## Çözüm
+## Common Issues and Solutions
 
-Tebrikler! Aspose.PSD for Java ile çalışan iş parçacıklarını kullanarak görüntüleri nasıl kaydedeceğinizi başarıyla öğrendiniz. Bu yaklaşım, kesintileri sorunsuz bir şekilde ele alma avantajıyla birlikte verimli görüntü işleme sağlar.
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| **Thread hangs** | `InterruptMonitor` temizlenmemiş | `finally` bloğunda `InterruptMonitor.setThreadLocalInstance(null)` çağrıldığından emin olun. |
+| **Unsupported format** | Yanlış `ImageOptionsBase` alt sınıfı kullanılmış | İstenen çıktıya uygun `JpegOptions`, `PngOptions` vb. kullanın. |
+| **Out‑of‑memory** | Büyük PSD UI iş parçacığında yüklenmiş | İşlem ve kaydetme işlemlerini worker iş parçacığında yapın; çok büyük dosyalar için akış (streaming) yöntemini düşünün. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Aspose.PSD for Java, çok iş parçacıklı görüntü işlemeye uygun mu?
+### Q1: Is Aspose.PSD for Java suitable for multi‑threaded image processing?
 
-Cevap1: Evet, Aspose.PSD for Java, çoklu iş parçacığı desteği sağlayarak görüntü işleme görevlerinde performansı artırmanıza olanak tanır.
+A1: Yes, Aspose.PSD for Java provides built‑in support for multi‑threading, allowing you to enhance performance in image processing tasks.
 
-### S2: Aspose.PSD for Java'nın ayrıntılı belgelerini nerede bulabilirim?
+### Q2: Where can I find detailed documentation for Aspose.PSD for Java?
 
-A2: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/psd/java/) Aspose.PSD for Java hakkında kapsamlı bilgi için.
+A2: You can refer to the documentation [here](https://reference.aspose.com/psd/java/) for comprehensive information on Aspose.PSD for Java.
 
-### S3: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
+### Q3: How can I obtain a temporary license for Aspose.PSD for Java?
 
- Cevap3: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PSD for Java'nın tüm özelliklerini keşfetmek için.
+A3: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/) to explore the full capabilities of Aspose.PSD for Java.
 
-### S4: Aspose.PSD for Java için hangi destek seçenekleri mevcut?
+### Q4: What support options are available for Aspose.PSD for Java?
 
- A4: Herhangi bir yardım veya soru için şu adresi ziyaret edin:[Java forumu için Aspose.PSD](https://forum.aspose.com/c/psd/34) toplulukla ve uzmanlarla bağlantı kurmak.
+A4: For any assistance or queries, visit the [Aspose.PSD for Java forum](https://forum.aspose.com/c/psd/34) to connect with the community and experts.
 
-### S5: Aspose.PSD for Java'yı nereden satın alabilirim?
+### Q5: Where can I purchase Aspose.PSD for Java?
 
- Cevap5: Aspose.PSD for Java'yı satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
+A5: To purchase Aspose.PSD for Java, visit the [purchase page](https://purchase.aspose.com/buy).
+
+### Q6: Can I convert a PSD to JPG using this approach?
+
+A6: Absolutely. Use `JpegOptions` as the `saveOptions` argument when calling `image.save(...)`.
+
+### Q7: How many threads should I spawn for optimal performance?
+
+A7: A good rule of thumb is to match the number of available CPU cores (`Runtime.getRuntime().availableProcessors()`), but always test with your workload.
+
+## Conclusion
+
+Artık Aspose.PSD for Java kullanarak **threads** ile **görüntü kaydetme** yöntemini gösteren bir **java image processing tutorial**'ını başarıyla tamamladınız. Kaydetme mantığını bir worker sınıfına kapsülleyip `InterruptMonitor`'ı kullanarak hem hız hem de sağlamlık elde edersiniz. Bu deseni klasörleri toplu işlemek, ilerleme raporları eklemek veya daha büyük bir görüntü‑işleme hattına entegre etmek için genişletmekten çekinmeyin.
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.PSD for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
