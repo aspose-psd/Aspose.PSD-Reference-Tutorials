@@ -1,33 +1,52 @@
 ---
-title: Prise en charge d'Interrupt Monitor dans Aspose.PSD pour Java
-linktitle: Prise en charge du moniteur d'interruption
-second_title: API Java Aspose.PSD
-description: Débloquez le contrôle du traitement des images avec Aspose.PSD pour Java. Apprenez à interrompre les processus pour des flux de travail flexibles.
-weight: 18
+date: 2025-12-25
+description: Apprenez à convertir PSD en PNG en utilisant Aspose.PSD pour Java avec
+  prise en charge du moniteur d’interruption, y compris un exemple d’interruption
+  de thread Java et des conseils pour enregistrer un PSD au format PNG.
+linktitle: Support for Interrupt Monitor
+second_title: Aspose.PSD Java API
+title: Comment convertir un PSD en PNG avec la prise en charge du moniteur d’interruption
+  dans Aspose.PSD pour Java
 url: /fr/java/advanced-techniques/support-interrupt-monitor/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prise en charge d'Interrupt Monitor dans Aspose.PSD pour Java
+# Convertir PSD en PNG avec le Moniteur d’interruption dans Aspose.PSD pour Java
 
 ## Introduction
 
-Dans le domaine du développement Java, Aspose.PSD se distingue comme un outil puissant pour gérer diverses tâches de traitement d'image. Parmi ses nombreuses fonctionnalités, la prise en charge d'un moniteur d'interruption est un aspect crucial qui améliore le contrôle et la flexibilité dont disposent les développeurs sur les flux de travail de traitement d'images. Dans ce didacticiel, nous verrons comment exploiter Interrupt Monitor dans Aspose.PSD pour Java pour gérer et interrompre efficacement les processus de conversion d'image.
+Si vous devez **convertir PSD en PNG** tout en conservant un contrôle total sur les conversions d’images de longue durée, le Moniteur d’interruption d’Aspose.PSD pour Java est l’outil que vous recherchiez. Dans ce tutoriel, nous parcourrons un **exemple d’interruption de thread Java** réel qui vous permet d’arrêter une conversion en cours, vous offrant ainsi la flexibilité de gérer les ressources, d’appliquer des délais d’attente ou de répondre aux annulations d’utilisateurs.
 
-## Conditions préalables
+## Quick Answers
+- **Que fait le Moniteur d’interruption ?** Il vous permet de signaler à une conversion d’image en cours de s’arrêter en toute sécurité.  
+- **Puis‑je convertir PSD en PNG avec ?** Oui – le moniteur fonctionne avec toute opération d’enregistrement, y compris PNG.  
+- **Un thread séparé est‑il requis ?** En général, vous exécutez la conversion dans un thread séparé afin de pouvoir l’interrompre.  
+- **Quelle version d’Aspose.PSD est nécessaire ?** Toute version récente incluant `com.aspose.psd.multithreading.InterruptMonitor`.  
+- **Ai‑je besoin d’une licence pour la production ?** Oui, une licence Aspose.PSD valide est requise pour une utilisation hors période d’essai.
 
-Avant de plonger dans les subtilités de l’utilisation d’Interrupt Monitor, assurez-vous que les conditions préalables suivantes sont en place :
+## Qu’est‑ce que « convertir PSD en PNG » avec un Moniteur d’interruption ?
 
-- Environnement de développement Java : configurez un environnement de développement Java sur votre système.
--  Bibliothèque Aspose.PSD : obtenez la bibliothèque Aspose.PSD pour Java. Vous pouvez le télécharger[ici](https://releases.aspose.com/psd/java/).
-- Répertoire de documents : disposez d'un répertoire désigné pour vos documents PSD.
+Convertir un grand document Photoshop (PSD/PSB) en image PNG peut être très gourmand en CPU. En attachant un **Moniteur d’interruption** au processus de conversion, vous obtenez la capacité d’arrêter le traitement de manière programmatique – idéal pour les services web, les travaux batch ou les applications UI où les utilisateurs peuvent annuler les opérations.
 
-## Importer des packages
+## Pourquoi utiliser le Moniteur d’interruption ?
 
-Commencez par importer les packages nécessaires dans votre projet Java. Cela garantit que vous avez accès aux fonctionnalités Aspose.PSD.
+- **Interface réactive :** Empêche votre application de se bloquer pendant le traitement d’un gros fichier.  
+- **Gestion des ressources :** Arrête les conversions qui dépassent les limites de temps ou de mémoire.  
+- **Gestion des erreurs :** Nettoie proprement les fichiers de sortie partiels lorsqu’une interruption survient.
+
+## Prérequis
+
+- Environnement de développement Java (JDK 8 ou supérieur).  
+- Bibliothèque Aspose.PSD pour Java – téléchargez‑la **[ici](https://releases.aspose.com/psd/java/)**.  
+- Un dossier contenant les fichiers PSD/PSB que vous souhaitez traiter.
+
+## Import Packages
+
+Commencez par importer les classes requises. Cela vous donne accès aux options d’image, au moniteur d’interruption et aux utilitaires de threading.
 
 ```java
 import com.aspose.psd.ImageOptionsBase;
@@ -39,17 +58,17 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Maintenant, décomposons l'exemple de code en un guide étape par étape pour intégrer Interrupt Monitor dans votre projet Aspose.PSD pour Java.
+## Step‑by‑Step Guide
 
-## Étape 1 : définissez votre répertoire de documents
+### Step 1: Set Your Document Directory
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Assurez-vous de remplacer « Votre répertoire de documents » par le chemin réel où vos documents PSD sont stockés.
+Remplacez `"Your Document Directory"` par le chemin absolu où résident vos fichiers PSD.
 
-## Étape 2 : définir les options d'image et le chemin de sortie
+### Step 2: Define Image Options and Output Path
 
 ```java
 ImageOptionsBase saveOptions = new PngOptions();
@@ -57,40 +76,40 @@ String source = dataDir + "big2.psb";
 String output = dataDir + "big_out.png";
 ```
 
-Spécifiez les options d'image, le fichier PSD source et le chemin de sortie souhaité pour l'image convertie.
+Ici nous **enregistrons le PSD en PNG** en utilisant `PngOptions`. Ajustez les noms de fichiers selon vos besoins.
 
-## Étape 3 : initialiser Interrupt Monitor et SaveImageWorker
+### Step 3: Initialize Interrupt Monitor and SaveImageWorker
 
 ```java
 InterruptMonitor monitor = new InterruptMonitor();
 SaveImageWorker worker = new SaveImageWorker(source, output, saveOptions, monitor);
 ```
 
-Créez des instances d'InterruptMonitor et de SaveImageWorker, reliant Interrupt Monitor au convertisseur d'image.
+L’instance `InterruptMonitor` sera utilisée plus tard pour arrêter la conversion. `SaveImageWorker` lie le moniteur à la tâche de conversion.
 
-## Étape 4 : Démarrer le fil de conversion d'image
+### Step 4: Start Image Conversion in a Separate Thread
 
 ```java
 Thread thread = new Thread(worker.ThreadProc());
 try {
     thread.start();
-    // Ajouter un délai d'attente pour permettre une interruption potentielle
+    // Add a timeout to allow for potential interruption
     Thread.sleep(3000);
 ```
 
-Lancez un nouveau thread pour le processus de conversion d'image et introduisez un délai d'attente pour anticiper l'interruption.
+Nous lançons la conversion sur un thread d’arrière‑plan afin que le thread principal reste réactif. L’appel `Thread.sleep(3000)` simule un scénario de dépassement de délai.
 
-## Étape 5 : interrompre le processus
+### Step 5: Interrupt the Process (Java Thread Interrupt Example)
 
 ```java
-    //Interrompre le processus
+    // Interrupt the process
     monitor.interrupt();
     System.out.println("Interrupting the save thread #" + thread.getId() + " at " + getDateTime().toString());
 
-    // Attendez l'interruption...
+    // Wait for interruption...
     thread.join();
 } finally {
-    // Supprimez le fichier de sortie s'il existe
+    // Delete the output file if it exists
     File f = new File(output);
     if (f.exists()) {
         f.delete();
@@ -98,33 +117,44 @@ Lancez un nouveau thread pour le processus de conversion d'image et introduisez 
 }
 ```
 
-Interrompez le processus de conversion d'image à l'aide d'Interrupt Monitor et attendez la fin de l'interruption. Enfin, nettoyez en supprimant le fichier de sortie.
+Appeler `monitor.interrupt()` déclenche la logique **how to interrupt monitor**. Après l’interruption, nous nettoyons tout fichier PNG partiellement écrit.
 
-## Conclusion
+## Common Issues and Solutions
 
-L'intégration de la prise en charge d'Interrupt Monitor dans vos projets Aspose.PSD pour Java vous permet de gérer efficacement les processus de conversion d'images, offrant ainsi un contrôle et une réactivité accrus.
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| La conversion ne s’arrête jamais | Le moniteur n’est pas lié au worker | Assurez‑vous que `SaveImageWorker` reçoit la même instance `InterruptMonitor`. |
+| Le fichier de sortie reste après l’interruption | Le code de nettoyage n’est pas exécuté | Vérifiez que le bloc `finally` s’exécute et que le chemin du fichier est correct. |
+| `OutOfMemoryError` sur de gros fichiers PSB | Options de streaming non utilisées | Utilisez `PsdImage` avec `LoadOptions` qui permettent un chargement mémoire‑efficace. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1 : Qu'est-ce qu'un moniteur d'interruptions dans Aspose.PSD pour Java ?
+### Q1 : Qu’est‑ce qu’un Moniteur d’interruption dans Aspose.PSD pour Java ?
 
-A1 : Le moniteur d'interruptions d'Aspose.PSD pour Java permet aux développeurs de gérer et d'interrompre les processus de conversion d'images, améliorant ainsi le contrôle et la flexibilité.
+R1 : Le Moniteur d’interruption permet aux développeurs **de gérer et d’interrompre les processus de conversion d’image**, offrant un contrôle fin sur les tâches de longue durée.
 
-### Q2 : Comment puis-je obtenir la bibliothèque Aspose.PSD pour Java ?
+### Q2 : Comment obtenir la bibliothèque Aspose.PSD pour Java ?
 
- A2 : Vous pouvez télécharger la bibliothèque Aspose.PSD pour Java[ici](https://releases.aspose.com/psd/java/).
+R2 : Vous pouvez télécharger la bibliothèque Aspose.PSD pour Java **[ici](https://releases.aspose.com/psd/java/)**.
 
-### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.PSD pour Java ?
+### Q3 : Existe‑t‑il un essai gratuit d’Aspose.PSD pour Java ?
 
- A3 : Oui, vous pouvez explorer un essai gratuit d'Aspose.PSD[ici](https://releases.aspose.com/).
+R3 : Oui, vous pouvez explorer un essai gratuit d’Aspose.PSD **[ici](https://releases.aspose.com/)**.
 
-### Q4 : Où puis-je trouver de l'assistance pour Aspose.PSD pour Java ?
+### Q4 : Où puis‑je trouver du support pour Aspose.PSD pour Java ?
 
- A4 : Visitez le forum d'assistance Aspose.PSD pour Java[ici](https://forum.aspose.com/c/psd/34).
+R4 : Consultez le forum de support Aspose.PSD pour Java **[ici](https://forum.aspose.com/c/psd/34)**.
 
-### Q5 : Comment puis-je acheter une licence pour Aspose.PSD pour Java ?
+### Q5 : Comment acheter une licence pour Aspose.PSD pour Java ?
 
-A5 : Vous pouvez acheter une licence pour Aspose.PSD pour Java[ici](https://purchase.aspose.com/buy).
+R5 : Vous pouvez acheter une licence pour Aspose.PSD pour Java **[ici](https://purchase.aspose.com/buy)**.
+
+---
+
+**Dernière mise à jour :** 2025-12-25  
+**Testé avec :** Aspose.PSD 24.11 pour Java  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

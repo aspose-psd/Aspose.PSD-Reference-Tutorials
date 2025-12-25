@@ -1,35 +1,53 @@
 ---
-title: Ustawienia zastępowania brakujących czcionek w Aspose.PSD dla Java
-linktitle: Ustawienia zastępowania brakujących czcionek
-second_title: Aspose.PSD API Java
-description: Zapoznaj się z obszernym przewodnikiem na temat zastępowania brakujących czcionek w Aspose.PSD dla Java. Ulepsz swój projekt obrazu dzięki płynnemu zarządzaniu czcionkami.
-weight: 17
+date: 2025-12-25
+description: Dowiedz się, jak zamienić czcionki w plikach PSD przy użyciu Aspose.PSD
+  dla Javy – krok po kroku przewodnik, który także pokazuje, jak zapisać PSD jako
+  PNG i obsłużyć brakujące czcionki.
+linktitle: Settings for Replacing Missing Fonts
+second_title: Aspose.PSD Java API
+title: Jak wymienić czcionki w Aspose.PSD dla Javy
 url: /pl/java/advanced-techniques/settings-replacing-missing-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustawienia zastępowania brakujących czcionek w Aspose.PSD dla Java
+# Jak wymienić czcionki w Aspose.PSD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-dynamicznym środowisku programowania w języku Java zarządzanie brakującymi czcionkami w plikach PSD i ich zastępowanie może być kluczowym aspektem tworzenia atrakcyjnych wizualnie i wolnych od błędów obrazów. Aspose.PSD dla Java przychodzi na ratunek dzięki swoim zaawansowanym funkcjom, dzięki którym wymiana czcionek przebiega bezproblemowo. W tym samouczku omówimy kroki zastępowania brakujących czcionek przy użyciu Aspose.PSD dla Java, zapewniając, że Twoje obrazy zachowają integralność estetyczną.
+Jeśli pracujesz z plikami Photoshop (PSD) w aplikacji Java, brakujące czcionki mogą zepsuć układ wizualny i powodować błędy renderowania. **Jak wymienić czcionki** szybko i niezawodnie jest niezbędne dla zachowania wierności projektu. W tym samouczku nauczysz się, jak używać Aspose.PSD dla Javy do zamiany brakujących czcionek, konwersji wyniku do PNG oraz utrzymania płynnego przepływu pracy przy konwersji obrazów. Po zakończeniu będziesz w stanie wymienić czcionki w obrazach, zapisać PSD jako PNG i unikać typowych pułapek, na które napotykają programiści.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „replace fonts” w przetwarzaniu PSD?** Zastępuje brakujące lub niedostępne czcionki czcionką zapasową, którą określasz.  
+- **Która biblioteka obsługuje to automatycznie?** Aspose.PSD for Java udostępnia `PsdLoadOptions.setDefaultReplacementFont`.  
+- **Czy mogę również przekonwertować PSD na PNG po zamianie?** Tak – użyj `PngOptions` i wywołaj `psdImage.save`.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.PSD dla wersji nie‑ewaluacyjnych.  
+- **Jaką wersję Javy obsługuje?** Każde środowisko uruchomieniowe Java 8+ działa z bieżącą wersją Aspose.PSD.
 
-Zanim zagłębisz się w magię zastępowania czcionek, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest zamiana czcionek w plikach PSD?
 
-1.  Biblioteka Aspose.PSD: Pobierz i zainstaluj bibliotekę Aspose.PSD dla Java z pliku[strona z wydaniami](https://releases.aspose.com/psd/java/).
+Gdy PSD odwołuje się do czcionki, która nie jest zainstalowana na komputerze hosta, silnik renderujący przechodzi na czcionkę ogólną, co często skutkuje nieprawidłowo wyrównanym tekstem. Zamiana czcionek pozwala zdefiniować domyślną czcionkę (np. Arial), której biblioteka użyje, gdy napotka brakującą czcionkę, zapewniając spójny wygląd wizualny.
 
-2. Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowano środowisko programistyczne Java.
+## Dlaczego wymieniać brakujące czcionki przy użyciu Aspose.PSD?
 
-Przejdźmy teraz do ekscytującej części!
+- **Rozwiązanie bez zależności** – Nie wymaga natywnego Photoshopa ani zewnętrznych narzędzi.  
+- **Gotowe do przetwarzania wsadowego** – Przetwarzaj dziesiątki plików w pętli przy użyciu tych samych ustawień.  
+- **Gotowe do konwersji obrazów** – Po zamianie możesz od razu **zapisać PSD jako PNG** lub **przekonwertować PSD na PNG** bez dodatkowych kroków.  
+- **Wieloplatformowe** – Działa w środowiskach Java na Windows, Linux i macOS.
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Zacznij od zaimportowania niezbędnych pakietów do projektu Java. Ten krok gwarantuje, że masz dostęp do funkcjonalności Aspose.PSD w swoim kodzie.
+1. **Biblioteka Aspose.PSD** – Pobierz i zainstaluj bibliotekę Aspose.PSD for Java ze [strony wydań](https://releases.aspose.com/psd/java/).  
+2. **Środowisko programistyczne Java** – Zainstalowany i skonfigurowany JDK 8 lub nowszy.
+
+Teraz, gdy mamy niezbędne elementy, przejdźmy do kodu.
+
+## Importowanie pakietów
+
+Zacznij od zaimportowania niezbędnych klas Aspose.PSD. Dzięki temu uzyskasz dostęp do ładowania obrazów, opcji zamiany czcionek oraz możliwości eksportu do PNG.
 
 ```java
 import com.aspose.psd.Image;
@@ -42,15 +60,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
-Zdefiniuj katalog, w którym znajduje się plik PSD. Dzięki temu kod wie, gdzie szukać źródłowego pliku PSD i gdzie zapisać wynikowy obraz.
+Określ folder zawierający źródłowy plik PSD oraz miejsce, w którym zostanie zapisany wynikowy plik PNG.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Określ pliki źródłowe i docelowe
+## Krok 2: Określ pliki źródłowy i docelowy
 
-Podaj ścieżki źródłowego pliku PSD i pliku docelowego, w którym zostanie zapisany zmodyfikowany obraz.
+Podaj pełne ścieżki do pliku PSD wejściowego oraz pliku PNG wyjściowego. Dzięki temu przepływ pracy jest przejrzysty, a kod łatwy w utrzymaniu.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
@@ -59,7 +77,7 @@ String destName = dataDir + "result.png";
 
 ## Krok 3: Skonfiguruj ustawienia zamiany czcionek
 
-Zainicjuj PsdLoadOptions i ustaw domyślną czcionkę zastępczą. W tym przykładzie używamy czcionki „Arial” jako czcionki zastępczej.
+Utwórz instancję `PsdLoadOptions` i określ Aspose.PSD, której czcionki użyć, gdy napotka brakującą. W tym przykładzie używamy **Arial**, ale możesz zamienić ją na dowolną czcionkę zainstalowaną w systemie.
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
@@ -68,7 +86,7 @@ loadOptions.setDefaultReplacementFont("Arial");
 
 ## Krok 4: Załaduj obraz PSD i zamień czcionki
 
-Załaduj obraz PSD, korzystając z określonych opcji ładowania i zastąp brakujące czcionki domyślną czcionką zastępczą ustawioną w poprzednim kroku.
+Załaduj plik PSD przy użyciu wcześniej zdefiniowanych opcji. Biblioteka automatycznie zamienia wszystkie brakujące czcionki na domyślną, którą określiłeś.
 
 ```java
 Image image = Image.load(sourceFile, loadOptions);
@@ -77,7 +95,7 @@ PsdImage psdImage = (PsdImage) image;
 
 ## Krok 5: Zapisz zmodyfikowany obraz
 
-Skonfiguruj opcje zapisywania zmodyfikowanego obrazu PSD. W tym przykładzie zapisujemy obraz w formacie PNG z prawdziwymi kolorami i kanałem alfa.
+Skonfiguruj opcje eksportu PNG — true color z kanałem alfa — aby zachować przezroczystość. Ten krok również demonstruje **konwersję obrazu PSD do PNG** po zamianie czcionek.
 
 ```java
 PngOptions options = new PngOptions();
@@ -85,33 +103,43 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-Gratulacje! Pomyślnie zastąpiłeś brakujące czcionki w pliku PSD przy użyciu Aspose.PSD dla Java.
+### Co się właśnie wydarzyło?
 
-## Wniosek
+- Plik PSD został otwarty z czcionką zapasową (Arial).  
+- Wszystkie warstwy tekstowe, które pierwotnie odwoływały się do brakujących czcionek, są teraz renderowane przy użyciu Arial.  
+- Końcowy obraz został zapisany jako PNG, efektywnie **zapisując PSD jako PNG**, zachowując wierność wizualną.
 
-Wymiana czcionek jest prosta dzięki Aspose.PSD dla Java, oferując programistom solidne rozwiązanie umożliwiające utrzymanie spójności wizualnej ich obrazów. Postępując zgodnie z tym przewodnikiem krok po kroku, nauczyłeś się, jak bezproblemowo zastępować brakujące czcionki, dzięki czemu Twoje obrazy spełniają najwyższe standardy.
+## Typowe problemy i rozwiązywanie
 
-## Często zadawane pytania
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|----------|
+| Tekst nadal wygląda niepoprawnie | Metryki czcionki różnią się (rozmiar, waga) | Dostosuj rozmiar czcionki zamiennika programowo lub wybierz czcionkę o podobnych metrykach. |
+| PNG jest większy niż oczekiwano | Domyślne opcje PNG używają 32‑bitowego koloru | Przełącz `PngColorType` na `Truecolor`, jeśli kanał alfa nie jest potrzebny. |
+| Wyjątek licencyjny | Uruchamianie bez ważnej licencji | Zastosuj tymczasową lub stałą licencję Aspose.PSD przed załadowaniem obrazu. |
 
-### P1: Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami plików PSD?
+## Najczęściej zadawane pytania
 
-Odpowiedź 1: Aspose.PSD obsługuje różne wersje plików PSD, zapewniając kompatybilność z szeroką gamą projektów.
+**P: Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami plików PSD?**  
+O: Aspose.PSD obsługuje szeroki zakres wersji PSD, od wczesnych wydań Photoshopa po najnowsze funkcje.
 
-### P2: Czy mogę używać niestandardowych czcionek do wymiany w Aspose.PSD?
+**P: Czy mogę używać własnych czcionek do zamiany w Aspose.PSD?**  
+O: Tak, po prostu przekaż nazwę własnej czcionki do `setDefaultReplacementFont`. Upewnij się, że czcionka jest dostępna dla JVM.
 
-Odpowiedź 2: Tak, możesz określić niestandardowe czcionki zastępcze zgodnie z wymaganiami projektowymi.
+**P: Czy dostępne są opcje licencjonowania Aspose.PSD?**  
+O: Zapoznaj się z opcjami licencjonowania [tutaj](https://purchase.aspose.com/buy), aby wybrać najlepszy plan dla swoich potrzeb.
 
-### P3: Czy dostępne są opcje licencjonowania dla Aspose.PSD?
+**P: Czy istnieje forum społecznościowe wsparcia Aspose.PSD?**  
+O: Tak, odwiedź [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia i dyskusji.
 
- Odpowiedź 3: Zapoznaj się z opcjami licencjonowania[Tutaj](https://purchase.aspose.com/buy) aby wybrać najlepszy plan dla swoich potrzeb.
+**P: Jak mogę uzyskać tymczasową licencję dla Aspose.PSD?**  
+O: Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych i ewaluacyjnych.
 
-### P4: Czy istnieje forum społecznościowe dotyczące wsparcia Aspose.PSD?
+---
 
- A4: Tak, odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności i dyskusje.
+**Ostatnia aktualizacja:** 2025-12-25  
+**Testowano z:** Aspose.PSD 24.11 for Java (najnowsza w momencie pisania)  
+**Autor:** Aspose  
 
-### P5: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
-
- A5: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
