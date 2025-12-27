@@ -1,112 +1,146 @@
 ---
-title: Führen Sie eine einfache Größenänderung mit Aspose.PSD für Java durch
-linktitle: Führen Sie eine einfache Größenänderung durch
+date: 2025-12-27
+description: Erfahren Sie, wie Sie Bilder in Java mit einer Java‑Bildbearbeitungsbibliothek
+  skalieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung mit Aspose.PSD für Java
+  für eine effiziente Bildbearbeitung.
+linktitle: Perform Simple Resizing
 second_title: Aspose.PSD Java API
-description: Erfahren Sie, wie Sie die Größe von Bildern programmgesteuert mit Aspose.PSD für Java ändern. Folgen Sie unserer Schritt-für-Schritt-Anleitung zur effizienten Bildbearbeitung.
-weight: 11
+title: Einfaches Skalieren mit Aspose.PSD – Java-Bildbearbeitungsbibliothek
 url: /de/java/basic-image-operations/simple-resizing/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Führen Sie eine einfache Größenänderung mit Aspose.PSD für Java durch
+# Einfaches Skalieren mit Aspose.PSD – Java‑Bildbearbeitungsbibliothek
 
-## Einführung
+## Einleitung
 
-Im heutigen Tutorial beschäftigen wir uns mit dem Prozess der einfachen Größenänderung von Bildern mithilfe von Aspose.PSD für Java, einer leistungsstarken Bibliothek, die eine effiziente Bildbearbeitung ermöglicht. Wenn Sie Java-Entwickler sind und nach einer nahtlosen Möglichkeit suchen, die Größe von Bildern programmgesteuert zu ändern, sind Sie hier richtig.
+Wenn Sie ein Java‑Entwickler sind und nach einer zuverlässigen **java image manipulation library** suchen, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie durch **how to resize image java** Projekte mit Aspose.PSD für Java – einer leistungsstarken Bibliothek, die die Bildverarbeitung schnell und unkompliziert macht. Am Ende dieses Leitfadens haben Sie ein klares, produktionsreifes Beispiel, das Sie in jede Java‑Anwendung einbinden können.
+
+## Schnelle Antworten
+- **What library is used?** Aspose.PSD for Java, a leading java image manipulation library.  
+- **Can I resize any PSD?** Yes – the library supports PSD, JPEG, PNG, and more.  
+- **How to specify size?** Call `image.resize(width, height)` with the desired pixel dimensions.  
+- **Do I need a license?** A free trial works for development; a license is required for production.  
+- **What Java version is required?** Java 8 or higher.
+
+## Was ist eine Java‑Bildbearbeitungsbibliothek?
+
+Eine **java image manipulation library** bietet programmgesteuerten Zugriff auf gängige Grafikoperationen — Skalieren, Zuschneiden, Formatkonvertierung und Ebenenverwaltung — ohne externe Werkzeuge zu benötigen. Aspose.PSD bringt diese Fähigkeiten zu Java‑Entwicklern und ermöglicht die direkte Arbeit mit PSD‑Dateien sowie den Export in gängige Formate.
+
+## Warum Aspose.PSD für einfaches Skalieren verwenden?
+
+- **Performance‑optimized** Algorithmen, die große PSD‑Dateien effizient verarbeiten.  
+- **No external dependencies** – reine Java‑Umgebung, ideal für serverseitige Verarbeitung.  
+- **Rich format support** – über PSD hinaus können Sie JPEG, PNG, TIFF usw. ausgeben.  
+- **Consistent API** – dieselben Methoden funktionieren für alle unterstützten Bildtypen.
 
 ## Voraussetzungen
 
-Bevor wir uns auf die Reise zur Bildgrößenänderung mit Aspose.PSD begeben, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1.  Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können die neueste Version von der[Java-Website](https://www.oracle.com/java/).
+1. **Java Development Kit (JDK)** – laden Sie die neueste Version von der [Java website](https://www.oracle.com/java/) herunter.  
+2. **Aspose.PSD for Java** – beziehen Sie die Bibliothek von der [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
 
-2.  Aspose.PSD für Java: Laden Sie die Aspose.PSD-Bibliothek herunter und installieren Sie sie. Die erforderlichen Pakete finden Sie auf der[Aspose.PSD für Java-Downloadseite](https://releases.aspose.com/psd/java/).
-
-Nachdem wir nun unsere Voraussetzungen geklärt haben, stürzen wir uns in den Kern unseres Tutorials.
+Wenn diese vorhanden sind, sorgt das für eine reibungslose Einrichtung des Skalierungsbeispiels.
 
 ## Pakete importieren
 
-Importieren Sie zunächst die erforderlichen Pakete, um mit der Größenanpassung Ihres Bildes zu beginnen. Fügen Sie am Anfang Ihrer Java-Datei die folgenden Codezeilen ein:
+Beginnen Sie damit, die notwendigen Klassen zu importieren. Platzieren Sie diese Imports am Anfang Ihrer Java‑Quelldatei:
 
 ```java
 import com.aspose.psd.Image;
-
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Mit diesen Paketen können Sie mit Aspose.PSD arbeiten und JPEG-Bildoptionen verarbeiten.
+## Schritt‑für‑Schritt‑Anleitung
 
-## Schritt 1: Legen Sie Ihr Dokumentverzeichnis fest
+### Schritt 1: Legen Sie Ihr Dokumentenverzeichnis fest
 
-Definieren Sie zunächst das Verzeichnis, in dem sich Ihre PSD-Datei befindet. Ersetzen Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad zu Ihrer PSD-Datei.
+Definieren Sie den Ordner, der die Quell‑PSD‑Datei enthält. Ersetzen Sie den Platzhalter durch Ihren tatsächlichen Pfad.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Schritt 2: Quell- und Zielpfade angeben
+### Schritt 2: Geben Sie Quell‑ und Zielpfade an
 
-Definieren Sie nun die Pfade für Ihre Quell-PSD-Datei und das Ziel, wo das skalierte Bild gespeichert wird.
+Erstellen Sie vollständige Dateinamen für das Eingabe‑PSD und das Ausgabe‑JPEG.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "SimpleResizing_out.jpg";
 ```
 
-## Schritt 3: Laden Sie das Bild
+### Schritt 3: Bild laden
 
-Laden Sie das vorhandene Bild mit dem folgenden Code in eine Instanz der RasterImage-Klasse:
+Laden Sie das PSD in ein `Image`‑Objekt.
 
 ```java
 Image image = Image.load(sourceFile);
 ```
 
-## Schritt 4: Bildgröße ändern
+### Schritt 4: Bild skalieren
 
-Passen Sie die Größe des Bilds an die gewünschten Abmessungen an. In diesem Beispiel ändern wir die Größe auf 300 x 300 Pixel.
+Skalieren Sie auf die gewünschten Abmessungen (z. B. 300 × 300 Pixel).
 
 ```java
 image.resize(300, 300);
 ```
 
-## Schritt 5: Speichern Sie das skalierte Bild
+### Schritt 5: Skalierte Bild speichern
 
-Speichern Sie das skalierte Bild unter Verwendung des angegebenen Zielpfads und der angegebenen Jpeg-Optionen.
+Exportieren Sie das skalierte Bitmap als JPEG‑Datei.
 
 ```java
 image.save(destName, new JpegOptions());
 ```
 
-Herzlichen Glückwunsch! Sie haben die Größe eines Bilds mit Aspose.PSD für Java erfolgreich geändert. Experimentieren Sie mit verschiedenen Abmessungen, um sie Ihren Anforderungen anzupassen.
+> **Pro‑Tipp:** Experimentieren Sie mit verschiedenen Breiten‑/Höhenwerten oder behalten Sie das Seitenverhältnis bei, indem Sie eine Dimension aus der anderen berechnen.
 
-## Abschluss
+## Häufige Probleme & Lösungen
 
-In diesem Tutorial haben wir den nahtlosen Prozess der einfachen Bildgrößenänderung mit Aspose.PSD für Java untersucht. Indem Sie der Schritt-für-Schritt-Anleitung folgen, können Sie diese Funktionalität mühelos in Ihre Java-Anwendungen integrieren.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| **`OutOfMemoryError`** | Sehr große PSD‑Dateien können den JVM‑Heap überschreiten. | Erhöhen Sie die JVM‑Heap‑Größe (`-Xmx2g`) oder verarbeiten Sie Bilder in Teilen. |
+| **Unsupported format** | Versuch, eine Nicht‑PSD‑Datei ohne passende Optionen zu laden. | Verwenden Sie die passende `Image.load`‑Überladung oder konvertieren Sie die Datei zuerst. |
+| **Distorted output** | Falsches Seitenverhältnis. | Berechnen Sie die Höhe basierend auf dem ursprünglichen Seitenverhältnis oder verwenden Sie `image.resizeProportionally`. |
 
 ## Häufig gestellte Fragen
 
-### F1: Kann ich die Größe von Bildern mit Aspose.PSD für Java auf bestimmte Abmessungen ändern?
+### Q1: Kann ich Bilder mit Aspose.PSD für Java auf bestimmte Abmessungen skalieren?
 
-A1: Auf jeden Fall! Das bereitgestellte Tutorial zeigt, wie Sie die Größe von Bildern auf die gewünschten Abmessungen ändern.
+**A:** Absolut. Die Methode `resize(width, height)` ermöglicht es Ihnen, jede gewünschte Pixelgröße festzulegen.
 
-### F2: Ist Aspose.PSD für Java mit verschiedenen Bildformaten kompatibel?
+### Q2: Ist Aspose.PSD für Java mit verschiedenen Bildformaten kompatibel?
 
-A2: Ja, Aspose.PSD unterstützt verschiedene Bildformate und bietet Vielseitigkeit bei Ihren Bildbearbeitungsaufgaben.
+**A:** Ja. Neben PSD unterstützt die Bibliothek JPEG, PNG, BMP, TIFF und viele weitere.
 
-### F3: Wo finde ich zusätzliche Dokumentation für Aspose.PSD für Java?
+### Q3: Wo finde ich zusätzliche Dokumentation für Aspose.PSD für Java?
 
- A3: Weitere Informationen finden Sie in der[Aspose.PSD für Java-Dokumentation](https://reference.aspose.com/psd/java/) für ausführlichere Informationen.
+**A:** Siehe die [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) für eine vollständige API‑Referenz.
 
-### F4: Kann ich Aspose.PSD für Java vor dem Kauf ausprobieren?
+### Q4: Kann ich Aspose.PSD für Java vor dem Kauf testen?
 
- A4: Natürlich! Nutzen Sie die[kostenlose Testversion](https://releases.aspose.com/)um die Möglichkeiten der Bibliothek zu erkunden.
+**A:** Natürlich! Laden Sie die [free trial version](https://releases.aspose.com/) herunter, um alle Funktionen zu erkunden.
 
-### F5: Wie kann ich Support für Aspose.PSD für Java erhalten?
+### Q5: Wie kann ich Support für Aspose.PSD für Java erhalten?
 
- A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für Hilfe und Unterstützung durch die Gemeinschaft.
+**A:** Besuchen Sie das [Aspose.PSD forum](https://forum.aspose.com/c/psd/34), um Fragen zu stellen und Erfahrungen mit der Community zu teilen.
+
+## Fazit
+
+In diesem Tutorial haben wir gezeigt, wie eine **java image manipulation library** wie Aspose.PSD **how to resize image java** Aufgaben mühelos macht. Durch Befolgen der prägnanten Schritte oben können Sie Bildskalierung in jede Java‑Anwendung integrieren und schnelle, zuverlässige Ergebnisse ohne externe Werkzeuge erzielen.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-27  
+**Getestet mit:** Aspose.PSD for Java 24.12 (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
