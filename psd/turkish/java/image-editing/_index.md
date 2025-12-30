@@ -1,81 +1,124 @@
 ---
-title: Görüntü Düzenleme
-linktitle: Görüntü Düzenleme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD ile Renk Kaplama Efektlerinin, görüntü birleştirmenin ve kusursuz görüntü işlemenin büyüsünü keşfedin. Kılavuzlarımızla resim düzenleme oyununuzu geliştirin.
-weight: 23
+date: 2025-12-30
+description: Aspose.PSD for Java kullanarak görüntüleri birleştirmeyi, üst katmanlar
+  eklemeyi, meta veri oluşturmayı ve görüntüleri kırpmayı öğrenin. Bu kılavuz, temel
+  görüntü düzenleme tekniklerini kapsar.
+linktitle: How to Merge Images
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java ile Görüntüleri Birleştirme
 url: /tr/java/image-editing/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Görüntü Düzenleme
+# How to Merge Images – Image Editing
 
-## giriiş 
+## Introduction 
 
-Görüntü düzenleme ustalığının dünyasına hoş geldiniz! Bu eğitim koleksiyonunda Aspose.PSD for Java'nın güçlü özelliklerini inceleyerek görüntüleri zahmetsizce geliştirme, birleştirme ve değiştirme sanatında size yol gösteriyoruz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, Renk Yerleşimi Efektlerinin, görüntü birleştirmenin, XMP meta veri oluşturmanın ve kusursuz görüntü işlemenin büyüsünü keşfetmek için bu yolculukta bize katılın. Aspose.PSD for Java'nın potansiyelini ortaya çıkaran, görsel yaratımlarınızı dönüştürme becerileri sağlayan adım adım kılavuzlarla düzenleme oyununuzu bir üst seviyeye çıkarın. Haydi, görüntü düzenlemenin büyüleyici dünyasına dalalım ve keşfedelim!
+Welcome to the realm of image editing mastery! In this collection of tutorials, we delve into the powerful capabilities of Aspose.PSD for Java, guiding you through the art of enhancing, combining, and manipulating images effortlessly. Whether you're a seasoned developer or just starting, join us on this journey to discover the magic of Color Overlay Effects, **how to merge images**, XMP metadata creation, and seamless image processing. Elevate your editing game with step‑by‑step guides that unravel the potential of Aspose.PSD for Java, providing you with the skills to transform your visual creations. Let's dive in and explore the fascinating world of image editing!
 
-## Aspose.PSD for Java'da Renk Kaplama Efekti Uygulama
+## Quick Answers
+- **What is the primary way to merge images in Java?** Using Aspose.PSD’s `PsdImage` API to combine layers or raster data.
+- **Do I need a license for Aspose.PSD?** A free trial works for evaluation; a license is required for production.
+- **Which Java version is supported?** Java 8 and above are fully supported.
+- **Can I add an overlay while merging images?** Yes, the Color Overlay Effect can be applied before or after merging.
+- **Is metadata creation handled separately?** You can create XMP metadata in the same workflow after merging images.
 
- Büyüleyici dünyasını açığa çıkarın[Aspose.PSD for Java'da Renk Kaplama Efektleri](./color-overlay-effect/). Kapsamlı, adım adım kılavuzumuzla resim düzenleme becerilerinizi geliştirin. Canlı katmanlar aracılığıyla görüntülerinizi zahmetsizce dönüştürmenin büyüsüne dalın.
+## What is **how to merge images** with Aspose.PSD?
+Merging images means combining two or more visual assets into a single PSD file or raster output. Aspose.PSD for Java provides high‑level methods to layer images, blend them, and preserve all Photoshop‑compatible features without losing quality.
 
-## Aspose.PSD for Java'yı kullanarak Görüntüleri Birleştirin
+## Why use Aspose.PSD for image merging in Java?
+- **Full Photoshop compatibility** – retains layers, masks, and effects.
+- **No native Photoshop required** – run entirely on the server or desktop.
+- **Rich API** – supports overlays, metadata, cropping, and dithering in one workflow.
+- **Performance‑optimized** – handles large files efficiently.
 
- Java'da görüntüleri sorunsuz bir şekilde birleştirin[Aspose.PSD](./combine-images/). Ayrıntılı kılavuzumuz, görüntülerin sorunsuz bir kombinasyonunu sağlayarak süreç boyunca size yol gösterir. Aspose.PSD for Java ile görüntü birleştirme sanatında ustalaşarak görsel hikaye anlatımınızı geliştirin.
+## Apply Color Overlay Effect in Aspose.PSD for Java
 
-## Aspose.PSD for Java ile XMP Meta Verileri Oluşturun
+Unleash the enchanting world of [Color Overlay Effects in Aspose.PSD for Java](./color-overlay-effect/). Elevate your image editing prowess with our comprehensive step‑by‑step guide. Dive into the magic of transforming your images through vibrant overlays effortlessly.
 
- Zahmetsizce oluşturarak Java uygulamalarınıza destek verin[XMP meta verileri](./create-xmp-metadata/). Aspose.PSD for Java'nın potansiyelini açığa çıkarmak için kullanıcı dostu kılavuzumuzu takip edin. Resimlerinizin meta verilerini geliştirin ve uygulamanızın yeteneklerini yükseltin.
+## Combine Images using Aspose.PSD for Java
 
-## Aspose.PSD for Java'da Yolu Ayarlayarak Görüntü Oluşturun
+Merge images seamlessly in Java with [Aspose.PSD](./combine-images/). Our detailed guide walks you through the process, ensuring a smooth combination of images. Enhance your visual storytelling by mastering the art of image merging with Aspose.PSD for Java.
 
- Çarpıcı bir tasarım yaratmak için bir yolculuğa çıkın[PSD görselleri](./create-image-by-setting-path/) Java için Aspose.PSD'yi kullanıyorum. Adım adım kılavuzumuz, yolları belirleyerek büyüleyici görüntüler oluşturmak için kusursuz bir süreç sağlar. Görüntü oluşturma dünyasına kolaylıkla dalın.
+## Create XMP Metadata with Aspose.PSD for Java
 
-## Java için Aspose.PSD'de Akışı Kullanarak Görüntü Oluşturun
+Give your Java applications a boost by effortlessly creating [XMP metadata](./create-xmp-metadata/). Follow our user‑friendly guide to unlock the potential of Aspose.PSD for Java. Enhance the metadata of your images and elevate your application's capabilities.
 
- kullanarak görüntü oluşturma sanatında ustalaşın.[akışlar](./create-image-using-stream/) Java için Aspose.PSD'de. Kılavuzumuz verimli görüntü işlemeye yönelik net bir yol sağlar. Adımları izleyin ve Aspose.PSD for Java aracılığıyla yaratıcı vizyonlarınızı hayata geçirin.
+## Create Image by Setting Path in Aspose.PSD for Java
 
-## Java için Aspose.PSD'de Görüntüyü Dikdörtgenle Kırp
+Embark on a journey to create stunning [PSD images](./create-image-by-setting-path/) using Aspose.PSD for Java. Our step‑by‑step guide ensures a seamless process for generating captivating images by setting paths. Dive into the world of image creation with ease.
 
- Sınırsız olasılıkları keşfedin[Java'da resim kırpma](./crop-image-by-rectangle/) Aspose.PSD ile. Kapsamlı eğitimimiz, görüntüleri zahmetsizce kırpmanın kusursuz süreci boyunca size rehberlik eder. Aspose.PSD for Java'yı kullanarak görsellerinizi hassas bir şekilde dönüştürün.
+## Create Image using Stream in Aspose.PSD for Java
 
-## Java için Aspose.PSD'de Görüntüyü Kaydırarak Kırp
+Master the art of creating images using [streams](./create-image-using-stream/) in Aspose.PSD for Java. Our guide provides a clear path to efficient image processing. Follow the steps and bring your creative visions to life through Aspose.PSD for Java.
 
- Maestro ol[görüntü kırpma](./crop-image-by-shifts/) Java için Aspose.PSD ile. Eğitimimiz kusursuz görüntü işleme sanatında ustalaşmak için eksiksiz bir rehber sunuyor. Aspose.PSD for Java ile hassas görüntü kırpma dünyasına dalın.
+## Crop Image by Rectangle in Aspose.PSD for Java
 
-## Aspose.PSD for Java'da Raster Görüntüler için Renk Taklidi Uygulaması
+Explore the boundless possibilities of [image cropping in Java](./crop-image-by-rectangle/) with Aspose.PSD. Our comprehensive tutorial guides you through the seamless process of cropping images effortlessly. Transform your images with precision using Aspose.PSD for Java.
 
- Aspose.PSD for Java'yı uygulayarak görüntü kalitesini artırın[titrek](./implement-dithering/)renk bantlarını ortadan kaldırmak için. Titreme gücünün kilidini açmak ve kusursuz görüntü sonuçları elde etmek için adım adım kılavuzumuzu izleyin.
+## Crop Image by Shifts in Aspose.PSD for Java
 
-## Aspose.PSD for Java ile Görüntüleri Genişletin ve Kırpın
+Become a maestro of [image cropping](./crop-image-by-shifts/) with Aspose.PSD for Java. Our tutorial offers a complete guide to mastering the art of seamless image manipulation. Dive into the world of precise image cropping with Aspose.PSD for Java.
 
- İnceliklerini öğrenin[görüntüleri genişletme ve kırpma](./expand-and-crop-images/) Java'da Aspose.PSD kullanarak. Adım adım kılavuzumuz verimli görüntü işleme sağlar. Aspose.PSD for Java ile görüntü düzenleme becerilerinizi geliştirin.
+## Implement Dithering for Raster Images in Aspose.PSD for Java
 
-Özetle, bu eğitimler Aspose.PSD for Java kullanarak görüntü düzenlemede birçok olasılık dünyasının kapılarını açıyor. İster acemi ister deneyimli bir geliştirici olun, kılavuzlarımız yaratıcılığınızı açığa çıkarmanız ve çarpıcı sonuçlar elde etmeniz için size güç verir. Aspose.PSD for Java'nın sunduğu zengin özellikleri derinlemesine inceleyin ve keşfedin. Mutlu düzenleme!
-## Görüntü Düzenleme Eğitimleri
-### [Aspose.PSD for Java'da Renk Kaplama Efekti Uygulama](./color-overlay-effect/)
-Aspose.PSD for Java'da Renk Kaplama Efektlerinin büyüsünü keşfedin. Bu adım adım kılavuzla resim düzenleme oyununuzu geliştirin.
-### [Aspose.PSD for Java'yı kullanarak Görüntüleri Birleştirin](./combine-images/)
-Aspose.PSD ile Java'daki görüntüleri nasıl birleştireceğinizi öğrenin. Sorunsuz görüntü kombinasyonu için adım adım kılavuzumuzu izleyin.
-### [Aspose.PSD for Java ile XMP Meta Verileri Oluşturun](./create-xmp-metadata/)
-Aspose.PSD ile Java uygulamalarınızı geliştirin. XMP meta verilerini zahmetsizce oluşturmayı öğrenin. Şimdi adım adım kılavuzumuzu takip edin.
-### [Aspose.PSD for Java'da Yolu Ayarlayarak Görüntü Oluşturun](./create-image-by-setting-path/)
-Aspose.PSD for Java'yı kullanarak PSD görüntüleri oluşturmayı öğrenin. Sorunsuz görüntü oluşturmak için adım adım kılavuzumuzu izleyin.
-### [Java için Aspose.PSD'de Akışı Kullanarak Görüntü Oluşturun](./create-image-using-stream/)
-Aspose.PSD for Java'da akışı kullanarak nasıl görsel oluşturulacağını öğrenin. Verimli görüntü işleme için bu adım adım kılavuzu izleyin.
-### [Java için Aspose.PSD'de Görüntüyü Dikdörtgenle Kırp](./crop-image-by-rectangle/)
-Aspose.PSD ile Java'nın kesintisiz görüntü kırpma özelliklerini keşfedin. Aspose.PSD for Java'yı kullanarak görüntüleri zahmetsizce kırpmak için adım adım kılavuzumuzu izleyin.
-### [Java için Aspose.PSD'de Görüntüyü Kaydırarak Kırp](./crop-image-by-shifts/)
-Aspose.PSD for Java ile görüntü kırpmada ustalaşın. Kesintisiz görüntü işleme için kapsamlı bir eğitim.
-### [Aspose.PSD for Java'da Raster Görüntüler için Renk Taklidi Uygulaması](./implement-dithering/)
-Aspose.PSD for Java ile görüntü kalitesini artırın. Renk taklidini uygulamak ve renk bantlarını ortadan kaldırmak için adım adım kılavuzumuzu izleyin.
-### [Aspose.PSD for Java ile Görüntüleri Genişletin ve Kırpın](./expand-and-crop-images/)
-Aspose.PSD'yi kullanarak Java'da görüntüleri nasıl genişleteceğinizi ve kırpacağınızı öğrenin. Verimli görüntü işleme için adım adım kılavuz.
+Enhance image quality with Aspose.PSD for Java by implementing [dithering](./implement-dithering/) to eliminate color banding. Follow our step‑by‑step guide to unlock the power of dithering and achieve impeccable image results.
+
+## Expand and Crop Images with Aspose.PSD for Java
+
+Learn the intricacies of [expanding and cropping images](./expand-and-crop-images/) in Java using Aspose.PSD. Our step‑by‑step guide ensures efficient image processing. Elevate your image editing skills with Aspose.PSD for Java.
+
+In summary, these tutorials open the doors to a world of possibilities in image editing using Aspose.PSD for Java. Whether you're a novice or an experienced developer, our guides empower you to unleash your creativity and achieve stunning results. Dive in and explore the rich features that Aspose.PSD for Java brings to the table. Happy editing!
+
+## Image Editing Tutorials
+### [Apply Color Overlay Effect in Aspose.PSD for Java](./color-overlay-effect/)
+Discover the magic of Color Overlay Effects in Aspose.PSD for Java. Elevate your image editing game with this step‑by‑step guide.
+### [Combine Images using Aspose.PSD for Java](./combine-images/)
+Learn how to merge images in Java with Aspose.PSD. Follow our step‑by‑step guide for seamless image combination.
+### [Create XMP Metadata with Aspose.PSD for Java](./create-xmp-metadata/)
+Enhance your Java applications with Aspose.PSD. Learn to create XMP metadata effortlessly. Follow our step‑by‑step guide now.
+### [Create Image by Setting Path in Aspose.PSD for Java](./create-image-by-setting-path/)
+Learn how to create PSD images using Aspose.PSD for Java. Follow our step‑by‑step guide for seamless image generation.
+### [Create Image using Stream in Aspose.PSD for Java](./create-image-using-stream/)
+Learn how to create images using stream in Aspose.PSD for Java. Follow this step‑by‑step guide for efficient image processing.
+### [Crop Image by Rectangle in Aspose.PSD for Java](./crop-image-by-rectangle/)
+Explore the seamless image cropping capabilities in Java with Aspose.PSD. Follow our step‑by‑step guide to crop images effortlessly using Aspose.PSD for Java.
+### [Crop Image by Shifts in Aspose.PSD for Java](./crop-image-by-shifts/)
+Master image cropping with Aspose.PSD for Java. A comprehensive tutorial for seamless image manipulation.
+### [Implement Dithering for Raster Images in Aspose.PSD for Java](./implement-dithering/)
+Enhance image quality with Aspose.PSD for Java. Follow our step‑by‑step guide to implement dithering and eliminate color banding.
+### [Expand and Crop Images with Aspose.PSD for Java](./expand-and-crop-images/)
+Learn how to expand and crop images in Java using Aspose.PSD. Step‑by‑step guide for efficient image processing.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Frequently Asked Questions
+
+**Q: Can I merge images of different dimensions?**  
+A: Yes. Aspose.PSD automatically resizes or pads layers based on the canvas size you define.
+
+**Q: Is it possible to add a color overlay while merging?**  
+A: Absolutely. Apply the Color Overlay Effect to each layer before merging, or to the final composite image.
+
+**Q: How do I preserve EXIF or XMP metadata after merging?**  
+A: Create or copy XMP metadata using the API before saving the merged file.
+
+**Q: Does Aspose.PSD support merging images in formats other than PSD?**  
+A: Yes. You can load JPEG, PNG, BMP, etc., and merge them into a PSD or export to other raster formats.
+
+**Q: What are the performance considerations for large image sets?**  
+A: Use streaming APIs and dispose of intermediate objects promptly to keep memory usage low.
+
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose

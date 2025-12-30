@@ -1,81 +1,124 @@
 ---
-title: Úprava obrázku
-linktitle: Úprava obrázku
+date: 2025-12-30
+description: Naučte se, jak sloučit obrázky pomocí Aspose.PSD pro Javu, přidávat překryvy,
+  vytvářet metadata a ořezávat obrázky. Tento průvodce pokrývá základní techniky úpravy
+  obrázků.
+linktitle: How to Merge Images
 second_title: Aspose.PSD Java API
-description: Objevte kouzlo Color Overlay Effects, slučování obrazu a bezproblémového zpracování obrazu s Aspose.PSD. Pozvedněte svou hru na úpravu obrázků pomocí našich průvodců.
-weight: 23
+title: Jak sloučit obrázky pomocí Aspose.PSD pro Javu
 url: /cs/java/image-editing/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Úprava obrázku
+# Jak sloučit obrázky – Úprava obrázků
 
-## Zavedení 
+## Úvod
 
-Vítejte v říši mistrovství v úpravě obrázků! V této sbírce výukových programů se ponoříme do výkonných schopností Aspose.PSD pro Javu a provedeme vás uměním snadného vylepšování, kombinování a manipulace s obrázky. Ať už jste zkušený vývojář nebo teprve začínáte, připojte se k nám na této cestě objevovat kouzlo Color Overlay Effects, slučování obrázků, vytváření metadat XMP a bezproblémové zpracování obrázků. Pozvedněte svou editační hru pomocí podrobných průvodců, kteří odhalí potenciál Aspose.PSD pro Java a poskytnou vám dovednosti pro transformaci vašich vizuálních výtvorů. Pojďme se ponořit a prozkoumat fascinující svět úprav obrázků!
+Vítejte v říši mistrovství úpravy obrázků! V této sbírce tutoriálů se ponoříme do výkonných schopností Aspose.PSD pro Java, provádíme vás uměním vylepšování, kombinování a manipulace s obrázky bez námahy. Ať už jste zkušený vývojář nebo teprve začínáte, připojte se k nám na této cestě a objevte kouzlo Color Overlay Effects, **jak sloučit obrázky**, tvorbu XMP metadat a plynulé zpracování obrázků. Pozvedněte své dovednosti úpravou krok za krokem, která odhaluje potenciál Aspose.PSD pro Java a poskytuje vám schopnosti transformovat vaše vizuální výtvory. Ponořme se a prozkoumejme fascinující svět úpravy obrázků!
 
-## Použijte Color Overlay Effect v Aspose.PSD pro Java
+## Rychlé odpovědi
+- **Jaký je hlavní způsob, jak sloučit obrázky v Javě?** Použití API `PsdImage` z Aspose.PSD k kombinaci vrstev nebo rastrových dat.
+- **Potřebuji licenci pro Aspose.PSD?** Bezplatná zkušební verze stačí pro hodnocení; licence je vyžadována pro produkci.
+- **Která verze Javy je podporována?** Java 8 a novější jsou plně podporovány.
+- **Mohu přidat překrytí při sloučení obrázků?** Ano, efekt Color Overlay lze použít před nebo po sloučení.
+- **Je tvorba metadat řešena odděleně?** Můžete vytvořit XMP metadata ve stejném pracovním postupu po sloučení obrázků.
 
- Uvolněte okouzlující svět[Color Overlay Effects v Aspose.PSD pro Javu](./color-overlay-effect/). Zlepšete svou schopnost úpravy obrázků pomocí našeho komplexního průvodce krok za krokem. Ponořte se do kouzla bez námahy transformace vašich obrázků prostřednictvím živých překryvů.
+## Co je **jak sloučit obrázky** s Aspose.PSD?
+Sloučení obrázků znamená kombinaci dvou nebo více vizuálních aktiv do jednoho souboru PSD nebo rastrového výstupu. Aspose.PSD pro Javu poskytuje vysoce‑úrovňové metody pro vrstvení obrázků, jejich míchání a zachování všech Photoshop‑kompatibilních funkcí bez ztráty kvality.
 
-## Kombinujte obrázky pomocí Aspose.PSD pro Javu
+## Proč používat Aspose.PSD pro sloučení obrázků v Javě?
+- **Plná kompatibilita s Photoshopem** – zachovává vrstvy, masky a efekty.  
+- **Není vyžadován nativní Photoshop** – běží kompletně na serveru nebo desktopu.  
+- **Bohaté API** – podporuje překrytí, metadata, ořezávání a dithering v jednom pracovním postupu.  
+- **Optimalizováno pro výkon** – efektivně zpracovává velké soubory.
 
- Bezproblémově slučujte obrázky v Javě pomocí[Aspose.PSD](./combine-images/). Náš podrobný průvodce vás provede celým procesem a zajistí hladkou kombinaci obrázků. Vylepšete své vizuální vyprávění tím, že si osvojíte umění slučování obrázků s Aspose.PSD pro Javu.
+## Použití efektu Color Overlay v Aspose.PSD pro Javu
 
-## Vytvořte XMP metadata pomocí Aspose.PSD pro Javu
+Uvolněte okouzlující svět [Color Overlay Effects v Aspose.PSD pro Javu](./color-overlay-effect/). Pozvedněte své dovednosti v úpravě obrázků pomocí našeho komplexního průvodce krok za krokem. Ponořte se do magie transformace vašich obrázků pomocí živých překrytí bez námahy.
 
- Dopřejte svým aplikacím Java podporu jednoduchým vytvářením[metadata XMP](./create-xmp-metadata/). Postupujte podle našeho uživatelsky přívětivého průvodce a odemkněte potenciál Aspose.PSD pro Javu. Vylepšete metadata svých obrázků a rozšiřte možnosti své aplikace.
+## Kombinace obrázků pomocí Aspose.PSD pro Javu
 
-## Vytvořte obrázek nastavením cesty v Aspose.PSD pro Javu
+Bezproblémově sloučte obrázky v Javě pomocí [Aspose.PSD](./combine-images/). Náš podrobný průvodce vás provede procesem a zajistí plynulé spojení obrázků. Vylepšete své vizuální vyprávění ovládnutím umění sloučení obrázků s Aspose.PSD pro Javu.
 
- Vydejte se na cestu k vytvoření ohromujícího[obrázky PSD](./create-image-by-setting-path/) pomocí Aspose.PSD pro Javu. Náš podrobný průvodce zajišťuje bezproblémový proces generování podmanivých obrázků nastavením cest. Ponořte se s lehkostí do světa tvorby obrazu.
+## Vytvoření XMP metadat s Aspose.PSD pro Javu
 
-## Vytvořte obrázek pomocí Stream v Aspose.PSD pro Java
+Poskytněte svým Java aplikacím impuls snadným vytvořením [XMP metadat](./create-xmp-metadata/). Postupujte podle našeho uživatelsky přívětivého průvodce a odemkněte potenciál Aspose.PSD pro Javu. Vylepšete metadata svých obrázků a pozvedněte možnosti své aplikace.
 
- Osvojte si umění vytváření obrázků pomocí[proudy](./create-image-using-stream/) v Aspose.PSD pro Javu. Náš průvodce poskytuje jasnou cestu k efektivnímu zpracování obrazu. Postupujte podle kroků a oživte své kreativní vize prostřednictvím Aspose.PSD pro Java.
+## Vytvoření obrázku nastavením cesty v Aspose.PSD pro Javu
 
-## Crop Image by Rectangle v Aspose.PSD pro Javu
+Vydejte se na cestu k vytvoření úchvatných [PSD obrázků](./create-image-by-setting-path/) pomocí Aspose.PSD pro Javu. Náš průvodce krok za krokem zajišťuje plynulý proces generování poutavých obrázků nastavením cest. Ponořte se do světa tvorby obrázků s lehkostí.
 
- Prozkoumejte neomezené možnosti[oříznutí obrázku v Javě](./crop-image-by-rectangle/) s Aspose.PSD. Náš komplexní výukový program vás provede bezproblémovým procesem oříznutí obrázků bez námahy. Transformujte své obrázky s přesností pomocí Aspose.PSD pro Java.
+## Vytvoření obrázku pomocí streamu v Aspose.PSD pro Javu
 
-## Oříznout obrázek pomocí posunů v Aspose.PSD pro Javu
+Ovládněte umění vytváření obrázků pomocí [streamů](./create-image-using-stream/) v Aspose.PSD pro Javu. Náš průvodce poskytuje jasnou cestu k efektivnímu zpracování obrázků. Postupujte podle kroků a přiveďte své kreativní vize k životu pomocí Aspose.PSD pro Javu.
 
- Staňte se maestrem[oříznutí obrázku](./crop-image-by-shifts/) s Aspose.PSD pro Javu. Náš tutoriál nabízí kompletního průvodce zvládnutím umění bezproblémové manipulace s obrázky. Ponořte se do světa přesného ořezávání obrázků s Aspose.PSD pro Javu.
+## Oříznutí obrázku obdélníkem v Aspose.PSD pro Javu
 
-## Implementujte Dithering pro rastrové obrázky v Aspose.PSD pro Javu
+Prozkoumejte neomezené možnosti [ořezávání obrázků v Javě](./crop-image-by-rectangle/) s Aspose.PSD. Náš komplexní tutoriál vás provede plynulým procesem snadného ořezávání obrázků. Transformujte své obrázky s přesností pomocí Aspose.PSD pro Javu.
 
- Vylepšete kvalitu obrazu pomocí Aspose.PSD pro Java implementací[dithering](./implement-dithering/) odstranění barevných pruhů. Postupujte podle našeho podrobného průvodce, abyste odemkli sílu ditheringu a dosáhli dokonalých obrazových výsledků.
+## Oříznutí obrázku posuny v Aspose.PSD pro Javu
 
-## Rozbalte a ořízněte obrázky pomocí Aspose.PSD pro Javu
+Staňte se mistrem [ořezávání obrázků](./crop-image-by-shifts/) s Aspose.PSD pro Javu. Náš tutoriál nabízí kompletní průvodce k ovládnutí umění plynulé manipulace s obrázky. Ponořte se do světa přesného ořezávání obrázků s Aspose.PSD pro Javu.
 
- Naučte se složitosti[rozbalování a ořezávání obrázků](./expand-and-crop-images/) v Javě pomocí Aspose.PSD. Náš průvodce krok za krokem zajišťuje efektivní zpracování obrazu. Zvyšte své dovednosti v oblasti úpravy obrázků s Aspose.PSD pro Java.
+## Implementace ditheringu pro rastrové obrázky v Aspose.PSD pro Javu
 
-Stručně řečeno, tyto výukové programy otevírají dveře do světa možností v úpravě obrázků pomocí Aspose.PSD pro Java. Ať už jste začátečník nebo zkušený vývojář, naši průvodci vám umožní popustit uzdu kreativitě a dosáhnout úžasných výsledků. Ponořte se a prozkoumejte bohaté funkce, které Aspose.PSD pro Java přináší. Hodně štěstí při úpravách!
-## Návody na úpravu obrázků
-### [Použijte Color Overlay Effect v Aspose.PSD pro Java](./color-overlay-effect/)
-Objevte kouzlo Color Overlay Effects v Aspose.PSD pro Javu. Povyšte svou hru na úpravu obrázků pomocí tohoto podrobného průvodce.
-### [Kombinujte obrázky pomocí Aspose.PSD pro Javu](./combine-images/)
-Naučte se, jak sloučit obrázky v Javě s Aspose.PSD. Postupujte podle našeho podrobného průvodce pro bezproblémovou kombinaci obrázků.
-### [Vytvořte XMP metadata pomocí Aspose.PSD pro Javu](./create-xmp-metadata/)
-Vylepšete své Java aplikace pomocí Aspose.PSD. Naučte se snadno vytvářet metadata XMP. Nyní postupujte podle našeho podrobného průvodce.
-### [Vytvořte obrázek nastavením cesty v Aspose.PSD pro Javu](./create-image-by-setting-path/)
-Naučte se vytvářet obrázky PSD pomocí Aspose.PSD for Java. Postupujte podle našeho podrobného průvodce pro bezproblémové generování obrázků.
-### [Vytvořte obrázek pomocí Stream v Aspose.PSD pro Java](./create-image-using-stream/)
-Naučte se vytvářet obrázky pomocí streamu v Aspose.PSD pro Java. Postupujte podle tohoto podrobného průvodce pro efektivní zpracování obrazu.
-### [Crop Image by Rectangle v Aspose.PSD pro Javu](./crop-image-by-rectangle/)
-Prozkoumejte možnosti bezproblémového ořezávání obrázků v Javě s Aspose.PSD. Postupujte podle našeho podrobného průvodce pro snadné oříznutí obrázků pomocí Aspose.PSD pro Java.
-### [Oříznout obrázek pomocí posunů v Aspose.PSD pro Javu](./crop-image-by-shifts/)
-Ovládejte ořezávání obrázků pomocí Aspose.PSD pro Javu. Komplexní návod pro bezproblémovou manipulaci s obrázky.
-### [Implementujte Dithering pro rastrové obrázky v Aspose.PSD pro Javu](./implement-dithering/)
-Vylepšete kvalitu obrazu pomocí Aspose.PSD pro Java. Postupujte podle našeho podrobného průvodce pro implementaci ditheringu a odstranění barevných pruhů.
-### [Rozbalte a ořízněte obrázky pomocí Aspose.PSD pro Javu](./expand-and-crop-images/)
-Naučte se, jak rozbalit a oříznout obrázky v Javě pomocí Aspose.PSD. Návod krok za krokem pro efektivní zpracování obrazu.
+Zlepšete kvalitu obrázků pomocí Aspose.PSD pro Javu implementací [ditheringu](./implement-dithering/) k odstranění barevných pásů. Postupujte podle našeho průvodce krok za krokem a odemkněte sílu ditheringu pro dosažení dokonalých výsledků.
+
+## Rozšíření a oříznutí obrázků s Aspose.PSD pro Javu
+
+Naučte se složitosti [rozšiřování a ořezávání obrázků](./expand-and-crop-images/) v Javě pomocí Aspose.PSD. Náš průvodce krok za krokem zajišťuje efektivní zpracování obrázků. Pozvedněte své dovednosti v úpravě obrázků s Aspose.PSD pro Javu.
+
+Stručně řečeno, tyto tutoriály otevírají dveře do světa možností v úpravě obrázků pomocí Aspose.PSD pro Javu. Ať už jste začátečník nebo zkušený vývojář, naše průvodce vám umožní uvolnit kreativitu a dosáhnout úchvatných výsledků. Ponořte se a prozkoumejte bohaté funkce, které Aspose.PSD pro Javu nabízí. Šťastné úpravy!
+
+## Tutoriály úpravy obrázků
+### [Použití efektu Color Overlay v Aspose.PSD pro Javu](./color-overlay-effect/)
+Objevte kouzlo Color Overlay Effects v Aspose.PSD pro Javu. Pozvedněte své dovednosti v úpravě obrázků pomocí tohoto průvodce krok za krokem.
+### [Kombinace obrázků pomocí Aspose.PSD pro Javu](./combine-images/)
+Naučte se, jak sloučit obrázky v Javě pomocí Aspose.PSD. Postupujte podle našeho průvodce krok za krokem pro bezproblémové spojení obrázků.
+### [Vytvoření XMP metadat s Aspose.PSD pro Javu](./create-xmp-metadata/)
+Vylepšete své Java aplikace pomocí Aspose.PSD. Naučte se snadno vytvářet XMP metadata. Postupujte podle našeho průvodce krok za krokem.
+### [Vytvoření obrázku nastavením cesty v Aspose.PSD pro Javu](./create-image-by-setting-path/)
+Naučte se, jak vytvořit PSD obrázky pomocí Aspose.PSD pro Javu. Postupujte podle našeho průvodce krok za krokem pro plynulé generování obrázků.
+### [Vytvoření obrázku pomocí streamu v Aspose.PSD pro Javu](./create-image-using-stream/)
+Naučte se, jak vytvářet obrázky pomocí streamu v Aspose.PSD pro Javu. Postupujte podle tohoto průvodce krok za krokem pro efektivní zpracování obrázků.
+### [Oříznutí obrázku obdélníkem v Aspose.PSD pro Javu](./crop-image-by-rectangle/)
+Prozkoumejte plynulé možnosti ořezávání obrázků v Javě s Aspose.PSD. Postupujte podle našeho průvodce krok za krokem pro snadné ořezávání obrázků pomocí Aspose.PSD pro Javu.
+### [Oříznutí obrázku posuny v Aspose.PSD pro Javu](./crop-image-by-shifts/)
+Ovládněte ořezávání obrázků s Aspose.PSD pro Javu. Komplexní tutoriál pro plynulou manipulaci s obrázky.
+### [Implementace ditheringu pro rastrové obrázky v Aspose.PSD pro Javu](./implement-dithering/)
+Zlepšete kvalitu obrázků pomocí Aspose.PSD pro Javu. Postupujte podle našeho průvodce krok za krokem k implementaci ditheringu a odstranění barevných pásů.
+### [Rozšíření a oříznutí obrázků s Aspose.PSD pro Javu](./expand-and-crop-images/)
+Naučte se, jak rozšířit a oříznout obrázky v Javě pomocí Aspose.PSD. Průvodce krok za krokem pro efektivní zpracování obrázků.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Často kladené otázky
+
+**Q: Mohu sloučit obrázky různých rozměrů?**  
+A: Ano. Aspose.PSD automaticky mění velikost nebo doplňuje vrstvy podle velikosti plátna, kterou definujete.
+
+**Q: Je možné přidat barevné překrytí při sloučení?**  
+A: Rozhodně. Použijte efekt Color Overlay na každou vrstvu před sloučením nebo na finální kompozitní obrázek.
+
+**Q: Jak zachovat EXIF nebo XMP metadata po sloučení?**  
+A: Vytvořte nebo zkopírujte XMP metadata pomocí API před uložením sloučeného souboru.
+
+**Q: Podporuje Aspose.PSD sloučení obrázků v jiných formátech než PSD?**  
+A: Ano. Můžete načíst JPEG, PNG, BMP atd. a sloučit je do PSD nebo exportovat do jiných rastrových formátů.
+
+**Q: Jaké jsou výkonové úvahy pro velké sady obrázků?**  
+A: Používejte streamingové API a okamžitě uvolňujte mezilehlé objekty, aby byl nízký odběr paměti.
+
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose
