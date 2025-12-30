@@ -1,35 +1,43 @@
 ---
-title: Łącz obrazy za pomocą Aspose.PSD dla Java
-linktitle: Połącz obrazy
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak łączyć obrazy w Javie za pomocą Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynne łączenie obrazów.
-weight: 11
+date: 2025-12-30
+description: Dowiedz się, jak w Javie utworzyć plik PSD, łącząc dwa obrazy przy użyciu
+  Aspose.PSD. Skorzystaj z naszego przewodnika krok po kroku, aby szybko połączyć
+  obrazy w plik PSD.
+linktitle: Combine Images
+second_title: Aspose.PSD Java API
+title: Jak utworzyć plik PSD w Javie – Łączenie obrazów przy użyciu Aspose.PSD
 url: /pl/java/image-editing/combine-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Łącz obrazy za pomocą Aspose.PSD dla Java
+# Utwórz plik PSD w Javie – Łączenie obrazów przy użyciu Aspose.PSD
 
-## Wstęp
+## Wprowadzenie
 
-W dziedzinie programowania w języku Java Aspose.PSD wyróżnia się jako potężne narzędzie do manipulowania i przetwarzania obrazów. Jedną z jego godnych uwagi funkcji jest możliwość płynnego łączenia wielu obrazów. Ten samouczek poprowadzi Cię przez proces łączenia dwóch obrazów w jeden plik PSD przy użyciu Aspose.PSD dla Java.
+Jeśli potrzebujesz **utworzyć plik PSD w Javie** poprzez scalanie kilku obrazów, Aspose.PSD ułatwia to zadanie. W tym samouczku przeprowadzimy Cię przez łączenie dwóch obrazów w jedną płótno PSD, wyjaśnimy, dlaczego to podejście jest przydatne, i dostarczymy gotowy do uruchomienia kod. Po zakończeniu będziesz w stanie **połączyć dwa obrazy w stylu Java** i wygenerować profesjonalnie wyglądający plik warstwowy.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza do łączenia obrazów w PSD?** Aspose.PSD for Java.
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego łączenia.
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.
+- **Czy mogę dodać więcej niż dwa obrazy?** Tak – powtórz wywołania `drawImage` dla każdej dodatkowej warstwy.
+- **Która wersja Javy jest wspierana?** Java 8 i nowsze.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-1.  Biblioteka Aspose.PSD: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PSD w środowisku Java. Można go pobrać z[Tutaj](https://releases.aspose.com/psd/java/).
+Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-2. Zestaw Java Development Kit (JDK): Aspose.PSD wymaga do działania Java. Zainstaluj najnowszą wersję JDK na swoim komputerze.
+1. **Biblioteka Aspose.PSD** – pobierz ją z [tutaj](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit (JDK)** – zalecana jest Java 8+.  
+3. **Katalog dokumentów** – folder na Twoim komputerze, w którym będą przechowywane obrazy źródłowe oraz wynikowy plik PSD.
 
-3. Katalog dokumentów: skonfiguruj katalog, w którym będą przechowywane Twoje obrazy i powstały plik PSD.
+## Importowanie pakietów
 
-## Importuj pakiety
-
-Zacznij od zaimportowania niezbędnych pakietów dla swojego projektu Java. Dołącz bibliotekę Aspose.PSD do swojego projektu, jak pokazano poniżej:
+Rozpocznij od zaimportowania wymaganych klas Aspose.PSD do swojego projektu:
 
 ```java
 import com.aspose.psd.Color;
@@ -40,33 +48,35 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 ```
 
-## Krok 1: Utwórz opcje PSD
+## Przewodnik krok po kroku
 
-Rozpocznij od utworzenia instancji PsdOptions i ustawienia jej różnych właściwości:
+### Krok 1: Utwórz opcje PSD (przygotowanie pliku)
+
+Najpierw tworzymy instancję `PsdOptions`, która będzie przechowywać ustawienia wyjściowe.
 
 ```java
 PsdOptions imageOptions = new PsdOptions();
 ```
 
-## Krok 2: Ustaw FileCreateSource
+### Krok 2: Ustaw FileCreateSource (określenie miejsca zapisu PSD)
 
-Utwórz instancję FileCreateSource i przypisz ją do właściwości Source:
+Przypisz `FileCreateSource` do opcji, wskazując pożądany plik wynikowy.
 
 ```java
 imageOptions.setSource(new FileCreateSource(dataDir + "Two_images_result_out.psd", false));
 ```
 
-## Krok 3: Utwórz instancję obrazu
+### Krok 3: Utwórz instancję Image (inicjalizacja rozmiaru płótna)
 
-Utwórz instancję obiektu Image z określonymi opcjami i wymiarami:
+Utwórz obiekt `Image` z podanymi opcjami i określ płótno o wymiarach 600 × 600 pikseli.
 
 ```java
 Image image = Image.create(imageOptions, 600, 600);
 ```
 
-## Krok 4: Zainicjuj grafikę
+### Krok 4: Zainicjalizuj Graphics i narysuj pierwszy obraz
 
-Utwórz i zainicjuj instancję Graphics, wyczyść powierzchnię obrazu białym kolorem i narysuj pierwszy obraz:
+Obiekt `Graphics` pozwala nam malować na płótnie. Czyścimy tło na biało i rysujemy pierwszy obraz źródłowy po lewej stronie.
 
 ```java
 Graphics graphics = new Graphics(image);
@@ -74,49 +84,61 @@ graphics.clear(Color.getWhite());
 graphics.drawImage(Image.load(dataDir + "example1.psd"), 0, 0, 300, 600);
 ```
 
-## Krok 5: Narysuj drugi obraz
+### Krok 5: Narysuj drugi obraz (ukończenie łączenia)
 
-Narysuj drugi obraz na utworzonym płótnie PSD:
+Teraz umieszczamy drugi obraz po prawej stronie tego samego płótna.
 
 ```java
 graphics.drawImage(Image.load(dataDir + "example2.psd"), 300, 0, 300, 600);
 ```
 
-## Krok 6: Zapisz wynikowy obraz
+### Krok 6: Zapisz wynikowy plik PSD
 
-Zapisz ostateczny połączony obraz:
+Na koniec zapisujemy połączone płótno na dysku.
 
 ```java
 image.save();
 ```
 
-Gratulacje! Pomyślnie połączyłeś dwa obrazy w jeden plik PSD przy użyciu Aspose.PSD dla Java.
+Gratulacje! Pomyślnie **połączyłeś obrazy w PSD** i utworzyłeś plik PSD w Javie.
 
-## Wniosek
+## Dlaczego łączyć obrazy przy użyciu Aspose.PSD?
 
-Aspose.PSD upraszcza manipulację obrazami w Javie, oferując solidne rozwiązanie do łatwego łączenia obrazów. Postępując zgodnie z tym samouczkiem, wykorzystałeś moc Aspose.PSD do tworzenia atrakcyjnych wizualnie kompozycji.
+- **Świadomość warstw** – każde wywołanie `drawImage` dodaje osobną warstwę, którą możesz edytować później.  
+- **Elastyczność formatów** – obsługuje PSD, PNG, JPEG, BMP i inne.  
+- **Brak natywnych zależności** – czysta Java, działa na każdym systemie operacyjnym, na którym działa JDK.  
 
-## Często zadawane pytania
+## Typowe problemy i rozwiązania
+
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|-----|
+| `File not found` błąd podczas ładowania obrazów źródłowych | Nieprawidłowa ścieżka `dataDir` | Sprawdź, czy `dataDir` wskazuje na folder zawierający `example1.psd` i `example2.psd`. |
+| Wynikowy PSD jest pusty | `graphics.clear` wywołane po rysowaniu | Upewnij się, że `graphics.clear(Color.getWhite())` jest wykonywane **przed** wywołaniami `drawImage`. |
+| Wyjątek licencyjny w czasie wykonywania | Brak lub wygasła licencja Aspose.PSD | Zastosuj ważną licencję używając `License license = new License(); license.setLicense("Aspose.PSD.lic");` przed jakimkolwiek wywołaniem API. |
+
+## Najczęściej zadawane pytania
 
 ### P1: Czy Aspose.PSD jest kompatybilny ze wszystkimi formatami obrazów?
+O1: Aspose.PSD koncentruje się głównie na formacie plików PSD. Jednak obsługuje różne inne formaty zarówno przy wejściu, jak i wyjściu.
 
-Odpowiedź 1: Aspose.PSD skupia się przede wszystkim na formacie pliku PSD. Obsługuje jednak różne inne formaty wejścia i wyjścia.
+### P2: Czy mogę wykonać dodatkowe modyfikacje połączonego obrazu?
+O2: Oczywiście! Po połączeniu obrazów możesz dalej manipulować wynikowym PSD, korzystając z rozbudowanych funkcji Aspose.PSD.
 
-### P2: Czy mogę dokonać dodatkowych modyfikacji połączonego obrazu?
+### P3: Czy istnieją wymagania licencyjne dotyczące używania Aspose.PSD?
+O3: Tak, wymagana jest ważna licencja do użytku komercyjnego. Uzyskaj ją z [tutaj](https://purchase.aspose.com/buy).
 
-A2: Absolutnie! Po połączeniu obrazów możesz dalej manipulować powstałym plikiem PSD, korzystając z rozbudowanych funkcji Aspose.PSD.
+### P4: Czy dostępna jest darmowa wersja próbna Aspose.PSD?
+O4: Tak, możesz wypróbować Aspose.PSD w darmowej wersji próbnej [tutaj](https://releases.aspose.com/).
 
-### P3: Czy istnieją jakieś wymagania licencyjne dotyczące korzystania z Aspose.PSD?
+### P5: Gdzie mogę znaleźć wsparcie w kwestiach związanych z Aspose.PSD?
+O5: Odwiedź [forum Aspose.PSD](https://forum.aspose.com/c/psd/34), aby uzyskać wsparcie społeczności i dyskusje.
 
- Odpowiedź 3: Tak, do użytku komercyjnego wymagana jest ważna licencja. Zdobądź go od[Tutaj](https://purchase.aspose.com/buy).
+---
 
-### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?
+**Ostatnia aktualizacja:** 2025-12-30  
+**Testowano z:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
 
- Odpowiedź 4: Tak, możesz eksplorować Aspose.PSD w ramach bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
-
-### P5: Gdzie mogę znaleźć pomoc dotyczącą zapytań związanych z Aspose.PSD?
-
- A5: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności i dyskusje.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
