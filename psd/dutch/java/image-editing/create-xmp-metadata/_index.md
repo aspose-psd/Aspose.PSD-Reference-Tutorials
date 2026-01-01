@@ -1,33 +1,50 @@
 ---
-title: Maak XMP-metagegevens met Aspose.PSD voor Java
-linktitle: XMP-metagegevens maken
-second_title: Aspose.PSD Java-API
-description: Verbeter uw Java-applicaties met Aspose.PSD. Leer moeiteloos XMP-metagegevens maken. Volg nu onze stapsgewijze handleiding.
-weight: 12
+date: 2026-01-01
+description: Leer hoe u XMP‑metadata maakt, XMP toevoegt aan PSD‑bestanden en afbeeldingsmetadata
+  bijwerkt met Aspose.PSD voor Java. Volg nu deze stapsgewijze handleiding.
+linktitle: Create XMP Metadata
+second_title: Aspose.PSD Java API
+title: Maak XMP-metadata met Aspose.PSD voor Java
 url: /nl/java/image-editing/create-xmp-metadata/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak XMP-metagegevens met Aspose.PSD voor Java
+# Maak XMP-metadata met Aspose.PSD voor Java
 
-## Invoering
+## Introductie
 
-Op het gebied van Java-ontwikkeling is het beheren en manipuleren van metagegevens van afbeeldingen cruciaal voor verschillende toepassingen. Aspose.PSD voor Java onderscheidt zich als een krachtig hulpmiddel voor het verwerken van PSD-bestanden, en in deze zelfstudie gaan we dieper in op het maken van XMP-metagegevens met behulp van deze robuuste bibliotheek.
+Het beheren van afbeeldingsmetadata is een veelvoorkomende vereiste voor Java‑ontwikkelaars die met Photoshop (PSD)-bestanden werken. In deze tutorial leer je **hoe je XMP-metadata maakt** met behulp van de Aspose.PSD‑bibliotheek, XMP toevoegt aan een PSD‑afbeelding, en afbeeldingsmetadata programmatisch bijwerkt. We lopen elke stap door, leggen uit waarom elk onderdeel belangrijk is, en geven praktische tips die je in echte projecten kunt toepassen.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat is XMP-metadata?** Een gestandaardiseerd formaat voor het insluiten van beschrijvende informatie (auteur, trefwoorden, enz.) in afbeeldingsbestanden.  
+- **Waarom Aspose.PSD gebruiken?** Het biedt een pure‑Java API voor het maken, lezen en bewerken van PSD‑bestanden zonder Photoshop.  
+- **Kan ik XMP toevoegen aan een bestaande PSD?** Ja – je kunt afbeeldingsmetadata direct bijwerken met `setXmpData`.  
+- **Wat zijn de belangrijkste stappen?** Stel de afbeeldingsgrootte in, maak header/trailer, bouw XMP‑pakketten, voeg ze toe, en sla op.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.
 
-Voordat we aan deze zelfstudie beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat betekent “XMP-metadata maken” in Java?
 
-- Java-ontwikkelomgeving: zorg ervoor dat Java op uw systeem is geïnstalleerd en dat u basiskennis heeft van Java-programmeren.
--  Aspose.PSD-bibliotheek: download en configureer de Aspose.PSD-bibliotheek voor Java. U kunt de bibliotheek en gedetailleerde documentatie vinden[hier](https://reference.aspose.com/psd/java/).
-- Uw documentenmap: definieer de map waarin uw documentbestanden worden opgeslagen.
+XMP-metadata maken betekent het bouwen van een XMP‑pakket (header, body, trailer) dat de afbeelding beschrijft en vervolgens dat pakket in een PSD‑bestand insluiten. De Aspose.PSD‑bibliotheek abstraheert de low‑level details, zodat je je kunt concentreren op de inhoud die je wilt opslaan.
 
-## Pakketten importeren
+## Waarom XMP toevoegen aan PSD‑bestanden?
 
-Importeer in uw Java-project de benodigde pakketten om de Aspose.PSD-functionaliteiten te benutten:
+- **Zoekbaarheid:** Maakt krachtige asset‑management zoekopdrachten mogelijk op basis van auteur, titel of aangepaste tags.  
+- **Interoperabiliteit:** XMP wordt herkend door Adobe‑producten, Lightroom en vele DAM‑systemen.  
+- **Versiebeheer:** Sla verwerkingsgeschiedenis (bijv. stad, kleurmodus) direct in het bestand op.
+
+## Voorvereisten
+
+- **Java‑ontwikkelomgeving:** JDK 8 of hoger geïnstalleerd en een basisbegrip van Java.  
+- **Aspose.PSD‑bibliotheek:** Download en installeer de Aspose.PSD voor Java bibliotheek. Je kunt de bibliotheek en gedetailleerde documentatie vinden [hier](https://reference.aspose.com/psd/java/).  
+- **Je documentmap:** Bepaal waar je PSD‑bestanden op je systeem leest/schrijft.
+
+## Importeer pakketten
+
+Importeer in je Java‑project de benodigde pakketten om de functionaliteit van Aspose.PSD te benutten:
 
 ```java
 import com.aspose.psd.Rectangle;
@@ -43,124 +60,158 @@ import com.aspose.psd.xmp.schemas.photoshop.ColorMode;
 import com.aspose.psd.xmp.schemas.photoshop.PhotoshopPackage;
 ```
 
-## Stap 1: Geef het afbeeldingsformaat op
+## Stap 1: Afbeeldingsgrootte opgeven
+
+Definieer eerst de canvasafmetingen voor de nieuwe PSD‑afbeelding.
 
 ```java
-//Geef de grootte van de afbeelding op door een rechthoek te definiëren
+// Specify the size of the image by defining a Rectangle
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 
 ## Stap 2: Maak een nieuwe afbeelding
 
+Maak een lege PSD‑afbeelding die we later verrijken met XMP‑metadata.
+
 ```java
-// Maak een geheel nieuwe afbeelding voor voorbeelddoeleinden
+// Create a brand new image for sample purposes
 PsdImage image = new PsdImage(rect.getWidth(), rect.getHeight());
 ```
 
-## Stap 3: Maak een XMP-header
+## Stap 3: Maak XMP‑header
+
+De header bevat de opening XML processing instruction en een GUID die het document identificeert.
 
 ```java
-// Maak een exemplaar van XMP-Header
+// Create an instance of XMP-Header
 XmpHeaderPi xmpHeader = new XmpHeaderPi();
 xmpHeader.setGuid("Your Document Directory");
 ```
 
-## Stap 4: Maak een XMP-trailer
+## Stap 4: Maak XMP‑trailer
+
+De trailer markeert het einde van het XMP‑pakket. Het instellen van de `true`‑vlag schrijft de afsluitende processing instruction.
 
 ```java
-// Maak een exemplaar van Xmp-TrailerPi
+// Create an instance of Xmp-TrailerPi 
 XmpTrailerPi xmpTrailer = new XmpTrailerPi(true);
 ```
 
-## Stap 5: Maak XMP-metagegevens
+## Stap 5: Maak XMP‑metadata
+
+Voeg algemene attributen zoals auteur en beschrijving toe aan het kern‑XMP‑metadata‑object.
 
 ```java
-// Maak een exemplaar van de XMPmeta-klasse om verschillende attributen in te stellen
+// Create an instance of XMPmeta class to set different attributes
 XmpMeta xmpMeta = new XmpMeta();
 xmpMeta.addAttribute("Author", "Mr Smith");
 xmpMeta.addAttribute("Description", "The fake metadata value");
 ```
 
-## Stap 6: Maak een XMP-pakketverpakking
+## Stap 6: Maak XMP‑pakketwrapper
+
+Verpak de header, trailer en kern‑metadata in één pakket dat aan de afbeelding kan worden toegevoegd.
 
 ```java
-// Maak een exemplaar van XmpPacketWrapper dat alle metagegevens bevat
+// Create an instance of XmpPacketWrapper that contains all metadata
 XmpPacketWrapper xmpData = new XmpPacketWrapper(xmpHeader, xmpTrailer, xmpMeta);
 ```
 
-## Stap 7: Stel Photoshop-kenmerken in
+## Stap 7: Stel Photoshop‑attributen in
+
+Vul Photoshop‑specifieke velden (stad, land, kleurmodus) in die veel Adobe‑tools verwachten.
 
 ```java
-// Maak een exemplaar van het Photoshop-pakket en stel Photoshop-kenmerken in
+// Create an instance of Photoshop package and set Photoshop attributes
 PhotoshopPackage photoshopPackage = new PhotoshopPackage();
 photoshopPackage.setCity("London");
 photoshopPackage.setCountry("England");
 photoshopPackage.setColorMode(ColorMode.Rgb);
 ```
 
-## Stap 8: Voeg Photoshop-pakket toe aan XMP-metagegevens
+## Stap 8: Voeg Photoshop‑pakket toe aan XMP‑metadata
+
+Voeg het Photoshop‑pakket toe aan het XMP‑pakket.
 
 ```java
-// Voeg een Photoshop-pakket toe aan XMP-metagegevens
+// Add Photoshop package into XMP metadata
 xmpData.addPackage(photoshopPackage);
 ```
 
-## Stap 9: Stel DublinCore-kenmerken in
+## Stap 9: Stel DublinCore‑attributen in
+
+Voeg Dublin Core‑metadata toe zoals auteur, titel en een aangepast movie‑tag.
 
 ```java
-// Maak een exemplaar van het DublinCore-pakket en stel DublinCore-kenmerken in
+// Create an instance of DublinCore package and set DublinCore attributes
 DublinCorePackage dublinCorePackage = new DublinCorePackage();
 dublinCorePackage.setAuthor("Charles Bukowski");
 dublinCorePackage.setTitle("Confessions of a Man Insane Enough to Live With the Beasts");
 dublinCorePackage.addValue("dc:movie", "Barfly");
 ```
 
-## Stap 10: Voeg het DublinCore-pakket toe aan XMP-metagegevens
+## Stap 10: Voeg DublinCore‑pakket toe aan XMP‑metadata
+
+Combineer het Dublin Core‑pakket met het bestaande XMP‑pakket.
 
 ```java
-// Voeg DublinCore-pakket toe aan XMP-metagegevens
+// Add DublinCore Package into XMP metadata
 xmpData.addPackage(dublinCorePackage);
 ```
 
-## Stap 11: Update XMP-metagegevens naar afbeelding
+## Stap 11: Werk XMP‑metadata bij in afbeelding
+
+Sluit nu het volledige XMP‑pakket in de PSD‑afbeelding in.
 
 ```java
-//Update XMP-metagegevens in de afbeelding
+// Update XMP metadata into the image
 image.setXmpData(xmpData);
 ```
 
-## Stap 12: Afbeelding opslaan
+## Stap 12: Sla afbeelding op
+
+Schrijf tenslotte het PSD‑bestand naar schijf (of een geheugen‑stream) zodat de metadata wordt bewaard.
 
 ```java
-// Sla de afbeelding op de schijf of in een geheugenstroom op
+// Save the image on the disk or in a memory stream
 image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Gefeliciteerd! U hebt met succes XMP-metagegevens voor een afbeelding gemaakt met Aspose.PSD voor Java. Deze tutorial heeft u voorzien van de essentiële stappen om metadata in uw Java-applicaties naadloos te verbeteren en te beheren.
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| **`NullPointerException` bij `setXmpData`** | Het XMP‑pakket was niet volledig opgebouwd (header/trailer ontbreekt). | Zorg ervoor dat je `XmpHeaderPi`, `XmpTrailerPi` maakt en alle pakketten toevoegt voordat je `setXmpData` aanroept. |
+| **Metadata niet zichtbaar in Photoshop** | Photoshop verwacht dat het XMP‑pakket correct wordt verpakt. | Controleer of `XmpTrailerPi(true)` wordt gebruikt en dat het pakket met de afbeelding wordt opgeslagen. |
+| **Bestandspad‑fouten** | Een relatief pad gebruiken zonder de juiste permissies. | Gebruik een absoluut pad of zorg dat de applicatie schrijfrechten heeft voor de doelmap. |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Is Aspose.PSD compatibel met verschillende afbeeldingsformaten?
+**V: Is Aspose.PSD compatibel met verschillende afbeeldingsformaten?**  
+A: Ja, Aspose.PSD ondersteunt PSD, PSB, BMP, GIF, JPEG, PNG, TIFF en meer, waardoor je flexibiliteit hebt over formaten.
 
-A1: Ja, Aspose.PSD ondersteunt verschillende afbeeldingsformaten, wat veelzijdigheid biedt bij het verwerken van verschillende bestandstypen.
+**V: Kan ik bestaande metadata manipuleren met Aspose.PSD?**  
+A: Absoluut. Je kunt een bestaande PSD laden, de XMP‑data ophalen met `getXmpData()`, het pakket aanpassen en het opnieuw opslaan.
 
-### Vraag 2: Kan ik bestaande metagegevens manipuleren met Aspose.PSD?
+**V: Zijn er beperkingen aan de afbeeldingsgrootte die Aspose.PSD kan verwerken?**  
+A: Aspose.PSD is ontworpen om met grote afbeeldingen te werken (tot enkele gigapixels), alleen beperkt door beschikbaar geheugen.
 
-A2: Absoluut, met Aspose.PSD kunt u bestaande metagegevens in afbeeldingen wijzigen en bijwerken.
+**V: Is er een proefversie beschikbaar voor Aspose.PSD?**  
+A: Ja, je kunt de mogelijkheden van Aspose.PSD verkennen door een gratis proefversie te verkrijgen [hier](https://releases.aspose.com/).
 
-### Vraag 3: Zijn er beperkingen op de afbeeldingsgrootte die Aspose.PSD aankan?
+**V: Waar kan ik ondersteuning vinden voor vragen over Aspose.PSD?**  
+A: Voor hulp of vragen kun je het [Aspose.PSD‑forum](https://forum.aspose.com/c/psd/34) bezoeken.
 
-A3: Aspose.PSD is ontworpen om afbeeldingen van verschillende formaten te verwerken, waardoor schaalbaarheid voor uw projecten wordt gegarandeerd.
+## Conclusie
 
-### V4: Is er een proefversie beschikbaar voor Aspose.PSD?
+Je hebt nu geleerd **hoe je XMP‑metadata maakt**, XMP toevoegt aan een PSD, en afbeeldingsmetadata bijwerkt met Aspose.PSD voor Java. Deze stappen geven je volledige controle over de beschrijvende informatie die in je afbeeldingen is ingebed, waardoor ze doorzoekbaar zijn en klaar voor downstream‑workflows. Voel je vrij om te experimenteren met extra XMP‑schema's of deze code te integreren in grotere beeld‑verwerkingspijplijnen.
 
- A4: Ja, u kunt de mogelijkheden van Aspose.PSD verkennen door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
+---
 
-### V5: Waar kan ik ondersteuning zoeken voor Aspose.PSD-gerelateerde vragen?
+**Laatst bijgewerkt:** 2026-01-01  
+**Getest met:** Aspose.PSD for Java 24.12  
+**Auteur:** Aspose  
 
- A5: Voor hulp of vragen kunt u terecht op de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

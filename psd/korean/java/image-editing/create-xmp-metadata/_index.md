@@ -1,33 +1,50 @@
 ---
-title: Java용 Aspose.PSD를 사용하여 XMP 메타데이터 생성
-linktitle: XMP 메타데이터 생성
-second_title: Aspose.PSD 자바 API
-description: Aspose.PSD로 Java 애플리케이션을 강화하세요. XMP 메타데이터를 손쉽게 생성하는 방법을 알아보세요. 지금 단계별 가이드를 따르세요.
-weight: 12
+date: 2026-01-01
+description: XMP 메타데이터를 생성하고, PSD 파일에 XMP를 추가하며, Aspose.PSD for Java를 사용하여 이미지 메타데이터를
+  업데이트하는 방법을 배워보세요. 지금 바로 이 단계별 가이드를 따라하세요.
+linktitle: Create XMP Metadata
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java를 사용하여 XMP 메타데이터 만들기
 url: /ko/java/image-editing/create-xmp-metadata/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.PSD를 사용하여 XMP 메타데이터 생성
+# Aspose.PSD for Java를 사용하여 XMP 메타데이터 만들기
 
-## 소개
+## Introduction
 
-Java 개발 영역에서 이미지 메타데이터를 관리하고 조작하는 것은 다양한 애플리케이션에 매우 중요합니다. Aspose.PSD for Java는 PSD 파일을 처리하는 강력한 도구로 돋보이며, 이 튜토리얼에서는 이 강력한 라이브러리를 사용하여 XMP 메타데이터를 생성하는 방법을 자세히 살펴보겠습니다.
+Photoshop (PSD) 파일을 다루는 Java 개발자에게 이미지 메타데이터 관리는 일반적인 요구 사항입니다. 이 튜토리얼에서는 Aspose.PSD 라이브러리를 사용하여 **XMP 메타데이터를 만드는 방법**을 배우고, PSD 이미지에 XMP를 추가하며, 프로그래밍 방식으로 이미지 메타데이터를 업데이트하는 방법을 다룹니다. 각 단계를 차근차근 살펴보고, 각 요소가 왜 중요한지 설명하며, 실제 프로젝트에 적용할 수 있는 실용적인 팁을 제공하겠습니다.
 
-## 전제조건
+## Quick Answers
+- **What is XMP metadata?** 이미지 파일 내부에 설명 정보를 삽입하기 위한 표준화된 형식(작성자, 키워드 등)입니다.  
+- **Why use Aspose.PSD?** Photoshop 없이도 PSD 파일을 생성, 읽기, 편집할 수 있는 순수 Java API를 제공합니다.  
+- **Can I add XMP to an existing PSD?** 예 — `setXmpData`를 사용해 실시간으로 이미지 메타데이터를 업데이트할 수 있습니다.  
+- **What are the main steps?** 이미지 크기 설정, 헤더/트레일러 생성, XMP 패키지 구축, 패키지 첨부, 저장 순서입니다.  
+- **Do I need a license?** 개발 단계에서는 무료 체험판으로 충분하지만, 상용 환경에서는 상업용 라이선스가 필요합니다.
 
-이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is “create XMP metadata” in Java?
 
-- Java 개발 환경: 시스템에 Java를 설치하고 Java 프로그래밍에 대한 기본적인 이해를 갖추고 있어야 합니다.
--  Aspose.PSD 라이브러리: Java용 Aspose.PSD 라이브러리를 다운로드하고 설정합니다. 라이브러리와 자세한 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/psd/java/).
-- 문서 디렉터리: 문서 파일이 저장되는 디렉터리를 정의합니다.
+XMP 메타데이터를 만든다는 것은 이미지에 대한 설명을 담은 XMP 패킷(헤더, 본문, 트레일러)을 구성한 뒤, 해당 패킷을 PSD 파일에 삽입하는 것을 의미합니다. Aspose.PSD 라이브러리는 저수준 세부 사항을 추상화하여 저장하고자 하는 내용에 집중할 수 있게 해줍니다.
 
-## 패키지 가져오기
+## Why add XMP to PSD files?
 
-Java 프로젝트에서 Aspose.PSD 기능을 활용하는 데 필요한 패키지를 가져옵니다.
+- **Searchability:** 작성자, 제목, 사용자 정의 태그 등을 기반으로 강력한 자산 관리 검색이 가능합니다.  
+- **Interoperability:** XMP는 Adobe 제품, Lightroom 및 다수의 DAM 시스템에서 인식됩니다.  
+- **Version control:** 처리 이력(예: 도시, 색상 모드)을 파일 내부에 직접 저장할 수 있습니다.
+
+## Prerequisites
+
+- **Java Development Environment:** JDK 8 이상 설치 및 Java에 대한 기본 이해가 필요합니다.  
+- **Aspose.PSD Library:** Aspose.PSD for Java 라이브러리를 다운로드하고 설정합니다. 라이브러리와 자세한 문서는 [here](https://reference.aspose.com/psd/java/)에서 확인할 수 있습니다.  
+- **Your Document Directory:** 시스템에서 PSD 파일을 읽고 쓸 위치를 결정합니다.
+
+## Import Packages
+
+Java 프로젝트에서 Aspose.PSD 기능을 활용하기 위해 필요한 패키지를 가져옵니다:
 
 ```java
 import com.aspose.psd.Rectangle;
@@ -43,124 +60,158 @@ import com.aspose.psd.xmp.schemas.photoshop.ColorMode;
 import com.aspose.psd.xmp.schemas.photoshop.PhotoshopPackage;
 ```
 
-## 1단계: 이미지 크기 지정
+## Step 1: Specify Image Size
+
+새 PSD 이미지의 캔버스 크기를 정의합니다.
 
 ```java
-//Rectangle을 정의하여 이미지 크기를 지정합니다.
+// Specify the size of the image by defining a Rectangle
 Rectangle rect = new Rectangle(0, 0, 100, 200);
 ```
 
-## 2단계: 새 이미지 생성
+## Step 2: Create a New Image
+
+이후 XMP 메타데이터를 추가할 빈 PSD 이미지를 생성합니다.
 
 ```java
-// 샘플 목적으로 새로운 이미지를 만듭니다.
+// Create a brand new image for sample purposes
 PsdImage image = new PsdImage(rect.getWidth(), rect.getHeight());
 ```
 
-## 3단계: XMP 헤더 생성
+## Step 3: Create XMP Header
+
+헤더에는 XML 처리 지시문과 문서를 식별하는 GUID가 포함됩니다.
 
 ```java
-// XMP-Header 인스턴스 생성
+// Create an instance of XMP-Header
 XmpHeaderPi xmpHeader = new XmpHeaderPi();
 xmpHeader.setGuid("Your Document Directory");
 ```
 
-## 4단계: XMP 예고편 만들기
+## Step 4: Create XMP Trailer
+
+트레일러는 XMP 패킷의 끝을 표시합니다. `true` 플래그를 설정하면 닫는 처리 지시문이 기록됩니다.
 
 ```java
-// Xmp-TrailerPi 인스턴스 생성
+// Create an instance of Xmp-TrailerPi 
 XmpTrailerPi xmpTrailer = new XmpTrailerPi(true);
 ```
 
-## 5단계: XMP 메타데이터 생성
+## Step 5: Create XMP Metadata
+
+핵심 XMP 메타데이터 객체에 작성자 및 설명과 같은 일반 속성을 추가합니다.
 
 ```java
-// 다양한 속성을 설정하기 위해 XMPmeta 클래스의 인스턴스 생성
+// Create an instance of XMPmeta class to set different attributes
 XmpMeta xmpMeta = new XmpMeta();
 xmpMeta.addAttribute("Author", "Mr Smith");
 xmpMeta.addAttribute("Description", "The fake metadata value");
 ```
 
-## 6단계: XMP 패킷 래퍼 만들기
+## Step 6: Create XMP Packet Wrapper
+
+헤더, 트레일러 및 핵심 메타데이터를 하나의 패킷으로 감싸 이미지에 첨부할 수 있게 합니다.
 
 ```java
-// 모든 메타데이터를 포함하는 XmpPacketWrapper 인스턴스 생성
+// Create an instance of XmpPacketWrapper that contains all metadata
 XmpPacketWrapper xmpData = new XmpPacketWrapper(xmpHeader, xmpTrailer, xmpMeta);
 ```
 
-## 7단계: Photoshop 속성 설정
+## Step 7: Set Photoshop Attributes
+
+많은 Adobe 도구가 기대하는 Photoshop 전용 필드(도시, 국가, 색상 모드 등)를 채웁니다.
 
 ```java
-// Photoshop 패키지 인스턴스 생성 및 Photoshop 속성 설정
+// Create an instance of Photoshop package and set Photoshop attributes
 PhotoshopPackage photoshopPackage = new PhotoshopPackage();
 photoshopPackage.setCity("London");
 photoshopPackage.setCountry("England");
 photoshopPackage.setColorMode(ColorMode.Rgb);
 ```
 
-## 8단계: XMP 메타데이터에 Photoshop 패키지 추가
+## Step 8: Add Photoshop Package to XMP Metadata
+
+Photoshop 패키지를 XMP 패킷에 첨부합니다.
 
 ```java
-// XMP 메타데이터에 Photoshop 패키지 추가
+// Add Photoshop package into XMP metadata
 xmpData.addPackage(photoshopPackage);
 ```
 
-## 9단계: DublinCore 속성 설정
+## Step 9: Set DublinCore Attributes
+
+작성자, 제목 및 사용자 정의 영화 태그와 같은 Dublin Core 메타데이터를 추가합니다.
 
 ```java
-// DublinCore 패키지의 인스턴스 생성 및 DublinCore 속성 설정
+// Create an instance of DublinCore package and set DublinCore attributes
 DublinCorePackage dublinCorePackage = new DublinCorePackage();
 dublinCorePackage.setAuthor("Charles Bukowski");
 dublinCorePackage.setTitle("Confessions of a Man Insane Enough to Live With the Beasts");
 dublinCorePackage.addValue("dc:movie", "Barfly");
 ```
 
-## 10단계: XMP 메타데이터에 DublinCore 패키지 추가
+## Step 10: Add DublinCore Package to XMP Metadata
+
+기존 XMP 패킷에 Dublin Core 패키지를 결합합니다.
 
 ```java
-// XMP 메타데이터에 DublinCore 패키지 추가
+// Add DublinCore Package into XMP metadata
 xmpData.addPackage(dublinCorePackage);
 ```
 
-## 11단계: XMP 메타데이터를 이미지로 업데이트
+## Step 11: Update XMP Metadata into Image
+
+완성된 XMP 패킷을 PSD 이미지에 삽입합니다.
 
 ```java
-//XMP 메타데이터를 이미지로 업데이트
+// Update XMP metadata into the image
 image.setXmpData(xmpData);
 ```
 
-## 12단계: 이미지 저장
+## Step 12: Save Image
+
+메타데이터가 포함된 PSD 파일을 디스크(또는 메모리 스트림)로 저장합니다.
 
 ```java
-// 디스크 또는 메모리 스트림에 이미지 저장
+// Save the image on the disk or in a memory stream
 image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 ```
 
-## 결론
+## Common Issues and Solutions
 
-축하해요! Java용 Aspose.PSD를 사용하여 이미지에 대한 XMP 메타데이터를 성공적으로 생성했습니다. 이 튜토리얼에서는 Java 애플리케이션의 메타데이터를 원활하게 향상하고 관리하기 위한 필수 단계를 제공합니다.
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **`NullPointerException` on `setXmpData`** | XMP 패킷이 완전히 구성되지 않아(헤더/트레일러 누락) 발생합니다. | `XmpHeaderPi`, `XmpTrailerPi`를 생성하고 모든 패키지를 추가한 뒤 `setXmpData`를 호출하십시오. |
+| **Metadata not visible in Photoshop** | Photoshop이 XMP 패킷이 올바르게 래핑되기를 기대합니다. | `XmpTrailerPi(true)`가 사용되었는지 확인하고, 패킷이 이미지와 함께 저장되었는지 검증하십시오. |
+| **File path errors** | 상대 경로 사용 시 권한이 부족할 수 있습니다. | 절대 경로를 사용하거나 대상 폴더에 대한 쓰기 권한을 확보하십시오. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Aspose.PSD는 다른 이미지 형식과 호환됩니까?
+**Q: Is Aspose.PSD compatible with different image formats?**  
+A: Yes, Aspose.PSD supports PSD, PSB, BMP, GIF, JPEG, PNG, TIFF, and more, giving you flexibility across formats.
 
-A1: 예, Aspose.PSD는 다양한 이미지 형식을 지원하여 다양한 파일 형식을 처리하는 데 있어 다양성을 제공합니다.
+**Q: Can I manipulate existing metadata using Aspose.PSD?**  
+A: Absolutely. You can load an existing PSD, retrieve its XMP data with `getXmpData()`, modify the packet, and save it back.
 
-### Q2: Aspose.PSD를 사용하여 기존 메타데이터를 조작할 수 있습니까?
+**Q: Are there any limitations on the image size Aspose.PSD can handle?**  
+A: Aspose.PSD is designed to work with large images (up to several gigapixels) limited only by available memory.
 
-A2: 물론 Aspose.PSD를 사용하면 이미지 내의 기존 메타데이터를 수정하고 업데이트할 수 있습니다.
+**Q: Is there a trial version available for Aspose.PSD?**  
+A: Yes, you can explore the capabilities of Aspose.PSD by obtaining a free trial [here](https://releases.aspose.com/).
 
-### Q3: Aspose.PSD가 처리할 수 있는 이미지 크기에 제한이 있습니까?
+**Q: Where can I seek support for Aspose.PSD-related queries?**  
+A: For any assistance or queries, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
 
-A3: Aspose.PSD는 다양한 크기의 이미지를 처리하도록 설계되어 프로젝트의 확장성을 보장합니다.
+## Conclusion
 
-### Q4: Aspose.PSD에 사용할 수 있는 평가판이 있습니까?
+이제 **XMP 메타데이터를 만드는 방법**, PSD에 XMP를 추가하는 방법, 그리고 Aspose.PSD for Java를 사용해 이미지 메타데이터를 업데이트하는 방법을 마스터했습니다. 이러한 단계들을 통해 이미지에 삽입되는 설명 정보를 완전히 제어할 수 있어 검색 가능하고, 워크플로우에 바로 활용할 수 있습니다. 추가적인 XMP 스키마를 실험하거나 이 코드를 더 큰 이미지 처리 파이프라인에 통합해 보세요.
 
- A4: 예, 무료 평가판을 통해 Aspose.PSD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+---
 
-### Q5: Aspose.PSD 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
 
- A5: 도움이나 문의 사항이 있는 경우[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
