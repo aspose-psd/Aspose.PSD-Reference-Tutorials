@@ -1,33 +1,42 @@
 ---
-title: Vytvořte obrázek pomocí Stream v Aspose.PSD pro Java
-linktitle: Vytvořte obrázek pomocí Stream
+date: 2026-01-01
+description: Naučte se, jak vytvořit bitmapu v jazyce Java pomocí streamu v Aspose.PSD,
+  uložit soubor obrázku v Javě a efektivně nastavit počet bitů na pixel.
+linktitle: Create Image using Stream
 second_title: Aspose.PSD Java API
-description: Naučte se vytvářet obrázky pomocí streamu v Aspose.PSD pro Java. Postupujte podle tohoto podrobného průvodce pro efektivní zpracování obrazu.
-weight: 14
+title: Vytvořit bitmapu v Javě pomocí Streamu v Aspose.PSD
 url: /cs/java/image-editing/create-image-using-stream/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte obrázek pomocí Stream v Aspose.PSD pro Java
+# Vytvoření bitmapy v Javě pomocí streamu v Aspose.PSD
 
-## Zavedení
+## Úvod
 
-V oblasti vývoje Java vyniká Aspose.PSD jako robustní knihovna pro zpracování obrazu. Jednou z jeho výkonných funkcí je schopnost vytvářet obrazy pomocí streamů, což nabízí flexibilitu a efektivitu při manipulaci s obrazovými daty. Tento tutoriál vás provede procesem vytváření obrázků pomocí streamu v Aspose.PSD pro Java a poskytne vám praktické zkušenosti s pokyny krok za krokem.
+Pokud potřebujete **create bitmap java** obrázky za běhu, Aspose.PSD pro Java vám poskytuje čistý, stream‑založený přístup, který je rychlý a úsporný na paměť. V tomto tutoriálu vás provedeme generováním bitmapového obrázku ze streamu, nastavením počtu bitů na pixel a nakonec **save image file java** na disk. Na konci pochopíte, proč je tato metoda ideální pro server‑side zpracování obrázků, dávkové úlohy nebo jakýkoli scénář, kde chcete vyhnout se dočasným souborům.
 
-## Předpoklady
+## Rychlé odpovědi
+- **What does “create bitmap java” mean?** Odkazuje na programové generování BMP obrázku pomocí Java kódu.  
+- **Which library handles the stream?** Aspose.PSD’s `StreamSource` a `FileCreateSource` třídy.  
+- **Can I set the color depth?** Ano – použijte `BmpOptions.setBitsPerPixel(int)` (např. 24 bpp).  
+- **How do I save the result?** Zavolejte `image.save(outputPath)`, aby se **save image file java**.  
+- **Is a license required for production?** Pro komerční použití je vyžadována platná licence Aspose.PSD.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Požadavky pro vytvoření bitmapy v Javě
 
-- Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java.
--  Aspose.PSD Library: Stáhněte si a nastavte knihovnu Aspose.PSD pro Javu. Potřebné zdroje najdete v[dokumentace](https://reference.aspose.com/psd/java/).
-- Integrované vývojové prostředí (IDE): Vyberte si IDE kompatibilní s Java, jako je Eclipse nebo IntelliJ IDEA, pro bezproblémový vývoj.
+Předtím, než začnete, ujistěte se, že máte:
 
-## Importujte balíčky
+- **Java Development Kit (JDK)** – jakákoli aktuální verze (8 nebo vyšší).  
+- **Aspose.PSD for Java** – stáhněte nejnovější JAR z [documentation](https://reference.aspose.com/psd/java/).  
+- **IDE** – Eclipse, IntelliJ IDEA nebo jakýkoli Java‑kompatibilní editor, který preferujete.
 
-Začněte importem požadovaných balíčků do vašeho projektu Java. Zahrňte knihovnu Aspose.PSD, abyste mohli využít její funkce ve svém kódu. Zde je základní příklad:
+## Import balíčků pro generování bitmapy
+
+Začněte importováním požadovaných balíčků. Ty vám poskytují přístup k tvorbě obrázků, BMP možnostem a práci se streamy.
 
 ```java
 import com.aspose.psd.Image;
@@ -47,79 +56,86 @@ import java.io.FileInputStream;
 String dataDir = "Your Document Directory";
 ```
 
- Zajistěte výměnu`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+Nahraďte `"Your Document Directory"` absolutní cestou, kde ukládáte své zdrojové a výstupní soubory.
 
-## Krok 2: Zadejte název výstupního souboru
+## Krok 2: Definujte název výstupního souboru
 
 ```java
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 ```
 
-Definujte požadovaný název pro výstupní obrazový soubor.
+Toto je cesta, kam operace **save image file java** zapíše bitmapu.
 
-## Krok 3: Nakonfigurujte BmpOptions
+## Krok 3: Nakonfigurujte BmpOptions (nastavení bitů na pixel)
 
 ```java
 BmpOptions imageOptions = new BmpOptions();
 imageOptions.setBitsPerPixel(24);
 ```
 
- Vytvořte instanci`BmpOptions` a nakonfigurovat jeho vlastnosti, jako jsou bity na pixel.
+Zde **set bits per pixel** na 24 bpp, což vytváří bitmapu s pravou barvou. Upravit hodnotu, pokud potřebujete jinou hloubku barev.
 
-## Krok 4: Vytvořte FileCreateSource
+## Krok 4: Vytvořte FileCreateSource (zdroj streamu)
 
 ```java
 FileCreateSource stream = new FileCreateSource(dataDir + "sample_out.bmp");
 imageOptions.setSource(stream);
 ```
 
- Instantovat a`FileCreateSource` pomocí vašeho datového adresáře a nastavte jej jako zdroj pro`BmpOptions`.
+`FileCreateSource` obaluje souborový stream, aby Aspose.PSD mohl zapisovat přímo do cíle bez mezibufferů.
 
-## Krok 5: Vygenerujte obrázek
+## Krok 5: Vygenerujte bitmapový obrázek
 
 ```java
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Vytvořte instanci`Image` vyvoláním`create` metoda, předávání nakonfigurovaného`BmpOptions` a určení rozměrů obrázku.
+Tento řádek **generates a bitmap java** obrázek o rozměrech 500 × 500 pixelů pomocí dříve definovaných možností.
 
-## Krok 6: Zpracování obrazu
+## Krok 6: Proveďte zpracování obrázku a uložte
 
 ```java
-// Proveďte požadované operace zpracování obrazu
-// ...
+// Perform desired image processing operations here
+// For example, you could draw shapes, apply filters, etc.
 
-// Uložte zpracovaný obrázek
+// Save the processed bitmap to disk
 image.save(desName);
 ```
 
- Proveďte všechny požadované operace zpracování obrazu a výsledný obraz uložte pomocí`save` metoda.
+Po libovolné volitelné úpravě volání `image.save` **saves the image file java** do umístění určeného v `desName`.
 
 ## Závěr
 
-Gratuluji! Úspěšně jste se naučili, jak vytvářet obrázky pomocí streamu v Aspose.PSD pro Javu. Tento tutoriál se zabýval základními kroky, od importu balíčků až po konečné zpracování a uložení obrazu. Experimentujte s různými nastaveními a prozkoumejte další funkce pro vylepšení možností vytváření obrázků.
+Nyní jste se naučili, jak **create bitmap java** obrázky pomocí streamů v Aspose.PSD, řídit hloubku barev pomocí **set bits per pixel** a efektivně **save image file java**. Vyzkoušejte různé rozměry, formáty pixelů nebo další kroky zpracování, aby vyhovovaly potřebám vašeho projektu.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu používat Aspose.PSD s jinými knihovnami Java?
+### Q1: Can I use Aspose.PSD with other Java libraries?
 
-Odpověď 1: Ano, Aspose.PSD je navržen tak, aby se hladce integroval s jinými knihovnami Java a poskytoval všestrannost ve vašich projektech.
+A1: Ano, Aspose.PSD je navržen tak, aby se hladce integroval s dalšími Java knihovnami, což poskytuje všestrannost ve vašich projektech.
 
-### Q2: Kde najdu podporu pro dotazy související s Aspose.PSD?
+### Q2: Where can I find support for Aspose.PSD-related queries?
 
- A2: Navštivte[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) za podporu komunity a diskuze.
+A2: Navštivte [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) pro podporu komunity a diskuse.
 
-### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
+### Q3: Is there a free trial available for Aspose.PSD?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+A3: Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Q4: Jak získám dočasnou licenci pro Aspose.PSD?
+### Q4: How do I obtain a temporary license for Aspose.PSD?
 
- A4: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+A4: Získejte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Jaké jsou systémové požadavky pro Aspose.PSD?
+### Q5: What are the system requirements for Aspose.PSD?
 
- A5: Viz[dokumentace](https://reference.aspose.com/psd/java/) pro podrobné systémové požadavky.
+A5: Podívejte se do [documentation](https://reference.aspose.com/psd/java/) pro podrobné systémové požadavky.
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD Java latest release  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

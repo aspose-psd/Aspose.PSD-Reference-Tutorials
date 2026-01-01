@@ -1,33 +1,42 @@
 ---
-title: Erstellen Sie ein Bild mit Stream in Aspose.PSD für Java
-linktitle: Bild mit Stream erstellen
+date: 2026-01-01
+description: Erfahren Sie, wie Sie in Java ein Bitmap mit Stream in Aspose.PSD erstellen,
+  eine Bilddatei in Java speichern und die Bits pro Pixel effizient festlegen.
+linktitle: Create Image using Stream
 second_title: Aspose.PSD Java API
-description: Erfahren Sie, wie Sie mit Stream in Aspose.PSD für Java Bilder erstellen. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine effiziente Bildverarbeitung.
-weight: 14
+title: Bitmap in Java mit Stream in Aspose.PSD erstellen
 url: /de/java/image-editing/create-image-using-stream/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen Sie ein Bild mit Stream in Aspose.PSD für Java
+# Bitmap in Java mit Stream in Aspose.PSD erstellen
 
-## Einführung
+## Einleitung
 
-Im Bereich der Java-Entwicklung sticht Aspose.PSD als robuste Bibliothek für die Bildverarbeitung hervor. Eine ihrer leistungsstarken Funktionen ist die Möglichkeit, Bilder mithilfe von Streams zu erstellen, was Flexibilität und Effizienz bei der Verarbeitung von Bilddaten bietet. Dieses Tutorial führt Sie durch den Prozess der Bilderstellung mithilfe von Streams in Aspose.PSD für Java und bietet praktische Erfahrung mit schrittweisen Anweisungen.
+Wenn Sie **bitmap java**‑Bilder on the fly erstellen müssen, bietet Aspose.PSD für Java einen sauberen, stream‑basierten Ansatz, der sowohl schnell als auch speichereffizient ist. In diesem Tutorial führen wir Sie durch das Erzeugen eines Bitmap‑Bildes aus einem Stream, das Konfigurieren der Bits pro Pixel und schließlich das **save image file java** auf die Festplatte. Am Ende verstehen Sie, warum diese Methode ideal für serverseitige Bildverarbeitung, Batch‑Jobs oder jedes Szenario ist, in dem Sie temporäre Dateien vermeiden möchten.
 
-## Voraussetzungen
+## Schnelle Antworten
+- **Was bedeutet “create bitmap java”?** Es bezieht sich auf das programmgesteuerte Erzeugen eines BMP‑Bildes mit Java‑Code.  
+- **Welche Bibliothek verarbeitet den Stream?** Aspose.PSD‑Klassen `StreamSource` und `FileCreateSource`.  
+- **Kann ich die Farbtiefe festlegen?** Ja – verwenden Sie `BmpOptions.setBitsPerPixel(int)` (z. B. 24 bpp).  
+- **Wie speichere ich das Ergebnis?** Rufen Sie `image.save(outputPath)` auf, um **save image file java** zu **save image file java**.  
+- **Ist für die Produktion eine Lizenz erforderlich?** Für die kommerzielle Nutzung wird eine gültige Aspose.PSD‑Lizenz benötigt.
 
-Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+## Voraussetzungen für das Erstellen von bitmap java
 
-- Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem System installiert ist.
--  Aspose.PSD-Bibliothek: Laden Sie die Aspose.PSD-Bibliothek für Java herunter und richten Sie sie ein. Die erforderlichen Ressourcen finden Sie im[Dokumentation](https://reference.aspose.com/psd/java/).
-- Integrierte Entwicklungsumgebung (IDE): Wählen Sie für ein nahtloses Entwicklungserlebnis eine Java-kompatible IDE wie Eclipse oder IntelliJ IDEA.
+Bevor Sie beginnen, stellen Sie sicher, dass Sie folgendes haben:
 
-## Pakete importieren
+- **Java Development Kit (JDK)** – jede aktuelle Version (8 oder höher).  
+- **Aspose.PSD for Java** – laden Sie das neueste JAR von der [documentation](https://reference.aspose.com/psd/java/) herunter.  
+- **IDE** – Eclipse, IntelliJ IDEA oder ein anderer Java‑kompatibler Editor Ihrer Wahl.
 
-Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt. Integrieren Sie die Aspose.PSD-Bibliothek, um deren Funktionen in Ihrem Code zu nutzen. Hier ist ein einfaches Beispiel:
+## Pakete für die bitmap-Erstellung importieren
+
+Beginnen Sie mit dem Import der erforderlichen Namespaces. Diese geben Ihnen Zugriff auf Bildgenerierung, BMP‑Optionen und Stream‑Verarbeitung.
 
 ```java
 import com.aspose.psd.Image;
@@ -47,79 +56,86 @@ import java.io.FileInputStream;
 String dataDir = "Your Document Directory";
 ```
 
- Stellen Sie sicher, dass Sie ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+Ersetzen Sie `"Your Document Directory"` durch den absoluten Pfad, in dem Sie Ihre Quell‑ und Ausgabedateien speichern.
 
-## Schritt 2: Ausgabedateinamen angeben
+## Schritt 2: Ausgabedateinamen definieren
 
 ```java
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 ```
 
-Legen Sie den gewünschten Namen für die Ausgabebilddatei fest.
+Dies ist der Pfad, an dem die **save image file java**‑Operation das Bitmap speichert.
 
-## Schritt 3: BmpOptions konfigurieren
+## Schritt 3: BmpOptions konfigurieren (Bits pro Pixel festlegen)
 
 ```java
 BmpOptions imageOptions = new BmpOptions();
 imageOptions.setBitsPerPixel(24);
 ```
 
- Erstellen Sie eine Instanz von`BmpOptions` und konfigurieren Sie seine Eigenschaften, beispielsweise die Bits pro Pixel.
+Hier legen wir **bits per pixel** auf 24 bpp fest, was ein True‑Color‑Bitmap ergibt. Passen Sie den Wert an, wenn Sie eine andere Farbtiefe benötigen.
 
-## Schritt 4: FileCreateSource erstellen
+## Schritt 4: FileCreateSource erstellen (Stream‑Quelle)
 
 ```java
 FileCreateSource stream = new FileCreateSource(dataDir + "sample_out.bmp");
 imageOptions.setSource(stream);
 ```
 
- Instanziieren Sie einen`FileCreateSource` Verwenden Sie Ihr Datenverzeichnis und legen Sie es als Quelle fest für`BmpOptions`.
+`FileCreateSource` umschließt einen Dateistream, sodass Aspose.PSD direkt ohne Zwischenspeicher in das Ziel schreiben kann.
 
-## Schritt 5: Bild generieren
+## Schritt 5: Bitmap‑Bild erzeugen
 
 ```java
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- Erstellen Sie eine Instanz von`Image` durch Aufruf der`create` -Methode, wobei die konfigurierte`BmpOptions` und geben Sie die Abmessungen des Bildes an.
+Diese Zeile **generates a bitmap java** ein Bild mit 500 × 500 Pixeln unter Verwendung der zuvor definierten Optionen.
 
-## Schritt 6: Bildverarbeitung
+## Schritt 6: Bildverarbeitung durchführen und speichern
 
 ```java
-// Durchführen der gewünschten Bildverarbeitungsvorgänge
-// ...
+// Perform desired image processing operations here
+// For example, you could draw shapes, apply filters, etc.
 
-// Speichern Sie das verarbeitete Bild
+// Save the processed bitmap to disk
 image.save(desName);
 ```
 
- Führen Sie alle erforderlichen Bildverarbeitungsvorgänge durch und speichern Sie das resultierende Bild mit dem`save` Verfahren.
+Nach optionalen Manipulationen speichert der Aufruf von `image.save` **saves the image file java** am in `desName` angegebenen Ort.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Stream in Aspose.PSD für Java Bilder erstellen. Dieses Tutorial behandelt wichtige Schritte, vom Importieren von Paketen bis zur endgültigen Bildverarbeitung und Speicherung. Experimentieren Sie mit verschiedenen Einstellungen und erkunden Sie zusätzliche Funktionen, um Ihre Möglichkeiten zur Bilderstellung zu verbessern.
+Sie haben nun gelernt, wie Sie **bitmap java**‑Bilder mit Streams in Aspose.PSD erstellen, die Farbtiefe mit **set bits per pixel** steuern und **save image file java** effizient speichern. Experimentieren Sie mit unterschiedlichen Abmessungen, Pixel‑Formaten oder zusätzlichen Verarbeitungsschritten, um die Anforderungen Ihres Projekts zu erfüllen.
 
 ## Häufig gestellte Fragen
 
-### F1: Kann ich Aspose.PSD mit anderen Java-Bibliotheken verwenden?
+### Q1: Kann ich Aspose.PSD mit anderen Java‑Bibliotheken verwenden?
 
-A1: Ja, Aspose.PSD ist für die nahtlose Integration mit anderen Java-Bibliotheken konzipiert und bietet so Vielseitigkeit für Ihre Projekte.
+A1: Ja, Aspose.PSD ist so konzipiert, dass es nahtlos mit anderen Java‑Bibliotheken integriert werden kann und somit Vielseitigkeit in Ihren Projekten bietet.
 
-### F2: Wo finde ich Unterstützung für Aspose.PSD-bezogene Fragen?
+### Q2: Wo finde ich Unterstützung für Fragen zu Aspose.PSD?
 
- A2: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für Community-Unterstützung und Diskussionen.
+A2: Besuchen Sie das [Aspose.PSD‑Forum](https://forum.aspose.com/c/psd/34) für Community‑Support und Diskussionen.
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.PSD?
+### Q3: Gibt es eine kostenlose Testversion von Aspose.PSD?
 
- A3: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
 
-### F4: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD?
+### Q4: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD?
 
- A4: Erhalten Sie eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+A4: Eine temporäre Lizenz erhalten Sie [hier](https://purchase.aspose.com/temporary-license/).
 
-### F5: Was sind die Systemanforderungen für Aspose.PSD?
+### Q5: Was sind die Systemanforderungen für Aspose.PSD?
 
- A5: Siehe[Dokumentation](https://reference.aspose.com/psd/java/) für detaillierte Systemanforderungen.
+A5: Weitere Details zu den Systemanforderungen finden Sie in der [documentation](https://reference.aspose.com/psd/java/).
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD Java latest release  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

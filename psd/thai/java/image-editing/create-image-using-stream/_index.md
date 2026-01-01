@@ -1,33 +1,42 @@
 ---
-title: สร้างภาพโดยใช้ Stream ใน Aspose.PSD สำหรับ Java
-linktitle: สร้างภาพโดยใช้สตรีม
+date: 2026-01-01
+description: เรียนรู้วิธีสร้างบิตแมพใน Java โดยใช้สตรีมใน Aspose.PSD, บันทึกไฟล์ภาพใน
+  Java, และตั้งค่าบิตต่อพิกเซลอย่างมีประสิทธิภาพ.
+linktitle: Create Image using Stream
 second_title: Aspose.PSD Java API
-description: เรียนรู้วิธีสร้างภาพโดยใช้สตรีมใน Aspose.PSD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการประมวลผลภาพที่มีประสิทธิภาพ
-weight: 14
+title: สร้างบิตแมป Java ด้วย Stream ใน Aspose.PSD
 url: /th/java/image-editing/create-image-using-stream/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างภาพโดยใช้ Stream ใน Aspose.PSD สำหรับ Java
+# สร้าง bitmap java ด้วย Stream ใน Aspose.PSD
 
-## การแนะนำ
+## Introduction
 
-ในขอบเขตของการพัฒนา Java Aspose.PSD มีความโดดเด่นในฐานะไลบรารีที่มีประสิทธิภาพสำหรับการประมวลผลภาพ หนึ่งในคุณสมบัติอันทรงพลังของมันคือความสามารถในการสร้างภาพโดยใช้สตรีม ซึ่งให้ความยืดหยุ่นและประสิทธิภาพในการจัดการข้อมูลภาพ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการสร้างรูปภาพโดยใช้สตรีมใน Aspose.PSD สำหรับ Java โดยมอบประสบการณ์จริงพร้อมคำแนะนำทีละขั้นตอน
+หากคุณต้องการ **create bitmap java** ภาพแบบเรียลไทม์ Aspose.PSD for Java จะมอบวิธีการที่สะอาดและใช้ Stream ซึ่งเร็วและประหยัดหน่วยความจำ ในบทแนะนำนี้เราจะอธิบายขั้นตอนการสร้างภาพ bitmap จาก Stream, การกำหนดบิตต่อพิกเซล, และสุดท้าย **save image file java** ไปยังดิสก์ เมื่อเสร็จคุณจะเข้าใจว่าทำไมวิธีนี้เหมาะสำหรับการประมวลผลภาพบนเซิร์ฟเวอร์, งานแบช, หรือสถานการณ์ใด ๆ ที่ต้องการหลีกเลี่ยงไฟล์ชั่วคราว
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **“create bitmap java” หมายถึงอะไร?** It refers to programmatically generating a BMP image using Java code.  
+- **ไลบรารีใดจัดการกับ stream?** Aspose.PSD’s `StreamSource` and `FileCreateSource` classes.  
+- **ฉันสามารถตั้งค่าความลึกสีได้หรือไม่?** Yes – use `BmpOptions.setBitsPerPixel(int)` (e.g., 24 bpp).  
+- **ฉันจะบันทึกผลลัพธ์อย่างไร?** Call `image.save(outputPath)` to **save image file java**.  
+- **ต้องใช้ใบอนุญาตสำหรับการผลิตหรือไม่?** A valid Aspose.PSD license is needed for commercial use.
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## ข้อกำหนดเบื้องต้นสำหรับการสร้าง bitmap java
 
-- Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณ
--  ไลบรารี Aspose.PSD: ดาวน์โหลดและตั้งค่าไลบรารี Aspose.PSD สำหรับ Java คุณสามารถค้นหาทรัพยากรที่จำเป็นได้ใน[เอกสารประกอบ](https://reference.aspose.com/psd/java/).
-- สภาพแวดล้อมการพัฒนาแบบรวม (IDE): เลือก IDE ที่เข้ากันได้กับ Java เช่น Eclipse หรือ IntelliJ IDEA เพื่อประสบการณ์การพัฒนาที่ราบรื่น
+ก่อนเริ่มต้น โปรดตรวจสอบว่าคุณมี:
 
-## แพ็คเกจนำเข้า
+- **Java Development Kit (JDK)** – เวอร์ชันล่าสุดใดก็ได้ (8 หรือสูงกว่า).  
+- **Aspose.PSD for Java** – ดาวน์โหลด JAR เวอร์ชันล่าสุดจาก [documentation](https://reference.aspose.com/psd/java/).  
+- **IDE** – Eclipse, IntelliJ IDEA หรือเครื่องมือแก้ไขที่รองรับ Java ที่คุณต้องการ.
 
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ รวมไลบรารี Aspose.PSD เพื่อใช้ประโยชน์จากฟังก์ชันการทำงานในโค้ดของคุณ นี่คือตัวอย่างพื้นฐาน:
+## นำเข้าแพ็กเกจสำหรับการสร้าง bitmap
+
+เริ่มต้นด้วยการนำเข้า namespace ที่จำเป็น ซึ่งจะให้คุณเข้าถึงการสร้างภาพ, ตัวเลือก BMP, และการจัดการ stream.
 
 ```java
 import com.aspose.psd.Image;
@@ -41,85 +50,92 @@ import com.aspose.psd.system.io.Stream;
 import java.io.FileInputStream;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสาร
+## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
+
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางเต็มที่คุณเก็บไฟล์ต้นฉบับและไฟล์ผลลัพธ์ของคุณ.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- ให้แน่ใจว่าจะเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+## ขั้นตอนที่ 2: กำหนดชื่อไฟล์ผลลัพธ์
 
-## ขั้นตอนที่ 2: ระบุชื่อไฟล์เอาท์พุต
+นี่คือเส้นทางที่การดำเนินการ **save image file java** จะเขียน bitmap ไปยัง.
 
 ```java
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 ```
 
-กำหนดชื่อที่ต้องการสำหรับไฟล์ภาพที่ส่งออก
+## ขั้นตอนที่ 3: กำหนดค่า BmpOptions (ตั้งค่าบิตต่อพิกเซล)
 
-## ขั้นตอนที่ 3: กำหนดค่า BmpOptions
+ที่นี่เราจะ **set bits per pixel** เป็น 24 bpp ซึ่งจะได้ bitmap แบบสีจริง ปรับค่าตามที่คุณต้องการความลึกสีที่แตกต่าง.
 
 ```java
 BmpOptions imageOptions = new BmpOptions();
 imageOptions.setBitsPerPixel(24);
 ```
 
- สร้างอินสแตนซ์ของ`BmpOptions` และกำหนดค่าคุณสมบัติ เช่น บิตต่อพิกเซล
+## ขั้นตอนที่ 4: สร้าง FileCreateSource (แหล่ง stream)
 
-## ขั้นตอนที่ 4: สร้าง FileCreateSource
+`FileCreateSource` ห่อหุ้มไฟล์ stream เพื่อให้ Aspose.PSD สามารถเขียนโดยตรงไปยังปลายทางโดยไม่ต้องใช้บัฟเฟอร์กลาง.
 
 ```java
 FileCreateSource stream = new FileCreateSource(dataDir + "sample_out.bmp");
 imageOptions.setSource(stream);
 ```
 
- ยกตัวอย่าง`FileCreateSource` โดยใช้ไดเร็กทอรีข้อมูลของคุณและตั้งค่าเป็นแหล่งข้อมูล`BmpOptions`.
+## ขั้นตอนที่ 5: สร้างภาพ Bitmap
 
-## ขั้นตอนที่ 5: สร้างภาพ
+บรรทัดนี้ **generates a bitmap java** ภาพขนาด 500 × 500 พิกเซลโดยใช้ตัวเลือกที่เรากำหนดไว้ก่อนหน้า.
 
 ```java
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- สร้างอินสแตนซ์ของ`Image` โดยการเรียกใช้`create` วิธีการผ่านการกำหนดค่า`BmpOptions` และระบุขนาดของภาพ
+## ขั้นตอนที่ 6: ดำเนินการประมวลผลภาพและบันทึก
 
-## ขั้นตอนที่ 6: การประมวลผลภาพ
+หลังจากการปรับแต่งเพิ่มเติมใด ๆ การเรียก `image.save` จะ **saves the image file java** ไปยังตำแหน่งที่ระบุใน `desName`.
 
 ```java
-// ดำเนินการประมวลผลภาพที่ต้องการ
-// -
+// Perform desired image processing operations here
+// For example, you could draw shapes, apply filters, etc.
 
-// บันทึกภาพที่ประมวลผลแล้ว
+// Save the processed bitmap to disk
 image.save(desName);
 ```
 
- ดำเนินการประมวลผลภาพที่จำเป็นและบันทึกภาพที่ได้โดยใช้`save` วิธี.
+## สรุป
 
-## บทสรุป
-
-ยินดีด้วย! คุณได้เรียนรู้วิธีสร้างภาพโดยใช้สตรีมใน Aspose.PSD สำหรับ Java เรียบร้อยแล้ว บทช่วยสอนนี้ครอบคลุมขั้นตอนสำคัญต่างๆ ตั้งแต่การนำเข้าแพ็คเกจไปจนถึงการประมวลผลและบันทึกภาพขั้นสุดท้าย ทดลองใช้การตั้งค่าต่างๆ และสำรวจคุณสมบัติเพิ่มเติมเพื่อปรับปรุงความสามารถในการสร้างภาพของคุณ
+คุณได้เรียนรู้วิธี **create bitmap java** ภาพโดยใช้ stream ใน Aspose.PSD, ควบคุมความลึกสีด้วย **set bits per pixel**, และ **save image file java** อย่างมีประสิทธิภาพแล้ว ลองทดลองกับขนาดต่าง ๆ, รูปแบบพิกเซล, หรือขั้นตอนการประมวลผลเพิ่มเติมเพื่อให้ตรงกับความต้องการของโครงการของคุณ.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.PSD กับไลบรารี Java อื่นได้หรือไม่
+### Q1: ฉันสามารถใช้ Aspose.PSD กับไลบรารี Java อื่น ๆ ได้หรือไม่?
 
-ตอบ 1: ใช่ Aspose.PSD ได้รับการออกแบบมาเพื่อผสานรวมกับไลบรารี Java อื่นๆ ได้อย่างราบรื่น ทำให้โปรเจ็กต์ของคุณมีความหลากหลาย
+A1: ใช่, Aspose.PSD ถูกออกแบบให้ผสานรวมกับไลบรารี Java อื่น ๆ อย่างราบรื่น ทำให้คุณมีความยืดหยุ่นในโครงการของคุณ.
 
-### คำถามที่ 2: ฉันจะรับการสนับสนุนสำหรับการสืบค้นที่เกี่ยวข้องกับ Aspose.PSD ได้ที่ไหน
+### Q2: ฉันจะหาแหล่งสนับสนุนสำหรับคำถามที่เกี่ยวกับ Aspose.PSD ได้จากที่ไหน?
 
- A2: เยี่ยมชม[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+A2: เยี่ยมชม [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
 
-### คำถามที่ 3: Aspose.PSD มีรุ่นทดลองใช้ฟรีหรือไม่
+### Q3: มีการทดลองใช้ฟรีสำหรับ Aspose.PSD หรือไม่?
 
- A3: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+A3: มี, คุณสามารถเข้าถึงการทดลองใช้ฟรีได้ [ที่นี่](https://releases.aspose.com/).
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร
+### Q4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD อย่างไร?
 
- A4: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+A4: รับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/).
 
-### คำถามที่ 5: ความต้องการของระบบสำหรับ Aspose.PSD คืออะไร
+### Q5: ความต้องการระบบสำหรับ Aspose.PSD มีอะไรบ้าง?
 
- A5: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/psd/java/) สำหรับความต้องการของระบบโดยละเอียด
+A5: ดูที่ [documentation](https://reference.aspose.com/psd/java/) เพื่อดูความต้องการระบบโดยละเอียด.
+
+---
+
+**อัปเดตล่าสุด:** 2026-01-01  
+**ทดสอบด้วย:** Aspose.PSD Java latest release  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,42 @@
 ---
-title: Java용 Aspose.PSD에서 Stream을 사용하여 이미지 생성
-linktitle: 스트림을 사용하여 이미지 생성
-second_title: Aspose.PSD 자바 API
-description: Java용 Aspose.PSD에서 스트림을 사용하여 이미지를 생성하는 방법을 알아보세요. 효율적인 이미지 처리를 위해 이 단계별 가이드를 따르세요.
-weight: 14
+date: 2026-01-01
+description: Aspose.PSD에서 스트림을 사용하여 Java 비트맵을 생성하고, Java 이미지 파일을 저장하며, 비트당 픽셀 수를 효율적으로
+  설정하는 방법을 배웁니다.
+linktitle: Create Image using Stream
+second_title: Aspose.PSD Java API
+title: Aspose.PSD에서 스트림을 사용하여 자바 비트맵 만들기
 url: /ko/java/image-editing/create-image-using-stream/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.PSD에서 Stream을 사용하여 이미지 생성
+# Create bitmap java using Stream in Aspose.PSD
 
-## 소개
+## Introduction
 
-Java 개발 영역에서 Aspose.PSD는 이미지 처리를 위한 강력한 라이브러리로 돋보입니다. 강력한 기능 중 하나는 스트림을 사용하여 이미지를 생성하여 이미지 데이터 처리에 유연성과 효율성을 제공하는 기능입니다. 이 튜토리얼에서는 Java용 Aspose.PSD의 스트림을 사용하여 이미지를 생성하는 과정을 안내하고 단계별 지침을 통해 실습 경험을 제공합니다.
+이미지를 실시간으로 **create bitmap java** 해야 할 경우, Aspose.PSD for Java는 빠르고 메모리 효율적인 스트림 기반 접근 방식을 제공합니다. 이 튜토리얼에서는 스트림으로부터 비트맵 이미지를 생성하고, 픽셀당 비트 수를 설정한 뒤, 최종적으로 **save image file java** 를 디스크에 저장하는 과정을 단계별로 안내합니다. 이 방법이 서버‑사이드 이미지 처리, 배치 작업, 혹은 임시 파일을 피하고자 하는 모든 시나리오에 왜 이상적인지 이해하게 될 것입니다.
 
-## 전제조건
+## Quick Answers
+- **What does “create bitmap java” mean?** It refers to programmatically generating a BMP image using Java code.  
+- **Which library handles the stream?** Aspose.PSD’s `StreamSource` and `FileCreateSource` classes.  
+- **Can I set the color depth?** Yes – use `BmpOptions.setBitsPerPixel(int)` (e.g., 24 bpp).  
+- **How do I save the result?** Call `image.save(outputPath)` to **save image file java**.  
+- **Is a license required for production?** A valid Aspose.PSD license is needed for commercial use.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Prerequisites for creating bitmap java
 
-- JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하십시오.
--  Aspose.PSD 라이브러리: Java용 Aspose.PSD 라이브러리를 다운로드하고 설정합니다. 다음에서 필요한 리소스를 찾을 수 있습니다.[선적 서류 비치](https://reference.aspose.com/psd/java/).
-- 통합 개발 환경(IDE): 원활한 개발 환경을 위해 Eclipse 또는 IntelliJ IDEA와 같은 Java 호환 IDE를 선택하세요.
+시작하기 전에 다음 항목을 준비하세요:
 
-## 패키지 가져오기
+- **Java Development Kit (JDK)** – 최신 버전(8 이상)  
+- **Aspose.PSD for Java** – 최신 JAR 파일을 [documentation](https://reference.aspose.com/psd/java/)에서 다운로드  
+- **IDE** – Eclipse, IntelliJ IDEA 또는 선호하는 Java 호환 편집기
 
-필요한 패키지를 Java 프로젝트로 가져오는 것부터 시작하세요. Aspose.PSD 라이브러리를 포함하여 코드에서 해당 기능을 활용하세요. 기본적인 예는 다음과 같습니다.
+## Import Packages for bitmap generation
+
+필요한 네임스페이스를 가져옵니다. 이를 통해 이미지 생성, BMP 옵션 및 스트림 처리를 사용할 수 있습니다.
 
 ```java
 import com.aspose.psd.Image;
@@ -41,85 +50,92 @@ import com.aspose.psd.system.io.Stream;
 import java.io.FileInputStream;
 ```
 
-## 1단계: 문서 디렉토리 설정
+## Step 1: Set Up Document Directory
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- 반드시 교체하세요`"Your Document Directory"` 문서 디렉토리의 실제 경로를 사용하십시오.
+`"Your Document Directory"` 를 소스 및 출력 파일을 보관하는 절대 경로로 교체합니다.
 
-## 2단계: 출력 파일 이름 지정
+## Step 2: Define the Output File Name
 
 ```java
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 ```
 
-출력 이미지 파일에 대해 원하는 이름을 정의합니다.
+여기에 **save image file java** 작업이 비트맵을 기록할 경로를 지정합니다.
 
-## 3단계: BmpOptions 구성
+## Step 3: Configure BmpOptions (set bits per pixel)
 
 ```java
 BmpOptions imageOptions = new BmpOptions();
 imageOptions.setBitsPerPixel(24);
 ```
 
- 인스턴스 만들기`BmpOptions` 픽셀당 비트 수와 같은 속성을 구성합니다.
+여기서는 **set bits per pixel** 를 24 bpp 로 설정하여 진정한 컬러 비트맵을 생성합니다. 다른 색 깊이가 필요하면 값을 조정하세요.
 
-## 4단계: FileCreateSource 생성
+## Step 4: Create a FileCreateSource (stream source)
 
 ```java
 FileCreateSource stream = new FileCreateSource(dataDir + "sample_out.bmp");
 imageOptions.setSource(stream);
 ```
 
- 인스턴스화`FileCreateSource` 데이터 디렉토리를 사용하여 이를 소스로 설정합니다.`BmpOptions`.
+`FileCreateSource` 는 파일 스트림을 래핑하여 Aspose.PSD가 중간 버퍼 없이 직접 목적지에 기록할 수 있게 합니다.
 
-## 5단계: 이미지 생성
+## Step 5: Generate the Bitmap Image
 
 ```java
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- 인스턴스 만들기`Image` 호출하여`create` 메서드, 구성된 전달`BmpOptions` 그리고 이미지의 크기를 지정합니다.
+이 코드는 앞서 정의한 옵션을 사용해 500 × 500 픽셀 크기의 **generate a bitmap java** 이미지를 생성합니다.
 
-## 6단계: 이미지 처리
+## Step 6: Perform Image Processing and Save
 
 ```java
-// 원하는 이미지 처리 작업 수행
-// ...
+// Perform desired image processing operations here
+// For example, you could draw shapes, apply filters, etc.
 
-// 처리된 이미지 저장
+// Save the processed bitmap to disk
 image.save(desName);
 ```
 
- 필요한 이미지 처리 작업을 수행하고 결과 이미지를 저장합니다.`save` 방법.
+선택적인 조작을 수행한 뒤, `image.save` 호출을 통해 **save image file java** 가 `desName` 에 지정된 위치에 저장됩니다.
 
-## 결론
+## Conclusion
 
-축하해요! Java용 Aspose.PSD에서 스트림을 사용하여 이미지를 생성하는 방법을 성공적으로 배웠습니다. 이 튜토리얼에서는 패키지 가져오기부터 최종 이미지 처리 및 저장까지 필수 단계를 다루었습니다. 다양한 설정을 실험하고 추가 기능을 탐색하여 이미지 생성 기능을 향상하십시오.
+이제 Aspose.PSD에서 스트림을 이용해 **create bitmap java** 이미지를 생성하고, **set bits per pixel** 로 색 깊이를 제어하며, **save image file java** 를 효율적으로 저장하는 방법을 배웠습니다. 프로젝트 요구에 맞게 다양한 크기, 픽셀 포맷 또는 추가 처리 단계를 실험해 보세요.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Aspose.PSD를 다른 Java 라이브러리와 함께 사용할 수 있습니까?
+### Q1: Can I use Aspose.PSD with other Java libraries?
 
-A1: 예, Aspose.PSD는 다른 Java 라이브러리와 원활하게 통합되어 프로젝트에 다양성을 제공하도록 설계되었습니다.
+A1: Yes, Aspose.PSD is designed to seamlessly integrate with other Java libraries, providing versatility in your projects.
 
-### Q2: Aspose.PSD 관련 쿼리에 대한 지원은 어디서 찾을 수 있나요?
+### Q2: Where can I find support for Aspose.PSD-related queries?
 
- A2: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 커뮤니티 지원 및 토론을 위해.
+A2: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
 
-### Q3: Aspose.PSD에 대한 무료 평가판이 있습니까?
+### Q3: Is there a free trial available for Aspose.PSD?
 
- A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: Yes, you can access a free trial [here](https://releases.aspose.com/).
 
-### Q4: Aspose.PSD에 대한 임시 라이선스를 어떻게 얻나요?
+### Q4: How do I obtain a temporary license for Aspose.PSD?
 
- A4: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Aspose.PSD의 시스템 요구 사항은 무엇입니까?
+### Q5: What are the system requirements for Aspose.PSD?
 
- A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/psd/java/) 자세한 시스템 요구사항을 확인하세요.
+A5: Refer to the [documentation](https://reference.aspose.com/psd/java/) for detailed system requirements.
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD Java latest release  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
