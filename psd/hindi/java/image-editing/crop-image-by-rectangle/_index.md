@@ -1,32 +1,50 @@
 ---
-title: Java के लिए Aspose.PSD में Rectangle द्वारा छवि क्रॉप करें
-linktitle: आयत द्वारा छवि क्रॉप करें
-second_title: Aspose.PSD जावा एपीआई
-description: Aspose.PSD के साथ Java में सहज छवि क्रॉपिंग क्षमताओं का अन्वेषण करें। Java के लिए Aspose.PSD का उपयोग करके छवियों को आसानी से क्रॉप करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 15
+date: 2026-01-01
+description: Aspose.PSD for Java का उपयोग करके जावा में इमेज को कैसे क्रॉप करें, जानें।
+  हमारे चरण‑दर‑चरण गाइड का पालन करके PSD फ़ाइल लोड करें, इमेज रेक्टेंगल को क्रॉप करें,
+  और PSD को JPEG में बदलें।
+linktitle: Crop Image by Rectangle
+second_title: Aspose.PSD Java API
+title: 'क्रॉप इमेज जावा: Aspose.PSD के साथ आयत द्वारा इमेज क्रॉप करें'
 url: /hi/java/image-editing/crop-image-by-rectangle/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.PSD में Rectangle द्वारा छवि क्रॉप करें
+# Crop Image Java: Crop Image by Rectangle with Aspose.PSD
 
-## परिचय
+## Introduction
 
-जावा डेवलपमेंट की दुनिया में, इमेज में हेरफेर करना एक आम काम है, और Aspose.PSD for Java इमेज प्रोसेसिंग के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम आपको Aspose.PSD for Java का उपयोग करके आयत द्वारा इमेज को क्रॉप करने की प्रक्रिया के बारे में बताएंगे। इसे आसानी से प्राप्त करने के लिए नीचे दिए गए चरणों का पालन करें।
+ग्राफ़िक्स को मैनीपुलेट करना **java image processing** का एक नियमित हिस्सा है, और Aspose.PSD for Java आपको PSD फ़ाइलों के साथ काम करने के लिए एक साफ़, हाई‑परफ़ॉर्मेंस API प्रदान करता है। इस ट्यूटोरियल में आप सीखेंगे **कैसे इमेज को एक रेक्टैंगल से क्रॉप करें**, एक PSD फ़ाइल लोड करें, और अंत में परिणाम को JPEG में कनवर्ट करें—सिर्फ कुछ ही लाइनों के Java कोड के साथ।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **“crop image java” का क्या मतलब है?** यह Java कोड का उपयोग करके एक परिभाषित रेक्टैंगल में इमेज को ट्रिम करने को दर्शाता है।  
+- **कौन सी लाइब्रेरी यह ऑपरेशन संभालती है?** Aspose.PSD for Java आवश्यक क्लासेज़ प्रदान करती है।  
+- **क्या परीक्षण के लिए लाइसेंस चाहिए?** एक फ्री ट्रायल उपलब्ध है; प्रोडक्शन के लिए लाइसेंस आवश्यक है।  
+- **क्या मैं क्रॉप किए गए PSD को JPEG में कनवर्ट कर सकता हूँ?** हाँ—सेव करते समय `JpegOptions` का उपयोग करें।  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** आमतौर पर बेसिक सीनारियो के लिए 10 मिनट से कम।
 
-ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+## What is cropping an image rectangle in Java?
 
-- आपकी मशीन पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-- Aspose.PSD for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/psd/java/).
+इमेज रेक्टैंगल को क्रॉप करना मतलब है एक विशिष्ट एरिया (X, Y, width, और height द्वारा परिभाषित) को चुनना और उस एरिया के बाहर की सभी सामग्री को हटा देना। यह ऑपरेशन तब सामान्य होता है जब आपको बड़े PSD डॉक्यूमेंट के किसी विशेष हिस्से पर फोकस करना हो।
 
-## पैकेज आयात करें
+## Why use Aspose.PSD for this task?
 
-Aspose.PSD for Java की क्षमताओं का लाभ उठाने के लिए अपने Java प्रोजेक्ट में आवश्यक पैकेज शामिल करना सुनिश्चित करें। अपनी Java फ़ाइल की शुरुआत में निम्नलिखित आयात कथन जोड़ें:
+- **कोई बाहरी डिपेंडेंसी नहीं** – शुद्ध Java के साथ काम करता है।  
+- **PSD, PNG, JPEG, और कई अन्य फॉर्मैट्स को सपोर्ट करता है** – आप **PSD को तुरंत JPEG में कनवर्ट** कर सकते हैं।  
+- **हाई‑फिडेलिटी रेंडरिंग** – क्रॉप के दौरान लेयर जानकारी और कलर प्रोफ़ाइल को बरकरार रखता है।  
+
+## Prerequisites
+
+- Java Development Kit (JDK) इंस्टॉल हो।  
+- Aspose.PSD for Java लाइब्रेरी – इसे [website](https://releases.aspose.com/psd/java/) से डाउनलोड करें।  
+
+## Import Packages
+
+अपने Java प्रोजेक्ट में Aspose.PSD for Java की क्षमताओं को उपयोग करने के लिए आवश्यक पैकेजेज़ को शामिल करना सुनिश्चित करें। अपने Java फ़ाइल की शुरुआत में नीचे दिए गए इम्पोर्ट स्टेटमेंट्स जोड़ें:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,26 +54,26 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-अब, आइए इस प्रक्रिया को कई चरणों में विभाजित करें ताकि आपको Java के लिए Aspose.PSD का उपयोग करके एक आयत द्वारा एक छवि को क्रॉप करने में मार्गदर्शन मिल सके।
+अब, हम प्रक्रिया को कई चरणों में विभाजित करेंगे ताकि आप Aspose.PSD for Java का उपयोग करके रेक्टैंगल द्वारा इमेज को क्रॉप करने के बारे में मार्गदर्शन पा सकें।
 
-## चरण 1: अपनी दस्तावेज़ निर्देशिका सेट करें
+## Step 1: Set up Your Document Directory
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ जहां आपकी PSD फ़ाइल स्थित है।
+`"Your Document Directory"` को उस वास्तविक पाथ से बदलें जहाँ आपकी PSD फ़ाइल स्थित है।
 
-## चरण 2: स्रोत और गंतव्य फ़ाइलें निर्दिष्ट करें
+## Step 2: Specify Source and Destination Files
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "CroppingByRectangle_out.jpg";
 ```
 
-अपनी स्रोत PSD फ़ाइल और गंतव्य JPEG फ़ाइल के लिए पथ परिभाषित करें।
+अपने स्रोत PSD फ़ाइल और गंतव्य JPEG फ़ाइल के पाथ को परिभाषित करें।
 
-## चरण 3: छवि लोड करें और कैश करें
+## Step 3: Load and Cache the Image
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
@@ -65,52 +83,65 @@ if (!rasterImage.isCached()) {
 }
 ```
 
- PSD छवि को एक में लोड करें`RasterImage` इंस्टेंस और उसके डेटा कैश करें.
+यहाँ हम **PSD फ़ाइल को** `RasterImage` इंस्टेंस में लोड करते हैं और प्रदर्शन सुधारने के लिए उसकी डेटा को कैश करते हैं।
 
-## चरण 4: फसल आयत बनाएं और परिभाषित करें
+## Step 4: Create and Define the Crop Rectangle
 
 ```java
 Rectangle rectangle = new Rectangle(20, 20, 20, 20);
 ```
 
- इसका एक उदाहरण बनाएं`Rectangle` फसल के लिए वांछित आकार के साथ वर्ग।
+`Rectangle` क्लास का एक इंस्टेंस बनाएँ जिसमें आप क्रॉप के लिए इच्छित आकार दें। पैरामीटर्स क्रमशः **X**, **Y**, **width**, और **height** दर्शाते हैं।
 
-## चरण 5: छवि को क्रॉप करें और सेव करें
+## Step 5: Crop and Save the Image
 
 ```java
 rasterImage.crop(rectangle);
 rasterImage.save(destName, new JpegOptions());
 ```
 
-निर्दिष्ट आयत का उपयोग करके क्रॉप ऑपरेशन करें और परिणामों को JPEG फ़ाइल के रूप में सहेजें।
+निर्दिष्ट रेक्टैंगल का उपयोग करके क्रॉप ऑपरेशन करें और `JpegOptions` के साथ परिणाम को सेव करके **PSD को JPEG में कनवर्ट** करें।
 
-आवश्यकतानुसार इन चरणों को दोहराएं तथा अपनी विशिष्ट आवश्यकताओं के अनुसार मापदंडों को समायोजित करें।
+इन चरणों को आवश्यकता अनुसार दोहराएँ, अपने विशिष्ट आवश्यकताओं के अनुसार पैरामीटर्स को समायोजित करें।
 
-## निष्कर्ष
+## Common Issues & Tips
 
-इस ट्यूटोरियल में, हमने जावा के लिए Aspose.PSD का उपयोग करके एक आयत द्वारा एक छवि को क्रॉप करने की प्रक्रिया को देखा। इन चरणों का पालन करके, आप आसानी से अपने जावा अनुप्रयोगों में शक्तिशाली छवि हेरफेर क्षमताओं को एकीकृत कर सकते हैं।
+- **Rectangle outside image bounds** – रेक्टैंगल के कोऑर्डिनेट्स को स्रोत इमेज के डायमेंशन के भीतर रखें।  
+- **Memory consumption** – काम समाप्त होने पर `rasterImage.dispose()` कॉल करके नेटिव रिसोर्सेज़ को फ्री करें।  
+- **Quality control** – आउटपुट JPEG की कम्प्रेशन लेवल को नियंत्रित करने के लिए `JpegOptions.setQuality(int)` सेट कर सकते हैं।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Conclusion
 
-### प्रश्न 1: क्या मैं अन्य Java फ्रेमवर्क के साथ Java के लिए Aspose.PSD का उपयोग कर सकता हूं?
+इस ट्यूटोरियल में हमने **crop image java** को रेक्टैंगल द्वारा Aspose.PSD for Java का उपयोग करके कैसे किया, यह दिखाया। इन चरणों का पालन करके आप किसी भी Java एप्लिकेशन में शक्तिशाली इमेज मैनीपुलेशन क्षमताएँ—PSD फ़ाइल लोड करना, एक विशिष्ट क्षेत्र को क्रॉप करना, और परिणाम को JPEG में कनवर्ट करना—आसानी से इंटीग्रेट कर सकते हैं।
 
-A1: हां, Aspose.PSD for Java को विभिन्न Java फ्रेमवर्क के साथ एकीकृत किया जा सकता है, जो आपकी विकास परियोजनाओं में लचीलापन प्रदान करता है।
+## FAQ's
 
-### प्रश्न 2: क्या Java के लिए Aspose.PSD का निःशुल्क परीक्षण उपलब्ध है?
+### Q1: Can I use Aspose.PSD for Java with other Java frameworks?
 
- A2: हां, आप निःशुल्क परीक्षण संस्करण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+A1: Yes, Aspose.PSD for Java can be integrated with various Java frameworks, providing flexibility in your development projects.
 
-### प्रश्न 3: मुझे अतिरिक्त समर्थन या सहायता कहां मिल सकती है?
+### Q2: Is there a free trial available for Aspose.PSD for Java?
 
- A3: पर जाएँ[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34) सामुदायिक समर्थन और चर्चा के लिए।
+A2: Yes, you can access the free trial version [here](https://releases.aspose.com/).
 
-### प्रश्न 4: मैं Java के लिए Aspose.PSD हेतु अस्थायी लाइसेंस कैसे प्राप्त करूं?
+### Q3: Where can I find additional support or assistance?
 
- A4: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
 
-### प्रश्न 5: Aspose.PSD for Java में क्रॉपिंग के लिए समर्थित छवि प्रारूप क्या हैं?
+### Q4: How do I obtain a temporary license for Aspose.PSD for Java?
 
-A5: Java के लिए Aspose.PSD विभिन्न छवि प्रारूपों का समर्थन करता है, जिसमें PSD, PNG, JPEG, और अधिक शामिल हैं।
+A4: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: What are the supported image formats for cropping in Aspose.PSD for Java?
+
+A5: Aspose.PSD for Java supports various image formats, including PSD, PNG, JPEG, and more.
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

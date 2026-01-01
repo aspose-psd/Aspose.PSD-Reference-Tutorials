@@ -1,32 +1,49 @@
 ---
-title: Aspose.PSD for Java で画像を四角形に切り取る
-linktitle: 画像を長方形で切り取る
+date: 2026-01-01
+description: Aspose.PSD for Java を使用した Java での画像トリミング方法を探求しましょう。ステップバイステップのガイドに従って、PSD
+  ファイルを読み込み、画像の矩形をトリミングし、PSD を JPEG に変換します。
+linktitle: Crop Image by Rectangle
 second_title: Aspose.PSD Java API
-description: Aspose.PSD を使用して、Java でのシームレスな画像切り抜き機能を試してみましょう。Aspose.PSD for Java を使用して画像を簡単に切り抜くには、ステップ バイ ステップ ガイドに従ってください。
-weight: 15
+title: 'Javaで画像をトリミング: Aspose.PSDで矩形による画像の切り抜き'
 url: /ja/java/image-editing/crop-image-by-rectangle/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java で画像を四角形に切り取る
+# Crop Image Java: Aspose.PSD を使用した矩形での画像トリミング
 
-## 導入
+## Introduction
 
-Java 開発の世界では、画像の操作は一般的なタスクであり、Aspose.PSD for Java は画像処理のための強力なソリューションを提供します。このチュートリアルでは、Aspose.PSD for Java を使用して画像を四角形で切り取るプロセスについて説明します。これを簡単に実現するには、以下の手順に従ってください。
+グラフィックの操作は **java image processing** の日常的な作業であり、Aspose.PSD for Java は PSD ファイルを扱うためのクリーンで高性能な API を提供します。このチュートリアルでは、矩形を使用して **画像をトリミング** する方法、PSD ファイルの読み込み、そして最終的に結果を JPEG に変換する方法を、数行の Java コードだけで学びます。
 
-## 前提条件
+## Quick Answers
+- **“crop image java” とは何ですか？** Java コードで定義された矩形に画像をトリミングすることを指します。  
+- **どのライブラリがこの操作を処理しますか？** Aspose.PSD for Java が必要なクラスを提供します。  
+- **テストにライセンスは必要ですか？** 無料トライアルが利用可能です。製品版ではライセンスが必要です。  
+- **トリミングした PSD を JPEG に変換できますか？** はい、保存時に `JpegOptions` を使用します。  
+- **実装にどれくらい時間がかかりますか？** 基本的なシナリオでは通常 10 分未満です。
 
-チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
+## What is cropping an image rectangle in Java?
 
-- マシンに Java 開発キット (JDK) がインストールされています。
-- Aspose.PSD for Javaライブラリ。ダウンロードは以下から行えます。[Webサイト](https://releases.aspose.com/psd/java/).
+画像の矩形トリミングとは、X、Y、幅、高さで定義された特定領域を選択し、その領域外のすべてを破棄することです。この操作は、より大きな PSD ドキュメントの中から特定の領域にフォーカスしたい場合に一般的に使用されます。
 
-## パッケージのインポート
+## Why use Aspose.PSD for this task?
 
-Aspose.PSD for Java の機能を活用するには、Java プロジェクトに必要なパッケージが含まれていることを確認してください。Java ファイルの先頭に次のインポート ステートメントを追加します。
+- **外部依存関係が不要** – 純粋な Java だけで動作します。  
+- **PSD、PNG、JPEG など多数のフォーマットに対応** – **PSD を JPEG に変換** も即座に行えます。  
+- **高忠実度レンダリング** – トリミング中もレイヤー情報やカラープロファイルを保持します。  
+
+## Prerequisites
+
+- Java Development Kit (JDK) がインストールされていること。  
+- Aspose.PSD for Java ライブラリ – [website](https://releases.aspose.com/psd/java/) からダウンロードしてください。  
+
+## Import Packages
+
+Aspose.PSD for Java の機能を活用できるよう、Java プロジェクトに必要なパッケージを必ずインポートしてください。Java ファイルの先頭に以下のインポート文を追加します。
 
 ```java
 import com.aspose.psd.Image;
@@ -36,26 +53,26 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-ここで、Aspose.PSD for Java を使用して画像を四角形で切り抜く手順を複数のステップに分解して説明します。
+Now, let's break down the process into multiple steps to guide you through cropping an image by a rectangle using Aspose.PSD for Java.
 
-## ステップ1: ドキュメントディレクトリを設定する
+## Step 1: Set up Your Document Directory
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-交換する`"Your Document Directory"`PSD ファイルが配置されている実際のパスを入力します。
+`"Your Document Directory"` を PSD ファイルが実際に保存されているパスに置き換えてください。
 
-## ステップ2: ソースファイルと宛先ファイルを指定する
+## Step 2: Specify Source and Destination Files
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "CroppingByRectangle_out.jpg";
 ```
 
-ソース PSD ファイルと宛先 JPEG ファイルのパスを定義します。
+ソース PSD ファイルと出力先 JPEG ファイルのパスを定義します。
 
-## ステップ3: イメージをロードしてキャッシュする
+## Step 3: Load and Cache the Image
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
@@ -65,52 +82,65 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-PSD画像を`RasterImage`インスタンスを作成し、そのデータをキャッシュします。
+ここでは **PSD ファイルを** `RasterImage` インスタンスに **ロード** し、パフォーマンス向上のためにデータをキャッシュします。
 
-## ステップ4: 切り抜き長方形を作成して定義する
+## Step 4: Create and Define the Crop Rectangle
 
 ```java
 Rectangle rectangle = new Rectangle(20, 20, 20, 20);
 ```
 
-インスタンスを作成する`Rectangle`切り抜きたいサイズのクラス。
+`Rectangle` クラスのインスタンスを作成し、トリミングしたいサイズを指定します。パラメータはそれぞれ **X**、**Y**、幅、高さ を表します。
 
-## ステップ5: 画像を切り抜いて保存する
+## Step 5: Crop and Save the Image
 
 ```java
 rasterImage.crop(rectangle);
 rasterImage.save(destName, new JpegOptions());
 ```
 
-指定された四角形を使用して切り抜き操作を実行し、結果を JPEG ファイルとして保存します。
+指定した矩形でトリミングを実行し、`JpegOptions` を使用して **PSD を JPEG に変換** して結果を保存します。
 
-必要に応じてこれらの手順を繰り返し、特定の要件に応じてパラメータを調整します。
+必要に応じてこれらの手順を繰り返し、パラメータを目的に合わせて調整してください。
 
-## 結論
+## Common Issues & Tips
 
-このチュートリアルでは、Aspose.PSD for Java を使用して画像を四角形で切り取るプロセスを説明しました。これらの手順に従うことで、強力な画像操作機能を Java アプリケーションに簡単に統合できます。
+- **矩形が画像範囲外** – 矩形の座標がソース画像のサイズ内に収まっていることを確認してください。  
+- **メモリ消費** – 終了時に `rasterImage.dispose()` を呼び出してネイティブリソースを解放します。  
+- **品質管理** – `JpegOptions.setQuality(int)` で出力 JPEG の圧縮レベルを調整できます。
 
-## よくある質問
+## Conclusion
 
-### Q1: Aspose.PSD for Java を他の Java フレームワークと一緒に使用できますか?
+このチュートリアルでは、Aspose.PSD for Java を使用して **crop image java** を矩形で実行する手順を解説しました。これらの手順に従うことで、PSD ファイルの読み込み、特定領域のトリミング、JPEG への変換という強力な画像操作機能を任意の Java アプリケーションに簡単に組み込むことができます。
 
-A1: はい、Aspose.PSD for Java はさまざまな Java フレームワークと統合できるため、開発プロジェクトに柔軟性がもたらされます。
+## FAQ's
 
-### Q2: Aspose.PSD for Java の無料試用版はありますか?
+### Q1: Can I use Aspose.PSD for Java with other Java frameworks?
 
- A2: はい、無料試用版をご利用いただけます[ここ](https://releases.aspose.com/).
+A1: Yes, Aspose.PSD for Java can be integrated with various Java frameworks, providing flexibility in your development projects.
 
-### Q3: 追加のサポートや支援はどこで受けられますか?
+### Q2: Is there a free trial available for Aspose.PSD for Java?
 
- A3: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティのサポートとディスカッションのため。
+A2: Yes, you can access the free trial version [here](https://releases.aspose.com/).
 
-### Q4: Aspose.PSD for Java の一時ライセンスを取得するにはどうすればよいですか?
+### Q3: Where can I find additional support or assistance?
 
- A4: 臨時免許証を取得することができます[ここ](https://purchase.aspose.com/temporary-license/).
+A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
 
-### Q5: Aspose.PSD for Java でトリミングできる画像形式は何ですか?
+### Q4: How do I obtain a temporary license for Aspose.PSD for Java?
 
-A5: Aspose.PSD for Java は、PSD、PNG、JPEG など、さまざまな画像形式をサポートしています。
+A4: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: What are the supported image formats for cropping in Aspose.PSD for Java?
+
+A5: Aspose.PSD for Java supports various image formats, including PSD, PNG, JPEG, and more.
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

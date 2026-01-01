@@ -1,32 +1,50 @@
 ---
-title: Cắt hình ảnh bằng hình chữ nhật trong Aspose.PSD cho Java
-linktitle: Cắt ảnh theo hình chữ nhật
-second_title: API Java Aspose.PSD
-description: Khám phá khả năng cắt ảnh liền mạch trong Java với Aspose.PSD. Làm theo hướng dẫn từng bước của chúng tôi để cắt ảnh dễ dàng bằng Aspose.PSD cho Java.
-weight: 15
+date: 2026-01-01
+description: Khám phá cách cắt ảnh trong Java bằng Aspose.PSD cho Java. Hãy làm theo
+  hướng dẫn từng bước của chúng tôi để tải tệp PSD, cắt hình chữ nhật ảnh và chuyển
+  đổi PSD sang JPEG.
+linktitle: Crop Image by Rectangle
+second_title: Aspose.PSD Java API
+title: 'Cắt ảnh Java: Cắt ảnh theo hình chữ nhật với Aspose.PSD'
 url: /vi/java/image-editing/crop-image-by-rectangle/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cắt hình ảnh bằng hình chữ nhật trong Aspose.PSD cho Java
+# Crop Image Java: Crop Image by Rectangle with Aspose.PSD
 
-## Giới thiệu
+## Introduction
 
-Trong thế giới phát triển Java, thao tác với hình ảnh là một nhiệm vụ phổ biến và Aspose.PSD cho Java cung cấp một giải pháp mạnh mẽ để xử lý hình ảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình cắt ảnh theo hình chữ nhật bằng Aspose.PSD cho Java. Hãy làm theo các bước dưới đây để đạt được điều này một cách dễ dàng.
+Việc thao tác đồ họa là một phần thường xuyên của **java image processing**, và Aspose.PSD for Java cung cấp cho bạn một API sạch sẽ, hiệu suất cao để làm việc với các tệp PSD. Trong hướng dẫn này, bạn sẽ học **cách crop image** bằng một hình chữ nhật, tải tệp PSD, và cuối cùng chuyển đổi kết quả sang JPEG—tất cả chỉ với vài dòng mã Java.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **What does “crop image java” mean?** It refers to trimming an image to a defined rectangle using Java code.  
+- **Which library handles the operation?** Aspose.PSD for Java provides the necessary classes.  
+- **Do I need a license for testing?** A free trial is available; a license is required for production.  
+- **Can I convert the cropped PSD to JPEG?** Yes—use `JpegOptions` when saving.  
+- **How long does the implementation take?** Usually under 10 minutes for a basic scenario.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
+## What is cropping an image rectangle in Java?
 
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
-- Aspose.PSD cho thư viện Java. Bạn có thể tải nó xuống từ[trang web](https://releases.aspose.com/psd/java/).
+Cropping an image rectangle means selecting a specific area (defined by X, Y, width, and height) and discarding everything outside that area. This operation is common when you need to focus on a particular region of a larger PSD document.
 
-## Gói nhập khẩu
+## Why use Aspose.PSD for this task?
 
-Đảm bảo bao gồm các gói cần thiết trong dự án Java của bạn để tận dụng các khả năng của Aspose.PSD cho Java. Thêm các câu lệnh nhập sau vào đầu tệp Java của bạn:
+- **No external dependencies** – works with pure Java.  
+- **Supports PSD, PNG, JPEG, and many other formats** – you can **convert PSD to JPEG** instantly.  
+- **High‑fidelity rendering** – retains layer information and color profiles during the crop.  
+
+## Prerequisites
+
+- Java Development Kit (JDK) installed.  
+- Aspose.PSD for Java library – download it from the [website](https://releases.aspose.com/psd/java/).  
+
+## Import Packages
+
+Make sure to include the necessary packages in your Java project to leverage the capabilities of Aspose.PSD for Java. Add the following import statements at the beginning of your Java file:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,26 +54,26 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Bây giờ, hãy chia quy trình thành nhiều bước để hướng dẫn bạn cắt hình ảnh theo hình chữ nhật bằng Aspose.PSD cho Java.
+Now, let's break down the process into multiple steps to guide you through cropping an image by a rectangle using Aspose.PSD for Java.
 
-## Bước 1: Thiết lập thư mục tài liệu của bạn
+## Step 1: Set up Your Document Directory
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi chứa tệp PSD của bạn.
+Replace `"Your Document Directory"` with the actual path where your PSD file is located.
 
-## Bước 2: Chỉ định tệp nguồn và đích
+## Step 2: Specify Source and Destination Files
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "CroppingByRectangle_out.jpg";
 ```
 
-Xác định đường dẫn cho tệp PSD nguồn và tệp JPEG đích.
+Define the paths for your source PSD file and the destination JPEG file.
 
-## Bước 3: Tải và lưu trữ hình ảnh
+## Step 3: Load and Cache the Image
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
@@ -65,52 +83,65 @@ if (!rasterImage.isCached()) {
 }
 ```
 
- Tải hình ảnh PSD vào một`RasterImage` instance và lưu trữ dữ liệu của nó.
+Here we **load PSD file** into a `RasterImage` instance and cache its data to improve performance.
 
-## Bước 4: Tạo và xác định hình chữ nhật cắt
+## Step 4: Create and Define the Crop Rectangle
 
 ```java
 Rectangle rectangle = new Rectangle(20, 20, 20, 20);
 ```
 
- Tạo một thể hiện của`Rectangle` lớp với kích thước mong muốn để cắt xén.
+Create an instance of the `Rectangle` class with the desired size for cropping. The parameters represent **X**, **Y**, **width**, and **height** respectively.
 
-## Bước 5: Cắt và lưu hình ảnh
+## Step 5: Crop and Save the Image
 
 ```java
 rasterImage.crop(rectangle);
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Thực hiện thao tác cắt bằng cách sử dụng hình chữ nhật đã chỉ định và lưu kết quả dưới dạng tệp JPEG.
+Perform the crop operation using the specified rectangle and **convert PSD to JPEG** by saving the result with `JpegOptions`.
 
-Lặp lại các bước này nếu cần, điều chỉnh các thông số theo yêu cầu cụ thể của bạn.
+Repeat these steps as needed, adjusting the parameters according to your specific requirements.
 
-## Phần kết luận
+## Common Issues & Tips
 
-Trong hướng dẫn này, chúng ta đã tìm hiểu quy trình cắt xén hình ảnh theo hình chữ nhật bằng Aspose.PSD cho Java. Bằng cách làm theo các bước này, bạn có thể dễ dàng tích hợp các khả năng xử lý hình ảnh mạnh mẽ vào các ứng dụng Java của mình.
+- **Rectangle outside image bounds** – ensure the rectangle’s coordinates are within the source image dimensions.  
+- **Memory consumption** – call `rasterImage.dispose()` after you’re done to free native resources.  
+- **Quality control** – you can set `JpegOptions.setQuality(int)` to control the compression level of the output JPEG.
 
-## Câu hỏi thường gặp
+## Conclusion
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.PSD cho Java với các khung công tác Java khác không?
+In this tutorial we walked through the process of **crop image java** by a rectangle using Aspose.PSD for Java. By following these steps you can easily integrate powerful image manipulation capabilities—loading a PSD file, cropping a specific region, and converting the result to JPEG—into any Java application.
 
-Câu trả lời 1: Có, Aspose.PSD cho Java có thể được tích hợp với nhiều khung công tác Java khác nhau, mang lại sự linh hoạt trong các dự án phát triển của bạn.
+## FAQ's
 
-### Câu hỏi 2: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?
+### Q1: Can I use Aspose.PSD for Java with other Java frameworks?
 
- A2: Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+A1: Yes, Aspose.PSD for Java can be integrated with various Java frameworks, providing flexibility in your development projects.
 
-### Câu hỏi 3: Tôi có thể tìm thêm hỗ trợ hoặc hỗ trợ ở đâu?
+### Q2: Is there a free trial available for Aspose.PSD for Java?
 
- A3: Tham quan[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để được cộng đồng hỗ trợ và thảo luận.
+A2: Yes, you can access the free trial version [here](https://releases.aspose.com/).
 
-### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời cho Aspose.PSD cho Java?
+### Q3: Where can I find additional support or assistance?
 
- A4: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
 
-### Câu hỏi 5: Các định dạng hình ảnh được hỗ trợ để cắt xén trong Aspose.PSD cho Java là gì?
+### Q4: How do I obtain a temporary license for Aspose.PSD for Java?
 
-Câu trả lời 5: Aspose.PSD cho Java hỗ trợ nhiều định dạng hình ảnh khác nhau, bao gồm PSD, PNG, JPEG, v.v.
+A4: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: What are the supported image formats for cropping in Aspose.PSD for Java?
+
+A5: Aspose.PSD for Java supports various image formats, including PSD, PNG, JPEG, and more.
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

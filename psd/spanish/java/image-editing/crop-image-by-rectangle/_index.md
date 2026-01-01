@@ -1,32 +1,50 @@
 ---
-title: Recortar imagen por rectángulo en Aspose.PSD para Java
-linktitle: Recortar imagen por rectángulo
-second_title: API de Java Aspose.PSD
-description: Explore las capacidades perfectas de recorte de imágenes en Java con Aspose.PSD. Siga nuestra guía paso a paso para recortar imágenes sin esfuerzo usando Aspose.PSD para Java.
-weight: 15
+date: 2026-01-01
+description: Explora cómo recortar imágenes en Java usando Aspose.PSD para Java. Sigue
+  nuestra guía paso a paso para cargar un archivo PSD, recortar un rectángulo de la
+  imagen y convertir el PSD a JPEG.
+linktitle: Crop Image by Rectangle
+second_title: Aspose.PSD Java API
+title: 'Recortar Imagen Java: Recortar Imagen por Rectángulo con Aspose.PSD'
 url: /es/java/image-editing/crop-image-by-rectangle/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recortar imagen por rectángulo en Aspose.PSD para Java
+# Recortar Imagen Java: Recortar Imagen por Rectángulo con Aspose.PSD
 
 ## Introducción
 
-En el mundo del desarrollo de Java, la manipulación de imágenes es una tarea común y Aspose.PSD para Java proporciona una poderosa solución para el procesamiento de imágenes. En este tutorial, lo guiaremos a través del proceso de recortar una imagen mediante un rectángulo usando Aspose.PSD para Java. Siga los pasos a continuación para lograrlo con facilidad.
+Manipular gráficos es una parte rutinaria del **java image processing**, y Aspose.PSD for Java te brinda una API limpia y de alto rendimiento para trabajar con archivos PSD. En este tutorial aprenderás **cómo recortar una imagen** usando un rectángulo, cargar un archivo PSD y, finalmente, convertir el resultado a JPEG, todo con solo unas pocas líneas de código Java.
 
-## Requisitos previos
+## Respuestas Rápidas
+- **¿Qué significa “crop image java”?** Se refiere a recortar una imagen a un rectángulo definido usando código Java.  
+- **¿Qué biblioteca maneja la operación?** Aspose.PSD for Java proporciona las clases necesarias.  
+- **¿Necesito una licencia para pruebas?** Hay una versión de prueba gratuita; se requiere una licencia para producción.  
+- **¿Puedo convertir el PSD recortado a JPEG?** Sí—usa `JpegOptions` al guardar.  
+- **¿Cuánto tiempo lleva la implementación?** Generalmente menos de 10 minutos para un escenario básico.
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+## ¿Qué es recortar un rectángulo de imagen en Java?
 
-- Kit de desarrollo de Java (JDK) instalado en su máquina.
-- Aspose.PSD para la biblioteca Java. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/psd/java/).
+Recortar un rectángulo de imagen significa seleccionar un área específica (definida por X, Y, ancho y alto) y descartar todo lo que está fuera de esa zona. Esta operación es común cuando necesitas enfocarte en una región particular de un documento PSD más grande.
 
-## Importar paquetes
+## ¿Por qué usar Aspose.PSD para esta tarea?
 
-Asegúrese de incluir los paquetes necesarios en su proyecto Java para aprovechar las capacidades de Aspose.PSD para Java. Agregue las siguientes declaraciones de importación al comienzo de su archivo Java:
+- **Sin dependencias externas** – funciona con Java puro.  
+- **Soporta PSD, PNG, JPEG y muchos otros formatos** – puedes **convertir PSD a JPEG** al instante.  
+- **Renderizado de alta fidelidad** – conserva la información de capas y los perfiles de color durante el recorte.  
+
+## Requisitos Previos
+
+- Java Development Kit (JDK) instalado.  
+- Biblioteca Aspose.PSD for Java – descárgala desde el [website](https://releases.aspose.com/psd/java/).  
+
+## Importar Paquetes
+
+Asegúrate de incluir los paquetes necesarios en tu proyecto Java para aprovechar las capacidades de Aspose.PSD for Java. Añade las siguientes declaraciones de importación al comienzo de tu archivo Java:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,26 +54,26 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Ahora, dividamos el proceso en varios pasos para guiarlo a través del recorte de una imagen mediante un rectángulo usando Aspose.PSD para Java.
+Ahora, desglosaremos el proceso en varios pasos para guiarte en el recorte de una imagen por un rectángulo usando Aspose.PSD for Java.
 
-## Paso 1: configure su directorio de documentos
+## Paso 1: Configura tu Directorio de Documentos
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Reemplazar`"Your Document Directory"` con la ruta real donde se encuentra su archivo PSD.
+Reemplaza `"Your Document Directory"` con la ruta real donde se encuentra tu archivo PSD.
 
-## Paso 2: especificar los archivos de origen y destino
+## Paso 2: Especifica los Archivos de Origen y Destino
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "CroppingByRectangle_out.jpg";
 ```
 
-Defina las rutas para su archivo PSD de origen y el archivo JPEG de destino.
+Define las rutas para tu archivo PSD de origen y el archivo JPEG de destino.
 
-## Paso 3: cargar y almacenar en caché la imagen
+## Paso 3: Carga y Almacena en Caché la Imagen
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
@@ -65,52 +83,65 @@ if (!rasterImage.isCached()) {
 }
 ```
 
- Cargue la imagen PSD en un`RasterImage` instancia y almacenar en caché sus datos.
+Aquí **cargamos el archivo PSD** en una instancia de `RasterImage` y almacenamos sus datos en caché para mejorar el rendimiento.
 
-## Paso 4: crear y definir el rectángulo de recorte
+## Paso 4: Crea y Define el Rectángulo de Recorte
 
 ```java
 Rectangle rectangle = new Rectangle(20, 20, 20, 20);
 ```
 
- Crear una instancia del`Rectangle` clase con el tamaño deseado para recortar.
+Crea una instancia de la clase `Rectangle` con el tamaño deseado para el recorte. Los parámetros representan **X**, **Y**, **ancho** y **alto**, respectivamente.
 
-## Paso 5: recorta y guarda la imagen
+## Paso 5: Recorta y Guarda la Imagen
 
 ```java
 rasterImage.crop(rectangle);
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Realice la operación de recorte utilizando el rectángulo especificado y guarde los resultados como un archivo JPEG.
+Ejecuta la operación de recorte usando el rectángulo especificado y **convierte PSD a JPEG** guardando el resultado con `JpegOptions`.
 
-Repita estos pasos según sea necesario, ajustando los parámetros según sus requisitos específicos.
+Repite estos pasos según sea necesario, ajustando los parámetros de acuerdo a tus requisitos específicos.
+
+## Problemas Comunes y Consejos
+
+- **Rectángulo fuera de los límites de la imagen** – asegúrate de que las coordenadas del rectángulo estén dentro de las dimensiones de la imagen fuente.  
+- **Consumo de memoria** – llama a `rasterImage.dispose()` después de terminar para liberar recursos nativos.  
+- **Control de calidad** – puedes establecer `JpegOptions.setQuality(int)` para controlar el nivel de compresión del JPEG de salida.
 
 ## Conclusión
 
-En este tutorial, recorrimos el proceso de recortar una imagen mediante un rectángulo usando Aspose.PSD para Java. Si sigue estos pasos, podrá integrar fácilmente potentes capacidades de manipulación de imágenes en sus aplicaciones Java.
+En este tutorial recorrimos el proceso de **crop image java** por un rectángulo usando Aspose.PSD for Java. Siguiendo estos pasos puedes integrar fácilmente potentes capacidades de manipulación de imágenes—cargar un archivo PSD, recortar una región específica y convertir el resultado a JPEG—en cualquier aplicación Java.
 
-## Preguntas frecuentes
+## Preguntas Frecuentes
 
-### P1: ¿Puedo usar Aspose.PSD para Java con otros marcos de Java?
+### P1: ¿Puedo usar Aspose.PSD for Java con otros frameworks Java?
 
-R1: Sí, Aspose.PSD para Java se puede integrar con varios marcos de Java, lo que brinda flexibilidad en sus proyectos de desarrollo.
+Sí, Aspose.PSD for Java puede integrarse con varios frameworks Java, proporcionando flexibilidad en tus proyectos de desarrollo.
 
-### P2: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
+### P2: ¿Hay una versión de prueba gratuita disponible para Aspose.PSD for Java?
 
- R2: Sí, puedes acceder a la versión de prueba gratuita[aquí](https://releases.aspose.com/).
+Sí, puedes acceder a la versión de prueba gratuita [aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar soporte o asistencia adicional?
 
- A3: Visita el[Foro Aspose.PSD](https://forum.aspose.com/c/psd/34) para apoyo y debates de la comunidad.
+Visita el [foro de Aspose.PSD](https://forum.aspose.com/c/psd/34) para soporte comunitario y discusiones.
 
-### P4: ¿Cómo obtengo una licencia temporal de Aspose.PSD para Java?
+### P4: ¿Cómo obtengo una licencia temporal para Aspose.PSD for Java?
 
- R4: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+Puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P5: ¿Cuáles son los formatos de imagen admitidos para recortar en Aspose.PSD para Java?
+### P5: ¿Cuáles son los formatos de imagen compatibles para recortar en Aspose.PSD for Java?
 
-R5: Aspose.PSD para Java admite varios formatos de imagen, incluidos PSD, PNG, JPEG y más.
+Aspose.PSD for Java soporta varios formatos de imagen, incluidos PSD, PNG, JPEG y más.
+
+---
+
+**Última actualización:** 2026-01-01  
+**Probado con:** Aspose.PSD for Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
