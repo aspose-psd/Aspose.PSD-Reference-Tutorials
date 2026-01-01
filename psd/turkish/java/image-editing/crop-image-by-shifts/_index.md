@@ -1,41 +1,46 @@
 ---
-title: Java için Aspose.PSD'de Görüntüyü Kaydırarak Kırp
-linktitle: Resmi Kaydırarak Kırp
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java ile görüntü kırpmada ustalaşın. Kesintisiz görüntü işleme için kapsamlı bir eğitim.
-weight: 16
+date: 2026-01-01
+description: Aspose.PSD for Java ile nasıl görüntü kırpılacağını öğrenerek Java görüntü
+  işleme konusunda uzmanlaşın. Sorunsuz görüntü manipülasyonu için kapsamlı bir öğretici.
+linktitle: Crop Image by Shifts
+second_title: Aspose.PSD Java API
+title: Java Görüntü İşleme – Aspose.PSD ile Kaydırmalarla Görüntüyü Kırpma
 url: /tr/java/image-editing/crop-image-by-shifts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.PSD'de Görüntüyü Kaydırarak Kırp
+# Java Image Processing – Kaydırmalarla Görüntüyü Kırpma (Aspose.PSD)
 
-## giriiş
+## Introduction
 
-Java tabanlı görüntü işleme alanında Aspose.PSD, görüntüleri son derece hassas bir şekilde işlemek ve geliştirmek için güçlü bir araç olarak öne çıkıyor. Aspose.PSD'yi diğerlerinden ayıran en önemli özelliklerden biri, görüntü kırpma işlemini sorunsuz bir şekilde gerçekleştirebilmesidir. Bu derste Aspose.PSD for Java kullanarak görüntü kırpma sanatını inceleyeceğiz. Sonunda, görüntüleri spesifikasyonlarınıza göre zahmetsizce kırpma becerisine sahip olacaksınız.
+Eğer **java image processing** ile çalışıyorsanız, kesin kırpmanın herhangi bir grafik iş akışının temel bir yapı taşı olduğunu çabucak fark edeceksiniz. Kenarları düzeltmek, istenmeyen arka planı kaldırmak veya varlıkları web teslimi için hazırlamak ister misiniz, **how to crop image** programlı olarak bilmek sayısız manuel saati tasarruf ettirir. Bu öğreticide, güçlü **Aspose.PSD for Java** kütüphanesini kullanarak her kenar için kaydırma değerleri belirleyerek bir raster görüntüyü nasıl kırpacağınızı adım adım göstereceğiz. Sonunda **use the crop method** konusunda kendinize güvenerek **optimize image cropping** yapabileceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **What library handles java image processing?** Aspose.PSD for Java  
+- **Which method crops a raster image?** `RasterImage.crop(left, right, top, bottom)`  
+- **Do I need to cache data first?** Yes – caching improves speed for large PSD files  
+- **Can I set custom cropping margins?** Absolutely – specify left, right, top, and bottom shifts  
+- **What output formats are supported?** JPEG, PNG, BMP, and many more via `ImageOptions`
 
-Bu heyecan verici yolculuğa çıkmadan önce gerekli ön koşulların mevcut olduğundan emin olalım:
+## What is java image processing?
+Java image processing, Java‑tabanlı API'ler kullanarak bitmap ve vektör grafiklerin işlenmesi anlamına gelir. Görevler arasında yeniden boyutlandırma, filtreleme, format dönüşümü ve **image cropping margins** ayarlamaları bulunur—tümü sunucu‑taraflı veya masaüstü uygulamalarda otomatikleştirilebilir.
 
-### Java Geliştirme Kiti (JDK)
+## Why use Aspose.PSD for java image processing?
+Aspose.PSD, Photoshop uyumlu PSD dosyalarını, katmanları, kanalları ve maskeleri anlayan saf‑Java bir çözüm sunar. Yerel kütüphanelere ihtiyaç duymaz, çapraz‑platform çalışır ve mevcut Java projeleriyle sorunsuz entegrasyon sağlayan **crop raster image** API'si sunar.
 
- Sisteminizde JDK'nın en son sürümünün kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Prerequisites
 
-### Java Kütüphanesi için Aspose.PSD
+- **Java Development Kit (JDK)** – en son sürümü [here](https://www.oracle.com/java/technologies/javase-downloads.html) adresinden indirin.  
+- **Aspose.PSD for Java Library** – en yeni sürümü [download page](https://releases.aspose.com/psd/java/) üzerinden edinin.  
+- **Integrated Development Environment (IDE)** – Eclipse, IntelliJ IDEA veya tercih ettiğiniz herhangi bir editör.
 
- Başlamak için Aspose.PSD for Java kütüphanesini edinmeniz gerekecek. Şuraya gidin:[indirme sayfası](https://releases.aspose.com/psd/java/) ve en son sürümü edinin.
+## Import Packages
 
-### Entegre Geliştirme Ortamı (IDE)
-
-Sorunsuz bir kodlama deneyimi için Eclipse veya IntelliJ gibi favori Java IDE'nizi seçin.
-
-## Paketleri İçe Aktar
-
-Görüntü kırpma işlemini başlatmak için Java projenizde gerekli paketleri içe aktarın:
+Java projenizde kırpma iş akışına başlamak için gerekli sınıfları içe aktarın:
 
 ```java
 import com.aspose.psd.Image;
@@ -44,21 +49,23 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Şimdi Aspose.PSD for Java kullanarak bir görüntüyü kırpma işlemini bir dizi basit adıma ayıralım:
+## Step‑by‑Step Guide
 
-## 1. Adım: Görüntüyü Yükleyin
+### Step 1: Load the Image (how to crop image)
+
+Öncelikle kaynak PSD dosyasını bir `RasterImage` örneğine yükleyin. Bu, piksel düzeyinde doğrudan erişim sağlar.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Mevcut bir görüntüyü RasterImage sınıfının bir örneğine yükleme
+// Load an existing image into an instance of RasterImage class
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 ```
 
-## Adım 2: Görüntü Verilerini Önbelleğe Alın
+### Step 2: Cache Image Data (optimize image cropping)
 
-Kırpmadan önce, daha iyi performans için görüntü verilerinin önbelleğe alınması önerilir:
+Görüntü verilerini bellekte önbelleğe almak, kırpma gibi birden fazla işlem yaparken I/O yükünü azaltır.
 
 ```java
 if (!rasterImage.isCached()) {
@@ -66,9 +73,9 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-## Adım 3: Kaydırma Değerlerini Tanımlayın
+### Step 3: Define Cropping Margins (image cropping margins)
 
-Görüntünün dört tarafının tamamı için kaydırma değerlerini belirtin:
+Her bir kenardan kaç piksel kesmek istediğinizi belirtin. Bu değerleri istediğiniz **image cropping margins** ile eşleyecek şekilde ayarlayın.
 
 ```java
 int leftShift = 10;
@@ -77,50 +84,59 @@ int topShift = 10;
 int bottomShift = 10;
 ```
 
-## 4. Adım: Kırpmayı Uygulayın
+### Step 4: Apply the Crop (use crop method)
 
- Tanımlanan kaydırma değerlerine göre, görüntüyü kullanarak kırpmayı uygulayın.`crop` yöntem:
+Şimdi `crop` metodunu kaydırma değerleriyle çağırın. Bu **crop raster image** işlemi, temel bitmap'i değiştirir.
 
 ```java
 rasterImage.crop(leftShift, rightShift, topShift, bottomShift);
 ```
 
-## Adım 5: Sonuçları Kaydedin
+### Step 5: Save the Results (how to crop image to a new format)
 
-Kırpılan görüntüyü istenen formatta (bu durumda JPEG) diske kaydedin:
+Son olarak kırpılmış görüntüyü diske yazın. Bu örnekte JPEG seçtik, ancak Aspose.PSD tarafından desteklenen herhangi bir format kullanılabilir.
 
 ```java
 String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Tebrikler! Aspose.PSD for Java'yı kullanarak bir görüntüyü başarıyla kırptınız.
+Congratulations! You have successfully **cropped an image by shifts** using Aspose.PSD for Java, a core skill in any **java image processing** toolkit.
 
-## Çözüm
+## Common Issues and Solutions
 
-Bu eğitimde Aspose.PSD for Java ile görüntü kırpmanın inceliklerini araştırdık. Bu bilgiyle donanmış olarak, artık görüntü kırpmayı Java projelerinize sorunsuz bir şekilde entegre edebilir ve görüntü işleme yeteneklerinize incelik katabilirsiniz.
+| Sorun | Çözüm |
+|-------|----------|
+| **`OutOfMemoryError` on large PSD files** | `cacheData()` metodunu (Adım 2) çağırdığınızdan emin olun ve JVM yığın boyutunu (`-Xmx`) artırmayı düşünün. |
+| **Unexpected transparent borders** | Kaydırma değerlerinizin istenen kenar boşluklarını doğru yansıttığını doğrulayın; negatif değerler kesmek yerine genişletebilir. |
+| **Saving in the wrong format** | `save` çağrısında uygun `ImageOptions` alt sınıfını (ör. `PngOptions`) kullandığınızdan emin olun. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Aspose.PSD tüm görüntü formatlarıyla uyumlu mu?
+**Q: Is Aspose.PSD compatible with all image formats?**  
+A: Yes, Aspose.PSD supports a wide range of raster and vector formats, ensuring versatility in your projects.
 
-Cevap1: Evet, Aspose.PSD çok çeşitli görüntü formatlarını destekleyerek projelerinizde çok yönlülük sağlar.
+**Q: Can I apply multiple cropping operations to the same image?**  
+A: Absolutely. You can call `crop` repeatedly; each call works on the current state of the image.
 
-### S2: Aynı görüntüye birden fazla kırpma işlemi uygulayabilir miyim?
+**Q: Is there a community forum for Aspose.PSD support?**  
+A: Yes, you can find support and engage with the community at [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
 
-Cevap2: Kesinlikle, aynı görüntü üzerinde birden fazla kırpma işlemini ardı ardına gerçekleştirebilirsiniz.
+**Q: How can I obtain a temporary license for Aspose.PSD?**  
+A: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
 
-### S3: Aspose.PSD desteği için bir topluluk forumu var mı?
+**Q: Are there any sample projects showcasing Aspose.PSD functionalities?**  
+A: Explore the documentation and examples at [Aspose.PSD Java Documentation](https://reference.aspose.com/psd/java/).
 
- C3: Evet, şu adresten destek bulabilir ve toplulukla etkileşime geçebilirsiniz:[Aspose.PSD Forumu](https://forum.aspose.com/c/psd/34).
+## Conclusion
 
-### S4: Aspose.PSD için nasıl geçici lisans alabilirim?
+Bu rehberde, kaydırma değerleri belirleyerek **crop raster image** dosyalarını nasıl kırpacağınızı, **java image processing** için kritik bir teknik olduğunu öğrendiniz. Artık web için varlık hazırlama, küçük resim oluşturma veya taranmış belgeleri temizleme gibi daha büyük iş akışlarına kırpma işlevini entegre etmek için sağlam bir temele sahipsiniz.
 
- A4: Ziyaret edin[Burada](https://purchase.aspose.com/temporary-license/) geçici lisans almak için.
+---
 
-### S5: Aspose.PSD işlevlerini gösteren örnek projeler var mı?
-
- A5: Şu adresteki belgeleri ve örnekleri inceleyin:[Aspose.PSD Java Belgeleri](https://reference.aspose.com/psd/java/).
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

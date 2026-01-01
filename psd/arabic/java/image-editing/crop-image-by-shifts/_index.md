@@ -1,41 +1,46 @@
 ---
-title: قص الصورة عن طريق التحولات في Aspose.PSD لجافا
-linktitle: اقتصاص الصورة عن طريق التحولات
-second_title: Aspose.PSD جافا API
-description: اقتصاص الصور الرئيسي باستخدام Aspose.PSD لـ Java. برنامج تعليمي شامل لمعالجة الصور بسلاسة.
-weight: 16
+date: 2026-01-01
+description: أتقن معالجة الصور في جافا من خلال تعلم كيفية قص الصورة باستخدام Aspose.PSD
+  لجافا. دليل شامل لتعديل الصور بسلاسة.
+linktitle: Crop Image by Shifts
+second_title: Aspose.PSD Java API
+title: معالجة الصور في جافا – قص الصورة بالإزاحات باستخدام Aspose.PSD
 url: /ar/java/image-editing/crop-image-by-shifts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قص الصورة عن طريق التحولات في Aspose.PSD لجافا
+# معالجة الصور في جافا – قص الصورة بالتحولات باستخدام Aspose.PSD
 
-## مقدمة
+## المقدمة
 
-في عالم معالجة الصور المستندة إلى Java، يبرز Aspose.PSD كأداة قوية لمعالجة الصور وتحسينها بأقصى قدر من الدقة. إحدى الميزات الرئيسية التي تميز Aspose.PSD هي قدرته على إجراء قص الصورة بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في فن قص الصور باستخدام Aspose.PSD لـ Java. وفي النهاية، ستكون مجهزًا بالمهارات اللازمة لاقتصاص الصور بسهولة وفقًا لمواصفاتك.
+إذا كنت تعمل على **java image processing**، ستكتشف سريعًا أن القص الدقيق هو عنصر أساسي لأي سير عمل رسومي. سواء كنت بحاجة إلى قص الحدود، أو إزالة الخلفية غير المرغوب فيها، أو إعداد الأصول للتسليم عبر الويب، فإن معرفة **how to crop image** برمجيًا توفر ساعات لا تحصى من العمل اليدوي. في هذا الدرس سنستعرض قص صورة نقطية عن طريق تحديد قيم التحول لكل جانب، باستخدام مكتبة **Aspose.PSD for Java** القوية. في النهاية ستكون قادرًا على **use the crop method** بثقة وحتى **optimize image cropping** لأداء أفضل.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة التي تتعامل مع java image processing؟** Aspose.PSD for Java  
+- **ما الطريقة التي تقص صورة نقطية؟** `RasterImage.crop(left, right, top, bottom)`  
+- **هل أحتاج إلى تخزين البيانات مؤقتًا أولاً؟** Yes – caching improves speed for large PSD files  
+- **هل يمكنني تعيين هوامش قص مخصصة؟** Absolutely – specify left, right, top, and bottom shifts  
+- **ما صيغ الإخراج المدعومة؟** JPEG, PNG, BMP, and many more via `ImageOptions`
 
-قبل أن نبدأ هذه الرحلة المثيرة، دعونا نتأكد من أن لديك المتطلبات الأساسية اللازمة:
+## ما هو java image processing؟
+يشير java image processing إلى معالجة صور البت‌ماب والرسومات المتجهية باستخدام واجهات برمجة تطبيقات مبنية على Java. تشمل المهام تغيير الحجم، الترشيح، تحويل الصيغ، وتعديلات **image cropping margins** — جميعها يمكن أتمتتها في تطبيقات الخادم أو سطح المكتب.
 
-### مجموعة تطوير جافا (JDK)
+## لماذا تستخدم Aspose.PSD لمعالجة الصور في java؟
+توفر Aspose.PSD حلاً مكتوبًا بالكامل بلغة Java يفهم ملفات PSD المتوافقة مع Photoshop، الطبقات، القنوات، والأقنعة. يلغي الحاجة إلى المكتبات الأصلية، يعمل عبر الأنظمة، ويوفر واجهة برمجة تطبيقات **crop raster image** بسيطة يمكن دمجها بسهولة مع مشاريع Java الحالية.
 
- تأكد من تثبيت أحدث إصدار من JDK على نظامك. يمكنك تنزيله من[هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
+## المتطلبات المسبقة
 
-### Aspose.PSD لمكتبة جافا
+- **Java Development Kit (JDK)** – قم بتنزيل أحدث نسخة من [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.PSD for Java Library** – احصل على أحدث إصدار من [download page](https://releases.aspose.com/psd/java/).  
+- **Integrated Development Environment (IDE)** – Eclipse، IntelliJ IDEA، أو أي محرر تفضله.
 
- للبدء، ستحتاج إلى الحصول على Aspose.PSD لمكتبة Java. توجه إلى[صفحة التحميل](https://releases.aspose.com/psd/java/) والاستيلاء على أحدث نسخة.
+## استيراد الحزم
 
-### بيئة التطوير المتكاملة (IDE)
-
-اختر Java IDE المفضل لديك، مثل Eclipse أو IntelliJ، للاستمتاع بتجربة برمجة سلسة.
-
-## حزم الاستيراد
-
-في مشروع Java الخاص بك، قم باستيراد الحزم اللازمة لبدء عملية اقتصاص الصورة:
+في مشروع Java الخاص بك، استورد الفئات اللازمة لبدء سير عمل القص:
 
 ```java
 import com.aspose.psd.Image;
@@ -44,21 +49,23 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-الآن، دعونا نقسم عملية اقتصاص الصورة باستخدام Aspose.PSD لـ Java إلى سلسلة من الخطوات البسيطة:
+## دليل خطوة بخطوة
 
-## الخطوة 1: تحميل الصورة
+### الخطوة 1: تحميل الصورة (how to crop image)
+
+أولاً، قم بتحميل ملف PSD المصدر إلى كائن `RasterImage`. يمنحك ذلك وصولًا مباشرًا إلى مستوى البكسل.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// قم بتحميل صورة موجودة في مثيل لفئة RasterImage
+// Load an existing image into an instance of RasterImage class
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 ```
 
-## الخطوة 2: تخزين بيانات الصورة مؤقتًا
+### الخطوة 2: تخزين بيانات الصورة مؤقتًا (optimize image cropping)
 
-قبل الاقتصاص، يُنصح بتخزين بيانات الصورة مؤقتًا لتحسين الأداء:
+تخزين بيانات الصورة مؤقتًا في الذاكرة يقلل من عبء الإدخال/الإخراج عند تنفيذ عمليات متعددة مثل القص.
 
 ```java
 if (!rasterImage.isCached()) {
@@ -66,9 +73,9 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-## الخطوة 3: تحديد قيم التحول
+### الخطوة 3: تحديد هوامش القص (image cropping margins)
 
-حدد قيم التحول لجميع الجوانب الأربعة للصورة:
+حدد عدد البكسلات التي تريد قصها من كل جانب. اضبط هذه القيم لتتناسب مع **image cropping margins** المطلوبة.
 
 ```java
 int leftShift = 10;
@@ -77,50 +84,59 @@ int topShift = 10;
 int bottomShift = 10;
 ```
 
-## الخطوة 4: تطبيق الاقتصاص
+### الخطوة 4: تطبيق القص (use crop method)
 
- استنادًا إلى قيم الإزاحة المحددة، قم بتطبيق الاقتصاص على الصورة باستخدام الزر`crop` طريقة:
+الآن استدعِ طريقة `crop` مع قيم التحول. هذه العملية **crop raster image** تعدل البت‌ماب الأساسي.
 
 ```java
 rasterImage.crop(leftShift, rightShift, topShift, bottomShift);
 ```
 
-## الخطوة 5: حفظ النتائج
+### الخطوة 5: حفظ النتائج (how to crop image to a new format)
 
-احفظ الصورة التي تم اقتصاصها على القرص بالتنسيق المطلوب، في هذه الحالة، JPEG:
+أخيرًا، احفظ الصورة المقتصة إلى القرص. في هذا المثال نختار JPEG، لكن يمكن استخدام أي صيغة يدعمها Aspose.PSD.
 
 ```java
 String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-تهانينا! لقد نجحت في اقتصاص صورة باستخدام Aspose.PSD لـ Java.
+تهانينا! لقد قمت بنجاح **cropped an image by shifts** باستخدام Aspose.PSD for Java، وهي مهارة أساسية في أي مجموعة أدوات **java image processing**.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، استكشفنا تعقيدات اقتصاص الصور باستخدام Aspose.PSD لـ Java. بفضل هذه المعرفة، يمكنك الآن دمج ميزة اقتصاص الصور بسلاسة في مشاريع Java الخاصة بك، مما يضيف لمسة من البراعة إلى قدرات معالجة الصور لديك.
+| المشكلة | الحل |
+|-------|----------|
+| **`OutOfMemoryError` on large PSD files** | تأكد من استدعاء `cacheData()` (الخطوة 2) وفكر في زيادة حجم الذاكرة المخصصة للـ JVM (`-Xmx`). |
+| **Unexpected transparent borders** | تحقق من أن قيم التحول تعكس الهوامش المطلوبة بدقة؛ القيم السالبة قد توسع بدلاً من القص. |
+| **Saving in the wrong format** | استخدم الفئة الفرعية المناسبة من `ImageOptions` (مثال: `PngOptions`) عند استدعاء `save`. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.PSD متوافق مع جميع تنسيقات الصور؟
+**س: هل Aspose.PSD متوافق مع جميع صيغ الصور؟**  
+ج: نعم، يدعم Aspose.PSD مجموعة واسعة من الصيغ النقطية والمتجهة، مما يضمن مرونة في مشاريعك.
 
-ج1: نعم، يدعم Aspose.PSD نطاقًا واسعًا من تنسيقات الصور، مما يضمن تعدد الاستخدامات في مشروعاتك.
+**س: هل يمكنني تطبيق عمليات قص متعددة على نفس الصورة؟**  
+ج: بالطبع. يمكنك استدعاء `crop` عدة مرات؛ كل استدعاء يعمل على الحالة الحالية للصورة.
 
-### س2: هل يمكنني تطبيق عمليات قص متعددة على نفس الصورة؟
+**س: هل هناك منتدى مجتمع لدعم Aspose.PSD؟**  
+ج: نعم، يمكنك العثور على الدعم والتفاعل مع المجتمع في [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
 
-ج2: بالتأكيد، يمكنك إجراء عمليات اقتصاص متعددة بالتسلسل على نفس الصورة.
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟**  
+ج: قم بزيارة [here](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
 
-### س3: هل يوجد منتدى مجتمعي لدعم Aspose.PSD؟
+**س: هل هناك مشاريع نموذجية تُظهر وظائف Aspose.PSD؟**  
+ج: استكشف الوثائق والأمثلة في [Aspose.PSD Java Documentation](https://reference.aspose.com/psd/java/).
 
- ج3: نعم، يمكنك العثور على الدعم والتفاعل مع المجتمع على[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34).
+## الخاتمة
 
-### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
+في هذا الدليل غطينا كل ما تحتاج معرفته ل**crop raster image** الملفات عن طريق تحديد قيم التحول، وهي تقنية أساسية لمعالجة **java image processing** الدقيقة. الآن لديك أساس قوي لدمج عملية القص في سير عمل أكبر، سواء كنت تُعد الأصول للويب، أو تُنشئ صورًا مصغرة، أو تُنظف المستندات الممسوحة.
 
- ج4: زيارة[هنا](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+---
 
-### س 5: هل هناك أية مشاريع نموذجية تعرض وظائف Aspose.PSD؟
-
- ج5: استكشف الوثائق والأمثلة في[وثائق جافا Aspose.PSD](https://reference.aspose.com/psd/java/).
+**آخر تحديث:** 2026-01-01  
+**تم الاختبار مع:** Aspose.PSD 24.11 for Java  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
