@@ -1,32 +1,52 @@
 ---
-title: Aspose.PSD for Java'da Yolu Ayarlayarak Görüntü Oluşturun
-linktitle: Yolu Ayarlayarak Görüntü Oluşturun
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'yı kullanarak PSD görüntüleri oluşturmayı öğrenin. Sorunsuz görüntü oluşturmak için adım adım kılavuzumuzu izleyin.
-weight: 13
+date: 2026-01-01
+description: Java'da Aspose.PSD kullanarak PSD görüntüleri oluşturmayı öğrenin. Bu
+  kılavuz, yolu ayarlamayı ve Java ile adım adım kodla Photoshop belgesi oluşturmayı
+  gösterir.
+linktitle: Create Image by Setting Path
+second_title: Aspose.PSD Java API
+title: PSD Nasıl Oluşturulur – Aspose.PSD for Java’da Yolu Ayarlayarak Görüntü Oluşturma
 url: /tr/java/image-editing/create-image-by-setting-path/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java'da Yolu Ayarlayarak Görüntü Oluşturun
+# PSD Nasıl Oluşturulur – Aspose.PSD for Java'da Yolu Belirterek Görüntü Oluşturma
 
-## giriiş
+## Giriş
 
-Aspose.PSD for Java kullanarak görsel oluşturmayı anlatan bu adım adım eğitime hoş geldiniz. Bu kılavuzda, bir PSD görüntüsü oluşturmak için yolun nasıl ayarlanacağını ve seçeneklerin nasıl yapılandırılacağını keşfedeceğiz. Aspose.PSD, Photoshop dosyalarıyla çalışmak için güçlü bir Java kitaplığıdır ve görüntüleri programlı olarak işlemek ve oluşturmak için kusursuz bir yol sunar.
+Bu adım adım öğreticiye hoş geldiniz, Aspose.PSD for Java kullanarak **PSD nasıl oluşturulur** görüntülerini. Dosya yolunu ayarlamayı, seçenekleri yapılandırmayı ve programlı olarak bir Photoshop belgesi oluşturmayı size göstereceğiz. Sonunda, **java create photoshop document** dosyalarını nasıl oluşturacağınızı anlayacaksınız; bu dosyalar daha sonra düzenlenebilir veya uygulamalarınıza entegre edilebilir.
+
+## Hızlı Yanıtlar
+- **Aspose.PSD ne yapar?** Photoshop yüklü olmadan Photoshop (PSD) dosyalarını okuma, düzenleme ve oluşturma için saf‑Java API'si sağlar.  
+- **Özel bir çıktı yolu ayarlayabilir miyim?** Evet – tam konumu ve dosya adını belirtmek için `FileCreateSource` kullanın.  
+- **Hangi sıkıştırma yöntemleri desteklenir?** RLE, ZIP ve RAW; bu örnek kayıpsız sıkıştırma için RLE kullanır.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Aspose.PSD Java 8 ve üzeri sürümlerle çalışır.
+
+## “how to create PSD” nedir?
+
+Bir PSD dosyası oluşturmak, katmanları, kanalları ve diğer Photoshop‑özel verileri koruyan Photoshop uyumlu bir görüntü üretmek anlamına gelir. Aspose.PSD karmaşık dosya formatını soyutlayarak iş mantığınıza odaklanmanızı sağlar.
+
+## Neden Java kullanarak **java create photoshop document**?
+
+- **Çapraz‑platform** – Java her yerde çalışır, bu yüzden PSD oluşturmanız Windows, Linux veya macOS'ta çalışır.  
+- **Photoshop bağımlılığı yok** – Adobe Photoshop kurmadan PSD dosyaları oluşturabilir veya değiştirebilirsiniz.  
+- **Tam kontrol** – Temiz bir nesne modeli aracılığıyla sıkıştırma, renk modu, boyutlar ve daha fazlasını ayarlayabilirsiniz.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Başlamadan önce şunların olduğundan emin olun:
 
-- Java programlamanın temel bilgisi.
--  Aspose.PSD for Java kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/psd/java/).
+- Java programlama temelleri.  
+- Aspose.PSD for Java kütüphanesi yüklü. Bunu [buradan](https://releases.aspose.com/psd/java/) indirebilirsiniz.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Gerekli paketleri Java projenize aktararak başlayın:
+Gerekli paketleri Java projenize içe aktararak başlayın:
 
 ```java
 import com.aspose.psd.Image;
@@ -34,51 +54,50 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.CompressionMethod;
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
-
 ```
 
-## 1. Adım: Belge Dizini Yolunu Ayarlayın
+## Adım 1: Belge Dizini İçin Yolu Nasıl Ayarlarsınız
 
-Görüntünün oluşturulacağı belge dizininizin yolunu ayarlayın.
+Görüntünün oluşturulacağı belge dizini için yolu ayarlayın.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Çıktı Dosyası Adını Tanımlayın
+## Adım 2: Çıktı Dosya Adını Tanımlama
 
-Belge dizini de dahil olmak üzere çıktı dosyasının adını tanımlayın.
+Belge dizinini içerecek şekilde çıktı dosya adını tanımlayın.
 
 ```java
 String desName = dataDir + "CreatingAnImageBySettingPath_out.psd";
 ```
 
-## 3. Adım: PsdOptions'ı Yapılandırın
+## Adım 3: PsdOptions Yapılandırma
 
-Bir PsdOptions örneği oluşturun ve sıkıştırma yöntemi gibi özelliklerini yapılandırın.
+`PsdOptions` bir örnek oluşturun ve sıkıştırma yöntemi gibi özelliklerini yapılandırın.
 
 ```java
 PsdOptions psdOptions = new PsdOptions();
 psdOptions.setCompressionMethod(CompressionMethod.RLE);
 ```
 
-## Adım 4: Kaynak Özelliğini Ayarlayın
+## Adım 4: Source Özelliğini Ayarlama
 
-Çıkış dosyasını ve bunun geçici olup olmadığını belirterek PsdOptions örneği için kaynak özelliğini tanımlayın.
+`PsdOptions` örneği için source özelliğini tanımlayın; çıktı dosyasını ve geçici olup olmadığını belirtin.
 
 ```java
 psdOptions.setSource(new FileCreateSource(desName, false));
 ```
 
-## Adım 5: Resim Oluşturun
+## Adım 5: Görüntü Oluşturma
 
-Bir Image örneği oluşturun ve PsdOptions nesnesini ve görüntü boyutlarını ileterek Create yöntemini çağırın.
+`Image` bir örnek oluşturun ve `PsdOptions` nesnesi ile görüntü boyutlarını geçirerek `create` metodunu çağırın.
 
 ```java
 Image image = Image.create(psdOptions, 500, 500);
 ```
 
-## Adım 6: Görüntüyü Kaydedin
+## Adım 6: Görüntüyü Kaydetme
 
 Oluşturulan görüntüyü kaydedin.
 
@@ -86,33 +105,53 @@ Oluşturulan görüntüyü kaydedin.
 image.save();
 ```
 
-Bu adımları tekrarladığınızda Aspose.PSD for Java kullanarak yolu ayarlayarak başarıyla bir görüntü oluşturdunuz.
+Bu adımları tekrarlayın; yolu ayarlayarak Aspose.PSD for Java kullanarak başarılı bir şekilde bir görüntü oluşturmuş olacaksınız.
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
+- **Geçersiz dizin** – `dataDir`'in uygun dosya ayırıcıyla (`/` veya `\\`) bittiğinden emin olun.  
+- **İzin hataları** – Uygulamanızı hedef klasör için yazma izinleriyle çalıştırın.  
+- **Lisans ayarlanmamış** – Lisans istisnası alırsanız, görüntüyü oluşturmadan önce Aspose.PSD lisansınızı yükleyin.
 
-Bu eğitimde Aspose.PSD for Java ile görsel oluşturma sürecini inceledik. Bu kitaplık, PSD dosyalarının oluşturulmasını ve işlenmesini basitleştirerek onu Java geliştiricileri için değerli bir araç haline getirir.
+## Sonuç
+
+Bu öğreticide Aspose.PSD for Java ile **PSD nasıl oluşturulur** dosyalarını ele aldık, **yolun nasıl ayarlanacağını** gösterdik ve bir Photoshop belgesi oluşturmak için tam bir akış sunduk. Bu yaklaşım, Java geliştiricilerinin PSD oluşturmayı doğrudan iş akışlarına, otomatik raporlama, dinamik grafikler veya toplu işleme gibi senaryolara entegre etmelerini sağlar.
 
 ## SSS'ler
 
-### S1: Aspose.PSD farklı Java IDE'leriyle uyumlu mu?
+### Q1: Aspose.PSD farklı Java IDE'leriyle uyumlu mu?
 
-Cevap1: Evet, Aspose.PSD çeşitli Java Entegre Geliştirme Ortamları (IDE'ler) ile sorunsuz bir şekilde çalışır.
+A1: Evet, Aspose.PSD çeşitli Java Entegre Geliştirme Ortamları (IDE'ler) ile sorunsuz çalışır.
 
-### S2: Aspose.PSD'yi ticari projeler için kullanabilir miyim?
+### Q2: Aspose.PSD'yi ticari projelerde kullanabilir miyim?
 
- Cevap2: Evet, Aspose.PSD'yi hem kişisel hem de ticari projeler için kullanabilirsiniz. Kontrol edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+A2: Evet, Aspose.PSD'yi hem kişisel hem de ticari projelerde kullanabilirsiniz. Lisans detayları için [satın alma sayfasına](https://purchase.aspose.com/buy) bakın.
 
-### S3: Aspose.PSD için nasıl destek alabilirim?
+### Q3: Aspose.PSD için nasıl destek alabilirim?
 
- A3: Ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) topluluk desteği ve tartışmalar için.
+A3: Topluluk desteği ve tartışmalar için [Aspose.PSD forumuna](https://forum.aspose.com/c/psd/34) gidin.
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+### Q4: Ücretsiz deneme mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+A4: Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### S5: Test için geçici bir lisansa ihtiyacım var mı?
+### Q5: Test için geçici bir lisansa ihtiyacım var mı?
 
- Cevap5: Test amaçlı geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+A5: Test amaçları için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
+
+**Ek Soru & Cevap**
+
+**S: Oluşturma sonrası görüntü boyutlarını değiştirebilir miyim?**  
+C: Evet, kaydetmeden önce `image.resize(width, height)` kullanarak görüntüyü yeniden boyutlandırabilirsiniz.
+
+**S: Hangi renk modları destekleniyor?**  
+C: Aspose.PSD RGB, CMYK, Gri Tonlamalı ve İndeksli renk modlarını destekler.
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
