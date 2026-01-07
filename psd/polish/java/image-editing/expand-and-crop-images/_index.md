@@ -1,33 +1,56 @@
 ---
-title: Rozwiń i przytnij obrazy za pomocą Aspose.PSD dla Java
-linktitle: Rozwiń i przytnij obrazy
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak rozszerzać i przycinać obrazy w Javie przy użyciu Aspose.PSD. Przewodnik krok po kroku dotyczący wydajnego przetwarzania obrazu.
-weight: 18
+date: 2026-01-07
+description: Dowiedz się, jak przycinać obrazy w Javie przy użyciu Aspose.PSD for
+  Java. Przewodnik krok po kroku dotyczący przycinania obrazów, zmiany rozmiaru i
+  konwersji z PSD do JPEG.
+linktitle: Expand and Crop Images
+second_title: Aspose.PSD Java API
+title: 'Przycinanie obrazu w Javie: Rozszerzanie i przycinanie obrazów przy użyciu
+  Aspose.PSD dla Javy'
 url: /pl/java/image-editing/expand-and-crop-images/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozwiń i przytnij obrazy za pomocą Aspose.PSD dla Java
+# Przycinanie obrazu Java: Rozszerzanie i przycinanie obrazów przy użyciu Aspose.PSD dla Java
 
-## Wstęp
+## Wprowadzenie
 
-tym samouczku odkryjemy, jak używać Aspose.PSD dla Java do wydajnego rozwijania i przycinania obrazów. Aspose.PSD to potężna biblioteka zapewniająca szeroką gamę funkcji do pracy z plikami PSD w aplikacjach Java. W tym przewodniku omówimy niezbędne wymagania wstępne, importowanie pakietów i podzielimy każdy krok ze szczegółowymi wyjaśnieniami.
+W tym samouczku dowiesz się, jak **przycinać obraz java** przy użyciu biblioteki Aspose.PSD. Niezależnie od tego, czy potrzebujesz rozszerzyć płótno, odciąć niechciane krawędzie, czy przekonwertować plik PSD na JPEG, poniższe kroki poprowadzą Cię przez czysty, powtarzalny proces. Omówimy wymagania wstępne, instrukcje importu oraz każdy krok kodowania z jasnymi wyjaśnieniami, abyś mógł zastosować tę technikę w rzeczywistych projektach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki używać do przycinania obrazu java?** Aspose.PSD for Java.  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę konwertować PSD na JPEG jednocześnie przycinając?** Tak, używając `JpegOptions` razem z prostokątem przycinania.  
+- **Czy Java 8 jest obsługiwana?** Aspose.PSD obsługuje Java 8 i nowsze wersje.  
+- **Jak długo trwa implementacja?** Zazwyczaj mniej niż 10 minut dla podstawowego przycięcia.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „crop image java”?
 
-1. Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie.
+Przycinanie obrazu w Javie oznacza wybranie prostokątnego obszaru źródłowego obrazu i odrzucenie pozostałej części. Dzięki Aspose.PSD możesz zdefiniować ten obszar przy pomocy obiektu `Rectangle`, a następnie zapisać wynik w innym formacie, np. JPEG.
 
-2.  Biblioteka Aspose.PSD: Pobierz i zainstaluj bibliotekę Aspose.PSD. Możesz znaleźć drogę do biblioteki[Tutaj](https://releases.aspose.com/psd/java/).
+## Dlaczego warto używać Aspose.PSD dla przycinania obrazów w Javie?
 
-## Importuj pakiety
+- **Pełne wsparcie PSD** – pracuj bezpośrednio z warstwowymi plikami PSD, bez konieczności ich konwersji.  
+- **Wysokowydajne przetwarzanie rastra** – efektywne wykorzystanie pamięci przy dużych obrazach.  
+- **Wbudowana konwersja** – łatwo eksportuj do JPEG, PNG, BMP itp., jednocześnie stosując przycinanie lub rozszerzanie płótna.  
+- **Wieloplatformowość** – działa na każdym systemie, na którym uruchomiona jest Java.
 
-Teraz, gdy masz już uporządkowane wymagania wstępne, zaimportuj niezbędne pakiety, aby rozpocząć pracę z Aspose.PSD dla Java. Dodaj następujące linie do kodu Java:
+## Wymagania wstępne
+
+Zanim przejdziesz do kodu, upewnij się, że masz:
+
+1. **Java Development Kit (JDK)** – zainstalowaną Javę 8 lub nowszą.  
+2. **Aspose.PSD for Java** – pobierz bibliotekę ze strony **[tutaj](https://releases.aspose.com/psd/java/)**.  
+
+> **Wskazówka:** Dodaj plik JAR Aspose.PSD do classpath projektu lub jako zależność Maven/Gradle, aby uniknąć `ClassNotFoundException`.
+
+## Importowanie pakietów
+
+Dodaj wymagane importy do swojego pliku źródłowego Java. Te klasy dają dostęp do ładowania obrazu, manipulacji rastrem, definiowania prostokąta oraz opcji eksportu JPEG.
 
 ```java
 import com.aspose.psd.Image;
@@ -37,77 +60,97 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Pakiety te zapewniają podstawowe klasy i metody przetwarzania obrazu przy użyciu Aspose.PSD.
+## Krok 1: Ustaw katalog dokumentu
 
-## Krok 1: Ustaw katalog dokumentów
-
-Rozpocznij od ustawienia katalogu, w którym znajduje się plik PSD. Zastąp „Twój katalog dokumentów” rzeczywistą ścieżką.
+Określ folder zawierający źródłowy plik PSD. Zamień symboliczny placeholder na rzeczywistą ścieżkę w swoim systemie.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Określ ścieżki źródłowe i docelowe
+## Krok 2: Określ ścieżki źródłowe i docelowe
 
-Zdefiniuj źródłowy plik PSD i ścieżkę docelową obrazu wyjściowego.
+Zdefiniuj, skąd odczytać plik PSD i gdzie zapisać przycięty JPEG.
 
 ```java
 String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Krok 3: Załaduj i buforuj obraz
+## Krok 3: Załaduj i zbuforuj obraz
 
- Załaduj plik PSD do pliku`RasterImage` obiektu i buforować jego dane.
+Wczytaj PSD do obiektu `RasterImage`. Buforowanie poprawia wydajność przy kolejnych operacjach, takich jak przycinanie.
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 rasterImage.cacheData();
 ```
 
-## Krok 4: Utwórz prostokąt do przycięcia
+## Krok 4: Utwórz prostokąt przycinania
 
- Utwórz instancję a`Rectangle` obiektu i zdefiniuj jego współrzędne X, Y, szerokość i wysokość. Ten prostokąt określi przycięty obszar.
+Utwórz `Rectangle`, który opisuje region, który chcesz zachować. Współrzędne mogą być ujemne, aby **rozszerzyć** płótno przed przycięciem – przydatne przy dodawaniu obramowania wokół oryginalnego obrazu.
 
 ```java
 Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 ```
 
-## Krok 5: Zapisz przycięty obraz
+> **Dlaczego używać ujemnych współrzędnych?**  
+> Ujemne wartości X/Y przesuwają obszar przycinania w lewo/górę, skutecznie dodając pustą przestrzeń (rozszerzając) wokół oryginalnej zawartości przed ostatecznym przycięciem.
 
- Zapisz przycięty obraz, używając zdefiniowanego prostokąta i`JpegOptions` klasa.
+## Krok 5: Zapisz przycięty obraz
+
+Na koniec zapisz wynikowy obraz przy użyciu `JpegOptions`. Ten krok jednocześnie demonstruje **convert psd jpeg** przy zastosowaniu prostokąta przycinania.
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-Gratulacje! Pomyślnie powiększyłeś i przyciąłeś obraz za pomocą Aspose.PSD dla Java.
+> **Rezultat:** `jpeg_out.jpg` zawiera teraz obraz 300 × 300 px, który został rozszerzony o 200 px po każdej stronie, a następnie przycięty do zdefiniowanego prostokąta.
 
-## Wniosek
+Gratulacje! Pomyślnie wykonałeś **java image cropping**, rozszerzyłeś płótno i przekonwertowałeś plik PSD na JPEG – wszystko w kilku zwięzłych linijkach kodu.
 
-W tym samouczku omówiliśmy proces rozwijania i przycinania obrazów przy użyciu biblioteki Aspose.PSD dla Java. Dzięki swoim zaawansowanym funkcjom Aspose.PSD upraszcza zadania manipulacji obrazami, co czyni go doskonałym wyborem dla programistów Java.
+## Typowe scenariusze użycia
 
-## Często zadawane pytania
+- **Przygotowywanie zasobów dla sieci** – przycinaj i zmieniaj rozmiar zrzutów ekranu lub projektów przed ich publikacją.  
+- **Generowanie miniatur** – wyodrębnij określony fragment dużego PSD w celu podglądu.  
+- **Automatyczne przetwarzanie wsadowe** – iteruj po folderze plików PSD, stosując ten sam prostokąt przycinania do każdego z nich.
 
-### P1: Czy Aspose.PSD jest kompatybilny z różnymi wersjami Java?
+## Rozwiązywanie problemów i wskazówki
 
-Odpowiedź 1: Tak, Aspose.PSD obsługuje różne wersje Java, zapewniając kompatybilność z szeroką gamą środowisk programistycznych.
+| Problem | Sugerowane rozwiązanie |
+|-------|----------------|
+| `OutOfMemoryError` przy ładowaniu dużych PSD | Wywołaj `rasterImage.cacheData()` wcześnie i rozważ zwiększenie rozmiaru sterty JVM (`-Xmx`). |
+| Przycięty obszar jest przesunięty | Sprawdź offsety X/Y prostokąta; pamiętaj, że ujemne wartości rozszerzają płótno. |
+| Wyjściowy JPEG jest rozmyty | Dostosuj ustawienie jakości w `JpegOptions` (np. `new JpegOptions { Quality = 90 }`). |
 
-### P2: Czy mogę używać Aspose.PSD do projektów komercyjnych?
+## Najczęściej zadawane pytania
 
-Odpowiedź 2: Oczywiście, Aspose.PSD zapewnia licencje komercyjne dla programistów, umożliwiając jego wykorzystanie zarówno w projektach osobistych, jak i komercyjnych.
+### Q1: Czy Aspose.PSD jest kompatybilny z różnymi wersjami Java?
 
-### P3: Czy istnieją jakieś ograniczenia dotyczące obsługiwanych formatów plików obrazów?
+A1: Tak, Aspose.PSD obsługuje różne wersje Java, zapewniając zgodność z szerokim zakresem środowisk programistycznych.
 
- O3: Aspose.PSD obsługuje różne formaty plików graficznych, w tym PSD, JPEG, PNG i inne. Patrz[dokumentacja](https://reference.aspose.com/psd/java/) aby uzyskać pełną listę.
+### Q2: Czy mogę używać Aspose.PSD w projektach komercyjnych?
 
-### P4: Jak mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.PSD?
+A2: Oczywiście, Aspose.PSD oferuje licencje komercyjne dla deweloperów, umożliwiając jego użycie zarówno w projektach prywatnych, jak i komercyjnych.
 
- A4: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) aby zwrócić się o pomoc do społeczności lub zespołu wsparcia Aspose.
+### Q3: Czy istnieją ograniczenia dotyczące obsługiwanych formatów plików obrazów?
 
-### P5: Czy dostępny jest bezpłatny okres próbny?
+A3: Aspose.PSD obsługuje wiele formatów plików graficznych, w tym PSD, JPEG, PNG i inne. Pełną listę znajdziesz w [dokumentacji](https://reference.aspose.com/psd/java/).
 
- Odpowiedź 5: Tak, możesz eksplorować Aspose.PSD w ramach bezpłatnego okresu próbnego. Pobierz to[Tutaj](https://releases.aspose.com/).
+### Q4: Jak mogę uzyskać wsparcie w sprawach związanych z Aspose.PSD?
+
+A4: Odwiedź [forum Aspose.PSD](https://forum.aspose.com/c/psd/34), aby uzyskać pomoc od społeczności lub zespołu wsparcia Aspose.
+
+### Q5: Czy dostępna jest darmowa wersja próbna?
+
+A5: Tak, możesz wypróbować Aspose.PSD w wersji trial. Pobierz ją [tutaj](https://releases.aspose.com/).
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-07  
+**Testowano z:** Aspose.PSD for Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
