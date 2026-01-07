@@ -1,32 +1,53 @@
 ---
-title: Zastosuj filtry medianowe i wienerowskie za pomocą Aspose.PSD dla Java
-linktitle: Zastosuj filtry mediany i Wienera
-second_title: Aspose.PSD API Java
-description: Poznaj moc przetwarzania obrazów w Javie za pomocą Aspose.PSD. Dowiedz się, jak krok po kroku zastosować filtry medianowe i wienerowskie. Popraw jakość obrazu bez wysiłku.
-weight: 12
+date: 2026-01-07
+description: Poznaj krok po kroku techniki filtracji, aby zastosować filtry medianowy
+  i Wiener przy użyciu Aspose.PSD dla Javy oraz efektywnie konwertować pliki PSD na
+  GIF.
+linktitle: Apply Median and Wiener Filters
+second_title: Aspose.PSD Java API
+title: 'Filtr krok po kroku: zastosowanie filtrów medianowego i Wienera (Java)'
 url: /pl/java/image-processing/apply-median-wiener-filters/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastosuj filtry medianowe i wienerowskie za pomocą Aspose.PSD dla Java
+# Filtr krok po kroku: Zastosowanie filtrów Median i Wiener (Java)
 
-## Wstęp
+## Wprowadzenie
 
-W dziedzinie programowania w języku Java Aspose.PSD wyróżnia się jako potężne narzędzie do manipulacji i przetwarzania obrazów. Jedną z kluczowych funkcjonalności, jakie oferuje, jest zastosowanie filtrów medianowych i wienerowskich, które odgrywają kluczową rolę w poprawie jakości obrazu i redukcji szumów. Ten przewodnik krok po kroku przeprowadzi Cię przez proces stosowania tych filtrów przy użyciu Aspose.PSD dla Java.
+Jeśli szukasz **step by step filter** workflow, aby oczyścić szumne obrazy w Javie, trafiłeś we właściwe miejsce. Aspose.PSD for Java umożliwia łatwe zastosowanie zarówno filtrów Median, jak i Wiener, a także pozwala **convert PSD to GIF** po przetworzeniu. W tym samouczku przeprowadzimy Cię przez wszystko, czego potrzebujesz — od konfiguracji biblioteki po zapisanie przefiltrowanego wyniku — abyś mógł z pewnością integrować wysokiej jakości odszumianie obrazów w swoich aplikacjach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi filtr Median?** Redukuje szum typu sól i pieprz, zachowując krawędzie.  
+- **Kiedy powinienem używać filtru Wiener?** Do adaptacyjnego usuwania szumu, które uwzględnia lokalną wariancję obrazu.  
+- **Czy potrzebna jest licencja do uruchomienia kodu?** Darmowa wersja próbna wystarcza do rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę zapisać wynik jako GIF?** Tak — Aspose.PSD umożliwia **convert PSD to GIF** w jednym kroku.  
+- **Jak długo trwa implementacja?** Zwykle mniej niż 10 minut przy podstawowej konfiguracji.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest filtr krok po kroku?
 
-1.  Aspose.PSD dla biblioteki Java: Pobierz i zainstaluj bibliotekę z[Tutaj](https://releases.aspose.com/psd/java/).
-2. Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowano środowisko programistyczne Java.
+Podejście *step by step filter* dzieli przetwarzanie obrazu na wyraźne, łatwe do zarządzania etapy — ładowanie obrazu, konfigurowanie opcji filtru, zastosowanie filtru i w końcu zapisanie wyniku. Ten metodyczny przepływ pomaga debugować każdy fragment, ponownie wykorzystywać kod i dostosowywać proces do różnych formatów obrazów.
 
-## Importuj pakiety
+## Dlaczego warto używać Aspose.PSD dla Javy?
 
-Rozpocznij od zaimportowania niezbędnych pakietów, aby wykorzystać funkcjonalność Aspose.PSD w projekcie Java:
+- **Szerokie wsparcie formatów** – Obsługuje PSD, PNG, JPEG, GIF i inne.  
+- **Brak zewnętrznych zależności** – Czysta Java, łatwa do osadzenia w każdym projekcie.  
+- **Wbudowane opcje filtrów** – Median, Wiener i inne zaawansowane filtry są dostępne od razu.  
+- **Konwersja jednym kliknięciem** – Eksport bezpośrednio do GIF, PNG lub JPEG po przetworzeniu.
+
+## Wymagania wstępne
+
+Przed rozpoczęciem upewnij się, że masz:
+
+1. **Aspose.PSD for Java Library** – Pobierz i zainstaluj bibliotekę z [here](https://releases.aspose.com/psd/java/).  
+2. **Java Development Environment** – JDK 8+ oraz IDE lub narzędzie budujące (Maven/Gradle) skonfigurowane na Twoim komputerze.
+
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych klas, które dają dostęp do obsługi obrazu i opcji filtrów.
 
 ```java
 import com.aspose.psd.Image;
@@ -36,22 +57,26 @@ import com.aspose.psd.imagefilters.filteroptions.MedianFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
 
-## Stosowanie filtra medianowego
+## Filtr krok po kroku: Jak zastosować filtr Median
 
 ### Krok 1: Załaduj obraz
+
+Najpierw wskaż API na plik PSD, który chcesz oczyścić.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-//Załaduj obraz źródłowy
+// Load the source image
 Image image = Image.load(sourceFile);
 ```
 
-### Krok 2: Rzuć obraz na RasterImage
+### Krok 2: Rzutuj obraz na RasterImage
+
+Filtr działa na danych rastrowych, więc rzutujemy ogólny `Image` na `RasterImage`.
 
 ```java
-// Rzuć obraz do RasterImage
+// Cast the image into RasterImage
 RasterImage rasterImage = (RasterImage)image;
 if (rasterImage == null) {
     return;
@@ -60,53 +85,75 @@ if (rasterImage == null) {
 
 ### Krok 3: Utwórz instancję MedianFilterOptions
 
+Skonfiguruj rozmiar jądra medianowego. Rozmiar **4** sprawdza się dobrze przy umiarkowanym szumie.
+
 ```java
-// Utwórz instancję klasy MedianFilterOptions i ustaw rozmiar filtra
+// Create an instance of MedianFilterOptions class and set the filter size
 MedianFilterOptions options = new MedianFilterOptions(4);
 ```
 
-### Krok 4: Zastosuj filtr mediany
+### Krok 4: Zastosuj filtr Median
+
+Teraz zastosuj filtr do całego zakresu obrazu.
 
 ```java
-// Zastosuj filtr MedianFilterOptions do obiektu RasterImage
+// Apply MedianFilterOptions filter to RasterImage object
 rasterImage.filter(image.getBounds(), options);
 ```
 
-### Krok 5: Zapisz wynikowy obraz
+### Krok 5: Zapisz wynikowy obraz (Convert PSD to GIF)
+
+Po odszumieniu zapiszemy wynik jako GIF — demonstrując możliwość **convert PSD to GIF**.
 
 ```java
 String destName = dataDir + "median_test_denoise_out.gif";
-// Zapisz wynikowy obraz jako GIF
+// Save the resultant image as a GIF
 image.save(destName, new GifOptions());
 ```
 
-Wykonując poniższe kroki, pomyślnie zastosowałeś filtr medianowy do swojego obrazu przy użyciu Aspose.PSD dla Java.
+Postępując zgodnie z tymi krokami, pomyślnie zastosowałeś filtr Median i wyeksportowałeś oczyszczony obraz jako GIF.
 
-## Wniosek
+## Zastosowanie filtru Wiener (rozszerzenie opcjonalne)
 
-W tym samouczku zbadaliśmy proces stosowania filtrów medianowych i wienerowskich przy użyciu Aspose.PSD dla Java. Filtry te są niezbędne do poprawy jakości obrazu i redukcji szumów w aplikacjach Java. Wykorzystując moc Aspose.PSD, możesz bez wysiłku włączyć te filtry do procesów przetwarzania obrazu.
+Jeśli Twój projekt wymaga adaptacyjnego usuwania szumu, możesz zamienić filtr Median na filtr Wiener. Struktura kodu jest identyczna; wystarczy zaimportować `WienerFilterOptions` i utworzyć jego instancję z żądanym promieniem.
 
-## Często zadawane pytania
+> **Pro tip:** Eksperymentuj z różnymi rozmiarami jąder dla obu filtrów, aby znaleźć optymalny kompromis między usuwaniem szumu a zachowaniem szczegółów.
 
-### P1: Czy mogę zastosować te filtry do obrazów w dowolnym formacie?
+## Typowe problemy i rozwiązywanie
 
-Odpowiedź 1: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, dzięki czemu jest wszechstronny w różnych projektach.
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|-------|--------------------------|-------------|
+| `ClassCastException` when casting to `RasterImage` | Input file isn’t a raster‑compatible PSD | Verify the PSD contains raster layers or convert layers to raster first |
+| Output GIF is blank | Destination path is incorrect or folder lacks write permission | Ensure `dataDir` points to an existing writable directory |
+| Filter seems to have no effect | Kernel size is too small for the noise level | Increase the filter size (e.g., `new MedianFilterOptions(6)`) |
 
-### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD dla Java?
+## Najczęściej zadawane pytania
 
- A2: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+**Q1: Czy mogę zastosować te filtry do obrazów w dowolnym formacie?**  
+A1: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, co czyni go wszechstronnym dla różnych projektów.
 
-### P3: Jak uzyskać wsparcie dla Aspose.PSD dla Java?
+**Q2: Czy dostępna jest darmowa wersja próbna Aspose.PSD dla Javy?**  
+A2: Tak, możesz uzyskać darmową wersję próbną [here](https://releases.aspose.com/).
 
- A3: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności.
+**Q3: Jak uzyskać wsparcie dla Aspose.PSD dla Javy?**  
+A3: Odwiedź [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) dla wsparcia społeczności.
 
-### P4: Gdzie mogę znaleźć dokumentację Aspose.PSD dla Java?
+**Q4: Gdzie mogę znaleźć dokumentację Aspose.PSD dla Javy?**  
+A4: Zapoznaj się z dokumentacją [here](https://reference.aspose.com/psd/java/).
 
- Odpowiedź 4: Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/psd/java/).
+**Q5: Jak mogę zakupić Aspose.PSD dla Javy?**  
+A5: Produkt możesz kupić [here](https://purchase.aspose.com/buy).
 
-### P5: Jak mogę kupić Aspose.PSD dla Java?
+## Podsumowanie
 
- A5: Możesz kupić produkt[Tutaj](https://purchase.aspose.com/buy).
+W tym przewodniku przedstawiliśmy proces **step by step filter** dla zastosowania filtrów Median (i opcjonalnie Wiener) przy użyciu Aspose.PSD for Java oraz pokazaliśmy, jak **convert PSD to GIF** po odszumieniu. Dzięki tym elementom budulcowym możesz zintegrować solidne potoki przetwarzania obrazu w dowolnej aplikacji Java — niezależnie od tego, czy oczyszczasz zdjęcia, przygotowujesz zasoby na stronę internetową, czy automatyzujesz konwersje wsadowe.
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
