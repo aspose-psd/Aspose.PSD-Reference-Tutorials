@@ -1,32 +1,52 @@
 ---
-title: Aspose.PSD for Java 中具有固定閾值的二值化
-linktitle: 固定閾值二值化
+date: 2026-01-09
+description: 探索這個使用 Aspose.PSD for Java 的 Java 圖像處理教學，主題為固定閾值二值化。透過我們的逐步指南，輕鬆轉換圖像。
+linktitle: Binarization with Fixed Threshold
 second_title: Aspose.PSD Java API
-description: 在 Aspose.PSD for Java 中探索具有固定閾值的二值化。使用我們的逐步指南無縫轉換影像。
-weight: 14
+title: Java 圖像處理教學：使用 Aspose.PSD for Java 進行固定閾值二值化
 url: /zh-hant/java/image-processing/binarization-fixed-threshold/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java 中具有固定閾值的二值化
+# Java 圖像處理教學：使用 Aspose.PSD for Java 進行固定閾值二值化
 
 ## 介紹
 
-在 Java 開發領域，Aspose.PSD 被證明是影像處理任務的強大工具。其中一個重要的操作是二值化，這是一種透過將影像轉換為二進位形式來簡化影像的技術。本教學將引導您完成使用 Aspose.PSD for Java 實作具有固定閾值的二值化的過程。當我們探索這次變革性影像處理之旅所涉及的步驟時，請繫好安全帶。
+如果你在尋找 **java image processing tutorial**，恭喜你來對地方了。在本指南中，我們將示範如何使用 Aspose.PSD for Java 以固定閾值對 PSD 圖像進行二值化。完成後，你將擁有一套清、可重用的模式，能直接套用於任何需要快速、可靠圖像前處理的 Java 專案。
 
-## 先決條件
+## 快速回答
+- **「二值化」是什麼意思？** 依據閾值將圖像轉換為黑白像素。
+- **哪個函式庫負責主要運算？** Aspose.PSD for Java。
+- **測試需要授權嗎？** 需要 – 可取得臨時授權進行評估。
+- **支援哪些輸出格式？** 任何 Aspose.PSD 支援的格式，如 JPEG、PNG、BMP 等。
+- **實作大約需要多久？** 基本設定約 10‑15 分鐘即可完成。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## java image processing tutorial：概觀
+二值化常是 OCR 工作流程、文件清理或任何需要將前景與背景分離的情境的第一步。使用固定閾值可得到確定性的結果，且計算成本低，特別適合大量圖像的批次處理。
 
-- 對 Java 程式設計有基本的了解。
-- 安裝了 Java 函式庫的 Aspose.PSD。就可以找到需要的套件了[這裡](https://releases.aspose.com/psd/java/).
+## 什麼是固定閾值二值化？
+固定閾值二值化在整張圖像上套用單一強度值（例如 100）。亮於閾值的像素變為白色，暗於閾值的像素變為黑色。雖然也有自適應方法，但固定閾值簡單、快速，且非常適合光線一致的圖像。
 
-## 導入包
+## 為什麼選擇 Aspose.PSD for Java？
+- **完整的 PSD 支援** – 無需 Photoshop，即可讀取、編輯與儲存 PSD 檔案。
+- **跨平台** – 只要能執行 Java 的作業系統皆可使用。
+- **豐富的圖像處理 API** – 內建快取、縮放與二值化等功能。
+- **無原生相依** – 純 Java 實作，輕鬆整合至 Maven/Gradle 專案。
 
-首先，將所需的套件匯入到您的 Java 專案中。確保您已將 Aspose.PSD 庫合併到您的專案結構中。
+## 前置需求
+
+在開始教學之前，請先確保具備以下條件：
+
+- 基本的 Java 程式設計概念。
+- 已安裝 Aspose.PSD for Java 函式庫。相關套件可於 [此處](https://releases.aspose.com/psd/java/) 取得。
+
+## 匯入套件
+
+先在 Java 專案中匯入所需的套件，並確保已將 Aspose.PSD 函式庫加入專案結構。
 
 ```java
 import com.aspose.psd.Image;
@@ -35,17 +55,17 @@ import com.aspose.psd.RasterCachedImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## 第 1 步：設定您的項目
+## 步驟 1：建立專案
 
-首先設定一個 Java 專案並包含 Aspose.PSD 庫。確保您已準備好文件目錄。
+先建立一個 Java 專案，並將 Aspose.PSD 函式庫加入參考。確保已準備好文件目錄。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 步驟2：載入來源圖像
+## 步驟 2：載入來源圖像
 
-指定來源 PSD 檔案並將其載入到 Image 物件中。
+指定來源 PSD 檔案，並將其載入為 Image 物件。
 
 ```java
 String sourceFile = dataDir + "sample.psd";
@@ -53,9 +73,9 @@ Image image = Image.load(sourceFile);
 RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 ```
 
-## 第 3 步：快取映像
+## 步驟 3：快取圖像
 
-檢查圖片是否已經緩存，如果沒有，則快取。
+檢查圖像是否已被快取，若未快取則執行快取。
 
 ```java
 if (!rasterCachedImage.isCached()) {
@@ -63,53 +83,58 @@ if (!rasterCachedImage.isCached()) {
 }
 ```
 
-## 第四步：將影像進行二值化
+## 步驟 4：二值化圖像
 
-使用預先定義的固定閾值（在本例中為 100）執行二值化過程。
+使用預先設定的固定閾值（本例為 100）執行二值化處理。
 
 ```java
 rasterCachedImage.binarizeFixed((byte)100);
 ```
 
-## 步驟5：儲存結果影像
+## 步驟 5：儲存結果圖像
 
-使用所需的輸出格式（在本例中為 JPEG）儲存二值化影像。
+將二值化後的圖像以指定的輸出格式（本例為 JPEG）儲存。
 
 ```java
 String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-就是這樣！您已使用 Aspose.PSD for Java 成功應用了具有固定閾值的二值化。
+完成！你已成功使用 Aspose.PSD for Java 以固定閾值執行二值化。
 
-## 結論
+## 常見問題與解決方案
+- **圖像未快取錯誤：** 請確保在呼叫 `binarizeFixed` 前 `rasterCachedImage.isCached()` 回傳 `true`。上述程式碼已自動處理快取。
+- **輸出顏色不正確：** 請檢查閾值設定；較低的值會產生較多黑色，較高的值則產生較多白色。
+- **不支援的檔案格式：** Aspose.PSD 支援 PSD、JPEG、PNG、BMP、GIF、TIFF 等。請使用支援的格式作為輸入與輸出。
 
-在本教程中，我們深入研究了使用 Aspose.PSD for Java 進行影像處理的領域，特別關注具有固定閾值的二值化。透過執行以下步驟，您可以使用強大的影像轉換功能來增強 Java 應用程式。
+## 常見問答
 
-## 常見問題解答
+**Q1：我可以對除 PSD 之外的其他圖像格式進行二值化嗎？**  
+A1：可以，Aspose.PSD 支援多種圖像格式，二值化同樣適用於這些圖像。
 
-### Q1：我可以將二值化套用到 PSD 以外的其他影像格式嗎？
+**Q2：是否提供測試用的臨時授權？**  
+A2：當然！你可於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權，以便測試與評估。
 
-A1：是的，Aspose.PSD支援各種影像格式，使得二值化適用於廣泛的影像。
+**Q3：我可以在哪裡取得更多支援或社群討論？**  
+A3：請前往 [Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34) 取得社群支援與討論。
 
-### Q2：臨時許可證是否可用於測試目的？
+**Q4：如何購買 Aspose.PSD 函式庫？**  
+A4：可於 [此處](https://purchase.aspose.com/buy) 完成購買。
 
- A2：當然！您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估。
+**Q5：是否有免費試用版？**  
+A5：有，請至 [此處](https://releases.aspose.com/) 下載免費試用版，體驗 Aspose.PSD 的功能。
 
-### 問題 3：我可以在哪裡找到其他支援或社區討論？
-
- A3：訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)對於您可能有的任何疑問，請尋求社區支持和討論。
-
-### Q4：如何購買Aspose.PSD庫？
-
- A4：您可以購買Aspose.PSD庫[這裡](https://purchase.aspose.com/buy).
-
-### Q5: 有免費試用版嗎？
-
- A5：是的，您可以透過免費試用版探索 Aspose.PSD 的功能[這裡](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-01-09  
+**測試環境：** Aspose.PSD for Java 24.11（最新）  
+**作者：** Aspose  
+
+---

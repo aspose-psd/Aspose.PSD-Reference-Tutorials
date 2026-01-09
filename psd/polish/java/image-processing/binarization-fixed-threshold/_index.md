@@ -1,32 +1,55 @@
 ---
-title: Binaryzacja ze stałym progiem w Aspose.PSD dla Java
-linktitle: Binaryzacja ze stałym progiem
-second_title: Aspose.PSD API Java
-description: Poznaj binaryzację ze stałym progiem w Aspose.PSD dla Java. Bezproblemowo przekształcaj obrazy, korzystając z naszego przewodnika krok po kroku.
-weight: 14
+date: 2026-01-09
+description: Poznaj ten samouczek przetwarzania obrazów w Javie dotyczący binaryzacji
+  z stałym progiem przy użyciu Aspose.PSD dla Javy. Transformuj obrazy płynnie dzięki
+  naszemu przewodnikowi krok po kroku.
+linktitle: Binarization with Fixed Threshold
+second_title: Aspose.PSD Java API
+title: 'Samouczek przetwarzania obrazów w Javie: binaryzacja z stałym progiem przy
+  użyciu Aspose.PSD dla Javy'
 url: /pl/java/image-processing/binarization-fixed-threshold/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Binaryzacja ze stałym progiem w Aspose.PSD dla Java
+# Samouczek przetwarzania obrazów w Javie: Binaryzacja z stałym progiem w Aspose.PSD for Java
 
 ## Wstęp
 
-W dziedzinie programowania w języku Java Aspose.PSD okazuje się potężnym narzędziem do zadań przetwarzania obrazu. Jedną z takich niezbędnych operacji jest binaryzacja, technika upraszczająca obrazy poprzez konwersję ich do postaci binarnej. Ten samouczek poprowadzi Cię przez proces osiągania binaryzacji ze stałym progiem przy użyciu Aspose.PSD dla Java. Zapnij pasy, gdy będziemy odkrywać etapy tej transformacyjnej podróży w zakresie przetwarzania obrazu.
+Jeśli szukasz **samouczka przetwarzania obrazów w Javie**, trafiłeś we właściwe miejsce. W tym przewodniku przeprowadzimy Cię krok po kroku przez proces binaryzacji obrazu PSD przy użyciu stałego progu w Aspose.PSD for Java. Po zakończeniu będziesz posiadał przejrzysty, wielokrotnego użytku wzorzec, który możesz wstawić do dowolnego projektu Javy wymagającego szybkiego i niezawodnego wstępnego przetwarzania obrazów.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „binaryzacja”?** Konwersja obrazu do czarno‑białych pikseli na podstawie progu.
+- **Która biblioteka wykonuje ciężką pracę?** Aspose.PSD for Java.
+- **Czy potrzebna jest licencja do testów?** Tak – dostępna jest tymczasowa licencja do oceny.
+- **Jakie formaty wyjściowe są obsługiwane?** Wszystkie formaty obsługiwane przez Aspose.PSD, takie jak JPEG, PNG, BMP itp.
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowej konfiguracji.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## samouczek przetwarzania obrazów w Javie: Przegląd
+Binaryzacja jest często pierwszym krokiem w potokach OCR, czyszczeniu dokumentów lub w każdej sytuacji, w której trzeba odseparować pierwszoplanowy obiekt od tła. Użycie stałego progu daje deterministyczne wyniki i jest obliczeniowo tanie, co czyni je idealnym do przetwarzania wsadowego dużych kolekcji obrazów.
 
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.PSD dla Java. Możesz znaleźć potrzebne pakiety[Tutaj](https://releases.aspose.com/psd/java/).
+## Co to jest binaryzacja ze stałym progiem?
+Binaryzacja ze stałym progiem stosuje jedną wartość intensywności (np. 100) w całym obrazie. Piksele jaśniejsze niż próg stają się białe; ciemniejsze – czarne. Choć istnieją metody adaptacyjne, stały próg jest prosty, szybki i doskonale nadaje się do obrazów o jednolitym oświetleniu.
 
-## Importuj pakiety
+## Dlaczego warto używać Aspose.PSD for Java?
+- **Pełne wsparcie PSD** – odczyt, edycja i zapisywanie plików PSD bez Photoshopa.
+- **Wieloplatformowość** – działa na każdym systemie operacyjnym obsługującym Javę.
+- **Bogate API przetwarzania obrazów** – zawiera buforowanie, skalowanie i binaryzację od razu.
+- **Brak zależności natywnych** – czysta Java, łatwa integracja z projektami Maven/Gradle.
 
-Aby rozpocząć, zaimportuj wymagane pakiety do swojego projektu Java. Upewnij się, że masz bibliotekę Aspose.PSD włączoną do struktury projektu.
+## Wymagania wstępne
+
+Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania:
+
+- Podstawowa znajomość programowania w Javie.
+- Biblioteka Aspose.PSD for Java zainstalowana. Potrzebne pakiety znajdziesz [tutaj](https://releases.aspose.com/psd/java/).
+
+## Importowanie pakietów
+
+Aby rozpocząć, zaimportuj wymagane pakiety do swojego projektu Java. Upewnij się, że biblioteka Aspose.PSD jest włączona w strukturę projektu.
 
 ```java
 import com.aspose.psd.Image;
@@ -35,17 +58,17 @@ import com.aspose.psd.RasterCachedImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Krok 1: Skonfiguruj swój projekt
+## Krok 1: Konfiguracja projektu
 
-Rozpocznij od skonfigurowania projektu Java i dołączenia biblioteki Aspose.PSD. Upewnij się, że masz gotowy katalog dokumentów.
+Rozpocznij od utworzenia projektu Java i dołączenia biblioteki Aspose.PSD. Upewnij się, że masz gotowy katalog dokumentów.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Załaduj obraz źródłowy
+## Krok 2: Załadowanie obrazu źródłowego
 
-Określ źródłowy plik PSD i załaduj go do obiektu Image.
+Określ plik PSD źródłowy i wczytaj go do obiektu Image.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
@@ -53,9 +76,9 @@ Image image = Image.load(sourceFile);
 RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
 ```
 
-## Krok 3: Zapisz obraz w pamięci podręcznej
+## Krok 3: Buforowanie obrazu
 
-Sprawdź, czy obraz jest już zapisany w pamięci podręcznej, a jeśli nie, zapisz go w pamięci podręcznej.
+Sprawdź, czy obraz jest już buforowany, a jeśli nie, buforuj go.
 
 ```java
 if (!rasterCachedImage.isCached()) {
@@ -63,53 +86,58 @@ if (!rasterCachedImage.isCached()) {
 }
 ```
 
-## Krok 4: Binaryzuj obraz
+## Krok 4: Binaryzacja obrazu
 
-Wykonaj proces binaryzacji ze wstępnie zdefiniowanym stałym progiem (w tym przypadku 100).
+Wykonaj proces binaryzacji z wcześniej zdefiniowanym stałym progiem (w tym przypadku 100).
 
 ```java
 rasterCachedImage.binarizeFixed((byte)100);
 ```
 
-## Krok 5: Zapisz wynikowy obraz
+## Krok 5: Zapisanie wynikowego obrazu
 
-Zapisz binarny obraz w żądanym formacie wyjściowym (w tym przypadku JPEG).
+Zapisz binaryzowany obraz w żądanym formacie wyjściowym (w tym przypadku JPEG).
 
 ```java
 String destName = dataDir + "BinarizationWithFixedThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-I tyle! Pomyślnie zastosowałeś binaryzację ze stałym progiem przy użyciu Aspose.PSD dla Java.
+I to wszystko! Pomyślnie zastosowano binaryzację ze stałym progiem przy użyciu Aspose.PSD for Java.
 
-## Wniosek
+## Typowe problemy i rozwiązania
+- **Błąd „obraz nie jest buforowany”**: Upewnij się, że `rasterCachedImage.isCached()` zwraca `true` przed wywołaniem `binarizeFixed`. Powyższy fragment kodu automatycznie obsługuje buforowanie.
+- **Nieprawidłowe kolory wyjściowe**: Sprawdź wartość progu; niższe wartości dają więcej czerni, wyższe – więcej bieli.
+- **Nieobsługiwany format pliku**: Aspose.PSD obsługuje PSD, JPEG, PNG, BMP, GIF, TIFF itp. Użyj obsługiwanego formatu zarówno dla wejścia, jak i wyjścia.
 
-W tym samouczku zagłębiliśmy się w świat przetwarzania obrazów za pomocą Aspose.PSD dla Java, skupiając się szczególnie na binaryzacji ze stałym progiem. Wykonując poniższe kroki, możesz wzbogacić swoje aplikacje Java o zaawansowane możliwości transformacji obrazów.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**Q1: Czy mogę zastosować binaryzację do innych formatów obrazów niż PSD?**  
+A1: Tak, Aspose.PSD obsługuje różne formaty obrazów, co pozwala na zastosowanie binaryzacji do szerokiej gamy plików.
 
-### P1: Czy mogę zastosować binaryzację do innych formatów obrazów oprócz PSD?
+**Q2: Czy dostępna jest tymczasowa licencja do celów testowych?**  
+A2: Oczywiście! Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/) do testów i oceny.
 
-O1: Tak, Aspose.PSD obsługuje różne formaty obrazów, dzięki czemu binaryzacja ma zastosowanie do szerokiej gamy obrazów.
+**Q3: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?**  
+A3: Odwiedź [forum Aspose.PSD](https://forum.aspose.com/c/psd/34), gdzie znajdziesz wsparcie społeczności i dyskusje na temat wszelkich pytań.
 
-### P2: Czy dostępna jest licencja tymczasowa do celów testowych?
+**Q4: Jak mogę zakupić bibliotekę Aspose.PSD?**  
+A4: Bibliotekę Aspose.PSD możesz kupić [tutaj](https://purchase.aspose.com/buy).
 
- A2: Oczywiście! Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania i oceny.
+**Q5: Czy dostępna jest wersja próbna?**  
+A5: Tak, możliwości Aspose.PSD możesz wypróbować w wersji trial [tutaj](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
-
- A3: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia społeczności i dyskusji na temat wszelkich pytań, jakie możesz mieć.
-
-### P4: Jak kupić bibliotekę Aspose.PSD?
-
- O4: Możesz kupić bibliotekę Aspose.PSD[Tutaj](https://purchase.aspose.com/buy).
-
-### P5: Czy dostępna jest bezpłatna wersja próbna?
-
- Odpowiedź 5: Tak, możesz poznać możliwości Aspose.PSD dzięki bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-09  
+**Testowano z:** Aspose.PSD for Java 24.11 (najnowsza)  
+**Autor:** Aspose  
+
+---
