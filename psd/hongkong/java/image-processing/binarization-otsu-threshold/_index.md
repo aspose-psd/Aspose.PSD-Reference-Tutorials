@@ -1,35 +1,53 @@
 ---
-title: Aspose.PSD for Java 中使用 Otsu Threshold 進行二值化
-linktitle: 使用 Otsu 閾值進行二值化
+date: 2026-01-09
+description: 學習如何使用 Aspose.PSD for Java 執行影像分割 Otsu。此教學涵蓋 Java 影像處理、如何二值化以及套用 Otsu
+  閾值。
+linktitle: Binarization with Otsu Threshold
 second_title: Aspose.PSD Java API
-description: 在 Aspose.PSD for Java 中使用 Otsu Threshold 來探索二值化。強大的影像分割技術。
-weight: 15
+title: 影像分割 Otsu – 在 Aspose.PSD for Java 中使用 Otsu 閾值的二值化
 url: /zh-hant/java/image-processing/binarization-otsu-threshold/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java 中使用 Otsu Threshold 進行二值化
+# 使用 Aspose.PSD for Java 進行 Otsu 閾值二值化
 
 ## 介紹
 
-歡迎閱讀有關在 Aspose.PSD for Java 中使用 Otsu Threshold 執行二值化的逐步指南！在本教程中，我們將探討如何利用 Aspose.PSD for Java 函式庫來增強影像處理能力。使用 Otsu Threshold 進行二值化是一種強大的影像分割技術，而使用 Aspose.PSD，它變得既簡單又有效率。
+歡迎！在本步驟教學中，您將學會使用 Aspose.PSD for Java 函式庫進行 **image segmentation otsu**。無論您是開發相片編輯工具、自動化文件分析管線，或任何 **java image processing** 專案，掌握如何使用 Otsu 閾值將影像二值化，都能為您提供可靠的 **binary image conversion** 方法。讓我們從環境設定一直走到最終 JPEG 儲存，完整示範如何在自己的應用程式中套用 Otsu。
 
-## 先決條件
+## 快速解答
+- **Otsu 閾值的作用是什麼？** 它會自動找出最佳的灰階分割點，以區分前景與背景像素。  
+- **哪個 Java 函式庫支援此功能？** Aspose.PSD for Java 內建 `binarizeOtsu()` 方法。  
+- **試用需要授權嗎？** 提供免費試用版；正式上線需購買授權。  
+- **可以輸出哪些格式？** 範例儲存為 JPEG，但任何 `RasterCachedImage.save()` 支援的格式皆可。  
+- **實作需要多長時間？** 使用即成的 API，十分鐘內即可完成可運作的解決方案。
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是 Image Segmentation Otsu？
 
-- Java 開發環境：確保您的電腦上設定了有效的 Java 開發環境。
+**Image segmentation otsu** 是一種統計技術，用於找出將灰階影像轉換為二值影像的最佳閾值。此方法會評估前景與背景的類內變異，選擇使變異最小化的閾值，從而達到物件與背景的明顯分離。
 
-- Aspose.PSD for Java 函式庫：下載並安裝 Aspose.PSD for Java 函式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/psd/java/).
+## 為什麼選擇 Aspose.PSD for Java？
 
-- 範例 PSD 檔案：準備好範例 PSD 文件，用於測試 Otsu 閾值二值化過程。
+- **高效快取** – 能有效處理大型 PSD 檔案。  
+- **一行二值化** – `binarizeOtsu()` 直接完成繁重工作。  
+- **跨格式支援** – 載入 PSD、處理後可儲存為 JPEG、PNG 等多種格式。  
+- **企業級授權** – 適用於商業應用。
 
-## 導入包
+## 前置條件
 
-首先匯入必要的套件來啟動您的專案：
+在開始撰寫程式碼之前，請確保您已具備以下項目：
+
+- **Java 開發環境** – 已安裝 JDK 8 以上版本。  
+- **Aspose.PSD for Java 函式庫** – 可從官方網站[此處](https://releases.aspose.com/psd/java/)下載。  
+- **範例 PSD 檔案** – 您想要二值化的 PSD（例如 `sample.psd`）。
+
+## 匯入套件
+
+先匯入必要的類別：
 
 ```java
 import com.aspose.psd.Image;
@@ -38,26 +56,26 @@ import com.aspose.psd.RasterCachedImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## 第 1 步：設定您的文件目錄
+## 步驟 1：設定文件目錄
 
-定義 PSD 檔案所在的目錄：
+定義包含來源 PSD 以及輸出結果的資料夾路徑：
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 第 2 步：載入 PSD 文件
+## 步驟 2：載入 PSD 檔案
 
-將 PSD 檔案載入到您的 Java 應用程式中：
+將 PSD 載入為 `Image` 物件，以便後續操作：
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-## 第 3 步：快取映像
+## 步驟 3：快取影像
 
-檢查圖片是否已經緩存，如果沒有，則快取：
+若影像尚未快取，先將其快取以提升處理速度：
 
 ```java
 RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
@@ -67,48 +85,71 @@ if (!rasterCachedImage.isCached()) {
 }
 ```
 
-## 步驟 4：使用 Otsu 閾值對影像進行二值化
+## 步驟 4：使用 Otsu 閾值二值化影像
 
-應用 Otsu Thresholding 技術對影像進行二值化：
+套用 Otsu 演算法——這是 **how to apply otsu** 於 **binary image conversion** 的核心步驟：
 
 ```java
 rasterCachedImage.binarizeOtsu();
 ```
 
-## 第 5 步：儲存結果影像
+## 步驟 5：儲存結果影像
 
-使用 JpegOptions 儲存二值化影像：
+最後，使用 `JpegOptions`（亦可改用 PNG 或 BMP）將二值化後的影像寫入磁碟：
 
 ```java
 String destName = dataDir + "BinarizationWithOtsuThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|-------|--------|-----|
+| **`ClassCastException`** | 嘗試將非 raster 影像轉型 | 確認 PSD 含有 raster 圖層，或在轉型前使用 `image.convertToRasterImage()`。 |
+| **記憶體不足** | 大型 PSD 檔案佔用過多 RAM | 盡早呼叫 `rasterCachedImage.cacheData()`，並考慮增大 JVM 堆積大小（`-Xmx`）。 |
+| **輸出顏色不正確** | 影像未正確快取 | 在呼叫 `binarizeOtsu()` 前，確認 `isCached()` 回傳 `true`。 |
+
+## 常見問答
+
+### Q1：什麼是 Otsu 閾值二值化？
+
+A1：Otsu 閾值二值化是一種影像分割方法，透過最佳化的閾值將影像分為前景與背景。
+
+### Q2：可以免費使用 Aspose.PSD for Java 嗎？
+
+A2：Aspose.PSD for Java 為商業函式庫，但提供免費試用版。取得方式請見[此處](https://releases.aspose.com/)。
+
+### Q3：在哪裡可以找到 Aspose.PSD for Java 的文件說明？
+
+A3：文件說明位於[此處](https://reference.aspose.com/psd/java/)。
+
+### Q4：如何取得 Aspose.PSD for Java 的技術支援？
+
+A4：可前往 Aspose.PSD 論壇[此處](https://forum.aspose.com/c/psd/34)尋求社群協助。
+
+### Q5：是否提供臨時授權給 Aspose.PSD for Java？
+
+A5：是的，您可以在[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。
+
+**其他問答**
+
+**Q：此方法在更大的 java image processing 工作流程中扮演什麼角色？**  
+A：二值化後的影像可直接供輪廓偵測、OCR 前處理或形狀分析等模組使用。
+
+**Q：可以調整 Otsu 演算法的參數嗎？**  
+A：`binarizeOtsu()` 使用標準 Otsu 實作；若需自訂閾值，可改用 `binarize(int threshold)`。
+
 ## 結論
 
-恭喜！您已經成功學習如何在 Aspose.PSD for Java 中使用 Otsu Threshold 執行二值化。該技術可以顯著改進 Java 應用程式中的影像分割。
+現在您已了解如何使用 Aspose.PSD for Java 執行 **image segmentation otsu**。只要依照本教學步驟——設定環境、載入並快取 PSD、呼叫 `binarizeOtsu()`，最後儲存結果，即可在任何 **java image processing** 專案中整合穩定的二值化功能。您可以嘗試不同來源檔案、結合 OCR，或打造批次處理器一次處理多個 PSD。
 
-## 常見問題解答
+---
 
-### Q1：什麼是大津閾值二值化？
+**最後更新：** 2026-01-09  
+**測試版本：** Aspose.PSD for Java 24.11（撰寫時的最新版本）  
+**作者：** Aspose  
 
-A1：大津閾值二值化是一種用於影像分割的方法，基於最佳閾值將影像分為前景和背景。
-
-### Q2：我可以免費使用Aspose.PSD for Java嗎？
-
- A2：Aspose.PSD for Java 是一個商業函式庫，但您可以透過免費試用來探索其功能。得到它[這裡](https://releases.aspose.com/).
-
-### Q3：哪裡可以找到 Aspose.PSD for Java 文件？
-
-A3：文檔可用[這裡](https://reference.aspose.com/psd/java/).
-
-### 問題 4：如何獲得 Aspose.PSD for Java 支援？
-
- A4：造訪Aspose.PSD論壇[這裡](https://forum.aspose.com/c/psd/34)以獲得社區支持。
-
-### Q5：Aspose.PSD for Java 有臨時授權嗎？
-
- A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

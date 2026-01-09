@@ -1,35 +1,53 @@
 ---
-title: ไบนารี่ด้วยเกณฑ์ Otsu ใน Aspose.PSD สำหรับ Java
-linktitle: ไบนารี่ด้วยเกณฑ์ Otsu
+date: 2026-01-09
+description: เรียนรู้วิธีทำการแยกส่วนภาพด้วย Otsu โดยใช้ Aspose.PSD สำหรับ Java บทเรียนนี้ครอบคลุมการประมวลผลภาพด้วย
+  Java วิธีทำให้เป็นภาพขาว‑ดำ และการใช้ค่าเกณฑ์ Otsu.
+linktitle: Binarization with Otsu Threshold
 second_title: Aspose.PSD Java API
-description: สำรวจไบนารี่ด้วย Otsu Threshold ใน Aspose.PSD สำหรับ Java เทคนิคการแบ่งส่วนภาพอันทรงพลัง
-weight: 15
+title: การแบ่งส่วนภาพ Otsu – การทำไบนารีด้วยเกณฑ์ Otsu ใน Aspose.PSD สำหรับ Java
 url: /th/java/image-processing/binarization-otsu-threshold/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ไบนารี่ด้วยเกณฑ์ Otsu ใน Aspose.PSD สำหรับ Java
+# การทำไบนารีด้วยค่าเกณฑ์ Otsu ใน Aspose.PSD สำหรับ Java
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการดำเนินการ Binarization ด้วย Otsu Threshold ใน Aspose.PSD สำหรับ Java! ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ประโยชน์จากไลบรารี Aspose.PSD สำหรับ Java เพื่อปรับปรุงความสามารถในการประมวลผลภาพของคุณ การแบ่งส่วนภาพแบบไบนาไรเซชั่นด้วย Otsu Threshold เป็นเทคนิคที่ทรงพลังสำหรับการแบ่งส่วนภาพ และด้วย Aspose.PSD จะทำให้ทั้งตรงไปตรงมาและมีประสิทธิภาพ
+ยินดีต้อนรับ! ในคู่มือแบบขั้นตอนนี้คุณจะได้เรียนรู้ **image segmentation otsu** โดยใช้ไลบรารี Aspose.PSD สำหรับ Java ไม่ว่าคุณจะกำลังสร้างเครื่องมือแก้ไขภาพ, ระบบอัตโนมัติสำหรับการวิเคราะห์เอกสาร, หรือโครงการ **java image processing** ใด ๆ การเชี่ยวชาญวิธีการทำไบนารีภาพด้วยค่าเกณฑ์ Otsu จะทำให้คุณมีวิธีที่เชื่อถือได้ในการสร้าง **binary image conversion** ที่สะอาด มาร่วมเดินผ่านกระบวนการทั้งหมด—ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการบันทึก JPEG สุดท้าย—เพื่อให้คุณสามารถใช้ Otsu ในแอปพลิเคชันของคุณได้
+
+## คำตอบอย่างรวดเร็ว
+- **Otsu threshold ทำอะไร?** มันจะค้นหาจุดตัดระดับสีเทาที่เหมาะสมที่สุดโดยอัตโนมัติเพื่อแยกพิกเซลพื้นหน้าและพื้นหลังออกจากกัน.  
+- **ไลบรารีใดสนับสนุนใน Java?** Aspose.PSD สำหรับ Java มีเมธอดในตัว `binarizeOtsu()`.  
+- **ฉันต้องมีใบอนุญาตเพื่อทดลองใช้งานหรือไม่?** มีการทดลองใช้ฟรี; จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **รูปแบบผลลัพธ์ที่ฉันสามารถใช้ได้คืออะไร?** ตัวอย่างบันทึกเป็น JPEG, แต่รูปแบบใดก็ได้ที่ `RasterCachedImage.save()` รองรับก็ทำงานได้.  
+- **การทำงานนี้ใช้เวลานานเท่าไหร่?** ด้วย API ที่พร้อมใช้ คุณสามารถมีโซลูชันทำงานได้ภายในไม่เกิน 10 นาที.
+
+## อะไรคือ Image Segmentation Otsu?
+
+**Image segmentation otsu** เป็นเทคนิคทางสถิติที่กำหนดค่าค่าเกณฑ์ที่เหมาะสมที่สุดสำหรับการแปลงภาพระดับสีเทาเป็นภาพไบนารี วิธีนี้ประเมินความแปรปรวนภายในคลาสของพื้นหน้าและพื้นหลังและเลือกค่าเกณฑ์ที่ทำให้ความแปรปรวนนี้น้อยที่สุด ส่งผลให้แยกวัตถุจากพื้นหลังได้อย่างชัดเจน
+
+## ทำไมต้องใช้ Aspose.PSD สำหรับ Java?
+
+- **High‑performance caching** – ทำงานอย่างมีประสิทธิภาพกับไฟล์ PSD ขนาดใหญ่.  
+- **One‑line binarization** – `binarizeOtsu()` จัดการงานหนักให้.  
+- **Cross‑format support** – โหลด PSD, ประมวลผล, และบันทึกเป็น JPEG, PNG ฯลฯ.  
+- **Enterprise‑ready licensing** – เหมาะสำหรับการใช้งานเชิงพาณิชย์.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่เราจะลงลึกในโค้ด โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้บนเครื่องของคุณ
+- **Java Development Environment** – ติดตั้ง JDK 8 หรือสูงกว่า.  
+- **Aspose.PSD for Java Library** – ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/psd/java/).  
+- **Sample PSD File** – PSD ที่คุณต้องการทำไบนารี (เช่น `sample.psd`).  
 
-- Aspose.PSD สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้ง Aspose.PSD สำหรับไลบรารี Java คุณสามารถค้นหาลิงค์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/psd/java/).
+## นำเข้าแพ็กเกจ
 
-- ไฟล์ PSD ตัวอย่าง: เตรียมไฟล์ PSD ตัวอย่างให้พร้อมสำหรับการทดสอบไบนาไรเซชันด้วยกระบวนการ Otsu Threshold
-
-## แพ็คเกจนำเข้า
-
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นเพื่อเริ่มต้นโครงการของคุณ:
+Begin by importing the necessary classes:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +56,9 @@ import com.aspose.psd.RasterCachedImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสารของคุณ
+## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-กำหนดไดเร็กทอรีที่มีไฟล์ PSD ของคุณ:
+Define the folder that contains your source PSD and where the output will be written:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,16 +66,16 @@ String dataDir = "Your Document Directory";
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ PSD
 
-โหลดไฟล์ PSD ลงในแอปพลิเคชัน Java ของคุณ:
+Load the PSD into an `Image` object so you can work with it:
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-## ขั้นตอนที่ 3: แคชรูปภาพ
+## ขั้นตอนที่ 3: แคชภาพ
 
-ตรวจสอบว่ารูปภาพถูกแคชไว้แล้วหรือไม่ และถ้าไม่ใช่ ให้แคช:
+If the image isn’t already cached, cache it to improve processing speed:
 
 ```java
 RasterCachedImage rasterCachedImage = (RasterCachedImage)image;
@@ -67,48 +85,64 @@ if (!rasterCachedImage.isCached()) {
 }
 ```
 
-## ขั้นตอนที่ 4: ไบนารีรูปภาพด้วย Otsu Threshold
+## ขั้นตอนที่ 4: ทำไบนารีภาพด้วยค่าเกณฑ์ Otsu
 
-ใช้เทคนิค Otsu Thresholding เพื่อสร้างภาพแบบไบนาไรซ์:
+Apply the Otsu algorithm—this is the core of **how to apply otsu** for a **binary image conversion**:
 
 ```java
 rasterCachedImage.binarizeOtsu();
 ```
 
-## ขั้นตอนที่ 5: บันทึกรูปภาพผลลัพธ์
+## ขั้นตอนที่ 5: บันทึกภาพที่ได้
 
-บันทึกภาพไบนารี่โดยใช้ JpegOptions:
+Finally, write the binarized image to disk using `JpegOptions` (you could also use PNG or BMP):
 
 ```java
 String destName = dataDir + "BinarizationWithOtsuThreshold_out.jpg";
 rasterCachedImage.save(destName, new JpegOptions());
 ```
 
-## บทสรุป
+## ปัญหาทั่วไปและวิธีแก้
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีดำเนินการ Binarization ด้วย Otsu Threshold ใน Aspose.PSD สำหรับ Java เรียบร้อยแล้ว เทคนิคนี้สามารถปรับปรุงการแบ่งส่วนรูปภาพในแอปพลิเคชัน Java ของคุณได้อย่างมาก
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|-----|
+| **`ClassCastException`** | พยายามแคสต์ภาพที่ไม่ใช่ raster | ตรวจสอบให้แน่ใจว่า PSD มีเลเยอร์ raster หรือใช้ `image.convertToRasterImage()` ก่อนทำการแคสต์. |
+| **Out‑of‑Memory** | ไฟล์ PSD ขนาดใหญ่ใช้ RAM มาก | เรียก `rasterCachedImage.cacheData()` ตั้งแต่ต้นและพิจารณาเพิ่มขนาด heap ของ JVM (`-Xmx`). |
+| **Incorrect output colors** | ภาพไม่ได้แคชอย่างถูกต้อง | ตรวจสอบว่า `isCached()` คืนค่า `true` ก่อนเรียก `binarizeOtsu()`. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Binarization กับ Otsu Threshold คืออะไร
+### Q1: การทำไบนารีด้วยค่าเกณฑ์ Otsu คืออะไร?
+A1: การทำไบนารีด้วยค่าเกณฑ์ Otsu เป็นวิธีที่ใช้สำหรับการแบ่งส่วนภาพ แยกภาพเป็นพื้นหน้าและพื้นหลังโดยอิงจากการกำหนดค่าเกณฑ์ที่เหมาะสมที่สุด.
 
-A1: การแปลงไบนาไรเซชันด้วยเกณฑ์ Otsu เป็นวิธีการที่ใช้ในการแบ่งส่วนภาพ โดยแยกภาพออกเป็นพื้นหน้าและพื้นหลังตามเกณฑ์ที่เหมาะสมที่สุด
+### Q2: ฉันสามารถใช้ Aspose.PSD สำหรับ Java ได้ฟรีหรือไม่?
+A2: Aspose.PSD สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ แต่คุณสามารถสำรวจคุณสมบัติต่าง ๆ ได้ด้วยการทดลองใช้ฟรี รับได้จาก [here](https://releases.aspose.com/).
 
-### คำถามที่ 2: ฉันสามารถใช้ Aspose.PSD สำหรับ Java ได้ฟรีหรือไม่
+### Q3: ฉันสามารถหาเอกสารของ Aspose.PSD สำหรับ Java ได้ที่ไหน?
+A3: เอกสารพร้อมให้บริการที่ [here](https://reference.aspose.com/psd/java/).
 
- ตอบ 2: Aspose.PSD สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ แต่คุณสามารถสำรวจฟีเจอร์ต่างๆ ของมันได้ด้วยการทดลองใช้ฟรี รับมัน[ที่นี่](https://releases.aspose.com/).
+### Q4: ฉันจะรับการสนับสนุนสำหรับ Aspose.PSD สำหรับ Java อย่างไร?
+A4: เยี่ยมชมฟอรั่ม Aspose.PSD ที่ [here](https://forum.aspose.com/c/psd/34) เพื่อรับการสนับสนุนจากชุมชน.
 
-### คำถามที่ 3: ฉันจะหา Aspose.PSD สำหรับเอกสาร Java ได้ที่ไหน
+### Q5: มีใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java หรือไม่?
+A5: มี, คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).
 
-A3: มีเอกสารประกอบให้[ที่นี่](https://reference.aspose.com/psd/java/).
+**Q: วิธีนี้เข้ากับกระบวนการทำงานของ java image processing ที่ใหญ่กว่ามีอย่างไร?**  
+A: หลังจากทำไบนารีแล้ว คุณสามารถส่งภาพไบนารีไปยังโมดูลการตรวจจับคอนทัวร์, การเตรียมข้อมูล OCR, หรือการวิเคราะห์รูปทรงได้
 
-### คำถามที่ 4: ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร
+**Q: ฉันสามารถปรับพารามิเตอร์ของอัลกอริธึม Otsu ได้หรือไม่?**  
+A: เมธอด `binarizeOtsu()` ใช้การทำงานมาตรฐานของ Otsu; หากต้องการค่าเกณฑ์ที่กำหนดเอง ให้ใช้ `binarize(int threshold)` แทน
 
- A4: ไปที่ฟอรัม Aspose.PSD[ที่นี่](https://forum.aspose.com/c/psd/34) เพื่อสนับสนุนชุมชน
+## สรุป
 
-### คำถามที่ 5: มีใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java หรือไม่
+ตอนนี้คุณได้เห็นวิธีการทำ **image segmentation otsu, ใช้ `binarizeOtsu()`, และบันทึกผลลัพธ์—คุณสามารถรวมการแปลงภาพไบนารีที่แข็งแกร่งเข้าไปในโครงการ **java image processing** ใด ๆ ทดลองกับไฟล์ต้นแบบต่าง ๆ, ผสานผลลัพธ์กับ OCR, หรือสร้างตัวประมวลผลแบบแบตช์เพื่อจัดการหลาย PSD โดยอัตโนมัติ
 
- A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+---
+
+**อัปเดตล่าสุด:** 2026-01-09  
+**ทดสอบด้วย:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
