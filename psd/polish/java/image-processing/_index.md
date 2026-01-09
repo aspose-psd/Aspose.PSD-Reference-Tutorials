@@ -1,68 +1,109 @@
 ---
-title: Przetwarzanie obrazu
-linktitle: Przetwarzanie obrazu
-second_title: Aspose.PSD API Java
-description: Odblokuj potencjał Aspose.PSD dla Java w przetwarzaniu obrazu. Naucz się krok po kroku stosować filtry Gaussa, Wienera, Mediany i Motion Wienera.
-weight: 20
+date: 2026-01-09
+description: Dowiedz się, jak stosować filtry medianowe w przetwarzaniu obrazów w
+  Javie przy użyciu Aspose.PSD. Przewodnik krok po kroku obejmujący filtry Gaussa,
+  Wienera, medianowy i inne.
+linktitle: Image Processing
+second_title: Aspose.PSD Java API
+title: Jak stosować filtry medianowe – przetwarzanie obrazu
 url: /pl/java/image-processing/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przetwarzanie obrazu
+# Jak stosować filtry medianowe – przetwarzanie obrazów
 
-## Wstęp
+## Wprowadzenie
 
-Przetwarzanie obrazu staje się ekscytującą podróżą dzięki Aspose.PSD dla Java, zestawowi narzędzi, który umożliwia programistom ulepszanie treści wizualnych. Od podstawowych technik po zaawansowane procesy, ta seria samouczków zagłębia się w funkcje, które sprawiają, że Aspose.PSD jest idealnym rozwiązaniem do przetwarzania obrazów Java.
+Jeśli szukasz **jak stosować median** filtrów w swoich projektach Java, trafiłeś we właściwe miejsce. Aspose.PSD for Java ułatwia **java image processing**, oferując bogaty zestaw narzędzi do ulepszania, odszumiania i przekształcania obrazów. W tej serii tutoriali przeprowadzimy Cię przez wszystko, od podstawowych rozmyć Gaussa po zaawansowane filtry medianowe i ruchome filtry Wiener, a także praktyczne techniki, takie jak przycinanie plików PSD. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, odkryjesz, dlaczego Aspose.PSD jest biblioteką numer jeden do wysokiej jakości manipulacji obrazami.
 
-## Ulepsz za pomocą filtrów Gaussa i Wienera
+## Quick Answers
+- **What is a median filter?** Nie‑liniowy filtr, który zastępuje każdy piksel medianą wartości sąsiadujących pikseli, skutecznie redukując szum przy zachowaniu krawędzi.  
+- **Why choose Aspose.PSD for Java?** Dostarcza kompleksowe API dla PSD, PNG, JPEG i wielu innych formatów bez konieczności używania natywnych bibliotek.  
+- **Can I combine median with other filters?** Tak — można mieszać median z filtrami Gaussian lub Wiener, aby precyzyjnie dostroić redukcję szumu i zachowanie detali.  
+- **Do I need a license?** Dostępna jest darmowa wersja próbna; licencja komercyjna jest wymagana do użytku produkcyjnego.  
+- **What Java versions are supported?** Java 8 i nowsze, w tym Java 17 LTS.
 
- W przetwarzaniu obrazu niezastąpionymi narzędziami są filtry Gaussa i Wienera. Z[Aspose.PSD dla Javy](./apply-gaussian-wiener-filters/)możesz bez wysiłku zastosować te filtry, odkrywając sekrety osiągania oszałamiających efektów wizualnych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawskim początkującym, nasz obszerny samouczek pozwoli Ci opanować te techniki, nadając nowy wymiar Twoim wysiłkom związanym z przetwarzaniem obrazów Java.
+## Ulepszanie przy użyciu filtrów Gaussian i Wiener
 
-## Magia obrazu kolorowego z filtrami Gaussa i Wienera
+W dziedzinie przetwarzania obrazów filtry Gaussian i Wiener są nieodzownymi narzędziami. Dzięki [Aspose.PSD for Java](./apply-gaussian-wiener-filters/) możesz z łatwością zastosować te filtry, odkrywając sekrety uzyskiwania oszałamiających rezultatów wizualnych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawym początkującym, nasz kompleksowy tutorial zapewni Ci opanowanie tych technik, wprowadzając nowy wymiar do Twoich działań w zakresie przetwarzania obrazów w języku Java.
 
- Przenieś manipulację kolorowym obrazem na wyższy poziom dzięki[Aspose.PSD dla Javy](./apply-gaussian-wiener-filters-color-image/). Nasz samouczek poprowadzi Cię przez proces stosowania filtrów Gaussa i Wienera zaprojektowanych specjalnie dla obrazów kolorowych. Zagłęb się w tajniki ulepszania kolorów i naucz się, jak z łatwością tworzyć urzekające wizualnie obrazy.
+## Magia obrazów kolorowych z filtrami Gaussian i Wiener
 
-## Poznaj moc filtrów medianowych i wienerowskich
+Podnieś manipulację obrazami kolorowymi na wyższy poziom dzięki [Aspose.PSD for Java](./apply-gaussian-wiener-filters-color-image/). Nasz tutorial prowadzi Cię przez proces stosowania filtrów Gaussian i Wiener specjalnie zaprojektowanych dla obrazów kolorowych. Zagłęb się w szczegóły ulepszania kolorów i dowiedz się, jak z łatwością tworzyć wizualnie zachwycające obrazy.
 
- Jakość obrazu ma znaczenie i[Aspose.PSD dla Javy](./apply-median-wiener-filters/) pozwala ci go podnieść bez wysiłku. Odkryj potencjał filtrów Mediany i Wienera, prowadząc Cię krok po kroku przez proces. Ulepszaj swoje obrazy, redukuj szumy i osiągaj optymalną klarowność dzięki tym zaawansowanym technikom przetwarzania obrazu.
+## Jak stosować filtry medianowe i Wiener
 
-## Filtry Master Motion Wienera zapewniające płynne obrazy
+Jakość obrazu ma znaczenie, a [Aspose.PSD for Java](./apply-median-wiener-filters/) umożliwia jej łatwe podniesienie. Odkryj potencjał filtrów Median i Wiener, prowadząc Cię krok po kroku przez proces. Ulepsz swoje obrazy, **zredukować szum obrazu**, i osiągnij optymalną klarowność dzięki tym potężnym technikom przetwarzania obrazów.
 
- Wejdź do świata przetwarzania obrazu ruchomego za pomocą[Aspose.PSD dla Javy](./apply-motion-wiener-filters/). Nasz samouczek zawiera kompleksowy przewodnik po stosowaniu filtrów Motion Wienera, dzięki którym obrazy pozostaną ostre i wyraźne. Niezależnie od tego, czy chodzi o eliminację rozmycia ruchu, czy poprawę dynamicznych efektów wizualnych, ten samouczek wyposaży Cię w umiejętności opanowania przetwarzania obrazu w Javie.
+## Opanuj filtry Motion Wiener dla płynnych obrazów
 
-## Rozpętana binaryzacja: progi stałe i progi Otsu
+Wejdź w obszar przetwarzania obrazów ruchu z [Aspose.PSD for Java](./apply-motion-wiener-filters/). Nasz tutorial oferuje kompleksowy przewodnik po stosowaniu filtrów Motion Wiener, zapewniając, że Twoje obrazy pozostaną ostre i wyraźne. Niezależnie od tego, czy chodzi o eliminację rozmycia ruchu, czy wzmocnienie dynamicznych wizualizacji, ten tutorial wyposaży Cię w umiejętności niezbędne do opanowania przetwarzania obrazów w języku Java.
 
- Zanurz się głęboko w świat segmentacji obrazu, korzystając z naszych samouczków[Binaryzacja ze stałym progiem](./binarization-fixed-threshold/) I[Binaryzacja z progiem Otsu](./binarization-otsu-threshold/) w Aspose.PSD dla Javy. Poznaj progi stałe i progi Otsu, potężne techniki płynnego przekształcania obrazów. Odkryj sekrety skutecznej binaryzacji obrazów i dodaj odrobinę precyzji do zadań związanych z przetwarzaniem obrazów w języku Java.
+## Binarizacja uwolniona: progi stałe i Otsu
 
-## Podnieś jakość obrazu dzięki technologii Bradley Thresholding
+Zanurz się głęboko w świat segmentacji obrazu dzięki naszym tutorialom o [Binarization with Fixed Threshold](./binarization-fixed-threshold/) i [Binarization with Otsu Threshold](./binarization-otsu-threshold/) w Aspose.PSD for Java. Poznaj zarówno progi Fixed, jak i Otsu, potężne techniki umożliwiające płynne przekształcanie obrazów. Odkryj sekrety skutecznej binarizacji obrazu i dodaj precyzję do swoich zadań przetwarzania obrazów w języku Java.
 
- Precyzja spotyka się z wydajnością[Próg Bradleya](./bradley-thresholding/) Aspose.PSD dla Javy. Poznaj sztukę poprawiania jakości obrazu dzięki naszemu przewodnikowi krok po kroku. Uwolnij potencjał tej techniki, aby osiągnąć skuteczną binaryzację obrazu, zapewniając, że Twoje efekty wizualne będą wyróżniać się klarownością i ostrością.
+## Podnieś jakość obrazu dzięki progowaniu Bradley
+
+Precyzja spotyka wydajność dzięki [Bradley Thresholding](./bradley-thresholding/) w Aspose.PSD for Java. Naucz się sztuki podnoszenia jakości obrazu dzięki naszemu przewodnikowi krok po kroku. Uwolnij potencjał tej techniki, aby osiągnąć skuteczną binarizację obrazu, zapewniając, że Twoje wizualizacje wyróżniają się klarownością i ostrością.
 
 ## Bezproblemowe przycinanie plików PSD w Javie
 
- Efektywność manipulacji obrazem zaczyna się od precyzyjnego kadrowania.[Przycinanie plików PSD w Javie](./crop-psd-file/) staje się bezproblemowy z Aspose.PSD z Javą. Ten samouczek przeprowadzi Cię przez cały proces, umożliwiając bezproblemowe zintegrowanie precyzji i wydajności z zadaniami manipulacji obrazami.
+Wydajność w manipulacji obrazami zaczyna się od precyzyjnego przycinania. [Cropping PSD files in Java](./crop-psd-file/) staje się bezproblemowe dzięki Aspose.PSD for Java. Ten tutorial przeprowadza Cię przez proces, umożliwiając łatwe włączenie precyzji i wydajności do Twoich zadań manipulacji obrazami.
 
-Podsumowując, Aspose.PSD dla Java oferuje kompleksowy zestaw samouczków, umożliwiających programistom odkrywanie i doskonalenie zaawansowanych technik przetwarzania obrazu. Podnieś swoje umiejętności manipulowania obrazami w języku Java i uwolnij pełny potencjał swoich efektów wizualnych, korzystając z naszych przewodników krok po kroku. Rozpocznij swoją podróż do doskonałości obrazu już dziś!
-## Poradniki dotyczące przetwarzania obrazu
-### [Zastosuj filtry Gaussa i Wienera w Aspose.PSD dla Java](./apply-gaussian-wiener-filters/)
-Ulepsz przetwarzanie obrazu Java za pomocą Aspose.PSD. Naucz się krok po kroku stosować filtry Gaussa i Wienera, aby uzyskać oszałamiające rezultaty wizualne.
-### [Zastosuj filtry Gaussa i Wienera do obrazów kolorowych za pomocą Aspose.PSD dla Java](./apply-gaussian-wiener-filters-color-image/)
-Ulepsz swoje kolorowe obrazy bez wysiłku dzięki Aspose.PSD dla Java. Naucz się krok po kroku stosować filtry Gaussa i Wienera, aby uzyskać oszałamiające rezultaty wizualne.
-### [Zastosuj filtry medianowe i wienerowskie za pomocą Aspose.PSD dla Java](./apply-median-wiener-filters/)
-Poznaj moc przetwarzania obrazów w Javie za pomocą Aspose.PSD. Dowiedz się, jak krok po kroku zastosować filtry medianowe i wienerowskie. Popraw jakość obrazu bez wysiłku.
-### [Zastosuj filtry Motion Wienera za pomocą Aspose.PSD dla Java](./apply-motion-wiener-filters/)
-Opanuj przetwarzanie obrazu w Javie za pomocą Aspose.PSD. Zastosuj filtry Motion Wienera bez wysiłku, korzystając z naszego przewodnika krok po kroku.
-### [Binaryzacja ze stałym progiem w Aspose.PSD dla Java](./binarization-fixed-threshold/)
-Poznaj binaryzację ze stałym progiem w Aspose.PSD dla Java. Bezproblemowo przekształcaj obrazy, korzystając z naszego przewodnika krok po kroku.
-### [Binaryzacja z progiem Otsu w Aspose.PSD dla Java](./binarization-otsu-threshold/)
-Poznaj binaryzację za pomocą progu Otsu w Aspose.PSD dla Java. Potężna technika segmentacji obrazu.
-### [Bradley Thresholding w Aspose.PSD dla Java](./bradley-thresholding/)
-Popraw jakość obrazu dzięki Bradley Thresholding w Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywną binaryzację obrazu.
-### [Przytnij plik PSD za pomocą Aspose.PSD dla Java](./crop-psd-file/)
-Poznaj płynne przycinanie plików PSD w Javie za pomocą Aspose.PSD. Bez wysiłku integruj precyzję i wydajność z zadaniami manipulacji obrazami.
+### Dlaczego używać tych filtrów?
+
+- **Noise Reduction:** Filtry Median i Wiener doskonale usuwają szumy ziarniste i szum Gaussian bez rozmywania ważnych szczegółów.  
+- **Performance:** Wszystkie operacje są w pełni zarządzane w Javie, eliminując potrzebę natywnych zależności.  
+- **Flexibility:** Stosuj filtry do warstw rastrowych, obiektów inteligentnych lub całych dokumentów PSD przy użyciu kilku linii kodu.  
+
+### Typowe przypadki użycia
+
+- Przywracanie zeskanowanych fotografii z dużym ziarnem.  
+- Wstępne przetwarzanie obrazów przed OCR lub pipeline'ami computer‑vision.  
+- Przygotowywanie zasobów dla aplikacji webowych lub mobilnych, gdzie rozmiar pliku i klarowność mają znaczenie.  
+
+## Tutoriale przetwarzania obrazów
+### [Zastosuj filtry Gaussian i Wiener w Aspose.PSD for Java](./apply-gaussian-wiener-filters/)
+Ulepsz swoje przetwarzanie obrazów w Javie za pomocą Aspose.PSD. Naucz się stosować filtry Gaussian i Wiener krok po kroku, aby uzyskać oszałamiające wyniki wizualne.
+### [Zastosuj filtry Gaussian i Wiener dla obrazów kolorowych w Aspose.PSD for Java](./apply-gaussian-wiener-filters-color-image/)
+Ulepsz swoje obrazy kolorowe bez wysiłku dzięki Aspose.PSD for Java. Naucz się stosować filtry Gaussian i Wiener krok po kroku, aby uzyskać oszałamiające wyniki wizualne.
+### [Zastosuj filtry Median i Wiener w Aspose.PSD for Java](./apply-median-wiener-filters/)
+Poznaj moc przetwarzania obrazów w Javie z Aspose.PSD. Dowiedz się, jak krok po kroku stosować filtry Median i Wiener. Łatwo podnieś jakość obrazu.
+### [Zastosuj filtry Motion Wiener przy użyciu Aspose.PSD for Java](./apply-motion-wiener-filters/)
+Opanuj przetwarzanie obrazów w Javie z Aspose.PSD. Zastosuj filtry Motion Wiener bez wysiłku, korzystając z naszego przewodnika krok po kroku.
+### [Binarizacja z progiem stałym w Aspose.PSD for Java](./binarization-fixed-threshold/)
+Poznaj binarizację z progiem stałym w Aspose.PSD for Java. Transformuj obrazy płynnie dzięki naszemu przewodnikowi krok po kroku.
+### [Binarizacja z progiem Otsu w Aspose.PSD for Java](./binarization-otsu-threshold/)
+Poznaj binarizację z progiem Otsu w Aspose.PSD for Java. Potężna technika segmentacji obrazu.
+### [Progowanie Bradley w Aspose.PSD for Java](./bradley-thresholding/)
+Popraw jakość obrazu dzięki progowaniu Bradley w Aspose.PSD for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać skuteczną binarizację obrazu.
+### [Przytnij plik PSD przy użyciu Aspose.PSD for Java](./crop-psd-file/)
+Poznaj bezproblemowe przycinanie plików PSD w Javie z Aspose.PSD. Łatwo włącz precyzję i wydajność do swoich zadań manipulacji obrazami.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę używać filtru medianowego na dużych plikach PSD bez wyczerpania pamięci?**  
+A: Tak. Aspose.PSD przetwarza warstwy kolejno i oferuje opcje strumieniowania, aby utrzymać niskie zużycie pamięci.
+
+**Q: Jak filtr różni się od filtru Gaussian?**  
+A: Filtr medianowy jest nieliniowy i doskonale usuwa szum typu sól i pieprz, zachowując krawędzie, natomiast filtr Gaussian jest liniowy i równomiernie wygładza.
+
+**Q: Czy można połączyć **zastosować filtr Gaussian** i filtr medianowy w jednym pipeline?**  
+A: Zdecydowanie. Możesz łączyć filtry — najpierw zastosować rozmycie Gaussian, aby zredukować szum wysokiej częstotliwości, a następnie filtr medianowy do czyszczenia zachowującego krawędzie.
+
+**Q: Czy Aspose.PSD obsługuje **przyciąć plik PSD** operacje na obiektach inteligentnych?**  
+A: Tak. Przycinanie działa na dowolnej warstwie rastrowej, w tym na warstwach osadzonych w obiektach inteligentnych.
+
+**Q: Która wersja Java jest wymagana dla tych tutoriali?**  
+A: Java 8 lub nowsza jest wymagana; biblioteka jest w pełni kompatybilna z Java 11, 17 i późniejszymi wersjami LTS.
+
+**Ostatnia aktual  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
