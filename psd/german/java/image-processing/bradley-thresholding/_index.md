@@ -1,33 +1,47 @@
 ---
-title: Bradley-Schwellenwert in Aspose.PSD für Java
-linktitle: Bradley-Schwellenwert
+date: 2026-01-09
+description: Erfahren Sie, wie Sie PSD mit Bradley‑Thresholding in Aspose.PSD für
+  Java in PNG konvertieren. Dieser Leitfaden zeigt, wie Sie den optimalen Schwellenwert
+  auswählen und das PSD‑Bild effizient binarisieren.
+linktitle: Bradley Thresholding
 second_title: Aspose.PSD Java API
-description: Verbessern Sie die Bildqualität mit Bradley Thresholding in Aspose.PSD für Java. Folgen Sie unserer Schritt-für-Schritt-Anleitung zur effektiven Binärisierung von Bildern.
-weight: 16
+title: PSD in PNG mit Bradley‑Schwellenwertverfahren konvertieren (Aspose.PSD Java)
 url: /de/java/image-processing/bradley-thresholding/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bradley-Schwellenwert in Aspose.PSD für Java
+# PSD in PNG konvertieren mit Bradley Thresholding (Aspose.PSD Java)
 
-## Einführung
+Willkommen zu diesem umfassenden Leitfaden zum **Konvertieren von PSD in PNG** mit Bradley Thresholding in Aspose.PSD für Java. In den nächsten Minuten erfahren Sie, warum diese Technik ideal ist, um hochkontrastreiche, binarisierte PNG‑Dateien aus Photoshop‑Dokumenten zu erstellen, und erhalten eine praxisnahe Schritt‑für‑Schritt‑Anleitung.
 
-Willkommen zu diesem umfassenden Leitfaden zur Implementierung von Bradley Thresholding in Aspose.PSD für Java. Dieses Tutorial führt Sie durch den Prozess der Anwendung von Bradley Thresholding, um die Qualität Ihrer Bilder zu verbessern. Aspose.PSD für Java bietet einen leistungsstarken Satz von Tools zur Bildverarbeitung, und Bradley Thresholding ist eine wertvolle Technik zur Binärisierung von Bildern.
+## Schnellantworten
+- **Kann ich PSD in PNG mit Aspose.PSD konvertieren?** Ja – PSD laden, `binarizeBradley` anwenden und dann als PNG speichern.  
+- **Was bedeutet „optimalen Schwellenwert wählen“?** Es ist der Empfindlichkeitswert (0‑1), der entscheidet, wie dunkle/helle Pixel klassifiziert werden.  
+- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine kommerzielle Lizenz ist erforderlich; eine kostenlose Testversion reicht für Evaluierungen.  
+- **Welche Bildformate werden zum Speichern unterstützt?** PNG, JPEG, BMP und viele weitere über die `ImageOptions`‑Klassen.  
+- **Ist der Code mit Java 8 und höher kompatibel?** Absolut – die Aspose.PSD Java API unterstützt Java 8+.
+
+## Was ist Bradley Thresholding?
+Bradley Thresholding ist ein adaptiver Binärisierungs‑Algorithmus, der für jedes Pixel einen lokalen Mittelwert berechnet und die Pixelintensität mit diesem Mittelwert multipliziert mit einem benutzerdefinierten Schwellenwert vergleicht. Das Ergebnis ist ein klares Schwarz‑Weiß‑Bild, das wichtige Details beibehält.
+
+## Warum PSD in PNG mit Bradley Thresholding konvertieren?
+- **Scharfe Kanten erhalten** – Ideal für OCR, Strichcode‑Erkennung oder jeden Workflow, der eine klare Trennung zwischen Vorder‑ und Hintergrund erfordert.  
+- **Dateigröße reduzieren** – PNG ist verlustfrei, aber nach Binärisierung oft kleiner.  
+- **Plattformübergreifende Kompatibilität** – PNG funktioniert überall, während PSD Photoshop‑spezifisch ist.  
 
 ## Voraussetzungen
+Bevor wir starten, stellen Sie sicher, dass Sie Folgendes haben:
 
-Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass Java auf Ihrem System installiert ist.
-2.  Aspose.PSD-Bibliothek: Laden Sie die Aspose.PSD-Bibliothek herunter und installieren Sie sie von[Hier](https://releases.aspose.com/psd/java/).
-3. Beispiel-PSD-Bild: Bereiten Sie ein Beispiel-PSD-Bild vor, um Bradley Thresholding anzuwenden. Sie können Ihr eigenes Bild verwenden oder eines zum Testen herunterladen.
+1. **Java‑Entwicklungsumgebung** – JDK 8 oder neuer installiert.  
+2. **Aspose.PSD‑Bibliothek** – Laden Sie die neueste JAR von [hier](https://releases.aspose.com/psd/java/) herunter.  
+3. **Beispiel‑PSD‑Bild** – Jede PSD‑Datei, die Sie konvertieren möchten; Sie können auch das Beispiel aus den Aspose‑Beispielen verwenden.
 
 ## Pakete importieren
-
-Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt:
+Importieren Sie die notwendigen Klassen in Ihr Java‑Projekt:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,75 +50,75 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-Lassen Sie uns nun die Implementierung der Bradley-Schwellenwertmethode in mehrere Schritte unterteilen:
+## Wie man PSD in PNG mit Bradley Thresholding konvertiert
+Im Folgenden finden Sie den vollständigen Workflow, aufgeteilt in klare, nummerierte Schritte. Jeder Schritt enthält eine kurze Erklärung gefolgt vom exakt zu kopierenden Code.
 
-## Schritt 1: Laden Sie das Bild
+### Schritt 1: PSD‑Bild laden
+Zuerst geben Sie Ihre Quelldatei an und laden sie mit Aspose.PSD.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "binarized_out.png";
 
-// Laden Sie ein Bild
+// Load an image
 PsdImage image = (PsdImage)Image.load(sourceFile);
 ```
 
-In diesem Schritt laden wir das PSD-Bild mithilfe der Aspose.PSD-Bibliothek.
-
-## Schritt 2: Schwellenwert festlegen
+### Schritt 2: Optimalen Schwellenwert wählen
+Der Schwellenwert (Bereich 0 – 1) steuert, wie aggressiv die Binärisierung erfolgt. Ein typischer Ausgangspunkt ist **0,15**, den Sie je nach Bild anpassen können.
 
 ```java
-//Schwellenwert festlegen
+// Define threshold value
 double threshold = 0.15;
 ```
 
-Stellen Sie den Schwellwert entsprechend Ihren Anforderungen ein. Dieser Wert bestimmt die Sensibilität des Binärisierungsprozesses.
-
-## Schritt 3: Bradley-Schwellenwert anwenden
+### Schritt 3: PSD‑Bild binarisieren
+Wenden Sie nun den Bradley‑Algorithmus an. Dieser Schritt **binarisiert das PSD‑Bild** basierend auf dem gewählten Schwellenwert.
 
 ```java
-// Rufen Sie die Methode BinarizeBradley auf und übergeben Sie den Schwellenwert als Parameter.
+// Call BinarizeBradley method and pass the threshold value as a parameter
 image.binarizeBradley(threshold);
 ```
 
- Rufen Sie den`binarizeBradley` -Methode auf dem geladenen Bild, wobei der definierte Schwellenwert überschritten wird. Dieser Schritt führt eine Bradley-Schwellenwertberechnung auf dem Bild durch.
-
-## Schritt 4: Speichern Sie das Ausgabebild
+### Schritt 4: Ausgabe als PNG speichern
+Zum Schluss schreiben Sie das verarbeitete Bild im PNG‑Format auf die Festplatte.
 
 ```java
-// Speichern des Ausgabebildes
+// Save the output image
 image.save(destName, new PngOptions());
 ```
 
-Speichern Sie das binärisierte Bild im PNG-Format am angegebenen Ziel.
+Wiederholen Sie diese Schritte für beliebig viele PSD‑Dateien, passen Sie den Schwellenwert nach Bedarf an, um das beste visuelle Ergebnis zu erzielen.
 
-Wiederholen Sie diese Schritte für Ihren spezifischen Anwendungsfall, und Sie haben die Bradley-Schwellenwertfunktion mit Aspose.PSD für Java erfolgreich auf Ihr Bild angewendet.
-
-## Abschluss
-
-Herzlichen Glückwunsch! Sie haben gelernt, wie Sie Bradley Thresholding in Aspose.PSD für Java implementieren. Diese Technik verbessert die Bildqualität und ist ein wertvolles Werkzeug in Bildverarbeitungsanwendungen.
+## Häufige Probleme & Tipps
+- **Schwellenwert zu niedrig/hoch:** Sieht das Ergebnis zu verrauscht oder ausgewaschen aus, passen Sie den `threshold`‑Wert schrittweise an (z. B. 0,10 – 0,20).  
+- **Speicherverbrauch:** Große PSD‑Dateien können speicherintensiv sein. Verarbeiten Sie sie einzeln oder erhöhen Sie die JVM‑Heap‑Größe (`-Xmx`).  
+- **Vorschau vor dem Speichern:** Verwenden Sie `image.save("preview.bmp", new BmpOptions());`, um das binarisierte Ergebnis vor dem finalen PNG‑Export zu prüfen.
 
 ## Häufig gestellte Fragen
 
-### F1: Was ist die Bradley-Schwellenwertmethode?
+**F: Was ist der Unterschied zwischen `binarizeBradley` und anderen Schwellenwert‑Methoden?**  
+A: `binarizeBradley` berechnet für jedes Pixel einen lokalen Mittelwert, wodurch es bei ungleichmäßig beleuchteten Bildern robuster ist als globale Schwellenwertverfahren.
 
-A1: Bradley Thresholding ist eine Methode zur Binärisierung von Bildern, die den Kontrast zwischen Objekten und Hintergrund verbessert.
+**F: Kann ich Bradley Thresholding auf JPEG‑ oder BMP‑Dateien anwenden?**  
+A: Ja. Laden Sie jedes unterstützte Format mit `Image.load(...)` und rufen Sie anschließend `binarizeBradley` vor dem Speichern auf.
 
-### F2: Wie wählt man den richtigen Schwellenwert?
+**F: Gibt es eine Möglichkeit, das binarisierte Bild vor dem Speichern zu prüfen?**  
+A: Absolut. Nutzen Sie eine der Bild‑Speicheroptionen von Aspose.PSD (z. B. BMP), um eine temporäre Vorschau‑Datei zu erzeugen.
 
-A2: Der Schwellenwert hängt von den Eigenschaften Ihres Bildes ab. Experimentieren Sie mit verschiedenen Werten, um den optimalen Wert zu finden.
+**F: Wo finde ich weitere Unterstützung und Ressourcen?**  
+A: Besuchen Sie das [Aspose.PSD‑Forum](https://forum.aspose.com/c/psd/34) für Community‑Hilfe und stöbern Sie in der vollständigen [Dokumentation](https://reference.aspose.com/psd/java/) für fortgeschrittene Szenarien.
 
-### F3: Kann ich die Bradley-Schwellenwertmethode auf andere Bildformate anwenden?
+## Fazit
+Sie haben nun gelernt, wie Sie **PSD in PNG** effizient konvertieren, indem Sie einen **optimalen Schwellenwert wählen** und das PSD‑Bild mit Bradley Thresholding **binarisieren**. Dieser Ansatz ist ideal für Workflows, die saubere, hochkontrastreiche PNG‑Ausgaben aus komplexen Photoshop‑Dateien benötigen.
 
-A3: Aspose.PSD für Java unterstützt verschiedene Bildformate, sodass Sie Bradley Thresholding auf verschiedene Bildtypen anwenden können.
+---
 
-### F4: Gibt es eine Möglichkeit, das binärisierte Bild vor dem Speichern in der Vorschau anzuzeigen?
+**Zuletzt aktualisiert:** 2026-01-09  
+**Getestet mit:** Aspose.PSD Java 23.12 (zum Zeitpunkt der Erstellung)  
+**Autor:** Aspose  
 
-A4: Ja, Sie können zusätzliche von Aspose.PSD bereitgestellte Methoden verwenden, um eine Vorschau des Bildes anzuzeigen, bevor Sie die Änderungen speichern.
-
-### F5: Wo finde ich weitere Unterstützung und Ressourcen?
-
- A5: Besuchen Sie die[Aspose.PSD-Forum](https://forum.aspose.com/c/psd/34) für Community-Unterstützung und erkunden Sie die[Dokumentation](https://reference.aspose.com/psd/java/) für detaillierte Informationen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

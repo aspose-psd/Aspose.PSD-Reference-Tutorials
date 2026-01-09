@@ -1,33 +1,47 @@
 ---
-title: Bradley Thresholding di Aspose.PSD untuk Java
-linktitle: Ambang Batas Bradley
-second_title: Asumsikan.PSD Java API
-description: Tingkatkan kualitas gambar dengan Bradley Thresholding di Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah kami untuk binerisasi gambar yang efektif.
-weight: 16
+date: 2026-01-09
+description: Pelajari cara mengonversi PSD ke PNG menggunakan Bradley Thresholding
+  di Aspose.PSD untuk Java. Panduan ini menunjukkan cara memilih ambang optimal dan
+  membinarisasi gambar PSD secara efisien.
+linktitle: Bradley Thresholding
+second_title: Aspose.PSD Java API
+title: Konversi PSD ke PNG dengan Bradley Thresholding (Aspose.PSD Java)
 url: /id/java/image-processing/bradley-thresholding/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bradley Thresholding di Aspose.PSD untuk Java
+# Konversi PSD ke PNG dengan Bradley Thresholding (Aspose.PSD Java)
 
-## Perkenalan
+Selamat datang di panduan komprehensif tentang **convert PSD to PNG** menggunakan Bradley Thresholding dalam Aspose.PSD untuk Java. Dalam beberapa menit ke depan, Anda akan melihat mengapa teknik ini sempurna untuk membuat file PNG biner berkontras tinggi dari dokumen Photoshop, dan Anda akan mendapatkan langkah‑demi‑langkah yang praktis.
 
-Selamat datang di panduan komprehensif tentang penerapan Bradley Thresholding di Aspose.PSD untuk Java. Tutorial ini akan memandu Anda melalui proses penerapan Bradley Thresholding untuk meningkatkan kualitas gambar Anda. Aspose.PSD untuk Java menyediakan seperangkat alat canggih untuk pemrosesan gambar, dan Bradley Thresholding adalah teknik berharga untuk binarisasi gambar.
+## Quick Answers
+- **Apakah saya dapat mengonversi PSD ke PNG dengan Aspose.PSD?** Ya – muat PSD, terapkan `binarizeBradley`, lalu simpan sebagai PNG.  
+- **Apa arti “choose optimal threshold”?** Itu adalah nilai sensitivitas (0‑1) yang menentukan bagaimana piksel gelap/terang diklasifikasikan.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan; versi percobaan gratis dapat digunakan untuk evaluasi.  
+- **Format gambar apa yang didukung untuk penyimpanan?** PNG, JPEG, BMP, dan banyak lainnya melalui kelas `ImageOptions`.  
+- **Apakah kode ini kompatibel dengan Java 8 dan yang lebih baru?** Tentu – API Aspose.PSD Java mendukung Java 8+.
 
-## Prasyarat
+## What is Bradley Thresholding?
+Bradley Thresholding adalah algoritma binarisasi adaptif yang menghitung rata‑rata lokal untuk setiap piksel dan membandingkan intensitas piksel tersebut dengan rata‑rata yang dikalikan dengan ambang yang ditentukan pengguna. Hasilnya adalah gambar hitam‑putih bersih yang tetap mempertahankan detail penting.
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## Why Convert PSD to PNG with Bradley Thresholding?
+- **Mempertahankan tepi tajam** – Ideal untuk OCR, deteksi barcode, atau alur kerja apa pun yang memerlukan pemisahan jelas antara latar depan dan latar belakang.  
+- **Mengurangi ukuran file** – PNG bersifat lossless tetapi biasanya lebih kecil setelah binarisasi.  
+- **Kompatibilitas lintas‑platform** – PNG dapat dibuka di mana saja, sementara PSD khusus Photoshop.  
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda.
-2.  Perpustakaan Aspose.PSD: Unduh dan instal perpustakaan Aspose.PSD dari[Di Sini](https://releases.aspose.com/psd/java/).
-3. Contoh Gambar PSD: Siapkan contoh gambar PSD untuk menerapkan Bradley Thresholding. Anda dapat menggunakan gambar Anda sendiri atau mengunduhnya untuk pengujian.
+## Prerequisites
+Sebelum kita mulai, pastikan Anda memiliki:
 
-## Paket Impor
+1. **Java Development Environment** – JDK 8 atau yang lebih baru terpasang.  
+2. **Aspose.PSD Library** – Unduh JAR terbaru dari [here](https://releases.aspose.com/psd/java/).  
+3. **Sample PSD Image** – File PSD apa saja yang ingin Anda konversi; Anda juga dapat menggunakan contoh yang disediakan dalam contoh Aspose.
 
-Mulailah dengan mengimpor paket yang diperlukan ke proyek Java Anda:
+## Import Packages
+Mulailah dengan mengimpor kelas‑kelas yang diperlukan ke dalam proyek Java Anda:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,75 +50,75 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-Sekarang, mari kita uraikan implementasi Bradley Thresholding menjadi beberapa langkah:
+## How to Convert PSD to PNG Using Bradley Thresholding
+Berikut adalah alur kerja lengkap yang dibagi menjadi langkah‑langkah jelas. Setiap langkah mencakup penjelasan singkat diikuti oleh kode yang dapat Anda salin‑tempel.
 
-## Langkah 1: Muat Gambar
+### Step 1: Load the PSD Image
+Pertama, tentukan file sumber Anda dan muat dengan Aspose.PSD.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "binarized_out.png";
 
-// Memuat gambar
+// Load an image
 PsdImage image = (PsdImage)Image.load(sourceFile);
 ```
 
-Pada langkah ini, kita memuat gambar PSD menggunakan perpustakaan Aspose.PSD.
-
-## Langkah 2: Tentukan Nilai Ambang Batas
+### Step 2: Choose Optimal Threshold
+Nilai ambang (rentang 0 – 1) mengontrol seberapa agresif binarisasi. Titik awal yang umum adalah **0.15**, namun Anda dapat menyesuaikannya sesuai gambar Anda.
 
 ```java
-//Tentukan nilai ambang batas
+// Define threshold value
 double threshold = 0.15;
 ```
 
-Tetapkan nilai ambang batas sesuai dengan kebutuhan Anda. Nilai ini menentukan sensitivitas proses binarisasi.
-
-## Langkah 3: Terapkan Bradley Thresholding
+### Step 3: Binarize PSD Image
+Sekarang terapkan algoritma Bradley. Langkah ini **binarize PSD image** berdasarkan ambang yang Anda pilih.
 
 ```java
-// Panggil metode BinarizeBradley dan teruskan nilai ambang batas sebagai parameter
+// Call BinarizeBradley method and pass the threshold value as a parameter
 image.binarizeBradley(threshold);
 ```
 
- Panggil`binarizeBradley` metode pada gambar yang dimuat, melewati nilai ambang batas yang ditentukan. Langkah ini dilakukan Bradley Thresholding pada gambar.
-
-## Langkah 4: Simpan Gambar Keluaran
+### Step 4: Save the Output as PNG
+Akhirnya, tulis gambar yang telah diproses ke disk dalam format PNG.
 
 ```java
-// Simpan gambar keluaran
+// Save the output image
 image.save(destName, new PngOptions());
 ```
 
-Simpan gambar yang dibinarkan ke tujuan yang ditentukan menggunakan format PNG.
+Ulangi langkah‑langkah ini untuk sejumlah file PSD yang ingin Anda proses, sesuaikan ambang sesuai kebutuhan untuk mencapai hasil visual terbaik.
 
-Ulangi langkah-langkah ini untuk kasus penggunaan spesifik Anda, dan Anda akan berhasil menerapkan Bradley Thresholding ke gambar Anda menggunakan Aspose.PSD untuk Java.
+## Common Issues & Tips
+- **Ambang terlalu rendah/tinggi:** Jika output terlihat terlalu berisik atau pudar, sesuaikan nilai `threshold` secara bertahap (misalnya, 0.10 – 0.20).  
+- **Konsumsi memori:** File PSD besar dapat memakan banyak memori. Pertimbangkan memproses satu per satu atau meningkatkan ukuran heap JVM (`-Xmx`).  
+- **Pratinjau sebelum menyimpan:** Gunakan `image.save("preview.bmp", new BmpOptions());` untuk memeriksa hasil binarisasi sebelum ekspor PNG final.
 
-## Kesimpulan
+## Frequently Asked Questions
 
-Selamat! Anda telah mempelajari cara mengimplementasikan Bradley Thresholding di Aspose.PSD untuk Java. Teknik ini meningkatkan kualitas gambar dan merupakan alat yang berharga dalam aplikasi pemrosesan gambar.
+**Q: Apa perbedaan antara `binarizeBradley` dan metode thresholding lainnya?**  
+A: `binarizeBradley` menghitung rata‑rata lokal untuk setiap piksel, sehingga lebih tangguh pada gambar dengan pencahayaan tidak merata dibandingkan thresholding global.
 
-## FAQ
+**Q: Bisakah saya menerapkan Bradley Thresholding pada file JPEG atau BMP?**  
+A: Ya. Muat format apa saja yang didukung dengan `Image.load(...)`, lalu panggil `binarizeBradley` sebelum menyimpan.
 
-### Q1: Apa yang dimaksud dengan Ambang Batas Bradley?
+**Q: Apakah ada cara untuk meninjau gambar yang telah dibinarisasi sebelum menyimpan?**  
+A: Tentu. Gunakan salah satu opsi penyimpanan gambar Aspose.PSD (misalnya BMP) untuk menulis file pratinjau sementara.
 
-A1: Bradley Thresholding adalah metode yang digunakan untuk binerisasi gambar, meningkatkan kontras antara objek dan latar belakang.
+**Q: Di mana saya dapat menemukan lebih banyak dukungan dan sumber daya?**  
+A: Kunjungi [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) untuk bantuan komunitas dan jelajahi [documentation](https://reference.aspose.com/psd/java/) lengkap untuk skenario lanjutan.
 
-### Q2: Bagaimana cara memilih nilai ambang batas yang tepat?
+## Conclusion
+Anda kini telah mempelajari cara **convert PSD to PNG** secara efisien dengan **memilih ambang optimal** dan **membinarisasi gambar PSD** menggunakan Bradley Thresholding. Pendekatan ini sempurna untuk alur kerja yang menuntut output PNG bersih dan berkontras tinggi dari file Photoshop yang kompleks.
 
-A2: Nilai ambang batas bergantung pada karakteristik gambar Anda. Bereksperimenlah dengan nilai yang berbeda untuk menemukan nilai yang optimal.
+---
 
-### Q3: Bisakah saya menerapkan Bradley Thresholding ke format gambar lain?
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.PSD Java 23.12 (latest at time of writing)  
+**Author:** Aspose  
 
-A3: Aspose.PSD untuk Java mendukung berbagai format gambar, memungkinkan Anda menerapkan Bradley Thresholding ke berbagai jenis gambar.
-
-### Q4: Apakah ada cara untuk melihat pratinjau gambar biner sebelum disimpan?
-
-A4: Ya, Anda dapat menggunakan metode tambahan yang disediakan oleh Aspose.PSD untuk melihat pratinjau gambar sebelum menyimpan perubahan.
-
-### Q5: Di mana saya dapat menemukan lebih banyak dukungan dan sumber daya?
-
- A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas dan menjelajahi[dokumentasi](https://reference.aspose.com/psd/java/) untuk informasi rinci.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

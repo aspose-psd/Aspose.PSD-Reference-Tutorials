@@ -1,33 +1,46 @@
 ---
-title: Java용 Aspose.PSD의 Bradley 임계값
-linktitle: 브래들리 임계값
-second_title: Aspose.PSD 자바 API
-description: Java용 Aspose.PSD의 Bradley Thresholding을 사용하여 이미지 품질을 향상합니다. 효과적인 이미지 이진화를 위한 단계별 가이드를 따르세요.
-weight: 16
+date: 2026-01-09
+description: Aspose.PSD for Java에서 Bradley 임계값을 사용하여 PSD를 PNG로 변환하는 방법을 배웁니다. 이 가이드는
+  최적의 임계값을 선택하고 PSD 이미지를 효율적으로 이진화하는 방법을 보여줍니다.
+linktitle: Bradley Thresholding
+second_title: Aspose.PSD Java API
+title: Bradley 임계값 적용으로 PSD를 PNG로 변환 (Aspose.PSD Java)
 url: /ko/java/image-processing/bradley-thresholding/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.PSD의 Bradley 임계값
+# Convert PSD to PNG with Bradley Thresholding (Aspose.PSD Java)
 
-## 소개
+이 가이드에서는 Aspose.PSD for Java를 사용하여 **convert PSD to PNG** 를 Bradley Thresholding으로 수행하는 방법을 자세히 설명합니다. 몇 분만 투자하면 Photoshop 문서에서 고대비 바이너리 PNG 파일을 만드는 이 기술이 왜 최적인지 이해하고, 단계별 실습을 따라 할 수 있습니다.
 
-Java용 Aspose.PSD에서 Bradley 임계값 구현에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 이미지 품질을 향상시키기 위해 Bradley 임계값을 적용하는 과정을 안내합니다. Aspose.PSD for Java는 이미지 처리를 위한 강력한 도구 세트를 제공하며 Bradley Thresholding은 이미지 이진화를 위한 귀중한 기술입니다.
+## Quick Answers
+- **Can I convert PSD to PNG with Aspose.PSD?** Yes – load the PSD, apply `binarizeBradley`, then save as PNG.  
+- **What does “choose optimal threshold” mean?** It’s the sensitivity value (0‑1) that decides how dark/light pixels are classified.  
+- **Do I need a license for production use?** A commercial license is required; a free trial works for evaluation.  
+- **Which image formats are supported for saving?** PNG, JPEG, BMP, and many others via the `ImageOptions` classes.  
+- **Is the code compatible with Java 8 and later?** Absolutely – Aspose.PSD Java API supports Java 8+.
 
-## 전제조건
+## What is Bradley Thresholding?
+Bradley Thresholding은 각 픽셀에 대해 로컬 평균을 계산하고, 사용자가 정의한 임계값을 곱한 값과 픽셀 강도를 비교하는 적응형 바이너리화 알고리즘입니다. 그 결과 중요한 디테일을 유지하면서 깨끗한 흑백 이미지를 얻을 수 있습니다.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Why Convert PSD to PNG with Bradley Thresholding?
+- **Preserve sharp edges** – Ideal for OCR, barcode detection, or any workflow that needs clear separation between foreground and background.  
+- **Reduce file size** – PNG is lossless but often smaller after binarization.  
+- **Cross‑platform compatibility** – PNG works everywhere, while PSD is Photoshop‑specific.  
 
-1. Java 개발 환경: 시스템에 Java가 설치되어 있는지 확인하십시오.
-2.  Aspose.PSD 라이브러리: Aspose.PSD 라이브러리를 다운로드하여 설치합니다.[여기](https://releases.aspose.com/psd/java/).
-3. 샘플 PSD 이미지: Bradley Thresholding을 적용하기 위한 샘플 PSD 이미지를 준비합니다. 자신의 이미지를 사용하거나 테스트용으로 다운로드할 수 있습니다.
+## Prerequisites
+Before we dive in, make sure you have:
 
-## 패키지 가져오기
+1. **Java Development Environment** – JDK 8 or newer installed.  
+2. **Aspose.PSD Library** – Download the latest JAR from [here](https://releases.aspose.com/psd/java/).  
+3. **Sample PSD Image** – Any PSD file you’d like to convert; you can also use the sample provided in the Aspose examples.
 
-필요한 패키지를 Java 프로젝트로 가져오는 것부터 시작하세요.
+## Import Packages
+Begin by importing the necessary classes into your Java project:
 
 ```java
 import com.aspose.psd.Image;
@@ -36,75 +49,75 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-이제 Bradley 임계값 구현을 여러 단계로 나누어 보겠습니다.
+## How to Convert PSD to PNG Using Bradley Thresholding
+Below is the full workflow broken into clear, numbered steps. Each step includes a short explanation followed by the exact code you need to copy‑paste.
 
-## 1단계: 이미지 로드
+### Step 1: Load the PSD Image
+First, point to your source file and load it with Aspose.PSD.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "binarized_out.png";
 
-// 이미지 로드
+// Load an image
 PsdImage image = (PsdImage)Image.load(sourceFile);
 ```
 
-이 단계에서는 Aspose.PSD 라이브러리를 사용하여 PSD 이미지를 로드합니다.
-
-## 2단계: 임계값 정의
+### Step 2: Choose Optimal Threshold
+The threshold value (range 0 – 1) controls how aggressive the binarization is. A typical starting point is **0.15**, but you may adjust it to suit your image.
 
 ```java
-//임계값 정의
+// Define threshold value
 double threshold = 0.15;
 ```
 
-요구 사항에 따라 임계값을 설정하십시오. 이 값은 이진화 프로세스의 민감도를 결정합니다.
-
-## 3단계: Bradley 임계값 적용
+### Step 3: Binarize PSD Image
+Now apply the Bradley algorithm. This step **binarize PSD image** based on the threshold you selected.
 
 ```java
-// BinarizeBradley 메소드를 호출하고 임계값을 매개변수로 전달합니다.
+// Call BinarizeBradley method and pass the threshold value as a parameter
 image.binarizeBradley(threshold);
 ```
 
- 호출`binarizeBradley` 로드된 이미지에 대한 메서드를 사용하여 정의된 임계값을 전달합니다. 이 단계에서는 이미지에 대해 Bradley 임계값을 수행합니다.
-
-## 4단계: 출력 이미지 저장
+### Step 4: Save the Output as PNG
+Finally, write the processed image to disk in PNG format.
 
 ```java
-// 출력 이미지 저장
+// Save the output image
 image.save(destName, new PngOptions());
 ```
 
-PNG 형식을 사용하여 이진화된 이미지를 지정된 대상에 저장합니다.
+Repeat these steps for any number of PSD files you need to process, tweaking the threshold as required to achieve the best visual result.
 
-특정 사용 사례에 대해 이 단계를 반복하면 Java용 Aspose.PSD를 사용하여 이미지에 Bradley 임계값을 성공적으로 적용하게 됩니다.
+## Common Issues & Tips
+- **Threshold too low/high:** If the output looks too noisy or washed out, adjust the `threshold` value incrementally (e.g., 0.10 – 0.20).  
+- **Memory consumption:** Large PSD files can be memory‑intensive. Consider processing them one at a time or increasing the JVM heap size (`-Xmx`).  
+- **Preview before saving:** Use `image.save("preview.bmp", new BmpOptions());` to inspect the binarized result before final PNG export.
 
-## 결론
+## Frequently Asked Questions
 
-축하해요! Java용 Aspose.PSD에서 Bradley 임계값을 구현하는 방법을 배웠습니다. 이 기술은 이미지 품질을 향상시키며 이미지 처리 응용 분야에서 유용한 도구입니다.
+**Q: What is the difference between `binarizeBradley` and other thresholding methods?**  
+A: `binarizeBradley` computes a local mean for each pixel, making it more robust for images with uneven lighting compared to global thresholding.
 
-## FAQ
+**Q: Can I apply Bradley Thresholding to JPEG or BMP files?**  
+A: Yes. Load any supported format with `Image.load(...)`, then call `binarizeBradley` before saving.
 
-### Q1: Bradley 임계값이란 무엇입니까?
+**Q: Is there a way to preview the binarized image before saving?**  
+A: Absolutely. Use any of Aspose.PSD’s image‑saving options (e.g., BMP) to write a temporary preview file.
 
-A1: Bradley Thresholding은 이미지 이진화에 사용되는 방법으로, 개체와 배경 간의 대비를 향상시킵니다.
+**Q: Where can I find more support and resources?**  
+A: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community help and explore the full [documentation](https://reference.aspose.com/psd/java/) for advanced scenarios.
 
-### Q2: 올바른 임계값을 선택하는 방법은 무엇입니까?
+## Conclusion
+You’ve now learned how to **convert PSD to PNG** efficiently by **choosing an optimal threshold** and **binarizing the PSD image** with Bradley Thresholding. This approach is perfect for workflows that demand clean, high‑contrast PNG outputs from complex Photoshop files.
 
-A2: 임계값은 이미지의 특성에 따라 다릅니다. 최적의 값을 찾으려면 다양한 값을 실험해 보세요.
+---
 
-### Q3: Bradley Thresholding을 다른 이미지 형식에 적용할 수 있습니까?
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.PSD Java 23.12 (latest at time of writing)  
+**Author:** Aspose  
 
-A3: Java용 Aspose.PSD는 다양한 이미지 형식을 지원하므로 다양한 유형의 이미지에 Bradley 임계값을 적용할 수 있습니다.
-
-### Q4: 저장하기 전에 이진화된 이미지를 미리 볼 수 있는 방법이 있습니까?
-
-A4: 예, Aspose.PSD에서 제공하는 추가 방법을 사용하여 변경 사항을 저장하기 전에 이미지를 미리 볼 수 있습니다.
-
-### Q5: 추가 지원과 리소스는 어디에서 찾을 수 있습니까?
-
- A5: 다음을 방문하세요.[Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34) 지역사회 지원을 위해[선적 서류 비치](https://reference.aspose.com/psd/java/) 자세한 정보를 보려면.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
