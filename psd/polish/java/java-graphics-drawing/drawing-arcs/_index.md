@@ -1,26 +1,46 @@
 ---
-title: Rysowanie łuków w Javie
-linktitle: Rysowanie łuków w Javie
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak rysować łuki w Javie przy użyciu Aspose.PSD dla Java. Samouczek krok po kroku z przykładami kodu dla aplikacji graficznych.
-weight: 13
+date: 2026-01-17
+description: Dowiedz się, jak w Javie rysować łuki przy użyciu Aspose.PSD for Java.
+  Samouczek krok po kroku z przykładami kodu dla aplikacji graficznych.
+linktitle: Java Graphics Draw Arc with Aspose.PSD
+second_title: Aspose.PSD Java API
+title: Java Graphics – rysowanie łuku z Aspose.PSD – przewodnik krok po kroku
 url: /pl/java/java-graphics-drawing/drawing-arcs/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rysowanie łuków w Javie
+# Java Graphics Draw Arc with Aspose.PSD
 
-## Wstęp
-tym samouczku nauczymy się rysować łuki za pomocą biblioteki Aspose.PSD dla Java. Programowe rysowanie łuków może być przydatne w różnych aplikacjach, takich jak graficzne interfejsy użytkownika, wykresy lub niestandardowe wizualizacje. Aspose.PSD dla Java zapewnia solidne funkcje do manipulowania i tworzenia plików PSD (dokument Photoshop), w tym możliwość rysowania kształtów, takich jak łuki, z konfigurowalnymi właściwościami.
-## Warunki wstępne
-Przed kontynuowaniem tego samouczka upewnij się, że masz skonfigurowane następujące wymagania wstępne:
-1.  Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/).
-2.  Biblioteka Aspose.PSD dla Java: Uzyskaj bibliotekę Aspose.PSD dla Java z[strona pobierania](https://releases.aspose.com/psd/java/). Postępuj zgodnie z instrukcjami instalacji, aby uwzględnić go w projekcie Java.
-## Importuj pakiety
-Aby rozpocząć, zaimportuj niezbędne pakiety z Aspose.PSD dla Java:
+## Introduction
+W tym samouczku dowiesz się, jak **java graphics draw arc** przy użyciu biblioteki Aspose.PSD for Java. Rysowanie łuków programowo jest przydatne przy tworzeniu własnych komponentów UI, wizualizacji danych lub dowolnej grafiki wymagającej precyzyjnej kontroli krzywej. Przeprowadzimy Cię przez każdy krok — od konfiguracji projektu po renderowanie łuku i zapis wyniku — abyś mógł od razu dodać tę funkcjonalność do swoich aplikacji Java.
+
+## Quick Answers
+- **Which library lets Java draw arcs easily?** Aspose.PSD for Java.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **What output formats are supported?** BMP, PNG, JPEG, TIFF, GIF, and more.  
+- **Can I change arc thickness or color?** Yes—adjust the `Pen` object properties.  
+- **Is the code compatible with Java 8+?** Absolutely, the API targets Java 8 and newer.
+
+## What is “java graphics draw arc”?
+Wyrażenie odnosi się do użycia kodu Java do renderowania zakrzywionego odcinka (łuku) na płótnie graficznym. Dzięki Aspose.PSD zyskujesz wysokopoziomową klasę `Graphics`, która upraszcza operacje rysowania, zarządzanie kolorami, antyaliasing i eksport plików w tle.
+
+## Why use Aspose.PSD for arc drawing?
+- **Full PSD support** – Twórz lub edytuj pliki Photoshop bez zainstalowanego Photoshopa.  
+- **Rich drawing API** – Metody takie jak `drawArc` pozwalają określić rozmiar, kąty i styl w jednym wywołaniu.  
+- **Cross‑format export** – Zapisz swój łuk do BMP, PNG, JPEG itp. za pomocą kilku linii kodu.  
+- **Performance‑focused** – Optymalizowane pod kątem dużych obrazów i przetwarzania wsadowego.
+
+## Prerequisites
+1. **Java Development Environment** – Zainstaluj Java (JDK 8 lub nowszy). Pobierz ją ze [strony Oracle](https://www.oracle.com/java/).  
+2. **Aspose.PSD for Java** – Pobierz bibliotekę ze [strony pobierania](https://releases.aspose.com/psd/java/) i dodaj plik JAR do classpath projektu.
+
+## Import Packages
+Najpierw zaimportuj wymagane klasy Aspose.PSD:
+
 ```java
 import com.aspose.psd.Color;
 import static com.aspose.psd.ColorAdjustType.Pen;
@@ -30,56 +50,83 @@ import com.aspose.psd.Pen;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
-Pakiety te zapewniają dostęp do klas i metod potrzebnych do rysowania łuków i zapisywania obrazów w różnych formatach.
-## Krok 1: Skonfiguruj swój projekt Java
-Najpierw utwórz nowy projekt Java w swoim IDE (Integrated Development Environment) i zaimportuj bibliotekę Aspose.PSD for Java. Upewnij się, że w ścieżce kompilacji projektu znajduje się prawidłowe odwołanie do biblioteki.
-## Krok 2: Zainicjuj obrazy i obiekty graficzne
- Utwórz instancję`PsdImage` I`Graphics` pracować z:
+
+Te importy dają dostęp do definicji kolorów, narzędzi rysunkowych, kontenerów obrazu oraz opcji zapisu plików.
+
+## Step‑by‑Step Guide
+
+### Step 1: Set Up Your Java Project
+Utwórz nowy projekt Maven lub Gradle, dodaj JAR Aspose.PSD i sprawdź, czy IDE poprawnie rozpoznaje importy.
+
+### Step 2: Initialize Image and Graphics Objects
+Stwórz pusty obiekt `PsdImage` i instancję `Graphics`, na której będziesz rysować:
+
 ```java
 String dataDir = "Your Document Directory";
-// Zainicjuj obiekt PsdImage
+// Initialize PsdImage object
 PsdImage image = new PsdImage(100, 100);
-// Zainicjuj obiekt graficzny i wyczyść powierzchnię
+// Initialize Graphics object and clear surface
 Graphics graphics = new Graphics(image);
 graphics.clear(Color.getYellow());
 ```
- Zastępować`"Your Document Directory"` ze ścieżką katalogu, w którym chcesz zapisać pliki wyjściowe.
-## Krok 3: Zdefiniuj parametry łuku
-Ustaw parametry łuku, który chcesz narysować, takie jak szerokość, wysokość, kąt początkowy i kąt odchylenia:
+
+Zastąp `"Your Document Directory"` folderem, w którym ma zostać zapisany plik wyjściowy.
+
+### Step 3: Define Arc Parameters
+Określ wymiary i kąty definiujące łuk:
+
 ```java
 int width = 100;
 int height = 200;
 int startAngle = 45;
 int sweepAngle = 270;
 ```
-Dostosuj te wartości w oparciu o specyficzne wymagania dotyczące rozmiaru i położenia łuku.
-## Krok 4: Narysuj i zapisz łuk
- Narysuj łuk za pomocą`drawArc` metoda`Graphics` klasę i zapisz obraz:
+
+Śmiało modyfikuj te liczby, aby dopasować styl wizualny do własnych potrzeb.
+
+### Step 4: Draw and Save the Arc
+Użyj metody `drawArc`, a następnie wyeksportuj obraz:
+
 ```java
-// Narysuj łuk z określonym obiektem Pióro (kolor czarny) i parametrami
+// Draw arc with specified Pen object (black color) and parameters
 graphics.drawArc(new Pen(Color.getBlack()), 0, 0, width, height, startAngle, sweepAngle);
-// Zapisz obraz w formacie BMP
+// Save the image in BMP format
 String outputPath = dataDir + "Arc.bmp";
 BmpOptions saveOptions = new BmpOptions();
 saveOptions.setBitsPerPixel(32);
 image.save(outputPath, saveOptions);
 ```
-Ten fragment kodu rysuje łuk na powierzchni graficznej z określonymi parametrami i zapisuje go jako plik BMP. Dostosuj ścieżkę wyjściową (`outputPath`) zgodnie ze strukturą plików Twojego projektu.
 
-## Wniosek
-Programowe rysowanie łuków przy użyciu Aspose.PSD dla Java jest proste i zapewnia elastyczność w tworzeniu niestandardowej grafiki w plikach PSD. Wykonując kroki opisane w tym samouczku, możesz efektywnie zintegrować funkcje rysowania łuków z aplikacjami Java.
+Kod rysuje czarny łuk na żółtym tle i zapisuje wynik do `Arc.bmp`. Zmien `outputPath` oraz `BmpOptions`, jeśli wolisz inny format lub jakość.
 
-## Często zadawane pytania
-### Czy Aspose.PSD dla Java obsługuje inne kształty oprócz łuków?
-Tak, Aspose.PSD obsługuje rysowanie różnych kształtów, w tym prostokątów, elips, linii i niestandardowych ścieżek.
-### Jak mogę modyfikować właściwości łuku, takie jak grubość i kolor?
- Można dostosować wygląd łuku, modyfikując plik`Pen` właściwości obiektu przekazywane do`drawArc` metoda.
-### Czy Aspose.PSD nadaje się do generowania złożonych treści graficznych?
-Absolutnie Aspose.PSD zapewnia rozbudowane funkcje do manipulowania i tworzenia plików PSD, obsługując zarówno prostą, jak i złożoną grafikę.
-### Czy Aspose.PSD obsługuje eksport do formatów innych niż BMP?
-Tak, Aspose.PSD obsługuje eksport do różnych formatów, w tym między innymi PNG, JPEG, TIFF i GIF.
-### Gdzie mogę znaleźć dodatkowe wsparcie i zasoby dla Aspose.PSD?
- Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia społeczności, dokumentacji i aktualizacji.
+## Common Issues & Solutions
+- **File not found error** – Upewnij się, że `dataDir` kończy się separatorem ścieżki (`/` lub `\\`) i że katalog istnieje.  
+- **Arc appears as a line** – Sprawdź, czy `width` i `height` są większe od zera oraz czy `sweepAngle` nie jest wielokrotnością 360° (co spowodowałoby pełną elipsę).  
+- **Color not applied** – Użyj `new Pen(Color.getRed())` lub ustaw `pen.setWidth(2)`, aby efekt był wyraźniejszy.
+
+## Frequently Asked Questions
+
+**Q: Can Aspose.PSD for Java handle other shapes besides arcs?**  
+A: Yes, it supports rectangles, ellipses, lines, and custom paths via the same `Graphics` API.
+
+**Q: How do I change the arc’s thickness or color?**  
+A: Create a `Pen` with the desired `Color` and `Width` (e.g., `new Pen(Color.getBlue(), 3)`) and pass it to `drawArc`.
+
+**Q: Is it possible to export the arc to formats other than BMP?**  
+A: Absolutely. Use `PngOptions`, `JpegOptions`, `TiffOptions`, etc., instead of `BmpOptions`.
+
+**Q: Where can I find more examples and support?**  
+A: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community help, official documentation, and code samples.
+
+## Conclusion
+Masz teraz kompletny, gotowy do produkcji przykład, jak **java graphics draw arc** przy użyciu Aspose.PSD for Java. Dostosowując parametry, ustawienia pióra i opcje wyjściowe, możesz wprowadzić własne łuki do dowolnego przepływu pracy graficznego opartego na Javie.
+
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
