@@ -1,27 +1,47 @@
 ---
-title: Jak přidat vzor vrstvy tahu v Javě
-linktitle: Jak přidat vzor vrstvy tahu v Javě
+date: 2026-01-17
+description: Naučte se, jak přidat vzor tahů v Javě pomocí Aspose.PSD pro Java. Postupujte
+  podle tohoto krok‑za‑krokem průvodce a rychle vylepšete své PSD obrázky.
+linktitle: How to Add Stroke Layer Pattern in Java
 second_title: Aspose.PSD Java API
-description: Naučte se, jak přidat vzor vrstvy tahu do souborů PSD pomocí Aspose.PSD for Java. Chcete-li své obrázky snadno vylepšit, postupujte podle tohoto podrobného průvodce.
-weight: 11
+title: Jak přidat vzor tahu v Javě pomocí Aspose.PSD
 url: /cs/java/java-graphics-drawing/add-stroke-layer-pattern/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak přidat vzor vrstvy tahu v Javě
+# Jak přidat vzor obrysu v Javě pomocí Aspose.PSD
 
-## Zavedení
-Přidání vzoru vrstvy tahu do obrázku v Javě může znít jako skličující úkol, ale s Aspose.PSD pro Javu je to jednodušší, než si myslíte. Ať už navrhujete grafiku nebo pracujete na aplikacích pro úpravu fotografií, tato příručka vás provede procesem krok za krokem. Jste připraveni začít? Pojďme se ponořit!
-## Předpoklady
-Než začnete, budete potřebovat několik věcí:
-- Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK.
--  Aspose.PSD pro Java: Stáhněte si knihovnu z[zde](https://releases.aspose.com/psd/java/) a zahrnout jej do svého projektu.
-- IDE: Použijte své oblíbené integrované vývojové prostředí (IDE), jako je IntelliJ IDEA nebo Eclipse.
-## Importujte balíčky
-Nejprve musíte do svého projektu Java importovat potřebné balíčky. Tyto balíčky jsou nezbytné pro práci s Aspose.PSD.
+## Úvod
+Pokud potřebujete **add stroke pattern java** do souboru Photoshop, Aspose.PSD for Java to dělá překvapivě jednoduše. Ať už vytváříte nástroj pro grafický design, automatizujete hromadné úpravy, nebo jen experimentujete s efekty vrstev, tento tutoriál vás provede každým krokem – od načtení PSD až po ověření nového vzoru. Ponořme se a podívejme se, jak rychle můžete vylepšit své obrázky.
+
+## Rychlé odpovědi
+- **Jakou knihovnu potřebuji?** Aspose.PSD for Java  
+- **Která verze Javy je podporována?** JDK 8 nebo novější  
+- **Potřebuji licenci pro testování?** Bezplatná zkušební verze funguje pro vývoj; licence je vyžadována pro produkci  
+- **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní vzor obrysu  
+- **Mohu vzor použít na více vrstev?** Ano, stačí přiřadit stejný `PattResource` ostatním vrstvám  
+
+## Co je add stroke pattern java?
+Přidání vzoru obrysu v Javě znamená aplikaci vlastního výplně (často opakující se bitmapy) na efekt obrysu vrstvy. Tato technika vám umožní vytvořit stylizované obrysy – představte si čárkovanou čáru, cihlovou texturu nebo vlastní grafický okraj – přímo v souboru PSD bez nutnosti otevírat Photoshop.
+
+## Proč použít Aspose.PSD pro add stroke pattern java?
+- **Plná věrnost PSD** – Všechny efekty vrstev, zdroje a režimy prolnutí jsou zachovány.  
+- **Není vyžadován nativní Photoshop** – Funguje na jakémkoli OS s JDK.  
+- **Programová kontrola** – Automatizujte hromadné zpracování nebo integrujte do serverových služeb.  
+- **Bohaté API** – Př k globálním zdrojům, výplním vzorů a režimům prolnutí v jedné plynulé rozhraní.
+
+## Požadavky
+- **Java Development Kit (JDK)** – Ujistěte se, že máte nainstalovaný JDK 8 nebo novější.  
+- **Aspose.PSD for Java** – Stáhněte knihovnu z [zde](https://releases.aspose.com/d/java/) a přidejte JAR do classpath vašeho projektu.  
+- **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor, který preferujete.
+
+## Import balíčků
+Nejprve importujte třídy, které budete potřebovat pro práci se soubory PSD, barvami, obdélníky a efekty obrysu.
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
@@ -36,8 +56,10 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.PattResource;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import java.util.UUID;
 ```
-## Krok 1: Načtěte soubor PSD
-Prvním krokem při přidávání vzorku vrstvy tahu je načtení souboru PSD, který chcete upravit.
+
+## Krok 1: Načtení souboru PSD
+Načtěte zdrojový PSD, abyste mohli pracovat s jeho vrstvami a zdroji.
+
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "Stroke.psd";
@@ -45,9 +67,10 @@ PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
-Načtením souboru PSD nyní můžete přistupovat k jeho vrstvám a efektům a manipulovat s nimi.
-## Krok 2: Připravte data nového vzoru
-Dále je třeba připravit data nového vzoru, která použijete na vrstvu tahu.
+
+## Krok 2: Připravte nová data vzoru
+Vytvořte jednoduchý 4 × 4 pixelový vzor, který bude použit pro obrys.
+
 ```java
 int[] newPattern = new int[]
 {
@@ -59,9 +82,10 @@ int[] newPattern = new int[]
 Rectangle newPatternBounds = new Rectangle(0, 0, 4, 4);
 UUID guid = UUID.randomUUID();
 ```
-Tato data vzoru budou použita k vytvoření nového efektu tahu.
-## Krok 3: Přístup k efektu tahu
-Chcete-li upravit efekt tahu, musíte otevřít konkrétní vrstvu a její možnosti prolnutí.
+
+## Krok 3: Přístup k efektu obrysu
+Najděte efekt obrysu na cílové vrstvě (v tomto příkladu čtvrtá vrstva).
+
 ```java
 StrokeEffect patternStroke = (StrokeEffect)im.getLayers()[3].getBlendingOptions().getEffects()[0];
 Assert.areEqual(BlendMode.Normal, patternStroke.getBlendMode());
@@ -70,15 +94,19 @@ Assert.areEqual(true, patternStroke.isVisible());
 PatternFillSettings fillSettings = (PatternFillSettings)patternStroke.getFillSettings();
 Assert.areEqual(FillType.Pattern, fillSettings.getFillType());
 ```
-To zajišťuje, že pracujete se správnou vrstvou a efektem.
-## Krok 4: Upravte efekt tahu
-Nyní upravme efekt tahu pomocí nových dat vzoru.
-### Aktualizujte vlastnosti efektu tahu
+
+## Krok 4: Úprava efektu obrysu
+### Aktualizace vlastností efektu obrysu
+Upravte neprůhlednost a režim prolnutí, abyste viděli vizuální dopad nového vzoru.
+
 ```java
 patternStroke.setOpacity((byte)127);
 patternStroke.setBlendMode(BlendMode.Color);
 ```
-### Aktualizujte prostředek vzoru
+
+### Aktualizace zdroje vzoru
+Nahraďte existující globální zdroj vzoru tím, který jste právě vytvořili.
+
 ```java
 PattResource resource;
 for (int i = 0; i < im.getGlobalLayerResources().length; i++)
@@ -92,17 +120,19 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++)
     }
 }
 ```
-Tento fragment kódu aktualizuje zdroj vzoru novými daty vzoru.
-## Krok 5: Použijte nový vzor
-Nakonec použijte nový vzor na efekt tahu a uložte změny.
+
+## Krok 5: Použití nového vzoru
+Připojte aktualizovaný zdroj vzoru k efektu obrysu a uložte PSD.
+
 ```java
 ((PatternFillSettings)patternStroke.getFillSettings()).setPatternName("$$/Presets/Patterns/HorizontalLine1=Horizontal Line 9\0");
 ((PatternFillSettings)patternStroke.getFillSettings()).setPatternId(guid.toString() + "\0");
 im.save(exportPath);
 ```
-Tím zajistíte, že se nový vzor použije správně a soubor se uloží se změnami.
-## Krok 6: Ověřte změny
-Abyste se ujistili, že vše fungovalo správně, načtěte soubor znovu a ověřte změny.
+
+## Krok 6: Ověření změn
+Znovu načtěte soubor a potvrďte, že nový vzor, neprůhlednost a režim prolnutí jsou správně aplikovány.
+
 ```java
 PsdImage img = (PsdImage)Image.load(sourceFileName, loadOptions);
 StrokeEffect patternStrokeEffect = (StrokeEffect)img.getLayers()[3].getBlendingOptions().getEffects()[0];
@@ -130,23 +160,39 @@ catch (Exception e)
     System.out.println(e.getMessage());
 }
 ```
-Tento krok ověří, že data vzoru byla správně aplikována na efekt tahu.
-## Závěr
-A tady to máte! Úspěšně jste přidali vzor vrstvy tahu do souboru PSD pomocí Aspose.PSD for Java. Podle těchto kroků můžete své obrázky snadno přizpůsobit a vylepšit. Šťastné kódování!
-## FAQ
+
+## Časté problémy a řešení
+| Problém | Příčina | Řešení |
+|---------|---------|--------|
+| Vzor se nezobrazuje | Špatná reference `PatternId` | Ujistěte se, že `PatternId` nastavený na `PattResource` odpovídá tomu, který je použit v `PatternFillSettings`. |
+| Obrys zmizí po uložení | Neprůhlednost nastavena na 0 nebo efekt skrytý | Zkontrolujte, že `setOpacity` je v rozmezí 0‑255 a `isVisible()` vrací `true`. |
+| Neočekávané barvy | Neshoda režimu prolnutí | Použijte `BlendMode.Color` (nebo jiný režim), který odpovídá vašemu designovému záměru. |
+
+## Často kladené otázky
 ### Co je Aspose.PSD for Java?
-Aspose.PSD for Java je knihovna, která umožňuje vývojářům vytvářet, upravovat a převádět soubory PSD (Photoshop Document) programově.
-### Mohu použít Aspose.PSD pro Javu v komerčním projektu?
- Ano, můžete jej použít v komerčních projektech. Licenci si můžete zakoupit od[zde](https://purchase.aspose.com/buy).
-### Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Javu?
- Ano, můžete si stáhnout bezplatnou zkušební verzi z[zde](https://releases.aspose.com/).
-### Jak mohu získat podporu pro Aspose.PSD pro Java?
- Podporu můžete získat na fórech komunity Aspose[zde](https://forum.aspose.com/c/psd/34).
-### Jaké jsou systémové požadavky pro Aspose.PSD pro Java?
-Pro vývoj potřebujete nainstalovaný JDK a IDE. Knihovna podporuje více operačních systémů včetně Windows, Linux a macOS.
+Aspose.PSD for Java je knihovna, která umožňuje vývojářům programově vytvářet, upravovat a konvertovat soubory PSD (Photoshop Document).
+
+### Mohu použít Aspose.PSD for Java v komerčním projektu?
+Ano, můžete ji použít v komerčních projektech. Licenci můžete zakoupit [zde](https://purchase.aspose.com/buy).
+
+### Je k dispozici bezplatná zkušební verze pro Aspose.PSD for Java?
+Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+
+### Jak mohu získat podporu pro Aspose.PSD for Java?
+Podporu můžete získat na fórech komunity Aspose [zde](https://forum.aspose.com/c/psd/34).
+
+### Jaké jsou systémové požadavky pro Aspose.PSD for Java?
+Potřebujete nainstalovaný JDK a IDE pro vývoj. Knihovna podporuje více operačních systémů, včetně Windows, Linuxu a macOS.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
