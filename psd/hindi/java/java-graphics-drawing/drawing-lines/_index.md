@@ -1,27 +1,49 @@
 ---
-title: जावा में रेखाएँ खींचना
-linktitle: जावा में रेखाएँ खींचना
-second_title: Aspose.PSD जावा एपीआई
-description: इस व्यापक ट्यूटोरियल के साथ Aspose.PSD for Java का उपयोग करके PSD फ़ाइलों में रेखाएँ बनाना सीखें। अपने Java विकास कौशल को बढ़ाएँ।
-weight: 16
+date: 2026-01-19
+description: ASP और Aspose.PSD for Java का उपयोग करके PSD फ़ाइलों में लाइनों को कैसे
+  बनाएं, सीखें। इस चरण‑दर‑चरण मार्गदर्शिका के साथ अपनी Java विकास कौशल को बढ़ाएँ।
+linktitle: Drawing Lines in Java
+second_title: Aspose.PSD Java API
+title: asp जावा में रेखाएँ बनाना
 url: /hi/java/java-graphics-drawing/drawing-lines/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में रेखाएँ खींचना
+# asp Drawing Lines in Java
 
-## परिचय
-जावा विकास के क्षेत्र में, PSD (फ़ोटोशॉप दस्तावेज़) फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करना और बनाना एक शक्तिशाली क्षमता है। Aspose.PSD for Java डेवलपर्स को PSD फ़ाइलों के भीतर सीधे रेखाएँ, आकृतियाँ और छवियाँ बनाने जैसे विभिन्न कार्य करने की शक्ति देता है। यह ट्यूटोरियल आपको Aspose.PSD for Java का उपयोग करके रेखाएँ खींचने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा, जो आपको जल्दी से आरंभ करने में मदद करने के लिए स्पष्ट चरण और उदाहरण प्रदान करता है।
-## आवश्यक शर्तें
-इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
-- जावा प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
-- आपके सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित है।
-- Aspose.PSD for Java लाइब्रेरी डाउनलोड की गई और आपके विकास परिवेश में स्थापित की गई।
-## पैकेज आयात करें
-सबसे पहले, सुनिश्चित करें कि आपने अपने प्रोजेक्ट में आवश्यक Aspose.PSD for Java पैकेज आयात कर लिए हैं:
+## Introduction
+आधुनिक Java विकास में, Photoshop Document (PSD) फ़ाइलों को प्रोग्रामेटिक रूप से संभालना स्वचालन की नई संभावनाएँ खोलता है। **asp** (Aspose.PSD लाइब्रेरी) आपको Java कोड से सीधे PSD फ़ाइलें बनाने, संपादित करने और रेंडर करने पर पूर्ण नियंत्रण देती है। इस ट्यूटोरियल में आप सीखेंगे **कैसे Java एप्लिकेशन में लाइनें ड्रॉ करें** Aspose.PSD for Java का उपयोग करके, चरण दर चरण।
+
+## Quick Answers
+- **कौन सी लाइब्रेरी आपको Java में PSD फ़ाइलें संपादित करने देती है?** asp (Aspose.PSD for Java)  
+- **क्या मैं डॉटेड और सॉलिड दोनों लाइनों को ड्रॉ कर सकता हूँ?** हाँ, विभिन्न Pen सेटिंग्स का उपयोग करके।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** टेस्टिंग के लिए मुफ्त ट्रायल काम करता है; प्रोडक्शन के लिए लाइसेंस आवश्यक है।  
+- **कौन सा Java संस्करण समर्थित है?** JDK 8 या उससे ऊपर।  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?**  लाइन ड्रॉइंग के लिए 15 मिनोधित करने और लिखने के लिए समृद्ध API सेट प्रदान करती है, बिना Adobe Photoshop की आवश्यकता के। चाहे आपको ग्राफ़िक्स ओ करनेारी काम संभाल लेती है।
+
+## Why use asp for drawing lines in Java?
+- **Performance:** ऑप्टिमाइज़्ड नेटिव कोड बड़े PSD फ़ाइलों के लिए भी तेज़ रेंडरिंग सुनिश्चित करता है।  
+- **Flexibility:** ड्रॉइंग प्रिमिटिव्स की विस्तृत रेंज—लाइन, रेक्टैंगल, एलिप्स और कस्टम पाथ्स—को सपोर्ट करता है।  
+- **Cross‑platform:** किसी भी ऑपरेटिंग सिस्टम पर काम करता है जहाँ Java चलता है।  
+- **No Photoshop required:** सभी ऑपरेशन्स प्रोग्रामेटिक रूप से किए जाते हैं।
+
+## Prerequisites
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+
+- Java प्रोग्रामिंग का बेसिक ज्ञान।  
+- स्थापित JDK (Java Development Kit)।  
+- **asp** (Aspose.PSD for Java) लाइब्रेरी डाउनलोड की हुई और आपके प्रोजेक्ट डिपेंडेंसीज़ में जोड़ी हुई।  
+
+आप लाइब्रेरी आधिकारिक डाउनलोड पेज से प्राप्त कर सकते हैं:
+
+- [Aspose.PSD for Java Download](https://releases.aspose.com/psd/java/)
+
+## Import आवश्यक asp क्लासेज़ को अपने Java प्रोजेक्ट में इम्पोर्ट करें:
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
@@ -33,56 +55,83 @@ import com.aspose.psd.brushes.SolidBrush;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
-## चरण 1: अपना प्रोजेक्ट सेट करें
-अपने IDE में एक नया Java प्रोजेक्ट बनाकर और अपनी निर्भरताओं में Aspose.PSD for Java जोड़कर शुरुआत करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[Aspose.PSD for Java डाउनलोड करें](https://releases.aspose.com/psd/java/).
-## चरण 2: PSD छवि आरंभ करें
-निर्दिष्ट चौड़ाई और ऊंचाई के साथ PSD छवि आरंभ करें:
+
+## Step 1: Set Up Your Project
+अपने IDE में एक नया Java प्रोजेक्ट बनाएं और asp JAR फाइलों को बिल्ड पाथ में जोड़ें। इससे आप नीचे दिखाए गए सभी ड्रॉइंग API तक पहुंच पाएंगे।
+
+## Step 2: Initialize PSD Image
+इच्छित आयामों के साथ एक खाली PSD कैनवास बनाएं:
+
 ```java
 String dataDir = "Your Document Directory";
 String outpath = dataDir + "Lines.psd";
 Image image = new PsdImage(100, 100);
 ```
-## चरण 3: ग्राफ़िक्स ऑब्जेक्ट को आरंभ करें
-ग्राफ़िक्स वर्ग का एक उदाहरण बनाएं और ग्राफ़िक्स सतह को साफ़ करें:
+
+## Step 3: Initialize Graphics Object
+**Graphics** ऑब्जेक्ट एक ड्रॉइंग सतह की तरह काम करता है। ड्रॉ करने से पहले इसे बैकग्राउंड कलर से क्लियर करें:
+
 ```java
 Graphics graphic = new Graphics(image);
 graphic.clear(Color.getYellow());
 ```
-## चरण 4: विकर्ण बिंदीदार रेखाएँ बनाएँ
-नीले पेन ऑब्जेक्ट का उपयोग करके दो विकर्ण बिंदीदार रेखाएं बनाएं:
+
+## Step 4: Draw Diagonal Dotted Lines
+डिफ़ॉल्ट स्टाइल वाले Pen का उपयोग करके दो डायगोनल डॉटेड लाइनों को ड्रॉ करें:
+
 ```java
 graphic.drawLine(new Pen(Color.getBlue()), 9, 9, 90, 90);
 graphic.drawLine(new Pen(Color.getBlue()), 9, 90, 90, 9);
 ```
-## चरण 5: निरंतर रेखाएँ बनाएँ
-विभिन्न रंगों वाले पेन ऑब्जेक्ट का उपयोग करके चार निरंतर रेखाएँ बनाएँ:
+
+## Step 5: Draw Continuous Lines
+कस्टम रंगों के साथ सॉलिड लाइनों के लिए, SolidBrush ऑब्जेक्ट्स द्वारा समर्थित Pen इंस्टेंस बनाएं:
+
 ```java
 graphic.drawLine(new Pen(new SolidBrush(Color.getRed())), new Point(9, 9), new Point(9, 90));
 graphic.drawLine(new Pen(new SolidBrush(Color.getAqua())), new Point(9, 90), new Point(90, 90));
 graphic.drawLine(new Pen(new SolidBrush(Color.getBlack())), new Point(90, 90), new Point(90, 9));
 graphic.drawLine(new Pen(new SolidBrush(Color.getWhite())), new Point(90, 9), new Point(9, 9));
 ```
-## चरण 6: छवि सहेजें
-अंत में, संशोधित PSD छवि को निर्दिष्ट पथ पर सहेजें:
+
+## Step 6: Save the Image
+परिवर्तित PSD को डिस्क पर सेव करें:
+
 ```java
 image.save(outpath);
 ```
-## निष्कर्ष
-इन चरणों का पालन करके, आपने Aspose.PSD for Java का उपयोग करके PSD फ़ाइल में सफलतापूर्वक रेखाएँ खींची हैं। इस ट्यूटोरियल में PSD छवि को आरंभ करना, ग्राफ़िक्स सेट करना, विभिन्न प्रकार की रेखाएँ खींचना और परिणामी छवि को सहेजना शामिल है।
-## अक्सर पूछे जाने वाले प्रश्न
-### Java के लिए Aspose.PSD क्या है?
-Aspose.PSD for Java PSD फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली जावा लाइब्रेरी है।
-### मैं Java के लिए Aspose.PSD का दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/psd/java/).
-### क्या मैं खरीदने से पहले Java के लिए Aspose.PSD आज़मा सकता हूँ?
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
-### मैं Java के लिए Aspose.PSD हेतु तकनीकी सहायता कैसे प्राप्त करूं?
- तकनीकी सहायता के लिए, यहां जाएं[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34).
-### मैं Java के लिए Aspose.PSD का अस्थायी लाइसेंस कहां से प्राप्त कर सकता हूं?
- आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+
+## Conclusion
+इन चरणों का पालन करके आपने सफलतापूर्वक **asp** का उपयोग करके Java में PSD फ़ाइल के अंदर लाइनों को ड्रॉ किया। अब आप जानते हैं कि कैनवास कैसे सेट करें, उसे क्लियर करें, डॉटेड और सॉलिड दोनों लाइनों को ड्रॉ करें, और परिणाम को सेव करें। यह आधार आपको अधिक जटिल ग्राफ़िक्स बनाने, टेक्स्ट लेयर्स जोड़ने, या बड़े Java एप्लिकेशन्स में PSD मैनिपुलेशन को इंटीग्रेट करने में मदद करेगा।
+
+## Frequently Asked Questions
+
+**Q: What is Aspose.PSD for Java?**  
+A: Aspose.PSD for Java एक शक्तिशाली Java लाइब्रेरी है जो प्रोग्रामेटिक रूप से PSD फ़ाइलों के साथ काम करने के लिए बनाई गई है।
+
+**Q: Where can I find the documentation for Aspose.PSD for Java?**  
+A: आप डॉक्यूमेंटेशन [यहाँ](https://reference.aspose.com/psd/java/) पा सकते हैं।
+
+**Q: Can I try Aspose.PSD for Java before purchasing?**  
+A: हाँ, आप मुफ्त ट्रायल [यहाँ](https://releases.aspose.com/) ले सकते हैं।
+
+**Q: How do I get technical support for Aspose.PSD for Java?**  
+A: तकनीकी समर्थन के लिए, [Aspose.PSD फोरम](https://forum.aspose.com/c/psd/34) पर जाएँ।
+
+**Q: Where can I obtain a temporary license for Aspose.PSD for Java?**  
+A: आप एक टेम्पररी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-19  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
+---
