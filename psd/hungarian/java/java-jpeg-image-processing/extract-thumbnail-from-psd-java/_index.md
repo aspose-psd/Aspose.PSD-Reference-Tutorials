@@ -1,27 +1,48 @@
 ---
-title: Bélyegkép kibontása a PSD-ből Java nyelven
-linktitle: Bélyegkép kibontása a PSD-ből Java nyelven
+date: 2026-01-25
+description: Tanulja meg, hogyan lehet bélyegképet kinyerni PSD fájlokból az Aspose.PSD
+  for Java használatával. Kövesse ezt a lépésről‑lépésre útmutatót a betöltéshez,
+  kinyeréshez és a bélyegképek gyors mentéséhez.
+linktitle: Extract Thumbnail from PSD in Java
 second_title: Aspose.PSD Java API
-description: Ismerje meg, hogyan bonthat ki miniatűröket PSD-fájlokból az Aspose.PSD for Java használatával. Ez a részletes útmutató a beállítástól a kinyert képek mentéséig mindent lefed.
-weight: 15
+title: Miniatűr kinyerése PSD‑ből Java‑ban
 url: /hu/java/java-jpeg-image-processing/extract-thumbnail-from-psd-java/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bélyegkép kibontása a PSD-ből Java nyelven
+# Miniatűr kinyerése PSD-ből Java-ban
 
 ## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet miniatűröket kivonni PSD-fájlokból az Aspose.PSD for Java segítségével. A miniatűrök hasznosak lehetnek a gyors előnézetekhez vagy a PSD dokumentumokba ágyazott képek kisebb verzióinak létrehozásához. Vessen egy pillantást az Aspose.PSD használatához szükséges lépésekre.
+Ebben az útmutatóban megtanulja, **hogyan nyerjen ki miniatűrt PSD** fájlokból az Aspose.PSD Java könyvtár segítségével. A miniatűrök apró előnézeti képek, amelyek a PSD dokumentumokba vannak beágyazva, és ezek kinyerése segíthet gyors előnézetek generálásában, képgalériák létrehozásában, vagy a tárolás csökkentésében, ha csak a műalkotás kis reprezentációjára van szükség. Lépésről lépésre végigvezetünk a projekt beállításától a kinyert miniatűr szabványos képfájlként történő mentéséig.
+
+## Gyors válaszok
+- **Miről szól ez az útmutató?** Miniatűr kép kinyerése és mentése PSD fájlból az Aspose.PSD for Java segítségével.  
+- **Melyik könyvtár szükséges?** Aspose.PSD for Java (letölthető a hivatalos Aspose weboldalról).  
+- **Szükség van licencre?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz; ingyenes próbaverzió elérhető.  
+- **Milyen kimeneti formátumot használ?** A példa a miniatűrt JPEG fájlként menti, de bármely támogatott formátum választható.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 5‑10 perc egy olyan fejlesztőnek, aki ismeri az alap Java koncepciókat.
+
+## Mi az a „thumbnail kinyerése PSD-ből”?
+A thumbnail kinyerése PSD-ből azt jelenti, hogy elolvassuk a Photoshop által a fájl erőforrás szekciójában tárolt kis előnézeti képet. Ez az előnézet általában alacsony felbontású változata a teljes vásznak, így ideális a gyors betöltéshez fájl böngészőkben vagy web galériákban.
+
+## Miért érdemes thumbnail-eket kinyerni az Aspose.PSD-vel?
+- **Sebesség:** Nem kell megnyitni a teljes PSD-t egy grafikus szerkesztőben; a thumbnail már be van ágyazva.  
+- **Automatizálás:** Tökéletes nagy képtárak kötegelt feldolgozásához.  
+- **Kereszt‑platform:** Minden olyan operációs rendszeren működik, amely támogatja a Java-t, Photoshop nélkül.  
+- **Formátum rugalmasság:** A thumbnail átalakítható JPEG, PNG vagy bármely, az Aspose.PSD által támogatott formátumba.
+
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy az alábbiakat beállította:
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.PSD a Java könyvtárhoz. Letöltheti innen[itt](https://releases.aspose.com/psd/java/).
-- Java programozási alapismeretek.
+Mielőtt elkezdenénk, győződjön meg arról, hogy a következők be vannak állítva:
+- Java Development Kit (JDK) telepítve van a rendszerén.  
+- Aspose.PSD for Java könyvtár. Letöltheti [innen](https://releases.aspose.com/psd/java/).  
+- Alapvető Java programozási ismeretek.
+
 ## Csomagok importálása
-A kezdéshez vegye fel a szükséges Aspose.PSD csomagot a Java osztályba:
+A kezdéshez vegye fel a szükséges Aspose.PSD csomagot a Java osztályába:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
@@ -29,59 +50,83 @@ import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
-## 1. lépés: Töltse be a PSD fájlt
-Először töltse be a PSD-fájlt, amely tartalmazza a kicsomagolni kívánt bélyegképet.
+
+## Hogyan nyerjünk ki thumbnail-t PSD-ből az Aspose.PSD for Java használatával
+Az alábbiakban a lépésről‑lépésre útmutató. Minden lépés rövid magyarázatot tartalmaz, majd a pontos kódot, amelyet másolni kell.
+
+### 1. lépés: PSD fájl betöltése
+Először töltse be azt a PSD fájlt, amely a kinyerni kívánt thumbnail-t tartalmazza.
 ```java
 String dataDir = "Your_Document_Directory/";
 PsdImage image = (PsdImage)Image.load(dataDir + "your_file.psd");
 ```
- Cserélje ki`"Your_Document_Directory/"` a könyvtár elérési útjával, ahol a PSD-fájl található, és`"your_file.psd"` a PSD-fájl nevével.
-## 2. lépés: Ismételje meg a képforrásokat
-Iteráljon a képforrásokon, hogy megtalálja a miniatűr erőforrást.
+Cserélje le a `"Your_Document_Directory/"`-t a PSD fájlja elérési útjára, és a `"your_file.psd"`-t a PSD fájl nevére.
+
+### 2. lépés: Képernyő erőforrások iterálása
+Iteráljon a képernyő erőforrásokon, hogy megtalálja a thumbnail erőforrást.
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource) {
         ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
         
-        // Miniatűr adatok kibontása
+        // Extract thumbnail data
         int[] data = thumbnail.getThumbnailArgb32Data();
         
-        // Hozzon létre egy új képet a kibontott miniatűr adatokkal
+        // Create a new image with the extracted thumbnail data
         PsdImage extractedThumbnailImage = new PsdImage(thumbnail.getWidth(), thumbnail.getHeight());
         extractedThumbnailImage.saveArgb32Pixels(extractedThumbnailImage.getBounds(), data);
         
-        // Mentse el a kibontott bélyegképet külön JPEG fájlként
+        // Save the extracted thumbnail as a separate JPEG file
         extractedThumbnailImage.save(dataDir + "extracted_thumbnail.jpg", new JpegOptions());
         
-        // Sikerüzenet megjelenítése
+        // Output success message
         System.out.println("Thumbnail extracted and saved successfully.");
         
-        break; // A miniatűr megtalálása és feldolgozása után lépjen ki a ciklusból
+        break; // Exit the loop once thumbnail is found and processed
     }
 }
 ```
-## 3. lépés: Mentse el a kibontott bélyegképet
-Mentse el a kibontott bélyegképet külön képfájlként (jelen esetben JPEG fájlként).
-## 4. lépés: Különböző miniatűr típusok kezelése
- Ha a PSD-fájl többféle bélyegképet is tartalmazhat, mint pl`Thumbnail4Resource`, kibővítheti a logikát az esetek hasonló kezelésére.
 
-## Következtetés
-Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet miniatűröket kivonni PSD-fájlokból az Aspose.PSD for Java használatával. A fent vázolt lépések követésével hatékonyan lekérheti és mentheti a PSD-dokumentumokba ágyazott miniatűröket.
+### 3. lépés: Kinyert thumbnail mentése
+Az előző lépésben lévő kód már elmenti a thumbnail-t JPEG fájlként `extracted_thumbnail.jpg` néven ugyanabban a könyvtárban. A fájl nevét vagy formátumát a `save` metódus paramétereinek módosításával változtathatja meg.
 
-## GYIK
-### Mi az Aspose.PSD?
-Az Aspose.PSD egy Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PSD-vel és más képfájlformátumokkal.
-### Hol találok további dokumentációt az Aspose.PSD for Java-ról?
- Hivatkozhat a[dokumentáció](https://reference.aspose.com/psd/java/) részletes API-referenciákért és példákért.
-### Vásárlás előtt ingyenesen kipróbálhatom az Aspose.PSD-t?
- Igen, letöltheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy értékelje a könyvtár képességeit.
-### Hogyan szerezhetek ideiglenes licenceket az Aspose.PSD-hez?
- Ideiglenes engedélyek szerezhetők be[itt](https://purchase.aspose.com/temporary-license/).
-### Az Aspose.PSD alkalmas kereskedelmi használatra?
-Igen, az Aspose.PSD felhasználható személyes és kereskedelmi projektekhez is a licencfeltételei szerint.
+### 4. lépés: Különböző thumbnail típusok kezelése
+Ha a PSD fájl többféle thumbnail típust is tartalmazhat, például `Thumbnail4Resource`, a logikát hasonlóan kibővítheti ezek kezelésére. Egyszerűen adjon hozzá egy `instanceof Thumbnail4Resource` ellenőrzést a ciklusba, és dolgozza fel ugyanazzal a mintával.
+
+## Gyakori problémák és megoldások
+- **Nem található thumbnail:** Nem minden PSD fájl tartalmaz thumbnail erőforrást. Ellenőrizze a forrásfájlt Photoshopban (File → Export → Thumbnail), vagy használjon egy másik PSD-t, amely tartalmaz előnézetet.  
+- **Nem támogatott képformátum hiba:** Győződjön meg róla, hogy a legújabb Aspose.PSD verziót használja, amely támogatja a célformátumot.  
+- **Jogosultsági hiba mentéskor:** Ellenőrizze, hogy az alkalmazásnak írási joga van-e a kimeneti könyvtárhoz.
+
+## Gyakran feltett kérdések
+
+**Q: Mi az Aspose.PSD?**  
+A: Az Aspose.PSD egy Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozott módon dolgozzanak PSD és más képformátumokkal.
+
+**Q: Hol találok további dokumentációt az Aspose.PSD for Java-hoz?**  
+A: A részletes API referenciákért és példákért tekintse meg a [dokumentációt](https://reference.aspose.com/psd/java/).
+
+**Q: Próbálhatom-e ingyenesen az Aspose.PSD-t vásárlás előtt?**  
+A: Igen, letölthet egy [ingyenes próbaverziót](https://releases.aspose.com/), hogy felmérje a könyvtár képességeit.
+
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?**  
+A: Ideiglenes licenceket itt szerezhet: [here](https://purchase.aspose.com/temporary-license/).
+
+**Q: Alkalmas-e az Aspose.PSD kereskedelmi felhasználásra?**  
+A: Igen, az Aspose.PSD személyes és kereskedelmi projektekben is használható a licencfeltételek szerint.
+
+## Összegzés
+Ebben az útmutatóban megvizsgáltuk, hogyan **nyerhetünk ki thumbnail-t PSD** fájlokból az Aspose.PSD for Java használatával. A fenti lépések követésével hatékonyan lekérheti és elmentheti a PSD dokumentumokba beágyazott thumbnail-eket, ami gyorsabb előnézeteket és egyszerűbb képfolyamatokat tesz lehetővé.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
