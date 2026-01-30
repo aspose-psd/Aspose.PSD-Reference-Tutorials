@@ -1,10 +1,11 @@
 ---
-date: 2025-11-30
-description: Aspose.PSD for Java kullanarak PSD dosyalarına desen bindirme efektleri
-  eklemeyi öğrenin. Kod örnekleri ve sorun giderme ipuçlarıyla adım adım rehber.
+date: 2026-01-30
+description: Aspose.PSD for Java kullanarak bir Java görüntü bindirmesi eklemeyi,
+  adım adım kod örnekleri ve sorun giderme ipuçlarıyla desen bindirme efektlerini
+  nasıl ekleyeceğinizi öğrenin.
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
-title: Aspose.PSD for Java'da Desen Kaplama Efektlerini Ekleyin
+title: java görüntü bindirme – Aspose.PSD'de Desen Bindirme
 url: /tr/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -17,18 +18,14 @@ weight: 12
 
 ## Giriş
 
-Java uygulamanızdan Photoshop (PSD) dosyalarınıza **desen kaplama** eklemeniz gerektiğinde, Aspose.PSD for Java bu görevi basitleştirir. Bu öğreticide bir PSD'yi yükleme, desen kaplama ayarlarını düzenleme ve sonucu kaydetme adımlarını net, üretim‑hazır kodla göstereceğiz. Sonunda desen kaplamaların marka oluşturma, doku yaratma ve dinamik görüntü üretimi için neden faydalı olduğunu anlayacaksınız.
+Java uygulamasından Photoshop (PSD) dosyalarınıza **java image overlay** eklemeniz gerekiyorsa, Aspose.PSD for Java bu görevi basitleştirir. Bu öğreticide bir PSD'yi yüklemeyi, desen kaplama ayarlarını düzenlemeyi ve sonucu kaydetmeyi adım adım göstereceğiz—hepsi net, üretim‑hazır kodla. Sonunda desen kaplamaların marka oluşturma, doku yaratma ve dinamik görüntü üretimi için neden faydalı olduğunu anlayacaksınız.
 
 ## Hızlı Yanıtlar
-- **Ne başarabilirim?** Herhangi bir PSD katmanında desen kaplama efektlerini ekleyin veya değiştirin.  
+- **Ne başarabilirim?** Herhangi bir PSD katmanında desen kaplama efektlerini ekleyebilir veya değiştirebilirsiniz.  
 - **Gerekli kütüphane?** Aspose.PSD for Java (en son sürüm).  
 - **Önkoşullar?** JDK 8+, Aspose.PSD JAR ve bir örnek PSD dosyası.  
 - **Tipik uygulama süresi?** Temel bir kaplama için yaklaşık 10–15 dakika.  
-- **Kodu yeniden kullanabilir miyim?** Evet – aynı yaklaşım desen kaynaklarına sahip herhangi bir PSD'de çalışır.
-
-## Desen Kaplama Nedir?
-
-Desen kaplama, seçilen katman üzerinde küçük bir bitmap'i (deseni) döşeyen bir katman efektidir. Genellikle dokular, marka damgaları veya dekoratif arka planlar için kullanılır. Aspose.PSD ile programlı olarak desenin renklerini, ofsetlerini, karışım modunu ve hatta alttaki desen verisini değiştirebilirsiniz.
+- **Kodu yeniden aynılama. Genellikle dokular, marka damgaları veya dekoratif arka planlar için kullanılır. Aspose.PSD ile programlı olarak desenin renklerini, ofsetlerini, karışım modunu değiştirebilir ve hatta alttaki desen verisini tamamen değiştirebilirsiniz.
 
 ## Aspose.PSD for Java ile Desen Kaplama Neden Kullanılır?
 
@@ -37,13 +34,17 @@ Desen kaplama, seçilen katman üzerinde küçük bir bitmap'i (deseni) döşeye
 - **Zengin API:** Karışım modlarına, opaklığa ve desen kaynaklarına doğrudan erişim.  
 - **Çapraz platform:** Aynı kod tabanı ile Windows, Linux ve macOS'ta çalışır.
 
+## Aspose.PSD'de java image overlay Nasıl Uygulanır
+
+Aşağıda **overlay ekleme** efektlerini, overlay opaklığını değiştirmeyi ve deseni tamamen değiştirmeyi gösteren eksiksiz adım‑adım kılavuz yer almaktadır.
+
 ## Önkoşullar
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce şunların yüklü olduğundan emin olun:
 
 - Makinenizde Java Development Kit (JDK) yüklü.  
-- Aspose.PSD for Java kütüphanesini projenizin sınıf yoluna ekleyin. [Aspose.PSD web sitesinden](https://releases.aspose.com/psd/java/) indirebilirsiniz.  
-- `PatternOverlay.psd` gibi, katmanlarından birinde zaten desen kaplama efekti bulunan bir örnek PSD dosyası.
+- Aspose.PSD for Java kütüphanesini projenizin classpath'ine ekleyin. [Aspose.PSD web sitesinden](https://releases.aspose.com/psd/java/) indirebilirsiniz.  
+- Desen kaplama efekti içeren bir örnek PSD dosyası (ör. `PatternOverlay.psd`).
 
 ## Paketleri İçe Aktarma
 
@@ -68,9 +69,9 @@ import java.util.UUID;
 
 ## Adım‑Adım Kılavuz
 
-### Adım 1: PSD Görüntüsünü Yükleme
+### Adım 1: PSD Görüntüsünü Yükle
 
-İlk olarak, efekt kaynaklarının yüklenmesini etkinleştirerek kaynak PSD dosyasını yükleyin:
+Kaynak PSD dosyasını, efekt kaynaklarını yüklemeyi etkinleştirerek yükleyin:
 
 ```java
 // Load the PSD image
@@ -85,9 +86,9 @@ PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 
 > **Pro tip:** `loadOptions.setLoadEffectsResource(true)` satırını tutun; aksi takdirde desen kaplama efekti erişilemez olur.
 
-### Adım 2: Mevcut Desen Kaplama Bilgilerini Çıkarma
+### Adım 2: Mevcut Desen Kaplama Bilgilerini Çıkar
 
-Hedef katmandan `PatternOverlayEffect` öğesini alın (burada ikinci katman, indeks 1 varsayılmıştır):
+Hedef katmandan (`PatternOverlayEffect`) desen kaplama bilgisini alın (burada ikinci katman, indeks 1 varsayılmıştır):
 
 ```java
 // Extract information about the pattern overlay
@@ -96,9 +97,9 @@ PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].ge
 
 PSD'niz farklı bir katman sırası kullanıyorsa, indeksi buna göre ayarlayın.
 
-### Adım 3: Desen Kaplama Ayarlarını Değiştirme
+### Adım 3: Desen Kaplama Ayarlarını Değiştir
 
-Şimdi renk, opaklık, karışım modu ve ofsetleri değiştirebilirsiniz. Bu değişiklikler, desenin katmanda nasıl render edildiğini doğrudan etkiler:
+Şimdi renk, opaklık, karışım modu ve ofsetleri değiştirebilirsiniz. Bu değişiklikler desenin katmanda nasıl render edildiğini doğrudan etkiler:
 
 ```java
 // Modify pattern overlay settings
@@ -110,9 +111,9 @@ settings.setHorizontalOffset(15);
 settings.setVerticalOffset(11);
 ```
 
-> **Neden önemli:** Karışım modunu `Difference` olarak değiştirmek çarpıcı bir görsel kontrast yaratır, doku detaylarını vurgulamak için kullanışlıdır.
+> **Neden önemli:** Karışım modunu `Difference` olarak değiştirmek çarpıcı bir görsel kontrast oluşturur ve doku detaylarını vurgulamak için faydalıdır.
 
-### Adım 4: Altındaki Desen Verisini Düzenleme
+### Adım 4: Altındaki Desen Verisini Düzenle
 
 Orijinal desen bitmap'ini özel bir bitmap ile değiştirin. Aşağıdaki örnek, birkaç temel renk kullanarak 4×2 boyutunda küçük bir desen oluşturur:
 
@@ -137,9 +138,9 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 
 > **Yaygın tuzak:** `PatternId` güncellenmezse eski desen hâlâ ekli kalır ve görsel değişiklik göz ardı edilir.
 
-### Adım 5: Düzenlenmiş Görüntüyü Kaydetme
+### Adım 5: Düzenlenmiş Görüntüyü Kaydet
 
-Değişiklikleri yeni bir dosyaya kalıcı hale getirin. Kaydetmeden önce ayarlarda desen adını ve kimliğini de güncelleriz:
+Değişiklikleri yeni bir dosyaya kaydedin. Kaydetmeden önce desen adını ve kimliğini de ayarlarla güncelleriz:
 
 ```java
 // Save the edited image
@@ -148,9 +149,9 @@ settings.setPatternId(guid.toString() + "\0");
 im.save(exportPath);
 ```
 
-### Adım 6: Değişiklikleri Doğrulama
+### Adım 6: Değişiklikleri Doğrula
 
-Kaydedilen dosyayı yeniden yükleyin ve kaplamanın yeni ayarları yansıtıp yansıtmadığını doğrulayın:
+Kaydedilen dosyayı yeniden yükleyin ve overlay'in yeni ayarları yansıtıp yansıtmadığını doğrulayın:
 
 ```java
 // Verify the changes in the edited file
@@ -166,36 +167,36 @@ Burada birim‑test‑stilinde doğrulamalar ekleyebilirsiniz (ör. `patternOver
 
 | Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **Desen değişmiyor** | `PatternId` güncellenmedi veya katman indeksi yanlış | Doğru `PattResource` öğesini değiştirdiğinizden ve `settings.setPatternId(...)` çağırdığınızdan emin olun. |
-| **Renkler ters görünüyor** | Karışım modu yanlışlıkla `Difference` olarak ayarlandı | Tasarım amacınıza uygun bir karışım modu seçin (ör. `Normal`, `Overlay`). |
-| **Dışa aktarılan PSD katmanları kaybeder** | Eski bir Aspose.PSD sürümü kullanmak | En son Aspose.PSD for Java sürümüne yükseltin. |
-| `NullPointerException` on `getEffects()[0]` | Katmanda hiçbir efekt uygulanmamış | Dönüştürmeden önce katmanın gerçekten bir `PatternOverlayEffect` içerdiğini doğrulayın. |
+| **Desen değişmiyor** | `PatternId` güncellenmemiş veya yanlış katman indeksi | Doğru `PattResource`'u değiştirdiğinizden ve `settings.setPatternId(...)` çağırdığınızdan emin olun. |
+| **Renkler ters görünüyor** | Karışım modu istemeden `Difference` olarak ayarlanmış | Tasarım amacınıza uygun bir karışım modu seçin (ör. `Normal`, `Overlay`). |
+| **Dışa aktarılan PSD katmanları kaybediyor** | Eski bir Aspose.PSD sürümü kullanılıyor | En son Aspose.PSD for Java sürümüne yükseltin. |
+| **`getEffects()[0]` üzerinde `NullPointerException`** | Katmanda hiç efekt uygulanmamış | Dönüştürmeden önce katmanın gerçekten bir `PatternOverlayEffect` içerdiğini doğrulayın. |
 
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.PSD for Java'yı diğer Java görüntü işleme kütüphaneleriyle birlikte kullanabilir miyim?**  
-C: Aspose.PSD for Java bağımsız çalışır, ancak ImageIO veya TwelveMonkeys gibi kütüphanelerle ek formatlar için birleştirilebilir.
+C: Aspose.PSD for Java bağımsız çalışır, ancak ek format desteği için ImageIO veya TwelveMonkeys gibi kütüphanelerle birleştirilebilir.
 
-**S: Aspose.PSD for Java için ayrıntılı belgeleri nereden bulabilirim?**  
-C: Tam API referansı için [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) sayfasına bakın.
+**S: Aspose.PSD for Java için ayrıntılı belgeleri nerede bulabilirim?**  
+C: Tam API referansı için [Aspose.PSD for Java belgelerine](https://reference.aspose.com/psd/java/) bakın.
 
 **S: Aspose.PSD for Java için ücretsiz deneme sürümü var mı?**  
-C: Evet, ücretsiz deneme sürümünü [Aspose.PSD download page](https://releases.aspose.com/) üzerinden indirebilirsiniz.
+C: Evet, ücretsiz deneme sürümünü [Aspose.PSD indirme sayfasından](https://releases.aspose.com/) indirebilirsiniz.
 
 **S: Aspose.PSD for Java desteğini nasıl alabilirim?**  
-C: Topluluk yardımı için [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) adresini ziyaret edin veya doğrudan destek için bir destek planı satın alın.
+C: Topluluk yardımı için [Aspose.PSD forumuna](https://forum.aspose.com/c/psd/34) göz atın veya doğrudan destek almak üzere bir destek planı satın alın.
 
 **S: Aspose.PSD for Java için geçici bir lisans alabilir miyim?**  
-C: Evet, geçici lisans [Aspose temporary license page](https://purchase.aspose.com/temporary-license/) üzerinden temin edilebilir.
+C: Evet, geçici lisans [Aspose geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) temin edilebilir.
 
 ## Sonuç
 
-Artık Aspose.PSD for Java kullanarak PSD dosyalarına **desen kaplama** efektleri eklemeyi öğrendiniz. Karışım modlarını, opaklığı, ofsetleri ve alttaki desen bitmap'ini manipüle ederek Java kodunuzdan doğrudan dinamik dokular ve marka öğeleri oluşturabilirsiniz. Projenizin görsel stiline uygun farklı renkler, desenler ve karışım modlarıyla denemeler yapmaktan çekinmeyin.
+Artık **java image overlay** ve özellikle bir desen kaplama efektini PSD dosyalarına Aspose.PSD for Java kullanarak nasıl ekleyeceğinizi öğrendiniz. Karışım modlarını, opaklığı, ofsetleri ve alttaki desen bitmap'ini manipüle ederek doğrudan Java kodunuzdan dinamik dokular ve marka öğeleri oluşturabilirsiniz. Projenizin görsel stiline uygun farklı renkler, desenler ve karışım modlarıyla denemeler yapmaktan çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2025-11-30  
-**Test Edilen Versiyon:** Aspose.PSD for Java 24.12 (yazım zamanındaki en son sürüm)  
+**Son Güncelleme:** 2026-01-30  
+**Test Edilen Sürüm:** Aspose.PSD for Java 24.12 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
