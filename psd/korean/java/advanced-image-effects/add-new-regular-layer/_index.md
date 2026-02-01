@@ -1,32 +1,45 @@
 ---
-title: Java용 Aspose.PSD를 사용하여 PSD에 새 일반 레이어 추가
-linktitle: PSD에 새 일반 레이어 추가
-second_title: Aspose.PSD 자바 API
-description: Java용 Aspose.PSD를 사용하여 PSD 파일에 새로운 일반 레이어를 추가하는 방법을 알아보세요. 원활한 PSD 조작을 위한 단계별 가이드를 따르세요.
-weight: 11
+date: 2026-02-01
+description: Aspose.PSD for Java를 사용하여 PSD를 PNG로 내보내고 새로운 PSD 레이어를 만드는 방법을 배웁니다. 이
+  단계별 튜토리얼은 PSD 이미지 조작 및 PSD를 PNG로 변환하는 내용을 다룹니다.
+linktitle: Add a New Regular Layer to PSD
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java를 사용하여 PSD를 PNG로 내보내고 새 일반 레이어 추가
 url: /ko/java/advanced-image-effects/add-new-regular-layer/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.PSD를 사용하여 PSD에 새 일반 레이어 추가
+# Aspose.PSD for Java를 사용하여 PSD를 PNG로 내보내고 새 일반 레이어 추가
 
-## 소개
+## Introduction
 
-PSD 파일에 새로운 일반 레이어를 추가하기 위해 Java용 Aspose.PSD를 사용하는 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.PSD는 개발자가 PSD 파일을 효율적으로 조작하고 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 PSD 파일에 새로운 일반 레이어를 추가하는 과정을 안내하고 자세한 단계와 코드 예제를 제공합니다.
+이 **aspose psd tutorial**에서는 **export PSD to PNG**와 동시에 **creating a new regular layer**하는 방법을 알아봅니다. 웹용 썸네일을 생성하거나, 디자인 파이프라인을 위한 자산을 준비하거나, 단순히 실험하고 싶을 때, Aspose.PSD for Java는 완전한 프로그래밍 제어를 제공합니다. 소스 파일을 로드하는 것부터 업데이트된 PSD와 PNG 사본을 저장하는 단계까지 모두 안내하므로 바로 PSD 레이어를 조작할 수 있습니다.
 
-## 전제조건
+## How to export PSD to PNG using Aspose.PSD
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+PSD를 PNG로 내보내는 것은 두 단계 과정입니다: 먼저 필요한 레이어를 추가Options`합니다 as PNG**를 한 번의 연속적인 작업으로 수행할 수 있습니다.
 
-- Java 개발 환경: 시스템에 Java 개발 환경이 설정되어 있는지 확인하십시오.
--  Aspose.PSD 라이브러리: Java 라이브러리용 Aspose.PSD를 다운로드하여 설치합니다. 도서관을 찾으실 수 있습니다[여기](https://releases.aspose.com/psd/java/).
+## What is a regular layer and why add a new PSD layer?
 
-## 패키지 가져오기
+**regular layer**는 픽셀 데이터, 투명도 및 위치 정보를 보유할 수 있는 기본 래스터 레이어입니다. 새로운 PSD 레이어를 추가하면 기존 아트워크를 변경하지 않고 그래픽, 워터마크 또는 플레이스홀더를 삽입할 수 있습니다. 이는 자동 배치 처리용으로 프로그래용합니다 I `save`를 `PngOptions`와 함께 호출하면 됩니다.
+- **Do I need a license for development?** 테스트용 임시 라이선스로 동작하며, 프로덕션에서는 정식 라이선스가 필요합니다.
+- **Which Java version is supported?** Aspose.PSD는 Java 8 및 이후 버전을 지원합니다.
+- **Is layer positioning pixel‑based?** 예, 왼쪽, 위, 오른쪽, 아래 좌표를 픽셀 단위로 설정합니다.
+- **Will the PNG retain layer transparency?** PNG는 모든 보이는 레이어를 병합한 결과를 포함합니다.
 
-시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다. 이 패키지는 Aspose.PSD 기능을 사용하는 데 필수적입니다. Java 파일 시작 부분에 다음 줄을 포함합니다.
+## Prerequisites
+
+- **Java Development Environment** – JDK 8 이상 및 빌드 도구(Maven/Gradle)가 설치되어 있어야 합니다.
+- **Aspose.PSD for Java** – 공식 사이트에서 최신 JAR을 다운로드하십시오 [here](https://releases.aspose.com/psd/java/).
+- **A sample PSD file** – 예제에서는 `OneLayer.psd`를 사용합니다.
+
+## Import Packages
+
+Java 클래스에 필요한 import를 추가합니다. 이러한 클래스들은 **psd image manipulation** 및 레이어 처리를 위한 핵심 기능을 제공합니다.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +51,9 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## 1단계: PSD 파일 로드
+## Step 1: Load the PSD File
 
-다음 코드를 사용하여 편집하려는 PSD 파일을 로드합니다.
+먼저, 수정하려는 기존 PSD를 로드합니다. 이렇게 하면 작업할 수 있는 `PsdImage` 객체가 제공됩니다.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,9 +61,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## 2단계: 데이터 배열 및 직사각형 준비
+## Step 2: Prepare Pixel Data and Rectangles
 
-다음과 같이 두 개의 int 배열과 두 개의 Rectangle 객체를 준비합니다.
+두 개의 픽셀 버퍼(`int[]`)를 만들고 새 레이어가 그려질 사각형의 기반이 됩니다.
 
 ```java
 int[] data1 = new int[2500];
@@ -59,9 +72,9 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## 3단계: 레이어 데이터 초기화
+## Step 3: Initialize Layer Data
 
-기본값으로 데이터 배열을 초기화합니다.
+픽셀 버퍼를 기본 ARGB 값으로 채웁니다. 값 `-10000000`은 반투명 어두운 색조에 해당합니다.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -70,9 +83,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## 4단계: 일반 레이어 추가
+## Step 4: Add Regular Layers (Manipulate PSD Layers)
 
-PSD 이미지에 두 개의 일반 레이어를 추가합니다.
+이제 PSD 이미지에 **add regular layers**를 추가하고 경계를 설정합니다. 이는 프로그래밍 방식으로 **manipulate PSD layers**하고 효과적으로 **add layer to PSD**하는 방법을 보여줍니다.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -90,42 +103,52 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## 5단계: PSD 및 PNG 저장
+## Step 5: Export PSD to PNG and Save the Updated PSD
 
-수정된 PSD와 추가 PNG 파일을 저장합니다.
+레이d to png** 단계), 그 다음 새 레이어가 포함된 PSD를 저장합니다.
 
 ```java
-im.save(exportPath, new PsdOptions());
-im.save(exportPathPng, new PngOptions());
+String exportPath = dataDir + "Updated.psd";
+String exportPathPng = dataDir + "Updated.png";
+
+im.save(exportPath, new PsdOptions());          // Save the updated PSD
+im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-축하해요! Java용 Aspose.PSD를 사용하여 PSD 파일에 새로운 일반 레이어를 성공적으로 추가했습니다.
+> **Pro tip:** PNG만 필요하면 PSD `save` 호출을 건너뛰고 `PngOptions`와 함께 `save`를 직접 호출하면 됩니다.
 
-## 결론
+## Common Issues & Troubleshooting
 
-이 튜토리얼에서는 Java용 Aspose.PSD를 사용하여 PSD 파일에 새로운 일반 레이어를 추가하는 과정을 다루었습니다. 이 강력한 라이브러리는 PSD 조작을 단순화하여 Java 개발자가 액세스할 수 있도록 해줍니다. Aspose.PSD의 잠재력을 최대한 활용하기 위해 다양한 매개변수와 기능을 실험해보세요.
+| 증상 | 가능한 원인 | 해결 방법 |
+|---------|--------------|-----|
+| PNG가 빈 화면으로 표시됨 | 레이어가 보이지 않거나 완전히 투명함 | 비투명 픽셀 값을 설정하거나 `layer.setVisible(true)`를 호출했는지 확인하십시오. |
+| `ArrayIndexOutOfBoundsException` | 사각형 크기와 픽셀 배열 길이가 일치하지 않음 | `rect.width * rect.height == dataArray.length`인지 확인하십시오. |
+| 런타임 시 LicenseException | 유효한 라이선스가 로드되지 않음 | API 메서드를 호출하기 전에 임시 또는 영구 라이선스를 로드하십시오. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Aspose.PSD는 Java 8과 호환됩니까?
+**Q: Aspose.PSD가 Java 8과 호환되나요?**  
+A: 예, Aspose.PSD는 Java 8 및 이후 버전을 지원합니다.
 
-A1: 예, Aspose.PSD는 Java 8 이상 버전을 지원합니다.
+**Q: 추가된 레이어에 변환(회전, 스케일)을 적용할 수 있나요?**  
+A: 물론입니다! `Layer` 클래스는 `rotate`, `scale`, `translate`와 같은 메서드를 제공하여 전체 변환을 제어할 수 있습니다.
 
-### Q2: 추가된 레이어에 변형을 적용할 수 있나요?
+**Q: 추가 Aspose.PSD 문서는 어디에서 찾을 수 있나요?**  
+A: 자세한 API 문서는 [here](https://reference.aspose.com/psd/java/)에서 확인할 수 있습니다.
 
-A2: 물론이죠! Aspose.PSD는 레이어에 대한 다양한 변환 옵션을 제공합니다.
+**Q: Aspose.PSD의 임시 라이선스는 어떻게 얻나요?**  
+A: 임시 라이선스 페이지를 [here](https://purchase.aspose.com/temporary-license/)에서 방문하십시오.
 
-### Q3: 추가 Aspose.PSD 문서는 어디서 찾을 수 있나요?
+**Q: Aspose.PSD 지원을 위한 커뮤니티 포럼이 있나요?**  
+A: 예, Aspose 포럼에서 토론에 참여하십시오 [here](https://forum.aspose.com/c/psd/34).
 
- A3: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+## Conclusion
 
-### Q4: Aspose.PSD의 임시 라이선스를 어떻게 얻을 수 있나요?
+이제 Aspose.PSD for Java를 사용하여 **export PSD to PNG**와 동시에 **adding new regular layers**를 수행하는 방법을 배웠습니다. 이 워크플로는 핵심 **psd image manipulation** 기능을 보여줍니다: 파일 로드, 레이어 생성, 픽셀 데이터 채우기, 최종 구성보내기. 다양한 사험하여 프로젝트 요구에 맞게 출력물을 조정해 보세요.
 
- A4: 방문[이 링크](https://purchase.aspose.com/temporary-license/) 임시 라이센스 옵션의 경우.
+**마지막 업데이트:** 2026-02-01  
+ Aspose  
 
-### Q5: Aspose.PSD 지원을 위한 커뮤니티 포럼이 있습니까?
-
- A5: 예, 지원과 토론을 찾을 수 있습니다.[여기](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

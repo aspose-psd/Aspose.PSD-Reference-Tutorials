@@ -2,10 +2,10 @@
 title: Export PSD to PNG & Add a New Regular Layer using Aspose.PSD for Java
 linktitle: Add a New Regular Layer to PSD
 second_title: Aspose.PSD Java API
-description: Learn how to export PSD to PNG and create a new PSD layer with Aspose.PSD for Java. This step‑by‑step aspose psd tutorial covers full psd image manipulation.
+description: Learn how to export psd to png and create a new psd layer using Aspose.PSD for Java. This step‑by‑step tutorial covers psd image manipulation and converting psd to png.
 weight: 11
 url: /java/advanced-image-effects/add-new-regular-layer/
-date: 2025-11-27
+date: 2026-02-01
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -17,6 +17,14 @@ date: 2025-11-27
 ## Introduction
 
 In this **aspose psd tutorial** you'll discover how to **export PSD to PNG** while also **creating a new regular layer** inside the same file. Whether you need to generate web‑ready thumbnails, prepare assets for a design pipeline, or simply experiment with **psd image manipulation**, Aspose.PSD for Java gives you full programmatic control. We'll walk through every step—from loading the source file to saving both the updated PSD and a PNG copy—so you can start manipulating PSD layers right away.
+
+## How to export PSD to PNG using Aspose.PSD
+
+Exporting a PSD to PNG is a two‑step process: first you add or modify the layers you need, then you call `save` with a `PngOptions` instance. This approach lets you **convert PSD to PNG** or **export PSD as PNG** in a single, fluent operation.
+
+## What is a regular layer and why add a new PSD layer?
+
+A **regular layer** is a basic raster layer that can hold pixel data, transparency, and positioning information. Adding a new PSD layer lets you inject graphics, watermarks, or placeholders without altering existing artwork. This is especially useful when you need to **add layer to PSD** programmatically for automated batch processing.
 
 ## Quick Answers
 - **Can I export PSD to PNG with one call?** Yes, after adding layers you can call `save` with `PngOptions`.
@@ -81,7 +89,7 @@ for (int i = 0; i < 2500; i++) {
 
 ## Step 4: Add Regular Layers (Manipulate PSD Layers)
 
-Now we **add regular layers** to the PSD image and set their bounds. This demonstrates how to **manipulate PSD layers** programmatically.
+Now we **add regular layers** to the PSD image and set their bounds. This demonstrates how to **manipulate PSD layers** programmatically and effectively **add layer to PSD**.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -144,7 +152,7 @@ You've now learned how to **export PSD to PNG** while **adding new regular layer
 
 ---
 
-**Last Updated:** 2025-11-27  
+**Last Updated:** 2026-02-01  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
