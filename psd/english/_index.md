@@ -1,20 +1,20 @@
 ---
-title: "Advanced Image Manipulation using Aspose.PSD Tutorial"
+title: "Advanced Image Manipulation with Aspose.PSD Tutorial"
 linktitle: "Aspose.PSD Tutorials"
 additionalTitle: "Aspose API References"
-description: "Learn advanced image manipulation with Aspose.PSD. This tutorial shows how to convert PSD to PNG, save PSD as JPEG, adjust brightness, add layer effects, and export to PDF."
+description: "Learn advanced image manipulation with Aspose.PSD, including how to convert PSD to PNG, adjust brightness, add layer effects, and export to PDF."
 weight: 11
 url: /
-date: 2025-11-27
+date: 2026-02-01
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Advanced Image Manipulation using Aspose.PSD Tutorial
+# Advanced Image Manipulation with Aspose.PSD Tutorial
 
-Welcome to the Aspose.PSD Tutorials page, your go‑to resource for **advanced image manipulation** with Aspose.PSD – the leading API for working with Adobe Photoshop files in .NET and Java applications. Whether you need to **convert PSD to PNG**, **save PSD as JPEG**, **adjust image brightness**, **add layer effects**, or **convert PSD to PDF**, this guide gives you hands‑on, step‑by‑step instructions. Let’s dive in and see how you can unlock powerful image‑processing capabilities in your projects.
+Welcome to the Aspose.PSD Tutorials page, your go‑to resource for **advanced image manipulation with Aspose.PSD** – the leading API for working with Adobe Photoshop files in .NET and Java applications. Whether you need to **convert PSD to PNG**, **save PSD as JPEG**, **adjust image brightness**, **add layer effects**, or **convert PSD to PDF**, this guide gives you hands‑on, step‑by‑step instructions. Let’s dive in and see how you can unlock powerful image‑processing capabilities in your projects.
 
 ## Quick Answers
 - **What can Aspose.PSD do?** It enables advanced image manipulation, format conversion, layer handling, and more for PSD, PSB, and AI files.  
@@ -23,7 +23,7 @@ Welcome to the Aspose.PSD Tutorials page, your go‑to resource for **advanced i
 - **Can I batch‑process files?** Yes – the API supports loops and multi‑threaded processing.  
 - **Is source code required?** No, you work with the compiled Aspose.PSD libraries.
 
-## What is Advanced Image Manipulation?
+## What is Advanced Image Manipulation with Aspose.PSD?
 Advanced image manipulation refers to complex operations such as layer compositing, color correction, non‑destructive edits, and format conversions that go beyond simple cropping or resizing. Aspose.PSD provides a programmatic way to perform these tasks without opening Photoshop.
 
 ## Why Use Aspose.PSD for Advanced Image Manipulation?
@@ -51,7 +51,7 @@ These are links to some useful resources:
 - [Layer Effects](./net/layer-effects/)
 - [PSD File Resources](./net/psd-file-resources/)
 
-## Advanced Image Manipulation Techniques
+## Advanced Image Manipulation with Aspose.PSD Techniques
 Below are quick, practical guides for the most common **advanced image manipulation** tasks that developers ask about.
 
 ### How to Convert PSD to PNG
@@ -101,10 +101,9 @@ A: Use the `LoadOptions` to enable lazy loading and process layers individually 
 **Q: Is it possible to batch‑convert many PSD files to PDF?**  
 A: Absolutely. Loop through a directory, load each PSD, and call `Save` with the PDF format – the API handles the conversion in a single pass.
 
-
 ---
 
-**Last Updated:** 2025-11-27  
+**Last Updated:** 2026-02-01  
 **Tested With:** Aspose.PSD 24.11 for .NET / Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
