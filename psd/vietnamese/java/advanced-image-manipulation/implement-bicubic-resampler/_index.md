@@ -1,12 +1,11 @@
 ---
-date: 2025-12-01
-description: Học cách đạt được việc phóng to/thu nhỏ hình ảnh chất lượng cao trong
-  Java bằng cách sử dụng Bicubic Resampler của Aspose.PSD. Hãy làm theo hướng dẫn
-  từng bước của chúng tôi để có kết quả vượt trội.
+date: 2026-02-04
+description: Tìm hiểu cách thay đổi kích thước hình ảnh Java bằng Bicubic Resampler
+  của Aspose.PSD để mở rộng hình ảnh chất lượng cao. Hãy làm theo hướng dẫn từng bước
+  của chúng tôi để đạt được kết quả vượt trội.
 linktitle: Implement Bicubic Resampler
 second_title: Aspose.PSD Java API
-title: Phóng to hình ảnh chất lượng cao bằng bộ tái mẫu Bicubic trong Aspose.PSD cho
-  Java
+title: 'Thay đổi kích thước ảnh Java: Thu phóng chất lượng cao bằng bộ lọc Bicubic'
 url: /vi/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
@@ -15,40 +14,36 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Phóng to/thu nhỏ ảnh chất lượng cao với Bicubic Resampler trong Aspose.PSD cho Java
+# Resize Image Java: High Quality Scaling with Bicubic Resampler
 
-## Giới thiệu
+## Introduction
 
-Phóng to/thu nhỏ ảnh chất lượng cao là một yêu cầu thường gặp khi bạn cần thay đổi kích thước đồ họa mà không làm giảm độ trung thực hình ảnh. Aspose.PSD cho Java cung cấp một **Bicubic Resampler** mang lại kết quả mượt mà, sắc nét cho các tệp PSD và các định dạng được hỗ trợ khác. Trong hướng dẫn này, bạn sẽ học cách triển khai Bicubic Resampler một cách chi tiết, từng bước, để có thể áp dụng phóng to/thu nhỏ ảnh chất lượng cao vào các ứng dụng Java của mình ngay hôm nay.
+High quality image scaling is a frequent requirement when you need to resize graphics without sacrificing visual fidelity. When you need to **resize image java**, Aspose.PSD for Java offers a **Bicubic Resampler** that delivers smooth, crisp results for PSD files and other supported formats. In this tutorial you’ll learn exactly how to implement the Bicubic Resampler, step by step, so you can bring high‑quality image scaling to your Java applications today.
 
-## Câu trả lời nhanh
-- **Bicubic Resampler làm gì?** Nó áp dụng một thuật toán nội suy tinh vi giúp giữ lại chi tiết khi thay đổi kích thước ảnh.  
-- **Các giá trị ResizeType nào có sẵn?** `CubicConvolution` và `Bell` là hai tùy chọn Bicubic do Aspose.PSD cung cấp.  
-- **Tôi có cần giấy phép để chạy mã không?** Giấy phép tạm thời hoạt động cho việc đánh giá; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
-- **Phiên bản Java nào được yêu cầu?** Bất kỳ môi trường Java 8+ nào cũng tương thích với thư viện Aspose.PSD mới nhất.  
-- **Tôi có thể thay đổi kích thước các định dạng khác (PNG, JPEG) bằng cùng API không?** Có, Aspose.PSD hỗ trợ nhiều loại ảnh, mặc dù các ví dụ tập trung vào PSD.
+## Quick Answers
+- **What does the Bicubic Resampler do?** It applies a sophisticated interpolation algorithm that preserves detail when resizing images.  
+- **Which ResizeType values are available?** `CubicConvolution` and `Bell` are the two Bicubic options provided by Aspose.PSD.  
+- **Do I need a license to run the code?** A temporary license works for evaluation; a full license is required for production.  
+- **What Java version is required?** Any Java 8+ runtime is compatible with the latest Aspose.PSD library.  
+- **Can I resize other formats (PNG, JPEG) with the same API?** Yes, Aspose.PSD supports multiple image types, though the examples focus on PSD java** refers to Bicubic Resampler is a preferred algorithm because it evaluates surrounding pixel values to produce smoother gradients and sharper edges compared to simpler methods.
 
-## Ảnh phóng to/thu nhỏ chất lượng cao là gì?
+## Why Use the Bicubic Resampler for High Quality Image Scaling?
 
-Phóng to/thu nhỏ ảnh chất lượng cao đề cập đến việc thay đổi kích thước ảnh trong khi vẫn giữ được các cạnh sắc nét, gradient mượt mà và màu sắc chính xác. Bicubic Resampler đạt được điều này bằng cách xem xét các giá trị của các pixel xung quanh (sử dụng cubic convolution hoặc thuật toán Bell) để tính toán mỗi pixel mới, mang lại hình ảnh tự nhiên hơn so với các phương pháp nearest‑neighbor hoặc bilinear.
+- **Preserves Detail:** Fine textures and line work stay clear even after significant size changes.  
+- **Reduces Artifacts:** Minimizes ringing and blurring.  
+- **Easy Integration:** One‑line method call (`image.resize`) lets you switch between algorithms without rewriting code.  
 
-## Tại sao nên sử dụng Bicubic Resampler cho phóng to/thu nhỏ ảnh chất lượng cao?
+## Prerequisites
 
-- **Giữ lại chi tiết:** Các kết cấu tinh tế và đường nét vẫn rõ ràng ngay cả sau khi thay đổi kích thước đáng kể.  
-- **Giảm hiện tượng lỗi:** Giảm thiểu ringing và mờ nhòe thường xuất hiện với các thuật toán đơn giản hơn.  
-- **Dễ tích hợp:** Gọi phương thức một dòng (`image.resize`) cho phép bạn chuyển đổi giữa các thuật toán mà không cần viết lại mã.  
+Before you start, make sure you have:
 
-## Yêu cầu trước
+- **Aspose.PSD for Java** – download the latest JAR from the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).  
+- **Java Development Kit** – JDK 8 or newer installed and configured.  
+- **Sample PSD file** – a test image (e.g., `sample_bicubic.psd`) placed in a known directory.
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+## Import Packages
 
-- **Aspose.PSD cho Java** – tải JAR mới nhất từ [tài liệu Aspose.PSD cho Java](https://reference.aspose.com/psd/java/).  
-- **Java Development Kit** – JDK 8 hoặc mới hơn đã được cài đặt và cấu hình.  
-- **Tệp PSD mẫu** – một ảnh thử nghiệm (ví dụ, `sample_bicubic.psd`) được đặt trong một thư mục đã biết.
-
-## Nhập các gói
-
-Thêm các import cần thiết vào lớp Java của bạn. Những import này sẽ đưa vào các lớp cốt lõi của Aspose.PSD và enumeration `ResizeType`.
+Add the required imports to your Java class. These bring in the core Aspose.PSD classes and the `ResizeType` enumeration.
 
 ```java
 import com.aspose.psd.Image;
@@ -58,9 +53,9 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Bước 1: Tải ảnh
+## Step 1: Load the Image
 
-Đầu tiên, tải tệp PSD nguồn mà bạn muốn thay đổi kích thước. Thay thế `Your Document Directory` bằng đường dẫn thực tế trên máy của bạn.
+First, **load psd file** you want to resize. Replace `Your Document Directory` with the actual path on your machine.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -68,9 +63,9 @@ String filePath = dataDir + "sample_bicubic.psd";
 PsdImage image = (PsdImage)Image.load(filePath);
 ```
 
-## Bước 2: Thay đổi kích thước bằng Cubic Convolution (Chất lượng cao)
+## Step Quality)
 
-Bây giờ áp dụng thuật toán **Cubic Convolution**, một trong hai tùy chọn Bicubic cung cấp phóng to/thu nhỏ ảnh chất lượng cao. Ví dụ này thay đổi kích thước ảnh thành 300 × 300 pixel.
+Now apply the **Cubic Convolution** algorithm, one of the two Bicubic options that image to 300 × 300 pixels.
 
 ```java
 String destNameCubicConvolution = dataDir + "ResamplerCubicConvolutionStripes_after.psd";
@@ -78,9 +73,9 @@ image.resize(300, 300, ResizeType.CubicConvolution);
 image.save(destNameCubicConvolution, new PsdOptions(image));
 ```
 
-## Bước 3: Thay đổi kích thước bằng thuật toán Bell (Lựa chọn chất lượng cao khác)
+## Step 3: Resize with Bell Algorithm (Alternative High Quality)
 
-Nếu bạn thích thuật toán **Bell**, cung cấp hiệu ứng làm mịn hơi khác, bạn có thể sử dụng nó theo cùng cách. Lưu ý chúng tôi tải lại ảnh gốc để so sánh công bằng.
+ which offers a slightly different smoothing effect, you can use it in the same way. Notice we reload the original image to keep the comparison fair.
 
 ```java
 String destNameBell = dataDir + "ResamplerBellStripes_after.psd";
@@ -89,36 +84,32 @@ imageBellStripes.resize(300, 300, ResizeType.Bell);
 imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 ```
 
-Bạn có thể tự do thử nghiệm với các kích thước hoặc định dạng tệp khác—chỉ cần điều chỉnh các tham số cho phù hợp.
+Feel free to experiment with other dimensions or file formats—just adjust the parameters accordingly.
 
-## Những lỗi thường gặp & Mẹo
+## Common PitfallsIncorrect Path or `\`) appropriate for your OS.  
+- **License Exceptions:** Running without a valid license may add a watermark to the output image.  
+- **Memory Usage:** Large PSD files can consume significant memory; consider disposing of images (`image.dispose()`) after saving.  
 
-- **Đường dẫn không đúng:** Đảm bảo `dataDir` kết thúc bằng dấu phân tách thư mục (`/` hoặc `\`) phù hợp với hệ điều hành của bạn.  
-- **Ngoại lệ giấy phép:** Chạy mà không có giấy phép hợp lệ có thể thêm watermark vào ảnh đầu ra.  
-- **Sử dụng bộ nhớ:** Các tệp PSD lớn có thể tiêu tốn nhiều bộ nhớ; hãy xem xét giải phóng ảnh (`image.dispose()`) sau khi lưu.  
+## Frequently Asked Questions
 
-## Câu hỏi thường gặp
+**Q: Can I use Aspose.PSD for Java with other image formats?**  
+A: Yes, the library supportsQ: Is a temporary license available for Aspose.PSD for Java?**  
+A: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: Tôi có thể sử dụng Aspose.PSD cho Java với các định dạng ảnh khác không?**  
-A: Có, thư viện hỗ trợ PSD, PNG, JPEG, TIFF, BMP và nhiều định dạng khác.
+**Q: Where can I find support for Aspose.PSD for Java?**  
+A: Visit the Aspose.PSD forum [here](https://forum.aspose.com/c/psd/34) for any support‑related queries.
 
-**Q: Có giấy phép tạm thời cho Aspose.PSD cho Java không?**  
-A: Có, bạn có thể lấy giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
+**Q: Can I download the Aspose.PSD for Java library?**  
+A: Yes, download the library from the releases page [here](https://releases.aspose.com/psd/java/).
 
-**Q: Tôi có thể tìm hỗ trợ cho Aspose.PSD cho Java ở đâu?**  
-A: Truy cập diễn đàn Aspose.PSD [tại đây](https://forum.aspose.com/c/psd/34) cho bất kỳ câu hỏi hỗ trợ nào.
-
-**Q: Tôi có thể tải xuống thư viện Aspose.PSD cho Java không?**  
-A: Có, tải thư viện từ trang phát hành [tại đây](https://releases.aspose.com/psd/java/).
-
-**Q: Làm thế nào để mua Aspose.PSD cho Java?**  
-A: Bạn có thể mua Aspose.PSD cho Java từ trang mua hàng [tại đây](https://purchase.aspose.com/buy).
+**Q: How do I purchase Aspose.PSD for Java?**  
+A: You can purchase Aspose.PSD for Java from the purchase page [here](https://purchase.aspose.com/buy).
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-01  
-**Được kiểm tra với:** Aspose.PSD for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
