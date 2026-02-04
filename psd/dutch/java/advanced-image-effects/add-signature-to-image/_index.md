@@ -1,12 +1,11 @@
 ---
-date: 2025-12-02
-description: Leer hoe je een afbeelding op een canvas tekent en een handtekening overlayt
-  in Java met Aspose.PSD. Volg deze stapsgewijze Java‑beeldverwerkingstutorial en
-  sla het resultaat op als PNG.
+date: 2026-02-04
+description: Learn how to draw image canvas and overlay a signature in Java using
+  Aspose.PSD. Follow this step‑by‑step java image processing tutorial and save the
+  result as PNG.
 linktitle: Add a Signature to an Image
 second_title: Aspose.PSD Java API
-title: Afbeelding tekenen op canvas – Voeg een handtekening toe met Aspose.PSD voor
-  Java
+title: teken afbeeldingcanvas – Voeg een handtekening toe met Aspose.PSD voor Java
 url: /nl/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
@@ -15,33 +14,36 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Afbeelding tekenen op canvas – Handtekening toevoegen met Aspose.PSD voor Java
+# Teken afbeelding op canvas – Voeg een handtekening toe met Aspose.PSD voor Java
 
-## Introductie
+## Introduction
 
-Het toevoegen van een handgeschreven of digitale handtekening aan een afbeelding is een veelvoorkomende eis voor contracten, facturen of elk document dat authenticiteit moet aantonen. Met **Aspose.PSD for Java** kun je **draw image on canvas** en de handtekening behandelen als een extra overlay‑laag. In deze **java image processing tutorial** lopen we het volledige werkproces door — van het laden van de basisafbeelding en het handtekeningbestand, tot het initialiseren van graphics, het tekenen van de overlay, en uiteindelijk **save image png java**‑stijl.
+Het toevoegen van een handgeschreven of digitale handtekening aan een afbeelding is een veelvoorkomende eis voor contracten, facturen of elk document dat authenticiteit moet aantonen. Met **Aspose.PSD for Java** kun je **draw image canvas** en de handtekening behandelen als een extra overlay‑laag. In deze **java image processing tutorial** lopen we het volledige werkproces door—van het laden van de basisafbeelding en het handtekeningbestand, tot het initialiseren van graphics, het tekenen van de overlay en uiteindelijk **save image png java**‑stijl.
 
-## Snelle antwoorden
-- **Wat betekent “draw image on canvas”?** Het verwijst naar het renderen van één afbeelding op een andere met behulp van de `Graphics`‑klasse.  
-- **Hoe voeg je een handtekening toe in Java?** Laad het handtekeningbestand als een `Image` en gebruik `Graphics.drawImage`.  
+## Quick Answers
+- **Wat betekent “draw image canvas”?** Het verwijst naar het renderen van één afbeelding op een andere met behulp van de `Graphics`‑klasse.  
+- **Hoe voeg ik een handtekening toe in Java?** Laad het handtekeningbestand als een `Image` en gebruik `Graphics.drawImage`.  
 - **Welke Aspose.PSD‑versie is vereist?** Elke recente 24.x‑release; de code werkt met de nieuwste bibliotheek.  
-- **Kan ik meerdere afbeeldingen overlappen?** Ja — herhaal de `drawImage`‑aanroep met verschillende bronnen.  
-- **Heb ik een licentie nodig?** Een trial werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.
+- **Kan ik meerdere afbeeldingen overlappen?** Ja—herhaal de `drawImage`‑aanroep met verschillende bronnen, waardoor een **multiple image overlay** mogelijk is.  
+- **Heb ik een licentie nodig?** Een proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.
 
-## Wat is “draw image on canvas”?
-In de terminologie van Aspose.PSD betekent het tekenen van een afbeelding op een canvas het schilderen van één `Image`‑object op een ander met behulp van een `Graphics`‑context. Deze bewerking vormt de ruggengraat van **overlay images java**‑technieken zoals het toevoegen van watermerken, logo's of handtekeningen.
+## What Is “Draw Image on Canvas”?
+In de terminologie van Aspose.PSD betekent het tekenen van een afbeelding op een canvas dat je één `Image`‑object op een ander schildert met behulp van een `Graphics`‑context. Deze bewerking vormt de ruggengraat van **overlay images java**‑technieken zoals het toevoegen van watermerken, logo’s of handtekeningen.
 
-## Waarom Aspose.PSD gebruiken voor het overlappen van een handtekening?
+## How to draw image canvas with Aspose.PSD
+Hieronder vind je het stapsgewijze proces dat je volgt om een handtekening op elke PSD‑ of rasterafbeelding te plaatsen.
+
+## Why Use Aspose.PSD for Overlaying a Signature?
 - **Volledige PSD‑ondersteuning** – werkt met lagen, maskers en transparantie.  
 - **Geen native OS‑afhankelijkheden** – pure Java, perfect voor server‑side verwerking.  
 - **Hoge‑prestaties rendering** – geoptimaliseerd voor grote bestanden en complexe composities.  
 
-## Vereisten
+## Prerequisites
 - Java Development Kit (JDK) 8 of hoger.  
 - Aspose.PSD for Java JAR toegevoegd aan de classpath van je project.  
-- Twee afbeeldingsbestanden: een basisafbeelding (bijv. `layers.psd`) en een handtekeninggrafiek (`sample.psd`).  
+ (bijv. `layers.psd`) en een handtekeninggrafisch (`sample.psd`).  
 
-## Importeer pakketten
+## Import Packages
 
 ```java
 import com.aspose.psd.Graphics;
@@ -52,7 +54,7 @@ import com.aspose.psd.Point;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Stap 1: Laad primaire en secundaire afbeeldingen
+## Step 1: Load Primary and Secondary Images
 
 ```java
 //ExStart:LoadImages
@@ -66,9 +68,9 @@ Image signature = Image.load(dataDir + "sample.psd");
 //ExEnd:LoadImages
 ```
 
-> **Pro tip:** Houd beide afbeeldingen in dezelfde kleurmodus (RGB) om onverwachte kleurschakeringen bij het tekenen te voorkomen.
+> **Pro tip:** Houd beide afbeeldingen in dezelfde kleurmodus (RGB) om onverwachte kleurverschuivingen bij het tekenen te voorkomen.
 
-## Stap 2: Initialiseer Graphics (initialize graphics java)
+## Step 2: Initialize Graphics (initialize graphics java)
 
 ```java
 //ExStart:InitializeGraphics
@@ -76,9 +78,9 @@ Graphics graphics = new Graphics(canvas);
 //ExEnd:InitializeGraphics
 ```
 
-Het `Graphics`‑object fungeert als een penseel waarmee je **draw image on canvas** kunt uitvoeren. Het initialiseren met de primaire `Image` koppelt alle daaropvolgende tekenopdrachten aan dat canvas.
+Het `Graphics`‑object fungeert als een penseel waarmee je **draw image canvas** kunt uitvoeren. Het initialiseren met de primaire `Image` koppelt alle daaropvolgende tekenopdrachten aan dat canvas.
 
-## Stap 3: Voeg handtekening toe aan afbeelding (how to add signature)
+## Step 3: Add Signature to Image (how to add signature)
 
 ```java
 //ExStart:AddSignatureToImage
@@ -95,28 +97,34 @@ canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 
 In dit fragment **overlay images java** we door de handtekening te positioneren in de rechter‑onderhoek. Pas de `Point`‑waarden aan als je een andere plaatsing nodig hebt.
 
-## Veelvoorkomende problemen & oplossingen
+## Common Issues & Solutions
 | Symptoom | Oorzaak | Oplossing |
 |----------|---------|-----------|
-| Handtekening verschijnt vervormd | Niet overeenkomende DPI tussen canvas en handtekening | Gebruik `signature.resize` vóór het tekenen of zorg dat beide bestanden dezelfde DPI hebben. |
+| Handtekening verschijnt vervormd | DPI komt niet overeen tussen canvas en handtekening | Gebruik `signature.resize` vóór het tekenen of zorg dat beide bestanden dezelfde DPI hebben. |
 | Uitvoerbestand is enorm | Opslaan zonder compressie | Geef een geconfigureerde `PngOptions` door met `CompressionLevel` ingesteld op een hogere waarde. |
-| Er wordt niets getekend | Graphics niet vrijgegeven | Roep `graphics.dispose()` aan na het tekenen (optioneel, maar goede praktijk). |
+| Er wordt niets getekend | Graphics niet vrijgegeven | Roep `graphics.dispose()` aan na het tekenen (optioneel, maar goede gewoonte). |
 
-## Conclusie
+## Extending the Technique
 
-Door deze stappen te volgen heb je geleerd **how to draw image on canvas naadloos **add a signature** te gebruiken met Aspose.PSD voor Java. Deze techniek kan worden uitgebreid naar watermerken, logo's of andere overlay‑graphics, waardoor je Java‑applicaties krachtige **java image processing**‑mogelijkheden krijgen.
+- **Add watermark java:** Vervang de handtekeningafbeelding door een semi‑transparant watermerk en stel de opacity in met `graphics.setOpacity(0.5f)`.  
+- **Rotate image java:** Roep `graphics.rotateTransform(angle)` aan vóór `drawImage` om de handtekening of het watermerk te kantelen.  
+- **Set image opacity:** Pas de opacity van elke overlay aan met `graphics.setOpacity(float opacity)` waarbij `0.0` volledig transparant is en `1.0` volledig ondoorzichtig.
+
+## Conclusion
+
+Door deze stappen te volgen heb je geleerd **how to draw image canvas** en naadloos **add a signature** te gebruiken met Aspose.PSD for Java. Deze techniek kan worden uitgebreid naar watermerken, logo's of elke **multiple image overlay**, waardoor je Java‑applicaties krachtige **java image processing**‑mogelijkheden krijgen.
 
 ## FAQ's
 
 ### Q1: Kan ik meerdere handtekeningen aan een afbeelding toevoegen?
 
-A1: Ja, je kunt meerdere handtekeningen toevoegen door de stappen te herhalen met verschillende handtekeningafbeeldingen.
+A1: Ja, je kunt meerdere handtekeningen toevoegen door de stappen te herhalen met verschillende handtekeningafbeeldingen, waardoor een **multiple image overlay**‑scenario mogelijk is.
 
 ### Q2: Ondersteunt Aspose.PSD andere afbeeldingsformaten?
 
 A2: Ja, Aspose.PSD ondersteunt een breed scala aan afbeeldingsformaten, wat flexibiliteit in beeldverwerking garandeert.
 
-### Q3: Is een licentie vereist voor het gebruik van Aspose.PSD voor Java?
+### Q3: Is een licentie vereist voor het gebruik van Aspose.PSD for Java?
 
 A3: Ja, je hebt een geldige licentie nodig voor het gebruik van Aspose.PSD. Bezoek [Purchase Aspose.PSD](https://purchase.aspose.com/buy) voor licentie‑details.
 
@@ -124,24 +132,21 @@ A3: Ja, je hebt een geldige licentie nodig voor het gebruik van Aspose.PSD. Bezo
 
 A4: Bezoek het [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) voor community‑ondersteuning en discussies.
 
-### Q5: Kan ik Aspose.PSD voor Java uitproberen voordat ik koop?
+### Q5: Kan ik Aspose.PSD for Java uitproberen voordat ik aankoop?
 
 A5: Ja, je kunt een [free trial](https://releases.aspose.com/) krijgen om de functies te verkennen voordat je een aankoop doet.
 
-## Aanvullende veelgestelde vragen
+## Additional Frequently Asked Questions
 
 **Q: Hoe wijzig ik de opacity van de handtekening?**  
 A: Gebruik `graphics.setOpacity(float opacity)` vóór het aanroepen van `drawImage`. Waarden variëren van 0.0 (transparant) tot 1.0 (ondoorzichtig).
 
-**Q: Is het mogelijk om de handtekening te roteren?**  
-A: Ja — pas een transformatie‑matrix toe via `graphics.rotateTransform(angle)` vóór het tekenen.
-
-**Q: Kan ik de handtekening op een JPEG tekenen in plaats van PNG?**  
-A: Zeker. Vervang `PngOptions` door `JpegOptions` en specificeer het gewenste kwaliteitsniveau.
+**Q: Is het mogelijk om de handte.rotateTransform(angle)` vóór het tekenen in plaats van PNG?**  
+A: Absoluut. Vervang `PngOptions` door `JpegOptions` en specificeer het gewenste kwaliteitsniveau.
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-02-04  
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
