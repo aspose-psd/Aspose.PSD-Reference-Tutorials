@@ -1,11 +1,11 @@
 ---
-date: 2025-11-30
-description: Узнайте, как добавить обводку и изменить цвет обводки в PSD с помощью
-  Aspose.PSD для Java. Следуйте этому пошаговому руководству, чтобы изменить цвет
-  и непрозрачность слоя обводки.
+date: 2026-02-07
+description: Узнайте, как изменить цвет обводки в файле PSD с помощью Aspose.PSD для
+  Java. Следуйте этому пошаговому руководству, чтобы изменить цвет слоя обводки, непрозрачность
+  и многое другое.
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
-title: Как добавить цвет обводки слоя в Aspose.PSD для Java
+title: Как изменить цвет обводки в Aspose.PSD для Java
 url: /ru/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
@@ -14,37 +14,40 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как добавить цвет слоя обводки в Aspose.PSD для Java
+# Как изменить цвет обводки в Aspose.PSD для Java
 
 ## Введение
 
-Если вам нужно **how to add stroke** в документ Photoshop программно, Aspose.PSD для Java делает это простым. В этом руководстве мы пройдем процесс добавления цвета слоя обводки, настройки его непрозрачности и сохранения результата. К концу вы также увидите, как **how to change stroke color** (или *change PSD stroke color*) для любого существующего слоя, получая полный творческий контроль из вашего Java‑кода.
+Если вам нужно **изменить цвет обводки** в документе Photoshop программно, Aspose.PSD для Java делает это простым. В этом руководстве мы пройдем процесс добавления слоя обводки, изменения его цвета, настройки непрозрачности и сохранения результата. В конце вы также увидите, как изменить обводку любого существующего слоя, получив полный творческий контроль из вашего Java‑кода.
 
 ## Быстрые ответы
-- **Какая библиотека требуется?** Aspose.PSD for Java (последняя версия).  
-- **Могу ли я изменить цвет обводки?** Да — используйте `ColorFillSettings`, чтобы задать любой `Color`.  
-- **Нужна ли лицензия?** Временная лицензия подходит для оценки; полная лицензия требуется для продакшн.  
-- **Какая версия Java поддерживается?** Java 8 или выше.  
-- **Сколько времени занимает реализация?** Обычно менее 10 минут для базовой смены обводки.
+- **Какая библиотека требуется?** Aspose.PSD for Java (latest version).  
+- **Могу ли я изменить цвет обводки?** Yes – use `ColorFillSettings` to set any `Color`.  
+- **Нужна ли лицензия?** A temporary license works for evaluation; a full license is required for production.  
+- **Какая версия Java поддерживается?** Java 8 or higher.  
+- **Сколько времени занимает реализация?** Typically under 10 minutes for a basic stroke change.
 
 ## Что такое слой обводки в PSD?
 Слой обводки — это векторный эффект, который рисует контур вокруг содержимого слоя. Его можно настроить по цвету, толщине, непрозрачности и режиму наложения. Программное изменение этого эффекта позволяет автоматизировать брендинг, пакетную обработку или динамическое создание графики.
 
 ## Почему использовать Aspose.PSD для изменения цвета обводки?
-- **Не требуется Photoshop** — полностью работает в Java.  
-- **Полное соответствие спецификации PSD** — поддерживаются все современные функции PSD.  
-- **Высокая производительность** — быстро обрабатывайте большие файлы.  
-- **Кросс‑платформенный** — работает на любой ОС с JVM.
+- **Не требуется Photoshop** – work entirely in Java.  
+- **Полное соответствие спецификации PSD** – all modern PSD features are supported.  
+- **Высокая производительность** – process large files quickly.  
+- **Кросс‑платформенность** – run on any OS with a JVM.
 
-## Требования
+## Как изменить цвет обводки программно
+Ниже представлено краткое пошаговое руководство, показывающее, как именно изменить цвет обводки с помощью Aspose.PSD для Java. Каждый шаг содержит короткое объяснение, за которым следует оригинальный блок кода (без изменений).
 
-- **Библиотека Aspose.PSD** — загрузите из [official documentation](https://reference.aspose.com/psd/java/).  
-- **Java Development Kit (JDK)** — версия 8 или новее.  
-- **IDE** — Eclipse, IntelliJ IDEA или любой совместимый с Java редактор.
+### Требования
 
-## Импорт пакетов
+- **Библиотека Aspose.PSD** – download from the [official documentation](https://reference.aspose.com/psd/java/).  
+- **Java Development Kit (JDK)** – version 8 or newer.  
+- **IDE** – Eclipse, IntelliJ IDEA, or any Java‑compatible editor.
 
-Сначала импортируйте необходимые классы. Это предоставит вашему проекту доступ к API обработки PSD и эффектов обводки.
+### Импорт пакетов
+
+Сначала импортируйте необходимые классы. Это даст вашему проекту доступ к API обработки PSD и эффектов обводки.
 
 ```java
 import com.aspose.psd.Color;
@@ -59,11 +62,11 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## Шаг 1: Настройте проект
+### Шаг 1: Настройте проект
 
-Создайте новый Java‑проект, добавьте JAR‑файл Aspose.PSD в путь сборки и убедитесь, что библиотека загружается без ошибок.
+Создайте новый Java‑проект, добавьте JAR‑файл Aspose.PSD в путь сборки и проверьте, что библиотека загружается без ошибок.
 
-## Шаг 2: Загрузите файл PSD
+### Шаг 2: Загрузите файл PSD
 
 Включите загрузку ресурсов эффектов, чтобы информация об обводке была доступна.
 
@@ -79,7 +82,7 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## Шаг 3: Доступ к слою эффекта обводки
+### Шаг 3: Получите слой эффекта обводки
 
 Получите первый эффект обводки со второго слоя (индекс 1).
 
@@ -87,9 +90,9 @@ PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-## Шаг 4: Проверка свойств обводки
+### Шаг 4: Проверьте свойства обводки
 
-Подтвердите существующие свойства перед внесением изменений. Это помогает избежать неожиданных результатов.
+Подтвердите существующие свойства перед изменениями. Это помогает избежать неожиданных результатов.
 
 ```java
 Assert.areEqual(BlendMode.Normal, colorStroke.getBlendMode());
@@ -97,9 +100,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-## Шаг 5: Установка цвета и непрозрачности (How to Change Stroke Color)
+### Шаг 5: Установите цвет и непрозрачность (Как изменить цвет обводки)
 
-Здесь мы **change PSD stroke color** на желтый и уменьшаем непрозрачность до 50 % (127 / 255).
+Здесь мы **изменяем цвет обводки** на желтый и уменьшаем непрозрачность до 50 % (127 / 255).
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -108,7 +111,7 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-## Шаг 6: Сохраните измененный PSD
+### Шаг 6: Сохраните измененный PSD
 
 Запишите обновленное изображение обратно на диск. Новый файл теперь содержит измененную обводку.
 
@@ -116,39 +119,41 @@ colorStroke.setOpacity((byte)127);
 im.save(exportPath);
 ```
 
-## Распространённые ошибки и советы
+## Распространённые сценарии использования изменения цвета обводки
+- **Автоматизация брендинга:** Примените корпоративный цвет к логотипам в сотнях PSD‑ресурсов за один пакетный запуск.  
+- **Динамическое создание UI:** Меняйте цвета обводки «на лету» в зависимости от выбранных пользователем тем в веб‑инструменте дизайна.  
+- **Подготовка к печати:** Убедитесь, что все цвета обводки соответствуют печатным требованиям перед отправкой файлов в типографию.
 
-- **Проверка на null** — всегда проверяйте, что `getEffects()` возвращает ненулевой массив перед приведением типа.  
-- **Индекс слоя** — слои PSD нумеруются с нуля; убедитесь, что выбрали правильный слой.  
-- **Формат цвета** — `Color.getYellow()` лишь пример; вы можете создавать пользовательские цвета с помощью `new Color(r, g, b)`.  
-- **Диапазон непрозрачности** — непрозрачность задаётся байтом (0–255); значения выше 255 будут ограничены.
+## Распространённые подводные камни и советы
 
-## Заключение
-
-Теперь вы знаете, как **how to add stroke** в файл PSD и **how to change stroke color** с помощью Aspose.PSD для Java. Экспериментируйте с различными цветами, режимами наложения и непрозрачностью, чтобы достичь точного визуального стиля, необходимого вашему проекту.
+- **Проверка на null** – always verify that `getEffects()` returns a non‑null array before casting.  
+- **Индекс слоя** – PSD layers are zero‑based; ensure you target the correct layer.  
+- **Формат цвета** – `Color.getYellow()` is just an example; you can create custom colors with `new Color(r, g, b)`.  
+- **Диапазон непрозрачности** – opacity is a byte (0–255); values above 255 will be clamped.  
+- **Загрузка ресурсов** – forgetting `loadOptions.setLoadEffectsResource(true)` will result in a `null` effects array.
 
 ## Часто задаваемые вопросы
 
-**Q: Могу ли я использовать Aspose.PSD с другими графическими библиотеками Java?**  
-A: Да, Aspose.PSD можно комбинировать с библиотеками, такими как Apache Commons Imaging или Java2D, для расширенной функциональности.
+**В: Можно ли использовать Aspose.PSD с другими Java‑библиотеками графики?**  
+О: Yes, Aspose.PSD can be combined with libraries such as Apache Commons Imaging or Java2D for extended functionality.
 
-**Q: Совместим ли Aspose.PSD с последним форматом файлов PSD?**  
-A: Абсолютно. Библиотека регулярно обновляется, чтобы поддерживать новейшие спецификации Photoshop.
+**В: Совместима ли Aspose.PSD с последним форматом файлов PSD?**  
+О: Absolutely. The library is regularly updated to support the newest Photoshop specifications.
 
-**Q: Как обрабатывать исключения при использовании Aspose.PSD?**  
-A: Обратитесь к [support forum](https://forum.aspose.com/c/psd/34) для подробного устранения неполадок и примеров кода обработки ошибок.
+**В: Как обрабатывать исключения при работе с Aspose.PSD?**  
+О: Refer to the [support forum](https://forum.aspose.com/c/psd/34) for detailed troubleshooting and sample error‑handling code.
 
-**Q: Могу ли я попробовать Aspose.PSD перед покупкой?**  
-A: Конечно! Возьмите [free trial](https://releases.aspose.com/) чтобы изучить все возможности.
+**В: Можно ли попробовать Aspose.PSD перед покупкой?**  
+О: Certainly! Grab a [free trial](https://releases.aspose.com/) to explore all features.
 
-**Q: Где можно получить временную лицензию для Aspose.PSD?**  
-A: Получите [temporary license](https://purchase.aspose.com/temporary-license/) для оценки библиотеки в вашей среде разработки.
+**В: Где можно получить временную лицензию для Aspose.PSD?**  
+О: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the library in your development environment.
 
 ---
 
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**Последнее обновление:** 2026-02-07  
+**Тестировано с:** Aspose.PSD 24.11 for Java  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
