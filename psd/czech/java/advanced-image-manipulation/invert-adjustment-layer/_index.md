@@ -1,7 +1,7 @@
 ---
-date: 2025-12-02
-description: Naučte se, jak používat knihovnu pro zpracování obrazu v Javě Aspose.PSD
-  k aplikaci více úpravných vrstev, včetně vrstvy Inverze, pro plynulou manipulaci
+date: 2026-02-07
+description: Naučte se, jak používat knihovnu Aspose.PSD pro zpracování obrázků v
+  Javě k aplikaci více úpravných vrstev, včetně vrstvy invertování, pro plynulou manipulaci
   s PSD.
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
@@ -16,40 +16,44 @@ weight: 14
 
 # Invert Adjustment Layer v Aspose.PSD pro Java
 
-## Úvod
+## Introduction
 
-Pokud hledáte robustní **image processing java library**, Aspose.PSD pro Java je jednou z nejuniverzálnějších možností na trhu. V tomto tutoriálu vás provedeme, jak přidat **Invert Adjustment Layer** do souboru PSD, techniku, kterou můžete kombinovat s dalšími úpravnými vrstvami pro dosažení sofistikovaných vizuálních efektů. Ať už vytváříte nástroj pro dávkové zpracování nebo editor jednotlivých obrázků, tento průvodce vám poskytne jasnou, krok‑za‑krokem cestu, jak úkol rychle dokončit.
+Pokud hledáte robustní **image processing java library**, Aspose.PSD pro Java je jednou z nejobtížnějších možností na trhu. V tomto tutoriálu vás provedeme, jak přidat **Invert Adjustment Layer** do souboru PSD, techniku, kterou můžete kombinovat s dalšími úpravovými vrstvami pro dosažení sofistikovaných vizuálních efektů. Ať už vytváříte nástroj pro dávkové zpracování nebo editor jedné obrázku, tento průvodce vám poskytne jasnou, krok‑za‑krokem cestu k rychlému dokončení úkolu.
 
-## Rychlé odpovědi
-- **Co dělá Invert Adjustment Layer?** Obrací všechny hodnoty barev ve vybrané oblasti a vytváří efekt negativního obrazu.  
-- **Která knihovna tuto funkci poskytuje?** Aspose.PSD, přední **image processing java library**.  
-- **Mohu ji vrstvit s dalšími úpravami?** Ano – můžete **apply multiple adjustment layers** jako Brightness/Contrast, Hue/Saturation a další.  
+## Quick Answers
+- **Co dělá Invert Adjustment Layer?** Obrací všechny hodnoty barev ve vybrané oblasti, čímž vytváří efekt negativního obrazu.  
+- **Která knihovna poskytuje tuto funkci?** Aspose.PSD, přední **image processing java library**.  
+- **Mohu ji kombinovat s dalšími úpravami?** Ano – můžete **apply multiple adjustment layers** jako Brightness/Contrast, Hue/Saturation a další.  
 - **Potřebuji licenci pro vývoj?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkční použití.  
 - **Jak dlouho trvá implementace?** Obvykle méně než 10 minut pro základní případ použití.
 
-## Co je Invert Adjustment Layer?
+## What is the Invert Adjustment Layer?
 
-Invert Adjustment Layer je nedestruktivní úprava, která převrací RGB hodnoty každého pixelu, na který má vliv. Protože leží navrchu zásobníku vrstev, můžete její viditelnost přepínat nebo ji přeskupovat, aniž byste trvale změnili původní data obrázku.
+Invert Adjustment Layer je nedestruktivní úprava, která převrací RGB hodnoty každého pixelu, na který má vliv. Protože leží navrchu zásobníku vrstev, můžete přepínat její viditelnost nebo měnit pořadí bez trvalé změny původních dat obrázku.
 
-## Proč použít Aspose.PSD jako vaši knihovnu pro zpracování obrazu v Javě?
+## How to invert layer using Aspose.PSD
 
-- **Kompletní podpora PSD** – čtení, úprava a zápis Photoshop souborů bez nutnosti mít nainstalovaný Photoshop.  
+Níže uvidíte přesně, **jak invertovat vrstvu** v souboru PSD. Kroky jsou záměrně jednoduché, aby se můžete soustředit na koncept místo boilerplate kódu.
+
+## Why Use Aspose.PSD as Your Image Processing Java Library?
+
+- **Full PSD support** – čtení, úprava a zápis souborů Photoshopu bez nutnosti instalace Photoshopu.  
 - **Cross‑platform** – funguje na jakémkoli Java runtime (Java 6+).  
-- **Bohaté úpravy** – obsahuje vestavěné metody pro mnoho běžných editací, což usnadňuje **apply multiple adjustment layers** v jednom pracovním postupu.  
-- **Optimalizovaný výkon** – efektivně zpracovává velké soubory, což je klíčové pro dávkové zpracování.
+- **Rich adjustment features** – obsahuje vestavěné metody pro mnoho běžných úprav, což usnadňuje **apply multiple adjustment layers** v jednom pracovním postupu.  
+- **Performance‑optimized** – efektivně zpracovává velké soubory, což je nezbytné pro dávkové zpracování.
 
-## Požadavky
+## Prerequisites
 
-Před zahájením se ujistěte, že máte následující:
+Předtím, než začnete, ujistěte se, že máte následující:
 
 1. **Aspose.PSD Library** – stáhněte ji z oficiálního webu [here](https://releases.aspose.com/psd/java/).  
 2. **Java Development Environment** – nainstalovaný a nakonfigurovaný JDK 6.0 nebo novější.  
 
 Nyní se ponořme do kódu.
 
-## Importovat balíčky
+## Import Packages
 
-Začněte importováním potřebných tříd. Tyto importy vám poskytují přístup k jádrovým API pro manipulaci s obrázky a specifické funkčnosti PSD.
+Začněte importováním potřebných tříd. Tyto importy vám poskytují přístup k základním API pro manipulaci s obrázky a specifické funkčnosti pro PSD.
 
 ```java
 import com.aspose.psd.Image;
@@ -57,17 +61,17 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Krok 1: Nastavte adresář dokumentu
+## Step 1: Set Up Document Directory
 
-Definujte složku, která obsahuje váš zdrojový PSD soubor a kam bude uložen výstup.
+Definujte složku, která obsahuje váš zdrojový soubor PSD a kam bude výstup uložen.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Načtěte PSD soubor
+## Step 2: Load PSD File
 
-Načtěte zdrojový soubor do objektu `PsdImage`. Tento objekt představuje celý PSD dokument v paměti.
+Načtěte zdrojový soubor do objektu `PsdImage`. Tento objekt představuje celý dokument PSD v paměti.
 
 ```java
 String filePath = dataDir + "InvertStripes_before.psd";
@@ -76,58 +80,60 @@ String outputPath = dataDir + "InvertStripes_after.psd";
 PsdImage im = (PsdImage)Image.load(filePath);
 ```
 
-## Krok 3: Přidejte Invert Adjustment Layer
+## Step 3: Add Invert Adjustment Layer
 
-Zavolejte vestavěnou metodu pro vložení Invert Adjustment Layer na vrchol aktuálního zásobníku vrstev. Později můžete přidat další vrstvy (např. Brightness, Hue) pro **apply multiple adjustment layers**.
+Zavolejte vestavěnou metodu pro vložení Invert Adjustment Layer na vrchol aktuálního zásobníku vrstev. Později můžete přidat další vrstvy (např. Brightness, Hue), abyste **apply multiple adjustment layers**.
 
 ```java
 im.addInvertAdjustmentLayer();
 ```
 
-## Krok 4: Uložte výstup
+## Step 4: Save the Output
 
-Uložte upravený PSD na disk. Uložený soubor nyní obsahuje Invert Adjustment Layer a lze jej otevřít v Photoshopu nebo jakémkoli prohlížeči podporujícím PSD.
+Uložte upravený PSD na disk. Uložený soubor nyní obsahuje Invert Adjustment Layer a může být otevřen v Photoshopu nebo jakémkoli prohlížeči kompatibilním s PSD.
 
 ```java
 im.save(outputPath);
 ```
 
-### Co se právě stalo?
+### What just happened?
 
 - PSD byl načten do paměti.  
 - Invert Adjustment Layer byl přidán jako vrchní vrstva.  
-- Obrázek byl uložen, přičemž nedestruktivní úprava zůstala zachována.
+- Obrázek byl uložen, zachovávající nedestruktivní úpravu.
 
 Úspěšně jste použili Aspose.PSD, **image processing java library**, k manipulaci se souborem PSD.
 
-## Časté problémy a tipy
+## Common Issues & Tips
 
-| Problém | Příčina | Řešení |
+| Issue | Cause | Solution |
 |-------|-------|----------|
 | **NullPointerException on `Image.load`** | Nesprávná cesta k souboru nebo chybějící soubor | Ověřte `dataDir` a název souboru; pro testování použijte absolutní cesty |
-| **Layer order not as expected** | Přidávání vrstev po existujících mění pořadí | Použijte `im.addInvertAdjustmentLayer()` před přidáním dalších úprav, nebo přeskupte vrstvy pomocí `im.getLayers()` |
+| **Layer order not as expected** | Přidávání vrstev po existujících mění pořadí | Použijte `im.addInvertAdjustmentLayer()` před přidáním dalších úprav, nebo přeuspořádejte vrstvy pomocí `im.getLayers()` |
 | **Performance slowdown on large PSDs** | Načítání velmi velkých souborů do paměti | Zvažte zpracování stránek po částech nebo zvýšení velikosti haldy JVM (`-Xmx2g`) |
 
-## Často kladené otázky
+## Frequently Asked Questions
 
-**Q: Je Aspose.PSD kompatibilní se všemi verzemi Javy?**  
+**Q: Je Aspose.PSD kompatibilní se všemi verzemi Java?**  
 A: Aspose.PSD podporuje Java 6.0 a novější verze.
 
 **Q: Mohu aplikovat více úpravných vrstev v jedné operaci?**  
 A: Ano, můžete vrstvit několik úpravných vrstev – jako Invert, Brightness a Hue/Saturation – pro dosažení komplexních efektů.
 
 **Q: Kde najdu další dokumentaci k Aspose.PSD?**  
-A: Viz dokumentaci [here](https://reference.aspose.com/psd/java/) pro podrobné průvodce a reference API.
+A: Viz dokumentaci [here](https://reference.aspose.com/psd/java/) pro komplexní průvodce a API reference.
 
 **Q: Je k dispozici bezplatná zkušební verze Aspose.PSD?**  
-A: Ano, můžete si vyzkoušet bezplatnou verzi [here](https://releases.aspose.com/).
+A: Ano, můžete si prohlédnout bezplatnou zkušební verzi [here](https://releases.aspose.com/).
 
-**Q: Jak získám dočasnou licenci pro Aspose.PSD?**  
+**Q: Jak mohu získat dočasnou licenci pro Aspose.PSD?**  
 A: Dočasnou licenci můžete získat [here](https://purchase.aspose.com/temporary-license/).
 
-**Poslední aktualizace:** 2025-12-02  
-**Testováno s:** Aspose.PSD 24.12 pro Java  
-**Autor:** Aspose  
+---
+
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
