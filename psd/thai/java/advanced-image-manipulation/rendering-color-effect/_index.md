@@ -1,11 +1,10 @@
 ---
-date: 2025-12-05
-description: เรียนรู้วิธีบันทึกไฟล์ PSD เป็น PNG พร้อมการทับสีโดยใช้ Aspose.PSD สำหรับ
-  Java คู่มือขั้นตอนนี้ครอบคลุมการจัดการภาพด้วย Java, การทับสี, และการส่งออก PNG พร้อมอัลฟ่า
+date: 2026-02-07
+description: เรียนรู้วิธีแปลงไฟล์ PSD เป็น PNG พร้อมการทับสีโดยใช้ Aspose.PSD สำหรับ
+  Java บทเรียนนี้ครอบคลุมการจัดการภาพด้วย Java การส่งออก PNG พร้อมอัลฟา และการเรนเดอร์เอฟเฟกต์สี.
 linktitle: Apply Rendering Color Effect
 second_title: Aspose.PSD Java API
-title: วิธีบันทึกไฟล์ PSD เป็น PNG พร้อมเอฟเฟกต์การเรนเดอร์สีโดยใช้ Aspose.PSD สำหรับ
-  Java
+title: แปลง PSD เป็น PNG พร้อมการทับสี – Aspose.PSD สำหรับ Java
 url: /th/java/advanced-image-manipulation/rendering-color-effect/
 weight: 15
 ---
@@ -14,39 +13,37 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีบันทึก PSD เป็น PNG พร้อมเอฟเฟกต์สีเรนเดอร์โดยใช้ Aspose.PSD สำหรับ Java
+# แปลง PSD เป็น PNG พร้อมสีโอเวอร์เลย์ – Aspose.PSD สำหรับ Java
 
-## Introduction
+หากคุณต้องการ **แปลง PSD เป็น PNG** พร้อมกับใส่สีโอเวอร์เลย์แบบไดนามิก คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมด—from การโหลดไฟล์ PSD, การจัดการเลเยอร์, ไปจนถึงการส่งออก PNG ที่มีความโปร่งใสแบบอัลฟา—โดยใช้ Aspose.PSD สำหรับ Java. เมื่อเสร็จสิ้นคุณจะมีรูปแบบที่มั่นคงและนำกลับมาใช้ใหม่ได้สำหรับ **Java image manipulation** ที่คุณสามารถนำไปใส่ในโปรเจกต์ใดก็ได้
 
-หากคุณต้องการ **บันทึก PSD เป็น PNG** พร้อมกับใส่การทับสีแบบไดนามิก คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะเดินผ่านกระบวนการทั้งหมด—ตั้งแต่การโหลดไฟล์ PSD, การจัดการเลเยอร์, จนถึงการส่งออกเป็น PNG พร้อมความโปร่งใส (alpha) —โดยใช้ Aspose.PSD สำหรับ Java. เมื่อเสร็จสิ้นคุณจะมีรูปแบบการทำงานที่มั่นคงและนำกลับมาใช้ใหม่ได้สำหรับการจัดการภาพใน Java ที่สามารถใส่ลงในโปรเจกต์ใดก็ได้
+## คำตอบด่วน
+- **What does “convert PSD to PNG” mean?** หมายความว่าการแปลงไฟล์เอกสาร Photoshop (PSD) ให้เป็นไฟล์ Portable Network Graphics (PNG) พร้อมการรักษาความโปร่งใส  
+- **Can I overlay a custom color?** ใช่—Aspose.PSD มี `ColorOverlayEffect` ที่ให้คุณใส่สี RGB/alpha ใดก็ได้  
+- **Do I need a license for production?** จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์; มีรุ่นทดลองฟรีสำหรับการประเมินผล  
+- **Which Java version is supported?** Aspose.PSD รองรับ Java 8 ขึ้นไป รวมถึง Java 11+  
+- **How long does the implementation take?** ประมาณ 10‑15 นาทีสำหรับคัดลอกโค้ดและรัน
 
-## Quick Answers
-- **“บันทึก PSD เป็น PNG” หมายถึงอะไร?** การแปลงไฟล์เอกสาร Photoshop (PSD) เป็นไฟล์ Portable Network Graphics (PNG) พร้อมคงความโปร่งใสไว้  
-- **ฉันสามารถทับสีที่กำหนดเองได้หรือไม่?** ได้ — Aspose.PSD มี `ColorOverlayEffect` ที่ให้คุณใส่สี RGB/alpha ใดก็ได้  
-- **ต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์; มีรุ่นทดลองฟรีสำหรับการประเมินผล  
-- **รองรับเวอร์ชัน Java ใด?** Aspose.PSD ทำงานกับ Java 8 ขึ้นไป รวมถึง Java 11+  
-- **ใช้เวลานานเท่าไหร่ในการทำตามขั้นตอน?** ประมาณ 10‑15 นาทีเพื่อคัดลอกโค้ดและรัน
+## “convert PSD to PNG” คืออะไร?
+การแปลง PSD เป็น PNG จะทำให้ไฟล์ Photoshop ที่มีหลายเลเยอร์ถูกแปลงเป็นรูปแบบภาพที่ไม่มีการสูญเสียข้อมูลและรองรับช่องอัลฟา ซึ่งเหมาะสำหรับการสร้างภาพที่พร้อมใช้งานบนเว็บ, รูปย่อ, หรือกราฟิกใด ๆ ที่ต้องการรักษาความโปร่งใสโดยไม่ต้องใช้ Photoshop
 
-## What is “save PSD as PNG”?
-การบันทึก PSD เป็น PNG จะทำให้ไฟล์ Photoshop ที่มีหลายเลเยอร์แปลงเป็นรูปแบบภาพแบนที่สนับสนุนการบีบอัดแบบไม่มีการสูญเสียและช่อง alpha. สิ่งนี้มีประโยชน์เมื่อคุณต้องการภาพที่พร้อมใช้งานบนเว็บหรือแชร์กราฟิกโดยไม่ต้องพึ่ง Photoshop
-
-## Why use Aspose.PSD for Java?
-- **Full layer access** – จัดการเลเยอร์, เอฟเฟกต์, และตัวเลือกการผสมสีแต่ละชั้นได้  
+## ทำไมต้องใช้ Aspose.PSD สำหรับ Java?
+- **Full layer access** – จัดการเลเยอร์, เอฟเฟกต์, และตัวเลือกการผสมสีได้อย่างละเอียด  
 - **No native Photoshop needed** – ทำงานบนเซิร์ฟเวอร์หรือเครื่องเดสก์ท็อปที่รัน JVM ใดก็ได้  
-- **Export with alpha** – คงความโปร่งใสเมื่อตัดแปลงเป็น PNG  
-- **Robust API** – รองรับการดำเนินการขั้นสูงเช่นการทับสี, มาสก์, และฟิลเตอร์
+- **Export PNG with alpha** – รักษาความโปร่งใสเมื่อแปลงเป็น PNG  
+- **Robust API** – รองรับการดำเนินการขั้นสูงเช่น PSD color overlay effect, มาสก์, และฟิลเตอร์ต่าง ๆ  
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำตามขั้นตอน โปรดตรวจสอบว่าคุณมี:
+ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมี:
 
 - **Java Development Environment** – JDK 8 หรือใหม่กว่า ติดตั้งและตั้งค่าเรียบร้อยแล้ว  
 - **Aspose.PSD for Java** – ดาวน์โหลด JAR ล่าสุดจาก [official release page](https://releases.aspose.com/psd/java/)  
-- **A sample PSD file** – ในบทเรียนนี้เราจะใช้ไฟล์ `ColorOverlay.psd` ซึ่งมีเลเยอร์ที่มีเอฟเฟกต์การทับสีอยู่แล้ว
+- **A sample PSD file** – สำหรับคู่มือนี้เราจะใช้ `ColorOverlay.psd` ซึ่งมีเลเยอร์ที่มีเอฟเฟกต์สีโอเวอร์เลย์อยู่แล้ว  
 
-## Import Packages
+## นำเข้าแพ็กเกจ
 
-เพิ่มการนำเข้า (import) ที่จำเป็นลงในคลาส Java ของคุณ เพื่อให้เข้าถึงการโหลดภาพ, ตัวเลือก PNG, และเอฟเฟกต์การทับสี
+เพิ่มการนำเข้าที่จำเป็นลงในคลาส Java ของคุณ เพื่อให้เข้าถึงการโหลดภาพ, ตัวเลือก PNG, และเอฟเฟกต์สีโอเวอร์เลย์
 
 ```java
 import com.aspose.psd.Image;
@@ -58,19 +55,19 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## How to save PSD as PNG with a color overlay?
+## วิธีแปลง PSD เป็น PNG พร้อมสีโอเวอร์เลย์?
 
-ต่อไปนี้เป็นคำแนะนำแบบขั้นตอน‑ต่อ‑ขั้นตอนที่แสดง **วิธีทับสี**, **แปลง PSD เป็น PNG**, และ **ส่งออก PNG พร้อม alpha**
+ต่อไปนี้เป็นคำแนะนำแบบขั้นตอนที่แสดง **วิธีใส่สีโอเวอร์เลย์**, **แปลง PSD เป็น PNG**, และ **ส่งออก PNG พร้อมอัลฟา**  
 
-### Step 1: Set Your Document Directory
+### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-กำหนดโฟลเดอร์ที่เก็บไฟล์ PSD ต้นฉบับและที่ต้องการบันทึกผลลัพธ์
+กำหนดโฟลเดอร์ที่เก็บไฟล์ PSD ต้นฉบับและที่ที่ผลลัพธ์จะถูกบันทึก
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Load PSD File with Effects (Java image manipulation)
+### ขั้นตอนที่ 2: โหลดไฟล์ PSD พร้อมเอฟเฟกต์ (การจัดการภาพด้วย Java)
 
 สร้างอินสแตนซ์ `PsdLoadOptions`, เปิดการโหลดทรัพยากรเอฟเฟกต์, แล้วโหลดไฟล์
 
@@ -81,19 +78,19 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-### Step 3: Access the Color Overlay Effect (manipulate PSD layers)
+### ขั้นตอนที่ 3: เข้าถึงเอฟเฟกต์สีโอเวอร์เลย์ของ PSD
 
-ดึง `ColorOverlayEffect` ตัวแรกจากเลเยอร์ที่สอง (index 1). ที่นี่เราจะอ่านการตั้งค่า overlay ปัจจุบัน
+ดึง `ColorOverlayEffect` ตัวแรกจากเลเยอร์ที่สอง (index 1) ซึ่งเป็นที่ที่เราจะอ่านการตั้งค่าโอเวอร์เลย์เดิม
 
 ```java
 ColorOverlayEffect colorOverlay = (ColorOverlayEffect)(im.getLayers()[1].getBlendingOptions().getEffects()[0]);
 ```
 
-> **Pro tip:** คุณสามารถวนลูปผ่าน `im.getLayers()` และ `getEffects()` เพื่อจัดการหลาย overlay หรือใส่สีใหม่โดยอัตโนมัติได้
+> **Pro tip:** คุณสามารถวนลูปผ่าน `im.getLayers()` และ `getEffects()` เพื่อจัดการหลายโอเวอร์เลย์หรือใส่สีใหม่โดยอัตโนมัติได้  
 
-### Step 4: Save the Resulting Image as PNG with Alpha
+### ขั้นตอนที่ 4: บันทึกรูปภาพผลลัพธ์เป็น PNG พร้อม Alpha
 
-ระบุเส้นทางการส่งออก, ตั้งค่าตัวเลือก PNG ให้คงช่อง alpha, แล้วบันทึก
+ระบุเส้นทางการส่งออก, ตั้งค่าตัวเลือก PNG ให้คงช่องอัลฟา, แล้วบันทึก
 
 ```java
 String pngExportPath = dataDir + "ColorOverlayResult.png";
@@ -102,41 +99,41 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-เมื่อโค้ดทำงานแล้ว `ColorOverlayResult.png` จะมีลักษณะภาพเดียวกับเลเยอร์ PSD ดั้งเดิม รวมถึงพื้นหลังโปร่งใสและเอฟเฟกต์การทับสีที่ถูกนำไปใช้
+เมื่อโค้ดทำงาน `ColorOverlayResult.png` จะมีลักษณะภาพของเลเยอร์ PSD ดั้งเดิม รวมถึงพื้นหลังโปร่งใสและสีโอเวอร์เลย์ที่ถูกนำไปใช้
 
-## Common Issues and Solutions
+## ปัญหาที่พบบ่อยและวิธีแก้ไข
 
-| Issue | Reason | Fix |
+| ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|--------|-----|
-| **No transparency in PNG** | `PngOptions.ColorType` ตั้งเป็น `Indexed` แทน `TruecolorWithAlpha` | ใช้ `PngColorType.TruecolorWithAlpha` ตามที่แสดงข้างต้น |
-| **Effect not loaded** | `loadOptions.setLoadEffectsResource(false)` (ค่าเริ่มต้น) | ตรวจสอบให้เรียก `setLoadEffectsResource(true)` ก่อนโหลดไฟล์ |
-| **FileNotFoundException** | เส้นทาง `dataDir` ไม่ถูกต้อง | ยืนยันว่าเส้นทางโฟลเดอร์ลงท้ายด้วยตัวคั่น (`/` หรือ `\\`) |
-| **ClassCastException** | เลเยอร์เป้าหมายไม่มี `ColorOverlayEffect` | ตรวจสอบ `instanceof ColorOverlayEffect` ก่อนทำการแคสต์ |
+| **No transparency in PNG** | `PngOptions.ColorType` ถูกตั้งค่าเป็น `Indexed` แทน `TruecolorWithAlpha`. | ใช้ `PngColorType.TruecolorWithAlpha` ตามที่แสดงด้านบน. |
+| **Effect not loaded** | `loadOptions.setLoadEffectsResource(false)` (ค่าเริ่มต้น). | ตรวจสอบให้แน่ใจว่าได้เรียก `setLoadEffectsResource(true)` ก่อนการโหลด. |
+| **FileNotFoundException** | เส้นทาง `dataDir` ไม่ถูกต้อง. | ตรวจสอบว่าเส้นทางโฟลเดอร์ลงท้ายด้วยตัวคั่น (`/` หรือ `\\`). |
+| **ClassCastException** | เลเยอร์เป้าหมายไม่มี `ColorOverlayEffect`. | ตรวจสอบ `instanceof ColorOverlayEffect` ก่อนทำการแคสท์. |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-### Q1: Can I apply multiple color overlay effects to a single PSD file?
-**A:** Yes. Loop through each layer’s `getEffects()` collection, identify `ColorOverlayEffect` instances, and modify them as needed.
+### Q1: ฉันสามารถใช้เอฟเฟกต์สีโอเวอร์เลย์หลายรายการกับไฟล์ PSD เดียวได้หรือไม่?
+**A:** ได้. ให้วนลูปผ่านคอลเลกชัน `getEffects()` ของแต่ละเลเยอร์, ระบุอินสแตนซ์ `ColorOverlayEffect`, แล้วแก้ไขตามต้องการ  
 
-### Q2: Is Aspose.PSD compatible with Java 11?
-**A:** Absolutely. The library supports Java 8 and newer, including Java 11, Java 17, and later LTS releases.
+### Q2: Aspose.PSD รองรับ Java 11 หรือไม่?
+**A:** รองรับแน่นอน. ไลบรารีทำงานกับ Java 8 ขึ้นไป รวมถึง Java 11, Java 17, และรุ่น LTS ล่าสุด  
 
-### Q3: Where can I find detailed documentation for Aspose.PSD for Java?
-**A:** Visit the official [Aspose.PSD Java API Reference](https://reference.aspose.com/psd/java/) for comprehensive guides and code samples.
+### Q3: จะหาเอกสารรายละเอียดสำหรับ Aspose.PSD for Java ได้จากที่ไหน?
+**A:** เยี่ยมชม [Aspose.PSD Java API Reference](https://reference.aspose.com/psd/java/) เพื่อดูคู่มือและตัวอย่างโค้ดครบถ้วน  
 
-### Q4: Is there a free trial available?
-**A:** Yes. You can download a fully functional trial from the [Aspose.PSD download page](https://releases.aspose.com/).
+### Q4: มีรุ่นทดลองฟรีหรือไม่?
+**A:** มี. คุณสามารถดาวน์โหลดรุ่นทดลองเต็มฟังก์ชันจาก [Aspose.PSD download page](https://releases.aspose.com/)  
 
-### Q5: How can I get support for Aspose.PSD for Java?
-**A:** Use the [Aspose.PSD Community Forum](https://forum.aspose.com/c/psd/34) to ask questions, share experiences, and get help from both the Aspose team and other developers.
+### Q5: จะขอรับการสนับสนุนสำหรับ Aspose.PSD for Java ได้อย่างไร?
+**A:** ใช้ [Aspose.PSD Community Forum](https://forum.aspose.com/c/psd/34) เพื่อถามคำถาม, แบ่งปันประสบการณ์, และรับความช่วยเหลือจากทีม Aspose และนักพัฒนาคนอื่น  
 
-## Conclusion
+## สรุป
 
-คุณได้เรียนรู้วิธี **บันทึก PSD เป็น PNG** พร้อมกับเอฟเฟกต์สีเรนเดอร์โดยใช้ Aspose.PSD สำหรับ Java แล้ว วิธีนี้ให้คุณควบคุม **การจัดการภาพใน Java** อย่างเต็มที่ สามารถทับสี, คงความโปร่งใส, และส่งออก PNG ที่พร้อมใช้บนเว็บหรือมือถือได้อย่างง่ายดาย อย่าลังเลที่จะทดลองกับเลเยอร์เพิ่มเติม, สี overlay ต่าง ๆ, หรือรวมเอฟเฟกต์อื่น ๆ เพื่อสร้างกราฟิกที่หลากหลายยิ่งขึ้น
+คุณได้เรียนรู้วิธี **แปลง PSD เป็น PNG** พร้อมกับใส่เอฟเฟกต์สีโดยใช้ Aspose.PSD สำหรับ Java วิธีนี้ให้คุณควบคุม **Java image manipulation** ได้อย่างเต็มที่ สามารถใส่สี, รักษาความโปร่งใส, และส่งออก PNG ที่พร้อมใช้บนเว็บหรือมือถือได้ อย่าลังเลที่จะทดลองกับเลเยอร์เพิ่มเติม, สีโอเวอร์เลย์ต่าง ๆ, หรือรวมเอฟเฟกต์อื่น ๆ เพื่อสร้างกราฟิกที่สวยงามยิ่งขึ้น  
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.PSD 24.12 for Java  
 **Author:** Aspose  
 
