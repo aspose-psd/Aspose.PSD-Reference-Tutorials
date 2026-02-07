@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: Dowiedz się, jak zapisać plik PSD jako PNG, konwertować PSD na PNG oraz
-  zastosować warstwę cienia padającego przy użyciu Aspose.PSD for Java – kompletny,
+date: 2026-02-07
+description: Dowiedz się, jak zapisać plik PSD jako PNG, wyeksportować PNG z kanałem
+  alfa oraz dodać warstwę cienia padającego przy użyciu Aspose.PSD dla Javy – kompletny,
   krok po kroku przewodnik.
 linktitle: Apply Rendering Drop Shadow
 second_title: Aspose.PSD Java API
-title: Zapisz PSD jako PNG i zastosuj renderowanie cienia w Aspose.PSD dla Javy
+title: Zapisz PSD jako PNG i zastosuj cień renderowania w Aspose.PSD dla Javy
 url: /pl/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
@@ -14,34 +14,41 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz PSD jako PNG i zastosuj renderingowy cień w Aspose.PSD for Java
+# Zapisz PSD jako PNG i zastosuj renderowanie cienia padającego w Aspose.PSD dla Javy
 
-## Wprowadzenie
+## Introduction
 
-Jeśli pracujesz z plikami Photoshop w Javie, **zapisanie PSD jako PNG** jest jednym z najczęstszych zadań, z którymi się spotkasz. Dzięki Aspose.PSD możesz nie tylko **konwertować PSD na PNG**, ale także ulepszyć obraz **dodając warstwę cienia**. W tym samouczku przeprowadzimy Cię przez cały proces — wczytanie PSD, zastosowanie renderingowego cienia oraz ostateczne **zapisanie PSD jako pliku PNG** — abyś mógł zintegrować ten workflow ze swoimi projektami z pełnym zaufaniem.
+Jeśli pracujesz z plikami Photoshop w Javie, **zapisanie PSD jako PNG** jest jednym z najczęstszych zadań, z którymi się spotkasz. Dzięki Aspose.PSD możesz nie tylko **konwertować PSD do PNG**, ale także ulepszyć obraz, **dodając warstwę cienia padającego**. W tym samouczku przeprowadzimy Cię przez cały proces — wczytanie PSD, zastosowanie renderowanego cienia oraz ostateczne **zapisanie PSD jako pliku PNG** — abyś mógł zintegrować ten przepływ pracy ze swoimi projektami z pełnym zaufaniem.
 
-## Szybkie odpowiedzi
-- **Jaką bibliotekę używa się do konwersji PSD na PNG?** Aspose.PSD for Java.  
-- **Jak długo trwa implementacja cienia?** Około 10‑15 minut dla podstawowego przykładu.  
+## Quick Answers
+- **Jaką bibliotekę obsługuje konwersję PSD do PNG?** Aspose.PSD for Java.  
+- **Jak długo trwa implementacja cienia padającego?** Około 10‑15 minut dla podstawowego przykładu.  
 - **Czy potrzebna jest licencja do uruchomienia kodu?** Darmowa wersja próbna wystarczy do oceny; licencja jest wymagana w produkcji.  
-- **Czy mogę zastosować cień do wielu warstw?** Tak — wystarczy pętla po żądanych warstwach.  
-- **Jaka wersja Javy jest wymagana?** Java 8 lub nowsza.
+- **Czy mogę zastosować cień do wielu warstw?** Tak — po prostu iteruj po żądanych warstwach.  
+- **Jakiej wersji Javy wymaga?** Java 8 lub wyższa.
 
-## Co oznacza „zapisz PSD jako PNG” i dlaczego jest to ważne?
+## What is “save PSD as PNG” and why does it matter?
 
-Zapisanie PSD jako PNG tworzy szeroko wspierany, bezstratny obraz, który zachowuje przezroczystość. Jest to niezbędne, gdy trzeba wyświetlić zasoby Photoshop w sieci, w aplikacjach mobilnych lub jako część większego potoku przetwarzania obrazów. Dodanie cienia w tym samym czasie pozwala uzyskać wykończony efekt wizualny bez otwierania Photoshopa.
+Zapisanie PSD jako PNG tworzy szeroko wspierany, bezstratny obraz, który zachowuje przezroczystość. Jest to niezbędne, gdy musisz wyświetlać zasoby Photoshop w sieci, w aplikacjach mobilnych lub jako część większego potoku przetwarzania obrazów. Dodanie cienia padającego jednocześnie pozwala uzyskać dopracowany efekt wizualny bez otwierania Photoshopa.
 
-## Wymagania wstępne
+## Why use Aspose.PSD for this workflow?
 
-Zanim przejdziesz dalej, upewnij się, że masz:
+* **Pełna kontrola z poziomu kodu** – Nie ma potrzeby uruchamiania Photoshopa ani polegania na zewnętrznych narzędziach.  
+* **Zachowuje efekty warstw** – Cienie, poświaty i inne efekty są renderowane dokładnie tak, jak wyglądają w oryginalnym pliku.  
+* **Eksport PNG z alfą** – Wyjściowy PNG zachowuje przezroczyste tło, gotowe do użycia w sieci lub interfejsie użytkownika.  
+* **Wieloplatformowy** – Działa na każdym systemie operacyjnym obsługującym Javę 8+.
 
-- **Java Development Environment** – JDK 8 lub nowszy zainstalowany.  
+## Prerequisites
+
+Before we dive in, make sure you have:
+
+- **Środowisko programistyczne Java** – Zainstalowany JDK 8 lub nowszy.  
 - **Aspose.PSD for Java** – Pobierz najnowszy plik JAR ze [strony pobierania Aspose.PSD](https://releases.aspose.com/psd/java/).  
 - **Plik PSD** – Plik powinien zawierać przynajmniej jedną warstwę, którą chcesz wzbogacić o cień (np. *Shadow.psd*).  
 
-## Importowanie pakietów
+## Import Packages
 
-Najpierw zaimportuj klasy, które będą potrzebne. Dzięki temu uzyskasz dostęp do wczytywania obrazu, efektów warstw oraz opcji eksportu PNG.
+First, import the classes we’ll need. This gives us access to image loading, layer effects, and PNG export options.
 
 ```java
 import com.aspose.psd.Image;
@@ -55,25 +62,25 @@ import com.aspose.psd.fileformats.png.PngColorType;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Przewodnik krok po kroku
+## Step‑by‑Step Guide
 
-### Krok 1: Definicja katalogu dokumentu  
-Określ programowi, gdzie znajduje się źródłowy plik PSD.
+### Step 1: Define Document Directory  
+Tell the program where your source PSD lives.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Krok 2: Ustaw ścieżki plików PSD i PNG  
-Podaj zarówno wejściowy plik PSD, jak i wyjściowy PNG, który będzie zawierał renderowany cień.
+### Step 2: Set PSD and PNG File Paths  
+Specify both the input PSD and the output PNG that will contain the rendered drop shadow.
 
 ```java
 String sourceFileName = dataDir + "Shadow.psd";
 String pngExportPath = dataDir + "Shadowchanged1.png";
 ```
 
-### Krok 3: Wczytaj plik PSD z efektami  
-Włącz wczytywanie zasobów efektów, aby móc manipulować efektem cienia.
+### Step 3: Load PSD File with Effects  
+Enable the loading of effect resources so that we can manipulate the drop‑shadow effect.
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
@@ -82,15 +89,15 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
-### Krok 4: Dostęp do efektu cienia  
-Pobierz pierwszy efekt cienia z drugiej warstwy (indeks 1). To tutaj zweryfikujesz lub zmodyfikujesz parametry.
+### Step 4: Access Drop Shadow Effect  
+Grab the first drop‑shadow effect from the second layer (index 1). This is where we’ll verify or modify the parameters.
 
 ```java
 DropShadowEffect shadowEffect = (DropShadowEffect) (im.getLayers()[1].getBlendingOptions().getEffects()[0]);
 ```
 
-### Krok 5: Walidacja właściwości efektu cienia  
-Upewnij się, że właściwości efektu odpowiadają oczekiwaniom przed zapisem. Możesz także dostosować te wartości, aby uzyskać inny wygląd.
+### Step 5: Validate Shadow Effect Properties  
+Make sure the effect’s properties match what you expect before saving. You can also tweak these values to achieve a different look.
 
 ```java
 Assert.areEqual(Color.getBlack(), shadowEffect.getColor());
@@ -103,10 +110,10 @@ Assert.areEqual(0, shadowEffect.getSpread());
 Assert.areEqual(0, shadowEffect.getNoise());
 ```
 
-> **Pro tip:** Dostosuj `setSpread()` lub `setNoise()`, aby uzyskać cień bardziej miękki lub o fakturze.
+> **Pro tip:** Adjust `setSpread()` or `setNoise()` to create softer or more textured shadows.
 
-### Krok 6: Zapisz jako PNG – krok „zapisz PSD jako PNG”  
-Wyeksportuj zmodyfikowany obraz do PNG, zachowując kanał alfa, aby cień prawidłowo się mieszał.
+### Step 6: Save as PNG – the “save PSD as PNG” step  
+Export the modified image to PNG, preserving the alpha channel so the shadow blends correctly.
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -114,43 +121,57 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-W tym momencie pomyślnie **przekonwertowano PSD na PNG** i zastosowano renderingowy cień w jednym workflow.
+At this point you have successfully **converted PSD to PNG**, **exported PNG with alpha**, and applied a rendering drop shadow in a single workflow.
 
-## Typowe problemy i rozwiązania
+## Export PNG with Alpha Transparency
+
+When you need the PNG output to retain its transparent background—especially for UI overlays or web graphics—make sure you use `PngColorType.TruecolorWithAlpha` as shown in the save step above. This guarantees that the drop shadow sits on a transparent canvas rather than a solid background.
+
+## Add Drop Shadow Layer Using Java
+
+If your PSD contains multiple layers that require shadows, simply repeat **Step 4** and **Step 5** inside a loop that iterates over `im.getLayers()`. Each iteration can create or modify a `DropShadowEffect` instance, giving you fine‑grained control over opacity, distance, size, and angle per layer.
+
+## Java Convert Photoshop PNG – Common Use Cases
+
+* **Potoki zasobów webowych** – Konwertuj dostarczone przez projektanta pliki PSD na gotowe do sieci PNG z wbudowanymi cieniami.  
+* **Zasoby aplikacji mobilnych** – Generuj przezroczyste ikony PNG w locie, unikając ręcznego eksportu.  
+* **Przetwarzanie wsadowe** – Automatyzuj konwersję setek plików PSD w zadaniu po stronie serwera.
+
+## Common Issues and Solutions
 
 | Problem | Prawdopodobna przyczyna | Rozwiązanie |
-|---------|--------------------------|-------------|
-| **Cień nie jest widoczny** | `Opacity` ustawione na 0 lub warstwa ukryta | Sprawdź, czy `shadowEffect.getOpacity()` > 0 oraz czy warstwa jest widoczna. |
-| **PNG jest płaski (brak przezroczystości)** | Użyto niewłaściwego `PngColorType` | Użyj `PngColorType.TruecolorWithAlpha`, jak pokazano w przykładzie. |
-| **Wyjątek podczas wczytywania** | Efekty nie zostały załadowane | Upewnij się, że wywołano `loadOptions.setLoadEffectsResource(true)`. |
-| **Nieprawidłowy indeks warstwy** | Struktura PSD różni się od oczekiwanej | Przejrzyj `im.getLayers()` i wybierz właściwy indeks. |
+|-------|--------------|-----|
+| **Cień niewidoczny** | `Opacity` ustawione na 0 lub warstwa jest ukryta | Sprawdź, czy `shadowEffect.getOpacity()` > 0 oraz widoczność warstwy. |
+| **PNG wygląda płasko (brak przezroczystości)** | Użyto niewłaściwego `PngColorType` | Użyj `PngColorType.TruecolorWithAlpha` jak pokazano. |
+| **Wyjątek podczas ładowania** | Efekty nie zostały załadowane | Upewnij się, że wywołano `loadOptions.setLoadEffectsResource(true)`. |
+| **Nieprawidłowy indeks warstwy** | Struktura PSD różni się | Przejrzyj `im.getLayers()` i wybierz właściwy indeks. |
 
-## Najczęściej zadawane pytania
+## Frequently Asked Questions
 
-**P: Czy mogę zastosować cienie do wielu warstw jednocześnie?**  
-O: Tak. Przejdź pętlą po `im.getLayers()` i dodaj lub zmodyfikuj `DropShadowEffect` dla każdej docelowej warstwy.
+**P:** Czy mogę zastosować cienie padające do wielu warstw jednocześnie?  
+**O:** Tak. Przejdź pętlą po `im.getLayers()` i dodaj lub zmodyfikuj `DropShadowEffect` dla każdej docelowej warstwy.
 
-**P: Co kontroluje parametr „Spread”?**  
-O: `Spread` określa, jak gwałtownie cień przechodzi od pełnej nieprzezroczystości do przezroczystości. Wyższa wartość daje ostrzejszą krawędź.
+**P:** Co kontroluje parametr „Spread”?  
+**O:** `Spread` określa, jak gwałtownie cień przechodzi od pełnej nieprzezroczystości do przezroczystości. Wyższa wartość tworzy twardszą krawędź.
 
-**P: Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Photoshopa?**  
-O: Aspose.PSD obsługuje pliki PSD od Photoshop 3.0 aż do najnowszej wersji, obsługując większość typów warstw i efektów.
+**P:** Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Photoshopa?  
+**O:** Aspose.PSD obsługuje pliki PSD od Photoshop 3.0 aż do najnowszej wersji, obsługując większość typów warstw i efektów.
 
-**P: Jak mogę przetestować kod przed zakupem licencji?**  
-O: Pobierz darmową wersję próbną ze [strony pobierania Aspose.PSD](https://releases.aspose.com/psd/java/) i uruchom przykład bez klucza licencyjnego.
+**P:** Jak mogę przetestować kod przed zakupem licencji?  
+**O:** Pobierz darmową wersję próbną ze [strony pobierania Aspose.PSD](https://releases.aspose.com/psd/java/) i uruchom przykład bez klucza licencyjnego.
 
-**P: Gdzie mogę uzyskać pomoc w razie problemów?**  
-O: Zadaj pytanie na [forum Aspose.PSD](https://forum.aspose.com/c/psd/34), gdzie społeczność i inżynierowie Aspose chętnie pomogą.
+**P:** Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?  
+**O:** Zamieść pytanie na [forum Aspose.PSD](https://forum.aspose.com/c/psd/34), gdzie społeczność i inżynierowie Aspose mogą pomóc.
 
-## Zakończenie
+## Conclusion
 
-Teraz wiesz, jak **zapiszyć PSD jako PNG**, **konwertować PSD na PNG** oraz **dodać warstwę cienia** przy użyciu Aspose.PSD for Java. To połączenie umożliwia automatyzację przygotowywania wysokiej jakości obrazów dla sieci, urządzeń mobilnych czy aplikacji desktopowych — bez konieczności otwierania Photoshopa.
+Teraz wiesz, jak **zapiszyć PSD jako PNG**, **wyeksportować PNG z alfą**, **konwertować pliki Photoshop PNG** oraz **zastosować warstwę cienia padającego** przy użyciu Aspose.PSD dla Javy. To połączenie pozwala automatyzować przygotowanie wysokiej jakości obrazów dla aplikacji webowych, mobilnych lub desktopowych — bez konieczności otwierania Photoshopa.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-05  
-**Testowano z:** Aspose.PSD 24.11 for Java  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
