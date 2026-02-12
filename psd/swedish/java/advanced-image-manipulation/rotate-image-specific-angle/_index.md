@@ -1,11 +1,11 @@
 ---
-date: 2025-12-08
-description: Lär dig hur du roterar en bild med en specifik vinkel i Java med Aspose.PSD.
-  Guiden täcker rotera bild i Java, rotera bild i specifik vinkel, bakgrundshantering
-  och mer.
+date: 2026-02-12
+description: Lär dig hur du roterar en bild i en specifik vinkel i Java med Aspose.PSD.
+  Den här guiden visar hur du roterar en bild, roterar en bild i grader och hanterar
+  bakgrundsfärger.
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
-title: Hur man roterar en bild med en specifik vinkel med Aspose.PSD för Java
+title: Hur man roterar en bild på en specifik vinkel med Aspose.PSD för Java
 url: /sv/java/advanced-image-manipulation/rotate-image-specific-angle/
 weight: 20
 ---
@@ -16,39 +16,39 @@ weight: 20
 
 # Hur man roterar en bild i en specifik vinkel med Aspose.PSD för Java
 
-## Introduktion
+## Introduction
 
-Om du behöver **rotera en bild** programmässigt i en Java‑applikation, erbjuder Aspose.PSD för Java ett rent, högpresterande API som tar hand om det tunga arbetet. Oavsett om du bygger en foto‑redigerare, genererar miniatyrbilder eller förbereder resurser för en webbtjänst, är rotation av en bild med exakt gradtal ett vanligt krav. I den här handledningen går vi igenom hela processen – från att läsa in en PSD‑fil till att spara det roterade resultatet – samtidigt som vi lyfter fram bästa praxis som cachning och bakgrundshantering.
+Om du behöver **hur man roterar en bild** programatiskt i en Java‑applikation, erbjuder Aspose.PSD för Java ett rent, högpresterande API som tar hand om det tunga lyftet. Oavsett om du bygger en foto‑editor, genererar miniatyrbilder eller förbereder resurser för en webbtjänst, är rotation av en bild med exakt gradtal ett vanligt krav. I den här handledningen går vi igenom hela processen—från att ladda en PSD‑fil till att spara det roterade resultatet—och lyfter fram bästa praxis såsom cachning och bakgrundshantering.
 
-> **Snabba svar**  
-> - **Vilket bibliotek är bäst för att rotera bilder i Java?** Aspose.PSD för Java.  
-> - **Kan jag rotera med vilken grad som helst?** Ja, `rotate`‑metoden accepterar en `float`‑vinkel (positiv eller negativ).  
-> - **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en licens krävs för produktion.  
-> - **Vilka bildformat stöds?** PSD, JPEG, PNG, TIFF, GIF, BMP och många fler.  
-> - **Hur sätter jag en bakgrundsfärg för tomma områden?** Skicka en `Color`‑instans till `rotate`‑metoden.
+## Quick Answers
+- **Vilket bibliotek är bäst för att rotera bilder i Java?** Aspose.PSD for Java.  
+- **Kan jag rotera med vilken grad som helst?** Ja, `rotate`‑metoden accepterar en `float`‑vinkel (positiv eller negativ).  
+- **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en licens krävs för produktion.  
+- **Vilka bildformat stöds?** PSD, JPEG, PNG, TIFF, GIF, BMP och många fler.  
+- **Hur sätter jag en bakgrundsfärg för tomt utrymme?** Skicka en `Color`‑instans till `rotate`‑metoden.
 
-## Vad är bildrotation i Java?
+## What is Image Rotation in Java?
 
-Bildrotation innebär att vrida pixelmatrisen runt en pivot‑punkt (vanligtvis centrum) med en given vinkel. I Java kan du göra detta manuellt med `Graphics2D`, men Aspose.PSD abstraherar matematiken, hanterar olika färgdjup och bevarar lagerinformation när du arbetar med PSD‑filer.
+Bildrotation innebär att vrida pixelmatrisen runt en pivot‑punkt (vanligtvis centrum) med en given vinkel. I Java kan du uppnå detta manuellt med `Graphics2D`, men Aspose.PSD abstraherar matematiken, hanterar olika färgdjup och bevarar lagerinformation när du arbetar med PSD‑filer.
 
-## Varför använda Aspose.PSD för att rotera bilder?
+## Why Use Aspose.PSD for Rotating Images?
 
 - **Precision:** Rotera med vilken bråkdel av en grad som helst utan kvalitetsförlust.  
 - **Prestanda:** Inbyggd cachning (`image.cacheData()`) snabbar upp stora filer.  
-- **Bakgrundskontroll:** Ange en bakgrundsfärg för att fylla de luckor som rotationen skapar.  
-- **Formatflexibilitet:** Läs in PSD, exportera JPEG, PNG eller något annat stödd format.
+- **Bakgrundskontroll:** Ange en bakgrundsfärg för att fylla de tomrum som rotationen skapar.  
+- **Formatflexibilitet:** Ladda PSD, exportera JPEG, PNG eller något annat stödd format.
 
-## Förutsättningar
+## Prerequisites
 
 Innan vi börjar, se till att du har följande:
 
-1. **Java Development Kit (JDK 8 eller senare)** – en fungerande Java‑IDE eller kommandorads‑miljö.  
-2. **Aspose.PSD för Java** – ladda ner den senaste JAR‑filen från [Aspose.PSD Java‑sidan](https://reference.aspose.com/psd/java/).  
-3. **Exempel‑PSD‑fil** – t.ex. `sample.psd` placerad i en mapp du kan referera till från din kod.
+1. **Java Development Kit (JDK 8 eller senare)** – en fungerande Java‑IDE eller kommandoradsuppsättning.  
+2. **Aspose.PSD for Java** – ladda ner den senaste JAR‑filen från den [Aspose.PSD Java‑sidan](https://reference.aspose.com/psd/java/).  
+3. **Exempel‑PSD‑fil** – t.ex. `sample.psd` placerad i en mapp som du kan referera till från din kod.
 
-## Importera paket
+## Import Packages
 
-Först importerar vi de klasser vi behöver. Dessa import‑satser är desamma oavsett vilken rotationsvinkel du väljer.
+First, import the classes we’ll need. These imports stay the same regardless of the rotation angle you choose.
 
 ```java
 import com.aspose.psd.Color;
@@ -58,28 +58,28 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Steg‑för‑steg‑guide
+## Step‑by‑Step Guide
 
-### Steg 1: Definiera din dokumentkatalog
+### Step 1: Define Your Document Directory
 
-Ange mappen som innehåller käll‑PSD‑filen och där utdata ska skrivas.
+Set the folder that holds the source PSD and where the output will be written.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-> **Proffstips:** Använd en absolut sökväg eller `System.getProperty("user.dir")` för att undvika överraskningar med relativa sökvägar.
+> **Pro tip:** Use an absolute path or `System.getProperty("user.dir")` to avoid relative‑path surprises.
 
-### Steg 2: Ange käll‑ och destinationsfilvägar
+### Step 2: Specify Source and Destination File Paths
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "RotatingImageOnSpecificAngle_out.jpg";
 ```
 
-Du kan ändra `destName` till vilken stödd filändelse som helst (`.png`, `.tiff` osv.) beroende på dina utdata‑behov.
+Du kan ändra `destName` till vilken stödd filändelse som helst (`.png`, `.tiff`, etc.) beroende på dina utskriftsbehov.
 
-### Steg 3: Läs in bilden
+### Step 3: Load the Image
 
 ```java
 RasterImage image = (RasterImage)Image.load(sourceFile);
@@ -87,7 +87,7 @@ RasterImage image = (RasterImage)Image.load(sourceFile);
 
 `Image.load` upptäcker automatiskt filformatet och returnerar ett konkret `RasterImage` för raster‑baserade operationer.
 
-### Steg 4: Cachera bilddata (valfritt men rekommenderat)
+### Step 4: Cache Image Data (Optional but Recommended)
 
 ```java
 if (!image.isCached())
@@ -96,61 +96,73 @@ if (!image.isCached())
 }
 ```
 
-Cachning lagrar bildpixlarna i minnet, vilket snabbar upp efterföljande transformationer – särskilt användbart för stora PSD‑filer.
+Cachning lagrar bildens pixlar i minnet, vilket snabbar upp efterföljande transformationer—särskilt användbart för stora PSD‑filer.
 
-### Steg 5: Rotera bilden
+### Step 5: Rotate the Image
 
 ```java
 image.rotate(20f, true, Color.getRed());
 ```
 
-- **20f** – rotationsvinkeln i grader (float). Ändra detta värde för att rotera med någon vinkel, t.ex. `-45f` för moturs.  
-- **true** – behåll originalförhållandet medan du expanderar duken för att rymma den roterade bilden.  
-- **Color.getRed()** – bakgrundsfärg som fyller de tomma hörnen som rotationen skapar. Byt ut mot `Color.getWhite()` eller någon egen färg vid behov.
+- **20f** – rotationsvinkeln i grader (float). Ändra detta värde för att rotera med vilken vinkel som helst, t.ex. `-45f` för moturs.  
+- **true** – behåll originalförhållandet medan duken expanderas för att rymma den roterade bilden.  
+- **Color.getRed()** – bakgrundsfärg som fyller de tomma hörnen som rotationen skapar. Byt ut mot `Color.getWhite()` eller någon annan färg vid behov.
 
-### Steg 6: Spara resultatet
+#### Rotate Image by Degrees in Java
+
+`rotate`‑metoden accepterar vilket flyttal som helst, så du kan **rotate image by degrees** såsom `30f`, `90f` eller `-15f`. Positiva värden roterar medurs, medan negativa värden roterar moturs.
+
+#### Rotate Image Specific Angle Using Aspose.PSD
+
+Eftersom metoden arbetar med en `float` kan du ange en **rotate image specific angle** som `22.5f` för exakt kontroll i grafisk‑designarbetsflöden.
+
+#### Rotate Image Java Example Summary
+
+Alla stegen ovan demonstrerar ett komplett **rotate image java**‑arbetsflöde—from loading the file to saving the rotated output.
+
+### Step 6: Save the Result
 
 ```java
 image.save(destName, new JpegOptions());
 ```
 
-`JpegOptions` låter dig styra kvalitet, komprimering och andra JPEG‑specifika inställningar. För förlustfri utdata, byt ut mot `PngOptions`.
+`JpegOptions` låter dig kontrollera kvalitet, komprimering och andra JPEG‑specifika inställningar. För förlustfri utskrift, byt ut mot `PngOptions`.
 
-## Vanliga problem och lösningar
+## Common Issues and Solutions
 
-| Problem | Orsak | Lösning |
-|---------|-------|---------|
+| Issue | Cause | Fix |
+|-------|-------|-----|
 | **Tomma hörn efter rotation** | Ingen bakgrundsfärg angiven | Skicka en `Color` (t.ex. `Color.getWhite()`) till `rotate`. |
-| **Out‑of‑memory‑fel på stora PSD‑filer** | Bilden är inte cachad | Anropa `image.cacheData()` innan bearbetning. |
+| **Minnesbristfel på stora PSD‑filer** | Bild inte cachad | Anropa `image.cacheData()` innan bearbetning. |
 | **Fel rotationsriktning** | Förvirring mellan negativ och positiv vinkel | Använd negativa värden för medurs rotation (eller tvärtom beroende på ditt koordinatsystem). |
-| **Ändringar sparas inte** | Glömt att anropa `save` | Säkerställ att `image.save(...)` körs efter rotationen. |
+| **Osparade ändringar** | Glömt att anropa `save` | Säkerställ att `image.save(...)` körs efter rotation. |
 
-## Vanliga frågor
+## Frequently Asked Questions
 
 **Q: Kan jag rotera bilder med transparens med Aspose.PSD för Java?**  
-A: Ja. Biblioteket bevarar alfa‑kanaler; undvik att ange en ogenomskinlig bakgrundsfärg om du vill ha transparenta hörn.
+A: Ja. Biblioteket bevarar alfakanaler; undvik bara att ange en ogenomskinlig bakgrundsfärg om du vill ha transparenta hörn.
 
 **Q: Finns det några begränsningar för vilka bildfilformat som stöds för rotation?**  
-A: Nej. Aspose.PSD stödjer PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF och många fler.
+A: Nej. Aspose.PSD stöder PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF och många fler.
 
 **Q: Kan jag rotera bilder med en negativ vinkel?**  
-A: Absolut. Skicka ett negativt float‑värde till `rotate` (t.ex. `-30f`) för att rotera medurs.
+A: Absolut. Skicka ett negativt flyttal till `rotate` (t.ex. `-30f`) för att rotera medurs.
 
 **Q: Ger Aspose.PSD real‑tids‑förhandsgranskning av bilden under rotation?**  
-A: API:t är enbart server‑sida. För live‑förhandsgranskning integrerar du den roterade bitmapen i ett UI‑ramverk (Swing, JavaFX) och uppdaterar vyn.
+A: API‑et är enbart server‑sida. För live‑förhandsgranskning, integrera den roterade bitmapen i ett UI‑ramverk (Swing, JavaFX) och uppdatera vyn.
 
 **Q: Finns det ett community‑forum för Aspose.PSD där jag kan få hjälp?**  
 A: Ja, besök [Aspose.PSD‑forumet](https://forum.aspose.com/c/psd/34) för att ställa frågor och dela erfarenheter.
 
-## Slutsats
+## Conclusion
 
-Du vet nu **hur du roterar bild**‑filer i en specifik vinkel med Aspose.PSD för Java. Genom att utnyttja cachning, bakgrundsfärgs‑kontroll och flexibla utdataalternativ kan du integrera exakt rotationsfunktionalitet i vilket Java‑baserat bildarbetsflöde som helst.
+Du vet nu **hur man roterar en bild** på en specifik vinkel med Aspose.PSD för Java. Genom att utnyttja cachning, bakgrundsfärgs‑kontroll och flexibla utskriftsalternativ kan du integrera exakt rotationsfunktionalitet i vilket Java‑baserat bildarbetsflöde som helst.
 
 ---
 
-**Senast uppdaterad:** 2025‑12‑08  
-**Testat med:** Aspose.PSD för Java 24.11 (senaste vid skrivtillfället)  
-**Författare:** Aspose  
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -2,10 +2,10 @@
 title: How to Rotate Image on a Specific Angle with Aspose.PSD for Java
 linktitle: How to Rotate Image on a Specific Angle
 second_title: Aspose.PSD Java API
-description: Learn how to rotate image on a specific angle in Java using Aspose.PSD. The guide covers rotate image java, rotate image specific angle, background handling and more.
+description: Learn how to rotate image on a specific angle in Java using Aspose.PSD. This guide shows how to rotate image, rotate image by degrees, and handle background colors.
 weight: 20
 url: /java/advanced-image-manipulation/rotate-image-specific-angle/
-date: 2025-12-08
+date: 2026-02-12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,12 +18,12 @@ date: 2025-12-08
 
 If you need to **how to rotate image** programmatically in a Java application, Aspose.PSD for Java offers a clean, high‑performance API that takes care of the heavy lifting. Whether you’re building a photo‑editor, generating thumbnails, or preparing assets for a web service, rotating an image by an exact degree is a common requirement. In this tutorial we’ll walk through the complete process— from loading a PSD file to saving the rotated result—while highlighting best practices such as caching and background handling.
 
-> **Quick Answers**  
-> - **What library is best for rotating images in Java?** Aspose.PSD for Java.  
-> - **Can I rotate by any degree?** Yes, the `rotate` method accepts a `float` angle (positive or negative).  
-> - **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-> - **What image formats are supported?** PSD, JPEG, PNG, TIFF, GIF, BMP, and many more.  
-> - **How do I set a background color for empty space?** Pass a `Color` instance to the `rotate` method.
+## Quick Answers
+- **What library is best for rotating images in Java?** Aspose.PSD for Java.  
+- **Can I rotate by any degree?** Yes, the `rotate` method accepts a `float` angle (positive or negative).  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **What image formats are supported?** PSD, JPEG, PNG, TIFF, GIF, BMP, and many more.  
+- **How do I set a background color for empty space?** Pass a `Color` instance to the `rotate` method.
 
 ## What is Image Rotation in Java?
 
@@ -106,6 +106,18 @@ image.rotate(20f, true, Color.getRed());
 - **true** – maintain the original aspect ratio while expanding the canvas to fit the rotated image.  
 - **Color.getRed()** – background color that fills the empty corners created by rotation. Replace with `Color.getWhite()` or any custom color as needed.
 
+#### Rotate Image by Degrees in Java
+
+The `rotate` method accepts any floating‑point value, so you can **rotate image by degrees** such as `30f`, `90f`, or `-15f`. Positive values rotate clockwise, while negative values rotate counter‑clockwise.
+
+#### Rotate Image Specific Angle Using Aspose.PSD
+
+Because the method works with a `float`, you can specify a **rotate image specific angle** like `22.5f` for precise control in graphic‑design workflows.
+
+#### Rotate Image Java Example Summary
+
+All the steps above demonstrate a complete **rotate image java** workflow—from loading the file to saving the rotated output.
+
 ### Step 6: Save the Result
 
 ```java
@@ -146,7 +158,7 @@ You now know **how to rotate image** files on a specific angle using Aspose.PSD 
 
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-12  
 **Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
