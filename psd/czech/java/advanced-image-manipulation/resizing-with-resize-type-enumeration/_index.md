@@ -1,35 +1,52 @@
 ---
-title: Změna velikosti pomocí Resize Type Enumeration v Aspose.PSD pro Javu
-linktitle: Změna velikosti pomocí výčtu typu Resize
+date: 2026-02-12
+description: Naučte se, jak změnit velikost obrázku v Javě pomocí Aspose.PSD pro Javu.
+  Podrobný návod krok za krokem s výčtem typů změny velikosti a tipy na převod PSD
+  do JPEG.
+linktitle: Resizing with Resize Type Enumeration
 second_title: Aspose.PSD Java API
-description: Zvládněte změnu velikosti obrázku v Javě s Aspose.PSD. Podrobný průvodce pomocí výčtu typu změny velikosti.
-weight: 18
+title: Změna velikosti obrázku v Javě – Použití výčtu typu změny velikosti v Aspose.PSD
+  pro Javu
 url: /cs/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změna velikosti pomocí Resize Type Enumeration v Aspose.PSD pro Javu
+# Resize Image Java: Použití výčtu typu změny velikosti v Aspose.PSD pro Javu
 
-## Zavedení
+## Úvod
 
-V neustále se vyvíjejícím prostředí vývoje v Javě je efektivní zpracování obrazu klíčovým aspektem, se kterým se vývojáři často potýkají. Aspose.PSD for Java se ukazuje jako výkonné řešení, které poskytuje bezproblémový zážitek pro změnu velikosti obrázků s přidanou výhodou Resize Type Enumeration. V tomto tutoriálu se ponoříme do složitosti změny velikosti obrázků pomocí Aspose.PSD pro Java a rozebereme každý krok, abychom zajistili komplexní pochopení.
+Změna velikosti obrázků je běžnou požadavkem v Java aplikacích a operace **resize image java** se stávají snadnými s Aspose.PSD. V tomto tutoriálu se naučíte, jak **resize image java** pomocí výkonného výčtu Resize Type, a také uvidíte, jak **convert psd to jpeg** po změně velikosti. Ať už vytváříte desktopový nástroj nebo server‑side službu, tyto kroky vám pomohou spolehlivě pracovat s rozměry obrázku a dosáhnout vysoce kvalitní změny velikosti obrázku.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna zpracovává resize image java?** Aspose.PSD for Java.  
+- **Který typ změny velikosti poskytuje nejlepší kvalitu?** `ResizeType.LanczosResample`.  
+- **Mohu po změně velikosti převést PSD na JPEG?** Yes – just save with `JpegOptions`.  
+- **Potřebuji licenci pro produkci?** A valid Aspose.PSD license is required for production use.  
+- **Je tento přístup vhodný pro velké dávky?** Absolutely; the API is optimized for performance.
 
-Než se pustíte do tohoto kurzu, ujistěte se, že máte splněny následující předpoklady:
+## Co je Resize Image Java?
 
-1. Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí Java.
+Termín “resize image java” označuje programatickou změnu pixelových rozměrů obrázku pomocí Java kódu. Aspose.PSD poskytuje stručné API, které abstrahuje nízkoúrovňovou manipulaci s pixely, takže se můžete soustředit na obchodní logiku místo detailů zpracování obrázků.
 
-2. Knihovna Aspose.PSD: Stáhněte a nainstalujte knihovnu Aspose.PSD z[webové stránky](https://releases.aspose.com/psd/java/).
+## Proč použít výčet Resize Type?
 
-3.  Ukázkový soubor PSD: Připravte si ukázkový soubor PSD k experimentování. Můžete použít[sample.psd](Váš adresář dokumentů/sample.psd) pro tento výukový program.
+Výčet Resize Type vám poskytuje detailní kontrolu nad algoritmem přeresamplování, což vám umožňuje vyvážit rychlost a kvalitu. Pro většinu aplikací `LanczosResample` nabízí skvělý kompromis, poskytuje ostré výsledky bez velkého dopadu na výkon. Výběr správného typu změny velikosti je klíčový pro dosažení vysoce kvalitní změny velikosti obrázku.
 
-## Importujte balíčky
+## Požadavky
 
-Chcete-li začít, importujte potřebné balíčky do svého projektu Java:
+Před zahájením tohoto tutoriálu se ujistěte, že máte následující požadavky:
+
+1. **Java Development Environment** – nainstalovaný a nakonfigurovaný JDK 8+.  
+2. **Aspose.PSD Library** – stáhněte a nainstalujte knihovnu Aspose.PSD z [webu](https://releases.aspose.com/psd/java/).  
+3. **Sample PSD File** – připravte ukázkový PSD soubor pro experimentování. Pro tento tutoriál můžete použít soubor [sample.psd](Your Document Directory/sample.psd).
+
+## Import balíčků
+
+Pro začátek importujte potřebné balíčky do vašeho Java projektu:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,60 +55,92 @@ import com.aspose.psd.ResizeType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Krok 1: Načtěte obrázek
+## Krok 1: Načtení obrázku
 
- Začněte načtením existujícího obrázku do instance souboru`RasterImage` třída. Použijte následující fragment kódu:
+Začněte načtením existujícího obrázku do instance třídy `RasterImage`. Použijte následující úryvek kódu:
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Načtěte existující obrázek do instance třídy RasterImage
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
 ```
 
-## Krok 2: Změňte velikost obrázku
+## Krok 2: Změna velikosti obrázku
 
-Nyní změňte velikost načteného obrázku pomocí Resize Type Enumeration. V tomto příkladu používáme metodu Lanczos Resample:
+Nyní změňte velikost načteného obrázku pomocí výčtu Resize Type. V tomto příkladu používáme metodu Lanczos Resample, která je ideální, když **how to resize image** s vysokou kvalitou:
 
 ```java
 image.resize(300, 300, ResizeType.LanczosResample);
 ```
 
-## Krok 3: Uložte obrázek se změněnou velikostí
+## Krok 3: Uložení změněného obrázku
 
-Po změně velikosti uložte obrázek se zadanými rozměry a zvoleným typem změny velikosti. Zde jej uložíme jako soubor JPEG:
+Po změně velikosti uložte obrázek s určenými rozměry a zvoleným typem změny velikosti. Zde také ukazujeme **convert psd to jpeg** uložením výsledku jako JPEG soubor:
 
 ```java
 String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-A tady to máte! Úspěšně jste změnili velikost obrázku pomocí Resize Type Enumeration v Aspose.PSD pro Java.
+Nyní jste provedli kompletní workflow **resize image java**, který vytváří vysoce kvalitní změnu velikosti obrázku a připravený JPEG výstup.
 
-Závěrem lze říci, že Aspose.PSD for Java poskytuje robustní platformu pro manipulaci s obrázky a Resize Type Enumeration přidává tomuto procesu vrstvu flexibility. Ať už pracujete na malém projektu nebo na rozsáhlé aplikaci, zvládnutí těchto kroků vám umožní bezproblémově zvládnout změnu velikosti obrázku.
+## Časté problémy a řešení
 
-## FAQ
+- **Obrázek je po změně rozmazaný** – Vyzkoušejte jiný `ResizeType`, například `Bicubic` nebo `NearestNeighbour`, abyste zjistili, který poskytne nejlepší vizuální výsledek pro váš konkrétní obrázek.  
+- **OutOfMemoryError u velkých PSD souborů** – Zpracovávejte obrázek v menších částech nebo zvýšte velikost haldy JVM (`-Xmx` flag).  
 
-### Q1: Je Aspose.PSD for Java vhodný pro malé i velké projekty?
+## Často kladené otázky
 
-A1: Rozhodně! Aspose.PSD for Java je navržen tak, aby vyhovoval projektům všech velikostí a poskytoval škálovatelnost a efektivitu.
+### Q1: Je Aspose.PSD pro Javu vhodný jak pro malé, tak pro rozsáhlé projekty?
+
+A1: Rozhodně! Aspose.PSD pro Javu je navržen tak, aby vyhovoval projektům všech velikostí, poskytuje škálovatelnost a efektivitu.
 
 ### Q2: Mohu použít jiný typ změny velikosti než Lanczos Resample?
 
-Odpověď 2: Ano, Aspose.PSD pro Java nabízí různé typy změn velikosti, například Nejbližší soused, Bkubický a další. Úplný seznam najdete v dokumentaci.
+A2: Ano, Aspose.PSD pro Javu nabízí různé typy změny velikosti, jako Nearest Neighbour, Bicubic a další. Prozkoumejte dokumentaci pro úplný seznam.
 
-### Q3: Kde najdu další podporu pro Aspose.PSD pro Java?
+### Q3: Kde mohu najít další podporu pro Aspose.PSD pro Javu?
 
- A3: Máte-li jakékoli dotazy nebo pomoc, navštivte stránku[Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+A3: Pro jakékoli dotazy nebo pomoc navštivte [Aspose.PSD fórum](https://forum.aspose.com/c/psd/34).
 
-### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
+### Q4: Je k dispozici bezplatná zkušební verze Aspose.PSD pro Javu?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+A4: Ano, bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
 
-### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD pro Java?
+### Q5: Jak mohu získat dočasnou licenci pro Aspose.PSD pro Javu?
 
- A5: Chcete-li získat dočasnou licenci, navštivte[tento odkaz](https://purchase.aspose.com/temporary-license/).
+A5: Pro získání dočasné licence navštivte [tento odkaz](https://purchase.aspose.com/temporary-license/).
+
+## Často kladené otázky
+
+**Q: Jak programově převést PSD soubor na JPEG bez změny velikosti?**  
+A: Načtěte PSD pomocí `Image.load`, poté zavolejte `image.save("output.jpg", new JpegOptions());`.
+
+**Q: Je možné zachovat původní DPI při změně velikosti?**  
+A: Ano, můžete nastavit vlastnost `Resolution` na objektu `Image` před uložením.
+
+**Q: Mohu řetězit více operací změny velikosti?**  
+A: I když můžete volat `resize` vícekrát, je efektivnější vypočítat konečné rozměry a změnit velikost jednou.
+
+## Další FAQ
+
+**Q: Ovlivňuje výčet Resize Type rychlost zpracování?**  
+A: Ano, jednodušší algoritmy jako `NearestNeighbour` jsou rychlejší, ale mohou produkovat nižší kvalitu výsledků, zatímco `LanczosResample` nabízí vyšší kvalitu za mírný výkonový náklad.
+
+**Q: Mohu měnit velikost obrázků v multi‑threaded prostředí?**  
+A: API Aspose.PSD je thread‑safe pro operace pouze ke čtení. Pro souběžnou změnu velikosti vytvořte pro každý vlákno samostatné instance `Image`.
+
+**Q: Jak zacházet s obrázky s alfa kanály během změny velikosti?**  
+A: Knihovna ve výchozím nastavení zachovává alfa průhlednost. Pokud potřebujete obrázek zploštit, nastavte barvu pozadí před uložením.
+
+---
+
+**Poslední aktualizace:** 2026-02-12  
+**Testováno s:** Aspose.PSD for Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

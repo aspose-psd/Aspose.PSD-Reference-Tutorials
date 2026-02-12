@@ -1,35 +1,52 @@
 ---
-title: Mengubah ukuran dengan Resize Type Enumeration di Aspose.PSD untuk Java
-linktitle: Mengubah ukuran dengan Resize Type Enumeration
-second_title: Asumsikan.PSD Java API
-description: Ubah ukuran gambar master di Java dengan Aspose.PSD. Panduan langkah demi langkah menggunakan Resize Type Enumeration.
-weight: 18
+date: 2026-02-12
+description: Pelajari cara mengubah ukuran gambar Java menggunakan Aspose.PSD untuk
+  Java. Panduan langkah demi langkah dengan Enumerasi Tipe Pengubahan Ukuran, serta
+  tips mengonversi PSD ke JPEG.
+linktitle: Resizing with Resize Type Enumeration
+second_title: Aspose.PSD Java API
+title: Ubah Ukuran Gambar Java - Menggunakan Enumerasi Tipe Resize di Aspose.PSD untuk
+  Java
 url: /id/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengubah ukuran dengan Resize Type Enumeration di Aspose.PSD untuk Java
+# Resize Image Java: Menggunakan Enumerasi Resize Type di Aspose.PSD untuk Java
 
-## Perkenalan
+## Introduction
 
-Dalam lanskap pengembangan Java yang terus berkembang, pemrosesan gambar yang efisien adalah aspek penting yang sering dihadapi oleh pengembang. Aspose.PSD untuk Java muncul sebagai solusi ampuh, memberikan pengalaman mulus untuk mengubah ukuran gambar dengan keuntungan tambahan dari Resize Type Enumeration. Dalam tutorial ini, kita akan mempelajari seluk-beluk mengubah ukuran gambar menggunakan Aspose.PSD untuk Java, menguraikan setiap langkah untuk memastikan pemahaman yang komprehensif.
+Mengubah ukuran gambar adalah kebutuhan umum dalam aplikasi Java, dan operasi **resize image java** menjadi mudah dengan Aspose.PSD. Pada tutorial ini Anda akan belajar cara **resize image java** menggunakan Enumerasi Resize Type yang kuat, serta melihat cara **convert psd to jpeg** setelah melakukan resize. Baik Anda membangun alat desktop maupun layanan sisi‑server, langkah‑langkah ini akan membantu Anda menangani dimensi gambar secara andal dan menghasilkan resize gambar berkualitas tinggi.
 
-## Prasyarat
+## Quick Answers
+- **Perpustakaan apa yang menangani resize image java?** Aspose.PSD untuk Java.  
+- **Resize type mana yang memberikan kualitas terbaik?** `ResizeType.LanczosResample`.  
+- **Bisakah saya mengonversi PSD ke JPEG setelah resize?** Ya – cukup simpan dengan `JpegOptions`.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose.PSD yang valid diperlukan untuk penggunaan produksi.  
+- **Apakah pendekatan ini cocok untuk batch besar?** Tentu saja; API dioptimalkan untuk kinerja.
 
-Sebelum memulai tutorial ini, pastikan Anda memiliki prasyarat berikut:
+## What is Resize Image Java?
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di mesin Anda.
+Istilah “resize image java” mengacu pada mengubah dimensi piksel gambar secara programatis menggunakan kode Java. Aspose.PSD menyediakan API ringkas yang mengabstraksi manipulasi piksel tingkat rendah, memungkinkan Anda fokus pada logika bisnis daripada detail pemrosesan gambar.
 
-2. Perpustakaan Aspose.PSD: Unduh dan instal perpustakaan Aspose.PSD dari[situs web](https://releases.aspose.com/psd/java/).
+## Why Use Resize Type Enumeration?
 
-3.  Contoh File PSD: Siapkan contoh file PSD untuk eksperimen. Anda dapat menggunakan[sample.psd](Direktori Dokumen Anda/sample.psd) untuk tutorial ini.
+Enumerasi Resize Type memberi Anda kontrol halus atas algoritma resampling, memungkinkan Anda menyeimbangkan kecepatan dan kualitas. Untuk kebanyakan aplikasi, `LanczosResample` menawarkan kompromi yang bagus, menghasilkan hasil yang tajam tanpa penalti kinerja yang berat. Memilih resize type yang tepat adalah kunci untuk mencapai resize gambar berkualitas tinggi.
 
-## Paket Impor
+## Prerequisites
 
-Untuk memulai, impor paket yang diperlukan ke proyek Java Anda:
+Sebelum memulai tutorial ini, pastikan Anda telah menyiapkan prasyarat berikut:
+
+1. **Java Development Environment** – JDK 8+ terpasang dan terkonfigurasi.  
+2. **Aspose.PSD Library** – unduh dan instal perpustakaan Aspose.PSD dari [situs web](https://releases.aspose.com/psd/java/).  
+3. **Sample PSD File** – siapkan file PSD contoh untuk percobaan. Anda dapat menggunakan file [sample.psd](Your Document Directory/sample.psd) untuk tutorial ini.
+
+## Import Packages
+
+Untuk memulai, impor paket yang diperlukan ke dalam proyek Java Anda:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,60 +55,92 @@ import com.aspose.psd.ResizeType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Langkah 1: Muat Gambar
+## Step 1: Load the Image
 
- Mulailah dengan memuat gambar yang ada ke dalam instance`RasterImage` kelas. Gunakan cuplikan kode berikut:
+Mulailah dengan memuat gambar yang ada ke dalam instance kelas `RasterImage`. Gunakan cuplikan kode berikut:
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Muat gambar yang ada ke dalam instance kelas RasterImage
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
 ```
 
-## Langkah 2: Ubah ukuran Gambar
+## Step 2: Resize the Image
 
-Sekarang, ubah ukuran gambar yang dimuat menggunakan Resize Type Enumeration. Dalam contoh ini, kami menggunakan metode Lanczos Resample:
+Sekarang, ubah ukuran gambar yang dimuat menggunakan Enumerasi Resize Type. Pada contoh ini, kami menggunakan metode Lanczos Resample, yang ideal ketika Anda **how to resize image** dengan kualitas tinggi:
 
 ```java
 image.resize(300, 300, ResizeType.LanczosResample);
 ```
 
-## Langkah 3: Simpan Gambar yang Diubah Ukurannya
+## Step 3: Save the Resized Image
 
-Setelah diubah ukurannya, simpan gambar dengan dimensi yang ditentukan dan jenis pengubahan ukuran yang dipilih. Di sini, kami menyimpannya sebagai file JPEG:
+Setelah melakukan resize, simpan gambar dengan dimensi yang ditentukan dan resize type yang dipilih. Di sini, kami juga memperlihatkan **convert psd to jpeg** dengan menyimpan hasil sebagai file JPEG:
 
 ```java
 String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-Dan itu dia! Anda telah berhasil mengubah ukuran gambar menggunakan Resize Type Enumeration di Aspose.PSD untuk Java.
+Anda kini telah menyelesaikan alur kerja **resize image java** lengkap yang menghasilkan resize gambar berkualitas tinggi dan output JPEG siap pakai.
 
-Kesimpulannya, Aspose.PSD untuk Java menyediakan platform yang kuat untuk manipulasi gambar, dan Resize Type Enumeration menambahkan lapisan fleksibilitas pada proses ini. Baik Anda sedang mengerjakan proyek kecil atau aplikasi berskala besar, menguasai langkah-langkah ini akan memberdayakan Anda untuk menangani pengubahan ukuran gambar dengan lancar.
+## Common Issues and Solutions
 
-## FAQ
+- **Gambar terlihat buram setelah resize** – Coba `ResizeType` lain seperti `Bicubic` atau `NearestNeighbour` untuk melihat mana yang memberikan hasil visual terbaik untuk gambar Anda.  
+- **OutOfMemoryError pada file PSD besar** – Proses gambar dalam potongan yang lebih kecil atau tingkatkan ukuran heap JVM (`-Xmx` flag).  
 
-### Q1: Apakah Aspose.PSD untuk Java cocok untuk proyek skala kecil dan besar?
+## FAQ's
 
-A1: Tentu saja! Aspose.PSD untuk Java dirancang untuk memenuhi proyek dari semua ukuran, memberikan skalabilitas dan efisiensi.
+### Q1: Apakah Aspose.PSD untuk Java cocok untuk proyek kecil maupun skala besar?
 
-### Q2: Dapatkah saya menggunakan jenis pengubahan ukuran selain Lanczos Resample?
+A1: Tentu saja! Aspose.PSD untuk Java dirancang untuk melayani proyek dengan segala ukuran, menyediakan skalabilitas dan efisiensi.
 
-A2: Ya, Aspose.PSD untuk Java menawarkan berbagai tipe pengubahan ukuran, seperti Nearest Neighbor, Bicubic, dan banyak lagi. Jelajahi dokumentasi untuk daftar lengkap.
+### Q2: Bisakah saya menggunakan resize type selain Lanczos Resample?
+
+A2: Ya, Aspose.PSD untuk Java menawarkan berbagai resize type, seperti Nearest Neighbour, Bicubic, dan lainnya. Jelajahi dokumentasi untuk daftar lengkapnya.
 
 ### Q3: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.PSD untuk Java?
 
- A3: Untuk pertanyaan atau bantuan apa pun, kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+A3: Untuk pertanyaan atau bantuan, kunjungi [forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
-### Q4: Apakah tersedia uji coba gratis untuk Aspose.PSD untuk Java?
+### Q4: Apakah ada trial gratis untuk Aspose.PSD untuk Java?
 
- A4: Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+A4: Ya, Anda dapat mengakses versi trial gratis [di sini](https://releases.aspose.com/).
 
-### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.PSD untuk Java?
+### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD untuk Java?
 
- A5: Untuk mendapatkan lisensi sementara, kunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).
+A5: Untuk memperoleh lisensi sementara, kunjungi [tautan ini](https://purchase.aspose.com/temporary-license/).
+
+## Frequently Asked Questions
+
+**Q: Bagaimana cara mengonversi file PSD ke JPEG secara programatis tanpa melakukan resize?**  
+A: Muat PSD dengan `Image.load`, lalu panggil `image.save("output.jpg", new JpegOptions());`.
+
+**Q: Apakah memungkinkan mempertahankan DPI asli saat melakukan resize?**  
+A: Ya, Anda dapat mengatur properti `Resolution` pada objek `Image` sebelum menyimpan.
+
+**Q: Bisakah saya menumpuk beberapa operasi resize?**  
+A: Meskipun Anda dapat memanggil `resize` berkali‑kali, lebih efisien menghitung dimensi akhir dan melakukan resize sekali saja.
+
+## Additional FAQ
+
+**Q: Apakah Enumerasi Resize Type memengaruhi kecepatan pemrosesan?**  
+A: Ya, algoritma yang lebih sederhana seperti `NearestNeighbour` lebih cepat tetapi mungkin menghasilkan kualitas lebih rendah, sedangkan `LanczosResample` menawarkan kualitas lebih tinggi dengan biaya kinerja yang wajar.
+
+**Q: Bisakah saya melakukan resize gambar dalam lingkungan multi‑thread?**  
+A: API Aspose.PSD bersifat thread‑safe untuk operasi baca‑saja. Untuk resize bersamaan, buat instance `Image` terpisah per thread.
+
+**Q: Bagaimana cara menangani gambar dengan saluran alfa saat melakukan resize?**  
+A: Perpustakaan secara default mempertahankan transparansi alfa. Jika Anda perlu meratakan gambar, atur warna latar belakang sebelum menyimpan.
+
+---
+
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.PSD untuk Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
