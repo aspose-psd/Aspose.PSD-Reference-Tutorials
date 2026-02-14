@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
-description: Poznaj sposób dodawania wewnętrznego cienia w pliku PSD przy użyciu Aspose.PSD
+date: 2026-02-14
+description: Poznaj sposób dodawania wewnętrznego cienia w PSD przy użyciu Aspose.PSD
   dla Javy oraz programowego stosowania efektu warstwy PSD w tym samouczku krok po
   kroku, wraz z poradami i najlepszymi praktykami.
 linktitle: Add Inner Shadow PSD Layer Effect in Java
 second_title: Aspose.PSD Java API
-title: Dodaj efekt wewnętrznego cienia warstwy PSD w Javie
+title: Jak dodać efekt wewnętrznego cienia warstwy PSD w Javie
 url: /pl/java/advanced-psd-layer-features-effects/add-inner-shadow-layer-effect-psd/
 weight: 12
 ---
@@ -14,32 +14,34 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj wewnętrzny cień PSD w Javie
+# Jak dodać efekt warstwy wewnętrznego cienia PSD w Javie
 
-## Wprowadzenie
-Jeśli potrzebujesz **add inner shadow psd** programowo, trafiłeś we właściwe miejsce. W tym samouczku pokażemy, jak używać Aspose.PSD for Java do **apply PSD layer effect** — konkretnie wewnętrznego cienia — w dowolnym dokumencie Photoshop. Niezależnie od tego, czy tworzysz narzędzie do przetwarzania wsadowego, zautomatyzowaną linię projektową, czy po prostu eksperymentujesz z efektami obrazu, poniższe kroki zapewnią solidne, gotowe do produkcji rozwiązanie.
+## Introduction
+Jeśli potrzebujesz **programowo dodać wewnętrzny cień PSD**, trafiłeś we właściwe miejsce. W tym przewodniku pokażemy, **jak dodać wewnętrzny cień** do dowolnego dokumentu Photoshop przy użyciu Aspose.PSD for Java. Niezależnie od tego, czy tworzysz narzędzie do przetwarzania wsadowego, zautomatyzowaną linię projektowania, czy po prostu eksperymentujesz z efektami obrazu, poniższe kroki zapewnią solidne, gotowe do produkcji rozwiązanie, które możesz zintegrować ze swoimi aplikacjami Java.
 
-## Szybkie odpowiedzi
+## Quick Answers
 - **Jakiej biblioteki potrzebuję?** Aspose.PSD for Java.  
 - **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowej konfiguracji.  
-- **Czy potrzebuję zainstalowanego Photoshopa?** Nie, biblioteka działa niezależnie od Photoshopa.  
+- **Czy muszę mieć zainstalowany Photoshop?** Nie, biblioteka działa niezależnie od Photoshopa.  
 - **Czy mogę zmienić kolor cienia?** Tak – metoda `setColor` przyjmuje dowolny `Color`.  
 - **Czy wymagana jest licencja do produkcji?** Wymagana jest licencja komercyjna; dostępna jest darmowa wersja próbna.
 
-## Co to jest „add inner shadow psd”?
-Dodanie wewnętrznego cienia do pliku PSD oznacza stworzenie subtelnego, wciętego efektu cieniowania, który daje wrażenie głębi wewnątrz warstwy. Efekt ten jest powszechnie używany, aby elementy UI, ikony lub tekst wyróżniały się bez dodawania zewnętrznego poświaty.
+## What is “add inner shadow psd”?
+Dodanie wewnętrznego cienia do pliku PSD oznacza stworzenie subtelnego, wciętego efektu cieniowania, który daje wrażenie głębi wewnątrz warstwy. Efekt ten jest często używany, aby elementy UI, ikony lub tekst wyróżniały się bez dodawania zewnętrznego poświaty.
 
-## Dlaczego stosować efekt warstwy PSD w Javie?
-Użycie Javy do **apply PSD layer effect** pozwala automatyzować powtarzalne zadania projektowe, integrować przetwarzanie obrazów z usługami backendowymi oraz generować zasoby w locie bez ręcznej pracy w Photoshopie. Aspose.PSD dostarcza czyste, obiektowo‑zorientowane API, które abstrahuje złożoność formatu pliku PSD.
+## Why apply PSD layer effect with Java?
+Użycie Javy do **zastosowania efektu warstwy PSD** pozwala automatyzować powtarzalne zadania projektowe, integrować przetwarzanie obrazu z usługami backendowymi i generować zasoby w locie bez ręcznej pracy w Photoshopie. Aspose.PSD oferuje czyste, obiektowo‑zorientowane API, które abstrahuje złożoność formatu PSD.
 
 ## Prerequisites
-1. **Java Development Kit (JDK 11 or higher)** – pobierz ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.PSD for Java** – uzyskaj najnowszy JAR z [strony wydań Aspose](https://releases.aspose.com/psd/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse lub NetBeans (dowolna będzie odpowiednia).  
-4. **Basic Java knowledge** – powinieneś być pewny w pracy z klasami, obiektami i obsługą wyjątków.  
-5. **Sample PSD file** – prosty plik PSD z co najmniej jedną warstwą do przetestowania efektu wewnętrznego cienia.
+Przed zanurzeniem się w kod, upewnij się, że masz:
 
-## Import wymaganych pakietów
+1. **Java Development Kit (JDK 11 lub wyższy)** – pobierz ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java** – pobierz najnowszy JAR ze [strony wydań Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub NetBeans (dowolne).  
+4. **Podstawową znajomość Javy** – powinieneś być pewny w pracy z klasami, obiektami i obsługą wyjątków.  
+5. **Przykładowy plik PSD** – prosty PSD z co najmniej jedną warstwą do przetestowania efektu wewnętrznego cienia.
+
+## Import Required Packages
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
@@ -51,10 +53,10 @@ import com.aspose.psd.imageoptions.PsdOptions;
 ```
 Te importy dają dostęp do podstawowych klas potrzebnych do ładowania PSD, manipulacji warstwami i konfigurowania efektów cienia.
 
-## Jak dodać wewnętrzny cień PSD w pliku PSD przy użyciu Javy
+## How to add inner shadow psd in a PSD file using Java
 Poniżej znajduje się przewodnik krok po kroku. Każdy krok zawiera krótkie wyjaśnienie oraz dokładny kod, który należy skopiować.
 
-### Krok 1: Zdefiniuj katalogi źródłowy i docelowy
+### Step 1: Define source and destination directories
 ```java
 String sourceDir = "Your Source Directory";
 String outputDir = "Your Document Directory";
@@ -63,22 +65,22 @@ String destName = outputDir + "sample_out.psd";
 ```
 Zastąp ścieżki zastępcze rzeczywistymi lokalizacjami na swoim komputerze.
 
-### Krok 2: Załaduj plik PSD z zasobami efektów
+### Step 2: Load the PSD file with effect resources
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setLoadEffectsResource(true);
 PsdImage image = (PsdImage) Image.load(sourceFile, loadOptions);
 ```
-`setLoadEffectsResource(true)` zapewnia, że wszystkie istniejące efekty warstw zostaną załadowane, co pozwala nam je modyfikować.
+`setLoadEffectsResource(true)` zapewnia, że wszystkie istniejące efekty warstwy zostaną załadowane, co umożliwia ich modyfikację.
 
-### Krok 3: Uzyskaj dostęp do warstwy docelowej
+### Step 3: Access the target layer
 ```java
 try {
     Layer layer = image.getLayers()[image.getLayers().length - 1];
 ```
 Tutaj pobieramy **ostatnią warstwę** w dokumencie, która często jest tą, którą chcesz edytować. Dostosuj indeks, jeśli potrzebujesz innej warstwy.
 
-### Krok 4: Skonfiguruj efekt wewnętrznego cienia
+### Step 4: Configure the inner shadow effect
 ```java
     IShadowEffect shadowEffect = (IShadowEffect) layer.getBlendingOptions().getEffects()[0];
     shadowEffect.setColor(Color.getGreen());
@@ -90,19 +92,19 @@ Tutaj pobieramy **ostatnią warstwę** w dokumencie, która często jest tą, kt
     shadowEffect.setSpread(50);
     shadowEffect.setNoise(5);
 ```
-Ten blok **applies the inner shadow** i dostosowuje jego wygląd:
+Ten blok **nakłada wewnętrzny cień** i dostosowuje jego wygląd:
 - **Color** – ustawiony na zielony (zmień na dowolny `Color`, który preferujesz).  
 - **Opacity** – 50 % przezroczystości (`128` z `255`).  
-- **Distance, Size, Angle** – kontrolują offset i rozprzestrzenianie cienia.  
+- **Distance, Size, Angle** – kontrolują przesunięcie i rozprzestrzenianie się cienia.  
 - **Spread & Noise** – dodają artystyczną wariację.
 
-### Krok 5: Zapisz zmodyfikowany PSD
+### Step 5: Save the modified PSD
 ```java
     image.save(destName, new PsdOptions(image));
 ```
 Plik `sample_out.psd` zawiera teraz efekt wewnętrznego cienia.
 
-### Krok 6: Oczyść zasoby
+### Step 6: Clean up resources
 ```java
 } finally {
     image.dispose();
@@ -110,36 +112,41 @@ Plik `sample_out.psd` zawiera teraz efekt wewnętrznego cienia.
 ```
 Zwolnienie obiektu `image` zwalnia pamięć i zapobiega wyciekom, co jest szczególnie ważne przy przetwarzaniu wielu plików w pętli.
 
-## Typowe problemy i rozwiązania
-| Problem | Dlaczego się pojawia | Rozwiązanie |
-|---------|----------------------|-------------|
-| **`ArrayIndexOutOfBoundsException` on `getEffects()[0]`** | Warstwa docelowa nie ma jeszcze dołączonych efektów. | Dodaj nowy `IShadowEffect` za pomocą `layer.getBlendingOptions().addEffect(new ShadowEffect())` przed rzutowaniem. |
-| **Shadow color not changing** | Warstwa już ma inny typ efektu, który nadpisuje cień. | Upewnij się, że edytujesz właściwy indeks efektu lub wyczyść istniejące efekty przy pomocy `layer.getBlendingOptions().clearEffects()`. |
-| **File not saved** | Katalog docelowy nie istnieje lub nie masz uprawnień do zapisu. | Utwórz katalog wcześniej (`new File(outputDir).mkdirs();`) lub wybierz ścieżkę z prawem zapisu. |
+## Common Use Cases
+- **Automatyczne pipeline’y brandingowe** – dodawaj spójne wewnętrzne cienie do logo przed publikacją.  
+- **Dynamiczne generowanie zasobów UI** – twórz stany przycisków z głębią w locie dla aplikacji webowych lub mobilnych.  
+- **Przetwarzanie wsadowe starszych bibliotek PSD** – modernizuj starsze projekty nowoczesnym cieniowaniem bez otwierania Photoshopa.
 
-## Najczęściej zadawane pytania
+## Common Issues and Solutions
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **`ArrayIndexOutOfBoundsException` on `getEffects()[0]`** | Docelowa warstwa nie ma jeszcze żadnych efektów. | Dodaj nowy `IShadowEffect` poprzez `layer.getBlendingOptions().addEffect(new ShadowEffect())` przed rzutowaniem. |
+| **Shadow color not changing** | Warstwa ma już inny typ efektu, który nadpisuje cień. | Upewnij się, że edytujesz właściwy indeks efektu lub wyczyść istniejące efekty za pomocą `layer.getBlendingOptions().clearEffects()`. |
+| **File not saved** | Katalog docelowy nie istnieje lub nie masz uprawnień do zapisu. | Utwórz katalog wcześniej (`new File(outputDir).mkdirs();`) lub wybierz ścieżkę z prawami zapisu. |
+
+## Frequently Asked Questions
 
 **Q: What is Aspose.PSD?**  
-A: Aspose.PSD is a Java library for working with PSD files, allowing developers to manipulate layer effects, masks, and image properties programmatically.
+A: Aspose.PSD jest biblioteką Java do pracy z plikami PSD, umożliwiającą programistom manipulację efektami warstw, maskami i właściwościami obrazu.
 
 **Q: Do I need Photoshop to use Aspose.PSD?**  
-A, you do not need Photoshop to use Aspose.PSD. The library functions independently for PSD file manipulation.
+A: Nie, nie potrzebujesz Photoshopa, aby korzystać z Aspose.PSD. Biblioteka działa niezależnie przy manipulacji plikami PSD.
 
 **Q: Can I apply multiple effects to the same layer?**  
-A: Absolutely! You can apply multiple effects by accessing each effect type similarly to how we accessed the inner shadow effect.
+A: Oczywiście! Możesz zastosować wiele efektów, uzyskując dostęp do każdego typu efektu w podobny sposób, jak przy wewnętrznym cieniu.
 
 **Q: Is Aspose.PSD free?**  
-A: Aspose.PSD is a commercial product; however, you can use a free trial available through Aspose.
+A: Aspose.PSD jest produktem komercyjnym; jednak dostępna jest darmowa wersja próbna oferowana przez Aspose.
 
 **Q: Where can I find more documentation?**  
-A: You can find comprehensive documentation for Aspose.PSD [here](https://reference.aspose.com/psd/java/).
+A: Kompleksową dokumentację Aspose.PSD znajdziesz [tutaj](https://reference.aspose.com/psd/java/).
 
-## Zakończenie
-Widziałeś już, jak **add inner shadow psd** i **apply PSD layer effect** przy użyciu Aspose.PSD for Java. To podejście pozwala automatyzować zaawansowane korekty projektowe, integrować je z usługami backendowymi lub budować przetwarzacze wsadowe dla dużych bibliotek obrazów. Śmiało eksperymentuj z innymi typami efektów — cieniami zewnętrznymi, poświatami, wypukłościami — aby rozbudować swój zestaw narzędzi.
+## Conclusion
+Widzisz teraz, jak **dodać wewnętrzny cień PSD** i **zastosować efekt warstwy PSD** przy użyciu Aspose.PSD for Java. To podejście pozwala automatyzować zaawansowane korekty projektowe, integrować je z usługami backendowymi lub budować przetwarzacze wsadowe dla dużych bibliotek obrazów. Śmiało eksperymentuj z innymi typami efektów — cieniami zewnętrznymi, poświatami, fazami — aby rozbudować swój zestaw narzędzi.
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-14  
 **Tested With:** Aspose.PSD 24.12 for Java  
 **Author:** Aspose  
 
