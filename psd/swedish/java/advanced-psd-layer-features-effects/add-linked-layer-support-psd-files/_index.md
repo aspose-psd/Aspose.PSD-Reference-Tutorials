@@ -1,8 +1,8 @@
 ---
-date: 2025-12-09
+date: 2026-02-14
 description: Lär dig hur du länkar lager i PSD‑filer med Aspose.PSD för Java. Denna
-  steg‑för‑steg‑handledning visar hur du hanterar PSD‑lager, avlänkar lager i PSD
-  och behärskar Aspose.PSD‑handledningen.
+  steg‑för‑steg‑handledning visar hur du lägger till stöd för länkade lager, batch‑bearbetar
+  PSD‑filer och effektivt avlänkar lager i PSD.
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Hur man länkar lager i PSD-filer med Java
@@ -14,35 +14,35 @@ weight: 19
 {{< blocks/products/pf/main-container >}}  
 {{< blocks/products/pf/tutorial-page-section >}}  
 
-# How to Link Layers in PSD Files Using Java  
+# Hur man länkar lager i PSD-filer med Java  
 
-## Introduction  
-Adobe Photoshop’s `.PSD` format is the industry standard for layered graphics, and many developers need to manipulate those layers programmatically. One of the most powerful techniques is **linking layers**, which lets you move or edit a group of layers as a single unit while keeping each layer’s individual properties intact. In this **Aspose.PSD tutorial** we’ll walk through **how to link layers** in a PSD file using Java, and we’ll also show you how to **manage PSD layers**, **unlink layers PSD**, and save the changes back to disk. Whether you’re building a design‑automation pipeline or extending a desktop app, these steps will give you full control over layer relationships.  
+## Introduktion  
+Adobe Photoshops `.PSD`‑format är branschstandarden för lagerbaserad grafik, och många utvecklare behöver manipulera dessa lager programatiskt. En av de mest kraftfulla teknikerna är **linking layers**, vilket låter dig flytta eller redigera en grupp lager som en enhet samtidigt som varje lagers individuella egenskaper bevaras. I den här **Aspose.PSD‑handledningen** går vi igenom **how to link layers** i en PSD‑fil med Java, och vi visar också hur du **manage PSD layers**, **unlink layers PSD**, och sparar ändringarna tillbaka till disk. Oavsett om du bygger en design‑automationspipeline eller utökar en skrivbordsapp, ger dessa steg dig full kontroll över lagerrelationer.  
 
-## Quick Answers  
-- **What does “link layers” mean?** Det skapar en logisk grupp så att lager rör sig tillsammans utan att bli plattade.  
-- **Which library handles this?** Aspose.PSD for Java tillhandahåller ett `LinkedLayersManager`‑API.  
-- **Do I need a license?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
-- **Can I unlink later?** Ja—använd `unlinkLayer` eller `unlinkLayers`‑metoderna.  
-- **Supported Java versions?** Java 8 eller högre.  
+## Snabba svar  
+- **Vad betyder “link layers”?** Det skapar en logisk grupp så att lager flyttas tillsammans utan att bli plattade.  
+- **Vilket bibliotek hanterar detta?** Aspose.PSD för Java tillhandahåller ett `LinkedLayersManager`‑API.  
+- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Kan jag ta bort länken senare?** Ja—använd `unlinkLayer` eller `unlinkLayers`‑metoderna.  
+- **Stödda Java‑versioner?** Java 8 eller högre.  
 
-## What is Linking Layers in a PSD File?  
-Linking layers är en Photoshop‑funktion som binder flera lager ihop så att de beter sig som en enhet när de transformeras, flyttas eller stylas. Den underliggande datan förblir separat, vilket betyder att du senare kan **unlink layers PSD** och redigera varje lager individuellt.  
+## Vad är länka lager i en PSD‑fil?  
+Länka lager är en Photoshop‑funktion som binder flera lager ihop så att de beter sig som en enda enhet när de transformeras, flyttas eller stylas. Den underliggande datan förblir separerad, vilket betyder att du senare kan **unlink layers PSD** och redigera varje lager oberoende.  
 
-## Why Use Aspose.PSD for Java to Manage PSD Layers?  
-- **Full‑featured API** – Tillgång till varje Photoshop‑konstruktion utan att starta Photoshop själv.  
-- **Cross‑platform** – Fungerar på alla OS som stödjer Java.  
-- **No UI dependency** – Idealiskt för server‑sidig batch‑behandling eller CI‑pipelines.  
+## Varför använda Aspose.PSD för Java för att hantera PSD‑lager?  
+- **Fullt utrustat API** – Åtkomst till alla Photoshop‑konstruktioner utan att starta Photoshop själv.  
+- **Plattformsoberoende** – Fungerar på alla OS som stödjer Java.  
+- **Ingen UI‑beroende** – Perfekt för server‑sidig batch‑bearbetning eller CI‑pipelines.  
 
-## Prerequisites  
-Innan vi dyker in i koden, se till att du har:  
+## Förutsättningar  
+Innan vi dyker ner i koden, se till att du har:  
 
 1. **Java Development Kit (JDK) 8+** – Senaste JDK rekommenderas.  
-2. **Aspose.PSD for Java** – Ladda ner från [Aspose release page](https://releases.aspose.com/psd/java/).  
-3. **IDE or editor** – Eclipse, IntelliJ IDEA, VS Code, etc.  
-4. **Sample PSD file** – Skapa en i Photoshop eller hämta ett gratis exempel för testning.  
+2. **Aspose.PSD för Java** – Ladda ner från den [Aspose release‑sidan](https://releases.aspose.com/psd/java/).  
+3. **IDE eller redigerare** – Eclipse, IntelliJ IDEA, VS Code osv.  
+4. **Exempel‑PSD‑fil** – Skapa en i Photoshop eller hämta ett gratis exempel för testning.  
 
-## Import Packages  
+## Importera paket  
 Innan du kodar, importera de nödvändiga Aspose.PSD‑klasserna:  
 
 ```java
@@ -51,19 +51,21 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```  
 
-## Step‑by‑Step Guide  
+Dessa imports ger dig åtkomst till kärnbildhantering, PSD‑specifika funktioner och lagermanipuleringsmetoder.  
 
-### Step 1: Load Your PSD File  
-Först, öppna den PSD du vill arbeta med.  
+## Steg‑för‑steg‑guide  
+
+### Steg 1: Ladda din PSD‑fil  
+Först, öppna PSD‑filen du vill arbeta med.  
 
 ```java
 String dataDir = "Your Document Directory"; // specify your document directory
 PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");
 ```  
 
-Se till att sökvägen pekar på en befintlig fil; annars kommer `Image.load()` att kasta ett undantag.  
+Se till att sökvägen pekar på en befintlig fil; annars kastar `Image.load()` ett undantag.  
 
-### Step 2: Retrieve All Layers (Manage PSD Layers)  
+### Steg 2: Hämta alla lager (hantera PSD‑lager)  
 Hämta varje lager så att du kan bestämma vilka som ska grupperas.  
 
 ```java
@@ -72,8 +74,8 @@ Layer[] layers = psd.getLayers();
 
 `layers`‑arrayen innehåller nu hela lagerstacken i dokumentet.  
 
-### Step 3: Link the Layers  
-Skapa en länkad‑lagergrupp med hjälp av manager‑API:t.  
+### Steg 3: Länka lagren  
+Skapa en länkad lagergrupp med hjälp av manager‑API:t.  
 
 ```java
 short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
@@ -81,8 +83,8 @@ short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
 
 Detta anrop returnerar ett **group ID** som unikt identifierar den nya länkgruppen.  
 
-### Step 4: Verify the Link Group ID  
-Dubbelkolla att det returnerade ID:t matchar det som lagrats för det första lagret.  
+### Steg 4: Verifiera länkgruppens ID  
+Dubbelkolla att det returnerade ID:t matchar det som lagras för det första lagret.  
 
 ```java
 short linkGroupId = psd.getLinkedLayersManager().getLinkGroupId(layers[0]);
@@ -91,10 +93,10 @@ if (layersLinkGroupId != linkGroupId) {
 }
 ```  
 
-Om ID:n skiljer sig åt har något gått fel under länkningen.  
+Om ID:n skiljer sig åt har något gått fel under länkningsprocessen.  
 
-### Step 5: Retrieve and Unlink Layers (Unlink Layers PSD)  
-När du behöver bryta associationen, hämta de länkade lagren via grupp‑ID och avlänka dem ett i taget.  
+### Steg 5: Hämta och ta bort länken från lager (Unlink Layers PSD)  
+När du behöver bryta associationen, hämta de länkade lagren via grupp‑ID och ta bort länken lager för lager.  
 
 ```java
 Layer[] linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
@@ -105,8 +107,8 @@ for (Layer linkedLayer : linkedLayers) {
 
 Varje iteration tar bort länken samtidigt som lagrets ursprungliga data bevaras.  
 
-### Step 6: Validate the Unlink Process  
-Bekräfta att inga lager finns kvar i gruppen.  
+### Steg 6: Validera avlänkningsprocessen  
+Bekräfta att inga lager längre finns i gruppen.  
 
 ```java
 linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
@@ -117,7 +119,7 @@ if (linkedLayers != null) {
 
 Om `linkedLayers` fortfarande är fylld har avlänkningsoperationen misslyckats.  
 
-### Step 7: Save the Updated PSD  
+### Steg 7: Spara den uppdaterade PSD‑filen  
 Skriv det modifierade dokumentet tillbaka till disk.  
 
 ```java
@@ -126,7 +128,7 @@ psd.save(dataDir + "LinkedLayerexample_output.psd");
 
 Sparandet bevarar alla ändringar, inklusive den nya länkgruppen eller dess borttagning.  
 
-### Step 8: Dispose of the PSD Object  
+### Steg 8: Frigör PSD‑objektet  
 Frigör inhemska resurser för att undvika minnesläckor.  
 
 ```java
@@ -137,38 +139,41 @@ finally {
 
 Att anropa `dispose()` är en bästa praxis, särskilt när du bearbetar många filer i en loop.  
 
-## Common Pitfalls & Tips  
+## Hur man lägger till stöd för länkade lager i batch‑process PSD‑arbetsflöden  
+Om du behöver tillämpa samma länkningslogik på dussintals eller hundratals filer, omslut stegen ovan i en enkel loop som itererar över en katalog med PSD‑filer. Eftersom **Aspose.PSD** inte kräver ett UI kan du köra denna kod på en huvudlös server, vilket gör den perfekt för **batch process psd**‑scenarier. Kom bara ihåg att skapa en ny `PsdImage`‑instans för varje fil för att undvika trådsäkerhetsproblem.  
 
-- **Incorrect file path** – Använd alltid absoluta sökvägar eller verifiera arbetskatalogen.  
-- **Missing license** – Provanvändning fungerar för utvärdering, men en full licens tar bort vattenmärken.  
-- **Linking only a subset** – Om du bara behöver en del av lagerstacken, skapa en ny `Layer[]` med önskade lager innan du anropar `linkLayers`.  
-- **Thread safety** – `PsdImage`‑instanser är inte trådsäkra; skapa en separat instans per tråd.  
+## Vanliga fallgropar & tips  
 
-## Conclusion  
-Du har nu ett komplett, produktionsklart arbetsflöde för **how to link layers** i PSD‑filer med Aspose.PSD för Java. Genom att behärska dessa API:er kan du automatisera komplexa designuppgifter, bygga anpassade redigerare eller integrera Photoshop‑liknande lagerhantering i vilken Java‑applikation som helst. Fortsätt experimentera med andra funktioner som lager‑effekter, masker och smarta objekt för att ytterligare utöka ditt verktygssätt.  
+- **Felaktig filsökväg** – Använd alltid absoluta sökvägar eller verifiera arbetskatalogen.  
+- **Saknad licens** – Provanvändning fungerar för utvärdering, men en full licens tar bort vattenstämplar.  
+- **Länka bara en delmängd** – Om du bara behöver en del av lagerstacken, skapa en ny `Layer[]` med önskade lager innan du anropar `linkLayers`.  
+- **Trådsäkerhet** – `PsdImage`‑instanser är inte trådsäkra; skapa en separat instans per tråd.  
 
-## FAQ's  
+## Slutsats  
+Du har nu ett komplett, produktionsklart arbetsflöde för **how to link layers** i PSD‑filer med Aspose.PSD för Java. Genom att bemästra dessa API:er kan du automatisera komplexa designuppgifter, bygga anpassade redigerare eller integrera Photoshop‑liknande lagerhantering i vilken Java‑applikation som helst. Fortsätt experimentera med andra funktioner som lagereffekter, masker och smarta objekt för att ytterligare utöka ditt verktygssätt.  
 
-### What is Aspose.PSD for Java?  
-Aspose.PSD for Java är ett bibliotek som tillåter utvecklare att manipulera Photoshop PSD‑filer programmässigt.  
+## Vanliga frågor  
 
-### Can I use Aspose.PSD on any operating system?  
-Ja, som ett Java‑baserat bibliotek kör det på alla plattformar som stödjer Java.  
+**Q:** Vad är Aspose.PSD för Java?  
+**A:** Aspose.PSD för Java är ett bibliotek som låter utvecklare manipulera Photoshop‑PSD‑filer programatiskt utan att behöva ha Photoshop installerat.  
 
-### Is there a trial version available?  
-Ja, du kan prova Aspose.PSD för Java gratis. Kolla den [free trial link](https://releases.aspose.com/).  
+**Q:** Kan jag använda Aspose.PSD på vilket operativsystem som helst?  
+**A:** Ja, eftersom det är Java‑baserat kör det på Windows, Linux, macOS eller någon plattform som stödjer Java.  
 
-### Where can I find more documentation?  
-Du kan utforska den omfattande dokumentationen [here](https://reference.aspose.com/psd/java/).  
+**Q:** Finns det en provversion tillgänglig?  
+**A:** Ja, du kan prova Aspose.PSD för Java gratis. Se den [free trial link](https://releases.aspose.com/).  
 
-### How can I get support if I run into issues?  
-Om du stöter på problem kan du hitta hjälp i [support forum](https://forum.aspose.com/c/psd/34).  
+**Q:** Var kan jag hitta mer dokumentation?  
+**A:** Du kan utforska den omfattande dokumentationen [here](https://reference.aspose.com/psd/java/).  
+
+**Q:** Hur kan jag få support om jag stöter på problem?  
+**A:** Om du stöter på problem kan du hitta hjälp i [support forum](https://forum.aspose.com/c/psd/34).  
 
 ---  
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.PSD 24.12 for Java  
-**Author:** Aspose  
+**Senast uppdaterad:** 2026-02-14  
+**Testat med:** Aspose.PSD 24.12 för Java  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  
 

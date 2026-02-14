@@ -1,7 +1,6 @@
 ---
-date: 2025-12-09
-description: 學習如何在 PSD 檔案中使用 Aspose.PSD for Java 連結圖層。此逐步教學將向您展示如何管理 PSD 圖層、解除圖層連結，並精通
-  Aspose.PSD 教程。
+date: 2026-02-14
+description: 學習如何使用 Aspose.PSD for Java 在 PSD 檔案中連結圖層。本逐步教學示範如何加入連結圖層支援、批量處理 PSD 檔案，以及高效解除圖層連結。
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: 如何使用 Java 連結 PSD 檔案中的圖層
@@ -9,40 +8,44 @@ url: /zh-hant/java/advanced-psd-layer-features-effects/add-linked-layer-support-
 weight: 19
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}  
+ not in code or technical terms: "batch process psd" maybe keep as is. Already kept.
+
+Make sure we didn't translate URLs.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}  
 {{< blocks/products/pf/main-container >}}  
 {{< blocks/products/pf/tutorial-page-section >}}  
 
 # 如何在 PSD 檔案中使用 Java 連結圖層  
 
-## 介紹  
-Adobe Photoshop 的 `.PSD` 格式是層次化圖形的業界標準，許多開發人員需要以程式方式操作這些圖層。最強大的技巧之一是 **連結圖層**，它讓您可以將一組圖層作為單一單位移動或編輯，同時保留每個圖層的個別屬性。在本 **Aspose.PSD 教學** 中，我們將逐步說明 **如何在 PSD 檔案中使用 Java 連結圖層**，並展示如何 **管理 PSD 圖層**、**解除連結圖層 PSD**，以及將變更儲存回磁碟。無論您是建立設計自動化管線或是擴充桌面應用程式，這些步驟都能讓您完整掌控圖層之間的關係。  
+## 簡介  
+Adobe Photoshop 的 `.PSD` 格式是分層圖形的業界標準，許多開發人員需要以程式方式操作這些圖層。最強大的技巧之一是 **linking layers**，它讓您可以將一組圖層作為單一單位移動或編輯，同時保留每個圖層的個別屬性。在本 **Aspose.PSD tutorial** 中，我們將示範 **how to link layers** 在 PSD 檔案中使用 Java，並說明如何 **manage PSD layers**、**unlink layers PSD**，以及將變更儲存回磁碟。無論您是建立設計自動化流水線或擴充桌面應用程式，這些步驟都能讓您完整掌控圖層關係。  
 
-## 快速解答  
-- **「連結圖層」是什麼意思？** 它會建立一個邏輯群組，使圖層在移動時一起移動，且不會被合併。  
-- **哪個函式庫負責此功能？** Aspose.PSD for Java 提供 `LinkedLayersManager` API。  
-- **需要授權嗎？** 開發階段可使用免費試用版；正式環境需購買商業授權。  
-- **之後可以解除連結嗎？** 可以——使用 `unlinkLayer` 或 `unlinkLayers` 方法。  
-- **支援的 Java 版本？** Java 8 或以上。  
+## 快速回答  
+- **What does “link layers” mean?** 它會建立一個邏輯群組，使圖層一起移動而不會被合併。  
+- **Which library handles this?** Aspose.PSD for Java 提供 `LinkedLayersManager` API。  
+- **Do I need a license?** 免費試用版可用於開發；商業授權則需於正式環境使用。  
+- **Can I unlink later?** 可以——使用 `unlinkLayer` 或 `unlinkLayers` 方法。  
+- **Supported Java versions?** Java 8 或更高版本。  
 
 ## 什麼是 PSD 檔案中的連結圖層？  
-連結圖層是 Photoshop 的一項功能，可將多個圖層綁定在一起，使它們在變形、移動或樣式調整時表現為單一實體。底層資料仍保持分離，這意味著您之後可以 **解除連結圖層 PSD**，並獨立編輯每個圖層。  
+連結圖層是 Photoshop 的功能，將多個圖層綁定在一起，使其在變形、移動或樣式設定時表現為單一實體。底層資料仍保持分離，這表示您之後可以 **unlink layers PSD**，並獨立編輯每個圖層。  
 
-## 為什麼要使用 Aspose.PSD for Java 來管理 PSD 圖層？  
-- **功能完整的 API** – 在不啟動 Photoshop 的情況下存取所有 Photoshop 結構。  
-- **跨平台** – 可在任何支援 Java 的作業系統上執行。  
-- **無 UI 依賴** – 非常適合伺服器端批次處理或 CI 管線。  
+## 為什麼使用 Aspose.PSD for Java 來管理 PSD 圖層？  
+- **Full‑featured API** – 在不啟動 Photoshop 本身的情況下，存取所有 Photoshop 結構。  
+- **Cross‑platform** – 可在任何支援 Java 的作業系統上執行。  
+- **No UI dependency** – 非常適合伺服器端批次處理或 CI 流水線。  
 
-## 前置條件  
-在開始撰寫程式碼之前，請確保您已具備以下項目：  
+## 先決條件  
+在開始編寫程式碼之前，請確保您已具備以下條件：  
 
-1. **Java Development Kit (JDK) 8+** – 建議使用最新 JDK。  
-2. **Aspose.PSD for Java** – 從 [Aspose 釋出頁面](https://releases.aspose.com/psd/java/) 下載。  
-3. **IDE 或編輯器** – Eclipse、IntelliJ IDEA、VS Code 等。  
-4. **範例 PSD 檔案** – 可在 Photoshop 中自行建立，或取得免費測試樣本。  
+1. **Java Development Kit (JDK) 8+** – 建議使用最新的 JDK。  
+2. **Aspose.PSD for Java** – 從 [Aspose release page](https://releases.aspose.com/psd/java/) 下載。  
+3. **IDE or editor** – Eclipse、IntelliJ IDEA、VS Code 等。  
+4. **Sample PSD file** – 在 Photoshop 中建立或取得免費範例檔案以進行測試。  
 
 ## 匯入套件  
-撰寫程式碼前，先匯入必要的 Aspose.PSD 類別：  
+在撰寫程式碼之前，先匯入必要的 Aspose.PSD 類別：  
 
 ```java
 import com.aspose.psd.Image;
@@ -50,11 +53,11 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```  
 
-這些匯入讓您可以存取核心影像處理、PSD 專屬功能以及圖層操作方法。  
+這些匯入讓您可以使用核心影像處理、PSD 專屬功能以及圖層操作方法。  
 
-## 步驟說明  
+## 逐步指南  
 
-### 步驟 1：載入 PSD 檔案  
+### 步驟 1：載入您的 PSD 檔案  
 首先，開啟您要處理的 PSD 檔案。  
 
 ```java
@@ -62,10 +65,10 @@ String dataDir = "Your Document Directory"; // specify your document directory
 PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");
 ```  
 
-請確保路徑指向現有檔案；否則 `Image.load()` 會拋出例外。  
+確保路徑指向現有檔案；否則 `Image.load()` 會拋出例外。  
 
-### 步驟 2：取得全部圖層（管理 PSD 圖層）  
-抓取所有圖層，以便決定要將哪些圖層分組。  
+### 步驟 2：取得所有圖層（管理 PSD 圖層）  
+取得所有圖層，以便決定要將哪些圖層分組。  
 
 ```java
 Layer[] layers = psd.getLayers();
@@ -80,10 +83,10 @@ Layer[] layers = psd.getLayers();
 short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
 ```  
 
-此呼叫會回傳一個 **群組 ID**，唯一識別新建立的連結群組。  
+此呼叫會回傳一個 **group ID**，唯一標識新建立的連結群組。  
 
 ### 步驟 4：驗證連結群組 ID  
-再次確認回傳的 ID 與第一個圖層所儲存的 ID 相同。  
+再次確認回傳的 ID 與第一個圖層所儲存的 ID 相符。  
 
 ```java
 short linkGroupId = psd.getLinkedLayersManager().getLinkGroupId(layers[0]);
@@ -92,10 +95,10 @@ if (layersLinkGroupId != linkGroupId) {
 }
 ```  
 
-若 ID 不相符，表示連結過程發生錯誤。  
+如果 ID 不同，表示連結過程中發生錯誤。  
 
-### 步驟 5：取得並解除連結圖層（解除連結圖層 PSD）  
-當需要斷開關聯時，依群組 ID 取得連結圖層，並逐一解除連結。  
+### 步驟 5：取得並解除連結圖層（Unlink Layers PSD）  
+當需要解除關聯時，依群組 ID 取得連結的圖層，並逐一解除連結。  
 
 ```java
 Layer[] linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
@@ -106,7 +109,7 @@ for (Layer linkedLayer : linkedLayers) {
 
 每次迭代都會移除連結，同時保留圖層的原始資料。  
 
-### 步驟 6：驗證解除連結流程  
+### 步驟 6：驗證解除連結過程  
 確認群組中不再有任何圖層。  
 
 ```java
@@ -116,10 +119,10 @@ if (linkedLayers != null) {
 }
 ```  
 
-如果 `linkedLayers` 仍有內容，則解除連結操作失敗。  
+如果 `linkedLayers` 仍有內容，則解除連結失敗。  
 
 ### 步驟 7：儲存更新後的 PSD  
-將修改過的文件寫回磁碟。  
+將修改後的文件寫回磁碟。  
 
 ```java
 psd.save(dataDir + "LinkedLayerexample_output.psd");
@@ -136,39 +139,42 @@ finally {
 }
 ```  
 
-在大量檔案的迴圈處理中，呼叫 `dispose()` 是最佳實踐。  
+呼叫 `dispose()` 是最佳實踐，特別是在迴圈中處理大量檔案時。  
 
-## 常見問題與技巧  
+## 如何在批次處理 PSD 工作流程中加入連結圖層支援  
+如果您需要將相同的連結邏輯套用到數十或數百個檔案，可將上述步驟包在一個簡單的迴圈中，遍歷 PSD 目錄。由於 **Aspose.PSD** 不需要 UI，您可以在無頭伺服器上執行此程式碼，這使其非常適合 **batch process psd** 情境。只需記得為每個檔案建立新的 `PsdImage` 實例，以避免執行緒安全性問題。  
 
-- **檔案路徑不正確** – 請使用絕對路徑或先確認工作目錄。  
-- **缺少授權** – 試用版可供評估使用，完整授權會移除評估浮水印。  
-- **只連結部分圖層** – 若只需部份圖層，請在呼叫 `linkLayers` 前先建立只包含目標圖層的 `Layer[]`。  
-- **執行緒安全** – `PsdImage` 實例非執行緒安全；每個執行緒應建立獨立實例。  
+## 常見陷阱與技巧  
+
+- **Incorrect file path** – 總是使用絕對路徑或確認工作目錄。  
+- **Missing license** – 試用版可用於評估，但完整授權會移除評估浮水印。  
+- **Linking only a subset** – 若只需要圖層堆疊的一部分，請在呼叫 `linkLayers` 前建立包含所需圖層的 `Layer[]`。  
+- **Thread safety** – `PsdImage` 實例不是執行緒安全的；請為每個執行緒建立獨立實例。  
 
 ## 結論  
-現在您已掌握使用 Aspose.PSD for Java **在 PSD 檔案中連結圖層** 的完整、可投入生產環境的工作流程。熟練這些 API 後，您可以自動化複雜的設計任務、打造自訂編輯器，或在任何 Java 應用程式中整合 Photoshop 風格的圖層處理。持續探索圖層效果、遮色片與智慧物件等其他功能，進一步擴充您的工具箱。  
+您現在已擁有完整、可投入生產的 **how to link layers** 工作流程，使用 Aspose.PSD for Java 於 PSD 檔案中連結圖層。精通這些 API 後，您可以自動化複雜的設計任務、打造自訂編輯器，或將 Photoshop 風格的圖層處理整合至任何 Java 應用程式。持續嘗試其他功能，如圖層效果、遮色片與智慧物件，以進一步擴充您的工具箱。  
 
 ## 常見問答  
 
-### Aspose.PSD for Java 是什麼？  
-Aspose.PSD for Java 是一套讓開發人員以程式方式操作 Photoshop PSD 檔案的函式庫。  
+**Q:** Aspose.PSD for Java 是什麼？  
+**A:** Aspose.PSD for Java 是一個函式庫，讓開發人員能以程式方式操作 Photoshop PSD 檔案，無需安裝 Photoshop。  
 
-### 我可以在任何作業系統上使用 Aspose.PSD 嗎？  
-可以，作為基於 Java 的函式庫，只要支援 Java 的平台皆可執行。  
+**Q:** 我可以在任何作業系統上使用 Aspose.PSD 嗎？  
+**A:** 可以，因為它是基於 Java，能在 Windows、Linux、macOS 或任何支援 Java 的平台上執行。  
 
-### 有提供試用版嗎？  
-有，您可以免費試用 Aspose.PSD for Java。請參閱 [免費試用連結](https://releases.aspose.com/)。  
+**Q:** 是否提供試用版？  
+**A:** 有，您可以免費試用 Aspose.PSD for Java。請參閱 [free trial link](https://releases.aspose.com/)。  
 
-### 哪裡可以找到更多文件？  
-您可以在此處瀏覽完整文件 [here](https://reference.aspose.com/psd/java/)。  
+**Q:** 我可以在哪裡找到更多文件？  
+**A:** 您可以在 [here](https://reference.aspose.com/psd/java/) 查看完整文件。  
 
-### 若遇到問題該如何取得支援？  
-若發生問題，可前往 [支援論壇](https://forum.aspose.com/c/psd/34) 尋求協助。  
+**Q:** 若遇到問題，我該如何取得支援？  
+**A:** 若您遇到任何問題，可在 [support forum](https://forum.aspose.com/c/psd/34) 尋求協助。  
 
 ---  
 
-**最後更新：** 2025-12-09  
-**測試環境：** Aspose.PSD 24.12 for Java  
+**最後更新：** 2026-02-14  
+**測試版本：** Aspose.PSD 24.12 for Java  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

@@ -1,9 +1,8 @@
 ---
-date: 2025-12-09
-description: Aspose.PSD for Java kullanarak PSD dosyalarında katmanları nasıl bağlayacağınızı
-  öğrenin. Bu adım adım öğretici, PSD katmanlarını nasıl yöneteceğinizi, katmanların
-  bağını nasıl kaldıracağınızı ve Aspose.PSD öğreticisini nasıl ustalaştıracağınızı
-  gösterir.
+date: 2026-02-14
+description: Aspose.PSD for Java kullanarak PSD dosyalarındaki katmanları nasıl bağlayacağınızı
+  öğrenin. Bu adım adım öğretici, bağlı katman desteği eklemeyi, PSD dosyalarını toplu
+  işlemeyi ve katmanların bağını etkili bir şekilde kaldırmayı gösterir.
 linktitle: How to Link Layers in PSD Files Using Java
 second_title: Aspose.PSD Java API
 title: Java ile PSD Dosyalarındaki Katmanları Bağlama
@@ -15,33 +14,33 @@ weight: 19
 {{< blocks/products/pf/main-container >}}  
 {{< blocks/products/pf/tutorial-page-section >}}  
 
-# PSD Dosyalarında Katmanları Java ile Bağlama  
+# PSD Dosyalarında Katmanları Java Kullanarak Bağlama  
 
 ## Giriş  
-Adobe Photoshop’un `.PSD` formatı katmanlı grafikler için endüstri standardıdır ve birçok geliştirici bu katmanları programlı olarak manipüle etmelidir. En güçlü tekniklerden biri **katmanları bağlamaktır**; bu, her katmanın bireysel özelliklerini korurken bir grup katmanı tek bir birim olarak taşımanıza veya düzenlemenize olanak tanır. Bu **Aspose.PSD öğreticisinde** bir PSD dosyasında **katmanları nasıl bağlayacağınızı** Java kullanarak adım adım gösterecek ve ayrıca **PSD katmanlarını yönetme**, **katmanları PSD’den ayırma** ve değişiklikleri diske kaydetme konularına da değineceğiz. İster bir tasarım‑otomasyon hattı kuruyor olun ister bir masaüstü uygulamasını genişletiyor olun, bu adımlar katman ilişkileri üzerinde tam kontrol sağlayacaktır.  
+Adobe Photoshop'un `.PSD` formatı katmanlı grafikler için endüstri standardıdır ve birçok geliştirici bu katmanları programlı olarak manipüle etmelidir. En güçlü tekniklerden biri **katmanları bağlama**dır; bu, katmanları tek bir birim olarak taşımanıza veya düzenlemenize izin verirken, her katmanın bireysel özelliklerini korur. Bu **Aspose.PSD öğreticisinde** Java kullanarak bir PSD dosyasında **katmanları nasıl bağlayacağınızı** adım adım göstereceğiz ve ayrıca **PSD katmanlarını yönetme**, **PSD katmanlarını bağlamayı kaldırma** ve değişiklikleri diske kaydetme konularını da göstereceğiz. Tasarım‑otomasyonu hattı oluşturuyor ya da bir masaüstü uygulamasını genişletiyor olsanız, bu adımlar katman ilişkileri üzerinde tam kontrol sağlayacaktır.  
 
 ## Hızlı Yanıtlar  
-- **“Katmanları bağlamak” ne demektir?** Katmanların düzleştirilmeden birlikte hareket etmesini sağlayan mantıksal bir grup oluşturur.  
-- **Hangi kütüphane bunu sağlar?** Aspose.PSD for Java, bir `LinkedLayersManager` API’si sunar.  
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gerekir.  
+- **“Katmanları bağlamak” ne anlama gelir?** Katmanların düzleştirilmeden birlikte hareket etmesini sağlayan mantıksal bir grup oluşturur.  
+- **Bu işlemi hangi kütüphane yönetir?** Aspose.PSD for Java, bir `LinkedLayersManager` API'si sağlar.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gerekir.  
 - **Daha sonra bağlamayı kaldırabilir miyim?** Evet—`unlinkLayer` veya `unlinkLayers` metodlarını kullanın.  
 - **Desteklenen Java sürümleri?** Java 8 ve üzeri.  
 
-## PSD Dosyasında Katmanları Bağlamak Nedir?  
-Katmanları bağlamak, birden fazla katmanı bir araya getirerek, dönüştürüldüklerinde, taşındıklarında veya stillendirildiklerinde tek bir varlık gibi davranmalarını sağlayan bir Photoshop özelliğidir. Alttaki veri hâlâ ayrı kalır, bu da **katmanları PSD’den ayırma** işlemi yapıp her birini bağımsız olarak düzenleyebileceğiniz anlamına gelir.  
+## PSD Dosyasında Katmanları Bağlama Nedir?  
+Katmanları bağlama, birden fazla katmanı bir araya getirerek, dönüştürüldüğünde, taşındığında veya stillendirildiğinde tek bir varlık gibi davranmasını sağlayan bir Photoshop özelliğidir. Alttaki veri ayrı kalır, bu da daha sonra **PSD katmanlarını bağlamayı kaldırma** ve her birini bağımsız olarak düzenleyebileceğiniz anlamına gelir.  
 
-## Neden Aspose.PSD for Java ile PSD Katmanlarını Yönetmelisiniz?  
-- **Tam özellikli API** – Photoshop’u çalıştırmadan her Photoshop yapısına erişim sağlar.  
-- **Çapraz platform** – Java’yı destekleyen herhangi bir işletim sisteminde çalışır.  
-- **UI bağımlılığı yok** – Sunucu‑tarafı toplu işleme veya CI hatları için idealdir.  
+## Neden PSD Katmanlarını Yönetmek İçin Aspose.PSD for Java Kullanmalı?  
+- **Tam özellikli API** – Photoshop'u başlatmadan her Photoshop yapısına erişim sağlar.  
+- **Çapraz platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır.  
+- **UI bağımlılığı yok** – Sunucu tarafı toplu işleme veya CI hatları için idealdir.  
 
 ## Ön Koşullar  
-Kodlamaya başlamadan önce şunların kurulu olduğundan emin olun:  
+Koda geçmeden önce, şunların olduğundan emin olun:  
 
-1. **Java Development Kit (JDK) 8+** – En yeni JDK önerilir.  
+1. **Java Development Kit (JDK) 8+** – En son JDK önerilir.  
 2. **Aspose.PSD for Java** – [Aspose sürüm sayfasından](https://releases.aspose.com/psd/java/) indirin.  
 3. **IDE veya editör** – Eclipse, IntelliJ IDEA, VS Code vb.  
-4. **Örnek PSD dosyası** – Photoshop’ta oluşturun veya test için ücretsiz bir örnek alın.  
+4. **Örnek PSD dosyası** – Photoshop'ta oluşturun veya test için ücretsiz bir örnek alın.  
 
 ## Paketleri İçe Aktarma  
 Kodlamaya başlamadan önce gerekli Aspose.PSD sınıflarını içe aktarın:  
@@ -52,22 +51,22 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```  
 
-Bu içe aktarmalar, temel görüntü işleme, PSD‑özel özellikler ve katman manipülasyonu metodlarına erişim sağlar.  
+Bu içe aktarmalar, temel görüntü işleme, PSD‑özel özellikler ve katman manipülasyon metodlarına erişmenizi sağlar.  
 
 ## Adım‑Adım Kılavuz  
 
 ### Adım 1: PSD Dosyanızı Yükleyin  
-İşlem yapmak istediğiniz PSD dosyasını açın.  
+İlk olarak, üzerinde çalışmak istediğiniz PSD'yi açın.  
 
 ```java
 String dataDir = "Your Document Directory"; // specify your document directory
 PsdImage psd = (PsdImage) Image.load(dataDir + "LinkedLayerexample.psd");
 ```  
 
-Yolun mevcut bir dosyayı işaret ettiğinden emin olun; aksi takdirde `Image.load()` bir istisna fırlatır.  
+Yolun mevcut bir dosyaya işaret ettiğinden emin olun; aksi takdirde `Image.load()` bir istisna fırlatır.  
 
 ### Adım 2: Tüm Katmanları Alın (PSD Katmanlarını Yönetme)  
-Gruplamak istediğiniz katmanları belirleyebilmek için tüm katmanları alın.  
+Her katmanı alın ki hangi katmanları gruplayacağınızı seçebilesiniz.  
 
 ```java
 Layer[] layers = psd.getLayers();
@@ -76,16 +75,16 @@ Layer[] layers = psd.getLayers();
 `layers` dizisi artık belgenin tam katman yığınına sahiptir.  
 
 ### Adım 3: Katmanları Bağlayın  
-Yönetici API’sini kullanarak bir bağlanmış‑katman grubu oluşturun.  
+Yönetici API'sini kullanarak bir bağlı‑katman grubu oluşturun.  
 
 ```java
 short layersLinkGroupId = psd.getLinkedLayersManager().linkLayers(layers);
 ```  
 
-Bu çağrı, yeni bağ grup kimliğini benzersiz bir **grup ID** olarak döndürür.  
+Bu çağrı, yeni bağ grupunu benzersiz şekilde tanımlayan bir **grup kimliği** döndürür.  
 
 ### Adım 4: Bağ Grup Kimliğini Doğrulayın  
-Dönen kimliğin ilk katman için saklanan kimlikle aynı olduğundan emin olun.  
+Döndürülen kimliğin, ilk katman için saklanan kimlikle eşleştiğini iki kez kontrol edin.  
 
 ```java
 short linkGroupId = psd.getLinkedLayersManager().getLinkGroupId(layers[0]);
@@ -96,8 +95,8 @@ if (layersLinkGroupId != linkGroupId) {
 
 Kimlikler farklıysa, bağlama sırasında bir şeyler ters gitmiştir.  
 
-### Adım 5: Katmanları Alın ve Bağlantıyı Kaldırın (Katmanları PSD’den Ayırma)  
-İlişkiyi kesmeniz gerektiğinde, grup kimliğiyle bağlanmış katmanları alın ve tek tek ayırın.  
+### Adım 5: Katmanları Alın ve Bağlamayı Kaldırın (PSD Katmanlarını Bağlamayı Kaldırma)  
+İlişkiyi kesmeniz gerektiğinde, grup kimliğiyle bağlı katmanları alın ve tek tek bağlamayı kaldırın.  
 
 ```java
 Layer[] linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
@@ -106,10 +105,10 @@ for (Layer linkedLayer : linkedLayers) {
 }
 ```  
 
-Her yineleme, katmanın orijinal verisini koruyarak bağlantıyı kaldırır.  
+Her yineleme, katmanın özgün verisini korurken bağlamayı kaldırır.  
 
-### Adım 6: Bağlantı Kaldırma İşlemini Doğrulayın  
-Grupta hiç katman kalmadığını onaylayın.  
+### Adım 6: Bağlamayı Kaldırma İşlemini Doğrulayın  
+Grup içinde hiçbir katmanın kalmadığını doğrulayın.  
 
 ```java
 linkedLayers = psd.getLinkedLayersManager().getLayersByLinkGroupId(linkGroupId);
@@ -118,19 +117,19 @@ if (linkedLayers != null) {
 }
 ```  
 
-`linkedLayers` hâlâ doluysa, bağ kaldırma işlemi başarısız olmuştur.  
+`linkedLayers` hâlâ doluysa, bağlamayı kaldırma işlemi başarısız oldu.  
 
-### Adım 7: Güncellenmiş PSD’yi Kaydedin  
-Değiştirilmiş belgeyi diske geri yazın.  
+### Adım 7: Güncellenmiş PSD'yi Kaydedin  
+Değiştirilen belgeyi diske geri yazın.  
 
 ```java
 psd.save(dataDir + "LinkedLayerexample_output.psd");
 ```  
 
-Kaydetme, yeni bağ grubunu veya kaldırılmasını da içeren tüm değişiklikleri korur.  
+Kaydetme, yeni bağ grubunu veya onun kaldırılmasını da içeren tüm değişiklikleri korur.  
 
 ### Adım 8: PSD Nesnesini Serbest Bırakın  
-Yerel kaynakları serbest bırakarak bellek sızıntılarını önleyin.  
+Bellek sızıntılarını önlemek için yerel kaynakları serbest bırakın.  
 
 ```java
 finally {
@@ -138,38 +137,41 @@ finally {
 }
 ```  
 
-`dispose()` çağrısı, özellikle bir döngü içinde birçok dosya işliyorsanız en iyi uygulamadır.  
+`dispose()` çağrısı, özellikle bir döngüde çok sayıda dosya işliyorsanız en iyi uygulamadır.  
 
-## Yaygın Hatalar & İpuçları  
+## Batch İşlem PSD İş Akışlarında Bağlı Katman Desteği Nasıl Eklenir  
+Aynı bağlama mantığını onlarca ya da yüzlerce dosyaya uygulamanız gerekiyorsa, yukarıdaki adımları PSD dizininde dönen basit bir döngüye sarın. **Aspose.PSD** bir UI gerektirmediği için bu kodu başsız bir sunucuda çalıştırabilirsiniz; bu da **batch process psd** senaryoları için mükemmeldir. İş parçacığı güvenliği sorunlarından kaçınmak için her dosya için yeni bir `PsdImage` örneği oluşturmayı unutmayın.  
+
+## Yaygın Tuzaklar ve İpuçları  
 
 - **Yanlış dosya yolu** – Her zaman mutlak yollar kullanın veya çalışma dizinini doğrulayın.  
-- **Lisans eksikliği** – Deneme sürümü değerlendirme için yeterlidir, ancak tam lisans değerlendirme filigranlarını kaldırır.  
-- **Sadece bir alt küme bağlama** – Katman yığınının sadece bir kısmına ihtiyacınız varsa, `linkLayers` çağrısından önce istediğiniz katmanları içeren yeni bir `Layer[]` oluşturun.  
+- **Lisans eksik** – Deneme sürümü değerlendirme için çalışır, ancak tam lisans değerlendirme filigranlarını kaldırır.  
+- **Sadece bir alt küme bağlama** – Katman yığınının sadece bir kısmına ihtiyacınız varsa, `linkLayers` çağırmadan önce istenen katmanlarla yeni bir `Layer[]` oluşturun.  
 - **İş parçacığı güvenliği** – `PsdImage` örnekleri iş parçacığı‑güvenli değildir; her iş parçacığı için ayrı bir örnek oluşturun.  
 
 ## Sonuç  
-Artık Aspose.PSD for Java kullanarak PSD dosyalarında **katmanları nasıl bağlayacağınız** konusunda eksiksiz, üretim‑hazır bir iş akışına sahipsiniz. Bu API’leri ustalıkla kullanarak karmaşık tasarım görevlerini otomatikleştirebilir, özel editörler oluşturabilir veya Photoshop‑stilinde katman yönetimini herhangi bir Java uygulamasına entegre edebilirsiniz. Katman efektleri, maskeler ve akıllı nesneler gibi diğer özelliklerle de deneyler yaparak araç setinizi daha da genişletmeyi unutmayın.  
+Artık Aspose.PSD for Java kullanarak PSD dosyalarında **katmanları nasıl bağlayacağınız** konusunda eksiksiz, üretime hazır bir iş akışına sahipsiniz. Bu API'leri ustalıkla kullanarak karmaşık tasarım görevlerini otomatikleştirebilir, özel editörler oluşturabilir veya Photoshop‑stilinde katman yönetimini herhangi bir Java uygulamasına entegre edebilirsiniz. Katman efektleri, maskeler ve akıllı nesneler gibi diğer özelliklerle denemeler yaparak araç setinizi daha da genişletin.  
 
-## SSS  
+## Sıkça Sorulan Sorular  
 
-### Aspose.PSD for Java nedir?  
-Aspose.PSD for Java, geliştiricilerin Photoshop PSD dosyalarını programlı olarak manipüle etmelerini sağlayan bir kütüphanedir.  
+**Q:** Aspose.PSD for Java nedir?  
+**A:** Aspose.PSD for Java, geliştiricilerin Photoshop yüklü olmadan Photoshop PSD dosyalarını programlı olarak manipüle etmelerini sağlayan bir kütüphanedir.  
 
-### Aspose.PSD herhangi bir işletim sisteminde kullanılabilir mi?  
-Evet, Java‑tabanlı bir kütüphane olduğu için Java’yı destekleyen her platformda çalışır.  
+**Q:** Aspose.PSD'yi herhangi bir işletim sisteminde kullanabilir miyim?  
+**A:** Evet, Java tabanlı olduğu için Windows, Linux, macOS veya Java'yı destekleyen herhangi bir platformda çalışır.  
 
-### Deneme sürümü mevcut mu?  
-Evet, Aspose.PSD for Java’yı ücretsiz olarak deneyebilirsiniz. Ücretsiz deneme bağlantısını kontrol edin: [free trial link](https://releases.aspose.com/).  
+**Q:** Deneme sürümü mevcut mu?  
+**A:** Evet, Aspose.PSD for Java'yi ücretsiz olarak deneyebilirsiniz. [Ücretsiz deneme bağlantısını](https://releases.aspose.com/) kontrol edin.  
 
-### Daha fazla belgeyi nereden bulabilirim?  
-Kapsamlı belgeleri [burada](https://reference.aspose.com/psd/java/) inceleyebilirsiniz.  
+**Q:** Daha fazla belgeyi nerede bulabilirim?  
+**A:** Geniş kapsamlı belgeleri [buradan](https://reference.aspose.com/psd/java/) inceleyebilirsiniz.  
 
-### Sorun yaşarsam destek nasıl alınır?  
-Herhangi bir sorunla karşılaşırsanız, [support forum](https://forum.aspose.com/c/psd/34) üzerinden yardım alabilirsiniz.  
+**Q:** Sorunlarla karşılaşırsam nasıl destek alabilirim?  
+**A:** Herhangi bir sorunla karşılaşırsanız, [destek forumunda](https://forum.aspose.com/c/psd/34) yardım bulabilirsiniz.  
 
 ---  
 
-**Son Güncelleme:** 2025-12-09  
+**Son Güncelleme:** 2026-02-14  
 **Test Edilen Versiyon:** Aspose.PSD 24.12 for Java  
 **Yazar:** Aspose  
 
