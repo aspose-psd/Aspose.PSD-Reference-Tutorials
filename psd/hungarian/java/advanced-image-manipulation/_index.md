@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: Tanulja meg, hogyan lehet képet forgatni Java-ban, és fejlett képműveleteket
-  végezni az Aspose.PSD for Java használatával, beleértve a betűtípuscserét, a bikubikus
-  újramintavételezést és még sok mást.
+date: 2026-02-14
+description: Tanulja meg, hogyan kell képet forgatni Java-ban az Aspose.PSD használatával,
+  valamint haladó feladatokat, mint a betűtípus cseréje, bikubikus újramintavételezés
+  és a GIF képek optimalizálása.
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
-title: Kép forgatása Java-ban az Aspose.PSD-vel – Haladó képműveletek
+title: Kép forgatása Java-ban az Aspose.PSD-vel
 url: /hu/java/advanced-image-manipulation/
 weight: 24
 ---
@@ -14,137 +14,150 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép forgatása Java – Haladó képfeldolgozás
+# Hogyan forgassunk képet Java‑ban – Fejlett képfeldolgozás
 
-## Introduction
+## Bevezetés
 
-Ha belemerülsz a **rotate image java** és a Java haladó képfeldolgozás világába, az Aspose.PSD mindenben segít. Ebben az útmutatóban sorozatos tutorialon keresztül vezetünk, amelyek mindegyike új dimenziót nyit meg a képfeldolgozási képességekben az Aspose.PSD for Java használatával. Akár képet kell forgatnod, betűtípusokat cserélned, vagy grafikákat arányosan átméretezned, lépésről‑lépésre útmutatót találsz, amely produktív marad.
+Ha elmerülsz a **how to rotate image** Java‑ban és a fejlett képfeldolgozás világában, az Aspose.PSD mindenre felkészít. Ebben az útmutatóban lépésről lépésre bemutatunk egy sor oktatóanyagot, amelyek mindegyike új dimenziót nyit meg a képfeldolgozási képességek terén az Aspose.PSD for Java használatával. Akár képet kell forgatnod, betűtípusokat cserélned, vagy arányosan átméretezni a grafikákat, részletes, lépésről‑lépésre útmutatókat találsz, amelyek segítenek a hatékony munkavégzésben.
 
-## Quick Answers
-- **Mi a legegyszerűbb módja egy kép Java-ban történő forgatásának?** Használd az Aspose.PSD `Image.rotate()` metódusát veszteségmentes forgatáshoz.  
+## Gyors válaszok
+- **Mi a legegyszerűbb módja egy kép Java‑ban történő forgatásának?** Használd az Aspose.PSD `Image.rotate()` metódusát a veszteségmentes forgatáshoz.  
 - **Forgathatok képet egy adott szöggel?** Igen – a könyvtár tetszőleges szögeket támogat a `rotate(double angle)` túlterhelésen keresztül.  
-- **Szükségem van licencre a termelési használathoz?** Kereskedelmi Aspose.PSD licenc szükséges nem‑értékelő telepítésekhez.  
-- **Lehetséges a betűtípus cseréje anélkül, hogy manuálisan szerkeszteném a PSD-t?** Teljesen – az Aspose.PSD programozható API-t biztosít a betűtípusok képekben történő cseréjéhez.  
-- **Melyik Java verzió támogatott?** Az Aspose.PSD for Java a Java 8 és újabb verziókkal működik.
+- **Szükségem van licencre a termelésben való használathoz?** Kereskedelmi Aspose.PSD licenc szükséges a nem‑értékelő telepítésekhez.  
+- **Lehetséges a betűtípus cseréje anélkül, hogy manuálisan szerkeszteném a PSD‑t?** Teljesen – az Aspose.PSD programozható API‑t biztosít a betűtípusok cseréjéhez a képeken.  
+- **Melyik Java‑verzió támogatott?** Az Aspose.PSD for Java a Java 8‑as és újabb verziókkal működik.
 
-## What is “rotate image java”?
+## Mi az a “how to rotate image” Java‑ban?
 
-A kép forgatása Java-ban azt jelenti, hogy megváltoztatja a kép orientációját a pixeladatok megőrzése mellett. Az Aspose.PSD segítségével a művelet közvetlenül a PSD rétegeken történik, biztosítva a minőségvesztés nélküli eredményt és az összes korrekciós réteg érintetlen maradását.
+A kép Java‑ban történő forgatása azt jelenti, hogy megváltoztatjuk a kép orientációját a pixeladatok megőrzése mellett. Az Aspose.PSD‑vel a művelet közvetlenül a PSD rétegeken történik, biztosítva a minőségvesztés nélküli feldolgozást és az összes beállítási réteg érintetlen maradását.
 
-## Why use Aspose.PSD for image rotation and other advanced tasks?
+## Miért használja az Aspose.PSD‑t képforgatáshoz és egyéb fejlett feladatokhoz?
 
-- **Veszteségmentes feldolgozás** – Nincs újrakódolási műhiba.  
-- **Teljes PSD támogatás** – Rétegek, maszkok, korrekciós hatások érintetlenek maradnak.  
-- **Magas teljesítmény** – Beépített gyorsítótár és optimalizált algoritmusok nagy fájlokhoz.  
-- **Gazdag funkciókészlet** – A betűtípus cserétől a bikubikus újramintavételezésig, mind egy könyvtárban.
+- **Veszteségmentes feldolgozás** – Nincs újrakódolási artefaktum.  
+- **Teljes PSD‑támogatás** – Rétegek, maszkok, beállítási effektusok érintetlenek maradnak.  
+- **Magas teljesítmény** – Beépített gyorsítótárazás és optimalizált algoritmusok nagy fájlokhoz.  
+- **Gazdag funkciókészlet** – A betűtípuscserétől a bicubic újramintavételezésig, mind egy könyvtárban.
 
-## Prerequisites
+## Előfeltételek
 - Java 8 vagy újabb telepítve.  
 - Aspose.PSD for Java könyvtár (letölthető az Aspose weboldaláról).  
-- Érvényes Aspose.PSD licenc a termelési használathoz.  
+- Érvényes Aspose.PSD licenc a termeléshez.  
 
-## Efficient Font Replacement in Images
-### [Replace Fonts in Aspose.PSD for Java](./replace-fonts/)
-Búcsúzz el a betűtípusokkal kapcsolatos problémáktól a képeiden. Lépésről‑lépésre útmutatónk megmutatja, hogyan **replace fonts java** hatékonyan, biztosítva zökkenőmentes vizuális élményt, amikor **replace fonts in images** kell.
+## Hatékony betűtípuscsere képekben
+### [Betűtípusok cseréje Aspose.PSD for Java‑ban](./replace-fonts/)
+Búcsúzz el a betűtípus‑problémáktól a képeidben. Lépésről‑lépésre bemutatjuk, **hogyan cseréljünk betűtípusokat Java‑ban** hatékonyan, biztosítva a zökkenőmentes vizuális élményt, amikor **betűtípusokat kell cserélni a képeken**.
 
-## Optimize Image Processing with Font Cache
-### [Force Font Cache with Aspose.PSD for Java](./force-font-cache/)
-Fedezd fel a képfeldolgozás optimalizálásának művészetét a betűtípus gyorsítótár kényszerítésével az Aspose.PSD for Java segítségével. Növeld a teljesítményt könnyedén átfogó útmutatónkkal.
+## Képfeldolgozás optimalizálása betűtípus‑gyorsítótárral
+### [Betűtípus‑gyorsítótár kényszerítése Aspose.PSD for Java‑val](./force-font-cache/)
+Fedezd fel a képfeldolgozás optimalizálásának művészetét a betűtípus‑gyorsítótár kényszerítésével az Aspose.PSD for Java‑val. Növeld a teljesítményt egyszerűen a részletes útmutatónk segítségével.
 
-## Superior Image Resizing with Bicubic Resampler
-### [Implement Bicubic Resampler in Aspose.PSD for Java](./implement-bicubic-resampler/)
-Emeld a Java képek átméretezését a következő szintre az Aspose.PSD Bicubic Resamplerével. Kövesd útmutatónkat a kiváló eredményekért, és nyiss egy új szabványt a képminőségben.
+## Kiváló képméretezés bicubic resamplerrel
+### [Bicubic Resampler implementálása Aspose.PSD for Java‑ban](./implement-bicubic-resampler/)
+Emeld a Java képméretezést a következő szintre az Aspose.PSD Bicubic Resampler‑rel. Kövesd útmutatónkat a kiváló eredményekért, és nyiss új szabványt a képminőségben.
 
-## Efficient Web Image Optimization with Lossy GIF Compressor
-### [Implement Lossy GIF Compressor in Aspose.PSD for Java](./implement-lossy-gif-compressor/)
-Optimalizáld webes képeidet zökkenőmentesen az Aspose.PSD for Java Lossy GIF Compressorével. Lépésről‑lépésre útmutatónk biztosítja a hatékony megvalósítást lenyűgöző vizuális megjelenéshez.
+## Hatékony webes képek optimalizálása veszteséges GIF tömörítővel
+### [Lossy GIF Compressor implementálása Aspose.PSD for Java‑ban](./implement-lossy-gif-compressor/)
+Optimalizáld webes képeidet zökkenőmentesen az Aspose.PSD for Java Lossy GIF Compressor‑jával. Lépésről‑lépésre útmutatónk biztosítja a hatékony megvalósítást lenyűgöző vizuális megjelenéshez.
 
-## Invert Adjustment Layer for Seamless PSD Manipulation
-### [Invert Adjustment Layer in Aspose.PSD for Java](./invert-adjustment-layer/)
-Merülj el az Invert Adjustment Layer erejében az Aspose.PSD for Java-ban. Szabadíts fel zökkenőmentes PSD fájlmanipulációt átfogó tutorialunkkal.
+## Invert Adjustment Layer a zökkenőmentes PSD manipulációhoz
+### [Invert Adjustment Layer Aspose.PSD for Java‑ban](./invert-adjustment-layer/)
+Merülj el az Invert Adjustment Layer erejében az Aspose.PSD for Java‑ban. Szabadítsd fel a zökkenőmentes PSD fájlmanipulációt átfogó oktatóanyagainkkal.
 
-## Dynamic Color Overlays with Rendering Color Effect
-### [Apply Rendering Color Effect in Aspose.PSD for Java](./rendering-color-effect/)
-Fejleszd Java alkalmazásaidat dinamikus színátfedésekkel az Aspose.PSD használatával. Útmutatónk biztosítja a zökkenőmentes integrációt és lenyűgöző vizuális hatásokat.
+## Dinamikus színátfedések Rendering Color Effect használatával
+### [Rendering Color Effect alkalmazása Aspose.PSD for Java‑ban](./rendering-color-effect/)
+Fejleszd Java‑alkalmazásaidat dinamikus színátfedésekkel az Aspose.PSD‑vel. Útmutatónk biztosítja a zökkenőmentes integrációt és a lenyűgöző vizuális hatásokat.
 
-## Mastering Rendering Drop Shadows
-### [Apply Rendering Drop Shadow in Aspose.PSD for Java](./rendering-drop-shadow/)
-Fedezd fel a lépésről‑lépésre útmutatót a renderelt vetett árnyékok alkalmazásához az Aspose.PSD for Java-ban. Emeld könnyedén képfeldolgozási készségeidet.
+## Renderelt árnyékok elsajátítása
+### [Renderelt Drop Shadow alkalmazása Aspose.PSD for Java‑ban](./rendering-drop-shadow/)
+Fedezd fel a lépésről‑lépésre útmutatót a renderelt drop shadow‑k alkalmazásához az Aspose.PSD for Java‑ban. Emeld fel képfeldolgozási képességeidet egyszerűen.
 
-## Effortless Proportional Image Resizing
-### [Resize Image Proportionally with Aspose.PSD for Java](./resize-image-proportionally/)
-Növeld Java alkalmazásaidat az Aspose.PSD-vel. Útmutatónk könnyedén végigvezet a **resize image proportionally java** folyamatán.
+## Könnyed arányos képméretezés
+### [Képek arányos átméretezése Aspose.PSD for Java‑val](./resize-image-proportionally/)
+Növeld Java‑alkalmazásaidat az Aspose.PSD‑vel. Útmutatónk lépésről‑lépésre bemutatja, hogyan **resize image proportionally java** egyszerűen.
 
-## Image Resizing Mastery with Resize Type Enumeration
-### [Resizing with Resize Type Enumeration in Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
-Mesterezz a képek átméretezésében Java-ban az Aspose.PSD-vel. Lépésről‑lépésre útmutatónk a Resize Type Enumeration használatával biztosítja a pontosságot és hatékonyságot.
+## Képméretezés mestersége Resize Type Enumeration használatával
+### [Méretezés Resize Type Enumeration használatával Aspose.PSD for Java‑ban](./resizing-with-resize-type-enumeration/)
+Mesterezz a képméretezésben Java‑ban az Aspose.PSD‑vel. Lépésről‑lépésre útmutatónk a Resize Type Enumeration‑t használja a pontosság és hatékonyság érdekében.
 
-## Seamless Image Rotation in Java
-### [Rotate an Image in Aspose.PSD for Java](./rotate-image/)
-Fedezd fel a képek forgatását Java-ban könnyedén az Aspose.PSD-vel. Forgass, tükrözz és ments PSD fájlokat egyszerűen felhasználóbarát tutorialunkkal.
+## Zökkenőmentes képforgatás Java‑ban
+### [Kép forgatása Aspose.PSD for Java‑ban](./rotate-image/)
+Fedezd fel a képforgatást Java‑ban egyszerűen az Aspose.PSD‑vel. Forgass, tükrözz és ments PSD fájlokat könnyedén felhasználóbarát oktatóanyagaink segítségével.
 
-## Precision in Image Rotation with Specific Angles
-### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
-Mélyedj el a képek forgatásában Java-ban az Aspose.PSD for Java segítségével. Könnyedén forgass képeket **rotate image specific angle** használva részletes tutorialunkat.
+## Pontos képforgatás specifikus szögekkel
+### [Kép forgatása specifikus szöggel Aspose.PSD for Java‑val](./rotate-image-specific-angle/)
+Merülj el a képforgatásban Java‑ban az Aspose.PSD for Java‑val. Forgass képeket **rotate image specific angle** egyszerűen részletes oktatóanyagaink segítségével.
 
-Fedezd fel a képfeldolgozás teljes potenciálját Java-ban az Aspose.PSD-vel. Tutorialjaink átfogó útmutatót nyújtanak ennek a sokoldalú könyvtárnak a kihasználásához, biztosítva, hogy projektjeid kiemelkedjenek a kiváló képfeldolgozási képességekkel. Merülj el és emeld Java fejlesztői készségeidet még ma!
+### Hogyan cseréljünk betűtípusokat képekben
+Ha gyorsan **how to replace fonts** kell, a fenti „Betűtípusok cseréje” oktatóanyag pontos API‑hívásokat mutat be. Ez a megközelítés megspórolja a manuális PSD‑szerkesztést és biztosítja a konzisztens tipográfiát a rétegek között.
 
-## Haladó képfeldolgozási tutorialok
-### [Replace Fonts in Aspose.PSD for Java](./replace-fonts/)
-Tanuld meg, hogyan cserélj betűtípusokat képeken az Aspose.PSD for Java használatával. Kövesd lépésről‑lépésre útmutatónkat a hatékony betűtípus-kezeléshez.
+### Kép arányos átméretezése Java‑ban
+Az arányos átméretezés megőrzi az eredeti képarányt, elkerülve a torzítást. A „Képek arányos átméretezése” útmutató bemutatja az egy‑soros módszert az Aspose.PSD‑vel.
 
-### [Force Font Cache with Aspose.PSD for Java](./force-font-cache/)
-Tanuld meg, hogyan kényszerítsd a betűtípus gyorsítótárat az Aspose.PSD for Java-val. Optimalizáld a képfeldolgozást és növeld a teljesítményt ezzel a lépésről‑lépésre útmutatóval.
+### Hogyan alkalmazzunk drop shadow‑t Java‑ban
+A drop shadow‑k mélységet adnak a grafikáknak. Kövesd a „Renderelt Drop Shadow alkalmazása” oktatóanyagot, hogy megtanuld a szükséges effektus‑osztályt és paramétereket a professzionális megjelenéshez.
 
-### [Implement Bicubic Resampler in Aspose.PSD for Java](./implement-bicubic-resampler/)
-Fejleszd a Java képek átméretezését az Aspose.PSD for Java Bicubic Resamplerével. Kövesd lépésről‑lépésre útmutatónkat a kiváló eredményekért.
+### Kép forgatása specifikus szöggel Java‑ban
+Amikor egy tervezés nem‑szabványos forgatást igényel, a „Kép forgatása specifikus szöggel” útmutató végigvezet a `rotate(double)` metódus bármely lebegőpontos szög átadásán.
 
-### [Implement Lossy GIF Compressor in Aspose.PSD for Java](./implement-lossy-gif-compressor/)
-Optimalizáld webes képeidet zökkenőmentesen az Aspose.PSD for Java Lossy GIF Compressorével. Kövesd lépésről‑lépésre útmutatónkat a hatékony megvalósításhoz.
+### GIF képek optimalizálása Aspose.PSD‑vel
+Az animált GIF‑ek gyakran igényelnek méretcsökkentést a webes teljesítmény érdekében. A „Lossy GIF Compressor implementálása” oktatóanyag bemutatja, hogyan tömöríts GIF‑eket a vizuális hűség megőrzése mellett.
 
-### [Invert Adjustment Layer in Aspose.PSD for Java](./invert-adjustment-layer/)
-Fedezd fel az Invert Adjustment Layer-t az Aspose.PSD for Java-ban. Egy erőteljes Java könyvtár a zökkenőmentes PSD fájlmanipulációhoz.
+## Fejlett képfeldolgozási oktatóanyagok
+### [Betűtípusok cseréje Aspose.PSD for Java‑ban](./replace-fonts/)
+Tanuld meg, hogyan cserélj betűtípusokat képeken az Aspose.PSD for Java‑val. Kövesd lépésről‑lépésre útmutatónkat a hatékony betűtípus‑manipulációhoz.
 
-### [Apply Rendering Color Effect in Aspose.PSD for Java](./rendering-color-effect/)
-Fejleszd Java alkalmazásaidat dinamikus színátfedésekkel az Aspose.PSD használatával. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz és lenyűgöző vizuális hatásokhoz.
+### [Betűtípus‑gyorsítótár kényszerítése Aspose.PSD for Java‑val](./force-font-cache/)
+Tanuld meg, hogyan kényszerítsd a betűtípus‑gyorsítótárat az Aspose.PSD for Java‑val. Optimalizáld a képfeldolgozást és növeld a teljesítményt ezzel a részletes útmutatóval.
 
-### [Apply Rendering Drop Shadow in Aspose.PSD for Java](./rendering-drop-shadow/)
-Fedezd fel a lépésről‑lépésre útmutatót a renderelt vetett árnyékok alkalmazásához az Aspose.PSD for Java-ban, könnyedén fejlesztve képfeldolgozási készségeidet.
+### [Bicubic Resampler implementálása Aspose.PSD for Java‑ban](./implement-bicubic-resampler/)
+Fejleszd a Java képméretezést az Aspose.PSD for Java Bicubic Resampler‑rel. Kövesd lépésről‑lépésre útmutatónkat a kiváló eredményekért.
 
-### [Resize Image Proportionally with Aspose.PSD for Java](./resize-image-proportionally/)
-Fejleszd Java alkalmazásaidat az Aspose.PSD-vel. Kövesd útmutatónkat a **resize image proportionally java** könnyed végrehajtásához. Növeld ma a képkezelési képességeidet.
+### [Lossy GIF Compressor implementálása Aspose.PSD for Java‑ban](./implement-lossy-gif-compressor/)
+Optimalizáld webes képeidet zökkenőmentesen az Aspose.PSD for Java Lossy GIF Compressor‑jával. Kövesd lépésről‑lépésre útmutatónkat a hatékony megvalósításhoz. 
 
-### [Resizing with Resize Type Enumeration in Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
-Mesterezz a képek átméretezésében Java-ban az Aspose.PSD-vel. Lépésről‑lépésre útmutató a Resize Type Enumeration használatával.
+### [Invert Adjustment Layer Aspose.PSD for Java‑ban](./invert-adjustment-layer/)
+Fedezd fel az Invert Adjustment Layer‑t az Aspose.PSD for Java‑ban. Egy erőteljes Java‑könyvtár a zökkenőmentes PSD fájlmanipulációhoz.
 
-### [Rotate an Image in Aspose.PSD for Java](./rotate-image/)
-Fedezd fel a képek forgatását Java-ban könnyedén az Aspose.PSD-vel. Forgass, tükrözz és ments PSD fájlokat egyszerűen.
+### [Rendering Color Effect alkalmazása Aspose.PSD for Java‑ban](./rendering-color-effect/)
+Fejleszd Java‑alkalmazásaidat dinamikus színátfedésekkel az Aspose.PSD‑vel. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes integráció és a lenyűgöző vizuális hatások érdekében.
 
-### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
-Fedezd fel a képek forgatását Java-ban az Aspose.PSD for Java-val. Forgass képeket könnyedén **rotate image specific angle**.
+### [Renderelt Drop Shadow alkalmazása Aspose.PSD for Java‑ban](./rendering-drop-shadow/)
+Fedezd fel a lépésről‑lépésre útmutatót a renderelt drop shadow‑k alkalmazásához az Aspose.PSD for Java‑ban, és fejleszd képfeldolgozási képességeidet egyszerűen.
+
+### [Képek arányos átméretezése Aspose.PSD for Java‑val](./resize-image-proportionally/)
+Fejleszd Java‑alkalmazásaidat az Aspose.PSD‑vel. Kövesd útmutatónkat a **resize image proportionally java** egyszerű megvalósításához. Növeld ma a képek kezelésének lehetőségeit.
+
+### [Méretezés Resize Type Enumeration használatával Aspose.PSD for Java‑ban](./resizing-with-resize-type-enumeration/)
+Mesterezz a képméretezésben Java‑ban az Aspose.PSD‑vel. Lépésről‑lépésre útmutató a Resize Type Enumeration használatával. 
+
+### [Kép forgatása Aspose.PSD for Java‑ban](./rotate-image/)
+Fedezd fel a képforgatást Java‑ban egyszerűen az Aspose.PSD‑vel. Forgass, tükrözz és ments PSD fájlokat könnyedén.
+
+### [Kép forgatása specifikus szöggel Aspose.PSD for Java‑val](./rotate-image-specific-angle/)
+Fedezd fel a képforgatást Java‑ban az Aspose.PSD for Java‑val. Forgass képeket **rotate image specific angle** egyszerűen.
 
 ## Gyakran Ismételt Kérdések
 
-**Q: Rotálhatok PSD képet anélkül, hogy elveszíteném a réteg információkat?**  
-A: Igen. Az Aspose.PSD a képet rétegszinten forgatja, megőrizve az összes korrekciós réteget, maszkot és effektet.
+**Q: Forgathatok PSD‑képet anélkül, hogy elveszíteném a réteginformációkat?**  
+A: Igen. Az Aspose.PSD a képet rétegszinten forgatja, megőrizve minden beállítási réteget, maszkot és effektust.
 
-**Q: Hogyan forgathatok képet, amely nem 90°-os többszöröse?**  
-A: Használd a `rotate(double angle)` metódust, amely bármilyen lebegőpontos szöget (pl. 45.0) elfogad a sima forgatáshoz.
+**Q: Hogyan forgathatok képet, ha a szög nem 90°‑os többszöröse?**  
+A: Használd a `rotate(double angle)` metódust, amely tetszőleges lebegőpontos szöget (például 45.0) fogad a sima forgatáshoz.
 
-**Q: Van teljesítménybeli hatása a nagy PSD fájlok forgatásának?**  
-A: Minimális. A betűtípus gyorsítótár engedélyezése (lásd a “Force Font Cache” tutorialt) és a legújabb könyvtárverzió használata csökkenti a memóriaigényt.
+**Q: Van teljesítménybeli hatása a nagy PSD‑fájlok forgatásának?**  
+A: Minimális. A betűtípus‑gyorsítótár engedélyezése (lásd a „Betűtípus‑gyorsítótár kényszerítése” oktatóanyagot) és a legújabb könyvtárverzió használata csökkenti a memóriaigényt.
 
-**Q: Szükségem van külön könyvtárra a betűtípus cseréjéhez?**  
-A: Nem. Az Aspose.PSD beépített API-kat tartalmaz a betűtípusok cseréjéhez, így egyszerűen megvalósítható **how to replace fonts java** további függőségek nélkül.
+**Q: Szükségem van külön könyvtárra a betűtípuscserehez?**  
+A: Nem. Az Aspose.PSD beépített API‑kat tartalmaz a betűtípusok cseréjéhez, így egyszerűen megvalósítható a **how to replace fonts java** anélkül, hogy további függőségekre lenne szükség.
 
-**Q: Mely Java verziók támogatottak hivatalosan?**  
+**Q: Mely Java‑verziók vannak hivatalosan támogatva?**  
 A: Az Aspose.PSD for Java támogatja a Java 8, 11, 17 és újabb LTS kiadásokat.
 
 ---
 
-**Utoljára frissítve:** 2025-12-05  
-**Tesztelve:** Aspose.PSD for Java 24.12 (legújabb a írás időpontjában)  
-**Szerző:** Aspose
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
