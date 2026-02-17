@@ -1,8 +1,8 @@
 ---
-date: 2025-12-10
+date: 2026-02-17
 description: Aspose.PSD for Java kullanarak PSD katmanlarını nasıl çıkaracağınızı
-  ve PSD katmanlarını PNG'ye nasıl dönüştüreceğinizi öğrenin. Güçlü grafik manipülasyonu
-  gerektiren geliştiriciler için idealdir.
+  ve PSD katmanlarını PNG’ye nasıl dönüştüreceğinizi öğrenin. Güçlü grafik işleme
+  ihtiyacı olan geliştiriciler için idealdir.
 linktitle: Extract PSD Layers and Add Layer Support for PSD Files using Aspose.PSD
   Java
 second_title: Aspose.PSD Java API
@@ -16,39 +16,40 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD Java Kullanarak PSD Katmanlarını Çıkarın ve PSD Dosyaları için Katman Desteği Ekleyin
+# PSD Katmanlarını Çıkarın ve PSD Dosyaları için Katman Desteği Ekleyin Aspose.PSD Java
 
-## Introduction
-Photoshop Document (PSD) dosyalarıyla çalışmak, grafik tasarımcılar ve geliştiriciler için günlük bir gerçektir. En yaygın görevlerden biri **PSD katmanlarını çıkarmaktır**, böylece bu katmanlar düzenlenebilir, yeniden kullanılabilir veya PNG gibi diğer formatlara dönüştürülebilir. Java uygulamalarında Aspose.PSD bu süreci basit ve kod‑dostu hâle getirir. Bu öğreticide, PSD katmanlarını çıkarmak, katman desteğini etkinleştirmek ve **PSD katmanlarını PNG’ye dönüştürmek** için gereken adımları net açıklamalar ve pratik ipuçlarıyla adım adım göstereceğiz.
+## Giriş
+Photoshop Document (PSD) dosyalarıyla çalışmak, grafik tasarımcıları ve geliştiriciler için günlük bir gerçektir. En yaygın görevlerden biri **PSD katmanlarını çıkarmaktır**, böylece düzenlenebilir, yeniden kullanılabilir veya PNG gibi diğer formatlara dönüştürülebilir. Java uygulamalarında Aspose.PSD bu süreci basit ve kod‑dostu hâle getirir. Bu öğreticide, PSD katmanlarını çıkarmak, katman desteğini etkinleştirmek ve **PSD katmanlarını PNG'ye dönüştürmek** için gereken adımları net açıklamalar ve pratik ipuçlarıyla ele alacağız.
 
-## Quick Answers
-- **“extract PSD layers” ne anlama geliyor?** Bir PSD dosyasını yükleyip her bir katmana erişerek onları manipüle etmek veya dışa aktarmak anlamına gelir.  
-- **Java’da bunu hangi kütüphane sağlıyor?** Aspose.PSD for Java, Photoshop’a ihtiyaç duymadan tam özellikli PSD işleme sunar.  
-- **PSD katmanlarını tek seferde PNG’ye dönüştürebilir miyim?** Evet—dosyayı uygun seçeneklerle yükleyip şeffaflığı koruyan PNG seçenekleriyle kaydederek.  
-- **Üretim kullanımı için lisansa ihtiyacım var mı?** Üretim için ticari bir lisans gereklidir; değerlendirme amacıyla ücretsiz bir deneme sürümü mevcuttur.  
+## Hızlı Yanıtlar
+- **“extract PSD layers” ne anlama geliyor?** Bir PSD dosyasını yüklemek ve her bir katmana manipülasyon veya dışa aktarma için erişmek anlamına gelir.  
+- **Bu işlemi Java’da hangi kütüphane yapıyor?** Aspose.PSD for Java, Photoshop’a ihtiyaç duymadan tam özellikli PSD işleme sağlar.  
+- **PSD katmanlarını tek seferde PNG’ye dönüştürebilir miyim?** Evet—dosyayı uygun seçeneklerle yükleyip, şeffaflığı koruyan PNG seçenekleriyle kaydederek.  
+- **Üretim kullanımı için lisansa ihtiyacım var mı?** Üretim için ticari bir lisans gereklidir; değerlendirme için ücretsiz bir deneme sürümü mevcuttur.  
 - **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri (öğreticide örnek olarak JDK 11 kullanılmıştır).
 
-## What is “extract PSD layers”?
-PSD katmanlarını çıkarmak, bir PSD dosyasının iç yapısını okuyup her katmanı bağımsız bir görüntü nesnesi olarak elde etmeyi ifade eder. Bu sayede katmanları programatik olarak düzenleyebilir, gizleyebilir, yeniden sıralayabilir veya tek tek dışa aktarabilirsiniz—tıpkı tasarımcıların Photoshop’ta yaptığı gibi.
+## Aspose.PSD for Java Kullanarak PSD Katmanlarını Nasıl Çıkarılır
+Aşağıda, ortamınızı kurmaktan son PNG’yi kaydetmeye kadar her şeyi kapsayan adım‑adım bir rehber bulacaksınız. Her numaralı adımı izleyin, birkaç dakika içinde çalışan bir çözüm elde edeceksiniz.
 
-## Why extract PSD layers and convert them to PNG?
-- **Varlıkları yeniden kullanma:** Manuel dışa aktarma yapmadan bir master PSD’den ikon, buton veya UI öğelerini çekin.  
-- **Otomasyon:** Anlık olarak küçük resimler veya web‑hazır görüntüler üretin.  
+## Neden PSD katmanlarını çıkarıp PNG'ye dönüştürmeliyiz?
+- **Varlıkları yeniden kullanma:** Bir ana PSD’den ikon, düğme veya UI öğelerini manuel dışa aktarma yapmadan çekin.  
+- **Otomasyon:** Anlık olarak küçük resimler veya web‑hazır görseller üretin.  
 - **Şeffaflığı koruma:** PNG, alfa kanallarını tutar ve web grafikleri için mükemmeldir.  
+- **Çapraz‑platform:** Sunucuda Photoshop’a gerek yok; Aspose.PSD, Java çalıştığı her yerde çalışır.
 
-## Prerequisites
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## Önkoşullar
+İlerlemeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Development Environment** – JDK yüklü. [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilirsiniz.  
-2. **Aspose.PSD for Java** – En son kütüphaneyi resmi indirme sayfasından [burada](https://releases.aspose.com/psd/java/) alın.  
-3. **Temel Java bilgisi** – Java programlarını derleme ve çalıştırma konusunda deneyim.  
+1. **Java Geliştirme Ortamı** – JDK yüklü. [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilirsiniz.  
+2. **Aspose.PSD for Java** – Resmi indirme sayfasından en son kütüphaneyi [buradan](https://releases.aspose.com/psd/java/) alın.  
+3. **Temel Java bilgisi** – Java programlarını derleme ve çalıştırma konusunda aşina olun.  
 4. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
-5. **Bir PSD dosyası** – Kendi PSD’nizi kullanın veya test için bir örnek PSD indirin.
+5. **Bir PSD dosyası** – Sahip olduğunuz herhangi bir PSD’yi kullanın veya test için örnek bir PSD indirin.
 
-Bu gereksinimler hazır olduğunda PSD katmanlarını çıkarmaya başlayabilirsiniz.
+Bu maddelere sahip olduğunuzda, PSD katmanlarını çıkarmaya hazırsınız.
 
-## Import Packages
-Aspose.PSD kütüphanesinden ihtiyacımız olan sınıfları içe aktarın.
+## Paketleri İçe Aktarma
+İlk olarak, Aspose.PSD kütüphanesinden ihtiyacımız olan sınıfları içe aktaracağız.
 
 ```java
 import com.aspose.psd.Image;
@@ -58,8 +59,8 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Define Your Directories
-Kaynak PSD ve çıktı PNG için yolları ayarlayın. `dataDir` değişkenini dosyalarınızın bulunduğu klasöre göre güncelleyin.
+## Adım 1: Dizinlerinizi Tanımlayın
+Kaynak PSD ve çıkış PNG için yolları ayarlayın. `dataDir` değişkenini dosyalarınızın bulunduğu klasöre göre düzenleyin.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,8 +72,8 @@ String output = dataDir + "layers.png";
 - `sourceFileName` – İşlemek istediğiniz PSD’nin tam yolu.  
 - `output` – Çıkarılan katmanları içerecek PNG’nin hedef yolu.
 
-## Step 2: Set Up the Load Options
-`PsdLoadOptions` yapılandırması, tüm katman efektleri ve kaynaklarının doğru şekilde yüklenmesini sağlar; bu, **extract PSD layers** işlemi için kritiktir.
+## Adım 2: Yükleme Seçeneklerini Ayarlayın
+`PsdLoadOptions` yapılandırması, tüm katman efektlerinin ve kaynaklarının doğru şekilde yüklenmesini sağlar; bu, **PSD katmanlarını çıkarmak** istediğinizde kritiktir.
 
 ```java
 PsdLoadOptions imageLoadOptions = new PsdLoadOptions();
@@ -81,74 +82,74 @@ imageLoadOptions.setUseDiskForLoadEffectsResource(true);
 ```
 
 - `setLoadEffectsResource(true)` – Katmanlara eklenmiş ek efektleri (gölge gibi) yükler.  
-- `setUseDiskForLoadEffectsResource(true)` – Ağır kaynakları diske yönlendirerek bellek yükünü azaltır.
+- `setUseDiskForLoadEffectsResource(true)` – Ağır kaynakları diske yönlendirerek bellek baskısını azaltır.
 
-## Step 3: Load the PSD File
-Tanımladığınız seçenekleri kullanarak PSD’yi bir `PsdImage` nesnesine yükleyin.
+## Adım 3: PSD Dosyasını Yükleyin
+Şimdi, yukarıda tanımlanan seçenekleri kullanarak PSD’yi bir `PsdImage` nesnesine yükleyeceğiz.
 
 ```java
 PsdImage image = (PsdImage) Image.load(sourceFileName, imageLoadOptions);
 ```
 
-Bu noktada `image` tüm katmanları, maskeleri ve efektleri içerir ve çıkarılmaya hazırdır.
+Bu noktada, `image` tüm katmanları, maskeleri ve efektleri içerir ve çıkarma için hazırdır.
 
-## Step 4: Set Up the Save Options
-PNG’nin nasıl kaydedileceğini yapılandırın. `TruecolorWithAlpha` seçeneği, orijinal katmanlardaki şeffaflığı korur.
+## Adım 4: Kaydetme Seçeneklerini Ayarlayın
+PNG’nin nasıl kaydedileceğini yapılandırın. `TruecolorWithAlpha` kullanmak, orijinal katmanlardan şeffaflığı korur.
 
 ```java
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-## Step 5: Save the Image (Convert PSD Layers to PNG)
-Yüklenen PSD’yi (tüm katmanlarıyla) tek bir PNG dosyasına dışa aktarın. Bu adım **convert psd layers png** işlemini tek seferde gerçekleştirir.
+## Adım 5: Görüntüyü Kaydedin (PSD Katmanlarını PNG'ye Dönüştürün)
+Yüklenen PSD’yi (tüm katmanlarıyla) tek bir PNG dosyasına dışa aktarın. Bu adım, **convert psd layers png** işlemini tek seferde gerçekleştirir.
 
 ```java
 image.save(output, saveOptions);
 ```
 
-Her katmanı ayrı bir PNG olarak kaydetmek isterseniz `image.getLayers()` üzerinde döngü kurabilirsiniz—ancak çoğu senaryoda birleştirilmiş PNG yeterli olur.
+Her katmanı ayrı bir PNG olarak kaydetmeniz gerekiyorsa, `image.getLayers()` üzerinde döngü kurabilirsiniz—ancak çoğu senaryoda birleştirilmiş PNG yeterlidir.
 
-## Step 6: Wrap It Up
+## Adım 6: İşlemi Tamamlayın
 İşlemin başarılı olduğunu gösteren dostça bir konsol mesajı ekleyin.
 
 ```java
 System.out.println("PSD Layers have been successfully converted to PNG!");
 ```
 
-## Common Issues & Tips
-- **Out‑of‑Memory Errors:** Çok büyük PSD’ler işliyorsanız `setUseDiskForLoadEffectsResource(true)` seçeneğini açık tutarak geçici verileri diske yönlendirin.  
-- **Missing Effects:** `setLoadEffectsResource(true)` ayarının yapıldığından emin olun; aksi takdirde bazı katman efektleri göz ardı edilebilir.  
-- **Path Problems:** Platform bağımsız yol yönetimi için `java.nio.file` paketinden `Paths.get(...)` kullanın.
+## Yaygın Sorunlar ve İpuçları
+- **Out‑of‑Memory Hataları:** Çok büyük PSD’ler işliyorsanız, geçici verileri diske yönlendirmek için `setUseDiskForLoadEffectsResource(true)` etkin tutun.  
+- **Eksik Efektler:** `setLoadEffectsResource(true)` ayarının yapıldığından emin olun; aksi takdirde bazı katman efektleri göz ardı edilebilir.  
+- **Yol Problemleri:** Platform bağımsız yol yönetimi için `java.nio.file` paketinden `Paths.get(...)` kullanın.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
 **S: Aspose.PSD for Java nedir?**  
 C: Aspose.PSD for Java, Photoshop yüklü olmadan PSD dosyalarını manipüle etmenizi sağlayan bir kütüphanedir.
 
-**S: Aspose.PSD’yi diğer dosya formatları için de kullanabilir miyim?**  
-C: Evet! Öncelikli olarak PSD dosyaları için olsa da Aspose, çeşitli diğer formatlar için de kütüphaneler sunar.
+**S: Aspose.PSD'yi diğer dosya formatları için kullanabilir miyim?**  
+C: Evet! Öncelikli olarak PSD dosyaları için olsa da, Aspose çeşitli diğer formatlar için de kütüphaneler sunar.
 
 **S: Deneme sürümü mevcut mu?**  
 C: Kesinlikle! Ücretsiz bir deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
 
 **S: Yardıma ihtiyacım olursa nereden destek alabilirim?**  
-C: Aspose forumunda [buradan](https://forum.aspose.com/c/psd/34) destek bulabilirsiniz.
+C: Aspose forumunda [buradan](https://forum.aspose.com/c/psd/34) destek alabilirsiniz.
 
-**S: PNG’den PSD’ye geri dönüştürme yapabilir miyim?**  
-C: Aspose.PSD kütüphanesi daha çok PSD dosyalarını okuma ve manipüle etme üzerine odaklanır; diğer formatları PSD’ye dönüştürme bu kapsamda değildir.
+**S: PNG'den PSD'ye geri dönüştürebilir miyim?**  
+C: Aspose.PSD kütüphanesi daha çok PSD dosyalarını okuma ve manipüle etmeye odaklanır; diğer formatları PSD'ye dönüştürme bu kapsamda değildir.
 
-**S: Her katmanı ayrı bir PNG olarak nasıl çıkarabilirim?**  
+**S: Her katmanı ayrı bir PNG olarak nasıl çıkarırım?**  
 C: `image.getLayers()` üzerinde döngü kurun, her katman için yeni bir `Bitmap` oluşturun ve kendi `PngOptions` ile kaydedin. Böylece katman başına ayrı PNG dosyaları elde edersiniz.
 
-## Conclusion
-Artık **PSD katmanlarını çıkarmayı**, tam katman desteğini etkinleştirmeyi ve **PSD katmanlarını PNG’ye dönüştürmeyi** Aspose.PSD for Java kullanarak öğrendiniz. İster otomatik bir varlık hattı oluşturuyor olun, ister masaüstü uygulamanıza grafik yetenekleri ekliyor olun, bu yaklaşım Photoshop’a ihtiyaç duymadan Photoshop dosyaları üzerinde ince kontrol sağlar. Filtre uygulama, programatik olarak katman birleştirme veya her katmanı ayrı ayrı dışa aktarma gibi konuları keşfetmeye devam edin.
+## Sonuç
+Artık **PSD katmanlarını çıkarmayı**, tam katman desteği eklemeyi ve **PSD katmanlarını PNG'ye dönüştürmeyi** Aspose.PSD for Java kullanarak öğrendiniz. İster otomatik bir varlık hattı oluşturuyor olun, ister masaüstü uygulamasına grafik yetenekleri ekliyor olun, bu yaklaşım Photoshop’a ihtiyaç duymadan Photoshop dosyaları üzerinde ince kontrol sağlar. Filtre uygulama, katmanları programatik birleştirme veya her katmanı ayrı ayrı dışa aktarma gibi konuları keşfetmeye devam edin.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Last Updated:** 2026-02-17  
+**Test Edildi:** Aspose.PSD for Java 24.11 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

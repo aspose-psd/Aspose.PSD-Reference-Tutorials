@@ -1,54 +1,63 @@
 ---
-date: 2025-12-10
-description: Leer hoe u PSD‑lagen kunt extraheren en PSD‑lagen naar PNG kunt converteren
-  met Aspose.PSD voor Java. Ideaal voor ontwikkelaars die robuuste grafische manipulatie
+date: 2026-02-17
+description: Leer hoe u PSD‑lagen kunt extraheren en PSD‑lagen kunt converteren naar
+  PNG met Aspose.PSD voor Java. Ideaal voor ontwikkelaars die robuuste grafische manipulatie
   nodig hebben.
 linktitle: Extract PSD Layers and Add Layer Support for PSD Files using Aspose.PSD
   Java
 second_title: Aspose.PSD Java API
-title: PSD‑lagen extraheren en laagondersteuning toevoegen voor PSD‑bestanden met
+title: PSD-lagen extraheren en laagondersteuning toevoegen voor PSD‑bestanden met
   Aspose.PSD Java
 url: /nl/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 weight: 13
 ---
 
+.
+
+Make sure not to translate URLs.
+
+Translate bullet points.
+
+Let's produce final content.
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD-lagen extraheren en laagondersteuning toevoegen voor PSD-bestanden met Aspose.PSD Java
+# Extract PSD-lagen en voeg laagondersteuning toe voor PSD-bestanden met Aspose.PSD Java
 
-## Introduction
-Werken met Photoshop Document (PSD)-bestanden is een dagelijkse realiteit voor grafisch ontwerpers en ontwikkelaars. Een van de meest voorkomende taken is om **PSD-lagen te extraheren** zodat ze bewerkt, hergebruikt of geconverteerd kunnen worden naar andere formaten zoals PNG. In Java‑toepassingen maakt Aspose.PSD dit proces eenvoudig en code‑vriendelijk. In deze tutorial lopen we stap voor stap door de exacte stappen die nodig zijn om PSD-lagen te extraheren, laagondersteuning in te schakelen en **PSD-lagen naar PNG te converteren**—alles met duidelijke uitleg en praktische tips.
+## Inleiding
+Werken met Photoshop Document (PSD)-bestanden is een dagelijkse realiteit voor zowel grafisch ontwerpers als ontwikkelaars. Een van de meest voorkomende taken is het **extraheren van PSD-lagen** zodat ze bewerkt, hergebruikt of geconverteerd kunnen worden naar andere formaten zoals PNG. In Java‑applicaties maakt Aspose.PSD dit proces eenvoudig en code‑vriendelijk. In deze tutorial lopen we stap voor stap door de exacte handelingen die nodig zijn om PSD-lagen te extraheren, laagondersteuning in te schakelen en **PSD-lagen naar PNG te converteren** — allemaal met duidelijke uitleg en praktische tips.
 
-## Quick Answers
-- **Wat betekent “PSD-lagen extraheren”?** Het betekent een PSD‑bestand laden en elke individuele laag benaderen voor manipulatie of export.  
-- **Welke bibliotheek regelt dit in Java?** Aspose.PSD for Java biedt volledige PSD‑verwerking zonder Photoshop nodig te hebben.  
-- **Kan ik PSD-lagen in één keer naar PNG converteren?** Ja—door het bestand te laden met de juiste opties en het op te slaan met PNG‑opties die transparantie behouden.  
-- nodig voor productiegebruik?** Een commerciële licentie is vereist voor productie; een gratis proefversie is beschikbaar voor evaluatie.  
-- **Welke Java‑versie is vereist?** JDK 8 of hoger (de tutorial gebruikt JDK 11 als voorbeeld).
+## Snelle antwoorden
+- **Wat betekent “extraheren van PSD-lagen”?** Het betekent een PSD‑bestand laden en toegang krijgen tot elke afzonderlijke laag voor manipulatie of export.  
+- **Welke bibliotheek regelt dit in Java?** Aspose.PSD for Java biedt volledige PSD‑verwerking zonder Photoshop.  
+- **Kan ik PSD-lagen in één keer naar PNG converteren?** Ja — door het bestand te laden met de juiste opties en het op te slaan met PNG‑opties die transparantie behouden.  
+- **Heb ik een licentie nodig voor productiegebruik?** Een commerciële licentie is vereist voor productie; een gratis proefversie is beschikbaar voor evaluatie.  
+- **Welke Java‑versie is vereist?** JDK 8 of hoger (de tutorial gebruikt JDK 11 als voorbeeld).
 
-## What is “extract PSD layers”?
-Het extraheren van PSD‑lagen verwijst naar het lezen van de interne structuur van een PSD‑bestand en het ophalen van elke laag als een onafhankelijk afbeelding‑object. Dit stelt je in staat om lagen afzonderlijk te bewerken, verbergen, herschikken of exporteren—exact wat ontwerpers in Photoshop doen, maar dan programmatisch.
+## Hoe PSD-lagen extraheren met Aspose.PSD for Java
+Hieronder vind je een stap‑voor‑stap‑gids die alles behandelt, van het opzetten van je omgeving tot het opslaan van de uiteindelijke PNG. Volg elke genummerde stap en je hebt binnen enkele minuten een werkende oplossing.
 
-## Why extract PSD layers and convert them to PNG?
+## Waarom PSD-lagen extraheren en ze naar PNG converteren?
 - **Assets hergebruiken:** Haal iconen, knoppen of UI‑elementen uit een master‑PSD zonder handmatig te exporteren.  
 - **Automatisering:** Genereer thumbnails of web‑klare afbeeldingen on‑the‑fly.  
-- **Transparantie behouden:** PNG behoudt alfa‑kanalen, waardoor het perfect is voor web‑graphics.  
+- **Transparantie behouden:** PNG behoudt alfakanalen, waardoor het perfect is voor web‑graphics.  
+- **Cross‑platform:** Geen Photoshop nodig op de server; Aspose.PSD draait overal waar Java draait.
 
-## Prerequisites
+## Vereisten
 Voordat we beginnen, zorg dat je het volgende hebt:
 
-1. **Java Development Environment** – JDK geïnstalleerd. Je kunt het downloaden van de [Oracle-website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+1. **Java‑ontwikkelomgeving** – JDK geïnstalleerd. Je kunt deze downloaden van de [Oracle‑website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
 2. **Aspose.PSD for Java** – Haal de nieuwste bibliotheek op van de officiële downloadpagina [hier](https://releases.aspose.com/psd/java/).  
-3. **Basiskennis van Java** – Vertrouwd met het compileren en uitvoeren van Java‑programma's.  
-4. **IDE** – IntelliJ IDEA, Eclipse, of een andere editor naar keuze.  
-5. **Een PSD‑bestand** – Gebruik een PSD die je hebt, of download een voorbeeld‑PSD voor testdoeleinden.
+3. **Basiskennis van Java** – Vertrouwd met het compileren en uitvoeren van Java‑programma’s.  
+4. **IDE** – IntelliJ IDEA, Eclipse of een andere editor naar keuze.  
+5. **Een PSD‑bestand** – Gebruik een eigen PSD of download een voorbeeld‑PSD voor testdoeleinden.
 
-Zodra je deze klaar hebt, kun je beginnen met het extraheren van PSD‑lagen.
+Zodra je deze zaken klaar hebt, kun je beginnen met het extraheren van PSD‑lagen.
 
-## Import Packages
-First, import the classes we’ll need from the Aspose.PSD library.
+## Pakketten importeren
+Importeer eerst de klassen die we nodig hebben uit de Aspose.PSD‑bibliotheek.
 
 ```java
 import com.aspose.psd.Image;
@@ -58,8 +67,8 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Define Your Directories
-Stel de paden in voor de bron‑PSD en de uitvoer‑PNG. Pas `dataDir` aan zodat het naar de map wijst waar je bestanden staan.
+## Stap 1: Definieer je mappen
+Stel de paden in voor de bron‑PSD en de uitvoer‑PNG. Pas `dataDir` aan zodat het verwijst naar de map waarin je bestanden staan.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,8 +80,8 @@ String output = dataDir + "layers.png";
 - `sourceFileName` – Volledig pad naar de PSD die je wilt verwerken.  
 - `output` – Doelpad voor de PNG die de geëxtraheerde lagen zal bevatten.
 
-## Step 2: Set Up the Load Options
-Het configureren van `PsdLoadOptions` zorgt ervoor dat alle laageffecten en resources correct worden geladen, wat essentieel is wanneer je **PSD-lagen extraheren**.
+## Stap 2: Laadopties instellen
+Het configureren van `PsdLoadOptions` zorgt ervoor dat alle laageffecten en bronnen correct worden geladen, wat essentieel is wanneer je **PSD-lagen extrahert**.
 
 ```java
 PsdLoadOptions imageLoadOptions = new PsdLoadOptions();
@@ -81,10 +90,10 @@ imageLoadOptions.setUseDiskForLoadEffectsResource(true);
 ```
 
 - `setLoadEffectsResource(true)` – Laadt extra effecten (zoals slagschaduwen) die aan lagen zijn gekoppeld.  
-- `setUseDiskForLoadEffectsResource(true)` – Verplaatst zware resources naar de schijf, waardoor het geheugen minder belast wordt.
+- `setUseDiskForLoadEffectsResource(true)` – Schrijft zware bronnen naar schijf, waardoor het geheugen minder belast wordt.
 
-## Step 3: Load the PSD File
-Nu laden we de PSD in een `PsdImage`‑object met de hierboven gedefinieerde opties.
+## Stap 3: Laad het PSD‑bestand
+Laad nu de PSD in een `PsdImage`‑object met de hierboven gedefinieerde opties.
 
 ```java
 PsdImage image = (PsdImage) Image.load(sourceFileName, imageLoadOptions);
@@ -92,42 +101,42 @@ PsdImage image = (PsdImage) Image.load(sourceFileName, imageLoadOptions);
 
 Op dit moment bevat `image` alle lagen, maskers en effecten, klaar voor extractie.
 
-## Step 4: Set Up the Save Options
-Configureer hoe de PNG wordt opgeslagen. Het gebruik van `TruecolorWithAlpha` behoudt transparantie van de oorspronkelijke lagen.
+## Stap 4: Opslaan‑opties instellen
+Configureer hoe de PNG wordt opgeslagen. Met `TruecolorWithAlpha` behoud je transparantie van de originele lagen.
 
 ```java
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-## Step 5: Save the Image (Convert PSD Layers to PNG)
-Exporteer de geladen PSD (met al zijn lagen) naar één PNG‑bestand. Deze stap **convert psd layers png** in één bewerking.
+## Stap 5: Sla de afbeelding op (converteer PSD‑lagen naar PNG)
+Exporteer de geladen PSD (met al zijn lagen) naar één PNG‑bestand. Deze stap **converteert PSD‑lagen naar PNG** in één bewerking.
 
 ```java
 image.save(output, saveOptions);
 ```
 
-Als je elke laag als een aparte PNG wilt, kun je itereren over `image.getLayers()`—maar voor veel gevallen is een samengevoegde PNG voldoende.
+Als je elke laag als een aparte PNG wilt, kun je itereren over `image.getLayers()` — maar voor veel scenario’s is een samengevoegde PNG voldoende.
 
-## Step 6: Wrap It Up
+## Stap 6: Rond af
 Voeg een vriendelijke console‑melding toe zodat je weet dat het proces geslaagd is.
 
 ```java
 System.out.println("PSD Layers have been successfully converted to PNG!");
 ```
 
-## Common Issues & Tips
-- **Out‑of‑Memory‑fouten:** Als je zeer grote PSD‑bestanden verwerkt, houd `setUseDiskForLoadEffectsResource(true)` ingeschakeld om tijdelijke data naar de schijf te verplaatsen.  
-- **Ontbrekende effecten:** Zorg dat `setLoadEffectsResource(true)` is ingesteld; anders kunnen sommige laageffecten worden genegeerd.  
-- **Pad‑problemen:** Gebruik `Paths.get(...)` uit `java.nio.file` voor platformonafhankelijke padafhandeling.
+## Veelvoorkomende problemen & tips
+- **Out‑of‑Memory‑fouten:** Als je zeer grote PSD’s verwerkt, houd `setUseDiskForLoadEffectsResource(true)` ingeschakeld om tijdelijke data naar schijf te verplaatsen.  
+- **Ontbrekende effecten:** Zorg dat `setLoadEffectsResource(true)` is ingesteld; anders worden sommige laageffecten genegeerd.  
+- **Padproblemen:** Gebruik `Paths.get(...)` uit `java.nio.file` voor platform‑onafhankelijke padafhandeling.
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
 **Q: Wat is Aspose.PSD for Java?**  
-A: Aspose.PSD for Java is een bibliotheek die je in staat stelt PSD‑bestanden te manipuleren zonder Photoshop geïnstalleerd te hebben.
+A: Aspose.PSD for Java is een bibliotheek waarmee je PSD‑bestanden kunt manipuleren zonder Photoshop geïnstalleerd te hebben.
 
 **Q: Kan ik Aspose.PSD voor andere bestandsformaten gebruiken?**  
-A: Ja! Hoewel het primair voor PSD‑bestanden is, biedt Aspose bibliotheken voor diverse andere formaten.
+A: Ja! Hoewel de bibliotheek primair voor PSD‑bestanden is, biedt Aspose ook bibliotheken voor diverse andere formaten.
 
 **Q: Is er een proefversie beschikbaar?**  
 A: Absoluut! Je kunt een gratis proefversie downloaden [hier](https://releases.aspose.com/).
@@ -136,19 +145,19 @@ A: Absoluut! Je kunt een gratis proefversie downloaden [hier](https://releases.a
 A: Je kunt ondersteuning vinden in het Aspose‑forum [hier](https://forum.aspose.com/c/psd/34).
 
 **Q: Kan ik terug converteren van PNG naar PSD?**  
-A: De Aspose.PSD‑bibliotheek richt zich meer op het lezen en manipuleren van PSD‑bestanden dan op het terug converteren van andere formaten naar PSD.
+A: De Aspose.PSD‑bibliotheek richt zich meer op het lezen en manipuleren van PSD‑bestanden dan op het converteren van andere formaten terug naar PSD.
 
 **Q: Hoe extraheren ik elke laag als een aparte PNG?**  
-A: Iterate over `image.getLayers()`, create a new `Bitmap` for each layer, and save it with its own `PngOptions`. This gives you individual PNG files per layer.
+A: Itereer over `image.getLayers()`, maak voor elke laag een nieuw `Bitmap` aan en sla deze op met eigen `PngOptions`. Zo krijg je individuele PNG‑bestanden per laag.
 
-## Conclusion
-Je hebt nu geleerd hoe je **PSD-lagen kunt extraheren**, volledige laagondersteuning kunt inschakelen en **PSD-lagen naar PNG kunt converteren** met Aspose.PSD for Java. Of je nu een geautomatiseerde asset‑pipeline bouwt of grafische mogelijkheden toevoegt aan een desktop‑app, deze aanpak geeft je fijne controle over Photoshop‑bestanden zonder dat Photoshop zelf nodig is. Voel je vrij om verder te verkennen—zoals filters toepassen, lagen programmatisch samenvoegen of elke laag afzonderlijk exporteren.
+## Conclusie
+Je hebt nu geleerd hoe je **PSD‑lagen kunt extraheren**, volledige laagondersteuning kunt inschakelen en **PSD‑lagen naar PNG kunt converteren** met Aspose.PSD for Java. Of je nu een geautomatiseerde asset‑pipeline bouwt of grafische mogelijkheden toevoegt aan een desktop‑app, deze aanpak geeft je fijne controle over Photoshop‑bestanden zonder dat Photoshop zelf nodig is. Voel je vrij om verder te experimenteren — bijvoorbeeld filters toepassen, lagen programmatically samenvoegen of elke laag afzonderlijk exporteren.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 2026-02-17  
+**Getest met:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
