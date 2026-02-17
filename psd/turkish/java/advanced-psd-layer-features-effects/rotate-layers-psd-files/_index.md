@@ -1,7 +1,7 @@
 ---
-date: 2025-12-15
-description: Aspose.PSD kullanarak Java'da PSD'yi PNG'ye dönüştürmeyi ve PSD katmanlarını
-  döndürmeyi öğrenin. Kod örnekleriyle adım adım rehber.
+date: 2026-02-17
+description: Aspose.PSD kullanarak Java'da PSD'yi PNG'ye dönüştürmeyi, PNG şeffaflığını
+  korumayı ve PSD katmanlarını döndürmeyi öğrenin. Kod örnekleriyle adım adım rehber.
 linktitle: Convert PSD to PNG and Rotate Layers in PSD Files using Java
 second_title: Aspose.PSD Java API
 title: Java kullanarak PSD'yi PNG'ye dönüştürün ve PSD dosyalarındaki katmanları döndürün
@@ -16,39 +16,40 @@ weight: 21
 # PSD'yi PNG'ye Dönüştürme ve PSD Dosyalarındaki Katmanları Java ile Döndürme
 
 ## Giriş
-Eğer **PSD'yi PNG'ye dönüştürmek** ve aynı zamanda katmanları döndürmek istiyorsanız, bu kılavuz tam size göre. İster toplu‑işlem aracı oluşturuyor olun, ister bir web hizmetine görüntü işleme entegrasyonu yapıyor olun, bunu programlı olarak yapmak zaman kazandırır ve Adobe Photoshop bağımlılığını ortadan kaldırır. Bu öğreticide **PSD'yi nasıl döndüreceğinizi** gösterecek ve sonucu Java için Aspose.PSD kütüphanesini kullanarak PNG olarak dışa aktaracağız. Kolları sıvayalım ve tasarım iş akışınızı sorunsuz bir şekilde çalıştırmaya başlayalım!
+**PSD'yi PNG'ye dönüştürürken** aynı zamanda katmanları döndürmeniz gerekiyorsa, bu kılavuz tam size göre. İster toplu‑işlem aracı, ister anlık görüntü işleme gerektiren bir web servisi, ister sadece tasarım iş akışını otomatikleştiriyor olun, programlı olarak yapmak zamanı tasarruf ettirir ve Adobe Photoshop bağımlılığını ortadan kaldırır. Bu öğreticide **PSD katmanlarını nasıl döndüreceğinizi** ve sonucu Aspose.PSD for Java kütüphanesini kullanarak PNG olarak dışa aktaracağınızı adım adım göstereceğiz. Kolları sıvayalım ve tasarım iş akışınızı sorunsuz hale getirelim!
 
 ## Hızlı Yanıtlar
 - **Hangi kütüphaneyi kullanabilirim?** Aspose.PSD for Java  
-- **Hem döndürebilir hem de aynı anda dönüştürebilir miyim?** Evet – PSD'yi döndürün, ardından PNG olarak kaydedin  
-- **Lisans gerekir mi?** Ücretsiz deneme sürümü test için çalışır; üretim için ücretli lisans gereklidir  
-- **Hangi Java sürümü destekleniyor?** Java 8 ve sonrası  
-- **PNG çıktısı şeffaf mı?** Evet, `PngColorType.TruecolorWithAlpha` ayarlandığında  
+- **Hem döndürüp hem de dönüştürebilir miyim?** Evet – PSD'yi döndürün, ardından PNG olarak kaydedin  
+- **Lisans gerekir mi?** Test için ücretsiz deneme sürümü yeterli; üretim için ücretli lisans gerekir  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri  
+- **PNG çıktısı şeffaf mı?** Evet, `PngColorType.TruecolorWithAlpha` ayarlandığında
 
 ## “PSD'yi PNG'ye dönüştürmek” nedir?
-Bir Photoshop belgesini (PSD) PNG görüntüsüne dönüştürmek, görsel içeriği—tüm katmanlar, maskeler ve şeffaflık dahil—geniş desteklenen bir raster formata çıkarmak anlamına gelir. PNG, alfa kanallarını korur ve bu da web grafikleri, küçük resimler ve ileri görüntü işleme için idealdir.
+Bir Photoshop belgesini (PSD) PNG görüntüsüne dönüştürmek, görsel içeriği—tüm katmanlar, maskeler ve şeffaflık dahil—geniş çapta desteklenen bir raster formata çıkarmak anlamına gelir. PNG alfa kanallarını korur, bu da web grafikleri, küçük resimler ve sonraki görüntü işleme için idealdir.
 
-## Neden PSD'yi PNG'ye dönüştürmek ve PSD katmanlarını döndürmek için Aspose.PSD for Java kullanmalısınız?
-- **Photoshop gerekmez** – herhangi bir sunucu veya CI ortamında çalışır  
-- **Tam katman desteği** – şeffaflık ve katman efektlerini olduğu gibi tutar  
-- **Basit API** – sadece birkaç metod çağrısı ile döndürür, çevirir ve kaydeder  
-- **Çapraz‑platform** – Windows, Linux ve macOS üzerinde çalışır  
+## Neden PSD'yi PNG'ye dönüştürmek ve PSD katmanlarını döndürmek için Aspose.PSD for Java kullanmalı?
+- **Photoshop gerekmez** – herhangi bir sunucu ya da CI ortamında çalışır  
+- **Tam katman desteği** – şeffaflık ve katman efektleri korunur  
+- **Basit API** – birkaç metod çağrısıyla döndürme, çevirme ve kaydetme  
+- **Çapraz‑platform** – Windows, Linux ve macOS’ta çalışır  
+- **Java görüntü dönüşümü** tek bir kütüphane ile zahmetsizce yapılır  
 
 ## Önkoşullar
-Koda geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
+Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - **Java Development Kit (JDK)** – [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirin.  
-- **Entegre Geliştirme Ortamı (IDE)** – IntelliJ IDEA, Eclipse veya NetBeans hepsi uygundur.  
-- **Aspose.PSD for Java kütüphanesi** – en son JAR dosyasını [sürüm sayfasından](https://releases.aspose.com/psd/java/) edinin.  
-- **Temel Java bilgisi** – sınıflar, nesneler ve istisna yönetimi konularına aşina olmak.  
+- **Entegre Geliştirme Ortamı (IDE)** – IntelliJ IDEA, Eclipse veya NetBeans yeterli.  
+- **Aspose.PSD for Java kütüphanesi** – En yeni JAR dosyasını [sürüm sayfasından](https://releases.aspose.com/psd/java/) edinin.  
+- **Temel Java bilgisi** – sınıflar, nesneler ve istisna yönetimi konularına aşina olun.
 
-## Adım Adım Kılavuz
+## Adım‑Adım Kılavuz
 
 ### Adım 1: Java Projenizi Kurun
-IDE'nizde yeni bir Java projesi oluşturun ve Aspose.PSD JAR dosyasını projenin derleme yoluna ekleyin.
+IDE’nizde yeni bir Java projesi oluşturun ve Aspose.PSD JAR dosyasını projenin derleme yoluna ekleyin.
 
 ### Adım 2: Gerekli Sınıfları İçe Aktarın
-Java kaynak dosyanızın en üstüne aşağıdaki içe aktarmaları ekleyin:
+Java kaynak dosyanızın en üstüne aşağıdaki import satırlarını ekleyin:
 
 ```java
 import com.aspose.psd.Image;
@@ -58,10 +59,10 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-Bu sınıflar, görüntü yükleme, döndürme ve PNG‑özel seçeneklerine erişmenizi sağlar.
+Bu sınıflar, görüntü yükleme, döndürme ve PNG‑özel seçeneklerine erişim sağlar.
 
 ### Adım 3: Dosya Yollarını Tanımlayın
-Kaynak PSD dosyanızın nerede bulunduğunu ve çıktı dosyalarının nereye yazılacağını belirtin.
+Kaynak PSD dosyanızın ve çıktı dosyalarının nerede bulunacağını belirtin.
 
 ```java
 String dataDir = "Your Document Directory"; // Change this to your actual document directory.
@@ -70,26 +71,26 @@ String pngPath = dataDir + "RotateFlipTest2617.png"; // Output PNG file path
 String psdPath = dataDir + "RotateFlipTest2617.psd"; // Output PSD file path
 ```
 
-> **Pro ipucu:** Test sırasında “dosya bulunamadı” hatalarını önlemek için mutlak bir yol kullanın.
+> **İpucu:** Test aşamasında “dosya bulunamadı” hatalarını önlemek için mutlak yol kullanın.
 
 ### Adım 4: PSD Dosyasını Yükleyin
-PSD'yi manipüle edilebilir bir nesneye yükleyin.
+PSD dosyasını manipüle edilebilir bir nesneye yükleyin.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFile);
 ```
 
-Şimdi `im`, tüm katmanlar dahil olmak üzere bütün Photoshop belgesini temsil ediyor.
+Artık `im` tüm Photoshop belgesini, tüm katmanlarıyla birlikte temsil ediyor.
 
 ### Adım 5: Görüntüyü Döndürün (PSD'yi nasıl döndürürsünüz)
-`RotateFlipType` içinden bir döndürme tipi seçin. Bu örnekte 270° döndürüp her iki ekseni de çeviriyoruz.
+`RotateFlipType` içinden bir döndürme türü seçin. Bu örnekte 270° döndürüp iki eksende de çeviriyoruz.
 
 ```java
 int flipType = RotateFlipType.Rotate270FlipXY; // Choose the rotation type
 im.rotateFlip(flipType); // Rotate the image
 ```
 
-`Rotate90FlipNone` veya `Rotate180FlipX` gibi diğer değerlerle denemeler yapabilirsiniz.
+`Rotate90FlipNone` veya `Rotate180FlipX` gibi diğer değerlerle deneme yapmaktan çekinmeyin. Bu, öğreticinin **PSD'yi nasıl döndürürsünüz** kısmıdır.
 
 ### Adım 6: Döndürülmüş Görüntüyü PNG Olarak Kaydedin (PSD'yi PNG'ye dönüştürün)
 Şeffaflığı korumak için PNG seçeneklerini yapılandırın, ardından kaydedin.
@@ -100,62 +101,61 @@ options.setColorType(PngColorType.TruecolorWithAlpha); // Preserve transparency
 im.save(pngPath, options); // Save the rotated image
 ```
 
-Ortaya çıkan PNG, katman şeffaflığını korur ve web kullanımına hazırdır.
+Ortaya çıkan PNG katman şeffaflığını korur, böylece **PNG şeffaflığını koruma** sonraki kullanım için sağlanır.
 
 ### Adım 7: Değiştirilmiş PSD'yi Kaydedin (isteğe bağlı)
-Eğer döndürme uygulanmış yeni bir PSD'ye de ihtiyacınız varsa, onu geri kaydedin.
+Döndürme uygulanmış yeni bir PSD dosyasına da ihtiyacınız varsa, onu geri kaydedin.
 
 ```java
 im.save(psdPath);
 ```
 
-Artık bir PNG önizlemesi ve güncellenmiş bir PSD dosyanız var.
+Artık bir PNG önizlemeniz ve güncellenmiş bir PSD dosyanız var.
 
 ## Yaygın Sorunlar ve Çözümler
-- **Dosya bulunamadı:** `dataDir`'in bir yol ayırıcı (`/` veya `\`) ile bittiğini doğrulayın.  
+- **Dosya bulunamadı:** `dataDir` sonunun bir yol ayırıcı (`/` veya `\`) ile bittiğinden emin olun.  
 - **Büyük PSD'lerde OutOfMemoryError:** JVM yığın boyutunu artırın (`-Xmx2g`).  
-- **Şeffaflık kayboldu:** `PngColorType.TruecolorWithAlpha` ayarlandığından emin olun; aksi takdirde PNG alfa olmadan kaydedilir.
+- **Şeffaflık kayboldu:** `PngColorType.TruecolorWithAlpha` ayarlandığından emin olun; aksi takdirde PNG alfa kanalı olmadan kaydedilir.  
+- **PSD görüntüsü beklenildiği gibi çevrilmiyor:** Seçtiğiniz `RotateFlipType` sabitini tekrar kontrol edin; bazı sabitler döndürme ve çevirme işlemini tek adımda birleştirir.
 
-## SSS
+## Sıkça Sorulan Sorular
 
-### Bir PSD dosyasındaki belirli bir katmanı döndürebilir miyim?
-Evet, `im.getLayers()` üzerinden döndükten sonra bireysel katmanlarda `Layer.rotateFlip()` kullanabilirsiniz.
+**S: Bir PSD dosyasındaki belirli bir katmanı döndürebilir miyim?**  
+C: Evet, `im.getLayers()` üzerinden döngü kurup her bir katmana `Layer.rotateFlip()` uygulayabilirsiniz.
 
-### Aspose.PSD for Java ile ilgili bir performans sınırlaması var mı?
-Kütüphane çoğu dosyayı verimli bir şekilde işler, ancak çok büyük PSD'ler (>500 MB) ek bellek gerektirebilir.
+**S: Aspose.PSD for Java’da performans sınırlamaları var mı?**  
+C: Kütüphane çoğu dosyayı verimli işler, ancak çok büyük PSD'ler (>500 MB) ek bellek gerektirebilir.
 
-### Aspose.PSD ücretsiz kullanılabilir mi?
-Aspose ücretsiz bir deneme sunar, ancak üretim için ücretli lisans gerekir. Test için [geçici lisansı](https://purchase.aspose.com/temporary-license/) kontrol edin.
+**S: Aspose.PSD ücretsiz mi?**  
+C: Aspose ücretsiz bir deneme sunar, ancak üretim için ücretli lisans gerekir. Test için [geçici lisans](https://purchase.aspose.com/temporary-license/) sayfasına bakın.
 
-### Ayrıntılı belgeleri nerede bulabilirim?
-Kapsamlı belgeleri [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/) adresinde bulabilirsiniz.
+**S: Ayrıntılı belgeleri nerede bulabilirim?**  
+C: Kapsamlı dokümantasyonu [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/) adresinde bulabilirsiniz.
 
-### Aspose.PSD kullanırken sorunlarla karşılaşırsam ne yapmalıyım?
-Yardım için [Aspose Support Forum](https://forum.aspose.com/c/psd/34) üzerinden iletişime geçin.
+**S: Aspose.PSD kullanırken sorun yaşarsam ne yapmalıyım?**  
+C: Yardım için [Aspose Support Forum](https://forum.aspose.com/c/psd/34) üzerinden destek alabilirsiniz.
 
-## Additional Frequently Asked Questions
+**S: PSD'yi PNG'ye dönüştürürken katman efektleri korunur mu?**  
+C: Evet, `PngColorType.TruecolorWithAlpha` ile kaydedildiğinde çoğu görsel efekt PNG'ye rasterleştirilir.
 
-**Q: PSD'yi PNG'ye dönüştürmek katman efektlerini korur mu?**  
-**A:** Evet, `PngColorType.TruecolorWithAlpha` ile kaydettiğinizde, çoğu görsel efekt PNG'ye rasterleştirilir.
+**S: Birden fazla PSD dosyasını toplu işleyebilir miyim?**  
+C: Kesinlikle. Kodu bir dizindeki PSD dosyaları üzerinde dönen bir döngüye yerleştirin.
 
-**Q: Birden fazla PSD dosyasını toplu işleme alabilir miyim?**  
-**A:** Kesinlikle. Kodu, bir dizindeki PSD dosyaları üzerinde dönen bir döngüye sarın.
+**S: PNG sıkıştırma seviyesini ayarlamak mümkün mü?**  
+C: `PngOptions` sınıfı, ince ayar için `setCompressionLevel(int)` metodunu sunar.
 
-**Q: PNG sıkıştırma seviyesini ayarlamak mümkün mü?**  
-**A:** `PngOptions` sınıfı, ince ayar için bir `setCompressionLevel(int)` metoduna sahiptir.
+**S: Görüntü nesnesini kapatmam gerekiyor mu?**  
+C: `PsdImage` `Closeable` arayüzünü uygular; `im.close()` metodunu `finally` bloğunda çağırın ya da try‑with‑resources kullanın.
 
-**Q: Görüntü nesnesini kapatmam gerekiyor mu?**  
-**A:** `PsdImage` `Closeable` arayüzünü uygular; `im.close()`'ı bir `finally` bloğunda çağırın veya try‑with‑resources kullanın.
-
-**Q: Döndürülmüş PNG orijinaliyle aynı boyutlara sahip olacak mı?**  
-**A:** 90° veya 270° döndürmek genişlik ve yüksekliği değiştirir. PNG yeni yönelimi yansıtacaktır.
+**S: Döndürülmüş PNG orijinal boyutlarla aynı olur mu?**  
+C: 90° veya 270° döndürme genişlik ve yüksekliği değiştirir. PNG yeni yönelimle kaydedilir.
 
 ## Sonuç
-Aspose.PSD for Java'ı kullanarak, sadece birkaç kod satırıyla **PSD'yi PNG'ye dönüştürebilir** ve **PSD** katmanlarını döndürebilirsiniz. Bu yaklaşım Photoshop ihtiyacını ortadan kaldırır, otomatik iş akışlarını hızlandırır ve görüntü çıktısı üzerinde tam kontrol sağlar. Kendi projelerinizde deneyin ve ne kadar zaman kazandığınızı görün!
+Aspose.PSD for Java’yı kullanarak **PSD'yi PNG'ye dönüştürebilir**, **PNG şeffaflığını koruyabilir** ve **PSD katmanlarını** sadece birkaç satır kodla döndürebilirsiniz. Bu yöntem Photoshop ihtiyacını ortadan kaldırır, otomatik iş akışlarını hızlandırır ve görüntü çıktısı üzerinde tam kontrol sağlar. Kendi projelerinizde deneyin ve ne kadar zaman kazandığınızı görün!
 
 ---
 
-**Son Güncelleme:** 2025-12-15  
+**Son Güncelleme:** 2026-02-17  
 **Test Edilen Versiyon:** Aspose.PSD for Java 24.11  
 **Yazar:** Aspose  
 
