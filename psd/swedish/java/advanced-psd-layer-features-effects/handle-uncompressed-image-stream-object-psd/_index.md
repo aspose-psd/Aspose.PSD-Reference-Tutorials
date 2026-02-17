@@ -1,10 +1,10 @@
 ---
-date: 2025-12-13
-description: Lär dig hur du skapar PSD‑grafikobjekt och manipulerar PSD‑lager genom
-  att hantera okomprimerade bildströmmar med Aspose.PSD för Java.
+date: 2026-02-17
+description: Lär dig hur du exporterar PSD till PNG och hanterar okomprimerade bildströmmar
+  med Aspose.PSD för Java.
 linktitle: Handle Uncompressed Image Stream Object in PSD - Java
 second_title: Aspose.PSD Java API
-title: Skapa PSD‑grafikobjekt – Okomprimerad ström i Java
+title: Exportera PSD till PNG – Skapa PSD-grafikobjekt – Okomprimerad ström i Java
 url: /sv/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 weight: 26
 ---
@@ -13,36 +13,46 @@ weight: 26
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa PSD Graphics Object – Okrypterad ström i Java
+# Exportera PSD till PNG – Skapa PSD‑grafikobjekt – Okomprimerad ström i Java
 
-## Introduktion
-Välkommen till världen av bildmanipulering i Java! I den här handledningen kommer du att **skapa PSD Graphics Object** och hantera okrypterade bildströmmar med Aspose.PSD för Java. Oavsett om du är en grafisk designer som vill automatisera ditt arbetsflöde eller en mjukvaruutvecklare som vill integrera kraftfulla bildbehandlingsfunktioner i dina applikationer, är den här guiden skräddarsydd för dig. Vi går igenom allt från förutsättningar till slutsats, så att du får en solid förståelse för hur du kommer igång med Aspose.PSD.
+## Introduction
+Välkommen till världen av bildmanipulation i Java! I den här handledningen kommer du att **skapa ett PSD‑grafikobjekt**, hantera okomprimerade bildströmsobjekt och lära dig hur du **exporterar PSD till PNG** med Aspose.PSD för Java. Oavsett om du är en grafisk designer som vill automatisera dina arbetsflöden eller en mjukvaruutvecklare som vill integrera kraftfulla bildbehandlingsfunktioner i dina applikationer, är den här guiden skräddarsydd för dig. Vi går igenom allt från förutsättningar till slutlig export och säkerställer att du får en solid förståelse för hela processen.
 
-## Snabba svar
-- **Vad betyder “create PSD graphics object”?** Det innebär att instansiera ett grafik‑kontext för en PSD‑fil så att du kan rita eller redigera dess innehåll.  
-- **Vilket bibliotek hanterar okrypterade strömmar?** Aspose.PSD för Java erbjuder fullt stöd för rå (okrypterad) bilddata.  
-- **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en kommersiell licens krävs för produktion.  
-- **Kan jag manipulera PSD‑lager efter att ha skapat grafik‑objektet?** Ja – Graphics‑instansen låter dig rita på vilket lager som helst.  
+## Quick Answers
+- **What does “create PSD graphics object” mean?** It refers to instantiating a graphics context for a PSD file so you can draw or edit its contents.  
+- **Which library handles uncompressed streams?** Aspose.PSD for Java provides full support for raw (uncompressed) image data.  
+- **Can I export PSD to PNG after editing?** Yes—once you have a `Graphics` object you can render the PSD and save it as PNG.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **Is the export lossless?** Exporting to PNG preserves image quality, while the file size is larger than JPEG but smaller than an uncompressed PSD.  
 
-## Förutsättningar
-Innan vi hoppar in i koden, låt oss säkerställa att du har allt du behöver för att komma igång med detta projekt. Här är förutsättningarna:
+## How to export PSD to PNG using Aspose.PSD for Java
+When you need to **export PSD to PNG**, the typical workflow is:
+
+1. Load the PSD file (or create one).  
+2. Perform any drawing or layer manipulation with a `Graphics` object.  
+3. Save the resulting image using `PngOptions` (the same `Graphics` instance can be reused).  
+
+Even though this tutorial focuses on handling uncompressed streams, the same `Graphics` object you create can be reused to render the PSD into a PNG file later in your pipeline.
+
+## Prerequisites
+Before we leap into the code, let’s ensure you have everything you need to get started on this journey. Here are the prerequisites:
 
 ### Java Development Kit (JDK)
-Se till att du har JDK installerat på din maskin. Du kan ladda ner det från Oracles webbplats eller använda OpenJDK.
+Make sure you have JDK installed on your machine. You can download it from Oracle's website or use OpenJDK.
 
-### Aspose.PSD för Java
-Du måste ladda ner och installera Aspose.PSD‑biblioteket. Detta kraftfulla bibliotek gör det enkelt att manipulera PSD‑filer. Du kan hämta den senaste versionen från [denna länk](https://releases.aspose.com/psd/java/).
+### Aspose.PSD for Java
+You need to download and install the Aspose.PSD library. This powerful library allows you to manipulate PSD files easily. You can get the latest version from [this link](https://releases.aspose.com/psd/java/).
 
 ### Integrated Development Environment (IDE)
-Det är en bra idé att använda en IDE för att skriva och testa din Java‑kod. Du kan använda IntelliJ IDEA, Eclipse eller någon annan som passar dig.
+It’s a good idea to use an IDE to write and test your Java code. You can use IntelliJ IDEA, Eclipse, or any other that suits your preference.
 
-### Grundläggande kunskaper i Java
-En viss förtrogenhet med Java‑programmering gör processen smidigare. Se till att du behärskar grunderna såsom klasser, metoder och undantagshantering.
+### Basic Understanding of Java
+A familiarity with Java programming will make this process smoother. Ensure you know the basics such as classes, methods, and exception handling.
 
-Med allt på plats, låt oss kavla upp ärmarna och gå vidare till den spännande delen – kodningen!
+With everything set, let's roll up our sleeves and get to the exciting part – coding!
 
-## Importera paket
-För att komma igång måste vi importera de nödvändiga paketen för att arbeta med Aspose.PSD. Nedan hittar du de import‑satser du vanligtvis behöver för att hantera PSD‑filer.
+## Import Packages
+To kick things off, we need to import the necessary packages to work with Aspose.PSD. Below, you’ll find the imports you’ll typically need for handling PSD files.
 
 ```java
 import com.aspose.psd.Graphics;
@@ -54,123 +64,123 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```
 
-Nu ska vi bryta ner koden i hanterbara steg så att du enkelt kan följa med. Vi kommer att konfigurera, ladda en PSD‑fil, manipulera den och spara resultatet.
+Now, let’s break down the code into digestible steps to ensure that you can follow along easily. We will set up, load a PSD file, manipulate it, and save the output.
 
-## Steg 1: Definiera din dokumentkatalog
-Innan du börjar koda vill du ange var din PSD‑fil finns. Detta är i princip att sätta scenen för ditt projekt.
+## Step 1: Define Your Document Directory
+Before you start coding, you’ll want to define where your PSD file resides. This is essentially setting the stage for your project.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Byt ut `"Your Document Directory"` mot den faktiska sökvägen där din PSD‑fil (t.ex. layers.psd) ligger. Detta underlättar filhantering utan krångel.
+Replace `"Your Document Directory"` with the actual path where your PSD file (e.g., layers.psd) is located. This helps in locating your files without hassles.
 
-## Steg 2: Skapa en ByteArrayOutputStream
-Du behöver en plats att lagra den modifierade bilden innan du gör något med den. En `ByteArrayOutputStream` hjälper dig att fånga bilddata enkelt.
+## Step 2: Create a Byte Array Output Stream
+You need a place to store the modified image before you do anything with it. A `ByteArrayOutputStream` will help you capture the image data easily.
 
 ```java
 ByteArrayOutputStream ms = new ByteArrayOutputStream();
 ```
 
-Denna rad initierar ett nytt `ByteArrayOutputStream`‑objekt med namnet `ms`. Du kommer att använda detta objekt för att spara din okrypterade bild.
+This line initializes a new `ByteArrayOutputStream` object named `ms`. You’ll use this object to save your uncompressed image.
 
-## Steg 3: Ladda PSD‑filen
-Nu är det dags att ladda den faktiska PSD‑filen. Här börjar magin!
+## Step 3: Load the PSD File
+Now, it’s time to load the actual PSD file. This is where the magic begins!
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-Denna rad laddar din PSD‑fil i ett `PsdImage`‑objekt. Se till att du har rätt sökväg; annars får du ett felmeddelande som en oväntad pop‑quiz.
+This line loads your PSD file into a `PsdImage` object. Ensure that you have the correct path; otherwise, an error will pop up like an unchecked pop quiz.
 
-## Steg 4: Ställ in PsdOptions för sparande
-Du måste specificera hur du vill spara bilden – okrypterad, naturligtvis!
+## Step 4: Set Up the PsdOptions for Saving
+You need to specify how you want to save your image — uncompressed, of course!
 
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
 
-Här skapar du ett `PsdOptions`‑objekt och sätter komprimeringsmetoden till `Raw`. Denna metod säkerställer att bilden behåller full kvalitet och sparas utan någon komprimering.
+Here, you create a `PsdOptions` object and set the compression method to `Raw`. This method ensures that the image retains its full quality and is saved without any compression.
 
-## Steg 5: Spara bilden till output‑strömmen
+## Step 5: Save the Image to the Output Stream
 ```java
 psdImage.save(ms, saveOptions);
 ```
 
-Denna rad sparar din modifierade bild i `ByteArrayOutputStream` som du skapade i Steg 2, med de alternativ du definierade i Steg 4. `save`‑metoden tar hand om korrekt kodning av bilden baserat på dina inställningar.
+This line saves your modified image into the `ByteArrayOutputStream` you created in Step 2, using the options defined in Step 4. The `save` method takes care of encoding the image properly based on your settings.
 
-## Steg 6: Återställ output‑strömmen
-Efter sparandet befinner sig din output‑ström i slutet. Du måste återställa den för att läsa från början.
+## Step 6: Reset the Output Stream
+After saving, your output stream is at the end. You need to reset it to read from the beginning.
 
 ```java
 ms.reset();
 ```
 
-Denna `reset`‑metod förbereder ditt `ByteArrayOutputStream` för att läsas från början igen. Tänk på det som att spola tillbaka ett band innan du lyssnar på din favoritlåt!
+This `reset` method prepares your `ByteArrayOutputStream` for reading from the beginning again. Think of it as rewinding a tape before listening to your favorite song!
 
-## Steg 7: Ladda den nyss skapade bilden
+## Step 7: Load the Newly Created Image
 ```java
 PsdImage img = (PsdImage) Image.load(new ByteArrayInputStream(ms.toByteArray()));
 ```
 
-Här laddar vi bilden tillbaka från `ByteArrayOutputStream` till ett nytt `PsdImage`‑objekt. Här kan du kontrollera resultatet av ditt tidigare arbete.
+Here, we load the image back from the `ByteArrayOutputStream` into a new `PsdImage` object. This is where you can check the results of your earlier work.
 
-## Steg 8: Skapa Graphics‑objekt
-För att ytterligare modifiera eller rendera bilden behöver du skapa ett Graphics‑objekt.
+## Step 8: Create Graphics Object
+To further modify or render the image, you’ll need to create a graphics object.
 
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
 
-Denna rad initierar ett `Graphics`‑objekt med ditt `psdImage`. Du kan nu använda detta Graphics‑objekt för att rita eller manipulera bilden efter behov. Det är som att ha en pensel i handen!
+This line initializes a `Graphics` object using your `psdImage`. You can now use this graphics object to draw or manipulate the image as needed. It’s like having a paintbrush in your hand!
 
-## Manipulera PSD‑lager med Graphics‑objekt
-Nu när du har en **Graphics**‑instans kan du **manipulera PSD‑lager** – till exempel rita former, lägga till text eller applicera filter på ett specifikt lager. Grafik‑kontexten arbetar direkt på den underliggande pixeldata, vilket ger dig fin‑granulär kontroll över varje lagers utseende.
+## Manipulate PSD Layers with Graphics Object
+Now that you have a **Graphics** instance, you can **manipulate PSD layers**—for example, drawing shapes, adding text, or applying filters to a specific layer. The graphics context works directly on the underlying pixel data, giving you fine‑grained control over each layer’s appearance.
 
-## Vanliga problem och lösningar
-- **NullPointerException vid filinläsning** – dubbelkolla `dataDir`‑sökvägen och se till att filnamnet är korrekt.  
-- **Komprimerad output trots Raw** – verifiera att `saveOptions.setCompressionMethod(CompressionMethod.Raw);` anropas innan `save`‑metoden.  
-- **Graphics‑objektet visas tomt** – kontrollera att du ritar på rätt `PsdImage`‑instans (använd den du laddade, inte den nyss skapade om det inte är avsiktligt).
+## Common Issues and Solutions
+- **NullPointerException when loading the file** – double‑check the `dataDir` path and ensure the file name is correct.  
+- **Compressed output despite using Raw** – verify that `saveOptions.setCompressionMethod(CompressionMethod.Raw);` is called before the `save` method.  
+- **Graphics object appears blank** – make sure you are drawing on the correct `PsdImage` instance (use the one you loaded, not the newly created one unless intended).
 
 ## FAQ's
-### Vad är Aspose.PSD?
-Aspose.PSD är ett .NET‑bibliotek som gör det möjligt för utvecklare att programatiskt skapa, redigera och manipulera Photoshop PSD‑filer och tillhörande bildformat.
+### What is Aspose.PSD?
+Aspose.PSD is a .NET library that enables developers to create, edit, and manipulate Photoshop PSD files and associated image formats programmatically.
 
-### Hur kan jag ladda ner Aspose.PSD för Java?
-Du kan ladda ner det från [releases‑sidan](https://releases.aspose.com/psd/java/).
+### How can I download Aspose.PSD for Java?
+You can download it from the [release page](https://releases.aspose.com/psd/java/).
 
-### Finns det en gratis provversion för Aspose.PSD?
-Ja, du kan skaffa en gratis provversion från [här](https://releases.aspose.com/).
+### Is there a free trial for Aspose.PSD?
+Yes, you can obtain a free trial version from [here](https://releases.aspose.com/).
 
-### Kan jag få support för Aspose.PSD?
-Absolut! Du kan söka hjälp på [Aspose support‑forum](https://forum.aspose.com/c/psd/34).
+### Can I get support for Aspose.PSD?
+Absolutely! You can seek help on the [Aspose support forum](https://forum.aspose.com/c/psd/34).
 
-### Hur får jag en tillfällig licens för Aspose.PSD?
-Besök bara [sidan för tillfällig licens](https://purchase.aspose.com/temporary-license/) för att komma igång.
+### How can I obtain a temporary license for Aspose.PSD?
+Just visit the [temporary license page](https://purchase.aspose.com/temporary-license/) to get started.
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-**Q: Kan jag använda Graphics‑objektet för att redigera endast ett specifikt lager?**  
-A: Ja. Efter att ha laddat PSD‑filen, välj önskat lager via `psdImage.getLayers().get_Item(index)` och skicka det till `Graphics`‑konstruktorn.
+**Q: Can I use the graphics object to edit only one specific layer?**  
+A: Yes. After loading the PSD, select the desired layer via `psdImage.getLayers().get_Item(index)` and pass it to the `Graphics` constructor.
 
-**Q: Påverkar Raw‑komprimeringsmetoden filstorleken?**  
-A: Raw lagrar pixeldata utan komprimering, så filstorleken blir större än för komprimerade PSD‑filer, men bildkvaliteten förblir oförändrad.
+**Q: Does the Raw compression method affect file size?**  
+A: Raw stores pixel data without compression, so the file size will be larger than compressed PSDs, but image quality remains untouched.
 
-**Q: Är det möjligt att exportera den redigerade PSD‑filen till ett annat format (t.ex. PNG)?**  
-A: Absolut. Använd lämplig `Image.save`‑overload med `PngOptions` efter redigeringen.
+**Q: Is it possible to export the edited PSD to another format (e.g., PNG)?**  
+A: Absolutely. Use the appropriate `Image.save` overload with `PngOptions` after editing—this is the standard way to **export PSD to PNG**.
 
-**Q: Vilken Java‑version krävs?**  
-A: Aspose.PSD för Java stödjer JDK 8 och senare.
+**Q: What Java version is required?**  
+A: Aspose.PSD for Java supports JDK 8 and later.
 
-**Q: Hur frigör jag resurser efter bearbetning?**  
-A: Anropa `psdImage.dispose()` och stäng eventuella strömmar för att frigöra inhemska resurser.
+**Q: How do I release resources after processing?**  
+A: Call `psdImage.dispose()` and close any streams to free native resources.
 
----  
+---
 
-**Senast uppdaterad:** 2025-12-13  
-**Testad med:** Aspose.PSD för Java (senaste version)  
-**Författare:** Aspose  
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
