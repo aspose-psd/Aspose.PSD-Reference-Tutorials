@@ -1,21 +1,21 @@
 ---
-title: How to modify PSD vector shapes – Support Length Record Data Properties in Java
+title: Support Length Record Properties – Modify PSD Vector Shapes (Java)
 linktitle: Support Length Record Data Properties in PSD - Java
 second_title: Aspose.PSD Java API
-description: Learn how to modify PSD vector shapes by supporting length record data properties using Aspose.PSD for Java. Step‑by‑step guide with code examples.
+description: Learn how to support length record properties and batch process PSD files using Aspose.PSD for Java. Step‑by‑step guide with code examples.
 weight: 14
 url: /java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
-date: 2025-12-17
+date: 2026-02-20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Support Length Record Data Properties in PSD - Java
+# Support Length Record Properties – Modify PSD Vector Shapes (Java)
 
 ## Introduction
-If you need to **modify PSD vector shapes** programmatically, the Aspose.PSD for Java library gives you full control over Photoshop files right from your Java code. In this tutorial we’ll walk through everything you need to know to support length record data properties—an essential step when you want to edit vector shape layers. By the end, you’ll be able to open a PSD, tweak its vector shape properties, and save the updated file without ever leaving your IDE. Let’s dive in!
+If you need to **modify PSD vector shapes** programmatically, the Aspose.PSD for Java library gives you full control over Photoshop files right from your Java code. In this tutorial we’ll walk through everything you need to know to **support length record properties**—an essential step when you want to edit vector shape layers. By the end, you’ll be able to open a PSD, tweak its vector shape properties, and save the updated file without ever leaving your IDE. Let’s dive in!
 
 ## Quick Answers
 - **What does “modify PSD vector shapes” mean?** Adjusting the geometry, path operations, or other properties of vector‑based layers inside a PSD file.  
@@ -24,14 +24,14 @@ If you need to **modify PSD vector shapes** programmatically, the Aspose.PSD for
 - **How long does the implementation take?** Around 10‑15 minutes for a basic shape‑modification script.  
 - **What are the main prerequisites?** Java JDK, Aspose.PSD for Java, and a sample PSD file.
 
-## What is “modify PSD vector shapes”?
-Modifying PSD vector shapes involves changing the underlying vector path data—such as length records and path operations—so the visual appearance of shapes updates accordingly. This is especially useful for automated graphics pipelines, batch processing, or custom design tools.
+## What is “support length record properties”?
+Supporting length record properties means accessing and updating the `LengthRecord` objects that describe each vector path inside a PSD. Changing these records lets you control how shapes combine, intersect, or subtract from one another.
 
-## Why use Aspose.PSD for Java to modify PSD vector shapes?
+## Why use Aspose.PSD for Java to support length record properties?
 - **No Photoshop required** – work directly with PSD files on any server.  
 - **Rich API** – access layers, resources, and vector data with strongly typed classes.  
 - **Cross‑platform** – run on Windows, Linux, or macOS with any JDK.  
-- **Performance‑focused** – efficient memory handling and fast save operations.
+- **Performance‑focused** – efficient memory handling and fast save operations.  
 
 ## Prerequisites
 1. **Java Development Kit (JDK)** – download from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or use your preferred package manager.  
@@ -114,13 +114,16 @@ Dispose of the `PsdImage` to free memory.
 psdImage.dispose();
 ```
 
+## How to batch process PSD files with support length record properties
+If you need to apply the same vector‑shape adjustments to many PSDs, wrap the code above in a loop that iterates over a directory of files. Update `inPsdFilePath` and `outPsdFilePath` for each iteration, and you’ll be able to **batch process PSD files** efficiently.
+
 ## Common Pitfalls & Tips
 - **Null checks** – always verify `resource` isn’t `null` before accessing paths.  
 - **Path index bounds** – ensure the indices you use (`[2]`, `[7]`, `[11]`) exist for the specific PSD you’re editing.  
 - **License** – running without a valid license will embed a watermark in the saved PSD.  
 
 ## Conclusion
-You now have a complete, end‑to‑end example of how to **modify PSD vector shapes** by supporting length record data properties with Aspose.PSD for Java. Whether you’re automating asset pipelines or building a custom design tool, these APIs give you the flexibility to manipulate vector layers without manual Photoshop work. Explore further by experimenting with other `PathOperations` or combining multiple `LengthRecord` edits for complex shapes.
+You now have a complete, end‑to‑end example of how to **modify PSD vector shapes** by supporting length record properties with Aspose.PSD for Java. Whether you’re automating asset pipelines or building a custom design tool, these APIs give you the flexibility to manipulate vector layers without manual Photoshop work. Explore further by experimenting with other `PathOperations` or combining multiple `LengthRecord` edits for complex shapes.
 
 ## Frequently Asked Questions
 
@@ -141,7 +144,7 @@ A: The `LengthRecord` and `PathOperations` classes are available since Aspose.PS
 
 ---
 
-**Last Updated:** 2025-12-17  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
