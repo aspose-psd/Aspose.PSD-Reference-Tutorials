@@ -1,21 +1,20 @@
 ---
-title: How to Load PSD Files and Support Nvrt Resource using Java
+title: Invert Adjustment Layer: Support Nvrt Resource in PSD Files using Java
 linktitle: Support Nvrt Resource in PSD Files using Java
 second_title: Aspose.PSD Java API
-description: Learn how to load PSD files in Java and read PSD layers while supporting the Nvrt resource using Aspose.PSD.
+description: Learn how to load PSD files in Java, read PSD layers, and work with the invert adjustment layer to support the Nvrt resource using Aspose.PSD.
 weight: 10
 url: /java/advanced-psd-layer-features-effects/support-nvrt-resource-psd-files/
-date: 2025-12-17
+date: 2026-02-20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Support Nvrt Resource in PSD Files using Java
+# Invert Adjustment Layer: Support Nvrt Resource in PSD Files using Java
 
-## How to Load PSD Files in Java
-When you need to **how to load psd** files programmatically, Java offers a robust ecosystem—especially with the Aspose.PSD library. Whether you're building a graphics editor, automating design pipelines, or extracting assets from Photoshop documents, mastering PSD handling is essential. In this tutorial we’ll walk through loading a PSD, reading its layers, and specifically supporting the Nvrt (Invert Adjustment) resource.
+When you need to work with an **invert adjustment layer** and **load PSD files** programmatically, Java offers a robust ecosystem—especially with the Aspose.PSD library. Whether you're building a graphics editor, automating design pipelines, or extracting assets from Photoshop documents, mastering PSD handling is essential. In this tutorial we’ll walk through loading a PSD, reading its layers, and specifically supporting the Nvrt (Invert Adjustment) resource.
 
 ## Quick Answers
 - **What library handles PSD files in Java?** Aspose.PSD for Java  
@@ -23,6 +22,17 @@ When you need to **how to load psd** files programmatically, Java offers a robus
 - **Is a license required for production?** Yes, a commercial license is needed  
 - **Which JDK version is supported?** Java 8 and higher  
 - **Where can I download the library?** From the official Aspose download page  
+
+## What is an Invert Adjustment Layer?
+The invert adjustment layer is a Photoshop adjustment that reverses the color values of the underlying pixels. Using Aspose.PSD, you can detect and manipulate this layer programmatically, which is useful for automated image corrections or batch‑processing workflows.
+
+## Why Use the Invert Adjustment Layer with Aspose.PSD?
+- **Precise control** over color inversion without rasterizing the image.  
+- **Automation‑ready**: Ideal for batch process PSD files where you need to apply or remove inversion consistently.  
+- **Asset extraction**: Read PSD layers and adjustment data to repurpose design elements in other applications.
+
+## How to Load Photoshop File and Batch Process PSD Files
+If you need to **load Photoshop file** objects in a loop—for example, to batch process dozens of PSDs—you can reuse the same loading logic shown below inside a `for` or `foreach` construct. Just ensure you dispose each `PsdImage` after processing to keep memory usage low.
 
 ## Prerequisites
 Before you start coding, make sure you have the following:
@@ -49,7 +59,7 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.NvrtResource;
 Reading PSD layers lets you:
 
 - Extract individual assets (e.g., icons, masks) for reuse  
-- Analyze adjustment layers (like **Nvrt**) to understand image edits  
+- **Read PSD layers** that contain an invert adjustment layer to understand image edits  
 - Automate batch processing of design files  
 
 ## Step 1: Specify Your Source Directory
@@ -63,7 +73,7 @@ String inPsdFilePath = sourceDir + "InvertAdjustmentLayer.psd";
 Replace `"Your Source Directory"` with the actual path on your machine.
 
 ## Step 2: Load the PSD File
-Now we actually **how to load psd** files using the Aspose API.
+Now we actually **load psd** files using the Aspose API.
 
 ```java
 PsdImage psdImage = (PsdImage)Image.load(inPsdFilePath);
@@ -114,9 +124,10 @@ If the assertion passes, you’ve successfully read the PSD layers and extracted
 - **Null checks:** Always verify that `psdImage` and layer objects are not null before accessing them.  
 - **Resource disposal:** Forgetting `psdImage.dispose()` can lead to memory leaks in long‑running applications.  
 - **File path issues:** Use absolute paths or ensure your working directory is set correctly to avoid `FileNotFoundException`.  
+- **Batch processing note:** When looping over many files, re‑instantiate the `PsdImage` inside the loop and dispose it immediately after you finish processing each file.
 
 ## Conclusion
-You now know **how to load psd** files, read their layers, and extract the Nvrt adjustment resource using Java and Aspose.PSD. This foundation lets you build powerful graphics automation tools, batch‑process design assets, or integrate Photoshop data into larger workflows.
+You now know **how to load psd** files, read their layers, and extract the **invert adjustment layer** Nvrt resource using Java and Aspose.PSD. This foundation lets you build powerful graphics automation tools, **batch process PSD** files, or integrate Photoshop data into larger workflows.
 
 ## Frequently Asked Questions
 
@@ -137,7 +148,7 @@ A: You can ask questions and get support on the Aspose forum: [Aspose Support](h
 
 ---
 
-**Last Updated:** 2025-12-17  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
