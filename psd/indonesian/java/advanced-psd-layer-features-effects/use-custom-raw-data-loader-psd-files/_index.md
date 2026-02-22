@@ -1,11 +1,11 @@
 ---
-date: 2025-12-18
-description: Pelajari cara menggunakan pemuat data mentah khusus pada file PSD dengan
-  Java! Panduan langkah demi langkah ini mencakup semua hal mulai dari penyiapan hingga
-  pembersihan sumber daya.
+date: 2026-02-22
+description: Pelajari cara mengimplementasikan antarmuka IPartialRawDataLoader untuk
+  memuat data mentah khusus dalam file PSD menggunakan Aspose.PSD untuk Java. Panduan
+  langkah demi langkah dengan penyiapan dan pembersihan.
 linktitle: Use Custom Raw Data Loader in PSD Files - Java
 second_title: Aspose.PSD Java API
-title: Gunakan Pemuat Data Mentah Kustom dalam File PSD - Java
+title: Implementasikan IPartialRawDataLoader untuk File PSD - Java
 url: /id/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 weight: 29
 ---
@@ -16,46 +16,49 @@ weight: 29
 
 # Gunakan Custom Raw Data Loader pada File PSD - Java
 
-## Perkenalan
-Bekerja dengan file PSD di Java terasa menakutkan, terutama ketika harus menangani data mentah. Jangan khawatir! Dengan menggunakan Aspose.PSD untuk Java, Anda dapat dengan mudah memanipulasi dan mengekstrak data piksel mentah dari file PSD menggunakan **custom raw data loader**. Panduan ini akan membawa Anda melalui seluruh proses—dari penyiapan proyek hingga pembersihan sumber daya—sehingga Anda dapat memulai proses lapisan PSD dengan percaya diri.
+## Introduction
+Bekerja dengan file PSD di Java dapat terasa menakutkan, terutama ketika harus menangani data mentah. Jangan khawatir! Dengan menggunakan Aspose.PSD for Java, Anda dapat dengan mudah memanipulasi dan mengekstrak data piksel mentah dari file PSD menggunakan **custom raw data loader**. Pada tutorial ini Anda akan belajar cara **mengimplementasikan antarmuka IPartialRawDataLoader** sehingga Anda dapat mengontrol aliran piksel persis seperti yang Anda butuhkan. Panduan ini akan membawa Anda melalui seluruh proses—dari penyiapan proyek hingga pembersihan sumber daya—agar Anda dapat mulai memproses lapisan PSD dengan percaya diri.
 
-## Jawaban Cepat
-- **Apa yang dilakukan custom raw data loader?** Ia memungkinkan Anda menyela dan memproses byte piksel mentah saat file PSD sedang dibaca.
-- **Perpustakaan mana yang menyediakan fitur ini?** Aspose.PSD untuk Java menyertakan antarmuka `IPartialRawDataLoader`.
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.
-- **Versi Java apa yang dibutuhkan?** Java8 atau lebih tinggi (disarankan JDK11).
-- ** menyuarakan saya menggunakan kembali loader untuk beberapa file?** Ya—instansiasi loader Anda sekali dan gunakan kembali pada beberapa gambar.
+## Quick Answers
+- **What does a custom raw data loader do?** It lets you intercept and process raw pixel bytes while a PSD file is being read.  
+- **Which library provides this feature?** Aspose.PSD for Java includes the `IPartialRawDataLoader` interface.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **What Java version is required?** Java 8 or higher (JDK 11 is recommended).  
+- **Can I reuse the loader for multiple files?** Yes—instantiate your loader once and reuse it across images.
 
-## Apa yang dimaksud dengan pemuat data mentah khusus?
-**Pemuat data mentah khusus** adalah kelas yang diimplementasikan pengguna yang mematuhi antarmuka `IPartialRawDataLoader`. Kelas ini menerima buffer piksel mentah, koordinat persegi panjang, dan opsi pemuatan opsional, memberi Anda kontrol penuh atas cara data piksel dibaca, diubah, atau disimpan. Ini sangat berguna untuk skenario seperti gambar analisis khusus, konversi warna secara langsung, atau streaming PSD besar tanpa memuat seluruh gambar ke memori.
+## How to implement IPartialRawDataLoader interface
+Implementing the `IPartialRawDataLoader` interface gives you a hook into the raw‑data loading pipeline. Below we’ll create a small class that satisfies the contract and shows where you can plug in your own logic (e.g., logging, transformation, streaming).
 
-## Mengapa menggunakan pemuat data mentah khusus dengan Aspose.PSD?
-- **Penyetelan performa:** Proses hanya wilayah yang Anda perlukan, mengurangi jejak memori.
-- **Alur kerja khusus:** Terapkan kompresi, enkripsi, atau analitik proprietari langsung pada aliran piksel.
-- **Fleksibilitas integrasi:** Sambungkan ke pipeline gambar yang sudah ada atau perpustakaan mengirimkan pihak ketiga.
+## What is a custom raw data loader?
+A **custom raw data loader** is a user‑implemented class that conforms to the `IPartialRawDataLoader` interface. It receives raw pixel buffers, rectangle coordinates, and optional load options, giving you full control over how pixel data is read, transformed, or stored. This is especially useful for scenarios like custom image analysis, on‑the‑fly color conversion, or streaming large PSDs without loading the entire image into memory.
 
-## Prasyarat
-Sebelum masuk ke bagian yang menyenangkan, pastikan Anda memiliki semua yang diperlukan untuk memulai dengan Aspose.PSD di Java. Berikut yang Anda perlukan:
+## Why use a custom raw data loader with Aspose.PSD?
+- **Performance tuning:** Process only the regions you need, reducing memory footprint.  
+- **Specialized workflows:** Apply proprietary compression, encryption, or analytics directly on the pixel stream.  
+- **Integration flexibility:** Hook into existing image pipelines or third‑party processing libraries.
 
-1. **Pengetahuan Dasar Java** – Memahami pemrograman Java sangatlah penting.
-2. **Lingkungan Pengembangan** – IntelliJ IDEA, Eclipse, atau editor apa pun dengan alat build baris perintah.
-3. **Aspose.PSD Library** – Unduh perpustakaan Aspose.PSD untuk Java dari [site](https://releases.aspose.com/psd/java/). Anda dapat memilih antara versi percobaan gratis atau lisensi berbayar.
-4. **Java Development Kit (JDK)** – Pastikan JDK terbaru terpasang. Anda dapat mengunduhnya dari [situs web Oracle](https://www.Oracle.com/java/technologies/javase-jdk11-downloads.html) atau menggunakan OpenJDK.
-5. **Pengetahuan tentang File PSD** – Memahami lapisan dan data piksel akan membantu Anda memanfaatkan loader secara maksimal.
+## Prerequisites
+Before diving into the fun stuff, let’s ensure you have everything you need to get started with Aspose.PSD in Java. Here’s what you’ll need:
 
-Setelah semua perlengkapan ini siap, Anda dapat mulai menulis kode!
+1. **Basic Knowledge of Java** – Familiarity with Java programming is essential.  
+2. **Development Environment** – IntelliJ IDEA, Eclipse, or any editor with a command‑line build tool.  
+3. **Aspose.PSD Library** – Download the Aspose.PSD for Java library from the [site](https://releases.aspose.com/psd/java/). You can choose between a free trial or a purchased license.  
+4. **Java Development Kit (JDK)** – Make sure a recent JDK is installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or use OpenJDK.  
+5. **Knowledge of PSD Files** – Understanding layers and pixel data will help you make the most of the loader.
 
-## Impor Paket
-Untuk menggunakan Aspose.PSD secara efektif dalam proyek Anda, Anda perlu mengimpor paket-paket yang relevan. Berikut adalah impor minimal yang Anda perlukan untuk contoh custom loader:
+Once you have these prerequisites in place, you’re ready to start coding!
+
+## Import Packages
+To use Aspose.PSD effectively in your project, you need to import the relevant packages. Here’s the minimal import you’ll need for the custom loader example:
 
 ```java
 import com.aspose.psd.*;
 ```
 
-Paket-paket ini menyediakan semua kelas dan antarmuka yang diperlukan untuk bekerja dengan file PSD serta mengimplementasikan **custom raw data loader** Anda.
+These packages provide all the necessary classes and interfaces to work with PSD files and to implement your **custom raw data loader**.
 
-## Langkah 1: Buat Kelas RawDataTester
-Langkah pertama adalah mendefinisikan kelas yang mengimplementasikan antarmuka `IPartialRawDataLoader`. Kelas ini akan berisi metode untuk memproses data piksel mentah.
+## Step 1: Create the RawDataTester Class
+The first step is to define a class that implements the `IPartialRawDataLoader` interface. This class will contain methods to process raw pixel data.
 
 ```java
 class RawDataTester implements IPartialRawDataLoader {
@@ -68,49 +71,49 @@ class RawDataTester implements IPartialRawDataLoader {
 }
 ```
 
-Kelas `RawDataTester` memiliki dua overload dari metode `process`. Anda dapat menyesuaikan metode ini untuk mencatat informasi piksel, menerapkan transformasi khusus, atau mengalirkan data ke layanan lain.
+The `RawDataTester` class has two overloads of `process`. You can tailor these methods to log pixel information, apply custom transformations, or stream data to another service.
 
-## Langkah 2: Atur Jalur untuk File PSD
-Selanjutnya, tentukan direktori sumber tempat file PSD Anda disimpan.
+## Step 2: Set Up Paths for PSD File
+Next, specify the source directory where your PSD file is stored.
 
 ```java
 String sourceDir = "Your Source Directory";
 String inFilePath = sourceDir + "CmykWithAlpha.psd";
 ```
 
-Ganti `"Your Source Directory"` dengan jalur aktual yang mengarah ke file PSD Anda. Pastikan nama file sesuai dengan PSD yang ingin Anda muat.
+Replace `"Your Source Directory"` with the actual path that leads to your PSD file. Ensure the file name matches the PSD you want to load.
 
-## Langkah 3: Muat File PSD
-Sekarang, mari muat file PSD menggunakan metode `Image.load`. Ini akan memberikan representasi gambar dalam memori.
+## Step 3: Load the PSD File
+Now, let’s load the PSD file using the `Image.load` method. This will give us an in‑memory representation of the image.
 
 ```java
 RasterImage image = (RasterImage)Image.load(inFilePath);
 ```
 
-Casting ke `RasterImage` penting karena membuka akses ke metode `loadRawData` yang akan kita gunakan nanti.
+Casting to `RasterImage` is essential because it exposes the `loadRawData` method we’ll use later.
 
-## Langkah 4: Inisialisasi RawDataSettings
-Setelah gambar dimuat, Anda dapat menginisialisasi `RawDataSettings`. Pengaturan ini menentukan bagaimana data piksel mentah ditangani.
+## Step 4: Initialize RawDataSettings
+Once the image is loaded, you can initialize `RawDataSettings`. These settings dictate how raw pixel data is handled.
 
 ```java
 try {
     RawDataSettings rawDataSettings = image.getRawDataSettings();
 ```
 
-Langkah ini mengekstrak pengaturan yang terkait dengan data mentah dalam file PSD, memungkinkan Anda menyesuaikan perilaku pemuatan.
+This step extracts the settings associated with the raw data in the PSD file, allowing you to customize the loading behavior.
 
-## Langkah 5: Muat Data Mentah dengan Custom Loader
-Instansiasi loader khusus Anda (`RawDataTester`) dan gunakan untuk memuat data mentah dari gambar.
+## Step 5: Load Raw Data with the Custom Loader
+Instantiate your custom loader (`RawDataTester`) and use it to load raw data from the image.
 
 ```java
     RawDataTester loader = new RawDataTester();
     image.loadRawData(image.getBounds(), rawDataSettings, loader);
 ```
 
-Pemanggilan `loadRawData` mengalirkan data piksel melalui implementasi `RawDataTester`, memberi Anda kontrol penuh atas setiap blok byte.
+The `loadRawData` call streams pixel data through the `RawDataTester` implementation, giving you full control over each byte block.
 
-## Langkah 6: Bersihkan Sumber Daya
-Setelah berhasil memuat data mentah, penting untuk melepaskan semua sumber daya yang digunakan agar tidak terjadi kebocoran memori.
+## Step 6: Clean Up Resources
+After successfully loading raw data, it’s crucial to release any resources that were used to prevent memory leaks.
 
 ```java
 } finally {
@@ -118,40 +121,35 @@ Setelah berhasil memuat data mentah, penting untuk melepaskan semua sumber daya 
 }
 ```
 
-Blok `finally` menjamin bahwa, terlepas dari keberhasilan atau kegagalan, sumber daya gambar dibuang dengan benar.
+The `finally` block guarantees that, regardless of success or failure, the image resources are properly disposed of.
 
-## Kesalahan Umum & Pemecahan Masalah
-- **Jalur yang salah:** Periksa kembali jalur file; satu slash yang hilang atau typo akan menyebabkan `FileNotFoundException`.  
-- **Kesalahan casting:** Pastikan gambar yang dimuat memang `RasterImage`; jika tidak, akan terjadi `ClassCastException`.  
-- **Loader tidak dipanggil:** Verifikasi bahwa metode `RawDataTester` Anda telah di‑override dengan benar; jika tidak, loader default yang akan dipakai.  
-- **Penggunaan memori:** Saat memproses PSD sangat besar, pertimbangkan untuk memuat hanya persegi panjang tertentu alih‑alih seluruh batas gambar agar konsumsi memori tetap rendah.
+## Common Pitfalls & Troubleshooting
+- **Incorrect path:** Double‑check the file path; a missing slash or typo will cause a `FileNotFoundException`.  
+- **Casting errors:** Ensure the loaded image is indeed a `RasterImage`; otherwise, a `ClassCastException` will be thrown.  
+- **Loader not invoked:** Verify that your `RawDataTester` methods are correctly overridden; otherwise, the default loader will be used.  
+- **Memory usage:** When processing very large PSDs, consider loading only specific rectangles instead of the full bounds to keep memory consumption low.
 
-## Kesimpulan
-Itulah cara Anda berhasil membuat **custom raw data loader** untuk file PSD di Java menggunakan Aspose.PSD. Dari penyiapan proyek hingga mengimplementasikan loader yang memproses data piksel, panduan ini mencakup setiap langkah penting. Jangan ragu untuk memperluas metode `RawDataTester` agar sesuai dengan alur kerja spesifik Anda, baik itu analisis gambar khusus, kompresi on‑the‑fly, atau integrasi dengan perpustakaan grafis lainnya.
+## Frequently Asked Questions
+### What is Aspose.PSD for Java?  
+Aspose.PSD for Java is a library that allows developers to manipulate PSD files programmatically, including reading, writing, and editing PSD layers.
 
-Dengan memanfaatkan Aspose.PSD, Anda dapat memperkaya aplikasi Java Anda dengan kemampuan grafis yang kuat sambil mempertahankan kontrol penuh atas penanganan piksel mentah.
+### How do I download Aspose.PSD?  
+You can download Aspose.PSD for Java from the [release page](https://releases.aspose.com/psd/java/).
 
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.PSD untuk Java?
-Aspose.PSD untuk Java adalah perpustakaan yang memungkinkan pengembang memanipulasi file PSD secara terprogram, termasuk membaca, menulis, dan mengedit lapisan PSD.
+### Can I use Aspose.PSD for free?  
+Yes, Aspose.PSD offers a free trial version that you can access [here](https://releases.aspose.com/).
 
-### Bagaimana cara mengunduh Aspose.PSD?
-Anda dapat mengunduh Aspose.PSD untuk Java dari [halaman rilis](https://releases.aspose.com/psd/java/).
+### What if I face issues or need support?  
+For support and community assistance, you can visit the [Aspose forum](https://forum.aspose.com/c/psd/34).
 
-### Dapatkah saya menggunakan Aspose.PSD secara gratis?
-Ya, Aspose.PSD menawarkan versi percobaan gratis yang dapat Anda akses [di sini](https://releases.aspose.com/).
-
-### Bagaimana jika saya menghadapi masalah atau memerlukan dukungan?
-Untuk dukungan dan bantuan komunitas, Anda dapat mengunjungi [forum Aspose](https://forum.aspose.com/c/psd/34).
-
-### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD?
-Anda dapat memperoleh lisensi sementara untuk mengaktifkan semua fitur dengan mengunjungi [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+### How can I obtain a temporary license for Aspose.PSD?  
+You can acquire a temporary license to evaluate all features by visiting the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Terakhir Diperbarui:** 18-12-2025
-**Diuji Dengan:** Aspose.PSD untuk Java (versi terbaru pada saat penulisan)
-**Penulis:** Beranggapan
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.PSD for Java (latest version at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

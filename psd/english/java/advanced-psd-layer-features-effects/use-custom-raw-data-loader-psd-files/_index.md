@@ -1,11 +1,11 @@
 ---
-title: Use Custom Raw Data Loader in PSD Files - Java
+title: Implement IPartialRawDataLoader for PSD Files - Java
 linktitle: Use Custom Raw Data Loader in PSD Files - Java
 second_title: Aspose.PSD Java API
-description: Learn how to use a custom raw data loader in PSD files with Java! This step-by-step guide covers everything from setup to resource cleanup.
+description: Learn how to implement IPartialRawDataLoader interface for custom raw data loading in PSD files using Aspose.PSD for Java. Step‑by‑step guide with setup and cleanup.
 weight: 29
 url: /java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
-date: 2025-12-18
+date: 2026-02-22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,7 +15,7 @@ date: 2025-12-18
 # Use Custom Raw Data Loader in PSD Files - Java
 
 ## Introduction
-Working with PSD files in Java can seem overwhelming, especially when it comes to handling raw data. Fear not! By using Aspose.PSD for Java, you can easily manipulate and extract raw pixel data from PSD files using a **custom raw data loader**. This guide will walk you through the entire process—from project setup to cleaning up resources—so you can start processing PSD layers with confidence.
+Working with PSD files in Java can seem overwhelming, especially when it comes to handling raw data. Fear not! By using Aspose.PSD for Java, you can easily manipulate and extract raw pixel data from PSD files using a **custom raw data loader**. In this tutorial you’ll learn how to **implement IPartialRawDataLoader interface** so you can control the pixel stream exactly the way you need it. This guide will walk you through the entire process—from project setup to cleaning up resources—so you can start processing PSD layers with confidence.
 
 ## Quick Answers
 - **What does a custom raw data loader do?** It lets you intercept and process raw pixel bytes while a PSD file is being read.  
@@ -23,6 +23,9 @@ Working with PSD files in Java can seem overwhelming, especially when it comes t
 - **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
 - **What Java version is required?** Java 8 or higher (JDK 11 is recommended).  
 - **Can I reuse the loader for multiple files?** Yes—instantiate your loader once and reuse it across images.
+
+## How to implement IPartialRawDataLoader interface
+Implementing the `IPartialRawDataLoader` interface gives you a hook into the raw‑data loading pipeline. Below we’ll create a small class that satisfies the contract and shows where you can plug in your own logic (e.g., logging, transformation, streaming).
 
 ## What is a custom raw data loader?
 A **custom raw data loader** is a user‑implemented class that conforms to the `IPartialRawDataLoader` interface. It receives raw pixel buffers, rectangle coordinates, and optional load options, giving you full control over how pixel data is read, transformed, or stored. This is especially useful for scenarios like custom image analysis, on‑the‑fly color conversion, or streaming large PSDs without loading the entire image into memory.
@@ -124,11 +127,6 @@ The `finally` block guarantees that, regardless of success or failure, the image
 - **Loader not invoked:** Verify that your `RawDataTester` methods are correctly overridden; otherwise, the default loader will be used.  
 - **Memory usage:** When processing very large PSDs, consider loading only specific rectangles instead of the full bounds to keep memory consumption low.
 
-## Conclusion
-There you have it—you’ve successfully created a **custom raw data loader** for PSD files in Java using Aspose.PSD. From setting up your project to implementing a loader that processes pixel data, this guide covered every essential step. Feel free to extend the `RawDataTester` methods to fit your specific workflow, whether that’s custom image analysis, on‑the‑fly compression, or integration with other graphics libraries.
-
-By leveraging Aspose.PSD, you can enrich your Java applications with powerful graphics capabilities while maintaining full control over raw pixel handling.
-
 ## Frequently Asked Questions
 ### What is Aspose.PSD for Java?  
 Aspose.PSD for Java is a library that allows developers to manipulate PSD files programmatically, including reading, writing, and editing PSD layers.
@@ -147,7 +145,7 @@ You can acquire a temporary license to evaluate all features by visiting the [te
 
 ---
 
-**Last Updated:** 2025-12-18  
+**Last Updated:** 2026-02-22  
 **Tested With:** Aspose.PSD for Java (latest version at time of writing)  
 **Author:** Aspose  
 
