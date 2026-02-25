@@ -1,11 +1,11 @@
 ---
-title: How to Adjust Brightness of an Image with Aspose.PSD for Java
+title: Java Image Processing Tutorial: Adjust Brightness of an Image with Aspose.PSD for Java
 linktitle: Adjust Brightness of an Image
 second_title: Aspose.PSD Java API
-description: Learn how to adjust brightness of an image using Aspose.PSD for Java. This java image manipulation tutorial provides a step‑by‑step guide.
+description: In this java image processing tutorial you’ll learn how to adjust brightness of an image using Aspose.PSD for Java. Follow the step‑by‑step guide.
 weight: 21
 url: /java/advanced-techniques/adjust-brightness/
-date: 2025-12-19
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-19
 
 ## Introduction
 
-If you need to **learn how to adjust brightness** of a picture directly from Java code, you’re in the right place. Brightness tweaking is a frequent task for graphic designers, photographers, and anyone building image‑processing pipelines. In this **java image manipulation tutorial** we’ll walk through the complete workflow—loading a PSD/TIFF, applying a brightness offset, and saving the result—using the Aspose.PSD for Java library.
+In this **java image processing tutorial** you’ll learn how to adjust the brightness of a picture directly from Java code. Brightness tweaking is a frequent task for graphic designers, photographers, and anyone building image‑processing pipelines. In this **java image manipulation tutorial** we’ll walk through the complete workflow—loading a PSD/TIFF, applying a brightness offset, and saving the result—using the Aspose.PSD for Java library.
 
 ## Quick Answers
 - **What library handles brightness?** Aspose.PSD for Java  
@@ -25,7 +25,7 @@ If you need to **learn how to adjust brightness** of a picture directly from Jav
 - **Do I need a license for production?** A commercial license is required for non‑evaluation use.  
 - **How long does the implementation take?** Typically under 10 minutes for a basic adjustment.
 
-## What is Image Brightness Adjustment?
+## What is java image processing tutorial? Understanding Image Brightness Adjustment
 
 Image brightness adjustment changes the overall lightness of every pixel in an image. Increasing brightness makes dark areas lighter, while decreasing it darkens the entire picture. This operation is useful for correcting underexposed photos, preparing assets for print, or creating visual effects in applications.
 
@@ -149,7 +149,7 @@ A7: Absolutely. After adjusting brightness, you can call `adjustContrast`, `adju
 
 ---
 
-**Last Updated:** 2025-12-19  
+**Last Updated:** 2026-02-25  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
