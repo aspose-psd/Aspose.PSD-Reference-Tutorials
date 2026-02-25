@@ -1,10 +1,11 @@
 ---
-date: 2025-12-18
-description: Pelajari cara mengedit sumber daya SoCo dan mengubah warna lapisan PSD
-  menggunakan Aspose.PSD untuk Java dalam panduan langkah demi langkah ini.
-linktitle: How to Edit SoCo Resource in PSD Files using Java
+date: 2026-02-25
+description: Pelajari cara mengubah warna solid dan mengedit batch file PSD dengan
+  memodifikasi lapisan isi menggunakan Aspose.PSD untuk Java dalam panduan langkah
+  demi langkah ini.
+linktitle: How to Change Solid Color in PSD Files Using Java
 second_title: Aspose.PSD Java API
-title: Cara Mengedit Sumber Daya SoCo dalam File PSD menggunakan Java
+title: Cara Mengubah Warna Solid pada File PSD dengan Java
 url: /id/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 weight: 22
 ---
@@ -13,27 +14,28 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengedit SoCo Resource dalam File PSD menggunakan Java
+# Cara Mengubah Warna Solid dalam File PSD Menggunakan Java
 
-## Pendahuluan
-Jika Anda perlu **mengedit SoCo** sumber daya di dalam file Photoshop PSD dan bahkan **mengubah warna lapisan PSD**, Aspose.PSD untuk Java membuatnya sangat mudah. Dalam tutorial ini kami akan membimbing Anda melalui seluruh proses—dari menyiapkan lingkungan hingga menyimpan file yang telah diedit—sehingga Anda dapat mengotomatisasi manipulasi gambar yang kompleks dengan percaya diri. Baik Anda mengotomatisasi alur kerja batch atau membangun editor grafis khusus, langkah‑langkah di bawah ini akan memberi Anda dasar yang kuat.
+## Introduction
+Jika Anda perlu **mengedit sumber SoCo** di dalam file Photoshop PSD dan bahkan **mengubah warna lapisan PSD**, Aspose.PSD untuk Java membuatnya sangat mudah. Pada tutorial ini kami akan memandu Anda melalui seluruh proses—dari menyiapkan lingkungan hingga menyimpan file yang telah diedit—sehingga Anda dapat **mengubah warna solid** secara programatis, mengedit batch file PSD, dan mengintegrasikan logika tersebut ke dalam aplikasi Java yang lebih besar. Baik Anda mengotomatisasi alur kerja batch maupun membangun editor grafis khusus, langkah‑langkah di bawah ini akan memberikan fondasi yang kuat.
 
-## Jawaban Cepat
-- **What is SoCo?** Sebuah sumber daya Photoshop “Solid Color” yang mendefinisikan isian warna tunggal untuk sebuah lapisan.  
-- **Which library helps edit it?** Aspose.PSD untuk Java.  
-- **Do I need a license?** Versi percobaan gratis dapat digunakan untuk eksplorasi; lisensi komersial diperlukan untuk produksi.  
-- **Can I change the layer color?** Ya—gunakan `SoCoResource.setColor()` untuk mengganti warna yang ada.  
-- **How long does it take?** Biasanya kurang dari 10 menit untuk mengimplementasikan dan menguji.
+## Quick Answers
+- **Apa itu SoCo?** Sumber “Solid Color” Photoshop yang mendefinisikan isian warna tunggal untuk sebuah lapisan.  
+- **Perpustakaan mana yang membantu mengeditnya?** Aspose.PSD untuk Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk eksplorasi; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya mengubah warna lapisan?** Ya—gunakan `SoCoResource.setColor()` untuk mengganti warna yang ada.  
+- **Berapa lama prosesnya?** Biasanya kurang dari 10 menit untuk mengimplementasikan dan menguji.
 
-## Apa itu “cara mengedit soco” dalam konteks file PSD?
-Frasa “cara mengedit soco” merujuk pada mengakses dan memodifikasi secara programatik sumber daya Solid Color (SoCo) yang disimpan Photoshop untuk lapisan isian. Dengan mengedit sumber daya ini Anda dapat mengubah tampilan visual sebuah lapisan tanpa harus membuka Photoshop secara manual.
+## What is “how to edit soco” in the context of PSD files?
+Frasa “how to edit soco” mengacu pada mengakses dan memodifikasi sumber Solid Color (SoCo) secara programatis yang disimpan Photoshop untuk lapisan isian. Dengan mengedit sumber ini Anda dapat mengubah tampilan visual sebuah lapisan tanpa harus membuka Photoshop secara manual.
 
-## Mengapa mengedit sumber daya SoCo dengan Java?
+## Why edit SoCo resources with Java?
 - **Automasi:** Memproses ratusan PSD tanpa klik manual.  
 - **Konsistensi:** Menjamin nilai warna yang sama di semua file.  
-- **Integrasi:** Menggabungkan pemrosesan gambar dengan logika bisnis berbasis Java lainnya.
+- **Integrasi:** Menggabungkan pemrosesan gambar dengan logika bisnis berbasis Java lainnya.  
+- **Batch edit PSD:** Kode yang sama dapat ditempatkan dalam loop untuk menangani banyak file sekaligus.
 
-## Prasyarat
+## Prerequisites
 Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
 1. **Java Development Kit (JDK)** – unduh dari [situs Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
@@ -43,8 +45,8 @@ Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
 Setelah semua siap, Anda dapat mengimpor paket yang diperlukan.
 
-## Impor Paket
-Langkah pertama adalah membawa kelas‑kelas Aspose.PSD ke dalam ruang lingkup:
+## Import Packages
+Langkah pertama adalah membawa kelas Aspose.PSD ke dalam ruang lingkup:
 
 ```java
 import com.aspose.psd.Color;
@@ -56,10 +58,10 @@ import com.aspose.psd.fileformats.psd.layers.filllayers.FillLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.SoCoResource;
 ```
 
-## Panduan Langkah‑per‑Langkah
+## Step‑by‑Step Guide
 
-### Langkah 1: Siapkan Jalur File
-Tentukan di mana PSD sumber Anda berada dan di mana versi yang telah diedit akan disimpan.
+### Step 1: Setup the File Paths
+Tentukan di mana PSD sumber berada dan di mana versi yang telah diedit akan disimpan.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,17 +69,17 @@ String sourceFileName = dataDir + "ColorFillLayer.psd";
 String exportPath = dataDir + "SoCoResource_Edited.psd";
 ```
 
-Ganti `"Your Document Directory"` dengan jalur folder yang sebenarnya di mesin Anda.
+Ganti `"Your Document Directory"` dengan jalur folder yang sebenarnya pada mesin Anda.
 
-### Langkah 2: Muat Gambar PSD
+### Step 2: Load the PSD Image
 Buka file PSD sehingga Anda dapat bekerja dengan lapisannya.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-### Langkah 3: Iterasi Melalui Lapisan
-Loop melalui setiap lapisan dalam dokumen untuk menemukan yang berisi sumber daya SoCo.
+### Step 3: Iterate Through Layers
+Lakukan iterasi pada setiap lapisan dalam dokumen untuk menemukan yang berisi sumber SoCo.
 
 ```java
 try {
@@ -87,7 +89,7 @@ try {
 }
 ```
 
-### Langkah 4: Periksa FillLayer dan SoCoResource
+### Step 4: Check for FillLayer and SoCoResource
 Identifikasi objek `FillLayer` lalu cari `SoCoResource` di dalamnya.
 
 ```java
@@ -104,24 +106,24 @@ if (layer instanceof FillLayer) {
 }
 ```
 
-### Langkah 5: Modifikasi Warna SoCoResource
-Sekarang Anda dapat **mengubah warna lapisan PSD** dengan memperbarui nilai warna sumber daya SoCo.
+### Step 5: Modify the Color of SoCoResource
+Sekarang Anda dapat **mengubah warna lapisan PSD** dengan memperbarui nilai warna sumber SoCo.
 
 ```java
 assert Color.fromArgb(63, 83, 141).equals(socoResource.getColor());
 socoResource.setColor(Color.getRed());
 ```
 
-Pernyataan tersebut memastikan warna asli, dan `setColor` mengubahnya menjadi merah.
+Pernyataan `assert` mengonfirmasi warna asli, dan `setColor` mengubahnya menjadi merah.
 
-### Langkah 6: Simpan Gambar PSD yang Diedit
-Setelah perubahan selesai, tulis file yang diperbarui kembali ke disk.
+### Step 6: Save the Edited PSD Image
+Setelah perubahan selesai, tulis file yang telah diperbarui kembali ke disk.
 
 ```java
 im.save(exportPath);
 ```
 
-### Langkah 7: Bersihkan Sumber Daya
+### Step 7: Clean Up Resources
 Dispose objek `PsdImage` untuk membebaskan memori native.
 
 ```java
@@ -130,35 +132,39 @@ finally {
 }
 ```
 
-## Masalah Umum & Tips
-- **Null resources:** Selalu periksa bahwa `fillLayer.getResources()` tidak null sebelum melakukan iterasi.  
-- **Unsupported color formats:** `Color.getRed()` berfungsi untuk RGB standar; gunakan `Color.fromArgb()` untuk nilai khusus.  
-- **Performance:** Untuk PSD berukuran besar, pertimbangkan memproses lapisan dalam thread terpisah agar UI tetap responsif.
+## How to Change Solid Color in a Fill Layer
+Kode di atas memperlihatkan inti dari **mengubah warna solid** untuk sebuah lapisan isian. Dengan mengganti pemanggilan `Color.getRed()` dengan `Color.fromArgb(r, g, b)` apa pun, Anda dapat menetapkan warna solid apa pun yang dibutuhkan. Pendekatan ini berlaku untuk semua PSD yang menggunakan sumber SoCo, menjadikannya ideal untuk skenario **modify fill layer**.
 
-## Kesimpulan
-Anda kini mengetahui **cara mengedit SoCo** sumber daya dan **mengubah warna lapisan PSD** menggunakan Aspose.PSD untuk Java. Teknik ini mempermudah pembaruan gambar secara massal dan terintegrasi mulus ke dalam pipeline berbasis Java. Jangan ragu untuk bereksperimen dengan sumber daya lapisan lainnya—Aspose.PSD memberi Anda kontrol penuh atas file Photoshop tanpa harus membuka GUI.
+## Batch Edit PSD Files
+Untuk **mengedit batch PSD**, cukup bungkus seluruh blok langkah‑demi‑langkah di dalam loop yang iterasi melalui koleksi jalur file. Operasi `setColor` yang sama akan diterapkan pada setiap dokumen, memberi Anda cara cepat memperbarui banyak desain sekaligus.
 
-## Pertanyaan yang Sering Diajukan
+## Common Issues & Tips
+- **Sumber null:** Selalu periksa bahwa `fillLayer.getResources()` tidak null sebelum melakukan iterasi.  
+- **Format warna tidak didukung:** `Color.getRed()` bekerja untuk RGB standar; gunakan `Color.fromArgb()` untuk nilai khusus.  
+- **Kinerja:** Untuk PSD berukuran besar, pertimbangkan memproses lapisan dalam thread terpisah agar UI tetap responsif.  
+- **Edit solid color layer:** Jika sebuah lapisan tidak memiliki sumber SoCo, Anda mungkin perlu menambahkannya secara manual—Aspose.PSD menyediakan API untuk membuat sumber baru.  
 
-**Q: Dapatkah saya mengedit banyak file PSD secara batch?**  
-**A:** Tentu saja. Bungkus kode dalam loop yang mengiterasi daftar jalur file dan terapkan modifikasi SoCo yang sama pada setiap file.
+## Frequently Asked Questions
 
-**Q: Apakah mengubah warna SoCo memengaruhi lapisan lain?**  
-**A:** Tidak. Perubahan hanya terjadi pada `FillLayer` spesifik yang berisi sumber daya SoCo yang Anda edit.
+**Q: Can I edit multiple PSD files in a batch?**  
+A: Tentu saja. Bungkus kode dalam loop yang iterasi melalui daftar jalur file dan terapkan modifikasi SoCo yang sama pada setiap file.
 
-**Q: Bagaimana jika PSD tidak memiliki sumber daya SoCo?**  
-**A:** Loop dalam akan melewati lapisan tersebut. Anda dapat menambahkan fallback untuk membuat sumber daya SoCo baru bila diperlukan.
+**Q: Does changing the SoCo color affect other layers?**  
+A: Tidak. Perubahan hanya berlaku pada `FillLayer` spesifik yang berisi sumber SoCo yang Anda edit.
 
-**Q: Apakah ada cara untuk melihat pratinjau perubahan warna sebelum menyimpan?**  
-**A:** Anda dapat mengekspor `PsdImage` ke format umum seperti PNG (`im.save("preview.png")`) untuk memverifikasi hasilnya.
+**Q: What if the PSD has no SoCo resource?**  
+A: Loop internal akan melewati lapisan tersebut. Anda dapat menambahkan fallback untuk membuat sumber SoCo baru bila diperlukan.
 
-**Q: Apakah saya harus menutup gambar secara manual?**  
-**A:** Blok `finally` dengan `im.dispose()` memastikan semua sumber daya native dibebaskan, bahkan jika terjadi pengecualian.
+**Q: Is there a way to preview the color change before saving?**  
+A: Anda dapat mengekspor `PsdImage` ke format umum seperti PNG (`im.save("preview.png")`) untuk memverifikasi hasilnya.
+
+**Q: Do I need to close the image manually?**  
+A: Blok `finally` dengan `im.dispose()` memastikan semua sumber native dibebaskan, bahkan jika terjadi pengecualian.
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD 24.11 untuk Java  
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
