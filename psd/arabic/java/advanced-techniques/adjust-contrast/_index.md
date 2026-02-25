@@ -1,47 +1,54 @@
 ---
-date: 2025-12-21
-description: تعلم كيفية ضبط تباين الصور باستخدام Aspose.PSD للـ Java، مكتبة معالجة
-  الصور الرائدة في Java، وتحويل ملفات PSD إلى TIFF بكفاءة.
-linktitle: Adjust Contrast of an Image
+date: 2026-02-25
+description: تعلم كيفية تحويل ملفات PSD إلى TIFF وإجراء تعديل تباين الصورة باستخدام
+  Aspose.PSD for Java، مكتبة رائدة لمعالجة الصور بلغة جافا.
+linktitle: Convert PSD to TIFF and Adjust Contrast
 second_title: Aspose.PSD Java API
-title: كيفية تعديل تباين صورة باستخدام Aspose.PSD للـ Java
+title: كيفية تحويل PSD إلى TIFF وضبط التباين باستخدام Aspose.PSD للـ Java
 url: /ar/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
+
+ names, URLs.
+
+Let's produce Arabic.
+
+We'll keep bold formatting.
+
+Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تعديل التباين لصورة باستخدام Aspose.PSD for Java
+# كيفية تحويل PSD إلى TIFF وضبط التباين باستخدام Aspose.PSD للـ Java
 
-## مقدمة
+## المقدمة
 
-إذا كنت تبحث عن **how to adjust contrast** في مشاريع Java الخاصة بك، فقد وجدت المكان المناسب. Aspose.PSD for Java هي مكتبة **java image manipulation library** قوية تتيح لك ضبط خصائص الصورة مثل التباين والسطوع والمزيد. في هذا البرنامج التعليمي سنستعرض الخطوات الدقيقة لرفع تباين ملف PSD ثم **convert PSD to TIFF** لتدفقات العمل اللاحقة.
+إذا كنت بحاجة إلى **تحويل PSD إلى TIFF** مع ضبط جودة الرسومات بصريًا، فأنت في المكان المناسب. في هذا الدرس سنستعرض سير العمل الكامل باستخدام Aspose.PSD للـ Java—مكتبة **java image manipulation** قوية. ستتعلم كيفية تحسين **ضبط تباين الصورة**، وتخزين بيانات الراستر الكبيرة مؤقتًا للأداء، وأخيرًا **حفظ الصورة كـ TIFF** للمعالجة اللاحقة. هيا نبدأ!
 
 ## إجابات سريعة
-- **What does “adjust contrast” mean?** يغيّر الفرق بين أغمق وأفتح البكسلات، مما يجعل التفاصيل تبرز.
-- **Which library handles this?** Aspose.PSD for Java – مجموعة أدوات معالجة صور متكاملة.
-- **Do I need a license?** ترخيص مؤقت يعمل للاختبار؛ ترخيص كامل مطلوب للإنتاج.
-- **Can I save the result as TIFF?** نعم، سنستخدم `TiffOptions` لتصدير الصورة المعالجة.
-- **How long does the code take to run?** عادةً أقل من ثانية لملفات PSD ذات الحجم القياسي.
+- **ماذا يعني “ضبط التباين”؟** يغيّر الفرق بين أغمق وأفتح البكسلات، مما يجعل التفاصيل بارزة.  
+- **أي مكتبة تتولى ذلك؟** Aspose.PSD للـ Java – مجموعة أدوات معالجة الصور المتكاملة.  
+- **هل أحتاج إلى ترخيص؟** **ترخيص aspose مؤقت** يكفي للاختبار؛ الترخيص الكامل مطلوب للإنتاج.  
+- **هل يمكنني **تحويل PSD إلى TIFF**؟** بالطبع – سنستخدم `TiffOptions` لتصدير الصورة المعالجة.  
+- **كم يستغرق تشغيل الكود؟** عادةً أقل من ثانية لملفات PSD ذات الحجم العادي على الأجهزة الحديثة.
 
-## ما هو تعديل التباين؟
+## ما هو ضبط تباين الصورة؟
+ضبط التباين يغيّر النطاق اللوني للصورة، معززًا الفارق بين المناطق الفاتحة والداكنة. يكون ذلك مفيدًا خاصةً عندما تبدو الصور مسطحة بعد المسح أو عند إعداد الرسومات للطباعة.
 
-تعديل التباين يغيّر النطاق اللوني للصورة، معززًا الفارق بين المناطق الفاتحة والداكنة. يكون ذلك مفيدًا بشكل خاص عندما تبدو الصور مسطحة بعد المسح أو عند إعداد الرسومات للطباعة.
-
-## لماذا تستخدم Aspose.PSD for Java؟
-
-- **Rich format support** – افتح، حرّر، واحفظ PSD، TIFF، PNG، JPEG والعديد غيرها.
-- **High performance** – التخزين المؤقت وتحسينات الصور النقطية تقلل من استهلاك الذاكرة.
-- **Straight‑forward API** – استدعاءات طريقة واحدة مثل `adjustContrast` تجعل الكود سهل القراءة.
+## لماذا نستخدم Aspose.PSD للـ Java؟
+- **دعم صيغ غني** – افتح، حرّر، و**احفظ الصورة كـ TIFF**، PNG، JPEG والعديد غيرها.  
+- **أداء عالي** – التخزين المؤقت وتحسينات صور الراستر تقلل من استهلاك الذاكرة، وهو أمر حاسم لملفات PSD الكبيرة.  
+- **واجهة برمجة تطبيقات بسيطة** – استدعاءات طريقة واحدة مثل `adjustContrast` تجعل الكود سهل القراءة والصيانة.  
+- **قدرات شاملة لمعالجة الصور في Java** تناسب كل من السكريبتات البسيطة وتطبيقات المؤسسات.
 
 ## المتطلبات المسبقة
 
-قبل البدء، تأكد من أن لديك:
+قبل البدء، تأكد من وجود:
 
-- معرفة أساسية ببرمجة Java.
-- مكتبة Aspose.PSD for Java مثبتة. يمكنك تنزيلها [here](https://releases.aspose.com/psd/java/).
+- معرفة أساسية ببرمجة Java.  
+- مكتبة Aspose.PSD للـ Java مثبتة. يمكنك تنزيلها [هنا](https://releases.aspose.com/psd/java/).
 
 ## استيراد الحزم
 
@@ -66,9 +73,9 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-نقوم بتحميل ملف PSD المصدر (`sample.psd`) إلى كائن `Image`، والذي يعمل كنقطة الدخول لجميع المعالجات اللاحقة.
+نقوم بتحميل ملف PSD المصدر (`sample.psd`) إلى كائن `Image`، والذي يُعد نقطة الدخول لجميع عمليات المعالجة اللاحقة.
 
-## الخطوة 2: التحويل إلى RasterImage وتخزين البيانات مؤقتًا
+## الخطوة 2: تحويل إلى RasterImage وتخزين البيانات مؤقتًا
 
 ```java
 // Cast object of Image to RasterImage
@@ -82,14 +89,14 @@ if (!rasterImage.isCached()) {
 
 التحويل إلى `RasterImage` يمنحنا إمكانية الوصول إلى عمليات على مستوى البكسل. التخزين المؤقت يحسن الأداء، خاصةً للملفات الكبيرة.
 
-## كيفية تعديل تباين الصورة
+## كيفية ضبط تباين الصورة
 
 ```java
 // Adjust the contrast
 rasterImage.adjustContrast(50);
 ```
 
-طريقة `adjustContrast` تأخذ عددًا صحيحًا يمثل نسبة التغيير. في هذا المثال نزيد التباين بنسبة **50 %**.
+طريقة `adjustContrast` تأخذ عددًا صحيحًا يمثل نسبة التغيير. في هذا المثال نقوم بزيادة التباين بنسبة **50 %**.
 
 ## تحويل PSD إلى TIFF باستخدام Aspose.PSD
 
@@ -105,43 +112,43 @@ String destName = dataDir + "AdjustContrast_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
-هنا نقوم بتكوين `TiffOptions` (عدد البتات لكل عينة، التفسير الضوئي) ونكتب الصورة المعززة بالتباين إلى ملف TIFF.
+هنا نقوم بتكوين `TiffOptions` (عدد البتات لكل عينة، تفسير الفوتومتري) و**حفظ الصورة كـ TIFF**. هذه الخطوة تُكمل سير عمل **تحويل PSD إلى TIFF**.
 
 ## المشكلات الشائعة والحلول
-- **Image not cached:** احرص دائمًا على استدعاء `cacheData()` للـ PSD الكبيرة لتجنب `OutOfMemoryError`.
-- **Unexpected color shift:** تحقق من أن `setPhotometric` يتطابق مع مساحة اللون المستهدفة (RGB مقابل CMYK).
-- **File not found:** تأكد من أن `dataDir` يشير إلى المجلد الصحيح وأن اسم الملف مكتوب بشكل صحيح.
+- **الصورة غير مخزنة مؤقتًا:** احرص دائمًا على استدعاء `cacheData()` للملفات الكبيرة لتجنب `OutOfMemoryError`.  
+- **تحول غير متوقع في الألوان:** تأكد من أن `setPhotometric` يتطابق مع مساحة اللون المستهدفة (RGB مقابل CMYK).  
+- **الملف غير موجود:** تحقق من أن `dataDir` يشير إلى المجلد الصحيح وأن اسم الملف مكتوب بشكل صحيح.
 
 ## الأسئلة المتكررة
 
 ### س1: هل Aspose.PSD متوافق مع صيغ صور مختلفة؟
 
-A1: نعم، يدعم Aspose.PSD صيغ صور متعددة، مما يوفر مرونة في مشاريعك.
+ج1: نعم، يدعم Aspose.PSD صيغ صور متعددة، مما يوفر مرونة في مشاريعك.
 
 ### س2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟
 
-A2: يمكنك الحصول على ترخيص مؤقت [here](https://purchase.aspose.com/temporary-license/).
+ج2: يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س3: أين يمكنني العثور على وثائق Aspose.PSD؟
 
-A3: الوثائق متاحة [here](https://reference.aspose.com/psd/java/).
+ج3: الوثائق متاحة [هنا](https://reference.aspose.com/psd/java/).
 
 ### س4: ما هي خيارات الدعم المتاحة لـ Aspose.PSD؟
 
-A4: للدعم، زر [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
+ج4: للحصول على الدعم، زر منتدى [Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
 ### س5: هل يمكنني شراء Aspose.PSD؟
 
-A5: نعم، يمكنك شراء Aspose.PSD [here](https://purchase.aspose.com/buy).
+ج5: نعم، يمكنك شراء Aspose.PSD [هنا](https://purchase.aspose.com/buy).
 
 ## الخلاصة
 
-أنت الآن تعرف **how to adjust contrast** لصورة PSD باستخدام Aspose.PSD for Java وكيفية **convert PSD to TIFF** للمعالجة الإضافية. هذه الخطوات تمنحك تحكمًا دقيقًا في جودة الصورة مع الحفاظ على شفافية وصيانة الكود. لا تتردد في تجربة طرق تعديل صور أخرى مثل `adjustBrightness` أو `adjustGamma` لتلبية احتياجاتك الخاصة.
+الآن تعرف **كيفية تحويل PSD إلى TIFF** وإجراء **ضبط تباين الصورة** باستخدام Aspose.PSD للـ Java. تمنحك هذه الخطوات تحكمًا دقيقًا في جودة الصورة مع الحفاظ على نظافة الكود وسهولة صيانته. لا تتردد في تجربة طرق ضبط أخرى مثل `adjustBrightness` أو `adjustGamma` لتلبية احتياجاتك الخاصة.
 
 ---
 
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.PSD for Java 24.12  
+**آخر تحديث:** 2026-02-25  
+**تم الاختبار مع:** Aspose.PSD للـ Java 24.12  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
