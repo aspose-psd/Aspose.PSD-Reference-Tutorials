@@ -1,10 +1,10 @@
 ---
-date: 2025-12-21
-description: Naučte se provádět zpracování obrázků v Javě úpravou gama obrázku pomocí
-  Aspose.PSD. Krok za krokem průvodce převodem PSD na TIFF a aplikací korekce gama.
+date: 2026-02-27
+description: Naučte se, jak upravit gamu při zpracování obrazu v Javě s Aspose.PSD,
+  převést PSD na TIFF a opravit vybledlé obrázky v stručném tutoriálu.
 linktitle: Adjust Gamma of an Image
 second_title: Aspose.PSD Java API
-title: Zpracování obrázků v Javě – Úprava gama pomocí Aspose.PSD
+title: Jak upravit gama v Java zpracování obrazu s Aspose.PSD
 url: /cs/java/advanced-techniques/adjust-gamma/
 weight: 23
 ---
@@ -13,38 +13,35 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Image Processing – Úprava gama pomocí Aspose.PSD
+# Jak upravit gama v Java zpracování obrazu s Aspose.PSD
 
 ## Úvod
 
-Pokud pracujete na **java image processing**, úprava gama obrázku je základní technikou pro zlepšení jasu a kontrastu bez ztráty detailů. V tomto tutoriálu vás provedeme, jak použít **Aspose.PSD for Java** k aplikaci korekce gama na soubor PSD a následnému exportu výsledku jako TIFF obrázek. Uvidíte, proč je tento přístup rychlý, spolehlivý a ideální pro server‑side image pipelines.
+Pokud pracujete na **java image processing**, naučit se **jak upravit gama** je základní technika pro zlepšení jasu a kontrastu bez ztráty detailů. V tomto tutoriálu vás provedeme použitím **Aspose.PSD for Java** k aplikaci korekce gama na soubor PSD, **převodu PSD na TIFF** a vyhnutí se **vybledlému obrazu**. Uvidíte, proč je tento přístup rychlý, spolehlivý a ideální pro server‑side image pipelines.
 
 ## Rychlé odpovědi
-- **Co dělá korekce gama?** Přemapuje hodnoty luminance tak, aby tmavé oblasti byly jasnější nebo světlé oblasti tmavší při zachování celkových detailů.  
-- **Která knihovna zpracování provádí?** Aspose.PSD for Java poskytuje vyhrazenou metodu `adjustGamma` pro rastrové obrázky.  
-- **Mohu převést PSD na TIFF ve stejném toku?** Ano – po úpravě gama můžete obrázek uložit přímo do TIFF pomocí `TiffOptions`.  
+- **Co dělá korekce gama?** Přemapuje hodnoty luminance tak, aby tmavé oblasti byly světlejší nebo světlé oblasti tmavší, přičemž zachovává celkový detail.  
+- **Která knihovna provádí zpracování?** Aspose.PSD for Java poskytuje dedikovanou metodu `adjustGamma` pro rastrové obrázky.  
+- **Mohu převést PSD na TIFF ve stejném toku?** Ano – po úpravě gama můžete obrázek přímo uložit do TIFF pomocí `TiffOptions`.  
 - **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; pro produkční použití je vyžadována komerční licence.  
 - **Jaká verze Javy je podporována?** Aspose.PSD podporuje Java 8 a novější.
 
-## Co je java image processing?
+## Jak upravit gama v Java zpracování obrazu
+Úprava gama je základní součástí každého **java image processing tutorial**, který se zabývá jasem nebo kontrastem. Níže rozkládáme kroky, vysvětlujeme, proč je každý řádek důležitý, a ukazujeme, jak proces začlenit do vašeho existujícího kódu.
 
-Java image processing označuje manipulaci, analýzu a transformaci vizuálních dat pomocí Java knihoven. Úkoly zahrnují změnu velikosti, filtrování, korekci barev a konverzi formátů – vše lze automatizovat v desktopových nebo webových aplikacích.
+## Co je Java korekce gama?
+Korekce gama mění nelineární vztah mezi kódovanými hodnotami pixelů a zobrazovaným jasem. Úpravou gama křivky můžete **odstranit problémy s vybledlým obrazem** nebo zvýraznit detaily ve stínech bez přeexponování světel.
 
 ## Proč použít Aspose.PSD pro korekci gama?
-
-Aspose.PSD nabízí API na vysoké úrovni, které abstrahuje složitost formátu PSD, což vám umožní soustředit se na samotné úpravy obrázku. Zajišťuje cachování, barevné profily a poskytuje jednoduché volání `adjustGamma`, což ho činí ideálním pro **image gamma correction** a **convert psd to tiff** pracovní postupy.
+Aspose.PSD funguje jako výkonná **java image processing library**, která abstrahuje složitosti formátu PSD. Zpracovává barevné profily, cachování a poskytuje jednoduché volání `adjustGamma`, což ji činí ideální pro **java gamma correction** a **convert PSD to TIFF** workflow.
 
 ## Předpoklady
 
-Před ponořením se do tutoriálu se ujistěte, že máte nastaveny následující předpoklady:
+1. **Java Development Environment** – nainstalována Java 8 nebo novější.  
+2. **Aspose.PSD Library** – stáhněte a přidejte JAR do svého projektu. Viz oficiální [documentation](https://reference.aspose.com/psd/java/).  
+3. **Ukázkový obrázek** – soubor PSD, který chcete zpracovat (např. `sample.psd`).  
 
-1. **Java Development Environment** – Ujistěte se, že máte na svém systému nainstalováno Java vývojové prostředí.  
-2. **Aspose.PSD Library** – Stáhněte a integrujte knihovnu Aspose.PSD do svého Java projektu. Potřebné zdroje najdete v [documentation](https://reference.aspose.com/psd/java/).  
-3. **Sample Image** – Připravte ukázkový PSD obrázek, který použijete pro aplikaci úpravy gama.
-
-## Importování balíčků
-
-Pro zahájení procesu importujte požadované balíčky ve svém Java projektu. Tím připravíte prostředí pro plynulé využití funkcí Aspose.PSD.
+## Import balíčků
 
 ```java
 import com.aspose.psd.Image;
@@ -56,8 +53,6 @@ import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
 ## Krok 1: Načtení obrázku
-
-Začněte načtením ukázkového PSD obrázku do instance třídy `RasterImage`. Toto je základ pro následné úpravy gama.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -75,18 +70,18 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-## Krok 2: Úprava gama
+**Tip:** Cachování rastrových dat jednou snižuje paměťové zatížení při aplikaci více úprav po sobě.
 
-Nyní upravte gama načteného obrázku pomocí metody `adjustGamma`. Jemně dolaďte hodnoty gama podle vašich požadavků.
+## Krok 2: Úprava gama
 
 ```java
 // Adjust the gamma
 rasterImage.adjustGamma(2.2f, 2.2f, 2.2f);
 ```
 
-## Krok 3: Vytvoření TiffOptions
+Můžete předat různé hodnoty pro červený, zelený a modrý kanál, pokud potřebujete úpravy specifické pro kanál.
 
-Vytvořte instanci `TiffOptions` pro výsledný obrázek. Nastavte různé vlastnosti, jako jsou bity na vzorek a fotometrické možnosti, aby výstup odpovídal vašim specifikacím.
+## Krok 3: Vytvoření TiffOptions
 
 ```java
 // Create an instance of TiffOptions for the resultant image
@@ -96,9 +91,9 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-## Krok 4: Uložení výsledného obrázku
+Nastavení 8‑bitového vzorku (`{8,8,8}`) udržuje velikost TIFF souboru rozumnou a zároveň zachovává barevnou věrnost.
 
-Uložte upravený obrázek do formátu TIFF pomocí dříve definovaného `TiffOptions`.
+## Krok 4: Uložení výsledného obrázku
 
 ```java
 // Save the resultant image to TIFF format
@@ -106,37 +101,48 @@ String destName = dataDir + "AdjustGamma_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
-## Časté problémy a řešení
+Po uložení můžete TIFF předat do downstream systémů, jako jsou tiskové služby nebo webové API.
 
-| Problém | Proč se vyskytuje | Jak opravit |
-|---------|-------------------|-------------|
-| **Obrázek vypadá vyplavený** | Hodnota gama příliš vysoká (např. > 2.5) | Snižte faktor gama na hodnotu mezi 1.8 a 2.2. |
+## Běžné případy použití
+
+- **Automatizované grafické pipeline** – Úprava gama za běhu před generováním náhledových obrázků.  
+- **Nástroje pro hromadný převod** – Převod velkých archivů PSD na TIFF při normalizaci jasu.  
+- **Webové služby** – Poskytnutí endpointu, který přijme PSD, aplikuje korekci gama a vrátí TIFF pro klienta.
+
+## Běžné problémy a řešení
+
+| Problém | Proč k tomu dochází | Jak opravit |
+|---------|---------------------|-------------|
+| **Obrázek vypadá vybledle** | Hodnota gama příliš vysoká (např. > 2.5) | Snižte faktor gama na hodnotu mezi 1.8 a 2.2. |
 | **`rasterImage.isCached()` vrací false** | Obrázek ještě není načten do paměti | Zavolejte `rasterImage.cacheData()` před úpravou gama. |
-| **Velikost TIFF souboru je velká** | Bity na vzorek nastaveny na 16‑bit | Použijte 8‑bitový vzorek (`{8,8,8}`) jak je ukázáno v příkladu. |
+| **Velikost TIFF souboru je velká** | Bits per sample nastaven na 16‑bit | Použijte 8‑bitový vzorek (`{8,8,8}`) jako v příkladu. |
 
 ## Často kladené otázky
 
 **Q: Mohu použít různé hodnoty gama pro každý barevný kanál?**  
 A: Ano – metoda `adjustGamma` přijímá samostatné float hodnoty pro červený, zelený a modrý kanál.
 
-**Q: Je možné řetězit více úprav obrázku před uložením?**  
-A: Rozhodně. Můžete provádět změnu velikosti, ořezávání nebo korekce barev postupně na stejné instanci `RasterImage`.
+**Q: Je možné řetězit více úprav obrazu před uložením?**  
+A: Rozhodně. Můžete provádět změnu velikosti, ořez nebo barevné korekce sekvenčně na stejném `RasterImage` instance.
 
 **Q: Podporuje Aspose.PSD soubory PSD s více stránkami?**  
 A: Ano, každá vrstva může být přístupná a zpracována samostatně.
 
 **Q: Do jakých formátů mohu exportovat kromě TIFF?**  
-A: Aspose.PSD podporuje PNG, JPEG, BMP a mnoho dalších formátů prostřednictvím jejich příslušných tříd možností.
+A: Aspose.PSD podporuje PNG, JPEG, BMP a mnoho dalších formátů prostřednictvím jejich příslušných options tříd.
+
+**Q: Jak se vyhnout vybledlému obrazu po korekci gama?**  
+A: Začněte s mírnou hodnotou gama (kolem 2.0) a náhled výsledku; pokud je obrázek příliš světlý, snižte hodnotu.
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste provedli **java image processing** úpravou gama souboru PSD a jeho exportem jako TIFF obrázku pomocí Aspose.PSD for Java. Tento pracovní postup vám poskytuje detailní kontrolu nad jasem a kontrastem obrázku, což ho činí ideálním pro automatizované grafické pipeline, webové služby nebo desktopové nástroje.
+Gratulujeme! Úspěšně jste se naučili **jak upravit gama** v **java image processing** workflow, převést PSD na TIFF a vyhnout se běžným úskalím, jako je **vybledlý obraz**. Tento vzor vám poskytuje detailní kontrolu nad jasem a kontrastem, což je ideální pro automatizované grafické pipeline, webové služby nebo desktopové utility.
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-02-27  
+**Testováno s:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

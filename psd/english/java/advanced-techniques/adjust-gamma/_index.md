@@ -1,22 +1,22 @@
 ---
-title: Java Image Processing – Adjust Gamma with Aspose.PSD
+title: How to Adjust Gamma in Java Image Processing with Aspose.PSD
 linktitle: Adjust Gamma of an Image
 second_title: Aspose.PSD Java API
-description: Learn how to perform java image processing by adjusting image gamma with Aspose.PSD. Step‑by‑step guide to convert PSD to TIFF and apply gamma correction.
+description: Learn how to adjust gamma in Java image processing with Aspose.PSD, convert PSD to TIFF, and fix washed‑out images in a concise tutorial.
 weight: 23
 url: /java/advanced-techniques/adjust-gamma/
-date: 2025-12-21
+date: 2026-02-27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Image Processing – Adjust Gamma with Aspose.PSD
+# How to Adjust Gamma in Java Image Processing with Aspose.PSD
 
 ## Introduction
 
-If you’re working on **java image processing**, adjusting the gamma of a picture is a fundamental technique to improve brightness and contrast without losing detail. In this tutorial we’ll walk through how to use **Aspose.PSD for Java** to apply gamma correction to a PSD file and then export the result as a TIFF image. You’ll see why this approach is fast, reliable, and perfect for server‑side image pipelines.
+If you’re working on **java image processing**, learning **how to adjust gamma** is a fundamental technique to improve brightness and contrast without losing detail. In this tutorial we’ll walk through how to use **Aspose.PSD for Java** to apply gamma correction to a PSD file, **convert PSD to TIFF**, and avoid a **washed‑out image**. You’ll see why this approach is fast, reliable, and perfect for server‑side image pipelines.
 
 ## Quick Answers
 - **What does gamma correction do?** It remaps luminance values to make dark areas brighter or bright areas darker while preserving overall detail.  
@@ -25,25 +25,22 @@ If you’re working on **java image processing**, adjusting the gamma of a pictu
 - **Do I need a license for development?** A free trial works for testing; a commercial license is required for production use.  
 - **What Java version is supported?** Aspose.PSD supports Java 8 and later.
 
-## What is java image processing?
+## How to Adjust Gamma in Java Image Processing
+Adjusting gamma is a core part of any **java image processing tutorial** that deals with brightness or contrast. Below we break down the steps, explain why each line matters, and show you how to integrate the process into your existing codebase.
 
-Java image processing refers to the manipulation, analysis, and transformation of visual data using Java libraries. Tasks include resizing, filtering, color correction, and format conversion—all of which can be automated in desktop or web applications.
+## What is Java Gamma Correction?
+Gamma correction changes the nonlinear relationship between the encoded pixel values and the displayed brightness. By tweaking the gamma curve you can **fix washed out image** problems or enhance details in shadows without over‑exposing highlights.
 
-## Why use Aspose.PSD for gamma correction?
-
-Aspose.PSD offers a high‑level API that abstracts the complexity of the PSD format, letting you focus on the actual image adjustments. It handles caching, colour profiles, and provides a straightforward `adjustGamma` call, making it ideal for **image gamma correction** and **convert psd to tiff** workflows.
+## Why Use Aspose.PSD for Gamma Correction?
+Aspose.PSD acts as a powerful **java image processing library** that abstracts away the complexities of the PSD format. It handles colour profiles, caching, and provides a simple `adjustGamma` call, making it ideal for **java gamma correction** and **convert PSD to TIFF** workflows.
 
 ## Prerequisites
 
-Before diving into the tutorial, make sure you have the following prerequisites set up:
-
-1. **Java Development Environment** – Ensure you have a Java development environment installed on your system.  
-2. **Aspose.PSD Library** – Download and integrate the Aspose.PSD library into your Java project. You can find the necessary resources in the [documentation](https://reference.aspose.com/psd/java/).  
-3. **Sample Image** – Prepare a sample PSD image that you'll use to apply the gamma adjustment.
+1. **Java Development Environment** – Java 8 or later installed.  
+2. **Aspose.PSD Library** – Download and add the JAR to your project. See the official [documentation](https://reference.aspose.com/psd/java/).  
+3. **Sample Image** – A PSD file you want to process (e.g., `sample.psd`).  
 
 ## Import Packages
-
-To kick off the process, import the required packages in your Java project. This sets the stage for utilizing Aspose.PSD functionalities seamlessly.
 
 ```java
 import com.aspose.psd.Image;
@@ -55,8 +52,6 @@ import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
 ## Step 1: Load the Image
-
-Start by loading the sample PSD image into an instance of the `RasterImage` class. This is the foundation for subsequent gamma adjustments.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -74,18 +69,18 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-## Step 2: Adjust Gamma
+**Pro tip:** Caching the raster data once reduces memory churn when you apply multiple adjustments in a row.
 
-Now, adjust the gamma of the loaded image using the `adjustGamma` method. Fine‑tune the gamma values according to your requirements.
+## Step 2: Adjust Gamma
 
 ```java
 // Adjust the gamma
 rasterImage.adjustGamma(2.2f, 2.2f, 2.2f);
 ```
 
-## Step 3: Create TiffOptions
+You can pass different values for the red, green, and blue channels if you need channel‑specific tweaks.
 
-Create an instance of `TiffOptions` for the resultant image. Set various properties, such as bits per sample and photometric options, to tailor the output to your specifications.
+## Step 3: Create TiffOptions
 
 ```java
 // Create an instance of TiffOptions for the resultant image
@@ -95,15 +90,23 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-## Step 4: Save the Resultant Image
+Setting an 8‑bit sample (`{8,8,8}`) keeps the TIFF file size reasonable while preserving colour fidelity.
 
-Save the manipulated image to TIFF format using the previously defined `TiffOptions`.
+## Step 4: Save the Resultant Image
 
 ```java
 // Save the resultant image to TIFF format
 String destName = dataDir + "AdjustGamma_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
+
+After saving, you can feed the TIFF into downstream systems such as print services or web APIs.
+
+## Common Use Cases
+
+- **Automated graphics pipelines** – Adjust gamma on the fly before generating thumbnails.  
+- **Batch conversion tools** – Convert large PSD archives to TIFF while normalising brightness.  
+- **Web services** – Expose an endpoint that receives a PSD, applies gamma correction, and returns a TIFF for client consumption.
 
 ## Common Issues and Solutions
 
@@ -127,13 +130,16 @@ A: Yes, each layer can be accessed and processed individually.
 **Q: What format can I export to besides TIFF?**  
 A: Aspose.PSD supports PNG, JPEG, BMP, and many other formats via their respective options classes.
 
+**Q: How do I avoid a washed‑out image after gamma correction?**  
+A: Start with a moderate gamma (around 2.0) and preview the result; adjust downwards if the image looks too bright.
+
 ## Conclusion
 
-Congratulations! You’ve successfully performed **java image processing** by adjusting the gamma of a PSD file and exporting it as a TIFF image using Aspose.PSD for Java. This workflow gives you fine‑grained control over image brightness and contrast, making it ideal for automated graphics pipelines, web services, or desktop utilities.
+Congratulations! You’ve successfully learned **how to adjust gamma** in a **java image processing** workflow, converted a PSD to TIFF, and avoided common pitfalls such as a **washed‑out image**. This pattern gives you fine‑grained control over brightness and contrast, making it ideal for automated graphics pipelines, web services, or desktop utilities.
 
 ---
 
-**Last Updated:** 2025-12-21  
+**Last Updated:** 2026-02-27  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
