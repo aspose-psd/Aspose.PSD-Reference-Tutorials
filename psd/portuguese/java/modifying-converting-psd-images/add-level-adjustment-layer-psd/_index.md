@@ -1,65 +1,87 @@
 ---
-title: Adicionar camada de ajuste de nível em PSD
-linktitle: Adicionar camada de ajuste de nível em PSD
-second_title: API Java Aspose.PSD
-description: Aprenda como adicionar efetivamente uma camada de ajuste de nível em seus arquivos PSD usando Aspose.PSD para Java. Eleve suas habilidades de edição de imagens.
-weight: 16
+date: 2026-03-07
+description: Aprenda a ajustar os níveis adicionando uma Camada de Ajuste de Níveis
+  em arquivos PSD usando o Aspose.PSD para Java. Domine rapidamente os ajustes tonais.
+linktitle: Add Level Adjustment Layer in PSD
+second_title: Aspose.PSD Java API
+title: Como Ajustar Níveis – Adicionar Camada de Ajuste de Níveis no PSD
 url: /pt/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adicionar camada de ajuste de nível em PSD
+# Adicionar Camada de Ajuste de Níveis no PSD
 
-## Introdução
-Quando se trata de edição de imagens, o gerenciamento de níveis pode fazer uma grande diferença na vibração e clareza de suas fotos. Uma ferramenta útil no arsenal do Photoshop é a “Camada de ajuste de nível”, que permite ajustar a faixa de tons e o equilíbrio de cores de suas imagens. Neste guia, orientaremos você sobre como implementar uma camada de ajuste de nível em um arquivo PSD usando Aspose.PSD para Java. Então, pegue seu Java IDE.
-## Pré-requisitos
-Antes de entrar no mundo dos ajustes de nível, você precisará configurar algumas coisas para garantir uma viagem tranquila:
-1.  Java Development Kit (JDK): Certifique-se de ter o JDK instalado em sua máquina. Se você não tiver, você pode pegá-lo no[Site da Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou use OpenJDK.
-2.  Biblioteca Aspose.PSD para Java: Para manipular arquivos PSD, você precisará baixar a biblioteca Aspose.PSD. Você pode obter a versão mais recente deste[link para baixar](https://releases.aspose.com/psd/java/) e certifique-se de ter incluído o JAR na biblioteca do seu projeto.
-3. Conhecimento básico de Java: Ter um conhecimento fundamental de programação Java ajudará, pois iremos nos aprofundar nos trechos de código ao longo deste tutorial.
-4. Configuração do IDE: você pode usar qualquer IDE Java de sua preferência, como IntelliJ IDEA, Eclipse ou NetBeans, para escrever e executar seu código. Apenas certifique-se de configurar seu projeto Java e adicionar a biblioteca Aspose.PSD.
+## Introduction
+Se você está procurando **como ajustar níveis** em seus documentos do Photoshop, a Camada de Ajuste de Níveis é a ferramenta perfeita. Ela permite ajustar finamente sombras, meios‑tons e realces sem alterar permanentemente os pixels originais. Neste tutorial, vamos percorrer a adição de uma Camada de Ajuste de Níveis a um arquivo PSD usando Aspose.PSD for Java, para que você possa alcançar controle tonal de nível profissional em apenas alguns passos.
 
-## Importar pacotes
-Antes de começarmos a escrever nosso código, precisamos importar os pacotes necessários da biblioteca Aspose.PSD. Veja como você pode fazer isso:
+## Quick Answers
+- **O que faz uma Camada de Ajuste de Níveis?** Ela modifica a faixa tonal de uma imagem de forma não destrutiva.  
+- **Qual biblioteca é usada?** Aspose.PSD for Java.  
+- **Preciso de uma licença?** Uma avaliação gratuita funciona para desenvolvimento; uma licença é necessária para produção.  
+- **Quanto tempo leva a implementação?** Cerca de 10‑15 minutos para um ajuste básico.  
+- **Posso ajustar múltiplos canais?** Sim, você pode definir níveis de entrada/saída para cada canal de cor individualmente.
+
+## What is a Level Adjustment Layer?
+Uma Camada de Ajuste de Níveis permite corrigir o equilíbrio tonal de uma imagem ajustando sombras de entrada, meios‑tons e realces, bem como níveis de saída. Como ela reside em sua própria camada, você pode alternar sua visibilidade ou excluí‑la sem afetar a arte subjacente.
+
+## Why add a Level Adjustment Layer with Aspose.PSD?
+- **Automação:** Integre ajustes de níveis em pipelines de processamento em lote.  
+- **Multiplataforma:** Funciona em qualquer SO que suporte Java.  
+- **Precisão:** Acesse as configurações de cada canal programaticamente para resultados exatos.  
+
+## Prerequisites
+1. Java Development Kit (JDK). Se você não o tem, faça o download no [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou use OpenJDK.  
+2. Biblioteca Aspose.PSD for Java – obtenha o JAR mais recente neste [download link](https://releases.aspose.com/psd/java/).  
+3. Conhecimento básico de programação Java.  
+4. Uma IDE como IntelliJ IDEA, Eclipse ou NetBeans com o JAR Aspose.PSD adicionado ao classpath do projeto.
+
+## Import Packages
+Before we start writing our code, we need to import the necessary packages from the Aspose.PSD library. Here’s how you can do it:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-Ao importar estes pacotes teremos acesso às classes necessárias para carregar, modificar e salvar nossos arquivos PSD.
+These imports give us access to classes for loading PSD files, working with level adjustment layers, and manipulating individual channel settings.
 
-Agora, vamos dividir o processo em etapas digeríveis. Acompanhe enquanto carregamos um arquivo PSD, ajustamos os níveis e salvamos suas alterações. 
-## Etapa 1: configure seus caminhos de arquivo
-O primeiro passo é definir onde nosso arquivo PSD está localizado e onde queremos salvar a saída modificada. Você pode personalizar o caminho do diretório para atender às suas necessidades.
+## How to Adjust Levels in a PSD File
+Below is a step‑by‑step guide that shows you exactly **how to adjust levels** programmatically.
+
+### Step 1: Set Up Your File Paths
+Define where the source PSD resides and where the edited file will be saved.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- Aqui, substitua`"Your Document Directory"`com o caminho real em seu sistema onde seu arquivo PSD está armazenado. Isso prepara o terreno para tudo o que faremos a seguir.
-## Passo 2: Carregue o arquivo PSD
- Agora, vamos carregar o arquivo PSD usando o`PsdImage` aula. Esta etapa é essencial porque nos permite acessar e manipular as camadas.
+Replace `"Your Document Directory"` with the actual folder on your machine.
+
+### Step 2: Load the PSD File
+Create a `PsdImage` instance from the source file.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- Quando você liga`Image.load()` , ele lerá o arquivo PSD e criará uma instância de`PsdImage` com o qual você pode trabalhar.
-## Etapa 3: iterar pelas camadas
-Como queremos ajustar uma camada de ajuste de nível, precisaremos percorrer cada camada em nosso arquivo PSD. Isso nos ajuda a encontrar a camada específica que queremos modificar.
+Now you have full access to all layers inside the PSD.
+
+### Step 3: Iterate Through the Layers
+Find the Level Adjustment Layer you want to modify.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // Mais manipulação ocorrerá aqui ...
+        // Further manipulation will go here...
     }
 }
 ```
- Neste circuito,`instanceof LevelsLayer` verifica se a camada atual é uma camada de ajuste de níveis. Se for, podemos prosseguir para ajustar suas propriedades.
-## Etapa 4: ajuste as configurações do canal de nível
-Depois de identificarmos a camada correta, podemos modificar seus níveis de entrada e saída. É aqui que a mágica acontece! Ajuste diferentes parâmetros para ver como eles afetam a imagem.
+The `instanceof LevelsLayer` check ensures we only work with level adjustment layers.
+
+### Step 4: Adjust the Level Channel Settings
+Tweak the input and output values for the selected channel.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +90,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Veja o que cada parâmetro faz:
-- Nível de meio-tom de entrada: ajusta os tons médios.
-- Nível de sombra de entrada: ajusta as áreas mais escuras da imagem.
-- Nível de destaque de entrada: altera as áreas claras da imagem.
-- Nível de sombra de saída: define como as sombras escuras aparecerão.
-- Nível de realce de saída: define como os realces de luz aparecerão.
-Sinta-se à vontade para experimentar valores diferentes!
-## Etapa 5: salve o arquivo PSD modificado
-Agora que fizemos nossos ajustes, é hora de salvar o arquivo PSD modificado. Esta etapa é crucial para garantir que suas alterações sejam aplicadas e armazenadas.
+- **Nível Médio de Entrada:** Desloca a faixa de meios‑tons.  
+- **Nível de Sombra de Entrada:** Escurece ou clareia as sombras.  
+- **Nível de Realce de Entrada:** Controla as partes mais claras.  
+- **Níveis de Saída de Sombra/Realce:** Definem a faixa final de saída.
+
+Feel free to experiment with different values to see how they affect the image.
+
+### Step 5: Save the Modified PSD File
+Persist your changes to a new file.
 ```java
 im.save(psdPathAfterChange);
 ```
- Agora você pode encontrar seu arquivo PSD ajustado no local especificado`psdPathAfterChange`. 
-## Conclusão
-Você acabou de aprender como adicionar uma camada de ajuste de nível a um arquivo PSD usando Aspose.PSD para Java! Seguindo este guia, você pode ajustar a qualidade tonal de suas imagens sem esforço, abrindo caminho para uma saída mais vibrante e visualmente atraente. Lembre-se de que a prática leva à perfeição, então sinta-se à vontade para ajustar os ajustes e explorar diferentes arquivos PSD para ver os efeitos de suas alterações.
-## Perguntas frequentes
-### O que é uma camada de ajuste de nível?
-Uma camada de ajuste de nível permite corrigir a faixa tonal em suas imagens, equilibrando sombras, meios-tons e realces.
-### Posso usar o Aspose.PSD sem comprar?
-Sim! Aspose oferece um teste gratuito para testar a biblioteca antes de comprar.
-### Onde posso encontrar documentação para Aspose.PSD?
- Você pode encontrar a documentação[aqui](https://reference.aspose.com/psd/java/).
-### Existe algum suporte da comunidade para os produtos Aspose?
- Absolutamente! Você pode tirar dúvidas e obter suporte no[Aspor fórum](https://forum.aspose.com/c/psd/34).
-### Como posso obter uma licença temporária para Aspose.PSD?
- Você pode solicitar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+You’ll find the updated PSD at the location you specified in `psdPathAfterChange`.
+
+## Common Issues and Solutions
+- **Arquivo não encontrado:** Verifique se `dataDir` aponta para a pasta correta e se o PSD de origem existe.  
+- **ClassCastException:** Certifique‑se de que o arquivo carregado é realmente um PSD; outros formatos exigem classes diferentes.  
+- **Erros de licença:** Use uma licença válida do Aspose.PSD para builds de produção; a avaliação funciona para desenvolvimento.
+
+## Conclusion
+You now know **how to adjust levels** by adding and configuring a Level Adjustment Layer in a PSD file with Aspose.PSD for Java. This technique gives you precise control over tonal balance while keeping your workflow fully automated. Keep experimenting with different channel values and explore batch processing to apply the same adjustments to multiple images.
+
+## Frequently Asked Questions
+
+**Q: What is a Level Adjustment Layer?**  
+A: It’s a non‑destructive layer that lets you modify the tonal range (shadows, mid‑tones, highlights) of an image.
+
+**Q: Can I use Aspose.PSD without purchasing a license?**  
+A: Yes, you can evaluate the library with a free trial, but a license is required for commercial deployment.
+
+**Q: Where can I find documentation for Aspose.PSD?**  
+A: You can find the documentation [here](https://reference.aspose.com/psd/java/).
+
+**Q: Is there community support for Aspose products?**  
+A: Absolutely! You can ask questions and get help in the [Aspose forum](https://forum.aspose.com/c/psd/34).
+
+**Q: How can I get a temporary license for Aspose.PSD?**  
+A: You can apply for a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Última atualização:** 2026-03-07  
+**Testado com:** Aspose.PSD última versão (Java)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
