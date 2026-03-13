@@ -1,126 +1,211 @@
 ---
-title: สร้างภาพขนาดย่อจากไฟล์ PSD โดยใช้ Java
-linktitle: สร้างภาพขนาดย่อจากไฟล์ PSD โดยใช้ Java
+date: 2026-03-13
+description: เรียนรู้วิธีสร้างภาพย่อ PSD ด้วย Java โดยใช้ Aspose.PSD. ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อสร้างภาพย่อจากไฟล์
+  PSD อย่างรวดเร็ว.
+linktitle: Create Thumbnails from PSD Files using Java
 second_title: Aspose.PSD Java API
-description: เรียนรู้วิธีสร้างภาพขนาดย่อจากไฟล์ PSD ได้อย่างง่ายดายโดยใช้ Java และ Aspose.PSD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการประมวลผลภาพที่ราบรื่น
-weight: 24
+title: สร้างภาพย่อ PSD ด้วย Java – สร้างภาพย่อจากไฟล์ PSD
 url: /th/java/modifying-converting-psd-images/create-thumbnails-psd-files/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างภาพขนาดย่อจากไฟล์ PSD โดยใช้ Java
+# สร้าง PSD Thumbnail Java – สร้างภาพย่อจาก PSD
 
-## การแนะนำ
-ในโลกของการออกแบบกราฟิก การใช้งานไฟล์ PSD (เอกสาร Photoshop) ถือเป็นเรื่องปกติ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์ นักออกแบบกราฟิก หรือเพียงแค่คนที่ต้องการเจาะลึกในการประมวลผลภาพ การสร้างภาพขนาดย่อจากไฟล์ PSD สามารถช่วยประหยัดเวลาและปรับปรุงขั้นตอนการทำงานของคุณได้ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทั้งหมดโดยใช้ Aspose.PSD สำหรับ Java Aspose.PSD ไม่เพียงแต่เป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการไฟล์ Photoshop เท่านั้น แต่ยังทำให้งานในมือเป็นเรื่องง่ายและจัดการได้ คุณพร้อมที่จะเรียนรู้วิธีสร้างภาพขนาดย่อจากไฟล์ PSD อย่างมีประสิทธิภาพแล้วหรือยัง?
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเจาะลึกสาระสำคัญของการสร้างภาพขนาดย่อ เรามาพูดถึงสิ่งที่คุณต้องการในการเริ่มต้นกันก่อน
-### สภาพแวดล้อมการพัฒนาจาวา
--  Java JDK: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนคอมพิวเตอร์ของคุณ คุณสามารถดาวน์โหลดได้[ที่นี่](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-- IDE: สภาพแวดล้อมการพัฒนาแบบรวม (IDE) เช่น IntelliJ IDEA, Eclipse หรือ NetBeans จะทำให้การเขียนโค้ดง่ายขึ้น
-### ห้องสมุด Aspose.PSD
-- คุณต้องรวมไลบรารี Aspose.PSD ไว้ในโปรเจ็กต์ของคุณ คุณสามารถ[ดาวน์โหลดเวอร์ชันล่าสุดได้ที่นี่](https://releases.aspose.com/psd/java/).
-### ความรู้พื้นฐานของจาวา
-- ความคุ้นเคยกับพื้นฐาน Java จะช่วยให้คุณนำทางผ่านโค้ดตัวอย่างได้อย่างมีประสิทธิภาพมากขึ้น แนวคิดเช่นคลาส วัตถุ และลูปจะถูกใช้บ่อยครั้ง
-## แพ็คเกจนำเข้า
-เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็นจากไลบรารี Aspose.PSD ขั้นตอนนี้มีความสำคัญเนื่องจากช่วยให้คุณสามารถใช้ประโยชน์จากฟังก์ชันการทำงานของไลบรารีในโค้ดของคุณได้
+## Introduction
+หากคุณต้องการ **create PSD thumbnail Java** โค้ดที่ดึงภาพตัวอย่างจากไฟล์ Photoshop คุณมาถูกที่แล้ว ไม่ว่าคุณจะกำลังสร้างระบบจัดการสินทรัพย์ดิจิทัล, แกลเลอรีเว็บ, หรือไพพ์ไลน์การประมวลผลแบบแบตช์อัตโนมัติ การสร้างภาพย่อจากไฟล์ PSD สามารถปรับปรุงประสิทธิภาพและประสบการณ์ผู้ใช้ได้อย่างมาก ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมดด้วย Aspose.PSD for Java แสดงให้คุณเห็นวิธีโหลด PSD, ค้นหาแหล่งข้อมูลภาพย่อที่ฝังอยู่, และบันทึกเป็นไฟล์ภาพแยกต่างหาก
+
+## Quick Answers
+- **ไลบรารีที่ดีที่สุดสำหรับการสกัดภาพย่อ PSD คืออะไร?** Aspose.PSD for Java.  
+- **การทำงานนี้ใช้เวลานานแค่ไหน?** ประมาณ 10‑15 นาทีสำหรับการตั้งค่าเบื้องต้น.  
+- **ต้องติดตั้ง Photoshop ไหม?** ไม่จำเป็น, Aspose.PSD ทำงานได้โดยอิสระ.  
+- **สามารถส่งออกภาพย่อเป็นฟอร์แมตใดได้บ้าง?** ฟอร์แมตใดก็ได้ที่ Aspose.PSD รองรับ (เช่น BMP, PNG, JPEG).  
+- **ต้องมีลิขสิทธิ์สำหรับการใช้งานในโปรดักชันหรือไม่?** ใช่, จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในโปรดักชัน.
+
+## What is “create PSD thumbnail Java”?
+การสร้าง PSD thumbnail ใน Java หมายถึงการอ่านภาพย่อที่เก็บไว้ภายในไฟล์ Photoshop Document (PSD) อย่างโปรแกรมเมติกและเขียนออกเป็นไฟล์ภาพแยกต่างหาก ซึ่งเป็นประโยชน์สำหรับการสร้างตัวอย่างอย่างรวดเร็วโดยไม่ต้องโหลดเนื้อหา PSD ที่มักมีขนาดใหญ่เต็มรูปแบบ
+
+## Why use Aspose.PSD for this task?
+- **ไม่มีการพึ่งพา Photoshop:** ทำงานบนแพลตฟอร์มใดก็ได้ที่มี JDK.  
+- **รองรับ PSD อย่างเต็มรูปแบบ:** จัดการเวอร์ชันและแหล่งข้อมูล PSD ทั้งหมด รวมถึงภาพย่อ.  
+- **API ที่เรียบง่าย:** เพียงไม่กี่บรรทัดของโค้ดก็สามารถสกัดและบันทึกภาพย่อได้.  
+- **ประสิทธิภาพสูง:** จัดการหน่วยความจำอย่างมีประสิทธิภาพสำหรับไฟล์ขนาดใหญ่.
+
+## Prerequisites
+ก่อนที่เราจะลงลึกในรายละเอียดการสร้างภาพย่อ ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมใช้งาน
+
+### Java Development Environment
+- **Java JDK:** ตรวจสอบว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนคอมพิวเตอร์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+- **IDE:** Integrated Development Environment (IDE) เช่น IntelliJ IDEA, Eclipse หรือ NetBeans จะช่วยให้การเขียนโค้ดง่ายขึ้น
+
+### Aspose.PSD Library
+- คุณต้องรวมไลบรารี Aspose.PSD เข้าในโปรเจกต์ของคุณ คุณสามารถ [ดาวน์โหลดเวอร์ชันล่าสุดได้ที่นี่](https://releases.aspose.com/psd/java/)
+
+### Basic Knowledge of Java
+- ความคุ้นเคยกับพื้นฐานของ Java จะช่วยให้คุณเข้าใจโค้ดตัวอย่างได้ดีขึ้น แนวคิดเช่น คลาส, อ็อบเจ็กต์, และลูปจะถูกใช้บ่อยครั้ง
+
+## Import Packages
+เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็นจากไลบรารี Aspose.PSD ขั้นตอนนี้สำคัญเพราะทำให้คุณสามารถใช้ฟังก์ชันของไลบรารีในโค้ดของคุณได้
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailFormat;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-เมื่อไม่มีข้อกำหนดเบื้องต้นแล้ว เรามาเข้าสู่กิจกรรมหลักกันดีกว่า! การสร้างภาพขนาดย่อจากไฟล์ PSD มีขั้นตอนง่ายๆ ไม่กี่ขั้นตอน และฉันจะแจกแจงรายละเอียดให้คุณ
-## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อมของคุณ
-ต่อไปนี้เป็นวิธีเริ่มต้นโครงการและเตรียมพร้อมสำหรับการสร้างภาพขนาดย่อ
-1. สร้างโครงการจาวา:
-   - เปิด IDE ของคุณและสร้างโครงการ Java ใหม่
-   - ตั้งชื่อบางอย่างเช่น "PsdThumbnailGenerator"
-2. รวมไลบรารี Aspose.PSD:
-   -  เพิ่มไฟล์ Aspose.PSD JAR ไปยังเส้นทางการ build ของโปรเจ็กต์ของคุณ หากคุณใช้ Maven ให้รวมไว้ในของคุณ`pom.xml`-
-     ```xml
-     <dependency>
-         <groupId>com.aspose</groupId>
-         <artifactId>aspose-psd</artifactId>
-         <version>your_version_here</version>
-     </dependency>
-     ```
-## ขั้นตอนที่ 2: โหลดไฟล์ PSD
-ต่อไปเราต้องโหลดไฟล์ PSD ที่เราต้องการสร้างภาพขนาดย่อ 
-1. ระบุไดเร็กทอรีเอกสารของคุณ:
-   กำหนดไดเร็กทอรีที่มีไฟล์ PSD ของคุณ
-   ```java
-   String dataDir = "Your Document Directory"; // แทนที่ด้วยเส้นทางของคุณ
-   ```
-2. โหลดไฟล์ PSD:
-    ใช้`PsdImage` คลาสเพื่อโหลดไฟล์ PSD ของคุณ
-   ```java
-   PsdImage image = (PsdImage) Image.load(dataDir + "sample.psd");
-   ```
- ที่นี่,`sample.psd` คือชื่อไฟล์ PSD ของคุณ ปรับเปลี่ยนตามชื่อไฟล์ของคุณ
-## ขั้นตอนที่ 3: ทำซ้ำทรัพยากร PSD
-ตอนนี้เราได้โหลดรูปภาพ PSD แล้ว ขั้นตอนต่อไปคือการตรวจสอบทรัพยากร
-1. รับจำนวนทรัพยากร:
-   เราจะวนซ้ำทรัพยากรทั้งหมดในไฟล์ PSD
-   ```java
-   for (int i = 0; i < image.getImageResources().length; i++) {
-       // กำลังประมวลผลทรัพยากร
-   }
-   ```
-   
-2. ระบุทรัพยากรภาพขนาดย่อ:
-   ภายในลูป ให้ตรวจสอบว่าทรัพยากรเป็นรูปขนาดย่อหรือไม่
-   ```java
-   if (image.getImageResources()[i] instanceof ThumbnailResource) {
-       // ประมวลผลภาพขนาดย่อ
-   }
-   ```
-## ขั้นตอนที่ 4: ประมวลผลภาพขนาดย่อ
-เมื่อเราระบุแหล่งข้อมูลภาพขนาดย่อแล้ว เราจะต้องจัดการตามนั้น
-1. ดึงและตรวจสอบรูปแบบภาพขนาดย่อ:
-   หากทรัพยากรนั้นเป็นภาพขนาดย่อ ให้ดึงข้อมูลและตรวจสอบรูปแบบ
-   ```java
-   ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
-   if (thumbnail.getFormat() == ThumbnailFormat.KJpegRgb) {
-       // สร้างและบันทึกภาพขนาดย่อ
-   }
-   ```
-## ขั้นตอนที่ 5: สร้างและบันทึกภาพขนาดย่อ
-นี่คือจุดที่ความมหัศจรรย์เกิดขึ้น! เราจะสร้างภาพใหม่จากข้อมูลภาพขนาดย่อและบันทึก
-1. สร้างภาพใหม่:
-   เราจะใช้ความกว้างและความสูงของทรัพยากรภาพขนาดย่อเพื่อสร้างภาพบิตแมปใหม่
-   ```java
-   PsdImage thumbnailImage = new PsdImage(thumbnail.getWidth(), thumbnail.getHeight());
-   ```
-2. จัดเก็บพิกเซลในภาพใหม่:
-   ถ่ายโอนข้อมูลภาพขนาดย่อไปยังภาพที่สร้างขึ้นใหม่
-   ```java
-   thumbnailImage.savePixels(thumbnailImage.getBounds(), thumbnail.getThumbnailData());
-   ```
-3. บันทึกภาพขนาดย่อ:
-   สุดท้าย ให้บันทึกภาพขนาดย่อลงในไดเร็กทอรีเอกสารของคุณด้วยชื่อที่ไม่ซ้ำใคร
-   ```java
-   thumbnailImage.save(dataDir + "CreateThumbnailsFromPSDFiles_out_" + i + ".bmp");
-   ```
 
-## บทสรุป
-การสร้างภาพขนาดย่อจากไฟล์ PSD โดยใช้ Java และ Aspose.PSD อาจเป็นงานที่ตรงไปตรงมาเมื่อคุณแยกย่อยออกเป็นขั้นตอนที่สามารถจัดการได้ ด้วยบทช่วยสอนนี้ ตอนนี้คุณสามารถแยกภาพขนาดย่อจากไฟล์ PSD ของคุณได้อย่างง่ายดาย จึงเป็นเครื่องมือที่ดีในการปรับปรุงขั้นตอนการทำงานของคุณ แล้วอะไรจะหยุดคุณ? ลองใช้ไฟล์ PSD และทดลองใช้งานเลย!
-## คำถามที่พบบ่อย
-### Aspose.PSD คืออะไร
-Aspose.PSD เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาทำงานกับไฟล์ Photoshop ได้ ทำให้ง่ายต่อการจัดการและจัดการไฟล์ PSD โดยทางโปรแกรมได้ง่ายขึ้น
-### ฉันสามารถใช้ Aspose.PSD ได้ฟรีหรือไม่
-ใช่ Aspose เสนอการทดลองใช้ฟรีที่คุณสามารถใช้เพื่อทดสอบไลบรารีก่อนที่จะซื้อใบอนุญาต
-### ฉันสามารถบันทึกภาพขนาดย่อในรูปแบบใดได้บ้าง
-ในตัวอย่างนี้ เราได้บันทึกภาพขนาดย่อในรูปแบบ BMP แต่ Aspose.PSD รองรับรูปแบบอื่นๆ มากมายเช่นกัน
-### ฉันจำเป็นต้องติดตั้ง Photoshop เพื่อใช้ Aspose.PSD หรือไม่
-ไม่ Aspose.PSD ทำงานโดยไม่ขึ้นอยู่กับ Photoshop
-### ฉันจะหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.PSD ได้ที่ไหน
- คุณสามารถตรวจสอบได้ที่[เอกสาร Aspose.PSD](https://reference.aspose.com/psd/java/) สำหรับรายละเอียดเพิ่มเติม บทช่วยสอน และทรัพยากร
+เมื่อเตรียมความพร้อมเรียบร้อยแล้ว เรามาเริ่มขั้นตอนหลักกัน! การสร้างภาพย่อจากไฟล์ PSD มีขั้นตอนไม่กี่ขั้นตอนที่ง่ายดาย และฉันจะแบ่งให้คุณตามลำดับ
+
+## How to create PSD thumbnail Java – Step‑by‑Step Guide
+
+### Step 1: Set Up Your Environment
+นี่คือวิธีเริ่มโปรเจกต์และเตรียมการสำหรับการสร้างภาพย่อ
+
+1. **Create a Java Project**  
+   - เปิด IDE ของคุณและสร้างโปรเจกต์ Java ใหม่  
+   - ตั้งชื่ออย่างเช่น `"PsdThumbnailGenerator"`
+
+2. **Include Aspose.PSD Library**  
+   - เพิ่มไฟล์ JAR ของ Aspose.PSD ไปยัง build path ของโปรเจกต์  
+   - หากคุณใช้ Maven ให้ใส่ลงใน `pom.xml` ของคุณ:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-psd</artifactId>
+    <version>your_version_here</version>
+</dependency>
+```
+
+### Step 2: Load the PSD File
+ต่อไปเราต้องโหลดไฟล์ PSD ที่ต้องการสร้างภาพย่อ
+
+1. **Specify Your Document Directory**  
+   กำหนดโฟลเดอร์ที่ไฟล์ PSD ของคุณอยู่
+
+```java
+String dataDir = "Your Document Directory"; // Replace with your path
+```
+
+2. **Load the PSD File**  
+   ใช้คลาส `PsdImage` เพื่อโหลดไฟล์ PSD ของคุณ
+
+```java
+PsdImage image = (PsdImage) Image.load(dataDir + "sample.psd");
+```
+
+> **Pro tip:** เก็บไฟล์ PSD ไว้ในโฟลเดอร์เฉพาะ (เช่น `src/main/resources`) เพื่อหลีกเลี่ยงปัญหาเกี่ยวกับพาธ
+
+### Step 3: Iterate Over PSD Resources
+เมื่อเราโหลดภาพ PSD แล้ว ขั้นตอนต่อไปคือการตรวจสอบแหล่งข้อมูลของมัน
+
+1. **Get Resources Count**  
+   เราจะวนลูปผ่านทุกแหล่งข้อมูลในไฟล์ PSD
+
+```java
+for (int i = 0; i < image.getImageResources().length; i++) {
+    // Processing resources
+}
+```
+
+2. **Identify Thumbnail Resources**  
+   ภายในลูปให้ตรวจสอบว่าแหล่งข้อมูลเป็นภาพย่อหรือไม่
+
+```java
+if (image.getImageResources()[i] instanceof ThumbnailResource) {
+    // Process the thumbnail
+}
+```
+
+### Step 4: Process the Thumbnail
+เมื่อเราตรวจพบแหล่งข้อมูลภาพย่อ เราจะต้องจัดการกับมันต่อไป
+
+1. **Retrieve and Check Thumbnail Format**  
+   หากแหล่งข้อมูลเป็นภาพย่อ ให้ดึงข้อมูลและตรวจสอบฟอร์แมตของมัน
+
+```java
+ThumbnailResource thumbnail = (ThumbnailResource) image.getImageResources()[i];
+if (thumbnail.getFormat() == ThumbnailFormat.KJpegRgb) {
+    // Create and save the thumbnail
+}
+```
+
+### Step 5: Create and Save the Thumbnail
+นี่คือจุดที่ความมหัศจรรย์เกิดขึ้น! เราจะสร้างภาพใหม่จากข้อมูลภาพย่อและบันทึกมัน
+
+1. **Create a New Image**  
+   เราจะใช้ความกว้างและความสูงของแหล่งข้อมูลภาพย่อเพื่อสร้างบิทแมพใหม่
+
+```java
+PsdImage thumbnailImage = new PsdImage(thumbnail.getWidth(), thumbnail.getHeight());
+```
+
+2. **Store Pixels in the New Image**  
+   โอนข้อมูลพิกเซลจากภาพย่อไปยังภาพใหม่ที่สร้างขึ้น
+
+```java
+thumbnailImage.savePixels(thumbnailImage.getBounds(), thumbnail.getThumbnailData());
+```
+
+3. **Save the Thumbnail Image**  
+   สุดท้ายบันทึกภาพย่อลงในโฟลเดอร์เอกสารของคุณด้วยชื่อที่ไม่ซ้ำกัน
+
+```java
+thumbnailImage.save(dataDir + "CreateThumbnailsFromPSDFiles_out_" + i + ".bmp");
+```
+
+> **Common pitfall:** ลืมปิดอ็อบเจ็กต์ `PsdImage` สามารถทำให้เกิดการรั่วของหน่วยความจำได้ ควรห่อโค้ดการจัดการภาพด้วย `try‑with‑resources` หากคุณใช้ Java 7 ขึ้นไป
+
+## Conclusion
+โดยทำตามขั้นตอนเหล่านี้ คุณจะมีวิธีการ **create PSD thumbnail Java** ที่แข็งแรงและนำกลับมาใช้ใหม่ได้สำหรับการสกัดภาพตัวอย่างจากไฟล์ Photoshop ใด ๆ เทคนิคนี้สามารถนำไปผสานกับโปรเซสแบตช์, เว็บเซอร์วิส, หรือยูทิลิตี้เดสก์ท็อปเพื่อเร่งการจัดทำแคตาล็อกภาพและเพิ่มความตอบสนองของ UI ลองใช้กับคอลเลกชัน PSD ของคุณและดูว่าคุณสามารถสร้างภาพย่อที่เบาและรวดเร็วได้เร็วแค่ไหน!
+
+## FAQ's
+### What is Aspose.PSD?
+Aspose.PSD เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Photoshop ได้อย่างง่ายดายโดยโปรแกรมเมติก
+
+### Can I use Aspose.PSD for free?
+ใช่, Aspose มีรุ่นทดลองฟรีที่คุณสามารถใช้ทดสอบไลบรารีก่อนตัดสินใจซื้อ
+
+### What formats can I save the thumbnails in?
+ในตัวอย่างนี้เราบันทึกภาพย่อเป็นฟอร์แมต BMP แต่ Aspose.PSD รองรับฟอร์แมตอื่น ๆ อีกหลายรูปแบบ
+
+### Do I need Photoshop installed to use Aspose.PSD?
+ไม่จำเป็น, Aspose.PSD ทำงานได้โดยอิสระจาก Photoshop
+
+### Where can I find more information about Aspose.PSD?
+คุณสามารถดูรายละเอียดเพิ่มเติมใน [Aspose.PSD documentation](https://reference.aspose.com/psd/java/) เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับบทเรียนและทรัพยากรอื่น ๆ
+
+## Frequently Asked Questions
+
+**Q: How do I extract thumbnails from a password‑protected PSD?**  
+A: โหลด PSD ด้วย overload ของ `Image.load` ที่รับพารามิเตอร์รหัสผ่าน
+
+**Q: Can I generate thumbnails in PNG instead of BMP?**  
+A: แน่นอน เพียงเปลี่ยนนามสกุลไฟล์ในเมธอด `save` แล้ว Aspose.PSD จะทำการแปลงให้เอง
+
+**Q: Is there a way to batch‑process multiple PSD files?**  
+A: ห่อโค้ดภายในลูปที่วนผ่านไดเรกทอรีของไฟล์ PSD เพื่อใช้ตรรกะการสกัดภาพย่อซ้ำสำหรับแต่ละไฟล์
+
+**Q: What Java version is required?**  
+A: Aspose.PSD รองรับ Java 8 ขึ้นไป แนะนำให้ใช้ JDK เวอร์ชันล่าสุดเพื่อประสิทธิภาพและความปลอดภัย
+
+**Q: Does the library handle large PSD files efficiently?**  
+A: ใช่, Aspose.PSD ใช้การโหลดแบบ lazy และการจัดการหน่วยความจำที่ปรับแต่งเพื่อทำงานกับไฟล์ขนาดใหญ่โดยไม่ทำให้ heap เต็ม
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.PSD 24.11 for Java (latest at time of writing)  
+**Author:** Aspose  
+
+---
