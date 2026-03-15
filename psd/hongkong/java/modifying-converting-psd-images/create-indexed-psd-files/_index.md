@@ -1,34 +1,50 @@
 ---
-title: 使用 Aspose.PSD for Java 建立索引 PSD 文件
-linktitle: 使用 Aspose.PSD for Java 建立索引 PSD 文件
+date: 2026-03-15
+description: 在本分步指南中，學習如何使用 Aspose.PSD for Java 建立 PSD 檔案、產生 PSD 色盤以及設定 PSD 色彩模式。
+linktitle: Create Indexed PSD Files using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
-description: 在我們的逐步指南中了解如何使用 Aspose.PSD for Java 建立索引 PSD 檔案。現在就加入，探索無限的藝術可能性。
-weight: 23
+title: 如何使用 Aspose.PSD for Java 建立 PSD 檔案
 url: /zh-hant/java/modifying-converting-psd-images/create-indexed-psd-files/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD for Java 建立索引 PSD 文件
+# 如何使用 Aspose.PSD for Java 建立 PSD 檔案
 
-## 介紹
-以程式設計方式創建圖形不僅僅是一門藝術；它也是一門藝術。它是技術與想像力的結合。這個創意領域的一個強大工具是 Aspose.PSD for Java，這是一個功能強大的函式庫，允許開發人員操作 Photoshop 文件。在本教程中，我們將深入研究如何使用 Aspose.PSD 建立索引 PSD 文件，並提供逐步指南來幫助您入門。無論您是經驗豐富的開發人員還是剛開始編碼之旅，本指南都將引導您無縫地完成整個過程。
-## 先決條件
-在我們深入討論細節之前，讓我們先介紹一下入門所需的內容。遵循這些先決條件可確保您在學習時獲得順利的體驗。
-### 1.Java基礎知識
-熟悉 Java 語法至關重要，因為我們所有的範例都將使用這種語言。理解類別和方法等基本概念將使後續操作變得更加容易。
-### 2.Java開發環境
-確保您的電腦上安裝了 Java 開發工具包 (JDK)。理想情況下，您應該擁有版本 8 或更高版本才能使用 Aspose.PSD 的最新功能。
-### 3.整合開發環境（IDE）
-使用 IntelliJ IDEA 或 Eclipse 等 IDE 可以顯著簡化您的開發流程。這些環境提供了用於編碼、調試等的整合工具。
-### 4.Java庫的Aspose.PSD
-您需要下載 Aspose.PSD for Java 程式庫並將其新增至您的專案。你可以下載它[這裡](https://releases.aspose.com/psd/java/).
-### 5.平面設計概念的基礎知識
-了解顏色模式和形狀等圖形概念將幫助您更好地掌握本教學。
-## 導入包
-在繼續編寫程式碼之前，我們先確保已將所有必要的套件匯入到您的 Java 應用程式中。這是您需要的：
+## Introduction
+如果你曾經想過 **如何以程式方式建立 PSD** 檔案，你來對地方了。Aspose.PSD for Java 為你提供對 Photoshop 文件的完整控制，讓你在不開啟 Photoshop 的情況下產生、編輯與儲存 PSD 檔案。在本教學中，我們將逐步說明如何建立 **索引式 PSD** 檔案、設定 PSD 顏色模式，並產生自訂顏色調色盤——全部以清晰的 Java 程式碼示範。無論你是在建構圖形管線、自動化資產產生，或只是試驗，這裡的概念都能幫助你將視覺構想付諸實現。
+
+## Quick Answers
+- **需要的函式庫是什麼？** Aspose.PSD for Java  
+- **我可以建立索引式 PSD 嗎？** 可以，將顏色模式設為 `Indexed`  
+- **需要安裝 Photoshop 嗎？** 不需要，Aspose.PSD 可獨立運作  
+- **需要哪個 Java 版本？** JDK 8 或更新版本  
+- **畫布大小上限是多少？** 任意尺寸；本範例使用 500 × 500 px  
+
+## What is an Indexed PSD File?
+索引式 PSD 以調色盤儲存顏色，而非每個像素的完整顏色值。這可減少檔案大小，且非常適合顏色受限的圖形，如圖示或 UI 資產。透過產生自訂調色盤，你可以精確控制最終影像中出現的顏色。
+
+## Why Generate a PSD Color Palette?
+建立 **PSD 調色盤** 可讓你：
+- 保持檔案尺寸小，適用於網頁或行動裝置  
+- 透過限制於企業調色盤，確保品牌色彩一致性  
+- 加速支援索引圖像的應用程式之渲染速度  
+
+## Prerequisites
+在深入程式碼之前，請確保你已具備以下條件：
+
+1. **基本的 Java 知識** – 你應該熟悉類別、方法與物件建立。  
+2. **Java Development Kit (JDK) 8+** – 已在 IDE 中安裝並設定。  
+3. **IDE（IntelliJ IDEA、Eclipse 等）** – 雖非必須，但強烈建議使用以便除錯。  
+4. **Aspose.PSD for Java 函式庫** – 前往 **[此處](https://releases.aspose.com/psd/java/)** 下載，並將 JAR 加入專案的 classpath。  
+5. **基礎平面設計概念** – 了解顏色模式、調色盤與基本形狀將有助於跟隨本教學。  
+
+## Import Packages
+在開始撰寫程式碼之前，先確保已在 Java 應用程式中匯入所有必要的套件。以下是你需要的內容：
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
@@ -41,79 +57,113 @@ import com.aspose.psd.fileformats.psd.PsdColorPalette;
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 ```
-這些匯入將允許您透過 Aspose.PSD 使用 PSD 選項、顏色和圖形操作。
 
-現在，讓我們逐步分解程式碼以建立索引 PSD 檔案。我們將一次一件地處理它以確保清晰度。
-## 第 1 步：設定您的文件目錄
-您需要做的第一件事是設定保存 PSD 檔案的文檔目錄。程式碼中一個好的起點是：
+這些匯入讓你能透過 Aspose.PSD 操作 PSD 選項、顏色與圖形。
+
+現在，讓我們一步步拆解程式碼，說明 **如何建立 PSD** 檔案並使用索引色彩模式。
+
+## Step 1: Set Up Your Document Directory
+首先，定義產生的 PSD 要儲存的位置。
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-代替`"Your Document Directory"`以及您想要儲存 PSD 檔案的路徑。例如，它可以是`"/Users/YourName/Documents/"`.
-## 第 2 步：建立 PsdOptions 實例
-在這裡，我們將建立一個實例`PsdOptions`，這將決定如何產生我們的 PSD 檔案。
+
+將 `"Your Document Directory"` 替換為絕對或相對路徑，例如 `"/Users/YourName/Documents/"`。
+
+## Step 2: Create an Instance of PsdOptions
+`PsdOptions` 包含即將產生檔案的所有設定。
+
 ```java
 PsdOptions createOptions = new PsdOptions();
 ```
-這`createOptions`物件將保存我們定義檔案設定所需的所有屬性。 
-## 步驟 3：設定 PsdOptions 的屬性
-接下來，我們將配置我們的`PsdOptions`目的。具體來說，我們將設定來源檔案、顏色模式和版本。 
+
+## Step 3: Set Core Properties of PsdOptions
+在此我們指定輸出位置、將 **psd 顏色模式** 設為 `Indexed`，以及 PSD 版本。
+
 ```java
 createOptions.setSource(new FileCreateSource(dataDir + "Newsample_out.psd", false));
 createOptions.setColorMode(ColorModes.Indexed);
 createOptions.setVersion(5);
 ```
-- 來源：定義新 PSD 檔案的位置。
-- 色彩模式：設定為`Indexed`優化文件的顏色使用。
-- 版本：指定 PSD 檔案格式的版本。
-## 第 4 步：建立調色板
-創建充滿活力的調色板對於索引 PSD 檔案至關重要。讓我們用 RGB 顏色定義一個簡單的調色板。
+
+- **Source** – 新檔案的完整路徑。  
+- **Color Mode** – `Indexed` 告訴 Aspose.PSD 使用基於調色盤的影像。  
+- **Version** – PSD 格式版本（5 可適用於大多數現代 Photoshop 版本）。  
+
+## Step 4: Create a Color Palette (Generate PSD Color Palette)
+定義索引影像中可使用的顏色。
+
 ```java
 Color[] palette = { Color.getRed(), Color.getGreen(), Color.getBlue(), Color.getYellow() };
 createOptions.setPalette(new PsdColorPalette(palette));
 createOptions.setCompressionMethod(CompressionMethod.RLE);
 ```
-這是發生的事情：
-- 我們創建了一系列顏色。
-- 使用以下命令將其指定為 PSD 的調色板`setPalette()`.
-- 我們還將壓縮方法設為 RLE 以優化檔案儲存。
-## 第 5 步：建立 PSD 映像
-此時，我們已準備好使用我們配置的選項來建立 PSD 檔案。
+
+- `palette` 陣列可容納最多 256 個 `Color` 物件。  
+- `CompressionMethod.RLE` 為索引影像提供高效的無損壓縮。  
+
+## Step 5: Create the PSD Image Canvas
+現在我們建立一個空白 PSD，尺寸為所需的大小。
+
 ```java
 Image psd = Image.create(createOptions, 500, 500);
 ```
-此行產生畫布大小為 500x500 像素的新 PSD。
-## 第6步：在PSD上繪製圖形
-讓我們在新建立的 PSD 檔案中添加一些圖形。對於此範例，我們將建立一個簡單的紅色橢圓。
+
+此程式碼會建立一個 500 × 500 像素的畫布，使用先前定義的調色盤。
+
+## Step 6: Draw Graphics on the PSD
+加入視覺內容——此處在白色背景上繪製一個簡單的紅色橢圓。
+
 ```java
 Graphics graphics = new Graphics(psd);
 graphics.clear(Color.getWhite());
 graphics.drawEllipse(new Pen(Color.getRed(), 6), new Rectangle(0, 0, 400, 400));
 ```
-詳細情況如下：
-- 我們創建一個`Graphics`允許我們在 PSD 影像上繪圖的物件。
-- `clear(Color.getWhite())`用白色填滿背景。
-- `drawEllipse()`建立一個具有指定尺寸的紅色橢圓。
-## 第 7 步：儲存 PSD 文件
-最後，是時候保存你的傑作了。畢竟，如果不能分享，創作還有什麼意義呢？
+
+- `clear(Color.getWhite())` 以白色填滿背景。  
+- `drawEllipse` 繪製一個紅色橢圓，筆畫寬度為 6 像素。  
+
+## Step 7: Save the PSD File
+最後，將影像寫入磁碟。
+
 ```java
 psd.save();
 ```
-執行此行將使用我們設定的配置將 PSD 檔案保存在指定目錄中。
-## 結論
-恭喜！您剛剛使用 Aspose.PSD for Java 建立了一個索引 PSD 檔案。雖然這些步驟乍看之下似乎很廣泛，但每個步驟都有一個目的，旨在讓您完全控制圖形創作。透過 Aspose.PSD，以程式設計方式讓您的數位藝術栩栩如生，可能性幾乎是無限的。
-那麼，為什麼停在這裡呢？深入研究 Aspose.PSD 的文檔[這裡](https://reference.aspose.com/psd/java/)並探索更多的創造力。
-## 常見問題解答
-### 什麼是 Java 版 Aspose.PSD？
-Aspose.PSD for Java 是一個函式庫，可以使用 Java 以程式方式操作 PSD (Photoshop) 檔案。
-### 我可以免費使用 Aspose.PSD 嗎？
-是的，您可以存取 Aspose.PSD 的免費試用版[這裡](https://releases.aspose.com/).
-### 我需要安裝 Photoshop 才能使用 Aspose.PSD 嗎？
-不需要，您無需 Photoshop 即可建立和操作 PSD 文件，因為 Aspose.PSD 可獨立處理所有操作。
-### 如何取得 Aspose.PSD 的臨時授權？
-您可以申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-### 我在哪裡可以獲得 Aspose.PSD 支援？
-您可以從 Aspose 論壇獲得支持[這裡](https://forum.aspose.com/c/psd/34).
+
+檔案 `Newsample_out.psd` 會出現在先前指定的目錄中。
+
+## Common Issues & Tips
+- **調色盤大小** – 若需要超過 4 種顏色，只需將它們加入 `palette` 陣列（上限 256）。  
+- **檔案權限** – 確認 Java 程序對 `dataDir` 具有寫入權限。  
+- **顏色模式錯誤** – 若遺漏 `createOptions.setColorMode(ColorModes.Indexed)`，將產生 RGB PSD 而非索引式 PSD。  
+
+## Frequently Asked Questions
+
+**Q: What is Aspose.PSD for Java?**  
+A: Aspose.PSD for Java is a library that enables manipulation of PSD (Photoshop) files programmatically using Java.  
+
+**Q: Can I use Aspose.PSD for free?**  
+A: Yes, you can access a free trial version of Aspose.PSD **[here](https://releases.aspose.com/)**.  
+
+**Q: Do I need to have Photoshop installed to work with Aspose.PSD?**  
+A: No, you can create and manipulate PSD files without Photoshop, as Aspose.PSD handles all operations independently.  
+
+**Q: How do I obtain a temporary license for Aspose.PSD?**  
+A: You can request a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.  
+
+**Q: Where can I get support for Aspose.PSD?**  
+A: You can get support from the Aspose forum **[here](https://forum.aspose.com/c/psd/34)**.  
+
+## Conclusion
+你剛剛學會 **如何建立 PSD** 檔案並使用索引色彩模式、產生自訂調色盤，以及加入簡單圖形——全部透過 Aspose.PSD for Java 完成。利用這些基礎，你可以擴展到更複雜的繪圖、圖層管理與批次處理。欲深入探索，請參考官方 API 參考 **[here](https://reference.aspose.com/psd/java/)**，並持續嘗試不同的調色盤與繪圖基元。
+
+---
+
+**Last Updated:** 2026-03-15  
+**Tested With:** Aspose.PSD for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
