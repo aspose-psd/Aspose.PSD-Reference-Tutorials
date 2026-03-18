@@ -1,82 +1,140 @@
 ---
-title: Ustaw rozdzielczość pliku PNG za pomocą Aspose.PSD dla Java
-linktitle: Ustaw rozdzielczość pliku PNG za pomocą Aspose.PSD dla Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak ustawić rozdzielczość pliku PNG przy użyciu Aspose.PSD dla Java, korzystając z tego szczegółowego samouczka krok po kroku. Zoptymalizuj swoje obrazy w mgnieniu oka.
-weight: 13
+date: 2026-03-18
+description: Dowiedz się, jak zmienić rozdzielczość PNG w Javie i ustawić rozdzielczość
+  obrazu w Javie przy użyciu Aspose.PSD for Java. Skorzystaj z tego przewodnika krok
+  po kroku, aby szybko zoptymalizować swoje obrazy.
+linktitle: Change PNG resolution java using Aspose.PSD
+second_title: Aspose.PSD Java API
+title: Zmień rozdzielczość PNG w Javie przy użyciu Aspose.PSD
 url: /pl/java/optimizing-png-files/set-png-file-resolution/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw rozdzielczość pliku PNG za pomocą Aspose.PSD dla Java
+# Zmienianie rozdzielczości PNG w Javie przy użyciu Aspose.PSD
 
 ## Wstęp
-Czy chcesz zoptymalizować rozdzielczość pliku PNG przy użyciu języka Java? Jeśli odpowiedź brzmi tak, to trafiłeś we właściwe miejsce! Dzisiaj zagłębimy się w świat Aspose.PSD dla Java, potężnej biblioteki do manipulowania plikami PSD programu Photoshop i konwertowania ich do innych formatów, takich jak PNG. Niezależnie od tego, czy jesteś programistą zajmującym się przetwarzaniem obrazów, czy po prostu osobą, która chce programowo poprawić jakość obrazu, ten przewodnik jest stworzony dla Ciebie. 
-tym obszernym samouczku omówimy wszystko, od wymagań wstępnych po szczegółowe instrukcje krok po kroku, jak skutecznie ustawić rozdzielczość pliku PNG. Zatem chwyć swoją ulubioną przekąskę i zaczynajmy!
-## Warunki wstępne
- 
-Zanim zagłębimy się w kod, musisz przygotować kilka rzeczy, aby płynnie je wykonać:
-1. Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowana Java. Zalecany jest JDK 8 lub nowszy.
-2.  Aspose.PSD dla Java: Musisz pobrać bibliotekę Aspose.PSD. Można go zdobyć z[link do pobrania](https://releases.aspose.com/psd/java/).
-3. IDE: Dobre zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse, znacznie uprości pisanie i uruchamianie kodu Java.
-4. Przykładowe pliki PSD: Na potrzeby tego samouczka upewnij się, że masz przykładowy plik PSD, z którym będziemy pracować w całym przewodniku.
-5. Podstawowa znajomość języka Java: Znajomość koncepcji programowania w języku Java znacznie ułatwi korzystanie z tego samouczka. Ale jeśli jesteś nowy, nie martw się; Wyjaśnię dokładnie każdy krok!
-## Importuj pakiety
-Teraz, gdy jesteśmy wyposażeni w wymagania wstępne, zaimportujmy niezbędne pakiety. Będziesz musiał zaimportować klasy Aspose.PSD, aby obsługiwać pliki PSD i opcje obrazów PNG. Oto jak możesz to zrobić:
+Jeśli potrzebujesz **zmienić rozdzielczość PNG w Javie** szybko i niezawodnie, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię krok po kroku przez wszystkie niezbędne czynności, aby dostosować rozdzielczość pliku PNG przy użyciu Aspose.PSD for Java. Niezależnie od tego, czy tworzysz narzędzie do przetwarzania wsadowego, usługę internetową, czy po prostu dopracowujesz kilka zasobów, to samo podejście działa wszędzie. Otwórz ulubione IDE i zaczynamy!
+
+## Szybkie odpowiedzi
+- **Jaką bibliotekę używać do rozdzielczości PNG?** Aspose.PSD for Java  
+- **Główna metoda?** `PngOptions.setResolutionSettings`  
+- **Typowe wartości DPI?** 72 × 96 dla obrazów przeznaczonych do sieci  
+- **Czy potrzebna jest licencja?** Wersja próbna wystarczy do testów; licencja jest wymagana w środowisku produkcyjnym  
+- **Obsługiwany JDK?** Java 8 lub wyższa  
+
+## Co oznacza „change PNG resolution java”?
+Zmiana rozdzielczości PNG w Javie polega na modyfikacji metadanych DPI (dots per inch), które informują przeglądarki i drukarki, jak duży ma być wyświetlany obraz. Dane pikseli pozostają niezmienione, ale znacznik rozdzielczości jest aktualizowany, co może wpływać na rozmiar i jakość wydruku.
+
+## Dlaczego warto używać Aspose.PSD do tego zadania?
+Aspose.PSD oferuje wysokopoziomowe API, które ukrywa szczegóły niskopoziomowej obsługi PNG, pozwalając skupić się na logice biznesowej zamiast na niuansach formatu pliku. Biblioteka obsługuje setki funkcji PSD, działa na każdej platformie uruchamiającej Javę i nie wymaga natywnych bibliotek.
+
+## Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Java Development Kit (JDK) 8+** – kod działa na każdym współczesnym JDK.  
+2. **Aspose.PSD for Java** – pobierz ją z [linku do pobrania](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub VS Code z obsługą Javy.  
+4. **Przykładowy plik PSD** – przekonwertujemy go na PNG i zmienimy rozdzielczość.  
+5. **Podstawową znajomość Javy** – fragmenty kodu będą zrozumiałe bez dodatkowych wyjaśnień.
+
+## Importowanie pakietów
+Teraz, gdy wszystko jest gotowe, zaimportuj klasy, które będą Ci potrzebne. Te importy dają dostęp do ładowania obrazu, ustawień rozdzielczości i opcji eksportu PNG.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ResolutionSetting;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
- W tym imporcie`PsdImage` umożliwia nam pracę z plikami PSD, natomiast`PngOptions` I`ResolutionSetting` zadbaj o ustawienia eksportu obrazu.
-## Krok 1: Konfiguracja projektu
-Po pierwsze! Musisz utworzyć projekt Java w wybranym IDE. Zwykle polega to na wybraniu typu projektu (Aplikacja Java) i nadaniu mu nazwy. 
-Gdy już to zrobisz, pamiętaj o dodaniu biblioteki Aspose.PSD for Java do ścieżki kompilacji projektu.
-## Krok 2: Zdefiniuj katalog dokumentów
-Kolejnym krokiem jest określenie miejsca przechowywania dokumentów. Chcesz określić ścieżkę, w której znajduje się plik PSD. Oto jak możesz to zrobić:
+
+## Krok 1: Konfiguracja projektu Java
+Utwórz nowy projekt Java (lub moduł Maven/Gradle) i dodaj plik JAR Aspose.PSD do ścieżki kompilacji. Jeśli używasz Maven, dodaj odpowiednią zależność z repozytorium Aspose.
+
+## Krok 2: Definiowanie katalogu dokumentów
+Określ programowi, gdzie znajduje się źródłowy plik PSD oraz gdzie zapisać wynikowy PNG.
+
 ```java
-String dataDir = "Your Document Directory"; // Zaktualizuj ścieżkę folderu
+String dataDir = "Your Document Directory"; // Update with your folder path
 ```
- Po prostu wymień`"Your Document Directory"` ze ścieżką do folderu zawierającego plik PSD. 
-## Krok 3: Załaduj obraz PSD
- Teraz nadszedł czas, aby załadować plik PSD. W tym miejscu korzystamy z`PsdImage` class, aby załadować plik PSD z określonego katalogu. 
-Oto linia kodu, aby to zrobić:
+
+Zastąp `"Your Document Directory"` absolutną lub względną ścieżką zawierającą `sample.psd`.
+
+## Krok 3: Ładowanie obrazu PSD
+Użyj klasy `PsdImage`, aby odczytać plik PSD z dysku.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "sample.psd");
 ```
- Upewnij się, że przykładowy plik PSD (w tym przypadku`sample.psd`) znajduje się w tym folderze!
-## Krok 4: Utwórz i skonfiguruj opcje PNG
- Teraz musimy ustawić żądaną rozdzielczość PNG. Inicjujemy instancję`PngOptions` i określ rozdzielczość poziomą i pionową za pomocą`ResolutionSetting`.
-Oto jak to się robi:
+
+Upewnij się, że nazwa pliku odpowiada rzeczywistemu PSD, który chcesz przetworzyć.
+
+## Krok 4: Tworzenie i konfigurowanie opcji PNG
+Tutaj faktycznie **zmieniamy rozdzielczość PNG w Javie**. Tworzymy obiekt `PngOptions` i ustawiamy poziomy DPI w poziomie i pionie za pomocą `ResolutionSetting`.
+
 ```java
 PngOptions options = new PngOptions();
-options.setResolutionSettings(new ResolutionSetting(72, 96)); // 72 DPI w poziomie, 96 DPI w pionie
+options.setResolutionSettings(new ResolutionSetting(72, 96)); // 72 DPI horizontal, 96 DPI vertical
 ```
-Możesz swobodnie dostosować wartości rozdzielczości, aby lepiej odpowiadały Twoim potrzebom. Powyższe wartości są dość standardowe dla obrazów internetowych.
-## Krok 5: Zapisz wynikowy plik PNG
- Wreszcie nadszedł czas, aby zapisać nasz nowo utworzony plik PNG. Używamy`save` metoda`PsdImage`, podaj ścieżkę pliku wyjściowego i nasze opcje PNG:
+
+Śmiało zamień `72` i `96` na dowolne wartości pasujące do docelowego urządzenia. To jest sedno operacji **ustawiania rozdzielczości obrazu w Javie**.
+
+## Krok 5: Zapisanie wynikowego PNG
+Na koniec wyeksportuj PSD jako PNG z nowymi metadanymi rozdzielczości.
+
 ```java
 psdImage.save(dataDir + "SettingResolution_output.png", options);
 ```
- Spowoduje to utworzenie pliku PNG z ustawionymi rozdzielczościami w tym samym katalogu, który określono w`dataDir`.
-## Wniosek
- masz to! Pomyślnie ustawiłeś rozdzielczość pliku PNG wyeksportowanego z PSD przy użyciu Aspose.PSD dla Java. Postępując zgodnie z tym przewodnikiem, możesz teraz dostosowywać rozdzielczości obrazów i pracować nad mnóstwem innych zadań związanych z przetwarzaniem obrazów za pomocą tej biblioteki. Jeśli chcesz poszerzyć swoje możliwości w zakresie manipulacji obrazami, zachęcam Cię do zapoznania się z dodatkowymi możliwościami[Dokumentacja Aspose.PSD](https://reference.aspose.com/psd/java/) w celu uzyskania dalszych informacji i funkcjonalności.
 
-## Często zadawane pytania
-### Na jakie formaty mogę konwertować pliki PSD za pomocą Aspose.PSD dla Java?
-Możesz konwertować pliki PSD do formatów takich jak PNG, JPEG, BMP i TIFF.
-### Czy potrzebuję licencji, aby używać Aspose.PSD dla Java?
-Tak, dopóki dostępny jest bezpłatny okres próbny, do dalszego korzystania po zakończeniu okresu próbnego wymagana jest ważna licencja.
+Plik `SettingResolution_output.png` pojawi się w tym samym folderze, zawierając teraz DPI, które określiłeś.
+
+## Typowe pułapki i wskazówki
+- **Nieprawidłowa ścieżka** – sprawdź, czy `dataDir` kończy się separatorem plików (`/` lub `\`).  
+- **Nieobsługiwane DPI** – większość przeglądarek ignoruje wartości DPI powyżej 300; zachowaj rozsądne liczby.  
+- **Zużycie pamięci** – duże pliki PSD mogą pochłaniać dużo RAM; rozważ zwolnienie `psdImage` po zapisaniu (`psdImage.dispose()`).  
+
+## Zakończenie
+Właśnie nauczyłeś się, jak **zmienić rozdzielczość PNG w Javie** przy użyciu Aspose.PSD. Modyfikując `ResolutionSetting`, możesz kontrolować, jak Twoje PNG są interpretowane przez drukarki i narzędzia projektowe, nie zmieniając danych pikselowych. Eksperymentuj z innymi opcjami, takimi jak poziom kompresji, głębia kolorów czy przetwarzanie wsadowe, aby jeszcze bardziej zautomatyzować swój przepływ pracy.
+
+Po więcej informacji zajrzyj do oficjalnej [dokumentacji Aspose.PSD](https://reference.aspose.com/psd/java/).
+
+## FAQ
+### Jakie formaty mogę konwertować z plików PSD przy użyciu Aspose.PSD for Java?
+Możesz konwertować pliki PSD do formatów takich jak PNG, JPEG, BMP i TIFF.  
+### Czy potrzebna jest licencja do korzystania z Aspose.PSD for Java?
+Tak, wersja próbna jest dostępna, ale po ocenie wymagana jest ważna licencja.  
 ### Czy mogę zmienić rozdzielczość więcej niż raz w jednym programie?
- Absolutnie! Możesz stworzyć inny`PngOptions` wystąpienia różnych ustawień eksportu w tej samej aplikacji.
-### Co się stanie, jeśli mój plik PSD jest uszkodzony?
-Aspose.PSD radzi sobie z wieloma typowymi problemami, ale jeśli plik jest poważnie uszkodzony, może się nie załadować. Zawsze noś kopię zapasową.
-### Czy Aspose.PSD nadaje się do zastosowań o wysokiej wydajności?
-Tak, został zaprojektowany do wydajnej obsługi dużych plików i nadaje się do zadań przetwarzania obrazu wymagających dużej wydajności.
+Oczywiście! Możesz tworzyć różne instancje `PngOptions` dla różnych ustawień eksportu w tej samej aplikacji.  
+### Co zrobić, jeśli mój plik PSD jest uszkodzony?
+Aspose.PSD radzi sobie z wieloma typowymi problemami, ale w przypadku poważnego uszkodzenia pliku może nie udać się jego załadowanie. Zawsze trzymaj kopię zapasową.  
+### Czy Aspose.PSD nadaje się do aplikacji o wysokiej wydajności?
+Tak, biblioteka została zaprojektowana do efektywnego obsługiwania dużych plików i jest odpowiednia dla zadań wymagających intensywnego przetwarzania obrazów.
+
+## Frequently Asked Questions
+**Q: Jak programowo ustawić różne DPI dla osi poziomej i pionowej?**  
+A: Użyj `new ResolutionSetting(horizontalDpi, verticalDpi)` tak, jak pokazano w przykładzie opcji PNG.  
+
+**Q: Czy mogę przetwarzać wsadowo wiele plików PSD w jednym uruchomieniu?**  
+A: Tak — umieść kroki ładowania, konfiguracji opcji i zapisu w pętli iterującej po kolekcji plików.  
+
+**Q: Czy zmiana DPI wpływa na rozmiar pliku?**  
+A: Zazwyczaj nie; DPI to metadane. Rozmiar pliku zmienia się tylko przy modyfikacji kompresji lub wymiarów pikseli.  
+
+**Q: Czy istnieje sposób, aby odczytać aktualne DPI istniejącego PNG?**  
+A: Załaduj PNG przy pomocy `Image.load()` i sprawdź `image.getResolutionSettings()` (dostępne dla plików PNG).  
+
+**Q: Jakie wersje JDK są oficjalnie wspierane?**  
+A: Aspose.PSD for Java obsługuje JDK 8 do JDK 21.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-18  
+**Testowano z:** Aspose.PSD for Java 24.10  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

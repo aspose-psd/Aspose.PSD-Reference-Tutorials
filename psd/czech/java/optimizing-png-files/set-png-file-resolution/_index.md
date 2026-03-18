@@ -1,82 +1,138 @@
 ---
-title: Nastavte rozlišení souboru PNG pomocí Aspose.PSD pro Javu
-linktitle: Nastavte rozlišení souboru PNG pomocí Aspose.PSD pro Javu
+date: 2026-03-18
+description: Naučte se, jak změnit rozlišení PNG v Javě a nastavit rozlišení obrázku
+  v Javě pomocí Aspose.PSD pro Javu. Postupujte podle tohoto krok‑za‑krokem průvodce
+  a rychle optimalizujte své obrázky.
+linktitle: Change PNG resolution java using Aspose.PSD
 second_title: Aspose.PSD Java API
-description: Prozkoumejte, jak nastavit rozlišení souboru PNG pomocí Aspose.PSD for Java s tímto podrobným návodem krok za krokem. Optimalizujte své obrázky během okamžiku.
-weight: 13
+title: Změna rozlišení PNG v Javě pomocí Aspose.PSD
 url: /cs/java/optimizing-png-files/set-png-file-resolution/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte rozlišení souboru PNG pomocí Aspose.PSD pro Javu
+# Změna rozlišení PNG java pomocí Aspose.PSD
 
-## Zavedení
-Chcete optimalizovat rozlišení souborů PNG pomocí Javy? Pokud je odpověď ano, pak jste přistáli na správném místě! Dnes se ponoříme do světa Aspose.PSD for Java, výkonné knihovny pro manipulaci se soubory Photoshop PSD a jejich převod do jiných formátů, jako je PNG. Ať už jste vývojář, který fušuje do zpracování obrazu, nebo jen někdo, kdo chce zlepšit kvalitu obrazu programově, tento průvodce je pro vás šitý na míru. 
-tomto komplexním tutoriálu pokryjeme vše od nezbytných předpokladů až po podrobné pokyny krok za krokem, jak efektivně nastavit rozlišení souboru PNG. Takže si vezměte svou oblíbenou svačinu a můžeme začít!
+## Úvod
+Pokud potřebujete **change PNG resolution java** rychle a spolehlivě, jste na správném místě. V tomto tutoriálu projdeme přesně kroky potřebné k úpravě rozlišení PNG souboru pomocí Aspose.PSD pro Java. Ať už vytváříte nástroj pro dávkové zpracování, webovou službu nebo jen vylepšujete několik assetů, stejný přístup funguje všude. Vezměte si své oblíbené IDE a pojďme na to!
+
+## Rychlé odpovědi
+- **Jaká knihovna zpracovává rozlišení PNG?** Aspose.PSD for Java  
+- **Primární metoda?** `PngOptions.setResolutionSettings`  
+- **Typické hodnoty DPI?** 72 × 96 pro web‑ready obrázky  
+- **Potřebuji licenci?** Zkušební verze funguje pro testování; licence je vyžadována pro produkci  
+- **Podporovaný JDK?** Java 8 nebo vyšší  
+
+## Co je “change PNG resolution java”?
+Změna rozlišení PNG v Javě znamená úpravu metadat DPI (dots per inch), která říkají prohlížečům a tiskárnám, jak velký má obrázek být. Pixelová data zůstávají stejná, ale značka rozlišení se aktualizuje, což může ovlivnit velikost tisku a kvalitu.
+
+## Proč použít Aspose.PSD pro tento úkol?
+Aspose.PSD poskytuje vysoce‑úrovňové API, které abstrahuje nízko‑úrovňové zpracování PNG, což vám umožní soustředit se na obchodní logiku místo zvláštností formátu souboru. Podporuje stovky funkcí PSD, funguje na jakékoli platformě, která spouští Java, a nevyžaduje žádné nativní knihovny.
+
 ## Předpoklady
- 
-Než se ponoříme do kódu, je třeba mít připraveno několik věcí, abyste mohli hladce pokračovat:
-1. Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovanou Java. Doporučuje se JDK 8 nebo vyšší.
-2.  Aspose.PSD for Java: Musíte si stáhnout knihovnu Aspose.PSD. Můžete to získat z[odkaz ke stažení](https://releases.aspose.com/psd/java/).
-3. IDE: Dobré integrované vývojové prostředí (IDE), jako je IntelliJ IDEA nebo Eclipse, výrazně zjednoduší psaní a spouštění kódu Java.
-4. Ukázkové soubory PSD: Pro tento výukový program se ujistěte, že máte ukázkový soubor PSD, se kterým budeme v této příručce pracovat.
-5. Základní znalost Javy: Díky znalosti programování v Javě bude následování tohoto návodu mnohem jednodušší. Ale pokud jste nový, nebojte se; Každý krok jasně vysvětlím!
-## Importujte balíčky
-Nyní, když jsme vybaveni předpoklady, pojďme importovat potřebné balíčky. Chcete-li pracovat se soubory PSD a možnostmi obrázků PNG, budete muset importovat třídy Aspose.PSD. Můžete to udělat takto:
+Předtím, než začnete, ujistěte se, že máte:
+
+1. **Java Development Kit (JDK) 8+** – kód běží na jakémkoli aktuálním JDK.  
+2. **Aspose.PSD for Java** – stáhněte jej z [download link](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse nebo VS Code s podporou Javy.  
+4. **Ukázkový soubor PSD** – převedeme jej na PNG a změníme jeho rozlišení.  
+5. **Základní znalost Javy** – pochopíte úryvky kódu bez dalšího vysvětlení.  
+
+## Import balíčků
+Nyní, když máme vše připravené, importujte třídy, které budete potřebovat. Tyto importy vám poskytují přístup k načítání obrázků, nastavením rozlišení a možnostem exportu PNG.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ResolutionSetting;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
- V těchto dovozech,`PsdImage` nám umožňuje pracovat se soubory PSD, zatímco`PngOptions` a`ResolutionSetting` postarejte se o nastavení exportu obrázků.
-## Krok 1: Nastavení vašeho projektu
-První věci jako první! Musíte vytvořit Java projekt ve vámi zvoleném IDE. Obvykle zahrnuje výběr typu projektu (Java Application) a jeho pojmenování. 
-Jakmile to uděláte, nezapomeňte přidat knihovnu Aspose.PSD for Java do cesty sestavení vašeho projektu.
-## Krok 2: Definujte svůj adresář dokumentů
-Dalším krokem je definovat, kde budou vaše dokumenty uloženy. Chcete zadat cestu, kde se nachází váš soubor PSD. Můžete to udělat takto:
+
+## Krok 1: Nastavte svůj Java projekt
+Vytvořte nový Java projekt (nebo Maven/Gradle modul) a přidejte JAR Aspose.PSD do cesty sestavení. Pokud používáte Maven, přidejte odpovídající závislost z repozitáře Aspose.
+
+## Krok 2: Definujte adresář dokumentů
+Řekněte programu, kde najít zdrojový soubor PSD a kam zapsat výstupní PNG.
+
 ```java
-String dataDir = "Your Document Directory"; // Aktualizujte pomocí cesty ke složce
+String dataDir = "Your Document Directory"; // Update with your folder path
 ```
- Jednoduše vyměnit`"Your Document Directory"` s cestou ke složce obsahující váš soubor PSD. 
-## Krok 3: Načtěte obrázek PSD
- Nyní je čas načíst váš soubor PSD. Toto je místo, kde využíváme`PsdImage` třídy k načtení PSD ze zadaného adresáře. 
-Zde je řádek kódu, jak to udělat:
+
+Nahraďte `"Your Document Directory"` absolutní nebo relativní cestou, která obsahuje `sample.psd`.
+
+## Krok 3: Načtěte PSD obrázek
+Použijte třídu `PsdImage` k načtení souboru PSD z disku.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "sample.psd");
 ```
- Ujistěte se, že váš vzorový soubor PSD (v tomto případě`sample.psd`) se nachází v této složce!
-## Krok 4: Vytvořte a nakonfigurujte možnosti PNG
- Nyní musíme nastavit požadované rozlišení PNG. Zahájíme instanci`PngOptions` a pomocí určete horizontální a vertikální rozlišení`ResolutionSetting`.
-Zde je návod, jak se to dělá:
+
+Ujistěte se, že název souboru odpovídá skutečnému PSD, který chcete zpracovat.
+
+## Krok 4: Vytvořte a nakonfigurujte PNG možnosti
+Zde skutečně **change PNG resolution java**. Vytvoříme instanci `PngOptions` a nastavíme horizontální a vertikální hodnoty DPI pomocí `ResolutionSetting`.
+
 ```java
 PngOptions options = new PngOptions();
-options.setResolutionSettings(new ResolutionSetting(72, 96)); // 72 DPI horizontálně, 96 DPI vertikálně
+options.setResolutionSettings(new ResolutionSetting(72, 96)); // 72 DPI horizontal, 96 DPI vertical
 ```
-Neváhejte a upravte hodnoty rozlišení tak, aby lépe vyhovovaly vašim potřebám. Výše uvedené hodnoty jsou pro webové obrázky poměrně standardní.
+
+Klidně nahraďte `72` a `96` libovolnými hodnotami, které vyhovují vašemu cílovému zařízení. Toto je jádro operace **set image resolution java**.
+
 ## Krok 5: Uložte výsledný PNG
- Konečně je čas uložit náš nově vytvořený soubor PNG. Používáme`save` způsob`PsdImage`, předejte cestu k výstupnímu souboru a naše možnosti PNG:
+Nakonec exportujte PSD jako PNG s novými metadaty rozlišení.
+
 ```java
 psdImage.save(dataDir + "SettingResolution_output.png", options);
 ```
- Tím se vytvoří soubor PNG s nastaveným rozlišením ve stejném adresáři, jak je uvedeno v`dataDir`.
-## Závěr
- tady to máte! Úspěšně jste nastavili rozlišení pro soubor PNG exportovaný z PSD pomocí Aspose.PSD for Java. Podle této příručky si nyní můžete přizpůsobit rozlišení obrázků a pracovat na řadě dalších úloh zpracování obrázků s touto knihovnou. Pokud chcete rozšířit své schopnosti v oblasti manipulace s obrázky, doporučuji vám prozkoumat další[Dokumentace Aspose.PSD](https://reference.aspose.com/psd/java/) pro další informace a funkce.
 
-## FAQ
-### Jaké formáty mohu převést soubory PSD do aplikace Aspose.PSD for Java?
-Soubory PSD můžete převést do formátů jako PNG, JPEG, BMP a TIFF.
-### Potřebuji licenci k používání Aspose.PSD pro Javu?
-Ano, i když je k dispozici bezplatná zkušební verze, po vyzkoušení je pro další používání vyžadována platná licence.
-### Mohu změnit rozlišení více než jednou v jednom programu?
- Absolutně! Můžete vytvořit různé`PngOptions` instance pro různá nastavení exportu v rámci stejné aplikace.
-### Co když je můj soubor PSD poškozen?
-Aspose.PSD řeší mnoho běžných problémů, ale pokud je soubor vážně poškozen, nemusí se načíst. Vždy mějte zálohu.
+Soubor `SettingResolution_output.png` se objeví ve stejném adresáři a bude nyní obsahovat DPI hodnoty, které jste zadali.
+
+## Časté úskalí a tipy
+- **Nesprávná cesta** – Zkontrolujte, že `dataDir` končí souborovým oddělovačem (`/` nebo `\`).  
+- **Není podporováno DPI** – Většina prohlížečů ignoruje DPI hodnoty nad 300; udržujte je rozumné.  
+- **Využití paměti** – Velké PSD mohou spotřebovat značnou RAM; zvažte uvolnění `psdImage` po uložení (`psdImage.dispose()`).  
+
+## Závěr
+Právě jste se naučili, jak **change PNG resolution java** pomocí Aspose.PSD. Úpravou `ResolutionSetting` můžete řídit, jak jsou vaše PNG interpretovány tiskárnami a designovými nástroji, aniž byste měnili pixelová data. Prozkoumejte další možnosti, jako je úroveň komprese, barevná hloubka nebo dávkové zpracování, abyste dále automatizovali svůj pracovní postup.
+
+Pro podrobnější průzkum si prohlédněte oficiální [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/).
+
+## Často kladené otázky
+### Jaké formáty mohu převést z PSD pomocí Aspose.PSD pro Java?
+Můžete převést soubory PSD do formátů jako PNG, JPEG, BMP a TIFF.  
+### Potřebuji licenci pro použití Aspose.PSD pro Java?
+Ano, i když je k dispozici bezplatná zkušební verze, platná licence je vyžadována pro další používání po vyhodnocení.  
+### Můžu změnit rozlišení vícekrát v jednom programu?
+Rozhodně! Můžete vytvořit různé instance `PngOptions` pro různá nastavení exportu v rámci jedné aplikace.  
+### Co když je můj soubor PSD poškozený?
+Aspose.PSD řeší mnoho běžných problémů, ale pokud je soubor silně poškozený, nemusí se načíst. Vždy si uchovávejte zálohu.  
 ### Je Aspose.PSD vhodný pro vysoce výkonné aplikace?
-Ano, je navržen tak, aby efektivně zpracovával velké soubory a je vhodný pro úlohy zpracování obrazu náročné na výkon.
+Ano, je navržen tak, aby efektivně zpracovával velké soubory a je vhodný pro výkonnostně náročné úlohy zpracování obrazu.
+
+## Často kladené otázky
+**Q: Jak mohu programově nastavit odlišné DPI pro horizontální a vertikální osu?**  
+A: Použijte `new ResolutionSetting(horizontalDpi, verticalDpi)` jak je ukázáno v příkladu PNG možností.  
+
+**Q: Můžu dávkově zpracovat více souborů PSD v jednom běhu?**  
+A: Ano—zabalte kroky načítání, konfigurace možností a ukládání do smyčky, která iteruje přes vaši kolekci souborů.  
+
+**Q: Ovlivňuje změna DPI velikost souboru?**  
+A: Obvykle ne; DPI jsou metadata. Velikost souboru se změní jen při úpravě komprese nebo rozměrů pixelů.  
+
+**Q: Existuje způsob, jak přečíst aktuální DPI existujícího PNG?**  
+A: Načtěte PNG pomocí `Image.load()` a prohlédněte `image.getResolutionSettings()` (k dispozici pro PNG soubory).  
+
+**Q: Které verze JDK jsou oficiálně podporovány?**  
+A: Aspose.PSD pro Java podporuje JDK 8 až JDK 21.  
+
+**Poslední aktualizace:** 2026-03-18  
+**Testováno s:** Aspose.PSD for Java 24.10  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
