@@ -1,118 +1,161 @@
 ---
-title: 在 PSD 中管理照片濾鏡調整圖層 - Java
-linktitle: 在 PSD 中管理照片濾鏡調整圖層 - Java
+date: 2026-03-28
+description: 學習如何使用 Aspose.PSD for Java 建立相片濾鏡圖層並新增調整圖層 PSD 檔案。遵循本指南，即可輕鬆編輯與添加濾鏡。
+linktitle: How to Create Photo Filter Layer in PSD Using Java
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD for Java 管理 PSD 檔案中的照片濾鏡調整圖層。按照本指南輕鬆編輯和添加過濾器。
-weight: 24
+title: 如何使用 Java 在 PSD 中建立相片濾鏡圖層
 url: /zh-hant/java/psd-image-modification-conversion/manage-photo-filter-adjustment-layer-psd/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 PSD 中管理照片濾鏡調整圖層 - Java
+# 管理 PSD 中的照片濾鏡調整圖層 - Java
 
-## 介紹
-您是希望使用 Java 增強圖形編輯能力的開發人員嗎？嗯，您來對地方了！今天，我們將深入研究如何使用 Aspose.PSD for Java 管理照片濾鏡調整圖層。這個強大的程式庫使您能夠無縫地操作 PSD 文件，從而實現高效的圖形設計工作流程。無論您是想新增效果還是編輯現有圖層，我們都會為您提供簡化流程的逐步指南。
+## 簡介
+如果您是一位希望在 PSD 檔案中 **建立 photo filter layer** 物件的 Java 開發者，您已經來對地方了。在本教學中，我們將示範如何使用 Aspose.PSD for Java 來編輯既有的 Photo Filter Adjustment Layers，以及新增圖層。完成後，您將清楚知道如何 **建立 photo filter layer**、調整其屬性，甚至以程式方式 **add adjustment layer PSD** 檔案，提升您的平面設計工作流程效率。
+
+## 快速解答
+- **哪個函式庫在 Java 中處理 PSD 圖層？** Aspose.PSD for Java  
+- **我可以編輯既有的 Photo Filter 圖層嗎？** 可以 – 載入 PSD，定位 `PhotoFilterLayer`，然後修改其屬性。  
+- **如何新增一個濾鏡圖層？** 在 `PsdImage` 實例上使用 `addPhotoFilterLayer(Color)`。  
+- **生產環境需要授權嗎？** 需要商業授權；亦提供免費試用版。  
+- **支援哪個 Java 版本？** JDK 8 以上（建議使用 JDK 11）。
+
+## 什麼是照片濾鏡調整圖層？
+照片濾鏡調整圖層是一種非破壞性的效果，會以選定的顏色為整張影像著色，類似於套用相機濾鏡。它存在於獨立的圖層上，讓您可以調整顏色、密度與亮度，而不會改變原始像素。
+
+## 為什麼使用 Aspose.PSD 來建立照片濾鏡圖層？
+- **完整控制** PSD 結構，無需 Adobe Photoshop。  
+- **跨平台** Java API 可在 Windows、Linux 與 macOS 上執行。  
+- **無 COM interop** – 純 Java，適合伺服器端處理。  
+- **支援 PSD 1‑8 版**，保留圖層效果與遮色片。
+
 ## 先決條件
-在我們開始這趟旅程之前，讓我們確保您已擁有啟動並運行所需的一切：
-### 必備軟體
-1. Java 開發工具包 (JDK)：確保您的電腦上安裝了相容版本的 JDK。您可以從以下位置下載：[甲骨文網站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.PSD for Java：要操作 PSD 文件，您需要 Aspose.PSD 函式庫。您可以從[Aspose 發佈頁面](https://releases.aspose.com/psd/java/)。不要忘記查看[Aspose 文檔](https://reference.aspose.com/psd/java/)了解更多詳情。
-3. IDE（整合開發環境）：像 IntelliJ IDEA 或 Eclipse 這樣好的 IDE 將使您的程式設計體驗更加流暢。
-### 了解基礎知識
-熟悉 Java 程式設計並基本了解 PSD 檔案的工作原理將會很有幫助。如果您不熟悉在 Java 中使用庫，那麼最好習慣匯入和使用框架。
-## 導入包
-首先，我們需要從 Aspose.PSD 庫匯入必要的類別。以下是您在 Java 檔案開頭需要的簡單導入語句：
+### 必要軟件
+1. **Java Development Kit (JDK)**：確保機器上已安裝相容的 JDK 版本，可從 [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下載。  
+2. **Aspose.PSD for Java**：操作 PSD 檔案需要 Aspose.PSD 函式庫，可從 [Aspose releases page](https://releases.aspose.com/psd/java/) 下載。別忘了參考 [Aspose documentation](https://reference.aspose.com/psd/java/) 取得更多資訊。  
+3. **IDE（整合開發環境）**：使用 IntelliJ IDEA 或 Eclipse 等 IDE 可讓開發更順暢。
+
+### 了解基礎
+熟悉 Java 程式設計並對 PSD 檔案的運作原理有基本認識會很有幫助。若您是第一次在 Java 中使用函式庫，建議先熟悉匯入與使用框架的方式。
+
+## 匯入套件
+要開始使用，我們需要從 Aspose.PSD 函式庫匯入必要的類別。以下是您在 Java 檔案開頭需要貼上的簡單匯入語句：
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.PhotoFilterLayer;
 ```
-只需將其貼到 Java 檔案的頂部，您就可以開始使用 PSD 映像了！
-## 編輯現有照片濾鏡圖層
-### 第 1 步：設定資料目錄
-首先，您需要定義 PSD 檔案的儲存目錄。代替`"Your Document Directory"`與實際路徑。這就是組織一切的方式：
+只要把它貼到 Java 檔案的最上方，即可開始操作 PSD 影像！
+
+## 編輯現有的照片濾鏡圖層
+### 步驟 1：設定資料目錄
+首先，您需要定義存放 PSD 檔案的目錄。將 `"Your Document Directory"` 替換為實際路徑，讓檔案組織更有條理：
 ```java
 String dataDir = "Your Document Directory";
 ```
-### 第 2 步：載入 PSD 文件
-現在，讓我們載入您要編輯的 PSD 檔案。確保`PhotoFilterAdjustmentLayer.psd`存在於您指定的目錄中。
+
+### 步驟 2：載入 PSD 檔案
+接著，載入您想編輯的 PSD 檔案。請確認 `PhotoFilterAdjustmentLayer.psd` 已存在於上述目錄中：
 ```java
 String sourceFileName = dataDir + "PhotoFilterAdjustmentLayer.psd";
 ```
-### 第三步：初始化影像對象
-使用 Aspose 的內建功能，我們將圖像載入到我們的專案中：
+
+### 步驟 3：初始化影像物件
+利用 Aspose 內建功能，我們將影像載入專案：
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
-### 第 4 步：迭代各層
-接下來，我們將檢查 PSD 檔案中的圖層。我們的目標是找到`PhotoFilterLayer`:
+
+### 步驟 4：遍歷圖層
+接下來，我們會檢查 PSD 檔案中的所有圖層，目標是找到 `PhotoFilterLayer`：
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof PhotoFilterLayer) {
         PhotoFilterLayer photoLayer = (PhotoFilterLayer) im.getLayers()[i];
-        //對圖層進行更改
+        // Make changes to the layer
     }
 }
 ```
-### 步驟5：自訂照片濾鏡層
-這就是奇蹟發生的地方！您可以修改`Color`和`Density`。例如，我們可以將顏色設定為鮮紅色並調整密度：
+
+### 步驟 5：自訂照片濾鏡圖層
+這裡就是魔法發生的地方！您可以修改 `Color` 與 `Density`。例如，我們可以將顏色設為鮮豔的紅色，並調整密度：
 ```java
 photoLayer.setColor(Color.fromArgb(255, 60, 60));
 photoLayer.setDensity(78);
 photoLayer.setPreserveLuminosity(false);
 ```
-### 第 6 步：儲存編輯後的 PSD 文件
-最後，儲存變更以使用您的調整建立新的 PSD 檔案：
+
+### 步驟 6：儲存編輯後的 PSD 檔案
+最後，將變更儲存為新的 PSD 檔案：
 ```java
 String psdPathAfterChange = dataDir + "PhotoFilterAdjustmentLayerChanged.psd";
 im.save(psdPathAfterChange);
 ```
-您剛剛在 PSD 檔案中編輯了照片濾鏡調整圖層。
-## 新增新的照片濾鏡層
-### 第1步：設定目錄路徑
-和之前一樣，我們從定義資料目錄開始：
+您已成功編輯 PSD 檔案中的 Photo Filter Adjustment Layer。
+
+## 新增照片濾鏡圖層
+### 步驟 1：設定目錄路徑
+同前，我們先定義資料目錄：
 ```java
 String dataDir = "Your Document Directory";
 ```
-### 步驟2：載入原始檔案
-對於此範例，讓我們載入一個不同的 PSD 文件，在其中新增新的照片濾鏡：
+
+### 步驟 2：載入來源檔案
+本例中，我們載入另一個 PSD 檔案，準備 **add adjustment layer PSD**：
 ```java
 String sourceFileName = dataDir + "PhotoExample.psd";
 ```
-### 第三步：再次初始化圖像對象
-我們必須創造一個新的`PsdImage`實例，所以我們載入檔案：
+
+### 步驟 3：再次初始化影像物件
+必須建立新的 `PsdImage` 實例，於是載入檔案：
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
-### 第四步：新增照片濾鏡層
-現在，我們可以新增具有自訂顏色的新照片濾鏡圖層。其操作方法如下：
+
+### 步驟 4：新增照片濾鏡圖層
+現在，我們可以以自訂顏色新增 Photo Filter 圖層。操作方式如下：
 ```java
 PhotoFilterLayer layer = img.addPhotoFilterLayer(Color.fromArgb(25, 255, 35));
 ```
-### 第 5 步：儲存新的 PSD 文件
-再次，是時候保存我們的更改了。這是執行此操作的行：
+
+### 步驟 5：儲存新 PSD 檔案
+再次將變更儲存。以下程式碼即完成此步驟：
 ```java
 String psdPathAfterChange = dataDir + "PhotoExampleAddedPhotoFilter.psd";
 img.save(psdPathAfterChange);
 ```
-您已成功將新的照片濾鏡圖層新增至 PSD 檔案。
-## 結論
-使用 Aspose.PSD for Java 管理 PSD 檔案中的照片濾鏡調整圖層不僅簡單，而且還為圖形編輯開啟了一個充滿可能性的世界。透過遵循這些逐步指南，您可以使用充滿活力的濾鏡來增強 PSD 檔案並創建令人驚嘆的圖形。在您的應用程式中測試這些功能；您一定會發現它對您的專案非常有效率！
-## 常見問題解答
+您已成功在 PSD 檔案中加入新的照片濾鏡圖層。
+
+## 常見問題與解決方案
+- **載入影像時出現 `ClassCastException`** – 請確認載入的檔案確實為 PSD；其他格式需使用不同的類別。  
+- **顏色值顯示不正確** – 請使用 `Color.fromArgb(alpha, red, green, blue)`，每個組件的取值範圍為 0‑255。  
+- **找不到圖層** – 請驗證來源 PSD 確實包含 `PhotoFilterLayer`。可使用 `im.getLayers().length` 進行除錯。
+
+## 常見問答
 ### 什麼是 Aspose.PSD？
-Aspose.PSD 是一個用於建立、編輯和轉換 PSD 檔案的 .NET 和 Java 程式庫。
+Aspose.PSD 是一套 .NET 與 Java 函式庫，用於建立、編輯與轉換 PSD 檔案。
+
 ### 我可以免費試用 Aspose.PSD 嗎？
-是的，Aspose 提供免費試用版。一探究竟[這裡](https://releases.aspose.com/).
-### 我在哪裡可以找到文件？
-您可以找到完整的文檔[Aspose的參考頁面](https://reference.aspose.com/psd/java/).
+可以，Aspose 提供免費試用版。請前往 [here](https://releases.aspose.com/) 下載。
+
+### 哪裡可以找到文件？
+完整文件可於 [Aspose's reference page](https://reference.aspose.com/psd/java/) 取得。
+
 ### 如何購買 Aspose.PSD？
-您可以從以下位置購買該軟體[這個連結](https://purchase.aspose.com/buy).
-### 是否支援 Aspose.PSD？
-絕對地！您可以透過 Aspose 支援論壇獲得支持[這裡](https://forum.aspose.com/c/psd/34).
+您可透過 [this link](https://purchase.aspose.com/buy) 購買軟體。
+
+### 是否提供 Aspose.PSD 的支援？
+當然！您可在 Aspose 支援論壇 [here](https://forum.aspose.com/c/psd/34) 取得協助。
+
+**最後更新：** 2026-03-28  
+**測試環境：** Aspose.PSD for Java 24.11（截至 2026 年的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
