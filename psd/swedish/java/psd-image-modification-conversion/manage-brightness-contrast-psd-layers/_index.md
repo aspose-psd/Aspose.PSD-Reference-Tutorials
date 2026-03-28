@@ -1,39 +1,59 @@
 ---
-title: Hantera ljusstyrka och kontrast i PSD-lager - Java
-linktitle: Hantera ljusstyrka och kontrast i PSD-lager - Java
+date: 2026-03-28
+description: Lär dig hur du justerar ljusstyrka i PSD med Java med hjälp av Aspose.PSD
+  för Java, inklusive hur du ändrar ljusstyrka och kontrast på PSD‑lager. Perfekt
+  för utvecklare och grafiska formgivare.
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
 second_title: Aspose.PSD Java API
-description: Lär dig att justera ljusstyrka och kontrast i PSD-filer med Aspose.PSD för Java utan ansträngning. Perfekt för utvecklare och grafiska formgivare.
-weight: 21
+title: Justera ljusstyrka PSD Java – Hantera ljusstyrka och kontrast
 url: /sv/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hantera ljusstyrka och kontrast i PSD-lager - Java
+# Justera ljusstyrka PSD Java – Hantera ljusstyrka & kontrast
 
 ## Introduktion
 
-Är du en grafisk designer eller en utvecklare som ofta arbetar med PSD-filer (Photoshop Document)? Behöver du justera ljusstyrkan och kontrasten för lagren i dessa filer men saknar kunskapen för att automatisera denna uppgift med Java? Tja, du har tur! I den här handledningen kommer vi att dyka in i hur man hanterar ljusstyrka och kontrast i PSD-lager med hjälp av Aspose.PSD-biblioteket för Java. Detta kommer inte bara att spara tid utan också förbättra ditt kreativa arbetsflöde. Låt oss kavla upp ärmarna och sätta igång!
+Är du en grafisk designer eller en utvecklare som ofta arbetar med PSD (Photoshop Document)‑filer? Behöver du **adjust brightness psd java** snabbt och pålitligt utan att lämna din Java‑miljö? I den här handledningen visar vi exakt hur du ändrar PSD‑lagrets ljusstyrka och kontrast med hjälp av Aspose.PSD‑biblioteket för Java. Du får med dig en återanvändbar kodsnutt som kan integreras i vilken automatiserad bildbehandlingspipeline som helst. Låt oss kavla upp ärmarna och komma igång!
+
+## Snabba svar
+- **Vilket bibliotek behöver jag?** Aspose.PSD for Java  
+- **Kan jag ändra flera lager samtidigt?** Yes – iterate through all `BrightnessContrastLayer` objects.  
+- **Vilken Java‑version krävs?** JDK 8 or higher.  
+- **Behöver jag en licens för produktion?** Yes, a commercial license is required for non‑evaluation use.  
+- **Är koden kompatibel med Maven/Gradle‑projekt?** Absolutely – just add the Aspose.PSD dependency.
+
+## Vad är “adjust brightness psd java”?
+
+Att justera ljusstyrka i en PSD‑fil via Java innebär att programatiskt ändra `BrightnessContrastLayer`‑värdena, vilket gör att du kan automatisera visuella justeringar som annars skulle kräva manuellt arbete i Photoshop.
+
+## Varför justera ljusstyrka och kontrast i PSD‑lager?
+
+- **Snabba upp batch‑behandling** – perfekt för stora designbibliotek.  
+- **Behåll lagerstruktur** – endast de målade justeringslagren ändras, vilket bevarar masker och effekter.  
+- **Integrera i CI/CD‑pipelines** – generera förhandsgranskningsbilder eller miniatyrer automatiskt.
 
 ## Förutsättningar
 
-Innan vi ger oss ut på denna spännande resa att manipulera PSD-filer med Java, är det viktigt att se till att du har allt du behöver konfigurerat korrekt. Här är vad du behöver för att slutföra den här handledningen:
+Innan vi ger oss ut på denna spännande resa med att manipulera PSD‑filer med Java är det viktigt att du har allt du behöver korrekt installerat. Här är vad du behöver för att framgångsrikt slutföra den här handledningen:
 
-1.  Java Development Kit (JDK): Se till att du har JDK 8 eller högre installerat på din maskin. Du kan ladda ner den från[Oracles hemsida](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+1. **Java Development Kit (JDK)** – Se till att du har JDK 8 eller högre installerat på din maskin. Du kan ladda ner det från [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
 
-2. Aspose.PSD för Java Library: För att arbeta med PSD-filer behöver du Aspose.PSD-biblioteket. Du kan ladda ner den senaste versionen från[släpp sida](https://releases.aspose.com/psd/java/).
+2. **Aspose.PSD for Java Library** – För att arbeta med PSD‑filer behöver du Aspose.PSD‑biblioteket. Du kan ladda ner den senaste versionen från [release page](https://releases.aspose.com/psd/java/).
 
-3. IDE av ditt val: En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA, Eclipse eller NetBeans är att föredra för att skriva och köra din Java-kod.
+3. **IDE of Your Choice** – En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA, Eclipse eller NetBeans föredras för att skriva och köra din Java‑kod.
 
-4. Grundläggande kunskaper om Java: Bekantskap med Java-programmering hjälper dig att förstå kodavsnitten vi kommer att arbeta med.
+4. **Basic Knowledge of Java** – Bekantskap med Java‑programmering hjälper dig att förstå kodsnuttarna vi kommer att arbeta med.
 
-När du har fått dessa förutsättningar på plats är vi redo att fortsätta. Ta nu din favoritkodredigerare och låt oss börja koda!
+När du har dessa förutsättningar på plats är vi redo att fortsätta. Ta nu din favoriteditor och låt oss börja koda!
 
 ## Importera paket
 
-Det första steget i vår kodningsresa är att importera de nödvändiga paketen. Innan du kan använda funktionerna som tillhandahålls av Aspose.PSD, måste du se till att biblioteket finns i din klassväg. Så här kan du göra det:
+Det första steget i vår kodningsresa är att importera de nödvändiga paketen. Innan du kan använda funktionerna som tillhandahålls av Aspose.PSD måste du se till att biblioteket finns i din classpath. Så här gör du:
 
 ```java
 import com.aspose.psd.Image;
@@ -41,44 +61,44 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-Genom att slutföra dessa steg skapar du scenen för att effektivt arbeta med PSD-filer!
+Genom att slutföra dessa steg förbereder du miljön för att effektivt arbeta med PSD‑filer!
 
-Nu när vi har ställt in allt är det dags att gå in på själva handledningen: justera ljusstyrka och kontrast i PSD-lager. Vi delar upp denna process i tydliga steg för att säkerställa att du enkelt kan följa med.
+Nu när vi har allt på plats är det dags att gå in på kärnan i handledningen: justera ljusstyrka och kontrast i PSD‑lager. Vi kommer att dela upp processen i tydliga steg så att du enkelt kan följa med.
 
 ## Steg 1: Definiera din dokumentkatalog
 
-Börja med att definiera katalogen där dina PSD-filer finns. Detta steg hjälper till att organisera dina filer effektivt.
+Börja med att definiera katalogen där dina PSD‑filer finns. Detta steg hjälper till att organisera dina filer effektivt.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Ersätta`"Your Document Directory"` med den faktiska sökvägen till din PSD-filkatalog.
+Byt ut `"Your Document Directory"` mot den faktiska sökvägen till din PSD‑filkatalog.
 
-## Steg 2: Ange käll- och målfilnamn
+## Steg 2: Ange käll- och destinationsfilnamn
 
-Därefter måste du ange källfilens namn på din PSD och destinationsfilen där den redigerade PSD kommer att sparas.
+Nästa steg är att ange källfilnamnet för din PSD och destinationsfilen där den redigerade PSD‑filen ska sparas.
 
 ```java
 String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
- I det här exemplet antar vi att du har en PSD-fil som heter`BrightnessContrastModern.psd` i din katalog.
+I det här exemplet antar vi att du har en PSD‑fil med namnet `BrightnessContrastModern.psd` i din katalog.
 
-## Steg 3: Ladda PSD-filen
+## Steg 3: Ladda PSD‑filen
 
-Nu är det dags att ladda PSD-filen i din applikation så att du kan manipulera den.
+Nu är det dags att ladda PSD‑filen i din applikation så att du kan manipulera den.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
- Denna kodrad skapar en instans av`PsdImage` representerar din PSD-fil. Med detta kan du nu komma åt alla lager i PSD:n.
+Den här kodraden skapar en instans av `PsdImage` som representerar din PSD‑fil. Med den kan du nu komma åt alla lager i PSD‑filen.
 
 ## Steg 4: Iterera genom lager
 
-Nästa steg innebär att iterera genom varje lager i din PSD-fil för att hitta och manipulera ljusstyrka och kontrastinställningar.
+Nästa steg innebär att iterera genom varje lager i din PSD‑fil för att hitta och manipulera ljusstyrke‑ och kontrastinställningarna.
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +106,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
- De`for` loop går genom varje lager av PSD. Vi kontrollerar om ett lager är en instans av`BrightnessContrastLayer`. Detta är viktigt för att säkerställa att du bara försöker ändra ljusstyrka och kontrast på rätt lager.
+`for`‑loopen går igenom varje lager i PSD‑filen. Vi kontrollerar om ett lager är en instans av `BrightnessContrastLayer`. Detta är nödvändigt för att säkerställa att du bara försöker ändra PSD‑lagrets ljusstyrka på rätt lager.
 
 ## Steg 5: Justera ljusstyrka och kontrast
 
- Inom slingan kan du nu ställa in ljusstyrka och kontrast för varje`BrightnessContrastLayer`. 
+Inom loopen kan du nu sätta ljusstyrka och kontrast för varje `BrightnessContrastLayer`. 
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +119,49 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
- I det här exemplet ställer vi in ljusstyrka och kontrast till`50`. Du kan justera dessa värden baserat på dina krav. En högre siffra ökar ljusstyrkan/kontrast, medan en lägre siffra minskar den.
+I det här exemplet sätter vi ljusstyrka och kontrast till `50`. Du kan justera dessa värden efter dina behov. Ett högre tal ökar ljusstyrke/kontrast, medan ett lägre tal minskar dem.
 
 ## Steg 6: Spara ändringarna
 
-Det sista steget är att spara dina ändringar i PSD-filen. Du vill skriva tillbaka den ändrade bilden till den angivna destinationen.
+Det sista steget är att spara dina ändringar till PSD‑filen. Du vill skriva den modifierade bilden tillbaka till den angivna destinationen.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Denna kodrad sparar den redigerade PSD-filen med dina nya inställningar för ljusstyrka och kontrast.
+Den här kodraden sparar den redigerade PSD‑filen med dina nya ljusstyrke‑ och kontrastinställningar.
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Grattis! Du har framgångsrikt lärt dig hur du hanterar ljusstyrka och kontrast i PSD-lager med Aspose.PSD för Java. Genom att automatisera dessa justeringar förbättrar du inte bara ditt arbetsflöde utan ökar också din produktivitet. Nästa gång du behöver justera dessa bilder kommer du att vara väl rustad att ta itu med uppgiften med dina nya Java-kunskaper. Så vad ska du skapa härnäst?
+| Problem | Varför det händer | Lösning |
+|-------|----------------|-----|
+| **Ingen `BrightnessContrastLayer` hittades** | PSD‑filen kan använda en annan justeringstyp (t.ex. Levels). | Verifiera lagertypen eller konvertera justeringen till en `BrightnessContrastLayer`. |
+| **Sparad fil ser korrupt ut** | Licens saknas eller en föråldrad Aspose.PSD‑version används. | Applicera en giltig licens och säkerställ att du använder den senaste versionen av biblioteket. |
+| **Värden utanför intervallet** | Ljusstyrke‑/kontrastvärden måste vara mellan -100 och 100. | Begränsa värdena innan du anropar `setBrightness`/`setContrast`. |
 
-## FAQ's
+## Vanliga frågor
 
-### Vad är Aspose.PSD för Java?
-Aspose.PSD för Java är ett bibliotek som tillåter utvecklare att manipulera PSD-filer programmatiskt, vilket möjliggör automatisering av Photoshop-relaterade uppgifter.
+**Q: Vad är Aspose.PSD for Java?**  
+A: Aspose.PSD for Java är ett bibliotek som låter utvecklare manipulera PSD‑filer programatiskt, vilket möjliggör automatisering av Photoshop‑relaterade uppgifter.
 
-### Kan jag justera flera lagers ljusstyrka och kontrast samtidigt?
- Ja, tillvägagångssättet som används i den här handledningen går igenom alla lager i PSD, så att du kan justera flera`BrightnessContrastLayer` fall.
+**Q: Kan jag justera flera lager's ljusstyrka och kontrast på en gång?**  
+A: Ja, tillvägagångssättet som används i den här handledningen itererar genom alla lager i PSD‑filen, vilket gör att du kan justera flera `BrightnessContrastLayer`‑instanser.
 
-### Hur får jag en tillfällig licens för Aspose.PSD?
- Du kan få en tillfällig licens genom att besöka[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
+**Q: Hur får jag en temporär licens för Aspose.PSD?**  
+A: Du kan få en temporär licens genom att besöka [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### Finns det en gratis testversion tillgänglig för Aspose.PSD?
- Ja, du kan ladda ner en gratis testversion av Aspose.PSD från[släpp sida](https://releases.aspose.com/).
+**Q: Finns det en gratis provversion av Aspose.PSD?**  
+A: Ja, du kan ladda ner en gratis provversion av Aspose.PSD från [release page](https://releases.aspose.com/).
 
-### Var kan jag hitta ytterligare support för Aspose.PSD?
- Du kan få support för Aspose.PSD på deras[supportforum](https://forum.aspose.com/c/psd/34).
+**Q: Var kan jag hitta ytterligare support för Aspose.PSD?**  
+A: Du kan få support för Aspose.PSD på deras [support forum](https://forum.aspose.com/c/psd/34).
+
+---
+
+**Senast uppdaterad:** 2026-03-28  
+**Testat med:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

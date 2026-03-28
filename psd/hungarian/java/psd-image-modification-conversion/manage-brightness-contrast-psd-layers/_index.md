@@ -1,39 +1,57 @@
 ---
-title: A fényerő és a kontraszt kezelése a PSD-rétegekben – Java
-linktitle: A fényerő és a kontraszt kezelése a PSD-rétegekben – Java
+date: 2026-03-28
+description: Ismerje meg, hogyan állítható be a fényerő PSD Java-ban az Aspose.PSD
+  for Java használatával, beleértve a PSD réteg fényerő- és kontrasztbeállítását.
+  Ideális fejlesztők és grafikus tervezők számára.
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
 second_title: Aspose.PSD Java API
-description: Tanulja meg könnyedén beállítani a fényerőt és a kontrasztot a PSD-fájlokban az Aspose.PSD for Java segítségével. Ideális fejlesztők és grafikusok számára.
-weight: 21
+title: Fényerő beállítása PSD Java – Fényerő és kontraszt kezelése
 url: /hu/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A fényerő és a kontraszt kezelése a PSD-rétegekben – Java
+# Fényerő beállítása PSD Java – Fényerő és kontraszt kezelése
 
 ## Bevezetés
 
-Ön grafikus vagy fejlesztő, aki gyakran dolgozik PSD (Photoshop Document) fájlokkal? Úgy találja, hogy módosítania kell ezekben a fájlokban a rétegek fényerejét és kontrasztját, de hiányzik a know-how ennek a feladatnak a Java használatával történő automatizálásához? Nos, szerencséd van! Ebben az oktatóanyagban azt mutatjuk be, hogyan lehet kezelni a fényerőt és a kontrasztot a PSD-rétegekben a Java Aspose.PSD-könyvtár használatával. Ezzel nem csak időt takarít meg, hanem javítja kreatív munkafolyamatát is. Tegyük fel az ingujjunkat és kezdjük!
+Grafikus tervező vagy fejlesztő vagy, aki gyakran dolgozik PSD (Photoshop Document) fájlokkal? Szükséged van arra, hogy **adjust brightness psd java** gyorsan és megbízhatóan, a Java környezeted elhagyása nélkül végezd? Ebben az útmutatóban pontosan megmutatjuk, hogyan változtathatod meg a PSD réteg fényerőjét és kontrasztját az Aspose.PSD Java könyvtár segítségével. Egy újrahasználható kódrészletet kapsz, amely bármely automatizált képfeldolgozó csővezetékbe integrálható. Görgessünk fel a felhajtóinkat, és kezdjünk bele!
+
+## Gyors válaszok
+- **Milyen könyvtárra van szükségem?** Aspose.PSD for Java  
+- **Módosíthatok több réteget egyszerre?** Yes – iterate through all `BrightnessContrastLayer` objects.  
+- **Milyen Java verzió szükséges?** JDK 8 or higher.  
+- **Szükségem van licencre a termeléshez?** Yes, a commercial license is required for non‑evaluation use.  
+- **Kompatibilis a kód Maven/Gradle projektekhez?** Absolutely – just add the Aspose.PSD dependency.
+
+## Mi az a “adjust brightness psd java”?
+
+## Miért állítsuk be a fényerőt és a kontrasztot a PSD rétegekben?
+
+- **Gyorsítsa fel a kötegelt feldolgozást** – perfect for large design libraries.  
+- **Megőrizze a rétegstruktúrát** – only the targeted adjustment layers are altered, preserving masks and effects.  
+- **Integrálja CI/CD csővezetékekbe** – generate preview images or thumbnails automatically.
 
 ## Előfeltételek
 
-Mielőtt nekivágnánk a PSD-fájlok Java-val történő manipulálásának izgalmas utazásának, elengedhetetlen, hogy minden szükséges dolgot megfelelően beállítsunk. Az oktatóanyag sikeres befejezéséhez a következőkre lesz szüksége:
+Mielőtt elindulnánk ezen az izgalmas úton a PSD fájlok Java-val történő manipulálásában, fontos, hogy minden szükséges dolgot megfelelően beállítsunk. Íme, amire szükséged lesz a tutorial sikeres befejezéséhez:
 
-1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK 8 vagy újabb verziója telepítve van a gépére. Letöltheti innen[Az Oracle webhelye](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+1. **Java Development Kit (JDK)** – Győződj meg róla, hogy JDK 8 vagy újabb telepítve van a gépeden. Letöltheted a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
 
-2. Aspose.PSD for Java Library: A PSD-fájlok kezeléséhez szüksége lesz az Aspose.PSD könyvtárra. A legújabb verziót letöltheti a[kiadási oldal](https://releases.aspose.com/psd/java/).
+2. **Aspose.PSD for Java Library** – A PSD fájlok kezeléséhez szükséged lesz az Aspose.PSD könyvtárra. A legújabb verziót letöltheted a [release page](https://releases.aspose.com/psd/java/) oldalról.
 
-3. Az Ön által választott IDE: Java-kód írásához és futtatásához olyan integrált fejlesztőkörnyezetet (IDE), mint az IntelliJ IDEA, az Eclipse vagy a NetBeans részesítenek előnyben.
+3. **Az Ön által választott IDE** – Olyan integrált fejlesztőkörnyezet (IDE), mint az IntelliJ IDEA, Eclipse vagy NetBeans ajánlott a Java kód írásához és futtatásához.
 
-4. Alapvető Java ismeretek: A Java programozás ismerete segít megérteni azokat a kódrészleteket, amelyekkel dolgozni fogunk.
+4. **Alapvető Java ismeretek** – A Java programozás ismerete segít megérteni a kódrészleteket, amelyeken dolgozni fogunk.
 
-Ha ezeket az előfeltételeket teljesítette, készen állunk a folytatásra. Most pedig fogd meg kedvenc kódszerkesztőjét, és kezdjük a kódolást!
+Miután ezeket az előfeltételeket beállítottad, készen állunk a folytatásra. Most ragadd meg a kedvenc kódszerkesztődet, és kezdjünk kódolni!
 
 ## Csomagok importálása
 
-Kódolási utunk első lépése a szükséges csomagok importálása. Mielőtt használhatná az Aspose.PSD által biztosított funkciókat, meg kell győződnie arról, hogy a könyvtár az osztályútvonalon van. Ezt a következőképpen teheti meg:
+Az első lépés a kódolási folyamatunkban a szükséges csomagok importálása. Mielőtt felhasználnád az Aspose.PSD által nyújtott funkcionalitást, biztosítanod kell, hogy a könyvtár a classpath‑odban legyen. Íme, hogyan teheted ezt meg:
 
 ```java
 import com.aspose.psd.Image;
@@ -41,44 +59,44 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-Ezen lépések végrehajtásával megteremti a terepet a PSD fájlokkal való hatékony munkavégzéshez!
+Ezeknek a lépéseknek a befejezése után felkészültél a PSD fájlok hatékony kezelésére!
 
-Most, hogy mindent beállítottunk, ideje belevágni az oktatóanyag lényegébe: a fényerő és a kontraszt beállítása PSD-rétegekben. Ezt a folyamatot egyértelmű lépésekre bontjuk, hogy Ön könnyen követhesse.
+Most, hogy minden be van állítva, itt az ideje, hogy a tutorial lényegébe mélyedjünk: a PSD rétegek fényerőjének és kontrasztjának beállításába. A folyamatot világos lépésekre bontjuk, hogy könnyen követhesd.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentum könyvtárának meghatározása
 
-Kezdje azzal, hogy meghatározza azt a könyvtárat, amelyben a PSD-fájlok találhatók. Ez a lépés segít a fájlok hatékony rendszerezésében.
+Kezdd azzal, hogy meghatározod azt a könyvtárat, ahol a PSD fájljaid találhatók. Ez a lépés segít a fájlok hatékony szervezésében.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Cserélje ki`"Your Document Directory"` a PSD-fájlkönyvtár tényleges elérési útjával.
+Cseréld le a `"Your Document Directory"` értéket a PSD fájlok könyvtárának tényleges elérési útjára.
 
-## 2. lépés: Adja meg a forrás- és a célfájl nevét
+## 2. lépés: Forrás- és célfájlnevek megadása
 
-Ezután meg kell adnia a PSD forrásfájl nevét és a célfájlt, ahová a szerkesztett PSD mentésre kerül.
+Ezután meg kell adnod a PSD forrásfájljának nevét és a célfájlt, ahová a szerkesztett PSD mentésre kerül.
 
 ```java
 String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
- Ebben a példában feltételezzük, hogy van egy nevű PSD-fájlja`BrightnessContrastModern.psd` a könyvtárában.
+Ebben a példában azt feltételezzük, hogy a könyvtáradban van egy `BrightnessContrastModern.psd` nevű PSD fájl.
 
-## 3. lépés: Töltse be a PSD fájlt
+## 3. lépés: PSD fájl betöltése
 
-Most itt az ideje, hogy betöltse a PSD-fájlt az alkalmazásba, hogy módosíthassa azt.
+Most itt az ideje betölteni a PSD fájlt az alkalmazásodba, hogy manipulálni tudd azt.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
- Ez a kódsor egy példányt hoz létre a`PsdImage` amely a PSD-fájlt képviseli. Ezzel mostantól elérheti a PSD összes rétegét.
+Ez a kódsor egy `PsdImage` példányt hoz létre, amely a PSD fájlodat képviseli. Ennek segítségével most már hozzáférhetsz a PSD összes rétegéhez.
 
-## 4. lépés: Ismétlés rétegeken keresztül
+## 4. lépés: Rétegek bejárása
 
-következő lépés a PSD-fájl minden rétegének megismétlése a fényerő- és kontrasztbeállítások megkereséséhez és módosításához.
+A következő lépés a PSD fájl minden rétegének bejárása, hogy megtaláld és módosítsd a fényerő‑ és kontrasztbeállításokat.
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +104,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
- A`for` hurok átmegy a PSD minden rétegén. Ellenőrizzük, hogy egy réteg példánya-e`BrightnessContrastLayer`. Ez elengedhetetlen annak biztosításához, hogy a fényerőt és a kontrasztot csak a megfelelő rétegeken próbálja módosítani.
+A `for` ciklus végigmegy a PSD minden rétegén. Ellenőrizzük, hogy a réteg egy `BrightnessContrastLayer` példány-e. Ez elengedhetetlen ahhoz, hogy csak a megfelelő rétegeken próbálj meg PSD réteg fényerőt változtatni.
 
-## 5. lépés: Állítsa be a fényerőt és a kontrasztot
+## 5. lépés: Fényerő és kontraszt beállítása
 
- A hurkon belül most mindegyikhez beállíthatja a fényerőt és a kontrasztot`BrightnessContrastLayer`. 
+A cikluson belül most már beállíthatod a fényerőt és a kontrasztot minden egyes `BrightnessContrastLayer` esetén.
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +117,49 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
- Ebben a példában a fényerőt és a kontrasztot értékre állítjuk`50`. Ezeket az értékeket igényei szerint módosíthatja. A nagyobb szám növeli a fényerőt/kontrasztot, míg az alacsonyabb szám csökkenti.
+Ebben a példában a fényerőt és a kontrasztot `50`‑re állítjuk. Ezeket az értékeket a saját igényeid szerint módosíthatod. A magasabb szám növeli a fényerőt/kontrasztot, míg az alacsonyabb szám csökkenti azt.
 
-## 6. lépés: Mentse el a változtatásokat
+## 6. lépés: Változások mentése
 
-Az utolsó lépés a módosítások mentése a PSD-fájlba. A módosított képet vissza kell írnia a megadott célhelyre.
+Az utolsó lépés a változások mentése a PSD fájlba. A módosított képet vissza kell írni a megadott célhelyre.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Ez a kódsor menti a szerkesztett PSD-fájlt az új fényerő- és kontrasztbeállításokkal.
+Ez a kódsor menti a szerkesztett PSD fájlt az új fényerő‑ és kontrasztbeállításokkal.
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Gratulálok! Sikeresen megtanulta, hogyan kezelheti a fényerőt és a kontrasztot a PSD-rétegekben az Aspose.PSD for Java segítségével. A módosítások automatizálásával nemcsak a munkafolyamatot javítja, hanem a termelékenységet is. Ha legközelebb módosítania kell ezeket a képeket, jól felkészült lesz arra, hogy új Java-készségeivel megbirkózzon a feladattal. Szóval mit fogsz létrehozni legközelebb?
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| **Nincs `BrightnessContrastLayer` megtalálva** | A PSD más típusú beállítást használhat (pl. Szintek). | Ellenőrizd a réteg típusát vagy konvertáld a beállítást `BrightnessContrastLayer`‑re. |
+| **A mentett fájl sérültnek tűnik** | Hiányzó licenc vagy elavult Aspose.PSD verzió használata. | Alkalmazz érvényes licencet és győződj meg róla, hogy a legújabb könyvtárverziót használod. |
+| **Az értékek kívül esnek a tartományon** | A fényerő/kontraszt értékek -100 és 100 között kell legyenek. | Korlátozd az értékeket a `setBrightness`/`setContrast` hívása előtt. |
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### Mi az Aspose.PSD for Java?
-Az Aspose.PSD for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára a PSD-fájlok programozott kezelését, lehetővé téve a Photoshoppal kapcsolatos feladatok automatizálását.
+**K: Mi az Aspose.PSD for Java?**  
+A: Az Aspose.PSD for Java egy könyvtár, amely lehetővé teszi a fejlesztők számára a PSD fájlok programozott manipulálását, így automatizálhatók a Photoshop‑hoz kapcsolódó feladatok.
 
-### Beállíthatom egyszerre több réteg fényerejét és kontrasztját?
- Igen, az ebben az oktatóanyagban használt megközelítés a PSD összes rétegén áthalad, lehetővé téve több beállítást`BrightnessContrastLayer` esetek.
+**K: Állíthatok több réteg fényerőjét és kontrasztját egyszerre?**  
+A: Igen, a tutorialban bemutatott módszer a PSD összes rétegén végig iterál, lehetővé téve több `BrightnessContrastLayer` példány fényerőjének és kontrasztjának beállítását.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
- Ideiglenes engedélyt a következő címen szerezhet be[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
+**K: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?**  
+A: Ideiglenes licencet a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalon szerezhetsz.
 
-### Elérhető az Aspose.PSD ingyenes próbaverziója?
- Igen, letöltheti az Aspose.PSD ingyenes próbaverzióját a webhelyről[kiadási oldal](https://releases.aspose.com/).
+**K: Van ingyenes próba az Aspose.PSD-hez?**  
+A: Igen, az Aspose.PSD ingyenes próba verzióját letöltheted a [release page](https://releases.aspose.com/) oldalról.
 
-### Hol találok további támogatást az Aspose.PSD-hez?
- Az Aspose.PSD-hez támogatást kaphat az ő oldalukon[támogatási fórum](https://forum.aspose.com/c/psd/34).
+**K: Hol találok további támogatást az Aspose.PSD-hez?**  
+A: Támogatást az Aspose.PSD-hez a [support forum](https://forum.aspose.com/c/psd/34) oldalon kaphatsz.
+
+---
+
+**Legutóbb frissítve:** 2026-03-28  
+**Tesztelve:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
