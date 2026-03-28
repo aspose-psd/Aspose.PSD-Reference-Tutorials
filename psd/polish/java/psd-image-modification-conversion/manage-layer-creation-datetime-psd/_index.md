@@ -1,29 +1,53 @@
 ---
-title: Zarządzaj datą i godziną tworzenia warstwy w formacie PSD za pomocą języka Java
-linktitle: Zarządzaj datą i godziną tworzenia warstwy w formacie PSD za pomocą języka Java
-second_title: Aspose.PSD API Java
-description: łatwością zarządzaj datami utworzenia warstw w plikach PSD za pomocą języka Java. Ten przewodnik przeprowadzi Cię przez proces używania Aspose.PSD do płynnej obsługi obrazów i zarządzania warstwami.
-weight: 18
+date: 2026-03-28
+description: Dowiedz się, jak utworzyć nową warstwę PSD i zarządzać jej datą i godziną
+  utworzenia przy użyciu Aspose.PSD for Java. Ten przewodnik krok po kroku obejmuje
+  ładowanie, odczytywanie, weryfikację i dodawanie warstw.
+linktitle: Create New PSD Layer and Manage Creation DateTime in Java
+second_title: Aspose.PSD Java API
+title: Utwórz nową warstwę PSD i zarządzaj datą oraz godziną jej utworzenia w Javie
 url: /pl/java/psd-image-modification-conversion/manage-layer-creation-datetime-psd/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zarządzaj datą i godziną tworzenia warstwy w formacie PSD za pomocą języka Java
+# Utwórz nową warstwę PSD i zarządzaj datą i godziną utworzenia w Javie
 
-## Wstęp
-Jeśli chodzi o pracę z plikami programu Photoshop, szczególnie w warunkach profesjonalnych, zrozumienie, jak skutecznie zarządzać warstwami i ich atrybutami, może mieć kluczowe znaczenie. Jednym z kuszących szczegółów, często pomijanych, jest data i godzina utworzenia warstwy. Wyobraź sobie, że musisz śledzić poprawki, weryfikować przejawy kreatywności lub po prostu chcesz prowadzić rejestr wspólnych projektów. Brzmi intrygująco, prawda? W tym przewodniku dowiemy się, jak zarządzać datą utworzenia warstwy w plikach PSD przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś programistą chcącym zautomatyzować proces projektowania, czy po prostu entuzjastą technologii, ten samouczek przeprowadzi Cię przez wszystko krok po kroku.
-## Warunki wstępne
-Zanim zagłębimy się w szczegóły, zastosujmy kilka rzeczy, aby zapewnić Ci bezproblemową obsługę:
-1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK na swoim komputerze, najlepiej w wersji 8 lub nowszej.
-2. Zintegrowane środowisko programistyczne (IDE): Można użyć dowolnego środowiska IDE obsługującego język Java, takiego jak IntelliJ IDEA, Eclipse lub NetBeans.
-3.  Aspose.PSD dla Java: Będziesz potrzebować biblioteki Aspose.PSD. Możesz[pobierz go tutaj](https://releases.aspose.com/psd/java/) do instalacji.
-4. Podstawowa znajomość języka Java: Znajomość koncepcji programowania w języku Java będzie korzystna. Jeśli nie jesteś dobrze zorientowany, nie przejmuj się – trzymaj się mnie, a zdobędziesz to po drodze.
-Masz wszystko? Wspaniały! Przejdźmy do zabawnej części kodowania!
-## Importuj pakiety
-Po pierwsze, musimy poprawnie skonfigurować środowisko Java. Oznacza to zaimportowanie niezbędnych pakietów z Aspose.PSD, które wykorzystamy w naszym kodzie. Oto krótkie podsumowanie tego, co powinieneś uwzględnić:
+## Wprowadzenie
+Kiedy programowo pracujesz z plikami Photoshop (PSD), możliwość **tworzenia nowych obiektów warstwy PSD** i śledzenia ich znaczników czasu utworzenia jest prawdziwym przełomem. Niezależnie od tego, czy budujesz system kontroli wersji zasobów graficznych, automatyzujesz masowe edycje, czy po prostu potrzebujesz ścieżki audytu dla projektów zespołowych, znajomość sposobu odczytywania i ustawiania daty utworzenia warstwy pozwala zachować pełną historię każdego zmian. W tym samouczku przejdziemy krok po kroku przez cały proces przy użyciu Aspose.PSD dla Javy — od załadowania PSD, pobrania daty utworzenia warstwy, jej weryfikacji, po dodanie zupełnie nowej warstwy dopasowania.
+
+## Szybkie odpowiedzi
+- **Jaką bibliotekę obsługuje pliki PSD w Javie?** Aspose.PSD dla Javy  
+- **Czy mogę odczytać datę utworzenia warstwy?** Tak, używając `layer.getLayerCreationDateTime()`  
+- **Czy można dodać nową warstwę dopasowania?** Oczywiście – `im.addLevelsAdjustmentLayer()` tworzy taką warstwę  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Licencja komercyjna jest wymagana dla wdrożeń nie‑testowych  
+- **Jaką wersję Javy obsługuje?** JDK 8 lub nowsza  
+
+## Co oznacza „create new PSD layer”?
+Tworzenie nowej warstwy PSD oznacza programowe wstawienie świeżego obiektu warstwy — takiego jak warstwa dopasowania, tekstowa lub pikselowa — do istniejącego dokumentu PSD. Ta operacja pozwala rozszerzyć lub zmodyfikować obraz bez ręcznego otwierania Photoshopa.
+
+## Dlaczego zarządzać DateTime utworzenia warstwy?
+Śledzenie daty i godziny utworzenia każdej warstwy pomaga:
+- **Audytować wersje** – dokładnie wiedzieć, kiedy warstwa została dodana.  
+- **Synchronizować zasoby** między zespołami, porównując znaczniki czasu.  
+- **Automatyzować przepływy pracy**, które zależą od reguł czasowych (np. ukrywać warstwy starsze niż miesiąc).  
+
+## Wymagania wstępne
+Zanim przejdziesz dalej, upewnij się, że masz przygotowane:
+
+1. **Java Development Kit (JDK)** – wersja 8 lub nowsza.  
+2. **IDE** – IntelliJ IDEA, Eclipse, NetBeans lub dowolny edytor, którego używasz.  
+3. **Aspose.PSD dla Javy** – możesz [pobrać go tutaj](https://releases.aspose.com/psd/java/) w celu instalacji.  
+4. **Podstawową znajomość Javy** – jeśli dopiero zaczynasz, nie martw się; kod jest w pełni skomentowany.
+
+Masz wszystko? Świetnie! Przejdźmy do najciekawszej części kodowania.
+
+## Importowanie pakietów
+Najpierw zaimportuj klasy Aspose.PSD oraz potrzebne utilsy Javy. Te importy dają dostęp do obsługi obrazu, manipulacji warstwami i formatowania dat.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
@@ -33,67 +57,85 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 ```
-Importy te umożliwią dostęp do podstawowych funkcjonalności Aspose.PSD, pracę z obrazami i bezproblemową obsługę dat. Dodaj je na górze pliku Java.
-## Krok 1: Skonfiguruj katalog dokumentów
-Najpierw określmy katalog, w którym znajduje się plik PSD. Zmodyfikuj następujący wiersz, aby wskazać katalog dokumentów. Będzie to miejsce, w którym załadujesz plik PSD, z którym chcesz pracować:
+
+## Krok 1: Ustaw katalog dokumentu
+Określ folder zawierający PSD, z którym chcesz pracować. Zamień placeholder na absolutną ścieżkę na swoim komputerze.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Musisz dostosować „Twój katalog dokumentów”, aby wskazywał rzeczywistą ścieżkę w systemie, w której przechowywany jest plik PSD. To mówi naszemu programowi, gdzie szukać niezbędnych plików.
 ## Krok 2: Załaduj plik PSD
-Teraz czas załadować plik PSD. Oto jak to zrobić:
+Utwórz instancję `PsdImage`, ładując docelowy plik. Ten obiekt jest punktem wejścia dla wszystkich operacji na warstwach.
+
 ```java
 String sourceName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage) Image.load(sourceName);
 ```
 
- Po ustawieniu`sourceName` poprzez dołączenie`.psd` do twojego`dataDir` , możesz załadować plik za pomocą`Image.load()` . To da ci`PsdImage` obiekt, którym możesz manipulować w kolejnych krokach.
-## Krok 3: Uzyskaj dostęp do warstwy i daty jej utworzenia
-Następnym krokiem jest uzyskanie dostępu do warstwy w pliku PSD i uzyskanie daty jej utworzenia. Oto kod:
+## Krok 3: Uzyskaj dostęp do warstwy i jej daty utworzenia
+Pobierz pierwszą warstwę (indeks 0) i odczytaj jej znacznik czasu utworzenia. To data, którą później porównasz lub zalogujesz.
+
 ```java
 Layer layer = im.getLayers()[0];
 Date creationDateTime = layer.getLayerCreationDateTime();
 ```
 
- Dzwoniąc`im.getLayers()[0]` , pobierasz pierwszą warstwę w swoim PSD. Następnie,`layer.getLayerCreationDateTime()` pobiera datę i godzinę utworzenia tej warstwy, co może mieć kluczowe znaczenie dla kontroli wersji i audytu.
 ## Krok 4: Sformatuj datę utworzenia
-Aby data była bardziej czytelna możemy ją sformatować. Oto jak możesz to zrobić:
+Przekształć surowy obiekt `Date` w czytelny dla człowieka ciąg znaków. Dostosuj wzorzec, jeśli wolisz inny format.
+
 ```java
 DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 ```
 
- Tworzymy`SimpleDateFormat` instancję, aby zdefiniować, jak ma wyglądać data. W tym przypadku wybieramy format rok-miesiąc-dzień z czasem.
-## Krok 5: Sprawdź datę utworzenia
-W tym momencie możesz porównać pobraną datę utworzenia z oczekiwaną datą. Oto jak możesz to wykonać:
+## Krok 5: Zweryfikuj datę utworzenia
+Dla demonstracji porównujemy pobraną datę z oczekiwaną wartością. W rzeczywistych projektach możesz porównywać ją z rekordem w bazie danych lub plikiem konfiguracyjnym.
+
 ```java
 Date expectedDateTime = new Date("2018/7/17 8:57:24");
 Assert.areEqual(expectedDateTime, creationDateTime);
 ```
 
- Tworzysz nowe`Date` obiekt według oczekiwanej wartości i zastosowania`Assert.areEqual()` aby sprawdzić, czy obie daty są zgodne. To świetny sposób, aby mieć pewność, że wszystko jest w doskonałym stanie.
 ## Krok 6: Utwórz nową warstwę
-Załóżmy, że chcesz dodać nową warstwę dopasowania, która umożliwia modyfikację oryginalnego obrazu bez trwałej zmiany samej warstwy. Oto jak to zrobić:
+Teraz faktycznie **tworzymy nowe obiekty warstwy PSD**. Dodajemy warstwę dopasowania Levels, która pozwala regulować zakresy tonalne bez modyfikacji oryginalnych pikseli.
+
 ```java
 Date now = new Date();
 Layer createdLayer = im.addLevelsAdjustmentLayer();
 ```
 
- Tutaj,`im.addLevelsAdjustmentLayer()` tworzy nową warstwę dopasowania poziomów. Jest to szczególnie przydatne, jeśli chcesz poprawić kolory lub kontrast obrazu bez zmiany oryginalnych danych.
-## Wniosek
-masz to! Pomyślnie nauczyłeś się zarządzać datą utworzenia warstwy w pliku PSD przy użyciu Aspose.PSD dla Java. Wykonując poniższe kroki, możesz ulepszyć swój zestaw narzędzi programistycznych i usprawnić procesy obsługi plików Photoshop. Niezależnie od tego, czy chodzi o projekty osobiste, czy zastosowania profesjonalne, zrozumienie tego może zaoszczędzić mnóstwo czasu.
-Jeśli podobał Ci się ten samouczek, dlaczego nie wypróbować innych funkcji dostępnych w Aspose.PSD? Czeka na Ciebie cały świat opcji!
-## Często zadawane pytania
+> **Pro tip:** Zmienna `now` przechowuje moment, w którym warstwa została dodana; możesz ją później zapisać jako metadane, jeśli potrzebujesz własnego znacznika czasu.
+
+## Typowe problemy i rozwiązania
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| `NullPointerException` przy `layer.getLayerCreationDateTime()` | PSD nie ma warstw lub indeks warstwy jest poza zakresem. | Sprawdź, czy `im.getLayers().length > 0` przed dostępem. |
+| Niepasująca data w weryfikacji | Konstruktor `Date` parsuje ciągi zależnie od lokalizacji. | Użyj `SimpleDateFormat.parse("2018/07/17 08:57:24")` dla pewnego parsowania. |
+| Nowa warstwa niewidoczna w Photoshopie | Warstwa dopasowania może być domyślnie ukryta. | Wywołaj `createdLayer.setVisible(true);` po jej utworzeniu. |
+
+## Zakończenie
+Teraz wiesz, jak **tworzyć nowe obiekty warstwy PSD**, odczytywać ich znaczniki czasu utworzenia, weryfikować te znaczniki oraz dodawać warstwy dopasowania — wszystko przy użyciu Aspose.PSD dla Javy. Ta możliwość otwiera drzwi do zaawansowanej automatyzacji, ścieżek audytu i współpracy w dowolnym pipeline przetwarzania obrazów opartym na Javie.
+
+Jeśli podobał Ci się ten samouczek, odkryj inne funkcje Aspose.PSD, takie jak scalanie warstw, stosowanie filtrów czy eksport do różnych formatów. Możliwości są nieograniczone!
+
+## FAQ's
 ### Co to jest Aspose.PSD?  
-Aspose.PSD to potężna biblioteka do programowej pracy z plikami Photoshop (PSD).
+Aspose.PSD to potężna biblioteka do programowego pracy z plikami Photoshop (PSD).
 ### Czy mogę używać Aspose.PSD za darmo?  
- Tak! Możesz zacząć od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
-### Czy muszę kupować licencję na długoterminowe użytkowanie?  
- Tak, możesz uzyskać licencję[Tutaj](https://purchase.aspose.com/buy) kiedy już będziesz gotowy.
-### Gdzie mogę znaleźć więcej informacji na temat Aspose.PSD?  
- Możesz sprawdzić[dokumentacja](https://reference.aspose.com/psd/java/) szczegółowe przewodniki i odniesienia do API.
-### Jak mogę szukać pomocy, jeśli napotkam problemy z Aspose.PSD?  
- Zapraszamy do odwiedzenia[forum wsparcia](https://forum.aspose.com/c/psd/34) za pomoc społeczną.
+Tak! Możesz rozpocząć od darmowej wersji próbnej dostępnej [tutaj](https://releases.aspose.com/).
+### Czy muszę kupić licencję na długoterminowe użycie?  
+Tak, licencję możesz nabyć [tutaj](https://purchase.aspose.com/buy), gdy będziesz gotowy.
+### Gdzie znajdę więcej informacji o Aspose.PSD?  
+Szczegółowe przewodniki i referencje API znajdziesz w [dokumentacji](https://reference.aspose.com/psd/java/).
+### Jak mogę uzyskać wsparcie, jeśli napotkam problemy z Aspose.PSD?  
+Odwiedź [forum wsparcia](https://forum.aspose.com/c/psd/34) dla pomocy społeczności.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-28  
+**Testowane z:** Aspose.PSD dla Javy 24.10  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

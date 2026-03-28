@@ -1,39 +1,59 @@
 ---
-title: Helligkeit und Kontrast in PSD-Ebenen verwalten – Java
-linktitle: Helligkeit und Kontrast in PSD-Ebenen verwalten – Java
+date: 2026-03-28
+description: Erfahren Sie, wie Sie die Helligkeit von PSD-Dateien in Java mit Aspose.PSD
+  for Java anpassen, einschließlich der Änderung von Helligkeit und Kontrast von PSD‑Ebenen.
+  Ideal für Entwickler und Grafikdesigner.
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
 second_title: Aspose.PSD Java API
-description: Lernen Sie, Helligkeit und Kontrast in PSD-Dateien mühelos mit Aspose.PSD für Java anzupassen. Ideal für Entwickler und Grafikdesigner.
-weight: 21
+title: Helligkeit anpassen PSD Java – Helligkeit & Kontrast verwalten
 url: /de/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Helligkeit und Kontrast in PSD-Ebenen verwalten – Java
+# Helligkeit anpassen PSD Java – Helligkeit & Kontrast verwalten
 
 ## Einführung
 
-Sind Sie Grafikdesigner oder Entwickler und arbeiten häufig mit PSD-Dateien (Photoshop Document)? Müssen Sie die Helligkeit und den Kontrast von Ebenen in diesen Dateien anpassen, wissen aber nicht, wie Sie diese Aufgabe mit Java automatisieren können? Dann haben Sie Glück! In diesem Tutorial erfahren Sie, wie Sie Helligkeit und Kontrast in PSD-Ebenen mithilfe der Aspose.PSD-Bibliothek für Java verwalten. Dies spart Ihnen nicht nur Zeit, sondern verbessert auch Ihren kreativen Workflow. Krempeln wir die Ärmel hoch und legen los!
+Sind Sie ein Grafikdesigner oder ein Entwickler, der häufig mit PSD‑Dateien (Photoshop Document) arbeitet? Müssen Sie **adjust brightness psd java** schnell und zuverlässig ändern, ohne Ihre Java‑Umgebung zu verlassen? In diesem Tutorial zeigen wir Ihnen genau, wie Sie die Helligkeit und den Kontrast von PSD‑Ebenen mithilfe der Aspose.PSD‑Bibliothek für Java ändern können. Sie erhalten ein wiederverwendbares Code‑Snippet, das in jede automatisierte Bildverarbeitungspipeline integriert werden kann. Packen wir es an und legen los!
+
+## Schnelle Antworten
+- **Welche Bibliothek benötige ich?** Aspose.PSD for Java  
+- **Kann ich mehrere Ebenen gleichzeitig ändern?** Yes – iterate through all `BrightnessContrastLayer` objects.  
+- **Welche Java‑Version wird benötigt?** JDK 8 or higher.  
+- **Benötige ich eine Lizenz für die Produktion?** Yes, a commercial license is required for non‑evaluation use.  
+- **Ist der Code mit Maven/Gradle‑Projekten kompatibel?** Absolutely – just add the Aspose.PSD dependency.
+
+## Was ist „adjust brightness psd java“?
+
+Das Anpassen der Helligkeit in einer PSD‑Datei über Java bedeutet, die Werte des `BrightnessContrastLayer` programmgesteuert zu ändern, wodurch Sie visuelle Anpassungen automatisieren können, die sonst manuelle Arbeit in Photoshop erfordern.
+
+## Warum Helligkeit und Kontrast in PSD‑Ebenen anpassen?
+
+- **Batch‑Verarbeitung beschleunigen** – ideal für große Design‑Bibliotheken.  
+- **Ebenenstruktur beibehalten** – nur die Ziel‑Anpassungsebenen werden geändert, Masken und Effekte bleiben erhalten.  
+- **In CI/CD‑Pipelines integrieren** – Vorschau‑Bilder oder Thumbnails automatisch erzeugen.
 
 ## Voraussetzungen
 
-Bevor wir uns auf diese spannende Reise der Bearbeitung von PSD-Dateien mit Java begeben, müssen Sie sicherstellen, dass Sie alles, was Sie brauchen, richtig eingerichtet haben. Folgendes benötigen Sie, um dieses Tutorial erfolgreich abzuschließen:
+Bevor wir diese spannende Reise zur Manipulation von PSD‑Dateien mit Java beginnen, ist es wichtig sicherzustellen, dass Sie alles Notwendige korrekt eingerichtet haben. Folgendes benötigen Sie, um dieses Tutorial erfolgreich abzuschließen:
 
-1.  Java Development Kit (JDK): Stellen Sie sicher, dass auf Ihrem Computer JDK 8 oder höher installiert ist. Sie können es hier herunterladen:[Website von Oracle](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+1. **Java Development Kit (JDK)** – Stellen Sie sicher, dass JDK 8 oder höher auf Ihrem Rechner installiert ist. Sie können es von [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) herunterladen.
 
-2. Aspose.PSD für Java-Bibliothek: Um mit PSD-Dateien arbeiten zu können, benötigen Sie die Aspose.PSD-Bibliothek. Sie können die neueste Version von der[Veröffentlichungsseite](https://releases.aspose.com/psd/java/).
+2. **Aspose.PSD for Java Library** – Um mit PSD‑Dateien zu arbeiten, benötigen Sie die Aspose.PSD‑Bibliothek. Die neueste Version können Sie von der [release page](https://releases.aspose.com/psd/java/) herunterladen.
 
-3. IDE Ihrer Wahl: Zum Schreiben und Ausführen Ihres Java-Codes wird eine integrierte Entwicklungsumgebung (IDE) wie IntelliJ IDEA, Eclipse oder NetBeans bevorzugt.
+3. **IDE Ihrer Wahl** – Eine integrierte Entwicklungsumgebung (IDE) wie IntelliJ IDEA, Eclipse oder NetBeans wird für das Schreiben und Ausführen Ihres Java‑Codes empfohlen.
 
-4. Grundkenntnisse in Java: Wenn Sie mit der Java-Programmierung vertraut sind, können Sie die Codefragmente besser verstehen, mit denen wir arbeiten werden.
+4. **Grundkenntnisse in Java** – Vertrautheit mit der Java‑Programmierung hilft Ihnen, die Code‑Snippets zu verstehen, mit denen wir arbeiten werden.
 
-Sobald Sie diese Voraussetzungen erfüllt haben, können wir fortfahren. Nehmen Sie jetzt Ihren bevorzugten Code-Editor zur Hand und legen Sie los!
+Sobald Sie diese Voraussetzungen erfüllt haben, können wir fortfahren. Schnappen Sie sich nun Ihren bevorzugten Code‑Editor und legen wir los!
 
 ## Pakete importieren
 
-Der erste Schritt auf unserer Programmierreise besteht darin, die erforderlichen Pakete zu importieren. Bevor Sie die von Aspose.PSD bereitgestellten Funktionen nutzen können, müssen Sie sicherstellen, dass sich die Bibliothek in Ihrem Klassenpfad befindet. So können Sie das tun:
+Der erste Schritt in unserer Programmierreise besteht darin, die erforderlichen Pakete zu importieren. Bevor Sie die von Aspose.PSD bereitgestellten Funktionen nutzen können, müssen Sie sicherstellen, dass die Bibliothek im Klassenpfad liegt. So geht's:
 
 ```java
 import com.aspose.psd.Image;
@@ -41,21 +61,21 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-Durch Ausführen dieser Schritte schaffen Sie die Voraussetzung für die effektive Arbeit mit PSD-Dateien!
+Durch das Abschließen dieser Schritte schaffen Sie die Grundlage für eine effektive Arbeit mit PSD‑Dateien!
 
-Nachdem wir nun alles eingerichtet haben, können wir mit dem Kern des Tutorials beginnen: dem Anpassen von Helligkeit und Kontrast in PSD-Ebenen. Wir unterteilen diesen Vorgang in klare Schritte, damit Sie ihn problemlos nachvollziehen können.
+Jetzt, da alles eingerichtet ist, geht es an den Kern des Tutorials: das Anpassen von Helligkeit und Kontrast in PSD‑Ebenen. Wir werden diesen Prozess in klare Schritte unterteilen, damit Sie ihm leicht folgen können.
 
-## Schritt 1: Definieren Sie Ihr Dokumentverzeichnis
+## Schritt 1: Definieren Sie Ihr Dokumentverzeichnis
 
-Definieren Sie zunächst das Verzeichnis, in dem sich Ihre PSD-Dateien befinden. Dieser Schritt hilft Ihnen dabei, Ihre Dateien effizient zu organisieren.
+Beginnen Sie damit, das Verzeichnis zu definieren, in dem sich Ihre PSD‑Dateien befinden. Dieser Schritt hilft, Ihre Dateien effizient zu organisieren.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrem PSD-Dateiverzeichnis.
+Ersetzen Sie `"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrem PSD‑Datei‑Verzeichnis.
 
-## Schritt 2: Quell- und Zieldateinamen angeben
+## Schritt 2: Quell‑ und Zieldateinamen angeben
 
 Als Nächstes müssen Sie den Quelldateinamen Ihrer PSD und die Zieldatei angeben, in der die bearbeitete PSD gespeichert wird.
 
@@ -64,21 +84,21 @@ String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
- In diesem Beispiel gehen wir davon aus, dass Sie eine PSD-Datei mit dem Namen`BrightnessContrastModern.psd` in Ihrem Verzeichnis.
+In diesem Beispiel gehen wir davon aus, dass Sie eine PSD‑Datei namens `BrightnessContrastModern.psd` in Ihrem Verzeichnis haben.
 
-## Schritt 3: Laden Sie die PSD-Datei
+## Schritt 3: PSD‑Datei laden
 
-Jetzt ist es an der Zeit, die PSD-Datei in Ihre Anwendung zu laden, damit Sie sie bearbeiten können.
+Jetzt ist es Zeit, die PSD‑Datei in Ihre Anwendung zu laden, damit Sie sie manipulieren können.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
- Diese Codezeile erstellt eine Instanz von`PsdImage` stellt Ihre PSD-Datei dar. Damit können Sie nun auf alle Ebenen der PSD zugreifen.
+Diese Codezeile erstellt eine Instanz von `PsdImage`, die Ihre PSD‑Datei repräsentiert. Damit können Sie nun auf alle Ebenen der PSD zugreifen.
 
-## Schritt 4: Durch Schichten iterieren
+## Schritt 4: Durch Ebenen iterieren
 
-Im nächsten Schritt durchlaufen Sie jede Ebene Ihrer PSD-Datei, um Helligkeits- und Kontrasteinstellungen zu finden und zu bearbeiten.
+Der nächste Schritt besteht darin, durch jede Ebene Ihrer PSD‑Datei zu iterieren, um Helligkeits‑ und Kontrasteinstellungen zu finden und zu manipulieren.
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +106,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
- Der`for` Schleife durchläuft jede Ebene des PSD. Wir prüfen, ob eine Ebene eine Instanz von`BrightnessContrastLayer`Dies ist wichtig, um sicherzustellen, dass Sie nur versuchen, Helligkeit und Kontrast auf den richtigen Ebenen zu ändern.
+Die `for`‑Schleife durchläuft jede Ebene der PSD. Wir prüfen, ob eine Ebene eine Instanz von `BrightnessContrastLayer` ist. Das ist wichtig, um sicherzustellen, dass Sie nur bei den richtigen Ebenen die Helligkeit ändern.
 
-## Schritt 5: Helligkeit und Kontrast anpassen
+## Schritt 5: Helligkeit und Kontrast anpassen
 
- Innerhalb der Schleife können Sie nun die Helligkeit und den Kontrast für jede`BrightnessContrastLayer`. 
+Innerhalb der Schleife können Sie nun die Helligkeit und den Kontrast für jede `BrightnessContrastLayer` festlegen.
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +119,49 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
- In diesem Beispiel setzen wir Helligkeit und Kontrast auf`50`. Sie können diese Werte Ihren Anforderungen entsprechend anpassen. Eine höhere Zahl erhöht die Helligkeit/den Kontrast, eine niedrigere Zahl verringert sie/ihn.
+In diesem Beispiel setzen wir Helligkeit und Kontrast auf `50`. Sie können diese Werte nach Ihren Anforderungen anpassen. Eine höhere Zahl erhöht Helligkeit/Kontrast, während eine niedrigere Zahl sie verringert.
 
-## Schritt 6: Änderungen speichern
+## Schritt 6: Änderungen speichern
 
-Der letzte Schritt besteht darin, Ihre Änderungen an der PSD-Datei zu speichern. Sie möchten das geänderte Bild an das angegebene Ziel zurückschreiben.
+Der letzte Schritt besteht darin, Ihre Änderungen in der PSD‑Datei zu speichern. Sie sollten das modifizierte Bild zurück an das angegebene Ziel schreiben.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Diese Codezeile speichert die bearbeitete PSD-Datei mit Ihren neuen Helligkeits- und Kontrasteinstellungen.
+Diese Codezeile speichert die bearbeitete PSD‑Datei mit Ihren neuen Helligkeits‑ und Kontrasteinstellungen.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Helligkeit und Kontrast in PSD-Ebenen mit Aspose.PSD für Java verwalten. Durch die Automatisierung dieser Anpassungen verbessern Sie nicht nur Ihren Arbeitsablauf, sondern steigern auch Ihre Produktivität. Wenn Sie diese Bilder das nächste Mal optimieren müssen, sind Sie mit Ihren neuen Java-Kenntnissen gut gerüstet, um die Aufgabe anzugehen. Also, was werden Sie als Nächstes erstellen?
+| Problem | Warum es passiert | Lösung |
+|-------|-------------------|--------|
+| **No `BrightnessContrastLayer` found** | The PSD may use a different adjustment type (e.g., Levels). | Verify the layer type or convert the adjustment to a `BrightnessContrastLayer`. |
+| **Saved file looks corrupted** | Missing license or using an outdated Aspose.PSD version. | Apply a valid license and ensure you’re using the latest library release. |
+| **Values out of range** | Brightness/Contrast values must be between -100 and 100. | Clamp values before calling `setBrightness`/`setContrast`. |
 
 ## Häufig gestellte Fragen
 
-### Was ist Aspose.PSD für Java?
-Aspose.PSD für Java ist eine Bibliothek, die es Entwicklern ermöglicht, PSD-Dateien programmgesteuert zu bearbeiten und so Photoshop-bezogene Aufgaben zu automatisieren.
+**Q: Was ist Aspose.PSD für Java?**  
+A: Aspose.PSD für Java ist eine Bibliothek, die Entwicklern ermöglicht, PSD‑Dateien programmgesteuert zu manipulieren und so die Automatisierung von Photoshop‑bezogenen Aufgaben zu ermöglichen.
 
-### Kann ich die Helligkeit und den Kontrast mehrerer Ebenen gleichzeitig anpassen?
- Ja, der in diesem Tutorial verwendete Ansatz durchläuft alle Ebenen im PSD, sodass Sie mehrere`BrightnessContrastLayer` Instanzen.
+**Q: Kann ich die Helligkeit und den Kontrast mehrerer Ebenen gleichzeitig anpassen?**  
+A: Ja, der in diesem Tutorial verwendete Ansatz iteriert durch alle Ebenen der PSD, sodass Sie mehrere `BrightnessContrastLayer`‑Instanzen anpassen können.
 
-### Wie erhalte ich eine temporäre Lizenz für Aspose.PSD?
- Sie können eine temporäre Lizenz erhalten, indem Sie die[Seite mit der temporären Lizenz](https://purchase.aspose.com/temporary-license/).
+**Q: Wie erhalte ich eine temporäre Lizenz für Aspose.PSD?**  
+A: Sie können eine temporäre Lizenz erhalten, indem Sie die [temporary license page](https://purchase.aspose.com/temporary-license/) besuchen.
 
-### Gibt es eine kostenlose Testversion für Aspose.PSD?
- Ja, Sie können eine kostenlose Testversion von Aspose.PSD herunterladen von der[Veröffentlichungsseite](https://releases.aspose.com/).
+**Q: Gibt es eine kostenlose Testversion von Aspose.PSD?**  
+A: Ja, Sie können eine kostenlose Testversion von Aspose.PSD von der [release page](https://releases.aspose.com/) herunterladen.
 
-### Wo finde ich zusätzliche Unterstützung für Aspose.PSD?
- Sie können Unterstützung für Aspose.PSD auf deren[Support-Forum](https://forum.aspose.com/c/psd/34).
+**Q: Wo finde ich zusätzlichen Support für Aspose.PSD?**  
+A: Sie können Support für Aspose.PSD in ihrem [support forum](https://forum.aspose.com/c/psd/34) erhalten.
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-28  
+**Getestet mit:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

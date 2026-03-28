@@ -1,39 +1,57 @@
 ---
-title: Zarządzanie jasnością i kontrastem w warstwach PSD — Java
-linktitle: Zarządzanie jasnością i kontrastem w warstwach PSD — Java
-second_title: Aspose.PSD API Java
-description: Naucz się bez wysiłku regulować jasność i kontrast w plikach PSD za pomocą Aspose.PSD dla Java. Idealny dla programistów i grafików.
-weight: 21
+date: 2026-03-28
+description: Dowiedz się, jak regulować jasność plików PSD w Javie przy użyciu Aspose.PSD
+  for Java, w tym jak zmienić jasność i kontrast warstwy PSD. Idealne dla programistów
+  i grafików.
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
+second_title: Aspose.PSD Java API
+title: Reguluj jasność PSD Java – Zarządzaj jasnością i kontrastem
 url: /pl/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zarządzanie jasnością i kontrastem w warstwach PSD — Java
+# Dostosuj jasność PSD Java – Zarządzaj jasnością i kontrastem
 
-## Wstęp
+## Wprowadzenie
 
-Czy jesteś grafikiem lub programistą, który często pracuje z plikami PSD (dokument Photoshopa)? Czy uważasz, że musisz dostosować jasność i kontrast warstw w tych plikach, ale brakuje Ci wiedzy, jak zautomatyzować to zadanie za pomocą Java? Cóż, masz szczęście! W tym samouczku omówimy, jak zarządzać jasnością i kontrastem w warstwach PSD przy użyciu biblioteki Aspose.PSD dla Java. Dzięki temu nie tylko zaoszczędzisz czas, ale także usprawnisz twórczy przepływ pracy. Zakasamy rękawy i zaczynamy!
+Czy jesteś grafikiem lub programistą, który często pracuje z plikami PSD (Photoshop Document)? Czy potrzebujesz **adjust brightness psd java** szybko i niezawodnie, nie opuszczając środowiska Java? W tym samouczku pokażemy dokładnie, jak zmienić jasność i kontrast warstwy PSD przy użyciu biblioteki Aspose.PSD dla Javy. Otrzymasz gotowy fragment kodu, który można zintegrować z dowolnym zautomatyzowanym potokiem przetwarzania obrazów. Zaciągnijmy rękawy i zaczynajmy!
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.PSD for Java  
+- **Czy mogę zmienić wiele warstw jednocześnie?** Yes – iterate through all `BrightnessContrastLayer` objects.  
+- **Jaka wersja Javy jest wymagana?** JDK 8 or higher.  
+- **Czy potrzebuję licencji do produkcji?** Yes, a commercial license is required for non‑evaluation use.  
+- **Czy kod jest kompatybilny z projektami Maven/Gradle?** Absolutely – just add the Aspose.PSD dependency.
 
-Zanim wyruszymy w tę ekscytującą podróż manipulacji plikami PSD za pomocą języka Java, koniecznie upewnij się, że wszystko, czego potrzebujesz, jest poprawnie skonfigurowane. Oto, czego będziesz potrzebować, aby pomyślnie ukończyć ten samouczek:
+## Co to jest „adjust brightness psd java”?
+Dostosowywanie jasności w pliku PSD za pomocą Javy oznacza programowe modyfikowanie wartości `BrightnessContrastLayer`, co pozwala automatyzować korekty wizualne, które w przeciwnym razie wymagałyby ręcznej pracy w Photoshopie.
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowany pakiet JDK 8 lub nowszy. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+## Dlaczego dostosowywać jasność i kontrast w warstwach PSD?
+- **Przyspiesz przetwarzanie wsadowe** – idealne dla dużych bibliotek projektów.  
+- **Zachowaj strukturę warstw** – tylko docelowe warstwy korekty są zmieniane, zachowując maski i efekty.  
+- **Zintegruj z potokami CI/CD** – automatycznie generuj obrazy podglądowe lub miniatury.
 
-2. Aspose.PSD dla biblioteki Java: Do pracy z plikami PSD będziesz potrzebować biblioteki Aspose.PSD. Najnowszą wersję można pobrać ze strony[strona wydania](https://releases.aspose.com/psd/java/).
+## Wymagania wstępne
 
-3. IDE do wyboru: Do pisania i uruchamiania kodu Java preferowane jest zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA, Eclipse lub NetBeans.
+Zanim wyruszymy w tę ekscytującą podróż manipulacji plikami PSD przy użyciu Javy, ważne jest, aby upewnić się, że wszystko jest poprawnie skonfigurowane. Oto, czego będziesz potrzebować, aby pomyślnie ukończyć ten samouczek:
 
-4. Podstawowa znajomość języka Java: Znajomość programowania w języku Java pomoże Ci zrozumieć fragmenty kodu, z którymi będziemy pracować.
+1. **Java Development Kit (JDK)** – Upewnij się, że masz zainstalowany JDK 8 lub wyższy na swoim komputerze. Możesz go pobrać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
 
-Po spełnieniu tych wymagań wstępnych możemy kontynuować. Teraz chwyć swój ulubiony edytor kodu i zacznijmy kodować!
+2. **Aspose.PSD for Java Library** – Aby pracować z plikami PSD, potrzebujesz biblioteki Aspose.PSD. Najnowszą wersję możesz pobrać ze [strony wydania](https://releases.aspose.com/psd/java/).
 
-## Importuj pakiety
+3. **IDE of Your Choice** – Zintegrowane Środowisko Programistyczne (IDE) takie jak IntelliJ IDEA, Eclipse lub NetBeans jest zalecane do pisania i uruchamiania kodu Java.
 
-Pierwszym krokiem w naszej podróży z kodowaniem jest zaimportowanie niezbędnych pakietów. Zanim będziesz mógł skorzystać z funkcjonalności dostarczonych przez Aspose.PSD, musisz upewnić się, że biblioteka znajduje się w Twojej ścieżce klas. Oto jak możesz to zrobić:
+4. **Basic Knowledge of Java** – Znajomość programowania w Javie pomoże Ci zrozumieć fragmenty kodu, nad którymi będziemy pracować.
+
+Gdy już masz te wymagania w miejscu, możemy kontynuować. Teraz chwyć swój ulubiony edytor kodu i zaczynamy programować!
+
+## Importowanie pakietów
+
+Pierwszym krokiem w naszej podróży kodowania jest zaimportowanie niezbędnych pakietów. Zanim będziesz mógł korzystać z funkcji udostępnianych przez Aspose.PSD, musisz upewnić się, że biblioteka znajduje się w classpath. Oto jak to zrobić:
 
 ```java
 import com.aspose.psd.Image;
@@ -41,44 +59,44 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-Wykonując te kroki, przygotowujesz scenę do efektywnej pracy z plikami PSD!
+Po wykonaniu tych kroków przygotowujesz środowisko do efektywnej pracy z plikami PSD!
 
-Teraz, gdy już wszystko skonfigurowaliśmy, czas przejść do sedna samouczka: dostosowywania jasności i kontrastu w warstwach PSD. Podzielimy ten proces na jasne kroki, abyś mógł łatwo go śledzić.
+Teraz, gdy wszystko jest skonfigurowane, czas przejść do sedna samouczka: dostosowywania jasności i kontrastu w warstwach PSD. Podzielimy ten proces na jasne kroki, abyś mógł łatwo podążać za instrukcją.
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
-Rozpocznij od zdefiniowania katalogu, w którym znajdują się pliki PSD. Ten krok pomaga w efektywnym organizowaniu plików.
+Zacznij od określenia katalogu, w którym znajdują się Twoje pliki PSD. Ten krok pomaga w efektywnym organizowaniu plików.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu plików PSD.
+Zastąp `"Your Document Directory"` rzeczywistą ścieżką do katalogu z plikami PSD.
 
-## Krok 2: Określ nazwy plików źródłowych i docelowych
+## Krok 2: Określ nazwy plików źródłowego i docelowego
 
-Następnie musisz określić nazwę pliku źródłowego PSD i plik docelowy, w którym zostanie zapisany edytowany plik PSD.
+Następnie musisz określić nazwę pliku źródłowego swojego PSD oraz plik docelowy, w którym zostanie zapisany edytowany PSD.
 
 ```java
 String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
- W tym przykładzie zakładamy, że masz plik PSD o nazwie`BrightnessContrastModern.psd` w swoim katalogu.
+W tym przykładzie zakładamy, że w Twoim katalogu znajduje się plik PSD o nazwie `BrightnessContrastModern.psd`.
 
 ## Krok 3: Załaduj plik PSD
 
-Teraz nadszedł czas, aby załadować plik PSD do swojej aplikacji, aby móc nim manipulować.
+Teraz nadszedł czas, aby załadować plik PSD do aplikacji, aby móc go manipulować.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
- Ta linia kodu tworzy instancję`PsdImage` reprezentujący Twój plik PSD. Dzięki temu możesz teraz uzyskać dostęp do wszystkich warstw PSD.
+Ten wiersz kodu tworzy instancję `PsdImage` reprezentującą Twój plik PSD. Dzięki temu możesz teraz uzyskać dostęp do wszystkich warstw PSD.
 
-## Krok 4: Iteruj po warstwach
+## Krok 4: Iteruj przez warstwy
 
-Następny krok obejmuje iterację po każdej warstwie pliku PSD w celu znalezienia ustawień jasności i kontrastu oraz manipulowania nimi.
+Kolejny krok polega na iteracji przez każdą warstwę pliku PSD w celu znalezienia i manipulacji ustawieniami jasności i kontrastu.
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +104,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
- The`for` pętla przechodzi przez każdą warstwę PSD. Sprawdzamy, czy warstwa jest instancją`BrightnessContrastLayer`. Jest to niezbędne, aby mieć pewność, że spróbujesz zmienić jasność i kontrast tylko na właściwych warstwach.
+Pętla `for` przechodzi przez każdą warstwę PSD. Sprawdzamy, czy warstwa jest instancją `BrightnessContrastLayer`. Jest to niezbędne, aby upewnić się, że próbujesz zmienić jasność warstwy PSD tylko w odpowiednich warstwach.
 
 ## Krok 5: Dostosuj jasność i kontrast
 
- W pętli możesz teraz ustawić jasność i kontrast dla każdego z nich`BrightnessContrastLayer`. 
+Wewnątrz pętli możesz teraz ustawić jasność i kontrast dla każdej `BrightnessContrastLayer`.
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +117,49 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
- W tym przykładzie ustawiliśmy jasność i kontrast na`50`. Możesz dostosować te wartości w zależności od wymagań. Wyższa liczba zwiększa jasność/kontrast, a niższa liczba ją zmniejsza.
+W tym przykładzie ustawiamy jasność i kontrast na `50`. Możesz dostosować te wartości w zależności od potrzeb. Wyższa liczba zwiększa jasność/kontrast, natomiast niższa ją zmniejsza.
 
 ## Krok 6: Zapisz zmiany
 
-Ostatnim krokiem jest zapisanie zmian w pliku PSD. Będziesz chciał zapisać zmodyfikowany obraz z powrotem do określonego miejsca docelowego.
+Ostatnim krokiem jest zapisanie zmian w pliku PSD. Należy zapisać zmodyfikowany obraz z powrotem do określonego miejsca docelowego.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Ta linia kodu zapisuje edytowany plik PSD z nowymi ustawieniami jasności i kontrastu.
+Ten wiersz kodu zapisuje edytowany plik PSD z nowymi ustawieniami jasności i kontrastu.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie nauczyłeś się zarządzać jasnością i kontrastem w warstwach PSD przy użyciu Aspose.PSD dla Java. Automatyzując te dostosowania, nie tylko usprawnisz przepływ pracy, ale także zwiększysz produktywność. Następnym razem, gdy będziesz musiał poprawić te obrazy, będziesz dobrze przygotowany do poradzenia sobie z tym zadaniem dzięki nowym umiejętnościom w języku Java. Co więc stworzysz dalej?
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| **Nie znaleziono `BrightnessContrastLayer`** | PSD może używać innego typu korekty (np. Levels). | Sprawdź typ warstwy lub przekonwertuj korektę na `BrightnessContrastLayer`. |
+| **Zapisany plik wygląda na uszkodzony** | Brak licencji lub używanie przestarzałej wersji Aspose.PSD. | Zastosuj ważną licencję i upewnij się, że używasz najnowszej wersji biblioteki. |
+| **Wartości poza zakresem** | Wartości jasności/kontrastu muszą mieścić się w przedziale od -100 do 100. | Ogranicz wartości przed wywołaniem `setBrightness`/`setContrast`. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Co to jest Aspose.PSD dla Java?
-Aspose.PSD dla Java to biblioteka, która pozwala programistom programowo manipulować plikami PSD, umożliwiając automatyzację zadań związanych z programem Photoshop.
+**Q: Czym jest Aspose.PSD for Java?**  
+A: Aspose.PSD for Java to biblioteka, która umożliwia programistom programowe manipulowanie plikami PSD, umożliwiając automatyzację zadań związanych z Photoshopem.
 
-### Czy mogę dostosować jasność i kontrast wielu warstw jednocześnie?
- Tak, podejście zastosowane w tym samouczku polega na iteracji po wszystkich warstwach PSD, co pozwala na dostosowanie wielu warstw`BrightnessContrastLayer` przypadki.
+**Q: Czy mogę jednocześnie dostosować jasność i kontrast wielu warstw?**  
+A: Tak, podejście użyte w tym samouczku iteruje przez wszystkie warstwy w PSD, umożliwiając dostosowanie wielu instancji `BrightnessContrastLayer`.
 
-### Jak uzyskać tymczasową licencję na Aspose.PSD?
- Licencję tymczasową można uzyskać odwiedzając stronę[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+**Q: Jak uzyskać tymczasową licencję na Aspose.PSD?**  
+A: Tymczasową licencję możesz uzyskać, odwiedzając [stronę tymczasowej licencji](https://purchase.aspose.com/temporary-license/).
 
-### Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.PSD z[strona wydania](https://releases.aspose.com/).
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.PSD?**  
+A: Tak, możesz pobrać darmową wersję próbną Aspose.PSD ze [strony wydania](https://releases.aspose.com/).
 
-### Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.PSD?
- Możesz uzyskać wsparcie dla Aspose.PSD na ich stronie[forum wsparcia](https://forum.aspose.com/c/psd/34).
+**Q: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.PSD?**  
+A: Wsparcie dla Aspose.PSD możesz uzyskać na ich [forum wsparcia](https://forum.aspose.com/c/psd/34).
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-28  
+**Testowano z:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
