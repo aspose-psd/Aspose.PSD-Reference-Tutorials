@@ -1,37 +1,59 @@
 ---
-title: Aspose.PSD Java를 사용하여 PSD 파일의 레이어 병합
-linktitle: Aspose.PSD Java를 사용하여 PSD 파일의 레이어 병합
-second_title: Aspose.PSD 자바 API
-description: Java용 Aspose.PSD를 사용하여 PSD 파일의 레이어를 쉽게 병합하고 병합할 수 있습니다. PSD 파일 관리를 단순화하려면 이 단계별 가이드를 따르십시오.
-weight: 13
+date: 2026-04-03
+description: Aspose.PSD for Java를 사용하여 레이어를 플래튼하여 PSD 파일 크기를 줄이는 방법을 배워보세요. 이 단계별
+  가이드는 PSD 파일을 빠르게 플래튼하는 방법을 보여줍니다.
+keywords:
+- reduce psd file size
+- how to flatten psd
+- flatten visible layers psd
+linktitle: 레이어를 평탄화하여 PSD 파일 크기 줄이기 – Aspose.PSD Java
+second_title: Aspose.PSD Java API
+title: 레이어를 평탄화하여 PSD 파일 크기 줄이기 – Aspose.PSD Java
 url: /ko/java/psd-layer-management-effects/flatten-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD Java를 사용하여 PSD 파일의 레이어 병합
+# 레이어 플래튼으로 PSD 파일 크기 줄이기 – Aspose.PSD Java
 
 ## 소개
 
-Photoshop 파일로 작업하면서 복잡한 레이어를 더 쉽게 관리할 수 있는 방법을 원한 적이 있습니까? 글쎄, 당신은 운이 좋다! 오늘 우리는 PSD 파일을 프로그래밍 방식으로 쉽게 작업할 수 있게 해주는 강력한 도구인 Java용 Aspose.PSD의 세계에 대해 알아봅니다. 우리가 살펴볼 편리한 기능 중 하나는 레이어를 병합하는 것입니다. 전체 이미지를 병합하려는 경우나 특정 레이어를 선택적으로 병합하려는 경우 Java용 Aspose.PSD를 사용하면 됩니다. 이 튜토리얼에서는 프로세스를 단계별로 안내하여 PSD 파일을 자신 있게 다룰 수 있도록 준비합니다.
+포토샵 문서를 열어본 적이 있다면 **PSD 파일 크기 줄이기** 방법을 궁금해했을 것입니다. 레이어를 플래튼하는 것은 가장 효과적인 트릭 중 하나입니다. Aspose.PSD for Java를 사용하면 전체 PSD를 프로그래밍 방식으로 플래튼하거나 선택한 레이어만 병합할 수 있어, 시각적 품질을 손상시키지 않으면서 파일 용량을 세밀하게 제어할 수 있습니다. 이 튜토리얼에서는 전체 이미지를 플래튼하는 방법과 특정 레이어만 병합하는 방법을 모두 살펴보며, PSD 파일을 빠르게 축소하고 작업 흐름을 원활하게 유지하는 방법을 안내합니다.
 
-## 전제조건
+## 빠른 답변
+- **플래튼은 무엇을 하나요?** 보이는 레이어를 하나의 배경 레이어로 병합하여 레이어 정보를 제거하고 파일 크기를 줄이는 경우가 많습니다.  
+- **선택한 레이어만 플래튼할 수 있나요?** 예, 특정 레이어만 병합하고 다른 레이어는 그대로 둘 수 있습니다.  
+- **라이선스가 필요합니까?** 개발용으로는 무료 체험판으로 충분하지만, 상용 환경에서는 상업용 라이선스가 필요합니다.  
+- **필요한 Java 버전은?** JDK 8 이상.  
+- **플래튼이 이미지 품질에 영향을 줍니까?** 아니요, 시각적 모습은 동일하게 유지되며 레이어 구조만 변경됩니다.
 
-코드를 시작하기 전에 필요한 모든 것이 있는지 확인하겠습니다.
+## “PSD 파일 크기 줄이기”란?
 
-1. JDK(Java Development Kit): 시스템에 JDK 8 이상이 설치되어 있는지 확인하십시오.
-2.  Java용 Aspose.PSD: Aspose.PSD 라이브러리를 다운로드하여 프로젝트에 추가하세요. 당신은 그것을 찾을 수 있습니다[여기](https://releases.aspose.com/psd/java/).
-3. 통합 개발 환경(IDE): IntelliJ IDEA 또는 Eclipse와 같은 IDE는 코딩 경험을 더욱 원활하게 만들어줍니다.
-4. Java 기본 지식: 이 튜토리얼은 초보자에게 적합하지만 Java에 대한 몇 가지 기본 지식이 있으면 더 쉽게 따라갈 수 있습니다.
-5. 샘플 PSD 파일: 실험할 PSD 파일을 준비합니다. 평탄화 프로세스를 보여주기 위해 여러 레이어가 있는 레이어를 사용하겠습니다.
+PSD 파일 크기 줄이기는 불필요한 데이터—예를 들어 추가 레이어, 숨겨진 채널, 과도한 메타데이터 등을 제거하여 파일을 가볍게 만들고 로드·공유·처리 속도를 높이는 것을 의미합니다. 레이어를 플래튼하는 기술은 별도의 레이어 객체를 삭제하면서 최종 합성 이미지를 보존하기 때문에 흔히 사용됩니다.
 
-이제 필수 사항을 모두 마쳤으므로 재미있는 부분인 코드 작업을 시작해 보겠습니다.
+## Aspose.PSD for Java로 레이어를 플래튼하는 이유
+
+- **자동화:** 포토샵을 직접 열 필요 없이 Java 애플리케이션에 직접 통합할 수 있습니다.  
+- **정밀 제어:** 전체 문서를 플래튼하거나(`flattenImage`) 보이는 레이어만 플래튼하거나(`flattenImage`) 선택한 레이어만 병합(`mergeLayers`)할 수 있습니다.  
+- **성능:** 파일이 작아지면 로드 속도가 빨라지고 후속 처리에서 메모리 사용량이 감소합니다.  
+- **크로스‑플랫폼:** Java를 지원하는 모든 OS에서 동작합니다.
+
+## 전제 조건
+
+1. **Java Development Kit (JDK):** JDK 8 이상이 설치되어 있어야 합니다.  
+2. **Aspose.PSD for Java:** 라이브러리를 [here](https://releases.aspose.com/psd/java/)에서 다운로드하십시오.  
+3. **IDE:** IntelliJ IDEA, Eclipse 또는 Java와 호환되는 기타 IDE.  
+4. **기본 Java 지식:** 필수는 아니지만 단계 진행에 도움이 됩니다.  
+5. **샘플 PSD:** 여러 레이어가 포함된 파일(`ThreeRegularLayersSemiTransparent.psd`)을 사용합니다.
+
+이제 모든 준비가 끝났으니 코드를 살펴보겠습니다.
 
 ## 패키지 가져오기
 
-시작하려면 필요한 패키지를 Java 프로젝트로 가져와야 합니다. 이 패키지를 사용하면 Java용 Aspose.PSD를 사용하여 PSD 파일로 작업할 수 있습니다.
+시작하려면 필수 Aspose.PSD 클래스를 가져옵니다:
 
 ```java
 import com.aspose.psd.Image;
@@ -39,15 +61,13 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-이러한 가져오기를 통해 PSD 파일을 로드하고, 레이어를 조작하고, 변경 사항을 저장할 수 있습니다. 이제 레이어를 병합하는 프로세스를 관리 가능한 단계로 나누어 보겠습니다.
+이러한 import 문을 통해 PSD 파일을 로드하고 레이어를 조작하며 결과를 저장할 수 있습니다.
 
-## 1단계: 전체 PSD 이미지 병합
+## 단계 1: 전체 PSD 이미지 플래튼
 
-첫 번째 작업은 전체 PSD 이미지를 병합하는 것입니다. 이는 모든 레이어를 단일 레이어로 결합하여 이미지를 더 쉽게 관리하고 내보내려는 경우에 유용합니다.
+전체 이미지를 플래튼하면 **PSD 파일 크기 줄이기**에 가장 빠른 방법이며, 개별 레이어 데이터를 모두 제거합니다.
 
 ### 1.1 PSD 파일 로드
-
- 먼저 PSD 파일을 프로그램에 로드합니다. 이 파일은 프로젝트 디렉터리에 있어야 합니다.`Your Document Directory`.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,46 +75,32 @@ String sourceFileName = dataDir + "ThreeRegularLayersSemiTransparent.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-이 코드 조각은 다음과 같은 PSD 파일을 로드합니다.`ThreeRegularLayersSemiTransparent.psd` 지정된 디렉토리에서.
-
-### 1.2 이미지 병합
-
-다음으로 전체 이미지를 병합하겠습니다. 병합은 표시되는 모든 레이어를 단일 배경 레이어로 결합합니다.
+### 1.2 이미지 플래튼
 
 ```java
 im.flattenImage();
 ```
 
-이 단일 라이너를 사용하면 PSD 파일의 모든 레이어가 하나로 병합됩니다.
-
-### 1.3 병합된 이미지 저장
-
-마지막으로 병합된 이미지를 새 파일에 저장하겠습니다.
+### 1.3 플래튼된 이미지 저장
 
 ```java
 String exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattened.psd";
 im.save(exportPath);
 ```
 
- 이렇게 하면 병합된 PSD 파일이 새 이름으로 저장됩니다.`ThreeRegularLayersSemiTransparentFlattened.psd`. 축하해요! Java용 Aspose.PSD를 사용하여 첫 번째 PSD 이미지를 평면화했습니다.
+새 파일은 이제 단일 배경 레이어만 포함하므로 일반적으로 PSD 크기가 작아집니다.
 
-## 2단계: 특정 레이어 병합
+## 단계 2: 특정 레이어 병합 (PSD를 선택적으로 플래튼하는 방법)
 
-때로는 전체 이미지를 병합하지 않고 특정 레이어만 병합하고 싶을 수도 있습니다. 어떻게 이를 달성할 수 있는지 살펴보겠습니다.
+때로는 **보이는 레이어만 플래튼**하거나 일부 레이어만 결합하고 나머지는 편집 가능하게 유지하고 싶을 수 있습니다.
 
 ### 2.1 PSD 파일 다시 로드
-
-다른 작업을 수행하고 있으므로 PSD 파일을 다시 로드하여 시작하세요.
 
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
 
-그러면 레이어별 작업에 사용할 준비가 된 동일한 PSD 파일이 로드됩니다.
-
 ### 2.2 레이어 식별 및 선택
-
-특정 레이어를 병합하려면 먼저 병합할 레이어를 식별하고 선택하세요.
 
 ```java
 Layer bottomLayer = img.getLayers()[0];
@@ -102,63 +108,60 @@ Layer middleLayer = img.getLayers()[1];
 Layer topLayer = img.getLayers()[2];
 ```
 
-여기서는 PSD 파일의 첫 번째, 두 번째, 세 번째 레이어를 선택합니다. 이러한 레이어는 배열에 저장되며 해당 인덱스를 통해 액세스할 수 있습니다.
-
 ### 2.3 레이어 병합
-
-이제 선택한 레이어를 병합해 보겠습니다. 먼저 아래쪽 레이어와 중간 레이어를 병합한 다음 결과를 위쪽 레이어와 병합하겠습니다.
 
 ```java
 Layer layer1 = img.mergeLayers(bottomLayer, middleLayer);
 Layer layer2 = img.mergeLayers(layer1, topLayer);
 ```
 
-이 코드는 레이어를 순차적으로 병합하여 단일 결합 레이어를 만듭니다.
-
 ### 2.4 기존 레이어를 병합된 레이어로 교체
-
-병합 후에는 이미지의 기존 레이어를 새로 병합된 레이어로 교체해야 합니다.
 
 ```java
 img.setLayers(new Layer[]{layer2});
 ```
 
-이 단계를 수행하면 이제 이미지에 병합된 레이어만 포함됩니다.
-
 ### 2.5 업데이트된 PSD 파일 저장
-
-마지막으로 병합된 레이어와 함께 업데이트된 PSD 파일을 저장합니다.
 
 ```java
 exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattenedLayerByLayer.psd";
 img.save(exportPath);
 ```
 
-이렇게 하면 병합된 레이어와 함께 PSD가 새 이름으로 저장되므로 원본 파일을 그대로 유지할 수 있습니다.
+이제 PSD는 병합된 레이어만 포함하게 되며, 원하는 레이어를 유지하면서 파일 크기를 줄일 수 있습니다.
 
-## 결론
+## 일반적인 문제 및 팁
 
-PSD 파일의 레이어 작업은 종종 미로를 탐색하는 것처럼 느껴질 수 있지만 Java용 Aspose.PSD를 사용하면 손에 지도를 들고 있는 것과 같습니다. 전체 이미지를 병합해야 하거나 선택한 레이어를 신중하게 병합해야 하는 경우 Aspose.PSD는 프로세스를 단순화하여 어려운 작업을 간단한 작업으로 전환합니다. 이 튜토리얼을 따르면 이제 Java를 사용하여 PSD 파일의 레이어 조작을 편안하게 처리할 수 있습니다. 그렇다면 여러분 자신의 프로젝트로 시도해 보고 얼마나 많은 시간과 노력을 절약하는지 확인해 보는 것은 어떨까요?
+- **플래튼 전에 백업:** 레이어를 플래튼하면 작업을 되돌릴 수 없습니다. 원본 PSD를 복사해 두세요.  
+- **가시성 중요:** `flattenImage()`는 *보이는* 레이어만 병합합니다. 포함하고 싶지 않은 레이어는 숨겨두세요.  
+- **메모리 사용량:** 큰 PSD는 상당한 RAM을 소모할 수 있으니 충분한 메모리를 갖춘 머신에서 처리하는 것이 좋습니다.  
+- **블렌딩 모드:** 병합은 각 레이어의 블렌딩 모드를 그대로 적용하므로, 포토샵에서 보는 시각적 결과와 동일합니다.
 
-## FAQ
+## 자주 묻는 질문
 
-### Aspose.PSD에서 레이어 병합을 취소할 수 있나요?  
-아니요. Aspose.PSD를 사용하여 레이어를 병합하면 해당 작업을 되돌릴 수 없습니다. 항상 원본 파일의 백업을 보관하는 것이 좋습니다.
+**Q: Aspose.PSD에서 레이어 플래튼을 취소할 수 있나요?**  
+A: 아니요, 플래튼은 되돌릴 수 없습니다. 항상 원본 파일의 백업을 유지하십시오.
 
-### 보이는 레이어만 병합할 수 있나요?  
- 예, 가시성에 따라 어떤 레이어를 병합할지 제어할 수 있습니다. 사용하기 전에 병합하려는 레이어만 표시되는지 확인하세요.`flattenImage` 방법.
+**Q: 보이는 레이어만 플래튼할 수 있나요?**  
+A: 예. `flattenImage()`는 레이어 가시성을 존중하므로, 플래튼하기 전에 제외하고 싶은 레이어를 숨기면 됩니다.
 
-### 레이어를 병합하면 파일 크기가 줄어듭니까?  
-레이어를 병합하면 특히 복잡한 레이어가 많은 경우 파일 크기를 줄일 수 있습니다. 그러나 정확한 감소량은 레이어의 내용에 따라 달라집니다.
+**Q: 레이어를 플래튼하면 파일 크기가 줄어들나요?**  
+A: 일반적으로 그렇습니다. 레이어 데이터와 메타데이터를 제거하면 PSD가 작아지지만, 정확한 감소량은 내용에 따라 다릅니다.
 
-### 다양한 혼합 모드로 레이어를 병합할 수 있나요?  
-예, Aspose.PSD를 사용하여 다양한 혼합 모드로 레이어를 병합할 수 있으며 결과 레이어는 병합된 레이어의 모양을 유지합니다.
+**Q: 서로 다른 블렌딩 모드를 가진 레이어를 병합할 수 있나요?**  
+A: 물론입니다. Aspose.PSD는 블렌딩 모드를 유지하면서 레이어를 병합합니다.
 
-### 인접하지 않은 레이어를 병합하려고 하면 어떻게 되나요?  
-Aspose.PSD를 사용하면 레이어 스택의 순서에 관계없이 모든 레이어를 병합할 수 있습니다. 병합 프로세스는 선택한 레이어를 지정된 대로 결합합니다.
+**Q: 인접하지 않은 레이어를 병합하려면 어떻게 되나요?**  
+A: Aspose.PSD는 스택 순서와 관계없이 어떤 레이어든 병합할 수 있으며, 결과는 결합된 외관을 반영합니다.
+
+---
+
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

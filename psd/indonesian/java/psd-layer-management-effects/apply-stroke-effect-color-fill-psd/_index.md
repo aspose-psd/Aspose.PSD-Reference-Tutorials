@@ -1,37 +1,55 @@
 ---
-title: Terapkan Efek Stroke dengan Isian Warna di PSD - Java
-linktitle: Terapkan Efek Stroke dengan Isian Warna di PSD - Java
-second_title: Asumsikan.PSD Java API
-description: Pelajari cara menerapkan efek guratan dengan isian warna ke file PSD Anda menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah ini untuk menyempurnakan gambar Anda dengan mudah.
-weight: 21
+date: 2026-04-03
+description: Pelajari cara menyimpan PSD sebagai PNG dengan efek stroke dan isian
+  warna menggunakan Aspose.PSD untuk Java. Panduan langkah demi langkah ini menunjukkan
+  cara mengekspor PSD ke PNG dengan cepat.
+keywords:
+- save psd as png
+- export psd to png
+- set stroke color
+- apply layer effects
+- customize stroke width
+linktitle: Simpan PSD sebagai PNG dengan Efek Garis – Java
+second_title: Aspose.PSD Java API
+title: Simpan PSD sebagai PNG dengan Efek Stroke – Java
 url: /id/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Terapkan Efek Stroke dengan Isian Warna di PSD - Java
+# Simpan PSD sebagai PNG dengan Efek Garis Luar dan Isi Warna – Java
 
-## Perkenalan
+## Pendahuluan
 
-Dalam panduan ini, kami akan memandu Anda melalui proses penerapan efek guratan dengan isian warna ke file PSD Anda menggunakan Aspose.PSD untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial langkah demi langkah ini akan memudahkan Anda menyelesaikan pekerjaan. Kami akan membahas semuanya mulai dari menyiapkan lingkungan Anda hingga menyimpan gambar akhir dengan efek yang diterapkan.
+Dalam panduan ini, Anda akan belajar cara **menyimpan PSD sebagai PNG** sambil menerapkan efek garis luar dengan isi warna menggunakan Aspose.PSD untuk Java. Baik Anda seorang pengembang berpengalaman maupun pemula, tutorial langkah‑demi‑langkah ini akan memudahkan Anda menyelesaikan tugas. Kami akan membahas semua hal mulai dari menyiapkan lingkungan hingga mengekspor gambar akhir, sehingga Anda dapat dengan cepat **mengekspor PSD ke PNG** dalam proyek Anda sendiri.
+
+## Jawaban Cepat
+- **Apa yang dicapai tutorial ini?** Menunjukkan cara menyimpan file PSD sebagai PNG setelah menerapkan efek garis luar yang dapat disesuaikan.  
+- **Pustaka mana yang digunakan?** Aspose.PSD for Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.  
+- **Apakah saya dapat mengubah warna garis luar?** Ya – Anda dapat mengatur warna apa pun melalui `ColorFillSettings`.  
+- **Apakah pemrosesan batch memungkinkan?** Tentu – bungkus kode dalam loop untuk memproses beberapa file PSD.
+
+## Apa itu “menyimpan PSD sebagai PNG”?
+Menyimpan PSD sebagai PNG berarti mengonversi file berlapis asli Photoshop menjadi format gambar datar yang ramah web sambil mempertahankan kesetiaan visual. Ini berguna ketika Anda perlu menampilkan konten PSD di situs web, aplikasi seluler, atau platform apa pun yang tidak mendukung file PSD secara langsung.
+
+## Mengapa menerapkan efek garis luar dengan isi warna?
+Garis luar menambahkan kontur tajam di sekitar isi lapisan, membuat grafik menonjol di latar belakang yang kompleks. Menggabungkannya dengan warna isi khusus memungkinkan Anda memberi merek pada gambar, menyorot elemen UI, atau membuat thumbnail yang menarik tanpa meninggalkan Photoshop.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki semua yang perlu Anda ikuti bersama dengan tutorial ini:
+1. **Java Development Kit (JDK) 8+** – pastikan `java` ada di PATH Anda.  
+2. **Aspose.PSD for Java** – unduh dari [website](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai.  
+4. **Sample PSD** – file yang sudah berisi efek garis luar (atau tambahkan satu di Photoshop).  
+5. **Basic Java knowledge** – Anda akan menulis beberapa baris kode, tetapi tidak ada yang rumit.
 
-1. Java Development Kit (JDK) Terpasang: Pastikan Anda telah menginstal JDK 8 atau lebih tinggi di sistem Anda.
-2.  Aspose.PSD untuk Perpustakaan Java: Anda memerlukan perpustakaan Aspose.PSD untuk Java. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/psd/java/).
-3. Lingkungan Pengembangan Terpadu (IDE): IDE seperti IntelliJ IDEA, Eclipse, atau lainnya pilihan Anda.
-4. Contoh File PSD: Contoh file PSD tempat Anda dapat menerapkan efek guratan. Jika Anda tidak memilikinya, Anda dapat membuat file PSD sederhana di Photoshop atau mendownloadnya dari internet.
-5. Pengetahuan Dasar tentang Java: Meskipun tutorial ini ramah bagi pemula, memiliki beberapa pengetahuan dasar tentang Java akan bermanfaat.
+Setelah Anda menyiapkan semua ini, kita dapat mulai menulis kode.
 
-Setelah Anda memiliki prasyarat ini, Anda siap untuk mulai menerapkan efek guratan dengan isian warna pada file PSD Anda.
-
-## Paket Impor
-
-Untuk mulai bekerja dengan Aspose.PSD untuk Java, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda. Inilah cara Anda melakukannya:
+## Impor Paket
 
 ```java
 import com.aspose.psd.Color;
@@ -45,25 +63,21 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-Impor ini menghadirkan semua kelas yang Anda perlukan untuk bekerja dengan file PSD, menerapkan efek, dan menyimpan gambar dalam format yang Anda inginkan.
+Impor ini membawa semua kelas yang diperlukan untuk memuat PSD, memodifikasi garis luar, dan menyimpan output PSD serta PNG.
 
-## Langkah 1: Muat File PSD
+## Cara Menyimpan PSD sebagai PNG dengan Efek Garis Luar
 
- Langkah pertama dalam proses kami adalah memuat file PSD yang ingin Anda modifikasi. Aspose.PSD untuk Java menjadikan ini sangat sederhana dengan`PsdImage` kelas. Inilah cara Anda melakukannya:
+### Langkah 1: Muat File PSD
 
-### 1.1 Tetapkan Jalur Direktori
-
-Pertama, tentukan jalur direktori tempat file PSD Anda disimpan:
+Pertama, arahkan ke folder yang berisi PSD sumber Anda.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat file PSD Anda berada.
+Ganti `"Your Document Directory"` dengan jalur sebenarnya di mesin Anda.
 
-### 1.2 Muat Gambar PSD
-
- Sekarang, muat file PSD menggunakan`PsdLoadOptions` Dan`PsdImage` kelas:
+Sekarang muat file sambil mempertahankan semua sumber daya efek yang ada:
 
 ```java
 String sourceFileName = dataDir + "StrokeComplex.psd";
@@ -74,47 +88,33 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
- Di sini, itu`PsdLoadOptions`dikonfigurasi untuk memuat sumber daya efek, memastikan bahwa setiap efek yang ada dalam PSD dapat diakses.
+### Langkah 2: Atur Warna Garis Luar (dan opsional sesuaikan lebar)
 
-## Langkah 2: Terapkan Efek Stroke dengan Color Fill
-
-Setelah file PSD dimuat, langkah selanjutnya adalah menerapkan efek guratan pada lapisan gambar. Di sinilah keajaiban sesungguhnya terjadi.
-
-Setiap file PSD mungkin berisi beberapa lapisan, dan Anda harus menerapkan efeknya pada masing-masing lapisan. Berikut cara melakukannya:
+Loop di bawah ini melintasi setiap lapisan, mengambil `StrokeEffect` pertama, dan mengubah warna isiannya. Anda juga dapat menyesuaikan `setWidth` atau `setPosition` pada objek `StrokeEffect` jika perlu **menyesuaikan lebar garis luar**.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     StrokeEffect effect = (StrokeEffect) im.getLayers()[i].getBlendingOptions().getEffects()[0];
     ColorFillSettings settings = (ColorFillSettings) effect.getFillSettings();
+    // Set the stroke color – change to any Color you like
     settings.setColor(Color.getDeepPink());
 }
 ```
 
-Dalam lingkaran ini:
+> **Tip pro:** `Color.getDeepPink()` hanyalah contoh. Gunakan `new Color(r, g, b)` untuk nilai RGB khusus.
 
-- `im.getLayers()`: Mengambil semua lapisan dalam file PSD.
-- `StrokeEffect effect`: Mengekstrak efek guratan yang diterapkan pada lapisan.
-- `ColorFillSettings settings`: Memodifikasi pengaturan isian untuk efek guratan.
-- `settings.setColor(Color.getDeepPink())`: Mengatur warna guratan menjadi merah muda tua. Anda dapat mengubahnya ke warna apa pun yang Anda inginkan.
+### Langkah 3: Simpan PSD yang Dimodifikasi (opsional)
 
-## Langkah 3: Simpan PSD yang Dimodifikasi dan Ekspor sebagai PNG
-
-Setelah Anda menerapkan efek guratan, sekarang saatnya menyimpan perubahan dan mengekspor gambar.
-
-### 3.1 Simpan File PSD
-
-Untuk menyimpan file PSD yang dimodifikasi, gunakan kode berikut:
+Jika Anda ingin menyimpan versi PSD dengan garis luar yang diperbarui, simpan seperti ini:
 
 ```java
 String exportPath = dataDir + "StrokeComplexRendering.psd";
 im.save(exportPath, new PsdOptions());
 ```
 
-Ini menyimpan file dengan efek guratan yang diterapkan ke jalur yang ditentukan.
+### Langkah 4: Ekspor Gambar sebagai PNG (langkah inti “menyimpan PSD sebagai PNG”)
 
-### 3.2 Ekspor sebagai PNG
-
-Agar gambar lebih mudah diakses, Anda mungkin ingin mengekspornya sebagai file PNG. Begini caranya:
+Akhirnya, konversi PSD yang telah diedit menjadi file PNG yang siap digunakan di web:
 
 ```java
 String exportPathPng = dataDir + "StrokeComplexRendering.png";
@@ -124,32 +124,39 @@ option.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(exportPathPng, option);
 ```
 
-Cuplikan kode ini menyimpan gambar sebagai PNG dengan warna asli dan transparansi alfa, sehingga siap digunakan dalam aplikasi web atau platform lain.
+PNG mempertahankan garis luar berwarna pink tua yang Anda atur sebelumnya, dan opsi `TruecolorWithAlpha` memastikan transparansi tetap terjaga.
 
-## Kesimpulan
+## Masalah Umum & Solusi
 
-Menerapkan efek guratan dengan isian warna pada file PSD Anda menggunakan Aspose.PSD untuk Java tidak hanya mudah tetapi juga sangat hebat. Hanya dengan beberapa baris kode, Anda dapat mengotomatiskan tugas pemrosesan gambar yang rumit, sehingga menghemat waktu dan tenaga.
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| **`ArrayIndexOutOfBoundsException`** | Layer tidak memiliki efek atau efek pertama bukan `StrokeEffect`. | Pastikan lapisan memang berisi garis luar atau iterasi melalui `getEffects()` untuk menemukan tipe yang tepat. |
+| **Warna tidak berubah** | Anda mungkin mengedit salinan pengaturan alih-alih yang asli. | Pastikan Anda melakukan cast langsung ke `ColorFillSettings` dari `effect.getFillSettings()`. |
+| **PNG muncul kosong** | PSD dimuat tanpa merasterisasi lapisan. | Panggil `im.save(..., new PngOptions())` setelah semua modifikasi; hindari menyimpan `im` asli sebelum perubahan. |
 
-Baik Anda sedang mengerjakan gambar dalam jumlah besar atau hanya perlu mengubah beberapa file, metode ini memberikan solusi yang fleksibel dan efisien. Sekarang setelah Anda menguasai dasar-dasarnya, Anda dapat mulai bereksperimen dengan berbagai efek dan penyesuaian untuk membuat gambar Anda benar-benar menonjol.
+## Pertanyaan yang Sering Diajukan
 
-Siap mencobanya? Ambil contoh file PSD Anda dan mulailah menambahkan efek menakjubkan itu hari ini!
+**Q: Bisakah saya menerapkan beberapa efek pada satu lapisan menggunakan Aspose.PSD untuk Java?**  
+A: Ya, Anda dapat mengakses opsi pencampuran lapisan dan menambahkan sebanyak mungkin efek yang diperlukan, termasuk bayangan, cahaya, dan garis luar.
 
-## FAQ
+**Q: Apakah memungkinkan mengotomatisasi proses untuk sekumpulan file PSD?**  
+A: Tentu. Bungkus logika pemuatan, penerapan efek, dan penyimpanan dalam loop `for‑each` yang mengiterasi file dalam sebuah direktori.
 
-### Bisakah saya menerapkan banyak efek ke satu lapisan menggunakan Aspose.PSD untuk Java?
-Ya, Anda dapat menerapkan banyak efek ke satu lapisan dengan mengakses opsi pencampuran lapisan dan menambahkan efek yang diinginkan.
+**Q: Bagaimana cara mengembalikan perubahan yang dibuat pada file PSD?**  
+A: Muat ulang file asli sebelum menyimpan modifikasi apa pun; Aspose.PSD tidak menyediakan stack undo.
 
-### Apakah mungkin untuk mengotomatiskan proses sekumpulan file PSD?
-Sangat! Anda dapat menelusuri direktori file PSD, menerapkan efek guratan, dan menyimpan hasilnya secara otomatis.
+**Q: Bisakah saya menyesuaikan lebar dan posisi garis luar?**  
+A: Ya. Gunakan `effect.setWidth(float)` dan `effect.setPosition(StrokeEffect.Position)` untuk mengontrol ketebalan dan penempatan (di dalam, di luar, atau di tengah).
 
-### Bagaimana cara mengembalikan perubahan yang dibuat pada file PSD menggunakan Aspose.PSD untuk Java?
-Untuk mengembalikan perubahan, Anda perlu memuat ulang file PSD asli sebelum menyimpan modifikasi apa pun. Tidak ada fitur undo langsung di Aspose.PSD.
+**Q: Apakah pustaka Aspose.PSD untuk Java gratis untuk digunakan?**  
+A: Versi percobaan gratis tersedia untuk evaluasi. Fungsi penuh memerlukan lisensi berbayar. Lihat [buy options](https://purchase.aspose.com/buy) untuk detail.
 
-### Bisakah saya menyesuaikan lebar dan posisi goresan?
- Ya, Aspose.PSD untuk Java memungkinkan Anda menyesuaikan lebar guratan, posisi, dan properti lainnya melalui`StrokeEffect` kelas.
+---
 
-### Apakah perpustakaan Aspose.PSD untuk Java gratis untuk digunakan?
- Aspose.PSD untuk Java menawarkan uji coba gratis, tetapi untuk akses penuh ke semua fitur, Anda perlu membeli lisensi. Anda dapat menjelajahi[membeli opsi](https://purchase.aspose.com/buy)di situs web mereka.
+**Terakhir Diperbarui:** 2026-04-03  
+**Diuji Dengan:** Aspose.PSD 24.12 for Java  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

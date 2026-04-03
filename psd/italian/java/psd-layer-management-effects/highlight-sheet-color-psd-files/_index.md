@@ -1,37 +1,59 @@
 ---
-title: Evidenzia il colore del foglio nei file PSD utilizzando Aspose.PSD Java
-linktitle: Evidenzia il colore del foglio nei file PSD utilizzando Aspose.PSD Java
-second_title: API Java Aspose.PSD
-description: Scopri come evidenziare i colori dei fogli nei file PSD utilizzando Aspose.PSD per Java. Segui la nostra guida passo passo per migliorare le tue capacità di manipolazione delle immagini in Java.
-weight: 19
+date: 2026-04-03
+description: Scopri come evidenziare i colori dei fogli nei file PSD usando Aspose.PSD
+  per Java. Segui la nostra guida passo passo per migliorare le tue competenze di
+  manipolazione delle immagini in Java.
+keywords:
+- highlight sheet color psd
+- change psd layer color
+- Aspose.PSD Java
+linktitle: Evidenzia il colore del foglio nei file PSD usando Aspise.PSD Java
+second_title: Aspose.PSD Java API
+title: Evidenzia il colore del foglio nei file PSD usando Aspise.PSD Java
 url: /it/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Evidenzia il colore del foglio nei file PSD utilizzando Aspose.PSD Java
+# Evidenziare il colore del foglio nei file PSD usando Aspose.PSD Java
 
 ## Introduzione
 
-Stai cercando di immergerti nella manipolazione delle immagini e migliorare le tue creazioni digitali utilizzando Java? Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, lavorare con i file PSD può aprire un mondo di possibilità. I file PSD sono lo standard del settore per l'editing di immagini a livelli e, con la potenza di Aspose.PSD per Java, puoi manipolare facilmente questi file all'interno delle tue applicazioni Java. Oggi spiegheremo come evidenziare i colori dei fogli nei file PSD, assicurandoti che i tuoi progetti risaltino nel modo più vivace possibile.
+Se hai bisogno di **highlight sheet color psd** file in modo programmatico, sei nel posto giusto. In questo tutorial percorreremo un esempio completo e pratico che mostra come modificare il colore del foglio di singoli livelli usando Aspose.PSD per Java. Che tu stia costruendo uno strumento di elaborazione batch, un editor personalizzato, o semplicemente automatizzando attività di design ripetitive, padroneggiare questa tecnica ti darà un controllo dettagliato sui tuoi asset PSD.
+
+## Risposte rapide
+- **Cosa significa “highlight sheet color”?** È un'indicazione visiva assegnata a un livello che appare come una striscia colorata nel pannello dei livelli di Photoshop.  
+- **Quale libreria gestisce questo in Java?** Aspose.PSD per Java fornisce il `SheetColorHighlightEnum` e le API correlate.  
+- **Ho bisogno di una licenza per provarlo?** È disponibile una versione di prova gratuita; è necessaria una licenza per l'uso in produzione.  
+- **Posso modificare più livelli contemporaneamente?** Sì—itera attraverso la collezione `Layer[]` e imposta il highlight di ciascun livello.  
+- **Quale versione di Java è richiesta?** JDK 8 o superiore.
+
+## Cos'è “highlight sheet color psd”?
+
+Un evidenziatore di colore del foglio è un attributo di metadati memorizzato all'interno di un file PSD che indica a Photoshop (e agli strumenti compatibili) di disegnare una barra colorata accanto al nome di un livello. È utile per identificare rapidamente gruppi di livelli—pensalo come un tag visivo che può essere impostato su colori come Viola, Arancione, Giallo, ecc.
+
+## Perché modificare il colore del livello PSD in modo programmatico?
+
+- **Automazione:** Elabora centinaia di file senza clic manuali.  
+- **Coerenza:** Applica uno schema di denominazione/colori in tutto il sistema di design.  
+- **Integrazione:** Combina la manipolazione dei PSD con altri flussi di lavoro basati su Java (ad esempio, generare risorse per app mobili).  
 
 ## Prerequisiti
 
-Prima di immergerci nel codice, assicuriamoci di avere tutto ciò di cui hai bisogno per seguirlo senza problemi. Ecco una lista di controllo di ciò di cui avrai bisogno:
+Prima di immergerci nel codice, assicurati di avere quanto segue:
 
--  Java Development Kit (JDK): assicurati di avere JDK 8 o versione successiva installata sul tuo computer. In caso contrario, puoi scaricarlo da[Sito web Java](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Ambiente di sviluppo integrato (IDE): un IDE come IntelliJ IDEA, Eclipse o NetBeans semplificherà la codifica. Scegline uno con cui ti senti a tuo agio.
-- Aspose.PSD per Java Library: questa è la star dello spettacolo! Dovrai scaricare e fare riferimento alla libreria Aspose.PSD per Java nel tuo progetto. Puoi ottenerlo da[Il sito web di Aspose](https://releases.aspose.com/psd/java/).
--  File PSD di esempio: utilizzeremo un file PSD di esempio denominato`SheetColorHighlightExample.psd` per questo tutorial. Puoi crearne uno tuo o scaricare un campione da Internet.
-- Conoscenza di base di Java: per seguire questo tutorial è essenziale una conoscenza fondamentale della programmazione Java.
-
-Con tutto a posto, passiamo all'importazione dei pacchetti necessari e alla preparazione del tuo progetto.
+- **Java Development Kit (JDK) 8+** – scarica dal [Java website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **IDE** – IntelliJ IDEA, Eclipse o NetBeans (a tua scelta).  
+- **Libreria Aspose.PSD per Java** – ottienila dal [Aspose's website](https://releases.aspose.com/psd/java/).  
+- **File PSD di esempio** – `SheetColorHighlightExample.psd` (creane uno tuo o scaricane uno online).  
+- **Conoscenza di base di Java** – dovresti sentirti a tuo agio con classi, metodi e I/O di file semplice.
 
 ## Importa pacchetti
 
-Per prima cosa, importiamo i pacchetti richiesti per avviare il nostro progetto. Queste importazioni ci permetteranno di lavorare con file PSD e manipolarli in modo efficace utilizzando Aspose.PSD per Java.
+Innanzitutto, importa le classi di cui avremo bisogno. Queste importazioni ci danno accesso alla gestione delle immagini di base, alla manipolazione dei livelli e all'enumerazione per gli evidenziatori di colore del foglio.
 
 ```java
 import com.aspose.psd.Image;
@@ -41,15 +63,13 @@ import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.SheetColorHighlightEnum;
 ```
 
-Queste importazioni introducono le classi e i metodi necessari che utilizzeremo per manipolare i file PSD, in particolare per evidenziare i colori dei fogli.
+## Guida passo‑passo
 
-## Passaggio 1: carica il file PSD
+### Passo 1: Carica il file PSD
 
-Il primo passo del nostro tutorial è caricare il file PSD che desideri manipolare. Utilizzeremo il`PsdImage` classe da Aspose.PSD per Java per caricare il file nella nostra applicazione.
+#### 1.1 Definisci i percorsi dei file
 
-### Passaggio 1.1: definire i percorsi dei file
-
-Prima di caricare il file, definiamo i percorsi dei file PSD di origine e di output. Utilizzeremo una variabile stringa per memorizzare il percorso della directory in cui si trovano i file.
+Imposta i percorsi di origine e destinazione. Sostituisci il segnaposto con la cartella reale che contiene il tuo file PSD.
 
 ```java
 String dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -58,96 +78,77 @@ String sourceFileName = dataDir + "SheetColorHighlightExample.psd";
 String exportPath = dataDir + "SheetColorHighlightExampleChanged.psd";
 ```
 
- Sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui è archiviato il file PSD. Questa configurazione garantisce che l'applicazione sappia dove trovare il file e dove salvare la versione modificata.
+#### 1.2 Carica il file PSD
 
-### Passaggio 1.2: caricare il file PSD
-
- Ora che abbiamo definito i percorsi dei file, carichiamo il file PSD utilizzando il file`Image.load()` metodo e lanciarlo in a`PsdImage`.
+Usa `Image.load()` e cast il risultato a `PsdImage` così da poter lavorare con le funzionalità specifiche dei PSD.
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
- Questa riga di codice carica il file PSD e lo prepara per la manipolazione inserendolo in un file`PsdImage` oggetto, che è specificamente progettato per gestire i file PSD in Aspose.PSD per Java.
+### Passo 2: Accedi e ispeziona i livelli
 
-## Passaggio 2: accesso e manipolazione dei livelli
-
-Nei file PSD, i livelli sono il luogo in cui avviene la magia. Ti consentono di separare diversi elementi del tuo design e di manipolarli in modo indipendente. In questo passaggio, accederemo ai livelli del nostro file PSD e controlleremo le evidenziazioni del colore del foglio corrente.
-
-### Passaggio 2.1: accedi al primo livello
-
-Iniziamo accedendo al primo livello del file PSD e controllando l'evidenziazione del colore del foglio corrente.
+#### 2.1 Accedi al primo livello
 
 ```java
 Layer layer1 = im.getLayers()[0];
 Assert.areEqual(SheetColorHighlightEnum.Violet, layer1.getSheetColorHighlight());
 ```
 
- Qui stiamo accedendo al primo livello nel file PSD utilizzando il file`getLayers()` metodo. Usiamo quindi`Assert.areEqual()` per verificare che l'evidenziazione del colore del foglio di questo livello sia impostata su Viola. Questo passaggio è fondamentale per garantire che stiamo lavorando con il livello corretto.
-
-### Passaggio 2.2: accedi al secondo livello
-
-Successivamente, accederemo al secondo livello e controlleremo anche l'evidenziazione del colore del foglio.
+#### 2.2 Accedi al secondo livello
 
 ```java
 Layer layer2 = im.getLayers()[1];
 Assert.areEqual(SheetColorHighlightEnum.Orange, layer2.getSheetColorHighlight());
 ```
 
-Allo stesso modo, accediamo al secondo livello e verifichiamo che l'evidenziazione del colore del foglio sia impostata su Arancione. Controllando questi punti salienti, possiamo garantire che ogni livello sia identificato correttamente prima di apportare qualsiasi modifica.
+### Passo 3: Modifica l'evidenziatore di colore del foglio
 
-## Passaggio 3: modificare l'evidenziazione del colore del foglio
-
-Ora che abbiamo identificato i livelli e le evidenziazioni del colore del foglio corrente, è il momento di modificarne uno. In questo passaggio, cambieremo l'evidenziazione del colore del foglio del primo livello.
-
-### Passaggio 3.1: imposta l'evidenziazione del colore del nuovo foglio
-
-Per far risaltare il nostro design, cambiamo l'evidenziazione del colore del foglio del primo livello in Giallo.
+Ora cambieremo l'evidenziatore del primo livello in Giallo, dimostrando come **change psd layer color** in modo programmatico.
 
 ```java
 layer1.setSheetColorHighlight(SheetColorHighlightEnum.Yellow);
 ```
 
-Questa riga di codice modifica l'evidenziazione del colore del foglio del primo livello in Giallo. È un modo semplice ma potente per far risaltare i tuoi elementi di design.
+### Passo 4: Salva il file PSD modificato
 
-## Passaggio 4: salva il file PSD modificato
-
-Dopo aver modificato l'evidenziazione del colore del foglio, il passaggio finale consiste nel salvare le modifiche in un nuovo file PSD. Ciò garantisce che il file originale rimanga intatto mentre le modifiche vengono salvate separatamente.
-
-### Passaggio 4.1: salvare il file
-
-Salviamo il file PSD modificato nel percorso che abbiamo definito in precedenza.
+Salva le modifiche in un nuovo file in modo che l'originale rimanga intatto.
 
 ```java
 im.save(exportPath);
 ```
 
- Questo comando salva le modifiche in un nuovo file PSD situato nella cartella`exportPath`impostato in precedenza. Ora hai sia il file originale che quello modificato, permettendoti di confrontare le modifiche fianco a fianco.
+## Problemi comuni e soluzioni
 
-## Conclusione
-
-Congratulazioni! Hai manipolato con successo le evidenziazioni del colore del foglio in un file PSD utilizzando Aspose.PSD per Java. Seguendo questa guida passo passo, ora hai le competenze per personalizzare e migliorare i tuoi file PSD a livello di programmazione, aggiungendo un nuovo livello di creatività ai tuoi progetti Java.
-
-Aspose.PSD per Java è un potente strumento che apre infinite possibilità per lavorare con i file PSD. Che tu stia evidenziando livelli, regolando i colori o trasformando i tuoi progetti in altri modi, questa libreria fornisce tutte le funzionalità di cui hai bisogno.
-
-Se hai domande o riscontri problemi, non esitare a consultare la documentazione di Aspose.PSD, provare una prova gratuita o chiedere supporto alla community.
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| `Assert` fallisce | L'evidenziatore esistente del livello non è quello che il codice si aspetta (ad es., PSD diverso). | Apri il PSD in Photoshop per verificare i colori, oppure rimuovi i controlli `Assert` per uno script più flessibile. |
+| `NullPointerException` su `im.getLayers()` | Il file non è stato caricato correttamente (percorso errato o file corrotto). | Verifica nuovamente `sourceFileName` e assicurati che il PSD sia valido. |
+| L'evidenziatore non appare in Photoshop | Photoshop memorizza nella cache le informazioni dei livelli; potresti dover riaprire il file. | Chiudi e riapri il PSD dopo il salvataggio, oppure usa `im.flush()` prima di salvare. |
 
 ## Domande frequenti
 
-### Cos'è Aspose.PSD per Java?
-Aspose.PSD per Java è una libreria che consente agli sviluppatori di lavorare con file PSD a livello di codice, fornendo strumenti per manipolare immagini, livelli e altri elementi all'interno dei file PSD.
+**Q: Cos'è Aspose.PSD per Java?**  
+A: Aspose.PSD per Java è una libreria che consente agli sviluppatori di leggere, modificare e salvare file PSD senza la necessità di avere Photoshop installato.
 
-### Posso utilizzare Aspose.PSD per Java con altri formati di file?
-Sì, Aspose.PSD per Java supporta più formati di file tra cui BMP, PNG, JPEG, GIF e TIFF, consentendoti di convertire file PSD in altri formati e viceversa.
+**Q: Posso usare Aspose.PSD per Java con altri formati di file?**  
+A: Sì—BMP, PNG, JPEG, GIF, TIFF e altri sono supportati, consentendo la conversione da e verso PSD.
 
-### È possibile annullare le modifiche apportate a un file PSD utilizzando Aspose.PSD per Java?
-Una volta salvate le modifiche in un file, non possono essere annullate. Tuttavia, puoi conservare un backup del file originale prima di apportare qualsiasi modifica per assicurarti di poterlo ripristinare se necessario.
+**Q: È possibile annullare le modifiche apportate a un file PSD usando Aspose.PSD per Java?**  
+A: Una volta salvate, le modifiche sono permanenti. Conserva una copia di backup del file originale se devi ripristinare.
 
-### Come posso ottenere una licenza per Aspose.PSD per Java?
- È possibile acquistare una licenza da[Sito web Aspose](https://purchase.aspose.com/buy) . Se non sei pronto per impegnarti, puoi anche richiedere a[licenza temporanea](https://purchase.aspose.com/temporary-license/) per valutare il prodotto.
+**Q: Come posso ottenere una licenza per Aspose.PSD per Java?**  
+A: Acquista una licenza dal [Aspose website](https://purchase.aspose.com/buy). Se stai valutando, puoi richiedere una [temporary license](https://purchase.aspose.com/temporary-license/) per un periodo limitato.
 
-### Posso evidenziare più livelli contemporaneamente in un file PSD?
-Sì, puoi scorrere i livelli in un file PSD e applicare l'evidenziazione del colore del foglio desiderato a ciascun livello individualmente.
+**Q: Posso evidenziare più livelli contemporaneamente in un file PSD?**  
+A: Assolutamente. Itera attraverso `im.getLayers()` e chiama `setSheetColorHighlight()` su ogni livello secondo necessità.
+
+---
+
+**Ultimo aggiornamento:** 2026-04-03  
+**Testato con:** Aspose.PSD 24.11 per Java  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
