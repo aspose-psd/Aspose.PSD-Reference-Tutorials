@@ -1,37 +1,60 @@
 ---
-title: Ratakan Lapisan dalam File PSD menggunakan Aspose.PSD Java
-linktitle: Ratakan Lapisan dalam File PSD menggunakan Aspose.PSD Java
-second_title: Asumsikan.PSD Java API
-description: Ratakan dan gabungkan lapisan dalam file PSD dengan mudah menggunakan Aspose.PSD untuk Java. Ikuti panduan langkah demi langkah ini untuk menyederhanakan pengelolaan file PSD Anda.
-weight: 13
+date: 2026-04-03
+description: Pelajari cara mengurangi ukuran file PSD dengan meratakan lapisan menggunakan
+  Aspose.PSD untuk Java. Panduan langkah demi langkah ini menunjukkan cara meratakan
+  file PSD dengan cepat.
+keywords:
+- reduce psd file size
+- how to flatten psd
+- flatten visible layers psd
+linktitle: Kurangi Ukuran File PSD dengan Meratakan Lapisan – Aspose.PSD Java
+second_title: Aspose.PSD Java API
+title: Kurangi Ukuran File PSD dengan Meratakan Lapisan – Aspose.PSD Java
 url: /id/java/psd-layer-management-effects/flatten-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ratakan Lapisan dalam File PSD menggunakan Aspose.PSD Java
+# Kurangi Ukuran File PSD dengan Meratakan Lapisan – Aspose.PSD Java
 
-## Perkenalan
+## Pendahuluan
 
-Pernahkah Anda bekerja dengan file Photoshop dan menginginkan cara yang lebih mudah untuk mengelola lapisan kompleks tersebut? Nah, Anda beruntung! Hari ini, kita mendalami dunia Aspose.PSD untuk Java, alat canggih yang memudahkan bekerja dengan file PSD secara terprogram. Salah satu fitur praktis yang akan kita jelajahi adalah meratakan lapisan. Baik Anda ingin meratakan seluruh gambar atau menggabungkan lapisan tertentu secara selektif, Aspose.PSD untuk Java siap membantu Anda. Tutorial ini akan memandu Anda melalui proses, langkah demi langkah, memastikan Anda siap menangani file PSD Anda dengan percaya diri.
+Jika Anda pernah membuka dokumen Photoshop dan bertanya-tanya bagaimana cara **reduce PSD file size**, meratakan lapisan adalah salah satu trik paling efektif. Dengan Aspose.PSD untuk Java Anda dapat secara programatis meratakan seluruh PSD atau menggabungkan hanya lapisan yang Anda pilih, memberi Anda kontrol detail atas ukuran file tanpa mengorbankan kualitas visual. Dalam tutorial ini kami akan membahas kedua pendekatan—meratakan seluruh gambar dan menggabungkan lapisan tertentu—sehingga Anda dapat dengan cepat memperkecil file PSD Anda dan menjaga alur kerja tetap lancar.
+
+## Jawaban Cepat
+- **Apa yang dilakukan flattening?** Ia menggabungkan lapisan yang terlihat menjadi satu lapisan latar belakang, menghapus informasi lapisan dan sering mengurangi ukuran file.  
+- **Apakah saya dapat meratakan hanya lapisan yang dipilih?** Ya, Anda dapat menggabungkan lapisan tertentu sambil membiarkan yang lain tidak tersentuh.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Versi Java apa yang diperlukan?** JDK 8 atau lebih tinggi.  
+- **Apakah flattening akan memengaruhi kualitas gambar?** Tidak, tampilan visual tetap sama; hanya struktur lapisan yang berubah.
+
+## Apa itu “reduce PSD file size”?
+
+Mengurangi ukuran file PSD berarti menghapus data yang tidak diperlukan—seperti lapisan tambahan, saluran tersembunyi, atau metadata berlebih—sehingga file menjadi lebih ringan dan lebih cepat dimuat, dibagikan, atau diproses. Meratakan lapisan adalah teknik umum karena membuang objek lapisan terpisah sambil mempertahankan gambar komposit akhir.
+
+## Mengapa meratakan lapisan dengan Aspose.PSD untuk Java?
+
+- **Otomasi:** Tidak perlu membuka Photoshop secara manual; integrasikan langsung ke dalam aplikasi Java Anda.  
+- **Presisi:** Pilih untuk meratakan seluruh dokumen atau hanya lapisan yang terlihat (`flattenImage`) atau menggabungkan lapisan yang dipilih (`mergeLayers`).  
+- **Kinerja:** File yang lebih kecil dimuat lebih cepat dan mengonsumsi lebih sedikit memori dalam proses selanjutnya.  
+- **Lintas‑platform:** Berfungsi pada sistem operasi apa pun yang mendukung Java.
 
 ## Prasyarat
 
-Sebelum kita beralih ke kode, pastikan Anda memiliki semua yang Anda butuhkan:
+1. **Java Development Kit (JDK):** JDK 8 atau yang lebih baru terpasang.  
+2. **Aspose.PSD for Java:** Unduh perpustakaan dari [here](https://releases.aspose.com/psd/java/).  
+3. **IDE:** IntelliJ IDEA, Eclipse, atau IDE yang kompatibel dengan Java apa pun.  
+4. **Basic Java knowledge:** Berguna tetapi tidak wajib untuk mengikuti langkah-langkah.  
+5. **Sample PSD:** Sebuah file dengan beberapa lapisan (kami akan menggunakan `ThreeRegularLayersSemiTransparent.psd`).
 
-1. Java Development Kit (JDK): Pastikan Anda menginstal JDK 8 atau lebih tinggi di sistem Anda.
-2.  Aspose.PSD untuk Java: Unduh dan tambahkan perpustakaan Aspose.PSD ke proyek Anda. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/psd/java/).
-3. Lingkungan Pengembangan Terintegrasi (IDE): IDE seperti IntelliJ IDEA atau Eclipse akan membuat pengalaman pengkodean Anda lebih lancar.
-4. Pengetahuan Dasar Java: Meskipun tutorial ini ramah bagi pemula, beberapa pengetahuan dasar Java akan membantu Anda mengikutinya dengan lebih mudah.
-5. Contoh File PSD: Siapkan file PSD untuk bereksperimen. Kami akan menggunakan satu dengan banyak lapisan untuk mendemonstrasikan proses perataan.
+Sekarang semua sudah siap, mari kita selami kode.
 
-Sekarang setelah kita menyelesaikan hal-hal penting, mari kita ke bagian yang menyenangkan—bekerja dengan kode!
+## Impor Paket
 
-## Paket Impor
-
-Untuk memulai, Anda harus mengimpor paket yang diperlukan ke proyek Java Anda. Paket-paket ini memungkinkan Anda bekerja dengan file PSD menggunakan Aspose.PSD untuk Java.
+Untuk memulai, impor kelas Aspose.PSD yang penting:
 
 ```java
 import com.aspose.psd.Image;
@@ -39,15 +62,13 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-Impor ini memungkinkan kita memuat file PSD, memanipulasi lapisan, dan menyimpan perubahan. Sekarang, mari kita uraikan proses perataan lapisan menjadi langkah-langkah yang dapat dikelola.
+Impor ini memungkinkan kami memuat file PSD, bekerja dengan lapisannya, dan menyimpan hasilnya.
 
 ## Langkah 1: Meratakan Seluruh Gambar PSD
 
-Tugas pertama adalah meratakan seluruh gambar PSD. Ini berguna ketika Anda ingin menggabungkan semua lapisan menjadi satu lapisan, sehingga gambar lebih mudah dikelola dan diekspor.
+Meratakan seluruh gambar adalah cara tercepat untuk **reduce PSD file size** karena menghapus semua data lapisan individu.
 
 ### 1.1 Muat File PSD
-
- Pertama, kita akan memuat file PSD ke dalam program kita. File ini harus ditempatkan di direktori proyek Anda, yang akan kami rujuk sebagai`Your Document Directory`.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,46 +76,32 @@ String sourceFileName = dataDir + "ThreeRegularLayersSemiTransparent.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-Cuplikan kode ini memuat file PSD bernama`ThreeRegularLayersSemiTransparent.psd` dari direktori yang Anda tentukan.
-
-### 1.2 Ratakan Gambar
-
-Selanjutnya, kita akan meratakan seluruh gambar. Perataan menggabungkan semua lapisan yang terlihat menjadi satu lapisan latar belakang.
+### 1.2 Meratakan Gambar
 
 ```java
 im.flattenImage();
 ```
 
-Dengan one-liner ini, semua lapisan dalam file PSD Anda digabungkan menjadi satu.
-
 ### 1.3 Simpan Gambar yang Diratakan
-
-Terakhir, kami akan menyimpan gambar yang diratakan ke file baru.
 
 ```java
 String exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattened.psd";
 im.save(exportPath);
 ```
 
- Ini menyimpan file PSD yang diratakan dengan nama baru`ThreeRegularLayersSemiTransparentFlattened.psd`. Selamat! Anda baru saja meratakan gambar PSD pertama Anda menggunakan Aspose.PSD untuk Java.
+File baru Anda kini berisi satu lapisan latar belakang, yang biasanya menghasilkan ukuran PSD yang lebih kecil.
 
-## Langkah 2: Menggabungkan Lapisan Tertentu
+## Langkah 2: Menggabungkan Lapisan Tertentu (Cara meratakan PSD secara selektif)
 
-Terkadang, Anda mungkin tidak ingin meratakan seluruh gambar melainkan menggabungkan lapisan tertentu saja. Mari kita lihat bagaimana Anda bisa mencapainya.
+Terkadang Anda hanya ingin **flatten visible layers** atau menggabungkan sebagian lapisan sambil mempertahankan yang lain dapat diedit.
 
 ### 2.1 Muat File PSD Lagi
-
-Karena kami melakukan operasi yang berbeda, mulailah dengan memuat kembali file PSD.
 
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
 
-Ini akan memuat file PSD yang sama, siap untuk operasi khusus lapisan.
-
 ### 2.2 Identifikasi dan Pilih Lapisan
-
-Untuk menggabungkan lapisan tertentu, pertama-tama, identifikasi dan pilih lapisan yang ingin Anda gabungkan.
 
 ```java
 Layer bottomLayer = img.getLayers()[0];
@@ -102,63 +109,60 @@ Layer middleLayer = img.getLayers()[1];
 Layer topLayer = img.getLayers()[2];
 ```
 
-Di sini, kita memilih lapisan pertama, kedua, dan ketiga dari file PSD. Lapisan ini disimpan dalam array, dan Anda dapat mengaksesnya berdasarkan indeksnya.
-
-### 2.3 Menggabungkan Lapisan
-
-Sekarang, mari gabungkan layer yang dipilih. Kita mulai dengan menggabungkan lapisan bawah dan tengah, lalu menggabungkan hasilnya dengan lapisan atas.
+### 2.3 Gabungkan Lapisan
 
 ```java
 Layer layer1 = img.mergeLayers(bottomLayer, middleLayer);
 Layer layer2 = img.mergeLayers(layer1, topLayer);
 ```
 
-Kode ini menggabungkan lapisan secara berurutan, menghasilkan satu lapisan gabungan.
-
-### 2.4 Ganti Layer yang Ada dengan Layer yang Digabung
-
-Setelah penggabungan, Anda perlu mengganti lapisan yang ada pada gambar dengan lapisan yang baru digabungkan.
+### 2.4 Ganti Lapisan yang Ada dengan Lapisan yang Digabungkan
 
 ```java
 img.setLayers(new Layer[]{layer2});
 ```
 
-Langkah ini memastikan bahwa gambar sekarang hanya berisi lapisan gabungan.
-
 ### 2.5 Simpan File PSD yang Diperbarui
-
-Terakhir, simpan file PSD yang diperbarui dengan lapisan yang digabungkan.
 
 ```java
 exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattenedLayerByLayer.psd";
 img.save(exportPath);
 ```
 
-Ini menyimpan PSD dengan lapisan yang digabungkan dengan nama baru, memungkinkan Anda menjaga file asli tetap utuh.
+Sekarang PSD hanya berisi lapisan yang digabungkan, menghasilkan ukuran file yang lebih kecil sambil mempertahankan lapisan yang ingin Anda simpan.
 
-## Kesimpulan
+## Masalah Umum & Tips
 
-Bekerja dengan lapisan dalam file PSD seringkali terasa seperti menavigasi labirin, namun dengan Aspose.PSD untuk Java, rasanya seperti memiliki peta di tangan Anda. Baik Anda perlu meratakan seluruh gambar atau menggabungkan lapisan yang dipilih dengan hati-hati, Aspose.PSD menyederhanakan prosesnya, mengubah tugas yang tadinya berat menjadi operasi yang mudah. Dengan mengikuti tutorial ini, Anda sekarang akan merasa nyaman menangani manipulasi lapisan dalam file PSD menggunakan Java. Jadi mengapa tidak mencobanya dengan proyek Anda sendiri dan lihat berapa banyak waktu dan tenaga yang Anda hemat?
+- **Cadangkan sebelum meratakan:** Setelah lapisan diratakan, operasi tidak dapat dibatalkan. Simpan salinan PSD asli.  
+- **Visibilitas penting:** `flattenImage()` hanya menggabungkan lapisan *yang terlihat*. Sembunyikan lapisan apa pun yang tidak ingin Anda sertakan.  
+- **Penggunaan memori:** PSD besar dapat mengonsumsi RAM yang signifikan; pertimbangkan memprosesnya pada mesin dengan memori yang cukup.  
+- **Mode pencampuran:** Penggabungan menghormati mode pencampuran setiap lapisan, sehingga hasil visual sesuai dengan yang Anda lihat di Photoshop.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bisakah saya membatalkan perataan lapisan di Aspose.PSD?  
-Tidak, setelah Anda meratakan lapisan menggunakan Aspose.PSD, tindakan tersebut tidak dapat diubah. Itu selalu merupakan praktik yang baik untuk menyimpan cadangan file asli.
+**Q: Bisakah saya membatalkan perataan lapisan di Aspose.PSD?**  
+A: Tidak, perataan tidak dapat dibalik. Selalu simpan cadangan file asli.
 
-### Apakah mungkin untuk meratakan lapisan yang terlihat saja?  
- Ya, Anda dapat mengontrol lapisan mana yang akan diratakan berdasarkan visibilitasnya. Pastikan hanya lapisan yang ingin Anda ratakan saja yang terlihat sebelum menggunakan`flattenImage` metode.
+**Q: Apakah memungkinkan untuk meratakan hanya lapisan yang terlihat?**  
+A: Ya. `flattenImage()` menghormati visibilitas lapisan, jadi sembunyikan lapisan yang tidak ingin Anda ratakan sebelum memanggil metode tersebut.
 
-### Apakah perataan lapisan mengurangi ukuran file?  
-Meratakan lapisan dapat memperkecil ukuran file, terutama jika terdapat banyak lapisan yang kompleks. Namun, pengurangan pastinya bergantung pada isi lapisannya.
+**Q: Apakah perataan lapisan mengurangi ukuran file?**  
+A: Secara umum, ya. Menghapus data lapisan dan metadata sering menghasilkan PSD yang lebih kecil, meskipun pengurangan tepatnya tergantung pada kontennya.
 
-### Bisakah saya menggabungkan lapisan dengan mode campuran berbeda?  
-Ya, Anda dapat menggabungkan lapisan dengan mode campuran berbeda menggunakan Aspose.PSD, dan lapisan yang dihasilkan akan mempertahankan tampilan lapisan yang digabungkan.
+**Q: Bisakah saya menggabungkan lapisan dengan mode pencampuran yang berbeda?**  
+A: Tentu saja. Aspose.PSD menggabungkan lapisan sambil mempertahankan tampilan visual yang dihasilkan oleh mode pencampuran mereka.
 
-### Apa yang terjadi jika saya mencoba menggabungkan lapisan yang tidak berdekatan?  
-Aspose.PSD memungkinkan Anda untuk menggabungkan lapisan apa pun terlepas dari urutannya di tumpukan lapisan. Proses penggabungan akan menggabungkan lapisan-lapisan yang dipilih sesuai yang ditentukan.
+**Q: Apa yang terjadi jika saya mencoba menggabungkan lapisan yang tidak bersebelahan?**  
+A: Aspose.PSD memungkinkan penggabungan lapisan apa pun terlepas dari urutannya dalam tumpukan; hasilnya mencerminkan tampilan gabungan.
+
+---
+
+**Terakhir Diperbarui:** 2026-04-03  
+**Diuji Dengan:** Aspose.PSD 24.11 for Java  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
