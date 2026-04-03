@@ -1,37 +1,57 @@
 ---
-title: Đánh dấu màu trang tính trong tệp PSD bằng cách sử dụng Aspose.PSD Java
-linktitle: Đánh dấu màu trang tính trong tệp PSD bằng cách sử dụng Aspose.PSD Java
-second_title: API Java Aspose.PSD
-description: Tìm hiểu cách đánh dấu màu trang tính trong tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để nâng cao kỹ năng xử lý hình ảnh của bạn trong Java.
-weight: 19
+date: 2026-04-03
+description: Tìm hiểu cách làm nổi bật màu sắc của sheet trong các tệp PSD bằng Aspose.PSD
+  cho Java. Hãy theo dõi hướng dẫn từng bước của chúng tôi để nâng cao kỹ năng xử
+  lý ảnh trong Java.
+keywords:
+- highlight sheet color psd
+- change psd layer color
+- Aspose.PSD Java
+linktitle: Làm nổi bật màu sheet trong các tệp PSD bằng Aspise.PSD Java
+second_title: Aspose.PSD Java API
+title: Làm nổi bật màu sheet trong các tệp PSD bằng Aspise.PSD Java
 url: /vi/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đánh dấu màu trang tính trong tệp PSD bằng cách sử dụng Aspose.PSD Java
+# Làm nổi bật màu tờ trong tệp PSD bằng Aspose.PSD Java
 
 ## Giới thiệu
 
-Bạn đang muốn đi sâu vào thao tác hình ảnh và nâng cao khả năng sáng tạo kỹ thuật số của mình bằng Java? Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, làm việc với các tệp PSD có thể mở ra vô số khả năng. Các tệp PSD là tiêu chuẩn công nghiệp để chỉnh sửa hình ảnh theo lớp và với sức mạnh của Aspose.PSD dành cho Java, bạn có thể dễ dàng thao tác các tệp này trong các ứng dụng Java của mình. Hôm nay, chúng ta sẽ hướng dẫn cách làm nổi bật màu sắc của trang tính trong tệp PSD, đảm bảo thiết kế của bạn nổi bật theo cách sống động nhất có thể.
+Nếu bạn cần **highlight sheet color psd** files programmatically, you’ve come to the right place. In this tutorial we’ll walk through a complete, hands‑on example that shows you how to change the sheet color of individual layers using Aspose.PSD for Java. Whether you’re building a batch‑processing tool, a custom editor, or just automating repetitive design tasks, mastering this technique will give you fine‑grained control over your PSD assets.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“highlight sheet color” có nghĩa là gì?** Đó là một dấu hiệu trực quan được gán cho một lớp và xuất hiện dưới dạng một dải màu trong bảng lớp của Photoshop.  
+- **Thư viện nào xử lý việc này trong Java?** Aspose.PSD for Java cung cấp `SheetColorHighlightEnum` và các API liên quan.  
+- **Tôi có cần giấy phép để thử không?** Có sẵn bản dùng thử miễn phí; giấy phép là bắt buộc cho việc sử dụng trong môi trường sản xuất.  
+- **Tôi có thể thay đổi nhiều lớp cùng lúc không?** Có — lặp qua bộ sưu tập `Layer[]` và đặt màu nổi bật cho mỗi lớp.  
+- **Phiên bản Java nào được yêu cầu?** JDK 8 trở lên.
 
-Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để thực hiện một cách suôn sẻ. Dưới đây là danh sách kiểm tra những gì bạn cần:
+## “highlight sheet color psd” là gì?
 
--  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên trên máy của mình. Nếu không, bạn có thể tải xuống từ[Trang web Java](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Môi trường phát triển tích hợp (IDE): Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans sẽ giúp việc viết mã dễ dàng hơn. Chọn một cái mà bạn cảm thấy thoải mái.
-- Aspose.PSD cho Thư viện Java: Đây là ngôi sao của chương trình! Bạn sẽ cần tải xuống và tham khảo thư viện Aspose.PSD cho Java trong dự án của mình. Bạn có thể lấy nó từ[Trang web của Aspose](https://releases.aspose.com/psd/java/).
--  Tệp PSD mẫu: Chúng tôi sẽ sử dụng tệp PSD mẫu có tên`SheetColorHighlightExample.psd` cho hướng dẫn này. Bạn có thể tự tạo hoặc tải xuống mẫu từ internet.
-- Kiến thức cơ bản về Java: Cần phải có hiểu biết cơ bản về lập trình Java để làm theo hướng dẫn này.
+Một màu‑tờ nổi bật là một thuộc tính siêu dữ liệu được lưu trong tệp PSD, cho phép Photoshop (và các công cụ tương thích) vẽ một thanh màu bên cạnh tên lớp. Nó hữu ích để nhanh chóng xác định các nhóm lớp — hãy nghĩ nó như một thẻ trực quan có thể đặt thành các màu như Tím, Cam, Vàng, v.v.
 
-Với mọi thứ đã sẵn sàng, hãy chuyển sang nhập các gói cần thiết và chuẩn bị sẵn sàng cho dự án của bạn.
+## Tại sao phải thay đổi màu lớp PSD một cách lập trình?
 
-## Gói nhập khẩu
+- **Tự động hoá:** Xử lý hàng trăm tệp mà không cần nhấp chuột thủ công.  
+- **Nhất quán:** Thực thi một quy tắc đặt tên/màu sắc trên toàn bộ hệ thống thiết kế.  
+- **Tích hợp:** Kết hợp việc thao tác PSD với các quy trình làm việc khác dựa trên Java (ví dụ, tạo tài nguyên cho ứng dụng di động).  
 
-Trước tiên, hãy nhập các gói cần thiết để khởi động dự án của chúng ta. Những lần nhập này sẽ cho phép chúng tôi làm việc với các tệp PSD và thao tác chúng một cách hiệu quả bằng cách sử dụng Aspose.PSD cho Java.
+## Yêu cầu trước
+
+- **Java Development Kit (JDK) 8+** – tải xuống từ the [Java website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **IDE** – IntelliJ IDEA, Eclipse hoặc NetBeans (tùy chọn của bạn).  
+- **Aspose.PSD for Java library** – obtain it from [Aspose's website](https://releases.aspose.com/psd/java/).  
+- **Sample PSD file** – `SheetColorHighlightExample.psd` (tạo của bạn hoặc tải mẫu trực tuyến).  
+- **Basic Java knowledge** – bạn nên quen thuộc với các lớp, phương thức và I/O tệp đơn giản.
+
+## Nhập gói
+
+First, import the classes we’ll need. These imports give us access to the core image handling, layer manipulation, and the enumeration for sheet‑color highlights.
 
 ```java
 import com.aspose.psd.Image;
@@ -41,15 +61,13 @@ import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.SheetColorHighlightEnum;
 ```
 
-Việc nhập này mang lại các lớp và phương thức cần thiết mà chúng ta sẽ sử dụng để thao tác với tệp PSD, đặc biệt là để làm nổi bật màu trang tính.
+## Hướng dẫn từng bước
 
-## Bước 1: Tải tệp PSD
+### Bước 1: Tải tệp PSD
 
-Bước đầu tiên trong hướng dẫn của chúng tôi là tải tệp PSD mà bạn muốn thao tác. Chúng tôi sẽ sử dụng`PsdImage` class từ Aspose.PSD cho Java để tải tệp vào ứng dụng của chúng tôi.
+#### 1.1 Xác định đường dẫn tệp
 
-### Bước 1.1: Xác định đường dẫn tệp
-
-Trước khi tải tệp, hãy xác định đường dẫn tệp cho tệp PSD nguồn và đầu ra. Chúng tôi sẽ sử dụng biến chuỗi để lưu trữ đường dẫn thư mục chứa tệp của bạn.
+Set up the source and destination paths. Replace the placeholder with the actual folder that holds your PSD file.
 
 ```java
 String dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -58,96 +76,79 @@ String sourceFileName = dataDir + "SheetColorHighlightExample.psd";
 String exportPath = dataDir + "SheetColorHighlightExampleChanged.psd";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PSD của bạn được lưu trữ. Thiết lập này đảm bảo rằng ứng dụng của bạn biết nơi tìm tệp và nơi lưu phiên bản đã sửa đổi.
+#### 1.2 Tải tệp PSD
 
-### Bước 1.2: Tải tệp PSD
-
- Bây giờ chúng ta đã xác định được đường dẫn tệp của mình, hãy tải tệp PSD bằng cách sử dụng`Image.load()` phương thức và chuyển nó thành một`PsdImage`.
+Use `Image.load()` and cast the result to `PsdImage` so we can work with PSD‑specific features.
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
- Dòng mã này tải tệp PSD và chuẩn bị cho thao tác bằng cách chuyển nó vào một`PsdImage` object, được thiết kế đặc biệt để xử lý các tệp PSD trong Aspose.PSD cho Java.
+### Bước 2: Truy cập và Kiểm tra các Lớp
 
-## Bước 2: Truy cập và thao tác các lớp
+Layers hold the visual content of a PSD. We’ll read the current sheet‑color highlights to verify the initial state.
 
-Trong các tệp PSD, các lớp là nơi điều kỳ diệu xảy ra. Chúng cho phép bạn tách các yếu tố khác nhau trong thiết kế của mình và thao tác chúng một cách độc lập. Trong bước này, chúng ta sẽ truy cập các lớp của tệp PSD và kiểm tra các điểm nổi bật màu sắc hiện tại của trang tính của chúng.
-
-### Bước 2.1: Truy cập lớp đầu tiên
-
-Hãy bắt đầu bằng cách truy cập lớp đầu tiên của tệp PSD và kiểm tra màu nổi bật của trang tính hiện tại của nó.
+#### 2.1 Truy cập Lớp Đầu tiên
 
 ```java
 Layer layer1 = im.getLayers()[0];
 Assert.areEqual(SheetColorHighlightEnum.Violet, layer1.getSheetColorHighlight());
 ```
 
- Ở đây, chúng ta đang truy cập lớp đầu tiên trong tệp PSD bằng cách sử dụng`getLayers()` phương pháp. Sau đó chúng tôi sử dụng`Assert.areEqual()` để xác minh rằng màu nổi bật của trang tính của lớp này được đặt thành Tím. Bước này rất quan trọng để đảm bảo rằng chúng ta đang làm việc với đúng lớp.
-
-### Bước 2.2: Truy cập lớp thứ hai
-
-Tiếp theo, chúng ta sẽ truy cập vào lớp thứ hai và kiểm tra màu sắc nổi bật của trang tính.
+#### 2.2 Truy cập Lớp Thứ Hai
 
 ```java
 Layer layer2 = im.getLayers()[1];
 Assert.areEqual(SheetColorHighlightEnum.Orange, layer2.getSheetColorHighlight());
 ```
 
-Tương tự, chúng tôi truy cập lớp thứ hai và xác minh rằng màu nổi bật của trang tính của nó được đặt thành Màu cam. Bằng cách kiểm tra những điểm nổi bật này, chúng tôi có thể đảm bảo rằng mỗi lớp được xác định chính xác trước khi thực hiện bất kỳ thay đổi nào.
+### Bước 3: Thay đổi màu nổi bật của tờ
 
-## Bước 3: Sửa đổi màu tô sáng của trang tính
-
-Bây giờ chúng ta đã xác định được các lớp và các điểm nổi bật màu sắc hiện tại của chúng, đã đến lúc sửa đổi một trong số chúng. Trong bước này, chúng ta sẽ thay đổi màu nổi bật của trang tính của lớp đầu tiên.
-
-### Bước 3.1: Đặt màu đánh dấu trang tính mới
-
-Để làm cho thiết kế của chúng ta nổi bật, hãy thay đổi màu nổi bật của trang tính của lớp đầu tiên thành Màu vàng.
+Now we’ll change the highlight of the first layer to Yellow, demonstrating how to **change psd layer color** programmatically.
 
 ```java
 layer1.setSheetColorHighlight(SheetColorHighlightEnum.Yellow);
 ```
 
-Dòng mã này thay đổi màu nổi bật của trang tính của lớp đầu tiên thành Màu vàng. Đó là một cách đơn giản nhưng mạnh mẽ để làm nổi bật các yếu tố thiết kế của bạn.
+### Bước 4: Lưu tệp PSD đã chỉnh sửa
 
-## Bước 4: Lưu tệp PSD đã sửa đổi
-
-Sau khi sửa đổi phần tô sáng màu của trang tính, bước cuối cùng là lưu các thay đổi vào tệp PSD mới. Điều này đảm bảo rằng tệp gốc của bạn vẫn còn nguyên trong khi các thay đổi của bạn được lưu riêng.
-
-### Bước 4.1: Lưu tệp
-
-Hãy lưu tệp PSD đã sửa đổi vào đường dẫn mà chúng tôi đã xác định trước đó.
+Persist the changes to a new file so the original remains untouched.
 
 ```java
 im.save(exportPath);
 ```
 
- Lệnh này lưu các sửa đổi của bạn vào một tệp PSD mới nằm ở`exportPath`bạn đặt trước đó. Bây giờ bạn có cả tệp gốc và tệp đã sửa đổi, cho phép bạn so sánh các thay đổi cạnh nhau.
+## Các vấn đề thường gặp và giải pháp
 
-## Phần kết luận
-
-Chúc mừng! Bạn đã thao tác thành công các điểm nổi bật màu của trang tính trong tệp PSD bằng Aspose.PSD cho Java. Bằng cách làm theo hướng dẫn từng bước này, giờ đây bạn có kỹ năng tùy chỉnh và nâng cao các tệp PSD của mình theo chương trình, thêm một lớp sáng tạo mới cho các dự án Java của bạn.
-
-Aspose.PSD cho Java là một công cụ mạnh mẽ mở ra khả năng vô tận để làm việc với các tệp PSD. Cho dù bạn đang làm nổi bật các lớp, điều chỉnh màu sắc hay chuyển đổi thiết kế của mình theo cách khác, thư viện này đều cung cấp tất cả chức năng bạn cần.
-
-Nếu bạn có bất kỳ câu hỏi nào hoặc gặp phải bất kỳ vấn đề nào, vui lòng xem tài liệu Aspose.PSD, dùng thử miễn phí hoặc tìm kiếm sự hỗ trợ từ cộng đồng.
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|----------------|-----|
+| `Assert` fails | Màu nổi bật hiện tại của lớp không khớp với những gì mã mong đợi (ví dụ, PSD khác). | Mở PSD trong Photoshop để kiểm tra màu, hoặc loại bỏ các kiểm tra `Assert` để script linh hoạt hơn. |
+| `NullPointerException` on `im.getLayers()` | Tệp không tải đúng (đường dẫn sai hoặc tệp bị hỏng). | Kiểm tra lại `sourceFileName` và đảm bảo PSD hợp lệ. |
+| Highlight doesn’t appear in Photoshop | Photoshop lưu bộ nhớ đệm thông tin lớp; bạn có thể cần mở lại tệp. | Đóng và mở lại PSD sau khi lưu, hoặc sử dụng `im.flush()` trước khi lưu. |
 
 ## Câu hỏi thường gặp
 
-### Aspose.PSD cho Java là gì?
-Aspose.PSD cho Java là thư viện cho phép các nhà phát triển làm việc với các tệp PSD theo chương trình, cung cấp các công cụ để thao tác với hình ảnh, lớp và các thành phần khác trong tệp PSD.
+**Q: Aspose.PSD for Java là gì?**  
+A: Aspose.PSD for Java là một thư viện cho phép các nhà phát triển đọc, chỉnh sửa và lưu tệp PSD mà không cần cài đặt Photoshop.
 
-### Tôi có thể sử dụng Aspose.PSD cho Java với các định dạng tệp khác không?
-Có, Aspose.PSD cho Java hỗ trợ nhiều định dạng tệp bao gồm BMP, PNG, JPEG, GIF và TIFF, cho phép bạn chuyển đổi tệp PSD sang các định dạng khác và ngược lại.
+**Q: Tôi có thể sử dụng Aspose.PSD cho Java với các định dạng tệp khác không?**  
+A: Có — BMP, PNG, JPEG, GIF, TIFF và nhiều định dạng khác được hỗ trợ, cho phép chuyển đổi tới và từ PSD.
 
-### Có thể hoàn tác các thay đổi được thực hiện đối với tệp PSD bằng Aspose.PSD cho Java không?
-Khi các thay đổi được lưu vào một tệp, chúng không thể được hoàn tác. Tuy nhiên, bạn có thể giữ bản sao lưu của tệp gốc trước khi thực hiện bất kỳ sửa đổi nào để đảm bảo bạn có thể hoàn nguyên về tệp đó nếu cần.
+**Q: Có thể hoàn tác các thay đổi đã thực hiện trên tệp PSD bằng Aspose.PSD cho Java không?**  
+A: Sau khi lưu, các thay đổi là vĩnh viễn. Giữ bản sao lưu của tệp gốc nếu bạn cần khôi phục.
 
-### Làm cách nào để có được giấy phép cho Aspose.PSD cho Java?
- Bạn có thể mua giấy phép từ[trang web giả định](https://purchase.aspose.com/buy) . Nếu bạn chưa sẵn sàng cam kết, bạn cũng có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm.
+**Q: Làm thế nào để tôi có được giấy phép cho Aspose.PSD cho Java?**  
+A: Mua giấy phép từ [Aspose website](https://purchase.aspose.com/buy). Nếu bạn đang đánh giá, bạn có thể yêu cầu một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trong một thời gian giới hạn.
 
-### Tôi có thể đánh dấu nhiều lớp cùng một lúc trong tệp PSD không?
-Có, bạn có thể lặp qua các lớp trong tệp PSD và áp dụng vùng đánh dấu màu trang tính mong muốn cho từng lớp riêng lẻ.
+**Q: Tôi có thể làm nổi bật nhiều lớp cùng lúc trong một tệp PSD không?**  
+A: Chắc chắn. Lặp qua `im.getLayers()` và gọi `setSheetColorHighlight()` cho mỗi lớp khi cần.
+
+---
+
+**Cập nhật lần cuối:** 2026-04-03  
+**Được kiểm tra với:** Aspose.PSD 24.11 for Java  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

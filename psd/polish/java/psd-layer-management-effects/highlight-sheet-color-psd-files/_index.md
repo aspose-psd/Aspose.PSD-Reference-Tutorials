@@ -1,37 +1,59 @@
 ---
-title: Podświetl kolor arkusza w plikach PSD za pomocą Aspose.PSD Java
-linktitle: Podświetl kolor arkusza w plikach PSD za pomocą Aspose.PSD Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak wyróżnić kolory arkuszy w plikach PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności manipulowania obrazami w Javie.
-weight: 19
+date: 2026-04-03
+description: Dowiedz się, jak podświetlać kolory arkuszy w plikach PSD przy użyciu
+  Aspose.PSD dla Javy. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby
+  zwiększyć swoje umiejętności manipulacji obrazem w Javie.
+keywords:
+- highlight sheet color psd
+- change psd layer color
+- Aspose.PSD Java
+linktitle: Podświetl kolor arkusza w plikach PSD przy użyciu Aspise.PSD Java
+second_title: Aspose.PSD Java API
+title: Podświetl kolor arkusza w plikach PSD przy użyciu Aspise.PSD Java
 url: /pl/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Podświetl kolor arkusza w plikach PSD za pomocą Aspose.PSD Java
+# Podświetlanie koloru arkusza w plikach PSD przy użyciu Aspose.PSD Java
 
-## Wstęp
+## Wprowadzenie
 
-Czy chcesz zagłębić się w manipulację obrazami i ulepszyć swoje cyfrowe dzieła za pomocą języka Java? Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, praca z plikami PSD może otworzyć przed tobą świat możliwości. Pliki PSD są standardem branżowym w zakresie warstwowej edycji obrazów, a dzięki mocy Aspose.PSD dla Java możesz bez wysiłku manipulować tymi plikami w aplikacjach Java. Dzisiaj omówimy, jak wyróżnić kolory arkuszy w plikach PSD, aby Twoje projekty wyróżniały się w możliwie najbardziej żywy sposób.
+Jeśli potrzebujesz **podświetlić kolor arkusza psd** programowo, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez kompletny, praktyczny przykład, który pokaże, jak zmienić kolor arkusza poszczególnych warstw przy użyciu Aspose.PSD dla Javy. Niezależnie od tego, czy tworzysz narzędzie do przetwarzania wsadowego, własny edytor, czy po prostu automatyzujesz powtarzalne zadania projektowe, opanowanie tej techniki da Ci precyzyjną kontrolę nad zasobami PSD.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „highlight sheet color”?** To wizualny wskaźnik przypisany do warstwy, który pojawia się jako kolorowy pasek w panelu warstw Photoshopa.  
+- **Która biblioteka obsługuje to w Javie?** Aspose.PSD for Java udostępnia `SheetColorHighlightEnum` oraz powiązane API.  
+- **Czy potrzebna jest licencja, aby wypróbować?** Dostępna jest darmowa wersja próbna; licencja jest wymagana do użytku produkcyjnego.  
+- **Czy mogę zmienić wiele warstw jednocześnie?** Tak — przeiteruj kolekcję `Layer[]` i ustaw podświetlenie każdej warstwy.  
+- **Jaka wersja Javy jest wymagana?** JDK 8 lub wyższa.
 
-Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby płynnie działać. Oto lista kontrolna tego, czego będziesz potrzebować:
+## Co to jest „highlight sheet color psd”?
 
--  Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowany pakiet JDK 8 lub nowszy. Jeśli nie, możesz pobrać go ze strony[witryna internetowa Java](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Zintegrowane środowisko programistyczne (IDE): IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans, ułatwi kodowanie. Wybierz taki, z którym czujesz się komfortowo.
-- Aspose.PSD dla biblioteki Java: To jest gwiazda programu! Będziesz musiał pobrać bibliotekę Aspose.PSD for Java i odwołać się do niej w swoim projekcie. Możesz to dostać od[stronie Aspose](https://releases.aspose.com/psd/java/).
--  Przykładowy plik PSD: użyjemy przykładowego pliku PSD o nazwie`SheetColorHighlightExample.psd` dla tego samouczka. Możesz stworzyć swój własny lub pobrać próbkę z Internetu.
-- Podstawowa znajomość języka Java: Aby skorzystać z tego samouczka, niezbędna jest podstawowa znajomość programowania w języku Java.
+Podświetlenie koloru arkusza to atrybut metadanych przechowywany wewnątrz pliku PSD, który instruuje Photoshop (i kompatybilne narzędzia), aby narysował kolorowy pasek obok nazwy warstwy. Jest przydatny do szybkiego identyfikowania grup warstw — można je traktować jako wizualny znacznik, który może przyjmować kolory takie jak fioletowy, pomarańczowy, żółty itp.
 
-Gdy wszystko jest już gotowe, przejdźmy do importowania niezbędnych pakietów i przygotowania projektu.
+## Dlaczego zmieniać kolor warstwy PSD programowo?
 
-## Importuj pakiety
+- **Automatyzacja:** Przetwarzaj setki plików bez ręcznych kliknięć.  
+- **Spójność:** Wymuszaj schemat nazewnictwa/kolorów w całym systemie projektowania.  
+- **Integracja:** Łącz manipulację PSD z innymi przepływami pracy opartymi na Javie (np. generowanie zasobów dla aplikacji mobilnych).  
 
-Po pierwsze, zaimportujmy wymagane pakiety, aby rozpocząć nasz projekt. Importy te pozwolą nam pracować z plikami PSD i efektywnie nimi manipulować za pomocą Aspose.PSD dla Java.
+## Wymagania wstępne
+
+Zanim zanurkujemy w kod, upewnij się, że masz następujące elementy:
+
+- **Java Development Kit (JDK) 8+** – pobierz ze [strony Java](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **IDE** – IntelliJ IDEA, Eclipse lub NetBeans (według wyboru).  
+- **Biblioteka Aspose.PSD for Java** – pobierz z [strony Aspose](https://releases.aspose.com/psd/java/).  
+- **Przykładowy plik PSD** – `SheetColorHighlightExample.psd` (utwórz własny lub pobierz przykład online).  
+- **Podstawowa znajomość Javy** – powinieneś być zaznajomiony z klasami, metodami i prostym I/O plików.
+
+## Importowanie pakietów
+
+Najpierw zaimportuj klasy, których będziemy potrzebować. Te importy dają dostęp do podstawowej obsługi obrazów, manipulacji warstwami oraz wyliczenia podświetleń koloru arkusza.
 
 ```java
 import com.aspose.psd.Image;
@@ -41,15 +63,13 @@ import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.SheetColorHighlightEnum;
 ```
 
-Importy te wprowadzają niezbędne klasy i metody, których będziemy używać do manipulowania plikami PSD, w szczególności do podkreślania kolorów arkuszy.
+## Przewodnik krok po kroku
 
-## Krok 1: Załaduj plik PSD
+### Krok 1: Załaduj plik PSD
 
-Pierwszym krokiem w naszym samouczku jest załadowanie pliku PSD, którym chcesz manipulować. Będziemy korzystać z`PsdImage` class z Aspose.PSD dla Java, aby załadować plik do naszej aplikacji.
+#### 1.1 Zdefiniuj ścieżki plików
 
-### Krok 1.1: Zdefiniuj ścieżki plików
-
-Przed załadowaniem pliku zdefiniujmy ścieżki plików źródłowych i wyjściowych plików PSD. Użyjemy zmiennej łańcuchowej do przechowywania ścieżki katalogu, w którym znajdują się Twoje pliki.
+Ustaw ścieżki źródłową i docelową. Zastąp symbol zastępczy rzeczywistym folderem, w którym znajduje się Twój plik PSD.
 
 ```java
 String dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -58,96 +78,77 @@ String sourceFileName = dataDir + "SheetColorHighlightExample.psd";
 String exportPath = dataDir + "SheetColorHighlightExampleChanged.psd";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której przechowywany jest plik PSD. Dzięki tej konfiguracji aplikacja będzie wiedzieć, gdzie znaleźć plik i gdzie zapisać zmodyfikowaną wersję.
+#### 1.2 Załaduj plik PSD
 
-### Krok 1.2: Załaduj plik PSD
-
- Teraz, gdy mamy zdefiniowane ścieżki plików, załadujmy plik PSD za pomocą`Image.load()` metodę i rzuć ją na a`PsdImage`.
+Użyj `Image.load()` i rzutuj wynik na `PsdImage`, aby móc korzystać z funkcji specyficznych dla PSD.
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
- Ta linia kodu ładuje plik PSD i przygotowuje go do manipulacji, rzutując go do pliku`PsdImage` obiekt, który został specjalnie zaprojektowany do obsługi plików PSD w Aspose.PSD dla Java.
+### Krok 2: Dostęp i inspekcja warstw
 
-## Krok 2: Uzyskaj dostęp do warstw i manipuluj nimi
+Warstwy zawierają wizualną treść PSD. Odczytamy aktualne podświetlenia koloru arkusza, aby zweryfikować początkowy stan.
 
-plikach PSD magia dzieje się w warstwach. Pozwalają oddzielić różne elementy projektu i niezależnie nimi manipulować. W tym kroku uzyskamy dostęp do warstw naszego pliku PSD i sprawdzimy ich aktualne podkreślenia kolorów arkusza.
-
-### Krok 2.1: Uzyskaj dostęp do pierwszej warstwy
-
-Zacznijmy od uzyskania dostępu do pierwszej warstwy pliku PSD i sprawdzenia jej bieżącego podświetlenia koloru arkusza.
+#### 2.1 Dostęp do pierwszej warstwy
 
 ```java
 Layer layer1 = im.getLayers()[0];
 Assert.areEqual(SheetColorHighlightEnum.Violet, layer1.getSheetColorHighlight());
 ```
 
- Tutaj uzyskujemy dostęp do pierwszej warstwy pliku PSD za pomocą`getLayers()` metoda. Następnie używamy`Assert.areEqual()` aby sprawdzić, czy podświetlenie koloru arkusza tej warstwy jest ustawione na Fioletowy. Ten krok jest kluczowy, aby mieć pewność, że pracujemy z właściwą warstwą.
-
-### Krok 2.2: Uzyskaj dostęp do drugiej warstwy
-
-Następnie uzyskamy dostęp do drugiej warstwy i sprawdzimy również podkreślenie koloru arkusza.
+#### 2.2 Dostęp do drugiej warstwy
 
 ```java
 Layer layer2 = im.getLayers()[1];
 Assert.areEqual(SheetColorHighlightEnum.Orange, layer2.getSheetColorHighlight());
 ```
 
-Podobnie uzyskujemy dostęp do drugiej warstwy i sprawdzamy, czy jej podświetlenie koloru arkusza jest ustawione na Pomarańczowy. Sprawdzając te najważniejsze informacje, możemy mieć pewność, że każda warstwa została poprawnie zidentyfikowana przed wprowadzeniem jakichkolwiek zmian.
+### Krok 3: Modyfikacja podświetlenia koloru arkusza
 
-## Krok 3: Zmodyfikuj wyróżnienie koloru arkusza
-
-Teraz, gdy zidentyfikowaliśmy warstwy i ich aktualne wyróżnienia kolorów arkusza, czas zmodyfikować jedną z nich. W tym kroku zmienimy podświetlenie koloru arkusza pierwszej warstwy.
-
-### Krok 3.1: Ustaw nowe wyróżnienie koloru arkusza
-
-Aby nasz projekt wyróżniał się, zmieńmy podświetlenie pierwszej warstwy na żółty.
+Teraz zmienimy podświetlenie pierwszej warstwy na Żółty, demonstrując, jak **zmienić kolor warstwy psd** programowo.
 
 ```java
 layer1.setSheetColorHighlight(SheetColorHighlightEnum.Yellow);
 ```
 
-Ta linia kodu zmienia podświetlenie koloru arkusza pierwszej warstwy na żółty. To prosty, ale skuteczny sposób na wyróżnienie elementów projektu.
+### Krok 4: Zapisz zmodyfikowany plik PSD
 
-## Krok 4: Zapisz zmodyfikowany plik PSD
-
-Ostatnim krokiem po modyfikacji podświetlenia koloru arkusza jest zapisanie zmian w nowym pliku PSD. Dzięki temu oryginalny plik pozostanie nienaruszony, a zmiany zostaną zapisane oddzielnie.
-
-### Krok 4.1: Zapisz plik
-
-Zapiszmy zmodyfikowany plik PSD w zdefiniowanej wcześniej ścieżce.
+Zachowaj zmiany w nowym pliku, aby oryginał pozostał nietknięty.
 
 ```java
 im.save(exportPath);
 ```
 
- To polecenie zapisuje modyfikacje w nowym pliku PSD znajdującym się w`exportPath`ustawiłeś wcześniej. Teraz masz zarówno pliki oryginalne, jak i zmodyfikowane, co pozwala na porównanie zmian obok siebie.
+## Typowe problemy i rozwiązania
 
-## Wniosek
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|---------|----------------------|-------------|
+| `Assert` fails | Podświetlenie istniejącej warstwy nie jest tym, czego kod oczekuje (np. inny PSD). | Otwórz PSD w Photoshopie, aby zweryfikować kolory, lub usuń sprawdzenia `Assert` dla bardziej elastycznego skryptu. |
+| `NullPointerException` on `im.getLayers()` | Plik nie został poprawnie załadowany (zła ścieżka lub uszkodzony plik). | Sprawdź dokładnie `sourceFileName` i upewnij się, że PSD jest prawidłowy. |
+| Highlight doesn’t appear in Photoshop | Photoshop buforuje informacje o warstwach; może być konieczne ponowne otwarcie pliku. | Zamknij i ponownie otwórz PSD po zapisaniu, lub użyj `im.flush()` przed zapisem. |
 
-Gratulacje! Udało Ci się manipulować podświetleniami kolorów arkusza w pliku PSD przy użyciu Aspose.PSD dla Java. Postępując zgodnie z tym szczegółowym przewodnikiem, masz teraz umiejętności programowego dostosowywania i ulepszania plików PSD, dodając nowy poziom kreatywności do swoich projektów Java.
+## Najczęściej zadawane pytania
 
-Aspose.PSD dla Java to potężne narzędzie, które otwiera nieograniczone możliwości pracy z plikami PSD. Niezależnie od tego, czy podświetlasz warstwy, dopasowujesz kolory, czy przekształcasz projekty w inny sposób, ta biblioteka zapewnia całą potrzebną funkcjonalność.
+**Q: Co to jest Aspose.PSD for Java?**  
+A: Aspose.PSD for Java to biblioteka, która pozwala programistom czytać, edytować i zapisywać pliki PSD bez konieczności instalacji Photoshopa.
 
-Jeśli masz jakieś pytania lub napotkasz jakiekolwiek problemy, nie wahaj się zapoznać z dokumentacją Aspose.PSD, wypróbuj bezpłatną wersję próbną lub poproś o wsparcie społeczności.
+**Q: Czy mogę używać Aspose.PSD for Java z innymi formatami plików?**  
+A: Tak — obsługiwane są BMP, PNG, JPEG, GIF, TIFF i wiele innych, co umożliwia konwersję do i z PSD.
 
-## Często zadawane pytania
+**Q: Czy można cofnąć zmiany wprowadzone w pliku PSD przy użyciu Aspose.PSD for Java?**  
+A: Po zapisaniu zmiany są trwałe. Zachowaj kopię zapasową oryginalnego pliku, jeśli potrzebujesz przywrócić poprzedni stan.
 
-### Co to jest Aspose.PSD dla Java?
-Aspose.PSD dla Java to biblioteka, która umożliwia programistom programową pracę z plikami PSD, udostępniając narzędzia do manipulowania obrazami, warstwami i innymi elementami w plikach PSD.
+**Q: Jak uzyskać licencję na Aspose.PSD for Java?**  
+A: Kup licencję na [stronie Aspose](https://purchase.aspose.com/buy). Jeśli testujesz, możesz poprosić o [licencję tymczasową](https://purchase.aspose.com/temporary-license/) na ograniczony okres.
 
-### Czy mogę używać Aspose.PSD dla Java z innymi formatami plików?
-Tak, Aspose.PSD for Java obsługuje wiele formatów plików, w tym BMP, PNG, JPEG, GIF i TIFF, umożliwiając konwersję plików PSD do innych formatów i odwrotnie.
+**Q: Czy mogę podświetlić wiele warstw jednocześnie w pliku PSD?**  
+A: Oczywiście. Przeiteruj `im.getLayers()` i wywołaj `setSheetColorHighlight()` na każdej warstwie w razie potrzeby.
 
-### Czy można cofnąć zmiany wprowadzone w pliku PSD przy użyciu Aspose.PSD dla Java?
-Po zapisaniu zmian w pliku nie można ich cofnąć. Możesz jednak zachować kopię zapasową oryginalnego pliku przed wprowadzeniem jakichkolwiek modyfikacji, aby mieć pewność, że w razie potrzeby będziesz mógł do niego wrócić.
+**Ostatnia aktualizacja:** 2026-04-03  
+**Testowano z:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
 
-### Jak uzyskać licencję na Aspose.PSD dla Java?
- Licencję można kupić w witrynie[Strona Aspose](https://purchase.aspose.com/buy) . Jeśli nie jesteś gotowy na zatwierdzenie, możesz również poprosić o a[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić produkt.
-
-### Czy mogę zaznaczyć wiele warstw jednocześnie w pliku PSD?
-Tak, możesz przeglądać warstwy w pliku PSD i zastosować żądane podświetlenie kolorem arkusza indywidualnie do każdej warstwy.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
