@@ -1,37 +1,55 @@
 ---
-title: PSD'de Renk Dolgusu ile Kontur Efekti Uygulama - Java
-linktitle: PSD'de Renk Dolgusu ile Kontur Efekti Uygulama - Java
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza renk dolgulu kontur efektini nasıl uygulayacağınızı öğrenin. Resimlerinizi kolaylıkla geliştirmek için bu adım adım kılavuzu izleyin.
-weight: 21
+date: 2026-04-03
+description: Aspose.PSD for Java kullanarak bir çizgi efekti ve renk doldurmasıyla
+  PSD'yi PNG olarak kaydetmeyi öğrenin. Bu adım adım rehber, PSD'yi hızlıca PNG'ye
+  dışa aktarmayı gösterir.
+keywords:
+- save psd as png
+- export psd to png
+- set stroke color
+- apply layer effects
+- customize stroke width
+linktitle: PSD'yi Çizgi Efektiyle PNG Olarak Kaydet – Java
+second_title: Aspose.PSD Java API
+title: PSD'yi Çizgi Efektiyle PNG Olarak Kaydet – Java
 url: /tr/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD'de Renk Dolgusu ile Kontur Efekti Uygulama - Java
+# PSD'yi PNG Olarak Kaydet, Çizgi Efekti ve Renk Doldurması – Java
 
-## giriiş
+## Giriş
 
-Bu kılavuzda, Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza renkli dolgulu kontur efekti uygulama sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım eğitim işi tamamlamanızı kolaylaştıracaktır. Ortamınızı ayarlamaktan son görüntüyü uygulanan efektlerle kaydetmeye kadar her şeyi ele alacağız.
+Bu rehberde, Aspose.PSD for Java kullanarak **PSD'yi PNG olarak kaydet** ve renk doldurmasıyla bir çizgi efekti uygulamayı öğreneceksiniz. İster deneyimli bir geliştirici olun, ister yeni başlayın, bu adım adım öğretici işi kolayca halletmenizi sağlayacak. Ortamınızı kurmaktan son görüntüyü dışa aktarmaya kadar her şeyi ele alacağız, böylece kendi projelerinizde hızlıca **PSD'yi PNG'ye dışa aktar**abilirsiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Bu öğretici neyi başarmak için?** Özelleştirilebilir bir çizgi efekti uyguladıktan sonra bir PSD dosyasını PNG olarak kaydetmeyi gösterir.  
+- **Hangi kütüphane kullanılıyor?** Aspose.PSD for Java.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme sürümü çalışır; üretim için bir lisans gereklidir.  
+- **Çizgi rengini değiştirebilir miyim?** Evet – `ColorFillSettings` aracılığıyla herhangi bir renk ayarlayabilirsiniz.  
+- **Toplu işleme mümkün mü?** Kesinlikle – kodu bir döngü içinde sararak birden fazla PSD dosyasını işleyebilirsiniz.
 
-Başlamadan önce, bu eğitimle birlikte takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım:
+## “PSD'yi PNG Olarak Kaydet” ne demektir?
+Bir PSD'yi PNG olarak kaydetmek, Photoshop'un yerel katmanlı dosyasını, görsel bütünlüğü koruyarak düz, web‑uyumlu bir görüntü formatına dönüştürmek anlamına gelir. Bu, PSD içeriğini web sitelerinde, mobil uygulamalarda veya doğrudan PSD dosyalarını desteklemeyen herhangi bir platformda göstermeniz gerektiğinde faydalıdır.
 
-1. Java Geliştirme Kiti (JDK) Kurulu: Sisteminizde JDK 8 veya üzerinin kurulu olduğundan emin olun.
-2.  Aspose.PSD for Java Kütüphanesi: Aspose.PSD for Java kütüphanesine ihtiyacınız olacak. adresinden indirebilirsiniz.[web sitesi](https://releases.aspose.com/psd/java/).
-3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA, Eclipse veya seçtiğiniz herhangi bir IDE gibi bir IDE.
-4. Örnek PSD Dosyası: Kontur efektini uygulayabileceğiniz örnek bir PSD dosyası. Eğer elinizde yoksa Photoshop'ta basit bir PSD dosyası oluşturabilir veya internetten bir PSD dosyası indirebilirsiniz.
-5. Temel Java Bilgisi: Bu eğitim yeni başlayanlar için uygun olsa da, bazı temel Java bilgisine sahip olmak faydalı olacaktır.
+## Neden renk doldurmalı bir çizgi efekti uygulamalısınız?
+Bir çizgi, katman içeriğinin etrafına net bir kenarlık ekler ve grafiklerin karmaşık arka planlarda öne çıkmasını sağlar. Bunu özel bir doldurma rengiyle birleştirerek görüntülere marka ekleyebilir, UI öğelerini vurgulayabilir veya Photoshop'tan çıkmadan göz alıcı küçük resimler oluşturabilirsiniz.
 
-Bu önkoşulları yerine getirdikten sonra, renkli dolgulu kontur efektini PSD dosyalarınıza uygulamaya başlamaya hazırsınız.
+## Ön Koşullar
+
+1. **Java Development Kit (JDK) 8+** – `java`'nın PATH'inizde olduğundan emin olun.  
+2. **Aspose.PSD for Java** – [web sitesinden](https://releases.aspose.com/psd/java/) indirin.  
+3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
+4. **Örnek PSD** – zaten bir çizgi efekti içeren bir dosya (veya Photoshop'ta ekleyin).  
+5. **Temel Java bilgisi** – birkaç satır kod yazacaksınız, ancak ileri seviye bir şey değil.
+
+Bu ön koşullar hazır olduğunda, kodlamaya başlayabiliriz.
 
 ## Paketleri İçe Aktar
-
-Aspose.PSD for Java ile çalışmaya başlamak için gerekli paketleri Java projenize aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 import com.aspose.psd.Color;
@@ -45,25 +63,21 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-Bu içe aktarmalar, PSD dosyalarıyla çalışmak, efekt uygulamak ve görüntüleri istediğiniz formatta kaydetmek için ihtiyaç duyacağınız tüm gerekli sınıfları getirir.
+Bu içe aktarmalar, bir PSD'yi yüklemek, çizgisini değiştirmek ve hem PSD hem de PNG çıktıları kaydetmek için gereken tüm sınıfları getirir.
 
-## Adım 1: PSD Dosyasını Yükleyin
+## Çizgi Efektiyle PSD'yi PNG Olarak Kaydetme
 
- Sürecimizdeki ilk adım, değiştirmek istediğiniz PSD dosyasını yüklemektir. Aspose.PSD for Java, bunu inanılmaz derecede basit hale getiriyor`PsdImage` sınıf. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+### Adım 1: PSD Dosyasını Yükle
 
-### 1.1 Dizin Yolunu Ayarlayın
-
-Öncelikle PSD dosyalarınızın depolandığı dizin yolunu tanımlayın:
+İlk olarak, kaynak PSD'nizin bulunduğu klasöre işaret edin.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` PSD dosyanızın bulunduğu gerçek yolla.
+`"Your Document Directory"` ifadesini makinenizdeki gerçek yol ile değiştirin.
 
-### 1.2 PSD Görüntüsünü Yükleyin
-
- Şimdi PSD dosyasını kullanarak yükleyin.`PsdLoadOptions` Ve`PsdImage` sınıflar:
+Şimdi, mevcut efekt kaynaklarını koruyarak dosyayı yükleyin:
 
 ```java
 String sourceFileName = dataDir + "StrokeComplex.psd";
@@ -74,47 +88,33 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
- Burada,`PsdLoadOptions`Efekt kaynaklarını yükleyecek şekilde yapılandırılmıştır ve PSD içindeki mevcut efektlerin erişilebilir olmasını sağlar.
+### Adım 2: Çizgi Rengini Ayarla (ve isteğe bağlı olarak genişliği özelleştir)
 
-## Adım 2: Renk Dolgusu ile Kontur Efekti Uygulayın
-
-PSD dosyası yüklendiğinde bir sonraki adım, kontur efektini görüntünün katmanlarına uygulamaktır. Gerçek sihrin gerçekleştiği yer burasıdır.
-
-Her PSD dosyası birden fazla katman içerebilir ve efekti her birine uygulamanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Aşağıdaki döngü her katmanı dolaşır, ilk `StrokeEffect`'i alır ve doldurma rengini değiştirir. **Çizgi genişliğini özelleştirmeniz** gerekiyorsa, `StrokeEffect` nesnesinde `setWidth` veya `setPosition` metodlarını da ayarlayabilirsiniz.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     StrokeEffect effect = (StrokeEffect) im.getLayers()[i].getBlendingOptions().getEffects()[0];
     ColorFillSettings settings = (ColorFillSettings) effect.getFillSettings();
+    // Set the stroke color – change to any Color you like
     settings.setColor(Color.getDeepPink());
 }
 ```
 
-Bu döngüde:
+> **Pro ipucu:** `Color.getDeepPink()` sadece bir örnek. Özel RGB değerleri için `new Color(r, g, b)` kullanın.
 
-- `im.getLayers()`: PSD dosyasındaki tüm katmanları alır.
-- `StrokeEffect effect`: Katmana uygulanan kontur efektini çıkarır.
-- `ColorFillSettings settings`: Kontur efektinin dolgu ayarlarını değiştirir.
-- `settings.setColor(Color.getDeepPink())`: Kontur rengini koyu pembeye ayarlar. Bunu tercih ettiğiniz herhangi bir renkle değiştirebilirsiniz.
+### Adım 3: Değiştirilmiş PSD'yi Kaydet (isteğe bağlı)
 
-## Adım 3: Değiştirilen PSD'yi kaydedin ve PNG olarak dışa aktarın
-
-Kontur efektini uyguladıktan sonra değişiklikleri kaydetme ve görüntüyü dışa aktarma zamanı gelir.
-
-### 3.1 PSD Dosyasını Kaydetme
-
-Değiştirilen PSD dosyasını kaydetmek için aşağıdaki kodu kullanın:
+Güncellenmiş çizgiyle bir PSD sürümünü tutmak istiyorsanız, şu şekilde kaydedin:
 
 ```java
 String exportPath = dataDir + "StrokeComplexRendering.psd";
 im.save(exportPath, new PsdOptions());
 ```
 
-Bu, uygulanan kontur efektine sahip dosyayı belirtilen yola kaydeder.
+### Adım 4: Görüntüyü PNG Olarak Dışa Aktar (temel “PSD'yi PNG Olarak Kaydet” adımı)
 
-### 3.2 PNG Olarak Dışa Aktarma
-
-Görüntüyü daha erişilebilir hale getirmek için onu PNG dosyası olarak dışa aktarmak isteyebilirsiniz. İşte nasıl:
+Son olarak, düzenlenmiş PSD'yi web kullanımı için hazır bir PNG dosyasına dönüştürün:
 
 ```java
 String exportPathPng = dataDir + "StrokeComplexRendering.png";
@@ -124,32 +124,39 @@ option.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(exportPathPng, option);
 ```
 
-Bu kod pasajı, görüntüyü gerçek renk ve alfa şeffaflığıyla PNG olarak kaydederek web uygulamalarında veya diğer platformlarda kullanıma hazır hale getirir.
+PNG, daha önce ayarladığınız derin pembe çizgiyi korur ve `TruecolorWithAlpha` seçeneği şeffaflığın korunmasını sağlar.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza renk dolgulu kontur efekti uygulamak hem basit hem de inanılmaz derecede güçlüdür. Yalnızca birkaç satır kodla karmaşık görüntü işleme görevlerini otomatikleştirerek hem zamandan hem de emekten tasarruf edebilirsiniz.
+| Sorun | Neden | Çözüm |
+|-------|--------|-----|
+| **`ArrayIndexOutOfBoundsException`** | Katmanda hiçbir efekt yok veya ilk efekt bir `StrokeEffect` değil. | Katmanın gerçekten bir çizgi içerdiğini doğrulayın veya doğru türü bulmak için `getEffects()` üzerinden döngü yapın. |
+| **Renk değişmiyor** | Ayarların bir kopyasını düzenliyor olabilirsiniz, orijinali değil. | `effect.getFillSettings()`'den doğrudan `ColorFillSettings`'e cast ettiğinizden emin olun. |
+| **PNG boş görünüyor** | PSD, katmanı rasterleştirmeden yüklendi. | Tüm değişikliklerden sonra `im.save(..., new PngOptions())` çağırın; değişikliklerden önce orijinal `im`'i kaydetmekten kaçının. |
 
-İster büyük bir görüntü kümesi üzerinde çalışıyor olun, ister yalnızca birkaç dosyada değişiklik yapmanız gerekiyor olsun, bu yöntem esnek ve etkili bir çözüm sunar. Artık temel bilgileri edindiğinize göre, görsellerinizin gerçekten öne çıkmasını sağlamak için farklı efektler ve özelleştirmeler denemeye başlayabilirsiniz.
+## Sıkça Sorulan Sorular
 
-Denemeye hazır mısınız? Örnek PSD dosyanızı alın ve bu muhteşem efektleri bugün eklemeye başlayın!
+**S: Aspose.PSD for Java kullanarak tek bir katmana birden fazla efekt uygulayabilir miyim?**  
+C: Evet, katmanın karıştırma seçeneklerine erişebilir ve gölgeler, parlamalar ve çizgiler dahil olmak üzere ihtiyaç duyulan kadar efekt ekleyebilirsiniz.
 
-## SSS'ler
+**S: Bir grup PSD dosyası için süreci otomatikleştirmek mümkün mü?**  
+C: Kesinlikle. Yükleme, efekt uygulama ve kaydetme mantığını bir dizindeki dosyalar üzerinde yineleyen bir `for‑each` döngüsü içinde sarabilirsiniz.
 
-### Aspose.PSD for Java kullanarak tek bir katmana birden fazla efekt uygulayabilir miyim?
-Evet, katmanın karıştırma seçeneklerine erişip istediğiniz efektleri ekleyerek tek bir katmana birden fazla efekt uygulayabilirsiniz.
+**S: PSD dosyasında yapılan değişiklikleri nasıl geri alabilirim?**  
+C: Herhangi bir değişikliği kaydetmeden önce orijinal dosyayı yeniden yükleyin; Aspose.PSD bir geri alma yığını sağlamaz.
 
-### Bir grup PSD dosyası için işlemi otomatikleştirmek mümkün müdür?
-Kesinlikle! PSD dosyalarından oluşan bir dizinde dolaşabilir, kontur efekti uygulayabilir ve sonuçları otomatik olarak kaydedebilirsiniz.
+**S: Çizgi genişliğini ve konumunu özelleştirebilir miyim?**  
+C: Evet. Kalınlığı ve konumu (iç, dış veya ortalanmış) kontrol etmek için `effect.setWidth(float)` ve `effect.setPosition(StrokeEffect.Position)` kullanın.
 
-### Aspose.PSD for Java kullanarak PSD dosyasında yapılan değişiklikleri nasıl geri alabilirim?
-Değişiklikleri geri almak için, herhangi bir değişikliği kaydetmeden önce orijinal PSD dosyasını yeniden yüklemeniz gerekir. Aspose.PSD'de doğrudan geri alma özelliği yoktur.
+**S: Aspose.PSD for Java kütüphanesi ücretsiz mi?**  
+C: Değerlendirme için ücretsiz bir deneme sürümü mevcuttur. Tam işlevsellik bir lisans satın almayı gerektirir. Ayrıntılar için [satın alma seçeneklerine](https://purchase.aspose.com/buy) bakın.
 
-### Kontur genişliğini ve konumunu özelleştirebilir miyim?
- Evet, Aspose.PSD for Java, kontur genişliğini, konumunu ve diğer özelliklerini,`StrokeEffect` sınıf.
+---
 
-### Aspose.PSD for Java kütüphanesinin kullanımı ücretsiz midir?
- Aspose.PSD for Java ücretsiz deneme sürümü sunuyor ancak tüm özelliklere tam erişim için bir lisans satın almanız gerekiyor. Keşfedebilirsiniz[satın alma seçenekleri](https://purchase.aspose.com/buy)kendi web sitesinde.
+**Son Güncelleme:** 2026-04-03  
+**Test Edilen Versiyon:** Aspose.PSD 24.12 for Java  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

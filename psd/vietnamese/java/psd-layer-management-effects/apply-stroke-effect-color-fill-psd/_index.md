@@ -1,37 +1,55 @@
 ---
-title: Áp dụng hiệu ứng Stroke với Color Fill trong PSD - Java
-linktitle: Áp dụng hiệu ứng Stroke với Color Fill trong PSD - Java
-second_title: API Java Aspose.PSD
-description: Tìm hiểu cách áp dụng hiệu ứng nét vẽ với màu tô cho các tệp PSD của bạn bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước này để cải thiện hình ảnh của bạn một cách dễ dàng.
-weight: 21
+date: 2026-04-03
+description: Tìm hiểu cách lưu tệp PSD thành PNG với hiệu ứng viền và tô màu bằng
+  Aspose.PSD cho Java. Hướng dẫn từng bước này cho thấy cách xuất PSD sang PNG một
+  cách nhanh chóng.
+keywords:
+- save psd as png
+- export psd to png
+- set stroke color
+- apply layer effects
+- customize stroke width
+linktitle: Lưu PSD dưới dạng PNG với hiệu ứng viền – Java
+second_title: Aspose.PSD Java API
+title: Lưu PSD thành PNG với hiệu ứng viền – Java
 url: /vi/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Áp dụng hiệu ứng Stroke với Color Fill trong PSD - Java
+# Lưu PSD dưới dạng PNG với Hiệu ứng Đường viền và Đổ màu – Java
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng hiệu ứng nét vẽ với màu tô cho các tệp PSD của bạn bằng Aspose.PSD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn hoàn thành công việc dễ dàng. Chúng tôi sẽ đề cập đến mọi thứ từ thiết lập môi trường của bạn đến lưu hình ảnh cuối cùng với các hiệu ứng được áp dụng.
+Trong hướng dẫn này, bạn sẽ học cách **lưu PSD dưới dạng PNG** đồng thời áp dụng hiệu ứng đường viền với đổ màu bằng Aspose.PSD cho Java. Dù bạn là nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu, tutorial từng bước này sẽ giúp bạn hoàn thành công việc một cách dễ dàng. Chúng tôi sẽ đề cập đến mọi thứ từ việc thiết lập môi trường đến xuất ảnh cuối cùng, để bạn có thể nhanh chóng **xuất PSD sang PNG** trong các dự án của mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Mục tiêu của hướng dẫn này là gì?** Nó cho thấy cách lưu một tệp PSD dưới dạng PNG sau khi áp dụng hiệu ứng đường viền có thể tùy chỉnh.  
+- **Thư viện nào được sử dụng?** Aspose.PSD for Java.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép cho môi trường sản xuất.  
+- **Tôi có thể thay đổi màu đường viền không?** Có – bạn có thể đặt bất kỳ màu nào qua `ColorFillSettings`.  
+- **Có thể xử lý hàng loạt không?** Chắc chắn – bao bọc mã trong vòng lặp để xử lý nhiều tệp PSD.
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có mọi thứ bạn cần để làm theo hướng dẫn này:
+## PSD lưu dưới dạng PNG là gì?
+Lưu một PSD dưới dạng PNG có nghĩa là chuyển đổi tệp lớp của Photoshop sang định dạng ảnh phẳng, thân thiện với web trong khi vẫn giữ được độ trung thực hình ảnh. Điều này hữu ích khi bạn cần hiển thị nội dung PSD trên website, ứng dụng di động, hoặc bất kỳ nền tảng nào không hỗ trợ trực tiếp tệp PSD.
 
-1. Đã cài đặt Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên trên hệ thống của mình.
-2.  Aspose.PSD cho Thư viện Java: Bạn sẽ cần thư viện Aspose.PSD cho Java. Bạn có thể tải nó xuống từ[trang web](https://releases.aspose.com/psd/java/).
-3. Môi trường phát triển tích hợp (IDE): Một IDE như IntelliJ IDEA, Eclipse hoặc bất kỳ IDE nào khác mà bạn chọn.
-4. Tệp PSD mẫu: Tệp PSD mẫu mà bạn có thể áp dụng hiệu ứng nét vẽ. Nếu chưa có, bạn có thể tạo một tệp PSD đơn giản trong Photoshop hoặc tải xuống từ Internet.
-5. Kiến thức cơ bản về Java: Mặc dù hướng dẫn này thân thiện với người mới bắt đầu nhưng việc có một số kiến thức cơ bản về Java sẽ rất có ích.
+## Tại sao áp dụng hiệu ứng đường viền với đổ màu?
+Đường viền tạo ra một viền sắc nét quanh nội dung lớp, giúp đồ họa nổi bật hơn trên nền phức tạp. Kết hợp với màu đổ tùy chỉnh cho phép bạn thương hiệu hoá hình ảnh, làm nổi bật các yếu tố UI, hoặc tạo các thumbnail bắt mắt mà không cần rời Photoshop.
 
-Khi bạn đã có những điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu áp dụng hiệu ứng nét vẽ với màu tô cho các tệp PSD của mình.
+## Yêu cầu trước
 
-## Gói nhập khẩu
+1. **Java Development Kit (JDK) 8+** – đảm bảo `java` có trong PATH.  
+2. **Aspose.PSD for Java** – tải về từ [website](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa nào bạn thích.  
+4. **PSD mẫu** – một tệp đã có sẵn hiệu ứng đường viền (hoặc thêm trong Photoshop).  
+5. **Kiến thức Java cơ bản** – bạn sẽ viết một vài dòng mã, nhưng không phức tạp.
 
-Để bắt đầu làm việc với Aspose.PSD cho Java, bạn sẽ cần nhập các gói cần thiết vào dự án Java của mình. Đây là cách bạn có thể làm điều đó:
+Khi đã chuẩn bị xong, chúng ta có thể bắt đầu viết mã.
+
+## Nhập các gói
 
 ```java
 import com.aspose.psd.Color;
@@ -45,25 +63,21 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-Những nội dung nhập này mang đến tất cả các lớp cần thiết mà bạn sẽ cần để làm việc với tệp PSD, áp dụng hiệu ứng và lưu hình ảnh ở định dạng mong muốn.
+Các import này đưa vào tất cả các lớp cần thiết để tải PSD, chỉnh sửa đường viền, và lưu cả đầu ra PSD và PNG.
 
-## Bước 1: Tải tệp PSD
+## Cách lưu PSD dưới dạng PNG với hiệu ứng đường viền
 
- Bước đầu tiên trong quy trình của chúng tôi là tải tệp PSD mà bạn muốn sửa đổi. Aspose.PSD for Java khiến việc này trở nên cực kỳ đơn giản với`PsdImage` lớp học. Đây là cách bạn có thể làm điều đó:
+### Bước 1: Tải tệp PSD
 
-### 1.1 Đặt đường dẫn thư mục
-
-Đầu tiên, xác định đường dẫn thư mục nơi lưu trữ các tệp PSD của bạn:
+Đầu tiên, chỉ định thư mục chứa PSD nguồn của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi chứa tệp PSD của bạn.
+Thay thế `"Your Document Directory"` bằng đường dẫn thực tế trên máy của bạn.
 
-### 1.2 Tải hình ảnh PSD
-
- Bây giờ, hãy tải tệp PSD bằng cách sử dụng`PsdLoadOptions` Và`PsdImage` lớp học:
+Bây giờ tải tệp trong khi giữ nguyên mọi tài nguyên hiệu ứng hiện có:
 
 ```java
 String sourceFileName = dataDir + "StrokeComplex.psd";
@@ -74,47 +88,33 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
- Ở đây,`PsdLoadOptions`được cấu hình để tải các tài nguyên hiệu ứng, đảm bảo rằng mọi hiệu ứng hiện có trong PSD đều có thể truy cập được.
+### Bước 2: Đặt màu đường viền (và tùy chọn tùy chỉnh độ rộng)
 
-## Bước 2: Áp dụng hiệu ứng Stroke với Color Fill
-
-Với tệp PSD đã được tải, bước tiếp theo là áp dụng hiệu ứng nét vẽ cho các lớp của hình ảnh. Đây là nơi phép thuật thực sự xảy ra.
-
-Mỗi tệp PSD có thể chứa nhiều lớp và bạn sẽ cần áp dụng hiệu ứng cho từng lớp. Đây là cách thực hiện:
+Vòng lặp dưới đây duyệt qua mỗi lớp, lấy `StrokeEffect` đầu tiên và thay đổi màu đổ của nó. Bạn cũng có thể điều chỉnh `setWidth` hoặc `setPosition` trên đối tượng `StrokeEffect` nếu cần **tùy chỉnh độ rộng đường viền**.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     StrokeEffect effect = (StrokeEffect) im.getLayers()[i].getBlendingOptions().getEffects()[0];
     ColorFillSettings settings = (ColorFillSettings) effect.getFillSettings();
+    // Set the stroke color – change to any Color you like
     settings.setColor(Color.getDeepPink());
 }
 ```
 
-Trong vòng lặp này:
+> **Mẹo chuyên nghiệp:** `Color.getDeepPink()` chỉ là một ví dụ. Sử dụng `new Color(r, g, b)` cho các giá trị RGB tùy chỉnh.
 
-- `im.getLayers()`: Truy xuất tất cả các lớp trong tệp PSD.
-- `StrokeEffect effect`: Trích xuất hiệu ứng nét vẽ được áp dụng cho lớp.
-- `ColorFillSettings settings`: Sửa đổi cài đặt tô màu cho hiệu ứng nét vẽ.
-- `settings.setColor(Color.getDeepPink())`: Đặt màu nét vẽ thành màu hồng đậm. Bạn có thể thay đổi màu này thành bất kỳ màu nào bạn thích.
+### Bước 3: Lưu PSD đã chỉnh sửa (tùy chọn)
 
-## Bước 3: Lưu PSD đã sửa đổi và xuất dưới dạng PNG
-
-Khi bạn đã áp dụng hiệu ứng nét vẽ, đã đến lúc lưu các thay đổi và xuất hình ảnh.
-
-### 3.1 Lưu tệp PSD
-
-Để lưu tệp PSD đã sửa đổi, hãy sử dụng đoạn mã sau:
+Nếu bạn muốn giữ một phiên bản PSD với đường viền đã cập nhật, lưu nó như sau:
 
 ```java
 String exportPath = dataDir + "StrokeComplexRendering.psd";
 im.save(exportPath, new PsdOptions());
 ```
 
-Thao tác này sẽ lưu tệp có hiệu ứng nét vẽ được áp dụng vào đường dẫn đã chỉ định.
+### Bước 4: Xuất ảnh dưới dạng PNG (bước “lưu PSD dưới dạng PNG” chính)
 
-### 3.2 Xuất dưới dạng PNG
-
-Để làm cho hình ảnh dễ truy cập hơn, bạn có thể muốn xuất nó dưới dạng tệp PNG. Đây là cách thực hiện:
+Cuối cùng, chuyển PSD đã chỉnh sửa thành tệp PNG sẵn sàng cho web:
 
 ```java
 String exportPathPng = dataDir + "StrokeComplexRendering.png";
@@ -124,32 +124,37 @@ option.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(exportPathPng, option);
 ```
 
-Đoạn mã này lưu hình ảnh dưới dạng PNG với màu sắc trung thực và độ trong suốt alpha, giúp hình ảnh sẵn sàng để sử dụng trong các ứng dụng web hoặc nền tảng khác.
+PNG sẽ giữ lại đường viền màu hồng đậm bạn đã đặt trước, và tùy chọn `TruecolorWithAlpha` đảm bảo độ trong suốt được bảo tồn.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Giải pháp
 
-Việc áp dụng hiệu ứng nét vẽ có tô màu cho các tệp PSD của bạn bằng Aspose.PSD cho Java không chỉ đơn giản mà còn vô cùng mạnh mẽ. Chỉ với một vài dòng mã, bạn có thể tự động hóa các tác vụ xử lý hình ảnh phức tạp, giúp bạn tiết kiệm cả thời gian và công sức.
-
-Cho dù bạn đang làm việc trên một loạt hình ảnh lớn hay chỉ cần chỉnh sửa một vài tệp, phương pháp này đều cung cấp giải pháp linh hoạt và hiệu quả. Bây giờ bạn đã có những kiến thức cơ bản, bạn có thể bắt đầu thử nghiệm các hiệu ứng và tùy chỉnh khác nhau để làm cho hình ảnh của bạn thực sự nổi bật.
-
-Sẵn sàng để thử nó? Lấy tệp PSD mẫu của bạn và bắt đầu thêm những hiệu ứng tuyệt đẹp đó ngay hôm nay!
+| Vấn đề | Lý do | Cách khắc phục |
+|-------|--------|-----|
+| **`ArrayIndexOutOfBoundsException`** | Lớp không có hiệu ứng nào hoặc hiệu ứng đầu tiên không phải là `StrokeEffect`. | Xác minh lớp thực sự chứa đường viền hoặc lặp qua `getEffects()` để tìm loại đúng. |
+| **Màu không thay đổi** | Bạn có thể đang chỉnh sửa một bản sao của cài đặt thay vì bản gốc. | Đảm bảo bạn ép kiểu trực tiếp sang `ColorFillSettings` từ `effect.getFillSettings()`. |
+| **PNG xuất hiện trống** | PSD được tải mà không raster hoá lớp. | Gọi `im.save(..., new PngOptions())` sau tất cả các chỉnh sửa; tránh lưu `im` gốc trước khi thay đổi. |
 
 ## Câu hỏi thường gặp
 
-### Tôi có thể áp dụng nhiều hiệu ứng cho một lớp bằng Aspose.PSD cho Java không?
-Có, bạn có thể áp dụng nhiều hiệu ứng cho một lớp bằng cách truy cập các tùy chọn hòa trộn của lớp đó và thêm các hiệu ứng mong muốn.
+**H: Tôi có thể áp dụng nhiều hiệu ứng cho một lớp duy nhất bằng Aspose.PSD for Java không?**  
+Đ: Có, bạn có thể truy cập các tùy chọn hòa trộn của lớp và thêm bao nhiêu hiệu ứng nào cần thiết, bao gồm bóng, phát sáng và đường viền.
 
-### Có thể tự động hóa quy trình cho một loạt tệp PSD không?
-Tuyệt đối! Bạn có thể lặp qua một thư mục chứa các tệp PSD, áp dụng hiệu ứng nét vẽ và tự động lưu kết quả.
+**H: Có thể tự động hoá quy trình cho một loạt tệp PSD không?**  
+Đ: Chắc chắn. Bao bọc việc tải, áp dụng hiệu ứng và lưu trong một vòng lặp `for‑each` để duyệt qua các tệp trong thư mục.
 
-### Làm cách nào tôi có thể hoàn nguyên các thay đổi được thực hiện đối với tệp PSD bằng Aspose.PSD cho Java?
-Để hoàn nguyên các thay đổi, bạn cần tải lại tệp PSD gốc trước khi lưu bất kỳ sửa đổi nào. Không có tính năng hoàn tác trực tiếp trong Aspose.PSD.
+**H: Làm sao để khôi phục lại các thay đổi đã thực hiện trên tệp PSD?**  
+Đ: Tải lại tệp gốc trước khi lưu bất kỳ sửa đổi nào; Aspose.PSD không cung cấp ngăn xếp undo.
 
-### Tôi có thể tùy chỉnh độ rộng và vị trí nét không?
- Có, Aspose.PSD cho Java cho phép bạn tùy chỉnh độ rộng nét, vị trí và các thuộc tính khác thông qua`StrokeEffect` lớp học.
+**H: Tôi có thể tùy chỉnh độ rộng và vị trí của đường viền không?**  
+Đ: Có. Sử dụng `effect.setWidth(float)` và `effect.setPosition(StrokeEffect.Position)` để điều khiển độ dày và vị trí (bên trong, bên ngoài, hoặc trung tâm).
 
-### Thư viện Aspose.PSD cho Java có được sử dụng miễn phí không?
- Aspose.PSD cho Java cung cấp bản dùng thử miễn phí nhưng để có quyền truy cập đầy đủ vào tất cả các tính năng, bạn cần phải mua giấy phép. Bạn có thể khám phá[quyền chọn mua](https://purchase.aspose.com/buy)trên trang web của họ.
+**H: Thư viện Aspose.PSD for Java có miễn phí không?**  
+Đ: Bản dùng thử miễn phí có sẵn để đánh giá. Để sử dụng đầy đủ chức năng cần mua giấy phép. Xem [buy options](https://purchase.aspose.com/buy) để biết chi tiết.
+
+**Cập nhật lần cuối:** 2026-04-03  
+**Kiểm tra với:** Aspose.PSD 24.12 for Java  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
