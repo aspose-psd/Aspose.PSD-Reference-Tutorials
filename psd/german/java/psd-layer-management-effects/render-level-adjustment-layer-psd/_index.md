@@ -1,30 +1,50 @@
 ---
-title: Render-Level-Anpassungsebene in PSD-Dateien – Java
-linktitle: Render-Level-Anpassungsebene in PSD-Dateien – Java
+date: 2026-04-05
+description: Erfahren Sie, wie Sie PSD in PNG exportieren und mühelos den Bildkontrast
+  mit Aspose.PSD für Java verbessern. Meistern Sie Ebenen‑Anpassungsebenen mit dieser
+  Schritt‑für‑Schritt‑Anleitung.
+keywords:
+- export psd to png
+- how to adjust levels
+- batch process psd files
+linktitle: PSD nach PNG exportieren und Ebenen‑Anpassungsebene in Java rendern
 second_title: Aspose.PSD Java API
-description: Erfahren Sie, wie Sie mit Aspose.PSD für Java mühelos den Kontrast und die Lebendigkeit von Bildern verbessern. Meistern Sie Tonwertkorrektur-Anpassungsebenen mit dieser Schritt-für-Schritt-Anleitung.
-weight: 17
+title: PSD nach PNG exportieren und Ebenen‑Anpassungs‑Layer in Java rendern
 url: /de/java/psd-layer-management-effects/render-level-adjustment-layer-psd/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Render-Level-Anpassungsebene in PSD-Dateien – Java
+# PSD nach PNG exportieren und Ebenen‑Anpassungsebene in Java rendern
 
 ## Einführung
 
-Haben Sie schon einmal eine PSD-Datei geöffnet und festgestellt, dass dem Bild Kontrast oder Lebendigkeit fehlt? Keine Angst, Bildbearbeitungskrieger! Aspose.PSD für Java kommt mit seinen leistungsstarken Manipulationsfunktionen für Ebenenanpassungsebenen zur Rettung. Diese Anleitung vermittelt Ihnen das Wissen, wie Sie Ihre Bilder im Handumdrehen mit Ebenen optimieren können. 
+Haben Sie schon einmal eine PSD‑Datei geöffnet und bemerkt, dass die Farben flach wirken oder der Kontrast nicht stimmt? Sie können schnell **export PSD to PNG** durchführen, während Sie das Bild mit einer Levels Adjustment Layer feinabstimmen, indem Sie Aspose.PSD für Java verwenden. In diesem Tutorial führen wir Sie durch den gesamten Prozess – vom Laden einer PSD, über das Anpassen ihrer Levels bis zum Speichern des Ergebnisses als PNG – sodass Sie die Lebendigkeit steigern und web‑fertige Assets in Minuten vorbereiten können.
+
+## Schnelle Antworten
+- **Was bedeutet „export PSD to PNG“?** Es konvertiert ein Photoshop‑Dokument in ein verlustfreies PNG‑Bild und bewahrt dabei die Transparenz.  
+- **Kann ich die Levels vor dem Export anpassen?** Ja, Aspose.PSD ermöglicht es Ihnen, Eingabe‑ und Ausgabe‑Levels programmgesteuert zu ändern.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Ist Stapelverarbeitung möglich?** Absolut – Sie können den Code in einer Schleife platzieren, um mehrere PSD‑Dateien zu verarbeiten.  
+- **Welche Java‑Version wird benötigt?** Java 8 oder neuer wird empfohlen.
+
+## Was ist „export PSD to PNG“?
+Das Exportieren einer PSD zu PNG bedeutet, die mehrschichtige Photoshop‑Datei zu nehmen und sie zu einem Portable Network Graphics‑Bild zu flachzulegen. PNG unterstützt verlustfreie Kompression und einen Alphakanal, wodurch es ideal für Web‑Grafiken und UI‑Assets ist.
+
+## Warum Levels vor dem Export anpassen?
+Das Anpassen der Levels ermöglicht es Ihnen, Schatten, Mitteltöne und Lichter zu steuern, wodurch der Gesamtkontrast und das Farbgleichgewicht verbessert werden. Dieser Schritt stellt sicher, dass das endgültige PNG ohne manuelle Nachbearbeitung in Photoshop professionell aussieht.
 
 ## Voraussetzungen
 
-- Java Development Kit (JDK): Stellen Sie sicher, dass auf Ihrem System eine aktuelle Version des JDK installiert ist. Sie können es von der Oracle-Website herunterladen ([https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)).
-- Aspose.PSD für Java-Bibliothek: Laden Sie die Aspose.PSD für Java-Bibliothek von der Download-Seite herunter ([https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)). Sie benötigen eine gültige Lizenz, um alle Funktionen nutzen zu können. Für den Einstieg steht jedoch eine kostenlose Testversion zur Verfügung ([https://releases.aspose.com/](https://releases.aspose.com/)).
+- **Java Development Kit (JDK)** – laden Sie die neueste Version von der Oracle‑Website herunter ([https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)).  
+- **Aspose.PSD for Java Library** – erhalten Sie sie von der offiziellen Download‑Seite ([https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)). Eine kostenlose Testversion ist verfügbar ([https://releases.aspose.com/](https://releases.aspose.com/)).
 
 ## Pakete importieren
 
-Bevor wir uns in den Code vertiefen, müssen wir die erforderlichen Aspose.PSD-Klassen importieren, um mit PSD-Dateien zu interagieren. Folgendes benötigen Sie:
+Bevor Sie in den Code eintauchen, importieren Sie die Klassen, die uns Zugriff auf die PSD‑Manipulation und den PNG‑Export geben:
 
 ```java
 import com.aspose.psd.Image;
@@ -35,13 +55,11 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
- Der`com.aspose.psd` Paket bietet Zugriff auf PSD-Manipulationsfunktionen, während`com.aspose.psd.imaging.PngOptions` ermöglicht es uns, Optionen beim Speichern des Bildes als PNG festzulegen.
+## Schritt‑für‑Schritt‑Anleitung
 
-Lassen Sie uns nun unser Abenteuer der Tonwertanpassung beginnen:
+### Schritt 1: Dateipfade definieren (Wie man die PSD‑Verarbeitung automatisiert)
 
-## Schritt 1: Dateipfade einrichten:
-
-- Definieren Sie Variablen für Ihr Dokumentverzeichnis (`dataDir`), Name der Quell-PSD-Datei (`sourceFileName`), Name der Ziel-PSD-Datei nach der Änderung (`psdPathAfterChange`) und dem endgültigen PNG-Exportpfad (`pngExportPath`). Erwägen Sie die Verwendung beschreibender Namen, um die Lesbarkeit des Codes zu verbessern.
+Legen Sie klare, beschreibende Variablen für die Quell‑PSD, die modifizierte PSD und den Zielort des PNG‑Exports fest.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -51,40 +69,40 @@ String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 String pngExportPath = dataDir + "LevelsAdjustmentLayerChanged.png";
 ```
 
-## Schritt 2: Laden des PSD-Bildes:
+### Schritt 2: PSD‑Bild laden
 
--  Verwenden Sie die`Image.load` Methode zum Öffnen der PSD-Quelldatei und Speichern in einem`PsdImage`Objekt (`im`). Aspose.PSD erkennt das Dateiformat automatisch.
+Verwenden Sie `Image.load`, um die PSD‑Datei in ein `PsdImage`‑Objekt zu laden. Aspose.PSD erkennt das Format automatisch.
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Schritt 3: Durch Schichten iterieren:
+### Schritt 3: Durch Ebenen iterieren (Wie man Levels anpasst)
 
-- Wir müssen die Ebene zur Tonwertkorrektur in Ihrer PSD-Datei finden. Aspose bietet eine praktische Möglichkeit, alle Ebenen mithilfe einer Schleife zu durchlaufen.
+Durchlaufen Sie jede Ebene, um die Levels Adjustment Layer zu finden.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
-   // ... (Code zur Überprüfung der Ebenenebene wird hier hinzugefügt)
+   // ... (code to check for Levels Layer will be added here)
 }
 ```
 
-## Schritt 4: Identifizieren der Ebenenebene:
+### Schritt 4: Die Levels‑Ebene identifizieren
 
-- Überprüfen Sie innerhalb der Schleife, ob die aktuelle Ebene (`im.getLayers()[i]` ) ist ein Beispiel für`LevelsLayer` Klasse mit dem`instanceof` Operator. 
--  Wenn dies der Fall ist, wandeln Sie die Ebene in eine`LevelsLayer` Objekt zur weiteren Manipulation.
+Überprüfen Sie jede Ebene mit `instanceof LevelsLayer`. Sobald sie gefunden ist, casten Sie sie, damit wir ihre Eigenschaften ändern können.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
    if (im.getLayers()[i] instanceof LevelsLayer) {
 	   LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-	   // ... (Code zum Anpassen der Ebenen wird hier hinzugefügt)
+	   // ... (code to adjust levels will be added here)
    }
 }
 ```
-## Schritt 5: Feinabstimmung der Pegel (Fortsetzung):
 
--  Passen Sie die Ausgangspegel mit`setOutputShadowLevel` Und`setOutputHighlightLevel` um die Dunkelheit und Helligkeit des resultierenden Bildes zu steuern. Diese Werte bestimmen den Bereich der Eingangspegel, der dem Ausgangsbereich zugeordnet wird.
+### Schritt 5: Levels feinabstimmen (Wie man Levels anpasst)
+
+Passen Sie sowohl Eingabe‑ als auch Ausgabe‑Levels für den ersten Kanal (in der Regel der zusammengesetzte Kanal) an. Diese Werte sind Beispiele; experimentieren Sie gern.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
@@ -92,29 +110,29 @@ for (int i = 0; i < im.getLayers().length; i++) {
 	   LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
 	   LevelChannel channel = levelsLayer.getChannel(0);
 
-	   // Eingangspegel anpassen (0-255):
-	   channel.setInputShadowLevel((short) 10); // Schatten leicht abdunkeln
-	   channel.setInputMidtoneLevel(2.0f);     // Mitteltöne verstärken
-	   channel.setInputHighlightLevel((short) 230); // Reduzieren von Glanzlichtern
+	   // Adjust Input Levels (0‑255):
+	   channel.setInputShadowLevel((short) 10); // Darken shadows slightly
+	   channel.setInputMidtoneLevel(2.0f);     // Increase midtones
+	   channel.setInputHighlightLevel((short) 230); // Reduce highlights
 
-	   // Ausgabepegel anpassen (0-255):
-	   channel.setOutputShadowLevel((short) 20); // Schatten weiter abdunkeln
-	   channel.setOutputHighlightLevel((short) 200); //Highlights aufhellen
+	   // Adjust Output Levels (0‑255):
+	   channel.setOutputShadowLevel((short) 20); // Darken shadows further
+	   channel.setOutputHighlightLevel((short) 200); // Brighten highlights
    }
 }
 ```
 
-## Schritt 6: Speichern der geänderten PSD:
+### Schritt 6: Modifizierte PSD speichern (Wie man PSD automatisiert)
 
--  Verwenden Sie die`save` Methode der`PsdImage` Objekt, um das geänderte Bild im angegebenen Pfad zu speichern (`psdPathAfterChange`).
+Speichern Sie die Änderungen in einer neuen PSD‑Datei.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-## Schritt 7: Als PNG exportieren (optional):
+### Schritt 7: Als PNG exportieren (Export PSD to PNG)
 
--  Wenn Sie eine PNG-Version des angepassten Bildes benötigen, erstellen Sie eine`PngOptions` Objekt und stellen Sie den Farbtyp auf`TruecolorWithAlpha` . Verwenden Sie dann die`save` Methode erneut mit dem PNG-Exportpfad und den Optionen.
+Falls Sie eine PNG‑Version benötigen, konfigurieren Sie `PngOptions` und speichern das Bild.
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -122,28 +140,45 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-Und da haben Sie es! Sie haben die Ebene zur Tonwertkorrektur in Ihrer PSD-Datei erfolgreich mit Aspose.PSD für Java angepasst. Wenn Sie diese Schritte verstehen und mit verschiedenen Werten experimentieren, können Sie den Kontrast und das Gesamterscheinungsbild Ihrer Bilder verbessern.
+## Häufige Anwendungsfälle
 
-## Abschluss
+- **Web‑Asset‑Vorbereitung:** Konvertieren Sie vom Designer bereitgestellte PSD‑Mockups in PNGs, die für Browser bereit sind.  
+- **Stapelverarbeitung:** Automatisieren Sie die Konvertierung von Dutzenden PSD‑Dateien in einer CI‑Pipeline.  
+- **Dynamische Bildgenerierung:** Passen Sie Levels in Echtzeit basierend auf Benutzereingaben an, bevor Sie exportieren.
 
-Mit Aspose.PSD für Java übernehmen Sie die Kontrolle über Ihren Bildbearbeitungsprozess. Indem Sie die Ebene zur Tonwertkorrektur beherrschen, können Sie Ihren Fotos und Designs neues Leben einhauchen. Denken Sie daran: Übung macht den Meister. Zögern Sie also nicht, zu experimentieren und das volle Potenzial dieses leistungsstarken Tools zu erkunden.
- 
+## Fehlerbehebung & Tipps
+
+- **Null‑Pointer beim Zugriff auf Ebenen:** Stellen Sie sicher, dass die PSD tatsächlich eine Levels Adjustment Layer enthält; andernfalls fügen Sie eine Null‑Prüfung hinzu.  
+- **Unerwartete Farben nach dem Export:** Vergewissern Sie sich, dass der PNG‑Farbtyp auf `TruecolorWithAlpha` gesetzt ist, um die Transparenz zu erhalten.  
+- **Leistung bei vielen Dateien:** Verwenden Sie dieselbe `PsdImage`‑Instanz wieder, wenn Sie einen Stapel verarbeiten, um Speicherverbrauch zu reduzieren.
+
 ## Häufig gestellte Fragen
 
-### Kann ich einzelne Farbkanäle (RGB) separat einstellen? 
-Ja, Sie können auf jeden Farbkanal zugreifen über die`getChannel` Methode der`LevelsLayer` Objekt und ändern dessen Ebenen unabhängig voneinander.
+**Q: Kann ich einzelne Farbkanäle (RGB) separat anpassen?**  
+A: Ja. Verwenden Sie `levelsLayer.getChannel(index)`, wobei `index` = 0 (Rot), 1 (Grün), 2 (Blau) ist, um jeden Kanal unabhängig zu justieren.
 
-### Wie gehe ich mit mehreren Ebenen zur Tonwertanpassung in einer PSD um?
-Der Code durchläuft alle Ebenen und verarbeitet daher automatisch alle zusätzlichen Ebenen, die im Bild gefunden werden.
+**Q: Wie gehe ich mit mehreren Levels Adjustment Layers in einer PSD um?**  
+A: Die Schleife verarbeitet jede Ebene; jede gefundene `LevelsLayer` wird gemäß dem Code im `if`‑Block angepasst.
 
-### Gibt es außer den Tonwertstufen noch andere Möglichkeiten, den Bildkontrast anzupassen?
-Auf jeden Fall! Aspose.PSD bietet verschiedene Bildanpassungstools wie Kurven, Helligkeit/Kontrast und mehr.
+**Q: Gibt es neben Levels noch andere Möglichkeiten, den Kontrast zu verbessern?**  
+A: Aspose.PSD bietet außerdem Anpassungen für Kurven, Helligkeit/Kontrast und Histogramm‑Equalisation.
 
-### Kann ich diesen Vorgang für mehrere Bilder automatisieren? 
-Ja, Sie können diesen Code in eine Schleife oder ein Stapelverarbeitungsskript integrieren, um mehrere PSD-Dateien effizient zu verarbeiten.
+**Q: Kann ich dies für einen Ordner mit PSD‑Dateien automatisieren?**  
+A: Verpacken Sie den gesamten Workflow in eine Schleife wie `File[] files = new File(dataDir).listFiles((d, name) -> name.endsWith(".psd"));` und verarbeiten jede Datei nacheinander.
 
-### Wo finde ich weitere Informationen und Unterstützung?
-Aspose bietet eine umfangreiche Dokumentation ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)) und ein Support-Forum ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) für alle Fragen oder Probleme, die auftreten können.
+**Q: Wo finde ich weitere Dokumentation und Support?**  
+A: Besuchen Sie die offizielle Referenz ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)) und das Community‑Forum ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)).
+
+## Fazit
+
+Durch das Beherrschen des **export PSD to PNG**‑Workflows und das Erlernen, **wie man Levels programmatisch anpasst**, erhalten Sie die volle Kontrolle über die Bildqualität, ohne Ihre Java‑Umgebung zu verlassen. Egal, ob Sie Assets für das Web vorbereiten, eine Design‑Pipeline automatisieren oder einen Batch‑Prozessor erstellen, Aspose.PSD für Java macht die Aufgabe einfach und zuverlässig.
+
+---
+
+**Zuletzt aktualisiert:** 2026-04-05  
+**Getestet mit:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
