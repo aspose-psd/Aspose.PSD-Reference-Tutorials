@@ -1,34 +1,57 @@
 ---
-title: عرض طبقة ضبط التعريض في ملفات PSD - Java
-linktitle: عرض طبقة ضبط التعريض في ملفات PSD - Java
-second_title: Aspose.PSD جافا API
-description: تعرف على كيفية عرض طبقات التعريض وضبطها في ملفات PSD باستخدام Aspose.PSD لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية لتعديل طبقات التعريض وإضافتها.
-weight: 15
+date: 2026-04-05
+description: تعلم كيفية عرض طبقة تعديل التعرض في ملفات PSD باستخدام Aspose.PSD للغة
+  Java. دليل خطوة بخطوة مع أمثلة على الشيفرة لتعديل وإضافة طبقات التعرض.
+keywords:
+- render exposure adjustment layer
+- exposure adjustment layer
+- Aspose.PSD Java
+linktitle: عرض طبقة تعديل التعرض في ملفات PSD - جافا
+second_title: Aspose.PSD Java API
+title: تصيير طبقة تعديل التعرض في ملفات PSD - جافا
 url: /ar/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# عرض طبقة ضبط التعريض في ملفات PSD - Java
+# عرض طبقة تعديل التعرض في ملفات PSD - Java
 
 ## مقدمة
 
-هل تعمل باستخدام ملفات Photoshop PSD وتحتاج إلى ضبط التعريض الضوئي أو إضافة طبقة ضبط التعريض برمجيًا؟ سواء كنت تقوم بتعديل الطبقات الموجودة أو إضافة طبقات جديدة، فإن Aspose.PSD for Java يوفر طريقة قوية وبديهية للتعامل مع هذه المهام. في هذا الدليل، سنتعرف على كيفية استخدام Aspose.PSD لـ Java لعرض طبقات ضبط التعريض الضوئي وتعديلها في ملفات PSD. بنهاية هذا البرنامج التعليمي، ستعرف كيفية ضبط إعدادات التعريض الضوئي في الطبقات الموجودة وإضافة طبقات ضبط التعريض الجديدة إلى ملفات PSD الخاصة بك. دعونا الغوص في!
+هل تعمل مع ملفات Photoshop PSD وتحتاج إلى **render exposure adjustment layer** برمجيًا؟ سواءً كنت تقوم بتعديل الطبقات الموجودة أو إضافة طبقات جديدة، توفر Aspose.PSD for Java طريقة قوية وبديهية للتعامل مع هذه المهام. في هذا الدليل، سنستعرض كيفية استخدام Aspose.PSD for Java لعرض وتعديل طبقات تعديل التعرض في ملفات PSD. بنهاية هذا الشرح، ستعرف كيفية تعديل إعدادات التعرض في الطبقات الموجودة وإضافة طبقات تعديل تعرض جديدة إلى ملفات PSD الخاصة بك. هيا نبدأ!
 
-## المتطلبات الأساسية
+## إجابات سريعة
 
-قبل أن ننتقل إلى البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+- **ما المكتبة المطلوبة؟** Aspose.PSD for Java
+- **هل يمكنني تعديل طبقة تعريض موجودة؟** نعم، يمكنك تغيير التعرض، الإزاحة، وتصحيح جاما.
+- **كيف يمكنني إضافة طبقة تعديل تعريض جديدة؟** استخدم `addExposureAdjustmentLayer()` على كائن `PsdImage`.
+- **هل يدعم التصدير إلى PNG؟** بالتأكيد – استخدم `PngOptions` لحفظ النتيجة كملف PNG.
+- **هل أحتاج إلى ترخيص للاستخدام الإنتاجي؟** يلزم الحصول على ترخيص تجاري للاستخدام الإنتاجي؛ يتوفر نسخة تجريبية مجانية.
 
-1. Java Development Kit (JDK): تحتاج إلى تثبيت JDK على جهازك. يفترض هذا الدليل أن لديك JDK 8 على الأقل.
-2.  Aspose.PSD لـ Java: أنت بحاجة إلى مكتبة Aspose.PSD للعمل مع ملفات PSD. يمكنك تنزيله من[هنا](https://releases.aspose.com/psd/java/).
-3. المعرفة الأساسية بـ Java: الإلمام ببرمجة Java سيساعدك على المتابعة بسهولة.
-4. IDE أو محرر النصوص: استخدم أي IDE مثل IntelliJ IDEA أو Eclipse أو محرر نصوص من اختيارك لكتابة كود Java وتشغيله.
+## ما هو render exposure adjustment layer؟
 
-## حزم الاستيراد
+طبقة تعديل التعرض هي طبقة Photoshop غير مدمرة تقوم بتغيير السطوع، الإزاحة، وجاما الصورة الأساسية. يعني عرضها تطبيق هذه الإعدادات بحيث يعكس النتيجة البصرية التعديلات، ويمكنك بعد ذلك تصديرها إلى صيغ مثل PNG.
 
-أول الأشياء أولاً، لنستورد الحزم الضرورية من Aspose.PSD لـ Java. تضمن هذه الخطوة أن الكود الخاص بنا يمكنه الاستفادة من ميزات المكتبة لمعالجة ملفات PSD.
+## لماذا نستخدم Aspose.PSD for Java لعرض طبقة تعديل التعرض؟
+
+- **تحكم كامل** – تعديل خصائص الطبقة دون فتح Photoshop.
+- **معالجة دفعة** – أتمتة التعديلات عبر العديد من الملفات.
+- **متعدد المنصات** – تشغيل على أي نظام يحتوي على JDK.
+- **يحافظ على بنية PSD** – إبقاء الطبقات قابلة للتحرير للتعديلات المستقبلية.
+
+## المتطلبات المسبقة
+
+1. **Java Development Kit (JDK)** – على الأقل JDK 8.
+2. **Aspose.PSD for Java** – قم بتنزيله من [here](https://releases.aspose.com/psd/java/).
+3. **Basic Java knowledge** – يجب أن تكون مرتاحًا مع بنية Java القياسية.
+4. **IDE or Text Editor** – IntelliJ IDEA، Eclipse، VS Code، أو أي محرر تفضله.
+
+## استيراد الحزم
+
+أولاً، استورد الفئات المطلوبة من Aspose.PSD:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,112 +61,124 @@ import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.ExposureLayer;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## الخطوة 1: قم بتحميل ملف PSD
+## كيفية عرض طبقة تعديل التعرض – دليل خطوة بخطوة
 
-للبدء، تحتاج إلى تحميل ملف PSD الخاص بك في التطبيق. وإليك كيف يمكنك القيام بذلك:
+### الخطوة 1: تحميل ملف PSD
+
+استبدل `"Your Document Directory"` بالمجلد الذي يحتوي على ملفات PSD الخاصة بك. تُعيد طريقة `Image.load()` كائن `PsdImage` الذي يمنحك وصولًا كاملاً إلى طبقات المستند.
 
 ```java
-String dataDir = "Your Document Directory";  // حدد دليل المستندات الخاص بك
-String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // مسار ملف PSD المصدر
+String dataDir = "Your Document Directory";  // Define your document directory
+String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Source PSD file path
 
-PsdImage im = (PsdImage) Image.load(sourceFileName);  // قم بتحميل ملف PSD
+PsdImage im = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 ```
 
- في مقتطف الشفرة هذا، استبدل`"Your Document Directory"` بالمسار الذي توجد به ملفات PSD الخاصة بك. ال`Image.load()` تقوم الطريقة بتحميل ملف PSD إلى مثيل`PsdImage`، والذي يسمح لك بمعالجة طبقاته.
+### الخطوة 2: تعديل طبقة تعديل التعرض الموجودة
 
-## الخطوة 2: تحرير طبقة ضبط التعريض الموجودة
-
-بمجرد تحميل ملف PSD، يمكنك الوصول إلى الطبقات الموجودة وتعديلها. إذا كان الملف يحتوي على طبقة ضبط التعرض، فيمكنك ضبط خصائصه:
+تقوم الحلقة بالمرور عبر كل طبقة، وتبحث عن أي `ExposureLayer`، وتحدّث ثلاثتها المعلمات الرئيسية. هذا هو جوهر **rendering the exposure adjustment layer** باستخدام القيم المخصصة الخاصة بك.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof ExposureLayer) {
         ExposureLayer expLayer = (ExposureLayer) im.getLayers()[i];
-        expLayer.setExposure(2);  // اضبط مستوى التعرض
-        expLayer.setOffset(-0.25f);  // تعيين الإزاحة
-        expLayer.setGammaCorrection(0.5f);  // ضبط تصحيح جاما
+        expLayer.setExposure(2);  // Adjust the exposure level
+        expLayer.setOffset(-0.25f);  // Set the offset
+        expLayer.setGammaCorrection(0.5f);  // Adjust the gamma correction
     }
 }
 ```
 
-في هذه الحلقة، نقوم بالتكرار على جميع طبقات ملف PSD. إذا وجدنا أ`ExposureLayer` ، نقوم بتعديله`Exposure`, `Offset` ، و`GammaCorrection` ملكيات. يتيح لك ذلك ضبط الإخراج المرئي لطبقة ضبط التعريض الضوئي.
+### الخطوة 3: حفظ ملف PSD المعدل
 
-## الخطوة 3: احفظ ملف PSD المعدل
-
-بعد إجراء التغييرات، تحتاج إلى حفظ ملف PSD المحدث:
+يحافظ ملف PSD المعدل على جميع الطبقات الأصلية دون تغيير، لكن تعديل التعرض الآن يعكس الإعدادات الجديدة.
 
 ```java
-String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // المسار لحفظ ملف PSD المعدل
+String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Path to save the modified PSD file
 
-im.save(psdPathAfterChange);  // احفظ التغييرات في ملف PSD
+im.save(psdPathAfterChange);  // Save the changes to the PSD file
 ```
 
-يحفظ هذا السطر ملف PSD المعدل في المسار المحدد، مع الحفاظ على تعديلات التعريض الضوئي.
+### الخطوة 4: تصدير النتيجة كـ PNG
 
-## الخطوة 4: التصدير بصيغة PNG
-
-لتصدير ملف PSD المحدث بصيغة PNG، اتبع الخطوات التالية:
+استخدام `PngOptions` مع `TruecolorWithAlpha` يضمن أن PNG المُصدَّر يحتفظ بعمق اللون الكامل وأي شفافية من PSD.
 
 ```java
-String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // المسار لحفظ ملف PNG
+String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Path to save the PNG file
 
-PngOptions saveOptions = new PngOptions();  // إنشاء خيارات PNG
-saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // اضبط نوع اللون على Truecolor باستخدام Alpha
+PngOptions saveOptions = new PngOptions();  // Create PNG options
+saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-im.save(pngExportPath, saveOptions);  // حفظ بصيغة PNG
+im.save(pngExportPath, saveOptions);  // Save as PNG
 ```
 
- هنا،`PngOptions` يُستخدم لتكوين إعدادات تصدير PNG.`PngColorType.TruecolorWithAlpha` يضمن أن ملف PNG يحتفظ بعمق الألوان والشفافية.
+### الخطوة 5: إضافة طبقة تعديل تعرض جديدة
 
-## الخطوة 5: إضافة طبقة ضبط التعرض الجديدة
-
-إذا كنت تريد إضافة طبقة ضبط تعريض جديدة إلى ملف PSD موجود، فيمكنك القيام بذلك باستخدام الكود التالي:
+إذا كنت بحاجة إلى **add a new exposure adjustment layer** إلى مستند موجود، استخدم الشيفرة التالية:
 
 ```java
-String sourceFileName = dataDir + "PhotoExample.psd";  // مسار ملف PSD المصدر
+String sourceFileName = dataDir + "PhotoExample.psd";  // Source PSD file path
 
-PsdImage img = (PsdImage) Image.load(sourceFileName);  // قم بتحميل ملف PSD
+PsdImage img = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 
-ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // أضف طبقة ضبط التعرض الجديدة
+ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Add new exposure adjustment layer
 
-String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // المسار لحفظ ملف PSD المعدل
-String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // المسار لحفظ ملف PNG
+String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Path to save the modified PSD file
+String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Path to save the PNG file
 
-img.save(psdPathAfterChange);  // احفظ التغييرات في ملف PSD
+img.save(psdPathAfterChange);  // Save the changes to the PSD file
 
-PngOptions options = new PngOptions();  // إنشاء خيارات PNG
-options.setColorType(PngColorType.TruecolorWithAlpha);  // اضبط نوع اللون على Truecolor باستخدام Alpha
+PngOptions options = new PngOptions();  // Create PNG options
+options.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-img.save(pngExportPath, options);  // حفظ بصيغة PNG
+img.save(pngExportPath, options);  // Save as PNG
 ```
 
-في هذه الخطوة، تتم إضافة طبقة ضبط تعريض جديدة إلى ملف PSD بقيم التعريض والإزاحة وتصحيح جاما المحددة. يتم بعد ذلك حفظ ملفات PSD وPNG المحدثة.
+## المشكلات الشائعة والنصائح
 
-## خاتمة
+- **Layer not found** – تأكد من أن PSD يحتوي فعليًا على `ExposureLayer`. استخدم `instanceof ExposureLayer` كما هو موضح لتجنب `ClassCastException`.
+- **File path errors** – استخدم مسارات مطلقة أو تحقق من أن `dataDir` ينتهي بفاصل ملفات (`/` أو `\`).
+- **License exception** – تشغيل البرنامج بدون ترخيص صالح سيضيف علامة مائية إلى الناتج. سجِّل ترخيصك مبكرًا في الشيفرة (`License license = new License(); license.setLicense("Aspose.PSD.lic");`).
 
-وهنا لديك! لقد تعلمت كيفية عرض طبقات التعريض وضبطها في ملفات PSD باستخدام Aspose.PSD لـ Java. لقد تناولنا كيفية تعديل طبقات التعريض الموجودة وإضافة طبقات جديدة وتصدير عملك كملفات PNG. سواء كنت تقوم بتعديل الصور أو إعداد أصول التصميم، فإن هذه المهارات ستعزز قدرتك على إدارة ملفات PSD برمجيًا. ترميز سعيد!
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+### ما هو Aspose.PSD for Java؟
 
-### ما هو Aspose.PSD لجافا؟
+Aspose.PSD for Java هي مكتبة تتيح لك إنشاء وتعديل وتحويل ملفات PSD برمجيًا باستخدام Java. توفر وظائف شاملة للعمل مع مستندات Photoshop.
 
-Aspose.PSD for Java هي مكتبة تتيح لك إنشاء ملفات PSD وتحريرها وتحويلها برمجيًا باستخدام Java. يوفر وظائف شاملة للعمل مع مستندات Photoshop.
+### هل يمكنني استخدام Aspose.PSD for Java للتعامل مع أنواع أخرى من الطبقات؟
 
-### هل يمكنني استخدام Aspose.PSD لـ Java لمعالجة أنواع أخرى من الطبقات؟
+نعم، يدعم Aspose.PSD for Java أنواعًا مختلفة من الطبقات، بما في ذلك طبقات النص، طبقات التعديل، وطبقات الصورة، مما يتيح تعديلًا واسعًا لملفات PSD.
 
-نعم، يدعم Aspose.PSD for Java أنواعًا مختلفة من الطبقات، بما في ذلك طبقات النص وطبقات الضبط وطبقات الصور، مما يسمح بمعالجة واسعة النطاق لملفات PSD.
+### كيف أبدأ باستخدام Aspose.PSD for Java؟
 
-### كيف أبدأ باستخدام Aspose.PSD لـ Java؟
+يمكنك البدء بتنزيل المكتبة من [website](https://releases.aspose.com/psd/java/) والاطلاع على [documentation](https://reference.aspose.com/psd/java/) للحصول على أدلة مفصلة وأمثلة.
 
- يمكنك البدء بتنزيل المكتبة من[موقع إلكتروني](https://releases.aspose.com/psd/java/) والإشارة إلى[الوثائق](https://reference.aspose.com/psd/java/) للحصول على أدلة وأمثلة مفصلة.
+### هل تتوفر نسخة تجريبية مجانية لـ Aspose.PSD for Java؟
 
-### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
+نعم، تتوفر نسخة تجريبية مجانية. يمكنك تنزيلها من [here](https://releases.aspose.com/).
 
- نعم، تتوفر نسخة تجريبية مجانية. يمكنك تنزيله[هنا](https://releases.aspose.com/).
+### كيف يمكنني الحصول على الدعم لـ Aspose.PSD for Java؟
 
-### كيف يمكنني الحصول على الدعم لـ Aspose.PSD لـ Java؟
+للحصول على الدعم، يمكنك زيارة [Aspose support forum](https://forum.aspose.com/c/psd/34) حيث يمكنك طرح الأسئلة والحصول على مساعدة من المجتمع.
 
- للحصول على الدعم، يمكنك زيارة[Aspose منتدى الدعم](https://forum.aspose.com/c/psd/34) حيث يمكنك طرح الأسئلة والحصول على المساعدة من المجتمع.
+**أسئلة إضافية**
+
+**س: هل يمكنني معالجة دفعة من ملفات PSD متعددة؟**  
+ج: بالتأكيد. ضع منطق التحميل، التعديل، والحفظ داخل حلقة تتكرر على قائمة مسارات الملفات.
+
+**س: هل تحتفظ المكتبة بهيكل الطبقات عند إضافة طبقة تعريض جديدة؟**  
+ج: نعم. تُضاف الطبقة الجديدة فوق الطبقات الموجودة، مع الحفاظ على الهيكل الأصلي.
+
+**س: ما هي صيغ الصور التي يمكنني التصدير إليها بخلاف PNG؟**  
+ج: يدعم Aspose.PSD صيغ JPEG، BMP، TIFF، والعديد من الصيغ الأخرى عبر الفئات المقابلة `*Options`.
+
+---
+
+**آخر تحديث:** 2026-04-05  
+**تم الاختبار مع:** Aspose.PSD for Java 24.10  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
