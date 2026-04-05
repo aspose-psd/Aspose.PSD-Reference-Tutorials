@@ -1,30 +1,50 @@
 ---
-title: Couche de réglage du niveau de rendu dans les fichiers PSD - Java
-linktitle: Couche de réglage du niveau de rendu dans les fichiers PSD - Java
-second_title: API Java Aspose.PSD
-description: Apprenez à améliorer sans effort le contraste et le dynamisme de l'image à l'aide d'Aspose.PSD pour Java. Couches de réglage des niveaux de maîtrise avec ce guide étape par étape.
-weight: 17
+date: 2026-04-05
+description: Apprenez à exporter des PSD en PNG et à améliorer facilement le contraste
+  de l'image avec Aspose.PSD pour Java. Maîtrisez les calques de réglage des niveaux
+  grâce à ce guide pas à pas.
+keywords:
+- export psd to png
+- how to adjust levels
+- batch process psd files
+linktitle: Exporter le PSD en PNG et rendre le calque de réglage de niveau en Java
+second_title: Aspose.PSD Java API
+title: Exporter le PSD en PNG et rendre le calque de réglage de niveaux en Java
 url: /fr/java/psd-layer-management-effects/render-level-adjustment-layer-psd/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Couche de réglage du niveau de rendu dans les fichiers PSD - Java
+# Exporter PSD en PNG et rendre le calque d'ajustement de niveaux en Java
 
 ## Introduction
 
-Avez-vous déjà ouvert un fichier PSD uniquement pour constater que l'image manquait de contraste ou de dynamisme ? N'ayez crainte, guerriers de l'édition d'images ! Aspose.PSD pour Java vient à la rescousse avec ses puissantes capacités de manipulation des couches de réglage des niveaux. Ce guide vous fournira les connaissances nécessaires pour affiner vos images en utilisant les niveaux en un clin d'œil. 
+Vous avez déjà ouvert un fichier PSD pour constater que les couleurs semblent ternes ou que le contraste est mauvais ? Vous pouvez rapidement **exporter PSD en PNG** tout en ajustant finement l'image avec un calque d'ajustement de niveaux à l'aide d'Aspose.PSD pour Java. Dans ce tutoriel, nous parcourrons l'ensemble du processus — du chargement d'un PSD, à l'ajustement de ses niveaux, jusqu'à l'enregistrement du résultat en PNG — afin que vous puissiez augmenter la vivacité et préparer des ressources prêtes pour le web en quelques minutes.
 
-## Conditions préalables
+## Réponses rapides
+- **Qu'est-ce que « exporter PSD en PNG » signifie ?** Cela convertit un document Photoshop en une image PNG sans perte tout en préservant la transparence.  
+- **Puis-je ajuster les niveaux avant d'exporter ?** Oui, Aspose.PSD vous permet de modifier les niveaux d'entrée et de sortie de façon programmatique.  
+- **Ai-je besoin d'une licence ?** Un essai gratuit suffit pour le développement ; une licence commerciale est requise pour la production.  
+- **Le traitement par lots est‑il possible ?** Absolument — vous pouvez placer le code dans une boucle pour gérer plusieurs fichiers PSD.  
+- **Quelle version de Java est requise ?** Java 8 ou plus récent est recommandé.
 
-- Kit de développement Java (JDK) : assurez-vous qu'une version récente de JDK est installée sur votre système. Vous pouvez le télécharger depuis le site Web d'Oracle ([https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)).
-- Bibliothèque Aspose.PSD pour Java : téléchargez la bibliothèque Aspose.PSD pour Java à partir de la page de téléchargement ([https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)). Vous aurez besoin d'une licence valide pour utiliser toutes les fonctionnalités, mais un essai gratuit est disponible pour vous aider à démarrer ([https://releases.aspose.com/](https://releases.aspose.com/)).
+## Qu'est-ce que « exporter PSD en PNG » ?
+Exporter un PSD en PNG signifie prendre le fichier Photoshop à calques et le rasteriser en une image Portable Network Graphics. PNG prend en charge la compression sans perte et un canal alpha, ce qui le rend idéal pour les graphiques web et les ressources d'interface utilisateur.
 
-## Importer des packages
+## Pourquoi ajuster les niveaux avant d'exporter ?
+L'ajustement des niveaux vous permet de contrôler les ombres, les tons moyens et les hautes lumières, améliorant le contraste global et l'équilibre des couleurs. Cette étape garantit que le PNG final apparaît soigné sans nécessiter de retouche manuelle dans Photoshop.
 
-Avant de plonger dans le code, nous devons importer les classes Aspose.PSD nécessaires pour interagir avec les fichiers PSD. Voici ce dont vous aurez besoin :
+## Prérequis
+
+- **Java Development Kit (JDK)** – téléchargez la dernière version depuis le site d'Oracle ([https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)).  
+- **Bibliothèque Aspose.PSD pour Java** – obtenez‑la depuis la page officielle de téléchargement ([https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)). Un essai gratuit est disponible ([https://releases.aspose.com/](https://releases.aspose.com/)).  
+
+## Importer les packages
+
+Avant de plonger dans le code, importez les classes qui nous donnent accès à la manipulation de PSD et à l'exportation PNG :
 
 ```java
 import com.aspose.psd.Image;
@@ -35,13 +55,11 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
- Le`com.aspose.psd` Le package donne accès aux fonctionnalités de manipulation PSD, tandis que`com.aspose.psd.imaging.PngOptions` nous permet de définir des options lors de l'enregistrement de l'image au format PNG.
+## Guide étape par étape
 
-Maintenant, lançons-nous dans notre aventure d'ajustement des niveaux :
+### Étape 1 : Définir les chemins de fichiers (Comment automatiser le traitement PSD)
 
-## Étape 1 : Configuration des chemins de fichiers :
-
-- Définissez des variables pour votre répertoire de documents (`dataDir`), nom du fichier PSD source (`sourceFileName`), nom du fichier PSD cible après modification (`psdPathAfterChange`) et le chemin d'exportation PNG final (`pngExportPath`). Pensez à utiliser des noms descriptifs pour améliorer la lisibilité du code.
+Définissez des variables claires et descriptives pour le PSD source, le PSD modifié et l'emplacement d'exportation du PNG final.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -51,40 +69,40 @@ String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 String pngExportPath = dataDir + "LevelsAdjustmentLayerChanged.png";
 ```
 
-## Étape 2 : Chargement de l'image PSD :
+### Étape 2 : Charger l'image PSD
 
--  Utilisez le`Image.load` méthode pour ouvrir le fichier PSD source et le stocker dans un`PsdImage`objet (`im`). Aspose.PSD détecte automatiquement le format de fichier.
+Utilisez `Image.load` pour lire le fichier PSD dans un objet `PsdImage`. Aspose.PSD détecte automatiquement le format.
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Étape 3 : Itération à travers les couches :
+### Étape 3 : Parcourir les calques (Comment ajuster les niveaux)
 
-- Nous devons trouver le calque de réglage des niveaux dans votre PSD. Aspose fournit un moyen pratique de parcourir toutes les couches à l'aide d'une boucle.
+Parcourez chaque calque afin de localiser le calque d'ajustement de niveaux.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
-   // ... (le code pour vérifier la couche de niveaux sera ajouté ici)
+   // ... (code to check for Levels Layer will be added here)
 }
 ```
 
-## Étape 4 : Identification de la couche de niveaux :
+### Étape 4 : Identifier le calque de niveaux
 
-- À l'intérieur de la boucle, vérifiez si le calque actuel (`im.getLayers()[i]` ) est une instance de`LevelsLayer` classe en utilisant le`instanceof` opérateur. 
--  Si tel est le cas, convertissez le calque en un`LevelsLayer` objet pour une manipulation ultérieure.
+Vérifiez chaque calque avec `instanceof LevelsLayer`. Lorsqu'il est trouvé, effectuez un cast afin de pouvoir modifier ses propriétés.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
    if (im.getLayers()[i] instanceof LevelsLayer) {
 	   LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-	   // ... (le code pour ajuster les niveaux sera ajouté ici)
+	   // ... (code to adjust levels will be added here)
    }
 }
 ```
-## Étape 5 : Affiner les niveaux (suite) :
 
--  Ajustez les niveaux de sortie à l’aide de`setOutputShadowLevel` et`setOutputHighlightLevel` pour contrôler l'obscurité et la clarté de l'image résultante. Ces valeurs déterminent la plage de niveaux d'entrée qui sera mappée à la plage de sortie.
+### Étape 5 : Ajuster finement les niveaux (Comment ajuster les niveaux)
+
+Ajustez les niveaux d'entrée et de sortie pour le premier canal (généralement le canal composite). Ces valeurs sont des exemples ; n'hésitez pas à expérimenter.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
@@ -92,29 +110,29 @@ for (int i = 0; i < im.getLayers().length; i++) {
 	   LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
 	   LevelChannel channel = levelsLayer.getChannel(0);
 
-	   // Ajustez les niveaux d'entrée (0-255) :
-	   channel.setInputShadowLevel((short) 10); // Assombrir légèrement les ombres
-	   channel.setInputMidtoneLevel(2.0f);     // Augmenter les tons moyens
-	   channel.setInputHighlightLevel((short) 230); // Réduire les reflets
+	   // Adjust Input Levels (0‑255):
+	   channel.setInputShadowLevel((short) 10); // Darken shadows slightly
+	   channel.setInputMidtoneLevel(2.0f);     // Increase midtones
+	   channel.setInputHighlightLevel((short) 230); // Reduce highlights
 
-	   // Ajustez les niveaux de sortie (0-255) :
-	   channel.setOutputShadowLevel((short) 20); // Assombrir davantage les ombres
-	   channel.setOutputHighlightLevel((short) 200); //Éclaircir les reflets
+	   // Adjust Output Levels (0‑255):
+	   channel.setOutputShadowLevel((short) 20); // Darken shadows further
+	   channel.setOutputHighlightLevel((short) 200); // Brighten highlights
    }
 }
 ```
 
-## Étape 6 : Enregistrement du PSD modifié :
+### Étape 6 : Enregistrer le PSD modifié (Comment automatiser le PSD)
 
--  Utilisez le`save` méthode du`PsdImage` objet pour enregistrer l'image modifiée dans le chemin spécifié (`psdPathAfterChange`).
+Enregistrez les modifications dans un nouveau fichier PSD.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-## Étape 7 : Exportation au format PNG (facultatif) :
+### Étape 7 : Exporter en PNG (Exporter PSD en PNG)
 
--  Si vous avez besoin d'une version PNG de l'image ajustée, créez un`PngOptions` objet et définissez le type de couleur sur`TruecolorWithAlpha` . Ensuite, utilisez le`save` méthode à nouveau avec le chemin d’exportation PNG et les options.
+Si vous avez besoin d'une version PNG, configurez `PngOptions` et enregistrez l'image.
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -122,28 +140,45 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-Et voilà ! Vous avez ajusté avec succès la couche de réglage des niveaux dans votre fichier PSD à l'aide d'Aspose.PSD pour Java. En comprenant ces étapes et en expérimentant différentes valeurs, vous pouvez améliorer le contraste et l'apparence générale de vos images.
+## Cas d'utilisation courants
+
+- **Préparation d'actifs web :** Convertissez les maquettes PSD fournies par le designer en PNG prêts pour les navigateurs.  
+- **Traitement par lots :** Automatisez la conversion de dizaines de fichiers PSD dans un pipeline CI.  
+- **Génération d'images dynamiques :** Ajustez les niveaux à la volée en fonction des entrées utilisateur avant l'exportation.  
+
+## Dépannage et conseils
+
+- **Null pointer lors de l'accès aux calques :** Assurez‑vous que le PSD contient réellement un calque d'ajustement de niveaux ; sinon, ajoutez une vérification de null.  
+- **Couleurs inattendues après l'exportation :** Vérifiez que le type de couleur PNG est réglé sur `TruecolorWithAlpha` pour conserver la transparence.  
+- **Performance avec de nombreux fichiers :** Réutilisez la même instance `PsdImage` lors du traitement d'un lot afin de réduire la consommation de mémoire.  
+
+## Questions fréquemment posées
+
+**Q : Puis‑je ajuster séparément les canaux de couleur individuels (RGB) ?**  
+R : Oui. Utilisez `levelsLayer.getChannel(index)` où `index` = 0 (Rouge), 1 (Vert), 2 (Bleu) pour modifier chaque canal indépendamment.
+
+**Q : Comment gérer plusieurs calques d'ajustement de niveaux dans un même PSD ?**  
+R : La boucle traite chaque calque ; chaque `LevelsLayer` trouvé sera ajusté selon le code à l'intérieur du bloc `if`.
+
+**Q : Existe‑t‑il d'autres moyens d'améliorer le contraste en dehors des niveaux ?**  
+R : Aspose.PSD propose également les ajustements Courbes, Luminosité/Contraste et Égalisation d'histogramme.
+
+**Q : Puis‑je automatiser cela pour un dossier de fichiers PSD ?**  
+R : Enveloppez l'ensemble du flux de travail dans une boucle `File[] files = new File(dataDir).listFiles((d, name) -> name.endsWith(".psd"));` et traitez chaque fichier séquentiellement.
+
+**Q : Où puis‑je trouver plus de documentation et d'assistance ?**  
+R : Consultez la référence officielle ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)) et le forum communautaire ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)).
 
 ## Conclusion
 
-Aspose.PSD pour Java vous permet de prendre le contrôle de votre processus d'édition d'images. En maîtrisant le calque de réglage des niveaux, vous pouvez insuffler une nouvelle vie à vos photos et créations. N'oubliez pas que la pratique rend parfait, alors n'hésitez pas à expérimenter et à explorer tout le potentiel de cet outil puissant.
- 
-## FAQ
+En maîtrisant le flux de travail **exporter PSD en PNG** et en apprenant **comment ajuster les niveaux** de façon programmatique, vous obtenez un contrôle total sur la qualité de l'image sans quitter votre environnement Java. Que vous prépariez des ressources pour le web, automatisiez un pipeline de conception ou construisiez un processeur par lots, Aspose.PSD pour Java rend la tâche simple et fiable.
 
-### Puis-je régler les canaux de couleur individuels (RVB) séparément ? 
-Oui, vous pouvez accéder à chaque canal de couleur en utilisant le`getChannel` méthode du`LevelsLayer` objet et modifier ses niveaux indépendamment.
+---
 
-### Comment gérer plusieurs calques de réglage de niveaux dans un PSD ?
-Le code parcourt tous les calques, il traitera donc automatiquement tous les calques de niveaux supplémentaires trouvés dans l'image.
+**Dernière mise à jour :** 2026-04-05  
+**Testé avec :** Aspose.PSD 24.11 for Java  
+**Auteur :** Aspose  
 
-### Existe-t-il d'autres moyens de régler le contraste de l'image que les niveaux ?
-Absolument! Aspose.PSD propose divers outils de réglage d'image tels que les courbes, la luminosité/contraste, etc.
-
-### Puis-je automatiser ce processus pour plusieurs images ? 
-Oui, vous pouvez incorporer ce code dans un script de traitement en boucle ou par lots pour traiter efficacement plusieurs fichiers PSD.
-
-### Où puis-je trouver plus d’informations et d’assistance ?
-Aspose fournit une documentation complète ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)) et un forum d'assistance ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) pour toute question ou problème que vous pourriez rencontrer.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

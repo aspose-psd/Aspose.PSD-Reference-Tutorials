@@ -1,34 +1,55 @@
 ---
-title: PSD 檔案中的渲染曝光調整圖層 - Java
-linktitle: PSD 檔案中的渲染曝光調整圖層 - Java
+date: 2026-04-05
+description: 學習如何使用 Aspose.PSD for Java 在 PSD 檔案中渲染曝光調整圖層。提供逐步指南與程式碼範例，說明如何修改與新增曝光圖層。
+keywords:
+- render exposure adjustment layer
+- exposure adjustment layer
+- Aspose.PSD Java
+linktitle: 在 PSD 檔案中渲染曝光調整圖層 - Java
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD for Java 渲染和調整 PSD 檔案中的曝光圖層。包含修改和新增曝光層的程式碼範例的逐步指南。
-weight: 15
+title: 在 PSD 檔案中渲染曝光調整圖層 - Java
 url: /zh-hant/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD 檔案中的渲染曝光調整圖層 - Java
+# 在 PSD 檔案中渲染曝光調整圖層 - Java
 
 ## 介紹
 
-您是否正在使用 Photoshop PSD 檔案並需要以程式調整曝光或新增曝光調整圖層？無論您是調整現有圖層還是新增圖層，Aspose.PSD for Java 都提供了強大而直覺的方法來處理這些任務。在本指南中，我們將介紹如何使用 Aspose.PSD for Java 渲染和修改 PSD 檔案中的曝光調整圖層。在本教學結束時，您將了解如何調整現有圖層中的曝光設定以及如何將新的曝光調整圖層新增至 PSD 檔案。讓我們深入了解吧！
+您是否正在處理 Photoshop PSD 檔案，且需要以程式方式 **渲染曝光調整圖層**？無論是微調現有圖層或是新增圖層，Aspose.PSD for Java 都提供了一套強大且直觀的解決方案。在本指南中，我們將示範如何使用 Aspose.PSD for Java 來渲染與修改 PSD 檔案中的曝光調整圖層。完成本教學後，您將能在既有圖層中調整曝光設定，並向 PSD 檔案中加入新的曝光調整圖層。讓我們立即開始吧！
 
-## 先決條件
+## 快速答覆
+- **需要哪個函式庫？** Aspose.PSD for Java
+- **可以編輯既有的曝光圖層嗎？** 可以，您可以變更曝光、偏移與 gamma 校正。
+- **如何新增曝光調整圖層？** 在 `PsdImage` 實例上使用 `addExposureAdjustmentLayer()`。
+- **支援 PNG 匯出嗎？** 完全支援 – 使用 `PngOptions` 將結果儲存為 PNG。
+- **正式環境需要授權嗎？** 生產環境必須使用商業授權；亦提供免費試用版。
 
-在我們開始學習本教學之前，請確保您符合以下先決條件：
+## 什麼是渲染曝光調整圖層？
 
-1. Java 開發工具包 (JDK)：您需要在電腦上安裝 JDK。本指南假設您至少有 JDK 8。
-2.  Aspose.PSD for Java：您需要 Aspose.PSD 函式庫才能處理 PSD 檔案。您可以從以下位置下載：[這裡](https://releases.aspose.com/psd/java/).
-3. Java 基礎：熟悉 Java 程式設計將幫助您輕鬆掌握。
-4. IDE 或文字編輯器：使用 IntelliJ IDEA、Eclipse 等任何 IDE 或您選擇的文字編輯器來編寫和執行 Java 程式碼。
+曝光調整圖層是一種非破壞性的 Photoshop 圖層，會 **變更底層影像的亮度、偏移與 gamma**。渲染此圖層即是套用這些設定，使視覺結果呈現調整後的樣子，之後您可以將其匯出為 PNG 等格式。
 
-## 導入包
+## 為什麼使用 Aspose.PSD for Java 來渲染曝光調整圖層？
 
-首先，讓我們從 Aspose.PSD for Java 匯入必要的套件。此步驟可確保我們的程式碼可以利用該程式庫的功能來操作 PSD 檔案。
+- **完整控制** – 在不開啟 Photoshop 的情況下操作圖層屬性。
+- **批次處理** – 可自動對大量檔案執行調整。
+- **跨平台** – 只要有 JDK，即可在任何系統上執行。
+- **保留 PSD 結構** – 圖層仍保持可編輯，方便日後再修改。
+
+## 前置需求
+
+1. **Java Development Kit (JDK)** – 至少 JDK 8。
+2. **Aspose.PSD for Java** – 從 [here](https://releases.aspose.com/psd/java/) 下載。
+3. **基本的 Java 知識** – 您應熟悉標準的 Java 語法。
+4. **IDE 或文字編輯器** – 如 IntelliJ IDEA、Eclipse、VS Code，或任何您慣用的編輯器。
+
+## 匯入套件
+
+首先，匯入所需的 Aspose.PSD 類別：
 
 ```java
 import com.aspose.psd.Image;
@@ -38,112 +59,126 @@ import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.ExposureLayer;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## 第 1 步：載入 PSD 文件
+## 如何渲染曝光調整圖層 – 步驟說明
 
-首先，您需要將 PSD 檔案載入到應用程式中。您可以這樣做：
+### 步驟 1：載入 PSD 檔案
 
 ```java
-String dataDir = "Your Document Directory";  //定義您的文件目錄
-String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  //來源 PSD 檔案路徑
+String dataDir = "Your Document Directory";  // Define your document directory
+String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Source PSD file path
 
-PsdImage im = (PsdImage) Image.load(sourceFileName);  //載入 PSD 文件
+PsdImage im = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 ```
 
-在此程式碼片段中，替換`"Your Document Directory"`與 PSD 檔案所在的路徑。這`Image.load()`方法將 PSD 檔案載入到實例中`PsdImage`，它允許您操縱其圖層。
+將 `"Your Document Directory"` 替換為存放 **您的 PSD 檔案** 的資料夾路徑。`Image.load()` 方法會回傳一個 `PsdImage` 物件，讓您完整存取文件的圖層。
 
-## 步驟2：編輯現有的曝光調整圖層
-
-載入 PSD 檔案後，您可以存取和修改現有圖層。如果檔案包含曝光調整圖層，您可以調整其屬性：
+### 步驟 2：編輯既有的曝光調整圖層
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof ExposureLayer) {
         ExposureLayer expLayer = (ExposureLayer) im.getLayers()[i];
-        expLayer.setExposure(2);  //調整曝光等級
-        expLayer.setOffset(-0.25f);  //設定偏移量
-        expLayer.setGammaCorrection(0.5f);  //調整伽瑪校正
+        expLayer.setExposure(2);  // Adjust the exposure level
+        expLayer.setOffset(-0.25f);  // Set the offset
+        expLayer.setGammaCorrection(0.5f);  // Adjust the gamma correction
     }
 }
 ```
 
-在此循環中，我們迭代 PSD 檔案的所有層。如果我們找到一個`ExposureLayer`，我們修改它的`Exposure`, `Offset`， 和`GammaCorrection`特性。這允許您微調曝光調整圖層的視覺輸出。
+此 **迴圈** 會遍歷每一個圖層，尋找 `ExposureLayer`，並更新其三個關鍵參數。這就是 **渲染曝光調整圖層** 並套用自訂值的核心程式碼。
 
-## 步驟3：儲存修改後的PSD文件
-
-進行更改後，您需要儲存更新的 PSD 檔案：
+### 步驟 3：儲存已修改的 PSD 檔案
 
 ```java
-String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  //修改後的PSD檔案儲存路徑
+String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Path to save the modified PSD file
 
-im.save(psdPathAfterChange);  //儲存對 PSD 檔案的更改
+im.save(psdPathAfterChange);  // Save the changes to the PSD file
 ```
 
-此行將修改後的 PSD 檔案儲存到指定路徑，保留您的曝光調整。
+修改後的 PSD 仍保留所有原始圖層，但曝光調整已反映新設定。
 
-## 第 4 步：導出為 PNG
-
-若要將更新的 PSD 檔案匯出為 PNG，請依照下列步驟操作：
+### 步驟 4：將結果匯出為 PNG
 
 ```java
-String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // PNG檔案的儲存路徑
+String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Path to save the PNG file
 
-PngOptions saveOptions = new PngOptions();  //建立 PNG 選項
-saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  //將顏色類型設定為帶有 Alpha 的 Truecolor
+PngOptions saveOptions = new PngOptions();  // Create PNG options
+saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-im.save(pngExportPath, saveOptions);  //另存為 PNG
+im.save(pngExportPath, saveOptions);  // Save as PNG
 ```
 
-這裡，`PngOptions`用於配置 PNG 導出設定。`PngColorType.TruecolorWithAlpha`確保 PNG 檔案保留顏色深度和透明度。
+使用 `PngOptions` 搭配 `TruecolorWithAlpha` 可確保匯出的 PNG 保留完整的色深與 PSD 中的任何 **透明度**。
 
-## 步驟5：新增新的曝光調整圖層
+### 步驟 5：新增曝光調整圖層
 
-如果要為現有 PSD 檔案新增新的曝光調整圖層，可以使用以下程式碼：
+若需在既有文件中 **新增曝光調整圖層**，請使用以下程式碼：
 
 ```java
-String sourceFileName = dataDir + "PhotoExample.psd";  //來源 PSD 檔案路徑
+String sourceFileName = dataDir + "PhotoExample.psd";  // Source PSD file path
 
-PsdImage img = (PsdImage) Image.load(sourceFileName);  //載入 PSD 文件
+PsdImage img = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 
-ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  //新增新的曝光調整圖層
+ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Add new exposure adjustment layer
 
-String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  //修改後的PSD檔案儲存路徑
-String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // PNG檔案的儲存路徑
+String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Path to save the modified PSD file
+String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Path to save the PNG file
 
-img.save(psdPathAfterChange);  //儲存對 PSD 檔案的更改
+img.save(psdPathAfterChange);  // Save the changes to the PSD file
 
-PngOptions options = new PngOptions();  //建立 PNG 選項
-options.setColorType(PngColorType.TruecolorWithAlpha);  //將顏色類型設定為帶有 Alpha 的 Truecolor
+PngOptions options = new PngOptions();  // Create PNG options
+options.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-img.save(pngExportPath, options);  //另存為 PNG
+img.save(pngExportPath, options);  // Save as PNG
 ```
 
-在此步驟中，將使用指定的曝光、偏移和伽瑪校正值將新的曝光調整圖層新增至 PSD 檔案。然後儲存更新的 PSD 和 PNG 檔案。
+`addExposureAdjustmentLayer` 方法會建立一個全新的調整圖層，並設定指定的曝光、偏移與 gamma 值，之後您可以像之前一樣渲染並匯出。
 
-## 結論
+## 常見問題與技巧
 
-現在你就擁有了！您已經了解如何使用 Aspose.PSD for Java 渲染和調整 PSD 檔案中的曝光圖層。我們介紹如何修改現有的曝光圖層、新增圖層以及將您的作品匯出為 PNG 檔案。無論您是在調整照片還是準備設計資源，這些技能都將增強您以程式設計方式管理 PSD 檔案的能力。快樂編碼！
+- **找不到圖層** – 請確認 PSD 確實包含 `ExposureLayer`。如範例所示使用 `instanceof ExposureLayer` 可避免 `ClassCastException`。
+- **檔案路徑錯誤** – 請使用絕對路徑，或確保 `dataDir` 以檔案分隔符 (`/` 或 `\`) 結尾。
+- **授權例外** – 未載入有效授權時，輸出會加上浮水印。請在程式碼開頭註冊授權 (`License license = new License(); license.setLicense("Aspose.PSD.lic");`)。
 
-## 常見問題解答
+## 常見問答
 
-### 什麼是 Java 版 Aspose.PSD？
+### 什麼是 Aspose.PSD for Java？
 
-Aspose.PSD for Java 是一個函式庫，可讓您使用 Java 以程式設計方式建立、編輯和轉換 PSD 檔案。它提供了處理 Photoshop 文件的全面功能。
+Aspose.PSD for Java 是一套可讓您以 Java 程式語言建立、編輯與轉換 PSD 檔案的函式庫，提供完整的 Photoshop 文件操作功能。
 
-### 我可以使用 Aspose.PSD for Java 來操作其他類型的圖層嗎？
+### 我可以使用 Aspose.PSD for Java 操作其他類型的圖層嗎？
 
-是的，Aspose.PSD for Java 支援各種類型的圖層，包括文字圖層、調整圖層和圖像圖層，允許對 PSD 檔案進行廣泛的操作。
+可以，Aspose.PSD for Java 支援多種圖層類型，包括文字圖層、調整圖層與影像圖層，讓您對 PSD 檔案進行廣泛的操作。
 
 ### 如何開始使用 Aspose.PSD for Java？
 
-您可以從以下位置開始下載該庫：[網站](https://releases.aspose.com/psd/java/)並提到[文件](https://reference.aspose.com/psd/java/)取得詳細指南和範例。
+您可以從 [website](https://releases.aspose.com/psd/java/) 下載函式庫，並參考 [documentation](https://reference.aspose.com/psd/java/) 取得詳細教學與範例。
 
-### Aspose.PSD for Java 是否有免費試用版？
+### 是否提供 Aspose.PSD for Java 的免費試用？
 
-是的，可以免費試用。你可以下載它[這裡](https://releases.aspose.com/).
+有的，您可以在此處下載免費試用版 [here](https://releases.aspose.com/)。
 
-### 如何獲得 Aspose.PSD for Java 支援？
+### 如何取得 Aspose.PSD for Java 的技術支援？
 
-如需支持，您可以訪問[Aspose 支援論壇](https://forum.aspose.com/c/psd/34)您可以在其中提出問題並從社區獲得幫助。
+您可前往 [Aspose support forum](https://forum.aspose.com/c/psd/34) 提問，社群成員會協助您解決問題。
+
+**其他問題**
+
+**Q: 我可以批次處理多個 PSD 檔案嗎？**  
+A: 當然可以。將載入、編輯與儲存的程式碼包在迴圈中，對檔案路徑清單逐一執行。
+
+**Q: 新增曝光圖層時，函式庫會保留圖層層級結構嗎？**  
+A: 會的。新圖層會被加入至現有圖層之上，保持原有的層級結構。
+
+**Q: 除了 PNG，還能匯出哪些影像格式？**  
+A: Aspose.PSD 支援 JPEG、BMP、TIFF 等多種格式，皆可透過對應的 `*Options` 類別設定。
+
+---
+
+**最後更新：** 2026-04-05  
+**測試環境：** Aspose.PSD for Java 24.10  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
