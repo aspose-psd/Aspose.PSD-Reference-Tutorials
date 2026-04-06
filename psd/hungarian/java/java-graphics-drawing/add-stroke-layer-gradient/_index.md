@@ -205,15 +205,15 @@ Igen, különféle effektusokat, például árnyékot, glow-t és egyebeket alka
 ### Hol találom az Aspose.PSD for Java dokumentációját?
 A dokumentációt [itt](https://reference.aspose.com/psd/java/) találod.
 
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose

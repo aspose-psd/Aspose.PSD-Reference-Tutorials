@@ -204,15 +204,15 @@ Aspose.PSD for Java는 Java 애플리케이션에서 PSD 파일을 작업할 수
 ### Aspose.PSD for Java 문서는 어디서 찾을 수 있나요?
 문서는 [여기](https://reference.aspose.com/psd/java/)에서 확인할 수 있습니다.
 
+---
+
+**마지막 업데이트:** 2026-01-14  
+**테스트 환경:** Aspose.PSD for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-01-14  
-**테스트 환경:** Aspose.PSD for Java 24.11  
-**작성자:** Aspose

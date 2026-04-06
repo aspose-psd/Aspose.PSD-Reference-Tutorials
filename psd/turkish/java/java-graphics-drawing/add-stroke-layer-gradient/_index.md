@@ -204,15 +204,15 @@ Evet, Aspose.PSD for Java ile gölge, parıltı ve daha fazlası gibi çeşitli 
 ### Aspose.PSD for Java belgelerini nerede bulabilirim?
 Belgeleri [burada](https://reference.aspose.com/psd/java/) bulabilirsiniz.
 
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose

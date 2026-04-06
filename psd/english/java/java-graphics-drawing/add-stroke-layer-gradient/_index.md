@@ -203,15 +203,15 @@ Yes, you can apply various effects like shadow, glow, and more using Aspose.PSD 
 ### Where can I find the documentation for Aspose.PSD for Java?
 You can find the documentation [here](https://reference.aspose.com/psd/java/).
 
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose

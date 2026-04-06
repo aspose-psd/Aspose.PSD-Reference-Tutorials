@@ -97,19 +97,19 @@ image.save(outFileName, tiffOptions);
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I convert other formats using Aspose.PSD for Java?**  
-A: ใช่, ไลบรารีรองรับ PSD, PNG, JPEG, BMP และรูปแบบราสเตอร์และเวกเตอร์อื่น ๆ อีกมากมาย
+**ถาม: ฉันสามารถแปลงรูปแบบอื่นโดยใช้ Aspose.PSD สำหรับ Java ได้หรือไม่**
+คำตอบ: ใช่, ไลบรารีรองรับ PSD, PNG, JPEG, BMP และรูปแบบราสเตอร์และอืนๆ ของเรื่องราวต่างๆ
 
-**Q: Do I need Adobe Illustrator installed to convert AI files?**  
-A: ไม่จำเป็น, Aspose.PSD จัดการไฟล์ AI อย่างอิสระจาก Adobe Illustrator
+**ถาม: ฉันจำเป็นต้องติดตั้ง Adobe Illustrator เพื่อแปลงไฟล์ AI หรือไม่**
+ตอบ: ไม่จำเป็น Aspose.PSD จัดการไฟล์ AI เหมือนกับอิสระจาก Adobe Illustrator
 
-**Q: Can I apply custom compression options to the TIFF file?**  
-A: แน่นอน คุณสามารถเลือกค่า `TiffExpectedFormat` ต่าง ๆ เช่น `TiffLzw`, `TiffCcittFax4` หรือ `TiffDeflateRgba` ตามความต้องการของคุณ
+**ถาม: ฉันสามารถใช้ตัวเลือกการบีบอัดแบบกำหนดเองกับไฟล์ TIFF ได้หรือไม่**
+ตอบ: เราจะพบกับค่า `TiffExpectedFormat` ต่าง ๆ มากมาย เช่น `TiffLzw`, `TiffCcittFax4` หรือ `TiffDeflateRgba` คุณจะพบของคุณ
 
-**Q: Is there a free trial available for Aspose.PSD for Java?**  
-A: มี, คุณสามารถดาวน์โหลด [free trial](https://releases.aspose.com/) เพื่อทดลองใช้ฟีเจอร์ต่าง ๆ
+**ถาม: Aspose.PSD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่**
+ตอบ: มี ดาวน์โหลดภาพยนตร์ต่างๆ [ทดลองใช้ฟรี](https://releases.aspose.com/) ไปยังแหล่งข้อมูลต่างๆ มากมาย
 
-**Q: Where can I get support for Aspose.PSD for Java?**  
+**ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.PSD สำหรับ Java ได้ที่ไหน** 
 A: คุณสามารถขอรับการสนับสนุนได้ที่ [Aspose.PSD Support Forum](https://forum.aspose.com/c/psd/34)
 
 ## สรุป

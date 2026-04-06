@@ -13,35 +13,35 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách tạo lớp viền gradient trong Java
+# Cách tạo gradient viền lớp trong Java
 
-## Introduction
-Bạn đã bao giờ tự hỏi làm thế nào để **tạo lớp viền gradient** trong các tệp PSD của mình bằng Java? Bạn đang ở đúng nơi! Hôm nay chúng ta sẽ khám phá Aspose.PSD cho Java — một thư viện mạnh mẽ cho phép bạn thao tác các tệp PSD một cách dễ dàng. Dù bạn mới bắt đầu lập trình đồ họa hay muốn tinh chỉnh các thiết kế hiện có, hướng dẫn này sẽ hướng dẫn bạn từng bước thêm và tùy chỉnh gradient cho viền.
+## Giới thiệu
+Bạn đã bao giờ tự hỏi làm thế nào để **tạo lớp viền gradient** trong các tệp PSD của mình bằng Java? Bạn đang ở đúng nơi! Hôm nay chúng tôi sẽ khám phá Aspose.PSD cho Java — một thư mạnh mẽ cho phép bạn vận hành các tệp PSD một cách dễ dàng. Dù bạn mới bắt đầu cài đặt đồ họa hay muốn điều chỉnh các thiết kế hiện có, hướng dẫn này sẽ hướng dẫn bạn từng bước bổ sung và tùy chỉnh đường viền gradient.
 
-## Quick Answers
-- **What is the primary goal?** Mục tiêu chính là gì? Tạo một lớp viền gradient trên tệp PSD.  
-- **Which library is required?** Thư viện nào cần thiết? Aspose.PSD for Java.  
-- **Do I need a license?** Tôi có cần giấy phép không? Có, cần một giấy phép hợp lệ (hoặc tạm thời) cho môi trường sản xuất.  
-- **What Java version works?** Phiên bản Java nào hoạt động? Java 8 hoặc cao hơn.  
-- **How long does implementation take?** Thời gian thực hiện khoảng bao lâu? Khoảng 10‑15 phút cho một viền gradient cơ bản.
+## Trả lời nhanh
+- **Mục tiêu chính là gì?** Mục tiêu chính là gì? Tạo một gradient viền lớp trên tệp PSD.
+- **Cần có thư viện nào?** Thư viện nào cần thiết? Aspose.PSD cho Java.
+- **Tôi có cần giấy phép không?** Tôi có cần giấy phép không? Có, cần có hợp lệ giấy phép (hoặc tạm thời) cho môi trường sản xuất.
+- **Phiên bản Java nào hoạt động?** Phiên bản Java nào đang hoạt động? Java8hoặc cao hơn.
+- **Thời gian thực hiện mất bao lâu?** Thời gian thực hiện khoảng bao lâu? Khoảng 10‑15 phút cho một cơ sở gradient biên giới.
 
-## What is a Gradient Stroke Layer?
-Lớp viền gradient là một đường viền vector bao quanh một hình dạng hoặc văn bản, chuyển đổi mượt mà giữa các màu. Sử dụng Aspose.PSD, bạn có thể định nghĩa chương trình các màu, độ trong suốt, góc và loại (tuyến tính, bán kính, v.v.) của viền.
+## Lớp nét chuyển màu là gì?
+Lớp border gradient là một đường viền vector bao quanh một dạng hoặc văn bản, chuyển đổi mượt mà giữa các màu. Sử dụng Aspose.PSD, bạn có thể định nghĩa chương trình các màu, độ trong suốt, góc và loại (tuyến tính, bán kính, v.v.) của đường viền.
 
-## Why use Aspose.PSD for Java?
-- **Full PSD support** – Hỗ trợ đầy đủ PSD – đọc, chỉnh sửa và ghi các tệp PSD mà không cần Photoshop.  
-- **Rich effect API** – API hiệu ứng phong phú – truy cập viền, bóng, phát sáng và nhiều hiệu ứng lớp khác.  
-- **Cross‑platform** – Đa nền tảng – hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java.  
-- **No native dependencies** – Không phụ thuộc gốc – thuần Java, dễ tích hợp vào các pipeline CI.
+## Tại sao nên sử dụng Aspose.PSD cho Java?
+- **Hỗ trợ đầy đủ PSD** – Hỗ trợ đầy đủ PSD – đọc, chỉnh sửa và ghi các tệp PSD mà không cần Photoshop.
+- **API hiệu ứng phong phú** – API hiệu ứng phong phú – truy cập viền, bóng, phát sáng và nhiều lớp ứng dụng hiệu ứng khác.
+- **Đa nền tảng** – Nền tảng – hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java.
+- **Không có phụ thuộc gốc** – Không phụ thuộc gốc – thuần Java, dễ tích hợp vào CI đường ống.
 
-## Prerequisites
-1. **Java Development Kit (JDK)** – Bộ công cụ phát triển Java (JDK) – Cài đặt JDK mới nhất từ [trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.PSD for Java** – Aspose.PSD cho Java – Tải thư viện từ [trang tải xuống Aspose.PSD](https://releases.aspose.com/psd/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse hoặc NetBeans.  
-4. **License** – Giấy phép – Nhận một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn chưa có giấy phép đầy đủ.
+## Điều kiện tiên quyết
+1. **Bộ công cụ phát triển Java (JDK)** – Bộ công cụ phát triển Java (JDK) – Cài đặt JDK mới nhất từ ​​[trang web của Oracle](https://www.oracle.com/java/technologists/javase-downloads.html).
+2. **Aspose.PSD for Java** – Aspose.PSD cho Java – Tải thư viện từ [trang tải xuống Aspose.PSD](https://releases.aspose.com/psd/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse hoặc NetBeans.
+4. **Giấy phép** – Giấy phép – Nhận một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn chưa có giấy phép đầy đủ.
 
-## Import Packages
-First, import the classes we’ll need for loading the PSD, accessing effects, and configuring gradient fills.
+## Nhập gói
+Trước tiên, hãy nhập các lớp mà chúng ta cần để tải PSD, truy cập các hiệu ứng và định cấu hình tô màu chuyển màu.
 
 ```java
 import com.aspose.psd.Color;
@@ -60,10 +60,10 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-Now let’s break the process into clear steps.
+Bây giờ hãy chia quá trình thành các bước rõ ràng.
 
-## Step 1: Load the PSD File
-We load the source PSD and enable effect resources so the stroke effect is available.
+## Bước 1: Tải tập tin PSD
+Chúng ta tải tập tin PSD nguồn và kích hoạt các tài nguyên hiệu ứng để hiệu ứng đường viền có thể sử dụng được.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -74,15 +74,15 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
-## Step 2: Access the Stroke Effect
-Assuming the stroke we want to modify belongs to the third layer (index 2), we retrieve its `StrokeEffect`.
+## Bước 2: Truy cập hiệu ứng nét vẽ
+Giả sử nét vẽ chúng ta muốn chỉnh sửa thuộc về lớp thứ ba (index2), chúng ta truy xuất thuộc tính `StrokeEffect` của nó.
 
 ```java
 StrokeEffect gradientStroke = (StrokeEffect) im.getLayers()[2].getBlendingOptions().getEffects()[0];
 ```
 
-## Step 3: Verify Stroke Effect Properties
-Before making changes, we confirm the existing settings so we know exactly what we’re updating.
+## Bước 3: Kiểm tra thuộc tính hiệu ứng nét vẽ
+Trước khi thực hiện thay đổi, chúng ta xác nhận các cài đặt hiện có để biết chính xác những gì chúng ta đang cập nhật.
 
 ```java
 Assert.areEqual(BlendMode.Normal, gradientStroke.getBlendMode());
@@ -100,8 +100,8 @@ Assert.isTrue(Math.abs(0 - fillSettings.getVerticalOffset()) < 0.001, "Vertical 
 Assert.areEqual(false, fillSettings.getReverse());
 ```
 
-## Step 4: Modify the Gradient Fill Settings
-Here we change the color, opacity, blend mode, and other properties to achieve the desired look.
+## Bước 4: Chỉnh sửa cài đặt tô màu chuyển sắc
+Tại đây, chúng ta thay đổi màu sắc, độ mờ, chế độ hòa trộn và các thuộc tính khác để đạt được giao diện mong muốn.
 
 ```java
 fillSettings.setColor(Color.getGreen());
@@ -116,8 +116,8 @@ fillSettings.setVerticalOffset(11);
 fillSettings.setReverse(true);
 ```
 
-## Step 5: Add and Modify Color and Transparency Points
-We add new color and transparency points, then adjust the existing ones to shape the gradient.
+## Bước 5: Thêm và chỉnh sửa điểm màu và độ trong suốt
+Chúng ta thêm các điểm màu và độ trong suốt mới, sau đó điều chỉnh các điểm hiện có để tạo hình chuyển sắc.
 
 ```java
 // Add new color point
@@ -136,15 +136,15 @@ transparencyPoint.setLocation(4096);
 fillSettings.getTransparencyPoints()[1].setLocation(2411);
 ```
 
-## Step 6: Save the Modified PSD File
-After all adjustments, we write the updated file back to disk.
+## Bước 6: Lưu tệp PSD đã chỉnh sửa
+Sau khi thực hiện tất cả các điều chỉnh, chúng ta ghi tệp đã cập nhật trở lại ổ đĩa.
 
 ```java
 im.save(exportPath);
 ```
 
-## Step 7: Verify the Modifications
-Load the saved file and assert that every property reflects the changes we applied.
+## Bước 7: Kiểm tra các chỉnh sửa
+Tải tệp đã lưu và xác nhận rằng mọi thuộc tính đều phản ánh các thay đổi chúng ta đã áp dụng.
 
 ```java
 PsdImage img = (PsdImage) Image.load(exportPath, loadOptions);
@@ -185,24 +185,30 @@ Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
 
-## Conclusion
-You now know how to **create gradient stroke layer** effects in PSD files using Aspose.PSD for Java. By loading a PSD, accessing the stroke effect, tweaking gradient fill settings, and saving the result, you can programmatically produce professional‑grade graphics without ever opening Photoshop.
+## Phần kết luận
+Bây giờ bạn đã biết cách **tạo hiệu ứng lớp nét chuyển màu** trong tệp PSD bằng Aspose.PSD cho Java. Bằng cách tải PSD, truy cập hiệu ứng nét vẽ, điều chỉnh cài đặt tô màu chuyển màu và lưu kết quả, bạn có thể tạo đồ họa cấp chuyên nghiệp theo chương trình mà không cần mở Photoshop.
 
-## FAQ's
-### What is Aspose.PSD for Java?
+## Câu hỏi thường gặp
+### Aspose.PSD cho Java là gì?
 Aspose.PSD for Java là một thư viện cho phép các nhà phát triển làm việc với các tệp PSD trong các ứng dụng Java, cung cấp các tính năng để tạo, thao tác và chuyển đổi tệp PSD.
 
-### Do I need a license to use Aspose.PSD for Java?
-Có, bạn cần một giấy phép hợp lệ để sử dụng Aspose.PSD cho Java. Bạn có thể nhận một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+### Tôi có cần giấy phép để sử dụng Aspose.PSD cho Java không?
+Có, bạn cần có giấy phép hợp lệ để sử dụng Aspose.PSD cho Java. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
-### Can I use Aspose.PSD for Java to create PSD files from scratch?
-Chắc chắn! Aspose.PSD cho Java cung cấp các API toàn diện để tạo và thao tác các tệp PSD một cách lập trình.
+### Tôi có thể sử dụng Aspose.PSD cho Java để tạo tệp PSD từ đầu không?
+Chắc chắn! Aspose.PSD cho Java cung cấp các API toàn diện để tạo và vận hành các tệp PSD theo cách thiết lập.
 
-### Is it possible to apply other effects using Aspose.PSD for Java?
-Có, bạn có thể áp dụng các hiệu ứng khác như bóng, phát sáng và nhiều hơn nữa bằng Aspose.PSD cho Java.
+### Có thể áp dụng các hiệu ứng khác bằng Aspose.PSD cho Java không?
+Có, bạn có thể áp dụng các ứng dụng khác như bóng, phát sáng và nhiều thứ khác bằng Aspose.PSD cho Java.
 
-### Where can I find the documentation for Aspose.PSD for Java?
+### Tôi có thể tìm tài liệu về Aspose.PSD cho Java ở đâu?
 Bạn có thể tìm tài liệu [tại đây](https://reference.aspose.com/psd/java/).
+
+---
+
+**Cập nhật lần cuối:** 2026-01-14
+**Đã thử nghiệm với:** Aspose.PSD cho Java 24.11
+**Tác giả:** Giả định
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -210,9 +216,3 @@ Bạn có thể tìm tài liệu [tại đây](https://reference.aspose.com/psd/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose

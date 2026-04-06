@@ -204,15 +204,15 @@ Ano, můžete aplikovat různé efekty jako stín, záři a další pomocí Aspo
 ### Kde najdu dokumentaci k Aspose.PSD pro Java?
 Dokumentaci najdete [zde](https://reference.aspose.com/psd/java/).
 
+---
+
+**Poslední aktualizace:** 2026-01-14  
+**Testováno s:** Aspose.PSD pro Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-14  
-**Testováno s:** Aspose.PSD pro Java 24.11  
-**Autor:** Aspose

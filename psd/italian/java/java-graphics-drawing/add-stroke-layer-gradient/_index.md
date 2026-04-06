@@ -205,15 +205,15 @@ Sì, puoi applicare vari effetti come ombra, bagliore e molti altri usando Aspos
 ### Dove posso trovare la documentazione per Aspose.PSD per Java?
 Puoi trovare la documentazione [qui](https://reference.aspose.com/psd/java/).
 
+---
+
+**Ultimo aggiornamento:** 2026-01-14  
+**Testato con:** Aspose.PSD per Java 24.11  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-14  
-**Testato con:** Aspose.PSD per Java 24.11  
-**Autore:** Aspose

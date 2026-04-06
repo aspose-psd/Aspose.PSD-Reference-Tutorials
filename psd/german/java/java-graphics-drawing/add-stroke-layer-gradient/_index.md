@@ -205,15 +205,15 @@ Ja, Sie können verschiedene Effekte wie Schatten, Leuchten und weitere mit Aspo
 ### Wo finde ich die Dokumentation für Aspose.PSD für Java?
 Die Dokumentation finden Sie [hier](https://reference.aspose.com/psd/java/).
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-14  
+**Getestet mit:** Aspose.PSD für Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-14  
-**Getestet mit:** Aspose.PSD für Java 24.11  
-**Autor:** Aspose

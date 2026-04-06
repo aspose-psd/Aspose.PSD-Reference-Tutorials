@@ -204,15 +204,15 @@ Tak, możesz zastosować różne efekty, takie jak cień, poświata i wiele inny
 ### Gdzie mogę znaleźć dokumentację Aspose.PSD for Java?
 Dokumentację znajdziesz [tutaj](https://reference.aspose.com/psd/java/).
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-14  
+**Testowano z:** Aspose.PSD for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-14  
-**Testowano z:** Aspose.PSD for Java 24.11  
-**Autor:** Aspose

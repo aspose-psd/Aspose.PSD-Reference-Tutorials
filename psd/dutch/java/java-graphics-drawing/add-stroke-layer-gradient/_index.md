@@ -204,15 +204,15 @@ Ja, je kunt verschillende effecten zoals schaduw, gloed en meer toepassen met As
 ### Waar kan ik de documentatie voor Aspose.PSD for Java vinden?
 Je kunt de documentatie vinden [hier](https://reference.aspose.com/psd/java/).
 
+---
+
+**Laatst bijgewerkt:** 2026-01-14  
+**Getest met:** Aspose.PSD for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-14  
-**Getest met:** Aspose.PSD for Java 24.11  
-**Auteur:** Aspose

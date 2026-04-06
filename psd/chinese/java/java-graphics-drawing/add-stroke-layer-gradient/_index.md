@@ -203,15 +203,15 @@ Aspose.PSD for Java 是一个库，允许开发者在 Java 应用程序中处理
 ### 哪里可以找到 Aspose.PSD for Java 的文档？
 文档可在 [此处](https://reference.aspose.com/psd/java/) 查看。
 
+---
+
+**最后更新：** 2026-01-14  
+**测试环境：** Aspose.PSD for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-14  
-**测试环境：** Aspose.PSD for Java 24.11  
-**作者：** Aspose

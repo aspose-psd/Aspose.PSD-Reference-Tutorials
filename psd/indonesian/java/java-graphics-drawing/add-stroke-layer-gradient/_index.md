@@ -205,15 +205,15 @@ Ya, Anda dapat menerapkan berbagai efek seperti bayangan, cahaya, dan lainnya me
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PSD untuk Java?
 Anda dapat menemukan dokumentasi [di sini](https://reference.aspose.com/psd/java/).
 
+---
+
+**Terakhir Diperbarui:** 2026-01-14  
+**Diuji Dengan:** Aspose.PSD untuk Java 24.11  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-14  
-**Diuji Dengan:** Aspose.PSD untuk Java 24.11  
-**Penulis:** Aspose

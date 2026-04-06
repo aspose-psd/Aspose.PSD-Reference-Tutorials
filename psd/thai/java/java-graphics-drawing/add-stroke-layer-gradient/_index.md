@@ -204,15 +204,15 @@ Aspose.PSD for Java เป็นไลบรารีที่ช่วยให
 ### จะหาเอกสารประกอบการใช้งาน Aspose.PSD for Java ได้จากที่ไหน?
 คุณสามารถดูเอกสารได้ [ที่นี่](https://reference.aspose.com/psd/java/)
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-14  
+**ทดสอบกับ:** Aspose.PSD for Java 24.11  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-14  
-**ทดสอบกับ:** Aspose.PSD for Java 24.11  
-**ผู้เขียน:** Aspose
