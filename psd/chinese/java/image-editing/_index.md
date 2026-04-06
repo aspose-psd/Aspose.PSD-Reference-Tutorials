@@ -93,12 +93,6 @@ weight: 23
 通过 Aspose.PSD for Java 提升图像质量。遵循我们的逐步指南，实现抖动并消除颜色条带。
 ### [使用 Aspose.PSD for Java 扩展和裁剪图像](./expand-and-crop-images/)
 学习如何使用 Aspose.PSD 在 Java 中扩展和裁剪图像。一步步指南，实现高效的图像处理。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 常见问题
 
@@ -122,3 +116,10 @@ A: 使用流式 API 并及时释放中间对象，以保持低内存占用。
 **最后更新：** 2025-12-30  
 **测试环境：** Aspose.PSD for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

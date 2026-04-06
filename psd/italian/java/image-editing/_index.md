@@ -93,12 +93,6 @@ Padroneggiate il ritaglio delle immagini con Aspose.PSD per Java. Un tutorial co
 Migliorate la qualità delle immagini con Aspose.PSD per Java. Seguite la nostra guida passo‑per‑passo per implementare il dithering ed eliminare le bande di colore.
 ### [Espandere e ritagliare le immagini con Aspose.PSD per Java](./expand-and-crop-images/)
 Imparate a espandere e ritagliare le immagini in Java usando Aspose.PSD. Guida passo‑per‑passo per un'elaborazione efficiente delle immagini.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Domande frequenti
 
@@ -122,3 +116,10 @@ R: Utilizzate le API di streaming e dispose degli oggetti intermedi tempestivame
 **Ultimo aggiornamento:** 2025-12-30  
 **Testato con:** Aspose.PSD for Java 24.12  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

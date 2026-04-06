@@ -138,13 +138,6 @@ im.save(psdPathAfterChange);
 **Ε: Υπάρχουν δωρεάν δοκιμαστικές εκδόσεις;**  
 Α: Ναι, εξερευνήστε την [δωρεάν δοκιμή](https://releases.aspose.com/) πριν αποφασίσετε.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-30  
@@ -152,3 +145,10 @@ im.save(psdPathAfterChange);
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

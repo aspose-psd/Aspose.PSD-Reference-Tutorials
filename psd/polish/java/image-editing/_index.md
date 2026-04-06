@@ -93,12 +93,6 @@ Opanuj przycinanie obrazów z Aspose.PSD dla Javy. Kompleksowy samouczek dla pł
 Popraw jakość obrazu z Aspose.PSD dla Javy. Skorzystaj z naszego przewodnika krok po kroku, aby wdrożyć dithering i wyeliminować pasmowanie kolorów.
 ### [Rozszerzanie i przycinanie obrazów w Aspose.PSD dla Javy](./expand-and-crop-images/)
 Dowiedz się, jak rozszerzać i przycinać obrazy w Javie przy użyciu Aspose.PSD. Przewodnik krok po kroku dla efektywnego przetwarzania obrazów.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Najczęściej zadawane pytania
 
@@ -122,3 +116,10 @@ O: Używaj API strumieniowych i szybko zwalniaj obiekty pośrednie, aby utrzyma�
 **Last Updated:** 2025-12-30  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

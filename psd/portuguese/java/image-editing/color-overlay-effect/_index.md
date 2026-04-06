@@ -138,15 +138,15 @@ R: Acesse o [Fórum Aspose.PSD](https://forum.aspose.com/c/psd/34) para ajuda da
 **P: Existem opções de teste gratuito disponíveis?**  
 R: Sim, explore a versão de [teste gratuito](https://releases.aspose.com/) antes de decidir.
 
+---
+
+**Última atualização:** 2025-12-30  
+**Testado com:** Aspose.PSD 24.11 para Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-30  
-**Testado com:** Aspose.PSD 24.11 para Java  
-**Autor:** Aspose

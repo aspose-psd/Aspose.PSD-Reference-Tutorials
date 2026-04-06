@@ -137,13 +137,6 @@ im.save(psdPathAfterChange);
 **В: Есть ли бесплатные пробные версии?**  
 О: Да, ознакомьтесь с [бесплатной пробной](https://releases.aspose.com/) версией перед покупкой.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-30  
@@ -151,3 +144,10 @@ im.save(psdPathAfterChange);
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -137,13 +137,6 @@ A: Bezoek het [Aspose.PSD‑forum](https://forum.aspose.com/c/psd/34) voor commu
 **Q: Zijn er gratis proefversies beschikbaar?**  
 A: Ja, verken de [gratis proefversie](https://releases.aspose.com/) voordat je een beslissing neemt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-30  
@@ -151,3 +144,10 @@ A: Ja, verken de [gratis proefversie](https://releases.aspose.com/) voordat je e
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

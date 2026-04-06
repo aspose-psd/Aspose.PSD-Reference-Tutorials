@@ -100,12 +100,6 @@ weight: 23
 
 ### [ขยายและครอบภาพด้วย Aspose.PSD for Java](./expand-and-crop-images/)
 เรียนรู้วิธีขยายและครอปภาพใน Java ด้วย Aspose.PSD. คู่มือขั้นตอน‑โดย‑ขั้นตอนสำหรับการประมวลผลภาพที่มีประสิทธิภาพ.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## คำถามที่พบบ่อย
 
@@ -129,3 +123,10 @@ weight: 23
 **Last Updated:** 2025-12-30  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

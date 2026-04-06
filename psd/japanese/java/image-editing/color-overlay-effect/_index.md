@@ -136,13 +136,6 @@ A: コミュニティ支援は [Aspose.PSD Forum](https://forum.aspose.com/c/psd
 **Q: 無料トライアルは利用できますか？**  
 A: はい、決定前に [free trial](https://releases.aspose.com/) バージョンをご体験いただけます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-30  
@@ -150,3 +143,10 @@ A: はい、決定前に [free trial](https://releases.aspose.com/) バージョ
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

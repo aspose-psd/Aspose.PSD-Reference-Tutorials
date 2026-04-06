@@ -93,12 +93,6 @@ Beheers het bijsnijden van afbeeldingen met Aspose.PSD voor Java. Een uitgebreid
 Verbeter de beeldkwaliteit met Aspose.PSD voor Java. Volg onze stap‑voor‑stap‑gids om dithering te implementeren en kleurbanding te elimineren.
 ### [Afbeeldingen uitbreiden en bijsnijden met Aspose.PSD voor Java](./expand-and-crop-images/)
 Leer hoe je afbeeldingen kunt uitbreiden en bijsnijden in Java met Aspose.PSD. Stap‑voor‑stap‑gids voor efficiënte beeldverwerking.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Veelgestelde vragen
 
@@ -122,3 +116,10 @@ A: Gebruik streaming‑API’s en maak tussenliggende objecten snel vrij om het 
 **Last Updated:** 2025-12-30  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

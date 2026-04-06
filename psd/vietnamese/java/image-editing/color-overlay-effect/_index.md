@@ -137,13 +137,6 @@ Tệp đã chỉnh sửa, *ColorOverlayChanged.psd*, bây giờ chứa màu over
 **H: Có tùy chọn dùng thử miễn phí không?**  
 Đ: Có, khám phá phiên bản [dùng thử miễn phí](https://releases.aspose.com/) trước khi quyết định.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-30  
@@ -151,3 +144,10 @@ Tệp đã chỉnh sửa, *ColorOverlayChanged.psd*, bây giờ chứa màu over
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

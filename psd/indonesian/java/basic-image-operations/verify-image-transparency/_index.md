@@ -15,24 +15,24 @@ weight: 14
 
 # Verifikasi Transparansi Gambar Java dengan Aspose.PSD
 
-## Introduction
+## Perkenalan
 
-Jika Anda perlu **memverifikasi transparansi gambar Java** aplikasi, Aspose.PSD untuk Java menawarkan cara bersih, programatik untuk memeriksa opasitas file PSD. Dalam tutorial ini kami akan membahas semua yang Anda perlukan—from menyiapkan lingkungan hingga membaca nilai opasitas gambar—sehingga Anda dapat menangani aset transparan dengan percaya diri dalam proyek Java Anda.
+Jika Anda perlu **memverifikasi transparansi gambar Java** aplikasi, Aspose.PSD untuk Java menawarkan cara bersih, programatik untuk memeriksa opasitas file PSD. Dalam tutorial ini kami akan membahas semua yang Anda perlukan—mulai dari menyiapkan lingkungan hingga membaca nilai opasitas gambar—sehingga Anda dapat menangani aset transparan dengan percaya diri dalam proyek Java Anda.
 
-## Quick Answers
-- **Apa arti “verify image transparency”?** Itu berarti membaca nilai opasitas sebuah gambar untuk menentukan apakah gambar tersebut sepenuhnya, sebagian, atau tidak transparan sama sekali.  
-- **Kelas mana yang menyediakan informasi opasitas?** `PsdImage.getImageOpacity()` mengembalikan float antara 0 (dan sepenuhnya transparan) dan 1 (dan sepenuhnya opak).  
-- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Lisensi sementara atau evaluasi sudah cukup untuk pengujian; lisensi penuh diperlukan untuk produksi.  
-- **Bisakah saya menggunakan ini dengan format gambar lain?** Metode ini bekerja untuk file PSD; untuk format lain Anda memerlukan panggilan API yang sesuai.  
-- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit setelah perpustakaan ditambahkan ke proyek Anda.
+## Jawaban Cepat
+- **Apa arti “verifikasi transparansi gambar”?** Itu berarti membaca nilai opasitas sebuah gambar untuk menentukan apakah gambar tersebut sepenuhnya, sebagian, atau tidak transparan sama sekali.
+- **Kelas mana yang menyediakan informasi opasitas?** `PsdImage.getImageOpacity()` mengembalikan float antara0(dan sepenuhnya transparan) dan1(dan sepenuhnya opak).
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Lisensi sementara atau evaluasi sudah cukup untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- ** bisakah saya menggunakan ini dengan format gambar lain?** Metode ini berfungsi untuk file PSD; untuk format lain Anda memerlukan panggilan API yang sesuai.
+- **Berapa lama implementasinya?** Biasanya kurang dari10menit setelah perpustakaan ditambahkan ke proyek Anda.
 
-## What is verify image transparency Java?
-Memverifikasi transparansi gambar dalam Java berarti memeriksa secara programatik apakah sebuah gambar PSD mengandung piksel transparan. Ini berguna untuk alur kerja yang perlu menyaring lapisan yang sepenuhnya transparan, menyesuaikan komposit, atau memvalidasi aset sebelum dipublikasikan.
+## Apa yang dimaksud dengan verifikasi transparansi gambar Java?
+Memverifikasi transparansi gambar dalam Java berarti memeriksa secara terprogram apakah sebuah gambar PSD mengandung piksel transparan. Ini berguna untuk alur kerja yang perlu menyaring lapisan yang sepenuhnya transparan, menyesuaikan komposit, atau memvalidasi aset sebelum dipublikasikan.
 
-## Why verify image transparency in Java projects?
-- **Otomatisasi:** Menghilangkan inspeksi manual ratusan aset.  
-- **Kontrol kualitas:** Memastikan aset UI memenuhi spesifikasi desain.  
-- **Kinerja:** Melewatkan pemrosesan gambar yang sepenuhnya transparan, menghemat memori dan CPU.  
+## Mengapa memverifikasi transparansi gambar di proyek Java?
+- **Otomatisasi:** Menghilangkan pemeriksaan manual ratusan aset.
+- **Kontrol kualitas:** menolak aset UI memenuhi spesifikasi desain.
+- **Kinerja:** Melewati streaming gambar yang sepenuhnya transparan, menghemat memori dan CPU.
 
 ## Prasyarat
 

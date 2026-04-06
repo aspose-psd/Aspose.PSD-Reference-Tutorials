@@ -92,12 +92,6 @@ weight: 23
 حسّن جودة الصورة مع Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة لتنفيذ التمويه وإزالة تدرج الألوان.
 ### [توسيع وقص الصور مع Aspose.PSD for Java](./expand-and-crop-images/)
 تعلم كيفية توسيع وقص الصور في Java باستخدام Aspose.PSD. دليل خطوة بخطوة لمعالجة صور فعّالة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -121,3 +115,10 @@ weight: 23
 **آخر تحديث:** 2025-12-30  
 **تم الاختبار مع:** Aspose.PSD for Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

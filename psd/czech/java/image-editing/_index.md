@@ -93,12 +93,6 @@ Ovládněte ořezávání obrázků s Aspose.PSD pro Javu. Komplexní tutoriál 
 Zlepšete kvalitu obrázků pomocí Aspose.PSD pro Javu. Postupujte podle našeho průvodce krok za krokem k implementaci ditheringu a odstranění barevných pásů.
 ### [Rozšíření a oříznutí obrázků s Aspose.PSD pro Javu](./expand-and-crop-images/)
 Naučte se, jak rozšířit a oříznout obrázky v Javě pomocí Aspose.PSD. Průvodce krok za krokem pro efektivní zpracování obrázků.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Často kladené otázky
 
@@ -122,3 +116,10 @@ A: Používejte streamingové API a okamžitě uvolňujte mezilehlé objekty, ab
 **Last Updated:** 2025-12-30  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

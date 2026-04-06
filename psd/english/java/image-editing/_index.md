@@ -91,12 +91,6 @@ Master image cropping with Aspose.PSD for Java. A comprehensive tutorial for sea
 Enhance image quality with Aspose.PSD for Java. Follow our step‑by‑step guide to implement dithering and eliminate color banding.
 ### [Expand and Crop Images with Aspose.PSD for Java](./expand-and-crop-images/)
 Learn how to expand and crop images in Java using Aspose.PSD. Step‑by‑step guide for efficient image processing.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -120,3 +114,10 @@ A: Use streaming APIs and dispose of intermediate objects promptly to keep memor
 **Last Updated:** 2025-12-30  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

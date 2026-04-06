@@ -93,12 +93,6 @@ Domine o recorte de imagem com Aspose.PSD para Java. Um tutorial abrangente para
 Melhore a qualidade da imagem com Aspose.PSD para Java. Siga nosso guia passo a passo para implementar dithering e eliminar bandas de cor.
 ### [Expandir e Recortar Imagens com Aspose.PSD para Java](./expand-and-crop-images/)
 Aprenda a expandir e recortar imagens em Java usando Aspose.PSD. Guia passo a passo para processamento eficiente de imagens.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Perguntas Frequentes
 
@@ -122,3 +116,10 @@ A: Use APIs de streaming e descarte objetos intermediários prontamente para man
 **Última Atualização:** 2025-12-30  
 **Testado Com:** Aspose.PSD para Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

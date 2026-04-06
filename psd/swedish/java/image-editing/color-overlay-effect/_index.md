@@ -138,13 +138,6 @@ A: Besök [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) för community�
 **Q: Finns det gratis provversioner tillgängliga?**  
 A: Ja, utforska [free trial](https://releases.aspose.com/) versionen innan du bestämmer dig.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-30  
@@ -152,3 +145,10 @@ A: Ja, utforska [free trial](https://releases.aspose.com/) versionen innan du be
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

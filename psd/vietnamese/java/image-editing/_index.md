@@ -93,12 +93,6 @@ Thành thạo cắt ảnh với Aspose.PSD cho Java. Một hướng dẫn toàn 
 Nâng cao chất lượng ảnh với Aspose.PSD cho Java. Thực hiện theo hướng dẫn chi tiết để áp dụng dithering và loại bỏ hiện tượng banding màu.  
 ### [Mở Rộng và Cắt Ảnh với Aspose.PSD cho Java](./expand-and-crop-images/)
 Học cách mở rộng và cắt ảnh trong Java bằng Aspose.PSD. Hướng dẫn chi tiết cho quy trình xử lý ảnh hiệu quả.  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Câu hỏi thường gặp
 
@@ -122,3 +116,10 @@ A: Sử dụng API streaming và giải phóng các đối tượng trung gian k
 **Last Updated:** 2025-12-30  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -138,13 +138,6 @@ J: Kunjungi [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) untuk bantuan 
 **T: Apakah ada opsi percobaan gratis yang tersedia?**  
 J: Ya, jelajahi versi [free trial](https://releases.aspose.com/) sebelum memutuskan.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-30  
@@ -152,3 +145,10 @@ J: Ya, jelajahi versi [free trial](https://releases.aspose.com/) sebelum memutus
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

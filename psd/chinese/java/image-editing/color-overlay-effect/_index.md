@@ -136,13 +136,6 @@ im.save(psdPathAfterChange);
 **问：是否提供免费试用？**  
 答：提供，您可以在决定前先试用[免费试用](https://releases.aspose.com/)版本。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-30  
@@ -150,3 +143,10 @@ im.save(psdPathAfterChange);
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

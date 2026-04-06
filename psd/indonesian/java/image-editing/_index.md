@@ -93,12 +93,6 @@ Kuasai pemotongan gambar dengan Aspose.PSD untuk Java. Tutorial komprehensif unt
 Tingkatkan kualitas gambar dengan Aspose.PSD untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk mengimplementasikan dithering dan menghilangkan banding warna.
 ### [Perluas dan Potong Gambar dengan Aspose.PSD untuk Java](./expand-and-crop-images/)
 Pelajari cara memperluas dan memotong gambar di Java menggunakan Aspose.PSD. Panduan langkah‑demi‑langkah untuk pemrosesan gambar yang efisien.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -122,3 +116,10 @@ A: Gunakan API streaming dan segera dispose objek menengah untuk menjaga penggun
 **Terakhir Diperbarui:** 2025-12-30  
 **Diuji Dengan:** Aspose.PSD untuk Java 24.12  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

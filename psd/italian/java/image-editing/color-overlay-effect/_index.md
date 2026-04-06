@@ -137,13 +137,6 @@ Visita il [Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) per assistenza d
 **D: Sono disponibili opzioni di prova gratuite?**  
 Sì, esplora la versione di [prova gratuita](https://releases.aspose.com/) prima di decidere.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2025-12-30  
@@ -151,3 +144,10 @@ Sì, esplora la versione di [prova gratuita](https://releases.aspose.com/) prima
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

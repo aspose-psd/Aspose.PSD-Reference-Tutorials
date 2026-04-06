@@ -138,13 +138,6 @@ R : Visitez le [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) pour l’
 **Q : Existe‑t‑il des options d’essai gratuit ?**  
 R : Oui, explorez la version [free trial](https://releases.aspose.com/) avant de prendre une décision.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-30  
@@ -152,3 +145,10 @@ R : Oui, explorez la version [free trial](https://releases.aspose.com/) avant 
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

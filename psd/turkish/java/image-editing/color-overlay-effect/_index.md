@@ -138,15 +138,15 @@ C: Topluluk yardımı için [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34
 **S: Ücretsiz deneme seçenekleri var mı?**  
 C: Evet, karar vermeden önce [ücretsiz deneme](https://releases.aspose.com/) sürümünü inceleyin.
 
+---
+
+**Son Güncelleme:** 2025-12-30  
+**Test Edilen Versiyon:** Aspose.PSD 24.11 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-30  
-**Test Edilen Versiyon:** Aspose.PSD 24.11 for Java  
-**Yazar:** Aspose

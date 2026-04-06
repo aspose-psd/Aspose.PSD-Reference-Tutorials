@@ -137,13 +137,6 @@ im.save(psdPathAfterChange);
 **س: هل هناك خيارات تجربة مجانية متاحة؟**  
 ج: نعم، استكشف نسخة [التجربة المجانية](https://releases.aspose.com/) قبل اتخاذ القرار.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-30  
@@ -151,3 +144,10 @@ im.save(psdPathAfterChange);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

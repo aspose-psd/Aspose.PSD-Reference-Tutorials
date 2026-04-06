@@ -93,12 +93,6 @@ Bli en mästare på bildbeskärning med Aspose.PSD för Java. En omfattande hand
 Förbättra bildkvaliteten med Aspose.PSD för Java. Följ vår steg‑för‑steg‑guide för att implementera dithering och eliminera färgbandning.
 ### [Expandera och beskär bilder med Aspose.PSD för Java](./expand-and-crop-images/)
 Lär dig hur du expanderar och beskär bilder i Java med Aspose.PSD. Steg‑för‑steg‑guide för effektiv bildbehandling.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Vanliga frågor
 
@@ -122,3 +116,10 @@ A: Använd streaming‑API:er och frigör mellansteg‑objekt omedelbart för at
 **Last Updated:** 2025-12-30  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

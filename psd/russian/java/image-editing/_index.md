@@ -93,12 +93,6 @@ weight: 23
 Повышайте качество изображений с Aspose.PSD for Java. Следуйте нашему пошаговому руководству, чтобы реализовать дизеринг и устранить цветовые полосы.
 ### [Expand and Crop Images with Aspose.PSD for Java](./expand-and-crop-images/)
 Узнайте, как расширять и обрезать изображения в Java с помощью Aspose.PSD. Пошаговое руководство для эффективной обработки изображений.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Часто задаваемые вопросы
 
@@ -122,3 +116,10 @@ weight: 23
 **Последнее обновление:** 2025-12-30  
 **Тестировано с:** Aspose.PSD for Java 24.12  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

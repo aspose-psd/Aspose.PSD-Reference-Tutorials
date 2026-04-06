@@ -138,15 +138,15 @@ A: Besuchen Sie das [Aspose.PSD‑Forum](https://forum.aspose.com/c/psd/34) für
 **F: Gibt es kostenlose Testversionen?**  
 A: Ja, testen Sie die [Free‑Trial](https://releases.aspose.com/)-Version, bevor Sie sich entscheiden.
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose

@@ -137,13 +137,6 @@ im.save(psdPathAfterChange);
 **प्रश्न: क्या मुफ्त ट्रायल विकल्प उपलब्ध हैं?**  
 **उत्तर:** हाँ, निर्णय लेने से पहले [free trial](https://releases.aspose.com/) संस्करण का अन्वेषण करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-30  
@@ -151,3 +144,10 @@ im.save(psdPathAfterChange);
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
