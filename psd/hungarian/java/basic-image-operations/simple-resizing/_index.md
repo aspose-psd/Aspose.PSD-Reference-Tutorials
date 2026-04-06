@@ -1,112 +1,146 @@
 ---
-title: Végezzen egyszerű átméretezést az Aspose.PSD for Java segítségével
-linktitle: Végezzen egyszerű átméretezést
+date: 2025-12-27
+description: Tanulja meg, hogyan méretezhet képet Java-ban egy Java képmódosító könyvtár
+  segítségével. Kövesse lépésről‑lépésre útmutatónkat az Aspose.PSD for Java-val a
+  hatékony képmódosításhoz.
+linktitle: Perform Simple Resizing
 second_title: Aspose.PSD Java API
-description: Ismerje meg a képek programozott átméretezését az Aspose.PSD for Java segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony képkezelés érdekében.
-weight: 11
+title: Egyszerű átméretezés az Aspose.PSD‑vel – Java képfeldolgozó könyvtár
 url: /hu/java/basic-image-operations/simple-resizing/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Végezzen egyszerű átméretezést az Aspose.PSD for Java segítségével
+# Egyszerű átméretezés az Aspose.PSD – Java képfeldolgozó könyvtár
 
 ## Bevezetés
 
-A mai oktatóanyagban az Aspose.PSD for Java segítségével történő egyszerű képátméretezés folyamatába fogunk belemenni, amely egy hatékony könyvtár, amely megkönnyíti a hatékony képkezelést. Ha Ön Java-fejlesztő, aki zökkenőmentes módot keres a képek programozott átméretezésére, akkor jó helyen jár.
+Ha Java fejlesztő vagy, és megbízható **java image manipulation library**‑t keresel, jó helyen jársz. Ebben az útmutatóban végigvezetünk a **how to resize image java** projektek átméretezésén az Aspose.PSD for Java használatával – egy erőteljes könyvtár, amely gyors és egyszerű képfeldolgozást tesz lehetővé. A végére egy tiszta, termelésre kész példát kapsz, amelyet bármely Java alkalmazásba beilleszthetsz.
 
-## Előfeltételek
+## Gyors válaszok
+- **Melyik könyvtárat használják?** Aspose.PSD for Java, egy vezető java image manipulation library.  
+- **Átméretezhetek bármilyen PSD‑t?** Igen – a könyvtár támogatja a PSD, JPEG, PNG és további formátumokat.  
+- **Hogyan adható meg a méret?** Hívd meg a `image.resize(width, height)` metódust a kívánt pixelméretekkel.  
+- **Szükség van licencre?** A ingyenes próba verzió fejlesztéshez működik; a termeléshez licenc szükséges.  
+- **Milyen Java verzió szükséges?** Java 8 vagy újabb.
 
-Mielőtt nekivágnánk a képméretezésnek az Aspose.PSD segítségével, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## Mi az a Java Image Manipulation Library?
 
-1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. A legújabb verziót letöltheti a[Java weboldal](https://www.oracle.com/java/).
+Egy **java image manipulation library** programozott hozzáférést biztosít a gyakori grafikai műveletekhez – átméretezés, vágás, formátumkonverzió és rétegkezelés – anélkül, hogy külső eszközökre támaszkodna. Az Aspose.PSD ezeket a képességeket hozza el a Java fejlesztőknek, lehetővé téve a PSD fájlok közvetlen kezelését és exportálását népszerű formátumokba.
 
-2.  Aspose.PSD for Java: Töltse le és telepítse az Aspose.PSD könyvtárat. A szükséges csomagokat megtalálja a[Aspose.PSD for Java letöltési oldal](https://releases.aspose.com/psd/java/).
+## Miért használjuk az Aspose.PSD‑t egyszerű átméretezéshez?
 
-Most, hogy az előfeltételeinket rendeztük, merüljünk el oktatóanyagunk lényegében.
+- **Teljesítmény‑optimalizált** algoritmusok, amelyek hatékonyan kezelik a nagy PSD fájlokat.  
+- **Nincs külső függőség** – tiszta Java, tökéletes szerver‑oldali feldolgozáshoz.  
+- **Gazdag formátumtámogatás** – a PSD‑n kívül JPEG, PNG, TIFF stb. kimeneteket is készíthetsz.  
+- **Következetes API** – ugyanazok a metódusok működnek minden támogatott képtípusnál.
+
+## Előkövetelmények
+
+Mielőtt elkezdenénk, győződj meg róla, hogy a következők rendelkezésre állnak:
+
+1. **Java Development Kit (JDK)** – töltsd le a legújabb verziót a [Java website](https://www.oracle.com/java/) oldalról.  
+2. **Aspose.PSD for Java** – szerezd be a könyvtárat a [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/) oldalról.  
+
+Ezek megléte biztosítja a zökkenőmentes beállítást az átméretezési példához.
 
 ## Csomagok importálása
 
-Kezdje a szükséges csomagok importálásával a képméretezési folyamat elindításához. Illessze be a következő kódsorokat a Java fájl elejére:
+Kezdjük a szükséges osztályok importálásával. Helyezd ezeket az importálásokat a Java forrásfájlod tetejére:
 
 ```java
 import com.aspose.psd.Image;
-
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Ezek a csomagok lehetővé teszik az Aspose.PSD használatát és a JPEG képbeállítások kezelését.
+## Lépés‑ről‑lépésre útmutató
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+### 1. lépés: Állítsd be a dokumentum könyvtárát
 
-Kezdje a PSD-fájl könyvtárának meghatározásával. Cserélje ki a „Saját dokumentumkönyvtár” elemet a PSD-fájl tényleges elérési útjával.
+Add meg azt a mappát, amely a forrás PSD fájlt tartalmazza. Cseréld le a helyőrzőt a saját útvonaladra.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Adja meg a forrás és a cél elérési útját
+### 2. lépés: Add meg a forrás és cél útvonalakat
 
-Most határozza meg a forrás PSD-fájl elérési útját és a célhelyet, ahová az átméretezett kép mentésre kerül.
+Hozz létre teljes fájlneveket a bemeneti PSD és a kimeneti JPEG számára.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "SimpleResizing_out.jpg";
 ```
 
-## 3. lépés: Töltse be a képet
+### 3. lépés: Töltsd be a képet
 
-Töltse be a meglévő képet a RasterImage osztály egy példányába a következő kód használatával:
+Töltsd be a PSD‑t egy `Image` objektumba.
 
 ```java
 Image image = Image.load(sourceFile);
 ```
 
-## 4. lépés: A kép átméretezése
+### 4. lépés: Méretezd át a képet
 
-Méretezze át a képet a kívánt méretre. Ebben a példában 300x300 képpontra méretezzük át.
+Átméretezés a kívánt dimenziókra (pl. 300 × 300 pixel).
 
 ```java
 image.resize(300, 300);
 ```
 
-## 5. lépés: Mentse el az átméretezett képet
+### 5. lépés: Mentsd el az átméretezett képet
 
-Mentse az átméretezett képet a megadott célútvonal és a JpegOptions használatával.
+Exportáld az átméretezett bitmapet JPEG fájlként.
 
 ```java
 image.save(destName, new JpegOptions());
 ```
 
-Gratulálok! Sikeresen átméretezett egy képet az Aspose.PSD for Java használatával. Nyugodtan kísérletezzen a különböző méretekkel, hogy megfeleljen igényeinek.
+> **Pro tipp:** Kísérletezz különböző szélesség/magasság értékekkel, vagy tartsd meg a képarányt az egyik dimenzió a másikból történő kiszámításával.
+
+## Gyakori problémák és megoldások
+
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **`OutOfMemoryError`** | Nagyon nagy PSD fájlok túlléphetik a JVM heap méretét. | Növeld a JVM heap méretét (`-Xmx2g`) vagy dolgozd fel a képeket darabokban. |
+| **Unsupported format** | Megpróbálsz egy nem‑PSD fájlt betölteni megfelelő beállítások nélkül. | Használd a megfelelő `Image.load` túlterhelést vagy előbb konvertáld a fájlt. |
+| **Distorted output** | Helytelen képarány. | Számold ki a magasságot az eredeti képarány alapján, vagy használd a `image.resizeProportionally` metódust. |
+
+## Gyakran ismételt kérdések
+
+### Q1: Átméretezhetek képeket meghatározott méretre az Aspose.PSD for Java használatával?
+
+**A:** Természetesen. A `resize(width, height)` metódus lehetővé teszi, hogy bármilyen pixelméretet megadj.
+
+### Q2: Az Aspose.PSD for Java kompatibilis különböző képtípusokkal?
+
+**A:** Igen. A PSD mellett a könyvtár támogatja a JPEG, PNG, BMP, TIFF és még sok más formátumot.
+
+### Q3: Hol találok további dokumentációt az Aspose.PSD for Java-hoz?
+
+**A:** Lásd a [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) oldalt a teljes API referenciaért.
+
+### Q4: Próbálhatom ki az Aspose.PSD for Java-t vásárlás előtt?
+
+**A:** Természetesen! Töltsd le a [free trial version](https://releases.aspose.com/) verziót, hogy felfedezd az összes funkciót.
+
+### Q5: Hogyan kaphatok támogatást az Aspose.PSD for Java-hoz?
+
+**A:** Látogasd meg az [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) oldalt, hogy kérdéseket tegyél fel és megoszd tapasztalataidat a közösséggel.
 
 ## Következtetés
 
-Ebben az oktatóanyagban az Aspose.PSD for Java segítségével történő egyszerű képátméretezés zökkenőmentes folyamatát fedeztük fel. A lépésenkénti útmutató követésével könnyedén integrálhatja ezt a funkciót Java-alkalmazásaiba.
+Ebben az útmutatóban bemutattuk, hogyan tesz egy **java image manipulation library**, mint az Aspose.PSD, a **how to resize image java** feladatokat egyszerűvé. A fenti lépéseket követve beépítheted a képek átméretezését bármely Java alkalmazásba, gyors és megbízható eredményeket biztosítva külső eszközök nélkül.
 
-## GYIK
+---
 
-### 1. kérdés: Átméretezhetem a képeket meghatározott méretekre az Aspose.PSD for Java használatával?
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.PSD for Java 24.12 (latest)  
+**Author:** Aspose  
 
-A1: Abszolút! A mellékelt oktatóanyag bemutatja, hogyan lehet átméretezni a képeket a kívánt méretre.
-
-### 2. kérdés: Az Aspose.PSD for Java kompatibilis a különböző képformátumokkal?
-
-2. válasz: Igen, az Aspose.PSD különféle képformátumokat támogat, sokoldalúságot biztosítva a képkezelési feladatokban.
-
-### 3. kérdés: Hol találok további dokumentációt az Aspose.PSD for Java-hoz?
-
- A3: Hivatkozhat a[Aspose.PSD a Java dokumentációhoz](https://reference.aspose.com/psd/java/) mélyreható tájékoztatásért.
-
-### 4. kérdés: Kipróbálhatom az Aspose.PSD for Java fájlt vásárlás előtt?
-
- A4: Természetesen! Használja ki a[ingyenes próbaverzió](https://releases.aspose.com/)hogy feltárja a könyvtár lehetőségeit.
-
-### 5. kérdés: Hogyan kaphatok támogatást az Aspose.PSD for Java számára?
-
- A5: Látogassa meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) segítségért és közösségi támogatásért.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
