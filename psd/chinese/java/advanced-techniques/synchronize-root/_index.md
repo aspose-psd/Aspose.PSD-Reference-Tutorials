@@ -116,15 +116,15 @@ A4: 是的，您可以通过访问 [here](https://releases.aspose.com/) 体验 A
 **Q5: 如何获取 Aspose.PSD 的临时许可证？**  
 A5: 获取临时许可证，请访问 [here](https://purchase.aspose.com/temporary-license/)。
 
+---
+
+**最后更新：** 2025-12-27  
+**测试环境：** Aspose.PSD for Java（最新发布）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-27  
-**测试环境：** Aspose.PSD for Java（最新发布）  
-**作者：** Aspose

@@ -80,13 +80,6 @@ A: 使用 `verifyImageTransparency` 教程检查图层可见性，并将 PSD 导
 **Q: 我在哪里可以找到更高级的示例，例如渐变或自定义路径？**  
 A: 官方 Aspose.PSD 文档和 API 参考中包含高级形状绘制示例。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-27  
@@ -94,3 +87,10 @@ A: 官方 Aspose.PSD 文档和 API 参考中包含高级形状绘制示例。
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -82,15 +82,15 @@ Aspose.PSD for Java के साथ इमेज ट्रांसपैरे
 **प्रश्न: ग्रेडिएंट्स या कस्टम पाथ्स जैसे अधिक उन्नत उदाहरण कहाँ मिल सकते हैं?**  
 **उत्तर:** आधिकारिक Aspose.PSD डॉक्यूमेंटेशन और API रेफ़रेंस में उन्नत शेप‑ड्रॉइंग सैंपल्स शामिल हैं।
 
+---
+
+**अंतिम अपडेट:** 2025-12-27  
+**परीक्षित संस्करण:** Aspose.PSD for Java 24.11  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-27  
-**परीक्षित संस्करण:** Aspose.PSD for Java 24.11  
-**लेखक:** Aspose

@@ -78,15 +78,15 @@ A: Sử dụng tutorial `verifyImageTransparency` để kiểm tra độ hiển 
 **Q: Tôi có thể tìm các ví dụ nâng cao hơn, chẳng hạn như gradient hoặc đường dẫn tùy chỉnh ở đâu?**  
 A: Tài liệu chính thức của Aspose.PSD và tham chiếu API bao gồm các mẫu vẽ hình nâng cao.
 
+---
+
+**Cập Nhật Lần Cuối:** 2025-12-27  
+**Đã Kiểm Tra Với:** Aspose.PSD for Java 24.11  
+**Tác Giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập Nhật Lần Cuối:** 2025-12-27  
-**Đã Kiểm Tra Với:** Aspose.PSD for Java 24.11  
-**Tác Giả:** Aspose

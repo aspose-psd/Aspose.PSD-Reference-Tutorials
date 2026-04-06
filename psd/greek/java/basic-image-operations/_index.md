@@ -78,15 +78,15 @@ A: Χρησιμοποιήστε το μάθημα `verifyImageTransparency` γι
 **Q: Πού μπορώ να βρω πιο προχωρημένα παραδείγματα, όπως διαβαθμίσεις ή προσαρμοσμένα μονοπάτια;**  
 A: Η επίσημη τεκμηρίωση του Aspose.PSD και η αναφορά API περιλαμβάνουν προχωρημένα παραδείγματα σχεδίασης σχημάτων.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-27  
+**Δοκιμή Με:** Aspose.PSD for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-27  
-**Δοκιμή Με:** Aspose.PSD for Java 24.11  
-**Συγγραφέας:** Aspose

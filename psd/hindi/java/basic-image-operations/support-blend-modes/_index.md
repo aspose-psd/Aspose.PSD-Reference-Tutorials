@@ -14,35 +14,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Layer Opacity and Support Blend Modes in Aspose.PSD for Java
+# Java के लिए Aspose.PSD में लेयर ओपेसिटी सेट करें और ब्लेंड मोड्स को सपोर्ट करें
 
-## Introduction
+## इंट्रोडक्शन
 
 इस ट्यूटोरियल में आप **लेयर की अपारदर्शिता (opacity) सेट करने** के बारे में जानेंगे, जबकि आप Aspose.PSD for Java का उपयोग करके ब्लेंड मोड्स के साथ काम करेंगे। चाहे आपको आकर्षक कॉम्पोज़िट बनाने हों या सिर्फ़ लेयर की ट्रांसपेरेंसी को समायोजित करना हो, `set layer opacity` फीचर को महारत हासिल करने से आप अपने PSD फ़ाइलों में हर विज़ुअल एलिमेंट को बारीकी से ट्यून कर सकते हैं। हम PSD फ़ाइलें लोड करने, अपारदर्शिता लागू करने, और परिणाम को PNG में एक्सपोर्ट करने की प्रक्रिया को स्पष्ट, प्रोडक्शन‑रेडी कोड के साथ दिखाएंगे।
 
-## Quick Answers
+## क्विक आंसर्स
 - **लेयर की ट्रांसपेरेंसी बदलने का मुख्य तरीका क्या है?** इच्छित लेयर पर `setOpacity(byte)` मेथड का उपयोग करें।  
 - **अपारदर्शिता बदलने के बाद क्या मैं PSD को एक्सपोर्ट कर सकता हूँ?** हाँ – `PngOptions` के साथ इमेज को सेव करके PNG कॉपी प्राप्त कर सकते हैं।  
 - **कौन सा Aspose प्रोडक्ट ब्लेंड मोड्स को सपोर्ट करता है?** Aspose.PSD for Java पूर्ण ब्लेंड‑मोड और अपारदर्शिता नियंत्रण प्रदान करता है।  
 - **क्या इस कोड के लिए लाइसेंस चाहिए?** प्रोडक्शन उपयोग के लिए एक टेम्पररी या फुल लाइसेंस आवश्यक है।  
 - **क्या API Java 8 और बाद के संस्करणों के साथ संगत है?** बिल्कुल, यह सभी आधुनिक Java संस्करणों के साथ काम करता है।
 
-## What is **set layer opacity**?
+## **सेट लेयर ओपेसिटी** क्या है?
 `set layer opacity` किसी विशिष्ट लेयर के अल्फा चैनल को समायोजित करता है, जिससे यह नियंत्रित होता है कि नीचे की इमेज का कितना हिस्सा दिखेगा। अपारदर्शिता का मान 0 (पूरी तरह से ट्रांसपेरेंट) से 255 (पूरी तरह से अपारदर्शी) तक होता है। यह ऑपरेशन तब आवश्यक होता है जब आप लेयर्स को सूक्ष्मता से ब्लेंड करना चाहते हैं या फेड‑इन इफ़ेक्ट बनाना चाहते हैं।
 
-## Why use Aspose.PSD for Java blend modes?
+## Java ब्लेंड मोड्स के लिए Aspose.PSD का इस्तेमाल क्यों करें?
 - **Full PSD spec support** – सभी मानक Photoshop ब्लेंड मोड उपलब्ध हैं।  
 - **Programmatic control** – मैन्युअल एडिटिंग के बिना अपारदर्शिता, ब्लेंड मोड बदलें और एक्सपोर्ट करें।  
 - **Cross‑platform** – किसी भी OS पर काम करता है जहाँ Java चलता है, सर्वर‑साइड इमेज पाइपलाइन के लिए आदर्श।  
 - **No external dependencies** – लाइब्रेरी PNG कन्वर्ज़न और कलर मैनेजमेंट को आंतरिक रूप से संभालती है।
 
-## Prerequisites
+## प्रीरिक्विजिट्स
 
 - **Java Development Environment** – JDK 8 या उससे नया इंस्टॉल और कॉन्फ़िगर किया हुआ।  
 - **Aspose.PSD for Java Library** – [website](https://releases.aspose.com/psd/java/) से डाउनलोड करें और JAR को अपने प्रोजेक्ट की क्लासपाथ में जोड़ें।  
 - **Document Directory** – आपके मशीन पर एक फ़ोल्डर जहाँ स्रोत PSD फ़ाइलें और जेनरेटेड PNGs रखे जाएंगे।
 
-## Import Packages
+## पैकेज इंपोर्ट करें
 
 ```java
 import com.aspose.psd.Image;
@@ -52,9 +52,9 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step‑by‑Step Guide
+## स्टेप-बाय-स्टेप गाइड
 
-### Step 1: Load PSD Files  
+### स्टेप 1: PSD फ़ाइलें लोड करें
 हम PSD फ़ाइलों के संग्रह पर इटरेट करेंगे, प्रत्येक फ़ाइल को अपारदर्शिता समायोजन के लिए तैयार करेंगे।
 
 ```java
@@ -70,7 +70,7 @@ for (int i=0; i< files.length; i++) {
 }
 ```
 
-### Step 2: Export to PNG (How to export PSD)  
+### स्टेप 2: PNG में एक्सपोर्ट करें (PSD कैसे एक्सपोर्ट करें) 
 PNG में एक्सपोर्ट करने से आप अपारदर्शिता बदलावों का विज़ुअल इम्पैक्ट देख सकते हैं। आवश्यकता अनुसार `PngOptions` को समायोजित करें।
 
 ```java
@@ -84,7 +84,7 @@ im.save(pngExportPath100, saveOptions);
 // Continue to the next steps...
 ```
 
-### Step 3: Set Opacity (How to set opacity)  
+### स्टेप 3: ओपेसिटी सेट करें (ओपेसिटी कैसे सेट करें) 
 यहाँ हम दूसरी लेयर की अपारदर्शिता को 50 % (127 में से 255) पर सेट करते हैं। यह मुख्य `set layer opacity` ऑपरेशन को दर्शाता है।
 
 ```java
@@ -102,15 +102,15 @@ im.save(pngExportPath50, saveOptions);
 
 इन्हीं तीन चरणों को प्रत्येक ब्लेंड मोड के लिए दोहराएँ जिसे आप टेस्ट करना चाहते हैं, आवश्यकतानुसार ब्लेंड मोड और अपारदर्शिता मान बदलें।
 
-## Common Issues and Solutions
+## आम मुद्दे और समाधान
 
-| Issue | Solution |
+| समस्या | समाधान |
 |-------|----------|
 | **Layers array index out of bounds** | PSD में वास्तविक लेयर्स की संख्या की जाँच करें और `im.getLayers()[1]` एक्सेस करने से पहले सुनिश्चित करें कि वह मौजूद है। |
-| **Exported PNG appears blank** | सुनिश्चित करें कि `PngOptions.setColorType(PngColorType.TruecolorWithAlpha)` सेट किया गया है; यह अल्फा चैनल को संरक्षित रखता है। |
-| **Performance slowdown on large files** | फ़ाइलों को एक‑एक करके लोड और प्रोसेस करें, और JVM हीप साइज (`-Xmx2g`) बढ़ाने पर विचार करें। |
+| **Exported PNG appears blank** | सुनिश्चित करें कि `PngOptions.setColorType(PngColorType.TruecolorWithAlpha)` सेट किया गया है; यह अल्फा चैनल को सुरक्षित रखता है। |
+| **Performance slowdown on large files** | सापेक्ष को एक-एक करके लोड और प्रोसेस करें, और JVM हीप साइज (`-Xmx2g`) बढ़ाने पर विचार करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
 **Q: क्या मैं Aspose.PSD for Java को अन्य Java इमेज प्रोसेसिंग लाइब्रेरीज़ के साथ उपयोग कर सकता हूँ?**  
 A: हाँ, Aspose.PSD for Java को अन्य Java इमेज प्रोसेसिंग लाइब्रेरीज़ के साथ इंटीग्रेट करके एक व्यापक समाधान बनाया जा सकता है।

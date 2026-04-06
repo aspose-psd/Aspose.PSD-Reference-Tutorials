@@ -116,15 +116,15 @@ finally
 **س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟**  
 ج5: للحصول على ترخيص مؤقت، زر [هنا](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**آخر تحديث:** 2025-12-27  
+**تم الاختبار مع:** Aspose.PSD للغة Java (أحدث إصدار)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-27  
-**تم الاختبار مع:** Aspose.PSD للغة Java (أحدث إصدار)  
-**المؤلف:** Aspose

@@ -76,15 +76,15 @@ A: `verifyImageTransparency` チュートリアルを使用してレイヤーの
 **Q: グラデーションやカスタムパスなど、より高度な例はどこで見つけられますか？**  
 A: 公式の Aspose.PSD ドキュメントと API リファレンスに高度な図形描画サンプルが含まれています。
 
+---
+
+**最終更新:** 2025-12-27  
+**テスト環境:** Aspose.PSD for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新:** 2025-12-27  
-**テスト環境:** Aspose.PSD for Java 24.11  
-**作者:** Aspose

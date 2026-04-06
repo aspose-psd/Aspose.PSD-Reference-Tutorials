@@ -14,35 +14,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw przezroczystość warstwy i obsługuj tryby mieszania w Aspose.PSD dla Javy
+# Ustaw przezroczystość śmierci i obsługuj tryby mieszania w Aspose.PSD dla Javy
 
-## Introduction
+## Wstęp
 
-W tym samouczku odkryjesz **jak ustawić przezroczystość warstwy** podczas pracy z trybami mieszania przy użyciu Aspose.PSD dla Javy. Niezależnie od tego, czy potrzebujesz tworzyć przyciągające uwagę kompozycje, czy po prostu dostosować przezroczystość warstwy, opanowanie funkcji `set layer opacity` pozwala precyzyjnie dostroić każdy element wizualny w plikach PSD. Przejdziemy przez ładowanie plików PSD, stosowanie przezroczystości i eksport wyników do PNG — wszystko przy użyciu przejrzystego, gotowego do produkcji kodu.
+W tym samouczku odkryjesz **jak zainstalować przezroczystość życia** podczas pracy z trybami mieszania przy użyciu Aspose.PSD dla Javy. wydanie od tego, czy wydanie raportujące uwagi, czy po prostu dostosowane przezroczystość użytkową, posiadanie funkcji `set Layer opacity` pozwala na szczegółowe dostroić każdy element kontrolny w plikach PSD. Przejdziemy przez ładowanie plików PSD, zastosowanie przezroczystości i eksport wyników do PNG — wszystko przy użyciu przejrzystego, gotowego do kodu produkcji.
 
-## Quick Answers
-- **Jaki jest podstawowy sposób zmiany przezroczystości warstwy?** Użyj metody `setOpacity(byte)` na wybranej warstwie.  
-- **Czy mogę wyeksportować PSD po zmianie przezroczystości?** Tak – zapisz obraz przy użyciu `PngOptions`, aby uzyskać kopię PNG.  
-- **Który produkt Aspose obsługuje tryby mieszania?** Aspose.PSD dla Javy zapewnia pełną kontrolę nad trybami mieszania i przezroczystością.  
-- **Czy potrzebna jest licencja do tego kodu?** Wymagana jest tymczasowa lub pełna licencja do użytku produkcyjnego.  
-- **Czy API jest kompatybilne z Java 8 i nowszymi?** Absolutnie, działa we wszystkich nowoczesnych wersjach Java.
+## Szybkie odpowiedzi
+- **Jaki jest podstawowy sposób zmiany przezroczystości użyteczności?** użyj metody `setOpacity(byte)` na wyjściu warstw.
+- **Czy mogę wyeksportować PSD po zmianie przezroczystości?** Tak – zapisz obraz przy użyciu `PngOptions`, aby uzyskać kopię PNG.
+- **Który produkt Aspose obsługuje tryby mieszania?** Aspose.PSD dla Javy zapewnia pełne działanie nad trybami mieszania i przezroczystość.
+- **Czy jest to licencja do tego kodu?** Wymagana jest tymczasowa lub pełna licencja do użytku produkcyjnego.
+- **Czy API jest wymagane z Java 8 i terazszymi?** Absolutnie, działa we wszystkich przypadkach, w których Java jest dostępna.
 
-## What is **set layer opacity**?
-`set layer opacity` dostosowuje kanał alfa konkretnej warstwy, kontrolując, ile obrazu leżącego pod nią jest widoczne. Wartość przezroczystości mieści się w przedziale od 0 (w pełni przezroczyste) do 255 (w pełni nieprzezroczyste). Operacja ta jest niezbędna, gdy chcesz subtelnie mieszać warstwy lub tworzyć efekty stopniowego pojawiania się.
+## Co to jest **ustaw przezroczystość warstwy**?
+`set Layer opacity` dystrybutor alfa funkcjonalny, kontrolujący, ile leżącego pod nią jest widoczne. Wartość przezroczystości mieści się w udogodnienia od0(w pełni dostępne) do255(w pełni nieprzezroczyste). Operacja ta jest równa, gdy chcesz uzyskać subtelnie efekt końcowy lub efekt stopniowego pojawiania się.
 
-## Why use Aspose.PSD for Java blend modes?
-- **Pełne wsparcie specyfikacji PSD** – dostępne są wszystkie standardowe tryby mieszania Photoshop.  
-- **Programowa kontrola** – zmieniaj przezroczystość, tryb mieszania i eksportuj bez ręcznej edycji.  
-- **Wieloplatformowość** – działa na każdym systemie operacyjnym obsługującym Javę, idealne dla serwerowych potoków przetwarzania obrazów.  
+## Po co używać Aspose.PSD w trybach mieszania Java?
+- **Pełne wsparcie PSD** – dostępne są wszystkie standardowe tryby mieszania Photoshop.
+- **Programowa kontrola** – zmieniaj przezroczystość, tryb mieszania i eksportuj bez ręcznej edycji.
+- **Wieloplatformowość** – działa na każdym systemie obsługującym Javę, idealnym dla serwerów potoków przetwarzania obrazów.
 - **Brak zewnętrznych zależności** – biblioteka wewnętrznie obsługuje konwersję PNG i zarządzanie kolorami.
 
-## Prerequisites
+## Warunki wstępne
 
-- **Środowisko programistyczne Java** – zainstalowany i skonfigurowany JDK 8 lub nowszy.  
-- **Biblioteka Aspose.PSD dla Javy** – pobierz z [website](https://releases.aspose.com/psd/java/) i dodaj plik JAR do classpath projektu.  
-- **Katalog dokumentów** – folder na twoim komputerze, w którym będą przechowywane źródłowe pliki PSD oraz wygenerowane pliki PNG.
+- **Środowisko programistyczne Java** – uruchomiony i skonfigurowany JDK8 lub nowszy.
+- **Biblioteka Aspose.PSD dla Javy** – pobierz z [strona internetowa](https://releases.aspose.com/psd/java/) i dodaj plik JAR do classpath projektu.
+- **Katalog dokumentów** – folder na komputerze, który zawiera źródłowe pliki PSD oraz wygenerowane pliki PNG.
 
-## Import Packages
+## Importuj pakiety
 
 ```java
 import com.aspose.psd.Image;
@@ -52,10 +52,10 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Load PSD Files  
-Przejdziemy przez kolekcję plików PSD, przygotowując każdy z nich do regulacji przezroczystości.
+### Krok 1: Załaduj pliki PSD
+Przejdziemy przez pliki PSD, przygotowując każdy z nich do regulacji przezroczystości.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -70,7 +70,7 @@ for (int i=0; i< files.length; i++) {
 }
 ```
 
-### Step 2: Export to PNG (How to export PSD)  
+### Krok 2: Eksport do PNG (Jak eksportować do PSD)  
 Eksport do PNG pozwala zobaczyć wizualny wpływ zmian przezroczystości. Dostosuj `PngOptions` w razie potrzeby.
 
 ```java
@@ -84,7 +84,7 @@ im.save(pngExportPath100, saveOptions);
 // Continue to the next steps...
 ```
 
-### Step 3: Set Opacity (How to set opacity)  
+### Krok 3: Ustawienie krycia (Jak ustawić krycie) 
 Tutaj zmieniamy przezroczystość drugiej warstwy na 50 % (127 z 255). To demonstruje podstawową operację `set layer opacity`.
 
 ```java
@@ -98,40 +98,40 @@ im.save(pngExportPath50, saveOptions);
 // Continue to the next steps...
 ```
 
-> **Wskazówka:** Jeśli musisz zastosować różne tryby mieszania dla poszczególnych warstw, użyj `layer.setBlendMode(BlendMode.<ModeName>)` przed zapisem.
+> **Wskazówka:** Jeśli należy sprawdzić różne tryby mieszania dla poszczególnych warstw, należy wykonać `layer.setBlendMode(BlendMode.<ModeName>)` przed zapisem.
 
-Powtórz trzy kroki dla każdego trybu mieszania, który chcesz przetestować, zamieniając odpowiednio tryb mieszania i wartości przezroczystości.
+Wykonaj trzy kroki dla każdego trybu mieszania, który chcesz sprawdzić, zamieniając odpowiednio tryb mieszania i wartości przezroczystości.
 
-## Common Issues and Solutions
+## Typowe problemy i rozwiązania
 
 | Problem | Rozwiązanie |
-|-------|----------|
-| **Indeks tablicy warstw poza zakresem** | Sprawdź, czy PSD faktycznie zawiera oczekiwaną liczbę warstw przed dostępem do `im.getLayers()[1]`. |
-| **Wyeksportowany PNG jest pusty** | Upewnij się, że ustawiono `PngOptions.setColorType(PngColorType.TruecolorWithAlpha)`; zachowuje to kanał alfa. |
-| **Spowolnienie wydajności przy dużych plikach** | Ładuj i przetwarzaj pliki pojedynczo oraz rozważ zwiększenie rozmiaru sterty JVM (`-Xmx2g`). |
+|-------|--------------|
+| **Indeksy warstw warstw poza zakresem** | Sprawdź, czy PSD rzeczywiście zawiera oczekiwaną warstwę przed dostępem do `im.getLayers()[1]`. |
+| **Wyeksportowany PNG jest pusty** | zostanie zainstalowane, że ustawiono `PngOptions.setColorType(PngColorType.TruecolorWithAlpha)`; wejdź na kanał alfa. |
+| **Spowolnienie wydajności przy dużych plikach** | Ładuj i przetwarzaj pliki pojedyncze oraz boczne, boczne sterty JVM (`-Xmx2g`). |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**P: Czy mogę używać Aspose.PSD dla Javy wraz z innymi bibliotekami przetwarzania obrazów w Javie?**  
-O: Tak, Aspose.PSD dla Javy może być zintegrowany z innymi bibliotekami przetwarzania obrazów w Javie, aby stworzyć kompleksowe rozwiązanie.
+**P: Czy możliwe do odczytania Aspose.PSD dla Javy wraz z innymi bibliotekami przetwarzania obrazów w Javie?**
+O: Tak, Aspose.PSD dla Javy może być udostępniony z innymi bibliotekami przetwarzania obrazów w Javie, aby utworzyć rozwiązanie.
 
-**P: Czy istnieją ograniczenia dotyczące rozmiaru plików PSD, które Aspose.PSD dla Javy może obsłużyć?**  
-O: Aspose.PSD dla Javy jest zaprojektowany do efektywnego obsługiwania dużych plików PSD, jednak należy zapoznać się z oficjalną dokumentacją w celu poznania dokładnych limitów rozmiaru.
+**P: Czy ograniczenie dotyczące plików PSD, które Aspose.PSD dla Javy może obsłużyć?**
+O: Aspose.PSD dla Javy jest następstwem obsługi dużych plików PSD, jednak należy zwrócić uwagę na oficjalną dokumentację w celu poznania szczegółów limitów.
 
-**P: Jak mogę uzyskać tymczasową licencję na Aspose.PSD dla Javy?**  
-O: Odwiedź [Temporary License](https://purchase.aspose.com/temporary-license/) na stronie, aby uzyskać tymczasową licencję.
+**P: Jak mogę uzyskać tymczasową odpowiedź na Aspose.PSD dla Javy?**
+O: Odwiedź [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) na stronie, aby uzyskać tymczasową licencję.
 
-**P: Czy istnieje forum społecznościowe wsparcia Aspose.PSD dla Javy?**  
-O: Tak, możesz odwiedzić [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia i dyskusji.
+**P: Czy istnieje forum społecznościowe wsparcia Aspose.PSD dla Javy?**
+O: Tak, możesz odwiedzić [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) w celu uzyskania wsparcia i porady.
 
-**P: Czy mogę dalej dostosować tryby mieszania w zależności od wymagań mojej aplikacji?**  
-O: Oczywiście! Aspose.PSD dla Javy zapewnia elastyczność, umożliwiając dostosowanie trybów mieszania do konkretnych potrzeb.
+**P: Czy można dalej dostosować tryb mieszania w zależności od wymagań mojej aplikacji?**
+O: Oczywiście! Aspose.PSD dla Javy zapewnia możliwość dostosowania trybów mieszania do potrzeb.
 
 ---
 
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-27
+**Testowano z:** Aspose.PSD dla Java 24.12 (najnowsza wersja w momencie pisania)
+**Autor:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

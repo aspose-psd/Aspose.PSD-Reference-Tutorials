@@ -78,13 +78,6 @@ A: Usa il tutorial `verifyImageTransparency` per controllare la visibilità dei 
 **Q: Dove posso trovare esempi più avanzati, come gradienti o percorsi personalizzati?**  
 A: La documentazione ufficiale di Aspose.PSD e il riferimento API includono esempi avanzati di disegno di forme.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -92,3 +85,10 @@ A: La documentazione ufficiale di Aspose.PSD e il riferimento API includono esem
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

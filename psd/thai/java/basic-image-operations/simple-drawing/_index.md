@@ -84,7 +84,8 @@ image.addLayer(layer);
 
 เราจะใช้คลาส `Graphics` เพื่อจัดการข้อมูลพิกเซลของเลเยอร์ ด้านล่างเป็นตัวอย่างสามกรณีที่แการล้างพื้นหลังและการวาดสี่เหลี่ยมด้วยสีต่าง ๆ
 
-### ล้างสีเลเยอร์ (ตั้งค่าพื้นหลังเป็นสีเหลือง```java
+### ล้างสีเลเยอร์ (ตั้งค่าพื้นหลังเป็นสีเหลือง
+```java
 //ExStart:DrawRectangleYellow
 Graphics graphic = new Graphics(layer);
 graphic.clear(Color.getYellow());

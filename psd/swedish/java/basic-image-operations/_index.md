@@ -78,13 +78,6 @@ A: Använd `verifyImageTransparency`‑handledningen för att kontrollera lagers
 **Q: Var kan jag hitta mer avancerade exempel, som gradienter eller anpassade banor?**  
 A: Den officiella Aspose.PSD‑dokumentationen och API‑referensen innehåller avancerade exempel på formritning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-27  
@@ -92,3 +85,10 @@ A: Den officiella Aspose.PSD‑dokumentationen och API‑referensen innehåller 
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

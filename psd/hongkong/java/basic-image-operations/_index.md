@@ -76,13 +76,6 @@ A: 使用 `verifyImageTransparency` 教學檢查圖層可見性，並將 PSD 匯
 **Q: 哪裡可以找到更進階的範例，例如漸層或自訂路徑？**  
 A: 官方 Aspose.PSD 文件與 API 參考中提供了進階形狀繪製的範例。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-27  
@@ -90,3 +83,10 @@ A: 官方 Aspose.PSD 文件與 API 參考中提供了進階形狀繪製的範例
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

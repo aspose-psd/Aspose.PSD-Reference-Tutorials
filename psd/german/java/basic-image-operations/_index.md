@@ -78,13 +78,6 @@ A: Verwenden Sie das `verifyImageTransparency`‑Tutorial, um die Ebenen‑Sicht
 **Q: Wo finde ich weiterführende Beispiele, wie Verläufe oder benutzerdefinierte Pfade?**  
 A: Die offizielle Aspose.PSD‑Dokumentation und das API‑Referenzhandbuch enthalten fortgeschrittene Beispiele für das Zeichnen von Formen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -92,3 +85,10 @@ A: Die offizielle Aspose.PSD‑Dokumentation und das API‑Referenzhandbuch enth
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

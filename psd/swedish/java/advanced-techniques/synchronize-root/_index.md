@@ -114,15 +114,15 @@ A4: Ja, du kan utforska en gratis provversion av Aspose.PSD genom att besöka [h
 **Q5: Hur kan jag skaffa en tillfällig licens för Aspose.PSD?**  
 A5: För att få en tillfällig licens, besök [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose

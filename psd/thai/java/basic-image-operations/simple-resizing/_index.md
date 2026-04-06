@@ -15,132 +15,137 @@ weight: 11
 
 # การปรับขนาดอย่างง่ายด้วย Aspose.PSD – ไลบรารีการจัดการภาพสำหรับ Java
 
-## Introduction
+## การแนะนำ
 
-หากคุณเป็นนักพัฒนา Java ที่กำลังมองหา **java image manipulation library** ที่เชื่อถือได้ คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะอธิบาย **how to resize image java** ด้วย Aspose.PSD for Java – ไลบรารีที่ทรงพลังซึ่งทำให้การประมวลผลภาพเร็วและง่ายดาย เมื่อคุณอ่านจนจบคุณจะได้ตัวอย่างที่ชัดเจนและพร้อมใช้งานในระดับผลิตที่สามารถนำไปใส่ในแอปพลิเคชัน Java ใดก็ได้
+มาดูเป็น Java ที่การดูแล **java image manipulation Library** ให้คุณมาถูกที่แล้วในบทแนะนำนี้เราจะอธิบาย **วิธีการปรับขนาดรูปภาพ java** ด้วย Aspose.PSD สำหรับ Java – ไลบรารีของฮาร์ดแวร์ฮาร์ดแวร์ภาพเร็วและไม่จำเป็นต้องอ่านอีกครั้งคุณจะได้ตัวอย่างที่ชัดเจนและพร้อมใช้งานในระดับที่จะดำเนินการใส่ในแอปพลิเคชัน Java เฟิร์มแวร์
 
-## Quick Answers
-- **ไลบรารีที่ใช้คืออะไร?** Aspose.PSD for Java, a leading java image manipulation library.  
-- **ฉันสามารถปรับขนาด PSD ใดก็ได้หรือไม่?** Yes – the library supports PSD, JPEG, PNG, and more.  
-- **จะระบุขนาดอย่างไร?** Call `image.resize(width, height)` with the desired pixel dimensions.  
-- **ฉันต้องการไลเซนส์หรือไม่?** A free trial works for development; a license is required for production.  
-- **ต้องการเวอร์ชัน Java ใด?** Java 8 or higher.
+## คำตอบด่วน
+- **ไลบรารีที่ใช้คืออะไร?** Aspose.PSD สำหรับ Java ซึ่งเป็นไลบรารีการจัดการรูปภาพ Java ชั้นนำ
+- **หากต้องการดู PSD เซิร์ฟเวอร์หรือไม่** ใช่ – ไลบรารีรองรับ PSD, JPEG, PNG และอื่นๆ
+- **จะระบุขนาดอย่างไร?** เรียก `image.resize(width, height)` ด้วยขนาดพิกเซลที่ต้องการ
+- ** ยืนยันไลเซนส์หรือไม่?** ทดลองใช้ฟรีเพื่อการพัฒนา; ต้องมีใบอนุญาตสำหรับการผลิต
+- **ต้องการเซิร์ฟเวอร์ Java ใด ๆ?** Java8 หรือสูงกว่า
 
-## What is a Java Image Manipulation Library?
+## ไลบรารีการจัดการรูปภาพ Java คืออะไร
 
-A **java image manipulation library** ให้การเข้าถึงแบบโปรแกรมสำหรับการดำเนินการกราฟิกทั่วไป—การปรับขนาด, การครอป, การแปลงรูปแบบ, และการจัดการเลเยอร์—โดยไม่ต้องพึ่งพาเครื่องมือภายนอก Aspose.PSD นำความสามารถเหล่านี้มสู่ผู้พัฒนา Java ทำให้คุณสามารถทำงานกับไฟล์ PSD โดยตรงและส่งออกเป็นรูปแบบที่นิยมได้
+A **ไลบรารีการจัดการรูปภาพ java** ส่วนใหญ่มักจะเป็นแบบโปรแกรมสำหรับพื้นที่แสดงผลทั่วไป— การวิจารณ์, การครอป, รูปแบบการจัดการ, และการจัดการระบบ—ส่วนใหญ่ของเครื่องมือภายนอก Aspose.PSD นำความสามารถภายนอกมาสู่เซิร์ฟเวอร์ Java คุณสามารถลองใช้ไฟล์ PSD การดำเนินการและส่งออกระบบได้โดยตรง
 
-## Why Use Aspose.PSD for Simple Resizing?
+## เหตุใดจึงใช้ Aspose.PSD เพื่อการปรับขนาดอย่างง่าย
 
-- **Performance‑optimized** algorithms that handle large PSD files efficiently.  
-- **No external dependencies** – pure Java, perfect for server‑side processing.  
-- **Rich format support** – beyond PSD you can output JPEG, PNG, TIFF, etc.  
-- **Consistent API** – the same methods work across all supported image types.
+- **อัลกอริธึม **เพิ่มประสิทธิภาพ** ที่จัดการไฟล์ PSD ขนาดใหญ่ได้อย่างมีประสิทธิภาพ
+- **ไม่มีการพึ่งพาภายนอก** – Java ล้วนๆ เหมาะสำหรับการประมวลผลฝั่งเซิร์ฟเวอร์
+- **รองรับรูปแบบที่หลากหลาย** – นอกเหนือจาก PSD คุณสามารถส่งออก JPEG, PNG, TIFF ฯลฯ
+- **API ที่สอดคล้องกัน** – วิธีการเดียวกันนี้ใช้ได้กับรูปภาพทุกประเภทที่รองรับ
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-Before we start, make sure you have the following:
+ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. **Java Development Kit (JDK)** – download the latest version from the [Java website](https://www.oracle.com/java/).  
-2. **Aspose.PSD for Java** – obtain the library from the [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
+1. **Java Development Kit (JDK)** – ดาวน์โหลดเวอร์ชันล่าสุดจาก [เว็บไซต์ Java](https://www.oracle.com/java/)
+2. **Aspose.PSD สำหรับ Java** – ดาวน์โหลดไลบรารีจาก [หน้าดาวน์โหลด Aspose.PSD สำหรับ Java](https://releases.aspose.com/psd/java/)
 
-Having these in place ensures a smooth setup for the resizing example.
+การติดตั้งสิ่งเหล่านี้จะช่วยให้การตั้งค่าตัวอย่างการปรับขนาดเป็นไปอย่างราบรื่น
 
-## Import Packages
+## นำเข้าแพ็กเกจ
 
-Start by importing the necessary classes. Place these imports at the top of your Java source file:
+เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็น วางคำสั่งนำเข้าเหล่านี้ไว้ที่ด้านบนสุดของไฟล์ซอร์สโค้ด Java ของคุณ:
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-These imports give you access to the core `Image` class and JPEG export options.
+การนำเข้าเหล่านี้จะทำให้คุณเข้าถึงคลาส `Image` หลักและตัวเลือกการส่งออก JPEG ได้
 
-## Step‑by‑Step Guide
+## คู่มือทีละขั้นตอน
 
-### Step 1: Set Your Document Directory
+### ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสารของคุณ
 
-Define the folder that contains the source PSD file. Replace the placeholder with your actual path.
+กำหนดโฟลเดอร์ที่เก็บไฟล์ PSD ต้นฉบับ แทนที่ตัวยึดตำแหน่งด้วยเส้นทางจริงของคุณ
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Specify Source and Destination Paths
+### ขั้นตอนที่ 2: ระบุเส้นทางต้นทางและปลายทาง
 
-Create full file names for the input PSD and the output JPEG.
+สร้างชื่อไฟล์แบบเต็มสำหรับไฟล์ PSD ขาเข้าและไฟล์ JPEG ขาออก
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "SimpleResizing_out.jpg";
 ```
 
-### Step 3: Load the Image
+### ขั้นตอนที่ 3: โหลดภาพ
 
-Load the PSD into an `Image` object.
+โหลดไฟล์ PSD ลงในออบเจ็กต์ `Image`
 
 ```java
 Image image = Image.load(sourceFile);
 ```
 
-### Step 4: Resize the Image
+### ขั้นตอนที่ 4: ปรับขนาดภาพ
 
-Resize to the desired dimensions (e.g., 300 × 300 pixels).
+ปรับขนาดให้ได้ขนาดที่ต้องการ (เช่น 300×300 พิกเซล)
 
 ```java
 image.resize(300, 300);
 ```
 
-### Step 5: Save the Resized Image
+### ขั้นตอนที่ 5: บันทึกภาพที่ปรับขนาดแล้ว
 
-Export the resized bitmap as a JPEG file.
+ส่งออกภาพบิตแมปที่ปรับขนาดแล้วเป็นไฟล์ JPEG
 
 ```java
 image.save(destName, new JpegOptions());
 ```
 
-> **Pro tip:** Experiment with different width/height values or maintain the aspect ratio by calculating one dimension from the other.
+> **เคล็ดลับ:** ทดลองใช้ค่าความกว้าง/ความสูงที่แตกต่างกัน หรือรักษาสัดส่วนโดยการคำนวณมิติหนึ่งจากอีกมิติหนึ่ง
 
-## Common Issues & Solutions
+## ปัญหาและวิธีแก้ไขที่พบบ่อย
 
-| Issue | Reason | Fix |
+| ปัญหา | สาเหตุ | วิธีแก้ไข |
+
 |-------|--------|-----|
-| **`OutOfMemoryError`** | Very large PSD files can exceed the JVM heap. | Increase the JVM heap size (`-Xmx2g`) or process images in chunks. |
-| **Unsupported format** | Trying to load a non‑PSD file without proper options. | Use the appropriate `Image.load` overload or convert the file first. |
-| **Distorted output** | Incorrect aspect ratio. | Calculate height based on original aspect ratio or use `image.resizeProportionally`. |
 
-## Frequently Asked Questions
+| **`OutOfMemoryError`** | ไฟล์ PSD ขนาดใหญ่มากอาจเกินหน่วยความจำ JVM | เพิ่มขนาดหน่วยความจำ JVM (`-Xmx2g`) หรือประมวลผลภาพเป็นส่วนๆ |
 
-### Q1: Can I resize images to specific dimensions using Aspose.PSD for Java?
+| **รูปแบบที่ไม่รองรับ** | พยายามโหลดไฟล์ที่ไม่ใช่ PSD โดยไม่มีตัวเลือกที่เหมาะสม | ใช้โอเวอร์โหลด `Image.load` ที่เหมาะสม หรือแปลงไฟล์ก่อน |
 
-**A:** Absolutely. The `resize(width, height)` method lets you define any pixel size you need.
+| **ผลลัพธ์บิดเบี้ยว** | สัดส่วนไม่ถูกต้อง | คำนวณความสูงตามสัดส่วนเดิม หรือใช้ `image.resizeProportionally` |
 
-### Q2: Is Aspose.PSD for Java compatible with different image formats?
+## คำถามที่พบบ่อย
 
-**A:** Yes. Besides PSD, the library supports JPEG, PNG, BMP, TIFF, and many more.
+### Q1: ฉันสามารถปรับขนาดภาพให้มีขนาดเฉพาะโดยใช้ Aspose.PSD สำหรับ Java ได้หรือไม่?
 
-### Q3: Where can I find additional documentation for Aspose.PSD for Java?
+**A:** ได้อย่างแน่นอน เมธอด `resize(width, height)` ช่วยให้คุณกำหนดขนาดพิกเซลใดๆ ก็ได้ตามต้องการ
 
-**A:** Refer to the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) for a full API reference.
+### Q2: Aspose.PSD สำหรับ Java เข้ากันได้กับรูปแบบภาพต่างๆ หรือไม่?
 
-### Q4: Can I try Aspose.PSD for Java before purchasing?
+**A:** ใช่ นอกจาก PSD แล้ว ไลบรารียังรองรับ JPEG, PNG, BMP, TIFF และอื่นๆ อีกมากมาย
 
-**A:** Certainly! Download the [free trial version](https://releases.aspose.com/) to explore all features.
+### Q3: ฉันจะหาเอกสารเพิ่มเติมสำหรับ Aspose.PSD สำหรับ Java ได้ที่ไหน?
 
-### Q5: How can I get support for Aspose.PSD for Java?
+**A:** โปรดดูเอกสารประกอบ [Aspose.PSD สำหรับ Java](https://reference.aspose.com/psd/java/) สำหรับข้อมูลอ้างอิง API ฉบับเต็ม
 
-**A:** Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to ask questions and share experiences with the community.
+### Q4: ฉันสามารถทดลองใช้ Aspose.PSD สำหรับ Java ก่อนซื้อได้หรือไม่?
 
-## Conclusion
+**A:** ได้อย่างแน่นอน! ดาวน์โหลด [เวอร์ชันทดลองใช้ฟรี](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติทั้งหมด
 
-In this tutorial we demonstrated how a **java image manipulation library** like Aspose.PSD makes **how to resize image java** tasks effortless. By following the concise steps above you can integrate image resizing into any Java application, ensuring fast, reliable results without external tools.
+### Q5: ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร?
+
+
+**A:** เยี่ยมชม [ฟอรัม Aspose.PSD](https://forum.aspose.com/c/psd/34) เพื่อถามคำถามและแบ่งปันประสบการณ์กับชุมชน
+
+## สรุป
+
+ในบทช่วยสอนนี้ เราได้แสดงให้เห็นว่า **ไลบรารีการจัดการรูปภาพใน Java** เช่น Aspose.PSD ทำให้งาน **การปรับขนาดรูปภาพใน Java** เป็นเรื่องง่าย โดยทำตามขั้นตอนสั้นๆ ข้างต้น คุณสามารถรวมการปรับขนาดรูปภาพเข้ากับแอปพลิเคชัน Java ใดๆ ก็ได้ รับประกันผลลัพธ์ที่รวดเร็วและเชื่อถือได้โดยไม่ต้องใช้เครื่องมือภายนอก
 
 ---
 
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.PSD for Java 24.12 (latest)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-27
+**ทดสอบกับ:** Aspose.PSD สำหรับ Java 24.12 (เวอร์ชันล่าสุด)
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

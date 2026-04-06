@@ -45,45 +45,39 @@ Elevate your graphic design game with captivating shadow effects. This step‑by
 
 ## Transparansi Terungkap: Memverifikasi Transparansi Gambar
 
-Explore the realm of image transparency verification with [Aspose.PSD for Java](./verify-image-transparency/). This tutorial seamlessly integrates transparency into your designs, with detailed documentation and excellent community support. Elevate your design projects with the assurance of verified image transparency using Aspose.PSD for Java.
+Jelajahi dunia verifikasi transparansi gambar dengan [Aspose.PSD for Java](./verify-image-transparency/). Tutorial ini mengintegrasikan transparansi ke dalam desain Anda dengan mulus, dengan dokumentasi terperinci dan dukungan komunitas yang sangat baik. Tingkatkan proyek desain Anda dengan jaminan transparansi gambar yang terverifikasi menggunakan Aspose.PSD for Java.
 
-In conclusion, these tutorials provide a holistic understanding of basic image operations using Aspose.PSD for Java. Whether you're a novice or an experienced designer, unlock the potential of graphic design with our step‑by‑step guides. Dive in and let your creativity flourish!
+Kesimpulannya, tutorial ini memberikan pemahaman holistik tentang operasi gambar dasar menggunakan Aspose.PSD for Java. Baik Anda seorang pemula atau desainer berpengalaman, buka potensi desain grafis dengan panduan langkah demi langkah kami. Mulailah dan biarkan kreativitas Anda berkembang!
 
 ## Tutorial Operasi Gambar Dasar
 ### [Lakukan Penggambaran Sederhana dengan Aspose.PSD for Java](./simple-drawing/)
-Learn how to draw shapes in PSD files using Aspose.PSD for Java. This step‑by‑step guide covers creating, adding layers, and drawing with code examples.
-### [Lakukan Pengubahan Ukuran Sederhana dengan Aspose.PSD for Java](./simple-resizing/)
-Learn to resize images programmatically with Aspose.PSD for Java. Follow our step‑by‑step guide for efficient image manipulation.
+Pelajari cara menggambar bentuk dalam file PSD menggunakan Aspose.PSD for Java. Panduan langkah demi langkah ini mencakup pembuatan, penambahan lapisan, dan menggambar dengan contoh kode.
+
+### [Pelajari Cara Mengubah Ukuran Gambar Sederhana dengan Aspose.PSD for Java](./simple-resizing/)
+Pelajari cara mengubah ukuran gambar secara terprogram dengan Aspose.PSD for Java. Ikuti panduan langkah demi langkah kami untuk manipulasi gambar yang efisien.
 ### [Mendukung Mode Campuran di Aspose.PSD for Java](./support-blend-modes/)
-Enhance image processing in Java with Aspose.PSD. Learn to leverage blend modes for stunning effects.
+Tingkatkan pemrosesan gambar di Java dengan Aspose.PSD. Pelajari cara memanfaatkan mode campuran untuk efek yang menakjubkan.
 ### [Mendukung Efek Bayangan di Aspose.PSD for Java](./support-shadow-effect/)
-Learn how to add captivating shadow effects to images using Aspose.PSD for Java. Elevate your graphic design with this step‑by‑step tutorial.
+Pelajari cara menambahkan efek bayangan yang memikat pada gambar menggunakan Aspose.PSD for Java. Tingkatkan desain grafis Anda dengan tutorial langkah demi langkah ini.
 ### [Verifikasi Transparansi Gambar dengan Aspose.PSD for Java](./verify-image-transparency/)
-Explore image transparency verification with Aspose.PSD for Java. Easy integration, detailed documentation, and excellent community support.
+Jelajahi verifikasi transparansi gambar dengan Aspose.PSD for Java. Integrasi yang mudah, dokumentasi yang detail, dan dukungan komunitas yang sangat baik.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Can I use Aspose.PSD for Java to draw shapes in a web application?**  
-A: Yes, the library works in any Java environment, including web servers and microservices.
+**T: Dapatkah saya menggunakan Aspose.PSD untuk Java untuk menggambar bentuk dalam aplikasi web?**
+J: Ya, pustaka ini berfungsi di lingkungan Java apa pun, termasuk server web dan layanan mikro.
 
-**Q: Is there a limit to the number of shapes I can draw on a single PSD?**  
-A: Practically no—performance depends on available memory and the complexity of the document.
+**T: Apakah ada batasan jumlah bentuk yang dapat saya gambar pada satu PSD?**
+J: Praktis tidak ada—kinerja bergantung pada memori yang tersedia dan kompleksitas dokumen.
 
-**Q: Do I need to handle color profiles when drawing shapes?**  
-A: Aspose.PSD preserves the document’s color profile automatically, but you can also set a custom profile if required.
+**T: Apakah saya perlu menangani profil warna saat menggambar bentuk?**
+J: Aspose.PSD secara otomatis mempertahankan profil warna dokumen, tetapi Anda juga dapat mengatur profil khusus jika diperlukan.
 
-**Q: How do I verify that my drawn shapes are correctly rendered?**  
-A: Use the `verifyImageTransparency` tutorial to check layer visibility and export the PSD to PNG for visual inspection.
+**T: Bagaimana cara memverifikasi bahwa bentuk yang saya gambar telah dirender dengan benar?**
+J: Gunakan tutorial `verifyImageTransparency` untuk memeriksa visibilitas lapisan dan ekspor PSD ke PNG untuk inspeksi visual.
 
-**Q: Where can I find more advanced examples, such as gradients or custom paths?**  
-A: The official Aspose.PSD documentation and API reference include advanced shape‑drawing samples.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+**T: Di mana saya dapat menemukan contoh yang lebih canggih, seperti gradien atau jalur khusus?**
+J: Dokumentasi resmi Aspose.PSD dan referensi API mencakup contoh menggambar bentuk tingkat lanjut.
 
 ---
 
@@ -92,3 +86,10 @@ A: The official Aspose.PSD documentation and API reference include advanced shap
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

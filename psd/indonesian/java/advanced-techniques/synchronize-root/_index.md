@@ -117,15 +117,15 @@ J4: Ya, Anda dapat menjelajahi versi percobaan gratis Aspose.PSD dengan mengunju
 **T5: Bagaimana cara memperoleh lisensi sementara untuk Aspose.PSD?**  
 J5: Untuk mendapatkan lisensi sementara, kunjungi [di sini](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Terakhir Diperbarui:** 2025-12-27  
+**Diuji Dengan:** Aspose.PSD untuk Java (rilis terbaru)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-27  
-**Diuji Dengan:** Aspose.PSD untuk Java (rilis terbaru)  
-**Penulis:** Aspose

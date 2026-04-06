@@ -16,31 +16,31 @@ weight: 10
 
 # Aspose.PSD for Java ile Kırmızı Dikdörtgen Çizme
 
-## Introduction
+## Giriiş
 
-Aspose.PSD for Java kullanarak **kırmızı dikdörtgen çizmeyi** adım adım gösteren bu kılavuza hoş geldiniz! Bu öğreticide yeni bir PSD belgesi oluşturmayı, bir katman eklemeyi ve özel renklerle şekiller çizmeyi anlatacağız. Grafik varlıklarını otomatikleştiriyor ya da bir tasarım aracı arka ucunu inşa ediyor olun, bu öğretici size temel yapı taşlarını sunar.
+Aspose.PSD for Java kullanarak **kırmızı dikdörtgen çizmeyi** adım adım gösteren bu kılavuza hoş geldiniz! Bu öğreticide yeni bir PSD belgesi oluşturmayı, bir katman eklemeyi ve özel renklerle sunacağımız çizmeyi anlatacağız. Grafik varlıklarını otomatik olarak yükselten ya da bir tasarım aracının arka gücünü geliştiren olun, bu öğretici boyutta temel yapı taşlarını sunar.
 
-## Quick Answers
+## Hızlı Yanıtlar
 - **PSD dosyası oluşturmak için birincil sınıf nedir?** `PsdImage`
-- **Bir katmanın arka plan rengini temizleyen yöntem hangisidir?** `Graphics.clear(Color)`
-- **Kırmızı bir dikdörtgen nasıl çizilir?** `graphic.drawRectangle(new Pen(Color.getRed()), new Rectangle(...))`
-- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü test için çalışır; üretim için lisans gereklidir.
-- **Aynı API ile mevcut PSD dosyalarını manipüle edebilir miyim?** Evet, Aspose.PSD tam PSD düzenlemeyi destekler.
+- **Bir koridorun arka planı temizleyen yöntem hangisidir?** `Graphics.clear(Color)`
+- **Kırmızı bir dikdörtgen nasıl çizilir?** `graphic.drawRectangle(new Pen(Color.getRed()), new Rectangle(...))'
+- **Geliştirme için lisansa ihtiyacı var mı?** Ücretsiz deneme sürümü testi için çalışır; üretim için lisans gereklidir.
+- **Aynı API ile mevcut PSD'yi manipüle edebilir miyim?** Evet, Aspose.PSD tam PSD düzenlemeyi desteklemesi.
 
-## What is drawing a red rectangle in a PSD file?
-Kırmızı bir dikdörtgen çizmek, `Graphics` nesnesini kullanarak bir PSD görüntüsünün belirli bir katmanına kırmızı renk ile doldurulmuş veya kenarlığı çizilmiş bir dikdörtgen şekli oluşturmak anlamına gelir. Bu işlem, alanları vurgulamak, yer tutucular oluşturmak veya basit grafikler eklemek için programlı olarak yaygın olarak kullanılır.
+## PSD dosyasında kırmızı bir dikdörtgen çizmek nedir?
+Kırmızı bir dikdörtgen çizmek, `Graphics` nesnesini kullanarak bir PSD depolamanın ayrıntılı bir bölüme kırmızı renk ile doldurulmuş veya kenarlığı düzenleme bir düzenli biçim oluşturmak gelir. Bu işlemi, alanlarını vurgulamak, yer güçlendirmek veya basit parçaları değiştirmek için programlı olarak yaygın olarak kullanılır.
 
-## Why use Aspose.PSD for Java to manipulate PSD files?
-Aspose.PSD, Photoshop yüklü olmadan Photoshop PSD dosyalarını okumanıza, düzenlemenize ve yazmanıza olanak tanıyan saf Java API'si sunar. Katman yönetimi, renk manipülasyonu ve vektör çizimini destekler; bu da sunucu tarafı görüntü işleme, otomatik varlık hatları ve özel grafik üretimi için idealdir.
+## PSD dosyalarını değiştirmek için neden Aspose.PSD for Java kullanmalısınız?
+Aspose.PSD, Photoshop olmadan yüklü Photoshop PSD kartlarını okumanıza, düzenlemenize ve yazmanıza olanak sağlayan saf Java API'si sunar. Katman yönetimi, renk değişikliği ve vektörlerin gösterimini sağlamak; bu da sunucu tarafı görüntü işleme, otomatik varlık çizgileri ve özel grafik üretimi için sağlanır.
 
-## Prerequisites
+## Önkoşullar
 
-- Makinenizde Java Development Kit (JDK) yüklü olmalıdır.  
-- Aspose.PSD for Java kütüphanesi. Bunu [Aspose.PSD for Java Documentation](https://reference.aspose.com/psd/java/) adresinden indirebilirsiniz.
+- Makinenizde Java Development Kit (JDK) yüklü olmalıdır.
+- Java kütüphanesi için Aspose.PSD. Bunu [Aspose.PSD for Java Documentation](https://reference.aspose.com/psd/java/) adresinden indirebilirsiniz.
 
-## Import Packages
+## Paketleri İçe Aktar
 
-Başlamak için, gerekli sınıfları Java projenize içe aktarın:
+Başlamak için gerekli sınıfları Java projenize aktarın:
 
 ```java
 import com.aspose.psd.Color;
@@ -53,7 +53,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-## Step 1: Create a New Document
+## Adım 1: Yeni Bir Belge Oluşturun
 
 İlk olarak, istenen tuval boyutuyla yeni bir PSD belgesi oluşturun. Bu belge, üzerinde çizeceğimiz katmanı barındıracaktır.
 
@@ -68,7 +68,7 @@ PsdImage image = new PsdImage(width, height);
 //ExEnd:CreateDocument
 ```
 
-## Step 2: Add a Layer
+## Adım 2: Katman Ekle
 
 Sonra, görüntünün tam genişlik ve yüksekliğini kapsayan yeni bir boş katman ekleyin. Katmanlar, çizim işlemlerini ayırmak için gereklidir.
 
@@ -81,11 +81,11 @@ image.addLayer(layer);
 //ExEnd:AddLayer
 ```
 
-## Step 3: Draw Shapes
+## Adım 3: Şekiller Çizin
 
-`Graphics` sınıfını kullanarak katmanın piksel verilerini manipüle edeceğiz. Aşağıda arka planı temizleme ve farklı renklerde dikdörtgenler çizme örneklerini gösteren üç örnek bulunmaktadır.
+`Grafik` sınıfını kullanarak katmanların piksel kümelerini manipüle eder. Burada arka plan temizleme ve farklı yapılandırmalar çizme örneklerini gösteren üç örnek bulunmaktadır.
 
-### Clear Layer Color (set background to yellow)
+### Katman Rengini Temizle (arka planı sarıya ayarla)
 
 ```java
 //ExStart:DrawRectangleYellow
@@ -94,7 +94,7 @@ graphic.clear(Color.getYellow());
 //ExEnd:DrawRectangleYellow
 ```
 
-### Draw a Red Rectangle (primary focus)
+### Kırmızı Bir Dikdörtgen Çizin (birincil odak)
 
 ```java
 //ExStart:DrawRedRectangle
@@ -102,7 +102,7 @@ graphic.drawRectangle(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
 //ExEnd:DrawRedRectangle
 ```
 
-### Draw a Blue Rectangle (additional example)
+### Mavi Bir Dikdörtgen Çizin (ek örnek)
 
 ```java
 //ExStart:DrawBlueRectangle
@@ -110,7 +110,7 @@ graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10
 //ExEnd:DrawBlueRectangle
 ```
 
-## Step 4: Save the Changes
+## Adım 4: Değişiklikleri Kaydet
 
 Son olarak, değiştirilen PSD görüntüsünü diske yazın. Dosya yeni katmanı ve çizilen şekilleri içerecektir.
 
@@ -120,57 +120,57 @@ image.save(outPsdFilePath);
 //ExEnd:SaveChanges
 ```
 
-## Common Issues and Solutions
+## Yaygın Sorunlar ve Çözümler
 
 - **Katman çizimden sonra görünmüyorsa:** Katmanın `Graphics` nesnesi oluşturulmadan **önce** görüntüye eklendiğinden emin olun.
-- **Renkler yanlış görünüyor:** `Color.getRed()` (veya diğer statik yöntemler) kullandığınızı, aralık dışı özel RGB değerleri kullanmadığınızı doğrulayın.
-- **Dosya kaydedilmiyor:** `outputDir` yolunun var olduğunu ve uygulamanın yazma izinlerine sahip olduğunu kontrol edin.
+- **Renkler yanlış görünüyor:** `Color.getRed()` (veya diğer statik izleme) kullanımını, aralık dışı özel RGB değerlerini kullanmadığınızı doğrulayın.
+- **Dosya kaydedilmiyor:** `outputDir` yolunun var olup olmadığını ve kayıt yazmaya izinlerine sahip olup olmadığını kontrol edin.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-### Q1: Can I use Aspose.PSD for Java to manipulate existing PSD files?
+### S1: Mevcut PSD dosyalarını değiştirmek için Aspose.PSD for Java'yı kullanabilir miyim?
 
-A1: Evet, Aspose.PSD for Java mevcut PSD dosyalarını düzenlemek ve manipüle etmek için kapsamlı işlevsellik sunar.
+C1: Evet, Aspose.PSD for Java mevcut PSD'yi düzenlemek ve düzenlemek için kapsamlı bir işlevsellik sunar.
 
-### Q2: Where can I find support for Aspose.PSD for Java?
+### S2: Aspose.PSD for Java desteğini nerede bulabilirim?
 
-A2: Destekle ilgili sorularınız için [Aspose.PSD for Java Forum](https://forum.aspose.com/c/psd/34) adresini ziyaret edebilirsiniz.
+C2: Destekle ilgili dağıtmak için [Aspose.PSD for Java Forum](https://forum.aspose.com/c/psd/34) adresini ziyaret edebilirsiniz.
 
-### Q3: Is there a free trial available for Aspose.PSD for Java?
+### S3: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
-A3: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+C3: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### Q4: How can I purchase a license for Aspose.PSD for Java?
+### S4: Aspose.PSD for Java lisansını nasıl satın alabilirim?
 
 A4: Lisansı [Aspose.PSD Satın Alma Sayfası](https://purchase.aspose.com/buy) üzerinden satın alabilirsiniz.
 
-### Q5: Are temporary licenses available for Aspose.PSD for Java?
+### S5: Aspose.PSD for Java için geçici lisanslar mevcut mu?
 
-A5: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+C5: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-## Additional Frequently Asked Questions
+## Ek Sıkça Sorulan Sorular
 
-**S: Dikdörtgen dışında başka şekiller çizebilir miyim?**  
-C: Evet, `Graphics` sınıfı elips, çizgi ve özel yollar çizmeyi de destekler.
+**S: Dikdörtgen dışında başka sözler çizebilir miyim?**
+C: Evet, `Graphics` sınıfı elips, çizgi ve özel yolların çizilmeyi de desteklemesi.
 
-**S: Çizilen şekillerde şeffaflık destekleniyor mu?**  
-C: Kesinlikle; alfa şeffaflığı eklemek için ARGB renkli `SolidBrush` kullanabilirsiniz.
+**S: Çizilenin şeffaflığı destekleniyor mu?**
+C:kesinlikle; alfa şeffaflığı seçmek için ARGB renkli `SolidBrush` kullanabilirsiniz.
 
-**S: Bir katmanın opaklığını düzenlemek mümkün mü?**  
+**S: Bir güvenliğin opaklığını düzenlemek mümkün mü?**
 C: Evet, her `Layer` nesnesinin 0 ile 255 arasında bir değer alan `setOpacity` yöntemi vardır.
 
-**S: Yeni bir dosya oluşturmak yerine mevcut bir PSD dosyasını nasıl yüklersiniz?**  
-C: Katmanları manipüle etmeden önce `PsdImage image = (PsdImage)Image.load("path/to/file.psd");` ifadesini kullanın.
+**S: Yeni bir dosya oluşturmak yerine mevcut bir PSD dosyalarını nasıl yüklersiniz?**
+C: Katmanları manipüle etmeden önce `PsdImage image = (PsdImage)Image.load("path/to/file.psd");`yi kullanın.
 
-## Conclusion
+## Çözüm
 
-Artık Aspose.PSD for Java kullanarak bir PSD dosusunda **kırmızı dikdörtgen** ve diğer temel şekilleri nasıl çizeceğinizi öğrendiniz. Bir belge oluşturup, bir katman ekleyip, arka planını temizleyerek ve `Graphics` API'siyle çizim yaparak birçok grafik‑tasarım görevini otomatikleştirebilirsiniz. Farklı fırçalar, katman efektleri ve dosya formatlarıyla deneyerek daha fazla keşfedin.
+Artık Aspose.PSD for Java kullanarak bir PSD dozunda **kırmızı dikdörtgen** ve diğer temel bilgileri nasıl çizeceğinizi bilgilerinize ekleyin. Bir belge oluşturup, bir katman ekleyerek, arka planını temizleyerek ve `Graphics` API'siyle çizim yaparak birçok grafik‑tasarım görevini otomatikleştirebilirsiniz. Farklı fırçalar, katman oluşturma ve dosya formatlarıyla deneyler yaparak daha fazla büyüme.
 
 ---
 
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-27
+**Test Edilenler:** Aspose.PSD for Java 24.12 (bu yazının yazıldığı tarihteki en son sürüm)
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

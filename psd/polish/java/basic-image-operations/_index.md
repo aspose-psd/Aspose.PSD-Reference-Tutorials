@@ -78,13 +78,6 @@ O: Skorzystaj z samouczka `verifyImageTransparency`, aby sprawdzić widoczność
 **P: Gdzie znajdę bardziej zaawansowane przykłady, takie jak gradienty lub niestandardowe ścieżki?**  
 O: Oficjalna dokumentacja Aspose.PSD oraz odniesienia API zawierają zaawansowane przykłady rysowania kształtów.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-27  
@@ -92,3 +85,10 @@ O: Oficjalna dokumentacja Aspose.PSD oraz odniesienia API zawierają zaawansowan
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

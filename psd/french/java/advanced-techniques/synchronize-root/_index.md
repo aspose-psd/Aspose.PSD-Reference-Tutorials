@@ -117,15 +117,15 @@ R4 : Oui, vous pouvez explorer une version d'essai gratuite d'Aspose.PSD en vi
 **Q5 : Comment obtenir une licence temporaire pour Aspose.PSD ?**  
 R5 : Pour obtenir une licence temporaire, visitez [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Dernière mise à jour :** 2025-12-27  
+**Testé avec :** Aspose.PSD for Java (latest release)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-27  
-**Testé avec :** Aspose.PSD for Java (latest release)  
-**Auteur :** Aspose

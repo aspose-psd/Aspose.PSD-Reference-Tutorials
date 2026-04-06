@@ -78,15 +78,15 @@ Prozkoumejte ověřování průhlednosti obrázku s Aspose.PSD for Java. Snadná
 **Q:** *Kde najdu pokročilejší příklady, jako jsou gradienty nebo vlastní cesty?*  
 **A:** *Oficiální dokumentace Aspose.PSD a reference API obsahují pokročilé ukázky kreslení tvarů.*
 
+---
+
+**Poslední aktualizace:** 2025-12-27  
+**Testováno s:** Aspose.PSD for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-27  
-**Testováno s:** Aspose.PSD for Java 24.11  
-**Autor:** Aspose

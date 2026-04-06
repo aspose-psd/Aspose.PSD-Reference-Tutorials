@@ -76,13 +76,6 @@ A: Use the `verifyImageTransparency` tutorial to check layer visibility and expo
 **Q: Where can I find more advanced examples, such as gradients or custom paths?**  
 A: The official Aspose.PSD documentation and API reference include advanced shape‑drawing samples.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -90,3 +83,10 @@ A: The official Aspose.PSD documentation and API reference include advanced shap
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

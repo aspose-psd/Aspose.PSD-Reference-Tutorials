@@ -62,27 +62,20 @@ weight: 25
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I use Aspose.PSD for Java to draw shapes in a web application?**  
-A: ใช่, ไลบรารีทำงานได้ในสภาพแวดล้อม Java ใด ๆ รวมถึงเซิร์ฟเวอร์เว็บและไมโครเซอร์วิส  
+**ถาม: ฉันสามารถใช้ Aspose.PSD สำหรับ Java เพื่อวาดรูปร่างในเว็บแอปพลิเคชันได้หรือไม่**
+ตอบ: เป็นไปได้, ไลบรารีทำงานได้ตามปกติ Java ใด ๆ และเซิร์ฟเวอร์เว็บและไมโครเซอร์วิส
 
-**Q: Is there a limit to the number of shapes I can draw on a single PSD?**  
-A: โดยหลักการไม่มีข้อจำกัด – ประสิทธิภาพขึ้นอยู่กับหน่วยความจำที่มีและความซับซ้อนของเอกสาร  
+**ถาม: มีการจำกัดจำนวนรูปร่างที่ฉันสามารถวาดบน PSD เดียวได้หรือไม่**
+ตอบ: โดยเฉพาะอย่างยิ่งไม่มีข้อจำกัด – ประสิทธิภาพในการตรวจสอบที่มีและความต้องการของเอกสาร
 
-**Q: Do I need to handle color profiles when drawing shapes?**  
-A: Aspose.PSD จะรักษาโปรไฟล์สีของเอกสารโดยอัตโนมัติ, แต่คุณก็สามารถตั้งค่าโปรไฟล์ที่กำหนดเองได้หากต้องการ  
+**ถาม: ฉันจำเป็นต้องจัดการโปรไฟล์สีเมื่อวาดรูปทรงหรือไม่**
+ตอบ: สมมุติว่า PSD จะรักษาโปรไฟล์ของบันทึกความทรงจำ, คุณสามารถนำเสนอโปรไฟล์ของคุณได้ที่...
 
-**Q: How do I verify that my drawn shapes are correctly rendered?**  
-A: ใช้บทเรียน `verifyImageTransparency` เพื่อตรวจสอบการมองเห็นของเลเยอร์และส่งออก PSD เป็น PNG เพื่อการตรวจสอบด้วยตา  
+**ถาม: ฉันจะตรวจสอบได้อย่างไรว่ารูปร่างที่วาดไว้นั้นแสดงอย่างถูกต้อง**
+ตอบ: ใช้บทเรียน `verifyImageTransparency` ในส่วนนี้และส่งออก PSD เป็น PNG ในการตรวจสอบด้วยตา
 
-**Q: Where can I find more advanced examples, such as gradients or custom paths?**  
+**ถาม: ฉันจะหาตัวอย่างขั้นสูงเพิ่มเติม เช่น การไล่ระดับสีหรือเส้นทางที่กำหนดเองได้ที่ไหน**
 A: เอกสารอย่างเป็นทางการของ Aspose.PSD และอ้างอิง API มีตัวอย่างการวาดรูปทรงขั้นสูงรวมถึงการไล่สีและเส้นทางกำหนดเอง  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -91,3 +84,10 @@ A: เอกสารอย่างเป็นทางการของ Aspo
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -78,13 +78,6 @@ A: Use o tutorial `verifyImageTransparency` para checar a visibilidade das camad
 **Q: Onde encontro exemplos mais avançados, como gradientes ou caminhos personalizados?**  
 A: A documentação oficial do Aspose.PSD e a referência da API incluem amostras avançadas de desenho de formas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-27  
@@ -92,3 +85,10 @@ A: A documentação oficial do Aspose.PSD e a referência da API incluem amostra
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

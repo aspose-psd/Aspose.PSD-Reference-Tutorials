@@ -77,15 +77,15 @@ A: Gebruik de `verifyImageTransparency` tutorial om de laag‑zichtbaarheid te c
 **Q: Waar vind ik meer geavanceerde voorbeelden, zoals verlopen of aangepaste paden?**  
 A: De officiële Aspose.PSD‑documentatie en API‑referentie bevatten geavanceerde voorbeeldcodes voor het tekenen van vormen.
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose

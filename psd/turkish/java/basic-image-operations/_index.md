@@ -78,15 +78,15 @@ Aspose.PSD for Java ile görüntü şeffaflığı doğrulamayı keşfedin. Kolay
 **S: Gradyanlar veya özel yollar gibi daha gelişmiş örnekleri nerede bulabilirim?**  
 **C:** Resmi Aspose.PSD dokümantasyonu ve API referansı, gelişmiş şekil çizimi örneklerini içerir.
 
+---
+
+**Son Güncelleme:** 2025-12-27  
+**Test Edilen Versiyon:** Aspose.PSD for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-27  
-**Test Edilen Versiyon:** Aspose.PSD for Java 24.11  
-**Yazar:** Aspose

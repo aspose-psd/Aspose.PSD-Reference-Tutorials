@@ -116,15 +116,15 @@ A4: はい、[here](https://releases.aspose.com/) から Aspose.PSD の無料ト
 **Q5: Aspose.PSD の一時ライセンスはどのように取得できますか？**  
 A5: 一時ライセンスを取得するには、[here](https://purchase.aspose.com/temporary-license/) をご覧ください。
 
+---
+
+**最終更新日:** 2025-12-27  
+**テスト環境:** Aspose.PSD for Java (latest release)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-27  
-**テスト環境:** Aspose.PSD for Java (latest release)  
-**作者:** Aspose

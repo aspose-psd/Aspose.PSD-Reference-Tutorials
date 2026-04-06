@@ -78,15 +78,15 @@ R: Usa el tutorial `verifyImageTransparency` para comprobar la visibilidad de ca
 **P: ¿Dónde puedo encontrar ejemplos más avanzados, como degradados o rutas personalizadas?**  
 R: La documentación oficial de Aspose.PSD y la referencia de API incluyen ejemplos avanzados de dibujo de formas.
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.PSD for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose

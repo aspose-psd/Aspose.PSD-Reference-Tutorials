@@ -78,15 +78,15 @@ R : Utilisez le tutoriel `verifyImageTransparency` pour vérifier la visibilité
 **Q : Où puis‑je trouver des exemples plus avancés, comme les dégradés ou les tracés personnalisés ?**  
 R : La documentation officielle d'Aspose.PSD et la référence API incluent des exemples avancés de dessin de formes.
 
+---
+
+**Dernière mise à jour :** 2025-12-27  
+**Testé avec :** Aspose.PSD for Java 24.11  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-27  
-**Testé avec :** Aspose.PSD for Java 24.11  
-**Auteur :** Aspose

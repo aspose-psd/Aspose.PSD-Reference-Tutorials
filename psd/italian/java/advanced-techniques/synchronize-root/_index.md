@@ -115,15 +115,15 @@ A4: Sì, puoi provare gratuitamente Aspose.PSD visitando [qui](https://releases.
 **Q5: Come posso ottenere una licenza temporanea per Aspose.PSD?**  
 A5: Per ottenere una licenza temporanea, visita [qui](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Ultimo aggiornamento:** 2025-12-27  
+**Testato con:** Aspose.PSD for Java (latest release)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-27  
-**Testato con:** Aspose.PSD for Java (latest release)  
-**Autore:** Aspose

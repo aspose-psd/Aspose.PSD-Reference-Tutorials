@@ -78,13 +78,6 @@ V: Használd a `verifyImageTransparency` tutorialt a réteg láthatóságának e
 **K: Hol találok fejlettebb példákat, például gradientek vagy egyéni útvonalak?**  
 V: Az hivatalos Aspose.PSD dokumentáció és API‑referencia tartalmaz fejlett alakzat‑rajzolási mintákat.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-27  
@@ -92,3 +85,10 @@ V: Az hivatalos Aspose.PSD dokumentáció és API‑referencia tartalmaz fejlett
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

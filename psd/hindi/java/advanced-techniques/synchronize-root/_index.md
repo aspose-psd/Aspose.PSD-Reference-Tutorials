@@ -117,15 +117,15 @@ A4: हाँ, आप [here](https://releases.aspose.com/) पर जाकर A
 **Q5: Aspose.PSD के लिए टेम्पररी लाइसेंस कैसे प्राप्त करें?**  
 A5: टेम्पररी लाइसेंस पाने के लिए [here](https://purchase.aspose.com/temporary-license/) पर जाएँ।
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose

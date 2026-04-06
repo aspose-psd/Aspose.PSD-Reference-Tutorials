@@ -77,15 +77,15 @@ weight: 25
 **س: أين يمكنني العثور على أمثلة أكثر تقدمًا، مثل التدرجات أو المسارات المخصصة؟**  
 ج: توثيق Aspose.PSD الرسمي ومرجع API يحتويان على عينات متقدمة لرسم الأشكال.
 
+---
+
+**آخر تحديث:** 2025-12-27  
+**تم الاختبار مع:** Aspose.PSD for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-27  
-**تم الاختبار مع:** Aspose.PSD for Java 24.11  
-**المؤلف:** Aspose
