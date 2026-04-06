@@ -1,5 +1,5 @@
 ---
-title: Convert PSD to GIF: Apply Gaussian and Wiener Filters for Color Images with Aspose.PSD for Java
+title: Convert PSD to GIF - Apply Gaussian and Wiener Filters for Color Images with Aspose.PSD for Java
 linktitle: Apply Gaussian and Wiener Filters for Color Images
 second_title: Aspose.PSD Java API
 description: Learn how to convert PSD to GIF using Aspose.PSD for Java by applying Gaussian and Wiener filters for stunning visual results.
