@@ -5,7 +5,7 @@ description: Tanulja meg, hogyan lehet képet vágni Java-ban az Aspose.PSD for 
   JPEG-re konvertálásához.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Kép vágása Java: Képek kibővítése és vágása az Aspose.PSD for Java segítségével'
+title: 'Kép vágása Java - Képek kibővítése és vágása az Aspose.PSD for Java segítségével'
 url: /hu/java/image-editing/expand-and-crop-images/
 weight: 18
 ---

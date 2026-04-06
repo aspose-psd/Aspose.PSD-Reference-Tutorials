@@ -4,7 +4,7 @@ description: Lär dig hur du beskär bild i Java med Aspose.PSD för Java. Steg�
   för bildbeskärning, storleksändring och konvertering från PSD till JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Beskär bild Java: Expandera och beskära bilder med Aspose.PSD för Java'
+title: 'Beskär bild Java - Expandera och beskära bilder med Aspose.PSD för Java'
 url: /sv/java/image-editing/expand-and-crop-images/
 weight: 18
 ---

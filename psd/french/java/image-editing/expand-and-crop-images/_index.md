@@ -5,7 +5,7 @@ description: Apprenez à recadrer une image en Java avec Aspose.PSD pour Java. G
   de PSD en JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Recadrage d''image Java : agrandir et recadrer les images avec Aspose.PSD
+title: 'Recadrage d''image Java - agrandir et recadrer les images avec Aspose.PSD
   pour Java'
 url: /fr/java/image-editing/expand-and-crop-images/
 weight: 18

@@ -5,7 +5,7 @@ description: Pelajari cara memotong gambar menggunakan Java dengan Aspose.PSD un
   dari PSD ke JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Potong Gambar Java: Perluas dan Potong Gambar dengan Aspose.PSD untuk Java'
+title: 'Potong Gambar Java - Perluas dan Potong Gambar dengan Aspose.PSD untuk Java'
 url: /id/java/image-editing/expand-and-crop-images/
 weight: 18
 ---
@@ -16,40 +16,40 @@ weight: 18
 
 # Crop Image Java: Memperluas dan Memotong Gambar dengan Aspose.PSD untuk Java
 
-## Introduction
+## Perkenalan
 
-Dalam tutorial ini Anda akan menemukan cara **crop image java** dengan perpustakaan Aspose.PSD. Baik Anda perlu memperluas kanvas, memotong tepi yang tidak diinginkan, atau mengonversi file PSD ke JPEG, langkah‑langkah di bawah ini akan memandu Anda melalui proses yang bersih dan dapat diulang. Kami akan membahas prasyarat, pernyataan impor, dan setiap langkah kode dengan penjelasan yang jelas sehingga Anda dapat menerapkan teknik ini pada proyek dunia nyata.
+Dalam tutorial ini Anda akan menemukan cara **crop image java** dengan perpustakaan Aspose.PSD. Baik Anda perlu memperluas kanvas, memotong tepi yang tidak diinginkan, atau mengubah file PSD ke JPEG, langkah‑langkah di bawah ini akan memandu Anda melalui proses yang bersih dan dapat diulang. Kami akan membahas persyaratan, pernyataan impor, dan setiap langkah kode dengan penjelasan yang jelas sehingga Anda dapat menerapkan teknik ini pada proyek dunia nyata.
 
-## Quick Answers
-- **What library handles crop image java?** Aspose.PSD for Java.  
-- **Do I need a license for development?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
-- **Can I convert PSD to JPEG while cropping?** Ya, dengan menggunakan `JpegOptions` bersama dengan persegi panjang pemotongan.  
-- **Is Java 8 supported?** Aspose.PSD mendukung Java 8 dan versi yang lebih baru.  
-- **How long does the implementation take?** Biasanya kurang dari 10 menit untuk operasi pemotongan dasar.
+## Jawaban Cepat
+- **Perpustakaan apa yang menangani pemotongan gambar java?** Aspose.PSD untuk Java.
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.
+- **Dapatkah saya mengonversi PSD ke JPEG sambil memotong?** Ya, dengan menggunakan `JpegOptions` bersama dengan potongan panjang.
+- **Apakah Java 8 didukung?** Aspose.PSD mendukung Java 8 dan versi yang lebih baru.
+- **Berapa lama waktu penerapannya?** Biasanya kurang dari 10menit untuk operasi pemotongan dasar.
 
-## What is “crop image java”?
+## Apa itu “pangkas gambar java”?
 
-Memotong gambar di Java berarti memilih area persegi panjang dari gambar sumber dan membuang sisanya. Dengan Aspose.PSD Anda dapat mendefinisikan area ini menggunakan objek `Rectangle`, lalu menyimpan hasilnya dalam format berbeda seperti JPEG.
+Memotong gambar di Java berarti memilih area persegi panjang dari sumber gambar dan membuang sisa. Dengan Aspose.PSD Anda dapat mendefinisikan area ini menggunakan objek `Rectangle`, lalu menyimpan hasilnya dalam format berbeda seperti JPEG.
 
-## Why use Aspose.PSD for Java image cropping?
+## Mengapa menggunakan Aspose.PSD untuk pemotongan gambar Java?
 
-- **Full PSD support** – bekerja langsung dengan file PSD berlapis tanpa harus mengonversinya terlebih dahulu.  
-- **High‑performance raster handling** – penggunaan memori yang efisien untuk gambar berukuran besar.  
-- **Built‑in conversion** – mudah mengekspor ke JPEG, PNG, BMP, dll., sambil menerapkan pemotongan atau perluasan kanvas.  
+- **Dukungan PSD penuh** – bekerja langsung dengan file PSD berlapis tanpa harus mengonversinya terlebih dahulu.
+- **Penanganan raster berkinerja tinggi** – penggunaan memori yang efisien untuk gambar berukuran besar.
+- **Konversi bawaan** – mudah mengekspor ke JPEG, PNG, BMP, dll., sambil menerapkan pemotongan atau perluasan kanvas.
 - **Cross‑platform** – berfungsi pada sistem apa pun yang menjalankan Java.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki:
 
-1. **Java Development Kit (JDK)** – Java 8 atau yang lebih baru terpasang.  
-2. **Aspose.PSD for Java** – unduh perpustakaan dari situs resmi **[here](https://releases.aspose.com/psd/java/)**.  
+1. **Java Development Kit (JDK)** – Java8 atau yang lebih baru terpasang.
+2. **Aspose.PSD untuk Java** – unduh perpustakaan dari situs resmi **[di sini](https://releases.aspose.com/psd/java/)**.
 
-> **Pro tip:** Tambahkan JAR Aspose.PSD ke classpath proyek Anda atau ke dependensi Maven/Gradle untuk menghindari `ClassNotFoundException`.
+> **Tips pro:** Tambahkan JAR Aspose.PSD ke proyek classpath Anda atau ke dependensi Maven/Gradle untuk menghindari `ClassNotFoundException`.
 
-## Import Packages
+## Impor Paket
 
-Tambahkan impor yang diperlukan ke file sumber Java Anda. Kelas‑kelas ini memberi Anda akses ke pemuatan gambar, manipulasi raster, definisi persegi panjang, dan opsi ekspor JPEG.
+Tambahkan impor yang diperlukan ke file sumber Java Anda. Kelas‑kelas ini memberi Anda akses untuk memuat gambar, manipulasi raster, resolusi persegi panjang, dan opsi ekspor JPEG.
 
 ```java
 import com.aspose.psd.Image;
@@ -59,7 +59,7 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Step 1: Set Your Document Directory
+## Langkah 1: Tetapkan Direktori Dokumen Anda
 
 Tentukan folder yang berisi file PSD sumber. Ganti placeholder dengan jalur aktual di mesin Anda.
 
@@ -67,7 +67,7 @@ Tentukan folder yang berisi file PSD sumber. Ganti placeholder dengan jalur aktu
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Specify Source and Destination Paths
+## Langkah 2: Tentukan Jalur Sumber dan Tujuan
 
 Definisikan lokasi untuk membaca PSD dan tempat menulis JPEG yang telah dipotong.
 
@@ -76,7 +76,7 @@ String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Step 3: Load and Cache the Image
+## Langkah 3: Muat dan Simpan Gambar dalam Cache
 
 Muat PSD ke objek `RasterImage`. Caching meningkatkan kinerja untuk operasi selanjutnya seperti pemotongan.
 
@@ -85,7 +85,7 @@ RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 rasterImage.cacheData();
 ```
 
-## Step 4: Create Rectangle for Cropping
+## Langkah 4: Buat Persegi Panjang untuk Pemotongan
 
 Buat `Rectangle` yang menggambarkan area yang ingin Anda pertahankan. Koordinat dapat bernilai negatif untuk **memperluas** kanvas sebelum pemotongan, yang berguna untuk menambahkan batas di sekitar gambar asli.
 
@@ -96,7 +96,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 > **Why use negative coordinates?**  
 > Nilai X/Y negatif menggeser area pemotongan ke kiri/atas, secara efektif menambahkan ruang kosong (memperluas) di sekitar konten asli sebelum pemotongan akhir.
 
-## Step 5: Save the Cropped Image
+## Langkah 5: Simpan Gambar yang Telah Dipotong
 
 Akhirnya, simpan gambar hasil menggunakan `JpegOptions`. Langkah ini juga memperlihatkan **convert psd jpeg** sambil menerapkan persegi panjang pemotongan.
 
@@ -108,47 +108,47 @@ rasterImage.save(destName, new JpegOptions(), destRect);
 
 Selamat! Anda telah berhasil melakukan **java image cropping**, memperluas kanvas, dan mengonversi file PSD ke JPEG—semua dalam beberapa baris kode yang singkat.
 
-## Common Use Cases
+## Kasus Penggunaan Umum
 
-- **Preparing assets for web** – memotong dan mengubah ukuran screenshot atau desain sebelum diunggah.  
-- **Generating thumbnails** – mengekstrak area tertentu dari PSD besar untuk keperluan pratinjau.  
-- **Automated batch processing** – memproses folder berisi file PSD, menerapkan persegi panjang pemotongan yang sama pada setiap file.
+- **Mempersiapkan aset untuk web** – memotong dan mengubah ukuran tangkapan layar atau desain sebelum diunggah.
+- **Menghasilkan thumbnail** – mengekstrak area tertentu dari PSD besar untuk mencapai tujuan.
+- **Pemrosesan batch otomatis** – memproses folder berisi file PSD, menerapkan serangkaian panjang pemotongan yang sama pada setiap file.
 
-## Troubleshooting & Tips
+## Pemecahan Masalah & Tip
 
-| Issue | Suggested Fix |
+| Edisi | Perbaikan yang Disarankan |
 |-------|----------------|
-| `OutOfMemoryError` ketika memuat PSD besar | Panggil `rasterImage.cacheData()` lebih awal dan pertimbangkan meningkatkan ukuran heap JVM (`-Xmx`). |
-| Area yang dipotong tidak berada di tengah | Periksa offset X/Y pada persegi panjang; ingat nilai negatif memperluas kanvas. |
-| JPEG output terlihat buram | Sesuaikan pengaturan kualitas `JpegOptions` (misalnya, `new JpegOptions { Quality = 90 }`). |
+| `OutOfMemoryError` ketika memuat PSD besar | Panggil `rasterImage.cacheData()` lebih awal dan mempengaruhi peningkatan ukuran heap JVM (`-Xmx`). |
+| Area yang dipotong tidak berada di tengah | Periksa offset X/Y pada panjang tertentu; ingat nilai negatif memperluas kanvas. |
+| Output JPEG terlihat buram | Sesuaikan pengaturan kualitas `JpegOptions` (misalnya, `JpegOptions baru { Kualitas = 90 }`). |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Is Aspose.PSD compatible with different Java versions?
+### Q1: Apakah Aspose.PSD kompatibel dengan versi Java yang berbeda?
 
 A1: Ya, Aspose.PSD mendukung berbagai versi Java, memastikan kompatibilitas dengan beragam lingkungan pengembangan.
 
-### Q2: Can I use Aspose.PSD for commercial projects?
+### Q2: Bisakah saya menggunakan Aspose.PSD untuk proyek komersial?
 
 A2: Tentu saja, Aspose.PSD menyediakan lisensi komersial untuk pengembang, memungkinkan penggunaannya dalam proyek pribadi maupun komersial.
 
-### Q3: Are there any limitations on the image file formats supported?
+### Q3: Apakah ada batasan pada format file gambar yang didukung?
 
-A3: Aspose.PSD mendukung berbagai format file gambar, termasuk PSD, JPEG, PNG, dan lainnya. Lihat [documentation](https://reference.aspose.com/psd/java/) untuk daftar lengkap.
+A3: Aspose.PSD mendukung berbagai format file gambar, termasuk PSD, JPEG, PNG, dan lainnya. Lihat [dokumentasi](https://reference.aspose.com/psd/java/) untuk daftar lengkap.
 
-### Q4: How can I get support for Aspose.PSD-related queries?
+### Q4: Bagaimana cara mendapatkan dukungan untuk pertanyaan terkait Aspose.PSD?
 
-A4: Kunjungi [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) untuk mendapatkan bantuan dari komunitas atau tim dukungan Aspose.
+A4: Kunjungi [Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk mendapatkan bantuan dari komunitas atau tim dukungan Aspose.
 
-### Q5: Is there a free trial available?
+### Q5: Apakah tersedia uji coba gratis?
 
-A5: Ya, Anda dapat menjelajahi Aspose.PSD dengan versi percobaan gratis. Unduh [here](https://releases.aspose.com/).
+A5: Ya, Anda dapat menjelajahi Aspose.PSD dengan versi percobaan gratis. Unduh [di sini](https://releases.aspose.com/).
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.PSD for Java 24.12  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 07-01-2026
+**Diuji Dengan:** Aspose.PSD untuk Java 24.12
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

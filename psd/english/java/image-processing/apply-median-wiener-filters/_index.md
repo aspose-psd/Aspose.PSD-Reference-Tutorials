@@ -1,5 +1,5 @@
 ---
-title: "Step by Step Filter: Apply Median & Wiener Filters (Java)"
+title: "Step by Step Filter - Apply Median & Wiener Filters (Java)"
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
 description: "Learn step by step filter techniques to apply Median and Wiener filters using Aspose.PSD for Java, and convert PSD to GIF efficiently."

@@ -4,7 +4,7 @@ description: Aprende un tutorial paso a paso de filtros para el filtrado de imá
   en Java. Convierte PSD a GIF y aplica filtros de Wiener de movimiento con Aspose.PSD.
 linktitle: Apply Motion Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Filtro paso a paso: aplicar filtros Wiener de movimiento usando Aspose.PSD
+title: 'Filtro paso a paso - aplicar filtros Wiener de movimiento usando Aspose.PSD
   para Java'
 url: /es/java/image-processing/apply-motion-wiener-filters/
 weight: 13
@@ -119,28 +119,6 @@ Repita estos pasos para un procesamiento de imágenes sin problemas usando Aspos
 ## Conclusión
 
 ¡Felicidades! Ha navegado con éxito la aplicación de filtros Motion Wiener usando Aspose.PSD para Java. Ahora posee un flujo de trabajo sólido de **filtro paso a paso** que también demuestra cómo **convertir PSD a GIF**. Explore más posibilidades y mejore sus capacidades de procesamiento de imágenes con esta biblioteca versátil.
-
-## Preguntas frecuentes
-
-### Q1: ¿Puedo usar Aspose.PSD para Java con otros lenguajes de programación?
-
-A1: Aspose.PSD principalmente soporta Java, pero Aspose proporciona bibliotecas similares para otros lenguajes, como .NET, Python y más.
-
-### Q2: ¿Es Aspose.PSD para Java compatible con todos los formatos de imagen?
-
-A2: Sí, Aspose.PSD soporta una amplia gama de formatos de imagen, garantizando flexibilidad al manejar varios tipos de archivo.
-
-### Q3: ¿Dónde puedo encontrar soporte o asistencia adicional?
-
-A3: Visite el foro de Aspose.PSD [aquí](https://forum.aspose.com/c/psd/34) para soporte comunitario y discusiones.
-
-### Q4: ¿Puedo probar Aspose.PSD para Java antes de comprar?
-
-A4: Sí, puede explorar la versión de prueba gratuita [aquí](https://releases.aspose.com/).
-
-### Q5: ¿Cómo obtengo una licencia temporal para Aspose.PSD para Java?
-
-A5: Adquiera una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/) para pruebas y evaluación.
 
 ## Preguntas frecuentes
 

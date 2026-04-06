@@ -3,7 +3,7 @@ date: 2026-01-07
 description: 學習 Java 圖像過濾的逐步篩選教學。將 PSD 轉換為 GIF，並使用 Aspose.PSD 套用運動 Wiener 濾波。
 linktitle: Apply Motion Wiener Filters
 second_title: Aspose.PSD Java API
-title: 逐步濾鏡：使用 Aspose.PSD for Java 應用運動維納濾波器
+title: 逐步濾鏡 - 使用 Aspose.PSD for Java 應用運動維納濾波器
 url: /zh-hant/java/image-processing/apply-motion-wiener-filters/
 weight: 13
 ---
@@ -115,28 +115,6 @@ image.save(destName, new GifOptions());
 ## 結論
 
 恭喜！您已成功完成使用 Aspose.PSD for Java 套用 Motion Wiener Filters 的全流程。現在您擁有一套完整的 **step by step filter** 工作流程，同時也學會了 **convert PSD to GIF**。探索更多可能性，並利用此多功能函式庫提升您的影像處理能力。
-
-## 常見問答
-
-### Q1：我可以將 Aspose.PSD for Java 與其他程式語言一起使用嗎？
-
-A1：Aspose.PSD 主要支援 Java，但 Aspose 亦提供 .NET、Python 等其他語言的類似函式庫。
-
-### Q2：Aspose.PSD for Java 是否相容所有影像格式？
-
-A2：是的，Aspose.PSD 支援多種影像格式，確保在處理各種檔案類型時具備彈性。
-
-### Q3：我可以在哪裡取得額外的支援或協助？
-
-A3：前往 Aspose.PSD 論壇[此處](https://forum.aspose.com/c/psd/34)取得社群支援與討論。
-
-### Q4：我可以在購買前試用 Aspose.PSD for Java 嗎？
-
-A4：可以，您可於[此處](https://releases.aspose.com/)探索免費試用版。
-
-### Q5：如何取得 Aspose.PSD for Java 的臨時授權？
-
-A5：可於[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權，以供測試與評估使用。
 
 ## 常見問題
 

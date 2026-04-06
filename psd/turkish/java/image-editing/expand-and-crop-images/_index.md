@@ -5,7 +5,7 @@ description: Aspose.PSD for Java kullanarak Java’da nasıl resim kırpılacağ
   rehber.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Görüntü Kırpma Java: Aspose.PSD for Java ile Görüntüleri Genişlet ve Kırp'
+title: 'Görüntü Kırpma Java - Aspose.PSD for Java ile Görüntüleri Genişlet ve Kırp'
 url: /tr/java/image-editing/expand-and-crop-images/
 weight: 18
 ---
@@ -16,40 +16,40 @@ weight: 18
 
 # Crop Image Java: Aspose.PSD for Java ile Görüntüleri Genişletin ve Kırpın
 
-## Introduction
+## Giriiş
 
-Bu öğreticide, Aspose.PSD kütüphanesini kullanarak **crop image java** nasıl yapılacağını keşfedeceksiniz. Kanvası genişletmeniz, istenmeyen kenarları kırpmanız veya bir PSD dosyasını JPEG'e dönüştürmeniz gerekse, aşağıdaki adımlar temiz ve tekrarlanabilir bir süreç sunar. Gereksinimler, import ifadeleri ve her kod adımını net açıklamalarla ele alacağız, böylece tekniği gerçek dünya projelerinde uygulayabilirsiniz.
+Bu öğreticide, Aspose.PSD kütüphanesini kullanarak **crop image java**'yı nasıl keşfedeceksiniz. Kanvası genişletmeniz, istenmeyen bölümleriniz veya bir PSD dosyasını JPEG'e aktarmanız, aşağıdaki adımları temiz ve tekrarlanabilir bir süreç sunar. Gereksinimler, ithalat ifadeleri ve kod adımını net açıklamalarla elde edebileceğinizz, böylece teknolojinin gerçek dünya projelerinde uygulayabilirsiniz.
 
-## Quick Answers
-- **What library handles crop image java?** Aspose.PSD for Java.
-- **Do I need a license for development?** Geliştirme için ücretsiz deneme sürümü test amaçlı çalışır; üretim için ticari lisans gereklidir.
-- **Can I convert PSD to JPEG while cropping?** Evet, kırpma dikdörtgeniyle birlikte `JpegOptions` kullanarak yapabilirsiniz.
-- **Is Java 8 supported?** Aspose.PSD, Java 8 ve daha yeni sürümleri destekler.
-- **How long does the implementation take?** Temel bir kırpma işlemi genellikle 10 dakikadan az sürer.
+## Hızlı Yanıtlar
+- **Görüntü kırpma java'sını hangi kütüphane yönetiyor?** Aspose.PSD for Java.
+- **Geliştirme için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü testi amaçlanıyor; üretim için ticari lisans gereklidir.
+- **Kırpma sırasında PSD'yi JPEG'e dönüştürebilir miyim?** Evet, yapabileceğin dosyalarıyla birlikte `JpegOptions` kullanarak yapabilirsiniz.
+- **Java 8 destekleniyor mu?** Aspose.PSD, Java 8 ve daha yeni bir şekilde kullanılabilir.
+- **Uygulama ne kadar sürer?** Temel bir kalıcı işlem genellikle 10dakikadan az sürer.
 
-## What is “crop image java”?
+## "Resim kırpma javası" nedir?
 
-Java’da bir görüntüyü kırpmak, kaynak resmin dikdörtgen bir bölgesini seçmek ve geri kalanını atmak anlamına gelir. Aspose.PSD ile bu bölgeyi bir `Rectangle` nesnesiyle tanımlayabilir, ardından sonucu JPEG gibi farklı bir formatta kaydedebilirsiniz.
+Java’da bir arada kalmak, kaynak resminin bir bölgesini seçmek ve geri kalanını dağıtmak anlamına gelir. Aspose.PSD ile bu ayrıştırılabilir bir `Dikdörtgen` nesnesiyle tanımlayabilir, ardından sonucu JPEG gibi farklı bir formatta kaydedebilirsiniz.
 
-## Why use Aspose.PSD for Java image cropping?
+## Java resim kırpma için neden Aspose.PSD kullanmalısınız?
 
-- **Full PSD support** – katmanlı PSD dosyalarıyla doğrudan çalışın, önce dönüştürmeye gerek kalmaz.  
-- **High‑performance raster handling** – büyük görüntüler için verimli bellek kullanımı.  
-- **Built‑in conversion** – kırpma veya kanvas genişletme sırasında JPEG, PNG, BMP vb. formatlara kolayca dışa aktarın.  
-- **Cross‑platform** – Java çalıştırabilen herhangi bir sistemde çalışır.
+- **Tam PSD desteği** – dağıtılmış PSD dosyalarıyla doğrudan kesilmesi, önce dönüştürülmesine gerek kalmaz.
+- **Yüksek performanslı raster işleme** – büyük görüntüler için verimli bellek kullanımı.
+- **Yerleşik dönüştürme** – yapılabilir veya kanvas genişletme sırasında JPEG, PNG, BMP vb. formatlara kolayca aktarılır.
+- **Çapraz platform** – Java'yı çalıştırabilen herhangi bir sistem çalışır.
 
-## Prerequisites
+## Önkoşullar
 
-Başlamadan önce şunların yüklü olduğundan emin olun:
+Başlamadan önce paketin yüklü olduğundan emin olun:
 
-1. **Java Development Kit (JDK)** – Java 8 veya daha yeni bir sürüm yüklü.  
-2. **Aspose.PSD for Java** – resmi siteden kütüphaneyi **[buradan](https://releases.aspose.com/psd/java/)** indirin.  
+1. **Java Development Kit (JDK)** – Java8 veya daha yeni bir sürüm yüklü.
+2. **Aspose.PSD for Java** – resmi siteden kütüphaneyi **[buradan](https://releases.aspose.com/psd/java/)** indir.
 
-> **Pro tip:** Aspose.PSD JAR dosyasını projenizin classpath'ine veya Maven/Gradle bağımlılıklarına ekleyin, böylece `ClassNotFoundException` hatasından kaçınırsınız.
+> **Profesyonel ipucu:** Aspose.PSD JAR kopyalarının projenizin classpath'ine veya Maven/Gradle bağımlılıklarına eklenmesini sağlar, böylece `ClassNotFoundException` hatalarından kaçınırsınız.
 
-## Import Packages
+## Paketleri İçe Aktar
 
-Java kaynak dosyanıza gerekli importları ekleyin. Bu sınıflar, görüntü yükleme, raster manipülasyonu, dikdörtgen tanımlama ve JPEG dışa aktarım seçeneklerine erişim sağlar.
+Java dosya kaynağınıza gerekli ithalatları ekleyin. Bu sınıflar, görüntü yükleme, raster ayrıntıları, kayıtlı tanımlama ve JPEG seçenekleri seçeneklerine erişim sağlar.
 
 ```java
 import com.aspose.psd.Image;
@@ -59,7 +59,7 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Step 1: Set Your Document Directory
+## Adım 1: Belge Dizininizi Ayarlayın
 
 Kaynak PSD dosyasının bulunduğu klasörü belirtin. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
 
@@ -67,7 +67,7 @@ Kaynak PSD dosyasının bulunduğu klasörü belirtin. Yer tutucuyu makinenizdek
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Specify Source and Destination Paths
+## Adım 2: Kaynak ve Hedef Yolları Belirtin
 
 PSD'yi okuyacağınız ve kırpılmış JPEG'i yazacağınız yolları tanımlayın.
 
@@ -76,7 +76,7 @@ String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Step 3: Load and Cache the Image
+## Adım 3: Görüntüyü Yükleyin ve Önbelleğe Alın
 
 PSD'yi bir `RasterImage` nesnesine yükleyin. Önbelleğe alma, kırpma gibi sonraki işlemlerin performansını artırır.
 
@@ -85,7 +85,7 @@ RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 rasterImage.cacheData();
 ```
 
-## Step 4: Create Rectangle for Cropping
+## Adım 4: Kırpma İçin Dikdörtgen Oluşturun
 
 Tutmak istediğiniz bölgeyi tanımlayan bir `Rectangle` oluşturun. Koordinatlar negatif olabilir; bu, kırpmadan önce kanvası **genişletmek** için kullanışlıdır ve orijinal görüntünün etrafına kenar eklemenizi sağlar.
 
@@ -96,7 +96,7 @@ Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 > **Why use negative coordinates?**  
 > Negatif X/Y değerleri kırpma alanını sola/yukarı kaydırır, böylece son kırpmadan önce orijinal içeriğin etrafına boş alan (genişletme) eklenir.
 
-## Step 5: Save the Cropped Image
+## Adım 5: Kırpılmış Görüntüyü Kaydedin
 
 Son olarak, `JpegOptions` kullanarak elde edilen görüntüyü kaydedin. Bu adım, kırpma dikdörtgeni uygulanırken **convert psd jpeg** işlemini de gösterir.
 
@@ -104,51 +104,51 @@ Son olarak, `JpegOptions` kullanarak elde edilen görüntüyü kaydedin. Bu adı
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-> **Result:** `jpeg_out.jpg` artık her iki taraftan 200 px genişletilmiş ve tanımlı dikdörtgene kırpılmış 300 × 300 piksel bir görüntü içerir.
+> **Sonuç:** `jpeg_out.jpg` artık her iki bölgede 200 piksel seçeneği ve tanımlı bölmeler kırpılmış 300×300 piksel bir görüntü içerir.
 
-Tebrikler! **java image cropping** işlemini başarıyla gerçekleştirdiniz, kanvası genişlettiniz ve bir PSD dosyasını birkaç satır kodla JPEG'e dönüştürdünüz.
+Tebrikler! **java image kırpma** işlemini başarıyla gerçekleştirdiniz, kanvasını genişlettiniz ve bir PSD bölümünü birkaç satır kodla JPEG'e dönüştürdünüz.
 
-## Common Use Cases
+## Yaygın Kullanım Durumları
 
-- **Preparing assets for web** – web için varlıkları hazırlarken ekran görüntülerini veya tasarımları kırpıp yeniden boyutlandırın.  
-- **Generating thumbnails** – büyük bir PSD'den ön izleme amaçlı belirli bir bölgeyi çıkararak küçük resimler oluşturun.  
-- **Automated batch processing** – bir klasördeki PSD dosyalarını döngüye alarak aynı kırpma dikdörtgenini her birine uygulayın.
+- **Varlıkları web için hazırlama** – web için varlıkları hazırlarken ekran görüntülerini veya tasarımları kırpıp yeniden boyutlandırmanın.
+- **Küçük resimler oluşturuluyor** – büyük bir PSD'den ön izleme amaçlı belirli bir hareketlilik çıkararak küçük resimler birleştirilir.
+- **Otomatik toplu işleme** – bir dizüstü bilgisayardaki PSD devresini değiştirerek aynı değiştirme yerinin birini değiştirmesini sağlar.
 
-## Troubleshooting & Tips
+## Sorun Giderme ve İpuçları
 
-| Issue | Suggested Fix |
-|-------|----------------|
-| `OutOfMemoryError` when loading large PSDs | `rasterImage.cacheData()` metodunu erken çağırın ve JVM heap boyutunu (`-Xmx`) artırmayı düşünün. |
-| Cropped area is off‑center | Dikdörtgenin X/Y ofsetlerini kontrol edin; negatif değerlerin kanvası genişlettiğini unutmayın. |
-| Output JPEG looks blurry | `JpegOptions` kalite ayarını değiştirin (ör. `new JpegOptions { Quality = 90 }`). |
+| Sayı | Önerilen Düzeltme |
+|----------|----------------|
+| Büyük PSD'ler yüklenirken `OutOfMemoryError` | `rasterImage.cacheData()` yöntemini erken çağırmanın ve JVM yığın değişiminin (`-Xmx`) iyileştirilmesini düşünün. |
+| Kırpılan alan merkezin dışında | Dikdörtgenin X/Y ofsetlerini kontrol edin; Negatif değerlerin kanvasını genişlettiğinizi unutmayın. |
+| Çıktı JPEG bulanık görünüyor | `JpegOptions` kalite ayarını yapıldı (ör. `new JpegOptions { Quality = 90 }`). |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-### Q1: Is Aspose.PSD compatible with different Java versions?
+### S1: Aspose.PSD farklı Java sürümleriyle uyumlu mu?
 
-A1: Evet, Aspose.PSD çeşitli Java sürümleriyle uyumludur ve geniş bir geliştirme ortamı yelpazesinde çalışabilir.
+C1: Evet, Aspose.PSD çeşitli Java sürümleriyle uyumludur ve geniş bir geliştirme ortamında çalışabilir.
 
-### Q2: Can I use Aspose.PSD for commercial projects?
+### S2: Aspose.PSD'yi ticari projeler için kullanabilir miyim?
 
-A2: Kesinlikle, Aspose.PSD ticari lisanslar sunar; böylece hem kişisel hem de ticari projelerde kullanılabilir.
+A2: elbette, Aspose.PSD ticari lisanslar sunar; Böylece hem kişisel hem de ticari projelerde kullanılabilir.
 
-### Q3: Are there any limitations on the image file formats supported?
+### S3: Desteklenen resim dosyası formatlarında herhangi bir sınırlama var mı?
 
-A3: Aspose.PSD, PSD, JPEG, PNG ve daha fazlası dahil olmak üzere çeşitli görüntü dosyası formatlarını destekler. Tam liste için [documentation](https://reference.aspose.com/psd/java/) sayfasına bakın.
+C3: Aspose.PSD, PSD, JPEG, PNG ve daha fazlası dahil olmak üzere çeşitli görüntü dosyası formatlarını kullanılabilir. Tam liste için [belgeler](https://reference.aspose.com/psd/java/) sayfasına bakın.
 
-### Q4: How can I get support for Aspose.PSD-related queries?
+### S4: Aspose.PSD ile ilgili sorgular için nasıl destek alabilirim?
 
-A4: [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) üzerinden topluluktan veya Aspose destek ekibinden yardım alabilirsiniz.
+Cevap4: [Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) üzerinden bölümden veya Aspose destek ekibinden yardım alabilirsiniz.
 
-### Q5: Is there a free trial available?
+### S5: Ücretsiz deneme mevcut mu?
 
-A5: Evet, ücretsiz bir deneme sürümü mevcuttur. **[Buradan](https://releases.aspose.com/)** indirebilirsiniz.
+Cevap5: Evet, ücretsiz bir deneme sürümü mevcuttur. **[Buradan](https://releases.aspose.com/)** indirebilirsiniz.
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.PSD for Java 24.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-01-07
+**Test Edildiği Sürüm:** Aspose.PSD for Java 24.12
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

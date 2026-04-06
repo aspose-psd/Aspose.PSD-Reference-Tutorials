@@ -4,7 +4,7 @@ description: Pelajari tutorial filter langkah demi langkah untuk penyaringan gam
   Java. Konversi PSD ke GIF dan terapkan filter Wiener gerakan dengan Aspose.PSD.
 linktitle: Apply Motion Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Filter Langkah demi Langkah: Terapkan Filter Wiener Gerakan menggunakan Aspose.PSD
+title: 'Filter Langkah demi Langkah - Terapkan Filter Wiener Gerakan menggunakan Aspose.PSD
   untuk Java'
 url: /id/java/image-processing/apply-motion-wiener-filters/
 weight: 13
@@ -117,28 +117,6 @@ Ulangi langkah-langkah ini untuk pemrosesan gambar yang mulus menggunakan Aspose
 ## Kesimpulan
 
 Selamat! Anda telah berhasil menerapkan Motion Wiener Filters menggunakan Aspose.PSD untuk Java. Sekarang Anda memiliki alur kerja **filter langkah demi langkah** yang solid serta menunjukkan cara **mengonversi PSD ke GIF**. Jelajahi kemungkinan lebih lanjut dan tingkatkan kemampuan pemrosesan gambar Anda dengan perpustakaan serbaguna ini.
-
-## FAQ
-
-### Q1: Bisakah saya menggunakan Aspose.PSD untuk Java dengan bahasa pemrograman lain?
-
-A1: Aspose.PSD terutama mendukung Java, tetapi Aspose menyediakan perpustakaan serupa untuk bahasa lain, seperti .NET, Python, dan lainnya.
-
-### Q2: Apakah Aspose.PSD untuk Java kompatibel dengan semua format gambar?
-
-A2: Ya, Aspose.PSD mendukung berbagai format gambar, memastikan fleksibilitas dalam menangani berbagai jenis file.
-
-### Q3: Di mana saya dapat menemukan dukungan atau bantuan tambahan?
-
-A3: Kunjungi forum Aspose.PSD [di sini](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas dan diskusi.
-
-### Q4: Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
-
-A4: Ya, Anda dapat menjelajahi versi percobaan gratis [di sini](https://releases.aspose.com/).
-
-### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PSD untuk Java?
-
-A5: Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
 
 ## Pertanyaan yang Sering Diajukan
 

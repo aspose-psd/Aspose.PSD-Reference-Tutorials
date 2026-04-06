@@ -5,7 +5,7 @@ description: Apprenez pas à pas les techniques de filtrage pour appliquer les f
   en GIF.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Filtre étape par étape : appliquer les filtres médian et de Wiener (Java)'
+title: 'Filtre étape par étape - appliquer les filtres médian et de Wiener (Java)'
 url: /fr/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

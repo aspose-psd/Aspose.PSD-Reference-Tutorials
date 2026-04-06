@@ -5,7 +5,7 @@ description: Узнайте, как обрезать изображение в J
   из PSD в JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Обрезка изображения в Java: расширение и обрезка изображений с помощью Aspose.PSD
+title: 'Обрезка изображения в Java - расширение и обрезка изображений с помощью Aspose.PSD
   для Java'
 url: /ru/java/image-editing/expand-and-crop-images/
 weight: 18

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Bilder in Java mit Aspose.PSD für Java zusch
   von PSD in JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Bild zuschneiden in Java: Bilder erweitern und zuschneiden mit Aspose.PSD
+title: 'Bild zuschneiden in Java - Bilder erweitern und zuschneiden mit Aspose.PSD
   für Java'
 url: /de/java/image-editing/expand-and-crop-images/
 weight: 18

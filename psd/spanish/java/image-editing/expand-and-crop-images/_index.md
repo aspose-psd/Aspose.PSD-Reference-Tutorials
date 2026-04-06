@@ -4,7 +4,7 @@ description: Aprende cómo recortar imágenes en Java usando Aspose.PSD para Jav
   paso a paso para recortar imágenes, cambiar su tamaño y convertir de PSD a JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Recortar Imagen Java: Expandir y Recortar Imágenes con Aspose.PSD para Java'
+title: 'Recortar Imagen Java - Expandir y Recortar Imágenes con Aspose.PSD para Java'
 url: /es/java/image-editing/expand-and-crop-images/
 weight: 18
 ---

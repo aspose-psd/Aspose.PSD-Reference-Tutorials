@@ -1,5 +1,5 @@
 ---
-title: "Crop Image Java: Expand and Crop Images with Aspose.PSD for Java"
+title: "Crop Image Java - Expand and Crop Images with Aspose.PSD for Java"
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
 description: Learn how to crop image java using Aspose.PSD for Java. Step‑by‑step guide for image cropping, resizing and conversion from PSD to JPEG.

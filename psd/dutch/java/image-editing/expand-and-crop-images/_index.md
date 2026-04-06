@@ -5,7 +5,7 @@ description: Leer hoe je afbeeldingen bijsnijdt in Java met Aspose.PSD voor Java
   JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Afbeelding bijsnijden Java: Uitbreiden en bijsnijden van afbeeldingen met
+title: 'Afbeelding bijsnijden Java - Uitbreiden en bijsnijden van afbeeldingen met
   Aspose.PSD voor Java'
 url: /nl/java/image-editing/expand-and-crop-images/
 weight: 18

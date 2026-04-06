@@ -3,7 +3,7 @@ date: 2026-01-07
 description: 學習逐步的濾波技術，使用 Aspose.PSD for Java 套用中值濾波器與 Wiener 濾波器，並高效地將 PSD 轉換為 GIF。
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 逐步濾波：應用中位數與維納濾波器（Java）
+title: 逐步濾波 - 應用中位數與維納濾波器（Java）
 url: /zh-hant/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

@@ -5,7 +5,7 @@ description: Dowiedz się, jak przycinać obrazy w Javie przy użyciu Aspose.PSD
   konwersji z PSD do JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Przycinanie obrazu w Javie: Rozszerzanie i przycinanie obrazów przy użyciu
+title: 'Przycinanie obrazu w Javie - Rozszerzanie i przycinanie obrazów przy użyciu
   Aspose.PSD dla Javy'
 url: /pl/java/image-editing/expand-and-crop-images/
 weight: 18

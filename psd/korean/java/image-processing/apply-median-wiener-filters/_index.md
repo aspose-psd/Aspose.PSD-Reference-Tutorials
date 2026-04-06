@@ -4,7 +4,7 @@ description: Aspose.PSD for Java를 사용하여 Median 및 Wiener 필터를 적
   GIF로 효율적으로 변환하세요.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: '단계별 필터: 중간값 및 와이너 필터 적용 (Java)'
+title: '단계별 필터 - 중간값 및 와이너 필터 적용 (Java)'
 url: /ko/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

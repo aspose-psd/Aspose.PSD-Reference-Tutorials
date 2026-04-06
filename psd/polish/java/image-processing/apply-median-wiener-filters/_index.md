@@ -5,7 +5,7 @@ description: Poznaj krok po kroku techniki filtracji, aby zastosować filtry med
   GIF.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Filtr krok po kroku: zastosowanie filtrów medianowego i Wienera (Java)'
+title: 'Filtr krok po kroku - zastosowanie filtrów medianowego i Wienera (Java)'
 url: /pl/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

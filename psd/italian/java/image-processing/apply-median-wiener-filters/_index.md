@@ -5,7 +5,7 @@ description: Impara passo dopo passo le tecniche di filtraggio per applicare i f
   efficiente.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Filtro passo passo: applica i filtri mediano e Wiener (Java)'
+title: 'Filtro passo passo - applica i filtri mediano e Wiener (Java)'
 url: /it/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

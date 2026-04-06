@@ -12,40 +12,41 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Step by Step Filter: Apply Median & Wiener Filters (Java)
+# 逐步讲解滤波器：应用中值滤波器和维纳滤波器（Java）
 
-## Introduction
+## 简介
 
 如果你正在寻找 **step by step filter** 工作流来在 Java 中清理噪声图像，你来对地方了。Aspose.PSD for Java 让应用 Median 和 Wiener 滤波器变得直截了当，并且还能在处理后 **convert PSD to GIF**。在本教程中，我们将逐步演示从库的设置到保存过滤后结果的全部过程，帮助你自信地在应用程序中集成高质量的图像去噪。
 
-## Quick Answers
-- **What does the Median filter do?** It reduces salt‑and‑pepper noise while preserving edges.  
-- **When should I use the Wiener filter?** For adaptive noise reduction that considers local image variance.  
-- **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
-- **Can I save the output as GIF?** Yes—Aspose.PSD lets you **convert PSD to GIF** in a single step.  
-- **How long does the implementation take?** Typically under 10 minutes for a basic setup.
+## 快速解答
 
-## What is a Step by Step Filter?
+- **中值滤波器的作用是什么？** 它能减少椒盐噪声，同时保留图像边缘。
+- **何时应该使用维纳滤波器？** 用于考虑局部图像方差的自适应降噪。
+- **运行代码需要许可证吗？** 免费试用版可用于开发；生产环境需要商业许可证。
+- **我可以将输出保存为 GIF 格式吗？** 可以——Aspose.PSD 允许您一步完成 PSD 到 GIF 的转换。
+- **实施需要多长时间？** 通常基本设置只需不到 10 分钟。
+
+## 什么是逐步滤波器？
 
 *step by step filter* 方法将图像处理拆分为清晰、可管理的阶段——加载图像、配置滤波选项、应用滤波器，最后保存结果。这种有条理的流程有助于调试每一步、复用代码，并且可以针对不同图像格式进行适配。
 
-## Why Use Aspose.PSD for Java?
+## 为什么选择 Aspose.PSD for Java？
 
-- **Broad format support** – Handles PSD, PNG, JPEG, GIF, and more.  
-- **No external dependencies** – Pure Java, easy to embed in any project.  
-- **Built‑in filter options** – Median, Wiener, and other advanced filters are ready out of the box.  
-- **One‑click conversion** – Export directly to GIF, PNG, or JPEG after processing.
+- **广泛的格式支持** – 支持 PSD、PNG、JPEG、GIF 等多种格式。
+- **无外部依赖** – 纯 Java 编写，可轻松嵌入任何项目。
+- **内置滤镜选项** – 中值滤镜、维纳滤镜和其他高级滤镜开箱即用。
+- **一键转换** – 处理后可直接导出为 GIF、PNG 或 JPEG 格式。
 
-## Prerequisites
+## 前提条件
 
-Before you start, make sure you have:
+开始之前，请确保您已具备以下条件：
 
-1. **Aspose.PSD for Java Library** – Download and install the library from [here](https://releases.aspose.com/psd/java/).  
-2. **Java Development Environment** – JDK 8+ and an IDE or build tool (Maven/Gradle) set up on your machine.
+1. **Aspose.PSD for Java 库** – 从[此处](https://releases.aspose.com/psd/java/)下载并安装该库。
+2. **Java 开发环境** – 您的计算机上已安装 JDK 8+ 以及 IDE 或构建工具（Maven/Gradle）。
 
-## Import Packages
+## 导入包
 
-Begin by importing the necessary classes that give you access to image handling and filter options.
+首先导入必要的类，以便您能够访问图像处理和滤镜选项。
 
 ```java
 import com.aspose.psd.Image;
@@ -55,11 +56,11 @@ import com.aspose.psd.imagefilters.filteroptions.MedianFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
 
-## Step by Step Filter: How to Apply Median Filter
+## 分步滤镜操作：如何应用中值滤镜
 
-### Step 1: Load the Image
+### 步骤 1：加载图像
 
-First, point the API to the PSD file you want to clean up.
+首先，将 API 指向要清理的 PSD 文件。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,9 +70,9 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-### Step 2: Cast Image into RasterImage
+### 步骤 2：将图像转换为 RasterImage
 
-The filter works on raster data, so we cast the generic `Image` to a `RasterImage`.
+该滤镜处理栅格数据，因此我们将通用的 `Image` 对象转换为 `RasterImage` 对象。
 
 ```java
 // Cast the image into RasterImage
@@ -81,27 +82,27 @@ if (rasterImage == null) {
 }
 ```
 
-### Step 3: Create MedianFilterOptions Instance
+### 步骤 3：创建 MedianFilterOptions 实例
 
-Configure the size of the median kernel. A size of **4** works well for moderate noise.
+配置中值核的大小。对于中等噪声，大小为 **4** 效果良好。
 
 ```java
 // Create an instance of MedianFilterOptions class and set the filter size
 MedianFilterOptions options = new MedianFilterOptions(4);
 ```
 
-### Step 4: Apply Median Filter
+### 步骤 4：应用中值滤镜
 
-Now apply the filter to the entire image bounds.
+现在将滤镜应用于整个图像边界。
 
 ```java
 // Apply MedianFilterOptions filter to RasterImage object
 rasterImage.filter(image.getBounds(), options);
 ```
 
-### Step 5: Save the Resultant Image (Convert PSD to GIF)
+### 步骤 5：保存结果图像（将 PSD 转换为 GIF）
 
-After filtering, we’ll save the output as a GIF—demonstrating the **convert PSD to GIF** capability.
+滤镜处理完成后，我们将输出保存为 GIF 格式——演示 **将 PSD 转换为 GIF** 的功能。
 
 ```java
 String destName = dataDir + "median_test_denoise_out.gif";
@@ -109,48 +110,53 @@ String destName = dataDir + "median_test_denoise_out.gif";
 image.save(destName, new GifOptions());
 ```
 
-By following these steps you have successfully applied a Median filter and exported the cleaned image as a GIF.
+按照这些步骤，您已成功应用中值滤波器并将清理后的图像导出为 GIF 格式。
 
-## Applying Wiener Filter (Optional Extension)
+## 应用维纳滤波器（可选扩展）
 
-If your project requires adaptive noise reduction, you can replace the Median filter with a Wiener filter. The code structure is identical; you only need to import `WienerFilterOptions` and instantiate it with the desired radius.
+如果您的项目需要自适应降噪，您可以将中值滤波器替换为维纳滤波器。代码结构相同；您只需导入 `WienerFilterOptions` 并使用所需的半径实例化它即可。
 
-> **Pro tip:** Experiment with different kernel sizes for both filters to find the sweet spot between noise removal and detail preservation.
+> **专业提示：** 尝试使用不同的内核大小来调整两种滤波器，以找到降噪和细节保留之间的最佳平衡点。
 
-## Common Issues & Troubleshooting
+## 常见问题及故障排除
 
-| Symptom | Likely Cause | Fix |
+| 症状 | 可能原因 | 解决方法 |
 |---------|---------------|-----|
-| `ClassCastException` when casting to `RasterImage` | Input file isn’t a raster‑compatible PSD | Verify the PSD contains raster layers or convert layers to raster first |
-| Output GIF is blank | Destination path is incorrect or folder lacks write permission | Ensure `dataDir` points to an existing writable directory |
-| Filter seems to have no effect | Kernel size is too small for the noise level | Increase the filter size (e.g., `new MedianFilterOptions(6)`) |
+| 转换为 `RasterImage` 时出现 `ClassCastException` 异常 | 输入文件不是栅格兼容的 PSD 文件 | 请确认 PSD 文件包含栅格图层，或先将图层转换为栅格格式 |
+| 输出的 GIF 为空白 | 目标路径不正确或文件夹缺少写入权限 |确保 `dataDir` 指向一个现有的可写目录 |
+| 滤波器似乎没有效果 | 内核大小对于噪声水平来说太小 | 增大滤波器大小（例如，`new MedianFilterOptions(6)`） |
 
-## Frequently Asked Questions
+## 常见问题解答
 
-**Q1: Can I apply these filters to images of any format?**  
-A1: Yes, Aspose.PSD supports a wide range of image formats, making it versatile for various projects.
+**问题 1：我可以将这些滤波器应用于任何格式的图像吗？** 
 
-**Q2: Is there a free trial available for Aspose.PSD for Java?**  
-A2: Yes, you can get a free trial [here](https://releases.aspose.com/).
+答 1：是的，Aspose.PSD 支持多种图像格式，使其适用于各种项目。
 
-**Q3: How do I get support for Aspose.PSD for Java?**  
-A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support.
+**问题 2：Aspose.PSD for Java 是否有免费试用版？** 
 
-**Q4: Where can I find the documentation for Aspose.PSD for Java?**  
-A4: Refer to the documentation [here](https://reference.aspose.com/psd/java/).
+答 2：是的，您可以[在此处](https://releases.aspose.com/)获取免费试用版。
 
-**Q5: How can I purchase Aspose.PSD for Java?**  
-A5: You can buy the product [here](https://purchase.aspose.com/buy).
+**问题 3：如何获得 Aspose.PSD for Java 的支持？** 
 
-## Conclusion
+答 3：访问​​[Aspose.PSD 论坛](https://forum.aspose.com/c/psd/34)获取社区支持。
 
-In this guide we demonstrated a **step by step filter** process for applying Median (and optionally Wiener) filters using Aspose.PSD for Java, and we showed how to **convert PSD to GIF** after denoising. With these building blocks you can integrate robust image‑processing pipelines into any Java application—whether you’re cleaning up photos, preparing assets for web, or automating batch conversions.
+**Q4：在哪里可以找到 Aspose.PSD for Java 的文档？**
+
+A4：请参阅[此处](https://reference.aspose.com/psd/java/)的文档。
+
+**Q5：如何购买 Aspose.PSD for Java？**
+
+A5：您可以[在此处](https://purchase.aspose.com/buy)购买该产品。
+
+## 总结
+
+在本指南中，我们演示了使用 Aspose.PSD for Java 应用中值滤波器（以及可选的维纳滤波器）的**分步滤镜**流程，并展示了如何在降噪后**将 PSD 转换为 GIF**。借助这些构建模块，您可以将强大的图像处理流程集成到任何 Java 应用程序中——无论您是清理照片、准备用于 Web 的素材，还是自动化批量转换。
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**上次更新：** 2026-01-07
+**测试版本：** Aspose.PSD for Java 24.12（撰写本文时的最新版本）
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

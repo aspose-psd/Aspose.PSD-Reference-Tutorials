@@ -5,7 +5,7 @@ description: Apprenez un tutoriel pas à pas sur les filtres pour le filtrage d'
   en mouvement avec Aspose.PSD.
 linktitle: Apply Motion Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Filtre étape par étape : appliquer des filtres de Wiener de mouvement avec
+title: 'Filtre étape par étape - appliquer des filtres de Wiener de mouvement avec
   Aspose.PSD pour Java'
 url: /fr/java/image-processing/apply-motion-wiener-filters/
 weight: 13
@@ -116,28 +116,6 @@ Répétez ces étapes pour un traitement d'image fluide avec Aspose.PSD pour Jav
 ## Conclusion
 
 Félicitations ! Vous avez réussi à appliquer les filtres Motion Wiener avec Aspose.PSD pour Java. Vous disposez maintenant d'un flux de travail solide de **filtre étape par étape** qui montre également comment **convertir PSD en GIF**. Explorez d'autres possibilités et améliorez vos capacités de traitement d'image avec cette bibliothèque polyvalente.
-
-## FAQ
-
-### Q1 : Puis‑je utiliser Aspose.PSD pour Java avec d'autres langages de programmation ?
-
-A1 : Aspose.PSD prend principalement en charge Java, mais Aspose propose des bibliothèques similaires pour d'autres langages, comme .NET, Python, etc.
-
-### Q2 : Aspose.PSD pour Java est‑il compatible avec tous les formats d'image ?
-
-A2 : Oui, Aspose.PSD prend en charge un large éventail de formats d'image, assurant une flexibilité dans la gestion de différents types de fichiers.
-
-### Q3 : Où puis‑je trouver un support ou une assistance supplémentaire ?
-
-A3 : Consultez le forum Aspose.PSD [ici](https://forum.aspose.com/c/psd/34) pour obtenir le support de la communauté et des discussions.
-
-### Q4 : Puis‑je essayer Aspose.PSD pour Java avant d'acheter ?
-
-A4 : Oui, vous pouvez explorer la version d'essai gratuite [ici](https://releases.aspose.com/).
-
-### Q5 : Comment obtenir une licence temporaire pour Aspose.PSD pour Java ?
-
-A5 : Obtenez une licence temporaire [ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
 
 ## Questions fréquemment posées
 

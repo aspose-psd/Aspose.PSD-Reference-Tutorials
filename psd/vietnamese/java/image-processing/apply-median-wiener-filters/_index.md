@@ -4,7 +4,7 @@ description: Học các kỹ thuật lọc từng bước để áp dụng bộ 
   Aspose.PSD cho Java, và chuyển đổi PSD sang GIF một cách hiệu quả.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Bộ lọc từng bước: Áp dụng bộ lọc Trung vị và Wiener (Java)'
+title: 'Bộ lọc từng bước - Áp dụng bộ lọc Trung vị và Wiener (Java)'
 url: /vi/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

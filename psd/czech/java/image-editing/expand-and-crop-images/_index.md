@@ -5,7 +5,7 @@ description: Naučte se, jak oříznout obrázek v Javě pomocí Aspose.PSD pro 
   JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Ořezávání obrázku v Javě: Rozšíření a ořezávání obrázků pomocí Aspose.PSD
+title: 'Ořezávání obrázku v Javě - Rozšíření a ořezávání obrázků pomocí Aspose.PSD
   pro Javu'
 url: /cs/java/image-editing/expand-and-crop-images/
 weight: 18

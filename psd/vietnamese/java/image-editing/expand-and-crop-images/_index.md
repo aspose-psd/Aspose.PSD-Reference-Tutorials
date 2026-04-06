@@ -4,7 +4,7 @@ description: Tìm hiểu cách cắt ảnh bằng Java sử dụng Aspose.PSD ch
   từng bước về việc cắt ảnh, thay đổi kích thước và chuyển đổi từ PSD sang JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Cắt ảnh Java: Mở rộng và cắt ảnh với Aspose.PSD cho Java'
+title: 'Cắt ảnh Java - Mở rộng và cắt ảnh với Aspose.PSD cho Java'
 url: /vi/java/image-editing/expand-and-crop-images/
 weight: 18
 ---

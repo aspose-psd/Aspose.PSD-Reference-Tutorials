@@ -4,7 +4,7 @@ description: Scopri come ritagliare immagini in Java usando Aspose.PSD per Java.
   passo‑passo per il ritaglio, il ridimensionamento e la conversione da PSD a JPEG.
 linktitle: Expand and Crop Images
 second_title: Aspose.PSD Java API
-title: 'Ritaglia immagine Java: espandi e ritaglia immagini con Aspose.PSD per Java'
+title: 'Ritaglia immagine Java - espandi e ritaglia immagini con Aspose.PSD per Java'
 url: /it/java/image-editing/expand-and-crop-images/
 weight: 18
 ---

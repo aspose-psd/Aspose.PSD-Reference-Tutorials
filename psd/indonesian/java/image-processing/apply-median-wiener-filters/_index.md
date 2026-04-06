@@ -5,7 +5,7 @@ description: Pelajari teknik penyaringan langkah demi langkah untuk menerapkan f
   secara efisien.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Filter Langkah demi Langkah: Terapkan Filter Median & Wiener (Java)'
+title: 'Filter Langkah demi Langkah - Terapkan Filter Median & Wiener (Java)'
 url: /id/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

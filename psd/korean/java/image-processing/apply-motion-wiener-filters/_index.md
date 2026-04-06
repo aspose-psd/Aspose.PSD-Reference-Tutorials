@@ -4,7 +4,7 @@ description: Java 이미지 필터링을 위한 단계별 필터 튜토리얼을
   필터를 적용합니다.
 linktitle: Apply Motion Wiener Filters
 second_title: Aspose.PSD Java API
-title: '단계별 필터: Aspose.PSD for Java를 사용하여 모션 와이너 필터 적용'
+title: '단계별 필터  - Aspose.PSD for Java를 사용하여 모션 와이너 필터 적용'
 url: /ko/java/image-processing/apply-motion-wiener-filters/
 weight: 13
 ---
@@ -116,28 +116,6 @@ Aspose.PSD for Java를 사용한 원활한 이미지 처리를 위해 이 단계
 ## 결론
 
 축하합니다! Aspose.PSD for Java를 사용하여 Motion Wiener Filter를 적용하는 과정을 성공적으로 마쳤습니다. 이제 **step by step filter** 워크플로우와 **convert PSD to GIF** 방법을 모두 익혔으니, 이 다재다능한 라이브러리를 활용해 이미지 처리 역량을 더욱 확장해 보세요.
-
-## FAQ
-
-### Q1: Aspose.PSD for Java를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
-
-A1: Aspose.PSD는 주로 Java를 지원하지만, .NET, Python 등 다른 언어용 유사 라이브러리도 제공합니다.
-
-### Q2: Aspose.PSD for Java가 모든 이미지 포맷과 호환되나요?
-
-A2: 네, Aspose.PSD는 다양한 이미지 포맷을 지원하여 파일 유형에 구애받지 않고 사용할 수 있습니다.
-
-### Q3: 추가 지원이나 도움을 어디서 받을 수 있나요?
-
-A3: 커뮤니티 지원 및 토론을 위해 Aspose.PSD 포럼을 방문하십시오: [here](https://forum.aspose.com/c/psd/34).
-
-### Q4: 구매 전에 Aspose.PSD for Java를 체험해 볼 수 있나요?
-
-A4: 예, 무료 체험 버전을 여기서 확인할 수 있습니다: [here](https://releases.aspose.com/).
-
-### Q5: Aspose.PSD for Java용 임시 라이선스를 어떻게 얻나요?
-
-A5: 테스트 및 평가용 임시 라이선스를 여기서 획득하십시오: [here](https://purchase.aspose.com/temporary-license/).
 
 ## 자주 묻는 질문
 

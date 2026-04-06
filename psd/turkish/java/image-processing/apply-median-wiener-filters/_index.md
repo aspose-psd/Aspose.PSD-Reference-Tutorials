@@ -4,7 +4,7 @@ description: Aspose.PSD for Java kullanarak Medyan ve Wiener filtrelerini uygula
   için adım adım filtre tekniklerini öğrenin ve PSD'yi verimli bir şekilde GIF'e dönüştürün.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'Adım Adım Filtre: Medyan ve Wiener Filtrelerini Uygula (Java)'
+title: 'Adım Adım Filtre - Medyan ve Wiener Filtrelerini Uygula (Java)'
 url: /tr/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---

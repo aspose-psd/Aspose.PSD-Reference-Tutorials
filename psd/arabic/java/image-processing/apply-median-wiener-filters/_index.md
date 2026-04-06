@@ -4,7 +4,7 @@ description: تعلّم خطوة بخطوة تقنيات الفلترة لتطب
   Aspose.PSD للغة Java، وحوّل ملفات PSD إلى GIF بكفاءة.
 linktitle: Apply Median and Wiener Filters
 second_title: Aspose.PSD Java API
-title: 'تصفية خطوة بخطوة: تطبيق مرشحات المتوسط وواينر (جافا)'
+title: 'تصفية خطوة بخطوة - تطبيق مرشحات المتوسط وواينر (جافا)'
 url: /ar/java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---
