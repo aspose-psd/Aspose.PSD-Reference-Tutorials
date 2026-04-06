@@ -101,15 +101,15 @@ image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ## Заключение
 Программная манипуляция свойствами изображений может сэкономить значительное количество времени и усилий, особенно при работе с большими объёмами файлов или сложными графическими задачами. Aspose.PSD for Java предоставляет мощный и гибкий набор инструментов для работы с PSD‑файлами и их конвертации в JPEG с конкретными настройками. Следуя этому руководству, вы сможете легко задать цвет JPEG и **jpeg compression mode** для ваших изображений.
 
+---
+
+**Последнее обновление:** 2026-01-27  
+**Тестировано с:** Aspose.PSD for Java 24.11  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-27  
-**Тестировано с:** Aspose.PSD for Java 24.11  
-**Автор:** Aspose

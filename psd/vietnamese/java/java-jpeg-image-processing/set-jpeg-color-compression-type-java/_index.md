@@ -101,15 +101,15 @@ image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ## Kết luận
 Việc thao tác các thuộc tính ảnh một cách lập trình có thể tiết kiệm đáng kể thời gian và công sức, đặc biệt khi xử lý khối lượng lớn ảnh hoặc các tác vụ đồ họa phức tạp. Aspose.PSD cho Java cung cấp một bộ công cụ mạnh mẽ, linh hoạt để xử lý tệp PSD và chuyển đổi chúng sang JPEG với các cài đặt cụ thể. Bằng cách làm theo hướng dẫn này, bạn sẽ dễ dàng đặt màu JPEG và **chế độ nén jpeg** cho hình ảnh của mình.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-27  
+**Kiểm tra với:** Aspose.PSD for Java 24.11  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-27  
-**Kiểm tra với:** Aspose.PSD for Java 24.11  
-**Tác giả:** Aspose

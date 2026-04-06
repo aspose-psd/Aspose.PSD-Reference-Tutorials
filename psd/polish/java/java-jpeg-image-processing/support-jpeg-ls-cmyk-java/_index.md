@@ -16,33 +16,33 @@ weight: 21
 
 # Przetwarzanie obrazów w Javie: Obsługa JPEG‑LS z CMYK
 
-## Introduction
-W tym **image processing java** tutorialu przeprowadzimy Cię krok po kroku, jak używać Aspose.PSD for Java, aby włączyć kompresję JPEG‑LS przy zachowaniu trybu koloru CMYK. Niezależnie od tego, czy tworzysz przepływ pracy gotowy do druku, potrzebujesz bezstratnej kompresji dla zasobów archiwalnych, czy po prostu chcesz konwertować pliki PSD na wysokiej jakości JPEG, poniższe kroki poprowadzą Cię od początku do końca.
+## Wstęp
+W tym **przetwarzanie obrazu Java** poradnik przeprowadzimy Cię krok po kroku, jak oprogramowanie Aspose.PSD dla Java, aby włączyć kompresję JPEG-LS przy zachowaniu trybu koloru CMYK. wersja od tego, czy tworzosz przepływ pracy gotowy do druku, bezstratnej kompresji dla zasobów archiwalnych, czy po prostu chcesz konwertować pliki PSD na wysokiej jakości JPEG, kolejne kroki po prowadzeniu Cię od początku do końca.
 
-## Quick Answers
-- **Jaka biblioteka jest wymagana?** Aspose.PSD for Java  
-- **Jakiego trybu kompresji używa JPEG‑LS?** Lossless/near‑lossless JPEG‑LS  
-- **Czy można zachować CMYK?** Yes, set `JpegCompressionColorMode.Cmyk` in the options  
-- **Czy potrzebuję licencji do produkcji?** A valid Aspose.PSD license is required  
-- **Typowy czas implementacji?** About 10‑15 minutes for a basic conversion  
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest wymagana?** Aspose.PSD dla Java
+- **Jakiego trybu kompresji używa JPEG‑LS?** Bezstratny/prawie bezstratny JPEG‑LS
+- **Czy można zastosować podstawowy CMYK?** Tak, w opcjach ustaw `JpegCompressionColorMode.Cmyk`
+- **Czy jest dostępna wersja do produkcji?** Wymagana jest ważna licencja Aspose.PSD
+- **Typowy czas implementacji?** Około 10-15 minut na podstawową konwersję
 
-## What is image processing java?
-Przetwarzanie obrazów w Javie odnosi się do manipulacji, analizy i konwersji danych wizualnych przy użyciu bibliotek opartych na Javie. Aspose.PSD to potężne API, które upraszcza pracę z plikami Photoshop (PSD), umożliwiając odczyt, edycję i eksport obrazów w różnych formatach — w tym JPEG‑LS z obsługą CMYK.
+## Co to jest przetwarzanie obrazu w języku Java?
+Przetwarzanie obrazów w Javie odnosi się do manipulacji, analizy i podstawowych danych przy użyciu bibliotek na Javie. Aspose.PSD do API, które upraszcza pracę z plikami Photoshop (PSD), udostępnia odczyt, edycję i eksport obrazów w różnych formatach — w tym JPEG-LS z obsługą CMYK.
 
-## Why use JPEG‑LS with CMYK in Java?
-- **Kompresja bezstratna lub prawie bezstratna** zachowuje wierność obrazu przy zmniejszaniu rozmiaru pliku.  
-- **Zachowanie CMYK** zapewnia, że kolory pozostają dokładne w przepływach pracy drukarskiej.  
-- **Kompatybilność wieloplatformowa** – ten sam kod Java działa na Windows, Linux i macOS.  
+## Po co używać JPEG-LS z CMYK w Javie?
+- **Kompresja bezstratna lub prawie bezstratna** zawiera wierność obrazu przy zmniejszeniu podstawowego pliku.
+- **Zachowanie CMYK** zapewnia, że ​​pozostały w przepływach pracy drukarki kolorskiej.
+- ** kompatybilność wieloplatformowa** – dziesięć sam kodów Java działa na Windows, Linux i macOS.
 
-## Prerequisites
-1. Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK w swoim systemie. Możesz go pobrać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. Aspose.PSD for Java: Potrzebujesz biblioteki Aspose.PSD. Pobierz ją ze strony [Aspose Releases](https://releases.aspose.com/psd/java/).  
-3. Integrated Development Environment (IDE): IDE takie jak IntelliJ IDEA lub Eclipse ułatwi Ci pisanie i debugowanie kodu.  
-4. Podstawowa znajomość Javy: Ten tutorial zakłada, że masz podstawową wiedzę na temat programowania w Javie.  
+## Warunki wstępne
+1. Java Development Kit (JDK): atak się, że masz podłączony JDK w swoim systemie. Możesz go otrzymać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.PSD dla Java: usuwania bibliotek Aspose.PSD. Pobierz ją ze strony [Aspose Releases](https://releases.aspose.com/psd/java/).
+3. Zintegrowane środowisko programistyczne (IDE): IDE takie jak IntelliJ IDEA lub Eclipse łatwe Ci pisanie i debugowanie kodu.
+4. Podstawowa funkcjonalność Javy: Dziesięć samouczków, które zapewniają dostęp do tematu programowania w Javie.
 
-Once you have all these prerequisites ready, you're good to go!
+Kiedy już przygotujesz wszystkie te wymagania wstępne, możesz zaczynać!
 
-## Import Packages
+## Importuj pakiety
 Aby rozpocząć, musisz zaimportować niezbędne pakiety z biblioteki Aspose.PSD. Oto jak to zrobić:
 
 ```java
@@ -53,7 +53,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Step 1: Load the PSD Image
+## Krok 1: Załaduj obraz PSD
 Na początek musimy wczytać obraz PSD, który chcesz przetworzyć. Ten krok jest kluczowy, ponieważ stanowi podstawę naszych operacji.
 
 ```java
@@ -61,7 +61,7 @@ String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
 
-## Step 2: Set Up JPEG Options for CMYK
+## Krok 2: Skonfiguruj opcje JPEG dla CMYK
 Po wczytaniu obrazu PSD, czas skonfigurować opcje zapisu jako JPEG w trybie koloru CMYK.
 
 ```java
@@ -72,21 +72,21 @@ options.setRgbColorProfile(null);
 options.setCmykColorProfile(null);
 ```
 
-## Step 3: Save the Image as JPEG with CMYK
+## Krok 3: Zapisz obraz jako JPEG z CMYK
 Mając skonfigurowane opcje, możemy teraz zapisać obraz jako plik JPEG w trybie koloru CMYK.
 
 ```java
 image.save(dataDir + "output.jpg", options);
 ```
 
-## Step 4: Load Another PSD Image (Optional)
+## Krok 4: Wczytaj inny obraz PSD (opcjonalnie)
 Jeśli chcesz pracować z innym obrazem PSD lub wykonać dodatkowe przetwarzanie, możesz wczytać kolejny plik PSD.
 
 ```java
 PsdImage image1 = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
 
-## Step 5: Set Up JPEG Options for Lossless Compression
+## Krok 5: Skonfiguruj opcje JPEG dla kompresji bezstratnej
 Dla drugiego obrazu ustawmy opcje zapisu z kompresją bezstratną.
 
 ```java
@@ -97,54 +97,54 @@ options1.setRgbColorProfile(null);
 options1.setCmykColorProfile(null);
 ```
 
-## Step 6: Save the Second Image as JPEG with Lossless Compression
+## Krok 6: Zapisz drugi obraz jako JPEG z kompresją bezstratną
 Na koniec zapisz drugi obraz jako plik JPEG w trybie CMYK i z kompresją bezstratną.
 
 ```java
 image1.save(dataDir + "output2.jpg", options1);
 ```
 
-## Common Issues and Solutions
-- **NullPointerException podczas ładowania PSD** – Upewnij się, że `dataDir` wskazuje na właściwy folder i że nazwa pliku dokładnie się zgadza (włącznie z wielkością liter).  
-- **Profil kolorów nie został zastosowany** – Aspose.PSD wymaga explicite określonych profili kolorów dla dokładnego renderowania CMYK. Jeśli posiadasz profile ICC, ustaw je za pomocą `options.setCmykColorProfile(yourProfile)`.  
-- **Licencja nie znaleziona** – Upewnij się, że wywołałeś `License license = new License(); license.setLicense("Aspose.PSD.lic");` przed jakimkolwiek użyciem API w środowisku produkcyjnym.
+## Typowe problemy i rozwiązania
+- **NullPointerException podczas ładowania że PSD** – obciążenie się, `dataDir` wskazuje na właściwy folder i że nazwa pliku dokładnie się zgadza (włącznie z wielkością liter).
+- **Profil kolorów nie został zastosowany** – Aspose.PSD wymaga jawnych profili części do ogólnego renderowania CMYK. Jeśli posiadasz profil ICC, ustaw je za pomocą `options.setCmykColorProfile(yourProfile)`.
+- **Licencja nie znaleziona** – obciążenie się, że wywołałeś `Licencja licencja = nowa licencja(); licencja.setLicense("Aspose.PSD.lic");` przed jakimkolwiek użyciem API w środowisku produkcyjnym.
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-### What is CMYK color mode?
-CMYK oznacza Cyan, Magenta, Yellow i Key (Black). To model kolorów używany w druku kolorowym.
+### Co to jest tryb kolorów CMYK?
+CMYK oznacza Cyjan, Magenta, Żółty i Klucz (Czarny). Do modelu używanego w druku towarowym.
 
-### What is JPEG-LS?
-JPEG-LS to standard kompresji bezstratnej/prawie bezstratnej dla obrazów o ciągłym tonie.
+### Co to jest JPEG-LS?
+JPEG-LS do standardowego kompresji bezstratnej/prawie bezstratnej dla obrazów o ciągłym tonie.
 
-### Can I use other compression modes with Aspose.PSD?
+### Czy mogę używać innych trybów kompresji z Aspose.PSD?
 Tak, Aspose.PSD obsługuje różne tryby kompresji, w tym bezstratny i JPEG.
 
-### Do I need a license to use Aspose.PSD?
-Tak, potrzebujesz licencji. Możesz uzyskać [tymczasową licencję](https://purchase.aspose.com/temporary-license/) do celów testowych.
+### Czy potrzebuję licencji, aby używać Aspose.PSD?
+Tak, licencja licencji. Możesz uzyskać [tymczasową dostawę](https://purchase.aspose.com/temporary-license/) do celów testowych.
 
-### Where can I find more documentation on Aspose.PSD?
-Pełną dokumentację znajdziesz [tutaj](https://reference.aspose.com/psd/java/).
+### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PSD?
+Pełną informację o [tutaj](https://reference.aspose.com/psd/java/).
 
-**Additional Q&A**
+**Dodatkowe pytania i odpowiedzi**
 
-**Q: Czy JPEG‑LS jest odpowiedni dla dużych plików fotograficznych?**  
-A: Zdecydowanie tak. JPEG‑LS zapewnia wydajną kompresję bezstratną, co czyni go idealnym dla zdjęć wysokiej rozdzielczości, gdzie jakość nie może być poświęcona.
+**P: Czy JPEG‑LS jest właściwym dla dużych plików fotograficznych?**
+O: Zdecydowanie tak. JPEG-LS zapewnia wydajną kompresję bezstratną, co zapewnia doskonałą jakość obrazu o wysokiej rozdzielczości, gdzie jakość nie może być widoczna.
 
-**Q: Czy mogę przetwarzać wsadowo wiele plików PSD?**  
-A: Tak. Umieść logikę ładowania i zapisu w pętli, która iteruje po katalogu z plikami PSD.
+**Q: Czy mogę przetwarzać wsadowo wiele plików PSD?**
+O: Tak. Zawiera logikę ładowania i zapisu w pierwszym, która iteruje po katalogu z plikami PSD.
 
-**Q: Czy API obsługuje inne przestrzenie kolorów, takie jak Lab lub XYZ?**  
-A: Aspose.PSD głównie pracuje z RGB i CMYK przy zapisie JPEG. Dla innych przestrzeni kolorów może być konieczna konwersja obrazu przed zapisem.
+**Q: Czy API obsługuje inne przestrzenie mieszkalne, takie jak Lab lub XYZ?**
+A: Aspose.PSD główny pracuje z RGB i CMYK przy zapisie JPEG. Dla innych przestrzeni uniwersalnych może być konieczna konwersja przed zapisem obrazu.
 
-## Conclusion
-Gratulacje! Pomyślnie nauczyłeś się, jak obsługiwać JPEG‑LS z trybem koloru CMYK przy użyciu Aspose.PSD for Java. Postępując zgodnie z tym **image processing java** tutorialem, możesz teraz obsługiwać pliki PSD i konwertować je na JPEG z różnymi ustawieniami kompresji, zachowując gotowość do druku i wierność kolorów. Ta potężna biblioteka upraszcza manipulację obrazami, a dzięki tym krokom jesteś na dobrej drodze do opanowania przepływów pracy przetwarzania obrazów w Javie.
+## Wniosek
+Gratulacje! Pomyślnie nauczyłeś się, jak JPEG-LS z trybem króla CMYK przy użyciu Aspose.PSD for Java. Postępując zgodnie z tym **image Processing Java** tutorialem, możesz teraz zastosować pliki PSD i konwertować je na JPEG z ustawieńmi kompresji, które powodują gotowość do druku i wierność kolorów. Ta potężna biblioteka upraszcza manipulacji obrazami, dzięki temu krokom jesteś na dobrej drodze do opanowania przepływów pracy przetwarzania obrazów w Javie.
 
 ---
 
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.PSD for Java (latest release)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 27.01.2026
+**Testowano z:** Aspose.PSD dla Java (najnowsza wersja)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

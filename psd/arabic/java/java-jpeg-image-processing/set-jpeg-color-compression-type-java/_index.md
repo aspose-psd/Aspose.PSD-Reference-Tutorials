@@ -101,15 +101,15 @@ image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ## الخاتمة
 يمكن أن يوفر تعديل خصائص الصورة برمجيًا الكثير من الوقت والجهد، خاصةً عند التعامل مع كميات كبيرة من الصور أو مهام رسومية معقدة. توفر Aspose.PSD for Java مجموعة أدوات قوية ومرنة للتعامل مع ملفات PSD وتحويلها إلى JPEG بإعدادات محددة. باتباعك لهذا الدليل، يجب أن تكون قادرًا على تعيين لون JPEG و**وضع ضغط jpeg** بسهولة لصورك.
 
+---
+
+**آخر تحديث:** 2026-01-27  
+**تم الاختبار باستخدام:** Aspose.PSD for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-27  
-**تم الاختبار باستخدام:** Aspose.PSD for Java 24.11  
-**المؤلف:** Aspose

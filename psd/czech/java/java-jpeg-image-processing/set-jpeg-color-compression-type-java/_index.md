@@ -101,15 +101,15 @@ A: Ano, Aspose.PSD pro Java lze integrovat do webových aplikací pro zpracován
 ## Závěr
 Programová manipulace s vlastnostmi obrázku může ušetřit značné množství času a úsilí, zejména při práci s velkým objemem obrázků nebo složitými grafickými úkoly. Aspose.PSD pro Java poskytuje výkonný a flexibilní nástroj pro práci se soubory PSD a jejich převod do JPEG s konkrétními nastaveními. Dodržením tohoto průvodce byste měli snadno nastavit barvu JPEG a **režim komprese JPEG** pro své obrázky.
 
+---
+
+**Poslední aktualizace:** 2026-01-27  
+**Testováno s:** Aspose.PSD pro Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-27  
-**Testováno s:** Aspose.PSD pro Java 24.11  
-**Autor:** Aspose

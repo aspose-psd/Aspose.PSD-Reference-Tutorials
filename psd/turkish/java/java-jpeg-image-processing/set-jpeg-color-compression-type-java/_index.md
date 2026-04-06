@@ -102,15 +102,15 @@ C: Evet, Aspose.PSD for Java sunucu tarafında görüntü işleme görevlerini y
 ## Sonuç
 Görüntü özelliklerini programatik olarak manipüle etmek, özellikle büyük miktarda görüntü veya karmaşık grafik görevleriyle çalışırken zaman ve çaba tasarrufu sağlar. Aspose.PSD for Java, PSD dosyalarını işlemek ve belirli ayarlarla JPEG'e dönüştürmek için güçlü ve esnek bir araç seti sunar. Bu rehberi izleyerek, görüntüleriniz için JPEG renk ve **jpeg sıkıştırma modu** ayarlarını kolayca yapabilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-01-27  
+**Test Edilen Versiyon:** Aspose.PSD for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-27  
-**Test Edilen Versiyon:** Aspose.PSD for Java 24.11  
-**Yazar:** Aspose

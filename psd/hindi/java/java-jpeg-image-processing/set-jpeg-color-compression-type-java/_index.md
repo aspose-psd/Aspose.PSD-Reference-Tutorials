@@ -101,15 +101,15 @@ image.save(dataDir + "ColorTypeAndCompressionType_output.jpg", options);
 ## निष्कर्ष
 प्रोग्रामेटिक रूप से छवि गुणों को बदलना बड़ी मात्रा में छवियों या जटिल ग्राफ़िक कार्यों के साथ काम करते समय काफी समय और प्रयास बचा सकता है। Aspose.PSD for Java PSD फ़ाइलों को संभालने और विशिष्ट सेटिंग्स के साथ JPEG में बदलने के लिए एक शक्तिशाली, लचीला टूलसेट प्रदान करता है। इस गाइड का पालन करके, आप आसानी से अपनी छवियों के लिए JPEG रंग और **jpeg compression mode** सेट कर सकेंगे।
 
+---
+
+**अंतिम अपडेट:** 2026-01-27  
+**परीक्षण किया गया संस्करण:** Aspose.PSD for Java 24.11  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-27  
-**परीक्षण किया गया संस्करण:** Aspose.PSD for Java 24.11  
-**लेखक:** Aspose
