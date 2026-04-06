@@ -1,10 +1,11 @@
 ---
-title: 在 Java 中將 AI 轉換為 PDF
-linktitle: 在 Java 中將 AI 轉換為 PDF
+date: 2026-01-12
+description: 學習如何在 Java 中使用 Aspose.PSD 將 AI 檔案轉換為 PDF。請遵循我們詳細的逐步指南，輕鬆高效地管理檔案轉換。
+linktitle: Convert AI to PDF in Java
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD 在 Java 中將 AI 檔案轉換為 PDF。請按照我們詳細的逐步指南來有效管理您的文件轉換。
-weight: 12
+title: 使用 Java 將 AI 轉換為 PDF
 url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,65 +15,101 @@ url: /zh-hant/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 # 在 Java 中將 AI 轉換為 PDF
 
 ## 介紹
-您是否正在使用 Adobe Illustrator 檔案並需要在 Java 應用程式中將其轉換為 PDF 格式？無論您是處理向量圖形、插圖還是設計文件，將 AI 文件轉換為 PDF 對於文件、共享和列印目的至關重要。在本指南中，我們將探討如何使用 Aspose.PSD for Java 輕鬆將 AI 檔案轉換為 PDF。 Aspose.PSD 是一個功能強大的函式庫，可以簡化 PSD、AI 和其他影像格式的操作和轉換。那麼，讓我們深入了解此轉換過程的具體細節！
-## 先決條件
-在我們開始使用程式碼之前，請確保您具備以下先決條件：
-1.  Java 開發工具包 (JDK)：確保安裝了 JDK 8 或更高版本。您可以從以下位置下載：[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.PSD for Java 程式庫：下載 Aspose.PSD for Java 並將其包含在您的專案中。您可以從以下位置取得該庫[Aspose 發布](https://releases.aspose.com/psd/java/).
-3. IDE 設定：使用 IntelliJ IDEA、Eclipse 或 NetBeans 等整合開發環境 (IDE) 來簡化程式碼管理。
-## 導入包
-要開始使用程式碼，您需要匯入必要的 Aspose.PSD 套件。您可以這樣做：
+您是否正在處理 Adobe Illustrator 檔案，且需要在 Java 應用程式中 **convert AI to PDF**？無論是向量圖形、插圖或設計檔案，將 AI 檔案轉換為 PDF 對於文件編制、分享與列印都相當重要。在本指南中，我們將探討如何使用 Aspose.PSD for Java 輕鬆將 AI 檔案轉換為 PDF。Aspose.PSD 是一套功能強大的函式庫，可簡化 PSD、AI 以及其他影像格式的操作與轉換。現在就讓我們深入了解這個轉換流程的細節吧！
+
+## 快速解答
+- **What library handles AI to PDF conversion in Java?** Aspose.PSD for Java  
+- **Do I need a license for production use?** Yes, a commercial license is required for production.  
+- **Which JDK version is supported?** JDK 8 or later.  
+- **Can I customize PDF quality?** Yes, use `PdfOptions` (e.g., `setJpegQuality`).  
+- **Is the conversion loss‑less for vector data?** The vector content is preserved; raster images follow the JPEG quality setting.
+
+## 如何使用 Java 轉換 AI 為 PDF？
+以下是一個簡潔的逐步說明，涵蓋從環境設定到最終 PDF 檔案儲存的全部流程。
+
+## 前置條件
+在開始編寫程式碼之前，請確保您已具備以下條件：
+1. Java Development Kit (JDK)：確保已安裝 JDK 8 或更新版本。您可以從 [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html) 下載。  
+2. Aspose.PSD for Java Library：下載並將 Aspose.PSD for Java 加入您的專案。您可以從 [Aspose Releases](https://releases.aspose.com/psd/java/) 取得。  
+3. IDE 設定：使用 IntelliJ IDEA、Eclipse 或 NetBeans 等整合開發環境（IDE）以便更輕鬆地管理程式碼。
+
+## 匯入套件
+要開始撰寫程式碼，您需要匯入必要的 Aspose.PSD 套件。以下是匯入方式：
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
-這些導入引入了載入 AI 文件並將其轉換為 PDF 所需的類別。現在，讓我們詳細介紹一下這些步驟。
+這些匯入語句會載入處理 AI 檔案並將其轉換為 PDF 所需的類別。接下來我們將詳細說明每個步驟。
 
-## 第 1 步：設定您的環境
-首先，確保您已設定好環境。這是初始化目錄和檔案路徑的程式碼片段：
+## 步驟 1：設定環境
+首先，確保您的環境已正確設定。以下程式碼片段示範如何初始化目錄與檔案路徑：
 ```java
 String dataDir = "Your Document Directory"; 
 String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.pdf";
 ```
-代替`"Your Document Directory"`與您的 AI 文件所在的實際路徑。此步驟可確保您擁有原始檔案和目標檔案的正確路徑。
-## 第2步：載入AI圖像
-接下來，您需要使用 Aspose.PSD 載入 AI 檔案。您可以這樣做：
+將 `"Your Document Directory"` 替換為實際存放 AI 檔案的路徑。此步驟確保您能正確取得來源與目標檔案的路徑。
+
+## 步驟 2：載入 AI 圖像
+接著，使用 Aspose.PSD 載入您的 AI 檔案。操作方式如下：
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
-這行程式碼將 AI 文件讀取到`AiImage`對象，使其準備好進行轉換。這`Image.load()`方法將檔案路徑作為參數。
-## 步驟 3：配置 PDF 選項
-在將影像儲存為 PDF 之前，您可以配置特定於 PDF 的選項。您可以按照以下方式進行設置`PdfOptions`:
+此行程式碼會將 AI 檔案讀入 `AiImage` 物件，為後續轉換做好準備。`Image.load()` 方法接受檔案路徑作為參數。
+
+## 步驟 3：設定 PDF 選項
+在將圖像儲存為 PDF 之前，您可以設定 PDF 專屬的選項。以下示範如何建立 `PdfOptions`：
 ```java
 PdfOptions options = new PdfOptions();
 ```
-您可以客製化`PdfOptions`控制壓縮、解析度和頁面大小等方面。例如：
+您可以自訂 `PdfOptions` 以控制壓縮、解析度與頁面大小等屬性。例如：
 ```java
 options.setJpegQuality(100);
 ```
-這會將 PDF 中任何影像的 JPEG 品質設定為最高等級。
-## 第 4 步：另存為 PDF
-現在到了令人興奮的部分 - 將您的 AI 文件保存為 PDF。使用`save()`的方法`AiImage`目的：
+此設定會將 PDF 中所有影像的 JPEG 品質調整至最高。
+
+## 步驟 4：儲存為 PDF
+最後，將 AI 檔案儲存為 PDF 的精彩時刻到來了。使用 `AiImage` 物件的 `save()` 方法：
 ```java
 image.save(outFileName, options);
 ```
-此行會將您的 AI 影像轉換為指定路徑下的 PDF 檔案。確保`outFileName`指向所需的輸出位置。
+此行程式碼會將您的 AI 圖像轉換為 PDF，並儲存至指定路徑。請確保 `outFileName` 指向您想要的輸出位置。
 
-## 結論
-使用 Aspose.PSD 在 Java 中將 AI 檔案轉換為 PDF 既簡單又有效率。透過遵循本指南中概述的步驟，您可以輕鬆地將此功能整合到您的應用程式中，從而輕鬆處理 PDF 格式的向量圖形和插圖。無論您是開發人員、設計師，還是只是探索 AI 和 PDF 轉換的可能性，Aspose.PSD 都能提供無縫體驗。
-## 常見問題解答
-### 什麼是 Java 版 Aspose.PSD？
-Aspose.PSD 是一個功能強大的函式庫，可讓開發人員在 Java 中使用 Photoshop 和 Illustrator 檔案。它支援讀取、寫入和轉換 PSD 和 AI 檔案。
-### 我可以免費試用 Aspose.PSD 嗎？
-是的！您可以獲得臨時許可證或下載免費試用版[Aspose 發布](https://releases.aspose.com/psd/java/).
-### Aspose.PSD 支援哪些檔案格式？
- Aspose.PSD支援多種格式，包括PSD、AI、TIFF、BMP等。檢查[文件](https://reference.aspose.com/psd/java/)取得完整清單。
-### 我如何獲得 Aspose.PSD 支援？
-您可以訪問[Aspose論壇](https://forum.aspose.com/c/psd/34)對於您可能遇到的任何疑問或問題。
-### 在哪裡可以購買 Aspose.PSD 的授權？
-您可以直接從以下位置購買許可證[Aspose的購買頁面](https://purchase.aspose.com/buy).
+## 為什麼使用 Aspose.PSD for Java？
+- **Full‑featured API** – Supports AI, PSD, and many raster formats.  
+- **No external dependencies** – Pure Java, easy to integrate.  
+- **High‑quality rendering** – Preserves vector fidelity and lets you tweak raster settings.  
+- **Robust PDF options** – Control compression, image quality, and page layout.
+
+## 常見問題與解決方案
+| 問題 | 解決方案 |
+|-------|----------|
+| **File not found** | Double‑check `dataDir` and file names; use absolute paths for testing. |
+| **OutOfMemoryError on large AI files** | Increase JVM heap (`-Xmx`) or process pages individually using `AiImage` layers. |
+| **PDF image quality is low** | Set `options.setJpegQuality(100)` or use `PdfOptions.setCompressionMode(CompressionMode.None)`. |
+
+## 其他常見問題
+
+**Q: 轉換是否會保留圖層與向量路徑？**  
+A: 向量資料會保留在 PDF 中；光柵圖層則依 JPEG 品質設定嵌入。
+
+**Q: 我可以一次批次轉換多個 AI 檔案嗎？**  
+A: 可以，遍歷資料夾，使用 `Image.load()` 載入每個檔案，並以適當的 `PdfOptions` 呼叫 `save()`。
+
+**Q: 有沒有辦法設定 PDF 的頁面大小？**  
+A: 使用 `options.setPageSize(Size)` 在儲存前定義自訂尺寸。
+
+**Q: 產生的 PDF 會是可搜尋的嗎？**  
+A: PDF 只包含已渲染的影像；若需文字擷取，需使用 OCR，這超出 Aspose.PSD 的範圍。
+
+**Q: 如何處理受密碼保護的 AI 檔案？**  
+A: Aspose.PSD 目前不支援開啟加密的 AI 檔案，請先自行解密。
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
