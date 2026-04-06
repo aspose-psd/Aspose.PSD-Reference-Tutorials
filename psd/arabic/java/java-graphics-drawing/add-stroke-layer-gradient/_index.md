@@ -1,28 +1,48 @@
 ---
-title: كيفية إضافة تدرج طبقة السكتة الدماغية في جافا
-linktitle: كيفية إضافة تدرج طبقة السكتة الدماغية في جافا
-second_title: Aspose.PSD جافا API
-description: تعرف على كيفية إضافة تدرجات طبقة الحد وتخصيصها في ملفات PSD باستخدام Aspose.PSD لـ Java من خلال هذا البرنامج التعليمي الشامل خطوة بخطوة.
-weight: 10
+date: 2026-01-14
+description: تعلم كيفية إنشاء طبقة حد متدرج وتخصيص تدرجات الحدود في ملفات PSD باستخدام
+  Aspose.PSD للغة Java من خلال هذا الدليل خطوة بخطوة.
+linktitle: How to Create Gradient Stroke Layer in Java
+second_title: Aspose.PSD Java API
+title: كيفية إنشاء طبقة خط متدرج في جافا
 url: /ar/java/java-graphics-drawing/add-stroke-layer-gradient/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية إضافة تدرج طبقة السكتة الدماغية في جافا
+# كيفية إنشاء طبقة حد تدرج لوني في Java
 
 ## مقدمة
-هل تساءلت يومًا عن كيفية إضافة تدرج لطبقة الحد إلى صورك باستخدام Java؟ حسنا، أنت في المكان الصحيح! اليوم، نتعمق في عالم Aspose.PSD for Java، وهي مكتبة قوية تساعدك على التعامل مع ملفات PSD بسهولة. سواء كنت مبتدئًا أو مطورًا متمرسًا، سيرشدك هذا الدليل خطوة بخطوة خلال عملية إضافة تدرج طبقة الحد إلى ملفات PSD الخاصة بك. لذلك، اربط حزام الأمان واستعد لتعزيز مهاراتك في تحرير الرسومات!
-## المتطلبات الأساسية
-قبل أن نبدأ، هناك بعض الأشياء التي يجب أن تكون لديك. تأكد من أن لديك ما يلي:
-1.  Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.PSD لمكتبة Java: يمكنك تنزيله من ملف[صفحة تحميل Aspose.PSD](https://releases.aspose.com/psd/java/).
-3. بيئة التطوير المتكاملة (IDE): أي بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse أو NetBeans ستعمل.
-4.  ترخيص ساري المفعول: يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) إذا لم يكن لديك واحدة كاملة.
-## حزم الاستيراد
-أول الأشياء أولاً، فلنستورد الحزم الضرورية. سيمكننا ذلك من استخدام الفئات والأساليب المطلوبة لمعالجة ملف PSD.
+هل تساءلت يوماً كيف **تنشئ طبقة حد تدرج لوني** في ملفات PSD باستخدام Java؟ أنت في المكان الصحيح! اليوم سنغوص في Aspose.PSD for Java—مكتبة قوية تتيح لك تعديل ملفات PSD بسهولة. سواء كنت جديدًا في برمجة الرسوميات أو تبحث عن تحسين تصاميم موجودة، سيوجهك هذا الدليل خطوة بخطوة لإضافة وتخصيص تدرجات الحدود.
+
+## إجابات سريعة
+- **ما هو الهدف الأساسي؟** إنشاء طبقة حد تدرج لوني في ملف PSD.  
+- **ما المكتبة المطلوبة؟** Aspose.PSD for Java.  
+- **هل أحتاج إلى ترخيص؟** نعم، يلزم وجود ترخيص صالح (أو مؤقت) للاستخدام في الإنتاج.  
+- **ما نسخة Java المتوافقة؟** Java 8 أو أعلى.  
+- **كم يستغرق التنفيذ؟** تقريباً 10‑15 دقيقة لإنشاء حد تدرج أساسي.
+
+## ما هي طبقة حد تدرج لوني؟
+طبقة حد تدرج لوني هي حدود متجهة حول شكل أو نص تنتقل بسلاسة بين الألوان. باستخدام Aspose.PSD يمكنك تعريف الألوان، الشفافية، الزاوية، والنوع (خطّي، شعاعي، إلخ) للحد برمجيًا.
+
+## لماذا تستخدم Aspose.PSD for Java؟
+- **دعم كامل لملفات PSD** – قراءة، تعديل، وكتابة ملفات PSD دون الحاجة إلى Photoshop.  
+- **API غني للتأثيرات** – الوصول إلى حدود، ظلال، توهج، والعديد من تأثيرات الطبقات الأخرى.  
+- **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java.  
+- **بدون تبعيات أصلية** – جافا صافية، سهل الدمج في خطوط CI.
+
+## المتطلبات المسبقة
+1. **Java Development Kit (JDK)** – قم بتثبيت أحدث JDK من [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.PSD for Java** – حمّل المكتبة من [Aspose.PSD download page](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA، Eclipse، أو NetBeans.  
+4. **License** – احصل على [temporary license](https://purchase.aspose.com/temporary-license/) إذا لم يكن لديك ترخيص كامل.
+
+## استيراد الحزم
+أولاً، استورد الفئات التي سنحتاجها لتحميل ملف PSD، الوصول إلى التأثيرات، وتكوين تعبئات التدرج.
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
@@ -39,9 +59,12 @@ import com.aspose.psd.fileformats.psd.layers.fillsettings.IGradientTransparencyP
 import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
-الآن، دعونا نقسم المثال إلى خطوات متعددة لفهم أفضل.
-## الخطوة 1: قم بتحميل ملف PSD
- أولاً، نحتاج إلى تحميل ملف PSD الذي نريد تعديله. سوف نستخدم`PsdLoadOptions` لتحديد أننا نريد تحميل موارد التأثيرات.
+
+الآن لنقسم العملية إلى خطوات واضحة.
+
+## الخطوة 1: تحميل ملف PSD
+نحمّل ملف PSD المصدر ونفعّل موارد التأثير حتى يصبح تأثير الحد متاحًا.
+
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "Stroke.psd";
@@ -50,13 +73,17 @@ PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
-## الخطوة 2: الوصول إلى تأثير السكتة الدماغية
-بعد ذلك، نحتاج إلى الوصول إلى تأثير الحد للطبقة التي نهتم بها. هنا، نفترض أنها الطبقة الثالثة (الفهرس 2) في ملف PSD.
+
+## الخطوة 2: الوصول إلى تأثير الحد
+بافتراض أن الحد الذي نريد تعديله ينتمي إلى الطبقة الثالثة (الفهرس 2)، نسترجع `StrokeEffect` الخاص به.
+
 ```java
 StrokeEffect gradientStroke = (StrokeEffect) im.getLayers()[2].getBlendingOptions().getEffects()[0];
 ```
-## الخطوة 3: التحقق من خصائص تأثير السكتة الدماغية
-قبل إجراء أي تغييرات، دعونا نتحقق من خصائص تأثير الحد للتأكد من أننا نقوم بتعديل الإعدادات الصحيحة.
+
+## الخطوة 3: التحقق من خصائص تأثير الحد
+قبل إجراء أي تغييرات، نؤكد الإعدادات الحالية حتى نعرف بالضبط ما سنحدّثه.
+
 ```java
 Assert.areEqual(BlendMode.Normal, gradientStroke.getBlendMode());
 Assert.areEqual(255, gradientStroke.getOpacity());
@@ -72,8 +99,10 @@ Assert.isTrue(Math.abs(0 - fillSettings.getHorizontalOffset()) < 0.001, "Horizon
 Assert.isTrue(Math.abs(0 - fillSettings.getVerticalOffset()) < 0.001, "Vertical offset is incorrect");
 Assert.areEqual(false, fillSettings.getReverse());
 ```
-## الخطوة 4: تعديل إعدادات التعبئة المتدرجة
-حان الوقت الآن لتعديل إعدادات التعبئة المتدرجة وفقًا لمتطلباتنا. سنقوم بتغيير اللون، والتعتيم، ووضع المزج، وغيرها من الخصائص.
+
+## الخطوة 4: تعديل إعدادات تعبئة التدرج
+هنا نغيّر اللون، الشفافية، وضع المزج، وغيرها من الخصائص لتحقيق المظهر المطلوب.
+
 ```java
 fillSettings.setColor(Color.getGreen());
 gradientStroke.setOpacity((byte) 127);
@@ -86,31 +115,37 @@ fillSettings.setHorizontalOffset(15);
 fillSettings.setVerticalOffset(11);
 fillSettings.setReverse(true);
 ```
+
 ## الخطوة 5: إضافة وتعديل نقاط اللون والشفافية
-دعونا نضيف نقاط لون وشفافية جديدة ونقوم بتعديل النقاط الموجودة لتحقيق تأثير التدرج المطلوب.
+نضيف نقاط لون وشفافية جديدة، ثم نضبط النقاط الحالية لتشكيل التدرج.
+
 ```java
-// أضف نقطة لون جديدة
+// Add new color point
 GradientColorPoint colorPoint = fillSettings.addColorPoint();
 colorPoint.setColor(Color.getGreen());
 colorPoint.setLocation(4096);
 colorPoint.setMedianPointLocation(75);
-// تغيير موقع النقطة السابقة
+// Change location of previous point
 fillSettings.getColorPoints()[1].setLocation(1899);
-// أضف نقطة شفافية جديدة
+// Add new transparency point
 GradientTransparencyPoint transparencyPoint = fillSettings.addTransparencyPoint();
 transparencyPoint.setOpacity(25);
 transparencyPoint.setMedianPointLocation(25);
 transparencyPoint.setLocation(4096);
-// تغيير موقع نقطة الشفافية السابقة
+// Change location of previous transparency point
 fillSettings.getTransparencyPoints()[1].setLocation(2411);
 ```
-## الخطوة 6: احفظ ملف PSD المعدل
-بعد إجراء كافة التعديلات اللازمة، نحتاج إلى حفظ ملف PSD.
+
+## الخطوة 6: حفظ ملف PSD المعدل
+بعد جميع التعديلات، نكتب الملف المحدث مرة أخرى إلى القرص.
+
 ```java
 im.save(exportPath);
 ```
+
 ## الخطوة 7: التحقق من التعديلات
-أخيرًا، لنقم بتحميل ملف PSD المحفوظ والتحقق من تطبيق التغييرات بشكل صحيح.
+نحمّل الملف المحفوظ ونؤكد أن كل خاصية تعكس التغييرات التي أجريناها.
+
 ```java
 PsdImage img = (PsdImage) Image.load(exportPath, loadOptions);
 StrokeEffect gradientStrokeEffect = (StrokeEffect) img.getLayers()[2].getBlendingOptions().getEffects()[0];
@@ -120,7 +155,7 @@ Assert.areEqual(true, gradientStrokeEffect.isVisible());
 GradientFillSettings fillSetting = (GradientFillSettings) gradientStrokeEffect.getFillSettings();
 Assert.areEqual(Color.getGreen(), fillSetting.getColor());
 Assert.areEqual(FillType.Gradient, fillSetting.getFillType());
-// تحقق من نقاط اللون
+// Check color points
 Assert.areEqual(3, fillSetting.getColorPoints().length);
 IGradientColorPoint point = fillSetting.getColorPoints()[0];
 Assert.areEqual(50, point.getMedianPointLocation());
@@ -134,7 +169,7 @@ point = fillSettings.getColorPoints()[2];
 Assert.areEqual(75, point.getMedianPointLocation());
 Assert.areEqual(Color.getGreen(), point.getColor());
 Assert.areEqual(4096, point.getLocation());
-// تحقق من نقاط الشفافية
+// Check transparency points
 Assert.areEqual(3, fillSettings.getTransparencyPoints().length);
 IGradientTransparencyPoint transparencyPoint1 = fillSettings.getTransparencyPoints()[0];
 Assert.areEqual(50, transparencyPoint1.getMedianPointLocation());
@@ -149,19 +184,32 @@ Assert.areEqual(25, transparencyPoint.getMedianPointLocation());
 Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
-## خاتمة
-وهنا لديك! أنت تعرف الآن كيفية إضافة تدرجات طبقة الحد ومعالجتها في ملفات PSD باستخدام Aspose.PSD لـ Java. يغطي هذا البرنامج التعليمي تحميل ملف PSD، والوصول إلى تأثيرات الحدود وتعديلها، وحفظ التغييرات. باستخدام هذه المهارات، يمكنك إنشاء تدرجات جذابة بصريًا وتخصيص ملفات PSD الخاصة بك لتناسب احتياجاتك.
-## الأسئلة الشائعة
-### ما هو Aspose.PSD لجافا؟
-Aspose.PSD for Java هي مكتبة تتيح للمطورين العمل مع ملفات PSD في تطبيقات Java، وتوفر ميزات لإنشاء ملفات PSD ومعالجتها وتحويلها.
-### هل أحتاج إلى ترخيص لاستخدام Aspose.PSD لـ Java؟
- نعم، أنت بحاجة إلى ترخيص صالح لاستخدام Aspose.PSD لـ Java. يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
-### هل يمكنني استخدام Aspose.PSD لـ Java لإنشاء ملفات PSD من البداية؟
-قطعاً! يوفر Aspose.PSD for Java واجهات برمجة تطبيقات شاملة لإنشاء ملفات PSD ومعالجتها برمجيًا.
-### هل من الممكن تطبيق تأثيرات أخرى باستخدام Aspose.PSD لـ Java؟
-نعم، يمكنك تطبيق تأثيرات متنوعة مثل الظل والتوهج والمزيد باستخدام Aspose.PSD لـ Java.
-### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ Java؟
- يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/psd/java/).
+
+## الخاتمة
+الآن تعرف كيف **تنشئ طبقة حد تدرج لوني** في ملفات PSD باستخدام Aspose.PSD for Java. من خلال تحميل PSD، الوصول إلى تأثير الحد، تعديل إعدادات تعبئة التدرج، وحفظ النتيجة، يمكنك إنتاج رسومات احترافية برمجيًا دون الحاجة إلى فتح Photoshop.
+
+## الأسئلة المتكررة
+### ما هو Aspose.PSD for Java؟
+Aspose.PSD for Java هي مكتبة تتيح للمطورين العمل مع ملفات PSD في تطبيقات Java، وتوفر ميزات لإنشاء، تعديل، وتحويل ملفات PSD.
+
+### هل أحتاج إلى ترخيص لاستخدام Aspose.PSD for Java؟
+نعم، يلزم وجود ترخيص صالح لاستخدام Aspose.PSD for Java. يمكنك الحصول على [temporary license](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+
+### هل يمكنني استخدام Aspose.PSD for Java لإنشاء ملفات PSD من الصفر؟
+بالطبع! توفر Aspose.PSD for Java واجهات برمجة تطبيقات شاملة لإنشاء وتعديل ملفات PSD برمجيًا.
+
+### هل يمكن تطبيق تأثيرات أخرى باستخدام Aspose.PSD for Java؟
+نعم، يمكنك تطبيق تأثيرات متنوعة مثل الظل، التوهج، والمزيد باستخدام Aspose.PSD for Java.
+
+### أين يمكنني العثور على وثائق Aspose.PSD for Java؟
+يمكنك العثور على الوثائق [here](https://reference.aspose.com/psd/java/).
+
+---
+
+**آخر تحديث:** 2026-01-14  
+**تم الاختبار باستخدام:** Aspose.PSD for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

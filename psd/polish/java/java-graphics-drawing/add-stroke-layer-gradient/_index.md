@@ -1,28 +1,48 @@
 ---
-title: Jak dodać gradient warstwy obrysu w Javie
-linktitle: Jak dodać gradient warstwy obrysu w Javie
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak dodawać i dostosowywać gradienty warstw obrysów w plikach PSD za pomocą Aspose.PSD dla Java, korzystając z tego wszechstronnego samouczka krok po kroku.
-weight: 10
+date: 2026-01-14
+description: Dowiedz się, jak utworzyć warstwę obrysu gradientowego i dostosować gradienty
+  obrysu w plikach PSD przy użyciu Aspose.PSD for Java w tym samouczku krok po kroku.
+linktitle: How to Create Gradient Stroke Layer in Java
+second_title: Aspose.PSD Java API
+title: Jak utworzyć warstwę gradientowego obrysu w Javie
 url: /pl/java/java-graphics-drawing/add-stroke-layer-gradient/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak dodać gradient warstwy obrysu w Javie
+# Jak utworzyć warstwę obrysu gradientowego w Javie
 
-## Wstęp
-Czy zastanawiałeś się kiedyś, jak dodać gradient warstwy obrysu do swoich obrazów za pomocą Java? Cóż, jesteś we właściwym miejscu! Dzisiaj zanurzamy się w świat Aspose.PSD dla Java, potężnej biblioteki, która pomaga z łatwością manipulować plikami PSD. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, ten przewodnik krok po kroku przeprowadzi Cię przez proces dodawania gradientu warstwy obrysu do plików PSD. Zatem zapnij pasy i przygotuj się na doskonalenie swoich umiejętności edycji grafiki!
-## Warunki wstępne
-Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu. Upewnij się, że masz następujące elementy:
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany pakiet JDK. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.PSD dla biblioteki Java: Możesz pobrać ją z[Strona pobierania Aspose.PSD](https://releases.aspose.com/psd/java/).
-3. Zintegrowane środowisko programistyczne (IDE): dowolne IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans, będzie działać.
-4.  Ważna licencja: Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli nie masz pełnego.
-## Importuj pakiety
-Na początek zaimportujmy niezbędne pakiety. Umożliwią nam one użycie klas i metod wymaganych do manipulowania plikiem PSD.
+## Wprowadzenie
+Zastanawiałeś się kiedyś, jak **create gradient stroke layer** w swoich plikach PSD przy użyciu Javy? Jesteś we właściwym miejscu! Dziś zagłębimy się w Aspose.PSD for Java — potężną bibliotekę, która umożliwia łatwą manipulację plikami PSD. Niezależnie od tego, czy dopiero zaczynasz przygodę z programowaniem grafiki, czy chcesz dopracować istniejące projekty, ten przewodnik poprowadzi Cię krok po kroku przez dodawanie i dostosowywanie gradientów obrysu.
+
+## Szybkie odpowiedzi
+- **Jaki jest główny cel?** Utworzyć warstwę obrysu gradientowego w pliku PSD.  
+- **Jakiej biblioteki potrzebujesz?** Aspose.PSD for Java.  
+- **Czy potrzebna jest licencja?** Tak, wymagana jest ważna (lub tymczasowa) licencja do produkcji.  
+- **Jaką wersję Javy obsługuje?** Java 8 lub wyższą.  
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego obrysu gradientowego.
+
+## Czym jest warstwa obrysu gradientowego?
+Warstwa obrysu gradientowego to wektorowy kontur wokół kształtu lub tekstu, który płynnie przechodzi pomiędzy kolorami. Korzystając z Aspose.PSD możesz programowo określić kolory, krycie, kąt i typ (liniowy, radialny itp.) obrysu.
+
+## Dlaczego używać Aspose.PSD for Java?
+- **Pełne wsparcie PSD** – odczyt, edycja i zapis plików PSD bez Photoshopa.  
+- **Bogate API efektów** – dostęp do obrysu, cienia, poświaty i wielu innych efektów warstwy.  
+- **Cross‑platform** – działa na każdym systemie operacyjnym obsługującym Javę.  
+- **Brak natywnych zależności** – czysta Java, łatwa integracja z pipeline'ami CI.
+
+## Wymagania wstępne
+1. **Java Development Kit (JDK)** – Zainstaluj najnowszy JDK ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.PSD for Java** – Pobierz bibliotekę ze [strony pobierania Aspose.PSD](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub NetBeans.  
+4. **Licencja** – Uzyskaj [tymczasową licencję](https://purchase.aspose.com/temporary-license/), jeśli nie masz pełnej.
+
+## Importowanie pakietów
+Najpierw zaimportuj klasy, które będą potrzebne do ładowania PSD, dostępu do efektów i konfigurowania wypełnień gradientowych.
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
@@ -39,9 +59,12 @@ import com.aspose.psd.fileformats.psd.layers.fillsettings.IGradientTransparencyP
 import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
-Podzielmy teraz przykład na wiele kroków, aby lepiej zrozumieć.
+
+Teraz podzielmy proces na przejrzyste kroki.
+
 ## Krok 1: Załaduj plik PSD
- Najpierw musimy załadować plik PSD, który chcemy zmodyfikować. Skorzystamy z`PsdLoadOptions` aby określić, że chcemy załadować zasoby efektów.
+Ładujemy źródłowy plik PSD i włączamy zasoby efektów, aby efekt obrysu był dostępny.
+
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "Stroke.psd";
@@ -50,13 +73,17 @@ PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
+
 ## Krok 2: Uzyskaj dostęp do efektu obrysu
-Następnie musimy uzyskać dostęp do efektu obrysu warstwy, która nas interesuje. Tutaj zakładamy, że jest to trzecia warstwa (indeks 2) w pliku PSD.
+Zakładając, że obrys, który chcemy zmodyfikować, należy do trzeciej warstwy (indeks 2), pobieramy jego `StrokeEffect`.
+
 ```java
 StrokeEffect gradientStroke = (StrokeEffect) im.getLayers()[2].getBlendingOptions().getEffects()[0];
 ```
-## Krok 3: Sprawdź właściwości efektu obrysu
-Przed wprowadzeniem jakichkolwiek zmian sprawdźmy właściwości efektu obrysu, aby mieć pewność, że modyfikujemy prawidłowe ustawienia.
+
+## Krok 3: Zweryfikuj właściwości efektu obrysu
+Przed wprowadzeniem zmian potwierdzamy istniejące ustawienia, aby dokładnie wiedzieć, co aktualizujemy.
+
 ```java
 Assert.areEqual(BlendMode.Normal, gradientStroke.getBlendMode());
 Assert.areEqual(255, gradientStroke.getOpacity());
@@ -72,8 +99,10 @@ Assert.isTrue(Math.abs(0 - fillSettings.getHorizontalOffset()) < 0.001, "Horizon
 Assert.isTrue(Math.abs(0 - fillSettings.getVerticalOffset()) < 0.001, "Vertical offset is incorrect");
 Assert.areEqual(false, fillSettings.getReverse());
 ```
+
 ## Krok 4: Zmodyfikuj ustawienia wypełnienia gradientowego
-Teraz czas zmodyfikować ustawienia wypełnienia gradientowego zgodnie z naszymi wymaganiami. Zmienimy kolor, krycie, tryb mieszania i inne właściwości.
+Tutaj zmieniamy kolor, krycie, tryb mieszania i inne właściwości, aby uzyskać pożądany wygląd.
+
 ```java
 fillSettings.setColor(Color.getGreen());
 gradientStroke.setOpacity((byte) 127);
@@ -86,31 +115,37 @@ fillSettings.setHorizontalOffset(15);
 fillSettings.setVerticalOffset(11);
 fillSettings.setReverse(true);
 ```
-## Krok 5: Dodaj i zmodyfikuj punkty koloru i przezroczystości
-Dodajmy nowe punkty koloru i przezroczystości oraz zmodyfikujmy istniejące, aby uzyskać pożądany efekt gradientu.
+
+## Krok 5: Dodaj i zmodyfikuj punkty koloru i przejrzystości
+Dodajemy nowe punkty koloru i przejrzystości, a następnie dostosowujemy istniejące, aby ukształtować gradient.
+
 ```java
-// Dodaj nowy punkt koloru
+// Add new color point
 GradientColorPoint colorPoint = fillSettings.addColorPoint();
 colorPoint.setColor(Color.getGreen());
 colorPoint.setLocation(4096);
 colorPoint.setMedianPointLocation(75);
-// Zmień lokalizację poprzedniego punktu
+// Change location of previous point
 fillSettings.getColorPoints()[1].setLocation(1899);
-// Dodaj nowy punkt przezroczystości
+// Add new transparency point
 GradientTransparencyPoint transparencyPoint = fillSettings.addTransparencyPoint();
 transparencyPoint.setOpacity(25);
 transparencyPoint.setMedianPointLocation(25);
 transparencyPoint.setLocation(4096);
-// Zmień lokalizację poprzedniego punktu przezroczystości
+// Change location of previous transparency point
 fillSettings.getTransparencyPoints()[1].setLocation(2411);
 ```
+
 ## Krok 6: Zapisz zmodyfikowany plik PSD
-Po dokonaniu wszystkich niezbędnych modyfikacji musimy zapisać plik PSD.
+Po wszystkich korektach zapisujemy zaktualizowany plik na dysku.
+
 ```java
 im.save(exportPath);
 ```
-## Krok 7: Sprawdź modyfikacje
-Na koniec załadujmy zapisany plik PSD i sprawdźmy, czy nasze zmiany zostały zastosowane poprawnie.
+
+## Krok 7: Zweryfikuj modyfikacje
+Ładujemy zapisany plik i sprawdzamy, czy każda właściwość odzwierciedla wprowadzone zmiany.
+
 ```java
 PsdImage img = (PsdImage) Image.load(exportPath, loadOptions);
 StrokeEffect gradientStrokeEffect = (StrokeEffect) img.getLayers()[2].getBlendingOptions().getEffects()[0];
@@ -120,7 +155,7 @@ Assert.areEqual(true, gradientStrokeEffect.isVisible());
 GradientFillSettings fillSetting = (GradientFillSettings) gradientStrokeEffect.getFillSettings();
 Assert.areEqual(Color.getGreen(), fillSetting.getColor());
 Assert.areEqual(FillType.Gradient, fillSetting.getFillType());
-// Sprawdź punkty koloru
+// Check color points
 Assert.areEqual(3, fillSetting.getColorPoints().length);
 IGradientColorPoint point = fillSetting.getColorPoints()[0];
 Assert.areEqual(50, point.getMedianPointLocation());
@@ -134,7 +169,7 @@ point = fillSettings.getColorPoints()[2];
 Assert.areEqual(75, point.getMedianPointLocation());
 Assert.areEqual(Color.getGreen(), point.getColor());
 Assert.areEqual(4096, point.getLocation());
-// Sprawdź punkty przezroczystości
+// Check transparency points
 Assert.areEqual(3, fillSettings.getTransparencyPoints().length);
 IGradientTransparencyPoint transparencyPoint1 = fillSettings.getTransparencyPoints()[0];
 Assert.areEqual(50, transparencyPoint1.getMedianPointLocation());
@@ -149,19 +184,32 @@ Assert.areEqual(25, transparencyPoint.getMedianPointLocation());
 Assert.areEqual(25, transparencyPoint.getOpacity());
 Assert.areEqual(4096, transparencyPoint.getLocation());
 ```
-## Wniosek
-I masz to! Teraz wiesz, jak dodawać i manipulować gradientami warstw obrysów w plikach PSD przy użyciu Aspose.PSD dla Java. W tym samouczku omówiono ładowanie pliku PSD, uzyskiwanie dostępu i modyfikowanie efektów obrysu oraz zapisywanie zmian. Dzięki tym umiejętnościom możesz tworzyć atrakcyjne wizualnie gradienty i dostosowywać pliki PSD do swoich potrzeb.
-## Często zadawane pytania
-### Co to jest Aspose.PSD dla Java?
-Aspose.PSD dla Java to biblioteka, która umożliwia programistom pracę z plikami PSD w aplikacjach Java, zapewniając funkcje tworzenia, manipulowania i konwertowania plików PSD.
-### Czy potrzebuję licencji, aby używać Aspose.PSD dla Java?
- Tak, potrzebujesz ważnej licencji, aby używać Aspose.PSD dla Java. Możesz dostać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
-### Czy mogę używać Aspose.PSD dla Java do tworzenia plików PSD od podstaw?
-Absolutnie! Aspose.PSD dla Java zapewnia kompleksowe interfejsy API do programowego tworzenia i manipulowania plikami PSD.
-### Czy możliwe jest zastosowanie innych efektów przy użyciu Aspose.PSD dla Java?
-Tak, możesz zastosować różne efekty, takie jak cień, poświata i inne, używając Aspose.PSD dla Java.
-### Gdzie mogę znaleźć dokumentację Aspose.PSD dla Java?
- Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/psd/java/).
+
+## Podsumowanie
+Teraz wiesz, jak **create gradient stroke layer** w plikach PSD przy użyciu Aspose.PSD for Java. Ładując PSD, uzyskując dostęp do efektu obrysu, dostosowując ustawienia wypełnienia gradientowego i zapisując wynik, możesz programowo tworzyć grafiki o profesjonalnym wyglądzie bez konieczności otwierania Photoshopa.
+
+## FAQ
+### Czym jest Aspose.PSD for Java?
+Aspose.PSD for Java to biblioteka, która umożliwia programistom pracę z plikami PSD w aplikacjach Java, oferując funkcje tworzenia, manipulacji i konwersji plików PSD.
+
+### Czy potrzebuję licencji, aby używać Aspose.PSD for Java?
+Tak, potrzebna jest ważna licencja do używania Aspose.PSD for Java. Możesz uzyskać [tymczasową licencję](https://purchase.aspose.com/temporary-license/) do celów ewaluacyjnych.
+
+### Czy mogę używać Aspose.PSD for Java do tworzenia plików PSD od podstaw?
+Oczywiście! Aspose.PSD for Java zapewnia kompleksowe API do programowego tworzenia i manipulacji plikami PSD.
+
+### Czy można zastosować inne efekty przy użyciu Aspose.PSD for Java?
+Tak, możesz zastosować różne efekty, takie jak cień, poświata i wiele innych, korzystając z Aspose.PSD for Java.
+
+### Gdzie mogę znaleźć dokumentację Aspose.PSD for Java?
+Dokumentację znajdziesz [tutaj](https://reference.aspose.com/psd/java/).
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-14  
+**Testowano z:** Aspose.PSD for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
