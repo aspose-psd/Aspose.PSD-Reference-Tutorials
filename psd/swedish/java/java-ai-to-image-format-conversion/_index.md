@@ -70,13 +70,6 @@ Konvertera AI till PSD i Java med Aspose.PSD med vår enkla steg‑för‑steg�
 ### [Konvertera AI till TIFF i Java](./convert-ai-to-tiff/)
 Konvertera AI till TIFF i Java enkelt med Aspose.PSD. Steg‑för‑steg‑guide för utvecklare. Nedladdning, installation och kodsnuttar ingår.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.PSD för kommersiella Java‑applikationer?**  
@@ -99,3 +92,10 @@ A: Se till att du använder `PngOptions` med `ColorType = PngColorType.TrueColor
 **Last Updated:** 2026-01-12  
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

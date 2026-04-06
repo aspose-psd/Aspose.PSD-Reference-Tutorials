@@ -75,13 +75,6 @@ weight: 21
 ### [Μετατροπή AI σε TIFF με Java](./convert-ai-to-tiff/)
 Μετατρέψτε AI σε TIFF με Java εύκολα με το Aspose.PSD. Βήμα‑βήμα οδηγός για προγραμματιστές. Περιλαμβάνονται λήψη, ρύθμιση και αποσπάσματα κώδικα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.PSD για εμπορικές εφαρμογές Java;**  
@@ -106,3 +99,10 @@ A: Βεβαιωθείτε ότι χρησιμοποιείτε το `PngOptions` 
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

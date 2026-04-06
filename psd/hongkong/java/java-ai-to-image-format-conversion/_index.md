@@ -69,13 +69,6 @@ TIFF 因其多功能性與高品質輸出在許多產業中扮演關鍵角色。
 ### [Convert AI to TIFF in Java](./convert-ai-to-tiff/)
 使用 Aspose.PSD 在 Java 中輕鬆將 AI 轉為 TIFF。包含下載、設定與程式碼片段的完整步驟指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在商業 Java 應用程式中使用 Aspose.PSD 嗎？**  
@@ -100,3 +93,10 @@ A: 請使用 `PngOptions`，並將 `ColorType = PngColorType.TrueColorWithAlpha`
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

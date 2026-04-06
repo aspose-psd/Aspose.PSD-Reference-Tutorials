@@ -90,22 +90,6 @@ image.save(outFileName, options);
 | **OutOfMemoryError on large AI files** | زد حجم ذاكرة JVM (`-Xmx`) أو عالج الصفحات بشكل فردي باستخدام طبقات `AiImage`. |
 | **PDF image quality is low** | اضبط `options.setJpegQuality(100)` أو استخدم `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## الأسئلة المتكررة
-### ما هو Aspose.PSD لـ Java؟
-Aspose.PSD هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات Photoshop و Illustrator في Java. تدعم القراءة والكتابة والتحويل بين صيغ PSD و AI.
-
-### هل يمكنني تجربة Aspose.PSD مجانًا؟
-نعم! يمكنك الحصول على ترخيص مؤقت أو تنزيل نسخة تجريبية مجانية من [Aspose Releases](https://releases.aspose.com/psd/java/).
-
-### ما هي صيغ الملفات التي يدعمها Aspose.PSD؟
-يدعم Aspose.PSD مجموعة متنوعة من الصيغ بما في ذلك PSD و AI و TIFF و BMP وغيرها. راجع [documentation](https://reference.aspose.com/psd/java/) للقائمة الكاملة.
-
-### كيف يمكنني الحصول على الدعم لـ Aspose.PSD؟
-يمكنك زيارة [Aspose Forum](https://forum.aspose.com/c/psd/34) لأي أسئلة أو مشاكل قد تواجهها.
-
-### أين يمكنني شراء ترخيص لـ Aspose.PSD؟
-يمكنك شراء ترخيص مباشرة من [Aspose's purchase page](https://purchase.aspose.com/buy).
-
 ## أسئلة متكررة إضافية
 
 **Q:** **هل يحافظ التحويل على الطبقات والمسارات المتجهية؟**  

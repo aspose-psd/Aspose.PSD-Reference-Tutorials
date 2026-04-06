@@ -91,22 +91,6 @@ Deze regel converteert je AI‑afbeelding naar een PDF‑bestand op het opgegeve
 | **OutOfMemoryError bij grote AI‑bestanden** | Verhoog de JVM‑heap (`-Xmx`) of verwerk pagina's afzonderlijk met `AiImage`‑lagen. |
 | **PDF‑beeldkwaliteit is laag** | Stel `options.setJpegQuality(100)` in of gebruik `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## Veelgestelde vragen
-### Wat is Aspose.PSD voor Java?
-Aspose.PSD is een krachtige bibliotheek die ontwikkelaars in staat stelt om met Photoshop‑ en Illustrator‑bestanden te werken in Java. Het ondersteunt het lezen, schrijven en converteren van PSD‑ en AI‑bestanden.
-
-### Kan ik Aspose.PSD gratis uitproberen?
-Ja! Je kunt een tijdelijke licentie krijgen of een gratis proefversie downloaden van [Aspose Releases](https://releases.aspose.com/psd/java/).
-
-### Welke bestandsformaten ondersteunt Aspose.PSD?
-Aspose.PSD ondersteunt diverse formaten, waaronder PSD, AI, TIFF, BMP en meer. Bekijk de [documentatie](https://reference.aspose.com/psd/java/) voor de volledige lijst.
-
-### Hoe kan ik ondersteuning krijgen voor Aspose.PSD?
-Je kunt terecht op het [Aspose‑forum](https://forum.aspose.com/c/psd/34) voor vragen of problemen die je tegenkomt.
-
-### Waar kan ik een licentie kopen voor Aspose.PSD?
-Je kunt een licentie rechtstreeks aanschaffen via de [aankooppagina van Aspose](https://purchase.aspose.com/buy).
-
 ## Aanvullende veelgestelde vragen
 
 **Q: Behoudt de conversie lagen en vectorpaden?**  

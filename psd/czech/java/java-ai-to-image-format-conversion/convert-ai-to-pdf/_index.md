@@ -91,23 +91,6 @@ Tento řádek převede váš AI obrázek do PDF souboru na zadané cestě. Ujist
 | **OutOfMemoryError on large AI files** | Zvyšte velikost haldy JVM (`-Xmx`) nebo zpracovávejte stránky jednotlivě pomocí vrstev `AiImage`. |
 | **PDF image quality is low** | Nastavte `options.setJpegQuality(100)` nebo použijte `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## Často kladené otázky
-
-### Co je Aspose.PSD pro Javu?
-Aspose.PSD je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Photoshop a Illustrator v Javě. Podporuje čtení, zápis i konverzi souborů PSD a AI.
-
-### Mohu vyzkoušet Aspose.PSD zdarma?
-Ano! Můžete získat dočasnou licenci nebo stáhnout bezplatnou zkušební verzi z [Aspose Releases](https://releases.aspose.com/psd/java/).
-
-### Jaké souborové formáty Aspose.PSD podporuje?
-Aspose.PSD podporuje řadu formátů včetně PSD, AI, TIFF, BMP a dalších. Kompletní seznam najdete v [dokumentaci](https://reference.aspose.com/psd/java/).
-
-### Jak mohu získat podporu pro Aspose.PSD?
-Navštivte [Aspose Forum](https://forum.aspose.com/c/psd/34) pro jakékoli otázky či problémy, na které narazíte.
-
-### Kde mohu zakoupit licenci pro Aspose.PSD?
-Licenci můžete zakoupit přímo na [Aspose's purchase page](https://purchase.aspose.com/buy).
-
 ## Další často kladené otázky
 
 **Q: Zachovává převod vrstvy a vektorové cesty?**  

@@ -91,22 +91,6 @@ image.save(outFileName, options);
 | **बड़ी AI फ़ाइलों पर OutOfMemoryError** | JVM हीप (`-Xmx`) बढ़ाएँ या `AiImage` लेयर्स का उपयोग करके पेजों को व्यक्तिगत रूप से प्रोसेस करें। |
 | **PDF इमेज क्वालिटी कम है** | `options.setJpegQuality(100)` सेट करें या `PdfOptions.setCompressionMode(CompressionMode.None)` का उपयोग करें। |
 
-## अक्सर पूछे जाने वाले प्रश्न
-### Aspose.PSD for Java क्या है?
-Aspose.PSD एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को जावा में फ़ोटोशॉप और इलस्ट्रेटर फ़ाइलों के साथ काम करने की अनुमति देती है। यह PSD और AI फ़ाइलों को पढ़ने, लिखने और रूपांतरण का समर्थन करता है।
-
-### क्या मैं Aspose.PSD को मुफ्त में आज़मा सकता हूँ?
-हाँ! आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं या मुफ्त ट्रायल डाउनलोड कर सकते हैं [Aspose Releases](https://releases.aspose.com/psd/java/) से।
-
-### Aspose.PSD कौन-कौन से फ़ाइल फ़ॉर्मैट्स को सपोर्ट करता है?
-Aspose.PSD विभिन्न फ़ॉर्मैट्स को सपोर्ट करता है जिसमें PSD, AI, TIFF, BMP और अधिक शामिल हैं। पूरी सूची के लिए [documentation](https://reference.aspose.com/psd/java/) देखें।
-
-### मैं Aspose.PSD के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
-आप किसी भी प्रश्न या समस्या के लिए [Aspose Forum](https://forum.aspose.com/c/psd/34) पर जा सकते हैं।
-
-### मैं Aspose.PSD का लाइसेंस कहाँ खरीद सकता हूँ?
-आप सीधे [Aspose's purchase page](https://purchase.aspose.com/buy) से लाइसेंस खरीद सकते हैं।
-
 ## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या रूपांतरण लेयर्स और वेक्टर पाथ्स को संरक्षित करता है?**  

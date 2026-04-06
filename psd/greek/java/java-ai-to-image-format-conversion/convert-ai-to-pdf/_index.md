@@ -91,24 +91,7 @@ image.save(outFileName, options);
 | **OutOfMemoryError σε μεγάλα αρχεία AI** | Αυξήστε τη μνήμη heap του JVM (`-Xmx`) ή επεξεργαστείτε τις σελίδες ξεχωριστά χρησιμοποιώντας τα επίπεδα `AiImage`. |
 | **Η ποιότητα εικόνας PDF είναι χαμηλή** | Ορίστε `options.setJpegQuality(100)` ή χρησιμοποιήστε `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## Συχνές Ερωτήσεις
-
-### Τι είναι το Aspose.PSD for Java;
-Το Aspose.PSD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Photoshop και Illustrator σε Java. Υποστηρίζει ανάγνωση, εγγραφή και μετατροπή αρχείων PSD και AI.
-
-### Μπορώ να δοκιμάσω το Aspose.PSD δωρεάν;
-Ναι! Μπορείτε να αποκτήσετε προσωρινή άδεια ή να κατεβάσετε δωρεάν δοκιμαστική έκδοση από [Aspose Releases](https://releases.aspose.com/psd/java/).
-
-### Ποιες μορφές αρχείων υποστηρίζει το Aspose.PSD;
-Το Aspose.PSD υποστηρίζει διάφορες μορφές όπως PSD, AI, TIFF, BMP και άλλες. Ελέγξτε την [documentation](https://reference.aspose.com/psd/java/) για την πλήρη λίστα.
-
-### Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD;
-Μπορείτε να επισκεφθείτε το [Aspose Forum](https://forum.aspose.com/c/psd/34) για οποιεσδήποτε ερωτήσεις ή προβλήματα αντιμετωπίζετε.
-
-### Πού μπορώ να αγοράσω άδεια για το Aspose.PSD;
-Μπορείτε να αγοράσετε άδεια απευθείας από τη [σελίδα αγοράς του Aspose](https://purchase.aspose.com/buy).
-
-## Additional Frequently Asked Questions
+## Πρόσθετες Συχνές Ερωτήσεις
 
 **Q: Διατηρεί η μετατροπή τα επίπεδα και τις διανυσματικές διαδρομές;**  
 A: Τα διανυσματικά δεδομένα διατηρούνται στο PDF· τα ραστερ επίπεδα ενσωματώνονται σύμφωνα με τη ρύθμιση ποιότητας JPEG.

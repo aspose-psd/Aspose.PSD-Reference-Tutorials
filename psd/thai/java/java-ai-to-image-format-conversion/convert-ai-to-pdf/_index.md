@@ -89,22 +89,6 @@ image.save(outFileName, options);
 | **OutOfMemoryError กับไฟล์ AI ขนาดใหญ่** | เพิ่มขนาด heap ของ JVM (`-Xmx`) หรือประมวลผลแต่ละหน้าแยกกันโดยใช้เลเยอร์ของ `AiImage`. |
 | **คุณภาพภาพ PDF ต่ำ** | ตั้งค่า `options.setJpegQuality(100)` หรือใช้ `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## คำถามที่พบบ่อย
-### Aspose.PSD for Java คืออะไร?
-Aspose.PSD เป็นไลบรารีที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Photoshop และ Illustrator ใน Java ได้ รองรับการอ่าน, การเขียน, และการแปลงไฟล์ PSD และ AI.
-
-### ฉันสามารถลอง Aspose.PSD ฟรีได้หรือไม่?
-ใช่! คุณสามารถรับไลเซนส์ชั่วคราวหรือดาวน์โหลดรุ่นทดลองฟรีจาก [Aspose Releases](https://releases.aspose.com/psd/java/).
-
-### Aspose.PSD รองรับรูปแบบไฟล์อะไรบ้าง?
-Aspose.PSD รองรับรูปแบบไฟล์หลากหลายรวมถึง PSD, AI, TIFF, BMP, และอื่น ๆ ตรวจสอบ [documentation](https://reference.aspose.com/psd/java/) เพื่อดูรายการเต็ม.
-
-### ฉันจะขอรับการสนับสนุนสำหรับ Aspose.PSD ได้อย่างไร?
-คุณสามารถเยี่ยมชม [Aspose Forum](https://forum.aspose.com/c/psd/34) เพื่อสอบถามคำถามหรือปัญหาที่พบได้.
-
-### ฉันสามารถซื้อไลเซนส์สำหรับ Aspose.PSD ได้จากที่ไหน?
-คุณสามารถซื้อไลเซนส์ได้โดยตรงจาก [Aspose's purchase page](https://purchase.aspose.com/buy).
-
 ## คำถามที่พบบ่อยเพิ่มเติม
 
 **Q: การแปลงนี้รักษาเลเยอร์และเส้นทางเวกเตอร์หรือไม่?**  

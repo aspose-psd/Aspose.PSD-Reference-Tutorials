@@ -92,23 +92,7 @@ Cette ligne convertira votre image AI en fichier PDF au chemin spécifié. Assur
 | **OutOfMemoryError sur de gros fichiers AI** | Augmentez le tas JVM (`-Xmx`) ou traitez les pages individuellement en utilisant les calques `AiImage`. |
 | **Qualité d’image du PDF faible** | Définissez `options.setJpegQuality(100)` ou utilisez `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## FAQ
-### Qu’est‑ce que Aspose.PSD pour Java ?
-Aspose.PSD est une bibliothèque puissante qui permet aux développeurs de travailler avec les fichiers Photoshop et Illustrator en Java. Elle prend en charge la lecture, l’écriture et la conversion des fichiers PSD et AI.
-
-### Puis‑je essayer Aspose.PSD gratuitement ?
-Oui ! Vous pouvez obtenir une licence temporaire ou télécharger une version d’essai gratuite depuis [Aspose Releases](https://releases.aspose.com/psd/java/).
-
-### Quels formats de fichiers Aspose.PSD prend‑il en charge ?
-Aspose.PSD prend en charge une variété de formats dont PSD, AI, TIFF, BMP et bien d’autres. Consultez la [documentation](https://reference.aspose.com/psd/java/) pour la liste complète.
-
-### Comment puis‑je obtenir du support pour Aspose.PSD ?
-Vous pouvez visiter le [Aspose Forum](https://forum.aspose.com/c/psd/34) pour toute question ou problème que vous pourriez rencontrer.
-
-### Où puis‑je acheter une licence pour Aspose.PSD ?
-Vous pouvez acheter une licence directement depuis la [page d’achat d’Aspose](https://purchase.aspose.com/buy).
-
-## Additional Frequently Asked Questions
+## Questions fréquemment posées supplémentaires
 
 **Q : La conversion préserve‑t‑elle les calques et les tracés vectoriels ?**  
 A : Les données vectorielles sont conservées dans le PDF ; les calques raster sont incorporés selon le paramètre de qualité JPEG.

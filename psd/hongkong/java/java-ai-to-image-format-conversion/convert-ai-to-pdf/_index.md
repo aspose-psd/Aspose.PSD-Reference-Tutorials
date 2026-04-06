@@ -89,22 +89,6 @@ image.save(outFileName, options);
 | **OutOfMemoryError on large AI files** | Increase JVM heap (`-Xmx`) or process pages individually using `AiImage` layers. |
 | **PDF image quality is low** | Set `options.setJpegQuality(100)` or use `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## 常見問答
-### 什麼是 Aspose.PSD for Java？
-Aspose.PSD 是一套功能強大的函式庫，讓開發者能在 Java 中處理 Photoshop 與 Illustrator 檔案。它支援讀取、寫入以及轉換 PSD 與 AI 檔案。
-
-### 我可以免費試用 Aspose.PSD 嗎？
-可以！您可以取得臨時授權或從 [Aspose Releases](https://releases.aspose.com/psd/java/) 下載免費試用版。
-
-### Aspose.PSD 支援哪些檔案格式？
-Aspose.PSD 支援多種格式，包括 PSD、AI、TIFF、BMP 等。請參閱 [documentation](https://reference.aspose.com/psd/java/) 取得完整清單。
-
-### 如何取得 Aspose.PSD 的支援？
-您可以前往 [Aspose Forum](https://forum.aspose.com/c/psd/34) 提問或尋求協助。
-
-### 我可以從哪裡購買 Aspose.PSD 的授權？
-您可以直接在 [Aspose's purchase page](https://purchase.aspose.com/buy) 購買授權。
-
 ## 其他常見問題
 
 **Q: 轉換是否會保留圖層與向量路徑？**  

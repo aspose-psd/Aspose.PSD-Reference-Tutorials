@@ -91,22 +91,6 @@ Ten wiersz przekonwertuje Twój obraz AI na plik PDF w określonej ścieżce. Up
 | **OutOfMemoryError przy dużych plikach AI** | Zwiększ przydział pamięci JVM (`-Xmx`) lub przetwarzaj strony pojedynczo, korzystając z warstw `AiImage`. |
 | **Jakość obrazu PDF jest niska** | Ustaw `options.setJpegQuality(100)` lub użyj `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
-## FAQ
-### Czym jest Aspose.PSD dla Javy?
-Aspose.PSD to potężna biblioteka, która umożliwia programistom pracę z plikami Photoshop i Illustrator w Javie. Obsługuje odczyt, zapis oraz konwersję plików PSD i AI.
-
-### Czy mogę wypróbować Aspose.PSD za darmo?
-Tak! Możesz uzyskać tymczasową licencję lub pobrać bezpłatną wersję próbną z [Aspose Releases](https://releases.aspose.com/psd/java/).
-
-### Jakie formaty plików obsługuje Aspose.PSD?
-Aspose.PSD obsługuje wiele formatów, w tym PSD, AI, TIFF, BMP i inne. Sprawdź [dokumentację](https://reference.aspose.com/psd/java/) po pełną listę.
-
-### Jak mogę uzyskać wsparcie dla Aspose.PSD?
-Możesz odwiedzić [Aspose Forum](https://forum.aspose.com/c/psd/34), aby uzyskać pomoc w razie pytań lub problemów.
-
-### Gdzie mogę kupić licencję na Aspose.PSD?
-Licencję możesz zakupić bezpośrednio na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
-
 ## Dodatkowe często zadawane pytania
 
 **Q: Czy konwersja zachowuje warstwy i ścieżki wektorowe?**  
