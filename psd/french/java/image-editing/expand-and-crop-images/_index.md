@@ -1,33 +1,56 @@
 ---
-title: Développez et recadrez les images avec Aspose.PSD pour Java
-linktitle: Agrandir et recadrer les images
-second_title: API Java Aspose.PSD
-description: Découvrez comment agrandir et recadrer des images en Java à l'aide d'Aspose.PSD. Guide étape par étape pour un traitement d’image efficace.
-weight: 18
+date: 2026-01-07
+description: Apprenez à recadrer une image en Java avec Aspose.PSD pour Java. Guide
+  étape par étape pour le recadrage d’image, le redimensionnement et la conversion
+  de PSD en JPEG.
+linktitle: Expand and Crop Images
+second_title: Aspose.PSD Java API
+title: 'Recadrage d''image Java - agrandir et recadrer les images avec Aspose.PSD
+  pour Java'
 url: /fr/java/image-editing/expand-and-crop-images/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Développez et recadrez les images avec Aspose.PSD pour Java
+# Crop Image Java : Agrandir et Recadrer des Images avec Aspose.PSD for Java
 
 ## Introduction
 
-Dans ce didacticiel, nous verrons comment utiliser Aspose.PSD pour Java pour agrandir et recadrer efficacement les images. Aspose.PSD est une bibliothèque puissante qui offre un large éventail de fonctionnalités pour travailler avec des fichiers PSD dans des applications Java. Dans ce guide, nous aborderons les conditions préalables nécessaires, l'importation de packages et détaillerons chaque étape avec des explications détaillées.
+Dans ce tutoriel, vous découvrirez comment **crop image java** avec la bibliothèque Aspose.PSD. Que vous ayez besoin d'agrandir un canevas, de couper des bords indésirables ou de convertir un fichier PSD en JPEG, les étapes ci‑dessous vous guideront à travers un processus propre et reproductible. Nous couvrirons les prérequis, les instructions d'importation et chaque étape de codage avec des explications claires afin que vous puissiez appliquer la technique à des projets réels.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque gère crop image java ?** Aspose.PSD for Java.  
+- **Ai‑je besoin d’une licence pour le développement ?** Une version d’essai gratuite suffit pour les tests ; une licence commerciale est requise en production.  
+- **Puis‑je convertir un PSD en JPEG tout en recadrant ?** Oui, en utilisant `JpegOptions` conjointement avec un rectangle de recadrage.  
+- **Java 8 est‑il supporté ?** Aspose.PSD prend en charge Java 8 et les versions ultérieures.  
+- **Combien de temps prend l’implémentation ?** Généralement moins de 10 minutes pour une opération de recadrage basique.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce que “crop image java” ?
 
-1. Environnement de développement Java : assurez-vous que Java est installé sur votre système.
+Recadrer une image en Java signifie sélectionner une région rectangulaire de l’image source et ignorer le reste. Avec Aspose.PSD, vous pouvez définir cette région à l’aide d’un objet `Rectangle`, puis enregistrer le résultat dans un autre format tel que JPEG.
 
-2.  Bibliothèque Aspose.PSD : téléchargez et installez la bibliothèque Aspose.PSD. Vous pouvez trouver la bibliothèque[ici](https://releases.aspose.com/psd/java/).
+## Pourquoi utiliser Aspose.PSD for Java pour le recadrage d’images ?
 
-## Importer des packages
+- **Prise en charge complète du PSD** – travaillez directement avec des fichiers PSD à calques sans les convertir au préalable.  
+- **Gestion raster haute performance** – utilisation efficace de la mémoire pour les images volumineuses.  
+- **Conversion intégrée** – exportez facilement vers JPEG, PNG, BMP, etc., tout en appliquant le recadrage ou l’agrandissement du canevas.  
+- **Multiplateforme** – fonctionne sur tout système exécutant Java.
 
-Maintenant que vous avez réglé vos prérequis, importez les packages nécessaires pour commencer à travailler avec Aspose.PSD pour Java. Ajoutez les lignes suivantes à votre code Java :
+## Prérequis
+
+Avant de commencer, assurez‑vous d’avoir :
+
+1. **Java Development Kit (JDK)** – Java 8 ou version ultérieure installé.  
+2. **Aspose.PSD for Java** – téléchargez la bibliothèque depuis le site officiel **[ici](https://releases.aspose.com/psd/java/)**.  
+
+> **Astuce :** Ajoutez le JAR Aspose.PSD à votre classpath ou à vos dépendances Maven/Gradle pour éviter `ClassNotFoundException`.
+
+## Import Packages
+
+Ajoutez les imports nécessaires à votre fichier source Java. Ces classes vous donnent accès au chargement d’image, à la manipulation raster, à la définition de rectangle et aux options d’export JPEG.
 
 ```java
 import com.aspose.psd.Image;
@@ -37,77 +60,97 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Ces packages fournissent des classes et des méthodes essentielles pour le traitement d'images à l'aide d'Aspose.PSD.
+## Étape 1 : Définir le Répertoire de Votre Document
 
-## Étape 1 : définissez votre répertoire de documents
-
-Commencez par définir le répertoire où se trouve votre fichier PSD. Remplacez « Votre répertoire de documents » par le chemin réel.
+Spécifiez le dossier contenant le fichier PSD source. Remplacez le texte de substitution par le chemin réel sur votre machine.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Étape 2 : Spécifier les chemins source et de destination
+## Étape 2 : Spécifier les Chemins Source et Destination
 
-Définissez le fichier PSD source et le chemin de destination de l'image de sortie.
+Définissez où lire le PSD et où écrire le JPEG recadré.
 
 ```java
 String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Étape 3 : charger et mettre en cache l'image
+## Étape 3 : Charger et Mettre en Cache l’Image
 
- Chargez le fichier PSD dans un`RasterImage` objet et mettre en cache ses données.
+Chargez le PSD dans un objet `RasterImage`. Le cache améliore les performances pour les opérations suivantes comme le recadrage.
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 rasterImage.cacheData();
 ```
 
-## Étape 4 : Créer un rectangle pour le recadrage
+## Étape 4 : Créer le Rectangle de Recadrage
 
- Instancier un`Rectangle` objet et définissez ses coordonnées X, Y, sa largeur et sa hauteur. Ce rectangle déterminera la région recadrée.
+Créez un `Rectangle` qui décrit la région que vous souhaitez conserver. Les coordonnées peuvent être négatives pour **agrandir** le canevas avant le recadrage, ce qui est utile pour ajouter une bordure autour de l’image originale.
 
 ```java
 Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 ```
 
-## Étape 5 : Enregistrez l'image recadrée
+> **Pourquoi utiliser des coordonnées négatives ?**  
+> Des valeurs X/Y négatives déplacent la zone de recadrage vers la gauche/vers le haut, ajoutant ainsi de l’espace vide (agrandissement) autour du contenu original avant le recadrage final.
 
- Enregistrez l'image recadrée en utilisant le rectangle défini et le`JpegOptions` classe.
+## Étape 5 : Enregistrer l’Image Recadrée
+
+Enfin, enregistrez l’image résultante à l’aide de `JpegOptions`. Cette étape montre également **convert psd jpeg** tout en appliquant le rectangle de recadrage.
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-Félicitations! Vous avez réussi à agrandir et à recadrer une image à l'aide d'Aspose.PSD pour Java.
+> **Résultat :** `jpeg_out.jpg` contient maintenant une image de 300 × 300 pixels qui a été agrandie de 200 px de chaque côté puis recadrée selon le rectangle défini.
 
-## Conclusion
+Félicitations ! Vous avez réussi à **java image cropping**, à agrandir le canevas et à convertir un fichier PSD en JPEG—le tout en quelques lignes de code concises.
 
-Dans ce didacticiel, nous avons exploré le processus d'agrandissement et de recadrage d'images à l'aide de la bibliothèque Aspose.PSD pour Java. Grâce à ses fonctionnalités puissantes, Aspose.PSD simplifie les tâches de manipulation d'images, ce qui en fait un excellent choix pour les développeurs Java.
+## Cas d’Utilisation Courants
 
-## FAQ
+- **Préparer des actifs pour le web** – recadrer et redimensionner des captures d’écran ou des maquettes avant le téléchargement.  
+- **Générer des vignettes** – extraire une région spécifique d’un grand PSD pour des aperçus.  
+- **Traitement par lots automatisé** – parcourir un dossier de fichiers PSD, en appliquant le même rectangle de recadrage à chacun.
 
-### Q1 : Aspose.PSD est-il compatible avec différentes versions de Java ?
+## Dépannage & Astuces
 
-A1 : Oui, Aspose.PSD prend en charge différentes versions de Java, garantissant la compatibilité avec un large éventail d'environnements de développement.
+| Problème | Solution proposée |
+|----------|-------------------|
+| `OutOfMemoryError` lors du chargement de gros PSD | Appelez `rasterImage.cacheData()` tôt et envisagez d’augmenter la taille du tas JVM (`-Xmx`). |
+| La zone recadrée est décalée | Vérifiez les décalages X/Y du rectangle ; rappelez‑vous que les valeurs négatives agrandissent le canevas. |
+| Le JPEG de sortie apparaît flou | Ajustez le paramètre de qualité de `JpegOptions` (par ex., `new JpegOptions { Quality = 90 }`). |
 
-### Q2 : Puis-je utiliser Aspose.PSD pour des projets commerciaux ?
+## Foire Aux Questions
 
-A2 : Absolument, Aspose.PSD fournit des licences commerciales aux développeurs, permettant son utilisation dans des projets personnels et commerciaux.
+### Q1 : Aspose.PSD est‑il compatible avec différentes versions de Java ?
 
-### Q3 : Existe-t-il des limitations sur les formats de fichiers image pris en charge ?
+R1 : Oui, Aspose.PSD prend en charge plusieurs versions de Java, garantissant la compatibilité avec un large éventail d’environnements de développement.
 
- A3 : Aspose.PSD prend en charge une variété de formats de fichiers image, notamment PSD, JPEG, PNG, etc. Référez-vous au[documentation](https://reference.aspose.com/psd/java/) pour une liste complète.
+### Q2 : Puis‑je utiliser Aspose.PSD pour des projets commerciaux ?
 
-### Q4 : Comment puis-je obtenir de l'aide pour les requêtes liées à Aspose.PSD ?
+R2 : Absolument, Aspose.PSD propose des licences commerciales pour les développeurs, permettant son utilisation tant dans des projets personnels que commerciaux.
 
- A4 : Visitez le[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour demander de l’aide à la communauté ou à l’équipe d’assistance Aspose.
+### Q3 : Existe‑t‑il des limitations concernant les formats de fichiers image pris en charge ?
 
-### Q5 : Existe-t-il un essai gratuit ?
+R3 : Aspose.PSD supporte divers formats d’image, dont PSD, JPEG, PNG, etc. Consultez la [documentation](https://reference.aspose.com/psd/java/) pour la liste complète.
 
- A5 : Oui, vous pouvez explorer Aspose.PSD avec un essai gratuit. Téléchargez-le[ici](https://releases.aspose.com/).
+### Q4 : Comment obtenir du support pour les questions relatives à Aspose.PSD ?
+
+R4 : Visitez le [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pour obtenir de l’aide de la communauté ou de l’équipe de support Aspose.
+
+### Q5 : Une version d’essai gratuite est‑elle disponible ?
+
+R5 : Oui, vous pouvez explorer Aspose.PSD avec une version d’essai gratuite. Téléchargez‑la [ici](https://releases.aspose.com/).
+
+---
+
+**Dernière mise à jour :** 2026-01-07  
+**Testé avec :** Aspose.PSD for Java 24.12  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

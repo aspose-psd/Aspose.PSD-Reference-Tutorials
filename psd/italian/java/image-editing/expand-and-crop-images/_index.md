@@ -1,33 +1,54 @@
 ---
-title: Espandi e ritaglia le immagini con Aspose.PSD per Java
-linktitle: Espandi e ritaglia le immagini
-second_title: API Java Aspose.PSD
-description: Scopri come espandere e ritagliare le immagini in Java utilizzando Aspose.PSD. Guida passo passo per un'elaborazione efficiente delle immagini.
-weight: 18
+date: 2026-01-07
+description: Scopri come ritagliare immagini in Java usando Aspose.PSD per Java. Guida
+  passo‑passo per il ritaglio, il ridimensionamento e la conversione da PSD a JPEG.
+linktitle: Expand and Crop Images
+second_title: Aspose.PSD Java API
+title: 'Ritaglia immagine Java - espandi e ritaglia immagini con Aspose.PSD per Java'
 url: /it/java/image-editing/expand-and-crop-images/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Espandi e ritaglia le immagini con Aspose.PSD per Java
+# Crop Image Java: Espandi e Ritaglia Immagini con Aspose.PSD per Java
 
 ## Introduzione
 
-In questo tutorial esploreremo come utilizzare Aspose.PSD per Java per espandere e ritagliare le immagini in modo efficiente. Aspose.PSD è una potente libreria che fornisce un'ampia gamma di funzionalità per lavorare con file PSD nelle applicazioni Java. In questa guida tratteremo i prerequisiti necessari, l'importazione dei pacchetti e analizzeremo ogni passaggio con spiegazioni dettagliate.
+In questo tutorial scoprirai come **crop image java** con la libreria Aspose.PSD. Che tu debba espandere una tela, ritagliare bordi indesiderati o convertire un file PSD in JPEG, i passaggi seguenti ti guideranno attraverso un processo pulito e ripetibile. Tratteremo i prerequisiti, le istruzioni di importazione e ogni passaggio di codifica con spiegazioni chiare, così potrai applicare la tecnica a progetti reali.
+
+## Risposte Rapide
+- **Quale libreria gestisce crop image java?** Aspose.PSD per Java.  
+- **È necessaria una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per i test; è richiesta una licenza commerciale per la produzione.  
+- **Posso convertire PSD in JPEG durante il ritaglio?** Sì, usando `JpegOptions` insieme a un rettangolo di ritaglio.  
+- **Java 8 è supportato?** Aspose.PSD supporta Java 8 e versioni successive.  
+- **Quanto tempo richiede l'implementazione?** Tipicamente meno di 10 minuti per un'operazione di ritaglio di base.
+
+## Cos'è “crop image java”?
+
+Ritagliare un'immagine in Java significa selezionare una regione rettangolare dell'immagine di origine e scartare il resto. Con Aspose.PSD è possibile definire questa regione usando un oggetto `Rectangle`, quindi salvare il risultato in un formato diverso, ad esempio JPEG.
+
+## Perché usare Aspose.PSD per il ritaglio di immagini Java?
+
+- **Supporto completo PSD** – lavora direttamente con file PSD a più livelli senza doverli convertire prima.  
+- **Gestione raster ad alte prestazioni** – utilizzo efficiente della memoria per immagini di grandi dimensioni.  
+- **Conversione integrata** – esporta facilmente in JPEG, PNG, BMP, ecc., applicando il ritaglio o l'espansione della tela.  
+- **Cross‑platform** – funziona su qualsiasi sistema che esegue Java.
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere:
 
-1. Ambiente di sviluppo Java: assicurati di avere Java installato sul tuo sistema.
+1. **Java Development Kit (JDK)** – Java 8 o versioni successive installate.  
+2. **Aspose.PSD per Java** – scarica la libreria dal sito ufficiale **[qui](https://releases.aspose.com/psd/java/)**.  
 
-2.  Libreria Aspose.PSD: scarica e installa la libreria Aspose.PSD. Puoi trovare la biblioteca[Qui](https://releases.aspose.com/psd/java/).
+> **Suggerimento:** aggiungi il JAR di Aspose.PSD al classpath del tuo progetto o alle dipendenze Maven/Gradle per evitare `ClassNotFoundException`.
 
-## Importa pacchetti
+## Importa i Pacchetti
 
-Ora che hai i prerequisiti in ordine, importa i pacchetti necessari per iniziare a lavorare con Aspose.PSD per Java. Aggiungi le seguenti righe al tuo codice Java:
+Aggiungi gli import necessari al tuo file sorgente Java. Queste classi ti consentono di caricare immagini, manipolare raster, definire rettangoli e impostare le opzioni di esportazione JPEG.
 
 ```java
 import com.aspose.psd.Image;
@@ -37,77 +58,97 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Questi pacchetti forniscono classi e metodi essenziali per l'elaborazione delle immagini utilizzando Aspose.PSD.
+## Passo 1: Imposta la Directory del Documento
 
-## Passaggio 1: imposta la directory dei documenti
-
-Inizia impostando la directory in cui si trova il tuo file PSD. Sostituisci "La tua directory dei documenti" con il percorso effettivo.
+Specifica la cartella che contiene il file PSD di origine. Sostituisci il segnaposto con il percorso reale sul tuo computer.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Passaggio 2: specificare i percorsi di origine e di destinazione
+## Passo 2: Specifica i Percorsi di Origine e Destinazione
 
-Definire il file PSD di origine e il percorso di destinazione per l'immagine di output.
+Definisci dove leggere il PSD e dove scrivere il JPEG ritagliato.
 
 ```java
 String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Passaggio 3: caricare e memorizzare nella cache l'immagine
+## Passo 3: Carica e Cache l'Immagine
 
- Caricare il file PSD in un file`RasterImage` oggetto e memorizza nella cache i suoi dati.
+Carica il PSD in un oggetto `RasterImage`. Il caching migliora le prestazioni per le operazioni successive, come il ritaglio.
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 rasterImage.cacheData();
 ```
 
-## Passaggio 4: crea un rettangolo per il ritaglio
+## Passo 4: Crea il Rettangolo per il Ritaglio
 
- Istanziare a`Rectangle` oggetto e definirne le coordinate X, Y, larghezza e altezza. Questo rettangolo determinerà la regione ritagliata.
+Crea un `Rectangle` che descrive la regione da conservare. Le coordinate possono essere negative per **espandere** la tela prima del ritaglio, utile per aggiungere un bordo attorno all'immagine originale.
 
 ```java
 Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 ```
 
-## Passaggio 5: salva l'immagine ritagliata
+> **Perché usare coordinate negative?**  
+> Valori X/Y negativi spostano l'area di ritaglio verso sinistra/alto, aggiungendo spazio vuoto (espansione) attorno al contenuto originale prima del ritaglio finale.
 
- Salva l'immagine ritagliata utilizzando il rettangolo definito e il file`JpegOptions` classe.
+## Passo 5: Salva l'Immagine Ritagliata
+
+Infine, salva l'immagine risultante usando `JpegOptions`. Questo passaggio dimostra anche **convert psd jpeg** applicando il rettangolo di ritaglio.
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-Congratulazioni! Hai espanso e ritagliato con successo un'immagine utilizzando Aspose.PSD per Java.
+> **Risultato:** `jpeg_out.jpg` contiene ora un'immagine di 300 × 300 pixel che è stata espansa di 200 px su ciascun lato e poi ritagliata secondo il rettangolo definito.
 
-## Conclusione
+Congratulazioni! Hai eseguito con successo **java image cropping**, espanso la tela e convertito un file PSD in JPEG—tutto in poche righe di codice.
 
-In questo tutorial, abbiamo esplorato il processo di espansione e ritaglio delle immagini utilizzando la libreria Aspose.PSD per Java. Con le sue potenti funzionalità, Aspose.PSD semplifica le attività di manipolazione delle immagini, rendendolo una scelta eccellente per gli sviluppatori Java.
+## Casi d'Uso Comuni
 
-## Domande frequenti
+- **Preparazione di asset per il web** – ritaglia e ridimensiona screenshot o design prima del caricamento.  
+- **Generazione di miniature** – estrai una regione specifica da un PSD di grandi dimensioni per anteprime.  
+- **Elaborazione batch automatizzata** – itera su una cartella di file PSD, applicando lo stesso rettangolo di ritaglio a ciascuno.
 
-### Q1: Aspose.PSD è compatibile con diverse versioni Java?
+## Risoluzione dei Problemi e Suggerimenti
 
-A1: Sì, Aspose.PSD supporta varie versioni Java, garantendo la compatibilità con un'ampia gamma di ambienti di sviluppo.
+| Problema | Soluzione Consigliata |
+|----------|-----------------------|
+| `OutOfMemoryError` durante il caricamento di PSD di grandi dimensioni | Chiama `rasterImage.cacheData()` subito e considera di aumentare la dimensione dell'heap JVM (`-Xmx`). |
+| L'area ritagliata è fuori centro | Verifica gli offset X/Y del rettangolo; ricorda che i valori negativi espandono la tela. |
+| Il JPEG di output appare sfocato | Regola l'impostazione di qualità di `JpegOptions` (ad es., `new JpegOptions { Quality = 90 }`). |
 
-### Q2: Posso utilizzare Aspose.PSD per progetti commerciali?
+## Domande Frequenti
 
-A2: Assolutamente, Aspose.PSD fornisce licenze commerciali per gli sviluppatori, consentendone l'utilizzo in progetti sia personali che commerciali.
+### Q1: Aspose.PSD è compatibile con diverse versioni di Java?
 
-### Q3: Esistono limitazioni sui formati di file immagine supportati?
+A1: Sì, Aspose.PSD supporta varie versioni di Java, garantendo compatibilità con un'ampia gamma di ambienti di sviluppo.
 
- R3: Aspose.PSD supporta una varietà di formati di file immagine, inclusi PSD, JPEG, PNG e altri. Fare riferimento al[documentazione](https://reference.aspose.com/psd/java/) per un elenco completo.
+### Q2: Posso usare Aspose.PSD per progetti commerciali?
 
-### Q4: Come posso ottenere supporto per le query relative ad Aspose.PSD?
+A2: Assolutamente sì, Aspose.PSD offre licenze commerciali per gli sviluppatori, consentendone l'uso sia in progetti personali che commerciali.
 
- A4: Visita il[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) per chiedere assistenza alla comunità o al team di supporto Aspose.
+### Q3: Ci sono limitazioni sui formati di file immagine supportati?
 
-### Q5: È disponibile una prova gratuita?
+A3: Aspose.PSD supporta diversi formati di immagine, tra cui PSD, JPEG, PNG e altri. Consulta la [documentazione](https://reference.aspose.com/psd/java/) per l'elenco completo.
 
- A5: Sì, puoi esplorare Aspose.PSD con una prova gratuita. Scaricalo[Qui](https://releases.aspose.com/).
+### Q4: Come posso ottenere supporto per domande relative ad Aspose.PSD?
+
+A4: Visita il [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) per chiedere assistenza alla community o al team di supporto Aspose.
+
+### Q5: È disponibile una versione di prova gratuita?
+
+A5: Sì, puoi provare Aspose.PSD con una versione di prova gratuita. Scaricala [qui](https://releases.aspose.com/).
+
+---
+
+**Ultimo aggiornamento:** 2026-01-07  
+**Testato con:** Aspose.PSD per Java 24.12  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

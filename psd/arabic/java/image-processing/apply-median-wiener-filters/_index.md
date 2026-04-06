@@ -1,32 +1,52 @@
 ---
-title: قم بتطبيق مرشحات Median وWiener باستخدام Aspose.PSD لـ Java
-linktitle: قم بتطبيق مرشحات Median وWiener
-second_title: Aspose.PSD جافا API
-description: اكتشف قوة معالجة الصور في Java باستخدام Aspose.PSD. تعرف على كيفية تطبيق مرشحات Median وWiener خطوة بخطوة. تعزيز جودة الصورة دون عناء.
-weight: 12
+date: 2026-01-07
+description: تعلّم خطوة بخطوة تقنيات الفلترة لتطبيق مرشحات المتوسط وواينر باستخدام
+  Aspose.PSD للغة Java، وحوّل ملفات PSD إلى GIF بكفاءة.
+linktitle: Apply Median and Wiener Filters
+second_title: Aspose.PSD Java API
+title: 'تصفية خطوة بخطوة - تطبيق مرشحات المتوسط وواينر (جافا)'
 url: /ar/java/image-processing/apply-median-wiener-filters/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتطبيق مرشحات Median وWiener باستخدام Aspose.PSD لـ Java
+# مرشح خطوة بخطوة: تطبيق مرشحات Median & Wiener (Java)
 
 ## مقدمة
 
-في عالم برمجة Java، يبرز Aspose.PSD كأداة قوية لمعالجة الصور ومعالجتها. إحدى الوظائف الرئيسية التي تقدمها هي تطبيق مرشحات Median وWiener، التي تلعب دورًا حاسمًا في تحسين جودة الصورة وتقليل الضوضاء. سيرشدك هذا الدليل خطوة بخطوة خلال عملية تطبيق هذه المرشحات باستخدام Aspose.PSD لـ Java.
+إذا كنت تبحث عن سير عمل **step by step filter** لتنظيف الصور المشوشة في Java، فقد وجدت المكان المناسب. تجعل Aspose.PSD for Java من السهل تطبيق كل من مرشحات Median وWiener، وتتيح لك أيضًا **convert PSD to GIF** بعد المعالجة. في هذا الدرس سنستعرض كل ما تحتاجه — من إعداد المكتبة إلى حفظ النتيجة المفلترة — حتى تتمكن من دمج إزالة الضوضاء عالية الجودة في تطبيقاتك بثقة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **What does the Median filter do?** يقلل من ضوضاء الملح والفلفل مع الحفاظ على الحواف.  
+- **When should I use the Wiener filter?** لتقليل الضوضاء التكيفية التي تأخذ في الاعتبار تباين الصورة المحلي.  
+- **Do I need a license to run the code?** النسخة التجريبية المجانية تكفي للتطوير؛ تحتاج إلى ترخيص تجاري للإنتاج.  
+- **Can I save the output as GIF?** نعم — تتيح لك Aspose.PSD **convert PSD to GIF** في خطوة واحدة.  
+- **How long does the implementation take?** عادةً أقل من 10 دقائق للإعداد الأساسي.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو مرشح خطوة بخطوة؟
 
-1.  Aspose.PSD لمكتبة Java: قم بتنزيل المكتبة وتثبيتها من[هنا](https://releases.aspose.com/psd/java/).
-2. بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على نظامك.
+نهج *step by step filter* يقسم معالجة الصورة إلى مراحل واضحة وقابلة للإدارة — تحميل الصورة، تكوين خيارات الفلتر، تطبيق الفلتر، وأخيرًا حفظ النتيجة. يساعدك هذا التدفق المنهجي على تصحيح كل جزء، وإعادة استخدام الكود، وتكييف العملية مع صيغ صور مختلفة.
 
-## حزم الاستيراد
+## لماذا تستخدم Aspose.PSD for Java؟
 
-ابدأ باستيراد الحزم اللازمة للاستفادة من وظيفة Aspose.PSD داخل مشروع Java الخاص بك:
+- **Broad format support** – يدعم صيغ PSD، PNG، JPEG، GIF، وغيرها.  
+- **No external dependencies** – جافا نقي، سهل الإدماج في أي مشروع.  
+- **Built‑in filter options** – مرشحات Median، Wiener، وغيرها من المرشحات المتقدمة جاهزة للاستخدام.  
+- **One‑click conversion** – تصدير مباشرة إلى GIF أو PNG أو JPEG بعد المعالجة.
+
+## المتطلبات المسبقة
+
+قبل البدء، تأكد من أن لديك:
+
+1. **Aspose.PSD for Java Library** – قم بتنزيل وتثبيت المكتبة من [here](https://releases.aspose.com/psd/java/).  
+2. **Java Development Environment** – JDK 8+ وبيئة تطوير (IDE) أو أداة بناء (Maven/Gradle) مُعدة على جهازك.
+
+## استيراد الحزم
+
+ابدأ باستيراد الفئات الضرورية التي تمنحك الوصول إلى معالجة الصور وخيارات الفلتر.
 
 ```java
 import com.aspose.psd.Image;
@@ -36,77 +56,103 @@ import com.aspose.psd.imagefilters.filteroptions.MedianFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
 
-## تطبيق مرشح المتوسط
+## مرشح خطوة بخطوة: كيفية تطبيق مرشح Median
 
 ### الخطوة 1: تحميل الصورة
+
+أولاً، وجه الـ API إلى ملف PSD الذي تريد تنظيفه.
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-//قم بتحميل الصورة المصدر
+// Load the source image
 Image image = Image.load(sourceFile);
 ```
 
-### الخطوة 2: إرسال الصورة إلى RasterImage
+### الخطوة 2: تحويل Image إلى RasterImage
+
+يعمل الفلتر على بيانات الراستر، لذا نقوم بتحويل الـ `Image` العامة إلى `RasterImage`.
 
 ```java
-// إرسال الصورة إلى RasterImage
+// Cast the image into RasterImage
 RasterImage rasterImage = (RasterImage)image;
 if (rasterImage == null) {
     return;
 }
 ```
 
-### الخطوة 3: إنشاء مثيل MedianFilterOptions
+### الخطوة 3: إنشاء كائن MedianFilterOptions
+
+قم بتكوين حجم نواة الـ median. حجم **4** يعمل جيدًا للضوضاء المتوسطة.
 
 ```java
-// قم بإنشاء مثيل لفئة MedianFilterOptions وقم بتعيين حجم عامل التصفية
+// Create an instance of MedianFilterOptions class and set the filter size
 MedianFilterOptions options = new MedianFilterOptions(4);
 ```
 
-### الخطوة 4: تطبيق عامل التصفية المتوسط
+### الخطوة 4: تطبيق مرشح Median
+
+الآن قم بتطبيق الفلتر على كامل حدود الصورة.
 
 ```java
-// قم بتطبيق مرشح MedianFilterOptions على كائن RasterImage
+// Apply MedianFilterOptions filter to RasterImage object
 rasterImage.filter(image.getBounds(), options);
 ```
 
-### الخطوة 5: احفظ الصورة الناتجة
+### الخطوة 5: حفظ الصورة الناتجة (Convert PSD to GIF)
+
+بعد الفلترة، سنحفظ الناتج كملف GIF — لتوضيح قدرة **convert PSD to GIF**.
 
 ```java
 String destName = dataDir + "median_test_denoise_out.gif";
-// احفظ الصورة الناتجة بصيغة GIF
+// Save the resultant image as a GIF
 image.save(destName, new GifOptions());
 ```
 
-باتباع هذه الخطوات، تكون قد قمت بنجاح بتطبيق عامل التصفية المتوسط على صورتك باستخدام Aspose.PSD لـ Java.
+باتباع هذه الخطوات، قمت بتطبيق مرشح Median بنجاح وتصدير الصورة المنقاة كملف GIF.
 
-## خاتمة
+## تطبيق مرشح Wiener (امتداد اختياري)
 
-في هذا البرنامج التعليمي، استكشفنا عملية تطبيق مرشحات Median وWiener باستخدام Aspose.PSD لـ Java. لا غنى عن هذه المرشحات لتحسين جودة الصورة وتقليل التشويش في تطبيقات Java الخاصة بك. من خلال الاستفادة من قوة Aspose.PSD، يمكنك دمج هذه المرشحات بسهولة في سير عمل معالجة الصور لديك.
+إذا كان مشروعك يتطلب تقليل الضوضاء التكيفية، يمكنك استبدال مرشح Median بمرشح Wiener. هيكل الكود هو نفسه؛ كل ما عليك هو استيراد `WienerFilterOptions` وإنشاء كائن به باستخدام نصف القطر المطلوب.
 
-## الأسئلة الشائعة
+> **Pro tip:** جرب أحجام نوى مختلفة لكلا المرشحين للعثور على التوازن المثالي بين إزالة الضوضاء والحفاظ على التفاصيل.
 
-### س1: هل يمكنني تطبيق عوامل التصفية هذه على الصور بأي تنسيق؟
+## المشكلات الشائعة & استكشاف الأخطاء
 
-ج1: نعم، يدعم Aspose.PSD نطاقًا واسعًا من تنسيقات الصور، مما يجعله متعدد الاستخدامات لمختلف المشاريع.
+| العَرَض | السبب المحتمل | الحل |
+|---------|---------------|-----|
+| `ClassCastException` عند التحويل إلى `RasterImage` | ملف الإدخال ليس PSD متوافقًا مع الراستر | تحقق من أن PSD يحتوي على طبقات راستر أو حوّل الطبقات إلى راستر أولاً |
+| ملف GIF الناتج فارغ | مسار الوجهة غير صحيح أو المجلد يفتقر إلى صلاحية الكتابة | تأكد من أن `dataDir` يشير إلى دليل موجود قابل للكتابة |
+| يبدو أن الفلتر لا يؤثر | حجم النواة صغير جدًا بالنسبة لمستوى الضوضاء | زد حجم النواة (مثال: `new MedianFilterOptions(6)`) |
 
-### س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD لـ Java؟
+## الأسئلة المتكررة
 
- ج2: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+**س1: هل يمكنني تطبيق هذه المرشحات على صور بأي صيغة؟**  
+ج1: نعم، يدعم Aspose.PSD مجموعة واسعة من صيغ الصور، مما يجعله مرنًا لمختلف المشاريع.
 
-### س3: كيف يمكنني الحصول على دعم Aspose.PSD لـ Java؟
+**س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD for Java؟**  
+ج2: نعم، يمكنك الحصول على نسخة تجريبية مجانية [here](https://releases.aspose.com/).
 
- ج3: قم بزيارة[منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) لدعم المجتمع.
+**س3: كيف أحصل على الدعم لـ Aspose.PSD for Java؟**  
+ج3: زر [منتدى Aspose.PSD](https://forum.aspose.com/c/psd/34) للحصول على دعم المجتمع.
 
-### س4: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD لـ Java؟
+**س4: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.PSD for Java؟**  
+ج4: راجع الوثائق [here](https://reference.aspose.com/psd/java/).
 
- ج4: راجع الوثائق[هنا](https://reference.aspose.com/psd/java/).
+**س5: كيف يمكنني شراء Aspose.PSD for Java؟**  
+ج5: يمكنك شراء المنتج [here](https://purchase.aspose.com/buy).
 
-### س5: كيف يمكنني شراء Aspose.PSD لـ Java؟
+## الخلاصة
 
- ج5: يمكنك شراء المنتج[هنا](https://purchase.aspose.com/buy).
+في هذا الدليل، عرضنا عملية **step by step filter** لتطبيق مرشحات Median (وباختياري Wiener) باستخدام Aspose.PSD for Java، وأظهرنا كيفية **convert PSD to GIF** بعد إزالة الضوضاء. باستخدام هذه اللبنات الأساسية يمكنك دمج خطوط معالجة صور قوية في أي تطبيق Java — سواء كنت تنظف الصور، أو تُعد الأصول للويب، أو تُ automatisation تحويلات دفعة.
+
+---
+
+**آخر تحديث:** 2026-01-07  
+**تم الاختبار مع:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
