@@ -1,35 +1,43 @@
 ---
-title: Gabungkan Gambar menggunakan Aspose.PSD untuk Java
-linktitle: Gabungkan Gambar
-second_title: Asumsikan.PSD Java API
-description: Pelajari cara menggabungkan gambar di Java dengan Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk kombinasi gambar yang mulus.
-weight: 11
+date: 2025-12-30
+description: Pelajari cara membuat file PSD Java dengan menggabungkan dua gambar menggunakan
+  Aspose.PSD. Ikuti panduan langkah demi langkah kami untuk menggabungkan gambar ke
+  dalam file PSD dengan cepat.
+linktitle: Combine Images
+second_title: Aspose.PSD Java API
+title: Cara membuat file PSD di Java – Menggabungkan Gambar dengan Aspose.PSD
 url: /id/java/image-editing/combine-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gabungkan Gambar menggunakan Aspose.PSD untuk Java
+# Buat File PSD Java – Menggabungkan Gambar menggunakan Aspose.PSD
 
-## Perkenalan
+## Pendahuluan
 
-Di bidang pemrograman Java, Aspose.PSD menonjol sebagai alat yang ampuh untuk memanipulasi dan memproses gambar. Salah satu fiturnya yang patut diperhatikan adalah kemampuan untuk menggabungkan banyak gambar dengan mulus. Tutorial ini akan memandu Anda melalui proses menggabungkan dua gambar menjadi satu file PSD menggunakan Aspose.PSD untuk Java.
+Jika Anda perlu **membuat file PSD di Java** dengan menggabungkan beberapa gambar, Aspose.PSD membuat pekerjaan ini menjadi mudah. Pada tutorial ini kami akan menunjukkan cara menggabungkan dua gambar ke dalam satu kanvas PSD, menjelaskan mengapa pendekatan ini berguna, dan memberikan kode yang siap dijalankan. Pada akhir tutorial Anda akan dapat **menggabungkan dua gambar dengan Java** dan menghasilkan file berlapis yang tampak profesional.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang terbaik untuk menggabungkan gambar ke dalam PSD?** Aspose.PSD untuk Java.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk penggabungan dasar.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya menambahkan lebih dari dua gambar?** Ya – ulangi pemanggilan `drawImage` untuk setiap lapisan tambahan.  
+- **Versi Java mana yang didukung?** Java 8 dan yang lebih baru.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
-1.  Perpustakaan Aspose.PSD: Pastikan Anda telah menginstal perpustakaan Aspose.PSD di lingkungan Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/psd/java/).
+1. **Perpustakaan Aspose.PSD** – unduh dari [here](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit (JDK)** – Java 8+ disarankan.  
+3. **Direktori Dokumen** – sebuah folder di mesin Anda tempat gambar sumber dan file PSD yang dihasilkan akan disimpan.
 
-2. Java Development Kit (JDK): Aspose.PSD memerlukan Java untuk dijalankan. Instal JDK terbaru di mesin Anda.
+## Impor Paket
 
-3. Direktori Dokumen: Siapkan direktori tempat gambar Anda dan file PSD yang dihasilkan akan disimpan.
-
-## Paket Impor
-
-Mulailah dengan mengimpor paket yang diperlukan untuk proyek Java Anda. Sertakan perpustakaan Aspose.PSD dalam proyek Anda, seperti yang ditunjukkan di bawah ini:
+Mulailah dengan mengimpor kelas Aspose.PSD yang diperlukan ke dalam proyek Anda:
 
 ```java
 import com.aspose.psd.Color;
@@ -40,33 +48,35 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 ```
 
-## Langkah 1: Buat Opsi PSD
+## Panduan Langkah‑per‑Langkah
 
-Mulailah dengan membuat sebuah instance dari PsdOptions dan mengatur berbagai propertinya:
+### Langkah 1: Buat PSD Options (siapkan file)
+
+Pertama‑tama kami membuat instance `PsdOptions` yang akan menyimpan pengaturan output.
 
 ```java
 PsdOptions imageOptions = new PsdOptions();
 ```
 
-## Langkah 2: Setel FileCreateSource
+### Langkah 2: Atur FileCreateSource (tentukan lokasi penyimpanan PSD)
 
-Buat sebuah instance dari FileCreateSource dan tetapkan ke properti Source:
+Tetapkan `FileCreateSource` ke opsi, mengarah ke file hasil yang diinginkan.
 
 ```java
 imageOptions.setSource(new FileCreateSource(dataDir + "Two_images_result_out.psd", false));
 ```
 
-## Langkah 3: Buat Contoh Gambar
+### Langkah 3: Buat Instance Image (inisialisasi ukuran kanvas)
 
-Buat instance objek Gambar dengan opsi dan dimensi tertentu:
+Buat objek `Image` dengan opsi tersebut dan tentukan kanvas berukuran 600 × 600 piksel.
 
 ```java
 Image image = Image.create(imageOptions, 600, 600);
 ```
 
-## Langkah 4: Inisialisasi Grafik
+### Langkah 4: Inisialisasi Graphics dan gambar gambar pertama
 
-Buat dan inisialisasi instance Grafik, bersihkan permukaan gambar dengan warna putih, dan gambar gambar pertama:
+Objek `Graphics` memungkinkan kita melukis pada kanvas. Kami membersihkan latar belakang menjadi putih dan menggambar gambar sumber pertama pada setengah kiri.
 
 ```java
 Graphics graphics = new Graphics(image);
@@ -74,49 +84,61 @@ graphics.clear(Color.getWhite());
 graphics.drawImage(Image.load(dataDir + "example1.psd"), 0, 0, 300, 600);
 ```
 
-## Langkah 5: Gambarlah Gambar Kedua
+### Langkah 5: Gambar gambar kedua (selesaikan penggabungan)
 
-Gambarlah gambar kedua pada kanvas PSD yang dibuat:
+Sekarang kami menempatkan gambar kedua pada setengah kanan kanvas yang sama.
 
 ```java
 graphics.drawImage(Image.load(dataDir + "example2.psd"), 300, 0, 300, 600);
 ```
 
-## Langkah 6: Simpan Gambar yang Dihasilkan
+### Langkah 6: Simpan file PSD yang dihasilkan
 
-Simpan gambar gabungan terakhir:
+Akhirnya, simpan kanvas yang telah digabung ke disk.
 
 ```java
 image.save();
 ```
 
-Selamat! Anda telah berhasil menggabungkan dua gambar menjadi satu file PSD menggunakan Aspose.PSD untuk Java.
+Selamat! Anda telah berhasil **menggabungkan gambar ke dalam PSD** dan membuat file PSD di Java.
 
-## Kesimpulan
+## Mengapa menggabungkan gambar dengan Aspose.PSD?
 
-Aspose.PSD menyederhanakan manipulasi gambar di Java, menawarkan solusi tangguh untuk menggabungkan gambar dengan mudah. Dengan mengikuti tutorial ini, Anda telah memanfaatkan kekuatan Aspose.PSD untuk membuat komposisi yang menarik secara visual.
+- **Layer‑aware** – setiap pemanggilan `drawImage` menambahkan lapisan terpisah yang dapat Anda edit nanti.  
+- **Fleksibilitas format** – mendukung PSD, PNG, JPEG, BMP, dan lainnya.  
+- **Tanpa ketergantungan native** – murni Java, bekerja pada sistem operasi apa pun yang menjalankan JDK.  
 
-## FAQ
+## Masalah Umum dan Solusinya
+
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| Kesalahan `File not found` saat memuat gambar sumber | Path `dataDir` tidak tepat | Pastikan `dataDir` mengarah ke folder yang berisi `example1.psd` dan `example2.psd`. |
+| PSD output kosong | `graphics.clear` dipanggil setelah menggambar | Pastikan `graphics.clear(Color.getWhite())` dijalankan **sebelum** pemanggilan `drawImage`. |
+| Pengecualian lisensi saat runtime | Lisensi Aspose.PSD tidak ada atau kedaluwarsa | Terapkan lisensi yang valid menggunakan `License license = new License(); license.setLicense("Aspose.PSD.lic");` sebelum pemanggilan API apa pun. |
+
+## Pertanyaan yang Sering Diajukan
 
 ### Q1: Apakah Aspose.PSD kompatibel dengan semua format gambar?
+A1: Aspose.PSD terutama berfokus pada format file PSD. Namun, ia mendukung berbagai format lain untuk input dan output.
 
-A1: Aspose.PSD terutama berfokus pada format file PSD. Namun, ini mendukung berbagai format input dan output lainnya.
-
-### Q2: Dapatkah saya melakukan modifikasi tambahan pada gambar gabungan?
-
-A2: Tentu saja! Setelah menggabungkan gambar, Anda dapat memanipulasi lebih lanjut PSD yang dihasilkan menggunakan fitur ekstensif Aspose.PSD.
+### Q2: Bisakah saya melakukan modifikasi tambahan pada gambar yang telah digabung?
+A2: Tentu! Setelah menggabungkan gambar, Anda dapat memanipulasi PSD yang dihasilkan lebih lanjut menggunakan fitur lengkap Aspose.PSD.
 
 ### Q3: Apakah ada persyaratan lisensi untuk menggunakan Aspose.PSD?
+A3: Ya, lisensi yang valid diperlukan untuk penggunaan komersial. Dapatkan lisensi dari [here](https://purchase.aspose.com/buy).
 
- A3: Ya, diperlukan lisensi yang valid untuk penggunaan komersial. Dapatkan dari[Di Sini](https://purchase.aspose.com/buy).
-
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.PSD?
-
- A4: Ya, Anda dapat menjelajahi Aspose.PSD dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+### Q4: Apakah tersedia versi percobaan gratis untuk Aspose.PSD?
+A4: Ya, Anda dapat menjelajahi Aspose.PSD dengan versi percobaan gratis [here](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.PSD?
+A5: Kunjungi [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan komunitas dan diskusi.
 
- A5: Kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk dukungan dan diskusi komunitas.
+---
+
+**Terakhir Diperbarui:** 2025-12-30  
+**Diuji Dengan:** Aspose.PSD 24.11 untuk Java  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

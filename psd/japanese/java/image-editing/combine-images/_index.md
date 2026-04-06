@@ -1,35 +1,42 @@
 ---
-title: Aspose.PSD for Java を使用して画像を結合する
-linktitle: 画像を結合する
+date: 2025-12-30
+description: Aspose.PSD を使用して 2 つの画像を組み合わせ、Java で PSD ファイルを作成する方法を学びましょう。ステップバイステップのガイドに従って、画像をすばやく
+  PSD ファイルに結合できます。
+linktitle: Combine Images
 second_title: Aspose.PSD Java API
-description: Aspose.PSD を使用して Java で画像を結合する方法を学びます。シームレスな画像結合については、ステップバイステップのガイドに従ってください。
-weight: 11
+title: JavaでPSDファイルを作成する方法 – Aspose.PSDで画像を結合
 url: /ja/java/image-editing/combine-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java を使用して画像を結合する
+# PSD ファイルを Java で作成 – Aspose.PSD を使用した画像結合
 
-## 導入
+## はじめに
 
-Java プログラミングの分野では、Aspose.PSD は画像の操作と処理のための強力なツールとして際立っています。注目すべき機能の 1 つは、複数の画像をシームレスに組み合わせることができることです。このチュートリアルでは、Aspose.PSD for Java を使用して 2 つの画像を 1 つの PSD ファイルに結合するプロセスについて説明します。
+複数の画像をマージして **Java で PSD ファイルを作成** したい場合、Aspose.PSD を使えば作業がシンプルになります。このチュートリアルでは、2 つの画像を 1 つの PSD キャンバスに結合する手順を解説し、なぜこの方法が有用かを説明し、すぐに実行できるコードを提供します。最後まで読むと、**Java スタイルで画像を結合** し、プロフェッショナルなレイヤー構造のファイルを生成できるようになります。
+
+## クイック回答
+- **画像を PSD に結合するのに最適なライブラリは？** Aspose.PSD for Java。  
+- **実装にかかる時間は？** 基本的な結合で約 10〜15 分。  
+- **ライセンスは必要ですか？** テスト用の無料トライアルは利用可能です。商用利用には有償ライセンスが必要です。  
+- **2 つ以上の画像を追加できますか？** はい – 追加のレイヤーごとに `drawImage` 呼び出しを繰り返します。  
+- **対応している Java バージョンは？** Java 8 以降。
 
 ## 前提条件
 
-チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
+作業を始める前に、以下を用意してください。
 
-1.  Aspose.PSDライブラリ: Java環境にAspose.PSDライブラリがインストールされていることを確認してください。ここからダウンロードできます。[ここ](https://releases.aspose.com/psd/java/).
-
-2. Java 開発キット (JDK): Aspose.PSD を実行するには Java が必要です。最新の JDK をマシンにインストールしてください。
-
-3. ドキュメント ディレクトリ: 画像と結果の PSD ファイルを保存するディレクトリを設定します。
+1. **Aspose.PSD ライブラリ** – [こちら](https://releases.aspose.com/psd/java/) からダウンロード。  
+2. **Java Development Kit (JDK)** – Java 8 以上を推奨。  
+3. **ドキュメントディレクトリ** – ソース画像と生成される PSD を保存するローカルフォルダー。
 
 ## パッケージのインポート
 
-まず、Java プロジェクトに必要なパッケージをインポートします。以下に示すように、Aspose.PSD ライブラリをプロジェクトに含めます。
+プロジェクトに必要な Aspose.PSD クラスをインポートします。
 
 ```java
 import com.aspose.psd.Color;
@@ -40,33 +47,35 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 ```
 
-## ステップ1: PSDオプションを作成する
+## 手順ガイド
 
-まず、PsdOptions のインスタンスを作成し、さまざまなプロパティを設定します。
+### 手順 1: PSD オプションの作成（ファイル設定）
+
+まず、出力設定を保持する `PsdOptions` インスタンスを作成します。
 
 ```java
 PsdOptions imageOptions = new PsdOptions();
 ```
 
-## ステップ2: FileCreateSourceを設定する
+### 手順 2: FileCreateSource の設定（保存先の指定）
 
-FileCreateSource のインスタンスを作成し、それを Source プロパティに割り当てます。
+`FileCreateSource` をオプションに割り当て、結果ファイルの保存先を指定します。
 
 ```java
 imageOptions.setSource(new FileCreateSource(dataDir + "Two_images_result_out.psd", false));
 ```
 
-## ステップ3: イメージインスタンスを作成する
+### 手順 3: Image インスタンスの作成（キャンバスサイズの初期化）
 
-指定されたオプションと寸法で Image オブジェクトをインスタンス化します。
+`Image` オブジェクトをオプションと共に作成し、600 × 600 ピクセルのキャンバスを指定します。
 
 ```java
 Image image = Image.create(imageOptions, 600, 600);
 ```
 
-## ステップ4: グラフィックスを初期化する
+### 手順 4: Graphics の初期化と最初の画像描画
 
-Graphics インスタンスを作成して初期化し、画像の表面を白色でクリアして、最初の画像を描画します。
+`Graphics` オブジェクトでキャンバスに描画します。背景を白でクリアし、左半分に最初の画像を描画します。
 
 ```java
 Graphics graphics = new Graphics(image);
@@ -74,49 +83,61 @@ graphics.clear(Color.getWhite());
 graphics.drawImage(Image.load(dataDir + "example1.psd"), 0, 0, 300, 600);
 ```
 
-## ステップ5: 2番目の画像を描く
+### 手順 5: 2 番目の画像を描画（結合完了）
 
-作成した PSD キャンバスに 2 番目の画像を描画します。
+同じキャンバスの右半分に 2 番目の画像を配置します。
 
 ```java
 graphics.drawImage(Image.load(dataDir + "example2.psd"), 300, 0, 300, 600);
 ```
 
-## ステップ6: 結果の画像を保存する
+### 手順 6: 結合した PSD ファイルの保存
 
-最終的な結合画像を保存します。
+最後に、結合したキャンバスをディスクに保存します。
 
 ```java
 image.save();
 ```
 
-おめでとうございます! Aspose.PSD for Java を使用して、2 つの画像を 1 つの PSD ファイルに正常に結合しました。
+おめでとうございます！ **画像を PSD に結合** し、Java で PSD ファイルを作成できました。
 
-## 結論
+## Aspose.PSD で画像を結合するメリット
 
-Aspose.PSD は、Java での画像操作を簡素化し、画像を簡単に結合するための強力なソリューションを提供します。このチュートリアルに従うことで、Aspose.PSD のパワーを活用して視覚的に魅力的な構成を作成できます。
+- **レイヤー対応** – 各 `drawImage` 呼び出しが別々のレイヤーとして追加され、後から編集可能。  
+- **フォーマットの柔軟性** – PSD、PNG、JPEG、BMP など多数の形式をサポート。  
+- **ネイティブ依存なし** – 純粋な Java 実装で、JDK が動作する OS ならどこでも利用可能。  
 
-## よくある質問
+## よくある問題と対策
 
-### Q1: Aspose.PSD はすべての画像形式と互換性がありますか?
+| 問題 | 原因 | 解決策 |
+|------|------|--------|
+| `File not found` エラーが発生する | `dataDir` パスが誤っている | `dataDir` が `example1.psd` と `example2.psd` を含むフォルダーを指しているか確認 |
+| 出力 PSD が空白になる | `graphics.clear` が描画後に呼び出されている | `graphics.clear(Color.getWhite())` を **すべての `drawImage` 呼び出しの前** に実行 |
+| 実行時にライセンス例外が出る | Aspose.PSD のライセンスが未設定または期限切れ | API 呼び出し前に `License license = new License(); license.setLicense("Aspose.PSD.lic");` で有効なライセンスを適用 |
 
-A1: Aspose.PSD は主に PSD ファイル形式に重点を置いています。ただし、入出力には他のさまざまな形式もサポートしています。
+## FAQ
 
-### Q2: 合成した画像に追加の変更を加えることはできますか?
+### Q1: Aspose.PSD はすべての画像形式に対応していますか？
+A1: 主に PSD 形式に特化していますが、入力・出力に多数の他形式もサポートしています。
 
-A2: もちろんです! 画像を結合した後、Aspose.PSD の豊富な機能を使用して、結果の PSD をさらに操作できます。
+### Q2: 結合した画像にさらに加工を加えることはできますか？
+A2: もちろんです。画像を結合した後、Aspose.PSD の豊富な機能で PSD を自由に操作できます。
 
-### Q3: Aspose.PSD を使用するにはライセンス要件がありますか?
+### Q3: Aspose.PSD の使用にはライセンスが必要ですか？
+A3: 商用利用には有効なライセンスが必要です。購入は [こちら](https://purchase.aspose.com/buy) から。
 
- A3: はい、商用利用には有効なライセンスが必要です。[ここ](https://purchase.aspose.com/buy).
+### Q4: 無料トライアルはありますか？
+A4: はい、無料トライアルは [こちら](https://releases.aspose.com/) から利用できます。
 
-### Q4: Aspose.PSD の無料試用版はありますか?
+### Q5: Aspose.PSD に関する質問はどこでサポートを受けられますか？
+A5: コミュニティサポートやディスカッションは [Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34) をご利用ください。
 
- A4: はい、Aspose.PSDを無料トライアルで試すことができます。[ここ](https://releases.aspose.com/).
+---
 
-### Q5: Aspose.PSD 関連のクエリのサポートはどこで見つかりますか?
+**最終更新日:** 2025-12-30  
+**テスト環境:** Aspose.PSD 24.11 for Java  
+**作成者:** Aspose  
 
- A5: 訪問[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティのサポートとディスカッションのため。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

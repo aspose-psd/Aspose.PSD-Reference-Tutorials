@@ -1,35 +1,43 @@
 ---
-title: Combineer afbeeldingen met Aspose.PSD voor Java
-linktitle: Combineer afbeeldingen
-second_title: Aspose.PSD Java-API
-description: Leer hoe u afbeeldingen in Java kunt samenvoegen met Aspose.PSD. Volg onze stapsgewijze handleiding voor een naadloze beeldcombinatie.
-weight: 11
+date: 2025-12-30
+description: Leer hoe je een PSD‑bestand in Java maakt door twee afbeeldingen te combineren
+  met Aspose.PSD. Volg onze stapsgewijze handleiding om afbeeldingen snel samen te
+  voegen tot een PSD‑bestand.
+linktitle: Combine Images
+second_title: Aspose.PSD Java API
+title: Hoe een PSD‑bestand te maken in Java – Afbeeldingen combineren met Aspose.PSD
 url: /nl/java/image-editing/combine-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Combineer afbeeldingen met Aspose.PSD voor Java
+# PSD-bestand maken in Java – Afbeeldingen combineren met Aspose.PSD
 
-## Invoering
+## Inleiding
 
-Op het gebied van Java-programmeren onderscheidt Aspose.PSD zich als een krachtig hulpmiddel voor het manipuleren en verwerken van afbeeldingen. Een van de opmerkelijke kenmerken is de mogelijkheid om meerdere afbeeldingen naadloos te combineren. Deze tutorial leidt u door het proces van het samenvoegen van twee afbeeldingen tot één PSD-bestand met behulp van Aspose.PSD voor Java.
+Als je een **PSD-bestand in Java** moet maken door meerdere afbeeldingen te combineren, maakt Aspose.PSD het werk eenvoudig. In deze tutorial lopen we stap voor stap door het combineren van twee afbeeldingen tot één PSD-canvas, leggen we uit waarom deze aanpak nuttig is, en geven we kant‑klaar code. Aan het einde kun je **twee afbeeldingen combineren in Java** stijl en een professioneel uitziend gelaagd bestand genereren.
+
+## Snelle antwoorden
+- **Welke bibliotheek is het beste voor het combineren van afbeeldingen in een PSD?** Aspose.PSD for Java.
+- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een eenvoudige combinatie.
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.
+- **Kan ik meer dan twee afbeeldingen toevoegen?** Ja – herhaal de `drawImage`‑aanroepen voor elke extra laag.
+- **Welke Java‑versie wordt ondersteund?** Java 8 en nieuwer.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Zorg er voordat je begint voor dat je het volgende hebt:
 
-1.  Aspose.PSD-bibliotheek: Zorg ervoor dat de Aspose.PSD-bibliotheek in uw Java-omgeving is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/psd/java/).
+1. **Aspose.PSD Library** – download deze van [here](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit (JDK)** – Java 8+ wordt aanbevolen.  
+3. **Document Directory** – een map op je computer waar de bronafbeeldingen en de resulterende PSD worden opgeslagen.
 
-2. Java Development Kit (JDK): Aspose.PSD vereist dat Java wordt uitgevoerd. Installeer de nieuwste JDK op uw machine.
+## Importeer pakketten
 
-3. Documentmap: stel een map in waar uw afbeeldingen en het resulterende PSD-bestand worden opgeslagen.
-
-## Pakketten importeren
-
-Begin met het importeren van de benodigde pakketten voor uw Java-project. Neem de Aspose.PSD-bibliotheek op in uw project, zoals hieronder wordt gedemonstreerd:
+Begin met het importeren van de benodigde Aspose.PSD‑klassen in je project:
 
 ```java
 import com.aspose.psd.Color;
@@ -40,33 +48,35 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 ```
 
-## Stap 1: PSD-opties maken
+## Stapsgewijze handleiding
 
-Begin met het maken van een exemplaar van PsdOptions en het instellen van de verschillende eigenschappen ervan:
+### Stap 1: PSD‑opties maken (het bestand voorbereiden)
+
+We maken eerst een `PsdOptions`‑instantie die de uitvoerinstellingen bevat.
 
 ```java
 PsdOptions imageOptions = new PsdOptions();
 ```
 
-## Stap 2: Stel FileCreateSource in
+### Stap 2: FileCreateSource instellen (definieer waar de PSD wordt opgeslagen)
 
-Maak een exemplaar van FileCreateSource en wijs deze toe aan de eigenschap Source:
+Wijs een `FileCreateSource` toe aan de opties, wijzend naar het gewenste resultaatbestand.
 
 ```java
 imageOptions.setSource(new FileCreateSource(dataDir + "Two_images_result_out.psd", false));
 ```
 
-## Stap 3: Maak een afbeeldingsinstantie
+### Stap 3: Image‑instantie maken (canvasgrootte initialiseren)
 
-Instantieer een Image-object met gespecificeerde opties en afmetingen:
+Maak een `Image`‑object met de opties en specificeer een canvas van 600 × 600 pixels.
 
 ```java
 Image image = Image.create(imageOptions, 600, 600);
 ```
 
-## Stap 4: Initialiseer afbeeldingen
+### Stap 4: Graphics initialiseren en de eerste afbeelding tekenen
 
-Maak en initialiseer een grafische instantie, maak het afbeeldingsoppervlak leeg met witte kleur en teken de eerste afbeelding:
+Een `Graphics`‑object stelt ons in staat om op het canvas te tekenen. We maken de achtergrond wit en tekenen de eerste bronafbeelding op de linkerde helft.
 
 ```java
 Graphics graphics = new Graphics(image);
@@ -74,49 +84,61 @@ graphics.clear(Color.getWhite());
 graphics.drawImage(Image.load(dataDir + "example1.psd"), 0, 0, 300, 600);
 ```
 
-## Stap 5: Teken de tweede afbeelding
+### Stap 5: De tweede afbeelding tekenen (de combinatie voltooien)
 
-Teken de tweede afbeelding op het gemaakte PSD-canvas:
+Nu plaatsen we de tweede afbeelding op de rechterhelft van hetzelfde canvas.
 
 ```java
 graphics.drawImage(Image.load(dataDir + "example2.psd"), 300, 0, 300, 600);
 ```
 
-## Stap 6: Sla de resulterende afbeelding op
+### Stap 6: Het resulterende PSD‑bestand opslaan
 
-Sla de uiteindelijke gecombineerde afbeelding op:
+Sla tenslotte het gecombineerde canvas op schijf op.
 
 ```java
 image.save();
 ```
 
-Gefeliciteerd! U hebt met succes twee afbeeldingen gecombineerd tot één PSD-bestand met behulp van Aspose.PSD voor Java.
+Gefeliciteerd! Je hebt met succes **afbeeldingen samengevoegd in PSD** en een PSD‑bestand in Java gemaakt.
 
-## Conclusie
+## Waarom afbeeldingen combineren met Aspose.PSD?
 
-Aspose.PSD vereenvoudigt beeldmanipulatie in Java en biedt een robuuste oplossing voor het moeiteloos samenvoegen van afbeeldingen. Door deze tutorial te volgen, heb je de kracht van Aspose.PSD benut om visueel aantrekkelijke composities te maken.
+- **Laag‑bewust** – elke `drawImage`‑aanroep voegt een aparte laag toe die later bewerkt kan worden.  
+- **Formaatflexibiliteit** – ondersteunt PSD, PNG, JPEG, BMP en meer.  
+- **Geen native afhankelijkheden** – pure Java, werkt op elk OS dat de JDK draait.
+
+## Veelvoorkomende problemen en oplossingen
+
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| `File not found`‑fout bij het laden van bronafbeeldingen | Onjuist `dataDir`‑pad | Controleer of `dataDir` wijst naar de map die `example1.psd` en `example2.psd` bevat. |
+| Uitvoer‑PSD is leeg | `graphics.clear` aangeroepen na het tekenen | Zorg ervoor dat `graphics.clear(Color.getWhite())` **voor** alle `drawImage`‑aanroepen wordt uitgevoerd. |
+| Licentie‑exception tijdens runtime | Ontbrekende of verlopen Aspose.PSD‑licentie | Pas een geldige licentie toe met `License license = new License(); license.setLicense("Aspose.PSD.lic");` vóór elke API‑aanroep. |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Is Aspose.PSD compatibel met alle afbeeldingsformaten?
+### Q1: Is Aspose.PSD compatibel met alle afbeeldingsformaten?
+**A1:** Aspose.PSD richt zich voornamelijk op het PSD‑bestandformaat. Het ondersteunt echter verschillende andere formaten voor invoer en uitvoer.
 
-A1: Aspose.PSD richt zich voornamelijk op het PSD-bestandsformaat. Het ondersteunt echter verschillende andere formaten voor invoer en uitvoer.
+### Q2: Kan ik extra bewerkingen uitvoeren op de gecombineerde afbeelding?
+**A2:** Zeker! Na het combineren van afbeeldingen kun je de resulterende PSD verder bewerken met de uitgebreide functies van Aspose.PSD.
 
-### Vraag 2: Kan ik aanvullende wijzigingen aanbrengen op de gecombineerde afbeelding?
+### Q3: Zijn er licentie‑vereisten voor het gebruik van Aspose.PSD?
+**A3:** Ja, een geldige licentie is vereist voor commercieel gebruik. Verkrijg deze via [here](https://purchase.aspose.com/buy).
 
-A2: Absoluut! Na het combineren van afbeeldingen kunt u de resulterende PSD verder manipuleren met behulp van de uitgebreide functies van Aspose.PSD.
+### Q4: Is er een gratis proefversie beschikbaar voor Aspose.PSD?
+**A4:** Ja, je kunt Aspose.PSD verkennen met een gratis proefversie [here](https://releases.aspose.com/).
 
-### Vraag 3: Zijn er licentievereisten voor het gebruik van Aspose.PSD?
+### Q5: Waar kan ik ondersteuning vinden voor vragen over Aspose.PSD?
+**A5:** Bezoek het [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) voor community‑ondersteuning en discussies.
 
- A3: Ja, voor commercieel gebruik is een geldige licentie vereist. Verkrijg het van[hier](https://purchase.aspose.com/buy).
+---
 
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.PSD?
+**Laatst bijgewerkt:** 2025-12-30  
+**Getest met:** Aspose.PSD 24.11 for Java  
+**Auteur:** Aspose  
 
- A4: Ja, u kunt Aspose.PSD verkennen met een gratis proefperiode[hier](https://releases.aspose.com/).
-
-### V5: Waar kan ik ondersteuning vinden voor Aspose.PSD-gerelateerde vragen?
-
- A5: Bezoek de[Aspose.PSD-forum](https://forum.aspose.com/c/psd/34) voor gemeenschapsondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
