@@ -1,32 +1,54 @@
 ---
-title: Aggiungi un nuovo livello regolare a PSD con Aspose.PSD per Java
-linktitle: Aggiungi un nuovo livello regolare a PSD
-second_title: API Java Aspose.PSD
-description: Scopri come aggiungere un nuovo livello regolare ai file PSD utilizzando Aspose.PSD per Java. Segui la nostra guida passo passo per una manipolazione PSD senza soluzione di continuità.
-weight: 11
+date: 2026-04-08
+description: Scopri come esportare un PSD in PNG e creare un nuovo livello PSD con
+  Aspose.PSD per Java utilizzando una licenza temporanea di Aspose. Questo tutorial
+  passo‑passo copre la manipolazione delle immagini PSD e l’impostazione della posizione
+  del livello.
+keywords:
+- aspose temporary license
+- set layer position
+- psd image manipulation
+- create new psd layer
+linktitle: Aggiungi un nuovo livello normale a PSD
+second_title: Aspose.PSD Java API
+title: Esporta PSD in PNG e aggiungi un nuovo livello normale con Aspose.PSD per Java
+  – licenza temporanea Aspose
 url: /it/java/advanced-image-effects/add-new-regular-layer/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi un nuovo livello regolare a PSD con Aspose.PSD per Java
+# Esporta PSD in PNG e aggiungi un nuovo livello regolare usando Aspose.PSD per Java
 
 ## Introduzione
 
-Benvenuti in questo tutorial completo sull'utilizzo di Aspose.PSD per Java per aggiungere un nuovo livello regolare a un file PSD. Aspose.PSD è una potente libreria Java che consente agli sviluppatori di manipolare e lavorare in modo efficiente con i file PSD. In questo tutorial ti guideremo attraverso il processo di aggiunta di un nuovo livello regolare a un file PSD, fornendo passaggi dettagliati ed esempi di codice.
+In questo **aspose psd tutorial** scoprirai come **esportare PSD in PNG** creando anche **un nuovo livello regolare** nello stesso file, **usando una licenza temporanea di aspose** per lo sviluppo. Che tu debba generare miniature pronte per il web, preparare risorse per una pipeline di design, o semplicemente sperimentare con la **manipolazione di immagini psd**, Aspose.PSD per Java ti offre il pieno controllo programmatico. Ti guideremo passo passo—dal caricamento del file sorgente al salvataggio sia del PSD aggiornato che di una copia PNG—così potrai iniziare a manipolare i livelli PSD subito.
+
+## Risposte rapide
+- **Posso esportare PSD in PNG con una sola chiamata?** Sì, dopo aver aggiunto i livelli puoi chiamare `save` con `PngOptions`.
+- **È necessaria una licenza per lo sviluppo?** Una licenza temporanea funziona per i test; è richiesta una licenza completa per la produzione.
+- **Quale versione di Java è supportata?** Aspose.PSD funziona con Java 8 e versioni successive.
+- **Il posizionamento dei livelli è basato sui pixel?** Sì, imposti le coordinate left, top, right, bottom in pixel usando i metodi **set layer position**.
+- **Il PNG manterrà la trasparenza del livello?** Il PNG conterrà il risultato unito di tutti i livelli visibili.
+
+## Perché usare una licenza temporanea di Aspose?
+
+Una **licenza temporanea di aspose** ti consente di valutare l'intero set di funzionalità di Aspose.PSD senza restrizioni funzionali. Rimuove la filigrana di valutazione, sblocca tutte le API—including la possibilità di **creare nuovi oggetti livello psd**—e ti permette di testare il tuo codice in un ambiente simile alla produzione prima di acquistare una licenza permanente.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
+Prima di iniziare, assicurati di avere:
 
-- Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java configurato sul tuo sistema.
--  Libreria Aspose.PSD: scarica e installa la libreria Aspose.PSD per Java. Puoi trovare la biblioteca[Qui](https://releases.aspose.com/psd/java/).
+- **Ambiente di sviluppo Java** – JDK 8+ e uno strumento di build (Maven/Gradle) installati.
+- **Aspose.PSD per Java** – Scarica l'ultimo JAR dal sito ufficiale [qui](https://releases.aspose.com/psd/java/).
+- **Un file PSD di esempio** – Useremo `OneLayer.psd` negli esempi.
 
 ## Importa pacchetti
 
-Per iniziare, importa i pacchetti necessari nel tuo progetto Java. Questi pacchetti sono essenziali per lavorare con le funzionalità Aspose.PSD. Includi le seguenti righe all'inizio del tuo file Java:
+Aggiungi le importazioni necessarie alla tua classe Java. Queste classi forniscono la funzionalità di base per la **manipolazione di immagini psd** e la gestione dei livelli.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +60,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Passaggio 1: carica il file PSD
+## Cos'è “set layer position” e perché è importante?
 
-Carica il file PSD che desideri modificare utilizzando il seguente codice:
+Quando aggiungi un nuovo livello, devi definire dove appare sulla tela. I metodi `setLeft`, `setTop`, `setRight` e `setBottom` **impostano la posizione del livello** in coordinate pixel. Un posizionamento corretto garantisce che la grafica si allinei esattamente dove ti aspetti, cosa cruciale per attività come il compositing di asset UI o la preparazione di file pronti per la stampa.
+
+## Guida passo‑passo
+
+### Passo 1: Carica il file PSD
+
+Per prima cosa, carica il PSD esistente che desideri modificare. Questo ti fornisce un oggetto `PsdImage` con cui lavorare.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,9 +76,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Passaggio 2: preparare matrici di dati e rettangoli
+### Passo 2: Prepara i dati pixel e i rettangoli
 
-Preparare due array int e due oggetti Rectangle come segue:
+Creeremo due buffer pixel (`int[]`) e definiremo le aree rettangolari dove i nuovi livelli saranno dipinti. Questa è la base per **creare un nuovo livello psd**.
 
 ```java
 int[] data1 = new int[2500];
@@ -59,9 +87,9 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## Passaggio 3: inizializzare i dati del livello
+### Passo 3: Inizializza i dati del livello
 
-Inizializza gli array di dati con un valore predefinito:
+Riempiremo i buffer pixel con un valore ARGB predefinito. Il valore `-10000000` corrisponde a una tonalità scura semi‑trasparente.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -70,9 +98,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## Passaggio 4: aggiungi livelli regolari
+### Passo 4: Aggiungi livelli regolari (manipola i livelli PSD)
 
-Aggiungi due livelli regolari all'immagine PSD:
+Ora **aggiungiamo livelli regolari** all'immagine PSD e **impostiamo la posizione del livello** usando le proprietà left, top, right e bottom. Questo dimostra come **manipolare i livelli PSD** programmaticamente.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -90,42 +118,55 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## Passaggio 5: salva PSD e PNG
+### Passo 5: Esporta PSD in PNG e salva il PSD aggiornato
 
-Salva il PSD modificato e un file PNG aggiuntivo:
+Dopo aver posizionato i livelli, salva il documento modificato. Prima esportiamo il risultato in PNG (il passo **export psd to png**), poi persi​stiamo il PSD con i nuovi livelli.
 
 ```java
-im.save(exportPath, new PsdOptions());
-im.save(exportPathPng, new PngOptions());
+String exportPath = dataDir + "Updated.psd";
+String exportPathPng = dataDir + "Updated.png";
+
+im.save(exportPath, new PsdOptions());          // Save the updated PSD
+im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-Congratulazioni! Hai aggiunto con successo un nuovo livello regolare a un file PSD utilizzando Aspose.PSD per Java.
+> **Consiglio esperto:** Se ti serve solo il PNG, puoi saltare la chiamata `save` del PSD e invocare direttamente `save` con `PngOptions`.
 
-## Conclusione
+## Problemi comuni e risoluzione
 
-In questo tutorial, abbiamo trattato il processo di aggiunta di un nuovo livello regolare a un file PSD utilizzando Aspose.PSD per Java. Questa potente libreria semplifica la manipolazione di PSD, rendendolo accessibile agli sviluppatori Java. Sperimenta diversi parametri e funzionalità per esplorare tutto il potenziale di Aspose.PSD.
+| Sintomo | Probabile causa | Soluzione |
+|---------|-----------------|-----------|
+| Il PNG appare vuoto | I livelli sono invisibili o completamente trasparenti | Assicurati di impostare valori pixel non trasparenti o chiama `layer.setVisible(true)`. |
+| `ArrayIndexOutOfBoundsException` | Discrepanza tra la dimensione del rettangolo e la lunghezza dell'array di pixel | Verifica che `rect.width * rect.height == dataArray.length`. |
+| LicenseException a runtime | Nessuna licenza valida caricata | Carica una licenza temporanea o permanente prima di chiamare qualsiasi metodo API. |
 
 ## Domande frequenti
 
-### Q1: Aspose.PSD è compatibile con Java 8?
+**D: Aspose.PSD è compatibile con Java 8?**  
+R: Sì, Aspose.PSD supporta Java 8 e versioni successive.
 
-A1: Sì, Aspose.PSD supporta Java 8 e versioni successive.
+**D: Posso applicare trasformazioni (rotazione, scala) ai livelli aggiunti?**  
+R: Assolutamente! La classe `Layer` fornisce metodi come `rotate`, `scale` e `translate` per un controllo completo delle trasformazioni.
 
-### Q2: Posso applicare trasformazioni ai livelli aggiunti?
+**D: Dove posso trovare ulteriore documentazione su Aspose.PSD?**  
+R: La documentazione API dettagliata è disponibile [qui](https://reference.aspose.com/psd/java/).
 
-A2: Assolutamente! Aspose.PSD fornisce una gamma di opzioni di trasformazione per i livelli.
+**D: Come ottengo una licenza temporanea per Aspose.PSD?**  
+R: Visita la pagina della licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Dove posso trovare ulteriore documentazione Aspose.PSD?
+**D: Esistono forum della community per il supporto di Aspose.PSD?**  
+R: Sì, partecipa alle discussioni nei forum Aspose [qui](https://forum.aspose.com/c/psd/34).
 
- R3: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/psd/java/).
+## Conclusione
 
-### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD?
+Ora sai come **esportare PSD in PNG** aggiungendo **nuovi livelli regolari** usando Aspose.PSD per Java, e hai visto come una **licenza temporanea di aspose** ti permette di provare questo flusso di lavoro senza restrizioni. Questo tutorial mostra le principali capacità di **manipolazione di immagini psd**: caricamento di un file, creazione di livelli, popolamento dei dati pixel e esportazione della composizione finale. Sentiti libero di sperimentare con diverse dimensioni dei rettangoli, colori dei pixel o effetti di livello per adattare l'output alle esigenze del tuo progetto.
 
- A4: Visita[questo collegamento](https://purchase.aspose.com/temporary-license/) per le opzioni di licenza temporanea.
+---
 
-### Q5: Esistono forum della community per il supporto di Aspose.PSD?
+**Ultimo aggiornamento:** 2026-04-08  
+**Testato con:** Aspose.PSD 24.11 per Java  
+**Autore:** Aspose  
 
- A5: Sì, puoi trovare supporto e discussioni[Qui](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

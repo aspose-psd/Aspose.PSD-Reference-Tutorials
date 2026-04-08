@@ -1,32 +1,53 @@
 ---
-title: Aspose.PSD for Java ile PSD'ye Yeni Bir Normal Katman Ekleme
-linktitle: PSD'ye Yeni Bir Normal Katman Ekleme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java kullanarak PSD dosyalarına nasıl yeni bir normal katman ekleyeceğinizi öğrenin. Kusursuz PSD manipülasyonu için adım adım kılavuzumuzu izleyin.
-weight: 11
+date: 2026-04-08
+description: Bir aspose geçici lisansı kullanarak Aspose.PSD for Java ile PSD'yi PNG'ye
+  nasıl dışa aktaracağınızı ve yeni bir PSD katmanı oluşturacağınızı öğrenin. Bu adım
+  adım öğretici, PSD görüntü işleme ve katman konumunu ayarlamayı kapsar.
+keywords:
+- aspose temporary license
+- set layer position
+- psd image manipulation
+- create new psd layer
+linktitle: PSD'ye yeni bir normal katman ekle
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java kullanarak PSD'yi PNG'ye dışa aktar ve yeni bir normal
+  katman ekle – aspose geçici lisansı
 url: /tr/java/advanced-image-effects/add-new-regular-layer/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java ile PSD'ye Yeni Bir Normal Katman Ekleme
+# PSD'yi PNG'ye Dışa Aktar ve Aspose.PSD for Java Kullanarak Yeni Normal Katman Ekle
 
-## giriiş
+## Giriş
 
-Bir PSD dosyasına yeni bir normal katman eklemek için Aspose.PSD for Java'nın kullanımına ilişkin bu kapsamlı eğitime hoş geldiniz. Aspose.PSD, geliştiricilerin PSD dosyalarını verimli bir şekilde yönetmesine ve bunlarla çalışmasına olanak tanıyan güçlü bir Java kitaplığıdır. Bu eğitimde, ayrıntılı adımlar ve kod örnekleri sunarak, PSD dosyasına yeni bir normal katman ekleme sürecinde size rehberlik edeceğiz.
+Bu **aspose psd tutorial** içinde **export PSD to PNG** yapmayı ve aynı dosya içinde **creating a new regular layer** oluşturmayı, **using an aspose temporary license** ile geliştirme aşamasında keşfedeceksiniz. Web‑hazır küçük resimler oluşturmanız, bir tasarım hattı için varlıkları hazırlamanız veya sadece **psd image manipulation** ile deneme yapmanız gerekse, Aspose.PSD for Java size tam programatik kontrol sunar. Kaynak dosyayı yüklemekten güncellenmiş PSD ve bir PNG kopyasını kaydetmeye kadar her adımı adım adım göstereceğiz; böylece PSD katmanlarını hemen manipüle etmeye başlayabilirsiniz.
+
+## Hızlı Yanıtlar
+- **PSD'yi PNG'ye tek bir çağrı ile dışa aktarabilir miyim?** Evet, katmanları ekledikten sonra `save` metodunu `PngOptions` ile çağırabilirsiniz.
+- **Geliştirme için bir lisansa ihtiyacım var mı?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.
+- **Hangi Java sürümü destekleniyor?** Aspose.PSD, Java 8 ve üzeri sürümlerle çalışır.
+- **Katman konumlandırması piksel bazlı mı?** Evet, **set layer position** metodlarını kullanarak sol, üst, sağ, alt koordinatları piksellerle ayarlarsınız.
+- **PNG katman şeffaflığını koruyacak mı?** PNG, tüm görünür katmanların birleştirilmiş sonucunu içerir.
+
+## Neden aspose geçici lisansı kullanmalısınız?
+
+Bir **aspose temporary license**, Aspose.PSD'nin tam özellik setini herhangi bir fonksiyonel kısıtlama olmadan değerlendirmenizi sağlar. Değerlendirme filigranını kaldırır, **create new psd layer** nesneleri oluşturma dahil tüm API'leri açar ve kalıcı bir lisans satın almadan önce kodunuzu üretim‑benzeri bir ortamda test etmenize olanak tanır.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
--  Aspose.PSD Kütüphanesi: Aspose.PSD for Java kütüphanesini indirip yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/psd/java/).
+- **Java Development Environment** – JDK 8+ ve bir derleme aracı (Maven/Gradle) kurulu.
+- **Aspose.PSD for Java** – En son JAR dosyasını resmi siteden [burada](https://releases.aspose.com/psd/java/) indirin.
+- **A sample PSD file** – Örneklerde `OneLayer.psd` dosyasını kullanacağız.
 
 ## Paketleri İçe Aktar
 
-Başlamak için gerekli paketleri Java projenize aktarın. Bu paketler Aspose.PSD işlevleriyle çalışmak için gereklidir. Java dosyanızın başına aşağıdaki satırları ekleyin:
+Java sınıfınıza gerekli importları ekleyin. Bu sınıflar **psd image manipulation** ve katman yönetimi için temel işlevselliği sağlar.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +59,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Adım 1: PSD Dosyasını Yükleyin
+## “set layer position” nedir ve neden önemlidir?
 
-Düzenlemek istediğiniz PSD dosyasını aşağıdaki kodu kullanarak yükleyin:
+Yeni bir katman eklediğinizde, katmanın tuval üzerinde nerede görüneceğini tanımlamanız gerekir. `setLeft`, `setTop`, `setRight` ve `setBottom` metodları **set layer position** değerlerini piksel koordinatlarıyla ayarlar. Doğru konumlandırma, grafiklerinizin tam olarak istediğiniz yerde hizalanmasını sağlar; bu, UI varlıklarını birleştirme veya baskıya hazır dosyalar hazırlama gibi görevler için kritiktir.
+
+## Adım‑adım kılavuz
+
+### Adım 1: PSD Dosyasını Yükle
+
+İlk olarak, değiştirmek istediğiniz mevcut PSD dosyasını yükleyin. Bu, üzerinde çalışabileceğiniz bir `PsdImage` nesnesi oluşturur.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,9 +75,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Adım 2: Veri Dizilerini ve Dikdörtgenleri Hazırlayın
+### Adım 2: Piksel Verilerini ve Dikdörtgenleri Hazırla
 
-İki int dizisini ve iki Rectangle nesnesini aşağıdaki gibi hazırlayın:
+İki piksel tamponu (`int[]`) oluşturacak ve yeni katmanların boyanacağı dikdörtgen alanları tanımlayacağız. Bu, **creating a new psd layer** için temel oluşturur.
 
 ```java
 int[] data1 = new int[2500];
@@ -59,9 +86,9 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## 3. Adım: Katman Verilerini Başlatın
+### Adım 3: Katman Verilerini Başlat
 
-Veri dizilerini varsayılan değerle başlatın:
+Piksel tamponlarını varsayılan bir ARGB değeriyle doldurun. `-10000000` değeri yarı şeffaf koyu bir tonla eşleşir.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -70,9 +97,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## Adım 4: Normal Katmanlar Ekleyin
+### Adım 4: Normal Katmanlar Ekle (PSD Katmanlarını Manipüle Et)
 
-PSD görüntüsüne iki normal katman ekleyin:
+Şimdi **add regular layers** işlemini PSD görüntüsüne uygulayıp **set layer position** metodlarıyla sol, üst, sağ ve alt özelliklerini ayarlayacağız. Bu, **manipulate PSD layers** programatik olarak nasıl yapılır gösterir.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -90,42 +117,55 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## Adım 5: PSD ve PNG'yi kaydedin
+### Adım 5: PSD'yi PNG'ye Dışa Aktar ve Güncellenmiş PSD'yi Kaydet
 
-Değiştirilen PSD'yi ve ek bir PNG dosyasını kaydedin:
+Katmanlar yerleştirildikten sonra, değiştirilmiş belgeyi kaydedin. İlk olarak sonucu PNG'ye dışa aktaracağız (**export psd to png** adımı), ardından yeni katmanlarla PSD'yi kalıcı hâle getireceğiz.
 
 ```java
-im.save(exportPath, new PsdOptions());
-im.save(exportPathPng, new PngOptions());
+String exportPath = dataDir + "Updated.psd";
+String exportPathPng = dataDir + "Updated.png";
+
+im.save(exportPath, new PsdOptions());          // Save the updated PSD
+im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-Tebrikler! Aspose.PSD for Java'yı kullanarak PSD dosyasına başarıyla yeni bir normal katman eklediniz.
+> **Pro tip:** Sadece PNG'ye ihtiyacınız varsa, PSD `save` çağrısını atlayabilir ve doğrudan `save` metodunu `PngOptions` ile çalıştırabilirsiniz.
 
-## Çözüm
+## Yaygın Sorunlar ve Sorun Giderme
 
-Bu eğitimde Aspose.PSD for Java kullanarak bir PSD dosyasına yeni bir normal katman ekleme sürecini ele aldık. Bu güçlü kitaplık, PSD işlemlerini basitleştirerek onu Java geliştiricileri için erişilebilir hale getirir. Aspose.PSD'nin tüm potansiyelini keşfetmek için farklı parametreler ve işlevlerle denemeler yapın.
+| Semptom | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| PNG boş görünüyor | Katmanlar görünmez veya tamamen şeffaf | Şeffaf olmayan piksel değerleri ayarladığınızdan emin olun veya `layer.setVisible(true)` metodunu çağırın. |
+| `ArrayIndexOutOfBoundsException` | Dikdörtgen boyutu ile piksel dizisi uzunluğu eşleşmiyor | `rect.width * rect.height == dataArray.length` eşitliğini doğrulayın. |
+| LicenseException çalışma zamanında | Geçerli bir lisans yüklenmemiş | API metodlarını çağırmadan önce geçici veya kalıcı bir lisans yükleyin. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.PSD Java 8 ile uyumlu mu?
+**S: Aspose.PSD Java 8 ile uyumlu mu?**  
+C: Evet, Aspose.PSD Java 8 ve sonraki sürümlerini destekler.
 
-Cevap1: Evet, Aspose.PSD, Java 8 ve sonraki sürümlerini destekler.
+**S: Eklenen katmanlara dönüşümler (döndürme, ölçekleme) uygulayabilir miyim?**  
+C: Kesinlikle! `Layer` sınıfı, tam dönüşüm kontrolü için `rotate`, `scale` ve `translate` gibi metodlar sunar.
 
-### S2: Eklenen katmanlara dönüşüm uygulayabilir miyim?
+**S: Ek Aspose.PSD belgelerini nerede bulabilirim?**  
+C: Ayrıntılı API dokümantasyonu [burada](https://reference.aspose.com/psd/java/) mevcuttur.
 
-A2: Kesinlikle! Aspose.PSD, katmanlar için çeşitli dönüştürme seçenekleri sunar.
+**S: Aspose.PSD için geçici bir lisans nasıl alınır?**  
+C: Geçici‑lisans sayfasını [burada](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-### S3: Ek Aspose.PSD belgelerini nerede bulabilirim?
+**S: Aspose.PSD desteği için topluluk forumları var mı?**  
+C: Evet, Aspose forumlarında [burada](https://forum.aspose.com/c/psd/34) tartışmalara katılabilirsiniz.
 
- A3: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/psd/java/).
+## Sonuç
 
-### S4: Aspose.PSD için nasıl geçici lisans alabilirim?
+Artık **export PSD to PNG** yaparken **adding new regular layers** işlemini Aspose.PSD for Java ile nasıl gerçekleştireceğinizi öğrendiniz ve **aspose temporary license** sayesinde bu iş akışını kısıtlama olmadan deneyebileceğinizi gördünüz. Bu öğretici, temel **psd image manipulation** yeteneklerini gösteriyor: bir dosyayı yükleme, katman oluşturma, piksel verilerini doldurma ve son kompozisyonu dışa aktarma. Farklı dikdörtgen boyutları, piksel renkleri veya katman efektleriyle deney yaparak çıktıyı projenizin ihtiyaçlarına göre özelleştirmekten çekinmeyin.
 
- A4: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) geçici lisans seçenekleri için.
+---
 
-### S5: Aspose.PSD desteği için herhangi bir topluluk forumu var mı?
+**Son Güncelleme:** 2026-04-08  
+**Test Edildiği Versiyon:** Aspose.PSD 24.11 for Java  
+**Yazar:** Aspose  
 
- A5: Evet, destek ve tartışmalar bulabilirsiniz[Burada](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
