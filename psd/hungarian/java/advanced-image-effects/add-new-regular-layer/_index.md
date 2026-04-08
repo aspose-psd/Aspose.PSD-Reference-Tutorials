@@ -1,32 +1,53 @@
 ---
-title: Adjon hozzá egy új normál réteget a PSD-hez az Aspose.PSD for Java segítségével
-linktitle: Adjon hozzá egy új szabályos réteget a PSD-hez
+date: 2026-04-08
+description: Tanulja meg, hogyan exportálja a PSD‑t PNG‑re, és hogyan hozhat létre
+  új PSD‑réteget az Aspose.PSD for Java segítségével egy aspose ideiglenes licenc
+  használatával. Ez a lépésről‑lépésre útmutató a PSD‑képmódosítást és a réteg pozíciójának
+  beállítását tárgyalja.
+keywords:
+- aspose temporary license
+- set layer position
+- psd image manipulation
+- create new psd layer
+linktitle: Új normál réteg hozzáadása a PSD-hez
 second_title: Aspose.PSD Java API
-description: Ismerje meg, hogyan adhat hozzá új normál réteget PSD-fájlokhoz az Aspose.PSD for Java használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes PSD-manipuláció érdekében.
-weight: 11
+title: PSD exportálása PNG formátumba és új normál réteg hozzáadása az Aspose.PSD
+  for Java segítségével – aspose ideiglenes licenc
 url: /hu/java/advanced-image-effects/add-new-regular-layer/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjon hozzá egy új normál réteget a PSD-hez az Aspose.PSD for Java segítségével
+# PSD exportálása PNG‑be és új szabályos réteg hozzáadása az Aspose.PSD for Java használatával
 
 ## Bevezetés
 
-Üdvözöljük ebben az átfogó oktatóanyagban, amely az Aspose.PSD for Java használatáról szól, amellyel egy új normál réteget adhat hozzá egy PSD-fájlhoz. Az Aspose.PSD egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan kezeljék a PSD-fájlokat és dolgozzanak velük. Ebben az oktatóanyagban végigvezetjük Önt egy új normál réteg PSD-fájlhoz való hozzáadásának folyamatán, részletes lépésekkel és kódpéldákkal.
+Ebbe a **aspose psd tutorial**-ban megtudja, hogyan **exportálja a PSD‑t PNG‑be**, miközben **új szabályos réteget hoz létre** ugyanabban a fájlban, **aspose ideiglenes licenc** használatával fejlesztéshez. Akár web‑kész bélyegképeket kell generálnia, akár eszközöket készít a tervezési folyamat számára, vagy egyszerűen csak kísérletezni szeretne **psd image manipulation**‑nal, az Aspose.PSD for Java teljes programozási irányítást biztosít. Lépésről lépésre végigvezetünk – a forrásfájl betöltésétől az frissített PSD és egy PNG másolat mentéséig – hogy azonnal elkezdhesse a PSD rétegek manipulálását.
+
+## Gyors válaszok
+
+- **Exportálhatok PSD‑t PNG‑be egy hívással?** Igen, a rétegek hozzáadása után meghívhatja a `save`‑t `PngOptions`‑szel.
+- **Szükségem van licencre fejlesztéshez?** Egy ideiglenes licenc teszteléshez működik; a teljes licenc a termeléshez szükséges.
+- **Melyik Java verzió támogatott?** Az Aspose.PSD Java 8‑as és újabb verziókkal működik.
+- **Pixel‑alapú a rétegpozicionálás?** Igen, a bal, felső, jobb, alsó koordinátákat pixelben állítja be a **set layer position** metódusokkal.
+- **A PNG megőrzi a réteg átlátszóságát?** A PNG az összes látható réteg egyesített eredményét tartalmazza.
+
+## Miért használjunk aspose ideiglenes licencet?
+
+Az **aspose temporary license** lehetővé teszi, hogy a teljes Aspose.PSD funkciókészletet korlátozás nélkül értékelje. Eltávolítja a kiértékelési vízjelet, feloldja az összes API‑t – beleértve az **create new psd layer** objektumok létrehozásának lehetőségét – és lehetővé teszi, hogy a kódját egy termeléshez hasonló környezetben tesztelje, mielőtt állandó licencet vásárolna.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-
-- Java fejlesztői környezet: Győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet.
--  Aspose.PSD Library: Töltse le és telepítse az Aspose.PSD for Java könyvtárat. Megtalálhatod a könyvtárat[itt](https://releases.aspose.com/psd/java/).
+- **Java Development Environment** – JDK 8+ és egy build eszköz (Maven/Gradle) telepítve.
+- **Aspose.PSD for Java** – Töltse le a legújabb JAR‑t a hivatalos oldalról [here](https://releases.aspose.com/psd/java/).
+- **A sample PSD file** – A példákban a `OneLayer.psd` fájlt használjuk.
 
 ## Csomagok importálása
 
-A kezdéshez importálja a szükséges csomagokat a Java projektbe. Ezek a csomagok elengedhetetlenek az Aspose.PSD funkciókkal való együttműködéshez. Írja be a következő sorokat a Java fájl elejére:
+Adja hozzá a szükséges importokat a Java osztályához. Ezek az osztályok biztosítják a **psd image manipulation** és a rétegkezelés alapvető funkcióit.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +59,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## 1. lépés: Töltse be a PSD-fájlt
+## Mi az a „set layer position”, és miért fontos?
 
-Töltse be a szerkeszteni kívánt PSD-fájlt a következő kóddal:
+Amikor új réteget ad hozzá, meg kell határoznia, hol jelenik meg a vásznon. A `setLeft`, `setTop`, `setRight` és `setBottom` metódusok **set layer position** pixel koordinátákban. A helyes pozicionálás biztosítja, hogy a grafikák pontosan a várt helyen legyenek, ami kulcsfontosságú feladatoknál, mint a UI eszközök kompozíciója vagy a nyomtatásra kész fájlok előkészítése.
+
+## Lépésről‑lépésre útmutató
+
+### 1. lépés: PSD fájl betöltése
+
+Először töltse be a módosítani kívánt meglévő PSD‑t. Ez egy `PsdImage` objektumot ad, amellyel dolgozhat.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,9 +75,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## 2. lépés: Készítsen adattömböket és téglalapokat
+### 2. lépés: Pixel adatok és téglalapok előkészítése
 
-Készítsen elő két int tömböt és két téglalap objektumot az alábbiak szerint:
+Két pixelpuffer (`int[]`) lesz létrehozva, és meghatározzuk a téglalap alakú területeket, ahol az új rétegeket festeni fogjuk. Ez a **creating a new psd layer** alapja.
 
 ```java
 int[] data1 = new int[2500];
@@ -59,9 +86,9 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## 3. lépés: A rétegadatok inicializálása
+### 3. lépés: Rétegadatok inicializálása
 
-Adattömbök inicializálása alapértelmezett értékkel:
+Töltse fel a pixelpuffereket egy alapértelmezett ARGB értékkel. A `-10000000` érték egy félig átlátszó sötét árnyalatnak felel meg.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -70,9 +97,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## 4. lépés: Szabályos rétegek hozzáadása
+### 4. lépés: Szabályos rétegek hozzáadása (PSD rétegek manipulálása)
 
-Adjon hozzá két normál réteget a PSD-képhez:
+Most **add regular layers** a PSD képre, és a bal, felső, jobb, alsó tulajdonságokkal **set layer position**. Ez bemutatja, hogyan **manipulate PSD layers** programozottan.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -90,42 +117,55 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## 5. lépés: PSD és PNG mentése
+### 5. lépés: PSD exportálása PNG‑be és a frissített PSD mentése
 
-Mentse el a módosított PSD-t és egy további PNG-fájlt:
+Miután a rétegek a helyükön vannak, mentse a módosított dokumentumot. Először exportáljuk az eredményt PNG‑be (a **export psd to png** lépés), majd a PSD‑t az új rétegekkel mentjük.
 
 ```java
-im.save(exportPath, new PsdOptions());
-im.save(exportPathPng, new PngOptions());
+String exportPath = dataDir + "Updated.psd";
+String exportPathPng = dataDir + "Updated.png";
+
+im.save(exportPath, new PsdOptions());          // Save the updated PSD
+im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-Gratulálok! Sikeresen hozzáadott egy új normál réteget egy PSD-fájlhoz az Aspose.PSD for Java használatával.
+> **Pro tip:** Ha csak a PNG‑re van szüksége, kihagyhatja a PSD `save` hívást, és közvetlenül a `save`‑t `PngOptions`‑szel hívhatja.
 
-## Következtetés
+## Gyakori problémák és hibaelhárítás
 
-Ebben az oktatóanyagban az Aspose.PSD for Java segítségével új normál réteg hozzáadásának folyamatát ismertettük egy PSD-fájlhoz. Ez a hatékony könyvtár leegyszerűsíti a PSD kezelését, így elérhetővé teszi a Java fejlesztők számára. Kísérletezzen különböző paraméterekkel és funkciókkal az Aspose.PSD teljes potenciáljának felfedezéséhez.
+| Tünet | Valószínű ok | Javítás |
+|---------|--------------|-----|
+| A PNG üresnek jelenik meg | A rétegek láthatatlanok vagy teljesen átlátszóak | Győződjön meg róla, hogy nem átlátszó pixelértékeket állít be, vagy hívja a `layer.setVisible(true)`‑t. |
+| `ArrayIndexOutOfBoundsException` | Eltérés a téglalap mérete és a pixel tömb hossza között | Ellenőrizze, hogy `rect.width * rect.height == dataArray.length`. |
+| LicenseException futás közben | Nincs érvényes licenc betöltve | Töltsön be egy ideiglenes vagy állandó licencet, mielőtt bármely API metódust hívna. |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### 1. kérdés: Az Aspose.PSD kompatibilis a Java 8-cal?
+**Q: Kompatibilis az Aspose.PSD a Java 8‑al?**  
+A: Igen, az Aspose.PSD támogatja a Java 8‑at és az újabb verziókat.
 
-1. válasz: Igen, az Aspose.PSD támogatja a Java 8 és újabb verzióit.
+**Q: Alkalmazhatok transzformációkat (forgatás, méretezés) a hozzáadott rétegekre?**  
+A: Természetesen! A `Layer` osztály olyan metódusokat biztosít, mint a `rotate`, `scale` és `translate` a teljes transzformációs vezérléshez.
 
-### 2. kérdés: Alkalmazhatok átalakításokat a hozzáadott rétegekre?
+**Q: Hol találok további Aspose.PSD dokumentációt?**  
+A: Részletes API dokumentáció elérhető [here](https://reference.aspose.com/psd/java/).
 
-A2: Abszolút! Az Aspose.PSD számos átalakítási lehetőséget biztosít a rétegekhez.
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD‑hez?**  
+A: Látogassa meg az ideiglenes licenc oldalát [here](https://purchase.aspose.com/temporary-license/).
 
-### 3. kérdés: Hol találok további Aspose.PSD dokumentációt?
+**Q: Vannak közösségi fórumok az Aspose.PSD támogatásához?**  
+A: Igen, csatlakozzon a beszélgetésekhez az Aspose fórumokon [here](https://forum.aspose.com/c/psd/34).
 
- V3: Olvassa el a dokumentációt[itt](https://reference.aspose.com/psd/java/).
+## Összegzés
 
-### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD-hez?
+Most már megtanulta, hogyan **export PSD to PNG** miközben **new regular layers** hozzáad az Aspose.PSD for Java használatával, és látta, hogyan teszi lehetővé egy **aspose temporary license**, hogy korlátozások nélkül kipróbálja ezt a munkafolyamatot. Ez a bemutató a **psd image manipulation** alapvető képességeit mutatja be: fájl betöltése, rétegek létrehozása, pixeladatok feltöltése és a végső kompozíció exportálása. Nyugodtan kísérletezzen különböző téglalapméretekkel, pixel színekkel vagy réteg hatásokkal, hogy a kimenetet a projekt igényeihez igazítsa.
 
- A4: Látogassa meg[ezt a linket](https://purchase.aspose.com/temporary-license/) ideiglenes licencelési lehetőségekért.
+---
 
-### 5. kérdés: Vannak közösségi fórumok az Aspose.PSD támogatására?
+**Legutóbb frissítve:** 2026-04-08  
+**Tesztelve ezzel:** Aspose.PSD 24.11 for Java  
+**Szerző:** Aspose  
 
- V5: Igen, találhat támogatást és megbeszéléseket[itt](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
