@@ -1,10 +1,17 @@
 ---
-date: 2025-11-30
-description: Pelajari cara menambahkan efek overlay pola ke file PSD menggunakan Aspose.PSD
-  untuk Java. Panduan langkah demi langkah dengan contoh kode dan tips pemecahan masalah.
-linktitle: Add Pattern Overlay
+date: 2026-04-12
+description: Pelajari cara menambahkan efek overlay pola PSD ke file PSD menggunakan
+  Aspose.PSD untuk Java. Panduan langkah demi langkah dengan contoh kode dan tips
+  pemecahan masalah.
+keywords:
+- pattern overlay psd
+- apply texture overlay
+- change pattern overlay color
+- add pattern overlay
+- create custom psd pattern
+linktitle: Tambahkan Overlay Pola
 second_title: Aspose.PSD Java API
-title: Tambahkan Efek Overlay Pola di Aspose.PSD untuk Java
+title: 'Overlay Pola PSD: Tambahkan Efek dengan Aspose.PSD untuk Java'
 url: /id/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -13,41 +20,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Efek Overlay Pola di Aspose.PSD untuk Java
+# Overlay Pola PSD: Tambahkan Efek dengan Aspose.PSD untuk Java
 
-## Pendahuluan
-
-Jika Anda perlu **add pattern overlay** ke file Photoshop (PSD) Anda dari aplikasi Java, Aspose.PSD untuk Java membuat tugas ini menjadi sederhana. Dalam tutorial ini kami akan memandu Anda memuat PSD, mengedit pengaturan pattern overlay‑nya, dan menyimpan hasilnya—semua dengan kode yang jelas dan siap produksi. Pada akhir tutorial Anda akan memahami mengapa overlay pola berguna untuk branding, pembuatan tekstur, dan pembuatan gambar dinamis.
+Jika Anda perlu **menambahkan overlay pola** ke file Photoshop (PSD) Anda dari aplikasi Java, Aspose.PSD untuk Java membuat tugas ini menjadi sederhana. Dalam tutorial ini kami akan memandu Anda memuat PSD, mengedit pengaturan overlay pola, dan menyimpan hasilnya—semua dengan kode yang jelas dan siap produksi. Pada akhir tutorial Anda akan memahami mengapa overlay pola berguna untuk branding, pembuatan tekstur, dan pembuatan gambar dinamis.
 
 ## Jawaban Cepat
-- **Apa yang dapat saya capai?** Menambahkan atau memodifikasi efek pattern overlay pada lapisan PSD apa pun.  
-- **Perpustakaan yang diperlukan?** Aspose.PSD untuk Java (versi terbaru).  
+- **Apa yang dapat saya capai?** Tambahkan atau modifikasi efek overlay pola pada lapisan PSD apa pun.  
+- **Perpustakaan yang diperlukan?** Aspose.PSD for Java (versi terbaru).  
 - **Prasyarat?** JDK 8+, file JAR Aspose.PSD, dan file PSD contoh.  
 - **Waktu implementasi tipikal?** Sekitar 10–15 menit untuk overlay dasar.  
-- **Apakah saya dapat menggunakan kembali kode ini?** Ya – pendekatan yang sama bekerja untuk PSD apa pun dengan sumber daya pola.
+- **Bisakah saya menggunakan kembali kode ini?** Ya – pendekatan yang sama bekerja untuk PSD apa pun dengan sumber daya pola.
 
-## Apa Itu Pattern Overlay?
+## Apa itu Pattern Overlay PSD?
 
-Pattern overlay adalah efek lapisan yang menata (tile) bitmap kecil (pola) di seluruh lapisan yang dipilih. Ini biasanya digunakan untuk tekstur, stempel branding, atau latar belakang dekoratif. Dengan Aspose.PSD Anda dapat secara programatik mengubah warna pola, offset, blend mode, dan bahkan mengganti data pola yang mendasarinya.
+Pattern overlay PSD adalah efek lapisan yang menata ubin bitmap kecil (pola) di seluruh lapisan yang dipilih. Ini biasanya digunakan untuk tekstur, cap merek, atau latar belakang dekoratif. Dengan Aspose.PSD Anda dapat secara programatik mengubah warna pola, offset, mode campuran, dan bahkan mengganti data pola yang mendasarinya.
 
-## Mengapa Menggunakan Aspose.PSD untuk Java untuk Menambahkan Pattern Overlay?
+## Mengapa Menggunakan Aspose.PSD untuk Java untuk Menambahkan Overlay Pola?
 
-- **Full PSD fidelity:** Mempertahankan semua fitur Photoshop tanpa kehilangan informasi lapisan.  
-- **No native Photoshop required:** Berfungsi pada server atau lingkungan CI apa pun.  
-- **Rich API:** Akses langsung ke blend mode, opacity, dan sumber daya pola.  
-- **Cross‑platform:** Berjalan di Windows, Linux, dan macOS dengan basis kode yang sama.
+- **Fidelity PSD penuh:** Mempertahankan semua fitur Photoshop tanpa kehilangan informasi lapisan.  
+- **Tidak memerlukan Photoshop asli:** Bekerja pada server atau lingkungan CI apa pun.  
+- **API kaya:** Akses langsung ke mode campuran, opasitas, dan sumber daya pola.  
+- **Lintas‑platform:** Berjalan di Windows, Linux, dan macOS dengan basis kode yang sama.
 
 ## Prasyarat
 
-Sebelum Anda memulai, pastikan Anda memiliki:
+Sebelum memulai, pastikan Anda memiliki:
 
-- Java Development Kit (JDK) terinstal di mesin Anda.  
-- Perpustakaan Aspose.PSD untuk Java ditambahkan ke classpath proyek Anda. Anda dapat mengunduhnya dari [situs web Aspose.PSD](https://releases.aspose.com/psd/java/).  
-- File PSD contoh (misalnya `PatternOverlay.psd`) yang sudah berisi efek pattern overlay pada salah satu lapisannya.
+- Java Development Kit (JDK) terpasang di mesin Anda.  
+- Perpustakaan Aspose.PSD untuk Java ditambahkan ke classpath proyek Anda. Anda dapat mengunduhnya dari [situs Aspose.PSD](https://releases.aspose.com/psd/java/).  
+- File PSD contoh (misalnya `PatternOverlay.psd`) yang sudah berisi efek overlay pola pada salah satu lapisannya.
 
 ## Impor Paket
 
-Di kelas Java Anda, impor namespace Aspose.PSD yang diperlukan:
+Dalam kelas Java Anda, impor namespace Aspose.PSD yang diperlukan:
 
 ```java
 import com.aspose.psd.Color;
@@ -68,7 +73,7 @@ import java.util.UUID;
 
 ## Panduan Langkah‑per‑Langkah
 
-### Langkah 1: Memuat Gambar PSD
+### Langkah 1: Muat Gambar PSD
 
 Pertama, muat file PSD sumber sambil mengaktifkan pemuatan sumber daya efek:
 
@@ -83,11 +88,11 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-> **Pro tip:** Pastikan `loadOptions.setLoadEffectsResource(true)`; jika tidak, efek pattern overlay tidak akan dapat diakses.
+> **Pro tip:** Pertahankan `loadOptions.setLoadEffectsResource(true)`; jika tidak efek overlay pola tidak akan dapat diakses.
 
-### Langkah 2: Mengekstrak Informasi Pattern Overlay yang Ada
+### Langkah 2: Ekstrak Informasi Overlay Pola yang Ada
 
-Ambil `PatternOverlayEffect` dari lapisan target (di sini kami mengasumsikan itu lapisan kedua, indeks 1):
+Ambil `PatternOverlayEffect` dari lapisan target (di sini kami mengasumsikan itu adalah lapisan kedua, indeks 1):
 
 ```java
 // Extract information about the pattern overlay
@@ -96,9 +101,9 @@ PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].ge
 
 Jika PSD Anda menggunakan urutan lapisan yang berbeda, sesuaikan indeksnya sesuai.
 
-### Langkah 3: Memodifikasi Pengaturan Pattern Overlay
+### Langkah 3: Modifikasi Pengaturan Overlay Pola
 
-Sekarang Anda dapat mengubah warna, opacity, blend mode, dan offset. Perubahan ini secara langsung memengaruhi cara pola dirender pada lapisan:
+Sekarang Anda dapat mengubah warna, opasitas, mode campuran, dan offset. Perubahan ini secara langsung memengaruhi cara pola dirender pada lapisan:
 
 ```java
 // Modify pattern overlay settings
@@ -110,11 +115,11 @@ settings.setHorizontalOffset(15);
 settings.setVerticalOffset(11);
 ```
 
-> **Why it matters:** Mengubah blend mode menjadi `Difference` menghasilkan kontras visual yang mencolok, berguna untuk menyoroti detail tekstur.
+> **Mengapa penting:** Mengubah mode campuran menjadi `Difference` menghasilkan kontras visual yang mencolok, berguna untuk menyoroti detail tekstur.
 
-### Langkah 4: Mengedit Data Pattern Dasar
+### Langkah 4: Edit Data Pola yang Mendasari
 
-Ganti bitmap pola asli dengan bitmap khusus. Contoh di bawah membangun pola kecil 4×2 menggunakan beberapa warna dasar:
+Ganti bitmap pola asli dengan yang kustom. Contoh di bawah membuat pola kecil 4×2 menggunakan beberapa warna dasar:
 
 ```java
 // Edit the pattern data
@@ -135,9 +140,9 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-> **Common pitfall:** Lupa memperbarui `PatternId` akan meninggalkan pola lama tetap terpasang, sehingga perubahan visual diabaikan.
+> **Kesalahan umum:** Lupa memperbarui `PatternId` akan meninggalkan pola lama terlampir, menyebabkan perubahan visual diabaikan.
 
-### Langkah 5: Menyimpan Gambar yang Diedit
+### Langkah 5: Simpan Gambar yang Diedit
 
 Simpan perubahan ke file baru. Kami juga memperbarui nama pola dan ID dalam pengaturan sebelum menyimpan:
 
@@ -148,9 +153,9 @@ settings.setPatternId(guid.toString() + "\0");
 im.save(exportPath);
 ```
 
-### Langkah 6: Memverifikasi Perubahan
+### Langkah 6: Verifikasi Perubahan
 
-Muat ulang file yang disimpan dan pastikan overlay mencerminkan pengaturan baru:
+Muat ulang file yang disimpan dan konfirmasi bahwa overlay mencerminkan pengaturan baru:
 
 ```java
 // Verify the changes in the edited file
@@ -162,40 +167,52 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 
 Anda dapat menambahkan pernyataan gaya unit‑test di sini (mis., memeriksa `patternOverlayEffect.getOpacity()` sama dengan `193`) untuk mengotomatisasi verifikasi.
 
+## Cara Menerapkan Overlay Tekstur Menggunakan Aspose.PSD
+
+Jika tujuan Anda adalah **menerapkan overlay tekstur** bukan pola sederhana, Anda dapat menggunakan objek `PatternFillSettings` yang sama tetapi menyediakan bitmap yang lebih besar yang mewakili tekstur. Sesuaikan `horizontalOffset` dan `verticalOffset` untuk menata ubin tekstur sesuai kebutuhan.
+
+## Cara Mengubah Warna Overlay Pola
+
+Mengubah warna overlay semudah memanggil `settings.setColor(...)`. Contoh pada **Langkah 3** menunjukkan mengganti warna menjadi hijau. Anda dapat bereksperimen dengan konstanta `Color` apa pun atau membuat nilai ARGB kustom.
+
+## Cara Membuat Pola PSD Kustom
+
+Loop pada **Langkah 4** menunjukkan cara membuat pola kustom secara programatik. Dengan mengisi array `int[]` dengan nilai ARGB Anda sendiri dan menentukan ukuran persegi panjang, Anda dapat menghasilkan pola berulang apa pun—sempurna untuk membangun tekstur khusus merek secara cepat.
+
 ## Masalah Umum dan Solusinya
 
-| Masalah | Alasan | Solusi |
+| Issue | Reason | Fix |
 |-------|--------|-----|
-| **Pattern does not change** | `PatternId` tidak diperbarui atau indeks lapisan salah | Pastikan Anda memodifikasi `PattResource` yang tepat dan memanggil `settings.setPatternId(...)`. |
-| **Colors appear inverted** | Blend mode diatur ke `Difference` secara tidak sengaja | Pilih blend mode yang sesuai dengan tujuan desain Anda (mis., `Normal`, `Overlay`). |
-| **Exported PSD loses layers** | Menggunakan versi Aspose.PSD yang usang | Tingkatkan ke rilis Aspose.PSD untuk Java terbaru. |
-| **`NullPointerException` on `getEffects()[0]`** | Lapisan tidak memiliki efek yang diterapkan | Verifikasi bahwa lapisan memang berisi `PatternOverlayEffect` sebelum melakukan casting. |
+| **Pola tidak berubah** | `PatternId` tidak diperbarui atau indeks lapisan salah | Pastikan Anda memodifikasi `PattResource` yang tepat dan memanggil `settings.setPatternId(...)`. |
+| **Warna muncul terbalik** | Mode campuran diatur ke `Difference` secara tidak sengaja | Pilih mode campuran yang sesuai dengan tujuan desain Anda (mis., `Normal`, `Overlay`). |
+| **PSD yang diekspor kehilangan lapisan** | Menggunakan versi Aspose.PSD yang usang | Tingkatkan ke rilis Aspose.PSD untuk Java terbaru. |
+| `NullPointerException` pada `getEffects()[0]` | Lapisan tidak memiliki efek yang diterapkan | Verifikasi bahwa lapisan memang berisi `PatternOverlayEffect` sebelum melakukan casting. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Dapatkah saya menggunakan Aspose.PSD untuk Java dengan perpustakaan pemrosesan gambar Java lainnya?**  
-A: Aspose.PSD untuk Java berfungsi secara independen, tetapi Anda dapat menggabungkannya dengan perpustakaan seperti ImageIO atau TwelveMonkeys untuk format tambahan.
+**Q: Bisakah saya menggunakan Aspose.PSD untuk Java dengan perpustakaan pemrosesan gambar Java lainnya?**  
+A: Aspose.PSD untuk Java bekerja secara independen, tetapi Anda dapat menggabungkannya dengan perpustakaan seperti ImageIO atau TwelveMonkeys untuk dukungan format tambahan.
 
 **Q: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.PSD untuk Java?**  
 A: Lihat [dokumentasi Aspose.PSD untuk Java](https://reference.aspose.com/psd/java/) untuk referensi API lengkap.
 
-**Q: Apakah ada percobaan gratis untuk Aspose.PSD untuk Java?**  
+**Q: Apakah ada percobaan gratis yang tersedia untuk Aspose.PSD untuk Java?**  
 A: Ya, Anda dapat mengunduh percobaan gratis dari [halaman unduhan Aspose.PSD](https://releases.aspose.com/).
 
-**Q: Bagaimana cara mendapatkan dukungan untuk Aspose.PSD untuk Java?**  
+**Q: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.PSD untuk Java?**  
 A: Kunjungi [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk bantuan komunitas atau beli paket dukungan untuk bantuan langsung.
 
-**Q: Dapatkah saya memperoleh lisensi sementara untuk Aspose.PSD untuk Java?**  
+**Q: Bisakah saya memperoleh lisensi sementara untuk Aspose.PSD untuk Java?**  
 A: Ya, lisensi sementara tersedia melalui [halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Kesimpulan
 
-Anda kini telah mempelajari cara **add pattern overlay** efek ke file PSD menggunakan Aspose.PSD untuk Java. Dengan memanipulasi blend mode, opacity, offset, dan bitmap pola yang mendasarinya, Anda dapat membuat tekstur dinamis dan elemen branding langsung dari kode Java Anda. Jangan ragu bereksperimen dengan warna, pola, dan blend mode yang berbeda untuk menyesuaikan gaya visual proyek Anda.
+Anda kini telah mempelajari cara **menambahkan overlay pola** ke file PSD menggunakan Aspose.PSD untuk Java. Dengan memanipulasi mode campuran, opasitas, offset, dan bitmap pola yang mendasari, Anda dapat membuat tekstur dinamis dan elemen merek langsung dari kode Java Anda. Jangan ragu untuk bereksperimen dengan warna, pola, dan mode campuran yang berbeda untuk menyesuaikan gaya visual proyek Anda.
 
 ---
 
-**Terakhir Diperbarui:** 2025-11-30  
-**Diuji Dengan:** Aspose.PSD untuk Java 24.12 (versi terbaru pada saat penulisan)  
+**Terakhir Diperbarui:** 2026-04-12  
+**Diuji Dengan:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
