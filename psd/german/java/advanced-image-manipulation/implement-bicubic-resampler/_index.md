@@ -1,12 +1,15 @@
 ---
-date: 2025-12-01
-description: Erfahren Sie, wie Sie in Java mit dem Bicubic‑Resampler von Aspose.PSD
-  eine hochwertige Bildskalierung erreichen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung
-  für erstklassige Ergebnisse.
-linktitle: Implement Bicubic Resampler
+date: 2026-04-12
+description: Erfahren Sie, wie Sie Bilder in Java mit dem Bicubic‑Resampler von Aspose.PSD
+  skalieren. Dieses Tutorial zur Bildskalierung zeigt Schritt für Schritt, wie Sie
+  überlegene Ergebnisse erzielen.
+keywords:
+- resize image java
+- image scaling tutorial
+- java image library
+linktitle: Bikubischen Resampler implementieren
 second_title: Aspose.PSD Java API
-title: Hochqualitative Bildskalierung mit bikubischem Resampler in Aspose.PSD für
-  Java
+title: Bildgröße ändern Java – Bikubischer Resampler für hochqualitative Skalierung
 url: /de/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
@@ -15,40 +18,40 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hochqualitative Bildskalierung mit dem Bicubic Resampler in Aspose.PSD für Java
+# Bildgröße ändern in Java – Bikubischer Resampler für hochqualitatives Skalieren
 
-## Einführung
+## Einleitung
 
-Hochqualitative Bildskalierung ist ein häufiges Bedürfnis, wenn Sie Grafiken ohne Verlust der visuellen Treue verkleinern oder vergrößern müssen. Aspose.PSD für Java bietet einen **Bicubic Resampler**, der für PSD‑Dateien und andere unterstützte Formate glatte, scharfe Ergebnisse liefert. In diesem Tutorial lernen Sie Schritt für Schritt, wie Sie den Bicubic Resampler implementieren, sodass Sie noch heute hochqualitative Bildskalierung in Ihre Java‑Anwendungen integrieren können.
+Wenn Sie **Bildgröße ändern Java** Projekte benötigen, ohne Schärfe zu verlieren oder Artefakte zu erzeugen, sind Sie hier genau richtig. In diesem **Bildskalierungs‑Tutorial** führen wir Sie durch die Verwendung des Bicubic Resampler von Aspose.PSD – einer leistungsstarken **java image library**‑Funktion, die glatte, klare Ergebnisse für PSD‑Dateien und viele andere Formate liefert. Am Ende dieses Leitfadens können Sie hochqualitatives Skalieren in jede Java‑Anwendung mit nur wenigen Codezeilen integrieren.
 
-## Schnellantworten
-- **Was macht der Bicubic Resampler?** Er wendet einen ausgefeilten Interpolationsalgorithmus an, der beim Skalieren von Bildern Details bewahrt.  
-- **Welche ResizeType‑Werte stehen zur Verfügung?** `CubicConvolution` und `Bell` sind die beiden Bicubic‑Optionen, die von Aspose.PSD bereitgestellt werden.  
-- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine temporäre Lizenz reicht für die Evaluierung; für den Produktionseinsatz ist eine Voll‑Lizenz erforderlich.  
-- **Welche Java‑Version wird benötigt?** Jede Java‑8+ Runtime ist mit der neuesten Aspose.PSD‑Bibliothek kompatibel.  
-- **Kann ich andere Formate (PNG, JPEG) mit derselben API skalieren?** Ja, Aspose.PSD unterstützt mehrere Bildtypen, obwohl sich die Beispiele auf PSD konzentrieren.
+## Schnelle Antworten
+- **Was macht der Bicubic Resampler?** Es wendet einen ausgeklügelten Interpolationsalgorithmus an, der Details beim Ändern der Bildgröße bewahrt.  
+- **Welche ResizeType‑Werte sind verfügbar?** `CubicConvolution` und `Bell` sind die beiden von Aspose.PSD bereitgestellten Bicubic‑Optionen.  
+- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine temporäre Aspose‑Lizenz funktioniert für die Evaluierung; für die Produktion ist eine Voll‑Lizenz erforderlich.  
+- **Welche Java‑Version ist erforderlich?** Jede Java‑8‑+ Runtime ist mit der neuesten Aspose.PSD‑Bibliothek kompatibel.  
+- **Kann ich andere Formate (PNG, JPEG) mit derselben API skalieren?** Ja, Aspose.PSD unterstützt mehrere Bildtypen, obwohl die Beispiele sich auf PSD konzentrieren.  
 
-## Was ist hochqualitative Bildskalierung?
+## Was ist hochqualitatives Bildskalieren?
 
-Hochqualitative Bildskalierung bedeutet, ein Bild zu verändern, während scharfe Kanten, sanfte Verläufe und eine akkurate Farbdarstellung erhalten bleiben. Der Bicubic Resampler erreicht dies, indem er die Werte benachbarter Pixel (unter Verwendung von Cubic Convolution oder dem Bell‑Algorithmus) berücksichtigt, um jedes neue Pixel zu berechnen. Das Ergebnis wirkt natürlicher als bei Methoden wie Nearest‑Neighbor oder Bilinear.
+hochqualitatives Bildskalieren bezieht sich auf das Ändern der Bildgröße, wobei scharfe Kanten, glatte Verläufe und eine genaue Farbdarstellung erhalten bleiben. Der Bicubic Resampler erreicht dies, indem er die Werte benachbarter Pixel berücksichtigt (unter Verwendung von Cubic Convolution oder dem Bell‑Algorithmus), um jedes neue Pixel zu berechnen, was zu einem natürlicheren Aussehen im Vergleich zu den Methoden Nearest‑Neighbor oder Bilinear führt.
 
-## Warum den Bicubic Resampler für hochqualitative Bildskalierung verwenden?
+## Warum den Bicubic Resampler für hochqualitatives Bildskalieren verwenden?
 
-- **Bewahrt Details:** Feine Texturen und Linien bleiben auch nach erheblichen Größenänderungen klar erkennbar.  
+- **Erhält Details:** Feine Texturen und Linien bleiben auch nach erheblichen Größenänderungen klar.  
 - **Reduziert Artefakte:** Minimiert Ringing und Unschärfe, die bei einfacheren Algorithmen häufig auftreten.  
-- **Einfache Integration:** Der einzeilige Methodenaufruf (`image.resize`) ermöglicht den Wechsel zwischen Algorithmen, ohne Code neu schreiben zu müssen.  
+- **Einfache Integration:** Der Ein‑Zeilen‑Methodenaufruf (`image.resize`) ermöglicht das Wechseln zwischen Algorithmen, ohne Code neu zu schreiben.  
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
-
-- **Aspose.PSD für Java** – laden Sie die neueste JAR von der [Aspose.PSD für Java Dokumentation](https://reference.aspose.com/psd/java/) herunter.  
+- **Aspose.PSD for Java** – Laden Sie das neueste JAR von der [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) herunter.  
 - **Java Development Kit** – JDK 8 oder neuer installiert und konfiguriert.  
-- **Beispiel‑PSD‑Datei** – ein Testbild (z. B. `sample_bicubic.psd`) in einem bekannten Verzeichnis abgelegt.
+- **Beispiel‑PSD‑Datei** – ein Testbild (z. B. `sample_bicubic.psd`) in einem bekannten Verzeichnis abgelegt.  
+
+Diese Elemente bilden zusammen eine solide **java image library**‑Basis für das Tutorial.
 
 ## Pakete importieren
 
-Fügen Sie die erforderlichen Importe zu Ihrer Java‑Klasse hinzu. Diese bringen die Kernklassen von Aspose.PSD und die Aufzählung `ResizeType` ein.
+Fügen Sie die erforderlichen Importe zu Ihrer Java‑Klasse hinzu. Diese bringen die Kernklassen von Aspose.PSD und die Aufzählung `ResizeType`.
 
 ```java
 import com.aspose.psd.Image;
@@ -58,7 +61,9 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Schritt 1: Bild laden
+## Wie man Bildgröße in Java mit Bicubic Resampler ändert
+
+### Schritt 1: Bild laden
 
 Laden Sie zunächst die Quell‑PSD‑Datei, die Sie skalieren möchten. Ersetzen Sie `Your Document Directory` durch den tatsächlichen Pfad auf Ihrem Rechner.
 
@@ -68,9 +73,9 @@ String filePath = dataDir + "sample_bicubic.psd";
 PsdImage image = (PsdImage)Image.load(filePath);
 ```
 
-## Schritt 2: Skalieren mit Cubic Convolution (hohe Qualität)
+### Schritt 2: Skalieren mit Cubic Convolution (hohe Qualität)
 
-Wenden Sie nun den **Cubic Convolution**‑Algorithmus an, eine der beiden Bicubic‑Optionen, die hochqualitative Bildskalierung liefert. Das Beispiel skaliert das Bild auf 300 × 300 Pixel.
+Wenden Sie nun den **Cubic Convolution**‑Algorithmus an, eine der beiden Bicubic‑Optionen, die hochqualitatives Bildskalieren ermöglicht. Das Beispiel skaliert das Bild auf 300 × 300 Pixel.
 
 ```java
 String destNameCubicConvolution = dataDir + "ResamplerCubicConvolutionStripes_after.psd";
@@ -78,9 +83,9 @@ image.resize(300, 300, ResizeType.CubicConvolution);
 image.save(destNameCubicConvolution, new PsdOptions(image));
 ```
 
-## Schritt 3: Skalieren mit Bell‑Algorithmus (alternative hohe Qualität)
+### Schritt 3: Skalieren mit Bell‑Algorithmus (alternative hohe Qualität)
 
-Falls Sie den **Bell**‑Algorithmus bevorzugen, der einen leicht anderen Glättungseffekt bietet, können Sie ihn auf dieselbe Weise verwenden. Beachten Sie, dass wir das Originalbild erneut laden, um einen fairen Vergleich zu ermöglichen.
+Wenn Sie den **Bell**‑Algorithmus bevorzugen, der einen leicht anderen Glättungseffekt bietet, können Sie ihn auf dieselbe Weise verwenden. Beachten Sie, dass wir das Originalbild erneut laden, um den Vergleich fair zu halten.
 
 ```java
 String destNameBell = dataDir + "ResamplerBellStripes_after.psd";
@@ -89,35 +94,35 @@ imageBellStripes.resize(300, 300, ResizeType.Bell);
 imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 ```
 
-Experimentieren Sie gern mit anderen Abmessungen oder Dateiformaten – passen Sie einfach die Parameter an.
+Fühlen Sie sich frei, mit anderen Abmessungen oder Dateiformaten zu experimentieren – passen Sie einfach die Parameter entsprechend an.
 
-## Häufige Stolperfallen & Tipps
+## Häufige Fallstricke & Tipps
 
-- **Falscher Pfad:** Stellen Sie sicher, dass `dataDir` mit einem Dateiseparator (`/` oder `\`) endet, der zu Ihrem Betriebssystem passt.  
-- **Lizenz‑Ausnahmen:** Das Ausführen ohne gültige Lizenz kann ein Wasserzeichen zum Ausgabebild hinzufügen.  
-- **Speicherverbrauch:** Große PSD‑Dateien können erheblichen Speicher beanspruchen; erwägen Sie, Bilder nach dem Speichern zu entsorgen (`image.dispose()`).
+- **Falscher Pfad:** Stellen Sie sicher, dass `dataDir` mit einem Dateiseparator (`/` oder `\`) endet, der für Ihr Betriebssystem geeignet ist.  
+- **Lizenzausnahmen:** Das Ausführen ohne gültige Lizenz kann dem Ausgabebild ein Wasserzeichen hinzufügen. Verwenden Sie für Tests eine **temporary aspose license**, und wechseln Sie für die Produktion zu einer permanenten Lizenz.  
+- **Speichernutzung:** Große PSD‑Dateien können erheblichen Speicher verbrauchen; erwägen Sie, Bilder nach dem Speichern zu entsorgen (`image.dispose()`).
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich Aspose.PSD für Java mit anderen Bildformaten verwenden?**  
+**Q: Kann ich Aspose.PSD for Java mit anderen Bildformaten verwenden?**  
 A: Ja, die Bibliothek unterstützt PSD, PNG, JPEG, TIFF, BMP und viele weitere.
 
-**F: Gibt es eine temporäre Lizenz für Aspose.PSD für Java?**  
-A: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
+**Q: Ist eine temporäre Lizenz für Aspose.PSD for Java verfügbar?**  
+A: Ja, Sie können eine temporäre Lizenz von [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
-**F: Wo finde ich Support für Aspose.PSD für Java?**  
+**Q: Wo finde ich Support für Aspose.PSD for Java?**  
 A: Besuchen Sie das Aspose.PSD‑Forum [hier](https://forum.aspose.com/c/psd/34) für supportbezogene Anfragen.
 
-**F: Kann ich die Aspose.PSD‑Bibliothek für Java herunterladen?**  
+**Q: Kann ich die Aspose.PSD for Java‑Bibliothek herunterladen?**  
 A: Ja, laden Sie die Bibliothek von der Release‑Seite [hier](https://releases.aspose.com/psd/java/) herunter.
 
-**F: Wie kann ich Aspose.PSD für Java erwerben?**  
-A: Sie können Aspose.PSD für Java über die Kaufseite [hier](https://purchase.aspose.com/buy) erwerben.
+**Q: Wie kann ich Aspose.PSD for Java erwerben?**  
+A: Sie können Aspose.PSD for Java über die Kaufseite [hier](https://purchase.aspose.com/buy) erwerben.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-01  
-**Getestet mit:** Aspose.PSD für Java 24.11 (zum Zeitpunkt der Erstellung)  
+**Zuletzt aktualisiert:** 2026-04-12  
+**Getestet mit:** Aspose.PSD for Java 24.11 (zum Zeitpunkt des Schreibens aktuell)  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
