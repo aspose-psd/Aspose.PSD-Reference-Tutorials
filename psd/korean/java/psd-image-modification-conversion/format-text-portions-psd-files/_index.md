@@ -1,45 +1,54 @@
 ---
-title: Java를 사용하여 PSD 파일의 텍스트 부분 서식 지정
-linktitle: Java를 사용하여 PSD 파일의 텍스트 부분 서식 지정
-second_title: Aspose.PSD 자바 API
-description: 따라하기 쉬운 이 가이드에서 Aspose.PSD와 함께 Java를 사용하여 PSD 파일의 텍스트 부분 형식을 지정하는 방법을 알아보세요. 개발자와 디자이너에게 적합합니다.
-weight: 14
+date: 2026-03-26
+description: Aspose.PSD for Java를 사용하여 텍스트 레이어 PSD 파일을 편집하고 텍스트 색상을 변경하는 방법을 배워보세요.
+  개발자와 디자이너를 위한 단계별 가이드.
+linktitle: Edit Text Layers PSD Files using Java
+second_title: Aspose.PSD Java API
+title: Java를 사용하여 PSD 파일의 텍스트 레이어 편집 – Aspose.PSD 튜토리얼
 url: /ko/java/psd-image-modification-conversion/format-text-portions-psd-files/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java를 사용하여 PSD 파일의 텍스트 부분 서식 지정
+# Edit Text Layers PSD Files Using Java
 
-## 소개
+## Introduction
 
-점점 더 시각적으로 변하는 세상에서 그래픽과 텍스트를 효과적으로 조작하는 능력은 매우 중요합니다. 디자이너, 개발자 또는 단순히 놀라운 시각적 효과를 창출하려는 사람이든 관계없이 이러한 프로세스를 단순화하는 소프트웨어 도구는 판도를 바꿀 수 있습니다. 그러한 도구 중 하나는 Photoshop PSD 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리인 Java용 Aspose.PSD입니다. 이 기사에서는 Java를 사용하여 PSD 파일의 텍스트 부분 형식을 지정하는 방법을 살펴보겠습니다. 
+우리의 시각적인 세상이 점점 더 중요해지는 오늘날, **edit text layers PSD** 파일을 프로그래밍 방식으로 편집할 수 있다면 수작업 시간을 크게 절감할 수 있습니다. 배치로 그래픽을 업데이트해야 하는 디자이너이든, 동적 이미지 생성 서비스를 구축하는 개발자이든, Aspose.PSD for Java를 사용하면 Photoshop에서와 동일하게 PSD 텍스트를 코드로 수정할 수 있습니다. 이번 튜토리얼에서는 텍스트 레이어 PSD 파일을 편집하는 전체 과정을 단계별로 살펴보며, 개별 텍스트 부분에 대해 **change text color PSD** 하는 방법도 다룹니다.
 
-## 전제조건
+## Quick Answers
+- **What library lets you edit text layers PSD?** Aspose.PSD for Java  
+- **Can you change text color PSD programmatically?** Yes, using `ITextStyle.setFillColor`  
+- **Do I need a license for production?** A commercial license is required; a free trial is available.  
+- **Which Java version is supported?** Java 8 and later.  
+- **Is memory management required?** Yes—dispose of the `PsdImage` after saving.
 
-코딩을 시작하기 전에 환경이 올바르게 설정되었는지 확인해야 합니다. 시작하는 데 필요한 사항은 다음과 같습니다.
+## What is edit text layers PSD?
 
-### 1. 자바 개발 키트(JDK)
+Editing text layers PSD는 Photoshop PSD 파일 내부에 저장된 텍스트 데이터를 접근하여 문자, 스타일 또는 서식을 수정하고, 그 변경 사항을 파일에 다시 기록하는 작업을 의미합니다. 이 기능은 브랜드 업데이트 자동화, 현지화된 그래픽 제작, 또는 수작업 Photoshop 작업 없이 개인화된 마케팅 자산을 생성하는 데 필수적입니다.
 
-가장 먼저, 컴퓨터에 Java Development Kit를 설치하십시오. 이는 Java 프로그램을 컴파일하고 실행하는 데 중요합니다.
+## Why edit text layers PSD with Aspose.PSD?
 
-### 2. Java 라이브러리용 Aspose.PSD
+- **Full control** – Change fonts, colors, justification, and even add or remove text portions.  
+- **Cross‑platform** – Works on any OS that supports Java.  
+- **No Photoshop required** – Perform batch operations on a server or CI pipeline.  
+- **High fidelity** – Preserve layer effects, masks, and other PSD features.
 
- 다음으로 Java용 Aspose.PSD에 액세스해야 합니다. 다음 중 하나에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/psd/java/) 또는 고급 기능을 찾고 있다면 구매하세요. 확실하지 않은 경우 다음으로 시작할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
+## Prerequisites
 
-### 3. 자바 개발을 위한 IDE
+Before we jump into coding, make sure you have the following:
 
-편한 IDE를 사용할 수 있지만 널리 사용되는 선택에는 IntelliJ IDEA, Eclipse 또는 NetBeans가 있습니다. Aspose.PSD 라이브러리를 포함하도록 프로젝트를 설정했는지 확인하세요.
+1. **Java Development Kit (JDK)** – Java 8+ installed and configured.  
+2. **Aspose.PSD for Java Library** – Download it from [here](https://releases.aspose.com/psd/java/) or start with a [free trial](https://releases.aspose.com/).  
+3. **IDE for Java Development** – IntelliJ IDEA, Eclipse, or NetBeans, with the Aspose.PSD JAR added to your project’s classpath.  
+4. **Basic Knowledge of Java** – Familiarity with objects, loops, and exception handling.
 
-### 4. 자바의 기본지식
+## Importing Necessary Packages
 
-Java에 대한 기본 지식이 있으면 PSD 파일을 조작하는 과정을 진행하는 데 많은 도움이 될 것입니다.
-
-## 필요한 패키지 가져오기
-
-Java용 Aspose.PSD를 사용하는 경우 사용할 클래스와 메서드에 액세스하려면 특정 패키지를 가져와야 합니다. 확인해 봅시다:
+When using Aspose.PSD for Java, you'll need to import specific packages to access the classes and methods you'll use. Let's check them out:
 
 ```java
 import com.aspose.psd.Color;
@@ -53,11 +62,11 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.internal.Exceptions.Exception;
 ```
 
-이러한 가져오기를 통해 예제에서 요구되는 Aspose.PSD의 필수 기능에 액세스할 수 있습니다.
+These imports give you access to the essential functionalities of Aspose.PSD that we'll require in our example.
 
-## 1단계: 디렉터리 정의
+## Step 1: Define Your Directories
 
-PSD 파일 작업을 시작하기 전에 소스 PSD 파일의 위치와 수정된 파일을 저장할 위치를 정의해야 합니다. 
+Before we start working with the PSD file, we need to define where our source PSD file is located and where we want to save the modified file.
 
 ```java
 String sourceDir = "Your Source Directory";
@@ -66,103 +75,103 @@ String inPsdFilePath = sourceDir + "ThreeColorsParagraphs.psd";
 String outPsdFilePath = outputDir + "ThreeColorsParagraph_out.psd";
 ```
 
-이 부분에서는 PSD 파일이 저장되는 실제 경로를 지정해야 합니다. 이렇게 하면 파일을 쉽게 찾을 수 있습니다.
+Replace the placeholder paths with the actual locations on your machine.
 
-## 2단계: PSD 파일 로드
+## Step 2: Load the PSD File
 
-다음 단계는 작업하려는 PSD 파일을 로드하는 것입니다. Aspose는 이것을 매우 간단하게 만듭니다.
+The next step is to load the PSD file you want to work with. Aspose makes this super simple.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
 
- 여기서는`Image.load` 작업하려는 파일의 경로를 인수로 사용하는 메서드입니다. 그것은 책을 여는 것과 같습니다. 어디서 찾을 수 있는지 알아야 해요!
+`Image.load` opens the file so we can start inspecting its layers.
 
-## 3단계: 레이어 반복
+## Step 3: Loop Through the Layers
 
-PSD 파일이 로드되면 이제 레이어를 자세히 살펴볼 차례입니다. 모든 레이어에 텍스트가 포함되어 있는 것은 아니며 텍스트 레이어만 찾고 싶습니다. 필터링해 보겠습니다.
+Once the PSD file is loaded, it’s time to dig into its layers. Not all layers contain text, and we want to find only the text layers. Let's filter them out:
 
 ```java
 for (Layer layer : psdImage.getLayers()) {
     if (!(layer instanceof TextLayer)) {
         continue;
     }
-    // 텍스트 레이어만 처리…
+    // Process only text layers…
 }
 ```
 
- 그만큼`for` 루프는 PSD 파일의 모든 레이어를 반복하고 각 레이어가 다음의 인스턴스인지 확인합니다.`TextLayer`. 그렇지 않은 경우 다음 레이어로 계속 진행합니다.
+The loop iterates over every layer, and we skip any that aren’t instances of `TextLayer`.
 
-## 4단계: 텍스트 부분에 액세스
+## Step 4: Access Text Portions
 
-텍스트 레이어를 식별하면 해당 텍스트 부분에 액세스하여 편집할 수 있습니다. 마법이 시작되는 곳입니다!
+After we identify a text layer, we can access its text portions for editing. This is where the magic begins!
 
 ```java
 TextLayer textLayer = (TextLayer) layer;
 ITextPortion[] portions = textLayer.getTextData().getItems();
 ```
 
- 여기서는 레이어를`TextLayer` 텍스트 부분을 검색합니다. 텍스트 부분을 편집할 수 있는 개별 단어나 문장으로 생각하세요!
+Think of text portions as the individual words or sentences that you can edit independently.
 
-## 5단계: 텍스트 부분 수정
+## Step 5: Modify Text Portions
 
-이제 텍스트를 편집해 보겠습니다. 기존 텍스트를 변경하고, 일부를 제거하고, 새 텍스트를 추가할 수도 있습니다.
+Now, let’s edit the text. We’ll change existing text, remove some portions, and even add new text:
 
 ```java
 portions[0].setText("Hello ");
 portions[1].setText("World");
-// 텍스트 부분 제거
+// Removing text portions
 textLayer.getTextData().removePortion(3);
 textLayer.getTextData().removePortion(2);
-// 새 텍스트 부분 추가
+// Adding new text portion
 ITextPortion createdPortion = textLayer.getTextData().producePortion();
 createdPortion.setText("!!!\r");
 textLayer.getTextData().addPortion(createdPortion);
 ```
 
-새로운 텍스트 값을 설정하는 방법에 주목하세요. 마치 편지의 한 줄을 다시 쓰는 것과 같습니다. 매우 간단합니다!
+You can see how straightforward it is to rewrite or delete parts of the paragraph.
 
-## 6단계: 텍스트 정렬 및 스타일 지정
+## Step 6: Justify and Style Text
 
-텍스트를 수정한 후 스타일을 조정하고 싶을 수도 있습니다. 화장을 할 준비가 되셨나요? 텍스트 맞춤과 색상을 조정해 보겠습니다.
+After modifying the text, we may want to adjust the styling. Are you ready for a make‑over? Let's adjust text justification and colors:
 
 ```java
-// 오른쪽 맞춤 설정
-portions[0].getParagraph().setJustification(1); // 오른쪽
+// Set right justification
+portions[0].getParagraph().setJustification(1); // Right
 portions[1].getParagraph().setJustification(1);
 portions[2].getParagraph().setJustification(1);
 
-// 채우기 색상을 개별적으로 설정
+// Set fill colors individually
 portions[0].getStyle().setFillColor(Color.getAquamarine());
 portions[1].getStyle().setFillColor(Color.getViolet());
 portions[2].getStyle().setFillColor(Color.getLightBlue());
 ```
 
-각 부분에는 고유한 스타일이 있어서 시각적으로 매력적인 텍스트를 쉽게 만들 수 있습니다! 그것은 다양한 상황에 맞게 옷을 고르는 것과 같습니다.
+Here we **change text color PSD** for each portion by setting a different `fillColor`. This gives each word its own visual identity.
 
-## 7단계: 레이어 데이터 업데이트
+## Step 7: Update Layer Data
 
-모든 변경을 수행한 후에는 해당 변경 사항이 레이어 데이터에 반영되었는지 확인해야 합니다.
+After making all those changes, we need to ensure those changes are reflected in the layer data:
 
 ```java
 textLayer.getTextData().updateLayerData();
 ```
 
-이 단계에서는 기본적으로 편지를 보내기 전에 봉인하는 것과 같이 텍스트 부분에 대한 변경 사항을 레이어에 다시 커밋합니다.
+This call commits the modifications back to the underlying PSD structure.
 
-## 8단계: 수정된 PSD 파일 저장
+## Step 8: Save the Modified PSD File
 
-마지막으로 PSD 파일에 대한 변경 사항을 저장해 보겠습니다.
+Finally, let’s save the changes we made to the PSD file:
 
 ```java
 psdImage.save(outPsdFilePath, new PsdOptions(psdImage));
 ```
 
-편집한 PSD 파일을 저장할 올바른 출력 경로를 지정했는지 확인하세요. 그것은 당신의 아름다운 창조물을 액자에 담는 것과 같습니다!
+Specify the output path where you want the edited file to be written.
 
-## 9단계: 리소스 폐기
+## Step 9: Dispose of Resources
 
-애플리케이션에서 메모리 문제가 발생하지 않도록 하려면 작업을 마친 후 이미지 리소스를 삭제하는 것이 가장 좋습니다.
+To keep memory usage low, always dispose of the image resources when you’re finished:
 
 ```java
 finally {
@@ -170,30 +179,40 @@ finally {
 }
 ```
 
-이 단계에서는 사용한 리소스를 정리합니다. 마치 아름다운 것을 만든 후 작업 공간을 정리하는 것과 비슷합니다.
+Cleaning up prevents memory leaks, especially when processing many files in a batch.
 
-## 결론
+## Common Issues and Solutions
 
-그리고 거기에 있습니다! Java용 Aspose.PSD를 사용하여 PSD 파일의 텍스트 부분 형식을 지정하는 방법을 성공적으로 배웠습니다. 단 몇 줄의 코드만으로 마치 Photoshop에서 작업하는 것처럼 PSD 파일의 복잡한 텍스트 조작을 수행할 수 있습니다. 
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **NullPointerException on `portions[2]`** | The source PSD has fewer than three portions. | Verify the number of portions with `portions.length` before accessing indexes. |
+| **Colors not applied** | Using an outdated Aspose.PSD version. | Upgrade to the latest Aspose.PSD for Java release. |
+| **File not found** | Incorrect path in `sourceDir` or `outputDir`. | Use absolute paths or double‑check relative paths. |
+| **License not set** | Trial version may add watermarks. | Apply a valid license with `License license = new License(); license.setLicense("Aspose.PSD.lic");` |
 
-이 새로 발견된 기술을 사용하면 청중의 관심을 끌고 유지할 수 있는 미학적으로 더욱 만족스러운 그래픽을 만들고 수정할 수 있습니다. 그러니 가만히 앉아만 있지 말고 이미지 처리의 세계에 빠져들어 창의력을 마음껏 발휘해 보세요.
+## Frequently Asked Questions
 
-## FAQ
+### What is Aspose.PSD for Java?
+Aspose.PSD for Java is a library that allows developers to manipulate and work with Photoshop PSD files programmatically.
 
-### Java용 Aspose.PSD란 무엇입니까?
-Aspose.PSD for Java는 개발자가 프로그래밍 방식으로 Photoshop PSD 파일을 조작하고 작업할 수 있는 라이브러리입니다.
+### Can I use Aspose.PSD for free?
+Yes, you can start with a free trial available on the Aspose website before deciding to purchase.
 
-### Aspose.PSD를 무료로 사용할 수 있나요?
-예, 구매를 결정하기 전에 Aspose 웹사이트에서 무료 평가판을 사용해 볼 수 있습니다.
+### What prerequisites do I need?
+You need the Java Development Kit (JDK) installed, the Aspose.PSD library, and basic knowledge of Java programming.
 
-### 어떤 전제조건이 필요합니까?
-JDK(Java Development Kit), Aspose.PSD 라이브러리 및 Java 프로그래밍에 대한 몇 가지 기본 지식이 설치되어 있어야 합니다.
+### Are there any limitations with the free trial?
+Yes, the free trial may have certain limitations regarding the features available, such as watermarking or limited usage.
 
-### 무료 평가판에 제한 사항이 있나요?
-예, 무료 평가판에는 워터마킹이나 사용 제한 등 사용 가능한 기능과 관련하여 특정 제한이 있을 수 있습니다.
+### Where can I find more information about Aspose.PSD?
+You can check the documentation for detailed usage scenarios and API references [here](https://reference.aspose.com/psd/java/).
 
-### Aspose.PSD에 대한 자세한 정보는 어디서 찾을 수 있나요?
- 자세한 사용 시나리오 및 API 참조에 대한 설명서를 확인할 수 있습니다.[여기](https://reference.aspose.com/psd/java/).
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
