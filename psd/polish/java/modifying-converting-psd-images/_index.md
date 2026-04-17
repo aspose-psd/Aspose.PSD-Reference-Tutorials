@@ -1,116 +1,159 @@
 ---
-title: Modyfikowanie i konwertowanie obrazów PSD
-linktitle: Modyfikowanie i konwertowanie obrazów PSD
-second_title: Aspose.PSD API Java
-description: Ulepsz swoje pliki PSD za pomocą różnych dostosowań i efektów za pomocą Aspose.PSD dla Java. Samouczki krok po kroku dotyczące manipulacji kolorami, znaków wodnych i nie tylko.
-weight: 21
+date: 2026-03-02
+description: Naucz się, jak dodać przekątny znak wodny oraz inne modyfikacje PSD,
+  takie jak dodanie warstwy odcienia i nasycenia, dodanie warstwy wypełnienia kolorem,
+  dodanie korekty krzywych, zmiana trybu mieszania na nakładkę oraz zamiana kolorów
+  w PSD przy użyciu Aspose.PSD dla Javy.
+linktitle: Modifying and Converting PSD Images
+second_title: Aspose.PSD Java API
+title: Dodaj przekątny znak wodny – modyfikowanie i konwertowanie obrazów PSD
 url: /pl/java/modifying-converting-psd-images/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modyfikowanie i konwertowanie obrazów PSD
+# Dodaj Przekątną Znak Wodny – Modyfikowanie i Konwertowanie Obrazów PSD
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.PSD dla Java zapewnia wszechstronny zestaw narzędzi do pracy z plikami PSD, oferujący liczne opcje modyfikowania i ulepszania obrazów. Niezależnie od tego, czy jesteś doświadczonym projektantem, czy dopiero zaczynasz, nasze samouczki mają na celu pomóc Ci wykorzystać pełny potencjał Aspose.PSD. Oto podsumowanie samouczków, które możesz wykorzystać, aby opanować różne aspekty manipulacji plikami PSD.
+Aspose.PSD for Java daje Ci potężny zestaw narzędzi do **add diagonal watermark** oraz wykonywania szerokiego zakresu ulepszeń obrazów w plikach PSD. Niezależnie od tego, czy jesteś profesjonalnym projektantem chroniącym swoje zasoby, czy programistą automatyzującym przepływy pracy graficznej, te samouczki krok po kroku pokażą, jak manipulować kolorami, warstwami i efektami z pewnością. Opanowując te techniki, będziesz mógł usprawnić swoją linię projektową, zabezpieczyć własność intelektualną i szybciej tworzyć dopracowane wizualizacje.
 
-## Dodaj warstwę dopasowania miksera kanałów w PSD
+## Szybkie odpowiedzi
+- **Co robi „add diagonal watermark”?** Nakłada pochyły tekst lub obrazowy znak wodny na całe płótno PSD.  
+- **Która biblioteka to obsługuje?** Aspose.PSD for Java udostępnia dedykowane API do znakowania wodnego i innych manipulacji PSD.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarcza do oceny; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę łączyć znakowanie wodne z innymi korektami?** Tak – możesz łączyć operacje, takie jak zmiany hue‑saturation, warstwy wypełnienia kolorem i modyfikacje blend‑mode w jednym przepływie pracy.  
+- **Czy API jest kompatybilne z Java 8+?** Absolutnie, obsługuje nowoczesne wersje Java i działa na dowolnej maszynie JVM.
 
- Chcesz dostroić kolory w plikach PSD? Dodanie warstwy regulacji miksera kanałów może zmienić zasady gry. Ten samouczek przeprowadzi Cię przez proces włączania tej warstwy dopasowania w celu manipulowania kanałami kolorów, zapewniając precyzyjną kontrolę nad balansem kolorów obrazu. Dzięki temu przewodnikowi krok po kroku możesz bez wysiłku uzyskać żywe i dokładne korekty kolorów.[Przeczytaj więcej](./add-channel-mixer-adjustment-layer-psd/)
+## Czym jest add diagonal watermark?
+Dodanie przekątnego znaku wodnego oznacza umieszczenie półprzezroczystego tekstu lub obrazu pod kątem 45 stopni, tak aby rozciągał się na całą kompozycję. Technika ta odstrasza nieautoryzowane użycie, jednocześnie pozostawiając widoczną podstawową projekt.
 
-## Dodaj ukośny znak wodny do plików PSD za pomocą Java
+## Dlaczego warto używać Aspose.PSD for Java?
+- **Pełna wierność PSD:** Zachowuje informacje o warstwach, maskach i ustawieniach korekt.  
+- **Przetwarzanie po stronie serwera:** Nie wymaga interfejsu graficznego; automatyzuj zadania wsadowe w usługach back‑end.  
+- **Bogaty zestaw korekt:** Łącz znakowanie wodne z warstwami hue‑saturation, warstwami wypełnienia kolorem, korektami krzywych i zmianami blend‑mode.  
 
-Ochrona zdjęć znakiem wodnym nigdy nie była łatwiejsza. Nasz przewodnik na temat dodawania ukośnego znaku wodnego do plików PSD pokazuje, jak używać Aspose.PSD dla Java do nakładania znaku wodnego, chroniąc własność intelektualną przy jednoczesnym zachowaniu integralności projektu. Wykonaj nasze łatwe do zrozumienia kroki, aby bezproblemowo zintegrować znaki wodne z plikami PSD.[Przeczytaj więcej](./add-diagonal-watermark-psd-files/)
+## Add Channel Mixer Adjustment Layer in PSD
 
-## Dodaj warstwę dopasowania nasycenia odcienia do PSD
+Chcesz precyzyjnie dostroić kolory w swoich plikach PSD? Dodanie warstwy dopasowania Channel Mixer może być przełomowe. Ten samouczek przeprowadzi Cię przez proces włączenia tej warstwy dopasowania, aby manipulować kanałami kolorów, dając Ci dokładną kontrolę nad balansem kolorów obrazu. Ten przewodnik krok po kroku zapewnia, że możesz osiągnąć żywe i dokładne korekty kolorów bez wysiłku. [Read more](./add-channel-mixer-adjustment-layer-psd/)
 
- Dostosowanie odcienia i nasycenia ma kluczowe znaczenie dla korekcji i wzmocnienia kolorów. W tym samouczku dowiesz się, jak dodać warstwę dopasowania nasycenia odcienia do plików PSD, co umożliwi bardziej szczegółowe dopasowanie kolorów. Ten przewodnik pomoże Ci ulepszyć Twoje projekty graficzne, zapewniając precyzyjną kontrolę kolorów.[Przeczytaj więcej](./add-hue-saturation-adjustment-layer-psd/)
+## Add Diagonal Watermark to PSD Files with Java
 
-## Dodaj warstwy wypełnienia do plików PSD w Aspose.PSD dla Java
+Zabezpieczanie obrazów znakiem wodnym nigdy nie było prostsze. Nasz przewodnik dotyczący dodawania przekątnego znaku wodnego do plików PSD pokazuje, jak używać Aspose.PSD for Java do nałożenia znaku wodnego, chroniąc własność intelektualną przy zachowaniu integralności projektu. Postępuj zgodnie z naszymi łatwymi do zrozumienia krokami, aby płynnie integrować znaki wodne w plikach PSD. [Read more](./add-diagonal-watermark-psd-files/)
 
-Warstwy wypełnienia to świetny sposób na dodanie wypełnień jednolitym kolorem lub wzorem do plików PSD. W naszym samouczku opisano, jak dodawać warstwy wypełnienia za pomocą Aspose.PSD dla Java, co pozwala ulepszyć projekty za pomocą jednolitych kolorów i wzorów. Ten przewodnik krok po kroku pokaże Ci, jak bezproblemowo zintegrować warstwy wypełnienia z projektem, dodając głębi i stylu grafice.[Przeczytaj więcej](./add-fill-layers-psd-files/)
+## Add Hue Saturation Adjustment Layer to PSD
 
-## Dodaj warstwę tekstową w środowisku wykonawczym w plikach PSD przy użyciu języka Java
+Regulacja odcienia i nasycenia jest kluczowa dla korekcji i ulepszenia kolorów. W tym samouczku nauczysz się, jak dodać warstwę dopasowania Hue Saturation do swoich plików PSD, umożliwiając subtelne korekty kolorystyczne. Ten przewodnik pomoże Ci podnieść jakość projektów graficznych, zapewniając precyzyjną kontrolę nad kolorami. Zobaczysz także, jak **add hue saturation layer** programowo dla przetwarzania wsadowego. [Read more](./add-hue-saturation-adjustment-layer-psd/)
 
- Dynamiczne warstwy tekstowe mogą zapewnić interaktywność i personalizację plików PSD. Dowiedz się, jak dodawać warstwy tekstowe w czasie wykonywania za pomocą Aspose.PSD dla Java, korzystając z naszego szczegółowego samouczka. W tym przewodniku opisano kroki programowego wstawiania warstw tekstowych i manipulowania nimi, oferując nowe możliwości automatyzacji i personalizacji projektów.[Przeczytaj więcej](./add-text-layer-runtime-psd-files/)
+## Add Fill Layers to PSD Files in Aspose.PSD for Java
 
-## Zmień tryb mieszania w efekcie nakładki gradientowej
+Warstwy wypełnienia to świetny sposób na dodanie jednolitego koloru lub wzoru do plików PSD. Nasz samouczek opisuje, jak dodać warstwy wypełnienia przy użyciu Aspose.PSD for Java, umożliwiając wzbogacenie projektów jednolitymi kolorami lub wzorami. Ten przewodnik krok po kroku pokaże Ci, jak płynnie integrować warstwy wypełnienia w projekcie, dodając głębi i stylu grafikom. Dowiedz się, jak **add color fill layer** dla szybkiego tworzenia tła. [Read more](./add-fill-layers-psd-files/)
 
-Dostosowywanie trybów mieszania w nakładkach gradientowych może radykalnie zmienić wygląd obrazów. Nasz samouczek wyjaśnia, jak zmienić tryb mieszania w nakładkach gradientowych przy użyciu Aspose.PSD dla Java, zapewniając narzędzia do tworzenia oszałamiających efektów wizualnych. Ten przewodnik krok po kroku jest idealny dla projektantów, którzy chcą eksperymentować z różnymi opcjami mieszania.[Przeczytaj więcej](./change-blend-mode-gradient-overlay-effect/)
+## Add Text Layer on Runtime in PSD Files using Java
 
-## Dodaj warstwę wypełnienia kolorem do plików PSD przy użyciu języka Java
+Dynamiczne warstwy tekstowe mogą wprowadzić interaktywność i personalizację do Twoich plików PSD. Dowiedz się, jak dodawać warstwy tekstowe w czasie wykonywania przy użyciu Aspose.PSD for Java w naszym szczegółowym samouczku. Przewodnik obejmuje kroki programowego wstawiania i manipulacji warstwami tekstowymi, otwierając nowe możliwości automatyzacji i personalizacji projektów. [Read more](./add-text-layer-runtime-psd-files/)
 
- Dodanie warstwy wypełnienia kolorem jest podstawową techniką dla projektantów chcących ulepszyć swoje pliki PSD. Ten samouczek zawiera jasne instrukcje dotyczące dodawania warstw wypełnienia kolorem przy użyciu Aspose.PSD dla Java. Postępując zgodnie z tym przewodnikiem, dowiesz się, jak zastosować jednolite kolory do elementów projektu, dzięki czemu Twoja praca będzie wydajniejsza, a projekty bardziej żywe.[Przeczytaj więcej](./add-color-fill-layer-psd-files/)
+## Change Blend Mode in Gradient Overlay Effect
 
-## Zastępowanie kolorów w plikach PSD przy użyciu Aspose.PSD dla Java
+Modyfikacja trybów mieszania w nakładkach gradientowych może diametralnie zmienić wygląd Twoich obrazów. Nasz samouczek wyjaśnia, jak zmienić blend mode w gradient overlay przy użyciu Aspose.PSD for Java, dostarczając narzędzia do tworzenia oszałamiających efektów wizualnych. Ten przewodnik krok po kroku jest idealny dla projektantów, którzy chcą eksperymentować z różnymi opcjami mieszania. Odkryj, jak **change blend mode overlay** dla bogatszych gradientów. [Read more](./change-blend-mode-gradient-overlay-effect/)
 
-Chcesz zastąpić określone kolory w plikach PSD? Nasz przewodnik na temat zastępowania kolorów pokazuje, jak efektywnie zamieniać kolory za pomocą Aspose.PSD dla Java. Ten samouczek krok po kroku upraszcza proces, pomagając uzyskać precyzyjną regulację kolorów obrazów przy minimalnym wysiłku.[Przeczytaj więcej](./color-replacement-psd-files/)
+## Add Color Fill Layer to PSD Files using Java
 
-## Twórz indeksowane pliki PSD za pomocą Aspose.PSD dla Java
+Dodanie warstwy wypełnienia kolorem jest niezbędną techniką dla projektantów, którzy chcą wzbogacić swoje pliki PSD. Ten samouczek dostarcza jasnych instrukcji, jak dodać warstwy wypełnienia kolorem przy użyciu Aspose.PSD for Java. Postępując zgodnie z przewodnikiem, nauczysz się stosować jednolite kolory do elementów projektu, co zwiększy efektywność pracy i sprawi, że projekty będą bardziej żywe. [Read more](./add-color-fill-layer-psd-files/)
 
- Indeksowane tryby kolorów są przydatne do zmniejszania rozmiaru pliku i optymalizowania obrazów do użytku w Internecie. Dowiedz się, jak tworzyć indeksowane pliki PSD, korzystając z naszego samouczka, który poprowadzi Cię przez proces korzystania z Aspose.PSD dla Java. Ten przewodnik krok po kroku pomoże Ci zarządzać paletami kolorów i efektywnie optymalizować grafikę.[Przeczytaj więcej](./create-indexed-psd-files/)
+## Color Replacement in PSD Files using Aspose.PSD for Java
 
-## Twórz miniatury z plików PSD przy użyciu języka Java
+Potrzebujesz zamienić konkretne kolory w swoich plikach PSD? Nasz przewodnik po zamianie kolorów pokazuje, jak efektywnie wymieniać kolory przy użyciu Aspose.PSD for Java. Ten samouczek krok po kroku upraszcza proces, pomagając osiągnąć precyzyjne korekty kolorystyczne w obrazach przy minimalnym wysiłku. Poznaj najlepsze praktyki, aby **replace colors psd** szybko i dokładnie. [Read more](./color-replacement-psd-files/)
 
-Tworzenie miniatur z plików PSD może być niezwykle przydatne do szybkiego podglądu i wydajnego zarządzania plikami. Nasz szczegółowy samouczek przeprowadzi Cię przez proces generowania miniatur za pomocą Aspose.PSD dla Java. Postępując zgodnie z tymi szczegółowymi instrukcjami, dowiesz się, jak tworzyć małe, reprezentatywne obrazy plików PSD, co ułatwi zarządzanie projektami i prezentowanie ich.[Przeczytaj więcej](./create-thumbnails-psd-files/)
+## Create Indexed PSD Files using Aspose.PSD for Java
 
-## Dodaj zasób IOPA do plików PSD przy użyciu Java
+Tryby kolorów indeksowanych są przydatne do zmniejszania rozmiaru pliku i optymalizacji obrazów pod kątem użycia w sieci. Dowiedz się, jak tworzyć indeksowane pliki PSD w naszym samouczku, który prowadzi Cię przez proces przy użyciu Aspose.PSD for Java. Ten przewodnik krok po kroku pomoże Ci zarządzać paletami kolorów i skutecznie optymalizować grafiki. [Read more](./create-indexed-psd-files/)
 
- Włączenie zasobów IOPA (architektura optymalizacji i przetwarzania obrazu) do plików PSD może zwiększyć możliwości przetwarzania obrazu. Ten obszerny przewodnik uczy, jak dodawać zasoby IOPA przy użyciu Aspose.PSD dla Java. Wykonasz proste kroki, aby skutecznie zintegrować te zasoby, usprawniając zadania związane z manipulacją i optymalizacją obrazu.[Przeczytaj więcej](./add-iopa-resource-psd-files/)
+## Create Thumbnails from PSD Files using Java
 
-## Kontroluj realokację pamięci podręcznej w plikach PSD
+Tworzenie miniatur z plików PSD może być niezwykle przydatne do szybkich podglądów i efektywnego zarządzania plikami. Nasz szczegółowy samouczek przeprowadzi Cię przez proces generowania miniatur przy użyciu Aspose.PSD for Java. Postępując zgodnie z instrukcjami krok po kroku, nauczysz się tworzyć małe, reprezentatywne obrazy swoich plików PSD, co ułatwi zarządzanie i prezentację projektów. [Read more](./create-thumbnails-psd-files/)
 
-Zarządzanie realokacją pamięci podręcznej w plikach PSD ma kluczowe znaczenie dla optymalizacji wykorzystania pamięci i poprawy wydajności. Nasz samouczek zapewnia szczegółowe spojrzenie na kontrolowanie realokacji pamięci podręcznej za pomocą Aspose.PSD dla Java. Dowiedz się, jak efektywnie zarządzać pamięcią i zapewnić płynną obsługę plików PSD, dzięki czemu jest to idealne rozwiązanie dla programistów chcących zoptymalizować przepływ pracy w przetwarzaniu obrazów.[Przeczytaj więcej](./control-cache-reallocation-psd-files/)
+## Add IOPA Resource to PSD Files using Java
 
-## Dodaj warstwę dopasowania krzywych w PSD przy użyciu Java
+Włączenie zasobów IOPA (Image Optimization and Processing Architecture) do plików PSD może zwiększyć możliwości przetwarzania obrazów. Ten kompleksowy przewodnik nauczy Cię, jak dodać zasoby IOPA przy użyciu Aspose.PSD for Java. Przejdziesz przez proste kroki integracji tych zasobów, podnosząc efektywność manipulacji i optymalizacji obrazów. [Read more](./add-iopa-resource-psd-files/)
 
- Warstwy dopasowania krzywych to potężne narzędzia do precyzyjnego dostrajania jasności i kontrastu obrazów. Nasz samouczek poprowadzi Cię przez proces dodawania warstwy dopasowania krzywych do plików PSD przy użyciu Aspose.PSD dla Java. Ten przewodnik krok po kroku pomoże Ci dokonać precyzyjnych korekt w celu ulepszenia obrazów, zapewniając większą kontrolę nad ostatecznym wyglądem grafiki.[Przeczytaj więcej](./add-curves-adjustment-layer-psd/)
+## Control Cache Reallocation in PSD Files
 
-## Dodaj warstwę regulacji poziomu w PSD
+Zarządzanie ponownym przydzielaniem pamięci podręcznej w plikach PSD jest kluczowe dla optymalizacji zużycia pamięci i poprawy wydajności. Nasz samouczek zapewnia dogłębny wgląd w kontrolowanie ponownego przydzielania pamięci przy użyciu Aspose.PSD for Java. Naucz się efektywnie zarządzać pamięcią i zapewniać płynne przetwarzanie plików PSD, co jest idealne dla programistów optymalizujących przepływy pracy przetwarzania obrazów. [Read more](./control-cache-reallocation-psd-files/)
 
-Warstwy dopasowywania poziomów są niezbędne do korygowania zakresów tonalnych i poprawy kontrastu obrazu. Ten samouczek pokazuje, jak skutecznie dodać warstwę dostosowania poziomu do plików PSD przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z naszymi prostymi instrukcjami, aby dostosować cienie, półcienie i światła, a także udoskonalić obrazy, aby uzyskać pożądany efekt wizualny.[Przeczytaj więcej](./add-level-adjustment-layer-psd/)
+## Add Curves Adjustment Layer in PSD using Java
 
-## Dodaj znak wodny do plików PSD za pomocą Aspose.PSD dla Java
+Warstwy dopasowania Curves to potężne narzędzia do precyzyjnego dostrajania jasności i kontrastu obrazów. Nasz samouczek prowadzi Cię przez dodanie warstwy dopasowania Curves do plików PSD przy użyciu Aspose.PSD for Java. Ten przewodnik krok po kroku pomoże Ci wprowadzić dokładne korekty, podnosząc jakość obrazów i dając większą kontrolę nad ostatecznym wyglądem grafiki. Nauczysz się także, jak **add curves adjustment** dla ukierunkowanej kontroli tonalnej. [Read more](./add-curves-adjustment-layer-psd/)
 
- Znak wodny plików PSD to świetny sposób na ochronę własności intelektualnej i promowanie marki obrazów. Nasz przewodnik wyjaśnia, jak dodawać znaki wodne do plików PSD za pomocą Aspose.PSD dla Java. Dzięki szczegółowym krokom i przejrzystym instrukcjom będziesz mógł bezproblemowo dodawać znaki wodne i zabezpieczać swoje projekty.[Przeczytaj więcej](./add-watermark-psd-files/)
+## Add Level Adjustment Layer in PSD
 
-## Samouczki dotyczące modyfikowania i konwertowania obrazów PSD
-### [Dodaj warstwę dopasowania miksera kanałów w PSD](./add-channel-mixer-adjustment-layer-psd/)
-Ulepsz swoje pliki PSD za pomocą warstw dopasowania miksera kanałów za pomocą Aspose.PSD dla Java. Naucz się krok po kroku technik manipulacji kolorami, aby uzyskać żywe obrazy.
-### [Dodaj warstwę dopasowania krzywych w PSD przy użyciu Java](./add-curves-adjustment-layer-psd/)
-tym szczegółowym samouczku dowiesz się, jak dodać warstwę dopasowania krzywych do pliku PSD przy użyciu Aspose.PSD dla Java. Z łatwością ulepszaj swoje obrazy.
-### [Dodaj ukośny znak wodny do plików PSD za pomocą Java](./add-diagonal-watermark-psd-files/)
-Dowiedz się, jak łatwo dodać ukośny znak wodny do plików PSD przy użyciu Java z Aspose.PSD. Przewodnik krok po kroku, jak pewnie poprawić swoje zdjęcia.
+Warstwy dopasowania Level są niezbędne do korekcji zakresów tonalnych i poprawy kontrastu obrazu. Ten samouczek pokazuje, jak skutecznie dodać warstwę dopasowania Level do plików PSD przy użyciu Aspose.PSD for Java. Postępuj zgodnie z prostymi instrukcjami, aby regulować cienie, średnie tony i podświetlenia, udoskonalając obrazy w celu uzyskania pożądanego efektu wizualnego. [Read more](./add-level-adjustment-layer-psd/)
+
+## Add Watermark to PSD Files with Aspose.PSD for Java
+
+Dodawanie znaku wodnego do plików PSD to doskonały sposób na ochronę własności intelektualnej i oznaczenie swoich obrazów. Nasz przewodnik wyjaśnia, jak dodać znaki wodne do plików PSD przy użyciu Aspose.PSD for Java. Dzięki szczegółowym krokom i jasnym instrukcjom będziesz mógł płynnie integrować znaki wodne i zabezpieczać swoje projekty. [Read more](./add-watermark-psd-files/)
+
+## Modifying and Converting PSD Images Tutorials
+### [Dodaj warstwę dopasowania Channel Mixer w PSD](./add-channel-mixer-adjustment-layer-psd/)
+Ulepsz swoje pliki PSD, dodając warstwy dopasowania Channel Mixer przy użyciu Aspose.PSD for Java. Naucz się technik manipulacji kolorem krok po kroku, aby uzyskać żywe obrazy.
+### [Dodaj warstwę dopasowania Curves w PSD przy użyciu Java](./add-curves-adjustment-layer-psd/)
+Dowiedz się, jak dodać warstwę dopasowania Curves do pliku PSD przy użyciu Aspose.PSD for Java w tym szczegółowym samouczku. Łatwo ulepszaj obrazy.
+### [Dodaj przekątny znak wodny do plików PSD przy użyciu Java](./add-diagonal-watermark-psd-files/)
+Naucz się łatwo dodawać przekątny znak wodny do plików PSD przy użyciu Java i Aspose.PSD. Przewodnik krok po kroku, aby pewnie ulepszać obrazy.
 ### [Dodaj warstwy wypełnienia do plików PSD w Aspose.PSD dla Java](./add-fill-layers-psd-files/)
-Dowiedz się, jak dodawać warstwy wypełnienia do plików PSD w Javie przy użyciu Aspose.PSD, korzystając z naszego przewodnika krok po kroku. Ulepsz swoje projekty.
-### [Dodaj warstwę dopasowania nasycenia odcienia do PSD](./add-hue-saturation-adjustment-layer-psd/)
-Dowiedz się, jak dodać warstwy dopasowania nasycenia odcienia do PSD przy użyciu Aspose.PSD dla Java, w tym kompleksowym samouczku krok po kroku. Ulepsz swój proces projektowania graficznego.
+Naucz się dodawać warstwy wypełnienia do plików PSD w Java przy użyciu Aspose.PSD w naszym przewodniku krok po kroku. Ulepszaj swoje projekty.
+### [Dodaj warstwę dopasowania Hue Saturation do PSD](./add-hue-saturation-adjustment-layer-psd/)
+Naucz się dodawać warstwy dopasowania Hue Saturation do PSD przy użyciu Aspose.PSD for Java w tym kompleksowym, krok po kroku samouczku. Ulepszaj przepływ pracy projektowania graficznego.
 ### [Dodaj zasób IOPA do plików PSD przy użyciu Java](./add-iopa-resource-psd-files/)
-Dowiedz się, jak dodawać zasoby IOPA do plików PSD przy użyciu Aspose.PSD dla Java, korzystając z tego obszernego przewodnika. Proste kroki do skutecznej manipulacji grafiką.
-### [Dodaj warstwę regulacji poziomu w PSD](./add-level-adjustment-layer-psd/)
-Dowiedz się, jak skutecznie dodawać warstwę dostosowania poziomu do plików PSD przy użyciu Aspose.PSD dla Java. Podnieś swoje umiejętności edycji obrazu.
-### [Dodaj warstwę tekstową w środowisku wykonawczym w plikach PSD przy użyciu języka Java](./add-text-layer-runtime-psd-files/)
-Dowiedz się, jak dynamicznie dodawać warstwy tekstowe do plików PSD przy użyciu Java z Aspose.PSD. Postępuj zgodnie z tym samouczkiem krok po kroku, aby poznać ekscytujące możliwości automatyzacji.
-### [Dodaj znak wodny do plików PSD za pomocą Aspose.PSD dla Java](./add-watermark-psd-files/)
-Dowiedz się, jak bez wysiłku dodać znak wodny do plików PSD za pomocą Aspose.PSD dla Java. Chroń swoje obrazy, korzystając z prostego przewodnika krok po kroku.
-### [Zmień tryb mieszania w efekcie nakładki gradientowej](./change-blend-mode-gradient-overlay-effect/)
-Dowiedz się, jak zmienić tryb mieszania w efekcie nakładki gradientu za pomocą Aspose.PSD dla Java. Przewodnik krok po kroku dotyczący tworzenia oszałamiającej grafiki.
-### [Dodaj warstwę wypełnienia kolorem do plików PSD przy użyciu języka Java](./add-color-fill-layer-psd-files/)
-Dowiedz się, jak łatwo dodać warstwę wypełnienia kolorem do plików PSD przy użyciu Java i Aspose.PSD. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby szybciej projektować.
-### [Zastępowanie kolorów w plikach PSD przy użyciu Aspose.PSD dla Java](./color-replacement-psd-files/)
-Dowiedz się, jak zamieniać kolory w plikach PSD przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku, aby efektywnie manipulować obrazami.
-### [Kontroluj realokację pamięci podręcznej w plikach PSD](./control-cache-reallocation-psd-files/)
-Zarządzaj realokacją pamięci podręcznej w plikach PSD za pomocą Aspose.PSD dla Java. Dowiedz się, jak efektywnie optymalizować pamięć i obsługę plików — idealne rozwiązanie dla programistów.
-### [Twórz indeksowane pliki PSD za pomocą Aspose.PSD dla Java](./create-indexed-psd-files/)
-Naucz się tworzyć indeksowane pliki PSD za pomocą Aspose.PSD dla Java w naszym przewodniku krok po kroku. Dołącz teraz, aby odkryć nieskończone możliwości artystyczne.
-### [Twórz miniatury z plików PSD przy użyciu języka Java](./create-thumbnails-psd-files/)
-Dowiedz się, jak bez wysiłku tworzyć miniatury z plików PSD przy użyciu Java i Aspose.PSD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynne przetwarzanie obrazu.
+Naucz się dodawać zasoby IOPA do plików PSD przy użyciu Aspose.PSD for Java w tym kompleksowym przewodniku. Proste kroki do efektywnej manipulacji graficznej.
+### [Dodaj warstwę dopasowania Level w PSD](./add-level-adjustment-layer-psd/)
+Naucz się skutecznie dodawać warstwę dopasowania Level w swoich plikach PSD przy użyciu Aspose.PSD for Java. Podnieś swoje umiejętności edycji obrazu.
+### [Dodaj warstwę tekstową w czasie wykonywania w plikach PSD przy użyciu Java](./add-text-layer-runtime-psd-files/)
+Naucz się dynamicznie dodawać warstwy tekstowe do plików PSD przy użyciu Java i Aspose.PSD. Postępuj zgodnie z tym samouczkiem krok po kroku, aby odkrywać ekscytujące możliwości automatyzacji.
+### [Dodaj znak wodny do plików PSD z Aspose.PSD dla Java](./add-watermark-psd-files/)
+Naucz się łatwo dodawać znak wodny do swoich plików PSD przy użyciu Aspose.PSD for Java. Chroń obrazy dzięki prostemu przewodnikowi krok po kroku.
+### [Zmień tryb mieszania w efekcie Gradient Overlay](./change-blend-mode-gradient-overlay-effect/)
+Naucz się zmieniać tryb mieszania w efekcie Gradient Overlay przy użyciu Aspose.PSD for Java. Przewodnik krok po kroku do tworzenia oszałamiającej grafiki.
+### [Dodaj warstwę wypełnienia kolorem do plików PSD przy użyciu Java](./add-color-fill-layer-psd-files/)
+Naucz się łatwo dodawać warstwę wypełnienia kolorem do plików PSD przy użyciu Java i Aspose.PSD. Skorzystaj z naszego samouczka krok po kroku, aby przyspieszyć projektowanie.
+### [Zamiana kolorów w plikach PSD przy użyciu Aspose.PSD dla Java](./color-replacement-psd-files/)
+Naucz się zamieniać kolory w plikach PSD przy użyciu Aspose.PSD for Java. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku, aby efektywnie manipulować obrazami.
+### [Kontroluj ponowne przydzielanie pamięci podręcznej w plikach PSD](./control-cache-reallocation-psd-files/)
+Zarządzaj ponownym przydzielaniem pamięci podręcznej w plikach PSD przy użyciu Aspose.PSD for Java. Dowiedz się, jak optymalizować pamięć i obsługę plików efektywnie — idealne dla programistów.
+### [Utwórz indeksowane pliki PSD przy użyciu Aspose.PSD dla Java](./create-indexed-psd-files/)
+Naucz się tworzyć indeksowane pliki PSD przy użyciu Aspose.PSD for Java w naszym przewodniku krok po kroku. Dołącz już dziś, aby odkrywać nieograniczone możliwości artystyczne.
+### [Utwórz miniatury z plików PSD przy użyciu Java](./create-thumbnails-psd-files/)
+Naucz się bez wysiłku tworzyć miniatury z plików PSD przy użyciu Java i Aspose.PSD. Skorzystaj z naszego przewodnika krok po kroku, aby zapewnić płynne przetwarzanie obrazów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę dodać przekątny znak wodny do PSD, który już zawiera warstwy dopasowania?**  
+A: Tak. Aspose.PSD pozwala na umieszczenie znaku wodnego na wierzchu istniejących warstw, w tym hue saturation, curves i warstw wypełnienia kolorem, bez spłaszczania pliku.
+
+**Q: Czy istnieje możliwość wsadowego przetwarzania wielu plików PSD w celu dodania tego samego znaku wodnego?**  
+A: Absolutnie. Możesz przejść przez katalog, wczytać każdy PSD, zastosować znak wodny i zapisać wynik — wszystko w ramach jednego programu Java.
+
+**Q: Czy samouczki dotyczące warstw dopasowania (hue saturation, curves, color fill) wpływają na widoczność znaku wodnego?**  
+A: Warstwy dopasowania wpływają na dane obrazu bazowego, ale nie na rasteryzowaną warstwę znaku wodnego, jeśli dodasz znak wodny po tych korektach. Możesz także umieścić znak wodny na osobnej warstwie, aby mieć pełną kontrolę.
+
+**Q: Jakie kwestie pamięciowe należy mieć na uwadze przy pracy z dużymi plikami PSD?**  
+A: Skorzystaj z kontroli ponownego przydzielania pamięci opisanych w samouczku „Control Cache Reallocation”, aby ograniczyć zużycie RAM, szczególnie przy przetwarzaniu wysokiej rozdzielczości w trybie wsadowym.
+
+**Q: Które wersje Aspose.PSD są kompatybilne z Java 11 i nowszymi?**  
+A: Wszystkie najnowsze wydania (2023‑2025) obsługują Java 8+, w tym Java 11, 17 i późniejsze. Sprawdź notatki wydania produktu, aby poznać dokładną wersję, której używasz.
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
