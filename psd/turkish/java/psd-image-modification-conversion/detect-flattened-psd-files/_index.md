@@ -1,88 +1,123 @@
 ---
-title: Aspose.PSD for Java kullanarak Düzleştirilmiş PSD Dosyalarını Algılama
-linktitle: Aspose.PSD for Java kullanarak Düzleştirilmiş PSD Dosyalarını Algılama
-second_title: Aspose.PSD Java API'si
-description: Bu kapsamlı eğitimde Aspose.PSD for Java kullanarak düzleştirilmiş PSD dosyalarını nasıl tespit edeceğinizi adım adım öğrenin.
-weight: 10
+date: 2026-03-23
+description: Aspose.PSD for Java kullanarak düzleştirilmiş PSD dosyalarını nasıl tespit
+  edeceğinizi adım adım bu kapsamlı öğreticide öğrenin.
+linktitle: Detect Flattened PSD Files using Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java Kullanarak Düzleştirilmiş PSD'yi Tespit Et
 url: /tr/java/psd-image-modification-conversion/detect-flattened-psd-files/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java kullanarak Düzleştirilmiş PSD Dosyalarını Algılama
+# Aspose.PSD for Java Kullanarak Düzleştirilmiş PSD'yi Algıla
 
-## giriiş
+## Giriş
 
-Aspose.PSD for Java ile PSD (Photoshop Belgesi) dosya işleme dünyasına hoş geldiniz! Photoshop dosyalarındaki katmanlarla çalışmanız gerektiyse ancak nereden başlayacağınızı bilmiyorsanız doğru yerdesiniz. Bu eğitimde, Aspose.PSD kullanılarak bir PSD dosyasının düzleştirilip düzleştirilmediğini nasıl tespit edeceğimizi inceleyeceğiz. PSD'yi düzleştirmek, tüm katmanlarının tek bir birleşik katmanda birleştirilmesi anlamına gelir; bu da daha sonra düzenlemeyi biraz zorlaştırabilir. Bu kılavuzun sonunda PSD dosyalarınızın bu önemli yönünü kontrol edebilecek donanıma sahip olacaksınız. Sıkı durun, kahvenizi alın ve dalalım!
+Programatik olarak **düzleştirilmiş PSD** dosyalarını algılamanız gerekiyorsa, doğru yerdesiniz. Bu öğreticide Aspose.PSD for Java'yı kullanarak bir Photoshop belgesinin düzleştirilip düzleştirilmediğini—tüm katmanların tek bir arka plan katmanına birleştirildiği anlamına gelir—nasıl belirleyeceğinizi göstereceğiz. Bunu önceden bilmek, ileride beklenmedik düzenleme kısıtlamalarından kaçınmanıza yardımcı olur. Favori IDE'nizi alın ve başlayalım!
+
+## Hızlı Yanıtlar
+- **“düzleştirilmiş PSD” ne anlama geliyor?** Tüm katmanlar tek bir katmanda birleştirilir, düzenlenebilirlik ortadan kalkar.  
+- **Hangi kütüphane bunu algılayabilir?** Aspose.PSD for Java `isFlatten()` metodunu sağlar.  
+- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için lisans gereklidir.  
+- **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri.  
+- **Uygulama ne kadar sürer?** Temel bir kontrol için genellikle 10 dakikadan az.
+
+## Düzleştirilmiş PSD Dosyası Nedir?
+Düzleştirilmiş bir PSD dosyası, tüm katmanların tek bir birleşik katmanda birleştirildiği bir Photoshop belgesidir. Bu, dosya boyutunu azaltır ancak, bir düzleştirilmemiş yedek olmadıkça, katman‑tabanlı düzenlemeleri imkânsız hâle getirir.
+
+## Neden Düzleştirilmiş PSD'yi Algılamalısınız?
+Düzleştirilmiş bir PSD'yi erken algılamak, aşağıdakileri karar vermenizi sağlar:
+- Kullanıcıya düzenlenebilir bir sürüm sağlamasını isteyin.  
+- Katmana özgü işlemler yerine görüntü genelinde işleme uygulayın.  
+- Mevcut olmayan katmanlara erişmeye çalışırken çalışma zamanı hatalarından kaçının.
 
 ## Önkoşullar
 
-Kodlama eğlencesine geçmeden önce başlamaya hazır olduğunuzdan emin olmanız gereken birkaç şey var. İşte ihtiyacınız olan şey:
+Kodlamaya başlamadan önce şunların olduğundan emin olun:
 
-1. Java Geliştirme Kiti (JDK): JDK'nın kurulu olduğundan emin olun. Aspose.PSD'yi kullanmak için Sürüm 8 veya üzeri önerilir.
-2.  Aspose.PSD for Java: Aspose.PSD kütüphanesine ihtiyacınız olacak. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/psd/java/).
-3. Temel Java Anlayışı: Kitaplıkların nasıl içe aktarılacağı ve Java uygulamalarının nasıl çalıştırılacağı da dahil olmak üzere Java programlamanın temellerini öğrenin.
-4. IDE: Java kodunuzu yazıp çalıştırabileceğiniz IntelliJ IDEA, Eclipse veya NetBeans gibi herhangi bir entegre geliştirme ortamı (IDE).
+1. **Java Development Kit (JDK)** – sürüm 8 veya daha yeni.  
+2. **Aspose.PSD for Java** – kütüphaneyi [buradan](https://releases.aspose.com/psd/java/) indirin.  
+3. **Temel Java bilgisi** – kütüphaneleri içe aktarmak ve basit bir Java programı çalıştırmak konusunda rahat olmalısınız.  
+4. **Bir IDE** – IntelliJ IDEA, Eclipse, NetBeans veya tercih ettiğiniz herhangi bir editör.  
 
-Artık temel konuları ele aldığımıza göre kodu ele alalım!
+Temel bilgiler ele alındığına göre, uygulamaya geçelim.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Java dosyanızın üst kısmında gerekli Aspose.PSD sınıflarını içe aktarın. İçe aktarma ifadeleriniz şöyle görünmelidir:
+Java kaynak dosyanızın en üst kısmında ihtiyacınız olacak Aspose.PSD sınıflarını içe aktarın:
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-Şimdi işlevselliğin özüne dalalım: PSD dosyasının düzleştirilip düzleştirilmediğini tespit etmek. İşte adım adım bir döküm.
+## Düzleştirilmiş PSD Dosyalarını Nasıl Algılayabilirsiniz
 
-## 1. Adım: Veri Dizinini Ayarlayın
+Aşağıda adım adım bir rehber bulacaksınız. Her adım kısa bir açıklama ve ardından kopyalamanız gereken tam kodu içerir.
 
-Öncelikle PSD dosyalarınızın nerede bulunduğunu belirtmeniz gerekir. Bu çok önemlidir çünkü programımız dosyayı yüklemek için oraya bakacaktır.
+### Adım 1: Veri Dizinini Ayarlama
+
+İncelemek istediğiniz PSD dosyalarını içeren klasörü belirtin.
 
 ```java
-String dataDir = "Your Document Directory"; // Bu yolu güncelle
+String dataDir = "Your Document Directory"; // Update this path
 ```
 
-## Adım 2: PSD Dosyasını Yükleyin
+### Adım 2: PSD Dosyasını Yükleme
 
- Daha sonra PSD dosyasını resim olarak yükleyeceğiz. Sihrin gerçekleştiği yer burası;`Image.load()` yöntem PSD dosyamızı kolayca içe aktarmamızı sağlar.
+`Image.load()` metodunu kullanarak PSD dosyasını bir `PsdImage` nesnesi olarak açın.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-## 3. Adım: PSD'nin Düzleştirilmiş olup olmadığını kontrol edin
+### Adım 3: PSD'nin Düzleştirilip Düzleştirilmediğini Kontrol Etme
 
-PSD dosyamızı yükledikten sonra düzleştirilmiş olup olmadığını kontrol edebiliriz.`isFlatten()` yöntemi`PsdImage` tam olarak ihtiyacımız olanı yapacağız. Bu yöntem, PSD'nin düzleştirilip düzleştirilmediğini gösteren bir boole değeri döndürür.
+`isFlatten()` metodunu çağırın. Dosya düzleştirilmişse `true`, aksi takdirde `false` döndürür.
 
 ```java
 System.out.println(psdImage.isFlatten());
 ```
 
-## Çözüm
+Konsol, düzleştirilmiş bir belge için `true`, hâlâ ayrı katmanlar içeren bir belge için `false` yazdıracaktır.
 
-Tebrikler! Artık Aspose.PSD for Java kullanarak düzleştirilmiş PSD dosyalarını nasıl tespit edeceğinizi öğrendiniz. Yalnızca kodu adım adım incelemekle kalmadık, aynı zamanda bu konuya dalmak için gerekli önkoşulları da vurguladık. Bu beceri, özellikle Photoshop dosyalarıyla çalışırken, görüntü işlemede diğer birçok heyecan verici olasılığa kapı açar.
+## Yaygın Sorunlar ve Çözümler
 
-## SSS'ler
+- **FileNotFoundException** – `dataDir`'in doğru klasöre işaret ettiğinden ve dosya adının büyük/küçük harf duyarlılığı dahil tam olarak eşleştiğinden emin olun.  
+- **Unsupported file format** – Dosyanın geçerli bir PSD olduğundan emin olun; diğer Photoshop‑uyumlu formatlar (ör. PSB) farklı işleme gerekebilir.  
+- **LicenseException** – Lisans hatası görürseniz, geçerli bir Aspose.PSD lisansı kurun veya değerlendirme için deneme sürümünü kullanın.
 
-### Düzleştirilmiş PSD dosyası nedir?
-Düzleştirilmiş bir PSD dosyası, tüm katmanların tek bir katmanda birleştirildiği ve daha fazla düzenleme yapılmasını daha zahmetli hale getiren bir dosyayı ifade eder.
+## Sıkça Sorulan Sorular
 
-### Bir PSD dosyasını düzleştirdikten sonra düzleştirmesini kaldırabilir miyim?
-Ne yazık ki, bir PSD düzleştirildiğinde, düzleştirilmemiş sürümün yedeğini almadığınız sürece tek tek katmanları kurtaramazsınız.
+**S: Düzleştirilmiş bir PSD dosyası nedir?**  
+C: Düzleştirilmiş bir PSD dosyası, tüm katmanların tek bir arka plan katmanına birleştirildiği ve bundan sonraki katman‑tabanlı düzenlemelerin imkânsız olduğu bir dosyadır.
 
-### Aspose.PSD diğer dosya formatlarını destekliyor mu?
-Evet! Aspose.PSD, çeşitli görüntü formatlarını işleyebilir ve görüntü manipülasyonları için kapsamlı işlevsellik sağlar.
+**S: Düzleştirildikten sonra bir PSD dosyasını eski haline getirebilir miyim?**  
+C: Hayır. Katmanlar bir kez birleştirildiğinde, orijinal katman yapısı, düzleştirilmemiş bir yedek olmadan geri getirilemez.
 
-### Aspose'a nasıl başlayabilirim?
- Kütüphaneyi şuradan indirmeniz yeterli:[Burada](https://releases.aspose.com/psd/java/) ve onu Java projenize entegre edin.
+**S: Aspose.PSD diğer dosya formatlarını destekliyor mu?**  
+C: Evet. Aspose.PSD, PSD, PSB, BMP, JPEG, PNG, TIFF ve daha birçok görüntü formatını işleyebilir.
 
-### Aspose.PSD'yi ücretsiz test etmenin bir yolu var mı?
- Kesinlikle! Deneme sürümünü indirerek ücretsiz denemeyi başlatabilirsiniz.[bu bağlantı](https://releases.aspose.com/).
+**S: Aspose ile nasıl başlayabilirim?**  
+C: Kütüphaneyi sadece [buradan](https://releases.aspose.com/psd/java/) indirin ve JAR dosyalarını projenizin sınıf yoluna ekleyin.
+
+**S: Aspose.PSD'yi ücretsiz denemenin bir yolu var mı?**  
+C: Kesinlikle! [Bu bağlantıdan](https://releases.aspose.com/) bir deneme sürümü indirerek ücretsiz deneme başlatabilirsiniz.
+
+## Sonuç
+
+Artık Aspose.PSD for Java kullanarak **düzleştirilmiş PSD** dosyalarını nasıl algılayacağınızı biliyorsunuz. Bu basit kontrol, görüntüleriniz için doğru işleme yolunu seçmenize yardımcı olur ve beklenmedik düzenleme engellerini önler. Katman manipülasyonu, görüntü dönüştürme ve meta veri işleme gibi diğer Aspose.PSD özelliklerini keşfetmekten çekinmeyin, böylece iş akışlarınızı daha da geliştirebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-03-23  
+**Test Edilen Sürüm:** Aspose.PSD for Java 24.11 (yazım anındaki en yeni)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

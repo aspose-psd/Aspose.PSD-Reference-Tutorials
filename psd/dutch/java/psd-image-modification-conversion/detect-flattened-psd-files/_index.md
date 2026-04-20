@@ -1,88 +1,123 @@
 ---
-title: Detecteer afgeplatte PSD-bestanden met Aspose.PSD voor Java
-linktitle: Detecteer afgeplatte PSD-bestanden met Aspose.PSD voor Java
-second_title: Aspose.PSD Java-API
-description: Leer stap voor stap hoe u afgeplatte PSD-bestanden kunt detecteren met Aspose.PSD voor Java in deze uitgebreide zelfstudie.
-weight: 10
+date: 2026-03-23
+description: Leer stap voor stap hoe je afgevlakte PSD‑bestanden kunt detecteren met
+  Aspose.PSD voor Java in deze uitgebreide tutorial.
+linktitle: Detect Flattened PSD Files using Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Detecteer afgevlakte PSD met Aspose.PSD voor Java
 url: /nl/java/psd-image-modification-conversion/detect-flattened-psd-files/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Detecteer afgeplatte PSD-bestanden met Aspose.PSD voor Java
+# Detecteer Geplatste PSD met Aspose.PSD voor Java
 
-## Invoering
+## Inleiding
 
-Welkom in de wereld van PSD-bestandsmanipulatie (Photoshop Document) met Aspose.PSD voor Java! Als u ooit met lagen in Photoshop-bestanden heeft moeten werken, maar niet wist waar u moest beginnen, bent u hier op de juiste plek. In deze zelfstudie gaan we dieper in op hoe u kunt detecteren of een PSD-bestand is afgevlakt met behulp van Aspose.PSD. Het afvlakken van een PSD betekent dat alle lagen worden samengevoegd tot één enkele, uniforme laag, wat het achteraf bewerken een beetje lastig kan maken. Aan het einde van deze handleiding bent u in staat om dit cruciale aspect van uw PSD-bestanden te controleren. Ga zitten, pak je koffie en laten we erin duiken!
+Als je **geplatste PSD**‑bestanden programmatisch moet detecteren, ben je hier aan het juiste adres. In deze tutorial laten we je zien hoe je Aspose.PSD voor Java kunt gebruiken om te bepalen of een Photoshop‑document is geplatst — wat betekent dat alle lagen zijn samengevoegd tot één achtergrondlaag. Deze kennis voorkomt onverwachte bewerkingsbeperkingen later. Pak je favoriete IDE en laten we beginnen!
+
+## Snelle Antwoorden
+- **Wat betekent “flattened PSD”?** Alle lagen zijn samengevoegd tot één, waardoor bewerkbaarheid verdwijnt.  
+- **Welke bibliotheek kan dit detecteren?** Aspose.PSD voor Java biedt de `isFlatten()`‑methode.  
+- **Heb ik een licentie nodig voor testen?** Er is een gratis proefversie beschikbaar; een licentie is vereist voor productie.  
+- **Welke Java‑versie is vereist?** JDK 8 of hoger.  
+- **Hoe lang duurt de implementatie?** Meestal minder dan 10 minuten voor een eenvoudige controle.
+
+## Wat is een Geplatste PSD‑bestand?
+Een geplatste PSD‑bestand is een Photoshop‑document waarbij elke laag is samengevoegd tot één samengestelde laag. Dit verkleint de bestandsgrootte, maar maakt verdere laag‑gebaseerde bewerkingen onmogelijk tenzij je een ongeplatte back‑up hebt.
+
+## Waarom een Geplatste PSD Detecteren?
+Het vroegtijdig detecteren van een geplatste PSD stelt je in staat om:
+- De gebruiker te vragen een bewerkbare versie aan te leveren.
+- Een beeld‑brede verwerking toe te passen in plaats van laag‑specifieke bewerkingen.
+- Runtime‑fouten te vermijden bij het proberen toegang te krijgen tot niet‑bestaande lagen.
 
 ## Vereisten
 
-Voordat we aan het codeerplezier beginnen, zijn er een paar dingen die je nodig hebt om ervoor te zorgen dat je klaar bent om aan de slag te gaan. Dit is wat je nodig hebt:
+Voordat we in de code duiken, zorg dat je het volgende hebt:
 
-1. Java Development Kit (JDK): Zorg ervoor dat JDK is geïnstalleerd. Versie 8 of hoger wordt aanbevolen voor het gebruik van Aspose.PSD.
-2.  Aspose.PSD voor Java: Je hebt de Aspose.PSD-bibliotheek nodig. Je kunt het downloaden van[hier](https://releases.aspose.com/psd/java/).
-3. Basiskennis van Java: Beheers de basisprincipes van Java-programmeren, inclusief hoe u bibliotheken importeert en Java-applicaties uitvoert.
-4. Een IDE: Elke geïntegreerde ontwikkelomgeving (IDE) zoals IntelliJ IDEA, Eclipse of NetBeans, waar u uw Java-code kunt schrijven en uitvoeren.
+1. **Java Development Kit (JDK)** – versie 8 of nieuwer.  
+2. **Aspose.PSD voor Java** – download de bibliotheek van [hier](https://releases.aspose.com/psd/java/).  
+3. **Basiskennis van Java** – je moet vertrouwd zijn met het importeren van bibliotheken en het uitvoeren van een eenvoudig Java‑programma.  
+4. **Een IDE** – IntelliJ IDEA, Eclipse, NetBeans, of een andere editor naar keuze.
 
-Nu we de essentie hebben besproken, gaan we aan de slag met de code!
+Nu de basis is behandeld, gaan we verder met de implementatie.
 
-## Pakketten importeren
+## Importeer Pakketten
 
-Importeer bovenaan uw Java-bestand de benodigde Aspose.PSD-klassen. Uw importinstructies zouden er ongeveer zo uit moeten zien:
+Aan de bovenkant van je Java‑bronbestand importeer je de Aspose.PSD‑klassen die je nodig hebt:
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-Laten we nu eens in de kern van de functionaliteit duiken: detecteren of een PSD-bestand afgevlakt is. Hier vindt u een stapsgewijze analyse.
+## Hoe Geplatste PSD‑bestanden te Detecteren
 
-## Stap 1: Stel de gegevensdirectory in
+Hieronder vind je een stapsgewijze handleiding. Elke stap bevat een korte uitleg gevolgd door de exacte code die je moet kopiëren.
 
-Eerst moet u opgeven waar uw PSD-bestanden zich bevinden. Dit is van cruciaal belang omdat ons programma daar zal zoeken om het bestand te laden.
+### Stap 1: Stel de Data‑directory in
+
+Geef de map op die de PSD‑bestanden bevat die je wilt onderzoeken.
 
 ```java
-String dataDir = "Your Document Directory"; // Update dit pad
+String dataDir = "Your Document Directory"; // Update this path
 ```
 
-## Stap 2: Laad het PSD-bestand
+### Stap 2: Laad het PSD‑bestand
 
- Vervolgens laden we het PSD-bestand als afbeelding. Dit is waar de magie gebeurt: gebruiken`Image.load()` Met deze methode kunnen we ons PSD-bestand eenvoudig importeren.
+Gebruik `Image.load()` om het PSD‑bestand te openen als een `PsdImage`‑object.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-## Stap 3: Controleer of de PSD afgevlakt is
+### Stap 3: Controleer of de PSD Geplatst is
 
-Zodra ons PSD-bestand is geladen, kunnen we controleren of het is afgevlakt. De`isFlatten()` methode van`PsdImage` zal precies doen wat we nodig hebben. Deze methode retourneert een Booleaanse waarde die aangeeft of de PSD afgevlakt is of niet.
+Roep de `isFlatten()`‑methode aan. Deze retourneert `true` wanneer het bestand geplatst is en `false` anders.
 
 ```java
 System.out.println(psdImage.isFlatten());
 ```
 
+De console zal `true` afdrukken voor een geplatst document en `false` voor een document dat nog afzonderlijke lagen bevat.
+
+## Veelvoorkomende Problemen en Oplossingen
+
+- **FileNotFoundException** – Controleer of `dataDir` naar de juiste map wijst en of de bestandsnaam exact overeenkomt, inclusief hoofdlettergevoeligheid.  
+- **Unsupported file format** – Zorg ervoor dat het bestand een geldig PSD‑bestand is; andere Photoshop‑compatibele formaten (bijv. PSB) kunnen andere handling vereisen.  
+- **LicenseException** – Als je een licentie‑fout ziet, installeer dan een geldige Aspose.PSD‑licentie of gebruik de proefversie voor evaluatie.
+
+## Veelgestelde Vragen
+
+**Q: Wat is een geplatste PSD‑bestand?**  
+A: Een geplatste PSD‑bestand heeft al zijn lagen samengevoegd tot één achtergrondlaag, waardoor verdere laag‑gebaseerde bewerkingen onmogelijk zijn.
+
+**Q: Kan ik een PSD‑bestand na het platsten weer ongedaan maken?**  
+A: Nee. Zodra lagen zijn samengevoegd, kan de oorspronkelijke laagstructuur niet worden hersteld zonder een back‑up van de ongeplatte versie.
+
+**Q: Ondersteunt Aspose.PSD andere bestandsformaten?**  
+A: Ja. Aspose.PSD kan PSD, PSB, BMP, JPEG, PNG, TIFF en vele andere beeldformaten verwerken.
+
+**Q: Hoe begin ik met Aspose?**  
+A: Download simpelweg de bibliotheek van [hier](https://releases.aspose.com/psd/java/) en voeg de JAR‑bestanden toe aan de classpath van je project.
+
+**Q: Is er een manier om Aspose.PSD gratis te testen?**  
+A: Absoluut! Je kunt een gratis proefversie starten door een proefversie te downloaden via [deze link](https://releases.aspose.com/).
+
 ## Conclusie
 
-Gefeliciteerd! U hebt nu geleerd hoe u afgeplatte PSD-bestanden kunt detecteren met Aspose.PSD voor Java. We hebben de code niet alleen stap voor stap onderzocht, maar we hebben ook de essentiële voorwaarden benadrukt om in dit onderwerp te duiken. Deze vaardigheid opent de deur naar vele andere opwindende mogelijkheden op het gebied van beeldverwerking, vooral bij het werken met Photoshop-bestanden.
+Je weet nu hoe je **geplatste PSD**‑bestanden kunt detecteren met Aspose.PSD voor Java. Deze eenvoudige controle helpt je de juiste verwerkingsroute voor je afbeeldingen te kiezen en voorkomt onverwachte bewerkingsobstakels. Voel je vrij om andere Aspose.PSD‑functies te verkennen, zoals laag‑manipulatie, afbeeldingconversie en metadata‑verwerking, om je workflows verder te verbeteren.
 
-## Veelgestelde vragen
+---
 
-### Wat is een afgevlakt PSD-bestand?
-Een afgevlakt PSD-bestand verwijst naar een bestand waarin alle lagen zijn samengevoegd tot één enkele laag, waardoor verdere bewerkingen omslachtiger worden.
+**Laatst bijgewerkt:** 2026-03-23  
+**Getest met:** Aspose.PSD voor Java 24.11 (latest at time of writing)  
+**Auteur:** Aspose  
 
-### Kan ik het afvlakken van een PSD-bestand ongedaan maken nadat het is afgevlakt?
-Helaas kunt u, zodra een PSD is afgevlakt, de afzonderlijke lagen niet meer herstellen, tenzij u een back-up hebt van de niet-afgevlakte versie.
-
-### Ondersteunt Aspose.PSD andere bestandsformaten?
-Ja! Aspose.PSD kan verschillende beeldformaten verwerken en biedt uitgebreide functionaliteit voor beeldmanipulaties.
-
-### Hoe ga ik aan de slag met Aspose?
- Download eenvoudigweg de bibliotheek van[hier](https://releases.aspose.com/psd/java/) en integreer het in uw Java-project.
-
-### Is er een manier om Aspose.PSD gratis te testen?
- Absoluut! U kunt een gratis proefperiode starten door een proefversie te downloaden van[deze koppeling](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

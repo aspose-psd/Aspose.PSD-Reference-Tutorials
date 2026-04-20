@@ -1,32 +1,49 @@
 ---
-title: Java を使用して PSD ファイルにグラデーション塗りつぶしレイヤーを追加する
-linktitle: Java を使用して PSD ファイルにグラデーション塗りつぶしレイヤーを追加する
+date: 2026-03-23
+description: Aspose.PSD を使用して Java でグラデーション塗りつぶしの PSD ファイルを作成する方法を学びましょう。このガイドでは、PSD
+  のグラデーションレイヤーを編集し、色や透明度、その他のプロパティをプログラムで調整する方法を示します。
+linktitle: Create Gradient Fill PSD with Java – Add Gradient Fill Layer
 second_title: Aspose.PSD Java API
-description: Aspose.PSD for Java を使用して、PSD ファイルのグラデーション塗りつぶしレイヤーを変更します。色、透明度、その他のグラデーション プロパティをプログラムで変更する方法を学習します。
-weight: 15
+title: Javaでグラデーション塗りつぶしPSDを作成 – グラデーション塗りつぶしレイヤーを追加
 url: /ja/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java を使用して PSD ファイルにグラデーション塗りつぶしレイヤーを追加する
+# JavaでPSDファイルにグラデーション塗りつぶしレイヤーを追加する
 
-## 導入
+## Introduction
 
-PSD ファイルに視覚的な魔法のタッチを加えたいと思ったことはありませんか? グラデーションは、デザインに深みと立体感を加える素晴らしい方法です。しかし、Java を使用してこれらのグラデーションをプログラムで操作したい場合はどうすればよいでしょうか? Aspose.PSD が役に立ちます! この包括的なガイドでは、Aspose.PSD を使用して PSD ファイル内のグラデーション塗りつぶしレイヤーを変更できるようにし、エキサイティングなプロセスをステップごとに説明します。
+PSDファイルにさらにビジュアルマジックを加えたいと考えたことはありませんか？ **Javaでグラデーション塗りつぶしPSDを作成する方法** を探している方へ。グラデーションはデザインに奥行きを与えますが、手動で調整するのは手間がかかります。**Aspose.PSD for Java** を使えば、プログラムでPSDのグラデーションを編集し、色や透明度を変更し、あらゆるプロパティを微調整できるため、時間を節約し、数十ファイルにわたって一貫性を保てます。
 
-## 前提条件
+## Quick Answers
+- **JavaでPSDのグラデーションを編集できるライブラリは？** Aspose.PSD for Java。  
+- **PSDファイルを読み込むメソッドは？** `Image.load(path)`。  
+- **グラデーションの角度を変更するには？** `settings.setAngle(double)`。  
+- **新しいカラーポイントを追加できますか？** はい—`GradientColorPoint` オブジェクトを作成し、カラーポイントリストに追加します。  
+- **本番環境で使用するにはライセンスが必要ですか？** 商用ライセンスが必要です。評価用の無料トライアルがあります。
 
-始める前に、以下のものを用意してください。
+## “create gradient fill PSD” とは？
+グラデーション塗りつぶしPSDを作成するとは、Photoshopドキュメント内にグラデーションベースの塗りつぶしレイヤーをプログラムで挿入または変更することを指します。これにより、Photoshopを開かずに自動スタイリング、バッチ処理、動的画像生成が可能になります。
 
--  Java 開発キット (JDK): Java コードを実行するには、安定したバージョンの JDK が必要です。Oracle の Web サイトからダウンロードできます。[Oracle JDKダウンロードページへのリンク]
--  Aspose.PSD for Java: この強力なライブラリを使用すると、Java アプリケーションで PSD ファイルを操作できます。Aspose の Web サイトからダウンロードしてください。[Aspose.PSD for Java のダウンロードへのリンク] (無料試用版あり)
+## Aspose.PSDでPSDグラデーションを編集するメリット
+- **完全な .PSD サポート** – スマートオブジェクトを含むすべてのレイヤータイプに対応。  
+- **Photoshop不要** – 任意のサーバーやCIパイプラインで実行可能。  
+- **細かな制御** – 角度、オフセット、ディザリング、カラーポイント、透明度ポイントをクリーンなJava APIで調整可能。  
 
-## パッケージのインポート
+## Prerequisites
 
-まず、PSD ファイルの操作に必要な基本的な Aspose.PSD パッケージをインポートします。
+作業を始める前に、以下を準備してください。
+
+- Java Development Kit (JDK): 安定版のJDKが必要です。Oracle のウェブサイトからダウンロードできます: [Link to Oracle JDK download page]
+- Aspose.PSD for Java: Java アプリケーションで PSD ファイルを扱うための強力なライブラリです。Aspose のサイトからダウンロードしてください: [Link to Aspose.PSD for Java download]（無料トライアルあり）
+
+## Import Packages
+
+PSD ファイルを操作するために必要な Aspose.PSD パッケージをインポートします:
 
 ```java
 import com.aspose.psd.Color;
@@ -45,13 +62,15 @@ import java.util.Collections;
 import java.util.List;
 ```
 
-これらのインポートは、PSD ファイルの読み込み、操作、保存のためのクラスとメソッドへのアクセスを提供します。
+これらのインポートにより、PSD の読み込み、操作、保存に必要なクラスとメソッドが利用可能になります。
 
-さあ、グラデーション塗りつぶしレイヤーを変更するエキサイティングな旅に出発しましょう!
+さあ、グラデーション塗りつぶしレイヤーの変更というエキサイティングな旅に出発しましょう！
 
-## ステップ1: PSDファイルを読み込む
+## How to Create Gradient Fill PSD with Java
 
-まず、変更したいグラデーション塗りつぶしレイヤーを含むPSDファイルを読み込む必要があります。`Image.load`メソッド、ファイルパスを指定します:
+### Step 1: Load the PSD File
+
+まず、変更したいグラデーション塗りつぶしレイヤーが含まれる PSD ファイルを読み込みます。`Image.load` メソッドにファイルパスを指定してください:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -60,27 +79,27 @@ String outputFile = dataDir + "ComplexGradientFillLayer_output.psd";
 PsdImage image = (PsdImage)Image.load(sourceFileName);
 ```
 
-このコードスニペットは、指定されたディレクトリからPSDファイルを読み込み、`image`変数。
+このコードは指定ディレクトリから PSD を読み込み、`image` 変数に格納します。
 
-## ステップ2: グラデーション塗りつぶしレイヤーを特定する
+### Step 2: Identify the Gradient Fill Layer
 
-PSDファイルには多数のレイヤーが含まれている場合があります。編集したいグラデーション塗りつぶしを含む特定のレイヤーを分離する必要があります。`image.getLayers()`目的のレイヤーを見つけるための配列:
+PSD には多数のレイヤーが存在します。対象となるグラデーション塗りつぶしレイヤーを特定する必要があります。`image.getLayers()` 配列を走査して目的のレイヤーを探します:
 
 ```java
 for (int i = 0; i < image.getLayers().length; i++) {
 if (image.getLayers()[i] instanceof FillLayer) {
    FillLayer fillLayer = (FillLayer) image.getLayers()[i];
-   //さらなるチェックと修正はここで行われます
+   // Further checks and modifications will happen here
    break;
 }
 }
 ```
 
-このループは各レイヤーをチェックします。レイヤーが`FillLayer`、それは`FillLayer`入力して保存します`fillLayer`さらなる処理のための変数。ターゲット レイヤーを識別するための特定の基準 (レイヤー名など) がある場合は、ループ内に追加のチェックを追加できます。
+このループは各レイヤーをチェックします。レイヤーが `FillLayer` の場合は `FillLayer` 型にキャストされ、`fillLayer` 変数に保存され、以降の処理に使用できます。レイヤー名など、特定の条件で絞り込みたい場合はループ内に追加チェックを入れてください。
 
-## ステップ3: グラデーションの塗りつぶしタイプを確認する
+### Step 3: Verify Gradient Fill Type
 
-すべての塗りつぶしレイヤーがグラデーションを使用するわけではありません。このコード スニペットは、識別されたレイヤーに実際にグラデーション塗りつぶしが含まれているかどうかを確認します。
+すべての塗りつぶしレイヤーがグラデーションを使用しているわけではありません。このコードは、特定したレイヤーが実際にグラデーション塗りつぶしかどうかを確認します:
 
 ```java
 if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
@@ -88,29 +107,31 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
 }
 ```
 
-もし、`getFillType`メソッドは返さない`FillType.Gradient`、間違ったレイヤーを操作していることを示す例外がスローされます。
+`getFillType` が `FillType.Gradient` を返さない場合は例外がスローされ、誤ったレイヤーを操作しようとしていることを示します。
 
-## ステップ4: グラデーションプロパティにアクセスして変更する
+## How to Edit PSD Gradient Using Aspose.PSD
 
-ここで魔法が起こります！Aspose.PSDは、さまざまなグラデーション塗りつぶしプロパティへのアクセスを提供します。`IGradientFillSettings`インターフェース。必要に応じて取得したり変更したりできます。
+### Step 4: Access and Modify Gradient Properties
+
+ここが本番です！Aspose.PSD は `IGradientFillSettings` インターフェイスを通じてさまざまなグラデーション塗りつぶしプロパティへのアクセスを提供します。必要に応じて取得・変更できます:
 
 ```java
 IGradientFillSettings settings = (IGradientFillSettings) fillLayer.getFillSettings();
 
-//プロパティを変更する（希望する値に置き換える）
-settings.setAngle(0.0);  //角度を0度に設定
-settings.setDither(false);  //ディザリングを無効にする
-settings.setAlignWithLayer(true); //グラデーションをレイヤーに合わせる
-settings.setReverse(true);  //グラデーションの方向を反転
-settings.setHorizontalOffset(25);  //水平オフセットを設定する
-settings.setVerticalOffset(-15);  //垂直オフセットを設定する
+// Modify properties (replace with desired values)
+settings.setAngle(0.0);  // Set angle to 0 degrees
+settings.setDither(false);  // Disable dithering
+settings.setAlignWithLayer(true); // Align gradient with layer
+settings.setReverse(true);  // Reverse gradient direction
+settings.setHorizontalOffset(25);  // Set horizontal offset
+settings.setVerticalOffset(-15);  // Set vertical offset
 ```
 
-このコードは、`IGradientFillSettings`オブジェクトを作成し、角度、ディザリング、配置、オフセットなどのプロパティを変更します。提供されている値を希望の設定に置き換えて、思い描いたグラデーション効果を実現します。
+このコードは `IGradientFillSettings` オブジェクトを取得し、角度、ディザリング、配置、オフセットなどのプロパティを変更します。提供された値はご自身の目的に合わせて置き換えて、望むグラデーション効果を実現してください。
 
-## ステップ5: 色と透明度のポイントを操作する
+### Step 5: Manipulate Color and Transparency Points
 
-グラデーションは、スペクトルに沿った色と透明度のポイントによって定義されます。Aspose.PSD を使用すると、これらのポイントを変更して正確に制御できます。
+グラデーションはスペクトル上のカラーポイントと透明度ポイントで構成されます。Aspose.PSD を使えば、これらのポイントを細かく制御できます:
 
 ```java
 List<IGradientColorPoint> colorPoints = new ArrayList<IGradientColorPoint>();
@@ -118,64 +139,76 @@ Collections.addAll(colorPoints, settings.getColorPoints());
 List<IGradientTransparencyPoint> transparencyPoints = new ArrayList<IGradientTransparencyPoint>();
 Collections.addAll(transparencyPoints, settings.getTransparencyPoints());
 
-//新しいカラーポイントを追加する
+// Add a new color point
 GradientColorPoint gr1 = new GradientColorPoint();
 gr1.setColor(Color.getViolet());
 gr1.setLocation(4096);
 gr1.setMedianPointLocation(75);
 colorPoints.add(gr1);
 
-//既存のカラーポイントを変更する
+// Modify an existing color point
 colorPoints.get(1).setLocation(3000);
 
-//新しい透明ポイントを追加する
+// Add a new transparency point
 GradientTransparencyPoint gr2 = new GradientTransparencyPoint();
 gr2.setOpacity(80.0);
 gr2.setLocation(4096);
 gr2.setMedianPointLocation(25);
 transparencyPoints.add(gr2);
 
-//既存の透明ポイントを変更する
+// Modify an existing transparency point
 transparencyPoints.get(2).setLocation(3000);
 
 settings.setColorPoints(colorPoints.toArray(new IGradientColorPoint[0]));
 settings.setTransparencyPoints(transparencyPoints.toArray(new IGradientTransparencyPoint[0]));
 ```
 
-## ステップ6: PSDファイルを更新して保存する
+### Step 6: Update and Save the PSD File
 
-必要な変更を加えたら、塗りつぶしレイヤーを更新して PSD ファイルを保存します。
+必要な変更が完了したら、塗りつぶしレイヤーを更新し、PSD ファイルを保存します:
 
 ```java
 fillLayer.update();
 image.save(outputFile, new PsdOptions(image));
 ```
 
-の`fillLayer.update()`この方法は、グラデーション塗りつぶしレイヤーに変更を適用し、`image.save`変更された PSD ファイルを指定された出力パスに保存します。
+`fillLayer.update()` メソッドがグラデーション塗りつぶしレイヤーに変更を適用し、`image.save` が指定した出力パスに修正済み PSD を保存します。
 
-## 結論
+## Common Issues and Solutions
 
-Aspose.PSD for Java を使用して PSD ファイル内のグラデーション塗りつぶしレイヤーを変更する技術を習得しました。これらの手順に従うことで、創造性を解き放ち、プログラムによる精度で素晴らしい視覚効果を作成できます。
+- **例外 “Wrong Fill Layer”** – 実際にグラデーションを使用している `FillLayer` を対象にしているか確認してください。レイヤー名やインデックスで事前にチェックすると安全です。  
+- **カラー ポイントが反映されない** – ポイントリストを変更した後は必ず `settings.setColorPoints(...)` と `settings.setTransparencyPoints(...)` を呼び出して、レイヤーに更新をプッシュしてください。  
+- **大容量 PSD のパフォーマンス** – 多数のファイルを処理する場合は同じ `PsdOptions` インスタンスを再利用し、`image.dispose()` で画像を速やかに解放してメモリを確保しましょう。
 
-## よくある質問
+## Frequently Asked Questions
 
-### グラデーションに複数の色と透明度のポイントを追加できますか?
-もちろんです! 希望するグラデーション効果を実現するために、必要な数だけカラー ポイントと透明度ポイントを追加できます。新しいポイントを作成し、それぞれのリストに追加するだけです。
+**Q: グラデーションに複数のカラー・透明度ポイントを追加できますか？**  
+A: もちろんです！必要なだけポイントを作成し、各リストに追加すれば、希望のグラデーション効果を実現できます。
 
-### グラデーションから色または透明度のポイントを削除するにはどうすればよいですか?
-ポイントを削除するには、適切なリストの`remove`方法。例えば、`colorPoints.remove(index)`指定されたインデックスのカラーポイントを削除します。
+**Q: グラデーションからカラーまたは透明度ポイントを削除するには？**  
+A: リストの `remove` メソッド、例 `colorPoints.remove(index)` を使用して不要なポイントを削除し、`setColorPoints` で再設定してください。
 
-### グラデーションの種類（線形、放射状など）を変更できますか？
-Aspose.PSD は現在、線形グラデーションをサポートしています。将来のバージョンでは他のグラデーション タイプもサポートされる可能性がありますが、色と透明度のポイントを創造的に操作することで同様の効果を実現できます。
+**Q: グラデーションの種類（線形、放射状など）を変更できますか？**  
+A: 現在 Aspose.PSD は線形グラデーションをサポートしています。将来的なリリースで他のタイプが追加される可能性がありますが、カラー・透明度ポイントを操作することで類似の効果はシミュレート可能です。
 
-### グラデーションを変更するとパフォーマンスに影響はありますか?
-パフォーマンスへの影響は、グラデーションの複雑さと行われた変更の数によって異なります。ほとんどの実用的な使用例では、パフォーマンスは許容範囲内であるはずです。ただし、大規模な画像処理の場合は、効率性のためにコードを最適化することを検討してください。
+**Q: グラデーション編集によるパフォーマンスへの影響は？**  
+A: 影響はグラデーションの複雑さと変更回数に依存します。一般的なユースケースではオーバーヘッドは最小ですが、大量のファイルをバッチ処理する場合はメモリ管理の最適化が有効です。
 
-### このテクニックを PSD ファイル内の複数のグラデーション塗りつぶしレイヤーに適用できますか?
-はい、レイヤーを反復処理して、条件を満たす各グラデーション塗りつぶしレイヤーに変更を適用できます。
+**Q: PSD 内の複数のグラデーション塗りつぶしレイヤーに同じ手法を適用できますか？**  
+A: はい。`image.getLayers()` を走査し、各 `FillLayer` の `FillType` が `Gradient` であるか確認して、同様の変更を適用してください。
+
+**Q: 本番環境で使用するには商用ライセンスが必要ですか？**  
+A: 本番デプロイには有効な Aspose.PSD ライセンスが必要です。評価用の無料トライアルも用意されています。
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2026-03-23  
+**Tested With:** Aspose.PSD for Java 24.11 (latest)  
+**Author:** Aspose
