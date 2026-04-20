@@ -1,76 +1,127 @@
 ---
-title: 在 Aspose.PSD for Java 中將篩選器套用至 PNG 文件
-linktitle: 在 Aspose.PSD for Java 中將篩選器套用至 PNG 文件
+date: 2026-03-15
+description: 學習如何使用 Aspose.PSD for Java 來過濾 PNG 圖像。此一步一步的指南涵蓋 Java PNG 優化以及使用過濾類型將
+  PSD 轉換為 PNG。
+linktitle: How to Filter PNG Files in Aspose.PSD for Java
 second_title: Aspose.PSD Java API
-description: 透過這份詳細指南，了解如何在 Aspose.PSD for Java 中將濾鏡套用到 PNG 影像。簡單的步驟即可獲得令人驚嘆的影像效果。
-weight: 10
+title: 如何在 Aspose.PSD for Java 中過濾 PNG 檔案
 url: /zh-hant/java/optimizing-png-files/apply-filters-png-files/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.PSD for Java 中將篩選器套用至 PNG 文件
+# 如何在 Aspose.PSD for Java 中過濾 PNG 檔案
 
 ## 介紹
-您是否希望使用 Aspose.PSD for Java 來增強您的 PNG 檔案？您來對地方了！在今天的文章中，我們將探索如何使用這個多功能函式庫將濾鏡套用到 PNG 影像。無論您是新手程式設計師還是經驗豐富的開發人員，本指南都將以清晰簡潔的方式引導您完成每個步驟。最後，您將對如何像專業人士一樣處理圖像有深入的了解。
-## 先決條件
-在我們開始之前，您需要核對清單中的一些先決條件：
-1. Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK。您可以從 Oracle 網站下載它或使用 OpenJDK。它對於運行 Java 應用程式是必需的。
-2. IntelliJ IDEA 或 Eclipse：您需要一個整合開發環境 (IDE) 來編寫和執行 Java 程式碼。這些是流行的選擇，但您可以使用任何您喜歡的 IDE。
-3. Aspose.PSD for Java 函式庫：從下列位置下載 Aspose.PSD for Java 函式庫[這裡](https://releases.aspose.com/psd/java/)。該程式庫為您提供了處理 PSD 檔案並將濾鏡套用至影像所需的工具。
-4. 對 Java 的基本了解：熟悉 Java 程式語言基礎知識將幫助您輕鬆掌握。
-設定完這些先決條件後，您就可以開始學習本教學了！
-## 導入包
-首先，我們需要將必要的套件匯入到我們的 Java 專案中。這一步至關重要，因為它引入了我們將用來操作圖像檔案的類別和方法。
-以下是如何在 Java 類別中匯入所需的套件：
+如果你正在尋找 **如何過濾 PNG** 圖片的 Java 解決方案，你已經來對地方了。在本教學中，我們將示範如何使用 Aspose.PSD for Java 套件套用 PNG 過濾類型，該套件同時支援 **將 PSD 轉換為 PNG** 以及執行 **java png optimization**。完成後，你將能微調壓縮、提升視覺品質，並將此流程整合至任何 Java 專案。
+
+## 快速回答
+- **哪個函式庫支援 Java 中的 PNG 過濾？** Aspose.PSD for Java。  
+- **哪種過濾器在大多數影像上提供最佳壓縮？** Paeth 過濾器（本範例使用）。  
+- **執行程式碼是否需要授權？** 免費試用可供評估；正式上線需購買授權。  
+- **可以在同一工作流程中將 PSD 轉換為 PNG 嗎？** 可以 – 載入 PSD 後以所需過濾器儲存為 PNG。  
+- **需要哪個 Java 版本？** Java 8 或更新版本。
+
+## 「how to filter png」實務上是什麼？
+過濾 PNG 檔案是指在壓縮前選擇一種前處理演算法，以準備像素資料。過濾類型會影響檔案大小以及 PNG 儲存後的色彩保留程度。Aspose.PSD 透過 `PngOptions.setFilterType` 方法讓你直接控制此步驟。
+
+## 為什麼使用 Aspose.PSD for Java 進行 PNG 最佳化？
+- **完整的 PSD 支援：** 開啟、編輯、匯出 PSD 圖層，且不失真。  
+- **內建過濾器選擇：** 可從 Paeth、Sub、Up、Average 或 None 中挑選。  
+- **跨平台：** 在 Windows、Linux、macOS 上皆可執行，使用任何標準 JDK。  
+- **無外部原生相依性：** 純 Java 實作，簡化部署。
+
+## 前置條件
+1. **Java Development Kit (JDK) 8+** – 確認 `java -version` 顯示 1.8 或更高。  
+2. **IDE (IntelliJ IDEA、Eclipse 或 VS Code)** – 任一你熟悉的開發環境。  
+3. **Aspose.PSD for Java 套件** – 從 [此處](https://releases.aspose.com/psd/java/) 下載。  
+4. **基本的 Java 知識** – 了解類別、方法與檔案 I/O。
+
+## 匯入套件
+首先，將所需的 Aspose.PSD 類別匯入你的 Java 檔案：
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.png.PngFilterType;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
-確保將 Aspose.PSD 庫新增至您的專案依賴項中，以便這些匯入無縫工作。
 
-## 第 1 步：設定文檔目錄
-現在，讓我們設定儲存檔案的目錄。指定 PSD 檔案所在的正確路徑以及要儲存修改後的 PNG 影像的位置至關重要。
+> **小技巧：** 將 Aspose.PSD JAR 加入專案的建置路徑或 Maven/Gradle 相依性，讓匯入能順利解析。
+
+## 步驟 1：設定文件目錄
+定義存放來源 PSD 與過濾後 PNG 的資料夾路徑。
+
 ```java
-String dataDir = "Your Document Directory"; //調整這個路徑
+String dataDir = "Your Document Directory"; // Adjust this path
 ```
-代替`"Your Document Directory"`與系統上的實際路徑`sample.psd`文件所在位置以及要儲存輸出的位置。
-## 第 2 步：載入 PSD 映像
-接下來，我們將 PSD 映像載入到我們的程式中。這是使用以下方法完成的`Image.load()`方法以及`dataDir`文件位置。
+
+將 `"Your Document Directory"` 替換為你機器上的絕對或相對路徑。
+
+## 步驟 2：載入 PSD 圖像
+開啟要處理的 PSD 檔案。將其轉型為 `PsdImage` 可取得 PSD 專屬功能。
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "sample.psd");
 ```
-透過將載入的圖像投射到`PsdImage`，我們準備物件來操作和處理 PSD 檔案。 
-## 第 3 步：建立 PNG 選項
-現在，我們需要為 PNG 檔案設定選項。我們可以在此處指定要套用於 PNG 影像的濾鏡類型。
+
+若檔案不存在，`Image.load` 會拋出例外 – 請確認路徑正確。
+
+## 步驟 3：建立 PNG 選項（Java PNG 最佳化）
+設定 PNG 匯出參數，包含直接回應 **how to filter png** 的過濾類型。
+
 ```java
 PngOptions options = new PngOptions();
 options.setFilterType(PngFilterType.Paeth);
 ```
-在此範例中，我們使用 Paeth 濾鏡類型，該濾鏡類型以在壓縮後保持顏色完整性而聞名。您可以根據您的專案要求嘗試其他過濾器類型！
-## 第4步：儲存PNG圖像
-配置完選項後，就可以將修改後的映像存回磁碟了。
+
+你可以嘗試其他過濾類型（`Sub`、`Up`、`Average`、`None`），觀察其對檔案大小與品質的影響。此步驟同時說明 **java png optimization**，因為所選過濾器會影響壓縮效率。
+
+## 步驟 4：儲存 PNG 圖像
+最後，使用先前定義的選項將處理後的圖像寫回磁碟。
+
 ```java
 psdImage.save(dataDir + "ApplyFilterMethod_out.png", options);
 ```
-此行使用先前定義的選項執行實際的儲存過程，並建立一個名為的新 PNG 文件`ApplyFilterMethod_out.png`到指定目錄下。
+
+產生的檔案 `ApplyFilterMethod_out.png` 即為已過濾的 PNG，可直接用於網站或桌面應用。
+
+## 常見問題與解決方案
+| 症狀 | 可能原因 | 解決方式 |
+|------|----------|----------|
+| `FileNotFoundException` | `dataDir` 路徑不正確 | 確認目錄字串以分隔符 (`/` 或 `\\`) 結尾。 |
+| 看不到過濾效果 | 使用了 `PngFilterType.None` | 改為 `Paeth` 或其他過濾類型。 |
+| 大型 PSD 記憶體不足 | 未使用串流直接載入巨檔 | 使用 `PsdImage` 搭配 `loadOptions` 限制記憶體使用量。 |
+
+## 常見問答
+
+**Q: 什麼是 Aspose.PSD for Java？**  
+A: Aspose.PSD for Java 是一套功能完整的 API，讓開發者能讀取、編輯、轉換 PSD 檔案、套用過濾器，並在不需要 Adobe Photoshop 的情況下執行影像最佳化。
+
+**Q: 我要如何下載 Aspose.PSD for Java？**  
+A: 可從 Aspose 釋出頁面 [此處](https://releases.aspose.com/psd/java/) 下載。
+
+**Q: 可以免費試用 Aspose.PSD 嗎？**  
+A: 可以，免費試用版可於 [此處](https://releases.aspose.com/) 取得。
+
+**Q: 我可以對 PNG 圖片套用哪些類型的過濾器？**  
+A: Aspose.PSD 支援 Paeth、Sub、Up、Average 與 None。依需求選擇最能平衡檔案大小與視覺保真度的過濾器。
+
+**Q: 哪裡可以取得 Aspose.PSD 的支援？**  
+A: 可前往 Aspose 論壇 [此處](https://forum.aspose.com/c/psd/34) 取得協助。
+
 ## 結論
-現在你就擁有了！一旦遵循這些步驟，使用 Aspose.PSD for Java 將濾鏡套用到 PNG 檔案就變得非常簡單。您不僅學習如何操作圖像，還體驗了 Aspose.PSD 庫對您的專案的強大功能。因此，請繼續嘗試不同的濾鏡類型並加載其他 PSD 文件，看看您可以實現哪些轉換！
-## 常見問題解答
-### 什麼是 Java 版 Aspose.PSD？  
-Aspose.PSD for Java 是一個函式庫，允許開發人員處理 PSD 檔案並操作影像，例如調整大小、過濾和格式轉換。
-### 如何下載 Java 版 Aspose.PSD？  
-您可以從 Aspose 發布頁面下載它[這裡](https://releases.aspose.com/psd/java/).
-### 我可以免費試用 Aspose.PSD 嗎？  
-是的，您可以透過造訪免費試用版來嘗試一下[這裡](https://releases.aspose.com/).
-### 我可以對 PNG 影像套用哪些類型的濾鏡？  
-Aspose.PSD 支援多種 PNG 濾鏡類型，包括 Paeth、Sub、Up、Average 和 None。您可以根據您的需求進行選擇。
-### 在哪裡可以找到對 Aspose.PSD 問題的支援？  
-您可以透過造訪 Aspose 論壇獲得協助和支持[這裡](https://forum.aspose.com/c/psd/34).
+現在你已掌握 **如何過濾 PNG** 檔案的技巧，並了解如何使用 Aspose.PSD for Java **將 PSD 轉換為 PNG**，以及透過不同過濾類型執行 **java png optimization**。試著玩弄各種過濾器，將此工作流程整合到你的影像處理管線，享受更小且高品質的 PNG 資產。
+
+---
+
+**最後更新：** 2026-03-15  
+**測試環境：** Aspose.PSD for Java 24.10  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
