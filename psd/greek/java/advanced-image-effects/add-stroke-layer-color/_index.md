@@ -1,11 +1,17 @@
 ---
-date: 2026-02-07
-description: Μάθετε πώς να αλλάζετε το χρώμα του περιγράμματος σε ένα αρχείο PSD χρησιμοποιώντας
-  το Aspose.PSD για Java. Ακολουθήστε αυτόν τον οδηγό βήμα‑βήμα για να τροποποιήσετε
-  το χρώμα του στρώματος περιγράμματος, τη διαφάνεια και άλλα.
-linktitle: Add Stroke Layer Color
+date: 2026-04-22
+description: Μάθετε πώς να αλλάζετε το χρώμα του περιγράμματος σε Java με το Aspose.PSD
+  for Java. Ακολουθήστε αυτόν τον οδηγό βήμα‑βήμα για να τροποποιήσετε το χρώμα του
+  στρώματος περιγράμματος, τη διαφάνεια και άλλα.
+keywords:
+- change stroke color java
+- modify stroke opacity
+- apply stroke effect
+- psd stroke tutorial
+- add stroke layer psd
+linktitle: Προσθήκη χρώματος στρώματος περιγράμματος
 second_title: Aspose.PSD Java API
-title: Πώς να αλλάξετε το χρώμα περιγράμματος στο Aspose.PSD για Java
+title: Πώς να αλλάξετε το χρώμα του περιγράμματος στη Java χρησιμοποιώντας το Aspose.PSD
 url: /el/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
@@ -14,40 +20,40 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να αλλάξετε το χρώμα περιγράμματος στο Aspose.PSD για Java
+# Πώς να Αλλάξετε το Χρώμα Περιγράμματος Java Χρησιμοποιώντας το Aspose.PSD
 
 ## Εισαγωγή
 
-Εάν χρειάζεστε **πώς να αλλάξετε το χρώμα περιγράμματος** σε ένα έγγραφο Photoshop προγραμματιστικά, το Aspose.PSD για Java το κάνει απλό. Σε αυτό το σεμινάριο θα περάσουμε από την προσθήκη ενός στρώματος περιγράμματος, την αλλαγή του χρώματός του, τη ρύθμιση της αδιαφάνειας και την αποθήκευση του αποτελέσματος. Στο τέλος θα δείτε επίσης πώς να τροποποιήσετε το περίγραμμα οποιουδήποτε υπάρχοντος στρώματος, δίνοντάς σας πλήρη δημιουργικό έλεγχο από τον κώδικα Java.
+Αν χρειάζεστε να **change stroke color java** σε ένα έγγραφο Photoshop προγραμματιστικά, το Aspose.PSD for Java το καθιστά απλό. Σε αυτό το tutorial θα δούμε πώς να προσθέσουμε ένα στρώμα περιγράμματος, να αλλάξουμε το χρώμα του, να ρυθμίσουμε την αδιαφάνεια και να αποθηκεύσουμε το αποτέλεσμα. Στο τέλος θα δείτε επίσης πώς να τροποποιήσετε το περίγραμμα οποιουδήποτε υπάρχοντος στρώματος, δίνοντάς σας πλήρη δημιουργικό έλεγχο από τον κώδικα Java.
 
 ## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη απαιτείται;** Aspose.PSD for Java (τελευταία έκδοση).  
-- **Μπορώ να αλλάξω το χρώμα περιγράμματος;** Ναι – χρησιμοποιήστε `ColorFillSettings` για να ορίσετε οποιοδήποτε `Color`.  
-- **Χρειάζομαι άδεια;** Μια προσωρινή άδεια λειτουργεί για αξιολόγηση· απαιτείται πλήρης άδεια για παραγωγή.  
-- **Ποια έκδοση της Java υποστηρίζεται;** Java 8 ή νεότερη.  
-- **Πόσο χρόνο διαρκεί η υλοποίηση;** Συνήθως λιγότερο από 10 λεπτά για μια βασική αλλαγή περιγράμματος.
+- **Ποια βιβλιοθήκη απαιτείται;** Aspose.PSD for Java (latest version).  
+- **Μπορώ να αλλάξω το χρώμα του περιγράμματος;** Yes – use `ColorFillSettings` to set any `Color`.  
+- **Χρειάζομαι άδεια;** A temporary license works for evaluation; a full license is required for production.  
+- **Ποια έκδοση Java υποστηρίζεται;** Java 8 or higher.  
+- **Πόσο διαρκεί η υλοποίηση;** Typically under 10 minutes for a basic stroke change.
 
-## Τι είναι ένα στρώμα περιγράμματος σε ένα PSD;
-Ένα στρώμα περιγράμματος είναι ένα διανυσματικό εφέ που σχεδιάζει ένα περίγραμμα γύρω από το περιεχόμενο ενός στρώματος. Μπορεί να προσαρμοστεί με χρώμα, πάχος, αδιαφάνεια και λειτουργία ανάμειξης. Η τροποποίηση αυτού του εφέ προγραμματιστικά επιτρέπει αυτοματοποιημένη επωνυμοποίηση, επεξεργασία παρτίδας ή δημιουργία δυναμικών γραφικών.
+## Τι είναι ένα Στρώμα Περιγράμματος σε PSD;
+Ένα στρώμα περιγράμματος είναι ένα διανυσματικό εφέ που σχεδιάζει ένα περίγραμμα γύρω από το περιεχόμενο ενός στρώματος. Μπορεί να προσαρμοστεί με χρώμα, πάχος, αδιαφάνεια και λειτουργία ανάμειξης. Η τροποποίηση αυτού του εφέ προγραμματιστικά επιτρέπει αυτοματοποιημένο branding, επεξεργασία batch ή δυναμική δημιουργία γραφικών.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.PSD για την αλλαγή του χρώματος περιγράμματος;
-- **Δεν απαιτείται Photoshop** – εργασία εξ ολοκλήρου σε Java.  
-- **Πλήρης συμμόρφωση με το πρότυπο PSD** – υποστηρίζονται όλες οι σύγχρονες δυνατότητες PSD.  
-- **Υψηλή απόδοση** – επεξεργασία μεγάλων αρχείων γρήγορα.  
-- **Διαπλατφορμική** – εκτέλεση σε οποιοδήποτε OS με JVM.
+## Γιατί να Χρησιμοποιήσετε το Aspose.PSD για την Αλλαγή του Χρώματος Περιγράμματος;
+- **Δεν απαιτείται Photoshop** – work entirely in Java.  
+- **Πλήρης συμμόρφωση με το πρότυπο PSD** – all modern PSD features are supported.  
+- **Υψηλή απόδοση** – process large files quickly.  
+- **Διαλειτουργικό** – run on any OS with a JVM.
 
-## Πώς να αλλάξετε το χρώμα περιγράμματος προγραμματιστικά
-Παρακάτω υπάρχει ένας σύντομος, βήμα‑βήμα οδηγός που δείχνει ακριβώς πώς να αλλάξετε το χρώμα περιγράμματος χρησιμοποιώντας το Aspose.PSD για Java. Κάθε βήμα περιλαμβάνει μια σύντομη εξήγηση ακολουθούμενη από το αρχικό μπλοκ κώδικα (αμετάβλητο).
+## Πώς να Αλλάξετε το Χρώμα Περιγράμματος Java Προγραμματιστικά
+Below is a concise, step‑by‑step walkthrough that demonstrates exactly how to change stroke color using Aspose.PSD for Java. Each step includes a short explanation followed by the original code block (unchanged).
 
 ### Προαπαιτούμενα
 
-- **Βιβλιοθήκη Aspose.PSD** – κατεβάστε από την [επίσημη τεκμηρίωση](https://reference.aspose.com/psd/java/).  
+- **Aspose.PSD Library** – κατεβάστε από την [official documentation](https://reference.aspose.com/psd/java/).  
 - **Java Development Kit (JDK)** – έκδοση 8 ή νεότερη.  
-- **IDE** – Eclipse, IntelliJ IDEA ή οποιονδήποτε επεξεργαστή συμβατό με Java.
+- **IDE** – Eclipse, IntelliJ IDEA, ή οποιονδήποτε επεξεργαστή συμβατό με Java.
 
 ### Εισαγωγή Πακέτων
 
-Πρώτα, εισάγετε τις κλάσεις που θα χρειαστείτε. Αυτό δίνει στο έργο σας πρόσβαση στη διαχείριση PSD και στα API εφέ περιγράμματος.
+First, import the classes you’ll need. This gives your project access to the PSD handling and stroke‑effect APIs.
 
 ```java
 import com.aspose.psd.Color;
@@ -62,13 +68,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-### Βήμα 1: Ρύθμιση του Έργου σας
+### Βήμα 1: Ρύθμιση του Έργου Σας
 
-Δημιουργήστε ένα νέο έργο Java, προσθέστε το JAR του Aspose.PSD στη διαδρομή κατασκευής και ελέγξτε ότι η βιβλιοθήκη φορτώνεται χωρίς σφάλματα.
+Create a new Java project, add the Aspose.PSD JAR to the build path, and verify the library loads without errors.
 
-### Βήμα 2: Φόρτωση του αρχείου PSD
+### Βήμα 2: Φόρτωση του Αρχείου PSD
 
-Ενεργοποιήστε τη φόρτωση των πόρων εφέ ώστε οι πληροφορίες του περιγράμματος να είναι διαθέσιμες.
+Enable loading of effect resources so the stroke information is available.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -82,17 +88,17 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-### Βήμα 3: Πρόσβαση στο στρώμα εφέ περιγράμματος
+### Βήμα 3: Πρόσβαση στο Στρώμα Εφέ Περιγράμματος
 
-Ανακτήστε το πρώτο εφέ περιγράμματος από το δεύτερο στρώμα (δείκτης 1).
+Retrieve the first stroke effect from the second layer (index 1).
 
 ```java
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-### Βήμα 4: Επικύρωση ιδιοτήτων περιγράμματος
+### Βήμα 4: Επικύρωση Ιδιοτήτων Περιγράμματος
 
-Επιβεβαιώστε τις υπάρχουσες ιδιότητες πριν κάνετε αλλαγές. Αυτό βοηθά στην αποφυγή απροσδόκητων αποτελεσμάτων.
+Confirm the existing properties before making changes. This helps avoid unexpected results.
 
 ```java
 Assert.areEqual(BlendMode.Normal, colorStroke.getBlendMode());
@@ -100,9 +106,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-### Βήμα 5: Ορισμός Χρώματος και Αδιαφάνειας (Πώς να αλλάξετε το χρώμα περιγράμματος)
+### Βήμα 5: Ορισμός Χρώματος και Αδιαφάνειας (Πώς να Αλλάξετε το Χρώμα Περιγράμματος)
 
-Εδώ **αλλάζουμε το χρώμα περιγράμματος** σε κίτρινο και μειώνουμε την αδιαφάνεια στο 50 % (127 / 255).
+Here we **change stroke color** to yellow and reduce opacity to 50 % (127 / 255).
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -111,49 +117,60 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-### Βήμα 6: Αποθήκευση του τροποποιημένου PSD
+### Βήμα 6: Αποθήκευση του Τροποποιημένου PSD
 
-Γράψτε την ενημερωμένη εικόνα ξανά στο δίσκο. Το νέο αρχείο περιέχει τώρα το τροποποιημένο περίγραμμα.
+Write the updated image back to disk. The new file now contains the modified stroke.
 
 ```java
 im.save(exportPath);
 ```
 
-## Κοινές Περιπτώσεις Χρήσης για την Αλλαγή του Χρώματος Περιγράμματος
-- **Αυτοματοποίηση επωνυμοποίησης:** Εφαρμόστε ένα εταιρικό χρώμα σε λογότυπα σε εκατοντάδες PSD πόρους σε μια ενιαία εκτέλεση παρτίδας.  
-- **Δυναμική δημιουργία UI:** Αλλάξτε τα χρώματα περιγράμματος άμεσα βάσει θεμάτων που επιλέγει ο χρήστης σε ένα εργαλείο σχεδίασης στο web.  
-- **Προετοιμασία προπτήσης:** Διασφαλίστε ότι όλα τα χρώματα περιγράμματος πληρούν τις προδιαγραφές εκτύπωσης πριν αποσταλούν τα αρχεία σε τυπογραφείο.
+## Πώς να Τροποποιήσετε την Αδιαφάνεια του Περιγράμματος
 
-## Συνηθισμένα Παράπλευρα Ζητήματα & Συμβουλές
+If you only need to adjust the opacity while keeping the original color, change the `setOpacity` value (0‑255). For example, `colorStroke.setOpacity((byte)200);` will make the stroke roughly 78 % opaque.
 
-- **Έλεγχοι null** – πάντα επαληθεύστε ότι το `getEffects()` επιστρέφει έναν μη‑null πίνακα πριν το μετατρέψετε.  
-- **Δείκτης στρώματος** – τα στρώματα PSD είναι μηδενικής βάσης· βεβαιωθείτε ότι στοχεύετε το σωστό στρώμα.  
-- **Μορφή χρώματος** – το `Color.getYellow()` είναι μόνο ένα παράδειγμα· μπορείτε να δημιουργήσετε προσαρμοσμένα χρώματα με `new Color(r, g, b)`.  
-- **Εύρος αδιαφάνειας** – η αδιαφάνεια είναι ένα byte (0–255); τιμές πάνω από 255 θα περιοριστούν.  
-- **Φόρτωση πόρων** – η παράλειψη του `loadOptions.setLoadEffectsResource(true)` θα οδηγήσει σε έναν `null` πίνακα εφέ.
+## Πώς να Εφαρμόσετε το Εφέ Περιγράμματος
+
+To add a new stroke effect to a layer that doesn’t already have one, create a `StrokeEffect` instance, configure its `ColorFillSettings`, and attach it to the layer’s `BlendingOptions`. The same `setColor` and `setOpacity` methods are used to define appearance.
+
+## Εκπαιδευτικό PSD Stroke: Προσθήκη Στρώματος Περιγράμματος σε PSD
+
+The steps above illustrate adding a stroke to an existing layer. For a brand‑new stroke layer, duplicate the target layer, then apply the `StrokeEffect`. This approach is useful when you want to keep the original layer untouched.
+
+## Συνηθισμένες Περιπτώσεις Χρήσης για την Αλλαγή του Χρώματος Περιγράμματος
+- **Αυτοματοποίηση branding:** Εφαρμόστε ένα εταιρικό χρώμα σε λογότυπα σε εκατοντάδες PSD πόρους σε μια ενιαία εκτέλεση batch.  
+- **Δυναμική δημιουργία UI:** Αλλάξτε τα χρώματα περιγράμματος σε πραγματικό χρόνο βάσει θεμάτων που επιλέγουν οι χρήστες σε ένα web‑based εργαλείο σχεδίασης.  
+- **Προετοιμασία πριν την εκτύπωση:** Διασφαλίστε ότι όλα τα χρώματα περιγράμματος πληρούν τις προδιαγραφές εκτύπωσης πριν αποστείλετε τα αρχεία σε τυπογραφείο.
+
+## Συνηθισμένα Προβλήματα & Συμβουλές
+- **Έλεγχοι null** – always verify that `getEffects()` returns a non‑null array before casting.  
+- **Δείκτης στρώματος** – PSD layers are zero‑based; ensure you target the correct layer.  
+- **Μορφή χρώματος** – `Color.getYellow()` is just an example; you can create custom colors with `new Color(r, g, b)`.  
+- **Εύρος αδιαφάνειας** – opacity is a byte (0–255); values above 255 will be clamped.  
+- **Φόρτωση πόρων** – forgetting `loadOptions.setLoadEffectsResource(true)` will result in a `null` effects array.
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Μπορώ να χρησιμοποιήσω το Aspose.PSD με άλλες βιβλιοθήκες γραφικών Java;**  
-Α: Ναι, το Aspose.PSD μπορεί να συνδυαστεί με βιβλιοθήκες όπως Apache Commons Imaging ή Java2D για επεκταμένη λειτουργικότητα.
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.PSD με άλλες βιβλιοθήκες γραφικών Java;**  
+A: Yes, Aspose.PSD can be combined with libraries such as Apache Commons Imaging or Java2D for extended functionality.
 
-**Ε: Είναι το Aspose.PSD συμβατό με τη νεότερη μορφή αρχείου PSD;**  
-Α: Απόλυτα. Η βιβλιοθήκη ενημερώνεται τακτικά για να υποστηρίζει τις πιο πρόσφατες προδιαγραφές του Photoshop.
+**Q: Είναι το Aspose.PSD συμβατό με το πιο πρόσφατο φορμά αρχείου PSD;**  
+A: Absolutely. The library is regularly updated to support the newest Photoshop specifications.
 
-**Ε: Πώς διαχειρίζομαι εξαιρέσεις κατά τη χρήση του Aspose.PSD;**  
-Α: Ανατρέξτε στο [φόρουμ υποστήριξης](https://forum.aspose.com/c/psd/34) για λεπτομερή αντιμετώπιση προβλημάτων και δείγματα κώδικα διαχείρισης σφαλμάτων.
+**Q: Πώς να διαχειριστώ εξαιρέσεις ενώ χρησιμοποιώ το Aspose.PSD;**  
+A: Refer to the [support forum](https://forum.aspose.com/c/psd/34) for detailed troubleshooting and sample error‑handling code.
 
-**Ε: Μπορώ να δοκιμάσω το Aspose.PSD πριν το αγοράσω;**  
-Α: Φυσικά! Πάρτε μια [δωρεάν δοκιμή](https://releases.aspose.com/) για να εξερευνήσετε όλες τις δυνατότητες.
+**Q: Μπορώ να δοκιμάσω το Aspose.PSD πριν από την αγορά;**  
+A: Certainly! Grab a [free trial](https://releases.aspose.com/) to explore all features.
 
-**Ε: Πού μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.PSD;**  
-Α: Αποκτήστε μια [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για να αξιολογήσετε τη βιβλιοθήκη στο περιβάλλον ανάπτυξής σας.
+**Q: Πού μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.PSD;**  
+A: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the library in your development environment.
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-02-07  
-**Δοκιμάστηκε με:** Aspose.PSD 24.11 for Java  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-04-22  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
