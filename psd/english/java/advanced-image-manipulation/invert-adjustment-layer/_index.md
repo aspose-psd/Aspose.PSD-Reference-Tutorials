@@ -5,7 +5,7 @@ second_title: Aspose.PSD Java API
 description: "Learn how to use the image processing Java library Aspose.PSD to apply multiple adjustment layers, including the Invert Adjustment Layer, for seamless PSD manipulation."
 weight: 14
 url: /java/advanced-image-manipulation/invert-adjustment-layer/
-date: 2025-12-02
+date: 2026-02-07
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,6 +28,10 @@ If you’re looking for a robust **image processing java library**, Aspose.PSD f
 ## What is the Invert Adjustment Layer?
 
 The Invert Adjustment Layer is a non‑destructive edit that flips the RGB values of every pixel it affects. Because it sits on top of the layer stack, you can toggle its visibility or reorder it without permanently altering the original image data.
+
+## How to invert layer using Aspose.PSD
+
+Below you’ll see exactly how to **how to invert layer** in a PSD file. The steps are deliberately simple so you can focus on the concept rather than boilerplate code.
 
 ## Why Use Aspose.PSD as Your Image Processing Java Library?
 
@@ -125,7 +129,7 @@ A: You can obtain a temporary license [here](https://purchase.aspose.com/tempo
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.PSD 24.12 for Java  
 **Author:** Aspose  
 

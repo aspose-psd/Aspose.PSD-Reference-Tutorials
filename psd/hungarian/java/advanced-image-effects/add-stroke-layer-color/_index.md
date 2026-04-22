@@ -1,11 +1,11 @@
 ---
-date: 2025-11-30
-description: Tudja meg, hogyan adhat hozzá körvonalat, és módosíthatja a PSD körvonal
-  színét az Aspose.PSD for Java segítségével. Kövesse ezt a lépésről‑lépésre útmutatót
-  a körvonal réteg színének és átlátszóságának módosításához.
+date: 2026-02-07
+description: Tanulja meg, hogyan változtathatja meg a vonal színét egy PSD fájlban
+  az Aspose.PSD for Java segítségével. Kövesse ezt a lépésről‑lépésre útmutatót a
+  vonal réteg színének, átlátszóságának és egyéb beállításainak módosításához.
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
-title: Hogyan adjon hozzá körvonal réteg színt az Aspose.PSD for Java-ban
+title: Hogyan változtassuk meg a vonal színét az Aspose.PSD for Java-ban
 url: /hu/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
@@ -14,37 +14,40 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan adjunk hozzá körvonal réteg színt az Aspose.PSD for Java-ban
+# Hogyan változtassuk meg a vonal színét az Aspose.PSD for Java-ban
 
 ## Bevezetés
 
-Ha programozott módon **hogyan adjunk hozzá körvonalat** egy Photoshop dokumentumhoz, az Aspose.PSD for Java egyszerűvé teszi. Ebben az útmutatóban végigvezetünk a körvonal réteg szín hozzáadásán, az átlátszóság beállításán és az eredmény mentésén. A végére megmutatjuk, hogyan **változtassuk meg a körvonal színét** (vagy *változtassuk meg a PSD körvonal színét*) bármely meglévő réteg esetén, így teljes kreatív irányítást kap a Java kódjából.
+Ha programozott módon **hogyan változtassuk meg a vonal színét** egy Photoshop dokumentumban, az Aspose.PSD for Java ezt egyszerűvé teszi. Ebben az útmutatóban végigvezetünk egy stroke réteg hozzáadásán, színének megváltoztatásán, átlátszóságának beállításán, és a mentésen. A végére megmutatjuk, hogyan módosíthatja bármely meglévő réteg stroke-ját, így teljes kreatív irányítást kap Java kódjából.
 
 ## Gyors válaszok
 - **Melyik könyvtár szükséges?** Aspose.PSD for Java (legújabb verzió).  
-- **Megváltoztathatom a körvonal színét?** Igen – használja a `ColorFillSettings`-et bármely `Color` beállításához.  
+- **Megváltoztathatom a vonal színét?** Igen – használja a `ColorFillSettings`‑t bármely `Color` beállításához.  
 - **Szükségem van licencre?** Ideiglenes licenc elegendő értékeléshez; teljes licenc szükséges a termeléshez.  
 - **Melyik Java verzió támogatott?** Java 8 vagy újabb.  
-- **Mennyi időt vesz igénybe a megvalósítás?** Általában 10 percen belül egy alap körvonal módosítás esetén.
+- **Mennyi időt vesz igénybe a megvalósítás?** Általában 10 percnél kevesebb egy alap stroke módosítás esetén.
 
 ## Mi az a Stroke Layer egy PSD-ben?
-A stroke layer egy vektoralapú effektus, amely a réteg tartalma köré keretet rajzol. Testreszabható színnel, vastagsággal, átlátszósággal és keverési móddal. Ennek az effektusnak a programozott módosítása lehetővé teszi az automatizált márkajelzés, kötegelt feldolgozás vagy dinamikus grafika generálását.
+A stroke layer egy vektoriális effektus, amely körvonalat rajzol a réteg tartalma köré. Testreszabható színnel, vastagsággal, átlátszósággal és keverési móddal. Ennek az effektusnak a programozott módosítása automatizált márkázást, kötegelt feldolgozást vagy dinamikus grafika generálást tesz lehetővé.
 
-## Miért használja az Aspose.PSD-t a körvonal szín megváltoztatásához?
-- **Nincs szükség Photoshopra** – teljesen Java-ban dolgozhat.  
+## Miért használjuk az Aspose.PSD-t a vonal színének megváltoztatásához?
+- **Nincs szükség Photoshopra** – teljesen Java-ban dolgozik.  
 - **Teljes PSD specifikációs megfelelés** – minden modern PSD funkció támogatott.  
 - **Nagy teljesítmény** – nagy fájlok gyors feldolgozása.  
-- **Keresztplatformos** – bármely operációs rendszeren futtatható JVM-mel.
+- **Keresztplatformos** – bármely OS-en futtatható JVM-mel.
 
-## Előfeltételek
+## Hogyan változtassuk meg a vonal színét programozottan
+Az alábbi tömör, lépésről‑lépésre útmutató pontosan bemutatja, hogyan változtassuk meg a stroke színét az Aspose.PSD for Java használatával. Minden lépés rövid magyarázatot tartalmaz, majd az eredeti kódrészletet (változatlanul).
 
-- **Aspose.PSD könyvtár** – töltsd le a [hivatalos dokumentációból](https://reference.aspose.com/psd/java/).  
+### Előfeltételek
+
+- **Aspose.PSD Library** – letölthető a [official documentation](https://reference.aspose.com/psd/java/) oldalról.  
 - **Java Development Kit (JDK)** – 8-as vagy újabb verzió.  
 - **IDE** – Eclipse, IntelliJ IDEA vagy bármely Java‑kompatibilis szerkesztő.
 
-## Csomagok importálása
+### Csomagok importálása
 
-Először importálja a szükséges osztályokat. Ez hozzáférést biztosít a projektnek a PSD kezeléshez és a körvonal‑effektus API-khoz.
+Először importálja a szükséges osztályokat. Ez hozzáférést biztosít a PSD kezeléshez és a stroke‑effect API‑khoz.
 
 ```java
 import com.aspose.psd.Color;
@@ -59,13 +62,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## 1. lépés: Projekt beállítása
+### 1. lépés: Projekt beállítása
 
-Hozzon létre egy új Java projektet, adja hozzá az Aspose.PSD JAR-t a build útvonalhoz, és ellenőrizze, hogy a könyvtár hibamentesen betöltődik.
+Hozzon létre egy új Java projektet, adja hozzá az Aspose.PSD JAR‑t a build útvonalhoz, és ellenőrizze, hogy a könyvtár hibamentesen betöltődik‑e.
 
-## 2. lépés: PSD fájl betöltése
+### 2. lépés: PSD fájl betöltése
 
-Engedélyezze az effektus erőforrások betöltését, hogy a körvonal információ elérhető legyen.
+Engedélyezze az effektus erőforrások betöltését, hogy a stroke információ elérhető legyen.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -79,17 +82,17 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## 3. lépés: A Stroke Effect réteg elérése
+### 3. lépés: A Stroke Effect réteg elérése
 
-Szerezze meg az első körvonal effektust a második rétegből (index 1).
+Szerezze meg az első stroke effektust a második rétegből (index 1).
 
 ```java
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-## 4. lépés: A körvonal tulajdonságainak ellenőrzése
+### 4. lépés: Stroke tulajdonságok ellenőrzése
 
-Ellenőrizze a meglévő tulajdonságokat a módosítások előtt. Ez segít elkerülni a váratlan eredményeket.
+Ellenőrizze a meglévő tulajdonságokat a módosítás előtt. Ez segít elkerülni a váratlan eredményeket.
 
 ```java
 Assert.areEqual(BlendMode.Normal, colorStroke.getBlendMode());
@@ -97,9 +100,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-## 5. lépés: Szín és átlátszóság beállítása (Hogyan változtassuk meg a körvonal színét)
+### 5. lépés: Szín és átlátszóság beállítása (Hogyan változtassuk meg a vonal színét)
 
-Itt **a PSD körvonal színét** sárgára állítjuk, és az átlátszóságot 50 %-ra (127 / 255) csökkentjük.
+Itt **megváltoztatjuk a stroke színét** sárgára, és az átlátszóságot 50 %-ra (127 / 255) állítjuk.
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -108,45 +111,47 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-## 6. lépés: Módosított PSD mentése
+### 6. lépés: Módosított PSD mentése
 
-Írja vissza a frissített képet a lemezre. Az új fájl most már a módosított körvonalat tartalmazza.
+Írja vissza a frissített képet a lemezre. Az új fájl már a módosított stroke‑ot tartalmazza.
 
 ```java
 im.save(exportPath);
 ```
 
+## Gyakori felhasználási esetek a vonal színének megváltoztatásához
+- **Márkaautomatizálás:** Vállalati szín alkalmazása logókra több száz PSD eszközön egyetlen kötegelt futtatás során.  
+- **Dinamikus UI generálás:** A vonal színeket valós időben módosítani a felhasználó által kiválasztott témák alapján egy webes tervezőeszközben.  
+- **Előzetes előkészítés:** Biztosítani, hogy minden vonal szín megfeleljen a nyomtatási specifikációknak, mielőtt a fájlokat a nyomdába küldenénk.
+
 ## Gyakori hibák és tippek
 
-- **Null ellenőrzések** – mindig ellenőrizze, hogy a `getEffects()` nem‑null tömböt ad-e vissza a cast előtt.  
+- **Null ellenőrzések** – mindig ellenőrizze, hogy a `getEffects()` nem‑null tömböt ad‑e vissza a cast előtt.  
 - **Réteg index** – a PSD rétegek nullától indulnak; győződjön meg róla, hogy a megfelelő rétegre céloz.  
-- **Színformátum** – a `Color.getYellow()` csak példa; egyedi színeket hozhat létre `new Color(r, g, b)` segítségével.  
-- **Átlátszóság tartomány** – az átlátszóság egy byte (0–255); a 255 fölötti értékek le lesznek vágva.
+- **Szín formátum** – a `Color.getYellow()` csak egy példa; egyedi színeket hozhat létre a `new Color(r, g, b)` segítségével.  
+- **Átlátszóság tartomány** – az átlátszóság egy byte (0–255); a 255 fölötti értékek le lesznek vágva.  
+- **Erőforrás betöltés** – ha elfelejti a `loadOptions.setLoadEffectsResource(true)` beállítást, `null` effects tömböt kap.
 
-## Következtetés
+## Gyakran ismételt kérdések
 
-Most már megtanulta, **hogyan adjon hozzá körvonalat** egy PSD fájlhoz, és **hogyan változtassa meg a körvonal színét** az Aspose.PSD for Java segítségével. Kísérletezzen különböző színekkel, keverési módokkal és átlátszóságokkal, hogy elérje a projektje által igényelt pontos vizuális stílust.
+**K: Használhatom az Aspose.PSD-t más Java grafikus könyvtárakkal?**  
+V: Igen, az Aspose.PSD kombinálható olyan könyvtárakkal, mint az Apache Commons Imaging vagy a Java2D a funkcionalitás bővítéséhez.
 
-## Gyakran Ismételt Kérdések
+**K: Az Aspose.PSD kompatibilis a legújabb PSD fájlformátummal?**  
+V: Teljesen. A könyvtár rendszeresen frissül, hogy támogassa a legújabb Photoshop specifikációkat.
 
-**Q: Használhatom az Aspose.PSD-t más Java grafikus könyvtárakkal?**  
-A: Igen, az Aspose.PSD kombinálható olyan könyvtárakkal, mint az Apache Commons Imaging vagy a Java2D a kibővített funkcionalitásért.
+**K: Hogyan kezelem a kivételeket az Aspose.PSD használata közben?**  
+V: Tekintse meg a [support forum](https://forum.aspose.com/c/psd/34) részletes hibakeresési és mintakód‑kezelési útmutatókért.
 
-**Q: Az Aspose.PSD kompatibilis a legújabb PSD fájlformátummal?**  
-A: Teljes mértékben. A könyvtár rendszeresen frissül, hogy támogassa a legújabb Photoshop specifikációkat.
+**K: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?**  
+V: Természetesen! Szerezzen be egy [free trial](https://releases.aspose.com/) verziót, hogy felfedezze az összes funkciót.
 
-**Q: Hogyan kezeljem a kivételeket az Aspose.PSD használata közben?**  
-A: Tekintse meg a [támogatási fórumot](https://forum.aspose.com/c/psd/34) a részletes hibaelhárításhoz és mintakódokhoz.
-
-**Q: Kipróbálhatom az Aspose.PSD-t vásárlás előtt?**  
-A: Természetesen! Szerezzen egy [ingyenes próbaverziót](https://releases.aspose.com/), hogy felfedezze az összes funkciót.
-
-**Q: Hol szerezhetek ideiglenes licencet az Aspose.PSD-hez?**  
-A: Szerezzen egy [ideiglenes licencet](https://purchase.aspose.com/temporary-license/), hogy értékelje a könyvtárat a fejlesztői környezetében.
+**K: Hol szerezhetek ideiglenes licencet az Aspose.PSD-hez?**  
+V: Szerezze be az [temporary license](https://purchase.aspose.com/temporary-license/) lehetőséget a könyvtár értékeléséhez a fejlesztői környezetben.
 
 ---
 
-**Utoljára frissítve:** 2025-11-30  
+**Utoljára frissítve:** 2026-02-07  
 **Tesztelve:** Aspose.PSD 24.11 for Java  
 **Szerző:** Aspose  
 

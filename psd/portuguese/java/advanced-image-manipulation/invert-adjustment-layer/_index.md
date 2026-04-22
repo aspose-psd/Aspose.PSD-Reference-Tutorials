@@ -1,8 +1,8 @@
 ---
-date: 2025-12-02
+date: 2026-02-07
 description: Aprenda a usar a biblioteca Java de processamento de imagens Aspose.PSD
-  para aplicar múltiplas camadas de ajuste, incluindo a Camada de Ajuste Inverter,
-  para uma manipulação de PSD perfeita.
+  para aplicar múltiplas camadas de ajuste, incluindo a camada de ajuste Inverter,
+  para manipulação fluida de PSD.
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
 title: 'Biblioteca Java de Processamento de Imagem: Inverter Camada usando Aspose.PSD'
@@ -18,7 +18,7 @@ weight: 14
 
 ## Introdução
 
-Se você está procurando uma **biblioteca de processamento de imagens java** robusta, o Aspose.PSD para Java é uma das opções mais versáteis do mercado. Neste tutorial, vamos percorrer como adicionar uma **Camada de Ajuste Inverter** a um arquivo PSD, uma técnica que pode ser combinada com outras camadas de ajuste para alcançar efeitos visuais sofisticados. Seja você quem está construindo uma ferramenta de processamento em lote ou um editor de imagem único, este guia oferece um caminho claro, passo a passo, para concluir a tarefa rapidamente.
+Se você está procurando uma **biblioteca java de processamento de imagens** robusta, o Aspose.PSD para Java é uma das opções mais versáteis do mercado. Neste tutorial vamos percorrer como adicionar uma **Camada de Ajuste Inverter** a um arquivo PSD, uma técnica que pode ser combinada com outras camadas de ajuste para alcançar efeitos visuais sofisticados. Seja você quem esteja construindo uma ferramenta de processamento em lote ou um editor de imagem único, este guia oferece um caminho claro, passo a passo, para concluir a tarefa rapidamente.
 
 ## Respostas Rápidas
 - **O que a Camada de Ajuste Inverter faz?** Ela inverte todos os valores de cor na área selecionada, criando um efeito de imagem negativa.  
@@ -31,18 +31,22 @@ Se você está procurando uma **biblioteca de processamento de imagens java** ro
 
 A Camada de Ajuste Inverter é uma edição não destrutiva que inverte os valores RGB de cada pixel que afeta. Como ela fica acima da pilha de camadas, você pode alternar sua visibilidade ou reordená‑la sem alterar permanentemente os dados originais da imagem.
 
-## Por que usar o Aspose.PSD como sua Biblioteca de Processamento de Imagens Java?
+## Como inverter camada usando Aspose.PSD
+
+A seguir você verá exatamente **como inverter camada** em um arquivo PSD. Os passos são deliberadamente simples para que você possa focar no conceito em vez de código boilerplate.
+
+## Por que usar Aspose.PSD como sua Biblioteca Java de Processamento de Imagens?
 
 - **Suporte total a PSD** – leia, edite e grave arquivos Photoshop sem precisar do Photoshop instalado.  
 - **Multiplataforma** – funciona em qualquer runtime Java (Java 6+).  
-- **Recursos avançados de ajuste** – inclui métodos integrados para muitas edições comuns, facilitando **aplicar múltiplas camadas de ajuste** em um único fluxo de trabalho.  
+- **Recursos ricos de ajuste** – inclui métodos integrados para muitas edições comuns, facilitando **aplicar múltiplas camadas de ajuste** em um único fluxo de trabalho.  
 - **Desempenho otimizado** – lida eficientemente com arquivos grandes, essencial para processamento em lote.
 
 ## Pré‑requisitos
 
 Antes de começar, certifique‑se de que você tem o seguinte:
 
-1. **Aspose.PSD Library** – faça o download no site oficial [here](https://releases.aspose.com/psd/java/).  
+1. **Biblioteca Aspose.PSD** – faça o download no site oficial [here](https://releases.aspose.com/psd/java/).  
 2. **Ambiente de Desenvolvimento Java** – JDK 6.0 ou posterior instalado e configurado.  
 
 Agora, vamos mergulhar no código.
@@ -57,7 +61,7 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Etapa 1: Configurar o Diretório do Documento
+## Etapa 1: Configurar Diretório do Documento
 
 Defina a pasta que contém seu arquivo PSD de origem e onde a saída será salva.
 
@@ -65,7 +69,7 @@ Defina a pasta que contém seu arquivo PSD de origem e onde a saída será salva
 String dataDir = "Your Document Directory";
 ```
 
-## Etapa 2: Carregar o Arquivo PSD
+## Etapa 2: Carregar Arquivo PSD
 
 Carregue o arquivo de origem em um objeto `PsdImage`. Esse objeto representa todo o documento PSD na memória.
 
@@ -78,7 +82,7 @@ PsdImage im = (PsdImage)Image.load(filePath);
 
 ## Etapa 3: Adicionar Camada de Ajuste Inverter
 
-Chame o método interno para inserir uma Camada de Ajuste Inverter no topo da pilha de camadas atual. Você pode adicionar mais camadas posteriormente (por exemplo, Brilho, Matiz) para **aplicar múltiplas camadas de ajuste**.
+Chame o método interno para inserir uma Camada de Ajuste Inverter no topo da pilha de camadas atual. Você pode adicionar mais camadas depois (por exemplo, Brilho, Matiz) para **aplicar múltiplas camadas de ajuste**.
 
 ```java
 im.addInvertAdjustmentLayer();
@@ -98,37 +102,37 @@ im.save(outputPath);
 - Uma Camada de Ajuste Inverter foi adicionada como a camada superior.  
 - A imagem foi salva, preservando a edição não destrutiva.
 
-Você usou com sucesso o Aspose.PSD, uma **biblioteca de processamento de imagens java**, para manipular um arquivo PSD.
+Você usou com sucesso o Aspose.PSD, uma **biblioteca java de processamento de imagens**, para manipular um arquivo PSD.
 
 ## Problemas Comuns & Dicas
 
 | Problema | Causa | Solução |
 |----------|-------|----------|
-| **NullPointerException em `Image.load`** | Caminho de arquivo incorreto ou arquivo ausente | Verifique `dataDir` e o nome do arquivo; use caminhos absolutos para teste |
+| **NullPointerException on `Image.load`** | Caminho de arquivo incorreto ou arquivo ausente | Verifique `dataDir` e o nome do arquivo; use caminhos absolutos para testes |
 | **Ordem das camadas não como esperado** | Adicionar camadas após as existentes altera a pilha | Use `im.addInvertAdjustmentLayer()` antes de adicionar outros ajustes, ou reordene as camadas via `im.getLayers()` |
-| **Desaceleração de desempenho em PSDs grandes** | Carregar arquivos muito grandes na memória | Considere processar páginas em blocos ou aumentar o tamanho do heap JVM (`-Xmx2g`) |
+| **Desaceleração de desempenho em PSDs grandes** | Carregamento de arquivos muito grandes na memória | Considere processar páginas em blocos ou aumentar o tamanho do heap JVM (`-Xmx2g`) |
 
 ## Perguntas Frequentes
 
-**Q: O Aspose.PSD é compatível com todas as versões do Java?**  
-A: O Aspose.PSD suporta Java 6.0 e versões posteriores.
+**P: O Aspose.PSD é compatível com todas as versões Java?**  
+R: O Aspose.PSD suporta Java 6.0 e versões posteriores.
 
-**Q: Posso aplicar múltiplas camadas de ajuste em uma única operação?**  
-A: Sim, você pode empilhar várias camadas de ajuste — como Inverter, Brilho e Matiz/Saturação — para obter efeitos complexos.
+**P: Posso aplicar múltiplas camadas de ajuste em uma única operação?**  
+R: Sim, você pode empilhar várias camadas de ajuste — como Inverter, Brilho e Matiz/Saturação — para obter efeitos complexos.
 
-**Q: Onde posso encontrar documentação adicional para o Aspose.PSD?**  
-A: Consulte a documentação [here](https://reference.aspose.com/psd/java/) para guias abrangentes e referências de API.
+**P: Onde posso encontrar documentação adicional para o Aspose.PSD?**  
+R: Consulte a documentação [here](https://reference.aspose.com/psd/java/) para guias abrangentes e referências de API.
 
-**Q: Existe um teste gratuito disponível para o Aspose.PSD?**  
-A: Sim, você pode explorar o teste gratuito [here](https://releases.aspose.com/).
+**P: Existe um teste gratuito disponível para o Aspose.PSD?**  
+R: Sim, você pode explorar o teste gratuito [here](https://releases.aspose.com/).
 
-**Q: Como posso obter uma licença temporária para o Aspose.PSD?**  
-A: Você pode obter uma licença temporária [here](https://purchase.aspose.com/temporary-license/).
+**P: Como posso obter uma licença temporária para o Aspose.PSD?**  
+R: Você pode obter uma licença temporária [here](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Última atualização:** 2025-12-02  
-**Testado com:** Aspose.PSD 24.12 for Java  
+**Última atualização:** 2026-02-07  
+**Testado com:** Aspose.PSD 24.12 para Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

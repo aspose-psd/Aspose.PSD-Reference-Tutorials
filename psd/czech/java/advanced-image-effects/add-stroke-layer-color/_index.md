@@ -1,11 +1,11 @@
 ---
-date: 2025-11-30
-description: Naučte se, jak přidat obrys a změnit barvu obrysu v souboru PSD pomocí
-  Aspose.PSD pro Javu. Postupujte podle tohoto krok‑za‑krokem průvodce a upravte barvu
-  a průhlednost vrstvy obrysu.
+date: 2026-02-07
+description: Naučte se, jak změnit barvu obrysu v souboru PSD pomocí Aspose.PSD pro
+  Javu. Postupujte podle tohoto krok‑za‑krokem průvodce a upravte barvu vrstvy obrysu,
+  průhlednost a další.
 linktitle: Add Stroke Layer Color
 second_title: Aspose.PSD Java API
-title: Jak přidat barvu obrysu vrstvy v Aspose.PSD pro Javu
+title: Jak změnit barvu obrysu v Aspose.PSD pro Javu
 url: /cs/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
@@ -14,37 +14,40 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak přidat barvu vrstvy obrysu v Aspose.PSD pro Java
+# Jak změnit barvu tahu v Aspose.PSD pro Java
 
 ## Úvod
 
-Pokud potřebujete **jak přidat obrys** do dokumentu Photoshopu programově, Aspose.PSD pro Java to usnadňuje. V tomto tutoriálu vás provedeme přidáním barvy vrstvy obrysu, úpravou její průhlednosti a uložením výsledku. Na konci také uvidíte, jak **změnit barvu obrysu** (nebo *změnit barvu obrysu PSD*) pro libovolnou existující vrstvu, což vám poskytne plnou kreativní kontrolu z vašeho Java kódu.
+Pokud potřebujete **jak změnit barvu tahu** v dokumentu Photoshop programově, Aspose.PSD pro Java to usnadňuje. V tomto tutoriálu vás provedeme přidáním vrstvy tahu, změnou její barvy, úpravou neprůhlednosti a uložením výsledku. Na konci také uvidíte, jak upravit tah jakékoli existující vrstvy, což vám poskytne plnou kreativní kontrolu z vašeho Java kódu.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je vyžadována?** Aspose.PSD pro Java (nejnovější verze).  
-- **Mohu změnit barvu obrysu?** Ano – použijte `ColorFillSettings` k nastavení libovolné `Color`.  
+- **Jaká knihovna je vyžadována?** Aspose.PSD for Java (nejnovější verze).  
+- **Mohu změnit barvu tahu?** Ano – použijte `ColorFillSettings` k nastavení libovolné `Color`.  
 - **Potřebuji licenci?** Dočasná licence stačí pro hodnocení; plná licence je vyžadována pro produkci.  
-- **Která verze Javy je podporována?** Java 8 nebo vyšší.  
-- **Jak dlouho trvá implementace?** Obvykle méně než 10 minut pro základní změnu obrysu.
+- **Jaká verze Javy je podporována?** Java 8 nebo vyšší.  
+- **Jak dlouho trvá implementace?** Obvykle méně než 10 minut pro základní změnu tahu.
 
-## Co je vrstva obrysu v PSD?
-Vrstva obrysu je vektorový efekt, který kreslí obrys kolem obsahu vrstvy. Lze ji přizpůsobit barvou, tloušťkou, průhledností a režimem prolnutí. Programová úprava tohoto efektu umožňuje automatizované značkování, dávkové zpracování nebo generování dynamické grafiky.
+## Co je vrstva tahu v PSD?
+Vrstva tahu je vektorový efekt, který kreslí obrys kolem obsahu vrstvy. Lze ji přizpůsobit barvou, tloušťkou, neprůhledností a režimem prolnutí. Programová úprava tohoto efektu umožňuje automatizovanou značkovou identitu, dávkové zpracování nebo generování dynamické grafiky.
 
-## Proč použít Aspose.PSD ke změně barvy obrysu?
-- **Není potřeba Photoshop** – pracujte zcela v Javě.  
-- **Plná shoda se specifikací PSD** – jsou podporovány všechny moderní funkce PSD.  
+## Proč použít Aspose.PSD pro změnu barvy tahu?
+- **Není vyžadován Photoshop** – pracujte výhradně v Javě.  
+- **Plná shoda se specifikací PSD** – všechny moderní funkce PSD jsou podporovány.  
 - **Vysoký výkon** – rychle zpracovávejte velké soubory.  
 - **Cross‑platform** – běží na jakémkoli OS s JVM.
 
-## Prerequisites
+## Jak programově změnit barvu tahu
+Níže je stručný, krok za krokem průvodce, který přesně ukazuje, jak změnit barvu tahu pomocí Aspose.PSD pro Java. Každý krok obsahuje krátké vysvětlení následované původním blokem kódu (beze změny).
+
+### Požadavky
 
 - **Knihovna Aspose.PSD** – stáhněte z [oficiální dokumentace](https://reference.aspose.com/psd/java/).  
 - **Java Development Kit (JDK)** – verze 8 nebo novější.  
-- **IDE** – Eclipse, IntelliJ IDEA nebo jakýkoli editor kompatibilní s Javou.
+- **IDE** – Eclipse, IntelliJ IDEA nebo jakýkoli Java‑kompatibilní editor.
 
-## Import balíčků
+### Import balíčků
 
-Nejprve importujte třídy, které budete potřebovat. To vašemu projektu poskytne přístup k API pro práci s PSD a efektem obrysu.
+Nejprve importujte třídy, které budete potřebovat. Tím získá váš projekt přístup k API pro práci s PSD a efekty tahu.
 
 ```java
 import com.aspose.psd.Color;
@@ -59,13 +62,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## Krok 1: Nastavte svůj projekt
+### Krok 1: Nastavte svůj projekt
 
-Vytvořte nový Java projekt, přidejte JAR Aspose.PSD do cesty sestavení a ověřte, že se knihovna načte bez chyb.
+Vytvořte nový Java projekt, přidejte Aspose.PSD JAR do cesty sestavení a ověřte, že se knihovna načte bez chyb.
 
-## Krok 2: Načtěte soubor PSD
+### Krok 2: Načtěte soubor PSD
 
-Povolte načítání zdrojů efektů, aby byly k dispozici informace o obrysu.
+Povolte načítání zdrojů efektů, aby byly informace o tahu k dispozici.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -79,15 +82,15 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## Krok 3: Přístup k vrstvě efektu obrysu
+### Krok 3: Přístup k vrstvě efektu tahu
 
-Získejte první efekt obrysu ze druhé vrstvy (index 1).
+Získejte první efekt tahu ze druhé vrstvy (index 1).
 
 ```java
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-## Krok 4: Ověřte vlastnosti obrysu
+### Krok 4: Ověřte vlastnosti tahu
 
 Potvrďte existující vlastnosti před provedením změn. To pomáhá předejít neočekávaným výsledkům.
 
@@ -97,9 +100,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-## Krok 5: Nastavte barvu a průhlednost (Jak změnit barvu obrysu)
+### Krok 5: Nastavte barvu a neprůhlednost (Jak změnit barvu tahu)
 
-Zde **měníme barvu obrysu PSD** na žlutou a snižujeme průhlednost na 50 % (127 / 255).
+Zde **měníme barvu tahu** na žlutou a snižujeme neprůhlednost na 50 % (127 / 255).
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -108,24 +111,26 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-## Krok 6: Uložte upravený PSD
+### Krok 6: Uložte upravený PSD
 
-Zapište aktualizovaný obrázek zpět na disk. Nový soubor nyní obsahuje upravený obrys.
+Zapište aktualizovaný obrázek zpět na disk. Nový soubor nyní obsahuje upravený tah.
 
 ```java
 im.save(exportPath);
 ```
 
-## Časté úskalí a tipy
+## Běžné případy použití pro změnu barvy tahu
+- **Automatizace brandingu:** Použijte firemní barvu na loga ve stovkách PSD souborů během jednoho dávkového spuštění.  
+- **Dynamické generování UI:** Měňte barvy tahu za běhu podle témat vybraných uživatelem ve webovém designovém nástroji.  
+- **Předletová příprava:** Zajistěte, že všechny barvy tahu splňují tiskové specifikace před odesláním souborů do tisku.
 
-- **Kontroly null** – vždy ověřte, že `getEffects()` vrací pole nenulové před přetypováním.  
+## Běžné úskalí a tipy
+
+- **Kontroly na null** – vždy ověřte, že `getEffects()` vrací pole, které není null, před přetypováním.  
 - **Index vrstvy** – vrstvy PSD jsou číslovány od nuly; ujistěte se, že cílíte na správnou vrstvu.  
 - **Formát barvy** – `Color.getYellow()` je jen příklad; můžete vytvořit vlastní barvy pomocí `new Color(r, g, b)`.  
-- **Rozsah průhlednosti** – průhlednost je byte (0–255); hodnoty nad 255 budou oříznuty.
-
-## Závěr
-
-Nyní jste se naučili **jak přidat obrys** do souboru PSD a **jak změnit barvu obrysu** pomocí Aspose.PSD pro Java. Experimentujte s různými barvami, režimy prolnutí a průhlednostmi, abyste dosáhli přesně požadovaného vizuálního stylu vašeho projektu.
+- **Rozsah neprůhlednosti** – neprůhlednost je byte (0–255); hodnoty nad 255 budou oříznuty.  
+- **Načítání zdrojů** – zapomenutí `loadOptions.setLoadEffectsResource(true)` povede k `null` poli efektů.
 
 ## Často kladené otázky
 
@@ -136,17 +141,15 @@ A: Ano, Aspose.PSD lze kombinovat s knihovnami jako Apache Commons Imaging nebo 
 A: Rozhodně. Knihovna je pravidelně aktualizována, aby podporovala nejnovější specifikace Photoshopu.
 
 **Q: Jak zacházet s výjimkami při používání Aspose.PSD?**  
-A: Podívejte se na [support forum](https://forum.aspose.com/c/psd/34) pro podrobné řešení problémů a ukázkový kód pro zpracování chyb.
+A: Odkazujte se na [support forum](https://forum.aspose.com/c/psd/34) pro podrobné řešení problémů a ukázkový kód pro zpracování chyb.
 
-**Q: Můžu vyzkoušet Aspose.PSD před zakoupením?**  
-A: Samozřejmě! Získejte [free trial](https://releases.aspose.com/) a prozkoumejte všechny funkce.
+**Q: Můžu si Aspose.PSD vyzkoušet před zakoupením?**  
+A: Samozřejmě! Stáhněte si [free trial](https://releases.aspose.com/) a prozkoumejte všechny funkce.
 
-**Q: Kde mohu získat dočasnou licenci pro Aspose.PSD?**  
+**Q: Kde získám dočasnou licenci pro Aspose.PSD?**  
 A: Získejte [temporary license](https://purchase.aspose.com/temporary-license/) pro vyhodnocení knihovny ve vašem vývojovém prostředí.
 
----
-
-**Poslední aktualizace:** 2025-11-30  
+**Poslední aktualizace:** 2026-02-07  
 **Testováno s:** Aspose.PSD 24.11 pro Java  
 **Autor:** Aspose  
 

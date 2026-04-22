@@ -1,11 +1,11 @@
 ---
-date: 2025-12-02
+date: 2026-02-07
 description: Apprenez à utiliser la bibliothèque Java de traitement d'images Aspose.PSD
-  pour appliquer plusieurs calques d'ajustement, y compris le calque d'ajustement
-  Inverser, afin de manipuler les PSD de manière fluide.
+  pour appliquer plusieurs calques d’ajustement, y compris le calque d’ajustement
+  Inverser, afin de manipuler les fichiers PSD de façon fluide.
 linktitle: Invert Adjustment Layer
 second_title: Aspose.PSD Java API
-title: 'Bibliothèque Java de traitement d''images : Inverser le calque avec Aspose.PSD'
+title: 'Bibliothèque Java de traitement d''images : Inverser le calque avec Aspose.PSD'
 url: /fr/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
@@ -14,40 +14,44 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Calque de réglage Inverser dans Aspose.PSD pour Java
+# Couche d'ajustement Inverser dans Aspose.PSD pour Java
 
 ## Introduction
 
-Si vous recherchez une **bibliothèque java de traitement d'images** robuste, Aspose.PSD pour Java est l'une des options les plus polyvalentes du marché. Dans ce tutoriel, nous allons vous montrer comment ajouter un **Calque de réglage Inverser** à un fichier PSD, une technique que vous pouvez combiner avec d'autres calques de réglage pour obtenir des effets visuels sophistiqués. Que vous construisiez un outil de traitement par lots ou un éditeur d'image unique, ce guide vous offre un chemin clair, étape par étape, pour accomplir la tâche rapidement.
+Si vous recherchez une **bibliothèque de traitement d'images java** robuste, Aspose.PSD pour Java est l'une des options les plus polyvalentes du marché. Dans ce tutoriel, nous allons vous montrer comment ajouter une **Invert Adjustment Layer** à un fichier PSD, une technique que vous pouvez combiner avec d'autres calques d'ajustement pour obtenir des effets visuels sophistiqués. Que vous construisiez un outil de traitement par lots ou un éditeur d'image unique, ce guide vous fournit un chemin clair, étape par étape, pour accomplir la tâche rapidement.
 
 ## Quick Answers
-- **Que fait le Calque de réglage Inverser ?** Il inverse toutes les valeurs de couleur dans la zone sélectionnée, créant un effet d'image négative.  
-- **Quelle bibliothèque fournit cette fonctionnalité ?** Aspose.PSD, une bibliothèque java de traitement d'images de premier plan.  
-- **Puis-je le superposer à d'autres réglages ?** Oui – vous pouvez **appliquer plusieurs calques de réglage** tels que Luminosité/Contraste, Teinte/Saturation, et plus.  
-- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit est disponible ; une licence est requise pour une utilisation en production.  
-- **Combien de temps prend l'implémentation ?** Typiquement moins de 10 minutes pour un cas d'utilisation de base.
+- **Que fait la Invert Adjustment Layer ?** Elle inverse toutes les valeurs de couleur dans la zone sélectionnée, créant un effet d'image négative.  
+- **Quelle bibliothèque fournit cette fonctionnalité ?** Aspose.PSD, une bibliothèque de traitement d'images java de premier plan.  
+- **Puis‑je la superposer avec d'autres ajustements ?** Oui – vous pouvez **apply multiple adjustment layers** tels que Brightness/Contrast, Hue/Saturation, et plus encore.  
+- **Ai‑je besoin d'une licence pour le développement ?** Un essai gratuit est disponible ; une licence est requise pour une utilisation en production.  
+- **Combien de temps prend l'implémentation ?** Généralement moins de 10 minutes pour un cas d'utilisation basique.
 
 ## What is the Invert Adjustment Layer?
 
-Le Calque de réglage Inverser est une modification non destructive qui inverse les valeurs RVB de chaque pixel qu'il affecte. Parce qu'il se situe au-dessus de la pile de calques, vous pouvez basculer sa visibilité ou le réorganiser sans altérer de façon permanente les données d'image originales.
+La Invert Adjustment Layer est une modification non destructive qui inverse les valeurs RGB de chaque pixel qu'elle affecte. Parce qu'elle se situe au-dessus de la pile de calques, vous pouvez basculer sa visibilité ou la réorganiser sans altérer définitivement les données d'image originales.
+
+## How to invert layer using Aspose.PSD
+
+Vous verrez ci‑dessous exactement **how to invert layer** dans un fichier PSD. Les étapes sont volontairement simples afin que vous puissiez vous concentrer sur le concept plutôt que sur le code boilerplate.
 
 ## Why Use Aspose.PSD as Your Image Processing Java Library?
 
-- **Prise en charge complète du PSD** – lire, modifier et écrire des fichiers Photoshop sans Photoshop installé.  
-- **Multi‑plateforme** – fonctionne sur n'importe quel environnement d'exécution Java (Java 6+).  
-- **Fonctionnalités de réglage riches** – comprend des méthodes intégrées pour de nombreuses modifications courantes, facilitant **l'application de plusieurs calques de réglage** dans un flux de travail unique.  
-- **Optimisé pour la performance** – gère efficacement les gros fichiers, ce qui est essentiel pour le traitement par lots.
+- **Support complet du PSD** – lire, modifier et écrire des fichiers Photoshop sans Photoshop installé.  
+- **Cross‑platform** – fonctionne sur n'importe quel runtime Java (Java 6+).  
+- **Rich adjustment features** – inclut des méthodes intégrées pour de nombreuses modifications courantes, facilitant **apply multiple adjustment layers** dans un seul flux de travail.  
+- **Performance‑optimized** – gère efficacement les gros fichiers, ce qui est essentiel pour le traitement par lots.
 
 ## Prerequisites
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
+Avant de commencer, assurez‑vous de disposer de ce qui suit :
 
-1. **Bibliothèque Aspose.PSD** – téléchargez‑la depuis le site officiel [ici](https://releases.aspose.com/psd/java/).  
-2. **Environnement de développement Java** – JDK 6.0 ou version ultérieure installé et configuré.  
+1. **Aspose.PSD Library** – téléchargez‑la depuis le site officiel [here](https://releases.aspose.com/psd/java/).  
+2. **Java Development Environment** – JDK 6.0 ou version ultérieure installé et configuré.  
 
 Passons maintenant au code.
 
-## Importer les packages
+## Import Packages
 
 Commencez par importer les classes nécessaires. Ces importations vous donnent accès aux API de manipulation d'images de base et aux fonctionnalités spécifiques à PSD.
 
@@ -57,15 +61,15 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Étape 1 : Configurer le répertoire du document
+## Step 1: Set Up Document Directory
 
-Définissez le dossier qui contient votre fichier PSD source et où la sortie sera enregistrée.
+Définissez le dossier contenant votre fichier PSD source et l'emplacement où le résultat sera enregistré.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Étape 2 : Charger le fichier PSD
+## Step 2: Load PSD File
 
 Chargez le fichier source dans un objet `PsdImage`. Cet objet représente l'intégralité du document PSD en mémoire.
 
@@ -76,58 +80,58 @@ String outputPath = dataDir + "InvertStripes_after.psd";
 PsdImage im = (PsdImage)Image.load(filePath);
 ```
 
-## Étape 3 : Ajouter le Calque de réglage Inverser
+## Step 3: Add Invert Adjustment Layer
 
-Appelez la méthode intégrée pour insérer un Calque de réglage Inverser au sommet de la pile de calques actuelle. Vous pourrez ensuite ajouter d'autres calques (par ex., Luminosité, Teinte) pour **appliquer plusieurs calques de réglage**.
+Appelez la méthode intégrée pour insérer une Invert Adjustment Layer au sommet de la pile de calques actuelle. Vous pourrez ensuite ajouter d'autres calques (par ex., Brightness, Hue) pour **apply multiple adjustment layers**.
 
 ```java
 im.addInvertAdjustmentLayer();
 ```
 
-## Étape 4 : Enregistrer la sortie
+## Step 4: Save the Output
 
-Enregistrez le PSD modifié sur le disque. Le fichier enregistré contient maintenant le Calque de réglage Inverser et peut être ouvert dans Photoshop ou tout visualiseur compatible PSD.
+Enregistrez le PSD modifié sur le disque. Le fichier sauvegardé contient maintenant la Invert Adjustment Layer et peut être ouvert dans Photoshop ou tout visualiseur compatible PSD.
 
 ```java
 im.save(outputPath);
 ```
 
-### Que s'est‑il passé ?
+### What just happened?
 
 - Le PSD a été chargé en mémoire.  
-- Un Calque de réglage Inverser a été ajouté en tant que calque le plus haut.  
+- Une Invert Adjustment Layer a été ajoutée comme calque le plus haut.  
 - L'image a été enregistrée, préservant la modification non destructive.
 
-Vous avez maintenant utilisé avec succès Aspose.PSD, une **bibliothèque java de traitement d'images**, pour manipuler un fichier PSD.
+Vous avez maintenant utilisé avec succès Aspose.PSD, une **image processing java library**, pour manipuler un fichier PSD.
 
-## Problèmes courants et astuces
+## Common Issues & Tips
 
-| Problème | Cause | Solution |
-|----------|-------|----------|
-| **NullPointerException sur `Image.load`** | Chemin de fichier incorrect ou fichier manquant | Vérifiez `dataDir` et le nom du fichier ; utilisez des chemins absolus pour les tests |
-| **Ordre des calques inattendu** | L'ajout de calques après les existants modifie l'empilement | Utilisez `im.addInvertAdjustmentLayer()` avant d'ajouter d'autres réglages, ou réordonnez les calques via `im.getLayers()` |
-| **Ralentissement des performances sur de gros PSD** | Chargement de très gros fichiers en mémoire | Envisagez de traiter les pages par morceaux ou d'augmenter la taille du tas JVM (`-Xmx2g`) |
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **NullPointerException on `Image.load`** | Chemin de fichier incorrect ou fichier manquant | Vérifiez `dataDir` et le nom du fichier ; utilisez des chemins absolus pour les tests |
+| **Layer order not as expected** | L'ajout de calques après ceux existants modifie l'empilement | Utilisez `im.addInvertAdjustmentLayer()` avant d'ajouter d'autres ajustements, ou réordonnez les calques via `im.getLayers()` |
+| **Performance slowdown on large PSDs** | Chargement de fichiers très volumineux en mémoire | Envisagez de traiter les pages par morceaux ou d'augmenter la taille du tas JVM (`-Xmx2g`) |
 
-## Questions fréquemment posées
+## Frequently Asked Questions
 
 **Q : Aspose.PSD est‑il compatible avec toutes les versions de Java ?**  
-A : Aspose.PSD prend en charge Java 6.0 et les versions ultérieures.
+R : Aspose.PSD prend en charge Java 6.0 et les versions ultérieures.
 
-**Q : Puis‑je appliquer plusieurs calques de réglage en une seule opération ?**  
-A : Oui, vous pouvez superposer plusieurs calques de réglage — tels que Inverser, Luminosité et Teinte/Saturation — pour obtenir des effets complexes.
+**Q : Puis‑je appliquer plusieurs calques d'ajustement en une seule opération ?**  
+R : Oui, vous pouvez empiler plusieurs calques d'ajustement—tels qu'Invert, Brightness, et Hue/Saturation—pour obtenir des effets complexes.
 
-**Q : Où puis‑je trouver de la documentation supplémentaire pour Aspose.PSD ?**  
-A : Consultez la documentation [ici](https://reference.aspose.com/psd/java/) pour des guides complets et des références d'API.
+**Q : Où puis‑je trouver une documentation supplémentaire pour Aspose.PSD ?**  
+R : Consultez la documentation [here](https://reference.aspose.com/psd/java/) pour des guides complets et des références API.
 
 **Q : Existe‑t‑il un essai gratuit pour Aspose.PSD ?**  
-A : Oui, vous pouvez explorer l'essai gratuit [ici](https://releases.aspose.com/).
+R : Oui, vous pouvez explorer l'essai gratuit [here](https://releases.aspose.com/).
 
 **Q : Comment obtenir une licence temporaire pour Aspose.PSD ?**  
-A : Vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+R : Vous pouvez obtenir une licence temporaire [here](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.PSD 24.12 for Java  
 **Author:** Aspose  
 
