@@ -1,101 +1,158 @@
 ---
-title: Dodaj warstwy wypełnienia do plików PSD w Aspose.PSD dla Java
-linktitle: Dodaj warstwy wypełnienia do plików PSD w Aspose.PSD dla Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak dodawać warstwy wypełnienia do plików PSD w Javie przy użyciu Aspose.PSD, korzystając z naszego przewodnika krok po kroku. Ulepsz swoje projekty.
-weight: 13
+date: 2026-03-04
+description: Dowiedz się, jak programowo modyfikować warstwy PSD, dodając warstwy
+  wypełnienia za pomocą Aspose.PSD dla Javy. Skorzystaj z tego przewodnika krok po
+  kroku, aby szybko ulepszyć swoje projekty.
+linktitle: Modify PSD Layers Programmatically – Add Fill Layers (Java)
+second_title: Aspose.PSD Java API
+title: Modyfikuj warstwy PSD programowo – dodaj warstwy wypełnienia (Java)
 url: /pl/java/modifying-converting-psd-images/add-fill-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj warstwy wypełnienia do plików PSD w Aspose.PSD dla Java
+# Modyfikowanie warstw PSD programowo – Dodawanie warstw wypełnienia (Java)
 
-## Wstęp
-Jeśli kiedykolwiek zajmowałeś się projektowaniem graficznym lub pracowałeś nad dokumentami w Photoshopie, wiesz, jak istotne są warstwy. Warstwy pozwalają budować kompozycję, zachować odrębność elementów i stosować efekty bez utraty oryginalnej jakości obrazu. Dzisiaj skupimy się na użyciu Aspose.PSD dla Java, aby dodać warstwy wypełnienia do plików PSD. Jest to nie tylko łatwe, ale także świetny sposób na ulepszenie projektów bez konieczności wykonywania uciążliwych, ręcznych procesów.
-## Warunki wstępne
-Zanim zaczniemy korzystać z naszego samouczka, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto wymagania wstępne:
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowany pakiet JDK. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) lub inna witryna, która Ci odpowiada.
-2.  Aspose.PSD dla Java: Będziesz potrzebować biblioteki Aspose.PSD dla Java. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/psd/java/). Ta biblioteka pozwala programowo manipulować plikami PSD i jest całkiem przyjazna dla użytkownika!
-3. Konfiguracja IDE: Zaleca się użycie IDE, takiego jak IntelliJ IDEA lub Eclipse, aby łatwo pisać i zarządzać kodem Java.
-4. Podstawowa znajomość języka Java: Znajomość podstaw programowania w języku Java pomoże Ci lepiej zrozumieć przykłady kodowania, ale nie martw się, jeśli jesteś początkujący; będziemy rozbijać wszystko krok po kroku.
-Po skonfigurowaniu możemy przystąpić do importowania niezbędnych pakietów, aby kodowanie przebiegało sprawnie.
-## Importuj pakiety
-Aby rozpocząć pracę z plikami PSD należy zaimportować odpowiednie klasy z biblioteki Aspose.PSD. Oto krótki przegląd elementów, które należy umieścić na górze pliku Java:
+Jeśli chcesz **modyfikować warstwy PSD programowo**, dodawanie warstw wypełnienia jest jednym z najszybszych sposobów na wzbogacenie dokumentów Photoshop bez konieczności ich otwierania. W tym samouczku przeprowadzimy Cię przez dokładne kroki potrzebne do stworzenia nowego pliku PSD, wstawienia warstw wypełnienia kolorem, gradientem i wzorem, a następnie zapisania wyniku — wszystko przy użyciu Aspose.PSD for Java.
+
+## Szybkie odpowiedzi
+- **Co mogę osiągnąć?** Dodaj warstwy wypełnienia kolorem, gradientem i wzorem do pliku PSD programowo.  
+- **Jakiej biblioteki potrzebuję?** Aspose.PSD for Java (najnowsze wydanie).  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego przykładu.  
+- **Jaką wersję Javy obsługuje?** JDK 11 lub nowszą.
+
+## Co oznacza „modyfikowanie warstw PSD programowo”?
+Modyfikowanie warstw PSD programowo oznacza użycie kodu do tworzenia, edytowania lub usuwania warstw w dokumencie Photoshop, dając pełną kontrolę nad procesem projektowania bez ręcznej interakcji z interfejsem użytkownika.
+
+## Dlaczego dodawać warstwy wypełnienia przy użyciu Aspose.PSD?
+- **Automatyzacja** – Generowanie dziesiątek plików PSD w zadaniu wsadowym.  
+- **Spójność** – Zastosowanie dokładnie tego samego koloru, gradientu lub wzoru w wielu plikach.  
+- **Szybkość** – Pominięcie czasochłonnych ręcznych kroków w Photoshopie.  
+- **Wieloplatformowość** – Działa na każdym systemie operacyjnym obsługującym Javę.
+
+## Wymagania wstępne
+1. **Java Development Kit (JDK)** – Zainstaluj JDK 11 lub nowszy. Możesz go pobrać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java** – Pobierz najnowszą bibliotekę ze strony oficjalnej [tutaj](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego preferujesz.  
+4. **Podstawowa znajomość Javy** – Znajomość klas i metod będzie pomocna, ale samouczek wyjaśnia wszystko krok po kroku.
+
+## Importowanie pakietów
+Aby rozpocząć pracę z plikami PSD, musisz zaimportować odpowiednie klasy Aspose.PSD:
+
 ```java
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.filllayers.FillLayer;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
 ```
-Importy te umożliwią pracę z obrazami i warstwami PSD, umożliwiając dodawanie, modyfikowanie i zapisywanie warstw wypełnienia w dokumentach.
 
-Nadszedł czas, aby przejść do sedna naszego zadania — dodania warstw wypełnienia do pliku PSD. Przeanalizujemy szczegółowo każdy krok, abyś dokładnie wiedział, co się dzieje.
-## Krok 1: Skonfiguruj katalog wyjściowy
-Przed rozpoczęciem dodawania warstw wypełnienia należy koniecznie określić, gdzie ma zostać zapisany zmodyfikowany plik PSD. Wybierz katalog odpowiedni dla Twoich projektów. Oto jak to skonfigurować:
+Te importy dają dostęp do obiektu `PsdImage` (samego dokumentu) oraz różnych typów `FillLayer`, które będziemy używać.
+
+## Jak modyfikować warstwy PSD programowo – Przewodnik krok po kroku
+
+### Krok 1: Ustaw katalog wyjściowy
+Określ, gdzie zostanie zapisany wynikowy plik PSD, aby móc go później odnaleźć.
+
 ```java
 String outputDir = "Your Document Directory";
 String outPsdFilePath = outputDir + "output.psd";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką na komputerze, w którym chcesz zapisać plik wyjściowy. Pomoże Ci to później łatwo go zlokalizować.
-## Krok 2: Utwórz dokument Photoshopa
-Następnie utwórzmy pusty dokument Photoshopa. Tutaj wydarzy się cała Twoja magia!
+
+Zastąp `"Your Document Directory"` ścieżką bezwzględną lub względną na swoim komputerze.
+
+### Krok 2: Utwórz nowy dokument Photoshop
+Utwórz pustą płótno, które będzie zawierało warstwy wypełnienia.
+
 ```java
 PsdImage psdImage = new PsdImage(100, 100);
 ```
- Tutaj,`100, 100` odnosi się do szerokości i wysokości (w pikselach) nowego płótna PSD. Możesz dostosować te wartości w zależności od potrzeb projektu — większy rozmiar w przypadku szczegółowych projektów lub mniejszy w przypadku szybkich makiet.
-## Krok 3: Dodaj warstwę wypełnienia kolorem
-Gdy płótno jest już gotowe, czas dodać warstwę wypełnienia. Zacznijmy od warstwy wypełnienia kolorem:
+
+Parametry `100, 100` oznaczają szerokość i wysokość w pikselach. Dostosuj je do wymagań swojego projektu.
+
+### Krok 3: Dodaj warstwę wypełnienia kolorem
+Utwórz warstwę wypełnienia jednolitym kolorem i nadaj jej przyjazną nazwę.
+
 ```java
 FillLayer colorFillLayer = FillLayer.createInstance(FillType.Color);
 colorFillLayer.setDisplayName("Color Fill Layer");
 psdImage.addLayer(colorFillLayer);
 ```
- W tym kroku tworzymy instancję pliku a`FillLayer` z ustawionym typem`Color` . Nazwa, którą przypisujesz`setDisplayName()` może pomóc w późniejszej łatwej identyfikacji warstwy. Prostota jest kluczem!
-## Krok 4: Dodaj warstwę wypełnienia gradientowego
-Następnie dodamy fantazyjne gradienty! Oto jak:
+
+Możesz później zmienić rzeczywisty kolor, uzyskując dostęp do ustawień wypełnienia warstwy (nie pokazano tutaj dla zwięzłości).
+
+### Krok 4: Dodaj warstwę wypełnienia gradientem
+Wypełnienia gradientem dodają głębi i atrakcyjności wizualnej.
+
 ```java
 FillLayer gradientFillLayer = FillLayer.createInstance(FillType.Gradient);
 gradientFillLayer.setDisplayName("Gradient Fill Layer");
 psdImage.addLayer(gradientFillLayer);
 ```
-Warstwy gradientowe mogą zapewniać efekty dynamiczne, nadając głębi i wymiar Twojemu plikowi PSD. Podobnie jak w przypadku wypełnienia kolorem, tutaj tworzysz i nazywasz warstwę wypełnienia gradientowego.
-## Krok 5: Dodaj warstwę wypełnienia wzorem
-Na koniec urozmaicimy całość warstwą wypełnienia wzorem. Oto jak go dodać:
+
+Śmiało eksperymentuj z gradientami liniowymi lub radialnymi za pomocą ustawień warstwy.
+
+### Krok 5: Dodaj warstwę wypełnienia wzorem
+Wypełnienia wzorem pozwalają na układanie obrazów lub tekstur na warstwie.
+
 ```java
 FillLayer patternFillLayer = FillLayer.createInstance(FillType.Pattern);
 patternFillLayer.setDisplayName("Pattern Fill Layer");
 patternFillLayer.setOpacity((byte)50);
 psdImage.addLayer(patternFillLayer);
 ```
-Ten krok tworzy warstwę wypełnienia wzorem. Możesz także dostosować krycie tej warstwy, ustawiając ją na 50%. Odrobina przejrzystości może sprawić, że Twoje projekty będą wyglądać bardziej zintegrowanie i atrakcyjnie wizualnie!
-## Krok 6: Zapisz swój plik PSD
-Udało Ci się stworzyć te wszystkie wspaniałe warstwy, ale teraz musisz zapisać swoją pracę. Podsumujmy to:
+
+Ustawienie krycia na 50 % sprawia, że wzór ładnie łączy się z warstwami pod spodem.
+
+### Krok 6: Zapisz plik PSD
+Zapisz zmiany na dysku.
+
 ```java
 psdImage.save(outPsdFilePath);
 ```
-Ta linia kodu zapisuje zmodyfikowany plik PSD w katalogu skonfigurowanym w kroku 1. Upewnij się, że jesteś podekscytowany, ponieważ teraz możesz sprawdzić swoją ciężką pracę!
-## Krok 7: Oczyść
-Po zapisaniu zawsze dobrą praktyką jest oczyszczenie zasobów:
+
+Otwórz zapisany plik w Photoshopie lub dowolnym przeglądarce PSD, aby zobaczyć trzy nowe warstwy wypełnienia.
+
+### Krok 7: Posprzątaj zasoby
+Zawsze zwalniaj obiekt `PsdImage`, aby zwolnić pamięć natywną.
+
 ```java
 psdImage.dispose();
 ```
-Dzięki temu nie wystąpią żadne wycieki pamięci ani problemy podczas działania programu. Zawsze bądź dobrym programistą i sprzątaj po sobie!
-## Wniosek
-Gratulacje! Właśnie nauczyłeś się dodawać warstwy wypełnienia do plików PSD przy użyciu Aspose.PSD dla Java. To proste, ale skuteczne podejście nie tylko zwiększa możliwości projektowania, ale także pozwala zaoszczędzić dużo czasu na powtarzalnych zadaniach. Pomyśl o możliwościach – jedynym ograniczeniem jest Twoja kreatywność! Niezależnie od tego, czy dodajesz odrobinę koloru, gładki gradient czy wciągający wzór, możesz z łatwością tworzyć oszałamiające treści wizualne.
-Więc na co czekasz? Zacznij eksperymentować z różnymi wypełnieniami i zobacz, jakie unikalne projekty możesz stworzyć!
-## Często zadawane pytania
-### Jakie typy warstw wypełnienia mogę dodać za pomocą Aspose.PSD dla Java?
-Za pomocą Aspose.PSD możesz dodawać warstwy kolorów, gradientów i wypełnień wzorami.
-### Czy Aspose.PSD obsługuje inne formaty obrazów?
-Tak, Aspose.PSD może współpracować z różnymi formatami, w tym BMP, JPEG i PNG.
-### Czy mogę używać Aspose.PSD za darmo?
-Możesz zapoznać się z bezpłatną wersją próbną Aspose.PSD dla Java[Tutaj](https://releases.aspose.com/).
-### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PSD?
- Możesz uzyskać dostęp do pełnej dokumentacji[Tutaj](https://reference.aspose.com/psd/java/).
-### Czy istnieje społeczność wsparcia dla Aspose.PSD?
- Tak, możesz uzyskać pomoc od społeczności na forum Aspose[Tutaj](https://forum.aspose.com/c/psd/34).
+
+## Typowe problemy i wskazówki
+- **Nieprawidłowa ścieżka wyjściowa** – Upewnij się, że katalog istnieje i masz uprawnienia do zapisu.  
+- **Użycie pamięci** – Dla bardzo dużych płócien wywołaj `psdImage.dispose()` natychmiast po zakończeniu pracy z obrazem.  
+- **Kolejność warstw** – Warstwy są domyślnie dodawane na szczyt stosu; użyj `psdImage.insertLayer(layer, index)`, jeśli potrzebujesz określonej kolejności.
+
+## Najczęściej zadawane pytania
+
+**P: Jakie typy warstw wypełnienia mogę dodać przy użyciu Aspose.PSD for Java?**  
+O: Możesz dodać warstwy wypełnienia kolorem, gradientem i wzorem.
+
+**P: Czy Aspose.PSD obsługuje inne formaty obrazów?**  
+O: Tak, działa z BMP, JPEG, PNG i wieloma innymi formatami.
+
+**P: Czy mogę używać Aspose.PSD za darmo?**  
+O: Możesz wypróbować darmową wersję próbną Aspose.PSD for Java [tutaj](https://releases.aspose.com/).
+
+**P: Gdzie mogę znaleźć więcej dokumentacji dotyczącej Aspose.PSD?**  
+O: Pełną dokumentację znajdziesz [tutaj](https://reference.aspose.com/psd/java/).
+
+**P: Czy istnieje społeczność wsparcia dla Aspose.PSD?**  
+O: Tak, możesz uzyskać pomoc od społeczności na forum Aspose [tutaj](https://forum.aspose.com/c/psd/34).
+
+## Podsumowanie
+Teraz wiesz, jak **modyfikować warstwy PSD programowo** poprzez dodawanie różnych warstw wypełnienia przy użyciu Aspose.PSD for Java. To podejście oszczędza czas, zapewnia spójność w projektach i otwiera drzwi do potężnych scenariuszy przetwarzania wsadowego. Eksperymentuj z różnymi kolorami, gradientami i wzorami, aby zobaczyć, jak daleko możesz posunąć automatyczne tworzenie projektów.
+
+---
+
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
