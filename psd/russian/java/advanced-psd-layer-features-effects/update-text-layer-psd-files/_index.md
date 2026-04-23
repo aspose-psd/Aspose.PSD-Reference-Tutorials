@@ -1,53 +1,57 @@
 ---
-date: 2025-12-19
-description: Узнайте, как обновлять текстовые слои PSD‑файлов с помощью Aspose.PSD
-  для Java и изменять размер шрифта в PSD. Следуйте нашему пошаговому руководству
-  для беспроблемного редактирования текста.
-linktitle: Update Text Layer PSD with Aspose.PSD Java
+date: 2026-02-22
+description: Узнайте, как редактировать PSD‑файлы, заменяя текст, изменяя размер шрифта
+  и обновляя цвет текста в PSD с помощью Aspose.PSD для Java. Пошаговое руководство
+  для бесшовного редактирования текстовых слоёв.
+linktitle: How to Edit PSD Text Layers with Aspose.PSD for Java
 second_title: Aspose.PSD Java API
-title: Обновление текстового слоя PSD с помощью Aspose.PSD Java
+title: Как редактировать текстовые слои PSD с помощью Aspose.PSD для Java
 url: /ru/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/
 weight: 28
 ---
+
+ formatting exactly.
+
+Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Обновление текстового слоя PSD с помощью Aspose.PSD Java
+# Как редактировать текстовые слои PSD с помощью Aspose.PSD для Java
 
 ## Введение
-When it comes to graphic design, Photoshop’s PSD files are a staple for creatives who rely on layers and text customization. If you ever needed to **update text layer PSD** files programmatically—without opening Photoshop—Aspose.PSD for Java makes it possible. In this guide we’ll walk through the exact steps to locate a text layer, modify its content, and even **change PSD font size** on the fly. Let’s get started!
+Когда речь идёт о графическом дизайне, файлы PSD из Photoshop являются неотъемлемой частью работы креативщиков, которые полагаются на слои и настройку текста. Если вы когда‑нибудь задавались вопросом **как редактировать PSD** программно — без открытия Photoshop — Aspose.PSD для Java делает это возможным. В этом руководстве мы пошагово покажем, как найти текстовый слой, **заменить текст PSD**, изменить его содержимое и даже **изменить размер шрифта PSD** или **изменить цвет текста PSD** «на лету». Приступим!
 
 ## Быстрые ответы
-- **Можно ли редактировать текст PSD без Photoshop?** Yes, Aspose.PSD for Java lets you modify text layers directly.
-- **Какая версия библиотеки требуется?** Any recent Aspose.PSD for Java release (compatible with JDK 8+).
-- **Нужна ли лицензия для разработки?** A free trial works for testing; a license is required for production.
-- **Можно ли изменить размер шрифта текстового слоя PSD?** Absolutely—use the `updateText` method with a size parameter.
-- **Является ли процесс кросс‑платформенным?** Yes, Java code runs on Windows, macOS, and Linux.
+- **Можно ли редактировать текст PSD без Photoshop?** Да, Aspose.PSD для Java позволяет напрямую изменять текстовые слои.  
+- **Какая версия библиотеки требуется?** Любая актуальная версия Aspose.PSD для Java (совместимая с JDK 8+).  
+- **Нужна ли лицензия для разработки?** Для тестирования подходит бесплатная trial‑версия; для продакшена требуется лицензия.  
+- **Можно ли изменить размер шрифта текстового слоя PSD?** Конечно — используйте метод `updateText` с параметром размера.  
+- **Кросс‑платформен ли процесс?** Да, Java‑код работает на Windows, macOS и Linux.
 
 ## Что такое «update text layer PSD»?
-Updating a text layer in a PSD file means programmatically changing the layer’s string, position, font size, color, or other typographic attributes. This is especially useful for batch processing, dynamic image generation, or integrating design assets into automated workflows.
+Обновление текстового слоя в файле PSD означает программную замену строки слоя, его позиции, размера шрифта, цвета или других типографических атрибутов. Это особенно полезно для пакетной обработки, динамической генерации изображений или интеграции дизайнерских ресурсов в автоматизированные рабочие процессы.
 
-## Почему использовать Aspose.PSD for Java?
-- **Не требуется Photoshop:** Work entirely from code.
-- **Полная поддержка слоёв:** Access text, shape, and raster layers.
-- **Высокая производительность:** Fast loading and saving of large PSD files.
-- **Кросс‑платформенный:** Run on any system with a Java runtime.
+## Почему стоит использовать Aspose.PSD для Java?
+- **Не нужен Photoshop:** Всё делается из кода.  
+- **Полная поддержка слоёв:** Доступ к текстовым, фигурным и растровым слоям.  
+- **Высокая производительность:** Быстрая загрузка и сохранение больших PSD‑файлов.  
+- **Кросс‑платформенность:** Работает на любой системе с Java‑runtime.  
 
-## Требования
-Before we jump into the nitty‑gritty of the tutorial, let's ensure you're well‑prepared. Here’s what you need:
+## Предварительные требования
+Прежде чем перейти к деталям урока, убедитесь, что всё готово. Вот что вам понадобится:
 
-1. **Java Development Kit (JDK):** JDK 8 or later installed on your machine.  
-2. **Библиотека Aspose.PSD for Java:** Download it [here](https://releases.aspose.com/psd/java/).  
-3. **IDE:** IntelliJ IDEA, Eclipse, or your preferred Java IDE.  
-4. **Базовые знания Java:** A beginner’s understanding of Java will help you follow along smoothly.  
-5. **PSD‑файл:** A sample PSD (named `layers.psd`) that contains at least one text layer.
+1. **Java Development Kit (JDK):** JDK 8 или новее, установленный на вашем компьютере.  
+2. **Aspose.PSD для Java:** Скачайте её [здесь](https://releases.aspose.com/psd/java/).  
+3. **IDE:** IntelliJ IDEA, Eclipse или любой другой предпочитаемый Java‑IDE.  
+4. **Базовые знания Java:** Понимание основ Java поможет вам без труда следовать инструкциям.  
+5. **PSD‑файл:** Пример PSD (с именем `layers.psd`), содержащий хотя бы один текстовый слой.
 
-Now that we’re all set, let’s import the necessary packages and get started on the code.
+Теперь, когда всё готово, импортируем необходимые пакеты и начнём писать код.
 
 ## Импорт пакетов
-In any Java project, importing the right packages is crucial. Here’s how you can get things rolling:
+В любом Java‑проекте правильный импорт пакетов имеет решающее значение. Вот как это сделать:
 
 ```java
 import com.aspose.psd.Color;
@@ -57,31 +61,30 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
 
-These packages give you access to essential classes needed to work with PSD files and manipulate layers effectively.
+Эти пакеты предоставляют доступ к необходимым классам для работы с PSD‑файлами и эффективного управления слоями.
 
-## Как обновить текстовый слой PSD
-Below is a step‑by‑step walkthrough that shows exactly how to locate a text layer and modify its content.
+## Как редактировать текстовые слои PSD – пошаговое руководство
 
-### Шаг 1: Настройте каталог документа
-First, declare a variable named `dataDir` where your PSD file is located. It’s like setting your base camp before heading out on an expedition.
+### Шаг 1: Установите каталог документа
+Сначала объявите переменную `dataDir`, где находится ваш PSD‑файл. Это как установить базовый лагерь перед экспедицией.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` with the path where your `layers.psd` file resides. This will help the program locate your file effortlessly.
+Замените `"Your Document Directory"` на путь к папке, где хранится файл `layers.psd`. Это позволит программе без труда находить ваш файл.
 
 ### Шаг 2: Загрузите PSD‑файл
-Next up, let’s load the PSD file into our program. This is the gateway to accessing its layers.
+Далее загрузим PSD‑файл в программу. Это ворота к доступу к его слоям.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-Here, we use the `Image.load` method to load the PSD as a `PsdImage`. By casting it, we can access layer‑specific methods and properties. It’s like unlocking the door to a treasure trove of design elements!
+Здесь мы используем метод `Image.load` для загрузки PSD как `PsdImage`. Приведя тип, получаем доступ к методам и свойствам, специфичным для слоёв. Это как открыть дверь в сокровищницу дизайнерских элементов!
 
 ### Шаг 3: Переберите слои
-Now, we need to loop through each layer in the PSD file to find the text layers that we want to update.
+Теперь нужно пройтись по каждому слою в PSD‑файле, чтобы найти текстовые слои, которые требуется обновить.
 
 ```java
 for (int i = 0; i < psdImage.getLayers().length; i++) {
@@ -92,52 +95,52 @@ for (int i = 0; i < psdImage.getLayers().length; i++) {
 }
 ```
 
-In this snippet, we’re checking if each layer is an instance of `TextLayer`. If it is, we cast it to `TextLayer`. Imagine this as searching through a box of assorted chocolates to find the ones with your favorite filling!
+В этом фрагменте мы проверяем, является ли каждый слой экземпляром `TextLayer`. Если да — приводим его к `TextLayer`. Представьте, что вы ищете в коробке assorted шоколадных конфет те, что с вашим любимым наполнением!
 
-### Шаг 4: Обновите текстовый слой и измените размер шрифта PSD
-After identifying a text layer, it’s time to update it with new content **and** change its font size. This part is incredibly straightforward.
+### Шаг 4: Заменить текст PSD, изменить размер шрифта PSD и изменить цвет текста PSD
+После того как найден текстовый слой, пришло время обновить его новым содержимым **и** скорректировать визуальный стиль. Метод `updateText` позволяет заменить текст, задать новый размер шрифта и применить другой цвет — всё в одном вызове.
 
 ```java
 textLayer.updateText("test update", new Point(0, 0), 15.0f, Color.getPurple());
 ```
 
-In this line, we update the text to `"test update"`, place it at coordinates `(0, 0)` in the layer, set its font size to **15 points**, and color it purple. It’s just like giving your text a fresh makeover without the drama of actually opening Photoshop!
+В этой строке мы **заменяем текст PSD** на `"test update"`, размещаем его в координатах `(0, 0)` слоя, задаём **изменённый размер шрифта PSD** — **15 пунктов**, и **изменяем цвет текста PSD** на фиолетовый. Это как дать вашему тексту свежий образ без необходимости открывать Photoshop!
 
 ### Шаг 5: Сохраните обновлённый PSD‑файл
-After making this exciting update to the text layer, we need to save our changes to a new PSD file.
+После того как обновление текста выполнено, нужно сохранить изменения в новый PSD‑файл.
 
 ```java
 psdImage.save(dataDir + "UpdateTextLayerInPSDFile_out.psd");
 ```
 
-This line saves the modified PSD file, ensuring that all your adjustments are retained. Think of it as sealing your masterpiece in a gallery ready for the world to admire!
+Эта строка сохраняет модифицированный PSD‑файл, гарантируя, что все ваши правки сохранятся. Можно сравнить это с запечатыванием вашего шедевра в галерее, готовой к показу миру!
 
-## Распространённые проблемы и решения
-- **Файл не найден:** Double‑check the `dataDir` path and ensure `layers.psd` exists there.  
-- **Неподдерживаемый тип слоя:** The loop only processes `TextLayer` instances; other layer types are ignored safely.  
-- **Цвет не применён:** Verify that the color you choose is supported by the PSD color space.
+## Распространённые проблемы и их решения
+- **Файл не найден:** Проверьте путь `dataDir` и убедитесь, что `layers.psd` действительно находится там.  
+- **Неподдерживаемый тип слоя:** Цикл обрабатывает только экземпляры `TextLayer`; остальные типы слоёв безопасно игнорируются.  
+- **Цвет не применён:** Убедитесь, что выбранный цвет поддерживается цветовым пространством PSD.
 
 ## Часто задаваемые вопросы
 
-**Q: Что такое Aspose.PSD for Java?**  
-A: Aspose.PSD for Java is a library that allows developers to create, manipulate, and convert PSD files programmatically.
+**В: Что такое Aspose.PSD для Java?**  
+О: Aspose.PSD для Java — это библиотека, позволяющая разработчикам программно создавать, изменять и конвертировать PSD‑файлы.
 
-**Q: Можно ли обновлять изображения в PSD‑файлах с помощью Aspose.PSD?**  
-A: Yes, you can update images, text layers, and even entire compositions with Aspose.PSD.
+**В: Можно ли обновлять изображения в PSD‑файлах с помощью Aspose.PSD?**  
+О: Да, вы можете обновлять изображения, текстовые слои и даже целые композиции с помощью Aspose.PSD.
 
-**Q: Где можно скачать Aspose.PSD for Java?**  
-A: You can download it from [here](https://releases.aspose.com/psd/java/).
+**В: Где можно скачать Aspose.PSD для Java?**  
+О: Скачать её можно [здесь](https://releases.aspose.com/psd/java/).
 
-**Q: Доступна ли бесплатная пробная версия?**  
-A: Yes, Aspose offers a free trial. You can check it out [here](https://releases.aspose.com/).
+**В: Есть ли бесплатная пробная версия?**  
+О: Да, Aspose предлагает бесплатную trial‑версию. Подробнее — [здесь](https://releases.aspose.com/).
 
-**Q: Где можно получить поддержку по Aspose.PSD?**  
-A: You can ask questions and seek support in the [Aspose forum](https://forum.aspose.com/c/psd/34).
+**В: Где можно получить поддержку по Aspose.PSD?**  
+О: Задать вопросы и получить поддержку можно на [форуме Aspose](https://forum.aspose.com/c/psd/34).
 
 ---
 
-**Последнее обновление:** 2025-12-19  
-**Тестировано с:** Aspose.PSD for Java (latest release)  
+**Последнее обновление:** 2026-02-22  
+**Тестировано с:** Aspose.PSD для Java (последний релиз)  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

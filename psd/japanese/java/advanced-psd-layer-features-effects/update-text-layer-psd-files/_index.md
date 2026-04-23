@@ -1,9 +1,9 @@
 ---
-date: 2025-12-19
-description: Aspose.PSD for Java を使用してテキストレイヤーの PSD ファイルを更新し、PSD のフォントサイズを変更する方法を学びましょう。シームレスなテキスト編集のためのステップバイステップガイドをご覧ください。
-linktitle: Update Text Layer PSD with Aspose.PSD Java
+date: 2026-02-22
+description: Aspose.PSD for Java を使用して、PSD テキストの置換、フォントサイズの変更、テキストカラーの更新により PSD ファイルの編集方法を学びましょう。シームレスなテキストレイヤー編集のためのステップバイステップガイド。
+linktitle: How to Edit PSD Text Layers with Aspose.PSD for Java
 second_title: Aspose.PSD Java API
-title: Aspose.PSD JavaでテキストレイヤーPSDを更新する
+title: Aspose.PSD for JavaでPSDテキストレイヤーを編集する方法
 url: /ja/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/
 weight: 28
 ---
@@ -12,40 +12,40 @@ weight: 28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD Java を使用したテキストレイヤー PSD の更新
+# Aspose.PSD for Java を使用した PSD テキストレイヤーの編集方法
 
-## はじめに
-グラフィックデザインにおいて、Photoshop の PSD ファイルはレイヤーやテキストのカスタマイズに依存するクリエイティブにとって必須です。Photoshop を開かずにプログラムで **update text layer PSD** ファイルを更新する必要がある場合、Aspose.PSD for Java がそれを可能にします。このガイドでは、テキストレイヤーを見つけて内容を変更し、さらに **change PSD font size** をリアルタイムで行う手順を正確に解説します。さっそく始めましょう！
+## Introduction
+グラフィックデザインにおいて、Photoshop の PSD ファイルはレイヤーやテキストのカスタマイズに依存するクリエイティブにとって欠かせない存在です。**PSD をプログラムで編集する方法**を、Photoshop を開かずに実現したいと考えたことはありませんか？Aspose.PSD for Java を使えば可能です。このガイドでは、テキストレイヤーを見つけて **PSD テキストを置換**し、内容を変更し、さらに **PSD フォントサイズを変更**したり **PSD テキストカラーを変更**したりする手順を詳しく解説します。さっそく始めましょう！
 
-## クイック回答
-- **Photoshop を使用せずに PSD のテキストを編集できますか？** はい、Aspose.PSD for Java を使用すればテキストレイヤーを直接変更できます。  
-- **必要なライブラリのバージョンは？** JDK 8+ に対応した最新の Aspose.PSD for Java リリースであればどれでも構いません。  
-- **開発にライセンスは必要ですか？** テストには無料トライアルが利用できますが、本番環境ではライセンスが必要です。  
-- **PSD のテキストレイヤーのフォントサイズを変更できますか？** もちろんです。サイズパラメータを指定して `updateText` メソッドを使用します。  
-- **このプロセスはクロスプラットフォームですか？** はい、Java コードは Windows、macOS、Linux で実行できます。  
+## Quick Answers
+- **Can I edit PSD text without Photoshop?** はい、Aspose.PSD for Java を使えばテキストレイヤーを直接編集できます。  
+- **Which library version is required?** JDK 8 以上に対応した、最新の Aspose.PSD for Java リリースであれば問題ありません。  
+- **Do I need a license for development?** テスト目的なら無料トライアルで動作しますが、本番環境ではライセンスが必要です。  
+- **Can I change the font size of a PSD text layer?** もちろんです。`updateText` メソッドにサイズパラメータを渡すだけです。  
+- **Is the process cross‑platform?** はい、Java コードは Windows、macOS、Linux で動作します。
 
-## “update text layer PSD” とは何ですか？
-PSD ファイル内のテキストレイヤーを更新することは、レイヤーの文字列、位置、フォントサイズ、色、その他のタイポグラフィ属性をプログラムで変更することを意味します。これは、バッチ処理や動的画像生成、デザイン資産を自動化ワークフローに統合する際に特に有用です。
+## What is “update text layer PSD”?
+PSD ファイル内のテキストレイヤーを更新することは、レイヤーの文字列、位置、フォントサイズ、カラー、その他のタイポグラフィ属性をプログラム上で変更することを意味します。バッチ処理や動的画像生成、デザイン資産を自動化ワークフローに組み込む際に特に有用です。
 
-## なぜ Aspose.PSD for Java を使用するのか？
-- **Photoshop は不要**：コードだけで作業できます。  
-- **完全なレイヤーサポート**：テキスト、シェイプ、ラスターレイヤーにアクセスできます。  
-- **高性能**：大きな PSD ファイルの読み込みと保存が高速です。  
-- **クロスプラットフォーム**：Java ランタイムがあればどのシステムでも実行できます。  
+## Why use Aspose.PSD for Java?
+- **No Photoshop needed:** 完全にコードだけで作業できます。  
+- **Full layer support:** テキスト、シェイプ、ラスターレイヤーすべてにアクセス可能です。  
+- **High performance:** 大容量の PSD ファイルでも高速に読み込み・保存できます。  
+- **Cross‑platform:** Java ランタイムがあればどの環境でも実行できます。  
 
-## 前提条件
-チュートリアルの詳細に入る前に、十分な準備ができていることを確認しましょう。必要なものは以下です：
+## Prerequisites
+チュートリアルに入る前に、以下の準備が整っていることを確認してください。
 
 1. **Java Development Kit (JDK):** JDK 8 以上がインストールされていること。  
-2. **Aspose.PSD for Java ライブラリ:** こちらからダウンロードしてください [here](https://releases.aspose.com/psd/java/)。  
-3. **IDE:** IntelliJ IDEA、Eclipse、またはお好みの Java IDE。  
-4. **Java の基本知識:** Java の初心者レベルの理解があるとスムーズに進められます。  
-5. **PSD ファイル:** 少なくとも 1 つのテキストレイヤーを含むサンプル PSD（`layers.psd`）です。  
+2. **Aspose.PSD for Java Library:** こちらからダウンロードしてください [here](https://releases.aspose.com/psd/java/)。  
+3. **An IDE:** IntelliJ IDEA、Eclipse、またはお好みの Java IDE。  
+4. **Basic Knowledge of Java:** Java の基礎があれば、スムーズに進められます。  
+5. **PSD File:** 少なくとも 1 つのテキストレイヤーを含むサンプル PSD（`layers.psd` という名前）を用意してください。
 
-準備が整ったので、必要なパッケージをインポートし、コードを書き始めましょう。
+それでは、必要なパッケージをインポートし、コードを書き始めましょう。
 
-## パッケージのインポート
-Java プロジェクトでは、適切なパッケージのインポートが重要です。以下のように開始できます：
+## Import Packages
+Java プロジェクトで正しいパッケージをインポートすることは重要です。以下のように記述して準備を整えます。
 
 ```java
 import com.aspose.psd.Color;
@@ -55,31 +55,30 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
 
-これらのパッケージにより、PSD ファイルの操作やレイヤーの操作に必要なクラスにアクセスできます。
+これらのパッケージにより、PSD ファイルの操作やレイヤーの操作に必要なクラスが利用可能になります。
 
-## テキストレイヤー PSD の更新方法
-以下は、テキストレイヤーを見つけて内容を変更する手順をステップバイステップで示したものです。
+## How to edit PSD text layers – Step‑by‑step guide
 
-### ステップ 1: ドキュメントディレクトリの設定
-`dataDir` という変数を宣言し、PSD ファイルがある場所を指定します。遠征に出る前にベースキャンプを設定するようなものです。
+### Step 1: Set Up Your Document Directory
+まず、`dataDir` という変数に PSD ファイルが格納されているディレクトリを指定します。遠征前に拠点を設定するイメージです。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` を、`layers.psd` ファイルがあるパスに置き換えてください。これによりプログラムがファイルを簡単に見つけられます。
+`"Your Document Directory"` を、`layers.psd` が保存されている実際のパスに置き換えてください。これでプログラムがファイルを簡単に見つけられるようになります。
 
-### ステップ 2: PSD ファイルの読み込み
-次に、PSD ファイルをプログラムに読み込みます。これがレイヤーにアクセスする入口です。
+### Step 2: Load the PSD File
+次に、PSD ファイルをプログラムに読み込みます。これがレイヤーへのアクセス入口となります。
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-ここでは `Image.load` メソッドを使用して PSD を `PsdImage` として読み込みます。キャストすることでレイヤー固有のメソッドやプロパティにアクセスできます。デザイン要素の宝庫への扉を開くようなものです！
+ここでは `Image.load` メソッドで PSD を `PsdImage` として読み込み、キャストすることでレイヤー固有のメソッドやプロパティにアクセスできるようになります。デザイン要素の宝庫への扉を開くイメージです！
 
-### ステップ 3: レイヤーの反復処理
-次に、PSD ファイル内の各レイヤーをループして、更新したいテキストレイヤーを見つけます。
+### Step 3: Iterate Through Layers
+PSD 内のすべてのレイヤーを走査し、更新対象のテキストレイヤーを探します。
 
 ```java
 for (int i = 0; i < psdImage.getLayers().length; i++) {
@@ -90,53 +89,53 @@ for (int i = 0; i < psdImage.getLayers().length; i++) {
 }
 ```
 
-このスニペットでは、各レイヤーが `TextLayer` のインスタンスかどうかをチェックしています。該当すれば `TextLayer` にキャストします。好きなフィリングのチョコレートを探すようなイメージです！
+このコードでは各レイヤーが `TextLayer` のインスタンスかどうかを確認し、該当すれば `TextLayer` にキャストしています。まるでチョコレートの箱から好きなフィリングのものだけを探し出すようなものです！
 
-### ステップ 4: テキストレイヤーの更新と PSD フォントサイズの変更
-テキストレイヤーを特定したら、新しいコンテンツで更新し、**さらに**フォントサイズを変更します。この部分は非常にシンプルです。
+### Step 4: Replace PSD text, change PSD font size, and change PSD text color
+テキストレイヤーが特定できたら、新しい内容に置き換え、視覚的スタイルも調整します。`updateText` メソッドでテキスト置換、フォントサイズ変更、カラー変更を一度に行えます。
 
 ```java
 textLayer.updateText("test update", new Point(0, 0), 15.0f, Color.getPurple());
 ```
 
-この行では、テキストを `"test update"` に更新し、レイヤー内の座標 `(0, 0)` に配置し、フォントサイズを **15 ポイント** に設定し、色を紫にしています。実際に Photoshop を開くことなく、テキストに新しいメイクオーバーを施すようなものです！
+この行では **PSD テキストを** `"test update"` に **置換**し、レイヤー内の座標 `(0, 0)` に配置、**PSD フォントサイズを** 15pt に、**PSD テキストカラーを** 紫色に設定しています。Photoshop を開かずにテキストに新しい装いを与えるイメージです！
 
-### ステップ 5: 更新された PSD ファイルの保存
-テキストレイヤーの更新が完了したら、変更を新しい PSD ファイルに保存する必要があります。
+### Step 5: Save the Updated PSD File
+テキストレイヤーの更新が完了したら、変更を新しい PSD ファイルとして保存します。
 
 ```java
 psdImage.save(dataDir + "UpdateTextLayerInPSDFile_out.psd");
 ```
 
-この行は変更された PSD ファイルを保存し、すべての調整が保持されます。世界に披露するギャラリーに作品を封印するようなものです！
+このコードは修正後の PSD を保存し、すべての変更が保持されます。完成した作品をギャラリーに展示するような感覚です！
 
-## よくある問題と解決策
-- **ファイルが見つかりません**：`dataDir` パスを再確認し、`layers.psd` がそこに存在することを確認してください。  
-- **サポートされていないレイヤータイプ**：ループは `TextLayer` インスタンスのみを処理し、他のレイヤータイプは安全に無視されます。  
-- **色が適用されません**：選択した色が PSD のカラースペースでサポートされているか確認してください。  
+## Common Issues and Solutions
+- **File not found:** `dataDir` のパスと `layers.psd` の存在を再確認してください。  
+- **Unsupported layer type:** ループは `TextLayer` インスタンスのみを処理し、他のレイヤータイプは安全に無視されます。  
+- **Color not applied:** 選択したカラーが PSD のカラースペースでサポートされているか確認してください。
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: Aspose.PSD for Java とは何ですか？**  
-A: Aspose.PSD for Java は、開発者がプログラムで PSD ファイルを作成、操作、変換できるライブラリです。
+**Q: What is Aspose.PSD for Java?**  
+A: Aspose.PSD for Java は、開発者がプログラムから PSD ファイルを作成、操作、変換できるライブラリです。
 
-**Q: Aspose.PSD を使用して PSD ファイル内の画像を更新できますか？**  
-A: はい、画像、テキストレイヤー、さらには全体の構成も Aspose.PSD で更新できます。
+**Q: Can I update images in PSD files using Aspose.PSD?**  
+A: はい、画像、テキストレイヤー、さらには全体の構成まで Aspose.PSD で更新可能です。
 
-**Q: Aspose.PSD for Java はどこからダウンロードできますか？**  
+**Q: Where can I download Aspose.PSD for Java?**  
 A: こちらからダウンロードできます [here](https://releases.aspose.com/psd/java/)。
 
-**Q: 無料トライアルは利用できますか？**  
-A: はい、Aspose は無料トライアルを提供しています。こちらで確認できます [here](https://releases.aspose.com/)。
+**Q: Is there a free trial available?**  
+A: はい、Aspose は無料トライアルを提供しています。詳細は [here](https://releases.aspose.com/) をご覧ください。
 
-**Q: Aspose.PSD のサポートはどこで受けられますか？**  
-A: [Aspose forum](https://forum.aspose.com/c/psd/34) で質問やサポートを受けられます。
+**Q: Where can I find support for Aspose.PSD?**  
+A: サポートは [Aspose forum](https://forum.aspose.com/c/psd/34) で質問できます。
 
 ---
 
-**最終更新日：** 2025-12-19  
-**テスト環境：** Aspose.PSD for Java (latest release)  
-**作者：** Aspose  
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
