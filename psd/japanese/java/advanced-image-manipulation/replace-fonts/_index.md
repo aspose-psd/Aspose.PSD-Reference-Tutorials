@@ -1,9 +1,9 @@
 ---
-date: 2025-12-05
-description: JavaでAspose PSDのフォント置換を実行する方法を学びましょう。このステップバイステップのJava画像操作チュートリアルでは、PSDファイルのフォントを効率的に置き換える方法を示します。
+date: 2026-02-09
+description: JavaでAspose PSDのフォント置換を使用し、フォントが欠落したPSDファイルを処理して欠落フォントを迅速に置き換え、画像をエクスポートする方法を学びましょう。
 linktitle: Replace Fonts
 second_title: Aspose.PSD Java API
-title: JavaでのAspose PSDフォント置換 – PSDファイルのフォントを置き換える
+title: Aspose PSD フォント置換（Java） – 欠損フォントの置き換え
 url: /ja/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
@@ -12,40 +12,43 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose PSD Font Replacement in Java
+# Aspose PSDフォント置換（Java版）
 
-## Introduction
+## はじめに
+Photoshop（PSD）ファイル内で不足している、または不要なフォントを差し替える必要がある場合、**Aspose PSD font substitution** を使用すれば簡単に行えます。Java アプリケーションで PSD を読み込み、Aspose にフォールバックフォントを指定し、好きな形式で保存できます。このチュートリアルでは、プロジェクトのセットアップから更新された画像のエクスポートまで、**aspose psd font substitution** の全工程を解説し、Photoshop を開かずにフォントが欠落した PSD シナリオを確実に処理できるようにします。
 
-Photoshop（PSD）ファイル内で欠損または不要なフォントを差し替える必要がある場合、**Aspose PSD font replacement** を使用すれば簡単に行えます。Java アプリケーションで PSD を読み込み、Aspose に代替フォントを指定し、任意の形式で保存できます。このチュートリアルでは、プロジェクトのセットアップから更新された画像のエクスポートまで、**aspose psd font replacement** の全工程を順を追って解説します。
+## よくある質問
+- **フォント置換はどのライブラリで処理されますか？** Aspose.PSD for Java
+- **実装にはどれくらい時間がかかりますか？** 基本的なシナリオであれば約5～10分
+- **デフォルトのフォールバックフォントはどれですか？** TrueTypeフォントであればどれでも設定できます（例：「Arial」）
+- **PNG以外の形式で保存できますか？** はい、PSD、JPEG、BMPなどに対応しています
+- **本番環境での使用にはライセンスが必要ですか？** 試用版以外の場合は、有効なAspose.PSDライセンスが必要です
 
-## Quick Answers
-- **What library handles font replacement?** Aspose.PSD for Java  
-- **How long does the implementation take?** About 5‑10 minutes for a basic scenario  
-- **Which font is used as the default fallback?** You can set any TrueType font, e.g., “Arial”  
-- **Can I save to formats other than PNG?** Yes – PSD, JPEG, BMP, etc., are supported  
-- **Do I need a license for production?** A valid Aspose.PSD license is required for non‑trial use  
+## Aspose PSDフォント置換とは？
 
-## What is Aspose PSD Font Replacement?
+Aspose PSD font substitution は、PSD ファイル内で欠落またはサポートされていないフォントに遭遇した際に、ライブラリが使用する代替フォントを指定するプロセスです。これにより、テキストレイヤーが Photoshop で手動編集することなく正しくレンダリングされ、**handle missing fonts PSD** ファイルを自動的に処理できます。
 
-Aspose PSD font replacement は、ライブラリが PSD ファイル内で欠損またはサポートされていないフォントに遭遇した際に、代替フォントを使用するよう指定するプロセスです。これにより、Photoshop で手動編集しなくてもテキストレイヤーが正しく描画されます。
+## Aspose.PSD for Javaを使用する理由
 
-## Why Use Aspose.PSD for Java?
+- **フル機能のPSD処理** – レイヤー、マスク、エフェクト、テキストはすべてAPI経由でアクセスできます。
+- **クロスプラットフォーム** – JavaをサポートするすべてのOSで動作します。
+- **外部依存関係なし** – ライブラリがフォント置換を内部的に処理するため、アプリに別途フォントを同梱する必要はありません。
 
-- **Full‑featured PSD handling** – layers, masks, effects, and text are all accessible via the API.  
-- **Cross‑platform** – works on any OS that supports Java.  
-- **No external dependencies** – the library handles font substitution internally, so you don’t need to ship extra fonts with your app.  
+## Aspose PSD を使用して PSD ファイル内のフォントを置換する方法
 
-## Prerequisites
+以下は、**PSD ファイル内のフォントが欠落している場合に、カスタムの代替フォントで置換する方法**をステップバイステップで説明するガイドです。
 
-Before we dive in, make sure you have:
+## 前提条件
 
-- **Java Development Kit (JDK)** – version 8 or higher installed.  
-- **Aspose.PSD for Java** – download the latest JAR from the [release page](https://releases.aspose.com/psd/java/).  
-- **An IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
+始める前に、以下のものが必要です。
 
-## Import Packages
+- **Java Development Kit (JDK)** – バージョン 8 以降がインストールされている必要があります。
+- **Aspose.PSD for Java** – [リリース ページ](https://releases.aspose.com/psd/java/) から最新の JAR ファイルをダウンロードしてください。
+- **IDE** – IntelliJ IDEA、Eclipse、またはお好みのエディタ。
 
-Begin by importing the classes you’ll need. This gives you access to image loading, load‑options, and saving functionality.
+## パッケージのインポート
+
+まず、必要なクラスをインポートします。これにより、画像の読み込み、読み込みオプション、保存機能にアクセスできるようになります。
 
 ```java
 import com.aspose.psd.Image;
@@ -55,17 +58,17 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Set Your Document Directory
+## ステップ 1: ドキュメントディレクトリの設定
 
-Define the folder that contains the source PSD file. Replace the placeholder with the actual path on your machine.
+ソース PSD ファイルが格納されているフォルダを指定します。プレースホルダーを実際のパスに置き換えてください。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load the Image with a Replacement Font
+## ステップ 2: 置換フォントを使用して画像を読み込む
 
-Create a `PsdLoadOptions` instance, specify the default replacement font (e.g., **Arial**), and load the PSD. Aspose will automatically apply the fallback whenever it encounters a missing font.
+`PsdLoadOptions` インスタンスを作成し、デフォルトの置換フォント（例: **Arial**）を指定して、PSD ファイルを読み込みます。Aspose は、フォントが見つからない場合、自動的に代替フォントを適用します。
 
 ```java
 PsdLoadOptions psdLoadOptions = new PsdLoadOptions(); 
@@ -74,49 +77,54 @@ psdLoadOptions.setDefaultReplacementFont("Arial");
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "Cloud_AzPlat_Banner3A_SB_EN_US_160x600_chinese_font.psd", psdLoadOptions);
 ```
 
-## Step 3: Save the Replaced Image
+## ステップ 3: 置換後の画像を保存する
 
-After the font substitution, you can export the image in any supported format. Here we save it as PNG, but you could also choose JPEG, BMP, or even write it back to PSD.
+フォント置換後、サポートされている任意の形式で画像をエクスポートできます。ここでは PNG 形式で保存していますが、JPEG、BMP を選択したり、PSD 形式で書き戻したりすることも可能です。
 
 ```java
 PngOptions pngOptions = new PngOptions();
 psdImage.save(dataDir + "replaced_font.png", pngOptions);
 ```
 
-## Common Issues and Solutions
+## よくある問題と解決策
 
-| Issue | Cause | Fix |
+| 問題 | 原因 | 解決策 |
+
 |-------|-------|-----|
-| テキストが置換後に文字化けする | 代替フォントに必要なグリフが含まれていない | 必要な Unicode 範囲をサポートするフォント（例: “Arial Unicode MS”）を選択する |
-| 大きな PSD で `OutOfMemoryError` が発生 | ヒープサイズ不足のまま高解像度ファイルを読み込んでいる | JVM ヒープサイズを増やす（`-Xmx2g`）か、利用可能ならストリーミングモードで読み込む |
-| ライセンス例外がスローされる | トライアル版を本番環境で使用している | 画像を読み込む前に有効な永続ライセンスまたは一時ライセンスを適用する |
 
-## Frequently Asked Questions
+| 置換後にテキストが文字化けする | 代替フォントに必要なグリフが含まれていない | 必要なUnicode範囲をサポートするフォントを選択してください（例：「Arial Unicode MS」）。 |
 
-**Q: Can I replace fonts in other image formats besides PSD?**  
-A: Yes. While the primary use‑case is PSD, Aspose.PSD also supports PNG, JPEG, BMP, and TIFF, allowing font replacement where text layers exist.
+| 大きなPSDファイルで`OutOfMemoryError`が発生する | ヒープ領域が不足している状態で高解像度ファイルを読み込む | JVMヒープサイズを増やす（`-Xmx2g`）か、可能であればストリーミングモードで画像を読み込む。 |
 
-**Q: Is the default replacement font mandatory?**  
-A: No. You can set any TrueType font you prefer, or omit the setting to let Aspose use its internal default.
+| ライセンス例外 | 本番環境で試用版を使用している | 画像を読み込む前に、有効な永続ライセンスまたは一時ライセンスを適用してください。 |
 
-**Q: Are there licensing requirements for using Aspose.PSD?**  
-A: A commercial license is required for production deployments. See the [purchase page](https://purchase.aspose.com/buy) for details.
+## よくある質問
 
-**Q: Can I obtain a temporary license for testing?**  
-A: Absolutely. Aspose offers free temporary licenses for evaluation – visit the [temporary license page](https://purchase.aspose.com/temporary-license/).
+**Q: PSD以外の画像形式でもフォントを置換できますか？** A: はい。 Aspose.PSDはPSDを主なユースケースとしていますが、PNG、JPEG、BMP、TIFFもサポートしており、テキストレイヤーが存在する場合のフォント置換も可能です。
 
-**Q: Where can I find additional support or discuss Aspose.PSD‑related issues?**  
-A: The community forum is a great place to ask questions: [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
+**Q: デフォルトの置換フォントは必須ですか？** A: いいえ。お好みのTrueTypeフォントを設定することも、設定を省略してAsposeの内部デフォルトフォントを使用させることもできます。
 
-**Q: How do I handle PSD files that contain multiple missing fonts?**  
-A: Set the default replacement font once (as shown) – it will be applied to *all* missing fonts during the load operation.
+**Q: Aspose.PSDを使用するにはライセンスが必要ですか？** A: 本番環境での導入には商用ライセンスが必要です。詳細は[購入ページ](https://purchase.aspose.com/buy)をご覧ください。
 
-**Q: Is it possible to replace fonts after the image has been saved?**  
-A: Font substitution must occur during the load phase. To change fonts later, reload the PSD with a different replacement font and resave.
+**Q: テスト用の一時ライセンスを取得できますか？** A: はい、可能です。Asposeは評価用の無料一時ライセンスを提供しています。[一時ライセンスページ](https://purchase.aspose.com/temporary-license/)をご覧ください。
 
-## Conclusion
+**Q: Aspose.PSDに関する追加のサポートや問題について相談できる場所はどこですか？** A: コミュニティフォーラムは質問をするのに最適な場所です。[Aspose.PSDフォーラム](https://forum.aspose.com/c/psd/34)
 
-You’ve now seen a complete **aspose psd font replacement** workflow in Java—from importing the right classes, configuring a fallback font, loading the PSD, to exporting the corrected image. Incorporate this pattern into your image‑processing pipelines to ensure consistent typography across all your PSD assets.
+**Q: 複数のフォントが欠落しているPSDファイルはどのように処理すればよいですか？** A: デフォルトの代替フォントを一度設定してください（図を参照）。読み込み処理中に、欠落しているすべてのフォントに適用されます。
+
+**Q: 画像を保存した後にフォントを置き換えることはできますか？** A: フォントの置換は読み込みフェーズで実行する必要があります。後でフォントを変更するには、別の代替フォントを使用してPSDファイルを再読み込みし、再度保存してください。
+
+## まとめ
+
+これで、適切なクラスのインポート、フォールバックフォントの設定、PSDファイルの読み込み、修正された画像の書き出しまで、JavaでAspose.PSDフォント置換を行うワークフロー全体を理解できました。このパターンを画像処理パイプラインに組み込むことで、すべてのPSDアセットで一貫したタイポグラフィを確保し、**PSDファイル内のフォント欠落**を自動的に処理できます。
+
+---
+
+**最終更新日:** 2026年2月9日
+**テスト環境:** Aspose.PSD for Java 24.12 (執筆時点の最新バージョン)
+**作成者:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -124,11 +132,3 @@ You’ve now seen a complete **aspose psd font replacement** workflow in Java—
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
-
----
