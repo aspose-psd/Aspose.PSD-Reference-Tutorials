@@ -1,10 +1,10 @@
 ---
-date: 2025-12-05
-description: เรียนรู้วิธีหมุนภาพด้วย Java และทำการจัดการภาพขั้นสูงโดยใช้ Aspose.PSD
-  สำหรับ Java รวมถึงการเปลี่ยนฟอนต์, ตัวแปลงแบบบิกิวบิก, และอื่น ๆ
+date: 2026-02-14
+description: เรียนรู้วิธีการหมุนภาพใน Java ด้วย Aspose.PSD พร้อมกับงานขั้นสูงเช่นการเปลี่ยนฟอนต์,
+  การทำรีแซมปลิงแบบไบคิวบิก, และวิธีการปรับแต่งภาพ GIF.
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
-title: หมุนรูปภาพด้วย Java และ Aspose.PSD – การจัดการรูปภาพขั้นสูง
+title: วิธีการหมุนรูปภาพใน Java ด้วย Aspose.PSD
 url: /th/java/advanced-image-manipulation/
 weight: 24
 ---
@@ -13,136 +13,149 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# หมุนรูปภาพ Java – การจัดการภาพขั้นสูง
+# วิธีการหมุนภาพใน Java – การจัดการภาพขั้นสูง
 
 ## บทนำ
 
-หากคุณกำลังสำรวจโลกของ **rotate image java** และการจัดการภาพขั้นสูงใน Java, Aspose.PSD มีทุกอย่างที่คุณต้องการ ในคู่มือนี้ เราจะพาคุณผ่านชุดบทเรียนหลาย ๆ ตอน ที่เปิดมิติใหม่ของความสามารถในการประมวลผลภาพด้วย Aspose.PSD for Java ไม่ว่าคุณต้องการหมุนภาพ, แทนที่แบบอักษร, หรือปรับขนาดกราฟิกแบบสัดส่วน คุณจะพบคำแนะนำทีละขั้นตอนที่ทำให้คุณทำงานได้อย่างมีประสิทธิภาพ
+If you're diving into the world of **how to rotate image** in Java and advanced image manipulation, Aspose.PSD has got you covered. In this guide, we'll walk you through a series of tutorials, each unlocking a new dimension of image‑processing capabilities using Aspose.PSD for Java. Whether you need to rotate an image, replace fonts, or resize graphics proportionally, you’ll find step‑by‑step instructions that keep you productive.
 
-## คำตอบสั้น ๆ
-- **วิธีที่ง่ายที่สุดในการหมุนภาพใน Java คืออะไร?** ใช้เมธอด `Image.rotate()` ของ Aspose.PSD สำหรับการหมุนแบบไม่มีการสูญเสียคุณภาพ  
-- **ฉันสามารถหมุนภาพด้วยมุมที่กำหนดได้หรือไม่?** ได้ – ไลบรารีรองรับมุมใด ๆ ผ่านการ overload `rotate(double angle)`  
-- **ฉันต้องมีไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** จำเป็นต้องมีไลเซนส์เชิงพาณิชย์ของ Aspose.PSD สำหรับการใช้งานที่ไม่ใช่การประเมินผล  
-- **การแทนที่แบบอักษรทำได้โดยไม่ต้องแก้ไข PSD ด้วยตนเองหรือไม่?** แน่นอน – Aspose.PSD มี API โปรแกรมเพื่อแทนที่แบบอักษรในภาพ  
-- **เวอร์ชันของ Java ที่รองรับคืออะไร?** Aspose.PSD for Java ทำงานกับ Java 8 และรุ่นต่อ ๆ ไป
+## คำตอบอย่างรวดเร็ว
+- **วิธีที่ง่ายที่สุดในการหมุนภาพใน Java คืออะไร?** Use Aspose.PSD’s `Image.rotate()` method for lossless rotation.  
+- **ฉันสามารถหมุนภาพโดยมุมเฉพาะได้หรือไม่?** Yes – the library supports arbitrary angles via the `rotate(double angle)` overload.  
+- **ฉันต้องการใบอนุญาตสำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** A commercial Aspose.PSD license is required for non‑evaluation deployments.  
+- **การแทนที่ฟอนต์สามารถทำได้โดยไม่ต้องแก้ไข PSD ด้วยตนเองหรือไม่?** Absolutely – Aspose.PSD provides a programmatic API to replace fonts in images.  
+- **เวอร์ชันของ Java ที่รองรับคืออะไร?** Aspose.PSD for Java works with Java 8 and later.
 
-## “rotate image java” คืออะไร?
+## “how to rotate image” ใน Java คืออะไร?
 
-การหมุนภาพใน Java หมายถึงการเปลี่ยนทิศทางของภาพขณะยังคงรักษาข้อมูลพิกเซลไว้ ด้วย Aspose.PSD การดำเนินการนี้ทำโดยตรงบนเลเยอร์ของ PSD ทำให้ไม่มีการสูญเสียคุณภาพและคงเลเยอร์การปรับแต่งทั้งหมดไว้
+Rotating an image in Java means changing its orientation while preserving pixel data. With Aspose.PSD, the operation is performed directly on PSD layers, ensuring no quality loss and keeping all adjustment layers intact.
 
 ## ทำไมต้องใช้ Aspose.PSD สำหรับการหมุนภาพและงานขั้นสูงอื่น ๆ?
 
-- **การประมวลผลแบบไม่มีการสูญเสีย** – ไม่มีศิลปะการเข้ารหัสซ้ำ  
-- **รองรับ PSD อย่างเต็มรูปแบบ** – เลเยอร์, มาสก์, เอฟเฟกต์การปรับแต่งคงอยู่ทั้งหมด  
-- **ประสิทธิภาพสูง** – มีแคชในตัวและอัลกอริธึมที่ปรับแต่งสำหรับไฟล์ขนาดใหญ่  
-- **ชุดฟีเจอร์ครบครัน** – ตั้งแต่การแทนที่แบบอักษรจนถึงการรีแซมพลิงแบบบิคิวบิก ทั้งหมดในไลบรารีเดียว
+- **การประมวลผลแบบไม่มีการสูญเสีย** – No re‑encoding artifacts.  
+- **การสนับสนุน PSD เต็มรูปแบบ** – Layers, masks, adjustment effects stay intact.  
+- **ประสิทธิภาพสูง** – Built‑in caching and optimized algorithms for large files.  
+- **ชุดคุณสมบัติที่หลากหลาย** – From font replacement to bicubic resampling, all in one library.
 
 ## ข้อกำหนดเบื้องต้น
-- ติดตั้ง Java 8 หรือใหม่กว่า  
-- ไลบรารี Aspose.PSD for Java (ดาวน์โหลดจากเว็บไซต์ Aspose)  
-- ไลเซนส์ Aspose.PSD ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์  
+- Java 8 หรือใหม่กว่า ติดตั้งแล้ว.  
+- ไลบรารี Aspose.PSD for Java (ดาวน์โหลดจากเว็บไซต์ Aspose).  
+- ใบอนุญาต Aspose.PSD ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์.  
 
-## การแทนที่แบบอักษรอย่างมีประสิทธิภาพในภาพ
-### [Replace Fonts in Aspose.PSD for Java](./replace-fonts/)
-บอกลาปัญหาแบบอักษรในภาพของคุณ คู่มือขั้นตอนต่อขั้นตอนของเราจะแสดง **how to replace fonts java** อย่างมีประสิทธิภาพ เพื่อให้ได้ประสบการณ์ภาพที่ราบรื่นเมื่อคุณต้อง **replace fonts in images**
+## การแทนที่ฟอนต์อย่างมีประสิทธิภาพในภาพ
+### [แทนที่ฟอนต์ใน Aspose.PSD for Java](./replace-fonts/)
+บอกลาปัญหาที่เกี่ยวกับฟอนต์ในภาพของคุณได้เลย คู่มือขั้นตอนของเราจะสาธิต **how to replace fonts java** อย่างมีประสิทธิภาพ เพื่อให้ได้ประสบการณ์ภาพที่ราบรื่นเมื่อคุณต้อง **replace fonts in images**.
 
-## ปรับประสิทธิภาพการประมวลผลภาพด้วย Font Cache
-### [Force Font Cache with Aspose.PSD for Java](./force-font-cache/)
-ค้นพบศิลปะการเพิ่มประสิทธิภาพการประมวลผลภาพโดยการบังคับใช้ Font Cache กับ Aspose.PSD for Java ปรับปรุงประสิทธิภาพได้อย่างง่ายดายด้วยคู่มือที่ครอบคลุมของเรา
+## ปรับปรุงการประมวลผลภาพด้วยแคชฟอนต์
+### [บังคับแคชฟอนต์ด้วย Aspose.PSD for Java](./force-font-cache/)
+Discover the art of optimizing image processing by forcing font cache with Aspose.PSD for Java. Enhance performance effortlessly with our comprehensive guide.
 
 ## การปรับขนาดภาพขั้นสูงด้วย Bicubic Resampler
-### [Implement Bicubic Resampler in Aspose.PSD for Java](./implement-bicubic-resampler/)
-ยกระดับการปรับขนาดภาพใน Java ของคุณด้วย Bicubic Resampler ของ Aspose.PSD ทำตามคู่มือของเราเพื่อผลลัพธ์ที่เหนือกว่าและเปิดมาตรฐานใหม่ในคุณภาพภาพ
+### [ใช้งาน Bicubic Resampler ใน Aspose.PSD for Java](./implement-bicubic-resampler/)
+Take your Java image resizing to the next level with Aspose.PSD's Bicubic Resampler. Follow our guide for superior results and unlock a new standard in image quality.
 
-## การเพิ่มประสิทธิภาพภาพเว็บด้วย Lossy GIF Compressor
-### [Implement Lossy GIF Compressor in Aspose.PSD for Java](./implement-lossy-gif-compressor/)
-เพิ่มประสิทธิภาพภาพเว็บของคุณอย่างไร้รอยต่อด้วย Lossy GIF Compressor ของ Aspose.PSD for Java คู่มือขั้นตอนต่อขั้นตอนของเราจะช่วยให้คุณทำการนำไปใช้ได้อย่างมีประสิทธิภาพเพื่อภาพที่สวยงาม
+## การเพิ่มประสิทธิภาพภาพเว็บอย่างมีประสิทธิภาพด้วย Lossy GIF Compressor
+### [ใช้งาน Lossy GIF Compressor ใน Aspose.PSD for Java](./implement-lossy-gif-compressor/)
+Optimize your web images seamlessly using Aspose.PSD for Java's Lossy GIF Compressor. Our step‑by‑step guide ensures efficient implementation for stunning visuals.
 
-## การกลับด้านเลเยอร์ปรับแต่งสำหรับการจัดการ PSD อย่างราบรื่น
-### [Invert Adjustment Layer in Aspose.PSD for Java](./invert-adjustment-layer/)
-สำรวจพลังของ Invert Adjustment Layer ใน Aspose.PSD for Java ปลดล็อกการจัดการไฟล์ PSD อย่างราบรื่นด้วยบทเรียนที่ครอบคลุมของเรา
+## การกลับด้าน Adjustment Layer เพื่อการจัดการ PSD อย่างราบรื่น
+### [กลับด้าน Adjustment Layer ใน Aspose.PSD for Java](./invert-adjustment-layer/)
+Dive into the power of the Invert Adjustment Layer in Aspose.PSD for Java. Unleash seamless PSD file manipulation with our comprehensive tutorial.
 
-## การวางสีไดนามิกด้วย Rendering Color Effect
-### [Apply Rendering Color Effect in Aspose.PSD for Java](./rendering-color-effect/)
-เสริมแอปพลิเคชัน Java ของคุณด้วยการวางสีไดนามิกโดยใช้ Aspose.PSD คู่มือของเราจะทำให้การรวมเข้ากันเป็นไปอย่างราบรื่นและให้เอฟเฟกต์ภาพที่น่าตื่นตาตื่นใจ
+## การซ้อนสีแบบไดนามิกด้วย Rendering Color Effect
+### [ใช้ Rendering Color Effect ใน Aspose.PSD for Java](./rendering-color-effect/)
+Enhance your Java applications with dynamic color overlays using Aspose.PSD. Our guide ensures seamless integration and stunning visual effects.
 
-## การสร้างเงาตกลงเรือนแบบ Rendering Drop Shadows
-### [Apply Rendering Drop Shadow in Aspose.PSD for Java](./rendering-drop-shadow/)
-สำรวจคู่มือขั้นตอนต่อขั้นตอนในการประยุกต์ใช้ Rendering Drop Shadow ใน Aspose.PSD for Java ยกระดับทักษะการประมวลผลภาพของคุณได้อย่างง่ายดาย
+## การควบคุม Rendering Drop Shadows
+### [ใช้ Rendering Drop Shadow ใน Aspose.PSD for Java](./rendering-drop-shadow/)
+Explore the step‑by‑step guide to applying rendering drop shadows in Aspose.PSD for Java. Elevate your image processing skills effortlessly.
 
 ## การปรับขนาดภาพแบบสัดส่วนอย่างง่ายดาย
-### [Resize Image Proportionally with Aspose.PSD for Java](./resize-image-proportionally/)
-เพิ่มประสิทธิภาพแอปพลิเคชัน Java ของคุณด้วย Aspose.PSD คู่มือของเราจะพาคุณผ่านกระบวนการ **resize image proportionally java** อย่างไม่มีความยุ่งยาก
+### [ปรับขนาดภาพแบบสัดส่วนด้วย Aspose.PSD for Java](./resize-image-proportionally/)
+Boost your Java applications with Aspose.PSD. Our guide takes you through the process of **resize image proportionally java** effortlessly.
 
-## ความเชี่ยวชาญในการปรับขนาดภาพด้วย Resize Type Enumeration
-### [Resizing with Resize Type Enumeration in Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
-เชี่ยวชาญการปรับขนาดภาพใน Java ด้วย Aspose.PSD คู่มือขั้นตอนต่อขั้นตอนโดยใช้ Resize Type Enumeration จะทำให้คุณได้ความแม่นยำและประสิทธิภาพ
+## ความเชี่ยวชาญการปรับขนาดภาพด้วย Resize Type Enumeration
+### [การปรับขนาดด้วย Resize Type Enumeration ใน Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
+Master image resizing in Java with Aspose.PSD. Our step‑by‑step guide using Resize Type Enumeration ensures precision and efficiency.
 
-## การหมุนภาพใน Java อย่างราบรื่น
-### [Rotate an Image in Aspose.PSD for Java](./rotate-image/)
-สำรวจการหมุนภาพใน Java อย่างง่ายดายด้วย Aspose.PSD หมุน, พลิก, และบันทึกไฟล์ PSD ได้อย่างง่ายดายด้วยบทเรียนที่เป็นมิตรต่อผู้ใช้ของเรา
+## การหมุนภาพอย่างราบรื่นใน Java
+### [หมุนภาพใน Aspose.PSD for Java](./rotate-image/)
+Explore image rotation in Java effortlessly with Aspose.PSD. Rotate, flip, and save PSD files easily with our user‑friendly tutorial.
 
 ## ความแม่นยำในการหมุนภาพด้วยมุมเฉพาะ
-### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
-เจาะลึกการหมุนภาพใน Java ด้วย Aspose.PSD for Java หมุนภาพบน **rotate image specific angle** ได้อย่างไม่มีความยุ่งยากตามคู่มือที่ละเอียดของเรา
+### [หมุนภาพด้วยมุมเฉพาะใน Aspose.PSD for Java](./rotate-image-specific-angle/)
+Delve into image rotation in Java with Aspose.PSD for Java. Effortlessly rotate images on **rotate image specific angle** using our detailed tutorial.
 
-ปลดล็อกศักยภาพเต็มรูปแบบของการจัดการภาพใน Java ด้วย Aspose.PSD บทเรียนของเรานำเสนอคู่มือที่ครอบคลุมเพื่อใช้ประโยชน์จากไลบรารีอเนกประสงค์นี้ ทำให้โครงการของคุณโดดเด่นด้วยความสามารถการประมวลผลภาพระดับสูง ดำดิ่งลงและยกระดับทักษะการพัฒนา Java ของคุณวันนี้!
+### วิธีการแทนที่ฟอนต์ในภาพ
+If you need to **how to replace fonts** quickly, the “Replace Fonts” tutorial above shows the exact API calls. This approach saves you from manual PSD editing and guarantees consistent typography across layers.
 
-## บทเรียนการจัดการภาพขั้นสูง
-### [Replace Fonts in Aspose.PSD for Java](./replace-fonts/)
-เรียนรู้วิธีแทนที่แบบอักษรในภาพโดยใช้ Aspose.PSD for Java ทำตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อการจัดการแบบอักษรที่มีประสิทธิภาพ
+### ปรับขนาดภาพแบบสัดส่วนใน Java
+Proportional resizing keeps the original aspect ratio intact, preventing distortion. The “Resize Image Proportionally” guide demonstrates the one‑line method to achieve this with Aspose.PSD.
 
-### [Force Font Cache with Aspose.PSD for Java](./force-font-cache/)
-เรียนรู้วิธีบังคับใช้ Font Cache ด้วย Aspose.PSD for Java ปรับประสิทธิภาพการประมวลผลภาพและเพิ่มประสิทธิภาพด้วยคู่มือขั้นตอนต่อขั้นตอนนี้
+### วิธีการใช้ Drop Shadow ใน Java
+Drop shadows add depth to graphics. Follow the “Apply Rendering Drop Shadow” tutorial to learn the required effect class and parameters for a professional look.
 
-### [Implement Bicubic Resampler in Aspose.PSD for Java](./implement-bicubic-resampler/)
-ยกระดับการปรับขนาดภาพ Java ของคุณด้วย Bicubic Resampler ของ Aspose.PSD for Java ทำตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อผลลัพธ์ที่เหนือกว่า
+### หมุนภาพด้วยมุมเฉพาะใน Java
+When a design calls for a non‑standard rotation, the “Rotate Image on a Specific Angle” guide walks you through passing any floating‑point angle to the `rotate(double)` method.
 
-### [Implement Lossy GIF Compressor in Aspose.PSD for Java](./implement-lossy-gif-compressor/)
-เพิ่มประสิทธิภาพภาพเว็บของคุณอย่างไร้รอยต่อด้วย Lossy GIF Compressor ของ Aspose.PSD for Java ทำตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อการนำไปใช้ที่มีประสิทธิภาพ
+### ปรับปรุงภาพ GIF ด้วย Aspose.PSD
+Animated GIFs often need size reduction for web performance. The “Implement Lossy GIF Compressor” tutorial explains how to compress GIFs while preserving visual fidelity.
 
-### [Invert Adjustment Layer in Aspose.PSD for Java](./invert-adjustment-layer/)
-สำรวจ Invert Adjustment Layer ใน Aspose.PSD for Java ไลบรารี Java ที่ทรงพลังสำหรับการจัดการไฟล์ PSD อย่างราบรื่น
+## บทแนะนำการจัดการภาพขั้นสูง
+### [แทนที่ฟอนต์ใน Aspose.PSD for Java](./replace-fonts/)
+Learn how to replace fonts in images using Aspose.PSD for Java. Follow our step‑by‑step guide for efficient font manipulation.
 
-### [Apply Rendering Color Effect in Aspose.PSD for Java](./rendering-color-effect/)
-เสริมแอปพลิเคชัน Java ของคุณด้วยการวางสีไดนามิกโดยใช้ Aspose.PSD ทำตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อการรวมเข้ากันอย่างราบรื่นและเอฟเฟกต์ภาพที่น่าตื่นตาตื่นใจ
+### [บังคับแคชฟอนต์ด้วย Aspose.PSD for Java](./force-font-cache/)
+Learn how to force font cache using Aspose.PSD for Java. Optimize image processing and enhance performance with this step‑by‑step guide.
 
-### [Apply Rendering Drop Shadow in Aspose.PSD for Java](./rendering-drop-shadow/)
-สำรวจคู่มือขั้นตอนต่อขั้นตอนในการประยุกต์ใช้ Rendering Drop Shadow ใน Aspose.PSD for Java เพื่อยกระดับทักษะการประมวลผลภาพของคุณอย่างง่ายดาย
+### [ใช้งาน Bicubic Resampler ใน Aspose.PSD for Java](./implement-bicubic-resampler/)
+Enhance Java image resizing with Aspose.PSD for Java Bicubic Resampler. Follow our step‑by‑step guide for superior results.
 
-### [Resize Image Proportionally with Aspose.PSD for Java](./resize-image-proportionally/)
-เสริมแอปพลิเคชัน Java ของคุณด้วย Aspose.PSD ทำตามคู่มือของเราเพื่อ **resize image proportionally java** อย่างไม่มีความยุ่งยาก เพิ่มความสามารถในการจัดการภาพของคุณวันนี้
+### [ใช้งาน Lossy GIF Compressor ใน Aspose.PSD for Java](./implement-lossy-gif-compressor/)
+Optimize your web images seamlessly with Aspose.PSD for Java's Lossy GIF Compressor. Follow our step‑by‑step guide for efficient implementation. 
 
-### [Resizing with Resize Type Enumeration in Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
-เชี่ยวชาญการปรับขนาดภาพใน Java ด้วย Aspose.PSD คู่มือขั้นตอนต่อขั้นตอนโดยใช้ Resize Type Enumeration
+### [กลับด้าน Adjustment Layer ใน Aspose.PSD for Java](./invert-adjustment-layer/)
+Explore the Invert Adjustment Layer in Aspose.PSD for Java. A powerful Java library for seamless PSD file manipulation.
 
-### [Rotate an Image in Aspose.PSD for Java](./rotate-image/)
-สำรวจการหมุนภาพใน Java อย่างง่ายดายด้วย Aspose.PSD หมุน, พลิก, และบันทึกไฟล์ PSD ได้อย่างง่ายดาย
+### [ใช้ Rendering Color Effect ใน Aspose.PSD for Java](./rendering-color-effect/)
+Enhance your Java applications with dynamic color overlays using Aspose.PSD. Follow our step‑by‑step guide for seamless integration and stunning visual effects.
 
-### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
-สำรวจการหมุนภาพใน Java ด้วย Aspose.PSD for Java หมุนภาพอย่างไม่มีความยุ่งยากบน **rotate image specific angle**
+### [ใช้ Rendering Drop Shadow ใน Aspose.PSD for Java](./rendering-drop-shadow/)
+Explore the step‑by‑step guide to applying rendering drop shadows in Aspose.PSD for Java, enhancing your image processing skills effortlessly.
+
+### [ปรับขนาดภาพแบบสัดส่วนด้วย Aspose.PSD for Java](./resize-image-proportionally/)
+Enhance your Java applications with Aspose.PSD. Follow our guide to **resize image proportionally java** effortlessly. Boost your image handling capabilities today.
+
+### [การปรับขนาดด้วย Resize Type Enumeration ใน Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
+Master image resizing in Java with Aspose.PSD. Step‑by‑step guide using Resize Type Enumeration. 
+
+### [หมุนภาพใน Aspose.PSD for Java](./rotate-image/)
+Explore image rotation in Java effortlessly with Aspose.PSD. Rotate, flip, and save PSD files easily.
+
+### [หมุนภาพด้วยมุมเฉพาะใน Aspose.PSD for Java](./rotate-image-specific-angle/)
+Explore image rotation in Java with Aspose.PSD for Java. Rotate images effortlessly on **rotate image specific angle**.
 
 ## คำถามที่พบบ่อย
 
-**Q: ฉันสามารถหมุนภาพ PSD โดยไม่สูญเสียข้อมูลเลเยอร์ได้หรือไม่?**  
-A: ได้ Aspose.PSD จะหมุนภาพในระดับเลเยอร์ โดยคงเลเยอร์การปรับแต่ง, มาสก์, และเอฟเฟกต์ทั้งหมดไว้
+**Q: Can I rotate a PSD image without losing layer information?**  
+A: Yes. Aspose.PSD rotates the image at the layer level, preserving all adjustment layers, masks, and effects.
 
-**Q: ฉันจะหมุนภาพด้วยมุมที่ไม่ใช่หลายของ 90° อย่างไร?**  
-A: ใช้เมธอด `rotate(double angle)` ซึ่งรับมุมแบบ floating‑point ใด ๆ (เช่น 45.0) เพื่อการหมุนที่ราบรื่น
+**Q: How do I rotate an image by a non‑multiple of 90°?**  
+A: Use the `rotate(double angle)` method, which accepts any floating‑point angle (e.g., 45.0) for smooth rotation.
 
-**Q: มีผลกระทบต่อประสิทธิภาพเมื่อหมุนไฟล์ PSD ขนาดใหญ่หรือไม่?**  
-A: มีผลกระทบเพียงเล็กน้อย การเปิดใช้งาน Font Cache (ดูบทเรียน “Force Font Cache”) และใช้เวอร์ชันไลบรารีล่าสุดจะช่วยลดภาระหน่วยความจำ
+**Q: Is there a performance impact when rotating large PSD files?**  
+A: Minimal. Enabling the font cache (see the “Force Font Cache” tutorial) and using the latest library version mitigates memory overhead.
 
-**Q: ฉันต้องใช้ไลบรารีแยกสำหรับการแทนที่แบบอักษรหรือไม่?**  
-A: ไม่จำเป็น Aspose.PSD มี API ในตัวสำหรับการแทนที่แบบอักษร ทำให้คุณสามารถ **how to replace fonts java** ได้โดยไม่ต้องพึ่งพาไลบรารีเพิ่มเติม
+**Q: Do I need a separate library for font replacement?**  
+A: No. Aspose.PSD includes built‑in APIs to replace fonts, making it simple to implement **how to replace fonts java** without additional dependencies.
 
-**Q: เวอร์ชัน Java ที่รองรับอย่างเป็นทางการคืออะไร?**  
-A: Aspose.PSD for Java รองรับ Java 8, 11, 17 และรุ่น LTS ใหม่ ๆ
+**Q: Which Java versions are officially supported?**  
+A: Aspose.PSD for Java supports Java 8, 11, 17, and newer LTS releases.
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-05  
-**ทดสอบกับ:** Aspose.PSD for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
+**อัปเดตล่าสุด:** 2026-02-14  
+**ทดสอบกับ:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

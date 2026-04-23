@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: जावा में इमेज को कैसे घुमाएँ और Aspose.PSD for Java का उपयोग करके उन्नत
-  इमेज मैनिपुलेशन कैसे करें, जिसमें फ़ॉन्ट प्रतिस्थापन, बाइक्यूबिक रिसैम्पलर और अधिक
-  शामिल हैं।
+date: 2026-02-14
+description: Aspose.PSD का उपयोग करके जावा में इमेज को कैसे घुमाएँ, साथ ही फ़ॉन्ट
+  प्रतिस्थापन, बाइक्यूबिक रिसैंपलिंग जैसे उन्नत कार्य और GIF इमेज को कैसे ऑप्टिमाइज़
+  करें, सीखें।
 linktitle: Advanced Image Manipulation
 second_title: Aspose.PSD Java API
-title: Aspose.PSD के साथ जावा में इमेज घुमाएँ – उन्नत इमेज मैनिपुलेशन
+title: Aspose.PSD के साथ जावा में इमेज को कैसे घुमाएँ
 url: /hi/java/advanced-image-manipulation/
 weight: 24
 ---
@@ -14,171 +14,150 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# इमेज रोटेट जावा – उन्नत इमेज हेरफेर
+# Java में इमेज को घुमाने का तरीका – उन्नत इमेज मैनिपुलेशन
 
 ## परिचय
 
-यदि आप **rotate image java** और जावा में उन्नत इमेज हेरफेर की दुनिया में प्रवेश कर रहे हैं, तो Aspose.PSD आपके लिए तैयार है। इस गाइड में, हम आपको कई ट्यूटोरियल्स के माध्यम से ले जाएंगे, जो Aspose.PSD for Java का उपयोग करके इमेज‑प्रोसेसिंग क्षमताओं के नए आयाम खोलते हैं। चाहे आपको इमेज रोटेट करनी हो, फ़ॉन्ट बदलना हो, या ग्राफ़िक्स को अनुपातिक रूप से रिसाइज़ करना हो, आपको चरण‑दर‑चरण निर्देश मिलेंगे जो आपकी उत्पादकता बनाए रखेंगे।
+यदि आप **Java में इमेज को घुमाने** और उन्नत इमेज मैनिपुलेशन की दुनिया में प्रवेश कर रहे हैं, तो Aspose.PSD आपके लिए सब कुछ प्रदान करता है। इस गाइड में, हम आपको Aspose.PSD for Java का उपयोग करके इमेज‑प्रोसेसिंग क्षमताओं के विभिन्न आयामों को खोलने वाले ट्यूटोरियल्स की एक श्रृंखला के माध्यम से ले चलेंगे। चाहे आपको इमेज को घुमाना हो, फ़ॉन्ट बदलना हो, या ग्राफ़िक्स को अनुपातिक रूप से रिसाइज़ करना हो, आपको चरण‑दर‑चरण निर्देश मिलेंगे जो आपकी उत्पादकता को बनाए रखेंगे।
 
 ## त्वरित उत्तर
+- **Java में इमेज को घुमाने का सबसे आसान तरीका क्या है?** लॉसलेस घुमाव के लिए Aspose.PSD की `Image.rotate()` मेथड का उपयोग करें।  
+- **क्या मैं इमेज को किसी विशिष्ट कोण पर घुमा सकता हूँ?** हाँ – लाइब्रेरी `rotate(double angle)` ओवरलोड के माध्यम से मनचाहे कोण का समर्थन करती है।  
+- **क्या उत्पादन उपयोग के लिए लाइसेंस की आवश्यकता है?** गैर‑मूल्यांकन डिप्लॉयमेंट के लिए एक व्यावसायिक Aspose.PSD लाइसेंस आवश्यक है।  
+- **क्या फ़ॉन्ट को मैन्युअल PSD एडिट किए बिना बदलना संभव है?** बिल्कुल – Aspose.PSD प्रोग्रामेटिक API प्रदान करता है जिससे इमेज में फ़ॉन्ट बदले जा सकते हैं।  
+- **कौन सा Java संस्करण समर्थित है?** Aspose.PSD for Java Java 8 और उसके बाद के संस्करणों के साथ काम करता है।
 
-- **जावा में इमेज को रोटेट करने का सबसे आसान तरीका क्या है?** Aspose.PSD की `Image.rotate()` मेथड का उपयोग करें जिससे लॉसलेस रोटेशन हो।  
-- **क्या मैं इमेज को एक विशिष्ट कोण पर रोटेट कर सकता हूँ?** हाँ – लाइब्रेरी `rotate(double angle)` ओवरलोड के माध्यम से मनचाहे कोण को सपोर्ट करती है।  
-- **क्या उत्पादन उपयोग के लिए लाइसेंस चाहिए?** गैर‑मूल्यांकन डिप्लॉयमेंट के लिए एक व्यावसायिक Aspose.PSD लाइसेंस आवश्यक है।  
-- **क्या PSD को मैन्युअली एडिट किए बिना फ़ॉन्ट बदलना संभव है?** बिल्कुल – Aspose.PSD इमेज में फ़ॉन्ट बदलने के लिए प्रोग्रामेटिक API प्रदान करता है।  
-- **कौन सा जावा संस्करण समर्थित है?** Aspose.PSD for Java जावा 8 और उसके बाद के संस्करणों के साथ काम करता है।  
+## Java में “how to rotate image” क्या है?
 
-## “rotate image java” क्या है?
+Java में इमेज को घुमाना मतलब उसकी अभिविन्यास बदलना जबकि पिक्सेल डेटा को संरक्षित रखना। Aspose.PSD के साथ, यह ऑपरेशन सीधे PSD लेयर्स पर किया जाता है, जिससे गुणवत्ता में कोई हानि नहीं होती और सभी एडजस्टमेंट लेयर्स अपरिवर्तित रहती हैं।
 
-जावा में इमेज को रोटेट करना मतलब उसकी दिशा बदलना जबकि पिक्सेल डेटा को संरक्षित रखना। Aspose.PSD के साथ, यह ऑपरेशन सीधे PSD लेयर्स पर किया जाता है, जिससे कोई गुणवत्ता हानि नहीं होती और सभी एडजस्टमेंट लेयर्स अपरिवर्तित रहती हैं।
+## इमेज घुमाव और अन्य उन्नत कार्यों के लिए Aspose.PSD क्यों उपयोग करें?
 
-## इमेज रोटेशन और अन्य उन्नत कार्यों के लिए Aspose.PSD क्यों उपयोग करें?
-
-- **लॉसलेस प्रोसेसिंग** – कोई री‑एन्कोडिंग आर्टिफैक्ट नहीं।  
-- **पूर्ण PSD सपोर्ट** – लेयर्स, मास्क, एडजस्टमेंट इफेक्ट्स अपरिवर्तित रहते हैं।  
-- **उच्च प्रदर्शन** – बड़े फाइलों के लिए बिल्ट‑इन कैशिंग और ऑप्टिमाइज़्ड एल्गोरिदम।  
-- **समृद्ध फीचर सेट** – फ़ॉन्ट रिप्लेसमेंट से लेकर बाइकोबिक रिसैम्पलिंग तक, सब कुछ एक लाइब्रेरी में।  
+- **Lossless processing** – कोई री‑एन्कोडिंग आर्टिफैक्ट नहीं।  
+- **Full PSD support** – लेयर्स, मास्क, एडजस्टमेंट इफ़ेक्ट्स सभी बरकरार रहते हैं।  
+- **High performance** – बड़े फ़ाइलों के लिए बिल्ट‑इन कैशिंग और ऑप्टिमाइज़्ड एल्गोरिदम।  
+- **Rich feature set** – फ़ॉन्ट बदलने से लेकर बाइकोबिक रिसैंपलिंग तक, सब कुछ एक ही लाइब्रेरी में।
 
 ## पूर्वापेक्षाएँ
-
 - Java 8 या नया संस्करण स्थापित हो।  
 - Aspose.PSD for Java लाइब्रेरी (Aspose वेबसाइट से डाउनलोड करें)।  
-- उत्पादन उपयोग के लिए एक वैध Aspose.PSD लाइसेंस।  
+- उत्पादन उपयोग के लिए वैध Aspose.PSD लाइसेंस।
 
-## इमेज में कुशल फ़ॉन्ट रिप्लेसमेंट
-
+## इमेज में फ़ॉन्ट बदलने की प्रभावी विधि
 ### [Aspose.PSD for Java में फ़ॉन्ट बदलें](./replace-fonts/)
+अपने इमेज में फ़ॉन्ट‑संबंधी समस्याओं को अलविदा कहें। हमारा चरण‑दर‑चरण गाइड आपको **Java में फ़ॉन्ट कैसे बदलें** को प्रभावी ढंग से दिखाएगा, जिससे आप **इमेज में फ़ॉन्ट बदलना** सहजता से कर सकें।
 
-Say goodbye to font‑related hassles in your images. Our step‑by‑step guide will show you **how to replace fonts java** efficiently, ensuring a seamless visual experience when you need to **replace fonts in images**.
-
-## फ़ॉन्ट कैश के साथ इमेज प्रोसेसिंग को ऑप्टिमाइज़ करें
-
-### [Aspose.PSD for Java के साथ फ़ॉन्ट कैश फोर्स करें](./force-font-cache/)
-
-Discover the art of optimizing image processing by forcing font cache with Aspose.PSD for Java. Enhance performance effortlessly with our comprehensive guide.
+## फ़ॉन्ट कैश के साथ इमेज प्रोसेसिंग को अनुकूलित करें
+### [Aspose.PSD for Java में फ़ॉन्ट कैश फ़ोर्स करें](./force-font-cache/)
+फ़ॉन्ट कैश को फ़ोर्स करके इमेज प्रोसेसिंग को अनुकूलित करने की कला खोजें। हमारे व्यापक गाइड के साथ प्रदर्शन को आसानी से बढ़ाएँ।
 
 ## बाइकोबिक रिसैम्पलर के साथ श्रेष्ठ इमेज रिसाइज़िंग
-
 ### [Aspose.PSD for Java में बाइकोबिक रिसैम्पलर लागू करें](./implement-bicubic-resampler/)
-
-Take your Java image resizing to the next level with Aspose.PSD's Bicubic Resampler. Follow our guide for superior results and unlock a new standard in image quality.
+Aspose.PSD के बाइकोबिक रिसैम्पलर के साथ अपने Java इमेज रिसाइज़िंग को अगले स्तर पर ले जाएँ। श्रेष्ठ परिणामों के लिए हमारा गाइड फॉलो करें और इमेज क्वालिटी में नया मानक स्थापित करें।
 
 ## लॉसी GIF कॉम्प्रेसर के साथ वेब इमेज ऑप्टिमाइज़ेशन
-
 ### [Aspose.PSD for Java में लॉसी GIF कॉम्प्रेसर लागू करें](./implement-lossy-gif-compressor/)
+Aspose.PSD for Java के लॉसी GIF कॉम्प्रेसर का उपयोग करके अपने वेब इमेज को सहजता से ऑप्टिमाइज़ करें। हमारा चरण‑दर‑चरण गाइड शानदार विज़ुअल्स के लिए कुशल इम्प्लीमेंटेशन सुनिश्चित करता है।
 
-Optimize your web images seamlessly using Aspose.PSD for Java's Lossy GIF Compressor. Our step‑by‑step guide ensures efficient implementation for stunning visuals.
-
-## सहज PSD हेरफेर के लिए इनवर्ट एडजस्टमेंट लेयर
-
+## इनवर्ट एडजस्टमेंट लेयर के साथ सहज PSD मैनिपुलेशन
 ### [Aspose.PSD for Java में इनवर्ट एडजस्टमेंट लेयर](./invert-adjustment-layer/)
-
-Dive into the power of the Invert Adjustment Layer in Aspose.PSD for Java. Unleash seamless PSD file manipulation with our comprehensive tutorial.
+Aspose.PSD for Java में इनवर्ट एडजस्टमेंट लेयर की शक्ति में डुबकी लगाएँ। हमारे व्यापक ट्यूटोरियल के साथ सहज PSD फ़ाइल मैनिपुलेशन को अनलॉक करें।
 
 ## रेंडरिंग कलर इफ़ेक्ट के साथ डायनेमिक कलर ओवरले
-
 ### [Aspose.PSD for Java में रेंडरिंग कलर इफ़ेक्ट लागू करें](./rendering-color-effect/)
+Aspose.PSD के साथ अपने Java एप्लिकेशन को डायनेमिक कलर ओवरले से समृद्ध बनाएँ। हमारा गाइड सहज इंटीग्रेशन और शानदार विज़ुअल इफ़ेक्ट्स सुनिश्चित करता है।
 
-Enhance your Java applications with dynamic color overlays using Aspose.PSD. Our guide ensures seamless integration and stunning visual effects.
-
-## रेंडरिंग ड्रॉप शैडोज़ में महारत
-
+## रेंडरिंग ड्रॉप शैडो में महारत
 ### [Aspose.PSD for Java में रेंडरिंग ड्रॉप शैडो लागू करें](./rendering-drop-shadow/)
+Aspose.PSD for Java में रेंडरिंग ड्रॉप शैडो लागू करने के चरण‑दर‑चरण गाइड का अन्वेषण करें। आसानी से अपनी इमेज प्रोसेसिंग स्किल्स को उन्नत बनाएँ।
 
-Explore the step‑by‑step guide to applying rendering drop shadows in Aspose.PSD for Java. Elevate your image processing skills effortlessly.
-
-## सहज अनुपातिक इमेज रिसाइज़िंग
-
+## अनुपातिक इमेज रिसाइज़िंग को आसान बनाएं
 ### [Aspose.PSD for Java के साथ इमेज को अनुपातिक रूप से रिसाइज़ करें](./resize-image-proportionally/)
+Aspose.PSD के साथ अपने Java एप्लिकेशन को बूस्ट करें। हमारा गाइड आपको **Java में इमेज को अनुपातिक रूप से रिसाइज़ कैसे करें** सहजता से दिखाता है।
 
-Boost your Java applications with Aspose.PSD. Our guide takes you through the process of **resize image proportionally java** effortlessly.
+## Resize Type Enumeration के साथ इमेज रिसाइज़िंग में महारत
+### [Aspose.PSD for Java में Resize Type Enumeration के साथ रिसाइज़िंग](./resizing-with-resize-type-enumeration/)
+Java में Aspose.PSD के साथ इमेज रिसाइज़िंग में महारत हासिल करें। Resize Type Enumeration का उपयोग करके हमारा चरण‑दर‑चरण गाइड सटीकता और दक्षता सुनिश्चित करता है।
 
-## रीसाइज़ टाइप एनेमरेशन के साथ इमेज रिसाइज़िंग में महारत
+## Java में सहज इमेज घुमाव
+### [Aspose.PSD for Java में इमेज घुमाएँ](./rotate-image/)
+Aspose.PSD के साथ Java में इमेज घुमाव को आसानी से एक्सप्लोर करें। हमारे उपयोग‑मैत्री ट्यूटोरियल के साथ PSD फ़ाइलों को घुमाएँ, फ़्लिप करें और सेव करें।
 
-### [Aspose.PSD for Java में रीसाइज़ टाइप एनेमरेशन के साथ रिसाइज़िंग](./resizing-with-resize-type-enumeration/)
+## विशिष्ट कोणों के साथ इमेज घुमाव में सटीकता
+### [Aspose.PSD for Java में विशिष्ट कोण पर इमेज घुमाएँ](./rotate-image-specific-angle/)
+Aspose.PSD for Java के साथ Java में इमेज घुमाव में गहराई से प्रवेश करें। हमारे विस्तृत ट्यूटोरियल के साथ **विशिष्ट कोण पर इमेज घुमाएँ** को आसानी से लागू करें।
 
-Master image resizing in Java with Aspose.PSD. Our step‑by‑step guide using Resize Type Enumeration ensures precision and efficiency.
+### इमेज में फ़ॉन्ट कैसे बदलें
+यदि आपको **फ़ॉन्ट कैसे बदलें** जल्दी चाहिए, तो ऊपर दिया गया “फ़ॉन्ट बदलें” ट्यूटोरियल सटीक API कॉल्स दिखाता है। यह दृष्टिकोण आपको मैन्युअल PSD एडिट से बचाता है और लेयर्स में टाइपोग्राफी को सुसंगत बनाता है।
 
-## जावा में सहज इमेज रोटेशन
+### Java में इमेज को अनुपातिक रूप से रिसाइज़ करें
+अनुपातिक रिसाइज़िंग मूल आस्पेक्ट रेशियो को बरकरार रखती है, जिससे विकृति नहीं होती। “इमेज को अनुपातिक रूप से रिसाइज़ करें” गाइड Aspose.PSD के साथ इसे एक‑लाइन मेथड से हासिल करने का तरीका दर्शाता है।
 
-### [Aspose.PSD for Java में इमेज रोटेट करें](./rotate-image/)
+### Java में ड्रॉप शैडो कैसे लागू करें
+ड्रॉप शैडो ग्राफ़िक्स में गहराई जोड़ते हैं। “रेंडरिंग ड्रॉप शैडो लागू करें” ट्यूटोरियल को फॉलो करके आवश्यक इफ़ेक्ट क्लास और पैरामीटर सीखें और प्रोफ़ेशनल लुक प्राप्त करें।
 
-Explore image rotation in Java effortlessly with Aspose.PSD. Rotate, flip, and save PSD files easily with our user‑friendly tutorial.
+### Java में विशिष्ट कोण पर इमेज घुमाएँ
+जब डिज़ाइन को गैर‑मानक घुमाव चाहिए, तो “विशिष्ट कोण पर इमेज घुमाएँ” गाइड आपको `rotate(double)` मेथड में कोई भी फ़्लोटिंग‑पॉइंट एंगल पास करने की प्रक्रिया दिखाता है।
 
-## विशिष्ट कोणों के साथ इमेज रोटेशन में सटीकता
+### Aspose.PSD के साथ GIF इमेज ऑप्टिमाइज़ करें
+एनिमेटेड GIF अक्सर वेब परफॉर्मेंस के लिए आकार घटाने की आवश्यकता रखते हैं। “लॉसी GIF कॉम्प्रेसर लागू करें” ट्यूटोरियल बताता है कि कैसे GIF को कॉम्प्रेस करें जबकि विज़ुअल फ़िडेलिटी बरकरार रहे।
 
-### [Aspose.PSD for Java के साथ विशिष्ट कोण पर इमेज रोटेट करें](./rotate-image-specific-angle/)
-
-Delve into image rotation in Java with Aspose.PSD for Java. Effortlessly rotate images on **rotate image specific angle** using our detailed tutorial.
-
-Unlock the full potential of image manipulation in Java with Aspose.PSD. Our tutorials provide a comprehensive guide to harnessing the power of this versatile library, ensuring your projects stand out with superior image processing capabilities. Dive in and elevate your Java development skills today!
-
-## उन्नत इमेज हेरफेर ट्यूटोरियल्स
-
+## उन्नत इमेज मैनिपुलेशन ट्यूटोरियल्स
 ### [Aspose.PSD for Java में फ़ॉन्ट बदलें](./replace-fonts/)
+Aspose.PSD for Java का उपयोग करके इमेज में फ़ॉन्ट कैसे बदलें सीखें। प्रभावी फ़ॉन्ट मैनिपुलेशन के लिए हमारा चरण‑दर‑चरण गाइड फॉलो करें।
 
-Learn how to replace fonts in images using Aspose.PSD for Java. Follow our step‑by‑step guide for efficient font manipulation.
-
-### [Aspose.PSD for Java के साथ फ़ॉन्ट कैश फोर्स करें](./force-font-cache/)
-
-Learn how to force font cache using Aspose.PSD for Java. Optimize image processing and enhance performance with this step‑by‑step guide.
+### [Aspose.PSD for Java में फ़ॉन्ट कैश फ़ोर्स करें](./force-font-cache/)
+Aspose.PSD for Java का उपयोग करके फ़ॉन्ट कैश को फ़ोर्स करना सीखें। इस चरण‑दर‑चरण गाइड के साथ इमेज प्रोसेसिंग को ऑप्टिमाइज़ करें और प्रदर्शन बढ़ाएँ।
 
 ### [Aspose.PSD for Java में बाइकोबिक रिसैम्पलर लागू करें](./implement-bicubic-resampler/)
-
-Enhance Java image resizing with Aspose.PSD for Java Bicubic Resampler. Follow our step‑by‑step guide for superior results.
+Aspose.PSD for Java बाइकोबिक रिसैम्पलर के साथ Java इमेज रिसाइज़िंग को उन्नत बनाएँ। श्रेष्ठ परिणामों के लिए हमारा चरण‑दर‑चरण गाइड फॉलो करें।
 
 ### [Aspose.PSD for Java में लॉसी GIF कॉम्प्रेसर लागू करें](./implement-lossy-gif-compressor/)
-
-Optimize your web images seamlessly with Aspose.PSD for Java's Lossy GIF Compressor. Follow our step‑by‑step guide for efficient implementation. 
+Aspose.PSD for Java के लॉसी GIF कॉम्प्रेसर के साथ अपने वेब इमेज को सहजता से ऑप्टिमाइज़ करें। कुशल इम्प्लीमेंटेशन के लिए हमारा चरण‑दर‑चरण गाइड फॉलो करें।
 
 ### [Aspose.PSD for Java में इनवर्ट एडजस्टमेंट लेयर](./invert-adjustment-layer/)
-
-Explore the Invert Adjustment Layer in Aspose.PSD for Java. A powerful Java library for seamless PSD file manipulation.
+Aspose.PSD for Java में इनवर्ट एडजस्टमेंट लेयर का अन्वेषण करें। सहज PSD फ़ाइल मैनिपुलेशन के लिए एक शक्तिशाली Java लाइब्रेरी।
 
 ### [Aspose.PSD for Java में रेंडरिंग कलर इफ़ेक्ट लागू करें](./rendering-color-effect/)
-
-Enhance your Java applications with dynamic color overlays using Aspose.PSD. Follow our step‑by‑step guide for seamless integration and stunning visual effects.
+Aspose.PSD का उपयोग करके अपने Java एप्लिकेशन को डायनेमिक कलर ओवरले से समृद्ध बनाएँ। सहज इंटीग्रेशन और शानदार विज़ुअल इफ़ेक्ट्स के लिए हमारा चरण‑दर‑चरण गाइड फॉलो करें।
 
 ### [Aspose.PSD for Java में रेंडरिंग ड्रॉप शैडो लागू करें](./rendering-drop-shadow/)
-
-Explore the step‑by‑step guide to applying rendering drop shadows in Aspose.PSD for Java, enhancing your image processing skills effortlessly.
+Aspose.PSD for Java में रेंडरिंग ड्रॉप शैडो लागू करने के चरण‑दर‑चरण गाइड का अन्वेषण करें, जिससे आपकी इमेज प्रोसेसिंग स्किल्स आसानी से उन्नत हों।
 
 ### [Aspose.PSD for Java के साथ इमेज को अनुपातिक रूप से रिसाइज़ करें](./resize-image-proportionally/)
+Aspose.PSD के साथ अपने Java एप्लिकेशन को बूस्ट करें। हमारा गाइड आपको **Java में इमेज को अनुपातिक रूप से रिसाइज़ कैसे करें** सहजता से दिखाता है। आज ही अपनी इमेज हैंडलिंग क्षमताओं को बढ़ाएँ।
 
-Enhance your Java applications with Aspose.PSD. Follow our guide to **resize image proportionally java** effortlessly. Boost your image handling capabilities today.
+### [Aspose.PSD for Java में Resize Type Enumeration के साथ रिसाइज़िंग](./resizing-with-resize-type-enumeration/)
+Java में Aspose.PSD के साथ इमेज रिसाइज़िंग में महारत हासिल करें। Resize Type Enumeration का उपयोग करके हमारा चरण‑दर‑चरण गाइड।
 
-### [Aspose.PSD for Java में रीसाइज़ टाइप एनेमरेशन के साथ रिसाइज़िंग](./resizing-with-resize-type-enumeration/)
+### [Aspose.PSD for Java में इमेज घुमाएँ](./rotate-image/)
+Aspose.PSD के साथ Java में इमेज घुमाव को आसानी से एक्सप्लोर करें। PSD फ़ाइलों को घुमाएँ, फ़्लिप करें और आसानी से सेव करें।
 
-Master image resizing in Java with Aspose.PSD. Step‑by‑step guide using Resize Type Enumeration. 
-
-### [Aspose.PSD for Java में इमेज रोटेट करें](./rotate-image/)
-
-Explore image rotation in Java effortlessly with Aspose.PSD. Rotate, flip, and save PSD files easily.
-
-### [Aspose.PSD for Java के साथ विशिष्ट कोण पर इमेज रोटेट करें](./rotate-image-specific-angle/)
-
-Explore image rotation in Java with Aspose.PSD for Java. Rotate images effortlessly on **rotate image specific angle**.
+### [Aspose.PSD for Java में विशिष्ट कोण पर इमेज घुमाएँ](./rotate-image-specific-angle/)
+Aspose.PSD for Java के साथ Java में इमेज घुमाव को गहराई से समझें। हमारे विस्तृत ट्यूटोरियल के साथ **विशिष्ट कोण पर इमेज घुमाएँ** को आसानी से लागू करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q:** क्या मैं लेयर जानकारी खोए बिना एक PSD इमेज को रोटेट कर सकता हूँ?  
-**A:** हाँ। Aspose.PSD लेयर स्तर पर इमेज को रोटेट करता है, सभी एडजस्टमेंट लेयर्स, मास्क, और इफ़ेक्ट्स को संरक्षित रखता है।
+**प्रश्न: क्या मैं PSD इमेज को लेयर जानकारी खोए बिना घुमा सकता हूँ?**  
+उत्तर: हाँ। Aspose.PSD लेयर स्तर पर इमेज को घुमाता है, सभी एडजस्टमेंट लेयर्स, मास्क और इफ़ेक्ट्स को संरक्षित रखता है।
 
-**Q:** मैं 90° के गैर‑गुणज वाले कोण पर इमेज को कैसे रोटेट करूँ?  
-**A:** `rotate(double angle)` मेथड का उपयोग करें, जो किसी भी फ्लोटिंग‑पॉइंट कोण (जैसे 45.0) को स्वीकार करता है, जिससे स्मूथ रोटेशन होता है।
+**प्रश्न: मैं 90° के गुणज नहीं होने वाले कोण पर इमेज कैसे घुमा सकता हूँ?**  
+उत्तर: `rotate(double angle)` मेथड का उपयोग करें, जो किसी भी फ़्लोटिंग‑पॉइंट कोण (जैसे 45.0) को स्वीकार करता है।
 
-**Q:** बड़े PSD फ़ाइलों को रोटेट करने पर प्रदर्शन पर कोई प्रभाव पड़ता है?  
-**A:** न्यूनतम। फ़ॉन्ट कैश को सक्षम करना (“Force Font Cache” ट्यूटोरियल देखें) और नवीनतम लाइब्रेरी संस्करण का उपयोग करना मेमोरी ओवरहेड को कम करता है।
+**प्रश्न: बड़े PSD फ़ाइलों को घुमाते समय प्रदर्शन पर कोई असर पड़ता है क्या?**  
+उत्तर: न्यूनतम। फ़ॉन्ट कैश को सक्षम करके (देखें “फ़ॉन्ट कैश फ़ोर्स करें” ट्यूटोरियल) और नवीनतम लाइब्रेरी संस्करण का उपयोग करके मेमोरी ओवरहेड कम किया जा सकता है।
 
-**Q:** फ़ॉन्ट रिप्लेसमेंट के लिए मुझे अलग लाइब्रेरी चाहिए?  
-**A:** नहीं। Aspose.PSD में फ़ॉन्ट बदलने के लिए बिल्ट‑इन API शामिल हैं, जिससे अतिरिक्त निर्भरताओं के बिना **how to replace fonts java** को लागू करना सरल हो जाता है।
+**प्रश्न: फ़ॉन्ट बदलने के लिए मुझे अलग लाइब्रेरी चाहिए क्या?**  
+उत्तर: नहीं। Aspose.PSD में बिल्ट‑इन API शामिल हैं जो **Java में फ़ॉन्ट कैसे बदलें** को अतिरिक्त निर्भरताओं के बिना सरल बनाते हैं।
 
-**Q:** कौन से जावा संस्करण आधिकारिक रूप से समर्थित हैं?  
-**A:** Aspose.PSD for Java जावा 8, 11, 17, और नए LTS रिलीज़ को सपोर्ट करता है।
+**प्रश्न: कौन से Java संस्करण आधिकारिक रूप से समर्थित हैं?**  
+उत्तर: Aspose.PSD for Java Java 8, 11, 17 और नवीनतम LTS रिलीज़ को समर्थन देता है।
 
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose
+---
+
+**अंतिम अपडेट:** 2026-02-14  
+**टेस्टेड विद:** Aspose.PSD for Java 24.12 (लेखन के समय नवीनतम)  
+**लेखक:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

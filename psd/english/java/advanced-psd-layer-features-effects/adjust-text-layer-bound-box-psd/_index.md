@@ -1,9 +1,9 @@
 ---
-title: How to Edit PSD - Adjust Text Layer Bound Box in Java
+title: "aspose psd java: Adjust Text Layer Bound Box in PSD"
 linktitle: Adjust Text Layer Bound Box in PSD using Java
 second_title: Aspose.PSD Java API
-description: Learn how to edit PSD files by adjusting a Photoshop text layer bound box using Aspose.PSD for Java. Includes step-by-step guide.
-date: 2025-12-12
+description: "Learn how to use aspose psd java to retrieve text bound box and adjust text bound box in a PSD file. Step-by-step guide with Java code."
+date: 2026-02-14
 weight: 25
 url: /java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 ---
@@ -15,7 +15,7 @@ url: /java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 # How to Edit PSD: Adjust Text Layer Bound Box in Java
 
 ## Introduction
-If you’re wondering **how to edit PSD** files programmatically—especially when you need to **edit Photoshop text layer** properties—the Aspose.PSD library for Java shines bright. This tutorial walks you through the exact steps to **adjust text bound box** and **retrieve text bound box** information using Java. Whether you’re a seasoned developer or just getting started with Java, you’ll find clear, conversational guidance that makes PSD manipulation feel simple and approachable. Let’s dive in!
+If you’re wondering **how to edit PSD** files programmatically—especially when you need to **edit Photoshop text layer** properties—the Aspose.PSD library for Java shines bright. This tutorial walks you through the exact steps to **adjust text bound box** and **retrieve text bound box** information using **aspose psd java**. Whether you’re a seasoned developer or just getting started with Java, you’ll find clear, conversational guidance that makes PSD manipulation feel simple and approachable. Let’s dive in!
 
 ## Quick Answers
 - **What library helps edit PSD files in Java?** Aspose.PSD for Java.  
@@ -104,6 +104,12 @@ Assert.areEqual(correctBoundBox, boundBox);
 
 You can compare this size to your expected dimensions or use it to calculate further adjustments.
 
+## How to retrieve text bound box using aspose psd java
+When you need the exact dimensions of a text layer, `getTextBoundBox()` returns a `Size` object that represents the bounding rectangle. This method is essential for scenarios where you must align other design elements or ensure the text fits within a predefined area.
+
+## How to adjust text bound box with aspose psd java
+If the retrieved bound box doesn’t match your design requirements, you can modify the layer’s size using `setSize()` (not shown here) or apply scaling transformations before rasterizing the layer. Adjusting the bound box ensures that the visual layout remains consistent across different output formats.
+
 ## Common Use Cases
 - **Dynamic thumbnail generation** – adjust text bounds before rasterizing a preview.  
 - **Automated branding** – programmatically replace logo text and ensure it fits within design constraints.  
@@ -115,11 +121,11 @@ You can compare this size to your expected dimensions or use it to calculate fur
 - **Unexpected sizes** – DPI settings can affect size calculations; verify the PSD’s resolution if numbers look off.
 
 ## Conclusion
-You’ve now learned **how to edit PSD** files by retrieving and adjusting a text layer’s bound box using Aspose.PSD for Java. With just a few lines of code you can load a PSD, target a specific layer, verify its dimensions, and ensure the text fits perfectly. For deeper exploration—such as modifying text content, applying effects, or exporting to other formats—check out the full Aspose.PSD documentation [here](https://reference.aspose.com/psd/java/).
+You’ve now learned **how to edit PSD** files by retrieving and adjusting a text layer’s bound box using **aspose psd java**. With just a few lines of code you can load a PSD, target a specific layer, verify its dimensions, and ensure the text fits perfectly. For deeper exploration—such as modifying text content, applying effects, or exporting to other formats—check out the full Aspose.PSD documentation [here](https://reference.aspose.com/psd/java/).
 
 ## Frequently Asked Questions
 ### What is Aspose.PSD?
-Aspose.PSD is a powerful library for manipulating Adobe Photoshop files programmatically, allowing developers to create, edit, and convert PSD documents.
+Aspose.PSD is a powerful library for manipulating Adobe Photoshop files programmatically, allowing developers to create, edit, and convert PSD documents. It also supports **batch process psd files**, making it ideal for large‑scale automation.
 
 ### Do I need Photoshop installed to use Aspose.PSD?
 No, Aspose.PSD operates independently of Adobe Photoshop, allowing you to manipulate PSD files without needing the software installed.
@@ -135,8 +141,8 @@ Yes! You can download a free trial version from the [Aspose website](https://rel
 
 ---
 
-**Last Updated:** 2025-12-12  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.PSD for Java (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
