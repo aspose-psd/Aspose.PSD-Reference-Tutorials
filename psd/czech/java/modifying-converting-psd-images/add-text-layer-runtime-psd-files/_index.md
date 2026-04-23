@@ -1,58 +1,93 @@
 ---
-title: Přidejte textovou vrstvu do běhového prostředí v souborech PSD pomocí Java
-linktitle: Přidejte textovou vrstvu do běhového prostředí v souborech PSD pomocí Java
+date: 2026-03-07
+description: Naučte se, jak během běhu přidávat text do souborů PSD pomocí Javy a
+  Aspose.PSD. Postupujte podle tohoto krok‑za‑krokem průvodce a rychle vytvořte textovou
+  vrstvu v PSD.
+linktitle: Add Text Layer on Runtime in PSD Files using Java
 second_title: Aspose.PSD Java API
-description: Naučte se, jak dynamicky přidávat textové vrstvy do souborů PSD pomocí Java s Aspose.PSD. Následujte tento podrobný tutoriál pro vzrušující možnosti automatizace.
-weight: 17
+title: Přidat text do souborů PSD za běhu pomocí Javy
 url: /cs/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte textovou vrstvu do běhového prostředí v souborech PSD pomocí Java
+# Přidání textu do souborů PSD za běhu pomocí Javy
 
-## Zavedení
-Pokud jste někdy pracovali s Photoshopem, víte, jak silný je pro úpravy obrázků. Ale co kdybych vám řekl, že některé z těchto úkolů můžete automatizovat pomocí Javy? Představte si, že do souborů PSD programově dynamicky přidáváte textové vrstvy. Docela cool, že? V tomto tutoriálu se ponoříme hluboko do toho, jak přidat textovou vrstvu do souboru PSD za běhu pomocí knihovny Aspose.PSD pro Javu. Takže si vyhrňte rukávy a pusťte se do toho!
+## Úvod
+Pokud jste někdy ručně upravovali dokument Photoshopu, víte, jak mocné vrstvy mohou být. Co kdybyste mohli **přidávat text do PSD** souborů automaticky z vaší Java aplikace? S knihovnou Aspose.PSD pro Java můžete za běhu vytvořit textovou vrstvu v PSD, čímž otevřete dveře k dávkové zpracování, dynamické tvorbě grafiky a automatizovaným workflow značkování. V tomto tutoriálu projdeme celý proces, od nastavení projektu až po uložení aktualizovaného souboru.
+
+## Rychlé odpovědi
+- **Jaká knihovna je potřeba?** Aspose.PSD pro Java.  
+- **Mohu přidat text do existujícího PSD?** Ano – stačí načíst soubor, přidat `TextLayer` a uložit.  
+- **Potřebuji licenci pro produkci?** Komerční licence je vyžadována pro ne‑evaluační použití.  
+- **Která verze Javy je podporována?** JDK 8 nebo vyšší (doporučujeme nejnovější LTS).  
+- **Je to vhodné pro webové back‑endy?** Rozhodně – API funguje v jakémkoli Java‑založeném serverovém prostředí.
+
+## Co znamená „přidat text do PSD“?
+Přidání textu do PSD znamená programově vytvořit novou textovou vrstvu uvnitř dokumentu Photoshopu. Vrstva se chová jako jakákoli jiná textová vrstva ve Photoshopu: můžete ji přesouvat, upravovat její obsah a aplikovat stylování – vše bez otevření Photoshopu.
+
+## Proč vytvořit textovou vrstvu v PSD pomocí Javy?
+- **Automatizace** – Generujte marketingové materiály, vodoznaky nebo štítky produktů hromadně.  
+- **Konzistence** – Zajistěte stejný font, velikost a umístění napříč tisíci soubory.  
+- **Integrace** – Kombinujte s dalšími Java službami (e‑commerce, reporting, CI pipeline) a poskytujte grafiku za běhu.
+
 ## Předpoklady
-Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je to, co budete potřebovat:
-1.  Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovaný JDK. Můžete[stáhněte si jej zde](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.PSD for Java Package: Budete si muset stáhnout a integrovat knihovnu Aspose.PSD do svého projektu. Můžete to vzít z[Aspose stránku vydání](https://releases.aspose.com/psd/java/).
-3. Integrované vývojové prostředí (IDE): I když můžete použít jakýkoli textový editor, IDE jako IntelliJ IDEA nebo Eclipse vám výrazně usnadní život tím, že poskytne nástroje pro správu vašeho projektu.
-4. Základní znalosti jazyka Java: Pro bezproblémové procházení tímto návodem je nutné porozumět základním konceptům jazyka Java.
-5.  Soubor PSD: Připravte si základní soubor PSD, se kterým si můžete hrát. Použijeme jeden pojmenovaný`OneLayer.psd` jako náš výchozí bod.
-## Importujte balíčky
-Jakmile budete mít vše, prvním krokem v našem procesu je import potřebných balíčků do vašeho souboru Java. Zde je to, co budete muset zahrnout:
+Před psaním kódu se ujistěte, že máte:
+
+1. **Java Development Kit (JDK)** – Nainstalujte JDK 8 nebo novější. Můžete si jej [stáhnout zde](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD pro Java** – Stáhněte nejnovější JAR ze [stránky vydání Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE (volitelné, ale užitečné)** – IntelliJ IDEA, Eclipse nebo jakýkoli editor dle vaší preference.  
+4. **Základní znalost Javy** – Měli byste být obeznámeni s třídami, objekty a souborovým I/O.  
+5. **Ukázkový PSD** – Pro tento návod použijeme `OneLayer.psd` umístěný ve složce dle vašeho výběru.
+
+## Import balíčků
+Nejprve importujte třídy, které budete potřebovat pro práci se soubory PSD a textovými vrstvami.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
-Tyto importy přinášejí všechny klíčové třídy, které potřebujete k manipulaci se soubory PSD pomocí knihovny Aspose.PSD.
-Dobře, pojďme se pustit do hrubky přidání textové vrstvy do vašeho souboru PSD. Rozdělíme to do zvládnutelných kroků, abyste zajistili, že každý z nich důkladně pochopíte.
-## Krok 1: Nastavte adresář dokumentů
-Nejprve musíte nastavit svůj pracovní prostor, kde budou umístěny soubory Adobe Photoshop Document (PSD). Pomocí jednoduchého řetězce definujte, kde se váš soubor PSD nachází.
+
+Tyto importy vám poskytují přístup k základní funkčnosti Aspose.PSD.
+
+## Postupný průvodce
+
+### Krok 1: Nastavte adresář dokumentů
+Definujte složku, která obsahuje váš zdrojový PSD a kam bude uloženo výstupní soubor.
+
 ```java
 String dataDir = "Your Document Directory"; 
 ```
- Tady vyměníš`"Your Document Directory"` se skutečnou cestou, kde jsou uloženy vaše soubory PSD.
-## Krok 2: Načtěte zdrojový soubor PSD
-Dále musíte do aplikace načíst soubor PSD. Tady začíná kouzlo. Použijte`Image.load()` způsob, jak uvést soubor do hry.
+
+Nahraďte `"Your Document Directory"` absolutní nebo relativní cestou k vašim souborům.
+
+### Krok 2: Načtěte zdrojový soubor PSD
+Načtěte existující PSD do paměti pomocí `Image.load()`.
+
 ```java
 String sourceFileName = dataDir + "OneLayer.psd"; 
 Image img = Image.load(sourceFileName);
 ```
- Tento fragment kódu načte váš`OneLayer.psd` soubor do`img` objekt. Pokud je cesta správná, budete mít své PSD načtené a připravené k manipulaci.
-## Krok 3: Odeslání do PsdImage
- Jakmile je váš obrázek načten, musíte jej odeslat`PsdImage` protože se zabýváme konkrétně soubory Photoshopu.
+
+Pokud je cesta správná, `img` nyní představuje načtený Photoshop dokument.
+
+### Krok 3: Přetypujte na `PsdImage`
+Protože pracujeme s funkcemi specifickými pro Photoshop, přetypujte obecný `Image` na `PsdImage`.
+
 ```java
 PsdImage im = (PsdImage)img;
 ```
-Castingem získáte přístup ke všem metodám specifickým pro manipulaci s PSD, které budete v tomto tutoriálu potřebovat.
-## Krok 4: Definujte obdélník pro textovou vrstvu
-Nyní je čas určit, kde se má textová vrstva zobrazit. Definujete obdélník, který nastavuje polohu a velikost textu.
+
+Přetypování odemyká metody jako `addTextLayer()`.
+
+### Krok 4: Definujte obdélník pro textovou vrstvu
+Určete, kde se má nově vytvořený text objevit. Obdélník definuje pozici (x, y) a velikost (šířka, výška).
+
 ```java
 Rectangle rect = new Rectangle(
     (int)(im.getWidth() * 0.25),
@@ -61,37 +96,64 @@ Rectangle rect = new Rectangle(
     (int)(im.getHeight() * 0.5)
 );
 ```
-V tomto příkladu je obdélník nastaven tak, aby zabíral polovinu šířky a polovinu výšky obrazu a je umístěn ve čtvrtině dolů a napříč. Neváhejte a upravte tyto hodnoty, abyste umístili text přesně tam, kam chcete!
-## Krok 5: Přidejte textovou vrstvu
- Nyní k kousku odporu – přidejte svůj text! Použijte`addTextLayer()` způsob, jak oživit požadovaný text v určeném obdélníku.
+
+Neváhejte upravit výpočty podle potřeb vašeho rozvržení.
+
+### Krok 5: Přidejte textovou vrstvu
+Vytvořte skutečnou textovou vrstvu uvnitř definovaného obdélníku.
+
 ```java
 TextLayer layer = im.addTextLayer("Added text", rect);
 ```
-V tomto případě jednoduše přidáváme textovou vrstvu s nápisem „Přidaný text“. Můžete to nahradit libovolným řetězcem, který se vám líbí.
-## Krok 6: Uložte aktualizovaný soubor PSD
-Posledním krokem je uložení změn zpět do nového souboru PSD. Postupujte takto:
+
+Nahraďte `"Added text"` libovolným řetězcem, který chcete zobrazit v PSD. Zde **programově vytváříme textovou vrstvu v PSD**.
+
+### Krok 6: Uložte aktualizovaný soubor PSD
+Zapište upravený dokument do nového souboru, abyste nepřepsali originál.
+
 ```java
 String psdPath = dataDir + "ImageWithTextLayer.psd";
 im.save(psdPath);
 ```
- Nezapomeňte zadat nový název souboru, abyste nepřepsali svůj původní soubor PSD. Nyní, když zkontrolujete zadaný adresář, měli byste vidět`ImageWithTextLayer.psd` s nově přidaným textem!
+
+Po spuštění najdete `ImageWithTextLayer.psd` v cílové složce, nyní obsahující novou textovou vrstvu.
+
+## Časté problémy a řešení
+| Problém | Příčina | Řešení |
+|---------|----------|--------|
+| **`NullPointerException` on `im.addTextLayer`** | PSD nebyl načten správně (špatná cesta). | Ověřte, že `sourceFileName` ukazuje na existující PSD. |
+| **Text není viditelný** | Obdélník je umístěn mimo plátno nebo je vrstva skrytá. | Upravte souřadnice obdélníku nebo zkontrolujte viditelnost vrstvy pomocí `layer.setVisible(true)`. |
+| **LicenseException** | Používání knihovny bez platné licence v produkci. | Získejte komerční licenci a nastavte ji pomocí `License license = new License(); license.setLicense("Aspose.PSD.lic");`. |
+
+## Často kladené otázky
+
+**Q: Mohu přidat více textových vrstev?**  
+A: Ano – stačí opakovat kroky 4 a 5 pro každý text, který chcete vložit.
+
+**Q: Jak mohu stylovat text (font, velikost, barvu)?**  
+A: Třída `TextLayer` poskytuje metodu `getTextData()`, kde můžete měnit `Font`, `FontSize`, `Color` a další vlastnosti stylu. Pro podrobnosti se podívejte do dokumentace API Aspose.PSD.
+
+**Q: Co když moje PSD už má mnoho vrstev?**  
+A: Aspose.PSD pracuje s komplexními strukturami vrstev. Můžete cílit na konkrétní skupiny nebo vložit novou textovou vrstvu na požadovaný index pomocí přetížených metod `addTextLayer`.
+
+**Q: Je tento přístup vhodný pro webové aplikace?**  
+A: Rozhodně. Pokud váš server běží na Javě, můžete PSD soubory generovat nebo upravovat za běhu a poskytovat je klientům.
+
+**Q: Kde mohu získat pomoc, pokud narazím na problémy?**  
+A: Navštivte [fóra podpory Aspose](https://forum.aspose.com/c/psd/34), kde vám mohou pomoci jak komunita, tak inženýři Aspose.
+
 ## Závěr
-A to je zábal! Právě jste se naučili, jak dynamicky přidávat textové vrstvy do souborů PSD pomocí Java s knihovnou Aspose.PSD. Je to změna hry pro každého vývojáře, který chce integrovat možnosti Photoshopu do svých aplikací. Ať už pracujete na projektovém manažerovi pro designéry nebo automatizujete grafické úkoly, tato technika vám může ušetřit spoustu času.
-Máte chuť prozkoumat více? Nezapomeňte se podívat na dokumentaci Aspose.PSD for Java, kde najdete další funkce a pokročilé funkce.
-## FAQ
-### Mohu přidat více textových vrstev?
-Absolutně! Opakujte kroky 4 a 5 pro každou textovou vrstvu, kterou chcete přidat.
-### Co když má můj soubor PSD více vrstev?
-Aspose.PSD zvládne složité vrstvené soubory PSD. Jen se ujistěte, že při manipulaci s nimi odkazujete na správné vrstvy.
-### Existuje způsob, jak stylizovat text?
- Ano! Můžete prozkoumat možnosti`TextLayer` třídy změnit velikost písma, barvu a další pomocí ponoření se do dokumentace Aspose.PSD.
-### Mohu to použít ve webových aplikacích?
-Ano, pokud máte backend Java, můžete tento přístup využít ve webových aplikacích.
-### Kde mohu získat podporu, pokud narazím na problémy?
- Podívejte se na[Aspose fóra podpory](https://forum.aspose.com/c/psd/34) kde vám komunita a tým Aspose mohou pomoci.
+Nyní jste viděli, jak snadné je **přidávat text do PSD** souborů za běhu pomocí Javy a Aspose.PSD. Tato technika vám umožní automatizovat tvorbu grafiky, personalizovat aktiva a integrovat úpravy na úrovni Photoshopu do jakéhokoli Java‑založeného řešení. Prozkoumejte další možnosti API Aspose.PSD, jako je přidávání tvarů, rastrových vrstev nebo aplikace filtrů pro ještě bohatší automatizaci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-03-07  
+**Testováno s:** Aspose.PSD for Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose

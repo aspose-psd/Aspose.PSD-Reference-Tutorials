@@ -1,65 +1,87 @@
 ---
-title: Aggiungi il livello di regolazione del livello in PSD
-linktitle: Aggiungi il livello di regolazione del livello in PSD
-second_title: API Java Aspose.PSD
-description: Scopri come aggiungere in modo efficace un livello di regolazione del livello nei file PSD utilizzando Aspose.PSD per Java. Migliora le tue capacità di editing delle immagini.
-weight: 16
+date: 2026-03-07
+description: Impara come regolare i livelli aggiungendo un livello di regolazione
+  nei file PSD usando Aspose.PSD per Java. Padroneggia le regolazioni tonali rapidamente.
+linktitle: Add Level Adjustment Layer in PSD
+second_title: Aspose.PSD Java API
+title: Come regolare i livelli – Aggiungi livello di regolazione dei livelli in PSD
 url: /it/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi il livello di regolazione del livello in PSD
+# Aggiungere Livello di Regolazione dei Livelli in PSD
 
 ## Introduzione
-Quando si tratta di editing delle immagini, la gestione dei livelli può fare un'enorme differenza nella vivacità e nella chiarezza delle tue foto. Uno strumento utile nell'arsenale di Photoshop è il "Livello di regolazione del livello", che ti consente di modificare la gamma tonale e il bilanciamento del colore delle tue immagini. In questa guida ti spiegheremo come implementare un livello di regolazione del livello in un file PSD utilizzando Aspose.PSD per Java. Quindi, prendi il tuo IDE Java.
-## Prerequisiti
-Prima di tuffarti nel mondo delle regolazioni di livello, dovrai impostare alcune cose per garantire una guida fluida:
-1.  Java Development Kit (JDK): assicurati di avere il JDK installato sul tuo computer. Se non ce l'hai, puoi prenderlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) oppure usa OpenJDK.
-2.  Aspose.PSD per libreria Java: per manipolare i file PSD, dovrai scaricare la libreria Aspose.PSD. Puoi ottenere l'ultima versione da questo[collegamento per il download](https://releases.aspose.com/psd/java/) e assicurati di aver incluso il JAR nella libreria del tuo progetto.
-3. Conoscenza di base di Java: avere una conoscenza fondamentale della programmazione Java sarà utile, poiché in questo tutorial approfondiremo i frammenti di codice.
-4. Configurazione IDE: puoi utilizzare qualsiasi IDE Java che preferisci, come IntelliJ IDEA, Eclipse o NetBeans, per scrivere ed eseguire il tuo codice. Assicurati solo di aver impostato il tuo progetto Java e aggiunto la libreria Aspose.PSD.
+Se stai cercando **come regolare i livelli** nei tuoi documenti Photoshop, il Livello di Regolazione dei Livelli è lo strumento perfetto. Ti consente di perfezionare ombre, mezzitoni e luci senza alterare permanentemente i pixel originali. In questo tutorial vedremo come aggiungere un Livello di Regolazione dei Livelli a un file PSD usando Aspose.PSD per Java, così potrai ottenere un controllo tonale di livello professionale in pochi passaggi.
 
-## Importa pacchetti
-Prima di iniziare a scrivere il nostro codice, dobbiamo importare i pacchetti necessari dalla libreria Aspose.PSD. Ecco come puoi farlo:
+## Risposte Rapide
+- **Che cosa fa un Livello di Regolazione dei Livelli?** Modifica l'intervallo tonale di un'immagine in modo non distruttivo.  
+- **Quale libreria viene utilizzata?** Aspose.PSD per Java.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza per la produzione.  
+- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per una regolazione di base.  
+- **Posso regolare più canali?** Sì, è possibile impostare i livelli di ingresso/uscita per ciascun canale colore singolarmente.
+
+## Cos'è un Livello di Regolazione dei Livelli?
+Un Livello di Regolazione dei Livelli ti consente di correggere l'equilibrio tonale di un'immagine regolando le ombre di ingresso, i mezzitoni e le luci, così come i livelli di uscita. Poiché vive sul proprio livello, puoi attivare/disattivare la sua visibilità o eliminarlo senza influire sull'opera sottostante.
+
+## Perché aggiungere un Livello di Regolazione dei Livelli con Aspose.PSD?
+- **Automazione:** Integra le regolazioni dei livelli nei flussi di lavoro di elaborazione batch.  
+- **Cross‑platform:** Funziona su qualsiasi OS che supporta Java.  
+- **Precisione:** Accedi alle impostazioni di ciascun canale programmaticamente per risultati precisi.  
+
+## Prerequisiti
+1. Java Development Kit (JDK). Se non lo possiedi, scaricalo dal [sito Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) o usa OpenJDK.  
+2. Libreria Aspose.PSD per Java – ottieni l'ultimo JAR da questo [link di download](https://releases.aspose.com/psd/java/).  
+3. Conoscenza di base della programmazione Java.  
+4. Un IDE come IntelliJ IDEA, Eclipse o NetBeans con il JAR di Aspose.PSD aggiunto al classpath del progetto.
+
+## Importa Pacchetti
+Prima di iniziare a scrivere il codice, dobbiamo importare i pacchetti necessari dalla libreria Aspose.PSD. Ecco come fare:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-Importando questi pacchetti avremo accesso alle classi necessarie per caricare, modificare e salvare i nostri file PSD.
+Queste importazioni ci danno accesso alle classi per caricare file PSD, lavorare con i livelli di regolazione dei livelli e manipolare le impostazioni dei singoli canali.
 
-Ora suddividiamo il processo in passaggi digeribili. Segui mentre procediamo attraverso il caricamento di un file PSD, la regolazione dei livelli e il salvataggio delle modifiche. 
-## Passaggio 1: imposta i percorsi dei file
-Il primo passo è definire dove si trova il nostro file PSD e dove vogliamo salvare l'output modificato. È possibile personalizzare il percorso della directory in base alle proprie esigenze.
+## Come Regolare i Livelli in un File PSD
+Di seguito trovi una guida passo‑passo che mostra esattamente **come regolare i livelli** programmaticamente.
+
+### Passo 1: Configura i Percorsi dei File
+Definisci dove si trova il PSD di origine e dove verrà salvato il file modificato.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- Ecco, sostituisci`"Your Document Directory"`con il percorso effettivo sul tuo sistema in cui è archiviato il tuo file PSD. Questo pone le basi per tutto ciò che faremo dopo.
-## Passaggio 2: carica il file PSD
- Ora carichiamo il file PSD utilizzando il file`PsdImage` classe. Questo passaggio è essenziale in quanto ci consente di accedere e manipolare i livelli.
+Sostituisci `"Your Document Directory"` con la cartella reale sul tuo computer.
+
+### Passo 2: Carica il File PSD
+Crea un'istanza di `PsdImage` dal file di origine.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- Quando chiami`Image.load()` , leggerà il file PSD e creerà un'istanza di`PsdImage` con cui puoi lavorare.
-## Passaggio 3: scorrere i livelli
-Poiché vogliamo regolare un livello di regolazione del livello, dovremo scorrere ogni livello nel nostro file PSD. Questo ci aiuta a trovare il livello specifico che vogliamo modificare.
+Ora hai pieno accesso a tutti i livelli all'interno del PSD.
+
+### Passo 3: Itera Attraverso i Livelli
+Trova il Livello di Regolazione dei Livelli che desideri modificare.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // Ulteriori manipolazioni andranno qui...
+        // Further manipulation will go here...
     }
 }
 ```
- In questo ciclo,`instanceof LevelsLayer` controlla se il livello corrente è un livello di regolazione dei livelli. Se lo è, possiamo procedere a modificare le sue proprietà.
-## Passaggio 4: regolare le impostazioni del canale di livello
-Una volta identificato il livello corretto, possiamo modificare i suoi livelli di input e output. È qui che avviene la magia! Regola diversi parametri per vedere come influenzano l'immagine.
+Il controllo `instanceof LevelsLayer` garantisce che lavoriamo solo con i livelli di regolazione dei livelli.
+
+### Passo 4: Regola le Impostazioni del Canale di Livello
+Modifica i valori di ingresso e uscita per il canale selezionato.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +90,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Ecco cosa fa ciascun parametro:
-- Livello dei toni medi in ingresso: regola i toni medi.
-- Livello ombra input: modifica le aree più scure dell'immagine.
-- Livello evidenziazione input: altera le aree luminose dell'immagine.
-- Livello ombra di output: imposta il modo in cui appariranno le ombre scure.
-- Livello evidenziazione output: imposta la modalità di visualizzazione delle evidenziazioni luminose.
-Sentiti libero di sperimentare valori diversi!
-## Passaggio 5: salva il file PSD modificato
-Ora che abbiamo apportato le modifiche, è il momento di salvare il file PSD modificato. Questo passaggio è fondamentale per garantire che le modifiche vengano applicate e archiviate.
+- **Livello di Mezzitono di Ingresso:** Sposta l'intervallo dei mezzitoni.  
+- **Livello di Ombra di Ingresso:** Oscura o schiarisce le ombre.  
+- **Livello di Evidenziazione di Ingresso:** Controlla le parti più luminose.  
+- **Livelli di Ombra/Evidenziazione di Uscita:** Definiscono l'intervallo finale di uscita.
+
+Sentiti libero di sperimentare con valori diversi per vedere come influenzano l'immagine.
+
+### Passo 5: Salva il File PSD Modificato
+Salva le modifiche in un nuovo file.
 ```java
 im.save(psdPathAfterChange);
 ```
- Ora puoi trovare il file PSD modificato nel formato specificato`psdPathAfterChange`. 
+Troverai il PSD aggiornato nella posizione specificata in `psdPathAfterChange`.
+
+## Problemi Comuni e Soluzioni
+- **File non trovato:** Verifica che `dataDir` punti alla cartella corretta e che il PSD di origine esista.  
+- **ClassCastException:** Assicurati che il file caricato sia effettivamente un PSD; altri formati richiedono classi diverse.  
+- **Errori di licenza:** Usa una licenza valida di Aspose.PSD per le build di produzione; la versione di prova funziona per lo sviluppo.
+
 ## Conclusione
-Hai appena imparato come aggiungere un livello di regolazione del livello a un file PSD utilizzando Aspose.PSD per Java! Seguendo questa guida, puoi regolare facilmente la qualità tonale delle tue immagini, aprendo la strada a un risultato più vibrante e visivamente accattivante. Ricorda, la pratica rende perfetti, quindi sentiti libero di modificare le regolazioni ed esplorare diversi file PSD per vedere gli effetti delle tue modifiche.
-## Domande frequenti
-### Cos'è un livello di regolazione del livello?
-Un livello di regolazione del livello ti consente di correggere la gamma tonale delle tue immagini, bilanciando ombre, mezzitoni e luci.
-### Posso utilizzare Aspose.PSD senza acquistare?
-SÌ! Aspose offre una prova gratuita per testare la libreria prima dell'acquisto.
-### Dove posso trovare la documentazione per Aspose.PSD?
- Puoi trovare la documentazione[Qui](https://reference.aspose.com/psd/java/).
-### Esiste un supporto comunitario per i prodotti Aspose?
- Assolutamente! Puoi porre domande e ottenere supporto nel[Aspose forum](https://forum.aspose.com/c/psd/34).
-### Come posso ottenere una licenza temporanea per Aspose.PSD?
- Puoi richiedere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+Ora sai **come regolare i livelli** aggiungendo e configurando un Livello di Regolazione dei Livelli in un file PSD con Aspose.PSD per Java. Questa tecnica ti offre un controllo preciso sull'equilibrio tonale mantenendo il flusso di lavoro completamente automatizzato. Continua a sperimentare con valori di canale diversi ed esplora l'elaborazione batch per applicare le stesse regolazioni a più immagini.
+
+## Domande Frequenti
+
+**Q: Cos'è un Livello di Regolazione dei Livelli?**  
+A: È un livello non distruttivo che ti consente di modificare l'intervallo tonale (ombre, mezzitoni, luci) di un'immagine.
+
+**Q: Posso usare Aspose.PSD senza acquistare una licenza?**  
+A: Sì, puoi valutare la libreria con una versione di prova gratuita, ma è necessaria una licenza per l'uso commerciale.
+
+**Q: Dove posso trovare la documentazione per Aspose.PSD?**  
+A: Puoi trovare la documentazione [qui](https://reference.aspose.com/psd/java/).
+
+**Q: Esiste supporto della community per i prodotti Aspose?**  
+A: Assolutamente! Puoi porre domande e ottenere aiuto nel [forum Aspose](https://forum.aspose.com/c/psd/34).
+
+**Q: Come posso ottenere una licenza temporanea per Aspose.PSD?**  
+A: Puoi richiedere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Ultimo aggiornamento:** 2026-03-07  
+**Testato con:** Aspose.PSD ultima versione (Java)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

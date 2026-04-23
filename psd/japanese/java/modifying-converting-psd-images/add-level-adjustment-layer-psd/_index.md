@@ -1,65 +1,86 @@
 ---
-title: PSDにレベル調整レイヤーを追加する
-linktitle: PSDにレベル調整レイヤーを追加する
+date: 2026-03-07
+description: Aspose.PSD for Java を使用して PSD ファイルにレベル調整レイヤーを追加し、レベルの調整方法を学びましょう。トーンの微調整をすばやくマスターできます。
+linktitle: Add Level Adjustment Layer in PSD
 second_title: Aspose.PSD Java API
-description: Aspose.PSD for Java を使用して PSD ファイルにレベル調整レイヤーを効果的に追加する方法を学習します。画像編集スキルを向上させます。
-weight: 16
+title: レベルの調整方法 – PSDでレベル調整レイヤーを追加
 url: /ja/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSDにレベル調整レイヤーを追加する
+# PSD にレベル調整レイヤーを追加する
 
-## 導入
-画像編集では、レベルを管理すると、写真の鮮やかさと鮮明さに大きく影響します。Photoshop の便利なツールの 1 つに「レベル調整レイヤー」があります。これを使用すると、画像の色調範囲と色バランスを微調整できます。このガイドでは、Aspose.PSD for Java を使用して PSD ファイルにレベル調整レイヤーを実装する方法を説明します。それでは、Java IDE を入手してください。
+## はじめに
+Photoshop ドキュメントで **レベルの調整方法** を探しているなら、Level Adjustment Layer が最適なツールです。元のピクセルを永久に変更することなく、シャドウ、ミッドトーン、ハイライトを微調整できます。このチュートリアルでは、Aspose.PSD for Java を使用して PSD ファイルに Level Adjustment Layer を追加する手順を解説し、数ステップでプロフェッショナルなトーンコントロールを実現します。
+
+## クイック回答
+- **Level Adjustment Layer は何をしますか？** 画像のトーン範囲を非破壊的に変更します。  
+- **使用されているライブラリは？** Aspose.PSD for Java。  
+- **ライセンスは必要ですか？** 開発には無料トライアルで動作しますが、製品版ではライセンスが必要です。  
+- **実装にどれくらい時間がかかりますか？** 基本的な調整で約10〜15分です。  
+- **複数のチャンネルを調整できますか？** はい、各カラーチャンネルごとに入力/出力レベルを個別に設定できます。
+
+## Level Adjustment Layer とは？
+Level Adjustment Layer は、入力シャドウ、ミッドトーン、ハイライト、および出力レベルを調整することで画像のトーンバランスを補正できます。独立したレイヤーとして存在するため、可視性を切り替えたり削除したりしても、下のアートワークに影響を与えません。
+
+## Aspose.PSD で Level Adjustment Layer を追加する理由
+- **Automation（自動化）:** バッチ処理パイプラインにレベル調整を組み込めます。  
+- **Cross‑platform（クロスプラットフォーム）:** Java をサポートするすべての OS で動作します。  
+- **Precision（精度）:** 各チャンネルの設定にプログラムからアクセスでき、正確な結果が得られます。  
+
 ## 前提条件
-レベル調整の世界に飛び込む前に、スムーズな走行を確保するためにいくつかの設定を行う必要があります。
-1.  Java開発キット（JDK）：マシンにJDKがインストールされていることを確認してください。インストールされていない場合は、[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)または OpenJDK を使用します。
-2.  Aspose.PSD for Javaライブラリ: PSDファイルを操作するには、Aspose.PSDライブラリをダウンロードする必要があります。最新バージョンはここから入手できます。[ダウンロードリンク](https://releases.aspose.com/psd/java/)プロジェクトのライブラリに JAR が含まれていることを確認します。
-3. Java の基礎知識: このチュートリアルではコード スニペットを詳しく説明するため、Java プログラミングの基礎を理解しておくと役立ちます。
-4. IDE のセットアップ: IntelliJ IDEA、Eclipse、NetBeans など、任意の Java IDE を使用してコードを記述および実行できます。Java プロジェクトをセットアップし、Aspose.PSD ライブラリを追加したことを確認してください。
+1. Java Development Kit (JDK)。まだ持っていない場合は、[Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)からダウンロードするか、OpenJDK を使用してください。  
+2. Aspose.PSD for Java ライブラリ – 最新の JAR はこの[ダウンロードリンク](https://releases.aspose.com/psd/java/)から取得してください。  
+3. Java プログラミングの基本知識。  
+4. IntelliJ IDEA、Eclipse、NetBeans などの IDE に Aspose.PSD JAR をクラスパスに追加した環境。  
 
 ## パッケージのインポート
-コードの記述を始める前に、Aspose.PSD ライブラリから必要なパッケージをインポートする必要があります。手順は次のとおりです。
+コードを書き始める前に、Aspose.PSD ライブラリから必要なパッケージをインポートする必要があります。以下のように行います:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-これらのパッケージをインポートすることで、PSD ファイルの読み込み、変更、保存に必要なクラスにアクセスできるようになります。
+これらのインポートにより、PSD ファイルの読み込み、Level Adjustment Layer の操作、個々のチャンネル設定の操作に必要なクラスが利用可能になります。
 
-それでは、プロセスをわかりやすいステップに分解してみましょう。PSD ファイルの読み込み、レベルの調整、変更の保存の手順を順を追って説明します。 
-## ステップ1: ファイルパスを設定する
-最初のステップは、PSD ファイルの場所と、変更した出力を保存する場所を定義することです。ディレクトリ パスは、ニーズに合わせてカスタマイズできます。
+## PSD ファイルでレベルを調整する方法
+以下は、プログラムで **レベルを調整する方法** をステップバイステップで示すガイドです。
+
+### 手順 1: ファイルパスの設定
+元の PSD がある場所と、編集後のファイルを保存する場所を定義します。
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
-ここで、`"Your Document Directory"`PSD ファイルが保存されているシステム上の実際のパスを入力します。これで、次に行うすべての作業の準備が整います。
-## ステップ2: PSDファイルを読み込む
-さて、PSDファイルを読み込みましょう。`PsdImage`クラス。このステップは、レイヤーにアクセスして操作できるようにするため不可欠です。
+`"Your Document Directory"` を実際のフォルダパスに置き換えてください。
+
+### 手順 2: PSD ファイルの読み込み
+ソースファイルから `PsdImage` インスタンスを作成します。
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
-電話すると`Image.load()`PSDファイルを読み込み、インスタンスを作成します。`PsdImage`一緒に働くことができるもの。
-## ステップ3: レイヤーを反復する
-レベル調整レイヤーを調整したいので、PSD ファイル内の各レイヤーをループする必要があります。これにより、変更する特定のレイヤーを見つけることができます。
+これで PSD 内のすべてのレイヤーにフルアクセスできます。
+
+### 手順 3: レイヤーの反復処理
+変更したい Level Adjustment Layer を見つけます。
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        //さらなる操作はここで行われます...
+        // Further manipulation will go here...
     }
 }
 ```
-このループでは、`instanceof LevelsLayer`現在のレイヤーがレベル調整レイヤーであるかどうかを確認します。そうである場合は、そのプロパティの調整に進むことができます。
-## ステップ4: レベルチャンネル設定を調整する
-正しいレイヤーを特定したら、その入力レベルと出力レベルを変更できます。ここで魔法が起こります。さまざまなパラメータを調整して、画像にどのような影響を与えるかを確認します。
+`instanceof LevelsLayer` のチェックにより、レベル調整レイヤーのみを対象にしていることが保証されます。
+
+### 手順 4: レベルチャンネル設定の調整
+選択したチャンネルの入力および出力値を調整します。
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +89,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-各パラメータの機能は次のとおりです。
-- 入力中間トーンレベル: 中間トーンを調整します。
-- 入力シャドウ レベル: 画像の暗い領域を微調整します。
-- 入力ハイライト レベル: 画像の明るい領域を変更します。
-- 出力シャドウ レベル: 暗いシャドウの表示方法を設定します。
-- 出力ハイライト レベル: ライトのハイライトの表示方法を設定します。
-さまざまな値を自由に試してみてください。
-## ステップ5: 変更したPSDファイルを保存する
-調整が完了したら、変更した PSD ファイルを保存します。この手順は、変更が適用され、保存されることを確認するために重要です。
+- **Input Midtone Level（入力ミッドトーンレベル）:** ミッドトーンの範囲をシフトします。  
+- **Input Shadow Level（入力シャドウレベル）:** シャドウを暗くしたり明るくしたりします。  
+- **Input Highlight Level（入力ハイライトレベル）:** 最も明るい部分を制御します。  
+- **Output Shadow/Highlight Levels（出力シャドウ/ハイライトレベル）:** 最終的な出力範囲を定義します。  
+
+さまざまな値を試して、画像にどのように影響するか確認してください。
+
+### 手順 5: 変更済み PSD ファイルの保存
+変更を新しいファイルに保存します。
 ```java
 im.save(psdPathAfterChange);
 ```
-調整されたPSDファイルは、指定された場所にあります。`psdPathAfterChange`. 
+`psdPathAfterChange` で指定した場所に更新された PSD が保存されています。
+
+## よくある問題と解決策
+- **File not found（ファイルが見つかりません）:** `dataDir` が正しいフォルダを指しているか、元の PSD が存在するか確認してください。  
+- **ClassCastException:** 読み込んでいるファイルが PSD であることを確認してください。他の形式は別のクラスが必要です。  
+- **License errors（ライセンスエラー）:** 本番ビルドでは有効な Aspose.PSD ライセンスを使用してください。開発にはトライアルで動作します。
+
 ## 結論
-Aspose.PSD for Java を使用して PSD ファイルにレベル調整レイヤーを追加する方法を学習しました。このガイドに従うことで、画像の色調品質を簡単に調整し、より鮮やかで視覚的に魅力的な出力を実現できます。練習を重ねれば完璧になります。自由に調整を微調整し、さまざまな PSD ファイルを調べて変更の効果を確認してください。
+これで、Aspose.PSD for Java を使用して PSD ファイルに Level Adjustment Layer を追加・設定し、**レベルを調整する方法** が分かりました。この手法により、トーンバランスを正確にコントロールしつつ、ワークフローを完全に自動化できます。さまざまなチャンネル値を試し、バッチ処理を活用して複数の画像に同じ調整を適用してみてください。
+
 ## よくある質問
-### レベル調整レイヤーとは何ですか?
-レベル調整レイヤーを使用すると、画像の色調範囲を修正し、シャドウ、中間調、ハイライトのバランスをとることができます。
-### Aspose.PSD を購入せずに使用できますか?
-はい！Aspose では、購入前にライブラリをテストできる無料トライアルを提供しています。
-### Aspose.PSD のドキュメントはどこにありますか?
-ドキュメントは以下からご覧いただけます[ここ](https://reference.aspose.com/psd/java/).
-### Aspose 製品に対するコミュニティ サポートはありますか?
-もちろんです！質問やサポートは[Aspose フォーラム](https://forum.aspose.com/c/psd/34).
-### Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
-一時免許を申請することができます[ここ](https://purchase.aspose.com/temporary-license/).
+
+**Q: Level Adjustment Layer とは何ですか？**  
+A: 画像のトーン範囲（シャドウ、ミッドトーン、ハイライト）を変更できる非破壊的なレイヤーです。
+
+**Q: ライセンスを購入せずに Aspose.PSD を使用できますか？**  
+A: はい、無料トライアルでライブラリを評価できますが、商用展開にはライセンスが必要です。
+
+**Q: Aspose.PSD のドキュメントはどこで見つけられますか？**  
+A: ドキュメントは[こちら](https://reference.aspose.com/psd/java/)にあります。
+
+**Q: Aspose 製品のコミュニティサポートはありますか？**  
+A: もちろんです！質問やサポートは[Aspose フォーラム](https://forum.aspose.com/c/psd/34)で受けられます。
+
+**Q: Aspose.PSD の一時ライセンスはどのように取得できますか？**  
+A: [こちら](https://purchase.aspose.com/temporary-license/)から一時ライセンスを申請できます。
+
+---
+
+**最終更新日:** 2026-03-07  
+**テスト環境:** Aspose.PSD latest version (Java)  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
