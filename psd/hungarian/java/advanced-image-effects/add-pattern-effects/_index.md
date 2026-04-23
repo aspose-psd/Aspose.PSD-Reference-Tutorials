@@ -1,11 +1,17 @@
 ---
-date: 2025-11-30
-description: Ismerje meg, hogyan adhat hozzá mintázat‑átfedés hatásokat PSD fájlokhoz
-  az Aspose.PSD for Java segítségével. Lépésről‑lépésre útmutató kódrészletekkel és
-  hibaelhárítási tippekkel.
-linktitle: Add Pattern Overlay
+date: 2026-04-12
+description: Tanulja meg, hogyan adhat hozzá mintás átfedés PSD‑hatást PSD‑fájlokhoz
+  az Aspose.PSD for Java használatával. Lépésről‑lépésre útmutató kódrészletekkel
+  és hibaelhárítási tippekkel.
+keywords:
+- pattern overlay psd
+- apply texture overlay
+- change pattern overlay color
+- add pattern overlay
+- create custom psd pattern
+linktitle: Minta átfedés hozzáadása
 second_title: Aspose.PSD Java API
-title: Minta átfedés effektusok hozzáadása az Aspose.PSD for Java-ban
+title: 'Minta átfedés PSD: Effekteket hozzáadni az Aspose.PSD for Java segítségével'
 url: /hu/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -14,41 +20,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mintaátfedés hatások hozzáadása az Aspose.PSD for Java-ban
+# Mintaátfedés PSD: Hatások hozzáadása az Aspose.PSD for Java-val
 
-## Introduction
+Ha Java alkalmazásból **mintaátfedés hozzáadása** a Photoshop (PSD) fájljaihoz, az Aspose.PSD for Java egyszerűvé teszi a feladatot. Ebben az útmutatóban végigvezetjük a PSD betöltésén, a mintaátfedés beállításainak szerkesztésén, és az eredmény mentésén — mindezt tiszta, termelésre kész kóddal. A végére megérti, miért hasznosak a pattern overlay-k a márkaépítéshez, textúra létrehozásához és dinamikus képgeneráláshoz.
 
-Ha Java alkalmazásból szeretne **mintaátfedést hozzáadni** a Photoshop (PSD) fájljaihoz, az Aspose.PSD for Java egyszerűvé teszi a feladatot. Ebben az útmutatóban végigvezetjük a PSD betöltésén, a mintaátfedés beállításainak szerkesztésén és az eredmény mentésén – mindezt tiszta, termelésre kész kóddal. A végére megérti, miért hasznosak a mintaátfedések a márkaépítéshez, textúra létrehozásához és dinamikus képgeneráláshoz.
+## Gyors válaszok
+- **Mit érhetek el?** Mintaátfedés effektusok hozzáadása vagy módosítása bármely PSD rétegen.  
+- **Szükséges könyvtár?** Aspose.PSD for Java (latest version).  
+- **Előfeltételek?** JDK 8+, az Aspose.PSD JAR, és egy minta PSD fájl.  
+- **Tipikus megvalósítási idő?** Körülbelül 10–15 perc egy alap overlay-hez.  
+- **Újra felhasználhatom a kódot?** Igen – ugyanaz a megközelítés működik bármely PSD-vel, amely minta erőforrásokkal rendelkezik.
 
-## Quick Answers
-- **What can I achieve?** Mintaátfedés hatások hozzáadása vagy módosítása bármely PSD rétegen.  
-- **Required library?** Aspose.PSD for Java (latest version).  
-- **Prerequisites?** JDK 8+, az Aspose.PSD JAR, és egy minta PSD fájl.  
-- **Typical implementation time?** Körülbelül 10–15 perc egy alapvető átfedéshez.  
-- **Can I reuse the code?** Igen – ugyanaz a megközelítés működik bármely PSD-n, amely minta erőforrásokat tartalmaz.
+## Mi az a Pattern Overlay PSD?
 
-## What is a Pattern Overlay?
+A pattern overlay PSD egy rétegeffekt, amely egy kis bitmapet (a mintát) ismétli a kiválasztott rétegen. Gyakran használják textúrák, márkapecsét vagy díszítő háttér létrehozására. Az Aspose.PSD-vel programozottan módosíthatja a minta színeit, eltolásait, keverési módját, és akár helyettesítheti az alaprészlet adatokat.
 
-A mintaátfedés egy rétegeffekt, amely egy kis bitmapet (a mintát) ismétli a kiválasztott rétegen. Gyakran használják textúrák, márkapecsét vagy díszítő háttér létrehozására. Az Aspose.PSD segítségével programozottan módosíthatja a minta színeit, eltolásait, keverési módját, és akár helyettesítheti az alapul szolgáló minta adatokat.
+## Miért használja az Aspose.PSD for Java-t a Pattern Overlay hozzáadásához?
 
-## Why Use Aspose.PSD for Java to Add Pattern Overlay?
+- **Teljes PSD hűség:** Minden Photoshop funkció megőrzése réteginformáció elvesztése nélkül.  
+- **Nincs szükség natív Photoshopra:** Működik bármely szerveren vagy CI környezetben.  
+- **Gazdag API:** Közvetlen hozzáférés a keverési módokhoz, átlátszatlansághoz és minta erőforrásokhoz.  
+- **Keresztplatformos:** Fut Windows, Linux és macOS rendszereken ugyanazzal a kódbázissal.
 
-- **Full PSD fidelity:** Teljes PSD hűség: Minden Photoshop funkció megőrzése réteg információ elvesztése nélkül.  
-- **No native Photoshop required:** Nincs szükség natív Photoshopra: Működik bármely szerveren vagy CI környezetben.  
-- **Rich API:** Gazdag API: Közvetlen hozzáférés keverési módokhoz, átlátszatlansághoz és minta erőforrásokhoz.  
-- **Cross‑platform:** Keresztplatformos: Fut Windows, Linux és macOS rendszereken ugyanazzal a kódbázissal.
+## Előfeltételek
 
-## Prerequisites
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-Before you start, make sure you have:
+- Java Development Kit (JDK) telepítve a gépén.  
+- Aspose.PSD for Java könyvtár hozzáadva a projekt classpath-jához. Letöltheti a [Aspose.PSD weboldalról](https://releases.aspose.com/psd/java/).  
+- Egy minta PSD fájl (pl. `PatternOverlay.psd`), amely már tartalmaz mintaátfedés effektet az egyik rétegén.
 
-- Java Development Kit (JDK) installed on your machine.  
-- Aspose.PSD for Java library added to your project’s classpath. You can download it from the [Aspose.PSD website](https://releases.aspose.com/psd/java/).  
-- A sample PSD file (e.g., `PatternOverlay.psd`) that already contains a pattern overlay effect on one of its layers.
+## Csomagok importálása
 
-## Import Packages
-
-In your Java class, import the necessary Aspose.PSD namespaces:
+A Java osztályában importálja a szükséges Aspose.PSD névtereket:
 
 ```java
 import com.aspose.psd.Color;
@@ -67,11 +71,11 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import java.util.UUID;
 ```
 
-## Step‑by‑Step Guide
+## Lépésről‑lépésre útmutató
 
-### Step 1: Load the PSD Image
+### 1. lépés: PSD kép betöltése
 
-First, load the source PSD file while enabling the loading of effect resources:
+Először töltse be a forrás PSD fájlt, miközben engedélyezi az effektus erőforrások betöltését:
 
 ```java
 // Load the PSD image
@@ -84,25 +88,22 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-> **Pro tip:** Keep `loadOptions.setLoadEffectsResource(true)`; otherwise the pattern overlay effect won’t be accessible.  
-> **Pro tipp:** Hagyja meg a `loadOptions.setLoadEffectsResource(true)` beállítást; különben a mintaátfedés effektus nem lesz elérhető.
+> **Pro tipp:** Tartsa meg a `loadOptions.setLoadEffectsResource(true)`-t; egyébként a pattern overlay effekt nem lesz elérhető.
 
-### Step 2: Extract Existing Pattern Overlay Information
+### 2. lépés: A meglévő Pattern Overlay információk kinyerése
 
-Retrieve the `PatternOverlayEffect` from the target layer (here we assume it’s the second layer, index 1):
+Hozza elő a `PatternOverlayEffect`-et a cél rétegről (itt feltételezzük, hogy a második réteg, index 1):
 
 ```java
 // Extract information about the pattern overlay
 PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-If your PSD uses a different layer order, adjust the index accordingly.
+Ha a PSD más rétegsorrendet használ, állítsa be ennek megfelelően az indexet.
 
-> Ha a PSD más réteg sorrendet használ, állítsa be ennek megfelelően az indexet.
+### 3. lépés: Pattern Overlay beállítások módosítása
 
-### Step 3: Modify Pattern Overlay Settings
-
-Now you can change color, opacity, blend mode, and offsets. These changes directly affect how the pattern is rendered on the layer:
+Most megváltoztathatja a színt, átlátszatlanságot, keverési módot és eltolásokat. Ezek a változások közvetlenül befolyásolják, hogyan jelenik meg a minta a rétegen:
 
 ```java
 // Modify pattern overlay settings
@@ -114,12 +115,11 @@ settings.setHorizontalOffset(15);
 settings.setVerticalOffset(11);
 ```
 
-> **Why it matters:** Changing the blend mode to `Difference` creates a striking visual contrast, useful for highlighting texture details.  
-> **Miért fontos:** A keverési mód `Difference`‑re változtatása erőteljes vizuális kontrasztot hoz létre, ami hasznos a textúra részleteinek kiemeléséhez.
+> **Miért fontos:** A keverési mód `Difference`-re változtatása erőteljes vizuális kontrasztot hoz létre, ami hasznos a textúra részleteinek kiemeléséhez.
 
-### Step 4: Edit the Underlying Pattern Data
+### 4. lépés: Az alaprészlet minta adatainak szerkesztése
 
-Replace the original pattern bitmap with a custom one. The example below builds a tiny 4×2 pattern using a few basic colors:
+Cserélje le az eredeti minta bitmapet egy egyedi változatra. Az alábbi példa egy apró 4×2 mintát épít néhány alapvető szín felhasználásával:
 
 ```java
 // Edit the pattern data
@@ -140,12 +140,11 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-> **Common pitfall:** Forgetting to update the `PatternId` will leave the old pattern attached, causing the visual change to be ignored.  
-> **Gyakori hibaforrás:** Ha elfelejti frissíteni a `PatternId`‑t, a régi minta marad csatolva, és a vizuális változás figyelmen kívül marad.
+> **Gyakori hibaforrás:** Ha elfelejti frissíteni a `PatternId`-t, a régi minta marad csatolva, ami miatt a vizuális változás figyelmen kívül marad.
 
-### Step 5: Save the Edited Image
+### 5. lépés: A szerkesztett kép mentése
 
-Persist the changes to a new file. We also update the pattern name and ID in the settings before saving:
+Mentse el a változásokat egy új fájlba. A mentés előtt frissítjük a minta nevét és azonosítóját is a beállításokban:
 
 ```java
 // Save the edited image
@@ -154,9 +153,9 @@ settings.setPatternId(guid.toString() + "\0");
 im.save(exportPath);
 ```
 
-### Step 6: Verify the Changes
+### 6. lépés: A változások ellenőrzése
 
-Reload the saved file and confirm that the overlay reflects the new settings:
+Töltse be újra a mentett fájlt, és ellenőrizze, hogy az overlay tükrözi-e az új beállításokat:
 
 ```java
 // Verify the changes in the edited file
@@ -166,49 +165,55 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 // Add assertions to ensure the changes have been applied successfully
 ```
 
-You can add unit‑test‑style assertions here (e.g., checking `patternOverlayEffect.getOpacity()` equals `193`) to automate verification.
+Itt hozzáadhat unit‑test‑stílusú állításokat (pl. ellenőrizve, hogy a `patternOverlayEffect.getOpacity()` értéke `193`-nak felel meg), hogy automatizálja az ellenőrzést.
 
-> Hozzáadhat unit‑test‑szerű állításokat itt (például ellenőrizve, hogy a `patternOverlayEffect.getOpacity()` értéke `193`‑e), hogy automatizálja a verifikációt.
+## Hogyan alkalmazzon textúra overlay-t az Aspose.PSD-vel
 
-## Common Issues and Solutions
+Ha a célja **textúra overlay** alkalmazása egyszerű minta helyett, használhatja ugyanazt a `PatternFillSettings` objektumot, de adjon meg egy nagyobb bitmapet, amely a textúrát képviseli. Állítsa be a `horizontalOffset` és `verticalOffset` értékeket a textúra szükséges csempézéséhez.
 
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| **Pattern does not change** | `PatternId` not updated or wrong layer index | Ensure you modify the correct `PattResource` and call `settings.setPatternId(...)`. |
-| **Pattern nem változik** | `PatternId` nincs frissítve vagy rossz réteg index | Győződjön meg róla, hogy a megfelelő `PattResource`‑t módosítja, és meghívja a `settings.setPatternId(...)`‑t. |
-| **Colors appear inverted** | Blend mode set to `Difference` unintentionally | Choose a blend mode that matches your design intent (e.g., `Normal`, `Overlay`). |
-| **Színek invertálódnak** | A keverési mód véletlenül `Difference`‑re van állítva | Válasszon olyan keverési módot, amely megfelel a tervezési szándékának (pl. `Normal`, `Overlay`). |
-| **Exported PSD loses layers** | Using an outdated Aspose.PSD version | Upgrade to the latest Aspose.PSD for Java release. |
-| **Exportált PSD elveszíti a rétegeket** | Elavult Aspose.PSD verzió használata | Frissítsen a legújabb Aspose.PSD for Java kiadásra. |
-| **`NullPointerException` on `getEffects()[0]`** | Layer has no effects applied | Verify the layer actually contains a `PatternOverlayEffect` before casting. |
-| **`NullPointerException` a `getEffects()[0]`‑nál** | A rétegen nincs effektus alkalmazva | Ellenőrizze, hogy a réteg valóban tartalmaz `PatternOverlayEffect`‑et, mielőtt átkonvertálná. |
+## Hogyan változtassa meg a Pattern Overlay színét
 
-## Frequently Asked Questions
+Az overlay színének módosítása olyan egyszerű, mint a `settings.setColor(...)` meghívása. A **3. lépés** példája a szín zöldre váltását mutatja be. Kísérletezhet bármely `Color` konstannsal vagy létrehozhat egy egyedi ARGB értéket.
 
-**Q: Can I use Aspose.PSD for Java with other Java image processing libraries?**  
-A: Aspose.PSD for Java works independently, but you can combine it with libraries like ImageIO or TwelveMonkeys for additional formats.
+## Hogyan hozzon létre egy egyedi PSD mintát
 
-**Q: Where can I find detailed documentation for Aspose.PSD for Java?**  
-A: Refer to the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) for a complete API reference.
+A **4. lépés** ciklusa bemutatja, hogyan hozhat létre programozottan egy egyedi mintát. Az `int[]` tömb saját ARGB értékeivel feltöltve és a téglalap méretét meghatározva bármilyen ismételhető mintát generálhat — tökéletes a márkaspecifikus textúrák gyors létrehozásához.
 
-**Q: Is there a free trial available for Aspose.PSD for Java?**  
-A: Yes, you can download a free trial from the [Aspose.PSD download page](https://releases.aspose.com/).
+## Gyakori problémák és megoldások
 
-**Q: How can I get support for Aspose.PSD for Java?**  
-A: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community help or purchase a support plan for direct assistance.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **A minta nem változik** | `PatternId` nincs frissítve vagy rossz réteg index | Győződjön meg róla, hogy a megfelelő `PattResource`-t módosítja, és meghívja a `settings.setPatternId(...)`-t. |
+| **A színek invertáltak** | A keverési mód véletlenül `Difference`-re van állítva | Válasszon egy keverési módot, amely megfelel a tervezési szándékának (pl. `Normal`, `Overlay`). |
+| **Az exportált PSD elveszíti a rétegeket** | Elavult Aspose.PSD verzió használata | Frissítsen a legújabb Aspose.PSD for Java kiadásra. |
+| `NullPointerException` a `getEffects()[0]`-nál | A rétegen nincs effekt alkalmazva | Ellenőrizze, hogy a réteg valóban tartalmaz `PatternOverlayEffect`-et, mielőtt átkonvertálná. |
 
-**Q: Can I obtain a temporary license for Aspose.PSD for Java?**  
-A: Yes, a temporary license is available through the [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+## Gyakran ismételt kérdések
 
-## Conclusion
+**Q: Használhatom az Aspose.PSD for Java-t más Java képfeldolgozó könyvtárakkal?**  
+A: Az Aspose.PSD for Java önállóan működik, de kombinálható olyan könyvtárakkal, mint az ImageIO vagy a TwelveMonkeys a további formátumtámogatásért.
 
-You’ve now learned how to **add pattern overlay** effects to PSD files using Aspose.PSD for Java. By manipulating blend modes, opacity, offsets, and the underlying pattern bitmap, you can create dynamic textures and branding elements directly from your Java code. Feel free to experiment with different colors, patterns, and blend modes to suit your project’s visual style.
+**Q: Hol találok részletes dokumentációt az Aspose.PSD for Java-hoz?**  
+A: Tekintse meg a [Aspose.PSD for Java dokumentációt](https://reference.aspose.com/psd/java/) a teljes API referenciaért.
+
+**Q: Elérhető ingyenes próba az Aspose.PSD for Java-hoz?**  
+A: Igen, letölthet egy ingyenes próbát a [Aspose.PSD letöltési oldalról](https://releases.aspose.com/).
+
+**Q: Hogyan kaphatok támogatást az Aspose.PSD for Java-hoz?**  
+A: Látogassa meg az [Aspose.PSD fórumot](https://forum.aspose.com/c/psd/34) közösségi segítségért, vagy vásároljon támogatási csomagot a közvetlen segítségért.
+
+**Q: Kaphatok ideiglenes licencet az Aspose.PSD for Java-hoz?**  
+A: Igen, ideiglenes licenc elérhető az [Aspose ideiglenes licenc oldalán](https://purchase.aspose.com/temporary-license/).
+
+## Következtetés
+
+Most megtanulta, hogyan **mintaátfedést adhat hozzá** a PSD fájlokhoz az Aspose.PSD for Java segítségével. A keverési módok, átlátszatlanság, eltolások és az alaprészlet minta bitmap manipulálásával dinamikus textúrákat és márkaelemeket hozhat létre közvetlenül Java kódjából. Nyugodtan kísérletezzen különböző színekkel, mintákkal és keverési módokkal, hogy a projekt vizuális stílusához illeszkedjen.
 
 ---
 
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Legutóbb frissítve:** 2026-04-12  
+**Tesztelve a következővel:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

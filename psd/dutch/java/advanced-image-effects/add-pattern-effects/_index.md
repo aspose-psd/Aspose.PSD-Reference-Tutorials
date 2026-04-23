@@ -1,10 +1,16 @@
 ---
-date: 2025-11-30
-description: Leer hoe je patroonoverlay-effecten kunt toevoegen aan PSD‑bestanden
-  met Aspose.PSD voor Java. Stapsgewijze handleiding met codevoorbeelden en probleemoplossingstips.
-linktitle: Add Pattern Overlay
+date: 2026-04-12
+description: Leer hoe u een patroon‑overlay‑PSD‑effect aan PSD‑bestanden kunt toevoegen
+  met Aspose.PSD voor Java. Stapsgewijze gids met codevoorbeelden en tips voor probleemoplossing.
+keywords:
+- pattern overlay psd
+- apply texture overlay
+- change pattern overlay color
+- add pattern overlay
+- create custom psd pattern
+linktitle: Patroonoverlay toevoegen
 second_title: Aspose.PSD Java API
-title: Patroonoverlay-effecten toevoegen in Aspose.PSD voor Java
+title: 'Patroonoverlay PSD: Effecten toevoegen met Aspose.PSD voor Java'
 url: /nl/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -13,36 +19,34 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Patroonoverlay-effecten toevoegen in Aspose.PSD voor Java
+# Pattern Overlay PSD: Effecten toevoegen met Aspose.PSD voor Java
 
-## Inleiding
-
-Als je **pattern overlay** wilt toevoegen aan je Photoshop (PSD)-bestanden vanuit een Java‑applicatie, maakt Aspose.PSD voor Java de taak eenvoudig. In deze tutorial lopen we door het laden van een PSD, het bewerken van de pattern overlay‑instellingen en het opslaan van het resultaat — allemaal met duidelijke, productie‑klare code. Aan het einde begrijp je waarom pattern overlays nuttig zijn voor branding, het creëren van texturen en dynamische beeldgeneratie.
+Als je **pattern overlay toevoegen** wilt aan je Photoshop (PSD)-bestanden vanuit een Java‑applicatie, maakt Aspose.PSD voor Java de taak eenvoudig. In deze tutorial lopen we door het laden van een PSD, het bewerken van de pattern‑overlay‑instellingen en het opslaan van het resultaat — allemaal met duidelijke, productie‑klare code. Aan het einde begrijp je waarom pattern overlays nuttig zijn voor branding, het creëren van texturen en dynamische beeldgeneratie.
 
 ## Snelle antwoorden
 - **Wat kan ik bereiken?** Voeg pattern overlay‑effecten toe of wijzig ze op elke PSD‑laag.  
-- **Vereiste bibliotheek?** Aspose.PSD voor Java (nieuwste versie).  
-- **Voorvereisten?** JDK 8+, de Aspose.PSD‑JAR en een voorbeeld‑PSD‑bestand.  
-- **Typische implementatietijd?** Ongeveer 10–15 minuten voor een eenvoudige overlay.  
+- **Vereiste bibliotheek?** Aspose.PSD for Java (latest version).  
+- **Voorvereisten?** JDK 8+, de Aspose.PSD JAR en een voorbeeld‑PSD‑bestand.  
+- **Typische implementatietijd?** Ongeveer 10–15 minuten voor een basis‑overlay.  
 - **Kan ik de code hergebruiken?** Ja – dezelfde aanpak werkt voor elke PSD met pattern‑resources.
 
-## Wat is een Pattern Overlay?
+## Wat is een Pattern Overlay PSD?
 
-Een pattern overlay is een laageffect dat een klein bitmap‑patroon (de pattern) over de geselecteerde laag herhaalt. Het wordt vaak gebruikt voor texturen, branding‑stempels of decoratieve achtergronden. Met Aspose.PSD kun je programmatisch de kleuren, offsets, blend‑mode van de pattern wijzigen en zelfs de onderliggende pattern‑data vervangen.
+Een pattern overlay PSD is een laageffect dat een klein bitmap‑patroon (de pattern) over de geselecteerde laag herhaalt. Het wordt vaak gebruikt voor texturen, branding‑stempels of decoratieve achtergronden. Met Aspose.PSD kun je programmatisch de kleuren, offsets, blend‑mode van de pattern wijzigen en zelfs de onderliggende pattern‑gegevens vervangen.
 
 ## Waarom Aspose.PSD voor Java gebruiken om een Pattern Overlay toe te voegen?
 
-- **Volledige PSD‑getrouwheid:** Behoud alle Photoshop‑functies zonder laaginformatie te verliezen.  
+- **Volledige PSD‑getrouwheid:** Behoud alle Photoshop‑functies zonder laag‑informatie te verliezen.  
 - **Geen native Photoshop vereist:** Werkt op elke server of CI‑omgeving.  
 - **Rijke API:** Directe toegang tot blend‑modes, opacity en pattern‑resources.  
-- **Cross‑platform:** Draait op Windows, Linux en macOS met dezelfde code‑basis.
+- **Cross‑platform:** Werkt op Windows, Linux en macOS met dezelfde code‑basis.
 
 ## Voorvereisten
 
-Voordat je begint, zorg dat je het volgende hebt:
+Voordat je begint, zorg ervoor dat je het volgende hebt:
 
 - Java Development Kit (JDK) geïnstalleerd op je machine.  
-- Aspose.PSD voor Java‑bibliotheek toegevoegd aan de classpath van je project. Je kunt het downloaden van de [Aspose.PSD website](https://releases.aspose.com/psd/java/).  
+- Aspose.PSD for Java‑bibliotheek toegevoegd aan de classpath van je project. Je kunt deze downloaden van de [Aspose.PSD website](https://releases.aspose.com/psd/java/).  
 - Een voorbeeld‑PSD‑bestand (bijv. `PatternOverlay.psd`) dat al een pattern overlay‑effect bevat op een van de lagen.
 
 ## Pakketten importeren
@@ -85,7 +89,7 @@ PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 
 > **Pro tip:** Houd `loadOptions.setLoadEffectsResource(true)`; anders is het pattern overlay‑effect niet toegankelijk.
 
-### Stap 2: Bestaande Pattern Overlay‑informatie extraheren
+### Stap 2: Bestaande pattern overlay‑informatie extraheren
 
 Haal de `PatternOverlayEffect` op van de doel‑laag (hier gaan we ervan uit dat het de tweede laag is, index 1):
 
@@ -96,7 +100,7 @@ PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].ge
 
 Als je PSD een andere laagvolgorde gebruikt, pas dan de index dienovereenkomstig aan.
 
-### Stap 3: Pattern Overlay‑instellingen wijzigen
+### Stap 3: Pattern overlay‑instellingen wijzigen
 
 Nu kun je kleur, opacity, blend‑mode en offsets wijzigen. Deze wijzigingen beïnvloeden direct hoe het patroon op de laag wordt gerenderd:
 
@@ -112,9 +116,9 @@ settings.setVerticalOffset(11);
 
 > **Waarom het belangrijk is:** Het wijzigen van de blend‑mode naar `Difference` creëert een opvallend visueel contrast, nuttig voor het accentueren van textuurdetails.
 
-### Stap 4: Onderliggende pattern‑data bewerken
+### Stap 4: Onderliggende pattern‑gegevens bewerken
 
-Vervang de originele pattern‑bitmap door een aangepaste. Het voorbeeld hieronder maakt een klein 4×2‑patroon met een paar basiskleuren:
+Vervang de originele pattern‑bitmap door een aangepaste. Het voorbeeld hieronder maakt een klein 4×2‑patroon met enkele basiskleuren:
 
 ```java
 // Edit the pattern data
@@ -135,9 +139,9 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-> **Veelvoorkomende valkuil:** Het vergeten bijwerken van de `PatternId` laat het oude patroon gekoppeld, waardoor de visuele wijziging wordt genegeerd.
+> **Veelvoorkomend valkuil:** Het vergeten bijwerken van de `PatternId` laat het oude patroon gekoppeld, waardoor de visuele wijziging wordt genegeerd.
 
-### Stap 5: Bewerkte afbeelding opslaan
+### Stap 5: Bewaar de bewerkte afbeelding
 
 Sla de wijzigingen op in een nieuw bestand. We werken ook de pattern‑naam en ID bij in de instellingen vóór het opslaan:
 
@@ -160,7 +164,19 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 // Add assertions to ensure the changes have been applied successfully
 ```
 
-Je kunt hier unit‑test‑achtige assertions toevoegen (bijv. controleren of `patternOverlayEffect.getOpacity()` gelijk is aan `193`) om verificatie te automatiseren.
+Je kunt hier unit‑test‑achtige asserts toevoegen (bijv. controleren of `patternOverlayEffect.getOpacity()` gelijk is aan `193`) om de verificatie te automatiseren.
+
+## Hoe een texture overlay toe te passen met Aspose.PSD
+
+Als je doel is om **texture overlay** toe te passen in plaats van een eenvoudig patroon, kun je hetzelfde `PatternFillSettings`‑object gebruiken maar een grotere bitmap leveren die de textuur vertegenwoordigt. Pas `horizontalOffset` en `verticalOffset` aan om de textuur naar behoefte te herhalen.
+
+## Hoe de kleur van een pattern overlay te wijzigen
+
+Het wijzigen van de overlay‑kleur is net zo eenvoudig als het aanroepen van `settings.setColor(...)`. Het voorbeeld in **Stap 3** laat zien hoe je de kleur naar groen wijzigt. Je kunt experimenteren met elke `Color`‑constante of een aangepaste ARGB‑waarde maken.
+
+## Hoe een aangepast PSD‑patroon te maken
+
+De lus in **Stap 4** laat zien hoe je een aangepast patroon programmeermatig maakt. Door de `int[]`‑array te vullen met je eigen ARGB‑waarden en de rechthoekgrootte te definiëren, kun je elk herhaalbaar patroon genereren — perfect voor het on‑the‑fly bouwen van merk‑specifieke texturen.
 
 ## Veelvoorkomende problemen en oplossingen
 
@@ -168,34 +184,34 @@ Je kunt hier unit‑test‑achtige assertions toevoegen (bijv. controleren of `p
 |----------|-------|-----------|
 | **Pattern verandert niet** | `PatternId` niet bijgewerkt of verkeerde laag‑index | Zorg ervoor dat je de juiste `PattResource` wijzigt en `settings.setPatternId(...)` aanroept. |
 | **Kleuren lijken omgekeerd** | Blend‑mode per ongeluk ingesteld op `Difference` | Kies een blend‑mode die past bij je ontwerpintentie (bijv. `Normal`, `Overlay`). |
-| **Geëxporteerde PSD verliest lagen** | Gebruik van een verouderde Aspose.PSD‑versie | Upgrade naar de nieuwste Aspose.PSD voor Java‑release. |
-| `NullPointerException` op `getEffects()[0]` | Laag heeft geen effecten toegepast | Controleer of de laag daadwerkelijk een `PatternOverlayEffect` bevat voordat je cast. |
+| **Geëxporteerde PSD verliest lagen** | Een verouderde Aspose.PSD‑versie gebruiken | Upgrade naar de nieuwste Aspose.PSD for Java‑release. |
+| **`NullPointerException` op `getEffects()[0]`** | Laag heeft geen effecten toegepast | Controleer of de laag daadwerkelijk een `PatternOverlayEffect` bevat vóór het casten. |
 
 ## Veelgestelde vragen
 
-**Q: Kan ik Aspose.PSD voor Java gebruiken met andere Java‑beeldverwerkingsbibliotheken?**  
-A: Aspose.PSD voor Java werkt onafhankelijk, maar je kunt het combineren met bibliotheken zoals ImageIO of TwelveMonkeys voor extra formaten.
+**Q:** Kan ik Aspose.PSD for Java gebruiken met andere Java‑beeldverwerkingsbibliotheken?  
+**A:** Aspose.PSD for Java werkt onafhankelijk, maar je kunt het combineren met bibliotheken zoals ImageIO of TwelveMonkeys voor extra formaatondersteuning.
 
-**Q: Waar kan ik gedetailleerde documentatie voor Aspose.PSD voor Java vinden?**  
-A: Raadpleeg de [Aspose.PSD for Java documentatie](https://reference.aspose.com/psd/java/) voor een volledige API‑referentie.
+**Q:** Waar kan ik gedetailleerde documentatie vinden voor Aspose.PSD for Java?  
+**A:** Zie de [Aspose.PSD for Java documentatie](https://reference.aspose.com/psd/java/) voor een volledige API‑referentie.
 
-**Q: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?**  
-A: Ja, je kunt een gratis proefversie downloaden van de [Aspose.PSD downloadpagina](https://releases.aspose.com/).
+**Q:** Is er een gratis proefversie beschikbaar voor Aspose.PSD for Java?  
+**A:** Ja, je kunt een gratis proefversie downloaden van de [Aspose.PSD downloadpagina](https://releases.aspose.com/).
 
-**Q: Hoe kan ik ondersteuning krijgen voor Aspose.PSD voor Java?**  
-A: Bezoek het [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) voor community‑hulp of koop een support‑plan voor directe assistentie.
+**Q:** Hoe kan ik ondersteuning krijgen voor Aspose.PSD for Java?  
+**A:** Bezoek het [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) voor community‑hulp of koop een supportplan voor directe assistentie.
 
-**Q: Kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD voor Java?**  
-A: Ja, een tijdelijke licentie is beschikbaar via de [Aspose tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+**Q:** Kan ik een tijdelijke licentie verkrijgen voor Aspose.PSD for Java?  
+**A:** Ja, een tijdelijke licentie is beschikbaar via de [Aspose tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusie
 
-Je hebt nu geleerd hoe je **pattern overlay**‑effecten kunt toevoegen aan PSD‑bestanden met Aspose.PSD voor Java. Door blend‑modes, opacity, offsets en de onderliggende pattern‑bitmap te manipuleren, kun je dynamische texturen en branding‑elementen creëren direct vanuit je Java‑code. Voel je vrij om te experimenteren met verschillende kleuren, patronen en blend‑modes om ze aan te passen aan de visuele stijl van je project.
+Je hebt nu geleerd hoe je **pattern overlay**‑effecten kunt toevoegen aan PSD‑bestanden met Aspose.PSD for Java. Door blend‑modes, opacity, offsets en de onderliggende pattern‑bitmap te manipuleren, kun je dynamische texturen en branding‑elementen rechtstreeks vanuit je Java‑code creëren. Voel je vrij om te experimenteren met verschillende kleuren, patronen en blend‑modes om aan de visuele stijl van je project te voldoen.
 
 ---
 
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Last Updated:** 2026-04-12  
+**Tested With:** Aspose.PSD for Java 24.12 (latest op het moment van schrijven)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

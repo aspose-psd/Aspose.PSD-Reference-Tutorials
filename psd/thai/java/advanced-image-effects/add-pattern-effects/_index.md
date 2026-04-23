@@ -1,10 +1,16 @@
 ---
-date: 2025-11-30
-description: เรียนรู้วิธีเพิ่มเอฟเฟกต์การซ้อนลายแบบลงบนไฟล์ PSD ด้วย Aspose.PSD สำหรับ
-  Java คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ดและเคล็ดลับการแก้ปัญหา
-linktitle: Add Pattern Overlay
+date: 2026-04-12
+description: เรียนรู้วิธีเพิ่มเอฟเฟกต์การซ้อนลายแบบ Pattern Overlay ให้กับไฟล์ PSD
+  ด้วย Aspose.PSD สำหรับ Java คู่มือแบบขั้นตอนพร้อมตัวอย่างโค้ดและเคล็ดลับการแก้ปัญหา
+keywords:
+- pattern overlay psd
+- apply texture overlay
+- change pattern overlay color
+- add pattern overlay
+- create custom psd pattern
+linktitle: เพิ่มการซ้อนลวดลาย
 second_title: Aspose.PSD Java API
-title: เพิ่มเอฟเฟกต์การซ้อนลายแบบใน Aspose.PSD สำหรับ Java
+title: 'Pattern Overlay PSD: เพิ่มเอฟเฟกต์ด้วย Aspose.PSD สำหรับ Java'
 url: /th/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -13,41 +19,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มเอฟเฟกต์ Pattern Overlay ใน Aspose.PSD สำหรับ Java
+# Pattern Overlay PSD: เพิ่มเอฟเฟกต์ด้วย Aspose.PSD สำหรับ Java
 
-## บทนำ
+หากคุณต้องการ **add pattern overlay** ให้กับไฟล์ Photoshop (PSD) ของคุณจากแอปพลิเคชัน Java, Aspose.PSD for Java ทำให้ภารกิจนี้ง่ายขึ้น ในบทแนะนำนี้เราจะอธิบายขั้นตอนการโหลด PSD, แก้ไขการตั้งค่า pattern overlay, และบันทึกผลลัพธ์—ทั้งหมดด้วยโค้ดที่ชัดเจนและพร้อมใช้งานในผลิตภัณฑ์ สุดท้ายคุณจะเข้าใจว่าทำไม pattern overlay จึงมีประโยชน์สำหรับการสร้างแบรนด์, การสร้างพื้นผิว, และการสร้างภาพแบบไดนามิก
 
-หากคุณต้องการ **เพิ่ม pattern overlay** ให้กับไฟล์ Photoshop (PSD) จากแอปพลิเคชัน Java, Aspose.PSD สำหรับ Java ทำให้ขั้นตอนนี้ง่ายดาย ในบทแนะนำนี้เราจะอธิบายการโหลดไฟล์ PSD, แก้ไขการตั้งค่า pattern overlay, และบันทึกผลลัพธ์—ทั้งหมดด้วยโค้ดที่พร้อมใช้งานในสภาพแวดล้อมการผลิต หลังจากอ่านจบคุณจะเข้าใจว่าทำไม pattern overlay จึงมีประโยชน์สำหรับการสร้างแบรนด์, การทำเทกซ์เจอร์, และการสร้างภาพแบบไดนามิก
+## คำตอบด่วน
+- **ฉันจะทำอะไรได้บ้าง?** เพิ่มหรือแก้ไขเอฟเฟกต์ pattern overlay บนเลเยอร์ PSD ใดก็ได้.  
+- **ไลบรารีที่ต้องการ?** Aspose.PSD for Java (รุ่นล่าสุด).  
+- **ข้อกำหนดเบื้องต้น?** JDK 8+, Aspose.PSD JAR, และไฟล์ PSD ตัวอย่าง.  
+- **ระยะเวลาการดำเนินการโดยประมาณ?** ประมาณ 10–15 นาทีสำหรับ overlay พื้นฐาน.  
+- **ฉันสามารถใช้โค้ดนี้ซ้ำได้หรือไม่?** ได้ – วิธีเดียวกันทำงานกับ PSD ใดก็ได้ที่มีทรัพยากร pattern.
 
-## คำตอบสั้น
-- **ฉันทำอะไรได้บ้าง?** เพิ่มหรือแก้ไขเอฟเฟกต์ pattern overlay บนเลเยอร์ PSD ใดก็ได้  
-- **ต้องใช้ไลบรารีอะไร?** Aspose.PSD สำหรับ Java (เวอร์ชันล่าสุด)  
-- **ข้อกำหนดเบื้องต้น?** JDK 8+, ไฟล์ JAR ของ Aspose.PSD, และไฟล์ PSD ตัวอย่าง  
-- **เวลาการทำงานโดยประมาณ?** ประมาณ 10–15 นาทีสำหรับ overlay ขั้นพื้นฐาน  
-- **สามารถนำโค้ดไปใช้ซ้ำได้หรือไม่?** ได้ – วิธีการเดียวกันทำงานกับ PSD ใดก็ได้ที่มีทรัพยากร pattern
+## Pattern Overlay PSD คืออะไร?
 
-## Pattern Overlay คืออะไร?
+Pattern overlay PSD คือเอฟเฟกต์เลเยอร์ที่ทำการเรียงต่อภาพบิตแมพขนาดเล็ก (pattern) ทั่วทั้งเลเยอร์ที่เลือก มักใช้สำหรับพื้นผิว, ตราประทับแบรนด์, หรือพื้นหลังแบบประดับ ด้วย Aspose.PSD คุณสามารถเปลี่ยนสีของ pattern, การเลื่อนตำแหน่ง, โหมดผสม, และแม้กระทั่งแทนที่ข้อมูล pattern ด้านล่างได้โดยโปรแกรม
 
-Pattern overlay คือเอฟเฟกต์ของเลเยอร์ที่ทำการทับซ้อนรูปแบบบิตแมปขนาดเล็ก (pattern) ไปทั่วเลเยอร์ที่เลือก มักใช้สำหรับเทกซ์เจอร์, ตราประทับแบรนด์, หรือพื้นหลังตกแต่ง ด้วย Aspose.PSD คุณสามารถเปลี่ยนสีของ pattern, การเยื้อง, โหมดผสม, และแม้กระทั่งแทนที่ข้อมูล pattern ด้านล่างได้โดยโปรแกรม
+## ทำไมต้องใช้ Aspose.PSD for Java เพื่อเพิ่ม Pattern Overlay?
 
-## ทำไมต้องใช้ Aspose.PSD สำหรับ Java เพื่อเพิ่ม Pattern Overlay?
-
-- **ความแม่นยำของ PSD เต็มรูปแบบ:** รักษาฟีเจอร์ทั้งหมดของ Photoshop โดยไม่สูญเสียข้อมูลเลเยอร์  
-- **ไม่ต้องมี Photoshop ติดตั้ง:** ทำงานได้บนเซิร์ฟเวอร์หรือสภาพแวดล้อม CI ใดก็ได้  
-- **API ครบถ้วน:** เข้าถึงโหมดผสม, ความทึบ, และทรัพยากร pattern ได้โดยตรง  
-- **ข้ามแพลตฟอร์ม:** ทำงานบน Windows, Linux, และ macOS ด้วยโค้ดเดียวกัน
+- **Full PSD fidelity:** รักษาคุณลักษณะทั้งหมดของ Photoshop โดยไม่สูญเสียข้อมูลเลเยอร์.  
+- **No native Photoshop required:** ทำงานได้บนเซิร์ฟเวอร์หรือสภาพแวดล้อม CI ใดก็ได้.  
+- **Rich API:** เข้าถึงโหมดผสม, ความทึบ, และทรัพยากร pattern ได้โดยตรง.  
+- **Cross‑platform:** ทำงานบน Windows, Linux, และ macOS ด้วยโค้ดฐานเดียวกัน.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำงาน ตรวจสอบให้แน่ใจว่าคุณมี:
+ก่อนเริ่ม, ตรวจสอบว่าคุณมี:
 
-- Java Development Kit (JDK) ติดตั้งบนเครื่องของคุณ  
-- ไลบรารี Aspose.PSD สำหรับ Java เพิ่มเข้าไปใน classpath ของโปรเจกต์ คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์ Aspose.PSD](https://releases.aspose.com/psd/java/)  
-- ไฟล์ PSD ตัวอย่าง (เช่น `PatternOverlay.psd`) ที่มีเอฟเฟกต์ pattern overlay อยู่บนหนึ่งในเลเยอร์แล้ว
+- Java Development Kit (JDK) ติดตั้งบนเครื่องของคุณ.  
+- ไลบรารี Aspose.PSD for Java เพิ่มเข้าไปใน classpath ของโปรเจกต์ คุณสามารถดาวน์โหลดได้จาก [Aspose.PSD website](https://releases.aspose.com/psd/java/).  
+- ไฟล์ PSD ตัวอย่าง (เช่น `PatternOverlay.psd`) ที่มีเอฟเฟกต์ pattern overlay อยู่บนหนึ่งในเลเยอร์แล้ว.
 
 ## นำเข้าแพ็กเกจ
 
-ในคลาส Java ของคุณ ให้นำเข้า namespace ของ Aspose.PSD ที่จำเป็น:
+ในคลาส Java ของคุณ, นำเข้า namespace ของ Aspose.PSD ที่จำเป็น:
 
 ```java
 import com.aspose.psd.Color;
@@ -66,11 +70,11 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import java.util.UUID;
 ```
 
-## คู่มือแบบขั้นตอน
+## คู่มือขั้นตอนต่อขั้นตอน
 
 ### ขั้นตอนที่ 1: โหลดภาพ PSD
 
-โหลดไฟล์ PSD ต้นฉบับพร้อมเปิดใช้งานการโหลดทรัพยากรเอฟเฟกต์:
+แรกเริ่ม, โหลดไฟล์ PSD ต้นฉบับพร้อมเปิดใช้งานการโหลดทรัพยากรเอฟเฟกต์:
 
 ```java
 // Load the PSD image
@@ -83,22 +87,22 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-> **เคล็ดลับ:** อย่าลืมตั้งค่า `loadOptions.setLoadEffectsResource(true)`; หากไม่ตั้งค่าเอฟเฟกต์ pattern overlay จะไม่สามารถเข้าถึงได้
+> **เคล็ดลับ:** คงไว้ `loadOptions.setLoadEffectsResource(true)`; มิฉะนั้นเอฟเฟกต์ pattern overlay จะไม่สามารถเข้าถึงได้.
 
 ### ขั้นตอนที่ 2: ดึงข้อมูล Pattern Overlay ที่มีอยู่
 
-ดึง `PatternOverlayEffect` จากเลเยอร์เป้าหมาย (ในตัวอย่างนี้ถือว่าเป็นเลเยอร์ที่สอง, ดัชนี 1):
+ดึง `PatternOverlayEffect` จากเลเยอร์เป้าหมาย (ที่นี่สมมติว่าเป็นเลเยอร์ที่สอง, ดัชนี 1):
 
 ```java
 // Extract information about the pattern overlay
 PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-หาก PSD ของคุณมีลำดับเลเยอร์ต่างกัน ให้ปรับดัชนีให้สอดคล้อง
+หาก PSD ของคุณใช้ลำดับเลเยอร์ที่แตกต่าง, ปรับดัชนีให้เหมาะสม.
 
 ### ขั้นตอนที่ 3: แก้ไขการตั้งค่า Pattern Overlay
 
-ตอนนี้คุณสามารถเปลี่ยนสี, ความทึบ, โหมดผสม, และการเยื้องได้ การเปลี่ยนแปลงเหล่านี้จะส่งผลโดยตรงต่อการเรนเดอร์ pattern บนเลเยอร์:
+ตอนนี้คุณสามารถเปลี่ยนสี, ความทึบ, โหมดผสม, และการเลื่อนตำแหน่งได้ การเปลี่ยนแปลงเหล่านี้มีผลโดยตรงต่อการแสดงผลของ pattern บนเลเยอร์:
 
 ```java
 // Modify pattern overlay settings
@@ -110,11 +114,11 @@ settings.setHorizontalOffset(15);
 settings.setVerticalOffset(11);
 ```
 
-> **ทำไมถึงสำคัญ:** การเปลี่ยนโหมดผสมเป็น `Difference` จะสร้างความคอนทราสต์ที่โดดเด่น, เหมาะสำหรับการเน้นรายละเอียดเทกซ์เจอร์
+> **ทำไมจึงสำคัญ:** การเปลี่ยนโหมดผสมเป็น `Difference` จะสร้างความคอนทราสต์ที่โดดเด่น, มีประโยชน์สำหรับการเน้นรายละเอียดพื้นผิว.
 
-### ขั้นตอนที่ 4: แก้ไขข้อมูล Pattern ด้านล่าง
+### ขั้นตอนที่ 4: แก้ไขข้อมูล Pattern พื้นฐาน
 
-แทนที่บิตแมป pattern ดั้งเดิมด้วยบิตแมปที่กำหนดเอง ตัวอย่างด้านล่างสร้าง pattern ขนาด 4×2 ด้วยสีพื้นฐานไม่กี่สี:
+แทนที่บิตแมพ pattern ดั้งเดิมด้วยบิตแมพที่กำหนดเอง ตัวอย่างด้านล่างสร้าง pattern ขนาด 4×2 เล็ก ๆ ด้วยสีพื้นฐานไม่กี่สี:
 
 ```java
 // Edit the pattern data
@@ -135,11 +139,11 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-> **ข้อผิดพลาดทั่วไป:** ลืมอัปเดต `PatternId` จะทำให้ pattern เก่าเชื่อมต่ออยู่และการเปลี่ยนแปลงจะไม่แสดงผล
+> **ข้อผิดพลาดทั่วไป:** ลืมอัปเดต `PatternId` จะทำให้ pattern เก่าอยู่อย่างต่อเนื่อง, ทำให้การเปลี่ยนแปลงไม่แสดงผล.
 
-### ขั้นตอนที่ 5: บันทึกภาพที่แก้ไขแล้ว
+### ขั้นตอนที่ 5: บันทึกภาพที่แก้ไข
 
-บันทึกการเปลี่ยนแปลงลงไฟล์ใหม่ เราจะอัปเดตชื่อและ ID ของ pattern ในการตั้งค่าก่อนบันทึก:
+บันทึกการเปลี่ยนแปลงลงไฟล์ใหม่ เราอัปเดตชื่อและ ID ของ pattern ในการตั้งค่าก่อนบันทึก:
 
 ```java
 // Save the edited image
@@ -150,7 +154,7 @@ im.save(exportPath);
 
 ### ขั้นตอนที่ 6: ตรวจสอบการเปลี่ยนแปลง
 
-โหลดไฟล์ที่บันทึกใหม่และยืนยันว่า overlay แสดงการตั้งค่าใหม่แล้ว:
+โหลดไฟล์ที่บันทึกใหม่และยืนยันว่า overlay สะท้อนการตั้งค่าใหม่:
 
 ```java
 // Verify the changes in the edited file
@@ -160,42 +164,54 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 // Add assertions to ensure the changes have been applied successfully
 ```
 
-คุณสามารถเพิ่มการตรวจสอบแบบ unit‑test (เช่น ตรวจสอบว่า `patternOverlayEffect.getOpacity()` มีค่าเท่ากับ `193`) เพื่อทำให้การตรวจสอบอัตโนมัติ
+คุณสามารถเพิ่มการตรวจสอบแบบ unit‑test‑style ที่นี่ (เช่น ตรวจสอบว่า `patternOverlayEffect.getOpacity()` มีค่าเท่ากับ `193`) เพื่อทำให้การตรวจสอบอัตโนมัติ.
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## วิธีใช้ Texture Overlay ด้วย Aspose.PSD
 
-| ปัญหา | สาเหตุ | วิธีแก้ |
+หากเป้าหมายของคุณคือ **apply texture overlay** แทนการใช้ pattern ธรรมดา, คุณสามารถใช้วัตถุ `PatternFillSettings` เดียวกันแต่ใส่บิตแมพที่ใหญ่กว่าเพื่อเป็นตัวแทนของ texture ปรับ `horizontalOffset` และ `verticalOffset` เพื่อเรียงต่อ texture ตามต้องการ.
+
+## วิธีเปลี่ยนสี Pattern Overlay
+
+การเปลี่ยนสี overlay ทำได้ง่ายโดยเรียก `settings.setColor(...)` ตัวอย่างใน **Step 3** แสดงการสลับสีเป็นสีเขียว คุณสามารถทดลองใช้ค่าคงที่ `Color` ใดก็ได้หรือสร้างค่า ARGB ที่กำหนดเอง.
+
+## วิธีสร้าง Pattern PSD แบบกำหนดเอง
+
+ลูปใน **Step 4** แสดงวิธีสร้าง pattern กำหนดเองโดยโปรแกรม โดยการเติมอาร์เรย์ `int[]` ด้วยค่า ARGB ของคุณเองและกำหนดขนาดสี่เหลี่ยม, คุณสามารถสร้าง pattern ที่ทำซ้ำได้ทุกแบบ—เหมาะสำหรับสร้างพื้นผิวที่เฉพาะเจาะจงตามแบรนด์แบบเรียลไทม์.
+
+## ปัญหาทั่วไปและวิธีแก้
+
+| Issue | Reason | Fix |
 |-------|--------|-----|
-| **Pattern ไม่เปลี่ยน** | `PatternId` ไม่ได้อัปเดตหรือดัชนีเลเยอร์ผิด | ตรวจสอบให้แน่ใจว่าแก้ไข `PattResource` ที่ถูกต้องและเรียก `settings.setPatternId(...)` |
-| **สีกลับหัว** | ตั้งค่าโหมดผสมเป็น `Difference` โดยไม่ได้ตั้งใจ | เลือกโหมดผสมที่ตรงกับความต้องการของออกแบบ (เช่น `Normal`, `Overlay`) |
-| **PSD ที่ส่งออกสูญเสียเลเยอร์** | ใช้เวอร์ชัน Aspose.PSD เก่ากว่า | อัปเกรดเป็น Aspose.PSD สำหรับ Java เวอร์ชันล่าสุด |
-| **`NullPointerException` ที่ `getEffects()[0]`** | เลเยอร์ไม่มีเอฟเฟกต์ใด ๆ ถูกใช้ | ตรวจสอบว่าเลเยอร์มี `PatternOverlayEffect` ก่อนทำการแคส |
+| **Pattern does not change** | `PatternId` not updated or wrong layer index | Ensure you modify the correct `PattResource` and call `settings.setPatternId(...)`. |
+| **Colors appear inverted** | Blend mode set to `Difference` unintentionally | Choose a blend mode that matches your design intent (e.g., `Normal`, `Overlay`). |
+| **Exported PSD loses layers** | Using an outdated Aspose.PSD version | Upgrade to the latest Aspose.PSD for Java release. |
+| **`NullPointerException` on `getEffects()[0]`** | Layer has no effects applied | Verify the layer actually contains a `PatternOverlayEffect` before casting. |
 
 ## คำถามที่พบบ่อย
 
-**Q: ฉันสามารถใช้ Aspose.PSD สำหรับ Java ร่วมกับไลบรารีการประมวลผลภาพ Java อื่นได้หรือไม่?**  
-A: Aspose.PSD สำหรับ Java ทำงานอิสระได้, แต่คุณสามารถผสานกับไลบรารีเช่น ImageIO หรือ TwelveMonkeys เพื่อรองรับฟอร์แมตเพิ่มเติมได้
+**Q: ฉันสามารถใช้ Aspose.PSD for Java ร่วมกับไลบรารีการประมวลผลภาพ Java อื่นได้หรือไม่?**  
+A: Aspose.PSD for Java ทำงานอย่างอิสระ, แต่คุณสามารถผสานกับไลบรารีเช่น ImageIO หรือ TwelveMonkeys เพื่อสนับสนุนฟอร์แมตเพิ่มเติมได้.
 
-**Q: ฉันจะหาเอกสารรายละเอียดของ Aspose.PSD สำหรับ Java ได้จากที่ไหน?**  
-A: ดูที่ [เอกสาร Aspose.PSD สำหรับ Java](https://reference.aspose.com/psd/java/) เพื่อรับข้อมูล API อย่างครบถ้วน
+**Q: จะหาเอกสารรายละเอียดของ Aspose.PSD for Java ได้จากที่ไหน?**  
+A: ดูที่ [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) เพื่ออ้างอิง API อย่างครบถ้วน.
 
-**Q: มีรุ่นทดลองฟรีสำหรับ Aspose.PSD สำหรับ Java หรือไม่?**  
-A: มี, คุณสามารถดาวน์โหลดรุ่นทดลองฟรีได้จาก [หน้าดาวน์โหลด Aspose.PSD](https://releases.aspose.com/)  
+**Q: มีรุ่นทดลองฟรีสำหรับ Aspose.PSD for Java หรือไม่?**  
+A: มี, คุณสามารถดาวน์โหลดรุ่นทดลองฟรีจาก [Aspose.PSD download page](https://releases.aspose.com/).
 
-**Q: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.PSD สำหรับ Java ได้อย่างไร?**  
-A: เยี่ยมชม [ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34) เพื่อรับความช่วยเหลือจากชุมชน หรือซื้อแผนสนับสนุนเพื่อรับการช่วยเหลือโดยตรง
+**Q: จะขอรับการสนับสนุนสำหรับ Aspose.PSD for Java ได้อย่างไร?**  
+A: เยี่ยมชม [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) เพื่อรับความช่วยเหลือจากชุมชนหรือซื้อแผนสนับสนุนสำหรับการช่วยเหลือโดยตรง.
 
-**Q: มีใบอนุญาตชั่วคราวสำหรับ Aspose.PSD สำหรับ Java หรือไม่?**  
-A: มี, คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [หน้าลิขสิทธิ์ชั่วคราวของ Aspose](https://purchase.aspose.com/temporary-license/)
+**Q: สามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD for Java ได้หรือไม่?**  
+A: ได้, ใบอนุญาตชั่วคราวมีให้ผ่าน [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## สรุป
 
-คุณได้เรียนรู้วิธี **เพิ่มเอฟเฟกต์ pattern overlay** ให้กับไฟล์ PSD ด้วย Aspose.PSD สำหรับ Java แล้ว โดยการจัดการโหมดผสม, ความทึบ, การเยื้อง, และบิตแมป pattern ด้านล่าง คุณสามารถสร้างเทกซ์เจอร์และองค์ประกอบแบรนด์แบบไดนามิกโดยตรงจากโค้ด Java ของคุณ อย่ากลัวที่จะทดลองสี, pattern, และโหมดผสมต่าง ๆ เพื่อให้สอดคล้องกับสไตล์ภาพของโครงการของคุณ
+คุณได้เรียนรู้วิธี **add pattern overlay** ให้กับไฟล์ PSD ด้วย Aspose.PSD for Java แล้ว โดยการจัดการโหมดผสม, ความทึบ, การเลื่อนตำแหน่ง, และบิตแมพ pattern ด้านล่าง คุณสามารถสร้างพื้นผิวไดนามิกและองค์ประกอบแบรนด์โดยตรงจากโค้ด Java ของคุณ อย่ากลัวที่จะทดลองสี, pattern, และโหมดผสมต่าง ๆ เพื่อให้สอดคล้องกับสไตล์ภาพของโครงการของคุณ
 
 ---
 
-**อัปเดตล่าสุด:** 2025-11-30  
-**ทดสอบด้วย:** Aspose.PSD สำหรับ Java 24.12 (เวอร์ชันล่าสุด ณ เวลาที่เขียน)  
+**อัปเดตล่าสุด:** 2026-04-12  
+**ทดสอบกับ:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
